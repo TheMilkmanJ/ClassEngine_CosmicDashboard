@@ -25,6 +25,9 @@ and falsified in dilute-gas BECs and superconducting circuits.**
 | Landau critical velocity experiments | cert-1/F3 — the certificate that capped the vacuum budget and broke the BH interior | founding certificate |
 | analog sonic horizons (Steinhauer-class) | phonon Hawking radiation — the BH exterior thermodynamics | standard analog-gravity |
 | Kibble–Zurek quenches in BECs | the first-genesis domain formation and winding generation | textbook mechanism, measured in labs |
+| nuclear pairing gaps (odd-even mass staggering) | the basement roster's gap equation — paired fermions at O(1) coupling | calibration bench; thousands of measured gaps |
+| muonium, positronium | purely leptonic bound states — the lepton portal's constituents, no hadronic structure | kinship row; no live test under the closed ε window |
+| superconductors (Ginzburg parameters, vortex lattices, coherence phenomenology) | the vacuum as a superconductor-class object | required-consistency checks on the basement |
 
 ## 2. The improvement, stated precisely
 
@@ -85,3 +88,31 @@ measurable in existing rotating-ring apparatus.
 
 The two rows that do not carry are the reason a bench result can support the model's
 *machinery* and never its *amplitude*.
+
+## The three rows added 2026-07-20, and what each is worth
+
+**Nuclear pairing — the heaviest instrument on the bench.** The odd-even staggering of nuclear
+masses is a pairing gap: nucleon superfluidity inside every nucleus, of order an MeV across the
+chart of nuclides (the empirical scale Δ ≈ 12 A^{−1/2} MeV — 1.5 MeV at A = 60, 1.1 at A = 120,
+0.83 at A = 208), and measured to keV precision because it is read off mass differences. The
+model's basement is a gap-equation program — paired fermions, O(1) couplings, a gap set by a
+density of states — and nuclear pairing is the one laboratory sibling with *thousands* of
+independently measured gaps to check that program's form against. *What it does not test:* the
+medium's own coupling. Nuclear pairing runs on the strong force, so it calibrates the shape of
+the gap equation and the size of its O(1) constants, never α_c. It is a bench for the machinery,
+which is the same limit every other row on the table carries.
+
+**Muonium and positronium — the cleanest probe that has nothing to measure.** The model's one
+coupling is a lepton portal, and μ⁺e⁻ and e⁺e⁻ are bound states made only of the portal's own
+constituents: no nuclear structure, no hadronic corrections, nothing between the measurement and
+the electron mass. Any in-window m_e physics would appear here first and most cleanly. It does
+not appear, and the model says it should not: the ε window closed at z ≈ 50, so a present-day
+bench reads standard **by constitution**, not by tuning. This is a kinship row — it records where
+the model's constituents sit in the laboratory, and it registers no test.
+
+**Superconductivity points the other way.** The rest of this table reads left-to-right: the
+laboratory verifies machinery the model borrowed. Superconductivity reads right-to-left. The
+model *predicts* the vacuum is a superconductor-class object, which puts the standard
+superconducting toolbox — Ginzburg parameters, vortex-lattice structure, coherence-peak
+phenomenology — on the basement as a source of required consistency. These are constraints the
+model must survive, not certificates it may cite.

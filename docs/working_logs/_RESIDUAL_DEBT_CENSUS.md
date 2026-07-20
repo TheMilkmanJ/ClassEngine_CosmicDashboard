@@ -20,7 +20,7 @@ should stop being counted as a debt.*
 | **T11 Hubble** | the instrument pricing gains a channel: the dark-ages offset is now registered (P-2026-050) | PolyChord — **running, prior phase closed** | TRGB (P-2026-001) | the EDE-comparison fairness pass |
 | **T12 radio lattice** | dark-ages forecasts — the numbers are registered (P-2026-050: +0.40 MHz at the z ≈ 87 trough); the WHIM cross-check is priced by the gate's energy bookkeeping (~50 eV per particle); the synchrotron row's weight convention is declared in the lattice table (fixed-field −1ε, fixed-energy −3ε) | — | below-z = 50 null record | BipoSH estimator pass |
 | **T13 fingerprint** | items 1–3 all paid (the ε-epoch table; the referee calendar; the joint-likelihood build) | — | the helium fork | the D/H error budget's reproducibility — stands open |
-| **T14 IGMF helicity** | item 2 (the hint's status pass) | — | Fermi/parity-odd claims | **sharpened 2026-07-18**: the missing step is one relative sign (matter rides the temporal rotation, handedness rides the spatial winding — their product is what genesis sets), and the object that closes it is the corpus's own first-roll-at-rest theorem, run for its SIGN rather than for existence. Until then the hint is a watch, not a test |
+| **T14 IGMF helicity** | item 2 (the hint's status pass); **the seeding step's conversion law** — the Harrison battery's coefficient enters the helicity squared, so sign(helicity_B) = sign(H_kin) exactly and no convention survives (task #158) | — | Fermi/parity-odd claims | **two signs, not one** (#158, 2026-07-20). **Link 4, the seeding:** kinetic helicity is a linkage, and neither recorded rotation supplies one — a rigid rotation has u·ω = 0 and the winding current k₀ = 2πn/L is curl-free; the handedness lives in the roll-up's helical ring, whose helicity is bilinear in its poloidal and toroidal circulations, so what is owed is the sign of one relative to the other. **Link 5, the rectification:** matter rides the temporal rotation, handedness rides the spatial winding, and their product is what genesis sets — the first-roll-at-rest theorem run for its SIGN (#154). Different objects; closing link 5 alone does not make the hint readable |
 | **T15 indirect detection** | item 1 (tree σv = 0; ceiling ~10⁻¹⁵⁴ cm³/s) | — | GC-excess pulsar progress | — |
 | **T16 LSS parity** | item 1 (short by ~7 orders; the bet-against-the-anomaly registered) | — | DESI 4PCF | the axis-correlation check if the signal firms |
 
@@ -49,5 +49,6 @@ been run, and this file's own table records each: T10 COMPUTED 2026-07-18, T5 RU
 T1 priced by the galactic-centre budget test. The count above predates them.)*
 
 **The two that carry the most weight:** the cavity C_ℓ computation (T5 — without it "the model
-predicts the low-ℓ anomalies" stays a claim rather than a result) and the rectification link
-(T14 — without it the helicity family's first datum cannot be read even if it lands).
+predicts the low-ℓ anomalies" stays a claim rather than a result) and T14's pair of sign links, the
+seeding and the rectification (without **both** the helicity family's first datum cannot be read
+even if it lands — they sit on different objects, and either one open keeps the dictionary shut).

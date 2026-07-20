@@ -463,19 +463,45 @@ read as two claims about the hazard N̄:
 
 **The forced sharpness is produced, not imposed:** if the seeds are threshold crossings of the
 medium's Gaussian-statistics fluctuations with an amplitude-linear threshold map, the effective
-exponent in the transition zone is n_eff ≈ ν²/2 (ν = the seed threshold in σ units; the exact
-erfc slope runs slightly steeper: ν = 2.2σ gives 2.81, ν = 3σ gives 4.92) — so **ν ≳ 2.1σ
-delivers n_eff > 2.43**, meeting §3's MICROSCOPE/quasar-forced bound from the event statistics
-alone, for any but sub-2σ seeding. **The seed-count exponent — the sharpness is
-unconditional.** For threshold-crossing seeds the effective exponent is set by the crossing
-height in units of the medium's fluctuation amplitude, n_eff ≈ ν²/2, and §3's forced n > 2.43
-is met for ν > 2.03. So the gate is a hard step **whenever σ < 0.49·δ_c** — whenever the medium
-is in its linear regime at the threshold scale. No seed identity is required: the winding
-field's own ceiling (σ ≈ 0.012, from the n_s subdominance condition) gives n_eff of order
-10³, a ten-times-rougher medium still gives 50, and the bound fails only for a medium
-fluctuating at order the crossing threshold itself — a medium already nonlinear everywhere,
-which the model's structure excludes. What remains scale-dependent is the exponent's exact
-value (that needs the C²-to-threshold map); the hard-step conclusion does not. Grade: **gate variable derived-structural (conditional on the census
-coupling form); gate form derived at class level (survival/exponential-power — the power form
-retired); the exponent hard-step unconditionally (its exact value map-dependent); C_ref
-input.**
+exponent in the transition zone is n_eff ≈ ν²/2 (ν = the seed threshold in σ units). The exact
+slope is closed-form, not an approximation — with φ the standard-normal density and Q its upper
+tail,
+
+> **n_eff(ν) = ½·ν·φ(ν)/Q(ν)**, running slightly steeper than ν²/2: ν = 2.2 gives 2.81, ν = 3
+> gives 4.92, and §3's forced **n > 2.43 is met for ν > 2.027**.
+
+So the gate is a hard step **whenever σ < 0.493·δ_c** — whenever the medium is in its linear
+regime at the threshold scale. **The seed-count exponent — the sharpness is unconditional**, and
+no seed identity is required to say so: any medium fluctuating well below its own crossing
+threshold gives a step, and the bound fails only for a medium fluctuating at order the threshold
+itself, already nonlinear everywhere, which the model's structure excludes.
+
+**The C²-to-threshold map, reduced to one number.** The exponent's *value* is what the sharpness
+argument leaves open, and the reduction is sharper than "needs a map". The recorded hazard carries
+its own normalization — N̄ = (C²/C_ref²)ⁿ means **N̄(C_ref) = 1** — while the seed statistics give
+N̄ = N_cell·Q(ν), with N_cell the number of independent seed cells inside the portal's coherence
+volume. The two together *fix* ν at the reference curvature instead of leaving it free:
+
+> **Q(ν_ref) = 1/N_cell**, and **n = ½·ν_ref·φ(ν_ref)·N_cell**
+
+(the amplitude-linear map is σ ∝ C, so ν ∝ 1/C and d ln ν/d ln C² = −½ — which is where both the
+½ and the large-ν limit n → ν²/2 come from). Hence **n ≈ ln N_cell**, less an offset that grows
+only logarithmically (1.2 at N_cell = 10, 2.1 at 10⁶, 3.0 at 10⁴⁰), and the whole map collapses
+to a single number, the cell count **N_cell = (ξ_portal/ℓ_seed)³**. §3's forced n > 2.43 becomes
+**N_cell > 46.9**, i.e. **ξ_portal/ℓ_seed > 3.61** — the bound fails only if the coherence volume
+holds fewer than ~47 independent seed cells, fewer than a condensate can hold and still be one.
+The logarithm is also why the exponent's exact value has never mattered downstream: a hundred
+decades of cell count buy two decades of n.
+
+**The one owed object, named: ℓ_seed** — the seed's own correlation length inside the portal's
+coherence volume. Nothing else is owed, and in particular (σ, δ_c) is *not* a second independent
+route to n: the normalization above already determines σ(C_ref) = δ_c/ν_ref from the cell count,
+so an externally sourced σ over-determines the gate rather than evaluating it. Read that way the
+winding field's own ceiling (σ ≈ 0.012 from the n_s subdominance condition, against a unit
+threshold) would demand N_cell = 10¹⁵¹⁰, which overshoots even a Planck-seeded coherence volume
+(10¹⁴⁶ cells at ξ = 398 AU) by some 1360 orders. That route is sound as the *bound* it was written
+for — σ ≪ δ_c forces ν ≫ 1 forces a step — and is not available as a valuation. Grade: **gate
+variable derived-structural (conditional on the census coupling form); gate form derived at class
+level (survival/exponential-power — the power form retired); the exponent hard-step
+unconditionally, its value reduced to the closed form n(N_cell) with ℓ_seed the single owed
+number; C_ref input.**

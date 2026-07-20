@@ -23,22 +23,46 @@ $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 | **c** | 9/10 | **derived** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel). The 8/9 charge²-weighted reading is excluded by the gravity-blind democratic rule. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
 | **f̄** | 2/π ≈ 0.6366 | **derived** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved — see below. The ε-blind ensemble gives c = 0.903 [0.867, 0.942], −0.08σ from 9/10. |
 
-**The velocity ladder (arithmetic, with its one mechanism class and its fence).** The base
+**The velocity ladder — the interface named, and what the naming costs.** The base
 claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio
 √α: light (c), the second sound (0.0854c), the Bohr velocity (αc) — the first sound sits √d
 above the middle rung. The one mechanism class that generically *produces* geometric-mean
 speeds is **matched-junction transfer** (a junction transmits without reflection when the
-intermediate impedance is the geometric mean of the two it joins), which would read the
+intermediate impedance is the geometric mean of the two it joins), which reads the
 thermal mode as the reflection-free match between the radiative sector and the binding sector.
-**The fence, from the corpus's own measured junction:** a matched junction transmits at order
-unity, while the model's one measured transfer — the baryon asymmetry's, η = n × transmission
-— runs at ~10⁻¹¹. So either the two readings name different interfaces (an internal mode-match
-versus the dark-to-visible transfer) or the matched-junction reading is wrong. Naming which
-interface is which is this thread's first payable step; until then the ladder is arithmetic
-and carries no weight.
+
+**The interface, named — it is internal to the dCDF, and the impedance algebra is what names
+it.** A junction matches when Z_m = √(Z₁Z₂), and the specific impedance of a propagating
+channel is Z = ρ·v. So the *velocities* stand in geometric progression only if the *densities*
+do too, ρ_m = √(ρ₁ρ₂) — a condition one medium carrying three channels satisfies identically
+(ρ₁ = ρ₂ = ρ_m), and two media of unequal density do not. The ladder's three rungs are three
+responses of the single dCDF: its Goldstone propagating (light, c), its entropy wave (second
+sound, √α·c), and the binding its Goldstone's coupling sets (the Bohr velocity, αc). The
+junction is therefore the **Goldstone-channel ↔ binding-channel interface inside the one
+medium**, with the entropy wave as the matching section.
+
+**The fence dissolves, and the same algebra dissolves it.** The corpus's measured transfer —
+the baryon asymmetry's, η = n × transmission, at ~10⁻¹¹ — joins the dark medium to the visible
+one, densities many orders apart, where ρ_m = √(ρ₁ρ₂) has no occupant: that junction is
+unmatched by construction and *must* transmit far below unity. The internal mode-match shares
+one density and transmits at order unity. The impedance condition does not merely permit the
+two readings to name different interfaces; it separates them.
+
+**What the naming costs, and what it would win.** The premise the naming rides on — that the
+radiative and binding channels are responses of one medium — is not new debt: it is the
+**same-response identification** already owed by α_c below (one medium response setting both
+the photon's coupling and the condensate's compressibility). The ladder is refereed by that
+identification and adds no independent unknown. What stays owed is the *geometric* half of the
+matching condition — the section's own scale, the quarter-wave thickness or adiabatic-taper
+length, which the amplitude condition does not supply. And the prize is worth stating plainly:
+the middle rung is not independent arithmetic but α_c = d·α read forwards (c₁ = √α_c·c with
+Landau's c₂ = c₁/√d gives c₂ = √α·c *if* α_c = 3α), so a matched-junction *derivation* of
+c₂ = √(c·αc) runs that implication backwards and **derives the model's one registered bet**.
+Until the section's scale is supplied the ladder still carries no weight — but it now carries a
+named target rather than a fence.
 
 **The coupling form, resolved.** Once equidistribution is granted, the winding projection is cos θ with θ uniform on [0, 2π), and *which average* sets f̄ is the coupling's order. Four candidates, and the model's own data adjudicates: signed-linear ⟨cos⟩ = **0** (a signed projection averages to nothing — excluded outright by the observed ε > 0, so the coupling must be sign-insensitive); rectified-linear ⟨\|cos\|⟩ = **2/π = 0.6366**; RMS √⟨cos²⟩ = **0.7071**; variance ⟨cos²⟩ = **0.5**. A first-order Yukawa mass shift δm = g·A_eff is **linear** in the winding-projected condensate amplitude, and mass-positivity **rectifies** the sign — giving the mean-absolute, 2/π. The quadratic readings are the subleading (energy-density) coupling. And the corpus's two independent measurements — fit-implied f̄ = 0.6253, winding-sim = 0.635 — **both land on 2/π** (+1.8%, +0.3%) and **reject RMS at +13%** and variance further still. So the coupling form is not a free choice: mass-positivity kills the signed average, leading-order dominance picks linear over quadratic, and the data confirms the selection over the RMS alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
-| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**, and it arrives twice over: the phonon-gas second sound runs at c₂ = c₁/√d (Landau), and the induced loop's transverse trace gives the same d. The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α holds for the recorded ~44% induced fraction). The running α_c chain is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1, so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i). |
+| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**, and it arrives twice over: the phonon-gas second sound runs at c₂ = c₁/√d (Landau), and the induced loop's transverse trace gives the same d. The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α holds for the recorded ~44% induced fraction). The running α_c chain is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i). |
 
 The three ε values in the corpus differ deliberately: 1.232% (production fit), ~1.24% (posterior), 1.2543%
 (the derived stack). The gap is inside the posterior width; the running measurements decide.
@@ -351,7 +375,7 @@ neither**: it is the separate high-decay-constant field of §8 item 1b. The hone
 former one-object reading, in three parts: (i) **the single T_c splits into two electron-anchored
 scales** — the SU(2) confinement scale τ·m_e = 177.10 keV (the flagship's, portal-anchored,
 lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, log-band
-[40, 900] keV; the recorded BBN stability fence covers [179, 369], its lower edge the then-operating point — the kernel's 177.10 sits 1.1% below it at 0.002σ on D/H); their near-equality is two
+[40, 900] keV; the BBN-stability fence, stated on the derived anchor, is **[70, 500] keV** — the deuterium bottleneck below it and the weak-rate window above it, the two clocks that actually bound T_c — and 177.10 keV sits interior, 2.5× above the lower edge and 2.8× below the upper. **Across that entire range the BBN verdict moves by at most 0.32σ on D/H**, so the fence cannot be broken by any re-pin inside it; the kernel's own 1.1% move costs 0.0022σ, one part in 449 of the row's width); their near-equality is two
 anchors coinciding at the electron scale for separate reasons (the portal vs the electron loop),
 not one object. (ii) **The Majoron scale, priced at all three corners (2026-07-18).** The registry already
 carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV, S4-dark; CMB-S4 the
@@ -443,7 +467,12 @@ irreducible input.
   window [1.35, 1.37], never a landing fit; the **4π is the standard 1-loop factor**, and the **cube is the
   three spatial dimensions**. So A_s = 1/N with N = (4πk/α_c)³ assembles from a derived coupling, a loop
   factor, and 3D. The genuine residual is the exact O(1) **normalization of the shot-noise count** (the
-  "count C" — whether the assembly is exactly (4πk/α_c)³), which lands A_s to −0.35%. Deliberately exposed;
+  "count C" — whether the assembly is exactly (4πk/α_c)³), and it resolves into **two** O(1)s:
+  C = R²(k_*ℓ_p)³/2π² carries the pivot-volume convention ℓ_p and the transfer R = ∂ζ/∂(δn/n̄), and at
+  the conformal w = ⅓ transfer R = ¼ the natural conventions give C = π/4, 0.098, 3.2×10⁻³ — none of
+  them 1. The closed form lands **−0.92% (−0.66σ)** against the measured 2.100×10⁻⁹; the −0.35% quoted
+  beside the pipeline's frozen input is the closed form against its own value at the concordance k, a
+  k-spread rather than a test of the count. Deliberately exposed;
   the referee is the live zero-parameter run — the Eliashberg k-audit has run, placing k in
   [1.35, 1.37] at three-way concordance.
 - **n_s = 1 − 2/ln(T₀/k), k-local — mechanism candidate (exhibited): 0.9677 at the pivot,

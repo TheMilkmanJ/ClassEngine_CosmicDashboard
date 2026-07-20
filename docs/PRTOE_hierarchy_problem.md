@@ -76,7 +76,7 @@ ln(M_red/4πm_H) = 34.975 — a residual of **1.5014** at m_H central,
 $$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)\,-\,3/2} = 1576\ \text{GeV}\quad
 (\text{measured } 4\pi m_H = 1574;\ +0.14\%)$$
 
-One coupling serves both floors (A_s to −0.35%, the anchor to +0.14%). The data selects the
+One coupling serves both floors (A_s to −0.92% of the measured amplitude, the anchor to +0.14%). The data selects the
 log normalization: a single-log gap condition [ln(M_red/M) − 3/2] = 1/(kα_c) matches; a
 squared-mass-log form gives 3/4 (excluded). **Grade: sharp underived residual — the
 derivation of the 3/2 is DEAD.** All four natural attachment routes were computed and fail:
@@ -608,11 +608,15 @@ both infrared; A_s at genesis and the hierarchy anchor at the Planck floor, both
 anchor cannot test the scale, because ∂lnM/∂lnα_c = 25.8 swamps it. **A_s can**: its sensitivity is
 ∂lnA_s/∂lnα_c = 3.69, and it is measured to ~1.4%.
 
-| α_c | A_s | vs measured 2.088×10⁻⁹ |
+| α_c | A_s | vs the pipeline's frozen 2.088×10⁻⁹ |
 |---|---|---|
 | **3α(0)** | 2.0807×10⁻⁹ | **−0.4%** |
 | 3α(M_Z) | 2.681×10⁻⁹ | +28.4% |
 | 3α extrapolated toward 10¹⁷ GeV | 5.395×10⁻⁹ | +158% |
+
+*(The frozen column is the pipeline's input, itself the closed form at the concordance k; against the
+measured 2.100×10⁻⁹ the infrared row reads **−0.92%, −0.66σ**, and the other two rows move by the same
+0.6 points. The selection is unaffected — the spread between rows is 28% and 158%.)*
 
 **A_s is a primordial observable, and it selects the infrared value.** So the answer to §6h is
 horn (b), and it is *data-selected* rather than assumed, in the same way the corpus already selects
@@ -621,12 +625,15 @@ same number at recombination, at the eV scale, at genesis and at the Planck floo
 The "orders higher" worry of §6f is therefore lifted — the anchor's use of 3α(0) is correct, and its
 band stays where §6e put it.
 
-**The condition, stated because it binds.** A_s = C·(α_c/4πk)³ with the count C an unmechanized
-O(1) that the corpus claims is exactly 1. If C were instead ≈ 0.385, a running α_c would reproduce
-A_s and the test evaporates. So this argument rides C = 1 — which means **"the count is exactly
-(4πk/α_c)³" and "α_c does not run" now stand or fall together.** They were previously independent
-claims; they are one joint now, and either one failing takes the other with it. That is a real
-tightening of the corpus's exposure and it is recorded as such rather than as a free win.
+**The condition, stated because it binds — and it binds harder than the extrapolated column
+suggests.** A_s = C·(α_c/4πk)³ with the count C an unmechanized O(1) that the corpus claims is
+exactly 1. The UV-extrapolated reading needs C ≈ 0.387 to reproduce A_s, which is a strained O(1);
+**the α(M_Z) reading needs only C ≈ 0.779**, which is not. So the selection is not "C = 1 against
+something absurd" — it requires **C = 1 to about ±22%**, and the count is derived to nothing like
+that. So this argument rides C = 1 — which means **"the count is exactly (4πk/α_c)³" and "α_c does
+not run" now stand or fall together.** They were previously independent claims; they are one joint
+now, and either one failing takes the other with it. That is a real tightening of the corpus's
+exposure and it is recorded as such rather than as a free win.
 
 
 ### 6j. Electroweak precision — the constraint that actually applies

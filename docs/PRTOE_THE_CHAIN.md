@@ -127,18 +127,23 @@ next cycle's genesis reads this cycle's closing books and nothing else.
 
 **Solid spine:** tethers 1→2→3→4, 6→7, 9→10, and 10→11's expanding branch (computed) — the
 mid-chain is the model's strength (which is why the fit works: the data lives mid-chain).
-**The three named debts (what unification still owes):** (i) the bounce equations (0→1) and
+**The two named debts (what unification still owes):** (i) the bounce equations (0→1) and
 the contracting branch (the expanding turn is computed — a ≈ 2.0–2.8, MATH_SPINE §7d; the
 bounce sector holds both ends of the cycle); (ii) the two-draws question (4→5 — the
-draw-epoch conflict's proposed resolution, geometric session decides); (iii) the cold-spot
-orphan — the anomaly family's unclaimed sibling, no chain address assigned (candidate: a
-link-1 vortex/void relic; unexplored). *(The τ link, formerly the fourth debt, reduced to
-the edge-shape discriminator link 7 already carries — tether 7→8.)*
+draw-epoch conflict's proposed resolution, geometric session decides). *(The τ link reduced
+to the edge-shape discriminator link 7 already carries — tether 7→8.)*
 **Checked-and-cold rooms (filed, no claims):** the condensation GW background (misses
 PTA both ways); the 511 keV line vs leptophilia (the transfer vertex is seesaw-tiny —
 cold by the recorded number, one honest look owed someday).
 **Principled silences (not debts):** strong-CP, collapse dynamics, the jurisdiction
-clause, quark flavor detail (leptophilia is derived — the quarks' books are not ours).
+clause, quark flavor detail (leptophilia is derived — the quarks' books are not ours), and
+**the CMB cold spot** — the anomaly family's machinery is anisotropic-Gaussian (axes, spectra,
+covariances) and a cold spot is localized, sign-definite and phase-coherent, so no link
+sources one; the distinctive route (a texture) is closed by the medium's order parameter —
+a global U(1) with π₃ = 0 — and buried by its scale besides. Its one physical address is the
+late-ISW supervoid at links 9–10, where the fluid's linear sector is ΛCDM-identical, so the
+model inherits that reading unchanged rather than claiming it
+([PRTOE_cmb_anomalies.md](PRTOE_cmb_anomalies.md)).
 
 *The chain law's enforcement clause: every future claim must name its LINK and its
 TETHERS. A claim that cannot say which epoch it lives in and what it inherits/delivers

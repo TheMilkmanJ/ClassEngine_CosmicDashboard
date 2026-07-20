@@ -36,7 +36,7 @@ sensitivity; n reading differently in two members.
 
 ## Sources
 
-[PlanckIso2019], [HajianSouradeep2003], [CSS1998], internal: P-024/P-029/P-031, the
+[PlanckIso2019], [HajianSouradeep2003], [CSS1998], [Cruz2007], [Szapudi2015], internal: P-024/P-029/P-031, the
 Assembly Six, the BipoSH pass, threads 12–16. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## 3. How to check — the tiered protocol + the Tier-0 reading
@@ -88,3 +88,62 @@ size, the pattern is specific — strongest between m and −m at fixed multipol
 at ℓ = 2 and 4) and between ℓ and ℓ+2 at fixed m (ρ ≈ 0.51 for 3 × 5) — with a total
 signal-to-noise of 2.2. **That is what the alignment anomalies are, written in harmonic
 coefficients**, and it is what the BipoSH pass on the calendar now has to test against.
+
+
+## The cold spot is not a family member (2026-07-20)
+
+The sky's other standing oddity is a cold region a few degrees across at the 2–3σ class
+([PlanckIso2019]), with the Eridanus supervoid offered as a partial ΛCDM-compatible cause
+([Szapudi2015]) and a collapsing cosmic texture as the distinctive alternative ([Cruz2007]).
+It gets filed against this family by adjacency — another large-angle anomaly, another 2–3σ —
+and it does not belong here.
+
+**The family is one kind of object and a spot is another.** Every member above is either a
+direction (the ε-dipole is a gradient, ℓ = 1; the HPA a power modulation at ℓ = 1), a feature
+in ℓ (the comb's teeth; the isocurvature band at ℓ ~ 120–180), or an entry in the off-diagonal
+covariance (m ↔ −m, ℓ ↔ ℓ+2). A compact 5–10° feature is none of these. It is a statement
+about *phase* — many multipoles superposing constructively at one point on the sky — and about
+*sign*, and nothing in that list fixes either. The mechanism breaks statistical **isotropy**
+and leaves **Gaussianity** exactly where ΛCDM has it; a covariance, however anisotropic, cannot
+prefer a cold spot to a hot one, because it does not know which is which.
+
+**The geometry has no place to give.** The compact space is a flat 3-torus, and a flat 3-torus
+is homogeneous — its translations act transitively, so no point in it is distinguished. The
+winding singles out a direction and the lattice singles out directions; neither singles out a
+location. An axis family is what this geometry can produce; a spot family is not.
+
+**The distinctive route is closed twice over.** A collapsing texture is the mechanism that
+makes a sign-definite spot a few degrees wide, and it requires a vacuum manifold with
+non-trivial π₃. The medium's order parameter is a broken global U(1)
+([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)) — a circle, whose homotopy is
+exhausted by π₁ = ℤ. That π₁ is the winding and the vortex network the model already runs on;
+π₂ and π₃ both vanish. The corpus already spends the vanishing of π₂ (no monopoles, so nothing
+erases circulation — the magnetic-memory argument); π₃ is the same fact one dimension up, and
+it says the model cannot make a texture at all. Scale closes the route independently: a
+texture's imprint is δT/T ≈ 8π(η/M_Pl)², so a cold-spot-class feature needs η ≈ 8×10¹⁵ GeV,
+while the model's highest symmetry-breaking scale is the dyad's f ≈ 100–500 TeV
+([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) — eleven orders below, which is **4×10⁻²⁶ in δT/T,
+twenty orders under the sky's own 10⁻⁵**. Not un-computed; unavailable. The standard
+string-network route is separately booked as a null, the U(1) never having been restored
+([PRTOE_DOMAIN_COVERAGE.md](PRTOE_DOMAIN_COVERAGE.md)), and line defects imprint edges rather
+than disks in any case.
+
+**The one structure near the right distance is the wrong angular size.** The Kibble domains
+are the model's only distinctive feature within reach of a Gpc: ξ_K = 256 Mpc comoving against
+χ_* = 13.76 Gpc, which subtends **1.07°**. That is a fine network tiling the sky of order 10⁴
+times — several times too small in angle, and a network rather than one deep feature.
+
+**What remains is inherited.** The supervoid route runs through the late-time ISW and
+Rees–Sciama effect of an evolving potential at z ≲ 1 — chain links 9–10 — where the fluid's
+linear sector is ΛCDM-identical and its distinctive scales are sub-parsec (the P-035 floor at
+10⁻³ pc). Whatever a supervoid does to the microwave sky in ΛCDM it does here, identically and
+for the same reasons. The cold spot therefore does have a chain address; it simply is not ours
+at that address.
+
+**Verdict: silent, and the silence is constitutional.** The machinery that generates this
+family is anisotropic and Gaussian — axes, spectra, covariances — while a cold spot is
+localized, sign-definite and phase-coherent. There is no handle here to turn, and the one
+mechanism that would have supplied one is forbidden by the order parameter's topology and
+buried by its scale. This is not an unpaid debt; it is a question the model's structure has
+nothing to say about. The family stands at its recorded membership, and a confirmed cold-spot
+explanation — texture or void — costs it nothing either way.

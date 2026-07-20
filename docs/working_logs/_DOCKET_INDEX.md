@@ -144,7 +144,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 116 | The seat-alignment derivation | open |
 | 117 | THE BOUNCE SECTOR | open |
 | 118 | The two-draws question (chain link 4→5) | open |
-| 119 | The cold-spot orphan | open |
+| 119 | The cold-spot orphan | closed |
 | 120 | The regulator's entanglement-side O(1) check | open |
 | 121 | The genesis calc — exact Ψ₀ and f_amp | open |
 | 122 | Three owed-vs-completed conflicts adjudicated | closed |
@@ -156,7 +156,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 128 | The BBN-stability fence, re-stated below its own anchor | closed — fence is [70, 500] keV structural; whole-range swing ≤ 0.32σ on D/H |
 | 129 | The matched-junction interface — the velocity ladder's first payable step | open |
 | 130 | The base α's two owed pieces | open |
-| 131 | The X₀ erasure reformulation | open |
+| 131 | The X₀ erasure reformulation | closed — the X₀-free canonical form in clock units ξ = φ/√(2X₀) (v5 five-verdict §2.1); two scales, M₂ and m̄₂, both landed; the atlas whisper carries the answer |
 | 132 | Rebuild the docket index | closed — **this file**; see the note below |
 | 133 | Which rung condensation picks | open |
 | 134 | The dark vortex-pair computation — F_dark/√σ's normalization band | open |

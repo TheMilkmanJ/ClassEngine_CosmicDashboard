@@ -588,10 +588,22 @@ is its only coupling). Give it curvature and the product is determined:*
  vortices). Tripwires pre-staged before entry: the
  fresh-certificates rule; P-2026-005's no-oscillation registration
  binds any angular mode. Rooms real; entry at full price.
-- **The X₀ erasure (running):** four consecutive observables with X₀
- cancelled. The theory appears to want a formulation in which X₀
- never appears (variables: x = u/X₀ and the basin structure only) —
- a reformulation project, queued behind the numbers.
+- **The X₀ erasure — answered:** four consecutive observables came out
+ with X₀ cancelled, and the reason is that the clock was being written
+ in the wrong field units. In clock units ξ = φ/√(2X₀) the condensate
+ ticks at unit rate (ξ̇₀ = 1) and the action collapses to
+ **P = ½M₂⁴((∂ξ)² − 1)² + (m̄₂²/2)(δK)²** — X₀ eliminated, not hidden,
+ and the canonical ghost-condensate form recovered without appeal to
+ the dictionary. The medium then carries exactly TWO scales:
+ **M₂ = 9.43 eV**, the potential's own depth (α²·T_c at the
+ kernel-sourced T_c — a value that reaches this form through the
+ electromagnetic handshake, never through the hierarchy dial x₀), and
+ **m̄₂**, the stiffness, in the GUT band and fixed against the
+ quasiparticle mass by m̄₂ = M₂²/M_eff. The complex completion charges
+ for the same erasure from the other side: the phase sector hid X₀,
+ the amplitude sector prices it at μ₀ = m. Derivation: v5 five-verdict
+ §2.1. The erasure is complete in the ledger sense as well — no
+ observable in the corpus carries a value for X₀ at all.
 
 - **White holes — inadmissible, four
  kills:** (1) no formation history — formation forbidden; a state

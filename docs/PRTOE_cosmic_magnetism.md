@@ -77,11 +77,24 @@ sharpened to a single external question.
 ## 4. The signature no one else can write down: THE SIGN
 
 Every other mechanism predicts a magnitude and (at best) a spectrum. This model's field
-inherits **magnetic helicity with a sign tied to the winding**: the vorticity that seeds B is
-the genome's own rotation, so
+inherits **magnetic helicity with a sign tied to the genesis flow**, because the Harrison step
+copies that flow's handedness across faithfully. Writing H_B = ∫A·B d³x (right-handed positive) and
+using B = k ω with k = 2 m_p c/e a constant, the vector potential A = k u + ∇φ gives
 
- sign(helicity_B) = sign(n) — the winding's own draw, carried through a sign chain
- whose links 1–4 are laid (T14).
+ H_B = k² ∫u·(∇×u) d³x = k² H_kin  ⟹  **sign(helicity_B) = sign(H_kin)** — exactly, on
+ the closed 3-torus, with the battery's coefficient entering SQUARED so no sign convention
+ survives to be argued over.
+
+The registered routing sign(helicity_B) = sign(n) is that identity plus one structural condition:
+that the genesis roll-up's handedness is itself carried by the winding's draw. **That condition is
+the sector's open sign question** — kinetic helicity is a linkage, and the two rotations the model
+records outright do not supply one. A rigid rotation has u·ω = 0 identically, and the winding
+current handed off as k₀ = 2πn/L is a uniform phase gradient, hence curl-free. The handedness lives
+instead in the helical vortex ring of §1's third source, whose helicity is bilinear in its poloidal
+and toroidal circulations — so the owed object is the sign of one relative to the other
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md), the seeding
+link). The sign chain's links 1–3 are laid; link 4 is this condition, and link 5 is the
+rectification below.
 
 **The third leg does not stand, and the file states that rather than assuming past it.** Reading the
 helicity back as *which* handedness means matter-over-antimatter needs one further link — the
@@ -132,7 +145,8 @@ Consequences:
 | galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded, P-028 |
 | EM-neutrality consistency (stir, don't charge) | forced (Meissner) |
 | void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — 1.5 orders short; the working docket** |
-| helicity sign = genome sign = baryon sign | registered prediction (the falsifier with no dial) |
+| helicity sign = the seeded flow's sign, sign(helicity_B) = sign(H_kin) | derived (the battery's coefficient squares out of it) |
+| helicity sign = genome sign = baryon sign | registered prediction (the falsifier with no dial) — riding two open signs: the roll-up's handedness and the rectification |
 | coherence scale ~ Kibble ξ | distinctive, un-priced in RM statistics (owed if pursued) |
 
 ## Sources

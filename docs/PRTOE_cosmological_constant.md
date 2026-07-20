@@ -321,26 +321,50 @@ neither safe nor exposed is certifiable. It costs: **the +0.44% regrades to mean
 consistency** — E_b is the *prediction*, not an absorber of radiative pieces, so the flagship
 carries an un-pinned O(λ · few %) radiative band for any λ ≳ 0.2–0.5; the *precision* of the
 +0.44% is exposed even though its *existence* is not, and a percent-class radiative band is wider
-than the gap itself. **The one missing input is named: λ** (equivalently
-the gas parameter √(na³), the position on the BEC side) — the compositeness (Λ, g) build's un-built
-g → λ map; the size therefore books as ESTIMATE. The model's own deep-BEC framing implies dilute
-(SAFE branch) as expectation, not closure.
+than the gap itself. **The coupling λ is mapped from the sector's own NJL coupling** (equivalently
+the gas parameter √(na³), the position on the BEC side), and the map puts it past the control edge —
+so the size stays ESTIMATE, now for a stated reason rather than for a missing object.
 
-**The λ build, first pass (2026-07-17) — the two frames, and where the natural answer lands.**
-**Frame 1 (naive uniform dilute-gas map, c_s² = gn/m): self-inconsistent, rejected.** Holding
-c_s² = α_c with any cosmological density gives E_MF = ½α_c·ρ_mass, which misses E_MF = ρ_Λ by
-~100–250×; making them meet needs ρ_mass ≈ 64× today's critical density. The uniform-gas frame
-cannot carry the flagship's own identities — confirming the operative frame is the composite/P(X)
-one (exactly the fork the tribunal's Challenger suspected). **Frame 2 (composite NJL/linear-sigma
-map — the strong sector's own quartic): λ = m_σ²/2f² = 2(M/f)²,** a ratio of strong-scale
-quantities and hence roughly universal: QCD calibration gives 22.8; the dark-SU(2) band
-(M/√σ ∈ [0.65, 0.75], f/√σ ∈ [0.19, 0.25]) gives **λ ≈ 14–31, centre ≈ 23 — squarely AT the
-tribunal's control edge λ\* ≈ 22.4.** Face value: a radiative band of ~3–6% on ρ_Λ¼ (still dilute,
-√(na³) ≈ 0.04 — it is series *control* that fails, not diluteness). **The consequence, stated
-plainly: the λ gate and the τ gate MERGE** — the composite quartic sits exactly where perturbative
-control ends, so resolving the flagship's radiative band needs the same non-perturbative SU(2)
-N_f = 3 treatment that owes τ. One lattice job now gates both open numbers. *(Grade: estimate —
-the dark band is a QCD-analog transfer; the model-specific f_dark/√σ and M_dark/√σ are un-computed.)*
+**The two frames.** **Frame 1 (naive uniform dilute-gas map, c_s² = gn/m): self-inconsistent,
+rejected.** Holding c_s² = α_c with any cosmological density gives E_MF = ½α_c·ρ_mass, which misses
+E_MF = ρ_Λ by ~100–250×; making them meet needs ρ_mass ≈ 64× today's critical density. The
+uniform-gas frame cannot carry the flagship's own identities — confirming the operative frame is the
+composite/P(X) one. **Frame 2 (composite NJL/linear-sigma map — the strong sector's own quartic):
+λ = m_σ²/2f² = 2(M/f)².** In the tribunal's normalisation (V = λ|φ|⁴ for complex φ, so φ = (σ+iπ)/√2
+gives V = ¼λ(σ²+π²)²) this is *the same* λ the LHY coefficient multiplies — the two conventions
+coincide, which is what lets the map be cashed rather than merely written.
+
+**The g → λ map, forward.** Two standard NJL results close it with no new input: m_σ = 2M in the
+chiral limit, and the one-loop decay constant at the same 3-momentum cutoff the sector's own gap
+equation already uses, f² = N_c M²·F(y)/2π² with y = M/Λ and F(y) = ln((1+√(1+y²))/y) − 1/√(1+y²).
+**M² cancels:**
+
+$$\lambda \;=\; \frac{4\pi^2}{N_c\,F(M/\Lambda)}$$
+
+so the quartic depends on nothing but the colour count and the cutoff-to-constituent-mass ratio —
+and that ratio is fixed by the four-fermion coupling through the gap equation. The chain runs on
+booked inputs alone: τ = ½ln2 ⟹ g = 1/I(τ) = 2.830 (critical value 2) ⟹ M/Λ = 0.595, M = 304 keV
+(against the BCS consistency check's 312 keV) ⟹ F = 0.4317 ⟹ **λ = 45.7** at N_c = 2. The identical
+formula run on QCD returns f_π = 93.1 MeV against the measured 92.4 — 0.7% — so the machinery is
+calibrated rather than assumed. *(The four-fermion g is not itself the quartic: reading λ ← g ≈ 2.8
+understates it ~16-fold, equating a fermionic contact coupling with a bosonic self-coupling.)*
+
+**The number, with its band.** The regularisation cancels in the ratio
+λ_dark/λ_QCD = (3/N_c)(F_QCD/F_dark) = 1.755, so the band comes from anchoring on QCD, where the
+dominant systematic — the NJL σ mass, put at 2M by leading order and well below that by the physical
+f₀(500) — is measured: **λ = 26–46, centre ≈ 36.** The colour count is what carries it off the QCD
+value: at N_c = 2 the dark quartic is 3/2 of the three-colour one at the same M/Λ.
+
+**Where that lands.** Every reading in the band sits **above** the control edge λ\* = 22.4 (1.1× to
+2.1×; √(na³) = 0.043–0.077, so it is series *control* that fails, not diluteness). The LHY term is
+therefore the wrong order to quote — its formal value would be ΔE/E_MF = 22–39%, hence
+Δρ_Λ¼/ρ_Λ¼ = 5.4–9.8%, while the next term of the same series is already larger. **So the λ gate and
+the τ gate MERGE, and the merge is forced rather than marginal** — the composite quartic sits past
+where perturbative control ends, so the flagship's radiative band needs the same non-perturbative
+SU(2) N_f = 3 treatment that owes τ. One lattice job gates both open numbers. *(Grade: the map is
+**derived** — closed form, no new input, QCD-validated to 0.7%; the **size stays ESTIMATE**, now
+because the series is past control at the model's own λ rather than because λ was missing. The
++0.44% keeps its existence claim and loses its precision claim.)*
 
 **The partial wave is data-selected, and it is s-wave.** A Coulombic two-body spectrum is
 E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the channel picks the level:

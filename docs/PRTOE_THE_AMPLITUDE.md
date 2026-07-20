@@ -84,11 +84,21 @@ exchange, over the full sphere, with the screening constant 2α_c/π coming out 
 — the factor 2 being a *two-band* polarisation, which needs the two bands velocity-matched and
 not merely compensated ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). It
 sits inside the Eliashberg window [1.35, 1.37] and was never fitted to a landing. The 4π is the standard one-loop factor and the cube is the three
-spatial dimensions. Assembled: **2.0807×10⁻⁹ against the frozen 2.088×10⁻⁹, −0.35%.**
+spatial dimensions. Assembled: **2.0807×10⁻⁹**. The pipeline's frozen 2.088058×10⁻⁹ is this same
+closed form evaluated at the concordance joint k = 1.3630 instead of the closed-form k = 1.364612,
+so the −0.35% between them is the k-determination spread rather than a confrontation with data.
+**Against the measured amplitude** (2.100×10⁻⁹, ~1.4%) the closed form lands **−0.92%, −0.66σ**.
 
-**The one genuine residual is the shot-noise count's exact O(1) normalisation** — whether the
-assembly is exactly (4πk/α_c)³. That is the number the chain hangs on, and it is what the −0.35%
-measures. The count's lock criterion is mechanical: phase-slip freeze-out, Kibble–Zurek class.
+**The genuine residual is the shot-noise count's O(1) normalisation** — whether the assembly is
+exactly (4πk/α_c)³ — and it is *two* O(1)s, not one. Carrying the census through to the
+dimensionless power per log k gives A_s = R²(k_*ξ)³/2π², so the count obeys
+C ≡ A_s·N = R²(k_*ℓ_p)³/2π²: it hides the pivot-volume convention ℓ_p **and** the transfer
+coefficient R = ∂ζ/∂(δn/n̄). At the medium's own conformal (w = ⅓) transfer R = ¼, the three
+natural conventions return C = π/4, 0.098 and 3.2×10⁻³ — a factor-250 spread, none of them 1, so
+C = 1 is an identification rather than a result. Equivalently, the closed form is the claim that the
+census lock freezes cells at **k_*ξ = 3.45×10⁻³** (at R = 1) — one part in 290 of the horizon — and
+that ratio is the number the basement owes; the lock criterion is mechanical, phase-slip freeze-out,
+Kibble–Zurek class. Data cannot referee C below ±1.4% (C = 1.009 ± 0.014); the derivation must.
 
 *(A predecessor reading of this section named the residual as "the bounce's stiffness-ceiling scale,
 ~1.6×10¹⁶ GeV". That scale appears nowhere else in the corpus, is computed by no script, and does

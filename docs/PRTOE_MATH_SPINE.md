@@ -54,9 +54,16 @@ old curve is dead by its own arithmetic: it would force c = 1.005 while the cens
 c = 1. Provenance walk].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
 δm_e. (Lepton-sector; whether the dyad's scale f is the Majoron's v_L — one L-breaking scale
-or two — is the recorded open fork; leptophilia itself is symmetry-forced through the Majoron,
-quarks carrying L = 0, while why the coupling reaches the kinetic term rather than only the
-Weinberg operator is the portal's un-derived core.)
+or two — is the recorded open fork. **The portal's un-derived core is which Standard-Model
+scalar the dark-neutral bilinear |Ψ|² multiplies.** The standing operator is the
+quadratic-canonical m_e(φ) = m_e0(1 + κφ²), and the recorded roster of dark-U(1)-invariant
+couplings — |Ψ|², |Ψ|⁴, ∂_μΨ*∂^μΨ, J_μ — reaches δm_e only through |Ψ|², which is a total
+singlet: Lorentz-scalar, dark-neutral, gauge-neutral, **and L-neutral**. So it multiplies
+|Ψ|²·ψ̄ψ (the standing charged-lepton choice) and |Ψ|²·(LH)(LH)/Λ with independent
+coefficients, and lepton number screens neither — the Majoron's current couples to the phase,
+which a phase-blind |Ψ|² operator cannot see. What carries leptophilia here is **data**: BBN
+kills the quark bilinear at ≥ 12σ through the D/H quark→pion→deuteron channel. The symmetry
+argument that does bite is the reverse one — dark-U(1) forbids any coupling linear in Ψ.)
 
 The amplitude — the model's one distinctive number — assembled from three factors, each graded by a
 running instrument:

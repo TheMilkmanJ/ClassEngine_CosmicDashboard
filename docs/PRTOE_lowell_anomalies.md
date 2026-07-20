@@ -18,6 +18,11 @@ power asymmetry, parity preferences. Each is 2–3σ-ish; ΛCDM's verdict is cos
 a posteriori selection — permanently unexplainable BY CONSTRUCTION, since ΛCDM's largest
 scales are statistically isotropic and Gaussian by assumption.
 
+*(The cold spot is routinely listed alongside these and is a different kind of object —
+localized and sign-definite where these are directional. The model's machinery breaks the
+isotropy assumption and not the Gaussian one, so it reaches the four above and not that one;
+the verdict is in [PRTOE_cmb_anomalies.md](PRTOE_cmb_anomalies.md).)*
+
 ## 1. The model's structure: the universe is a cavity with a spectrum and an axis
 
 Three recorded/graded objects bear directly on the largest angles:

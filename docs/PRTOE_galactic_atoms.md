@@ -103,6 +103,37 @@ cross-link no generic FDM has.
 - No conflict with current data is known (that is the survival statement); the improvement is
  explanatory + one flagged predictive prong.
 
+## 4. The second channel, and why the halo works alone
+
+The model has one matter coupling, and it admits a second way to make an anomalous acceleration
+at galaxy scales: the gate curve's spatial gradient acting on matter's leptonic mass fraction,
+**a(L) = c²·f_lep·ε₀ / L**, with L the gradient scale. Its sign is right — ε is ON where density
+is low, so ε rises outward and F = −∇(mc²) points *inward*, extra centripetal pull at the edge,
+the RAR-friendly direction. It is census-legal by construction, since it is the model's own
+coupling and not a new force, and it evades MICROSCOPE in the screened regime.
+
+**Its a₀ landing is structural, not tuned.** The channel carries an invariant — ∫a·dr =
+c²·f_lep·ε₀, fixed by two derived numbers — so spreading that fixed integral over halo-outskirt
+scales *necessarily* lands the acceleration near a₀ = 1.2×10⁻¹⁰ m/s². Reaching a₀ takes L ≈ 140
+kpc at real stellar composition (Y_e ≈ 0.85). Mapped through an MW-class halo with the gate's
+shape parameters scanned as bands, the peak residual acceleration lands at 0.1–3.8 × a₀ across
+the entire band. The coincidence explains itself — and the same invariant then closes the door.
+
+**Why the channel cannot operate here.** The full swing's potential step is that same fixed
+integral: ΔΦ = c²·f_lep·ε₀ ≈ (721 km/s)² at stellar composition. Real halo potentials are
+~(200 km/s)². A gate swinging anywhere inside bound-orbit scales would roughly double escape
+velocities and distort satellite and Local-Group kinematics that are measured normal. So the
+gate's swing must park beyond bound-orbit scales, which is exactly where this document's other
+three fences already put it, and **galaxy dynamics is left to the halo of §1–2 alone** — which
+is what §1 already computes, with no second channel needed or permitted.
+
+**Where the channel's signature does live.** Beyond bound-orbit scales, at void and supercluster
+boundaries, the coupling keeps a tag no modified-inertia law has: it rides the electron fraction,
+so it is composition-dependent where MOND is composition-blind. The size is modest — realistic
+material runs Y_e ≈ 0.85 for stars against ≈ 0.88 for neutral gas, a few per cent, not the factor
+of two that comparing pure hydrogen against a helium-and-heavier floor would suggest. The
+observable is gas-versus-galaxy kinematics at void walls and composition-structured bulk flows.
+
 *Galaxies are not piles of dark gravel. They are atoms too large to see whole — ground states
 buried under starlight, spectra spread across kiloparsecs, all sharing one electron mass
 written at genesis.*

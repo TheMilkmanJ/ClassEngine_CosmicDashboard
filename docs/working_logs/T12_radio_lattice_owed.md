@@ -4,6 +4,7 @@
 3. The synchrotron row's weight refinement (fixed-energy vs fixed-field conventions).
 4. The below-z=50 null record: confirm every quasar-epoch drift search stays consistent with the ramp-tail fence (<1×10⁻⁶ by z~4).
 5. THE WHIM CROSS-CHECK (new): the below-z=50 null record holds in screened rooms by geometry; the intermediate-screening WHIM (Δ ≈ 10–30) is the one unpriced absorber class — partial-ε Rydberg offsets vs host-structure redshifts (10²–10³ km/s class under the fork corner) may already fence or reveal. Ramped session owed.
+6. THE ARCADE-2 CLASSIFICATION: the absolute-radiometer measurements report an isotropic radio background several times brighter than the expected contribution from known extragalactic sources, and the excess is still unexplained. This model carries a band-locked radio lattice and has never confronted the two. OWED: the classification check — does the lattice's band structure contribute to the excess, or is the excess external and classified out? Neither answer is on record, which leaves a band-structured radio prediction sitting next to an unexplained radio background with no stated relation between them.
 
 ## PAID (2026-07-19 reconciliation): item 5 — the WHIM session ran (the fifth-fence
 candidate priced; the gate's energy bookkeeping supplies the ~50 eV/particle cross-check

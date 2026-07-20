@@ -19,7 +19,9 @@ observable class this model marks.
 ## 1. What the model says (graded structure)
 
 P-2026-028: the primordial field's magnetic helicity is SIGNED BY THE GENOME —
-sign(helicity_B) = sign(n). The model further **predicts** that this is the same topological draw
+sign(helicity_B) = sign(n). That routing rides one structural condition the seeding step imposes and
+the corpus has not yet supplied — the genesis flow's own handedness (§"the seeding link" below). The
+model further **predicts** that this is the same topological draw
 that set matter over antimatter, a three-way parity-lock on one integer — and that second half is a
 prediction the model has not yet established, not a result it carries (§"the rectification link"
 below, and the temporal half's verdict beneath it). No other magnetogenesis framework predicts a
@@ -30,12 +32,18 @@ file's owed item is load-bearing rather than housekeeping.
 ## 2. The reading protocol (and the owed key)
 
 If the IGMF helicity measurement firms, the family converts to ONE-MEASURED / TWO-PREDICTED:
-the measured handedness FIXES sign(n), which then PREDICTS (i) the chiral-GW background's
-handedness (thread T10) and (ii) the baryon-sign consistency. **THE OWED KEY: the SIGN MAP** —
-which magnetic handedness corresponds to matter-wins runs through the AD-direct rectification
-mechanism (the domain-sign gate). Until that map is derived, the datum cannot be
-read — the family has a measured member but no dictionary. The map is therefore promoted: it
-is no longer only the baryogenesis internal debt; it is the key to the sky's first chirality datum.
+the measured handedness would FIX sign(n), which then PREDICTS (i) the chiral-GW background's
+handedness (thread T10) and (ii) the baryon-sign consistency. **THE OWED KEYS ARE TWO, and they
+are different objects.** The first is the SEEDING key: reading a measured handedness back to
+sign(n) at all requires that the seeding step be signed by n, and on the recorded mechanism it is
+not — the Harrison battery converts vorticity to field through a constant coefficient, so the
+seeded magnetic helicity is the medium's *kinetic* helicity rescaled by a positive number
+(§"the seeding link" below). The second is the RECTIFICATION key: which magnetic handedness
+corresponds to matter-wins runs through the AD-direct rectification (the domain-sign gate). Until
+both are derived the datum cannot be read — the family has a measured member but no dictionary,
+and **supplying only the rectification does not open it**. Both keys are therefore promoted: they
+are no longer only the baryogenesis internal debt; they are the key to the sky's first chirality
+datum.
 
 ## 3. Falsifiable content
 
@@ -46,7 +54,9 @@ ABOVE our smooth-Harrison floor and would need the network structure to be real)
 
 ## 4. Owed (mirrors working_logs/T14)
 
-1. THE SIGN MAP (load-bearing, the AD-direct rectification).
+1. THE SIGN MAP, in two parts, both load-bearing: **(a) the seeding sign** — the handedness of the
+   genesis roll-up's flow, sign(H_kin), which is what the Harrison step actually hands on; **(b) the
+   AD-direct rectification** — sign(θ̇·n), which says which handedness means matter.
 2. The literature refresh + systematics status of the helicity claims.
 3. The magnitude confrontation with P-028's computed columns.
 
@@ -120,3 +130,60 @@ in time and has no winding; the multi-component winding average carries the six-
 has no time evolution. Link 5 needs the second given the first — the channel phase configuration
 evolved through the roll-up, with sign(θ̇) and sign(n) read from the same trajectory (docketed #154).
 Until that exists the product is unmeasured rather than owed, and the handedness hint stays a watch.
+
+## The seeding link, taken apart (2026-07-20)
+
+The step *before* the rectification carries its own sign question, and it is not the one it was
+recorded as carrying.
+
+**The seeding is mechanical, and the model requires it to be.** The field is raised by the
+**Harrison battery** — photon drag spins electrons and ions differently where the pre-recombination
+plasma rotates, and the charge separation is a current: B ≈ 2(m_p c/e)·ω_vort ≈ 5×10⁻¹⁸ G at
+ω_vort ~ 0.5 H(rec) ([PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md) §2). The chiral
+alternative is closed by the model's own bookkeeping: EM-neutrality is forced to
+q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ by the photon-mass bound, so the medium may stir the plasma but may not
+magnetize it directly.
+
+**Fixing the convention resolves nothing, because the convention cancels.** Take the standard object
+H_B = ∫A·B d³x with right-handed positive — a force-free field ∇×B = λB carries
+H_B = (1/λ)∫|B|² d³x, so sign(H_B) = sign(λ). Harrison's law is B = k ω with k = 2 m_p c/e a
+constant, so A = k u + ∇φ serves as a vector potential and
+
+  H_B = k² ∫u·(∇×u) d³x = k² H_kin
+
+on a closed flat 3-torus, where the boundary term dies. **The coefficient enters squared**: whether
+the seeded field runs along the vorticity or against it is irrelevant, and
+
+  **sign(helicity_B) = sign(H_kin)** — exactly, and free of convention.
+
+**What that exposes is a geometry requirement, not a sign.** Kinetic helicity is a *linkage*: a flow
+must screw, not merely turn. The medium's recorded rotation does not. A rigid rotation u = ½ ω × r
+has u·ω = 0 identically, and the winding current the chain hands off — k₀ = 2πn/L, a uniform phase
+gradient around a torus cycle ([PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md)) — is curl-free, so it
+carries no helicity of either sign. A rotation rate and a winding direction are both real, and
+neither is a handedness.
+
+**The handedness lives in the roll-up, where it is graded as a magnitude only.** The corpus records
+the fountain rolling up into a **helical** vortex ring, and a torus-supported Beltrami flow reaching
+**H/E = 0.998** — maximal twist — where spherical collapse gives H = 0 exactly
+([PRTOE_cyclic_torus_genesis.md](PRTOE_cyclic_torus_genesis.md) §7, §9). That is the object the
+Harrison step will faithfully copy into the sky. But its helicity is **bilinear in its two
+circulations** — H = 2·Lk·Φ_tor·Φ_pol for a linked pair, H = Γ²(Wr + Tw) = n²κ²(Wr + Tw) for one
+quantized filament [Moffatt1969] — so a single winding integer cannot sign it: in the self-term
+sign(n) squares away, and in the mutual term the sign is sign(n_tor·n_pol). The mirror flow
+(λ → −λ) is equally torus-supported and returns −0.998.
+
+**So the seeding link owes exactly one object: the sign of the ring's poloidal circulation relative
+to its toroidal one.** If the poloidal sense is genesis-fixed — the buoyant fountain's own axial
+direction is the natural candidate — while the toroidal circulation is the genome's draw, then
+sign(helicity_B) = sign(n) follows and P-028's routing stands as recorded. If the two circulations
+are instead locked to each other, the sky's helicity carries a *universal* handedness, which is a
+different and sharper prediction than the one on the books. The measurement is the same either way;
+what changes is what a measured left hand would mean.
+
+**The consequence for the reading protocol.** This link and the rectification are separate debts on
+separate objects — sign(H_kin) and sign(θ̇·n) — so the cross-messenger test needs both. Supplying
+the rectification alone would not make the Tashiro–Vachaspati hint readable, and the two are worth
+scoping together: #154's joint genesis draw is the only build that would evolve a genesis trajectory
+with spatial structure, but as scoped it reads two integers off that trajectory rather than the
+three-dimensional flow the seeding sign needs.

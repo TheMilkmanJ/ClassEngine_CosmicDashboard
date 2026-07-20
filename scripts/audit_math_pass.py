@@ -819,6 +819,195 @@ chk("P-2026-012", "Sigma m_nu at the registry's quoted rounder splittings",
     61.21, (2.25e-3 + math.sqrt(2.25e-3**2 + 7.4e-5) + math.sqrt(2.25e-3**2 + 2.5e-3))*1e3,
     5e-3, "meV")
 
+# ---- #168: what the A_s count C is and is not (added 2026-07-20) ----
+# The pipeline's frozen A_s is the closed form at the CONCORDANCE k, not a measurement,
+# so the -0.35% between them is a k-spread. These rows pin that, the honest comparison
+# against the measured amplitude, and the two O(1)s the count actually hides.
+_k168   = math.log(1 + math.pi/(2*ac))/math.pi
+_As168  = (ac/(4*math.pi*_k168))**3
+_kjoint = 1.3630                                   # scripts/concordance.py joint
+chk("THE_AMPLITUDE", "frozen A_s IS the closed form at k_joint", 2.088058e-9,
+    (ac/(4*math.pi*_kjoint))**3, 1e-5)
+chk("THE_AMPLITUDE", "the -0.35% is the pure k spread", -0.3546,
+    300*math.log(_kjoint/_k168), 5e-3, "%")
+chk("THE_AMPLITUDE", "closed form vs the measured 2.100e-9", -0.921,
+    100*(_As168/2.100e-9 - 1), 5e-3, "%")
+chk("THE_AMPLITUDE", "that miss in sigma at the 1.4% measurement", -0.66,
+    (_As168/2.100e-9 - 1)/0.014, 2e-2, "sigma")
+chk("THE_AMPLITUDE", "C required by the measured amplitude", 1.00929,
+    2.100e-9/_As168, 1e-5)
+# C = R^2 (k_* l_p)^3 / 2 pi^2 at the conformal (w = 1/3) transfer R = 1/4
+_C = lambda R, lpk: R**2 * lpk**3 / (2*math.pi**2)
+chk("THE_AMPLITUDE", "C at R=1/4, wavelength convention = pi/4", math.pi/4,
+    _C(0.25, 2*math.pi), 1e-6)
+chk("THE_AMPLITUDE", "C at R=1/4, half-wave convention", 0.098175, _C(0.25, math.pi), 1e-4)
+chk("THE_AMPLITUDE", "C at R=1/4, inverse-k convention", 3.1665e-3, _C(0.25, 1.0), 1e-3)
+chk("THE_AMPLITUDE", "R needed for C = 1 (wavelength) = 1/sqrt(4 pi)", 0.28209,
+    1/math.sqrt((2*math.pi)**3/(2*math.pi**2)), 1e-4)
+chk("THE_AMPLITUDE", "freeze-out ratio k_* xi the closed form implies (R=1)", 3.4502e-3,
+    (2*math.pi**2*_As168)**(1/3), 1e-4)
+# hierarchy 6i: what the scale selection actually requires of C
+_As_MZ = (lambda a: (a/(4*math.pi*(math.log(1+math.pi/(2*a))/math.pi)))**3)(3/127.95)
+chk("hierarchy 6i", "C needed by the alpha(M_Z) reading", 0.7788, 2.088058e-9/_As_MZ, 1e-3)
+chk("hierarchy 6i", "so the selection needs C = 1 to +/- this", 0.22, 1-0.7788, 5e-2)
+
+# ---- P-2026-056: the Route-D branch window, in the coded parameter (added 2026-07-20)
+# The sampled parameter IS 1+w of the floor today: rho_fl = rho_inf*exp(thaw*(1-a^3))
+# gives 1+w(a) = thaw*a^3 (background.h:176,810; background.c:664), so the registered
+# w0 window maps onto the prior's own units with no conversion factor.
+chk("P-2026-056", "Route-D thaw window low edge = 1 + w0(-0.92)", 0.08, 1 + (-0.92), 1e-9)
+chk("P-2026-056", "Route-D thaw window high edge = 1 + w0(-0.86)", 0.14, 1 + (-0.86), 1e-9)
+
+# ---- P-2026-057: the Brannen-frame phase whose SIGN the lock predicts (added 2026-07-20)
+# theta_house = theta_B + 120 deg is an exact one-face relabel, so theta_B follows from
+# the measured house phase alone. Its sign is the observable half of the cross-sector lock.
+_THB = math.radians(132.7328 - 120.0)
+chk("P-2026-057", "Brannen phase theta_B from the measured house phase", 0.222229, _THB, 1e-5, "rad")
+chk("P-2026-057", "its distance from 2/9, the deviation lock's axis", 7.06e-6, abs(_THB - 2/9), 2e-2, "rad")
+
+# ---- the BBN-stability fence, stated on the derived anchor (added 2026-07-20)
+# The fence's edges are the two BBN clocks, not evaluation points: the D bottleneck below
+# (stamp -> 0, the window's help vanishes) and the weak-rate window above (the dyad reaches
+# n/p and helium moves). The conclusion is robust because the WHOLE-RANGE swing is bounded:
+# taking T_c all the way to the bottleneck removes the window's +0.645% help entirely, and
+# that is the largest move T_c can make. So no re-pin inside the fence can break it.
+_TCLO, _TCHI, _TCK = 70.0, 500.0, 0.5*math.log(2)*ME/1e3     # keV; anchor from tau, not booked
+_wD70 = lambda Tc: 1.0 - _TCLO/Tc                            # ramp stamp at the D bottleneck
+chk("me_mechanism fence", "derived anchor sits above the fence's lower edge", 2.53, _TCK/_TCLO, 5e-3, "x")
+chk("me_mechanism fence", "derived anchor sits below the fence's upper edge", 2.82, _TCHI/_TCK, 5e-3, "x")
+chk("me_mechanism fence", "ramp stamp at the D bottleneck, derived anchor", 0.6047, _wD70(_TCK), 1e-3)
+chk("me_mechanism fence", "ramp stamp at Li (40 keV), derived anchor", 0.7741, 1-40.0/_TCK, 1e-3)
+chk("me_mechanism fence", "whole-range D/H swing bound, 2-term width", 0.323,
+    2.387*0.00645/0.0476, 5e-3, "sigma")
+chk("me_mechanism fence", "whole-range D/H swing bound, 3-term width", 0.273,
+    2.387*0.00645/0.0563, 5e-3, "sigma")
+chk("me_mechanism fence", "the 179 -> 177.10 re-pin, as a fraction of the row width", 449.0,
+    1.0/abs(2.387*0.00645*(_wD70(_TCK)/_wD70(179.0)-1)/0.0476), 2e-2, "1/x")
+
+# ---- the D/H error budget, both foldings (added 2026-07-20; ForJustin/10 is the fork)
+# The corpus quotes this row against two widths. Both are foldings of the SAME three
+# components, and the third term happens to equal the observational error — which makes
+# "0.0476" degenerate (obs (+) nuclear reads the same as nuclear (+) rate, to five figures)
+# and both routes land on 0.0563. That degeneracy is why no arithmetic check ever separated
+# the two readings and why the budget kept reading as "unstated". Pinned so neither drifts.
+_OBS, _NUC = 0.030, 0.037
+_RATE = math.sqrt(0.0563**2 - _OBS**2 - _NUC**2)      # the d(p,g)3He term, recovered
+chk("deuterium_scar 1", "d(p,g)3He term implied by the 3-term width", 0.0300, _RATE, 1e-2)
+chk("deuterium_scar 1", "2-term width = obs (+) nuclear", 0.0476, math.hypot(_OBS, _NUC), 1e-3)
+chk("deuterium_scar 1", "the 0.0476 degeneracy: nuclear (+) rate reads the same", 0.0476,
+    math.hypot(_NUC, _RATE), 1e-3)
+chk("deuterium_scar 1", "3-term width = obs (+) nuclear (+) rate", 0.0563,
+    math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 1e-3)
+chk("deuterium_scar 1", "standing row on the 2-term width", -2.94,
+    (2.387-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
+chk("deuterium_scar 1", "advertised window low edge is the 2-term number", -2.52,
+    (2.407-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
+chk("deuterium_scar 1", "advertised window high edge is the 2-term number", -1.34,
+    (2.463-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
+
+# ---- #169: the g -> lambda map, the composite quartic (added 2026-07-20) ----
+# lambda = 4 pi^2 / (N_c F(M/Lambda)) with F the one-loop f^2 integral at the same
+# 3-momentum cutoff the sector's gap equation uses. See scripts/de_value_g_to_lambda.py.
+def _I169(tau, n=20000):                       # T_c kernel, int_0^1 x tanh(x/2 tau) dx
+    h = 1.0/n
+    return sum(((i+.5)*h)*math.tanh(((i+.5)*h)/(2*tau)) for i in range(n))*h
+def _J169(y):                                  # T=0 gap kernel; J(0) = 1/2 -> g_c = 2
+    s = math.sqrt(1+y*y); return .5*s - .5*y*y*math.log((1+s)/y)
+def _F169(y):                                  # f^2 loop integral
+    s = math.sqrt(1+y*y); return math.log((1+s)/y) - 1/s
+def _y169(g):
+    lo, hi = 1e-9, 50.0
+    for _ in range(200):
+        mid = .5*(lo+hi)
+        lo, hi = (mid, hi) if g*_J169(mid) > 1 else (lo, mid)
+    return .5*(lo+hi)
+_g169 = 1/_I169(TAU)
+_y = _y169(_g169)
+chk("cosmological_constant", "g = 1/I(tau) at tau = (1/2)ln2", 2.830, _g169, 1e-3)
+chk("cosmological_constant", "gap kernel J(0) = 1/2, so g_c = 2", 2.0, 1/_J169(1e-12), 1e-6)
+chk("cosmological_constant", "y = M/Lambda from 1 = g J(y)", 0.59493, _y, 1e-4)
+chk("cosmological_constant", "M = y*m_e against the BCS check 312 keV", 304.0,
+    _y*ME/1e3, 5e-3, "keV")
+chk("cosmological_constant", "F(M/Lambda)", 0.43167, _F169(_y), 1e-4)
+chk("cosmological_constant", "lambda = 4pi^2/(N_c F), N_c = 2", 45.73,
+    4*math.pi**2/(2*_F169(_y)), 1e-3)
+# the same f^2 formula on QCD: N_c = 3, M = 336, Lambda = 631 MeV -> f_pi vs 92.4
+_yq = 336.0/631.0
+chk("cosmological_constant", "one-loop f_pi on QCD (validation)", 93.09,
+    math.sqrt(3*336.0**2*_F169(_yq)/(2*math.pi**2)), 1e-3, "MeV")
+chk("cosmological_constant", "lambda_dark/lambda_QCD = (3/N_c)(F_QCD/F_dark)", 1.7549,
+    (3/2)*_F169(_yq)/_F169(_y), 1e-3)
+_tr = (3/2)*_F169(_yq)/_F169(_y)
+chk("cosmological_constant", "lambda band low (m_sigma = 500 MeV anchor)", 25.7,
+    (500.0**2/(2*92.4**2))*_tr, 5e-3)
+chk("cosmological_constant", "lambda band high (m_sigma = 2M anchor)", 46.4,
+    (672.0**2/(2*92.4**2))*_tr, 5e-3)
+# the control edge: |Wu| = LHY, and the whole band sits above it
+_rt = math.sqrt(ac/(256*math.pi**3))
+def _wu_over_lhy(l):
+    na3 = (_rt*l)**2
+    return abs(8*(4*math.pi/3-math.sqrt(3))*na3*math.log(na3))/((128/(15*math.sqrt(math.pi)))*math.sqrt(na3))
+chk("cosmological_constant", "sqrt(na^3) = sqrt(a_c/256pi^3)*lambda at lambda*", 0.0372,
+    _rt*22.41, 5e-3)
+chk("cosmological_constant", "|Wu|/LHY = 1 at lambda* = 22.41", 1.0, _wu_over_lhy(22.41), 1e-3)
+chk("cosmological_constant", "|Wu|/LHY at the band's LOW end (still > 1)", 1.10,
+    _wu_over_lhy(25.7), 1e-2)
+chk("cosmological_constant", "Delta rho^1/4 at the band centre = 0.0021*lambda", 7.57,
+    0.0021*36.05*100, 1e-2, "%")
+
+# ---- #170: f_wind, the winding comb's forward amplitude (added 2026-07-20) ----
+# The diagonal C_l sees only the k-hat monopole of a single-axis modulation, so the
+# winding's imprint is diluted by j_0(kd) ~ 1/(kd) = l_1/(2 pi l) before projection.
+# The T_proj values below come from scripts/winding_comb_cl.py (Bessel integrals);
+# everything else here is recomputed from the recorded geometry.
+_CHI, _LT = 13.76, 27.6                         # Gpc: chi_*, torus floor
+_beta = lambda n: (_LT/n)/_CHI
+_l1   = lambda n: 2*math.pi/_beta(n)
+chk("P-2026-029", "l_1 = 2 pi n chi/L, coefficient", 3.1325, 2*math.pi*_CHI/_LT, 1e-4)
+chk("P-2026-029", "beta = d/chi at n = 10", 0.20058, _beta(10), 1e-4)
+chk("P-2026-029", "l_1 at n = 10", 31.32, _l1(10), 1e-3)
+chk("P-2026-029", "l_1 at n = 30", 93.97, _l1(30), 1e-3)
+chk("P-2026-029", "Limber envelope l_1/(2 pi l) at n=30, l=100", 0.14957,
+    _l1(30)/(2*math.pi*100), 1e-3)
+_TP = {10: 0.01205, 20: 0.03639, 30: 0.06062}   # T_proj at l = 100, booked from the run
+chk("P-2026-029", "exact/Limber suppression at n=30, l=100", 0.405,
+    _TP[30]/(_l1(30)/(2*math.pi*100)), 5e-3)
+# a 1/l comb's matched-filter flat-equivalent over the fence's own band
+_num = sum((2*l+1)*(100.0/l)**2 for l in range(100, 601))
+_den = sum((2*l+1) for l in range(100, 601))
+chk("P-2026-029", "flat-equivalent of a 1/l comb over l = 100-600", 0.3203,
+    math.sqrt(_num/_den), 1e-3)
+_fe = math.sqrt(_num/_den)
+for _n, _bk in ((10, 1.814), (20, 0.601), (30, 0.360)):
+    chk("P-2026-029", f"A_prim needed for A = 0.7% at n = {_n}", _bk,
+        0.007/(_fe*_TP[_n]), 5e-3)
+chk("P-2026-029", "n = 10 needs >100% modulation (impossible)", 1.0,
+    1.0 if 0.007/(_fe*_TP[10]) > 1.0 else 0.0, 1e-9)
+_aprim_max = math.sqrt(2e-6)                    # winding roughness ceiling, per log
+chk("P-2026-029", "A_prim ceiling from Delta^2 <= 2e-6", 1.4142e-3, _aprim_max, 1e-4)
+chk("P-2026-029", "f_wind ceiling", 2.746e-5, _fe*_TP[30]*_aprim_max, 5e-3)
+chk("P-2026-029", "f_wind under the fence floor 0.7% by this factor", 255.0,
+    0.007/(_fe*_TP[30]*_aprim_max), 1e-2)
+
+# ---- the cold spot: why the anomaly family cannot claim it (#119) -----------
+# The Kibble network is the model's only distinctive structure within reach of a Gpc.
+# Its cells subtend about a degree — not the cold spot's 5-10 — and there are ~10^4 of them.
+XI_K, CHI_STAR = 256.0, 13760.0        # Mpc comoving: Kibble domain; distance to last scattering
+chk("cmb_anomalies", "Kibble domain angular scale xi_K/chi_*", 1.07,
+    XI_K/CHI_STAR*180/math.pi, 1e-2, "deg")
+chk("cmb_anomalies", "Kibble cells tiling the sky = 4pi/theta^2", 3.6e4,
+    4*math.pi/(XI_K/CHI_STAR)**2, 5e-2)
+# The texture route, priced. dT/T ~ 8 pi (eta/M_Pl)^2. The formula is validated first
+# against [Cruz2007]'s quoted texture scale, which must land in the 1e-5 class it was fit to.
+def _tex(eta_eV):
+    return 8*math.pi*(eta_eV/MPL)**2
+chk("cmb_anomalies", "texture dT/T at Cruz2007's 8.7e15 GeV is 1e-5 class", 1.28e-5,
+    _tex(8.7e24), 1e-2)
+chk("cmb_anomalies", "texture dT/T at the model's top scale f = 500 TeV", 4.2e-26,
+    _tex(5e14), 1e-2)
+chk("cmb_anomalies", "texture scale a cold-spot-class 1e-5 would need", 8.0e15,
+    MPL*math.sqrt(1e-5/(8*math.pi))/1e9, 5e-2, "GeV")
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

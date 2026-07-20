@@ -1850,10 +1850,10 @@ factor of three. Across the band where teeth survive Silk damping (ℓ ≈ 100�
 at the top of the n range and 16 at the bottom. **A sharper location requires a sharper n, and n is
 measured, not derived by design.** The same integer sets the η-era phase pattern (P-2026-002's
 family) and the cavity modulation — **one topological number, three observables** (the M2↔M7 tie, [_master_computes.md](working_logs/_master_computes.md)).
-**Kill:** a full-sky spectrum with no comb structure at the predicted spacing, at the sensitivity
-where the tooth amplitude is predicted to sit. **Grade:** candidate; the amplitude is un-computed
-(M7, the cavity/axis computation, is **un-run**), so this entry currently states a *location*, not
-a detectable amplitude — it cannot be cashed as a detection claim until M7 lands.
+**Kill:** the location is falsified only by a comb *detected* at a spacing inconsistent with 3.1n
+for any n in the recorded band — an absence cannot kill it, because the forward amplitude (below)
+sits far under any foreseeable sensitivity. **Grade:** candidate on *location* only; the amplitude
+is computed and unobservably small, so the entry states a place to look and not a detection claim.
 
 **The acoustic reading (added 2026-07-17).** The comb's teeth are not just a topological imprint —
 they are **standing acoustic modes of the winding-twisted medium.** The genesis twist *rang* the
@@ -1864,7 +1864,7 @@ overtones, exactly the structure §1 of [PRTOE_cmb_anomalies.md](PRTOE_cmb_anoma
 It ties the comb to the dCDF's own sound sector (second sound, c_s = √α_c) — the same medium whose
 Goldstone is light now also carries a standing pressure mode whose overtones are the teeth.
 
-**The amplitude — BOUNDED observationally (2026-07-17), forward-derivation still owed.** The comb
+**The amplitude — bounded observationally, and now forward-derived.** The comb
 modulates C_ℓ by a fractional amount A at its teeth. A coherent (matched-template) comb across the
 band where teeth survive Silk damping (ℓ ≈ 100–600, f_sky ≈ 0.7, N ≈ 2.5×10⁵ modes) has detection
 significance S/N ≈ A·√(N/2) ≈ A·351. Inverting against the two observational facts:
@@ -1874,17 +1874,44 @@ significance S/N ≈ A·√(N/2) ≈ A·351. Inverting against the two observati
 | the registered **~2–3σ hint** (if the comb is real, it sits here) | **≈ 0.7–1.0%** |
 | Planck's **non-detection at 5σ** (this caps it) | **≲ 1.4%** |
 
-So **A ≈ 1% (window [0.7%, 1.4%])** — a real amplitude, bounded on both sides, ~4.6×10⁻⁷ in δT/T,
-a percent-level overtone riding the primary acoustic peaks. *(Caveat: this is for a matched filter
+So **A ≈ 1% (window [0.7%, 1.4%])** is what the data *permits* — bounded on both sides, ~2.3×10⁻⁷
+in δT/T (A is a power fraction, so the temperature-amplitude fraction is A/2), a percent-level
+overtone riding the primary acoustic peaks. Whether the model fills that window is the forward
+question, answered below. *(Caveat: this is for a matched filter
 with the template known; letting tooth width/spacing/phase float — the actual tier-1 test — relaxes
 the bound modestly upward, so read A ≈ 1% as the tight-template value.)*
 
-**What this changes and doesn't.** The grade moves from *"location only"* to *"location + a ~1%
-amplitude bound."* What remains **owed — M7's remaining half, the winding-modulation full C_ℓ** — is the *forward* derivation — **why** A ≈ 1%,
-i.e. the **winding power fraction f_wind** that sets A = f_wind, from the C_ℓ-on-the-winding-torus
-computation. The observational bound is a fence the forward number must land inside; if M7 forward-
-derives f_wind ≪ 0.7% or ≫ 1.4%, the comb picture breaks against Planck. That is now a sharp,
-two-sided target rather than an open direction.
+**The forward derivation, and where it lands** (M7's second half, `scripts/winding_comb_cl.py`).
+A comb in the *diagonal* C_ℓ needs a coherent feature in the primordial two-point function at the
+winding's own separation d = L/n — which the winding array supplies, points a winding-wavelength
+apart sitting in the same phase: P(k⃗) = P₀(k)[1 + A_prim·cos(k_∥d)]. **But the diagonal C_ℓ sees
+only the k̂-monopole** of that — Σ_m |Y_ℓm|² = (2ℓ+1)/4π removes every higher multipole — and the
+monopole of a single-axis modulation is j₀(kd) ≈ 1/(kd) = ℓ₁/2πℓ. The exact radial projection
+T_proj(ℓ) = 2ℓ(ℓ+1)∫j_ℓ²(x)·j₀(βx)dx/x, with β = d/χ_*, costs a further 2.5–9×:
+
+| n | ℓ₁ | T_proj at ℓ = 100 | at ℓ = 300 | at ℓ = 600 |
+|---|---|---|---|---|
+| 10 | 31.3 | 0.0121 | 0.0026 | 0.0009 |
+| 20 | 62.6 | 0.0364 | 0.0068 | 0.0026 |
+| 30 | 94.0 | 0.0606 | 0.0128 | 0.0046 |
+
+**Two consequences, both structural.** *(i) The comb is not flat.* A(ℓ) falls as ~1/ℓ — a factor 13
+across ℓ = 100–600 — whereas the fence above was inverted for a *constant* A over that band; the
+matched-filter flat-equivalent is A_eff = 0.32·A(ℓ = 100), so the template bounded and the template
+the model predicts are different objects. *(ii) The amplitude cannot reach the fence.* Inverting,
+A = 0.7% requires a primordial single-axis modulation A_prim = 36% at n = 30, 60% at n = 20, and
+181% — impossible — at n = 10. Against the model's own weak-modulation ceiling (winding roughness
+Δ² ≲ 2×10⁻⁶ per log) A_prim ≲ 0.14%, giving **f_wind ≲ 3×10⁻⁵ = 0.003%, which is 255× under the
+fence's 0.7% floor.**
+
+**What survives.** The *location* ℓ₁ ≈ 3.1n is geometry and is untouched. The *amplitude* is not a
+percent-level overtone — it is unobservably small, so the comb is not a live two-sided falsifier and
+cannot be the ~2–3σ hint. The entry keeps its location claim and drops its detection claim. **The
+one escape, named because it is testable:** the acoustic ("ringing") reading — if the twist rang the
+medium *in time* during horizon exit rather than laying down a spatial array, the imprint is
+resonant, periodic in **ln ℓ** and isotropic in k̂, which evades the monopole dilution entirely.
+That is a different template from the one registered here, and separating the two is the live
+question the comb now poses.
 
 ## P-2026-030: The astrochemical inheritance — the medium's window leaves molecular-line ratios standard (registered 2026-07-11; **entry reconstructed 2026-07-17**)
 

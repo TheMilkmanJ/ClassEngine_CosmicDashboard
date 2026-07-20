@@ -75,4 +75,4 @@ INHERITED VERDICTS (the lawful deaths — every leaf cites its parent's law):
 ## The purchased-null perimeter (every branch's standing kills)
 DESI w≠−1 · Tsirelson deviation · frequency-flat birefringence confirmed · a haloscope photon ·
 a DM recoil · Q-drift · an orphan physics · a pre-genesis relic · wrong-sign helicity ·
-the comb absent at 3×10⁻³ · the radio chord's ratios broken.
+a comb detected at a spacing no n in the band allows · the radio chord's ratios broken.
