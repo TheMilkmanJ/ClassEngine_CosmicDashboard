@@ -4,7 +4,7 @@
 computations — and the masters are mutually tied. The due-diligence program is not a list;
 it is (like the threads) a small-rooted tree. Booked internal review.*
 
-> **Standing derivations: c = 9/10, f̄ = 2/π, α_c = 3α, ε = 27α/5π, T_c = 179 keV, N_gen = 3,
+> **Standing derivations: c = 9/10, f̄ = 2/π, α_c = 3α, ε = 27α/5π, T_c = 177.10 keV, N_gen = 3,
 > N_c = 2, E_b s-wave.** Three rows were carrying debts that are already paid, and one master
 > changed *character*: **M1's α_c posterior is now a referee, not a derivation.** **The single
 > surviving root of the M1+M8 cluster is ξ.**
