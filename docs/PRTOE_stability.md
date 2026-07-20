@@ -5,9 +5,14 @@
 *A referee asks four questions of any dark-sector model before reading anything else: does the
 scalar carry a ghost, does it carry a gradient instability, does it move gravitational waves off the
 speed of light, and does it violate the equivalence principle. This page answers all four for the
-configuration that is actually running, and says which object each answer belongs to — because the
-corpus contains stability certificates for **two different objects**, and citing the wrong set
-understates the case.*
+configuration that is actually running.*
+
+*It has to answer them **twice**, because the model has two sectors with completely different
+stability stories: a condensate whose health is inherited from a canonical UV completion, and a
+dark-energy floor operator whose health had to be earned on explicit certificates. The corpus also
+holds a third certificate set belonging to a **superseded** object, and citing that one — the
+obvious thing to do, since it is the most detailed — would describe conditions this model does not
+have.*
 
 ## The short answer
 
@@ -24,8 +29,35 @@ And gravity is unmodified: the medium's only coupling is geometry, so **c_T = 1 
 tuning and no cancellation. The GW170817 constraint that killed a generation of scalar-tensor models
 is not a constraint this one has to survive — it never had a term that could violate it.
 
-**That is the entire ghost/gradient/c_T story for the running configuration.** It is short because
-the configuration is conservative, and the shortness is the point.
+**That covers the condensate. It does not cover the dark-energy floor, which is where this model's
+stability question is actually interesting** — see the next section.
+
+## The floor operator, where the question is not trivial
+
+The dark-energy floor is carried by a **(δK)² operator** — background-orthogonal, built on the
+extrinsic curvature, and in the ghost-condensate family (Arkani-Hamed et al., hep-th/0312099). It
+is a genuine higher-derivative term, it replaced a (□φ)² floor that BBN killed, and it operates
+**about c_s = 0** — precisely the point where the gradient term vanishes and the higher-derivative
+structure is what does the stabilising. **Nothing here is inherited; the operator had to earn
+admission, and the corpus records it earning admission on three explicit certificates:**
+
+- **Tensor silence, exactly.** δK vanishes on tensor modes to all orders because det(e^h) = 1, so
+  **α_T = 0** identically. Not a bound, not a cancellation — the operator has no tensor coupling to
+  suppress, which is why c_T = 1 survives the floor as well as the condensate.
+- **Braiding frozen.** The scalar–tensor mixing (α_B face) is temporally frozen, μ − 1 ~ 4×10⁻²¹.
+- **Foliation health.** Landau critical velocity v_c = 0, which dissolves caustics into interference
+  rather than letting the preferred slicing develop the pathology this operator class is known for.
+
+**One thing that is *not* in the model, and is worth naming because it recurs as a proposed repair.**
+A second, independent (δg⁰⁰)² operator would resurrect an observability claim the corpus killed —
+and the corpus is explicit that this is **a model extension, not a repair**: it breaks the one-term
+taxonomy and would owe its own three certificates. Within the minimal model the kill is final. If a
+reader sees the DE floor's observability argued back to life, the first question is whether a second
+operator was quietly added.
+
+**So the honest one-line summary is not "stability is trivial here".** It is: the condensate's health
+is inherited from a canonical UV completion and needs no certificate; the floor's health is *earned*,
+by three checks that are stated and were done.
 
 ## The certificates that belong to a different object
 
