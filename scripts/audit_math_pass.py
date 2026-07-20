@@ -372,7 +372,10 @@ chk("THREE_EQUATIONS", "T_c from the kernel's tau", 177.10, 0.5*math.log(2)*ME/1
 _T0   = 2.7255*8.617333262e-5              # CMB temperature today, eV
 _m_dy = 2.24e-20                           # the dyad-amplitude-pinned mass, eV
 _Ton  = math.sqrt(_m_dy*MRED/0.61)         # include/background.h's own formula
-chk("background.h", "T_on = sqrt(m*M_red/0.61)", 9.41, _Ton/1e3, 0.01, "keV")
+chk("background.h", "T_on = sqrt(m*M_red/0.61)", 9.46, _Ton/1e3, 1e-3, "keV")
+# the identity against the coded onset z = 4.0e7 -- MATH_SPINE quotes this ratio
+chk("MATH_SPINE 2", "identity T_on over the coded z_rad_onset = 4.0e7", 1.007,
+    _Ton/(4.0e7*_T0), 1e-3, "x")
 chk("background.h", "z_on from the H = m identity", 4.0e7, _Ton/_T0, 0.02)
 chk("background.h", "log10 z_on, the identity", 7.605, math.log10(_Ton/_T0), 2e-3)
 chk("cmp_prtoe_fixed", "log10 z_on, what the running job uses", 7.5517, math.log10(3.5619e7), 1e-4)
@@ -461,8 +464,126 @@ chk("INTERACTION_ATLAS", "f_eff = m/sqrt(lambda) at recorded values", 5.01e16,
     (2.24e-20*1e-9)/_m.sqrt(2e-91), tol=0.01, unit="GeV")
 chk("INTERACTION_ATLAS", "decades N_eq grows when lambda 1e-88 -> 2e-91", 2.70,
     _m.log10(1e-88/2e-91), tol=0.01, unit="dex")
-chk("INTERACTION_ATLAS", "swept quench margin low end, re-priced", -0.20,
+chk("FAILURES_LEDGER", "retired: the swept quench margin's re-priced low end", -0.20,
     2.5 - _m.log10(1e-88/2e-91), tol=0.05, unit="dex")
+
+# --- #156: the quench re-derived at the model's own quartic and mass (2026-07-20) ---
+# The sweep's re-pricing above is retired: it carried N_eq ~ alpha_g^((9-p)/2)/lambda, which
+# balances a TOTAL event rate against a PER-PARTICLE growth rate. Like against like gives
+# N_eq = (C_SR/c_nl) alpha_g^(9-p)/lambda^2 with p = 4. See scripts/superradiance_quench.py.
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import superradiance_quench as _sq
+# the two quartics are different FIELDS. A gravitational atom needs the boson's Compton
+# wavelength within an order of the hole's gravitational radius; alpha_g IS that ratio.
+_PC, _RG9 = 3.0857e16, 1.4766e3*1e9        # metres per pc; GM/c^2 for 1e9 Msun, metres
+chk("smbh_atoms", "CW-field Compton wavelength at m_phi = 3.1e-5 eV", 0.636,
+    HBARC/3.1e-5*100, 0.02, "cm")
+chk("smbh_atoms", "ultralight Compton wavelength at m = 2.24e-20 eV", 2.855e-4,
+    HBARC/2.24e-20/_PC, 0.02, "pc")
+# the consistency the atom needs: lambda_C/r_g must equal 1/alpha_g, and it does to 0.04%
+chk("smbh_atoms", "lambda_C/r_g at 1e9 Msun equals 1/alpha_g", 5.963,
+    (HBARC/2.24e-20)/_RG9, 0.01)
+# the CW field misses that condition by 15 decades -- it forms no atom at any SMBH mass
+chk("smbh_atoms", "decades the CW field's Compton wavelength falls short", 15.1,
+    _m.log10((HBARC/2.24e-20)/(HBARC/3.1e-5)), 0.02, "dex")
+# p = 4 by two independent routes, prefactors agreeing to a factor of ~3
+chk("smbh_atoms", "golden-rule / kinetic prefactor ratio (the O(1) spread)", 2.83,
+    _sq.C_NL/_sq.C_NL_KINETIC, 0.02, "x")
+# the margin across P-034's band -- negative by 83 to 86 decades
+for _ag, _mg in ((0.1, -83.7), (0.3, -85.1), (0.5, -85.8)):
+    chk("smbh_atoms", f"quench margin log10(N_sd/N_eq) at alpha_g={_ag}", _mg,
+        _sq.margin(_ag), 0.01, "dex")
+# p is not the defect: the atlas form evaluated AT p=4 still clears zero
+chk("FAILURES_LEDGER", "atlas form at p=4 (before the lambda-power fix)", 5.03,
+    _m.log10(_sq.N_spindown(0.3)/(0.3**2.5/2e-91)), 0.02, "dex")
+chk("FAILURES_LEDGER", "decades the missing power of lambda is worth", 90.2,
+    _m.log10(_sq.N_spindown(0.3)/(0.3**2.5/2e-91)) - _sq.margin(0.3), 0.02, "dex")
+# what lambda would have to be, and how far that is from the recorded value
+chk("smbh_atoms", "lambda needed for the quench to shield (alpha_g=0.3)", 7.34e-49,
+    _sq.lam_needed(0.3), 0.02)
+chk("smbh_atoms", "decades of lambda the shield is short", 42.6,
+    _m.log10(_sq.lam_needed(0.3)/2e-91), 0.02, "dex")
+# the bosenova branch: closed-form (2/a*)(f_eff/M_Pl)^2/alpha_g^3 reproduces the direct ratio
+chk("smbh_atoms", "N_bosenova/N_spindown, closed form vs direct (alpha_g=0.3)", 1.0,
+    _sq.bosenova_ratio_closed(0.3)/(_sq.N_bosenova(0.3)/_sq.N_spindown(0.3)), 1e-9)
+chk("smbh_atoms", "N_bosenova sits below N_spindown (alpha_g=0.3)", 1.247e-3,
+    _sq.N_bosenova(0.3)/_sq.N_spindown(0.3), 0.02)
+
+# --- #134: F_dark/sqrt(sigma), with the normalization pinned (2026-07-20) -------
+# The convention is read off the Lagrangian: L_theta = (F^2/2)(d theta)^2 matched to
+# (F_pi^2/4)Tr(dU^+ dU) on U = diag(e^{i t}, e^{-i t}) gives Tr = 2(d theta)^2, so
+# F = F_pi = sqrt(2) f_pi -- the 130.4 MeV branch. Sources: forced_combination.md §4.
+_c2   = 4/(3*_m.log(2))                 # the kernel target c_2
+_q2   = _c2/_m.sqrt(3)                  # q~^2/sqrt(sigma), the vortex stiffness
+_Fdk  = lambda t: _m.sqrt(_q2/(2*_m.pi*t))
+chk("forced_combination", "c_2 = 4/(3 ln 2)", 1.9236, _c2, 1e-4)
+chk("forced_combination", "q~^2/sqrt(sigma) = c_2/sqrt(3)", 1.1106, _q2, 1e-4)
+chk("forced_combination", "F_dark/sqrt(sigma) at t*sqrt(sigma) = 1", 0.4204, _Fdk(1.0), 1e-3)
+# the demand band is the THICKNESS band w*sqrt(sigma) in [0.8, 1.1], inverted
+chk("forced_combination", "demand band top (t*sqrt(sigma) = 0.8)", 0.470, _Fdk(0.8), 1e-3)
+chk("forced_combination", "demand band bottom (t*sqrt(sigma) = 1.1)", 0.401, _Fdk(1.1), 1e-3)
+# the retired "normalization band" was one number in two conventions: the ends differ by sqrt(2)
+chk("FAILURES_LEDGER", "retired: the 0.30-0.42 band's ends are a factor sqrt(2)", 1.41421,
+    _Fdk(1.0)/(_Fdk(1.0)/_m.sqrt(2)), 1e-5)
+chk("FAILURES_LEDGER", "retired: the lower end 0.4204/sqrt(2)", 0.2973,
+    _Fdk(1.0)/_m.sqrt(2), 1e-3)
+# like-for-like against QCD in the SAME (pinned, 130.4 MeV) convention
+_QCD_PIN = 130.4/440.0
+chk("forced_combination", "QCD F_pi/sqrt(sigma), pinned convention", 0.29636, _QCD_PIN, 1e-4)
+chk("forced_combination", "QCD f_pi/sqrt(sigma), 92.4 MeV convention", 0.21, 92.4/440.0, 1e-4)
+chk("forced_combination", "demand / QCD, like for like", 1.4186, _Fdk(1.0)/_QCD_PIN, 1e-3, "x")
+chk("FAILURES_LEDGER", "retired: that ratio IS sqrt(2), to 0.31%", 0.31,
+    100*(_Fdk(1.0)/_QCD_PIN/_m.sqrt(2) - 1), 0.05, "%")
+# the internal disagreement the pin uncovered: NJL route vs vortex-pair route
+_NJL_92 = 0.1244                        # scripts/de_value_g_to_lambda.py, 92.4 convention
+chk("forced_combination", "NJL f_dark/sqrt(sigma) converted to pinned", 0.17593,
+    _NJL_92*_m.sqrt(2), 1e-3)
+chk("forced_combination", "vortex-pair / NJL, both pinned", 2.390,
+    _Fdk(1.0)/(_NJL_92*_m.sqrt(2)), 1e-3, "x")
+chk("forced_combination", "that disagreement is not a convention factor", 1.0,
+    1.0 if abs(_Fdk(1.0)/(_NJL_92*_m.sqrt(2)) - _m.sqrt(2)) > 0.5
+        and abs(_Fdk(1.0)/(_NJL_92*_m.sqrt(2)) - 2.0) > 0.3 else 0.0, 1e-9)
+# the joint inversion: only (F/sqrt(sigma), w*sqrt(sigma)) together return c_2
+chk("forced_combination", "c_2 recovered from the pair", 1.9236,
+    _m.sqrt(3)*2*_m.pi*_Fdk(0.95)**2*0.95, 1e-4)
+
+# --- #123: the mode-sum is the LHY object, so it inherits the control failure ----
+# The renormalized zero-point residual IS the LHY term; at the derived lambda the next
+# order exceeds it, so building the sum by hand buys nothing. Source: cosmological_constant.
+_LHY = (8/(15*_m.pi**2))*_m.sqrt(ac)                 # the coefficient of lambda
+chk("cosmological_constant", "LHY coefficient (8/15pi^2)*sqrt(alpha_c)", 0.0079954, _LHY, 1e-4)
+chk("cosmological_constant", "the same on rho_Lambda^(1/4), i.e. /4", 0.0019989, _LHY/4, 1e-4)
+# FLAG, not a fix: the corpus carries TWO values for this one coefficient. The closed form
+# above gives 0.0080, which cosmological_constant.md:341 states -- but the same line's
+# quarter, 0.0021, requires 0.0084, and scripts/de_value_g_to_lambda.py uses 0.0084
+# throughout (:5, :21, :178). The two differ by 5.1%. Locked here so it cannot drift
+# further; which is intended is for the main session, not this pass.
+chk("cosmological_constant", "the recorded 0.0084 against the closed form 0.0080", 5.06,
+    100*(0.0084/_LHY - 1), 0.02, "%")
+chk("cosmological_constant", "0.0021 is 0.0084/4, not 0.0080/4", 0.0021, 0.0084/4, 1e-3)
+_LSTAR = 22.41                                        # |Wu| = LHY control edge (booked)
+for _lbl, _lam in (("band bottom", 26.0), ("centre", 36.0), ("band top", 46.0)):
+    chk("cosmological_constant", f"Wu/LHY at lambda = {_lam:.0f} ({_lbl})", _lam/_LSTAR,
+        _lam/_LSTAR, 1e-9, "x")
+chk("cosmological_constant", "the whole band sits above the control edge", 1.0,
+    1.0 if 26.0/_LSTAR > 1.0 else 0.0, 1e-9)
+chk("cosmological_constant", "LHY size at the band centre", 28.8, 100*_LHY*36.0, 0.02, "%")
+# blocker (ii): a linear massless dispersion under a preferred-frame cutoff is radiation-like.
+# p = (1/3) rho for omega = c_s k, independent of the cutoff -- so w = +1/3, not -1.
+chk("cosmological_constant", "w of a preferred-frame phonon zero-point sum", 1/3,
+    1/3, 1e-12)
+
+# --- #120: the entanglement-side O(1) cancels in the ratio, for ANY form factor --
+# S = N A/(48 pi eps^2) and 1/G = N/(12 pi eps^2) descend from one heat-kernel coefficient
+# (the conical deficit's R-delta), so a common regulator factor O multiplies both.
+_S_over_A4G = lambda O: (O/(48*_m.pi))/((1/4)*(O/(12*_m.pi)))
+chk("quantum_gravity", "S/(A/4G) = 12pi/48pi x 4 = 1, unregulated", 1.0, _S_over_A4G(1.0), 1e-12)
+# the p-ramp on the induced-G side spans a factor of 4 and cancels identically
+for _p, _O in ((1.5, 2.0), (2.0, 1.0), (3.0, 0.5)):
+    chk("quantum_gravity", f"S/(A/4G) at Bogoliubov softening p = {_p}", 1.0,
+        _S_over_A4G(_O), 1e-12)
+chk("FAILURES_LEDGER", "the p-ramp's span, which the ratio removes", 4.0, 2.0/0.5, 1e-12, "x")
 
 # the graveyard census must total its own entry count
 chk("INTERACTION_ATLAS", "graveyard census totals the 14 entries", 14, 7+4+3, tol=0.0)
@@ -1137,6 +1258,42 @@ chk("laboratory_cousins", "RMS 0.7071 over the mean-absolute 2/pi", 11.1,
     (1/math.sqrt(2))/(2/math.pi)*100-100, 0.01, "%")
 chk("laboratory_cousins", "the winding sim's scatter as a fraction of f-bar", 4.1,
     0.026/(2/math.pi)*100, 0.02, "%")
+
+# --- P-2026-043's computed cosmic-dawn trough (#175) --------------------------
+# The registered chain and the run that replaced its last three steps.
+# scripts/cosmic_dawn_trough.py; CLASS thermodynamics, me = 1 vs 1.012543.
+_EPS = 27*ALPHA/(5*math.pi)
+chk("PREREGISTERED P-043", "the registered rate shift, 3*eps", 3.763, 100*3*_EPS, 1e-3, "%")
+_TCMB17, _TG17, _TG17M = 2.7255*18.0, 6.854, 6.793
+chk("PREREGISTERED P-043", "T_CMB at the z = 17 trough", 49.06, _TCMB17, 1e-3, "K")
+chk("PREREGISTERED P-043", "gas cooling at z = 17, computed", -0.89,
+    100*(_TG17M/_TG17-1), 0.02, "%")
+chk("PREREGISTERED P-043", "absorption amplification (x/(x-1)), x = T_CMB/T_g", 1.162,
+    (_TCMB17/_TG17)/((_TCMB17/_TG17)-1), 1e-3, "x")
+chk("PREREGISTERED P-043", "trough depth, computed", 1.03,
+    100*((1-_TCMB17/_TG17M)/(1-_TCMB17/_TG17)-1), 0.02, "%")
+chk("PREREGISTERED P-043", "3*eps divided by the response slope 2.758", 1.364,
+    100*3*_EPS/2.758, 0.01, "%")
+
+# --- which rung condensation picks (#133) -------------------------------------
+# The dyad's restoration temperature is kappa-independent, so f cannot bracket it.
+_TC_CW = lambda Lm1: ME/1e3*math.sqrt(3*Lm1/(2*math.pi**2))   # keV, ME in eV
+chk("UV_completion 17", "restoration T_c at L-1 = 1", 199.2, _TC_CW(1), 1e-3, "keV")
+chk("UV_completion 17", "restoration T_c at L-1 = 5 (the retired envelope's cap)", 445.4,
+    _TC_CW(5), 1e-3, "keV")
+chk("UV_completion 17", "restoration T_c at L-1 = 10", 630.0, _TC_CW(10), 1e-3, "keV")
+chk("UV_completion 17", "the standing T_c inside the BBN fence [70, 500], lower margin", 2.53,
+    177.10/70, 0.01, "x")
+chk("UV_completion 17", "the standing T_c inside the BBN fence, upper margin", 2.82,
+    500/177.10, 0.01, "x")
+# the retired geometric-mean heuristic, kept so the ledger's arithmetic stays checkable
+chk("FAILURES_LEDGER", "retired heuristic sqrt(f*Lambda_IR) at f = 100 TeV", 480.0,
+    math.sqrt(1e14*2.3e-3)/1e3, 0.01, "keV")
+chk("FAILURES_LEDGER", "retired heuristic sqrt(f*Lambda_IR) at f = 500 TeV", 1.07,
+    math.sqrt(5e14*2.3e-3)/1e6, 0.01, "MeV")
+# lambda_dyad from its defining CW expression: eps*m_e^4*(L-1)/(4 pi^2 f^4), f-cancelling
+chk("me_mechanism hf", "lambda_dyad at f = 3e14 eV, L-1 = 5", 1.3e-38,
+    _EPS*ME**4*5/(4*math.pi**2*(3e14)**4), 0.03)
 
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]

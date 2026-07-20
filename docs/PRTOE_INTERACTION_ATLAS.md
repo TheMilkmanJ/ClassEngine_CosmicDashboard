@@ -815,25 +815,54 @@ is its only coupling). Give it curvature and the product is determined:*
  the recorded mass — but that is because the mass sits 0.69 decades **above**
  it, past the window rather than short of it.
 
- **The self-interaction argument needs re-pricing before it can be quoted.**
- The genesis quartic quenches a growing cloud (Baryakhtar et al.,
- arXiv:2011.11646: quartic level-mixing saturates growth at quasi-equilibrium,
- and a repulsive λ additionally forbids bosenova collapse), and the margin was
- swept as a rate balance — Γ_SR ~ α_g⁹m against Γ_nl ~ λ²N²α_g^p m, with the
- unknown power p over [5, 15] — giving log₁₀(N_spin-down/N_eq) = +2.5 to +7.7
- decades. That sweep used λ ~ 10⁻⁸⁸. **At the recorded λ ≈ 2×10⁻⁹¹ the
- self-coupling is 500× weaker, which is 2.7 decades straight off the margin
- (+2.5 to +7.7 becomes −0.2 to +5.0): the low end no longer clears zero.** The
- α_g shift enters through α_g^((9−p)/2), whose sign flips at p = 9, so it cannot
- be folded in by scaling — and f_eff ≡ m/√λ has moved from ~10¹³ to
- 5×10¹⁶ GeV, 3.7 decades of weaker self-interaction.
+ **There is no self-interaction shield, and the calculation that would have
+ supplied one now says so.** The quench was to work as a rate balance — the
+ cloud saturating where self-interaction depletion catches superradiant growth
+ (Baryakhtar et al., arXiv:2011.11646: quartic level-mixing saturates growth at
+ quasi-equilibrium). Run at the model's own coupling
+ ([scripts/superradiance_quench.py](../scripts/superradiance_quench.py)) it
+ fails by **83 to 86 decades** across the registered band:
+ log₁₀(N_spin-down/N_eq) = **−83.7 (α_g = 0.1), −85.1 (0.3), −85.8 (0.5)**.
+ The cloud reaches the number of quanta needed to carry off the hole's spin
+ long before the quartic notices it exists.
 
- **OWED, and it is a calculation rather than a gate:** re-derive the quench
- margin at the recorded λ and m, with p resolved rather than swept. Until that
- is done the quench is not quotable as a shield — and neither is the
- discriminator built on it (the claim that a confirmed high spin kills free
- ultralight scalars while leaving the self-interacting condensate standing
- rests entirely on the quench, so it is un-priced by exactly the same amount).
+ **Which quartic — settled first, because two were on the table 53 decades
+ apart.** λ_dyad ≈ 1.3×10⁻³⁸ is the quartic of the high-f Coleman–Weinberg
+ field whose VEV sets m_e; that field's own mass is 3.1–6.9×10⁻⁵ eV, a Compton
+ wavelength of centimetres, and it forms no gravitational atom around a 10⁹ M☉
+ hole. It is not this field's bare coupling — it is a **different field**, 15
+ decades heavier. The cloud is made of the m = 2.24×10⁻²⁰ eV boson, so the only
+ admissible coupling is its own quartic, **λ ≈ 2×10⁻⁹¹**.
+
+ **What the resolved exponent actually cost.** The depleting channel is fixed
+ by kinematics: a free final quantum requires the partner to land in n = 1, so
+ the process is |211⟩|211⟩ → |100⟩|k⟩ at k = mα_g/√2. Fermi's golden rule with
+ the contact vertex gives Γ_nl ∝ λ²N m α_g⁴ — **p = 4**, below the swept
+ [5, 15] window, confirmed independently by kinetic theory (nσv) to a factor
+ 2.8 in the prefactor. But p is not what kills it: at p = 4 the old expression
+ still returns +5 decades. The kill is a **rate-normalization error** — λ²N²α_g^p
+ is a *total* event rate and it was balanced against a *per-particle* Γ_SR,
+ which put one power of λ where two belong. Correcting it moves N_eq from
+ α_g^((9−p)/2)/λ to α_g^(9−p)/λ², worth **90 decades** at λ = 2×10⁻⁹¹.
+
+ **No O(1) reaches this.** The overlap coefficient would have to be ~10⁸⁵. For
+ the quench to shield, λ would need to exceed ~7×10⁻⁴⁹ — 42.6 decades above the
+ recorded value, i.e. f_eff ≲ 3×10⁴ eV against the model's 5.01×10¹⁶ GeV.
+
+ **The bosenova branch does not rescue it either**, on two counts. It needs an
+ *attractive* quartic, and the λ ≈ 2×10⁻⁹¹ that sets the collapse floor is the
+ **repulsive amplitude** quartic — a repulsive λ forbids bosenova outright. And
+ even granting the attractive phase coupling at the same magnitude, collapse is
+ a pacing mechanism rather than a barrier: N_bosenova sits 1.5–3.6 decades below
+ N_spin-down, so the hole spins down in 30–3700 bursts, still completing in
+ 5×10³ to 5×10⁹ yr.
+
+ **Consequence for the discriminator.** The claim that a confirmed high spin
+ kills free ultralight scalars while leaving the self-interacting condensate
+ standing rested entirely on the quench. At λ ≈ 2×10⁻⁹¹ the field **is** the
+ free scalar for every superradiance purpose, so there is nothing to
+ discriminate: whatever a spin measurement does to free FDM in this band, it
+ does to the model.
 
  **Grade: a named, live exposure** — not a null, and not shielded. It stands
  with the Galactic-Centre budget test as one of the two constraints bearing

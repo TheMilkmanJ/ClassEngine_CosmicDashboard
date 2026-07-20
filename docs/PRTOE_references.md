@@ -74,9 +74,10 @@ V = verified, exactly as used in our documents):
 - [V] **Baryakhtar, Galanis, Lasenby, Simon**, PRD 103, 095019 (2021),
  arXiv:2011.11646 — quartic self-interactions saturate superradiant
  growth at quasi-equilibrium (level mixing + emission to infinity).
- Feeds the superradiance quench — which the atlas rules un-quotable
- as a shield until its re-derivation at the model's own coupling is
- done (the owed calculation). Verified at booking.
+ The mechanism is real but does not reach this model: run at the
+ recorded λ ≈ 2×10⁻⁹¹ the saturation sits 85 decades above the
+ spin-down number, so the cloud is never quenched. Verified at
+ booking; the margin computed at `scripts/superradiance_quench.py`.
 - [V] **Eckel, Kumar, Jacobson, Spielman, Campbell**, PRX 8, 021021
  (2018), arXiv:1710.05800 — supersonically expanding ring BEC:
  measured Hubble-friction redshift of excitations; the tabletop

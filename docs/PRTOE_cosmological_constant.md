@@ -253,7 +253,34 @@ model's own +0.44% gap to the observation raised to the fourth power. One owed i
 algebraic ground that does not depend on the value of τ.
 
 The earlier reading of f — as a partial Gibbs–Duhem cancellation on the mode sum — is a different
-object, and it remains **the genuinely un-built calculation.** *(An equipartition reading — f = ½
+object, and it remains **the genuinely un-built calculation.**
+
+**Why it stays unbuilt, stated exactly (2026-07-20).** It was scoped as an independent object that
+might pay where the perturbative route had stalled. It is neither independent nor payable, for two
+reasons that do not share a fix.
+
+*(i) It is not independent of the λ problem — it **is** the λ problem.* The mode sum's *raw* value
+is a divergent reference vacuum, absorbed into the bare Λ; the only physical output is the
+**renormalized residual**, and for a Bogoliubov spectrum that residual is, by a standard superfluid
+identity, precisely the Lee–Huang–Yang term already recorded above — the LHY correction *is* the
+regularized zero-point mode sum ½Σ(E_k − …), not a different calculation that happens to agree.
+So the mode sum inherits the control failure rather than escaping it: at the derived λ = 26–46 the
+next-order (Wu) term is **1.1× to 2.1×** the LHY term it corrects, so the series is inverted, and a
+mode-sum build at this order would return a number its own next order overturns. Nothing is bought
+by assembling the sum by hand.
+
+*(ii) Even at controlled λ, the object has the wrong equation of state.* A genuine ½Σℏω_k over the
+Goldstone branch (ω = c_s k) under the medium's **preferred-frame** cutoff has the pressure of a
+linear massless dispersion: **w = +⅓, not −1.** Only a Lorentz-invariant regulator returns
+p = −ρ — and a Lorentz-invariant regulator is exactly what a condensate with a rest frame does not
+have. Taken seriously, the mode-sum framing therefore argues *against* a clean w = −1 residual.
+This blocker is structural and survives any improvement in λ.
+
+**What this leaves standing.** The flagship does not run through this object: it reads the
+condensation energy (Door A, ½α_c²M₂), which is frame-safe and needs no mode sum. #123 should be
+read as *closed to investment at this order* — it reopens only if the SU(2) N_f = 3 lattice returns
+λ below the control edge λ\* = 22.41 **and** a frame-compatible regulator is exhibited. *(An
+equipartition reading — f = ½
 from a zero-point K = V split, giving 2.27 meV — was tried and
 **failed** on two independent grounds. (i) The number is not independent: 16π²α_c^{3/2} = 0.5115 ≈ ½,
 so ½-of-door-B = 0.994 × E_b — the flagship binding energy re-packaged, so the "+0.9%" restates

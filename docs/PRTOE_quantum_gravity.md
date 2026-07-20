@@ -84,9 +84,31 @@ property of the condensate, and their regulated one-loop coefficient equals the 
 requires and precisely what a fundamental theory cannot guarantee. **In a medium the cutoff is not a
 choice, so the quarter is not a scheme artifact.**
 
-**Grade: derived, conditional on the Bogoliubov regulator's O(1) = 1.0000 result holding for the
-entanglement side as it does for the induced-G side** — the same computation, one side of it not yet
-run explicitly.
+**The entanglement-side check, paid (2026-07-20) — and it is a structural identity, not a second
+computation.** The two coefficients are not two independent one-loop results that happen to share a
+cutoff. A conical deficit puts a delta-function in the Ricci scalar on the entangling surface,
+R ⊃ 4π(1−n)δ_Σ, so the *area* term in the conical heat kernel **is** the *R* term of the same
+coefficient a₁ that generates 1/G — which is exactly the Frolov–Fursaev–Zelnikov universality
+recorded in §4. Both therefore carry the same proper-time integral ∫ds/s², and a regulator that
+reshapes that measure multiplies **both** by the same factor. So
+
+> **O(1)_entanglement = O(1)_induced-G identically, for any form factor** — and the quarter is
+> regulator-independent, not merely regulator-consistent.
+
+**What this costs the way the result was stated.** The p-ramp on the induced-G side — O(1) =
+2.0/1.0/0.5 at Bogoliubov softening p = 1.5/2/3 — cancels in the ratio, which is the good news;
+but it also means **"O(1) = 1.0000" is the p = 2 point of a ramp, not a prediction of the medium.**
+What earns the quarter is the shared-coefficient structure, and the flat 1.0000 should not be
+quoted as though the medium selected it.
+
+**Grade: derived for the field content the coefficients assume** — minimally coupled scalars, which
+is what 12π and 48π are the coefficients *of*. **It does not extend to the roster the model
+actually carries.** For non-minimal coupling and for fields with spin the two divergences stop
+being one heat-kernel term (this is precisely where FFZ require extra subtractions), so the
+cancellation is not automatic; and the recorded fermion-sign hazard — a fermion-dominated roster
+driving naive 1/G wrong-signed — is untouched by a *ratio* argument, since a ratio survives both
+its halves being wrong. **That roster question is now the open item here, and it is larger than the
+O(1) it replaces.**
 
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 

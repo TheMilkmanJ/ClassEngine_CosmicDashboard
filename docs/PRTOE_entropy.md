@@ -57,13 +57,18 @@ which is precisely the universality the literature reports — leaving S/(A/4G) 
 medium reproduces the area law's *form and its independence of the species content* — and the
 pure number η is supplied conditionally by the same structure: the coefficient is the ratio of
 the two heat-kernel coefficients under the medium's own Bogoliubov regulator, 12π/48π = 1/4
-exactly (§5; [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). **What remains of the
-debt is the regulator's O(1) check on the entanglement side — one half of one computation.**
+exactly (§5; [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). **The entanglement-side
+check is paid (2026-07-20), and structurally**: the conical deficit's R-delta makes the horizon
+area term the *same* heat-kernel coefficient that generates 1/G, so any regulator multiplies both
+by one factor and cancels in the ratio — the quarter is regulator-**independent**. The residual
+debt is not this O(1) but the roster: the coefficients 12π and 48π are the minimally coupled
+scalar's, and for spin and non-minimal coupling the two divergences are no longer one term.
 
-**Grade:** located by the model, scaling derived, coefficient derived-conditional (the
-regulator's entanglement-side check owed) — the same check gates the Page curve
-([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), so a single payment closes
-both. Homes: [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
+**Grade:** located by the model, scaling derived, coefficient derived for minimally coupled content
+(the regulator's entanglement-side check paid structurally; the field-content extension open) — the
+same structure gates the Page curve
+([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), which it now unblocks rather than
+delivers: the phonon-Hawking-flux computation is a separate object. Homes: [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md).
 
 ## 4. The gas entropy floor — what the screening transition deposits

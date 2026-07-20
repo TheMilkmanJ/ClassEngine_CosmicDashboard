@@ -1959,6 +1959,10 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
  m = 2.24×10⁻²⁰ eV; cross-checked vs α_g(M87*) = 1.1). Testable in SMBH spin catalogs; the
  the α_c MCMC posterior sharpens the band. **Kill**: a flat or oppositely-featured spin-mass plane at
  good statistics. Caveat carried: spin measurements are hard/model-dependent in-band.
+ **Unshielded (2026-07-20):** the self-interaction quench that would have let high in-band spins
+ coexist with the recorded mass misses by 85 decades at λ ≈ 2×10⁻⁹¹, so this prediction is
+ exposed exactly as a free scalar's would be — the band's measured spins bear on it directly
+ (`scripts/superradiance_quench.py`).
 - **P-035 — THE SMOOTHNESS FLOOR**: no dark substructure below ~10⁻³ pc, ever (the healing-
  length floor). **Kill**: any confirmed sub-milliparsec non-baryonic compact object.
 - **P-036 — THE HELIUM WAR RESOLVES HIGH** (adverse-leaning, registered against comfort):
@@ -2254,23 +2258,41 @@ prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
 (Minami–Komatsu-class, ~0.34°, dust-systematics-debated). The model's explicit position:
 the signal is a systematic. LiteBIRD is the executioner if it is not.
 
-## P-2026-043: The Cosmic-Dawn Fingerprint — a Signed ~5% Deeper 21cm Trough (registered 2026-07-12)
+## P-2026-043: The Cosmic-Dawn Fingerprint — a Signed Deeper 21cm Trough (registered 2026-07-12)
 
-**The claim:** the dyad window (50 < z < z_high) shifts σ_T/m_e through thermal decoupling
-(z_dec ≈ 150, inside the window): Compton heating ∝ 1/m_e³ → −3ε → decoupling ~3.8%
-earlier → the cosmic-dawn gas ~3.8% colder → **the global 21cm absorption trough ~4.6%
-DEEPER than standard**, at the standard frequency (the z = 17 line is outside the window —
-no shift in position, only in depth).
+**The claim:** the dyad window shifts σ_T/m_e through thermal decoupling, which happens inside
+it: Compton heating ∝ α²/m_e³ → −3ε → decoupling earlier → the cosmic-dawn gas colder →
+**the global 21cm absorption trough DEEPER than standard**, at the standard frequency (the
+z = 17 line is outside the window — no shift in position, only in depth).
+
+**The depth, computed (2026-07-20; `scripts/cosmic_dawn_trough.py`).** The thermal history was
+run rather than estimated — CLASS's own recombination and baryon-temperature integration at
+identical cosmology with only the electron mass toggled, cross-checked against an independent
+Compton-coupling ODE agreeing to 0.004% over 20 < z < 300. At z = 17 the gas cools from
+**6.854 K to 6.793 K (−0.89%)**, and with the absorption's amplification
+(T_CMB/T_g)/(T_CMB/T_g − 1) = 1.162 that is a trough **≈ 1.0% deeper** (1.03–1.04% across the
+window's fade and step edges and across the model-vs-ΛCDM background choice).
+
+**Why the registered estimate ran high.** It charged the full −3ε = −3.76% to the gas
+temperature. The rate shift buys a decoupling shift only through the response slope
+d ln(Γ_C/H)/d ln(1+z) ≈ 2.76 at decoupling, which divides it to ≈ 1.36%; decoupling is then not
+sharp, and residual Compton coupling below it recovers part of the deficit, leaving −0.89% at
+the trough. The amplification step was right. **The sign — the registered content — holds at
+every stage of the integration**, and the mechanism's direction is unchanged.
 
 **Sign context:** the direction of the EDGES anomaly — but percent-class, NOT the claimed
 ×2: the model CONTRIBUTES to a deeper trough and cannot explain EDGES alone. If EDGES is
-systematic (SARAS-3's position), the model's ~5% remains as the residual target.
+systematic (SARAS-3's position), the model's ~1% remains as the residual target.
 
 **Referees:** precision global-signal experiments (REACH, SARAS-class, the lunar
-radiometers) and SKA-era cosmic dawn. **Kills:** a measured trough ~5% SHALLOWER than
-standard (wrong sign); the window's low edge moving off z ≈ 50 enough to exit decoupling
-(breaks the mechanism); estimate-grade caveat: the full RECFAST-class thermal-history run
-is owed and may move the % by O(1) factors — the SIGN is the registered content.
+radiometers) and SKA-era cosmic dawn. **Kills:** the decision rule is now a **sign test** — any
+robust measurement that the trough is SHALLOWER than standard kills it. The registered
+"~5% shallower" threshold was calibrated against the estimate and is retired with it: a 1%
+prediction cannot set a 5% threshold, and at this depth the cosmic-dawn channel is a
+consistency check rather than a discriminator, sitting under the foreground and beam
+systematics and degenerate with star-formation timing. The astrophysics-free arm of the same
+mechanism is the dark-ages rest-frequency offset, not this one. Also killing: the window's low
+edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
 
 ---
 ## REGISTRY STATUS REVIEW (2026-07-12, consolidated — the anti-staleness block)
@@ -2292,8 +2314,9 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
  expected sign is downward, favouring the band's lower half where the strain largely survives.
  Arrow C stays STRAINED; what changed is that its size is now a question about the anchor, not
  about the shooter.
-- **P-2026-043** (the cosmic-dawn trough, ~5% deeper): FRESH — estimate-grade, sign is
- the content, full thermal-history run owed.
+- **P-2026-043** (the cosmic-dawn trough, deeper): LIVE — the thermal-history run has been
+ made and the depth is **≈ 1.0%**, not the estimate's 4.6%; the sign, which is the registered
+ content, holds. The decision rule is a sign test.
 - All other entries: statuses unchanged from their last amendments; the birefringence
  visibility note (vs the claimed EB rotation) and the neutrino block stand as written.
 

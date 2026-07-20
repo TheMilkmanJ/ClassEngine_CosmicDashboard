@@ -145,10 +145,10 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 117 | THE BOUNCE SECTOR | open |
 | 118 | The two-draws question (chain link 4→5) | open |
 | 119 | The cold-spot orphan | closed |
-| 120 | The regulator's entanglement-side O(1) check | open |
+| 120 | The regulator's entanglement-side O(1) check | closed — **structural**: the conical R-delta makes both coefficients one heat-kernel term, so any form factor cancels in the ratio (any p, not just p = 2). Successor open item, larger: the same identity does **not** extend past minimally coupled scalars to the model's actual roster |
 | 121 | The genesis calc — exact Ψ₀ and f_amp | open |
 | 122 | Three owed-vs-completed conflicts adjudicated | closed |
-| 123 | The Gibbs–Duhem mode-sum calculation — the DE value's un-built object | open |
+| 123 | The Gibbs–Duhem mode-sum calculation — the DE value's un-built object | open — **and do not invest**: its renormalized residual IS the LHY object, so it inherits #169's control failure (λ = 26–46 against λ\* = 22.41) rather than escaping it; and a preferred-frame mode sum returns w = +⅓, not −1 |
 | 124 | The edge-convention audit | open |
 | 125 | Why the kinetic term rather than only the Weinberg operator | open |
 | 126 | The gravity-routing step of the c-derivation | open |
@@ -159,7 +159,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 131 | The X₀ erasure reformulation | closed — the X₀-free canonical form in clock units ξ = φ/√(2X₀) (v5 five-verdict §2.1); two scales, M₂ and m̄₂, both landed; the atlas whisper carries the answer |
 | 132 | Rebuild the docket index | closed — **this file**; see the note below |
 | 133 | Which rung condensation picks | open |
-| 134 | The dark vortex-pair computation — F_dark/√σ's normalization band | open |
+| 134 | The dark vortex-pair computation — F_dark/√σ's normalization band | normalization **fixed** (F ≡ √2 f_π, the 130.4-MeV branch; the "band" was one number twice) — **open on what that uncovered**: the NJL route gives 0.1759 pinned against the vortex-pair 0.4204, a 2.39× internal disagreement |
 | 135 | The staged candidate tests — flesh out or retire | closed |
 | 136 | The composite-Higgs exposure | closed — **withdrawn**; the Higgs here is elementary (hierarchy §2(c)) |
 | 137 | The bend-over density of states — what N₀ is at the pairing shell | closed |
@@ -181,7 +181,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 153 | THE RETIREMENT CROSS-CHECK | closed |
 | 154 | THE JOINT GENESIS DRAW — winding and rotation on one trajectory | open |
 | 155 | THE SAMPLER'S PROPOSAL — why chains accept 97% and never move | open — routeD/conv_desi relaunched on a seeded covariance; acceptance fixed (0.99 → 0.25–0.31), convergence unproven; dyad_mnu's ±1.00 degeneracy is the live hypothesis |
-| 156 | THE λ-QUENCH RE-DERIVATION — the superradiance shield | open — live exposure: P-034's band carries high measured spins and the shield is un-quotable |
+| 156 | THE λ-QUENCH RE-DERIVATION — the superradiance shield | closed — **adverse**: computed at the recorded λ and m, the margin is −85 decades; there is no shield and the model meets P-034 as a free scalar |
 | 157 | The D/H error budget — one ruling, four homes | GATED to the owner — the 3-term width may double-count d(p,γ)³He post-LUNA; two-term moves the row −2.49σ → −2.94σ |
 | 158 | Link 4's sign convention | reduced — H_B = k²H_kin, coefficient squared, so no convention survives; what is owed is sign(H_kin), and #154 does not reach it |
 | 159 | The cross-sector sign lock | closed — registered P-2026-057 |

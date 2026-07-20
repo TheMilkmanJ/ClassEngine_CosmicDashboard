@@ -64,18 +64,35 @@ what it would deliver:)* if that identity lands 1.11, then c₂ is derived, and 
 and the P-048 fork's kernel point in one stroke. None of that is claimed here; §2–3 stand
 alone.
 
-**The tie, run (2026-07-18): CLASS-YES, PRECISION-PENDING.** For a relativistic condensate
-the vortex stiffness is the Goldstone decay constant — q̃² = 2πF²t — so the keystone converts
-to **F_dark/√σ = 0.30–0.42** (thickness t·√σ = 1 natural; the band is the normalization
-convention, to be FIXED by the sector's own vortex-pair computation, blind). The known
-class: QCD sits at 0.21–0.30 across conventions; two-color lattice at ~0.2–0.35. **The
-demanded value is the neighborhood QCD-like theories actually occupy** — natural at
-factor-≲2, not yet pinned at percent grade. *(Noted with the fence up: the band's lower
-edge, 0.297, sits 0.3% from QCD's own 130-MeV-convention value — proximity is bait until
-the convention is computed, and the computation may not know the target.)* **The closing
-state: the entire chain now hangs on TWO observables of ONE lattice theory — T_c/√σ (the
-P-048 fork: ½ln2 = 0.34657 vs the observation-inverted 0.34506) and F_π/√σ (this tie) — the same SU(2) N_f = 3 ensembles the
-circulating note already invites the field to run.** **The coefficient, pinned.** The vortex-pair energy in the sector's own normalization
+**The tie, run (2026-07-18; normalization fixed 2026-07-20): CLASS-NEAR, PRECISION-PENDING.**
+For a relativistic condensate the vortex stiffness is the Goldstone decay constant —
+q̃² = 2πF²t — so the keystone converts to a demand on F_dark/√σ.
+
+**The normalization is not a band; it is derivable, and it lands on the 130-MeV branch.** The
+sector's own convention L_θ = (F²/2)(∂θ)² is matched against the chiral Lagrangian
+L = (F_π²/4)Tr(∂U†∂U) by taking the winding direction U = diag(e^{iθ}, e^{−iθ}): the trace
+gives 2(∂θ)², so L = (F_π²/2)(∂θ)² and **F ≡ F_π = √2 f_π** — the 130.4-MeV object, not the
+92.4-MeV one. There is no residual factor to fix by a blind computation; the Lagrangian
+already says which it is. Accordingly the old ±√2 spread quoted as *F_dark/√σ = 0.30–0.42* was
+never a band: its two ends are **one number in two conventions**, and the convention selects
+the upper end, 0.4204.
+
+**What that does to the QCD comparison.** Compared like with like — both in the pinned
+convention — the demand is **0.4204 against QCD's own 130.4/440 = 0.2964**, a factor of
+**1.419, i.e. √2 to 0.3%**. The model does not sit on the QCD value; it sits a clean √2 above
+it. The earlier reading that put the two 0.3% apart divided the model's number by √2 and left
+QCD's undivided — a cross-convention comparison, and the 0.3% was the residue of that √2, not
+an agreement. **The demand is still the right neighborhood** (QCD-like theories occupy
+0.21–0.30 in the 92.4 convention, 0.30–0.42 pinned; the demand is 1.35–1.59× QCD's pinned
+value) — natural at factor-≲2, but outside the measured class rather than inside it.
+
+**The closing state: the chain hangs on THREE observables of ONE lattice theory, but they are
+TWO tests.** T_c/√σ (the P-048 fork: ½ln2 = 0.34657 vs the observation-inverted 0.34506) is
+one independent referee. F_dark/√σ and w·√σ are **not two** — the demand band below is derived
+from c₂ *and* the thickness, so F_dark/√σ alone referees nothing; only the pair
+(F_dark/√σ, w·√σ) measured on the same ensembles tests c₂, through
+c₂ = √3·2π·(F/√σ)²·(w√σ). A lattice reporting one without the other closes nothing.
+**The coefficient, pinned.** The vortex-pair energy in the sector's own normalization
 (L = |∂φ|² fixes F² ≡ 2v²; verified numerically) is E = 2πF²t·ln(R/d) exactly, so
 q̃² = 2πF²t with the sheet thickness t the one geometric input. **The sheet is the flux-tube
 web:** the string-bound geometry identifies t with the chromo-flux-tube width — lattice
@@ -83,7 +100,20 @@ class w·√σ ≈ 0.8–1.1, thin-film consistent (t < d, the regime where the 
 logarithm is exact). **The demand: F_dark/√σ = 0.40–0.47** in the pinned convention
 (comparison instruction for any lattice reader: match the phase-stiffness definition
 L_θ = (F²/2)(∂θ)² for the winding U(1) — two-color: the baryonic phase — not the name
-"F_π").
+"F_π"). Note this band is the **thickness** band w·√σ ∈ [0.8, 1.1] propagated through
+F/√σ = √(q̃²/√σ / 2π·t√σ), inverted (thicker sheet, smaller F); it is not a normalization
+spread, which the paragraph above has now removed.
+
+**An internal disagreement this exposes, and it is not a convention.** The corpus reaches the
+same observable by a second, independent route — the NJL/gap-equation chain that fixes the
+dark quartic (`scripts/de_value_g_to_lambda.py`, the machinery calibrated by returning
+f_π = 93.1 MeV against the measured 92.4). That chain delivers **f_dark/√σ = 0.1244** in the
+92.4 convention, i.e. **0.1759 pinned** — against the vortex-pair demand of 0.4204. The two
+routes disagree by a factor of **2.39**, and that number is not √2 and not 2, so no
+normalization choice reconciles them. One of the two is wrong about this sector, and the
+lattice campaign cannot adjudicate it: both are predictions of the same theory, so the
+disagreement is internal and must be resolved before either number is offered as a referee
+target. **Docket #134 stands open on this, not on the normalization.**
 
 **The phase, at its floor: the KMS twist.** At temperature T and chemical potential μ, the
 thermal state's KMS boundary condition twists a charged field's phase by exactly μβ = μ/T

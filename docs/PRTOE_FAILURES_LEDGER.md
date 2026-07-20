@@ -123,7 +123,7 @@ Undated entries below read against this register.*
 | what died | the killshot | provenance |
 |---|---|---|
 | **The molecular-spectroscopy test (the benzene idea)** — m_e-dependent molecular spectra (benzene, methanol/ammonia) shifting with environment, validated against astronomical μ = m_e/m_p bounds | **RETIRED — it fails the shortlist's own two criteria, and no gate can close it** (kills #135's molecular candidate). Criterion (a), uniqueness: any varying-m_e model predicts the same shift, so a detection selects nothing. Criterion (b), out-of-fit discrimination: the half that would discriminate is unobservable **in principle with these tracers** — molecules form only in dense gas, so every sightline is already structured. The data can confirm "structure → lab value" and can never test "void → bare value". This is not a computation that failed; it is a test that cannot be built from this tracer. A diffuse or unvirialized molecular tracer would be a different test, and faces the same gap as the Lyα-forest near-threshold test | #135 adjudication |
-| **The superradiance discriminator** — at the mass band's top edge (~3×10⁻²¹ eV), SMBH-spin data excludes free FDM while the λ-quenched dyad survives, so a spin measurement there separates them | **RETIRED — overtaken by its own mass, and its content is already registered** (kills #135's staged superradiance item; the live physics is P-034). It was written against the era's audited band [1,3]×10⁻²¹ eV. The dyad mass has since been pinned three independent ways at **2.24×10⁻²⁰ eV**, an order above it, and at the recorded mass the same physics is the registered spin-dip band P-034 (M ≈ 6×10⁸–3×10⁹ M☉, α_g ~ 0.1–0.5). So the staged item was a stale duplicate of a live prediction, not a candidate awaiting promotion. **The residue is adverse, not neutral:** the λ-quench that does the protecting has never been re-derived at the model's own quartic and mass, so P-034's shield is un-quotable while its band carries high measured spins — an exposure, tracked at #156 | #135 adjudication |
+| **The superradiance discriminator** — at the mass band's top edge (~3×10⁻²¹ eV), SMBH-spin data excludes free FDM while the λ-quenched dyad survives, so a spin measurement there separates them | **RETIRED — overtaken by its own mass, and its content is already registered** (kills #135's staged superradiance item; the live physics is P-034). It was written against the era's audited band [1,3]×10⁻²¹ eV. The dyad mass has since been pinned three independent ways at **2.24×10⁻²⁰ eV**, an order above it, and at the recorded mass the same physics is the registered spin-dip band P-034 (M ≈ 6×10⁸–3×10⁹ M☉, α_g ~ 0.1–0.5). So the staged item was a stale duplicate of a live prediction, not a candidate awaiting promotion. **The residue is adverse, not neutral:** the λ-quench that would have done the protecting was re-derived at the model's own quartic and mass on 2026-07-20 and misses by 85 decades, so P-034 has no shield at all while its band carries high measured spins — an exposure, autopsy below (#156) | #135 adjudication |
 
 ### Supernovae — the candle room
 
@@ -1916,3 +1916,119 @@ shrink, not to go.
 **The lesson (process).** *Check what a σ is a σ **of**.* Preference-over-null and residual-tension
 are both quoted in Gaussian sigmas in this literature, they appear in adjacent sentences of the same
 abstracts, and they point in opposite directions.
+
+### THE SUPERRADIANCE λ-QUENCH — RE-DERIVED AND DEAD BY 85 DECADES (2026-07-20)
+
+**What was claimed** (`PRTOE_INTERACTION_ATLAS.md`, the live-exposure entry, and inherited by
+`PRTOE_DOMAIN_COVERAGE.md`, `PRTOE_blackholes_no_singularity.md`, `PRTOE_references.md`): that the
+genesis quartic quenches a growing superradiant cloud, so P-2026-034's band could carry high
+measured spins without the recorded mass being in trouble. The margin was swept as a rate balance
+Γ_SR ~ α_g⁹m against Γ_nl ~ λ²N²α_g^p m with p over [5, 15], giving log₁₀(N_spin-down/N_eq) = +2.5
+to +7.7 decades, re-priced to −0.2 to +5.0 when λ moved to 2×10⁻⁹¹. **RETIRED — the shield does
+not exist** (closes #156). Computed at the model's own quartic and mass
+(`scripts/superradiance_quench.py`), the margin is **−83.7, −85.1, −85.8 decades** at
+α_g = 0.1, 0.3, 0.5.
+
+| the step | what the sweep had | what it is |
+|---|---|---|
+| **which quartic** | ambiguous — λ_dyad ≈ 1.3×10⁻³⁸ and λ ≈ 2×10⁻⁹¹ both in play, 53 decades apart, read as bare-vs-effective | **not two normalizations of one coupling — two different fields.** λ_dyad belongs to the high-f Coleman–Weinberg field (m_φ = 3.1–6.9×10⁻⁵ eV, Compton wavelength ~cm), which forms no gravitational atom around a 10⁹ M☉ hole. The cloud is the m = 2.24×10⁻²⁰ eV boson, so λ ≈ 2×10⁻⁹¹ is the only admissible value |
+| **the exponent p** | swept over [5, 15] | **p = 4**, below the whole swept window. Kinematics force the channel: a free final quantum needs its partner in n = 1, so \|211⟩\|211⟩ → \|100⟩\|k⟩ at k = mα_g/√2, and the golden rule with the contact vertex gives Γ_nl ∝ λ²N m α_g⁴. Confirmed independently by kinetic theory (nσv), prefactors agreeing to 2.8× |
+| **the N-power** | N² in a per-particle rate | **N¹.** λ²N² is a *total* event rate. At order λ² a per-particle N² would require three quanta in, which a single vertex cannot supply |
+| **the balance** | total rate set equal to a per-particle rate | like against like: N_eq = α_g^(9−p)/λ², not α_g^((9−p)/2)/λ |
+
+**Where the kill actually came from — not where it was expected.** Resolving p was the owed
+calculation, but p is not what fails: evaluated at p = 4 the old expression still returns +5
+decades. The decisive defect is the **rate-normalization mismatch**, which put one power of λ where
+two belong. At λ = 2×10⁻⁹¹ that single missing power is worth **90 decades**, and it converts an
+apparent shield into an 85-decade shortfall.
+
+**Why no O(1) rescues it.** The overlap coefficient would have to be ~10⁸⁵. For the quench to
+shield, λ would have to exceed ~7×10⁻⁴⁹ — 42.6 decades above the recorded value, i.e. f_eff ≲
+3×10⁴ eV against the model's 5.01×10¹⁶ GeV. The bosenova branch is closed twice over: it requires
+an *attractive* quartic while the λ that sets the collapse floor is the **repulsive amplitude**
+quartic, and even granting an attractive coupling of the same size, N_bosenova sits 1.5–3.6 decades
+*below* N_spin-down, so collapse paces the spin-down into 30–3700 bursts rather than preventing it
+— completing in 5×10³ to 5×10⁹ yr.
+
+**What dies with it.** The free-vs-condensate discriminator (`PRTOE_PREREGISTERED_PREDICTIONS.md`,
+`PRTOE_DOMAIN_COVERAGE.md`) rested entirely on the quench. At λ ≈ 2×10⁻⁹¹ the field **is** a free
+scalar for every superradiance purpose — f_eff = 5×10¹⁶ GeV — so there is nothing to discriminate,
+and P-2026-034 stands or falls on the spin measurements alone.
+
+**The lesson (process).** *A rate is not a rate until you say per what.* The sweep's two rates were
+both written as "Γ ~ … m" and looked commensurable; one was per particle and one was per cloud.
+Sweeping an unknown exponent over ten units of α_g hid a normalization error worth ninety decades,
+because the sweep was performed on the parameter that was merely unknown rather than on the step
+that was wrong.
+
+### F_dark/√σ's "NORMALIZATION BAND" — THERE WAS NO BAND, AND THE QCD MATCH WAS THE MISSING √2 (2026-07-20)
+
+**What was claimed** (`PRTOE_forced_combination.md` §4, inherited by `working_logs/T6_koide_owed.md`):
+that the vortex-stiffness tie converts to **F_dark/√σ = 0.30–0.42**, *"the band is the normalization
+convention, to be FIXED by the sector's own vortex-pair computation, blind"*, graded
+**CLASS-YES, PRECISION-PENDING** because that band overlaps the QCD-like class 0.21–0.30; with the
+fenced note that *"the band's lower edge, 0.297, sits 0.3% from QCD's own 130-MeV-convention
+value — proximity is bait until the convention is computed."* **RETIRED on all three counts**
+(#134's normalization half; the docket stays open on what replaced it).
+
+| the claim | what it is |
+|---|---|
+| "the band is the normalization convention" | **not a band.** 0.2973 and 0.4204 are *one number in two conventions* — their ratio is √2 to 5 digits. A quantity written twice is not an interval, and nothing about it needed a blind computation |
+| "to be FIXED by … the vortex-pair computation" | the convention is **read off the Lagrangian**, not computed. L_θ = (F²/2)(∂θ)² matched to L = (F_π²/4)Tr(∂U†∂U) on the winding direction U = diag(e^{iθ}, e^{−iθ}) gives Tr = 2(∂θ)², hence L = (F_π²/2)(∂θ)² and **F ≡ F_π = √2 f_π**: the 130.4-MeV branch, decided by inspection |
+| "0.297 sits 0.3% from QCD's 130-MeV-convention value" | a **cross-convention comparison**. It divides the model's 0.4204 by √2 and does not divide QCD's 0.2964. Like for like the two are 0.4204 vs 0.2964 = **1.4186, i.e. √2 to 0.3%** — and that 0.3% *is* the residue the note reported as an agreement |
+| **CLASS-YES** | earned against the superseded 0.30–0.42, which overlapped the known class. The live demand 0.40–0.47 overlaps **neither** QCD (0.21–0.30 in the 92.4 convention, 0.30–0.42 pinned) nor the two-color lattice range. Re-graded **CLASS-NEAR**: 1.35–1.59× QCD's pinned value — factor-≲2 natural, but outside the measured class, not inside it |
+
+**The failure mode, named.** A convention factor was mistaken for a physical uncertainty, and then
+the *same* factor was spent a second time buying an agreement. Because 0.4204 happens to be √2 ×
+QCD's pinned 0.2964, dividing the model by √2 lands on QCD exactly — so the unresolved convention
+manufactured both the "band" and the "0.3% proximity", and the two artifacts corroborated each
+other. The file's own fence ("proximity is bait until the convention is computed") was correct and
+was the thing that survived.
+
+**What replaced it, and it is worse than what died.** With the convention pinned, the corpus's two
+independent routes to this one observable can finally be compared, and they disagree: the
+NJL/gap-equation chain (`scripts/de_value_g_to_lambda.py`, calibrated by returning f_π = 93.1 MeV
+against the measured 92.4) gives **0.1759 pinned** against the vortex-pair **0.4204** — a factor
+**2.39**, which is neither √2 nor 2 and therefore survives every normalization choice. No lattice
+can adjudicate it; both numbers are predictions of the same theory. Also corrected: the referee
+calendar billed *three* numbers of one campaign, but F_dark/√σ and w·√σ are **one** test — the
+demand band is derived from c₂ *and* the thickness, so only the pair constrains anything, via
+c₂ = √3·2π·(F/√σ)²·(w√σ).
+
+**The lesson (process).** *Two numbers a factor √2 apart are one number until proven otherwise.*
+In a sector where the decay constant has two live conventions differing by exactly √2, any
+"band" spanning √2, and any agreement reached by inserting or removing a √2, must be checked
+against the Lagrangian before it is read as physics.
+
+### THE CONFORMAL-WINDOW GEOMETRIC MEAN AS THE DYAD'S T_c — RETIRED, and the alarm it raised was its own artifact (2026-07-20)
+
+**What was claimed** (`PRTOE_UV_completion.md` §#17): that the gate-0 radiation-phase escape stood
+on a *conformal-window heuristic* — the w = ⅓ radiation youth read as a scale-invariant window
+bracketed at UV = soft mass and IR = the dark-energy floor, with the condensation scale at the
+geometric mean √(m_soft·Λ_IR) ≈ 48 keV, "inside the escape window". Graded **DEFUSES, does not
+clear**, waiting on "which rung the condensation picks". A 2026-07-20 check then raised the alarm
+that the high-f adoption may have moved the bracket: with f = 100–500 TeV in place of a TeV soft
+mass the same geometric mean reads **480 keV to 1.07 MeV, and the upper end leaves the escape
+window (0.26 eV, 1 MeV)**.
+
+**RETIRED (kills #133's object — the docket closes on the answer, not on the question).** The
+heuristic was never what set the dyad's condensation temperature, and neither end of its bracket
+is the right one.
+
+| the claim | what it is |
+|---|---|
+| the escape rests on a conformal-window geometric mean | it does not. The dyad condenses when the electron plasma's thermal mass stops holding the symmetric point against the electron loop's tachyonic curvature; **both terms are first order in κ = ε/f², so κ cancels** and the restoration temperature is m_e0·√(3(L−1)/2π²) — the electron mass times a pure number (`PRTOE_me_mechanism_math.md`, the high-f operating point) |
+| the bracket's UV end is f, or a soft mass the dyad may not have | **neither.** f does not appear in a κ-independent quantity. The only surviving f-dependence is in the ramp-timing relation C_T(T_c) = 2λ_dyad·f², and only while λ_dyad is held at its recorded value rather than at its own defining expression; held there, λ_dyad·f⁴ = ε·m_e0⁴(L−1)/4π² and f cancels exactly |
+| "1.07 MeV at f = 500 TeV leaves the escape window" | an artifact of the heuristic. Across that same 100–500 TeV window the sector's own timing relation gives **T_c = 130–940 keV — inside at both ends** — and read backwards places f ≈ 145 TeV, in the *low* part of the adopted window |
+| the escape is "physical-but-unproven" pending the rung | the rung is fixed by the cancellation. Three independent readings — the kernel's 177.10 keV, the exact-kernel electron-loop cross-check at 250–530 keV, and the timing relation's 130–940 keV — all sit inside (0.26 eV, 1 MeV), and all sit inside the tighter **BBN fence [70, 500] keV** that actually binds |
+
+**The failure mode, named.** A heuristic was left standing in the place where the sector had a
+calculation, and then re-run with a new input when the model's scales moved. Because a geometric
+mean is *linear in the log of each bracket*, swapping the UV end from 1 TeV to 500 TeV moved the
+answer by 20× and pushed it through a boundary — while the quantity it was standing in for does
+not depend on that end at all. The alarm was raised by the substitute, not by the physics.
+
+**The lesson (process).** *When a heuristic and a calculation cover the same quantity, the
+heuristic's sensitivities are not the model's.* Before re-running an order-of-magnitude estimate
+against a changed input, check whether the corpus has already computed the thing the estimate was
+approximating — here it had, twice, and both computations are κ-independent.

@@ -306,43 +306,45 @@ the fixed point drifts and c runs slightly ABOVE 1 — consistent with the resul
  4. What IS testable lives in #17, NOT here: whether the w=1/3 phase actually attracts/protects c to
  1, and how c runs afterward. The clumping ORIGIN story is the *why-it-feels-right*, not the proof.
 
-## #17 UPDATE — the conformal see-saw defuses the gate-0 TeV kill (2026-07-10, fountain_scale.py — scratch-era, not retained)
+## #17 — the gate-0 radiation-phase escape: what sets the dyad's condensation temperature
 
-The gate-0 radiation-phase escape needs the dyad condensate DISORDERED at BBN (T~MeV) and
-CONDENSED at recomb (T~eV) — i.e. condensation temperature **T_c in (0.26 eV, 1 MeV)**, anywhere
-in the keV decade. An earlier objection killed this by asserting T_c ~ VEV ~ soft mass ~ TeV → condensed
-at BBN → loud. That assumed the naive ghost-condensate scale M ~ VEV.
+The escape needs the dyad condensate DISORDERED at BBN (T ~ MeV) and CONDENSED at recombination
+(T ~ eV) — a condensation temperature **T_c ∈ (0.26 eV, 1 MeV)**, anywhere in the keV decade. An
+early objection closed it by asserting T_c ~ VEV ~ soft mass ~ TeV, condensed already at BBN and
+therefore loud; that reading took the naive ghost-condensate scale M ~ VEV.
 
-**The #17 conformal origin says otherwise.** The w=1/3 "radiation youth" is a scale-invariant
-window bracketed at BOTH ends: UV = soft mass ~TeV, IR = DE floor Λ_IR = 2.3 meV. A conformal
-window's dynamical scale sits at the **geometric mean**, √(m_soft·Λ_IR) = √(TeV·meV) ≈ **48
-keV** — INSIDE the escape window. Consistency: the DE floor is itself the TeV↔M_pl see-saw
-[(m_soft)²/M_pl = 0.42 meV ≈ Λ_IR], so {meV ← keV ← TeV ← M_pl} is ONE ladder; the keV condensate
-scale is the middle rung, not a new posit. The whole keV cluster (see-saw 48, coded onset 10,
-dyad·m_e 6.3, α·m_e 3.7 keV) sits in-window — the escape is robust to the coefficient.
+**The escape does not ride on a scale estimate, because the sector computes the transition
+directly.** The dyad condenses when the electron plasma's thermal mass stops holding the symmetric
+point against the electron loop's own tachyonic curvature — and both terms are first order in
+κ = ε/f², so **the coupling cancels between them and the decay constant never enters**
+([PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md), the high-f operating point). What is
+left is the electron mass times a pure number:
 
-**STATUS: DEFUSES, does not clear.** The geometric-mean is the standard conformal-window heuristic,
-not a proof that condensation picks that rung rather than the VEV (loud) or the IR floor (too cold).
-So gate-0 moves from "dead on the TeV soft mass" → "escape physical-but-unproven, waiting on
-which rung the condensation picks." NOT recorded (Pinning Rule).
+> **T_c = m_e0·√(3(L−1)/2π²)** — κ-independent, and f nowhere in it.
 
-> **Two later movements bear on this, and the second is a live question rather than a refinement
-> (checked 2026-07-20).**
->
-> **Robust to the anchor's re-banding.** The soft-mass bracket is no longer a point value: the anchor
-> is 1–8 TeV (§6e). Across that whole band the geometric mean runs **48 keV to 136 keV**, every part
-> of it inside the (0.26 eV, 1 MeV) escape window. The escape does not depend on where in the anchor
-> band the scale sits, which is the robustness this section already claimed and can now state with a
-> range rather than a coefficient.
->
-> **But the bracket itself may have moved, and that is not settled here.** This section is dated
-> 2026-07-10; the high-f adoption landed 2026-07-18 and records the dyad as a high-scale
-> pseudo-Goldstone with **f ≈ 100–500 TeV** ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)), while
-> [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) states that field 2 carries no charge and
-> therefore has **no TeV soft mass**. If the window's UV end is f rather than a TeV soft mass, the
-> geometric mean becomes **480 keV at f = 100 TeV and 1.07 MeV at f = 500 TeV — and the upper end
-> leaves the escape window.** Whether the conformal window brackets on f, on a soft mass the dyad may
-> not have, or on some third scale is **the actual content of "which rung condensation picks"**, and
-> it is not decided by anything recorded. Flagged, not claimed: the arithmetic above is exact, the
-> identification of the bracket is not. Carried as **docket #133** — desk work, no external gate:
-> what it needs is the bracket's UV end identified from the recorded sector, not a measurement.
+**So the bracket is the electron mass**, and "which rung condensation picks" is settled by that
+cancellation rather than by a see-saw between a UV and an IR scale. Three independent readings of
+the same transition, and every one of them lands inside the escape window:
+
+| reading | T_c | where it comes from |
+|---|---|---|
+| the standing anchor | **177.10 keV** | the Koide kernel's τ = ½ln2 through Parseval — the confining chiral ratio, lattice-gated ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4) |
+| the electron-loop cross-check, exact thermal kernel | **250–530 keV** over L−1 ∈ [1, 10] | the restoration formula above, evaluated without the high-temperature expansion |
+| the ramp-timing relation across the whole adopted f window | **130–940 keV** over f = 100–500 TeV | MATH_SPINE §4's C_T(T_c) = 2λ_dyad·f², at the recorded λ_dyad |
+
+Only the third row carries any f-dependence at all, and it carries it only because λ_dyad is held
+at its recorded value while f moves. Held instead at its own defining expression,
+λ_dyad·f⁴ = ε·m_e0⁴(L−1)/4π² and f cancels exactly. Read the other way, that same relation places
+**f ≈ 145 TeV** — the sector's own consistency point sits in the low part of the adopted window,
+not at its top.
+
+**And BBN fences T_c more tightly than the escape does.** The deuterium bottleneck below (~70 keV,
+beneath which the ramp stamps nothing at the bottleneck) and the weak-rate window above (~500 keV,
+above which the dyad reaches n/p freeze-out and helium moves) give **[70, 500] keV**, with
+177.10 keV interior by 2.5× and 2.8×, and a whole-range swing of at most 0.32σ on D/H. Anything
+that clears the BBN fence clears the escape window several times over.
+
+**Status: the escape clears on the sector's own calculation, and it clears independently of f.**
+What stays conditional is the *value* of T_c — the standing 177.10 keV is gated on a lattice
+T_c/√σ for SU(2) with N_f = 3, and the perturbative route is scale-ambiguous by its own admission
+— not its decade. The escape needs only the decade.

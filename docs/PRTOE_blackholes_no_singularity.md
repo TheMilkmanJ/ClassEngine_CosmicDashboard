@@ -152,7 +152,8 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
  ([PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md)); (iv) the boson
  mass puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ — **registered as
  P-2026-034, and a live exposure**: the band is populated and carries high measured spins, the
- λ-quench that once shielded it is un-quotable until re-derived at the recorded λ and m, and
+ self-interaction shield is absent — at the recorded λ the quench misses by 85 decades, so the
+ model meets this test as a free scalar — and
  the mass cannot retreat without breaking the fit that fixed it
  ([PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md)).
 

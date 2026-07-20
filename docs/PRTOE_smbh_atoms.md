@@ -96,3 +96,50 @@ is where the honest uncertainty sits — not in the model's side of the calculat
 **Grade: a named, live exposure.** This is the thread's own item 3, now computed rather than
 listed, and it joins the Galactic-Centre budget test as the second constraint that bears
 directly on the model's single ultralight input.
+
+## The self-interaction shield, computed — and it is not there (2026-07-20)
+
+The one defence available to the recorded mass was the quartic: a growing cloud saturates when
+self-interaction depletion catches superradiant growth (Baryakhtar et al., arXiv:2011.11646), so
+a hole could keep its spin without the mass being wrong. Run at the model's own coupling
+([scripts/superradiance_quench.py](../scripts/superradiance_quench.py)), **the margin is negative
+by 83 to 86 decades** and the defence does not exist.
+
+**Which quartic enters — the question that had to be settled first.** Two values were in play,
+53 decades apart, and they are **not** bare-vs-effective readings of one coupling:
+
+| coupling | what it belongs to | admissible here? |
+|---|---|---|
+| λ_dyad ≈ 1.3×10⁻³⁸ | the high-f Coleman–Weinberg field whose VEV f ≈ 3×10¹⁴ eV sets m_e; its own mass is 3.1–6.9×10⁻⁵ eV, a Compton wavelength of centimetres | **no** — 15 decades too heavy to form a gravitational atom around a 10⁹ M☉ hole |
+| λ ≈ 2×10⁻⁹¹ | the m = 2.24×10⁻²⁰ eV boson itself — the field the cloud is made of | **yes**, and it is the only candidate |
+
+**The rate balance, with p resolved.** Kinematics fix the depleting channel: a free final quantum
+requires its partner to land in n = 1, so the process is |211⟩|211⟩ → |100⟩|k⟩ at k = mα_g/√2.
+Fermi's golden rule with the contact vertex gives Γ_nl ∝ λ²N m α_g⁴ — **p = 4**, below the [5, 15]
+window the margin used to be swept over, and confirmed independently by kinetic theory (nσv) with
+prefactors agreeing to 2.8×. Balancing total against total, N_eq = α_g^(9−p)/λ²:
+
+| α_g | M (M☉) | N_spin-down | N_eq | log₁₀(N_spin-down/N_eq) |
+|---|---|---|---|---|
+| 0.1 | 6.0×10⁸ | 3.0×10⁹³ | 1.5×10¹⁷⁷ | **−83.7** |
+| 0.3 | 1.8×10⁹ | 2.7×10⁹⁴ | 3.6×10¹⁷⁹ | **−85.1** |
+| 0.5 | 3.0×10⁹ | 7.4×10⁹⁴ | 4.6×10¹⁸⁰ | **−85.8** |
+
+**Where the failure actually lives.** Resolving p was the owed calculation, but p is not what kills
+it — evaluated at p = 4 the old expression still returns +5 decades. The decisive defect is a
+**rate-normalization mismatch**: λ²N² is a *total* event rate and it was balanced against a
+*per-particle* Γ_SR, which put one power of λ where two belong. At λ ≈ 2×10⁻⁹¹ that single missing
+power is worth 90 decades.
+
+**No O(1) reaches it, and the bosenova does not either.** The overlap coefficient would have to be
+~10⁸⁵; λ would have to exceed ~7×10⁻⁴⁹, i.e. f_eff ≲ 3×10⁴ eV against the model's 5.01×10¹⁶ GeV.
+Bosenova collapse is closed twice: it needs an *attractive* quartic while the λ that sets the
+collapse floor is the **repulsive amplitude** quartic, and even granting an attractive coupling of
+the same size, N_bosenova sits 1.5–3.6 decades *below* N_spin-down — so collapse paces the
+spin-down into 30–3700 bursts rather than preventing it, still completing in 5×10³ to 5×10⁹ yr.
+
+**What this changes.** The model meets P-2026-034 **as a free scalar** — at f_eff = 5×10¹⁶ GeV the
+self-coupling is invisible to every superradiance process. The free-vs-condensate discriminator is
+therefore gone: there is nothing for a spin measurement to separate, and whatever high in-band
+spins do to free ultralight scalars, they do to this model. The exposure is unchanged in size and
+now has no defence in reserve.
