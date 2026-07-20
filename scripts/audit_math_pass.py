@@ -726,6 +726,16 @@ chk("hierarchy 6b", "max condensate scale clearing the bound", 1.65e-18, 1e-18/(
 chk("hierarchy 6b", "Coulomb screening length 2*alpha_c/pi", 0.013940, 2*(3*ALPHA)/math.pi, 1e-3)
 chk("hierarchy 6b", "M_anchor/m_H against 4*pi", 4*math.pi, _v_anch/125.25, 2e-3)
 
+# ---- hierarchy 6c: the gap equation solved ----
+_aTF = 2*(3*ALPHA)/math.pi
+chk("hierarchy 6c", "Thomas-Fermi screening a = 2*alpha_c/pi", 0.013937, _aTF, 1e-4)
+chk("hierarchy 6c", "k, full FS average ln(1+pi/alpha_c)/pi", 1.58305,
+    math.log(1 + math.pi/(3*ALPHA))/math.pi, 1e-4)
+chk("hierarchy 6c", "k, booked (theta<=pi/2 cut)", 1.36461,
+    math.log(1 + math.pi/(2*3*ALPHA))/math.pi, 1e-4)
+chk("hierarchy 6c", "anchor sensitivity d(lnM)/d(lnk)", 33.47,
+    1/((math.log(1 + math.pi/(2*3*ALPHA))/math.pi)*3*ALPHA), 1e-3)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

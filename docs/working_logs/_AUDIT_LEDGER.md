@@ -2137,3 +2137,37 @@ requirement it replaces: the condensate must carry weak isospin without electric
 standing demand on any dynamical electroweak-breaking reading and also what lets a 511 keV electron
 sit beneath a TeV condensate; and the bend-over spectrum must be shown to condense at λ = 0.03.
 Both are computations inside the basement, not missing objects. §6's table now reads three of three.
+
+### 2026-07-19 — THE GAP EQUATION, SOLVED (#114) — one derivation, one exposure
+
+Owner-directed: "if it's not a solved gap equation, then solve it." Done, with the channel from
+§6b fixing what to write down. Linearised particle-hole gap equation, instantaneous
+screened-Coulomb exchange, rainbow approximation; Heaviside–Lorentz throughout.
+
+**Derived, exactly, nothing fitted:** the Thomas–Fermi screening constant
+a = m_D²/(2k_F²) = e²N₀/(2k_F²) = **2α_c/π = 0.013937** — identically the constant sitting inside
+the corpus's k = (1/π)∫₀¹dq/(q + 2α_c/π). The long-standing claim that k is "a genuine
+screened-interaction integral" is correct and is now sourced: that screening is this vacuum's
+Thomas–Fermi screening.
+
+**Exposed:** the angular measure is not derived, and it is where the anchor's precision lives.
+∂lnM/∂lnk = 1/(kα_c) = 33.47, so the quoted +0.14% needs k to 0.004%. The full Fermi-surface
+average (s = 1 − cos θ over [0,2]) gives k = 1.58305 → 1.6×10⁵ GeV; including the Dirac intraband
+overlap (1 + cos θ)/2, which suppresses backscattering exactly and is the standard factor for these
+fermions, gives k = 1.27577 → 153 GeV. The booked k = 1.36461 is the sharp θ ≤ π/2 cut, which is
+neither, and it sits **0.004% from the value that lands the anchor exactly on 4πm_H**. Two derived
+options spanning 24% in k span three orders in the anchor.
+
+**Verdict:** the equation supplies the exponential form, the coupling and the screening; it does
+not supply the measure. The +0.14% is a consequence of the θ ≤ π/2 cut, not evidence for it. A
+rescue is nameable — a kinematic or nodal restriction confining the pairing to a hemisphere would
+give exactly that cut — but none is in hand. What survives measure-independently is the order of
+magnitude: every option in the bracket lands 10²–10⁵ GeV, which is what the collider search tests.
+
+**A convention error of mine, caught before filing.** The first pass mixed Gaussian and
+Heaviside–Lorentz in the Thomas–Fermi mass (4πe²N₀ rather than e²N₀), producing a = 8α_c and an
+apparent 1.70× miss on k. That would have been filed as an adverse result against the model. The
+corrected constant instead lands *exactly*. Recording it because the error class is the one this
+corpus is most exposed to: an O(1) convention slip inside a quantity the anchor reads at
+33× leverage. Four checks added to the harness (now 322), including the screening constant, both
+measure options, and the sensitivity itself.
