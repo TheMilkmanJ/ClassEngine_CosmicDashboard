@@ -82,6 +82,12 @@ as such and unproven. *If M3 falls, everything falls; nothing below rescues it.*
 P-024 (dipole), P-029 (comb), P-031 (isocurvature), P-032 (the shared direction),
 P-028 (signed helicity), the bulk-flow candidate — all inherit n + the axis; the BipoSH
 joint pass is the family referee; any two settled members misaligned kills the family.
+**"Signed" means signed *relative to* n, and not more than that:** the genesis draw generates
+rotation with no preferred sense — a reflection symmetry of the recorded tilt that the uniform
+release prior does not break — so the family cannot name which absolute handedness corresponds to
+matter. That limit is proven rather than pending. Whether even the relative lock between the
+temporal rotation and the spatial winding holds is a separate question and is open
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)).
 
 ## The reading rule
 
