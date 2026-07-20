@@ -2100,3 +2100,40 @@ HALF", "THE REHOME") and one piece of invented jargon. Two more of the same regi
 same pass — "re-homed" in cosmological_constant, "verified, and it binds" in the registry. The rule
 this violates is the standing one: forward documents state the current claim, and the history lives
 here. Repair prose is the easiest place to break it, because the repair is what is on the writer's mind.
+
+### 2026-07-19 — THE BASEMENT'S PAIRING CHANNEL (#113, first result)
+
+The basement build's largest debt was the attractive channel: the exchange that binds the census
+states, listed OWED in the hierarchy file's §6 table and inherited by the seat constant b and by
+light's coupling closure. It is decided, and the decisive fact was already in the corpus.
+
+**The coupling fixes the channel.** α_c = 3α = d·α is *electromagnetic*, times the spatial
+dimension (DERIVATION_HUNT §1, the "3 is the spatial dimension" adjudication). There are two ways
+to pair at electromagnetic strength and they do not both survive.
+
+**Particle-particle is excluded by thirty orders.** A Cooper condensate of two charge-e fermions
+carries charge 2e, breaking U(1)_EM at the anchor scale, and the photon takes an Anderson-Higgs
+mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV. `PRTOE_light.md:177` already records m_γ < 10⁻¹⁸ eV as a kill line
+for the Goldstone reading of light. A charged condensate would have to sit below 1.65×10⁻¹⁸ eV to
+clear it. The corpus's own reading was particle-particle throughout — the glossary's "Cooper-style
+pairing of a mode with its time-reversed partner", quantum_trio's (k↑, −k↓) — and "excitonic" and
+"particle-hole" appear nowhere in it.
+
+**Particle-hole is what remains, and it discharges the requirement rather than paying it.** The
+condensate ⟨ψ̄ψ⟩ is neutral, so the photon stays exactly massless, and particle-hole Coulomb at α_c
+is attractive by construction — opposite-sign sources need no phonon analog. Three independent
+corroborations, none of them arranged for: (i) k = (1/π)∫₀¹dq/(q + 2α_c/π) is a statically-screened
+*Coulomb* momentum integral at screening length 0.0139 — the excitonic kernel; a phonon kernel does
+not produce ln(1 + π/2α_c)/π, so the integral the corpus has been running on was Coulomb the whole
+time; (ii) §6a's requirement of finite DOS in the pairing shell is exactly the known condition for
+particle-hole condensation at a Dirac point, so the two constraints agree instead of competing;
+(iii) ⟨ψ̄ψ⟩ is a Dirac mass, making the gap a dynamically generated fermion mass and m_H =
+M_anchor/4π its one-loop suppression at +0.13% — which supplies the mechanism §1 was asserting when
+it called the Higgs mass "that gap's one-loop echo".
+
+Grade: **structural, desk**. One hard exclusion (computed, five checks added to the harness — now
+318) plus a forced alternative plus three corroborations. The residual is narrower than the
+requirement it replaces: the condensate must carry weak isospin without electric charge, the
+standing demand on any dynamical electroweak-breaking reading and also what lets a 511 keV electron
+sit beneath a TeV condensate; and the bend-over spectrum must be shown to condense at λ = 0.03.
+Both are computations inside the basement, not missing objects. §6's table now reads three of three.

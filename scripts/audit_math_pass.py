@@ -716,6 +716,16 @@ chk("sign walk", "e face dev at k=0", -0.960, _A*math.cos(_thB), 0.001)
 chk("sign walk", "mu face dev at k=1", -0.420, _A*math.cos(_thB + 2*math.pi/3), 0.001)
 chk("sign walk", "tau face dev at k=2", 1.379, _A*math.cos(_thB + 4*math.pi/3), 0.001)
 
+# ---- hierarchy: which channel pairs in the basement (section 6b) ----
+_e_em = (4*math.pi*ALPHA)**0.5
+_v_anch = 1576.0                      # GeV, the anchor
+_mg = 2*_e_em*_v_anch*1e9             # eV, Anderson-Higgs mass if the condensate carried charge 2e
+chk("hierarchy 6b", "m_gamma from a charge-2e anchor condensate", 9.54e11, _mg, 5e-3, "eV")
+chk("hierarchy 6b", "orders above the m_gamma bound 1e-18 eV", 30.0, math.log10(_mg/1e-18), 5e-3)
+chk("hierarchy 6b", "max condensate scale clearing the bound", 1.65e-18, 1e-18/(2*_e_em), 5e-3, "eV")
+chk("hierarchy 6b", "Coulomb screening length 2*alpha_c/pi", 0.013940, 2*(3*ALPHA)/math.pi, 1e-3)
+chk("hierarchy 6b", "M_anchor/m_H against 4*pi", 4*math.pi, _v_anch/125.25, 2e-3)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
