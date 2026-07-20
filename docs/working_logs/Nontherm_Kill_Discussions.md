@@ -1,5 +1,15 @@
 # THE NON-THERMALIZATION KILL TRIBUNAL — Defender / Challenger / Referee
 
+> **DATED RECORD — the high-f pivot's source document.** The NARROWED verdict below was
+> adopted by the structural session the same day (2026-07-18): the standing configuration IS
+> §6's price sheet — f ≈ 100–500 TeV as the new input (P1), the SU(2)-condensate
+> identification dropped (P2), the electron-CW v ≈ 175 keV normalization retired as BBN-fatal
+> (P3, the confirmed kill), the windowed books re-run (P4), the gate's checklist carried (P5),
+> the genesis-ζ commitment model-wide (P6). One number moved after booking: the branch's
+> residual ΔN_eff was subsequently registered at **0.06–0.24** (the ζ ∈ [0.25, 0.35] pour
+> window) — the 0.06–0.15 in §6 was the at-halt computation; CMB-S4 (±0.03) remains the
+> falsifier either way.
+
 > *Notation: this log writes the genesis dilution T_dark/T_γ as ξ. The corpus now writes it **ζ**, to keep ξ for the medium's coherence length and the non-minimal curvature coupling. Same quantity throughout.*
 
 
