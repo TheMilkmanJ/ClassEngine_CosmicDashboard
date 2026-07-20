@@ -171,3 +171,35 @@ registered, worth its own line if the window computation confirms it.
 *State: fork #1's carrier survives only in its UV/coherent configuration at the MeV-corner
 class; the two-sided window (coherent-enough vs quiet-enough) is the stage-5 computation, with
 both bounds already recorded in the corpus (η's need; the tribunal's thermalization rates).*
+
+## STAGE 5 (2026-07-19) — the era question settled definitively; the watch EARNED as an identity; the verdict lands at the boundary
+
+**The flip-flop, owned and closed.** Stage 2 said rapid-winding (assuming frozen r); stage 3
+"corrected" to slow-winding (assuming a long quartic era); stage 5 settles it with the
+criterion that admits no third flip: **H vs m_eff at T_sph.** With the standing values,
+h ≡ λΨ₀²/m² = 4.0 — the quartic era is O(one e-fold), because **the standing λ = 2×10⁻⁹¹ IS
+(m/Ψ₀)² by its own derivation** — so m_eff = √5·m = 5×10⁻²⁰ eV against H(T_sph) = 2.4×10⁻⁵ eV:
+H/m_eff ≈ 5×10¹⁴. **The field is deep-frozen at the sphaleron era**: r = Ψ₀, θ̇ ∝ a⁻³, and
+stage 2's AC structure is RESTORED — stage 3's regime correction is retracted (it used the
+h ≫ 1 old-era map; the era note in the room1 log already covers that λ moved).
+
+**The stage-3 watch is EARNED — it was never a coincidence.** z_x ≈ z_on (basin entry ≈ the
+H = m onset) is forced by h = O(1), which is the λ-ceiling's own content: λ ≈ (m/Ψ₀)² ⟹
+quartic-mass handover and Hubble release coincide by construction. The watch closes as an
+identity of the recorded λ derivation, not a new fact.
+
+**The numbers at T_sph (recorded inputs only):** θ̇ = m·(T_sph/T_on)³ = 59.7 eV;
+θ̇/H = 2.4×10⁶ — rapid winding, the junction is AC, **the rectifier is the magnitude's gate**
+(the three-consumer convergence stands in full: η's magnitude, η's sign, and the θ_B ↔
+helicity lock all ride the one rectification object).
+
+**THE VERDICT — at the pre-committed boundary, exactly.** The naive rectified transmission is
+R ~ H/θ̇ = 4.1×10⁻⁷ against the needed ~5×10⁻⁵: **a factor 122 — sitting AT the acceptance
+band's edge ("within 10²").** Neither the clean pass nor the clean fail fires: the sphaleron-
+window integration (∫dlnT over the active window) and the rectification mechanism's own O(1)s
+are exactly the size of the gap. **The integral's answer, honest: η lands within ~10² of the
+need on the naive rectification scale, from recorded inputs and zero new numbers — and the
+factor-10² residual is the rectification mechanism itself, the same single object T14 and the
+sign run already owe.** The estimate-grade pass is complete; the careful rectification
+computation is the one residual, now carrying four consumers (magnitude, sign, the lock, and
+the boundary factor).
