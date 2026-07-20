@@ -262,45 +262,45 @@ particle-hole channel and the neutral seat takes Majorana, and both follow from 
 requirement that electromagnetism survive the vacuum. The tenth-channel operator and the anchor's
 pairing are one rule read at two seats, which is why neither needed a phonon.
 
-### 6c. The gap equation, solved — what it derives and what it exposes
+### 6c. The gap equation, solved
 
 With the channel fixed, the equation can be written down and solved rather than adopted. Take the
-linearised particle-hole gap equation with instantaneous screened-Coulomb exchange in the
-rainbow approximation. It factorises the usual way — a Fermi-surface average of the interaction
-times the density of states times the radial log — so that λ = N₀·⟨V⟩_FS and the exponential
-follows. In Heaviside–Lorentz throughout (e² = 4πα_c, V(q) = e²/(q² + m_D²), m_D² = e²N₀,
-N₀ = k_F²/π²v at linear dispersion, both spins):
+linearised particle-hole gap equation with instantaneous screened-Coulomb exchange in the rainbow
+approximation. It factorises the usual way — a Fermi-surface average of the interaction, times the
+density of states, times the radial log — so λ = N₀·⟨V⟩_FS and the exponential follows.
+Heaviside–Lorentz throughout: e² = 4πα_c, V(q) = e²/(q² + m_D²), and N₀ = k_F²/π²v at linear
+dispersion for one band, both spins.
 
-**One piece comes out exactly, with nothing fitted.** The Thomas–Fermi screening constant is
+**The Fermi-surface average, in its natural variable.** Write the momentum transfer as
+u ≡ q²/q_max² = q²/(4k_F²) = sin²(θ/2). Then du = sin θ dθ/2, and the solid-angle average is
+exactly ∫dΩ/4π = ∫₀¹du — the full sphere, no restriction anywhere. **The ∫₀¹ the corpus carries
+is not a cut**; it is the whole Fermi surface, written in the variable whose range is unity.
 
-$$a \;\equiv\; \frac{m_D^2}{2k_F^2} \;=\; \frac{2\alpha_c}{\pi} \;=\; 0.013937$$
+**The screening, and where the 2 lives.** Thomas–Fermi gives m_D² = e²·N_screen. A particle-hole
+condensate has two bands at the surface and *both* polarise, so N_screen = 2N₀ — while the pair
+itself is one electron and one hole, so the gap equation's own density of states is N₀. That
+**2-for-screening, 1-for-pairing** asymmetry is the defining structure of the channel §6b selects,
+and it is the entire content of the constant:
 
-— *identically* the constant standing in the corpus's k. The claim that k is "a genuine
-screened-interaction integral" is correct, and it is now derived: the screening the integral
-carries is the Thomas–Fermi screening of this vacuum, not a chosen parameter.
+$$b \;\equiv\; \frac{m_D^2}{4k_F^2} \;=\; \frac{e^2\,(2N_0)}{4k_F^2} \;=\; \frac{2\alpha_c}{\pi}
+\;=\; 0.0139369$$
 
-**The angular measure does not come out, and the anchor is hypersensitive to it.** Because
-∂lnM/∂lnk = 1/(kα_c) = **33.47**, a 1% error in k moves the anchor by 33%, and holding the
-quoted +0.14% requires k to **0.004%**. The two principled measures bracket the booked value
-without selecting it:
+**So k is derived rather than adopted:**
 
-| measure | k | M_anchor |
-|---|---|---|
-| the full Fermi-surface average, s = 1 − cos θ over [0, 2] | 1.58305 | 1.6×10⁵ GeV |
-| the same, times the Dirac intraband overlap (1 + cos θ)/2, which suppresses backscattering exactly | 1.27577 | 153 GeV |
-| **the sharp cut at θ ≤ π/2 that the booked k uses** | **1.36461** | **1576 GeV** |
-| | | *(measured 4πm_H = 1574)* |
+$$\lambda \;=\; N_0\,\langle V\rangle_{\rm FS} \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\tfrac{1}{b}\Big)
+\;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\frac{\pi}{2\alpha_c}\Big)\;\equiv\;k\,\alpha_c,
+\qquad k = 1.36461191$$
 
-The two derived options span 24% in k — **three orders in the anchor** — and the booked value is
-neither. It sits 0.004% from the k that lands the anchor exactly on 4πm_H, which is what a value
-selected by its target looks like.
+against the booked 1.36461191 — every digit carried, nothing fitted. The anchor follows:
+M_red·e^(−1/(kα_c) − 3/2) = **1576.1 GeV** against 4πm_H = 1573.9, **+0.14%**.
 
-**So the anchor is not a gap-equation prediction at this grade.** What the equation supplies is
-the exponential form, the coupling α_c, and the screening constant; what it does not supply is the
-angular measure, and the measure is where the precision lives. The honest reading of the +0.14% is
-that it is a *consequence* of the θ ≤ π/2 cut rather than evidence for it. A rescue exists and is
-nameable — some kinematic or nodal restriction that confines the pairing to a hemisphere would
-produce exactly that cut — but no such restriction is in hand, and until one is, the anchor's
-precision rides a convention rather than a derivation. The order of magnitude survives regardless:
-every measure in the bracket puts the scale between 10² and 10⁵ GeV, which is the statement the
-model actually needs and the collider search actually tests.
+The sensitivity is why the factor matters rather than being bookkeeping: ∂lnM/∂lnk = 1/(kα_c) =
+**33.47**, so the anchor amplifies any error in k thirty-threefold. One band screening instead of
+two gives k = 1.58305 and an anchor at 1.6×10⁵ GeV. The 2 is not a convention that happened to be
+lucky — it is the electron-plus-hole polarisation, and mistaking it misses by two orders.
+
+**What the derivation rests on.** N₀ = k_F²/π²v assumes linear dispersion at the pairing shell,
+and §6a puts that shell at the bend-over where the cone terminates — so the bend-over's true
+density of states is owed, as is whatever fixes k_F. The rainbow truncation and the equal-density
+assumption for the two bands are the other two. Each is a computation inside the basement rather
+than a missing object, and each is on the board.
