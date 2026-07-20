@@ -268,6 +268,16 @@ for _ in range(80):                            # bisect for the critical m1
     if _gap(_mid) > 0: _lo = _mid
     else: _hi = _mid
 chk("fairbank_note", "critical m1 where the floor vanishes", 2.324, _mid*1e3, 0.01, "meV")
+# the letter's floor table runs to the high anchor; every column of it is checked here
+_th = [(1-_s12)*(1-_s13)*2.284e-3, _s12*(1-_s13)*math.sqrt(2.284e-3**2+_dm21),
+       _s13*math.sqrt(2.284e-3**2+_dm31)]
+chk("fairbank_note", "|Ue1|^2 m1 at the high anchor", 1.55, _th[0]*1e3, 0.02, "meV")
+chk("fairbank_note", "|Ue2|^2 m2 at the high anchor", 2.68, _th[1]*1e3, 0.02, "meV")
+chk("fairbank_note", "|Ue3|^2 m3 at the high anchor", 1.10, _th[2]*1e3, 0.02, "meV")
+chk("fairbank_note", "m_bb ceiling at the high anchor", 5.33, _win(2.284e-3)[1], 0.02, "meV")
+# how close the top of the anchor's range comes to the floor vanishing outright
+chk("fairbank_note", "high anchor sits this far below the critical m1", 1.7,
+    100*(_mid*1e3 - 2.284)/(_mid*1e3), 0.05, "%")
 
 # ---- the experiment overlay (the Fairbank note's ask) ----------------------
 import numpy as _np

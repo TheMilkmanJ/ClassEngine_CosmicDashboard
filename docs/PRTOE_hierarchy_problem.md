@@ -556,8 +556,18 @@ counts it twice. Nothing yet decides which, and the answer is worth a factor of 
 Δ = 2Λ·e^(−1/λ), so matching the booked form requires Λ_shell = M_red·e^(−3/2−ln2) = 0.1116 M_red
 rather than 0.2231. The shell cutoff wanted by the exact solution therefore differs from the
 equipartition constant route 6 derives by exactly **ln 2** — which is not a free number in this
-corpus, since τ = ½ln2 already sits at the Koide kernel. Whether that is a coincidence or a seam is
-not decided here.
+corpus, since τ = ½ln2 already sits at the Koide kernel.
+
+**That is a convention artifact, not a seam.** The ln 2 is the BCS gap prefactor in disguise: the
+weak-coupling solution carries a leading factor 2, Δ = 2Λ·e^(−1/λ), which comes from the shell
+integral ∫dξ/√(ξ²+Δ²) and is a property of the gap equation itself, not of anything this model
+supplies. A factor of 2 moved between the prefactor and the cutoff is exactly ln 2 in the exponent,
+so the two routes differ only in where they park that 2 — route 6 keeps it in the prefactor, the
+booked form absorbs it into Λ_shell. Nothing is being predicted by the coincidence. The numerical
+brush with the Koide τ does not survive inspection either: the offset here is ln 2, while τ = ½ln2,
+so the match is to **2τ**, not τ, and no derivation in the corpus connects the pairing shell's
+cutoff convention to the kernel's thermal factor. Recorded closed: the exponent is unaffected, and
+the shell constant is quoted with its convention stated rather than treated as a second determination.
 
 
 ### 6h. The residual, named exactly

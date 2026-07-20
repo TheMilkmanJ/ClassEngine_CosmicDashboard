@@ -137,5 +137,17 @@ sampler:
     Rminus1_stop: 0.1
     Rminus1_cl_stop: 0.2
     learn_proposal: True
+    # 2026-07-20: the first two launches collapsed. Cobaya's default
+    # learn_proposal_Rminus1_max_early = 30 let the chain learn a proposal
+    # covariance while R-1 sat at 8-27 -- i.e. from a chain that had not
+    # converged at all. The learned sigmas came back 10-45x SMALLER than the
+    # proposal widths below (n_s 0.00024 vs 0.005; m_ncdm 0.00044 vs 0.02),
+    # so the chain took ever-tinier steps and stopped exploring: 6936 samples
+    # covered only H0 68.20-69.45 out of a 14-wide prior, with R-1 = 24.9.
+    # Fix: seed the covariance at the physical widths, and only ever learn
+    # from a chain that has actually converged (both gates at 2).
+    learn_proposal_Rminus1_max: 2.0
+    learn_proposal_Rminus1_max_early: 2.0
+    covmat: chains/routeD_seed.covmat
     burn_in: 100
 

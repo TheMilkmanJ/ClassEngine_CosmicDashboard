@@ -10,7 +10,7 @@ sector is an output rather than an input: the model's dark-energy scale ties to 
 neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**. Because the mass mechanism violates
 lepton number, **neutrinos must be Majorana, and the 0νββ process is structurally required.** The
 corresponding effective mass, with measured splittings and free Majorana phases, is
-**m_ββ ∈ [0.04, 5.3] meV, with a phase-averaged rms of 3.3 meV** (the rms is the
+**m_ββ ∈ [0.02, 5.3] meV, with a phase-averaged rms of 3.3 meV** (the rms is the
 rate-relevant average, since the rate goes as m_ββ²; the median over phases is 3.05 meV).
 
 ## What this means for your program
@@ -62,29 +62,36 @@ for it.
 
 ## The cancellation floor, and how thin it is
 
-The lightest mass is the model's dark-energy scale, m₁ = ρ_Λ¼, which is pinned to 0.44%: the
-observed value is 2.25 meV and the model's derived chain lands at 2.2599. The sum is insensitive to
-the choice — Σm_ν = 61.36 to 61.40 meV, which is why it is quoted as 61.4. The effective mass is
-less forgiving, and the floor is where the difference shows.
+The lightest mass is the model's dark-energy scale, m₁ = ρ_Λ¼. Two determinations of it sit 0.44%
+apart — the observed value is 2.25 meV and the model's derived chain lands at 2.2599 — but the scale
+itself is pinned only to about **1.5%**, and that wider figure is the one the floor notices. The sum
+does not care: Σm_ν = 61.35 to 61.40 meV across the full range, which is why it is quoted as 61.4.
+The effective mass is far less forgiving, and the floor is where the difference shows.
 
-The three contributions, with NuFIT-class mixings, at both ends of that range:
+The three contributions, with NuFIT-class mixings, across that range:
 
-| term | m₁ = 2.25 meV (observed) | m₁ = 2.2599 meV (derived) |
-|---|---|---|
-| \|U_e1\|² m₁ | 1.52 meV | 1.53 meV |
-| \|U_e2\|² m₂ | 2.67 meV | 2.67 meV |
-| \|U_e3\|² m₃ | 1.10 meV | 1.10 meV |
-| **floor** | **0.044 meV** | **0.038 meV** |
-| ceiling | 5.30 meV | 5.31 meV |
+| term | m₁ = 2.25 meV (observed) | m₁ = 2.2599 meV (derived) | m₁ = 2.284 meV (+1.5%) |
+|---|---|---|---|
+| \|U_e1\|² m₁ | 1.52 meV | 1.53 meV | 1.55 meV |
+| \|U_e2\|² m₂ | 2.67 meV | 2.67 meV | 2.68 meV |
+| \|U_e3\|² m₃ | 1.10 meV | 1.10 meV | 1.10 meV |
+| **floor** | **0.044 meV** | **0.038 meV** | **0.023 meV** |
+| ceiling | 5.30 meV | 5.31 meV | 5.33 meV |
+
+**The floor nearly halves across the anchor's own uncertainty** — a factor 1.9 from one end to the
+other — which is why the window is quoted as [0.02, 5.3] rather than at any single anchor's floor.
 
 A floor exists at all only because the middle term exceeds the other two combined — 2.67 against
 2.62. That margin is 0.05 meV on terms of order 2, so the three phasors barely fail to close a
 triangle, and complete cancellation is barely impossible. Above m₁ = **2.324 meV** the triangle
-closes, the floor is exactly zero, and complete cancellation becomes allowed — a threshold the
-model's own anchor sits 2.8% below.
+closes, the floor is exactly zero, and complete cancellation becomes allowed. The derived anchor
+sits 2.8% below that threshold — but the top of the anchor's own 1.5% range sits only **1.7%**
+below it. The floor does not merely thin across the range the scale is known to; it comes within
+about a percent and a half of not existing at all.
 
-So the honest statement is that the floor is around 0.04 meV, and that it is a coincidence of
-scales rather than a protected feature. Nothing observable rides on it: it is two orders below any
+So the honest statement is that the floor lies somewhere between about 0.02 and 0.04 meV depending
+on where the dark-energy scale actually sits, and that it is a coincidence of scales rather than a
+protected feature. Nothing observable rides on it: it is two orders below any
 experiment's reach on any timeline, and every conclusion below turns on the ceiling instead, which
 the anchor barely moves.
 
@@ -95,7 +102,7 @@ dark-energy scale.**
 ## The overlay: where this model sits against your program
 
 Projected 10-year sensitivities, each span being the nuclear-matrix-element range rather than an
-experimental uncertainty, against the model's window of [0.04, 5.30] meV:
+experimental uncertainty, against the model's window of [0.02, 5.30] meV:
 
 | experiment | isotope | projected m_ββ reach | vs the model's 5.30 meV ceiling |
 |---|---|---|---|
@@ -204,8 +211,8 @@ up into the 2.407–2.463 range quoted above. The prediction is built in two ste
 | the dyad's nucleosynthesis window, +0.645% | 2.387 | −2.49σ |
 
 **The new physics acting during nucleosynthesis helps.** The electron-mass ramp switches on at
-T_c ≈ 179 keV (the derived value is 177.10 keV; the abundances are insensitive at this level)
-and raises D/H by 0.645%, worth +0.27σ toward the measurement. Grafted onto the ΛCDM
+the derived T_c = 177.10 keV — the abundances are insensitive at the percent level, so nothing
+below turns on the exact figure — and raises D/H by 0.645%, worth +0.27σ toward the measurement. Grafted onto the ΛCDM
 control alone it would give −1.63σ, better than the control's −1.90σ — though that is a
 decomposition rather than an available configuration, since the window and the baryon shift are the
 same ε acting at two epochs and the model cannot have one without the other. The point it

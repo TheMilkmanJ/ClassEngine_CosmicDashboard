@@ -344,4 +344,5 @@ which rung the condensation picks." NOT recorded (Pinning Rule).
 > leaves the escape window.** Whether the conformal window brackets on f, on a soft mass the dyad may
 > not have, or on some third scale is **the actual content of "which rung condensation picks"**, and
 > it is not decided by anything recorded. Flagged, not claimed: the arithmetic above is exact, the
-> identification of the bracket is not.
+> identification of the bracket is not. Carried as **docket #133** — desk work, no external gate:
+> what it needs is the bracket's UV end identified from the recorded sector, not a measurement.

@@ -11,8 +11,8 @@ figure, which the letter already carries as provisional in its own voice. Showin
 to a colleague and mailing a finished claim are different acts, and only the second needed a gate.
 
 **What is still running.** PolyChord has been sampling since 2026-07-18, 400 live points, matched
-to a ΛCDM twin so the evidence ratio is valid. As of 2026-07-19 it is ~24h in with no log(Z) yet.
-The completion horizon is under review (task #99).
+to a ΛCDM twin so the evidence ratio is valid. As of 2026-07-20 it is ~1 day 22 h in with no log(Z)
+yet. The completion horizon is under review (task #99).
 
 **The one thing not to do:** quote H₀ ≈ 69.9 as a final measured number anywhere it will be
 recorded or repeated. In conversation, provisional is what the letter says and what it is.
@@ -43,6 +43,10 @@ place to assume the shift is negligible.
 - **The m_ββ window** — recomputed independently. The letter's terms (1.52, 2.67, 1.10) reproduce on
   m₁ = ρ_Λ¼ = 2.25 meV. The window is **[0.02, 5.3] meV**, not [0.04, 5.3]: the floor is
   anchor-dependent and nearly halves across the model's own 1.5% spread in the dark-energy scale.
+  **Carried into the letter 2026-07-20** — it had been quoting the low-anchor floor as the window in
+  three places, and describing the anchor as pinned to 0.44% (the gap between two determinations)
+  rather than ~1.5% (what it is actually pinned to). The floor table now runs to the high anchor and
+  the harness checks both ends (0.044 low, 0.023 high, ratio 1.9).
 - **The experiment overlay** — nEXO 4.7–20.3 meV, LEGEND-1000 9–21, CUPID 12–34, against a model
   ceiling of 5.30. Only nEXO overlaps, at 4.7–5.3 meV, ~10.8% of the model's phase space over flat
   Majorana phases.
@@ -56,10 +60,22 @@ place to assume the shift is negligible.
 
 ## Found 2026-07-19, after the audit — read before describing the runs
 
-**Only one job is live.** `cmp_prtoe_fixed` (PolyChord) has been sampling since 07-18, ~23h, no
-log(Z). Everything else is **stopped, not queued**: routeD last touched 07-18, conv_desi 07-18,
-zon_disp 07-16, twist 07-10, and `cmp_prtoe_zon` has not run since 07-12. Saying "the MCMCs are
-queued or running" is not accurate — they are stopped, most far from convergence.
+**Which jobs are live, as of 2026-07-20 07:40.** `cmp_prtoe_fixed` (PolyChord) has been sampling
+since 07-18 — now ~1 day 22 h, still no log(Z), which is what its first checkpoint interval looks
+like from outside rather than a stall. `cmp_prtoe_conv_desi` is also live and has been for ~1 day
+14 h. `cmp_prtoe_routeD` was relaunched 07-20 on a corrected sampler configuration. `zon_disp`,
+`twist` and `cmp_prtoe_zon` are stopped, all far from convergence.
+
+**But two of the three live jobs are not producing usable posteriors, and that is the thing to say
+if the runs come up.** conv_desi stands at R−1 = 27.6 against a 0.1 stop criterion, and rising.
+routeD's first two launches did the same, for a diagnosed reason: Cobaya's default
+`learn_proposal_Rminus1_max_early = 30` let each chain learn a proposal covariance while R−1 sat at
+8–27 — from a chain that had never converged — and the learned widths came back 10–45× smaller than
+the configured ones, so the chain took ever-smaller steps and stopped exploring. The 07-20 relaunch
+seeds the covariance at physical widths and only learns from a converged chain; **that fix is not
+yet proven**, and conv_desi has deliberately not been touched until it is. The safe description is
+that the evidence run is live and the two MCMC referees are being repaired, not that they are
+converging.
 
 **The live run is off the model's onset identity.** It samples z_on = 3.5619×10⁷ where the identity
 is 4.03×10⁷ — 0.053 dex, which is a 28% difference in the dark fluid mass, and that mass is pinned
@@ -72,6 +88,13 @@ grades a point near the model, not the model's stated configuration. The letter 
 1. The evidence verdict lands → replace the provisional H₀ with the measured one, and say what the
    run found either way.
 2. Re-read the m_ββ floor section against whatever the dark-energy scale settles at — the floor
-   vanishes above m₁ = 2.324 meV, and the highest recorded anchor (2.284) clears that by 1.7%.
+   vanishes above m₁ = 2.324 meV, and the highest recorded anchor (2.284) sits just **1.7% below**
+   that threshold, i.e. it does not reach it but comes close. **Check the high anchor's provenance
+   before defending the 1.5% spread in conversation:** 2.2842 meV is the value produced by the
+   T_c = 179 keV route, and that T_c is the observation-inverted 176.32 keV rounded up, which the
+   ledger retires as not independently sourced. If the high anchor goes with it, the honest spread
+   narrows toward the 0.44% between the observed 2.25 and the derived 2.2599, and the floor's range
+   narrows with it. The letter quotes the wider 1.5% — the conservative direction, which understates
+   how well the floor is known rather than overstating it — but the question is open and he may ask.
 3. If the ¹³⁶Xe matrix element firms up, the 4.7 meV nEXO reach and the ~11% overlap both move with
    it. Ask (c) puts that question to him directly; his answer should be folded back in.

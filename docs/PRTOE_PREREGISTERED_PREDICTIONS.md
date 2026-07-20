@@ -1651,6 +1651,10 @@ low-Σ preference was known.
 **Where the distinctive content actually lives.** Not in Σm_ν, which is untestable at this
 separation, but in m_ββ, which is sensitive to m₁ itself: at m₁ = 0 the window is [1.48, 3.69] meV,
 at m₁ = 2.25 meV it is [0.04, 5.30] meV. The ceiling moves by 44% and the floor nearly collapses.
+The floor quoted there is the one at the *low* anchor; ρ_Λ¼ is pinned only to ~1.5%, and the floor
+nearly halves again across that spread (0.044 meV at 2.25, 0.023 meV at 2.284 — a factor 1.9), so
+the window carried on the referee calendar is **[0.02, 5.3] meV**. Nothing observable turns on it:
+the floor sits two orders below any experiment's reach, and every conclusion runs off the ceiling.
 The observational consequence is sharp — minimal-NH puts the whole window below nEXO's best reach of
 4.7 meV, while this model puts ~11% of it above. **That difference is testable and this sector's
 only genuinely distinctive claim.**
