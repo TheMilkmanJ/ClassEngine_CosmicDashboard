@@ -473,7 +473,7 @@ vertex correction to the rainbow truncation, which is the crossed box and is eva
 Fermi surface's position within Λ_shell ≤ E_F ≤ M_red, worth ≈ 1.6; and percent-level particle-hole
 asymmetry, worth ≈ 1.1 per percent. The first was the largest and it is no longer free.
 
-**The crossed box, integrated** (docket #141, [scripts/hierarchy_vertex_crossed_box.py](../scripts/hierarchy_vertex_crossed_box.py)).
+**The crossed box, integrated** ([scripts/hierarchy_vertex_crossed_box.py](../scripts/hierarchy_vertex_crossed_box.py)).
 It is the diagram the rainbow/ladder truncation omits, since the ladder rungs are already resummed
 by 1 = λ·ln(Λ/Δ) itself. Evaluated on §6c's own host and nothing else — V(q) = e²/(q² + m_D²),
 b = m_D²/4k_F² = 2α_c/πv, one band's Fermi surface inside the linear cone at v = 1, particle-hole
@@ -527,7 +527,7 @@ in (u, s, t), converged to **11 digits** at 64 Gauss–Legendre nodes per panel.
 the screening constant moves c by under 1%, against ∂lnM/∂lnk = 33.47 for k itself. The number
 carries the quadrature to eleven digits; its real uncertainty is structural and named below.
 
-**The self-energy companion, computed (docket #183).** c is the crossed box and only the crossed
+**The self-energy companion, computed** ([scripts/hierarchy_fock_self_energy.py](../scripts/hierarchy_fock_self_energy.py)). c is the crossed box and only the crossed
 box; one further object enters at the same relative order λ — the **fermion self-energy insertion**
 on the internal lines, the exchange (Fock) term of the same screened interaction. It is now
 evaluated on the same host, and it does **not** cancel the vertex term.
@@ -550,7 +550,7 @@ radial one collapses to a closed form:
 with δv = 0.008385 — the band stiffens by 0.84%. Both insertions then enter the exponent additively,
 1/λ_eff = 1/λ + c + a.
 
-| quantity | rainbow | + crossed box (#141) | + Fock (#183), complete O(λ) |
+| quantity | rainbow | + crossed box | + Fock, complete O(λ) |
 |---|---|---|---|
 | 1/λ | 33.47 | 34.26 | **34.54** |
 | M_anchor, booked convention (−3/2) | 1576 GeV | 716 GeV | **541 GeV** |

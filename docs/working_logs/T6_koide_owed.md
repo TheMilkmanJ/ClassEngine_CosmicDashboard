@@ -342,17 +342,18 @@ A = R/M has no derivable value, no Ginzburg *number* is computable (same missing
 V ~ M², K ~ R² identification cannot be checked. **The 120° geometry is derived; the amplitude is
 not, and now we know why.**
 
-**The background M and #101's missing constraint are one object, not two (#115 folds into #101).**
-The #101 pass below reduces Q = 2/3 to a vanishing graded norm f₀² − |f₁|² − |f₂|² = 0, and notes
-that a vanishing norm invites *a constraint, an index, or a conservation law* rather than an
-equilibrium — because every energy-minimum candidate died. That is the same statement as this
-blank from the other side: an **energy** picture needs a background M to set the ring's centre and
-the theory has none, while a **constraint** picture fixes the swing-to-centre ratio directly, with
-no dynamical minimum and so no M to supply. So the object that would close #101 (the constraint that
-forces the graded norm to vanish) is the same object that would close #115 (the frame in which the
-ring's centre is set by the constraint rather than by a potential's minimum). #76's R₀/R_v reopen
-folds here too: it is the same missing scale read at the vortex ring rather than the √m axis.
-**One missing object, three faces. Grading it three times as three debts overstated the count.**
+**The background M and the missing constraint are one object, not two.**
+The graded-norm result below reduces Q = 2/3 to a vanishing f₀² − |f₁|² − |f₂|² = 0, and a
+vanishing norm invites *a constraint, an index, or a conservation law* rather than an equilibrium —
+because every energy-minimum candidate died. That is the same statement as this blank from the
+other side: an **energy** picture needs a background M to set the ring's centre and the theory has
+none, while a **constraint** picture fixes the swing-to-centre ratio directly, with no dynamical
+minimum and so no M to supply. So the object that would supply the missing constraint (forcing the
+graded norm to vanish) is the same object that would supply the background M (setting the ring's
+centre without a potential's minimum). The R₀/R_v scale question folds in here too: it is the same
+missing scale read at the vortex ring rather than the √m axis.
+**One missing object, three faces — the ring's centre, the graded-norm constraint, and the vortex
+scale. Naming it as three debts overstated the count.**
 
 ---
 
