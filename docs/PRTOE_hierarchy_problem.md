@@ -239,12 +239,17 @@ itself**, not by a new object. Three things corroborate the reading independentl
 | **the density of states (§6a)** | a coupling λ = 0.0299 cannot pair at a node and needs finite DOS in the shell — which is the known condition for particle-hole condensation at a Dirac point, where the instability otherwise demands supercritical coupling. The two constraints agree rather than compete |
 | **the 4π** | ⟨ψ̄ψ⟩ is a Dirac mass, so the gap is a dynamically generated fermion mass and m_H = M_anchor/4π reads as its one-loop suppression (+0.13%). §1's "the Higgs mass is that gap's one-loop echo" acquires the mechanism it was asserting |
 
-**What the channel owes, narrower than what it discharges.** The condensate must break electroweak
-symmetry while carrying no electric charge — weak isospin but not charge — which is the standing
-requirement on any dynamical electroweak-breaking reading, and it is also what permits a 511 keV
-electron beneath a TeV condensate: the light fermion masses arise at higher order, not from the
-condensate directly. And the bend-over spectrum must be shown to condense in this channel at
-λ = 0.03. Both are computations inside the basement rather than new assumptions, so the residual
+**The quantum numbers check out.** The condensate must break electroweak symmetry while carrying
+no electric charge — weak isospin but not charge — and the roster supplies exactly that. Take
+ψ_L a doublet and ψ_R a singlet: the bilinear ⟨ψ̄_L ψ_R⟩ is an SU(2)_L doublet, and its neutral
+component carries Q = −Q_L + Q_R = 0 identically, because a particle-hole pair of the *same*
+field cancels its own charge whatever that charge is (verified across the up-, down- and
+charged-lepton lines). So the object that condenses carries **precisely the Higgs's quantum
+numbers**: SU(2)_L × U(1)_Y breaks, U(1)_EM survives. The requirement is not a hope placed on the
+basement — it is satisfied by the roster the basement already has, in the composite-Higgs
+structure the anchor's own arithmetic was pointing at. It is also what permits a 511 keV electron
+beneath a TeV condensate: the light fermion masses arise at higher order, not from the condensate
+directly. Both are computations inside the basement rather than new assumptions, so the residual
 has changed from *find an attractive channel* to *show this one condenses*.
 
 **The selection rule is the corpus's own.** What decides the channel here — *the condensate must
