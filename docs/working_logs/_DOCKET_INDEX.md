@@ -11,6 +11,12 @@ file.*
 outstanding. `running` — waiting on a chain, a sampler or an external referee rather than on desk
 work. A number missing from this table (there is one, #41) was withdrawn before it carried content.
 
+**This table does not govern every `#N` in the corpus, and one file in particular is not on it.**
+[`PRTOE_honest_status.md`](../PRTOE_honest_status.md) predates this numbering and carries two schemes
+of its own — the Q-series of the 2026-07-08 review (Q1/#19 … Q7/#25) and its own least-trusted-joints
+list (#1, #3). Its "#21" is the kill-shot, not small-scale structure. Numbers on that page are scoped
+to that page. Everywhere else in `docs/`, the numbers are this table's.
+
 **One caution, from the reverse audit.** A task marked closed means its *object* closed, not that
 every clause of a multi-part title landed — eleven of about a hundred and ten closures were graded
 wrong on exactly that ambiguity (#29, #33, #51, #55, #59, #76, #78, #92, #93, #95, #143), and four

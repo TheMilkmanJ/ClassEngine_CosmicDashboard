@@ -6,6 +6,13 @@
 > **PRIVATE — internal candid self-assessment, not the audience-facing record.** The candid self-assessment and the odds. Unlinked
 > from the reader-facing shelf on purpose.
 
+> **The `#N` numbers in this file are local and are NOT the docket's.** This page predates the
+> current numbering and carries two of its own: the **Q-series** of the 2026-07-08 review (Q1/#19,
+> Q2/#20, Q3/#21, Q5/#23, Q6/#24, Q7/#25), and the **least-trusted-joints list** (its own #1 and #3,
+> at "least-trusted joint #1/#3"). Neither maps onto
+> [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
+> mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
+
 ## CURRENT (2026-07-16)
 
 Major moves since the 2026-07-08 baseline (below):
