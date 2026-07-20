@@ -17,8 +17,9 @@
 > So the arithmetic below stands and reproduces (residual 1.5014 against 3/2; M_anchor = 1576 GeV
 > against 4πm_H = 1574, +0.14%). What is homeless is the *interpretation* — a gap equation without
 > a vacuum. Other conditionality: the no-bare clause, P-2026-042's anchor identification, and the
-> gap equation's k (owed, the working docket). Referees: the α_c MCMC (the triangle), the two-loop
-> redesign, HL-LHC (the portal search).
+> gap equation's k (owed, the working docket). Referees: the α_c MCMC (the triangle) and HL-LHC
+> (the portal search) — the two-loop redesign is closed as mooted (the perturbative T_c program
+> ended; the board's adjudication, 2026-07-19) and no longer referees anything here.
 
 ## 0. The problem
 
@@ -131,7 +132,8 @@ One lepton coupling, three functional floors, all measured.
 ## 4. Kills
 
 (i) the gap equation failing to produce k ≈ 1.3; (ii) the α_c MCMC killing 3α (the exponent's
-coupling); (iii) the redesigned two-loop run landing the portal far from ~1.5 TeV;
+coupling); (iii) *(retired with the two-loop program — the redesign is closed as mooted; the
+portal's scale is now refereed by the collider search directly)*;
 (iv) HL-LHC exhausting 1–2 TeV without the portal states (the visible branch dies);
 (v) any demonstrated bare-m_H² contribution (kills the no-bare reading outright).
 
@@ -156,3 +158,29 @@ SUSPENDED: the two-loop term is a shift, not a smear, and the masses open to a "
 decade" pending the full two-loop run. That suspension, and the rigid-13 census count it rode
 with, live in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census &
 roster count."**
+
+## 6. THE REHOME (2026-07-19) — the orphaned identification gets its destination, and two of three seat requirements are already met
+
+The header's orphan — "the anchor's identification with 4πm_H, pending transfer to the
+Fermi-point basement" — is hereby transferred at structural grade. **The destination is
+forced, not chosen:** the standing corpus has exactly one vacuum with a fermionic bath at the
+Planck floor — the induced-gravity basement (the str[k₁] = 0 roster: the Standard Model's 48
+Weyl fermions plus three right-handed neutrinos, the same content P-2026-045 registers and
+the same floor the dark SU(2) sector's own balance joins). A BCS-class gap equation needs
+three things of its host, and the standing basement supplies two from recorded structure:
+
+| seat requirement | status in the Fermi-point basement |
+|---|---|
+| **a fermionic bath at the cutoff** | **met, recorded** — the finiteness roster IS the Planck-floor fermion content; Fermi-point universality (the Volovik frame the quantum-gravity file already rides) is precisely the statement that such a vacuum's low-energy fermions are generic |
+| **the coupling kα_c reaching the basement** | **met, recorded** — k is the screened-interaction integral (basement-independent by construction; the corpus's one shared k), and α_c is the medium's coupling, which reaches the Planck floor through the induced loop — the SAME loop that makes gravity itself (no new bridge is invented; the anchor uses the induced-G channel that no-bare-G already requires) |
+| **the attractive channel** (the phonon's analog: what pairs the census states) | **OWED — the one genuine residual.** The medium's own exchange must be shown attractive in the Fermi-point vacuum. This is basement-build territory, and it is the SAME gate the neutrino sector's seat constant b already waits at — the rehome adds no new gate, it joins a standing one |
+
+**What the transfer changes and what it does not.** The arithmetic never moved (measured m_H,
+the shared k, the derived 3/2 — self-contained, reproducing 1576 vs 1574 GeV at +0.14%). The
+interpretation moves from the excluded paired-lepton vacuum to the induced-gravity basement,
+where the hierarchy answer and the gravity answer become one statement: **the same fermionic
+floor that induces G pairs at kα_c, and the electroweak scale is that pairing's gap.** The
+identification's grade after the transfer: **structural, basement-gated** — the destination
+named, two of three requirements met by recorded structure, the third sharing its gate with
+the seat constant b. The kills stand as amended (the α_c MCMC and HL-LHC carry the referee
+duties; the mooted two-loop redesign carries none).
