@@ -2057,3 +2057,46 @@ had rediscovered my own filed finding and briefly mis-graded it on rediscovery.
 **Protocol:** no new check was added. Check 13 already states that an "owed" is a work order and not a
 label, and it would have caught both failures. What was missing was an *outcome* — work that is neither
 closed, reduced, nor gated had nowhere to go, so it stayed as the word. **docketed** is now the fourth.
+
+### 2026-07-19 — THE PENDING SWEEP, and the three-agent pass over the densest files
+
+Owner-directed follow-on to the owed sweep. `grep -rniE "\bpending\b"` returns **77** across the
+same tree. Three subagents took the six files carrying the largest owed/pending density
+(PREREGISTERED, FAILURES_LEDGER, PHYSICS_DOMAINS, DERIVATION_HUNT, me_mechanism_math,
+INTERACTION_ATLAS, MATH_SPINE, and five more), reading each in full and cross-checking every
+incompleteness claim against the status ledger, this ledger, the failures ledger, the T-owed files,
+`_RESIDUAL_DEBT_CENSUS`, `_master_computes`, `_parked_register` and `scripts/`. **35 verified
+defects**, all now either corrected or docketed.
+
+**Two that touch standing, not hygiene:**
+
+1. **P-2026-045's two kills were more conditional than the registry said.** The entry read
+   "verifying Visser 2002 Eq. 35's scalar coefficient is owed before ξ-independence is claimed."
+   It had been verified, and it came back the unfavourable way: Visser assigns each real scalar the
+   heat-kernel R-coefficient (1/6 − ξ_H), **not** zero, so str[k₁] = 0 holds **iff ξ_H = 1/6**. The
+   balance is not ξ-independent and the two kills ride an unmeasured Standard-Model input. P-2026-048,
+   seventy lines later in the same file, already spent that answer.
+2. **P-2026-039 was suspended pending a run that no longer exists.** "SUSPENDED pending the full
+   two-loop run" stood in three places against #82's closure as mooted — *there is no shooter to
+   redesign*. A registered prediction in indefinite limbo on a dead referee. The 1–100 TeV decade is
+   now refereed by the collider search directly, with the census arrow's strain going to the
+   edge-convention audit.
+
+**Corrected, 22 further claims** across the failures ledger (eight rows, including the strong-condensation
+row whose two horns are both answered and the galactic-centre verdict whose analysis sits 181 lines below
+it), the status ledger (six, including its listing the Eliashberg k-audit as a pending referee — the same
+defect that opened this sweep), me_mechanism_math (five, including two section headings reading
+"computation OPEN" above bodies that record four deliveries), the atlas (three), PHYSICS_DOMAINS,
+UV_completion and the dependency tree.
+
+**Docketed, 23 items: #113–#135.** The largest are the basement build (#113), the gap equation's
+kernel (#114), the bounce sector (#117), the edge-convention audit (#124 — four files hang a
+registered verdict on it), the flagship's un-derived core (#125), the gravity-routing step of the
+c-derivation (#126 — the corpus's own self-audit flagged it while the status ledger grades c derived
+with no caveat), and the docket index itself (#132 — ~70 live #N refs with nothing to resolve against).
+
+**Voice.** The owner caught two section headers reading as changelog rather than physics ("THE NEW
+HALF", "THE REHOME") and one piece of invented jargon. Two more of the same register turned up in the
+same pass — "re-homed" in cosmological_constant, "verified, and it binds" in the registry. The rule
+this violates is the standing one: forward documents state the current claim, and the history lives
+here. Repair prose is the easiest place to break it, because the repair is what is on the writer's mind.
