@@ -95,6 +95,6 @@ grades a point near the model, not the model's stated configuration. The letter 
    ledger retires as not independently sourced. If the high anchor goes with it, the honest spread
    narrows toward the 0.44% between the observed 2.25 and the derived 2.2599, and the floor's range
    narrows with it. The letter quotes the wider 1.5% — the conservative direction, which understates
-   how well the floor is known rather than overstating it — but the question is open and he may ask.
+   how well the floor is known rather than overstating it.
 3. If the ¹³⁶Xe matrix element firms up, the 4.7 meV nEXO reach and the ~11% overlap both move with
    it. Ask (c) puts that question to him directly; his answer should be folded back in.
