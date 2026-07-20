@@ -3126,3 +3126,36 @@ g → λ map" — attaches "un-built" to a sub-object while naming the parent bu
 Reading it as a mis-grade would have reopened a task whose deliverable is sitting in `scripts/`. This
 is the mirror of the wave-1 Koide error, where stopping early produced two false mis-grades: there,
 too little reading; here, reading one clause without its neighbour. Both directions cost the same.
+
+### 2026-07-20 — REVERSE AUDIT wave 8: the mining tranche, and where the sweep stops
+
+- **#19 "the lithium problem" — CLEAN.** `bbn_witness.md:242` — "## The lithium row — CLOSED AS A
+  NULL (2026-07-12)".
+- **#21 "small-scale structure" — CLEAN**, and closed by an honest negative, which is what mining
+  should produce: `small_scale_structure.md:22` — "core-cusp is **not this model's conquest**;
+  baryonic feedback…".
+- **#23 "strong-CP — file the constitutional silence" — CLEAN.** `strong_cp.md` exists and is exactly
+  the deliverable: "The Silence the Model Signs Its Name To", §1 "The model is constitutionally
+  silent — and says so in advance."
+- **#22 "the flavour puzzle (careful reopening)" — UNVERIFIED.** The phrase has **no home anywhere in
+  `docs/`**. The work plausibly landed as the Koide-relation material — the mass sector *is* the
+  flavour puzzle — but nothing names it as #22's output, and batch C independently found the same
+  species of drift on #59, whose task title ("democratic↔hierarchy fixed point") also has no corpus
+  home. Recorded unverified rather than assumed either way; joins #24, #68 and #81's sibling cases.
+
+**Where the sweep stops, and why here.** Roughly a hundred of ~110 completed tasks are now graded
+across eight waves and five subagent batches. **Ten mis-grades: #29, #51, #55, #59, #76, #78, #92,
+#93, #95, #143.** Four unverified: #22, #24, #68, and one earlier entry since resolved. Everything
+else clean. The remaining handful (#17, #27, #31, #33, #34, #36) are single-object session tasks —
+the class that has produced no mis-grade in a hundred checks — and **#148 stays open** rather than
+being closed on a near-complete pass, since closing a sweep on "almost all of it" is the defect the
+sweep exists to find.
+
+**What the pass is actually worth, stated once.** Not the ten mis-grades: those are bookkeeping, and
+the physics under every one of them was real. The value is three structural facts it established.
+**One** — the defect is entirely in composite claims; #28 and #29 are the same three-part shape with
+opposite outcomes, so the failure is unpoliced bundling rather than bad work. **Two** — a kill
+recorded correctly in the failures ledger never reaches the board that claimed the win (#59), which
+is a missing link between two systems each working correctly alone. **Three** — my own retractions
+left live contradictions in forward-facing files every single time, including in the pass named for
+propagating them, and I would have said otherwise before the check.
