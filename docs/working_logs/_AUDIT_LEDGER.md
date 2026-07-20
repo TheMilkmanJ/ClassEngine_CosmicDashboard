@@ -3311,3 +3311,34 @@ had already succeeded. Two of the three were in audience-facing documents, and a
 been read by a referee as the model's own statement of what it has achieved.
 
 **Run it whenever an open task has a nameable payoff, and run it on the audience-facing files first.**
+
+### 2026-07-20 — the payoff check on #99, and what the chains directory actually holds
+
+Eleventh application of the instrument, aimed at the corpus's most load-bearing number.
+
+**#99's payoff** is the PolyChord run confirming the Laplace ΔlnZ = +2.635. Thirteen files quote that
+number, and **every one of them labels it**: "Laplace, SHOES-conditional", "not yet the nested
+verdict", "provisional until PolyChord confirms/denies", "the corrected zero-parameter evidence run
+is executing now, and its verdict has not landed". **CLEAN** — and the strongest such result yet,
+because this is the figure the model is most often quoted on and the one it would most benefit from
+overstating.
+
+**A second finding, from building the benchmark.** The `.stats` files sitting in `chains/` for these
+models — `cmp_prtoe_dyad.stats`, `cmp_prtoe_w13.stats`, `cmp_lcdm.stats` — are **minimizer** outputs,
+not nested-sampling evidence: each opens `# Optimizer Run completed successfully` with `nlive: 1`.
+That is the right provenance for a *Laplace* ΔlnZ, which is built from a best fit and its Hessian, and
+it agrees with how every file labels the number. But the filename and the `log(Z) = …` line inside
+will read to a stranger as a finished evidence run. The only genuine completed nested run in the tree
+is the archived 2026-06-20 ΛCDM one: 1 809 dead points, log(Z) = −2401.9 ± 0.64.
+
+**And the referee calendar's ETA cell was reading its own evidence backwards.** It listed "no log(Z),
+no dead-point file, no `.stats`" as if those were symptoms of a stall. PolyChord checkpoints every
+`update_files` = nlive = 400 iterations; inside interval one those files do not exist yet, and all
+four ranks are holding 101% CPU throughout. Rewritten with the write cadence, the 534-slice-step
+speed-hierarchy schedule (15/69/186/264 across four blocks) that sets the cost, and the **≥ 6 days**
+that the archived run's 1 809 iterations imply before the ΛCDM twin doubles it.
+
+**The transferable lesson: absence of output is a claim about the instrument, not only about the
+run.** Grading silence as failure requires knowing the writer's cadence. Thirty-two hours of nothing
+was consistent with health here, and the same thirty-two hours would have been fatal under a sampler
+that checkpoints every iteration.
