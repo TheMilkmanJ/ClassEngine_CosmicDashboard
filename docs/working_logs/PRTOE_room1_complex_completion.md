@@ -633,16 +633,31 @@ instrument.
 heating exclusions at fixed m RELAX by up to 2× in heating time for
 the mixed medium; the dice draw is a dial inside every FDM heating
 bound.
-(iv) **THE BAND AUDIT (flagged, owed, not yet resolved):** the
-booked m-band [10⁻²², 2×10⁻²¹] predates the two-fluid
-structure, and free-FDM literature bounds (Lyman-α, dwarf-heating
-claims reaching far above our band top for FDM-as-all-DM) transfer
-to the dyad only through model-specific factors (p²+q² in heating;
-the medium's own perturbation sector in P(k) — it is NOT free FDM at
-perturbation level). Whether the band survives the current
-literature WITH those factors is a dedicated morning audit — booked
-here so it cannot be quietly skipped; if the band dies, the PTA
-channel and the collision pricing inherit the wound.
+(iv) **THE BAND AUDIT — DISCHARGED, and not by running it (2026-07-20).**
+The audit asked whether the booked m-band [10⁻²², 2×10⁻²¹] survives
+free-FDM literature bounds once the model-specific factors (p²+q² in
+heating; the medium's own perturbation sector in P(k)) are applied. It
+is moot: **the band is no longer the model's claim.** m is now pinned to
+a single value, **2.24×10⁻²⁰ eV**, by the H = m onset identity and
+confirmed three independent ways (ξ = 402 AU, the Schive core radii, the
+superradiance window). That value sits an **order above the old band's
+top**, and `PRTOE_PHYSICS_DOMAINS.md` records the dependent rows at the
+pinned mass rather than the band — dwarf heating PASSING with the DK
+transfer factor computed, and the k = 0.2/Mpc comparison cleared by six
+decades already at 2×10⁻²² eV.
+
+**The direction matters and it is the favourable one.** Lyman-α and
+dwarf-heating bounds on ultralight dark matter are *lower* limits on m —
+too light means too much small-scale suppression — so a mass an order
+ABOVE the old band top clears them by more margin, not less. The wound
+this item feared (PTA channel and collision pricing inheriting a dead
+band) does not open.
+
+**The one exposure that runs the other way is superradiance**, which
+excludes a *band* of masses rather than bounding from below, and the
+pinned value sits inside the superradiant range α_g ∈ [0.1, 0.5]. That
+is a live exposure resting on the λ-quench shield, and it is tracked
+separately — not here.
 
 **No-cosmic-strings null (same burn):** the broken global U(1) would
 support a string network only if the symmetry was ever restored — it
