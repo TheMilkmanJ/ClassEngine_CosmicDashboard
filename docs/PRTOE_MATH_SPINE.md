@@ -378,6 +378,13 @@ restoring curvature is V_eff″ = n(n+2)V/r² against H² = V(n+2)/6M_Pl², so
 1.0000 above it, which confirms the mechanism and simultaneously prices it out: the model's
 amplitudes are nowhere near M_Pl.
 
+**The relation is not new to the corpus, which is worth saying.** w = (n−2)/(n+2) is exactly what
+`cosmological_constant` §"why it stays unbuilt" already uses to grade a harmonic condensate mode as
+w = 0 at n = 2. The two derivations were reached independently and for different purposes — one to
+price an equipartition reading of the dark-energy floor, one to test a bounce — and they agree.
+So the BKL result rests on a relation the corpus had already validated elsewhere, not on a new
+claim introduced to settle this question.
+
 **So the objection is not merely unanswered, it is unanswerable from this sector.** That is a
 sharper and more adverse statement than the one above it, and it is the honest one. What remains
 open is whether some *other* component — not the rotating condensate — supplies w ≥ 1 at the
