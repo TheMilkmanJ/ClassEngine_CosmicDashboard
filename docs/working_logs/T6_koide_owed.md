@@ -1667,7 +1667,26 @@ complex ratio" to "derive one angle, 2/9"** — the magnitude is the cone, the p
   three branches" is the right next question — the difference between a protected zero and an
   accident, answerable only from the basement, not the masses.
 
-**Grade: #79 magnitude — CLOSED into the cone (#101). #79 phase (2/9) — UNSOURCED, unchanged.**
+**The phase is a HOLONOMY around the same cone, not a free angle (2026-07-20, JP).** The recorded
+relation 3·θ_B = Q (harness "holonomy: 3 × arg f1 = Q") reads, in the circle picture, as: the three
+√m sit 120° apart (the Z₃ democratic spacing) at radius √2 from the centroid (= A, the cone), twisted
+by θ_B off the democratic seat — and **the twist wound once around all three generations closes back
+onto Q**: 3·θ_B = Q, i.e. θ_B = Q/3 = 2/9. Tested for identity and it is **not** one: 3·twist = Q
+holds for the leptons to 2.8×10⁻⁵ but fails every non-lepton triple checked (random, geometric,
+tuned-μ; diffs 0.07–0.29). So it is a genuine **second** Koide condition, independent of Q = 2/3 and
+equally unexplained — but it couples the phase to the cone through the factor **3 = the Z₃ order = the
+generation count**. The phase per generation is Q/3; three of them are the holonomy.
+
+**Consequence — #79's two halves are one question.** The magnitude is the cone's *radius* (√2, the
+null); the phase is the cone's *winding* (3θ_B = Q, the holonomy around it). Both are the same node
+seen two ways, and both close **iff** the three generations are three branches of one node sharing its
+cone — the exact residual #101 names. So the sector no longer holds two separate holdouts (a radius
+and an angle); it holds **one**: a single node whose three branches are the generations delivers √2
+and 2/9 together, or neither is sourced. This does not derive 2/9 — it shows 2/9 is not an
+independent target: it is Q/3, the per-branch share of the same cone.
+
+**Grade: #79 magnitude — CLOSED into the cone (#101). #79 phase (2/9) — reduced to the holonomy
+3θ_B = Q, the SAME "one node, three branches" residual as the magnitude; not independently sourced.**
 
 ### #102 — the Brannen phase, and what the lock can actually referee
 
