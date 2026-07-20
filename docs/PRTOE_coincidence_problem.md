@@ -30,11 +30,31 @@ The floor is not a constant that matter happens to dilute past — the late era 
  (was 5.77 H⁻¹ at the par-normalized B = 1; B picked from the dispersion,
  not left as a menu). The amplitude of primordial fluctuations (A_s, measured) enters as a
  LIFETIME parameter: the era's duration knows about the perturbations it must host.
+ **How sharp that is, and why**: √3 and B = 1/√2 are exact, and the floor does not appear in
+ the expression at all — *in Hubble units the era's width is floor-independent* — so A_s is
+ the only input that can carry an error into it. The sensitivity is exact and it is the whole
+ story: δt_turn/t_turn = δ(ln A_s)/|ln A_s| = δ(ln A_s)/19.99, so the logarithm divides any
+ amplitude error by twenty — even a 10% error on A_s would move the width by 0.5%. The two
+ live values bracket it tightly: the frozen 2.088×10⁻⁹ gives 8.1597 H⁻¹ and the closed form
+ (0.35% below) gives 8.1611 H⁻¹, a spread of **0.02%**. The floor's one channel is the
+ *absolute* duration, through H_Λ ∝ (ρ_Λ¼)²: its +0.44% shortens the era by 0.87% in years,
+ not in H⁻¹.
 3. **What that buys, and what it does not.** Λ-domination begins when the fluid's density hits
  the floor, and the era then runs 8.16 H⁻¹ to turnaround — **a width the model computes rather
- than assumes.** But we observe early in it: matter–Λ crossing is at z ≈ 0.33, about 0.28 H⁻¹
- ago, so **only ~3.5% of the era has elapsed.** Drawn uniformly, an observation lands that early
- about one time in thirty. **The width is derived; the occupancy is not** — and "why now" in its
+ than assumes.** But we observe early in it: matter–Λ crossing is at z ≈ 0.33, which is **0.219 H_Λ⁻¹
+ ago in the era's own clock**, so **only ~2.7% of the era has elapsed.** Drawn uniformly, an
+ observation lands that early about one time in thirty-seven. **The floor's residual puts a ±2.2%
+ band on that figure — 1 in 36.5 to 1 in 38.2.** Both numbers are quoted in H_Λ⁻¹ and the clock
+ matters: t_turn is a dark-energy-era quantity, so mixing it with an elapsed time expressed in
+ H₀⁻¹ (0.262 at Ω_m = 0.30) inflates the occupancy to ~3.4%, or one time in twenty-nine. The elapsed fraction depends on Ω_Λ/Ω_m and on nothing else: at the ρ_m = ρ_Λ
+ crossing the flat-ΛCDM age integral's argument is exactly 1 (arcsinh(1) = ln(1+√2)), so the
+ crossing enters convention-free. The floor rides in at the fourth power — its +0.44% is +1.77%
+ on ρ_Λ, hence on Ω_Λ/Ω_m — against a sensitivity d ln f/d ln(Ω_Λ/Ω_m) = 1.26 at the z ≈ 0.33
+ crossing, and t_turn's own 0.02% is negligible beside it. So "one time in thirty-seven" does not move
+ by a whole unit under the floor's current residual: **the floor is no longer the limiting
+ uncertainty anywhere in the timing.** What this band does NOT carry is the cosmological input's
+ own error — Ω_m enters the same ratio, and bounding that is a separate propagation.
+ **The width is derived; the occupancy is not** — and "why now" in its
  usual sense is the occupancy question. Note the direction: a *longer* derived era makes the
  placement slightly harder to explain, not easier. The model has traded "why is Λ this size" for
  "why are we early in its era" — a sharper question, not a closed one.

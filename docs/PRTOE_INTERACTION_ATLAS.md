@@ -198,7 +198,28 @@ environment half, one interaction and one signature at a time.
  Remaining: the medium-native coupling construction (§2 wall).
 - **Force-by-force environment terms**: EM booked (m_e, α levers);
  the strong-sector lever is now NAMED with its price (m̂, above);
- weak sector (G_F) still has no derived substrate coupling.
+ **the weak sector (G_F) is STRUCTURALLY VOID — closed by the census,
+ not owed.** Three routes, all shut. (i) A direct medium→W/Z coupling
+ needs one entity bridging the dark charge to the chiral electroweak
+ sector, which the medium has not (L1's birefringence rider). (ii) The
+ census-legal channel is a universal conformal rescaling Ω²(φ)·g_μν,
+ and in four dimensions √−g F_μν F^μν is Weyl-invariant — so a conformal
+ portal has no classical handle on g or g′, and hence none on G_F through
+ the gauge coupling. (iii) That leaves the vev — a Higgs portal the census
+ forbids, and in any case a rescaling universal enough to move v moves
+ every mass with it, leaving G_F m² invariant: no observable term to book.
+ The portal roster's own electroweak-charged species do not reopen it:
+ the roster's whole electroweak bookkeeping is ΔS = 1/6π per degenerate
+ doublet, and that contribution is **mass-independent** (hierarchy §6j) —
+ so environmental modulation of the portal masses has nothing in those
+ books to act on. Splitting the doublets, which is the only other way in,
+ needs the same forbidden portal. **What the sector carries is inherited, not its own**:
+ Γ_μ ∝ G_F²m_μ⁵, β-decay phase space and the n↔p rates all move with the
+ booked lepton lever, and the complement is already recorded on the strong
+ side (τ_n and Q_N carry ZERO m̂ response). **Falsifier**: an environmental
+ shift in a weak observable that does NOT track the lepton lever — a moving
+ G_F m_p² or sin²θ_W — falsifies the census outright, on the same footing
+ as a measured EP violation.
 - **Entanglement as balanced-interaction signature (C4) — MATH DERIVED
  AND VERIFIED (2026-07-06), condition outstanding**: pseudospin CHSH
  for the medium's pair states B(r) = 2√(1+tanh²2r) > 2 for any

@@ -67,6 +67,21 @@ chk("sqrt3_derivation", "Gamma_par/H = sqrt(3)", 1.7320, math.sqrt(3), 1e-4)
 chk("sqrt3_derivation", "omega_J/H = sqrt(3/2)", 1.2247, math.sqrt(1.5), 1e-4)
 chk("sqrt3_derivation", "B = omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3), 1e-4)
 As = 2.088e-9
+# --- the occupancy, in ONE clock -------------------------------------------
+# t_turn is a dark-energy-era quantity (H_Lambda^-1). The elapsed time since the
+# rho_m = rho_Lambda crossing must be expressed in the SAME clock; quoting it in
+# H_0^-1 (0.262 at Om = 0.30) inflates the occupancy from 1-in-37 to 1-in-29.
+def _elapsed(Om):
+    OL = 1.0 - Om
+    d  = math.asinh(math.sqrt(OL/Om)) - math.asinh(1.0)   # a_c -> 1; at a_c the arg is exactly 1
+    t_H0 = (2.0/(3.0*math.sqrt(OL)))*d
+    return t_H0, t_H0*math.sqrt(OL)                       # (H_0^-1, H_Lambda^-1)
+_e0, _eL = _elapsed(0.30)
+chk("coincidence_problem", "elapsed since matter-Lambda crossing, H_0^-1", 0.262, _e0, 0.01)
+chk("coincidence_problem", "the same elapsed time in H_Lambda^-1", 0.219, _eL, 0.01)
+_tt = -0.5*math.log(2.088e-9)/math.sqrt(1.5)
+chk("coincidence_problem", "occupancy in one clock (%)", 2.68, 100*_eL/_tt, 0.01, "%")
+chk("coincidence_problem", "occupancy as one-in-N", 37.3, _tt/_eL, 0.01)
 chk("sqrt3_derivation", "t_turn = ln(1/sqrt(A_s))/(sqrt(3/2) H)", 8.16,
     math.log(1/math.sqrt(As))/math.sqrt(1.5), 5e-3, "1/H")
 

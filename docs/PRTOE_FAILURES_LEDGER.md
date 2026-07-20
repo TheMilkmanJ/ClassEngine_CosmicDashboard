@@ -1673,8 +1673,10 @@ signs. The dark-energy era's **width** is genuinely computed, which is more than
 anything in this problem class.
 
 **What does not follow.** A computed width does not place the observer inside it. Matter–Λ crossing
-sits at z ≈ 0.33, roughly 0.28 H⁻¹ ago, so **~3.5% of the era has elapsed** — an observation drawn
-uniformly across the era lands that early about **one time in thirty**. "Why now" in its ordinary
+sits at z ≈ 0.33, which is 0.219 H_Λ⁻¹ ago in the era's own clock, so **~2.7% of the era has
+elapsed** — an observation drawn uniformly across the era lands that early about **one time in
+thirty-seven**. Both figures are in H_Λ⁻¹; t_turn is a dark-energy-era quantity, and expressing the
+elapsed time in H₀⁻¹ instead (0.262 at Ω_m = 0.30) would inflate the occupancy to one in twenty-nine. "Why now" in its ordinary
 sense is precisely that occupancy question, and the chain is silent on it.
 
 **And the direction is worth noting.** A *longer* derived era makes the placement slightly harder

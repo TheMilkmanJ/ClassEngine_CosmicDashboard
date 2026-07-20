@@ -19,7 +19,7 @@ with a KNOWN, DIFFERENT weight — a lattice of correlated shifts with fixed rat
 | 21cm hyperfine (and D 92cm) | **+2ε** | ν ∝ α⁴m_e²/m_p |
 | radio recombination lines | **+1ε** | Rydberg ∝ m_e |
 | plasma dispersion (FRB/pulsar DM) | **−1ε** | the dispersion constant e²/2πm_e c ∝ 1/m_e, so an inferred DM shifts by −ε at fixed electron column *(the plasma frequency itself, ω_p ∝ m_e^−½, carries half this weight — the observable is the delay, not ω_p)* |
-| synchrotron characteristic ν | **−1ε** | ν_c ∝ eB/m_e (per fixed particle energy: −ε-class) |
+| synchrotron characteristic ν | **−1ε** | ν_c ∝ γ²eB/m_e — the **fixed-field** reading: B and the emitting Lorentz factor γ held, so the weight is the coefficient's alone *(the **fixed-energy** labeling instead lets γ = E/m_e c² ∝ 1/m_e float, carrying the same expression to −3ε — this row is the table's one convention-bearing entry, and the labeling must be declared before it is read)* |
 | Faraday rotation | **−2ε** | RM ∝ n_e B/m_e² |
 
 ## 1. Why the LATTICE beats any single measurement
@@ -49,6 +49,13 @@ cosmic dawn's edge structure (P-022's three-verdict shape: the edge frequency ma
 - The lattice's weights assume the fundamental-mass-philia structure (graded) — a
  measured pattern VIOLATING the ratio table (e.g., +2ε in 21cm with an unshifted RRL row)
  kills the dyad's universality outright: the lattice is its own executioner.
+- Four of the five rows are labeling-free: 21cm, RRL, dispersion and Faraday are line
+ frequencies and path integrals, whose held-fixed inputs (n_e, B, the electron column) are
+ non-atomic, so their weights read straight off the coefficients. The synchrotron row is the
+ exception — its ν_c carries a γ² whose scaling depends on how the emitting population is
+ labeled (fixed-field −1ε vs fixed-energy −3ε, table above). **The executioner clause
+ therefore binds on the four labeling-free rows**; synchrotron enters the pattern only once
+ an analysis states which labeling it used.
 
 ## Sources
 

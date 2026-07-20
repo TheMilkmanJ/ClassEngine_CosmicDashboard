@@ -133,7 +133,7 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 - **[Biermann1950]** L. Biermann, "Über den Ursprung der Magnetfelder auf Sternen und im interstellaren Raum," Z. Naturforsch. A 5, 65 (1950). — The battery term; the reionization-era competitor, too late and too small-scale for the void.
 - **[Durrer2013]** R. Durrer, A. Neronov, "Cosmological magnetic fields: their generation, evolution and observation," A&A Rev. 21, 62 (2013), arXiv:1303.7121. — The review; the source for the competitor mechanisms' pathologies tabulated in §0.
 - **[Field1958]** G. B. Field, "Excitation of the hydrogen 21-cm line," Proc. IRE 46, 240 (1958). — The hyperfine line's structure; the +2ε row's physics.
-- **[RybickiLightman1979]** G. B. Rybicki, A. P. Lightman, *Radiative Processes in Astrophysics* (Wiley, 1979). — The dispersion, synchrotron, and Faraday coefficients; the radio lattice's −1ε and −2ε rows read straight off their m_e dependence.
+- **[RybickiLightman1979]** G. B. Rybicki, A. P. Lightman, *Radiative Processes in Astrophysics* (Wiley, 1979). — The dispersion, synchrotron, and Faraday coefficients; the radio lattice's −1ε and −2ε row coefficients read straight off their m_e dependence.
 - **[Bowman2018]** J. D. Bowman et al., "An absorption profile centred at 78 megahertz in the sky-averaged spectrum," Nature 555, 67 (2018). — The EDGES cosmic-dawn trough; P-2026-030's target.
 
 ## 8c. The arrow, the low beginning, and the confinement analogy
