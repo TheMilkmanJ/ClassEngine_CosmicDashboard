@@ -343,3 +343,31 @@ channel (§6b), the screening constant and measure (§6c), the shell cutoff as t
 dressed floor (above) — and it puts the electroweak scale at a few TeV from the Planck floor and
 α alone. A few TeV is what HL-LHC tests. Four significant figures was never what the calculation
 could support.
+
+
+### 6e. Why the two bands screen equally, and what is left
+
+§6c's screening constant carries a factor 2 — both bands polarise — and that factor is the most
+load-bearing number in the chain: ∂lnM/∂r ≈ 11.6 for N_screen = (1 + r)N₀, so a 25% asymmetry
+between the bands moves the anchor by a factor 18. It is not an assumption.
+
+**Neutrality forces it.** The basement vacuum carries no net electric charge. A neutral semimetal
+is *compensated* — n_electron = n_hole exactly — and for pockets of the same dispersion n ∝ k_F³,
+so compensation gives k_F(e) = k_F(h), and the density of states k_F²/v then gives N_e = N_h, i.e.
+**r = 1**. The same neutrality that selects the particle-hole channel in §6b also equalises the two
+screening bands. One rule, used twice.
+
+**The residual, priced.** What neutrality does not by itself supply is equality of the two
+branches' *velocities*: with v_h ≠ v_e, compensation fixes the densities but not the densities of
+states, and r = v_e/v_h. A 1% velocity asymmetry is a 13% shift in the anchor, so exact
+particle-hole symmetry of the dispersion is needed at the percent level. A Dirac cone has it at the
+node by construction — but the pairing sits at a Fermi surface some way up the cone (§6a), so what
+is actually required is that the symmetry survive to the pairing shell. That is a statement about
+the bend-over's shape, and it is the sharpest remaining constraint the basement build must meet.
+
+**The band, assembled.** Three independent O(1)s survive: the vertex correction to the rainbow
+truncation, which enters at relative order λ = 3% and so is a factor ≈ 2.7 either way; the Fermi
+surface's position within Λ_shell ≤ E_F ≤ M_red, worth ≈ 1.6; and percent-level particle-hole
+asymmetry, worth ≈ 1.1 per percent. Compounded, **the anchor is a few TeV to within a factor of a
+few** — call it 1 to 8 TeV — with the vertex correction dominating. Every piece of the mechanism is
+derived; the precision is what the truncation costs.
