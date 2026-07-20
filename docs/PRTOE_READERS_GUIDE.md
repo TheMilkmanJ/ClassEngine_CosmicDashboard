@@ -5,6 +5,13 @@ use a compact internal vocabulary for the model's recurring objects; it is NOT r
 evaluate the physics. This page states the model plainly, translates every recurring house
 term, and gives the reading order.*
 
+> **If two files disagree about a number, do not adjudicate it yourself.**
+> [`working_logs/_CANONICAL_VALUES.md`](working_logs/_CANONICAL_VALUES.md) carries the canonical
+> value, where it is *derived* (not merely quoted), what proves it, and its grade — plus a "what it
+> is NOT" column, because on 2026-07-20 two apparent contradictions turned out to be **two different
+> objects** rather than a disagreement. It also lists the quantities where no canonical value exists
+> yet, so none gets booked by accident.
+
 ## 1. The model in five plain sentences
 
 1. One complex scalar field — a cosmological superfluid — replaces separate dark matter
