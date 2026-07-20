@@ -246,7 +246,11 @@ the amplitude block). That seating is the operator's derivation:
   scale on that seat is the floor's own, μ_∅ ≡ ρ_inf¼:
 
 > **L_tenth = −(κ_m/2)·μ_∅·ν̄₁ᶜν₁ + h.c.** — the medium *sources* the neutral member where it
-> *dresses* the charged nine. (The seat is the joint vacuum's — the cross-of-both-fields note,
+> *dresses* the charged nine. (The bilinear is particle-particle, and it is admissible for the
+> same reason the charged sector's pairing is *not*: a condensate may carry no electric charge.
+> A neutral fermion's Cooper pair carries none, so Majorana is open on the seat; a charged
+> fermion's would carry 2e and Higgs the photon, which is why the charged sector pairs
+> particle-hole instead — [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6b.) (The seat is the joint vacuum's — the cross-of-both-fields note,
 > MATH_SPINE — reached through the lepton-sector wing; no gravity-only door is used. Below v_L
 > the bilinear is L-legal; its UV form above v_L is named below.)
 
