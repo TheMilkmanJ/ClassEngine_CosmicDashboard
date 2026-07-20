@@ -25,17 +25,27 @@ No verdict may be argued after the fact — the rules below were set before the 
 > Cobaya fills the gap from the parameter's own `proposal` width, which supplies a scale and no
 > orientation.
 >
-> **This limits the fix applied to routeD and conv_desi, and the limit should be stated before
-> either chain is graded.** Those seeds are **diagonal** — built from the configs' physical proposal
-> widths. They therefore fix the step *size*, which is measured and real (routeD 0.99 → 0.25–0.31),
-> and carry **zero correlation structure**, which is what a thin curved ridge actually requires. A
-> diagonal seed cannot orient a proposal along a degeneracy. So the honest expectation is that
-> acceptance is repaired while convergence may not be, and routeD's first R−1 rows are the test.
+> **What routeD and conv_desi are actually running on (verified from the configs and the seed
+> files themselves, 2026-07-20 13:10).** Both now carry the **correlation-preserving** seed:
+> C = D_phys·R·D_phys, taking the ridge's orientation R from each chain's own archived covariance
+> and the magnitudes D_phys from the configs' physical widths. Verified by reading the seeds, not
+> by trusting the launch note — `routeD_seed.covmat` is 14×14 with max |off-diagonal correlation|
+> 0.982 and mean 0.436; `conv_desi_seed.covmat` is 13×13 at 0.965 and 0.275. Neither is diagonal.
+> The companion setting is the one that caused the collapse: `learn_proposal_Rminus1_max_early` is
+> now **2.0** against Cobaya's default of 30, so no proposal is learned from a chain sitting at
+> R−1 = 8–27.
 >
-> **The principled next seed, if they stall:** take each chain's *own* archived covariance, which
-> was learned on its real parameter set and does carry the ridge's orientation, and inflate its
-> scale to undo the collapse — correlations preserved, magnitude corrected. That is the standard
-> bootstrap, and it is the opposite of what a diagonal rebuild does.
+> **First measurement, and it is the good outcome.** Over 3.5 h of burn-in, acceptance is
+> **20.4%** (routeD) and **19.8%** (conv_desi), against the ~97%-and-never-move pathology these
+> chains were relaunched to escape. That is inside the optimal band for high-dimensional
+> Metropolis, and it is measured from the launchlogs' step/accept counters rather than read off a
+> summary line. Burn-in has ~683 and ~592 accepted steps left, ≈3.5 h at the current rate.
+>
+> **What this does and does not settle.** It settles the step: the proposal is now the right size
+> *and* the right shape, and the sampler is exploring. It does not settle convergence — a
+> well-oriented proposal on a genuinely multimodal or badly curved posterior can still fail to
+> mix, and **R−1 remains the only test that grades it.** No R−1 row exists yet for either chain;
+> the first ones arrive after burn-in and they are what #54 and P-2026-044 wait on.
 
 > **The evidence route, restated 2026-07-20.** PolyChord was ended after ~48 h in which it never
 > reached its first checkpoint. It was not stalled — it was running exactly as configured, and the
