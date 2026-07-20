@@ -1978,3 +1978,25 @@ and the false positives recorded.** The defect density fell battery over battery
 concentrated exactly where predicted — the 07-07→07-16 maintained band (DERIVATION_HUNT took
 three hits across batteries, the most of any file). Remaining for pass 2: one targeted whole
 re-read of DERIVATION_HUNT (the highest-hit survivor), then the closing assessment.
+
+## PASS 2 CLOSES — the DERIVATION_HUNT re-read, and THE DEEP AUDIT IS COMPLETE (2026-07-19)
+
+The hunt (593 lines, read whole) is the corpus's most continuously maintained file, and the
+final read still found three era-ghosts the maintenance and four grep batteries had all missed:
+**§1's opening line called ε a "universal fermion-mass shift"** — the dead flavor-blind
+description in the hunt's own first sentence (fixed to universal charged-lepton, with the
+leptophilia and the Koide-relevant universality stated); and two "flagship's 1.5%" survivors
+(§6's candidate block; the open-surface table's lattice row) — the kernel-era truth is +0.44%.
+Everything else in the file held: the two-anchor honest count, the fork carried at every τ
+mention, the tribunal verdict integrated with the ζ-window BBN propagation, the m_q squeeze's
+0.345-input caveat, the three-corner Majoron table with its retraction properly routed.
+
+**THE DEEP AUDIT (#78) IS COMPLETE.** Pass 1: every file in docs/ (97) and working_logs/ (all
+owed files, indices, and the five tribunal transcripts), whole reads, the 13 checks, ~200+
+defects fixed, the harness grown 80 → 310 closed-form checks with the commit gate refusing red
+states, the naming and husk laws armed. Pass 2: four mechanical batteries (13 fixes, density
+6-3-4-0) plus this targeted re-read (3 fixes). The species tally across both passes:
+supersessions, purge husks, head-vs-tail, era-percentages stuck to current numbers, name
+collisions, voice leaks, dangling pointers, count drifts, and one un-regenerable booking
+flagged open rather than silently resolved. Remaining work is owner-gated (ForJustin/09–12),
+run-gated (#43, #99, the chains), or new physics (#79, #101–104) — not audit debt.
