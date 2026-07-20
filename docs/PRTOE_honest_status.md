@@ -13,7 +13,7 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-07-16)
+## CURRENT (2026-07-20)
 
 Major moves since the 2026-07-08 baseline (below):
 
@@ -95,6 +95,8 @@ The chirality family therefore cannot deliver an absolute sign a priori — not 
 computation, but forbidden by a symmetry the model does not break. What could still rescue the
 cross-messenger test is the *correlation* between θ̇ and the winding, and no solver in the corpus can
 compute it: one carries time evolution without winding, the other winding without time evolution.
+Building the joint solver — winding and rotation on one trajectory — is docket **#154**, desk work
+on the genesis solver with no external gate.
 
 **Process, and it belongs on this board rather than in a working log.** The reverse audit closed at
 110 of 110 completed tasks, with **eleven mis-grades** — every one of them in a *composite* task, and
@@ -217,13 +219,17 @@ Audited the CLASS C source against the model's claims. GOOD: dcdf has a real per
      CAVEAT: the ramp is only active when the config sets varying_transition_width -- and
      cmp_prtoe_dyad_ev.input.yaml does NOT, so it runs the legacy step path while its evidence
      companion cmp_prtoe_fixed_ev.input.yaml runs the ramp.
-  3. ~~The w=1/3 radiation-like phase is ABSENT.~~ **CLOSED — re-checked 2026-07-19 and the 07-08
-     reading is wrong now.** `background.c:641` calls `dcdf_rho_rad(pba, a)`, "added exactly like a
+  3. **The w=1/3 radiation-like phase is IN the code and enabled** (the 07-08 reading that it was
+     absent no longer holds). `background.c:641` calls `dcdf_rho_rad(pba, a)`, "added exactly like a
      relativistic species -- rho_tot, p_tot", gated on `dcdf_z_rad_onset > 0`; `background.h`
      documents it as the conformal-origin phase where total w runs 1/3 → 0 → −1. The running
      evidence job sets `dcdf_z_rad_onset: 3.5619e7`, so **the phase is implemented and enabled.**
      The conformal-origin argument no longer rests on an unimplemented phase.
-  (Unverified: whether cs2_dcdf enforces c_s²=0 at the floor -- function body in an unlocated header.)
+  (Checked 2026-07-20: `cs2_dcdf` is at `include/background.h:727` and returns 0.0 unconditionally
+  -- c_s² = 0 is enforced everywhere, not only at the floor, because the barotropic shape parameter
+  beta was removed in v5 when the MCMC drove it to zero and every beta > 1e-6 destroyed sigma8.
+  So the sound speed is not an approximation the code makes near the floor; it is identically zero
+  by construction.)
 HONEST IMPLICATION (as of 2026-07-19): **gap 2 stands; gaps 1 and 3 do not.** Gap 3 is closed
 outright — the radiation phase is in the code and switched on. Gap 1 has narrowed: the fit is no
 longer of a more flexible model, because m_e is pinned at the derived value; what remains is that

@@ -53,7 +53,8 @@ are then decided by *blindness*. One derivation using charge to choose who is co
 identity-blindness to choose how much each counts is the marriage in its sharpest form — and it
 is what keeps the charge²-weighted reading alive as an alternative rather than excluded, since an
 EM-fraction dressing channel is precisely where a Q² weight would be natural. **Owed: the
-explicit two-stage argument, or its death.** Until then c = 9/10 is a count the data confirms
+explicit two-stage argument, or its death — docket #126, the gravity-routing step of the
+c-derivation, desk work with no external gate.** Until then c = 9/10 is a count the data confirms
 (the ε-blind ensemble at −0.08σ), not a count the framework forces.
 
 **The velocity ladder — the interface named, and what the naming costs.** The base
@@ -92,7 +93,8 @@ the middle rung is not independent arithmetic but α_c = d·α read forwards (c�
 Landau's c₂ = c₁/√d gives c₂ = √α·c *if* α_c = 3α), so a matched-junction *derivation* of
 c₂ = √(c·αc) runs that implication backwards and **derives the model's one registered bet**.
 Until the section's scale is supplied the ladder still carries no weight — but it now carries a
-named target rather than a fence.
+named target rather than a fence. That geometric half is docket **#129**, the velocity ladder's
+first payable step — desk work with no external gate.
 
 **The coupling form, resolved.** Once equidistribution is granted, the winding projection is cos θ with θ uniform on [0, 2π), and *which average* sets f̄ is the coupling's order. Four candidates, and the model's own data adjudicates: signed-linear ⟨cos⟩ = **0** (a signed projection averages to nothing — excluded outright by the observed ε > 0, so the coupling must be sign-insensitive); rectified-linear ⟨\|cos\|⟩ = **2/π = 0.6366**; RMS √⟨cos²⟩ = **0.7071**; variance ⟨cos²⟩ = **0.5**. A first-order Yukawa mass shift δm = g·A_eff is **linear** in the winding-projected condensate amplitude, and mass-positivity **rectifies** the sign — giving the mean-absolute, 2/π. The quadratic readings are the subleading (energy-density) coupling. And the corpus's two independent measurements — fit-implied f̄ = 0.6253, winding-sim = 0.635 — **both land on 2/π** (+1.8%, +0.3%) and **reject RMS at +13%** and variance further still. So the coupling form is not a free choice: mass-positivity kills the signed average, leading-order dominance picks linear over quadratic, and the data confirms the selection over the RMS alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
 | **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**, and it arrives twice over: the phonon-gas second sound runs at c₂ = c₁/√d (Landau), and the induced loop's transverse trace gives the same d. The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α holds for the recorded ~44% induced fraction). The running α_c chain is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i). |
@@ -132,8 +134,11 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   τ is fixed elsewhere and T_c follows. Three routes were tried and none of them delivers it, which
   is worth keeping because it says what the kernel is doing work for. **(i) Defining T_c as τ·m_e
   while deriving τ from T_c** is circular, and was the original construction. **(ii) The
-  perturbative route** T_c = m_e0·√(3(L−1)/2π²) is log-ambiguous over ~40–450 keV and returns
-  193 keV at the μ = T fixed point. **(iii) The published lattice band** T_c/√σ ≈ 0.34–0.37 is an
+  perturbative route** T_c = m_e0·√(3(L−1)/2π²) is scale-ambiguous through L, and with the exact
+  fermionic thermal kernel it reads **250–530 keV over L−1 ∈ [1, 10]** — a band that sits *above*
+  the adopted value rather than bracketing it. (The 193 keV once quoted from this route, and the
+  wide envelope around it, both used the high-temperature expansion, which at m_e/T_c ≈ 2.9
+  overstates the thermal restoration ~16-fold.) **(iii) The published lattice band** T_c/√σ ≈ 0.34–0.37 is an
   **SU(3)** value where this sector is SU(2), and no SU(2), N_f = 3 determination exists.
 
   **What that band could deliver even if it applied:** with √σ = m_e it gives T_c ∈ [173.7, 189.1]
@@ -142,8 +147,10 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   ±4.2% band is an order of magnitude too coarse to say anything. **What would make this a test: a
   lattice T_c/√σ for SU(2), N_f = 3 at σ ≲ 0.22%** — the
   number P-048 bets on, still uncomputed. The perturbative
-  Coleman–Weinberg estimate (193 keV, log-ambiguous) is a 7%-consistent cross-check. This is the same
-  scale BBN watches the ε-ramp switch at.
+  Coleman–Weinberg route corroborates the adopted value **less** well than its retired envelope
+  suggested: at 250–530 keV it agrees on the decade and on nothing finer, so the adopted value's
+  source stays the confining chiral ratio, not this route. This is the same scale BBN watches the
+  ε-ramp switch at.
 - **The one input:** the portal **√σ_dark = m_e** — the dark confining sector's scale equals the electron
   mass. This cannot be derived without abandoning τ ≈ 0.35 (a conformal sector that would fix √σ_dark = m_e
   gives the wrong τ; the QCD-like sector that gives τ carries its own scale). It is an **irreducible input**
@@ -407,8 +414,9 @@ the sector's own **chiral** condensate ⟨q̄q⟩, an internal object with no SM
 neither**: it is the separate high-decay-constant field of §8 item 1b. The honest re-price of the
 former one-object reading, in three parts: (i) **the single T_c splits into two electron-anchored
 scales** — the SU(2) confinement scale τ·m_e = 177.10 keV (the flagship's, portal-anchored,
-lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, log-band
-[40, 900] keV; the BBN-stability fence, stated on the derived anchor, is **[70, 500] keV** — the deuterium bottleneck below it and the weak-rate window above it, the two clocks that actually bound T_c — and 177.10 keV sits interior, 2.5× above the lower edge and 2.8× below the upper. **Across that entire range the BBN verdict moves by at most 0.32σ on D/H**, so the fence cannot be broken by any re-pin inside it; the kernel's own 1.1% move costs 0.0022σ, one part in 449 of the row's width); their near-equality is two
+lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, which at
+the exact thermal kernel reads 250–530 keV over L−1 ∈ [1, 10]; the BBN-stability fence, stated on
+the derived anchor, is **[70, 500] keV** — the deuterium bottleneck below it and the weak-rate window above it, the two clocks that actually bound T_c — and 177.10 keV sits interior, 2.5× above the lower edge and 2.8× below the upper. **Across that entire range the BBN verdict moves by at most 0.32σ on D/H**, so the fence cannot be broken by any re-pin inside it; the kernel's own 1.1% move costs 0.0022σ, one part in 449 of the row's width); their near-equality is two
 anchors coinciding at the electron scale for separate reasons (the portal vs the electron loop),
 not one object. (ii) **The Majoron scale, priced at all three corners (2026-07-18).** The registry already
 carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV, S4-dark; CMB-S4 the
@@ -653,7 +661,7 @@ entire remaining open surface is:
 | open object | what it decides | gated on |
 |---|---|---|
 | the Koide kernel chain's last link (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the desk steps are worked (the pacing-saturation step, the sign-chain walk); what stands between the chain and its grade is the first-roll sign run, then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
-| ~~the linear-map postulate~~ — DISCHARGED: the −3/2 derived at additivity grade (boost-dressed cutoff, geometric mean, equipartition — hierarchy §2b) | the anchor's −3/2 | the shared additivity neck (one assumption corpus-wide; the ring-on-ring trial tests its Koide instance) |
+| the additivity neck — one assumption carrying three separate results (the anchor's −3/2, the A_s shot count, the n_s variance-linearity) | whether those three stand on one premise or need three | the ring-on-ring trial, which tests its Koide instance. *(The anchor's −3/2 itself is no longer open: it follows from a boost-dressed cutoff, a geometric mean and equipartition at additivity grade — hierarchy §2b.)* |
 | the seat constant b | κ_m's exact value | the basement build |
 | T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note APPROVED FOR CIRCULATION) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |

@@ -69,7 +69,7 @@ the Z4-locking mechanism failing to produce a quartet-mass oscillation unit (dem
 to numerology and strikes it from the lineup).
 
 ## Sources
-The onset-clock identity (include/background.h, the coded T = 9.41 keV derivation);
+The onset-clock identity (include/background.h, the coded T = 9.46 keV derivation);
 [Volovik2003] (composite-vacuum precedent); internal: PRTOE_DERIVATION_HUNT.md, P-2026-040's corollary chain. Full list:
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 

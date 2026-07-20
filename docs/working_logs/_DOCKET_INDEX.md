@@ -158,7 +158,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 130 | The base α's two owed pieces | open |
 | 131 | The X₀ erasure reformulation | closed — the X₀-free canonical form in clock units ξ = φ/√(2X₀) (v5 five-verdict §2.1); two scales, M₂ and m̄₂, both landed; the atlas whisper carries the answer |
 | 132 | Rebuild the docket index | closed — **this file**; see the note below |
-| 133 | Which rung condensation picks | open |
+| 133 | Which rung condensation picks | closed — the dyad's restoration temperature is κ-independent, so f cancels and the bracket is m_e; all three recorded readings sit inside the escape window, and the BBN fence [70, 500] keV binds tighter |
 | 134 | The dark vortex-pair computation — F_dark/√σ's normalization band | normalization **fixed** (F ≡ √2 f_π, the 130.4-MeV branch; the "band" was one number twice) — **open on what that uncovered**: the NJL route gives 0.1759 pinned against the vortex-pair 0.4204, a 2.39× internal disagreement |
 | 135 | The staged candidate tests — flesh out or retire | closed |
 | 136 | The composite-Higgs exposure | closed — **withdrawn**; the Higgs here is elementary (hierarchy §2(c)) |

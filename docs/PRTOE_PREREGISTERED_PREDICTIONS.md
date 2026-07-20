@@ -618,8 +618,10 @@ is the one that matters here. ε = c·f̄·α_c: **f̄ = 2/π is derived** as th
 step does not close on either branch (routed through gravity the roster is every field in the
 vacuum, not the charged nine; not routed through it, a gauge-singlet scalar's independent
 per-operator coefficients leave no democratic warrant), so the value stands on an ε-blind ensemble
-at −0.08σ rather than on a forced count. The **m_e gates are not**: which rung the condensation picks is open (docket
-#133). The **two-fluid sims are not run** — the granule meter's statistical core is finished
+at −0.08σ rather than on a forced count. The **m_e gates are** — which rung the condensation picks
+closed 2026-07-20: the dyad's restoration temperature is κ-independent, so the decay constant cancels
+out of it and the bracket is the electron mass, with all three recorded readings landing inside the
+gate-0 escape window ([PRTOE_UV_completion.md](PRTOE_UV_completion.md) §#17). The **two-fluid sims are not run** — the granule meter's statistical core is finished
 (S = (1+f_rot²)/2 confirmed) but its dynamical half is unbuilt (docket #160), and the genesis
 solver is docket #150.
 
@@ -1263,8 +1265,11 @@ chain) AND flat (Ok=0 → H₀ easing untouched, stays 69.9). So the corrected b
 **P-2026-013 primary claim updated:** Ok ~ 0 (FLAT) + compact/finite topology + suppressed large-angle
 CMB power (a finite box quantizes the largest modes even when flat). The old falsifier "Ok firmly ≥0"
 is WITHDRAWN (flat is now the prediction, not a falsifier). New live falsifiers: (a) a confirmed
-INFINITE universe / no compact-topology signature at any scale; (b) no large-angle power suppression;
-(c) Ok pushed firmly NEGATIVE by data (positively-curved-closed) -- which would both cost H₀ and
+INFINITE universe / no compact-topology signature at any scale; (b) an off-diagonal covariance over
+ℓ ≤ 6 inconsistent with the predicted correlation pattern -- **which replaces the earlier falsifier
+"no large-angle power suppression": at every box size the matched circles permit, the suppression is
+0.16σ against cosmic variance, so its absence cannot be measured and cannot falsify anything**
+(2026-07-20); (c) Ok pushed firmly NEGATIVE by data (positively-curved-closed) -- which would both cost H₀ and
 contradict the flat-torus form. The H₀ easing and the (refined) shape bet are now COMPATIBLE.
 
 ## P-2026-013 QUANTITATIVE UPDATE (2026-07-08): flat-torus quadrupole window computed
@@ -1280,6 +1285,17 @@ KEY RESULTS:
  razor-thin viable window L ~ 2-3D at the current detection threshold.
  (2) DISTINCTIVE SIGNATURE: quadrupole suppressed MORE than octupole (0.49 vs 0.85 at L=2D) --
  scale-dependent, hits the largest scale hardest, matching the FORM of the real low-l anomaly.
+
+**SUPERSEDED on result (1) — the depth, not the shape (2026-07-20, `scripts/torus_lowell_pattern.py`).**
+The table above is a sharp-cutoff continuum estimate. A finite box is a mode LATTICE, and the six
+modes sitting exactly at k_min carry their full cells' weight rather than being discarded; done as
+the mode sum, the same L = 2D box retains **0.84** (Sachs-Wolfe) or **0.90** (with the ISW), not
+0.49. **There is therefore no box size, permitted or otherwise, that delivers the observed
+0.2-0.5 quadrupole**: the "razor-thin viable window at L ~ 2-3D" does not exist, and the shape
+result (2) survives while the depth result (1) does not. The prediction's live content moves
+entirely to the compact-topology signature — matched circles and the off-diagonal correlation
+pattern — and away from large-angle power suppression, which cosmic variance cannot resolve at
+any box size the circles permit.
 CAVEATS: SW-only, isotropic-cutoff estimate; full torus C_l is anisotropic (preferred axes) + ISW;
 observed low quadrupole is only ~2sigma (cosmic variance). ⇒ P-2026-013 is quantitatively LIVE but
 TIGHT: falsifiers now sharpened to (a) matched circles found at L<2D (would've been seen) OR pushed
@@ -2141,7 +2157,7 @@ c-sharpening → 9/10), which is what separates this from dense-family numerolog
 
 **COROLLARY (2026-07-12, registered BEFORE the α_c MCMC convergence) — P-040's z_on
 TRANSLATION.** The model's own onset clock (H = m at z_on: T_on = √(m·M_red/0.61), verified
-against the coded identity m = 2.24×10⁻²⁰ eV ↔ 9.41 keV ↔ z_on = 4.0×10⁷) plus the
+against the coded identity m = 2.24×10⁻²⁰ eV ↔ 9.46 keV ↔ z_on = 4.0×10⁷) plus the
 abundance closure (Ψ₀ ∝ m^(−1/4)) give z_on ∝ α_c^(−2). Therefore α_c = 3α PREDICTS
 **log10(z_on) = 7.55** (z_on = 3.5×10⁷). The chain's unconverged center currently sits at
 ~7.94 (watch-only) — 0.4 dex ABOVE. Two honest outcomes, written in advance: (i) the center
@@ -2779,7 +2795,7 @@ high σ) kills it a fortiori; (iii) any future mechanism deriving A = √2 while
 nobody has made them. The first is the genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35], which puts
 **ΔN_eff = 0.06–0.24** of dark radiation in the expansion budget. The second is the dCDF's
 radiation-to-dust onset, which fires when the Hubble rate falls to the field's mass — H = m, at
-T ≈ 9.41 keV. Dark radiation raises H, so it moves the onset. This entry states by how much, and
+T ≈ 9.46 keV. Dark radiation raises H, so it moves the onset. This entry states by how much, and
 registers the closure as a bet.
 
 **(a) The onset shift.** In the radiation era the onset temperature scales as

@@ -6,9 +6,25 @@
 
 Coupling-geometry status: screened-room (solar system) — verdicts hold by geometry.
 
-## PAID (2026-07-19 reconciliation): items 1 and 2 — the cavity computation ran 2026-07-18
-(suppression confined to ℓ ≲ 4; the test relocated to the off-diagonal covariance, S/N 2.2
-over 990 pairs; matched-circles reconciled at L ≥ 27.6 Gpc). One provenance flag stands in
-the thread file: the retention-at-floor number and the ρ pattern must be regenerated before
-the BipoSH pass grades them (the generating script was scratch-era). Items 3–4: the BipoSH
-joint pass remains on the referee calendar with the pattern now handed to it.
+## PAID: items 1 and 2 — the cavity computation
+Suppression confined to ℓ ≲ 4; the test relocated to the off-diagonal covariance; matched-circles
+reconciled at L ≥ 27.6 Gpc.
+
+**Regenerated on a retained script (2026-07-20, `scripts/torus_lowell_pattern.py`).**
+Both numbers the first pass booked have moved, and in opposite directions:
+
+| quantity | first pass | regenerated (ISW-inclusive) |
+|---|---|---|
+| quadrupole retention at the 27.6 Gpc floor | 83% | **90%** |
+| power-spectrum S/N over ℓ = 2–6 | 0.27 | **0.16** |
+| off-diagonal S/N over 990 pairs | 2.2 | **1.4** (2.0 on Sachs–Wolfe alone) |
+| strongest ρ (ℓ = 4, m = ∓4) | +0.68 | **+0.47** |
+
+The suppression is shallower than booked and the correlation channel is thinner. The cause of the
+retention move is method, not cosmology: a finite box is a mode **lattice**, and the sharp-cutoff
+continuum estimate that returns 49% at this floor discards the six modes sitting exactly at
+k_min. The script carries the two side by side, checks the lattice sum two independent ways, and
+verifies that retention returns to unity as the box grows.
+
+Items 3–4: the BipoSH joint pass remains on the referee calendar with the regenerated pattern
+handed to it. It now grades a 1.4σ structure, not a 2.2σ one.

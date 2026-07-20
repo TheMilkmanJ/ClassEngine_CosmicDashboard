@@ -2032,3 +2032,51 @@ not depend on that end at all. The alarm was raised by the substitute, not by th
 heuristic's sensitivities are not the model's.* Before re-running an order-of-magnitude estimate
 against a changed input, check whether the corpus has already computed the thing the estimate was
 approximating — here it had, twice, and both computations are κ-independent.
+
+### THE LOW-ℓ CAVITY DEPTH — a sharp k-cutoff standing in for a mode lattice, and the "razor-thin viable window" that never existed (2026-07-20)
+
+**What was claimed.** Two numbers, from two passes, for one quantity — the flat cubic torus's
+quadrupole retention at the matched-circles floor L = 27.6 Gpc. `scripts/torus_quadrupole.py`
+(retained) returned **0.49**; the 2026-07-18 cavity pass, whose script was scratch-era and not
+retained, booked **0.83**. `PRTOE_lowell_anomalies.md` carried both with a provenance note holding
+the conclusions "robust across the 49–83% span". Upstream of both,
+`PRTOE_PREREGISTERED_PREDICTIONS.md`'s P-2026-013 quantitative update read the 0.49 as the model
+reproducing the observed low quadrupole, in "a razor-thin viable window L ~ 2–3 D at the current
+detection threshold".
+
+**RETIRED (kills the T5 low-ℓ thread's booked retention and ρ pattern; (no docket) — the
+regeneration was run without a task number of its own, and one is owed: #160 is already the
+two-fluid sims).** Regenerated ISW-inclusive on a retained generator,
+`scripts/torus_lowell_pattern.py`: the retention at the floor is **0.90** (0.85 on Sachs–Wolfe
+alone). Both booked values are wrong, and the true value is *above* the span they bracketed.
+
+| the claim | what it is |
+|---|---|
+| 0.49 retention at the floor | a **sharp continuum cutoff**, not a torus. The estimate integrates ∫dk/k below k_min away; a finite box does not empty that region, it concentrates it — six modes sit **exactly at** k_min carrying their full k-cells' weight. The generator reproduces the estimate's 0.831 / 0.489 / 0.189 exactly from the same integral, and the lattice sum on the same boxes gives 0.976 / 0.844 / 0.447 |
+| 0.83 at the floor, from the lost pass | close to right (0.90) for reasons that cannot now be checked. The provenance note's reading — that the ISW dilution supplied the 0.49 → 0.83 gap — was the right mechanism attached to the wrong baseline: the ISW is worth 0.85 → 0.90, and the lattice-vs-cutoff correction is worth 0.49 → 0.85 |
+| "conclusions robust across the 49–83% span" | the span excluded the answer. Robust anyway, but by luck: at 0.90 the power-spectrum route is *more* hopeless, not less |
+| "a razor-thin viable window L ~ 2–3 D" | **there is no window.** No box the matched circles permit delivers the observed 0.2–0.5 quadrupole; the largest suppression available at the floor is 10%, i.e. 0.16σ against the quadrupole's own 63% cosmic variance |
+| off-diagonal S/N = 2.2 over 990 pairs | **1.4** ISW-inclusive; 2.0 on Sachs–Wolfe alone, which is what the lost pass appears to have computed. The ISW's near-isotropic power adds to the diagonal without adding to the off-diagonal, so it dilutes the correlations exactly as it shallows the quadrupole |
+
+**What survives, and it is the part that mattered.** The *shape* result is untouched — suppression
+confined to the lowest multipoles and gone by ℓ ≈ 4 — as is the relocation of the test from the
+power spectrum to the covariance, and the cube's Δm ≡ 0 (mod 4), ℓ − ℓ′ even selection rule, which
+every one of the 111 non-zero pairs obeys. The relocation is *strengthened* by the retention move
+and *weakened* by the S/N move, and the two do not cancel: the referee now grades a 1.4σ structure.
+
+**The failure mode, named.** An estimate labelled honestly as an estimate ("leading-order, SW-only,
+isotropic-cutoff") was carried into a place where the difference between the estimate and the
+object was the entire result. The label was on the script and not on the conclusion, so a
+razor-thin window survived in a registered prediction for twelve days on a number that was never
+the torus's.
+
+**The instrument, so this cannot recur silently.** The retained generator carries its own checks:
+the infinite-universe C_ℓ against the analytic 1/(9πℓ(ℓ+1)); retention → 1.0000 as the box grows;
+the lattice sum computed two independent ways — shell multiplicities under the addition theorem
+against a mode-by-mode sum over spherical harmonics, agreeing to five decimals; and the cutoff
+estimate reported *beside* the lattice sum rather than in place of it.
+
+**The lesson (process).** *When an estimate and the object it approximates differ by the size of
+the claim, the estimate is not a version of the result — it is a different quantity.* A cutoff
+approximates a lattice well where the modes are dense and not at all where the answer lives, which
+here is the first shell.

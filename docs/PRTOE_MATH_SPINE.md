@@ -53,8 +53,10 @@ route** (the hinge keeps only its α_c conditionality via c_s = √α_c). And re
 old curve is dead by its own arithmetic: it would force c = 1.005 while the census excludes
 c = 1. Provenance walk].
 * **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
-δm_e. (Lepton-sector; whether the dyad's scale f is the Majoron's v_L — one L-breaking scale
-or two — is the recorded open fork. **The portal's un-derived core is which Standard-Model
+δm_e. (Lepton-sector, and **a separate field from the Majoron**: the one-scale corner f = v_L is
+tie-dead on the condensate-friction ceiling, so the sector carries two L-breaking scales and three
+dark fields. What stays open is *which* v_L corner — TeV-class or MeV — and CMB-S4 is the selector
+([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6). **The portal's un-derived core is which Standard-Model
 scalar the dark-neutral bilinear |Ψ|² multiplies.** The standing operator is the
 quadratic-canonical m_e(φ) = m_e0(1 + κφ²), and the recorded roster of dark-U(1)-invariant
 couplings — |Ψ|², |Ψ|⁴, ∂_μΨ*∂^μΨ, J_μ — reaches δm_e only through |Ψ|², which is a total
@@ -94,7 +96,18 @@ running instrument:
 > | **d²/2 = 9/2** | **geometry** | d = the spatial dimension (the same 3 as in α_c = 3α) |
 >
 > **Neither field produces the number alone**: the dark-energy scale is the dCDF's coupling raised
-> to the fourth **weighing the dyad's condensation temperature**. *(The decomposition is
+> to the fourth **weighing the dyad's condensation temperature**.
+>
+> > **The T_c row's owner is not settled, and the "cross of both fields" reading depends on it.**
+> > This table assigns 177.10 keV to the dyad. [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)
+> > §6 assigns the flagship's τ·m_e to the **SU(2) confinement scale** instead, and states that the
+> > dyad is neither of that sector's two condensates — on which reading both factors belong to the
+> > dCDF's sector and the number is one field's product after all. The two scales coincide near the
+> > electron mass for separate reasons (the portal in one case, the electron loop in the other), which
+> > is why the arithmetic is the same either way and the *structural* claim is not. Read the cross
+> > claim as conditional on that assignment until it is decided.
+>
+> *(The decomposition is
 > [PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md)'s, hunt 210–211; it is restated
 > here because every reader-facing statement of the flagship wrote ½α_c²M₂ without saying which of
 > the two condensates α_c belongs to — and the model has two.)*
@@ -112,9 +125,9 @@ layer is a story built from real mechanisms, not a derivation.**
 Above H ≈ m the ultralight field is frozen/radiation-like (w=1/3, the conformal-origin
 phase); below, it oscillates as dust. The switch epoch:
 
-> **T(H=m) = √(m·M_red / 0.61) = 9.41 keV** (g*=3.36) ↔ **coded z_rad_onset = 4×10⁷ → T = 9.39 keV.**
+> **T(H=m) = √(m·M_red / 0.61) = 9.46 keV** (g*=3.36) ↔ **coded z_rad_onset = 4×10⁷ → T = 9.39 keV.**
 
-Match 1.002×. The onset is field 1's H=m clock — textbook ULDM — NOT a condensation temperature.
+Match 1.007×. The onset is field 1's H=m clock — textbook ULDM — NOT a condensation temperature.
 Code: `dcdf_z_rad_onset` (background.h, with the derived-identity comment). *(Five production
 configs — `conv`, `conv_desi`, `dyad`, `lepton`, `nulink` — set this identity value. The `_fixed`
 family, including the running evidence job, is frozen at 3.5619×10⁷ instead: 0.053 dex low, which
@@ -160,7 +173,7 @@ and its [40, 900] keV envelope both used the *high-temperature expansion* of the
 function, which overstates the restoration by ~16× at this operating point (m_e/T_c ≈ 2.9 —
 the electrons are Boltzmann-suppressed there). With the exact kernel the cross-check reads
 **250–530 keV over L−1 ∈ [1, 10]** — three times narrower than the recorded envelope, and
-sitting *above* 179 keV rather than bracketing it. Stated plainly: the perturbative route
+sitting *above* the adopted 177.10 keV rather than bracketing it. Stated plainly: the perturbative route
 corroborates the adopted value less well than the old envelope suggested; the adopted value's
 source is the confining chiral ratio, not this route. *The predecessor configuration —
 the electron-CW VEV v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV — is RETIRED (BBN-fatal at its
@@ -170,7 +183,9 @@ its formulas do not describe the standing model.*
 **BBN clearance [CLEARS — the double regime-citation correction]:** the deuterium constraint's
 severity decomposes by process: weak rates n↔p (T \~ 500–1500 keV, \~75% of the m_e lever),
 n-decay phase space (\~10%), e± heating (\~10%), the bottleneck itself (\~5%, B_d nuclear,
-m_e-insensitive). The dyad (T_c ≤ 445 keV) NEVER touches the weak-rate window; AND the dyad is
+m_e-insensitive). The dyad's transition sits at T_c = 177.10 keV, and BBN itself fences it to
+[70, 500] keV — the deuterium bottleneck below, the weak-rate window above — with the adopted value
+interior by 2.5× and 2.8×, so **the dyad NEVER touches the weak-rate window**; AND the dyad is
 LEPTONIC (quarks \~2-loop, \~10⁻⁹), whose full-BBN ceiling is \~0.3–1σ, not the universal/
 hadronic 12σ:
 
@@ -295,8 +310,11 @@ the physics has none.**
 
 **Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, the mass
 pinned independently by ξ, the Schive core radii and the superradiance window); **the dyad onset is
-T_c = 177.10 keV from the Koide kernel's τ = ½ln2** — *not* the electron-CW route, which §4 retires
-as BBN-fatal; AZK-safety; leptonic allowed ≠ generated.
+T_c = 177.10 keV from the Koide kernel's τ = ½ln2** — the value's source is the confining chiral
+ratio, not the electron loop, whose predecessor *configuration* (the CW VEV at ≈ 175 keV) §4 retires
+as BBN-fatal. What survives from that loop, and is used above, is the κ-independent restoration
+*formula*, which supplies the ramp's timing and is why the transition sits at the electron scale for
+any decay constant; AZK-safety; leptonic allowed ≠ generated.
 
 **Falsified:** P-2026-004 (high Σm_ν); the sequestering route to the dark-energy value (§7a, and the
 full-cycle KP solve in the addendum — the internal falsifier fired).
@@ -306,8 +324,7 @@ full-cycle KP solve in the addendum — the internal falsifier fired).
 **Settled since this ledger was last written** — each was carried here as owed and each is closed
 elsewhere in the corpus:
 - *KP self-consistency* — resolved **in this file**: §7a reports the attempt fails, and the addendum
-  reports the full-cycle solve firing the falsifier. It was listed as owed eighty lines below its own
-  answer.
+  reports the full-cycle solve firing the falsifier.
 - *spurion identification* — done in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md) §2: μ is a
   dimension-1 lepton-number-breaking parameter, distinct from the dimensionless varying-m_e amplitude.
 - *low-scale seesaw* — **adjudicated** by the seesaw duty scan (same file).
@@ -315,15 +332,17 @@ elsewhere in the corpus:
   leptophilic across sectors.
 - *the gate-0 confirm* — #40 (RG V_eff + BBN network) confirms rather than decides (§4).
 
-**Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution); the
-seat constant b in the neutrino tie.
+**Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution — the
+branch is DESI DR3's to decide); the seat constant b in the neutrino tie, gated on the basement
+build — which is itself gated on the band structure the hierarchy chain's §6c needs, docket #146
+([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, the open-surface table).
 
 **Standing:** provisional pending the named referees, DESI-capped; the branch is registered
 (P-2026-056) with its guards discharged, and its adjudicating chain is running.
 
-*(This ledger previously marked six items with the dead word "docketed". There is no docket document in this corpus —
-the word pointed at nothing, and five of the six were already answered. Debts now name where they
-are closed or what they wait on.)*
+*(Every debt on this page names where it is closed or what it waits on. Bare "owed" is not a
+status: [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) resolves task numbers, and
+where this page and a physics file disagree, the physics file is right.)*
 
 ---
 

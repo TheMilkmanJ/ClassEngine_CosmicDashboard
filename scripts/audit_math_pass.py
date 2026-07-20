@@ -1295,6 +1295,31 @@ chk("FAILURES_LEDGER", "retired heuristic sqrt(f*Lambda_IR) at f = 500 TeV", 1.0
 chk("me_mechanism hf", "lambda_dyad at f = 3e14 eV, L-1 = 5", 1.3e-38,
     _EPS*ME**4*5/(4*math.pi**2*(3e14)**4), 0.03)
 
+# --- the low-l cavity pattern, regenerated ISW-inclusive (T5 low-l) -----------
+# Closed forms only; the mode sums themselves live in scripts/torus_lowell_pattern.py.
+from scipy.integrate import quad as _quad
+from scipy.special import spherical_jn as _spherical_jn
+chk("lowell_anomalies", "off-diagonal pairs over l = 2..6, C(45,2)", 990,
+    (sum(2*l+1 for l in range(2, 7)) * (sum(2*l+1 for l in range(2, 7))-1))//2, 1e-9)
+chk("lowell_anomalies", "quadrupole cosmic variance sqrt(2/(2l+1))", 0.6325,
+    math.sqrt(2/5), 1e-3)
+# the regenerated retention at the 27.6 Gpc floor, and what it is worth against that variance
+_RET2 = 0.900
+chk("lowell_anomalies", "quadrupole deficit at the floor, ISW-inclusive", 0.100,
+    1-_RET2, 0.02)
+chk("lowell_anomalies", "that deficit in units of cosmic variance", 0.158,
+    (1-_RET2)/math.sqrt(2/5), 0.02, "sigma")
+# the matched-circles floor is 2 chi_*, which is what makes 27.6 Gpc the floor
+chk("lowell_anomalies", "the floor L = 27.6 Gpc as a multiple of chi_* = 13.76", 2.006,
+    27.6/13.76, 1e-3, "x")
+chk("lowell_anomalies", "k_min chi_* at the floor = 2 pi chi_*/L", 3.1325,
+    2*math.pi*13.76/27.6, 1e-3)
+# the sharp-cutoff estimate the retained toy computes, at its own L = 2D -- kept so the
+# ledger's "the estimate is a different quantity" row stays checkable
+_cut = _quad(lambda x: _spherical_jn(2, x)**2/x, math.pi, 400, limit=400)[0]
+chk("FAILURES_LEDGER", "sharp-cutoff C_2 retention at L = 2D (the retained toy's 0.49)", 0.489,
+    _cut*12, 0.01)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

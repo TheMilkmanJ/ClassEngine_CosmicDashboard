@@ -323,14 +323,20 @@ left is the electron mass times a pure number:
 > **T_c = m_e0·√(3(L−1)/2π²)** — κ-independent, and f nowhere in it.
 
 **So the bracket is the electron mass**, and "which rung condensation picks" is settled by that
-cancellation rather than by a see-saw between a UV and an IR scale. Three independent readings of
-the same transition, and every one of them lands inside the escape window:
+cancellation rather than by a see-saw between a UV and an IR scale. Three recorded readings, and
+every one of them lands inside the escape window:
 
 | reading | T_c | where it comes from |
 |---|---|---|
-| the standing anchor | **177.10 keV** | the Koide kernel's τ = ½ln2 through Parseval — the confining chiral ratio, lattice-gated ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4) |
-| the electron-loop cross-check, exact thermal kernel | **250–530 keV** over L−1 ∈ [1, 10] | the restoration formula above, evaluated without the high-temperature expansion |
+| the ramp's keying value | **177.10 keV** | the Koide kernel's τ = ½ln2 through Parseval — the confining chiral ratio, lattice-gated ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4) |
+| the electron-loop restoration, exact thermal kernel | **250–530 keV** over L−1 ∈ [1, 10] | the formula above, evaluated without the high-temperature expansion |
 | the ramp-timing relation across the whole adopted f window | **130–940 keV** over f = 100–500 TeV | MATH_SPINE §4's C_T(T_c) = 2λ_dyad·f², at the recorded λ_dyad |
+
+*(Rows one and two are two objects, not one: the first is the SU(2) sector's portal-anchored
+confinement scale, the second the dyad's own restoration temperature, and
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 keeps them distinct — they coincide near
+the electron mass for separate reasons. **The escape does not need them resolved**, because it asks
+only which decade the dyad's transition sits in, and every row answers the same decade.)*
 
 Only the third row carries any f-dependence at all, and it carries it only because λ_dyad is held
 at its recorded value while f moves. Held instead at its own defining expression,

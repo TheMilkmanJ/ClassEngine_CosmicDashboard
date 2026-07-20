@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-docket #160 — the low-ℓ cavity pattern, ISW-inclusive, on a RETAINED script.
+The low-ℓ cavity pattern, ISW-inclusive, on a RETAINED script.
+(T5 low-ℓ thread; no task number of its own — #160 is the two-fluid sims.)
 
 Regenerates BOTH numbers the 2026-07-18 scratch-era pass booked and then lost:
 
@@ -146,9 +147,15 @@ def delta_u(l, u, isw=True):
 
 
 # --------------------------------------------- infinite-universe C_l (the denominator)
-def cl_infinite(l, isw=True):
-    """(2/pi) int dk/k Delta_l^2 = (2/pi) int du/u Delta_l(u)^2, a pure number."""
-    lu = np.linspace(np.log(1e-6), np.log(UMAX * 0.95), 400001)
+def cl_infinite(l, isw=True, umax=None):
+    """(2/pi) int dk/k Delta_l^2 = (2/pi) int du/u Delta_l(u)^2, a pure number.
+
+    `umax` truncates the integral at the SAME u the lattice sum is truncated at, so the
+    ratio is apples-to-apples: a lattice capped at |n| <= nmax carries no mode above
+    u = 2 pi nmax chi_*/L, and the denominator must not carry one either.
+    """
+    hi = UMAX * 0.98 if umax is None else min(umax, UMAX * 0.98)
+    lu = np.linspace(np.log(1e-6), np.log(hi), 400001)
     u = np.exp(lu)
     d = delta_u(l, u, isw=isw)
     return (2.0 / np.pi) * np.trapezoid(d * d, lu)
@@ -184,11 +191,12 @@ def retention(L, lmax=LMAX, isw=True, nmax=NMAX_DIAG, chi_star=None):
     m = np.nonzero(counts)[0]
     kn = 2.0 * np.pi * np.sqrt(m) / L
     un = kn * cs
+    ucut = 2.0 * np.pi * nmax * cs / L
     out = {}
     for l in range(LMIN, lmax + 1):
         d = delta_u(l, un, isw=isw)
         num = (4.0 * np.pi / L ** 3) * np.sum(counts[m] * kn ** -3.0 * d * d)
-        out[l] = num / cl_infinite(l, isw=isw)
+        out[l] = num / cl_infinite(l, isw=isw, umax=ucut)
     return out
 
 
@@ -242,7 +250,7 @@ def rho_matrix(M):
 # --------------------------------------------------------------------------------- report
 def main():
     print("=" * 78)
-    print("docket #160 — flat cubic 3-torus low-l pattern, ISW-inclusive (retained generator)")
+    print("T5 low-l — flat cubic 3-torus pattern, ISW-inclusive (retained generator)")
     print("=" * 78)
     _build_table()
     print(f"  chi_* = {CHI_STAR/1000:.3f} Gpc   H0 = {H0}   Omega_m = {OMEGA_M}   "
@@ -260,9 +268,9 @@ def main():
           f"{'OK' if [int(_c[i]) for i in range(1,6)] == [6,12,8,6,24] else 'MISMATCH'}")
 
     print("\n  [validation 3] retention -> 1 as L -> infinity (SW+ISW, the normalisation test):")
-    for L in (80000.0, 200000.0, 400000.0):
+    for L in (80000.0, 200000.0, 400000.0, 1000000.0):
         r = retention(L, lmax=2)
-        print(f"    L = {L/1000:>6.0f} Gpc (k_min chi_* = {2*np.pi*CHI_STAR/L:.3f}): "
+        print(f"    L = {L/1000:>7.0f} Gpc (k_min chi_* = {2*np.pi*CHI_STAR/L:.4f}): "
               f"C_2 retention {r[2]:.4f}")
 
     print("\n  [validation 4] the retained SW-only toy scripts/torus_quadrupole.py, and why it")
@@ -277,11 +285,22 @@ def main():
         print(f"    L = {LD:.1f} D = {LD*14.0:>4.1f} Gpc: lattice sum {r[2]:.3f}   "
               f"sharp cutoff {cut*12:.3f}  [toy booked {booked}]")
 
-    print("\n  [validation 3] ISW share of the infinite-universe C_l (ISW total / SW only):")
+    print("\n  [validation 5] the two independent paths to C_l(torus) agree — shell counts with")
+    print("                 the addition theorem, vs a mode-by-mode sum over spherical harmonics")
+    print("                 (L = 27.6 Gpc, |n| <= 20, SW+ISW):")
+    idx0, M0 = covariance(L_FLOOR, nmax=20)
+    r0 = retention(L_FLOOR, nmax=20)
+    for l in range(LMIN, LMAX + 1):
+        dg = np.real(np.array([M0[i, i] for i, (ll, _) in enumerate(idx0) if ll == l])).mean()
+        ratio = dg / cl_infinite(l, umax=2 * np.pi * 20 * CHI_STAR / L_FLOOR)
+        print(f"    l={l}: harmonic sum {ratio:.4f}   shell sum {r0[l]:.4f}   "
+              f"ratio {ratio/r0[l]:.5f}")
+
+    print("\n  [validation 6] ISW share of the infinite-universe C_l (ISW total / SW only):")
     for l in range(LMIN, LMAX + 1):
         print(f"    l={l}: C_l(SW+ISW)/C_l(SW) = {cl_infinite(l)/cl_infinite(l, isw=False):.4f}")
 
-    print(f"\n  [validation 5] retention convergence in |n| (L = 27.6 Gpc, SW+ISW):")
+    print(f"\n  [validation 7] retention convergence in |n| (L = 27.6 Gpc, SW+ISW):")
     for nm in (40, 80, 120, 160):
         r = retention(L_FLOOR, lmax=3, nmax=nm)
         print(f"    |n| <= {nm:>3}: C_2 {r[2]:.4f}   C_3 {r[3]:.4f}")

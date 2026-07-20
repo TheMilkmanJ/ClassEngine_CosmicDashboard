@@ -28,10 +28,10 @@ term, and gives the reading order.*
 | house term | plain physics |
 |---|---|
 | the medium / the fluid | the superfluid scalar field (the unified dark sector) |
-| the amplitude / ε | the fractional electron-mass shift. Two numbers appear deliberately: **1.2543%** is the derived stack (c·f̄·α_c = 27α/5π), **~1.24%** the sky's fitted value. The ~1.8% gap between them sits inside the posterior width and is what the running chains grade |
-| the dyad | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's THREE dark fields (the dCDF superfluid, the dyad, the Majoron); in older documents "the dyad" named the (dark fluid + varying-m_e) pair |
+| the amplitude / ε | the fractional electron-mass shift. Three numbers appear deliberately: **1.2543%** is the derived stack (c·f̄·α_c = 27α/5π), **1.232%** the production-chain fit, **~1.24%** the posterior. The 1.8% gap between the derived stack and the production fit sits inside the posterior width and is what the running chains grade |
+| the dyad | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's THREE dark fields (the dCDF superfluid, the dyad, the Majoron). The dyad is **not** the Majoron: the single-scale reading that merged them (f = v_L) is dead on the neutrino tie, which is what leaves three fields rather than two. In older documents "the dyad" named the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
-| f_amp (two senses — read carefully) | RETIRED as the amplitude-decomposition factor (ε = c·f_amp·Ψ₀/M_red died; the standing object is f̄ = 2/π). Still LIVE as the medium's **librating fraction** (1 − f_rot): the dice output, the granule-contrast dial p²+q², and the beat √(f_amp(2−f_amp)) all use this sense |
+| f_amp | the medium's **librating fraction**, 1 − f_rot: the dice output, the granule-contrast dial p²+q², and the beat √(f_amp(2−f_amp)) all use this sense. Older documents use the same letter for an amplitude-decomposition factor in ε = c·f_amp·Ψ₀/M_red; that is not the standing decomposition, which is ε = c·f̄·α_c with f̄ = 2/π |
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
 | the gate / screening / the gate curve ε(C) | the environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
 | recorded | established within the model at production grade (coded, fit, or derived) and recorded |
@@ -49,7 +49,6 @@ term, and gives the reading order.*
 | the §12 wall | the corpus's hard scope boundary: the interpretation layer makes NO claims about mind, consciousness, or observers — measurement is decoherence/einselection and nothing more. Named for a section number in an early draft; the number outlived the draft, the boundary is the content |
 | the killer / the kill | the named observation that falsifies a specific claim |
 | estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
-| ς (final σ) | the sign in the H₀-ceiling formula — **SIGNED: ς = −1** (estimate grade, robust; the H₀-lever branch is dead, the bracket collapses to 70.9–71.3) (supernova color-channel direction) |
 
 ## 2b. The symbol table — one symbol, one meaning
 
@@ -69,7 +68,7 @@ fixed here:
 | **n** | the genesis winding integer, n ~ 10–30 — the one topological draw | the comb, the helicity sign, the matter asymmetry |
 | **L**, **χ_\*** | the torus's compactification scale (≥ 27.6 Gpc); the comoving distance to last scattering (13.76 Gpc) | the low-ℓ sky, the winding comb |
 | **f** | the dyad's decay constant, ~100–500 TeV | the dyad sector, the portal |
-| **ς** (final sigma) | the sign in the H₀-ceiling formula, ς = −1 | the candle room |
+| **ς** (final sigma) | the sign in the H₀-ceiling formula, read off the supernova colour channel — **ς = −1** (estimate grade, robust; the H₀-lever branch is dead and the bracket collapses to 70.9–71.3) | the candle room |
 
 *Retired-era documents may use these letters differently; each such file carries its own banner.*
 
