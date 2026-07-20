@@ -296,7 +296,7 @@ and it is the entire content of the constant:
 $$b \;\equiv\; \frac{m_D^2}{4k_F^2} \;=\; \frac{e^2\,(2N_0)}{4k_F^2} \;=\; \frac{2\alpha_c}{\pi}
 \;=\; 0.0139369$$
 
-**So k is derived rather than adopted — on a host this corpus does not record, which the three conditions below name:**
+**So k is derived rather than adopted — on a host this corpus mostly does not record, which the four conditions below name (three unmet, one supplied):**
 
 $$\lambda \;=\; N_0\,\langle V\rangle_{\rm FS} \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\tfrac{1}{b}\Big)
 \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\frac{\pi}{2\alpha_c}\Big)\;\equiv\;k\,\alpha_c,
@@ -317,9 +317,10 @@ The sensitivity is why the factor matters rather than being bookkeeping: ∂lnM/
 two gives k = 1.58305 and an anchor at 1.6×10⁵ GeV. The 2 is not a convention that happened to be
 lucky — it is the electron-plus-hole polarisation, and mistaking it misses by two orders.
 
-**Three structural conditions, and they are additions to this corpus.** The calculation above is a
-condensed-matter one, and it needs a host with properties the basement is not currently stated to
-have. Named plainly, because the numerical agreement makes them easy to skip past:
+**Four structural conditions. Three are additions to this corpus; one turns out to be supplied.**
+The calculation above is a condensed-matter one, and it needs a host with properties the basement is
+mostly not stated to have. Named plainly, because the numerical agreement makes them easy to skip
+past — and because the one that *is* supplied was being carried silently, which is its own hazard:
 
 1. **A finite chemical potential.** The whole Fermi-surface treatment — the average, the density of
    states, the shell — presupposes μ ≠ 0. This corpus's basement is a **Fermi point** (the Volovik
@@ -343,7 +344,7 @@ have. Named plainly, because the numerical agreement makes them easy to skip pas
 2. **Thomas–Fermi screening.** A Debye/Thomas–Fermi mass requires real carriers at finite density or
    temperature. At a Fermi point with μ = 0 there are none, and the atlas separately scores the
    medium's pre-basin phase as "a gapless acoustic gas, not a plasma (no Debye, no gap)".
-2b. **The cone's velocity must be the kernel's velocity — v = 1, and this had been carried
+3. **The cone's velocity must be the kernel's velocity — v = 1, and this had been carried
    silently.** Running the screening constant with v kept explicit gives
    m_D² = e²·(2N₀) = 8α_c k_F²/πv, so
 
@@ -363,7 +364,7 @@ have. Named plainly, because the numerical agreement makes them easy to skip pas
    analogous velocity is c/300, and that mismatch is precisely what makes its effective coupling
    O(1) rather than O(α).
 
-3. **Two compensated bands — and, read against the recorded roster, that means exactly two.** The
+4. **Two compensated bands — and, read against the recorded roster, that means exactly two.** The
    factor 2 needs an electron pocket and a hole pocket at the same Fermi level — a compensated
    semimetal. Stated that way it sounds like a mild structural ask; set against the bath this
    basement actually has, it is not. **The Planck-floor roster is the Standard Model's 48 Weyl

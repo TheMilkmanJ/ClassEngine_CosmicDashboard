@@ -78,6 +78,15 @@ down with one question? If yes, either strengthen it or state the limit first.
 > file is as likely to be left behind, and a heading that survives its own refutation reads as a
 > claim the corpus still makes.
 >
+> **The commonest way to create this defect is to add an item to a list.** Every count-reference to
+> that list — "the three conditions below", "all three fail", "three requirements met" — goes stale
+> the instant a fourth appears, and counts are exactly what nobody re-greps. On 2026-07-20 adding one
+> condition to hierarchy §6c invalidated its own lead sentence *and* a cross-reference three
+> paragraphs above, both written by the same hand in the same hour. **After adding to or removing
+> from any enumerated list, grep the file for its cardinality words** — three/four/both/all — before
+> committing. It costs one command and it is the only instance of this defect that is fully
+> mechanical to catch.
+>
 > **Do not try to automate this. It was tried on 2026-07-20 and it does not work.** A sweep for
 > assertive headings sitting over bodies that hedge repeatedly returned 31 candidates, and the two
 > strongest were the corpus's *best-behaved* sections: `koide_relation` §2, whose heading carries an
