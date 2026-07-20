@@ -46,7 +46,20 @@ fi
 # docket, by saying so explicitly with "(no docket)". Silence is the one thing disallowed.
 led=docs/PRTOE_FAILURES_LEDGER.md
 if git rev-parse --verify -q HEAD >/dev/null 2>&1 && [ -f "$led" ]; then
-  unjoined=$(git diff HEAD -- "$led" 2>/dev/null       | grep "^+" | grep -v "^+++"       | grep -E "RETIRED|^\+\*\*Retired|retired:"       | grep -viE "#[0-9]+|\(no docket\)" || true)
+  unjoined=$(git diff HEAD -- "$led" 2>/dev/null | python3 -c '
+import sys, re
+# Added lines only, in order. A retirement satisfies the join if a task ref (#N)
+# or an explicit "(no docket)" appears in the SAME added line or the next two --
+# prose wraps, and the reference often lands on the following line.
+added=[l[1:].rstrip("\n") for l in sys.stdin if l.startswith("+") and not l.startswith("+++")]
+bad=[]
+for i,l in enumerate(added):
+    if re.search(r"RETIRED|retired:", l):
+        window=" ".join(added[i:i+3])
+        if not re.search(r"#\d+|\(no docket\)", window, re.I):
+            bad.append(l)
+print("\n".join(bad))
+')
   if [ -n "$unjoined" ]; then
     echo
     echo "RETIREMENT JOIN VIOLATION — new retirement row(s) name no task:"

@@ -106,7 +106,7 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 | GEN | the arrow's equation | the number | citation |
 |---|---|---|---|
 | 0 | the vacuum: unique IC, U(1)-symmetric; S_initial = min by construction | no draw (measure dissolved) | model construction |
-| 1 | n_rms = √(L_gen/ξ_K)/2π (Kibble); ∮∇θ·dl = 2πn (Onsager–Feynman) | n ~ 10–30; locked ∀ crunches | Kibble; Onsager–Feynman |
+| 1 | n_rms = √(L_gen/ξ_K)/2π (Kibble); ∮∇θ·dl = 2πn (Onsager–Feynman) | **n ≳ 1.65, and n ~ 10–30 only for a torus far above its floor** — see the note below the table; locked ∀ crunches | Kibble; Onsager–Feynman |
 | 2 | w(ρ) = −e^(−s), s = ln(ρ/ρ_inf); φ/v = √(1−T/T_c) | ρ_inf^¼ = 2.2599 meV (obs 2.25, +0.44%); T_c = 177.10 keV, from the Koide kernel's τ = ½ln2 | founding + recorded |
 | 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | model derivation |
 | 4 | η via AD-direct: n_L(genome)/s × transfer — **DEBT: the frozen-era transfer fraction** | target 6.1×10⁻¹⁰; thermal route DEAD (×40–1000 under, scanned) | AD-direct |
@@ -119,6 +119,24 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 | 11 | life's license: ΔG from the reserve; the chain S_start=min → F_available > 0 | the biosphere = a Weyl-free-energy tap | the arrow doc, graded chain |
 | 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q_EM < 10⁻³⁸–10⁻⁴⁷ (photon-mass limits) | birefringence ≡ 0, proven; light untouchable | L1a |
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
+
+> **Link 1's input is not booked, and that is the whole story of the winding integer.** `L_gen`
+> appears in this corpus exactly three times, and all three are inside the formula string itself —
+> it is never assigned a value. The nearest recorded quantity is the torus scale **L ≥ 27.6 Gpc**,
+> and that is explicitly a *lower bound*: the smallest torus the matched-circles nulls permit.
+> Evaluating the formula there, with the recorded ξ_K = 256 Mpc, gives **n_rms = 1.65** — so the
+> honest reading of link 1 is a bound, **n ≳ 1.65**, not a determination.
+>
+> The registered band n ~ 10–30 is consistent with the formula, but only for **L ≈ 1000–9000 Gpc**,
+> which is 37× to 330× the floor. Nothing in the corpus pins L above its floor. So n ~ 10–30 is a
+> *choice of torus size* wearing the appearance of a Kibble prediction, and every claim that reads
+> n as an input — the comb's location ℓ₁ ≈ 3.1n, the helicity sign, the matter asymmetry — inherits
+> that freedom rather than a derived number.
+>
+> This bears directly on the winding comb's amplitude (#170): the required primordial modulation
+> falls as n rises (181% at n = 10, 36% at n = 30), so the comb becomes *more* detectable the larger
+> the torus is chosen to be. An amplitude that improves with a free parameter is not a prediction.
+> Docket **#180** carries the resolution: pin L, or restate every n-dependent claim as bounded.
 
 **DEBT REGISTER (the arrows still owing their full math):** GEN 4's transfer fraction (the
 frozen-era μ-term calc — the AD-direct route's terminal); GEN 4's constituent door (H-TOE Gates 1–3, adverse forecast
