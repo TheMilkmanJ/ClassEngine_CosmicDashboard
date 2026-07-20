@@ -49,6 +49,19 @@ $$\eta = n \times \mathcal{T}$$
  unchanged — with η = 6.14×10⁻¹⁰ and n ~ 10–30 the transmission must land at
  **𝒯 = 2×10⁻¹¹ to 6×10⁻¹¹** — and the naive ratio R = H/θ̇ = 4.1×10⁻⁷ sits against the needed
  ~5×10⁻⁵, **a factor 122: AT the pre-committed 10² acceptance boundary, neither inside nor past it.**
+
+  **The n this rides on is a bound, not a determination, and the target moves with it.** Link 1's
+  Kibble expression n_rms = √(L_gen/ξ_K)/2π has no booked input: `L_gen` is never assigned a value
+  anywhere in this corpus. The nearest recorded quantity is the torus scale **L ≥ 27.6 Gpc**, and
+  that is explicitly a *lower* bound — the smallest box the matched-circles nulls permit, with
+  nothing bounding it above. Evaluated at the floor with the recorded ξ_K = 256 Mpc it gives
+  **n ≳ 1.65**, and the registered band n ~ 10–30 corresponds to L ≈ 1000–9000 Gpc, i.e. 37× to
+  330× the floor. **Since η = n × transmission, the target scales inversely with n:** at the floor
+  the same η demands 𝒯 ≈ 1.2×10⁻¹⁰ to 1.1×10⁻⁹ rather than 2–6×10⁻¹¹, a factor 6.1–18.2. The
+  factor-122 gap against the naive ratio is therefore quoted at the *most favourable* end of an
+  unpinned range; at the floor it widens by the same 6–18×, putting it well past the 10²
+  acceptance boundary rather than at it. Pinning L, or restating n as the bound it is, is docket
+  **#180** — and it is a prerequisite for reading this row's verdict, not a footnote to it.
 - **The one residual, and it is a single object.** The **rectification** — the AD-direct
  domain-sign mechanism — now carries four consumers at once: η's magnitude at that boundary,
  η's sign, the θ_B↔helicity lock, and T14's link 5. It is the sharpest unclaimed computation in

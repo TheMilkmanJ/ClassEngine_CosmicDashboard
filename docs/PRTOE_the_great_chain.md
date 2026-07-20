@@ -120,6 +120,16 @@ wears a DEBT tag. No prose without physics behind it. Updated continuously.*
 | 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q_EM < 10⁻³⁸–10⁻⁴⁷ (photon-mass limits) | birefringence ≡ 0, proven; light untouchable | L1a |
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
 
+> **The consequence, now traced.** n is consumed downstream, so the freedom propagates. Baryogenesis
+> uses η = n × transmission, which makes the transmission target scale *inversely* with n: the booked
+> 𝒯 = 2–6×10⁻¹¹ holds at n ~ 10–30, but at the floor's n ≈ 1.65 the same η demands 1.2×10⁻¹⁰ to
+> 1.1×10⁻⁹, a factor 6.1–18.2. The row's "factor 122, AT the pre-committed 10² acceptance boundary"
+> is therefore quoted at the most favourable end of an unpinned range; at the floor it widens by the
+> same factor and lands well past that boundary. The comb's location ℓ₁ ≈ 3.1n moves with n too — at
+> the floor the feature sits near ℓ ≈ 5 rather than ℓ ≈ 31–93, which is a different observable, not a
+> shifted one. **Pinning L is therefore not bookkeeping: it is a prerequisite for reading the
+> baryogenesis verdict and for knowing which multipole the comb claim is even about.**
+>
 > **Link 1's input is not booked, and that is the whole story of the winding integer.** `L_gen`
 > appears in this corpus exactly three times, and all three are inside the formula string itself —
 > it is never assigned a value. The nearest recorded quantity is the torus scale **L ≥ 27.6 Gpc**,
