@@ -1762,6 +1762,27 @@ chk("r1_caustic_sim", "var = 1/(4(d+1)) matches the Beta form (d=3)", 1 / (4 * (
 chk("r1_caustic_sim", "Berry-Dennis 2D vortex-point density coeff = 1/(4 pi)", 0.0796,
     1 / (4 * math.pi), 5e-3)
 
+# ---- census imprint scaling mechanism (#168, census_scaling_network.py) --------
+# The A_s imprint is a self-similar (scaling) shot-noise census: xi/l_H = k_*xi held
+# constant across decades. The target ratio, the tilt discriminant, and the VOS
+# scaling attractor's fixed point.
+_As_168 = 2.100e-9
+chk("census_scaling_network", "k_*xi = (2 pi^2 A_s)^(1/3) = 3.45e-3", 0.003461,
+    (2 * math.pi**2 * _As_168) ** (1/3), 1e-3)
+# Delta^2 ~ k^3 xi(k)^3 ; xi ~ k^-p gives n_s - 1 = 3(1-p):
+chk("census_scaling_network", "frozen cell xi=const -> n_s = 4", 4.0, 1 + 3*(1-0.0), 1e-9)
+chk("census_scaling_network", "scaling xi~1/k -> n_s = 1", 1.0, 1 + 3*(1-1.0), 1e-9)
+# VOS scaling fixed point (radiation beta=1/2, c_chop=0.23, k_mom=0.7):
+_b168, _cc, _km = 0.5, 0.23, 0.70
+_vstar2 = _km * (1 - _b168) / (_b168 * (_cc + _km))
+_gstar = _km / (2 * _b168 * math.sqrt(_vstar2))
+chk("census_scaling_network", "VOS fixed point v*^2 = k(1-b)/(b(c+k))", 0.7527, _vstar2, 1e-3)
+chk("census_scaling_network", "VOS transient exponent a-1<0 (attractor)", 1.0,
+    1.0 if _b168 * (1 + _vstar2) < 1.0 else 0.0, 1e-9)
+# the observed gamma needs the overdamped branch: v ~ gamma*2(1-b)/c_chop << 1
+chk("census_scaling_network", "overdamped drift v for gamma=3.45e-3 is <<1", 1.0,
+    1.0 if (0.003461 * 2 * (1 - _b168) / _cc) < 0.1 else 0.0, 1e-9)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

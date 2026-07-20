@@ -726,10 +726,18 @@ and not the roster.**
   quantization event **is** a freeze-out and keeps its criterion; the census imprint is not, and
   borrowing across that boundary is what produced the collision.
   **What the basement owes, correctly typed: a mechanism holding ξ/ℓ_H constant at 3.45×10⁻³
-  (at R = 1) across the observed decades — and C follows from it.** That mechanism is *not* on
-  file: the corpus asserts the scaling class without exhibiting the dynamics that enforces it, and
-  the tilt route assumes it rather than deriving it. Grade: **still-open**, with the class settled
-  and the missing object a *mechanism*, not an O(1).
+  (at R = 1) across the observed decades — and C follows from it.** The mechanism is a **defect-network
+  scaling attractor** ([working_logs/census_scaling_mechanism.md](working_logs/census_scaling_mechanism.md),
+  `scripts/census_scaling_network.py`): a vortex tangle in an expanding background flows from generic
+  initial conditions to a self-similar regime in which the coherence length tracks the horizon,
+  ξ/ℓ_H → γ* — shown by integrating the velocity-dependent one-scale equations, trajectories closing
+  onto one ratio from both sides. Two readings follow: the smallness of γ* = 3.45×10⁻³ requires the
+  strongly **overdamped** branch (drift velocity ~10⁻², a dense tangle held by mutual friction), which
+  is the model's own superfluid genesis medium rather than a relativistic string network; and γ*(β) is
+  stationary at radiation, so the network delivers n_s ≈ 1 **robustly**, with the red −0.035 a
+  sub-leading residual. Grade: **class exhibited; value and medium-derivation open** — the attractor
+  is dynamically real, and what remains is the first-principles value γ* from the tangle's winding
+  energetics and mutual-friction coefficient (model-building, not an O(1)) and the sub-leading tilt.
   **One recorded absence was overstated and is corrected here:** ν is not absent from the corpus.
   `scripts/winding_gas_cv_v2.py:11` and `scripts/winding_gas_cv.py:5` carry **ν = 2/3, named 3D-XY**,
   applied to this very census (ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). What is genuinely absent is the

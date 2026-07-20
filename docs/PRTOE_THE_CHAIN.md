@@ -79,8 +79,11 @@ the Planck-anchored count). **This link is a process, not an instant**, and that
 mode carries the count at *its own* imprint time, and only a ξ tracking each scale — ξ/ℓ_H held at
 3.45×10⁻³ (at R = 1) across every decade the CMB resolves — reproduces both the amplitude and a
 tilt near 1. Holding one comoving cell size instead reproduces A_s at the pivot by construction
-and returns n_s = 4. **The mechanism that holds that ratio is the link's open debt**
-([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) §5,
+and returns n_s = 4. **The mechanism that holds that ratio is a defect-network scaling attractor** — the genesis vortex
+tangle's self-similar regime, exhibited in
+[working_logs/census_scaling_mechanism.md](working_logs/census_scaling_mechanism.md); its value
+γ* = 3.45×10⁻³ selects the overdamped/superfluid branch and is the medium-derivation the link still
+owes ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) §5,
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §7). The μ-era referee (entry
 46): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
