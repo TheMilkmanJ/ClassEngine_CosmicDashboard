@@ -2375,3 +2375,26 @@ of a few. #142 stays open on that.
 Λ_shell = M_red·e^(−3/2−ln2), so the shell cutoff the gap equation wants differs from the
 equipartition constant route 6 derives by exactly **ln 2** — and ln 2 is not a free number here,
 since τ = ½ln2 sits at the Koide kernel. Coincidence or seam, undecided; flagged rather than claimed.
+
+### 2026-07-19 — #142 closed as analysis: not double-counting, a missing scale statement
+
+**The double-counting worry is dismissed on physics.** Vacuum polarisation (virtual pairs, present
+at zero density) and Thomas–Fermi screening (real carriers, ∝ e²N₀) are distinct and additive in the
+polarisation, Π = Π_vac + Π_matter. The correct prescription is α at the momentum scale with TF on
+top; nothing is counted twice.
+
+**What is wrong is the scale, and the corpus's own structure shows where.** α_c is pinned by
+ε = c·f̄·α_c = 1.2543%, the electron-mass shift at recombination — atomic-scale — and P-2026-040's
+referee is a cosmological chain. Both infrared. The hierarchy then spends that same number at the
+Planck floor. One number, two regimes eighteen orders apart, with nothing connecting them.
+
+**The Goldstone defence has a matching problem.** If light is the medium's Goldstone then α *is* the
+electromagnetic coupling, which runs; a medium coupling that is electromagnetic cannot be
+scale-independent. The escape requires α_c (condensate) and α (Goldstone) to be genuinely different
+objects tied by d = 3 — and a relation between couplings holds at a scale, which is the unstated one.
+
+**So #142 closes as analysis with the residual reduced to one sentence: at what scale does
+α_c = 3α hold?** If the infrared, the anchor must run α_c up and lands orders higher. If the
+basement, the amplitude's infrared use of it becomes the loose end and ε inherits the question. The
+corpus uses the infrared value in both places, and that cannot be right in both. Successor docketed
+as #144.
