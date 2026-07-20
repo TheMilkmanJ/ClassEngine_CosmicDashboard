@@ -3227,6 +3227,48 @@ bookkeeping, and retraction propagation. Those two are worth building machinery 
 documentation discipline in general is not the problem, and an audit that reported only its hits
 would misrepresent the corpus it audited.
 
+### 2026-07-20 — #146 scoped: the gap shrinks by one condition and hardens on another
+
+Worked #146 as scoping rather than as a solve. Four results, and the shape of the gap changed.
+
+**One condition was never written down, and the basement supplies it.** Keeping the band velocity
+explicit through the screening constant gives m_D² = e²(2N₀) = 8α_c k_F²/πv, hence
+**b = 2α_c/(πv)** — so the booked b = 2α_c/π is that expression *at v = 1*, the fermion velocity
+equal to the medium's gauge-field speed. It is percent-level (v = 0.9 → k = 1.3316, and at
+∂lnM/∂lnk = 33.5 that is a factor two on the anchor), and it is the same physics as r = v_e/v_h = 1
+seen from the other side: matching asks the bands to share a velocity, this asks the shared value to
+be the cone's slope. **A linear node is a cone whose slope defines the emergent light speed, so the
+recorded Fermi point supplies it free.** Worth naming because it is the first thing a condensed-matter
+reader attacks — graphene's analogue is c/300, which is exactly why its effective coupling is O(1).
+
+**One condition got much harder, via a kill that failed.** §6 names the bath as the SM's 48 Weyl
+fermions plus three right-handed neutrinos; §6c screens with N_screen = 2N₀. Generalising to N·N₀
+gives k = 1.024 at N = 6 and k = 0.602 at N = 25.5, moving the anchor by 10⁻⁵ and 10⁻¹². That looks
+fatal and is not: **§6h already resolves it** — vacuum polarisation exists at zero density and lives
+inside α_c, Thomas–Fermi needs real carriers and scales as e²N₀, so N_screen counts species carrying
+finite *density*. The forty-nine at μ = 0 contribute nothing. **What survives the failed kill is the
+sharpening: the factor 2 asserts exactly two of fifty-one species are doped off the node**, which
+makes condition (i) a *species-selective* chemical potential rather than merely a nonzero one, and
+nothing recorded selects the pair.
+
+**Three routes to that μ are now closed, listed in §6c so they are not re-walked.** The corpus's own
+finite-μ language is the dark condensate at basin entry, sixty orders below. The model's own matter
+asymmetry — the natural candidate, since baryogenesis genuinely does put μ = ℏθ̇ on the census
+states — fails on magnitude: η = 6.14×10⁻¹⁰ gives k_F/T ~ 10⁻¹⁰ against a shell needing O(1), short
+by ten orders, and the shortfall *is* the asymmetry's smallness so no re-pricing closes it. The hot
+reading needs no μ but misses the screening constant by 1.64×/0.82×.
+
+**And a check-2 catch on the way through.** §6a wrote the shell density of states as
+ρ(E_F) = k_F²/2π²v³, pairing k_F² with v³. For E = vk the object is k_F²/2π²v = E_F²/2π²v³ — both
+right in their own variable, neither right mixed. **At v = 1 the two agree numerically**, so the
+silent assumption was hiding its own typo. Both now written with the identity stated.
+
+**The methodological note worth keeping.** Two of these four came from attacking the model's own
+result rather than defending it, and one of those attacks failed — which is the useful kind. A kill
+that dies against a section three pages away leaves the claim stronger *and* better documented than
+one that was never attempted, provided the attempt gets recorded. It is recorded in §6c with the
+numbers, so the next reader does not have to re-derive the kill to find out it does not land.
+
 ### 2026-07-20 — #153 first pass: the files carry the retirements; the board is the weak link
 
 Worked the retirement cluster (failures ledger rows 58–64) to see whether #59's shape recurs. It
