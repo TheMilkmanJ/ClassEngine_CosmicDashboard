@@ -1825,3 +1825,15 @@ The adjudication of the eight purged referents:
 "(docketed)" refuses to commit (the two ledgers and ForJustin/08 exempt; recording the purge
 is their job). MATH_SPINE's own adjudication note reworded to quote the dead word without
 the husk pattern. ForJustin/08 itself was NOT touched — the owner's editor holds it.
+
+## Thermal_Half_Discussions.md — deep audit 2026-07-19 (transcripts tier, 1 of 5)
+
+Read whole under the leak standard. The transcript itself is exemplary — the Defender's
+concessions independently recomputed before being granted, the referee certifying all seven
+load-bearing numbers, the kill (f = ½ = E_b re-packaged + an invalid w = 0→−1 assignment)
+earned rather than asserted. Its verdict is faithfully carried by the cosmological-constant
+file's audited §§ (the 0.5115 near-coincidence, the failed independence). One leak sealed:
+the closing "gap remains OPEN" was true when filed but the census later DISSOLVED the O(1)
+question by the two-door route — a dated header now states the era (E_b = 2.284/179-keyed),
+points at the dissolution and the standing chain (τ = ½ln2 → 2.2599, +0.44%), and fences the
+dead f = ½ from the living τ = ½ln2 (different objects). The kill stands as certified.

@@ -1,5 +1,14 @@
 # Thermal ½ — Defender vs Challenger debate: is the DE O(1) coefficient ½ derived, or E_b re-packaged?
 
+> **DATED RECORD — the ½-claim's death, complete as debated.** Numbers herein are the
+> E_b = 2.284 / 179-keyed era's. The "gap remains OPEN" verdict below was true when filed;
+> the O(1) question was later DISSOLVED by a different route (the two doors stand in the
+> derived phase-space ratio — the residual-debt census, 2026-07-18), and the standing chain
+> now runs τ = ½ln2 → T_c = 177.10 keV → ρ_Λ¼ = 2.2599 meV (+0.44%). The ½ that dies in
+> this file (a DE coefficient) is a different object from the later τ = ½ln2 (a kernel
+> modulus) — do not conflate them. The kill itself stands: f = ½ has no seat, exactly as
+> the referee certified.
+
 **The claim under test:** PRTOE's dark-energy O(1) coefficient is f = ½, so ρ_Λ¼ = (½)¼ × 2.70 = 2.27 meV (+0.9% vs observed 2.25). The ½ is asserted to come from the quantum virial theorem splitting the condensate zero-point sum Σ½ħω into ¼ħω kinetic (w = +1, stiff, dilutes a⁻⁶) + ¼ħω potential (w = −1, the DE floor), so only half survives → Λ = ½ ρ_ZP.
 
 ---
