@@ -3159,3 +3159,30 @@ recorded correctly in the failures ledger never reaches the board that claimed t
 is a missing link between two systems each working correctly alone. **Three** — my own retractions
 left live contradictions in forward-facing files every single time, including in the pass named for
 propagating them, and I would have said otherwise before the check.
+
+### 2026-07-20 — #153 first pass: the files carry the retirements; the board is the weak link
+
+Worked the retirement cluster (failures ledger rows 58–64) to see whether #59's shape recurs. It
+does not, and the reason matters.
+
+**Rows 60–64 are five separate dead routes to one object — Koide's A = √2**: the Z4-torus floor
+(retired 07-14, family space is Z₃), the wide-seam / 2D-Potts mechanism (retired by the measured Q
+within hours of being proposed), the SOC-attractor hinge (premise false), medium-w inheritance
+(category error — #59's content), and the single-potential/statistical family as a class (quartic
+virial, harmonic equipartition, CS midpoint, GBM, 1D log gas, hand-built (R²−2M²)²). Five mechanisms,
+all dead, one object.
+
+**And the corpus records that correctly.** `T6_koide_owed.md:13` states plainly "The mechanism
+forcing A = √2 is **still owed**", and carries the retirement as its own item 2 — "The freeze-out
+reading — **RETIRED** (2026-07-17) … a category error — medium w and field w are different objects" —
+directly beneath the conditional algebra it qualifies. `koide_relation.md:42` heads the same section
+"The linkage (**and the inheritance claim that does not hold**)". Checked specifically because T6:19
+reads "the derived pre-basin w = 1/3 gives the relativistic virial K = 2V ⟹ A = √2", which scans as
+the retired claim asserted live; in context it is the conditional chain, with the retirement of its
+*justification* stated immediately after. Loose phrasing, not a defect.
+
+**So the finding is narrower and cleaner than expected: the retirements propagated into the files
+and did not propagate to the board.** #59 sat closed because nothing carries a kill back to the task
+that claimed it — not because the documentation failed. That isolates the fix to one join, and it is
+the join #153 names: a retirement entry could carry the task number whose content it kills, exactly
+as commits already carry task numbers. Nothing else in this cluster needs reopening.
