@@ -42,9 +42,11 @@ here so the count is the corpus's, not just the threads'.*
 Three files are now **fully discharged of real computation** — T3, T15, T16 hold only
 machine-gated items, watches, and paid rows. Two more (T13, T11) are down to a single open
 item each. The genuinely open computations across all sixteen threads number **eleven**, and
-they cluster: three are amplitude computations nobody has run (the chiral-GW number, the
-cavity spectrum, the soliton's dynamical pricing), two are data-confrontation fits (matched
-lensing, spin-mass), and the rest are bench-design or convention work.
+they cluster: two are data-confrontation fits (matched lensing, spin-mass), and the rest are
+bench-design or convention work. *(The three amplitude computations this sentence once listed as
+unrun — the chiral-GW number, the cavity spectrum, the soliton's dynamical pricing — have all since
+been run, and this file's own table records each: T10 COMPUTED 2026-07-18, T5 RUN 2026-07-18, and
+T1 priced by the galactic-centre budget test. The count above predates them.)*
 
 **The two that carry the most weight:** the cavity C_ℓ computation (T5 — without it "the model
 predicts the low-ℓ anomalies" stays a claim rather than a result) and the rectification link

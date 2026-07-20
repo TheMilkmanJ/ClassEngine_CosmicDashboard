@@ -5,9 +5,11 @@
 
 *Short companion to PRTOE_blackholes_no_singularity.md. The paradox dissolves at the structural
 level in this model, and the quantitative capstone — the Page curve, which was blocked on the area
-law's coefficient — **is no longer owed**: that coefficient is the ratio of the two heat-kernel
+law's coefficient — **has that block removed**: the coefficient is the ratio of the two heat-kernel
 coefficients the same cutoff supplies, 12π/48π = 1/4 exactly, giving S = A/4G
-([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). **Status: structural dissolution plus a
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). *The curve itself is not thereby
+delivered* — the table below grades it "derived-conditional at the coefficient, owed at the curve",
+and the regulator's entanglement-side O(1) check gates it. **Status: structural dissolution plus a
 derived-conditional capstone** — conditional on the medium's Bogoliubov regulator returning
 O(1) = 1.0000 on the entanglement side as it already does on the induced-G side, which is one half
 of one computation and the sector's only remaining residue.*
