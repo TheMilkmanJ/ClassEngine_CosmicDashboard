@@ -91,7 +91,27 @@ useful part.**
 
 ## What happened
 
-**One error reached you before it was caught, and it is the one to weigh.** I reported the PolyChord
+**Two errors reached you, and the second one reached the files.** Take the second first, because it
+is the worse of the two and it arrived after I had already written most of this page.
+
+**I told you the model's Σm_ν prediction did not reproduce and that its kill margin was half what the
+corpus claimed.** Both false. I recomputed the neutrino sum with splittings I labelled "PDG-central
+normal ordering" — 7.53×10⁻⁵ and 2.453×10⁻³ — and the second is not the right Δm²₃₁ for normal
+ordering at all. The corpus uses 7.42×10⁻⁵ and 2.515×10⁻³, current NuFIT, and its booked 61.4 meV is
+correct. **And the harness had already checked it**: the sum sits at line 114 of
+`audit_math_pass.py`, with anchor-variation rows at 246 and 252 and the normal-ordering minimum at
+289. I added four "new" checks without reading the 328 that were there, and **all four passed —
+because they tested my arithmetic rather than the corpus's claim.**
+
+It reached four files before I caught it, including the referee calendar's kill rule and an
+audience-facing draft. All reverted; the surviving finding is a 0.15 meV documentation gap in one
+parenthetical.
+
+**The rule that would have stopped it, and it is mechanical: before claiming a corpus number does
+not reproduce, grep the harness for it.** Three hundred and twenty-eight closed forms are already
+guarded. I did not look, on a number that was guarded three ways.
+
+**The first error was smaller and never reached the files.** I reported the PolyChord
 evidence run as *"a decision, not a watch"* — thirty-two hours of zero output, four ranks burning
 CPU, escalated to you as possible failure. Then I read the sampler's configuration, which I had not
 done before escalating. PolyChord checkpoints every `update_files` = nlive = 400 iterations, and
@@ -127,7 +147,11 @@ a wrong "this does not exist" simply sits there looking like diligence. Both ins
 ## What to point an audit at now
 
 1. **Anything I reported as missing, absent, stuck, or unsupplied.** This is the new one, and it is
-   the mirror of the first sample's advice. Check the scope of whatever search produced the absence.
+   the mirror of the first sample's advice. Check the scope of whatever search produced the absence —
+   and if the claim is that a *number* fails to reproduce, check the harness before anything else.
+   The Σm_ν error and the "no perturbation sector" memory are the same failure at different scales:
+   both asserted an absence that the corpus had already filled, and neither survived thirty seconds
+   of looking.
 2. **Anything I escalated urgently.** The one error that reached you was an urgent escalation, and
    urgency is exactly when the check gets skipped.
 3. **Still not the arithmetic.** 327 harness checks pass; every numeric slip in two days was caught

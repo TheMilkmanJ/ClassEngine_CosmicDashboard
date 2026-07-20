@@ -27,6 +27,19 @@ Run all thirteen. Record what was found, even when nothing was.
 **2. Recompute every number** from its own inputs. Where a closed form exists, add it to
 `scripts/audit_math_pass.py` so it can never silently rot.
 
+> **2a. Before reporting that a number fails to reproduce, grep the harness for it.** On 2026-07-20 a
+> pass "found" that the corpus's Σm_ν = 61.4 meV did not follow from its splittings and that the kill
+> margin was half what was claimed. It was the auditor's splittings that were wrong, and the harness
+> had the sum guarded three ways — the value, two anchor variations, and the normal-ordering minimum.
+> Four replacement checks were then written *on top of* the existing ones and all four passed,
+> because they tested the auditor's arithmetic rather than the corpus's claim. **A check that books
+> the auditor's own value is worse than no check**: it converts an error into a guard that will
+> defend it. The wrong claim reached four files, including a referee decision rule.
+>
+> Two rules follow. Grep first — the harness is 328 closed forms and costs one command. And when
+> adding a check, **read the neighbouring checks for the same quantity before writing a new one**;
+> if the quantity is already guarded, the job is to reconcile with it, not to add a second opinion.
+
 **3. Grade every claim's status.** Derived, assumed, data-selected, or fitted — and does the file
 say which? "Derived" covering an assumed input is the most common defect in this corpus.
 
