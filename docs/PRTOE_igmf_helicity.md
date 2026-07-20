@@ -195,3 +195,45 @@ the rectification alone would not make the Tashiro–Vachaspati hint readable, a
 scoping together: #154's joint genesis draw is the only build that would evolve a genesis trajectory
 with spatial structure, but as scoped it reads two integers off that trajectory rather than the
 three-dimensional flow the seeding sign needs.
+
+### The recorded genesis cannot supply it, and the reason is structural (2026-07-20, #158)
+
+**Asked directly of the record: no.** Three findings, and the first is dispositive.
+
+1. **The genesis account is story-grade by its own banner** —
+   [PRTOE_cyclic_torus_genesis.md](PRTOE_cyclic_torus_genesis.md):3-9 heads itself *"a coherent
+   narrative assembled from real mechanisms, not a derivation."* Nothing read off it can carry a
+   grade above that, so it cannot pay a sign that a registered prediction leans on.
+2. **It states no rotation sense anywhere.** The file's helicity content is §7's magnitude
+   (*"Torus-supported Beltrami flow → H/E = +1"*, :62-63) and §9's *"background swirl makes it
+   helical"* (:72). The **+1 is the λ > 0 branch by construction** — the mirror flow is equally
+   torus-supported and returns −0.998 — and the winding number n does not appear in the file at
+   all. There is no sense, no handedness, no chirality of the roll-up on the record to read.
+3. **The instrument that produced even the magnitude is gone.** `c1_locus_twist.py`, cited as the
+   source of the H/E computation, is scratch-era and not retained; no script, notebook or C source
+   in the corpus holds a three-dimensional genesis flow field.
+
+**The missing object, stated so it cannot be mistaken for a number.** Helicity is **bilinear** —
+H = 2·Lk·Φ_tor·Φ_pol — so sign(H_kin) = sign(Φ_pol)·sign(Φ_tor). The genome already supplies one
+factor: the toroidal circulation is Γ_ring, which links 1–2 carry into sign(n). **The corpus has no
+source for the other.** What is owed is therefore not a sign but **one bit** — *whether the
+roll-up's poloidal sense is fixed by the plume's own geometry or drawn with the same coin that sets
+n* — and that bit is a property of the flow, not of any recorded integer. This is why sign(n) does
+not reach it and why no re-reading of the genome will: **the two branches above differ in what the
+flow does, not in what the genome says.**
+
+**A correction to the build order.** This section's own note has #154 as the nearest relevant build.
+It is not the instrument: #154 reads two integers off a trajectory, and no scoping of it produces a
+velocity field. The build that would is **#150 / B1, the genesis solver** — the only entry in
+[PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md):74 whose deliverables include a *velocity field*.
+**So the dependency runs #158 → #150, not #158 → #154**, and #154 need not wait on this.
+
+**A downstream registration this leaves overstated.** P-2026-057's link table
+([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md):3092) carries link E —
+*"sign(helicity_B) = sign(n)"* — as **recorded (P-2026-028)**, and composes it with link D to reach
+*"every sign question in both sectors funnels through sign(μ·n)."* That composition inherits the
+unpaid condition above without carrying it: on the locked-circulation branch the sky's handedness is
+**universal** and does not track sign(n) at all, which breaks the funnel rather than narrowing it.
+**P-2026-057 is conditional on one more link than it declares** — its antecedent should read
+*sign(μ·n) **and** the poloidal sense being genesis-fixed*. The consequent and the arithmetic are
+untouched; only the gate is wider than written.

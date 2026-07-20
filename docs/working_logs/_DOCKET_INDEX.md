@@ -182,8 +182,8 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 154 | THE JOINT GENESIS DRAW — winding and rotation on one trajectory | open |
 | 155 | THE SAMPLER'S PROPOSAL — why chains accept 97% and never move | open — routeD/conv_desi relaunched on a seeded covariance; acceptance fixed (0.99 → 0.25–0.31), convergence unproven; dyad_mnu's ±1.00 degeneracy is the live hypothesis |
 | 156 | THE λ-QUENCH RE-DERIVATION — the superradiance shield | closed — **adverse**: computed at the recorded λ and m, the margin is −85 decades; there is no shield and the model meets P-034 as a free scalar |
-| 157 | The D/H error budget — one ruling, four homes | GATED to the owner — the 3-term width may double-count d(p,γ)³He post-LUNA; two-term moves the row −2.49σ → −2.94σ |
-| 158 | Link 4's sign convention | reduced — H_B = k²H_kin, coefficient squared, so no convention survives; what is owed is sign(H_kin), and #154 does not reach it |
+| 157 | The D/H error budget — one ruling, four homes | GATED to the owner — the 3-term width may double-count d(p,γ)³He post-LUNA; two-term moves the row −2.49σ → −2.94σ. **Decision note written** (`ForJustin/10_the_two_full_budgets.md`); the gate is one literature check on arXiv:2011.11320 |
+| 158 | Link 4's sign convention | reduced — H_B = k²H_kin, coefficient squared, so no convention survives; what is owed is sign(H_kin). **Determined 2026-07-20: the recorded genesis cannot supply it** (story-grade banner, no rotation sense on record, the computing script not retained). Helicity is bilinear, so what is owed is one bit — whether the roll-up's poloidal sense is genesis-fixed or drawn — and the instrument is **#150 (B1, the only build with a velocity field), not #154**. Exposed: P-2026-057 declares one link fewer than it uses |
 | 159 | The cross-sector sign lock | closed — registered P-2026-057 |
 | 160 | Regenerate the low-ℓ pattern on a retained script | open — gates #151 |
 | 161 | The matched lensing-likelihood fit | open |
@@ -206,6 +206,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 178 | The weak sector's substrate coupling | closed — structurally void, with its falsifier recorded |
 | 179 | Recover the content 0315894d dropped | closed — five live objects rehomed; caught a frozen mislabel (a₀ at 140 kpc not 83; gas-vs-stars ≈3% not ×1.98) |
 | 180 | The winding integer n_rms | open — L_gen is never assigned a value; n ≳ 1.65 is a bound, and n ~ 10–30 is a torus choice |
+| 182 | The BBN ramp keys on the other sector's scale | **determined — two objects, and the numerical safety claim fails too.** ε is the dyad's order parameter but the ramp keys on 177.10 keV, which DERIVATION_HUNT §6 assigns to the confining sector. The dyad's own exact-kernel band is **307–714 keV** (the recorded 250–530 keV does not follow from L−1 ∈ [1, 10]), which **excludes** the keying value by 1.73× at its bottom — so they are not one object. And 53% of that band lies above the BBN fence's 500 keV, where the ≤ 0.32σ whole-fence bound does not apply. **Open:** re-key the ramp onto the dyad's band and re-price BBN above 500 keV |
 
 ## Why this file is thin on purpose
 
