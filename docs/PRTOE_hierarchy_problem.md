@@ -562,3 +562,36 @@ contribution is mass-independent. Against |S| ≲ 0.14:
 about where the anchor sits. That is a real constraint on the census's portal content and a
 falsifiable one — but it is a roster bound, not a scale bound, and it leaves §6d's band and the
 4πm_H identification untouched.
+
+
+### 6m. Cold or hot? The screening constant discriminates, and not in §6c's favour
+
+§6c's three conditions (finite chemical potential, Thomas–Fermi screening, two compensated bands)
+would all dissolve if the basement were read as **hot** rather than cold: at the Planck floor the
+roster sits in a thermal bath, and a relativistic plasma at μ = 0 screens by the **Debye** mass
+without needing any chemical potential, while particles and antiparticles are present in exactly
+equal numbers by CPT — giving r = 1 with no semimetal band structure required. That reading is also
+closer to this corpus's own cosmology, where the Planck era is hot.
+
+**It does not reproduce the constant.** The booked b = 2α_c/π = 0.013937 corresponds to
+m_D²/T² = 2e²/π² = e²/4.94. The standard thermal Debye mass is e²T²/3 (or e²T²/6 per Weyl), giving
+b = e²/12 = 0.022925 or e²/24 = 0.011463 — **off by 1.64× and 0.82× respectively**, at every
+standard normalisation.
+
+The cold degenerate reading, by contrast, reproduces it exactly from standard pieces and no chosen
+ones: e² = 4πα_c, N₀ = k_F²/π²v for one band with both spins, the factor 2 for the second band, and
+b = m_D²/4k_F² in the natural transfer variable.
+
+**So the screening constant is itself a discriminator, and it points the wrong way.** If k's
+screened-exchange reading is physics rather than coincidence, the host is **cold and degenerate** —
+which the basement, as a hot Planck-era Fermi-point vacuum, is not. Three readings remain and they
+should be held apart:
+
+| reading | status |
+|---|---|
+| the host is cold and degenerate | reproduces k exactly; contradicts the recorded basement |
+| the host is the hot Planck-era bath | matches the recorded basement; misses k by 1.6–2× |
+| k's screened-exchange form is a coincidence | leaves k as the recognised closed form it was before today, with §6a's no-pairing-at-a-node result standing against the pairing reading generally |
+
+Nothing here selects among them, and the third is not the least likely. What today's work established
+is that the choice is now sharp and numerical rather than interpretive.
