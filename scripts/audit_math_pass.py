@@ -750,6 +750,12 @@ chk("hierarchy 6j", "S at the booked anchor 1576 GeV", 0.307, 4*math.pi*_v_ew**2
 chk("hierarchy 6j", "S at the exact-solution 3152 GeV", 0.0768, 4*math.pi*_v_ew**2/3152.0**2, 5e-3)
 chk("hierarchy 6j", "M_rho floor from |S| < 0.14 (GeV)", 2333.0, _v_ew*math.sqrt(4*math.pi/0.14), 5e-3)
 
+# ---- hierarchy 6k: the flavour scales ----
+_Lam_c = 3152.0
+chk("hierarchy 6k", "M_F for the top (TeV)", 13.5, math.sqrt(_Lam_c**3/172.57)/1000, 1e-2)
+chk("hierarchy 6k", "M_F for the electron (TeV)", 7828.0, math.sqrt(_Lam_c**3/0.000511)/1000, 1e-2)
+chk("hierarchy 6k", "top-vs-K gap factor", 74.0, 1000.0/(math.sqrt(_Lam_c**3/172.57)/1000), 2e-2)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

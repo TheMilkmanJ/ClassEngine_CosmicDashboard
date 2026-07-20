@@ -2527,3 +2527,26 @@ needs the crossed diagram evaluated. Recording the attempted rescue because its 
 session's recurring failure — a plausible argument, in the direction I wanted, this time reaching
 the tabulation stage before the double-count surfaced. Three instances today: Migdal suppression
 (#141), the "one cone protects r = 1" reading (#140), and this. All favourable, all wrong.
+
+### 2026-07-19 — #136b: the flavour exposure priced, and the two exposures are found to oppose
+
+The channel result's second inherited cost. Light fermion masses cannot come from a TeV condensate
+directly, so they need operators m_f ~ Λ³/M_F², and the same operators with flavour indices hit
+K⁰–K̄⁰ mixing. **The top requires M_F ≈ 13.5 TeV against a K-mixing floor of ~1000 TeV for generic
+flavour structure — a factor 74.** The electron is fine (it wants 7828 TeV, above the floor); the
+heavy fermion is the problem, exactly as in classic extended technicolor.
+
+**The standard escape is unavailable.** Walking technicolor solves this with a large anomalous
+dimension enhancing ⟨ψ̄ψ⟩ at the operator scale, and walking requires near-conformal *strong*
+coupling. This sector runs at λ = 0.030.
+
+**The finding worth keeping is the opposition.** The weak coupling is what plausibly relieves the
+S parameter (§6j) and what denies the walking enhancement flavour needs. Strengthening the coupling
+to fix flavour worsens S; weakening it to ease S worsens flavour. The corpus occupies neither end
+comfortably and nothing currently establishes that a window between them exists. Partial
+compositeness is the modern alternative and is not excluded, but the basement would have to supply
+composite operators for each Standard Model flavour, which it does not.
+
+#136 closes as priced on both halves — S (§6j) and flavour (§6k) — with neither an exclusion nor a
+clearance, and with the opposition between them as the substantive result. Three harness checks
+added (now 331).
