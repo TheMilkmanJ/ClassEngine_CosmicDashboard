@@ -152,7 +152,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 124 | The edge-convention audit | open |
 | 125 | Why the kinetic term rather than only the Weinberg operator | open |
 | 126 | The gravity-routing step of the c-derivation | open |
-| 127 | The C²-to-threshold map | open |
+| 127 | The C²-to-threshold map | closed |
 | 128 | The BBN-stability fence, re-stated below its own anchor | closed — fence is [70, 500] keV structural; whole-range swing ≤ 0.32σ on D/H |
 | 129 | The matched-junction interface — the velocity ladder's first payable step | open |
 | 130 | The base α's two owed pieces | open |
@@ -160,7 +160,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 132 | Rebuild the docket index | closed — **this file**; see the note below |
 | 133 | Which rung condensation picks | open |
 | 134 | The dark vortex-pair computation — F_dark/√σ's normalization band | open |
-| 135 | The staged candidate tests — flesh out or retire | open |
+| 135 | The staged candidate tests — flesh out or retire | closed |
 | 136 | The composite-Higgs exposure | closed — **withdrawn**; the Higgs here is elementary (hierarchy §2(c)) |
 | 137 | The bend-over density of states — what N₀ is at the pairing shell | closed |
 | 138 | What fixes k_F | closed |
@@ -180,6 +180,32 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 152 | THE GRADE CONCORDANCE | closed |
 | 153 | THE RETIREMENT CROSS-CHECK | closed |
 | 154 | THE JOINT GENESIS DRAW — winding and rotation on one trajectory | open |
+| 155 | THE SAMPLER'S PROPOSAL — why chains accept 97% and never move | open — routeD/conv_desi relaunched on a seeded covariance; acceptance fixed (0.99 → 0.25–0.31), convergence unproven; dyad_mnu's ±1.00 degeneracy is the live hypothesis |
+| 156 | THE λ-QUENCH RE-DERIVATION — the superradiance shield | open — live exposure: P-034's band carries high measured spins and the shield is un-quotable |
+| 157 | The D/H error budget — one ruling, four homes | GATED to the owner — the 3-term width may double-count d(p,γ)³He post-LUNA; two-term moves the row −2.49σ → −2.94σ |
+| 158 | Link 4's sign convention | reduced — H_B = k²H_kin, coefficient squared, so no convention survives; what is owed is sign(H_kin), and #154 does not reach it |
+| 159 | The cross-sector sign lock | closed — registered P-2026-057 |
+| 160 | Regenerate the low-ℓ pattern on a retained script | open — gates #151 |
+| 161 | The matched lensing-likelihood fit | open |
+| 162 | The web-dissipation ramp — the f_arr razor | closed — dead stub; the razor was dissolved two minutes after it was raised |
+| 163 | The ring-BEC literature search | closed — no; ⟨|cos|⟩ over a wound ring is an identity, not a measurement |
+| 164 | The haloscope null's edge cases | closed — both named corners strengthen the bound; the null is stated against the weak end |
+| 165 | The synchrotron row's weight convention | closed — number was fixed-field, label said fixed-energy |
+| 166 | The competitor comparison — steelman the H₀ market | closed — built, and caught a miscitation; EDE outscores this class on every column |
+| 167 | The timing error band | closed — and the occupancy was mixing two clocks: 1-in-37, not 1-in-29 |
+| 168 | The count C — mechanize A_s's shot-noise normalization | open — C = 1 is an identification, not a result; two O(1)s, factor-250 convention spread |
+| 169 | The g→λ map | closed — λ = 26–46, whole band above λ* = 22.41, so uncontrolled at this order |
+| 170 | M7's remaining half — f_wind | closed — 255× under the fence; the comb's detection claim dies, its location survives |
+| 171 | Resolve the four unverifiable closures | closed — three traced to one commit that deleted 8,635 lines claiming to preserve every live finding |
+| 172 | Build the retirement→task join | closed — mechanized as a commit-gate check |
+| 173 | The R1 caustic-bit two-field sims | open — sim-gated |
+| 174 | The Z₄ tilt's forced status | closed — booked as INPUT; Ψ³Ψ* is parity-EVEN, so the forcedness argument fails on its own algebra |
+| 175 | P-2026-043's RECFAST-class thermal-history run | open |
+| 176 | Pre-register the P-018 XOR Route-D branch | closed — registered P-2026-056, pre-hoc; guard 2 discharges adverse |
+| 177 | The ln 2 seam | closed — the BCS gap prefactor moved between prefactor and cutoff; not a seam |
+| 178 | The weak sector's substrate coupling | closed — structurally void, with its falsifier recorded |
+| 179 | Recover the content 0315894d dropped | closed — five live objects rehomed; caught a frozen mislabel (a₀ at 140 kpc not 83; gas-vs-stars ≈3% not ×1.98) |
+| 180 | The winding integer n_rms | open — L_gen is never assigned a value; n ≳ 1.65 is a bound, and n ~ 10–30 is a torus choice |
 
 ## Why this file is thin on purpose
 
