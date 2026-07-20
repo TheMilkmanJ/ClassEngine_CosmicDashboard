@@ -2350,3 +2350,28 @@ belongs to is exactly the question above.
 For the record, the vertex correction itself was sized as intended: relative order λ = 3.0%, a
 factor ≈ 2.7 either way (1124 to 8324 GeV). It remains real and remains #141's object; it is simply
 no longer the dominant term.
+
+### 2026-07-19 — #142 sharpened: the running direction is adverse, and the corpus's defence is principled
+
+**Credit where it is owed.** The Goldstone identification is already on the record and is horn (b)'s
+foundation: MATH_SPINE:73 "α_c = 3α = d·α — the dCDF's condensate coupling (α is its Goldstone's —
+light IS that Goldstone)", with dcdf_superfluid carrying the same. So α is the medium's coupling to
+its own massless mode, the 1/q² exchange form follows, and the kernel is not imported from
+electromagnetism — it *is* electromagnetism, because electromagnetism is the medium. I presented the
+tension as unnoticed; the stance was there.
+
+**The running direction is adverse — a genuine constraint, not a preference.** The coupling that
+lands the anchor exactly on 4πm_H is α_c = 0.021316, i.e. **1/α = 140.7 at the pairing scale, weaker
+than the infrared 137.04**. Running takes α the other way — stronger in the UV. So no amount of
+running rescues the anchor's value; it can only move it further. Horn (a) is disfavoured by *sign*.
+
+**Horn (b)'s remaining cost is a double-counting hazard.** α(0) is the fully IR-screened coupling,
+after all vacuum polarisation is summed; §6c then adds Thomas–Fermi screening from the basement's
+fermions on top. Either α(0) is the bare coupling at the cutoff and the two screenings are distinct,
+or it already contains the basement's polarisation and §6c counts it twice. Undecided, worth a factor
+of a few. #142 stays open on that.
+
+**And one seam worth recording.** The exact solution Δ = 2Λe^(−1/λ) requires
+Λ_shell = M_red·e^(−3/2−ln2), so the shell cutoff the gap equation wants differs from the
+equipartition constant route 6 derives by exactly **ln 2** — and ln 2 is not a free number here,
+since τ = ½ln2 sits at the Koide kernel. Coincidence or seam, undecided; flagged rather than claimed.

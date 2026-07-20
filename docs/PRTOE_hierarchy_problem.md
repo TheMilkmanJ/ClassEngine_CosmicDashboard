@@ -404,3 +404,34 @@ Both readings cannot be held at once, and the chain currently holds both: the *k
 electromagnetic, the *coupling* is not allowed to run. Resolving that is now the single largest
 exposure in the hierarchy chain — larger than the vertex correction it was found while sizing, and
 larger than every O(1) in §6e.
+
+
+### 6g. Which α, sharpened
+
+Three things narrow §6f's fork without closing it.
+
+**The corpus's own stance is principled, and it is horn (b).** MATH_SPINE records
+"α_c = 3α = d·α — *the dCDF's* condensate coupling (α is its Goldstone's — light **is** that
+Goldstone)", and the superfluid file carries the same identification. So α is not an external gauge
+coupling imported into the medium: it is the medium's coupling to its own massless Goldstone, which
+is also why the exchange has a 1/q² form. On that reading the kernel is not borrowed from
+electromagnetism — it *is* electromagnetism, because electromagnetism is the medium.
+
+**The running direction is adverse, which is a real constraint.** Solving for the coupling that
+would land the anchor exactly on 4πm_H gives α_c = 0.021316, i.e. **1/α = 140.7 at the pairing
+scale — weaker than the infrared 137.04.** Running takes α the other way: stronger in the
+ultraviolet. So running cannot rescue the anchor's value under any amount; it can only move it
+further. Horn (a) is disfavoured by sign, not merely by magnitude.
+
+**But horn (b) carries a double-counting hazard.** α(0) is the *fully infrared-screened* coupling —
+the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening from
+the basement's own fermions on top of it. Either α(0) is the bare coupling at the basement's cutoff
+and the two screenings are distinct, or it already contains the basement's polarisation and §6c
+counts it twice. Nothing yet decides which, and the answer is worth a factor of a few.
+
+**One further consequence, recorded because it touches the exponent.** Solving exactly gives
+Δ = 2Λ·e^(−1/λ), so matching the booked form requires Λ_shell = M_red·e^(−3/2−ln2) = 0.1116 M_red
+rather than 0.2231. The shell cutoff wanted by the exact solution therefore differs from the
+equipartition constant route 6 derives by exactly **ln 2** — which is not a free number in this
+corpus, since τ = ½ln2 already sits at the Koide kernel. Whether that is a coincidence or a seam is
+not decided here.
