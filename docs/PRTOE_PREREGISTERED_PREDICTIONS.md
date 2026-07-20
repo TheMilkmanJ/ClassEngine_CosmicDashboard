@@ -647,7 +647,7 @@ math-gated.** The original note held all four un-registered until "Tier 2 gates 
 amplitude + Tier 3 sims", on the reasoning that registering before the math is finished risks
 a wrong prediction teaching nothing — one cannot distinguish wrong-idea from wrong-math. That
 reasoning stands, but the amplitude gate has closed, and it was never what these two waited
-on: the χ-lag and granule tests await the **two-fluid sims** (dockets #150 and #160)
+on: the χ-lag and granule tests await the **two-fluid sims** (dockets #150 and #181)
 specifically, and no amount of further analysis substitutes. The granule test is the nearer
 of the two — its statistical core is done and only the dynamical half is missing.
 
