@@ -96,8 +96,9 @@ winding draw. The first is small. The second is the real question.
 ## Half one, run (2026-07-20): the prior splits evenly, and a symmetry says it must
 
 **The answer is the second branch of the fork above.** Tracking sign(L) over the θ_i scan returns
-30 positive and 30 negative draws at every tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5} — which brackets
-the recorded 2/9 — with Σ L ⁄ Σ|L| at 10⁻¹⁶. The first roll does not pick a handedness.
+an even split at every tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5} — which brackets the recorded 2/9 —
+with Σ L ⁄ Σ|L| at 10⁻¹⁶–10⁻¹⁵: 12 and 12 on the solver's own 24-point prior grid, 30 and 30 on a
+60-point scan. The first roll does not pick a handedness.
 
 **And the evenness is exact, for a reason that does not depend on the tilt strength.** The tilt
 2 ε_A λ R⁴ cos 4θ is invariant under the reflection σ : θ → π/2 − θ; so are release-at-rest, the

@@ -19,10 +19,13 @@ observable class this model marks.
 ## 1. What the model says (graded structure)
 
 P-2026-028: the primordial field's magnetic helicity is SIGNED BY THE GENOME —
-sign(helicity_B) = sign(n) — the same topological draw that set matter over antimatter
-(a three-way parity-lock on one integer). No other
-magnetogenesis framework predicts a helicity sign CORRELATED with the baryon asymmetry: for
-everyone else, helicity (if any) is an independent accident.
+sign(helicity_B) = sign(n). The model further **predicts** that this is the same topological draw
+that set matter over antimatter, a three-way parity-lock on one integer — and that second half is a
+prediction the model has not yet established, not a result it carries (§"the rectification link"
+below, and the temporal half's verdict beneath it). No other magnetogenesis framework predicts a
+helicity sign CORRELATED with the baryon asymmetry: for everyone else, helicity (if any) is an
+independent accident. **The distinctiveness and the debt are the same claim**, which is why this
+file's owed item is load-bearing rather than housekeeping.
 
 ## 2. The reading protocol (and the owed key)
 
@@ -89,9 +92,10 @@ mirror π/2 − θᵢ that reproduces the same |L|, the same radial history and 
 opposite sense of rotation.
 
 **The equations agree to machine precision.** Integrating the recorded genesis system across a full
-period returns 30 positive and 30 negative draws at every tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5},
-with Σ L ⁄ Σ|L| at 10⁻¹⁶. The mirror pairing L(θ) = −L(π/2 − θ) holds to 5.7×10⁻¹³ and f_amp's
-σ-invariance to 8.2×10⁻¹⁵ — an exact cancellation, not a small residual.
+period returns an even split at every tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5} — 12 positive and 12
+negative on the solver's own 24-point prior grid, 30 and 30 on a 60-point scan — with Σ L ⁄ Σ|L| at
+10⁻¹⁶–10⁻¹⁵. The mirror pairing L(θ) = −L(π/2 − θ) holds to 5.7×10⁻¹³ and f_amp's σ-invariance to
+8.2×10⁻¹⁵ — an exact cancellation, not a small residual.
 
 **A CP phase in the tilt cannot buy a handedness.** Writing the tilt as cos(4θ + δ) and substituting
 φ = θ + δ/4 returns the δ = 0 problem identically: the equations of motion, the charge L = R² φ̇ and
