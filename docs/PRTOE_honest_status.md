@@ -94,7 +94,7 @@ In order of arrival / actionability:
 
 **~10%.** Low in absolute terms (most novel unified DM+DE models are wrong; the graveyard is vast),
 but ~2 orders of magnitude ABOVE the base rate for such a model — earned by being falsifiable,
-internally consistent, honestly labeled, and carrying a ~2.7sigma detected signal. The number is
+internally consistent, honestly labeled, and carrying a ~2.7σ detected signal. The number is
 dominated by RESOLVABLE cruxes: Q1 (evidence), Q2 (m_e reality), Q4 (floor). Favorable resolutions
 move it up hard; unfavorable collapse it honestly. High-variance bet with crisp cruxes -- the kind
 worth holding. **Update this number as each crux lands.**
