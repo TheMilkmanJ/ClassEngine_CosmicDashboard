@@ -108,3 +108,32 @@ one ratio, from Ψ₀/m/Q's recorded values, is the computation session's openin
 junction grammar, no new assumptions), the convergence recorded, the decisive ratio named.
 Stage 3 = the session-scale run: H/θ̇ at T_sph from genesis inputs, then the weighted integral
 with the ramped shutoff.*
+
+## STAGE 3 OPENING (2026-07-19) — the era map, computed; stage 2's regime call CORRECTED
+
+**Correction, filed against stage 2 (same day):** the rapid-winding (AC) claim assumed the
+frozen-amplitude scaling θ̇ ∝ T³. Wrong era: at T_sph the field is deep in the QUARTIC era,
+where r ∝ a⁻¹ (conformal — the recorded w = 1/3 radiation-youth, consistent) and charge
+conservation gives **θ̇ ∝ T**. Against H ∝ T², the winding is SLOW at high temperature:
+
+  θ̇(T_sph)/H(T_sph) = 1.0×10⁻⁸  (recorded inputs: m = 2.24×10⁻²⁰ eV, λ = 2×10⁻⁹¹,
+  θ̇(T_x) ≈ m at entry, T_sph = 131.7 GeV, g* = 106.75)
+
+**The junction at the sphaleron era is DC/adiabatic** — sin Δθ is effectively constant across
+the whole sphaleron window. Consequences: (i) NO rectifier is needed for the magnitude — the
+DC-Josephson transfer runs clean, and the stage-2 "transmission = rectification efficiency"
+claim is withdrawn as the magnitude's story; (ii) the three-way convergence SURVIVES for the
+SIGN — sign(Δθ) at the sphaleron era is the genesis draw, so η's sign still routes through the
+rectification/first-roll object with the other two consumers; (iii) the magnitude now reads
+η_B = conversion × I₀·sin(Δθ_gen)·Δt_window/s — with **I₀ (the tenth channel's junction
+strength at T_sph, from its exhibited UV form) the single remaining number.**
+
+**The bonus consistency, noted as a watch:** at the standing (m, λ) the basin entry
+(ρ_x = m⁴/λ ⟹ z_x = 5.1×10⁷, T_x = 12.0 keV) and the H = m onset (T_on = 9.5 keV) are the
+SAME event to ~25% — the quartic-to-mass handover and the Hubble release coincide. Either a
+consistency the standing pair (m, λ) was always carrying silently, or an identity
+(λ ~ m²H-class) waiting to be read — recorded to earn or kill, no mechanism claimed.
+
+*Stage 4 (the close): evaluate I₀ from the tenth channel's UV form at T_sph, run
+η_B = conversion × I₀·⟨sin Δθ⟩·window/s against the pre-committed acceptance band
+(~6×10⁻¹⁰ within 10²), and grade.*
