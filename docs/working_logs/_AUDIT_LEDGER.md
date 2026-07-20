@@ -2587,3 +2587,33 @@ whole*. I did that tonight only after eleven sections had been appended, and it 
 contradiction — but by then the framing error was already committed and propagated into a
 pre-registration entry. **Filing an amendment against a registered prediction should require
 re-reading that prediction's own statement first**; it did not, and that is now the rule.
+
+### 2026-07-19 — the second import, found by auditing my own day: §6c's host is not this corpus's basement
+
+Having imported the composite-Higgs reading, I checked whether I had imported anything else. I had,
+and it sits under the day's main result.
+
+**§6c derives k from a condensed-matter calculation that needs three things the basement does not
+have.** (1) A **finite chemical potential** — every step of the Fermi-surface treatment presupposes
+μ ≠ 0, while this corpus's basement is a **Fermi point** (Volovik frame; "three Fermi points" in the
+light file), i.e. μ = 0. My own §6a proved a Fermi point cannot pair at λ = 0.03, and the finite-μ
+Fermi surface is precisely what I introduced to escape that. (2) **Thomas–Fermi screening**, which
+requires real carriers at finite density or temperature — absent at μ = 0, and the atlas separately
+scores the medium's pre-basin phase as "a gapless acoustic gas, not a plasma (no Debye, no gap)".
+(3) **Two compensated bands**, an electron and a hole pocket at one Fermi level; the corpus
+describes no such band structure.
+
+Grep confirms the provenance: "Fermi surface" and "semimetal" appear in this corpus **only in text I
+wrote today**.
+
+**Status of the result, restated honestly.** §6c is a *conditional* derivation: given that host,
+k = 1.36461191 follows exactly with nothing fitted, and the reconstruction matching the booked value
+to every digit is genuine evidence *for* the conditions — a coincidence at that precision would be
+remarkable. But it is evidence for a structure, not a derivation from recorded structure, and the
+distinction is exactly the one this session has been about. §6c now names the three conditions
+explicitly rather than leaving them under the arithmetic.
+
+**Fair to the corpus:** the screened-interaction reading of k was already the corpus's own
+("a genuine screened-interaction integral (1/π)∫₀¹dq/(q + 2α_c/π)"). What I added was the specific
+host that realises it. So the import is narrower than the composite-Higgs one — but it is still an
+import, and it was buried under an exact numerical agreement, which is the hardest place to notice one.
