@@ -2958,3 +2958,33 @@ verified would be precisely the defect this pass exists to find.
 actually checked. Every one is the same shape — a sweeping or multi-part claim closed whole while a
 named component stayed open — and none is a wrong result. The defect is in what "complete" was taken
 to mean, not in the physics.
+
+### 2026-07-19 — REVERSE AUDIT wave 5: the multi-part tranche comes back clean
+
+Continuing the unreached forty-four, taking the multi-part and "every X" shapes first since those
+are where all five confirmed mis-grades live.
+
+- **#28 "Light B-queue: B4 comb rehearsal + B5 μ calculator + the Mb citation firm-up" — CLEAN.**
+  Three parts, all delivered: `scripts/comb_rehearsal.py` and `scripts/mu_injection_calc.py` both
+  exist, and CODE_MANIFEST grades B4 and B5 as small scripts rather than projects. This is the
+  control case for #29 — same three-part shape, and here the parts actually landed.
+- **#32 "Failure-bin ramp re-run: audit every ledger kill for step-dependence" — CLEAN.** The
+  failures ledger states it outright at line 547: *"Every kill row above audited for step-dependence
+  in the killing argument itself"*, with the per-candidate table at 562. An "every X" claim that the
+  target file confirms in its own words.
+- **#35 "The coupling-geometry re-audit: all threads + nulls under the fourth fence" — CLEAN on the
+  evidence available.** T1's working log carries the re-audit's own verdict line — "Coupling-geometry
+  status: medium-sector (dCDF halo physics; not the ε channel) — verdicts hold under the fourth
+  fence" — so the pass reached the threads and left its mark in them.
+- **#40 "B1 sixth-ambush corrected-geometry sizing" — CLEAN.** A *sizing* exercise, which does not
+  require B1 to exist; B1 remaining PROJECT (now #150) does not reopen it.
+- **#81 "EP/screening remainder: items (i), (iii), (iv)" — UNVERIFIABLE at this depth**, like #24. The
+  three items are not locatable by their task-side labels, so no grade is justified from the record.
+  Left ungraded.
+
+**Running tally: five mis-grades (#29, #51, #76, #78, #95), two unverifiable (#24, #81), and
+everything else checked so far clean.** Roughly seventy-five of ~110 completed tasks now graded;
+about thirty-five remain, and they are predominantly single-object physics tasks — the shape that has
+not yet produced a single mis-grade. The defect is concentrated in composite claims, and that
+concentration is now the pass's most useful finding: it says where to look next time, and it says the
+physics tasks have been closing honestly.
