@@ -354,8 +354,22 @@ have. Named plainly, because the numerical agreement makes them easy to skip pas
    analogous velocity is c/300, and that mismatch is precisely what makes its effective coupling
    O(1) rather than O(α).
 
-3. **Two compensated bands.** The factor 2 in the screening needs an electron pocket and a hole
-   pocket at the same Fermi level — a compensated semimetal. The corpus describes no such band
+3. **Two compensated bands — and, read against the recorded roster, that means exactly two.** The
+   factor 2 needs an electron pocket and a hole pocket at the same Fermi level — a compensated
+   semimetal. Stated that way it sounds like a mild structural ask; set against the bath this
+   basement actually has, it is not. **The Planck-floor roster is the Standard Model's 48 Weyl
+   fermions plus three right-handed neutrinos**, and §6h's own resolution of the double-counting
+   worry is what makes the count bite: Thomas–Fermi screening "needs real carriers and scales as
+   e²N₀", while virtual pairs live in Π_vac and are already inside α_c. So **N_screen counts the
+   species carrying finite density, not the species present** — and the booked factor 2 says exactly
+   two of fifty-one do, with the other forty-nine sitting at μ = 0.
+
+   That is arithmetically unforgiving. Generalising N_screen = N·N₀ gives b = Nα_c/πv and
+   k = ln(1+1/b)/π, so N = 6 returns k = 1.024 and N = 25.5 (the roster as Dirac equivalents)
+   returns k = 0.602 — which at ∂lnM/∂lnk = 33.5 move the anchor by 10⁻⁵ and 10⁻¹² respectively.
+   **The factor 2 is not an O(1) convention; it is a statement that the doping is species-selective**,
+   and §6c's condition (i) has to be read as supplying μ ≠ 0 to one electron-like and one hole-like
+   species rather than to the bath. Nothing recorded selects that pair. The corpus describes no such band
    structure.
 
 **So §6c is a conditional derivation, and its conditions are load-bearing.** *If* the basement has a
