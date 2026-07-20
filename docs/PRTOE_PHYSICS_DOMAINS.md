@@ -295,9 +295,11 @@ M87*'s exclusion of scalars in [2.9, 4.6]×10⁻²¹ eV does not reach the recor
 mass, but only because that mass sits 0.69 decades *above* the band — past the
 window, not short of it. The λ quench that used to shield the heavy edge was
 priced at λ ~ 10⁻⁸⁸; at the recorded 2×10⁻⁹¹ the self-coupling is 500× weaker,
-which is 2.7 decades off a swept margin whose low end was +2.5, so it cannot be
-quoted until re-derived — and neither can the free-FDM discriminator built on
-it ([PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md)). (ii) **De-condensation**: extreme infall makes the medium
+and the re-derivation has now run: with the exponent resolved to p = 4 by
+kinematics rather than swept, the quench margin is **−83.7 to −85.8 decades**
+across α_g = 0.1–0.5. The shield does not exist, and the free-FDM discriminator
+built on it is gone — **the model meets P-2026-034 as a free scalar**
+([PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md)). (ii) **De-condensation**: extreme infall makes the medium
 exit the basin at r = 1.8393 r_s exactly (sonic point at the ISCO) — a
 solved stationary flow. (iii) **Information**: the horizon as the densest
 archive (1.5×10⁷⁷ bits per solar mass, area-billed), no-hair as premium
@@ -767,10 +769,12 @@ At the recorded m = 2.24×10⁻²⁰ eV the superradiant range α_g ∈ [0.1, 0.
 falls on black holes of 6×10⁸–3×10⁹ M☉ (P-2026-034) — a populated band
 carrying high measured spins — and the mass, pinned three independent ways,
 cannot retreat from it. M87*'s (2.9–4.6)×10⁻²¹ exclusion sits *below* the
-recorded mass (the window was passed, not evaded), and the λ-quench that
-shielded the old band is un-quotable until re-derived at the recorded λ and m
-(§12). *Hook: high spins holding in the registered band, with the quench
-re-derivation failing, kill the recorded mass — and it has nowhere to go.*
+recorded mass (the window was passed, not evaded), and **the λ-quench that
+shielded the old band does not survive re-derivation at the recorded λ and m** —
+the margin is −83.7 to −85.8 decades (§12). *Hook: the hook has closed on the
+model's side. High spins holding in the registered band now kill the recorded
+mass outright, because the defence that was owed has been computed and is
+absent, and the mass has nowhere to go.*
 
 **53. Pulsar timing arrays — KILLED-BY (headstone in place).** The beat
 channel died by mass — after a month of derivation, dice,
@@ -1014,7 +1018,7 @@ against, not a claim).*
 | 49 | Dynamical friction | INHERITED-PASSING | FDM verdicts transfer at stated precision, within band |
 | 50 | Schrödinger–Poisson | DERIVED | corrections 1/X₀-suppressed ≤1×10⁻²²; inheritance license |
 | 51 | Rotation curves | PASSING | the founding receipt; nothing new owed |
-| 52 | SMBH superradiance | LIVE (exposure) | the mass is pinned three ways at 2.24×10⁻²⁰; the registered band 6×10⁸–3×10⁹ M☉ is populated with high spins; the quench re-derivation is the owed shield |
+| 52 | SMBH superradiance | **LIVE (exposure), and now undefended** | the mass is pinned three ways at 2.24×10⁻²⁰; the registered band 6×10⁸–3×10⁹ M☉ is populated with high spins; the quench re-derivation has run and the shield is **absent** — margin −83.7 to −85.8 decades, so the model meets P-2026-034 as a free scalar |
 | 53 | Pulsar timing | EXECUTED | channel dead by mass; silence now REQUIRED |
 | 54 | Stochastic GW / strings | PASSING-NULL | no echo (fraction² computed); no strings (born condensed); none observed |
 | 55 | BH accretion sonic point | DERIVED-AWAITING-DATA | r = 1.8393 r_s exact; no instrument yet |
