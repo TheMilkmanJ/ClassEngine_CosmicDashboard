@@ -32,7 +32,7 @@ the photon owes me nothing by law (L1a). Tenancy spans nine orders across the pa
 table — a ramp, as everything here is. (The constituent question — whether quarks are
 BUILT from my basement — stays parked with its gates and its adverse forecast; that door
 keeps its named unblock.) The asymmetry: my own charge, transferred (the AD-direct
-route; the frozen-era crux owed). *Then the riders came AND the tenants woke — and the
+route; my field sits frozen, the rectifier holds the size). *Then the riders came AND the tenants woke — and the
 courts, reading my own books, found every resident's rent already posted.*
 
 **GEN 5 — THE WITNESS ERA (BBN).** In my condensation window the first nuclei freeze: hydrogen,

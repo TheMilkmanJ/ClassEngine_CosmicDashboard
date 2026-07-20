@@ -68,8 +68,18 @@ same blanks it started with is tidier, not more complete — and the goal is der
 not well-formatted.
 
 The honest outcomes are: **closed** (computed, with the number and its check), **reduced** (it turns
-out to follow from something already in hand), or **gated** (named the specific external thing it
-waits on — a run, a lattice number, a measurement). "Owed" on its own is none of those.
+out to follow from something already in hand), **gated** (named the specific external thing it waits
+on — a run, a lattice number, a measurement), or **docketed** (real desk work with no gate — it gets
+a task number, and the file names it). "Owed" on its own is none of those.
+
+**The fourth outcome is the one that leaks.** Work that is neither closed nor gated has nowhere to go
+without it, so it stays as the bare word and reads, indefinitely, as though someone were on it. The
+2026-07-19 sweep found the shape of the leak: `hierarchy_problem` carried "the gap equation's k
+(owed)" three paragraphs above three concordant determinations of that same k — a debt already paid —
+while the file's *real* debt, that no pairing kernel was ever specified and no gap equation ever
+solved in the medium, was named nowhere at all. Eight further undocketed items came out of the same
+sweep. Both failures are check 13 not being run: the first dies on "is this actually still owed?",
+the second on "what does this file owe that it has not said out loud?"
 
 A file is not closed until checks 12 and 13 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.
