@@ -12,7 +12,9 @@ irreducible assumption, named as such).*
 
 ## 1. The amplitude ε and its decomposition
 
-The single modification to known physics is a universal fermion-mass shift ε ≈ 1.24%, which decomposes as
+The single modification to known physics is a universal charged-lepton mass shift ε ≈ 1.24% (leptophilic
+— quarks carry L = 0 and sit untouched; the universality is across the lepton family, which is what the
+Koide protection rides), which decomposes as
 
 $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 
@@ -304,7 +306,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 >
 > **CANDIDATE, not banked — one number decides it, and it is not yet computed.** *The τ collision:*
 > τ comes from the band T_c/√σ ≈ 0.34–0.37 of a **QCD-like (SU(3))** sector *(and 0.345 specifically is the observed ρ_Λ inverted — see §2's re-grade; the two provenances are not the same claim)*, with SU(3) pure
-> glue at 0.63 excluded — and τ scales ρ_Λ¼ **linearly**, so the flagship's 1.5% rides on it.
+> glue at 0.63 excluded — and τ scales ρ_Λ¼ **linearly**, so the flagship's +0.44% rides on it.
 > Lattice anchors are firm for pure glue (**SU(3): 0.63; SU(2): 0.69–0.71**, ~11% higher), but
 > **no published T_c/√σ for SU(2) with N_f = 3 light flavours was located** — the two-color
 > literature is dominated by N_f = 2 at finite *density*. An independent adversarial analysis
@@ -582,7 +584,7 @@ entire remaining open surface is:
 | the Koide kernel chain's last link (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the pacing-saturation step + the sign-chain walk (desk); then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
 | ~~the linear-map postulate~~ — DISCHARGED: the −3/2 derived at additivity grade (boost-dressed cutoff, geometric mean, equipartition — hierarchy §2b) | the anchor's −3/2 | the shared additivity neck (one assumption corpus-wide; the ring-on-ring trial tests its Koide instance) |
 | the seat constant b | κ_m's exact value | the basement build |
-| T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 1.5% prediction | the lattice (external; the note APPROVED FOR CIRCULATION) |
+| T_c/√σ for SU(2), N_f = 3 | the flagship's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note APPROVED FOR CIRCULATION) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
 | the running referees (f̄/α_c chains; the evidence pair) | the amplitude stack; dyad vs ΛCDM | the box |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
