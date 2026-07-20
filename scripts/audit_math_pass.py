@@ -1783,6 +1783,23 @@ chk("census_scaling_network", "VOS transient exponent a-1<0 (attractor)", 1.0,
 chk("census_scaling_network", "overdamped drift v for gamma=3.45e-3 is <<1", 1.0,
     1.0 if (0.003461 * 2 * (1 - _b168) / _cc) < 0.1 else 0.0, 1e-9)
 
+# ---- Koide as a C3 triple-point node (koide_triple_point_node.py) --------------
+# The Koide sqrt-masses are eigenvalues of a C3 circulant H = a I + b P + b* P^2:
+# sqrt(m_k) = a + 2|b|cos(2pi k/3 + arg b), so Q = 1/3 + (2/3)(|b|/a)^2. The node is
+# b=0 (Q=1/3, threefold degenerate); the null Q=2/3 is |b|/a = 1/sqrt2. The node
+# fixes the STRUCTURE (two knobs |b|/a, arg b), not the values.
+_r_null = 1/math.sqrt(2)
+chk("koide_triple_point_node", "circulant->Koide: Q = 1/3 + (2/3)(|b|/a)^2 at null",
+    2/3, 1/3 + (2/3)*_r_null**2, 1e-12)
+chk("koide_triple_point_node", "node b=0 (degenerate) gives Q = 1/3", 1/3,
+    1/3 + (2/3)*0.0**2, 1e-12)
+chk("koide_triple_point_node", "null |b|/a = A/2 = 1/sqrt2 (A=sqrt2)", 1/math.sqrt(2),
+    math.sqrt(2)/2, 1e-12)
+# A=sqrt2 sits at 96% of the positivity wall A_max=-1/cos(theta_min), phase delta=2/9
+_thmin = min(math.cos(2/9 + 2*math.pi*k/3) for k in range(3))
+chk("koide_triple_point_node", "A=sqrt2 is ~96% of positivity wall A_max", 0.960,
+    math.sqrt(2) / (-1/_thmin), 5e-3)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")

@@ -141,8 +141,24 @@ and the Brannen phase are the **radius** and the **winding** of one graded cone:
 locks (i),(ii),(iii),(vi) plus the Brannen phase, all faces of one Z₃-protected gapless
 three-Fermi-point node with a null cone — and the *gauge handout*, locks (iv),(v), the U(1) outlier's
 emit mechanism (part 3+). The Koide sector no longer hands the basement four separate demands; it
-hands it **one**: deliver a genuine Z₃-symmetric protected node on three Fermi points, and its cone's
-radius (√2) and winding (2/9) both follow.
+hands it **one**: deliver a genuine Z₃-symmetric protected node on three Fermi points.
+
+**What "one node" actually buys — worked explicitly (`scripts/koide_triple_point_node.py`).** The
+node is *literal*: the Koide √m are the eigenvalues of a C₃ (circulant) hopping Hamiltonian
+H = a·I + b·P + b*·P², with the node at b = 0 (threefold degenerate, Q = 1/3) and the leptons seated
+at |b|/a = 1/√2 (Q = 2/3) — the circulant reproduces the three √m to 10⁻⁸. So the node reduces the
+*entire* sector to a **single complex hopping b**: exactly two dimensionless numbers, |b|/a and
+arg(b). But the node **permits** the null; it does not **force** it. Koide's two facts *fix* those
+two numbers — |b|/a = 1/√2 gives A = √2, arg(b) gives the phase 2/9 — while the C₃ symmetry alone
+predicts neither value. So the radius (√2) and winding (2/9) do **not** fall out for free; they are
+the two parameters the node leaves open, and pinning them needs the medium (what sets the hopping
+relative to the offset). One honest hint the calculation surfaces: A = √2 is **96% of the positivity
+wall** A_max = −1/cos θ_min, where the lightest branch (the electron, √m ≈ 0.04 μ) nears zero — so the
+leptons sit at *near-maximal* splitting, and "the electron branch saturating the positivity bound"
+is the leading candidate selector for |b|/a = 1/√2, not yet exact. The gain is real regardless: the
+whole Koide mystery is now **one complex number** (the family hopping), its two parts your √2 and
+2/9, and the node explains why there are exactly those two — the residual is maximally sharpened, not
+closed.
 
 **What this does not yet do (the honest residual).** It does not build the node. Two steps remain,
 both UV: (a) promoting the Z₃ from the parametrization *scaffold* §6 calls it to a genuine protected
