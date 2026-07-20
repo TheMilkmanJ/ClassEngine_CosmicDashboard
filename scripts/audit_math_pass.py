@@ -1719,6 +1719,27 @@ chk("granule_sim_2field", "Schive core r_c(10^9 Msun) = 1.6 kpc (m/1e-22)^-1", 7
 chk("granule_sim_2field", "Compton wavelength h/(mc) [cf. xi ~ 402 AU]", 370.0,
     2 * math.pi * HBARC / _m20 / _AU, 5e-3, "AU")
 
+# --- genesis amplitude Psi0: the misalignment abundance closure (genesis_solver_B1.py) ---
+# The genesis field is frozen at Psi0 until H = m (oscillation onset in the radiation
+# era), then redshifts as matter: rho_DM,0 = 1/2 m^2 Psi0^2 a_osc^3, a_osc from
+# H = H0 sqrt(Om_r) a^-2 = m. This fixes Psi0 from the measured (rho_DM,0, m) alone --
+# analytic, not sim-gated. The comoving roll confirms rho*a^3 freezes, and the O(1)
+# onset+anharmonic correction is scale-free (so the m^-1/4 scaling stays exact).
+_H0g, _Omr, _Omdm, _Mred = 1.44e-33, 9.2e-5, 0.264, 2.435e27     # eV
+_rho_dm0 = _Omdm * 3 * _H0g**2 * _Mred**2
+def _psi0_gen(m):
+    _aosc = math.sqrt(_H0g * math.sqrt(_Omr) / m)
+    return math.sqrt(_rho_dm0 / (0.5 * m * m * _aosc**3)), 1 / _aosc - 1
+_psi0_224, _zosc_224 = _psi0_gen(2.24e-20)
+chk("genesis_solver_B1", "Psi0/M_red from the misalignment abundance closure", 0.0207,
+    _psi0_224 / _Mred, 0.02)
+chk("genesis_solver_B1", "Psi0 at m = 2.24e-20 eV (= 5.03e16 GeV)", 5.03e25, _psi0_224, 0.02, "eV")
+chk("genesis_solver_B1", "z_osc at oscillation onset H = m", 4.03e7, _zosc_224, 0.02)
+chk("genesis_solver_B1", "Psi0 scaling m^-1/4: Psi0(1e-22)/Psi0(5e-20) = 500^1/4",
+    500**0.25, _psi0_gen(1e-22)[0] / _psi0_gen(5e-20)[0], 1e-9)
+chk("genesis_solver_B1", "Psi0(abundance) = quartic-mass crossover m/sqrt(lam)", 1.0,
+    _psi0_224 / (2.24e-20 / math.sqrt(2e-91)), 0.02)
+
 # --- R1 caustic-bit precision: the Theta_loc plateau law (scripts/r1_caustic_sim.py) ---
 # Theta_loc = Q/(Q+K), Q=|grad sqrt(rho)|^2, K=rho|grad S|^2. For a developed isotropic
 # circular-Gaussian speckle field (the wave-regularised caustic), Theta_loc is pointwise
