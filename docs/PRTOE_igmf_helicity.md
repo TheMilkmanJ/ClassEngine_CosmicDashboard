@@ -76,3 +76,43 @@ cannot be predicted from matter dominance at all.
 roll-up theorem for its sign."** Until it is run, the measured handedness hint remains a
 **watch rather than a test** — the honest status, and the reason this file's decisive
 dependency was flagged in the first place.
+
+## The temporal half is a fair coin, exactly (2026-07-20)
+
+One of the two signs is now computed, and the answer has a reason rather than a value.
+
+**A reflection sends θ̇ to −θ̇ and changes nothing else.** The recorded tilt
+V_A = ε_A λ(Ψ⁴ + Ψ*⁴) = 2 ε_A λ R⁴ cos 4θ is invariant under σ : θ → π/2 − θ. Release-at-rest is
+invariant under σ, Hubble friction is isotropic, and the uniform release prior over one Z4 period
+maps to itself. The charge L = R² θ̇ is **odd** under σ. Every release phase θᵢ therefore has an exact
+mirror π/2 − θᵢ that reproduces the same |L|, the same radial history and the same f_amp with the
+opposite sense of rotation.
+
+**The equations agree to machine precision.** Integrating the recorded genesis system across a full
+period returns 30 positive and 30 negative draws at every tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5},
+with Σ L ⁄ Σ|L| at 10⁻¹⁶. The mirror pairing L(θ) = −L(π/2 − θ) holds to 5.7×10⁻¹³ and f_amp's
+σ-invariance to 8.2×10⁻¹⁵ — an exact cancellation, not a small residual.
+
+**A CP phase in the tilt cannot buy a handedness.** Writing the tilt as cos(4θ + δ) and substituting
+φ = θ + δ/4 returns the δ = 0 problem identically: the equations of motion, the charge L = R² φ̇ and
+a uniform prior over a full period are all unchanged by a constant shift. A single tilt's phase is
+removable, so no value of δ rectifies.
+
+**This confirms the relative-sign reading above, and supplies its mechanism.** Neither sign is
+determined alone because a symmetry of the tilt forbids it, and the uniform prior does not break that
+symmetry. **It says nothing about the product.** The recorded genesis system is homogeneous — its
+state is the four numbers (x, y, ẋ, ẏ), the condensate's zero mode — so sign(n) is not a variable it
+carries and the correlation the map needs cannot be read from it in either direction.
+
+**What would break the coin is the prior, not the potential.** A mechanism that selects θᵢ *before*
+the tilt torques it — a roll-up-era term carrying a phase the low-energy tilt does not share — seats
+the field at a preferred phase and biases the draw. That is the standard route to a rectified
+Affleck–Dine asymmetry, and it needs a second phase that cannot be rotated away. The corpus records
+one tilt and an explicitly uniform prior, which is precisely why the coin comes out exactly fair
+rather than nearly so.
+
+**What closes the link is one draw carrying both structures.** The genesis system evolves the phase
+in time and has no winding; the multi-component winding average carries the six-channel winding and
+has no time evolution. Link 5 needs the second given the first — the channel phase configuration
+evolved through the roll-up, with sign(θ̇) and sign(n) read from the same trajectory (docketed #154).
+Until that exists the product is unmeasured rather than owed, and the handedness hint stays a watch.

@@ -56,15 +56,20 @@ He-3-as-medium is **[KILLED]** there on four independent shots.)*
 
 ## 3. Its charge: abundance + asymmetry [CANDIDATE]
 
-Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abundance"). The
-**genesis winding's** handedness (the integer n, §2) is what biases matter over antimatter — so the
-dCDF plausibly **sourced the matter asymmetry** (why the hot baryonic pour contains matter at all).
-*"The superfluid fathered the visible universe"* = this claim, candidate grade, and the live thread:
-derive the sign(n) → matter-vs-antimatter link — the **AD-direct rectification**, which reduces
-to a single relative sign (matter rides the temporal rotation, handedness the spatial winding;
-the recorded first-roll theorem is what would lock them), the one owed
-junction of the chirality family's sign map
-([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)).
+Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abundance"). The genesis
+draw is **a candidate source of the matter asymmetry** (why the hot baryonic pour contains matter at
+all) — candidate because the step from the draw to a matter *sign* is the sector's one unbuilt
+junction. *"The superfluid fathered the visible universe"* = this claim at that grade, and the live
+thread: the **AD-direct rectification**, which reduces to a single relative sign — matter rides the
+temporal rotation θ̇, handedness the spatial winding n, and the recorded first-roll theorem is what
+would lock them ([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)).
+
+**The temporal factor is settled and it is a coin.** The genesis tilt's reflection symmetry
+θ → π/2 − θ leaves release-at-rest and the uniform prior invariant while flipping L = R² θ̇, so the
+roll generates rotation with no preferred sense — verified to machine precision at every tilt
+strength. So the sector cannot name which handedness means matter *a priori*. Whether it can name the
+**correlation** turns on the first-roll theorem run for its sign, which needs one draw carrying both
+the winding and the rotation — an instrument the corpus does not yet have (#154).
 
 ## 4. Its light [ESTABLISHED]
 

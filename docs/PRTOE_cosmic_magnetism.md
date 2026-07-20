@@ -83,15 +83,27 @@ the genome's own rotation, so
  sign(helicity_B) = sign(n) — the winding's own draw, carried through a sign chain
  whose links 1–4 are laid (T14).
 
-**The third leg is owed, and the file states it rather than assuming it.** Reading that helicity
-back as *which* handedness means matter-over-antimatter needs one further link — the AD-direct
-rectification, sign(n) → matter-vs-antimatter — which
-[working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md) grades **[OWED —
-THE one missing link]**. The three-way convergence of matter asymmetry, helicity and winding on a
-single draw is therefore the *payoff* of that link, not a standing result: the asymmetry rides the
-temporal rotation θ̇ and the helicity rides the spatial winding n, and nothing yet identified forces
-them to share a sign. Until it lands, this sector predicts a helicity sign relative to the winding
-and cannot say which handedness the matter universe corresponds to.
+**The third leg does not stand, and the file states that rather than assuming past it.** Reading the
+helicity back as *which* handedness means matter-over-antimatter needs one further link — the
+AD-direct rectification, sign(n) → matter-vs-antimatter. The three-way convergence of matter
+asymmetry, helicity and winding on a single draw is the *payoff* of that link, not a standing result:
+the asymmetry rides the temporal rotation θ̇, the helicity rides the spatial winding n, and the two
+are different components of ∂_μθ.
+
+**One of the two signs is now settled, and it settles as a coin.** The genesis tilt
+2 ε_A λ R⁴ cos 4θ is invariant under the reflection θ → π/2 − θ, as are release-at-rest, the
+isotropic Hubble friction and the uniform release prior — while the charge L = R² θ̇ is odd under it.
+Every release phase is exactly mirrored at equal magnitude and opposite rotation, so sign(θ̇) splits
+the prior evenly at any tilt strength, confirmed to machine precision
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)). **The absolute
+handedness is therefore not something this sector can predict** — not pending a computation, but
+forbidden by a symmetry the model's own content does not break.
+
+**What remains open is the correlation, and it has no instrument.** Whether θ̇ and n are locked
+requires one draw carrying both, and no solver in the corpus does: the genesis integration evolves
+the zero mode with no winding, and the winding average carries no time evolution. So this sector
+predicts a helicity sign **relative to the winding**, cannot say which handedness the matter universe
+corresponds to, and cannot yet say whether the relative lock exists either.
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in

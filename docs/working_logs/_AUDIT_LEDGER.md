@@ -3342,3 +3342,43 @@ that the archived run's 1 809 iterations imply before the ΛCDM twin doubles it.
 run.** Grading silence as failure requires knowing the writer's cadence. Thirty-two hours of nothing
 was consistent with health here, and the same thirty-two hours would have been fatal under a sampler
 that checkpoints every iteration.
+
+### 2026-07-20 — #147 half one: the roll's handedness is a coin, and a symmetry says it must be
+
+T14's link 5 asked whether the first roll picks a handedness or splits the prior evenly. **It splits
+evenly, exactly.** `genesis_famp_Z4.py` already formed L = x·v_y − y·v_x and kept only L² for the
+rotational energy; reading the sign it discarded gives 12 positive and 12 negative draws at every
+tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5}, with Σ L ⁄ Σ|L| at 10⁻¹⁶–10⁻¹⁵. A finer 60-point scan gives
+30/30 at the same residual. The f_amp medians are untouched, so #11's recorded result stands.
+
+**The evenness is a symmetry, not a coincidence, which is why it does not depend on the inputs.** The
+tilt 2 ε_A λ R⁴ cos 4θ is invariant under σ : θ → π/2 − θ; so are release-at-rest, the isotropic
+friction and the uniform prior over one Z4 period. L = R² θ̇ is odd under σ. Verified as
+L(θ) = −L(π/2 − θ) to 5.7×10⁻¹³, with f_amp σ-invariant to 8.2×10⁻¹⁵. Because σ holds for **any** ε_A,
+the recorded 2/9 needs no separate scan.
+
+**A CP phase in the tilt does not rectify.** With cos(4θ + δ), the substitution φ = θ + δ/4 recovers
+the δ = 0 problem exactly — the equations, L = R² φ̇, and a uniform prior over a full period are all
+invariant under a constant shift. The reflection moves to θ → π/2 − δ/2 − θ and holds to 10⁻¹⁵–10⁻⁹
+at δ = 0, 0.3, π/4, 1.0.
+
+**A methodological catch worth recording, because it nearly went the other way.** A first census at
+δ ≠ 0 returned Σ L ⁄ Σ|L| ~ 10⁻²–10⁻³ instead of machine zero, which reads as a real rectification.
+It was the sampling grid: `linspace` centred on π/4 while the phase moves the symmetry axis to
+π/4 − δ/4, so the draws stop pairing across it. **The check that settled it cost two integrations —
+evaluating the exact mirror pair directly — where the convergence scan queued to settle it needed
+540 and was stood down unfinished.** When a symmetry is suspected, test the pairing, not the sum: the
+sum confounds the symmetry with the sampling of it.
+
+**What it settles.** The corpus's relative-sign reading (`igmf_helicity` "neither one determines the
+other") is confirmed and now has a mechanism rather than an assertion. **The absolute handedness is
+not merely uncomputed — it is forbidden by a symmetry the model's recorded content does not break.**
+Breaking it needs a non-uniform release prior, i.e. a roll-up-era term carrying a phase the
+low-energy tilt does not share; that is a model addition and must be graded as one if proposed.
+
+**What it does not settle, and why the gate is real.** The product sign(θ̇)·sign(n) — the thing that
+actually closes link 5 — has **no instrument in the corpus**. `genesis_famp_Z4.py` evolves the zero
+mode (state x, y, ẋ, ẏ) with no winding; `genesis_multicomponent.py` carries the six-channel winding
+with no time evolution; a repo-wide check found no script holding both. That is **docketed (#154) as
+a build**, not left as owed. Propagated the same day to `igmf_helicity`, `cosmic_magnetism`,
+`dcdf_superfluid` and T14's grade row.

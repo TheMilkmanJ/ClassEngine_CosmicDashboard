@@ -14,7 +14,7 @@ The chain of signs, each link graded:
 | 2. THE RING | sign(Γ_ring) → sign(n) (the quantization event: n = Γm/2π preserves sign) | [D] |
 | 3. THE CURRENT | sign(n) → the winding current's direction (the P-028 engine) | [RECORDED] |
 | 4. THE SEEDING | the current's direction → helicity_B handedness (left vs right) | [RECORDED mechanism, SIGN CONVENTION unfixed] |
-| 5. THE RECTIFICATION | sign(n) → matter-vs-antimatter (which handedness = matter wins) | **[OWED — the AD-direct rectification mechanism: THE one missing link]** |
+| 5. THE RECTIFICATION | sign(n) → matter-vs-antimatter (which handedness = matter wins) | **[SPLIT — sign(θ̇) alone is a fair coin, proven by the tilt's reflection symmetry; the product sign(θ̇)·sign(n) has no instrument that computes it, a build docketed #154]** |
 
 **The read:** links 1–4 form a connected sign chain from the anneal's coin to the
 measured B-helicity; link 5 (the rectification) is the single owed junction that turns
@@ -92,3 +92,33 @@ result is read as an answer either way rather than as a failure to find the expe
 **Next step, concretely:** add sign(L) tracking to the θ_i scan in `genesis_famp_Z4.py` and record
 the distribution; then, separately, establish whether anything in the genesis links θ_i to the
 winding draw. The first is small. The second is the real question.
+
+## Half one, run (2026-07-20): the prior splits evenly, and a symmetry says it must
+
+**The answer is the second branch of the fork above.** Tracking sign(L) over the θ_i scan returns
+30 positive and 30 negative draws at every tilt strength ε_A ∈ {0.1, 0.2, 0.3, 0.5} — which brackets
+the recorded 2/9 — with Σ L ⁄ Σ|L| at 10⁻¹⁶. The first roll does not pick a handedness.
+
+**And the evenness is exact, for a reason that does not depend on the tilt strength.** The tilt
+2 ε_A λ R⁴ cos 4θ is invariant under the reflection σ : θ → π/2 − θ; so are release-at-rest, the
+isotropic Hubble friction, and the uniform prior over one Z4 period. The charge L = R² θ̇ is odd
+under σ. So each θ_i is exactly mirrored by π/2 − θ_i at equal |L|, equal radial history and equal
+f_amp — verified at L(θ) = −L(π/2 − θ) to 5.7×10⁻¹³ and f_amp σ-invariance to 8.2×10⁻¹⁵. Because σ
+holds for **any** ε_A, the split is even at the recorded value without needing to be scanned there.
+
+**A CP phase in the tilt does not change it.** With the tilt written cos(4θ + δ), the substitution
+φ = θ + δ/4 recovers the δ = 0 problem exactly — equations of motion, L = R² φ̇, and a uniform prior
+over a full period are all invariant under a constant shift. One tilt's phase is removable.
+
+**What this does and does not settle.** It confirms the corpus's relative-sign reading — neither sign
+is determined alone — and replaces the assertion with a mechanism: a reflection symmetry the uniform
+prior does not break. It leaves the product untouched. A repo-wide check confirms half two's
+obstruction is structural rather than pending: `genesis_famp_Z4.py` evolves the zero mode with no
+winding, `genesis_multicomponent.py` carries the six-channel winding with no time evolution, and no
+script holds both. **The product is unmeasured because no instrument computes it**, which is a build
+(#154), not an owed calculation.
+
+**Reading it as an answer, as this file asked.** The handedness↔matter correspondence is a coin the
+model cannot call *a priori* — that much is now proven rather than suspected. Whether it can call the
+*correlation* is what #154 decides, and that is the branch on which the cross-messenger test still
+lives.
