@@ -203,7 +203,9 @@ exactly where BCS needs it finite, and no amount of weak coupling recovers it. *
 requirement is stricter than the table states it:** the host needs not just a fermionic bath at
 the cutoff but *a fermionic bath with finite density of states in the pairing shell*. What
 supplies one is a **finite chemical potential** — a Fermi surface at some k_F inside the linear
-cone, where ρ(E_F) = k_F²/2π²v³ is finite and the shell is locally flat. It is not the bend-over:
+cone, where ρ(E_F) = E_F²/2π²v³ = k_F²/2π²v is finite and the shell is locally flat (the two forms
+are the same object in different variables, since E_F = v k_F; §6c uses the second, doubled for both
+spins). It is not the bend-over:
 §6c shows the anchor requires exactly the cone's density of states, and the van Hove enhancement
 at a band extremum would push it eight orders. So the node is what survives in the infrared, the
 bend-over is only the cutoff, and **the pairing is a Fermi-surface instability at finite μ inside
@@ -332,6 +334,26 @@ have. Named plainly, because the numerical agreement makes them easy to skip pas
 2. **Thomas–Fermi screening.** A Debye/Thomas–Fermi mass requires real carriers at finite density or
    temperature. At a Fermi point with μ = 0 there are none, and the atlas separately scores the
    medium's pre-basin phase as "a gapless acoustic gas, not a plasma (no Debye, no gap)".
+2b. **The cone's velocity must be the kernel's velocity — v = 1, and this had been carried
+   silently.** Running the screening constant with v kept explicit gives
+   m_D² = e²·(2N₀) = 8α_c k_F²/πv, so
+
+   $$b \;=\; \frac{m_D^2}{4k_F^2} \;=\; \frac{2\alpha_c}{\pi v}$$
+
+   and the booked b = 2α_c/π is that expression **at v = 1** — the fermion velocity equal to the
+   speed at which the medium's gauge field propagates. Nothing in §6c said so, and it is not
+   innocuous: v = 0.9 moves k to 1.3316 (−2.4%), which at ∂lnM/∂lnk = 33.5 moves the anchor by
+   about a factor two. **This is a percent-level requirement, exactly like the velocity matching in
+   the next item** — and it is the same physics seen twice, since r = v_e/v_h = 1 asks the two bands
+   to share a velocity while this asks their shared value to be the cone's slope.
+
+   **The one piece of good news in this section: the recorded basement supplies it.** A linear node
+   *is* a cone whose slope defines the emergent light speed, so v = 1 comes free with the Fermi
+   point the corpus already records — it is not an addition. The condition is worth naming anyway,
+   because it is the assumption a condensed-matter reader would challenge first: in graphene the
+   analogous velocity is c/300, and that mismatch is precisely what makes its effective coupling
+   O(1) rather than O(α).
+
 3. **Two compensated bands.** The factor 2 in the screening needs an electron pocket and a hole
    pocket at the same Fermi level — a compensated semimetal. The corpus describes no such band
    structure.
