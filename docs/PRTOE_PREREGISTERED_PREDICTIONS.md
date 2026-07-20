@@ -2182,6 +2182,25 @@ most likely sits in the upper half of the band, with 4πm_H a coincidence rather
 identification. That reverses this entry's original ordering, in which arrow B was the one genuinely
 independent arrow ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6j).
 
+**AMENDMENT 3 (2026-07-19) — AMENDMENT 2 IS WITHDRAWN. It rested on a misreading of this model.**
+Amendment 2 priced the anchor as a *composite* Higgs and concluded that arrow B was in tension with
+electroweak precision. That reading is not this model's. §2(c) above states it directly: the Higgs
+is **elementary** and its *mass parameter* is induced — "under the no-bare clause m_H² must be
+induced; one loop of anchor-scale census states gives m_H ~ M_anchor/4π" — with the electroweak vev
+remaining the Standard Model's own. A model with an elementary Higgs does not carry the
+compositeness bound, and its Yukawas are the Standard Model's, so no extended-technicolor operators
+exist to constrain. **The S-parameter tension amendment 2 reported does not exist, and arrow B
+stands as originally registered.**
+
+What survives is a different and weaker constraint, recorded in its place: the anchor-scale portal
+species carry electroweak quantum numbers, and a degenerate heavy doublet contributes
+ΔS = 1/6π = 0.053 without decoupling, so |S| ≲ 0.14 permits **at most two new electroweak
+doublets**. That bounds the census's portal roster, not the anchor's scale.
+
+The error is recorded rather than quietly reverted because the registry's value is that its history
+is auditable: amendment 2 moved a registered arrow on the strength of an analysis that had imported
+an assumption the model does not make.
+
 **VISIBILITY NOTE on the P-2026-009 family (2026-07-12):** the model's zero-birefringence
 prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
 (Minami–Komatsu-class, ~0.34°, dust-systematics-debated). The model's explicit position:
@@ -2216,7 +2235,7 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
  resolved as data-selected rather than a free choice. The 256×3 ensemble does not decide it,
  it checks it; the squared-estimator precision is what that check awaits. The speed-weighted
  retrial runs.
-- **P-2026-042** (the TeV anchor): arrow A (x₀) stands; **arrow B (4πm_H) is in tension with the S parameter** under the composite reading the channel forces — S = 0.31 there against |S| ≲ 0.14, the bound sitting at 2.33 TeV (AMENDMENT 2); arrow C (the census
+- **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND (the S-parameter tension reported in amendment 2 was withdrawn by amendment 3 — it rested on a composite-Higgs reading this model does not hold); arrow C (the census
  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
  C fell or the convention did.
 - **P-2026-043** (the cosmic-dawn trough, ~5% deeper): FRESH — estimate-grade, sign is

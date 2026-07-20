@@ -48,10 +48,8 @@ one-loop echo.**
 the hierarchy dial $x_0$ is CONSISTENCY-ONLY (a free dial of the GC dictionary that this
 closure selects — failures ledger §6); the census closure / duty-family landing is
 STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
-the edge-convention audit decides whether that arrow fell or the convention did). The
-arrow $m_H$ supplies — long this file's one genuinely independent arrow — is itself now in tension
-with electroweak precision (§6j: S = 0.31 at 1576 GeV against |S| ≲ 0.14), so it is recorded here
-as the arithmetic it is rather than as the load-bearing identification it was:
+the edge-convention audit decides whether that arrow fell or the convention did). THE
+ONE GENUINELY INDEPENDENT ARROW ($m_H$ is measured) STANDS:
 
 $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm anchor} \approx 4\pi\,m_H \approx 1.57\ \text{TeV}\ \ (2.5\%)$$
 
@@ -252,12 +250,14 @@ no electric charge — weak isospin but not charge — and the roster supplies e
 ψ_L a doublet and ψ_R a singlet: the bilinear ⟨ψ̄_L ψ_R⟩ is an SU(2)_L doublet, and its neutral
 component carries Q = −Q_L + Q_R = 0 identically, because a particle-hole pair of the *same*
 field cancels its own charge whatever that charge is (verified across the up-, down- and
-charged-lepton lines). So the object that condenses carries **precisely the Higgs's quantum
-numbers**: SU(2)_L × U(1)_Y breaks, U(1)_EM survives. The requirement is not a hope placed on the
-basement — it is satisfied by the roster the basement already has, in the composite-Higgs
-structure the anchor's own arithmetic was pointing at. It is also what permits a 511 keV electron
-beneath a TeV condensate: the light fermion masses arise at higher order, not from the condensate
-directly. Both are computations inside the basement rather than new assumptions, so the residual
+charged-lepton lines). So the condensate is electrically neutral, as the channel requires.
+
+**What that does *not* license.** The bilinear having a Higgs-like quantum-number assignment does
+not make it the Higgs. This file's §2(c) is explicit that the Higgs is elementary and its *mass
+parameter* is induced — "under the no-bare clause m_H² must be induced; one loop of anchor-scale
+census states gives m_H ~ M_anchor/4π" — with the vev remaining the Standard Model's own. The
+condensate supplies the states whose loop induces m_H², not the electroweak order parameter. §6j
+records what follows from that distinction, and what does not. Both are computations inside the basement rather than new assumptions, so the residual
 has changed from *find an attractive channel* to *show this one condenses*.
 
 **The selection rule is the corpus's own.** What decides the channel here — *the condensate must
@@ -515,102 +515,27 @@ claims; they are one joint now, and either one failing takes the other with it. 
 tightening of the corpus's exposure and it is recorded as such rather than as a free win.
 
 
-### 6j. Electroweak precision — the reading's first confrontation with existing data
+### 6j. Electroweak precision — the constraint that actually applies
 
-§6b forces the anchor to be an electroweak-breaking condensate with the Higgs as its composite
-bound state. That inherits the constraint which killed classic technicolor, and it is the one place
-existing data can speak to this reading now rather than at HL-LHC.
+An earlier pass of this section priced the anchor as a *composite* Higgs and derived a
+compositeness bound from the S parameter, plus an extended-technicolor flavour problem. **That was
+a misreading of this file's own §2(c)** and both are withdrawn: the Higgs here is elementary, its
+mass parameter induced by one loop of anchor-scale states, and its vev the Standard Model's. A
+model with an elementary Higgs inherits neither the compositeness bound nor the flavour problem —
+the Yukawas are the Standard Model's own, so no extended-technicolor operators exist to hit K⁰
+mixing.
 
-**The Peskin–Takeuchi S parameter.** The measured value is S = −0.01 ± 0.07 (U = 0), so
-|S| ≲ 0.14 at two sigma. A condensate breaking electroweak symmetry contributes through the vector
-resonances it generates, and vector dominance gives S ≈ 4πv²/M_ρ² with v = 246 GeV:
+**What does apply is a counting bound.** The anchor-scale portal species carry electroweak quantum
+numbers, and a degenerate heavy doublet contributes ΔS = 1/6π = 0.053 **without decoupling** — the
+contribution is mass-independent. Against |S| ≲ 0.14:
 
-| M_ρ | S | |
+| new electroweak doublets | S | |
 |---|---|---|
-| 1576 GeV — the booked anchor | **0.307** | excluded at ≈ 4σ |
-| 2333 GeV | 0.140 | at the bound |
-| 3152 GeV — the exact-solution value (§6d) | **0.077** | allowed |
-| 5–8 TeV | 0.03–0.01 | comfortably allowed |
+| 1 | 0.053 | allowed |
+| 2 | 0.106 | allowed |
+| 3 | 0.159 | excluded |
 
-**So electroweak precision requires M_ρ > 2.33 TeV**, and that is an independent line arriving at
-the same place the exact gap-equation solution does. The value obtained by *dropping* the
-exact-solution factor 2 — the booked 1576 GeV, and with it the clean identification with
-4πm_H = 1574 — is the one the data disfavours.
-
-**The escape, and why it is narrow.** S constrains the product g_ρ·f rather than the anchor alone:
-with M_ρ = g_ρ f and f ~ M_anchor, a coupling g_ρ ≳ 1.5 restores the booked value. But this sector
-is *weakly* coupled — λ = kα_c = 0.030, thirty-three times below a confining sector — and weak
-coupling argues for g_ρ near or below one, which tightens the bound rather than loosening it. The
-same weakness cuts the other way too, since a weakly-bound tower is broader and contributes less
-spectral weight than vector dominance assumes. Both effects are O(1) and neither is computed here,
-so this is a **constraint that disfavours the low end, not an exclusion.**
-
-**What it buys either way:** a falsifiable statement that is not HL-LHC-gated. If the composite
-reading is right, the lightest vector resonance sits above ≈ 2.3 TeV, and the anchor lives in the
-upper half of §6e's band rather than at 4πm_H.
-
-
-### 6k. Flavour — the other inherited exposure, and why the two pull opposite ways
-
-The condensate cannot give the light fermions their masses directly: at a TeV scale it would give
-the electron a TeV mass. They must come from higher-dimension operators linking the Standard Model
-fermions to the condensate, m_f ~ Λ³/M_F², and the *same* operators with flavour indices generate
-four-fermion terms constrained by K⁰–K̄⁰ mixing. That is the extended-technicolor flavour problem,
-and this reading inherits it in full.
-
-| fermion | m_f | M_F required |
-|---|---|---|
-| top | 172.6 GeV | **13.5 TeV** |
-| bottom | 4.18 GeV | 87 TeV |
-| muon | 106 MeV | 544 TeV |
-| electron | 511 keV | 7828 TeV |
-
-K⁰ mixing requires M_F ≳ 1000 TeV for generic O(1) flavour structure. **The electron is
-comfortable — it wants a scale well above the bound — but the top wants 13.5 TeV, seventy-four times
-below it.** The light fermions are not the problem; the heavy one is, exactly as in the classic case.
-
-**And the escape the literature uses is closed here.** Walking technicolor fixes this by giving the
-condensate a large anomalous dimension, so that ⟨ψ̄ψ⟩ is enhanced at the operator scale and M_F can
-sit high while m_f stays right. Walking requires **near-conformal strong coupling**; this sector runs
-at λ = kα_c = 0.030, thirty-three times below confining. The enhancement is unavailable.
-
-**So the two inherited exposures pull opposite ways on the same parameter.** The sector's weak
-coupling is what plausibly relieves the S parameter (§6j: fewer, broader resonances, less spectral
-weight) and it is exactly what denies the walking enhancement flavour needs. Strengthening the
-coupling to fix flavour worsens S; weakening it to ease S worsens flavour. Nothing in the corpus
-currently occupies the window between them, and whether one exists is a real question rather than a
-rhetorical one.
-
-The modern alternative — partial compositeness, where the Standard Model fermions mix linearly with
-composite operators rather than through four-fermion terms — is not excluded and does relax the
-flavour bounds substantially. It is simply not something this corpus has built, and it would need
-the basement to supply composite operators for each Standard Model flavour to mix with.
-
-
-### 6l. Can any anomalous dimension close the flavour gap?
-
-§6k left walking unavailable at λ = 0.030 and §6j left weak coupling as what relieves S. That is
-only a real corner if no intermediate value serves, so the requirement is worth stating as a number.
-
-Walking enhances the condensate between the operator scale and the condensate scale by
-(M_F/Λ)^γ_m, so m_f ~ Λ³/M_F² · (M_F/Λ)^γ_m. Solving for the γ_m that puts the **top** at the
-K⁰-mixing floor of 1000 TeV:
-
-$$\gamma_m^{\rm required} = 1.496$$
-
-against γ_m ≈ 3α_c/2π = **0.0105** at this coupling — short by a factor **143**. Intermediate values
-do not rescue it either: γ_m = 1 still leaves M_F at 57.6 TeV, seventeen times below the floor, and
-only as γ_m → 2 — the unitarity bound, where ψ̄ψ reaches dimension 1 and the M_F dependence drops out
-of the relation altogether — does the constraint dissolve.
-
-**So the requirement is γ_m ≈ 1.5, squarely near-conformal, and the sector runs at λ = 0.030.** The
-two demands are not merely in tension; they are incompatible *within one sector*, because γ_m ≈ 1.5
-is a strong-coupling statement and S wants the opposite.
-
-**Which names the escape precisely.** The pairing sector and the flavour sector must be *different
-sectors* — the condensate that breaks electroweak symmetry pairing weakly, and whatever generates
-the Standard Model masses living elsewhere and coupling in. That is the partial-compositeness
-direction, and it is a real structural demand on the basement rather than a caveat: it needs
-composite operators for each Standard Model flavour to mix with, which the corpus does not have. The
-alternative is that the anchor's condensate is not what breaks electroweak symmetry at all — in
-which case §6b's channel result survives but its identification with the electroweak scale does not.
+**So electroweak precision limits the portal roster to at most two new doublets**, and says nothing
+about where the anchor sits. That is a real constraint on the census's portal content and a
+falsifiable one — but it is a roster bound, not a scale bound, and it leaves §6d's band and the
+4πm_H identification untouched.
