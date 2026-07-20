@@ -35,7 +35,7 @@ Recomputed from α and m_e alone, independently of `audit_math_pass.py`, and eve
 | ρ_Λ¼ | **2.2599 meV** (+0.44% vs observed 2.25) | (9/2)α⁴T_c | harness | **existence yes, precision NO** — see below |
 | ε | 1.2543% = 27α/5π | c·f̄·α_c | harness; closed form agrees to all quoted digits | derived, but see c |
 | f̄ | 2/π = 0.63662 | the winding time-average | harness | derived |
-| c | 9/10 | census count (N−1)/N | — | **data-selected, NOT framework-forced** (#126) |
+| c | 9/10 | census count (N−1)/N | harness (the one-criterion alternatives) | **counting assumption, data-confirmed** — not framework-forced (#126) |
 
 ## Contested or corrected — the rows this file exists for
 
@@ -53,6 +53,10 @@ Recomputed from α and m_e alone, independently of `audit_math_pass.py`, and eve
 | **quadrupole retention (27.6 Gpc)** | **90%** | 83%, or the toy's 49% | A torus is a lattice, not a continuum with a sharp cutoff; six modes sit exactly at k_min (#160). |
 | **f_wind** | **≲3×10⁻⁵**, 255× under the fence | inside [0.7%, 1.4%] | The diagonal C_ℓ sees only the k̂-monopole. Location claim survives; detection claim does not (#170). |
 | **induced α split** | **23.5%** | ~44% | The 44% is hypercharge at M_Z; α_c = 3α names α_EM at q = 0 (#130). |
+| **the quark chain's loop factor** | **both are right, for different jobs** (#185) | a contradiction to be resolved one way | The naive two-loop counting is exact: e⁴/(16π²)² = 4πα·4πα/(16π²)² = **(α/4π)² = 3.37×10⁻⁷**. `bbn_witness` and `me_mechanism_math` carry that and are self-consistent with it (3×10⁻⁷ → quark shift ~1×10⁻⁹ ✓). The **(α/π)² = 5.40×10⁻⁶** used downstream is 16× larger and **deliberately conservative** — it quotes the closure against the easiest case for a quark channel to survive. Nothing turns on the choice: the channel is 20 000–31 000× short on the conservative factor and 16× shorter still on the naive one. Do not "fix" either file to match the other. |
+| **the ε-blind ensemble** | **c = 0.903 ± 0.0375** — a *check* on c | a selection among the candidates | It lands −0.08σ from 9/10, and at the same width sits +0.53σ from 12/13 and −0.38σ from the charge²-weighted **8/9**, which is only **0.30σ** from 9/10. The pre-registered separating width is **σ_c ≤ 0.0115** (3.3× sharpening, not in hand). What picks 9/10 over 12/13 is the tie-as-lock argument, not this number (#126). |
+| **the charge²-weighted census** | **c = 8/9**, from Σ N_c Q² = 3 + 4 + 1 = **8** | 14/17 = 0.8235 (the colourless sum, 4.667/5.667) | Colour is counted in the roster the count is over, so the up-type contributes 4 and the down-type 1. c = 8/9 gives ε = 16α/3π = **1.2388%**. Carrying the charge criterion all the way — the neutral seat then weighs zero — returns **c = 1**, which the census excludes (#126). |
+| **the portal's Higgs branch** | **λ_p ≲ 5×10⁻¹¹ … 1×10⁻⁹** across f = 100–500 TeV | a coupling the roster does not list | |Ψ|²H†H is the *only renormalizable* SM partner of the dark bilinear, and it shifts the Higgs vev, so it moves every mass; the bound is D/H's 12–18σ on a universal shift at ε. The standing dim-6 lepton operator induces it at **λ_p ≤ 1.1×10⁻¹³** (Λ_UV = 4πf; 6.8×10⁻¹⁶ at Λ_UV = f) — 3–6 orders under, so excluding it costs no tuning (#125). |
 
 ## Open — no canonical value exists yet
 

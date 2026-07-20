@@ -176,8 +176,12 @@ PTA both ways); the 511 keV line vs leptophilia (the transfer vertex is seesaw-t
 cold by the recorded number, one honest look owed someday); **quark flavour**, which is cold by
 *size* rather than by symmetry, and so files here rather than among the constitutional silences.
 The portal is the dark-neutral bilinear |Ψ|², which reaches the quark bilinear only through the
-dyad → lepton loop → 2γ → quark chain at **(α/π)² = 5.4×10⁻⁶** — a delivered quark shift of
-6.8×10⁻⁶ %, which is **20 000–31 000× short** of the 0.14–0.21% a P-2026-006 healer would need.
+dyad → lepton loop → 2γ → quark chain. The naive two-loop factor is e⁴/(16π²)² = **(α/4π)² =
+3.4×10⁻⁷**; the number carried below is the deliberately conservative **(α/π)² = 5.4×10⁻⁶**, 16×
+larger, so that the closure is quoted against the *easiest* case for a quark channel to survive.
+On that factor the delivered quark shift is 6.8×10⁻⁶ %, which is **20 000–31 000× short** of the
+0.14–0.21% a P-2026-006 healer would need — and on the naive factor it is 16× shorter still, so
+the door shuts either way and nothing turns on which convention is adopted.
 A second and independent bound shuts the same door from the other side: a universal quark shift at
 ε lands at **+12–18σ** on D/H. Lepton number screens neither channel — |Ψ|² is L-neutral and
 phase-blind, while the Majoron's tree coupling is to the phase — so what holds the quarks away is a
