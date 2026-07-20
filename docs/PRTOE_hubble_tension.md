@@ -72,6 +72,23 @@ timestamped *before* any evidence value existed.
 
 ## 5. Against the field's alternatives
 
+**Against the nearest competitor — the varying-m_e literature — the difference is parameter cost,
+not direction.** Hart–Chluba (2018, 2020) and Sekiguchi–Takahashi (2021) established the mechanism,
+and the recent ACT DR6 + DESI DR2 analyses (arXiv:2508.09025, arXiv:2606.06495) find varying m_e
+preferred at **2–3.6σ**. That is independent support for the direction this model takes, and it
+should be read as such rather than as competition. **The difference is that there m_e is a free
+phenomenological parameter and here it is not.** The amplitude is derived — ε = c·f̄·α_c = 27α/5π =
+1.2543% — and the live evidence run **pins** it at that value (`varying_me = 1.012543`, fixed;
+[PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)), so the comparison against ΛCDM costs **zero extra
+parameters, not +1**.
+
+**And the honest half of that comparison: this buys no more H₀ relief than the fits do.** The same
+partial-relief ceiling the literature runs into is the one this model finds. What changes is the risk
+profile — a phenomenological fit that lands off 1.2543% simply reports a different best-fit value,
+while this model has nowhere to go, because the amplitude is fixed by α and the census before any
+data is seen. **Cheaper and more falsifiable, not better-fitting**, and it is worth being explicit
+that those are different virtues.
+
 Early-dark-energy-class solutions buy H₀ with new components tuned for the job and
 generically worsen the S₈ clustering tension. This model's mechanism: (i) one parameter
 with independent duties across BBN, the CMB, 21-cm physics, and neutrino cosmology —
