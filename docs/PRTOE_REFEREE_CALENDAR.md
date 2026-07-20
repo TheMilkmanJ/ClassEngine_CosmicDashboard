@@ -20,10 +20,28 @@ No verdict may be argued after the fact — the rules below were set before the 
 > did **not** lack a seeded covariance — its config feeds `chains/dyad_mnu_seed.covmat` — and it
 > failed anyway, at R−1 = 23.3. The seed covers **12 of its 13 parameters**: it carries
 > `varying_me` where zon_disp samples **`log10_zon`**. So the one parameter the chain exists to
-> measure is the one parameter the seed knows nothing about, including any correlation between it
-> and H0 or `dcdf_rho_inf` — and those are precisely the directions the ±1.00 degeneracy occupies.
-> Cobaya fills the gap from the parameter's own `proposal` width, which supplies a scale and no
-> orientation.
+> measure is the one parameter the seed knows nothing about. Cobaya fills the gap from the
+> parameter's own `proposal` width, which supplies a scale and no orientation.
+>
+> **Diagnosed and repaired 2026-07-20, with one guess above corrected.** The blindness is worse
+> than a missing seed entry and it is visible in the chain's own output: in
+> `cmp_prtoe_zon_disp.covmat`, `log10_zon` is the **only** parameter of thirteen whose
+> off-diagonals are *exactly* zero, with σ *exactly* 0.08 — the configured `proposal` value passed
+> straight through. The sampler never learned it at all. So bootstrapping a seed from that file,
+> which is what repaired routeD and conv_desi, would have reproduced the blindness exactly and
+> looked like a fix.
+>
+> **The samples know what the learned covmat does not.** 217 distinct `log10_zon` values were
+> explored (7.52–7.81, σ = 0.063), and their empirical correlations are substantial. **But not in
+> the directions guessed above:** against H0 and `dcdf_rho_inf` the correlations are **+0.075 and
+> +0.085** — essentially none. The degeneracy runs through **ω_b at −0.743** and **A_planck at
+> +0.515**. The ±1.00 direction named earlier is not where this parameter is stuck.
+>
+> `scripts/build_chain_seed.py` now builds seeds either way and refuses to be quiet about it — it
+> flags any parameter the learned covmat never updated and points at `--from-samples`. Validated by
+> reproducing routeD's working seed to 4.7×10⁻¹⁶. **`chains/zon_disp_seed.covmat` is built and
+> ready**; the chain is *not* relaunched because the box is at load ≈ 5.9 on six cores with two
+> chains already running, and the standing instruction is to leave two cores free.
 >
 > **What routeD and conv_desi are actually running on (verified from the configs and the seed
 > files themselves, 2026-07-20 13:10).** Both now carry the **correlation-preserving** seed:
