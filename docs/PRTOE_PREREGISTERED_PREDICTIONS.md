@@ -2019,11 +2019,21 @@ with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recove
 
 ## P-2026-040: α_c = 3α — the Condensate Coupling (registered 2026-07-11; graded by the α_c MCMC)
 
-**The claim:** the condensate coupling is **α_c = 3α = 0.021892** (α the fine-structure constant) —
+**The claim:** the condensate coupling is **α_c = 3α = 0.021892** (α the fine-structure constant,
+at its infrared value — see the scale note below) —
 equivalently **α_c = d·α** with **d = 3 the spatial dimension**. Registered as a bet against a
 running instrument: the α_c chain's indirect band [0.0205, 0.0214] sits 2.3% below the claim. With
 c = 9/10 and f̄ = 2/π, the zero-dial assembly gives ε = (9/10)·(2/π)·3α = 1.254%, against the dyad
-posterior's ~1.24%.
+ posterior's ~1.24%.
+
+**Scale note (2026-07-19).** α_c = 3α relates two couplings, so it holds at a scale, and this entry
+now states it: **the infrared one, and α_c does not run.** The corpus spends one number across
+eighteen orders — ε and ρ_Λ in the infrared, A_s at genesis and the hierarchy anchor at the Planck
+floor — and A_s is what selects between the readings, being primordial, measured to ~1.4%, and
+mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to serve as a test: **−0.4% at 3α(0), +28% at
+α(M_Z), +158% extrapolated toward 10¹⁷ GeV.** The selection rides A_s's count C = 1, so that count
+and this entry's non-running now stand or fall together
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i).
 
 **Why the factor is 3 — the spatial dimension d.** The 3 is not a flavour count or a free integer;
 it is the dimension of space, and it enters through the second sound: the phonon-gas second sound
