@@ -2617,3 +2617,25 @@ explicitly rather than leaving them under the arithmetic.
 ("a genuine screened-interaction integral (1/π)∫₀¹dq/(q + 2α_c/π)"). What I added was the specific
 host that realises it. So the import is narrower than the composite-Higgs one — but it is still an
 import, and it was buried under an exact numerical agreement, which is the hardest place to notice one.
+
+### 2026-07-19 — #146 first pass: the hot reading would fix everything and does not fit
+
+Tested whether reading the basement as **hot** dissolves §6c's three imports. It should: a
+relativistic plasma at μ = 0 screens by the Debye mass with no chemical potential needed, and
+particles and antiparticles sit in exactly equal numbers by CPT, so r = 1 is forced without any
+semimetal band structure. It is also closer to this corpus's cosmology, where the Planck era is hot.
+
+**It misses the constant.** Booked b = 2α_c/π = 0.013937 requires m_D²/T² = 2e²/π² = e²/4.94. The
+standard thermal Debye mass gives e²/12 = 0.022925 or e²/24 = 0.011463 per Weyl — **1.64× and 0.82×
+off**, at every standard normalisation. The cold degenerate reading reproduces the booked value
+exactly from standard pieces with none chosen.
+
+**So the screening constant discriminates, and it points away from the recorded basement.** Three
+readings survive and §6m holds them apart: a cold degenerate host (reproduces k, contradicts the
+basement), the hot Planck bath (matches the basement, misses k by 1.6–2×), or k's screened-exchange
+form being coincidental (returns k to the recognised closed form it was this morning, and leaves
+§6a's no-pairing-at-a-node result standing against the pairing reading itself).
+
+Recording that the third is not the least likely. A day that began by deriving k has ended by
+establishing that the derivation requires a host the model does not have, and that the nearest host
+it does have misses by a factor of two. That is a real result and it is adverse.
