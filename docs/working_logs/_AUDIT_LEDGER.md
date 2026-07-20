@@ -1869,3 +1869,19 @@ normalization fence. **Recorded against me: I nearly booked "the size closes SAF
 orders" by conflating the tribunal's composite-frame λ with the bare λ_dyad ≈ 1.3×10⁻³⁸ —
 caught before writing by reading cc's own frame split.** The label firewall's exact species;
 the tribunal's Rule 1 discipline is why the trap was visible.
+
+## Nontherm_Kill_Discussions.md — deep audit 2026-07-19 (transcripts tier, 4 of 5)
+
+Read whole (878 lines) — the high-f pivot's source document, and the corpus's most consequential
+tribunal: a death sentence given the same trial a win gets, the Referee correcting BOTH sides
+(Corrections 1–2, the reconciled v_floor ≈ 1.0×10¹³ eV), JP's own lane mandated as a named
+attack and surviving, the decisive screening mechanism found in the corpus rather than invented
+(the citation audit verifying the gate verbatim at the operator level), and the billing-symmetry
+argument (one operator, one gate — granted to both or denied to both) sealing it. The §6
+verdict's price sheet P1–P6 IS the standing configuration, matching the adopted pivot line by
+line. One leak sealed with the dated header: the pivot pointer made explicit, and the residual
+ΔN_eff range's post-booking move (0.06–0.15 at halt → 0.06–0.24 as registered, the ζ ∈
+[0.25, 0.35] window) stated so the file and the registered bet cannot be read against each
+other. The ξ→ζ notation note was already in place. Nothing else needed: §2 stands as the
+historical claim under test, the failed attacks are recorded by their own authors, and the
+Rule-6 provenance audit is itself a model of the audit discipline this ledger enforces.
