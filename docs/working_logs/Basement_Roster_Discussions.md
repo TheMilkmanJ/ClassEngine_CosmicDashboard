@@ -1,5 +1,16 @@
 # Basement Roster — Defender vs Challenger debate on SU(2) N_f=3 T_c/√σ
 
+> **DATED RECORD — the τ-plausibility fight, complete as debated.** Numbers herein are the
+> 0.3503/179-keV era's. The standing configuration has since moved to **the P-2026-048
+> two-point fork**: 0.3503 (the observation inverted) vs **0.34657 = ½ln2** (the kernel
+> candidate; the standing T_c = τ·m_e = 177.10 keV rides it) — 1.1% apart, both inside the
+> registered window, the lattice adjudicates. Every centering conclusion below ("permitted
+> at the edge, not favoured at centre"; the clean center at τ ≈ 0.357–0.368) applies to
+> BOTH fork points — a fortiori to the lower kernel point, which sits 1.1% further from
+> the analytic center than the value debated here. The lattice campaign now referees three
+> numbers of the same theory (T_c/√σ, F_π/√σ, w·√σ — the forced-combination file §4), and
+> the circulation note (PRTOE_lattice_note.md) carries the ask.
+
 **The question:** The PRTOE flagship dark-energy value needs τ = T_c/√σ_dark ≈ **0.3503** for a dark **SU(2), N_f = 3** confining sector. Is that value plausible? Nobody has the lattice number — this is an analytic-estimate fight.
 
 **Ground rules in force:** no commits/git, no MCMC/PolyChord/CLASS runs, regular Python allowed for estimates. Both sides show all work so a human can backtrack every step.

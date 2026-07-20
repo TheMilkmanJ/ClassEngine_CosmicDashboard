@@ -1837,3 +1837,19 @@ the closing "gap remains OPEN" was true when filed but the census later DISSOLVE
 question by the two-door route — a dated header now states the era (E_b = 2.284/179-keyed),
 points at the dissolution and the standing chain (τ = ½ln2 → 2.2599, +0.44%), and fences the
 dead f = ½ from the living τ = ½ln2 (different objects). The kill stands as certified.
+
+## Basement_Roster_Discussions.md — deep audit 2026-07-19 (transcripts tier, 2 of 5)
+
+Read whole (672 lines) under the leak standard. As a record it is the corpus's best debate:
+both columns corrected themselves against their own interest (the Challenger withdrew its
+ceiling-as-center and its manufactured 0.225 row; the Defender's own clean algebra moved its
+own center 6% against itself), the referee verified every load-bearing number including the
+addendum exchange, and the two later addenda (the literature hunt; the NJL desk anchor)
+honestly grade 0.3503 "permitted at the edge, not favoured at centre, lattice-decided." One
+leak sealed: the whole fight predates the P-2026-048 fork, so a reader exited with 0.3503 as
+the model's sole value — the dated header now carries the fork (0.3503 vs ½ln2 = 0.34657,
+T_c standing at 177.10), states plainly that the centering conclusions apply a fortiori to
+the lower kernel point, and routes to the three-observable lattice campaign. Spot-checked in
+passing and correct: 179/510.999 = 0.3503, the dof counts (16/31.5 vs 6/21), r₃ = 1 −
+156.5/270 = 0.4204, the 0.63-vs-0.345 hidden-convention split (429 vs 449 MeV), and the
+Braguta T_d/√σ = 0.483(23) transfer chain.
