@@ -323,7 +323,12 @@ have. Named plainly, because the numerical agreement makes them easy to skip pas
    states, the shell — presupposes μ ≠ 0. This corpus's basement is a **Fermi point** (the Volovik
    frame; "three Fermi points" in the light file), which is μ = 0. §6a shows a Fermi point cannot
    pair at this coupling, and the finite-μ Fermi surface is what I introduced to resolve that. It is
-   not recorded anywhere else.
+   not recorded anywhere else. **The corpus's other finite-μ statements do not supply it**, and the
+   near-miss is worth naming so it is not mistaken for a match: the identity paragraph and the
+   condensed-matter room both describe the medium as "the phase EFT of a complex condensate at finite
+   chemical potential", but that μ is the dark condensate's at basin entry — μ = m ≈ 2.24×10⁻²⁰ eV,
+   at z_x ~ 10⁵ — some sixty orders below the Planck-floor basement this section needs, and a
+   different object in the model's own layering.
 2. **Thomas–Fermi screening.** A Debye/Thomas–Fermi mass requires real carriers at finite density or
    temperature. At a Fermi point with μ = 0 there are none, and the atlas separately scores the
    medium's pre-basin phase as "a gapless acoustic gas, not a plasma (no Debye, no gap)".
