@@ -61,3 +61,34 @@ the pairing channel ([PRTOE_dcdf_superfluid.md](../PRTOE_dcdf_superfluid.md) §2
 about the AD rectification of *n*, and nothing about the condensate's partial wave can supply it.
 
 Coupling-geometry status: medium-sector (web-scale magnetogenesis) — untouched by the gate geometry.
+
+## Link 5 scoped (2026-07-20): the roll's half is a few lines away; the join may not exist at all
+
+Scoping #147 rather than attempting it, because the two halves of link 5 are in very different states.
+
+**Half one — sign(θ̇) — is computable now, from an existing validated script.** The asymmetry rides
+the *temporal* phase rotation: baryogenesis records μ = θ̇, so sign(n_B) = sign(θ̇). And
+`scripts/genesis_famp_Z4.py` already integrates exactly the roll that generates it, on the model's
+own potential (V = m²R² + λR⁴ + 2ε_Aλ R⁴cos4θ, ε_A = 2/9, released at rest at θ_i, scanned over a
+uniform prior — "rotation is GENERATED, not assumed"). The generated rotation's sign is present in
+that integration as the angular momentum L = x·v_y − y·v_x; the script simply does not record it,
+because it reports f_amp. **Adding sign(L) to the θ_i scan gives the distribution of sign(θ̇) over the
+prior directly** — whether the first roll picks a definite handedness or splits the prior evenly.
+
+**Half two — the join to sign(n) — may not exist, and that possibility should be held open.** The
+helicity rides the *spatial* winding, n = ∮∇θ·dl/2π, set at the Kibble transition by the spatial
+variation of θ. The asymmetry rides θ̇, set by the zero-mode roll from θ_i. These are different
+components of ∂_μθ, and `genesis_famp_Z4.py` is a homogeneous two-dimensional integration with no
+spatial structure — it cannot produce n at all. **Nothing yet identified forces the two to share a
+sign**, and if they are independent then link 5 has no mechanism rather than an owed one.
+
+**Which is the honest fork, and it is not the one the chain's framing assumes.** The map reads as
+"one owed computation away from a cross-messenger test". It may instead be: the roll gives a definite
+θ̇ sign, the Kibble draw gives an independent n sign, and the handedness↔matter correspondence is a
+coin the model cannot call. That outcome would *close* T14 item 1 — negatively — and remove the
+cross-messenger test rather than deliver it. Worth knowing before the computation is run, so the
+result is read as an answer either way rather than as a failure to find the expected one.
+
+**Next step, concretely:** add sign(L) tracking to the θ_i scan in `genesis_famp_Z4.py` and record
+the distribution; then, separately, establish whether anything in the genesis links θ_i to the
+winding draw. The first is small. The second is the real question.
