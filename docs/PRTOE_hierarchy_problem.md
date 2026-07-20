@@ -463,3 +463,34 @@ The amplitude answers "the infrared" by construction. If that is the right answe
 α_c run up to the pairing shell and lands orders higher. If instead the relation is meant at the
 basement, then the amplitude's use of it in the infrared is the loose end and ε inherits the same
 question. The corpus currently uses the infrared value in both places, which cannot be right in both.
+
+
+### 6i. The scale, data-selected — and two claims that now stand or fall together
+
+§6h reduced the residual to one question: at what scale does α_c = 3α hold? The corpus already
+contains the discriminator, and it is **A_s**.
+
+α_c enters at four points spanning cosmic history — ε at recombination and ρ_Λ at the eV scale,
+both infrared; A_s at genesis and the hierarchy anchor at the Planck floor, both ultraviolet. The
+anchor cannot test the scale, because ∂lnM/∂lnα_c = 25.8 swamps it. **A_s can**: its sensitivity is
+∂lnA_s/∂lnα_c = 3.69, and it is measured to ~1.4%.
+
+| α_c | A_s | vs measured 2.088×10⁻⁹ |
+|---|---|---|
+| **3α(0)** | 2.0807×10⁻⁹ | **−0.4%** |
+| 3α(M_Z) | 2.681×10⁻⁹ | +28.4% |
+| 3α extrapolated toward 10¹⁷ GeV | 5.395×10⁻⁹ | +158% |
+
+**A_s is a primordial observable, and it selects the infrared value.** So the answer to §6h is
+horn (b), and it is *data-selected* rather than assumed, in the same way the corpus already selects
+f̄'s coupling form: **α_c is a scale-independent medium constant, numerically 3α(0)**, and using the
+same number at recombination, at the eV scale, at genesis and at the Planck floor is consistent.
+The "orders higher" worry of §6f is therefore lifted — the anchor's use of 3α(0) is correct, and its
+band stays where §6e put it.
+
+**The condition, stated because it binds.** A_s = C·(α_c/4πk)³ with the count C an unmechanized
+O(1) that the corpus claims is exactly 1. If C were instead ≈ 0.385, a running α_c would reproduce
+A_s and the test evaporates. So this argument rides C = 1 — which means **"the count is exactly
+(4πk/α_c)³" and "α_c does not run" now stand or fall together.** They were previously independent
+claims; they are one joint now, and either one failing takes the other with it. That is a real
+tightening of the corpus's exposure and it is recorded as such rather than as a free win.
