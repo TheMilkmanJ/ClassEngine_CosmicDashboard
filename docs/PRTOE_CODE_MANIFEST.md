@@ -161,6 +161,16 @@ difference from upstream is one `class_test` message gaining the failing conditi
 boundary section above states that the file consumes the varconst rescalings and contributes nothing
 of the model's; the diff confirms it.
 
+**The perturbation sector is real and integrated, which the project's own history can obscure.** For
+part of one day in July 2026 the dark fluid had declared perturbation infrastructure and no equations
+behind it, and that produced a plik TTTEEE χ² near 224 800. It was built the same evening, and the
+code carries it now: `perturbations.h:495-496` declares `index_pt_delta_dcdf` and
+`index_pt_theta_dcdf` as **evolved** variables, `perturbations.c:3964` registers them in the
+integrated vector, `:5508-5509` sets adiabatic initial conditions in w_dcdf and cs2_dcdf, and
+`:8004`/`:8151` build the transfer sources from them. A fluid with a sound speed, in the hierarchy.
+**What remains open is narrower and should not be confused with it:** the *conversion channel's*
+perturbation treatment, which is a genuine theory gap and is tracked as such.
+
 **Reproducing this: a naive `git diff` will report 64 files and ~44 700 lines, and that number is an
 artefact.** The bulk is line-ending churn — `tools/arrays.c` alone shows 3 613 insertions against
 3 613 deletions, and vanishes entirely under `-w`. The command that gives the real answer is
