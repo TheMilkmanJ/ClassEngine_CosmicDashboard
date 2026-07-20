@@ -2134,6 +2134,26 @@ sharply; (c) the α_c MCMC killing the triangle (P-040) unpins x₀ and the anch
 (d) a derived "35" (= ln(M_red/4πm_H) from the census structure itself) would convert this
 from an identification to a derivation — the owed step.
 
+**AMENDMENT (2026-07-19) — kill (d) is PAID, and the precision is withdrawn.** The gap equation
+was written down and solved rather than adopted ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+§6b–6g). The exponent's 35 is now derived: 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97, with **k = 1.36461
+derived**, not fitted — Thomas–Fermi screening at 2α_c/π from a *two-band* polarisation (electron
+plus hole, forced by the vacuum's neutrality via compensation), averaged over the full Fermi surface.
+Verified independently by Monte-Carlo. The channel is fixed too: **particle-hole, not Cooper** — a
+charge-2e condensate at this scale would give the photon a mass ~10¹² eV against the recorded bound
+of 10⁻¹⁸ eV. So the identification has become a derivation and the claim's *mechanism* is stronger
+than at registration.
+
+**Its precision is correspondingly weaker, and that is the honest cost.** ∂lnM/∂lnk = 33.47, so
+every O(1) in the calculation is amplified thirty-threefold: the exact-solution factor (Δ = 2Λe^(−1/λ),
+not Λe^(−1/λ)), the rainbow truncation's dropped vertex (relative order λ = 3%, a factor ≈2.7), and
+the Fermi surface's position within Λ_shell ≤ E_F ≤ M_red (≈1.6) compound to **a factor of a few:
+the anchor is 1–8 TeV, not 1.57 TeV at 2.5%.** The 2.5% agreement stated at registration is finer
+than the calculation supporting it and is withdrawn as a precision claim. What stands, and what
+kill (b) tests, is a TeV-scale anchor derived from the Planck floor and α alone. Kill (a)'s two-loop
+landing is superseded: that program closed as mooted, and the collider search refereeing the decade
+directly is what remains.
+
 **VISIBILITY NOTE on the P-2026-009 family (2026-07-12):** the model's zero-birefringence
 prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
 (Minami–Komatsu-class, ~0.34°, dust-systematics-debated). The model's explicit position:

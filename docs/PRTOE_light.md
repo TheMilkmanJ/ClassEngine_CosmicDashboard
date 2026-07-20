@@ -174,7 +174,7 @@ closes.
 
 ## 7. Falsification conditions
 
-(i) **Any confirmed photon mass** (current bound m_γ < 10⁻¹⁸ eV): kills the Goldstone
+(i) **Any confirmed photon mass** (current bound m_γ < 10⁻¹⁸ eV) — a bound that now carries a second load, since it is what excludes a charged Cooper condensate at the hierarchy anchor and thereby selects the particle-hole channel ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6b): kills the Goldstone
 identification and the record theorem's premise. (ii) **Any confirmed vacuum dispersion
 of light** beyond the Planck-suppressed envelope (energy-dependent photon arrival from
 GRBs is the standing null): kills the collective-mode identification. (iii) **A specified
