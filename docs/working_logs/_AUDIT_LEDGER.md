@@ -3102,3 +3102,27 @@ The rule was in the protocol, in my own words, and the pass that violated it is 
 "PROPAGATION PASS". Writing a rule is not adopting it; the check has to run against a list, and no
 list existed. **A withdrawal now needs its inheriting files enumerated at the moment of withdrawal,
 in the same commit that makes it** — not recalled afterwards.
+
+### 2026-07-20 — REVERSE AUDIT wave 7: the thermal cluster, and a false positive caught before booking
+
+Batch B never returned, so its tasks were worked directly. The thermal/DE cluster was taken first
+on the theory that the mooted perturbative T_c program (#82) might have orphaned objects downstream.
+It did not.
+
+- **#46 "BUILD: 2-loop RG-improved V_eff for T_c" — CLEAN.** `scripts/de_value_veff_2loop.py` exists.
+  The T_c program closing as mooted afterwards does not un-build a build.
+- **#48 "Write down the medium's strong pairing sector (source g_p)" — CLEAN.** The sector is written
+  down as dark SU(2) with N_f = 3, and the failures ledger's "UNSOURCED (hunt 221)" row was corrected
+  earlier today to record both its horns answered.
+- **#47 "Derive the dyad compositeness (Λ, g)" — CLEAN, and nearly booked as a mis-grade.**
+  `cosmological_constant.md:325` reads "the compositeness (Λ, g) build's **un-built** g → λ map",
+  which scans as the task's own object being open. It is not: `build_2loop_Veff_spec.md:18` says the
+  build "**has since been executed** (`scripts/de_value_derive_Lambda_g.py`)", and the script exists.
+  What is un-built is a narrower downstream piece — the g → λ map — feeding λ's size, which books as
+  ESTIMATE for that reason. Scope difference.
+
+**Recording the near-miss deliberately.** The phrase that triggered it — "the (Λ, g) build's un-built
+g → λ map" — attaches "un-built" to a sub-object while naming the parent build in the same breath.
+Reading it as a mis-grade would have reopened a task whose deliverable is sitting in `scripts/`. This
+is the mirror of the wave-1 Koide error, where stopping early produced two false mis-grades: there,
+too little reading; here, reading one clause without its neighbour. Both directions cost the same.
