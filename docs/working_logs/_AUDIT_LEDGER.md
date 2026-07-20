@@ -3284,3 +3284,30 @@ DETERMINED SIGN versus T14's owed link; and now §6c's heading versus its own co
 case the file was *not* hiding anything — the qualification was present and honest — but it arrived
 after the sentence a skimming reader would quote. **Placement is a correctness property when the
 claim is bold and the caveat is prose.**
+
+### 2026-07-20 — the payoff check completes across the open board: three hits, seven clean
+
+Ran on every open task with a substantial payoff. Result:
+
+**HITS (3), all on flagship-adjacent claims, all fixed:**
+- **#147** — `cosmic_magnetism` asserted "magnetic helicity with a **DETERMINED SIGN**" and the
+  three-way convergence of asymmetry, helicity and winding on one draw, which is precisely what T14
+  grades `[OWED — THE one missing link]`. The sharpest find of the pass.
+- **#123** — the dependency tree graded ρ_Λ = E_b⁴ **derived** against the status ledger's
+  "CANDIDATE, not banked"; the corpus's own definition of candidate ("its referee pending") settles
+  it, and the referee — a lattice T_c/√σ for SU(2), N_f = 3 — does not exist.
+- **#146** — §6c's heading claimed k derived with its three conditions arriving a paragraph later.
+
+**CLEAN (7):** #113 (the three debts stated basement-gated), #115 (the flagships use Q = 2/3 as
+*measured input*, deriving the kernel modulus from it — the Koide sector held under a targeted attack
+on its most-attacked object), #117 ("grammar — bounce equations owed"), #119 (nothing claims the cold
+spot; the chain records it as having no address), #120, #121 ("exact Ψ₀ / f_amp OPEN"), #125 ("the
+portal's un-derived core").
+
+**What the instrument is for, now that it has a track record.** Seven of ten open tasks had their
+payoffs stated honestly as owed — the corpus's default behaviour is good. The three failures share a
+shape the reverse audit cannot see: a claim standing in a *forward-facing* file as though *open* work
+had already succeeded. Two of the three were in audience-facing documents, and all three would have
+been read by a referee as the model's own statement of what it has achieved.
+
+**Run it whenever an open task has a nameable payoff, and run it on the audience-facing files first.**
