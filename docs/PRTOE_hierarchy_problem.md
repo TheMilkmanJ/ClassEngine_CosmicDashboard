@@ -325,12 +325,21 @@ have. Named plainly, because the numerical agreement makes them easy to skip pas
    states, the shell — presupposes μ ≠ 0. This corpus's basement is a **Fermi point** (the Volovik
    frame; "three Fermi points" in the light file), which is μ = 0. §6a shows a Fermi point cannot
    pair at this coupling, and the finite-μ Fermi surface is what I introduced to resolve that. It is
-   not recorded anywhere else. **The corpus's other finite-μ statements do not supply it**, and the
-   near-miss is worth naming so it is not mistaken for a match: the identity paragraph and the
-   condensed-matter room both describe the medium as "the phase EFT of a complex condensate at finite
-   chemical potential", but that μ is the dark condensate's at basin entry — μ = m ≈ 2.24×10⁻²⁰ eV,
-   at z_x ~ 10⁵ — some sixty orders below the Planck-floor basement this section needs, and a
-   different object in the model's own layering.
+   not recorded anywhere else. **Three routes to it have been walked and all three fail**, which is
+   worth listing so they are not re-walked:
+
+   - *The corpus's own finite-μ language.* The identity paragraph and the condensed-matter room both
+     describe the medium as "the phase EFT of a complex condensate at finite chemical potential" —
+     but that μ is the **dark condensate's at basin entry**, μ = m ≈ 2.24×10⁻²⁰ eV at z_x ~ 10⁵,
+     some sixty orders below this basement and a different object in the model's own layering.
+   - *The model's own matter asymmetry.* Baryogenesis does put a chemical potential on the census
+     states — μ = ℏ·θ̇ — so it is the natural candidate. It fails on **magnitude**: an asymmetry
+     η = 6.14×10⁻¹⁰ gives μ/T ~ η, hence k_F/T ~ 10⁻¹⁰, where the pairing shell needs k_F/T of order
+     one. Short by about ten orders, and the shortfall is the asymmetry's own smallness, so no
+     re-pricing of the genesis draw can close it.
+   - *Reading the basement hot instead of cold* (§6m), which is closer to this corpus's cosmology and
+     needs no μ at all — but then the screening constant misses by 1.64×/0.82× at every standard
+     normalisation.
 2. **Thomas–Fermi screening.** A Debye/Thomas–Fermi mass requires real carriers at finite density or
    temperature. At a Fermi point with μ = 0 there are none, and the atlas separately scores the
    medium's pre-basin phase as "a gapless acoustic gas, not a plasma (no Debye, no gap)".
