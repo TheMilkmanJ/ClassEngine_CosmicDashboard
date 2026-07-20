@@ -2673,3 +2673,31 @@ withdrawal creates propagation debt *retroactively*: the carrying files were cor
 became wrong hours later, so nothing prompts a re-check. Today one withdrawal left six files
 asserting "k is derived" after its home file had qualified it. The protocol now says: **when a claim
 is withdrawn, re-run its propagation list, not just its home file.**
+
+### 2026-07-19 — #122: the three owed-vs-completed conflicts adjudicated
+
+**1. THE SIGN MAP vs #95 — the board is wrong, the files are right.** T14 states link 5, the
+AD-direct rectification, as "[OWED — THE one missing link]"; igmf_helicity and dcdf_superfluid say
+the same; today's own audit of T14 confirmed it ("structure-complete with the one owed link stated
+identically in three homes"); and the transfer-integral spec written today names the rectification
+as carrying four consumers, of which "T14 link 5" is one. **#95 was marked completed, but its named
+object is demonstrably open** — what #95 actually delivered was the sign map's *structure*, links
+1–4. The rectification itself has never been computed. Successor docketed as #147; #95's completion
+stands as a scope record, not a closure of the link.
+
+**2. THE Z4 QUARTET vs #97 — no conflict; different objects.** #97 was the thread-residue sweep
+(T1, T2, T4, T7, T9, T12, T13 and the quartet's Z₄ row), and it closed the *bookkeeping* for that
+row. quartet_clock §2's "load-bearing gap" is the *mechanism* — showing the fluid's coherent
+oscillation is carried by the Z4-locked cluster rather than the bare constituent. A residue sweep
+does not close a mechanism, and neither side is stale. No action beyond recording the scope split.
+
+**3. THE DE RESIDUAL vs #93 — no conflict; already separated.** #93 closed the door-gap O(1)
+coefficient (doors A/B in the derived phase-space ratio). cosmological_constant states plainly that
+the Gibbs–Duhem reading "is a different object, and it remains the genuinely un-built calculation" —
+which is exactly what #123 was opened for this morning. The separation is already on the record in
+both places. No action.
+
+**Net: one mis-grade in three.** The board carried a completed task whose object three files and
+today's own audit all say is open. That is the inverse of the morning's defect — there, files said
+owed while the corpus had closed; here, the board says closed while the corpus says owed. Both come
+from the same absence: nothing cross-checks task status against file status, in either direction.
