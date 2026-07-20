@@ -2164,10 +2164,10 @@ is owed and may move the % by O(1) factors — the SIGN is the registered conten
  branch is ADVERSE-LEANING pending the edge-convention audit.
 - **P-2026-040** (α_c = 3α): LIVE — graded by the dispersion α_c chain; the z_on corollary's
  lineup awaits the two-clock re-derivation; the triangle (M₂, x₀, ρ_Λ) rides this chain.
-- **P-2026-041** (f̄ = 2/π): the VALUE claim stands, un-mechanized (the proposed closed-form
- mechanism is not established; the high-statistics ensemble decides),
- awaiting the 256×3 ensemble's squared-estimator precision. The speed-weighted retrial
- runs.
+- **P-2026-041** (f̄ = 2/π): DERIVED — the genesis winding's roll-up, with the coupling form
+ resolved as data-selected rather than a free choice. The 256×3 ensemble does not decide it,
+ it checks it; the squared-estimator precision is what that check awaits. The speed-weighted
+ retrial runs.
 - **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND; arrow C (the census
  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
  C fell or the convention did.
@@ -2333,13 +2333,13 @@ fourth generation breaks the *visible* row regardless of what the dark sector do
 should not be read as claiming the whole balance from the visible rows alone. P-048 carries the
 dark rows' own conditionality (candidate grade; one uncomputed lattice number; five kills).
 
-**Caveat (pending — the scalar sector):** the species count above (fermions +1 per Weyl, gauge
-bosons −4 each) carries no scalar row, yet in the unbroken phase the Higgs is four real scalars whose
-contribution to this heat-kernel coefficient is generically ∝ (1/6 − ξ_H). So the exact-zero balance —
-and the two kills — are ξ-independent *only if* Visser's k₁ assigns zero weight to scalars; if instead
-it goes as (1/6 − ξ_H), the balance also requires ξ_H = 1/6 (conformal Higgs), the same Standard-Model
-input the G value needs. Verifying Visser 2002 Eq. 35's scalar coefficient is owed before ξ-independence
-is claimed.
+**Condition (the scalar sector):** the species count above (fermions +1 per
+Weyl, gauge bosons −4 each) carries no scalar row, yet in the unbroken phase the Higgs is four real
+scalars. Visser 2002 Eq. 35 assigns each real scalar the standard heat-kernel R-coefficient
+(1/6 − ξ_H), **not** zero. So the exact-zero balance is **not** ξ-independent: str[k₁] = 0 holds
+**iff ξ_H = 1/6** (conformal Higgs), the same Standard-Model input the G value needs. **The two kills
+below are therefore conditional on an unmeasured Standard-Model input**, and stand registered that
+way ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.3).
 
 **Provenance and honest grade:** the cancellation was DISCOVERED, not predicted (2026-07-13,
 during the induced-gravity roster rebuild), and it survives only because

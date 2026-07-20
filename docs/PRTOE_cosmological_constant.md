@@ -197,9 +197,11 @@ consistency structure applied to its most famous problem:
  freeze-out (`scripts/kubo_freeze.py`); the earlier √N *lineshape-suppression* route (the
  "Γ₀ = 76 meV" target) is retired as an inversion artifact — the collisionless neutrino
  response is Ohmic in **both** the density and the scalar (Majoron) channel, so no
- sub-Ohmic lineshape exists to supply it. The one **owed** piece is the O(1) coefficient of
- the frozen equilibrium excitation (exactly m_ν, or c·m_ν?), which needs the condensate's
- specific heat / equation of state at freeze. The original statement stands beneath it: the condensate is **still settling from the one
+ sub-Ohmic lineshape exists to supply it. The O(1) coefficient of the frozen equilibrium
+ excitation follows the tie's arrow: the equality's source is the mass-generation
+ identity read forward — the tenth-channel seat term, the floor SETTING m₁ — so the coefficient
+ rides κ_m = b^(−1/4) ≈ 1, and what survives is the basement-gated seat constant b rather than
+ a specific-heat calculation. The original statement stands beneath it: the condensate is **still settling from the one
  genesis injection** — thermal counterflow (the fountain effect, the corpus's own
  genesis name) persists while any deviation from the T = 0 ground state remains, dying
  only asymptotically (the third law's ramp). The residual excitation of a nearly-settled

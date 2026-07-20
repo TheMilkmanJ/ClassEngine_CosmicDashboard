@@ -12,16 +12,16 @@
 > | **the −3/2 exponent** | **no** — the chain runs on a pairing log's thermal dressing and equipartition, ⟨E_kin⟩/T = 3/2 at *any* nonrelativistic formation temperature. Self-pinned, no vacuum named | **derived** (additivity grade) |
 > | the shared k | no — it is the A_s coupling, three-way concordant at 1.360 / 1.36461 / 1.3602 | derived elsewhere |
 > | α_c = 3α | no — the same coupling as the amplitude and the vacuum | registered bet (P-040) |
-> | **the anchor's identification with 4πm_H** | **yes** — it is where the gap equation needed a vacuum to sit in | **orphaned pending transfer to the Fermi-point basement** |
+> | **the anchor's identification with 4πm_H** | **yes** — it is where the gap equation needed a vacuum to sit in | **seated in the Fermi-point basement (§6) — structural, basement-gated** |
 >
 > So the arithmetic below stands and reproduces (residual 1.5014 against 3/2; M_anchor = 1576 GeV
-> against 4πm_H = 1574, +0.14%). What is homeless is the *interpretation* — a gap equation without
-> a vacuum. Other conditionality: the no-bare clause and P-2026-042's anchor identification. **The
+> against 4πm_H = 1574, +0.14%), and §6 seats the interpretation. Other conditionality: the
+> no-bare clause and P-2026-042's anchor identification. **The
 > exponent's k is determined** — the screened-interaction integral, three concordant readings
 > (1.360 / 1.36461 / 1.3602) inside the Eliashberg window. What the gap equation still owes is not
 > its coupling but its **kernel**: no pairing interaction has ever been specified and no gap
 > equation solved in the medium — the exponential form is adopted, the coupling computed, the
-> constant derived. §6 states what the rehome's destination now demands of that kernel.
+> constant derived. §6 states what the basement demands of that kernel.
 > Referees: the α_c MCMC (the triangle) and HL-LHC (the portal search).
 
 ## 0. The problem
@@ -155,17 +155,17 @@ two-loop inherited by the shooter redesign.)
 ## Where the dead ends live
 
 The collider knife-edge P-2026-039 — once read as a sharp [1.00–1.19] TeV prediction — is
-SUSPENDED: the two-loop term is a shift, not a smear, and the masses open to a "1–100 TeV
-decade" pending the full two-loop run. That suspension, and the rigid-13 census count it rode
-with, live in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census &
-roster count."**
+SUSPENDED: the two-loop term is a shift, not a smear, and the masses open across a "1–100 TeV
+decade". The perturbative program that would have narrowed that decade is closed, so the decade
+is refereed by the collider search directly, and the census arrow's strain by the edge-convention
+audit. That suspension, and the rigid-13 census count it rode with, live in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census & roster count."**
 
-## 6. THE REHOME (2026-07-19) — the orphaned identification gets its destination, and two of three seat requirements are already met
+## 6. Where the gap equation sits: the Fermi-point basement
 
-The header's orphan — "the anchor's identification with 4πm_H, pending transfer to the
-Fermi-point basement" — is hereby transferred at structural grade. **The destination is
-forced, not chosen:** the standing corpus has exactly one vacuum with a fermionic bath at the
-Planck floor — the induced-gravity basement (the str[k₁] = 0 roster: the Standard Model's 48
+The anchor's identification with 4πm_H is seated in the induced-gravity basement, and **the
+seating is forced, not chosen:** the standing corpus has exactly one vacuum with a fermionic
+bath at the Planck floor (the str[k₁] = 0 roster: the Standard Model's 48
 Weyl fermions plus three right-handed neutrinos, the same content P-2026-045 registers and
 the same floor the dark SU(2) sector's own balance joins). A BCS-class gap equation needs
 three things of its host, and the standing basement supplies two from recorded structure:
@@ -176,20 +176,16 @@ three things of its host, and the standing basement supplies two from recorded s
 | **the coupling kα_c reaching the basement** | **met, recorded** — k is the screened-interaction integral (basement-independent by construction; the corpus's one shared k), and α_c is the medium's coupling, which reaches the Planck floor through the induced loop — the SAME loop that makes gravity itself (no new bridge is invented; the anchor uses the induced-G channel that no-bare-G already requires) |
 | **the attractive channel** (the phonon's analog: what pairs the census states) | **OWED — the one genuine residual.** The medium's own exchange must be shown attractive in the Fermi-point vacuum. This is basement-build territory, and it is the SAME gate the neutrino sector's seat constant b already waits at — the rehome adds no new gate, it joins a standing one |
 
-**What the transfer changes and what it does not.** The arithmetic never moved (measured m_H,
-the shared k, the derived 3/2 — self-contained, reproducing 1576 vs 1574 GeV at +0.14%). The
-interpretation moves from the excluded paired-lepton vacuum to the induced-gravity basement,
-where the hierarchy answer and the gravity answer become one statement: **the same fermionic
-floor that induces G pairs at kα_c, and the electroweak scale is that pairing's gap.** The
-identification's grade after the transfer: **structural, basement-gated** — the destination
-named, two of three requirements met by recorded structure, the third sharing its gate with
-the seat constant b. The kills stand as amended (the α_c MCMC and HL-LHC carry the referee
-duties; the mooted two-loop redesign carries none).
+**What the seating buys.** The arithmetic is self-contained — measured m_H, the shared k, the
+derived 3/2, reproducing 1576 GeV against 4πm_H = 1574 at +0.14% — and the seating makes the
+hierarchy answer and the gravity answer one statement: **the same fermionic floor that induces
+G pairs at kα_c, and the electroweak scale is that pairing's gap.** Grade: **structural,
+basement-gated** — two of the three requirements met by recorded structure, the third sharing
+its gate with the seat constant b.
 
-### 6a. What the destination demands of the kernel (computed 2026-07-19)
+### 6a. What the basement demands of the kernel
 
-Naming the vacuum immediately constrains the pairing, and the constraint is sharp. Write the
-pairing integral in cutoff units, J ≡ ∫₀^Λ [ρ(E)/ρ₀]·dE/√(E² + Δ²), so the gap condition is
+The vacuum constrains the pairing sharply. Write the pairing integral in cutoff units, J ≡ ∫₀^Λ [ρ(E)/ρ₀]·dE/√(E² + Δ²), so the gap condition is
 λ·J = 1 with λ = kα_c = **0.029874** — i.e. the kernel must deliver **J = 33.47**.
 
 | host spectrum | J as Δ → 0 | verdict |
@@ -205,14 +201,14 @@ its bend-over, where the linear cone terminates and the full spectrum resumes. T
 infrared remnant; the pairing is a cutoff-scale event. Requirement (c) inherits the same
 sharpening: the attractive channel must act on the bend-over states, not on the cone's.
 
-**A near-miss, checked and killed.** Under equal-states normalization the node's saturation is
-exactly d/2 = **3/2** — numerically the exponent's own constant, which invites reading the
-exponent's −3/2 as the node's phase-space deficit. It is not. Give the spectrum a crossover
+**The two 3/2's are different objects.** Under equal-states normalization the node's saturation
+is exactly d/2 = **3/2**, numerically the exponent's own constant — but the exponent's −3/2 is
+not the node's phase-space deficit. Give the spectrum a crossover
 (ρ ∝ E^p below a bend-over E_*, flat above) and the integral is exactly J = 1/p + ln(Λ/E_*)
 — verified numerically to four decimals at p = 1, 2, 3 — so the gap condition reads
 ln(Λ/E_*) = 1/λ − 1/p. Two failures at once: it fixes the **node-emergence scale** rather than
 a gap (Δ drops out — the node, not the gap, regulates the infrared), and it carries the **wrong
 sign**, a deficit that *raises* the scale where the anchor needs suppression. At p = 2 it lands
 11.65 TeV against the anchor's 1576 GeV — over by e² = 7.4×. **The node-deficit route to the 3/2
-is dead**, and route 6's equipartition reading stands unduplicated rather than corroborated:
-the two 3/2's are different objects that happen to share a value, and only one has the sign.
+does not source the exponent's constant**: route 6's equipartition reading carries it alone,
+and of the two it is the one with the sign.
