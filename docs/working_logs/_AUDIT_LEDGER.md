@@ -3160,6 +3160,47 @@ is a missing link between two systems each working correctly alone. **Three** �
 left live contradictions in forward-facing files every single time, including in the pass named for
 propagating them, and I would have said otherwise before the check.
 
+### 2026-07-20 — REVERSE AUDIT wave 9 (final): the six the sweep stopped short of
+
+Wave 8 stopped at ~100 of ~110 and named the remainder — #17, #27, #31, #33, #34, #36 — declining to
+close on "almost all of it". Those six are now graded, and the caution paid.
+
+- **#17 citation pass — CLEAN.** `BIBLIOGRAPHY.md` exists at 32 KB and 41 files link it.
+- **#27 the ς appeal — CLEAN.** `H0_CEILING.md:15` carries the deliverable: a 162-configuration
+  template scan, lines-only compression, returning **ς = −1, robust**, with the SN host mass step
+  named as the gate curve's fingerprint.
+- **#31 ramp audit of the registry — CLEAN.** Ramp-vs-step grading is live in the registry (the
+  RAMPED D/H window, the ramped piecewise reopening, the α_c ramp/locked question).
+- **#34 the Kelvin-weight session — CLEAN.** `scripts/kelvin_weight_v2.py` exists, the registry
+  records that the session "killed the vector-sector closure fourfold", and the failures ledger
+  carries its own process error 24. (The a₁ in `quantum_gravity` is Seeley–DeWitt — a different
+  object, not this task's.)
+- **#36 the WHIM session — CLEAN.** `T12_radio_lattice_owed.md:8`: "PAID (2026-07-19
+  reconciliation): item 5 — the WHIM session ran (the fifth-fence…)", with the output live as a
+  falsifier in the dependency tree ("WHIM temps reading gravity-only at XRISM/Athena precision") and
+  priced in the debt census.
+- **#33 the response-function session — UNVERIFIED, and it carried a dead cross-reference.**
+  "The response function" appears three times in the whole repo and **none is a derivation**: a
+  pointer, a dependency-tree cell naming it as an *input* to the candle room, and a registry line
+  arguing *against* "an abstract response function". The task's own shape — one function, two limits,
+  one locked ratio — has no home. Worse, `dcdf_superfluid.md:102` sent readers to
+  `DERIVATION_HUNT.md` for "the three-door map + the response function", and that file has neither:
+  its eight sections are the amplitude, the DE value, the dark sector, neutrinos, induced gravity,
+  the basement roster, genesis and what remains owed. The three-door map is real but lives in
+  `cosmological_constant.md` §4b, read through `quantum_trio.md`. Pointer repaired to its true home;
+  the response function is not given one, because it does not have one.
+
+**Two things worth keeping.** *(i)* The prior wave 8 rested on — single-object tasks have produced no
+mis-grade in a hundred checks — held five times in six. Good priors are not verdicts, and closing the
+sweep on it would have left a broken audience-facing pointer in place. *(ii)* **A negative grep result
+is only as good as its scope.** #36 was nearly booked UNVERIFIED off a search of `docs/*.md`; its home
+is in `docs/working_logs/`. The usual failure here is over-claiming a positive — this is the mirror,
+over-claiming a *negative*, and it is the cheaper mistake to make and the harder one to notice,
+because an absence produces no contradiction to trip over.
+
+**#148 closes at 110 of 110.** Eleven mis-grades total across nine waves and five subagent batches:
+#29, #51, #55, #59, #76, #78, #92, #93, #95, #143, #33. Four unverified: #22, #24, #68, #33.
+
 ### 2026-07-20 — #153 first pass: the files carry the retirements; the board is the weak link
 
 Worked the retirement cluster (failures ledger rows 58–64) to see whether #59's shape recurs. It

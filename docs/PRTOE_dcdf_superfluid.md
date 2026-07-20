@@ -99,5 +99,7 @@ Literal He-3-as-medium (four shots) and the DE-amplitude inversion are in
 
 Derivations: [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md),
 [PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md). The Goldstone: [PRTOE_light.md](PRTOE_light.md).
-Genesis: [PRTOE_white_holes.md](PRTOE_white_holes.md). The three-door map + the response function:
-the derivation log ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)).
+Genesis: [PRTOE_white_holes.md](PRTOE_white_holes.md). The three-door map:
+[PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b, read through
+[PRTOE_quantum_trio.md](PRTOE_quantum_trio.md). The open derivations:
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md).
