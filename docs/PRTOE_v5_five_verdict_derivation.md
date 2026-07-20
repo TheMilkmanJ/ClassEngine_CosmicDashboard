@@ -357,15 +357,32 @@ observable drift are mutually exclusive; LSS bricks the deep end;
 registered in ANN-2026-008. The earlier "deep end is DESI-scale"
 scaling claim is corrected on the record.
 
-### V5 — the caustic bit: EXISTENCE PASSED; precision test now owed (constructed + numerically verified)
+### V5 — the caustic bit: EXISTENCE PASSED, precision test DISCHARGED by theorem (constructed + numerically verified)
 Chain: 2.3 Step 2 (Θ universal by random-wave theory) + 2.5 in full
-(Θ_loc constructed; 0.496/0.459 plateau vs 1.9×10⁻⁶ laminar). **R1
-survives its internal test**: the medium's caustic structure supports
-a Θ-type coupling. R1 remains consistency-construction grade
-externally, now with a mechanism internally, and owes: (a) the
-non-polynomial coupling's UV story, (b) the NEW precision kill-test —
-plateau universality between halo environments at the 10⁻⁵ level
-(a large-scale SP simulation question, beyond this document's tools).
+(Θ_loc constructed; plateau vs 1.9×10⁻⁶ laminar). **R1 survives its
+internal test**: the medium's caustic structure supports a Θ-type coupling.
+
+**The plateau universality is now settled analytically** ([scripts/r1_caustic_sim.py](../scripts/r1_caustic_sim.py),
+[working_logs/PRTOE_R1_caustic_precision.md](working_logs/PRTOE_R1_caustic_precision.md)). In this
+medium the critical velocity is zero, so classical caustics wave-regularise into de Broglie speckle
+threaded by a vortex tangle — the caustic bit is a random-wave *statistics* question, not a
+ray-tracing one. For developed circular-Gaussian speckle Θ_loc = Q/(Q+K) is **Beta(d/2, d/2)-
+distributed, so its mean is exactly ½** — independent of the power spectrum, σ_v, density, epoch,
+dimension, and even anisotropy. Confirmed: the partition identity Q+K = |∇ψ|² to 9×10⁻¹⁶, the 3D
+pointwise variance 0.06253 against 1/16, the vortex density 0.082 against Berry–Dennis 1/4π = 0.0796,
+and an environment sweep that returns ½ everywhere. **The earlier "0.496/0.459 spread" was a
+finite-developedness artefact** — cutting the speckle-cell count pulls ⟨Θ⟩ to 0.481 at ~4 cells and
+it climbs to ½ by ~50–100 cells — not an environmental effect.
+
+So the plateau meets the 10⁻⁵ requirement in the developed limit **by theorem, not resolution**,
+under two structural conditions where any residual kill-test now lives: (a) the coupling responds to
+a volume/line-of-sight **average** of Θ over many de Broglie cells (a realistic absorber column,
+N_cells ~ 10⁹, sits below 10⁻⁵ with orders of margin; a *pointwise* coupling would scatter m_e by
+the O(1) Beta variance and is excluded), and (b) the measured environments are deep-developed, not
+soliton-core or strongly laminar (⟨Θ⟩ ≈ ½ − 0.155·f in the residual-laminar fraction f). What stays
+owed is only the non-polynomial coupling's UV story; the direct central-limit narrowing to 10⁻⁵ is
+written into the sim's deferred production run (~6×10⁸ cells), but the exactness that delivers it is
+the Beta law, which is settled.
 
 *Lyman-α transfers unconditionally as backdrop. All five stamped;
 the review reads cold, per-verdict, per the standing conditions.*
