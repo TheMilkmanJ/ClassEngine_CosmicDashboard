@@ -38,8 +38,17 @@ place to assume the shift is negligible.
 
 - **Citations** — checked against `BIBLIOGRAPHY.md` 2026-07-19. Three gaps found and closed:
   PArthENoPE (underwrites the deuterium theory error, and therefore whether the BBN joint reads
-  p = 0.02 or p = 0.21), and arXiv 2606.06495 / 2508.09025 (the source for the 2–3.6σ varying-m_e
-  preference the letter quotes).
+  p = 0.02 or p = 0.21), and arXiv 2606.06495 / 2508.09025 for the varying-m_e support.
+  **Corrected 2026-07-20 — that second citation did not say what it was cited for.** The letter
+  read "varying-m_e preferred at 2–3.6σ by other groups", and neither paper supports it:
+  arXiv:2508.09025's own number is m_e/m_e₀ = 1.0081 ± 0.0046, a **1.8σ** preference, and
+  arXiv:2606.06495 quotes no significance and concludes the *opposite* — that varying m_e cannot
+  fully resolve the tension once DESI DR2 BAO is added. The string "2.5–3.6σ" lives verbatim in a
+  third paper (arXiv:2607.13282) as the **residual tension left over** by the best-performing
+  models. A leftover was being quoted as a preference. The letter now gives Hart & Chluba's 3.5σ
+  and the recent 1.8σ separately, and states that this mechanism class is outscored by early dark
+  energy on the field's own common-framework comparison. **Check any remaining citation in the
+  letter against its abstract, not against a doc that quotes it.**
 - **The m_ββ window** — recomputed independently. The letter's terms (1.52, 2.67, 1.10) reproduce on
   m₁ = ρ_Λ¼ = 2.25 meV, and the window is **[0.04, 5.3] meV**. An earlier revision of this file
   carried it as [0.02, 5.3] on the grounds that the floor nearly halves across a 1.5% spread in the

@@ -128,7 +128,7 @@ systematics at few x 1×10⁻² mag). Leans against the phantom-locked drift;
 dataset-dependent and contested, exactly as quoted.
 **Priority context:** the dyad's components exist independently in the
 2025-26 literature — varying-m_e vs ACT DR6+DESI DR2 (arXiv 2606.06495,
-2508.09025; m_e variations PREFERRED at 2-3.6σ, with the same
+2508.09025; m_e variations preferred at 1.8σ there (m_e/m_e₀ = 1.0081 ± 0.0046 — the older Planck-era 3.5σ is Hart & Chluba 2020), with the same
 partial-relief ceiling we found), and null-sound-speed unified dark
 fluids (Kou & Lewis 2026; also 2509.25088's dark-radiation→matter→DE
 k-essence sequence matching the completion's three phases). The

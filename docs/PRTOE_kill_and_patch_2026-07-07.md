@@ -14,7 +14,7 @@ partially held — recorded with the same ink as the successes.*
 
 1. **Novelty ⊥ fit (headshot-class):** the only part of the dyad that touches
    current data is the varying-m_e shift — and it is NOT original (varying-m_e
-   is independently preferred at 2-3.6σ in the 2025-26 literature, same ceiling,
+   is independently supported (Hart & Chluba 2020 at 3.5σ; the 2025-26 ACT+DESI fit at 1.8σ), same ceiling,
    LIT-2026-001). PRTOE's original content is the *unification* (one medium
    sources fluid + m_e coupling), which is exactly the un-derived, possibly
    census-forbidden joint. Delete the ontology, lose no fit.

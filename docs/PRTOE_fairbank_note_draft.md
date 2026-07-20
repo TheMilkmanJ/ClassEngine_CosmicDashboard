@@ -143,8 +143,15 @@ argued for, it is yours to use.
 ΛCDM-conditional analyses increasingly squeeze Σm_ν toward and below the 59 meV oscillation floor —
 the "negative neutrino mass" tension. This model replaces CDM+Λ with one fluid, ΛCDM-degenerate at
 background and linear level and verified numerically to five decimals, plus the electron-mass shift
-at recombination in the Hart–Chluba implementation. Varying-m_e is independently preferred at
-2–3.6σ by other groups on Planck+ACT+DESI stacks.
+at recombination in the Hart–Chluba implementation. Varying-m_e has independent support, and it is
+worth stating at its real strength rather than its most flattering: the Planck-era analysis that
+opened the line found **3.5σ** (Hart & Chluba 2020), while the recent fit on ACT DR6 + DESI DR2
+returns m_e/m_e₀ = 1.0081 ± 0.0046 — a **1.8σ** preference — and a second recent analysis on those
+stacks concludes that varying m_e cannot fully resolve the tension once DESI DR2 BAO is included.
+**And the field's own common-framework comparison does not favour this mechanism class:** across
+fourteen models in one pipeline, early dark energy scores −ΔAIC 23.40 and leaves a residual 2.51σ,
+against varying m_e's 12.58 and 4.25σ (Schöneberg et al. 2026). We are not the best-performing
+route to H₀ on the current scoreboard, and this letter's case does not rest on our being so.
 
 The shifted calibration frees the damping-tail budget that ΛCDM fits spend against the neutrino
 mass, so model-conditional fits leave Σm_ν near its physical value: the same data, room instead of
