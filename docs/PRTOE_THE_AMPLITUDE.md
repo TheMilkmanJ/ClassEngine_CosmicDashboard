@@ -22,7 +22,9 @@ running α_c chain owns the verdict. The decomposition's three factors, each sep
 refereed: c = 9/10 (the census over the universal charged-fermion roster, not the dyad's
 leptophilic subset; selected over 12/13 by the dark-energy–neutrino tie — the meV coincidence is a lock
 only if the lightest neutrino mass is direct-Majorana, seating it on the medium's tenth channel → 9/10,
-conditional on the tie being a lock; the f̄ ensemble / α_c chain is the independent check), f̄ (the winding
+conditional on the tie being a lock **and on an equal share per channel, which the framework does not
+force** — the ε-blind ensemble confirms the value at −0.08σ but at its width excludes neither 12/13
+nor the charge²-weighted 8/9, which sits 0.30σ away), f̄ (the winding
 average; fit-implied 0.6253, simulation 0.635, closed-form claim 2/π = 0.6366 — a live
 triple), and α_c = 3α (a pre-registered bet, P-2026-040, decided by the running chain).
 

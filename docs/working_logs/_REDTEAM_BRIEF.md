@@ -25,7 +25,7 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 ## RETIRED / WITHDRAWN — must never appear as a live claim
 
 - **`f_amp` decomposition** (ε = c·f_amp·Ψ₀/M_red) — retired; standing is ε = c·f̄·α_c
-- **`c = 1`** (the UV conformal-origin candidate) — dead; c = 9/10 is derived. *(`c ~ 1` meaning "order unity" is fine.)*
+- **`c = 1`** (the UV conformal-origin candidate) — dead; the standing value is c = 9/10, a **counting assumption the data confirms** (do not defend it as *derived*: no single census criterion returns 9/10, and the ε-blind ensemble confirms without separating 9/10 from the charge²-weighted 8/9 — #126). *(`c ~ 1` meaning "order unity" is fine.)*
 - **D/H `2.470340` / `2.454498` / `2.4305`** — PRyM-DEFAULT-ω_b absolutes, **WITHDRAWN** (process error 38). Relative effects only.
 - **D/H `2.468`** — the v5-era champion's value; superseded by the ramp
 - **D/H scar `−1.2σ` / `−2.0σ`** — v5-era; the standing ramp is **−2.9σ**

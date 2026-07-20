@@ -15,7 +15,10 @@ everywhere atomic physics appears.
 ## 2. Strongest claims (graded honestly)
 - **ε = c·f̄·α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%**, against the sky's fitted ~1.24% — zero
   dials. *Compound grade: two factors derived, one a registered bet — so the stack's effective grade
-  is the bet's.* c = 9/10 is derived (conditional on the ρ_Λ¼ = m_ν tie holding as a lock);
+  is the bet's.* c = 9/10 is a **counting assumption the data confirms** — conditional on the
+  ρ_Λ¼ = m_ν tie holding as a lock, and on an equal share per channel, which the framework does
+  not force (the ε-blind ensemble lands at 0.903, −0.08σ, but at its width does not exclude the
+  neutrino-inclusive 12/13 or the charge²-weighted 8/9);
   **f̄ = 2/π is derived** — the winding's many-turn equidistribution forces ⟨|cos|⟩, with the coupling
   form data-selected; the simulation's 0.635 ± 0.026 confirms it to +0.3% and is the check, not the
   source. α_c = 3α is a registered bet, decided by a running chain, currently ~2% above where data

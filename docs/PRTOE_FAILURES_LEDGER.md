@@ -238,6 +238,70 @@ every Yukawa operator with INDEPENDENT coefficients → no gauge symmetry forces
 **#125 is open, and wider than its title: the gap is not kinetic-versus-Weinberg but
 portal-selection among singlet-multiplied operators.** Docket #125.
 
+### #125 CLOSED — the portal is assumed, the roster was short one operator, and the retirement over-reached (2026-07-20)
+
+**Three findings, and the middle one is the useful one.**
+
+**(i) The title's fork does not exist, and neither leg survives.** "Why the kinetic term rather
+than only the Weinberg operator" needed both horns and has neither. The Weinberg operator reaches
+**δm_ν alone at any coefficient** — it cannot deliver the charged-lepton shift the flagship is
+built on, so it was never an alternative to be argued against. And the privilege it seemed to hold
+came from "the medium is made of the neutrino sector", i.e. the dyad-as-Majoron identity, retired
+in the row above.
+
+**(ii) The retirement above over-reached, and the correction matters.** It reads the kinetic-term
+class as "an operator its own roster excludes". The roster excludes the **linear** realization
+Z_L = 1 + Ψ/f_L, and nothing more: **Z_L = 1 + |Ψ|²/Λ² is even, sits squarely on the recorded
+roster, and reproduces δm_ν = 2·δm_e exactly** — the charged mass carries one power of L, the
+Weinberg operator two. So the factor-2 content did not die with the linear term. What it is,
+correctly stated, is not a separate operator at all but a **correlated point** in the
+two-coefficient space {|Ψ|²L̄He, |Ψ|²(LH)(LH)}: one parameter instead of two, reachable from the
+other by a field redefinition of L. Nothing selects the correlated point — the corpus's own no-go
+says a singlet couples to every Yukawa operator with an independent coefficient — and **nothing
+can**: it moves Σm_ν by 1.5 meV inside a window whose exit restores the present-day mass the sky
+measures. `source/background.c` runs the correlated point (m_ν ∝ m_e²) and its comment credited it
+to the retired mechanism; the comment now carries the grade instead.
+
+**(iii) The roster was short its lowest-dimension member, and the omission was the dangerous one.**
+A dimension-2 dark singlet's Standard-Model partners order by dimension: **H†H at total dimension
+4 — renormalizable, unsuppressed, always allowed** — then the lepton bilinear at 6, then the
+Weinberg operator at 7. The corpus listed the second and third and not the first. It matters
+because H†H shifts the Higgs vev and so moves **every** mass including the quarks, which is the
++12–18σ D/H catastrophe the model spends the rest of this section avoiding: the bound is
+**λ_p ≲ 5×10⁻¹¹…1×10⁻⁹** across f = 100–500 TeV.
+
+**And the news there is good, which is why it is worth having computed rather than argued.** The
+standing dimension-6 lepton operator feeds H†H back through one electron loop at
+λ_p ≈ ε·y_e²·(Λ_UV/4πf)² ≤ **1.1×10⁻¹³** — from ~500× under that bound at its tightest corner
+(biggest cutoff, biggest f) to ~10⁶× under at the loosest, worth at most **2×10⁻³σ** on D/H. Setting the renormalizable
+portal aside is **radiatively stable**, so the selection costs no tuning inside the effective
+theory. What it assumes is that the completion above f writes the lepton operator and not the other
+two — the same assumption λ_dyad's origin already carries, and no new debt.
+
+**The grade, and it is a permanent one rather than a debt.** The portal is **data-narrowed and
+assumed**: data excludes H†H and the quark bilinear at ε, the Weinberg operator cannot deliver, and
+what stands is the lepton bilinear by elimination with the doublet correlation assumed on top. It
+does not become derivable by further desk work, and its one discriminating observable is
+unreachable. `PRTOE_MATH_SPINE.md` §0 carries the roster and the grade; the "genuinely owed" list
+no longer carries the portal, because an assumption named at its price is not a debt.
+
+**Propagation, run on the conclusions rather than the wording (check 14).** `me_mechanism_math` §10
+still carried the whole construction — a **LOCKED PREDICTION**, a *derived* f_L = 2.3×10¹¹ GeV
+(six orders from the standing f ≈ 100–500 TeV), and a **[CLOSED]** grade on the kinetic-vs-Yukawa
+fork; `PREREGISTERED_PREDICTIONS` P-006 re-asserted *"the same symmetry … lepton number forbids
+it"* **three lines below the correction that withdrew it**; `weakest_joints_and_cprep` still read
+*"The dyad **is** the Majoron"*. All corrected.
+
+*One near-miss worth recording, because it is check 21's direction — a correct number nearly
+overwritten with a wrong one and filed as a fix.* This pass read `bbn_witness` and
+`me_mechanism_math` carrying the loop floor as **(α/4π)²** against the **(α/π)²** the harness
+guards, and changed both. That was wrong and is reverted: #185's ruling in
+[`_CANONICAL_VALUES.md`](working_logs/_CANONICAL_VALUES.md) had landed in the same hour and settles
+it — the naive two-loop counting **is** (α/4π)² = 3.37×10⁻⁷ and those two files are self-consistent
+with it, while the downstream (α/π)² is a deliberately conservative overestimate. Two objects, both
+right, and the adjudicator says so. **The lookup existed and the row was newer than the read that
+opened the file** — re-check the canonical values before writing, not only before starting.
+
 ### The n_s 2D-Gaussian χ² mechanism (the direct δ ~ h² spectral reading) — KILLED by its own owed step
 
 **What it claimed (candidate, 2026-07-17):** the tilt n_s − 1 = −2/ln(M_Pl/T_on) derived from the
@@ -565,7 +629,8 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 |---|---|---|
 | The "residual = dressing" identity used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; the 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
 | The triangle's "0.1% match" | x₀ is a free dial whose band covers the target — the triangle selects, not confirms; arrow A = consistency-only | overstated, corrected |
-| The two-census marriage (c's recipient-split vs the scalar delivery) | **AUDITED 2026-07-20 (#126), and the step does not close.** Walked, the blindness premise gives the wrong roster: the G-closure rebuild ran the same law and returned *every field in the vacuum*, catching "the medium's 9 fermions" as an error there — so gravity-routed, the count is not 9/10; not gravity-routed, a singlet scalar's independent per-operator coefficients leave no democratic warrant. Compounding it, membership on the roster is decided by *charge* (the seat argument's "needs charge to grab") while the weights are decided by *blindness*. **c = 9/10 is data-selected, not framework-forced**; the value keeps its independent support (ε-blind ensemble, −0.08σ). The definition itself had been lost from the live corpus in the 2026-07-16 hunt rewrite and is now restored to [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1 | OPEN — owed: the explicit two-stage argument, or its death |
+| The two-census marriage (c's recipient-split vs the scalar delivery) | **AUDITED 2026-07-20 (#126), and the step does not close.** Walked, the blindness premise gives the wrong roster: the G-closure rebuild ran the same law and returned *every field in the vacuum*, catching "the medium's 9 fermions" as an error there — so gravity-routed, the count is not 9/10; not gravity-routed, a singlet scalar's independent per-operator coefficients leave no democratic warrant. Compounding it, membership on the roster is decided by *charge* (the seat argument's "needs charge to grab") while the weights are decided by *blindness*. **c = 9/10 is data-selected, not framework-forced**; the value keeps its independent support (ε-blind ensemble, −0.08σ). The definition itself had been lost from the live corpus in the 2026-07-16 hunt rewrite and is now restored to [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1. **CLOSED 2026-07-20 by the death, not the argument** — see the row below | RETIRED (#126) |
+| **The gravity-routing licence for the democratic count** — "gravity is blind, so the budget splits democratically over the census of participants" | **RETIRED 2026-07-20 (#126), and by exhaustion rather than by a failed calculation.** The count needs *membership* from one criterion and *weights* from another, and both are properties of one coupling. Run either alone and it does not return 9/10: **blindness** reads energy rather than identity, so it weights by energy over every field present — the roster the G-closure rebuild returned under this same law — and stops nowhere near nine; **charge** (the seat argument's "the ε-channel dresses the EM fraction of an electroweak mass, and it needs charge to grab") selects the nine but then weights them too, Σ N_c Q² = 3 + 4 + 1 = **8**, giving **c = 8/9 = 0.8889** and ε = 16α/3π = 1.2388%; and carried all the way, with the neutral seat weighing zero, charge returns **c = 1**, which the census independently excludes. A coupling selective enough to build a charged roster is not blind, and a blind one does not stop at nine — so this is not a gap that further desk work fills. **What survives is the conclusion, not the reason** (check 14a: the principle dies, the number stands): c = 9/10 is a **counting assumption the data confirms**, ε-blind ensemble at −0.08σ. **And the data does not adjudicate the fork the licence was invoked to settle** — at the ensemble's ±0.0375 the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, and 12/13 sits +0.53σ; the pre-registered separating width is σ_c ≤ 0.0115, a 3.3× sharpening not in hand. Propagated the same pass: `THREE_EQUATIONS` opened its c bullet with the blindness derivation *and* excluded 8/9 by it, `THE_AMPLITUDE`, `READERS_RISK`, `fingerprint_lattice`, `weakest_joints_and_cprep` and `DEPENDENCY_TREE` all still graded c **derived** or called 12/13 disfavoured without naming by what | RETIRED (#126) — the value keeps its grade, the licence is withdrawn |
 | n_s under the clock ambiguity | 0.9638–0.9640 both ways | PASS |
 
 ## 7. Superseded-claims index (the derivation log's corpses, per the separation law)
@@ -1631,6 +1696,40 @@ was booked the same day as the closure it differentiates, with no step shown bet
 **The lesson (process).** *A closed form is not a derivation, and the more it looks like one the
 less likely anyone is to differentiate it themselves.* The check took one line of arithmetic and
 had never been run.
+
+**A second correction, to the data the entry quotes (2026-07-20, #102).** The **−0.54σ** above is
+wrong, and so was the −0.31σ it replaced, for three compounding reasons — none of them the slope.
+
+*(i) The sign of δθ was inverted.* Recomputed three independent ways — the direct circulant fit,
+and solving the phase from m_τ/m_e and from m_μ/m_e separately with A fixed by Q alone —
+θ_B = 0.2222296315 rad against 2/9 = 0.2222222222, so **δθ = +7.409×10⁻⁶, positive**, in every
+ring convention that puts θ_B near 2/9 at all. The corpus already carried the contradiction:
+P-2026-057 records θ_B = **+**0.222229 rad and calls its sign "not in doubt".
+
+*(ii) Both deviations were propagated from rounded displays, not from the masses* (audit protocol
+check 21). δA was taken as 1.414200 − √2 = −1.36×10⁻⁵ where the source A = 1.4142005 gives
+**−1.3057×10⁻⁵**; δθ as radians(132.7328 − 120) − 2/9 = 7.06×10⁻⁶ where the masses give
+**7.409×10⁻⁶**. A deviation is a difference of nearly equal numbers, so a display rounded at the
+seventh digit puts 4–5% of pure rounding into it — the check-21 signature, amplified by the
+subtraction.
+
+*(iii) The σ was taken on one axis rather than on the residual.* m_e and m_μ are known to 3×10⁻¹⁰
+and 2×10⁻⁸, so both deviations are functions of m_τ alone and are anti-correlated at **exactly −1**.
+The residual off the corrected line is **+9.461×10⁻⁶ ± 1.061×10⁻⁵ = +0.89σ**.
+
+**What it costs, and what survives.** The verdict survives in kind — the data is consistent with
+the closure — but three things change. The pair sits on the side of the line the closure does not
+predict (a positive slope wants δA and δθ same-signed; they are opposite-signed). The margin is
++0.89σ, not −0.54σ. And **the lock's scope is far narrower than registered**: with one degree of
+freedom, every statement in the sector is a prediction of m_τ — Q = 2/3 needs 1776.96903 MeV, the
+phase watch 1776.96651, the closure 1776.96705, against a measured 1776.86 ± 0.12 — and those span
+2.52 keV, or 1.42 ppm. Below that precision, testing the closure and testing A = √2 are the same
+measurement. The registration now states the separating test instead.
+
+**How it survived.** The same way the slope did: the entry that found the slope error re-derived
+the *line* and re-quoted the *data row* beneath it unchanged. A correction pass re-checks the
+object it came for, and the numbers standing next to that object inherit its credibility without
+being touched — which is why the row survived two audits with its sign inverted.
 
 ### THE 3.5×10¹⁷ GeV "PORTAL SCALE" — A PRE-DYAD PLACEHOLDER FOR A SCALE THE MODEL DOES NOT CARRY (2026-07-19)
 

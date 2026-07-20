@@ -256,7 +256,7 @@ The empirical fit (m_e = 1.012543, fits the CMB) is UNTOUCHED by all of the
 above -- this document concerns the MECHANISM's legality/derivation, not
 the data.
 
-## 10. The leptonic origin -- why m_e and not m_q [MECHANISM DERIVED, magnitude OPEN] (2026-07-09)
+## 10. The leptonic origin -- why m_e and not m_q [DATA-NARROWED, the operator ASSUMED] (2026-07-09)
 
 BBN (the data ruling — the windowed program) REQUIRES the coupling be leptonic: a universal mass shift is 12-16σ
 dead via the D/H quark→pion→deuteron channel (dln(D/H)/dln m_q ~ 15 vs dln m_e ~ 0.5,
@@ -268,71 +268,62 @@ symmetry forces leptonic. Froggatt-Nielsen also fails -- the light quarks (u,d) 
 FN charges comparable to the electron's, so a generic flavon shifts m_q and re-triggers
 BBN. Leptophilia is neither a gauge nor a generic-flavor consequence.
 
-MECHANISM (uses P-2026-012: DE floor scale = lightest m_ν, so the medium lives in the
-lepton-mass sector). Neutrino mass rides the lepton DOUBLET L (Weinberg (LH)(LH)/Λ);
-quarks have no such operator, so the medium has no reason to couple to Q. Minimal
-coupling = a field-dependent kinetic renormalization of L:
+WHAT IS ACTUALLY ON OFFER (the operator roster, #125). The portal must be **even** in the
+dyad field, so what multiplies a Standard-Model operator is the dimension-2 singlet |Ψ|².
+Three couplings are available, ordered by dimension:
 
- Z_L(Psi) = 1 + Psi/f_L [dim-5: (Psi/f_L) * L-bar iD-slash L]
+ |Ψ|² H†H [dim 4, renormalizable] → shifts the Higgs vev → EVERY mass, quarks included
+ |Ψ|² L̄He [dim 6, → m_e ψ̄ψ after EWSB] → δm_e alone — THE STANDING CHOICE
+ |Ψ|² (LH)(LH) [dim 7] → δm_ν alone; cannot reach δm_e at any coefficient
 
-Canonical normalization of L rescales every lepton coupling by Z_L^(-1/2):
+The renormalizable one is the one the model must do without: a universal shift at ε is
++12–18σ on D/H, which bounds λ_p ≲ 5×10⁻¹¹…1×10⁻⁹ across f = 100–500 TeV. **That exclusion
+is affordable and the statement is computed**: the standing dim-6 lepton operator feeds
+H†H back through one electron loop at λ_p ≤ ε·y_e² ≈ 1.1×10⁻¹³ (Λ_UV = 4πf; 6.8×10⁻¹⁶ at
+Λ_UV = f) — from ~500× under the bound at its tightest corner to ~10⁶× under at the loosest —
+so the induced universal shift reaches at
+most 2×10⁻³σ on D/H. No tuning is spent inside the effective theory; what is assumed is
+that the completion above f writes the lepton operator and not the other two.
 
- charged lepton (one L): m_e ∝ Z_L^(-1/2) ⇒ dm_e/m_e = -1/2 (dPsi/f_L)
- neutrino (two L's): m_ν ∝ Z_L^(-1) ⇒ dm_nu/m_ν = -(dPsi/f_L)
+WHY THE ELECTRON, and it survives the roster change: the operator shifts all charged
+leptons equally (e, μ, τ); only electrons are present at recombination (μ, τ decayed), so
+the electron is the charged lepton PRESENT, not a chosen flavour. No flavon needed.
 
-Consequences:
- - BBN-safe by DISCONNECTION (not a dodge): Psi couples to L only; the quark/pion/
- deuteron channel is simply not connected.
- - WHY THE ELECTRON: Z_L shifts all charged leptons equally (e,μ,τ); only electrons
- survive at recombination (μ,τ decayed) → the electron is the charged lepton
- PRESENT, not a chosen flavor. No flavon needed.
- - L1-CLEAN: the medium's SUBSTANCE (lepton-mass sector), not its gravitational
- INTERFACE (identity-blind coupling). Interface-vs-substance (laws doc) → no census
- violation. The "L1 wants universal" tension of the prior session is DISSOLVED.
+THE FINER FORK — one coefficient or two. Writing |Ψ|² into the lepton DOUBLET's
+normalization rather than into each mass operator separately correlates them: the charged
+mass carries one power of L and the Weinberg operator two, so
 
-LOCKED PREDICTION (of the kinetic-Z_L coupling specifically):
- dm_nu/m_ν = 2 * dm_e/m_e = 2.51% at recombination.
- The factor 2 is operator counting (two L's vs one), no free knob. It DISCRIMINATES
- mechanisms: a direct Yukawa (Psi/f) L-bar H e shifts m_e with NO neutrino link
- (ratio 0). CMB consequence of dm_nu ~ 1.5 meV on Σm_ν (~0.06x sensitivity) --
- safe, currently unfalsifiable, a consistency consequence not yet a handle.
+ δm_ν/m_ν = 2 · δm_e/m_e = 2.51% inside the window
 
-MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09):
- (a) f_L is DERIVED, not free. From ρ_dm(rec)=Om*ρ_c*(1+z)³ and ρ~m² Psi²:
- Psi_rec = √(ρ)/m = 5.8×10¹⁸ eV (~6×10⁻¹⁰ Mpl); f_L = Psi_rec/(2*dm_e) = 2.3×10²⁰ eV
- = 2.3×10¹¹ GeV. An INTERMEDIATE / seesaw-adjacent scale, fixed by (abundance, mass,
- amplitude) -- it adds NO new free parameter. [CLOSED]
- (b) The coupling PROFILE is forced to be CONDENSATION-TRIGGERED, not smooth in Psi.
- A smooth linear Z_L=1+Psi/f_L gives dm_e ∝ Psi ∝ a⁻³/2, hence dm_e(z=2) ~ 1.8×10⁻⁶
- -- AT the quasar bound (|dm_e/m_e|<~1×10⁻⁶ at z~1-3). The model AVOIDS this with the
- z=50 STEP (dm_e=0 below z=50; the condensate/transition reading, see [28]). So the
- explicit coupling must switch AT condensation (a step in Z_L), which both matches
- the code and dodges quasars. This ties [10] to the [28] reconciliation. [RESOLVED
- to "condensation-step", not smooth.]
- (c) The loop, worked (2026-07-09). Minimal potential V(Psi)=ρ_inf + 1/2 m² Psi²
+with the factor 2 pure operator counting. Independent coefficients leave δm_ν free instead.
+**Nothing selects between them and nothing can**: the correlated point moves Σm_ν by 1.5 meV
+inside a window whose exit restores the present-day value the sky measures — observationally
+identical to the free case. The pipeline runs the correlated point (`background.c`, m_ν ∝ m_e²).
+[ASSUMED — docket #125]
+MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09, re-keyed to the standing operator):
+ (a) The coupling PROFILE is forced to be CONDENSATION-TRIGGERED, not smooth in the field.
+ A profile that tracks the field's own redshift gives dm_e(z=2) ~ 1.8×10⁻⁶ -- AT the
+ quasar bound (|dm_e/m_e| <~ 1×10⁻⁶ at z~1-3). The model AVOIDS this with the z=50
+ STEP (dm_e=0 below z=50; the condensate/transition reading, see [28]). So the shift
+ must switch AT condensation and be gated thereafter, which both matches the code and
+ dodges quasars. This ties [10] to the [28] reconciliation. [RESOLVED to
+ "condensation-step", not smooth.]
+ (b) The loop, worked (2026-07-09). Minimal potential V(Psi)=ρ_inf + 1/2 m² Psi²
  (DM oscillation early, DE floor late). It CLOSES TO CONSISTENCY: the DM→DE
  transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
  ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4) = 2.25 meV =
  m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
  is P-2026-012's POSIT, not derived. So the last residual is the cosmological-
  constant question -- no longer a PRTOE-specific gap, the universal one. [REDUCED to CC]
- (d) kinetic-Z_L vs direct-Yukawa: RESOLVED (2026-07-09). The medium lives in the lepton
- sector via NEUTRINO mass, which rides L (Weinberg, two L's) → the natural coupling
- is TO L = the kinetic Z_L. A Yukawa (Psi/f)L-bar H e touches the charged-lepton
- Yukawa only, no route to m_ν = unmotivated. So the neutrino-sector home SELECTS
- kinetic → dm_nu = 2 dm_e is the LOCKED prediction, not one of two options. [CLOSED]
 
-CAVEAT (2026-07-10) -- the deeper gap this section does NOT close. "The
-medium is made of the neutrino sector" strictly implies a coupling to the WEINBERG operator
-(→ dm_nu only). Reaching dm_e requires coupling to L's KINETIC term (Z_L), which is an
-ADDITIONAL step beyond "makes neutrino mass" -- and THAT step is the leptophilia postulate
-itself (dm_e is the charged-lepton Higgs-Yukawa L-bar H e = quark-structured, a no-go).
-So the census refinement "couple to what you're made of" (laws doc, 2026-07-10) RENAMES the
-leptophilia gap "substance" but does not close it: it legalizes a dm_nu coupling; the dyad
-is dm_e. The un-derived core is precisely "why couple to L's kinetic term (reaching dm_e)
-rather than only the Weinberg operator (reaching only dm_nu)." The mechanism here is a
-coherent, motivated SKETCH; the explicit dm_e coupling from a neutrino-sector medium stays
-[OBJECT-PENDING], prior unfavorable. The assessment did not move.
+WHAT THIS SECTION DOES NOT CLOSE, stated exactly. The delivering operator is not selected by
+any symmetry the model carries: a gauge singlet couples to every Yukawa operator with an
+INDEPENDENT coefficient, which is this section's own no-go read forwards. Data does the
+excluding -- H†H and the quark bilinear at ε are both +12–18σ dead on D/H, and the Weinberg
+operator reaches no charged mass at all -- so what remains standing is the lepton bilinear by
+elimination, with the doublet-normalization correlation an assumption on top of it. That is
+the honest grade: **the portal is data-narrowed and assumed, not derived**, and its one
+discriminating observable is unreachable. Docket #125.
 
 LEDGER UPDATE to Section 9: the EP-screening computation [7] is now RESOLVED (2026-07-09):
 the composition-dependent Vainshtein-screened Delta_a/a = 8×10⁻²¹..8e-19, 3-5 orders below
@@ -340,7 +331,8 @@ MICROSCOPE (screened regime, cubic galileon); EP gate CLEARS, favorable-prior, s
 caveat a non-standard eps_V^(1/2) power (numerical galileon solve would fully discharge).
 So varying-m_e is single-gated on DESI. And the leptonic-origin MECHANISM (this section)
 moves item [2]'s "census-scope legality" from OPEN toward RESOLVED via interface/substance
--- the coupling is legal as substance; magnitude (a,b) remains the open frontier.
+-- the coupling is legal as substance. What stays open is not the legality but the *selection*:
+which legal operator delivers δm_e, graded assumed above (#125), and the CC value the loop reduces to.
 
 ---
 

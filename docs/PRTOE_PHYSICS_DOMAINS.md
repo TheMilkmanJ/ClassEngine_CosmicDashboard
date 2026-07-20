@@ -638,10 +638,12 @@ gravity residuals attributable to the dark sector.*
 
 **31. Deuterium cosmology (PRIMAT) — PREDICTS.** The scar: **−2.5 to −1.4σ** carried
 honestly on the standing 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
-inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The dyad cannot heal it (the
-Majoron couples to L; quarks carry L = 0, tree coupling zero) — D/H stands at −2.5 to −1.4σ with no rescue.
+inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The dyad cannot heal it: its
+portal is the total singlet |Ψ|², which reaches the quark bilinear only at two EW/EM loops and
+delivers 20 000–31 000× too little, and a universal shift at ε is independently 12–18σ dead on D/H
+— so D/H stands at −2.5 to −1.4σ with no rescue.
 P-2026-006's co-signed amendment (δm̂/m̂ = +0.14–0.21% at BBN) is retained only for a hypothetical
-future non-Majoron lever. *Hook: a scar resolving to >3σ against us wounds the dyad's BBN books.*
+future lever sourced outside this sector. *Hook: a scar resolving to >3σ against us wounds the dyad's BBN books.*
 
 **32. The lithium problem — PREDICTS (mandatory co-signature).** If
 P-2026-006's quark-mass amendment is real, ⁷Li must move −7..13% — the

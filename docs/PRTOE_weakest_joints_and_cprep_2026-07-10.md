@@ -143,16 +143,18 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
   suggestive, SHOES-conditional interim. The sharpest independent instrument has firmed: the
   dark-ages trough at +0.40 MHz (16.0 → 16.4 MHz class), an astrophysics-free channel for
   lunar-farside instruments, beside the ratio-lock and P-2026-007.
-- **J5 (leptophilia) — identified.** The dyad **is** the Majoron; the coupling follows the lepton
-  current (quarks carry L = 0, tree coupling zero — the configuration's own survival condition
-  at BBN). The kinetic-Z_L mechanism holds the sketch with its honest caveat: why the kinetic
-  term rather than only the Weinberg operator remains the un-derived core.
+- **J5 (leptophilia) — carried by data, and the portal is the residue.** The dyad is a separate
+  field from the Majoron, and its portal is the total singlet |Ψ|², which is L-neutral — so lepton
+  number screens no quark bilinear. What holds the quarks off is loop order (two EW/EM loops,
+  (α/π)² = 5.4×10⁻⁶) and BBN, which kills a universal quark shift at ε by +12–18σ on D/H. The
+  un-derived core is **which Standard-Model operator the singlet multiplies** — docket #125.
 - **J6 (the spurion tie) — carried into the tenth-channel seating** (m₁ = κ_m·ρ_inf¼), with the
   0νββ window [0.04, 5.3] meV and the nEXO overlap as its new falsifiable consequences.
 - **J7 (the abundance) — routed, one integral owed.** η via AD-direct = n_L(genome)/s × transfer;
   the frozen-era transfer fraction is the named debt (the thermal route is dead, ×40–1000 under).
-- **The ε joint — assembled.** c = **9/10 derived** (the census count, (N−1)/N) and f̄ = **2/π
-  derived** (the winding's roll-up) — both of UPDATE 2's pending values landed at exact forms —
-  with α_c = 3α the registered remaining input. ε = 27α/5π = 1.2543%.
+- **The ε joint — assembled.** f̄ = **2/π derived** (the winding's roll-up) and c = **9/10, a
+  counting assumption the data confirms** (the census count, (N−1)/N; the ε-blind ensemble lands
+  −0.08σ away without excluding 12/13 or the charge²-weighted 8/9) — both of UPDATE 2's pending
+  values landed at exact forms — with α_c = 3α the registered remaining input. ε = 27α/5π = 1.2543%.
 - **The C-code gate — as reset:** PolyChord is the gate and it is running; the B-map above is
   unchanged and untouched.

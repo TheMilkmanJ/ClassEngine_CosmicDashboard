@@ -942,7 +942,8 @@ chk("T6 kernel", "c2*tau = (4/(3ln2))*(ln2/2) == 2/3", 1.0, (4/(3*math.log(2)))*
 chk("T6 kernel", "modulus: rho=1/sqrt2 -> Q=2/3", 1.0, (1/3 + (2/3)*0.5)/(2/3), 1e-12)
 chk("T6 kernel", "B trace: sqrt(4pi/8pi)", 1.0, math.sqrt(0.5)/(1/math.sqrt(2)), 1e-12)
 chk("T6 kernel", "mu_face = (2/9)*Tc at 177.10", 39.4, (2/9)*177.10, 0.005, "keV")
-chk("T6 kernel", "deviation-lock slope 2A/9", 0.3143, 2*math.sqrt(2)/9, 0.001)
+chk("FAILURES_LEDGER", "retired: the P-051 lock slope registered as 2A/9, twice the closure's",
+    0.3143, 2*math.sqrt(2)/9, 0.001)
 chk("T6 kernel", "tangency seed ratio 7+4sqrt3", 13.928, 7+4*math.sqrt(3), 0.001)
 
 # --- the sign-chain walk: face assignment in hop order (2026-07-19) ---
@@ -1057,9 +1058,107 @@ chk("P-2026-056", "Route-D thaw window high edge = 1 + w0(-0.86)", 0.14, 1 + (-0
 # ---- P-2026-057: the Brannen-frame phase whose SIGN the lock predicts (added 2026-07-20)
 # theta_house = theta_B + 120 deg is an exact one-face relabel, so theta_B follows from
 # the measured house phase alone. Its sign is the observable half of the cross-sector lock.
-_THB = math.radians(132.7328 - 120.0)
-chk("P-2026-057", "Brannen phase theta_B from the measured house phase", 0.222229, _THB, 1e-5, "rad")
-chk("P-2026-057", "its distance from 2/9, the deviation lock's axis", 7.06e-6, abs(_THB - 2/9), 2e-2, "rad")
+# theta_B is computed FROM THE MASSES, not from the rounded 132.7328 display: the display
+# carries 3.5e-7 rad of rounding and the quantity of interest, theta_B - 2/9, is 7.4e-6 --
+# propagating the display puts 5% of rounding into a deviation (audit protocol check 21).
+def _koide(mt, _me=0.51099895, _mmu=105.6583755):
+    """(Q, A, theta_B) of the Z3 ring from the three pole masses, exactly."""
+    _s = [math.sqrt(_me), math.sqrt(_mmu), math.sqrt(mt)]
+    _M = sum(_s)/3
+    _Q = (_me + _mmu + mt)/sum(_s)**2
+    _d = [x/_M - 1 for x in _s]
+    _c1 =  (2/3)*sum(_d[k]*math.cos(2*math.pi*k/3) for k in range(3))
+    _s1 = -(2/3)*sum(_d[k]*math.sin(2*math.pi*k/3) for k in range(3))
+    return _Q, math.sqrt(6*_Q - 2), math.atan2(_s1, _c1) - 2*math.pi/3
+_MTAU, _SMTAU = 1776.86, 0.12
+_QM, _AM, _THB = _koide(_MTAU)
+chk("P-2026-057", "Brannen phase theta_B from the measured masses", 0.2222296, _THB, 1e-6, "rad")
+chk("P-2026-057", "the house phase it corresponds to", 132.7328,
+    math.degrees(_THB) + 120.0, 1e-6, "deg")
+chk("P-2026-057", "its distance from 2/9, the deviation lock's axis", 7.409e-6, _THB - 2/9, 1e-3, "rad")
+
+# ---- #102: the deviation lock P-2026-051, stated on the source values ------------
+# Both axes are functions of m_tau alone (m_e and m_mu are known to 3e-10 and 2e-8), so
+# the two deviations are perfectly anti-correlated and the lock's sigma must be taken on
+# the RESIDUAL, not on either axis. Derivatives are analytic-grade central differences.
+_h = 1e-5
+_dQ, _dA, _dTH = [(b-a)/(2*_h) for a, b in zip(_koide(_MTAU-_h), _koide(_MTAU+_h))]
+chk("#102 lock", "delta_A = A - sqrt2 from the masses", -1.30572e-5, _AM - math.sqrt(2), 1e-4)
+chk("#102 lock", "sigma_A from sigma_mtau = 0.12 MeV", 1.4372e-5, abs(_dA)*_SMTAU, 1e-3)
+chk("#102 lock", "so A sits this far from sqrt2", -0.909,
+    (_AM - math.sqrt(2))/(abs(_dA)*_SMTAU), 1e-3, "sigma")
+chk("#102 lock", "sigma_theta from sigma_mtau", 8.3481e-6, abs(_dTH)*_SMTAU, 1e-3, "rad")
+chk("#102 lock", "so theta_B sits this far from 2/9", 0.888,
+    (_THB - 2/9)/(abs(_dTH)*_SMTAU), 1e-3, "sigma")
+# the closure theta = (1 + A^2/2)/9 has derivative A/9, so it predicts the two deviations
+# SAME-signed; the measured pair is opposite-signed, which is what the residual records.
+_res  = (_THB - 2/9) - (math.sqrt(2)/9)*(_AM - math.sqrt(2))
+_dres = _dTH - (math.sqrt(2)/9)*_dA
+chk("#102 lock", "residual off the closure line", 9.4610e-6, _res, 1e-3, "rad")
+chk("#102 lock", "residual in sigma, correlation-aware", 0.892, _res/(abs(_dres)*_SMTAU), 1e-3, "sigma")
+# The lock's testable form: with m_e, m_mu fixed, each watch predicts m_tau.
+def _solve(g, lo=1770.0, hi=1785.0):
+    for _ in range(80):
+        mid = (lo+hi)/2
+        if g(lo)*g(mid) <= 0: hi = mid
+        else: lo = mid
+    return (lo+hi)/2
+_mQ  = _solve(lambda m: _koide(m)[0] - 2/3)
+_mTH = _solve(lambda m: _koide(m)[2] - 2/9)
+_mCL = _solve(lambda m: _koide(m)[2] - (1 + _koide(m)[1]**2/2)/9)
+chk("#102 lock", "m_tau predicted by Q = 2/3", 1776.96903, _mQ, 1e-8, "MeV")
+chk("#102 lock", "m_tau predicted by theta_B = 2/9", 1776.96651, _mTH, 1e-8, "MeV")
+chk("#102 lock", "m_tau predicted by the closure", 1776.96705, _mCL, 1e-8, "MeV")
+chk("#102 lock", "the two watches' m_tau differ by", 2.518, (_mQ-_mTH)*1e3, 1e-3, "keV")
+chk("#102 lock", "which is this fraction of m_tau -- the precision needed to separate them",
+    1.417, (_mQ-_mTH)/_MTAU*1e6, 1e-3, "ppm")
+chk("#102 lock", "all three sit this far above the measured 1776.86", 0.909,
+    (_mQ-_MTAU)/_SMTAU, 1e-3, "sigma")
+
+# ---- #101: what three thermal draws actually give, in closed form ----------------
+# Q = sum(s^2)/(sum s)^2 is scale-free, so for s ~ iid Exp it depends only on the
+# proportions p = s/sum(s), which are uniform on the 2-simplex (Dirichlet(1,1,1)).
+# Dirichlet moments then give E[Q] and Var[Q] exactly -- no simulation needed.
+chk("#101 draws", "E[Q] for three exponential draws = 1/2", 0.5, 3*(1*2)/(3*4), 1e-12)
+_EQ2 = 3*(1*2*3*4)/(3*4*5*6) + 6*(1*2)*(1*2)/(3*4*5*6)
+chk("#101 draws", "Var[Q] = 1/60", 1/60, _EQ2 - 0.25, 1e-12)
+chk("#101 draws", "sd[Q] = 1/sqrt(60)", 0.129099, math.sqrt(_EQ2 - 0.25), 1e-5)
+# Geometry of the same statement: Q = 1/3 + r^2 with r the distance from the simplex
+# centroid. At Q = 2/3, r = 1/sqrt3 and r_in/r = 1/sqrt2, so each of the three sides
+# removes exactly 90 deg of the circle and one quarter survives -- hence the density.
+chk("#101 draws", "at Q = 2/3 each side removes 90 deg of the circle", 45.0,
+    math.degrees(math.acos((1/math.sqrt(6))/(1/math.sqrt(3)))), 1e-9, "deg")
+chk("#101 draws", "density of Q at 2/3 = pi/(2 sqrt3)", 0.9068997,
+    math.pi/(2*math.sqrt(3)), 1e-6)
+chk("#101 draws", "odds three draws land as close as the leptons do", 1.116e-5,
+    2*abs(_QM - 2/3)*math.pi/(2*math.sqrt(3)), 1e-3)
+# The deterministic readings of the same exponential law fail too -- none returns 2/3.
+_qof = lambda v: sum(x*x for x in v)/sum(v)**2
+chk("#101 draws", "mid-quantiles of Exp(1) give Q =", 0.523481,
+    _qof([-math.log(1-(k+0.5)/3) for k in range(3)]), 1e-5)
+chk("#101 draws", "expected order statistics give Q = 25/54", 25/54,
+    _qof([1/3, 1/3+1/2, 1/3+1/2+1]), 1e-9)
+
+# ---- #101: Q = 2/3 as a vanishing indefinite form (exact restatement) ------------
+# Q = 1/3 + (2/3)|f1/f0|^2 (Parseval) means Q = 2/3 <=> f0^2 = 2|f1|^2, i.e. the
+# Fourier vector (f0; f1, f2) is NULL for the (+,-,-) form graded by Z3 charge:
+# eta = |f0|^2 - |f1|^2 - |f2|^2.  In face coordinates eta = (1/3)[(2/3)(sum s)^2 - sum s^2].
+_sv = [1 + math.sqrt(2)*math.cos(2/9 + 2*math.pi*k/3) for k in range(3)]
+chk("#101 null", "(2/3)(sum s)^2 / sum s^2 = 1 at Q = 2/3 -- the null condition", 1.0,
+    (2/3)*sum(_sv)**2/sum(x*x for x in _sv), 1e-9)
+# eta(v) = v^T H v with H = (2/3)J - I, J the all-ones matrix (eigenvalues 3, 0, 0).
+chk("#101 null", "the form's timelike eigenvalue, along (1,1,1)", 1.0, (2/3)*3 - 1, 1e-12)
+chk("#101 null", "its two spacelike eigenvalues -- signature (+,-,-)", -1.0, (2/3)*0 - 1, 1e-12)
+chk("#101 null", "so the null cone opens at 45 deg about (1,1,1)", 45.0,
+    math.degrees(math.acos(1/math.sqrt(2))), 1e-9, "deg")
+# How far off that cone the measured leptons sit. NOTE the two normalizations, both
+# correct and a factor 2 apart (NOT 3): eta/sum(s^2) = (2/3)/Q - 1 is 9.23 ppm, while the
+# moment form V/mu^2 = 3Q - 1 deviates by 18.47 ppm. The identity slope is 3, but both are
+# fractional misses so converting brings in Q: (dV/V)/(dQ/Q) = 3Q = 2. Not a correction.
+chk("#101 null", "measured eta/sum(s^2) = (2/3)/Q - 1", 9.2329e-6, (2/3)/_QM - 1, 1e-4)
+chk("#101 null", "the same miss in the moment form, V/mu^2 - 1", -1.84656e-5, 3*_QM - 2, 1e-4)
+chk("#101 null", "the two misses are a factor 2 apart, not 3 (= 3Q)", 2.0,
+    (3*_QM - 2)/((2/3)/_QM - 1)*-1, 1e-4)
 
 # ---- the BBN-stability fence, stated on the derived anchor (added 2026-07-20)
 # The fence's edges are the two BBN clocks, not evaluation points: the D bottleneck below
@@ -1516,6 +1615,62 @@ chk("hierarchy 6e", "#183: corrected band, top edge (5.2 TeV x mult)", 1.784,
     5.2*math.exp(-(_c_183 + _a_183)), 2e-3, "TeV")
 chk("PREREGISTERED", "#183: tightest gap, shooter 13 TeV over the band's top", 7.3,
     13.0/(5.2*math.exp(-(_c_183 + _a_183))), 5e-3, "x")
+
+# --- #125: the portal's SM side -- the renormalizable branch the roster leaves out ---------
+# A dimension-2 dark singlet's LOWEST-dimension SM partner is H^dag H (total dim 4), which
+# shifts the Higgs vev and so moves EVERY mass, quarks included.  The model must do without
+# it.  These checks price that exclusion: the bound D/H puts on its coefficient, and the size
+# the standing dim-6 lepton operator induces for it through one electron loop.
+_V_EW  = 246.21965e9                              # eV, the Higgs vev
+_M_H   = 125.25e9                                 # eV
+_eps125 = 27*ALPHA/(5*math.pi)
+_y_e   = math.sqrt(2)*ME/_V_EW
+chk("MATH_SPINE 0", "#125: electron Yukawa y_e = sqrt2 m_e/v", 2.9350e-6, _y_e, 1e-3)
+# induced portal coupling: dlambda_p ~ (eps y_e^2/f^2)(Lam_UV^2/16pi^2).  At Lam_UV = 4 pi f
+# the f cancels outright, which is why the bound below is the only f-dependent piece.
+_lamp_4pif = _eps125*_y_e**2
+_lamp_f    = _eps125*_y_e**2/(16*math.pi**2)
+chk("MATH_SPINE 0", "#125: induced lambda_p at Lam_UV = 4 pi f", 1.0805e-13, _lamp_4pif, 1e-3)
+chk("MATH_SPINE 0", "#125: induced lambda_p at Lam_UV = f", 6.8425e-16, _lamp_f, 1e-3)
+# D/H tolerance on a UNIVERSAL shift: the corpus books full eps on the quarks at 12-18 sigma,
+# so one sigma sits at eps/15.  |dv/v| = lambda_p f^2/m_H^2 at phi = f.
+_onesig125 = _eps125/15.0
+chk("MATH_SPINE 0", "#125: universal shift worth 1 sigma on D/H", 8.362e-4, _onesig125, 1e-3)
+_bound = lambda f_TeV: _onesig125*_M_H**2/(f_TeV*1e12)**2
+chk("MATH_SPINE 0", "#125: lambda_p bound at f = 100 TeV (loosest)", 1.312e-9, _bound(100.), 1e-3)
+chk("MATH_SPINE 0", "#125: lambda_p bound at f = 500 TeV (tightest)", 5.247e-11, _bound(500.), 1e-3)
+# the worst corner for the induced portal: biggest cutoff, biggest f -- and it still lands here
+chk("MATH_SPINE 0", "#125: induced/bound at the tightest corner", 2.06e-3,
+    _lamp_4pif/_bound(500.), 5e-3, "x")
+chk("MATH_SPINE 0", "#125: worst-corner induced universal shift, in sigma on D/H", 2.06e-3,
+    _lamp_4pif*(500e12)**2/_M_H**2/_onesig125, 5e-3, "sigma")
+# and the quark shift the portal DOES deliver, against the full-eps catastrophe it is not
+chk("PREREGISTERED P-006", "#125: full eps over the delivered quark shift", 1.854e5,
+    1/(ALPHA/math.pi)**2, 1e-3, "x")
+chk("PREREGISTERED P-006", "#125: D/H cost of the delivered quark shift", 8.09e-5,
+    _eps125*(ALPHA/math.pi)**2/_onesig125, 5e-3, "sigma")
+
+# --- #126: the census, run on ONE criterion at a time -------------------------------------
+# The democratic count needs membership from charge and weights from blindness.  Run charge
+# alone and it weights too: sum N_c Q^2 over the charged nine is exactly 8 (3 leptons + 4
+# up-type + 1 down-type), giving c = 8/9; let the neutral seat then weigh zero and c = 1,
+# which the census excludes.  Neither single criterion returns 9/10.
+_Q2 = 3*1.0 + 3*3*(2/3)**2 + 3*3*(1/3)**2
+chk("DERIVATION_HUNT 1", "#126: sum N_c Q^2 over the charged nine", 8.0, _Q2, 1e-12)
+chk("DERIVATION_HUNT 1", "#126: charge^2 census with the seat, c = 8/9", 0.888889,
+    _Q2/(_Q2+1), 1e-5)
+chk("DERIVATION_HUNT 1", "#126: eps at the charge^2 census = 16 alpha/3pi", 1.23884,
+    (_Q2/(_Q2+1))*(2/math.pi)*(3*ALPHA)*100, 1e-4, "%")
+# the eps-blind ensemble checks the value and does not adjudicate between the candidates
+_C0, _SDc = 0.903, 0.0375
+chk("MATH_SPINE 0", "#126: ensemble distance to 9/10", -0.080, (0.9-_C0)/_SDc, 5e-3, "sigma")
+chk("MATH_SPINE 0", "#126: ensemble distance to 12/13", 0.535, (12/13-_C0)/_SDc, 5e-3, "sigma")
+chk("MATH_SPINE 0", "#126: ensemble distance to the charge^2 8/9", -0.376,
+    (_Q2/(_Q2+1)-_C0)/_SDc, 5e-3, "sigma")
+chk("DERIVATION_HUNT 1", "#126: 8/9 and 9/10 separated by, at the ensemble width", 0.296,
+    (0.9-_Q2/(_Q2+1))/_SDc, 5e-3, "sigma")
+chk("DERIVATION_HUNT 1", "#126: sharpening to the pre-registered sigma_c = 0.0115", 3.26,
+    _SDc/0.0115, 5e-3, "x")
 
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]

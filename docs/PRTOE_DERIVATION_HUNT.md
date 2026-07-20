@@ -20,7 +20,7 @@ $$\varepsilon = c \cdot \bar f \cdot \alpha_c .$$
 
 | factor | value | status |
 |---|---|---|
-| **c** | 9/10 | **value data-selected; the counting argument's routing step open** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel), and independently landed on by the ε-blind ensemble at c = 0.903 [0.867, 0.942], −0.08σ from 9/10. What is *not* closed is the step that licenses a democratic count at all — see **the two-census marriage** below. See [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
+| **c** | 9/10 | **counting assumption, data-confirmed** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel), and independently landed on by the ε-blind ensemble at c = 0.903 [0.867, 0.942], −0.08σ from 9/10. The step that would have licensed a *democratic* count — routing the budget split through gravity's blindness — does not exist: no single criterion returns 9/10, and the ensemble's width does not separate the alternatives. See **the two-census marriage** below and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
 | **f̄** | 2/π ≈ 0.6366 | **strengthened candidate; the coupling form data-selected** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved by the data rather than forced by the framework — see below, where the residual "leading-order dominates" is named. The corpus's two independent measurements both land on 2/π: fit-implied f̄ = 0.6253 (+1.8%) and winding-sim 0.635 (+0.3%), rejecting the RMS reading 0.7071 at +13%. |
 
 **The two-census marriage — c's weakest joint, and what the routing step must show.** The
@@ -53,11 +53,32 @@ fraction of an electroweak mass, and it needs charge to grab"
 ([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md), the tenth-channel operator). The weights
 are then decided by *blindness*. One derivation using charge to choose who is counted and
 identity-blindness to choose how much each counts is the marriage in its sharpest form — and it
-is what keeps the charge²-weighted reading alive as an alternative rather than excluded, since an
-EM-fraction dressing channel is precisely where a Q² weight would be natural. **Owed: the
-explicit two-stage argument, or its death — docket #126, the gravity-routing step of the
-c-derivation, desk work with no external gate.** Until then c = 9/10 is a count the data confirms
-(the ε-blind ensemble at −0.08σ), not a count the framework forces.
+is where the charge²-weighted reading lives, since an EM-fraction dressing channel is precisely
+where a Q² weight would be natural.
+
+**The two-stage argument does not exist, and the reason is structural rather than a missing
+calculation (#126).** Run either criterion by itself and the count is not 9/10.
+
+| the criterion, run alone | what the roster becomes | what c becomes |
+|---|---|---|
+| **blindness** — the coupling reads energy, not identity | every field in the vacuum, which is the roster the G-closure rebuild returned under this same law | an energy-weighted share, not a species count |
+| **charge** — the ε-channel dresses an EM mass fraction and needs charge to grab | the charged nine, weighted by what selected them: Σ N_c Q² = 3 + 4 + 1 = **8** | **8/9 = 0.8889**, and ε = 16α/3π = 1.2388% |
+| **charge, carried all the way** — the neutral seat then weighs zero | the charged nine alone | **c = 1**, which the census excludes |
+
+The democratic count needs *membership* from the second row and *weights* from the first, and the
+two rows are the same coupling. That is the marriage, and it is not a gap to be filled — a coupling
+selective enough to build a charged roster is not blind, and a blind one does not stop at nine.
+**The gravity-routing licence is therefore withdrawn rather than supplied**, and c = 9/10 stands as
+what survives it: a counting assumption the data confirms, not a count the framework forces.
+
+**What the data can and cannot do here.** The ε-blind ensemble lands at c = 0.903 [0.867, 0.942],
+−0.08σ from 9/10 — a genuine independent landing, and not an adjudication: at that width 12/13 sits
++0.53σ and the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, inside the ensemble's own
+error bar. The pre-registered width that would separate the candidates is σ_c ≤ 0.0115, a 3.3×
+sharpening the ensemble has not reached. So the alternative the routing step was invoked to exclude
+is not excluded by measurement either; what remains against it is that the charge criterion, run to
+its end, returns the excluded c = 1. **Owed: nothing further at the desk** — the closing move is a
+sharper ensemble (σ_c ≤ 0.0115) or the α_c chain, both already running.
 
 **The velocity ladder — the interface named, and what the naming costs.** The base
 claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio

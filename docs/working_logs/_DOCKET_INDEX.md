@@ -126,8 +126,8 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 98 | THE GALACTIC-CENTRE BUDGET TEST — the soliton at parsec radii | closed |
 | 99 | THE EVIDENCE RUN'S HORIZON — decide before it burns two months | open — owner's decision |
 | 100 | BBN ξ-propagation error re-issued corpus-wide | closed |
-| 101 | What enforces Var(√m) = mean² exactly — the Koide constraint's mechanism | open |
-| 102 | The Brannen phase — a source that carries Q, not just its value | open |
+| 101 | What enforces Var(√m) = mean² exactly — the Koide constraint's mechanism | open — no mechanism; the thermal route now closed **both** ways (sampled and deterministic), and the constraint restated as a vanishing Z₃-graded norm, which names the class |
+| 102 | The Brannen phase — a source that carries Q, not just its value | open — no source; the lock's data corrected (δθ is **+**7.409×10⁻⁶) and restated as an m_τ prediction, with P-2026-051's scope narrowed to ≲1.4 ppm |
 | 103 | The hierarchy problem: rehome the anchor after the basement rebuild | closed |
 | 104 | Baryogenesis: the frozen-era transfer fraction | closed |
 | 105 | The galactic-atoms exemption | closed |
@@ -150,8 +150,8 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 122 | Three owed-vs-completed conflicts adjudicated | closed |
 | 123 | The Gibbs–Duhem mode-sum calculation — the DE value's un-built object | open — **and do not invest**: its renormalized residual IS the LHY object, so it inherits #169's control failure (λ = 26–46 against λ\* = 22.41) rather than escaping it; and a preferred-frame mode sum returns w = +⅓, not −1 |
 | 124 | The edge-convention audit | open |
-| 125 | Why the kinetic term rather than only the Weinberg operator | open |
-| 126 | The gravity-routing step of the c-derivation | open |
+| 125 | Why the kinetic term rather than only the Weinberg operator | closed — **graded, adverse**. The title's fork does not exist: the Weinberg operator reaches no charged mass at any coefficient. The real roster is ordered by dimension, and the omission was **|Ψ|²H†H at dim 4**, the only renormalizable partner — excluded by D/H (λ_p ≲ 5×10⁻¹¹…1×10⁻⁹), and excluding it costs no tuning (induced λ_p ≤ 1.1×10⁻¹³). The standing lepton bilinear is **assumed**, narrowed by data and by nothing else; the finer fork (one coefficient via the doublet's normalization, δm_ν = 2δm_e, vs two) is **unreachable by any measurement** and the pipeline silently runs the correlated point |
+| 126 | The gravity-routing step of the c-derivation | closed — **the step is withdrawn, not supplied**. No single criterion returns 9/10: blindness weights by energy over every field; charge weights by Σ N_c Q² = 8 and gives 8/9; charge carried all the way gives c = 1, which the census excludes. The ensemble confirms without adjudicating (8/9 sits 0.30σ from 9/10 at its width; σ_c ≤ 0.0115 would separate them). c = 9/10 stands as a counting assumption the data confirms |
 | 127 | The C²-to-threshold map | closed |
 | 128 | The BBN-stability fence, re-stated below its own anchor | closed — fence is [70, 500] keV structural; whole-range swing ≤ 0.32σ on D/H |
 | 129 | The matched-junction interface — the velocity ladder's first payable step | open |

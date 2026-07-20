@@ -351,15 +351,16 @@ do not, and the reason is that **the failures are of three kinds and only one of
 
 | lever | kind of failure | contributes |
 |---|---|---|
-| the below-T_c boost | **too weak** — 8–33× short | **+0.09σ to +0.34σ** — real, and the only additive term |
+| the below-T_c boost | **too weak** — 8–33× short | **+0.09σ to +0.34σ** — real, and the largest additive term |
 | a sharper transition (0.61ε → 1.0ε at the bottleneck) | blocked by the Ginzburg certification | +0.21σ, and only if that certification is broken |
-| the dyad → lepton loop → 2γ → quark bridge | **forbidden** — quarks carry L = 0 | **exactly zero**; the tree amplitude is not small, it is absent |
+| the dyad → lepton loop → 2γ → quark bridge | **too weak** — two EW/EM loops, 20 000–31 000× short of the lever it would need | **+8×10⁻⁵σ** — nonzero, and four orders under the smallest term above |
 | a right-handed neutrino at 4.2 MeV | **below threshold** — ⁴He needs 19.8–20.6 MeV | **exactly zero**; thresholds do not partly fire |
 | m_e at BBN | data-excluded at 12σ | unusable at any fraction |
 | constant ΔN_eff | wrong shape | negative — buys deuterium, sells helium at +4.9σ |
 
-Adding everything that is not identically zero, **and** breaking the Ginzburg certification to
-include the sharper transition, moves the row from **−2.49σ to −1.94σ**. It survives at about 2σ.
+Adding the two terms of usable size, **and** breaking the Ginzburg certification to
+include the sharper transition, moves the row from **−2.49σ to −1.94σ** (the quark bridge's
++8×10⁻⁵σ is four orders too small to register). It survives at about 2σ.
 
 Two things this makes explicit. First, a 2.49σ deficit needs a lever of order the deficit, and
 everything available is sub-0.35σ — closing it by summation would take seven or eight independent

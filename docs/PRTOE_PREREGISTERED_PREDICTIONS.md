@@ -266,11 +266,13 @@ the deuterium scar.** D/H carries **−2.5 to −1.4σ** honestly.
 > because a number can be reopened by better data. It survives with four orders to spare.
 > [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2 now records the same verdict as established **by data**.*
 *(The entry stays registered: the abundance signature — Y_p −0.5…−0.6%, ⁷Li −7…−13% — remains on
-record for any FUTURE non-Majoron amendment. It is now a prediction about a lever this model does
-not have, which is why it stays CONDITIONAL rather than being retired.)*
-**The upside, and it is real:** the same symmetry that denies the healer **denies the
-catastrophe.** "δm_q = ε full" would have driven D/H to **+12…+18σ** — lepton number forbids it.
-The threat was never available either.
+record for any FUTURE amendment sourced outside this sector. It is now a prediction about a lever
+this model does not have, which is why it stays CONDITIONAL rather than being retired.)*
+**The upside, and it is real:** the same loop order that denies the healer **denies the
+catastrophe.** "δm_q = ε full" would have driven D/H to **+12…+18σ**, and the portal cannot
+deliver it: what reaches the quarks is ε·(α/π)² = 6.8×10⁻⁸, a factor 1.9×10⁵ under the full shift
+and worth ~10⁻⁴σ on D/H. The threat was never available either — and it is a number that says so,
+not a symmetry, so better data can reopen it where a symmetry could not.
 
 ---
 
@@ -2851,19 +2853,50 @@ timestamped by the repository.
 **The prediction:** the deviations of the Koide amplitude from √2 and of the Brannen phase
 from 2/9 rad are not independent — they lie on the line **δθ = (√2/9)·δA = 0.1571·δA**, the
 differential of the holonomy-equals-Q closure θ = (1 + A²/2)/9, whose derivative is A/9 and which
-returns θ = 2/9 at A = √2. Current data sits −0.54σ from the line
-(δA = −1.36×10⁻⁵ ± 1.4×10⁻⁵; δθ = −7.0×10⁻⁶ ± 8.7×10⁻⁶ rad; τ-mass-limited on both axes —
-the two deviations are correlated THROUGH m_τ, and the lock's content is the residual
-correlation beyond that shared dependence, stated for the adjudicator's care).
+returns θ = 2/9 at A = √2. The slope is positive, so **the line predicts the two deviations to
+carry the same sign.**
+
+**Where the data sits.** Taken from the pole masses themselves rather than from any rounded
+intermediate, δA = −1.3057×10⁻⁵ ± 1.4372×10⁻⁵ (A is −0.91σ from √2) and
+δθ = +7.409×10⁻⁶ ± 8.348×10⁻⁶ rad (θ_B is +0.89σ from 2/9). The measured pair is
+**opposite-signed**, which is the side of the line the closure does not predict, and the residual
+off it is +9.461×10⁻⁶ ± 1.061×10⁻⁵ — **+0.89σ**, comfortably consistent.
+
+**The error has to be taken on the residual, not on either axis.** m_e and m_μ are known to
+3×10⁻¹⁰ and 2×10⁻⁸, so both axes are functions of m_τ alone and the two deviations are
+**anti-correlated at exactly −1**: the data point does not scatter in a plane, it slides along a
+single curve. An adjudicator quoting either axis's own error against the line will overstate the
+tension by about a quarter.
+
+**The testable form: the lock predicts m_τ.** With m_e and m_μ effectively exact, every statement
+in the sector becomes a prediction of the one remaining mass:
+
+| statement | the m_τ it requires |
+|---|---|
+| Q = 2/3, i.e. the amplitude watch A = √2 | **1776.96903 MeV** |
+| θ_B = 2/9, the phase watch | **1776.96651 MeV** |
+| the closure θ = (1 + A²/2)/9 | **1776.96705 MeV** |
+
+— against the measured **1776.86 ± 0.12 MeV**, all three **+0.91σ** above it.
+
+**What the lock can and cannot referee.** Those three predictions span **2.52 keV, or 1.42 ppm of
+m_τ**, and today's m_τ carries 68 ppm. Until m_τ is known to about 1.4 ppm — some fifty times
+better than now — **testing the closure and testing A = √2 are the same measurement**: any m_τ
+consistent with one is consistent with the other, and the two stand or fall together. The lock's
+independent content begins at that precision and not before, which is the honest scope of the
+registration.
 
 **Grades:** the circulant algebra and the Parseval identity Q = 1/3 + (2/3)|f₁/f₀|² — exact;
 the closure 3·arg f₁ = Q — candidate (post-hoc-found, structure-clean, no derivation);
 the lock — the closure's exact differential.
 
-**Kills:** (i) improved lepton masses (Belle II-class m_τ) moving (δA, δθ) robustly off the
-0.1571 line kills the closure; (ii) either watch breaking outright (A off √2 or θ off 2/9 at
-high σ) kills it a fortiori; (iii) any future mechanism deriving A = √2 while forcing
-θ ≠ (1 + A²/2)/9 kills the closure specifically while possibly saving the door.
+**Kills:** (i) an m_τ determination at ≲20 keV that holds today's central value puts the pair
+≳5σ off the line and kills the closure — but kills A = √2 alongside it, so it is a kill and not a
+discrimination; (ii) either watch breaking outright (A off √2 or θ_B off 2/9 at high σ) kills the
+closure a fortiori; (iii) any future mechanism deriving A = √2 while forcing θ ≠ (1 + A²/2)/9
+kills the closure specifically while possibly saving the door; (iv) **the separating test** — an
+m_τ at ≲1.4 ppm landing between 1776.96651 and 1776.96903 MeV splits the phase watch from the
+amplitude watch, and no coarser measurement does.
 
 ## P-2026-053: The onset clock reads the dark radiation, and the dark radiation cannot hide (registered 2026-07-18)
 

@@ -60,8 +60,9 @@ the ceiling IS gravitational strength, so "c saturates the ceiling" = "the censu
 holds, maximally."
 
 **Residuals (owed):** exact margin below 1 = the effective-action loop (its old question —
-c forced-vs-dial — has since been paid: c = 9/10 is derived by the census; the loop's own margin remains the
-unfinished half — how saturated the ceiling is); the environmental Θ-switch that
+c forced-vs-dial — is settled the other way: c = 9/10 is a counting assumption the data confirms,
+not forced by the framework, since no single census criterion returns it (#126); the loop's own
+margin remains the unfinished half — how saturated the ceiling is); the environmental Θ-switch that
 gates WHERE m_e shifts is separate (sim-gated: the granule sim). Also owed: why the explicit breaking lands
 the mass at ~2×10⁻²⁰ eV exactly (the Coleman-Weinberg / shift-breaking structure).
 
@@ -251,9 +252,9 @@ Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/pla
 
 ## CANDIDATE #17 MECHANISM — c=1 as the conformal-origin boundary condition — **DEAD**
 
-> This mechanism's payoff was "c=1 becomes PREDICTED". **c = 9/10 is derived from
-> the census** by an unrelated route, and 1 ≠ 9/10. Retained as provenance only; filed in
-> [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Do not cite.
+> This mechanism's payoff was "c=1 becomes PREDICTED". **The census lands on c = 9/10**
+> by an unrelated route, and 1 ≠ 9/10, so the mechanism is dead either way. Retained as provenance
+> only; filed in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Do not cite.
 
 Directional hypothesis for deriving c (then an open O(1); the era's equation was
 eps = c*f_amp*Psi0/M_red, since retired).

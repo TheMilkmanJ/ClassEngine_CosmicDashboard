@@ -1174,12 +1174,14 @@ two numbers to one modulus plus one law. Grade: post-hoc-found candidate closure
 status through its independent consequence:
 
 **THE DEVIATION LOCK (registered as P-2026-051):** the closure demands the two watches'
-deviations be correlated on one line, δθ = (2A/9)·δA = 0.3143·δA. Current data: δA =
-−1.36×10⁻⁵ ± 1.4×10⁻⁵, δθ = −7.0×10⁻⁶ ± 8.7×10⁻⁶ rad — the lock's prediction −4.3×10⁻⁶ sits
-**−0.31σ** from measurement. **The lock HOLDS at current precision and is tested by every
-future τ-mass improvement** (Belle II class): deviations leaving the line kill the closure;
-deviations tracking it as errors shrink would be mechanism-grade evidence that the spectrum
-closes on itself.
+deviations be correlated on one line, δθ = (A/9)·δA = 0.1571·δA. Taken from the pole masses:
+δA = −1.3057×10⁻⁵ ± 1.4372×10⁻⁵, δθ = **+**7.409×10⁻⁶ ± 8.348×10⁻⁶ rad. The slope is positive
+so the closure wants the two same-signed; they are opposite-signed, and the residual off the
+line is +9.461×10⁻⁶ ± 1.061×10⁻⁵ = **+0.89σ** — consistent, on the side the closure does not
+predict. **The lock HOLDS at current precision**, but what it can referee is bounded: both axes
+are functions of m_τ alone (correlation exactly −1), so the σ must be taken on the residual, and
+the closure's own m_τ (1776.96705 MeV) sits 2.52 keV from the amplitude watch's (1776.96903).
+Until m_τ reaches ~1.4 ppm, testing the closure IS testing A = √2 — see the m_τ table below.
 
 
 ## THE CARRIER QUESTION — "is it a gluon?" — and the rep fork it forces (2026-07-18, night)
@@ -1560,3 +1562,102 @@ P-2026-057** (2026-07-20), with the trigger convention carried as its named fenc
 fundamental-winding identification, step 1) plus ONE genesis computation (the first-roll sign
 run) plus the external lattice triple (T_c/√σ, F_π/√σ, w·√σ) and the P-2026-051 deviation lock.
 The two desk steps the open surface owed are worked; what remains is not desk work.
+
+
+## THE #101 / #102 PASS (2026-07-20): the sector reduces to one measurement, and one class is named
+
+**Every headline number in the sector was recomputed from the pole masses, and they all stand.**
+Q = 0.6666605 ± 6.8×10⁻⁶, A = 1.414200 ± 0.000014, θ_house = 132.7328° ± 0.0005°,
+V/μ² = 0.9999815, the 84.9% of the way to the wall, the (−0.960, −0.420, +1.379) face deviations.
+Nothing in the sector's arithmetic moved.
+
+### #101 — what enforces Var(√m) = mean² exactly
+
+**The three-draw kill is now closed form, not a simulation.** Q is scale-free, so for iid
+exponential draws it depends only on the proportions, which are Dirichlet(1,1,1) — uniform on the
+simplex. The Dirichlet moments then give **E[Q] = 1/2** and **Var[Q] = 1/60** exactly (σ = 1/√60 =
+0.12910), reproducing the recorded 0.50 and 0.13 from first principles. The geometry gives the rest:
+Q = ⅓ + r² with r the distance from the centroid, and at Q = 2/3 the radius stands to the inradius
+as √2, so each side removes exactly 90° and **the density is π/(2√3) = 0.90690**. The odds of
+landing as close as the leptons do are πε/√3 = **1.1×10⁻⁵** with ε = |Q − 2/3| = 6.16×10⁻⁶ —
+confirmed against 10⁸ draws (1.111×10⁻⁵ ± 3.0×10⁻⁷). The kill is unchanged in kind and now cannot
+rot.
+
+**Two repairs the kill left open, both closed and both negative.** If the three √m were not draws
+but the exponential's own deterministic representatives, there would be no scatter to kill —
+so the representatives were computed:
+
+| reading | √m triple | Q |
+|---|---|---|
+| mid-quantiles of Exp(1) | 0.18232, 0.69315, 1.79176 | 0.52348 |
+| expected order statistics | 1/3, 5/6, 11/6 | 25/54 = 0.46296 |
+| equally spaced in CDF | 0.28768, 0.69315, 1.38629 | 0.44350 |
+| geometric ladder e^k | 1, e, e² | 0.51054 |
+
+**None is near 2/3.** The exponential law carries CV = 1 as a property of the *distribution*; no
+finite realisation of it inherits the property. The thermal reading is dead as a source of the
+number, not merely as a source of its precision — a stronger negative than the sampling argument
+gave.
+
+**What the exactness itself says, and it is the pass's one structural output.** Written in the
+kernel's coordinates, Parseval turns the constraint into
+
+> **Q = 2/3 ⟺ f₀² − |f₁|² − |f₂|² = 0**
+
+— the Fourier vector is **null** for the indefinite form graded by Z₃ charge (neutral timelike, the
+two charged modes spacelike). In face coordinates the same condition is (2/3)(Σ√m)² − Σm = 0, a
+form with eigenvalues (+1, −1, −1) whose light cone opens at 45° about (1,1,1). This is an exact
+rewriting and moves no number. Its use is classification: **it is the same equation as
+"the two charge sectors carry equal power", but in the form that says what kind of mechanism can
+hold it.** Equal-power invites equilibrium arguments, and every one of them delivers a value with
+fluctuations around it — which is precisely how the seven recorded selectors and the thermal
+reading died. A vanishing graded norm invites a constraint, an index, or a conservation law, which
+is the only class that delivers exactness. **The blank does not close; it changes aisle.**
+
+**Grade: UNEARNED EXACTNESS, unchanged.** Nothing in the corpus says why the graded norm vanishes.
+What the pass adds is that the search should stop visiting the aisle it has been in.
+
+### #102 — the Brannen phase, and what the lock can actually referee
+
+**The phase's deviation had the wrong sign, and the corpus already contained the contradiction.**
+P-2026-057 records θ_B = **+**0.222229 rad and calls its sign "not in doubt"; 2/9 = 0.222222, so
+δθ is positive. P-2026-051 recorded δθ = −7.0×10⁻⁶. Recomputed three independent ways — the direct
+circulant fit, and solving the phase from m_τ/m_e and from m_μ/m_e separately with A fixed by Q
+alone — **θ_B = 0.2222296315 rad and δθ = +7.409×10⁻⁶**, in every ring convention that puts θ_B
+near 2/9 at all.
+
+**Both recorded deviations were computed from rounded displays.** 1.414200 − √2 = −1.36×10⁻⁵ where
+the source A = 1.4142005 gives **−1.3057×10⁻⁵**; radians(132.7328 − 120) − 2/9 = 7.06×10⁻⁶ where
+the masses give **7.409×10⁻⁶**. A deviation is a difference of nearly equal numbers, so a display
+rounded at the 7th digit lands 4–5% of error in it. Both are now computed from the masses in the
+harness.
+
+**The correlation is exactly −1, and that changes what the lock is.** m_e and m_μ are known to
+3×10⁻¹⁰ and 2×10⁻⁸, so δA and δθ are both functions of m_τ alone: dA/dm_τ = +1.1977×10⁻⁴ /MeV,
+dθ_B/dm_τ = −6.9568×10⁻⁵ /MeV. The data point does not scatter in a plane; it slides along one
+curve. The residual off the closure line is +9.461×10⁻⁶ with σ = 1.061×10⁻⁵ taken on the residual
+itself — **+0.89σ**, where quoting either axis's own error gives 1.13σ.
+
+**The testable form: every statement in the sector is a prediction of m_τ.**
+
+| statement | m_τ required |
+|---|---|
+| Q = 2/3 (A = √2) | 1776.96903 MeV |
+| θ_B = 2/9 | 1776.96651 MeV |
+| the closure θ = (1 + A²/2)/9 | 1776.96705 MeV |
+| **measured** | **1776.86 ± 0.12 MeV** |
+
+All three sit +0.91σ above the measurement — one displacement, not three agreements. And they span
+**2.52 keV = 1.42 ppm**, against today's 68 ppm: **until m_τ improves fiftyfold, testing the closure
+and testing A = √2 are the same measurement.** P-2026-051's registered kill (i) — "improved lepton
+masses moving the pair off the line kills the closure" — is true but does not discriminate: at any
+precision that kills the closure, A = √2 dies with it. The separating test is stated in the
+registration now: an m_τ at ≲1.4 ppm landing between 1776.96651 and 1776.96903.
+
+**On the docket's own question — a source that carries Q rather than its value — the answer is
+still no, and one route was checked and is not it.** The three-group sort's step "Q = the
+charged-mode fraction" is not an identity: the charged-mode fraction is 2/3 for every ρ (two of
+three modes, always), while Q = ⅓ + (2/3)ρ² varies, so the two agree only *at* ρ² = ½. The step is
+an assumption that Q equals a count, and the log already says so ("nothing yet forces them equal").
+It is recorded here only so nobody re-reads it as the derivation. **Grade: unchanged — the phase is
+sourced from Q by the KMS twist, and Q's own source is #101.**

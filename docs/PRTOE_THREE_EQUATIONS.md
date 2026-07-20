@@ -100,17 +100,29 @@ derivation is ~1.8% *of the value* — and the running measurements decide.)
 > the posterior above comes from a chain at R−1 ≫ 0.05 and is **not quotable**, and the definitive
 > statement is the evidence run's, not this one's.
 
-- $c = 9/10$: a **counting fraction**. Gravity is blind (it reads size, not identity), so the
- budget splits democratically over the census of participants — the **universal charged-fermion
- roster** (9 charged species + the zero-point's own seat → $c = (N-1)/N = 9/10$), **not** the
- dyad's leptophilic subset (which drops the quarks and cannot reach the count). Which universal-charged
- reading holds — democratic-9 → 9/10, or the neutrino-inclusive 12/13 — is settled by the
- dark-energy–neutrino tie: ρ_Λ¼ = m_ν,lightest is a genuine lock *only if* the lightest neutrino mass
- is **direct-Majorana** (m₁ ≈ μ = 2.25 meV), which seats the neutrino on the medium's own tenth channel
- (the seat operator is now exhibited, with its UV form — [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)) → **9/10**. The 12/13 reading needs an inverse-seesaw light mass, which demotes the meV coincidence
- from a lock to a tuning of two unrelated scales; and the charge²-weighted 8/9 contradicts the
- gravity-blind democratic count. So the value is **9/10, conditional on keeping the tie a lock** (the
- flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains the independent check.
+- $c = 9/10$: a **counting fraction**, and the decomposition's assumed factor. The count is
+ (N−1)/N over the **universal charged-fermion roster** — 9 charged species + the zero-point's own
+ seat → $c = 9/10$ — **not** the dyad's leptophilic subset, which drops the quarks and cannot
+ reach the count. Which universal-charged reading holds (democratic-9 → 9/10, or the
+ neutrino-inclusive 12/13) is settled by the dark-energy–neutrino tie: ρ_Λ¼ = m_ν,lightest is a
+ genuine lock *only if* the lightest neutrino mass is **direct-Majorana** (m₁ ≈ μ = 2.25 meV),
+ which seats the neutrino on the medium's own tenth channel (the seat operator is exhibited with
+ its UV form — [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)) → **9/10**; the 12/13 reading
+ needs an inverse-seesaw light mass, which demotes the meV coincidence from a lock to a tuning of
+ two unrelated scales.
+ **What the count does not have is a licence for its *weights*.** Equal share per channel was
+ read off gravity's blindness, and blindness does not deliver it: a coupling that reads energy
+ rather than identity weights by energy over every field present, not one share apiece over nine
+ chosen ones — and the roster is chosen by **charge**, an identity-reading criterion. Carried
+ through consistently, charge weights as well as selects: Σ N_c Q² over the charged nine is
+ exactly **8**, giving c = 8/9 = 0.889, and if the neutral seat then takes weight zero the count
+ returns c = 1, which the census excludes. **No single criterion returns 9/10**, so the value is
+ a counting assumption the data confirms rather than one the framework forces
+ ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1). The ε-blind ensemble is the check and
+ it does not adjudicate: 8/9 sits 0.30σ from 9/10 at its width, inside its own error bar.
+ So the value is **9/10, conditional on keeping the tie a lock and on the equal-weight
+ assumption** (the flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains
+ the independent check.
 - $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$, forced by many-turn equidistribution, with the coupling form data-selected (P-2026-041). *(The winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of $\bar{f}$ — the high-statistics ensemble is the check, not the source.)* **Derived — not a parameter, and not
  a simulation output.**
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding

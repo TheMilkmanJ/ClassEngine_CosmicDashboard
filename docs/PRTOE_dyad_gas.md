@@ -46,9 +46,21 @@ quadratic-canonical m_e(φ) = m_e0(1 + κφ²).
 **Lepton number does not deliver it.** A phase-blind |Ψ|² operator cannot see the Majoron's
 current, which couples to the phase; and the Majoron forces the *neutrino* coupling σNN, not the
 charged-lepton Yukawa. So |Ψ|²·ψ̄ψ and |Ψ|²·(LH)(LH)/Λ carry independent coefficients and lepton
-number screens neither ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0). The un-derived core is
-which Standard-Model scalar the dark-neutral bilinear multiplies — **docket #125**, portal
-selection among singlet-multiplied operators, and no symmetry chooses between them.
+number screens neither ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0).
+
+**The un-derived core is which Standard-Model operator the singlet multiplies — docket #125, and
+it is an assumption, not a selection.** Three couplings are open to a dimension-2 dark singlet.
+**H†H** is the only renormalizable one and would shift the Higgs vev, moving every mass including
+the quarks — excluded at ε by the same 12σ, and bounded to λ_p ≲ 5×10⁻¹¹…1×10⁻⁹ across the f
+window. **(LH)(LH)** reaches δm_ν alone and cannot deliver δm_e at any coefficient. The standing
+choice is the third, **ψ̄ψ**, and nothing forces it: a gauge singlet couples to every Yukawa
+operator with its own coefficient. What is computed rather than assumed is that the choice is
+stable — the standing operator's own electron loop feeds H†H at λ_p ≤ 1.1×10⁻¹³, from ~500× under
+that bound at its tightest corner to ~10⁶× under at the loosest, so excluding the renormalizable portal costs no tuning inside the
+effective theory. The finer fork, and the one with a signature: writing the singlet into the
+lepton doublet's normalization instead of into each mass operator ties δm_ν/m_ν = 2·δm_e/m_e.
+That point is the one the pipeline runs, and no measurement can reach it — 1.5 meV on Σm_ν inside
+a window whose exit restores the present-day value the sky actually measures.
 
 **The Majoron is a separate field.** The single-scale reading that merged them (f = v_L) is
 tie-dead — its condensate-friction ceiling sits at v_L ≲ 2.4 TeV against a thermalization floor of

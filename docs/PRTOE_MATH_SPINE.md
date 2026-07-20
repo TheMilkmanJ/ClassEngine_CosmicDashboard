@@ -89,13 +89,14 @@ flagship's one assumed step, and the block below states it.)
 > | the SM factor it multiplies | total dimension | what it delivers | status |
 > |---|---|---|---|
 > | **H†H** | 4 — the only renormalizable one | a Higgs-vev shift, so **every** mass including the quarks | excluded at ε (a universal shift is +12–18σ on D/H); its coefficient is bounded λ_p ≲ 5×10⁻¹¹…1×10⁻⁹ across f = 100–500 TeV |
-> | **ψ̄ψ**, the charged-lepton bilinear | 6 | δm_e alone — **the standing choice** | assumed |
+> | **L̄He**, the charged-lepton Yukawa (→ m_e ψ̄ψ after EWSB) | 6 | δm_e alone — **the standing choice** | assumed |
 > | **(LH)(LH)**, the Weinberg operator | 7 | δm_ν alone; it cannot reach δm_e at any coefficient | not the deliverer |
 >
 > **Doing without the renormalizable one is affordable, and that is computed rather than asserted.**
 > The standing dimension-6 lepton operator feeds back into H†H through one electron loop at
-> λ_p ≤ 1.1×10⁻¹³ — three to six orders under the bound above across the whole f window and both
-> cutoff conventions — so the universal shift it induces reaches at most 2×10⁻³σ on D/H. Setting the
+> λ_p ≤ 1.1×10⁻¹³ — from ~500× under the bound at its tightest corner (biggest cutoff, biggest f)
+> to ~10⁶× under at the loosest — so the universal shift it induces reaches at most 2×10⁻³σ on D/H.
+> Setting the
 > renormalizable portal aside costs no tuning inside the effective theory. What it assumes is that
 > the completion above f writes the lepton operator without the other two, which is the assumption
 > λ_dyad's origin already carries.
@@ -471,9 +472,11 @@ elsewhere in the corpus:
 **Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution — the
 branch is DESI DR3's to decide); the seat constant b in the neutrino tie, gated on the basement
 build — which is itself gated on the band structure the hierarchy chain's §6c needs, docket #146
-([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, the open-surface table); **the portal's
-selection rule** — which Standard-Model scalar the singlet |Ψ|² multiplies (§0), desk work with no
-external gate, docket #125.
+([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, the open-surface table). **The portal's
+selection rule is not owed — it is assumed**, and §0 now says so with its price: data narrows the
+singlet's Standard-Model partner to the lepton bilinear and nothing else selects it, while the one
+fork with a signature moves an unmeasurable quantity. That is a permanent grade rather than a debt,
+and it belongs beside c on the list of things the model counts on rather than derives.
 
 **Standing:** provisional pending the named referees, DESI-capped; the branch is registered
 (P-2026-056) with its guards discharged, and its adjudicating chain is running.

@@ -12,9 +12,10 @@ BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedom.*
 ## 0. The principle
 
 A model with one lever and many windows cannot cheat: every window must show the SAME lever at
-its OWN known weight. The dyad's **ε = c·f̄·α_c = 27α/5π = 1.2543%** — **two factors derived, one registered**: c = 9/10
-(the census counting fraction over the charged-fermion roster) and f̄ = 2/π (the winding
-time-average) are derived; α_c = 3α is the registered bet (the 3 is the spatial dimension), and
+its OWN known weight. The dyad's **ε = c·f̄·α_c = 27α/5π = 1.2543%** — **one factor derived, one
+assumed, one registered**: f̄ = 2/π (the winding time-average) is derived; c = 9/10 (the census
+counting fraction over the charged-fermion roster) is a counting assumption the ε-blind ensemble
+confirms at −0.08σ without excluding its alternatives; α_c = 3α is the registered bet (the 3 is the spatial dimension), and
 the α_c chain **referees** it rather than producing it: a posterior inconsistent with 3α is a
 falsification, not a measurement. ε appears in:
 

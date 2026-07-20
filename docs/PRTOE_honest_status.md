@@ -17,13 +17,16 @@
 
 Major moves since the 2026-07-08 baseline (below):
 
-- **c = 9/10 is pinned by two independent routes, and its derivation is one step short.** The seating
-  is sourced — the neutrino sits on the vacuum's seat because its mass is medium-sourced, not
-  electroweak — and the ε-blind ensemble lands on the value independently, at c = 0.903, −0.08σ. What
-  the census still owes is the step that licenses a *democratic* count: routed through gravity's
-  blindness the roster comes back as every field in the vacuum rather than the charged nine, and the
-  scalar channel that delivers ε carries independent per-operator coefficients instead. So the value is
-  data-selected and well-supported; the framework does not yet force it (the two-census marriage,
+- **c = 9/10 is a counting assumption the data confirms, and the step that would have derived it is
+  withdrawn, not owed.** The seating is sourced — the neutrino sits on the vacuum's seat because its
+  mass is medium-sourced, not electroweak — and the ε-blind ensemble lands on the value
+  independently, at c = 0.903, −0.08σ. What was meant to *license* a democratic count was routing the
+  budget split through gravity's blindness, and that step does not exist: run alone, blindness weights
+  by energy over every field in the vacuum, and charge (which selects the roster) weights by
+  Σ N_c Q² = 8 → c = 8/9, or → c = 1 with a zero-weight seat, which the census excludes. No single
+  criterion returns 9/10. Nor does the ensemble adjudicate — at its width 8/9 sits 0.30σ from 9/10,
+  and σ_c ≤ 0.0115 would be needed to separate them. So the framework does not force the value; it is
+  well-supported and assumed (#126, the two-census marriage,
   [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1).
 - **The dark-energy VALUE now has a derived-scaling closed form:** ρ_Λ¼ = (d²/2)α⁴·T_c, which on the
   Koide kernel's τ = ½ln2 gives **2.2599 meV against the observed 2.25 — +0.44%**. *(This board's

@@ -27,7 +27,9 @@ The corrected one: **P-2026-051's lock slope was exactly twice its own closure's
 The closure θ = (1 + A²/2)/9 differentiates to A/9 = √2/9 = 0.1571; the entry registered 2√2/9 =
 0.3143 and called it "the closure's exact differential." Data moves from −0.31σ to −0.54σ off the
 line — still consistent, so nothing structural falls, but the registered kill was pointing Belle II
-at the wrong locus.
+at the wrong locus. *(Superseded 2026-07-20, #102: the data row itself was wrong too — δθ is
+**+**7.409×10⁻⁶, both deviations were read off rounded displays, and the σ belongs on the residual.
+The current margin is **+0.89σ**. See `02-P051-lock-slope-corrected.md`.)*
 
 Three checks worth seeing because they came out better than they had to:
 

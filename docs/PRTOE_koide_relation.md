@@ -145,6 +145,14 @@ multiplicative universality preserves Q by construction; any non-multiplicative
 distortion must sit under ~7×10⁻⁶ — the numerical fence, improvable by Belle-II-class
 τ-mass measurements.
 
+**The fence is one number, and it is m_τ.** m_e and m_μ are known to 3×10⁻¹⁰ and 2×10⁻⁸, so every
+statement in this sector is a statement about the τ mass alone. Q = 2/3 exactly requires
+**m_τ = 1776.96903 MeV**; the phase watch θ_B = 2/9 requires 1776.96651 MeV; the closure between
+them requires 1776.96705 MeV. The measurement is **1776.86 ± 0.12 MeV**, which puts all three
+**+0.91σ** above it — one shared displacement, not three agreements. It also sets the scale of any
+future discrimination inside the sector: those three predictions span 2.52 keV, so separating them
+takes a τ mass to 1.4 ppm against today's 68 ppm.
+
 ## The kernel, sourced — one statement fixes both of its parts
 
 The circulant's first Fourier mode is the whole content of the Koide sector, and **Q = 2/3
@@ -202,28 +210,63 @@ Write s = √m with mean μ and population variance V. Then Q = ⅓ + V/(3μ²) 
 > **Q = 2/3 ⟺ V = μ²** — the standard deviation of √m equals its mean, a coefficient of
 > variation of exactly 1.
 
-On the measured leptons that holds to **18 ppm** (V/μ² = 0.9999815).
+On the measured leptons that holds to **18 ppm** (V/μ² = 0.9999815). *(That 18.47 ppm is the miss on
+V/μ² = 3Q − 1. The same miss quoted on Q itself is 9.23 ppm — a factor of **2** apart, not 3: the
+identity's slope is dV/dQ = 3, but both are read as fractional misses, and converting one to the
+other brings in Q, so (dV/V)/(dQ/Q) = 3Q = 3 × ⅔ = 2. Neither is a correction of the other.)*
 
 **CV = 1 is the exponential–Boltzmann law's signature** — that distribution has mean 1/λ and
 variance 1/λ², so variance = mean² exactly, and it is the unique maximum-entropy law at fixed mean.
 
-**But that reading cannot be a derivation, and the reason is quantitative.** If the three √m were a
-thermal *sample*, Q would scatter: three draws from an exponential give Q with **mean 0.50 and
-standard deviation 0.13**, a central 68% interval of [0.38, 0.63], and only **1.5×10⁻⁵** of draws
-landing within 18 ppm of 2/3. Sampling noise is four orders too large, and at n = 3 the expected
-value is not even 2/3. **The measured 18 ppm is therefore not evidence of a thermal population** —
-it is evidence that CV = 1 is held *exactly*, as a constraint, which no sampling story delivers.
+**But that reading cannot be a derivation, and the reason is quantitative and exact.** Q is
+scale-free, so for three draws from any exponential it depends only on the proportions
+s_k/Σs — and those are uniform on the simplex. The whole sampling distribution is therefore a
+closed form rather than a simulation:
 
-What the thermal language does supply is an interpretation of the constraint's **value**: 1 is the
-number a Boltzmann population would carry. What it does not supply is why three masses satisfy it
-to five decimal places. **That remains the sector's open question**, now stated sharply: what holds
-Var(√m) = mean(√m)² exactly?
+> **E[Q] = 1/2** and **Var[Q] = 1/60**, so σ = 1/√60 = **0.1291**, with a central 68% interval of
+> [0.377, 0.628]. Writing Q = ⅓ + r² with r the distance from the simplex centroid, the density at
+> Q = 2/3 is **π/(2√3) = 0.9069** — at that Q the circle's radius stands to the triangle's inradius
+> in the ratio √2, so each of the three sides cuts away exactly 90° of it and one quarter survives.
+> The odds that three draws land as close to 2/3 as the leptons do are πε/√3 with
+> ε = |Q − 2/3| = 6.2×10⁻⁶: **1.1×10⁻⁵**.
+
+Sampling noise is four orders too large, and at n = 3 the expected value is not even 2/3. **The
+measured agreement is therefore not evidence of a thermal population** — it is evidence that CV = 1
+is held *exactly*, as a constraint, which no sampling story delivers.
+
+**Nor do the deterministic readings of the same law.** If the three √m were not draws but the
+exponential's own representatives, the constraint would follow without any scatter — and it does
+not: the mid-quantiles give Q = 0.5235, the expected order statistics give Q = 25/54 = 0.4630, and
+an equally-spaced-in-CDF triple gives 0.4435. **None is near 2/3**, so the failure is not sampling
+noise that a sharper choice of representative would remove. The exponential law does not carry
+Q = 2/3 in any reading; it carries CV = 1 as a *property of the distribution*, which three numbers
+drawn from it do not inherit.
+
+**What the constraint's exactness tells us about the mechanism's class.** A quantity held to five
+decimal places is not held by a tendency, an average or an equilibrium — all of those come with
+fluctuations, and the fluctuation here would have to be suppressed by four orders it has no reason
+to be. Exactness of this kind has one source in physics: **a vanishing quantity**, protected because
+it is zero rather than because it is small. And the constraint has that shape when written in the
+kernel's own coordinates. Parseval gives Q = ⅓ + (2/3)|f₁/f₀|², so
+
+> **Q = 2/3 ⟺ f₀² − |f₁|² − |f₂|² = 0** — the ring's Fourier vector is **null** for the indefinite
+> form graded by Z₃ charge, in which the neutral mode is timelike and the two charged modes are
+> spacelike. In face coordinates the same condition is (2/3)(Σ√m)² − Σm = 0, a quadratic form with
+> eigenvalues (+1, −1, −1): a Lorentzian metric on family space whose light cone opens at exactly
+> 45° about the democratic direction (1,1,1).
+
+This is an exact rewriting and not yet a mechanism — it moves no number. What it does is name the
+class the mechanism must belong to, and rule out the class every candidate so far has come from.
+"Two sectors share power equally" invites a thermodynamic argument, and thermodynamics cannot
+deliver exactness. "A charge vanishes" invites a constraint, an index or a conservation law, which
+can. **That remains the sector's open question**, now stated in the coordinates the answer would
+have to be found in: what makes the family ring's Z₃-graded norm exactly zero?
 
 So the whole sector follows from one hypothesis about the spectrum's origin:
 
 | step | statement |
 |---|---|
-| constraint (source open) | CV = 1 exactly, i.e. V = μ² — value readable as thermal, mechanism unknown |
+| constraint (source open) | CV = 1 exactly, i.e. V = μ², i.e. the Z₃-graded norm f₀² − \|f₁\|² − \|f₂\|² vanishes — value readable as thermal, mechanism unknown |
 | ⟹ | **Q = 2/3** — the Koide relation |
 | ⟹ | A = √2, ρ = \|f₁/f₀\| = 1/√2 — the amplitude and modulus watches |
 | ⟹ | τ = −ln ρ = **½ln2**, so **T_c = 177.10 keV** and **ρ_Λ¼ = 2.2599 meV** (observed 2.25) |
@@ -233,7 +276,13 @@ So the whole sector follows from one hypothesis about the spectrum's origin:
 This replaces the earlier reading, which required choosing that equilibrium partitions power by
 *charge sector* rather than per mode — a choice that was load-bearing, since per-mode sharing
 returns Q = 1. The moment condition needs no such choice: the sector split falls out of it rather
-than being imposed on it. **What remains open is what enforces CV = 1 exactly.** A thermal population explains the
-number's value but not its precision — three draws from a Boltzmann law scatter far too widely. The
-sector's single input is therefore still a constraint in search of a mechanism, and the thermal
-reading is a clue to its value rather than its origin.
+than being imposed on it.
+
+**What remains open is what enforces the constraint exactly**, and the honest statement of it is
+short. A thermal population explains the number's value and nothing else: three draws from a
+Boltzmann law scatter with σ = 1/√60, four orders wider than the agreement, and the law's
+deterministic representatives miss 2/3 outright. The sector's single input is a constraint in search
+of a mechanism, and what the exactness rules out is every mechanism of the kind so far tried —
+equilibria, averages and balances all deliver a number with fluctuations around it. What it points
+at instead is a quantity that vanishes. **A = √2 and 2/9 are one complex number, and the amplitude
+half of it is the statement that a Z₃-graded norm is zero. Nothing in the corpus yet says why.**

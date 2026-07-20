@@ -3659,3 +3659,49 @@ under-swept for the reason check 14 names: it searched the premise's own wording
 a retirement is the conclusions. Both ledger rows are now joined.
 
 Harness 583/583 after the edits, 0 fail.
+
+### 2026-07-20 — #125 and #126 worked head-on and both graded, adverse (the flagship's two un-derived cores)
+
+**#125 (the portal's operator) — CLOSED as ASSUMED, and the earlier retirement was found to have
+over-reached.** Three findings. (i) The docket title's fork — "kinetic term vs only the Weinberg
+operator" — is false on both horns: the Weinberg operator reaches δm_ν alone at any coefficient and
+was never an alternative for δm_e, and the kinetic-term privilege came from the dyad-as-Majoron
+identity already retired. (ii) The retirement row (ledger, 2026-07-20) reads the kinetic class as
+"an operator the roster excludes." It excludes only the *linear* Z_L = 1+Ψ/f_L; the *even*
+Z_L = 1+|Ψ|²/Λ² sits on the roster and reproduces **δm_ν = 2·δm_e exactly** — so the factor-2
+content did not die, it is a correlated point in the two-coefficient operator space, reachable by a
+field redefinition of L, and **unreachable by any measurement** (1.5 meV on Σm_ν inside a window
+whose exit restores the present-day value). `source/background.c` runs that point (m_ν ∝ m_e²) and
+its comment credited the retired mechanism; corrected. (iii) The recorded roster was **short its
+lowest-dimension member**, |Ψ|²H†H at dim 4 — the only renormalizable partner, which shifts the
+Higgs vev and moves every mass. Computed the naturalness: the standing dim-6 lepton operator induces
+it at λ_p ≈ ε·y_e²·(Λ_UV/4πf)² ≤ 1.1×10⁻¹³, **~500× to ~10⁶× under** the D/H bound
+(5×10⁻¹¹…1×10⁻⁹) across f = 100–500 TeV and both cutoffs — worth ≤ 2×10⁻³σ, so excluding it costs
+no tuning. Grade: **data-narrowed and assumed**, permanent rather than owed. Twelve harness checks
+added; carriers fixed in `me_mechanism_math` §10 (a LOCKED PREDICTION + a *derived* f_L six orders
+off the standing f), `PREREGISTERED` P-006 (symmetry leg re-asserted three lines below its own
+withdrawal), `weakest_joints`, `dyad_gas`, `PHYSICS_DOMAINS`, `deuterium_scar` (its lever table had
+the bridge at "exactly zero, quarks carry L = 0" — corrected to loop-suppressed +8×10⁻⁵σ, the
+−1.94σ summation unchanged).
+
+**#126 (the gravity-routing step) — the step is WITHDRAWN, not supplied, and c stays data-selected.**
+The two-census marriage needs *membership* from one criterion and *weights* from another, and both
+are properties of one coupling. Run alone: blindness weights by energy over every field (the roster
+the G-closure rebuild returned); charge weights by Σ N_c Q² = **8** → c = 8/9, or → **c = 1** with a
+zero-weight seat, which the census excludes. **No single criterion returns 9/10.** The ε-blind
+ensemble confirms (−0.08σ) without adjudicating — 8/9 sits 0.30σ from 9/10 at its width, and
+σ_c ≤ 0.0115 (3.3× sharpening) would be needed to separate them. So c = 9/10 is a **counting
+assumption the data confirms**, and the check-14 propagation was heavier than #125's: `THREE_EQUATIONS`
+opened its c bullet with the blindness *derivation* and used it to exclude 8/9; `THE_AMPLITUDE`,
+`READERS_RISK`, `fingerprint_lattice`, `weakest_joints`, `DEPENDENCY_TREE`, `honest_status`,
+`UV_completion`, `_REDTEAM_BRIEF` and `math_spine`'s own c bullet all graded it *derived* or called
+12/13 disfavoured without naming by what. All corrected; seven harness checks added. The three
+archive files that still say "c = 9/10 derived" (`me_trigger`, `math_story`, `kill_and_patch`) were
+left under the INDEX's archive reading-rule.
+
+**One near-miss recorded (check 21's direction).** This pass changed the loop floor label
+(α/4π)² → (α/π)² in two files, then reverted it: #185's canonical-values ruling had landed the same
+hour and says both are right for different jobs. The lookup existed and was newer than the read that
+opened the files — re-check `_CANONICAL_VALUES.md` before writing, not only before starting.
+
+Harness 630/630 after the edits, 0 fail.
