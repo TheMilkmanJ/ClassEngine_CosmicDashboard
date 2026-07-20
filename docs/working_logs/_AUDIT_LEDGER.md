@@ -3062,3 +3062,43 @@ after ten forward-facing files had been corrected for exactly it.
 
 **Standing: eight mis-grades — #29, #51, #55, #59, #76, #78, #92, #93, #95.** Every one a composite
 or sweeping claim. No single-object physics task has yet produced one.
+
+### 2026-07-19/20 — REVERSE AUDIT batch E: my own propagation pass was booked as paid and was not
+
+Batch E returned last and aimed at the work I did myself. It is right on every count, and the root
+is the retraction-propagation rule this protocol gained this morning — unpaid **by the very pass
+booked as paying it**.
+
+**#143 is a MIS-GRADE.** Commit `7c2c1a2b` carried only the *k-conditionality* half of the day's
+withdrawals. **The #140 reversal was never propagated at all.** Three files continued to assert
+that vacuum neutrality forces the two bands to screen equally — each of them *citing §6e*, the
+section that retracts exactly that:
+
+- DEPENDENCY_TREE: "compensation ⟹ **equal electron and hole densities of states**"
+- DERIVATION_HUNT: "a neutral semimetal is compensated, so the **electron and hole bands screen
+  equally** (hierarchy §6c, **§6e**)"
+- THE_AMPLITUDE: "the two-band polarisation that a particle-hole condensate has **by the vacuum's own
+  neutrality**"
+
+against §6e's "compensation equalises the *densities*, **not the densities of states**", and "not
+something the vacuum's neutrality delivers for free." All three corrected: r = v_e/v_h survives as a
+free velocity ratio, and the two bands must be velocity-matched rather than merely compensated.
+
+**#137/#138 — the hierarchy file was miscing its own §6a.** §6c still read "§6a puts that shell at
+the bend-over", while §6a now says "**It is not the bend-over** … the pairing is a Fermi-surface
+instability at finite μ inside the cone." Pre-#137 text that survived #137's own commit. Corrected.
+
+**#136 — the withdrawn S claim was still asserted twice**, in the STATUS block a reader meets first
+and again in §6c, both citing §6j — while §6j now says it "**says nothing about where the anchor
+sits** … a roster bound, not a scale bound." Both cleared. Note #145 received an explicit
+closed-as-mooted re-adjudication for this same withdrawal and #136 never did.
+
+**Also fixed:** §6d concluded "1.6 to 5.2 TeV" and §6e "1 to 8 TeV" with nothing marking the
+supersession; §6d now says so.
+
+**The lesson is narrower and worse than "propagation is hard."** I wrote the retraction rule at
+roughly 09:00, and then between 19:00 and 23:00 filed three withdrawals and propagated one of them.
+The rule was in the protocol, in my own words, and the pass that violated it is the pass named
+"PROPAGATION PASS". Writing a rule is not adopting it; the check has to run against a list, and no
+list existed. **A withdrawal now needs its inheriting files enumerated at the moment of withdrawal,
+in the same commit that makes it** — not recalled afterwards.
