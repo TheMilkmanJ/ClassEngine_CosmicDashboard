@@ -227,8 +227,9 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   The bound is g_ee < 1.8×10⁻¹⁰ (equivalently v ≳ 3.6×10⁴ GeV): violated by 10⁸·⁶ in coupling. Under
   the bound the mechanism's maximum deliverable amplitude is ε_max ≈ 2×10⁻¹⁶ vs the needed 1.25×10⁻²
   — **the size-XOR-quiet wall (gate-0 §7.3) recurring: a dyad big enough to source ε thermalises;
-  one quiet enough not to cannot source ε.** **(iii)** The corpus's own identification (the dyad IS
-  the SU(2) sector's chiral condensate, §6) drags the full 27 dof in: ΔN_eff = 27/(7/4) = **15.4**;
+  one quiet enough not to cannot source ε.** **(iii)** The identification the corpus then held (the
+  dyad AS the SU(2) sector's chiral condensate — since retired in §6, which now keeps the dyad out
+  of that sector's two condensates) drags the full 27 dof in: ΔN_eff = 27/(7/4) = **15.4**;
   even a detached thermalised dyad alone gives 8/7 = **1.14** (complex Ψ — the tribunal's U(1)
   seal; the real-scalar half, 0.571, was the charitable floor) > Planck's 0.3. **(iv) The timing
   pincer (normalization-independent):** the BBN engine codes the ramp on T_γ with T_c ≈ 177–179 keV (the books are insensitive at this level);
@@ -416,9 +417,25 @@ former one-object reading, in three parts: (i) **the single T_c splits into two 
 scales** — the SU(2) confinement scale τ·m_e = 177.10 keV (the flagship's, portal-anchored,
 lattice-gated) and the dyad's electron-loop restoration scale (the κ-independent formula, which at
 the exact thermal kernel reads 250–530 keV over L−1 ∈ [1, 10]; the BBN-stability fence, stated on
-the derived anchor, is **[70, 500] keV** — the deuterium bottleneck below it and the weak-rate window above it, the two clocks that actually bound T_c — and 177.10 keV sits interior, 2.5× above the lower edge and 2.8× below the upper. **Across that entire range the BBN verdict moves by at most 0.32σ on D/H**, so the fence cannot be broken by any re-pin inside it; the kernel's own 1.1% move costs 0.0022σ, one part in 449 of the row's width); their near-equality is two
-anchors coinciding at the electron scale for separate reasons (the portal vs the electron loop),
-not one object. (ii) **The Majoron scale, priced at all three corners (2026-07-18).** The registry already
+the derived anchor, is **[70, 500] keV** — the deuterium bottleneck below it and the weak-rate window above it, the two clocks that actually bound T_c — and 177.10 keV sits interior, 2.5× above the lower edge and 2.8× below the upper. **Across that entire range the BBN verdict moves by at most 0.32σ on D/H**, so the fence cannot be broken by any re-pin inside it; the kernel's own 1.1% move costs 0.0022σ, one part in 449 of the row's width); they coincide at the
+electron scale for separate reasons (the portal vs the electron loop), not one object.
+
+> **What the split leaves open, stated out loud.** ε is the **dyad's** order parameter, so the BBN
+> ramp ε(T) = ε(1 − T/T_c) should key on the **dyad's** transition — and the corpus keys it on
+> 177.10 keV, which this paragraph has just assigned to the *other* scale. That was harmless while
+> the dyad's own band was the retired [40, 900] keV, which straddled it. With the exact thermal
+> kernel the band is 250–530 keV, sitting **entirely above** 177.10 keV — a factor 1.4 to 3.0 — and
+> its top edge clears the BBN fence's 500 keV. So "coinciding at the electron scale" is now a
+> statement about the decade and not about the number, and two things follow that this corpus has
+> not said: the ramp is keyed on a scale that belongs to a different field, and the argument for
+> doing so is that the dyad's own perturbative route is too scale-ambiguous to key on (MATH_SPINE
+> §4), which is a reason to distrust the alternative rather than a reason to believe the choice.
+> **Either the two scales are one object after all — which is what the flagship's ownership question
+> also turns on — or the ramp needs its keying justified on the dyad's own transition.** The BBN
+> books do not move on it (whole-fence swing ≤ 0.32σ on D/H), so this is a structural debt, not a
+> numerical one. Desk work, no external gate; it needs a task number.
+
+(ii) **The Majoron scale, priced at all three corners (2026-07-18).** The registry already
 carries v_L's two corners (resonant → MeV, S4-armed; non-resonant → ≥ GeV, S4-dark; CMB-S4 the
 corner-selector), and the ν-tie's recorded forward mechanism (`scripts/kubo_freeze.py`) rides the
 Majoron vertex: Γ/H ∝ (m₃/v_L)², = 5×10¹⁰ at the 4.2 MeV launch value, unity at **v_L ≈ 0.9 TeV**,

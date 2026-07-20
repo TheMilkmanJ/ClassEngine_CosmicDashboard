@@ -2080,3 +2080,38 @@ estimate reported *beside* the lattice sum rather than in place of it.
 the claim, the estimate is not a version of the result — it is a different quantity.* A cutoff
 approximates a lattice well where the modes are dense and not at all where the answer lives, which
 here is the first shell.
+
+### LEPTOPHILIA'S IDENTITY LEG — the propagation half: it was still live in three files, one of them the red-team brief (2026-07-20)
+
+**Not a second retirement.** The claim itself — that the dyad's leptophilia is forced *twice over*,
+the second arrow being lepton number — was retired earlier the same day under **#125** (the entry
+above: |Ψ|² carries L = 0, so U(1)_L screens no quark bilinear, and the Majoron's tree coupling is
+to the phase a quadratic portal cannot see). This row records what that retirement left behind,
+because a withdrawal creates propagation debt retroactively and nothing prompts the re-check.
+
+**Three forward files were still asserting it**, found by the deep audit's check 12 across the
+flagship set:
+
+| file | what it said | fixed to |
+|---|---|---|
+| `PRTOE_dyad_gas.md` §2 | *"Its identity is the **Majoron**… **This is why the medium's coupling is leptophilic: the broken symmetry it carries is lepton number.**"* — headed **[ESTABLISHED]** | leptophilia carried by data at 12σ; the Majoron a separate field; the symmetry route named as not available |
+| `PRTOE_dyad_gas.md` (dead ends) | *"forced twice over: by identity … and by data"* | forced once, by data |
+| `PRTOE_bbn_witness.md` | P-2026-006's lever unavailable because *"the tree coupling is zero by symmetry, not small"* | unavailable by loop order (two EW/EM loops, ~(α/4π)²) and by the same row's own 12–18σ bound |
+| `working_logs/_REDTEAM_BRIEF.md` | **"SYMMETRY-FORBIDDEN"** — i.e. a line the corpus was telling adversaries not to attack | re-stated as excluded by loop-order and data, with an explicit instruction *not* to defend it with lepton number |
+
+**A second, older identification travelled with it and was corrected in the same pass:** the
+one-scale reading f = v_L that made the dyad *be* the Majoron went tie-dead on the
+condensate-friction ceiling (v_L ≲ 2.4 TeV against a 40 TeV thermalization floor), leaving **three
+dark fields**. `PRTOE_dyad_gas.md`, `PRTOE_dcdf_superfluid.md` and `PRTOE_INDEX.md` were still
+titled and written for **two**, and `PRTOE_MATH_SPINE.md` §0 still graded the one-vs-two-scale
+question an open fork. All four corrected.
+
+**What does not move.** Every downstream conclusion survives with room to spare — the leptophilia,
+the P-2026-006 verdict (~7×10⁻⁸ against the ~2×10⁻³ a heal would need), the D/H books. Only the
+reason changed, which is exactly why it survived: a correct conclusion kept re-certifying a broken
+premise every time anyone checked the number instead of the argument.
+
+**The lesson (process).** *Retiring a claim in the file that owns it is half the job; the other half
+is the files that were quoting it, and the red-team brief is the one that cannot be left.* An
+[ESTABLISHED] tag on an inherited argument makes it look checked, and a defence that reaches a true
+conclusion gives a reviewer nothing to trip on.

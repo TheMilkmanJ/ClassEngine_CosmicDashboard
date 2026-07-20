@@ -153,7 +153,7 @@ That single test sorts every route the model has, and explains which ones surviv
 | expansion boost confined below T_c | faster expansion, deuterium epoch only | **yes** | right shape, 8–33× too weak |
 | helium photodissociation | late injection breaks ⁴He into D | **yes** | right shape, no source |
 | shift m_e at BBN | changes the electron's contribution | **yes** | excluded by data at 12σ |
-| shift m̂ at BBN (through B_D) | changes deuterium's binding | **yes** | symmetry-forbidden: quarks carry L = 0 |
+| shift m̂ at BBN (through B_D) | changes deuterium's binding | **yes** | no channel: the quark bilinear is two EW/EM loops down, and full ε on the quarks is itself excluded at 12–18σ |
 | evaporating PBHs at 10¹¹ g (§5b) | hadronic spallation of ⁴He into D | **yes** | right shape on *both* rows; killed by the ⁶Li co-signature, 39–156× |
 
 **Constant dark radiation fails on shape, not size.** It raises both abundances with the same sign,
@@ -208,13 +208,21 @@ the cleanest orthogonal levers in principle, and only a **0.2% shift** would clo
 *Through the electron:* m_e = 1 at BBN is excluded at **12σ**. That is a data exclusion, not a
 constitutional one; it stays closed until the data moves.
 
-*Through the light quark mass:* this one is **forbidden by the model's own symmetry**, and the
-distinction matters because it cannot be reopened by better data. The dyad **is** the Majoron, the
-Goldstone of U(1)_L breaking, so it couples to the current of its broken charge — and **quarks
-carry L = 0**, making the tree coupling exactly zero rather than small. The only surviving path is
-a loop, dyad → lepton loop → 2γ → quark, suppressed by **(α/π)² = 5.4×10⁻⁶**. Applied to the dyad's
-own amplitude that delivers 6.8×10⁻⁶ percent where P-2026-006 needs 0.14–0.21% — short by a factor
-of **21,000 to 31,000**.
+*Through the light quark mass:* this one is closed **by loop order and by this row itself**, not by
+symmetry — and the distinction matters, because it is the difference between a door that is bolted
+and one that is merely very far away. The dyad's portal is the dark-neutral bilinear |Ψ|², a total
+singlet, which reaches the quark bilinear only through a loop — dyad → lepton loop → 2γ → quark,
+suppressed by **(α/π)² = 5.4×10⁻⁶**. Applied to the dyad's own amplitude that delivers 6.8×10⁻⁶
+percent where P-2026-006 needs 0.14–0.21% — short by a factor of **21,000 to 31,000**. A quark
+shift anywhere near what a heal would need is independently excluded at **12–18σ** by the very row
+it would be healing.
+
+*(This was argued for a time as forbidden **by the model's own symmetry** — the dyad read as the
+Majoron, so that lepton number would forbid a quark coupling outright. That route is closed:
+the dyad and the Majoron are separate fields, and |Ψ|² is L-neutral, so U(1)_L screens the quark
+bilinear no more than the lepton one. The conclusion is unchanged and the margin is four orders
+wider than it needs to be — but it is a quantitative wall, not a constitutional one, and this
+paragraph previously claimed the opposite.)*
 
 This is the sharpest statement of where the scar comes from. **The model's one matter-to-matter
 channel is the lepton current, and deuterium's binding is nuclear.** The dyad can reach the

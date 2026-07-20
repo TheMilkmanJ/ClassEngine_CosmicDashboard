@@ -160,9 +160,11 @@ a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar, whose de
 rate term); the committed ζ window (ΔN_eff ≈ 0.06–0.24) eases it to **−2.1 to −1.1σ**, and
 unfolding the 3.5% inter-code spread softens the standing row to ≈−1.4σ (ΛCDM's own control
 carries −1.90σ on the same width). **The dyad cannot be the
-healer:** as the Majoron (Goldstone of U(1)_L breaking) it couples only to the current of its broken
-charge, and quarks carry L = 0, so the tree-level quark coupling is **zero by symmetry** — the
-row stands at its stated tension with no rescue. P-2026-006's abundance signature — a δm̂/m̂ = +0.14–0.21% amendment
+healer:** its portal is the dark-neutral bilinear |Ψ|², which reaches the quark bilinear only at two
+EW/EM loops, and a quark coupling anywhere near the size a heal needs is independently excluded by
+this very row — so the row stands at its stated tension with no rescue. *(The older reading made this
+zero **by symmetry**, reading the dyad as the Majoron and quarks as carrying L = 0. That route is
+closed: the two are separate fields, and |Ψ|² is L-neutral.)* P-2026-006's abundance signature — a δm̂/m̂ = +0.14–0.21% amendment
 healing D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature (DSW PRD 76, 063513) — is
 retained only as a prediction about a lever this model does not have: a hypothetical future
 non-Majoron amendment, not the dyad.

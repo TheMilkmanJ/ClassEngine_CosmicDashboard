@@ -37,9 +37,9 @@ PRTOE_the_great_chain.md (+ Appendices A/B).*
 MATH_SPINE (§0–22) · laws_and_rules/ (the constitutional tiers; Tier R = the review-process laws, adopted 2026-07-18) · INTERACTION_ATLAS · interaction_map ·
 thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-055; P-052 registered and retracted the same day, annotated; P-048 carries the two-point lattice fork; P-055 is the LSS-parity position, placed 2026-07-11 and mirrored late with its provenance stated)
 
-## The two dark fields (the pieces; identity files, 2026-07-15)
+## The dark fields (the pieces; identity files) — two carry identity files, the third is the Majoron
 - [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
-- [THE DYAD — the gas piece](PRTOE_dyad_gas.md) — leptophilic (Majoron/L-breaking), couples the electron, varying-m_e binds hydrogen (the H₀ mechanism)
+- [THE DYAD — the gas piece](PRTOE_dyad_gas.md) — charge-free, couples the electron, varying-m_e binds hydrogen (the H₀ mechanism); leptophilic by data at 12σ rather than by lepton number. The **Majoron** is the third field, separate from the dyad since the one-scale corner went tie-dead, and it carries the neutrino tie ([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md))
 
 ## Physics domains — content and natively ours
 hubble_tension · bbn_witness · deuterium_scar · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·

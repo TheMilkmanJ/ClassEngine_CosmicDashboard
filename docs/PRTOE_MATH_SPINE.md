@@ -98,14 +98,24 @@ running instrument:
 > **Neither field produces the number alone**: the dark-energy scale is the dCDF's coupling raised
 > to the fourth **weighing the dyad's condensation temperature**.
 >
-> > **The T_c row's owner is not settled, and the "cross of both fields" reading depends on it.**
-> > This table assigns 177.10 keV to the dyad. [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)
-> > §6 assigns the flagship's τ·m_e to the **SU(2) confinement scale** instead, and states that the
-> > dyad is neither of that sector's two condensates — on which reading both factors belong to the
-> > dCDF's sector and the number is one field's product after all. The two scales coincide near the
-> > electron mass for separate reasons (the portal in one case, the electron loop in the other), which
-> > is why the arithmetic is the same either way and the *structural* claim is not. Read the cross
-> > claim as conditional on that assignment until it is decided.
+> > **The T_c row's owner is not settled, and the "cross of both fields" reading is the part that
+> > depends on it.** This table assigns 177.10 keV to the dyad.
+> > [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 assigns the flagship's τ·m_e to the
+> > **SU(2) confinement scale** instead, and states that the dyad is neither of that sector's two
+> > condensates.
+> >
+> > **The recorded chain leans to §6, on three independent points.** τ is *defined* as T_c/√σ — a
+> > ratio to a confining string tension, which the dyad does not have; the one dimensionful input is
+> > the **portal √σ_dark = m_e**, a statement about the confining sector; and the referee registered
+> > for τ is a **lattice T_c/√σ for SU(2) with N_f = 3**. All three make T_c the confining sector's
+> > transition, and §6 records that sector's diquark condensate as *being* the dCDF. On that reading
+> > α⁴ and T_c both belong to the dCDF's sector, and the dark-energy scale is **one sector's product,
+> > not a cross of two fields.**
+> >
+> > The arithmetic is identical either way — the two scales sit near the electron mass for separate
+> > reasons, the portal in one case and the electron loop in the other — so nothing downstream of the
+> > number moves. What moves is the structural claim in bold above, which should be read as
+> > conditional until the assignment is ruled on.
 >
 > *(The decomposition is
 > [PRTOE_build_2loop_Veff_spec.md](PRTOE_build_2loop_Veff_spec.md)'s, hunt 210–211; it is restated

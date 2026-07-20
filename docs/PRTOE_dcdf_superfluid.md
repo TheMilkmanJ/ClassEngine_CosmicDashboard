@@ -7,8 +7,9 @@
 coherent synthesis, unbanked · **[KILLED]** tried and dead. The quantitative derivations live in
 [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
 [PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md); this file is the WHAT-IT-IS, not the
-derivation. It is one of TWO dark fields — its partner is the dyad
-([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)).*
+derivation. It is one of THREE dark fields — the others are the dyad
+([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) and the Majoron, which the one-scale corner's tie-death
+keeps distinct from it.*
 
 ---
 

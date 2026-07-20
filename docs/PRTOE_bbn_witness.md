@@ -153,10 +153,17 @@ applied and the code systematic named and unfolded.**
  drag helium the same way — it heals both rows. The size needed is small: full ε on the quarks
  would move D/H by +12 to +18σ, so closing −2.5σ takes ~17% of ε, a shift of **δm̂/m̂ ≈ 0.2%** —
  which lands inside P-2026-006's registered healing band of 0.14–0.21%, with its mandatory Y_p
- −0.5% co-signature pulling helium favourable too. But the dyad is the Majoron, the Goldstone of
- lepton-number breaking, so it couples to the current of its broken charge and **quarks carry
- L = 0: the tree coupling is zero by symmetry, not small.** The loop path (dyad → lepton loop → two
- photons → quark) delivers ~7×10⁻⁸, short of the ~2×10⁻³ required by a factor of ~30,000. The model
+ −0.5% co-signature pulling helium favourable too. But the dyad has no channel to the quarks at the
+ size required. Its operator is the dark-neutral bilinear |Ψ|², a total singlet, which reaches the
+ quark bilinear only at **two EW/EM loops — order (α/4π)²** — so the quark shift is many orders
+ under the lepton one. The loop path (dyad → lepton loop → two photons → quark)
+ delivers ~7×10⁻⁸, short of the ~2×10⁻³ required by a factor of ~30,000, and a quark coupling
+ anywhere near ε is independently excluded by this very row at 12–18σ. *(This was once argued as
+ zero **by symmetry** — the dyad read as the Majoron, quarks carrying L = 0. That argument is not
+ available: the dyad and the Majoron are separate fields, and a phase-blind |Ψ|² operator is
+ L-neutral, so lepton number screens the quark bilinear no more than the lepton one. The
+ suppression is loop-order and the bound is data; the conclusion is unchanged and the margin is
+ four orders wider than it needs to be.)* The model
  knows exactly what would repair its weakest sector and has no field that can supply it — which is
  why P-2026-006 is retained as a statement about a lever this model does not have.
 
