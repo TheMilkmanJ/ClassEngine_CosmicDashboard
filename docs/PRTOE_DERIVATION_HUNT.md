@@ -434,8 +434,8 @@ irreducible input.
 - **η (the baryon asymmetry) — estimate:** η = n × junction transmission; the transfer integral lands at
   the right order (~6×10⁻¹⁰) from recorded inputs. The thermal-leptogenesis route is dead (×40–1000 under).
 - **A_s = (α_c/4πk)³ — candidate:** the shot-noise closed form. Its pieces are more mechanized than the
-  "highest-risk" label suggests: **k = ln(1+π/2α_c)/π is derived**, not merely
-  recognised: it is the full-Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange in the
+  "highest-risk" label suggests: **k = ln(1+π/2α_c)/π is derived **conditionally** — the reconstruction is exact but its host (a cold degenerate Fermi surface at finite μ, Thomas–Fermi screening, two compensated bands) is not what this corpus records for the basement, which is a hot Fermi point; hierarchy §6c, §6m**: it reconstructs
+  exactly as the full-Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange in the
   particle-hole channel, k = (1/π)∫₀¹ dq/(q + 2α_c/π), with the screening constant 2α_c/π = e²(2N₀)/4k_F²
   forced by the vacuum's neutrality — a neutral semimetal is compensated, so the electron and hole bands
   screen equally (hierarchy §6c, §6e; confirmed independently by Monte-Carlo). Inside the Eliashberg
