@@ -135,3 +135,40 @@ rather than ΛCDM, the BBN prior carries its own weight (χ² 0.31 → 1.31): th
 D/H +0.65% now enter the fit, and the helium fraction n_e ∝ (1−Y_p) is the model's, closing the
 few-per-mille damping-tail degeneracy with n_s and H₀.
 
+
+## THE DIFF AGAINST VANILLA CLASS (2026-07-20)
+
+*Referee-facing: exactly what this pipeline changes in CLASS, measured rather than described.
+Reference is the `upstream` remote, `lesgourg/class_public` at **e8580832** (2025-11-24).*
+
+**Eleven files differ. 1 104 insertions, 131 deletions.**
+
+| file | lines | what lives there |
+|---|---|---|
+| `source/perturbations.c` | 397 | the dyad's perturbation sector |
+| `source/background.c` | 343 | `background_varconst_of_z` — the ε(z) window and its ramped edges |
+| `source/input.c` | 234 | the model's parameters and their parsing |
+| `include/background.h` | 182 | the background structure's new members |
+| `include/perturbations.h` | 36 | the perturbation structure's new members |
+| `tools/evolver_ndf15.c` | 24 | stiff-solver tolerance handling |
+| `source/fourier.c` | 10 | — |
+| `include/input.h` | 4 | — |
+| `python/setup.py`, `python/external` | 3 | build wiring |
+| `source/thermodynamics.c` | 2 | **an error-message string only** |
+
+**`thermodynamics.c` carries no physics, and that is now verified rather than asserted.** Its entire
+difference from upstream is one `class_test` message gaining the failing condition as a prefix. The
+boundary section above states that the file consumes the varconst rescalings and contributes nothing
+of the model's; the diff confirms it.
+
+**Reproducing this: a naive `git diff` will report 64 files and ~44 700 lines, and that number is an
+artefact.** The bulk is line-ending churn — `tools/arrays.c` alone shows 3 613 insertions against
+3 613 deletions, and vanishes entirely under `-w`. The command that gives the real answer is
+
+```
+git diff --stat -w --ignore-blank-lines --ignore-cr-at-eol upstream/master -- \
+    source/ include/ python/ tools/ main/
+```
+
+Anyone auditing the modification surface without those flags will be looking at whitespace and will
+conclude the pipeline is forty times more modified than it is.
