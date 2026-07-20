@@ -70,8 +70,8 @@ coupling, no quark coupling). This operator satisfies all three tests:
  were exactly that crime); a coupling that follows the lepton charge is not
  one of them.
 Prior verdicts stand with the clause (the birefringence null, gate-0, the
-EP posture, BBN). What remains owed is sec 7's screening computation — a
-separate item, not a legality question. Form: FORCED (geometry is 60 orders
+EP posture, BBN). Sec 7's screening computation is a separate item from the
+legality question, and it is delivered on all four of its items there. Form: FORCED (geometry is 60 orders
 too weak, sec 32, so a direct operator is unavoidable). [trigger-doc sec 23,
 32, 34; laws_and_rules]
 
@@ -104,7 +104,7 @@ C_ref is NOT a free scale: the transition is set by a topological event
 
 ---
 
-## 4. The amplitude [BOUNDED, coefficient OPEN]
+## 4. The amplitude [BOUNDED here; the coefficient is derived by the standing stack]
 
 Ceiling (sec 31): only the ELECTROMAGNETIC part of m_e can respond to an
 EM-binding environment. Split:
@@ -113,8 +113,9 @@ EM-binding environment. Split:
  delta_m_EM/m_e = (3 α / 4pi) * ln(Λ²/m_e²) ~ 1-2% (O(α))
 
 So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits AT the
-ceiling. Size DERIVED; exact value needs Λ (cutoff, ~18 MeV -- not yet
-motivated) and the modulation fraction. [sec 28, 31]
+ceiling. Size DERIVED here as a bound; the exact value comes from the standing
+stack eps = c*fbar*alpha_c = 27*alpha/(5*pi), which uses no cutoff at all --
+this section's Lambda-and-modulation route is superseded by it. [sec 28, 31]
 
 Why m_e and not α: varying-α killed by quasars (45-100x); m_e evades
 those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]
@@ -157,7 +158,7 @@ properties. [sec 34; laws_and_rules]
 
 ---
 
-## 7. The EP escape (fifth-force gate) [RESOLUTION DIRECTION, computation OPEN]
+## 7. The EP escape (fifth-force gate) [RESOLVED — all four deliveries below]
 
 Smooth dilaton: needs β~0.012, MICROSCOPE allows β<~1×10⁻⁴ → 2 orders
 over → DEAD.
@@ -247,7 +248,7 @@ DERIVED / FORCED:
 
 OPEN:
  (census-scope legality: CLOSED — the coupling law's consolidated clause; sec 2, 6)
- - exact amplitude coefficient (cutoff + modulation fraction) [4]
+ (the amplitude coefficient: DERIVED by the standing stack 27*alpha/(5*pi), no cutoff [4])
  (the sec-7 screening computation: DELIVERED — all four items, see sec 7)
  - the two-field sims (sim-gated): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 

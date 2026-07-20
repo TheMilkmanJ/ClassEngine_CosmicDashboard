@@ -496,15 +496,17 @@ uncomputed 2-loop constant (PMS-scaling argument). Value remains UNDERIVED.
 - ρ_inf: the occupancy binding ½α_c²M₂ = 2.2599 meV (1.004×), with M₂ = α²·T_c at the kernel-sourced T_c = 177.10 keV. Retired: the 2.695 loop-dressed reading (20%, input-inconsistent) AND the earlier "M₂ selected → 2.251, 4 parts in 10⁴" framing (that precision was circular). Residual: the portal √σ_dark = m_e is the one un-derived input; α_c = 3α under test.
 - The c-roster watch: RESOLVED toward 9/10 (hunt 203–206) — the census reads the universal charged roster (not leptophilic); direct-Majorana light mass makes the neutrino the ε fixed-point seat → 9/10; the old "data lean 12/13" was backwards (the fit sits below 9/10). Residual: the un-derived value μ = 2.25 meV.
 - The α_c MCMC center watch: interim 7.94 vs the (uncalibrated) 7.55 corollary — three outcomes registered.
-- The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring); the closure survives only through the winding's vector sector, whose weight is underived.
+- The G-closure's matter-only branch: CLOSED ADVERSE by the signed demand (a leptophilic all-positive roster induces wrong-sign gravity under Visser's anchoring). The vector-sector escape that once carried it is dead fourfold (the vector escape row above — the global winding is coreless, so there is no Kelvin sector; measure 10⁻²⁵; infrared 10⁻²⁵; the halo route kinematically fenced), voided by ANN-2026-024, and the induced-G *value* is accordingly not claimed.
 - The medium claim (M3) itself: an open assumption, priced by everything above staying on the record.
-- **The medium's strong condensation is UNSOURCED (hunt 221):** the dyad/medium condensation that the
-  DE-value digit rests on needs a strong pairing coupling g_p > g_c=2, but EVERY interaction the model
-  contains is weak (α, α_c=3α, Majoron g~10⁻⁸, ε-fit κ; all g ≪ 2 by 2–15 orders). So the medium's strong
-  binding is assumed, not sourced by any specified interaction — a genuine foundational gap. Either the
-  dyad condensation scale (τ=T_c/m_e, hence the DE digit) is a FREE parameter, or a new strong pairing
-  sector must be written down. The DE value's closed form (d/2)α⁴m_e (0.966×) holds structurally; its
-  digit rests on this missing strong force.
+- **The medium's strong condensation, sourced (hunt 221, closed):** the gap argued here was that the
+  condensation the DE-value digit rests on needs a strong pairing coupling g_p > g_c = 2, while every
+  interaction the model then contained was weak (α, α_c = 3α, Majoron g ~ 10⁻⁸, ε-fit κ; all g ≪ 2 by
+  2–15 orders), leaving two horns: either τ = T_c/m_e is a FREE parameter, or a new strong pairing
+  sector must be written down. Both are answered. τ is fixed by the Koide kernel — Parseval forces the
+  kernel's modulus to 1/√2 once Q = 2/3, giving τ = ½ln2 = 0.34657 (candidate grade, lattice-gated,
+  P-2026-048). The strong sector is written down: dark SU(2) with N_f = 3, a confining vacuum. And the
+  row's premise that the dyad carries the DE digit was itself severed by the two-condensate
+  reconciliation — the dyad is neither condensate, but the separate high-decay-constant field.
 
 *Rule going forward: every new kill, reversal, or self-caught error gets its row HERE, and
 the main-read docs carry only their current-truth status plus a pointer. The garden stays
@@ -515,7 +517,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | what died | the killshot | provenance |
 |---|---|---|
 | LITERAL He-3 as the medium | four shots: baryonic (Ω_b×5 short), EM-visible (vs L1a), no pairing at cosmic density/temperature (mK physics), post-BBN existence | the STRUCTURAL He-3-A reading survives separately |
-| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | **v1 is dead (clean); the *approach* is not** — the birth zone is strong-coupling, so perturbative RGEs cannot reach the induced point. The successor (perturbative-edge matching) is **filed at §8 and still unbuilt, not this run** — this row buries v1 only, not the redesign | a structural point materialized |
+| The two-loop shooting run v1 (shoot to 1/α = 0 at M_red) | **v1 is dead (clean), and the *approach* died with it** — the birth zone is strong-coupling, so perturbative RGEs cannot reach the induced point, and the perturbative T_c program its successor (perturbative-edge matching) would have served ended with a robust negative. There is no shooter to redesign; the standing chain is kernel-sourced and lattice-refereed | a structural point materialized |
 | P-028's void-column internal rescue (return-flux topology) | flux conservation: the return flux through voids = the flux-average = the smooth estimate — the ×3400 line-concentration cannot raise the inter-line floor; the 1.5-order gap does NOT close internally | the working docket closure, 2026-07-12 |
 
 ## 6. The mathematical self-audit
@@ -524,7 +526,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 |---|---|---|
 | The "residual = dressing" identity used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; the 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
 | The triangle's "0.1% match" | x₀ is a free dial whose band covers the target — the triangle selects, not confirms; arrow A = consistency-only | overstated, corrected |
-| The two-census marriage (c's recipient-split vs the scalar delivery) | the gravity-routing step of the c-derivation is un-audited — the ε-decomposition's weakest joint | FLAGGED, owed |
+| The two-census marriage (c's recipient-split vs the scalar delivery) | the gravity-routing step of the c-derivation is un-audited — the ε-decomposition's weakest joint | FLAGGED — carried as live work on the board |
 | n_s under the clock ambiguity | 0.9638–0.9640 both ways | PASS |
 
 ## 7. Superseded-claims index (the derivation log's corpses, per the separation law)
@@ -534,7 +536,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | "the residual IS the dressing, 0.4%" | occupancy closure without the identity — CC file §2(d) |
 | "the triangle pins x₀ at 0.1%" | x₀ = free dial, closure selects it — CC file §2(c), hierarchy §2(a) |
 | the flux-measure "theorem dissolution" of f̄ (killed in simulation; the retrial estimator itself corrected) | P-041 = un-mechanized value, ensemble decides — THREE_EQUATIONS Eq. 3 |
-| the clock lineup 7.55/7.70/7.85 (quartet file §1) | marks retired; two-clock re-derivation owed ramps-first — quartet file §4b |
+| the quartet file §1 clock marks read as a standalone lineup | the §1 marks are retired as a standalone read (§1 now carries 7.59/7.74/7.89, template offset applied); the live object is §5's registered PAIR call at 7.55/7.70/7.85, graded against the zon_disp chain, and the two-clock re-derivation is owed ramps-first — quartet file §4b |
 | "transfer favorable-leaning" | reservoir survives; delivered η owed the sphaleron-weighted integral — the working docket |
 | shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |
 | the quartet-clock mechanism ("Z4-locked quartet") | conflated phase-sector locking (cos 4θ) with composite binding; killed by the recorded stability sign (c_s real ⟹ λ > 0 ⟹ pairs repel ⟹ no quartets) | the pair stands by derivation |
@@ -560,7 +562,7 @@ wall — the audit confirms the catch discipline worked retroactively.
 | candidate | the step in the kill | the ramp re-run | weight |
 |---|---|---|---|
 | **The ξ-scale wide-binary force** (§2) | "coherence lengths don't push on *embedded* bodies" — embedded/not-embedded read as a binary | **RE-RUN EXECUTED: the ramp is real (smooth across the 402 AU hinge) but the census caps the amplitude at gravitational polarization, 4πGρ_dm ξ²/c_s² ≈ 10⁻¹⁸ — 17.3 orders under the claims. THE KILL STANDS, now mechanism-grade; corollary: the model predicts NO wide-binary anomaly (a confirmed one = a P-2026-014-class kill)** | closed 2026-07-13 |
-| The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | carried as its own named redesign, perturbative-edge matching; the ramp re-run and the redesign are the same object. **Still open** — the redesign has not been built | heavy; class |
+| The two-loop shooter v1 (§5) | "perturbative RGEs cannot reach" — but perturbativity fails *gradually*, not at a wall | the named redesign (perturbative-edge matching) is **closed as mooted**: the perturbative T_c program it served ended with a robust negative, so there is no shooter to redesign | heavy; class |
 | The gate-0 deuterium heal (§2) | the heal variants were window/step-shaped couplings | the coupling form is already filed theory-open — but the kill is a 12σ DATA exclusion across four variants and carries a standing do-not-re-run order; the ramp question lives as theory-open, not as a re-run | closed by data + standing order |
 
 **Net: one new live re-run (the wide-binary intermediate regime), one already-owed
@@ -1305,8 +1307,10 @@ sound speed (c_s = √(3α)·c = 44 000 km/s) against ordinary infall (~1000 km/
 the medium re-phases forty-four times faster than gas can move through it. The injection falls
 to ~50 eV per particle and the entropy contribution to ~50 keV cm² — **below the observed
 group floors of 100–300, hence allowed**, and large enough to be a genuine contributor rather
-than a rounding error. What remains owed is the front's own treatment at merger-shock speeds,
-where the contribution approaches the observed floor.
+than a rounding error. The front's own treatment at merger-shock speeds is computed and stays
+bounded: ~150 keV cm² at the fastest gas motions in the universe, with a traversed fraction
+f ≈ 0.07, so the pickup never exceeds a few per cent of what the shock itself supplies. It
+neither threatens the model nor tests it.
 
 **What survives:** the S₈ delivery itself, which rests on the rotation-shed the pipeline
 actually codes — a **pre-registered parameter** (g ≈ 0.10 ± 0.05) whose fitted value (0.12)
@@ -1386,8 +1390,9 @@ was computed inside S2's orbit — three decades inside the soliton's core, wher
 its mass sits. Evaluated where the mass actually lives, the soliton contributes ~3×10⁶ M☉
 within one parsec, **comparable to the entire extended mass the Galactic Centre shows there**
 and which the stellar population already accounts for. The Centre is therefore the sector's
-sharpest constraint rather than its null, the test lives at parsec radii, and the verdict is
-open pending a real budget analysis. *Second radius-scale error of the same session: a margin
+sharpest constraint rather than its null, the test lives at parsec radii, and the budget
+analysis returns it adverse at 3×, with the escape named and registered as P-2026-054.
+*Second radius-scale error of the same session: a margin
 quoted at a radius the physics does not occupy.*
 
 ### The "kpc written twice" coincidence — BROKEN BY ITS OWN NUMBERS (2026-07-18)

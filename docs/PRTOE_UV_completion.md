@@ -323,5 +323,5 @@ dyad·m_e 6.3, α·m_e 3.7 keV) sits in-window — the escape is robust to the c
 
 **STATUS: DEFUSES, does not clear.** The geometric-mean is the standard conformal-window heuristic,
 not a proof that condensation picks that rung rather than the VEV (loud) or the IR floor (too cold).
-So gate-0 moves from "dead on the TeV soft mass" → "escape physical-but-unproven, pending #17
-deciding the condensate rung." NOT recorded (Pinning Rule).
+So gate-0 moves from "dead on the TeV soft mass" → "escape physical-but-unproven, waiting on
+which rung the condensation picks." NOT recorded (Pinning Rule).

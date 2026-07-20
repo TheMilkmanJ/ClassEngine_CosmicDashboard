@@ -1569,7 +1569,7 @@ census c (direct-Majorana → 9/10; inverse-seesaw → the Higgs m_D comoves und
 P-012's tie-exactness and the amplitude's census c are ONE question. **Reconciled → 9/10 (hunt 206):**
 the direct light mass (m₁ = g·⟨radial VEV⟩ ≈ μ, the flagship reading) and the heavy-N leptogenesis
 COEXIST — the seesaw's light-mass contribution is ~10⁻⁹ meV (negligible) — and consistency with the
-tie-as-LOCK (vs a two-scale tuning) selects DIRECT. Residual: the un-built spurion-identification bridge.
+tie-as-LOCK (vs a two-scale tuning) selects DIRECT. Residual: the value μ = 2.25 meV itself, which is not derived here. The spurion identification is settled — μ is a dimension-1 lepton-number-breaking parameter, a different quantity from the dimensionless varying-m_e amplitude, so no bridge between them is required.
 
 **Net:** neutrino home unchanged and re-confirmed; the dyad's BBN clearance is a live coin-flip
 (resolver: RG+BBN), the leptophilia is a portal/leptogenesis assumption, the DE=m_ν tie is
@@ -1867,7 +1867,7 @@ with the template known; letting tooth width/spacing/phase float — the actual 
 the bound modestly upward, so read A ≈ 1% as the tight-template value.)*
 
 **What this changes and doesn't.** The grade moves from *"location only"* to *"location + a ~1%
-amplitude bound."* What remains **owed (= M7, un-run)** is the *forward* derivation — **why** A ≈ 1%,
+amplitude bound."* What remains **owed — M7's remaining half, the winding-modulation full C_ℓ** — is the *forward* derivation — **why** A ≈ 1%,
 i.e. the **winding power fraction f_wind** that sets A = f_wind, from the C_ℓ-on-the-winding-torus
 computation. The observational bound is a fence the forward number must land inside; if M7 forward-
 derives f_wind ≪ 0.7% or ≫ 1.4%, the comb picture breaks against Planck. That is now a sharp,

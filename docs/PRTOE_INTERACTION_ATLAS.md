@@ -49,7 +49,8 @@ environment half, one interaction and one signature at a time.
  run is re-measuring it.
 - **The scar-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
- (Approximate coefficients; literature confirmation pending.)
+ (Approximate coefficients, literature-grade — pulled from source; see
+ the binding-sector coefficients below.)
 - **Σm_ν liberation**: removing ξ (one execution) → neutrino-mass penalty
  collapses 4.4× → briefly reopened the inverted hierarchy (P-2026-004) as
  a live target, since FALSIFIED (ANN-2026-021); the surviving prediction
@@ -301,8 +302,9 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  invisible to all present probes. What distinguishes it from the
  opening pincer (effect-only-where-unobservable) is its IMMINENT
  internal test: #11 either shows the caustic structure supports the
- Θ coupling or kills R1 outright. Its fate is #11's, near-term, and
- the external (unvirialized-gas) channel earns nothing until then.
+ Θ coupling or kills R1 outright. Its fate is #11's, near-term; the
+ external (unvirialized-gas) channel meanwhile carries registered
+ bets of its own (P-2026-007, -043, -050).
 - **Tunneling discriminator** — demoted, not dead (signature 1500× below
  the SN mass step). *Resurrects if:* mmag-decade photometric decay
  clocks, or a steeper coupling that survives §2.
@@ -554,9 +556,10 @@ is its only coupling). Give it curvature and the product is determined:*
  QUANTIZED phase (C4's condition; the Born prize), and an ANGULAR
  direction — which is axion-shaped: the only axion-shaped hole in
  the architecture, and strong CP's missing speaker. ROOM 2 — the
- origin trio: M₂, m̄₂, and Ω_ini (the medium's abundance is a
- SHOOTING PARAMETER — an opening balance with no deposit slip: the
- medium's own baryogenesis problem) + the meV whisper. ROOM 3 — the
+ origin pair: m̄₂ and Ω_ini (the medium's abundance is a SHOOTING
+ PARAMETER — an opening balance with no deposit slip: the medium's
+ own baryogenesis problem). M₂ is sourced above at 9.43 eV = α²·T_c,
+ and the meV relation is derived and registered. ROOM 3 — the
  completion's form factor (the one property κ_v and R1 both queue
  on). Cross-reference: both silences point INTO the rooms (strong
  CP → the angular mode; turbulence intermittency → the granule
