@@ -33,7 +33,7 @@ expression).*
 | z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c MCMC grades it later** | yaml |
 | n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the live run executes; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the NEXT config, no mid-run change) | **IN — running in the live test** | yaml |
 | ρ_inf stated | the occupancy value | the α_c MCMC + the triangle confirmed | yaml |
-| m_ncdm stated | 61.4 meV | the spurion identification lifted (done — neutrino_sector §2) + P-023 resolved | yaml |
+| m_ncdm stated | 61.4 meV — **the high end of the 60.8–61.4 splitting-dependent range** (P-2026-012's precision note); the runs carry this value | the spurion identification lifted (done — neutrino_sector §2) + P-023 resolved | yaml |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | comparison layer: flow_ladder_correction.py (built) |
 
 ## 3. NO PIPELINE EXPRESSION — beneficial, lives in the theory (not code by nature)

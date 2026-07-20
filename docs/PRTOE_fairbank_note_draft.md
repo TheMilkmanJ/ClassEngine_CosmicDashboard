@@ -32,7 +32,7 @@ model but cannot confirm it.**
 
 **The near-term threat is cosmological, and it comes from below.** DESI-era CMB+BAO limits reach
 Σm_ν ≲ 72 meV with some combinations pressing lower, toward the normal-ordering floor itself. The
-model sits at 61.4 meV, just inside. The live risk is therefore not a detection above the prediction
+model sits at 60.8–61.4 meV depending on the oscillation splittings adopted, just inside. The live risk is therefore not a detection above the prediction
 but **the upper limit descending through it**. The model's defence is that those limits are
 ΛCDM-conditional and the squeeze relaxes under this model's recombination physics (next section) —
 which is a testable claim rather than an escape, and the fastest way to grade this whole sector.
