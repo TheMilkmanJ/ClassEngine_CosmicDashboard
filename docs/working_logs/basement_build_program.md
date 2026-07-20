@@ -55,12 +55,36 @@ to N and Λ separately and sees only the combination. One further input — the 
 the exact constituent scale — closes it; the area law cannot.
 
 Evaluated on the recorded band Λ ∈ [1, 2] M_Pl, the relation gives **N ∈ [9.4, 37.7]** — an O(10–40)
-constituent count. That is the honest content: the induced-gravity demand does not leave N free, it
-ties it to the scale, and on the recorded scale band the roster is a few tens of constituents. For
-comparison, the Standard Model carries ~100 degrees of freedom, so a basement in this band is
-**more minimal than the SM** — a real constraint on what the constituent roster can be, and a check
-any proposed structure must pass. The "1–2 M_Pl constituents" band and this count are two faces of
-the one relation, not independent facts.
+count, tied to the scale rather than free. But which *level* N lives at is not settled, and part 3a
+below shows it matters: read as the constituent count this is a few tens of preons at 1–2 M_Pl; read
+as the emergent-species count it is a different object at a different scale. The relation is firm;
+its interpretation is the open question, flagged here so N ∈ [9,38] is not quoted as a settled
+constituent number.
+
+## Part 3a — the Pauli count verified, and the level question it exposes (2026-07-20)
+
+Lock (i)→(ii), the finiteness condition that forces three generations, is str[k₁] = 0 — a supertrace
+over species, fermions +1 per Weyl, the twelve gauge bosons −4 each. Reproduced exactly: the
+Standard Model's 45 Weyl fermions against −48 from the gauge sector give **−3**; adding the three
+right-handed neutrinos the model needs anyway makes it **48 − 48 = 0**. So the balance is real and it
+selects exactly SM + 3ν_R — three generations, three ν_R, no light steriles (P-2026-045).
+
+**But this supertrace runs over the EMERGENT species — 48 Weyl fermions and 12 gauge bosons — while
+part 2's N ∈ [9,38] is a count of the M_Pl constituents.** Two different levels, and the induced-
+gravity relation does not by itself say which one the Sakharov–Visser N in 1/G = N/(12πε²) belongs
+to. The QG file calls it "the species count" and leaves the level open. This is not cosmetic:
+
+- If N is the **constituent** count, part 2 stands: a few tens of preons at 1–2 M_Pl.
+- If N is the **emergent** count (~60 unweighted, or the Sakharov–Visser-weighted version of the same
+  48 + 12), then the relation N = 12π(M_Pl/Λ)² inverts to Λ = M_Pl√(12π/N) ≈ **0.79 M_Pl at N = 60**
+  — *sub-Planckian*, in tension with the recorded "constituents at 1–2 M_Pl."
+
+So the level of the induced-gravity N is a genuine structural fork, and the two readings give
+different constituent scales. Resolving it — does the 1/G loop run on the preons or on the emergent
+fields, and with which weights — is the first properly-physical question of the constituent
+specification, and it is not gated on any run. (The Sakharov–Visser weighting is not the +1/−4 Pauli
+weighting, so the emergent-N that enters 1/G is not literally 60; pinning that weighted count is part
+of the same question.)
 
 ## Parts 3+ — genuinely open, and this is where the model-building lives
 
