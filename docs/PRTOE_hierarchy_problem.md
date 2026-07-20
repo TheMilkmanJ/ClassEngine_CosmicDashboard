@@ -16,10 +16,13 @@
 >
 > So the arithmetic below stands and reproduces (residual 1.5014 against 3/2; M_anchor = 1576 GeV
 > against 4πm_H = 1574, +0.14%). What is homeless is the *interpretation* — a gap equation without
-> a vacuum. Other conditionality: the no-bare clause, P-2026-042's anchor identification, and the
-> gap equation's k (owed, the working docket). Referees: the α_c MCMC (the triangle) and HL-LHC
-> (the portal search) — the two-loop redesign is closed as mooted (the perturbative T_c program
-> ended; the board's adjudication, 2026-07-19) and no longer referees anything here.
+> a vacuum. Other conditionality: the no-bare clause and P-2026-042's anchor identification. **The
+> exponent's k is determined** — the screened-interaction integral, three concordant readings
+> (1.360 / 1.36461 / 1.3602) inside the Eliashberg window. What the gap equation still owes is not
+> its coupling but its **kernel**: no pairing interaction has ever been specified and no gap
+> equation solved in the medium — the exponential form is adopted, the coupling computed, the
+> constant derived. §6 states what the rehome's destination now demands of that kernel.
+> Referees: the α_c MCMC (the triangle) and HL-LHC (the portal search).
 
 ## 0. The problem
 
@@ -132,10 +135,8 @@ One lepton coupling, three functional floors, all measured.
 ## 4. Kills
 
 (i) the gap equation failing to produce k ≈ 1.3; (ii) the α_c MCMC killing 3α (the exponent's
-coupling); (iii) *(retired with the two-loop program — the redesign is closed as mooted; the
-portal's scale is now refereed by the collider search directly)*;
-(iv) HL-LHC exhausting 1–2 TeV without the portal states (the visible branch dies);
-(v) any demonstrated bare-m_H² contribution (kills the no-bare reading outright).
+coupling); (iii) HL-LHC exhausting 1–2 TeV without the portal states (the visible branch dies);
+(iv) any demonstrated bare-m_H² contribution (kills the no-bare reading outright).
 
 ## Sources
 [BCS1957] (the gap form), [MachacekVaughn1983] (the loop structure), [Volovik2003],
@@ -184,3 +185,34 @@ identification's grade after the transfer: **structural, basement-gated** — th
 named, two of three requirements met by recorded structure, the third sharing its gate with
 the seat constant b. The kills stand as amended (the α_c MCMC and HL-LHC carry the referee
 duties; the mooted two-loop redesign carries none).
+
+### 6a. What the destination demands of the kernel (computed 2026-07-19)
+
+Naming the vacuum immediately constrains the pairing, and the constraint is sharp. Write the
+pairing integral in cutoff units, J ≡ ∫₀^Λ [ρ(E)/ρ₀]·dE/√(E² + Δ²), so the gap condition is
+λ·J = 1 with λ = kα_c = **0.029874** — i.e. the kernel must deliver **J = 33.47**.
+
+| host spectrum | J as Δ → 0 | verdict |
+|---|---|---|
+| **finite DOS in the pairing shell** (ρ = ρ₀) | J = asinh(Λ/Δ) → **diverges** | reaches 33.47 at Δ/Λ = 5.8×10⁻¹⁵ — **14.2 orders, against the measured 15.19.** The divergence IS the hierarchy: an exponentially small scale from an O(10⁻²) coupling |
+| **a Fermi point** (ρ ∝ E², linear node) | J → **1.50** (equal-states) / **0.50** (cutoff-DOS) — **convergent** | **cannot pair.** No log, no exponential; pairing needs λ ≥ 2/3, and the model has 0.0299 — **subcritical by 22–67×** |
+
+So the node cannot host the pairing. A Fermi-point vacuum's phase space vanishes at the node
+exactly where BCS needs it finite, and no amount of weak coupling recovers it. **Requirement (a)
+sharpens accordingly:** not "a fermionic bath at the cutoff" but *a fermionic bath with finite
+density of states in the pairing shell* — which a Fermi-point vacuum does possess, but only at
+its bend-over, where the linear cone terminates and the full spectrum resumes. The node is the
+infrared remnant; the pairing is a cutoff-scale event. Requirement (c) inherits the same
+sharpening: the attractive channel must act on the bend-over states, not on the cone's.
+
+**A near-miss, checked and killed.** Under equal-states normalization the node's saturation is
+exactly d/2 = **3/2** — numerically the exponent's own constant, which invites reading the
+exponent's −3/2 as the node's phase-space deficit. It is not. Give the spectrum a crossover
+(ρ ∝ E^p below a bend-over E_*, flat above) and the integral is exactly J = 1/p + ln(Λ/E_*)
+— verified numerically to four decimals at p = 1, 2, 3 — so the gap condition reads
+ln(Λ/E_*) = 1/λ − 1/p. Two failures at once: it fixes the **node-emergence scale** rather than
+a gap (Δ drops out — the node, not the gap, regulates the infrared), and it carries the **wrong
+sign**, a deficit that *raises* the scale where the anchor needs suppression. At p = 2 it lands
+11.65 TeV against the anchor's 1576 GeV — over by e² = 7.4×. **The node-deficit route to the 3/2
+is dead**, and route 6's equipartition reading stands unduplicated rather than corroborated:
+the two 3/2's are different objects that happen to share a value, and only one has the sign.

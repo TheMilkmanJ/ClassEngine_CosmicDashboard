@@ -2017,3 +2017,43 @@ that hunt 215 ended with a robust negative; the standing chain is kernel-sourced
 lattice-refereed; there is no shooter to redesign. The board's ungated remainder after this
 reconciliation: #103 (one session), the rectification/first-roll computation (one session,
 four consumers), and #101 (no actionable step — idea-gated).
+
+---
+
+### 2026-07-19 — THE OWED SWEEP (check 13, run properly for the first time)
+
+Owner-directed, after the owner caught `hierarchy_problem`'s "the gap equation's k (owed, the working
+docket)" — sitting three paragraphs above that same file's three concordant determinations of that k
+(1.360 / 1.36461 / 1.3602, audited into the Eliashberg window). The deep audit had passed the file.
+
+`grep -rniE "\bowe(d|s|ing)?\b"` returns **319** across `docs/`, `working_logs/` and `ForJustin/`;
+~150 sit in forward-facing docs. Every one outside the six largest files was read in context.
+
+**Stale, fixed:**
+- `arrow_of_time.md:122` — "(ii) the area-law/entanglement piece" listed as owed, but the area law is
+  derived and its coefficient closed, and `information_paradox.md:8` says so outright. Rewritten to the
+  half that actually survives: the regulator's O(1) check on the entanglement side, which one payment
+  closes for the Page curve as well.
+- `the_great_chain.md:35` — "the frozen-era crux owed"; the transfer integral resolved it the same day
+  (field deep-frozen, h = 4.0, AC regime, the rectifier holding the magnitude). Rewritten in voice.
+
+**Docketed — real desk work that existed only as the word "owed":** the basement build (#113 — three
+files park debts against it: the seat constant b, light's exact coupling closure at M_Pl, and the
+anchor's attractive channel; #18 closed the *roster*, never the build), the gap equation's kernel
+(#114), the family-field potential and the background M (#115), the seat-alignment derivation (#116),
+the bounce sector (#117 — three files, one object), the two-draws question (#118), the cold-spot orphan
+(#119), the entanglement-side regulator check (#120), the genesis calc (#121). Plus #122: three places
+where a forward-facing file still says OWED against a task marked completed (the sign map vs #95, the
+Z4 quartet vs #97, the DE residual vs #93) — to be adjudicated per pair rather than assumed either way.
+
+**A claim of mine, retracted within the hour.** I reported the corpus's live `#N` references as a broken
+reference graph — "the number resolves to the wrong task." Wrong. `#N` in the documents is the legacy
+finding docket (`honest_status` pairs "task Q3 / #21"; `UV_completion` heads a section "CANDIDATE #17
+MECHANISM"), self-consistent inside the corpus and merely colliding with the working board's numbering.
+Acting on the mis-grade I had edited `me_trigger:236` to strip its `#11`, breaking one of five
+consistent references in that file; reverted. ForJustin/08 recorded the collision on 2026-07-19 — I
+had rediscovered my own filed finding and briefly mis-graded it on rediscovery.
+
+**Protocol:** no new check was added. Check 13 already states that an "owed" is a work order and not a
+label, and it would have caught both failures. What was missing was an *outcome* — work that is neither
+closed, reduced, nor gated had nowhere to go, so it stayed as the word. **docketed** is now the fourth.

@@ -119,10 +119,11 @@ question it does answer.
  subdominant: with the recorded healing length it reaches ~10³⁶ k_B today against ~10¹⁰⁴ in
  black holes. The functional supplies the theorem and the mechanism, not the universe's
  entropy budget, and is stated that way.
-- **What is owed:** (ii) the area-law/entanglement piece
- (shared with the working docket); (iii) "whatever begins, begins in the choice-free state" is a
- metaphysical premise made physical by the model's structure — flagged as the load-bearing
- philosophical joint.
+- **What is owed:** (ii) the regulator's O(1) check on the entanglement side — the area law
+ itself is derived and its coefficient closed, so what remains is half of one computation, and
+ the same payment closes the Page curve ([PRTOE_entropy.md](PRTOE_entropy.md)); (iii) "whatever
+ begins, begins in the choice-free state" is a metaphysical premise made physical by the
+ model's structure — flagged as the load-bearing philosophical joint.
 - **Falsifiers inherited:** any confirmed pre-genesis relic (kills the finite-past structure);
  cycle-structure observables (the low-ℓ odometer class, recorded).
 
