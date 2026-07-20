@@ -246,3 +246,13 @@ electron beneath a TeV condensate: the light fermion masses arise at higher orde
 condensate directly. And the bend-over spectrum must be shown to condense in this channel at
 λ = 0.03. Both are computations inside the basement rather than new assumptions, so the residual
 has changed from *find an attractive channel* to *show this one condenses*.
+
+**The selection rule is the corpus's own.** What decides the channel here — *the condensate must
+carry no electric charge* — is the rule the neutrino sector already applies from the other side.
+There the seat's occupant is the roster's one neutral fermion, and with no charge to dress, "the
+only gauge-invariant bilinear the medium can write on the seat it shares is the direct Majorana
+term" ν̄₁ᶜν₁ — a **particle-particle** bilinear, admissible exactly because a neutral fermion's
+Cooper condensate carries no charge to break U(1)_EM with. So the charged nine take the
+particle-hole channel and the neutral seat takes Majorana, and both follow from the one
+requirement that electromagnetism survive the vacuum. The tenth-channel operator and the anchor's
+pairing are one rule read at two seats, which is why neither needed a phonon.
