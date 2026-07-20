@@ -744,6 +744,12 @@ chk("hierarchy 6d", "symmetric-shell DOS correction at E_F=M_red", 1.00072, 1.00
 chk("hierarchy 6d", "exact-solution anchor 2*Lam*exp(-1/lam) (GeV)", 3152.3,
     2*2.435e18*math.exp(-1.5)*math.exp(-1/_lam0), 5e-3)
 
+# ---- hierarchy 6j: the S parameter ----
+_v_ew = 246.22
+chk("hierarchy 6j", "S at the booked anchor 1576 GeV", 0.307, 4*math.pi*_v_ew**2/1576.0**2, 5e-3)
+chk("hierarchy 6j", "S at the exact-solution 3152 GeV", 0.0768, 4*math.pi*_v_ew**2/3152.0**2, 5e-3)
+chk("hierarchy 6j", "M_rho floor from |S| < 0.14 (GeV)", 2333.0, _v_ew*math.sqrt(4*math.pi/0.14), 5e-3)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
