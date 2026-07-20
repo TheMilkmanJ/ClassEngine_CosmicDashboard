@@ -1448,3 +1448,47 @@ The three-group sort is what delivered this: both live doors were thermo, and th
 than per mode. Natural if the U(1)/Z₃ charge is what labels the equilibrium's sectors, and it is
 load-bearing — per-mode sharing would return Q = 1. **This is a claim thermodynamics can
 adjudicate**, which the previous formulation ("why does an angle equal a pure number") was not.
+
+## THE PACING-SATURATION STEP, WORKED (2026-07-19 — #79's first desk step)
+
+**The question as inherited:** the 1:1 twist transfer needs Δt_hop = β exactly — one face per
+thermal period. Why the coefficient 1?
+
+**The dissolution: the coefficient is topological, not kinetic.** The transfer statement is the
+identification of two FUNDAMENTAL cycles — the thermal circle's winding (period β, by the
+definition of the KMS state) with the Z₃ cycle's hop (one face, by the definition of the ring).
+Fundamental winding onto fundamental hop is integer-to-integer: the coefficient is exactly 1 or
+the identification is simply wrong — it cannot be off by 10%. This re-classes the debt from
+"derive a rate coefficient" (continuous, tunable, suspicious) to "one topological
+identification" (rigid, all-or-nothing) — the same move the house has made once before: the
+genesis winding imprinting the comb, the asymmetry, and the helicity is this identification's
+recorded real-space sibling; this is its Euclidean-circle instance.
+
+**The real-time consistency, both directions:**
+- *Lower bound:* Δt_hop ≥ β — a face cannot lock faster than the thermal structure whose twist
+  it inherits establishes itself (the KMS period is the bath's own definition time; the
+  Planckian bound ħ/kT in house units).
+- *Saturation:* the freeze is bath-limited in the certified regime — the Z₃ torque is off at
+  contact (Γ_torque < Γ_bath, the SAME regime condition the measured A = √2 already
+  data-certifies by excluding the torque attractors at 10⁻⁵) — so nothing slower than the bath
+  gates the lock-in, and the front sits AT the bound.
+
+**The triangle closes — the check that could have failed.** With Δt_hop = β and the chase's own
+face spacing d = c₂/√σ = c₂/m_e, the front speed is
+v_front = d/β = d·T_c = (c₂/m_e)·(τ·m_e) = c₂·τ = **Q·c exactly** — reproducing the recorded
+consistency loop "v_front = Q·c (the closure restated)" from the pacing statement rather than
+alongside it. The three statements — the 1:1 transfer, the spacing c₂ = 4/(3ln2), the front
+speed Q·c — are one triangle; any two give the third, and the arithmetic (c₂·τ = 2/3 exactly)
+is already in the harness. The pacing postulate is therefore NOT an independent assumption: it
+is the third leg of a recorded triangle.
+
+**Grade and fences, named plainly:** candidate → **derived-conditional** — conditional on
+(i) the fundamental-winding identification itself (topological in character, precedented by
+the house's winding-imprints-structure move, but not yet FORCED by a recorded structure —
+this is now the chase's single remaining postulate), and (ii) the bath-dominated regime
+(data-certified, mechanism-owed at the basement). **Kill condition:** any freeze mechanism
+demonstrably locking multiple faces per thermal period breaks the triangle at the recorded
+v_front = Q·c leg. **What this buys:** the kernel chain's desk residue drops from two
+statements to one — the sign-chain walk (the chirality sequencing) is now the only desk step
+left before the chain is candidate-grade end to end on a single postulate plus the external
+lattice triple.
