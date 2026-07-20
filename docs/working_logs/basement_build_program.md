@@ -40,28 +40,28 @@ sin²θ_W(M_Pl) = α_Y/(α₂+α_Y) = **0.471**. That is *above* the unification
 near it — a direct restatement of the abelian coupling being the outlier (α₁ > α₂ at M_Pl), not an
 independent success. It carries no information beyond lock (iv).
 
-## Part 2 — the constituent count (2026-07-20: the relation is fixed, the value is one input short)
+## Part 2 — the constituent count from induced gravity: the route the framework rejects (RETRACTED)
 
-The two normalisations agree. The QG file's 1/G = N/(12πε²) with ε the cutoff length is identical
-to 1/G = N·Λ²/12π with Λ = 1/ε — the same equation. So there is nothing to reconcile, and the
-induced-gravity demand gives one clean relation:
+A first pass here derived N = 12π·(M_Pl/Λ)² from 1/G = N/(12πε²) and read off **N ∈ [9,38]**
+constituents on the 1–2 M_Pl band. **That is wrong, and the model's own content is what kills it.**
+The Sakharov quadratic form 1/G = N/(12πε²) is proportional to str[k₁]·Λ² — and **str[k₁] = 0 is
+exactly the Pauli finiteness condition** (part 3a). The QG file (§5.4) states it plainly: *"This
+framework's own content sets that coefficient to zero … every attempt to compute Newton's constant
+along Sakharov's route was computing a term the vacuum annihilates."* So the cutoff-and-count
+relation is the route the framework abandons; it cannot pin the constituent count, and
+**N ∈ [9,38] is retracted.**
 
-  **N = 12π·(M_Pl/Λ)²**
+The physical 1/G is cutoff-free — the Pauli form **1/G = −(1/2π)·str[k₁·m²·ln(m²/µ²)]**, fixed by the
+**mass spectrum** of the vacuum's content, not by a cutoff times a count (QG §5.5). So the
+induced-gravity demand constrains the constituents through their *masses*, via the log term; pinning
+the constituent count from it is a mass-spectrum computation, not a one-line relation, and it is the
+correct first payable step here. The "constituents at 1–2 M_Pl" band must rest on that mass-spectrum
+reading rather than on the quadratic route — re-deriving it from the log term is what part 3b (open)
+owes. *The lesson: the induced-gravity sector does not hand over a constituent count for free; the
+same finiteness that makes the model gravitationally interesting removes the cheap way to count its
+constituents.*
 
-between the constituent count N and their scale Λ. It does **not** pin either alone — and that is
-structural, not a gap in the work: the QG file's whole area-law argument turns on N and ε cancelling
-between 1/G = N/(12πε²) and S = N·A/(48πε²), so the induced-gravity sector is by construction blind
-to N and Λ separately and sees only the combination. One further input — the actual roster size, or
-the exact constituent scale — closes it; the area law cannot.
-
-Evaluated on the recorded band Λ ∈ [1, 2] M_Pl, the relation gives **N ∈ [9.4, 37.7]** — an O(10–40)
-count, tied to the scale rather than free. But which *level* N lives at is not settled, and part 3a
-below shows it matters: read as the constituent count this is a few tens of preons at 1–2 M_Pl; read
-as the emergent-species count it is a different object at a different scale. The relation is firm;
-its interpretation is the open question, flagged here so N ∈ [9,38] is not quoted as a settled
-constituent number.
-
-## Part 3a — the Pauli count verified, and the level question it exposes (2026-07-20)
+## Part 3a — the Pauli count verified, and its double duty (2026-07-20)
 
 Lock (i)→(ii), the finiteness condition that forces three generations, is str[k₁] = 0 — a supertrace
 over species, fermions +1 per Weyl, the twelve gauge bosons −4 each. Reproduced exactly: the
@@ -69,22 +69,26 @@ Standard Model's 45 Weyl fermions against −48 from the gauge sector give **−
 right-handed neutrinos the model needs anyway makes it **48 − 48 = 0**. So the balance is real and it
 selects exactly SM + 3ν_R — three generations, three ν_R, no light steriles (P-2026-045).
 
-**But this supertrace runs over the EMERGENT species — 48 Weyl fermions and 12 gauge bosons — while
-part 2's N ∈ [9,38] is a count of the M_Pl constituents.** Two different levels, and the induced-
-gravity relation does not by itself say which one the Sakharov–Visser N in 1/G = N/(12πε²) belongs
-to. The QG file calls it "the species count" and leaves the level open. This is not cosmetic:
+**The finding: str[k₁] = 0 does two jobs at once, and the second one is what retracts part 2.** The
+same supertrace that forces three generations is the coefficient of the Sakharov *quadratic* 1/G
+(∝ str[k₁]·Λ²), so setting it to zero simultaneously (a) fixes the generation count and (b)
+annihilates the cutoff term in Newton's constant. This is precisely why the framework is "in Pauli's
+scheme, not Sakharov's" (QG §5.4): with the quadratic term gone, 1/G is cutoff-free and fixed by the
+mass spectrum. So finiteness and induced gravity are **one condition, not two** — and the
+constituent-count-from-cutoff of part 2 never had a foundation, because the very str[k₁] = 0 that
+gives three generations removes the Λ² term that count was read from. The honest structural content
+is the identification itself: *the condition that makes the roster finite is the condition that makes
+its gravity cutoff-free.*
 
-- If N is the **constituent** count, part 2 stands: a few tens of preons at 1–2 M_Pl.
-- If N is the **emergent** count (~60 unweighted, or the Sakharov–Visser-weighted version of the same
-  48 + 12), then the relation N = 12π(M_Pl/Λ)² inverts to Λ = M_Pl√(12π/N) ≈ **0.79 M_Pl at N = 60**
-  — *sub-Planckian*, in tension with the recorded "constituents at 1–2 M_Pl."
+## Part 3b — the constituent count from the mass spectrum (OPEN, replaces the retracted part 2)
 
-So the level of the induced-gravity N is a genuine structural fork, and the two readings give
-different constituent scales. Resolving it — does the 1/G loop run on the preons or on the emergent
-fields, and with which weights — is the first properly-physical question of the constituent
-specification, and it is not gated on any run. (The Sakharov–Visser weighting is not the +1/−4 Pauli
-weighting, so the emergent-N that enters 1/G is not literally 60; pinning that weighted count is part
-of the same question.)
+What actually pins the constituents, then, is the cutoff-free relation
+1/G = −(1/2π)·str[k₁·m²·ln(m²/µ²)]: Newton's constant is a weighted sum over the constituents' own
+*masses*, so requiring it to reproduce M_Pl constrains the constituent mass spectrum, not a bare
+count against a cutoff. Re-deriving the recorded "1–2 M_Pl constituents" band from this log term —
+and only then reading off how many constituents the spectrum needs — is the first payable step of
+the specification. It is not gated on any run; it is the mass-spectrum computation the quadratic
+route was standing in for.
 
 ## Parts 3+ — genuinely open, and this is where the model-building lives
 
