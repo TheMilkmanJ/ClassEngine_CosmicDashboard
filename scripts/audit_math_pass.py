@@ -757,6 +757,16 @@ chk("hierarchy 6d", "exact-solution anchor 2*Lam*exp(-1/lam) (GeV)", 3152.3,
 chk("hierarchy 6j", "Delta_S per degenerate heavy doublet", 0.05305, 1/(6*math.pi), 1e-3)
 chk("hierarchy 6j", "max doublets from |S| < 0.14", 2.639, 0.14*6*math.pi, 1e-2)
 
+# ---- P-2026-038: the last registered entry with no harness coverage (added 2026-07-20)
+# Its "4.75 doublet-units" and "b2 = -0.167" are exact rationals off one input,
+# b2(SM) = 19/6 with 2/3 per vector-like doublet-unit. The entry's COUNT (n = 5) is
+# withdrawn by its own amendment; the arithmetic it registered is still arithmetic, and
+# guarding it keeps the registry auditable rather than merely archived.
+_b2sm, _per = 19/6, 2/3
+chk("P-2026-038", "SU(2) flip threshold = b2(SM)/(2/3) = 19/4", 4.75, _b2sm/_per, 1e-6)
+chk("P-2026-038", "b2 at n = 5 doublets = -1/6", -0.16667, _b2sm - 5*_per, 1e-4)
+chk("P-2026-038", "b2 at n = 4 does not flip (= +1/2)", 0.5, _b2sm - 4*_per, 1e-6)
+
 # ---- P-2026-012's parenthetical splittings vs the ones the corpus computes with
 # The registry entry quotes rounder values (7.4e-5, 2.5e-3) than the block above
 # uses (7.42e-5, 2.515e-3 — current NuFIT, normal ordering). The prediction is the
