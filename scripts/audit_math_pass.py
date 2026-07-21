@@ -278,6 +278,11 @@ chk("quantum_gravity", "Bekenstein quarter = 12pi/48pi", 0.25,
 # Three-term double-counts d(p,γ)³He — LUNA is already inside ±0.037 (arXiv:2011.11320;
 # #157 settled 2026-07-21). Retired three-term bookings: FAILURES_LEDGER.
 _DH_L, _DH_W, _DH_M = 2.420, 2.372, 2.387      # LCDM control -> +omega_b -> +the window
+# Reproduction check, production splice (numba on, T_c = 0.179): W -> 2.3736 (booked 2.372,
+# 0.07%); L -> 2.4164 (booked 2.420, 0.15%); M -> 2.3914 (booked 2.387, 0.18%). The triple is
+# noise-limited at ~0.2%, which is why the elasticity below is MEASURED by a wide scan and not
+# differenced across the 1.1% step -- that differencing amplifies 0.2% booking noise ~10x and
+# is what produced the retired -1.83.
 _COOKE, _OBS_DH, _NUC_DH = 2.527, 0.030, 0.037
 _TOT = math.hypot(_OBS_DH, _NUC_DH)            # 0.0476 — the standing width
 _sig = lambda x: (x - _COOKE)/_TOT
@@ -288,8 +293,12 @@ chk("deuterium_scar", "the model's deficit vs its LCDM control", -0.69, _sig(_DH
 chk("deuterium_scar", "omega_b step costs", -1.01, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
 chk("deuterium_scar", "the dyad's BBN window gains", +0.31, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
 chk("deuterium_scar", "window grafted on LCDM alone", -1.93, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
-chk("deuterium_scar", "d ln(D/H)/d ln omega_b (production)", -1.83,
-    math.log(_DH_W/_DH_L)/math.log(1.011), 0.01)
+# MEASURED by a 6%-wide omega_b scan through the production splice, numba on, fitted log-log:
+# -1.6582 at m_e = 1, -1.6751 at the model's m_e, residuals ~5e-4 (scripts/prym_omega_b_elasticity.py).
+chk("deuterium_scar", "d ln(D/H)/d ln omega_b (production, measured)", -1.66,
+    (-1.6582 + -1.6751)/2, 0.01)
+chk("deuterium_scar", "1.1% omega_b step -> D/H loss", 1.81,
+    100*(1 - 1.011**-1.6667), 0.02, "percent")
 # the exchange rate: the omega_b shift arrives with the H0 relief
 _dH0 = 69.9 - 68.2
 chk("deuterium_scar", "deuterium paid per km/s/Mpc of H0", 0.59,

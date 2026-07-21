@@ -228,8 +228,8 @@ establishes is only that **the deficit is not manufactured in the nuclear sector
 
 **The deficit is imported from the CMB fit.** Fitting the microwave background with a varying
 electron mass returns a baryon density 1.1% above the control, and deuterium is the most
-baryon-sensitive abundance in the network — the production run gives d ln(D/H)/d ln ω_b = −1.83 — so
-that 1.1% becomes a 2.0% deuterium loss: three times the window's help, and opposite in sign.
+baryon-sensitive abundance in the network — the production run gives d ln(D/H)/d ln ω_b = −1.66 — so
+that 1.1% becomes a 1.8% deuterium loss: three times the window's help, and opposite in sign.
 
 **That baryon shift is the same one that buys the Hubble result.** The two arrive together along one
 degeneracy direction, which fixes an exchange rate of **0.59σ of deuterium per km/s/Mpc of H₀**.

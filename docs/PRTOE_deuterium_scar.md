@@ -69,6 +69,11 @@ this file:
 | the dyad's BBN window, +0.645% | 2.387 | **+0.645%** | **+0.31σ** |
 | **net** | **2.387** | −1.36% | **−0.69σ** |
 
+*(These rows are booked values and reproduce against a fresh production run only to ~0.2% —
+2.420 → 2.4164, 2.372 → 2.3736, 2.387 → 2.3914. Their −1.98% therefore sits a little below the
+elasticity's 1.8%: over a 1.1% step, 0.2% of abundance noise is ~18% of a slope. Read the rows as
+the decomposition and the −1.66 above as the sensitivity; do not derive one from the other.)*
+
 **The dyad's own nuclear physics helps deuterium.** The ε(T) ramp switching on at T_c ≈ 179 keV
 raises D/H by 0.645%, moving it *toward* Cooke — worth +0.31σ. Grafted onto the ΛCDM control alone
 it would give D/H = 2.435, or −1.93σ, better than the control's −2.25σ.
@@ -83,11 +88,15 @@ sector.** Attributing it correctly is what tells you which cures can work.
 **The deficit is carried entirely by the baryon density.** The CMB fit returns ω_b 1.1% above the
 control, because varying m_e and ω_b are degenerate in the acoustic peaks. Deuterium is the most
 ω_b-sensitive abundance in the network — the production run gives
-d ln(D/H)/d ln ω_b = **−1.83** — so a 1.1% baryon shift becomes a 2.0% deuterium loss, three times
+d ln(D/H)/d ln ω_b = **−1.66** — so a 1.1% baryon shift becomes a 1.8% deuterium loss, three times
 larger than the window's help and in the opposite direction.
 
-*(The corpus elsewhere quotes −1.6 for that exponent as a rule of thumb. The production run is the
-authority and gives −1.83; the rule of thumb understates the sensitivity by 14%.)*
+*(Measured, not inferred: a 6%-wide ω_b scan through the production splice at fixed everything
+else, fitted in log-log, gives −1.658 at m_e = 1 and −1.675 at the model's m_e — a clean power law,
+residuals ~5×10⁻⁴, and near-independent of the window. `scripts/prym_omega_b_elasticity.py` carries
+the scan and the fit. The textbook −1.6 is right to 4%. The elasticity must not be taken by
+differencing the decomposition rows below: those reproduce only to ~0.2%, and across the 1.1% step
+that noise is amplified tenfold.)*
 
 ---
 

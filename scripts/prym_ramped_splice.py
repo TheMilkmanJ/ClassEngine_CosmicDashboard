@@ -19,8 +19,9 @@ import sys, os
 # scan's own Y_p increments are linear to <2% across 0 -> 1.86%).
 #
 # THE ETA-FLOW: the CMB fit with varying m_e re-infers omega_b. The witness records that
-# shift as +1.1%, driving D/H by -1.8% (D/H ~ omega_b^-1.6, the exponent the pipeline's own
-# BBN prior uses). Pass <omega_b_scale> to apply it; the RATIO of the two runs is the
+# shift as +1.1%, driving D/H by -1.8% (D/H ~ omega_b^-1.66, MEASURED by a wide omega_b scan
+# through this splice -- scripts/prym_omega_b_elasticity.py; the chains' BBN prior codes -1.6,
+# low by 4% and inside the numerics floor). Pass <omega_b_scale> to apply it; the RATIO of the two runs is the
 # eta-flow factor, independent of PRyM's absolute omega_b default.
 #
 #   usage: prym_ramped_splice.py <shift> [T_c_MeV] [omega_b_scale]
@@ -39,6 +40,10 @@ wb_scale = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0    # eta-flow: omega
 
 import PRyM.PRyM_init as pri
 pri.me = 0.51099895                  # STANDARD at import (thermo + HT rates standard)
+try:                                 # numba only accelerates PRyM_thermo integrals; if the
+    import numba                     # env's numpy is ahead of numba, fall back to pure numpy
+except Exception:                    # (same results, slower) rather than failing to run
+    pri.numba_flag = False
 if wb_scale != 1.0:                  # the eta-flow, applied before anything derives from it
     pri.Omegabh2 = pri.Omegabh2*wb_scale
     pri.eta0b    = pri.Omegabh2_to_eta0b*pri.Omegabh2

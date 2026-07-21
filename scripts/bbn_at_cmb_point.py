@@ -6,7 +6,7 @@ it cost helium? If the CMB-preferred (omega_b down, xi in-window) also lands D/H
 Cooke without wrecking Y_p, the below-T_c dark radiation is JP's one shared knob.
 
 Response model (linear around the model's genesis BBN baseline; small shifts):
-  D/H = D0 * (omega_b/ob0)^(-1.6) * exp(k_D * xi)
+  D/H = D0 * (omega_b/ob0)^(-1.6667) * exp(k_D * xi)   # measured, prym_omega_b_elasticity.py
   Y_p = Y0 + 0.0096*ln(omega_b/ob0) + k_Y * xi
 with the genesis baseline D0=2.387e-5, Y0=0.24900 at ob0=0.022757, xi=0
 (PRTOE_bbn_witness.md run (ii)). Two coefficient sets are shown:
@@ -20,11 +20,11 @@ import numpy as np
 
 ob0, D0, Y0 = 0.022757, 2.387e-5, 0.24900          # genesis baseline (xi=0)
 DH_cooke, DH_meas = 2.527e-5, 0.030e-5             # Cooke+ 2018 (measurement error)
-DH_budget = 0.056e-5                               # model nuclear+code budget (-2.5s at base)
+DH_budget = 0.0476e-5                              # standing width, #157: obs 0.030 (+) PRIMAT 0.037
 Yp_aver, Yp_err = 0.2449, 0.0040                   # Aver+ 2015
 
 def abund(ob, xi, kD, kY):
-    DH = D0 * (ob/ob0)**(-1.6) * np.exp(kD*xi)
+    DH = D0 * (ob/ob0)**(-1.6667) * np.exp(kD*xi)
     Yp = Y0 + 0.0096*np.log(ob/ob0) + kY*xi
     return DH, Yp
 

@@ -7,9 +7,11 @@ The PRTOE chains carry a Gaussian BBN prior on (omega_b, varying_me) with a D/H 
 
 Three of those choices disagree with what the corpus states elsewhere:
 
-  1. the exponent is -1.6, but PRTOE_deuterium_scar.md:86 and PRTOE_bbn_witness.md:20
-     both name -1.83 as the production-run authority and call -1.6 a rule of thumb that
-     "understates the sensitivity by 14%";
+  1. [RESOLVED IN THE SAMPLER'S FAVOUR] the exponent was flagged against the corpus's
+     -1.83, but a direct wide omega_b scan through the production splice measures -1.66
+     (scripts/prym_omega_b_elasticity.py). The -1.83 was a differencing artefact and is
+     retired. The sampler's -1.6 is low by 4%, well inside the numerics floor. Kept as a
+     variant below only to show how little the axis matters;
   2. sigma is the observational error alone, not the standing width +/-0.0476e-5 settled
      by #157 on 2026-07-21 (obs 0.030 (+) PRIMAT post-LUNA theory 0.037);
   3. the normalisation 2.53e-5 at the pivot is ~3% above what the production PRyM run
@@ -45,15 +47,15 @@ DH_OBS = 2.527e-5           # Cooke central
 DH_SIG_ASRUN = 0.030e-5     # observational error alone
 
 # --- what the corpus says ---
-DH_EXP_CORPUS = -1.83       # scar 86 / bbn_witness 20: the production-run authority
+DH_EXP_CORPUS = -1.6667     # MEASURED: wide omega_b scan, prym_omega_b_elasticity.py
 DH_SIG_SETTLED = 0.0476e-5  # #157 standing width: obs 0.030 (+) PRIMAT theory 0.037
 
 # The pivot normalisation implied by the PRODUCTION PRyM run: the standing prediction is
 # 2.387e-5 at the as-run posterior omega_b (0.022768) and m_e = 1.012543. Undoing the
-# omega_b and m_e legs along the production exponent puts PRyM at 2.455e-5 at the pivot,
+# omega_b and m_e legs along the production exponent puts PRyM at 2.459e-5 at the pivot,
 # i.e. 3.0% below the 2.53e-5 the sampler's prior assumes. That gap is the PRyM/PArthENoPE
 # inter-code spread the corpus names as unfolded -- here it sits INSIDE the fit.
-DH_NORM_PROD = 2.455e-5
+DH_NORM_PROD = 2.459e-5
 
 # --- the Y_p term (unchanged across variants) ---
 YP_A, YP_B, YP_C = 0.2471, 0.0096, 0.17
@@ -127,11 +129,11 @@ def main():
     variants = [
         ("as-run (exp -1.60, sig 0.030)",
          dict(expo=DH_EXP_ASRUN, sig=DH_SIG_ASRUN)),
-        ("corpus exponent (-1.83, sig 0.030)",
+        ("measured exponent (-1.667, sig 0.030)",
          dict(expo=DH_EXP_CORPUS, sig=DH_SIG_ASRUN)),
         ("settled width (exp -1.60, sig 0.0476)",
          dict(expo=DH_EXP_ASRUN, sig=DH_SIG_SETTLED)),
-        ("both corrections (-1.83, sig 0.0476)",
+        ("both corrections (-1.667, sig 0.0476)",
          dict(expo=DH_EXP_CORPUS, sig=DH_SIG_SETTLED)),
         ("+ production norm (PRyM-consistent)",
          dict(expo=DH_EXP_CORPUS, sig=DH_SIG_SETTLED, norm=DH_NORM_PROD)),
@@ -161,7 +163,7 @@ def main():
               f"{row[3]:>9.3f} {row[4]:>7.0f}")
 
     print()
-    print("READING THE D/H CONSEQUENCE (production-law exponent -1.83, normalised to the")
+    print("READING THE D/H CONSEQUENCE (production-law exponent -1.667, normalised to the")
     print("standing prediction 2.387e-5 at the as-run posterior omega_b):")
     ob_asrun = base[0]
     for name, kw in variants:

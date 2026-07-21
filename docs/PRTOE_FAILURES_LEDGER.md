@@ -2536,3 +2536,37 @@ sub-QCD lifetime.
 **What survives.** The electromagnetic *spec* (mass / lifetime / abundance) remains the named missing
 ingredient; the model still cannot contain a source for it. PBHs are not that source in either
 channel. The scar stays an owned structural deficit, not an unfinished calculation.
+
+---
+
+### d ln(D/H)/d ln ω_b = −1.83 — RETIRED, a differencing artefact; the measured value is −1.66 (2026-07-21)
+
+The corpus carried **−1.83** as the deuterium–baryon elasticity, sourced to "the production run",
+and used it to argue that the textbook −1.6 "understates the sensitivity by 14%". It was never
+measured. It was obtained by dividing two booked, rounded D/H values across the 1.1% ω_b step:
+
+> log(2.372 / 2.420) / log(1.011) = **−1.83**
+
+**Why that is unsound.** The booked decomposition triple reproduces against a fresh production run
+(numba on, T_c = 0.179) only to ~0.2%: 2.420 → 2.4164, 2.372 → 2.3736, 2.387 → 2.3914. Across a
+1.1% baseline, 0.2% of abundance noise is ~18% of the exponent. The two booked values happened to
+be off in opposite directions, and that — not any physics — is the whole of the −1.83. Redoing the
+identical difference with the true values gives **−1.61**.
+
+**The measurement.** A 6%-wide ω_b scan through the production splice at fixed everything else,
+fitted in log-log — a six-times longer lever arm, so the same numerics noise costs ~3% instead of
+~18%. Result: **−1.6582** at m_e = 1 and **−1.6751** at the model's m_e, residuals ~5×10⁻⁴, a clean
+power law and near-independent of the window. Standing value **−1.66**. A parallel numba-off scan
+gives −1.64, putting the numerics floor on the exponent at ~1.5%.
+
+**Consequences.** A 1.1% baryon shift costs **1.8%** of deuterium, not 2.0%. The chains' BBN prior,
+which codes −1.6, is low by 4% — inside the numerics floor, so **the sampler was right on this axis
+and the corpus was wrong**. Re-weighting the posterior onto the measured exponent moves ω_b by
+−0.05 percentage points and the standing row by +0.04σ; nothing downstream turns on it. The harness
+check that differenced the two booked values is replaced by one that pins the measured scan
+(`scripts/prym_omega_b_elasticity.py`).
+
+**Left standing, flagged not re-booked:** the booked triple's own ~0.2% reproduction gap. The
+control (2.420 vs 2.4164) and the model row (2.387 vs 2.3914) are the two that miss. Re-booking a
+headline prediction off a rerun whose configuration was not verified against the original is a
+separate job; the decomposition rows are noise-limited at that level and should not be differenced.

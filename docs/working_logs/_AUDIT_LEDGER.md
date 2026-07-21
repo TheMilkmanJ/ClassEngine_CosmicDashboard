@@ -4149,10 +4149,11 @@ surrendering H₀. Tool: `scripts/bbn_prior_consistency_audit.py` (importance-re
 **Three mismatches found between the chains' BBN prior and the corpus's own stated physics.**
 Every PRTOE chain input carries the prior; `cmp_lcdm.input.yaml` carries none.
 
-1. **The exponent is wrong by the corpus's own authority.** The prior codes
-   D/H ∝ ω_b^−1.6. `PRTOE_deuterium_scar.md:86` and `PRTOE_bbn_witness.md:20` both name
-   **−1.83** as the production-run value and call −1.6 a rule of thumb that "understates the
-   sensitivity by 14%". The sampler under-penalises high ω_b.
+1. ~~**The exponent is wrong by the corpus's own authority.**~~ **OVERTURNED by batch 13 the same
+   day — this one went the other way.** The prior codes D/H ∝ ω_b^−1.6 and the corpus claimed
+   −1.83; measuring it directly from the production splice gives **−1.66**, so the sampler was
+   right and the corpus's −1.83 was a differencing artefact. Retired in `PRTOE_FAILURES_LEDGER.md`.
+   The −1.83 rows in the table below are therefore a counterfactual, not a correction.
 2. **The D/H width is the observational error alone (±0.030).** The standing width settled
    by #157 is ±0.0476 (obs ⊕ PRIMAT post-LUNA theory). The sampler over-constrains ω_b.
 3. **The normalisation is not the production code's.** The prior assumes 2.53×10⁻⁵ at the
@@ -4194,3 +4195,46 @@ degeneracy from inside BBN): ∂Y_p/∂ln ω_b = 0.0096, so a 1% ω_b move shift
 the CMB damping physics, which moves with m_e; the only thing pulling back is deuterium itself,
 already at its limit. The one genuinely open direction remains the 3% inter-code spread — and this
 audit shows it is not merely an external caveat but an internal pipeline inconsistency.
+
+## BATCH 13 (2026-07-21): the D/H elasticity, measured — and batch 12's first finding overturned
+
+Batch 12 flagged the sampler's D/H exponent (−1.6) against the corpus's −1.83. Instructed to settle
+which is correct rather than report the fork, I measured it from the production code. **The sampler
+was right and the corpus was wrong.**
+
+**The −1.83 was never measured.** It came from dividing two booked, rounded D/H values across the
+1.1% ω_b step: log(2.372/2.420)/log(1.011) = −1.83. A fresh production run (numba on, T_c = 0.179)
+reproduces the booked triple only to ~0.2% — 2.420 → 2.4164, 2.372 → 2.3736, 2.387 → 2.3914 — and
+across a 1.1% baseline that noise is ~18% of the exponent. The two booked values were off in
+opposite directions; that is the whole of the −1.83. The same difference on true values gives −1.61.
+
+**The measurement:** 6%-wide ω_b scan, fixed everything else, log-log fit. **−1.6582** at m_e = 1,
+**−1.6751** at the model's m_e, residuals ~5×10⁻⁴. Standing value **−1.66**; numba-off gives −1.64,
+so the numerics floor is ~1.5%. Tool: `scripts/prym_omega_b_elasticity.py` (carries the scan data;
+`--rerun` regenerates it).
+
+**Numba is not optional.** PRyM's `numba_flag` moves D/H by 0.1–0.2% — the same size as the booking
+noise. Production is numba on. `prym_ramped_splice.py` now falls back to pure numpy when the env's
+numpy is ahead of numba instead of failing outright, and the docstring marks that path a cross-check.
+An intermediate numba-off pass in this batch briefly mis-set `_DH_W` to 2.378; reverted to 2.372,
+which the numba-on run reproduces to 0.07%.
+
+**Fixed:** the exponent in `PRTOE_deuterium_scar.md` §2, `PRTOE_bbn_witness.md`, and
+`PRTOE_fairbank_note_draft.md` (−1.83 → −1.66; the derived "2.0% deuterium loss" → **1.8%**); the
+harness check that differenced the booked pair, replaced by one pinning the measured scan plus a
+new check on the 1.1%-step loss; `bbn_at_cmb_point.py`, which still carried the **retired ±0.056
+three-term width** (→ ±0.0476) and −1.6 (→ −1.6667); the splice's own header comment.
+`bbn_prior_consistency_audit.py` re-run on the measured exponent: the self-consistent variant now
+lands at ω_b +1.167%, H₀ 70.03, **−2.98σ** — the standing −2.94σ still survives reconciliation.
+
+**Left standing, deliberately.** The booked triple's ~0.2% reproduction gap: the ΛCDM control
+(2.420 vs 2.4164) and the model row (2.387 vs 2.3914) are the two that miss. Re-booking an
+advertised prediction off a rerun whose configuration was not verified against the original is a
+separate job, and it moves the headline σ by ~0.09. What *is* now booked is the rule that produced
+the error: **the decomposition rows are noise-limited at 0.2% and must not be differenced to get a
+slope.** Harness carries the reproduction values as a comment beside the triple.
+
+**The two batch-12 findings that survive unchanged:** the D/H width in the prior is the observational
+error alone (±0.030, not the settled ±0.0476), and the prior's pivot normalisation 2.53×10⁻⁵ is
+2.9% above production PRyM's 2.459×10⁻⁵ — the inter-code spread sitting inside the fit. Both belong
+in new run configs; the existing chain yamls are records of completed runs and were not edited.

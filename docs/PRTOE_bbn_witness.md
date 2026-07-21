@@ -17,7 +17,7 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
  (~70 keV): ε_eff = 0.61ε; Li (~40 keV): 0.78ε
 - the abundances. **Two runs, two baselines — they are not interchangeable, and D/H must never be
- read across them** (D/H ∝ ω_b^−1.83 in the production run — the most ω_b-sensitive abundance in the network; −1.6 is the textbook rule of thumb and understates it by 14%).
+ read across them** (D/H ∝ ω_b^−1.66 in the production run — the most ω_b-sensitive abundance in the network; measured by a wide ω_b scan in `scripts/prym_omega_b_elasticity.py`, and within 4% of the textbook −1.6).
 
  (i) The window's effect, measured on PRyM's default ω_b (`scripts/prym_ramped_splice.py`, the
  model's own ε(T) at T_c = 179 keV, ε = 1.24%). This run is what licenses the *relative*
