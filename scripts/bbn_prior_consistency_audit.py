@@ -55,7 +55,7 @@ DH_SIG_SETTLED = 0.0476e-5  # #157 standing width: obs 0.030 (+) PRIMAT theory 0
 # omega_b and m_e legs along the production exponent puts PRyM at 2.459e-5 at the pivot,
 # i.e. 3.0% below the 2.53e-5 the sampler's prior assumes. That gap is the PRyM/PArthENoPE
 # inter-code spread the corpus names as unfolded -- here it sits INSIDE the fit.
-DH_NORM_PROD = 2.459e-5
+DH_NORM_PROD = 2.4467e-5
 
 # --- the Y_p term (unchanged across variants) ---
 YP_A, YP_B, YP_C = 0.2471, 0.0096, 0.17

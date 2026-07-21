@@ -454,9 +454,15 @@ why the row stays open as an **owned adverse bet**, not as an unfinished calcula
 
 - P-2026-027's radio referee — decides the fork from the other side;
 - BBN code systematic (PRyM vs PRIMAT/PArthENoPE) — how much of −2.94σ is code vs physics;
-- a production-faithful D/H term in the joint likelihood — the live chain's BBN prior still uses a
-  stale formula (exponent −1.6, obs-only width, D/H~2.47 at the mean vs production 2.39); fixing
-  that is honesty about the trade's price, not a heal;
+- a production-faithful D/H term in the joint likelihood — **built and priced, 2026-07-21**. Of the
+  as-run prior's constants, the exponent −1.6 turned out to be right (measured −1.656; the corpus's
+  −1.83 was a differencing artefact, now retired). The real errors were the normalisation, which
+  assumed 2.53×10⁻⁵ at the pivot where production PRyM makes 2.4467×10⁻⁵, and the width, which was
+  observational-only. So the fit believed the model sat 3.4% nearer Cooke than it does — the
+  inter-code spread the corpus calls an external systematic was inside the likelihood. The corrected
+  term lands within **0.07%** of production (`scripts/bbn_prior_production_faithful.py`).
+  Re-weighting the posterior onto it moves ω_b by **+0.006 percentage points** and H₀ by 0.00: the
+  errors cancel, and the price of the trade is confirmed rather than changed;
 - CMB-S4 on the Majoron corner — selects v_L; it does **not** by itself supply the 20 MeV injector
   (the MeV corner is a scale, not that state).
 
