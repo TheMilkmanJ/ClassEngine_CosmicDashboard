@@ -61,6 +61,22 @@ varying-mₑ) are fixed; the background is not. The model reproduces the peak st
 joint data when refit, but the derived stack is not itself a zero-parameter CMB fit. The number that
 closes this is the CMB χ² minimised over the four background parameters with the physics held fixed.
 
+## Why the high-ℓ penalty is high, and that it is fixable
+
+The +198 is diagnosed (`scripts/cmb_chi2_diagnose.py`) as a peak-alignment miss, not a shape failure.
+The model's TT peaks sit at a constant ~0.18% higher ℓ than ΛCDM's (peak 1: 221 vs 220; peak 7: 2012
+vs 2010) — a constant fractional drift is the fingerprint of an acoustic-scale mismatch, since θ_s
+places the peaks at ℓ ≈ nπ/θ_s. The residual tracks the peak slope (correlation −0.66), the signature
+of a horizontal ℓ-shift of the comb rather than a height error. And 100·θ_s = 1.04047 for the model
+against 1.04194 for ΛCDM — off by 0.14%, about five times Planck's 0.03% precision on the acoustic
+scale. θ_s is a pure background quantity, set by H0, ω_b, and the recombination redshift that
+varying-mₑ controls, all among the four background parameters the fit turns; the CMB pins θ_s to
+0.03%, so any real fit hits it and the whole comb slides back into place, collapsing the high-ℓ
+penalty. The model's peak heights, damping, and tilt are already right (0.45% RMS residual); the
+fiducial H0 = 69.6 simply is not the θ_s-matched value. What remains to check is whether a residual
+high-ℓ tension survives once θ_s is restored — the CMB χ² minimised over the four background
+parameters answers it.
+
 ## Sources
 
 The modified CLASS (`python/classy`), the model config (`cmp_prtoe_fixed.yaml`). ΛCDM reference:
