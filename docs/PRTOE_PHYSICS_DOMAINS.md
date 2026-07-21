@@ -354,7 +354,7 @@ partition the mass band with §13's channels.**
 
 ## 15. Inflation & the early universe
 
-The genesis chain is pinned at both ends: Ψ₀ ~ 0.7–1.5×10¹⁷ GeV
+The genesis chain is pinned at both ends: Ψ₀ ~ 5×10¹⁶ GeV
 (abundance), H_inf < ~2–4×10¹² GeV (isocurvature) — and a new
 θ-channel isocurvature veto (fine dlnρ/dθ ~ 350/rad at r_t = 0.9) cuts
 the high-tilt + high-H_inf corners. The quartic era is not negligible at
@@ -891,7 +891,7 @@ recorded θ → π/2 − θ), so the coin survives the demotion untouched. What 
 now verified at the audited band (τ_Q ≥ 1.6×10⁹ Gyr).*
 
 **70. Reheating — RECEIPT (the fee that funds the pin).** The genesis
-fee is reheating entropy; Ψ₀ ~ 0.7–1.5×10¹⁷ GeV is fixed by demanding
+fee is reheating entropy; Ψ₀ ~ 5×10¹⁶ GeV is fixed by demanding
 today's abundance after that fee. *Hook: the abundance pin is
 arithmetic — a revised Ω_DM or entropy history moves it and every
 downstream number.*
@@ -1038,7 +1038,7 @@ against, not a claim).*
 | 67 | ³He contrast class | LAB-ESTABLISHED | gapped family mapped; P-2026-005 binds us to the gapless side |
 | 68 | Isocurvature | PASSING | H_inf pin consistent with r bounds; θ-veto step-converged in h-scan |
 | 69 | CP / Z4 genesis | CONDITIONAL | the Z4 tilt is an **input** — parity leaves Ψ² and Ψ³Ψ*, both Z2-breaking, so four-foldness is not selected; the handedness coin is independent of N; τ_Q ≥ 1.6×10⁹ Gyr verified |
-| 70 | Reheating / abundance pin | ARITHMETIC | Ψ₀ = 0.7–1.5×10¹⁷ GeV; moves only if Ω_DM or entropy history moves |
+| 70 | Reheating / abundance pin | ARITHMETIC | Ψ₀ = 5×10¹⁶ GeV; moves only if Ω_DM or entropy history moves |
 | 71 | FIRAS distortions | PASSING-NULL | μ/y at standard levels, as Law 2 requires |
 | 72 | CMB dipole | PASSING | 370 km/s speedometer; frame statistics boring, as required |
 | 73 | Dark antimatter | STANDING | same guillotines as §57–61, taken from the other side |
