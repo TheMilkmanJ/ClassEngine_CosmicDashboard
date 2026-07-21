@@ -56,10 +56,23 @@ provenance; none is re-litigated here:
  Stamped caveat: interference nodes are quantized vortex lines
  (shift-charge, O1) where the foliation degenerates — measure-zero
  EFT boundary, handled by the covariant completion.
-- **F4 (boundary stamp):** the two-fluid correspondence is kinematic
- and compositional, NOT thermodynamic — the medium is collisionless
- and never thermalizes; no second sound, no counterflow degree of
- freedom. Any "heating" must be gravity-mediated.
+- **F4 (boundary stamp):** in this leading-order small-scale reduction
+ the two-fluid correspondence is kinematic and compositional, NOT
+ thermodynamic — the coherent condensate ψ and its shed normal
+ component are pieces of ONE field, gravity-coupled, with the quartic
+ collision channel 1/X₀-suppressed, so no independent thermodynamic
+ counterflow or collisional second-sound exchange operates between
+ them and any granule "heating" must be gravity-mediated (this is the
+ scope that lets V1–V3 inherit the FDM/DK bounds). "Collisionless" is
+ that microscopic-collision statement; it does NOT deny the medium's
+ own thermal modes elsewhere — the velocity-ladder second sound
+ (√α·c, the entropy wave — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)
+ §1) and the real counterflow of other regimes: the fountain-effect
+ thermal counterflow while T ≠ 0
+ ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)),
+ the ψ–χ two-condensate counterflow with its independent vortex
+ tangles (Room 5), and the Vinen-class mutual-friction turbulence of
+ granulated halos (the two-fluid factor p²+q² that funds V5's ε-meter).
 - **F5 (EFT domain):** cutoff at the condensate scale — wavelengths
  below ~20 nm are outside the theory's definition. All five verdicts
  live at astrophysical scales, comfortably inside.
