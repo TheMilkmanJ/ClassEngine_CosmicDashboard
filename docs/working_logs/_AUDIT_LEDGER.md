@@ -3779,3 +3779,49 @@ Flags for the owner (judgment calls / out of batch):
 6. cosmic_magnetism §4 heading "The signature no one else can write down: THE SIGN" — borderline
    check-9a, but the lead is the derived *relative* sign (sign(helicity_B) = sign(H_kin)) with the
    honest caveats immediately below; lean acceptable, noted for the owner.
+
+## BATCH 3 re-audit (2026-07-21): THREE_EQUATIONS, DEPENDENCY_TREE, REFEREE_CALENDAR, blackholes_no_singularity, the_great_chain
+
+Whole-file pass. The registry is the authority for the τ fix: ANN-2026-026 (:1709-1717) and P-2026-048
+(:2597-2626) both carry **0.34657** (kernel prediction) vs **0.34506** (observation-inverted null);
+0.3503 is the superseded rounding (0.3503 = 179 keV / 511 keV, i.e. the same superseded reading as the
+old T_c = 179 keV). Harness green throughout (670/670, 0 fail).
+
+τ fix (directed) — 0.3503 → 0.34506 wherever it stood as the lattice-kill value: THREE_EQUATIONS:27,
+DEPENDENCY_TREE:50 & :76, REFEREE_CALENDAR:107 (two instances). REFEREE_CALENDAR:107 is now internally
+consistent — it had carried both 0.3503 and the correct 0.34506 for the same object. koide_relation and
+lattice_note (checked) already use 0.34506; DEPENDENCY_TREE:50 and REFEREE_CALENDAR:99 correctly keep
+179 keV / 2.2842 meV labelled as the *superseded* reading, left as-is.
+
+Additional objective fix — the same supersession in T_c form: THREE_EQUATIONS carried the stale
+**T_c ≈ 179 keV** in Equation 2 (:66) and "why 179 keV (τ·m_e)" in the closing note (:166), both
+contradicting the file's own stack table (:153, "177.10 keV … 179 keV the superseded rounding") and the
+harness (τ·m_e = ½ln2·m_e = 177.10 keV). Corrected to 177 (Eq 2) and 177.10 (τ·m_e); 179 keV now
+appears only at :153, where it is labelled superseded.
+
+Numbers re-verified against the harness: the flagship stack (ε, A_s = 2.081×10⁻⁹, z_on = 4.03×10⁷,
+Σm_ν = 61.4, ΔlnZ ≈ +2.6); the blackhole r_s/ξ ladder (M87* 0.32, crossover 2×10¹⁰), λ thresholds
+(2.2×10⁻⁹² at 3×10¹⁰ tight; 8×10⁻⁹⁴ at 2×10¹⁰ loose; 20×/250× clearances — all four harnessed),
+ρ_c = (1.1 keV)⁴, 12π/48π = ¼; the_great_chain's n-bound (n ≳ 1.65 at L ≥ 27.6 Gpc, n ~ 10–30 only for
+L ≈ 1000–9000 Gpc) and its honest check-17 treatment of the baryogenesis "factor 122 at the boundary".
+the_great_chain and DEPENDENCY_TREE bodies otherwise clean; blackholes needs no number change.
+
+Flags for the owner (judgment calls, not edited):
+1. THREE_EQUATIONS:22 flagship banner "**Grade: candidate. Its price is one hypothesis**" — a plain-prose
+   "Grade:" tag (the species fixed in batches 1–2), but this is THE flagship banner (line 3 titles it
+   "…AND ITS GRADE"). Flagship-sensitive, so flagged rather than unilaterally folded.
+2. THREE_EQUATIONS:147 — A_s "lands −0.34%" against the frozen 2.088×10⁻⁹, where the harness books
+   **−0.35%** (from the precise 2.0807; −0.34% is the rounding off the displayed 2.081). Check-21
+   display-vs-source; 0.01 pp, minor.
+3. blackholes §3/§8 — "the largest known black holes" is quoted three ways: 3×10¹⁰ M☉ (§3, :78/:83),
+   2×10¹⁰ M☉ (§8, :171, which is actually the r_s=ξ crossover), and TON 618 = 6.6×10¹⁰ (table :56). §3
+   also pairs its 3×10¹⁰ requirement (2.2×10⁻⁹², harnessed) with the 20×/250× clearances the harness
+   books at 2×10¹⁰ — at 3×10¹⁰ the tight clearance is ~9×, not 20×. Harnessed both ways and
+   07-19-reconciled, so which mass "largest known" should name is the owner's call.
+4. Docket-graph #N in prose (DEPENDENCY_TREE #182/#98/#126/B1-B7; REFEREE_CALENDAR #99/#54/#155/#134;
+   the_great_chain #170/#180) — a plain-prose target, but these are cross-corpus docket-graph refs
+   (ForJustin/08 caution); not stripped.
+
+Resolves batch-2 flag #5: REFEREE_CALENDAR:108 distinguishes the δθ deviation lock (+0.89σ = harness
+0.888) from the m_τ displacement (+0.91σ), so koide_relation's "+0.91σ" for the m_τ predictions is
+correct, not an overstatement.

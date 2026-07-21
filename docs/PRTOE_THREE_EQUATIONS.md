@@ -24,7 +24,7 @@
 > Boltzmann second moment, holding to 18 ppm on the measured masses). **Its referee is one number:**
 > a lattice T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative treatment the radiative band
 > needs, so the λ and τ gates are one job. **0.34657 crowns the kernel and the dark-energy
-> prediction together; 0.3503 kills both.**
+> prediction together; 0.34506 kills both.**
 
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
@@ -63,7 +63,7 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
 The condensate shifts fermion masses by one universal fraction, switched on above its
 condensation temperature:
 
-$$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 179\ \text{keV}$$
+$$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 177\ \text{keV}$$
 
 - $f$ is a **ramp**: $\approx 1$ in the early universe, $\to 0$ after the transition
  (nothing in this model is a step; the ramp's shape is computed, not chosen).
@@ -163,7 +163,7 @@ single row, is the claim under adjudication in the nested-sampling run now execu
 
 What does not compress is the derivation chain *inside* the symbols — why $9/10$
 (the census mechanism), why $2/\pi$ (the winding history from first genesis), why
-$179$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is the perturbative cross-check, **never the keying value**), why $3\alpha$ (basement-owed, bet-registered).
+$177.10$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is the perturbative cross-check, **never the keying value**), why $3\alpha$ (basement-owed, bet-registered).
 Those numbers are outputs of the field's history from its initial conditions, not axioms.
 The equations are three lines; the receipts are the repository.
 
