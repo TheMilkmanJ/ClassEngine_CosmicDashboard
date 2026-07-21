@@ -47,6 +47,19 @@ Every local white hole has an exterior and dies; the global one exists for exact
 neutral instant, then hands over. **Its brevity is not a concession — it is the
 evasion.** [STRUCTURAL]
 
+**A counterparty is not only forbidden — it is unneeded [computed].** The evasion is
+structural, but it is also energetic. The snap is a **zero-net-energy event**: at the burst scale
+T ≈ m_e the mass within a Hubble volume sits at its own Schwarzschild radius (R_H = R_s exactly for a
+flat universe), so the expansion energy and the gravitational binding cancel to machine precision —
++4.5×10¹⁶ against −4.5×10¹⁶ J/kg on the Hubble sphere
+([working_logs/expansion_energy_ledger.md](working_logs/expansion_energy_ledger.md);
+`scripts/localizable_zero_burst.py`). So there is nothing for an exterior to supply: the
+counterparty is not merely forbidden by the arrow, it has no energy budget to fill. *(Candidate for
+the finite heat the pour deposits, not settled: the binding energy released as the leptophilic field
+seats into the cold dark superfluid with nowhere to sink, accumulating until the parity-odd order
+melts above T_c and pours — the low beginning at the electron mass. The bounce dynamics that turn the
+burst around, and the total magnitude, remain open, the latter gated on L_gen.)* [CANDIDATE]
+
 **The visible pour:** the snap's output is the hot start — the radiation-dominated
 fireball (BBN, the nuclei-cooking window, follows minutes later; the labels are distinct
 and kept so). The CMB is the pour's afterglow, redshifted from white-hot to microwave,
