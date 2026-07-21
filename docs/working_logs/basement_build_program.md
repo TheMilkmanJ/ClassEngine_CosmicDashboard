@@ -132,10 +132,14 @@ and the Brannen phase are the **radius** and the **winding** of one graded cone:
 - **The three seats are the three Fermi points (lock ii), organised by the Z₃ (lock iii).** The
   generation index is the Fermi-point label; the Z₃ is what makes the three one orbit, so they share
   one cone.
-- **The null itself plausibly descends from lock (i).** A Fermi point is a *protected gapless* node —
-  that protection is the str[k₁] = 0 balance (part 3a) — and a massless node is what a null cone is.
-  So "why the radius is exactly √2" is "why the node is exactly gapless": the same finiteness
-  condition that fixes three generations, read as the exactness of the Koide null.
+- **The null has the *shape* of lock (i)'s balance, but the node permits it rather than forcing it.**
+  A Fermi point is a *protected gapless* node — the str[k₁] = 0 balance (part 3a) — and the Koide
+  null f₀² − |f₁|² − |f₂|² = 0 is that same signed balance read in family space, one neutral node
+  against two charged. But gaplessness alone is *not* the null: the gapless node (b = 0) sits at
+  Q = 1/3, while the null lives at *finite* hopping |b|/a = 1/√2 (Q = 2/3), which the C₃ symmetry
+  permits but does not force (worked below). So "why the radius is exactly √2" is not "why the node
+  is gapless" — it is why the medium seats the hopping at that one finite ratio, the quantity the
+  node leaves open.
 
 **The consequence for the build.** The six locks are really **two objects**: the *family node* —
 locks (i),(ii),(iii),(vi) plus the Brannen phase, all faces of one Z₃-protected gapless
