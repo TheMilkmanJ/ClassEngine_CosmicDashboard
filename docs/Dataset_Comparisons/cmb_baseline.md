@@ -45,6 +45,22 @@ It does not yet clear the "from first principles" bar. Three pieces stand:
 Baseline established — the model reproduces the CMB acoustic structure with its own derived stack;
 the residual to "from first principles" is precision plus the two pieces above, not the peaks.
 
+## The Planck χ² at the derived stack
+
+Evaluated once at the fixed derived stack (`scripts/cmb_chi2.py`, a single point, no chain), the
+Planck 2018 χ² is 1215 — lowl.TT 22.7, lowl.EE 397.9, highl plik TTTEEE 782.0, lensing 12.4 — against
+1012 for ΛCDM at its Planck best-fit. Δχ² = +203, and almost all of it (+198) is in the high-ℓ
+TT/TE/EE; the low-ℓ and lensing sit level with ΛCDM. So the ~2% eyeball residual is a Δχ² ≈ 200 at
+Planck precision — the χ², not the eye, is the honest metric.
+
+This is at the fixed fiducial background: H0 = 69.6 there is a SHOES-compromise, not the CMB-preferred
+value, and the model still fits four background parameters (H0, ω_b, z_reio, ρ_∞). So +203 is the
+un-refit penalty — an upper bound on the miss that fitting those four recovers most of (the full chain
+reaches ΔlnZ ≈ +2.6 over the joint CMB+BAO+SN data). The derived physics parameters (A_s, n_s,
+varying-mₑ) are fixed; the background is not. The model reproduces the peak structure and fits the
+joint data when refit, but the derived stack is not itself a zero-parameter CMB fit. The number that
+closes this is the CMB χ² minimised over the four background parameters with the physics held fixed.
+
 ## Sources
 
 The modified CLASS (`python/classy`), the model config (`cmp_prtoe_fixed.yaml`). ΛCDM reference:
