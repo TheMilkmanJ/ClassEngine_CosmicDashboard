@@ -49,6 +49,12 @@ shift of the comb along ℓ rather than a change in height; the peak heights, da
 0.45% RMS. θ_s is set by H0, ω_b, and the recombination redshift that varying-mₑ controls, and the
 joint fit sets it through those background parameters (`scripts/cmb_chi2_diagnose.py`).
 
+With the four background parameters free, the model fits the Planck spectrum at χ² = 1025 — a residual
+of +13 over ΛCDM's 1012, high-ℓ 595 against ΛCDM's 584 — so it fits the CMB comparably
+(`scripts/cmb_realign_4d.py`). The fit sits at H0 = 70.8 and ω_b = 0.0229, and that ω_b is the one
+deuterium is in tension with: on this single knob the CMB peak alignment and the deuterium abundance
+pull opposite ways.
+
 ## Sources
 
 The modified CLASS (`python/classy`), the model config (`cmp_prtoe_fixed.yaml`). ΛCDM reference:
