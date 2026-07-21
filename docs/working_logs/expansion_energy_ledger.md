@@ -45,6 +45,20 @@ flat-universe expansion does. What is *not* yet shown is the part that would act
 conserved global total in the medium. And what it *costs* is a preferred frame. Consistent, concrete,
 more falsifiable — not shown correct.
 
+## The localizable zero, on the board at the burst (T = m_e)
+
+The claim "the medium hosts a *localizable* zero" is now a computation, not an argument
+(`scripts/localizable_zero_burst.py`). At the burst temperature T = m_e = 0.511 MeV, the relativistic
+medium has ρ = 5.0×10²⁴ J/m³; one Hubble volume holds M = 1.1×10³⁶ kg; and a test mass on the Hubble
+sphere (receding at exactly c) carries expansion energy **+4.494×10¹⁶ J/kg** against gravitational
+binding **−4.494×10¹⁶ J/kg** — cancelling to machine zero. Equivalently the **Hubble radius equals the
+Schwarzschild radius** of the enclosed mass exactly (R_H/R_s = 1 for a flat universe): the burst sits
+at its own Schwarzschild radius, so its glow is bound to net zero, which is why it needs no
+counterparty to pour from. Both halves are the medium's — its collective recession, its induced
+gravity. *Exact and computed; still not shown: the bounce (why it turns at m_e), the total magnitude
+(needs L_gen, #180), Friedmann derived FROM the medium's energy functional, and the preferred-frame
+cost is deferred not paid.*
+
 ## Sources
 
 Standard: the Newtonian energy-balance derivation of Friedmann (Milne–McCrea); the continuity

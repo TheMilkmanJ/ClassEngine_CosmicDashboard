@@ -1810,6 +1810,12 @@ _Gn, _rho_c, _rr = 6.674e-11, 8.5e-27, 3.0e25
 _Hf = math.sqrt(8*math.pi*_Gn/3*_rho_c)          # Friedmann H
 chk("friedmann_from_medium", "flat universe: kinetic + binding = 0 at Friedmann H", 0.0,
     (0.5*_Hf**2*_rr**2 - (4.0/3.0)*math.pi*_Gn*_rho_c*_rr**2)/(0.5*_Hf**2*_rr**2), 1e-12)
+# localizable zero (localizable_zero_burst.py): flat -> Hubble radius = Schwarzschild
+# radius of the enclosed mass, R_s/R_H = 2GM/R_H = (8piG/3)rho R_H^2 = (H R_H)^2 = 1.
+_RH = 1.0/_Hf                                      # Hubble radius (c=1 units here)
+_Mh = (4.0/3.0)*math.pi*_RH**3*_rho_c             # enclosed mass
+chk("localizable_zero_burst", "flat: R_s = R_H (Hubble vol at its Schwarzschild radius)",
+    1.0, (2*_Gn*_Mh)/_RH, 1e-12)
 
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
