@@ -2,8 +2,9 @@
 
 *The model's weakest measured row, isolated and taken apart. The finding: the deficit is not made
 in the nuclear sector — the dyad's own BBN physics **improves** deuterium — it is imported from the
-CMB fit, and it is the same object as the H₀ result seen from the other end. Status: an open
-deficit with a priced cure and a named missing ingredient.*
+CMB fit, and it is the same object as the H₀ result seen from the other end. Status: **answered as
+structure** — an owned adverse trade with a named missing ingredient the field content cannot
+supply; not an unfinished calculation (§8).*
 
 ---
 
@@ -12,47 +13,41 @@ deficit with a priced cure and a named missing ingredient.*
 The model predicts **D/H = 2.387×10⁻⁵**. The quasar-optical measurement is **2.527 ± 0.030**
 (Cooke).
 
-**The error budget, term by term.** Every number in this file is quoted against one of two
-foldings of the same three components, and the width has to be quoted with the number:
+**The error budget, settled 2026-07-21 (#157).** Two components, one width:
 
 | component | value | what it is |
 |---|---|---|
 | observational | ±0.030 | Cooke's quasar-optical measurement error |
-| BBN nuclear theory | ±0.037 | PRIMAT **post-LUNA**, cite-verified (arXiv:2011.11320, D/H = 2.439 ± 0.037) |
-| the d(p,γ)³He rate | ±0.0300 | carried as a separate term by the three-term folding |
+| BBN nuclear theory | ±0.037 | PRIMAT **post-LUNA** (arXiv:2011.11320, D/H = 2.439 ± 0.037) |
 
-> **two-term width ±0.0476** = observational ⊕ nuclear theory → the standing row reads **−2.94σ**
-> **three-term width ±0.0563** = the above ⊕ the d(p,γ)³He rate → the standing row reads **−2.49σ**
+> **Standing width ±0.0476** = observational ⊕ nuclear theory → the standing row reads **−2.94σ**.
 
-**The two are not the same statement at two precisions**, and the corpus quotes both. Which one
-the corpus should standardize on is an open owner decision recorded at
-`ForJustin/10_the_two_full_budgets.md`, together with the question that decides it: PRIMAT's
-±0.037 is quoted **post-LUNA**, and LUNA's measurement *is* the d(p,γ)³He cross section — so if
-that rate's uncertainty is already inside the ±0.037, the three-term folding counts the dominant
-nuclear rate twice and the two-term ±0.0476 is the correct width. Until that is settled against
-the source, **quote the fork, not one side.**
+**Why not three terms.** A third ±0.0300 for d(p,γ)³He was carried for a time as a separate
+nuclear-rate uncertainty, giving ±0.0563 and a friendlier −2.49σ. That folding is **retired**:
+PRIMAT's ±0.037 is the Monte-Carlo prediction error *after* adopting the LUNA D(p,γ)³He rate
+(Mossa et al. 2020; Table 1 and §2.2 of arXiv:2011.11320), varying nuclear rates, τ_n, and the
+CMB+BAO baryon posterior. Adding d(p,γ)³He again double-counts the dominant deuterium destruction
+channel. The retired three-term arithmetic is pinned in the harness so a stale −2.49σ is caught on
+sight, and the kill is in `PRTOE_FAILURES_LEDGER.md`.
 
-**A ±0.0476 caution, because it is the reason this was hard to see.** The third term is
-numerically equal to the observational error, so ⊕-folding is degenerate: observational ⊕ nuclear
-and nuclear ⊕ rate both give **±0.0476** to five figures, and both routes to the combined width
-land on **±0.0563**. No arithmetic check can tell the two decompositions apart — only the wording
-of the citation can, and the corpus uses ±0.0476 for both objects. *(Relatedly, the rate
-attribution wants checking at the source: ⁴He(d,γ)⁶Li is a ⁶Li production channel and is not a
-D/H driver.)*
+**Why this was hard to see.** The third term is numerically equal to the observational error, so
+observational ⊕ nuclear and nuclear ⊕ rate both give **±0.0476** to five figures — no arithmetic
+check can separate them. Only the citation settles it. *(An earlier attribution also named
+⁴He(d,γ)⁶Li as a D/H driver; that reaction is a ⁶Li channel and is not one.)*
 
-This file quotes the three-term width below. Applying the genesis residual and the code-systematic
-spread, the quotable range is **−2.5σ to −1.4σ** on the two-term width (**−2.1σ to −1.1σ** on the
-three-term). That range is the standing book, and this file does not narrow it.
+Applying the genesis residual, the quotable committed window is **−2.5σ to −1.4σ** on this same
+two-term width. That range is unchanged by the ruling; only the standing (pre-window-edge) figure
+moves from the retired −2.49σ to **−2.94σ**.
 
 **Against ΛCDM, honestly.** The in-house ΛCDM control on identical data and the same code gives
-D/H = 2.420×10⁻⁵, which is **−1.90σ** on the same budget. So:
+D/H = 2.420×10⁻⁵, which is **−2.25σ** on the standing width. So:
 
 | | D/H ×10⁵ | vs Cooke |
 |---|---|---|
-| ΛCDM control (same code, same data) | 2.420 | −1.90σ |
-| **PRTOE** | **2.387** | **−2.49σ** |
+| ΛCDM control (same code, same data) | 2.420 | −2.25σ |
+| **PRTOE** | **2.387** | **−2.94σ** |
 
-**The model is worse than ΛCDM on deuterium by 0.59σ.** It is not solved and it is not better. Any
+**The model is worse than ΛCDM on deuterium by 0.69σ.** It is not solved and it is not better. Any
 reading of what follows has to start there.
 
 One piece of context, not a defence: the inter-code spread on the same physics (PRIMAT 2.439,
@@ -67,16 +62,16 @@ two models — which bounds how much this row can currently decide, in either di
 The prediction is built in two steps from the ΛCDM control. Taking them apart is the whole point of
 this file:
 
-| step | D/H ×10⁵ | change | σ moved |
+| step | D/H ×10⁵ | change | σ moved (2-term) |
 |---|---|---|---|
 | ΛCDM control | 2.420 | — | — |
-| ω_b pulled up +1.1% (the CMB fit) | 2.372 | **−1.98%** | **−0.85σ** |
-| the dyad's BBN window, +0.645% | 2.387 | **+0.645%** | **+0.27σ** |
-| **net** | **2.387** | −1.36% | **−0.59σ** |
+| ω_b pulled up +1.1% (the CMB fit) | 2.372 | **−1.98%** | **−1.01σ** |
+| the dyad's BBN window, +0.645% | 2.387 | **+0.645%** | **+0.31σ** |
+| **net** | **2.387** | −1.36% | **−0.69σ** |
 
 **The dyad's own nuclear physics helps deuterium.** The ε(T) ramp switching on at T_c ≈ 179 keV
-raises D/H by 0.645%, moving it *toward* Cooke — worth +0.27σ. Grafted onto the ΛCDM control alone
-it would give D/H = 2.435, or −1.63σ, better than the control's −1.90σ.
+raises D/H by 0.645%, moving it *toward* Cooke — worth +0.31σ. Grafted onto the ΛCDM control alone
+it would give D/H = 2.435, or −1.93σ, better than the control's −2.25σ.
 
 **That last sentence is a decomposition, not a scenario, and the distinction matters.** The window
 and the ω_b shift are both consequences of the same ε — one at nucleosynthesis, one at
@@ -101,9 +96,9 @@ authority and gives −1.83; the rule of thumb understates the sensitivity by 14
 The same fit that pulls ω_b up is what delivers the model's H₀ result: **68.2 → 69.9 km/s/Mpc**,
 same data, same pipeline. The two move together along one degeneracy direction. That fixes a rate:
 
-> **+1.7 km/s/Mpc of H₀ arrives with +1.1% of ω_b, which costs 0.85σ of deuterium.**
+> **+1.7 km/s/Mpc of H₀ arrives with +1.1% of ω_b, which costs 1.01σ of deuterium.**
 >
-> **0.50σ of deuterium per km/s/Mpc of H₀.**
+> **0.59σ of deuterium per km/s/Mpc of H₀.**
 
 **What the rate is, and what it is not.** It is a secant between two computed points — the model's
 fit and the ΛCDM control — not a slope measured along the degeneracy. Over the 1.7 km/s/Mpc that
@@ -124,10 +119,24 @@ rough scale of the trade, not as predicted landing points.
 is inside the measured range and does not depend on the extrapolation. The deuterium scar and the H₀ result are not two
 problems; they are one trade, and the model is currently sitting at the end of it that buys H₀.
 
-This is why the m_e degeneracy audit is the corpus's highest-value un-run test: it measures how
-much of the +1.1% is forced by the m_e physics and how much is the fit sliding freely along a
-direction that a deuterium likelihood would pin. **Deuterium is the natural degeneracy-breaker for
-the m_e–ω_b direction** — it constrains ω_b without going through the CMB at all.
+**The m_e degeneracy audit (Q2/#20), first measurement 2026-07-21.** The free-`varying_me`
+`dyad_mnu` chain (N ≈ 8700 post burn-in) measures the ridge directly:
+
+| quantity | value |
+|---|---|
+| corr(ω_b, m_e) | **+0.69** |
+| ridge | ω_b = 0.022560 + 0.01621·(m_e − 1) |
+| at m_e = 1 | ω_b = 0.022560 (+0.19% vs ΛCDM control 0.022517) |
+| at derived m_e = 1.012543 | ω_b = 0.022764 (+1.10% vs ΛCDM) |
+| posterior mean | ω_b = 0.022762, m_e = 1.01246 ± 0.00456 (**2.7σ from 1**) |
+
+**Essentially all of the +1.1% is forced by the m_e shift along the ridge.** The free-slide residual
+beyond the derived amplitude is consistent with zero (mean tracks the ridge to 0.01%). The shift is
+not a pure degeneracy artifact: the data pull m_e off 1 at 2.7σ on this chain. What the audit does
+*not* yet do is re-fit with a deuterium likelihood in the joint — that is still the correct next
+treatment (§7 item 2), and it is where the −0.69σ either shrinks or is confirmed as the model's real
+price. **Deuterium remains the natural degeneracy-breaker for the m_e–ω_b direction** — it constrains
+ω_b without going through the CMB at all.
 
 ---
 
@@ -154,7 +163,7 @@ That single test sorts every route the model has, and explains which ones surviv
 | helium photodissociation | late injection breaks ⁴He into D | **yes** | right shape, no source |
 | shift m_e at BBN | changes the electron's contribution | **yes** | excluded by data at 12σ |
 | shift m̂ at BBN (through B_D) | changes deuterium's binding | **yes** | no channel: the quark bilinear is two EW/EM loops down, and full ε on the quarks is itself excluded at 12–18σ |
-| evaporating PBHs at 10¹¹ g (§5b) | hadronic spallation of ⁴He into D | **yes** | right shape on *both* rows; killed by the ⁶Li co-signature, 39–156× |
+| evaporating PBHs at 10¹¹ g (§5b) | hadronic spallation of ⁴He into D | **yes** | right shape on *both* rows; killed by the ⁶Li co-signature, 39–156×; pure-EM dodge closed (no T ∩ τ overlap) |
 
 **Constant dark radiation fails on shape, not size.** It raises both abundances with the same sign,
 but the two rows need opposite moves: deuterium is 2.5σ low and helium is already 1.09σ high. The
@@ -282,6 +291,14 @@ number that is nuclear physics rather than model structure. *(The five-lever aud
 kill addressed PBHs as an expansion-rate component — a different job; this entry prices them as an
 injector, which had never been done.)*
 
+**The pure-EM dodge is closed too (2026-07-21).** Hawking temperature and lifetime lock through M.
+In the ⁴He photodissociation window (t ~ 4×10⁶–10⁸ s) every evaporating PBH has
+T_H ~ 35–100 GeV — fully hadronic, well above Λ_QCD. Cooling to T_H ≲ 200 MeV (to suppress
+hadrons and hope for an electromagnetic-only cascade) forces M ≳ 5×10¹³ g and τ ≳ 5×10¹⁴ s —
+years to Gyr later, outside the window by six orders. **There is no mass that is both on-time for
+⁴He photodissociation and cool enough to be EM-only.** Microscopic black holes cannot be the
+electromagnetic cure either. Both kills are in `PRTOE_FAILURES_LEDGER.md`.
+
 ---
 
 ## 6. What is missing, named
@@ -359,13 +376,13 @@ do not, and the reason is that **the failures are of three kinds and only one of
 | constant ΔN_eff | wrong shape | negative — buys deuterium, sells helium at +4.9σ |
 
 Adding the two terms of usable size, **and** breaking the Ginzburg certification to
-include the sharper transition, moves the row from **−2.49σ to −1.94σ** (the quark bridge's
-+8×10⁻⁵σ is four orders too small to register). It survives at about 2σ.
+include the sharper transition, moves the row from **−2.94σ to −2.39σ** (the quark bridge's
++8×10⁻⁵σ is four orders too small to register). It survives at about 2.4σ.
 
-Two things this makes explicit. First, a 2.49σ deficit needs a lever of order the deficit, and
-everything available is sub-0.35σ — closing it by summation would take seven or eight independent
-partial levers, and there are two. Second, and easier to get wrong: **the window's +0.27σ is
-already inside the −2.49σ.** The 2.387 figure is the value *after* the dyad's BBN window helped, so
+Two things this makes explicit. First, a 2.94σ deficit needs a lever of order the deficit, and
+everything available is sub-0.35σ — closing it by summation would take eight or nine independent
+partial levers, and there are two. Second, and easier to get wrong: **the window's +0.31σ is
+already inside the −2.94σ.** The 2.387 figure is the value *after* the dyad's BBN window helped, so
 counting the window again as a separate lever would be counting the same physics twice.
 
 ---
@@ -374,12 +391,12 @@ counting the window again as a separate lever would be counting the same physics
 
 Ranked by how much they would change the row, cheapest first:
 
-1. **The m_e degeneracy audit.** Measures how much of the +1.1% ω_b shift is forced. If a
-   meaningful part of it is free, deuterium improves at a fraction of the §3 rate and the whole
-   trade is re-priced. Runnable; nothing is gated on hardware.
+1. **The m_e degeneracy audit — first pass done (§3).** The free-m_e chain says the +1.1% is forced
+   by the ridge, not free slide. What remains is tightening (multi-chain, fixed-m_e control re-fit)
+   and the deuterium joint below.
 2. **A deuterium-inclusive joint fit.** Adding the D/H likelihood to the CMB fit lets the data pick
    the point on the degeneracy instead of the CMB alone. This is the correct treatment regardless
-   of outcome, and it is where the −0.59σ either shrinks or is confirmed as the model's real price.
+   of outcome, and it is where the −0.69σ either shrinks or is confirmed as the model's real price.
 3. **The below-T_c reheat — checked, and it closes.** The lever is right and short by 8–33×, and
    the shortfall rides on one count. Both ends of that count are forced by group theory: the
    deconfined g* = 2(N_c²−1) + (7/8)(4N_cN_f) = **27** for SU(2) with three flavours, and the
@@ -389,13 +406,65 @@ Ranked by how much they would change the row, cheapest first:
    lever is permanently 8–33× too weak.
 4. **The BBN code systematic.** The model runs PRyM, a third code, against a tension defined by the
    PRIMAT/PArthENoPE spread. A cross-code run of the model's own configuration would say how much of
-   the −2.49σ is physics and how much is the code.
+   the −2.94σ is physics and how much is the code.
 5. **P-2026-027's radio referee.** The model sits on the low side of the deuterium fork as an owned,
    self-adverse bet. The referee decides it from the other direction entirely.
 
 ---
 
-## 8. In plain language
+## 8. The answer (not a patch)
+
+**What the scar is.** It is not a bug in the nuclear sector and not an unfinished fit. The dyad's
+own BBN window *helps* deuterium. The deficit is the CMB fit's +1.1% in ω_b, forced by the m_e–ω_b
+ridge (degeneracy audit, 2026-07-21: free-slide residual consistent with zero; m_e off 1 at ~2.7σ).
+That same ridge is the H₀ relief. **D/H and H₀ are one trade.** Standing row: **−2.94σ** on the
+two-term width (#157).
+
+**What does not fix it** — checked, not hoped:
+
+| candidate | why it is not the answer |
+|---|---|
+| slide ω_b back / joint D/H fit | works only by selling H₀ (or fighting the CMB); prices the trade, does not cancel it |
+| constant ΔN_eff | wrong shape — helium already high |
+| below-T_c reheat | right shape, permanently 8–33× too weak (dof count forced) |
+| quark / binding door | loop floor ~20 000× short, or data-excluded |
+| field-content particle at the EM spec | roster full (P-2026-045); adding a seat breaks three generations |
+| MeV-corner ν_R (~4.2 MeV) | below the ⁴He threshold; a threshold does not partly fire |
+| evaporating PBHs (hadronic) | ⁶Li co-signature, 39–156× |
+| evaporating PBHs (pure EM) | no mass is both on-time and cool enough |
+| false vacuum at 20 MeV | space-filling over-delivers by 10¹⁸; dilute limit is a particle again |
+| intermediate M_N ~ 20–50 MeV with seesaw τ | *near-miss only* — mass/lifetime can land in the EM window under U²~m/M, but (i) that is not either surviving v_L corner, (ii) abundance ~30 eV/H is a third requirement and does not follow from seating, (iii) claiming it would be inventing a third corner the sector does not currently select |
+
+**What the answer is.** The scar is the **owned structural price** of two load-bearing choices
+together:
+
+1. **varying-m_e as the H₀ lever** — which forces +ω_b along a CMB degeneracy that deuterium
+   reads as a deficit;
+2. **gravitational-only dark–SM coupling** — which forces every *native* lever to be an expansion
+   lever, and expansion levers are the wrong shape for this row.
+
+The named missing piece (≳20 MeV, 10⁶–10⁸ s, ~30 eV/H electromagnetic injector) is real as a
+*spec*. The standing configuration cannot contain a source for it without breaking something that
+elsewhere is load-bearing (Pauli finiteness, dCDF shift symmetry, or the H₀ result itself). That is
+why the row stays open as an **owned adverse bet**, not as an unfinished calculation.
+
+**What still changes the number without being a fake cure** (external or diagnostic, not a patch):
+
+- P-2026-027's radio referee — decides the fork from the other side;
+- BBN code systematic (PRyM vs PRIMAT/PArthENoPE) — how much of −2.94σ is code vs physics;
+- a production-faithful D/H term in the joint likelihood — the live chain's BBN prior still uses a
+  stale formula (exponent −1.6, obs-only width, D/H~2.47 at the mean vs production 2.39); fixing
+  that is honesty about the trade's price, not a heal;
+- CMB-S4 on the Majoron corner — selects v_L; it does **not** by itself supply the 20 MeV injector
+  (the MeV corner is a scale, not that state).
+
+**One-line answer.** The deuterium scar is the H₀ mechanism's other face under a gravitational-only
+dark sector; the model has named the only shape of object that would break the tie and does not
+contain one.
+
+---
+
+## 9. In plain language
 
 The model makes slightly too little deuterium — less than ΛCDM does, and both make less than
 astronomers measure. The surprise is where the shortfall comes from. The new physics that acts
@@ -414,12 +483,14 @@ standard cosmology.
 The way out cannot be an adjustment; it has to be a genuinely different effect — something that
 makes deuterium without touching how fast the universe expands. There are two candidates that would
 work, and the model knows precisely what shape the missing piece has: a particle of a specific mass,
-decaying at a specific time, in a specific amount. It does not currently have one.
+decaying at a specific time, in a specific amount. It does not currently have one. That is the
+answer, not a temporary gap in the fit.
 
 ---
 
 *Sources: [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md) (the standing books and the two-run
 discipline), [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md) (the H₀ result),
 [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md) (the Majoron corners),
-[PRTOE_honest_status.md](PRTOE_honest_status.md) (the m_e audit's standing).
+[PRTOE_honest_status.md](PRTOE_honest_status.md) (the m_e audit's standing),
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) (PBH and three-term kills).
 Every number in §1–§5 is recomputed by `scripts/audit_math_pass.py`.*

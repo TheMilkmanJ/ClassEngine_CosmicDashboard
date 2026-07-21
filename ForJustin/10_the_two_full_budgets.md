@@ -80,6 +80,19 @@ is a ⁶Li production channel and is not a D/H driver, so that attribution wants
 
 ---
 
+## SETTLED 2026-07-21 — #157 closed against the model
+
+**The fifteen-minute check is done.** arXiv:2011.11320 §3 (eq. 10) states the post-LUNA prediction
+as (D/H) = (2.439 ± 0.037)×10⁻⁵, with the Monte Carlo varying nuclear rates (after adopting LUNA
+D(p,γ)³He — Table 1 / §2.2), τ_n, and the CMB+BAO baryon posterior. The third term double-counts
+LUNA.
+
+**Ruling (no taste call left):** standing width **±0.0476**; standing row **−2.94σ**. Three-term
+±0.0563 / −2.49σ is **RETIRED** in `PRTOE_FAILURES_LEDGER.md`. Scar §1, harness, and the gated
+shelf updated. The advertised window **−2.5 to −1.4σ** needs no change — it was always two-term.
+
+---
+
 **Found en route, already fixed:** the scar file's §5 said the committed ζ window is
 "(ΔN_eff ≈ 0.26–0.29)". The window 2.407–2.463 that the whole corpus quotes corresponds exactly to
 **ΔN_eff 0.06–0.24** (the ζ ∈ [0.25, 0.35] band, the same one bet at CMB-S4); 0.26–0.29 would give

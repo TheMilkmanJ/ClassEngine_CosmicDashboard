@@ -2486,3 +2486,53 @@ model joins the generic case: helicity, if measured, is an independent accident.
 seeding-side magnitude claim sign(helicity_B) = sign(n); only its lock to the matter–antimatter draw
 is gone. Link 4's sign(H_kin) is a separate, still-open object (a 3D writhe+twist quantity no 1D
 solver reaches).
+
+### The three-term D/H error budget (−2.49σ) — RETIRED, double-counts LUNA (#157, 2026-07-21)
+
+**What was claimed.** The deuterium scar quoted the standing row against a "fuller" three-term width
+±0.0563 = obs ±0.030 ⊕ PRIMAT nuclear ±0.037 ⊕ d(p,γ)³He ±0.030, giving **−2.49σ** at D/H = 2.387,
+and treated the two-term ±0.0476 (−2.94σ) as an open owner choice between two honest budgets
+(`ForJustin/10_the_two_full_budgets.md`).
+
+**Why it is retired.** arXiv:2011.11320 (Pitrou et al., the PRIMAT post-LUNA paper the ±0.037 is
+cited from) adopts the LUNA D(p,γ)³He rate (Mossa et al. 2020) as the network's deuterium-destruction
+rate and builds ±0.037 by Monte Carlo over **nuclear rates**, τ_n, and the CMB+BAO baryon posterior.
+LUNA *is* the d(p,γ)³He measurement. Folding that rate in again as a third ±0.030 counts the dominant
+deuterium channel twice. The friendlier −2.49σ was an accounting error, not a fuller budget.
+
+**What replaces it.** Standing width is two-term **±0.0476**; standing row is **−2.94σ**. The
+committed genesis window **−2.5 to −1.4σ** was always the two-term number and does not move. Harness
+pins both foldings so a stale −2.49σ is caught; the three-term arithmetic is labelled RETIRED (#157)
+in `scripts/audit_math_pass.py`. Desk recommendation had already inverted toward 0.0476 once the
+citation was read; the source check closes the gate without a taste call.
+
+**Process note.** The third term equals the observational error numerically
+(√(0.037²+0.030²) = √(0.030²+0.037²) = 0.0476), so no arithmetic check can separate the two
+decompositions — only the wording of the citation can. That is why the fork survived so long.
+
+### Evaporating PBHs as the deuterium injector — KILLED twice (hadronic 2026-07-19; pure-EM 2026-07-21)
+
+**What was hoped.** A state mass ≳ 20 MeV, lifetime 10⁶–10⁸ s, ~30 eV per H would photodissociate
+a tiny fraction of ⁴He and centre the deuterium row without touching H₀. Standing field content
+cannot supply it (Pauli finiteness; dCDF shift-symmetry; dyad too long-lived; Majoron too light;
+ν_R at the MeV corner short of threshold by ~5×). Evaporating primordial black holes at
+M ~ 10¹¹ g clear the roster (a black hole is not a field), land in the window without tuning
+(τ ∝ M³), and — in the hadronic channel — have the right shape on **both** BBN rows (D up, ⁴He down).
+
+**Kill 1 — hadronic channel, ⁶Li co-signature (2026-07-19).** Nucleon spallation of ⁴He co-produces
+non-thermal ⁶Li. Read off Carr et al. (2021) at M = 10¹¹ g: lithium binds **33×** tighter than
+deuterium (efficiency cancels: same population feeds both curves). At the ⁶Li bound, D has moved
+only 0.04–0.15%; the row needs +5.9%. Short by **39–156×**, model-free. Full account:
+`PRTOE_deuterium_scar.md` §5b.
+
+**Kill 2 — pure-EM dodge, no timing ∩ temperature overlap (2026-07-21).** Hoping to avoid ⁶Li by
+running cooler PBHs that emit only electromagnetically fails on the mass–temperature–lifetime lock.
+In the ⁴He photodissociation window (t = 4×10⁶–10⁸ s) every evaporating PBH has
+T_H ≈ 35–100 GeV — fully hadronic. Suppressing hadrons (T_H ≲ Λ_QCD ≈ 200 MeV) requires
+M ≳ 5×10¹³ g and τ ≳ 5×10¹⁴ s, six orders past the window. **No mass is both on-time for ⁴He
+photodissociation and cool enough to be EM-only.** Harness checks pin the window's min T_H and the
+sub-QCD lifetime.
+
+**What survives.** The electromagnetic *spec* (mass / lifetime / abundance) remains the named missing
+ingredient; the model still cannot contain a source for it. PBHs are not that source in either
+channel. The scar stays an owned structural deficit, not an unfinished calculation.

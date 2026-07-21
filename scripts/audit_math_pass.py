@@ -274,21 +274,25 @@ chk("quantum_gravity", "Bekenstein quarter = 12pi/48pi", 0.25,
 
 # ---- the deuterium scar ----------------------------------------------------
 # the row, its LCDM control, and the decomposition that says where the deficit is made
+# Standing width: two-term (obs ±0.030 ⊕ PRIMAT post-LUNA ±0.037 = ±0.0476).
+# Three-term double-counts d(p,γ)³He — LUNA is already inside ±0.037 (arXiv:2011.11320;
+# #157 settled 2026-07-21). Retired three-term bookings: FAILURES_LEDGER.
 _DH_L, _DH_W, _DH_M = 2.420, 2.372, 2.387      # LCDM control -> +omega_b -> +the window
-_COOKE, _TOT = 2.527, math.hypot(0.030, 0.0476)
+_COOKE, _OBS_DH, _NUC_DH = 2.527, 0.030, 0.037
+_TOT = math.hypot(_OBS_DH, _NUC_DH)            # 0.0476 — the standing width
 _sig = lambda x: (x - _COOKE)/_TOT
-chk("deuterium_scar", "combined D/H budget", 0.0563, _TOT, 1e-3)
-chk("deuterium_scar", "LCDM control vs Cooke", -1.90, _sig(_DH_L), 0.01, "sigma")
-chk("deuterium_scar", "the model vs Cooke", -2.49, _sig(_DH_M), 0.01, "sigma")
-chk("deuterium_scar", "the model's deficit vs its LCDM control", -0.59, _sig(_DH_M)-_sig(_DH_L), 0.02, "sigma")
-chk("deuterium_scar", "omega_b step costs", -0.85, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
-chk("deuterium_scar", "the dyad's BBN window gains", +0.27, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
-chk("deuterium_scar", "window grafted on LCDM alone", -1.63, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
+chk("deuterium_scar", "combined D/H budget (2-term, standing)", 0.0476, _TOT, 1e-3)
+chk("deuterium_scar", "LCDM control vs Cooke", -2.25, _sig(_DH_L), 0.01, "sigma")
+chk("deuterium_scar", "the model vs Cooke", -2.94, _sig(_DH_M), 0.01, "sigma")
+chk("deuterium_scar", "the model's deficit vs its LCDM control", -0.69, _sig(_DH_M)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_scar", "omega_b step costs", -1.01, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_scar", "the dyad's BBN window gains", +0.31, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
+chk("deuterium_scar", "window grafted on LCDM alone", -1.93, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
 chk("deuterium_scar", "d ln(D/H)/d ln omega_b (production)", -1.83,
     math.log(_DH_W/_DH_L)/math.log(1.011), 0.01)
 # the exchange rate: the omega_b shift arrives with the H0 relief
 _dH0 = 69.9 - 68.2
-chk("deuterium_scar", "deuterium paid per km/s/Mpc of H0", 0.50,
+chk("deuterium_scar", "deuterium paid per km/s/Mpc of H0", 0.59,
     abs(_sig(_DH_W)-_sig(_DH_L))/_dH0, 0.02, "sigma")
 chk("deuterium_scar", "H0 given back to reach LCDM parity", 1.17,
     (_sig(_DH_L)-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
@@ -722,8 +726,8 @@ def _sig(pct): return _DH*pct/100/_errD
 chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.059", 0.34, _sig(0.1160*0.059*100), 0.03, "sigma")
 chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.015", 0.09, _sig(0.1160*0.015*100), 0.05, "sigma")
 chk("deuterium_scar 6b", "sharper transition 0.61eps -> 1.0eps", 0.21, _sig(1.057-0.645), 0.05, "sigma")
-chk("deuterium_scar 6b", "best case, everything additive", -1.94,
-    -2.49 + _sig(0.1160*0.059*100) + _sig(1.057-0.645), 0.02, "sigma")
+chk("deuterium_scar 6b", "best case, everything additive", -2.39,
+    -2.94 + _sig(0.1160*0.059*100) + _sig(1.057-0.645), 0.02, "sigma")
 # section 7 item 3: both dof counts are forced
 _Nc, _Nf = 2, 3
 chk("deuterium_scar 7", "deconfined g* = 2(Nc^2-1) + (7/8)(4 Nc Nf)", 27, 2*(_Nc**2-1)+(7/8)*4*_Nc*_Nf, 1e-9)
@@ -759,17 +763,32 @@ chk("deuterium_scar 5b", "Li binds tighter than D by", 33, _bD/_bLi, 0.03, "x")
 for _tolD, _short in [(0.0125, 156), (0.05, 39)]:
     chk("deuterium_scar 5b", f"shortfall at D-curve tolerance {_tolD*100:.2g}%", _short,
         0.059/(_tolD*_bLi/_bD), 0.03, "x")
+# pure-EM PBH dodge: no mass is both on-time for ⁴He photodissociation and cool enough
+# to suppress hadrons (T_H ≲ Λ_QCD). Timing window locks T_H ≳ 34 GeV; sub-QCD T locks
+# τ ≳ 10^14 s. Kill booked 2026-07-21 → FAILURES_LEDGER.
+_T_H = lambda M: 1.06e13 / M                         # GeV
+_tau_of_M = lambda M: _tstar * (M/_Mstar)**3
+_M_lo_win, _M_hi_win = _M_of_tau(4e6), _M_of_tau(1e8)
+_M_QCD = 1.06e13 / 0.2                               # T_H = 200 MeV
+chk("deuterium_scar 5b", "pure-EM: min T_H in photodissoc window", 34.0,
+    _T_H(_M_hi_win), 0.05, "GeV")
+chk("deuterium_scar 5b", "pure-EM: that min is above Lambda_QCD", 1.0,
+    1.0 if _T_H(_M_hi_win) > 0.2 else 0.0, 1e-9)
+chk("deuterium_scar 5b", "pure-EM: sub-QCD PBH evaporates this late", 5.0e14,
+    _tau_of_M(_M_QCD), 0.05, "s")
+chk("deuterium_scar 5b", "pure-EM: sub-QCD lifetime / window high edge", 5.0e6,
+    _tau_of_M(_M_QCD)/1e8, 0.1, "x")
 
 
-# --- PHYSICS_DOMAINS deep audit, 2026-07-19 ---
-# the deuterium sigma ladder, ONE width (the scar file's combined 0.0563)
-_wD = 0.0563
-chk("PHYSICS_DOMAINS 6", "standing D/H row in sigma", -2.49, -(2.527-2.387)/_wD, 0.005, "sigma")
-chk("PHYSICS_DOMAINS 6", "committed-window low end", -2.13, -(2.527-2.407)/_wD, 0.005, "sigma")
-chk("PHYSICS_DOMAINS 6", "committed-window high end", -1.14, -(2.527-2.463)/_wD, 0.005, "sigma")
-chk("PHYSICS_DOMAINS 6", "LCDM control on the same width", -1.90, -(2.527-2.420)/_wD, 0.005, "sigma")
-_wU = math.sqrt(_wD**2+(0.035*2.387)**2)
-chk("PHYSICS_DOMAINS 6", "spread-unfolded standing row", -1.4, -(2.527-2.387)/_wU, 0.01, "sigma")
+# --- PHYSICS_DOMAINS deep audit, 2026-07-19; width re-pinned 2026-07-21 (#157) ---
+# the deuterium sigma ladder, ONE width (two-term standing ±0.0476)
+_wD = 0.0476
+chk("PHYSICS_DOMAINS 6", "standing D/H row in sigma", -2.94, -(2.527-2.387)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "committed-window low end", -2.52, -(2.527-2.407)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "committed-window high end", -1.34, -(2.527-2.463)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "LCDM control on the same width", -2.25, -(2.527-2.420)/_wD, 0.005, "sigma")
+_wU = math.sqrt(_wD**2+(0.035*2.387)**2)          # ⊕ inter-code ~3.5% relative
+chk("PHYSICS_DOMAINS 6", "spread-unfolded standing row", -1.46, -(2.527-2.387)/_wU, 0.02, "sigma")
 # the committed window IS dNeff 0.06-0.24 (the scar's 0.26-0.29 was a garble)
 chk("deuterium_scar 5", "window low edge from dNeff = 0.06", 2.407, 2.387*(1+0.1350*0.06), 0.001)
 chk("deuterium_scar 5", "window high edge from dNeff = 0.24", 2.463, 2.387*(1+0.1350*0.238), 0.001)
@@ -1180,26 +1199,27 @@ chk("me_mechanism fence", "whole-range D/H swing bound, 3-term width", 0.273,
 chk("me_mechanism fence", "the 179 -> 177.10 re-pin, as a fraction of the row width", 449.0,
     1.0/abs(2.387*0.00645*(_wD70(_TCK)/_wD70(179.0)-1)/0.0476), 2e-2, "1/x")
 
-# ---- the D/H error budget, both foldings (added 2026-07-20; ForJustin/10 is the fork)
-# The corpus quotes this row against two widths. Both are foldings of the SAME three
-# components, and the third term happens to equal the observational error — which makes
-# "0.0476" degenerate (obs (+) nuclear reads the same as nuclear (+) rate, to five figures)
-# and both routes land on 0.0563. That degeneracy is why no arithmetic check ever separated
-# the two readings and why the budget kept reading as "unstated". Pinned so neither drifts.
+# ---- the D/H error budget (#157 settled 2026-07-21 on arXiv:2011.11320) ----
+# Standing width is two-term. The three-term folding is retained only so a stale ±0.0563
+# or −2.49σ is recognisable on sight; it is not the live row. The third term equals the
+# observational error numerically, which is why the two foldings were hard to separate.
 _OBS, _NUC = 0.030, 0.037
-_RATE = math.sqrt(0.0563**2 - _OBS**2 - _NUC**2)      # the d(p,g)3He term, recovered
-chk("deuterium_scar 1", "d(p,g)3He term implied by the 3-term width", 0.0300, _RATE, 1e-2)
-chk("deuterium_scar 1", "2-term width = obs (+) nuclear", 0.0476, math.hypot(_OBS, _NUC), 1e-3)
-chk("deuterium_scar 1", "the 0.0476 degeneracy: nuclear (+) rate reads the same", 0.0476,
-    math.hypot(_NUC, _RATE), 1e-3)
-chk("deuterium_scar 1", "3-term width = obs (+) nuclear (+) rate", 0.0563,
-    math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 1e-3)
+_RATE = 0.0300                                      # the (retired) extra d(p,g)3He term
+chk("deuterium_scar 1", "2-term width = obs (+) nuclear = STANDING", 0.0476,
+    math.hypot(_OBS, _NUC), 1e-3)
 chk("deuterium_scar 1", "standing row on the 2-term width", -2.94,
     (2.387-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
 chk("deuterium_scar 1", "advertised window low edge is the 2-term number", -2.52,
     (2.407-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
 chk("deuterium_scar 1", "advertised window high edge is the 2-term number", -1.34,
     (2.463-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
+# retired three-term arithmetic, pinned so a stale quote is caught
+chk("deuterium_scar 1", "RETIRED 3-term width (double-counts LUNA)", 0.0563,
+    math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 1e-3)
+chk("deuterium_scar 1", "RETIRED standing row on the 3-term width", -2.49,
+    (2.387-2.527)/math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 5e-3, "sigma")
+chk("deuterium_scar 1", "the 0.0476 degeneracy: nuclear (+) rate reads the same", 0.0476,
+    math.hypot(_NUC, _RATE), 1e-3)
 
 # ---- #169: the g -> lambda map, the composite quartic (added 2026-07-20) ----
 # lambda = 4 pi^2 / (N_c F(M/Lambda)) with F the one-loop f^2 integral at the same
