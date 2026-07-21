@@ -3,9 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 6. Status: STRUCTURAL (candidate) — one recorded EXPLANATION (why the relation survives)
+*Thread 6. Structural (candidate) — one recorded explanation (why the relation survives)
 plus one live derivation lane (why it holds). The improvement: mainstream particle physics has
-NO account of Koide at all; this model supplies a protection mechanism it needs for other
+no account of Koide at all; this model supplies a protection mechanism it needs for other
 reasons, and a generation-structure lane under active test.*
 
 ## 0. The mystery
@@ -14,7 +14,7 @@ Koide (1981): Q ≡ (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 to ~10⁻�
 including QED corrections that had no reason to preserve it. It fits no symmetry anyone has
 made stick; the standard position is "numerology, presumably."
 
-## 1. The recorded half: WHY IT SURVIVES (the protection, derived)
+## 1. The recorded half: why it survives (the protection, derived)
 
 Any new physics touching lepton masses should WRECK a delicate mass relation. This model's
 lepton coupling is **multiplicative-universal by construction** (the Card-7 structure, graded:
@@ -24,12 +24,12 @@ digit.** A model that had to choose between varying lepton masses and preserving
 both, from one portal structure needed anyway for gate-0. That is a real, graded improvement:
 the relation's robustness is EXPLAINED here and accidental everywhere else.
 
-## 2. The live half: WHY IT HOLDS (the lane, honest status)
+## 2. The live half: why it holds (the lane, honest status)
 
-**Koide is one derived number away, modulo one linkage that is not built.** That is the whole
+Koide is one derived number away, modulo one linkage that is not built. That is the whole
 status; the rest of this section is what it means.
 
-**The frame.** In the Z₃-family frame the three √m sit on a 120° ring,
+The frame. In the Z₃-family frame the three √m sit on a 120° ring,
 √m_k = M(1 + A cos(θ + 2πk/3)) — three parameters (centre M, amplitude A, phase θ) onto three
 masses. **The parametrisation therefore fits any three numbers and carries no content by itself:**
 M is free, θ is free, and **all of Koide's content is that the single parameter A lands on √2.**
@@ -39,7 +39,7 @@ identically, so **Q = 2/3 ⟺ A = √2 ⟺ ⟨a²⟩ = 1 ⟺ the RMS of the √m
 that is the balance point where the fluctuation (the −k_down face) equals the background (k_up).
 
 
-**The linkage (and the inheritance claim that does not hold).** For a scalar with EoS
+The linkage, and the inheritance claim that does not hold. For a scalar with EoS
 w = (K−V)/(K+V), the kinetic/potential ratio is K/V = (1+w)/(1−w). If the fluctuation carries
 the field's kinetic energy (K ∼ R²) and the background its potential (V ∼ M²), then
 A² = R²/M² = (1+w)/(1−w), and w = 1/3 gives A² = 2, **A = √2**. That conditional chain is
@@ -52,7 +52,7 @@ radiation EoS does not transfer to an embedded field by proximity. *(Ledger:
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) — "medium-w inheritance for Koide.")*
 
 
-**What would still close the blank.** Either (i) the family structure is **not** a separate field
+What would still close the blank: either (i) the family structure is **not** a separate field
 but a modulation of the medium itself (so its stress tensor *is* the medium's, and w = 1/3 is
 native), or (ii) the family field's own potential forces K ∼ R², V ∼ M² with K/V = 2 by a
 mechanism that does not lean on the medium's EoS, or (iii) the **wall-tangency reading**: the seed
@@ -62,7 +62,7 @@ doomed face's frame (tan u = −1), with the electron's mass the later lift off 
 remaining question is the diagonal's selector
 ([T6_koide_owed.md](working_logs/T6_koide_owed.md)).
 
-**Where that third reading now stands (2026-07-18).** It was carried to a mechanism and the
+Where that third reading now stands (2026-07-18): it was carried to a mechanism and the
 mechanism was executed by its own pre-registered trial. The selector compressed to a single
 locus — the seed freezing where instantaneous power equals its own average — and the
 mechanism proposed to deliver it (the genesis cascade pumping a ring hosted on the genesis
@@ -73,7 +73,7 @@ shares ⟺ the mean-power locus), the wall kinematics and the dressing frame sur
 minefield around the blank is now the densest in the corpus. What does not survive is the
 deliverer.
 
-**And the blank has changed coordinates.** Writing the ring as a Z₃-circulant spectrum makes
+And the blank has changed coordinates. Writing the ring as a Z₃-circulant spectrum makes
 the two mysteries one complex number — the nearest-neighbour amplitude, whose modulus is the
 √2 and whose phase is the measured 2/9 radians (a watch that holds to half a millidegree and
 carries its own deviation lock, P-2026-051). The remaining physical question is a single
@@ -85,7 +85,7 @@ the dark-energy freeze at neutrino decoupling
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b) survives only under (i): a
 scale inherits its epoch's EoS when it *is* that epoch's medium, not when it is a spectator.
 
-**What is owed, and it is one thing.** The identification K ∼ R², V ∼ M² — that the √m spectrum's
+What is owed, and it is one thing: the identification K ∼ R², V ∼ M² — that the √m spectrum's
 fluctuation *is* the family field's kinetic energy and its background *is* the potential — is a
 property of the family-field potential, and **that potential is not built**. The generation
 structure is the unbuilt floor beneath it: **family space is Z₃, not the condensate phase** (the
@@ -96,22 +96,22 @@ Until the identification is exhibited on the masses, the packet is a sharp resta
 derivation.
 
 
-**Hard landing pass (2026-07-17) — the energetic reading's regime problem.** Even granting
+Hard landing pass (2026-07-17), the energetic reading's regime problem. Even granting
 K ∼ R², V ∼ M²: freeze (K → 0, w → −1) and the virial K = 2V (w = 1/3) are **opposite regimes**.
 A must be set pre-freeze during tracking, then locked. Quartic tracking gives w = 1/3 but drives
 A → 0; harmonic supports A ≠ 0 but freezes at w = 0. Single-potential shortcuts are closed.
 Statistical O(1) balances (equipartition, CS midpoint, GBM) cannot deliver 10⁻⁵ from one draw.
 Full kill table and the re-posed blank: [T6_koide_owed.md](working_logs/T6_koide_owed.md).
-**Status unchanged: landing not derived; protection still is.**
+Landing not derived; protection still is.
 
 
-**Remaining-shapes walk (same day).** Topology deferred-closed (no invariant = √2). Two-deposit
+Remaining-shapes walk (same day). Topology deferred-closed (no invariant = √2). Two-deposit
 knobs live as shape only; Komar-balance map killed (produces A = 1/√2 — fence: do not flip labels).
 Two-field architecture reduces to equal stiffness under medium-modulation. Basement lock 6 is a
 target, not a payment.
 
 
-**Equal stiffness PAID from the field-space metric.** Canonical kinetic term for three real
+Equal stiffness, paid from the field-space metric. Canonical kinetic term for three real
 scalars ⇒ canonically normalized singlet M_c = √3 M and doublet radius R_c = √(3/2) R have
 equal stiffness by construction. The (M,R) coefficient mismatch was a coordinate artifact.
 Exact rewrite: **A = √2 · (R_c/M_c)**, so **A = √2 ⟺ R_c = M_c**. Residual blank: why the two
@@ -119,7 +119,7 @@ canonical amplitudes are equal as classical VEVs to 10⁻⁵. Fence: natural Z�
 V ⊃ −g Σφ³ minimizes at **A = 2**, not √2. Details:
 [T6_koide_owed.md](working_logs/T6_koide_owed.md).
 
-**The genesis tilt's 2/9 is an echo, not a witness.** ε_A's registered value 2/9 reproduces Koide's
+The genesis tilt's 2/9 is an echo, not a witness. ε_A's registered value 2/9 reproduces Koide's
 fraction, but provenance audit shows it was **imported** from Koide rather than appearing
 independently, so it cannot be cited as confirmation. The standing coupling ε = c·f̄·α_c = 27α/5π
 carries **f̄ = 2/π**, and Koide's fraction is **disfavoured at 3.3σ as f̄'s own value** — the
@@ -145,7 +145,7 @@ multiplicative universality preserves Q by construction; any non-multiplicative
 distortion must sit under ~7×10⁻⁶ — the numerical fence, improvable by Belle-II-class
 τ-mass measurements.
 
-**The fence is one number, and it is m_τ.** m_e and m_μ are known to 3×10⁻¹⁰ and 2×10⁻⁸, so every
+The fence is one number, and it is m_τ. m_e and m_μ are known to 3×10⁻¹⁰ and 2×10⁻⁸, so every
 statement in this sector is a statement about the τ mass alone. Q = 2/3 exactly requires
 **m_τ = 1776.96903 MeV**; the phase watch θ_B = 2/9 requires 1776.96651 MeV; the closure between
 them requires 1776.96705 MeV. The measurement is **1776.86 ± 0.12 MeV**, which puts all three
@@ -163,7 +163,7 @@ determines it completely**:
 | modulus | Parseval: Q = 1/3 + (2/3)\|f₁/f₀\|² | **\|f₁/f₀\| = 1/√2**, exact |
 | phase | the holonomy closure: 3·arg f₁ = Q | **arg f₁ = 2/9**, exact |
 
-**Two corrections to how this is usually stated.** First, Q = 2/3 is phase-independent *only
+Two corrections to how this is usually stated. First, Q = 2/3 is phase-independent *only
 inside a window*: the reconstruction needs every √m_k = 1 + A·cos(2πk/3 + φ) positive, which with
 A = √2 requires **φ < π/12 = 0.2618**. Past that wall a face goes negative, √m ≠ v, and Q departs
 from 2/3. The Brannen phase sits at **84.9% of the way to that wall**, and the mass hierarchy
@@ -215,10 +215,10 @@ V/μ² = 3Q − 1. The same miss quoted on Q itself is 9.23 ppm — a factor of 
 identity's slope is dV/dQ = 3, but both are read as fractional misses, and converting one to the
 other brings in Q, so (dV/V)/(dQ/Q) = 3Q = 3 × ⅔ = 2. Neither is a correction of the other.)*
 
-**CV = 1 is the exponential–Boltzmann law's signature** — that distribution has mean 1/λ and
+CV = 1 is the exponential–Boltzmann law's signature — that distribution has mean 1/λ and
 variance 1/λ², so variance = mean² exactly, and it is the unique maximum-entropy law at fixed mean.
 
-**But that reading cannot be a derivation, and the reason is quantitative and exact.** Q is
+But that reading cannot be a derivation, and the reason is quantitative and exact. Q is
 scale-free, so for three draws from any exponential it depends only on the proportions
 s_k/Σs — and those are uniform on the simplex. The whole sampling distribution is therefore a
 closed form rather than a simulation:
@@ -234,7 +234,7 @@ Sampling noise is four orders too large, and at n = 3 the expected value is not 
 measured agreement is therefore not evidence of a thermal population** — it is evidence that CV = 1
 is held *exactly*, as a constraint, which no sampling story delivers.
 
-**Nor do the deterministic readings of the same law.** If the three √m were not draws but the
+Nor do the deterministic readings of the same law. If the three √m were not draws but the
 exponential's own representatives, the constraint would follow without any scatter — and it does
 not: the mid-quantiles give Q = 0.5235, the expected order statistics give Q = 25/54 = 0.4630, and
 an equally-spaced-in-CDF triple gives 0.4435. **None is near 2/3**, so the failure is not sampling
@@ -242,7 +242,7 @@ noise that a sharper choice of representative would remove. The exponential law 
 Q = 2/3 in any reading; it carries CV = 1 as a *property of the distribution*, which three numbers
 drawn from it do not inherit.
 
-**What the constraint's exactness tells us about the mechanism's class.** A quantity held to five
+What the constraint's exactness tells us about the mechanism's class: a quantity held to five
 decimal places is not held by a tendency, an average or an equilibrium — all of those come with
 fluctuations, and the fluctuation here would have to be suppressed by four orders it has no reason
 to be. Exactness of this kind has one source in physics: **a vanishing quantity**, protected because
@@ -278,7 +278,7 @@ This replaces the earlier reading, which required choosing that equilibrium part
 returns Q = 1. The moment condition needs no such choice: the sector split falls out of it rather
 than being imposed on it.
 
-**What remains open is what enforces the constraint exactly**, and the honest statement of it is
+What remains open is what enforces the constraint exactly, and the honest statement of it is
 short. A thermal population explains the number's value and nothing else: three draws from a
 Boltzmann law scatter with σ = 1/√60, four orders wider than the agreement, and the law's
 deterministic representatives miss 2/3 outright. The sector's single input is a constraint in search

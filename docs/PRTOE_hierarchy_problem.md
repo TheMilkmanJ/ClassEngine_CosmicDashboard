@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: split, because the pieces did not fail together.** A named condition FAILED — the
+> The claim splits, because the pieces did not fail together. A named condition failed — the
 > paired lepton-sector vacuum was excluded by the basement rebuild — but "every result inherits
 > that conditionality" was too broad, and the split matters:
 >
@@ -44,22 +44,22 @@ one-loop echo.**
 
 ## 2. The math
 
-**(a) The anchor — current truth.** The arrows, graded:
-the hierarchy dial $x_0$ is CONSISTENCY-ONLY (a free dial of the GC dictionary that this
+(a) The anchor. The arrows, graded:
+the hierarchy dial $x_0$ is consistency-only (a free dial of the GC dictionary that this
 closure selects — failures ledger §6); the census closure / duty-family landing is
-STRAINED (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
+strained (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
 the edge-convention audit decides whether that arrow fell or the convention did). **That strain
 was sized against the anchor as a point value, 1.57 TeV, and that value is withdrawn** (§6e): the
 anchor is a band, and with the complete O(λ) correction evaluated (§6e, dockets #141 and #183:
 c = 0.789 from the crossed box and a = 0.281 from the Fock self-energy, the anchor
 × e^(−(c+a)) = 0.343) that band is **0.55–1.78 TeV**. Re-measured against it, the gap to the
 shooter's 13–20 TeV is **7.3× at the band's top edge and 24× at its bottom** — so the strain's size
-is a fact about where in the band the anchor sits, and it is now sized rather than pending. THE
-ONE GENUINELY INDEPENDENT ARROW ($m_H$ is measured) STANDS:
+is a fact about where in the band the anchor sits, and it is now sized rather than pending. The
+one genuinely independent arrow ($m_H$ is measured) stands:
 
 $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm anchor} \approx 4\pi\,m_H \approx 1.57\ \text{TeV}\ \ (2.5\%)$$
 
-**(b) The pairing form.** Across the entire cloud the exponent reads as one BCS coupling:
+(b) The pairing form. Across the entire cloud the exponent reads as one BCS coupling:
 
 $$\frac{1}{g} = 34.85\text{–}35.43 \;\Longrightarrow\; g = (1.29\text{–}1.31)\,\alpha_c$$
 
@@ -77,8 +77,8 @@ $$M_{\rm anchor} = M_{\rm red}\,e^{-1/(k\alpha_c)\,-\,3/2} = 1576\ \text{GeV}\qu
 
 One coupling serves both floors (A_s to −0.92% of the measured amplitude, the anchor to +0.14%). The data selects the
 log normalization: a single-log gap condition [ln(M_red/M) − 3/2] = 1/(kα_c) matches; a
-squared-mass-log form gives 3/4 (excluded). **Grade: sharp underived residual — the
-derivation of the 3/2 is DEAD.** All four natural attachment routes were computed and fail:
+squared-mass-log form gives 3/4 (excluded). A sharp underived residual, and the
+derivation of the 3/2 is dead. All four natural attachment routes were computed and fail:
 the CW minimum gives 1/2, the tachyonic onset 3/4, the sharp-cutoff BCS gap equation ln 2,
 and scheme/threshold matching gives {0 (gauge decoupling), 5/6 (momentum-scheme), 1 (the
 pairing-susceptibility scheme — the honest reading of "gap-scheme coupling")}. The
@@ -99,8 +99,8 @@ condition into a physical scale), which no single-sector menu contains. The seam
 phase-space power d/2 — **route 6**, sharpened to the equipartition reading: the constant as
 the mean kinetic cost ⟨E_kin⟩/T = d/2 of nonrelativistic census states at pairing.
 Self-pinning is automatic (the cost (3/2)T rides the same T — no scale chosen) and the sign
-is right (suppression: the anchor sits e^(−1.5) below naive transmutation). **The 3/2 is
-now DERIVED at additivity grade.** The chain: a pairing log's infrared end is the gap
+is right (suppression: the anchor sits e^(−1.5) below naive transmutation). The 3/2 is
+now derived at additivity grade. The chain: a pairing log's infrared end is the gap
 dressed by the constituents' thermal boost (pairs must out-bind moving partners; per state,
 e^(E_kin/T)); the frozen cutoff composes multiplicatively over the population's events —
 logs add, one contribution per constituent, **the corpus's one shared additivity** (the same
@@ -122,7 +122,7 @@ the result is conditional on the recorded 4πm_H anchor definition. The coupling
 exponent is not new — it is the SAME α_c = 3α
 that runs the dyad and prices the vacuum (the one-coupling portfolio).
 
-**(c) The Higgs mass with no bare term.** Under the no-bare clause $m_H^2$ must be
+(c) The Higgs mass with no bare term. Under the no-bare clause $m_H^2$ must be
 induced; one loop of anchor-scale census states (the portal species — Higgs-coupled,
 leptophilic, exactly what the corrected census demanded) gives:
 
@@ -166,7 +166,7 @@ mooted, so nothing inherits it.)
 ## Where the dead ends live
 
 The collider knife-edge P-2026-039 — once read as a sharp [1.00–1.19] TeV prediction — is
-SUSPENDED: the two-loop term is a shift, not a smear, and the masses open across a "1–100 TeV
+suspended: the two-loop term is a shift, not a smear, and the masses open across a "1–100 TeV
 decade". The perturbative program that would have narrowed that decade is closed, so the decade
 is refereed by the collider search directly, and the census arrow's strain by the edge-convention
 audit. That suspension, and the rigid-13 census count it rode with, live in
@@ -217,7 +217,7 @@ at a band extremum would push it eight orders. So the node is what survives in t
 bend-over is only the cutoff, and **the pairing is a Fermi-surface instability at finite μ inside
 the cone** — which is also what the third requirement acts on.
 
-**The two 3/2's are different objects.** Under equal-states normalization the node's saturation
+The two 3/2's are different objects. Under equal-states normalization the node's saturation
 is exactly d/2 = **3/2**, numerically the exponent's own constant — but the exponent's −3/2 is
 not the node's phase-space deficit. Give the spectrum a crossover
 (ρ ∝ E^p below a bend-over E_*, flat above) and the integral is exactly J = 1/p + ln(Λ/E_*)
@@ -234,7 +234,7 @@ and of the two it is the one with the sign.
 The gap equation's coupling is α_c = 3α — electromagnetic, times the spatial dimension. That
 fixes the channel, because the two ways to pair at electromagnetic strength do not both survive.
 
-**Particle-particle is excluded, by thirty orders.** A Cooper-style condensate of two charge-e
+Particle-particle is excluded, by thirty orders. A Cooper-style condensate of two charge-e
 fermions carries charge 2e, so it breaks U(1)_EM at the anchor scale and the photon takes an
 Anderson-Higgs mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV. The recorded bound is m_γ < 10⁻¹⁸ eV
 ([PRTOE_light.md](PRTOE_light.md)), a line the model's own Goldstone reading of light already
@@ -242,7 +242,7 @@ treats as a kill. For a charged condensate to clear it the pairing scale would h
 1.65×10⁻¹⁸ eV, which nothing in the sector can do. The same-charge Cooper reading is not merely
 unsupported; it is dead.
 
-**Particle-hole is what remains, and it pays the attractive channel for free.** The condensate
+Particle-hole is what remains, and it pays the attractive channel for free. The condensate
 ⟨ψ̄ψ⟩ is electrically neutral, so the photon stays exactly massless, and the interaction between
 a particle and a hole at coupling α_c is attractive by construction — opposite-sign sources need
 no phonon analog to bind them. **The requirement §6 lists as owed is discharged by the channel
@@ -254,14 +254,14 @@ itself**, not by a new object. Three things corroborate the reading independentl
 | **the density of states (§6a)** | a coupling λ = 0.0299 cannot pair at a node and needs finite DOS in the shell — which is the known condition for particle-hole condensation at a Dirac point, where the instability otherwise demands supercritical coupling. The two constraints agree rather than compete |
 | **the 4π** | ⟨ψ̄ψ⟩ is a Dirac mass, so the gap is a dynamically generated fermion mass and m_H = M_anchor/4π reads as its one-loop suppression (+0.13%). §1's "the Higgs mass is that gap's one-loop echo" acquires the mechanism it was asserting |
 
-**The quantum numbers check out.** The condensate must break electroweak symmetry while carrying
+The quantum numbers check out. The condensate must break electroweak symmetry while carrying
 no electric charge — weak isospin but not charge — and the roster supplies exactly that. Take
 ψ_L a doublet and ψ_R a singlet: the bilinear ⟨ψ̄_L ψ_R⟩ is an SU(2)_L doublet, and its neutral
 component carries Q = −Q_L + Q_R = 0 identically, because a particle-hole pair of the *same*
 field cancels its own charge whatever that charge is (verified across the up-, down- and
 charged-lepton lines). So the condensate is electrically neutral, as the channel requires.
 
-**What that does *not* license.** The bilinear having a Higgs-like quantum-number assignment does
+What that does *not* license. The bilinear having a Higgs-like quantum-number assignment does
 not make it the Higgs. This file's §2(c) is explicit that the Higgs is elementary and its *mass
 parameter* is induced — "under the no-bare clause m_H² must be induced; one loop of anchor-scale
 census states gives m_H ~ M_anchor/4π" — with the vev remaining the Standard Model's own. The
@@ -269,7 +269,7 @@ condensate supplies the states whose loop induces m_H², not the electroweak ord
 records what follows from that distinction, and what does not. Both are computations inside the basement rather than new assumptions, so the residual
 has changed from *find an attractive channel* to *show this one condenses*.
 
-**The selection rule is the corpus's own.** What decides the channel here — *the condensate must
+The selection rule is the corpus's own. What decides the channel here — *the condensate must
 carry no electric charge* — is the rule the neutrino sector already applies from the other side.
 There the seat's occupant is the roster's one neutral fermion, and with no charge to dress, "the
 only gauge-invariant bilinear the medium can write on the seat it shares is the direct Majorana
@@ -288,12 +288,12 @@ density of states, times the radial log — so λ = N₀·⟨V⟩_FS and the exp
 Heaviside–Lorentz throughout: e² = 4πα_c, V(q) = e²/(q² + m_D²), and N₀ = k_F²/π²v at linear
 dispersion for one band, both spins.
 
-**The Fermi-surface average, in its natural variable.** Write the momentum transfer as
+The Fermi-surface average, in its natural variable. Write the momentum transfer as
 u ≡ q²/q_max² = q²/(4k_F²) = sin²(θ/2). Then du = sin θ dθ/2, and the solid-angle average is
 exactly ∫dΩ/4π = ∫₀¹du — the full sphere, no restriction anywhere. **The ∫₀¹ the corpus carries
 is not a cut**; it is the whole Fermi surface, written in the variable whose range is unity.
 
-**The screening, and where the 2 lives.** Thomas–Fermi gives m_D² = e²·N_screen. A particle-hole
+The screening, and where the 2 lives. Thomas–Fermi gives m_D² = e²·N_screen. A particle-hole
 condensate has two bands at the surface and *both* polarise, so N_screen = 2N₀ — while the pair
 itself is one electron and one hole, so the gap equation's own density of states is N₀. That
 **2-for-screening, 1-for-pairing** asymmetry is the defining structure of the channel §6b selects,
@@ -302,7 +302,7 @@ and it is the entire content of the constant:
 $$b \;\equiv\; \frac{m_D^2}{4k_F^2} \;=\; \frac{e^2\,(2N_0)}{4k_F^2} \;=\; \frac{2\alpha_c}{\pi}
 \;=\; 0.0139369$$
 
-**So k is derived rather than adopted — on a host this corpus mostly does not record, which the four conditions below name (three unmet, one supplied):**
+So k is derived rather than adopted — on a host this corpus mostly does not record, which the four conditions below name (three unmet, one supplied):
 
 $$\lambda \;=\; N_0\,\langle V\rangle_{\rm FS} \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\tfrac{1}{b}\Big)
 \;=\; \frac{\alpha_c}{\pi}\ln\!\Big(1+\frac{\pi}{2\alpha_c}\Big)\;\equiv\;k\,\alpha_c,
@@ -310,7 +310,7 @@ $$\lambda \;=\; N_0\,\langle V\rangle_{\rm FS} \;=\; \frac{\alpha_c}{\pi}\ln\!\B
 
 against the booked 1.36461191 — every digit carried, nothing fitted.
 
-**What that does and does not fix.** λ is now derived; the *anchor* still needs a prefactor, and
+What that does and does not fix. λ is now derived; the *anchor* still needs a prefactor, and
 the two available conventions differ by exactly two. Fed through the booked form,
 M_red·e^(−1/(kα_c) − 3/2) = 1576.1 GeV against 4πm_H = 1573.9. Fed through the gap equation's own
 exact solution, Δ = 2Λ_shell·e^(−1/λ) = **3152 GeV**. §6d shows the booked form is the exact one
@@ -323,12 +323,12 @@ The sensitivity is why the factor matters rather than being bookkeeping: ∂lnM/
 two gives k = 1.58305 and an anchor at 1.6×10⁵ GeV. The 2 is not a convention that happened to be
 lucky — it is the electron-plus-hole polarisation, and mistaking it misses by two orders.
 
-**Four structural conditions. Three are additions to this corpus; one turns out to be supplied.**
+Four structural conditions. Three are additions to this corpus; one turns out to be supplied.
 The calculation above is a condensed-matter one, and it needs a host with properties the basement is
 mostly not stated to have. Named plainly, because the numerical agreement makes them easy to skip
 past — and because the one that *is* supplied was being carried silently, which is its own hazard:
 
-1. **A finite chemical potential.** The whole Fermi-surface treatment — the average, the density of
+1. A finite chemical potential. The whole Fermi-surface treatment — the average, the density of
    states, the shell — presupposes μ ≠ 0. This corpus's basement is a **Fermi point** (the Volovik
    frame; "three Fermi points" in the light file), which is μ = 0. §6a shows a Fermi point cannot
    pair at this coupling, and the finite-μ Fermi surface is what I introduced to resolve that. It is
@@ -347,11 +347,11 @@ past — and because the one that *is* supplied was being carried silently, whic
    - *Reading the basement hot instead of cold* (§6m), which is closer to this corpus's cosmology and
      needs no μ at all — but then the screening constant misses by 1.64×/0.82× at every standard
      normalisation.
-2. **Thomas–Fermi screening.** A Debye/Thomas–Fermi mass requires real carriers at finite density or
+2. Thomas–Fermi screening. A Debye/Thomas–Fermi mass requires real carriers at finite density or
    temperature. At a Fermi point with μ = 0 there are none, and the atlas separately scores the
    medium's pre-basin phase as "a gapless acoustic gas, not a plasma (no Debye, no gap)".
-3. **The cone's velocity must be the kernel's velocity — v = 1, and this had been carried
-   silently.** Running the screening constant with v kept explicit gives
+3. The cone's velocity must be the kernel's velocity — v = 1, and this had been carried
+   silently. Running the screening constant with v kept explicit gives
    m_D² = e²·(2N₀) = 8α_c k_F²/πv, so
 
    $$b \;=\; \frac{m_D^2}{4k_F^2} \;=\; \frac{2\alpha_c}{\pi v}$$
@@ -363,14 +363,14 @@ past — and because the one that *is* supplied was being carried silently, whic
    the next item** — and it is the same physics seen twice, since r = v_e/v_h = 1 asks the two bands
    to share a velocity while this asks their shared value to be the cone's slope.
 
-   **The one piece of good news in this section: the recorded basement supplies it.** A linear node
+   The one piece of good news in this section is that the recorded basement supplies it. A linear node
    *is* a cone whose slope defines the emergent light speed, so v = 1 comes free with the Fermi
    point the corpus already records — it is not an addition. The condition is worth naming anyway,
    because it is the assumption a condensed-matter reader would challenge first: in graphene the
    analogous velocity is c/300, and that mismatch is precisely what makes its effective coupling
    O(1) rather than O(α).
 
-4. **Two compensated bands — and, read against the recorded roster, that means exactly two.** The
+4. Two compensated bands — and, read against the recorded roster, that means exactly two. The
    factor 2 needs an electron pocket and a hole pocket at the same Fermi level — a compensated
    semimetal. Stated that way it sounds like a mild structural ask; set against the bath this
    basement actually has, it is not. **The Planck-floor roster is the Standard Model's 48 Weyl
@@ -388,14 +388,14 @@ past — and because the one that *is* supplied was being carried silently, whic
    species rather than to the bath. Nothing recorded selects that pair. The corpus describes no such band
    structure.
 
-**So §6c is a conditional derivation, and its conditions are load-bearing.** *If* the basement has a
+So §6c is a conditional derivation, and its conditions are load-bearing. *If* the basement has a
 compensated two-band Fermi surface at finite chemical potential with Thomas–Fermi screening, *then*
 k = 1.36461191 follows exactly, with nothing fitted. That the reconstruction lands on the corpus's
 booked value to every digit is either a strong hint about the basement's structure or a coincidence,
 and it is worth weighing as evidence — but it is evidence for the conditions, not a derivation from
 recorded structure. Supplying or refuting those three is now the basement build's sharpest task.
 
-**What the derivation rests on beyond that.** N₀ = k_F²/π²v assumes linear dispersion at the pairing shell,
+What the derivation rests on beyond that. N₀ = k_F²/π²v assumes linear dispersion at the pairing shell,
 and §6a puts that shell at a finite-μ Fermi surface *inside* the cone, not at the bend-over — so the
 density of states is owed, as is whatever fixes k_F. The rainbow truncation and the equal-density
 assumption for the two bands are the other two. Each is a computation inside the basement rather
@@ -408,7 +408,7 @@ than a missing object, and each is on the board.
 convention. The **anchor** is a different matter, because it needs a prefactor as well as an
 exponent, and ∂lnM/∂lnk = 33.47 amplifies every O(1) in sight.
 
-**What the exponent fixes.** Writing the model's form against a gap equation's,
+What the exponent fixes. Writing the model's form against a gap equation's,
 M = M_red·e^(−1/λ−3/2) versus M = Λ_shell·e^(−1/λ), identifies
 
 $$\Lambda_{\rm shell} \;=\; M_{\rm red}\,e^{-3/2} \;=\; 0.223\,M_{\rm red}$$
@@ -418,7 +418,7 @@ cutoff is the Planck floor dressed down by the equipartition boost**, which is e
 6 derives from ⟨E_kin⟩/T = 3/2. The two readings are one statement, and that is a real
 consistency: the constant the exponent needs and the constant equipartition supplies coincide.
 
-**What is not fixed — three O(1)s, each worth a factor.**
+What is not fixed — three O(1)s, each worth a factor.
 
 | piece | size | why it is open |
 |---|---|---|
@@ -426,7 +426,7 @@ consistency: the constant the exponent needs and the constant equipartition supp
 | the shell's density-of-states correction | +0.07% to +1.4% in λ | a pairing shell is *symmetric* about E_F, so the cone's linear variation cancels between the particle and hole sides and only ξ²/E_F² survives; its size depends on E_F |
 | where the Fermi surface sits | E_F/M_red ∈ [0.223, 1] | k cancels k_F entirely, so k_F enters only through the correction above, bounded below by Λ_shell and above by the cutoff |
 
-**So the anchor is a factor-of-a-few prediction.** Across the allowed range these compound to
+So the anchor is a factor-of-a-few prediction. Across the allowed range these compound to
 roughly **1.6 to 5.2 TeV** from these two terms alone — §6e's evaluated O(λ) correction (crossed box
 and Fock self-energy together) then multiplies the whole band by e^(−(c+a)) = 0.343, giving
 **0.55 to 1.78 TeV** — with the booked 1576 GeV at the uncorrected band's bottom
@@ -448,19 +448,19 @@ could support.
 load-bearing number in the chain: ∂lnM/∂r ≈ 11.6 for N_screen = (1 + r)N₀, so a 25% asymmetry
 between the bands moves the anchor by a factor 18. It is not an assumption.
 
-**Neutrality gets most of the way, and not all of it.** The basement vacuum carries no net electric
+Neutrality gets most of the way, and not all of it. The basement vacuum carries no net electric
 charge, so a neutral semimetal is *compensated*: n_electron = n_hole exactly. With n ∝ k_F³ that
 fixes k_F(e) = k_F(h) whatever the velocities. But the density of states is k_F²/v, so what survives
 is **r = v_e/v_h** — compensation equalises the *densities*, not the *densities of states*, and the
 remaining factor is a velocity ratio neutrality says nothing about.
 
-**And one cone cannot supply both pockets.** At finite chemical potential a single Dirac cone has a
+And one cone cannot supply both pockets. At finite chemical potential a single Dirac cone has a
 Fermi surface in one branch only; the other branch is entirely below or above μ. So the two pockets
 the screening needs must come from **two distinct bands**, whose velocities are independent
 parameters. r = 1 is therefore a genuine structural requirement on the basement's band structure —
 two velocity-matched bands — and not something the vacuum's neutrality delivers for free.
 
-**The residual, and how the one metric discharges it.** The anchor's response to the velocity ratio
+The residual, and how the one metric discharges it. The anchor's response to the velocity ratio
 is steep: a **1% asymmetry shifts it 13%, 5% shifts it by roughly a factor two, and 10% by a factor
 four** — so the two bands must be velocity-matched at the percent level for the anchor to hold at
 all. That match is supplied, by the same one-metric clause that gives v = 1 in §6c's condition 3,
@@ -474,12 +474,12 @@ is reduced, not derived** — it moves from an open band-structure requirement t
 one-metric shield, leaving §6c's condition 4 (the species-selective doping of one node pair) as the
 residual.
 
-**The band, assembled — and its dominant term is now a number.** Three independent O(1)s enter: the
+The band, assembled — and its dominant term is now a number. Three independent O(1)s enter: the
 vertex correction to the rainbow truncation, which is the crossed box and is evaluated below; the
 Fermi surface's position within Λ_shell ≤ E_F ≤ M_red, worth ≈ 1.6; and percent-level particle-hole
 asymmetry, worth ≈ 1.1 per percent. The first was the largest and it is no longer free.
 
-**The crossed box, integrated** ([scripts/hierarchy_vertex_crossed_box.py](../scripts/hierarchy_vertex_crossed_box.py)).
+The crossed box, integrated ([scripts/hierarchy_vertex_crossed_box.py](../scripts/hierarchy_vertex_crossed_box.py)).
 It is the diagram the rainbow/ladder truncation omits, since the ladder rungs are already resummed
 by 1 = λ·ln(Λ/Δ) itself. Evaluated on §6c's own host and nothing else — V(q) = e²/(q² + m_D²),
 b = m_D²/4k_F² = 2α_c/πv, one band's Fermi surface inside the linear cone at v = 1, particle-hole
@@ -493,7 +493,7 @@ $$c \;=\; \frac{\langle C\rangle_{\rm FS}}{\lambda\,\langle V\rangle_{\rm FS}} \
 \qquad \lambda_{\rm eff} = \lambda\,(1-c\lambda), \qquad
 \frac{1}{\lambda_{\rm eff}} \;=\; \frac{1}{\lambda} + c \;=\; 33.47 + 0.79$$
 
-**The sign is the frequency integral, not a judgement.** Because V is instantaneous the two
+The sign is the frequency integral, not a judgement. Because V is instantaneous the two
 internal lines of the *ladder* carry (p, ω) and (p, ω) and integrate to −i/2|ξ_p|, while the two
 internal lines of the *crossed box* carry (p, ω) and (Q−p, −ω) and integrate to
 +i(n_{p′}−n_p)/(ξ_p−ξ_{p′}) — opposite sign, same channel, so the crossed box subtracts. And what it
@@ -502,7 +502,7 @@ is ≥ 0 on its whole support. **So c > 0 is settled by positivity before any nu
 the adverse prior is confirmed rather than assumed. The particle-particle crossed box is the same
 integral with p′ = p − Q; only |p′| enters and |Q−p| = |p−Q|, so the channel choice does not move it.
 
-**The integral closes, and the three ways it could have failed are each answered.** *The channel is
+The integral closes, and the three ways it could have failed are each answered. *The channel is
 not ambiguous* — particle-hole and particle-particle give the same integral, as above. *The
 screening does not make it divergent* — it is what removes the one divergence there is. At m_D → 0
 the forward region u → 0 would go logarithmically, since C(u) ~ 1/u there; m_D cuts it at u ~ b,
@@ -520,7 +520,7 @@ denominator identically. With the azimuthal integral analytic —
 ∫dφ/[(a−βcosφ)(a+βcosφ)] = 2π/(a√(a²−β²)) — what is left is a smooth three-dimensional quadrature
 in (u, s, t), converged to **11 digits** at 64 Gauss–Legendre nodes per panel.
 
-**What certifies the number.** Four checks, each aimed at a different part of the construction:
+Four checks certify the number, each aimed at a different part of the construction:
 
 | check | result |
 |---|---|
@@ -529,11 +529,11 @@ in (u, s, t), converged to **11 digits** at 64 Gauss–Legendre nodes per panel.
 | brute-force cartesian evaluation of C(u), no bipolar coordinates and no analytic φ | agrees to **0.1–0.5%**, its own grid resolution |
 | c must depend on b alone (e² cancels between ⟨C⟩ and λ⟨V⟩), and c(b→∞) must reach the contact limit | e²-independent to **10 digits**; c(b) → 0.43387 against an independently computed 0.4338656 |
 
-**c is also robust, which the rest of this chain is not.** ∂ln c/∂ln b = **−0.09** — a 10% error in
+c is also robust, which the rest of this chain is not. ∂ln c/∂ln b = **−0.09** — a 10% error in
 the screening constant moves c by under 1%, against ∂lnM/∂lnk = 33.47 for k itself. The number
 carries the quadrature to eleven digits; its real uncertainty is structural and named below.
 
-**The self-energy companion, computed** ([scripts/hierarchy_fock_self_energy.py](../scripts/hierarchy_fock_self_energy.py)). c is the crossed box and only the crossed
+The self-energy companion, computed ([scripts/hierarchy_fock_self_energy.py](../scripts/hierarchy_fock_self_energy.py)). c is the crossed box and only the crossed
 box; one further object enters at the same relative order λ — the **fermion self-energy insertion**
 on the internal lines, the exchange (Fock) term of the same screened interaction. It is now
 evaluated on the same host, and it does **not** cancel the vertex term.
@@ -563,7 +563,7 @@ with δv = 0.008385 — the band stiffens by 0.84%. Both insertions then enter t
 | M_anchor, exact-solution convention (×2) | 3153 GeV | 1432 GeV | **1082 GeV** |
 | §6d's band from the other two terms | 1.6–5.2 TeV | 0.73–2.4 TeV | **0.55–1.78 TeV** |
 
-**What certifies a.** The closed form matches mpmath quadrature of I(1) and I′(1) at 40 digits to
+The closed form matches mpmath quadrature of I(1) and I′(1) at 40 digits to
 **2×10⁻¹⁶**; a central finite difference of Σ(k) converges to it as h² (**2×10⁻⁸** at h = 10⁻⁴);
 brute-force cartesian 3D integration of δv, which shares nothing with the angular reduction, agrees
 to **5×10⁻⁶** at its own grid resolution; the two reduction orderings (differentiate-first vs
@@ -580,7 +580,7 @@ corrections move it to 0.34×; the exact-solution convention, corrected, lands a
 That does not decide §6d's factor of two — neither calculation says anything about it — but the
 coincidence no longer sits where it did, which is worth recording rather than quietly re-parking.
 
-**The one residual at this order, priced.** The primary a is computed on a **fixed** host, which is
+The one residual at this order, priced. The primary a is computed on a **fixed** host, which is
 what consistency with #141 demands. Allowing the screening constant to follow its own velocity
 (b = 2α_c/πv, so δb/b = −δv/v) feeds back through dln⟨V⟩/dln b = −1/[(1+b)ln(1+1/b)] and gives
 a = 0.2161 instead of 0.2807 — c + a ∈ [1.005, 1.070], a band of 0.55–1.90 TeV. That is a 6%
@@ -589,7 +589,7 @@ rather than a missing diagram. Separately, the linear cone's filled lower branch
 cutoff-dependent exchange log — that is the running of v, booked with the running-α_c chain (§6f),
 not part of the O(λ) correction at fixed cutoff.
 
-**One normalisation dependence, stated because c inherits it.** λ_eff and λ are defined with the
+One normalisation dependence, stated because c inherits it. λ_eff and λ are defined with the
 same pairing density of states, so it cancels from c = ⟨C⟩/(λ⟨V⟩) — but λ itself is §6c's
 N₀ = k_F²/π²v, and ⟨V⟩_FS/π² reproduces the booked 0.029874 to nine digits, which is the check that
 this is §6c's host. Were the pairing density of states per-spin instead, λ would halve, 1/λ would be
@@ -634,32 +634,32 @@ larger than every O(1) in §6e.
 
 Three things narrow §6f's fork without closing it.
 
-**The corpus's own stance is principled, and it is horn (b).** MATH_SPINE records
+The corpus's own stance is principled, and it is horn (b). MATH_SPINE records
 "α_c = 3α = d·α — *the dCDF's* condensate coupling (α is its Goldstone's — light **is** that
 Goldstone)", and the superfluid file carries the same identification. So α is not an external gauge
 coupling imported into the medium: it is the medium's coupling to its own massless Goldstone, which
 is also why the exchange has a 1/q² form. On that reading the kernel is not borrowed from
 electromagnetism — it *is* electromagnetism, because electromagnetism is the medium.
 
-**The running direction is adverse, which is a real constraint.** Solving for the coupling that
+The running direction is adverse, which is a real constraint. Solving for the coupling that
 would land the anchor exactly on 4πm_H gives α_c = 0.021316, i.e. **1/α = 140.7 at the pairing
 scale — weaker than the infrared 137.04.** Running takes α the other way: stronger in the
 ultraviolet. So running cannot rescue the anchor's value under any amount; it can only move it
 further. Horn (a) is disfavoured by sign, not merely by magnitude.
 
-**But horn (b) carries a double-counting hazard.** α(0) is the *fully infrared-screened* coupling —
+But horn (b) carries a double-counting hazard. α(0) is the *fully infrared-screened* coupling —
 the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening from
 the basement's own fermions on top of it. Either α(0) is the bare coupling at the basement's cutoff
 and the two screenings are distinct, or it already contains the basement's polarisation and §6c
 counts it twice. Nothing yet decides which, and the answer is worth a factor of a few.
 
-**One further consequence, recorded because it touches the exponent.** Solving exactly gives
+One further consequence, recorded because it touches the exponent. Solving exactly gives
 Δ = 2Λ·e^(−1/λ), so matching the booked form requires Λ_shell = M_red·e^(−3/2−ln2) = 0.1116 M_red
 rather than 0.2231. The shell cutoff wanted by the exact solution therefore differs from the
 equipartition constant route 6 derives by exactly **ln 2** — which is not a free number in this
 corpus, since τ = ½ln2 already sits at the Koide kernel.
 
-**That is a convention artifact, not a seam.** The ln 2 is the BCS gap prefactor in disguise: the
+That is a convention artifact, not a seam. The ln 2 is the BCS gap prefactor in disguise: the
 weak-coupling solution carries a leading factor 2, Δ = 2Λ·e^(−1/λ), which comes from the shell
 integral ∫dξ/√(ξ²+Δ²) and is a property of the gap equation itself, not of anything this model
 supplies. A factor of 2 moved between the prefactor and the cutoff is exactly ln 2 in the exponent,
@@ -675,24 +675,24 @@ the shell constant is quoted with its convention stated rather than treated as a
 
 The double-counting worry of §6g resolves, and what is left is sharper than it was.
 
-**It is not double-counting.** Vacuum polarisation and Thomas–Fermi screening are physically
+It is not double-counting. Vacuum polarisation and Thomas–Fermi screening are physically
 distinct — the first is virtual pairs and exists at zero density, the second needs real carriers
 and scales as e²N₀ — and they add in the polarisation, Π = Π_vac + Π_matter. The correct
 prescription is therefore α evaluated *at the momentum scale*, with Thomas–Fermi on top of it. No
 term is counted twice. What is wrong is the scale.
 
-**Where α_c's value is actually fixed.** α_c enters ε = c·f̄·α_c = 1.2543%, the electron-mass shift
+Where α_c's value is actually fixed. α_c enters ε = c·f̄·α_c = 1.2543%, the electron-mass shift
 at recombination — an atomic-scale observable — and P-2026-040's referee is a cosmological chain.
 Both are infrared. **The amplitude pins α_c in the infrared; the anchor spends it at the Planck
 floor.** One number, two regimes eighteen orders apart, with no statement connecting them.
 
-**And the Goldstone defence has a matching problem.** If light *is* the medium's massless Goldstone,
+And the Goldstone defence has a matching problem. If light *is* the medium's massless Goldstone,
 then α *is* the electromagnetic coupling — and that coupling demonstrably runs. A medium coupling
 which is electromagnetic cannot also be scale-independent. The only escape is that α_c (the
 condensate's coupling) and α (its Goldstone's) are genuinely different objects, tied by d = 3 — but
 a relation between two couplings holds *at a scale*, and which scale is exactly what is unstated.
 
-**So the residual is one missing sentence, and it is nameable:** *at what scale does α_c = 3α hold?*
+So the residual is one missing sentence, and it is nameable: *at what scale does α_c = 3α hold?*
 The amplitude answers "the infrared" by construction. If that is the right answer, the anchor needs
 α_c run up to the pairing shell and lands orders higher. If instead the relation is meant at the
 basement, then the amplitude's use of it in the infrared is the loose end and ε inherits the same
@@ -719,15 +719,15 @@ anchor cannot test the scale, because ∂lnM/∂lnα_c = 25.8 swamps it. **A_s c
 measured 2.100×10⁻⁹ the infrared row reads **−0.92%, −0.66σ**, and the other two rows move by the same
 0.6 points. The selection is unaffected — the spread between rows is 28% and 158%.)*
 
-**A_s is a primordial observable, and it selects the infrared value.** So the answer to §6h is
+A_s is a primordial observable, and it selects the infrared value. So the answer to §6h is
 horn (b), and it is *data-selected* rather than assumed, in the same way the corpus already selects
 f̄'s coupling form: **α_c is a scale-independent medium constant, numerically 3α(0)**, and using the
 same number at recombination, at the eV scale, at genesis and at the Planck floor is consistent.
 The "orders higher" worry of §6f is therefore lifted — the anchor's use of 3α(0) is correct, and its
 band stays where §6e put it.
 
-**The condition, stated because it binds — and it binds harder than the extrapolated column
-suggests.** A_s = C·(α_c/4πk)³ with the count C an unmechanized O(1) that the corpus claims is
+The condition, stated because it binds — and it binds harder than the extrapolated column
+suggests. A_s = C·(α_c/4πk)³ with the count C an unmechanized O(1) that the corpus claims is
 exactly 1. The UV-extrapolated reading needs C ≈ 0.387 to reproduce A_s, which is a strained O(1);
 **the α(M_Z) reading needs only C ≈ 0.779**, which is not. So the selection is not "C = 1 against
 something absurd" — it requires **C = 1 to about ±22%**, and the count is derived to nothing like
@@ -747,7 +747,7 @@ model with an elementary Higgs inherits neither the compositeness bound nor the 
 the Yukawas are the Standard Model's own, so no extended-technicolor operators exist to hit K⁰
 mixing.
 
-**What does apply is a counting bound.** The anchor-scale portal species carry electroweak quantum
+What does apply is a counting bound. The anchor-scale portal species carry electroweak quantum
 numbers, and a degenerate heavy doublet contributes ΔS = 1/6π = 0.053 **without decoupling** — the
 contribution is mass-independent. Against |S| ≲ 0.14:
 
@@ -757,7 +757,7 @@ contribution is mass-independent. Against |S| ≲ 0.14:
 | 2 | 0.106 | allowed |
 | 3 | 0.159 | excluded |
 
-**So electroweak precision limits the portal roster to at most two new doublets**, and says nothing
+So electroweak precision limits the portal roster to at most two new doublets, and says nothing
 about where the anchor sits. That is a real constraint on the census's portal content and a
 falsifiable one — but it is a roster bound, not a scale bound, and it leaves §6d's band and the
 4πm_H identification untouched.
@@ -772,7 +772,7 @@ without needing any chemical potential, while particles and antiparticles are pr
 equal numbers by CPT — giving r = 1 with no semimetal band structure required. That reading is also
 closer to this corpus's own cosmology, where the Planck era is hot.
 
-**It does not reproduce the constant.** The booked b = 2α_c/π = 0.013937 corresponds to
+It does not reproduce the constant. The booked b = 2α_c/π = 0.013937 corresponds to
 m_D²/T² = 2e²/π² = e²/4.94. The standard thermal Debye mass is e²T²/3 (or e²T²/6 per Weyl), giving
 b = e²/12 = 0.022925 or e²/24 = 0.011463 — **off by 1.64× and 0.82× respectively**, at every
 standard normalisation.
@@ -781,7 +781,7 @@ The cold degenerate reading, by contrast, reproduces it exactly from standard pi
 ones: e² = 4πα_c, N₀ = k_F²/π²v for one band with both spins, the factor 2 for the second band, and
 b = m_D²/4k_F² in the natural transfer variable.
 
-**So the screening constant is itself a discriminator, and it points the wrong way.** If k's
+So the screening constant is itself a discriminator, and it points the wrong way. If k's
 screened-exchange reading is physics rather than coincidence, the host is **cold and degenerate** —
 which the basement, as a hot Planck-era Fermi-point vacuum, is not. Three readings remain and they
 should be held apart:

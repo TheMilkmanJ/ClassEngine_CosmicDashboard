@@ -8,8 +8,7 @@
 *Assembled 2026-07-07. This is the EQUATIONS-ONLY companion to
 `PRTOE_me_trigger.md` (which holds the reasoning and the dead ends).
 Every result here is cross-referenced to its trigger-doc
-section. Status tags: [DERIVED] solid, [BOUNDED] size/ceiling fixed but not
-exact, [OPEN] owed, [FORCED] required by multiple independent constraints.*
+section.*
 
 ---
 
@@ -23,7 +22,7 @@ all present-day (virialized) measurements see `m_e^lab`.
 
 ---
 
-## 1. The environmental variable [DERIVED]
+## 1. The environmental variable
 
 The medium is a complex superfluid order parameter (Room 1):
 
@@ -48,12 +47,12 @@ structure exists:
 
 ---
 
-## 2. The coupling [LEGAL under the coupling law / FORCED form]
+## 2. The coupling
 
  L_int = -eps * S(x) * m_e^lab * (psi_e-bar psi_e)
 
 This is a direct, dimension-5 operator with S(x) the environmental modulator.
-**Legality: CLOSED — the operator is legal under the model's coupling law,**
+The operator is legal under the model's coupling law,
 by the constitution's own consolidated clause (laws_and_rules, the L1 block):
 the medium couples to ordinary matter only through gravity, and the second
 field may couple non-gravitationally WITHIN its own sector — the lepton-mass
@@ -71,13 +70,13 @@ coupling, no quark coupling). This operator satisfies all three tests:
  one of them.
 Prior verdicts stand with the clause (the birefringence null, gate-0, the
 EP posture, BBN). Sec 7's screening computation is a separate item from the
-legality question, and it is delivered on all four of its items there. Form: FORCED (geometry is 60 orders
-too weak, sec 32, so a direct operator is unavoidable). [trigger-doc sec 23,
+legality question, and it is delivered on all four of its items there. The form is forced: geometry is 60 orders
+too weak (sec 32), so a direct operator is unavoidable. [trigger-doc sec 23,
 32, 34; laws_and_rules]
 
 ---
 
-## 3. The functional form is FORCED SHARP [DERIVED / FORCED by 2 constraints]
+## 3. The functional form is forced sharp
 
 Requirement A (MICROSCOPE, sec 26): the residual shift inside structure must
 satisfy the Eotvos bound. Differential Ti/Pt sensitivity:
@@ -93,7 +92,7 @@ Consequence: a gentle exponential fails -- the curvature gap between
 recombination and dwarf cores is only ~22x (1.35 decades) but the required
 suppression is 8.2 decades. Minimum power:
 
- S(x) = exp[ -(C²/C_ref²)^n ], n > 2.43 [FORCED, sec 27]
+ S(x) = exp[ -(C²/C_ref²)^n ], n > 2.43 (forced, sec 27)
 
 i.e. a near-threshold/step. Both independent constraints force the same
 sharpness → two-constraint pillar. Once suppressed at the dwarf core,
@@ -104,7 +103,7 @@ C_ref is NOT a free scale: the transition is set by a topological event
 
 ---
 
-## 4. The amplitude [BOUNDED here; the coefficient is derived by the standing stack]
+## 4. The amplitude
 
 Ceiling (sec 31): only the ELECTROMAGNETIC part of m_e can respond to an
 EM-binding environment. Split:
@@ -113,7 +112,7 @@ EM-binding environment. Split:
  delta_m_EM/m_e = (3 α / 4pi) * ln(Λ²/m_e²) ~ 1-2% (O(α))
 
 So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits AT the
-ceiling. Size DERIVED here as a bound; the exact value comes from the standing
+ceiling. The size is derived here as a bound; the exact value comes from the standing
 stack eps = c*fbar*alpha_c = 27*alpha/(5*pi), which uses no cutoff at all --
 this section's Lambda-and-modulation route is superseded by it. [sec 28, 31]
 
@@ -122,7 +121,7 @@ those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]
 
 ---
 
-## 5. Which curvature piece, and why [DERIVED, 3 independent reasons]
+## 5. Which curvature piece, and why
 
 The trigger couples to WEYL (tidal/radiative), not RICCI (local/binding):
  R1. Ricci fails directionally -- large at BOTH high-z background AND in
@@ -139,29 +138,29 @@ photons decohere. Gravity: Ricci binds, Weyl decoheres. [sec 30]
 
 ---
 
-## 6. The amplitude-channel constraint (why the roof is one question) [DERIVED]
+## 6. The amplitude-channel constraint (why the roof is one question)
 
 A viable channel must be simultaneously STRONG [S] (O(α), not curvature-
 suppressed), LEGAL [L] (census + MICROSCOPE), VARYING [V] (smooth vs
 structured). Scored:
 
  curvature : L,V not S (60 orders weak, R/m_e²~1×10⁻⁶⁹)
- direct coupling : S,V not L (census scope, OPEN)
+ direct coupling : S,V not L (census scope, open)
  khronon/frame : S,L not V (spatially uniform)
  intrinsic dm_EM : S,L not V (present everywhere equally)
 
 Only the direct coupling has S+V — and its L is now delivered: the coupling
 law's consolidated clause legalizes sector-internal coupling (sec 2), and
 MICROSCOPE-safety within L is delivered by the sec-27 sharp screening.
-⇒ the roof is CLOSED; the channel constraint is satisfied on all three
+⇒ the roof is closed; the channel constraint is satisfied on all three
 properties. [sec 34; laws_and_rules]
 
 ---
 
-## 7. The EP escape (fifth-force gate) [RESOLVED — all four deliveries below]
+## 7. The EP escape (fifth-force gate)
 
 Smooth dilaton: needs β~0.012, MICROSCOPE allows β<~1×10⁻⁴ → 2 orders
-over → DEAD.
+over → dead.
 
 Escape: the field is the SHARP/SATURATED Theta (sec 27 sharpness), not a
 smooth dilaton. Inside the virialized MW halo Theta is at its ceiling →
@@ -178,23 +177,22 @@ CONSEQUENCE, not the sharp-form-CAUSE uniquely. White-dwarf spectroscopy =
 consistency-check (saturated → lab value, confirmed ~1×10⁻⁵). Continuous version
 now killed by TWO independent experiments (quasar spatial + clocks temporal).
 
-THE FOUR DELIVERIES (the make-or-break computation, paid under the
-survival-form gate — S = exp[−(C²/C_ref²)^n_eff], n_eff ≥ 35, threshold
-event-set):
- (i) DELIVERED — recombination sits ≥22× below the threshold scale in C²,
+The four deliveries, paid under the survival-form gate (S = exp[−(C²/C_ref²)^n_eff],
+n_eff ≥ 35, threshold event-set):
+ (i) recombination sits ≥22× below the threshold scale in C²,
  so 1 − S = (1/22)^35 ≈ 10⁻⁴⁷: the bare value rides to ~47 decimal places
  (the amplitude itself is the high-f operating point's own record).
- (ii) DELIVERED — the laboratory checklist: every terrestrial environment
+ (ii) the laboratory checklist: every terrestrial environment
  sits ~25 orders above the structure-class edge (curvature penetrates
  vacuum chambers, so the chameleon-trap tests do not apply); MICROSCOPE is
  out of range by kinematics; the mm–cm band is torsion-balance territory,
  already fenced.
- (iii) DELIVERED — freezing is structural: the switch is a function of the
+ (iii) freezing is structural: the switch is a function of the
  local Weyl invariant, not a field with its own relaxation; virialized
  tidal fields evolve on Gyr timescales and the step is pinned at
  S = exp(−10^10)-class or deeper, so no fluctuation of any ordinary size
  moves it. No separate relaxation dynamics exists to fail.
- (iv) DELIVERED — molecular-hydrogen absorbers require dense shielded gas,
+ (iv) molecular-hydrogen absorbers require dense shielded gas,
  which exists only deep inside virialized structure: the predicted
  delta_mu/mu is zero to the same exponential depth, against observed nulls
  of ~10⁻⁵–10⁻⁶. Stated edge: pristine unvirialized gas carries the bare
@@ -207,7 +205,7 @@ and the recorded curvature ladder alone.
 
 ---
 
-## 8. Observable signature [DERIVED, testable]
+## 8. Observable signature
 
 Under a single m_e amendment, ALL EM-binding observables shift in LOCKED
 correlation (sec 29):
@@ -235,9 +233,9 @@ FORECAST NUMBERS (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
 
 ---
 
-## 9. What is DERIVED vs OPEN (honest accounting)
+## 9. What is derived vs open
 
-DERIVED / FORCED:
+Derived or forced:
  - the environmental variable (Theta, vorticity-based, exact identity) [1]
  - the coupling FORM is forced (geometry 60 orders too weak) [2]
  - the transition is FORCED sharp by 2 independent constraints [3]
@@ -246,17 +244,17 @@ DERIVED / FORCED:
  - the roof reduces to ONE question (census scope) [6]
  - the locked-correlation observable signature [8]
 
-OPEN:
- (census-scope legality: CLOSED — the coupling law's consolidated clause; sec 2, 6)
- (the amplitude coefficient: DERIVED by the standing stack 27*alpha/(5*pi), no cutoff [4])
- (the sec-7 screening computation: DELIVERED — all four items, see sec 7)
+Open:
+ (census-scope legality: closed — the coupling law's consolidated clause; sec 2, 6)
+ (the amplitude coefficient: derived by the standing stack 27*alpha/(5*pi), no cutoff [4])
+ (the sec-7 screening computation: delivered — all four items, see sec 7)
  - the two-field sims (sim-gated): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 
 The empirical fit (m_e = 1.012543, fits the CMB) is UNTOUCHED by all of the
 above -- this document concerns the MECHANISM's legality/derivation, not
 the data.
 
-## 10. The leptonic origin -- why m_e and not m_q [DATA-NARROWED, the operator ASSUMED] (2026-07-09)
+## 10. The leptonic origin -- why m_e and not m_q (2026-07-09)
 
 BBN (the data ruling — the windowed program) REQUIRES the coupling be leptonic: a universal mass shift is 12-16σ
 dead via the D/H quark→pion→deuteron channel (dln(D/H)/dln m_q ~ 15 vs dln m_e ~ 0.5,
@@ -299,46 +297,46 @@ with the factor 2 pure operator counting. Independent coefficients leave δm_ν 
 **Nothing selects between them and nothing can**: the correlated point moves Σm_ν by 1.5 meV
 inside a window whose exit restores the present-day value the sky measures — observationally
 identical to the free case. The pipeline runs the correlated point (`background.c`, m_ν ∝ m_e²).
-[ASSUMED — docket #125]
+(assumed; docket #125)
 MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09, re-keyed to the standing operator):
  (a) The coupling PROFILE is forced to be CONDENSATION-TRIGGERED, not smooth in the field.
  A profile that tracks the field's own redshift gives dm_e(z=2) ~ 1.8×10⁻⁶ -- AT the
  quasar bound (|dm_e/m_e| <~ 1×10⁻⁶ at z~1-3). The model AVOIDS this with the z=50
  STEP (dm_e=0 below z=50; the condensate/transition reading, see [28]). So the shift
  must switch AT condensation and be gated thereafter, which both matches the code and
- dodges quasars. This ties [10] to the [28] reconciliation. [RESOLVED to
- "condensation-step", not smooth.]
+ dodges quasars. This ties [10] to the [28] reconciliation (resolved to a
+ condensation-step, not smooth).
  (b) The loop, worked (2026-07-09). Minimal potential V(Psi)=ρ_inf + 1/2 m² Psi²
  (DM oscillation early, DE floor late). It CLOSES TO CONSISTENCY: the DM→DE
  transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
  ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4) = 2.25 meV =
  m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
  is P-2026-012's POSIT, not derived. So the last residual is the cosmological-
- constant question -- no longer a PRTOE-specific gap, the universal one. [REDUCED to CC]
+ constant question -- not a PRTOE-specific gap but the universal one (reduced to the cosmological-constant question).
 
-WHAT THIS SECTION DOES NOT CLOSE, stated exactly. The delivering operator is not selected by
+The delivering operator is not selected by
 any symmetry the model carries: a gauge singlet couples to every Yukawa operator with an
 INDEPENDENT coefficient, which is this section's own no-go read forwards. Data does the
 excluding -- H†H and the quark bilinear at ε are both +12–18σ dead on D/H, and the Weinberg
 operator reaches no charged mass at all -- so what remains standing is the lepton bilinear by
-elimination, with the doublet-normalization correlation an assumption on top of it. That is
-the honest grade: **the portal is data-narrowed and assumed, not derived**, and its one
+elimination, with the doublet-normalization correlation an assumption on top of it. The portal
+is data-narrowed and assumed, not derived, and its one
 discriminating observable is unreachable. Docket #125.
 
-LEDGER UPDATE to Section 9: the EP-screening computation [7] is now RESOLVED (2026-07-09):
+The EP-screening computation [7] is resolved (2026-07-09):
 the composition-dependent Vainshtein-screened Delta_a/a = 8×10⁻²¹..8e-19, 3-5 orders below
-MICROSCOPE (screened regime, cubic galileon); EP gate CLEARS, favorable-prior, sole
+MICROSCOPE (screened regime, cubic galileon); EP gate clears, favorable-prior, sole
 caveat a non-standard eps_V^(1/2) power (numerical galileon solve would fully discharge).
-So varying-m_e is single-gated on DESI. And the leptonic-origin MECHANISM (this section)
-moves item [2]'s "census-scope legality" from OPEN toward RESOLVED via interface/substance
+So varying-m_e is single-gated on DESI. And the leptonic-origin mechanism (this section)
+resolves item [2]'s "census-scope legality" via interface/substance
 -- the coupling is legal as substance. What stays open is not the legality but the *selection*:
-which legal operator delivers δm_e, graded assumed above (#125), and the CC value the loop reduces to.
+which legal operator delivers δm_e, which is assumed above (#125), and the CC value the loop reduces to.
 
 ---
 
-## THE ELECTRON-LOOP ONSET — the predecessor configuration [RETIRED]
+## THE ELECTRON-LOOP ONSET — the predecessor configuration
 
-> **This section describes the retired operating point**, in which the electron's
+> This section describes the retired operating point, in which the electron's
 > Coleman–Weinberg backreaction drove the dyad's condensation. That configuration is
 > BBN-fatal at its own numbers and no longer describes the model
 > ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); the standing configuration is the
@@ -349,7 +347,7 @@ which legal operator delivers δm_e, graded assumed above (#125), and the CC val
 On the charge-free dyad field, the electron Coleman–Weinberg backreaction was taken to set the
 condensation scale, making the onset derived rather than a free input.
 
-**Zero-T (the VEV / reduction).** m_e(φ)=m_e0(1+κφ²); the electron loop gives
+Zero-T (the VEV / reduction). m_e(φ)=m_e0(1+κφ²); the electron loop gives
 V_CW(φ)=−(1/16π²)m_e(φ)⁴[ln(m_e(φ)²/μ²)−3/2], whose φ² term is a TACHYONIC induced mass
 m_φ²(0)=−(κ/2π²)m_e0⁴(L−1) (radiative SSB). Self-consistent VEV
 **v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV** (150/175/196 keV for L−1=2/5/10) — the CW minimum imposed
@@ -357,13 +355,13 @@ together with the delivered shift κv² = ε (full 1.2543%), which fixes κm_e0�
 robust under the 1/6-power. So the onset falls out of m_e0 + the dyad amplitude ALONE = a genuine
 reduction (the onset is no longer free). Un-swamped because field 2 carries no charge → no TeV soft mass.
 
-**Finite-T (the coin-flip).** Thermal mass Δm_φ²(T)=+(κm_e0²/3)T² (electron plasma, symmetry-
+Finite-T (the coin-flip). Thermal mass Δm_φ²(T)=+(κm_e0²/3)T² (electron plasma, symmetry-
 restoring); symmetry restored above T_c where it cancels the tachyonic curvature. κ CANCELS →
 **T_c = m_e0·√(3(L−1)/2π²), coupling-independent, ~electron-scale.** Leading-log is UNRELIABLE
 here (μ~T_c → L−1→0 iterates unstably), so T_c is log-ambiguous ~40–450 keV, central ~70–160 keV —
 **STRADDLING the deuterium bottleneck (~70 keV).** Structural: onset AND D/H are both electron-scale
 → "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN network (the working docket).
-**Caveat — T_c is marginal.** The condensation temperature is electron-scale but genuinely marginal:
+Caveat — T_c is marginal. The condensation temperature is electron-scale but genuinely marginal:
 the perturbative (Coleman–Weinberg) treatment is scale-ambiguous, and a careful analysis shows T_c is not
 perturbatively well-defined — the condensation is a strong-coupling effect. Treated non-perturbatively
 (as a gap equation for a composite dyad), T_c *is* well-defined and lands at the electron scale, but its
@@ -371,7 +369,7 @@ precise value then rests on the medium's strong binding, which the model does no
 principles. This is the same marginality that limits the dark-energy value (see the cosmological-constant
 document).
 
-**Leptophilia (allowed ≠ generated).** Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
+Leptophilia (allowed ≠ generated). Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT
 : the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so
 the dyad's leptophilia rests on a lepton-specific portal / the P-020 leptogenesis route, not bare
@@ -381,19 +379,18 @@ Majoron. Scripts (scratch-era, not retained): electron_cw_Tc.py, finite_T_Tc.py,
 
 ## THE HIGH-f OPERATING POINT — the standing configuration's mechanism (2026-07-18)
 
-**The operator (unchanged):** m_e(φ) = m_e0(1 + κφ²), quadratic-canonical (dark-U(1) forbids the
+The operator: m_e(φ) = m_e0(1 + κφ²), quadratic-canonical (dark-U(1) forbids the
 linear coupling). At the standing decay constant f ≈ 3×10¹⁴ eV (window 10¹⁴–5×10¹⁴):
 **κ = ε/f² = 1.4×10⁻³¹ eV⁻²**, and the frozen zero mode delivers the full amplitude exactly:
 **ε = κ⟨φ⟩² = κf² = 1.2543%.**
 
-**The potential (two pieces, one new small input):** V = V_L(φ) + V_CW(φ). The bare L-breaking
+The potential (two pieces, one new small input): V = V_L(φ) + V_CW(φ). The bare L-breaking
 Mexican hat parks the VEV at f — its quartic is **λ_dyad = |m²_CW(0)|/2f² ≈ 1.3×10⁻³⁸**, a named
 small input whose **radiative stability is verified**: the electron loop's own induced quartic
 ((6/16π²)κ²m_e0⁴(L−1)) is only 1–4% of λ_dyad across the L-band, so loop corrections do not
 destabilize the input — it is technically natural. A derivation of its *value* belongs to the
 L-breaking sector's own dynamics (corner-dependent); until built, this is an input with its
-naturalness statement, not a hidden fit. (The predecessor configuration had no bare potential
-and its VEV formula died with it.) The electron loop supplies
+naturalness statement, not a hidden fit. The electron loop supplies
 the small tilt that does the *timing*:
 
 | quantity | value at f = 3×10¹⁴ eV | note |
@@ -404,23 +401,23 @@ the small tilt that does the *timing*:
 | thermal fluctuation term κ⟨δφ²⟩_T at n/p freeze-out | ~5.7×10⁻²¹ | **2×10¹⁸ below ε** — the OFF-window is honest at high f |
 | thermalization channels | Γ ∝ κ², all gates clear by 10⁸–10⁹ | ε rides first order in κ (the zero mode); the two orders are the configuration's whole point |
 
-**The sequence:** above T_c the electron-plasma thermal mass holds the symmetric point (ε OFF —
+The sequence: above T_c the electron-plasma thermal mass holds the symmetric point (ε OFF —
 including through n/p freeze-out); at T_c the tilt flips tachyonic and the field rolls to the bare
 minimum at f (fast); ε ramps in with the order parameter and sits at 1.2543% thereafter, gated off
-only inside high-Weyl structure (below). **The ramp, computed with the exact thermal kernel:**
+only inside high-Weyl structure (below). The ramp, computed with the exact thermal kernel:
 ε(T)/ε₀ = 1 − [T³|J_F′(m_e/T)|] / [T_c³|J_F′(m_e/T_c)|] — half amplitude at T ≈ 152 keV
 (0.86 T_c), 90% by T ≈ 113 keV (0.64 T_c), full below ~100 keV. The transition is second order
 (a quadratic thermal correction on a quartic potential), so the order-parameter birth is
-continuous — what the depth law requires, and what the BBN engine codes. **The named fork inherited from the un-merger:** whether
+continuous — what the depth law requires, and what the BBN engine codes. The named fork inherited from the un-merger: whether
 f = v_L (one L-breaking scale — the seesaw scan re-runs at ~100 TeV, where y ≈ 1.6×10⁻⁵ is natural
-and the Majoron–ν channel is safer) or f ≠ v_L (two scales; the spec stays agnostic). Grade of this
-section: **spec** — every number above is closed-form from (ε, f, m_e, L−1); the open items are
+and the Majoron–ν channel is safer) or f ≠ v_L (two scales; the spec stays agnostic). This
+section is spec-grade: every number above is closed-form from (ε, f, m_e, L−1); the open items are
 λ_dyad's origin, the T_c re-pin, and the v_L fork.
 
 ## THE GATE — the variable derived, the form graded (2026-07-18)
 
-**Why the gate reads Weyl curvature and not density — structural, from the census's own coupling
-form.** The census-legal coupling is a universal **conformal (metric) rescaling**: the dyad enters
+Why the gate reads Weyl curvature and not density — structural, from the census's own coupling
+form. The census-legal coupling is a universal **conformal (metric) rescaling**: the dyad enters
 through Ω²(φ)·g_μν. A conformally-coupled channel responds to the metric's **conformal class
 only** — and the local, covariant measure of departure from conformal flatness is precisely the
 Weyl tensor. FRW is conformally flat (C ≡ 0): the channel is fully open in the homogeneous cosmos
@@ -430,13 +427,13 @@ coupling's own geometry — a conformal portal cannot key on density, and no cha
 density gate is available to it even in principle.** *(This is also why the laboratory checklist
 clears the vacuum-chamber trap: curvature penetrates chambers.)*
 
-**The two recorded rooms** — the exponential f = exp(−C²/C_ref²) (reading B) and the power form
+The two recorded rooms — the exponential f = exp(−C²/C_ref²) (reading B) and the power form
 1/(1 + (C/C_ref)^p) (the candle-room module, p = 4) — with **every current use robust to the
 choice**: at the ~24 orders above the edge that any terrestrial environment sits, both are zero
 for every purpose in the books. C_ref is **event-set, not tuned** (the first
 shell-crossing/vortex — §3 above; this addendum inherits that).
 
-**The obstruction functional — the form derived at class level; the two rooms reconciled.** The
+The obstruction functional — the form derived at class level; the two rooms reconciled. The
 gate's microphysics is an **event** (§1/§3: the transition fires at the first
 shell-crossing/vortex; C_ref is event-set). A suppression that fires at a first event is a
 **survival probability**, and survival is theorem-shaped: S = exp[−N̄(C²)], with N̄ the expected
@@ -453,7 +450,7 @@ read as two claims about the hazard N̄:
   as a candidate for the functional** (harmless in every deployed use: all bounds were taken in
   the deep-suppression regime, where both forms are zero).
 
-**The forced sharpness is produced, not imposed:** if the seeds are threshold crossings of the
+The forced sharpness is produced, not imposed: if the seeds are threshold crossings of the
 medium's Gaussian-statistics fluctuations with an amplitude-linear threshold map, the effective
 exponent in the transition zone is n_eff ≈ ν²/2 (ν = the seed threshold in σ units). The exact
 slope is closed-form, not an approximation — with φ the standard-normal density and Q its upper
@@ -468,7 +465,7 @@ no seed identity is required to say so: any medium fluctuating well below its ow
 threshold gives a step, and the bound fails only for a medium fluctuating at order the threshold
 itself, already nonlinear everywhere, which the model's structure excludes.
 
-**The C²-to-threshold map, reduced to one number.** The exponent's *value* is what the sharpness
+The C²-to-threshold map, reduced to one number. The exponent's *value* is what the sharpness
 argument leaves open, and the reduction is sharper than "needs a map". The recorded hazard carries
 its own normalization — N̄ = (C²/C_ref²)ⁿ means **N̄(C_ref) = 1** — while the seed statistics give
 N̄ = N_cell·Q(ν), with N_cell the number of independent seed cells inside the portal's coherence
@@ -485,15 +482,15 @@ holds fewer than ~47 independent seed cells, fewer than a condensate can hold an
 The logarithm is also why the exponent's exact value has never mattered downstream: a hundred
 decades of cell count buy two decades of n.
 
-**The one owed object, named: ℓ_seed** — the seed's own correlation length inside the portal's
+The one owed object, named: ℓ_seed — the seed's own correlation length inside the portal's
 coherence volume. Nothing else is owed, and in particular (σ, δ_c) is *not* a second independent
 route to n: the normalization above already determines σ(C_ref) = δ_c/ν_ref from the cell count,
 so an externally sourced σ over-determines the gate rather than evaluating it. Read that way the
 winding field's own ceiling (σ ≈ 0.012 from the n_s subdominance condition, against a unit
 threshold) would demand N_cell = 10¹⁵¹⁰, which overshoots even a Planck-seeded coherence volume
 (10¹⁴⁶ cells at ξ = 398 AU) by some 1360 orders. That route is sound as the *bound* it was written
-for — σ ≪ δ_c forces ν ≫ 1 forces a step — and is not available as a valuation. Grade: **gate
-variable derived-structural (conditional on the census coupling form); gate form derived at class
-level (survival/exponential-power — the power form retired); the exponent hard-step
+for — σ ≪ δ_c forces ν ≫ 1 forces a step — and is not available as a valuation. In summary: the gate
+variable is derived-structural (conditional on the census coupling form); the gate form is derived at class
+level (survival/exponential-power — the power form retired); the exponent is a hard step
 unconditionally, its value reduced to the closed form n(N_cell) with ℓ_seed the single owed
-number; C_ref input.**
+number; C_ref is an input.
