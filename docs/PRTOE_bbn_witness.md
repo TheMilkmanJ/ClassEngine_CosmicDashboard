@@ -64,7 +64,12 @@ PRIMAT. **The row is quotable at −2.5 to −1.4σ — the ±0.0476 budget with
 applied and the code systematic named and unfolded.**
 - **The genesis residual, applied.** The standing high-f configuration commits to one genesis
  dilution ζ = T_dark/T_γ ∈ [0.25, 0.35], carrying a relativistic residual
- **ΔN_eff = (27/(7/4))·ζ⁴ = 0.06–0.24**. That residual moves both rows, in opposite directions —
+ **ΔN_eff = (27/(7/4))·ζ⁴ = 0.06–0.24**. The residual's structure is derived — the 27→14
+ confinement dof, the scale T_c, and the reheat factor (27/14)^⅓ — leaving ζ, the genesis
+ temperature ratio, as the sector's one un-derived input; the reheat cannot size it, because
+ ΔN_eff is a ratio in which T_c cancels and only ζ⁴ survives, and a Planck-spectrum fit with
+ ΔN_eff free prefers ζ ≈ 0.31, inside this window, so ζ is data-located rather than predicted
+ (`scripts/cmb_realign_5d_neff.py`). That residual moves both rows, in opposite directions —
  deuterium up toward Cooke (∂ln(D/H)/∂N = 0.135), helium up away from Aver
  (dY_p/dN = 0.011–0.013). Propagated on the model's own prediction above:
 
