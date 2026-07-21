@@ -138,7 +138,7 @@ this model cites for pedigree while REFUSING for local objects: the arrow ban fo
 every local white-hole realization; only the global, no-exterior instant survives. What is
 native here is the MECHANISM that makes it the only realization: the arrow as a field
 value (not a statistic), the counterparty rule, the no-exterior Eardley evasion, once per
-cycle. [GRAMMAR — one reading of known solutions; no new solution claimed.]
+cycle.
 
 **The scoreboard and the record's near-miss:** the observational census —
 black holes in essentially every massive galaxy, confirmed white holes ZERO — is exactly
@@ -173,9 +173,7 @@ The inheritance: the one white hole poured through a shape that remembered its a
 the pour was everywhere-at-once but axis-marked — and that memory is the registered
 observable family (the ℓ\~130 comb P-029, the ε-dipole P-024, the isocurvature line
 P-031). **The white-hole reading inherits the genesis's falsifiers**: the axis family in
-the data is the fingerprint of how the fountain poured. [GRAMMAR — unification of two
-recorded descriptions; no new mechanism; the torus's dynamical origin stays owned by the
-recorded Kelvin-Helmholtz roll-up.]
+the data is the fingerprint of how the fountain poured; the torus's dynamical origin stays owned by the recorded Kelvin-Helmholtz roll-up.
 
 **The pour writes light's birth certificate, not its path.** The medium is
 electromagnetically neutral, so nothing here rotates light en route and the anti-birefringence
@@ -196,23 +194,23 @@ order unity and remain unobservable at every horizon: the carrier is absent
 ([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). A formal prediction with no
 detection channel.
 
-*Fence: the "gravity reverses and attaches to light" mechanic grades exploratory — the recorded
+*Fence: the "gravity reverses and attaches to light" mechanic is exploratory — the recorded
 snap is a neutral handover rather than a rule inversion, and census blindness holds at genesis.*
 
-**T10-light PAID (estimate-grade — the fingerprint's amplitude):** three
+The fingerprint's amplitude is priced in three
 channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
 at maximal genome-signed chirality, the recorded bounce r ("far below current bounds")
 puts it ≥100× under the LiteBIRD/S4-class future floor. (B) Faraday rotation off the
 P-028 helical field (5×10⁻¹⁸ G): 4.5×10⁻¹⁰ degrees at 100 GHz — 9 orders below the 0.34°
-EB hint. (C) Magnetic stress EB/TB ∝ B⁴: 10⁻³⁴ relative. VERDICT: **the white hole signs
-light in invisible ink.** The at-birth channel is real and FAINT — so
+EB hint. (C) Magnetic stress EB/TB ∝ B⁴: 10⁻³⁴ relative — the white hole signs
+light in invisible ink. The at-birth channel is real and FAINT — so
 the model's sharp prediction, zero new mechanisms: the EB sky is NULL beyond calibration
 systematics; the 0.34° hint is unownable by ANY sector of this model and must resolve as
 a systematic (it is degenerate with polarimeter calibration angles). The loud copy of the
 signature stays where registered: the genome-signed magnetic helicity (P-028, parity-odd
 radio/γ) and the axis family. GR's receipt preserved, the neutrality null preserved,
-no new mechanism spent. [ESTIMATE-GRADE amplitudes; T10's heavy remainder (proper spectral
-shapes) stays on the debt list, de-urgented by these ceilings.]
+no new mechanism spent. The amplitudes are estimate-grade, and the proper spectral shapes
+remain owed, de-urgented by these ceilings.
 
 ---
 
@@ -299,7 +297,7 @@ credit: this is the past hypothesis (Boltzmann; Penrose's low-entropy initial co
 in this framing — all irreversibility traces to the unbalanced opening conditions. "We live
 deep inside the white hole" is causally literal: everything that exists lives inside the
 causal future of the pour; the gather-resemblance is the gather-dominated CHAPTERS of the
-pour's interior settling itself out. [GRAMMAR — renames of recorded + record physics.]
+pour's interior settling itself out.
 
 
 ## The pour's identity + the timer
@@ -342,8 +340,8 @@ address is the first instant.** This inversion completes the reading: *the forwa
 motion of time makes sense if the one object that cannot survive it is the egg that opened
 it.* Time's direction is not imposed on the white hole; the white hole's instability IS the
 direction — the timer and the deposit start together, and everything that has ever aged is
-downstream of the one thing that couldn't. [GRAMMAR — the timer section's closing form; the
-falsifiable content remains routed through the thermal program.]
+downstream of the one thing that couldn't. The falsifiable content remains routed through the
+thermal program.
 
 **Provenance (filed with the same discipline as every number):** the ingredients of this
 reading have literature homes and are cited as such — Eardley (1974), literally titled
@@ -366,8 +364,7 @@ z ≈ 12), the same fade whose frozen residual is the cosmological constant. One
 jobs: dark energy on, birefringence off. Every gravitational wave resolved by any instrument
 flies a post-click sky and must arrive clean (P-2026-047); the one possible survivor of the
 ON era is a handedness in the primordial background — the white hole's signature, if it ever
-surfaces, written in the polarization of the oldest waves there are. [GRAMMAR + registered
-split; the coefficient computation owns the amplitude.]
+surfaces, written in the polarization of the oldest waves there are; the coefficient computation owns the amplitude.
 
 ## Addendum 6: THE POUR MEETS THE TWO PIECES — genesis architecture
 
