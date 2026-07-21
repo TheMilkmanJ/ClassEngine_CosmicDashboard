@@ -1,10 +1,9 @@
-# The CMB baseline — the model reproduces the acoustic peaks (#188, step 1)
+# The CMB baseline — the model reproduces the acoustic peaks
 
-*"Where do we start" on reproducing the CMB. Answer: closer than the earlier "no first-principles
-CMB" framing implied. Driving the model's modified CLASS at the fiducial **derived** stack — the dcdf
-as the whole dark sector, varying-mₑ = 1.0125 — produces a CMB temperature spectrum whose acoustic
-peaks land on Planck's, tracking ΛCDM to a couple percent. Code: `scripts/cmb_baseline.py`,
-`scripts/cmb_baseline_plot.py`; figure `chains/cmb_baseline.png`.*
+*The model's modified CLASS at the fiducial **derived** stack — the dcdf as the whole dark sector,
+varying-mₑ = 1.0125 — produces a CMB temperature spectrum whose acoustic peaks land on Planck's,
+tracking ΛCDM to a couple percent. Code: `scripts/cmb_baseline.py`, `scripts/cmb_baseline_plot.py`;
+figure `chains/cmb_baseline.png`.*
 
 ## The setup that matters
 
@@ -26,18 +25,17 @@ Against a ΛCDM reference (Planck 2018, also from CLASS — and ΛCDM fits Planc
 transitive check), the model's TT tracks it to **mean 1.9%, max 2.9% over ℓ = 30–2500**, first peak
 −1.65%. Derived structure numbers: σ8 = 0.818, S8 = 0.816, Ω_m = 0.299.
 
-## What this does and does not settle — honestly
+## What this does and does not settle
 
-**It revises the "no first-principles CMB" concern.** The model's *own* derived stack — the census
-A_s/n_s, the dcdf dark sector, varying-mₑ — produces the acoustic peaks at the right places and
-heights. The machinery works; the model is **close**, not absent. And the full MCMC (which fits the
-cosmology + nuisance parameters) reaches ΔlnZ ≈ +2.6 over ΛCDM, so at best-fit it *fits* Planck; the
-~2% here is the frozen fiducial stack, not the fitted point.
+**The model's own derived stack lands the peaks.** The census A_s/n_s, the dcdf dark sector, and
+varying-mₑ — the model's own numbers — produce the acoustic peaks at the right places and heights.
+And the full MCMC (which fits the cosmology + nuisance parameters) reaches ΔlnZ ≈ +2.6 over ΛCDM, so
+at best-fit it *fits* Planck; the ~2% here is the frozen fiducial stack, not the fitted point.
 
 **It does not yet clear the "from first principles" bar, and three pieces stand:**
 1. **A_s and n_s forced, not adopted.** They are set to the derived census values here and land the
    peaks — but forcing them rigorously from the genesis (no residual freedom in the amplitude ξ/ℓ_H =
-   3.45×10⁻³ and the tilt) is the #168 residual, still open.
+   3.45×10⁻³ and the tilt) is the scaling-mechanism residual, still open.
 2. **The dark-sector perturbation conversion channel** (dcdf → dark radiation) is off in the fiducial
    run — a small (~10⁻⁴ on S8) implementation item to turn on for a full first-principles C_ℓ.
 3. **A real Planck-likelihood χ² at the derived (not fitted) stack** — the honest test is whether a
@@ -46,7 +44,7 @@ cosmology + nuisance parameters) reaches ΔlnZ ≈ +2.6 over ΛCDM, so at best-f
 
 **Grade: baseline established — the model reproduces the CMB acoustic structure with its own derived
 stack; the residual to "from first principles" is precision + the two pieces above, not the peaks.**
-This is not the basement (#113); it progressed with none of the basement built, confirming the two
+This is not the basement work; it progressed with none of the basement built, confirming the two
 long poles are independent.
 
 ## Sources
