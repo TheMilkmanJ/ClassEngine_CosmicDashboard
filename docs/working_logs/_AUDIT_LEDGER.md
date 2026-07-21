@@ -4035,3 +4035,43 @@ Flags for the owner (judgment calls, not edited):
    per DERIVATION_HUNT (v): conditions 1/2/4 collapse to one residual (a species-selective chiral μ₅
    on one node pair), with condition 3 and §6e's r=1 both discharged by the one-metric clause. Beyond
    the directed §6e fix; the §6e rewrite now points at condition 4 as the residual.
+
+## BATCH 9 re-audit (2026-07-21): DERIVATION_HUNT (current); kill_and_patch_2026-07-07, weakest_joints_2026-07-10 (dated records)
+
+Harness green throughout (670/670, 0 fail).
+
+**DERIVATION_HUNT — current and load-bearing, full pass.** Every number reproduces: the ε decomposition
+(c = 9/10, f̄ = 2/π, α_c = 3α, and the two owed base-α pieces worked — 23.5% not the recorded 44% for
+piece 2); the DE stack (τ = 0.34657 vs the observation-inverted **0.34506**, T_c = 177.10, +0.44%,
+λ = 26–46); the anchor host (k = 1.36461191, and §6's r=1 correctly reads **reduced** — this is the
+source I propagated to hierarchy §6e and honest_status); the ΔN_eff/N_c=2 re-price; §7 (A_s, n_s =
+0.9677, z_on = 4.03×10⁷); and **§9's flavour/Koide status** — the count derived (§5), the ratios staked
+and gated (m_μ/m_e = 206.7703 / m_τ/m_e = 3477.473, harness-matched; Koide "candidate, gated"), the
+mixing angles constitutionally silent. No stale 0.3503/179 as a live value (193 keV correctly the
+perturbative route; "177–179 keV" correctly the BBN-code insensitivity band).
+
+Fixes: six inline "Grade:" tags folded to prose (DERIVATION_HUNT:627, 670, 738, 785, 836, 916),
+per the coordinator's "full plain-prose" for this current doc.
+
+The two dated session records were treated like the batch-4 closed records — **no edits**, historical
+language and era-status left intact. Both carry correct supersession framing (kill_and_patch's gate/
+route-D/stack notes; weakest_joints' JOINTS UPDATE 3 of 2026-07-19, which holds the current standing
+state: J1 sourced to τ = ½ln2 / T_c = 177.10 / +0.44%, J4 the running evidence, the ε joint assembled).
+Their 07-07/07-10 values (the two-factor Ψ₀/M_Pl reading, the 1.98/2.695 meV whispers) are correctly
+labelled superseded.
+
+Flags for the owner (judgment calls, not edited):
+1. **The "n_eff ≥ 35" gate exponent has a third carrier: DERIVATION_HUNT:976** ("gate's sharpness …
+   n_eff ≥ 35, hard-step class, unconditional"), joining MATH_SPINE:289 and me_mechanism:182. Reaffirms
+   the batch-8 flag: the gate *derivation* (me_mechanism §THE GATE, harnessed) gives n_eff(ν) = 2.81/4.92
+   and n ≈ 3 even at N_cell = 10⁴⁰, so "≥ 35" appears inconsistent with the derivation's own n. (Already
+   being surfaced to the owner.)
+2. **weakest_joints:97** calls 179 keV "**the derived 179 keV**" — a mischaracterization: 179 is the
+   observation-inversion / coded value (the corpus elsewhere labels it superseded/inverted/coded, never
+   derived), and the derived value is the kernel's 177.10. But it sits in a dated 2026-07-10 JOINTS
+   UPDATE explicitly flagging its own figures as era-values, so left per the dated-record rule; owner
+   may want "the coded 179 keV" or "the then-adopted 179 keV".
+3. DERIVATION_HUNT carries retirement/withdrawal narrations inline (retired receipts, withdrawn
+   corridor fences). Inherent to a derivation-*status* tracker, and it routes the full kills to the
+   failures ledger ("Killed approaches and retracted claims are recorded in [FAILURES_LEDGER], not
+   here"); left as status-tracking content rather than swept.

@@ -624,7 +624,7 @@ only account with the medium is one universal metric. §6c's own condition-3 par
 seen the connection — it calls v = 1 and r = 1 *"the same physics seen twice"* — and then supplied
 one from the Fermi point while leaving the other open. They stand together: one emergent metric
 admits one cone slope, so r = 1 holds exactly rather than to the percent level the anchor's
-sensitivity demands. **Grade: reduced, not derived** — the shield is stated for matter's coupling
+sensitivity demands. So this is **reduced, not derived** — the shield is stated for matter's coupling
 to the medium's frame and the roster is the medium's own Planck-floor content, so this is that
 clause read one layer down rather than cited.
 
@@ -667,7 +667,7 @@ untouched: a chiral chemical potential is a **cold degenerate** structure, so th
 reproduces k exactly is still the reading that contradicts the recorded hot Planck-era basement,
 and that fork is where the sector's real exposure sits.
 
-**Grade: reduced** — three unmet conditions plus one open residual go to one open residual, with the
+This is **reduced** — three unmet conditions plus one open residual go to one open residual, with the
 object named. **Still-open, and the missing object is the selection rule that dopes one node pair
 and not the roster.**
 
@@ -735,7 +735,7 @@ and not the roster.**
   strongly **overdamped** branch (drift velocity ~10⁻², a dense tangle held by mutual friction), which
   is the model's own superfluid genesis medium rather than a relativistic string network; and γ*(β) is
   stationary at radiation, so the network delivers n_s ≈ 1 **robustly**, with the red −0.035 a
-  sub-leading residual. Grade: **class exhibited; value and medium-derivation open** — the attractor
+  sub-leading residual. **Class exhibited; value and medium-derivation open** — the attractor
   is dynamically real, and what remains is the first-principles value γ* from the tangle's winding
   energetics and mutual-friction coefficient (model-building, not an O(1)) and the sub-leading tilt.
   **One recorded absence was overstated and is corrected here:** ν is not absent from the corpus.
@@ -782,7 +782,7 @@ and not the roster.**
   to consistency-check status — same log-family within 10%, which is why the fork existed. Noted
   plainly: the mechanism's number sits *farther* from Planck central than the retired form
   (0.66σ vs 0.20σ) — the map is falsifiable on both n_s tightening and the running's sign.
-  Grade: **mechanism candidate (exhibited)** — sign, anchor, and running structural; the
+  **Mechanism candidate (exhibited)** — sign, anchor, and running structural; the
   linearity exponent exhibited at additivity level (shared with A_s, one assumption not two)
   and independently data-selected; the Δ² subdominance condition named.
 - **z_on = 4.03×10⁷ — a derived identity, not an estimate.** It is the H = m epoch of the fluid's own
@@ -833,7 +833,7 @@ and not the roster.**
    0.064 low — it does not cross zero on any budget. The direction of the shift is
    **anchor-independent** (a relative move) and **hostage to its own falsifier** (CMB-S4 must see
    the same ΔN_eff). *Provenance note: the ζ window predates this propagation — the deuterium
-   improvement is a consequence, not a fit.* Grade: estimate (linear responses,
+   improvement is a consequence, not a fit.* This is an estimate (linear responses,
    dY_p/dN = 0.011–0.013, ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the
    joint verdict becomes load-bearing. **Two closure conditions ride on this window, both
    registered as P-2026-053:** the dark radiation raises H at the dCDF's H = m onset, putting that
@@ -913,7 +913,7 @@ attempts and every one of them is a death ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAIL
 objection that it sets an angle equal to a pure number and so holds in radians and in no other
 unit; and the scale M is located by nothing in the sector — the log coupling derives the ring's
 geometry and radius, but *A = R/M is a ratio to a centre no term in that energy locates*
-([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). **Grade: candidate, gated.** It is the first
+([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). **Candidate, gated.** It is the first
 row of the open surface below, and its referee is the lattice triple plus the P-2026-051 lock —
 not a flavour argument.
 
