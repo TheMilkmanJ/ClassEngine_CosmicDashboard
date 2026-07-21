@@ -92,8 +92,10 @@ the agreement is evidence **for the conditions**, not a derivation from recorded
 obvious rescue — the model's repeated "condensate at finite chemical potential" — does not apply:
 that μ is the dark condensate's at basin entry, sixty orders below. The anchor's precision claim is
 withdrawn with it: **1–8 TeV, not 1.57 TeV at 2.5%**, because ∂lnM/∂lnk = 33 amplifies every O(1).
-And the two bands must be velocity-matched to the percent level (∂lnM/∂r ≈ 11.6) with nothing yet
-supplying the match.
+And the two bands must be velocity-matched to the percent level (∂lnM/∂r ≈ 11.6) — a match the
+one-metric constitution now supplies: two cone slopes would be a dimension-4 Lorentz-violating
+coefficient, which the no-bridge clause books at zero ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md)),
+so r = 1 holds exactly (reduced, not derived).
 
 **Adverse, second front.** The genesis draw does **not** pick a handedness, and this is now proven
 rather than suspected: the recorded Z4 tilt is invariant under θ → π/2 − θ while the charge L = R²θ̇

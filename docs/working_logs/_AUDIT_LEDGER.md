@@ -3910,3 +3910,46 @@ Flags for the owner (judgment calls, not edited):
 6. white_holes carries systematic "[GRAMMAR — …]" bracket grade-tags (5+ instances) — the banned
    bracket-grade-tag form, but a house convention in this grammar file; converting all to prose is a
    stylistic mass-change, so flagged rather than swept.
+
+## BATCH 6 re-audit (2026-07-21): THE_CHAIN, THE_AMPLITUDE, light, cosmological_constant, honest_status
+
+Whole-file pass. Harness green throughout (670/670, 0 fail).
+
+**Priority fix — honest_status:95-96 was STALE, now corrected.** It still read "the two bands must be
+velocity-matched … with nothing yet supplying the match," but DERIVATION_HUNT:617+ (2026-07-20)
+overturned exactly that framing ("§6e … records that nothing supplies it. Something does"): two cone
+slopes would be a dimension-4 Lorentz-violating coefficient, which LV_pricing's no-bridge clause books
+at zero, so r = 1 holds exactly — **reduced, not derived**. Updated to that reading with the LV_pricing
+cross-reference.
+
+Numbers re-verified against the harness: THE_CHAIN (T_c = 177.10, z_on = 4.03×10⁷, ξ/ℓ_H = 3.45×10⁻³,
+the quark-shift factors (α/4π)² = 3.4×10⁻⁷ / (α/π)² = 5.4×10⁻⁶ and the 20 000–31 000× shortfall, the
+τ ceiling 2×10⁻⁴σ); THE_AMPLITUDE (the ε triple 1.232/1.2543/1.2403, the ΔΦ = (553 km/s)² gate fence,
+the C-convention spread π/4 / 0.098 / 3.2×10⁻³, n_s = 4 white-noise exclusion); light (1/α_Y(M_Pl) =
+55.5 and the 44% share, the two-handout 52.4/49.4/33.3, 1/α₁÷1/α₂ = 0.673, α_Y = 0.0180, A = √2 to
+0.0009%); cosmological_constant (the full stack — 0.34506 observation-inverted, λ = 26–46 vs λ\* =
+22.41, door-B 2.672 meV = +18.2%, the NJL map λ = 45.7 at N_c = 2 with QCD f_π = 93.1/92.4, the s-wave
+selection table). No stale 0.3503/179: cosmological_constant uses 0.34506, THE_CHAIN uses 177.10.
+
+Fixes (five): the honest_status r=1 correction above; and four inline "Grade:"-species tags folded to
+prose — light:7 ("Grade: mixed" → "The grades are mixed"), light:63 (the "Filed originally as grammar,
+this role turns out to be a theorem" upgrade-announcement → "This role is a theorem"),
+cosmological_constant:399 and :433 (two inline "Grade:" tags). THE_CHAIN and THE_AMPLITUDE needed no
+edits.
+
+Flags for the owner (judgment calls, not edited):
+1. **Confirms the batch-3 flag.** THE_AMPLITUDE:89-91 states the A_s closed form lands **−0.35%** below
+   the frozen 2.088058×10⁻⁹ (the frozen = (α_c/4πk)³ at the concordance-joint k = 1.363; the closed
+   form = 2.0807 at the derived k = 1.36461). This matches the harness's booked −0.35%. So
+   THREE_EQUATIONS:147's "−0.34%" (batch 3, already committed, out of this batch) is the confirmed
+   outlier and should read −0.35%.
+2. THE_AMPLITUDE:120-123 — "A predecessor reading … named the residual as 'the bounce's
+   stiffness-ceiling scale, ~1.6×10¹⁶ GeV'" is a scar-correction; a forward-clean version states the
+   current residual (the O(1) count) without the predecessor narration.
+3. THE_CHAIN's systematic [RECORDED]/[CAND]/[MISSING] tether-grade tags (defined at line 17) and
+   white_holes' [GRAMMAR — …] tags (batch 5) are bracket-grade-tags, but defined systematic
+   conventions in specialized files — leaning acceptable structured labeling; converting all to prose
+   is a stylistic mass-change. Owner call.
+4. cosmological_constant carries several inline technical autopsies of retired routes (the √N
+   lineshape "Γ₀ = 76 meV", the equipartition-½ reading, the shift-symmetry-zeros-it route) —
+   substantive physics, with a "Where the dead ends live" section for the full history; leaning leave.

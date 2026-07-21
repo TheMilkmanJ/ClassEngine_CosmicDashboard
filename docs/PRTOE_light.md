@@ -4,7 +4,7 @@
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *Status: filed 2026-07-13, consolidating the light-sector results of the induced-coupling
-sessions. Grade: mixed and
+sessions. The grades are mixed and
 labeled per section — two theorem-grade structural results, one computed fraction, one
 pre-registered target. Rides M3 (the medium's reality) and the induced-gravity result
 (the Pauli finiteness condition, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5).
@@ -59,8 +59,7 @@ them is optional:
 
 The interaction grammar ([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)) assigns
 light the role of the *record*: the signal a matter-to-matter interaction emits, carrying
-the interaction's information outward without participating in what was built. Filed
-originally as grammar, this role turns out to be a **theorem — the sign structure of the
+the interaction's information outward without participating in what was built. This role is a **theorem — the sign structure of the
 beta functions** :
 
 - **A non-abelian coupling grows on descent.** Where it turns strong it confines, and the

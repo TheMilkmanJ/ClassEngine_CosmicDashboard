@@ -396,7 +396,7 @@ therefore the wrong order to quote — its formal value would be ΔE/E_MF = 22�
 Δρ_Λ¼/ρ_Λ¼ = 5.4–9.8%, while the next term of the same series is already larger. **So the λ gate and
 the τ gate MERGE, and the merge is forced rather than marginal** — the composite quartic sits past
 where perturbative control ends, so the flagship's radiative band needs the same non-perturbative
-SU(2) N_f = 3 treatment that owes τ. One lattice job gates both open numbers. *(Grade: the map is
+SU(2) N_f = 3 treatment that owes τ. One lattice job gates both open numbers. *(The map is
 **derived** — closed form, no new input, QCD-validated to 0.7%; the **size stays ESTIMATE**, now
 because the series is past control at the model's own λ rather than because λ was missing. The
 +0.44% keeps its existence claim and loses its precision claim.)*
@@ -430,7 +430,7 @@ family (matter / magnetism / metric) is one integer, carried by
 channel. The generation count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
 N_gen = 3 uniquely (**P-2026-045**). Neither rides the medium's partial wave.
 
-**Grade: the DE value's structure stands (ρ_Λ¼ = (9/2)α⁴τ·m_e) with τ sourced by the Koide
+**The DE value's structure stands (ρ_Λ¼ = (9/2)α⁴τ·m_e) with τ sourced by the Koide
 kernel, landing +0.44% above the observation; the lattice T_c/√σ for SU(2) is what confirms or
 kills it, and the perturbations door's O(1) is un-built with its owed object named.** Menu-watched, not read:
 Λ^{1/4} ≈ 2.25 meV sits ~10× today's photon temperature — the known cosmic
