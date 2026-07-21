@@ -3992,3 +3992,46 @@ Flags for the owner (judgment calls / notes, not edited):
    verification record, correctly fenced by INDEX — *contains* the Baryakhtar entry (arXiv:2011.11646)
    that BIBLIOGRAPHY.md lacks. So references.md is a source for at least one of the flagged-missing
    central-bibliography entries. Adding them remains an owner content task.
+
+## BATCH 8 re-audit (2026-07-21): MATH_SPINE, me_mechanism_math, hierarchy_problem — three big core-physics docs
+
+Whole-file passes. Harness green throughout (670/670, 0 fail).
+
+**Directed fix — hierarchy §6e's r=1 was stale, now reduced.** §6e's heading read "…and what nothing
+yet supplies" and its conclusion "the two bands must be velocity-matched … and nothing yet supplies
+that match … the sharpest constraint the basement build must meet." DERIVATION_HUNT:617-672
+(2026-07-20) overturned exactly that ("§6e … records that nothing supplies it. Something does") and
+grades it **reduced**: two cone slopes would be a dimension-4 Lorentz-violating coefficient, which
+LV_pricing's no-bridge clause books at zero, so one metric = one cone slope = r = 1 exact — the same
+one-metric reason §6c's condition 3 already supplies v = 1. Heading and conclusion rewritten to that
+(stated as "r = 1 is reduced, not derived", not as a "Grade:" tag), pointing the residual at §6c's
+condition 4 (species-selective doping). Verified against the source before editing.
+
+Numbers re-verified against the harness. The **anchor stack**: k = 1.36461191 (ln(1+π/2α_c)/π),
+c = 0.789262 (crossed box, written 0.789/0.7893), a = 0.281 (Fock), residual 1.5014, the 1.6–5.2 →
+0.55–1.78 TeV band via e^(−(c+a)) = 0.343, ∂lnM/∂lnk = 33.47, the α_c-scale A_s discriminator
+(3α(0) −0.4% / 3α(M_Z) +28% / UV +158%), and the ΔS = 1/6π electroweak count. MATH_SPINE and
+me_mechanism use the **correct 0.34506** and **T_c = 177.10 keV** with 179 keV / the CW-VEV ≈ 175 keV
+labelled superseded/retired; the full DE stack, z_on = 4.03×10⁷, the BBN ζ window, the ramp stamps
+(152/113 keV), the EP Δa/a, and the gate slope n_eff(ν) = 2.81/4.92 all reproduce. No stale
+0.3503/179 as a live value.
+
+Flags for the owner (judgment calls, not edited):
+1. **The gate exponent is quoted three ways.** MATH_SPINE:289 and me_mechanism:182 (the four-deliveries)
+   use "n_eff ≥ 35"; the gate derivation (me_mechanism §THE GATE, 2026-07-18, harnessed) gives
+   n_eff(ν) = 2.81 at ν = 2.2 / 4.92 at ν = 3 and n ≈ 3 even at N_cell = 10⁴⁰; READERS_GUIDE/arrow use
+   the forced minimum n > 2.43. The "n_eff ≥ 35" in the four-deliveries appears inconsistent with the
+   later derivation's n ≈ 3 (the four-deliveries' 10⁻⁴⁷ suppression rides on the ≥35). Needs the
+   owner's read of the intricate seed-statistics section — I did not force it.
+2. hierarchy:80 — "**Grade: sharp underived residual — the derivation of the 3/2 is DEAD.**" reads as a
+   stale grade against §2(b)'s own later conclusion "**The 3/2 is now DERIVED at additivity grade**"
+   and the header's "derived (additivity grade)". It most likely means the four *natural* attachment
+   routes are dead (route 6 then supplies it), but the bolded tag confuses; owner ruling.
+3. **"Grade:" tags across all three files** (MATH_SPINE:22 — the flagship banner identical to the
+   THREE_EQUATIONS:22 I flagged in batch 3 — and :112; me_mechanism:416/:495; hierarchy:193). A
+   plain-prose target, but these are a systematic grade convention in three dense flagship files;
+   flagged rather than swept, consistent with the THREE_EQUATIONS:22 handling.
+4. hierarchy §6c's broader four-conditions framing ("three unmet, one supplied") could also be reduced
+   per DERIVATION_HUNT (v): conditions 1/2/4 collapse to one residual (a species-selective chiral μ₅
+   on one node pair), with condition 3 and §6e's r=1 both discharged by the one-metric clause. Beyond
+   the directed §6e fix; the §6e rewrite now points at condition 4 as the residual.

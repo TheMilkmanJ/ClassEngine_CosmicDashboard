@@ -442,7 +442,7 @@ dressed floor (above) — and it puts the electroweak scale at a few TeV from th
 could support.
 
 
-### 6e. What equal screening requires, and what nothing yet supplies
+### 6e. What equal screening requires — and how the one metric supplies it
 
 §6c's screening constant carries a factor 2 — both bands polarise — and that factor is the most
 load-bearing number in the chain: ∂lnM/∂r ≈ 11.6 for N_screen = (1 + r)N₀, so a 25% asymmetry
@@ -460,13 +460,19 @@ the screening needs must come from **two distinct bands**, whose velocities are 
 parameters. r = 1 is therefore a genuine structural requirement on the basement's band structure —
 two velocity-matched bands — and not something the vacuum's neutrality delivers for free.
 
-**The residual, priced.** The anchor's response to the velocity ratio is steep: a **1% asymmetry
-shifts it 13%, 5% shifts it by roughly a factor two, and 10% by a factor four.** So the two bands
-must be velocity-matched at the percent level for the anchor to hold at all, and nothing yet
-supplies that match. It is not the node's particle-hole symmetry — that concerns one cone's two
-branches and does not reach two separate bands. **This is the sharpest constraint the basement build
-must meet**, and it is a constraint on band structure rather than on a symmetry the vacuum already
-has.
+**The residual, and how the one metric discharges it.** The anchor's response to the velocity ratio
+is steep: a **1% asymmetry shifts it 13%, 5% shifts it by roughly a factor two, and 10% by a factor
+four** — so the two bands must be velocity-matched at the percent level for the anchor to hold at
+all. That match is supplied, by the same one-metric clause that gives v = 1 in §6c's condition 3,
+read one band up: two bands with different cone slopes would be two different maximum attainable
+velocities — a dimension-4 Lorentz-violating coefficient — which the no-bridge clause books at zero
+([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md)), because matter's only account with the medium is one
+universal metric. One emergent metric admits one cone slope, so **r = 1 holds exactly** rather than
+to the percent level the anchor demands. It is not the node's particle-hole symmetry — that concerns
+one cone's two branches and does not reach two separate bands — it is the constitution. So **r = 1
+is reduced, not derived** — it moves from an open band-structure requirement to a consequence of the
+one-metric shield, leaving §6c's condition 4 (the species-selective doping of one node pair) as the
+residual.
 
 **The band, assembled — and its dominant term is now a number.** Three independent O(1)s enter: the
 vertex correction to the rainbow truncation, which is the crossed box and is evaluated below; the
