@@ -17,8 +17,8 @@ def DH(ob):   return 2.53e-5*np.exp(-1.6*np.log(ob/0.02236))       # m_e = 1 at 
 
 Yp_obs, Yp_err = 0.2449, 0.0040        # Aver+ 2015
 DH_obs, DH_err = 2.527e-5, 0.030e-5    # Cooke+ 2018
-ob_planck, ob_p_err = 0.02237, 0.00015 # Planck 2018
-ob_model = 0.022757                    # the model's fiducial
+ob_planck, ob_p_err = 0.02237, 0.00015 # Planck 2018 (= deuterium-optimal)
+ob_model = 0.02280                     # the model's CMB-fitted omega_b (theta_s realignment)
 
 ob = np.linspace(0.020, 0.025, 400)
 fig, (a1, a2) = plt.subplots(2, 1, figsize=(8, 7), sharex=True)
@@ -43,18 +43,22 @@ for ax in (a1, a2):
     ax.axvspan(ob_planck-ob_p_err, ob_planck+ob_p_err, color="#2980b9", alpha=0.12)
     ax.axvline(ob_planck, color="#2980b9", lw=1, ls=':')
     ax.axvline(ob_model,  color="#27ae60", lw=1.5, ls='--')
-a1.text(ob_planck, a1.get_ylim()[1], "Planck ω_b", color="#2980b9", fontsize=8,
+a1.text(ob_planck, a1.get_ylim()[1], "Planck ω_b\n(D-optimal)", color="#2980b9", fontsize=8,
         ha='center', va='bottom')
-a1.text(ob_model, a1.get_ylim()[1], "model ω_b", color="#27ae60", fontsize=8,
+a1.text(ob_model, a1.get_ylim()[1], "model ω_b\n(CMB fit)", color="#27ae60", fontsize=8,
         ha='center', va='bottom')
 fig.tight_layout(); fig.savefig("chains/bbn_abundances.png", dpi=130)
 print("saved chains/bbn_abundances.png")
 
-# --- the honest numbers at both omega_b ---
-for lbl, ob0 in [("Planck omega_b", ob_planck), ("model omega_b", ob_model)]:
+# --- the honest numbers: the CMB pulls omega_b up, deuterium pulls it down ------
+for lbl, ob0 in [("Planck / D-optimal omega_b", ob_planck), ("model CMB-fit omega_b", ob_model)]:
     sy = (Yp(ob0)-Yp_obs)/Yp_err
     sd = (DH(ob0)-DH_obs)/DH_err
     print(f"  {lbl} = {ob0:.5f}:  Y_p = {Yp(ob0):.4f} ({sy:+.1f} sigma),"
           f"  D/H = {DH(ob0)*1e5:.3f}e-5 ({sd:+.1f} sigma)")
+print("  The varying-me theta_s realignment prefers omega_b ~ 0.0228, where D/H is ~ -2.5")
+print("  sigma; the BBN prior pulls back toward 0.0224, so the joint fit compromises at a")
+print("  mild D/H tension. It is a genuine cost of the H0 mechanism, not a dyad effect --")
+print("  the dyad is L-neutral and reaches the deuteron only at two loops (~2e4x too weak).")
 print("  Li-7 is a separate sector (the lithium problem: standard BBN over-predicts")
 print("  Li-7/H ~5e-10 vs observed ~1.6e-10; the model's Li row handles it apart).")
