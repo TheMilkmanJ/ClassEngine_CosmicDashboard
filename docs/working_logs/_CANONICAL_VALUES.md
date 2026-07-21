@@ -68,5 +68,5 @@ Recomputed from α and m_e alone, independently of `audit_math_pass.py`, and eve
 Listed so nobody books one by accident.
 
 - **T_c's owner**: MATH_SPINE assigns it to the dyad; DERIVATION_HUNT to the SU(2) confining sector. Same arithmetic, incompatible structural claims. Three recorded points lean to the confining sector. **Owner ruling pending.**
-- **D/H width**: two-term ±0.0476 vs three-term ±0.0563; evidence points to two-term, moving the row −2.49σ → −2.94σ **against** the model. **Owner ruling pending** (`ForJustin/10`).
+- **D/H width**: settled 2026-07-21 (#157) — two-term **±0.0476**, standing row **−2.94σ**. The three-term ±0.0563 double-counted LUNA's d(p,γ)³He inside PRIMAT's post-LUNA ±0.037 and is retired (`ForJustin/10`, `PRTOE_FAILURES_LEDGER.md`).
 - **A_s's imprint**: freeze-out (n_s = 4, white) vs scale-invariant (ξ ∝ 1/k). Exactly one can stand (#184).

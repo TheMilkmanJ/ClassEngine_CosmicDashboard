@@ -44,7 +44,7 @@ the deuterium bottleneck), and its order parameter is a ramp, not a switch:
  **ε(T) = ε·(1 − T/T_c)** → stamps 0.60ε at the deuterium bottleneck, 0.77ε at lithium
  The window's own nuclear physics helps deuterium (+0.645%, worth +0.27σ) and the pattern
  is windowed: Y_p +0.85%. The row it cannot fix is carried openly — **D/H = 2.387×10⁻⁵,
- −2.49σ**, with the lever census closed and no healer available to the dyad
+ −2.94σ**, with the lever census closed and no healer available to the dyad
  ([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md)); helium pays +1.3 to +2.0σ.
  [RECORDED — the scar carried honestly; the earlier vev-heal reading died with its
  magnitude and is retained only as P-2026-006's hypothetical non-Majoron lever]
@@ -104,7 +104,7 @@ universe), screened to lab value inside virialized structure (Θ saturates).
 ## The whole arc in one breath
 R=0 → genesis makes a charged superfluid (Ψ₀, f_rot) → the dyad condenses mid-BBN and
 its ramp stamps the light elements (the witness era; the deuterium row carried openly at
-−2.49σ) → the medium condenses, acquires mass, and naturalness FORCE-CLOSES its one early
+−2.94σ) → the medium condenses, acquires mass, and naturalness FORCE-CLOSES its one early
 coupling (the census switches to gravity-only forever) → the gravity-only dyad shifts m_e
 by 1.2543% at recombination, easing H₀ → the shift is gated off inside structure → today:
 H₀ = 69.9 (provisional), dark matter + dark energy from one fluid, and the void-side
@@ -115,7 +115,7 @@ m_e step (P-2026-007) as the sharpest surviving fingerprint.
  G_μν = 8πG T_μν; the S formula; c = 9/10 (census count); f̄ = 2/π (winding).
  REGISTERED : α_c = 3α — the amplitude's one remaining input, under MCMC test.
  RECORDED : the BBN window (stamps 0.60/0.77; Y_p +0.85%) with the scar carried at
- −2.49σ, lever census closed.
+ −2.94σ, lever census closed.
  OPEN : exact Ψ₀ / f_amp (the genesis calc); the granule/dice readout (sim-gated);
  the evidence run's verdict (executing).
  THREATS : DESI DR2's 3.1σ evolving-DE preference (standing bet #3, the model votes

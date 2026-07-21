@@ -72,11 +72,10 @@ w = 0. Each row predicts w_i·ε with w_i **known**. The lattice cannot re-weigh
 2. **The D/H row's significance is irreproducible — the error budget is unstated. REDUCED
    (2026-07-20): the budget is now stated term by term** — observational ±0.030 ⊕ PRIMAT
    post-LUNA nuclear ±0.037 (⊕ the d(p,γ)³He rate ±0.0300 on the three-term folding) — **in
-   `PRTOE_deuterium_scar.md` §1, which quotes the fork rather than one side. What remains is the
-   standardization, and it is owner-gated (ForJustin/10): 0.0476 2-term vs 0.0563 3-term. That
-   ruling now turns on one source check rather than on taste — PRIMAT's ±0.037 is quoted
-   post-LUNA and LUNA measured d(p,γ)³He, so the three-term folding may count the dominant rate
-   twice. The ±0.0476 label is degenerate (observational ⊕ nuclear and nuclear ⊕ rate agree to
+   `PRTOE_deuterium_scar.md` §1. CLOSED (2026-07-21, #157): the source check settled it — PRIMAT's
+   ±0.037 is a post-LUNA Monte-Carlo error that already varies d(p,γ)³He, so the three-term folding
+   counted the dominant rate twice. Standing width **±0.0476**, standing row **−2.94σ**; ±0.0563 is
+   retired. The ±0.0476 label is degenerate (observational ⊕ nuclear and nuclear ⊕ rate agree to
    five figures), which is why no arithmetic check separated the two readings. One ruling still
    closes this obstruction, the red-team brief's D/H row, and the joint statistic's quotability at
    once.**

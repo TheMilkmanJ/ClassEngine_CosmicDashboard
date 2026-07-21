@@ -21,12 +21,12 @@ environmental dependence (drift wall; quasar differentials kill the smooth versi
 
 ---
 
-## What works — the derived results (read this first)
+## What works — the derived results
 
 The electron-mass shift ε = 1.2543% is the model's one added number. Three things about it are
 **derived, not fit**, and each is forced by real data:
 
-**1. The switch must be sharp — a near-binary threshold — and TWO independent experiments force it.**
+1. The switch must be sharp — a near-binary threshold — and TWO independent experiments force it.
 - *Equivalence-principle side (MICROSCOPE):* the m_e shift must drop by **~8 decades** between a
   dwarf-halo core (where it acts) and Earth (where MICROSCOPE tests it to 10⁻¹⁵). But the
   Weyl curvature between the smoothest relevant epoch (recombination, δ ~ 10⁻⁵) and a dwarf
@@ -36,11 +36,11 @@ The electron-mass shift ε = 1.2543% is the model's one added number. Three thin
   curvature) is off automatically; no separate tuning.
 - *Spectroscopy side (quasars):* a smooth density-dependence would produce quasar-vs-absorber
   line differentials ~10⁴× the observed bound — so the switch is forced binary here too.
-- **Two unrelated experiments demanding the same near-binary threshold is convergent evidence,
-  not tuning.** The clean underlying variable is topological: has multi-streaming / first
+- Two unrelated experiments demanding the same near-binary threshold is convergent evidence,
+  not tuning. The clean underlying variable is topological: has multi-streaming / first
   shell-crossing happened here, yes or no — an environmental event, not a tuned curvature number.
 
-**2. The amplitude's ceiling is derived.** The electron mass is ~99% Higgs-Yukawa and ~1%
+2. The amplitude's ceiling is derived. The electron mass is ~99% Higgs-Yukawa and ~1%
 electromagnetic self-energy. If the environment amends the EM-binding rule, only the EM part
 can respond, so the maximum shift is the EM-self-energy fraction of m_e — O(α)·log ≈ **1–2%**
 for every reasonable cutoff (muon through nucleon scale). **The standing 1.2543% sits at that
@@ -49,11 +49,11 @@ value itself is now assembled: **ε = c·f̄·α_c = 27α/5π**, with c = 9/10 d
 count), f̄ = 2/π derived (the genesis winding), and α_c = 3α the one registered input, under
 MCMC test.
 
-**3. The coupling is census-legal.** The shift is carried by geometry (Weyl curvature / the
+3. The coupling is census-legal. The shift is carried by geometry (Weyl curvature / the
 topological shell-crossing event), not by a new dark→electron force vertex — so it needs no
 portal the model forbids.
 
-**What is still open (and it is genuinely open):** the *exact* amplitude value (only its
+What is still open (and it is genuinely open): the *exact* amplitude value (only its
 ceiling is derived), a full proof that the induced shift is EP-safe (shifts m_e without
 shifting other Standard-Model masses identically), and the coupling-census scope adjudication.
 These are worked below.
@@ -112,7 +112,7 @@ posterior above should be read as pre-convergence until it lands.
 ## 6. Status
 
 Open wall, one candidate, one gate (sim-gated: the two-field sims), one fork (21-cm), one free
-near-term check (the posterior). Grade of everything above: derivation-debt formalization —
+near-term check (the posterior). Everything above is derivation-debt formalization —
 no new claims registered.
 
 ---
@@ -122,14 +122,14 @@ no new claims registered.
 The forced-sharpness result (summarized above) is the strongest structural feature the m_e
 mechanism has earned, and it rests on a computed convergence of two unrelated experiments.
 
-**The MICROSCOPE differential (computed).** Differential sensitivity of atomic rest mass to a
+The MICROSCOPE differential (computed). Differential sensitivity of atomic rest mass to a
 fractional m_e shift, Ti vs Pt (the MICROSCOPE pair): dln M/dln m_e = 2.517×10⁻⁴ (Ti) vs
 2.171×10⁻⁴ (Pt), via M_atom = A·u + Z·m_e − E_bind(m_e), with E_bind ≈ 15.73·Z^(7/3) eV
 (Thomas-Fermi electronic binding). Differential 3.46×10⁻⁵. Against MICROSCOPE's η(Ti,Pt) ≲
 3×10⁻¹⁵, the residual LOCAL m_e shift at Earth must sit below ~8.7×10⁻¹¹ — seven orders
 below the coupling's full ~1.2% amplitude.
 
-**The forced functional form.** A linear response m_e_eff = m̄_e·[1 + ε(1 − C²/C_ref²)] is
+The forced functional form. A linear response m_e_eff = m̄_e·[1 + ε(1 − C²/C_ref²)] is
 unphysical across the 30+ decades of curvature the universe spans (it diverges negative at
 Earth). The physical replacement is saturating, and requiring the *same* formula to behave
 across recombination → Earth forces its sharpness: an 8.2-decade suppression across a
@@ -137,7 +137,7 @@ across recombination → Earth forces its sharpness: an 8.2-decade suppression a
 Earth (17 decades higher curvature than the dwarf core) is then the easy end; no separate
 tuning.
 
-**Why it is a pillar, not a patch.** The continuous-density trigger was independently killed
+Why it is a pillar, not a patch. The continuous-density trigger was independently killed
 because a smooth density-dependence produces quasar–absorber differentials 10⁴× over bound —
 "binarity forced." Two unrelated experiments (MICROSCOPE and quasar spectroscopy) demanding
 the same near-binary threshold is convergent evidence. This also dissolves the Weyl-vs-fold
@@ -178,10 +178,10 @@ the permanent yield of the table regardless of which candidate ultimately pins.
 Two candidates clear the requirements table; they differ only in what the dark-ages/cosmic-dawn
 21-cm sky (z ~ 15–90) will show — one instrument judges all three stories:
 
-- **By-hand epoch gate** (current configs): standard sky below z = 50.
-- **R1 / fold** (candidate #1, structurally favored — medium-native variable): SHIFTED sky,
+- By-hand epoch gate (current configs): standard sky below z = 50.
+- R1 / fold (candidate #1, structurally favored — medium-native variable): SHIFTED sky,
   bare m_e in the unvirialized IGM.
-- **Compton gate** (candidate #2): thermal contact between matter and radiation ends when the
+- Compton gate (candidate #2): thermal contact between matter and radiation ends when the
   Compton heating rate falls below H at z ≈ 150 — a global disappearance with a DERIVED scale
   (rate crossing, not a fit), ON through recombination, OFF globally after, no modern re-lock.
   Its structural debit is a FOREIGN thermometer: the medium must sense the baryon-photon state,
@@ -196,26 +196,26 @@ The amplitude question and the separate early-universe deuterium (D/H) question 
 resolution: a single medium–matter coupling that changes form across the condensation regime
 change at z_x ≈ 10⁵.
 
-- **Massless phase (early, BBN).** Before condensation the medium is the normal fraction
+- Massless phase (early, BBN). Before condensation the medium is the normal fraction
   (w = 1/3, radiation-like, effectively massless). Naturalness forbids a strong direct
   matter coupling only once an ultralight mass EXISTS — so pre-condensation a direct coupling
   is allowed (nothing to protect). Every magnitude so far proposed to ride it has died (below);
   the window itself is the recorded structure.
-- **Massive phase (late, recombination).** At z_x the medium acquires its mass; naturalness
+- Massive phase (late, recombination). At z_x the medium acquires its mass; naturalness
   forces the strong direct piece to close, and only the Planck-suppressed CONFORMAL form
   survives. Tracking the condensate (≈0 at BBN, full by recombination), it delivers the 1.2543%
   m_e shift.
-- **Continuous handoff.** As the direct coupling dissolves, the conformal one picks up — one
+- Continuous handoff. As the direct coupling dissolves, the conformal one picks up — one
   coupling switching form through condensation, never two at once. This closes the census
   cleanly: MICROSCOPE, quasars, Oklo and clocks are all late (post-z_x) and see only the closed
   account; the early coupling is invisible to every existing test.
 
-**What stands of this section, and what died.** The two-phase *structure* is recorded and
+The two-phase *structure* is recorded and
 load-bearing: the coupling window closes at condensation, which is why every late-universe
 instrument (MICROSCOPE, quasars, Oklo, clocks) sees only the closed account. The two claims
 that once rode it are gone. The early-phase vev heal died with its magnitude — the flat vev at
 +7.7σ, the one-carrier κ_v by eight orders (ANN-2026-006) — and the deuterium row stands at
-−2.49σ with the lever census closed ([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md)). And
+−2.94σ with the lever census closed ([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md)). And
 the universality reading is superseded by the standing identification: the dyad **is** the
 Majoron, coupling to the current of its broken charge, so the shift is **leptophilic** — quarks
 carry L = 0 and the tree coupling is exactly zero. A flavor-blind shift of every mass would put
@@ -224,15 +224,15 @@ choice but the configuration's own survival condition at BBN.
 
 ## 12. The ledger — what was owed here, and where each item stands
 
-- **The amplitude coefficient — paid.** ε = c·f̄·α_c = 27α/5π = 1.2543%, c and f̄ derived; the
+- The amplitude coefficient — paid. ε = c·f̄·α_c = 27α/5π = 1.2543%, c and f̄ derived; the
   one remaining input is α_c = 3α, registered and under MCMC test (§8).
-- **The EP-safety proof — paid.** The composition-dependent, Vainshtein-screened differential
+- The EP-safety proof — paid. The composition-dependent, Vainshtein-screened differential
   lands at Δa/a = 8×10⁻²¹–8×10⁻¹⁹, three to five orders below MICROSCOPE; the EP gate clears
   (the mechanism doc's ledger update; the sole caveat is the non-standard screening power a
   numerical galileon solve would discharge).
-- **The census-scope adjudication — paid.** The coupling law's consolidated clause legalizes
+- The census-scope adjudication — paid. The coupling law's consolidated clause legalizes
   the sector-internal coupling; the operator passes all three tests (the mechanism doc §2).
-- **Still owed:** the condensate-growth shape through z_x (Ψ₀'s profile — the genesis calc),
+- Still owed: the condensate-growth shape through z_x (Ψ₀'s profile — the genesis calc),
   and R1's own gate (#11, the two-field sims): whether the medium's multi-streaming onset
   supports a Θ-type coupling at all. Those two are the section's honest remainder.
 
