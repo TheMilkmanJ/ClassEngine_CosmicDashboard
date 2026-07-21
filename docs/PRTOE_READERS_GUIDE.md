@@ -72,7 +72,7 @@ fixed here:
 | **ζ** | the genesis dilution T_dark/T_γ ∈ [0.25, 0.35] — the dark sector's temperature relative to the photons at genesis; sets ΔN_eff | the high-f configuration, the BBN books, the CMB-S4 falsifier |
 | **ξ** | a *length*: the medium's coherence length. Bare ξ = 402 AU is the coherence hinge in the scale ladder; **ξ_K** = 256 Mpc is the Kibble domain size | the scale ladder, the vortex network, magnetogenesis |
 | **ξ_H** | the non-minimal curvature coupling of a scalar (the standard gravitational meaning, as in the weight 1/6 − ξ) — unrelated to the lengths above | the induced-G sector, P-2026-045 |
-| **n** | the genesis winding integer, n ~ 10–30 — the one topological draw | the comb, the helicity sign, the matter asymmetry |
+| **n** | the genesis winding integer, n ≳ 1.65 (a band of 10–30 only for a torus far above its floor) — the one topological draw | the comb, the helicity sign, the matter asymmetry |
 | **L**, **χ_\*** | the torus's compactification scale (≥ 27.6 Gpc); the comoving distance to last scattering (13.76 Gpc) | the low-ℓ sky, the winding comb |
 | **f** | the dyad's decay constant, ~100–500 TeV | the dyad sector, the portal |
 | **ς** (final sigma) | the sign in the H₀-ceiling formula, read off the supernova colour channel — **ς = −1** (estimate grade, robust; the H₀-lever branch is dead and the bracket collapses to 70.9–71.3) | the candle room |
