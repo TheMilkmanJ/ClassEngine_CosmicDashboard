@@ -621,11 +621,12 @@ chk("forced_combination", "c_2 recovered from the pair", 1.9236,
 _LHY = (8/(15*_m.pi**2))*_m.sqrt(ac)                 # the coefficient of lambda
 chk("cosmological_constant", "LHY coefficient (8/15pi^2)*sqrt(alpha_c)", 0.0079954, _LHY, 1e-4)
 chk("cosmological_constant", "the same on rho_Lambda^(1/4), i.e. /4", 0.0019989, _LHY/4, 1e-4)
-# FLAG, not a fix: the corpus carries TWO values for this one coefficient. The closed form
-# above gives 0.0080, which cosmological_constant.md:341 states -- but the same line's
-# quarter, 0.0021, requires 0.0084, and scripts/de_value_g_to_lambda.py uses 0.0084
-# throughout (:5, :21, :178). The two differ by 5.1%. Locked here so it cannot drift
-# further; which is intended is for the main session, not this pass.
+# RECONCILED (tribunal, Thermal_O1_Discussions.md, 2026-07-17): the two values are not a
+# conflict. 0.0080 is the LEADING closed-form coefficient (line 621); 0.0084 is the MEASURED
+# value with the O(alpha_c) relativistic correction folded in -- the ~5% gap below IS that
+# correction, both upheld. Leading pairs with the leading quarter 0.0020 (line 623), measured
+# with the measured quarter 0.0021 (line 631). de_value_g_to_lambda.py's 0.0084 is the measured
+# value used for the size estimate, which is correct. The checks below lock the relationship.
 chk("cosmological_constant", "the recorded 0.0084 against the closed form 0.0080", 5.06,
     100*(0.0084/_LHY - 1), 0.02, "%")
 chk("cosmological_constant", "0.0021 is 0.0084/4, not 0.0080/4", 0.0021, 0.0084/4, 1e-3)

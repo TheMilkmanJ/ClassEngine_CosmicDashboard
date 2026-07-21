@@ -67,7 +67,6 @@ Recomputed from α and m_e alone, independently of `audit_math_pass.py`, and eve
 
 Listed so nobody books one by accident.
 
-- **LHY coefficient**: 0.0080 (closed form) vs 0.0084 (used in `de_value_g_to_lambda.py` and required by its own quarter). 5.06% apart. **Owner ruling pending.**
 - **T_c's owner**: MATH_SPINE assigns it to the dyad; DERIVATION_HUNT to the SU(2) confining sector. Same arithmetic, incompatible structural claims. Three recorded points lean to the confining sector. **Owner ruling pending.**
 - **D/H width**: two-term ±0.0476 vs three-term ±0.0563; evidence points to two-term, moving the row −2.49σ → −2.94σ **against** the model. **Owner ruling pending** (`ForJustin/10`).
 - **A_s's imprint**: freeze-out (n_s = 4, white) vs scale-invariant (ξ ∝ 1/k). Exactly one can stand (#184).

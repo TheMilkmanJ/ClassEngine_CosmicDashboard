@@ -346,19 +346,17 @@ correction; renormalization (counterterm = the physical mass renormalization, de
 flips the coupling power from α_c^{−3/2} to α_c^{+1/2}. The physical, scheme-independent remainder
 is the non-analytic Lee–Huang–Yang term:
 
-> **ΔE/E_MF = (8/15π²)·√α_c·λ·[1 + O(α_c)] = 0.0080·λ ⟹ Δρ_Λ¼/ρ_Λ¼ ≈ 0.0021·λ, w = −1**
+> **ΔE/E_MF = (8/15π²)·√α_c·λ·[1 + O(α_c)] = 0.0080·λ ⟹ Δρ_Λ¼/ρ_Λ¼ ≈ 0.0020·λ, w = −1**
 
 (derived within the stated relativistic |φ|⁴ completion; the coefficient carries no α_c and no
-16π²α_c^{3/2} structure — the circularity test passes). **What this buys and what it costs, both
-honest.** It buys: the correction is **percent-class, not O(1), for any controlled coupling** —
-SAFE for λ ≲ 10; the series loses control above λ* ≈ 22 (the next-order term overtakes), where
-neither safe nor exposed is certifiable. It costs: **the +0.44% regrades to mean-field-level
-consistency** — E_b is the *prediction*, not an absorber of radiative pieces, so the flagship
-carries an un-pinned O(λ · few %) radiative band for any λ ≳ 0.2–0.5; the *precision* of the
-+0.44% is exposed even though its *existence* is not, and a percent-class radiative band is wider
-than the gap itself. **The coupling λ is mapped from the sector's own NJL coupling** (equivalently
-the gas parameter √(na³), the position on the BEC side), and the map puts it past the control edge —
-so the size stays ESTIMATE, now for a stated reason rather than for a missing object.
+16π²α_c^{3/2} structure). The correction is percent-class, not O(1), for any controlled coupling —
+safe for λ ≲ 10, and losing control above λ* ≈ 22, where the next-order term overtakes and neither
+bound is certifiable. The price is that the +0.44% sits at mean-field-level consistency: E_b is the
+prediction, not an absorber of radiative pieces, so the flagship carries an un-pinned O(λ · few %)
+radiative band for any λ ≳ 0.2–0.5. The precision of the +0.44% is exposed even though its existence
+is not, and a percent-class radiative band is wider than the gap itself. The coupling λ is mapped
+from the sector's own NJL coupling (equivalently the gas parameter √(na³), the position on the BEC
+side), and the map puts it past the control edge, so the size stays an estimate for a stated reason.
 
 **The two frames.** **Frame 1 (naive uniform dilute-gas map, c_s² = gn/m): self-inconsistent,
 rejected.** Holding c_s² = α_c with any cosmological density gives E_MF = ½α_c·ρ_mass, which misses
