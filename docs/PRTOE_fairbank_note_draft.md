@@ -114,8 +114,8 @@ rather than a result — the model exceeds 4.7 meV about **10.8%** of the time.
 
 **And the part that concerns your own work directly.** If barium tagging reaches the factor-of-four
 half-life gain your group has projected, the reach improves by √4 = 2 in m_ββ, from 4.7 to roughly
-**2.35 meV**. On this model that moves the probability of a signal from 10.8% to **69%** — a
-six-fold improvement, and the difference between a long shot and a likely detection.
+**2.35 meV**. On this model that moves the probability of a signal from 10.8% to **69%** — more
+than a six-fold improvement, and the difference between a long shot and a likely detection.
 
 **But it costs discrimination, and you would spot that immediately, so here it is first.** Minimal
 normal ordering — the m₁ = 0 case, the generic expectation — has its own window of [1.48, 3.69] meV
@@ -162,17 +162,20 @@ than cosmologically foreclosed.
 
 **Fits.** The model matches or modestly outperforms ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO +
 Pantheon+SH0ES, at H₀ ≈ 69.9 — sound-horizon-driven, and holding with the SH0ES calibration
-included and pulling the other way. That figure is provisional: a refined likelihood treatment is
-running now and the value may shift.
+included and pulling the other way. That figure is provisional: the chains that underwrite it are
+still being brought to convergence under a corrected sampler configuration, and the value may shift.
 
-**The current test, with a caveat we found while checking it.** A zero-parameter evidence run is in
-progress — amplitude, tilt, coupling and transition epoch all stated in advance, against ΛCDM at
-full freedom, so any stated number being wrong collapses the model's own evidence. The caveat is the
-transition epoch. It was frozen at a profiled value rather than at the model's own onset identity,
-and the two differ by 0.05 dex; because the onset redshift goes as √m, that corresponds to a dark
-fluid mass about 28% from the one the rest of the model uses. **So the run in progress is grading a
-point near the model rather than the model's stated configuration**, and its result will need
-reading in that light. We would rather tell you that than have it turn up later.
+**The current test, with a caveat we found while checking it.** The zero-parameter evidence
+comparison freezes amplitude, tilt, coupling and transition epoch in advance, against ΛCDM at full
+freedom, so any stated number being wrong collapses the model's own evidence. Nested sampling was
+started on that configuration and then stood down on this hardware: the schedule is hundreds of days
+to a first checkpoint, so the nested number waits for cluster time. Until then the comparison is
+carried by a Laplace-from-MCMC estimate, and the chains that feed it are the critical path. The
+caveat is the transition epoch. It was frozen at a profiled value rather than at the model's own
+onset identity, and the two differ by 0.053 dex; because the onset redshift goes as √m, that
+corresponds to a dark fluid mass about 28% from the one the rest of the model uses. **So the
+configuration being graded is a point near the model rather than the model's stated one**, and its
+result will need reading in that light. We would rather tell you that than have it turn up later.
 
 **Validation.** Exact ΛCDM null test at five decimals, gauge invariance, precision-stability
 battery. The deepest structural claim, the medium's reality, is carried as an open assumption
@@ -209,16 +212,16 @@ baseline — before the dilution's dark-radiation contribution is added, which i
 up into the 2.407–2.463 range quoted above. The prediction is built in two steps from an in-house
 ΛCDM control run, same code and same data:
 
-| step | D/H ×10⁻⁵ | vs Cooke |
+| step | D/H ×10⁻⁵ | vs Cooke (standing ±0.0476) |
 |---|---|---|
-| ΛCDM control | 2.420 | −1.90σ |
-| the model's baryon density, 1.1% higher | 2.372 | −2.75σ |
-| the dyad's nucleosynthesis window, +0.645% | 2.387 | −2.49σ |
+| ΛCDM control | 2.420 | −2.25σ |
+| the model's baryon density, 1.1% higher | 2.372 | −3.25σ |
+| the dyad's nucleosynthesis window, +0.645% | 2.387 | −2.94σ |
 
 **The new physics acting during nucleosynthesis helps.** The electron-mass ramp switches on at
 the derived T_c = 177.10 keV — the abundances are insensitive at the percent level, so nothing
-below turns on the exact figure — and raises D/H by 0.645%, worth +0.27σ toward the measurement. Grafted onto the ΛCDM
-control alone it would give −1.63σ, better than the control's −1.90σ — though that is a
+below turns on the exact figure — and raises D/H by 0.645%, worth +0.31σ toward the measurement. Grafted onto the ΛCDM
+control alone it would give −1.93σ, better than the control's −2.25σ — though that is a
 decomposition rather than an available configuration, since the window and the baryon shift are the
 same ε acting at two epochs and the model cannot have one without the other. The point it
 establishes is only that **the deficit is not manufactured in the nuclear sector.**
@@ -229,7 +232,7 @@ baryon-sensitive abundance in the network — the production run gives d ln(D/H)
 that 1.1% becomes a 2.0% deuterium loss: three times the window's help, and opposite in sign.
 
 **That baryon shift is the same one that buys the Hubble result.** The two arrive together along one
-degeneracy direction, which fixes an exchange rate of **0.50σ of deuterium per km/s/Mpc of H₀**.
+degeneracy direction, which fixes an exchange rate of **0.59σ of deuterium per km/s/Mpc of H₀**.
 That rate is a secant between two computed points — the model's fit and the control, 1.7 km/s/Mpc
 apart — not a slope measured along the degeneracy, so it is trustworthy across that interval and an
 extrapolation outside it. Inside it: reaching parity with the ΛCDM control costs 1.17 of the

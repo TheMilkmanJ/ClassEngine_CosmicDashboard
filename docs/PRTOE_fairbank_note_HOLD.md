@@ -5,14 +5,19 @@ finished prose; everything about when to send it lives here.*
 
 ## Status: CLEARED to show, in person, as work in progress
 
-Addressee confirmed: **William Fairbank**. The letter is being shown ahead of the evidence run by
-the owner's decision. That is a coherent choice: nothing in it depends on the run except the H₀
-figure, which the letter already carries as provisional in its own voice. Showing unfinished work
-to a colleague and mailing a finished claim are different acts, and only the second needed a gate.
+Addressee confirmed: **William Fairbank**. The letter is being shown ahead of a durable evidence
+verdict by the owner's decision. That is a coherent choice: nothing in it depends on that verdict
+except the H₀ figure, which the letter already carries as provisional in its own voice. Showing
+unfinished work to a colleague and mailing a finished claim are different acts, and only the second
+needed a gate.
 
-**What is still running.** PolyChord has been sampling since 2026-07-18, 400 live points, matched
-to a ΛCDM twin so the evidence ratio is valid. As of 2026-07-20 it is ~1 day 22 h in with no log(Z)
-yet. The completion horizon is under review (task #99).
+**What carries the evidence verdict now.** Nested sampling (PolyChord, `cmp_prtoe_fixed`) was
+ended on 2026-07-20 after ~48 h with no log(Z) — not stalled, just unaffordable on this hardware
+(~9.8 h per nested iteration; first checkpoint ~163 days). Archived at
+`chains/_archive_polychord_ended_20260720_0915/`. The registered thresholds still stand, but they
+are graded against the standing Laplace-from-MCMC ΔlnZ until cluster time makes nested sampling
+affordable. The MCMC chains that feed that estimate are therefore the critical path, not a side
+referee.
 
 **The one thing not to do:** quote H₀ ≈ 69.9 as a final measured number anywhere it will be
 recorded or repeated. In conversation, provisional is what the letter says and what it is.
@@ -25,10 +30,10 @@ exactly where the H₀ mechanism operates, and the BBN prior blind the same way 
 model by ~1 χ²).
 
 That defect was closed on 2026-07-17 (`fe8cd8f2`, 13 configs): the measured varying-m_e response is
-now wired into both the `YHe` value and the BBN prior, and the running job carries it. Scored on the
-model rather than ΛCDM the BBN prior now carries its own weight (χ² 0.31 → 1.31). What has not
-happened is the re-measurement — the same wait as the evidence verdict, hence one gate rather than
-two.
+now wired into both the `YHe` value and the BBN prior, and the live MCMC configurations carry it.
+Scored on the model rather than ΛCDM the BBN prior now carries its own weight (χ² 0.31 → 1.31).
+What has not happened is the re-measurement — the same wait as the evidence verdict, hence one gate
+rather than two.
 
 **Expect the number to move.** How far is unknown until the run reports — the correction acts on the
 free-electron fraction in the damping tail, which is where the H₀ mechanism lives, so this is not a
@@ -72,34 +77,39 @@ place to assume the shift is negligible.
 - Every closed-form number in the letter is under regression in `scripts/audit_math_pass.py`.
 
 ## Found 2026-07-19, after the audit — read before describing the runs
+### Operational snapshot (refreshed 2026-07-21)
 
-**Which jobs are live, as of 2026-07-20 07:40.** `cmp_prtoe_fixed` (PolyChord) has been sampling
-since 07-18 — now ~1 day 22 h, still no log(Z), which is what its first checkpoint interval looks
-like from outside rather than a stall. `cmp_prtoe_conv_desi` is also live and has been for ~1 day
-14 h. `cmp_prtoe_routeD` was relaunched 07-20 on a corrected sampler configuration. `zon_disp`,
-`twist` and `cmp_prtoe_zon` are stopped, all far from convergence.
+**Which jobs are live, as of 2026-07-21.** Nested sampling is **not** live — ended and archived
+2026-07-20 (see above). The live MCMC work is: `cmp_prtoe_conv_desi` (running; latest R−1 still
+tens against a 0.1 stop — not near convergence), `cmp_prtoe_zon_disp` (running after a 07-20
+relaunch; still far from convergence), and `dyad_mnu` (the healthy control, R−1 ~0.14).
+`cmp_prtoe_routeD` was relaunched 07-20 on the corrected sampler but is currently stopped
+(process state T) with no R−1 row yet; do not describe it as converging until it is running again
+and R−1 falls. `twist` and `cmp_prtoe_zon` remain stopped.
 
-**But two of the three live jobs are not producing usable posteriors, and that is the thing to say
-if the runs come up.** conv_desi stands at R−1 = 27.6 against a 0.1 stop criterion, and rising.
-routeD's first two launches did the same, for a diagnosed reason: Cobaya's default
-`learn_proposal_Rminus1_max_early = 30` let each chain learn a proposal covariance while R−1 sat at
-8–27 — from a chain that had never converged — and the learned widths came back 10–45× smaller than
-the configured ones, so the chain took ever-smaller steps and stopped exploring. The 07-20 relaunch
-seeds the covariance at physical widths and only learns from a converged chain; **that fix is not
-yet proven**, and conv_desi has deliberately not been touched until it is. The safe description is
-that the evidence run is live and the two MCMC referees are being repaired, not that they are
+**What to say if the runs come up.** The nested evidence number is not coming on this hardware.
+The standing instrument is Laplace-from-MCMC, and that estimate is only as good as the chains that
+feed it. Several of those chains previously collapsed under Cobaya's default
+`learn_proposal_Rminus1_max_early = 30`, which let each chain learn a proposal covariance while
+R−1 sat at 8–27 — from a chain that had never converged — shrinking the step size until the chain
+stopped exploring. The 07-20 relaunches seed the covariance at physical widths and only learn from
+a better-converged chain; **the step-size repair is measured, the convergence claim is not yet
+proven**. The safe description is that the evidence comparison is carried by Laplace pending
+cluster time for nested sampling, and the MCMC referees are being repaired, not that they are
 converging.
 
-**The live run is off the model's onset identity.** It samples z_on = 3.5619×10⁷ where the identity
-is 4.03×10⁷ — 0.053 dex, which is a 28% difference in the dark fluid mass, and that mass is pinned
-independently by ξ = 402 AU, the Schive core radii, and the superradiance window. The run therefore
-grades a point near the model, not the model's stated configuration. The letter now says so; see
-`ForJustin/07-zon-two-values.md` for the three options.
+**The graded configuration is off the model's onset identity.** It freezes z_on = 3.5619×10⁷ where
+the identity is 4.03×10⁷ — 0.053 dex, which is a 28% difference in the dark fluid mass, and that
+mass is pinned independently by ξ = 402 AU, the Schive core radii, and the superradiance window.
+Laplace and any future nested run on this config therefore grade a point near the model, not the
+model's stated configuration. The letter now says so; see `ForJustin/07-zon-two-values.md` for the
+three options.
 
 ## Before it goes out
 
-1. The evidence verdict lands → replace the provisional H₀ with the measured one, and say what the
-   run found either way.
+1. A durable evidence verdict lands (nested on cluster time, or a Laplace estimate fed by
+   converged chains) → replace the provisional H₀ with the measured one, and say what the
+   comparison found either way.
 2. Re-read the m_ββ floor section against whatever the dark-energy scale settles at — the floor
    vanishes above m₁ = 2.324 meV, and the derived anchor sits 2.78% below that, or 6.2σ on the
    observation's own error. The floor thins across the range the scale is known to but does not
