@@ -278,11 +278,17 @@ chk("quantum_gravity", "Bekenstein quarter = 12pi/48pi", 0.25,
 # Three-term double-counts d(p,γ)³He — LUNA is already inside ±0.037 (arXiv:2011.11320;
 # #157 settled 2026-07-21). Retired three-term bookings: FAILURES_LEDGER.
 _DH_L, _DH_W, _DH_M = 2.420, 2.372, 2.387      # LCDM control -> +omega_b -> +the window
-# Reproduction check, production splice (numba on, T_c = 0.179): W -> 2.3736 (booked 2.372,
-# 0.07%); L -> 2.4164 (booked 2.420, 0.15%); M -> 2.3914 (booked 2.387, 0.18%). The triple is
-# noise-limited at ~0.2%, which is why the elasticity below is MEASURED by a wide scan and not
-# differenced across the 1.1% step -- that differencing amplifies 0.2% booking noise ~10x and
-# is what produced the retired -1.83.
+# CONFIG-VERIFIED 2026-07-21. The booked triple was made at eps = 1.24%, T_c = 0.179 -- exactly
+# what bbn_witness documents. Y_p is the clean discriminator and settles it: the windowed run at
+# that config gives Y_p = 0.248996 against booked 0.248995 (0.0004%), while T_c = 0.17710 gives
+# 0.248963 (0.013%, thirty times worse). D/H then reproduces to 0.072% and the control to 0.15%.
+# PRyM is bit-for-bit DETERMINISTIC (verified by repeat runs) but its D/H output is NOT SMOOTH in
+# omega_b at the ~0.1% level: the wide-scan log-log residuals are ~1e-3, and a 0.071% omega_b step
+# returns an apparent slope of -0.34 against the true -1.66. So the reruns' 0.07-0.15% deviations
+# are inside the solver's own non-smoothness and NO row is re-booked.
+# That non-smoothness is also the full explanation of the retired -1.83: a slope differenced across
+# the 1.1% step inherits ~0.1% of non-smooth error and is unstable at the +/-0.15 level. The
+# elasticity is therefore MEASURED over a 6% baseline, never differenced.
 _COOKE, _OBS_DH, _NUC_DH = 2.527, 0.030, 0.037
 _TOT = math.hypot(_OBS_DH, _NUC_DH)            # 0.0476 — the standing width
 _sig = lambda x: (x - _COOKE)/_TOT

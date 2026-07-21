@@ -40,10 +40,10 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  against quasar-optical **2.527 ± 0.030** (Cooke) and own-ΛCDM **2.420**. The dyad sits on the LOW
  side of the fork — a self-adverse, owned bet; **P-2026-027's radio referee decides it.**
 
- Where the deficit is made. Taking that chain apart: the ω_b step costs −0.85σ and the dyad's
- own window *gains* +0.27σ, so the nuclear physics helps and the baryon density carries the whole
+ Where the deficit is made. Taking that chain apart: the ω_b step costs −1.01σ and the dyad's
+ own window *gains* +0.31σ, so the nuclear physics helps and the baryon density carries the whole
  deficit. Because that same ω_b shift arrives with the H₀ result, deuterium and H₀ trade at
- **0.50σ per km/s/Mpc**. Full decomposition, the lever census, and the named missing state:
+ **0.59σ per km/s/Mpc**. Full decomposition, the lever census, and the named missing state:
  [PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md).
 
 - Y_p from the window alone is +1.09σ vs Aver 0.2453 ± 0.0034 (**+3.5σ** vs EMPRESS

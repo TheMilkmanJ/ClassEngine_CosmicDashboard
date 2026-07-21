@@ -25,17 +25,20 @@ import sys, os
 # eta-flow factor, independent of PRyM's absolute omega_b default.
 #
 #   usage: prym_ramped_splice.py <shift> [T_c_MeV] [omega_b_scale]
-#          T_c DEFAULTS to 0.179 MeV -- the DERIVED confining chiral value (tau*m_e), which is
-#          what the model actually derives. 0.193 is the perturbative Coleman-Weinberg
-#          cross-check (log-ambiguous) and must be passed explicitly if wanted; it is a
-#          cross-check, not the model's number, and the engine should not default to it.
+#          T_c DEFAULTS to 0.179 MeV -- the value the BOOKED BBN numbers were made at, verified
+#          2026-07-21 against Y_p (0.248996 vs booked 0.248995; the re-pinned 0.17710 gives
+#          0.248963, thirty times worse). The derived T_c has since been re-pinned to 177.10 keV;
+#          that supersession is priced in bbn_witness, and moving to it shifts D/H by ~0.07% --
+#          at the solver's own non-smoothness, so the default stays here to keep the booked
+#          numbers reproducible. 0.193 is the perturbative Coleman-Weinberg cross-check
+#          (log-ambiguous) and must be passed explicitly; it is not the model's number.
 # Output: RAMPED <shift> <eps%> <T_c_MeV> <Neff> <YPCMB> <YPBBN> <DoHx1e5> <He3oHx1e5> <Li7oHx1e10>
 _PRYM = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tools", "PRyMordial")
 os.chdir(_PRYM)
 sys.path.insert(0, _PRYM)
 
 shift  = float(sys.argv[1])          # 1 + eps
-Tc_MeV = float(sys.argv[2]) if len(sys.argv) > 2 else 0.179   # DERIVED confining chiral T_c
+Tc_MeV = float(sys.argv[2]) if len(sys.argv) > 2 else 0.179   # as-run T_c (see header)
 wb_scale = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0    # eta-flow: omega_b scaling
 
 import PRyM.PRyM_init as pri

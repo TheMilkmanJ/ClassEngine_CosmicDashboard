@@ -4202,39 +4202,45 @@ Batch 12 flagged the sampler's D/H exponent (−1.6) against the corpus's −1.8
 which is correct rather than report the fork, I measured it from the production code. **The sampler
 was right and the corpus was wrong.**
 
-**The −1.83 was never measured.** It came from dividing two booked, rounded D/H values across the
-1.1% ω_b step: log(2.372/2.420)/log(1.011) = −1.83. A fresh production run (numba on, T_c = 0.179)
-reproduces the booked triple only to ~0.2% — 2.420 → 2.4164, 2.372 → 2.3736, 2.387 → 2.3914 — and
-across a 1.1% baseline that noise is ~18% of the exponent. The two booked values were off in
-opposite directions; that is the whole of the −1.83. The same difference on true values gives −1.61.
+**The −1.83 was never measured.** It came from dividing two booked D/H values across the 1.1% ω_b
+step: log(2.372/2.420)/log(1.011) = −1.83. PRyM is bit-for-bit deterministic (verified by repeat
+runs) but its D/H is **not smooth** in ω_b at ~0.1%: wide-scan residuals are ~10⁻³, and a 0.071%
+ω_b step returns an apparent slope of −0.34 against the true −1.66. Across the 1.1% step that makes
+a differenced slope unstable at ±0.15. On freshly run values the same difference gives −1.61.
 
 **The measurement:** 6%-wide ω_b scan, fixed everything else, log-log fit. **−1.6582** at m_e = 1,
-**−1.6751** at the model's m_e, residuals ~5×10⁻⁴. Standing value **−1.66**; numba-off gives −1.64,
-so the numerics floor is ~1.5%. Tool: `scripts/prym_omega_b_elasticity.py` (carries the scan data;
-`--rerun` regenerates it).
+**−1.6751** at the model's m_e, residuals ~5×10⁻⁴. Standing value **−1.66**. Tool:
+`scripts/prym_omega_b_elasticity.py` (carries the scan; `--rerun` regenerates it).
 
-**Numba is not optional.** PRyM's `numba_flag` moves D/H by 0.1–0.2% — the same size as the booking
-noise. Production is numba on. `prym_ramped_splice.py` now falls back to pure numpy when the env's
-numpy is ahead of numba instead of failing outright, and the docstring marks that path a cross-check.
-An intermediate numba-off pass in this batch briefly mis-set `_DH_W` to 2.378; reverted to 2.372,
-which the numba-on run reproduces to 0.07%.
+**Configuration verified; nothing re-booked.** The booked triple was made at ε = 1.24%, T_c = 179
+keV — exactly what bbn_witness documents. Y_p is the clean discriminator, being far less exposed to
+the D/H non-smoothness: 0.248996 vs booked 0.248995 (**0.0004%**) at that config, against 0.248963
+(0.013%) at the re-pinned 177.10. D/H reproduces to 0.072%, the control to 0.15% — a few times the
+solver's resolution, not evidence of a booking error. **An intermediate numba-off pass in this batch
+mis-read those gaps as a 0.2% booking error and briefly re-booked the ΛCDM control 2.420 → 2.416
+and `_DH_W` 2.372 → 2.378. Both reverted; the determinism test is what settled it.**
 
-**Fixed:** the exponent in `PRTOE_deuterium_scar.md` §2, `PRTOE_bbn_witness.md`, and
+**numba is not optional.** PRyM's `numba_flag` moves D/H by 0.1–0.2%. Production is numba on.
+`prym_ramped_splice.py` now falls back to pure numpy when the env's numpy is ahead of numba instead
+of failing outright, with that path marked a cross-check rather than a production number.
+
+**Fixed:** the exponent in `PRTOE_deuterium_scar.md` §2, `PRTOE_bbn_witness.md` and
 `PRTOE_fairbank_note_draft.md` (−1.83 → −1.66; the derived "2.0% deuterium loss" → **1.8%**); the
-harness check that differenced the booked pair, replaced by one pinning the measured scan plus a
-new check on the 1.1%-step loss; `bbn_at_cmb_point.py`, which still carried the **retired ±0.056
-three-term width** (→ ±0.0476) and −1.6 (→ −1.6667); the splice's own header comment.
-`bbn_prior_consistency_audit.py` re-run on the measured exponent: the self-consistent variant now
-lands at ω_b +1.167%, H₀ 70.03, **−2.98σ** — the standing −2.94σ still survives reconciliation.
-
-**Left standing, deliberately.** The booked triple's ~0.2% reproduction gap: the ΛCDM control
-(2.420 vs 2.4164) and the model row (2.387 vs 2.3914) are the two that miss. Re-booking an
-advertised prediction off a rerun whose configuration was not verified against the original is a
-separate job, and it moves the headline σ by ~0.09. What *is* now booked is the rule that produced
-the error: **the decomposition rows are noise-limited at 0.2% and must not be differenced to get a
-slope.** Harness carries the reproduction values as a comment beside the triple.
+harness check that differenced the booked pair, replaced by one pinning the measured scan plus a new
+check on the 1.1%-step loss; `bbn_at_cmb_point.py`, which still carried the **retired ±0.056
+three-term width** (→ ±0.0476) and −1.6 (→ −1.6667); the splice header, which described the 0.179
+default without saying it is the as-run value the bookings depend on. **bbn_witness's decomposition
+(−0.85σ / 0.50σ per km/s/Mpc) never matched the triple it cites and is aligned to the harness's
+−1.01σ / 0.59σ.** `bbn_prior_consistency_audit.py` re-run on the measured exponent: the
+self-consistent variant lands at ω_b +1.167%, H₀ 70.03, **−2.98σ** — the standing −2.94σ survives.
 
 **The two batch-12 findings that survive unchanged:** the D/H width in the prior is the observational
 error alone (±0.030, not the settled ±0.0476), and the prior's pivot normalisation 2.53×10⁻⁵ is
-2.9% above production PRyM's 2.459×10⁻⁵ — the inter-code spread sitting inside the fit. Both belong
+~3% above production PRyM's ~2.46×10⁻⁵ — the inter-code spread sitting inside the fit. Both belong
 in new run configs; the existing chain yamls are records of completed runs and were not edited.
+
+**Owed, priced, not done:** bbn_witness prices the T_c 179 → 177.10 and ε 1.24 → 1.2543 supersessions
+at 0.002σ and 0.004σ on D/H. Measured here they are ~0.07% each, i.e. ~0.035σ — an order of
+magnitude larger than booked, though still negligible against the ±0.0476 width and at the solver's
+own non-smoothness. The conclusion ("a re-run is owed only if the joint becomes load-bearing") holds;
+the two prices should be restated when it is.

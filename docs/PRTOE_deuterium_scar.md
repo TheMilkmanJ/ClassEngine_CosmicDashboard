@@ -69,11 +69,6 @@ this file:
 | the dyad's BBN window, +0.645% | 2.387 | **+0.645%** | **+0.31σ** |
 | **net** | **2.387** | −1.36% | **−0.69σ** |
 
-*(These rows are booked values and reproduce against a fresh production run only to ~0.2% —
-2.420 → 2.4164, 2.372 → 2.3736, 2.387 → 2.3914. Their −1.98% therefore sits a little below the
-elasticity's 1.8%: over a 1.1% step, 0.2% of abundance noise is ~18% of a slope. Read the rows as
-the decomposition and the −1.66 above as the sensitivity; do not derive one from the other.)*
-
 **The dyad's own nuclear physics helps deuterium.** The ε(T) ramp switching on at T_c ≈ 179 keV
 raises D/H by 0.645%, moving it *toward* Cooke — worth +0.31σ. Grafted onto the ΛCDM control alone
 it would give D/H = 2.435, or −1.93σ, better than the control's −2.25σ.
@@ -93,10 +88,8 @@ larger than the window's help and in the opposite direction.
 
 *(Measured, not inferred: a 6%-wide ω_b scan through the production splice at fixed everything
 else, fitted in log-log, gives −1.658 at m_e = 1 and −1.675 at the model's m_e — a clean power law,
-residuals ~5×10⁻⁴, and near-independent of the window. `scripts/prym_omega_b_elasticity.py` carries
-the scan and the fit. The textbook −1.6 is right to 4%. The elasticity must not be taken by
-differencing the decomposition rows below: those reproduce only to ~0.2%, and across the 1.1% step
-that noise is amplified tenfold.)*
+residuals ~5×10⁻⁴, and near-independent of the window.
+`scripts/prym_omega_b_elasticity.py` carries the scan and the fit.)*
 
 ---
 

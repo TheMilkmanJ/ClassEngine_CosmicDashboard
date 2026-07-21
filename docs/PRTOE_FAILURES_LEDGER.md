@@ -2547,26 +2547,28 @@ measured. It was obtained by dividing two booked, rounded D/H values across the 
 
 > log(2.372 / 2.420) / log(1.011) = **−1.83**
 
-**Why that is unsound.** The booked decomposition triple reproduces against a fresh production run
-(numba on, T_c = 0.179) only to ~0.2%: 2.420 → 2.4164, 2.372 → 2.3736, 2.387 → 2.3914. Across a
-1.1% baseline, 0.2% of abundance noise is ~18% of the exponent. The two booked values happened to
-be off in opposite directions, and that — not any physics — is the whole of the −1.83. Redoing the
-identical difference with the true values gives **−1.61**.
+**Why that is unsound.** PRyM is bit-for-bit deterministic — repeat runs agree to every digit —
+but its D/H output is **not smooth** in ω_b at the ~0.1% level. The wide-scan log-log residuals are
+~10⁻³, and a 0.071% ω_b step returns an apparent slope of **−0.34** against the true −1.66. Across
+the 1.1% step, that non-smoothness alone makes a differenced slope unstable at **±0.15**. Redoing
+the identical difference on freshly run values gives **−1.61**. The −1.83 is that instability, not
+physics.
+
+**The configuration is verified, and the booked rows stand.** The triple was made at ε = 1.24%,
+T_c = 179 keV — exactly what `PRTOE_bbn_witness.md` documents. Y_p settles it, being far less
+sensitive to the solver's D/H non-smoothness: the windowed run reproduces Y_p to **0.0004%** at that
+config, against 0.013% at the re-pinned 177.10 keV. D/H then reproduces to 0.072% and the ΛCDM
+control to 0.15% — inside a few times the solver's own resolution. **No row is re-booked.**
 
 **The measurement.** A 6%-wide ω_b scan through the production splice at fixed everything else,
-fitted in log-log — a six-times longer lever arm, so the same numerics noise costs ~3% instead of
-~18%. Result: **−1.6582** at m_e = 1 and **−1.6751** at the model's m_e, residuals ~5×10⁻⁴, a clean
-power law and near-independent of the window. Standing value **−1.66**. A parallel numba-off scan
-gives −1.64, putting the numerics floor on the exponent at ~1.5%.
+fitted in log-log — a six-times longer lever arm, so the same non-smoothness costs ~3% instead of
+~18%. Result: **−1.6582** at m_e = 1 and **−1.6751** at the model's m_e, residuals ~5×10⁻⁴. Standing
+value **−1.66**.
 
 **Consequences.** A 1.1% baryon shift costs **1.8%** of deuterium, not 2.0%. The chains' BBN prior,
 which codes −1.6, is low by 4% — inside the numerics floor, so **the sampler was right on this axis
 and the corpus was wrong**. Re-weighting the posterior onto the measured exponent moves ω_b by
-−0.05 percentage points and the standing row by +0.04σ; nothing downstream turns on it. The harness
-check that differenced the two booked values is replaced by one that pins the measured scan
-(`scripts/prym_omega_b_elasticity.py`).
-
-**Left standing, flagged not re-booked:** the booked triple's own ~0.2% reproduction gap. The
-control (2.420 vs 2.4164) and the model row (2.387 vs 2.3914) are the two that miss. Re-booking a
-headline prediction off a rerun whose configuration was not verified against the original is a
-separate job; the decomposition rows are noise-limited at that level and should not be differenced.
+−0.05 percentage points and the standing row by +0.04σ. The harness check that differenced the two
+booked values is replaced by one pinning the measured scan
+(`scripts/prym_omega_b_elasticity.py`), and the standing rule is booked with it: **the decomposition
+rows must never be differenced to obtain a slope.**

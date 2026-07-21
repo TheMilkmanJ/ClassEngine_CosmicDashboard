@@ -9,24 +9,26 @@ values across the 1.1% omega_b step:
     log(2.372 / 2.420) / log(1.011) = -1.83
 
 Running the production splice at those two points (m_e = 1, T_c = 0.179, numba on) gives
-2.373576 and 2.416372. Redoing the same short-baseline difference with those true values gives
--1.61, not -1.83. An elasticity taken across a 1.1% baseline from values that reproduce only
-to ~0.2% is unstable at the +/-0.15 level; that instability, not any real physics, is where
--1.83 came from.
+2.373576 and 2.416372. Redoing the same short-baseline difference on those freshly run values
+gives -1.61, not -1.83.
 
-WHY THE DIFFERENCING IS UNSOUND. The three booked decomposition values reproduce only to
-~0.2% against a fresh production run (numba on, T_c = 0.179):
+WHY THE DIFFERENCING IS UNSOUND. PRyM is bit-for-bit DETERMINISTIC -- repeat runs agree to every
+digit -- but its D/H output is NOT SMOOTH in omega_b at the ~0.1% level:
 
-  booked 2.420 (LCDM control) -> 2.4164   0.15% off
-  booked 2.372 (+omega_b)     -> 2.3736   0.07% off
-  booked 2.387 (+the window)  -> 2.3914   0.18% off
+  wide-scan log-log fit residuals              ~1e-3
+  a 0.071% omega_b step (0.022517 -> 0.022533) returns an apparent slope of -0.34, not -1.66
 
-Across a 1.1% omega_b baseline, 0.2% of abundance noise is ~0.2/1.1 = 18% of the exponent.
-The booked pair happened to be off in opposite directions, which is the whole of -1.83:
-with the true values the same difference gives -1.61.
+Across a 1.1% baseline that non-smoothness alone puts +/-0.15 of scatter on a differenced slope.
+That, not any physics, is where -1.83 came from.
+
+THE CONFIGURATION IS VERIFIED AND THE BOOKED ROWS STAND. The triple was made at eps = 1.24% and
+T_c = 0.179 -- what bbn_witness documents. Y_p settles it, being far less exposed to the D/H
+non-smoothness: the windowed run reproduces Y_p to 0.0004% at that config, against 0.013% at the
+re-pinned 177.10 keV. D/H then reproduces to 0.072% and the LCDM control to 0.15%, inside a few
+times the solver's own resolution. Nothing is re-booked.
 
 WHAT THIS MEASURES. A wide (6%) omega_b scan at fixed everything-else, fitted in log-log --
-a 6x longer lever arm, so the same numerics noise costs ~3% instead of ~18%. Recorded results,
+a 6x longer lever arm, so the same non-smoothness costs ~3% instead of ~18%. Recorded results,
 `prym_ramped_splice.py <shift> 0.179 <wb_scale>`, PRyM pivot 0.02230, NUMBA ON:
 
   m_e = 1                      m_e = 1.012543 (the model's window)
@@ -46,7 +48,7 @@ the sampler's BBN prior, which codes -1.6, is fine on this axis. A parallel numb
 gives -1.64, so the numerics floor on the exponent is ~1.5%.
 
 NUMBA MATTERS. PRyM's numba_flag accelerates the PRyM_thermo integrals and shifts D/H at the
-~0.1-0.2% level -- the same size as the booking noise above. Production is numba ON. If the
+~0.1-0.2% level -- the same size as its non-smoothness in omega_b. Production is numba ON. If the
 env's numpy is ahead of numba, prym_ramped_splice.py now falls back to pure numpy rather than
 failing; results from that path are cross-checks, not production numbers.
 
@@ -70,7 +72,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 SPLICE = ROOT / "scripts" / "prym_ramped_splice.py"
 PIVOT = 0.02230          # PRyM's default Omegabh2
-TC = 0.179               # the derived confining chiral T_c
+TC = 0.179               # the as-run T_c the booked numbers were made at
 MODEL_OB = 0.022768      # the model's omega_b (chain posterior mean)
 
 RECORDED = {          # numba ON -- the production path
