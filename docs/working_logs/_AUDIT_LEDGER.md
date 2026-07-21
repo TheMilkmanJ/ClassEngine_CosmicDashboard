@@ -3953,3 +3953,42 @@ Flags for the owner (judgment calls, not edited):
 4. cosmological_constant carries several inline technical autopsies of retired routes (the √N
    lineshape "Γ₀ = 76 meV", the equipartition-½ reading, the shift-symmetry-zeros-it route) —
    substantive physics, with a "Where the dead ends live" section for the full history; leaning leave.
+
+## BATCH 7 re-audit (2026-07-21): READERS_GUIDE, READERS_RISK, DOMAIN_COVERAGE, INDEX, references — navigation/index docs
+
+Cross-reference integrity was the priority, and it holds:
+- **Every markdown link resolves** across all five files.
+- **Every INDEX plain-text file reference resolves** — including the ones that looked suspicious
+  (neutrino_home, s8_growth, quantum_trio, chaos_dynamics, no_singularities, sciences_inheritance,
+  classical_gravity all exist as PRTOE_*.md; both neutrino_home/neutrino_sector and s8_growth/s8_tension
+  exist, so listing both is fine).
+- **Every P-number resolves** to the registry. P-001/P-052/P-055 are the short forms of
+  P-2026-001/052/055 (which exist — P-052 "RETRACTED same day", P-055 "LSS parity", matching INDEX's
+  own descriptions); the ANN-numbers (011/021/025/026) all exist.
+
+**Fixes — READERS_RISK carried the superseded τ = 0.3503 as live in two places**, the same supersession
+fixed in batch 3. Verified against the registry (P-2026-048 registers 0.34657; ANN-2026-026: 0.34506 is
+the observation-inverted null; 0.3503 is fully superseded): line 60 "0.34657 crowns … and **0.3503**
+kills it" → **0.34506** kills it (the kill value); line 64 "centred above the model's **0.3503**" →
+the model's **0.34657** (the model's own predicted value). Also folded one inline grade label
+(READERS_RISK:17 "*Compound grade: …*" → plain prose). The other four files needed no edits.
+
+Numbers spot-checked against the harness (670/670, 0 fail): READERS_GUIDE's symbol table (ε, α_c, τ =
+0.34657, ζ, ξ = 402 AU / ξ_K = 256 Mpc, L ≥ 27.6 Gpc / χ_* = 13.76 Gpc); DOMAIN_COVERAGE's rows (H₀ ≈
+69.9, ΔlnZ = +2.635, the superradiance "free scalar" reading, ρ_Λ¼ +0.44%); READERS_RISK's stack
+(1.2543%, N_gen = 3, D/H −2.5…−1.4σ, ΔN_eff 0.06–0.24, z_on offset 28%). READERS_GUIDE correctly labels
+0.3503 as the superseded observation-inversion (the file that documents the supersession).
+
+Flags for the owner (judgment calls / notes, not edited):
+1. READERS_RISK:141 (item j) "P-2026-048 registers T_c/√σ = 0.3503 ± 0.02" — this uses the superseded
+   0.3503 as the entry's registered central, which is *consistent with ANN-2026-026's framing* (the
+   ±0.02 window [0.330, 0.370] with the refined 0.34657/0.34506 inside), so it is not internally wrong;
+   but a reader may take the present-tense "registers 0.3503" as the current central. Owner may want to
+   reword to "registered with ±0.02 tolerance, central since superseded to the kernel's 0.34657".
+2. READERS_GUIDE:75 gives the winding as "n ~ 10–30" in the symbol table, without the caveat
+   the_great_chain / docket #180 established (n ≳ 1.65 is the honest bound; 10–30 is a torus-size choice,
+   not a Kibble prediction, because L_gen is unpinned). A quick-reference glossary simplification.
+3. **BIBLIOGRAPHY note (per the coordinator's standing flag):** references.md — a superseded
+   verification record, correctly fenced by INDEX — *contains* the Baryakhtar entry (arXiv:2011.11646)
+   that BIBLIOGRAPHY.md lacks. So references.md is a source for at least one of the flagged-missing
+   central-bibliography entries. Adding them remains an owner content task.

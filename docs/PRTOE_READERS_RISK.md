@@ -14,7 +14,7 @@ everywhere atomic physics appears.
 
 ## 2. Strongest claims (graded honestly)
 - **ε = c·f̄·α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%**, against the sky's fitted ~1.24% — zero
-  dials. *Compound grade: two factors derived, one a registered bet — so the stack's effective grade
+  dials. *Two factors are derived, one is a registered bet — so the stack's effective grade
   is the bet's.* c = 9/10 is a **counting assumption the data confirms** — conditional on the
   ρ_Λ¼ = m_ν tie holding as a lock, and on an equal share per channel, which the framework does
   not force (the ε-blind ensemble lands at 0.903, −0.08σ, but at its width does not exclude the
@@ -57,11 +57,11 @@ everywhere atomic physics appears.
   hypothesis (the charged-lepton √m thermally populated, which is what Q = 2/3 asserts) and is
   candidate-grade. The same uncomputed lattice number decides it — and it is one job, not two, the
   non-perturbative treatment that measures τ being what the radiative band needs — T_c/√σ for an SU(2), N_f = 3
-  dark sector, where **0.34657 crowns the kernel and 0.3503 kills it**. **No lattice
+  dark sector, where **0.34657 crowns the kernel and 0.34506 kills it**. **No lattice
   determination of that theory exists** (literature sweep, 2026-07-17; an outward-facing
   specification note is approved for circulation — PRTOE_lattice_note.md); the best inference bracket
   from measured neighbours (SU(2) N_f = 2: 0.483(23) deconfinement, 0.36–0.48 chiral; SU(3)
-  N_f-dependence) is **≈ 0.39 ± 0.05, centred above the model's 0.3503** — the model's value sits at
+  N_f-dependence) is **≈ 0.39 ± 0.05, centred above the model's 0.34657** — the model's value sits at
   the bottom edge, needing both the chiral (not deconfinement) transition and near-maximal
   suppression. One SU(2)-specific fact helps: the chiral and deconfining transitions decouple in
   SU(2), so the chiral T_c can legitimately sit below the Polyakov number.
