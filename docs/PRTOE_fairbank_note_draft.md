@@ -37,7 +37,7 @@ but **the upper limit descending through it**. The model's defence is that those
 ΛCDM-conditional and the squeeze relaxes under this model's recombination physics (next section) —
 which is a testable claim rather than an escape, and the fastest way to grade this whole sector.
 
-**Which half of this is distinctive, stated before you ask.** The sum is not. Σm_ν = 61.4 meV sits
+Which half of this is distinctive? The sum is not. Σm_ν = 61.4 meV sits
 only **2.6 meV above the minimum that normal ordering allows** (58.8 meV, at m₁ = 0), and planned
 cosmological resolution is ~20 meV — so no experiment now planned can separate this model's sum from
 the minimal-ordering case that every squeezed model lands on. Quoting Σm_ν as a success would be
@@ -50,7 +50,7 @@ ordering puts the entire window below nEXO's best reach, while this model puts a
 above.** That is the difference your program can actually see, and it is this sector's only claim
 that earns the word distinctive.
 
-**Provenance, including the part that counts against us.** The prediction was registered before the
+On provenance, including the part that counts against us — the prediction was registered before the
 deciding data (2026-07-07, git-timestamped). But the mechanism now offered for *why* the model picks
 this branch — the tenth-channel mass relation — was worked out after DESI's preference for a low sum
 was known, and our own registry carries it under a post-hoc flag for exactly that reason. It earns
@@ -112,12 +112,12 @@ nEXO is the only one of the three that can touch this model, and only if the ¹�
 falls at the favourable end. Taking the Majorana phases flat — the usual convention, and a choice
 rather than a result — the model exceeds 4.7 meV about **10.8%** of the time.
 
-**And the part that concerns your own work directly.** If barium tagging reaches the factor-of-four
+The part that concerns your own work directly: if barium tagging reaches the factor-of-four
 half-life gain your group has projected, the reach improves by √4 = 2 in m_ββ, from 4.7 to roughly
 **2.35 meV**. On this model that moves the probability of a signal from 10.8% to **69%** — more
 than a six-fold improvement, and the difference between a long shot and a likely detection.
 
-**But it costs discrimination, and you would spot that immediately, so here it is first.** Minimal
+But it costs discrimination. Minimal
 normal ordering — the m₁ = 0 case, the generic expectation — has its own window of [1.48, 3.69] meV
 and exceeds 2.35 meV **63.7%** of the time. Against this model's 69%, a tagged detection near 2.35
 separates almost nothing:
@@ -160,7 +160,7 @@ than cosmologically foreclosed.
 
 ## Status
 
-**Fits.** The model matches or modestly outperforms ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO +
+The model's fits match or modestly outperform ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO +
 Pantheon+SH0ES, at H₀ ≈ 69.9 — sound-horizon-driven, and holding with the SH0ES calibration
 included and pulling the other way. That figure is provisional: the chains that underwrite it are
 still being brought to convergence under a corrected sampler configuration, and the value may shift.
@@ -177,12 +177,12 @@ corresponds to a dark fluid mass about 28% from the one the rest of the model us
 configuration being graded is a point near the model rather than the model's stated one**, and its
 result will need reading in that light. We would rather tell you that than have it turn up later.
 
-**Validation.** Exact ΛCDM null test at five decimals, gauge invariance, precision-stability
+For validation: an exact ΛCDM null test at five decimals, gauge invariance, a precision-stability
 battery. The deepest structural claim, the medium's reality, is carried as an open assumption
 rather than asserted. Entry points for a technical reader: THREE_EQUATIONS, DEPENDENCY_TREE,
 PREREGISTERED_PREDICTIONS (50+ numbered bets), FAILURES_LEDGER.
 
-**Context.** Vacuum condensates setting matter's parameters is not exotic — roughly 99% of ordinary
+For context: vacuum condensates setting matter's parameters is not exotic — roughly 99% of ordinary
 mass is QCD-condensate binding. This model adds one more condensate and asks whether it reads into
 the remaining Yukawa percent at the 10⁻² level during one epoch.
 
@@ -253,7 +253,7 @@ accidental ones.
 
 ## Two smaller items
 
-**Where the lightest mass actually comes from.** Oscillations fix the two splittings but not the
+Where the lightest mass comes from: oscillations fix the two splittings but not the
 absolute floor, and in this model that floor is not fitted — it is medium-sourced. The lightest
 neutrino mass reads m₁ = κ_m·ρ_inf¼ with κ_m ≈ 1: the dark-energy scale does not happen to coincide
 with the lightest neutrino mass, it **sets** it. Σm_ν = 61.4 meV then follows from that floor plus
@@ -272,7 +272,7 @@ expectation value rather than by the rolling dark-energy field, so the rolling d
 neutrino mass. A reader discounting this claim should discount it at the first two points, and
 nowhere else.
 
-**A framing you may enjoy.** In this model's internal language, 0νββ decides whether lepton number
+A framing you may enjoy: in this model's internal language, 0νββ decides whether lepton number
 is a collateralized charge — like electric charge, with a field enforcing it — or an unenforced
 accounting identity, with Majorana neutrinos the mechanism by which such an identity defaults. Your
 detector is auditing whether L's debt has a bank.
