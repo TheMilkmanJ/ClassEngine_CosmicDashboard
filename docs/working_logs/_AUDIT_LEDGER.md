@@ -4075,3 +4075,37 @@ Flags for the owner (judgment calls, not edited):
    corridor fences). Inherent to a derivation-*status* tracker, and it routes the full kills to the
    failures ledger ("Killed approaches and retracted claims are recorded in [FAILURES_LEDGER], not
    here"); left as status-tracking content rather than swept.
+
+## BATCH 10 re-audit (2026-07-21): v5_five_verdict_derivation (current), v4_dCDF_derivation + session_2026-07-10_findings (dated records) — no edits
+
+Harness green (670/670, 0 fail); **no edits this batch.**
+
+**v5_five_verdict_derivation** — current/load-bearing (carries the F4 certificate and the V4 mutual-
+exclusion theorem). Every number reproduces, and the harness confirms the V5 core: the Θ_loc caustic
+statistic is Beta(d/2,d/2)-distributed (mean exactly ½; 3D pointwise variance 1/16 = 0.0625; the
+Berry–Dennis vortex density 1/4π = 0.0796; the 0.496/0.459 "spread" correctly re-graded a
+finite-developedness artefact). M_eff = M₂²/m̄₂ (M₂ = 9.4 eV), the ν = (4πα/3)(M₂²/M_eff M_Pl)²
+mutual-exclusion (ν ≤ 10⁻⁸ in the allowed range), the DESI-drift/observable-cores exclusion, and the
+Step-A/E "M₂ is pinned" hinge all check. No inline "Grade:" tags. *(Note: INDEX lists this file under
+its archive/"v4–v5 era" section, which sits oddly against the coordinator's "current and load-bearing"
+— the F4/mutual-exclusion content is clearly load-bearing; the placement is the owner's to reconcile.)*
+
+**FLAG — F4's collisionless claim is stated more absolutely than the corpus supports (flag only, per
+the coordinator).** F4 (v5:59-62) reads: "the medium is collisionless and never thermalizes; no second
+sound, no counterflow degree of freedom." But (i) the **velocity ladder** (DERIVATION_HUNT §1,
+MATH_SPINE) treats the **second sound (√α·c)** as the medium's real *entropy wave* — a thermodynamic
+mode; (ii) white_holes Add. 2 and cosmological_constant's thermal door invoke **"the fountain effect"
+as "thermal counterflow"**; (iii) granule_scoping carries **ψ/χ counterflow**; and (iv) the
+non-thermalization / kubo-settling analyses treat the medium as *thermalizing* in specific couplings.
+F4 is likely scoped to the late-time halo two-fluid sector (coherent condensate + normal excitations
+coupling only through gravity), which is coherent — but F4 states it as a general property of "the
+medium," so the absolute "collisionless / no second sound / no counterflow" reads broader than the
+corpus's own passages. Not edited.
+
+**v4_dCDF_derivation** and **session_2026-07-10_findings** — both carry 2026-07-19 PROVENANCE NOTES
+(v4: "the v4 era, superseded by v5+/the dyad era; the general P(X) derivation remains correct"; session:
+"dated session record; statuses as-of 2026-07-10 … have all moved since"). Treated with the dated-record
+rule: cross-refs all resolve, no stale value presented as live (no 0.3503 / no live 179 keV / no "Grade:"
+tags), and their era-values (the two-parameter β family retired in v5; v~100 keV dyad onset; T_c = 193 keV
+pharmacy; the 12–17% odds; the Gemini-era build notes) are correctly framed as historical. No objective
+errors; historical language and era-status left intact.
