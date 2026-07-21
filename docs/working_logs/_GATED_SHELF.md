@@ -61,6 +61,12 @@ Distinct from section 3, because nothing external is being waited on — the cod
 **This is the longest section, and that is the point of the page.** Nothing below waits on a run, a
 measurement, a ruling or a facility. Each waits only on someone doing it.
 
+> **Reverse-audit correction (2026-07-21):** four items below closed in the files *after* this page
+> was written and are stale here — **#141** (vertex integral, c = 0.789262), **#133** (the rung is
+> fixed by the κ-cancellation), **#134** (F_dark/√σ = 0.40–0.47, "Docket #134 closes"), **#175** (the
+> RECFAST-class thermal-history run made and booked). The remaining items are genuinely open, and the
+> task list was over-marking **#101, #102, #121, #123, #154, #180** as complete — those are re-opened.
+
 - **#141 — the vertex correction.** One coefficient from one well-posed integral. It dominates the
   anchor's 1–8 TeV band and blocks **#124**. Attempted twice, retracted twice, both times as an
   *argument* rather than an integral and both times pointing the favourable way
