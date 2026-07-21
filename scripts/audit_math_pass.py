@@ -1800,6 +1800,17 @@ _thmin = min(math.cos(2/9 + 2*math.pi*k/3) for k in range(3))
 chk("koide_triple_point_node", "A=sqrt2 is ~96% of positivity wall A_max", 0.960,
     math.sqrt(2) / (-1/_thmin), 5e-3)
 
+# ---- expansion-energy ledger (friedmann_from_medium.py) -----------------------
+# Friedmann as +kinetic/-binding = 0 (flat), and continuity = first law dU = -p dV.
+chk("friedmann_from_medium", "continuity exp -3(1+w): radiation w=1/3 -> a^-4",
+    -4.0, -3*(1+1.0/3.0), 1e-9)
+chk("friedmann_from_medium", "continuity exp: matter w=0 -> a^-3", -3.0, -3*(1+0.0), 1e-9)
+chk("friedmann_from_medium", "continuity exp: DE w=-1 -> a^0", 0.0, -3*(1+(-1.0)), 1e-9)
+_Gn, _rho_c, _rr = 6.674e-11, 8.5e-27, 3.0e25
+_Hf = math.sqrt(8*math.pi*_Gn/3*_rho_c)          # Friedmann H
+chk("friedmann_from_medium", "flat universe: kinetic + binding = 0 at Friedmann H", 0.0,
+    (0.5*_Hf**2*_rr**2 - (4.0/3.0)*math.pi*_Gn*_rho_c*_rr**2)/(0.5*_Hf**2*_rr**2), 1e-12)
+
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]
 print(f"MATH AUDIT — {len(R)} closed-form checks, {len(R)-len(bad)} pass, {len(bad)} fail\n")
