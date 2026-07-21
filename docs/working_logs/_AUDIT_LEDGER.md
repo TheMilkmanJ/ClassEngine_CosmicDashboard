@@ -4109,3 +4109,33 @@ rule: cross-refs all resolve, no stale value presented as live (no 0.3503 / no l
 tags), and their era-values (the two-parameter β family retired in v5; v~100 keV dyad onset; T_c = 193 keV
 pharmacy; the 12–17% odds; the Gemini-era build notes) are correctly framed as historical. No objective
 errors; historical language and era-status left intact.
+
+## BATCH 11 re-audit (2026-07-21): INTERACTION_ATLAS (1275 lines) — CLEAN, no edits
+
+The atlas is a mapping/index doc; audited for internal consistency, cross-reference integrity, and the
+supersession/stacks. Harness green (670/670, 0 fail). **No edits** — no objective errors found.
+
+- **Cross-reference integrity — all resolve.** Every markdown link, every P-2026-NNN (all resolve in
+  the registry), and every ANN-number (005/006/007/012/017/021/025) referenced resolves. The
+  birefringence enumeration ("eight angles" + the four-route solution hunt a–d) matches CMB_map's
+  cross-reference to this file.
+- **Harness — all 9 INTERACTION_ATLAS checks pass**: M₂ = α²·T_c = 9.43 eV at T_c = 177.10 keV; the
+  superradiance α_g band (0.10 / 0.50 / 1.09 at 6×10⁸ / 3×10⁹ / 6.5×10⁹ M☉); the retired-shield α_g;
+  the 0.69-decade M87* margin; f_eff = 5.01×10¹⁶ GeV; the 2.70-decade N_eq shift; the graveyard census
+  = 7+4+3 = 14.
+- **Numbers internally consistent and matching the domain files**: the DE stack (ρ_∞¼ = 2.2599 meV,
+  +0.44%, existence-claim framing; M₂ = 9.43 eV at the **kernel-sourced 177.10 keV** — no 0.3503 / no
+  live 179 keV); the superradiance live-exposure section (the 83–86-decade quench, λ = 2×10⁻⁹¹, the
+  free-scalar consequence — matches smbh_atoms and the 07-20 finding); B_seed ≈ 5×10⁻¹⁸ G at
+  ω_vort ~ 0.5 H(rec) (P-2026-028); the whisper/P-2026-004 collision (61.4 meV, ANN-2026-021); and the
+  calibration entries (Hulse–Taylor 0.9983, Casimir 13 Pa at 100 nm, Larmor 42.577 MHz/T, Landauer
+  17.9 meV, Hawking/Unruh/GH temperatures, φ/E8 2cos36°, MICROSCOPE (−1.5±2.7)×10⁻¹⁵).
+- **Structured labels left intact** per the coordinator: the atlas's "GRADE:" / verdict-class tags
+  (IDENTITY/CALIBRATION/CONSISTENCY-CONSTRUCTION/etc.) are the doc's format, not stripped.
+
+Flag for the owner (minor, not edited):
+- Graveyard R1 entry, line 307: "m_e(rec)/m_e(lab) = **1.0101** = the dyad's amendment, from the other
+  side." 1.0101 = 1/0.99 (a round **−1%** suppression), but the standing dyad amendment is **+1.2543%**
+  → 1.0125. The entry's own "1%" is explicitly an approximate measured input, so this is loose rather
+  than wrong; reconciling would mean either updating R1's "1%" to 1.2543% throughout the entry or
+  softening "= the dyad's amendment" to "≈". A graveyard/exhumation-context judgment call.
