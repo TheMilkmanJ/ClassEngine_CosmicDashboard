@@ -194,8 +194,9 @@ order unity and remain unobservable at every horizon: the carrier is absent
 ([PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md)). A formal prediction with no
 detection channel.
 
-*Fence: the "gravity reverses and attaches to light" mechanic is exploratory — the recorded
-snap is a neutral handover rather than a rule inversion, and census blindness holds at genesis.*
+The recorded snap is a neutral handover, not a rule inversion, and census blindness holds at
+genesis — so gravity does not attach to light there. Whether a "gravity reverses and attaches to
+light" mechanic could operate at the snap at all stays exploratory.
 
 The fingerprint's amplitude is priced in three
 channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
