@@ -195,8 +195,10 @@ order unity and remain unobservable at every horizon: the carrier is absent
 detection channel.
 
 The recorded snap is a neutral handover, not a rule inversion, and census blindness holds at
-genesis — so gravity does not attach to light there. Whether a "gravity reverses and attaches to
-light" mechanic could operate at the snap at all stays exploratory.
+genesis — so gravity does not attach to light there. Nor could a "gravity reverses and attaches to light" mechanic operate at the snap: the
+birefringence coefficient is zero by selection rule, and 't Hooft anomaly matching holds it at
+zero across the transition — a snap cannot move the coupling from the gravity slot to the EM slot —
+so even a full rule-reversal has no ink to rotate light with.
 
 The fingerprint's amplitude is priced in three
 channels priced against literature benchmarks. (A) Chiral-GW TB/EB ∝ r × chirality: even
