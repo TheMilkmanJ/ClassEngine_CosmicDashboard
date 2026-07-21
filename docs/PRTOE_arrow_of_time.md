@@ -88,7 +88,7 @@ chain's time, and geometrically under 4%. The one standard repair is anthropic �
 structure, structure needs low entropy — which §3 below explicitly rejects as a non-answer, and the
 file cannot both reject it and rely on it.
 
-**Grade: the first beginning, derived by uniqueness; our beginning, open.** Naming the gap costs
+**The first beginning is derived by uniqueness; our beginning is open.** Naming the gap costs
 the file nothing it had actually earned, and the uniqueness theorem stands undiminished for the
 question it does answer.
 

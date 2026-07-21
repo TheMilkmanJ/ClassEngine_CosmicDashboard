@@ -43,7 +43,7 @@ that is the balance point where the fluctuation (the −k_down face) equals the 
 w = (K−V)/(K+V), the kinetic/potential ratio is K/V = (1+w)/(1−w). If the fluctuation carries
 the field's kinetic energy (K ∼ R²) and the background its potential (V ∼ M²), then
 A² = R²/M² = (1+w)/(1−w), and w = 1/3 gives A² = 2, **A = √2**. That conditional chain is
-algebraically clean. What is **not** automatic — walked and retired 2026-07-17 — is the claim
+algebraically clean. What is **not** automatic is the claim
 that a pre-basin excitation "sits *in* a medium whose EoS is w = 1/3, so its K/V is fixed by the
 medium." **Medium w and field w are different objects.** A separate scalar in a radiation
 background has its own dynamics: overdamped and frozen (K ≈ 0, w_field ≈ −1) when m ≪ H;

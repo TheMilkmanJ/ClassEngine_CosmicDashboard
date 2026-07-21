@@ -230,7 +230,7 @@ velocity field. The build that would is **#150 / B1, the genesis solver** — th
 **So the dependency runs #158 → #150, not #158 → #154**, and #154 need not wait on this.
 
 **A downstream registration this leaves overstated.** P-2026-057's link table
-([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md):3092) carries link E —
+([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md):3154) carries link E —
 *"sign(helicity_B) = sign(n)"* — as **recorded (P-2026-028)**, and composes it with link D to reach
 *"every sign question in both sectors funnels through sign(μ·n)."* That composition inherits the
 unpaid condition above without carrying it: on the locked-circulation branch the sky's handedness is

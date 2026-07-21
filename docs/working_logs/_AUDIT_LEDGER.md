@@ -3738,3 +3738,44 @@ Flags for the owner (judgment calls, not edited):
 6. Out-of-batch: BIBLIOGRAPHY.md lacks central entries for Schöneberg 2026 (2607.13282), Poulin 2019
    (1811.04083), Hill 2020 (2003.07355) and Baryakhtar (2011.11646), cited in hubble/smbh; the files
    carry full arXiv IDs inline, so no reader is stranded (Toda–Seto and Lee–Zhou are present).
+
+## BATCH 2 re-audit (2026-07-21): CMB_map, arrow_of_time, cosmic_magnetism, igmf_helicity, koide_relation
+
+Whole-file pass over the five (first deep-audited 2026-07-19, several with 07-20 additions). Numbers
+re-verified against the harness (670/670, 0 fail): the whole Koide kernel chain (Q = 0.6666605,
+τ = ½ln2 = 0.34657, T_c = 177.10 keV, ρ_Λ¼ = 2.2599 meV = +0.44%, |f₁/f₀| = 1/√2, θ = 2/9, E[Q] = ½,
+Var[Q] = 1/60, the π/(2√3) density and 1.1×10⁻⁵ odds); cosmic_magnetism B_seed = 5×10⁻¹⁸ G and the
+k² > 0 sign cancellation; CMB_map Π = 8.68×10⁻⁸ inside the quoted 10⁻⁷–10⁻⁸ band. The 07-20
+relative-sign settlement is correctly propagated — cosmic_magnetism §4 and igmf's dated sections both
+read "helicity sign relative to the winding, absolute handedness forbidden by symmetry, product has no
+instrument." Cross-refs spot-checked: cyclic_torus_genesis:3-9/:62-63/:72 and CODE_MANIFEST:74 (B1,
+THE GENESIS SOLVER) all resolve.
+
+Fixes (three, prose/refs only, no number touched): arrow_of_time — the "Grade:" tag folded into prose.
+koide_relation — the dated scar "walked and retired 2026-07-17" dropped (the §2 ledger pointer already
+carries the provenance). igmf_helicity — a stale registry line reference **:3092 → :3154**, the actual
+line of P-2026-057's link E row ("sign(helicity_B) = sign(n)"); :3092 pointed at an unrelated
+apparent-w line.
+
+Flags for the owner (judgment calls / out of batch):
+1. **OUT OF BATCH — the superseded τ "0.3503".** koide_relation and READERS_GUIDE use the corrected
+   sky-inversion value 0.34506 (documented as "0.3503 … inverted and rounded", superseded), but the
+   old 0.3503 still stands as the lattice-kill value in THREE_EQUATIONS:27, DEPENDENCY_TREE:50 & :76,
+   and REFEREE_CALENDAR:107 — the last of which also carries 0.34506 for the same object, so it is
+   internally inconsistent. Value substitution 0.3503 → 0.34506 in four out-of-batch files.
+2. **igmf_helicity's #N in prose (#150/#154/#158, seven refs in the 07-20 sections).** A plain-prose
+   #N-in-prose target, but these are cross-corpus docket-graph refs (_DOCKET_INDEX plus honest_status,
+   dcdf_superfluid, PREREGISTERED, FAILURES_LEDGER, _GATED_SHELF, _RESIDUAL_DEBT_CENSUS). ForJustin/08
+   records that stripping #N once broke a consistent reference and was reverted — so NOT stripped here;
+   a content-name pass would have to preserve or update the docket index. Owner call.
+3. **arrow_of_time §4 "What is owed" list starts at (ii)/(iii), no (i).** The original (i) (the entropy
+   functional) was promoted to the "supplied" bullet above; either deliberate (i-paid) or stale
+   numbering. No file keys off the labels externally, so renumber-to-(i)/(ii) is safe if intended.
+4. koide_relation line 92 "(the Z4-torus reading is retired — ledger)" — a terser retirement-pointer
+   than the dated scar just fixed; borderline whether to strip (it doubles as navigation).
+5. koide_relation line 152 attributes "+0.91σ" to all three m_τ predictions; the harness books the
+   θ_B lock at 0.888σ (closure ≈ 0.896σ). "All three ≈ +0.9σ" is honest; +0.91σ is exact only for the
+   Q = 2/3 prediction. Rounding, not an error.
+6. cosmic_magnetism §4 heading "The signature no one else can write down: THE SIGN" — borderline
+   check-9a, but the lead is the derived *relative* sign (sign(helicity_B) = sign(H_kin)) with the
+   honest caveats immediately below; lean acceptable, noted for the owner.
