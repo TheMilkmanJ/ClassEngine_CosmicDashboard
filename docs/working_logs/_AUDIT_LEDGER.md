@@ -4239,8 +4239,23 @@ error alone (±0.030, not the settled ±0.0476), and the prior's pivot normalisa
 ~3% above production PRyM's ~2.46×10⁻⁵ — the inter-code spread sitting inside the fit. Both belong
 in new run configs; the existing chain yamls are records of completed runs and were not edited.
 
-**Owed, priced, not done:** bbn_witness prices the T_c 179 → 177.10 and ε 1.24 → 1.2543 supersessions
-at 0.002σ and 0.004σ on D/H. Measured here they are ~0.07% each, i.e. ~0.035σ — an order of
-magnitude larger than booked, though still negligible against the ±0.0476 width and at the solver's
-own non-smoothness. The conclusion ("a re-run is owed only if the joint becomes load-bearing") holds;
-the two prices should be restated when it is.
+**The supersession prices, re-derived — and my own claim retracted.** I first reported that
+bbn_witness's 0.002σ / 0.004σ prices for the T_c and ε supersessions were "an order of magnitude too
+small", on the strength of two single-pair differences reading 0.034σ and 0.038σ. **That was the
+same error this batch had just diagnosed** — both moves are ~0.007% effects on D/H, more than ten
+times below the solver's ~0.1% non-smoothness, so a differenced pair measures the solver. Retracted.
+
+Priced properly, by scanning each input wide enough for the response to clear the non-smoothness and
+fitting the slope (`scripts/prym_supersession_pricing.py`):
+
+| move | slope | price | booked |
+|---|---|---|---|
+| T_c 0.179 → 0.17710 MeV | +0.0898 ± 0.0328 D/H per MeV | **−0.0036σ ± 0.0013** | 0.002σ |
+| ε 1.24% → 1.2543% | +0.0118 ± 0.0015 D/H per % m_e | **+0.0035σ ± 0.0004** | 0.004σ |
+
+The ε price is reproduced almost exactly; the T_c price is confirmed at the same order. The two
+moves carry **opposite signs and near-equal magnitude**, so applying both together is **−0.00005σ, zero to within ±0.0014σ** (the error dominated by the T_c
+slope, which is a 36% measurement of a negligible number) — a fact neither the old estimate nor the corpus had.
+The re-run is not owed; it buys nothing. Both slopes and the net are pinned in the harness. The fit
+residuals independently re-measure the non-smoothness at 0.064% and 0.121% of D/H, matching the
+~0.1% found on the ω_b axis.

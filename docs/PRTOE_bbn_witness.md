@@ -10,10 +10,11 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
 
 - the ramp: ε(T) = ε·(1 − T/T_c), **T_c = 177.10 keV** — the kernel-sourced value, τ = ½ln2
  (193 keV is the perturbative μ=T fixed-point cross-check). The coded pipeline and the splice
- below ran at the earlier 179 keV and ε = 1.24%; both supersessions are priced, not assumed —
- the T_c move costs 0.002σ on D/H and the ε move 0.004σ, four hundred and a hundred times
- inside the budget respectively ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)). A re-run is
- owed only if the joint becomes load-bearing.
+ below ran at the earlier 179 keV and ε = 1.24%. Both supersessions are priced by measurement,
+ each from a wide scan through the production network rather than a pair of runs: the T_c move
+ costs **−0.0036σ ± 0.0013** on D/H and the ε move **+0.0035σ ± 0.0004**. They carry opposite
+ signs and near-equal magnitude, so applying both together is **−0.00005σ, zero to within ±0.0014σ** — and the re-run buys nothing
+ (`scripts/prym_supersession_pricing.py`, [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)).
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
  (~70 keV): ε_eff = 0.61ε; Li (~40 keV): 0.78ε
 - the abundances. **Two runs, two baselines — they are not interchangeable, and D/H must never be

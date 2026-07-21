@@ -313,6 +313,18 @@ chk("deuterium_scar", "H0 given back to reach LCDM parity", 1.17,
     (_sig(_DH_L)-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
 chk("deuterium_scar", "H0 given back to centre on Cooke", 4.96,
     (0-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
+# the two BBN supersessions, priced by wide scans through the production network
+# (scripts/prym_supersession_pricing.py). Both moves are ~0.007% effects on D/H, far below the
+# solver's ~0.1% non-smoothness, so they CANNOT be priced by differencing a single pair of runs.
+_TC_SLOPE, _EPS_SLOPE = 0.08981, 0.011764        # D/H per MeV of T_c; per % of m_e
+_dTC, _dEPS = 0.17710 - 0.179, 1.2543 - 1.24
+chk("deuterium_scar", "T_c supersession 179 -> 177.10 keV", -0.00358,
+    _TC_SLOPE*_dTC/_TOT, 1e-2, "sigma")
+chk("deuterium_scar", "eps supersession 1.24 -> 1.2543 percent", +0.00353,
+    _EPS_SLOPE*_dEPS/_TOT, 1e-2, "sigma")
+chk("deuterium_scar", "both supersessions together (they cancel)", -0.0000507,
+    (_TC_SLOPE*_dTC + _EPS_SLOPE*_dEPS)/_TOT, 2e-2, "sigma")
+
 # the below-T_c lever: right shape, wrong size
 _dD_all, _dY_all, _dD_bel, _dY_bel = 0.1350, 0.0131, 0.1160, 0.0041
 chk("deuterium_scar", "below-T_c efficiency ratio", 2.75,

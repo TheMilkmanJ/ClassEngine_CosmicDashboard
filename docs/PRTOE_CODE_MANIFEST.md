@@ -102,12 +102,21 @@ z_high = z(T_c = 179 keV) = 7.62×10⁸, the formula returns **0.6089 at the D b
 **The coded T_c and the chain's T_c, and why the difference does not propagate.** The pipeline and
 the offline BBN splice were computed at **T_c = 179 keV**; the dark-energy chain's T_c is the
 kernel-sourced **177.10 keV**, 1.07% lower. It is one temperature, not two, so the coded value is an
-approximation of the standing one. Priced: at 177.10 keV the ramp stamps read **0.6047** at the
-deuterium bottleneck and **0.7741** at lithium, against the coded 0.6089 and 0.7765 — a 0.69% shift
-on the D stamp, which moves the window's D/H contribution from +0.645% to +0.641% and the predicted
-D/H by **0.002σ** against a budget of ±0.047×10⁻⁵. The difference is four hundred times smaller than
-the measurement it feeds, so the coded value stands until the pipeline is rebuilt for another
-reason.
+approximation of the standing one. At 177.10 keV the ramp stamps read **0.6047** at the deuterium
+bottleneck and **0.7741** at lithium, against the coded 0.6089 and 0.7765 — a 0.69% shift on the D
+stamp.
+
+**Priced by measurement.** Scanning T_c over 0.150–0.210 MeV through the production splice and
+fitting the slope gives ∂(D/H)/∂T_c = **+0.0898 ± 0.0328** per MeV, so the 1.9 eV move costs
+**−0.0036σ ± 0.0013** against the ±0.0476 width. The ε move 1.24% → 1.2543%, priced the same way
+over 0–2.5%, costs **+0.0035σ ± 0.0004**. The two carry opposite signs and near-equal magnitude, so
+**applying both together is −0.00005σ, zero to within ±0.0014σ** — the residual uncertainty is dominated by the T_c slope, whose 36% error bar is itself far below anything that matters here. The coded
+values stand until the pipeline is rebuilt for another reason.
+
+The scan is the only sound way to price these. Both moves are ~0.007% effects on D/H, more than ten
+times below the solver's ~0.1% non-smoothness in its own inputs, so differencing a single pair of
+runs returns the solver rather than the step — it reports −0.034σ and +0.038σ, an order of magnitude
+too large in both cases. `scripts/prym_supersession_pricing.py` carries the scans and the fits.
 
 **`varying_z_high` is set in no config anywhere**, and the C default is 0, which makes the
 `if (varconst_z_high > 0.)` branch never fire: **f_high = 1 at every redshift.**
