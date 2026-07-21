@@ -27,8 +27,8 @@ transitive check), the model's TT tracks it to **mean 1.9%, max 2.9% over ℓ = 
 
 ## What this does and does not settle
 
-**The model's own derived stack lands the peaks.** The census A_s/n_s, the dcdf dark sector, and
-varying-mₑ — the model's own numbers — produce the acoustic peaks at the right places and heights.
+The census A_s/n_s, the dcdf dark sector, and varying-mₑ — the model's own numbers — produce the
+acoustic peaks at the right places and heights.
 And the full MCMC (which fits the cosmology + nuisance parameters) reaches ΔlnZ ≈ +2.6 over ΛCDM, so
 at best-fit it *fits* Planck; the ~2% here is the frozen fiducial stack, not the fitted point.
 
@@ -44,8 +44,6 @@ at best-fit it *fits* Planck; the ~2% here is the frozen fiducial stack, not the
 
 **Grade: baseline established — the model reproduces the CMB acoustic structure with its own derived
 stack; the residual to "from first principles" is precision + the two pieces above, not the peaks.**
-This is not the basement work; it progressed with none of the basement built, confirming the two
-long poles are independent.
 
 ## Sources
 
