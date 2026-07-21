@@ -4139,3 +4139,58 @@ Flag for the owner (minor, not edited):
   → 1.0125. The entry's own "1%" is explicitly an approximate measured input, so this is loose rather
   than wrong; reconciling would mean either updating R1's "1%" to 1.2543% throughout the entry or
   softening "= the dyad's amendment" to "≈". A graveyard/exhumation-context judgment call.
+
+## BATCH 12 (2026-07-21): the sampler's BBN prior vs the corpus's BBN physics
+
+Prompted by the question of whether anything legal breaks the m_e–ω_b degeneracy without
+surrendering H₀. Tool: `scripts/bbn_prior_consistency_audit.py` (importance-reweights the
+`dyad_mnu_mcmc` posterior under corrected deuterium laws; ESS reported per variant).
+
+**Three mismatches found between the chains' BBN prior and the corpus's own stated physics.**
+Every PRTOE chain input carries the prior; `cmp_lcdm.input.yaml` carries none.
+
+1. **The exponent is wrong by the corpus's own authority.** The prior codes
+   D/H ∝ ω_b^−1.6. `PRTOE_deuterium_scar.md:86` and `PRTOE_bbn_witness.md:20` both name
+   **−1.83** as the production-run value and call −1.6 a rule of thumb that "understates the
+   sensitivity by 14%". The sampler under-penalises high ω_b.
+2. **The D/H width is the observational error alone (±0.030).** The standing width settled
+   by #157 is ±0.0476 (obs ⊕ PRIMAT post-LUNA theory). The sampler over-constrains ω_b.
+3. **The normalisation is not the production code's.** The prior assumes 2.53×10⁻⁵ at the
+   pivot; undoing the ω_b and m_e legs puts production PRyM at **2.455×10⁻⁵** — a 3.0% offset.
+   The PRyM/PArthENoPE inter-code spread the corpus names as *unfolded* is in fact sitting
+   **inside the fit**. At the as-run posterior the prior believes D/H = 2.470 where production
+   reports 2.387.
+
+**The corrections very nearly cancel, and the standing row survives.** Reweighting:
+
+| variant | ω_b vs ΛCDM | H₀ | D/H | σ | ESS |
+|---|---|---|---|---|---|
+| as-run (−1.60, ±0.030) | +1.114% | 69.98 | 2.387 | −2.94 | 8408 |
+| corpus exponent −1.83 | +0.950% | 69.83 | 2.394 | −2.79 | 7569 |
+| settled width ±0.0476 | +1.475% | 70.27 | 2.371 | −3.27 | 4152 |
+| both | +1.373% | 70.19 | 2.376 | −3.18 | 5778 |
+| **all three (self-consistent)** | **+1.057%** | **69.92** | **2.389** | **−2.89** | 8169 |
+| D/H term removed | +1.780% | 70.48 | 2.358 | −3.54 | 1073 |
+
+Reconciling all three moves the row **−2.94σ → −2.89σ** and H₀ by 0.06 km/s/Mpc. **The standing
+−2.94σ is not an artefact of a misconfigured prior.** The individual errors are real and want
+fixing in future run configs, but they pull against each other: the too-shallow exponent and the
+PArthENoPE-high normalisation both under-penalise ω_b, while the too-tight width over-penalises it.
+*(The chain yamls are records of completed runs and were NOT edited; the fix belongs in new configs.)*
+
+**The degeneracy question, answered.** Deuterium is already pulling ω_b down as hard as it can:
+with the D/H term removed the CMB+BAO+SNe want ω_b at **+1.78%** and H₀ = **70.48**, against
++1.11% and 69.98 with it in *(that row's ESS = 1073 — indicative, not quotable)*. The trade rate,
+computed independently from the posterior covariance rather than from a reweight, is
+**0.444σ of D/H per km/s/Mpc** — confirming the corpus's quoted 0.50σ/(km/s/Mpc) as slightly
+conservative.
+
+**Y_p is confirmed dead as an ω_b lever** (it was the one remaining candidate for breaking the
+degeneracy from inside BBN): ∂Y_p/∂ln ω_b = 0.0096, so a 1% ω_b move shifts Y_p by 9.6×10⁻⁵ =
+**0.024σ**. Y_p carries no ω_b information at Aver's precision. Its posterior value 0.24940
+(+1.12σ vs Aver) reproduces the corpus's +1.09σ.
+
+**Verdict: no legal lever breaks the m_e–ω_b ridge from inside the current fit.** ω_b is set by
+the CMB damping physics, which moves with m_e; the only thing pulling back is deuterium itself,
+already at its limit. The one genuinely open direction remains the 3% inter-code spread — and this
+audit shows it is not merely an external caveat but an internal pipeline inconsistency.
