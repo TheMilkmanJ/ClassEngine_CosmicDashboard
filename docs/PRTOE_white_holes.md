@@ -1,17 +1,13 @@
 # PRTOE and White Holes — the One That Ever Existed (2026-07-12)
 
-*White holes graded in the model's own grammar. Impossibility claims are claims: each is
-labeled with its grade, cites the record it inherits (nothing here is claimed as novel
-where the literature owns it), and names its killer. Statuses: [GRAMMAR] = the model's
-native re-derivation of a known result; [STRUCTURAL] = the model upgrades a
-statistical/record argument to a mechanism; [PRICED] = quantitative, reusing a recorded
-computed number (estimate-grade, not MCMC-verified); [EXPLORATORY] = grammar-consistent,
-uncomputed. Companion:* [*PRTOE_wormholes.md*](PRTOE_wormholes.md) *(the throat, the warp
+*White holes in the model's own grammar. Impossibility claims are claims: each cites the
+record it inherits (nothing here is claimed as novel where the literature owns it), and
+names its killer. Companion:* [*PRTOE_wormholes.md*](PRTOE_wormholes.md) *(the throat, the warp
 bubble, the CTC). Sources in* [*BIBLIOGRAPHY.md*](BIBLIOGRAPHY.md) *§11.*
 
 ---
 
-## 1\. Local white holes — FORBIDDEN BY THE ARROW [STRUCTURAL]
+## 1\. Local white holes — FORBIDDEN BY THE ARROW
 
 The record: white holes are the time-reverse solutions of black holes, classically
 unstable [Eardley1974] and thermodynamically suppressed (a statistical argument).
@@ -23,7 +19,7 @@ one sign, everywhere. A local white hole requires a patch where processes run ti
 sets the arrow direction globally. No such patch exists: **the medium has no
 reverse gear.** Processes run forward or not at all.
 
-## 2\. THE ONLY TIME A WHITE HOLE HAS — AND EVER WILL — EXIST [GRAMMAR + EXPLORATORY]
+## 2\. THE ONLY TIME A WHITE HOLE HAS — AND EVER WILL — EXIST
 
 Black holes switching to white holes at the mirror of the crunch.
 The record already runs this program — the black-to-white hole transition
@@ -44,10 +40,9 @@ one.*
 The execution REQUIRES an outside. The snap has none: a white hole that is the entire
 universe for one instant is the unique white hole the instability theorem cannot touch.
 Every local white hole has an exterior and dies; the global one exists for exactly the
-neutral instant, then hands over. **Its brevity is not a concession — it is the
-evasion.** [STRUCTURAL]
+neutral instant, then hands over.
 
-**A counterparty is not only forbidden — it is unneeded [computed].** The evasion is
+**A counterparty is not only forbidden — it is unneeded.** The evasion is
 structural, but it is also energetic. The snap is a **zero-net-energy event**: at the burst scale
 T ≈ m_e the mass within a Hubble volume sits at its own Schwarzschild radius (R_H = R_s exactly for a
 flat universe), so the expansion energy and the gravitational binding cancel to machine precision —
@@ -58,7 +53,7 @@ counterparty is not merely forbidden by the arrow, it has no energy budget to fi
 the finite heat the pour deposits, not settled: the binding energy released as the leptophilic field
 seats into the cold dark superfluid with nowhere to sink, accumulating until the parity-odd order
 melts above T_c and pours — the low beginning at the electron mass. The bounce dynamics that turn the
-burst around, and the total magnitude, remain open, the latter gated on L_gen.)* [CANDIDATE]
+burst around, and the total magnitude, remain open, the latter gated on L_gen.)*
 
 **The visible pour:** the snap's output is the hot start — the radiation-dominated
 fireball (BBN, the nuclei-cooking window, follows minutes later; the labels are distinct
@@ -70,7 +65,7 @@ no outside to stand in. The observer never looks AT the pour; the observer is in
 out dark matter converted to matter was flagged as "a huge reach," and the model's
 own accounting agrees quantitatively — the only DM↔matter door is the transfer vertex,
 computed COLD (seesaw-class junction, y \~ 10⁻⁶; bias ratio \~10⁻¹⁴). Unneeded anyway: the
-snap pours the medium itself, and the draw sets the new books. [PRICED]
+snap pours the medium itself, and the draw sets the new books.
 
 ## 3\. THE COUNTERPARTY RULE 
 
@@ -98,8 +93,7 @@ grammar for three known facts, not a new mechanism. Cross-reference: the selecti
 * White holes are named by escape-direction, not light color — that the actual pour was
 white-hot is a naming coincidence, filed as one.
 * "Time is neutral at the snap" is grammar-consistent (the arrow direction's handover
-must sit between crunch and pour) but bounce dynamics are UNCOMPUTED — [EXPLORATORY],
-not derived.
+must sit between crunch and pour) but bounce dynamics are UNCOMPUTED, not derived.
 * **The killer:** a confirmed **local** white-hole transient — e.g., the black-to-white
 remnant signatures proposed for fast radio bursts / dark-matter remnants
 [RovelliVidotto2018] — would falsify the global-arrow law of §1 outright, and with it
@@ -115,7 +109,7 @@ entries in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.
 
 ---
 
-## Addendum — WHY GR PREDICTS WHITE HOLES AT ALL [GRAMMAR]
+## Addendum — WHY GR PREDICTS WHITE HOLES AT ALL
 
 GR's equations are time-symmetric — they own no arrow. Every black hole solution
 therefore ships with its time-reverse for free, and the complete Schwarzschild geometry
@@ -158,7 +152,7 @@ was killed by the clause; the one realization OUTSIDE all counterparties is the 
 
 ---
 
-## Addendum 2 — THE FOUNTAIN IS THE POUR [GRAMMAR]
+## Addendum 2 — THE FOUNTAIN IS THE POUR
 
 Connecting this shelf to the recorded genesis mechanism closes a loop
 the model had left open: **the heat fountain and the white hole are the same instant in
@@ -246,7 +240,7 @@ measurements or bled by them.
 
 ---
 
-## Addendum 4 — SAME LAW, OPPOSITE WORK [GRAMMAR]
+## Addendum 4 — SAME LAW, OPPOSITE WORK
 
 The sign law: gravity never changes rules at genesis — it flips the SIGN of its
 work. Mechanically exact and record-legal: the acceleration equation responds to
@@ -272,7 +266,7 @@ recorded cycle map's business, not improvised here).
 
 ---
 
-## Addendum 5 — THE MEETING READING: k_up MEETS −k_down [GRAMMAR]
+## Addendum 5 — THE MEETING READING: k_up MEETS −k_down
 
 Not two literal objects (the §Addendum-3 fences hold: horizons, isometry) — but as a
 reading of the two-fluid structure, exact: the medium carries BOTH signs at every moment.
@@ -375,7 +369,7 @@ ON era is a handedness in the primordial background — the white hole's signatu
 surfaces, written in the polarization of the oldest waves there are. [GRAMMAR + registered
 split; the coefficient computation owns the amplitude.]
 
-## Addendum 6: THE POUR MEETS THE TWO PIECES — genesis architecture [GRAMMAR + CANDIDATE]
+## Addendum 6: THE POUR MEETS THE TWO PIECES — genesis architecture
 
 The identity pass ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md),
 [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) sharpens *what the pour meets and makes*. **Four objects,
@@ -393,7 +387,7 @@ fuse them:
 - **the BARYONS** — *ordinary* matter, NOT one of the dark fields; sourced via the AD-spiral. The
  "hot baryonic matter" is *this*, not the dyad.
 
-**The genesis sequence, as the two-field identity now reads it [CANDIDATE]:**
+**The genesis sequence, as the two-field identity now reads it:**
 1. The pour deposits finite heat; the cold dark superfluid takes it at its surface; the **fountain
  effect** (thermomechanical) spreads it — the corpus's "heat fountain."
 2. The superfluid's **chirality** (parity-odd; dCDF file §2) is the handedness that biases matter
