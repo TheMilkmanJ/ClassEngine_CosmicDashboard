@@ -168,7 +168,7 @@ The instrument that settles the Majoron's coupling is not in a mine.
 recognised complication for the mass-mode search. This model says there is none at any reachable
 level, which is a small positive statement for the ton-scale program rather than merely an absence.
 
-*Grade: computed, at the same matrix-element uncertainty the mass mode carries, and using the
+*Computed, at the same matrix-element uncertainty the mass mode carries, and using the
 model's own g = m/v_L relation. Some singlet-Majoron treatments carry an additional seesaw
 suppression on top of that; it would push the rate further down, so "unobservable" survives either
 way.*
@@ -310,7 +310,7 @@ coefficient of the frozen excitation). Until it is run, Σm_ν = 61.4 rides on a
 alignment.
 
 **Owed after the exhibit:** the seat constant b (one pure number, from the joint vacuum's gap
-structure — inherits the basement build), and the seat-alignment derivation above. Grade:
-**operator exhibited at seat level with its UV form; κ_m's size structural (two legs); b open;
+structure — inherits the basement build), and the seat-alignment derivation above.
+**The operator is exhibited at seat level with its UV form; κ_m's size structural (two legs); b open;
 the alignment gated on the flavor-resolved settling profile — democratic at the operator level,
 aligned only if the freeze dynamics deliver it.**

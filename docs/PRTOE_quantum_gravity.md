@@ -101,7 +101,7 @@ but it also means **"O(1) = 1.0000" is the p = 2 point of a ramp, not a predicti
 What earns the quarter is the shared-coefficient structure, and the flat 1.0000 should not be
 quoted as though the medium selected it.
 
-**Grade: derived for the field content the coefficients assume** — minimally coupled scalars, which
+**Derived for the field content the coefficients assume** — minimally coupled scalars, which
 is what 12π and 48π are the coefficients *of*. **It does not extend to the roster the model
 actually carries.** For non-minimal coupling and for fields with spin the two divergences stop
 being one heat-kernel term (this is precisely where Frolov, Fursaev and Zelnikov require extra subtractions — [FrolovFursaevZelnikov1997]), so the

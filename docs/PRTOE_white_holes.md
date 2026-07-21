@@ -323,7 +323,7 @@ the boundary instant, cashed exactly once, with no exterior counterparty. The in
 not the argument against the white hole; it is the reason genesis happened instead of a
 white hole persisting.
 
-**GRADE, stated plainly:** this reading is held with conviction; the
+This reading is held with conviction; the
 books hold it at GRAMMAR + EXPLORATORY — a causal-structure reading whose every physical
 piece is separately recorded (the fountain, the roll-up, the snap, the relaxation cascade,
 the two-reservoir split) and whose falsifiable content routes entirely through the THERMAL

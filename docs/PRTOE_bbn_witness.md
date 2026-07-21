@@ -87,7 +87,7 @@ applied and the code systematic named and unfolded.**
  that into account: at the window top deuterium reads **−0.84σ** rather than −1.29σ, and the joint
  across the window is **p = 0.022–0.079**.
 
- Grade: estimate (linear responses; a full nuclear-code re-run is owed only if the joint becomes
+ This is an estimate (linear responses; a full nuclear-code re-run is owed only if the joint becomes
  load-bearing). The shift is **hostage to its own falsifier** — CMB-S4 (±0.03) must see the same
  ΔN_eff, and a confirmed ΔN_eff < 0.03 or > 0.3 kills the committed window from either side.
 

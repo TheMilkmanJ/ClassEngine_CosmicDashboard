@@ -3825,3 +3825,88 @@ Flags for the owner (judgment calls, not edited):
 Resolves batch-2 flag #5: REFEREE_CALENDAR:108 distinguishes the δθ deviation lock (+0.89σ = harness
 0.888) from the m_τ displacement (+0.91σ), so koide_relation's "+0.91σ" for the m_τ predictions is
 correct, not an overstatement.
+
+## BATCH 4 re-audit (2026-07-21): kappa_v_derivation, intellectual_history, forced_combination, granule_scoping, CODE_MANIFEST — CLEAN on the priority items
+
+Whole-file pass; **no edits.** The coordinator's priority items all came back clean:
+- **broken refs:** none. intellectual_history's three primary-source pointers (PRTOE_v4_dCDF_derivation,
+  docs/archive/PRTOE_v5_dCDF_complete, archive/root_cleanup_20260705/HANDOFF_FOR_GEMINI) all resolve,
+  and every markdown cross-ref in the five files exists.
+- **τ = 0.3503:** none. forced_combination:91 already reads "½ln2 = 0.34657 vs the observation-inverted
+  0.34506" (fixed in the 07-19 tail batch).
+- **T_c = 179 keV:** none stale. CODE_MANIFEST:99/:103 carry 179 keV **correctly** — it documents the
+  value the *code* uses (z_high = z(179 keV) = 7.62×10⁸, stamps 0.6089/0.7765) against the standing
+  kernel 177.10 keV (stamps 0.6047/0.7741, harnessed), and prices the gap at 0.002σ on D/H. It is the
+  honest code-vs-standing note, not a stale physics value.
+- **E_b/ρ_Λ¼ stack:** forced_combination:63 states "+0.44% as an existence claim (its quartic sits past
+  perturbative control)" — current.
+
+Numbers re-verified against the harness (670/670): forced_combination (Tᵢ·Tⱼ = −1, c₂ = 1.9236,
+q̃²/√σ = 1.1106, τ = Q/c₂ = ½ln2, μ_face = 40 keV, F_dark/√σ = 0.4204, the #134 factorization
+1.424 × 1.186 × 1.419 = 2.39); CODE_MANIFEST (the frozen A_s = 2.088058×10⁻⁹ = (α_c/4πk)³ at the
+**concordance-joint k ≈ 1.363**, distinct from the derived-k closed form 2.0807×10⁻⁹ — not an error;
+ramp stamps; the 11-file diff summing 1104 + 131 = 1235); granule_scoping (S^⅓ = 0.83, χ-lag 11.2×,
+varying_me = 1.0126 ± 0.0041); kappa_v (k = 9×10⁻³ → +0.15%, k/32π² = 2.8×10⁻⁵).
+
+Flags for the owner (judgment calls, all deliberately not edited):
+1. Three of the five are explicitly dated/closed records — kappa_v ("PROGRAM STATUS: CLOSED, nothing
+   load-bearing"), intellectual_history (provenance-noted 2026-07-06 narrative), granule_scoping
+   (dated 2026-07-07 scoping record with a reading rule). Their retraction/death/era language, and
+   granule_scoping's "Grade: consistency-hypothesis" tag, are historical-record content — left as-is,
+   consistent with the operational-doc treatment of REFEREE_CALENDAR in batch 3.
+2. granule_scoping:110-111 "the free-vs-condensate discriminator remains live-IF-heavy" is the
+   2026-07-07 era status; the 07-20 quench finding (smbh_atoms) established the discriminator is gone
+   (free scalar). The reading rule defers the *masses* to the 2.24×10⁻²⁰ eV pin but not this specific
+   status — the owner may want a pointer, or to let the dated-record framing carry it.
+3. CODE_MANIFEST:79 B6 carries "PROJECT — no longer queued behind a nested run" — the same scar phrase
+   fixed in cmb_anomalies (batch 2), but here it sits in an operational build-manifest status column
+   (dependency tracking is the content), so left as operational, consistent with REFEREE_CALENDAR.
+
+## BATCH 5 re-audit (2026-07-21): bbn_witness, neutrino_sector, quantum_gravity, UV_completion, white_holes
+
+Core physics forward docs; whole-file pass. Harness green throughout (670/670, 0 fail).
+
+Priority items all clean:
+- **τ = 0.3503 / T_c = 179:** no stale live use. bbn_witness:11-16/:23 carries 179 keV and ε = 1.24%
+  **correctly**, as the values the coded pipeline/splice actually ran, priced against the standing
+  177.10 keV / 1.2543% at 0.002σ (T_c) and 0.004σ (ε). UV_completion's current parts (the c/ξ head,
+  the #17 gate-0 escape) use 177.10 keV and the 307–714 keV internal band (docket #182 territory), no
+  stale values.
+- **ζ / ΔN_eff / E_b stack:** bbn_witness's fresh ζ paragraph (commit 7f875494) verifies — the
+  committed window ΔN_eff = (27/(7/4))·ζ⁴ = 0.06–0.24 matches the harness (0.238 high edge → 0.24),
+  ζ ≈ 0.31 is data-located, and the lever optimum 0.26–0.29 is correctly kept **distinct** from the
+  committed window (the "0.26–0.29 as committed window" garble the harness warns about is not present).
+  D/H window 2.407–2.463, Y_p +1.3…+2.0σ, joint p 0.02–0.08 all reproduce. The +0.44% dark-energy
+  agreement is stated as an existence claim (quartic past control) across quantum_gravity §4/§6,
+  neutrino_sector §3, and UV_completion — current everywhere.
+
+Numbers re-verified: bbn (the abundance table +0.852/+0.645/+0.263%, the below-T_c reheat (27/14)^⅓ =
+1.245, the quark-loop 7×10⁻⁸ vs 2×10⁻³ needed); neutrino (m_ββ floor 0.05 meV, the corner table,
+κ_m = b^(−1/4), Σm_ν = 61.4); quantum_gravity (str[k₁] table +48/−48/+12/−12 = 0, N_f = 2(N_c²−1)/N_c
+→ 3 at N_c = 2, 12π/48π = ¼); white_holes (Faraday 4.5×10⁻¹⁰°, dimmer center √(32×4) ≈ 12, R_H = R_s).
+bbn's check-14 Majoron premise correctly carries the corrected reasoning (loop-order + L-neutral, not
+zero-by-symmetry).
+
+Fixes (five inline "Grade:" tags folded to prose): bbn_witness:90, neutrino_sector:171 & :313,
+quantum_gravity:104, white_holes:326.
+
+Flags for the owner (judgment calls, not edited):
+1. bbn_witness:166-171 — the Majoron parenthetical is a scar-correction ("This was once argued as zero
+   by symmetry … That argument is not available") that is load-bearing per the 07-20 dead-premise
+   finding; a forward-clean rewrite would state the loop-order / L-neutral reasoning without the
+   "was once argued" narration.
+2. neutrino_sector:31 — "Full disclosure: an earlier in-house prediction … was falsified … retired"
+   is meta-framing + scar (the retired P-2026-004 inverted-ordering prediction); a minimal fix drops
+   "Full disclosure:".
+3. neutrino_sector:281 — the UV Majoron g-values (2.3×10⁻⁹ MeV corner / 2.4×10⁻¹⁵ TeV corner) imply
+   v_L ≈ 1 MeV / 1 TeV, ~2–4× off the corner table's precise v_L (4.18 MeV / 2.4 TeV). OOM addendum;
+   the SN-safe conclusion is unaffected.
+4. quantum_gravity §5 intro (line 117-118, "This section records a failure … kept at full length
+   because the history is the point") — meta-framing; §5 narrates the G-closure failure that the
+   "Where the dead ends live" section also covers.
+5. UV_completion self-identifies as a WORKING DOCKET (reading-rule banner); its current parts (the c/ξ
+   head, the #17 escape) are clean and current, and the era step-log + dead-candidate sections are
+   correctly fenced (07-19 graded it "the template for how a docket should be retired"). No fixes.
+6. white_holes carries systematic "[GRAMMAR — …]" bracket grade-tags (5+ instances) — the banned
+   bracket-grade-tag form, but a house convention in this grammar file; converting all to prose is a
+   stylistic mass-change, so flagged rather than swept.
