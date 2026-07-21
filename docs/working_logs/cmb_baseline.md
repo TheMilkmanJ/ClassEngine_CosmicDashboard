@@ -32,7 +32,7 @@ acoustic peaks at the right places and heights.
 And the full MCMC (which fits the cosmology + nuisance parameters) reaches ΔlnZ ≈ +2.6 over ΛCDM, so
 at best-fit it *fits* Planck; the ~2% here is the frozen fiducial stack, not the fitted point.
 
-**It does not yet clear the "from first principles" bar, and three pieces stand:**
+It does not yet clear the "from first principles" bar. Three pieces stand:
 1. **A_s and n_s forced, not adopted.** They are set to the derived census values here and land the
    peaks — but forcing them rigorously from the genesis (no residual freedom in the amplitude ξ/ℓ_H =
    3.45×10⁻³ and the tilt) is the scaling-mechanism residual, still open.
@@ -42,8 +42,8 @@ at best-fit it *fits* Planck; the ~2% here is the frozen fiducial stack, not the
    *zero-parameter* derived prediction matches Planck at full precision, versus the current fit that
    still adjusts H0, ω_b, z_reio.
 
-**Grade: baseline established — the model reproduces the CMB acoustic structure with its own derived
-stack; the residual to "from first principles" is precision + the two pieces above, not the peaks.**
+Baseline established — the model reproduces the CMB acoustic structure with its own derived stack;
+the residual to "from first principles" is precision plus the two pieces above, not the peaks.
 
 ## Sources
 
