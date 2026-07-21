@@ -61,7 +61,7 @@ different amplitudes — any constant-amplitude dipole fit is a step-shaped erro
  the public binned Planck TT residuals (plik-class, on disk), profiling tooth width,
  spacing, envelope, and the SHARED n (the P-033 co-location built in). Labeled rehearsal:
  a sensitivity check, not the referee — registered bets get the real referee.
-- **Tier 2 (the registered referee; no longer queued behind a nested run):** the map-level BipoSH joint fit —
+- **Tier 2 (the registered referee):** the map-level BipoSH joint fit —
  ONE direction forced through comb + ε-dipole + helicity parity + alignment family
  simultaneously (referee calendar: "analysis-limited — data exists").
 - **Tier 3 (future data):** next-gen α-variation maps (~10⁻⁷, the z-ramped dipole

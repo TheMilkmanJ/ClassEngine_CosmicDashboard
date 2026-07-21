@@ -3,8 +3,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 2 of the atom-grammar survey. Status: STRUCTURAL (candidate) with computed numbers;
-candidate. The improvement: the superradiance physics recorded at P-2026-005 acquires a
+*Thread 2 of the atom-grammar survey. Status: STRUCTURAL (candidate) with computed numbers.
+The improvement: the superradiance physics recorded at P-2026-005 acquires a
 LEVEL STRUCTURE and a characteristic mass scale — and two independent routes land on the same
 number.*
 
@@ -93,7 +93,7 @@ to evade the band moves the radiation-to-matter onset and breaks the fit that fi
 spin systematics are genuinely disputed (disc-model and geometry assumptions dominate), which
 is where the honest uncertainty sits — not in the model's side of the calculation.
 
-**Grade: a named, live exposure.** This is the thread's own item 3, and it joins the
+**A named, live exposure.** This is the thread's own item 3, and it joins the
 Galactic-Centre budget test as the second constraint that bears directly on the model's single
 ultralight input.
 

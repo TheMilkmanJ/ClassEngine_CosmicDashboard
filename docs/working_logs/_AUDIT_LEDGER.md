@@ -3705,3 +3705,36 @@ hour and says both are right for different jobs. The lookup existed and was newe
 opened the files — re-check `_CANONICAL_VALUES.md` before writing, not only before starting.
 
 Harness 630/630 after the edits, 0 fail.
+
+## BATCH 1 re-audit (2026-07-21): inertia, lowell_anomalies, smbh_atoms, cmb_anomalies, hubble_tension
+
+Second pass over the five files first deep-audited 2026-07-19, running the whole-file check protocol
+against each. All arithmetic re-verified against the harness (670/670, 0 fail): the α_g ladder
+(1.7×10⁻⁹ → 11), α_g = 1.09 at M87*, the quench margins −83.7/−85.1/−85.8, f_eff = 5.01×10¹⁶ GeV and
+the 15.1-decade CW-field shortfall, the 990 covariance pairs, T_c = 177.10 keV, ε = 1.2543%,
+z_on ≈ 4×10⁷, and the cold-spot geometry (ξ_K/χ_* = 1.07°, texture δT/T = 4×10⁻²⁶). P-033 and P-035
+confirmed present in the registry in short form — a long-form search misses them (check 15). No dead
+premises (check 14 clean); scales current (dyad f = 100–500 TeV / 3×10¹⁴ eV, distinct from f_eff).
+
+Plain-prose fixes (eight, all prose, no number touched): inertia — the "Grade:" tag folded into the
+status prose. smbh_atoms — the doubled "candidate" in the status line removed; "Grade: a named, live
+exposure" → "A named, live exposure". cmb_anomalies — Tier 2's "; no longer queued behind a nested
+run" scar dropped. hubble_tension — heading "…stands, corrected" → "…stands"; the "by less than this
+file previously claimed" scar dropped; "H0=73-via-birth-ramp" → "H₀=" (math-symbol).
+
+Flags for the owner (judgment calls, not edited):
+1. hubble §5 "1.012543 sits +0.7σ, −1.2σ and +1.0σ from the three respectively" quotes only two m_e
+   fits in the paragraph (Hart–Chluba 1.0190 ± 0.0055 → −1.2σ; Toda–Seto 1.0081 ± 0.0046 → +1.0σ);
+   the +0.7σ third fit is unnamed. Restore its number or reduce "three" to "two".
+2. hubble Status ("nested sampling is deferred to cluster time") vs §3 ("the full nested-sampling
+   verdict now running") — the running chains suggest §3 is current and the Status phrasing is stale.
+3. smbh_atoms — the 2026-07-20 self-interaction-shield section is in working-log/repair voice ("Where
+   the failure actually lives", "the old expression", "the margin used to be swept over"); a
+   forward-voice rewrite is the owner's call (rewording a live derivation risks meaning).
+4. smbh_atoms §2 header "two independent routes land on the same number" — 6×10⁹ (α_g = 1) and 2×10¹⁰
+   (r_s = ξ) are ~3× apart, the same scale rather than the same number; the §2 body is explicit.
+5. smbh_atoms §4 "the interacting-λ corrections … owed if pursued" is partly stale — the 07-20 quench
+   section closed the dominant interacting-λ effect (spin-dependence still owed).
+6. Out-of-batch: BIBLIOGRAPHY.md lacks central entries for Schöneberg 2026 (2607.13282), Poulin 2019
+   (1811.04083), Hill 2020 (2003.07355) and Baryakhtar (2011.11646), cited in hubble/smbh; the files
+   carry full arXiv IDs inline, so no reader is stranded (Toda–Seto and Lee–Zhou are present).

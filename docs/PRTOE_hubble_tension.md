@@ -117,7 +117,7 @@ three and the literature's one-to-two), and falsifiability — the amplitude can
 the same 1.2543% is simultaneously on the hook across BBN, the CMB, 21-cm physics and neutrino
 cosmology. **Cheaper and more falsifiable, not better-fitting**, and those are different virtues.
 
-**Where the S₈ argument stands, corrected.** The standard charge against EDE is real and
+**Where the S₈ argument stands.** The standard charge against EDE is real and
 quantified: σ₈ rises, giving *"10% more power at k = 1 h/Mpc"*, and the EDE detection *"drops below
 2σ"* once large-scale-structure data are added [Hill et al. 2020, arXiv:2003.07355]. But the mirror
 claim — that varying-m_e is clean here — is not this model's to bank either: the most recent
@@ -128,8 +128,8 @@ inconsistent with late-time cosmological observations"* [Lee–Zhou 2026, arXiv:
 a named structural obstruction pointing at this model's own mechanism class, and DESI is the
 instrument holding it.**
 
-**On the direction's independent support, sized honestly.** The data do lean the model's way, but by
-less than this file previously claimed. Hart–Chluba's SNe-included fit gives m_e = 1.0190 ± 0.0055,
+**On the direction's independent support, sized honestly.** The data do lean the model's way.
+Hart–Chluba's SNe-included fit gives m_e = 1.0190 ± 0.0055,
 a 3.5σ preference over unity; the newer ACT DR6 + DESI DR2 analysis gives **m_e/m_e₀ = 1.0081 ±
 0.0046 — a 1.8σ preference** [Toda–Seto, arXiv:2508.09025]. The preference has shrunk as the data
 improved. What has *not* shrunk is the model's own standing against those fits: 1.012543 sits
@@ -166,7 +166,7 @@ Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## Where the dead ends live
 
-The abandoned H₀ routes for this sector — chiefly the H0=73-via-birth-ramp attempt (extra
+The abandoned H₀ routes for this sector — chiefly the H₀=73-via-birth-ramp attempt (extra
 recombination-era dark radiation, which the model's own physics falsifies: the dCDF's
 radiation phase ends at z_on ≈ 4×10⁷ and is dust by recombination, giving ΔN_eff ~ 10⁻³,
 not the 0.26 that was hand-picked) — are recorded in

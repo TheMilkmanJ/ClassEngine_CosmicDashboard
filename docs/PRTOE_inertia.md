@@ -4,8 +4,7 @@
 
 *Status: the model's native re-derivation of a standard superfluid result [Landau 1941],
 applied to its founding identity — the claim has been load-bearing since genesis without
-ever being stated as a claim. Grade:
-structural, riding M3 (the medium's reality) + the census null (P-2026-008) + the
+ever being stated as a claim. It is structural, riding M3 (the medium's reality) + the census null (P-2026-008) + the
 Lorentz-violation pricing pass. Companion files:
 [PRTOE_special_relativity.md](PRTOE_special_relativity.md) (the kinematic half) and
 [PRTOE_wormholes.md](PRTOE_wormholes.md) (the shortcuts, priced and closed).*
