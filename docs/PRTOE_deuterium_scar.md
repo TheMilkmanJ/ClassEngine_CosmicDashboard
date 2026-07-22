@@ -167,6 +167,27 @@ That single test sorts every route the model has, and explains which ones surviv
 | shift m̂ at BBN (through B_D) | changes deuterium's binding | **yes** | no channel: the quark bilinear is two EW/EM loops down, and full ε on the quarks is itself excluded at 12–18σ |
 | evaporating PBHs at 10¹¹ g (§5b) | hadronic spallation of ⁴He into D | **yes** | right shape on *both* rows; killed by the ⁶Li co-signature, 39–156×; pure-EM dodge closed (no T ∩ τ overlap) |
 
+**Gravity is the strongest dial at BBN, not the absent one.** It is worth stating in the same units,
+because proposals recur that BBN was an EM-governed era in which gravity had no say. Converting the
+model's own coefficient: ∂ln ρ_rad/∂N_eff = 0.134, so ∂ln H/∂N_eff = 0.067, and with
+∂ln(D/H)/∂N_eff = 0.135 the row reads **∂ln(D/H)/∂ln H = 2.0**. A one per cent change in the
+expansion rate moves deuterium two per cent; the entire varying-m_e window moves it 0.645%. **Per
+unit, gravity's dial is three times the model's whole electromagnetic lever**, and every abundance
+in the network is fixed by the same competition — a reaction rate against H. The model's own BBN
+bets are gravitational: the committed ζ residual and the below-T_c lever are both expansion levers.
+What *is* true is that the census closes mid-BBN — T_c = 177 keV sits between n/p freeze-out
+(~800 keV) and the deuterium bottleneck (~70 keV) — so the era in which a direct coupling is legal
+ends *inside* BBN. That is the ramp, and it is already counted at +0.645%.
+
+*(A related proposal, that BBN released more binding energy than the plasma could shed: the total
+released is ≈1.75 MeV per baryon against a photon bath of 3.1×10⁸ MeV per baryon, i.e.
+**5.6×10⁻⁹**, heating the plasma by one part in 10⁹. There is no reservoir to overload and no
+surface to dump across — the bath is 2×10⁸ times the source and optically thick. Nuclear binding is
+residual QCD in any case; the electromagnetic term is a *negative* contribution. What the photon
+bath's size genuinely does cause is the bottleneck itself: deuterium survives only below
+B_D/ln(η⁻¹) ≈ 105 keV rather than at B_D = 2.22 MeV, and that is already the dominant physics in
+the network.)*
+
 **Constant dark radiation fails on shape, not size.** It raises both abundances with the same sign,
 but the two rows need opposite moves: deuterium is 2.5σ low and helium is already 1.09σ high. The
 committed ζ window (ΔN_eff ≈ 0.06–0.24) tops out just under this lever's optimum (≈0.26). Zeroing deuterium takes

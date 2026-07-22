@@ -328,6 +328,25 @@ chk("deuterium_scar", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16
 chk("deuterium_scar", "recombination is later than the window close by", 1.2e5,
     1.2e13/1e8, 2e-2, "x")
 
+# gravity vs EM as BBN dials -- settles the recurring "BBN was EM-governed" proposal
+_NEFF = 3.044
+_dlnrho_dN = 0.2271/(1+0.2271*_NEFF)
+_dlnH_dN = 0.5*_dlnrho_dN
+chk("deuterium_scar", "d ln H / d N_eff", 0.0671, _dlnH_dN, 1e-2)
+chk("deuterium_scar", "d ln(D/H) / d ln H (the gravitational dial)", 2.01,
+    0.1350/_dlnH_dN, 1e-2)
+chk("deuterium_scar", "gravity's dial vs the whole m_e window (0.645%)", 3.12,
+    (0.1350/_dlnH_dN)/0.645, 2e-2, "x")
+# the binding-energy budget: BBN's total release against the photon bath
+_BBN_RELEASE = (0.2470/4.0)*28.30e6 + 2.4e-5*2.22e6          # eV per baryon
+chk("deuterium_scar", "BBN binding energy released per baryon", 1.748e6,
+    _BBN_RELEASE, 1e-2, "eV")
+chk("deuterium_scar", "that release as a fraction of the photon bath at 70 keV", 5.64e-9,
+    _BBN_RELEASE/_perbary(7.0e4), 2e-2)
+chk("deuterium_scar", "deuterium bottleneck from the photon-to-baryon ratio", 104.6,
+    2.22e6/math.log(1/_ETA_B)/1e3, 2e-2, "keV")
+
+
 # the two BBN supersessions, priced by wide scans through the production network
 # (scripts/prym_supersession_pricing.py). Both moves are ~0.007% effects on D/H, far below the
 # solver's ~0.1% non-smoothness, so they CANNOT be priced by differencing a single pair of runs.
