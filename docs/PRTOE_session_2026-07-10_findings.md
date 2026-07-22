@@ -156,7 +156,7 @@ against itself), internal review's symmetric un-banks. The discipline is why the
 The evening after the gate-0 work: the stepping-stone syllabus (the internal review). Headlines,
 with details in `PRTOE_MATH_SPINE.md` §10–§16:
 - **Gate-0 CLEARS** (double sign-correction: the leptonic ceiling + the weak-rate window), then
- RE-SIGNS as a **pharmacy** (the dyad heals the deuterium scar; T_c = 193 keV RG fixed point).
+ RE-SIGNS as a **pharmacy** (the dyad heals the deuterium row; T_c = 193 keV RG fixed point).
 - **The fingerprint lattice** (H₀/D-H/ν/Y_p/21cm = one ε, five channels) — hypothesis under test.
 - **The atom grammar**: ground state = the condensate (Landau zero-entropy = timelessness);
  Γ/H = √3 (sharp, single-scale-derived); Tolman absorbed as the arrow (first cycle, finite past);

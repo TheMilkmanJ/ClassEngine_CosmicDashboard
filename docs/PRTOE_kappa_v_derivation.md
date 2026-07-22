@@ -11,7 +11,7 @@
 > fails by 8–10 orders (ANN-2026-006), excluding the whole density-proportional class
 > (ANN-2026-007). The BBN vev heal itself was later excluded (the flat-vev at +7.7σ) and
 > is retained only as P-2026-006's hypothetical non-Majoron lever — see the deuterium
-> scar's §7 and the registry. The operator work below (shape-forced / amplitude-input /
+> deuterium row's §7 and the registry. The operator work below (shape-forced / amplitude-input /
 > window-consistent, the seams, the audits) stands as method and record.
 
 **Status (2026-07-07): the honest triple, binding —

@@ -5,7 +5,7 @@ VALUE AUDIT -- recompute every quoted number from the standing inputs.
 WHY THIS EXISTS (2026-07-17): name-greps cannot find stale values. A retired number looks
 exactly like a live one -- "+3.7σ" does not announce that it came from the step splice, and
 "2.470340" does not announce that its baseline was withdrawn. Every leak found on 2026-07-17
-(process errors 38/40, the step-era EMPRESS pull, the v5-era scar in four docs) was invisible
+(process errors 38/40, the step-era EMPRESS pull, the v5-era deuterium row in four docs) was invisible
 to a name search and obvious to arithmetic.
 
 USAGE:  python3 scripts/value_audit.py            # audit the live shelf
@@ -43,7 +43,7 @@ def chain():
 # ============================== CANONICAL / RETIRED ==============================
 # Each check binds a number to its ROLE via a capture group. Matching by VALUE alone is what
 # made the first cut of this tool useless (it flagged the "2" in "2 dof" as the retired -2.0s
-# D/H scar, and every "1" in the corpus as the retired c=1). A number is only a leak if it is
+# D/H deuterium row, and every "1" in the corpus as the retired c=1). A number is only a leak if it is
 # quoted AS the quantity.
 CHECKS = [
  dict(q="Y_p value", rx=r"Y_?p[^.\n]{0,40}?=\s*([0-9]\.[0-9]{3,6})",
@@ -74,12 +74,12 @@ CHECKS = [
       ok=[1.09,1.12],
       bad={1.24:"the STEP-era Aver pull (from Y_p=0.2495)",
            1.3 :"the pre-ramp Aver pull -- the ramp gives +1.09"}),
- dict(q="D/H pull vs Cooke", rx=r"(?:D/H|deuterium|Cooke|scar)[^.\n]{0,70}?([0-9]\.[0-9])\s*(?:σ|sigma)",
+ dict(q="D/H pull vs Cooke", rx=r"(?:D/H|deuterium|Cooke|deuterium row)[^.\n]{0,70}?([0-9]\.[0-9])\s*(?:σ|sigma)",
       ok=[2.94,2.9,4.67,4.7,2.18,1.42,1.85],   # 1.85 = LCDM's OWN tension under PRIMAT (legal)
       bad={1.89:"the WITHDRAWN-baseline pull (2.470340 vs Cooke) -- process error 38",
            1.9 :"the WITHDRAWN-baseline pull, rounded -- process error 38",
-           1.2 :"the v5-era scar (2.468, full budget) -- the standing ramp is -2.9",
-           2.0 :"the v5-era scar (2.468, obs-only) -- the standing ramp is -2.9",
+           1.2 :"the v5-era deuterium row (2.468, full budget) -- the standing ramp is -2.9",
+           2.0 :"the v5-era deuterium row (2.468, obs-only) -- the standing ramp is -2.9",
            3.22:"the withdrawn eta-flow-on-default pull -- process error 38"}),
  # "c ~ 1" means ORDER UNITY and is TRUE of c = 9/10 -- only the exact claim "c = 1" is dead.
  dict(q="c (census)", rx=r"\bc\s*=\s*([01]\.?[0-9]*)\b",

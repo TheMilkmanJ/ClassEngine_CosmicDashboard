@@ -937,7 +937,7 @@ significance is not reproducible without it. Until the budget is stated, this ro
 value and no σ."*
 
 **It was stated.** [PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md) §headline, since
-2026-07-07: *"with the post-LUNA nuclear-theory error (**PRIMAT ±0.037, cite-verified**) the scar is
+2026-07-07: *"with the post-LUNA nuclear-theory error (**PRIMAT ±0.037, cite-verified**) the deuterium row is
 −1.2σ"*, sourced to arXiv:2011.11320 vs 2011.11537. **It reproduces exactly**: the v5-era D/H 2.468
 against Cooke gives −1.97σ on the observational error alone (the quoted "−2.0") and **−1.24σ** on
 ±0.030 ⊕ ±0.037 (the quoted "−1.2"). Three live docs were *already using* it.
@@ -2489,7 +2489,7 @@ solver reaches).
 
 ### The three-term D/H error budget (−2.49σ) — RETIRED, double-counts LUNA (#157, 2026-07-21)
 
-**What was claimed.** The deuterium scar quoted the standing row against a "fuller" three-term width
+**What was claimed.** The deuterium row quoted the standing row against a "fuller" three-term width
 ±0.0563 = obs ±0.030 ⊕ PRIMAT nuclear ±0.037 ⊕ d(p,γ)³He ±0.030, giving **−2.49σ** at D/H = 2.387,
 and treated the two-term ±0.0476 (−2.94σ) as an open owner choice between two honest budgets
 (`ForJustin/10_the_two_full_budgets.md`).
@@ -2523,7 +2523,7 @@ M ~ 10¹¹ g clear the roster (a black hole is not a field), land in the window 
 non-thermal ⁶Li. Read off Carr et al. (2021) at M = 10¹¹ g: lithium binds **33×** tighter than
 deuterium (efficiency cancels: same population feeds both curves). At the ⁶Li bound, D has moved
 only 0.04–0.15%; the row needs +5.9%. Short by **39–156×**, model-free. Full account:
-`PRTOE_deuterium_scar.md` §5b.
+`PRTOE_deuterium_row.md` §5b.
 
 **Kill 2 — pure-EM dodge, no timing ∩ temperature overlap (2026-07-21).** Hoping to avoid ⁶Li by
 running cooler PBHs that emit only electromagnetically fails on the mass–temperature–lifetime lock.
@@ -2535,7 +2535,7 @@ sub-QCD lifetime.
 
 **What survives.** The electromagnetic *spec* (mass / lifetime / abundance) remains the named missing
 ingredient; the model still cannot contain a source for it. PBHs are not that source in either
-channel. The scar stays an owned structural deficit, not an unfinished calculation.
+channel. The deuterium row stays an owned structural deficit, not an unfinished calculation.
 
 ---
 

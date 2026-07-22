@@ -131,11 +131,11 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
   T_c/√σ for SU(2), N_f = 3 as the confirm-or-kill (P-2026-048). J1 has gone from RED to the
   flagship-grade chain.
 - **J2 (gate-0 / BBN) — the row carried, the census closed.** T_c re-keyed to the kernel's
-  177.10 keV; the standing D/H row is 2.387×10⁻⁵ at **−2.49σ** on the scar file's combined width
+  177.10 keV; the standing D/H row is 2.387×10⁻⁵ at **−2.49σ** on the deuterium row file's combined width
   0.0563 (the −2.9σ above is the same value on the 2-term width — the two-budget question is
   ForJustin/10). The lever census is closed with no healer available to the dyad; the full
   accounting, including the hadronic channel and the one roster-exempt source, is
-  [PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md) §5–6.
+  [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) §5–6.
 - **J3 (DESI) — TRAILING.** DR2 prefers evolving DE at 3.1σ; the model's derived w = −1 stands
   against it as standing bet #3. The one attachment currently moving against the model.
 - **J4 (the shift being real) — the judge is running.** The zero-parameter evidence run

@@ -300,5 +300,5 @@ sitting where we have put it.
 ---
 
 *Claims trace to documented computations: PRTOE_neutrino_sector.md for this sector,
-PRTOE_deuterium_scar.md for the decomposition, PRTOE_PREREGISTERED_PREDICTIONS.md for the
+PRTOE_deuterium_row.md for the decomposition, PRTOE_PREREGISTERED_PREDICTIONS.md for the
 registered bets, BIBLIOGRAPHY.md for citations.*

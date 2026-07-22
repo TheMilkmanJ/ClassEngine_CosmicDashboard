@@ -13,13 +13,13 @@ Verdict classes: identity (the model *is* this physics) ·
 calibration (known answers reproduced, no new content) · null (asked
 and answered: not in this model, with the number) · silence
 (translates but adds nothing) · strain (partial translation, honest
-scar) · door (new testable structure found) · bet (standing
+deuterium row) · door (new testable structure found) · bet (standing
 falsifiable commitment) · mover (active evidence channel).
 
 | # | Domain | Verdict | One-line result | Booked in |
 |---|--------|---------|-----------------|-----------|
 | 1 | Cosmology (CMB/BAO/SN background) | mover | The dyad: H₀ ≈ 69.9 (provisional, being re-measured), S₈ eased, plik better than ΛCDM's own. **The live test carries ε pinned at the derived value, not floated** — zero extra parameters, not +1. Laplace ΔlnZ = +2.635, suggestive and SH0ES-dependent — **and the Laplace is where the verdict rests**, nested sampling being unaffordable on this hardware until cluster time is bought, which makes chain convergence the critical path for the evidence claim itself | flagship (v5_dCDF_complete, archived) |
-| 2 | BBN / nuclear astrophysics | strain, reassessed | Deuterium scar −2.5 to −1.4σ (2.407–2.463 across the genesis window, full budget: obs ±0.030 ⊕ post-LUNA theory ±0.037); the committed ΔN_eff residual eases it; helium pays at +1.3 to +2.0σ | [PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md) + flagship §11 |
+| 2 | BBN / nuclear astrophysics | strain, reassessed | Deuterium row −2.5 to −1.4σ (2.407–2.463 across the genesis window, full budget: obs ±0.030 ⊕ post-LUNA theory ±0.037); the committed ΔN_eff residual eases it; helium pays at +1.3 to +2.0σ | [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) + flagship §11 |
 | 3 | Dark energy | bet | The floor is exactly Λ — no evolution, no phantom crossing; model votes AGAINST DESI DR2's 3.1σ preference (standing bet #3) | atlas: THE BIGGEST MYSTERY |
 | 4 | Vacuum energy / cc problem | door (coherence) | Old half: zero-point = virtual fluctuations, never realized (＋Jacobson, ＋Jaffe); new half: kernel-sourced — ρ_Λ¼ = 2.2599 meV, +0.44% **as an existence claim, not a precision one** (the composite quartic sits above its control edge, so the radiative correction is uncontrolled at this order), lattice-refereed (P-2026-048 — one job gating λ and τ together), with the portal √σ_dark = m_e the one irreducible input | atlas: THE BIGGEST MYSTERY + the flagship |
 | 5 | Structure formation / galactic dynamics | mover (sim-owed, the sole ε-meter) | Granule power p²+q² is now the ONLY observable that reads ε (make-or-break for ε ever being measurable); Room 5's χ-lag (uncondensed today in dwarfs) = candidate 4th axis: redshift-dependent core–halo, dyad-specific | Room 1 E7/E7b/Room 5; five-verdict V1–V3 |

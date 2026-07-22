@@ -72,7 +72,7 @@ w = 0. Each row predicts w_i·ε with w_i **known**. The lattice cannot re-weigh
 2. **The D/H row's significance is irreproducible — the error budget is unstated. REDUCED
    (2026-07-20): the budget is now stated term by term** — observational ±0.030 ⊕ PRIMAT
    post-LUNA nuclear ±0.037 (⊕ the d(p,γ)³He rate ±0.0300 on the three-term folding) — **in
-   `PRTOE_deuterium_scar.md` §1. CLOSED (2026-07-21, #157): the source check settled it — PRIMAT's
+   `PRTOE_deuterium_row.md` §1. CLOSED (2026-07-21, #157): the source check settled it — PRIMAT's
    ±0.037 is a post-LUNA Monte-Carlo error that already varies d(p,γ)³He, so the three-term folding
    counted the dominant rate twice. Standing width **±0.0476**, standing row **−2.94σ**; ±0.0563 is
    retired. The ±0.0476 label is degenerate (observational ⊕ nuclear and nuclear ⊕ rate agree to
@@ -84,7 +84,7 @@ w = 0. Each row predicts w_i·ε with w_i **known**. The lattice cannot re-weigh
    σ ≈ 0.053 (−2.21σ, which is what P-2026-027 quotes). **Two live documents imply different widths
    from each other.** Which is intended is not determinable from the corpus. **The budget is now
    stated** (observational versus the BBN theory error, chiefly the d(p,γ)³He rate — all three
-   terms valued in the scar file). The row is quotable as a fork; a single σ waits on the
+   terms valued in the deuterium row file). The row is quotable as a fork; a single σ waits on the
    standardization.
 3. **The elasticities — RESOLVED (measured 2026-07-16; see below).** They were the single blocking
    item; they are no longer missing.

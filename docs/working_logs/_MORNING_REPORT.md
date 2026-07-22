@@ -120,7 +120,7 @@ are re-run.*
 |---|---|---|---|
 | REFEREE_CALENDAR, fingerprint_lattice ×2, **bbn_witness** | 5 | **`D/H = 2.387×10⁵`** — the exponent sign was dropped. **The flagship BBN prediction read as 238,700.** | standing is 2.387×10⁻⁵. **One of the four was mine, written today.** |
 | PREREGISTERED:2127 | 5 | "No fourth generation (breaks the balance by **+13**)" | str[k₁] = 16·N_gen − 48 ⟹ N_gen=4 gives **+16**. A generation is 15 Weyl + its ν_R = 16. In a list headed *"the balance is exact or it is not"*. |
-| PREREGISTERED:2274 | 1 | "**+1.3σ** adverse Y_p scar → +3.6σ" | +1.3 is the **step-era** pull; ramped 0.248995 vs Aver = **+1.09σ**. **The same file says "+1.09σ, not +1.3σ" 576 lines earlier.** → +3.4σ |
+| PREREGISTERED:2274 | 1 | "**+1.3σ** adverse Y_p deuterium row → +3.6σ" | +1.3 is the **step-era** pull; ramped 0.248995 vs Aver = **+1.09σ**. **The same file says "+1.09σ, not +1.3σ" 576 lines earlier.** → +3.4σ |
 | PREREGISTERED:1381 | 3 | **ODDS ("~10%")** — in the file the README points physicists at | absolute standing law |
 | PREREGISTERED:1695 | 6 | "the fork's width demoted to **OWED**" | the width is **STATED 26 lines above it**, in text I added today. I fixed the statement and left the debt. |
 | fingerprint_lattice:22,48 | 6+4 | "width owed, so no σ" | **contradicted by line 23 of its own file** ("D/H carries −2.9σ"). Today's process-error-40 fix never propagated here. |

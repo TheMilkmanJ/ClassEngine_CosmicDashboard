@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Emit a production-faithful BBN prior block for NEW chain configs.
 
-PRTOE_deuterium_scar.md §8 lists, among the things that change the D/H number without being a
+PRTOE_deuterium_row.md §8 lists, among the things that change the D/H number without being a
 fake cure: "a production-faithful D/H term in the joint likelihood -- the live chain's BBN prior
 still uses a stale formula". This script is that term. It does not heal the row; it prices the
 trade honestly.

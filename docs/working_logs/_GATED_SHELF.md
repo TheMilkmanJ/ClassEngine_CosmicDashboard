@@ -16,8 +16,12 @@ down and do it", it belongs in the last section, not the first four.
 
 | item | what it waits on | which way it moves |
 |---|---|---|
-| **#157 — the D/H error budget** | JP's ruling on the two-term vs three-term width. The desk work is finished and it inverted the standing recommendation: PRIMAT's ±0.037 is quoted **post-LUNA**, and LUNA's measurement *is* d(p,γ)³He, so the third term appears to double-count the dominant deuterium reaction | **Against the model.** Two-term moves the standing row from −2.49σ to −2.94σ. ForJustin/10 says in its own words that standardising on the friendlier number "must be yours, not mine" — more true now the direction has flipped |
 | **#67 — the lattice note** | an external group picking it up; the note is APPROVED FOR CIRCULATION and sent | three numbers of one campaign (T_c/√σ, F_π/√σ, w·√σ). Note the decision rule **cannot currently be executed**: the prediction sits +0.44% from the observation-inverted value against a registered tolerance of ±5.7%, thirteen times wider |
+
+*(**#157 — the D/H error budget** left this shelf 2026-07-21.** Source check on arXiv:2011.11320
+closed it: three-term double-counts LUNA; standing is two-term ±0.0476 / **−2.94σ**. Kill in
+`PRTOE_FAILURES_LEDGER.md`; deuterium row §1 and harness re-pinned. No owner taste call remained once the
+citation was read.)*
 
 ## 2. Gated on in-house runs
 
@@ -64,8 +68,12 @@ measurement, a ruling or a facility. Each waits only on someone doing it.
 > **Reverse-audit correction (2026-07-21):** four items below closed in the files *after* this page
 > was written and are stale here — **#141** (vertex integral, c = 0.789262), **#133** (the rung is
 > fixed by the κ-cancellation), **#134** (F_dark/√σ = 0.40–0.47, "Docket #134 closes"), **#175** (the
-> RECFAST-class thermal-history run made and booked). The remaining items are genuinely open, and the
-> task list was over-marking **#101, #102, #121, #123, #154, #180** as complete — those are re-opened.
+> RECFAST-class thermal-history run made and booked). Of the set the task list had over-marked — #101, #102, #121, #123, #154, #180 — four have since
+> resolved: **#121** (exact Ψ₀ and f_amp, computed) and **#154** (the joint genesis draw, proven);
+> **#123** (a reframe — the DE value rides the condensation energy at Door A, and the mode sum cannot
+> be the object) and **#180** (adjudicated — n ≳ 1.65 is the honest bound, the derived n carried under
+> #117). That leaves **#101 and #102** as the genuinely-owed remainder — the Koide-node physics: what
+> seats the hopping at |b|/a = 1/√2, and what sources the Brannen phase.
 
 - **#141 — the vertex correction.** One coefficient from one well-posed integral. It dominates the
   anchor's 1–8 TeV band and blocks **#124**. Attempted twice, retracted twice, both times as an

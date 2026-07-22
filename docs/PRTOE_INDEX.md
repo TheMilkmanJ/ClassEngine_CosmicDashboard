@@ -42,7 +42,7 @@ thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (
 - [THE DYAD — the gas piece](PRTOE_dyad_gas.md) — charge-free, couples the electron, varying-m_e binds hydrogen (the H₀ mechanism); leptophilic by data at 12σ rather than by lepton number. The **Majoron** is the third field, separate from the dyad since the one-scale corner went tie-dead, and it carries the neutrino tie ([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md))
 
 ## Physics domains — content and natively ours
-hubble_tension · bbn_witness · deuterium_scar · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
+hubble_tension · bbn_witness · deuterium_row · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
 fingerprint_lattice · plasma_physics · chaos_dynamics · cosmic_magnetism · igmf_helicity ·
 gravitational_waves · lss_parity · galactic_atoms · smbh_atoms · koide_relation ·
 coincidence_problem · direct_detection · indirect_detection · laboratory_cousins ·

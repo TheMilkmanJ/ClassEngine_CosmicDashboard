@@ -26,7 +26,7 @@ twist_floor.py, c1_locus_twist.py.*
 ### 1. Hawking radiation as a "brake" — real sign, negligible magnitude
 - Converting BH rest-mass (w=0) → radiation (w=+1/3) raises (ρ+3p): a **brake** (deceleration). Sign correct.
 - **Magnitude:** solar BH radiates 2×10⁻⁵⁸ of its mass per Hubble time; L/M ∝ 1/M³ so big BHs radiate ~nothing. **Maximal dynamic ceiling** (every baryon → stellar BH, Ω_b=0.05): **1.1×10⁻⁶² of ρ_crit.** Cosmologically zero.
-- Only ~10¹⁵ g PBHs radiate appreciably **today** — lighter classes finished long ago (the ~10¹¹ g class evaporated during the BBN era, where its injections are separately priced and killed by ⁶Li: the deuterium scar's §5b), heavier ones radiate ~nothing, and stellar collapse can't make light ones (TOV ≥3 M☉).
+- Only ~10¹⁵ g PBHs radiate appreciably **today** — lighter classes finished long ago (the ~10¹¹ g class evaporated during the BBN era, where its injections are separately priced and killed by ⁶Li: the deuterium row's §5b), heavier ones radiate ~nothing, and stellar collapse can't make light ones (TOV ≥3 M☉).
 - **A brake ≠ a reverse:** radiation self-dilutes (a⁻⁴); with ρ_inf>0, Λ always wins the far future. No reversal from radiation.
 - **KEPT FOR LATER:** in a *contracting* phase radiation BLUESHIFTS (a⁻⁴ grows as a↓) → the negligible brake becomes the crunch's dominant heat. This is the genesis "heat fountain" fuel (and the Tolman-entropy carrier).
 

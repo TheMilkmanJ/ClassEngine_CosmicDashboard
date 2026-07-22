@@ -45,7 +45,7 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  own window *gains* +0.31σ, so the nuclear physics helps and the baryon density carries the whole
  deficit. Because that same ω_b shift arrives with the H₀ result, deuterium and H₀ trade at
  **0.59σ per km/s/Mpc**. Full decomposition, the lever census, and the named missing state:
- [PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md).
+ [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md).
 
 - Y_p from the window alone is +1.09σ vs Aver 0.2453 ± 0.0034 (**+3.5σ** vs EMPRESS
  0.2370 ± 0.0034 — the helium civil war, unresolved), zero fitted parameters. This row **is**
@@ -57,7 +57,7 @@ post-LUNA **nuclear-theory error ±0.037** (PRIMAT, cite-verified — arXiv:2011
 the corpus-wide standing width: a third ±0.0300 for d(p,γ)³He is *not* folded in, because PRIMAT's
 ±0.037 is a post-LUNA Monte-Carlo error that already varies that rate, and adding it again
 double-counts the dominant deuterium-destruction channel
-([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md) §1).
+([PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) §1).
 *(Against the observational error alone it is −4.7σ — an upper bound, not the tension.)* **What is genuinely open is not the budget
 but the code systematic:** the same source reports PRIMAT D/H = 2.439 against PArthENoPE 2.51–2.54
 — a **3.5% inter-code spread, 2.3× the nuclear error** — which is *not* folded in above. Folding it
@@ -233,7 +233,7 @@ The dyad's own quantum cannot do it: its recorded roll time puts that mass near 
 orders below the threshold. The only states the standing configuration carries anywhere near the
 scale are the Majoron's **MeV corner** seats — and they sit at ~4.2 MeV, short of the ⁴He
 threshold by 4.7–4.9×, and a threshold does not partly fire. The roster itself is provably full
-(P-2026-045), so the spec has **no candidate in the standing field content** — the scar file's
+(P-2026-045), so the spec has **no candidate in the standing field content** — the deuterium row file's
 §6 carries the full accounting, including the one roster-exempt source and its kill. **This is a
 mechanism without a source, and the field content cannot supply one** — any future candidate can
 be graded against the three conditions above immediately.

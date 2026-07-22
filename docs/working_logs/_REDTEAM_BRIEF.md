@@ -28,7 +28,7 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 - **`c = 1`** (the UV conformal-origin candidate) — dead; the standing value is c = 9/10, a **counting assumption the data confirms** (do not defend it as *derived*: no single census criterion returns 9/10, and the ε-blind ensemble confirms without separating 9/10 from the charge²-weighted 8/9 — #126). *(`c ~ 1` meaning "order unity" is fine.)*
 - **D/H `2.470340` / `2.454498` / `2.4305`** — PRyM-DEFAULT-ω_b absolutes, **WITHDRAWN** (process error 38). Relative effects only.
 - **D/H `2.468`** — the v5-era champion's value; superseded by the ramp
-- **D/H scar `−1.2σ` / `−2.0σ`** — v5-era; the standing ramp is **−2.9σ**
+- **D/H deuterium row `−1.2σ` / `−2.0σ`** — v5-era; the standing ramp is **−2.9σ**
 - **Y_p `+3.7σ` vs EMPRESS**, **`+1.24σ` vs Aver** — step-era pulls
 - **P-022's "sharp global step" reading** — RETIRED. The registry predicts a **σ8-tracking FADE over z ≈ 30–60**; a sharp global step **counts against** the model.
 - **"δm_q = ε full"** quark-bleed — **EXCLUDED, but by loop-order and data, NOT by symmetry.** Do not defend this line with lepton number: the dyad is not the Majoron (separate fields since the one-scale corner went tie-dead), and the operator |Ψ|² is a total singlet — L-neutral — so it screens the quark bilinear no more than the lepton one. What does exclude it: the quark bilinear is reached only at two EW/EM loops, ~(α/4π)², and full ε on the quarks moves D/H by +12–18σ. The margin is four orders wider than needed; the *argument* is the part that was wrong.

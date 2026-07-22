@@ -38,7 +38,7 @@ dead, and the record of dead approaches is public.
 | 3 | Large-scale structure | β resurrection trial vs DES | β executed; S₈ = 0.823 |
 | 4 | BAO & RSD | Clustering-part insight (BAO 593 → 8.2) | Alive |
 | 5 | SNe & distance ladder | P-2026-001: TRGB, no hedge | Standing bet |
-| 6 | BBN | Deuterium scar decomposed; the lever census closed | scar carried at −2.94σ; no healer available to the dyad |
+| 6 | BBN | Deuterium row decomposed; the lever census closed | deuterium row carried at −2.94σ; no healer available to the dyad |
 | 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the dyad's second half |
 | 8 | Neutrino physics | P-2026-004 falsified (ANN-2026-021); meV whisper (Σm_ν ≈ 61.4 meV, normal ordering) stands, posterior tests it | Mid-measurement |
 | 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen operator |
@@ -154,8 +154,8 @@ universal-vev amendment (D/H +7.7σ, τ_n −4.9%), capped the completion's
 entire tuning freedom to one number (x₀ ≲ e⁻³⁵), executed the funded
 floor's early face (ν·x_BBN ~ 500–6000 for all allowed x₀), and priced the
 B−L portal at M* ≳ 10¹⁴ GeV (the uniform neutron potential grows
-a⁻³ into the past; 10²⁷ × today at BBN). It also holds the scar, whose dedicated ledger is
-[PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md): the standing row is **D/H = 2.387×10⁻⁵,
+a⁻³ into the past; 10²⁷ × today at BBN). It also holds the deuterium row, whose dedicated ledger is
+[PRTOE_deuterium_row.md](PRTOE_deuterium_row.md): the standing row is **D/H = 2.387×10⁻⁵,
 −2.94σ** against Cooke on the combined width 0.0476 (obs ±0.030 ⊕ PRIMAT post-LUNA theory ±0.037);
 the committed ζ window (ΔN_eff ≈ 0.06–0.24) eases it to **−2.5 to −1.4σ**, and
 unfolding the 3.5% inter-code spread softens the standing row to ≈−1.4σ (ΛCDM's own control
@@ -169,9 +169,9 @@ healing D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature (DSW P
 retained only as a prediction about a lever this model does not have: a hypothetical future
 non-Majoron amendment, not the dyad.
 
-The scar is carried honestly — −2.94σ standing, −2.5 to −1.4σ across the committed
+The deuterium row is carried honestly — −2.94σ standing, −2.5 to −1.4σ across the committed
 window — with no healer available to the dyad; the full lever census, including the hadronic
-channel and the one roster-exempt source (both closed), is the scar file's §5–6.
+channel and the one roster-exempt source (both closed), is the deuterium row file's §5–6.
 
 ## 7. Recombination, atomic physics & varying fundamental constants
 
@@ -239,7 +239,7 @@ the **phase EFT of a complex condensate at finite chemical potential**
 (Son hep-ph/0204199; the isomorphism holds below the
 amplitude gap). Minimal V = m²|Ψ|² + λ|Ψ|⁴ matches the basin exactly —
 basin entry IS the condensation threshold μ = m; unification m̄₂ = M₂²/m
-removed a parameter; λ ≈ 2×10⁻⁹¹ is a visible scar that must also answer
+removed a parameter; λ ≈ 2×10⁻⁹¹ is a visible deuterium row that must also answer
 black-hole spin archaeology — §12's live re-pricing. The two-fluid reduction (particle
 + antiparticle Schrödinger fluids) produced the KR beat: the beat goes as the ellipticity
 fraction through √(f(2−f)), *not* f itself. *(That fraction shares a symbol with the retired
@@ -634,14 +634,14 @@ gravity residuals attributable to the dark sector.*
 
 ## The nuclear accounting (BBN and its outputs)
 
-31. Deuterium cosmology (PRIMAT) — predicts. The scar: **−2.5 to −1.4σ** carried
+31. Deuterium cosmology (PRIMAT) — predicts. The deuterium row: **−2.5 to −1.4σ** carried
 honestly on the standing 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
 inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The dyad cannot heal it: its
 portal is the total singlet |Ψ|², which reaches the quark bilinear only at two EW/EM loops and
 delivers 20 000–31 000× too little, and a universal shift at ε is independently 12–18σ dead on D/H
 — so D/H stands at −2.5 to −1.4σ with no rescue.
 P-2026-006's co-signed amendment (δm̂/m̂ = +0.14–0.21% at BBN) is retained only for a hypothetical
-future lever sourced outside this sector. *Hook: a scar resolving to >3σ against us wounds the dyad's BBN books.*
+future lever sourced outside this sector. *Hook: a deuterium row resolving to >3σ against us wounds the dyad's BBN books.*
 
 32. The lithium problem — predicts (a mandatory co-signature). If
 P-2026-006's quark-mass amendment is real, ⁷Li must move −7..13% — the

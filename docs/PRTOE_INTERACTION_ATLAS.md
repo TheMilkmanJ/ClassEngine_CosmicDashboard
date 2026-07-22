@@ -47,7 +47,7 @@ environment half, one interaction and one signature at a time.
  (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval, S₈ at
  the KiDS-Legacy consensus. The H₀ figure is provisional — the live evidence
  run is re-measuring it.
-- **The scar-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
+- **The deuterium row-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
  (Approximate coefficients, literature-grade — pulled from source; see
  the binding-sector coefficients below.)
@@ -192,7 +192,7 @@ environment half, one interaction and one signature at a time.
  data can neither see nor close the half-open door.
 - **Binding-sector coefficients — LITERATURE GRADE (2026-07-06)**: DSW
  PRD 76, 063513 pulled from source; δB_D/B_D ∈ [−1.57%, −0.85%] heals
- the deuterium scar; the clean lever is δm̂/m̂ = +0.14–0.21% at BBN
+ the deuterium row; the clean lever is δm̂/m̂ = +0.14–0.21% at BBN
  (∂lnB_D/∂ln m̂ = −4, weak rates untouched); mandatory co-signature
  Y_p −0.5%, ⁷Li −7..13%. Registered as P-2026-006 (conditional).
  Remaining: the medium-native coupling construction (§2 wall).
@@ -419,7 +419,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  "very last idea" — seven angles now, all converged on the one structural
  fact: the medium touches only the metric, and handedness is not in it).
  **FINAL / 8th angle (the imperfect-handoff premise):** the premise is sound (the universe is imperfect — the model's
- own deuterium scar is exactly such a fumble). But imperfection CANNOT
+ own deuterium row is exactly such a fumble). But imperfection CANNOT
  manufacture parity violation: a symmetry is not broken by sloppiness. A
  fumbled parity-even coupling is still parity-even; its imperfections are
  symmetric NOISE (equally likely either handedness) that averages to ZERO
@@ -717,7 +717,7 @@ is its only coupling). Give it curvature and the product is determined:*
  rest frame — everything slides with the current to 99.9%; peculiar
  velocity is the crosscurrent swim.
 
-## Strains (where the translation is PARTIAL — the streak's honest scars)
+## Strains (where the translation is PARTIAL — the streak's honest deuterium rows)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
  domains, found by hunting for a break):** the framework's core axiom —
  charges have gauge fields, fields have locations — meets a THEOREM of
@@ -736,7 +736,7 @@ is its only coupling). Give it curvature and the product is determined:*
  arguably predicts it (a field whose own energy is the source
  cannot separate the charge from the field) — but this is
  the first domain where the language required an amendment rather
- than translating exactly. The streak's scar, kept visible.
+ than translating exactly. The streak's deuterium row, kept visible.
  **THE STRAIN'S CANDIDATE HEALING (the thermodynamic route): it lands on Jacobson, PRL 75, 1260 (1995),
  cite-verified.** Take three things already in this atlas — the
  Clausius relation δQ = TdS, the Unruh temperature (C1's bridge),
@@ -748,12 +748,12 @@ is its only coupling). Give it curvature and the product is determined:*
  but a SIGNATURE: statistical laws have no line-items ("which
  molecule carries the pressure?" is a category error), so gravity
  keeping totals-not-line-items is exactly what a thermodynamic
- phenomenon must do. The scar becomes the fingerprint. GRADE:
+ phenomenon must do. The deuterium row becomes the fingerprint. GRADE:
  correspondence — the entropic-gravity program is celebrated but
  contested, and THIS model deliberately keeps GR fundamental (the
  survival choice); the connection is booked, not adopted. But the
  instinct — that thermodynamics answers gravity — is a published
- research program, named blind, healing the atlas's one scar.
+ research program, named blind, healing the atlas's one deuterium row.
 
 ## Silences (the language translates but adds nothing — distinct from strains)
 - **The strong CP problem (2026-07-07 night, break-hunt round 2):** QCD's

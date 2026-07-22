@@ -121,7 +121,7 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
   Forced by the **gravitational-self-energy strain**: gravitational field energy
   has no local density (EP erases it pointwise), yet the global totals are exact.
   The language required a genuine amendment rather than translating cleanly — "the
-  streak's first scar." **This is very likely the "4th law" you were sensing.**
+  streak's first deuterium row." **This is very likely the "4th law" you were sensing.**
 
 ---
 

@@ -17,8 +17,8 @@
 
 Major moves since the 2026-07-08 baseline (below):
 
-- **c = 9/10 is a counting assumption the data confirms, and the step that would have derived it is
-  withdrawn, not owed.** The seating is sourced — the neutrino sits on the vacuum's seat because its
+- c = 9/10 is a counting assumption the data confirms, and the step that would have derived it is
+  withdrawn, not owed. The seating is sourced — the neutrino sits on the vacuum's seat because its
   mass is medium-sourced, not electroweak — and the ε-blind ensemble lands on the value
   independently, at c = 0.903, −0.08σ. What was meant to *license* a democratic count was routing the
   budget split through gravity's blindness, and that step does not exist: run alone, blindness weights
@@ -28,7 +28,7 @@ Major moves since the 2026-07-08 baseline (below):
   and σ_c ≤ 0.0115 would be needed to separate them. So the framework does not force the value; it is
   well-supported and assumed (#126, the two-census marriage,
   [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1).
-- **The dark-energy VALUE now has a derived-scaling closed form:** ρ_Λ¼ = (d²/2)α⁴·T_c, which on the
+- The dark-energy value now has a derived-scaling closed form: ρ_Λ¼ = (d²/2)α⁴·T_c, which on the
   Koide kernel's τ = ½ln2 gives **2.2599 meV against the observed 2.25 — +0.44%**. *(This board's
   earlier (d/2)α⁴m_e ≈ 2.17 meV, 0.97×, is the same structure with τ approximated as 1/3; the kernel
   supplies τ exactly and the agreement improves from −3% to +0.44%.)* **The +0.44% is an existence
@@ -36,12 +36,12 @@ Major moves since the 2026-07-08 baseline (below):
   against λ\* = 22.41), so ρ_Λ¼'s radiative correction is uncontrolled at this order. Its referee is
   a lattice T_c/√σ for SU(2) with N_f = 3 — a number that does not yet exist, and the same
   non-perturbative treatment is what the radiative band needs, so one job gates both.
-- **DE-floor self-tuning (least-trusted joint #1) is now sharply understood — and it does NOT self-tune.**
+- DE-floor self-tuning (least-trusted joint #1) is now sharply understood — and it does not self-tune.
   The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
-- **Evidence:** the +2.635 Laplace win landed (below, unchanged) — **and the Laplace is what the
-  verdict rests on.** Nested sampling is unaffordable on this hardware (9.8 h per iteration, 163
+- Evidence: the +2.635 Laplace win landed (below, unchanged) — and the Laplace is what the
+  verdict rests on. Nested sampling is unaffordable on this hardware (9.8 h per iteration, 163
   days to a first checkpoint) and waits for cluster time, so the confirmer the +2.635 was explicitly
   awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
   input rather than side referees, and their convergence the critical path for the headline claim.

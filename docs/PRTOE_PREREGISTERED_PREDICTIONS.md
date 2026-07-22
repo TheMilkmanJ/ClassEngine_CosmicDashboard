@@ -226,11 +226,11 @@ soft fingerprint, not two of equal grade.
 
 ---
 
-## P-2026-006: The deuterium scar's healer is a quark-mass amendment — with a mandatory lithium co-signature
+## P-2026-006: The deuterium row's healer is a quark-mass amendment — with a mandatory lithium co-signature
 
 **Registered:** 2026-07-06 night (git base: 60e1b48c)
 **Status: CONDITIONAL fingerprint** — active only if a binding-sector
-amendment is adopted; the dyad currently carries the scar honestly.
+amendment is adopted; the dyad currently carries the deuterium row honestly.
 **Derivation (literature-grade, Dent-Stern-Wetterich PRD 76, 063513,
 Tables 2+4, pulled from source):** the dyad's -2.0σ
 D/H residual is healed exactly by δ B_D/B_D in [-1.57%, -0.85%]
@@ -241,7 +241,7 @@ touching the n↔p weak sector. Required: **δ mhat/mhat = +0.14%
 to +0.21% at BBN** (f-factor uncertainty spanned) — the strong-sector
 analogue of the dyad's m_e = 1.01, an order of magnitude smaller.
 **The prediction (the part that can die):** any substrate amendment
-that heals the deuterium scar MUST carry the correlated signature:
+that heals the deuterium row MUST carry the correlated signature:
 Y_p REDUCED by ~0.5-0.6% (helium residual improves, +1.4 → +1.1
 σ) and 7Li REDUCED by 7-13% (chipping toward, never away from,
 the lithium problem). 3He moves < +2%, 6Li < +6% — both inside
@@ -255,7 +255,7 @@ now **excluded for this model's medium** — by size and by data, not by symmetr
 hadrons is dyad → lepton loop → 2γ → quark, (α/π)² = 5.4×10⁻⁶, which is **~20,000× short** of the
 required δm̂/m̂ = 0.14–0.21%; and a universal quark shift at ε is independently excluded at
 **+12–18σ** on D/H. **The dyad cannot be this healer's lever, and the model does not get to heal
-the deuterium scar.** D/H carries **−2.5 to −1.4σ** honestly.
+the deuterium row.** D/H carries **−2.5 to −1.4σ** honestly.
 
 > *The 2026-07-17 closure argued this from lepton number — the dyad **as** the Majoron, coupling to
 > the current of its broken charge, with quarks carrying L = 0 and the tree coupling therefore zero
@@ -291,14 +291,14 @@ mechanism. The §2 wall is owed twice, by the same construction.
 **The unifier stress test (derived 2026-07-07):** the obvious single mechanism — one Higgs-vev-type
 coupling, universal at fixed Yukawas (dln m_e = dln mhat) — is DEAD
 on arrival: the dyad's m_e amendment extends to BBN, so mhat would
-ride at +1% there, driving D/H by +11.1% (the -2.0σ scar becomes
+ride at +1% there, driving D/H by +11.1% (the -2.0σ deuterium row becomes
 a +7.7σ catastrophe, a 6.5x overshoot of the healer window) and
 a true vev shift additionally moves tau_n by -4.9% through the weak
 sector. DERIVED CONSTRAINT on any future shared coupling: it must
 carry FLAVOR structure (quark-sector response ~5-7x weaker than
 lepton-sector) or EPOCH structure (the m_e amendment off at BBN,
 on by z ~ 1100 — which would also retire the booked m_e-BBN
-surcharge in §9.3 and reshape the scar arithmetic). This narrows the
+surcharge in §9.3 and reshape the deuterium row arithmetic). This narrows the
 repayment space before any coupling is proposed; a proposal outside
 it is pre-falsified.
 
@@ -550,7 +550,7 @@ rebooking is dead — a 1% m_p shift requires a GLUONIC (Lambda_QCD)
 amendment, which cannot serve as the recombination lever at all
 (hydrogen's binding is m_e*α² — no Lambda_QCD in atomic physics,
 so no H₀ mechanism) and is therefore not a competitor flavor for the
-dyad; (iii) the deuterium scar's only live door remains κ_v's
+dyad; (iii) the deuterium row's only live door remains κ_v's
 action-form (the vev package). Corrections to corrections are logged
 with the same ink.
 
@@ -1802,7 +1802,7 @@ live falsifier; the v_L derivation decides how much of the model rides on it.
 
 ## P-2026-027: The radio deuterium referee — dark-ages D 327 MHz, the two-line ratio-lock (registered 2026-07-11)
 
-**Context:** the deuterium "scar" re-signed as a discriminator. Production PRyM at the model's OWN
+**Context:** the deuterium "deuterium row" re-signed as a discriminator. Production PRyM at the model's OWN
 baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
 identical data): dyad-true primordial **D/H = 2.387×10⁻⁵** (**the RAMPED window**, 2026-07-16; was
 2.372 pre-window; the superseded step-bracket value was 2.40–2.42) vs own-ΛCDM **2.420** vs
@@ -2722,7 +2722,7 @@ have supplied it** — heavy dark quarks drive T_c/√σ back toward the pure-gl
 this entry's own central claim, while a 100 keV quark at 700 keV is suppressed by only
 ρ/ρ₀ = 0.997. At ΔY_p/ΔN_eff ≈ 0.013 that is ΔY_p ≈ 0.0094 ≈ **+2.3σ**, sign wrong (more dof →
 faster expansion → earlier freeze-out → more neutrons → **higher** Y_p), on top of the model's
-already **+1.09σ adverse Y_p scar → ≈ +3.4σ.**
+already **+1.09σ adverse Y_p deuterium row → ≈ +3.4σ.**
 
 **5. Therefore a fifth kill: the dark sector must have NEVER THERMALISED with the Standard Model.**
 Thermalised, this entry's own roster drives the model's weakest row to ~3.6σ adverse. Non-
@@ -3191,3 +3191,55 @@ the *product* that has no instrument computing it yet. This entry graduates to a
 the day that run lands, and until then it is a statement about what the run will decide, placed
 before it decides it.
 
+
+---
+
+## P-2026-058: The deuterium row is a nuclear-data bet — d(d,n)³He lands below PRIMAT (registered 2026-07-21)
+
+**Stated first: this is largely a bet the model shares with ΛCDM.** Both under-predict D/H against
+Cooke on PRIMAT rates, and both need the same reaction revised in the same direction. It is
+registered because it puts the model's deuterium row at risk on a measurement the model does not
+control, not because it separates the model from ΛCDM. The discriminating region is narrow and is
+stated below.
+
+**The claim.**
+
+> The true d(d,n)³He rate at BBN energies (T₉ ≈ 0.5–1.2) lies **5.0% to 9.6% below PRIMAT's
+> central value**, the span set by where ζ sits in its committed window.
+
+**Where the numbers come from.** The model predicts D/H = 2.406–2.466×10⁻⁵ across its committed
+genesis residual ΔN_eff = 0.06–0.24. Cooke measures 2.527 ± 0.030. Closing that at fixed ω_b
+requires the network to yield 2.5–5.0% more deuterium. d(d,n)³He carries **94% of the available
+rate leverage** (measured: it accounts for 0.0524 of the 0.0556 PRIMAT→NACRE shift), and its
+measured sensitivity is ∂D/H = −0.01302 per +1σ of PRIMAT's 1.10% band. Inverting gives the window
+above: **−4.7σ to −9.3σ of PRIMAT's own quoted band on that one rate.**
+
+**Why this is testable now.** The LUNA collaboration has publicly named this the top remaining
+priority — *"the new challenge is now the measurement of the D(d,n)³He and D(d,p)³H reactions,
+which have become the most prominent source of uncertainty in the determination of the primordial
+deuterium abundance"* (EPJ Web Conf. 279, 01002 (2023)). As of mid-2026 it has not been done. The
+neighbouring channel d(p,γ)³He received exactly this treatment in 2020.
+
+**The state of play the bet is placed against.** NACRE II already sits **4.31% below** PRIMAT on
+this rate — just short of the model's minimum requirement. The two compilations disagree about the
+rate by 4× PRIMAT's own stated band, and about *how well it is known* by a factor of 5.2 (PRIMAT
+1.10%, NACRE II 5.86%). Pisanti et al. (JCAP 04 (2021) 020) independently report a 3% spread in
+R_ddn from analysis-method choice alone.
+
+**Falsifiers, both sides.**
+
+- **Kills the model's deuterium prediction:** d(d,n)³He confirmed at PRIMAT's central value to
+  ≲1%. The row then stands at **−3.6σ** on PRyM's own propagated error and cannot be rescued by
+  nuclear data. The model's D/H is simply wrong, and no lever in the census reaches it (§5–6).
+- **Kills it from the other side:** a rate more than ~12% below PRIMAT overshoots — D/H rises past
+  Cooke and the model is wrong in the opposite direction (as is ΛCDM).
+
+**The discriminating region, stated honestly.** A measured rate of **−5% to −8%** is where the two
+models separate: the model reaches Cooke at the top of its ζ window, the ΛCDM control (which needs
+−8.9%) does not. At −9% or below both reach it; above −2% neither does. So this bet discriminates
+only in a ~3% band, and inside that band it is also entangled with ζ, which CMB-S4 must
+independently confirm at ΔN_eff = 0.06–0.24. **A model win here requires both, and that conjunction
+is the honest price of the claim.**
+
+**Status: OPEN, awaiting an experiment nobody has scheduled.** Row detail:
+[PRTOE_deuterium_row.md](PRTOE_deuterium_row.md).

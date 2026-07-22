@@ -215,7 +215,7 @@ load-bearing: the coupling window closes at condensation, which is why every lat
 instrument (MICROSCOPE, quasars, Oklo, clocks) sees only the closed account. The two claims
 that once rode it are gone. The early-phase vev heal died with its magnitude — the flat vev at
 +7.7σ, the one-carrier κ_v by eight orders (ANN-2026-006) — and the deuterium row stands at
-−2.94σ with the lever census closed ([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md)). And
+−2.94σ with the lever census closed ([PRTOE_deuterium_row.md](PRTOE_deuterium_row.md)). And
 the universality reading is superseded by the standing identification: the dyad **is** the
 Majoron, coupling to the current of its broken charge, so the shift is **leptophilic** — quarks
 carry L = 0 and the tree coupling is exactly zero. A flavor-blind shift of every mass would put

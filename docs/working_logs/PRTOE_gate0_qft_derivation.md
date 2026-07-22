@@ -152,7 +152,7 @@ construction. Gate 0 does **not** pass on theory.
  way it leans*: against.
 - The honest, consistent, action-faithful config is closer to the **catastrophe**
  reading (m_e shifted at BBN, per the local F(φ)R), which reinstates the
- deuterium scar OR requires a *separate* D/H healer (the doubling
+ deuterium row OR requires a *separate* D/H healer (the doubling
  debt). The provisional +6 χ² should be treated as **likely spurious**, not
  merely unbanked.
 - The two paths to actually *earn* the heal, now sharply defined:

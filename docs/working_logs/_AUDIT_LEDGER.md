@@ -15,7 +15,7 @@ baseline was withdrawn. **Reading 130 files by eye repeats that failure with mor
 
 | # | species | example found | how to hunt it |
 |---|---|---|---|
-| **1** | **stale value** — a retired number quoted as current | `+3.7σ` vs EMPRESS (step-era); the v5 scar −1.2σ in 4 docs | `scripts/value_audit.py` — recompute from standing inputs |
+| **1** | **stale value** — a retired number quoted as current | `+3.7σ` vs EMPRESS (step-era); the v5 deuterium row −1.2σ in 4 docs | `scripts/value_audit.py` — recompute from standing inputs |
 | **2** | **withdrawn baseline** — a number whose *provenance* was retired | D/H 2.470340 (PRyM-default ω_b, process error 38) | trace each number to the run that made it |
 | **3** | **retired object cited live** | `f_amp` as a check; `c = 1` as owed | name-grep (the ONE species greps catch) |
 | **4** | **self-contradictory row** — two halves disagree by orders of magnitude | "δm_q = ε full → ~1σ nudge" (really +12…+18σ) | evaluate BOTH halves, compare |
@@ -36,9 +36,9 @@ right statement filed where no reader reaches. Two of today's biggest finds were
 |---|---|---|---|
 | **0** | **leaves the repo; a person reads it and acts** | fairbank_note_draft ✔, README ✔ (first 70 lines; 329 remain), PREREGISTERED_PREDICTIONS, REFEREE_CALENDAR | **IN PROGRESS** |
 | **1** | **the spine — everything inherits** | MATH_SPINE, THREE_EQUATIONS, DEPENDENCY_TREE, READERS_GUIDE, INDEX | **IN PROGRESS** — THREE_EQUATIONS + MATH_SPINE audited (all arithmetic recomputed clean; 2 species-4 grade contradictions fixed 2026-07-17); DEPENDENCY_TREE, READERS_GUIDE, INDEX pending |
-| **2** | **computational — numbers that get consumed** | bbn_witness, cosmological_constant, neutrino_sector, fingerprint_lattice, CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN | **IN PROGRESS** — bbn_witness ✔, cosmological_constant ✔ (all arithmetic reverified clean; repair-history scars stripped, grades kept), neutrino_sector ✔ (Σm_ν/m_ββ reverified); CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN, fingerprint_lattice pending |
-| **3** | **domain files** (~40) | hubble_tension, s8_tension, light, quantum_gravity, … | **DONE** — 75 files, 5 parallel agents; all numbers recomputed (numbers flagged not changed), repair-history scars stripped, honest grades kept |
-| **4** | **working files** (21) | T1–T16, _master_computes, _cross_cutting | **DONE** — 19 files + REFEREE_CALENDAR; conservative scar pass (debt language kept) |
+| **2** | **computational — numbers that get consumed** | bbn_witness, cosmological_constant, neutrino_sector, fingerprint_lattice, CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN | **IN PROGRESS** — bbn_witness ✔, cosmological_constant ✔ (all arithmetic reverified clean; repair-history deuterium rows stripped, grades kept), neutrino_sector ✔ (Σm_ν/m_ββ reverified); CODE_MANIFEST, THE_AMPLITUDE, THE_CHAIN, fingerprint_lattice pending |
+| **3** | **domain files** (~40) | hubble_tension, s8_tension, light, quantum_gravity, … | **DONE** — 75 files, 5 parallel agents; all numbers recomputed (numbers flagged not changed), repair-history deuterium rows stripped, honest grades kept |
+| **4** | **working files** (21) | T1–T16, _master_computes, _cross_cutting | **DONE** — 19 files + REFEREE_CALENDAR; conservative deuterium row pass (debt language kept) |
 | **5** | **code + configs** | 55 yaml, 98 py, source/*.c | partial (varconst path done 2026-07-17) |
 | **6** | **archive** | provenance only — audit ONLY for "cited as live from a live file" | pending |
 
@@ -50,7 +50,7 @@ right statement filed where no reader reaches. Two of today's biggest finds were
 |---|---|---|---|
 | bbn_witness | 2,5 | η-flow spent twice; withdrawn-baseline σ | FIXED (2026-07-17) |
 | MATH_SPINE | 1 | `+3.7σ` EMPRESS = step-era value | FIXED |
-| PHYSICS_DOMAINS ×3, DOMAIN_COVERAGE | 1 | v5-era scar carried as current | FIXED |
+| PHYSICS_DOMAINS ×3, DOMAIN_COVERAGE | 1 | v5-era deuterium row carried as current | FIXED |
 | PREREGISTERED_PREDICTIONS | 3,6 | "exact c owed via threshold matching" — c = 9/10 is derived | FIXED |
 | fingerprint_lattice | 4 | quark-bleed row: "ε full" vs "~1σ" | FIXED (symmetry-forbidden) |
 | UV_completion | 3,6 | docket premise dead; c = 1 candidate live | FIXED |
@@ -64,7 +64,7 @@ right statement filed where no reader reaches. Two of today's biggest finds were
 | the_great_chain | 1 | Appendix A stated the DE floor as the **observed** 2.25 meV (model derives 2.284; +1.5% = rounding) | FIXED |
 | IMPLEMENTATION_SUMMARY, VALIDATION_RESULTS, derivation, safe_region | 3 | whole files present the **pre-dyad scalar-tensor F(φ)R** model as current ("Complete/Publication-Grade") | FIXED — superseded banners added, files kept as record |
 
-### Flagged for model-judgment (surfaced by the audit; NOT scars/arithmetic — need the operator's call)
+### Flagged for model-judgment (surfaced by the audit; NOT deuterium rows/arithmetic — need the operator's call)
 - **S₈ three-way**: s8_tension 0.821, s8_growth 0.807, PHYSICS_DOMAINS §3 0.823 — none cross-references the others (may be distinct chains/mechanisms).
 - **Σm_ν "pending" framing**: PHYSICS_DOMAINS §8 + DOMAIN_COVERAGE present the ordering race as open, but P-004 (inverted) is falsified and 61.4 meV NO stands — likely stale.
 - **honest_status.md** uses a different DE closed form (ρ_Λ¼ = (d/2)α⁴m_e ≈ 2.17 meV, τ-free) than the flagship (9/2)α⁴τ·m_e = 2.284; unreconciled (private ledger, left).
@@ -97,7 +97,7 @@ Eleven checks run. Six defects, one of them a flat self-contradiction.
 
 Also: the 42-line grade banner was compressed to 24 and re-pointed. It opened with a warning about
 the model's own number being an artifact and spent a page on the archaeology of a rounding — which
-is scar, and already lives in the failures ledger (7 references). It now states the standing claim
+is deuterium row, and already lives in the failures ledger (7 references). It now states the standing claim
 first, the grade, the referee, and one line marking the superseded figure.
 
 Citations: all eleven present in BIBLIOGRAPHY. Audience laws: clean. Three new regression checks.
@@ -128,7 +128,7 @@ Eleven checks. Nine defects, two of them contradictions between sections of the 
    (ANN-2026-025); and sold Σm_ν without noting it is not a discriminator.
 6. **§6's "dark-energy-value problem (§2)"** pointed at this file's §2 (radiation youth) rather than
    `neutrino_sector` §2 where the problem is actually stated.
-7. **The 42-line grade banner** — the same scar THREE_EQUATIONS carried — compressed to 24 and
+7. **The 42-line grade banner** — the same deuterium row THREE_EQUATIONS carried — compressed to 24 and
    re-pointed at the standing +0.44% claim.
 8. **Two inline "+1.5% is the τ rounding" asides** retired to the standing claim.
 9. **§2 said "coded z_rad_onset = 4×10⁷"** without noting that the running evidence job is frozen
@@ -719,7 +719,7 @@ that rotted, which is worse than a document rotting, because it was the thing ce
 
 ## The hadronic-channel review — 2026-07-19, the PBH route opened and closed in one night
 
-JP's route, and the census's strangest entry. The full account is §5b of the scar file; what
+JP's route, and the census's strangest entry. The full account is §5b of the deuterium row file; what
 belongs in this ledger is what the episode said about the corpus.
 
 1. **The regime blind spot was total.** Zero hits for `hadrodissoc|spallation` anywhere in docs/ or
@@ -756,9 +756,9 @@ matter beyond their lines:
    census that includes medical physics. Added as §75, with CMB-S4 (the registered corner-selector,
    ΔN_eff 0.06–0.24 + g₃₃ in-band) as §76. The census now stands at 76.
 4. **The deuterium ladder mixed two widths mid-sentence** — the "−2.5 to −1.4σ" window (2-term
-   budget) beside numbers on the scar file's 3-term width. Restated on one width; the corpus-wide
+   budget) beside numbers on the deuterium row file's 3-term width. Restated on one width; the corpus-wide
    width decision is ForJustin/10.
-5. **Cross-file arithmetic caught a garble in the scar file itself**, which survived its own deep
+5. **Cross-file arithmetic caught a garble in the deuterium row file itself**, which survived its own deep
    audit: "(ΔN_eff ≈ 0.26–0.29)" for a window that is exactly 0.06–0.24. The committed window's
    edges now harness-lock to the ΔN_eff band that generates them.
 6. **h = λΨ₀²/m² ~ 10⁸ was seven orders stale** — at the recorded λ ≈ 2×10⁻⁹¹ and m = 2.24×10⁻²⁰
@@ -787,7 +787,7 @@ pipeline's actual 1.012543; the same row claimed "fits not yet re-run" when the 
 zero-parameter run is executing now. Row 7 carried the Gaussian gate — **and ForJustin/09
 claimed I had already fixed this file's gate form; the claim preceded the fix by half a day.
 Recorded against me: a ForJustin note asserted work that had not been done.** Now true. Row 12's
-Meissner cap aligned to P-028's registered range; two process scars on the Oklo fence ("now
+Meissner cap aligned to P-028's registered range; two process deuterium rows on the Oklo fence ("now
 cited", "new fence added this pass") read fluent; one piece of jargon ("the inheritance DAG")
 now plain.
 
@@ -818,14 +818,14 @@ July 8, still telling the **dead deuterium heal as its arc**. Act 3 read "D heal
 and the one-breath arc said "heals deuterium at BBN" — the flat vev died at +7.7σ, κ_v by eight
 orders, and the standing row is −2.49σ with the lever census closed. Act 3 is now the witness
 era: the dyad condensing mid-window at 177.10 keV, the ramp stamps, the window's real help
-(+0.27σ), and the scar carried openly with its dedicated file linked.
+(+0.27σ), and the deuterium row carried openly with its dedicated file linked.
 
 The rest of the sweep: "c ≈ 0.93 ± 0.38 measured" → c = 9/10 DERIVED (with f̄ = 2/π beside it
 and α_c = 3α as the one registered input — the old c·f_amp·Ψ₀/M_red decomposition demoted to
 one clause as the road that found the number); H₀ 70.1 ± 0.7 → 69.9 provisional; ε 1.24% →
 1.2543%; the THREATS row replaced wholesale — it still carried "birefringence consolidating
 (2.9σ)" against a null since **proven** (P-2026-009), and now names the real exposures: DESI
-DR2 at 3.1σ, the superradiance band, the scar's budget, and the priced dark-photon surrender.
+DR2 at 3.1σ, the superradiance band, the deuterium row's budget, and the priced dark-photon surrender.
 The gate got its near-step form; the archived amplitude-derivation pointer moved to
 THE_AMPLITUDE.
 
@@ -945,7 +945,7 @@ record sits. Files whose audits live under thematic headers rather than name-hea
 - **PRTOE_cosmological_constant.md** — audited 2026-07-19 under "The M₂/E_b supersession": banner
   rewritten to the standing grade, the door-B identity caught, all retired values purged, whole-file
   re-read. Harnessed end to end.
-- **PRTOE_deuterium_scar.md** — created and completed 2026-07-19: §§2, 5, 5b, 6, 6b, 7 all worked,
+- **PRTOE_deuterium_row.md** — created and completed 2026-07-19: §§2, 5, 5b, 6, 6b, 7 all worked,
   the hadronic channel and PBH route added and closed, every number harnessed.
 - **PRTOE_fairbank_note_draft.md / _HOLD.md** — the priority set, audited line-by-line 2026-07-19
   (pre-compaction record) plus today's channel-qualifier and window fixes.
@@ -965,14 +965,14 @@ working_logs/. Pass 2 (varied attack) follows the tail.
 ## PRTOE_bbn_witness.md — deep audit 2026-07-19 (the full pass)
 
 Twenty-eighth file. Six fixes, one number saved from a wrong fix, and the day's tidiest
-provenance result: **the scar's ΔN_eff garble traced to its source.** This file's "joint
+provenance result: **the deuterium row's ΔN_eff garble traced to its source.** This file's "joint
 likelihood peaks at ΔN_eff ≈ 0.26–0.29" is the constant lever's *optimum*; that number was
-transcribed into the scar as the *committed window*. Both files now state the true relation —
+transcribed into the deuterium row as the *committed window*. Both files now state the true relation —
 the window (0.06–0.24) tops out just under the optimum (0.26).
 
 The zero point was wrong (0.44 leaves D/H at 2.512; the true value is 0.49 = ln(2.527/2.387)/0.116,
-harnessed), restoring exact agreement with the scar's 8–33× shortfall. The MeV corner
-contradicted today's roster result ("remains open" as the source vs the scar's 4.7–4.9×-short
+harnessed), restoring exact agreement with the deuterium row's 8–33× shortfall. The MeV corner
+contradicted today's roster result ("remains open" as the source vs the deuterium row's 4.7–4.9×-short
 seats) — aligned. The T_c and ε supersessions priced at the header (0.002σ and 0.004σ). The
 two-widths cross-pointer added.
 
@@ -1035,7 +1035,7 @@ Thirty-fourth file. Three fixes: the cc-problem row's "new half: confessed" brou
 kernel-sourced +0.44% (the same supersession PHYSICS_DOMAINS §21 carried); the superradiance
 verdict label "live-if-heavy" to "live now" (the mass moved into the live regime — the row's own
 text already said so, the label lagged its own sentence); and the BBN row's booking pointer now
-names the dedicated scar file. The superradiance and neutrino rows were already current — this
+names the dedicated deuterium row file. The superradiance and neutrino rows were already current — this
 map was maintained better than most of its class. The advertised −2.5 to −1.4σ range left as is
 per ForJustin/10.
 
@@ -1446,7 +1446,7 @@ Files eighty-two through eighty-four.
 **small_scale_structure**: the sharpest head-vs-tail case yet — **the title still sold "the
 kpc the Model Writes Twice" while the body's own correction block proved nothing writes kpc
 twice.** The withdrawal was already properly ledgered (failures ledger ~1394), so per the
-no-scar law the forward file now reads the current claim fluent: retitled to "…and the
+no-deuterium row law the forward file now reads the current claim fluent: retitled to "…and the
 Smoothness Floor"; §1 rewritten to state the two scales plainly (braiding 0.87 kpc from M₂,
 harnessed at 0.878; soliton 7 pc/0.7 pc — 125× apart, harnessed) with core-cusp explicitly
 not claimed; the kill list purged of the withdrawn claim's grader (the 0.3 kpc dwarf-core
@@ -1507,7 +1507,7 @@ File eighty-eight. The V-list itself spot-checked clean across every load-bearin
 Zurek ×3, COW, Hafele–Keating with both predictions and both measurements exact, Davoudiasl-
 Denton's band safely below the model's mass, PRIMAT/PArthENoPE, DESI DR2). Five fixes:
 
-1. **The λ-quench regime violation**: the Baryakhtar entry billed itself "the λ-scar shield
+1. **The λ-quench regime violation**: the Baryakhtar entry billed itself "the λ-deuterium row shield
    of the superradiance null" while the atlas (§~795) rules the quench **not quotable as a
    shield** until re-derived at the model's own coupling — the entry now carries the atlas's
    own gate. The label firewall applied to a citation's Feeds line.
@@ -1548,7 +1548,7 @@ drift, g(recomb) = 2.1×10⁻⁷; all four harnessed, 298). Two structural fixes
 2. **§3 was still selling what §3a retracts**: the void/diffuse table rows (−0.45%/−0.32%)
    and the "forced new prediction" paragraph asserted the branch the retraction killed one
    section later. Rows now carry the true operator's values (g → 0, dead) with the correction
-   named; the paragraph states "none" and routes to §3a. A working docket may keep its scars —
+   named; the paragraph states "none" and routes to §3a. A working docket may keep its deuterium rows —
    what it may not do is assert them as live.
 
 Scripts tagged not-retained per the standing convention.
@@ -1946,7 +1946,7 @@ The varied attack's first battery swept the forward corpus mechanically. Finding
 3. **The fairbank draft's 179 keV** now carries the one-clause price (derived 177.10;
    abundances insensitive at this level) — the audience letter no longer quotes the coded
    value bare. Clean sweeps: 0.3503 carries fork context in every forward home; cc's 1.955
-   is artifact-priced in its own section; the CODE_MANIFEST/spine/scar 179s all sit inside
+   is artifact-priced in its own section; the CODE_MANIFEST/spine/deuterium row 179s all sit inside
    their price blocks.
 
 ## PASS 2, battery 3 (2026-07-19): count hedges + dangling §-pointers — four fixes
@@ -2876,7 +2876,7 @@ Successor language for the Koide complex: do **not** reopen three tasks. Reopen 
 | **104** | SCOPE-OK | (wave 1) |
 | **109** | **CLOSED** (honest split) | `coincidence_problem.md`: era **width** derived; **occupancy** not. Task was audit/qualify — file does that without claiming full "why now." |
 | **110** | **CLOSED** | `ForJustin/_audit_coverage.md`: corrected 15 mis-binned "archive" files; live list rebuilt. |
-| **111** | **CLOSED** (negative) | PBH deuterium route priced; killed by ⁶Li co-signature 39–156× (`deuterium_scar` §5b). |
+| **111** | **CLOSED** (negative) | PBH deuterium route priced; killed by ⁶Li co-signature 39–156× (`deuterium_row` §5b). |
 | **136** | **SUPERSEDED / SCOPE-OK** | S-parameter priced then composite-Higgs withdrawn; exposures belong to withdrawn reading. |
 | **137–140** | **SCOPE-OK / OPEN residual** | Work recorded in hierarchy §6; bend-over DOS, k_F, rainbow, p-h symmetry still named as residual computations inside the basement — not board/file lies if tasks closed *specification* rather than *solve*. Treat residual as live physics (#146 cluster), not automatic mis-grades. |
 | **141** | **OPEN (not a reverse-audit hit if never marked complete)** | Ledger: crossed diagram uncomputed, sign undetermined, "probably adverse." If board still has #141 complete, that would be MIS-GRADE — board text not in-repo; leave as **live open task**. |
@@ -3641,7 +3641,7 @@ and a 583-item harness had passed over them.
 | file | what checks 14–19 found | changed |
 |---|---|---|
 | `PRTOE_MATH_SPINE.md` | §9 listed the leptophilia portal **settled and "census-forced"**, citing `dyad_gas` §2 — which by then recorded the opposite and graded the core open; c = 9/10 carried **no status tag** beside two siblings that carry theirs, a day after its downgrade; the superradiance window cited three times as a clean mass confirmation with its exposure unpriced; **"BBN clearance [CLEARS]"** asserted unconditionally 13 lines below the correction that withdrew its premise | portal moved to the owed list as #125; c graded data-selected with the ε-blind ensemble named as its real check; the exposure priced at first mention; the clearance conditioned on the adopted T_c |
-| `PRTOE_THE_CHAIN.md` | the quark-flavour item said in its own words that it "belongs with the checked-and-cold rooms" and **had not been moved there** (14a: the category move was announced, not executed); the loop factor mislabelled and the shortfall attributed to the wrong comparison (18); `T₀` used bare for a UV scale, where it reads as the present CMB temperature (18); the τ half of tether 7→8 closed on an uncomputed margin pointing favourably (16); link 3's mid-BBN ordering not carrying the #182 conditional (14/17) | item folded into the cold list as a current claim, scar narration dropped; loop factor and both comparisons corrected; `T₀` identified as the hunt's k_UV; τ re-graded with the integral named; link 3 conditioned |
+| `PRTOE_THE_CHAIN.md` | the quark-flavour item said in its own words that it "belongs with the checked-and-cold rooms" and **had not been moved there** (14a: the category move was announced, not executed); the loop factor mislabelled and the shortfall attributed to the wrong comparison (18); `T₀` used bare for a UV scale, where it reads as the present CMB temperature (18); the τ half of tether 7→8 closed on an uncomputed margin pointing favourably (16); link 3's mid-BBN ordering not carrying the #182 conditional (14/17) | item folded into the cold list as a current claim, deuterium row narration dropped; loop factor and both comparisons corrected; `T₀` identified as the hunt's k_UV; τ re-graded with the integral named; link 3 conditioned |
 | `PRTOE_DERIVATION_HUNT.md` | **the retired T_c band 250–530 keV live in three places** — the ledger had predicted this file would still carry it — and in §6 it was carrying the conclusion #182 reversed: *"the BBN books do not move on it … a structural debt, not a numerical one"* (19 → 14); the retired identity leg live at **four** sites, two of them the premise the two-census argument runs on (14); the f̄ row graded **derived** while the file's own body graded it a strengthened candidate (14) | band corrected to 307–714 keV throughout with the 1.73–4.03× exclusion and the 53%-above-fence figure; the reversed conclusion restated and docketed to #182; four identity-leg sites re-reasoned; f̄ row reconciled with the body |
 | `PRTOE_honest_status.md` | **clean on six of the eight retirements traced** — c = 9/10, the λ control edge, the ended nested run, the Z₄ tilt's input status all fully carried, several with numbers the other files lack. One gap: the 07-20 λ-quench death was absent from a board whose job is the candid adverse ledger, so its odds line still priced an exposure the shield had made survivable | third adverse front added for the quench, with the −83.7 to −85.8 decade margin and the rate-normalization defect that produced the old favourable number |
 | `PRTOE_DEPENDENCY_TREE.md` | **exemplary on #156 and #170** — the superradiance exposure is priced better here than anywhere in the corpus, and the comb's amplitude death is propagated in three places including its removal as a reader of n. But the grade column had gone stale in the one file whose stated law is *"claims inherit the weakest status among their parents"*: c graded **derived**, f̄ graded **derived** while naming a data-selected parent in its own row, and the compound ε row inheriting both as *"two factors derived"* | all three rows re-graded; the ε row now names three referees rather than one; the BBN row carries the T_c keying conditional |
@@ -3680,7 +3680,7 @@ it at λ_p ≈ ε·y_e²·(Λ_UV/4πf)² ≤ 1.1×10⁻¹³, **~500× to ~10⁶�
 no tuning. Grade: **data-narrowed and assumed**, permanent rather than owed. Twelve harness checks
 added; carriers fixed in `me_mechanism_math` §10 (a LOCKED PREDICTION + a *derived* f_L six orders
 off the standing f), `PREREGISTERED` P-006 (symmetry leg re-asserted three lines below its own
-withdrawal), `weakest_joints`, `dyad_gas`, `PHYSICS_DOMAINS`, `deuterium_scar` (its lever table had
+withdrawal), `weakest_joints`, `dyad_gas`, `PHYSICS_DOMAINS`, `deuterium_row` (its lever table had
 the bridge at "exactly zero, quarks carry L = 0" — corrected to loop-suppressed +8×10⁻⁵σ, the
 −1.94σ summation unchanged).
 
@@ -3719,8 +3719,8 @@ premises (check 14 clean); scales current (dyad f = 100–500 TeV / 3×10¹⁴ e
 Plain-prose fixes (eight, all prose, no number touched): inertia — the "Grade:" tag folded into the
 status prose. smbh_atoms — the doubled "candidate" in the status line removed; "Grade: a named, live
 exposure" → "A named, live exposure". cmb_anomalies — Tier 2's "; no longer queued behind a nested
-run" scar dropped. hubble_tension — heading "…stands, corrected" → "…stands"; the "by less than this
-file previously claimed" scar dropped; "H0=73-via-birth-ramp" → "H₀=" (math-symbol).
+run" deuterium row dropped. hubble_tension — heading "…stands, corrected" → "…stands"; the "by less than this
+file previously claimed" deuterium row dropped; "H0=73-via-birth-ramp" → "H₀=" (math-symbol).
 
 Flags for the owner (judgment calls, not edited):
 1. hubble §5 "1.012543 sits +0.7σ, −1.2σ and +1.0σ from the three respectively" quotes only two m_e
@@ -3752,7 +3752,7 @@ instrument." Cross-refs spot-checked: cyclic_torus_genesis:3-9/:62-63/:72 and CO
 THE GENESIS SOLVER) all resolve.
 
 Fixes (three, prose/refs only, no number touched): arrow_of_time — the "Grade:" tag folded into prose.
-koide_relation — the dated scar "walked and retired 2026-07-17" dropped (the §2 ledger pointer already
+koide_relation — the dated deuterium row "walked and retired 2026-07-17" dropped (the §2 ledger pointer already
 carries the provenance). igmf_helicity — a stale registry line reference **:3092 → :3154**, the actual
 line of P-2026-057's link E row ("sign(helicity_B) = sign(n)"); :3092 pointed at an unrelated
 apparent-w line.
@@ -3772,7 +3772,7 @@ Flags for the owner (judgment calls / out of batch):
    functional) was promoted to the "supplied" bullet above; either deliberate (i-paid) or stale
    numbering. No file keys off the labels externally, so renumber-to-(i)/(ii) is safe if intended.
 4. koide_relation line 92 "(the Z4-torus reading is retired — ledger)" — a terser retirement-pointer
-   than the dated scar just fixed; borderline whether to strip (it doubles as navigation).
+   than the dated deuterium row just fixed; borderline whether to strip (it doubles as navigation).
 5. koide_relation line 152 attributes "+0.91σ" to all three m_τ predictions; the harness books the
    θ_B lock at 0.888σ (closure ≈ 0.896σ). "All three ≈ +0.9σ" is honest; +0.91σ is exact only for the
    Q = 2/3 prediction. Rounding, not an error.
@@ -3858,7 +3858,7 @@ Flags for the owner (judgment calls, all deliberately not edited):
    2026-07-07 era status; the 07-20 quench finding (smbh_atoms) established the discriminator is gone
    (free scalar). The reading rule defers the *masses* to the 2.24×10⁻²⁰ eV pin but not this specific
    status — the owner may want a pointer, or to let the dated-record framing carry it.
-3. CODE_MANIFEST:79 B6 carries "PROJECT — no longer queued behind a nested run" — the same scar phrase
+3. CODE_MANIFEST:79 B6 carries "PROJECT — no longer queued behind a nested run" — the same deuterium row phrase
    fixed in cmb_anomalies (batch 2), but here it sits in an operational build-manifest status column
    (dependency tracking is the content), so left as operational, consistent with REFEREE_CALENDAR.
 
@@ -3891,12 +3891,12 @@ Fixes (five inline "Grade:" tags folded to prose): bbn_witness:90, neutrino_sect
 quantum_gravity:104, white_holes:326.
 
 Flags for the owner (judgment calls, not edited):
-1. bbn_witness:166-171 — the Majoron parenthetical is a scar-correction ("This was once argued as zero
+1. bbn_witness:166-171 — the Majoron parenthetical is a deuterium row-correction ("This was once argued as zero
    by symmetry … That argument is not available") that is load-bearing per the 07-20 dead-premise
    finding; a forward-clean rewrite would state the loop-order / L-neutral reasoning without the
    "was once argued" narration.
 2. neutrino_sector:31 — "Full disclosure: an earlier in-house prediction … was falsified … retired"
-   is meta-framing + scar (the retired P-2026-004 inverted-ordering prediction); a minimal fix drops
+   is meta-framing + deuterium row (the retired P-2026-004 inverted-ordering prediction); a minimal fix drops
    "Full disclosure:".
 3. neutrino_sector:281 — the UV Majoron g-values (2.3×10⁻⁹ MeV corner / 2.4×10⁻¹⁵ TeV corner) imply
    v_L ≈ 1 MeV / 1 TeV, ~2–4× off the corner table's precise v_L (4.18 MeV / 2.4 TeV). OOM addendum;
@@ -3944,7 +3944,7 @@ Flags for the owner (judgment calls, not edited):
    THREE_EQUATIONS:147's "−0.34%" (batch 3, already committed, out of this batch) is the confirmed
    outlier and should read −0.35%.
 2. THE_AMPLITUDE:120-123 — "A predecessor reading … named the residual as 'the bounce's
-   stiffness-ceiling scale, ~1.6×10¹⁶ GeV'" is a scar-correction; a forward-clean version states the
+   stiffness-ceiling scale, ~1.6×10¹⁶ GeV'" is a deuterium row-correction; a forward-clean version states the
    current residual (the O(1) count) without the predecessor narration.
 3. THE_CHAIN's systematic [RECORDED]/[CAND]/[MISSING] tether-grade tags (defined at line 17) and
    white_holes' [GRAMMAR — …] tags (batch 5) are bracket-grade-tags, but defined systematic
@@ -4224,7 +4224,7 @@ and `_DH_W` 2.372 → 2.378. Both reverted; the determinism test is what settled
 `prym_ramped_splice.py` now falls back to pure numpy when the env's numpy is ahead of numba instead
 of failing outright, with that path marked a cross-check rather than a production number.
 
-**Fixed:** the exponent in `PRTOE_deuterium_scar.md` §2, `PRTOE_bbn_witness.md` and
+**Fixed:** the exponent in `PRTOE_deuterium_row.md` §2, `PRTOE_bbn_witness.md` and
 `PRTOE_fairbank_note_draft.md` (−1.83 → −1.66; the derived "2.0% deuterium loss" → **1.8%**); the
 harness check that differenced the booked pair, replaced by one pinning the measured scan plus a new
 check on the 1.1%-step loss; `bbn_at_cmb_point.py`, which still carried the **retired ±0.056

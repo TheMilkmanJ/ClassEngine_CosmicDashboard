@@ -6,14 +6,14 @@ called "the full budget":
 | width | what it includes | who uses it | the standing 2.387 reads | the window 2.407–2.463 reads |
 |---|---|---|---|---|
 | 0.0476 | obs ±0.030 ⊕ theory ±0.037 | the coverage map's row 2, and the corpus's famous "−2.5 to −1.4σ" | −2.94σ | −2.5 to −1.3σ |
-| 0.0563 | the above ⊕ the d(p,γ)³He rate term | the scar file's headline "−2.49σ" | −2.49σ | −2.1 to −1.1σ |
+| 0.0563 | the above ⊕ the d(p,γ)³He rate term | the deuterium row file's headline "−2.49σ" | −2.49σ | −2.1 to −1.1σ |
 
 So "−2.49σ" and "−2.5 to −1.4σ" — which the corpus quotes side by side — are not the same statement
 at two precisions. They are different objects at different widths that happen to collide numerically:
 the first is the standing value on the 3-term width, the second is the committed window on the 2-term
 width.
 
-**What I did.** PHYSICS_DOMAINS now states the whole ladder on ONE width (the scar file's 0.0563,
+**What I did.** PHYSICS_DOMAINS now states the whole ladder on ONE width (the deuterium row file's 0.0563,
 since that file is the dedicated, deep-audited authority and its budget is the fuller one):
 standing −2.49σ · window −2.1 to −1.1σ · spread-unfolded ≈−1.4σ · ΛCDM control −1.90σ. The harness
 carries all four.
@@ -55,7 +55,7 @@ equal to the observational error (±0.0300, recovered by inverting 0.0563), whic
 
 Both routes to the combined width then land on **0.0563** (0.0562939 vs 0.0562939). So the corpus
 uses "±0.0476" for the two-term *combined* width in six files and for the *theory-only* budget in
-the scar file, and **no arithmetic check can separate them** — which is exactly why the harness has
+the deuterium row file, and **no arithmetic check can separate them** — which is exactly why the harness has
 never caught it and why the budget kept reading as "unstated". Only the wording of a citation
 distinguishes the two, and the wording is inconsistent.
 
@@ -72,9 +72,9 @@ advertised window **−2.5 to −1.4σ** then needs no change at all, since it w
 number. If it is genuinely additional, your original recommendation stands and 0.0563 is right.
 
 **What was done at the desk, needing nothing from you:** the split is now stated explicitly with
-every term valued in `docs/PRTOE_deuterium_scar.md` §1, the fork is quoted there rather than one
+every term valued in `docs/PRTOE_deuterium_row.md` §1, the fork is quoted there rather than one
 side, the ±0.0476 degeneracy is flagged in place, and the harness pins both decompositions so
-neither can drift. No σ was re-booked. *(One more for the same source check: the scar file
+neither can drift. No σ was re-booked. *(One more for the same source check: the deuterium row file
 attributed the theory budget to "the ⁴He(d,γ)⁶Li and d(p,γ)³He rate uncertainties" — ⁴He(d,γ)⁶Li
 is a ⁶Li production channel and is not a D/H driver, so that attribution wants verifying too.)*
 
@@ -88,12 +88,12 @@ D(p,γ)³He — Table 1 / §2.2), τ_n, and the CMB+BAO baryon posterior. The th
 LUNA.
 
 **Ruling (no taste call left):** standing width **±0.0476**; standing row **−2.94σ**. Three-term
-±0.0563 / −2.49σ is **RETIRED** in `PRTOE_FAILURES_LEDGER.md`. Scar §1, harness, and the gated
+±0.0563 / −2.49σ is **RETIRED** in `PRTOE_FAILURES_LEDGER.md`. Deuterium row §1, harness, and the gated
 shelf updated. The advertised window **−2.5 to −1.4σ** needs no change — it was always two-term.
 
 ---
 
-**Found en route, already fixed:** the scar file's §5 said the committed ζ window is
+**Found en route, already fixed:** the deuterium row file's §5 said the committed ζ window is
 "(ΔN_eff ≈ 0.26–0.29)". The window 2.407–2.463 that the whole corpus quotes corresponds exactly to
 **ΔN_eff 0.06–0.24** (the ζ ∈ [0.25, 0.35] band, the same one bet at CMB-S4); 0.26–0.29 would give
 2.471–2.480, which nothing quotes. Corrected, and the correspondence is now harness-locked.
@@ -109,13 +109,13 @@ that retires one of them. **Nothing here is decided. The booking is yours.***
 ## The one observable
 
 The model predicts **D/H = 2.387×10⁻⁵**; the quasar-optical measurement is **2.527 ± 0.030**
-(Cooke) — `docs/PRTOE_deuterium_scar.md:12-13`. The gap is **−0.140** and is not in dispute. The
+(Cooke) — `docs/PRTOE_deuterium_row.md:12-13`. The gap is **−0.140** and is not in dispute. The
 only question is what to divide it by.
 
 ## The two decompositions
 
 Three components are on the table, all three real, all three cite-verified
-(`docs/PRTOE_deuterium_scar.md:18-22`):
+(`docs/PRTOE_deuterium_row.md:18-22`):
 
 | component | value | source |
 |---|---|---|
@@ -156,7 +156,7 @@ the ⊕-folding **degenerate**:
 > and both routes to the combined width land on **0.0563** (0.0562939 either way).
 
 So "±0.0476" names the two-term *combined* width in six files and the *theory-only* budget in the
-scar file, and **the two are arithmetically indistinguishable**. Only the wording of a citation
+deuterium row file, and **the two are arithmetically indistinguishable**. Only the wording of a citation
 separates them. Pinned so neither can drift: `scripts/audit_math_pass.py:1070-1083`.
 
 ## What would settle it
@@ -174,7 +174,7 @@ determine whether d(p,γ)³He is itemised **inside** the ±0.037.
 "Primordial Deuterium after LUNA" (`docs/PRTOE_references.md:101-104`) — an independent post-LUNA
 code whose error decomposition would corroborate either reading.
 
-**A third item, same check, already flagged:** the scar file attributed the theory budget to "the
+**A third item, same check, already flagged:** the deuterium row file attributed the theory budget to "the
 ⁴He(d,γ)⁶Li and d(p,γ)³He rate uncertainties". ⁴He(d,γ)⁶Li is a ⁶Li production channel and is not a
 D/H driver, so that attribution wants verifying at the same source.
 
@@ -192,9 +192,9 @@ hand it over survives, and it is sufficient:** the change re-quotes the headline
 file the corpus designates as this row's authority. That is a booking, not a desk computation.
 
 **Recommended disposition:** run the check on 2011.11320; if d(p,γ)³He is inside the ±0.037,
-standardise on **±0.0476** corpus-wide and take the **−2.94σ**. Until the check is run, the scar
+standardise on **±0.0476** corpus-wide and take the **−2.94σ**. Until the check is run, the deuterium row
 file's standing instruction holds — **quote the fork, not one side**
-(`docs/PRTOE_deuterium_scar.md:31`).
+(`docs/PRTOE_deuterium_row.md:31`).
 
 ---
 
@@ -222,7 +222,7 @@ Monte-Carlo, and adding a separate ±0.030 rate term outside it is the double-co
 that term's size. (The independent post-LUNA code, Pisanti et al. arXiv:2011.11537, would corroborate
 if you want a second source, but the decomposition statement above is already dispositive.)
 
-**The desk work is done; the one booking is still yours.** Standardising the scar file's headline
+**The desk work is done; the one booking is still yours.** Standardising the deuterium row file's headline
 from **−2.49σ to −2.94σ** re-quotes the authority file's advertised number, which is the single
 action this note reserved for you. Everything upstream of that booking is now settled and adverse —
 a half-sigma against the model on its weakest measured row, confirmed from the primary source rather

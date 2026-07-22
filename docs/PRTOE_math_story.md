@@ -45,8 +45,8 @@ the deuterium bottleneck), and its order parameter is a ramp, not a switch:
  The window's own nuclear physics helps deuterium (+0.645%, worth +0.27σ) and the pattern
  is windowed: Y_p +0.85%. The row it cannot fix is carried openly — **D/H = 2.387×10⁻⁵,
  −2.94σ**, with the lever census closed and no healer available to the dyad
- ([PRTOE_deuterium_scar.md](PRTOE_deuterium_scar.md)); helium pays +1.3 to +2.0σ.
- [RECORDED — the scar carried honestly; the earlier vev-heal reading died with its
+ ([PRTOE_deuterium_row.md](PRTOE_deuterium_row.md)); helium pays +1.3 to +2.0σ.
+ [RECORDED — the deuterium row carried honestly; the earlier vev-heal reading died with its
  magnitude and is retained only as P-2026-006's hypothetical non-Majoron lever]
 
 ## ACT 4 — Condensation / basin entry (z_x ~ 10⁵): the census switches on
@@ -114,7 +114,7 @@ m_e step (P-2026-007) as the sharpest surviving fingerprint.
  DERIVED : R=0; the genesis mechanism; basin-entry/census-switch; the field SHRINKS;
  G_μν = 8πG T_μν; the S formula; c = 9/10 (census count); f̄ = 2/π (winding).
  REGISTERED : α_c = 3α — the amplitude's one remaining input, under MCMC test.
- RECORDED : the BBN window (stamps 0.60/0.77; Y_p +0.85%) with the scar carried at
+ RECORDED : the BBN window (stamps 0.60/0.77; Y_p +0.85%) with the deuterium row carried at
  −2.94σ, lever census closed.
  OPEN : exact Ψ₀ / f_amp (the genesis calc); the granule/dice readout (sim-gated);
  the evidence run's verdict (executing).

@@ -60,7 +60,7 @@ what the file claims? A number attributed to the literature is the fastest way t
 **7. Staleness.** Was something fixed elsewhere that this file still carries in its old form?
 Especially: values re-derived, mechanisms retired, kills reversed.
 
-**8. Audience laws.** No process narration, no amendment tags, no scars, no announcing its own
+**8. Audience laws.** No process narration, no amendment tags, no deuterium rows, no announcing its own
 honesty. A document that keeps pointing at its integrity reads anxious; one that states limitations
 in the same tone as results reads honest.
 

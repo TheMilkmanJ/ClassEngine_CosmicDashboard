@@ -1,10 +1,10 @@
 # PRTOE — THE MATH SPINE (genesis → now → end)
 
-> **THE FLAGSHIP CLAIM, AND ITS GRADE.** The dark-energy scale is
+> The flagship claim: the dark-energy scale is
 > **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — α⁴ times a temperature tied to the electron. Every factor is sourced
 > except τ = T_c/m_e, and τ is where the claim lives.
 >
-> **τ is sourced by the Koide sector, and nothing cosmological enters.** The circulant kernel fixes
+> τ is sourced by the Koide sector, and nothing cosmological enters. The circulant kernel fixes
 > its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
 >
 > > **τ = ½ln2 = 0.34657 ⟹ T_c = 177.10 keV ⟹ ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**
@@ -12,32 +12,29 @@
 > descending from Q, a lepton-mass fact measured to ten parts per million, through an exact identity
 > ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 >
-> **What the +0.44% claims, and what it does not.** It is an **existence** claim — that the chain
+> It is an **existence** claim — that the chain
 > lands on the observed scale with nothing cosmological in it — and **not a precision** claim. The
 > composite quartic maps to λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY
 > correction is uncontrolled at this order on every reading: its formal size would be 5.4–9.8% on
 > ρ_Λ¼, while the next term of the same series is already larger. The agreement is therefore good to
 > the order the series can be trusted, and the two decimal places are not the claim.
 >
-> **Grade: candidate. Its price is one hypothesis** — that the charged-lepton √m are thermally
+> This is a candidate claim, and its price is one hypothesis — that the charged-lepton √m are thermally
 > populated, which is what Q = 2/3 asserts (variance of √m equals mean squared, the Boltzmann second
 > moment, holding to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for SU(2), N_f = 3 —
 > **and it is one job, not two:** the same non-perturbative treatment that measures τ is what the
 > radiative band needs, so the λ and τ gates open together.
-> **A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
-> 0.34506 shows the model reading the sky back, and kills both.**
+> A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
+> 0.34506 shows the model reading the sky back, and kills both.
 
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
-what is DERIVED vs INPUT vs STORY, and where it lives in the code. Cross-references:
+what is derived vs input vs story, and where it lives in the code. Cross-references:
 PRTOE_me_mechanism_math.md (dyad detail), PRTOE_cyclic_torus_genesis.md (genesis narrative),
 PRTOE_UV_completion.md, PRTOE_cosmological_constant.md (J1).*
-
-**Status tags:** [DERIVED] falls out of prior pieces · [INPUT] boundary datum · [STORY] coherent
-mechanism, not a derivation · [PENDING] computation named, not run.
 
 ---
 
@@ -174,14 +171,14 @@ running instrument:
 > the two condensates α_c belongs to — and the model has two.)*
 
 
-## 1\. Genesis (the cycle's start) [STORY]
+## 1\. Genesis (the cycle's start)
 
 Torus topology survives the bounce (topology holds what dynamics loses); the confined heat
 fountain (blueshifted crunch radiation) rolls up into a helical vortex ring → re-seeds the twist.
 Flat 3-torus registered as P-2026-013. **BKL and Tolman stand against the bounce rungs — this
 layer is a story built from real mechanisms, not a derivation.**
 
-## 2\. Radiation youth → dark matter (the first transition) [DERIVED identity]
+## 2\. Radiation youth → dark matter (the first transition)
 
 Above H ≈ m the ultralight field is frozen/radiation-like (w=1/3, the conformal-origin
 phase); below, it oscillates as dust. The switch epoch:
@@ -202,7 +199,7 @@ protection ends) while the starting regime crosses its threshold (dust/DM behavi
 code this is literally one function: `dcdf_rho_rad`'s f(a) = x²/(1+x²) fades the radiation while
 the dust part continues, amplitude fixed by continuity (no free knob).
 
-## 3\. The background fluid (radiation → dust → de Sitter) [DERIVED form; ρ_inf INPUT]
+## 3\. The background fluid (radiation → dust → de Sitter)
 
 > **w(ρ) = −e^{−s}, s = ln(ρ/ρ_inf) clamped ≥ 0 ⟹ P = −ρ_inf exactly.**
 
@@ -291,7 +288,7 @@ Optional rotation-shed `dcdf_conv_g` (S₈: minimizer picks g = 0.12, S₈ = 0.8
 Corrected A2: the shed's apparent-w mirage is \~1% — OUT as a DESI driver; the S₈ job
 survives (background ρ_m, not the w-mirage).
 
-## 6\. The neutrino home [relation DERIVED-candidate; value INPUT]
+## 6\. The neutrino home
 
 Ψ = Majoron (L-breaking Goldstone): tree coupling σNN → Majorana m_ν → **0νββ must occur**
 (P-2026-020); **Σm_ν ≈ 61 meV, normal ordering** — the sum from the tie below, the *ordering*

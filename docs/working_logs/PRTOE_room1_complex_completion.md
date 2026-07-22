@@ -237,7 +237,7 @@ question now carries a computable, falsifiable bound.
 
 **E2.5 — The wound, visible.** λ ~ 10⁻⁸⁸: gravity-only-protected
 (technically standard for the FDM class) and aesthetically wild.
-Booked as the room's scar, kept in the open.
+Booked as the room's deuterium row, kept in the open.
 
 **Room 3's finish, stated plainly:** in the minimal completion the
 form-factor question is ANSWERED NO — Room 3 closes against the
@@ -254,7 +254,7 @@ Current published nulls (Porayko/PPTA PRD 98, 102002 (2018); EPTA DR2
 PRL 131, 171001 (2023) — cite-verified) cap f_amp only at ~O(1) at
 the light end (1×10⁻²² eV), nothing at 2×10⁻²¹: R1.6 is ALIVE,
 CEILING-ONLY, near-term testable iff f_amp ~ O(1). Expedition 2
-closed by the reviewer as NET STRENGTHENING with the D/H scar carried
+closed by the reviewer as NET STRENGTHENING with the D/H deuterium row carried
 in the open; the board is two-mover (the Σm_ν posterior; f_amp).
 
 **E2.7 — the identity's disappointment (found in the silences survey,
@@ -282,7 +282,7 @@ genesis); it is μ_eff relaxing adiabatically to m. Adiabaticity:
 gap/H(z ~ 1.3×10⁵) = 8×10² (m = 10⁻²²) to 2×10⁴ (2×10⁻²¹) —
 amplitude-mode production ~ e^(−gap/H): identically zero. **O2 is
 answered: condensation leaves no relic. Any relic is a birthmark,
-not a scar.** Kibble–Zurek belongs to the AD epoch, not basin entry.
+not a deuterium row.** Kibble–Zurek belongs to the AD epoch, not basin entry.
 
 **E3.2 — THE FROZEN-ELLIPTICITY THEOREM.** An AD birth generically
 produces an elliptical field-space orbit: rotation (the charge = the

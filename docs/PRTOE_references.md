@@ -17,7 +17,7 @@ V = verified, exactly as used in our documents):
 ## Load-bearing for verdicts/predictions
 - [V] **Dent, Stern & Wetterich**, PRD 76, 063513 (2007),
  arXiv:0705.0696 — BBN response matrices (Tables 1/2/4 pulled from
- the PDF directly). Feeds: scar-healer, vev package, P-2026-006.
+ the PDF directly). Feeds: deuterium row-healer, vev package, P-2026-006.
 - [V] **Dalal & Kravtsov**, PRD 106, 063517 (2022), arXiv:2203.05750 —
  "Not so fuzzy": m_FDM > 3×10⁻¹⁹ eV (99%) from Segue 1/2 heating.
  Feeds: V2's fork, exactly as stated (conservative, contested
@@ -96,7 +96,7 @@ V = verified, exactly as used in our documents):
 - [V] **Pitrou, Coc, Uzan, Vangioni**, MNRAS 502, 2474 (2021),
  arXiv:2011.11320 — "A new tension in the cosmological model from
  primordial deuterium?": PRIMAT post-LUNA D/H = 2.439±0.037, ΛCDM
- itself at ~1.8σ. The scar-repricing's theory-error anchor.
+ itself at ~1.8σ. The deuterium row-repricing's theory-error anchor.
  Verified 2026-07-07 at booking.
 - [V] **Pisanti et al.**, JCAP 04 (2021) 020, arXiv:2011.11537 —
  "Primordial Deuterium after LUNA": PArthENoPE concordance; the

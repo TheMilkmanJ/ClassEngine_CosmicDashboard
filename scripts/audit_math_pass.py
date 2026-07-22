@@ -272,7 +272,7 @@ chk("inflation_replacement", "running from the scale-local form", -5.2e-4, -2/(2
 chk("quantum_gravity", "Bekenstein quarter = 12pi/48pi", 0.25,
     (1/(48*math.pi))/(1/(12*math.pi)), 1e-9)
 
-# ---- the deuterium scar ----------------------------------------------------
+# ---- the deuterium row ----------------------------------------------------
 # the row, its LCDM control, and the decomposition that says where the deficit is made
 # Standing width: two-term (obs ±0.030 ⊕ PRIMAT post-LUNA ±0.037 = ±0.0476).
 # Three-term double-counts d(p,γ)³He — LUNA is already inside ±0.037 (arXiv:2011.11320;
@@ -292,112 +292,112 @@ _DH_L, _DH_W, _DH_M = 2.420, 2.372, 2.387      # LCDM control -> +omega_b -> +th
 _COOKE, _OBS_DH, _NUC_DH = 2.527, 0.030, 0.037
 _TOT = math.hypot(_OBS_DH, _NUC_DH)            # 0.0476 — the standing width
 _sig = lambda x: (x - _COOKE)/_TOT
-chk("deuterium_scar", "combined D/H budget (2-term, standing)", 0.0476, _TOT, 1e-3)
-chk("deuterium_scar", "LCDM control vs Cooke", -2.25, _sig(_DH_L), 0.01, "sigma")
-chk("deuterium_scar", "the model vs Cooke", -2.94, _sig(_DH_M), 0.01, "sigma")
-chk("deuterium_scar", "the model's deficit vs its LCDM control", -0.69, _sig(_DH_M)-_sig(_DH_L), 0.02, "sigma")
-chk("deuterium_scar", "omega_b step costs", -1.01, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
-chk("deuterium_scar", "the dyad's BBN window gains", +0.31, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
-chk("deuterium_scar", "window grafted on LCDM alone", -1.93, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
+chk("deuterium_row", "combined D/H budget (2-term, standing)", 0.0476, _TOT, 1e-3)
+chk("deuterium_row", "LCDM control vs Cooke", -2.25, _sig(_DH_L), 0.01, "sigma")
+chk("deuterium_row", "the model vs Cooke", -2.94, _sig(_DH_M), 0.01, "sigma")
+chk("deuterium_row", "the model's deficit vs its LCDM control", -0.69, _sig(_DH_M)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_row", "omega_b step costs", -1.01, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_row", "the dyad's BBN window gains", +0.31, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
+chk("deuterium_row", "window grafted on LCDM alone", -1.93, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
 # MEASURED by a 6%-wide omega_b scan through the production splice, numba on, fitted log-log:
 # -1.6582 at m_e = 1, -1.6751 at the model's m_e, residuals ~5e-4 (scripts/prym_omega_b_elasticity.py).
-chk("deuterium_scar", "d ln(D/H)/d ln omega_b (production, measured)", -1.66,
+chk("deuterium_row", "d ln(D/H)/d ln omega_b (production, measured)", -1.66,
     (-1.6582 + -1.6751)/2, 0.01)
-chk("deuterium_scar", "1.1% omega_b step -> D/H loss", 1.81,
+chk("deuterium_row", "1.1% omega_b step -> D/H loss", 1.81,
     100*(1 - 1.011**-1.6667), 0.02, "percent")
 # the exchange rate: the omega_b shift arrives with the H0 relief
 _dH0 = 69.9 - 68.2
-chk("deuterium_scar", "deuterium paid per km/s/Mpc of H0", 0.59,
+chk("deuterium_row", "deuterium paid per km/s/Mpc of H0", 0.59,
     abs(_sig(_DH_W)-_sig(_DH_L))/_dH0, 0.02, "sigma")
-chk("deuterium_scar", "H0 given back to reach LCDM parity", 1.17,
+chk("deuterium_row", "H0 given back to reach LCDM parity", 1.17,
     (_sig(_DH_L)-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
-chk("deuterium_scar", "H0 given back to centre on Cooke", 4.96,
+chk("deuterium_row", "H0 given back to centre on Cooke", 4.96,
     (0-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
 # the EM injector spec, as an energy budget: why it is invisible in the CMB spectrum
 _ETA_B = 6.1e-10
 _perbary = lambda T: (math.pi**4/(30*1.20206))*T/_ETA_B      # photon energy per baryon, eV
-chk("deuterium_scar", "photon energy per baryon at the window opening (599 eV)", 2.65e12,
+chk("deuterium_row", "photon energy per baryon at the window opening (599 eV)", 2.65e12,
     _perbary(599.0), 2e-2, "eV")
-chk("deuterium_scar", "the 30 eV/H spec as a fraction of the photon bath", 1.13e-11,
+chk("deuterium_row", "the 30 eV/H spec as a fraction of the photon bath", 1.13e-11,
     30.0/_perbary(599.0), 2e-2)
-chk("deuterium_scar", "its mu-distortion", 3.2e-11, 1.4*30.0/_perbary(300.0), 3e-2)
-chk("deuterium_scar", "margin below FIRAS |mu| < 9e-5", 2.8e6,
+chk("deuterium_row", "its mu-distortion", 3.2e-11, 1.4*30.0/_perbary(300.0), 3e-2)
+chk("deuterium_row", "margin below FIRAS |mu| < 9e-5", 2.8e6,
     9e-5/(1.4*30.0/_perbary(300.0)), 3e-2, "x")
-chk("deuterium_scar", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16,
+chk("deuterium_row", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16,
     (30.0/20e6)*_ETA_B, 2e-2)
-chk("deuterium_scar", "recombination is later than the window close by", 1.2e5,
+chk("deuterium_row", "recombination is later than the window close by", 1.2e5,
     1.2e13/1e8, 2e-2, "x")
 
 # the same quantity carried at four values across the literature (2 sigma of spread on the row)
-chk("deuterium_scar", "row on Pisanti 2021's published rate error 0.060", -2.09,
+chk("deuterium_row", "row on Pisanti 2021's published rate error 0.060", -2.09,
     (2.387021-2.527)/math.hypot(0.030, 0.060), 1e-2, "sigma")
-chk("deuterium_scar", "Pisanti's rate error vs PRyM-on-PRIMAT-bands", 2.50,
+chk("deuterium_row", "Pisanti's rate error vs PRyM-on-PRIMAT-bands", 2.50,
     0.060/0.0240, 2e-2, "x")
-chk("deuterium_scar", "spread on the row across the four rate-error assessments", 2.01,
+chk("deuterium_row", "spread on the row across the four rate-error assessments", 2.01,
     abs((2.387021-2.527)/math.hypot(0.030,0.0240) - (2.387021-2.527)/math.hypot(0.030,0.0807)),
     2e-2, "sigma")
 
 # the compilation spread localised: it is d(d,n)3He, and the argument is about its error bar
-chk("deuterium_scar", "d(d,n)3He share of the compilation shift", 0.94,
+chk("deuterium_row", "d(d,n)3He share of the compilation shift", 0.94,
     0.05240/0.05557, 3e-2)
-chk("deuterium_scar", "PRIMAT-vs-NACRE on d(d,n)3He, in PRIMAT sigma", 4.02,
+chk("deuterium_row", "PRIMAT-vs-NACRE on d(d,n)3He, in PRIMAT sigma", 4.02,
     math.log(0.9569)/math.log(1.0110)*-1, 2e-2, "sigma")
-chk("deuterium_scar", "the two compilations' 1sig bands on d(d,n)3He differ by", 5.21,
+chk("deuterium_row", "the two compilations' 1sig bands on d(d,n)3He differ by", 5.21,
     math.log(1.0586)/math.log(1.0110), 2e-2, "x")
-chk("deuterium_scar", "d(p,g)3He (the LUNA reaction) agreement between compilations", 0.0012,
+chk("deuterium_row", "d(p,g)3He (the LUNA reaction) agreement between compilations", 0.0012,
     abs(1-0.9988), 1e-1)
-chk("deuterium_scar", "theory error on NACRE II's uncertainty assessment", 0.0807,
+chk("deuterium_row", "theory error on NACRE II's uncertainty assessment", 0.0807,
     0.0807, 1e-6)
-chk("deuterium_scar", "the row on NACRE II's assessment", -1.63,
+chk("deuterium_row", "the row on NACRE II's assessment", -1.63,
     (2.387021-2.527)/math.hypot(0.030, 0.0807), 1e-2, "sigma")
 
 # PRyM's OWN theory error on D/H, propagated from its per-reaction p = +1 sigma bands
 _RATE_PULLS = {"dpHe3g": -0.017288, "ddHe3n": -0.013019, "ddtp": -0.009838,
                "He3ntp": 0.002963, "npdg": 0.001344, "He3dap": -0.000345}
 _PRYM_RATE_ERR = math.sqrt(sum(v*v for v in _RATE_PULLS.values()))
-chk("deuterium_scar", "PRyM's own nuclear-rate error on D/H", 0.0240, _PRYM_RATE_ERR, 1e-2)
-chk("deuterium_scar", "d(p,g)3He share of that variance", 0.52,
+chk("deuterium_row", "PRyM's own nuclear-rate error on D/H", 0.0240, _PRYM_RATE_ERR, 1e-2)
+chk("deuterium_row", "d(p,g)3He share of that variance", 0.52,
     _RATE_PULLS["dpHe3g"]**2/sum(v*v for v in _RATE_PULLS.values()), 2e-2)
-chk("deuterium_scar", "PRyM's rate error vs the borrowed PRIMAT 0.037", 0.65,
+chk("deuterium_row", "PRyM's rate error vs the borrowed PRIMAT 0.037", 0.65,
     _PRYM_RATE_ERR/0.037, 2e-2, "x")
-chk("deuterium_scar", "row on Cooke + PRyM rates alone", -3.64,
+chk("deuterium_row", "row on Cooke + PRyM rates alone", -3.64,
     (2.387021-2.527)/math.hypot(0.030, _PRYM_RATE_ERR), 1e-2, "sigma")
-chk("deuterium_scar", "row with the compilation systematic folded in", -1.96,
+chk("deuterium_row", "row with the compilation systematic folded in", -1.96,
     (2.387021-2.527)/math.sqrt(0.030**2 + _PRYM_RATE_ERR**2 + 0.0190**2
                                + 0.0128**2 + 0.0556**2), 2e-2, "sigma")
 
 # the nuclear rate-compilation systematic, measured in-pipeline (PRTOE_NACREII=1)
 _NAC_M, _NAC_C = 2.442591, 2.475125          # NACRE II: model row, LCDM control
 _PRI_M, _PRI_C = 2.387021, 2.416372          # PRIMAT (production): same two points
-chk("deuterium_scar", "NACRE II moves the model row to", -1.77, _sig(_NAC_M), 1e-2, "sigma")
-chk("deuterium_scar", "the compilation systematic on the model row", 1.167,
+chk("deuterium_row", "NACRE II moves the model row to", -1.77, _sig(_NAC_M), 1e-2, "sigma")
+chk("deuterium_row", "the compilation systematic on the model row", 1.167,
     _sig(_NAC_M)-_sig(_PRI_M), 1e-2, "sigma")
-chk("deuterium_scar", "the same systematic on the LCDM control", 1.233,
+chk("deuterium_row", "the same systematic on the LCDM control", 1.233,
     _sig(_NAC_C)-_sig(_PRI_C), 1e-2, "sigma")
-chk("deuterium_scar", "model-minus-control is compilation-ROBUST", -0.067,
+chk("deuterium_row", "model-minus-control is compilation-ROBUST", -0.067,
     (_sig(_NAC_M)-_sig(_NAC_C))-(_sig(_PRI_M)-_sig(_PRI_C)), 5e-2, "sigma")
-chk("deuterium_scar", "compilation systematic vs the borrowed 0.037 theory error", 1.50,
+chk("deuterium_row", "compilation systematic vs the borrowed 0.037 theory error", 1.50,
     abs(_NAC_M-_PRI_M)/0.037, 2e-2, "x")
-chk("deuterium_scar", "tau_n bottle->beam on D/H", 0.268, _sig(2.399781)-_sig(_PRI_M), 2e-2, "sigma")
-chk("deuterium_scar", "tau_n bottle->beam on Y_p (wrong shape)", 0.475,
+chk("deuterium_row", "tau_n bottle->beam on D/H", 0.268, _sig(2.399781)-_sig(_PRI_M), 2e-2, "sigma")
+chk("deuterium_row", "tau_n bottle->beam on Y_p (wrong shape)", 0.475,
     (0.251086-0.249185)/0.0040, 2e-2, "sigma")
 
 # gravity vs EM as BBN dials -- settles the recurring "BBN was EM-governed" proposal
 _NEFF = 3.044
 _dlnrho_dN = 0.2271/(1+0.2271*_NEFF)
 _dlnH_dN = 0.5*_dlnrho_dN
-chk("deuterium_scar", "d ln H / d N_eff", 0.0671, _dlnH_dN, 1e-2)
-chk("deuterium_scar", "d ln(D/H) / d ln H (the gravitational dial)", 2.01,
+chk("deuterium_row", "d ln H / d N_eff", 0.0671, _dlnH_dN, 1e-2)
+chk("deuterium_row", "d ln(D/H) / d ln H (the gravitational dial)", 2.01,
     0.1350/_dlnH_dN, 1e-2)
-chk("deuterium_scar", "gravity's dial vs the whole m_e window (0.645%)", 3.12,
+chk("deuterium_row", "gravity's dial vs the whole m_e window (0.645%)", 3.12,
     (0.1350/_dlnH_dN)/0.645, 2e-2, "x")
 # the binding-energy budget: BBN's total release against the photon bath
 _BBN_RELEASE = (0.2470/4.0)*28.30e6 + 2.4e-5*2.22e6          # eV per baryon
-chk("deuterium_scar", "BBN binding energy released per baryon", 1.748e6,
+chk("deuterium_row", "BBN binding energy released per baryon", 1.748e6,
     _BBN_RELEASE, 1e-2, "eV")
-chk("deuterium_scar", "that release as a fraction of the photon bath at 70 keV", 5.64e-9,
+chk("deuterium_row", "that release as a fraction of the photon bath at 70 keV", 5.64e-9,
     _BBN_RELEASE/_perbary(7.0e4), 2e-2)
-chk("deuterium_scar", "deuterium bottleneck from the photon-to-baryon ratio", 104.6,
+chk("deuterium_row", "deuterium bottleneck from the photon-to-baryon ratio", 104.6,
     2.22e6/math.log(1/_ETA_B)/1e3, 2e-2, "keV")
 
 
@@ -406,24 +406,24 @@ chk("deuterium_scar", "deuterium bottleneck from the photon-to-baryon ratio", 10
 # solver's ~0.1% non-smoothness, so they CANNOT be priced by differencing a single pair of runs.
 _TC_SLOPE, _EPS_SLOPE = 0.08981, 0.011764        # D/H per MeV of T_c; per % of m_e
 _dTC, _dEPS = 0.17710 - 0.179, 1.2543 - 1.24
-chk("deuterium_scar", "T_c supersession 179 -> 177.10 keV", -0.00358,
+chk("deuterium_row", "T_c supersession 179 -> 177.10 keV", -0.00358,
     _TC_SLOPE*_dTC/_TOT, 1e-2, "sigma")
-chk("deuterium_scar", "eps supersession 1.24 -> 1.2543 percent", +0.00353,
+chk("deuterium_row", "eps supersession 1.24 -> 1.2543 percent", +0.00353,
     _EPS_SLOPE*_dEPS/_TOT, 1e-2, "sigma")
-chk("deuterium_scar", "both supersessions together (they cancel)", -0.0000507,
+chk("deuterium_row", "both supersessions together (they cancel)", -0.0000507,
     (_TC_SLOPE*_dTC + _EPS_SLOPE*_dEPS)/_TOT, 2e-2, "sigma")
 
 # the below-T_c lever: right shape, wrong size
 _dD_all, _dY_all, _dD_bel, _dY_bel = 0.1350, 0.0131, 0.1160, 0.0041
-chk("deuterium_scar", "below-T_c efficiency ratio", 2.75,
+chk("deuterium_row", "below-T_c efficiency ratio", 2.75,
     (_dD_bel/_dY_bel)/(_dD_all/_dY_all), 0.01, "x")
 _N_bel = (_dD_all*0.42)/_dD_bel                 # dN below T_c that zeroes deuterium
-chk("deuterium_scar", "below-T_c dN_eff to zero deuterium", 0.49, _N_bel, 0.02)
-chk("deuterium_scar", "helium landing under the below-T_c lever", 1.7,
+chk("deuterium_row", "below-T_c dN_eff to zero deuterium", 0.49, _N_bel, 0.02)
+chk("deuterium_row", "helium landing under the below-T_c lever", 1.7,
     1.09 + _N_bel*_dY_bel/0.0034, 0.05, "sigma")
-chk("deuterium_scar", "reheat shortfall (upper)", 33.0, _N_bel/0.015, 0.02, "x")
+chk("deuterium_row", "reheat shortfall (upper)", 33.0, _N_bel/0.015, 0.02, "x")
 # photodissociation: the helium reservoir dwarfs the deuterium it must supply
-chk("deuterium_scar", "He/H by number vs D/H — the reservoir ratio", 3300.0,
+chk("deuterium_row", "He/H by number vs D/H — the reservoir ratio", 3300.0,
     0.083/2.5e-5, 0.02, "x")
 
 # ---- the 0nubb window (the Fairbank note's headline) -----------------------
@@ -821,62 +821,62 @@ chk("neutrino_sector 3b", "Majoron mode slower than the mass mode by", 1e4,
 chk("neutrino_sector 3b", "<g_ee> below the experimental limit by", 1.4e4, 1e-5/(_mbb/4.18e6), 0.05, "x")
 
 
-# --- the deuterium quark door: the loop bridge's size (deuterium_scar §5) ---
+# --- the deuterium quark door: the loop bridge's size (deuterium_row §5) ---
 _loop = (ALPHA/math.pi)**2
-chk("deuterium_scar", "dyad->lepton loop->2gamma->quark suppression (alpha/pi)^2", 5.4e-6, _loop, 0.01)
-chk("deuterium_scar", "what the loop delivers, in percent", 6.8e-6, 0.012543*_loop*100, 0.02, "%")
-chk("deuterium_scar", "shortfall against P-006's 0.14%", 21000, 1.4e-3/(0.012543*_loop), 0.02, "x")
-chk("deuterium_scar", "shortfall against P-006's 0.21%", 31000, 2.1e-3/(0.012543*_loop), 0.02, "x")
+chk("deuterium_row", "dyad->lepton loop->2gamma->quark suppression (alpha/pi)^2", 5.4e-6, _loop, 0.01)
+chk("deuterium_row", "what the loop delivers, in percent", 6.8e-6, 0.012543*_loop*100, 0.02, "%")
+chk("deuterium_row", "shortfall against P-006's 0.14%", 21000, 1.4e-3/(0.012543*_loop), 0.02, "x")
+chk("deuterium_row", "shortfall against P-006's 0.21%", 31000, 2.1e-3/(0.012543*_loop), 0.02, "x")
 # the photodissociation cure's internal arithmetic
 _HeH = 0.249/(4*(1-0.249))
-chk("deuterium_scar", "He/H by number at Y_p = 0.249", 0.083, _HeH, 0.01)
-chk("deuterium_scar", "D/H gained by breaking 1.7e-5 of the helium", 1.4e-6, 1.7e-5*_HeH, 0.02)
-chk("deuterium_scar", "the Y_p it costs", -4.2e-6, -1.7e-5*0.249, 0.02)
-chk("deuterium_scar", "energy per hydrogen at 20 MeV per dissociation", 28, 1.7e-5*_HeH*20e6, 0.05, "eV")
+chk("deuterium_row", "He/H by number at Y_p = 0.249", 0.083, _HeH, 0.01)
+chk("deuterium_row", "D/H gained by breaking 1.7e-5 of the helium", 1.4e-6, 1.7e-5*_HeH, 0.02)
+chk("deuterium_row", "the Y_p it costs", -4.2e-6, -1.7e-5*0.249, 0.02)
+chk("deuterium_row", "energy per hydrogen at 20 MeV per dissociation", 28, 1.7e-5*_HeH*20e6, 0.05, "eV")
 
 
-# --- the deuterium lever-combination test (deuterium_scar 6b/6/7), 2026-07-19 ---
+# --- the deuterium lever-combination test (deuterium_row 6b/6/7), 2026-07-19 ---
 _DH, _errD = 2.387, math.sqrt(0.030**2+0.037**2)
 def _sig(pct): return _DH*pct/100/_errD
-chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.059", 0.34, _sig(0.1160*0.059*100), 0.03, "sigma")
-chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.015", 0.09, _sig(0.1160*0.015*100), 0.05, "sigma")
-chk("deuterium_scar 6b", "sharper transition 0.61eps -> 1.0eps", 0.21, _sig(1.057-0.645), 0.05, "sigma")
-chk("deuterium_scar 6b", "best case, everything additive", -2.39,
+chk("deuterium_row 6b", "below-T_c boost at dN_eff = 0.059", 0.34, _sig(0.1160*0.059*100), 0.03, "sigma")
+chk("deuterium_row 6b", "below-T_c boost at dN_eff = 0.015", 0.09, _sig(0.1160*0.015*100), 0.05, "sigma")
+chk("deuterium_row 6b", "sharper transition 0.61eps -> 1.0eps", 0.21, _sig(1.057-0.645), 0.05, "sigma")
+chk("deuterium_row 6b", "best case, everything additive", -2.39,
     -2.94 + _sig(0.1160*0.059*100) + _sig(1.057-0.645), 0.02, "sigma")
 # section 7 item 3: both dof counts are forced
 _Nc, _Nf = 2, 3
-chk("deuterium_scar 7", "deconfined g* = 2(Nc^2-1) + (7/8)(4 Nc Nf)", 27, 2*(_Nc**2-1)+(7/8)*4*_Nc*_Nf, 1e-9)
-chk("deuterium_scar 7", "confined Goldstones 2Nf^2 - Nf - 1", 14, 2*_Nf**2-_Nf-1, 1e-9)
+chk("deuterium_row 7", "deconfined g* = 2(Nc^2-1) + (7/8)(4 Nc Nf)", 27, 2*(_Nc**2-1)+(7/8)*4*_Nc*_Nf, 1e-9)
+chk("deuterium_row 7", "confined Goldstones 2Nf^2 - Nf - 1", 14, 2*_Nf**2-_Nf-1, 1e-9)
 # section 6: the roster is full, and the seats present are below threshold
-chk("deuterium_scar 6", "str[k1] with one extra sterile (17/gen) breaks finiteness", 3, 17*3-48, 1e-9)
-chk("deuterium_scar 6", "nu_R at the MeV corner vs the He-4 threshold", 4.9, 20.6/4.18, 0.02, "x short")
+chk("deuterium_row 6", "str[k1] with one extra sterile (17/gen) breaks finiteness", 3, 17*3-48, 1e-9)
+chk("deuterium_row 6", "nu_R at the MeV corner vs the He-4 threshold", 4.9, 20.6/4.18, 0.02, "x short")
 
 
-# --- the false-vacuum route does NOT equal the particle route (deuterium_scar 6) ---
+# --- the false-vacuum route does NOT equal the particle route (deuterium_row 6) ---
 _hbarc = 1.9733e-5                                  # eV cm
 _rho_vac = (20e6)**4/_hbarc**3                      # eV/cm3, a 20 MeV-scale false vacuum
 _T_dep, _g = 570.0, 3.36                            # eV, ambient at t = 4e6 s
 _rho_rad = (math.pi**2/30)*_g*_T_dep**4/_hbarc**3
-chk("deuterium_scar 6", "20 MeV false vacuum energy density", 2.08e43, _rho_vac, 0.02, "eV/cm3")
-chk("deuterium_scar 6", "ambient radiation at the deposit epoch", 1.52e25, _rho_rad, 0.02, "eV/cm3")
-chk("deuterium_scar 6", "a space-filling 20 MeV vacuum over-delivers by", 1.37e18, _rho_vac/_rho_rad, 0.01, "x")
+chk("deuterium_row 6", "20 MeV false vacuum energy density", 2.08e43, _rho_vac, 0.02, "eV/cm3")
+chk("deuterium_row 6", "ambient radiation at the deposit epoch", 1.52e25, _rho_rad, 0.02, "eV/cm3")
+chk("deuterium_row 6", "a space-filling 20 MeV vacuum over-delivers by", 1.37e18, _rho_vac/_rho_rad, 0.01, "x")
 _n_gam = (2*1.20206/math.pi**2)*_T_dep**3/_hbarc**3
 _rho_need = 30*6.1e-10*_n_gam
-chk("deuterium_scar 6", "volume fraction allowed in the false vacuum", 5.2e-30, _rho_need/_rho_vac, 0.03)
+chk("deuterium_row 6", "volume fraction allowed in the false vacuum", 5.2e-30, _rho_need/_rho_vac, 0.03)
 
 
-# --- the PBH route (deuterium_scar 5b), priced and killed 2026-07-19 ---
+# --- the PBH route (deuterium_row 5b), priced and killed 2026-07-19 ---
 _Mstar, _tstar = 5.1e14, 4.35e17                    # g, s: PBH evaporating today
 _M_of_tau = lambda tau: _Mstar*(tau/_tstar)**(1/3)
-chk("deuterium_scar 5b", "PBH mass evaporating at 4e6 s", 1.07e11, _M_of_tau(4e6), 0.01, "g")
-chk("deuterium_scar 5b", "PBH mass evaporating at 1e8 s", 3.12e11, _M_of_tau(1e8), 0.01, "g")
-chk("deuterium_scar 5b", "T_H at the window's light end", 99, 1.06*(1e13/_M_of_tau(4e6)), 0.02, "GeV")
-chk("deuterium_scar 5b", "hadronic threshold over photon threshold", 90, 1877/20.6, 0.02, "x")
+chk("deuterium_row 5b", "PBH mass evaporating at 4e6 s", 1.07e11, _M_of_tau(4e6), 0.01, "g")
+chk("deuterium_row 5b", "PBH mass evaporating at 1e8 s", 3.12e11, _M_of_tau(1e8), 0.01, "g")
+chk("deuterium_row 5b", "T_H at the window's light end", 99, 1.06*(1e13/_M_of_tau(4e6)), 0.02, "GeV")
+chk("deuterium_row 5b", "hadronic threshold over photon threshold", 90, 1877/20.6, 0.02, "x")
 # the Li kill, efficiency-free: both bounds from the same population
 _bLi, _bD = 10**-25.34, 10**-23.82
-chk("deuterium_scar 5b", "Li binds tighter than D by", 33, _bD/_bLi, 0.03, "x")
+chk("deuterium_row 5b", "Li binds tighter than D by", 33, _bD/_bLi, 0.03, "x")
 for _tolD, _short in [(0.0125, 156), (0.05, 39)]:
-    chk("deuterium_scar 5b", f"shortfall at D-curve tolerance {_tolD*100:.2g}%", _short,
+    chk("deuterium_row 5b", f"shortfall at D-curve tolerance {_tolD*100:.2g}%", _short,
         0.059/(_tolD*_bLi/_bD), 0.03, "x")
 # pure-EM PBH dodge: no mass is both on-time for ⁴He photodissociation and cool enough
 # to suppress hadrons (T_H ≲ Λ_QCD). Timing window locks T_H ≳ 34 GeV; sub-QCD T locks
@@ -885,13 +885,13 @@ _T_H = lambda M: 1.06e13 / M                         # GeV
 _tau_of_M = lambda M: _tstar * (M/_Mstar)**3
 _M_lo_win, _M_hi_win = _M_of_tau(4e6), _M_of_tau(1e8)
 _M_QCD = 1.06e13 / 0.2                               # T_H = 200 MeV
-chk("deuterium_scar 5b", "pure-EM: min T_H in photodissoc window", 34.0,
+chk("deuterium_row 5b", "pure-EM: min T_H in photodissoc window", 34.0,
     _T_H(_M_hi_win), 0.05, "GeV")
-chk("deuterium_scar 5b", "pure-EM: that min is above Lambda_QCD", 1.0,
+chk("deuterium_row 5b", "pure-EM: that min is above Lambda_QCD", 1.0,
     1.0 if _T_H(_M_hi_win) > 0.2 else 0.0, 1e-9)
-chk("deuterium_scar 5b", "pure-EM: sub-QCD PBH evaporates this late", 5.0e14,
+chk("deuterium_row 5b", "pure-EM: sub-QCD PBH evaporates this late", 5.0e14,
     _tau_of_M(_M_QCD), 0.05, "s")
-chk("deuterium_scar 5b", "pure-EM: sub-QCD lifetime / window high edge", 5.0e6,
+chk("deuterium_row 5b", "pure-EM: sub-QCD lifetime / window high edge", 5.0e6,
     _tau_of_M(_M_QCD)/1e8, 0.1, "x")
 
 
@@ -904,9 +904,9 @@ chk("PHYSICS_DOMAINS 6", "committed-window high end", -1.34, -(2.527-2.463)/_wD,
 chk("PHYSICS_DOMAINS 6", "LCDM control on the same width", -2.25, -(2.527-2.420)/_wD, 0.005, "sigma")
 _wU = math.sqrt(_wD**2+(0.035*2.387)**2)          # ⊕ inter-code ~3.5% relative
 chk("PHYSICS_DOMAINS 6", "spread-unfolded standing row", -1.46, -(2.527-2.387)/_wU, 0.02, "sigma")
-# the committed window IS dNeff 0.06-0.24 (the scar's 0.26-0.29 was a garble)
-chk("deuterium_scar 5", "window low edge from dNeff = 0.06", 2.407, 2.387*(1+0.1350*0.06), 0.001)
-chk("deuterium_scar 5", "window high edge from dNeff = 0.24", 2.463, 2.387*(1+0.1350*0.238), 0.001)
+# the committed window IS dNeff 0.06-0.24 (the deuterium row's 0.26-0.29 was a garble)
+chk("deuterium_row 5", "window low edge from dNeff = 0.06", 2.407, 2.387*(1+0.1350*0.06), 0.001)
+chk("deuterium_row 5", "window high edge from dNeff = 0.24", 2.463, 2.387*(1+0.1350*0.238), 0.001)
 # the quartic era at the recorded lambda and m
 _h_lo = 2e-91*(0.7e26)**2/(2.24e-20)**2
 _h_hi = 2e-91*(1.5e26)**2/(2.24e-20)**2
@@ -1320,20 +1320,20 @@ chk("me_mechanism fence", "the 179 -> 177.10 re-pin, as a fraction of the row wi
 # observational error numerically, which is why the two foldings were hard to separate.
 _OBS, _NUC = 0.030, 0.037
 _RATE = 0.0300                                      # the (retired) extra d(p,g)3He term
-chk("deuterium_scar 1", "2-term width = obs (+) nuclear = STANDING", 0.0476,
+chk("deuterium_row 1", "2-term width = obs (+) nuclear = STANDING", 0.0476,
     math.hypot(_OBS, _NUC), 1e-3)
-chk("deuterium_scar 1", "standing row on the 2-term width", -2.94,
+chk("deuterium_row 1", "standing row on the 2-term width", -2.94,
     (2.387-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
-chk("deuterium_scar 1", "advertised window low edge is the 2-term number", -2.52,
+chk("deuterium_row 1", "advertised window low edge is the 2-term number", -2.52,
     (2.407-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
-chk("deuterium_scar 1", "advertised window high edge is the 2-term number", -1.34,
+chk("deuterium_row 1", "advertised window high edge is the 2-term number", -1.34,
     (2.463-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
 # retired three-term arithmetic, pinned so a stale quote is caught
-chk("deuterium_scar 1", "RETIRED 3-term width (double-counts LUNA)", 0.0563,
+chk("deuterium_row 1", "RETIRED 3-term width (double-counts LUNA)", 0.0563,
     math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 1e-3)
-chk("deuterium_scar 1", "RETIRED standing row on the 3-term width", -2.49,
+chk("deuterium_row 1", "RETIRED standing row on the 3-term width", -2.49,
     (2.387-2.527)/math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 5e-3, "sigma")
-chk("deuterium_scar 1", "the 0.0476 degeneracy: nuclear (+) rate reads the same", 0.0476,
+chk("deuterium_row 1", "the 0.0476 degeneracy: nuclear (+) rate reads the same", 0.0476,
     math.hypot(_NUC, _RATE), 1e-3)
 
 # ---- #169: the g -> lambda map, the composite quartic (added 2026-07-20) ----
