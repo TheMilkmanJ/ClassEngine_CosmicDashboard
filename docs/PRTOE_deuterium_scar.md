@@ -206,11 +206,40 @@ unremarkable by NACRE II's. The same pattern holds across the network: NACRE II'
 d(d,n)³He.** The model is a spectator to it. Nothing in the dyad, the window, the census or the H₀
 lever moves that number.
 
+**The field says the same thing, and has published a bigger error bar than the one in use.**
+Pisanti et al., *Primordial Deuterium after LUNA: concordances and error budget*
+(JCAP 04 (2021) 020, arXiv:2011.11537) — the independent post-LUNA code this corpus already cites
+as its second source — quote **D/H = (2.51 ± 0.06 ± 0.03)×10⁻⁵**, "the two errors obtained by
+propagation of the uncertainties on nuclear rates and baryon density," with dpγ, ddn and ddp all
+varied in their 1σ ranges. **Their nuclear-rate error alone is ±0.06.** They also report that "a 3%
+(7%) maximum difference in R_ddn (R_ddp) can be produced by the different analysis methods and data
+selection" — independently reproducing, from a different direction, the 4.3% PRIMAT↔NACRE gap on
+d(d,n)³He measured above, and confirming that PRIMAT's 1.10% band on that rate is narrower than the
+documented spread *between* analyses.
+
+So the same quantity — the nuclear-rate uncertainty on D/H — is carried at four different values in
+the current literature, and the row moves 2σ across them:
+
+| source of the rate error | value | the row reads |
+|---|---|---|
+| PRyM propagated on PRIMAT's bands (measured here) | ±0.0240 | **−3.64σ** |
+| PRIMAT total, incl. τ_n and ω_b (what the corpus borrows) | ±0.037 | **−2.94σ** |
+| Pisanti et al. 2021, rates only (published) | ±0.060 | **−2.09σ** |
+| PRyM propagated on NACRE II's bands (measured here) | ±0.0807 | **−1.63σ** |
+
+**The standing −2.94σ rests on the tightest error assessment available, and it is not this code's
+own.** On the published budget of the independent post-LUNA analysis the row is **−2.0σ**. Three
+routes — NACRE II's bands, folding the compilation spread, and Pisanti's published budget — land
+between −1.6σ and −2.1σ; only PRIMAT's bands put it past −2.9σ.
+
 **This is the sharpest experimental ask the scar generates**, and it is not a request for new
 physics: measure **d(d,n)³He at BBN energies (T₉ ≈ 0.5–1.2)** to the precision LUNA reached on
-d(p,γ)³He. If it lands on PRIMAT's band the row is −3.6σ and the model is in real trouble on
-deuterium; if NACRE II's error assessment is the honest one, the row is −1.6σ and this was never a
-crisis. **P-2026-027's radio referee decides the observational side of the fork; this decides the
+d(p,γ)³He — the reaction LUNA itself now names as the top remaining priority: *"the new challenge is
+now the measurement of the D(d,n)³He and D(d,p)³H reactions, which have become the most prominent
+source of uncertainty in the determination of the primordial deuterium abundance"* (Cavanna for the
+LUNA collaboration, EPJ Web Conf. 279, 01002 (2023)). As of mid-2026 it has not been done. If the
+rate lands on PRIMAT's band the row is −3.6σ and the model is in real trouble on deuterium; on the
+wider assessments it is −1.6 to −2.1σ and this was never a crisis. **P-2026-027's radio referee decides the observational side of the fork; this decides the
 theory side, and it is the larger of the two.**
 
 ---

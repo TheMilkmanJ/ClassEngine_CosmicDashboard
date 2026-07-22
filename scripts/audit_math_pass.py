@@ -328,6 +328,15 @@ chk("deuterium_scar", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16
 chk("deuterium_scar", "recombination is later than the window close by", 1.2e5,
     1.2e13/1e8, 2e-2, "x")
 
+# the same quantity carried at four values across the literature (2 sigma of spread on the row)
+chk("deuterium_scar", "row on Pisanti 2021's published rate error 0.060", -2.09,
+    (2.387021-2.527)/math.hypot(0.030, 0.060), 1e-2, "sigma")
+chk("deuterium_scar", "Pisanti's rate error vs PRyM-on-PRIMAT-bands", 2.50,
+    0.060/0.0240, 2e-2, "x")
+chk("deuterium_scar", "spread on the row across the four rate-error assessments", 2.01,
+    abs((2.387021-2.527)/math.hypot(0.030,0.0240) - (2.387021-2.527)/math.hypot(0.030,0.0807)),
+    2e-2, "sigma")
+
 # the compilation spread localised: it is d(d,n)3He, and the argument is about its error bar
 chk("deuterium_scar", "d(d,n)3He share of the compilation shift", 0.94,
     0.05240/0.05557, 3e-2)
