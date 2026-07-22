@@ -9,7 +9,7 @@ it. It's all one very well designed phase transition to phase transition. Linear
 unification, not looped: not everything should be connected directly, but the epochs
 touching each other definitely should be — it's the only way they can transition."*
 
-**THE CHAIN DISCIPLINE (structural law):** adjacent epochs must exchange explicit
+The chain discipline, a structural law: adjacent epochs must exchange explicit
 handoffs; **non-adjacent epochs may correlate only THROUGH the chain** — any claimed
 correlation between distant epochs must trace through every intermediate link (the
 winding integer n appearing in both genesis and the CMB comb is legal because every link
@@ -161,9 +161,9 @@ next cycle's genesis reads this cycle's closing books and nothing else.
 
 ## What the chain holds, and what it owes
 
-**Solid spine:** tethers 1→2→3→4, 6→7, 9→10, and 10→11's expanding branch (computed) — the
+Solid spine: tethers 1→2→3→4, 6→7, 9→10, and 10→11's expanding branch (computed) — the
 mid-chain is the model's strength (which is why the fit works: the data lives mid-chain).
-**The two named debts (what unification still owes):** (i) the bounce equations (0→1) and
+The two named debts, what unification still owes: (i) the bounce equations (0→1) and
 the contracting branch (the expanding turn is computed — a ≈ 2.0–2.8, MATH_SPINE §7d; the
 bounce sector holds both ends of the cycle); (ii) **the scaling mechanism at link 5** — what holds
 ξ/ℓ_H at 3.45×10⁻³ across every decade the CMB resolves. *(The draw-epoch conflict this debt used
@@ -174,7 +174,7 @@ returns n_s = 4 against a measured 0.9649. So there is no epoch to reconcile —
 the other a process. What survives is the scaling picture's own missing mechanism, which is a
 different and harder debt than the one it replaces.)* *(The τ link reduced
 to the edge-shape discriminator link 7 already carries — tether 7→8.)*
-**Checked-and-cold rooms (filed, no claims):** the condensation GW background (misses
+Checked-and-cold rooms, filed with no claims: the condensation GW background (misses
 PTA both ways); the 511 keV line vs leptophilia (the transfer vertex is seesaw-tiny —
 cold by the recorded number, one honest look owed someday); **quark flavour**, which is cold by
 *size* rather than by symmetry, and so files here rather than among the constitutional silences.
@@ -190,7 +190,7 @@ A second and independent bound shuts the same door from the other side: a univer
 phase-blind, while the Majoron's tree coupling is to the phase — so what holds the quarks away is a
 number, and a number can be reopened by better data in a way a symmetry cannot.
 
-**Principled silences (not debts):** strong-CP, collapse dynamics, the jurisdiction
+Principled silences, not debts: strong-CP, collapse dynamics, the jurisdiction
 clause, and
 **the CMB cold spot** — the anomaly family's machinery is anisotropic-Gaussian (axes, spectra,
 covariances) and a cold spot is localized, sign-definite and phase-coherent, so no link
