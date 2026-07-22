@@ -1,9 +1,9 @@
 # PRTOE — The Cyclic / Torus / Twist-Genesis Arc
 
-> **STATUS: STORY-GRADE — a coherent narrative assembled from real mechanisms, not a
-> derivation.** Its own closing verdict says so, and that grade stands: the bounce and cyclic
+> This arc is story-grade — a coherent narrative assembled from real mechanisms, not a
+> derivation. Its own closing verdict says so, and that grade stands: the bounce and cyclic
 > rungs still face the standing theorems, and several scales here are chosen rather than
-> derived. **One element has since become load-bearing:** the negative bare vacuum named in
+> derived. One element has since become load-bearing: the negative bare vacuum named in
 > this arc is what makes the turn possible at all — the thawing floor alone approaches zero
 > from above and never reverses the expansion
 > ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d). Read the rest at story grade.
@@ -65,7 +65,7 @@ twist_floor.py, c1_locus_twist.py.*
 ### 8. The torus convergence — two independent threads meet (P-2026-013)
 - The torus was ALREADY the registered shape: **P-2026-013**, flat 3-torus, motivated independently (finitism, no-center, H₀-safe). **The low quadrupole is not among its motivations:** regenerated ISW-inclusive on a retained generator, the retention at the matched-circles floor L = 27.6 Gpc is 0.90, so the largest suppression any permitted box delivers is 10% — 0.16σ against the quadrupole's own 63% cosmic variance, and nowhere near the observed 0.2–0.5. What survives is the *shape* — suppression confined to the lowest multipoles and gone by ℓ ≈ 4 — and the test's relocation from the power spectrum to the off-diagonal covariance.
 - Genesis, worked from the other end, **demands** a torus for the twist axis. Independent convergence.
-- **The GR name for this instant [GRAMMAR + EXPLORATORY]:** the heat-fountain genesis reads as the one realized white-hole-like handover — the time-reverse solution GR always carried, cashed exactly once with no exterior counterparty. Causal-structure reading, not a derivation; the identification, grades, and fences: [PRTOE_white_holes.md](PRTOE_white_holes.md).
+- The GR name for this instant: the heat-fountain genesis reads as the one realized white-hole-like handover — the time-reverse solution GR always carried, cashed exactly once with no exterior counterparty. Causal-structure reading, not a derivation; the identification, grades, and fences: [PRTOE_white_holes.md](PRTOE_white_holes.md).
 - **Cross-bounce bookkeeping:** rotation is dynamical (resets to 0 at crunch); **topology is not** — the torus survives and carries the axis across the bounce for the heat fountain to re-seed spin. Topology holds what dynamics loses.
 
 ### 9. Bubble-ring mechanism + the LOCAL≠GLOBAL torus caveat
@@ -90,12 +90,12 @@ A **coherent cyclic-genesis narrative assembled from real mechanisms** (acoustic
 The birefringence coupling is NOT posited -- it is the anomaly shadow of the SAME lepton
 coupling that gives the dyad (complex Yukawa + charged electron → Fujikawa → θ F.Ftilde).
 
-**Three gates (scratchpad/birefringence_gates.py):**
-- G1 structural: PASS. coupling FORCED by the anomaly (not a dial).
-- G3 varying-α: PASS. phase is a PSEUDOSCALAR → F.Ftilde only (parity-odd), induces ZERO
+Three gates (scratchpad/birefringence_gates.py):
+- G1 structural: passes — the coupling is forced by the anomaly, not a dial.
+- G3 varying-α: passes — the phase is a pseudoscalar → F.Ftilde only (parity-odd), induces ZERO
  varying-α; dyad's radial mode gives Δ a/a~2×10⁻⁵ confined to z>50, quasar-BLIND, 208x
  under the CMB bound. The landmine that killed standalone varying-α cannot reach it.
-- G2 magnitude: **FAILS at natural values** (a decisive catch, accepted). The
+- G2 magnitude: fails at natural values (a decisive catch, accepted). The
  amplitude carries a hidden factor: β = (α/2pi) N_e (m_Psi/m_e) Dtheta. The dyad needs
  only m_Psi VARIATION ~1.24% of m_e → at that natural value β~0.003 deg, 100x UNDER the
  claimed 0.30° hint (calibration-degenerate; the model's own prediction is zero, P-2026-009). Reaching 0.3 deg requires m_Psi/m_e~1 = m_e FULLY Psi-sourced = the
@@ -106,7 +106,7 @@ twist Dtheta sets the DE thawing (w0>-1) AND β. One field's twist, two skies --
 m_e CANNOT make this link. Structurally distinctive; N_e pinned by leptophilia (nothing to
 cancel → target A passes). This is the ontology's first distinctive-IN-PRINCIPLE object.
 
-**The electron EDM (target B, scratchpad/electron_edm.py) -- the second blade, CUTS:** the same
+The electron EDM (target B, scratchpad/electron_edm.py) — the second blade — cuts: the same
 complex Yukawa gives the electron a CP-odd coupling → electron EDM. One-loop y_e²-suppressed
 (~1×10⁻³⁵, safe). But the TAU Barr-Zee (leptophilic includes τ) → d_e~1×10⁻²⁶ e.cm = ~2000x OVER
 JILA (4.1×10⁻³⁰), robust to the owed prefactor (factor-10 still 200x over). d_e~sin(φ)~β →
@@ -119,7 +119,7 @@ escape (heavier <Psi>) worsens the hierarchy.
  open the door and (b) buys a "why only the electron" flavor-selectivity debit. EDM escapable;
  door is not.
 
-**VERDICT (accepted):** the MECHANISM is real & ΛCDM-inaccessible, but THIS model
+The verdict, accepted: the mechanism is real and ΛCDM-inaccessible, but this model
 cannot wear it at observable amplitude -- both roads (universal-lepton = door+EDM dead;
 electron-specific = door+flavor-puzzle) end at the DOOR. SHOT 1 was dented, then re-closed, and
 stands firmer. The claim is held provisional pending its named referees. The DOOR (m_e fully
