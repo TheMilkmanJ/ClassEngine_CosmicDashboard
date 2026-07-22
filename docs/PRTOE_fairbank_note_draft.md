@@ -205,6 +205,36 @@ carrying all of it, p = 0.12–0.21. The model sits on the low side of the deute
 self-adverse position, registered before its referee (P-2026-027, a dark-ages radio measurement of
 primordial D/H at 327 MHz, free of astration and quasar optics).
 
+**We have since taken that systematic apart inside our own pipeline, and it is one reaction.** Our
+BBN code ships both the PRIMAT and NACRE II rate compilations; switching between them and changing
+nothing else moves our D/H by +2.33% and the row from −2.94σ to −1.77σ, while helium moves 0.02σ.
+Attributing that shift rate by rate, **d(d,n)³He carries 94% of it** — and it is not a LUNA effect,
+since the two compilations agree on d(p,γ)³He, the reaction LUNA measured, to 0.12%. What they
+disagree about is less the rate than how well it is known: on d(d,n)³He, PRIMAT quotes a 1σ band of
+1.10% and NACRE II quotes 5.86%, a factor of 5.2, and their central values differ by 4.31% — a 4σ
+discrepancy by PRIMAT's lights and unremarkable by NACRE II's.
+
+That is not our finding alone. Pisanti et al. (JCAP 04 (2021) 020) quote
+D/H = (2.51 ± 0.06 ± 0.03)×10⁻⁵ with the two errors from nuclear rates and baryon density — **a
+rate error of ±0.06, 2.5× the ±0.037 we and most others use** — and report a 3% spread in the
+d(d,n)³He rate from analysis-method choice alone. The LUNA collaboration has publicly named these
+channels the top remaining priority: *"the new challenge is now the measurement of the D(d,n)³He
+and D(d,p)³H reactions, which have become the most prominent source of uncertainty in the
+determination of the primordial deuterium abundance"* (EPJ Web Conf. 279, 01002 (2023)). As of
+now it has not been done.
+
+**So this column's magnitude is set by a nuclear datum the field has not settled.** The rate error
+is carried at four different values in the current literature, and the *baseline* row — the 2.387
+figure above, before the dilution is added — reads anywhere from **−3.6σ to −1.6σ** across them.
+(That range is a statement about the error bar at one prediction; the −2.5 to −1.4σ quoted earlier
+is a different object, the span of the ζ window at one fixed error bar.) Our −2.94σ uses the
+tightest assessment available, which is the conservative choice and not our own code's. We have registered the consequence as a two-sided bet rather than
+leave it as a caveat (P-2026-058): closing our prediction onto Cooke requires the true d(d,n)³He
+rate to sit 5.0–9.6% below PRIMAT's central value. If a LUNA-precision measurement confirms PRIMAT
+to ~1%, our deuterium prediction is wrong at −3.6σ and no lever in the model reaches it. We note
+plainly that this bet is largely shared with ΛCDM, which needs −8.9% on the same rate; it
+discriminates only in a narrow band.
+
 ## Where the deuterium deficit comes from
 
 Taking that column apart changes what it is a statement about. Below, the chain is shown at ζ's
@@ -284,11 +314,13 @@ particularly the two-sided kill structure, and whether the floor's thinness is s
 wants stated up front or regards as obvious.
 
 **(b)** A critical eye on the BBN sector, where the model is weakest. Three questions rather than
-one: whether the PRIMAT/PArthENoPE deuterium spread should be carried as a theory error, which is
-the difference between rejection at 5% and comfort; whether the decomposition above is the right
-reading of the deficit — that is, whether a tension living in the baryon density and trading against
-H₀ at a fixed rate should be argued as a BBN problem at all, or as a statement about where on the
-m_e–ω_b degeneracy the data wants to sit; and whether the dark-ages radio referee is a real path.
+one: given that the compilation spread localises to d(d,n)³He and that two published compilations
+disagree about that rate's uncertainty by a factor of five, which error assessment a referee would
+expect us to stand on — the difference is rejection at 5% versus comfort, and we have deliberately
+taken the harshest; whether the decomposition above is the right reading of the deficit — that is,
+whether a tension living in the baryon density and trading against H₀ at a fixed rate should be
+argued as a BBN problem at all, or as a statement about where on the m_e–ω_b degeneracy the data
+wants to sit; and whether the dark-ages radio referee is a real path.
 
 **(c)** Two numbers we took from the outside and you own from the inside: whether 4.7 meV is the
 right baseline nEXO reach to plan against at the favourable ¹³⁶Xe matrix element, and whether the

@@ -4259,3 +4259,37 @@ slope, which is a 36% measurement of a negligible number) — a fact neither the
 The re-run is not owed; it buys nothing. Both slopes and the net are pinned in the harness. The fit
 residuals independently re-measure the non-smoothness at 0.064% and 0.121% of D/H, matching the
 ~0.1% found on the ω_b axis.
+
+## BATCH 14 (2026-07-21): the Fairbank letter, re-audited under the protocol
+
+Re-audited because the day's BBN work landed after its 2026-07-19 pass, and the letter is the
+corpus's most exposed audience-facing document. Read whole, not grepped.
+
+**Every number reconciles.** The decomposition table (2.420 / 2.372 / 2.387 → −2.25σ / −3.25σ /
+−2.94σ), the window's +0.31σ, the graft to −1.93σ, the exchange rate 0.59σ per km/s/Mpc, the
+1.17 km/s/Mpc parity cost and its 69%, the ~3× extrapolation to Cooke, the m_ββ window [0.04, 5.30]
+and its 2.324 meV triangle-closure threshold at 6σ, the 10.8% / 31.7% / 63.7% probabilities, and
+the 0.45% = 1.8%/4 quartering — all check against the harness or recompute.
+
+**The finding is staleness, not arithmetic (check 7 + the propagation rule).** The letter's
+nuclear-code-systematic paragraph and its ask (b) were written before today's work and were
+materially behind the corpus. Ask (b) put a question to the referee — should the PRIMAT/PArthENoPE
+spread be carried as a theory error — that the day had substantially answered. Updated with: the
+in-pipeline compilation measurement (+2.33%, −2.94σ → −1.77σ, Y_p 0.02σ), its localisation to
+**d(d,n)³He at 94%**, the 5.2× disagreement between the two compilations' own error bars on that
+rate, Pisanti et al.'s published ±0.06 rate error, LUNA's own statement naming the measurement as
+the top open priority, and P-2026-058. Ask (b) is re-pointed at the question that is now actually
+open — which error assessment a referee expects us to stand on.
+
+**Check 4 caught a defect the edit itself created.** The new paragraph's "−3.6σ to −1.6σ" range
+(the baseline row across four width constructions) sat in the same letter as "−2.5 to −1.4σ" (the ζ
+window at one fixed width) with nothing distinguishing them — exactly the "same quantity at two
+stages of one calculation" species. A clause now names each object.
+
+**Check 6.** Both new citations were absent from `BIBLIOGRAPHY.md` — Pisanti et al. JCAP 04 (2021)
+020 lived only in `PRTOE_references.md`, and the LUNA 2023 proceedings nowhere. Both added with
+what the letter uses them for.
+
+`PRTOE_fairbank_note_HOLD.md` read for contradictions against the draft: none. Its one deuterium
+line (PArthENoPE underwriting the theory error) remains true and is now the narrower half of a
+better-understood picture. Harness 711/711.
