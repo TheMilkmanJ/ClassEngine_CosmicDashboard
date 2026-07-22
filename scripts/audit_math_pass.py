@@ -740,6 +740,31 @@ chk("forced_combination", "c_2 recovered from the pair", 1.9236,
 _LHY = (8/(15*_m.pi**2))*_m.sqrt(ac)                 # the coefficient of lambda
 chk("cosmological_constant", "LHY coefficient (8/15pi^2)*sqrt(alpha_c)", 0.0079954, _LHY, 1e-4)
 chk("cosmological_constant", "the same on rho_Lambda^(1/4), i.e. /4", 0.0019989, _LHY/4, 1e-4)
+# THREE_EQUATIONS quotes the BAND, not the coefficient: at the measured coefficient 0.0084
+# (the leading 0.0079954 above plus the O(alpha_c) relativistic term -- reconciled below) swept
+# over the derived lambda = 26-46, dE/E_MF = 22-39%, hence 5.4-9.8% on rho_Lambda^(1/4).
+# Check 19: the band and the range it was swept over are re-run here from one endpoint each.
+_LHY_MEAS = 0.0084
+chk("THREE_EQUATIONS", "LHY dE/E_MF at lambda = 26", 22.0, 100*_LHY_MEAS*26, 2e-2, "%")
+chk("THREE_EQUATIONS", "LHY dE/E_MF at lambda = 46", 39.0, 100*_LHY_MEAS*46, 2e-2, "%")
+chk("THREE_EQUATIONS", "the band on rho_Lambda^(1/4), lower edge", 5.4, 25*_LHY_MEAS*26, 2e-2, "%")
+chk("THREE_EQUATIONS", "the band on rho_Lambda^(1/4), upper edge", 9.8, 25*_LHY_MEAS*46, 2e-2, "%")
+
+# --- the three eps values THREE_EQUATIONS distinguishes, and the trap it warns against ----
+# 1.232% production-chain fit; 1.2403 +/- 0.0079% the concordance joint; 1.2543% the derived
+# stack. The file's warning is that reading the derived value against the JOINT's width returns
+# a spurious ~1.8 sigma, because the joint already contains the number under test.
+_EPS_FIT, _EPS_JOINT, _EPS_JOINT_SD = 1.232, 1.2403, 0.0079
+_EPS_DER = 27*ALPHA/(5*math.pi)*100
+chk("THREE_EQUATIONS", "derived minus production-chain fit, as % of the value", 1.81,
+    100*(_EPS_DER-_EPS_FIT)/_EPS_FIT, 2e-2, "%")
+chk("THREE_EQUATIONS", "the SPURIOUS sigma from the concordance joint's width", 1.77,
+    (_EPS_DER-_EPS_JOINT)/_EPS_JOINT_SD, 2e-2, "sigma")
+# the honest width: the chain posterior varying_me = 1.0126 +/- 0.0041 -> eps = 1.26 +/- 0.41%
+chk("THREE_EQUATIONS", "chain posterior as eps, central", 1.26, (1.0126-1)*100, 1e-2, "%")
+chk("THREE_EQUATIONS", "chain posterior as eps, width", 0.41, 0.0041*100, 1e-2, "%")
+chk("THREE_EQUATIONS", "derived eps sits this far into the honest width", 0.014,
+    abs(_EPS_DER-1.26)/0.41, 5e-2, "sigma")
 # RECONCILED (tribunal, Thermal_O1_Discussions.md, 2026-07-17): the two values are not a
 # conflict. 0.0080 is the LEADING closed-form coefficient (line 621); 0.0084 is the MEASURED
 # value with the O(alpha_c) relativistic correction folded in -- the ~5% gap below IS that

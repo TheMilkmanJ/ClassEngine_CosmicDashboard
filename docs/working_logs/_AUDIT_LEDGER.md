@@ -4293,3 +4293,41 @@ what the letter uses them for.
 `PRTOE_fairbank_note_HOLD.md` read for contradictions against the draft: none. Its one deuterium
 line (PArthENoPE underwriting the theory error) remains true and is now the narrower half of a
 better-understood picture. Harness 711/711.
+
+## BATCH 15 (2026-07-21): THREE_EQUATIONS at Fairbank depth — clean, 9 checks added
+
+Read whole. **No defects.** Every number recomputes: τ = ½ln2 = 0.34657, T_c = τ·m_e = 177.10 keV,
+ρ_Λ¼ = (9/2)α⁴T_c = 2.2599 meV (+0.44%), ε = 27α/5π = 1.25433%, c·f̄·α_c to the same digit,
+Σ N_c Q² = 8 → c = 8/9, the z_on identity 4.03×10⁷ / log₁₀ 7.605, the run's 3.5619×10⁷ at 0.053 dex
+and the 28% mass miss it implies, the A_s closed form (α_c/4πk)³, and the m_ββ / Σm_ν rows.
+
+**Check 15 fired on the auditor, immediately and four times.** Grepping `177.10`, `4.03e7`,
+`0.053`, `1.75e-20` and `8/9` against the harness returned zero hits each, and all five are booked —
+as `Tc/1e3`, `_Ton/_T0`, a dex difference against 7.547, `_m_run`, and `_Q2`. Every one of those
+"gaps" was the search's shape, not the harness's coverage. **Nothing was booked absent.** This is the
+protocol's most-committed error and it cost one command to avoid.
+
+**Check 20a resolved the one suspicion that survived a second look.** THREE_EQUATIONS quotes an LHY
+band of 5.4–9.8% on ρ_Λ¼ over λ = 26–46; the harness's coefficient (8/15π²)√α_c = 0.0079954 gives
+5.2–9.2% over that range, a ~6% miss with exactly check 19's signature. It is not a defect: the doc
+uses the **measured** coefficient 0.0084 — the leading closed form plus the O(α_c) relativistic
+term — and the harness's own comment records that reconciliation eleven lines below the check.
+0.0084 × [26, 46] / 4 = 5.5–9.7%. Reading the neighbouring lines (check 2a) settled in one pass what
+re-running the pattern would not have.
+
+**Nine checks added, all genuine coverage gaps:**
+
+- the LHY **band** itself, both endpoints on ΔE/E_MF and both on ρ_Λ¼ — previously only the
+  coefficients were pinned, so the band and its swept range could drift apart unseen (check 19);
+- the three ε values the file deliberately distinguishes: the derived stack against the
+  production-chain fit 1.232% is **+1.81% of the value**;
+- **the trap the file warns about, now pinned**: reading the derived ε against the concordance
+  joint's ±0.0079% returns a spurious **1.77σ**, because that joint contains the number under test.
+  The warning was prose; it is now a check, so the spurious figure cannot be quoted as real;
+- the honest width instead — chain posterior `varying_me` = 1.0126 ± 0.0041 → ε = 1.26 ± 0.41% —
+  and the derived value's distance into it: **0.014σ**, i.e. dead centre.
+
+*(An auditor arithmetic error was caught by the harness on the way in: that last check was first
+booked at 0.13σ. It is 0.0138. The harness refusing it is the instrument working.)*
+
+Harness 720/720.
