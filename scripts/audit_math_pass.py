@@ -328,6 +328,21 @@ chk("deuterium_scar", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16
 chk("deuterium_scar", "recombination is later than the window close by", 1.2e5,
     1.2e13/1e8, 2e-2, "x")
 
+# PRyM's OWN theory error on D/H, propagated from its per-reaction p = +1 sigma bands
+_RATE_PULLS = {"dpHe3g": -0.017288, "ddHe3n": -0.013019, "ddtp": -0.009838,
+               "He3ntp": 0.002963, "npdg": 0.001344, "He3dap": -0.000345}
+_PRYM_RATE_ERR = math.sqrt(sum(v*v for v in _RATE_PULLS.values()))
+chk("deuterium_scar", "PRyM's own nuclear-rate error on D/H", 0.0240, _PRYM_RATE_ERR, 1e-2)
+chk("deuterium_scar", "d(p,g)3He share of that variance", 0.52,
+    _RATE_PULLS["dpHe3g"]**2/sum(v*v for v in _RATE_PULLS.values()), 2e-2)
+chk("deuterium_scar", "PRyM's rate error vs the borrowed PRIMAT 0.037", 0.65,
+    _PRYM_RATE_ERR/0.037, 2e-2, "x")
+chk("deuterium_scar", "row on Cooke + PRyM rates alone", -3.64,
+    (2.387021-2.527)/math.hypot(0.030, _PRYM_RATE_ERR), 1e-2, "sigma")
+chk("deuterium_scar", "row with the compilation systematic folded in", -1.96,
+    (2.387021-2.527)/math.sqrt(0.030**2 + _PRYM_RATE_ERR**2 + 0.0190**2
+                               + 0.0128**2 + 0.0556**2), 2e-2, "sigma")
+
 # the nuclear rate-compilation systematic, measured in-pipeline (PRTOE_NACREII=1)
 _NAC_M, _NAC_C = 2.442591, 2.475125          # NACRE II: model row, LCDM control
 _PRI_M, _PRI_C = 2.387021, 2.416372          # PRIMAT (production): same two points

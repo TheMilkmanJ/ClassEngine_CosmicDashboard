@@ -129,9 +129,48 @@ therefore not conservative in the way it reads.
 *(`scripts/prym_ramped_splice.py` exposes both through `PRTOE_NACREII=1` and `PRTOE_TAUN=<s>`,
 off by default so production is unchanged.)*
 
-**What this makes owed.** The model runs PRyM but borrows PRIMAT's ±0.037 as its theory error. PRyM
-carries per-rate uncertainties of its own and can propagate them. Until that is done the row's width
-is inherited rather than computed, and the compilation systematic above sits outside it entirely.
+**The theory error, computed rather than borrowed.** PRyM carries a nuisance parameter per reaction
+that scales the rate by exp(p·ln σ), so p = ±1 is exactly its own ±1σ band. Pulling each
+D/H-relevant reaction in turn, on the model's own configuration:
+
+| reaction | ΔD/H at +1σ | % of D/H |
+|---|---|---|
+| d(p,γ)³He | −0.01729 | −0.72 |
+| d(d,n)³He | −0.01302 | −0.55 |
+| d(d,p)³H | −0.00984 | −0.41 |
+| ³He(n,p)³H | +0.00296 | +0.12 |
+| p(n,γ)d | +0.00134 | +0.06 |
+| ³He(d,p)⁴He | −0.00035 | −0.01 |
+
+In quadrature, **PRyM's own nuclear-rate error on D/H is ±0.0240** — the first time this row's theory
+error has been computed in the code that produces the prediction. **d(p,γ)³He alone carries 52% of
+the variance**, confirming from the model's own network what #157 settled from the literature: it is
+the dominant deuterium channel, and folding it in twice was a double count.
+
+**The borrowed ±0.037 is a different object.** PRIMAT's Monte-Carlo varies rates, τ_n *and* the
+CMB+BAO baryon posterior. Rebuilding that same combination from PRyM's ingredients — rates 0.0240,
+the model's own ω_b posterior 0.0190, the τ_n beam–bottle systematic 0.0128 — gives **0.0331**, so
+±0.037 is not unreasonable. But it is another code's number, and it silently carries a baryon term
+that is PRIMAT's rather than this model's.
+
+**The row is width-construction-dependent at the 1.7σ level, and that is now the largest single
+uncertainty on it:**
+
+| width built from | width | the row reads |
+|---|---|---|
+| Cooke ⊕ borrowed PRIMAT 0.037 (standing) | 0.0476 | **−2.94σ** |
+| Cooke ⊕ PRyM's own rates | 0.0384 | **−3.64σ** |
+| Cooke ⊕ PRyM rates ⊕ model ω_b ⊕ τ_n | 0.0447 | **−3.13σ** |
+| …⊕ the compilation systematic | 0.0713 | **−1.96σ** |
+
+Every one of those is defensible; they differ by **1.7σ**. The standing −2.94σ sits mid-range by the
+accident of having borrowed another code's error rather than computed one. **Which construction the
+corpus stands on is a booking, not a desk computation, and it is owed.** The two ends are not
+symmetric in kind: the narrow end omits a systematic that is measured and real, and the wide end
+folds in a compilation spread while still quoting one compilation's central value, which needs the
+central value moved too if it is taken.
+
+
 
 ---
 

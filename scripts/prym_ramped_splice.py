@@ -55,6 +55,15 @@ if os.environ.get("PRTOE_NACREII") == "1":
     pri.ReloadKeyRates()
 if os.environ.get("PRTOE_TAUN"):
     pri.tau_n = float(os.environ["PRTOE_TAUN"]) * pri.second
+#   PRTOE_PRATE="dpHe3g=1,ddHe3n=-1"  pull named reaction rates by p sigma each. PRyM scales
+#   a rate as median*exp(p*ln(expsigma)), so p = +/-1 is exactly its own +/-1 sigma band.
+if os.environ.get("PRTOE_PRATE"):
+    for _kv in os.environ["PRTOE_PRATE"].split(","):
+        _k, _v = _kv.split("=")
+        _attr = "p_" + _k.strip()
+        if not hasattr(pri, _attr):
+            raise SystemExit(f"unknown reaction '{_k.strip()}' (no PRyMini.{_attr})")
+        setattr(pri, _attr, float(_v))
 if wb_scale != 1.0:                  # the eta-flow, applied before anything derives from it
     pri.Omegabh2 = pri.Omegabh2*wb_scale
     pri.eta0b    = pri.Omegabh2_to_eta0b*pri.Omegabh2
