@@ -328,6 +328,22 @@ chk("deuterium_scar", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16
 chk("deuterium_scar", "recombination is later than the window close by", 1.2e5,
     1.2e13/1e8, 2e-2, "x")
 
+# the nuclear rate-compilation systematic, measured in-pipeline (PRTOE_NACREII=1)
+_NAC_M, _NAC_C = 2.442591, 2.475125          # NACRE II: model row, LCDM control
+_PRI_M, _PRI_C = 2.387021, 2.416372          # PRIMAT (production): same two points
+chk("deuterium_scar", "NACRE II moves the model row to", -1.77, _sig(_NAC_M), 1e-2, "sigma")
+chk("deuterium_scar", "the compilation systematic on the model row", 1.167,
+    _sig(_NAC_M)-_sig(_PRI_M), 1e-2, "sigma")
+chk("deuterium_scar", "the same systematic on the LCDM control", 1.233,
+    _sig(_NAC_C)-_sig(_PRI_C), 1e-2, "sigma")
+chk("deuterium_scar", "model-minus-control is compilation-ROBUST", -0.067,
+    (_sig(_NAC_M)-_sig(_NAC_C))-(_sig(_PRI_M)-_sig(_PRI_C)), 5e-2, "sigma")
+chk("deuterium_scar", "compilation systematic vs the borrowed 0.037 theory error", 1.50,
+    abs(_NAC_M-_PRI_M)/0.037, 2e-2, "x")
+chk("deuterium_scar", "tau_n bottle->beam on D/H", 0.268, _sig(2.399781)-_sig(_PRI_M), 2e-2, "sigma")
+chk("deuterium_scar", "tau_n bottle->beam on Y_p (wrong shape)", 0.475,
+    (0.251086-0.249185)/0.0040, 2e-2, "sigma")
+
 # gravity vs EM as BBN dials -- settles the recurring "BBN was EM-governed" proposal
 _NEFF = 3.044
 _dlnrho_dN = 0.2271/(1+0.2271*_NEFF)

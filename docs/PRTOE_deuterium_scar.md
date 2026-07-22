@@ -93,6 +93,48 @@ residuals ~5×10⁻⁴, and near-independent of the window.
 
 ---
 
+## 2b. The nuclear-data systematic, measured inside the pipeline
+
+The corpus has long named the inter-code spread (PRIMAT 2.439 against PArthENoPE 2.51–2.54) as the
+row's genuinely open systematic, and left it unfolded. It is now measured *inside the model's own
+code*, on the model's own configuration. PRyM ships both rate compilations for its twelve key
+reactions; the production runs use PRIMAT's. Switching to NACRE II and changing nothing else:
+
+| rate compilation | model D/H | vs Cooke | ΛCDM control | vs Cooke | model − control |
+|---|---|---|---|---|---|
+| PRIMAT (production) | 2.3870 | **−2.94σ** | 2.4164 | −2.32σ | **−0.62σ** |
+| NACRE II | 2.4426 | **−1.77σ** | 2.4751 | −1.09σ | **−0.68σ** |
+
+**The choice of nuclear rate compilation is worth 1.17σ on this row** — a +2.33% shift in D/H, with
+Y_p moving by only −0.02σ. That is the deuterium-only shape the lever census spent §5 hunting, and
+it arrives from nuclear data rather than from any mechanism.
+
+**It is not a heal, and must not be quoted as one.** The compilation moves the ΛCDM control by
++1.23σ, essentially the same amount. **The model-versus-control gap changes by 0.067σ** — from
+−0.616σ to −0.683σ. Whatever this model is doing wrong on deuterium relative to ΛCDM, it is doing
+just as wrong under either compilation. The gap is the compilation-robust statement; the absolute
+row is not.
+
+**What it does mean is that the headline is a PRIMAT number, not a model property.** Quoting
+−2.94σ without naming the compilation attributes to the model a deficit that nuclear data is
+carrying most of. And the systematic is **0.0556 in D/H units — 1.5× the ±0.037 theory error the
+standing width is built from**, because PRIMAT's Monte-Carlo error propagates rate *uncertainties
+within* its own compilation and cannot see the choice *between* compilations. The standing width is
+therefore not conservative in the way it reads.
+
+**The neutron lifetime, for completeness.** Moving τ_n from the bottle value the code uses
+(878.4 s) to the beam value (887.7 s) — the unresolved 4σ discrepancy — gives D/H +0.27σ but Y_p
++0.48σ, so it is the wrong shape and is not a lever. It is a real systematic and is now pinned.
+
+*(`scripts/prym_ramped_splice.py` exposes both through `PRTOE_NACREII=1` and `PRTOE_TAUN=<s>`,
+off by default so production is unchanged.)*
+
+**What this makes owed.** The model runs PRyM but borrows PRIMAT's ±0.037 as its theory error. PRyM
+carries per-rate uncertainties of its own and can propagate them. Until that is done the row's width
+is inherited rather than computed, and the compilation systematic above sits outside it entirely.
+
+---
+
 ## 3. The exchange rate — deuterium and H₀ are one object
 
 The same fit that pulls ω_b up is what delivers the model's H₀ result: **68.2 → 69.9 km/s/Mpc**,

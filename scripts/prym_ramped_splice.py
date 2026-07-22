@@ -47,6 +47,14 @@ try:                                 # numba only accelerates PRyM_thermo integr
     import numba                     # env's numpy is ahead of numba, fall back to pure numpy
 except Exception:                    # (same results, slower) rather than failing to run
     pri.numba_flag = False
+# Optional nuclear-sector systematics, off by default so production is unchanged:
+#   PRTOE_NACREII=1   swap the 12 key rates PRIMAT -> NACRE II (the rate-compilation systematic)
+#   PRTOE_TAUN=<s>    override the neutron lifetime (default 878.4 s, PDG bottle)
+if os.environ.get("PRTOE_NACREII") == "1":
+    pri.nacreii_flag = True
+    pri.ReloadKeyRates()
+if os.environ.get("PRTOE_TAUN"):
+    pri.tau_n = float(os.environ["PRTOE_TAUN"]) * pri.second
 if wb_scale != 1.0:                  # the eta-flow, applied before anything derives from it
     pri.Omegabh2 = pri.Omegabh2*wb_scale
     pri.eta0b    = pri.Omegabh2_to_eta0b*pri.Omegabh2
