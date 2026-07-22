@@ -172,6 +172,49 @@ central value moved too if it is taken.
 
 
 
+### The compilation spread is one reaction, and the disagreement is about its error bar
+
+Attributing the PRIMAT → NACRE II shift reaction by reaction, using the measured sensitivities
+against the two compilations' own tabulated rates over the deuterium-burning window (T₉ = 0.5–1.2):
+
+| reaction | NACRE/PRIMAT | pull, in PRIMAT σ | ΔD/H |
+|---|---|---|---|
+| **d(d,n)³He** | **0.9569** | **−4.0** | **+0.0524** |
+| d(d,p)³H | 0.9867 | −1.2 | +0.0120 |
+| ³He(n,p)³H | 1.0151 | +1.0 | +0.0031 |
+| ³He(d,p)⁴He | 0.9427 | −4.8 | +0.0017 |
+| d(p,γ)³He | 0.9988 | −0.05 | +0.0009 |
+| p(n,γ)d | 1.0000 | 0.0 | 0.0000 |
+
+**The whole compilation systematic is one reaction: d(d,n)³He carries 94% of it.** And it is *not* a
+LUNA effect — the two compilations agree on d(p,γ)³He, the reaction LUNA measured, to **0.12%**.
+
+**The two compilations do not disagree about the rate so much as about how well it is known.** On
+d(d,n)³He, PRIMAT quotes a 1σ band of **1.10%** and NACRE II quotes **5.86%** — a factor of 5.2.
+Their central values differ by 4.31%, which is a 4σ discrepancy by PRIMAT's lights and entirely
+unremarkable by NACRE II's. The same pattern holds across the network: NACRE II's bands are 1.3× to
+9.3× PRIMAT's on every reaction but p(n,γ)d.
+
+**That choice, not the model, sets the row:**
+
+| whose rate uncertainties | D/H theory error | width | the row reads |
+|---|---|---|---|
+| PRIMAT's assessment (in use) | ±0.0240 | 0.0384 | **−3.64σ** |
+| NACRE II's assessment | ±0.0807 | 0.0861 | **−1.63σ** |
+
+**Two σ of this row is a disagreement between two nuclear compilations about the uncertainty on
+d(d,n)³He.** The model is a spectator to it. Nothing in the dyad, the window, the census or the H₀
+lever moves that number.
+
+**This is the sharpest experimental ask the scar generates**, and it is not a request for new
+physics: measure **d(d,n)³He at BBN energies (T₉ ≈ 0.5–1.2)** to the precision LUNA reached on
+d(p,γ)³He. If it lands on PRIMAT's band the row is −3.6σ and the model is in real trouble on
+deuterium; if NACRE II's error assessment is the honest one, the row is −1.6σ and this was never a
+crisis. **P-2026-027's radio referee decides the observational side of the fork; this decides the
+theory side, and it is the larger of the two.**
+
+---
+
 ---
 
 ## 3. The exchange rate — deuterium and H₀ are one object

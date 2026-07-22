@@ -328,6 +328,20 @@ chk("deuterium_scar", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16
 chk("deuterium_scar", "recombination is later than the window close by", 1.2e5,
     1.2e13/1e8, 2e-2, "x")
 
+# the compilation spread localised: it is d(d,n)3He, and the argument is about its error bar
+chk("deuterium_scar", "d(d,n)3He share of the compilation shift", 0.94,
+    0.05240/0.05557, 3e-2)
+chk("deuterium_scar", "PRIMAT-vs-NACRE on d(d,n)3He, in PRIMAT sigma", 4.02,
+    math.log(0.9569)/math.log(1.0110)*-1, 2e-2, "sigma")
+chk("deuterium_scar", "the two compilations' 1sig bands on d(d,n)3He differ by", 5.21,
+    math.log(1.0586)/math.log(1.0110), 2e-2, "x")
+chk("deuterium_scar", "d(p,g)3He (the LUNA reaction) agreement between compilations", 0.0012,
+    abs(1-0.9988), 1e-1)
+chk("deuterium_scar", "theory error on NACRE II's uncertainty assessment", 0.0807,
+    0.0807, 1e-6)
+chk("deuterium_scar", "the row on NACRE II's assessment", -1.63,
+    (2.387021-2.527)/math.hypot(0.030, 0.0807), 1e-2, "sigma")
+
 # PRyM's OWN theory error on D/H, propagated from its per-reaction p = +1 sigma bands
 _RATE_PULLS = {"dpHe3g": -0.017288, "ddHe3n": -0.013019, "ddtp": -0.009838,
                "He3ntp": 0.002963, "npdg": 0.001344, "He3dap": -0.000345}
