@@ -39,7 +39,8 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  > +0.645%)* → **D/H = 2.387×10⁻⁵** — the standing prediction.
 
  against quasar-optical **2.527 ± 0.030** (Cooke) and own-ΛCDM **2.420**. The dyad sits on the LOW
- side of the fork — a self-adverse, owned bet; **P-2026-027's radio referee decides it.**
+ side of the fork — a self-adverse, owned bet; **P-2026-027's radio referee decides the observational
+ side, and an unmade d(d,n)³He measurement decides the theory side (P-2026-058) — the larger of the two.**
 
  Where the deficit is made. Taking that chain apart: the ω_b step costs −1.01σ and the dyad's
  own window *gains* +0.31σ, so the nuclear physics helps and the baryon density carries the whole

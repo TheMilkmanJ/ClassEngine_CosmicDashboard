@@ -38,7 +38,7 @@ dead, and the record of dead approaches is public.
 | 3 | Large-scale structure | β resurrection trial vs DES | β executed; S₈ = 0.823 |
 | 4 | BAO & RSD | Clustering-part insight (BAO 593 → 8.2) | Alive |
 | 5 | SNe & distance ladder | P-2026-001: TRGB, no hedge | Standing bet |
-| 6 | BBN | Deuterium row decomposed; the lever census closed | deuterium row carried at −2.94σ; no healer available to the dyad |
+| 6 | BBN | Deuterium row decomposed; the lever census closed | −2.94σ on the tightest rate error in the literature; **awaiting d(d,n)³He** (P-2026-058). Compilation-robust content: 0.62σ behind its own ΛCDM control |
 | 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the dyad's second half |
 | 8 | Neutrino physics | P-2026-004 falsified (ANN-2026-021); meV whisper (Σm_ν ≈ 61.4 meV, normal ordering) stands, posterior tests it | Mid-measurement |
 | 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen operator |
@@ -992,7 +992,7 @@ receipt, is an internal theorem, or is a ruler we measure against rather than a 
 | 28 | Quasar spectroscopy | already executed α (killed 45–100×); R1 awaits data — m_e in unvirialized gas unmeasured, R1's judge |
 | 29 | Oklo reactor | passes — 2-Gyr constants stability inside virialized matter, as R1 requires |
 | 30 | Matter-wave interferometry | standing null — δg/g ~ 1×10⁻⁹, no dark dephasing |
-| 31 | Deuterium (PRIMAT) | partial — standing −2.94σ (window −2.5 to −1.4σ; spread-unfolded ≈−1.4σ) carried openly; no healer available to the dyad, P-2026-006 retained for a hypothetical non-Majoron lever only |
+| 31 | Deuterium (PRIMAT) | **awaiting measurement** — standing −2.94σ (window −2.5 to −1.4σ), but the row spans −3.6σ to −1.6σ across the literature's four rate-error assessments and localises to d(d,n)³He at 94%; LUNA names its measurement the top open priority and it is unmade. Bet registered P-2026-058. What does not wait: 0.62σ behind the ΛCDM control, compilation-robust. No healer available to the dyad |
 | 32 | Lithium | awaits data — co-signature −7..13% untestable until healer tested |
 | 33 | Helium-4 (Y_p) | passes — in-config YHe(ω_b, m_e) consistent with 0.2449±0.0040 |
 | 34 | Neutron lifetime | exposure open — beam-bottle 4σ unresolved upstream of our BBN prior |

@@ -2,9 +2,21 @@
 
 *The model's weakest measured row, isolated and taken apart. The finding: the deficit is not made
 in the nuclear sector — the dyad's own BBN physics **improves** deuterium — it is imported from the
-CMB fit, and it is the same object as the H₀ result seen from the other end. Status: **answered as
-structure** — an owned adverse trade with a named missing ingredient the field content cannot
-supply; not an unfinished calculation (§8).*
+CMB fit, and it is the same object as the H₀ result seen from the other end.*
+
+> **Status: awaiting a measurement.** The size of this row is set by the d(d,n)³He rate, which
+> carries **94%** of the available nuclear leverage. The two standard compilations disagree about
+> that rate by 4× PRIMAT's own quoted band, and about *how well it is known* by a factor of 5.2
+> (PRIMAT 1.10%, NACRE II 5.86%). Across the four rate-error assessments in the current literature
+> the row reads anywhere from **−3.6σ to −1.6σ**. The LUNA collaboration names this measurement the
+> top remaining priority in primordial deuterium and it has not been made. **The model's position is
+> registered as a two-sided bet, P-2026-058**: the true rate lies 5.0–9.6% below PRIMAT's central
+> value. That is what this row is waiting on.
+>
+> **One part of it is not waiting, and stays adverse.** The rate compilation moves the model and its
+> ΛCDM control together — the model-minus-control gap changes by 0.067σ across the two compilations.
+> So **the model is worse than ΛCDM on deuterium by ~0.62σ, and no nuclear measurement changes
+> that.** The absolute row is hostage to LUNA; the comparison is not (§2b, §8).
 
 ---
 
@@ -622,7 +634,15 @@ Ranked by how much they would change the row, cheapest first:
 own BBN window *helps* deuterium. The deficit is the CMB fit's +1.1% in ω_b, forced by the m_e–ω_b
 ridge (degeneracy audit, 2026-07-21: free-slide residual consistent with zero; m_e off 1 at ~2.7σ).
 That same ridge is the H₀ relief. **D/H and H₀ are one trade.** Standing row: **−2.94σ** on the
-two-term width (#157).
+two-term width (#157) — a figure that uses the tightest rate-error assessment in the literature and
+is not this code's own (§2b).
+
+**And what the row is *now* is a wait.** The day's nuclear work moved this from a verdict to a
+pending measurement: the compilation systematic localises to one reaction, d(d,n)³He, at 94%, and
+the field has not measured it to the precision LUNA reached on the neighbouring channel in 2020.
+Until it does, the absolute σ on this row is a statement about nuclear data, not about the model.
+What survives the wait, and is the honest adverse content, is the **0.62σ by which the model trails
+its own ΛCDM control** — compilation-robust, and unmoved by any rate revision.
 
 **What does not fix it** — checked, not hoped:
 

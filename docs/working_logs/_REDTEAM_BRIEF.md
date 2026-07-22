@@ -16,7 +16,7 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 | **M₂** | **α²·T_c = 9.43 eV** | the "electromagnetic handshake"; T_c is the **dyad's** |
 | **ρ_Λ¼** | **½α_c²M₂ = (9/2)α⁴T_c = 2.2599 meV** | obs 2.25 (+0.44%). α⁴ → dCDF; T_c → dyad; 9/2 → geometry |
 | **Y_p** (ramped) | **0.248995** | +1.09σ vs Aver; **+3.53σ** vs EMPRESS. `0.2495–0.2505` is the RETIRED step interval; **`+3.7σ` is the step-era pull.** |
-| **D/H** (standing) | **2.387×10⁻⁵** | **−2.94σ** on the standing width **±0.0476** (obs ±0.030 ⊕ PRIMAT post-LUNA ±0.037). The three-term ±0.0563 / −2.49σ is RETIRED — it double-counted d(p,γ)³He, already inside PRIMAT's Monte-Carlo error. ΛCDM control on the same width: −2.25σ. |
+| **D/H** (standing) | **2.387×10⁻⁵** | **−2.94σ** on the standing width **±0.0476** (obs ±0.030 ⊕ PRIMAT post-LUNA ±0.037). The three-term ±0.0563 / −2.49σ is RETIRED — it double-counted d(p,γ)³He, already inside PRIMAT's Monte-Carlo error. ΛCDM control on the same width: −2.25σ. **STATUS: awaiting d(d,n)³He.** The absolute σ is hostage to a rate the two compilations disagree on by 4× PRIMAT's band and whose *uncertainty* they disagree on by 5.2×; across the literature's four assessments the row spans −3.6σ to −1.6σ, and the corpus quotes the tightest. Bet registered P-2026-058. **Do not attack the absolute σ as a model claim — attack the 0.62σ against its own ΛCDM control, which is compilation-robust.** |
 | **Σm_ν** | **61.4 meV**, normal ordering | m_ββ ∈ [0.04, 5.3] meV, ~3.3 typical |
 | **N_gen** | **3** | str[k₁] = 16N_gen − 48 = 0 |
 | **N_c (dark)** | **2** | 2N_f·N_c − 4(N_c²−1) = 0; N_f = 3 |
