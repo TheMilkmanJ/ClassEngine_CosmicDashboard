@@ -212,6 +212,34 @@ is the ⁴He photodissociation threshold, the lifetime is the pair-production cu
 abundance is 1.7×10⁻⁵ × (He/H) × 20 MeV. The hadronic channel has its own, different spec (§5b).
 The standing configuration supplies neither — see §6.
 
+**The spec is energetically trivial, and that is why it is invisible.** Thirty eV per hydrogen is
+**Δρ/ρ ≈ 1×10⁻¹¹** of the photon bath at the window's opening — the photons carry 2.7×10¹² eV per
+baryon there. The corresponding spectral distortion is **μ ≈ 3×10⁻¹¹**: below FIRAS by a factor of
+three million, and still 300× below a PIXIE-class target. So the injector, if it exists, cannot be
+found in the CMB spectrum, and its absence there is no evidence either way. The required relic
+abundance is n_X/n_γ ≈ 9×10⁻¹⁶ — far too small for a thermal freeze-out and squarely in freeze-in
+territory, which is what a *feeble* coupling produces naturally rather than by tuning.
+
+**Two walls, not one, and they bind at different times.** A genesis-era relic is worth separating
+into its two steps, because only one of them is forbidden. **Production is legal**: the census is
+gravity-only only *after* the medium condenses, so above T_c a direct dark–SM coupling is allowed,
+and a feeble one there delivers exactly the freeze-in abundance above. **Decay is not.** The deposit
+must land at t = 10⁶–10⁸ s, long after condensation, and it must land *in the photon bath* — but by
+then the census is closed and the medium is EM-neutral to 38–47 orders (Meissner), so a dark relic's
+products are dark. The only way to thread both walls is a relic that is **SM-charged** — produced
+through the legal early window, then decaying by ordinary Standard Model physics with no late dark
+coupling required. That object would have to be a ≳20 MeV state with a ~10⁷ s lifetime, and the
+Standard Model has none: the longest-lived unstable SM state is the neutron at 880 s, and no nuclear
+decay releases the 19.8 MeV that breaking ⁴He costs. Supplying it means a new field, and the roster
+is full (§6).
+
+**The timing test any such proposal must pass.** The window is **T ≈ 100–600 eV, z ≈ 4×10⁵–2.5×10⁶**
+— it opens essentially at the blackbody-thermalization boundary. Recombination is T = 0.26 eV,
+z = 1100, **t = 1.2×10¹³ s: later than the window closes by a factor of 10⁵**. A relic that survives
+to recombination and fades there deposits its energy a hundred thousand times too late to make any
+deuterium. Anything keyed to recombination, polarization, or last scattering is on the wrong side of
+this window by five orders of magnitude.
+
 **The binding-energy route is two routes, and they are shut by different things.** Both move
 deuterium through B_D rather than through the expansion rate, so neither touches helium at all —
 the cleanest orthogonal levers in principle, and only a **0.2% shift** would close the row.

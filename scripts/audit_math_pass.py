@@ -313,6 +313,21 @@ chk("deuterium_scar", "H0 given back to reach LCDM parity", 1.17,
     (_sig(_DH_L)-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
 chk("deuterium_scar", "H0 given back to centre on Cooke", 4.96,
     (0-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
+# the EM injector spec, as an energy budget: why it is invisible in the CMB spectrum
+_ETA_B = 6.1e-10
+_perbary = lambda T: (math.pi**4/(30*1.20206))*T/_ETA_B      # photon energy per baryon, eV
+chk("deuterium_scar", "photon energy per baryon at the window opening (599 eV)", 2.65e12,
+    _perbary(599.0), 2e-2, "eV")
+chk("deuterium_scar", "the 30 eV/H spec as a fraction of the photon bath", 1.13e-11,
+    30.0/_perbary(599.0), 2e-2)
+chk("deuterium_scar", "its mu-distortion", 3.2e-11, 1.4*30.0/_perbary(300.0), 3e-2)
+chk("deuterium_scar", "margin below FIRAS |mu| < 9e-5", 2.8e6,
+    9e-5/(1.4*30.0/_perbary(300.0)), 3e-2, "x")
+chk("deuterium_scar", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16,
+    (30.0/20e6)*_ETA_B, 2e-2)
+chk("deuterium_scar", "recombination is later than the window close by", 1.2e5,
+    1.2e13/1e8, 2e-2, "x")
+
 # the two BBN supersessions, priced by wide scans through the production network
 # (scripts/prym_supersession_pricing.py). Both moves are ~0.007% effects on D/H, far below the
 # solver's ~0.1% non-smoothness, so they CANNOT be priced by differencing a single pair of runs.
