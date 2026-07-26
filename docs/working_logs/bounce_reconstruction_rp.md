@@ -602,6 +602,18 @@ with radial measure (slower).
    (3/4 positive in the verified set). Cosmological matching still required for O2.
 4. **Grade:** computed toy law. Does **not** promote the bounce to derived.
 
+**Addendum (2026-07-27) — spherical production attempt: numerics FAILED, recorded
+as such.** The spherical run (`bounce_m6_rebound_gp.py`) violated energy
+conservation by factors up to ~20 at the focusing peak, with identical turn times
+across unrelated parameters and non-monotone peak ordering — the split-step's
+nonlinear phase is unresolved once the imploding pulse focuses at the origin
+(`dt·n_peak ≫ 1`). **Its numbers are artifacts and are carried nowhere.** The
+verified 1D result stands as the only computed rebound. What the failure honestly
+leaves open: spherical geometric focusing could make the compression amplification
+large — exactly the quantity the reheat budget wants — but the toy cannot yet say.
+Named fix: an adaptive integrator holding `dt·n_max ≪ 1` through focus. Until it
+exists, overshoot O(1) (1D) is the only number on the books.
+
 ### 14.2 Matching rule from the emergence dictionary
 
 Corpus route (acoustic metric, [PRTOE_quantum_gravity.md](../PRTOE_quantum_gravity.md) §2):
@@ -617,6 +629,31 @@ inverse of emergence” does **not** close F-A1 without extra structure. Extra s
 would be a new assumption, not a derivation from what is already written.
 
 **Grade:** inverse matching stays open / reconstructed; do not stamp derived.
+
+**Addendum (2026-07-27) — the slice ambiguity closes from recorded structure.**
+The underdetermination above was priced against "the emergence theorem alone."
+But the model owns more than the theorem, and the extra structure is recorded,
+not new:
+
+1. **The slice is not a choice in this theory.** Lorentz invariance is emergent;
+   the condensate rest frame is a physical, load-bearing object (it is how the
+   Weinberg–Witten obstruction is evaded in the gravity file, and the arrow
+   sector's `⟨θ̇⟩ ≠ 0` clock lives on it). The preferred frame fixes the ADM
+   slicing of the inverse map — the same slicing the forward map used.
+2. **Given the slice, the inversion is unique.** The acoustic form of `g_μν`
+   exposes `(n, v)` directly (conformal factor and shift), and `c_s(n)` is
+   monotonic for the repulsive quartic — no two medium states produce the same
+   metric on the physical slice.
+3. **The cosmological metric qualifies.** The gravity file's three-routes-one-
+   metric statement (acoustic, induced, thermodynamic constructions yielding the
+   same effective metric) is what licenses applying the acoustic inversion to
+   the FRW metric the crunch hands to the door.
+
+**Re-grade of F-A1:** the slice/gauge half of the underdetermination closes from
+recorded parts; what remains open is the half already named — the trans-phononic
+excitation translation at door-scale wavelengths (ingredients recorded as the
+Bogoliubov coherence factors; the assembled table unwritten). F-A1 is now
+**half-machined**: no free slice, one named open corner. Not derived.
 
 ### 14.3 Quartic-order / higher-gradient Friedmann correction
 

@@ -24,6 +24,13 @@ MODEL (recorded parts only; fences stated)
 GRADE RULE
   A computed toy law, not a derivation.  Whatever the energy partition says
   about reheating is reported as-is; the MeV question is not massaged.
+
+STATUS (2026-07-27): this spherical scheme FAILED its energy-conservation
+  guard (violations up to ~20× at the focusing peak — dt·n_peak ≫ 1 once the
+  implosion focuses at the origin).  Its outputs are numerical artifacts; the
+  verified rebound result is the 1D run (bounce_m6_rebound_1d.py).  Do not
+  quote numbers from this script until it carries an adaptive integrator
+  holding dt·n_max ≪ 1 through focus.  See the reconstruction log §14.1.
 """
 from __future__ import annotations
 

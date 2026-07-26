@@ -1910,3 +1910,30 @@ shape-plane reduction (rotational admixture ∝ |u|²); breathing treated at cla
 relaxation plus Born–Oppenheimer zero-point; semiclassics is itself O(1)-marginal at
 η ≈ 0.5. Estimate grade, not promoted. The referees are unchanged: the lattice
 three-source geometry and the face-mass identification.
+
+## THE FACE MASS PRICED — the stability program referees the carrier fork (2026-07-27)
+
+The zero-point survivor left one open identification: the face mass, with the ring
+phase holding only for m_face ≤ 1.63·√σ (breathing zero-point included; 2.04 without).
+`scripts/koide_ring_face_mass.py` prices every recorded candidate identity against
+that window:
+
+| face identity | m/√σ (class) | vs the window |
+|---|---|---|
+| Branch A: adjoint lump (gluelump class) | 2–4 | **chain** |
+| Branch A: constituent analog | 0.7–0.9 | ring — but the rep is excluded (no SU(2) 3-fundamental singlet) |
+| Branch B: vortex structure (q̃²-class) | 0.8–1.6 | **RING** |
+| portal dark states (~MeV band) | 2–6 | chain |
+
+**The result is a fork referee, not a verdict:** Branch A's honest mass class lands
+on the chain side — gluonic faces are too heavy for the zero-point stabilizer, and
+the ring premise would have no payer. Branch B's vortex-structure class (the
+sector's own q̃² = 1.11·√σ) is the ONLY identity that keeps the ring a ring. The
+forced-combination theorem said the ring must be a gauge–medium hybrid; the
+stability program adds: **the inertia had better be medium-dominated.** Fences:
+SU(3)-class transfers, scheme-dependent lump normalization, O(1) geometry factors —
+all stated in the script. Cross-check structure this creates for the one lattice
+campaign: a Y-shaped three-source ground state found WITH a heavy adjoint spectrum
+would break the zero-point account (demand another stabilizer); a collinear ground
+state kills the ring premise directly. Nothing promoted; the fork stays open with
+its referee now named.
