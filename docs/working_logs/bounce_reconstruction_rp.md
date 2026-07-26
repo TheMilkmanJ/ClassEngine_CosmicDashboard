@@ -763,3 +763,25 @@ legal spares: metric off at `ξ`, medium crunch, metric on hot — with every in
 gear labeled fabricated. M2 shows the door opens at keV budgets and only reaches MeV
 if we 3D-print ~6 e-folds of extra medium compression. It is allowed to be wrong. It
 is not allowed to pretend it came from the factory.
+
+**Addendum 2 (2026-07-27) — the excitation corner machined (medium sector).**
+[`scripts/bounce_fa1_transphononic_table.py`](../../scripts/bounce_fa1_transphononic_table.py)
+writes the trans-phononic translation table from the adopted quasiparticle theory
+plus recorded numbers (c_s = √3α, the shear-door rate):
+
+- **Why the metric ends, quantified:** group velocity v_g/c_s = (1 + x²/2)/√(1 + x²/4)
+  exceeds 1 for x = kξ ≳ 1 (1.34 at x = 2, unbounded beyond) — ξ-scale excitations
+  outrun the acoustic cone, so the emergent causal structure cannot carry them.
+- **What an excitation becomes:** the coherence factors (v² = 4.5 at x = 0.1 down to
+  10⁻⁴ at x = 10) interpolate collective phonon → bare medium quantum with
+  quasiparticle number conserved — the microscopic form of "radiation-like energy
+  conserved in the medium."
+- **The door is a quench for x ≲ 2.5:** those modes' frequencies are slower than the
+  door's own rate (ω/H < 1), so they cross suddenly and are squeezed — the boundary
+  CREATES long-wavelength medium quanta; a computed, modest injection channel for the
+  reheat ledger.
+
+**Scope fence:** medium sector only. The Standard-Model sector's crossing (photons at
+the boundary — the emergent-light construction) is the remaining corner, filed as its
+own task. **F-A1 status: machined in the medium sector; slice fixed by the preferred
+frame; one named corner open (SM crossing).**
