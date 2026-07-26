@@ -2015,3 +2015,39 @@ invented identification); (2) the neutrino tower must NOT satisfy an occupancy
 statement — it is not a bound cell of the confining sector — and indeed Q_ν = 0.458;
 (3) the external judges unchanged: the lattice fork (P-2026-048), the deviation lock
 (P-2026-051), m_τ at ≲1.4 ppm. **Grade: candidate closure, registered, not promoted.**
+
+## THE LOCK PRESSURE-TESTED — five survivals, one sharpening, one residual; the phase carrier identified (2026-07-27)
+
+`scripts/koide_lock_pressure_test.py`. Six attacks, run to ground:
+
+- **A1 (why the charged unit) converts to support:** the conserved uniform mode has no
+  restoring force (the overall mass scale is an external anchor — shift symmetry), so
+  it has no frequency and NO quantum of its own. The charged pair are the only
+  oscillators in the cell; "the cell's binding quantum" has exactly one candidate.
+  Conservation both protects f₀ and forces the unit.
+- **A2 (scatter, one level deeper) sharpens the lock:** the survivable form is not
+  "frozen variance = ground-state variance" (a draw — would scatter) but **the charged
+  sector freezes carrying exactly one quantum of energy as a definite classical
+  amplitude**: E_c = Mω₁²(|f₁|²+|f₂|²) = ħω₁ — same books, integer content, nothing
+  drawn. The phase stays free (it is the holonomy).
+- **A3 (what is M):** cancels — the lock is scale-free; only the integer matters.
+- **A4 (why one):** N = n gives Q = 1/3 + 1/(3n); the data select n = 1 alone, and the
+  vacuum-sector occupancy argument independently argues "exactly one."
+- **A5 (neutrinos):** no occupancy statement applies to an unbound tower; Q_ν = 0.458 ✓.
+- **A6 (double-booking):** one counting law, two different cells, two different
+  binding quanta — not one number reused.
+
+**Residual L2, named:** the value of the conserved amplitude (f₀² = ħ/Mω₁) — one
+number, set once at the cycle start, conserved (cannot scatter); its value needs the
+deposit argument.
+
+**The task-2 coherence, computed:** if the one frozen charged quantum hops one face
+per thermal period (the standing winding identification), the closure 3θ_B = Q forces
+**ω₁ = (2/9)·T_c = 39.36 keV — numerically identical to the independently recorded
+per-face drift μ_face from the thermal-twist reading.** The lock's quantum and the
+phase chain's carrier are ONE OBJECT: amplitude integer-locked (the lock), phase
+accumulated by transport (the holonomy). The winding identification sharpens to a
+single-particle statement — "the one charged quantum's hop clock is the thermal
+clock" — with the pacing bound (ħ/T as the fastest thermal action) and the
+bath-limited saturation already recorded (2026-07-19). What remains for the phase is
+the saturation's microphysical derivation and the external judges.
