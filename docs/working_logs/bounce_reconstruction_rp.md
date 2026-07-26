@@ -785,3 +785,26 @@ plus recorded numbers (c_s = √3α, the shear-door rate):
 the boundary — the emergent-light construction) is the remaining corner, filed as its
 own task. **F-A1 status: machined in the medium sector; slice fixed by the preferred
 frame; one named corner open (SM crossing).**
+
+---
+
+## 17. Task 4 — the squeeze-to-interval handoff as three computed joints (2026-07-27)
+
+Script: [`scripts/bounce_task4_handoff_joints.py`](../../scripts/bounce_task4_handoff_joints.py).
+The handoff is not a new mechanism; it is the consistency joints between the
+directional door (§16), the verified 1D rebound (§14.1), and the achronal re-entry
+condition (§12). Each joint is arithmetic on recorded anchors.
+
+| joint | question | computed answer |
+|---|---|---|
+| J1 delivery | what inflow does the squeeze hand the medium? | `H_fast/H_mean ≈ 3.7–4.0` at first crossing ⟹ **Mach 14–16** at the coherence scale — ~5× beyond the toy's tested Mach 3; extension run launched (`bounce_m6_rebound_1d_hypersonic.py`), tested not extrapolated |
+| J2 causal consistency | does the rebound's duration satisfy M4's hold? | self-consistent for door contrasts `δ ≲ 23`; collapsed cores remain the separate absorbing-boundary ledger |
+| J3 planarity | is the quasi-1D toy geometry justified? | transverse axes **400–3100×** the fast axis at crossing — planar to 2.5–3.5 orders; justified |
+
+**Open, named (the joints do not cover):** transverse dynamics during the rebound;
+the wall between a rebounding pocket and a still-contracting metric-on exterior
+(§12's boundary problem); cascade sequencing between neighboring pockets; the
+Standard-Model sector's crossing (its own task).
+
+**Grade:** three computed joints + four named opens; J1's envelope gap closing by
+test, not extrapolation. Nothing promoted.
