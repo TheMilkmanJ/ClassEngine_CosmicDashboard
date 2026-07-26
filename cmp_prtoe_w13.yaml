@@ -21,6 +21,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0
@@ -74,7 +75,7 @@ params:
     ref: {dist: norm, loc: 0.701221, scale: 0.02}
     proposal: 0.02
     latex: \rho_\infty
-  varying_me: 1.01232
+  varying_me: 1.012543
   log10_z_rad:
     prior: {min: 3.0, max: 8.0}
     ref: {dist: norm, loc: 5.5, scale: 0.5}

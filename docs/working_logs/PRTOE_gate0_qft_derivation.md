@@ -166,8 +166,7 @@ construction. Gate 0 does **not** pass on theory.
 
 **Bottom line: run honestly, the QFT derivation does not rescue the heal — it
 leans catastrophe, and demotes the m_e=1@BBN choice from "plausibly derived" to
-"assumption leaning the wrong way." Standing unchanged-to-lower (~10% → shaded
-toward the gate-0-FAIL branch), pending the emergent-coherence build or the BBN
+"assumption leaning the wrong way," pending the emergent-coherence build or the BBN
 data.**
 
 ---

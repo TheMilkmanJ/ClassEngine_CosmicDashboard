@@ -49,7 +49,7 @@ mass-function top can test.
 | pathology | GR's version | this model | mechanism | grade |
 |---|---|---|---|---|
 | **black-hole core** | curvature → ∞ at r = 0 | finite-density condensate/normal-phase core | metric ends at ξ; quantum-pressure + quartic floor (ρ_c ∝ M, finite for all M) | derived-from-recorded; the support requirement is met with room, the core-density ceiling set (m⁴/λ ≈ (1.1 keV)⁴) |
-| **Big-Bang origin** | curvature → ∞ at t = 0 | finite-density **bounce** | the *same* three pillars: the crunch exits the metric at ξ; the quartic stiffens to ρ_bounce ~ m⁴/λ; a thermodynamic process (Tolman entropy), not a geometric implosion | derived-from-recorded; ρ_bounce finite (keV-class), the bounce dynamics owed |
+| **Big-Bang origin** | curvature → ∞ at t = 0 | finite-density ceiling; turn dynamics open | finite `ρ_bounce ~ m⁴/λ`; metric emergent below ξ; Tolman thermal process — *same pillars as the BH core for the floor number* | **number** derived (keV-class, sub-Planckian); **turn open** — checklist in the bounce workplan |
 | **information paradox** | unitarity lost at the singularity | a finite quantum core is **unitary** — nothing is destroyed, only scrambled (the record never truly vanishes) | no singularity to lose information into; the core is a finite quantum object | structural (unitarity + Landauer) |
 | **white hole** | a time-reverse solution GR can't place | the **one** realized instance — the genesis pour, at the counterparty-free boundary instant | the arrow is a background field value; a local white hole dies to its first counterparty (Eardley), the global one has none | grammar + exploratory |
 | **wormholes / CTCs** | permitted by GR with exotic matter | **forbidden** | the medium cannot source *sustained* negative energy (λ > 0, positive-pressure excitations); "no state is its own source" bans the CTC loop | structural (NEC / the floor law) |
@@ -97,12 +97,11 @@ debt:
   in closed form — ρ_bounce = m⁴/λ = m²Ψ₀² (the Colpi–Shapiro–Wasserman repulsive-quartic ceiling,
   equivalently the maximum-mass boson-star central density) — and at the recorded λ ≈ 2×10⁻⁹¹ this
   is **ρ_bounce ≈ 2.9×10⁻⁷ g/cm³ ≈ (1.1 keV)⁴** (1.26×10¹² eV⁴): finite, ~100 orders below the
-  Planck density and ~21 below nuclear, which is all the "no singularity" claim requires
-  (`scripts/rho_bounce.py`). What stays genuinely open is not this number but the **bounce
-  dynamics** — the cosmological crunch must fund an MeV-class hot start over this keV-class
-  condensate floor, a ~12-order gap the model carries as an un-simulated two-component split (the
-  quartic floor plus the Tolman-kept radiation the fountain re-releases,
-  [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md)).
+  Planck density and ~21 below nuclear, which is what the "no infinite density" half of the
+  claim requires (`scripts/rho_bounce.py`). What stays open is the **bounce dynamics**
+  (turn plus MeV-over-keV hot-start joint) —
+  [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md) and the bounce workplan.
+  Finite density is derived. The turn is open.
 - **Horizon-scale microstructure amplitude** — whether the finite core leaves an observable
   imprint (ringdown, echoes) is un-computed; owed if pursued.
 

@@ -118,6 +118,12 @@ survives both its halves being wrong.
 
 Hawking radiation survives: phonon Hawking emission from sonic horizons is standard
 analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not lost.
+For the timing question: ordinary Hawking evaporation is far too slow to be the next
+generator on a ~60 Gyr crunch. A stellar black hole lives for ~10^67 yr, and a
+supermassive one for vastly longer; only a primordial substellar hole, roughly
+M ~ 10^14–10^15 g, evaporates on ~10^10–10^11 yr scales. So if black-hole death ever
+matters for the next regime, it has to come from a tiny primordial population, not from
+the astrophysical holes this section is centered on.
 
 ## 5. Rotation: Kerr as a vortex bundle
 

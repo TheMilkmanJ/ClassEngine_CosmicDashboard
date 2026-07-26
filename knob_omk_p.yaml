@@ -49,7 +49,7 @@ params:
   omega_b: 0.022757
   sigma8:
     latex: \sigma_8
-  varying_me: 1.010294
+  varying_me: 1.012543
   xi_Neff: 0.0
   z_reio: 8.363414
 prior:
@@ -61,6 +61,7 @@ sampler:
 theory:
   classy:
     extra_args:
+      dcdf_dyad_link: 'yes'
       N_ncdm: 1
       N_ur: 2.0328
       Omega_k: 0.005

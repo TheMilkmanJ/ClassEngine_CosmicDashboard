@@ -4,8 +4,8 @@
 > **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — α⁴ times a temperature tied to the electron. Every factor is sourced
 > except τ = T_c/m_e, and τ is where the claim lives.
 >
-> τ is sourced by the Koide sector, and nothing cosmological enters. The circulant kernel fixes
-> its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
+> τ is sourced by the lepton-mass relation, and nothing cosmological enters. The linear-algebra
+> kernel fixes its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
 >
 > > **τ = ½ln2 = 0.34657 ⟹ T_c = 177.10 keV ⟹ ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**
 >
@@ -19,11 +19,11 @@
 > ρ_Λ¼, while the next term of the same series is already larger. The agreement is therefore good to
 > the order the series can be trusted, and the two decimal places are not the claim.
 >
-> This is a candidate claim, and its price is one hypothesis — that the charged-lepton √m are thermally
-> populated, which is what Q = 2/3 asserts (variance of √m equals mean squared, the Boltzmann second
-> moment, holding to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for SU(2), N_f = 3 —
-> **and it is one job, not two:** the same non-perturbative treatment that measures τ is what the
-> radiative band needs, so the λ and τ gates open together.
+> This is a conditional claim, and its price is one hypothesis: that the charged-lepton √m values are
+> thermally populated, which is what Q = 2/3 asserts (the variance of √m equals the mean squared,
+> the Boltzmann second moment, to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for
+> SU(2), N_f = 3. **And it is one job, not two:** the same non-perturbative calculation that fixes
+> τ is the one the radiative band needs, so the λ and τ gates open together.
 > A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
 > 0.34506 shows the model reading the sky back, and kills both.
 
@@ -32,8 +32,8 @@
 
 
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
-what is derived vs input vs story, and where it lives in the code. Cross-references:
-PRTOE_me_mechanism_math.md (dyad detail), PRTOE_cyclic_torus_genesis.md (genesis narrative),
+what is derived vs input vs phenomenological, and where it lives in the code. Cross-references:
+PRTOE_me_mechanism_math.md (electron-mass sector detail), PRTOE_cyclic_torus_genesis.md (origin narrative),
 PRTOE_UV_completion.md, PRTOE_cosmological_constant.md (J1).*
 
 ---
@@ -62,7 +62,11 @@ census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge th
 route** (the hinge keeps only its α_c conditionality via c_s = √α_c). And read backward, the
 old curve is dead by its own arithmetic: it would force c = 1.005 while the census excludes
 c = 1. Provenance walk].
-* **Field 2** — the dyad field: charge-free, couples to the electron; its condensate sources
+The dark condensate fluid branch itself is already on the derived side of the ledger at the structural level:
+exact `w = −1`, derived `H = m` onset/crossover, finite quartic floor, and the topological
+winding/chirality assignment. The open residue is the residual magnitude and the sign/correlation
+junctions, not the component's existence.
+* **Field 2** — the electron-mass field: charge-free, couples to the electron; its condensate sources
 δm_e. (Lepton-sector, and **a separate field from the Majoron**: the one-scale corner f = v_L is
 tie-dead on the condensate-friction ceiling, so the sector carries two L-breaking scales and three
 dark fields. What stays open is *which* v_L corner — TeV-class or MeV — and CMB-S4 is the selector
@@ -115,19 +119,19 @@ running instrument:
 > - **c = 9/10** — a counting fraction (N−1)/N over the universal charged-fermion roster: 9 charged
 > species plus the vacuum's own seat, the neutrinos sitting on the seat rather than in the count
 > because their mass is medium-sourced rather than electroweak. **The value is data-selected, not
-> framework-forced:** the step that licenses a democratic count at all is open
+> framework-required:** the step that licenses a democratic count at all is open
 > ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1, the two-census marriage), and what the
 > value rests on independently is the ε-blind ensemble — c = 0.903 [0.867, 0.942], −0.08σ from 9/10.
 > **That ensemble confirms and does not select.** At its width it sits +0.53σ from the
 > neutrino-inclusive 12/13 and −0.38σ from the charge²-weighted 8/9, so it excludes neither; the
 > pre-registered width that would separate them is σ_c ≤ 0.0115, a 3.3× sharpening not yet in hand.
 > What picks 9/10 over 12/13 is the tie-as-lock argument, not the measurement;
-> - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, forced by the
+> - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, set by the
 > winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):
 > mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
 > mean-absolute over the quadratic/RMS readings, and the fit (0.625) + sim (0.635) confirm 2/π,
 > rejecting RMS (0.707) at +13% — residual only "leading-order dominates";
-> - **α_c = 3α = d·α** — **the dCDF's** condensate coupling (α is its Goldstone's — light *is* that
+> - **α_c = 3α = d·α** — **the dark condensate fluid's** condensate coupling (α is its Goldstone's — light *is* that
 > Goldstone), the 3 being the spatial dimension d (second sound,
 > geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
 
@@ -139,25 +143,25 @@ running instrument:
 >
 > | factor | owner | why |
 > |---|---|---|
-> | **α⁴** = α_c² × α² | **the dCDF** | α_c² is its **binding**; α² is the **EM handshake** — and α is the dCDF's own coupling because **light is its massless Goldstone** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §4) |
-> | **T_c** | **the dyad** | its condensation temperature, **177.10 keV** from the kernel's τ = ½ln2 |
+> | **α⁴** = α_c² × α² | **the dark condensate fluid** | α_c² is its **binding**; α² is the **electromagnetic coupling** — and α is the dark condensate fluid's own coupling because **light is its massless Goldstone** ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §4) |
+> | **T_c** | **the electron-mass field** | its condensation temperature, **177.10 keV** from the kernel's τ = ½ln2 |
 > | **d²/2 = 9/2** | **geometry** | d = the spatial dimension (the same 3 as in α_c = 3α) |
 >
-> **Neither field produces the number alone**: the dark-energy scale is the dCDF's coupling raised
+> **Neither field produces the number alone**: the dark-energy scale is the dark condensate fluid's coupling raised
 > to the fourth **weighing the dyad's condensation temperature**.
 >
 > > **The T_c row's owner is not settled, and the "cross of both fields" reading is the part that
-> > depends on it.** This table assigns 177.10 keV to the dyad.
+> > depends on it.** This table assigns 177.10 keV to the electron-mass field.
 > > [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 assigns the flagship's τ·m_e to the
 > > **SU(2) confinement scale** instead, and states that the dyad is neither of that sector's two
 > > condensates.
 > >
 > > **The recorded chain leans to §6, on three independent points.** τ is *defined* as T_c/√σ — a
-> > ratio to a confining string tension, which the dyad does not have; the one dimensionful input is
+> > ratio to a confining string tension, which the electron-mass field does not have; the one dimensionful input is
 > > the **portal √σ_dark = m_e**, a statement about the confining sector; and the referee registered
 > > for τ is a **lattice T_c/√σ for SU(2) with N_f = 3**. All three make T_c the confining sector's
-> > transition, and §6 records that sector's diquark condensate as *being* the dCDF. On that reading
-> > α⁴ and T_c both belong to the dCDF's sector, and the dark-energy scale is **one sector's product,
+> > transition, and §6 records that sector's diquark condensate as *being* the dark condensate fluid. On that reading
+> > α⁴ and T_c both belong to the dark condensate fluid's sector, and the dark-energy scale is **one sector's product,
 > > not a cross of two fields.**
 > >
 > > The arithmetic is identical either way — the two scales sit near the electron mass for separate
@@ -173,10 +177,15 @@ running instrument:
 
 ## 1\. Genesis (the cycle's start)
 
-Torus topology survives the bounce (topology holds what dynamics loses); the confined heat
-fountain (blueshifted crunch radiation) rolls up into a helical vortex ring → re-seeds the twist.
-Flat 3-torus registered as P-2026-013. **BKL and Tolman stand against the bounce rungs — this
-layer is a story built from real mechanisms, not a derivation.**
+Compact torus topology survives the bounce (topology holds what dynamics loses); the confined
+reheated flow develops a fountain-effect / thermal-counterflow response and rolls up into a helical
+vortex ring (blueshifted crunch radiation) → re-establishes the rotation. The compactness / Casimir
+intuition explains why the spectrum is discrete and the axis survives, but it does **not** by
+itself supply the bounce-sector `ρ_X(T)`.
+Flat 3-torus registered as P-2026-013. **BKL and Tolman still obstruct the bounce rungs — this
+layer is a phenomenological summary built from real mechanisms, not a derivation.** This is the
+bounce/genesis flow, not the census-imprint scaling law, and the topology/Casimir reading is only
+a structure helper, not the missing handover term.
 
 ## 2\. Radiation youth → dark matter (the first transition)
 
@@ -207,14 +216,18 @@ So the background is ΛCDM-form: ρ = ρ_inf + C·a⁻³, algebraically (verifie
 w = −1 is EXACT for the constant floor — not a step artifact, not rampable. Code: `w_dcdf` /
 `dcdf_s_of_rho` (background.h).
 
-## 4\. The dyad turn-on (field 2 condenses) [the standing high-f configuration]
+## 4\. The electron-mass field turn-on (field 2 condenses) [the standing high-scale configuration]
 
-The dyad is a high-scale pseudo-Goldstone: **f ≈ 100–500 TeV (input)**, quadratic-canonical
+The electron-mass field is a high-scale pseudo-Goldstone: **f ≈ 100–500 TeV (input)**, quadratic-canonical
 operator m_e(φ) = m_e0(1 + κφ²) with **κ = ε/f² ≈ 1.4×10⁻³¹ eV⁻²** — ε = κf² = 1.2543% is the
 frozen zero-mode's delivery. The full operating point (roll time, fluctuation floor 2×10¹⁸
 below ε, thermalization gates clearing by 10⁸–10⁹, λ_dyad radiatively stable) is closed-form in
-[PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) (the high-f spec). **T_c = 177.10 keV**
-(the Koide kernel's τ = ½ln2; lattice-gated on an SU(2), N_f = 3 value — the block at the top).
+[PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) (the high-scale spec). **T_c = 177.10 keV**
+(the lepton-mass relation's τ = ½ln2; lattice-gated on an SU(2), N_f = 3 value — the block at the top).
+This is already a derivation ledger, not a narrative paragraph: the remaining open residue is the UV
+operator choice in `PRTOE_me_mechanism_math.md` and the exact `T_c` pin within the standing band.
+The high-scale portal rate law is already computed in the high-energy matching calculation; what is not yet
+exposed is the crunch-sector bridge that would make it a bounce trigger.
 
 **The ramp's timing, stated exactly.** The electron bath's thermal restoration crosses the
 dyad's own bare curvature where
@@ -263,7 +276,9 @@ m_e-insensitive). The dyad's transition is taken at T_c = 177.10 keV, and BBN it
 [70, 500] keV — the deuterium bottleneck below, the weak-rate window above — with the adopted value
 interior by 2.5× and 2.8×, so **at that value the dyad never touches the weak-rate window**; AND the
 dyad is LEPTONIC (quarks \~2-loop, \~10⁻⁹), whose full-BBN ceiling is \~0.3–1σ, not the universal/
-hadronic 12σ:
+hadronic 12σ. That makes `T_c` a safe melt threshold, but not yet a bounce proof:
+the contracting branch still has to show that the same threshold feeds `ρ_X` or `Ḟ`
+in the handover equation.
 
 > **effective tension = (temporal exposure 0.05–0.25) × (leptonic 0.3–1σ) ≈ 0.02–0.25σ → QUIET.**
 
@@ -324,7 +339,7 @@ dark-energy-to-matter ratio at least ~5× too small (and zero for an eternally e
 value is not fixed this way. The model's standing dark-energy predictions remain **w = −1 exactly** and
 the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
 
-**7b. The thaw [the forced consequence].** Observed Λ ⟹ turnaround within \~an e-fold ⟹
+**7b. The thaw [the necessary consequence].** Observed Λ ⟹ turnaround within \~an e-fold ⟹
 **m_J \~ (1–3)H₀** ⟹ the floor is thawing NOW:
 
 > **1 + w_floor(a) = thaw · a³** (thawing growth), net apparent CPL (with the shed at g=0.12):
@@ -353,6 +368,31 @@ piece — the **negative bare vacuum** this narrative already carries — giving
 > ρ_DE(a)/ρ_Λ = (1 + B)·exp[thaw(1 − a³)] − B,  B ≡ |ρ_bare|/ρ_Λ,obs,
 > with today's equation of state pinning the product: 1 + w₀ = thaw·(1 + B).
 
+The code path exists in `include/background.h` and `source/background.c`:
+
+`ρ_floor(a) = ρ_∞·exp[thaw·(1 − a³)]`
+
+with the background-only deviation
+
+`E_th(a) = ρ_floor(a) − ρ_∞`.
+
+Adding the negative bare vacuum gives the net late-time DE budget
+
+`ρ_DE(a) = ρ_Λ·[(1 + B)·exp[thaw·(1 − a³)] − B]`,
+
+where `B ≡ |ρ_bare|/ρ_Λ,obs`. The turn is the zero of that expression:
+
+`ρ_DE(a_turn) = 0`
+
+so
+
+`a_turn = [1 − thaw⁻¹·ln(B/(1 + B))]^{1/3}`.
+
+That is the actual mechanism: the thawing floor alone only falls toward zero from
+above, but the added negative bare vacuum lets the total DE budget cross zero at
+finite `a_turn`. The flat Friedmann equation then gives `H = 0` at that point; the
+turning sign is the late-time branch reversal, not the bounce.
+
 **The turnaround lands at a ≈ 2.0–2.8 (z ≈ −0.51 to −0.65), 16–26 Gyr from now** across
 w₀ ∈ [−0.92, −0.86] and two orders of magnitude in B: the trade-off between thaw rate and
 bare depth holds the answer nearly fixed, so the timing is a consequence of the structure
@@ -361,17 +401,175 @@ same trade-off makes the low-redshift trajectory B-independent to ~0.2% — so t
 is not a measurement; what the sky grades is w₀. *Branch note: this is the expanding branch's
 parametrization (the field rolls forward in time, it does not roll back up as a decreases);
 the contracting branch and the bounce need the field equation solved in time — the bounce
-sector's own debt.*
+sector's own debt. This is the late-time reversal only; it is not yet the contracting-branch
+bounce.*
 
-The thaw completes → expansion reverses → contraction
-blueshifts radiation (a⁻⁴ grows) → the heat fountain reignites → T climbs back through **T_c**
-(the SAME T_c of §4) → **the dyad condensate MELTS** (m_e → standard for the crunch) →
-charge survives in solitons/Q-balls [requires gravity-mediated K<0: fragmentation
-banks the charge at T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis
-across the bounce (rotation resets, topology doesn't) → re-expansion cools through T_c → the
-condensate RE-FORMS → §1. **The condensate breathes; T_c is both the recombination-era turn-on
-and the crunch-era melting point — one number, both jobs** (the two-jobs law, §2).
-[STORY at the bounce rungs: BKL, Tolman unresolved.]
+The `16–26 Gyr` range is the registered solution range for `w₀ ∈ [−0.92, −0.86]` and the
+allowed `B` span; it is supported by the chain and the preregistered branch record, not by a
+fresh standalone simulation in this session.
+
+The thaw completes → expansion reverses → contraction blueshifts radiation (a⁻⁴ grows) →
+thermal counterflow / heated-superfluid release reignites → T climbs back through **T_c** (the SAME T_c of §4) →
+**the dyad condensate MELTS** (m_e → standard for the crunch) → charge survives in
+solitons/Q-balls [requires gravity-mediated K<0: fragmentation banks the charge at
+T \~ 10¹⁰ GeV, 13 decades before any melt] → torus topology carries the axis across the bounce
+(rotation resets, topology doesn't) → re-expansion cools through T_c → the condensate
+RE-FORMS → §1.
+
+Heated-superfluid release (thermal counterflow under a heat load) is the strongest
+release-side clue in the corpus: it is the microphysical phrase for a heated superfluid
+giving way and re-routing flow. But it still has to be tied into the cosmological
+handover equations before it counts as the bounce itself.
+
+The strongest surviving trigger branch is the high-scale electron-mass sector. The
+gravitational portal only thermalizes at `T ~ M_Pl`, while `scripts/portal_bar.py`
+leaves open a non-gravitational portal tied to the high-scale electron-mass sector that could bar lower
+and fire at a sub-Planckian crunch. That makes it the first late-rung branch that
+looks like a real trigger rather than another reservoir. The rate law is computed, but
+the crunch-sector `ρ_X(T)` is not exposed yet, so the branch is still open rather than
+closed.
+
+So even this branch is trigger-shaped, not bridge-shaped: it can set the crunch
+ceiling, but it still does not supply the handover term. The detailed retirements are
+tracked in [`docs/PRTOE_FAILURES_LEDGER.md`](PRTOE_FAILURES_LEDGER.md).
+
+The closest structural analogs are threshold-gated too: the `m_e` trigger is a sharp
+topological switch, and the KMS / freeze-front material locks one face per thermal
+period. So if the crunch-sector heated-superfluid release is the right clue, it probably needs a
+sharp gate or front, not a smooth ramp, before it can become the bounce.
+
+The "next regime" intuition is probably right in shape but not yet in species: the
+corpus already has a radiation-like / normal-phase release grammar where the matter-part
+sheds and dark radiation grows with opposite sign. That looks like the likely bridge if
+the bounce closes, but it is still a phase of the same medium, not a newly named dark
+radiation substance.
+
+So the three sub-questions line up as follows:
+
+- a sharp front / gate exists in the corpus already, via the `m_e` trigger and the
+  KMS / freeze-front material;
+- a late-time `shed` analogue exists already, via the dCDF matter-part draining into
+  dark radiation;
+- the heated-superfluid / thermal-counterflow threshold is still the strongest release-side clue, because it is
+  the only named place where heating a superfluid forces retraction / flow re-routing.
+  In the thermal program it shows up as a **residual thermal excitation** from the
+  medium's one genesis injection, so the bounce hunt should read it as a real residual
+  component of the same field, not as a separate species. No bounce-sector
+  `ρ_X(T)` written from it has been found in the corpus; the explicit residual equations still
+  sit in the late-time program. So this stays a load-bearing clue for the thermal
+  residual program, not yet a bounce-sector source term.
+The branch-change search is separate and still open: the corpus gives a historical
+scalar-tensor template, but not an active crunch-sector `F(T)` to plug into the bounce.
+That is the bridge ceiling: the only bridge-shaped equation in hand is the historical
+varying-`F` / induced-gravity form, and it still lacks a live crunch-sector realization.
+
+The other reusable shape is the thermal-door residual fraction: freeze at a threshold,
+then keep a suppressed residual. That is the right silhouette for a crunch-side source
+term, but the corpus prices it only in the neutrino / late-time residual sector. So the
+bounce hunt has two templates and no live bridge yet.
+
+There is one more general split in the corpus, "freeze-out third + release memory,"
+but it belongs to the inflation / ergodic-mechanics material, not the crunch sector.
+It is a real decomposition, just not a bounce bridge.
+
+Likewise, the `T = m_e` localizable-zero burst in the expansion-energy ledger is a real
+finite handover support, but it is still only a localization of the budget: it tells us
+the handover can be finite, not why the contracting branch turns. So the burst is
+another bridge-shaped template, not a live crunch-sector bridge.
+
+**Thermal crossing and the bounce.** Contraction blueshifts radiation (`ρ_rad ∝ a⁻⁴`,
+`T ∝ a⁻¹`), so the medium can reach the melt threshold `T_c` on the contracting branch.
+That melt is a real local threshold; the classical turn is **open**. Finite `ρ_bounce`
+stands as a no-singularity number. Checklist and reconstruction work:
+[working_logs/bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md),
+[working_logs/bounce_reconstruction_rp.md](working_logs/bounce_reconstruction_rp.md).
+Retirements: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) only.
+
+Support-side structure on the contracting branch (reservoirs, timing, release channels)
+is discussed in the workplan; this spine does not re-list retired bounce-source claims.
+
+The epoch ladder for late structure:
+
+- BBN → nuclei
+- recombination → atoms
+- cosmic dawn → molecules / first stars
+- structure formation → galaxies / dark solitons
+- late collapse → neutron stars / magnetars / black holes
+- gravitational-atom grammar → the late bound-state version of the same cooling ladder
+
+For the current cosmic epoch, the same ladder read from today forward says:
+
+- the most massive stars die first;
+- the stellar UV budget declines;
+- red giants, planetary nebulae, white dwarfs, neutron stars, magnetars, and black holes
+  accumulate as the sky reddens and dims;
+- the baryonic medium becomes more compact-object dominated;
+- and that is the regime in which the next threshold clue is most likely to appear.
+
+Keep that remnant set as the next-epoch survivor list:
+
+- white dwarfs, with planetary nebulae and enriched gas shed on the way out;
+- massive-star deaths as core-collapse supernovae, leaving neutron stars, magnetars, or black holes;
+- the leftover gas and compact remnants are the objects most likely to matter once the bright stellar
+  era is gone.
+
+The "same room" reading should stay literal-but-causal, not literal-spatial:
+
+- the remnant types do not need to merge into one object now;
+- they need to end up in the same late compact-remnant epoch, with the same cooling and clustering
+  rules;
+- the final reunion is the crunch bath itself, where contraction and thermalization force the
+  different survivor channels into one shared handover environment.
+
+The four-piece map is:
+
+| survivor | what it carries | likely bounce-role |
+|---|---|---|
+| white dwarf | cooled baryonic matter, the late low-mass endpoint | a settled matter reservoir and a cooling landmark |
+| neutron star | nuclear-density matter plus neutrino/superfluid structure | the neutrino and superfluid timing side |
+| magnetar | extreme magnetic energy storage | the release-side energy reservoir / trigger analogue |
+| black hole | deepest gravitational lock, finite-density core, heat and entropy | the strongest reservoir/release ledger |
+
+These are carrier-objects, not the handover term itself. The bridge still has to be a
+sector-local `ρ_X(T)` or a genuine branch-changing `Ḟ(T)` that makes the shared late
+remnant bath turn the crank on `H = 0`, `Ḣ > 0`.
+
+Timing note: the next regime may reveal its carriers well before the reversal is
+available. In other words, the epoch ladder can tell us what survives into the late
+remnant inventory, while the actual bounce still waits for the terminal threshold in the
+contracting branch. So the mechanism is likely not at the halfway marker; the carriers
+arrive first, the reversal later.
+
+So the “lights out” reading should stay literal but narrow:
+
+- it does **not** mean starlight directly powers the dark-energy thaw;
+- it does mean the source of abundant stellar radiation disappears as the current epoch burns out;
+- and it does mean the late-rung reservoir/release objects become more important, not less.
+
+So the bounce hunt should stay on the late-rung objects, not on the early thermometers.
+At the current level of the corpus, the ranking is:
+
+- black-hole cores: real reservoir / release ledger, still open
+- magnetars: reservoir analogue only, no load-bearing term yet
+- gravitational atoms / SMBH atoms: late-structure diagnostics, not the source
+
+We also checked the late-time dCDF / thaw residual and did **not** promote it:
+its `w = −1` floor is exact and useful for the dark-energy program, but it is the wrong epoch
+and the wrong job for the contracting bounce. It can tune the late DE floor; it does not yet
+name a bounce-sector `ρ_X(T)`. The failures ledger already buries the move that would reuse
+that residual by fiat; the bounce still needs a sector-local source term or a genuine branch
+change in its own equations.
+That is the search ceiling reached so far: no crunch-sector-local term has emerged from the
+obvious residual, reservoir, or branch-change templates.
+
+That means the likely shape, if it closes, is multi-stage: thermalized cores,
+radiation release, blueshift under contraction, and a last residual that tips the
+handover. The equation is still missing, but the flavor is clearer.
+
+**The condensate breathes; T_c is both the recombination-era turn-on and the
+crunch-era melting point — one number, both jobs** (the two-jobs law, §2).
+[Phenomenological at the bounce rungs: BKL, Tolman unresolved; the bounce itself remains
+separately uncomputed.]
 
 **BKL is worse than unresolved — the recorded equation of state is the wrong one to survive it
 (2026-07-20, #117).** The standard route past a BKL approach is a stiff phase: shear energy density
@@ -455,7 +653,7 @@ the physics has none.**
 
 **Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, the mass
 pinned independently by ξ, the Schive core radii and the superradiance window); **the dyad onset is
-T_c = 177.10 keV from the Koide kernel's τ = ½ln2** — the value's source is the confining chiral
+T_c = 177.10 keV from the lepton-mass relation's τ = ½ln2** — the value's source is the confining chiral
 ratio, not the electron loop, whose predecessor *configuration* (the CW VEV at ≈ 175 keV) §4 retires
 as BBN-fatal. What survives from that loop, and is used above, is the κ-independent restoration
 *formula*, which supplies the ramp's timing and is why the transition sits at the electron scale for
@@ -466,7 +664,7 @@ full-cycle KP solve in the addendum — the internal falsifier fired).
 
 **Live falsifiers:** DESI DR3 (the branch), Σm_ν ≈ 60 meV, 0νββ, void/IGM m_e-step (P-007, J4).
 
-**Settled since this ledger was last written** — each was carried here as owed and each is closed
+**Settled since this ledger was last written** — each was carried here as open and each is closed
 elsewhere in the corpus:
 - *KP self-consistency* — resolved **in this file**: §7a reports the attempt fails, and the addendum
   reports the full-cycle solve firing the falsifier.
@@ -475,22 +673,22 @@ elsewhere in the corpus:
 - *low-scale seesaw* — **adjudicated** by the seesaw duty scan (same file).
 - *leptophilia* — established in [PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, and **by data**: a
   universal quark-mass shift at ε lands at +12–18σ on D/H. What is settled is that the coupling is
-  leptonic; the *portal* is not, and it is carried in the owed list below.
+  leptonic; the *portal* is not, and it is carried in the open list below.
 - *the gate-0 confirm* — #40 (RG V_eff + BBN network) confirms rather than decides (§4).
 
-**Genuinely owed:** the dark-energy *value* if Route-D dies (falls back to constitution — the
+**Still open:** the dark-energy *value* if Route-D dies (falls back to constitution — the
 branch is DESI DR3's to decide); the seat constant b in the neutrino tie, gated on the basement
 build — which is itself gated on the band structure the hierarchy chain's §6c needs, docket #146
 ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §8, the open-surface table). **The portal's
-selection rule is not owed — it is assumed**, and §0 now says so with its price: data narrows the
+selection rule is not an open debt — it is assumed**, and §0 now says so with its price: data narrows the
 singlet's Standard-Model partner to the lepton bilinear and nothing else selects it, while the one
 fork with a signature moves an unmeasurable quantity. That is a permanent grade rather than a debt,
 and it belongs beside c on the list of things the model counts on rather than derives.
 
-**Standing:** provisional pending the named referees, DESI-capped; the branch is registered
+**Standing:** open pending the named referees, DESI-capped; the branch is registered
 (P-2026-056) with its guards discharged, and its adjudicating chain is running.
 
-*(Every debt on this page names where it is closed or what it waits on. Bare "owed" is not a
+*(Every debt on this page names where it is closed or what it waits on. Bare "open" is not a
 status: [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) resolves task numbers, and
 where this page and a physics file disagree, the physics file is right.)*
 
@@ -508,7 +706,7 @@ favorably-aligned rigorous-KP O(1)s [prior-adverse, tail] AND a strong thaw pull
 The two kill switches MERGE: the running Route-D MCMC (thaw free on the DESI joint stack) is the
 single decider — thaw pulled hard → corner lives; thaw \~ 0 → Route-D dead twice over, **P-2026-018
 (w = −1 rigid) stands as the distinctive branch, and J1 reverts to constitution/boundary-datum.**
-§7d (the melt/re-form cycle closure) is unaffected as STORY. Held provisional. *(The turn's
+§7d (the melt/re-form cycle closure) is unaffected as a phenomenological cycle picture. Held open. *(The turn's
 own timing follows from the surviving structure — the thaw plus the sector's negative bare
 piece — and is later than this corner's z ≈ −0.1…−0.3, which rode the sequestering route:
 see §7d.)*
@@ -523,7 +721,7 @@ branching ratio, computable-class). Structure: Landau's two components — the z
 state (floor/constitution/timeless; w=−1 exact \& ageless by theorem) and the entropic excitations
 (light/matter/observers; Tolman's arrow). Spectroscopy: torus modes = the line spectrum (low-ℓ =
 the first lines); the census = the selection rules; the CMB = the recombination photograph.
-Chemistry: the dyad = one universal lepton rescaling ε (Koide-multiplicative), C²-gated, one
+Chemistry: the dyad = one universal lepton rescaling ε, C²-gated, one
 fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ_par/H = √3 (IR scale) and
 Γ_eff/H = √(3/2) with B = 1/√2 (Jeans growth rate, derived) = the linewidth
 (why-now); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
@@ -536,7 +734,7 @@ the empirical content lives in the children and the symptom chart. The method wa
 ## §22 — THE THREADING DAY (2026-07-11, the second arc): sixteen roots, lawful deaths, the ladder, and the BBN witness
 
 **The threading survey:** sixteen direct threads filed and graded (galactic/SMBH
-atoms, the neutrino home, S₈, low-ℓ, Koide's invariance, the lab cousins, the coincidence
+atoms, the neutrino home, S₈, low-ℓ, the lepton-mass relation's invariance, the lab cousins, the coincidence
 problem [why-now = √3·A_s·the floor — the √3 one-pager discharged: the Friedmann factor,
 value-independent; B = 1/√2 derived from Jeans dispersion, par-question closed
 for the thaw rate], the purchased silences [direct+indirect],
@@ -555,13 +753,13 @@ the lanes), topology (the AD route + the cavity), frame/UV (the Lorentz program 
 torus mode (T5's matched-circles risk resolved favorable); the thermal-leptogenesis surface is
 EMPTY (×40-1000 under everywhere) → **the baryon asymmetry reverts to the native AD-direct route (charge =
 abundance) with the frozen-era transfer (sphalerons at 130 GeV vs the field frozen till
-9.4 keV) as the hard timing crux**; the λ candidate chain failed its own bounce self-check
+9.4 keV) as the hard timing crux**; the λ trial chain failed its own bounce self-check
 (informative).
 
 **The λ-ceiling (a small recovery):** the winding-patch isocurvature (14.1% rms
 if the onset is quartic) would be CMB-dead ×5-7 → the model REQUIRES λ ≤ (m/Ψ₀)² ≈ 2×10⁻⁹¹ —
 a derived self-constraint; the axion-like reading (λ ~ m²/f²) lands at the ceiling within an O(1)
-factor → **P-2026-031 (candidate): CDM isocurvature at ℓ ~ 170.** *(Amplitude caveat: the axion
+factor → **P-2026-031 (conditional): CDM isocurvature at ℓ ~ 170.** *(Amplitude caveat: the axion
 quartic carries a coefficient ~1/6, so |λ| sits a factor ~6 below the naive (m/Ψ₀)² ceiling — the
 isocurvature is then likely sub-%-level and below current Planck sensitivity, not at it; the exact
 amplitude awaits the O(1) coefficient and the λ-sign.)* (+ a 45-90 km/s bulk-flow shadow). MOND/RAR finally dead (m_amp → m; ≤59 AU ≪ kpc). The third
@@ -573,7 +771,7 @@ universe rung SITS on its own skeleton: 2.28 vs 2.29×10⁻⁴); the corrected o
 nucleus > UNIVERSE > atom > star > galaxy — the universe is the tightest GRAVITY-made
 structure); **the hinge: ξ = 402 AU inside the solar-system rung — one substrate boundary in
 the whole descent**; the double-ladder alignments graded per-rung (2 definitional, 3 loose —
-no mechanism, honestly tagged); the energy cascade owed as the dynamical half.
+no mechanism, honestly tagged); the energy cascade still open as the dynamical half.
 
 **THE WINDOWED BBN VERDICT:**
 T_c (177.10 keV on the kernel's τ; 179 keV in the superseded reading — the conclusion is
@@ -581,7 +779,7 @@ insensitive to the difference) is INSIDE the BBN window → the ε(epoch) stamps
 medicine was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.24900 (+1.09σ
 COUNTER vs Aver; +3.53σ vs EMPRESS — the helium civil war noted); D/H partially refunded
 (2.387 → **−2.9σ** vs Cooke on the full stated budget: obs ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037; the 3.5% inter-code spread is named and unfolded, and would soften it to −1.4…−2.2σ).
-**Re-priced under the standing high-f configuration + the committed genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35]
+**Re-priced under the standing high-scale configuration + the committed genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35]
 (ΔN_eff = 0.06–0.24): D/H −2.5…−1.4σ on the quotable ±0.0476 budget (−1.2…−0.7σ if the full
 inter-code spread is folded), Y_p +1.3…+2.0σ vs Aver (EMPRESS +3.8…+4.4σ stands apart), joint
 p = 0.02–0.08 quotable / 0.12–0.21 on the full spread. The residual helps deuterium and does not

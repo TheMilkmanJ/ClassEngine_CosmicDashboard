@@ -737,7 +737,8 @@ and not the roster.**
   stationary at radiation, so the network delivers n_s ≈ 1 **robustly**, with the red −0.035 a
   sub-leading residual. **Class exhibited; value and medium-derivation open** — the attractor
   is dynamically real, and what remains is the first-principles value γ* from the tangle's winding
-  energetics and mutual-friction coefficient (model-building, not an O(1)) and the sub-leading tilt.
+  energetics and mutual-friction coefficient (equivalently, the coefficients c̃ and k_v in the VOS
+  reduction), not the branch-selection argument, and the sub-leading tilt.
   **One recorded absence was overstated and is corrected here:** ν is not absent from the corpus.
   `scripts/winding_gas_cv_v2.py:11` and `scripts/winding_gas_cv.py:5` carry **ν = 2/3, named 3D-XY**,
   applied to this very census (ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). What is genuinely absent is the

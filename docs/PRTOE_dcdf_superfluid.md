@@ -10,6 +10,25 @@ derivation. It is one of three dark fields — the others are the dyad
 ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) and the Majoron, which the one-scale corner's tie-death
 keeps distinct from it.*
 
+## 0. Derived core, open residue
+
+What is already derived in this branch:
+
+- the field is a two-era dark superfluid with an exact `w = −1` floor;
+- the onset clock `H = m` and the radiation-like to dust-like crossover are derived;
+- the s-wave channel is selected by the binding data;
+- the quartic floor is finite and sets the no-singularity support scale;
+- the topological / winding side is what carries the chirality and axis-family information.
+
+What is still open:
+
+- the residual magnitude tied to the dark-energy value;
+- the matter-asymmetry sign correlation from the genesis draw;
+- the exact link between the condensate floor and the bounce dynamics.
+
+So the dCDF is already mostly derived structurally. The open residue is the residual magnitude
+and the sign/correlation junctions, not the existence of the component itself.
+
 ---
 
 ## 1. What it is

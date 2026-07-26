@@ -46,6 +46,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0

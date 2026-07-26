@@ -40,6 +40,33 @@ tangle held small by strong dissipation. That is exactly a **superfluid vortex t
 friction**, not a relativistic string network — so the smallness of 3.45×10⁻³ is not an embarrassment
 to be tuned away; it is a reading that points straight at the model's own superfluid genesis medium.
 
+## The derivation skeleton: fixed point first, number second
+
+The field-theoretic part of the argument is the fixed-point reduction of the VOS equations. In the
+scaling regime,
+
+  ξ = γ t ,  v = const ,  H = β/t ,
+
+the evolution equations become two algebraic conditions:
+
+  γ = βγ(1+v²) + ½ c̃ v
+  2β v = k_v / γ
+
+Eliminating `v` gives the fixed-point relation
+
+  γ² = [k_v (k_v + c̃)] / [4β(1−β)]
+
+up to the convention used for the VOS coefficients. The branch selection is then physical rather
+than algebraic:
+
+* `γ*` small means `v*` small, so the network is overdamped.
+* `v* << 1` means strong mutual friction dominates the relaxation.
+* Strong mutual friction is the superfluid-vortex-tangle regime, not a relativistic string regime.
+
+That is the part this link can already defend. What it still owes is the microphysical computation of
+`c̃` and `k_v` from the PRTOE winding sector, so that the exact numerical value `γ* = 3.45×10⁻³`
+comes out of the medium rather than from the generic VOS closure.
+
 ## The tilt: n_s ≈ 1 is robust; the red −0.035 is sub-leading
 
 Exact scaling gives n_s = 1 by construction (ξ ∝ 1/k makes Δ²_ζ ∝ k³ξ³ flat). Whether the drift of

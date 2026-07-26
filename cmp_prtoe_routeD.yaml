@@ -19,6 +19,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0
@@ -85,7 +86,7 @@ params:
     ref: 0.12
     proposal: 0.03
     latex: (1+w_{\rm fl,0})
-  varying_me: 1.01232
+  varying_me: 1.012543
   A_planck:
     prior: {dist: norm, loc: 1.0, scale: 0.0025}
     ref: {dist: norm, loc: 1.0, scale: 0.002}

@@ -2,6 +2,8 @@
 
 *2026-07-19. Plain physics throughout; self-contained.*
 
+*Status: experimental note. The bridge to the neutrino sector is a registered model relation, not a first-principles derivation.*
+
 ## The result in three sentences
 
 In a unified dark-sector cosmology — one superfluid scalar replacing dark matter and dark energy,
@@ -13,24 +15,24 @@ corresponding effective mass, with measured splittings and free Majorana phases,
 **m_ββ ∈ [0.04, 5.3] meV, with a phase-averaged rms of 3.3 meV** (the rms is the
 rate-relevant average, since the rate goes as m_ββ²; the median over phases is 3.05 meV).
 
-## What this means for your program
+## Experimental reach
 
-**nEXO is the only experiment in the world with a chance of seeing this, and the window is
-narrow.** That is the reason for writing, and the next section works it out. The short version: the
-model's ceiling is m_ββ = 5.30 meV, and nEXO's projected reach at the favourable end of the
-matrix-element range is 4.7 meV — so a thin band, roughly **4.7 to 5.3 meV**, is common to both.
-LEGEND-1000 (9–21 meV) and CUPID (12–34 meV) sit entirely above the model's ceiling and cannot
-reach it at any matrix element. Everywhere outside that thin band, a confirmed detection falsifies
-the model outright.
+**Among the planned experiments listed here, only nEXO reaches this band at the favourable
+matrix-element end, and the window is narrow.** That is the reason for writing, and the next section
+works it out. The short version: the model's ceiling is m_ββ = 5.30 meV, and nEXO's projected reach
+at the favourable end of the matrix-element range is 4.7 meV — so a thin band, roughly **4.7 to
+5.3 meV**, is common to both. LEGEND-1000 (9–21 meV) and CUPID (12–34 meV) sit entirely above the
+model's ceiling and cannot reach it at any matrix element. A confirmed detection outside that thin
+band falsifies the model.
 
 **The converse is weaker, and the asymmetry should be stated.** A null at any sensitivity does not
 kill the model, because the phases can cancel. And while a demonstrated Dirac nature would end the
 model logically — the mass mechanism violates lepton number, so Majorana is not optional — there is
 no practical route to demonstrating Dirac nature. You cannot prove the absence of a process. The
-experimental content of this prediction is therefore one-directional: **your program can refute this
-model but cannot confirm it.**
+experimental content of this prediction is therefore simple: **this experiment can refute the model
+but cannot confirm it.**
 
-**The near-term threat is cosmological, and it comes from below.** DESI-era CMB+BAO limits reach
+**The near-term constraint is cosmological, and it comes from below.** DESI-era CMB+BAO limits reach
 Σm_ν ≲ 72 meV with some combinations pressing lower, toward the normal-ordering floor itself. The
 model sits at 61.4 meV, just inside. The live risk is therefore not a detection above the prediction
 but **the upper limit descending through it**. The model's defence is that those limits are
@@ -47,18 +49,15 @@ quoting a number nothing can check.
 the window is [1.48, 3.69] meV; at the model's m₁ = 2.25 meV it is [0.04, 5.30] meV. The ceiling
 rises 44% and the floor nearly collapses, and the observational consequence is clean: **minimal
 ordering puts the entire window below nEXO's best reach, while this model puts about 11% of it
-above.** That is the difference your program can actually see, and it is this sector's only claim
+above.** That is the difference the experiment can actually see, and it is this sector's only claim
 that earns the word distinctive.
 
-On provenance, including the part that counts against us — the prediction was registered before the
-deciding data (2026-07-07, git-timestamped). But the mechanism now offered for *why* the model picks
-this branch — the tenth-channel mass relation — was worked out after DESI's preference for a low sum
-was known, and our own registry carries it under a post-hoc flag for exactly that reason. It earns
-no derivation credit until it produces a new falsifiable consequence beyond the registered number.
-The registry entry itself is also narrower than the claim above: it does not select the ordering,
-and it was written with the causal arrow pointing the other way. All of that is in the repository
-under P-2026-012 and ANN-2026-025, and you should read those rather than take this paragraph's word
-for it.
+On provenance, the prediction was registered before the deciding data (2026-07-07, git-timestamped).
+The bridge used here is the same lightest-mass relation already used in the neutrino sector: the
+model ties the dark-energy scale to the lightest neutrino mass, and the measured splittings then
+give the normal-ordering spectrum quoted above. The ordering itself comes from the registered
+collision result (P-2026-004), while P-2026-012 records the relation but does not select the branch
+by itself. See P-2026-012 and ANN-2026-025 for the full record.
 
 ## The cancellation floor, and how thin it is
 
@@ -97,7 +96,7 @@ The consequence may be the most distinctive thing this model says to your field:
 near-cancellation amplifies small changes in m₁, **m_ββ here is an unusually sharp probe of the
 dark-energy scale.**
 
-## The overlay: where this model sits against your program
+## The overlay: where this model sits against the experiment
 
 Projected 10-year sensitivities, each span being the nuclear-matrix-element range rather than an
 experimental uncertainty, against the model's window of [0.04, 5.30] meV:
@@ -112,7 +111,7 @@ nEXO is the only one of the three that can touch this model, and only if the ¹�
 falls at the favourable end. Taking the Majorana phases flat — the usual convention, and a choice
 rather than a result — the model exceeds 4.7 meV about **10.8%** of the time.
 
-The part that concerns your own work directly: if barium tagging reaches the factor-of-four
+The part that concerns your work directly: if barium tagging reaches the factor-of-four
 half-life gain your group has projected, the reach improves by √4 = 2 in m_ββ, from 4.7 to roughly
 **2.35 meV**. On this model that moves the probability of a signal from 10.8% to **69%** — more
 than a six-fold improvement, and the difference between a long shot and a likely detection.
@@ -136,7 +135,7 @@ So the two capabilities do different jobs. **Barium tagging makes the test likel
 machine makes it decisive.** A tagged detection at 2 meV would be a triumph for the field and would
 barely move this model's posterior. A baseline detection at 4.5 meV would be a result no
 minimal-ordering scenario can accommodate. If that distinction is useful to how the upgrade gets
-argued for, it is yours to use.
+used, it is yours to use.
 
 ## Why the cosmological squeeze relaxes
 
@@ -149,7 +148,7 @@ opened the line found **3.5σ** (Hart & Chluba 2020), while the recent fit on AC
 returns m_e/m_e₀ = 1.0081 ± 0.0046 — a **1.8σ** preference — and a second recent analysis on those
 stacks concludes that varying m_e cannot fully resolve the tension once DESI DR2 BAO is included.
 **And the field's own common-framework comparison does not favour this mechanism class:** across
-fourteen models in one pipeline, early dark energy scores −ΔAIC 23.40 and leaves a residual 2.51σ,
+fourteen models in one analysis chain, early dark energy scores −ΔAIC 23.40 and leaves a residual 2.51σ,
 against varying m_e's 12.58 and 4.25σ (Schöneberg et al. 2026). We are not the best-performing
 route to H₀ on the current scoreboard, and this letter's case does not rest on our being so.
 
@@ -162,15 +161,15 @@ than cosmologically foreclosed.
 
 The model's fits match or modestly outperform ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO +
 Pantheon+SH0ES, at H₀ ≈ 69.9 — sound-horizon-driven, and holding with the SH0ES calibration
-included and pulling the other way. That figure is provisional: the chains that underwrite it are
+included and pulling the other way. That figure is not yet final: the chains that underwrite it are
 still being brought to convergence under a corrected sampler configuration, and the value may shift.
 
-**The current test, with a caveat we found while checking it.** The zero-parameter evidence
+**The current test, with a caveat found while checking it.** The zero-parameter evidence
 comparison freezes amplitude, tilt, coupling and transition epoch in advance, against ΛCDM at full
 freedom, so any stated number being wrong collapses the model's own evidence. Nested sampling was
 started on that configuration and then stood down on this hardware: the schedule is hundreds of days
 to a first checkpoint, so the nested number waits for cluster time. Until then the comparison is
-carried by a Laplace-from-MCMC estimate, and the chains that feed it are the critical path. The
+carried by a Laplace-from-MCMC estimate, and the chains that feed it are what matter most now. The
 caveat is the transition epoch. It was frozen at a profiled value rather than at the model's own
 onset identity, and the two differ by 0.053 dex; because the onset redshift goes as √m, that
 corresponds to a dark fluid mass about 28% from the one the rest of the model uses. **So the
@@ -182,7 +181,7 @@ battery. The deepest structural claim, the medium's reality, is carried as an op
 rather than asserted. Entry points for a technical reader: THREE_EQUATIONS, DEPENDENCY_TREE,
 PREREGISTERED_PREDICTIONS (50+ numbered bets), FAILURES_LEDGER.
 
-For context: vacuum condensates setting matter's parameters is not exotic — roughly 99% of ordinary
+For context: vacuum condensates setting matter's parameters is not exotic - roughly 99% of ordinary
 mass is QCD-condensate binding. This model adds one more condensate and asks whether it reads into
 the remaining Yukawa percent at the 10⁻² level during one epoch.
 
@@ -205,7 +204,7 @@ carrying all of it, p = 0.12–0.21. The model sits on the low side of the deute
 self-adverse position, registered before its referee (P-2026-027, a dark-ages radio measurement of
 primordial D/H at 327 MHz, free of astration and quasar optics).
 
-**We have since taken that systematic apart inside our own pipeline, and it is one reaction.** Our
+**We have since taken that systematic apart inside our own analysis, and it is one reaction.** Our
 BBN code ships both the PRIMAT and NACRE II rate compilations; switching between them and changing
 nothing else moves our D/H by +2.33% and the row from −2.94σ to −1.77σ, while helium moves 0.02σ.
 Attributing that shift rate by rate, **d(d,n)³He carries 94% of it** — and it is not a LUNA effect,
@@ -302,7 +301,7 @@ expectation value rather than by the rolling dark-energy field, so the rolling d
 neutrino mass. A reader discounting this claim should discount it at the first two points, and
 nowhere else.
 
-A framing you may enjoy: in this model's internal language, 0νββ decides whether lepton number
+A framing you may enjoy: in this model's notation, 0νββ decides whether lepton number
 is a collateralized charge — like electric charge, with a field enforcing it — or an unenforced
 accounting identity, with Majorana neutrinos the mechanism by which such an identity defaults. Your
 detector is auditing whether L's debt has a bank.

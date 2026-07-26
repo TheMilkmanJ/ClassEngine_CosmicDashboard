@@ -3,61 +3,64 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> This consolidates the model's most experimentally-scheduled claim-block.
+> This consolidates the model's most experiment-facing claim block.
 > Components range from recorded (the Majoron structure, P-2026-012/020) to exploratory
-> (the ρ_inf closure, review-hold). The referees are funded and under construction:
-> ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
+> (the ρ_inf closure, review-hold). The relevant tests are ton-scale 0νββ (nEXO, LEGEND-1000,
+> CUPID) and next-generation cosmology.
+
+> Status: the mass relation and 0νββ window are established; the remaining open items are the
+> exact μ value, the flavor-distribution calculation, the Majoron mechanism's next falsifiable
+> consequence, and the ρ_inf closure.
 
 ## 0. The claims, stacked
 
-1. Neutrinos are Majorana → the 0νββ PROCESS must exist (P-2026-020). Non-optional as
- mechanism; the OBSERVABLE rate carries the §3 cancellation-floor caveat (m_ββ can sit as low as
- 0.04 meV at unlucky phases — see §3). The falsification is
- one-directional: a detection above the ceiling kills the model, a null at any sensitivity does not,
- and Dirac nature cannot be demonstrated directly — only inferred from nulls plus the closure of
- other Majorana channels.
-2. The lightest mass is dark energy's quarter-power: $m_1 = \rho_\Lambda^{1/4} = 2.25$ meV
- (the Majoron/L-breaking shared scale — PRTOE_MATH_SPINE.md §6; "Majoron" = the Goldstone boson of
- spontaneously broken lepton number, whose scale the model ties to the dark-energy density). This is
- a **relation, not a coincidence** — the tenth-channel seating makes the floor *set* the mass
- (m₁ = κ_m·ρ_inf¼, κ_m ≈ 1; see the addendum below). What the model does **not** do is derive the
- value 2.25 meV itself; that is the dark-energy-value problem (§2). The claim is that one
- un-derived number does two jobs that standard cosmology treats as unrelated, not that the number
- is explained.
-3. The sum: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering**
- (the ordering selected by data via the P-2026-004 collision, not by P-2026-012, which explicitly
- does not fix it — ANN-2026-025). **This number is not a discriminator**: it sits 2.6 meV above the
- m₁ = 0 floor of 58.8 meV, against a planned cosmological resolution of ~20 meV. The distinctive
- content is in m_ββ (§3), which is sensitive to m₁ where the sum is not. Full disclosure: an earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this one's own pre-registered collision test and is retired in the registry — the ordering claim survived its internal challenger.
-4. The closure (exploratory): the occupancy-corrected ρ_inf derivation reproduces this
- Σ by an independent route (the ρ_Λ ↔ M₂ ↔ 3α triangle) — one mechanism, three
- quantities co-determined; refereed by the running α_c chain (an in-house CMB
- parameter MCMC).
+1. If neutrinos are Majorana in this model, the 0νββ process should exist (P-2026-020). The
+ observable rate still carries the §3 phase-cancellation caveat: m_ββ can sit as low as 0.04 meV at
+ unlucky phases. The falsification is one-directional: a detection above the ceiling kills the
+ model, while a null at any sensitivity does not. Dirac nature cannot be demonstrated directly; it
+ can only be inferred from nulls together with the absence of other Majorana channels.
+2. The lightest mass is the fourth root of the dark-energy density: $m_1 = \rho_\Lambda^{1/4} =
+ 2.25$ meV (the lepton-number-breaking scale associated with the Majoron sector — PRTOE_MATH_SPINE.md
+ §6; "Majoron" = the Goldstone boson of spontaneously broken lepton number). This is a relation,
+ not a coincidence: the model ties the lightest neutrino mass to the dark-energy scale through
+ $m_1 = \kappa_m \rho_{\mathrm{inf}}^{1/4}$ with $\kappa_m \approx 1$; see the addendum below.
+ What the model does not do is derive the value 2.25 meV itself; that is the dark-energy-value
+ problem (§2). The claim is that one un-derived number does two jobs that standard cosmology treats
+ as unrelated, not that the number is explained.
+3. The sum: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering** (the ordering
+ favored by the registered P-2026-004 collision test, not by P-2026-012, which does not fix it —
+ ANN-2026-025). **This number is not a discriminator**: it sits 2.6 meV above the m₁ = 0 floor of
+ 58.8 meV, against a planned cosmological resolution of ~20 meV. The distinctive content is in
+ m_ββ (§3), which is sensitive to m₁ where the sum is not. Full disclosure: an earlier in-house
+ prediction favoring inverted ordering (P-2026-004) was falsified by this model's own pre-registered
+ collision test and is retired in the registry; the ordering claim survived its internal challenger.
+4. The exploratory closure is that an occupancy-corrected ρ_inf derivation reproduces the same sum
+ by an independent route through the ρ_Λ ↔ M₂ ↔ 3α relation; the running α_c chain checks that
+ claim.
 
-## 1. Why this block is the model's sharpest neck
+## 1. Why this block is the model's tightest constraint
 
-Every claim is measurable THIS DECADE, and none is adjustable: (i) ton-scale 0νββ
-experiments reach the normal-ordering floor's neighborhood — a confirmed Dirac nature
-(0νββ nulls at full sensitivity + other Majorana channels closed) kills claim 1;
-(ii) cosmology's Σm_ν sensitivity (DESI+CMB) is already brushing 60–80 meV. Two kills live here,
-and the likelier one comes from below: a robust Σ > 70 meV kills 2–3, but so does a ΛCDM-conditional
-**upper limit descending through 61.4 meV**, which is the direction the frontier is actually moving.
-The model's answer to the second is that those limits are ΛCDM-conditional and the squeeze relaxes
-under its own recombination physics — a testable claim, and the fastest route to grading this block.
-Inverted ordering from oscillation experiments also kills 2–3;
-(iii) an in-house tension: P-023's de-biased band (0.07–0.09 eV)
-sits ABOVE this block's 0.061 — the running chains' own posterior arbitrates between the
-model's two neutrino numbers.
+Every claim is measurable this decade, and none is adjustable: (i) ton-scale 0νββ experiments
+reach the normal-ordering floor's neighborhood — a confirmed Dirac nature (0νββ nulls at full
+sensitivity plus other Majorana channels closed) kills claim 1; (ii) cosmology's Σm_ν sensitivity
+(DESI+CMB) is already brushing 60–80 meV. Two kills live here, and the likelier one comes from
+below: a robust Σ > 70 meV kills 2–3, but so does a ΛCDM-conditional upper limit descending through
+61.4 meV, which is the direction the frontier is actually moving. The model's answer is that those
+limits are ΛCDM-conditional and the squeeze relaxes under its own recombination history — a testable
+claim, and the fastest route to grading this block. Inverted ordering from oscillation experiments
+also kills 2–3; (iii) an in-house tension: P-023's de-biased band (0.07–0.09 eV) sits above this
+block's 0.061 — the running chains' own posterior arbitrates between the model's two neutrino
+numbers.
 
-## 2. The mechanism's debts
+## 2. The mechanism's open items
 
-The spurion identification: the scale μ that ties the dark-energy floor to the lightest neutrino mass is
-a dimension-1 lepton-number-breaking parameter, distinct from the (dimensionless) varying-m_e amplitude —
-the two are different quantities, not related by a bridge. What stays un-derived is the *value*
-μ = 2.25 meV (the dark-energy-value problem). Remaining debts: the Majoron mechanism carries a post-hoc
-flag until it earns a new falsifiable consequence, and the ρ_inf closure depends on the running α_c chain.
+The parameter μ that ties the dark-energy floor to the lightest neutrino mass is a dimension-1
+lepton-number-breaking parameter, distinct from the dimensionless varying-m_e amplitude. The two
+are different quantities. What remains un-derived is the *value* μ = 2.25 meV (the
+dark-energy-value problem). Remaining open items: the Majoron mechanism still needs a new falsifiable
+consequence, and the ρ_inf closure depends on the running α_c chain.
 
-## 3. For the double-β community, specifically
+## 3. For 0νββ specifically
 
 The model's effective mass, computed from m₁ = 2.25 meV + normal ordering + NuFIT-class
 mixings (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022): the three mass contributions are
@@ -68,21 +71,24 @@ $$m_{\beta\beta} \in [0.04,\ 5.3]\ \text{meV over free Majorana phases},\ \sim 3
 — below ton-scale reach (nEXO/LEGEND-1000 target ~5–20 meV). The model does not predict the
 Majorana phases, so the position within that window is unconstrained; that is an open item.
 
-The floor is real but not structurally protected, and it is anchor-sensitive. It exists only
+The floor is real but not protected by a symmetry, and it is sensitive to the anchor. It exists only
 because the middle term exceeds the other two combined — 2.67 against 2.62 at m₁ = 2.25 meV — so the
 three phasors cannot close a triangle and exact cancellation is impossible. The margin is 0.05 meV
 on terms of order 2.
 
-The model's derived dark-energy scale sits 0.44% from the observation: the observation is at
-2.25 meV and the derived chain lands at 2.2599. **That gap is not the derived chain's error bar** —
-the composite quartic sits above its control edge, so the derived value carries an uncontrolled
-correction of formal size 5.4–9.8%, and the two-anchor bracket below is a comparison of anchors
-rather than a propagated uncertainty. The sum barely notices (Σm_ν = 61.34–61.37 meV across the
-observation's own range, booked as 61.4). The floor moves across that range — 0.050 meV at the
-low edge, 0.044 meV at the observed anchor, 0.038 meV at the derived one — while the ceiling holds
-at 5.30 either way, so the window is properly quoted as **m_ββ ∈ [0.04, 5.3] meV**. Above m₁ =
-**2.324 meV** the triangle closes and the floor is exactly zero; the derived anchor sits 2.8% below
-that.
+The model's derived dark-energy scale sits 0.44% from the observed value: the observation is at
+2.25 meV and the current derived anchor from the composite quartic lands at 2.2599 meV. **This small
+gap is not a propagated uncertainty or formal error bar.** The composite quartic sits above its
+control edge, so the derived value carries an uncontrolled higher-order correction whose formal
+size is 5.4–9.8%. The quoted 2.2599 meV is therefore best read as an anchor comparison rather than
+a fully converged model prediction.
+
+The sum is insensitive to this: Σm_ν varies only from 61.34 to 61.37 meV across the observed
+range, which is why it is quoted as 61.4 meV. The effective mass floor is more sensitive due to
+near-cancellation. It shifts from 0.050 meV (at the low edge of the observed range) to 0.038 meV
+(at the derived anchor), while the ceiling remains stable at ~5.30 meV in either case. The window
+is therefore quoted as **m_ββ ∈ [0.04, 5.3] meV**. (The derived anchor sits 2.8% below the
+2.324 meV threshold where the floor vanishes entirely.)
 
 The floor is the soft end of the window and nothing observable rides on it — it is two orders
 below any experiment's reach on any timeline. Every conclusion in this file and in the
@@ -95,8 +101,9 @@ observation's 0.45% error; the live floor only thins by about a quarter (0.050 �
 One consequence is worth stating for the double-β community: the near-cancellation makes **m_ββ an
 unusually sharp probe of the dark-energy scale**, since small changes in m₁ move it hard.
 
-The prediction's value is structural: (i) 0νββ MUST exist, so evidence for Dirac nature ends this
-sector — though that evidence can only ever be indirect; (ii) the normal-ordering floor's shape is
+The prediction's value is structural: (i) 0νββ must exist if the model's Majorana assumption is
+correct, so evidence for Dirac nature ends this sector — though that evidence can only ever be
+indirect; (ii) the normal-ordering floor's shape is
 fixed in advance; (iii) **one experiment, and only one, can reach this model.** Projected 10-year
 reaches (each span is the matrix-element range): nEXO 4.7–20.3 meV, LEGEND-1000 9–21 meV, CUPID
 12–34 meV. Against a model ceiling of 5.30 meV, LEGEND-1000 and CUPID sit entirely above and cannot
@@ -129,9 +136,9 @@ electrons. It is a genuinely different observable. The mass mode puts the electr
 sharp peak on Q_ββ; the Majoron carries energy away, so this mode is a **continuum**, and
 experiments search for it separately.
 
-The rate is not free here, because the dyad *is* the Majoron. For a mass-basis-diagonal singlet
-Majoron the coupling is g_ij = (m_i/v_L)δ_ij, so the effective coupling that drives double beta
-decay is
+The rate is not free here, because the model identifies the dyad field with the Majoron. For a
+mass-basis-diagonal singlet Majoron the coupling is g_ij = (m_i/v_L)δ_ij, so the effective coupling
+that drives double beta decay is
 
 $$\langle g_{ee}\rangle \;=\; \frac{m_{\beta\beta}}{v_L}$$
 
@@ -139,40 +146,39 @@ $$\langle g_{ee}\rangle \;=\; \frac{m_{\beta\beta}}{v_L}$$
 new enters. (Consistency check on the identification: the recorded g₃₃ = 1.2×10⁻⁸ returns
 v_L = m₃/g₃₃ = 4.18 MeV, the MeV corner's own value.)
 
-What is not pinned is v_L, which stands at two surviving corners. Both are priced:
+What is not pinned is v_L, which still has two viable parameter points. Both are priced:
 
-| corner | v_L | ⟨g_ee⟩ at m_ββ = 3.05 meV | T½(¹³⁶Xe) |
+| parameter point | v_L | ⟨g_ee⟩ at m_ββ = 3.05 meV | T½(¹³⁶Xe) |
 |---|---|---|---|
-| the MeV corner | 4.18 MeV | 7.3×10⁻¹⁰ | 3×10³² – 1×10³³ yr |
-| the high corner, GeV end | 1 GeV | 3.1×10⁻¹² | ~2×10³⁷ yr |
-| the high corner, at its 2.4 TeV ceiling | 2.4 TeV | 1.3×10⁻¹⁵ | ~10⁴⁴ yr |
+| the MeV-scale point | 4.18 MeV | 7.3×10⁻¹⁰ | 3×10³² – 1×10³³ yr |
+| the high-v_L point, GeV end | 1 GeV | 3.1×10⁻¹² | ~2×10³⁷ yr |
+| the high-v_L point, at its 2.4 TeV ceiling | 2.4 TeV | 1.3×10⁻¹⁵ | ~10⁴⁴ yr |
 
 *(Each half-life span is the matrix-element range, calibrated on KamLAND-Zen's published
 ordinary-Majoron limit: T½ > 2.6×10²⁴ yr at ⟨g_ee⟩ < (0.8–1.6)×10⁻⁵, arXiv:1205.6372.)*
 
-The conclusion does not need the corner resolved. Even at the most favourable one the Majoron
-mode is **four orders of magnitude slower than the mass mode**, which is itself already just past
-nEXO's baseline reach; the coupling sits four orders below the experimental limit, which is eight
-orders in rate. **The model predicts no observable Majoron mode, at every surviving corner** — a
-kill-only bet of the same shape as the indirect-detection and laboratory zeros.
+The conclusion does not need the corner resolved. Even at the most favourable one the Majoron mode
+is **four orders of magnitude slower than the mass mode**, which is itself already just past nEXO's
+baseline reach; the coupling sits four orders below the experimental limit, which is eight orders in
+rate. **The model predicts no observable Majoron mode, at every surviving corner** — a kill-only bet
+of the same shape as the indirect-detection and laboratory zeros.
 
 Two things make this more useful than a null.
 
-The coupling is measurable — by a CMB experiment, not a ββ experiment. CMB-S4's Majoron search
-reaches g ~ 10⁻⁸–10⁻⁹, and the model's *largest* coupling, g₃₃ = 1.2×10⁻⁸ (which involves
+The coupling is measurable by a CMB experiment, not a ββ experiment. CMB-S4's Majoron search
+reaches g ~ 10⁻⁸–10⁻⁹, and the model's largest coupling, g₃₃ = 1.2×10⁻⁸ (which involves
 m₃ = 50 meV rather than m_ββ = 3 meV), sits inside that band. CMB-S4 is roughly **four orders more
-sensitive to this coupling than 0νββχ is**, and it is already the registered corner-selector: a
-detection there selects the MeV corner and its resonant-leptogenesis lane, a null leans high-v_L.
-The instrument that settles the Majoron's coupling is not in a mine.
+ sensitive to this coupling than 0νββχ is**, and it is already the registered discriminator: a
+detection there selects the MeV-scale point and its resonant-leptogenesis lane, while a null favors
+the high-v_L point. The best probe of the Majoron coupling is not a ββ experiment.
 
 And the peak search is clean of this background. A Majoron continuum under the 0νββ peak is a
 recognised complication for the mass-mode search. This model says there is none at any reachable
 level, which is a small positive statement for the ton-scale program rather than merely an absence.
 
-*Computed, at the same matrix-element uncertainty the mass mode carries, and using the
-model's own g = m/v_L relation. Some singlet-Majoron treatments carry an additional seesaw
-suppression on top of that; it would push the rate further down, so "unobservable" survives either
-way.*
+*Computed at the same matrix-element uncertainty the mass mode carries, and using the model's own
+g = m/v_L relation. Some singlet-Majoron treatments carry an additional seesaw suppression on top
+of that; it would push the rate further down, so "unobservable" survives either way.*
 
 ## Sources
 
@@ -180,22 +186,19 @@ way.*
 PRTOE_MATH_SPINE.md §6, [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md),
 P-2026-012/020/023. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
-## 4. Addendum — the vertex's double duty
+## 4. Addendum — one vertex, two roles
 
-The transfer integral's first run requires a junction coupling y ≈ 0.7–3×10⁻⁵; the
-seesaw vertex that makes m_ν is y ≈ 1.3–1.8×10⁻⁶ — same class, factor 4–20 apart, inside
-the crude rate-form's O(1)s. If the careful session closes that factor, **the neutrino
-mass and the baryon asymmetry share one vertex** — two measured numbers, one coupling —
-and this sector co-derives η. The overshoot wall (the portal must carry no L-channel)
-rides with it.
+The transfer integral's first run requires a junction coupling y ≈ 0.7–3×10⁻⁵; the seesaw vertex
+that gives neutrino masses is y ≈ 1.3–1.8×10⁻⁶. They are the same order of magnitude, within a
+factor of 4–20 in the crude rate estimate. If the detailed calculation closes that gap, the same
+vertex could account for neutrino mass and the baryon asymmetry, provided the portal carries no
+lepton-number channel.
 
-The seesaw duty scan adjudicates this: adding the resonance duty
-(μ ≈ Γ_N, the η route's own requirement) blows the factor 4–20 to ~100× in y — the
-double-duty vertex and resonant leptogenesis exclude each other at TeV-scale M across
-a smooth 8.6-decade bridge. The romance survives only if η's leptogenesis is
-*non*-resonant (then v_L ≥ GeV and the Majoron is S4-dark). CMB-S4's Majoron search
-selects the corner: a detection at g ~ 10⁻⁸–10⁻⁹ kills the shared vertex; a null
-leans toward it.
+Including the resonance condition μ ≈ Γ_N pushes the required coupling roughly 100 times larger,
+so a single vertex does not easily do both jobs at TeV-scale M. The shared-vertex picture only
+survives if leptogenesis is non-resonant; then v_L ≥ GeV and the Majoron coupling is too small for
+CMB-S4. CMB-S4 can test that point: a detection at g ~ 10⁻⁸–10⁻⁹ would favor the shared-vertex
+picture; a null would favor the high-v_L point.
 
 ## Where the dead ends live
 
@@ -207,111 +210,47 @@ steriles exist, so the seesaw type is unforced.
 
 ---
 
-## The tenth-channel mass relation — the tie's mechanism (2026-07-18)
+## The tenth-channel mass relation — the link (2026-07-18)
 
-The neutrino spectrum has two jobs and the sector has two sources,
-one per job. The **splittings** (Δm²₂₁, Δm²₃₁ — what oscillations measure) are **seesaw-sourced**:
-at the surviving corners' scale (v_L at either the MeV corner or the TeV class — both clear every applied constraint,
-with CMB-S4 the selector), y ≈ 6×10⁻⁷ reproduces m₃ = 50 meV —
-natural, with the seesaw's lightest eigenvalue free to sit far below a meV (hierarchical
-couplings). The **absolute floor** — the lightest mass, which oscillations do not fix — is
-**medium-sourced**: the tenth-channel seating (the c = 9/10 lock's own requirement: a
-direct-Majorana light mass, medium- not electroweak-sourced) reads
+In this model the neutrino mass splittings come from the seesaw, while the lightest neutrino mass is
+tied to the dark-energy scale. At the surviving parameter corners (either the MeV-scale or the
+TeV-scale lepton-number-breaking scale, both consistent with the model's constraints and selected by
+CMB-S4), a Yukawa coupling of about 6×10⁻⁷ reproduces m₃ = 50 meV. The lightest eigenvalue can
+still sit far below 1 meV in the seesaw sector.
 
-> **m_ν,lightest = κ_m · ρ_inf¼, κ_m ≈ 1** —
+The absolute floor is different: the lightest mass is written as
 
-the seesaw's near-zero lightest eigenvalue is dominated by the medium term exactly where the
-medium term matters. Σm_ν = 61.4 meV and the normal ordering are unchanged.
+> **m_ν,lightest = κ_m · ρ_inf^{1/4}, κ_m ≈ 1**
 
-The tie ρ_Λ¼ = m_ν,lightest is the **mass-generation identity read
-forward**, not a thermal coincidence: the dark-energy floor does not *happen* to freeze at the
-lightest neutrino's mass — it **sets** that mass, and the ν bath's last relativistic species then
-quits at the medium's own scale *by construction*. The freeze-at-m₁ dynamics (the Majoron-channel
-tracking, whose ceiling the computed damping rate puts at v_L ≲ 2.4 TeV) remain the settling's
-mechanism; the tie's *source* is the
-mass relation. One coincidence dissolves: "why does the bath quit exactly at the floor scale"
-was the old reading's unexplained alignment.
+This is the mass relation used in the model. It does not mean the model derives the observed value
+2.25 meV from first principles; that value remains the dark-energy-value problem. It does mean that
+the same lightest-mass scale appears in both the dark-energy sector and the neutrino sector.
 
-Under this relation the tie's *value* no longer rides the
-tracking — the corridor's upper fence (v_L ≲ 2.4 TeV at computed rate) is the requirement of the recorded
-*settling dynamics* (the friction that damps the residual to the floor by z ≈ 12), not of the
-tie itself. If tracking failed, the equality would survive and the settling story would lose its
-friction partner — a different, milder failure than the pre-spec reading implied.
+The relation ρ_Λ^{1/4} = m_ν,lightest is therefore a mass-generation identity, not a thermal
+coincidence. The dark-energy floor sets the lightest neutrino mass, and the last neutrino species to
+become non-relativistic does so at that scale. The freeze-out dynamics remain the mechanism that
+connects the mass relation to the thermal history; the relation itself is the source of the tie.
 
-The lock's own counting names the
-channel: c = (N−1)/N with the roster = **9 charged species + the vacuum's own seat**, and the
-neutrino **sits on the seat, not in the count** ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md),
-the amplitude block). That seating is the operator's derivation:
+What is still open is how the mass term is distributed across the three neutrino eigenstates. The
+simplest operator at the medium level is flavor-blind, so a state-selective result has to come from
+the dynamics, not from the operator alone.
 
-- the nine charged species take the medium **multiplicatively** — the ε-channel dresses the EM
-  fraction of an electroweak mass, and it needs charge to grab;
-- the neutrino is the roster's one **neutral** fermion: no charge, no EM fraction, nothing to
-  dress — the multiplicative channel is closed to it *identically*. The only gauge-invariant
-  bilinear the medium can write on the seat it shares is the direct Majorana term, and the only
-  scale on that seat is the floor's own, μ_∅ ≡ ρ_inf¼:
-
-> **L_tenth = −(κ_m/2)·μ_∅·ν̄₁ᶜν₁ + h.c.** — the medium *sources* the neutral member where it
-> *dresses* the charged nine. (The bilinear is particle-particle, and it is admissible for the
-> same reason the charged sector's pairing is *not*: a condensate may carry no electric charge.
-> A neutral fermion's Cooper pair carries none, so Majorana is open on the seat; a charged
-> fermion's would carry 2e and Higgs the photon, which is why the charged sector pairs
-> particle-hole instead — [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6b.) (The seat is the joint vacuum's — the cross-of-both-fields note,
-> MATH_SPINE — reached through the lepton-sector wing; no gravity-only door is used. Below v_L
-> the bilinear is L-legal; its UV form above v_L is named below.)
-
-Why κ_m ≈ 1 rather than another O(1) — two structural legs. (i) *No mediating small
-parameter:* for the charged nine the medium's effect is a ~1% correction because it modulates a
-fraction of an existing electroweak mass; on the seat there is no existing mass and no fraction
-— the term is the whole mass, and suppression would require a small parameter the seating does
-not contain. (ii) *Quarter-power compression:* whatever pure number b closes the seat's
-dimensions (ρ_inf = b·m₁⁴), κ_m = b^(−1/4) — the fourth root compresses coefficient ignorance
-fourfold in the log: b ∈ [0.1, 10] ⟹ κ_m ∈ [0.56, 1.78]; even b ∈ [1/16π², 16π²] (four
-decades) only reaches κ_m ∈ [0.28, 3.5]. κ_m lands within a factor ~2 of unity for ANY un-tuned
-vacuum constant; κ_m = 1 exactly (b = 1, the scale-free saturated seat) is the natural point
-and is **not claimed**. The settling test passes: everything above is dimensional closure of
-the medium's own floor — the observed ρ_Λ never enters. (Band check: κ_m ∈ [0.56, 1.78] puts
-m₁ ∈ [1.3, 4.1] meV and moves Σm_ν by under ±2 meV — nothing downstream strains.)
-
-The UV form above v_L (spec). The seat term completes to
+The operator above the lepton-number-breaking scale is
 
 > **O_A = (c_A/v_L)·Φ_med·σ_L·ν̄₁ᶜν₁ + h.c.**
 
-— dimension-5 with the cutoff the L-breaking scale itself; L-invariant (the bilinear's L = +2
-against σ_L's −2); below v_L it reduces exactly to the seat term with μ_∅ = ⟨Φ_med⟩ and
-κ_m = c_A·O(1) preserved. Two dividends and one fork: *(dividend 1)* the σ_L phase induces
-the Majoron–ν₁ coupling g = m₁/v_L = 2.3×10⁻⁹ (MeV corner) / 2.4×10⁻¹⁵ (TeV corner) — clearing
-the classic SN band by 10²×/10⁸× and the modern likelihood bound by 40×/4×10⁷×: the UV
-completion is SN-safe at both corners with no new input; *(dividend 2)* EFT validity
-μ_∅ ≪ v_L holds by ≥ 9 orders at both corners. *(The fork, named)* flavor structure:
-**seat-aligned** (couples to the lightest mass eigenstate; Σm_ν = 61.4 meV unchanged — the
-spec's reading; its alignment derivation is worked below) vs **democratic** (μ_∅·𝟙 adds μ_∅ to every
-eigenvalue: Σm_ν → 68.3 meV — priced, disfavored by the registered 61.4, not excluded). The
-alignment question is the operator's one remaining structural residual.
+It is a dimension-5 operator with the cutoff set by the symmetry-breaking scale itself. Below
+v_L it reduces to the lightest-state Majorana term. The associated Majoron coupling is
 
-The fork is the seat term's flavor contraction:
-seat-aligned is ν̄₁ᶜν₁ = ν̄ᶜP₁ν, a projector onto the lightest mass eigenstate; democratic is
-ν̄ᶜ𝟙ν, the identity. The seat term is **medium-sourced**, and the medium is identity-blind — it
-reads energy, not flavor (the clause that also puts the mixing angles out of reach,
-[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §9). A blind coupling has one flavor
-structure available to it, the identity 𝟙; the projector P₁ requires the mass basis, which the
-medium cannot read. So **the democratic 𝟙 is the blind default at the operator level**, and
-Σm_ν → 68.3 meV is what the bare seat term gives — the burden sits on the aligned reading, not on
-the democratic one. Seat-alignment cannot be written *into* the operator; if it holds, it is a
-statement about the **dynamics**, not the Lagrangian. The candidate mechanism is the settling
-freeze itself (`scripts/kubo_freeze.py`, Q3): the lightest neutrino is the last relativistic
-friction partner (it goes non-relativistic at z ≈ 12, against z ≈ 290 for the heaviest), so the
-condensate's *scale* freezes at m₁ = μ_∅ — a selection by **energy** (last relativistic), which
-is blind-compatible where a flavor projector is not. What that fixes is the frozen scale; what it
-does **not** yet fix is the per-species deposit — whether the medium mass lands on the lightest
-alone (aligned, 61.4), on all three (democratic, 68.3), or graded across the transitions. The
-gate: a flavor-resolved settling calculation — the condensate's growth profile Φ_med(T)
-deposited per species through the three ν NR transitions — which inherits the basement build, the
-same medium equation of state that owes `kubo_freeze.py`'s standing residual (the O(1)
-coefficient of the frozen excitation). Until it is run, Σm_ν = 61.4 rides on an unproven dynamical
-alignment.
+> **g = m₁/v_L**
 
-Owed after the exhibit: the seat constant b (one pure number, from the joint vacuum's gap
-structure — inherits the basement build), and the seat-alignment derivation above.
-The operator is exhibited at seat level with its UV form; κ_m's size structural (two legs); b open;
-the alignment gated on the flavor-resolved settling profile — democratic at the operator level,
-aligned only if the freeze dynamics deliver it.
+which gives g = 2.3×10⁻⁹ in the MeV corner and g = 2.4×10⁻¹⁵ in the TeV corner. That keeps the
+UV completion safe with respect to supernova limits and makes the Majoron signal far below current
+ββ limits.
+
+The remaining open pieces are:
+
+- the pure number b in ρ_inf = b·m₁⁴,
+- the detailed settling calculation that decides how the mass term is shared among the neutrino
+  eigenstates,
+- and the running α_c chain that checks the occupancy-corrected ρ_inf closure.

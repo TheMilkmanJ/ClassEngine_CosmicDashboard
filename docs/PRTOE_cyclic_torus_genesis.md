@@ -13,7 +13,7 @@
 
 *Honest-verdict discipline throughout. This documents a multi-step brainstorm that
 converted a chain of physical instincts into computed results. Every mechanism named
-here maps to real physics; the ASSEMBLY into a genesis story is coherent but NOT a
+here maps to real physics; the assembly into a genesis story is coherent but NOT a
 derivation. Testable edge = the twist-floor DE prediction (w₀>−1 thawing). Companion:
 docs/PRTOE_cosmological_constant.md, docs/PRTOE_PREREGISTERED_PREDICTIONS.md (P-2026-013),
 scratchpad scripts (scratch-era, not retained): hawking_brake.py, rotation_reverse.py, three_joints.py, ghost_field.py,
@@ -28,7 +28,7 @@ twist_floor.py, c1_locus_twist.py.*
 - **Magnitude:** solar BH radiates 2×10⁻⁵⁸ of its mass per Hubble time; L/M ∝ 1/M³ so big BHs radiate ~nothing. **Maximal dynamic ceiling** (every baryon → stellar BH, Ω_b=0.05): **1.1×10⁻⁶² of ρ_crit.** Cosmologically zero.
 - Only ~10¹⁵ g PBHs radiate appreciably **today** — lighter classes finished long ago (the ~10¹¹ g class evaporated during the BBN era, where its injections are separately priced and killed by ⁶Li: the deuterium row's §5b), heavier ones radiate ~nothing, and stellar collapse can't make light ones (TOV ≥3 M☉).
 - **A brake ≠ a reverse:** radiation self-dilutes (a⁻⁴); with ρ_inf>0, Λ always wins the far future. No reversal from radiation.
-- **KEPT FOR LATER:** in a *contracting* phase radiation BLUESHIFTS (a⁻⁴ grows as a↓) → the negligible brake becomes the crunch's dominant heat. This is the genesis "heat fountain" fuel (and the Tolman-entropy carrier).
+- **KEPT FOR LATER:** in a *contracting* phase radiation BLUESHIFTS (a⁻⁴ grows as a↓) → the negligible brake becomes the crunch's dominant heat. This is the reheated-radiation fuel for the bounce (and the Tolman-entropy carrier).
 
 ### 2. The reverse — must act on the FLOOR's sign, not as a fluid on top
 - Model: ρ_floor(t) = ρ_bare + ρ_rot(t), ρ_bare<0 (AdS true vacuum), ρ_rot>0 the rotation propping it up.
@@ -42,7 +42,7 @@ twist_floor.py, c1_locus_twist.py.*
 - Below the floor is **phantom runaway** (w<−1), which is *why* the clamp exists. The single field **freezes** (w→−1) — wrong DESI direction — and settles to +ρ_inf (no reverse alone). A reverse needs the attractor sign negative or a 2nd field.
 
 ### 4. The twist floor — counter-rotation FORCED by the twist, gives thawing + reverse
-- **A twist is definitionally two opposed rotations** (torsional tension = the snap). So the second rotation is NOT a free field.
+- **A twist is definitionally two opposed rotations** (torsional tension = the mechanical reversal). So the second rotation is NOT a free field.
 - Two coupled phases ⇒ the RELATIVE phase ψ carries a **periodic potential** V(ψ)=M⁴(1−cos ψ) — a pseudo-Goldstone/axion. Floor = ρ_bare + ½ψ̇² + V(ψ).
 - **twist_floor.py result: THAWING in every case** — w rises toward today from ~−1 (the DESI DR2 direction). w₀≈−0.72 (M⁴=1.5, ρ_bare=−0.1), reverses **+33 Gyr**; other cases reverse +62–76 Gyr. *(The turn was since computed at the sector's own bare depth — a ≈ 2.0–2.8, 16–26 Gyr, [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d; the case timings here are this file's exploratory scan, kept as its record.)*
 - **Barrel-E defusal:** thawing is a FORCED direction (an unfreezing field always rolls w up from −1), independent of DESI ⇒ predicting w>−1 is not opportunistic. Magnitude tuned; direction robust.
@@ -65,11 +65,11 @@ twist_floor.py, c1_locus_twist.py.*
 ### 8. The torus convergence — two independent threads meet (P-2026-013)
 - The torus was ALREADY the registered shape: **P-2026-013**, flat 3-torus, motivated independently (finitism, no-center, H₀-safe). **The low quadrupole is not among its motivations:** regenerated ISW-inclusive on a retained generator, the retention at the matched-circles floor L = 27.6 Gpc is 0.90, so the largest suppression any permitted box delivers is 10% — 0.16σ against the quadrupole's own 63% cosmic variance, and nowhere near the observed 0.2–0.5. What survives is the *shape* — suppression confined to the lowest multipoles and gone by ℓ ≈ 4 — and the test's relocation from the power spectrum to the off-diagonal covariance.
 - Genesis, worked from the other end, **demands** a torus for the twist axis. Independent convergence.
-- The GR name for this instant: the heat-fountain genesis reads as the one realized white-hole-like handover — the time-reverse solution GR always carried, cashed exactly once with no exterior counterparty. Causal-structure reading, not a derivation; the identification, grades, and fences: [PRTOE_white_holes.md](PRTOE_white_holes.md).
-- **Cross-bounce bookkeeping:** rotation is dynamical (resets to 0 at crunch); **topology is not** — the torus survives and carries the axis across the bounce for the heat fountain to re-seed spin. Topology holds what dynamics loses.
+- The GR name for this instant: the reheating genesis reads as the one realized white-hole-like handover — the time-reverse solution GR always carried, cashed exactly once with no exterior counterparty. Causal-structure reading, not a derivation; the identification, grades, and fences: [PRTOE_white_holes.md](PRTOE_white_holes.md).
+- **Cross-bounce bookkeeping:** rotation is dynamical (resets to 0 at crunch); **topology is not** — the torus survives and carries the axis across the bounce for the reheated radiation to re-seed spin. Topology holds what dynamics loses.
 
 ### 9. Bubble-ring mechanism + the LOCAL≠GLOBAL torus caveat
-- A confined buoyant plume (heat fountain) rolls up at its edge (Kelvin-Helmholtz) into a **vortex ring**; background swirl makes it **helical** (net helicity = the twist). This is textbook vortex-ring formation ⇒ **dynamically makes the torus** (answers "why not a sphere").
+- A confined buoyant plume (reheated radiation) rolls up at its edge (Kelvin-Helmholtz) into a **vortex ring**; background swirl makes it **helical** (net helicity = the twist). This is textbook vortex-ring formation ⇒ **dynamically makes the torus** (answers "why not a sphere").
 - **Critical distinction:** a LOCAL vortex-ring torus (structure in space) ≠ the GLOBAL 3-torus topology (shape of space, P-2026-013). They coincide only IF the primordial ring is comparable to the whole compact universe. Conditional, speculative.
 
 ---

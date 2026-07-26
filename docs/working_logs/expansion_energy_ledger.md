@@ -45,6 +45,19 @@ flat-universe expansion does. What is *not* yet shown is the part that would act
 conserved global total in the medium. And what it *costs* is a preferred frame. Consistent, concrete,
 more falsifiable — not shown correct.
 
+**Bounce clause.** This zero-sum account is strong enough to localize the handover, but not strong
+enough to manufacture the bounce by itself. In the flat case the turn still requires
+
+`H = 0` and `Ḣ > 0`
+
+while the standard sign remains
+
+`Ḣ = −4πG(ρ + p)`
+
+So the ledger supports the statement “the handover is finite and localizable,” but not the
+statement “the ledger alone makes the turn.” A real bounce still needs `ρ_tot → 0` at the
+handover or a noncanonical correction to the Friedmann law.
+
 ## The localizable zero, on the board at the burst (T = m_e)
 
 The claim "the medium hosts a *localizable* zero" is now a computation, not an argument

@@ -9,6 +9,28 @@
 three dark fields — the dCDF superfluid ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)),
 this field, and the Majoron (§2).*
 
+## 0. Derived core, open residue
+
+What is already derived or forced in this branch:
+
+- the dyad operator must be even in the dark field, so the leading invariant is `|Ψ|²`;
+- `H†H` is excluded by D/H and the quark channel;
+- `L̄He` is the standing operator choice for `δm_e`;
+- the shift amplitude is `ε = c·f̄·α_c = 27α/5π`;
+- the threshold is sharp, not smooth, because the gate is event-set and curvature-keyed;
+- the high-f thermal restoration relation makes `(λ_dyad, f, T_c)` a two-parameter family;
+- the Majoron is a separate field, so the dyad remains leptophilic by data, not by a symmetry story.
+
+What is still open:
+
+- which Standard-Model operator the singlet multiplies in the UV completion above `f`;
+- the exact `T_c` pin within the remaining band;
+- the crunch-sector bridge that would make the already-computed high-f portal rate law relevant
+  to the bounce.
+
+So the dyad is not “story grade” in the parts the corpus already prices. The open residue is
+specific and small: operator selection, exact pinning, and the portal rate.
+
 ---
 
 ## 1. What it is

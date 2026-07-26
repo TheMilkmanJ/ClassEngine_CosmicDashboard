@@ -1,6 +1,6 @@
 > **PROVENANCE NOTE (2026-07-19):** dated session record; statuses herein are as-of
-> 2026-07-10 (T_c, the gate-0 pharmacy, the ε decomposition, and the standing odds have
-> all moved since). For current state see PRTOE_INDEX.md.
+> 2026-07-10 (T_c, the gate-0 pharmacy, and the ε decomposition have all moved since).
+> For current state see PRTOE_INDEX.md.
 
 # PRTOE — Session Findings, 2026-07-10
 
@@ -89,7 +89,7 @@ toy, Ω_DM~Ω_b, the Majoron over-reach, the "tightly bounded early" flip). The 
 
 ## HONEST STANDING (end of session)
 
-Distinctive PRTOE ~6–10%, single-gated on DESI DR3. The CC is reframed (dynamic floor, forced by
+Distinctive PRTOE is single-gated on DESI DR3. The CC is reframed (dynamic floor, forced by
 the model, dodging static Weinberg) but NOT derived (value = Lagrangian input). The dyad-leptophilia
 is the one un-derived coupling, precisely mapped. Birefringence closed, EP cleared, leptonic fit
 competitive (χ²≈2802.8). Nothing was hand-waved; every over-reach (several of them ours) was caught and
@@ -142,7 +142,7 @@ Arc: gate-0 BBN wall → two-field split → electron-CW T_c → leptophilia ref
 - The lepton-specific portal OR the P-020 leptogenesis amplitude-follows-current derivation.
 - The μ~meV / DE value (shared-scale motivates, does not derive).
 
-## STANDING: ~12-16%. Real reductions attempted, honest walls found, no breakthrough. The reduction
+## STANDING: Real reductions attempted, honest walls found, no breakthrough. The reduction
 (derived onset) banks; the clearance is a live coin-flip; the neutrino tie is motivated + falsifiable.
 
 ## PROCESS: mutual walk-backs held the line -- my over-claims caught in BOTH directions (over-sold

@@ -21,17 +21,19 @@ still unbuilt, that is named in place rather than graded with a tag.
 ## The links and their tethers
 
 **0. THE CRUNCH** (the previous cycle's close): contraction; radiation blueshifts (a⁻⁴
-grows) accumulating the fountain's fuel; rotation resets to zero; topology does NOT —
+grows) accumulating reheated-radiation energy; rotation resets to zero; topology does NOT —
 the torus and its axis persist; entropy rides through (the Tolman carrier).
-→ **Tether 0→1:** hands off topology (the axis), entropy, and the fountain fuel. The transition
-IS the snap. *The bounce's actual equations are the chain's largest missing tether — half the open
+→ **Tether 0→1:** hands off topology (the axis), entropy, and the reheated-radiation energy. The transition
+IS the bounce. *The bounce's actual equations are the chain's largest missing tether — half the open
 questions (flatness, the cell count, the draw epoch) funnel here.*
 
-**1. THE SNAP / THE POUR** (genesis, one instant): the counterparty-free white hole
-(PRTOE_white_holes.md); the fountain rolls up (Kelvin–Helmholtz) into the helical vortex
-ring — the torus re-formed, spin re-seeded from the carried axis; the Kibble draw takes
+**1. THE BOUNCE / THE GENESIS** (one instant): the bounce-driven white-hole-like event
+(PRTOE_white_holes.md); the reheated radiation flow rolls up (Kelvin–Helmholtz) into the helical vortex
+ring — the torus re-formed, spin re-seeded from the carried axis; the Kibble mechanism sets
 n; the parity stamps are signed (the genome's helicity, η's seed); gravity works
 repulsive (condensate-led — same law, opposite work).
+This is the macro-scale bounce picture, not the link-5 scaling attractor and not the Koide
+family-space ring. The failures ledger retires family-space-on-condensate routes.
 → **Tether 1→2:** hands off n, the fireball, the condensate background, the parity stamps. The
 transition is SIGN FLIP #1: radiation takes over the energy budget and gravity's work turns
 attractive (the acceleration equation reading ρ+3p — booked).
@@ -42,7 +44,7 @@ ordering's first half.
 → **Tether 2→3:** the handoff observable IS the windowed BBN pattern — freeze-out abundances locked
 pre-condensation.
 
-**3. CONDENSATION, T_c = 177.10 keV (z ≈ 7.5×10⁸):** the medium condenses mid-BBN — between
+**3. CONDENSATION, T_c = 177.10 keV (z ≈ 7.5×10⁸):** the scalar field condenses mid-BBN — between
 n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV. **That ordering is keyed to
 177.10 keV, which the confining chiral ratio supplies, and the dyad's own two internal
 determinations intersect at 307–714 keV instead** — a band whose top reaches freeze-out, so the
@@ -61,7 +63,7 @@ the running fit's frozen profile sits at 3.56×10⁷, log 7.55):** the winding
 mode crosses k/a = m — the dcdf's radiation-like era hands over to CDM-like; the C code
 carries this transition's exact ramp (√(1+x²)−1 — the dispersion upgrade).
 → **Tether 4→5:** THE TWO DRAWS — two distinct adjacent events, of two different kinds.
-The **quantization event**: the classical fountain ring's circulation quantizes through the
+The **quantization event**: the circulation of the vortex ring quantizes through the
 condensation ramp, n locking at the phase-slip freeze-out (mechanical, noise-dressed; the KZ dice
 demoted to the residual and the ± genome coin). That one *is* a freeze-out — one length, frozen
 once. The **census imprint**: the shot count that sets A_s = 1/N. That one is **not** a freeze-out
@@ -69,8 +71,11 @@ and cannot be, because a single frozen comoving cell size is white noise (n_s = 
 **scaling** imprint, ξ holding a fixed fraction of each mode's own scale. Topology draw (n, at
 condensation) and census imprint are separate adjacent links of separate mechanism *class*;
 nothing downstream may borrow the freeze-out criterion across that boundary.
+The retained γ* route is the superfluid defect-network fixed point, not a three-body or Koide
+triangle geometry; the latter lives in the family-sector notes and was tested, then retired, as a
+source of the census imprint.
 
-**5. THE CENSUS IMPRINT, CMB-relevant scales processed near z ~ 10⁶:** the payroll, read scale by scale rather than snapped once
+**5. THE COUNTING IMPRINT, CMB-relevant scales processed near z ~ 10⁶:** the count, read scale by scale rather than applied once
 — at the pivot the scale stands 782 cells across (A_s = 1/N; the older 781 was
 the Planck-anchored count). **This link is a process, not an instant**, and that is forced: each
 mode carries the count at *its own* imprint time, and only a ξ tracking each scale — ξ/ℓ_H held at
@@ -79,8 +84,9 @@ tilt near 1. Holding one comoving cell size instead reproduces A_s at the pivot 
 and returns n_s = 4. **The mechanism that holds that ratio is a defect-network scaling attractor** — the genesis vortex
 tangle's self-similar regime, exhibited in
 [working_logs/census_scaling_mechanism.md](working_logs/census_scaling_mechanism.md); its value
-γ* = 3.45×10⁻³ selects the overdamped/superfluid branch and is the medium-derivation the link still
-owes ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) §5,
+γ* = 3.45×10⁻³ selects the overdamped/superfluid branch; the fixed-point branch-selection argument is
+closed, but the exact microphysical value is the field-theoretic derivation the link still owes
+([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) §5,
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §7). The μ-era referee (entry
 46): ξ-branch FIRAS-squeezed to < 3% leakage, PIXIE sees 2×10⁻⁶;
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
@@ -138,7 +144,7 @@ thread (RAR engagement); SMBH spin-dip band (P-034); DESI BAO as the standing re
 → **Tether 9→10:** the growth history hands to the acceleration era; DESI DR3 grades the handoff.
 
 **10. DARK-ENERGY DOMINATION, z ≲ 0.7:** SIGN FLIP #2 — the condensate re-takes the
-books (the twice-crossed threshold): today's acceleration is the pour's mechanism at its
+books (the twice-crossed threshold): today's acceleration is the same mechanism at its
 second epoch. One component, two repulsive eras — where ΛCDM needs two stories.
 → **Tether 10→11 (expanding branch):** the turn requires the sector's negative
 bare piece (the thaw law alone never reverses), and with it lands at a ≈ 2.0–2.8

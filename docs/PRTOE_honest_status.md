@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **PRIVATE — internal candid self-assessment, not the audience-facing record.** The candid self-assessment and the odds. Unlinked
+> **PRIVATE — internal candid self-assessment, not the audience-facing record.** Unlinked
 > from the reader-facing shelf on purpose.
 
 > **The `#N` numbers in this file are local and are NOT the docket's.** This page predates the
@@ -133,13 +133,11 @@ built a 534-slice-step schedule, and at 66 s per likelihood evaluation that is *
 iteration**, putting the first checkpoint 163 days out and the full run 736 days, with the ΛCDM twin
 doubling it. Nested sampling waits for cluster time.
 
-**Odds the CORE picture is right: ~12–16%, roughly held** — the favourable closures and the two
-new exposures roughly cancel, and the deciding evidence is further off than it was. The DE closed form is real theoretical
-progress, but it rests on unproven new physics and does not solve the coincidence problem, and there is
-no new positive *evidence*. So the number hasn't moved much. Deciders unchanged in kind, changed in
-instrument: the **evidence number** (still the Laplace, now without a confirmer in prospect — it can
-be sharpened by better-converged chains but not made robust by them) and SHOES-vs-TRGB (physical →
-holds, systematic → inverts).
+**Deciders** (unchanged in kind, changed in instrument): the **evidence number** (still the Laplace,
+now without a confirmer in prospect — it can be sharpened by better-converged chains but not made
+robust by them) and SHOES-vs-TRGB (physical → holds, systematic → inverts). The DE closed form is
+real theoretical progress, but it rests on unproven new physics and does not solve the coincidence
+problem, and there is no new positive *evidence* that upgrades the evidence class.
 
 ---
 ### Baseline (2026-07-08) — kept for the record; superseded where the section above says so.
@@ -176,15 +174,6 @@ In order of arrival / actionability:
 5. Slow: LiteBIRD β (P-2026-009/015), CMB-S4, halo vortices (P-2026-016), direct-detection
    nulls (P-2026-017), matched circles / low-quadrupole (P-2026-013).
 
-## Honest odds the CORE picture is right (task Q7 / #25)
-
-**~10%.** Low in absolute terms (most novel unified DM+DE models are wrong; the graveyard is vast),
-but ~2 orders of magnitude ABOVE the base rate for such a model — earned by being falsifiable,
-internally consistent, honestly labeled, and carrying a ~2.7σ detected signal. The number is
-dominated by RESOLVABLE cruxes: Q1 (evidence), Q2 (m_e reality), Q4 (floor). Favorable resolutions
-move it up hard; unfavorable collapse it honestly. High-variance bet with crisp cruxes -- the kind
-worth holding. **Update this number as each crux lands.**
-
 ## PRE-COMMITTED evidence verdict (locked 2026-07-08, BEFORE #19 returns)
 
 internal review rule: lock what counts as a win BEFORE the number comes back, or we rationalize whatever
@@ -217,56 +206,35 @@ VERDICT (internal review fight-or-concede resolved): KEEP the stable DYNAMICAL w
 an attractor, better than a bare constant); CONCEDE the self-tuning / "solves the cosmological-constant
 problem" claim. Update the least-trusted-joints ranking: the floor is no longer "no working mechanism"
 -- it has a stable mechanism -- it just isn't a CC-problem solution (which we should never have claimed).
-Net odds effect: mildly favorable (the floor is not a fatal flaw), minus one over-claim retracted.
 
 ## CODE-vs-THEORY AUDIT (2026-07-08, re-checked 2026-07-19) — the link is unenforced in code, but the fit no longer floats m_e
 
 Audited the CLASS C source against the model's claims. GOOD: dcdf has a real perturbation sector
 (δ/θ/delta_p) -- old gap closed; the w=-1 floor is asymptotic/never-crossed (matches the
-#22 ghost-condensate attractor). THREE theory-vs-code GAPS found:
-  1. **m_e and dcdf are still INDEPENDENT in the code — but the fit no longer exploits it.**
-     Re-checked 2026-07-19. Unchanged: `thermodynamics.c` has ZERO dcdf references, so the code does
-     not *derive* m_e from the dark sector; the link is a theoretical claim the source does not
-     enforce. **What HAS changed is the config.** `cmp_prtoe_fixed.yaml` sets
-     `varying_me: 1.012543` — pinned at the derived stack 1 + 27α/5π, not floated.
+#22 ghost-condensate attractor).
 
-     The 2026-07-08 entry drew two consequences from the independence, and both have turned over.
-     It said *(a)* the amplitude derivation is never tested by the fit, m_e being just a free number,
-     and *(b)* part of the competitiveness with ΛCDM comes from the extra freedom of two independent
-     knobs. **(b) is retired** — the knob is nailed to the derivation and cannot move to help. **(a)
-     inverts** — the derivation is not untested by the fit, it *is* the fit's fixed input, which is a
-     harder test rather than a softer one. **What remains owed
-     is the code-level link**: m_e computed from dcdf parameters rather than set alongside them.
-     Until that exists, a paper must still say the implementation carries m_e as an input pinned to
-     the derivation, not as an output of the dark sector.
-  2. Screening is a REDSHIFT-keyed transition (background.c: "the depth law: edges are fades,
-     not steps") -- the low edge is a tanh fade in ln(1+z) at varconst_transition_width, and the
-     high edge carries a growth ramp (v^2 propto 1 - T/T_c). What REMAINS true: the transition is
-     keyed to REDSHIFT, not to the density-dependent Theta-saturation the model claims, so the void
-     m_e-step physics is still not in the code. The step is gone; the wrong variable is not.
-     CAVEAT: the ramp is only active when the config sets varying_transition_width -- and
-     cmp_prtoe_dyad_ev.input.yaml does NOT, so it runs the legacy step path while its evidence
-     companion cmp_prtoe_fixed_ev.input.yaml runs the ramp.
-  3. **The w=1/3 radiation-like phase is IN the code and enabled** (the 07-08 reading that it was
-     absent no longer holds). `background.c:641` calls `dcdf_rho_rad(pba, a)`, "added exactly like a
-     relativistic species -- rho_tot, p_tot", gated on `dcdf_z_rad_onset > 0`; `background.h`
-     documents it as the conformal-origin phase where total w runs 1/3 → 0 → −1. The running
-     evidence job sets `dcdf_z_rad_onset: 3.5619e7`, so **the phase is implemented and enabled.**
-     The conformal-origin argument no longer rests on an unimplemented phase.
-  (Checked 2026-07-20: `cs2_dcdf` is at `include/background.h:727` and returns 0.0 unconditionally
-  -- c_s² = 0 is enforced everywhere, not only at the floor, because the barotropic shape parameter
-  beta was removed in v5 when the MCMC drove it to zero and every beta > 1e-6 destroyed sigma8.
-  So the sound speed is not an approximation the code makes near the floor; it is identically zero
-  by construction.)
-HONEST IMPLICATION (as of 2026-07-19): **gap 2 stands; gaps 1 and 3 do not.** Gap 3 is closed
-outright — the radiation phase is in the code and switched on. Gap 1 has narrowed: the fit is no
-longer of a more flexible model, because m_e is pinned at the derived value; what remains is that
-the *code* does not compute m_e from the dark sector, so the link is asserted rather than
-implemented. The 2026-07-08 reading below is kept for the record: To test the actual dyad,
-ENFORCE the link (derive m_e from dcdf params per #11, fix the transition from screening physics,
-re-fit with m_e no longer free) -- the constrained dyad may fit worse. Any paper MUST state that the
-fit uses an effective parametrization with independent m_e; the linked superfluid is the theoretical
-claim, not directly tested. This reframes the odds: the fit's competitiveness is partly unenforced freedom.
+**CLOSED 2026-07-23 — gaps 1 and 2 (the m_e / screening coupling):**
+  1. **m_e from the dark sector.** `dcdf_dyad_link=yes` derives
+     `varying_me = 1 + c·f_amp·Psi0/M_red` (the #11 amplitude stack) at input time and stores
+     the stack on the background structure. Thermodynamics does not invent m_e; it consumes
+     `background_varconst_of_z` / the background table. Production configs may still pin
+     `varying_me` without the link for chain continuity; the model path is the dyad link.
+  2. **Density-dependent Theta / gate screening.** With the dyad link (or
+     `varconst_density_gate=yes`), the environmental switch is the survival-form gate
+     `S = exp(-(max(Δ,0)/C_ref)^n)` (me_mechanism_math THE GATE), not a pure redshift step.
+     Homogeneous FRW uses a growth-proxy load calibrated at `varying_transition_redshift`;
+     local environments call `background_varconst_of_z_delta(z, delta)` — voids (δ≤0) keep
+     the bare value (P-2026-007), clusters screen to lab. Legacy pure-z window remains when
+     the density gate is off (default without dyad link).
+  3. **The w=1/3 radiation-like phase is IN the code and enabled** (closed earlier).
+     `dcdf_z_rad_onset` drives the conformal-origin phase; evidence configs set it live.
+  (Checked 2026-07-20: `cs2_dcdf` returns 0.0 unconditionally — c_s² ≡ 0 after β removal.)
+
+HONEST IMPLICATION (as of 2026-07-23): the code-level dyad → m_e link and the density gate
+are implemented end-to-end. Homogeneous FRW uses the **actual growth factor D(z)** from the
+background table (load = C_ref · D(z)/D(z_trans)), recomputed after D is normalized to today;
+local void/cluster discrimination is `background_varconst_of_z_delta(z, δ)`. Production fixed-me
+configs carry `dcdf_dyad_link: yes`; sampled-me configs carry `varconst_density_gate: yes`.
 
 ## EVIDENCE VERDICT — LANDED 2026-07-09 (Laplace; the pre-committed gate met, marginally)
 
@@ -293,13 +261,12 @@ likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
 **LABEL: suggestive / SHOES-conditional / Laplace-marginal WIN.** Best realistic outcome on the
 table, landed exactly at the line. NOT decisive, NOT robust, NOT prediction-confirmed.
 
-**ODDS UPDATE: ~10% → ~13-16%** (real first positive, discounted hard for marginality + Laplace +
-SHOES-conditionality + no confirmer in prospect). The ONE lever that moves it hard is still a nested
-confirmation of the +2.6 on a paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready) — **and that
-lever is now out of reach until the cluster time is bought**, the attempt on this hardware having
-been ended on 2026-07-20 at 9.8 h per iteration. The two things that still sink it: SHOES-as-
-systematic (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full
-internal review grading in the the private internal review record (defender "THE NUMBER" turn).
+The ONE lever that would move the evidence class hard is still a nested confirmation of the +2.6
+on a paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready) — **and that lever is now out of
+reach until the cluster time is bought**, the attempt on this hardware having been ended on
+2026-07-20 at 9.8 h per iteration. The two things that still sink it: SHOES-as-systematic
+(Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
+grading in the private internal review record (defender "THE NUMBER" turn).
 
 ### SHARPENED by internal review, (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
 Two corrections to the verdict above, both taken: (1) BRAKE 2 is worse than "conditional" — it is
@@ -307,10 +274,9 @@ SHOES-DEPENDENT: net Δ χ² -9.52 minus SHOES ~-13.7 = +4.2, i.e. WITHOUT SHOES
 ~4 WORSE than ΛCDM (the edge INVERTS to a loss). The m_e signature alone (ACT -3.8) does NOT beat
 the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SHOES H₀ tension — NOT on
 CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family does it, the internal review),
-so the win adds ZERO evidence for the ontology (superfluid/census/dyad). (2) Standing revised
-DOWN: ~10% → ~12% (not 13-16%), because the win is robust only if BOTH a nested ln Z confirms +2.6
-AND SHOES is physical (two live-uncertain gates — **and the first is now unscheduled**, nested
-sampling having been priced off this hardware and deferred to cluster time). Final label:
-"suggestive / SHOES-DEPENDENT / Laplace-marginal / non-original-class win, no ontology evidence."
-Deciders from here: a nested ln Z when it can be afforded (marginal→robust or sinks it) and
-SHOES-vs-TRGB (physical→holds, systematic→INVERTS to a loss).
+so the win adds ZERO evidence for the ontology (superfluid/census/dyad). (2) The win is robust only
+if BOTH a nested ln Z confirms +2.6 AND SHOES is physical (two live-uncertain gates — **and the
+first is now unscheduled**, nested sampling having been priced off this hardware and deferred to
+cluster time). Final label: "suggestive / SHOES-DEPENDENT / Laplace-marginal / non-original-class
+win, no ontology evidence." Deciders from here: a nested ln Z when it can be afforded
+(marginal→robust or sinks it) and SHOES-vs-TRGB (physical→holds, systematic→INVERTS to a loss).

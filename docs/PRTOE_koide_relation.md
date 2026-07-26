@@ -37,6 +37,8 @@ The fit gives **A = R/M = 1.41420** (reconstruction exact). The Z₃ geometry gi
 identically, so **Q = 2/3 ⟺ A = √2 ⟺ ⟨a²⟩ = 1 ⟺ the RMS of the √m deviations equals their mean**
 — verified on the pole masses to 10⁻⁵ (Q = 0.6666605, ⟨a²⟩ = 1.0000). In the two-fluid reading
 that is the balance point where the fluctuation (the −k_down face) equals the background (k_up).
+That ring is family-space bookkeeping, not the genesis vortex tangle, and it does not set γ*;
+the failures ledger has already retired the family-space-on-condensate route.
 
 
 The linkage, and the inheritance claim that does not hold. For a scalar with EoS
