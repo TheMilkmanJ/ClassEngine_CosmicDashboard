@@ -704,6 +704,38 @@ forward physics notes.
 
 ---
 
+## 16. The chaos window under the directional door (2026-07-27)
+
+Script: [`scripts/bounce_o7_mixmaster_squeeze.py`](../../scripts/bounce_o7_mixmaster_squeeze.py).
+
+The M2b window (~6.3 mean e-folds, ~10⁷ healing times of mixmaster before the
+door) used the ISOTROPIC shear clock. But the door criterion is directional —
+the description ends when ANY direction's scale reaches ξ — and anisotropy
+spread is exactly what the chaotic phase maximizes. Refined with the standard
+asymptotic billiard (unit anisotropy speed, walls receding at half speed,
+deterministic launch-angle scan, anchored to the recorded M2/M2b clock):
+
+| quantity | mean-clock (M2b) | directional (this pass) |
+|---|---|---|
+| window to the door | 6.3 mean e-folds | **1.6–1.9 mean e-folds** (0.25–0.30 of the mean clock) |
+| squeezes before the door | "~10⁷ t_heal of cascade" | **0–1** |
+
+**Read.** The door opens direction-first: the chaos itself drives the fastest
+axis to the coherence length at a quarter of the isotropic window. The chaotic
+exposure the medium must survive is not a cascade — it is essentially ONE
+anisotropic squeeze, and that squeeze IS the door. The interlock with M6: each
+squeeze is locally a quasi-1D compression, and the medium's computed answer to
+1D compression is the verified rebound. **Not claimed:** a survival proof — the
+squeeze → door → interval handoff remains the open assembly. What changed is
+the size of what must be survived. Fences: vacuum billiard idealization,
+mean-door calibration transfer, wall-distance sensitivity checked (robust).
+
+**O7 re-grade:** from "window priced, survival unwritten (~10⁷ t_heal)" to
+"window directionally cut to ≲2 e-folds with 0–1 squeezes; survival question
+reduced to the door handoff itself."
+
+---
+
 ## 7. Standing grades
 
 | Item | Grade |
