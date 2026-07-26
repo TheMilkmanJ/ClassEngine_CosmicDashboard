@@ -3493,3 +3493,471 @@ candl: clearing all internal priors.
 [mcmc] Progress @ 2026-07-22 14:21:25 : 38030 steps taken, and 16092 accepted.
 [mcmc] Progress @ 2026-07-22 14:22:53 : 38035 steps taken, and 16092 accepted.
 [mcmc] Progress @ 2026-07-22 14:25:07 : 38043 steps taken, and 16093 accepted.
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [theory:classy] -- (re-run with `debug: True` for more info)
+[output] *ERROR* Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 125, in run
+    out.check_and_dump_info(
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/output.py", line 582, in check_and_dump_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [sampler:mcmc] -- (re-run with `debug: True` for more info)
+[sampler] *ERROR* Old and new Sampler information not compatible! Resuming not possible!
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 136, in run
+    updated_info["sampler"] = check_sampler_info(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/sampler.py", line 130, in check_sampler_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new Sampler information not compatible! Resuming not possible!
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+[input] *ERROR* theory 'classy' does not recognize some options: 'use_renames' (did you mean 'renames'|'speed'?). Check the documentation for 'theory'.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 115, in run
+    updated_info = update_info(info)
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 425, in update_info
+    raise LoggedError(
+cobaya.log.LoggedError: theory 'classy' does not recognize some options: 'use_renames' (did you mean 'renames'|'speed'?). Check the documentation for 'theory'.
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+[input] *ERROR* theory 'classy' does not recognize some options: 'use_renames' (did you mean 'renames'|'speed'?). Check the documentation for 'theory'.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 115, in run
+    updated_info = update_info(info)
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 425, in update_info
+    raise LoggedError(
+cobaya.log.LoggedError: theory 'classy' does not recognize some options: 'use_renames' (did you mean 'renames'|'speed'?). Check the documentation for 'theory'.
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [likelihood:planck_2018_highl_plik.TTTEEE_lite] -- (re-run with `debug: True` for more info)
+[output] *ERROR* Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 125, in run
+    out.check_and_dump_info(
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/output.py", line 582, in check_and_dump_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [likelihood:planck_2018_highl_plik.TTTEEE_lite] -- (re-run with `debug: True` for more info)
+[output] *ERROR* Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 125, in run
+    out.check_and_dump_info(
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/output.py", line 582, in check_and_dump_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder '.', with prefix 'dyad_mnu_mcmc'
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 79, in run
+    info: InputDict = load_info_overrides(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 158, in load_info_overrides
+    info = load_input_dict(infos_or_yaml_or_files[0])  # makes deep copy if dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 61, in load_input_dict
+    return load_input_file(info_or_yaml_or_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 83, in load_input_file
+    info = load_input_MPI(input_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/mpi.py", line 254, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 145, in load_input_MPI
+    return load_input(input_file)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 120, in load_input
+    info = yaml_load_file(input_file) or {}  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 211, in yaml_load_file
+    return yaml_load(yaml_text, file_name=file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 154, in yaml_load
+    return yaml.load(text_stream, DefaultsLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 55, in construct_document
+    data = self.construct_object(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 100, in construct_object
+    data = constructor(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 111, in no_duplicates_constructor
+    raise InputSyntaxError(f"Duplicate key {key}")
+cobaya.yaml.InputSyntaxError: Duplicate key packages_path
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 79, in run
+    info: InputDict = load_info_overrides(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 158, in load_info_overrides
+    info = load_input_dict(infos_or_yaml_or_files[0])  # makes deep copy if dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 61, in load_input_dict
+    return load_input_file(info_or_yaml_or_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 83, in load_input_file
+    info = load_input_MPI(input_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/mpi.py", line 254, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 145, in load_input_MPI
+    return load_input(input_file)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 120, in load_input
+    info = yaml_load_file(input_file) or {}  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 211, in yaml_load_file
+    return yaml_load(yaml_text, file_name=file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 154, in yaml_load
+    return yaml.load(text_stream, DefaultsLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 55, in construct_document
+    data = self.construct_object(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 100, in construct_object
+    data = constructor(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 111, in no_duplicates_constructor
+    raise InputSyntaxError(f"Duplicate key {key}")
+cobaya.yaml.InputSyntaxError: Duplicate key packages_path
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 79, in run
+    info: InputDict = load_info_overrides(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 158, in load_info_overrides
+    info = load_input_dict(infos_or_yaml_or_files[0])  # makes deep copy if dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 61, in load_input_dict
+    return load_input_file(info_or_yaml_or_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 83, in load_input_file
+    info = load_input_MPI(input_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/mpi.py", line 254, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 145, in load_input_MPI
+    return load_input(input_file)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/input.py", line 120, in load_input
+    info = yaml_load_file(input_file) or {}  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 211, in yaml_load_file
+    return yaml_load(yaml_text, file_name=file_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 154, in yaml_load
+    return yaml.load(text_stream, DefaultsLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 55, in construct_document
+    data = self.construct_object(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 100, in construct_object
+    data = constructor(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/yaml.py", line 111, in no_duplicates_constructor
+    raise InputSyntaxError(f"Duplicate key {key}")
+cobaya.yaml.InputSyntaxError: Duplicate key output
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[output] *ERROR* Delete the previous output manually, automatically ('-f', '--force', 'force: True') or request resuming ('-r', '--resume', 'resume: True')
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 144, in run
+    sampler_class.check_force_resume(
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/sampler.py", line 440, in check_force_resume
+    raise LoggedError(
+cobaya.log.LoggedError: Delete the previous output manually, automatically ('-f', '--force', 'force: True') or request resuming ('-r', '--resume', 'resume: True')
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [sampler:mcmc] -- (re-run with `debug: True` for more info)
+[sampler] *ERROR* Old and new Sampler information not compatible! Resuming not possible!
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 136, in run
+    updated_info["sampler"] = check_sampler_info(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/sampler.py", line 130, in check_sampler_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new Sampler information not compatible! Resuming not possible!
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [sampler:mcmc] -- (re-run with `debug: True` for more info)
+[sampler] *ERROR* Old and new Sampler information not compatible! Resuming not possible!
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 136, in run
+    updated_info["sampler"] = check_sampler_info(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/sampler.py", line 130, in check_sampler_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new Sampler information not compatible! Resuming not possible!
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [likelihood:planck_2018_highl_plik.TTTEEE_lite] -- (re-run with `debug: True` for more info)
+[output] *ERROR* Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 125, in run
+    out.check_and_dump_info(
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/output.py", line 582, in check_and_dump_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [sampler:mcmc] -- (re-run with `debug: True` for more info)
+[sampler] *ERROR* Old and new Sampler information not compatible! Resuming not possible!
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 136, in run
+    updated_info["sampler"] = check_sampler_info(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/sampler.py", line 130, in check_sampler_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new Sampler information not compatible! Resuming not possible!
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [sampler:mcmc] -- (re-run with `debug: True` for more info)
+[sampler] *ERROR* Old and new Sampler information not compatible! Resuming not possible!
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 271, in <module>
+    run_script()
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 266, in run_script
+    run(info, **arguments.__dict__)
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/run.py", line 136, in run
+    updated_info["sampler"] = check_sampler_info(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/cobaya/sampler.py", line 130, in check_sampler_info
+    raise LoggedError(
+cobaya.log.LoggedError: Old and new Sampler information not compatible! Resuming not possible!
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dyad_mnu_mcmc'
+[output] Found existing info files with the requested output prefix: 'chains/dyad_mnu_mcmc'
+[output] Will delete previous products ('force' was requested).
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.

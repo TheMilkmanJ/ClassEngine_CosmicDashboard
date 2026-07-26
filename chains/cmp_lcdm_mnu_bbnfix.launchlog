@@ -821,3 +821,716 @@ candl: clearing all internal priors.
 [mcmc] Progress @ 2026-07-22 14:22:00 : 35620 steps taken, and 1998 accepted.
 [mcmc] Progress @ 2026-07-22 14:23:14 : 35636 steps taken, and 1998 accepted.
 [mcmc] Progress @ 2026-07-22 14:25:59 : 35663 steps taken, and 2000 accepted.
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_lcdm_mnu_bbnfix'
+[output] Found existing info files with the requested output prefix: 'chains/cmp_lcdm_mnu_bbnfix'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[output] Found an old sample. Resuming.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Resuming from previous sample!
+[samplecollection] Loaded 2000 sample points from 'chains/cmp_lcdm_mnu_bbnfix.1.txt'
+[mcmc] Initial point: omega_b:0.02243048, H0:67.82809, logA:3.056939, omega_cdm:0.1181251, n_s:0.9715979, z_reio:8.275224, A_planck:1.002886, A_act:1.000079, P_act:1.005439, Tcal:0.9986428, Ecal:1.00348, m_ncdm:0.09277903
+[mcmc] *WARNING* Parameter blocking manually/previously fixed: speeds will not be measured.
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'omega_cdm', 'n_s', 'z_reio', 'm_ncdm']
+[mcmc] * 24 : ['A_planck']
+[mcmc] * 32 : ['A_act', 'P_act']
+[mcmc] * 46 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix from previous sample.
+[mcmc] Sampling!
+[mcmc] Progress @ 2026-07-24 08:43:36 : 1 steps taken, and 2000 accepted.
+[mcmc] Progress @ 2026-07-24 08:45:23 : 33 steps taken, and 2001 accepted.
+[mcmc] Progress @ 2026-07-24 08:46:23 : 46 steps taken, and 2002 accepted.
+[mcmc] Progress @ 2026-07-24 08:48:06 : 102 steps taken, and 2005 accepted.
+[mcmc] Progress @ 2026-07-24 08:49:13 : 160 steps taken, and 2009 accepted.
+[mcmc] Progress @ 2026-07-24 08:51:19 : 192 steps taken, and 2011 accepted.
+[mcmc] Progress @ 2026-07-24 08:52:26 : 231 steps taken, and 2013 accepted.
+[mcmc] Progress @ 2026-07-24 08:53:33 : 266 steps taken, and 2016 accepted.
+[mcmc] Progress @ 2026-07-24 08:55:24 : 302 steps taken, and 2018 accepted.
+[mcmc] Progress @ 2026-07-24 08:56:58 : 365 steps taken, and 2022 accepted.
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_lcdm_mnu_bbnfix'
+[output] Found existing info files with the requested output prefix: 'chains/cmp_lcdm_mnu_bbnfix'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[output] Found an old sample. Resuming.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Resuming from previous sample!
+[samplecollection] Loaded 2022 sample points from 'chains/cmp_lcdm_mnu_bbnfix.1.txt'
+[mcmc] Initial point: omega_b:0.02244254, H0:67.8626, logA:3.052924, omega_cdm:0.1181834, n_s:0.9729259, z_reio:8.1267, A_planck:1.001439, A_act:1.002326, P_act:1.000713, Tcal:0.9967661, Ecal:0.9996617, m_ncdm:0.08798073
+[mcmc] *WARNING* Parameter blocking manually/previously fixed: speeds will not be measured.
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'omega_cdm', 'n_s', 'z_reio', 'm_ncdm']
+[mcmc] * 24 : ['A_planck']
+[mcmc] * 32 : ['A_act', 'P_act']
+[mcmc] * 46 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix from previous sample.
+[mcmc] Sampling!
+[mcmc] Progress @ 2026-07-24 17:58:05 : 1 steps taken, and 2022 accepted.
+[mcmc] Progress @ 2026-07-24 17:59:08 : 72 steps taken, and 2026 accepted.
+[mcmc] Progress @ 2026-07-24 18:00:26 : 137 steps taken, and 2030 accepted.
+[mcmc] Progress @ 2026-07-24 18:01:54 : 231 steps taken, and 2035 accepted.
+[mcmc] Progress @ 2026-07-24 18:02:55 : 255 steps taken, and 2037 accepted.
+[mcmc] Progress @ 2026-07-24 18:04:16 : 328 steps taken, and 2042 accepted.
+[mcmc] Progress @ 2026-07-24 18:05:46 : 460 steps taken, and 2050 accepted.
+[mcmc] Progress @ 2026-07-24 18:07:20 : 528 steps taken, and 2054 accepted.
+[mcmc] Progress @ 2026-07-24 18:08:44 : 575 steps taken, and 2057 accepted.
+[mcmc] Progress @ 2026-07-24 18:09:45 : 648 steps taken, and 2062 accepted.
+[mcmc] Progress @ 2026-07-24 18:11:04 : 678 steps taken, and 2064 accepted.
+[mcmc] Progress @ 2026-07-24 18:12:29 : 771 steps taken, and 2070 accepted.
+[mcmc] Progress @ 2026-07-24 18:13:35 : 861 steps taken, and 2075 accepted.
+[mcmc] Progress @ 2026-07-24 18:14:40 : 902 steps taken, and 2077 accepted.
+[mcmc] Progress @ 2026-07-24 18:16:08 : 1001 steps taken, and 2084 accepted.
+[mcmc] Progress @ 2026-07-24 18:17:39 : 1079 steps taken, and 2089 accepted.
+[mcmc] Progress @ 2026-07-24 18:19:20 : 1125 steps taken, and 2091 accepted.
+[mcmc] Progress @ 2026-07-24 18:20:47 : 1153 steps taken, and 2093 accepted.
+[mcmc] Progress @ 2026-07-24 18:21:49 : 1238 steps taken, and 2099 accepted.
+[mcmc] Progress @ 2026-07-24 18:23:03 : 1303 steps taken, and 2103 accepted.
+[mcmc] Progress @ 2026-07-24 18:24:20 : 1384 steps taken, and 2108 accepted.
+[mcmc] Progress @ 2026-07-24 18:25:21 : 1478 steps taken, and 2114 accepted.
+[mcmc] Progress @ 2026-07-24 18:26:37 : 1493 steps taken, and 2115 accepted.
+[mcmc] Progress @ 2026-07-24 18:28:05 : 1587 steps taken, and 2120 accepted.
+[mcmc] Progress @ 2026-07-24 18:29:25 : 1649 steps taken, and 2124 accepted.
+[mcmc] Progress @ 2026-07-24 18:30:41 : 1763 steps taken, and 2132 accepted.
+[mcmc] Progress @ 2026-07-24 18:32:01 : 1826 steps taken, and 2136 accepted.
+[mcmc] Progress @ 2026-07-24 18:33:21 : 1875 steps taken, and 2138 accepted.
+[mcmc] Progress @ 2026-07-24 18:34:40 : 1963 steps taken, and 2144 accepted.
+[mcmc] Progress @ 2026-07-24 18:36:08 : 2087 steps taken, and 2152 accepted.
+[mcmc] Progress @ 2026-07-24 18:37:30 : 2122 steps taken, and 2154 accepted.
+[mcmc] Progress @ 2026-07-24 18:38:51 : 2227 steps taken, and 2161 accepted.
+[mcmc] Progress @ 2026-07-24 18:40:13 : 2358 steps taken, and 2169 accepted.
+[mcmc] Progress @ 2026-07-24 18:41:38 : 2400 steps taken, and 2171 accepted.
+[mcmc] Progress @ 2026-07-24 18:42:58 : 2498 steps taken, and 2178 accepted.
+[mcmc] Progress @ 2026-07-24 18:44:18 : 2550 steps taken, and 2181 accepted.
+[mcmc] Progress @ 2026-07-24 18:45:31 : 2618 steps taken, and 2185 accepted.
+[mcmc] Progress @ 2026-07-24 18:46:44 : 2668 steps taken, and 2188 accepted.
+[mcmc] Progress @ 2026-07-24 18:47:44 : 2727 steps taken, and 2192 accepted.
+[mcmc] Progress @ 2026-07-24 18:48:48 : 2786 steps taken, and 2196 accepted.
+[mcmc] Progress @ 2026-07-24 18:49:56 : 2833 steps taken, and 2198 accepted.
+[mcmc] Learn + convergence test @ 2200 samples accepted.
+[mcmc]  - Acceptance rate: 0.998
+[mcmc]  - Convergence of means: R-1 = 3.854315 after 1760 accepted steps
+[mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[mcmc] Progress @ 2026-07-24 18:50:59 : 2869 steps taken, and 2201 accepted.
+[mcmc] Progress @ 2026-07-24 18:52:05 : 2909 steps taken, and 2203 accepted.
+[mcmc] Progress @ 2026-07-24 18:53:18 : 2984 steps taken, and 2208 accepted.
+[mcmc] Progress @ 2026-07-24 18:54:37 : 3076 steps taken, and 2214 accepted.
+[mcmc] Progress @ 2026-07-24 18:55:48 : 3099 steps taken, and 2215 accepted.
+[mcmc] Progress @ 2026-07-24 18:57:05 : 3126 steps taken, and 2217 accepted.
+[mcmc] Progress @ 2026-07-24 18:58:11 : 3203 steps taken, and 2221 accepted.
+[mcmc] Progress @ 2026-07-24 18:59:12 : 3223 steps taken, and 2223 accepted.
+[mcmc] Progress @ 2026-07-24 19:00:27 : 3253 steps taken, and 2225 accepted.
+[mcmc] Progress @ 2026-07-24 19:02:00 : 3389 steps taken, and 2233 accepted.
+[mcmc] Progress @ 2026-07-24 19:03:09 : 3433 steps taken, and 2236 accepted.
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+--------------------------------------------------------------------------
+A call to mkdir was unable to create the desired directory:
+
+  Directory: /tmp/ompi.sandbox.1000
+  Error:     Read-only file system
+
+Please check to ensure you have adequate permissions to perform
+the desired operation.
+--------------------------------------------------------------------------
+[sandbox:00035] [[13051,0],0] ORTE_ERROR_LOG: Error in file ../../../orte/util/session_dir.c at line 107
+[sandbox:00035] [[13051,0],0] ORTE_ERROR_LOG: Error in file ../../../orte/util/session_dir.c at line 346
+--------------------------------------------------------------------------
+It looks like orte_init failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during orte_init; some of which are due to configuration or
+environment problems.  This failure appears to be an internal failure;
+here's some additional information (which may only be relevant to an
+Open MPI developer):
+
+  orte_session_dir failed
+  --> Returned value Error (-1) instead of ORTE_SUCCESS
+--------------------------------------------------------------------------
+[sandbox:00034] [[INVALID],INVALID] ORTE_ERROR_LOG: Unable to start a daemon on the local node in file ../../../../../../orte/mca/ess/singleton/ess_singleton_module.c at line 716
+[sandbox:00034] [[INVALID],INVALID] ORTE_ERROR_LOG: Unable to start a daemon on the local node in file ../../../../../../orte/mca/ess/singleton/ess_singleton_module.c at line 172
+--------------------------------------------------------------------------
+It looks like orte_init failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during orte_init; some of which are due to configuration or
+environment problems.  This failure appears to be an internal failure;
+here's some additional information (which may only be relevant to an
+Open MPI developer):
+
+  orte_ess_init failed
+  --> Returned value Unable to start a daemon on the local node (-127) instead of ORTE_SUCCESS
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  ompi_mpi_init: ompi_rte_init failed
+  --> Returned "Unable to start a daemon on the local node" (-127) instead of "Success" (0)
+--------------------------------------------------------------------------
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[sandbox:00034] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_lcdm_mnu_bbnfix'
+[output] Found existing info files with the requested output prefix: 'chains/cmp_lcdm_mnu_bbnfix'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[output] Found an old sample. Resuming.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Resuming from previous sample!
+[samplecollection] Loaded 2236 sample points from 'chains/cmp_lcdm_mnu_bbnfix.1.txt'
+[mcmc] Initial point: omega_b:0.02249863, H0:68.62536, logA:3.035847, omega_cdm:0.1175123, n_s:0.9695892, z_reio:7.50438, A_planck:0.9999809, A_act:0.9977562, P_act:1.003, Tcal:0.9986018, Ecal:1.001491, m_ncdm:0.03476206
+[mcmc] *WARNING* Parameter blocking manually/previously fixed: speeds will not be measured.
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'omega_cdm', 'n_s', 'z_reio', 'm_ncdm']
+[mcmc] * 24 : ['A_planck']
+[mcmc] * 32 : ['A_act', 'P_act']
+[mcmc] * 46 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix from previous sample.
+[mcmc] Sampling!
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_lcdm_mnu_bbnfix'
+[output] Found existing info files with the requested output prefix: 'chains/cmp_lcdm_mnu_bbnfix'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [theory:classy] -- (re-run with `debug: True` for more info)
+[output] *ERROR* Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 202, in <module>
+    run_script()
+    ~~~~~~~~~~^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 198, in run_script
+    run(info, **arguments.__dict__)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 107, in run
+    out.check_and_dump_info(info, updated_info, cache_old=True,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            check_compatible=not allow_changes,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            ignore_blocks=["sampler"])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/output.py", line 496, in check_and_dump_info
+    raise LoggedError(
+    ...<2 lines>...
+                  "Use --allow-changes to proceed anyway.")
+cobaya.log.LoggedError: Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder '.', with prefix 'cmp_lcdm_mnu_bbnfix'
+[output] Found existing info files with the requested output prefix: 'cmp_lcdm_mnu_bbnfix'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [theory:classy] -- (re-run with `debug: True` for more info)
+[output] *ERROR* Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 202, in <module>
+    run_script()
+    ~~~~~~~~~~^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 198, in run_script
+    run(info, **arguments.__dict__)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 107, in run
+    out.check_and_dump_info(info, updated_info, cache_old=True,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            check_compatible=not allow_changes,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            ignore_blocks=["sampler"])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/output.py", line 496, in check_and_dump_info
+    raise LoggedError(
+    ...<2 lines>...
+                  "Use --allow-changes to proceed anyway.")
+cobaya.log.LoggedError: Old and new run information not compatible! Resuming not possible!
+Use --allow-changes to proceed anyway.
+-------------------------------------------------------------
+
+# [2026-07-26 resume note] Resumed with --allow-changes AFTER verification: clik env restored (see scripts/resume_bbnfix_chains.sh); posterior recomputed at the last stored sample under today's env — |dlogpost| <= 0.09, confined to high-ell CMB numerics (BAO/SN/lowl-EE/priors match to 1e-6); chains pre-convergence (R-1 ~ 3.9 / 1.0), so the splice sits inside burn-in.
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder '.', with prefix 'cmp_lcdm_mnu_bbnfix'
+[output] Found existing info files with the requested output prefix: 'cmp_lcdm_mnu_bbnfix'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [sampler:mcmc] -- (re-run with `debug: True` for more info)
+[sampler] *ERROR* Old and new Sampler information not compatible! Resuming not possible!
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 202, in <module>
+    run_script()
+    ~~~~~~~~~~^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 198, in run_script
+    run(info, **arguments.__dict__)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 114, in run
+    updated_info["sampler"] = check_sampler_info(
+                              ~~~~~~~~~~~~~~~~~~^
+        (out.get_updated_info(use_cache=True) or {}).get("sampler"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        updated_info["sampler"], is_resuming=out.is_resuming())
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/sampler.py", line 126, in check_sampler_info
+    raise LoggedError(
+        logger_sampler, "Old and new Sampler information not compatible! "
+                        "Resuming not possible!")
+cobaya.log.LoggedError: Old and new Sampler information not compatible! Resuming not possible!
+-------------------------------------------------------------
+
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder '.', with prefix 'cmp_lcdm_mnu_bbnfix'
+[output] Found existing info files with the requested output prefix: 'cmp_lcdm_mnu_bbnfix'
+[output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[input] is_equal_info: different content of [sampler:mcmc] -- (re-run with `debug: True` for more info)
+[sampler] *ERROR* Old and new Sampler information not compatible! Resuming not possible!
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 202, in <module>
+    run_script()
+    ~~~~~~~~~~^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 198, in run_script
+    run(info, **arguments.__dict__)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/run.py", line 114, in run
+    updated_info["sampler"] = check_sampler_info(
+                              ~~~~~~~~~~~~~~~~~~^
+        (out.get_updated_info(use_cache=True) or {}).get("sampler"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        updated_info["sampler"], is_resuming=out.is_resuming())
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/miniconda3/envs/prtoe_gold/lib/python3.13/site-packages/cobaya/sampler.py", line 126, in check_sampler_info
+    raise LoggedError(
+        logger_sampler, "Old and new Sampler information not compatible! "
+                        "Resuming not possible!")
+cobaya.log.LoggedError: Old and new Sampler information not compatible! Resuming not possible!
+-------------------------------------------------------------
+
+# [2026-07-26 RESTART] Fresh start by owner ruling. Old products (2.2k samples, pre-convergence R-1 ~ 3.9/1.0) archived to _archive_bbnfix_prev_20260726/ with the uncommitted CLASS-core diff and git HEAD at restart. Cause of restart: the classy binary was rebuilt 2026-07-23 20:00 (mid-run) with uncommitted density-gate edits shifting even the LCDM control likelihood (dlogpost ~ 0.09); resume would have spliced physics. This run: /usr/bin/python3.12 stack (cobaya 3.6.2, clipy 0.15, candl 2.2.0), current build.
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder '.', with prefix 'cmp_lcdm_mnu_bbnfix'
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Getting initial point... (this may take a few seconds)
+[mcmc] Initial point: omega_b:0.02238038, H0:67.85612, logA:3.054391, omega_cdm:0.1208599, n_s:0.9738526, z_reio:7.827467, A_planck:1.002226, A_act:1.00402, P_act:1.003578, Tcal:1.005516, Ecal:0.996994, m_ncdm:0.05534617
+[model] Measuring speeds... (this may take a few seconds)
+[model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 500.0, planck_2018_lowl.EE: 1380.0, planck_2018_highl_plik.TTTEEE_lite: 1040.0, planck_2018_lensing.clik: 1920.0, bao.sixdf_2011_bao: 1540.0, bao.sdss_dr7_mgs: 1400.0, bao.sdss_dr12_consensus_final: 826.0, sn.pantheonplusshoes: 484.0, act_dr6: 389.0, spt3g_lite: 521.0, classy: 0.0247}
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'omega_cdm', 'n_s', 'z_reio', 'm_ncdm']
+[mcmc] * 27 : ['A_planck']
+[mcmc] * 36 : ['A_act', 'P_act']
+[mcmc] * 50 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix not present. We will start learning the covariance of the proposal earlier: R-1 = 30 (would be 2 if all params loaded).
+[mcmc] Sampling! (NB: no accepted step will be saved until 40 burn-in samples have been obtained)
+[mcmc] Progress @ 2026-07-26 13:47:49 : 1 steps taken -- still burning in, 681 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:49:25 : 52 steps taken -- still burning in, 669 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:50:46 : 101 steps taken -- still burning in, 659 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:52:10 : 187 steps taken -- still burning in, 636 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:53:25 : 210 steps taken -- still burning in, 635 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:54:58 : 228 steps taken -- still burning in, 631 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:56:35 : 278 steps taken -- still burning in, 618 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:58:07 : 340 steps taken -- still burning in, 609 accepted steps left.
+[mcmc] Progress @ 2026-07-26 13:59:45 : 499 steps taken -- still burning in, 574 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:01:23 : 550 steps taken -- still burning in, 566 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:02:58 : 589 steps taken -- still burning in, 557 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:04:24 : 899 steps taken -- still burning in, 506 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:05:51 : 945 steps taken -- still burning in, 500 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:07:19 : 1093 steps taken -- still burning in, 481 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:09:07 : 1233 steps taken -- still burning in, 454 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:10:27 : 1345 steps taken -- still burning in, 436 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:11:50 : 1399 steps taken -- still burning in, 424 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:13:20 : 1415 steps taken -- still burning in, 422 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:14:50 : 1494 steps taken -- still burning in, 411 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:16:18 : 1643 steps taken -- still burning in, 392 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:17:54 : 1662 steps taken -- still burning in, 390 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:19:53 : 1757 steps taken -- still burning in, 371 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:22:38 : 1854 steps taken -- still burning in, 357 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:24:12 : 1946 steps taken -- still burning in, 344 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:25:47 : 1998 steps taken -- still burning in, 335 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:27:14 : 2097 steps taken -- still burning in, 321 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:28:31 : 2104 steps taken -- still burning in, 320 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:30:37 : 2162 steps taken -- still burning in, 309 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:32:30 : 2260 steps taken -- still burning in, 285 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:34:20 : 2342 steps taken -- still burning in, 265 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:36:01 : 2434 steps taken -- still burning in, 253 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:38:28 : 2488 steps taken -- still burning in, 241 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:41:02 : 2551 steps taken -- still burning in, 223 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:42:02 : 2714 steps taken -- still burning in, 194 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:43:49 : 2841 steps taken -- still burning in, 163 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:44:55 : 2860 steps taken -- still burning in, 159 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:46:49 : 2963 steps taken -- still burning in, 144 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:48:37 : 3100 steps taken -- still burning in, 121 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:50:09 : 3424 steps taken -- still burning in, 60 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:51:40 : 3522 steps taken -- still burning in, 38 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:53:23 : 3553 steps taken -- still burning in, 30 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:54:47 : 3601 steps taken -- still burning in, 19 accepted steps left.
+[mcmc] Progress @ 2026-07-26 14:56:22 : 3678 steps taken -- still burning in, 9 accepted steps left.
+[mcmc] Finished burn-in phase: discarded 40 accepted steps.
+[mcmc] Progress @ 2026-07-26 14:58:13 : 3800 steps taken, and 4 accepted.
+[mcmc] Progress @ 2026-07-26 14:59:22 : 3819 steps taken, and 5 accepted.
+[mcmc] Progress @ 2026-07-26 15:00:29 : 3851 steps taken, and 6 accepted.
+[mcmc] Progress @ 2026-07-26 15:02:14 : 3895 steps taken, and 9 accepted.
+[mcmc] Progress @ 2026-07-26 15:03:46 : 4058 steps taken, and 18 accepted.
+[mcmc] Progress @ 2026-07-26 15:05:25 : 4086 steps taken, and 20 accepted.
+[mcmc] Progress @ 2026-07-26 15:07:04 : 4147 steps taken, and 24 accepted.
+[mcmc] Progress @ 2026-07-26 15:08:53 : 4247 steps taken, and 30 accepted.
+[mcmc] Progress @ 2026-07-26 15:10:24 : 4327 steps taken, and 34 accepted.
+[mcmc] Progress @ 2026-07-26 15:11:49 : 4478 steps taken, and 44 accepted.
+[mcmc] Progress @ 2026-07-26 15:13:22 : 4499 steps taken, and 45 accepted.
+[mcmc] Progress @ 2026-07-26 15:15:02 : 4538 steps taken, and 47 accepted.
+[mcmc] Progress @ 2026-07-26 15:16:48 : 4598 steps taken, and 49 accepted.
+[mcmc] Progress @ 2026-07-26 15:18:10 : 4774 steps taken, and 59 accepted.
+[mcmc] Progress @ 2026-07-26 15:19:39 : 4910 steps taken, and 68 accepted.
+[mcmc] Progress @ 2026-07-26 15:21:01 : 4915 steps taken, and 68 accepted.
+[mcmc] Progress @ 2026-07-26 15:22:15 : 5021 steps taken, and 74 accepted.
+[mcmc] Progress @ 2026-07-26 15:23:45 : 5084 steps taken, and 77 accepted.
+[mcmc] Progress @ 2026-07-26 15:25:17 : 5162 steps taken, and 82 accepted.
+[mcmc] Progress @ 2026-07-26 15:26:38 : 5182 steps taken, and 83 accepted.
+[mcmc] Progress @ 2026-07-26 15:27:53 : 5292 steps taken, and 89 accepted.
+[mcmc] Progress @ 2026-07-26 15:29:07 : 5395 steps taken, and 95 accepted.
+[mcmc] Progress @ 2026-07-26 15:30:11 : 5405 steps taken, and 96 accepted.
+[mcmc] Progress @ 2026-07-26 15:31:33 : 5547 steps taken, and 104 accepted.
+[mcmc] Progress @ 2026-07-26 15:32:50 : 5624 steps taken, and 109 accepted.
+[mcmc] Progress @ 2026-07-26 15:34:07 : 5671 steps taken, and 110 accepted.
+[mcmc] Progress @ 2026-07-26 15:35:33 : 5823 steps taken, and 120 accepted.
+[mcmc] Progress @ 2026-07-26 15:36:43 : 5938 steps taken, and 125 accepted.
+[mcmc] Progress @ 2026-07-26 15:38:04 : 6008 steps taken, and 129 accepted.
+[mcmc] Progress @ 2026-07-26 15:39:43 : 6096 steps taken, and 134 accepted.
+[mcmc] Progress @ 2026-07-26 15:41:02 : 6152 steps taken, and 137 accepted.
+[mcmc] Progress @ 2026-07-26 15:42:40 : 6225 steps taken, and 141 accepted.
+[mcmc] Progress @ 2026-07-26 15:44:10 : 6357 steps taken, and 149 accepted.
+[mcmc] Progress @ 2026-07-26 15:45:58 : 6440 steps taken, and 154 accepted.
+[mcmc] Progress @ 2026-07-26 15:47:16 : 6557 steps taken, and 160 accepted.
+[mcmc] Progress @ 2026-07-26 15:49:08 : 6703 steps taken, and 168 accepted.
+[mcmc] Progress @ 2026-07-26 15:50:25 : 6732 steps taken, and 170 accepted.
+[mcmc] Progress @ 2026-07-26 15:52:24 : 6829 steps taken, and 176 accepted.
+[mcmc] Progress @ 2026-07-26 15:53:25 : 6845 steps taken, and 177 accepted.
+[mcmc] Progress @ 2026-07-26 15:54:43 : 6901 steps taken, and 180 accepted.
+[mcmc] Progress @ 2026-07-26 15:56:25 : 7003 steps taken, and 185 accepted.
+[mcmc] Progress @ 2026-07-26 15:58:04 : 7075 steps taken, and 189 accepted.
+[mcmc] Progress @ 2026-07-26 15:59:25 : 7136 steps taken, and 193 accepted.
+[mcmc] Progress @ 2026-07-26 16:00:40 : 7214 steps taken, and 198 accepted.
+[mcmc] Progress @ 2026-07-26 16:02:06 : 7414 steps taken, and 208 accepted.
+[mcmc] Progress @ 2026-07-26 16:03:42 : 7508 steps taken, and 213 accepted.
+[mcmc] Progress @ 2026-07-26 16:05:19 : 7579 steps taken, and 218 accepted.
+[mcmc] Progress @ 2026-07-26 16:06:42 : 7704 steps taken, and 225 accepted.
+[mcmc] Progress @ 2026-07-26 16:08:03 : 7802 steps taken, and 231 accepted.
+[mcmc] Progress @ 2026-07-26 16:09:49 : 7933 steps taken, and 239 accepted.
+[mcmc] Progress @ 2026-07-26 16:11:21 : 8036 steps taken, and 245 accepted.
+[mcmc] Progress @ 2026-07-26 16:12:48 : 8057 steps taken, and 246 accepted.
+[mcmc] Progress @ 2026-07-26 16:13:54 : 8104 steps taken, and 248 accepted.
+[mcmc] Progress @ 2026-07-26 16:15:14 : 8378 steps taken, and 265 accepted.
+[mcmc] Progress @ 2026-07-26 16:16:28 : 8401 steps taken, and 266 accepted.
+[mcmc] Progress @ 2026-07-26 16:17:59 : 8424 steps taken, and 266 accepted.
+[mcmc] Progress @ 2026-07-26 16:19:31 : 8506 steps taken, and 270 accepted.
+[mcmc] Progress @ 2026-07-26 16:20:42 : 8636 steps taken, and 278 accepted.
+[mcmc] Progress @ 2026-07-26 16:21:54 : 8655 steps taken, and 279 accepted.
+[mcmc] Progress @ 2026-07-26 16:23:15 : 8667 steps taken, and 279 accepted.
+[mcmc] Progress @ 2026-07-26 16:24:38 : 8708 steps taken, and 282 accepted.
+[mcmc] Progress @ 2026-07-26 16:26:10 : 8855 steps taken, and 290 accepted.
+[mcmc] Progress @ 2026-07-26 16:27:11 : 8894 steps taken, and 291 accepted.
+[mcmc] Progress @ 2026-07-26 16:28:45 : 8926 steps taken, and 293 accepted.
+[mcmc] Progress @ 2026-07-26 16:29:56 : 8979 steps taken, and 296 accepted.
+[mcmc] Progress @ 2026-07-26 16:31:16 : 9106 steps taken, and 302 accepted.
+[mcmc] Progress @ 2026-07-26 16:32:36 : 9206 steps taken, and 306 accepted.
+[mcmc] Progress @ 2026-07-26 16:33:52 : 9275 steps taken, and 311 accepted.
+[mcmc] Progress @ 2026-07-26 16:35:11 : 9385 steps taken, and 317 accepted.
+[mcmc] Progress @ 2026-07-26 16:36:50 : 9407 steps taken, and 318 accepted.
+[mcmc] Progress @ 2026-07-26 16:38:10 : 9558 steps taken, and 326 accepted.
+[mcmc] Progress @ 2026-07-26 16:39:27 : 9695 steps taken, and 334 accepted.
+[mcmc] Progress @ 2026-07-26 16:40:41 : 9710 steps taken, and 335 accepted.
+[mcmc] Progress @ 2026-07-26 16:42:00 : 9751 steps taken, and 338 accepted.
+[mcmc] Progress @ 2026-07-26 16:43:15 : 9923 steps taken, and 348 accepted.
+[mcmc] Progress @ 2026-07-26 16:44:38 : 10108 steps taken, and 358 accepted.
+[mcmc] Progress @ 2026-07-26 16:46:08 : 10149 steps taken, and 361 accepted.
+[mcmc] Progress @ 2026-07-26 16:47:34 : 10248 steps taken, and 367 accepted.
+[mcmc] Progress @ 2026-07-26 16:48:44 : 10278 steps taken, and 368 accepted.
+[mcmc] Progress @ 2026-07-26 16:50:08 : 10332 steps taken, and 372 accepted.
+[mcmc] Progress @ 2026-07-26 16:51:11 : 10381 steps taken, and 375 accepted.
+[mcmc] Progress @ 2026-07-26 16:52:31 : 10425 steps taken, and 377 accepted.
+[mcmc] Progress @ 2026-07-26 16:53:50 : 10542 steps taken, and 384 accepted.
+[mcmc] Progress @ 2026-07-26 16:55:05 : 10589 steps taken, and 387 accepted.
+[mcmc] Progress @ 2026-07-26 16:56:24 : 10774 steps taken, and 397 accepted.
+[mcmc] Progress @ 2026-07-26 16:57:45 : 10782 steps taken, and 397 accepted.
+[mcmc] Progress @ 2026-07-26 16:59:20 : 10858 steps taken, and 401 accepted.
+[mcmc] Progress @ 2026-07-26 17:00:31 : 10881 steps taken, and 402 accepted.
+[mcmc] Progress @ 2026-07-26 17:02:03 : 11003 steps taken, and 409 accepted.
+[mcmc] Progress @ 2026-07-26 17:03:06 : 11040 steps taken, and 411 accepted.
+[mcmc] Progress @ 2026-07-26 17:04:06 : 11278 steps taken, and 426 accepted.
+[mcmc] Progress @ 2026-07-26 17:05:11 : 11322 steps taken, and 428 accepted.
+[mcmc] Progress @ 2026-07-26 17:07:14 : 11379 steps taken, and 431 accepted.
+[mcmc] Progress @ 2026-07-26 17:08:21 : 11423 steps taken, and 434 accepted.
+[mcmc] Progress @ 2026-07-26 17:09:22 : 11474 steps taken, and 437 accepted.
+[mcmc] Progress @ 2026-07-26 17:11:09 : 11499 steps taken, and 438 accepted.
