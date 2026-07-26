@@ -1,24 +1,25 @@
 # The Forced Combination — the Family Ring's Existence Theorem (2026-07-18)
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? Internal terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > The color algebra (§2) is **exact**; the theorem (§3) is **exact within its
-> setting** — the string-bound family ring of the kernel program
-> ([T6](working_logs/T6_koide_owed.md), the chase), which is itself
+> setting** — the string-bound family ring of the Koide-kernel program
+> ([T6](working_logs/T6_koide_owed.md), the open derivation), which is itself
 > **candidate-grade**, judged by the P-2026-048 lattice fork and the P-2026-051 deviation
 > lock. The closing chain (§4) inherits every one of those conditionalities and is graded
 > where it stands.
 
 ## 0. The claim, in one line
 
-**The family ring exists if and only if it is a gauge–medium hybrid**: a pure-gauge ring
-collapses, a pure-medium ring has no scale, and only the combination equilibrates.
+**The family ring exists if and only if it is a gauge–superfluid hybrid**: a pure-gauge ring
+collapses, a pure-superfluid ring has no scale, and only the combination equilibrates.
 
 ## 1. The setting
 
-The three family faces are bound structures in the dark confining SU(2) sector (the
-string-bound reading: their spacing is the string scale, which is why √σ_dark = m_e — the
-portal — appears in the lepton mass matrix at all). SU(2) group theory fixes their
+The three family faces — the model's three charged-lepton generations — are bound
+structures in the dark confining SU(2) sector (the string-bound reading: their spacing is
+the string scale, which is why √σ_dark = mₑ — the dark-sector portal relation — appears in
+the lepton mass matrix at all). SU(2) group theory fixes their
 representation before any dynamics: **three fundamentals admit no color singlet**
 (2⊗2⊗2 = 2⊕2⊕4 — the same fact that makes the sector's baryons diquarks), so a three-face
 singlet must be built from **adjoints**, and the unique natural channel is the fully
@@ -26,7 +27,7 @@ antisymmetric one:
 
 $$\text{singlet} = \varepsilon^{abc}\,A^a B^b C^c$$
 
-— the structure constant itself (for SU(2), f^{abc} = ε^{abc}): the ring carries the geometry
+— the structure constant itself (for SU(2), fᵃᵇᶜ = εᵃᵇᶜ): the ring carries the geometry
 of the theory's own three-gluon vertex.
 
 ## 2. The algebra (exact)

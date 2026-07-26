@@ -6,6 +6,12 @@
 > content — numbers, dates, kill conditions — is unchanged; the registry remains append-only
 > and original phrasings are preserved in git history.*
 
+> *Terminology note (2026-07-26): the rest of the forward-facing corpus was rewritten into
+> standard field-physics terminology on this date. This file was deliberately excluded —
+> registered entries stay verbatim so the timestamped record is never edited after the fact.
+> Any internal shorthand appearing below decodes in
+> [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md).*
+
 
 > **THE LIVE BETS:** P-2026-040 (α_c = 3α — the α_c MCMC), P-2026-041 (f̄ = 2/π — the ensemble),
 > P-2026-042 (the TeV anchor). Registry order is chronological; every kill condition is stated at

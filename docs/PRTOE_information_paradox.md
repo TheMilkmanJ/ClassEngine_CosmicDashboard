@@ -1,6 +1,6 @@
 # The Black-Hole Information Paradox — Dissolved in Structure (2026-07-11)
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? The model's internal terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 *Short companion to PRTOE_blackholes_no_singularity.md. The paradox dissolves at the structural
@@ -46,13 +46,13 @@ system**. Consequences, each from a graded object:
  or not) is answered by the same structure: a **sonic** horizon is not a fundamental causal
  barrier. The phonon description ends at the local healing length, and the medium beneath it
  carries correlations across the horizon — the standard analog-gravity route by which
- information leaves without EFT-outside ever being violated at its own scales. The horizon
+ information leaves without the exterior effective field theory ever being violated at its own scales. The horizon
  leaks at the cutoff by construction; no firewall is needed to reconcile smoothness with
  unitarity.*
 4. **The slow-return guarantee**: the core's information re-enters the exterior on
  evaporation/purification timescales — and in the cyclic frame, anything still held at the
- crunch is thermalized into the Tolman entropy budget while the **topological content joins the
- genome** (the only strictly-conserved-through-crunch data). Nothing exits the
+ crunch is thermalized into the Tolman entropy budget while the **topological content is carried
+ across the crunch** (the only data strictly conserved through it). Nothing exits the
  universe's books; some of it just changes column.
 
 ## 2. What the paradox becomes
@@ -62,7 +62,7 @@ system**. Consequences, each from a graded object:
 | the singularity (the shredder) | required | absent |
 | unitarity | threatened | manifest (the interior is a quantum many-body system) |
 | "where is the information during evaporation?" | mysterious | in the core's correlations + outgoing-mode entanglement (ordinary) |
-| the Page curve | the quantitative test | **derived-conditional at the coefficient, owed at the curve** — the functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)), the scaling follows with species count and cutoff cancelling, and the coefficient is the ratio the same cutoff supplies (12π/48π = 1/4, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); the regulator's entanglement-side O(1) is paid structurally (the conical R-delta makes both coefficients one heat-kernel term, so any form factor cancels in the ratio); what remains is the curve itself, plus the field-content extension beyond minimally coupled scalars |
+| the Page curve | the quantitative test | **derived-conditional at the coefficient, owed at the curve** — the functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)), the scaling follows with species count and cutoff cancelling, and the coefficient is the ratio the same cutoff supplies (12π/48π = 1/4, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); the regulator's entanglement-side O(1) is paid structurally (the conical δ-function in R makes both coefficients one heat-kernel term, so any form factor cancels in the ratio); what remains is the curve itself, plus the field-content extension beyond minimally coupled scalars |
 | firewalls / remnants / ER=EPR | competing exotica | unnecessary: the interior is matter, not geometry |
 
 ## 3. Honest scope
@@ -70,11 +70,11 @@ system**. Consequences, each from a graded object:
 This is a **dissolution, not a calculation**: the paradox's premises fail in this model, so no
 paradox forms — the same logical shape as the Penrose-premise audit. What would elevate it to
 a *result*: (i) **paid 2026-07-20** — the regulator's entanglement-side O(1) equals the induced-G
-side identically, because the conical deficit's R-delta makes the horizon area term the same
+side identically, because the conical deficit's δ-function in R makes the horizon area term the same
 heat-kernel coefficient, so any form factor cancels in the ratio (for minimally coupled content,
 which is what the 12π and 48π are the coefficients of); (ii) a Page-curve computation for phonon
 Hawking flux off a finite core — still un-run, and it is the claim's remaining half.
 
-*A paradox needs an impossible room. Take away the shredder in the basement and the black hole
+*A paradox needs an impossible room. Take away the shredder at the microphysical level and the black hole
 is just a very dark library with slow lending — everything checked in is still on a shelf,
 and conservation, as always in this model, holds.*

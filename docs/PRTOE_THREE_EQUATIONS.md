@@ -1,6 +1,6 @@
 # PRTOE in Three Equations
 
-> **THE FLAGSHIP CLAIM, AND ITS GRADE.** The dark-energy scale is
+> **THE DARK-ENERGY PREDICTION — THE HEADLINE CLAIM — AND ITS GRADE.** The dark-energy scale is
 > **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — the vacuum-occupancy binding energy, α⁴ times a temperature tied to
 > the electron. That structure is what makes it predictive rather than descriptive, and every factor
 > in it is sourced except τ = T_c/m_e, which is where the whole claim now lives.
@@ -23,11 +23,11 @@
 > populated, which is what Q = 2/3 asserts (it says the variance of √m equals its mean squared, the
 > Boltzmann second moment, holding to 18 ppm on the measured masses). **Its referee is one number:**
 > a lattice T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative treatment the radiative band
-> needs, so the λ and τ gates are one job. **0.34657 crowns the kernel and the dark-energy
+> needs, so the λ and τ checks are one job. **0.34657 crowns the kernel and the dark-energy
 > prediction together; 0.34506 kills both.**
 
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? The repository's internal shorthand decodes in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 *The elevator formulation — the model's testable core compressed to three lines, written for
@@ -48,11 +48,12 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
  $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2$. With τ sourced by the Koide kernel this is
  **2.2599 meV against the measured 2.25 — +0.44%**, an existence claim rather than a precision one
  (the quartic sits past perturbative control — head of this file); the structure $M_2 = \alpha^2 T_c$ carries it,
- and $\alpha_c = 3\alpha$ is under test. From the dyad's condensation temperature
+ and $\alpha_c = 3\alpha$ is under test. From the condensation temperature of the dyad (the
+ electron-coupled pseudo-Goldstone field)
  ($m_e \to T_c \to M_2 \to \rho_\Lambda$); see the cosmological-constant document.)
 - The **excitations** are the dark matter: radiation-like above a transition redshift
- $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector as implemented in
- CLASS).
+ $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector — the dark-sector
+ superfluid condensate — as implemented in CLASS).
 - The **phase winds** on a compact axis: $\theta(x) = 2\pi n\,x/L$, $n \in \mathbb{Z}$
  (Kibble-generated, topologically protected). This integer is the source of the model's
  anisotropy family: the $\ell \sim 130$ comb (P-029), the $\varepsilon$-dipole (P-024), the
@@ -86,10 +87,10 @@ $\varepsilon$ is not tuned; it decomposes:
 
 $$\varepsilon = c \cdot \bar{f} \cdot \alpha_c = \tfrac{9}{10} \times \tfrac{2}{\pi} \times 3\alpha = \tfrac{27\alpha}{5\pi} = 1.2543\%$$
 
-against the sky's fitted $\sim 1.24\%$ — zero dials end to end. (Three ε values appear in
-this repo and differ deliberately: **1.232%** = the production-chain fit; **~1.24%** = the
+against the sky's fitted $\sim 1.24\%$ — zero free parameters end to end. (Three ε values appear in
+this repo and differ deliberately: **1.232%** = the production-chain fit; **≈1.24%** = the
 posterior-era rounding; **1.2543%** = the derived stack above. The gap between fit and
-derivation is ~1.8% *of the value* — and the running measurements decide.)
+derivation is ≈1.8% *of the value* — and the running measurements decide.)
 
 > **Which width that gap is "inside" is worth stating, because the wrong one is easy to reach for.**
 > The measurement's own width is the chain posterior, `varying_me` = 1.0126 ± 0.0041 — an ε of
@@ -116,12 +117,12 @@ derivation is ~1.8% *of the value* — and the running measurements decide.)
  chosen ones — and the roster is chosen by **charge**, an identity-reading criterion. Carried
  through consistently, charge weights as well as selects: Σ N_c Q² over the charged nine is
  exactly **8**, giving c = 8/9 = 0.889, and if the neutral seat then takes weight zero the count
- returns c = 1, which the census excludes. **No single criterion returns 9/10**, so the value is
+ returns c = 1, which the counting argument excludes. **No single criterion returns 9/10**, so the value is
  a counting assumption the data confirms rather than one the framework forces
  ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1). The ε-blind ensemble is the check and
  it does not adjudicate: 8/9 sits 0.30σ from 9/10 at its width, inside its own error bar.
  So the value is **9/10, conditional on keeping the tie a lock and on the equal-weight
- assumption** (the flagship position); the empirical f̄ ensemble / α_c chain (P-2026-040) remains
+ assumption** (the position the dark-energy prediction takes); the empirical f̄ ensemble / α_c chain (P-2026-040) remains
  the independent check.
 - $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$, forced by many-turn equidistribution, with the coupling form data-selected (P-2026-041). *(The winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of $\bar{f}$ — the high-statistics ensemble is the check, not the source.)* **Derived — not a parameter, and not
  a simulation output.**
@@ -145,11 +146,11 @@ data speaks** — the object the running evidence comparison actually grades:
 |---|---|---|---|
 | ε | 1.2403 ± 0.0079% | the concordance joint of fit and stack | conditional (three referees) |
 | A_s | **2.088×10⁻⁹ frozen**; the closed form (α_c/4πk)³ = **2.081×10⁻⁹** — it lands **−0.34%** | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
-| n_s | 0.9677 = 1 − 2/ln(T₀/k*) k-local, predicted running α_s = −5.2×10⁻⁴ (the executed run value 0.9641 is the banked k-independent form, now consistency-check grade) | the modulation map: envelope × shot on the verified k_UV = T₀ anchor; the 2 = amplitude-squared | mechanism candidate (exhibited) |
+| n_s | 0.9677 = 1 − 2/ln(T₀/k*) k-local, predicted running α_s = −5.2×10⁻⁴ (the executed run value 0.9641 is the established k-independent form, now consistency-check grade) | the modulation map: envelope × shot on the verified k_UV = T₀ anchor; the 2 = amplitude-squared | mechanism candidate (exhibited) |
 | z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass confirmed independently by ξ = 402 AU, the Schive core radii, and the superradiance window — which the mass **clears** (M87\*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
-| *(the evidence run's setting)* | 3.5619×10⁷ | a profiled freeze, 0.053 dex below the identity — it implies m = 1.75×10⁻²⁰, which misses all three mass checks by ~28% | **inconsistent with the model's own mass; the run tests this point, not the identity** |
+| *(the evidence run's setting)* | 3.5619×10⁷ | a profiled freeze, 0.053 dex below the identity — it implies m = 1.75×10⁻²⁰, which misses all three mass checks by ≈28% | **inconsistent with the model's own mass; the run tests this point, not the identity** |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
-| Σm_ν | 61.4 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits 2.6 meV above the m₁ = 0 floor against ~20 meV planned resolution. The testable content is m_ββ |
+| Σm_ν | 61.4 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits 2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |
 | T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the superseded rounding | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the `YHe` correction (2026-07-17); the running job carries the fix and the value may move |
 
@@ -162,8 +163,8 @@ single row, is the claim under adjudication in the nested-sampling run now execu
 ## The closing note (why the repo exists)
 
 What does not compress is the derivation chain *inside* the symbols — why $9/10$
-(the census mechanism), why $2/\pi$ (the winding history from first genesis), why
-$177.10$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is the perturbative cross-check, **never the keying value**), why $3\alpha$ (basement-owed, bet-registered).
+(the counting-argument mechanism), why $2/\pi$ (the winding history from first genesis), why
+$177.10$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is the perturbative cross-check, **never the keying value**), why $3\alpha$ (owed at the microphysical level, bet-registered).
 Those numbers are outputs of the field's history from its initial conditions, not axioms.
 The equations are three lines; the receipts are the repository.
 

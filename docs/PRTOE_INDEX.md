@@ -7,7 +7,7 @@ model reproduces and does not claim), **screened** (a constant the model holds f
 PRTOE_the_great_chain.md (+ Appendices A/B).*
 
 **START HERE (added 2026-07-13, the external-critique pass):**
-- [THE READER'S GUIDE](PRTOE_READERS_GUIDE.md) — the model in five plain sentences; the full house-grammar glossary; the skeptic's list
+- [THE READER'S GUIDE](PRTOE_READERS_GUIDE.md) — the model in five plain sentences; the full glossary of the corpus's internal vocabulary; the skeptic's list
 - [THE DEPENDENCY TREE](PRTOE_DEPENDENCY_TREE.md) — every claim's parents and killers in six tiers; the weakest-parent reading rule
 - [THE READER'S RISK SUMMARY](PRTOE_READERS_RISK.md) — one honest page for an outsider: strongest claims, weakest links, current evidence class, and the pre-registered kill conditions
 
@@ -17,8 +17,8 @@ PRTOE_the_great_chain.md (+ Appendices A/B).*
 - [THE INFLATION REPLACEMENT](PRTOE_inflation_replacement.md) — every problem inflation was hired for, answered without an inflaton (MIXED)
 - [THE CMB ANOMALIES](PRTOE_cmb_anomalies.md) — one axis, one integer: the anomalies as a single object's signature
 - [THE S₈ TENSION](PRTOE_s8_tension.md) — the second fight, fought with the right sign (PRODUCTION)
-- [LASER PHYSICS](PRTOE_laser_physics.md) — the medium's grammar at 10¹⁵ Hz: threshold = condensation, the bench rehearsal of T_c
-- [THE ONSET CLOCK](PRTOE_quartet_clock.md) — whose mass does the oscillating unit carry? **Resolved: the pair.** Quartets need attractive pair–pair coupling, and the recorded real sound speed forces λ > 0, so they cannot bind; the Z4 term locks phases, not composites. The registered call was PAIR and the α_c chain grades the number
+- [LASER PHYSICS](PRTOE_laser_physics.md) — the superfluid field's grammar at 10¹⁵ Hz: threshold = condensation, the bench rehearsal of T_c
+- [THE ONSET CLOCK](PRTOE_quartet_clock.md) — whose mass does the oscillating unit carry? **Resolved: the pair.** Quartets need attractive pair–pair coupling, and the recorded real sound speed forces λ > 0, so they cannot bind; the Z₄ term locks phases, not composites. The registered call was PAIR and the α_c chain grades the number
 - [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ¼ = (9/2)α⁴·T_c, and with τ sourced by the Koide kernel (τ = ½ln2, T_c = 177.10 keV) that is **2.2599 meV against the observed 2.25 — +0.44%**, nothing cosmological in the chain — an existence claim, not a precision one, the quartic sitting past perturbative control. Referee: a lattice T_c/√σ for SU(2), N_f = 3, one job that gates the λ and τ questions together (CANDIDATE)
 - [THE HIERARCHY PROBLEM](PRTOE_hierarchy_problem.md) — the EW scale as a pairing gap: M_red·e^{−1/kα_c} (EXPLORATORY)
 - [THE FORCED COMBINATION](PRTOE_forced_combination.md) — the family ring's existence theorem: pure-gauge collapses, pure-medium is scale-free, only the hybrid exists (algebra EXACT; setting candidate-grade)
