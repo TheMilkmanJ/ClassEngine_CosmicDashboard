@@ -808,3 +808,26 @@ Standard-Model sector's crossing (its own task).
 
 **Grade:** three computed joints + four named opens; J1's envelope gap closing by
 test, not extrapolation. Nothing promoted.
+
+---
+
+## 18. Task 5 — the MeV question as a single ledger (2026-07-27)
+
+Script: [`scripts/bounce_task5_door_budget.py`](../../scripts/bounce_task5_door_budget.py).
+Every channel in one place; one new channel priced and closed:
+
+| channel | size | verdict |
+|---|---|---|
+| door budget (M2, computed) | `T_eff = 2.8 keV` | ×1.6×10¹⁰ under the MeV bar in density |
+| electron-family gates (recorded) | 177–511 keV | ×2–5.6 under in T; candidate clock only |
+| **quench injection (new, priced)** | `~9×10⁻⁸⁴ eV⁴` | ×10⁹⁷ under the door itself — **closed** |
+| compression free parameter | `N_med ≳ 6.2` | retired; replaced by measured overshoot |
+| 1D rebound overshoot (verified) | ×O(1) | does not fund MeV |
+| spherical focusing | **pending** | the adaptive run, in flight |
+| SM-sector crossing (task #14) | **unwritten** | where most of the bath's energy lives |
+
+**Read:** every computed channel is keV-class or below. The MeV question rests on
+exactly two live levers — the spherical focusing amplification (computing now) and
+the Standard-Model crossing (task #14, the only channel large enough to matter if
+focusing falls short). If both fail, the honest endpoint is a recorded outer-spec
+tension: the reconstruction under-funds BBN and says so. No knob exists to turn.
