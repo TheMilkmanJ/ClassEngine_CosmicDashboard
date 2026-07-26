@@ -1989,3 +1989,29 @@ freeze. The neutral half is conservation-protected; the geometric route is close
 the scatter objection now applies only to the charged half. Noted without weight:
 a = 3b ⟺ ω_charged/ω_neutral = √2, the cone radius A re-appearing as a frequency
 ratio. Task #1 carries this state.
+
+## THE OCCUPANCY LOCK — the charged half's first exactness-compatible candidate (2026-07-27)
+
+`scripts/koide_null_occupancy_lock.py`, bookkeeping exact at every scale. The model
+already carries a quantization principle at argument grade: the ground state holds
+exactly ONE binding quantum per coherence cell (the vacuum-energy source). Applied —
+and this application is THE flagged new step — to the three-lepton bound state as one
+coherence cell whose binding quantum is the charged (family) mode:
+
+> the conserved zero-momentum amplitude carries exactly one charged-mode quantum of
+> action, N₀ ≡ M·ω₁·f₀²/ħ = 1, with the charged pair in its ground state.
+
+Then f₀² = |f₁|² + |f₂|² EXACTLY, at every M·ω₁ — Q = 2/3, τ = ½ln2 follow, and the
+a = 3b stiffness relation is recovered as the classical shadow (implied ε₁/ε₀ = 2).
+
+**Why this is the right exactness class:** an integer cannot drift. The observed
+|Q − 2/3| ≈ 6×10⁻⁶ is compatible with a quantized lock in a way no ensemble ratio
+could be. The complete null now reads: **conservation (neutral half, computed) +
+quantization (charged half, candidate)** — both in the aisle #101 demanded.
+
+**Survival tests, named and unpaid:** (1) why the charged mode's quantum is the unit
+(the "binding quantum" reading matches the vacuum argument's grammar; still the
+invented identification); (2) the neutrino tower must NOT satisfy an occupancy
+statement — it is not a bound cell of the confining sector — and indeed Q_ν = 0.458;
+(3) the external judges unchanged: the lattice fork (P-2026-048), the deviation lock
+(P-2026-051), m_τ at ≲1.4 ppm. **Grade: candidate closure, registered, not promoted.**
