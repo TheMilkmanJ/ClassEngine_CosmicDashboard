@@ -1732,3 +1732,181 @@ three modes, always), while Q = ⅓ + (2/3)ρ² varies, so the two agree only *a
 an assumption that Q equals a count, and the log already says so ("nothing yet forces them equal").
 It is recorded here only so nobody re-reads it as the derivation. **Grade: unchanged — the phase is
 sourced from Q by the KMS twist, and Q's own source is #101.**
+
+## THE NULL'S NEXT AISLE — a virial reading, registered as a direction (2026-07-26)
+
+#101's re-aim says the null needs a source in the constraint / index / conservation-law
+class. One candidate in that class, registered BEFORE being worked: read the Z₃ ring's
+√m-Fourier components as normal-mode amplitudes — f₀ the breathing seat, f₁/f₂ the shape
+pair — and ask whether an equilibrium identity of virial type forces the sector balance
+f₀² = |f₁|² + |f₂|² regardless of mode counts. The shape is right twice over: virial
+identities balance sector SUMS, not per-mode shares — exactly the structure the
+charge-sector partition assumption needs, and exactly what per-mode equipartition cannot
+give (per-mode returns Q = 1, the recorded wrong answer). The check it must survive: the
+same identity must NOT hold for the neutrino triple (Q_ν = 0.458 — the cone is
+per-sector), so the virial structure must be specific to the string-bound charged ring
+(the forced combination's three-term balance is; the neutrino tower is not string-bound).
+**Status: DIRECTION ONLY — nothing computed.** If worked, the first computation is the
+virial identity for the recorded balance E(d) = √3σd − 3q̃²ln d − 3α_d/d at its minimum,
+mapped to the mode basis. No grade changes anywhere.
+
+## THE VIRIAL DIRECTION, WORKED SAME DAY — FAILS, and the ring's shape sector is soft (2026-07-26)
+
+The direction registered above was computed the same day
+(`scripts/koide_ring_shape_modes.py`, numerics verified against closed forms to
+5 decimals). For the recorded balance E = √3σd − 3q̃²ln d − 3α_d/d at its own
+equilibrium (√3σ = 3(q̃² − α_d)), the internal stiffness spectrum is
+
+> **k_A = 3q̃² − 6α_d  (breathing);  k_E = −(3/2)α_d  (shape pair, degenerate)**
+
+The sector balance needed k_E = 2k_A > 0. It is unreachable everywhere: the shape
+pair is exactly FLAT at α_d = 0 and destabilizing for any α_d > 0. **The direction
+is retired — ledger row filed 2026-07-26.** The sector-sum loophole (virial
+identities balance sums, not per-mode shares) closes because the shape sector
+turns out to carry no restoring force at all: there is no shape power to balance.
+
+**What the computation surfaced instead (adverse, held at note grade here; the
+formal row is the ledger's):** every recorded stability statement about the ring
+(the α_d ≲ 2.2 window) tested the breathing direction only. At quadratic order
+the equilateral configuration is marginal or unstable against shape distortion.
+Caveats: classical point faces, quadratic order, fully relaxed Y-junction. If it
+survives those, the equal-spacing premise under c₂ = 4/(3ln2) needs a stabilizer
+that is currently unwritten. Next bounded computation if pursued: (i) the quartic
+term along the flat direction (does anharmonicity stabilize, and at what scale?);
+(ii) whether the Y-junction's 120° Fermat-to-vertex transition stabilizes or
+deepens the distortion. A geometric-distortion reading of the mass hierarchy is
+NOT claimed — the kernel's non-democracy already lives at equal spacing, and a
+scalene ring would break the circulant structure rather than explain it.
+
+## THE THIRD-ORDER PASS, SAME DAY — the classical ring is not even metastable (2026-07-26)
+
+Follow-up to the retired virial direction (`scripts/koide_ring_quartic.py`). Two errors
+in the first run of the follow-up, both self-caught and fixed before anything was
+recorded: (i) the shape basis at α_d = 0 was extracted by eigenvalue sorting while the
+shape pair sits AT zero — degenerate with the exact zero modes — so translations leaked
+into the "shape" directions and broke the Z₃ periodicity of the cubic scan (the tell);
+rebuilt exactly from symmetry, periodicity now 2×10⁻¹⁰. (ii) The α_d > 0 branch was
+globally minimized, which is meaningless: point faces under −α_d/r vs −q̃²ln r collapse
+(E → −∞) — a regulator-free model limitation, not a landscape result.
+
+The corrected findings, all pure-limit unless stated:
+
+- **Cubic warping, large:** B₃ ≈ 6.0 q̃²/d³ on the clean basis — the flat direction was
+  the tangent of a warped slope. The equilateral point is not a local minimum at all.
+- **The classical ground state is the collinear chain**, spacing (√3/2)d: the string
+  length TIES the triangle (both √3·d at their equilibria — the Y-junction buys nothing
+  over the straight line here), so the log repulsion decides, and the chain wins by
+  exactly **ΔE = ln(4/(3√3))·q̃² = −0.2616 q̃²** (closed form; numerics to 8 decimals).
+  The chain is solidly stable: stiffness spectrum (2, 2, 4) in q̃²/d² — clean integers,
+  noted without a reading.
+- **Consequence for the chase:** the equilateral equal-spacing premise under the
+  combination node (q̃² = c₂/√3, the forced-combination support) is NOT delivered by the
+  classical three-term layer. The kernel algebra (circulant, Parseval, the null) is
+  untouched. A stabilizer is now REQUIRED, from one of three unwritten places:
+  **(a)** Y-junction core energetics (a junction-on-face penalty would punish the chain,
+  whose middle leg has zero length — the most bounded computation of the three);
+  **(b)** quantum zero-point of the soft shape pair (soft modes have large zero-point
+  excursions; the ring-vs-chain comparison changes at order ħω);
+  **(c)** color-structure rigidity (whether the ε^abc singlet's three-string junction
+  is dynamically forced off the degenerate collinear geometry).
+  Ledger row filed (same-day follow-up section). Until one of (a)–(c) is computed, the
+  ring premise carries an open stability debt and the forced-combination theorem
+  inherits it.
+
+## STABILIZER (a), JUNCTION CORE — TRIED, MECHANISM FAILS; the question escalates (2026-07-26)
+
+Priced same day (`scripts/koide_ring_junction_core.py`). One structural reduction made
+the test exact: with scale relaxed, the string energy is ALWAYS 3q̃² (virial identity of
+the log term), so the entire ring-vs-chain fight is the scale-invariant shape functional
+
+> **S(shape) = ln[ L_Steiner³ / (r₁₂·r₁₃·r₂₃) ]** — minimize Steiner-length-cubed over
+> the product of pair distances. Ring: 3√3 ≈ 5.196. Chain: 4. The chain wins on shape.
+
+The junction-core mechanism then fails on geometry, not size: the junction first touches
+the middle face at apex 120°, and the relaxed flattening path is already 0.117 q̃² below
+the ring BEFORE that contact (monotone descent, computed). Even an infinite
+junction-on-face wall leaves the minimum at the 120° isosceles, E = 3 + 3ln2 − 2ln3 =
+2.8822 q̃². The needed size (0.26 q̃² ≈ 0.29 m_e vs natural core ~√σ = m_e) was
+available; a contact term simply cannot cure an interior cubic instability. **Retired —
+ledger entry filed (third same-day).**
+
+**The escalation, and the consolidation it buys:** w/d = (w√σ)/c₂ = 0.42–0.57 — the
+faces sit ~2 string-widths apart, so the whole classical thin-string layer (the
+three-term balance included) is O(1)-uncontrolled at the operating point. Ring-vs-chain
+is undecidable classically. But the escalation lands somewhere useful: the three-source
+ground-state geometry (Y vs collinear) is a lattice observable, and it belongs to the
+SAME SU(2) N_f = 3 campaign that already referees T_c/√σ, F_π/√σ, w·√σ — the one
+campaign now carries FOUR verdicts, and one of them is "does the family ring exist as a
+ring at all." Standing stabilizer candidates: (b) zero-point of the soft pair
+(strengthened: soft modes at w/d ≈ 0.5 have O(1) quantum corrections — a semiclassical
+estimate is the next bounded desk computation); (c) ε^abc color rigidity (unwritten).
+
+## STABILIZERS (b) AND (c), RUN SAME DAY — one dies exactly, one survives (2026-07-26)
+
+**(c) color rigidity — DEAD, exactly** (`scripts/koide_ring_color_rigidity.py`, exact
+27-dimensional computation; ledger row filed, fourth same-day). The chain is fully
+color-allowed (same ε^abc vertex with the junction on the middle face), and every
+pairwise color operator is exactly equal across pairs — spread < 10⁻¹², forced by the
+antisymmetry of ε. Color is shape-blind at two-body order: there is nothing for
+geometry to couple to. Each pair sits in the adjoint channel, ⟨T_i·T_j⟩ = −1 exact.
+Byproduct exposure named for the adjoint branch: SU(2) adjoint strings screen (gluelump
+scale, not in corpus); if the breaking distance is below c₂ ≈ 1.92/√σ the adjoint
+branch's string-bound ring dissolves regardless of geometry. Fifth question for the one
+lattice campaign.
+
+**(b) zero-point — the FIRST SURVIVOR** (`scripts/koide_ring_zero_point.py`). Adiabatic
+effective potential along the flattening path: V_eff(θ; η) = E*(θ) + (η/2)·Σ√k⊥, with
+η ≡ ħ/(d·√(m_face·q̃²)). The chain carries three stiff internal modes (2, 2, 4 in
+q̃²/d²) against the ring's single breathing mode (3): zero-point taxes the chain harder
+at every point of the path (S⊥ > S⊥(60°) everywhere, peaking ≈3.5 vs 1.73). The
+restoration threshold is **η* = 0.311**, set at the chain end; locally the √u growth of
+the transverse zero-point beats the u³ classical descent for any η > 0, so the
+equilateral point becomes a genuine local minimum of V_eff for free. Physical
+quantumness: η = 0.4934/√(m_face/√σ) — constituent-scale faces (0.5–2)·√σ give
+η = 0.35–0.70, ABOVE threshold; the ring is restored for m_face ≲ 2.5·√σ.
+
+**The coherence point, noted:** η ≈ 0.5 and w/d ≈ 0.5 are the same marginality — the
+ring is a quantum object at its own scale, which is exactly why the classical
+instability was never going to be the last word, in either direction.
+
+**Fences:** harmonic-adiabatic estimate; semiclassics O(1)-marginal at η ≈ 0.5; the
+face-mass identification is open (m_face ≳ 3·√σ falls below threshold); the lattice
+three-source geometry remains the referee. **GRADE: the ring premise's stability debt
+now has a named, priced candidate payer at estimate grade — viability, not a
+derivation; the debt stays open until the lattice or a controlled computation speaks.**
+
+**Desk state of the stability question after the full day:** classical layer — ring
+loses to chain (exact); junction core — cannot fix it (mechanism); color — cannot fix
+it (exact); zero-point — CAN fix it at constituent-scale face masses (estimate). The
+question that decides it is now consolidated onto the one SU(2) N_f = 3 campaign:
+T_c/√σ, F_π/√σ, w·√σ, three-source geometry, adjoint string breaking — five verdicts,
+one campaign.
+
+## THE SURVIVOR, ONE RUNG UP — exact 2D shape-space quantum mechanics (2026-07-26)
+
+`scripts/koide_ring_shape_qm.py` (v2). The 1D-path adiabatic estimate is replaced by
+exact diagonalization on the full 2D shape plane: the warped landscape with the ring at
+the origin and the three chain valleys (all reproducing the closed forms to 4×10⁻¹⁶),
+tunneling included, no harmonic truncation.
+
+**Erratum, recorded:** v1's pre-written verdict claimed the exact treatment would lower
+the threshold. It does the opposite, and v2 prints only from computed values.
+
+**Results:**
+- η_c (exact 2D, classical V) = **0.3457** — the exact treatment RAISES the bar vs the
+  adiabatic 0.311: tunneling across the three valleys helps the CHAIN phase.
+- η_c (with breathing zero-point) = **0.3864** — higher still, for a reason that is now
+  an exact identity: **k_b(u) = 3q̃²/|x_rel(u)|²** (from the scale-relaxation virial
+  structure), so the chain's scale mode is softer (k_b = 2) than the ring's (k_b = 3)
+  and the breathing zero-point taxes the ring more. FD cross-checks at both anchors
+  agree to 4 decimals.
+- Ring-phase window: **m_face ≤ 2.0·√σ** (classical V), **m_face ≤ 1.6·√σ** (with ZP).
+  The constituent identification m_face ~ √σ (η = 0.49) sits in the RING phase in both
+  variants; m_face = 2·√σ is knife-edge; m_face ≥ 3·√σ is chain in both.
+
+**Standing:** the zero-point stabilizer SURVIVES an exact-in-2D test that could have
+killed it, with a narrowed window and a corrected direction of approach. Fences: 2D
+shape-plane reduction (rotational admixture ∝ |u|²); breathing treated at classical
+relaxation plus Born–Oppenheimer zero-point; semiclassics is itself O(1)-marginal at
+η ≈ 0.5. Estimate grade, not promoted. The referees are unchanged: the lattice
+three-source geometry and the face-mass identification.
