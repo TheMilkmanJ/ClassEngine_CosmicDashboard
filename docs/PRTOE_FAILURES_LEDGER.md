@@ -81,6 +81,8 @@ Undated entries below read against this register.*
 |---|---|---|
 | **"Its three flavours supply the '3' in α_c = 3α"** | **A FALSE RECEIPT.** That 3 is the **spatial dimension d** (§1, MATH_SPINE §0: α_c = d·α, the transverse-projector trace). It never supported the flavour count, which stood unsupported once withdrawn (τ requires only N_f ≥ 2). Replaced by a candidate with a real receipt: Pauli finiteness forces dark SU(2), N_f = 3 (P-2026-048) | adjudicated 2026-07-16 |
 | **The dCDF's chirality sourced from p-wave L** (dcdf_superfluid §2) | **REDUNDANT AND EXCLUDED.** Every claim that *spends* the chirality sources it from the **genesis winding integer n** — magnetic helicity ("SIGNED BY THE GENOME"), LSS parity, baryogenesis, the GW genome signature. **Nothing downstream ever drew on p-wave L**, and the DE value's ℓ = 0 selection excludes it. Retired at no cost | 2026-07-16 |
+| **The τ split ("½ = dyad, ln2 = dCDF")** | **FALSE RECEIPT.** τ is sourced by the Koide / lepton-mass kernel as one bridge number (`τ = ½ ln 2`), while the dCDF and dyad are separate fields in separate identity files. The corpus gives no factorization of τ into one field per factor, and no equation assigns `½` to the dyad or `ln 2` to the dCDF. | 2026-07-26 |
+| **The white-hole / dCDF-dyad mixture reading for τ** | **FALSE RECEIPT.** The white-hole side is causal-structure only, not a τ source; the dCDF and dyad are distinct fields, and the corpus gives no mechanism that mixes them into the Koide kernel or factorizes `τ = ½ ln 2` that way. | 2026-07-26 |
 | **The Weyl-point → 3-generation count** (needing L = 3, f-wave) | **REDUNDANT.** The count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹ N_gen = 3 uniquely (P-2026-045). Pure heat-kernel species counting — no nodes, no pairing channel, no angular momentum. The f-wave order-parameter build it demanded was never done and is not needed | 2026-07-16 |
 
 *(Pattern worth naming: all three above are the same failure — **a second, weaker source offered for something already better-sourced elsewhere**, and in every case the weaker claimant was the condensate's node topology.)*
@@ -1145,6 +1147,363 @@ else) is a corpus-wide coherence failure the value-checker cannot see. It took r
 |---|---|
 | **The ν-free-streaming lane was un-priced corpus-wide** | The Majoron's νν̄ ↔ φ recoupling channel was never run against the CMB free-streaming requirement — including at the recorded launch value g = 1.2×10⁻⁸ (v_L ≈ 4.2 MeV), which recouples the ν bath ~9 orders deep before recombination (the strongly-interacting-ν regime, Planck-tension class). Caught by the three-corner test; the lane is now in the books (hunt §6), and the MeV corner carries its exposure. |
 | **A wrong-class ΔN_eff claim, same-day self-caught** | The corner test's first booking assigned the late-thermal Majoron a "+0.1-class ΔN_eff addition" to the committed budget. Wrong class: late recoupling redistributes the ν bath's *conserved* comoving energy — ΔN_eff shifts ≈ nothing; the observable is the free-streaming change. Corrected in place within the hour; the CMB-S4 budget stands at the pure dyad window. |
+
+### Bounce-source lane retirements (2026-07-24)
+
+| lane | why it died | status |
+|---|---|---|
+| black holes | reservoir/release piece only; no sign-flip term | retired as bounce source |
+| magnetars | local analogue only; no cosmological handover term | retired as bounce source |
+| neutrino freeze | timing lock only; not the turn itself | retired as bounce source |
+| fountain effect | release-side clue only; no bounce-sector `ρ_X(T)` found | retired as bounce source |
+| high-f dyad portal | trigger-only; not a live bridge | retired as bounce source |
+| topology / Casimir | structure clue only; no handover term | retired as bounce source |
+
+*The surviving role of these lanes is support only: reservoir, timing, release, or structure. None of them currently writes the missing crunch-sector source term.*
+
+### Thermal `T = T_c` crossing as bounce source — RETIRED by computation (2026-07-25)
+
+**What it claimed:** that the contracting-branch thermal crossing `T(a_b) = T_c`
+is itself the cosmological bounce (i.e. that the melt threshold also supplies
+`H = 0` and `Ḣ > 0`).
+
+**Why it died (computed, not argued):** `scripts/bounce_thermal_crossing_nogo.py`
+with recorded inputs only (`T_c = 177.10 keV`, `m = 2.24×10⁻²⁰ eV`, `λ = 2×10⁻⁹¹`,
+`g_* = 10.75`):
+
+- `ρ_rad(T_c) / ρ_bounce ≈ 2.8×10⁹` — radiation dominates the condensate floor by ~9 dex;
+- bare vacuum at the DE scale is `~10⁻³²` of that radiation budget — invisible;
+- canonical `ρ + p ≈ (4/3) ρ_rad > 0` ⇒ `Ḣ < 0` in flat FRW;
+- flat `H = 0` still needs `ρ_tot = 0` even in the historical `F`-modified form;
+- the `X` budget needed to flip the sign is radiation-scale (`|ρ_X + p_X| ≳ T_c⁴`),
+  not keV-floor scale.
+
+**What survives:** the melt threshold itself. Contraction still blueshifts radiation;
+`T_c` is still a real order-parameter edge. It is not the bounce.
+
+**What stays open:** a crunch-sector `ρ_X(T)` or a live modified branch that changes
+the handover bookkeeping. Neither is written. Do not re-promote the thermal picture
+without a new equation that closes both `H = 0` and `Ḣ > 0` at once.
+
+### CSW floor / live dCDF / Hubble metric-exit as bounce sources — RETIRED (2026-07-25)
+
+Three related promotions, killed by `scripts/bounce_floor_frw_nogo.py`:
+
+| claim | why it died |
+|---|---|
+| **CSW `ρ_bounce` is the cosmological bounce** | Homogeneous FRW: `p = Kρ²` and `p~ρ` both give `ρ+p>0` ⇒ `Ḣ<0`. Bare vacuum is `~10²³` too small for `H=0`. Homogeneous quantum pressure is zero. CSW is a BH/core hydrostatic ceiling, not an FRW minimum of `a(t)`. |
+| **Live barotropic dCDF flips the sign** | Production `w = −ρ_inf/ρ` gives `ρ+p = ρ−ρ_inf ≥ 0` always. Floor ⇒ `Ḣ=0` (coast), not `Ḣ>0` (bounce). |
+| **Hubble-scale metric exit at `ρ_bounce`** | At the recorded floor, `H⁻¹/ξ ~ 12`. Density for `H⁻¹=ξ` is `~150×ρ_bounce`, above the CSW ceiling. Local BKL-curvature exit is uncomputed, not a free pass. |
+
+**What survives:** finite sub-Planckian `ρ_bounce` as a no-singularity *number*; the
+BH-core use of the same ceiling; the structural claim that the metric is emergent
+below `ξ`. **What does not:** any of the three as a derived homogeneous bounce.
+
+### `N_med = 1/c_s` as derived MeV compression — RETIRED as coincidence (2026-07-25)
+
+**What it claimed:** that the Racing Point toy's required medium compression
+`N_med ≳ 6` (exit energy → 1 MeV reheat) is the legal identity `N_med = 1/c_s`
+(or `ξ·m`), hence no longer fabricated.
+
+**Why it died (`scripts/bounce_m2b_mixmaster_nmed.py`):** at the recorded operating
+point the numbers sit close (`N_med ≈ 6.18`, `1/c_s ≈ 6.76`, ratio `≈ 0.92`), but
+varying `c_s` with `ξ = 1/(m c_s)` makes `N_med/(1/c_s)` run ~0.3→5 (not constant),
+and varying `T_reheat` at fixed `ξ` makes `N_med` track `ln T`, not a medium constant.
+
+**What survives:** `N_med` remains an explicit reconstructed knob in the RP toy until
+a medium ODE predicts it. Do not re-promote the coincidence.
+
+### Inverse acoustic matching as closed F-A1 — does not close (2026-07-26)
+
+**What it claimed:** that the metric-off → medium matching rule is simply the inverse
+of the corpus acoustic/emergent metric map, hence no longer fabricated.
+
+**Why it does not close:** the recorded emergence dictionary determines
+medium `(n, v, c_s) → g_acoustic`. The inverse `g → medium` at metric exit is
+underdetermined (slice/gauge and which hydro variables are fixed are not unique).
+Extra structure would be a new assumption, not a derivation from what is written.
+See working log `bounce_reconstruction_rp.md` §14.2.
+
+**What survives:** forward acoustic map as support; F-A1 remains open/reconstructed.
+
+### Homogeneous higher-order / quartic Friedmann bounce — not available from recorded parts (2026-07-26)
+
+**What it hoped:** a next-order medium correction (gradient/quartic) changes
+homogeneous `H = 0` bookkeeping enough to bounce without exotic `X`.
+
+**Why not:** in homogeneous FRW, quantum pressure vanishes; repulsive interaction
+stress is already in the live barotropic fluid with `ρ + p ≥ 0`; the expansion-energy
+ledger is consistency with standard Friedmann, not a higher-order bounce term.
+A bounded-density constraint `ρ(1 − ρ/ρ_c)` remains un-derived in the corpus
+(named in the reconstruction, not stocked). See `bounce_reconstruction_rp.md` §14.3.
+
+**What survives:** medium-layer repulsive rebound (M6 toy) as a *local* turn mechanism
+candidate; not a homogeneous FRW bounce derivation.
+
+### Magnetic polarity flip (Earth/Sun analogy) as the bounce turn — RETIRED by class (2026-07-26)
+
+**What it proposed:** that because Earth’s magnetic poles reverse and the Sun’s
+field reverses on a longer cycle, the universe might “flip” magnetically, and that
+flip might *be* the bounce (the expansion/contraction sign change).
+
+**Why it died as the turn:**
+1. **Wrong kind of flip.** Geomagnetic/solar reversals are **polarity** changes
+   (`B → −B`). Energy density and Maxwell stress depend on **B²**, so they are
+   invariant under the flip. The bounce needs a change in expansion (`H`, `Ḣ`) or
+   a true NEC-violating stress, not a direction label on **B**.
+2. **NEC class.** Tangled cosmic **B** acts like radiation (`w ≈ 1/3`, `ρ+p > 0`).
+   Coherent **B** at best saturates `ρ + p_∥ = 0` along the field; it does not
+   provide a homogeneous isotropic `Ḣ > 0` engine. Amplifying **B** on the crunch
+   still feeds a NEC-nonnegative channel.
+3. **Not the same clock.** Dynamo flip times scale with turbulent diffusion /
+   convective turnover; the bounce is a cosmological density/causal problem. Larger
+   object → slower flip does not derive a cosmic bounce mechanism.
+
+**What survives:** the corpus’s real magnetism program — rotation-seeded fields,
+helicity sign tied to kinetic helicity / genesis flow (P-2026-028 and the magnetism
+note). That is parity and seeding, not the bounce turn. See workplan section
+“what if it’s magnetism.”
+
+### Electron / electromagnetic sector as the bounce mechanism — RETIRED by class (2026-07-26)
+
+**What it proposed (2026-07-26):** that the bounce is driven by electrons — the
+charge carriers that would let a current flow and heat the dark-sector condensate
+during the contracting phase.
+
+**Why it died as the bounce mechanism (`scripts/bounce_electron_contact.py`):** a
+bounce in flat FRW requires a component with negative energy density and
+`ρ + p < 0` at the turning point — here `ρ_X + p_X ≤ −(4/3)ρ_rad(T_c)`. Every
+channel in the electron/electromagnetic sector satisfies the null energy condition:
+the relativistic e± plasma has `ρ + p = 4ρ/3`; a non-relativistic electron gas has
+`ρ + p = ρ + nT`; the Maxwell stress tensor gives `ρ + p ≥ 0` (vanishing only along
+the field direction of a pure magnetic field); an Ohmic or drift current adds
+positive carrier kinetic energy; and superfluid two-fluid counterflow adds
+`ρ_n w² ≥ 0`. The sector fails by **class**, not by margin — no choice of coupling
+constant or number density changes the sign of `ρ + p`.
+
+**What survives (and it is real):** the *heating* half of the proposal was already
+computed and passes with large margin. The electron-coupled scalar field keeps the
+electromagnetic plasma and the dark sector in thermal equilibrium at
+`Γ/H ~ 10¹⁶–10¹⁷` across the transition temperature, even with the e± number
+density Boltzmann-suppressed by `e^{−m_e/T_c} ≈ 0.056`. Because the critical
+temperature is tied to the electron mass (`T_c = τ·m_e`), the superfluid transition
+and the re-population of e± pairs on the contracting branch fall in the same
+temperature range automatically. The electron sector therefore supplies the computed
+**thermal-contact channel** and a candidate **timing threshold** for the transition —
+not the null-energy-condition-violating component the bounce requires. Pinning the
+re-entry temperature of the reconstructed bounce interval to the electron-mass or
+`T_c` threshold gives `T_reheat` = 177–511 keV, a factor 2–6 below the ≳ 1 MeV
+needed for weak equilibrium before BBN; that reading stays candidate-grade.
+
+### The stiffness-spectrum (virial-class) route to the charged-sector power balance — RETIRED by computation (2026-07-26)
+
+**What it proposed:** that the equal split of spectral power between the neutral and
+charged Z₃ sectors of the charged-lepton mass kernel — the condition equivalent to
+Q = 2/3, hence τ = ½ln2 — is enforced by the lepton ring's own elastic structure.
+With breathing-mode stiffness k_A and a doubly degenerate shape-pair stiffness k_E,
+thermal sector powers balance identically iff k_E = 2k_A, independent of temperature.
+The route was tried because identities of virial type balance sector *sums* rather
+than per-mode shares — the one shape plain equipartition cannot produce.
+
+**Why it died (`scripts/koide_ring_shape_modes.py`, numerics verified against closed
+forms):** for the recorded three-term binding — Y-junction string, pairwise
+logarithmic repulsion q̃², pairwise Coulomb attraction α_d, radial equilibrium
+√3σ = 3(q̃² − α_d) — the internal stiffness spectrum computes to
+
+> k_A = 3q̃² − 6α_d,  k_E = −(3/2)α_d  (d = 1 units, exact at quadratic order).
+
+The shape pair is exactly flat in the Coulomb-free limit and destabilizing for any
+α_d > 0, so the required k_E = 2k_A > 0 is unreachable anywhere in parameter space —
+failure by structure, not by margin. Consistent with the standing classification
+that equilibrium arguments cannot source the exact null; the sector-sum loophole
+this route bet on closes because the shape sector carries no restoring force at all.
+
+**Adverse byproduct (recorded here per the ledger rule):** the equilateral
+configuration of the three-term ring is *marginal* (α_d = 0) or *unstable*
+(α_d > 0) against shape distortion at quadratic order. The previously recorded
+stability window (α_d ≲ 2.2) tested only the symmetric breathing direction.
+Caveats before any downstream re-grade: classical point-face model, quadratic order
+only, fully relaxed Y-junction; quartic terms or junction physics could stabilize.
+Until that is checked, the equal-spacing premise used by the string-geometry
+coefficient c₂ = 4/(3ln2) carries an unpriced stability question.
+
+### The ring's shape sector at third order — the classical layer does not stabilize the equilateral ring (2026-07-26, same-day follow-up)
+
+Follow-up to the row above (`scripts/koide_ring_quartic.py`). Method note: the
+first pass of this script had a contaminated mode basis at α_d = 0 — the shape
+pair is degenerate with the zero modes there, and eigenvector sorting mixed in
+translations — so the basis was rebuilt exactly from symmetry (orthogonal
+complement of translations, rotation, and breathing); the Z₃ periodicity of the
+result verifies to 2×10⁻¹⁰.
+
+- **The flat direction tilts at cubic order.** The two-mode shape sector carries
+  the three-fold warping invariant its symmetry allows, with amplitude
+  B₃ ≈ 6.0·q̃²/d³ — large, not marginal. The equilateral configuration is not a
+  local minimum of the recorded three-term energy even in the Coulomb-free limit.
+- **The classical ground state is a chain, not a ring.** The collinear
+  configuration with spacing (√3/2)·d has the same total string length as the
+  equilateral triangle (both √3·d at their respective equilibria), so the
+  logarithmic repulsion decides, and the chain wins by exactly
+  ΔE = ln(4/(3√3))·q̃² = −0.2616·q̃² — closed form, numerics agree to 8 decimals.
+  The chain is a genuine local minimum (nonzero stiffness spectrum 2, 2, 4 in
+  q̃²/d² units).
+- **The Coulomb branch is unbounded below for point faces** (−α_d/r beats
+  −q̃²·ln r as r → 0): pair collapse is a model limitation, not a finding; only
+  the local saddle statement (k_E = −(3/2)α_d < 0) stands there.
+
+**Consequence, stated carefully:** the equal-spacing equilateral ring premise
+underneath the string-geometry coefficient c₂ = 4/(3ln2) — a support of the
+τ = ½ln2 → dark-energy chain — is not delivered by the classical layer of its own
+recorded binding. The kernel algebra itself (the circulant spectrum, Parseval, the
+null condition) is untouched by this result. If the ring premise survives, its
+stabilizer must come from outside the classical layer: Y-junction core energetics,
+quantum zero-point motion of the soft mode pair, or rigidity from the ε^abc color
+structure. None of the three is written. Until one is, the ring premise carries an
+**open stability debt**, and the forced-combination support theorem inherits it.
+
+### Junction-core energetics as the ring's stabilizer — RETIRED at the thin-string layer (2026-07-26, third same-day entry)
+
+**What it proposed:** the first of the three stabilizer candidates named above — a
+Y-junction core energy penalizing the collinear chain, which puts the junction on
+the middle face with a zero-length string leg, thereby restoring the equilateral
+ring as the ground state.
+
+**Why it died (`scripts/koide_ring_junction_core.py`, closed forms asserted):**
+with the overall scale relaxed, the string energy always settles at exactly 3q̃²
+(a virial identity of the logarithmic term), so the landscape reduces to the
+scale-invariant shape functional S = 3·ln L_Steiner − ln(r₁₂·r₁₃·r₂₃). Along the
+relaxed flattening path the energy falls monotonically, and the junction first
+touches the middle face at apex angle 120° — by which point the energy is already
+0.117·q̃² below the equilateral ring. A contact penalty cannot cure an interior
+instability: even an infinite junction-on-face wall leaves the minimum at the 120°
+isosceles configuration, E = 3 + 3ln2 − 2ln3 = 2.8822·q̃², below the ring for
+*every* penalty size. The required magnitude (0.26·q̃² ≈ 0.29·m_e against a
+natural core scale of order √σ = m_e) was available; the mechanism is not.
+
+**What the pricing surfaced (recorded here per the ledger rule):** the thin-string
+expansion parameter at the recorded operating point is
+w/d = (w·√σ)/c₂ = (0.8–1.1)/1.9236 ≈ 0.42–0.57 — the faces sit about two
+string-widths apart, so the classical thin-string layer (the three-term balance
+and the instability analysis alike) is uncontrolled at O(1). The ring-vs-chain
+question is genuinely undecidable classically and escalates to a
+beyond-thin-string computation. The geometry of the three-source ground state
+(Y-junction-like vs collinear) is lattice-computable within the same SU(2),
+N_f = 3 campaign already refereeing T_c/√σ, F_π/√σ and w·√σ — a **fourth
+observable for the one campaign**. Stabilizer candidates remaining: quantum
+zero-point motion of the soft mode pair (strengthened — soft modes at w/d ≈ 0.5
+carry O(1) quantum corrections) and rigidity from the ε^abc color structure.
+
+### Color-structure rigidity as the ring's stabilizer — RETIRED by exact group theory (2026-07-26, fourth same-day entry)
+
+**What it proposed:** the last of the three stabilizer candidates — that the ε^abc
+color structure of the three-adjoint ring dynamically disfavors the collinear
+geometry and restores the equilateral ring.
+
+**Why it died (`scripts/koide_ring_color_rigidity.py`, exact in the 27-dimensional
+three-adjoint space):** (i) the collinear geometry is fully color-allowed — the
+middle face couples the two end strings through the same f^abc = ε^abc vertex, and
+no contraction is lost when the junction lands on that face; (ii) every pairwise
+color operator is *exactly* equal across the three pairs in the ε-singlet (spread
+< 10⁻¹², forced by the permutation antisymmetry of ε) — color is shape-blind at
+two-body order, so there is nothing in the algebra for geometry to couple to. Each
+pair sits in the adjoint channel with ⟨T_i·T_j⟩ = −1 exactly (attractive, not the
+deepest channel), identically for ring and chain.
+
+**Byproduct (named exposure; no numbers invented):** adjoint sources in SU(2) are
+screened by gluons — the adjoint string is metastable and breaks at a distance set
+by the gluelump mass, a lattice quantity not in the corpus. If the SU(2), N_f = 3
+breaking distance lies below the recorded spacing d·√σ = c₂ ≈ 1.92, the
+string-bound ring of the *adjoint* branch dissolves as a long-lived object
+regardless of geometry; the medium-vortex branch does not carry this exposure.
+One more question for the single SU(2), N_f = 3 lattice campaign, alongside
+T_c/√σ, F_π/√σ, w·√σ, and the three-source ground-state geometry.
+
+**Standing after all three stabilizer candidates:** junction-core (a) retired;
+color rigidity (c) retired; **quantum zero-point (b) survives at estimate grade**
+(`scripts/koide_ring_zero_point.py`): the chain carries three stiff internal modes
+against the ring's one, so zero-point energy taxes the chain harder everywhere on
+the flattening path; the restoration threshold is η* = 0.311 in the quantumness
+parameter η = ħ/(d·√(m_face·q̃²)), and constituent-scale face masses
+(0.5–2)·√σ give η = 0.35–0.70 — above threshold. Fences: harmonic-adiabatic
+estimate, semiclassics itself O(1)-marginal at η ≈ 0.5, the face-mass
+identification open (m_face ≳ 3·√σ falls back below threshold). The survivor's
+record lives in the working log; this ledger holds the two deaths.
+
+### The exotic-fluid bounce branch — CLOSED: no native component exists (2026-07-26)
+
+**What it needed:** for a bounce with the metric description intact, a component X
+with Σρ = 0 and Σp < 0 at the turning point — negative energy density at crunch
+scale with a sufficiently stiff equation of state.
+
+**Why it closes (`scripts/bounce_m5_exotic_fluid.py`):** every recorded corner that
+could carry negative energy density fails on one of three grounds. **(i) Measured
+sign:** a negative component scaling exactly like a positive one has a ratio frozen
+for all time, so a future crossing requires that sector net-negative *today* —
+excluded for radiation-like scaling (N_eff ≈ 3) and geometrically impossible against
+shear (σ² ≥ 0); the conformal Casimir energy of the compact direction additionally
+sits 10¹¹⁶–10¹²⁰ below today's radiation. **(ii) Budget:** the ghost-condensate
+transient is 10¹⁹–10³² under the handover requirement (recorded), and
+quantum-curvature terms (~N·H⁴) fall ~10⁹⁵ short everywhere the metric description
+holds. **(iii) Nonexistence:** the medium's quartic self-interaction is repulsive
+(λ > 0 — the same sign that gives the finite density floor), no recorded channel
+turns the interaction energy negative at crunch density, and the bare vacuum's only
+zero-crossing is the low-density turnaround, with w = −1 there.
+
+**Consequence:** a crunch with the metric description intact has no turning point in
+the recorded theory — exhaustively priced at the fluid level, not asserted. The
+bounce, if real, requires the exit from the metric description, which carries the
+reconstruction's two assumed matching rules and the achronal re-entry condition.
+The one adjacent unwritten alternative is a modification of the Friedmann
+constraint itself (bounded-density class, −ρ²/ρ_c); it is not a fluid, and no
+derivation of it from the medium exists in the corpus — named as open, not supplied.
+
+### Cosmic polarity reversal / dark diamagnetism as the turn — RETIRED by class (2026-07-27)
+
+**What it proposed:** that the universe reverses magnetic polarity the way Earth and
+the Sun periodically do, and the reversal flips the expansion into contraction;
+companion question — dark-sector diamagnetism as the coupling.
+
+**Why it died (`scripts/bounce_magnetic_flip_nogo.py`, exact class statements):**
+(i) gravity couples to the field's stress-energy, which is *quadratic* in B —
+T_μν(−B) = T_μν(B) identically, so a universal polarity reversal is gravitationally
+invisible, term by term; Earth's and the Sun's reversals redistribute field energy
+without changing it. (ii) Magnetic energy satisfies ρ + p ≥ 0 along every principal
+axis (saturating only along the field direction), and a diamagnetic response stores
+*positive* energy — expelling a field costs energy; it does not mint the negative
+energy a turn requires. (iii) Flux freezing gives ρ_B ∝ a⁻⁴, the same scaling as
+radiation, so the measured ratio is frozen at every epoch (the frozen-ratio anchor):
+≤ 10⁻⁶ of the radiation bath at the CMB comoving cap, ~10⁻²⁰ at the void floor —
+cosmic magnetism can never even dominate, let alone reverse anything.
+
+**What survives (both threads are real):** the reversal instinct is the recorded
+cyclic grammar seen from outside — rotation is dynamical and may reset across
+cycles, with the helicity sign set per cycle at genesis (the rotation-machine
+registration P-2026-028). The flip is something the bounce *writes*, not what
+causes it. The diamagnetism instinct corresponds to the medium's superfluid
+response to rotation (rotation expulsion, London-class physics — the Fairbank
+thread): genuine bookkeeping for how rotation carries or resets across the bounce
+interval; NEC-nonnegative, so never a turn term.
+
+### The bounded-density constraint modification — CLOSED as non-native (2026-07-27)
+
+**What it was:** the last adjacent lane after the exotic-fluid close — the Friedmann
+constraint acquiring a −ρ²/ρ_ceiling correction so a crunch with the metric
+description intact could turn.
+
+**Why it closes (`scripts/bounce_m8_ledger_quartic.py`):** chased at its native
+source — the expansion-energy ledger with the quartic interaction energy in the
+books. (A) Interaction energy enters the shell's inertia and its gravitational
+source identically, so the zero-energy condition returns H² = (8πG/3)ρ_tot with its
+form unchanged, exactly. (B) The quartic only steepens the contracting history:
+ρ + p > 0 at every density, 1+w running 1.00 → 1.89 into the ceiling, H² monotone —
+no zero crossing. (C) The medium's discreteness analog — the quasiparticle
+dispersion correction ∝ k⁴ξ² — vanishes identically for homogeneous cosmology and
+activates only at coherence-length gradients, which is the metric exit itself.
+
+**Consequence:** the constraint lane and the metric exit are the same lane. The
+metric-on turn is closed at both the fluid level and the constraint level; a
+bounded-density bounce law survives only as unrecorded new physics, the same
+status as any unnamed operator.
 
 ### P-2026-052 (the ν-recoupling corridor; registered as 049, ID corrected same day) — RETRACTED same-day: wrong channel (2026-07-18)
 
