@@ -1937,3 +1937,27 @@ campaign: a Y-shaped three-source ground state found WITH a heavy adjoint spectr
 would break the zero-point account (demand another stabilizer); a collinear ground
 state kills the ring premise directly. Nothing promoted; the fork stays open with
 its referee now named.
+
+## THE NULL REDUCED TO A STIFFNESS RELATION — a = 3b (2026-07-27)
+
+`scripts/koide_null_stiffness_reduction.py`, verified to machine precision. Put the √m
+profile on the ring as a fluctuation field frozen at the transition, quadratic theory
+H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²]. Fourier stiffnesses: ε₀ = a (neutral),
+ε± = a + 3b (charged). Sector powers ⟨|f_q|²⟩ = T/ε_q give ρ² = a/(a+3b), and
+
+> **Q = 2/3 ⟺ ε_charged = 2·ε_neutral ⟺ a = 3b (on-site = N × bond, N = 3).**
+
+The modulus follows at once: ρ = 1/√2 ⟹ τ = −ln ρ = ½ln2. Dead ends checked so nobody
+revisits: per-mode democracy gives Q = 1 (the recorded wrong answer); sum-coupling
+gives Q = 3 (wrong direction); pure difference-coupling leaves the neutral mode
+unbound (no thermal ratio — that branch is the separate K1/attenuation reading).
+
+**What this buys and what it does not.** The charge-sector partition assumption is now
+a NAMED microphysical ratio — the object a lock, sum rule, or index must protect. The
+scatter fence stands in full force: an ensemble ratio cannot deliver the observed
+6×10⁻⁶ exactness (the #101 kill); the reduction renames the target, it does not close
+it. **Next bounded computations, named:** (i) compute the on-site/bond stiffness ratio
+the recorded string+log binding actually gives the faces; (ii) check whether a = N·b
+is the statement of a sum rule the medium already obeys — the f-sum rule (protected by
+the same Anderson commutator that quantizes the emergent metric) is the corpus's own
+precedent class for exactly this kind of protected relation.
