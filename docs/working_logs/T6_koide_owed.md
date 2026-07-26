@@ -1961,3 +1961,31 @@ the recorded string+log binding actually gives the faces; (ii) check whether a =
 is the statement of a sum rule the medium already obeys — the f-sum rule (protected by
 the same Anderson commutator that quantizes the emergent metric) is the corpus's own
 precedent class for exactly this kind of protected relation.
+
+## THE TWO NAMED COMPUTATIONS, RUN — (i) negative and localizing, (ii) split with an advance (2026-07-27)
+
+**(i) The geometric proxy fails, bracketing the target**
+(`scripts/koide_ring_ab_from_binding.py`). Under the tempting identification
+δ√m ∝ δr (face mass tracks geometric depth), the recorded binding gives the sector
+stiffness ratio 0 at the classical layer (the shape pair is flat) and ∞ at the
+quantum-stabilized layer (the effective potential is a u^{3/2} cusp — divergent
+curvature at the ring point). The target is 2; the proxy brackets it without ever
+producing it. **Conclusion: a = 3b does not live in ring geometry. It must live in
+the mass-generation (kernel/hop) dynamics — the K1 screened-correlator sector.**
+
+**(ii) The sum-rule class protects the neutral seat — and only that**
+(`scripts/koide_null_sum_rule_check.py`, exact on the three-site ring). The first
+moment m₁(0) vanishes identically: the neutral mode is a CONSERVED quantity (total
+density commutes with any hopping Hamiltonian). That is conservation-law protection
+in exactly the aisle #101 demanded — and it **dissolves the scatter objection for
+the neutral half: f₀ does not scatter because it does not fluctuate; it is
+genesis-set, condensate-class.** What the sum rule does NOT do: fix the stiffness
+ratio — the on-site term moves ε₀ freely while every moment identity holds, so
+a = 3b is not itself a sum rule.
+
+**Desk state of the null after both:** the target is now ONE lock in ONE sector —
+the dynamics that pin the charged-mode power to f₀²/2 in the kernel/hop sector at
+freeze. The neutral half is conservation-protected; the geometric route is closed;
+the scatter objection now applies only to the charged half. Noted without weight:
+a = 3b ⟺ ω_charged/ω_neutral = √2, the cone radius A re-appearing as a frequency
+ratio. Task #1 carries this state.
