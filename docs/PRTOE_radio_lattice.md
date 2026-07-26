@@ -3,10 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 12. Status: STRUCTURAL with two REGISTERED predictions riding it (P-2026-022, P-2026-027)
-and one candidate (P-029). The improvement: radio cosmology gains a CORRELATED, RATIO-LOCKED
-multi-band fingerprint that no other varying-physics model provides — the sharpest distinctive
-prong the review has graded.*
+*Thread 12. Two registered predictions ride it (P-2026-022, P-2026-027) and one open candidate
+(P-029). Radio cosmology gains a correlated, ratio-locked multi-band fingerprint that no other
+varying-physics model provides.*
 
 ## 0. The structure
 

@@ -190,9 +190,9 @@ three things of its host, and the basement supplies all three:
 The arithmetic is self-contained — measured m_H, the shared k, the derived 3/2, reproducing
 1576 GeV against 4πm_H = 1574 at +0.14%. Putting the gap equation in this vacuum makes the
 hierarchy answer and the gravity answer one statement: **the same fermionic floor that induces
-G pairs at kα_c, and the electroweak scale is that pairing's gap.** Grade: **structural** — the
-three requirements met, two from recorded structure and the third by the channel argument of
-§6b, with the residual now a computation inside the basement rather than a missing object.
+G pairs at kα_c, and the electroweak scale is that pairing's gap.** The three requirements are met,
+two from recorded structure and the third by the channel argument of §6b, with the residual now a
+computation inside the basement rather than a missing object.
 
 ### 6a. What the basement demands of the kernel
 

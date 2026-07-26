@@ -325,13 +325,12 @@ not the argument against the white hole; it is the reason genesis happened inste
 white hole persisting.
 
 This reading is held with conviction; the
-books hold it at GRAMMAR + EXPLORATORY — a causal-structure reading whose every physical
-piece is separately recorded (the fountain, the roll-up, the snap, the relaxation cascade,
-the two-reservoir split) and whose falsifiable content routes entirely through the THERMAL
-PROGRAM: the ceiling (the deposit's opening magnitude), the growth-ramp BBN re-price, the
-fossil-sound/isocurvature lane, the single-source boundary condition. The story earns its
-grade upgrade if and when the program's computations land it — not before, however right it
-feels, and it feels right.
+books hold it as a causal-structure reading whose every physical piece is separately recorded
+(the fountain, the roll-up, the snap, the relaxation cascade, the two-reservoir split) and whose
+falsifiable content routes entirely through the thermal program: the ceiling (the deposit's
+opening magnitude), the growth-ramp BBN re-price, the fossil-sound/isocurvature lane, the
+single-source boundary condition. The story earns its weight if and when the program's
+computations land it — not before, however right it feels, and it feels right.
 
 **The egg that opened the clock:** the
 standard objection — "a white hole needs a reversal of time" — presumes time is already

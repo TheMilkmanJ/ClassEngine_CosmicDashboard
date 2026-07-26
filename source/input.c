@@ -2364,15 +2364,24 @@ int input_read_parameters_general(struct file_content * pfc,
     class_read_double("varying_z_high",pba->varconst_z_high);
     class_test((pba->varconst_z_high > 0.) && (pba->varconst_z_high <= pba->varconst_transition_redshift),
                errmsg, "varying_z_high must exceed varying_transition_redshift (the dyad window is transition < z < z_high).");
+    /* Optional density gate without dyad link (default off = legacy z-window). */
+    class_call(parser_read_string(pfc,"varconst_density_gate",&string1,&flag1,errmsg),errmsg,errmsg);
+    if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
+      pba->varconst_density_gate = _TRUE_;
+    }
+    class_read_double("varconst_C_ref",pba->varconst_C_ref);
+    class_read_double("varconst_gate_n",pba->varconst_gate_n);
     break;
   }
 
   /* --- PRTOE dyad link (R1): m_e is a CONSEQUENCE of the dark sector, not a free
-   * knob. When dcdf_dyad_link=yes, m_e is DERIVED from the #11 amplitude relation
-   * eps = c * f_amp * (Psi0 / M_red), so varying_me = 1 + eps is computed rather
-   * than read. This structurally enforces the dyad (the audit found m_e and the
-   * dcdf fluid were independent in the code). Defaults reproduce the derived
-   * +1.232% shift; off by default so existing configs are unaffected. */
+   * knob. When dcdf_dyad_link=yes:
+   *   (1) eps is DERIVED from the #11 amplitude stack
+   *         eps = c * f_amp * (Psi0 / M_red)  →  varying_me = 1 + eps
+   *   (2) the environmental switch uses the survival-form density gate
+   *         S = exp(-(max(Δ,0)/C_ref)^n)  (me_mechanism_math THE GATE)
+   *       so screening is density/structure-dependent, not a pure redshift step.
+   * Off by default so existing configs are unaffected. */
   class_call(parser_read_string(pfc,"dcdf_dyad_link",&string1,&flag1,errmsg),errmsg,errmsg);
   if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
     double dyad_c = 0.9, dyad_f_amp = 0.63661977, dyad_Psi0 = 5.33073e16, dyad_Mred = 2.435e18, dyad_eps; /* def541 derived stack: (9/10)*(2/pi)*3alpha -> eps = 1.2543% (P-040/P-041; freeze-gate def539) */
@@ -2382,14 +2391,42 @@ int input_read_parameters_general(struct file_content * pfc,
     dyad_eps = dyad_c * dyad_f_amp * dyad_Psi0 / dyad_Mred;
     pba->varconst_dep = varconst_instant;
     pba->varconst_me = 1.0 + dyad_eps;
+    pba->dyad_link = _TRUE_;
+    pba->dyad_c = dyad_c;
+    pba->dyad_f_amp = dyad_f_amp;
+    pba->dyad_Psi0_GeV = dyad_Psi0;
+    pba->dyad_eps = dyad_eps;
+    /* Model path: density-dependent Theta saturation, not pure-z screening.
+     * Allow explicit override varconst_density_gate=no to recover the legacy window. */
+    class_call(parser_read_string(pfc,"varconst_density_gate",&string1,&flag1,errmsg),errmsg,errmsg);
+    if (flag1 == _TRUE_ && (strstr(string1,"n") != NULL || strstr(string1,"N") != NULL
+                            || strstr(string1,"false") != NULL || strstr(string1,"False") != NULL)) {
+      pba->varconst_density_gate = _FALSE_;
+    }
+    else {
+      pba->varconst_density_gate = _TRUE_;
+    }
+    class_read_double("varconst_C_ref",pba->varconst_C_ref);
+    class_read_double("varconst_gate_n",pba->varconst_gate_n);
+    class_read_double("varying_transition_redshift",pba->varconst_transition_redshift);
+    class_read_double("varying_z_high",pba->varconst_z_high);
+    class_read_double("varying_alpha",pba->varconst_alpha);
+    class_test(pba->varconst_C_ref <= 0., errmsg, "varconst_C_ref must be > 0 (gate reference overdensity).");
+    class_test(pba->varconst_gate_n <= 0., errmsg, "varconst_gate_n must be > 0 (survival-form exponent; model requires n > 2.43).");
     if (pba->background_verbose > 0)
-      printf(" -> PRTOE dyad link ON: m_e DERIVED from amplitude (c=%g, f_amp=%g, Psi0=%g GeV) -> varying_me = %.6f\n",
-             dyad_c, dyad_f_amp, dyad_Psi0, pba->varconst_me);
+      printf(" -> PRTOE dyad link ON: m_e DERIVED from amplitude (c=%g, f_amp=%g, Psi0=%g GeV) -> varying_me = %.6f; density_gate=%s (C_ref=%g, n=%g)\n",
+             dyad_c, dyad_f_amp, dyad_Psi0, pba->varconst_me,
+             (pba->varconst_density_gate==_TRUE_ ? "yes" : "no"),
+             pba->varconst_C_ref, pba->varconst_gate_n);
   }
 
   if (pba->varconst_dep!=varconst_none){
     /* 10.b) Sensitivity of bbn to a variation of the fine structure constant */
     class_read_double("bbn_alpha_sensitivity",pth->bbn_alpha_sensitivity);
+    if (pba->varconst_density_gate == _TRUE_) {
+      class_test(pba->varconst_C_ref <= 0., errmsg, "varconst_C_ref must be > 0 when varconst_density_gate is on.");
+      class_test(pba->varconst_gate_n <= 0., errmsg, "varconst_gate_n must be > 0 when varconst_density_gate is on.");
+    }
   }
 
   return _SUCCESS_;
@@ -5998,6 +6035,16 @@ int input_default_params(struct background *pba,
   pba->varconst_transition_redshift = 50.;
   pba->varconst_z_high = 0.; /* dyad high-z window off by default (backward compat) */
   pba->varconst_transition_width = 0.; /* ramped edges off by default (backward compat) */
+  pba->varconst_density_gate = _FALSE_; /* legacy pure-z window unless dyad link / explicit on */
+  pba->varconst_C_ref = 2.0;            /* fence-window central value (candle/gate scripts) */
+  pba->varconst_gate_n = 4.0;           /* > 2.43 forced sharpness; near-step */
+  pba->dyad_link = _FALSE_;
+  pba->dyad_c = 0.9;
+  pba->dyad_f_amp = 0.63661977;
+  pba->dyad_Psi0_GeV = 5.33073e16;
+  pba->dyad_eps = 0.;
+  pba->varconst_D_trans = 0.;
+  pba->varconst_bg_table_ready = _FALSE_;
 
   /**
    * Default to input_read_parameters_species

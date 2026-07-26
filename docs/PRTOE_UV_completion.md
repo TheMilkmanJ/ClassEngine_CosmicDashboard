@@ -12,7 +12,7 @@
 *Home for the Ψ-identity question: committing to what Ψ IS fundamentally. Steps 1–9 are the
 2026-07-08 climb.*
 
-## The target — CLOSED for c, OPEN for ξ
+## The target — closed for c, open for ξ
 
 **c is derived; it is not a free parameter and it never needed the UV completion.** The standing
 coupling is

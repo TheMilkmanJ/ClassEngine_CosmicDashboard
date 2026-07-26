@@ -5,9 +5,9 @@
 
 *Special relativity is the model's deepest replacement claim: fundamental Lorentz symmetry
 becomes emergent, the infrared symmetry of the medium — and with it the whole exposure that
-rides on the medium being real. Stated here at its graded sizes. Status: STRUCTURAL. Companion: [PRTOE_inertia.md](PRTOE_inertia.md) — the
-dynamical half (zero drag below the cone; this file answers the kinematic objection, that one
-pays the drag objection).*
+rides on the medium being real. Companion: [PRTOE_inertia.md](PRTOE_inertia.md) — the dynamical half
+(zero drag below the cone; this file answers the kinematic objection, that one pays the drag
+objection).*
 
 ## 0. What SR is, in this model
 

@@ -1,12 +1,11 @@
-# Entropy in PRTOE — one page, four statements, four grades (2026-07-18)
+# Entropy in PRTOE — one page, four statements (2026-07-18)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-> **STATUS: a consolidation, not a new result.** The model makes four separate entropy
-> statements that lived in four different files with no single home. This page states each
-> one, grades it, and points to where its derivation actually lives. Nothing here is derived
-> for the first time; the only claim the page itself makes is that these four are the whole
-> list.
+> A consolidation, not a new result. The model makes four separate entropy statements that lived
+> in four different files with no single home. This page states each one and points to where its
+> derivation lives. Nothing here is derived for the first time; the only claim the page itself
+> makes is that these four are the whole list.
 
 ## 1. The beginning's entropy — why it was low
 
@@ -28,8 +27,8 @@ count. Evaluated today with the recorded healing length: ~10³⁶ k_B, subdomina
 black-hole budget by ~70 orders. **The functional supplies the theorem and the mechanism, not
 the entropy budget.**
 
-**Grade:** the uniqueness step is now a theorem; the numerical budget was never this
-functional's job. Home: [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md).
+The uniqueness step is a theorem; the numerical budget was never this functional's job. Home:
+[PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md).
 
 ## 2. The medium's own split — zero-entropy ground state, entropic excitations
 
@@ -39,8 +38,7 @@ excitations carry all of it (light, matter, observers, and the arrow they experi
 why the dark-energy sector has no thermal history and the dark-matter sector has all of one:
 they are two components of one fluid, not two substances.
 
-**Grade:** structural, inherited from two-fluid hydrodynamics. Home:
-[PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §10.
+Inherited from two-fluid hydrodynamics. Home: [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §10.
 
 ## 3. Horizon entropy — located, and its coefficient adopted
 
@@ -64,11 +62,12 @@ by one factor and cancels in the ratio — the quarter is regulator-**independen
 debt is not this O(1) but the roster: the coefficients 12π and 48π are the minimally coupled
 scalar's, and for spin and non-minimal coupling the two divergences are no longer one term.
 
-**Grade:** located by the model, scaling derived, coefficient derived for minimally coupled content
-(the regulator's entanglement-side check paid structurally; the field-content extension open) — the
-same structure gates the Page curve
-([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), which it now unblocks rather than
-delivers: the phonon-Hawking-flux computation is a separate object. Homes: [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
+Located by the model, with the scaling derived and the coefficient derived for minimally coupled
+content (the regulator's entanglement-side check is structural; the field-content extension is
+open). The same structure gates the Page curve
+([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), which it unblocks rather than
+delivers: the phonon-Hawking-flux computation is a separate object. Homes:
+[PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md).
 
 ## 4. The gas entropy floor — what the screening transition deposits
@@ -103,7 +102,7 @@ suppression. It cannot be — at ordinary speeds it is too small, and the wall r
 would make it large enough is excluded by an order of magnitude. S₈ delivery rests on the
 pre-registered rotation-shed parameter instead ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).
 
-**Grade:** priced; the front's treatment at high relative velocity is owed.
+Priced; the front's treatment at high relative velocity is still owed.
 
 ## 5. What the model does NOT claim about entropy
 

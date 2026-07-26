@@ -1,6 +1,6 @@
 # A well-posed gap in the two-color lattice literature: T_c/√σ for SU(2) with N_f = 3 light fundamental flavours
 
-**STATUS: APPROVED FOR CIRCULATION (owner, 2026-07-18).**
+*Approved for circulation (owner, 2026-07-18).*
 
 ## The computation
 

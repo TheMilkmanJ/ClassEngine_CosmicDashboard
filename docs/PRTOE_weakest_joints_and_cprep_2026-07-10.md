@@ -41,7 +41,7 @@ break leptophilia).
 Needs a NEW falsifiable consequence beyond the whisper to earn credit (the working docket).
 
 **J7 — DM abundance magnitude (η_B ~ 6×10⁻¹⁰). [ORANGE]**
-Post-fragmentation the Q-ball charge IS the DM; the magnitude is [OBJECT-PENDING]. **Shore:** the
+Post-fragmentation the Q-ball charge IS the DM; the magnitude is still open. **Shore:** the
 leptogenesis magnitude calc (ties to J5/P-020).
 
 **TOP-3 make-or-break: J1 (DE value), J2 (gate-0 clearance), J3 (DESI w=−1).**

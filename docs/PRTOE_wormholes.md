@@ -3,17 +3,14 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Wormholes, warp drives, and closed timelike curves graded in the model's own grammar.
-Impossibility claims are claims: each is labeled with its grade, cites the record it
-inherits (nothing here is claimed as novel where the literature owns it), and names its
-killer. Statuses: [GRAMMAR] = the model's native re-derivation of a known result;
-[PRICED] = quantitative, reusing a recorded computed number (estimate-grade, not
-MCMC-verified). Companion: [PRTOE_white_holes.md](PRTOE_white_holes.md) (the arrow ban and
-the one exception). Sources in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.*
+*Wormholes, warp drives, and closed timelike curves in the model's own terms. Impossibility
+claims are claims: each cites the record it inherits (nothing here is claimed as novel where the
+literature owns it) and names its killer. Companion: [PRTOE_white_holes.md](PRTOE_white_holes.md)
+(the arrow ban and the one exception). Sources in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) §11.*
 
 ---
 
-## 1. Traversable wormholes — FORBIDDEN BY SOLVENCY, PRICED [GRAMMAR + PRICED]
+## 1. Traversable wormholes — forbidden by solvency
 
 The record: a traversable throat requires exotic matter — sustained null-energy-condition
 violation [MorrisThorne1988] — and quantum inequalities squeeze how much negative energy
@@ -37,10 +34,10 @@ the ghost condensate, the arrow-giver (⟨θ̇⟩ ≠ 0 background [ArkaniHamed2
 excitation budget at the anchor surface was computed in the branch-DOS pass: **17 orders
 of magnitude suppressed**. So the model's wormhole statement is sharper than the generic
 one: *the only exotic matter this universe stocks is delivered at ~10⁻¹⁷ of any
-engineering need.* The hardware store exists and it is empty. [PRICED — reuses the recorded
-branch-DOS number; estimate-grade.]
+engineering need.* The hardware store exists and it is empty. (The 17-order figure reuses the
+recorded branch-DOS number.)
 
-## 2. Warp drives and closed timelike curves — SAME COSTS [GRAMMAR]
+## 2. Warp drives and closed timelike curves — same costs
 
 The Alcubierre bubble [Alcubierre1994] faces the same NEC requirement as the wormhole throat and
 meets the same empty shelf (§1's 17 orders). Closed timelike curves get the model's **strongest

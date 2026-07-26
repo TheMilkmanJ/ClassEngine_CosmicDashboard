@@ -3,12 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: THE INTEGRAL IS RUN, AT ESTIMATE GRADE — the residual is the rectifier.** The frame's
-> one true calculation was carried out on 2026-07-19 and the verdict sits AT the pre-committed
-> boundary; what it did not settle is the rectification object, which now carries four consumers.
-> Full record: [working_logs/the_transfer_integral_spec.md](working_logs/the_transfer_integral_spec.md).
-> Un-refereed portions from the review-hold are marked. The recorded deaths and the derived
-> form are production-grade recorded items.
+> The frame's one true calculation was carried out on 2026-07-19 and the verdict sits at the
+> pre-committed boundary; what it did not settle is the rectification object, which now carries
+> four consumers. Full record:
+> [working_logs/the_transfer_integral_spec.md](working_logs/the_transfer_integral_spec.md).
+> Un-refereed portions from the review-hold are marked.
 
 ## 0. The problem
 The universe holds ~6×10⁻¹⁰ baryons per photon and essentially no antimatter. The

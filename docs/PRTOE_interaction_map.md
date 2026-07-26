@@ -3,11 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The scale-ladder insight: the medium's expansion-side interactions are
-SCREENED in local regimes, but no screen in this model is an absolute zero — so the medium is
-threaded into every scale, and the map of the threading = the QUANTUM section (which
-interactions exist) × the SCREENING section (how much survives each rung). Status: STRUCTURAL
-(candidate); companion to the recorded INTERACTION_ATLAS.*
+*The scale-ladder insight: the medium's expansion-side interactions are screened in local regimes,
+but no screen in this model is an absolute zero — so the medium is threaded into every scale, and
+the map of the threading is the quantum section (which interactions exist) times the screening
+section (how much survives each rung). Companion to the interaction atlas.*
 
 ## 0. The two axes
 

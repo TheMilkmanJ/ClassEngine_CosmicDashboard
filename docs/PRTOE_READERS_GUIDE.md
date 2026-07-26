@@ -55,7 +55,7 @@ term, and gives the reading order.*
 | the error log | the log of caught errors (public, in the failures ledger) |
 | the §12 wall | the corpus's hard scope boundary: the interpretation layer makes NO claims about mind, consciousness, or observers — measurement is decoherence/einselection and nothing more. Named for a section number in an early draft; the number outlived the draft, the boundary is the content |
 | the killer / the kill | the named observation that falsifies a specific claim |
-| estimated / [EST] / [CAND] | labeled estimate grades: computed lightly, not yet verified by the full chain — statuses always marked |
+| estimate / open item | computed lightly or not yet verified by the full chain — said in plain prose, not as a grade tag |
 
 ## 2b. The symbol table — one symbol, one meaning
 

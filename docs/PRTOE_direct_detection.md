@@ -3,10 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 9. Status: STRUCTURAL — the nulls are FORCED by graded results, not chosen. The
-improvement: WIMP-era cosmology treats forty years of detector silence as bad luck in a
-parameter scan; this model PREDICTS the silence, from theorems, across every channel at once —
-and stakes its life on the silence continuing.*
+*Thread 9. The nulls are forced by the model's structure, not chosen. WIMP-era cosmology treats
+forty years of detector silence as bad luck in a parameter scan; this model predicts the silence,
+from theorems, across every channel at once — and stakes its life on the silence continuing.*
 
 ## 0. The landscape
 

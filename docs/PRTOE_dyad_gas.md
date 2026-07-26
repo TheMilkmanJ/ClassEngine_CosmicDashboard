@@ -3,15 +3,15 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: identity file. Grades inline: **[ESTABLISHED]** · **[CANDIDATE]** ·
-**[KILLED]**. Quantitative derivation lives in [PRTOE_me_trigger.md](PRTOE_me_trigger.md) /
-[PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md); this file is the WHAT-IT-IS. It is one
-of THREE dark fields — the dCDF superfluid
-([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)), this field, and the Majoron (§2).*
+*Identity file for the dyad. Quantitative derivation lives in
+[PRTOE_me_trigger.md](PRTOE_me_trigger.md) /
+[PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md); this file is what it is. It is one of
+three dark fields — the dCDF superfluid ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)),
+this field, and the Majoron (§2).*
 
 ---
 
-## 1. What it is [ESTABLISHED]
+## 1. What it is
 
 Field 2 of the dark sector: a **charge-free field that couples to the electron**. It is a
 high-scale pseudo-Goldstone — decay constant **f ≈ 100–500 TeV** (a named input), coupling
@@ -35,7 +35,7 @@ the dCDF superfluid — the hot/thermal/lepton-binding side against the cold/chi
 The dyad is a field that condenses, not literally a classical gas; the label tracks the role, not
 the phase.)*
 
-## 2. Leptophilic — and what carries the leptophilia [ESTABLISHED by data; the symmetry route does not carry it]
+## 2. Leptophilic — and what carries the leptophilia
 
 The dyad lives in the lepton sector and couples to **leptons, not hadrons**. What forces that is
 **data, not the broken symmetry**: a universal quark-mass shift at ε would move the deuterium
@@ -72,7 +72,7 @@ corner it sits at — TeV-class or MeV — is open, and CMB-S4 is the selector. 
 [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md),
 [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).)
 
-## 3. What it does to hydrogen: varying-m_e [ESTABLISHED mechanism, UNDER TEST]
+## 3. What it does to hydrogen: varying-m_e
 
 Inside its window it shifts the electron mass by **ε = 1.2543%** (= c·f̄·α_c = 27α/5π). A heavier
 electron → **deeper atomic binding** → hydrogen recombines **earlier/hotter** → smaller sound
@@ -82,7 +82,7 @@ Laplace estimate — nested sampling waits for cluster time, so the number has n
 prospect and rests on the MCMC chains it is computed from). (Full: [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md),
 [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).)
 
-## 4. Complementarity with the superfluid [CANDIDATE]
+## 4. Complementarity with the superfluid
 
 Whatever charge the superfluid carries, the gas carries the other:
 
@@ -100,7 +100,7 @@ established (dCDF = chiral abundance-carrier; dyad = leptophilic electron-couple
 ## Where the dead ends live
 
 The lepton/hadron varying-constant hierarchy (P-2026-011 — leptons shifting ~13× more than
-hadrons) is **[KILLED]** and lives in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under
+hadrons) is retired and lives in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under
 **"Retracted predictions"**. The scope of the surviving universality, stated precisely: the
 coupling is **multiplicative-universal *within* the lepton sector** (no flavour structure — the
 Koide protection) and **exactly leptophilic *across* sectors** — forced by **data**: a universal

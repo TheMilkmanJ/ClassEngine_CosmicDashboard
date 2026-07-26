@@ -3,17 +3,16 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: identity file. Grades are inline: **[ESTABLISHED]** derived/coded and load-bearing · **[CANDIDATE]**
-coherent synthesis, unbanked · **[KILLED]** tried and dead. The quantitative derivations live in
+*Identity file for the dCDF. Quantitative derivations live in
 [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
-[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md); this file is the WHAT-IT-IS, not the
-derivation. It is one of THREE dark fields — the others are the dyad
+[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md); this file is what it is, not the
+derivation. It is one of three dark fields — the others are the dyad
 ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) and the Majoron, which the one-scale corner's tie-death
 keeps distinct from it.*
 
 ---
 
-## 1. What it is [ESTABLISHED]
+## 1. What it is
 
 Field 1 of the two-field dark sector: a cosmological **superfluid** that unifies dark matter and
 dark energy. Ultralight quantum **m ≈ 2.24×10⁻²⁰ eV** (the onset clock — effectively massless on
@@ -21,7 +20,7 @@ any laboratory scale). Ground state **w = −1 exactly** (the de Sitter floor, P
 excitations are radiation-like above the H = m onset (z ≈ 4×10⁷) and dust-like below — **one
 fluid, two eras**.
 
-## 2. Its structure: an s-wave-binding, baryon-free condensate [CANDIDATE]
+## 2. Its structure: an s-wave-binding, baryon-free condensate
 
 **The binding channel is s-wave, and the data selects it.** E_b is a Coulombic two-body level
 (E_n = ½α_c²M₂/n², partial wave ℓ requiring n ≥ ℓ+1), so the channel picks the level: the s-wave
@@ -36,8 +35,8 @@ the channel the data selects. The finiteness balance independently selects a dar
 whose pseudo-real fundamental makes its baryons **bosonic diquarks** — no fermionic hard core
 exists, the lightest baryon is the **scalar** diquark, and two-color QCD is the canonical
 diquark-BEC realization of the BCS–BEC crossover the occupancy argument requires
-([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), P-2026-048; candidate
-grade, one uncomputed lattice number decides it).
+([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), P-2026-048; one
+uncomputed lattice number decides it).
 
 **What this identity does NOT source.** Two claims once rested here and rest elsewhere:
 - **The chirality** — parity-odd signatures (GW handedness, IGMF helicity, LSS parity, the AD
@@ -53,9 +52,9 @@ grade, one uncomputed lattice number decides it).
 
 *(The retired "He-3-A class / p-wave L" reading of this section — which sourced both of the above
 from node topology — is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Literal
-He-3-as-medium is **[KILLED]** there on four independent shots.)*
+He-3-as-medium is retired there on four independent shots.)*
 
-## 3. Its charge: abundance + asymmetry [CANDIDATE]
+## 3. Its charge: abundance + asymmetry
 
 Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abundance"). The genesis
 draw is **a candidate source of the matter asymmetry** (why the hot baryonic pour contains matter at
@@ -72,7 +71,7 @@ strength. So the sector cannot name which handedness means matter *a priori*. Wh
 **correlation** turns on the first-roll theorem run for its sign, which needs one draw carrying both
 the winding and the rotation — an instrument the corpus does not yet have (#154).
 
-## 4. Its light [ESTABLISHED]
+## 4. Its light
 
 Light is the dCDF's **massless Goldstone mode** (the transverse collective mode of the
 condensate). *This identification carries a second load as of 2026-07-19: it is what makes α the

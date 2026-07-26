@@ -3,9 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Derivation-from-recorded-structure; the standalone document for P-2026-028. Status: STRUCTURAL
-(candidate) with one honestly-open gap (the void floor). The claim of uniqueness
-is stated precisely in §5 — the mechanism class is standard; the SOURCE and the SIGN are not.*
+*Standalone document for P-2026-028, built from recorded structure. One gap remains open (the void
+floor). The claim of uniqueness is stated precisely in §5 — the mechanism class is standard; the
+source and the sign are not.*
 
 ---
 

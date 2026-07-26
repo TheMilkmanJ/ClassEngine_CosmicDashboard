@@ -3,10 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 15's standalone; T9's sibling (underground silence → sky silence). Status: STRUCTURAL —
-the null is FORCED by the conserved dark charge (recorded) and the portal scale.
-The improvement: every DM-annihilation "excess" of the last two decades is PREDICTED
-astrophysical, from theorems — with the same unhedgeable exposure as T9.*
+*Thread 15's standalone; T9's sibling (underground silence → sky silence). The null is forced by
+the conserved dark charge and the portal scale. Every DM-annihilation "excess" of the last two
+decades is predicted astrophysical, from theorems — with the same unhedgeable exposure as T9.*
 
 ## 0. The landscape
 

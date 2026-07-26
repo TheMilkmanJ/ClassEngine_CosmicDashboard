@@ -3,9 +3,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: PRODUCTION-GRADE** (the recorded T4 thread consolidated; the conv_desi chain is
-> refining the posterior now). *Companion: the conversion-channel standalone,
-> [PRTOE_s8_growth.md](PRTOE_s8_growth.md).*
+> The recorded T4 thread, consolidated; the conv_desi chain is refining the posterior now.
+> *Companion: the conversion-channel standalone, [PRTOE_s8_growth.md](PRTOE_s8_growth.md).*
 
 ## 0. The tension
 The CMB predicts more late-time clustering (ΛCDM: S₈ ≈ 0.833) than weak lensing measures

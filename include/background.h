@@ -18,6 +18,10 @@ enum equation_of_state {CLP,EDE};
 /** list of possible parametrizations of the varying fundamental constants */
 
 enum varconst_dependence {varconst_none,varconst_instant};
+/* varconst_instant covers both the legacy pure-redshift window and the PRTOE
+ * density-gate path (varconst_density_gate). The latter is the model path:
+ * eps is set by the dyad amplitude stack and the environmental switch is the
+ * survival-form gate S(Δ) of me_mechanism_math / THE_AMPLITUDE. */
 
 /** list of formats for the vector of background quantities */
 
@@ -119,14 +123,19 @@ struct background
   double phi_prime_ini_scf;/**< \f$ d\phi(t_0)/d\tau \f$: scalar field initial derivative wrt conformal time */
   int scf_parameters_size; /**< size of scf_parameters */
   double varconst_alpha; /**< finestructure constant for varying fundamental constants */
-  double varconst_me; /**< electron mass for varying fundamental constants */
+  double varconst_me; /**< electron mass for varying fundamental constants.
+                           With dcdf_dyad_link=yes this is DERIVED (1+eps) from the
+                           amplitude stack, not a free input. */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
-  double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
+  double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case.
+                              With varconst_density_gate=yes this calibrates the homogeneous
+                              structure proxy: the growth-proxy load equals C_ref at this z. */
   double varconst_transition_width; /**< PRTOE (2026-07-12, the depth law): ramp width of
                               the window edges in ln(1+z). 0 (default) = the original
                               instantaneous steps (backward compatible); > 0 = both edges
                               become tanh ramps — the banked screening-edge fade (z~30-60)
-                              and the T_c condensation onset, at global-average level. */
+                              and the T_c condensation onset, at global-average level.
+                              Used only when varconst_density_gate is off. */
   double varconst_z_high; /**< PRTOE dyad HIGH-z window edge (2026-07-10): above this
                               redshift the constants return to STANDARD -- the dyad
                               condensate is thermally DISORDERED above its T_c (electron-CW
@@ -135,6 +144,28 @@ struct background
                               docs/PRTOE_me_mechanism_math.md + ForClaude t214). The dyad
                               window is varconst_transition_redshift < z < varconst_z_high.
                               <=0 disables (default): plain varconst_instant step exactly. */
+
+  /* PRTOE density-dependent Theta / gate screening (2026-07-23).
+   * Model: m_e(x) = m_e^lab * [1 + eps * f_growth(z) * S(x)], with
+   *   S = exp(-(max(Δ,0)/C_ref)^n)   (survival form; me_mechanism_math THE GATE)
+   * Δ is a local matter overdensity (voids: Δ≤0 → S=1 bare; clusters: Δ≫C_ref → S=0 lab).
+   * Homogeneous FRW has no local Δ, so the background path uses a structure proxy
+   * Δ_proxy(z) = C_ref * (1+z_trans)/(1+z)  (matter-era growth D∝a, calibrated so the
+   * load equals C_ref at varconst_transition_redshift — the banked z~30–60 fade).
+   * Local environments call background_varconst_of_z_delta(...).
+   * Off by default (legacy pure-redshift window); auto-on with dcdf_dyad_link=yes. */
+  short varconst_density_gate; /**< _TRUE_ = survival-form density gate; _FALSE_ = legacy z-window */
+  double varconst_C_ref;       /**< gate reference load (overdensity units); default 2 (fence window) */
+  double varconst_gate_n;      /**< survival exponent n; must exceed 2.43 (forced sharpness); default 4 */
+  short dyad_link;             /**< _TRUE_ when dcdf_dyad_link derived the amplitude */
+  double dyad_c;               /**< amplitude stack factor c (default 9/10) */
+  double dyad_f_amp;           /**< amplitude stack factor f_amp (default 2/π) */
+  double dyad_Psi0_GeV;        /**< amplitude stack Psi0 in GeV */
+  double dyad_eps;             /**< derived eps = c * f_amp * Psi0 / M_red */
+  /** After background_init: D(z_trans)/D(today) for the density-gate load.
+   *  0 means "not yet available" — of_z falls back to the a^{-1} proxy. */
+  double varconst_D_trans;
+  short varconst_bg_table_ready; /**< _TRUE_ once D is normalized and varc recomputed */
 
   /* ===== PRTOE v4 -- dCDF: single dark fluid unifying CDM+DE =====
    * See docs/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
@@ -500,6 +531,26 @@ extern "C" {
                                double* alpha,
                                double* me
                                );
+
+  /**
+   * Local-environment varying constants: same as background_varconst_of_z but
+   * with an explicit matter overdensity delta = rho_m/rho_mean - 1.
+   * Voids (delta ≤ 0) keep the bare value; overdense structure screens to lab.
+   * When varconst_density_gate is off this ignores delta and matches of_z.
+   */
+  int background_varconst_of_z_delta(
+                                     struct background* pba,
+                                     double z,
+                                     double delta,
+                                     double* alpha,
+                                     double* me
+                                     );
+
+  /** Survival-form gate S(load) = exp(-(max(load,0)/C_ref)^n). Returns 1 if gate off. */
+  double background_varconst_gate_S(
+                                    struct background* pba,
+                                    double load
+                                    );
 
   int background_init(
                       struct precision *ppr,

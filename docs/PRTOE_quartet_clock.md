@@ -3,13 +3,12 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS (2026-07-19): the UNIT question is RESOLVED — the oscillating unit is the PAIR,
-> derived (§4a: the recorded repulsive λ forbids quartet binding; the Z4 term locks phases,
-> not composites). The §1 three-way lineup stands as the dated record only — its marks were
-> retired as grading marks by the two-clock correction (§4b). The live object is §5's
-> registered PAIR call (lineup 7.55 / 7.70 / 7.85), graded against the running zon_disp
-> chain — unconverged (R−1 ≈ 23), no verdict yet.** Found during a hygiene ritual.
-> Conditional on: the roster hypothesis (the composite vacuum) and P-2026-040.
+> As of 2026-07-19 the unit question is resolved: the oscillating unit is the pair, derived
+> (§4a: the recorded repulsive λ forbids quartet binding; the Z4 term locks phases, not composites).
+> The §1 three-way lineup stands as the dated record only — its marks were retired by the two-clock
+> correction (§4b). The live object is §5's registered pair call (lineup 7.55 / 7.70 / 7.85), read
+> against the running zon_disp chain — unconverged (R−1 ≈ 23), no verdict yet. Found during a
+> hygiene ritual. Conditional on: the roster hypothesis (the composite vacuum) and P-2026-040.
 
 ## 0. The question
 

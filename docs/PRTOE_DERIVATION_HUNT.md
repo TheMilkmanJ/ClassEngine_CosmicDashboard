@@ -298,7 +298,7 @@ the dark-energy binding scale only — the dark matter remains the medium's own 
   The original build's detail, for the recorded-model kill it established: The rate check Γ(dark–SM) < H at all T, run on the
   model's own recorded couplings: **(i)** gravity and the census-closed portals pass (Γ/H ≈ 3×10⁻⁷
   even at the pour scale — the standard gravitational escape holds *for those channels*). **(ii) The
-  dyad–electron channel is fatal:** the [ESTABLISHED] electron-CW mechanism needs κm_e² ~ 10⁻² active
+  dyad–electron channel is fatal:** the electron-CW mechanism needs κm_e² ~ 10⁻² active
   in the SM bath to source the T_c = 177.10 keV ramp; that coupling (the post-SSB fluctuation vertex
   g_ee = 2εm_e/v = 0.073 at v ≈ 175 keV — quadratic-canonical, see the fork resolution below) gives
   **Γ/H ~ 10¹⁵–10¹⁹ from BBN to reheating** — full thermal equilibrium.

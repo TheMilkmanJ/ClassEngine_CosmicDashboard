@@ -3,11 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: PHILOSOPHY. Zero NEW physics claims (the fences cite recorded mechanisms only). The model's mechanism needs nothing on this
-> page (definiteness comes from decoherence/envariance; anti-stagnation from the genesis
-> draw). This is a teleological reading, preserved because it completes a
-> symmetry the grammar built — and because a repository this honest can afford one page
-> of why.**
+> A philosophy note — zero new physics claims (the fences cite recorded mechanisms only). The
+> model's mechanism needs nothing on this page (definiteness comes from decoherence/envariance;
+> anti-stagnation from the genesis draw). This is a teleological reading, preserved because it
+> completes a symmetry the model built — and because a repository this honest can afford one page
+> of why.
 
 ## The thesis
 The observer is a forced fundamental: art demands a gallery-goer. Without observers the

@@ -3,11 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 13, and the survey’s capstone: the cross-domain methodology file. Status: STRUCTURAL —
-the lattice's rows are individually recorded/graded; the file consolidates the correlation
-structure that makes them one test. The improvement: multi-messenger cosmology gains something
-it has never had — a SINGLE parameter whose sign and size are pinned in advance across CMB,
-BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedom.*
+*Thread 13, and the survey’s capstone: the cross-domain methodology file. The lattice's rows are
+individually recorded; this file consolidates the correlation structure that makes them one test.
+Multi-messenger cosmology gains a single parameter whose sign and size are pinned in advance across
+CMB, BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedom.*
 
 ## 0. The principle
 

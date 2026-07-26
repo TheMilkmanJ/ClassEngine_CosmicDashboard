@@ -72,7 +72,7 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
       strictly the rule yields δm_ν, not δm_e; broadening "made of" to reach the charged-
       lepton mass **is** the un-derived leptophilia postulate. So the rule **renames** the
       leptophilia gap "substance" — it does not close it. Explicit δm_e coupling from a
-      neutrino-sector medium: **[OBJECT-PENDING], prior unfavorable.**
+      neutrino-sector medium: **open, prior unfavorable.**
     - *Price paid:* **P-2026-012 promoted** from watched-whisper to falsifiable prediction —
       m_ν,lightest = ρ_inf^(1/4) = **2.3 meV** (normal ordering, Σm_ν ~ 61 meV; coarse
       near-term handle via ordering + Σ-scale, not the sub-meV value). **Standing Bet #3

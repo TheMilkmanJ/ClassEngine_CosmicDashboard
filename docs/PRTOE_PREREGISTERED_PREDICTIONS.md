@@ -1476,14 +1476,14 @@ computed θ̇(a). **Version B (P-2026-049) is demoted:** the as-built dCDF *cann
 (it would need a DE-scale-mass slow roller it does not have, plus the deleted coupling).
 Version B survives only as a property of a hypothetical *different* field, not this model.
 
-**Open extension [OBJECT-PENDING, per P1]:** a counter-rotating / two-component **beat**
+**Open extension:** a counter-rotating / two-component **beat**
 (2026-07-09) — two opposite rotations whose fast (~m) windings cancel, leaving a
-slow net Δω that *could* survive the washout — is a *candidate* route NOT present in the
+slow net Δω that *could* survive the washout — is a route NOT present in the
 as-built single-U(1) fluid (which has one phase θ, θ̇=m). It would need Δω ~ H₀ (a DE-scale
 tuning of the mismatch), *exact* cancellation of the fast part (any residual re-washes), and
-the deleted EM coupling reinstated. Tagged **[OBJECT-PENDING]** — not booked either way
-until a two-component θ̇(a) is computed against a written-down two-field Lagrangian. The
-as-built null (above) stands; this is a proposed extension, not a refutation of it.
+the deleted EM coupling reinstated. Not booked either way until a two-component θ̇(a) is computed
+against a written-down two-field Lagrangian. The as-built null (above) stands; this is a proposed
+extension, not a refutation of it.
 
 ---
 
@@ -1535,10 +1535,10 @@ which REQUIRES **normal ordering** and **Σm_ν ~ 61 meV**.
 
 **Status:** genuine, in-principle-falsifiable prediction with a coarse near-term handle
 (ordering + Σ-scale), NOT a sharp imminent test of the value. This is how the rule change
-was paid for. Does NOT discharge the leptophilia debit (the δm_e coupling remains
-[OBJECT-PENDING], prior unfavorable): the medium's substance is the neutrino sector
-(δm_ν), and the dyad is δm_e; "made of" reaches δm_ν, not δm_e. See docs/laws_and_rules
-(census refinement) and docs/PRTOE_cosmological_constant.md.
+was paid for. Does NOT discharge the leptophilia debit (the δm_e coupling remains open, prior
+unfavorable): the medium's substance is the neutrino sector (δm_ν), and the dyad is δm_e; "made of"
+reaches δm_ν, not δm_e. See docs/laws_and_rules (census refinement) and
+docs/PRTOE_cosmological_constant.md.
 
 ---
 
@@ -1606,7 +1606,7 @@ not the charged-lepton dyad.** Credit: a lepton-sector Ψ generates |Ψ|²q̄q o
 → quarks effectively untouched. BUT the Majoron's tree coupling is σNN (neutrino/Weinberg), NOT the
 charged-lepton Yukawa. So the dyad's (δm_e) leptophilia rests on **P-020's leptogenesis
 amplitude-follows-current route OR a lepton-specific portal** (a Higgs portal |Ψ|²H†H would feed
-quarks democratically and break it). Sharpens P-020's [OBJECT-PENDING] — the leptophilia is a portal/
+quarks democratically and break it). Sharpens P-020's open item — the leptophilia is a portal/
 leptogenesis assumption, not a bare Majoron consequence.
 
 **(3) The DE = m_ν tie MOTIVATES, does not FORCE — and the MaVaN derivation route hits AZK.** Trying
@@ -1832,7 +1832,7 @@ rest-frame frequency ((1+ε)², ε = 1.24%) — the P-022 21cm edge, twinned in 
 shift cannot.
 
 **Kill:** radio-primordial D/H at ~2.53, or an unlocked ratio, or improved quasar systematics
-confirming 2.53 with the astration/optical channels closed. **Grade:** registered; the fork's width
+confirming 2.53 with the astration/optical channels closed. Registered; the fork's width
 is stated above (obs ±0.030 ⊕ PRIMAT post-LUNA theory ±0.037 = ±0.0476, putting 2.407–2.463 at
 −2.5 to −1.4σ), and the ratio-lock is independently verified. **The D/H tension is booked as a real
 standing cost.** It does not cancel the Y_p lean — both rows lean the same way, deuterium low and
@@ -1896,7 +1896,7 @@ measured, not derived by design.** The same integer sets the η-era phase patter
 family) and the cavity modulation — **one topological number, three observables** (the M2↔M7 tie, [_master_computes.md](working_logs/_master_computes.md)).
 **Kill:** the location is falsified only by a comb *detected* at a spacing inconsistent with 3.1n
 for any n in the recorded band — an absence cannot kill it, because the forward amplitude (below)
-sits far under any foreseeable sensitivity. **Grade:** candidate on *location* only; the amplitude
+sits far under any foreseeable sensitivity. Candidate on *location* only; the amplitude
 is computed and unobservably small, so the entry states a place to look and not a detection claim.
 
 **The acoustic reading (added 2026-07-17).** The comb's teeth are not just a topological imprint —
@@ -1967,7 +1967,7 @@ question the comb now poses.
 medium screens to standard values, so **molecular-line ratios and reaction networks are standard**;
 the model claims **no** astrochemical anomaly. **Kill:** a robust, screening-regime molecular
 anomaly attributable to varying constants would falsify the screening clause (L1a's blindness).
-**Grade:** an **abstention**, filed with the same prominence as the conquests (the strong-CP
+An **abstention**, filed with the same prominence as the conquests (the strong-CP
 precedent). Its scale is one of the debts M1 (the α_c posterior) was booked to clear.
 
 ## P-2026-031: Percent-level isocurvature at ℓ ≈ 170 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
@@ -1977,7 +1977,7 @@ precedent). Its scale is one of the debts M1 (the α_c posterior) was booked to 
 
 **The prediction:** the genesis draw leaves a **percent-level isocurvature** contribution peaking
 near **ℓ ≈ 170**. **Kill:** a CMB isocurvature bound tightening below the predicted level at that
-scale. **Grade:** candidate — and **λ_phys (M4) records it as a CONSEQUENCE**, not an independent
+scale. Candidate — and **λ_phys (M4) records it as a CONSEQUENCE**, not an independent
 bet: "the Kibble draw at T_c is born at the crossover → λ = ceiling; **P-031 becomes a
 consequence**" ([_master_computes.md](working_logs/_master_computes.md)). It therefore
 inherits M4's conditionality and must not be counted as a separate confirmation.
@@ -2937,7 +2937,7 @@ opposite sign — an onset *earlier* than the dark-radiation-free value — whic
 radiation can produce; (iii) any demonstrated channel converting more than ~1% of BBN-era dark
 radiation into matter or photons, which would reopen the hiding route and void (b).
 
-**Grade:** (a) derived — the H = m relation and the radiation budget are both recorded, and the
+(a) Derived — the H = m relation and the radiation budget are both recorded, and the
 scaling follows from them with no free coefficient; currently below measurement precision.
 (b) derived, and conservative: it uses only the observed dark-matter density and the FIRAS limit.
 
@@ -2986,7 +2986,7 @@ only ~6% of the inner mass — kills the soliton claim outright;
 (iii) a threshold located outside 10¹¹–10¹² M☉ — inconsistent with m = 2.24×10⁻²⁰ eV at more than
 the systematic band, which would put the onset clock and the galactic sector in conflict.
 
-**Grade:** derived from recorded objects (the core-halo relation, the model's measured m) plus two
+Derived from recorded objects (the core-halo relation, the model's measured m) plus two
 standard observational scalings, which are named above and are the dominant uncertainty. The
 threshold's *existence* is forced once the escape is claimed; only its location carries the
 factor-of-three band.
@@ -3183,7 +3183,7 @@ lock's stated sense is wrong even if its structure holds;
 (iv) any demonstration that sign(μ) and sign(n) are drawn independently at genesis → there is no
 product to fix, and the conditional's antecedent is empty rather than merely unrun.
 
-**Grade: conditional, and honestly gated.** The consequent is derived; the antecedent is an
+**Conditional, and honestly gated.** The consequent is derived; the antecedent is an
 un-run computation. The gating object is the first-roll-at-rest theorem run for its **sign** rather
 than for existence — a genesis draw carrying the winding and the rotation on one trajectory. The
 temporal half alone is known to be a fair coin (proven by the tilt's reflection symmetry); it is

@@ -5,7 +5,7 @@
 
 *The physics this model does not thread into threads into physics it does. Checked against the
 full kill-list, that holds in every case — and here it is a theorem rather than a tendency, because
-gravity's universality leaves nothing disconnected. Status: STRUCTURAL.*
+gravity's universality leaves nothing disconnected.*
 
 ## 0. The theorem
 

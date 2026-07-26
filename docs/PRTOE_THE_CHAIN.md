@@ -13,9 +13,8 @@ The chain discipline, a structural law: adjacent epochs must exchange explicit
 handoffs; **non-adjacent epochs may correlate only THROUGH the chain** — any claimed
 correlation between distant epochs must trace through every intermediate link (the
 winding integer n appearing in both genesis and the CMB comb is legal because every link
-between them carries it; an untraced long-range correlation is illegal). Tether grades:
-[RECORDED] = derived/coded/registered; [EST] = estimate/estimate-grade, labeled; [CAND] =
-candidate, firewalled; [MISSING] = the unification debt, named.
+between them carries it; an untraced long-range correlation is illegal). Where a handoff is
+still unbuilt, that is named in place rather than graded with a tag.
 
 ---
 
@@ -24,25 +23,24 @@ candidate, firewalled; [MISSING] = the unification debt, named.
 **0. THE CRUNCH** (the previous cycle's close): contraction; radiation blueshifts (a⁻⁴
 grows) accumulating the fountain's fuel; rotation resets to zero; topology does NOT —
 the torus and its axis persist; entropy rides through (the Tolman carrier).
-→ **Tether 0→1 [RECORDED grammar / MISSING equations]:** hands off topology (the axis),
-entropy, and the fountain fuel. The transition IS the snap. *The bounce's actual
-equations are the chain's largest missing tether — half the open questions (flatness,
-the cell count, the draw epoch) funnel here.*
+→ **Tether 0→1:** hands off topology (the axis), entropy, and the fountain fuel. The transition
+IS the snap. *The bounce's actual equations are the chain's largest missing tether — half the open
+questions (flatness, the cell count, the draw epoch) funnel here.*
 
 **1. THE SNAP / THE POUR** (genesis, one instant): the counterparty-free white hole
 (PRTOE_white_holes.md); the fountain rolls up (Kelvin–Helmholtz) into the helical vortex
 ring — the torus re-formed, spin re-seeded from the carried axis; the Kibble draw takes
 n; the parity stamps are signed (the genome's helicity, η's seed); gravity works
 repulsive (condensate-led — same law, opposite work).
-→ **Tether 1→2 [RECORDED]:** hands off n, the fireball, the condensate background, the
-parity stamps. The transition is SIGN FLIP #1: radiation takes over the energy budget and gravity's
-work turns attractive (the acceleration equation reading ρ+3p — booked).
+→ **Tether 1→2:** hands off n, the fireball, the condensate background, the parity stamps. The
+transition is SIGN FLIP #1: radiation takes over the energy budget and gravity's work turns
+attractive (the acceleration equation reading ρ+3p — booked).
 
 **2. THE FIREBALL** (radiation domination): standard hot plasma; n/p freeze-out at
 T ≈ 0.7 MeV happens HERE — with ε OFF (the dyad not yet condensed): the windowed-BBN
 ordering's first half.
-→ **Tether 2→3 [RECORDED, production-grade]:** the handoff observable IS the windowed BBN
-pattern — freeze-out abundances locked pre-condensation.
+→ **Tether 2→3:** the handoff observable IS the windowed BBN pattern — freeze-out abundances locked
+pre-condensation.
 
 **3. CONDENSATION, T_c = 177.10 keV (z ≈ 7.5×10⁸):** the medium condenses mid-BBN — between
 n/p freeze-out at 0.7 MeV and the deuterium bottleneck at ~70 keV. **That ordering is keyed to
@@ -53,7 +51,7 @@ link's ordering holds on the adopted value and not on the dyad's own
 not a switch (the order parameter grows as v² ∝ 1 − T/T_c below the transition; mean-field,
 Gi ≪ 1 certified; coded into the pipeline); pairing forms
 (doubling season); ε ramps ON; the winding current becomes physical.
-→ **Tether 3→4 [RECORDED]:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and
+→ **Tether 3→4:** hands off ε(on), the superfluid, the winding k₀ = 2πn/L, and
 the BBN pattern's second half (Y_p counter-lean +1.3 to +2.0σ owned; the D/H fork, radio-
 arbitrated). The two-clock frame governs from here (H = m misalignment; k/a = m
 dispersion; the ratio measures n).
@@ -62,7 +60,7 @@ dispersion; the ratio measures n).
 the running fit's frozen profile sits at 3.56×10⁷, log 7.55):** the winding
 mode crosses k/a = m — the dcdf's radiation-like era hands over to CDM-like; the C code
 carries this transition's exact ramp (√(1+x²)−1 — the dispersion upgrade).
-→ **Tether 4→5 [CAND]:** THE TWO DRAWS — two distinct adjacent events, of two different kinds.
+→ **Tether 4→5:** THE TWO DRAWS — two distinct adjacent events, of two different kinds.
 The **quantization event**: the classical fountain ring's circulation quantizes through the
 condensation ramp, n locking at the phase-slip freeze-out (mechanical, noise-dressed; the KZ dice
 demoted to the residual and the ± genome coin). That one *is* a freeze-out — one length, frozen
@@ -72,8 +70,7 @@ and cannot be, because a single frozen comoving cell size is white noise (n_s = 
 condensation) and census imprint are separate adjacent links of separate mechanism *class*;
 nothing downstream may borrow the freeze-out criterion across that boundary.
 
-**5. THE CENSUS IMPRINT, CMB-relevant scales processed near z ~ 10⁶ [CAND, inherits the upstream
-rung's grade]:** the payroll, read scale by scale rather than snapped once
+**5. THE CENSUS IMPRINT, CMB-relevant scales processed near z ~ 10⁶:** the payroll, read scale by scale rather than snapped once
 — at the pivot the scale stands 782 cells across (A_s = 1/N; the older 781 was
 the Planck-anchored count). **This link is a process, not an instant**, and that is forced: each
 mode carries the count at *its own* imprint time, and only a ξ tracking each scale — ξ/ℓ_H held at
@@ -89,7 +86,7 @@ owes ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) §5,
 1/m-branch whispers at μ ~ 10⁻⁹ (PRISM-class reach). *Room checked and COLD en route:
 the condensation transition's GW background misses the PTA band by ~3 orders in
 frequency (f_peak ~ 2×10⁻¹² Hz) and ~4 in amplitude (Ω ~ 10⁻¹³) — no NANOGrav claim.*
-→ **Tether 5→6 [CAND]:** hands the amplitude at the pivot, and the tilt, to the CMB. The
+→ **Tether 5→6:** hands the amplitude at the pivot, and the tilt, to the CMB. The
 tilt is carried by the **modulation map** — ζ_k = A(k)·s_k, envelope × scale-invariant shot,
 n_s = 1 − 2/ln(T₀/k) — T₀ the UV end of the log range, the hunt's k_UV, and not the present CMB
 temperature (DERIVATION_HUNT §7). The bookkeeping identity n_s − 1 = −dlnN/dlnk is the
@@ -103,13 +100,12 @@ acoustic sky (the comb at ℓ₁ ≈ 31–94, the ℓ ~ 170 isocurvature line, o
 The comb's location is geometry and is carried; its **amplitude** is not a falsifier — the
 diagonal C_ℓ sees only the k̂-monopole of a single-axis modulation, leaving f_wind ≲ 3×10⁻⁵,
 some 255× under the observational fence, so the comb is a place to look rather than a test.
-→ **Tether 6→7 [RECORDED, probe-registered]:** hands the CMB (formed) and the still-on ε
-to the dark ages.
+→ **Tether 6→7:** hands the CMB (formed) and the still-on ε to the dark ages.
 
 **7. THE DARK AGES, z ~ 30–150:** the 21cm era; the dyad's rest-frequency shift (+2.5%)
 with the ratio-lock (P-022/027); THE SCREENING EDGE — ε ramps OFF across z ~ 30–60; the
 edge's SHAPE discriminates the gate mechanism (thermal step vs clumping fade).
-→ **Tether 7→8 [REDUCED, estimate-grade]:** reionization inherits the post-edge universe, and
+→ **Tether 7→8:** reionization inherits the post-edge universe, and
 the τ question closes by the chain's own structure, in two halves. The clustering half is zero
 by construction: the fluid's linear sector is ΛCDM-identical, and its distinctive scales
 (granules, sub-parsec solitons) sit far below anything that sources reionization. The atomic
@@ -134,18 +130,17 @@ not a separate computation; it is the edge shape wearing a different observable.
 **8. COSMIC DAWN / REIONIZATION, z ~ 6–30:** EDGES-sign fingerprint (P-043, the ×1 not
 ×2); the JWST mid-ramp cooling question (parked); τ currently ridden
 from astrophysics.
-→ **Tether 8→9 [RECORDED-standard]:** standard astrophysics plus the model's nulls.
+→ **Tether 8→9:** standard astrophysics plus the model's nulls.
 
 **9. THE STRUCTURE ERA, z ~ 0–6:** S₈ conversion (the recorded lead); the smoothness floor
 (no substructure < 10⁻³ pc, P-035); wide binaries Newtonian (P-037); the galactic-atoms
 thread (RAR engagement); SMBH spin-dip band (P-034); DESI BAO as the standing referee.
-→ **Tether 9→10 [RECORDED]:** the growth history hands to the acceleration era; DESI DR3
-grades the handoff.
+→ **Tether 9→10:** the growth history hands to the acceleration era; DESI DR3 grades the handoff.
 
 **10. DARK-ENERGY DOMINATION, z ≲ 0.7:** SIGN FLIP #2 — the condensate re-takes the
 books (the twice-crossed threshold): today's acceleration is the pour's mechanism at its
 second epoch. One component, two repulsive eras — where ΛCDM needs two stories.
-→ **Tether 10→11 — COMPUTED (expanding branch):** the turn requires the sector's negative
+→ **Tether 10→11 (expanding branch):** the turn requires the sector's negative
 bare piece (the thaw law alone never reverses), and with it lands at a ≈ 2.0–2.8
 (z ≈ −0.51 to −0.65), 16–26 Gyr away, robustly across the bare depth
 ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d). What remains of the debt: the contracting
@@ -153,9 +148,9 @@ branch and the bounce, in the bounce sector.
 
 **11. THE TURN → THE NEXT CRUNCH:** the energy budget drifts toward the frozen floor; the
 cycle closes; topology and entropy carry (Tolman: each cycle opens with more entropy).
-→ **Tether 11→0′ [RECORDED grammar]:** = tether 0→1 of the next cycle. The chain is
-linear WITHIN a cycle and concatenated ACROSS cycles — linked list, not loop; the
-next cycle's genesis reads this cycle's closing books and nothing else.
+→ **Tether 11→0′:** = tether 0→1 of the next cycle. The chain is linear WITHIN a cycle and
+concatenated ACROSS cycles — linked list, not loop; the next cycle's genesis reads this cycle's
+closing books and nothing else.
 
 ---
 

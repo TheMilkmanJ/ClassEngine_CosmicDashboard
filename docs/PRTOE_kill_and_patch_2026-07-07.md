@@ -66,7 +66,7 @@ the **void/structure boundary** (P-2026-007, parked).
 exp(−(C/C_ref)ⁿ), n > 2.43, the shell-crossing bit Θ, no light mediator — and screening
 was later ruled DATA-REQUIRED by Room 2. The owed items below record the 07-07 state.)*
 
-**Grade:** Shot 2 is **not cleanly patched**. It *kills the continuous coupling*
+Shot 2 is **not cleanly patched**. It *kills the continuous coupling*
 (a real result — one dead option removed) and forces the model onto the discrete
 switch, which survives MICROSCOPE by construction but is under-specified. The
 model survives the deadliest shot only by abandoning Path A's continuous form.
@@ -79,7 +79,7 @@ Tested whether 1.24% can be derived rather than fit:
 - M_GUT/M_Pl gives 0.08–0.25% — a factor 5–12 *below* the fit.
 - Ψ₀/M_Pl is genesis-set (free until the AD dynamics are solved).
 
-**Grade:** the three routes all land in the **0.1–1% decade**, so the model's
+The three routes all land in the **0.1–1% decade**, so the model's
 scales bound the amplitude to sub-percent–percent — but **none predicts 1.24%.**
 The amplitude remains a FIT. Shot 1 stands; the novelty-vs-fit gap is only
 *narrowed* (order-of-magnitude motivated), not closed. Closing it still requires
@@ -146,7 +146,7 @@ to / lenses on the two factors.
    gives 0.57%.
 3. COUPLING: "~O(1)" is assumed, not derived.
 
-**Grade:** Shot 1 (novelty⊥fit) is UPGRADED, not closed. The 1.24% is no longer
+Shot 1 (novelty⊥fit) is upgraded, not closed. The 1.24% is no longer
 a naked fit — it is (abundance-pinned Ψ₀)/(Planck) × (O(1) coupling), and the
 abundance and the CMB agree on it to a factor of one. Full closure still needs
 the convention fixed (the actual coupling normalization) and the O(1) coupling

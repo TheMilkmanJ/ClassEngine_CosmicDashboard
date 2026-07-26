@@ -4,9 +4,8 @@
 
 
 *Thread 3 of the atom-grammar survey; consolidates the recorded neutrino structure into its
-standalone. Status: STRUCTURAL with one REGISTERED prediction (P-2026-023) and live in-house
-numbers. The improvement over standard cosmology: it RESOLVES an emerging tension rather than
-suffering it.*
+standalone. One registered prediction rides it (P-2026-023), with live in-house numbers. Over
+standard cosmology it resolves an emerging tension rather than suffering it.*
 
 ## 0. The emerging problem in standard cosmology
 

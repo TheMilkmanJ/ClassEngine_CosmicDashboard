@@ -867,7 +867,7 @@ is its only coupling). Give it curvature and the product is determined:*
  discriminate: whatever a spin measurement does to free FDM in this band, it
  does to the model.
 
- **Grade: a named, live exposure** — not a null, and not shielded. It stands
+ **A named, live exposure** — not a null, and not shielded. It stands
  with the Galactic-Centre budget test as one of the two constraints bearing
  directly on the model's single ultralight input; the fuller working is in
  [PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md).

@@ -3,9 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 10. Status: STRUCTURAL — one NEW computed null, one recorded parity-odd
-channel with a genome signature, one flagged interior prong. The improvement: the model makes
-its GW sector's silences and signatures SPECIFIC where standard cosmology leaves them generic.*
+*Thread 10. One computed null, one recorded parity-odd channel with a genome signature, one open
+interior prong. The model makes its GW sector's silences and signatures specific where standard
+cosmology leaves them generic.*
 
 ## 0. Three questions a medium-universe must answer about GWs
 

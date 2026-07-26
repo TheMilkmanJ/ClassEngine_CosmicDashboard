@@ -1,10 +1,5 @@
 # THE PRTOE DOCUMENT INDEX
 
-*STATUS LABELS used across this shelf: PRODUCTION (fit-grade, chain-backed) · RECORDED
-(graded, recorded) · EXPLORATORY (review-hold work, un-refereed) ·
-ESTIMATED (estimate grade) · SCHEDULED (referee named and funded) ·
-interpretation-grade (ontology only, zero modified numbers).*
-
 *The master map: every covered domain → its standalone → how the model relates to it. Six relations,
 written out rather than lettered: **ours** (natively the model's), **ridden** (standard physics the
 model reproduces and does not claim), **screened** (a constant the model holds fixed), **content**,

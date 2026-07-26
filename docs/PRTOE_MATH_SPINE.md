@@ -106,7 +106,7 @@ flagship's one assumed step, and the block below states it.)
 > operator with its own coefficient — and **nothing can**: inside the window the correlated point
 > moves each neutrino mass by 2ε, 1.5 meV on Σm_ν, while the sky measures the unshifted present-day
 > value, so the two readings are observationally identical. The pipeline runs the correlated point
-> (`background.c`, m_ν ∝ m_e²). **Grade: assumed** — docket #125, desk work with no external gate.
+> (`background.c`, m_ν ∝ m_e²). **Assumed** — docket #125, desk work with no external gate.
 
 The amplitude — the model's one distinctive number — assembled from three factors, each graded by a
 running instrument:

@@ -3,10 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: graded per claim — see the table in §3.** The model answers each problem inflation was
-> invented for without an inflaton, but the answers are not of one kind: two are consequences of
-> structure the model already has, one is a *measurement* rather than a derivation, and the tilt is
-> a computed candidate. Read the grades, not the headline.
+> The model answers each problem inflation was invented for without an inflaton, but the answers
+> are not of one kind: two are consequences of structure the model already has, one is a
+> *measurement* rather than a derivation, and the tilt is a computed candidate. See the table in §3
+> rather than the headline alone.
 
 ## 0. What inflation was hired to do
 Solve the horizon problem (why the sky is one temperature), the flatness problem, dilute

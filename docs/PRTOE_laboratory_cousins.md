@@ -3,10 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 7. Status: STRUCTURAL — the bridge itself is recorded in pieces (Josephson receipt, the
-Eckel ring class, the Landau certificates). The improvement: for every other cosmology, BEC
-analogs are ANALOGIES; for this one they are the SAME EQUATIONS at bench scale — which turns
-tabletop atomic physics into a direct test bed with mapped parameters.*
+*Thread 7. The bridge itself is recorded in pieces (Josephson receipt, the Eckel ring class, the
+Landau certificates). For every other cosmology, BEC analogs are analogies; for this one they are
+the same equations at bench scale — which turns tabletop atomic physics into a direct test bed with
+mapped parameters.*
 
 ## 0. The claim
 

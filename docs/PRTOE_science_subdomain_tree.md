@@ -6,13 +6,13 @@
 *Recurse the sciences into subdomains and sub-subdomains until the scientific world is mapped. HELD
 UNDER THE NO-FORCING LAW: each node is tagged by its RELATION, not given a manufactured claim.*
 
-*Legend — **[O]** natively ours · **[R]** ridden-exact (the model imitates, claims nothing) ·
-**[S]** screened-constant (our proof-of-constancy) · **[I]** plain inheritance (the parent's
-relation, nothing added) · **[C]** carries genuine content, a prediction or derivation ·
-**[P]** parked (a snag, in the register).*
+*Legend — **ours** (natively the model's) · **ridden** (standard physics the model reproduces and
+does not claim) · **screened** (a constant the model holds fixed) · **inherited** (the parent's
+relation, nothing added) · **content** (a prediction or derivation) · **parked** (a snag, in the
+register). Written out rather than lettered so a physics reader never confuses them with grade tags.*
 
-> **These letters mark RELATIONS, not claim grades, and they do not mean what the same letters mean
-> elsewhere.** Here [R] is *ridden physics the model does not claim*; in the dependency tree [R] is a
+> **These words mark RELATIONS, not claim grades.** *Ridden* here is physics the model does not
+> claim; in the dependency tree the same letter once meant something else. Here [R] is a
 > *registered bet the model is exposed on*. [C] here is *content*; there it is *candidate*. A tree of
 > ninety nodes earns compact markers, but only if a reader is told not to import the other legend.
 

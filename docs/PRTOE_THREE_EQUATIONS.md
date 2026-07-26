@@ -19,7 +19,7 @@
 > correction is uncontrolled at this order — formally 5.4–9.8% on ρ_Λ¼, with the next term of the
 > same series already larger.
 >
-> **Grade: candidate. Its price is one hypothesis** — that the charged-lepton √m are thermally
+> **Its price is one hypothesis** — that the charged-lepton √m are thermally
 > populated, which is what Q = 2/3 asserts (it says the variance of √m equals its mean squared, the
 > Boltzmann second moment, holding to 18 ppm on the measured masses). **Its referee is one number:**
 > a lattice T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative treatment the radiative band

@@ -3,12 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: filed 2026-07-13, consolidating the light-sector results of the induced-coupling
-sessions. The grades are mixed and
-labeled per section — two theorem-grade structural results, one computed fraction, one
-pre-registered target. Rides M3 (the medium's reality) and the induced-gravity result
-(the Pauli finiteness condition, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5).
-Companion files: [PRTOE_inertia.md](PRTOE_inertia.md) (why sub-critical motion is free),
+*Filed 2026-07-13, consolidating the light-sector results of the induced-coupling sessions. Two
+structural results, one computed fraction, one pre-registered target. Rides the medium's reality
+and the induced-gravity result (the Pauli finiteness condition,
+[PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5). Companion files:
+[PRTOE_inertia.md](PRTOE_inertia.md) (why sub-critical motion is free),
 [PRTOE_special_relativity.md](PRTOE_special_relativity.md) (the one-metric kinematics),
 [PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md) (the interaction grammar this file
 extends).*

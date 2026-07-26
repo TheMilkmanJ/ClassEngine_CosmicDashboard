@@ -5,10 +5,9 @@
 
 *Thread 4 of the atom-grammar survey; the standalone for the recorded DM→(DE/dark-radiation)
 conversion lead — the consolidated production file is
-[PRTOE_s8_tension.md](PRTOE_s8_tension.md). Status: STRUCTURAL with a MECHANISM BUILT INTO CLASS (the working docket, completed and
-recorded) and live chains testing it NOW (conv_g sampled in the thaw chain/conv_desi). The improvement:
-a one-parameter, physically-motivated easing of the growth tension that ΛCDM must treat as
-systematics.*
+[PRTOE_s8_tension.md](PRTOE_s8_tension.md). The mechanism is built into CLASS, with live chains testing
+it (conv_g sampled in the thaw chain and conv_desi): a one-parameter, physically motivated easing of
+the growth tension that ΛCDM must treat as systematics.*
 
 ## 0. The tension
 

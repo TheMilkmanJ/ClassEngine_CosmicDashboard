@@ -1002,7 +1002,7 @@ The suppression is now a **number the model must produce**:
 
 **RESOLVED SAME DAY — branch 3, by symmetry (2026-07-17).** The suppression was derived rather than
 estimated: **the dyad IS the Majoron**, the Goldstone of U(1)_L breaking
-([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, [ESTABLISHED]). **A Goldstone couples to the current of
+([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2). **A Goldstone couples to the current of
 its broken charge**, and **quarks carry L = 0** — so the tree coupling is **zero by the symmetry that
 defines the field**, not merely suppressed. The loop floor (dyad → lepton loop → 2γ → quark,
 O(α²) = 5.4×10⁻⁶) is **~20,000× short** of the healer's 0.14–0.21%.
@@ -1015,7 +1015,7 @@ O(α²) = 5.4×10⁻⁶) is **~20,000× short** of the healer's 0.14–0.21%.
 
 **The model is safe and unhealed by the same fact.** The symmetry that forbids the blowout also
 forbids the cure. **What is dead is the "credited side-prediction" grade**, which credited a coupling
-the model's own [ESTABLISHED] identity forbids.
+the model's own standing identity forbids.
 
 **JP's structural reading survives untouched, and it never needed the quark coupling.** "The thing
 that allowed them to bind came from the dyad" is *correct* — the dyad binds the **electrons to the
@@ -1256,8 +1256,8 @@ seam country, at single-log normalization with both endpoints corpus-pinned: pol
 thermal dimensional-reduction 1.954 · BCS Δ/T_c 0.568 · BCS prefactor 0.126 — **none is 3/2 —
 except one: the nonrelativistic phase-space power (mT/2π)^(d/2), whose d/2 = 3/2 in three
 spatial dimensions rides a SINGLE log natively** (phase-space counting, not a loop bracket;
-the same "3 = d" the corpus books in α_c = 3α). Grade: **named lead — route 6, sharpened same
-day to a candidate.** The local is equipartition itself: a nonrelativistic state's mean
+the same "3 = d" the corpus books in α_c = 3α). Named lead — route 6, sharpened same
+day to a live candidate. The local is equipartition itself: a nonrelativistic state's mean
 kinetic energy is ⟨E_kin⟩ = (d/2)·T, so occupancy at the thermal-mean energy carries
 e^(−(M+(3/2)T)/T) = e^(−M/T)·**e^(−3/2)** — a pure multiplicative constant. Two of the three
 conditions discharge structurally: **(ii) self-pinning is automatic** — the cost (3/2)T rides
@@ -2245,7 +2245,7 @@ flagship set:
 
 | file | what it said | fixed to |
 |---|---|---|
-| `PRTOE_dyad_gas.md` §2 | *"Its identity is the **Majoron**… **This is why the medium's coupling is leptophilic: the broken symmetry it carries is lepton number.**"* — headed **[ESTABLISHED]** | leptophilia carried by data at 12σ; the Majoron a separate field; the symmetry route named as not available |
+| `PRTOE_dyad_gas.md` §2 | *"Its identity is the **Majoron**… **This is why the medium's coupling is leptophilic: the broken symmetry it carries is lepton number.**"* — headed as established | leptophilia carried by data at 12σ; the Majoron a separate field; the symmetry route named as not available |
 | `PRTOE_dyad_gas.md` (dead ends) | *"forced twice over: by identity … and by data"* | forced once, by data |
 | `PRTOE_bbn_witness.md` | P-2026-006's lever unavailable because *"the tree coupling is zero by symmetry, not small"* | unavailable by loop order (two EW/EM loops, ~(α/4π)²) and by the same row's own 12–18σ bound |
 | `working_logs/_REDTEAM_BRIEF.md` | **"SYMMETRY-FORBIDDEN"** — i.e. a line the corpus was telling adversaries not to attack | re-stated as excluded by loop-order and data, with an explicit instruction *not* to defend it with lepton number |
@@ -2264,7 +2264,7 @@ premise every time anyone checked the number instead of the argument.
 
 **The lesson (process).** *Retiring a claim in the file that owns it is half the job; the other half
 is the files that were quoting it, and the red-team brief is the one that cannot be left.* An
-[ESTABLISHED] tag on an inherited argument makes it look checked, and a defence that reaches a true
+A standing-grade tag on an inherited argument makes it look checked, and a defence that reaches a true
 conclusion gives a reviewer nothing to trip on.
 
 **SECOND WAVE — the propagation sweep above was itself incomplete (checks 14–19 pass, 2026-07-20).**
@@ -2276,7 +2276,7 @@ it searched the premise's own wording rather than the conclusions carrying it.
 |---|---|---|
 | `PRTOE_DERIVATION_HUNT.md` §1 (×2) | *"quarks carry L = 0 and sit untouched"*; *"quarks carry L = 0 and the tree coupling is exactly zero"* — the premise the two-census marriage argument runs on | held off by loop order and by data, with the singlet named L-neutral |
 | `PRTOE_DERIVATION_HUNT.md` §6, §9 | *"leptophilic by **identity**"*; *"the census axiom is what pays for **leptophilia**"* | leptophilic by loop order and by data; the census axiom pays for the *universality* |
-| `PRTOE_PREREGISTERED_PREDICTIONS.md` (P-006 open half) | *"the dyad **is** the Majoron … quarks carry L = 0, making the tree-level quark coupling **zero by the symmetry that defines the field**, not merely small"*, citing `dyad_gas` §2 as [ESTABLISHED] | reasoning replaced, verdict unchanged; the withdrawn symmetry leg recorded with the claim |
+| `PRTOE_PREREGISTERED_PREDICTIONS.md` (P-006 open half) | *"the dyad **is** the Majoron … quarks carry L = 0, making the tree-level quark coupling **zero by the symmetry that defines the field**, not merely small"*, citing `dyad_gas` §2 as established | reasoning replaced, verdict unchanged; the withdrawn symmetry leg recorded with the claim |
 | `PRTOE_PREREGISTERED_PREDICTIONS.md` (neutrino home) | *"since **derived** via the Majoron: quarks carry L = 0"* | still owed; the Majoron route withdrawn |
 | `PRTOE_MATH_SPINE.md` §9 | leptophilia portal listed as **settled**, *"census-forced"*, citing `dyad_gas` §2 — which by then said the opposite | settled as *leptonic*; the portal moved to the owed list as docket #125 |
 
