@@ -5,7 +5,7 @@
 
 > This consolidates the model's most experiment-facing claim block.
 > Components range from recorded (the Majoron structure, P-2026-012/020) to exploratory
-> (the ρ_inf closure, review-hold). The relevant tests are ton-scale 0νββ (nEXO, LEGEND-1000,
+> (the ρ_inf closure, on review hold). The relevant tests are ton-scale 0νββ (nEXO, LEGEND-1000,
 > CUPID) and next-generation cosmology.
 
 > Status: the mass relation and 0νββ window are established; the remaining open items are the
@@ -28,14 +28,15 @@
  problem (§2). The claim is that one un-derived number does two jobs that standard cosmology treats
  as unrelated, not that the number is explained.
 3. The sum: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering** (the ordering
- favored by the registered P-2026-004 collision test, not by P-2026-012, which does not fix it —
+ favored by the registered P-2026-004 prediction-collision test, not by P-2026-012, which does not fix it —
  ANN-2026-025). **This number is not a discriminator**: it sits 2.6 meV above the m₁ = 0 floor of
  58.8 meV, against a planned cosmological resolution of ~20 meV. The distinctive content is in
  m_ββ (§3), which is sensitive to m₁ where the sum is not. Full disclosure: an earlier in-house
  prediction favoring inverted ordering (P-2026-004) was falsified by this model's own pre-registered
- collision test and is retired in the registry; the ordering claim survived its internal challenger.
-4. The exploratory closure is that an occupancy-corrected ρ_inf derivation reproduces the same sum
- by an independent route through the ρ_Λ ↔ M₂ ↔ 3α relation; the running α_c chain checks that
+ prediction-collision test and is retired in the registry; the ordering claim survived its internal challenger.
+4. The exploratory closure is that an occupancy-corrected derivation of ρ_inf (the model's constant dark-energy
+ floor density — the quantity that plays the role of ρ_Λ) reproduces the same sum
+ by an independent route through the recorded relation chaining ρ_Λ, the derived scale M₂ = α²·T_c, and 3α; the running α_c chain checks that
  claim.
 
 ## 1. Why this block is the model's tightest constraint
@@ -48,7 +49,7 @@ below: a robust Σ > 70 meV kills 2–3, but so does a ΛCDM-conditional upper l
 61.4 meV, which is the direction the frontier is actually moving. The model's answer is that those
 limits are ΛCDM-conditional and the squeeze relaxes under its own recombination history — a testable
 claim, and the fastest route to grading this block. Inverted ordering from oscillation experiments
-also kills 2–3; (iii) an in-house tension: P-023's de-biased band (0.07–0.09 eV) sits above this
+also kills 2–3; (iii) an in-house tension: P-2026-023's de-biased band (0.07–0.09 eV) sits above this
 block's 0.061 — the running chains' own posterior arbitrates between the model's two neutrino
 numbers.
 
@@ -136,15 +137,15 @@ electrons. It is a genuinely different observable. The mass mode puts the electr
 sharp peak on Q_ββ; the Majoron carries energy away, so this mode is a **continuum**, and
 experiments search for it separately.
 
-The rate is not free here, because the model identifies the dyad field with the Majoron. For a
-mass-basis-diagonal singlet Majoron the coupling is g_ij = (m_i/v_L)δ_ij, so the effective coupling
+The rate is not free here: the model's Majoron is a mass-basis-diagonal singlet, so its coupling
+matrix is g_ij = (m_i/v_L)δ_ij and the effective coupling
 that drives double beta decay is
 
 $$\langle g_{ee}\rangle \;=\; \frac{m_{\beta\beta}}{v_L}$$
 
 — the *same* m_ββ that governs the mass mode, divided by the lepton-number-breaking scale. Nothing
-new enters. (Consistency check on the identification: the recorded g₃₃ = 1.2×10⁻⁸ returns
-v_L = m₃/g₃₃ = 4.18 MeV, the MeV corner's own value.)
+new enters. (Consistency check: the recorded g₃₃ = 1.2×10⁻⁸ returns
+v_L = m₃/g₃₃ = 4.18 MeV, the MeV-scale point's own value.)
 
 What is not pinned is v_L, which still has two viable parameter points. Both are priced:
 
@@ -157,10 +158,10 @@ What is not pinned is v_L, which still has two viable parameter points. Both are
 *(Each half-life span is the matrix-element range, calibrated on KamLAND-Zen's published
 ordinary-Majoron limit: T½ > 2.6×10²⁴ yr at ⟨g_ee⟩ < (0.8–1.6)×10⁻⁵, arXiv:1205.6372.)*
 
-The conclusion does not need the corner resolved. Even at the most favourable one the Majoron mode
+The conclusion does not need the parameter point resolved. Even at the most favourable one the Majoron mode
 is **four orders of magnitude slower than the mass mode**, which is itself already just past nEXO's
 baseline reach; the coupling sits four orders below the experimental limit, which is eight orders in
-rate. **The model predicts no observable Majoron mode, at every surviving corner** — a kill-only bet
+rate. **The model predicts no observable Majoron mode, at every surviving parameter point** — a kill-only bet
 of the same shape as the indirect-detection and laboratory zeros.
 
 Two things make this more useful than a null.
@@ -205,15 +206,15 @@ picture; a null would favor the high-v_L point.
 The self-caught over-credit ("seesaw forces type-III") and the m_D-ribbon guess (0.1–0.3 GeV
 read as viable before the scan found the surface empty) are logged in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Baryogenesis & the neutrino
-sector."** Both were corrected toward the honest reading this file carries: census-invisible
-steriles exist, so the seesaw type is unforced.
+sector."** Both were corrected toward the honest reading this file carries: sterile states
+invisible to the model's degree-of-freedom counting exist, so the seesaw type is unforced.
 
 ---
 
-## The tenth-channel mass relation — the link (2026-07-18)
+## The mass-generation channel and the lightest-mass relation (2026-07-18)
 
 In this model the neutrino mass splittings come from the seesaw, while the lightest neutrino mass is
-tied to the dark-energy scale. At the surviving parameter corners (either the MeV-scale or the
+tied to the dark-energy scale. At the surviving parameter points (either the MeV-scale or the
 TeV-scale lepton-number-breaking scale, both consistent with the model's constraints and selected by
 CMB-S4), a Yukawa coupling of about 6×10⁻⁷ reproduces m₃ = 50 meV. The lightest eigenvalue can
 still sit far below 1 meV in the seesaw sector.
@@ -244,7 +245,7 @@ v_L it reduces to the lightest-state Majorana term. The associated Majoron coupl
 
 > **g = m₁/v_L**
 
-which gives g = 2.3×10⁻⁹ in the MeV corner and g = 2.4×10⁻¹⁵ in the TeV corner. That keeps the
+which gives g = 2.3×10⁻⁹ at the MeV-scale point and g = 2.4×10⁻¹⁵ at the TeV-scale point. That keeps the
 UV completion safe with respect to supernova limits and makes the Majoron signal far below current
 ββ limits.
 

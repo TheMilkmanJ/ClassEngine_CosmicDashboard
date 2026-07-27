@@ -181,7 +181,7 @@ battery. The deepest structural claim, the medium's reality, is carried as an op
 rather than asserted. Entry points for a technical reader: THREE_EQUATIONS, DEPENDENCY_TREE,
 PREREGISTERED_PREDICTIONS (50+ numbered bets), FAILURES_LEDGER.
 
-For context: vacuum condensates setting matter's parameters is not exotic - roughly 99% of ordinary
+For context: vacuum condensates setting matter's parameters is not exotic — roughly 99% of ordinary
 mass is QCD-condensate binding. This model adds one more condensate and asks whether it reads into
 the remaining Yukawa percent at the 10⁻² level during one epoch.
 
@@ -191,7 +191,7 @@ measured — so the model cannot coach its witness. It comes out net adverse. Y_
 above Aver, and +3.8 to +4.4σ against EMPRESS; the helium civil war is unresolved and not ours to
 settle. D/H is predicted at 2.407–2.463×10⁻⁵ against Cooke's 2.527 ± 0.030, which is −2.5 to −1.4σ
 on the full budget (observational ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037). Both ranges are
-the span of one committed input, the genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35], which the model
+the span of one committed input, the dark-to-photon temperature ratio ζ = T_dark/T_γ ∈ [0.25, 0.35], which the model
 uses everywhere it appears and which CMB-S4 will measure directly through ΔN_eff = 0.06–0.24.
 *(The next section decomposes the nucleosynthesis physics at ζ's own baseline, before the dilution's
 dark-radiation contribution is added, where the same prediction reads 2.387×10⁻⁵. The two figures
@@ -245,7 +245,7 @@ up into the 2.407–2.463 range quoted above. The prediction is built in two ste
 |---|---|---|
 | ΛCDM control | 2.420 | −2.25σ |
 | the model's baryon density, 1.1% higher | 2.372 | −3.25σ |
-| the dyad's nucleosynthesis window, +0.645% | 2.387 | −2.94σ |
+| the electron-mass window at nucleosynthesis, +0.645% | 2.387 | −2.94σ |
 
 **The new physics acting during nucleosynthesis helps.** The electron-mass ramp switches on at
 the derived T_c = 177.10 keV — the abundances are insensitive at the percent level, so nothing
@@ -284,7 +284,7 @@ accidental ones.
 
 Where the lightest mass comes from: oscillations fix the two splittings but not the
 absolute floor, and in this model that floor is not fitted — it is medium-sourced. The lightest
-neutrino mass reads m₁ = κ_m·ρ_inf¼ with κ_m ≈ 1: the dark-energy scale does not happen to coincide
+neutrino mass reads m₁ = κ_m·ρ_Λ¼ with κ_m ≈ 1: the dark-energy scale does not happen to coincide
 with the lightest neutrino mass, it **sets** it. Σm_ν = 61.4 meV then follows from that floor plus
 the measured splittings.
 
@@ -301,10 +301,10 @@ expectation value rather than by the rolling dark-energy field, so the rolling d
 neutrino mass. A reader discounting this claim should discount it at the first two points, and
 nowhere else.
 
-A framing you may enjoy: in this model's notation, 0νββ decides whether lepton number
-is a collateralized charge — like electric charge, with a field enforcing it — or an unenforced
+A framing you may enjoy: 0νββ decides whether lepton number
+is an enforced charge — like electric charge, with a field backing it — or an unenforced
 accounting identity, with Majorana neutrinos the mechanism by which such an identity defaults. Your
-detector is auditing whether L's debt has a bank.
+detector is auditing whether lepton number's debt has a bank.
 
 ## The ask
 

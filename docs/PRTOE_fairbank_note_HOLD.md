@@ -76,3 +76,33 @@ the mechanism's standing is recorded in the mathematical spine (§23.2).
 **Unchanged:** the nested-sampling deferral (hardware), the xenon matrix-element
 watch, and the pre-send checklist — items 1 and 3 remain open; item 2 is
 satisfied by the letter's existing table pending the final dark-energy scale.
+
+## Terminology pass on the letter, owner-authorized (2026-07-27)
+
+*The owner ordered a field-language pass on the letter and its companion files
+in chat on 2026-07-27 ("de-jargon the neutrino files and the fairbank files...
+they need to be in field-physics language"). That order supersedes the
+list-first protocol for terminology only; content and numbers are untouched.
+The five changes made to the letter itself:*
+
+1. "the dyad's nucleosynthesis window" → "the electron-mass window at
+   nucleosynthesis" (decomposition table row; same physics, house name removed).
+2. "the genesis dilution ζ" → "the dark-to-photon temperature ratio ζ".
+3. "m₁ = κ_m·ρ_inf¼" → "m₁ = κ_m·ρ_Λ¼" — a notation consistency fix: the
+   letter's own earlier section already writes m₁ = ρ_Λ¼; ρ_inf is the
+   corpus-internal name for the same constant floor density.
+4. The closing framing paragraph: "in this model's notation" and
+   "collateralized charge" removed; the enforced-charge/accounting-identity
+   framing and the bank line kept in plain English.
+5. One ASCII hyphen-as-dash corrected to an em dash ("not exotic — roughly").
+
+*Companion files brought to the same standard in the same pass:
+PRTOE_neutrino_home.md, PRTOE_neutrino_sector.md, PRTOE_deuterium_row.md
+(the file the letter's trace note points to for the BBN decomposition).
+Two staleness fixes made in the companions and reported to the owner in chat:
+the neutrino-sector file asserted the retired scalar–Majoron identification
+(the coupling argument stands without it and was reworded to its own feet),
+and the deuterium row's closing sentence in §5 still carried the pre-correction
+"surrendering the Majoron identification" clause, contradicting the corrected
+parenthetical directly above it; it now states the corrected content — the
+quark door is shut quantitatively, not by symmetry.*
