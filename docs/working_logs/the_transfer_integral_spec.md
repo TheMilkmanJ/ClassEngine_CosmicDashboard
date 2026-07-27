@@ -212,3 +212,38 @@ factor-10² residual is the rectification mechanism itself, the same single obje
 sign run already owe.** The estimate-grade pass is complete; the careful rectification
 computation is the one residual, now carrying four consumers (magnitude, sign, the lock, and
 the boundary factor).
+
+## STAGE 6 (2026-07-27) — the careful pass's first computation: the symmetric channel dies, the diode inherits everything
+
+**The run** (`scripts/rectification_ramp_integral.py`): the weighted oscillatory integral
+through the lattice-measured shutoff (dORT slope 0.83/GeV, e-width 1.2 GeV, δ = 0.91%),
+three envelope models, the genesis phase scanned. Two self-catches inside one instrument:
+v1's asymptotic "ramp enhancement H/(θ̇δ)" was a NORMALIZATION ERROR (per-ramp where the
+need is per-window), refused by the instrument's own numerics; and the numerical value that
+remained (~4.7×10⁻⁷ ≈ the naive H/θ̇) was then diagnosed as the integration window's own
+hard edge — demonstrated by moving the cutoff (the measured R tracks the edge prediction
+1/(Φ′·window) at every position) and by smoothing it (a 10-width taper collapses the
+transfer to 1.4×10⁻¹⁰).
+
+**The finding, stated exactly:** with the envelope smooth everywhere — and every physical
+feature is (the broken-phase ramp is analytic, the crossover matching is C¹-smooth on GeV
+widths, the genesis onset sits at enormous winding rate) — **the symmetric sinusoidal
+junction's net transfer is adiabatically null.** Stage 5's "factor 122 from the boundary"
+was itself a hard-boundary artifact; the pre-committed acceptance band's edge was never
+where the physics stood. The 2/π grammar did appear exactly as the spec watched
+(⟨|R|⟩/max|R| = 0.637 measured), but on a channel that is dead as the magnitude's carrier.
+
+**What inherits the magnitude: the junction's own symmetry breaker.** A monotonic winding
+across a symmetric junction moves nothing; net transfer requires the current–phase relation
+to break the θ → −θ symmetry — the diode (φ₀/anomalous-junction) structure that the seat
+term's Majorana insertion supplies. This is verbatim T14 link 5's rectifier: the four
+consumers (η's magnitude, η's sign, the θ_B ↔ helicity lock, and now the WHOLE transmission
+rather than a factor on it) converge on the one object, harder than stage 5 recorded.
+
+**The scale watch (flagged at coincidence grade, not asserted):** m₁/θ̇(T_sph) =
+2.25 meV / 59.7 eV = 3.8×10⁻⁵ against the needed ~5×10⁻⁵ — ratio 0.75. If the diode's
+efficiency derives as the Majorana beat against the winding rate, the whole baryon
+asymmetry lands from recorded inputs; the owning computation is the φ₀-junction response of
+the seat term, and it earns or kills the watch. The pre-committed FAIL condition has NOT
+fired — it now reads: if the derived diode efficiency misses 5×10⁻⁵ by >10², the junction
+current is not the carrier.
