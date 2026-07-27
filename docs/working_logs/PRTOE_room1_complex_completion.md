@@ -557,6 +557,16 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 > nearly deterministic, the tilt dial mildly re-emerging). Registered
 > consequences: prereg ANN thread UPDATE 4 (P-2026-005). The "still
 > owed" above is PAID in its re-scoped form.
+>
+> **And the second owed clause (same day,** `scripts/lowh_gradient_scan.py`**):**
+> the fine-gradient tilt scan, run where the physics lives — 56 angles,
+> both physical hierarchies, all tilts. Worst gradient 3.2/rad (h = 0.3,
+> r_t = 0.9) against Gate C's ~350/rad steep zones: a factor ~110 down,
+> and the 56-angle medians reproduce the 14-angle dice to the third
+> digit. **The θ-channel isocurvature amplification has no lever arm at
+> the physical hierarchy — Gate C's high-tilt + high-H_inf veto retires
+> at the standing parameters** (it stays true of the era regime it was
+> found in). Both clauses of this owed block are now paid.
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only, so far).
 
