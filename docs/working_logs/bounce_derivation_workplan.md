@@ -1440,3 +1440,33 @@ input (evaluate the recorded high-scale rate law at the genesis epoch inside
 the legal window) — a construction task for the owner, not a missing physics
 idea. Stakes raised by the bounce board: task #5 closed with O6's funding
 moved here, so this assembly now owns the hot start.
+
+## The cascade assembled (2026-07-28) — mechanism at candidate grade, one computed gap
+
+`scripts/genesis_cascade_assembly.py`, on the parts-list above; recorded inputs
+only. The assembly, four steps:
+
+1. **Equilibration at the top is over-determined.** The portal vertex
+   κm_e0 = 7.15×10⁻²⁶ eV⁻¹ gives Γ/H rising as T: the minimal-vertex estimate
+   clears equilibrium by 10³–10⁴·⁵ at Planck-class temperatures, the file's
+   own fuller channel count by 10⁸–10⁹. The genesis deposit thermalizes; the
+   sectors are one bath at the top.
+2. **Decoupling is the portal's own freeze-out:** T_dec ≈ 4×10¹⁴ GeV at the
+   minimal vertex (fuller rates push toward 10¹⁰–10¹³ GeV; band carried; EFT
+   caveat named — T_dec sits in the UV completion's regime). **The legal
+   window — gravitational-only below, direct coupling above — is thereby
+   DERIVED from the portal itself**, not postulated: a structural unification
+   with the coupling inventory's law.
+3. **The hot start is genesis-funded:** the Standard-Model bath is standard
+   from T_dec down; MeV is passed trivially en route to BBN. O6's funding,
+   moved here by the bounce board's closure, is delivered by
+   equilibration-at-the-top plus ordinary adiabatic history.
+4. **The ζ test, first pass, gap priced:** standard entropy bookkeeping with
+   the recorded dark reheat (27/14)^⅓ gives ζ = 1.245·(10.75/g*(dec))^⅓; the
+   committed window [0.25, 0.35] demands g*(dec) ∈ [484, 1327] while a
+   roster-class count is ~150–250 → the full-equilibrium first pass lands
+   ζ ≈ 0.42–0.47, OVERSHOOTING by ×1.2–1.9. Three candidate owners, none
+   chosen: a larger genesis-era roster; partial equilibration (freeze-in-class
+   heating of the dark side, which lowers ζ); a different dark-side reheat
+   chain. **Closing the ζ gap is the assembly's promotion gate; the gap
+   proving unclosable at any legal roster is its kill.**
