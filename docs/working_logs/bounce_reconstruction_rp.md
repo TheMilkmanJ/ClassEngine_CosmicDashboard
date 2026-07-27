@@ -1024,3 +1024,9 @@ future resolved 3D computation (energy-clean at focusing) clearing 10⁹.
 Task #5 closes with this endpoint per the finish standard — not a promote,
 not a kill of the architecture: the recorded answer to O6, owned adversely,
 with its reopening condition named.
+
+*Archival note (2026-07-28, run complete):* the adaptive spherical run's own
+final verdict confirmed the closure above — "NOT CONVERGED — the run reports
+itself unusable; no numbers from this script may be quoted" — its honesty
+assert ending the process. §23's endpoint and reopening condition stand
+unchanged.
