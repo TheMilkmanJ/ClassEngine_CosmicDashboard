@@ -3026,3 +3026,28 @@ measured at 1.003 ± 0.005 through the amplitude's cube). The misnaming was
 corrected in the amplitude file before the derivation landed; this row records
 the retired reading, which had survived only as an in-file parenthetical until
 the file's audience pass.
+
+### The screening-transition scale as the weak-rate ramp's key — KILLED BY ITS OWN BBN PRICE (recorded 2026-07-27)
+
+**What it was:** the primordial-abundance computation ramps the electron-coupled
+scalar's rest-mass effect on with temperature as ε(T) = ε·(1 − T/T_c), and the
+booked numbers key that ramp at T_c ≈ 179 keV — a value the derivation record
+assigns to the confining sector, not to the scalar itself. The scalar's own
+exact-kernel band is 307–714 keV, so a live alternative existed: key the ramp on
+the scalar's own scale.
+
+**Why it died (the re-key grid, computed through the production splice at
+ε = 1.2543%):** moving the key from 179 keV to the scalar's band shifts helium-4
+by +0.50σ at the band's bottom (307 keV), +0.96σ at 500 keV, and +1.37σ at the
+band's top (714 keV), with deuterium adding up to +0.79σ — against a recorded
+whole-fence bound of 0.32σ. The alternative fails at its own band's most
+favorable edge and worsens monotonically across it; the radiation density is
+untouched by the re-key (the ramp's internal consistency check), so nothing
+absorbs the shift. Above 500 keV, where the fence bound was never claimed, the
+shifts are still σ-class — the region was not safe by default.
+
+**What survives (the same computation):** the two-scale reading it competed
+with — the scalar's coupling strength ε and the ramp's onset scale are two
+distinct physical objects, the onset belonging to the confining sector's
+transition. Primordial abundances themselves now enforce the separation: the
+booked keying is not a convention but the only keying the fences admit.
