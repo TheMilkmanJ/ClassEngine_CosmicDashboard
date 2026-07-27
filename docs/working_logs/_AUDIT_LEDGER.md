@@ -4370,3 +4370,15 @@ eras and extended to the standing values (×7×10¹⁴ margin) in
 `scripts/heff_anchor_verification.py`; the room file now carries a pointer at the ruling
 block so no reader stops where the sweep stopped. Board #35 closes as already-resolved,
 verified, not as new work.
+
+**Same-day addendum to the sweep note (2026-07-27, later):** the SCOPE-OK #104 residual
+("careful pass + rectification efficiency"), re-verified as correctly open this morning,
+moved the same afternoon: stage 6 of the transfer spec computed the careful pass's
+magnitude piece and found the symmetric junction ADIABATICALLY NULL (the naive boundary
+scale was a hard-edge artifact of the integration window — demonstrated by moving and then
+smoothing the edge). The residual sharpens rather than closes: the whole transmission now
+rides T14 link 5's diode object, four consumers, with the m₁/θ̇ = 0.75×-need scale watch
+at coincidence grade. Also synced on the same sweep: the master-computes M2 row, docket
+#141 (closed — the shelf had flagged the row stale against the recorded c = 0.789262),
+and docket #121 (substantially paid by the release-era Ψ₀ and the physical-hierarchy
+f_amp distribution; the genesis-dynamics remainder rehomed under #117).

@@ -145,7 +145,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 118 | The two-draws question (chain link 4→5) | open |
 | 119 | The cold-spot orphan | closed |
 | 120 | The regulator's entanglement-side O(1) check | closed — **structural**: the conical R-delta makes both coefficients one heat-kernel term, so any form factor cancels in the ratio (any p, not just p = 2). Successor open item, larger: the same identity does **not** extend past minimally coupled scalars to the model's actual roster |
-| 121 | The genesis calc — exact Ψ₀ and f_amp | open |
+| 121 | The genesis calc — exact Ψ₀ and f_amp | open, substantially paid 2026-07-27: Ψ₀ at release = 1.59×10¹⁶ GeV (relic-closed misalignment bookkeeping at the standing m, λ — `hscan_physical_target.py`) and f_amp computed as a distribution at the physical hierarchy h₀ ≈ 0.1 (`lowh_dice.py`: median 0.77–0.92 by tilt, min 0.68, no quiet branch in 168 draws, near-deterministic). What "exact" still owes: the genesis-era dynamics proper (the pour → release map), which is the bounce sector's (#117) |
 | 122 | Three owed-vs-completed conflicts adjudicated | closed |
 | 123 | The Gibbs–Duhem mode-sum calculation — the DE value's un-built object | closed — a reframe. The DE value (w = −1, ρ_Λ¼ = 2.2599 meV) is carried by the condensation energy (Door A, ½α_c²M₂), which is frame-safe and needs no mode sum; cosmological_constant.md carries it. The mode sum cannot be the object: its renormalized residual is the LHY term (so it would inherit #169's control failure, λ = 26–46 against λ\* = 22.41), and a preferred-frame Goldstone sum returns w = +⅓, not −1. Reopens only if the SU(2) N_f = 3 lattice returns λ < λ\* AND a frame-compatible regulator is exhibited — a future gate, not a current owed object |
 | 124 | The edge-convention audit | open |
@@ -165,7 +165,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 138 | What fixes k_F | closed |
 | 139 | Rainbow truncation and equal-band DOS | closed |
 | 140 | Particle-hole symmetry at the pairing shell | closed — **reversed** an earlier reading; r = v_e/v_h stays free |
-| 141 | The vertex correction — the ≈2.7 dominating the anchor's band | open |
+| 141 | The vertex correction — the ≈2.7 dominating the anchor's band | closed (row synced 2026-07-27; the shelf had flagged this row stale) — crossed box computed: c = 0.789262, converged to 11 digits, GMB-validated; with #183's Fock companion a = 0.280677 (same sign, they add), 1/λ_eff = 1/λ + c + a → band 0.55–1.78 TeV |
 | 142 | THE COUPLING'S SCALE | closed |
 | 143 | PROPAGATION PASS | closed |
 | 144 | At what scale α_c = 3α holds | closed |
