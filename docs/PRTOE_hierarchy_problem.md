@@ -794,3 +794,27 @@ should be held apart:
 
 Nothing here selects among them, and the third is not the least likely. What today's work established
 is that the choice is now sharp and numerical rather than interpretive.
+
+### 6n. The dichotomy dissolves at finite chemical potential (2026-07-28)
+
+§6m's discrimination evaluated the hot reading at zero chemical potential, and that turns out to
+be the conflation the constant was punishing. A relativistic plasma's one-loop screening mass at
+temperature T and chemical potential μ is m_D² = e²(T²/3 + μ²/π²) per Dirac band — the standard
+hard-thermal-loop result — and in the μ-dominated limit (T → 0 at fixed μ = v·k_F) it equals the
+cold degenerate Thomas–Fermi result exactly: e²μ²/π² per band, two velocity-matched bands giving
+b = 2α_c/π, the booked constant to machine identity
+(`scripts/host_mismatch_mu_resolution.py`). A Fermi point at finite chemical potential *is* a
+degenerate Fermi surface, however hot the era.
+
+The three readings above therefore collapse into one condition: **the basement is μ-dominated**.
+The thermal term adds π²T²/3μ² to the constant — 13% at μ/T = 5, 1% at μ/T = 18 — so the
+percent-level fidelity the kill condition names requires μ/T ≳ 18 at the floor. The screening
+constant, which pointed away from the recorded basement at μ = 0, points exactly at it once the
+basement carries a chemical potential.
+
+What supplies μ is the narrowed question. The corpus's one recorded chemical-potential-class
+object is the arrow sector's ⟨θ̇⟩ ≠ 0 — a uniformly rotating phase is a chemical potential for
+the charge it rotates. Whether the basement roster carries that charge at μ ≫ T is a condition
+for the arrow sector's development to derive; it is carried here as this section's named
+condition, not asserted. §6e's velocity-matching requirement and the surviving ratio r = v_e/v_h
+are untouched.
