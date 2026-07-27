@@ -85,10 +85,13 @@ def evolve(A: float, v0: float, n_grid: int = N, dt_max: float = DT_MAX):
         vmax = float(np.max(np.abs(psi2 - 1.0)))
         dt = min(dt_max, PHI_TOL / max(vmax, 1e-12))
         # Strang: half potential, full kinetic (exact in sine basis), half potential
+        # scipy.fft.idst is the NORMALIZED inverse — no extra division.  (v3's
+        # first launch divided by 2N again, shrinking the field each step; the
+        # energy guard flagged 100% drift at once and nothing was quoted.)
         w = u * np.exp(-0.5j * dt * (psi2 - 1.0)) - r_l
         wh = dst(w.real, type=1) + 1j * dst(w.imag, type=1)
         wh *= np.exp(-0.5j * dt * k_l ** 2)
-        w = (idst(wh.real, type=1) + 1j * idst(wh.imag, type=1)) / (2 * (n_grid))
+        w = idst(wh.real, type=1) + 1j * idst(wh.imag, type=1)
         u = w + r_l
         psi2 = np.abs(u / r_l) ** 2
         u *= np.exp(-0.5j * dt * (psi2 - 1.0))
