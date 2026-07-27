@@ -537,7 +537,36 @@ registration's spirit is unchanged: both
 directions still executable, now with the instruments named per
 mass branch.
 
----
+**UPDATE 4 (2026-07-27) — THE h-CONVERGENCE PRECONDITION RESOLVES, AND
+THE DICE NEARLY STOPS BEING DICE:** UPDATE 2's remaining precondition
+("the h-convergence of P(f_amp)") is answered by relocating the
+physical hierarchy first: h₀ = λ·ρ(z_rel)/m⁴ at release scales as
+λ/m^{5/2}, and the standing parameters (m = 2.24×10⁻²⁰ eV,
+λ = 2×10⁻⁹¹) put it at **h₀ ≈ 0.1** — six decades below the era-bound
+"~10⁸" and three below the old scan's bottom; the formula reproduces
+the room's own era numbers before it is trusted
+(`scripts/hscan_physical_target.py`). The dice rerun on the physical
+grid (`scripts/lowh_dice.py`, validation-gated: the booked h = 300 row's
+P = 86% reproduces exactly; its median lands 0.68 vs 0.55, at the
+gate's edge — an instrument-convention caveat carried by every number
+below): **P(f_amp > 0.2) = 100% across h ∈ {0.03, 0.1, 0.3} at every
+tilt; zero quiet draws in 168 universes; minimum f_amp = 0.68 at
+h₀ = 0.1, and 0.31 over the whole h ≤ 0.3 block** (which covers the
+scoping's factor-2 uncertainty in h₀). Consequences, exactly: (i) the
+~86% odds were era-bound — at the physical hierarchy the ringing side
+holds with no surviving quiet branch, and ε = √f_amp lands LARGE
+(medians 0.96/0.92/0.87 at r_t = 0.3/0.6/0.9; full spread
+[0.83, 0.99] at h₀ = 0.1); (ii) the registered SILENCE half is
+untouched — it survives instrumentally by the mass gate (UPDATE 3's
+beat arithmetic at the standing mass: beat_needed = 5018 against
+beat ≤ 1 identically), not by quietness; (iii) the granule ε-meter —
+the collision's one m-independent readout — now expects NEAR-MAXIMAL
+contrast, the sharpest sim target this thread has produced; (iv) the
+distributional summit (outcome iv) NARROWS at the physical h: the
+chaos dies with the quartic (the 14-angle spread collapses to ±0.08
+at h₀ = 0.1) and a mild tilt-dependence returns (the erased dial
+re-emerges below h ~ 1) — ε is still a draw, but from a distribution
+tight enough to act like a prediction.
 
 ## ANN-2026-009: Magnitude correction to ANN-2026-006(a), self-caught
 

@@ -543,6 +543,20 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 > readout) riding on it. Corollary recorded: at the standing era the
 > field never passes basin entry (ρ_rel < m⁴/λ), so A3a's z_x identity is
 > era-bound; every τ_Q verdict used the direct h_eff formula and stands.
+>
+> **ANSWERED (same day,** `scripts/lowh_dice.py`**):** the dice rebuilt to
+> this room's conventions (rotor/librator limits asserted — the assert
+> caught a missing complex-field ½ in v1's force before anything was
+> quoted) and validation-gated on the booked h = 300 row (P = 86%
+> reproduced exactly; median 0.68 vs 0.55, gate's edge — convention
+> caveat carried). The physical grid: **P(f_amp > 0.2) = 100% at every
+> h ≤ 0.3 and every tilt; 0 quiet draws in 168; min f_amp = 0.68 at
+> h₀ = 0.1**. The quiet branch does not exist at the physical
+> hierarchy; the ε-meter keeps a near-maximal target (ε medians
+> 0.87–0.96); the chaos dies with the quartic (spread ±0.08 — the dice
+> nearly deterministic, the tilt dial mildly re-emerging). Registered
+> consequences: prereg ANN thread UPDATE 4 (P-2026-005). The "still
+> owed" above is PAID in its re-scoped form.
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only, so far).
 
