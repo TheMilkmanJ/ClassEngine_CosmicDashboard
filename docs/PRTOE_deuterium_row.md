@@ -35,22 +35,14 @@ The model predicts **D/H = 2.387×10⁻⁵**. The quasar-optical measurement is 
 
 > **Standing width ±0.0476** = observational ⊕ nuclear theory → the standing row reads **−2.94σ**.
 
-**Why not three terms.** A third ±0.0300 for d(p,γ)³He was carried for a time as a separate
-nuclear-rate uncertainty, giving ±0.0563 and a friendlier −2.49σ. That folding is **retired**:
-PRIMAT's ±0.037 is the Monte-Carlo prediction error *after* adopting the LUNA D(p,γ)³He rate
-(Mossa et al. 2020; Table 1 and §2.2 of arXiv:2011.11320), varying nuclear rates, τ_n, and the
-CMB+BAO baryon posterior. Adding d(p,γ)³He again double-counts the dominant deuterium destruction
-channel. The retired three-term arithmetic is pinned in the harness so a stale −2.49σ is caught on
-sight, and the kill is in `PRTOE_FAILURES_LEDGER.md`.
-
-**Why this was hard to see.** The third term is numerically equal to the observational error, so
-observational ⊕ nuclear and nuclear ⊕ rate both give **±0.0476** to five figures — no arithmetic
-check can separate them. Only the citation settles it. *(An earlier attribution also named
-⁴He(d,γ)⁶Li as a D/H driver; that reaction is a ⁶Li channel and is not one.)*
+**Why two terms and not three.** PRIMAT's ±0.037 is the Monte-Carlo prediction error *after*
+adopting the LUNA D(p,γ)³He rate (Mossa et al. 2020; Table 1 and §2.2 of arXiv:2011.11320),
+varying nuclear rates, τ_n, and the CMB+BAO baryon posterior — so folding d(p,γ)³He in as a
+separate third term would double-count the dominant deuterium destruction channel.
 
 Applying the committed dark-radiation residual (the ζ window), the quotable window is
-**−2.5σ to −1.4σ** on this same two-term width. That range is unchanged by the ruling; only the
-standing (pre-window-edge) figure moves from the retired −2.49σ to **−2.94σ**.
+**−2.5σ to −1.4σ** on this same two-term width; the standing (pre-window-edge) figure is
+**−2.94σ**.
 
 **Against ΛCDM, honestly.** The in-house ΛCDM control on identical data and the same code gives
 D/H = 2.420×10⁻⁵, which is **−2.25σ** on the standing width. So:
@@ -157,8 +149,7 @@ D/H-relevant reaction in turn, on the model's own configuration:
 
 In quadrature, **PRyM's own nuclear-rate error on D/H is ±0.0240** — the first time this row's theory
 error has been computed in the code that produces the prediction. **d(p,γ)³He alone carries 52% of
-the variance**, confirming from the model's own network what #157 settled from the literature: it is
-the dominant deuterium channel, and folding it in twice was a double count.
+the variance**, confirming from the model's own network that it is the dominant deuterium channel.
 
 **The borrowed ±0.037 is a different object.** PRIMAT's Monte-Carlo varies rates, τ_n *and* the
 CMB+BAO baryon posterior. Rebuilding that same combination from PRyM's ingredients — rates 0.0240,
@@ -445,13 +436,9 @@ percent where P-2026-006 needs 0.14–0.21% — short by a factor of **21,000 to
 shift anywhere near what a heal would need is independently excluded at **12–18σ** by the very row
 it would be healing.
 
-*(This was argued for a time as forbidden **by the model's own symmetry** — the electron-coupled
-scalar read as the Majoron, so that lepton number would forbid a quark coupling outright. That
-route is closed: the scalar and the Majoron are separate fields, and |Ψ|² is L-neutral, so
-U(1)_L screens the quark bilinear no more than the lepton one. The conclusion is unchanged and
-the margin is four orders wider than it needs to be — but it is a quantitative wall, not a
-symmetry wall, and this
-paragraph previously claimed the opposite.)*
+*(The scalar and the Majoron are separate fields, and |Ψ|² is L-neutral, so lepton-number
+symmetry does not forbid the quark coupling — the wall is quantitative, with four orders of
+margin, not symmetry-based.)*
 
 This is the sharpest statement of where the row comes from. **The model's one matter-to-matter
 channel is the lepton current, and deuterium's binding is nuclear.** The electron-coupled scalar
@@ -688,15 +675,11 @@ unfinished calculation.
 
 - P-2026-027's radio referee — decides the fork from the other side;
 - BBN code systematic (PRyM vs PRIMAT/PArthENoPE) — how much of −2.94σ is code vs physics;
-- a production-faithful D/H term in the joint likelihood — **built and priced, 2026-07-21**. Of the
-  as-run prior's constants, the exponent −1.6 turned out to be right (measured −1.656; the corpus's
-  −1.83 was a differencing artefact, now retired). The real errors were the normalisation, which
-  assumed 2.53×10⁻⁵ at the pivot where production PRyM makes 2.4467×10⁻⁵, and the width, which was
-  observational-only. So the fit believed the model sat 3.4% nearer Cooke than it does — the
-  inter-code spread the corpus calls an external systematic was inside the likelihood. The corrected
-  term lands within **0.07%** of production (`scripts/bbn_prior_production_faithful.py`).
-  Re-weighting the posterior onto it moves ω_b by **+0.006 percentage points** and H₀ by 0.00: the
-  errors cancel, and the price of the trade is confirmed rather than changed;
+- a production-faithful D/H term in the joint likelihood — **built and priced, 2026-07-21**. The
+  term reproduces production PRyM to within **0.07%** at the pivot, with the measured elasticity
+  −1.656 (`scripts/bbn_prior_production_faithful.py`). Re-weighting the posterior onto it moves
+  ω_b by **+0.006 percentage points** and H₀ by 0.00: the price of the trade is confirmed rather
+  than changed;
 - CMB-S4 on the Majoron sector — selects v_L; it does **not** by itself supply the 20 MeV injector
   (the MeV-scale point is a scale, not that state).
 

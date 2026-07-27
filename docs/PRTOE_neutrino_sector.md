@@ -31,11 +31,7 @@
  favored by the registered P-2026-004 prediction-collision test, not by P-2026-012, which does
  not fix it — ANN-2026-025). **This number is not a discriminator**: it sits 2.6 meV above the
  m₁ = 0 floor of 58.8 meV, against a planned cosmological resolution of ~20 meV. The distinctive
- content is in m_ββ (§3), which is sensitive to m₁ where the sum is not. Full disclosure: an
- earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this
- model's own pre-registered
- prediction-collision test and is retired in the registry; the ordering claim survived its
- internal challenger.
+ content is in m_ββ (§3), which is sensitive to m₁ where the sum is not.
 4. The exploratory closure is that an occupancy-corrected derivation of ρ_inf (the model's
  constant dark-energy floor density — the quantity that plays the role of ρ_Λ) reproduces the
  same sum by an independent route through the recorded relation chaining ρ_Λ, the derived scale
@@ -96,10 +92,6 @@ is therefore quoted as **m_ββ ∈ [0.04, 5.3] meV**. (The derived anchor sits 
 The floor is the soft end of the window and nothing observable rides on it — it is two orders
 below any experiment's reach on any timeline. Every conclusion in this file and in the
 experimental overlay turns on the ceiling, which the anchor barely moves.
-
-An earlier draft treated a 1.5% spread in the dark-energy scale as live uncertainty and said the
-floor nearly halved across it. That spread was the retired T_c = 179 keV route (2.284 meV), not the
-observation's 0.45% error; the live floor only thins by about a quarter (0.050 → 0.038 meV).
 
 One consequence is worth stating for the double-β community: the near-cancellation makes **m_ββ an
 unusually sharp probe of the dark-energy scale**, since small changes in m₁ move it hard.
@@ -202,14 +194,6 @@ so a single vertex does not easily do both jobs at TeV-scale M. The shared-verte
 survives if leptogenesis is non-resonant; then v_L ≥ GeV and the Majoron coupling is too small for
 CMB-S4. CMB-S4 can test that point: a detection at g ~ 10⁻⁸–10⁻⁹ would favor the shared-vertex
 picture; a null would favor the high-v_L point.
-
-## Where the dead ends live
-
-The self-caught over-credit ("seesaw forces type-III") and the m_D-ribbon guess (0.1–0.3 GeV
-read as viable before the scan found the surface empty) are logged in
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Baryogenesis & the neutrino
-sector."** Both were corrected toward the honest reading this file carries: sterile states
-invisible to the model's degree-of-freedom counting exist, so the seesaw type is unforced.
 
 ---
 
