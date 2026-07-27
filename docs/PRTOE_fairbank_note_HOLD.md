@@ -106,3 +106,25 @@ and the deuterium row's closing sentence in §5 still carried the pre-correction
 "surrendering the Majoron identification" clause, contradicting the corrected
 parenthetical directly above it; it now states the corrected content — the
 quark door is shut quantitatively, not by symmetry.*
+
+## Full line-by-line pass, owner-ordered (2026-07-28)
+
+*The owner ordered a complete read-through with fixes ("actually go through the
+file"). Eleven changes, all terminology, units, or fluency — no numbers moved:*
+
+1. "the registered collision result" → "a registered prediction-collision test"
+   (the last house-protocol term in the letter).
+2. "lands at 2.2599" → "lands at 2.2599 meV" (unit).
+3. "quoted as [0.04, 5.3]" → "[0.04, 5.3] meV" (unit).
+4. The cancellation-threshold sentence rebuilt for fluency: "The model's
+   derived anchor sits 2.8% below that threshold — six times the precision to
+   which the scale is measured — so the floor thins across the allowed range,
+   but it does not vanish inside it."
+5. "early dark energy scores −ΔAIC 23.40" → "improves the information
+   criterion by 23.40 and leaves a residual tension of 2.51σ" (the sign
+   convention no longer requires decoding); "analysis chain" → "analysis
+   pipeline" (avoids collision with the sampler sense of "chain").
+6. "holding with the SH0ES calibration included and pulling the other way" →
+   "included even though that calibration pulls the other way."
+7. One comma splice fixed (the κ_m qualification).
+8–11. Four overlong lines rewrapped to the file's measure.

@@ -55,15 +55,15 @@ that earns the word distinctive.
 On provenance, the prediction was registered before the deciding data (2026-07-07, git-timestamped).
 The bridge used here is the same lightest-mass relation already used in the neutrino sector: the
 model ties the dark-energy scale to the lightest neutrino mass, and the measured splittings then
-give the normal-ordering spectrum quoted above. The ordering itself comes from the registered
-collision result (P-2026-004), while P-2026-012 records the relation but does not select the branch
-by itself. See P-2026-012 and ANN-2026-025 for the full record.
+give the normal-ordering spectrum quoted above. The ordering itself comes from a registered
+prediction-collision test (P-2026-004), while P-2026-012 records the relation but does not select
+the branch by itself. See P-2026-012 and ANN-2026-025 for the full record.
 
 ## The cancellation floor, and how thin it is
 
 The lightest mass is the model's dark-energy scale, m₁ = ρ_Λ¼. The observed value is 2.25 meV, known
 to **0.45%** — Planck's 1.8% on ρ_Λ, quartered by the fourth root — and the model's derived chain
-lands at 2.2599, which is +0.44%, i.e. inside one standard deviation of the observation. The sum does
+lands at 2.2599 meV, +0.44%, i.e. inside one standard deviation of the observation. The sum does
 not notice: Σm_ν = 61.34 to 61.37 meV across that range, which is why it is quoted as 61.4. The
 effective mass is less forgiving, and the floor is where the difference shows.
 
@@ -78,14 +78,15 @@ The three contributions, with NuFIT-class mixings, across the observation's own 
 | ceiling | 5.295 meV | 5.302 meV | 5.310 meV |
 
 The floor moves by about a quarter across that range while the ceiling moves by 0.3%. The window is
-therefore quoted as [0.04, 5.3], and every conclusion below turns on the ceiling, which is stable.
+therefore quoted as [0.04, 5.3] meV, and every conclusion below turns on the ceiling, which is
+stable.
 
 A floor exists at all only because the middle term exceeds the other two combined — 2.67 against
 2.62. That margin is 0.05 meV on terms of order 2, so the three phasors barely fail to close a
 triangle, and complete cancellation is barely impossible. Above m₁ = **2.324 meV** the triangle
-closes, the floor is exactly zero, and complete cancellation becomes allowed — a threshold the
-model's own derived anchor sits 2.8% below, which is six standard deviations of the observation
-away. The floor thins across the range the scale is known to, but it does not vanish inside it.
+closes, the floor is exactly zero, and complete cancellation becomes allowed. The model's derived
+anchor sits 2.8% below that threshold — six times the precision to which the scale is measured —
+so the floor thins across the allowed range, but it does not vanish inside it.
 
 So the honest statement is that the floor is around 0.04 meV, and that it is a coincidence of
 scales rather than a protected feature. Nothing observable rides on it: it is two orders below any
@@ -148,9 +149,10 @@ opened the line found **3.5σ** (Hart & Chluba 2020), while the recent fit on AC
 returns m_e/m_e₀ = 1.0081 ± 0.0046 — a **1.8σ** preference — and a second recent analysis on those
 stacks concludes that varying m_e cannot fully resolve the tension once DESI DR2 BAO is included.
 **And the field's own common-framework comparison does not favour this mechanism class:** across
-fourteen models in one analysis chain, early dark energy scores −ΔAIC 23.40 and leaves a residual 2.51σ,
-against varying m_e's 12.58 and 4.25σ (Schöneberg et al. 2026). We are not the best-performing
-route to H₀ on the current scoreboard, and this letter's case does not rest on our being so.
+fourteen models in one analysis pipeline, early dark energy improves the information criterion by
+23.40 and leaves a residual tension of 2.51σ, against varying m_e's 12.58 and 4.25σ
+(Schöneberg et al. 2026). We are not the best-performing route to H₀ on the current scoreboard,
+and this letter's case does not rest on our being so.
 
 The shifted calibration frees the damping-tail budget that ΛCDM fits spend against the neutrino
 mass, so model-conditional fits leave Σm_ν near its physical value: the same data, room instead of
@@ -161,8 +163,9 @@ than cosmologically foreclosed.
 
 The model's fits match or modestly outperform ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO +
 Pantheon+SH0ES, at H₀ ≈ 69.9 — sound-horizon-driven, and holding with the SH0ES calibration
-included and pulling the other way. That figure is not yet final: the chains that underwrite it are
-still being brought to convergence under a corrected sampler configuration, and the value may shift.
+included even though that calibration pulls the other way. That figure is not yet final: the
+chains that underwrite it are still being brought to convergence under a corrected sampler
+configuration, and the value may shift.
 
 **The current test, with a caveat found while checking it.** The zero-parameter evidence
 comparison freezes amplitude, tilt, coupling and transition epoch in advance, against ΛCDM at full
@@ -228,8 +231,9 @@ is carried at four different values in the current literature, and the *baseline
 figure above, before the dilution is added — reads anywhere from **−3.6σ to −1.6σ** across them.
 (That range is a statement about the error bar at one prediction; the −2.5 to −1.4σ quoted earlier
 is a different object, the span of the ζ window at one fixed error bar.) Our −2.94σ uses the
-tightest assessment available, which is the conservative choice and not our own code's. We have registered the consequence as a two-sided bet rather than
-leave it as a caveat (P-2026-058): closing our prediction onto Cooke requires the true d(d,n)³He
+tightest assessment available, which is the conservative choice and not our own code's. We have
+registered the consequence as a two-sided bet rather than leave it as a caveat (P-2026-058):
+closing our prediction onto Cooke requires the true d(d,n)³He
 rate to sit 5.0–9.6% below PRIMAT's central value. If a LUNA-precision measurement confirms PRIMAT
 to ~1%, our deuterium prediction is wrong at −3.6σ and no lever in the model reaches it. We note
 plainly that this bet is largely shared with ΛCDM, which needs −8.9% on the same rate; it
@@ -250,8 +254,9 @@ up into the 2.407–2.463 range quoted above. The prediction is built in two ste
 
 **The new physics acting during nucleosynthesis helps.** The electron-mass ramp switches on at
 the derived T_c = 177.10 keV — the abundances are insensitive at the percent level, so nothing
-below turns on the exact figure — and raises D/H by 0.645%, worth +0.31σ toward the measurement. Grafted onto the ΛCDM
-control alone it would give −1.93σ, better than the control's −2.25σ — though that is a
+below turns on the exact figure — and raises D/H by 0.645%, worth +0.31σ toward the measurement.
+Grafted onto the ΛCDM control alone it would give −1.93σ, better than the control's −2.25σ —
+though that is a
 decomposition rather than an available configuration, since the window and the baryon shift are the
 same ε acting at two epochs and the model cannot have one without the other. The point it
 establishes is only that **the deficit is not manufactured in the nuclear sector.**
@@ -277,9 +282,9 @@ they move helium and deuterium the same way while the two need opposite moves. T
 confined below T_c is the right shape but comes out 8–33× too weak on the model's own
 degree-of-freedom counting. Late photodissociation of ⁴He is the cheapest cure available — breaking
 1.7×10⁻⁵ of the helium supplies enough deuterium to centre the row while moving Y_p by 0.001σ — but
-an electromagnetic repair requires a state of mass ≳ 20 MeV, lifetime 10⁶–10⁸ s, and abundance carrying ~30 eV per
-hydrogen, which the model's field content does not contain, for specific reasons rather than
-accidental ones.
+an electromagnetic repair requires a state of mass ≳ 20 MeV, lifetime 10⁶–10⁸ s, and abundance
+carrying ~30 eV per hydrogen, which the model's field content does not contain, for specific
+reasons rather than accidental ones.
 
 ## Two smaller items
 
@@ -295,7 +300,7 @@ claim is not that the number is explained but that **one un-derived number does 
 standard cosmology treats as unrelated.** What is predictive is the relation: given the measured
 dark-energy density, the sum and the ordering follow with nothing further to adjust. **Second**,
 κ_m ≈ 1 is where the residual freedom sits — the relation's form comes from the model's channel
-counting, its O(1) coefficient is not independently pinned. **Third**, this is deliberately not a
+counting; its O(1) coefficient is not independently pinned. **Third**, this is deliberately not a
 mass-varying-neutrino (MaVaN) construction; those founder on the Afshordi–Zaldarriaga–Kohri
 instability, and this model avoids it because m_ν is set by a frozen lepton-number-breaking vacuum
 expectation value rather than by the rolling dark-energy field, so the rolling does not vary the
