@@ -155,6 +155,7 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 - **[Hu1998]** W. Hu, "Structure formation with generalized dark matter," ApJ 506, 485 (1998), arXiv:astro-ph/9801234. — The GDM formalism the perturbation-sector debt (the working docket) will be phrased in.
 - **[Milgrom1983]** M. Milgrom, ApJ 270, 365 (1983). / **[MLS2016]** S. McGaugh, F. Lelli, J. Schombert, "The radial acceleration relation in rotationally supported galaxies," PRL 117, 201101 (2016), arXiv:1609.05917. — The RAR the galactic-atoms thread engages; MOND's kill/reopen history.
 - **[Banik2024]** I. Banik et al., "Strong constraints on MOND from wide binaries," MNRAS 527, 4573 (2024), arXiv:2311.03436. / **[Chae2023]** K.-H. Chae, ApJ 952, 128 (2023), arXiv:2305.04613. — The live wide-binary dispute (P-036 sides with Newton).
+- **[DiValentino2020]** E. Di Valentino, A. Melchiorri, O. Mena, S. Vagnozzi, "Interacting dark energy in the early 2020s: a promising solution to the H₀ and cosmic shear tensions," Phys. Dark Univ. 30, 100666 (2020), arXiv:1908.04281. — The interacting-dark-energy competitor row in the Hubble comparison table: Planck-alone reach with a free coupling, pulled back by BAO.
 
 ## 10. Historical foundations (the legacy action's ancestry — retired era)
 
