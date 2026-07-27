@@ -80,21 +80,33 @@ def main() -> None:
     print("   (1D verified rebounds overshoot by O(1); the sequencing race saw")
     print("   peak compressions of 3–8 at Mach 2–3.)")
 
+    # fold ONLY rows that pass the run's own quotability gate (energy ≤ 2%);
+    # each row prints "... (×F) ... E% ..." — capture F with its energy column.
     f_meas = None
+    unquotable = []
     if SPHERICAL_OUT.exists():
         text = SPHERICAL_OUT.read_text()
-        hits = re.findall(r"n_init→n_peak.*?(\d+(?:\.\d+)?)\s*[×x]", text)
-        rows = re.findall(r"^\s*[\d.]+\s+[\d.]+\s+[\d.]+\s*→\s*([\d.]+)", text, re.M)
-        cand = [float(x) for x in hits + rows if float(x) > 0]
-        if cand:
-            f_meas = max(cand)
+        rows = re.findall(r"×\s*([\d.]+)\)[^\n]*?([\d.]+)%", text)
+        quot = [float(f) for f, e in rows if float(e) <= 2.0]
+        unquotable = [(float(f), float(e)) for f, e in rows if float(e) > 2.0]
+        if quot:
+            f_meas = max(quot)
 
     print(f"\n3. The measured focusing (spherical adaptive run):")
-    if f_meas is None:
+    if f_meas is None and not unquotable:
         print("   PENDING — the run is in flight; verdict withheld until it lands.")
         print("   Standing read: unless 3D focusing exceeds the bar above by")
         print("   itself, the restart bath is sub-keV to keV-class and O6 is not")
         print("   funded by compression. Nothing concluded before the number.")
+    elif f_meas is None:
+        print("   NO QUOTABLE ROW — every row failed the run's own energy gate:")
+        for f, e in unquotable:
+            print(f"     focus ×{f:8.1f} at energy error {e:8.1f}%  (gate ≤ 2%)")
+        print("   The focusing number is numerically unresolved by this method.")
+        print("   Every indicator — including the energy-inflated ones, which")
+        print("   overestimate — sits 6–7 orders below the bar. The §18 honest")
+        print("   endpoint is recorded with the caveat: a future resolved 3D")
+        print("   computation clearing 1e9 would reopen O6's compression funding.")
     else:
         t_restart_cmb = T_RAD_DOOR_EV * f_meas ** (1.0 / 3.0)
         t_restart_deep = T_DOOR_DEEP_EV * f_meas ** (1.0 / 3.0)

@@ -994,3 +994,33 @@ automatically and prints promote (O6 funded by compression) or the §18 honest
 endpoint (the reconstruction's own channels under-fund the hot start; the
 outer-spec tension recorded; funding moves to the genesis cascade's open
 dynamical half, task #11). Nothing concluded before the number.
+
+---
+
+## 23. Task 5 closed — O6's answer recorded (2026-07-28)
+
+The adaptive spherical run completed its grid: four configurations
+(A ∈ {5, 20, 50} at v₀ = 1; A = 20 at v₀ = 3), focus factors ×119–971, and
+**every row failed the run's own quotability gate** (energy errors 22–1817%
+against the ≤2% bar; the convergence pair, still computing, cannot rescue
+quotability because its base row failed at 138%). The spherical focusing
+number is numerically unresolved by this method at this resolution.
+
+The assembled timeline's verdict therefore lands on the recorded honest
+endpoint (§18, §22), with the caveat stated exactly:
+
+**O6 is not funded by the reconstruction's own channels.** The bath rides the
+contraction intact (§19) but arrives at the doors at 146 eV–keV; the turn is
+local gradient-stress rebound whose measured 1D overshoots are O(1); the bar
+compression would need is 10⁹–3×10¹¹ in volume, and every spherical indicator
+— including the energy-inflated ones, which overestimate — sits six to seven
+orders below it. The restart bath is sub-keV to keV-class on everything
+computed. The outer-spec tension is recorded: the reconstruction under-funds
+the MeV hot start, and says so. **O6's funding moves to the genesis cascade's
+open dynamical half (task #11)** — which the τ program's own deposit question
+already points at from the other side. CAVEAT that would reopen this: a
+future resolved 3D computation (energy-clean at focusing) clearing 10⁹.
+
+Task #5 closes with this endpoint per the finish standard — not a promote,
+not a kill of the architecture: the recorded answer to O6, owned adversely,
+with its reopening condition named.
