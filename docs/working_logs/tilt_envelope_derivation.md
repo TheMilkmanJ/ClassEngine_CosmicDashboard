@@ -231,3 +231,19 @@ abstract link is physical.
 
 **The keystone's gates after tonight:** (a) the weight-zero exhibit;
 (b) the μ ≫ T host condition (#16). Both sharp, neither promoted.
+
+## Addendum 9 (2026-07-28): the validity edge assessed — a referee, not a wound
+
+`scripts/uv_edge_assessment.py`. Beyond the edge (k_edge = 0.262/Mpc,
+recomputed) the realized count per cell falls as N₁·(k_edge/k)² — 54 by
+k = 1/Mpc, 6 by 3/Mpc — and the cascade cannot terminate within one network
+time. That makes the edge a DISCRIMINATOR between the amplitude's two
+normalization readings, which is exactly task #15's question: the
+coupling-normalized reading (the closed form's literal structure, three powers
+of g_scr/4π) is flat through the edge and the Lyman-α range's recorded
+roughly-standard power is an automatic consistency; the count-normalized
+(shot-noise-class) reading breaks blue as (k/k_edge)⁶ — ×3×10³ in power by
+k = 1/Mpc — and is excluded by the recorded sky. The small-scale data thereby
+constrain #15's gate from the observation side: the weight-zero exhibit must
+land coupling-class. #25's promotion rides on that landing; its kill applies
+only to the reading the sky already disfavors.
