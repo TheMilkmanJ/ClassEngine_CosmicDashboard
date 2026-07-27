@@ -49,3 +49,12 @@ costing one power of λ, which is 90 decades here. Autopsy in the failures ledge
 
 Remaining for #31: the theory half — the quartic's saturation corrections to the spin-down
 rate inside the band (what nonlinear saturation does to the dip's depth and edges).
+
+**Addendum, same day — the theory half was already paid.** The census's "the quartic's
+saturation corrections remain" (2026-07-18) predates the quench computation
+(`scripts/superradiance_quench.py`, 2026-07-20): at the recorded λ the self-interaction is
+**85 decades short** of saturating the cloud before spin-down (no O(1) rescues it), and the
+attractive-case bosenova paces spin-down rather than stopping it. The saturation corrections
+are therefore computed to be absent — the band's evolution is a free scalar's, which is
+exactly how P-2026-034's registry note carries the exposure. Task #31 closes with both
+halves: today's data assembly and the already-paid theory answer.
