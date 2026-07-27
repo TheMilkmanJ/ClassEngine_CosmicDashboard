@@ -199,7 +199,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 172 | Build the retirement→task join | closed — mechanized as a commit-gate check |
 | 173 | The R1 caustic-bit two-field sims | open — sim-gated |
 | 174 | The Z₄ tilt's forced status | closed — booked as INPUT; Ψ³Ψ* is parity-EVEN, so the forcedness argument fails on its own algebra |
-| 175 | P-2026-043's RECFAST-class thermal-history run | open |
+| 175 | P-2026-043's RECFAST-class thermal-history run | closed (row synced 2026-07-27 — stale against the prereg registry's own annotation): the run was made; trough depth ≈ 1.0% (not the estimate's 4.6%), the SIGN — the registered content — holds; the decision rule is a sign test |
 | 176 | Pre-register the P-018 XOR Route-D branch | closed — registered P-2026-056, pre-hoc; guard 2 discharges adverse |
 | 177 | The ln 2 seam | closed — the BCS gap prefactor moved between prefactor and cutoff; not a seam |
 | 178 | The weak sector's substrate coupling | closed — structurally void, with its falsifier recorded |

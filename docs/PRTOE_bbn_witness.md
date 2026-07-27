@@ -15,6 +15,11 @@ sits INSIDE the BBN window. The three abundances are three frames of the condens
  costs **−0.0036σ ± 0.0013** on D/H and the ε move **+0.0035σ ± 0.0004**. They carry opposite
  signs and near-equal magnitude, so applying both together is **−0.00005σ, zero to within ±0.0014σ** — and the re-run buys nothing
  (`scripts/prym_supersession_pricing.py`, [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)).
+ The keying itself is now measurement-enforced, not conventional: re-keying the ramp onto the
+ scalar's own kernel band (307–714 keV) moves helium-4 by +0.50σ to +1.37σ and deuterium by up
+ to +0.79σ across that band — outside the fences everywhere — so the abundances themselves pin
+ the ramp's onset to the transition scale near 177 keV (the re-key grid through the production
+ splice, 2026-07-27).
 - the epoch stamps: n/p freeze-out (~800 keV): ε = 0 (dyad OFF — above T_c); D bottleneck
  (~70 keV): ε_eff = 0.61ε; Li (~40 keV): 0.78ε
 - the abundances. **Two runs, two baselines — they are not interchangeable, and D/H must never be
