@@ -55,6 +55,8 @@ Distinct from section 3, because nothing external is being waited on — the cod
 - **#150 (B1, the genesis solver)** and **#151 (B6, the BipoSH joint pipeline)** — both still PROJECT
 - **#160 — the low-ℓ regeneration**, which gates #151: the booked 83% retention came from a
   scratch-era pass that no longer exists, and the retained toy gives ~49%
+  *(2026-07-27 sync: PAID 2026-07-20 — `scripts/torus_lowell_pattern.py`, 90% retention, S/N 0.16;
+  the #151 gate is lifted; this bullet stood stale while its own payment sat in T5's table)*
 - **#173 — the R1 caustic-bit two-field sims**, the named remaining gate on the carrier-ratio exhumation
 - **the two surviving staged tests** (χ-lag core-halo, granule heating) — sim-gated, and neither
   waits on any remaining mathematics. The granule meter's statistical core is finished; only its
@@ -82,14 +84,17 @@ measurement, a ruling or a facility. Each waits only on someone doing it.
   correction above), the band moved to 0.55–1.78 TeV, and #124 itself is now closed by
   computation: no edge convention closes the gap, minimum 3.6× across every admissible pairing,
   `scripts/edge_convention_verdict.py`)*
-- **#146** the basement's band structure · **#168** the count C (now known to be an identification,
-  not a result) · **#101/#102** the Koide mechanism and the Brannen phase · **#115–#118** the family
-  potential, seat alignment, bounce sector, two-draws · **#120** the regulator's entanglement side ·
-  **#121** exact Ψ₀ and f_amp · **#123** the Gibbs–Duhem mode sum · **#125/#126** the two ends of one
-  joint — a gauge-singlet scalar does not inherit gravity's universality, and one argument pays both
-  · **#129** the ladder's matching section · **#130** the base α's two pieces · **#133** which rung
-  condensation picks · **#134** the dark vortex pair · **#154** the joint genesis draw · **#161** the
-  matched lensing likelihood · **#175** the RECFAST thermal history · **#180** the winding integer,
+- **#146** the basement's band structure · **#101/#102** the Koide mechanism and the Brannen phase
+  · **#115–#118** the family
+  potential, seat alignment, bounce sector, two-draws ·
+  **#123** the Gibbs–Duhem mode sum
+  · **#130** the base α's two pieces · **#133** which rung
+  condensation picks · **#134** the dark vortex pair · **#161** the
+  matched lensing likelihood · **#180** the winding integer,
+  *(struck from this list 2026-07-27, all docket-closed with receipts: #168 — the count C,
+  mechanized, N = 1.003 ± 0.005, `occupancy_one_exhibit.py`; #120 — closed structural; #125/#126 —
+  graded adverse / withdrawn; #129 — closed negative, an identification not a derivation; #154 —
+  the joint draw, proven independent; #175 — the thermal-history run, made and booked)*
   whose input `L_gen` is never assigned a value anywhere in the corpus
 - **#22 — the flavour puzzle**, reopened: its lever ("α_c = 3α counts the three flavours") was
   retired as a false receipt, so reopening is a re-scope rather than a re-run

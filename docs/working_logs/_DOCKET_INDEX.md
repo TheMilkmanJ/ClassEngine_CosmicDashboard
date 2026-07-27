@@ -17,6 +17,16 @@ of its own — the Q-series of the 2026-07-08 review (Q1/#19 … Q7/#25) and its
 list (#1, #3). Its "#21" is the kill-shot, not small-scale structure. Numbers on that page are scoped
 to that page. Everywhere else in `docs/`, the numbers are this table's.
 
+**A THIRD scheme exists and collides in the low numbers (carve-out extended 2026-07-27).** The
+session BOARD's task numbers (#1–#39 and growing) appear in `scripts/` docstrings ("task #34" =
+the BipoSH build, "task #15" = the amplitude identification, "task #36" = the low-h dice), in
+`_RESIDUAL_DEBT_CENSUS.md` ("#32 the matched lensing fit" = this table's #161), in
+`tilt_envelope_derivation.md`, and in `T2_smbh_atoms_owed.md`. Board numbers ≠ this table's
+numbers: board #34 is not docket #34 (the Kelvin-weight session), board #15 is not docket #15
+(the Threaded Physics debts). Any owed-vs-paid sweep that greps `#N` across `docs/` and
+`scripts/` must resolve WHICH scheme each hit belongs to before joining — the failure mode is
+silently cross-matching closed docket rows against live board tasks.
+
 **One caution, from the reverse audit.** A task marked closed means its *object* closed, not that
 every clause of a multi-part title landed — eleven of about a hundred and ten closures were graded
 wrong on exactly that ambiguity (#29, #33, #51, #55, #59, #76, #78, #92, #93, #95, #143), and four
@@ -120,10 +130,10 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 93 | THE DARK-ENERGY O(1) COEFFICIENT (the partial Gibbs–Duhem object) | closed — **mis-graded**; the real object is #123 |
 | 94 | T5: the cavity C_ℓ computation | closed |
 | 95 | T14: the rectification link | closed — **mis-graded**; the rectification was never computed, see #147 and #154 |
-| 96 | T10: the chiral gravitational-wave amplitude | closed |
+| 96 | T10: the chiral gravitational-wave amplitude | closed — ON THE CARRIER ONLY (scope annotation 2026-07-27, the composite-title failure mode): the paid object is the vortex network's carrier amplitude (Ω_GW h² ≈ 3×10⁻¹⁸, structural null); the θ·R·R̃ COEFFICIENT stays parked (parked register row 17's ramped-family reopening; `PRTOE_gravitational_waves.md` carries it as the open computation) |
 | 97 | The remaining thread residue (T1, T2, T4, T7, T9, T12, T13, quartet Z₄) | closed |
 | 98 | THE GALACTIC-CENTRE BUDGET TEST — the soliton at parsec radii | closed |
-| 99 | THE EVIDENCE RUN'S HORIZON — decide before it burns two months | open — owner's decision |
+| 99 | THE EVIDENCE RUN'S HORIZON — decide before it burns two months | closed (row synced 2026-07-27) — the decision was taken and executed 2026-07-20: the nested run ended after ~48 h without a first checkpoint (priced at 163 days/checkpoint on this hardware), archived to `chains/_archive_polychord_ended_20260720_0915/`, and the verdict rehomed to the Laplace-from-MCMC estimate (P-2026-044 amended; the live successor is #155) |
 | 100 | BBN ξ-propagation error re-issued corpus-wide | closed |
 | 101 | What enforces Var(√m) = mean² exactly — the Koide constraint's mechanism | open — no mechanism; the thermal route now closed **both** ways (sampled and deterministic), and the constraint restated as a vanishing Z₃-graded norm, which names the class |
 | 102 | The Brannen phase — a source that carries Q, not just its value | open — no source; the lock's data corrected (δθ is **+**7.409×10⁻⁶) and restated as an m_τ prediction, with P-2026-051's scope narrowed to ≲1.4 ppm |
@@ -178,13 +188,13 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 151 | B6 — THE BipoSH JOINT PIPELINE | open |
 | 152 | THE GRADE CONCORDANCE | closed |
 | 153 | THE RETIREMENT CROSS-CHECK | closed |
-| 154 | THE JOINT GENESIS DRAW — winding and rotation on one trajectory | open |
+| 154 | THE JOINT GENESIS DRAW — winding and rotation on one trajectory | closed (row synced 2026-07-27; the run landed 2026-07-20) — verdict NEGATIVE and decisive: `scripts/genesis_joint_draw.py` finds sign(θ̇) and sign(n) drawn INDEPENDENTLY (joint correlation −0.06 to +0.09 against a ±0.13 noise floor) — "sign(θ̇·n) is not a quantity the model signs; it is a coin it cannot call" (T14_link5_joint_draw.md). The cross-messenger lock is withdrawn in the failures ledger; the seeding-side claim sign(helicity_B) = sign(H_kin) survives on its own terms |
 | 155 | THE SAMPLER'S PROPOSAL — why chains accept 97% and never move | open — routeD/conv_desi relaunched on a seeded covariance; acceptance fixed (0.99 → 0.25–0.31), convergence unproven; dyad_mnu's ±1.00 degeneracy is the live hypothesis |
 | 156 | THE λ-QUENCH RE-DERIVATION — the superradiance shield | closed — **adverse**: computed at the recorded λ and m, the margin is −85 decades; there is no shield and the model meets P-034 as a free scalar |
 | 157 | The D/H error budget — one ruling, four homes | **closed 2026-07-21 against the model** — arXiv:2011.11320 post-LUNA ±0.037 already includes d(p,γ)³He; three-term double-counts LUNA. Standing width ±0.0476, standing row **−2.94σ**. Kill in FAILURES_LEDGER; deuterium row §1 + harness re-pinned; ForJustin/10 settled |
 | 158 | Link 4's sign convention | reduced — H_B = k²H_kin, coefficient squared, so no convention survives; what is owed is sign(H_kin). **Determined 2026-07-20: the recorded genesis cannot supply it** (story-grade banner, no rotation sense on record, the computing script not retained). Helicity is bilinear, so what is owed is one bit — whether the roll-up's poloidal sense is genesis-fixed or drawn — and the instrument is **#150 (B1, the only build with a velocity field), not #154**. Exposed: P-2026-057 declares one link fewer than it uses |
 | 159 | The cross-sector sign lock | closed — registered P-2026-057 |
-| 160 | Regenerate the low-ℓ pattern on a retained script | open — gates #151 |
+| 160 | Regenerate the low-ℓ pattern on a retained script | closed (row synced 2026-07-27; the regeneration ran 2026-07-20) — `scripts/torus_lowell_pattern.py`, retained: 90% retention, S/N 0.16, off-diagonal 1.4 (T5's table; booked in `_CANONICAL_VALUES.md` under this docket's number). The #151 gate is lifted |
 | 161 | The matched lensing-likelihood fit | open |
 | 162 | The web-dissipation ramp — the f_arr razor | closed — dead stub; the razor was dissolved two minutes after it was raised |
 | 163 | The ring-BEC literature search | closed — no; ⟨|cos|⟩ over a wound ring is an identity, not a measurement |
@@ -192,7 +202,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 165 | The synchrotron row's weight convention | closed — number was fixed-field, label said fixed-energy |
 | 166 | The competitor comparison — steelman the H₀ market | closed — built, and caught a miscitation; EDE outscores this class on every column |
 | 167 | The timing error band | closed — and the occupancy was mixing two clocks: 1-in-37, not 1-in-29 |
-| 168 | The count C — mechanize A_s's shot-noise normalization | open, and the target is re-typed — a fixed comoving cell is white noise (n_s = 4), so k_*ξ = 3.45×10⁻³ is a **scaling** ratio, not a Kibble–Zurek freeze-out. The collision it flagged is ruled by **#184**; two of its statements are corrected there |
+| 168 | The count C — mechanize A_s's shot-noise normalization | closed (row synced 2026-07-27; the count was mechanized 2026-07-28 by the amplitude promotion) — occupancy-one at the marginal scale, data-locked N = 1.003 ± 0.005 through the amplitude's cube (`scripts/occupancy_one_exhibit.py`; spine §23.5; hunt §8). The re-typing this row carried stands: k_*ξ is a scaling ratio, not a freeze-out (#184's ruling); the scaling mechanism's value/medium-derivation lives on in the census-scaling file's own open grade |
 | 169 | The g→λ map | closed — λ = 26–46, whole band above λ* = 22.41, so uncontrolled at this order |
 | 170 | M7's remaining half — f_wind | closed — 255× under the fence; the comb's detection claim dies, its location survives |
 | 171 | Resolve the four unverifiable closures | closed — three traced to one commit that deleted 8,635 lines claiming to preserve every live finding |
