@@ -206,3 +206,28 @@ abstract link is physical.
   continue unchanged; the consequence for smaller scales (the Lyman-α range,
   k ~ 1–3/Mpc, where data reads the spectrum as roughly standard) is
   UNASSESSED. Filed as its own task.
+
+## Addendum 8 (2026-07-28): the vertex flag reduced to one property; the screening structure unified
+
+`scripts/screened_vertex_reduction.py`, with the host result of
+`scripts/host_mismatch_mu_resolution.py` (hierarchy §6n) feeding it.
+
+- **Structure check (exact):** R = π/2α_c is not an independent input — it is
+  the backscattering range over the booked screening mass, R = 4k_F²/m_D² with
+  m_D² = 8α_c k_F²/π. R, m_D², k, and g_scr are one screening object seen four
+  ways, and §6n's finite-μ result hosts all four at once (the hot basement
+  screens cold when μ-dominated; condition μ/T ≳ 18, arrow-sourced, task #16).
+- **k re-verified independently:** the Fermi-surface average of the screened
+  exchange over the full backscattering range reproduces the closed form to
+  9×10⁻¹² relative, with the landing conventions printed openly (per-band
+  density of states with both spins, two velocity-matched bands,
+  pairing-channel ½, transfer measure q dq/2k_F²).
+- **Flag (i) reduced, not closed:** the golden rule gives P_cycle = g_scr/4π
+  exactly when the emission has WEIGHT ZERO — |M|² = 1 under the unit s-wave
+  measure, no velocity suppression (that is the computed-subdominant dipole/
+  bare channel), no phase-space enhancement. The remaining gate is the
+  weight-zero exhibit for the erasure channel; identifying the microscopic
+  process is owed, and is not invented here.
+
+**The keystone's gates after tonight:** (a) the weight-zero exhibit;
+(b) the μ ≫ T host condition (#16). Both sharp, neither promoted.
