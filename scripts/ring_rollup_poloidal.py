@@ -41,6 +41,17 @@ RUN RECORD (honest, dated)
   The run was stopped before its remaining rows for relaunch efficiency.
   v2 (2026-07-28): V_JET raised 1.2 → 2.5 and T_MAX 30 → 45 to force
   nucleation; the checks and the verdict logic are unchanged.
+  v2 RESULT: SECOND NUCLEATION NULL — the reflection pair again returned net
+  ring charge zero at double the jet strength.  Stopped per protocol (no
+  third blind retry).  OPEN QUESTION FOR THE OWNER, three readings held
+  apart: (i) the detector window (plaquette winding at r > 2, |z| < 30) may
+  miss rings born near the axis or short-lived; (ii) the smooth phase-ramp
+  jet may genuinely not roll up at these amplitudes in this geometry; or
+  (iii) the axisymmetric m = 0 reduction itself may not nucleate rings from
+  smooth jets — the roll-up may need the full 3D instability, which would
+  relocate link 4's poloidal test into the same 3D requirement its toroidal
+  half already carries.  Nothing killed: a test that never executed grades
+  nothing.
 """
 from __future__ import annotations
 
