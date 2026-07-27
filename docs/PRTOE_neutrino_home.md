@@ -2,9 +2,9 @@
 
 > *New reader? Claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*The third thread of the survey of atomic-constant relations; this note collects the neutrino-sector relation in one place.
-One registered prediction rides it (P-2026-023). Compared with standard cosmology, the model shifts
-the inferred neutrino mass upward rather than downward.*
+*The third thread of the survey of atomic-constant relations; this note collects the
+neutrino-sector relation in one place. One registered prediction rides it (P-2026-023). Compared
+with standard cosmology, the model shifts the inferred neutrino mass upward rather than downward.*
 
 > Status: the lightest-mass relation and the upward shift in the inferred neutrino mass are
 > established in the model; the remaining open items are the joint-fit consistency, the exact
@@ -54,5 +54,6 @@ computed.
 - KATRIN-class direct limits and the oscillation floor bracket the remaining allowed window.
 
 *Standard cosmology is pushing the neutrino mass downward. This model keeps the neutrino heavy
-enough to remain visible because the medium that replaces dark matter and dark energy pays that mass from its own sector.
-The cosmological and laboratory posteriors should diverge if the model is right.*
+enough to remain visible because the medium that replaces dark matter and dark energy pays that
+mass from its own sector. The cosmological and laboratory posteriors should diverge if the model
+is right.*

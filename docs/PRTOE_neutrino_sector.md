@@ -28,16 +28,18 @@
  problem (§2). The claim is that one un-derived number does two jobs that standard cosmology treats
  as unrelated, not that the number is explained.
 3. The sum: with measured splittings, $\Sigma m_\nu = 61.4$ meV, **normal ordering** (the ordering
- favored by the registered P-2026-004 prediction-collision test, not by P-2026-012, which does not fix it —
- ANN-2026-025). **This number is not a discriminator**: it sits 2.6 meV above the m₁ = 0 floor of
- 58.8 meV, against a planned cosmological resolution of ~20 meV. The distinctive content is in
- m_ββ (§3), which is sensitive to m₁ where the sum is not. Full disclosure: an earlier in-house
- prediction favoring inverted ordering (P-2026-004) was falsified by this model's own pre-registered
- prediction-collision test and is retired in the registry; the ordering claim survived its internal challenger.
-4. The exploratory closure is that an occupancy-corrected derivation of ρ_inf (the model's constant dark-energy
- floor density — the quantity that plays the role of ρ_Λ) reproduces the same sum
- by an independent route through the recorded relation chaining ρ_Λ, the derived scale M₂ = α²·T_c, and 3α; the running α_c chain checks that
- claim.
+ favored by the registered P-2026-004 prediction-collision test, not by P-2026-012, which does
+ not fix it — ANN-2026-025). **This number is not a discriminator**: it sits 2.6 meV above the
+ m₁ = 0 floor of 58.8 meV, against a planned cosmological resolution of ~20 meV. The distinctive
+ content is in m_ββ (§3), which is sensitive to m₁ where the sum is not. Full disclosure: an
+ earlier in-house prediction favoring inverted ordering (P-2026-004) was falsified by this
+ model's own pre-registered
+ prediction-collision test and is retired in the registry; the ordering claim survived its
+ internal challenger.
+4. The exploratory closure is that an occupancy-corrected derivation of ρ_inf (the model's
+ constant dark-energy floor density — the quantity that plays the role of ρ_Λ) reproduces the
+ same sum by an independent route through the recorded relation chaining ρ_Λ, the derived scale
+ M₂ = α²·T_c, and 3α; the running α_c chain checks that claim.
 
 ## 1. Why this block is the model's tightest constraint
 
@@ -49,9 +51,9 @@ below: a robust Σ > 70 meV kills 2–3, but so does a ΛCDM-conditional upper l
 61.4 meV, which is the direction the frontier is actually moving. The model's answer is that those
 limits are ΛCDM-conditional and the squeeze relaxes under its own recombination history — a testable
 claim, and the fastest route to grading this block. Inverted ordering from oscillation experiments
-also kills 2–3; (iii) an in-house tension: P-2026-023's de-biased band (0.07–0.09 eV) sits above this
-block's 0.061 — the running chains' own posterior arbitrates between the model's two neutrino
-numbers.
+also kills 2–3; (iii) an in-house tension: P-2026-023's de-biased band (0.07–0.09 eV) sits above
+this block's 0.061 — the running chains' own posterior arbitrates between the model's two
+neutrino numbers.
 
 ## 2. The mechanism's open items
 
@@ -138,8 +140,7 @@ sharp peak on Q_ββ; the Majoron carries energy away, so this mode is a **conti
 experiments search for it separately.
 
 The rate is not free here: the model's Majoron is a mass-basis-diagonal singlet, so its coupling
-matrix is g_ij = (m_i/v_L)δ_ij and the effective coupling
-that drives double beta decay is
+matrix is g_ij = (m_i/v_L)δ_ij and the effective coupling that drives double beta decay is
 
 $$\langle g_{ee}\rangle \;=\; \frac{m_{\beta\beta}}{v_L}$$
 
@@ -158,11 +159,12 @@ What is not pinned is v_L, which still has two viable parameter points. Both are
 *(Each half-life span is the matrix-element range, calibrated on KamLAND-Zen's published
 ordinary-Majoron limit: T½ > 2.6×10²⁴ yr at ⟨g_ee⟩ < (0.8–1.6)×10⁻⁵, arXiv:1205.6372.)*
 
-The conclusion does not need the parameter point resolved. Even at the most favourable one the Majoron mode
-is **four orders of magnitude slower than the mass mode**, which is itself already just past nEXO's
-baseline reach; the coupling sits four orders below the experimental limit, which is eight orders in
-rate. **The model predicts no observable Majoron mode, at every surviving parameter point** — a kill-only bet
-of the same shape as the indirect-detection and laboratory zeros.
+The conclusion does not need the parameter point resolved. Even at the most favourable one the
+Majoron mode is **four orders of magnitude slower than the mass mode**, which is itself already
+just past nEXO's baseline reach; the coupling sits four orders below the experimental limit,
+which is eight orders in rate. **The model predicts no observable Majoron mode, at every
+surviving parameter point** — a kill-only bet of the same shape as the indirect-detection and
+laboratory zeros.
 
 Two things make this more useful than a null.
 
@@ -245,9 +247,9 @@ v_L it reduces to the lightest-state Majorana term. The associated Majoron coupl
 
 > **g = m₁/v_L**
 
-which gives g = 2.3×10⁻⁹ at the MeV-scale point and g = 2.4×10⁻¹⁵ at the TeV-scale point. That keeps the
-UV completion safe with respect to supernova limits and makes the Majoron signal far below current
-ββ limits.
+which gives g = 2.3×10⁻⁹ at the MeV-scale point and g = 2.4×10⁻¹⁵ at the TeV-scale point. That
+keeps the UV completion safe with respect to supernova limits and makes the Majoron signal far
+below current ββ limits.
 
 The remaining open pieces are:
 

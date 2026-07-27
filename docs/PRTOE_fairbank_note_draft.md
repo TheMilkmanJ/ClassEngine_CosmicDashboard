@@ -191,8 +191,9 @@ measured — so the model cannot coach its witness. It comes out net adverse. Y_
 above Aver, and +3.8 to +4.4σ against EMPRESS; the helium civil war is unresolved and not ours to
 settle. D/H is predicted at 2.407–2.463×10⁻⁵ against Cooke's 2.527 ± 0.030, which is −2.5 to −1.4σ
 on the full budget (observational ±0.030 ⊕ PRIMAT post-LUNA nuclear theory ±0.037). Both ranges are
-the span of one committed input, the dark-to-photon temperature ratio ζ = T_dark/T_γ ∈ [0.25, 0.35], which the model
-uses everywhere it appears and which CMB-S4 will measure directly through ΔN_eff = 0.06–0.24.
+the span of one committed input, the dark-to-photon temperature ratio ζ = T_dark/T_γ ∈
+[0.25, 0.35], which the model uses everywhere it appears and which CMB-S4 will measure directly
+through ΔN_eff = 0.06–0.24.
 *(The next section decomposes the nucleosynthesis physics at ζ's own baseline, before the dilution's
 dark-radiation contribution is added, where the same prediction reads 2.387×10⁻⁵. The two figures
 are the same calculation at two stages, not two predictions.)*
@@ -301,10 +302,10 @@ expectation value rather than by the rolling dark-energy field, so the rolling d
 neutrino mass. A reader discounting this claim should discount it at the first two points, and
 nowhere else.
 
-A framing you may enjoy: 0νββ decides whether lepton number
-is an enforced charge — like electric charge, with a field backing it — or an unenforced
-accounting identity, with Majorana neutrinos the mechanism by which such an identity defaults. Your
-detector is auditing whether lepton number's debt has a bank.
+A framing you may enjoy: 0νββ decides whether lepton number is an enforced charge — like electric
+charge, with a field backing it — or an unenforced accounting identity, with Majorana neutrinos
+the mechanism by which such an identity defaults. Your detector is auditing whether lepton
+number's debt has a bank.
 
 ## The ask
 

@@ -1,8 +1,9 @@
 # The deuterium row
 
 *The model's weakest measured row, isolated and taken apart. The finding: the deficit is not made
-in the nuclear sector — the electron-mass shift's own nucleosynthesis physics **improves** deuterium — it is imported from the
-CMB fit, and it is the same object as the H₀ result seen from the other end.*
+in the nuclear sector — the electron-mass shift's own nucleosynthesis physics **improves**
+deuterium — it is imported from the CMB fit, and it is the same object as the H₀ result seen from
+the other end.*
 
 > **Status: awaiting a measurement.** The size of this row is set by the d(d,n)³He rate, which
 > carries **94%** of the available nuclear leverage. The two standard compilations disagree about
@@ -47,9 +48,9 @@ observational ⊕ nuclear and nuclear ⊕ rate both give **±0.0476** to five fi
 check can separate them. Only the citation settles it. *(An earlier attribution also named
 ⁴He(d,γ)⁶Li as a D/H driver; that reaction is a ⁶Li channel and is not one.)*
 
-Applying the dark-radiation residual (the committed ζ window), the quotable committed window is **−2.5σ to −1.4σ** on this same
-two-term width. That range is unchanged by the ruling; only the standing (pre-window-edge) figure
-moves from the retired −2.49σ to **−2.94σ**.
+Applying the committed dark-radiation residual (the ζ window), the quotable window is
+**−2.5σ to −1.4σ** on this same two-term width. That range is unchanged by the ruling; only the
+standing (pre-window-edge) figure moves from the retired −2.49σ to **−2.94σ**.
 
 **Against ΛCDM, honestly.** The in-house ΛCDM control on identical data and the same code gives
 D/H = 2.420×10⁻⁵, which is **−2.25σ** on the standing width. So:
@@ -81,9 +82,9 @@ this file:
 | the electron-mass window at nucleosynthesis, +0.645% | 2.387 | **+0.645%** | **+0.31σ** |
 | **net** | **2.387** | −1.36% | **−0.69σ** |
 
-**The electron-mass window's own nuclear physics helps deuterium.** The ε(T) ramp switching on at T_c ≈ 179 keV
-raises D/H by 0.645%, moving it *toward* Cooke — worth +0.31σ. Grafted onto the ΛCDM control alone
-it would give D/H = 2.435, or −1.93σ, better than the control's −2.25σ.
+**The electron-mass window's own nuclear physics helps deuterium.** The ε(T) ramp switching on at
+T_c ≈ 179 keV raises D/H by 0.645%, moving it *toward* Cooke — worth +0.31σ. Grafted onto the
+ΛCDM control alone it would give D/H = 2.435, or −1.93σ, better than the control's −2.25σ.
 
 **That last sentence is a decomposition, not a scenario, and the distinction matters.** The window
 and the ω_b shift are both consequences of the same ε — one at nucleosynthesis, one at
@@ -118,8 +119,8 @@ reactions; the production runs use PRIMAT's. Switching to NACRE II and changing 
 | NACRE II | 2.4426 | **−1.77σ** | 2.4751 | −1.09σ | **−0.68σ** |
 
 **The choice of nuclear rate compilation is worth 1.17σ on this row** — a +2.33% shift in D/H, with
-Y_p moving by only −0.02σ. That is the deuterium-only shape the lever inventory spent §5 hunting, and
-it arrives from nuclear data rather than from any mechanism.
+Y_p moving by only −0.02σ. That is the deuterium-only shape the lever inventory spent §5 hunting,
+and it arrives from nuclear data rather than from any mechanism.
 
 **It is not a heal, and must not be quoted as one.** The compilation moves the ΛCDM control by
 +1.23σ, essentially the same amount. **The model-versus-control gap changes by 0.067σ** — from
@@ -215,8 +216,8 @@ unremarkable by NACRE II's. The same pattern holds across the network: NACRE II'
 | NACRE II's assessment | ±0.0807 | 0.0861 | **−1.63σ** |
 
 **Two σ of this row is a disagreement between two nuclear compilations about the uncertainty on
-d(d,n)³He.** The model is a spectator to it. Nothing in the model's fields, the electron-mass window, the lever
-inventory, or the H₀ trade moves that number.
+d(d,n)³He.** The model is a spectator to it. Nothing in the model's fields, the electron-mass
+window, the lever inventory, or the H₀ trade moves that number.
 
 **The field says the same thing, and has published a bigger error bar than the one in use.**
 Pisanti et al., *Primordial Deuterium after LUNA: concordances and error budget*
@@ -340,9 +341,9 @@ expansion rate moves deuterium two per cent; the entire varying-m_e window moves
 unit, gravity's dial is three times the model's whole electromagnetic lever**, and every abundance
 in the network is fixed by the same competition — a reaction rate against H. The model's own BBN
 bets are gravitational: the committed ζ residual and the below-T_c lever are both expansion levers.
-What *is* true is that the direct-coupling window closes mid-BBN — T_c = 177 keV sits between n/p freeze-out
-(~800 keV) and the deuterium bottleneck (~70 keV) — so the era in which a direct coupling is legal
-ends *inside* BBN. That is the ramp, and it is already counted at +0.645%.
+What *is* true is that the direct-coupling window closes mid-BBN — T_c = 177 keV sits between
+n/p freeze-out (~800 keV) and the deuterium bottleneck (~70 keV) — so the era in which a direct
+coupling is legal ends *inside* BBN. That is the ramp, and it is already counted at +0.645%.
 
 *(A related proposal, that BBN released more binding energy than the plasma could shed: the total
 released is ≈1.75 MeV per baryon against a photon bath of 3.1×10⁸ MeV per baryon, i.e.
@@ -359,10 +360,10 @@ committed ζ window (ΔN_eff ≈ 0.06–0.24) tops out just under this lever's o
 ΔN_eff = 0.42, which lands helium at +2.5 to +2.7σ against Aver and +4.9 to +5.1σ against EMPRESS —
 trading a 2.5σ deficit for a 2.5σ excess.
 
-**Confining the boost below T_c is the model's one native orthogonal lever, and it is real.** The
-transition temperature T_c ≈ 179 keV sits between helium's n/p freeze-out (~800 keV) and deuterium's bottleneck
-(~70 keV). A component that switches on at T_c is *absent* when helium is set and *present* when
-deuterium is set. Measured directly:
+**Confining the boost below T_c is the model's one native orthogonal lever, and it is real.**
+The transition temperature T_c ≈ 179 keV sits between helium's n/p freeze-out (~800 keV) and
+deuterium's bottleneck (~70 keV). A component that switches on at T_c is *absent* when helium is
+set and *present* when deuterium is set. Measured directly:
 
 | | ∂ln(D/H)/∂N_eff | dY_p/dN_eff | deuterium per unit helium |
 |---|---|---|---|
@@ -406,9 +407,10 @@ found in the CMB spectrum, and its absence there is no evidence either way. The 
 abundance is n_X/n_γ ≈ 9×10⁻¹⁶ — far too small for a thermal freeze-out and squarely in freeze-in
 territory, which is what a *feeble* coupling produces naturally rather than by tuning.
 
-**Two walls, not one, and they bind at different times.** A relic from before the medium condensed is worth separating
-into its two steps, because only one of them is forbidden. **Production is legal**: the gravitational-only
-coupling law binds only *after* the medium condenses, so above T_c a direct dark–SM coupling is allowed,
+**Two walls, not one, and they bind at different times.** A relic from before the medium
+condensed is worth separating into its two steps, because only one of them is forbidden.
+**Production is legal**: the gravitational-only coupling law binds only *after* the medium
+condenses, so above T_c a direct dark–SM coupling is allowed,
 and a feeble one there delivers exactly the freeze-in abundance above. **Decay is not.** The deposit
 must land at t = 10⁶–10⁸ s, long after condensation, and it must land *in the photon bath* — but by
 then that window is closed and the medium is EM-neutral to 38–47 orders (Meissner), so a dark relic's
@@ -435,18 +437,20 @@ structural one; it stays closed until the data moves.
 
 *Through the light quark mass:* this one is closed **by loop order and by this row itself**, not by
 symmetry — and the distinction matters, because it is the difference between a door that is bolted
-and one that is merely very far away. The electron-coupled scalar's portal is the dark-neutral bilinear |Ψ|², a total
-singlet, which reaches the quark bilinear only through a loop — scalar → lepton loop → 2γ → quark,
-suppressed by **(α/π)² = 5.4×10⁻⁶**. Applied to the scalar's own amplitude that delivers 6.8×10⁻⁶
+and one that is merely very far away. The electron-coupled scalar's portal is the dark-neutral
+bilinear |Ψ|², a total singlet, which reaches the quark bilinear only through a loop —
+scalar → lepton loop → 2γ → quark, suppressed by **(α/π)² = 5.4×10⁻⁶**. Applied to the scalar's
+own amplitude that delivers 6.8×10⁻⁶
 percent where P-2026-006 needs 0.14–0.21% — short by a factor of **21,000 to 31,000**. A quark
 shift anywhere near what a heal would need is independently excluded at **12–18σ** by the very row
 it would be healing.
 
-*(This was argued for a time as forbidden **by the model's own symmetry** — the electron-coupled scalar read as the
-Majoron, so that lepton number would forbid a quark coupling outright. That route is closed:
-the scalar and the Majoron are separate fields, and |Ψ|² is L-neutral, so U(1)_L screens the quark
-bilinear no more than the lepton one. The conclusion is unchanged and the margin is four orders
-wider than it needs to be — but it is a quantitative wall, not a symmetry wall, and this
+*(This was argued for a time as forbidden **by the model's own symmetry** — the electron-coupled
+scalar read as the Majoron, so that lepton number would forbid a quark coupling outright. That
+route is closed: the scalar and the Majoron are separate fields, and |Ψ|² is L-neutral, so
+U(1)_L screens the quark bilinear no more than the lepton one. The conclusion is unchanged and
+the margin is four orders wider than it needs to be — but it is a quantitative wall, not a
+symmetry wall, and this
 paragraph previously claimed the opposite.)*
 
 This is the sharpest statement of where the row comes from. **The model's one matter-to-matter
@@ -468,8 +472,9 @@ channel. **Hadro-dissociation** — energetic free nucleons spalling ⁴He direc
 the photon bath's pair-production cutoff, so its window opens earlier (τ ≲ 10⁷ s rather than
 t > 4×10⁶ s), and its net effect is the literature's, not a hope: an increase in D and a decrease
 in ⁴He (Carr, Kohri, Sendouda & Yokoyama, Rep. Prog. Phys. 84, 116902 (2021), and references
-therein). **That is the right shape on both rows at once** — the only mechanism in this inventory that
-moves deuterium up while moving helium down — and the price of entry is steep: the parent must
+therein). **That is the right shape on both rows at once** — the only mechanism in this
+inventory that moves deuterium up while moving helium down — and the price of entry is steep:
+the parent must
 fragment into hadrons, so it must clear ~2m_N ≈ 1.9 GeV, ninety times the photon channel's
 threshold. Every field-content candidate that failed the photon spec by being too light fails this
 one by more.
@@ -478,8 +483,9 @@ one by more.
 counts *fields* — sixteen Weyl fermions per generation, every seat taken. A black hole is not a
 field and adds nothing to str[k₁]. An evaporating primordial black hole therefore enters this
 inventory without touching the balance that forces three generations, and its Hawking emission is
-identity-blind — it needs no lepton charge, so the sector's leptophilic coupling structure does not bind it. The
-numbers land in the window without tuning: τ ∝ M³ puts evaporation at t = 4×10⁶–10⁸ s for
+identity-blind — it needs no lepton charge, so the sector's leptophilic coupling structure does
+not bind it. The numbers land in the window without tuning: τ ∝ M³ puts evaporation at
+t = 4×10⁶–10⁸ s for
 **M = 1.1–3.1×10¹¹ g**, with Hawking temperatures of 34–99 GeV — comfortably above the hadronic
 threshold, fragmenting into QCD jets whose nucleons do the spalling. The required abundance is an
 initial mass fraction β ~ 2×10⁻²⁸ at unit cascade efficiency.
@@ -528,13 +534,15 @@ The inventory leaves exactly one shape of object unaccounted for:
 The standing configuration cannot currently supply it, and the reasons are specific rather than
 accidental:
 
-- **The superfluid dark component cannot decay.** Its shift symmetry forbids it, and this is load-bearing elsewhere — a
-  confirmed dark-sector decay line is a registered falsifier of the superfluid identification. Giving the
-  medium a decay channel to heal deuterium would trade this row for that one.
-- **The electron-coupled scalar and the heavy portal sector are too long-lived.** Decay constants of 100–500 TeV and
-  13–20 TeV put their lifetimes beyond cosmological by many orders.
+- **The superfluid dark component cannot decay.** Its shift symmetry forbids it, and this is
+  load-bearing elsewhere — a confirmed dark-sector decay line is a registered falsifier of the
+  superfluid identification. Giving the medium a decay channel to heal deuterium would trade
+  this row for that one.
+- **The electron-coupled scalar and the heavy portal sector are too long-lived.** Decay
+  constants of 100–500 TeV and 13–20 TeV put their lifetimes beyond cosmological by many orders.
 - **The Majoron is far too light.** Its recorded mass is m_J ~ (1–3)H₀, some 30 orders below the
-  20 MeV threshold. Its MeV-scale point refers to the L-breaking scale v_L, not to a state at that mass.
+  20 MeV threshold. Its MeV-scale point refers to the L-breaking scale v_L, not to a state at
+  that mass.
 
 **And the field content is not merely short of one — it is provably full.** P-2026-045 registers
 Pauli finiteness, str[k₁] = 16·N_gen − 48 = 0, satisfied exactly by the Standard Model plus three
@@ -579,8 +587,9 @@ deuterium, and it should be answered there.
 
 ## 6b. Do the levers add?
 
-The obvious question about an inventory of partial cures is whether they sum. Asked and answered: they
-do not, and the reason is that **the failures are of three kinds and only one of them is additive.**
+The obvious question about an inventory of partial cures is whether they sum. Asked and
+answered: they do not, and the reason is that **the failures are of three kinds and only one of
+them is additive.**
 
 | lever | kind of failure | contributes |
 |---|---|---|
@@ -598,8 +607,9 @@ include the sharper transition, moves the row from **−2.94σ to −2.39σ** (t
 Two things this makes explicit. First, a 2.94σ deficit needs a lever of order the deficit, and
 everything available is sub-0.35σ — closing it by summation would take eight or nine independent
 partial levers, and there are two. Second, and easier to get wrong: **the window's +0.31σ is
-already inside the −2.94σ.** The 2.387 figure is the value *after* the electron-mass window helped, so
-counting the window again as a separate lever would be counting the same physics twice.
+already inside the −2.94σ.** The 2.387 figure is the value *after* the electron-mass window
+helped, so counting the window again as a separate lever would be counting the same physics
+twice.
 
 ---
 
@@ -630,9 +640,10 @@ Ranked by how much they would change the row, cheapest first:
 
 ## 8. The answer (not a patch)
 
-**What the row is.** It is not a bug in the nuclear sector and not an unfinished fit. The electron-mass
-window *helps* deuterium. The deficit is the CMB fit's +1.1% in ω_b, forced by the m_e–ω_b
-ridge (degeneracy audit, 2026-07-21: free-slide residual consistent with zero; m_e off 1 at ~2.7σ).
+**What the row is.** It is not a bug in the nuclear sector and not an unfinished fit. The
+electron-mass window *helps* deuterium. The deficit is the CMB fit's +1.1% in ω_b, forced by the
+m_e–ω_b ridge (degeneracy audit, 2026-07-21: free-slide residual consistent with zero; m_e off 1
+at ~2.7σ).
 That same ridge is the H₀ relief. **D/H and H₀ are one trade.** Standing row: **−2.94σ** on the
 two-term width (#157) — a figure that uses the tightest rate-error assessment in the literature and
 is not this code's own (§2b).
@@ -669,8 +680,9 @@ together:
 
 The named missing piece (≳20 MeV, 10⁶–10⁸ s, ~30 eV/H electromagnetic injector) is real as a
 *spec*. The standing configuration cannot contain a source for it without breaking something that
-elsewhere is load-bearing (Pauli finiteness, the superfluid component's shift symmetry, or the H₀ result itself). That is
-why the row stays open as an **owned adverse bet**, not as an unfinished calculation.
+elsewhere is load-bearing (Pauli finiteness, the superfluid component's shift symmetry, or the
+H₀ result itself). That is why the row stays open as an **owned adverse bet**, not as an
+unfinished calculation.
 
 **What still changes the number without being a fake cure** (external or diagnostic, not a patch):
 
