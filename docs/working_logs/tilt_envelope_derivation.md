@@ -158,3 +158,28 @@ and its owner named:
   vortex network with screened interactions at α_c — the small-scale cutoff where
   screened damping beats stretching. Demanded answer: 4π/g_scr per dimension.
   The Coulomb-log structural resemblance aims the computation at weight zero.
+
+## Addendum 6 (2026-07-27): the keystone's candidate derivation — the cascade-cutoff closure
+
+`scripts/substructure_count_closure.py`. The substructure count now has a
+derivation at candidate grade:
+
+- **The closure:** small-scale structure on the vortex lines (Kelvin-wave
+  structure) is erased where cumulative emission beats the cascade. With a
+  per-oscillation emission probability p = g_scr/4π (one perturbative vertex at
+  the screened coupling — flagged identification) and L_net/ℓ oscillations per
+  network time, the cutoff lands at L_net/ℓ_min = 4π/g_scr = N₁ = 783 — the
+  recorded count as output, no tuning.
+- **The bare-channel suppression (second flagged step):** order-unity Goldstone
+  smoothing would kill the count; Kelvin structure is deeply subsonic at small
+  scales with emission suppressed by high powers of v/c_s — the physics that
+  lets laboratory quantum turbulence run Kelvin cascades 10²–10³ below the
+  inter-vortex spacing. The medium's own exponent is uncomputed.
+- **Class anchor:** the demanded 783 sits inside the hierarchy class laboratory
+  superfluids already build.
+
+**Promotion:** compute the medium's Kelvin-emission cutoff from recorded
+parameters and land 4π/g_scr. **Kill:** that computation landing elsewhere, or
+the bare channel proving unsuppressed. The keystone is now a specified
+superfluid-turbulence computation with a demanded answer — the triangle's last
+abstract link is physical.
