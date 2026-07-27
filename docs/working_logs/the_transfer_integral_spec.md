@@ -247,3 +247,29 @@ asymmetry lands from recorded inputs; the owning computation is the φ₀-juncti
 the seat term, and it earns or kills the watch. The pre-committed FAIL condition has NOT
 fired — it now reads: if the derived diode efficiency misses 5×10⁻⁵ by >10², the junction
 current is not the carrier.
+
+## STAGE 7 (2026-07-27) — the rectifier's mechanism class selected by elimination; the watch earned
+
+**The method** (`scripts/diode_mechanism_pricing.py`): three known mechanism classes can make a
+wound junction transfer net charge; each has an efficiency scaling derivable from recorded
+inputs. All three priced; no winner declared by hope.
+
+| class | efficiency from recorded inputs | verdict |
+|---|---|---|
+| A. spontaneous-leptogenesis (dissipative bias) | (Γ_ΔL/H)·(θ̇/T) ~ 7×10⁻²² ·(θ̇/T-refresh) → ~10⁻³⁶-class (stage 4's numbers) | dead, 26 orders |
+| B. Kapitza-pinned junction (driven overdamped phase) | (m₁/θ̇)·F = 3.77×10⁻⁵·F, F an O(1) junction response | **THE SURVIVOR — F needed: 1.33** |
+| C. static φ₀-diode under uniform winding | ≤ H/θ̇ = 4.1×10⁻⁷ (stage 6's adiabatic theorem caps every zero-mean static relation) | dead, 2.1 orders |
+
+**The premise check, run:** class B requires the visible-side phase overdamped at the sphaleron
+era — ν interactions give Γ ~ G_F²T⁵ = 5.4×10⁹ eV against θ̇ = 59.7 eV: overdamped by 9×10⁷.
+Holds with astronomical margin.
+
+**What is earned and what is not.** The m₁/θ̇ watch is EARNED as class B's leading factor — the
+coincidence now has a mechanism class behind it, at candidate-mechanism grade: the rectifier is
+the Kapitza-rectified pinned phase (the Majorana term pins, the seat coupling shakes at the
+winding rate, the bath overdamps, and second-order averaging rectifies with the pinning-to-drive
+ratio in front). NOT claimed: F's derived value — the careful second-order averaging with the
+recorded seat coupling J and the ν damping is the one remaining object, now carrying all four
+consumers. Pre-committed kills: derived F < 10⁻² kills the junction carrier entirely; so does
+any failure of the class's own premises (the overdamping just verified; the pinning hierarchy
+m₁ ≪ θ̇ ✓ = 3.8×10⁻⁵).
