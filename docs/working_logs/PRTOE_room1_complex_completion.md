@@ -872,6 +872,16 @@ detuning argument is derived at grade — the freeze is provisionally
 that prices its own theorem's fine print within the hour of being
 built is doing its job.
 
+> **POINTER (2026-07-27, added so no reader stops here):** this ruling was
+> LIFTED further down this same file — A3 reconciles the anchors (no
+> inconsistency existed: one formula h_eff = λρ/m⁴; anchor A is the local
+> halo at m = 10⁻²², anchor B the cosmic mean at m ~ 10⁻²¹ — 5.4 decades of
+> density plus 4 of m⁴), A3a derives the identity h_eff(mean) = (1+z_x)⁻³
+> checkably, and A4 re-prices τ_Q ≥ 10⁹ Gyr across the audited band,
+> restoring the theorem to EXACT. Re-verified 2026-07-27 at the era AND the
+> standing values (m = 2.24×10⁻²⁰ eV, λ = 2×10⁻⁹¹: τ_Q ~ 3×10²³ Gyr,
+> ×7×10¹⁴ more margin) — `scripts/heff_anchor_verification.py`.
+
 **ROOM 5 — THE ANTIPARTICLE ROOM (χ's separate life):** E7 split the
 medium into ψ and χ; the frozen ratio is mapped, but χ's own
 dynamics is not: (i) χ condenses ~1/q² SLOWER (E7b) — in the median

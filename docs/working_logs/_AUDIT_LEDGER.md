@@ -4358,3 +4358,15 @@ with T14 link 5). The sweep also caught a filing that never landed: room 1's h_e
 ANCHOR INCONSISTENCY (two anchors disagreeing by ~9 decades, "filed into the morning
 band audit") appears in no audit file — it is unresolved and now sits on the board as
 its own task, MANDATORY per the room's own ruling.
+
+**CORRECTION (2026-07-27, same day):** the sweep note above overclaimed on room 1's
+anchor item. The "morning band audit" filing indeed never landed as a separate file, but
+the inconsistency itself WAS resolved — in the same room file, ninety lines below the
+ruling (A3: no inconsistency existed, one formula, two densities at two masses; A3a: the
+identity derived checkably; A4: τ_Q re-priced, ruling lifted). The sweep read the ruling
+block and stopped before the resolution — the exact failure mode the sweep exists to
+prevent, now on record against it. The resolution's arithmetic is re-verified at both
+eras and extended to the standing values (×7×10¹⁴ margin) in
+`scripts/heff_anchor_verification.py`; the room file now carries a pointer at the ruling
+block so no reader stops where the sweep stopped. Board #35 closes as already-resolved,
+verified, not as new work.
