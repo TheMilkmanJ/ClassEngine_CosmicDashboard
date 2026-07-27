@@ -92,3 +92,26 @@ era must be scale-free (critical). Deriving β = deriving that critical fraction
 Two numerological temptations in range are recorded as temptations with weight
 zero. β is now the program's single sharpest open number: one value closes #15,
 gates #8, and referees #9.
+
+## Addendum 3 (2026-07-27): the β derivation attempt returns a structured negative
+
+`scripts/beta_holders_elimination.py`. Every standard mechanism class was run to
+its scaling law: thermal coherence falls (∝ T/M_Pl); coarsening falls (∝ t^{−½});
+critical-riding at the adiabatic–impulse boundary with the on-file ν = 2/3 falls
+(∝ H^{0.6} — ~16 orders across the window). The ONE class that holds a constant
+fraction — the scaling defect-network attractor — lands at 0.1–0.3, three orders
+above the demanded 2×10⁻⁴.
+
+**The named tension:** no standard class delivers a held fraction at the window.
+Survivor space, named not asserted: (a) a dissipation-suppressed dense network
+(~10³ density shift, mechanism unwritten); (b) a two-scale structure (network at
+~0.1 of the causal range with coherent sub-cells at β — hierarchy factor ~500
+unexplained); (c) an upstream revision of the imprint clock. **Sharpened kill:**
+if no non-standard holder is derived, the β link fails and the envelope mechanism
+loses its promotion path — the tilt's numerical success would then need a
+different engine, and every other route is already route-eliminated.
+
+**Consistency note from reconnaissance:** the retired height-field tilt route died
+on "+1/ln, IR-anchored, wrong sign" — the conserved-charge conversion delivers
+−2/ln, UV-anchored, passing the autopsy that killed its predecessor. Consistency,
+not evidence.
