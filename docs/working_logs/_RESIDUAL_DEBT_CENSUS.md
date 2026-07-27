@@ -23,6 +23,18 @@
 >   the hierarchy factor (hierarchy §6n; tasks #15, #16 closed). The winding average's
 >   high-statistics check is delivered and passing (P-2026-041 annotated; f̄ = 0.6314 ± 0.0033
 >   at the many-turn members).
+> * **The area-law regulator O(1) (corpus-level row): PAID 2026-07-20** — the entropy file
+>   records the entanglement-side check closed structurally (the conical deficit makes the
+>   area term the same heat-kernel coefficient that generates 1/G; the quarter is
+>   regulator-independent). The true residual is re-named there: the ROSTER EXTENSION —
+>   the coefficients are the minimally coupled scalar's, and spin/non-minimal content splits
+>   the two divergences (now tracked as its own task).
+> * **T9's haloscope edge cases: PAID** — the direct-detection file prices the class
+>   ("NULL, forever": EM-neutrality at 37–47 orders under unit charge) including the
+>   local-halo-density edge; nothing remains that the file does not carry.
+> * **T7's dataset question: ANSWERED 2026-07-28** (the file's addendum) — no dataset
+>   tabulates the winding average; the observable exists latently in disk-referenced spiral
+>   interferograms; the named target is a percent-level reanalysis of archived images.
 
 *What each threaded owed-file still owes, after cross-checking every item against work paid
 elsewhere in the corpus. Four states: **PAID** (here or elsewhere, with the pointer),
