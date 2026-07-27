@@ -36,7 +36,7 @@ separate parameters.*
 
 | window | epoch | what ε does there | grade |
 |---|---|---|---|
-| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H₀ = 69.9** (the Hubble-tension mechanism) — *provisional: measured before the 2026-07-17 `YHe` correction, re-measurement pending* | production fit; the evidence exposure stands with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity), and is priced from the MCMC — nested sampling deferred to cluster time |
+| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H₀ = 69.9** (the Hubble-tension mechanism) — *provisional: measured before the 2026-07-17 `YHe` correction, re-measurement pending* | production fit; the evidence exposure stands with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity; the identity-configuration rerun is prepared and queued behind the production chains), and is priced from the MCMC — nested sampling deferred to cluster time |
 | **windowed BBN** | T ≈ 0.7 MeV–70 keV | OFF at n/p freeze-out, GROWING below T_c (the order-parameter birth ramp — the BBN engine's standing treatment) → the abundance pattern. Under the standing configuration's committed genesis window the joint reads p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), with deuterium eased to −2.5 to −1.4σ from Cooke and helium paying at +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ); the helium fork, the nuclear-code systematic, and the radio referee are the judges | production (PRyM pipeline) |
 | **21-cm lines** | z ≈ 30–150 | rest frequencies shifted +2.5% (the (1+ε)² identity), with the exact ratio-lock ν_H/ν_D; the screening edge's *shape* reads the gate | registered (P-2026-022/027) |
 | **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 4×10⁻⁷, axis-correlated (the Jeans rate is √(3/2), not √3 — P-2026-024's 2026-07-17 rescaling; 6×10⁻⁷ is the superseded sizing) | registered (P-2026-024); consistent null today |
@@ -51,9 +51,12 @@ T_c = 177.10 keV, per the BBN window), fading over z ≈ 30–60 by one of two r
 readings — A (thermal, global) or B (environmental, tracking local clumping). Under B
 the gate is a smooth, steep curve in local density, fenced four independent ways (the
 forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and
-the composition-cliff invariant — the swing's fixed potential step
-ΔΦ = c²f_lep·ε₀ = (553 km/s)² — receipt: f_lep = m_e/2m_u = 2.74×10⁻⁴ (the Y_e = ½ convention: one electron per two nucleons, the helium-and-heavier floor; every realistic composition carries MORE electrons per unit mass — pure H gives 779 km/s — so 553 is the CONSERVATIVE minimum and the fence only strengthens from it; ε₀ = 1.24%) — exceeds real halo potentials, so the gate must swing at
-void/supercluster boundaries, not around individual galaxies) — one curve, four fences,
+the composition-cliff invariant). The invariant's receipt, spelled out: the swing's fixed
+potential step is ΔΦ = c²·f_lep·ε₀ = (553 km/s)², with f_lep = m_e/2m_u = 2.74×10⁻⁴ at the
+one-electron-per-two-nucleons composition floor — every realistic composition carries more
+electrons per unit mass (pure hydrogen gives 779 km/s), so 553 is the conservative minimum and
+the fence only strengthens from it. That step exceeds real halo potentials, so the gate must
+swing at void/supercluster boundaries, not around individual galaxies — one curve, four fences,
 three skies. A-versus-B is registered (the 21-cm edge shape decides) and
 controls both the dark-ages signal and the supernova channel. The laboratory, Oklo, and
 molecular-absorber nulls survive under B structurally, not by tuning: every such
@@ -79,48 +82,36 @@ The amplitude's primordial counterpart (the A_s claim) closed its conceptual hal
 area law (derived and confirmed numerically), the activation ramp (the Hagedorn-analog transition
 = T_c), and the reconciliation — the thermal amplitude and the census bookkeeping are one object.
 
-**What the closed form actually rests on**, checked term by term: A_s = (α_c/4πk)³, where
-**k = ln(1 + π/2α_c)/π = 1.36461** is a screened-interaction integral, and it reconstructs
-exactly — **conditionally** — the reconstruction is exact but its host (a cold degenerate Fermi surface at finite μ, Thomas–Fermi screening, two compensated bands) is not what this corpus records for the basement, which is a hot Fermi point; hierarchy §6c, §6m — as the Fermi-surface average of a Thomas–Fermi-screened Coulomb
-exchange, over the full sphere, with the screening constant 2α_c/π coming out of e²·(2N₀)/4k_F²
-— the factor 2 being a *two-band* polarisation, which needs the two bands velocity-matched and
-not merely compensated ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). It
-sits inside the Eliashberg window [1.35, 1.37] and was never fitted to a landing. The 4π is the standard one-loop factor and the cube is the three
-spatial dimensions. Assembled: **2.0807×10⁻⁹**. The pipeline's frozen 2.088058×10⁻⁹ is this same
-closed form evaluated at the concordance joint k = 1.3630 instead of the closed-form k = 1.364612,
-so the −0.35% between them is the k-determination spread rather than a confrontation with data.
-**Against the measured amplitude** (2.100×10⁻⁹, ~1.4%) the closed form lands **−0.92%, −0.66σ**.
+**What the closed form rests on**, checked term by term: A_s = (α_c/4πk)³, where
+**k = ln(1 + π/2α_c)/π = 1.36461** is a screened-interaction integral: it reconstructs exactly
+as the Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange over the full sphere,
+with the screening constant 2α_c/π coming out of e²·(2N₀)/4k_F² — the factor 2 a *two-band*
+polarisation, which needs the two bands velocity-matched and not merely compensated
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). The host question is
+settled onto standard ground: the screening constant is doping-independent — it holds at any
+nonzero band filling with the bath colder than the filling — and a ground-state kernel is the
+gap equation's own standard construction (hierarchy §6n), with one owed number, the
+formation-epoch bath against the band's doping. k sits inside the Eliashberg window
+[1.35, 1.37] and was never fitted to a landing. The 4π is the standard one-loop factor and the
+cube is the three spatial dimensions. Assembled: **2.0807×10⁻⁹**. The pipeline's frozen
+2.088058×10⁻⁹ is this same closed form evaluated at the concordance joint k = 1.3630 instead of
+the closed-form k = 1.364612, so the −0.35% between them is the k-determination spread rather
+than a confrontation with data. **Against the measured amplitude** (2.100×10⁻⁹, ~1.4%) the
+closed form lands **−0.92%, −0.66σ**.
 
-**The genuine residual is the shot-noise count's O(1) normalisation** — whether the assembly is
-exactly (4πk/α_c)³ — and it is *two* O(1)s, not one. Carrying the census through to the
-dimensionless power per log k gives A_s = R²(k_*ξ)³/2π², so the count obeys
-C ≡ A_s·N = R²(k_*ℓ_p)³/2π²: it hides the pivot-volume convention ℓ_p **and** the transfer
-coefficient R = ∂ζ/∂(δn/n̄). At the medium's own conformal (w = ⅓) transfer R = ¼, the three
-natural conventions return C = π/4, 0.098 and 3.2×10⁻³ — a factor-250 spread, none of them 1, so
-C = 1 is an identification rather than a result. Equivalently, the closed form is the claim that the
-census locks cells at **k_*ξ = 3.45×10⁻³** (at R = 1) — one part in 290 of the pivot's own scale —
-and that ratio is the number the basement owes.
-
-**What kind of number it is, is settled by data, and it is not a freeze-out ratio.** A census
-carrying one frozen comoving cell size is a single Poisson realisation, so P_ζ = R²ξ³ is white at
-every k: Δ²_ζ ∝ k³, **n_s = 4**. It reproduces A_s at the pivot by construction and misses the tilt
-by three — against a measured 0.9649 ± 0.0042, so the freeze-out branch is **excluded**, not merely
-unmechanized. What stands is ξ(k) ∝ 1/k, the coherence length holding a fixed fraction of *each
-mode's own* scale across every decade the CMB resolves, which is also exactly what the tilt route
-assumes of this same shot imprint. So 3.45×10⁻³ is a **scaling** parameter, a length held at a
-constant fraction of the horizon while both grow, and not a single quench's frozen length.
-**The ruling leaves the arithmetic where it was**: P_ζ = R²ξ³ is the power imprinted *at* scale k,
-with ξ read at that mode's imprint time, so C = R²(k_*ℓ_p)³/2π², the factor-250 convention spread
-and the data limit are all pivot-evaluated and untouched — what is struck is reading ξ as one
-global constant, and with it the census's typing as a single instant. Data
-cannot referee C below ±1.4% (C = 1.009 ± 0.014); the derivation must, and it owes a mechanism of
-that type before it owes a number. **That mechanism is not on file** — the scaling class is
-asserted and assumed, never exhibited, which is this section's one real debt.
-
-*(A predecessor reading of this section named the residual as "the bounce's stiffness-ceiling scale,
-~1.6×10¹⁶ GeV". That scale appears nowhere else in the corpus, is computed by no script, and does
-not enter the closed form above at any step — nor does the pour scale it was paired with. The
-residual is the O(1) count, not a high-energy scale.)*
+**The per-vertex factor is now derived at candidate grade** (the mathematical spine §23.5,
+2026-07-28). The former residual — the count's O(1) normalisation — is supplied three ways at
+once. The erasure channel is exhibited: pairwise screened de-excitation of the network's
+substructure, with every rival channel priced out by standard physics. The unit count is the
+occupancy principle of the vacuum-energy sector applied at the cascade's marginal scale — the
+same principle that prices ρ_Λ, one principle in two appearances. And the count is measured
+directly: it enters the amplitude cubed, and the measured amplitude against the closed form
+pins it at **1.003 ± 0.005**. The scaling class the count requires — substructure per cell as a
+pure number, constant while the network scales — is the network-substructure identity itself,
+whose ultraviolet edge (k ≈ 0.26/Mpc) the small-scale sky reads as a consistency rather than a
+break. Data referee the count at ±1.4% (C = 1.009 ± 0.014); the derivation now stands ahead of
+that precision, with its live referees named: the crossover number of P-2026-048, the kernel
+host's owed formation-epoch number, and the concordance k at the chains' convergence.
 
 ## 6. The one-sentence biography
 
@@ -140,7 +131,6 @@ The one retraction this file inherits — the lepton/hadron varying-constant hie
 died because a flavor-structured shift needs a Higgs/EM portal the census forbids; the
 census-legal coupling is a UNIVERSAL conformal rescaling, which is the cleaner "one number,
 no exits" statement the file now carries.
-
 
 ## Sources
 

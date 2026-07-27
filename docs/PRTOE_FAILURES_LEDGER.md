@@ -3011,3 +3011,18 @@ T ≪ μ — and a T → 0 ground-state kernel is the standard host of every gap
 equation. The mismatch lands on standard ground with one owed number: T/μ at
 gap formation. Carried at candidate grade in hierarchy §6n; task #16 holds the
 gate.
+
+### The amplitude residual misnamed as a high-energy scale — RETIRED (recorded 2026-07-28)
+
+**What it was:** a predecessor reading of the amplitude file's mechanization
+section named the closed form's residual as "the bounce's stiffness-ceiling
+scale, ~1.6×10¹⁶ GeV," paired with the pour scale.
+
+**Why it died:** the scale appeared nowhere else in the corpus, was computed by
+no script, and entered the closed form at no step. The genuine residual was the
+shot-noise count's O(1) normalisation — which has since been derived at
+candidate grade (spine §23.5: channel, count, and measure, with the count
+measured at 1.003 ± 0.005 through the amplitude's cube). The misnaming was
+corrected in the amplitude file before the derivation landed; this row records
+the retired reading, which had survived only as an in-file parenthetical until
+the file's audience pass.
