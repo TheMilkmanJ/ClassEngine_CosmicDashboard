@@ -29,7 +29,7 @@ PRTOE_the_great_chain.md (+ Appendices A/B).*
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — the elevator formulation: substrate, coupling, decomposition (the compressed front door)
 
 ## The spine and constitution
-MATH_SPINE (§0–22) · laws_and_rules/ (the constitutional tiers; Tier R = the review-process laws, adopted 2026-07-18) · INTERACTION_ATLAS · interaction_map ·
+MATH_SPINE (§0–23; §23.5 = the primordial amplitude's normalization derived, 2026-07-28) · laws_and_rules/ (the constitutional tiers; Tier R = the review-process laws, adopted 2026-07-18) · INTERACTION_ATLAS · interaction_map ·
 thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-055; P-052 registered and retracted the same day, annotated; P-048 carries the two-point lattice fork; P-055 is the LSS-parity position, placed 2026-07-11 and mirrored late with its provenance stated)
 
 ## The dark fields (the pieces; identity files) — two carry identity files, the third is the Majoron
