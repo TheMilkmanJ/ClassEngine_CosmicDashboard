@@ -685,23 +685,29 @@ and not the roster.**
   and the magnetic helicity.
 - **η (the baryon asymmetry) — estimate:** η = n × junction transmission; the transfer integral lands at
   the right order (~6×10⁻¹⁰) from recorded inputs. The thermal-leptogenesis route is dead (×40–1000 under).
-- **A_s = (α_c/4πk)³ — candidate:** the shot-noise closed form. Its pieces are more mechanized than the
-  "highest-risk" label suggests: **k = ln(1+π/2α_c)/π is derived **conditionally** — the reconstruction is exact but its host (a cold degenerate Fermi surface at finite μ, Thomas–Fermi screening, two compensated bands) is not what this corpus records for the basement, which is a hot Fermi point; hierarchy §6c, §6m**: it reconstructs
-  exactly as the full-Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange in the
-  particle-hole channel, k = (1/π)∫₀¹ dq/(q + 2α_c/π), with the screening constant 2α_c/π = e²(2N₀)/4k_F²
-  requiring the two bands to be velocity-matched: neutrality gives compensation and so equal
-  densities, but the density of states is k_F²/v, leaving r = v_e/v_h free (hierarchy §6c, §6e;
-  the reconstruction itself confirmed independently by Monte-Carlo). Inside the Eliashberg
-  window [1.35, 1.37], never a landing fit; the **4π is the standard 1-loop factor**, and the **cube is the
-  three spatial dimensions**. So A_s = 1/N with N = (4πk/α_c)³ assembles from a derived coupling, a loop
-  factor, and 3D. The genuine residual is the exact O(1) **normalization of the shot-noise count** (the
-  "count C" — whether the assembly is exactly (4πk/α_c)³), and it resolves into **two** O(1)s:
-  C = R²(k_*ℓ_p)³/2π² carries the pivot-volume convention ℓ_p and the transfer R = ∂ζ/∂(δn/n̄), and at
-  the conformal w = ⅓ transfer R = ¼ the natural conventions give C = π/4, 0.098, 3.2×10⁻³ — none of
-  them 1. The closed form lands **−0.92% (−0.66σ)** against the measured 2.100×10⁻⁹; the −0.35% quoted
-  beside the pipeline's frozen input is the closed form against its own value at the concordance k, a
-  k-spread rather than a test of the count. Deliberately exposed;
-  the referee is the live zero-parameter run — the Eliashberg k-audit has run, placing k in
+- **A_s = (α_c/4πk)³ — derived at candidate grade (2026-07-28):** the closed form's three
+  vertices now carry a derivation by channel, count, and measure (the mathematical spine §23.5).
+  The per-vertex factor g_scr/4π is owned by pairwise screened de-excitation — every rival
+  channel priced out by standard physics — with the partner count supplied by the occupancy
+  principle of the vacuum-energy sector applied at the cascade's marginal scale, and the count
+  is measured directly: it enters the amplitude cubed, and the measured amplitude against the
+  closed form pins it at 1.003 ± 0.005. **k = ln(1+π/2α_c)/π** reconstructs exactly as the
+  full-Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange in the particle-hole
+  channel (Monte-Carlo confirmed; re-verified to 9×10⁻¹² with its conventions printed), and its
+  host question is settled onto standard ground: the screening constant is doping-independent and
+  a ground-state kernel is the gap equation's own construction (hierarchy §6n), with one owed
+  number (the formation-epoch bath against the band's doping). The velocity-matching structure
+  (r = v_e/v_h free) is unchanged (hierarchy §6c, §6e). The **4π is the standard loop factor**;
+  the **cube is the three spatial dimensions**. Live referees: P-2026-048's crossover number, the
+  kernel-host owed number, and the concordance k at the chains' convergence. The former residual —
+  the exact O(1) **normalization of the shot-noise count** (the "count C") — is the piece the
+  2026-07-28 derivation supplies: the erasure channel's occupancy-one partner count sets the
+  per-vertex factor with nothing adjustable, and the convention decomposition that once offered
+  C = π/4, 0.098, or 3.2×10⁻³ is superseded by the physical channel (its rivals priced out, the
+  survivors' record in the working log). The closed form lands **−0.92% (−0.66σ)** against the
+  measured 2.100×10⁻⁹; the −0.35% quoted beside the pipeline's frozen input is the closed form
+  against its own value at the concordance k, a k-spread rather than a test of the count.
+  The referee remains the live zero-parameter run — the Eliashberg k-audit has run, placing k in
   [1.35, 1.37] at three-way concordance.
   **The forward target, typed, and the mechanism class ruled (#184, 2026-07-20).** As a ratio, the
   closed form asserts **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and what kind of object that is
@@ -870,10 +876,12 @@ and not the roster.**
    G-value's own need, but an input: induced-G finiteness is conditional on conformal Higgs coupling
    (§5). The "hole" reduces to one named assumption.
 3. **f̄ and α_c referees** — the winding ensemble and the α_c chain, both running (§1).
-4. *(sharpened) A_s's count* — audited: k = ln(1+π/2α_c)/π is a *derived* screened-interaction
-   integral (the gap-equation coupling), not the unmechanized part; the 4π is the 1-loop factor and the cube
-   is 3D. The genuine residual is the O(1) normalization of the shot-noise count N = (4πk/α_c)³ (the "count
-   C"), lands A_s to −0.35%, refereed by the live run — the Eliashberg k-audit has run (§7).
+4. *(derived at candidate grade, 2026-07-28) A_s's count* — the former residual, the O(1)
+   normalization of the shot-noise count, is supplied by the erasure channel's occupancy-one
+   partner count (the spine §23.5: channel + count + measure, the count measured directly at
+   1.003 ± 0.005 through the amplitude's cube). k remains the derived screened-interaction
+   integral on its standard host (hierarchy §6n); the live referees are P-2026-048, the
+   kernel-host owed number, and the concordance k at the chains' convergence.
 5. *(closed as owed) The spurion μ = 2.25 meV* — graded as **not** an independent input:
    it is the electron-anchored meV whisper (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1. One fewer
    free number than the list once carried.
