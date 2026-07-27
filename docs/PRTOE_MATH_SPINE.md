@@ -791,3 +791,81 @@ TRANSITION'S WITNESS** — the only laboratory that watched the condensation liv
 is RIGID (no dials); referees: the radio referee, the helium resolution, the T_c re-audit
 (flagged-not-taken), the α_c MCMC posterior. The adverse landings are logged in public;
 the λ-defense is on record.
+
+## §23 — PROGRAM SYNC (2026-07-27): the cyclic sector, the lepton lock, and the primordial triangle
+
+*Status addendum. Grades and referees follow the finish standard: every open item
+names what would end it, in either direction. Retired alternatives live in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); working records in
+`working_logs/bounce_reconstruction_rp.md` and `working_logs/tilt_envelope_derivation.md`.*
+
+### 23.1 The cyclic sector: the turning point requires the exit from the metric description
+
+Two closures now bracket the crunch. At the fluid level, no admissible
+negative-energy component exists in the recorded theory (measured-sign, budget,
+and existence arguments — equal-scaling components are anchored by today's
+measurements; transients and curvature terms fall short by 19–95 orders). At the
+constraint level, the energy-balance derivation of the expansion equation keeps
+its exact form with the quartic interaction in the books, and the medium's
+short-distance corrections (∝ k⁴ξ²) vanish for homogeneous cosmology, activating
+only at coherence-length gradients. **Consequence: the bounce proceeds through
+the end of the metric description or not at all**, and the restart event is a
+past boundary of the emergent spacetime by exhaustion
+([PRTOE_white_holes.md](PRTOE_white_holes.md) §10).
+
+The boundary's causal structure is written: the exit surface is spacelike for
+order-unity density contrasts, collapsed regions bound it with absorbing
+(permitted) timelike segments, and the re-emergence surface must be spacelike
+everywhere — quantitatively, the non-metric interval must persist at least the
+crossing-time spread, or a re-synchronization mechanism must be exhibited. The
+anisotropic approach delivers 0–1 directional squeezes (the first squeeze is the
+exit), planar to 2.5–3.5 orders, at Mach 14–16 relative to the medium's sound
+speed. The medium's verified response: its repulsive self-interaction reverses
+one-dimensional compressions across the full delivered speed range (energy
+conserved to ≤0.3%), returning outflow on coherence-time scales; the excitation
+bookkeeping at the boundary is written for the medium sector (the causal cone
+ends because group velocities exceed the sound speed at coherence-scale
+wavelengths; quasiparticle number is conserved; modes with kξ ≲ 2.5 cross as a
+quench). **Open, with referees:** the re-expanding/contracting interface,
+sequencing of neighboring regions, the Standard-Model sector's crossing, and the
+nucleosynthesis budget (two live channels: spherical focusing — computing — and
+the Standard-Model crossing). Grade: reconstruction/candidate throughout.
+
+### 23.2 The charged-lepton mass structure: conservation plus quantization
+
+The balance condition (Q = 2/3 ⟺ the charge-graded norm of the √mass vector
+vanishes, the source of τ = ½ln2) carries a two-part candidate mechanism. The
+uniform component is a **conserved charge** — computed exactly: its first moment
+vanishes identically, so it is set once and cannot fluctuate. The charged pair
+carries **exactly one quantum of energy as a definite classical amplitude** —
+the ground-state occupancy principle (the vacuum-energy counting) applied to the
+lepton cell; integer-protected, hence compatible with the observed 6×10⁻⁶
+exactness in a way no thermal average can be. The two exact numbers unify in one
+object: the frozen quantum's amplitude gives the modulus (1/√2 ⟹ τ = ½ln2), its
+transport around the three-generation cycle gives the phase (2/9), and the
+closure forces its frequency to (2/9)·T_c = 39.36 keV — equal to the
+independently recorded per-face drift. **Referees unchanged:** the SU(2),
+N_f = 3 lattice campaign (five verdicts, including the three-source ground-state
+geometry and the adjoint string-breaking distance), the registered deviation
+lock, and m_τ at ≲1.4 ppm. Grade: candidate; the residual is the deposit
+argument for the conserved amplitude's value.
+
+### 23.3 The primordial amplitude and tilt: one triangle, one rate
+
+The tilt's mechanism, at candidate grade: the census fluctuation is a conserved
+charge sourcing curvature at a constant rate per e-fold, from the birth-scale
+anchor to each mode's horizon crossing — amplitude ∝ ln(k_UV/k), hence
+n_s = 1 − 2/ln = 0.9677 (+0.66σ) with the zero-parameter signature
+α_s = −(1−n_s)²/2 = −5.2×10⁻⁴ (thirteenfold below current sensitivity; the
+registered falsifier-in-waiting). The coherence is forced by the conservation
+law: increments cannot be redrawn. The normalization dissolves into physics:
+A_s = r²L*²β³/2π², with the conversion rate bounded two-sided by the registered
+isocurvature band (r ∈ [0.8, 3.2]), and the imprint fraction β = γ/N₁ — the
+scaling-network density γ ∈ [0.08, 0.20] (inside the standard band) times the
+per-cell count N₁ = 4πk/α_c = 783 (the recorded winding-gas count, decomposing
+exactly as the inverse screened coupling in loop units). **Four observables rest
+on one rate without strain:** the amplitude, the tilt, the correlated
+isocurvature residual (0.7–2.0%, the registered line's class), and the network
+density. **Gates:** the substructure count per network cell under screened
+damping (a specified computation), and the network density for the medium's
+parameters. Grade: candidate; the surviving route is unique.
