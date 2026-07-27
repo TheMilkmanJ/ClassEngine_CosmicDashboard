@@ -522,9 +522,9 @@ The inventory leaves exactly one shape of object unaccounted for:
 The standing configuration cannot currently supply it, and the reasons are specific rather than
 accidental:
 
-- **The superfluid dark component cannot decay.** Its shift symmetry forbids it, and this is
-  load-bearing elsewhere — a confirmed dark-sector decay line is a registered falsifier of the
-  superfluid identification. Giving the medium a decay channel to heal deuterium would trade
+- **The dCDF (the superfluid dark component) cannot decay.** Its shift symmetry forbids it, and
+  this is load-bearing elsewhere — a confirmed dark-sector decay line is a registered falsifier
+  of the dCDF identification. Giving the medium a decay channel to heal deuterium would trade
   this row for that one.
 - **The electron-coupled scalar and the heavy portal sector are too long-lived.** Decay
   constants of 100–500 TeV and 13–20 TeV put their lifetimes beyond cosmological by many orders.
@@ -668,7 +668,7 @@ together:
 
 The named missing piece (≳20 MeV, 10⁶–10⁸ s, ~30 eV/H electromagnetic injector) is real as a
 *spec*. The standing configuration cannot contain a source for it without breaking something that
-elsewhere is load-bearing (Pauli finiteness, the superfluid component's shift symmetry, or the
+elsewhere is load-bearing (Pauli finiteness, the dCDF's shift symmetry, or the
 H₀ result itself). That is why the row stays open as an **owned adverse bet**, not as an
 unfinished calculation.
 

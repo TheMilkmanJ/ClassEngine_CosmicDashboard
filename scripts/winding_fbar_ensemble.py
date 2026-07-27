@@ -33,6 +33,22 @@ GRADE RULE
   grade): (A) inside 2σ with the systematic under the distance-to-2/π
   bar.  KILL: either registered kill firing — ledger row, and the derived
   stack ε = 27α/5π loses its middle factor.
+
+ERRATUM (2026-07-28, the run's own result diagnosed the harness)
+  THIS SCRIPT MEASURED THE WRONG OBJECT AND GRADES NOTHING.  The run landed
+  0.941 ± 0.001 — and the diagnosis is the harness's, not the theory's:
+  under Hubble friction the orbit's angular momentum decays faster than its
+  radial amplitude (a⁻³ against a⁻³ᐟ²), so every trajectory degenerates
+  toward a line, and a line-orbit's polar angle dwells at 0/π, forcing
+  ⟨|cos θ|⟩ toward 1 regardless of the initial kick (the amplitude-weighted
+  reading, 0.975, confirms the line dominance).  The registered f̄ is the
+  SPATIAL winding phase's average — many turns of the phase around the
+  compact axis, equidistributed across the volume — not the temporal polar
+  angle of a friction-damped orbit.  NO KILL FIRES from a wrong-object run;
+  P-2026-041's interim confirmation (0.635 ± 0.026, from the genesis-field
+  winding simulation) stands untouched.  The correct high-statistics check
+  must sample the winding phase from the genesis field's spatial
+  configuration; the registered kills transfer to that instrument.
 """
 from __future__ import annotations
 
