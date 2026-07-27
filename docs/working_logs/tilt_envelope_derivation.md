@@ -139,3 +139,22 @@ interaction — the old normalization keystone, relocated from cosmology to a
 local problem with a physical container; (ii) compute γ for the medium's own
 network (reconnection ≈ 1, Goldstone losses; the vanilla band contains every
 demanded value). Nothing promoted; the ledger carries the eliminations.
+
+## Addendum 5 (2026-07-27): the per-cell count — decomposed exactly, cells narrowed, gate specified
+
+`scripts/per_cell_count_structure.py`. The count is not derived; it is decomposed
+and its owner named:
+
+- **Exact decomposition:** N₁ = 4πk/α_c = (8R/π)·ln(1+R) = 4π/g_scr, with
+  R = π/2α_c = 71.8 (the squared Fermi-to-screening scale ratio) and
+  g_scr = α_c/k the Fermi-surface-averaged screened coupling. The count per
+  dimension is the inverse screened coupling in loop units — structurally a
+  Coulomb-log-weighted channel count.
+- **Cell-identity elimination (ledger row filed):** particle-quanta cells die by
+  e⁶⁰ (count ∝ a³ per network cell — tilt-destroying scale dependence). The
+  surviving identity: network substructure (kinks/loops/wiggles), whose per-cell
+  count is a pure number, constant in the scaling regime by construction.
+- **The refined gate:** compute the substructure count per cell of a scaling
+  vortex network with screened interactions at α_c — the small-scale cutoff where
+  screened damping beats stretching. Demanded answer: 4π/g_scr per dimension.
+  The Coulomb-log structural resemblance aims the computation at weight zero.

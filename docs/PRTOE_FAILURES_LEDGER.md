@@ -2969,3 +2969,22 @@ the working log; its gates are the per-cell count derivation and the network
 density computation. If those gates fail, the imprint-fraction link fails and
 the tilt mechanism loses its promotion path with all alternative routes already
 retired (this ledger, #184 and the incoherent/running-coupling eliminations).
+
+### Particle-quanta census cells — ELIMINATED by e⁶⁰ (2026-07-27)
+
+**What it was:** one of two identities for the census cells inside the two-scale
+imprint structure — cells as particle-quanta at the medium's number density.
+
+**Why it died (`scripts/per_cell_count_structure.py`):** the count per network
+cell would be n·(γd_causal)³ ∝ a⁻³·a⁶ = a³ in the radiation era — the
+per-dimension count growing linearly in the scale factor, ~e⁶⁰ across the
+observable window. The shot amplitude would inherit that scale dependence and
+destroy the measured spectral tilt by orders. Dead regardless of any coefficient.
+
+**What survives:** cells as NETWORK SUBSTRUCTURE (small-scale structure on the
+vortex lines), whose count per network cell is a pure number of the network's
+internal dynamics — automatically constant in the scaling regime. The demanded
+pure number decomposes exactly as N₁ = 4π/g_scr = (8R/π)·ln(1+R), a
+Coulomb-log-weighted channel count, specifying the owning computation: the
+substructure cutoff of a scaling vortex network under screened-interaction
+damping at the medium's coupling.
