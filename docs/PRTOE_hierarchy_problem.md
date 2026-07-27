@@ -824,3 +824,14 @@ rather than a foreign assumption, and the section's named condition narrows to o
 **T/μ at gap formation** — the formation-epoch bath against the band's doping, a quantitative
 question rather than a structural conflict. §6e's velocity-matching requirement and the surviving
 ratio r = v_e/v_h are untouched; the ledger carries the full pricing record.
+
+**And the owed number is now computed — the hierarchy pays its own bill**
+(`scripts/formation_epoch_condition.py`, 2026-07-28). The anchor's closed form names its own
+Fermi scale through its prefactor, as every pairing formula does, so the bath-to-filling ratio
+at gap formation is the hierarchy factor itself: T/μ = T_anchor/M_red = 2–7×10⁻¹⁶ across the
+anchor band — the percent-fidelity bar (μ/T ≳ 18) cleared by fourteen orders. A gap
+exponentially below its Fermi scale forms in a bath cold relative to that scale by exactly the
+exponential; the cold kernel is self-consistently the correct host for the very formula it
+computes. What this section does **not** decide — and re-homes rather than smuggles — is why the
+pairing sea fills at the reduced-Planck scale at all: that is the scale-selection question of
+§6a and §6i, a different question from the screening host's, and it stays with them.
