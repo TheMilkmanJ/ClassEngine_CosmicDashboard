@@ -28,3 +28,30 @@ verifies that retention returns to unity as the box grows.
 
 Items 3–4: the BipoSH joint pass remains on the referee calendar with the regenerated pattern
 handed to it. It now grades a 1.4σ structure, not a 2.2σ one.
+
+## The BipoSH estimator pass — built and graded (2026-07-28, task #34)
+
+`scripts/biposh_estimator_pass.py`, on the retained generator's covariance
+(45×45, ℓ ∈ [2,6], ISW-inclusive, at the matched-circles floor). Wigner 3j from
+the Racah formula in exact integer arithmetic, validated against the
+independent J-even closed form (the v1 check value was itself a garbled CG —
+the implementation was right and the independent formula proved it).
+
+**The build's three results:**
+1. **The cubic selection rule EMERGES from the projection:** all 103 populated
+   anisotropic components satisfy L even with M ≡ 0 (mod 4) — the cubic point
+   group's own rule, not imposed. The template tower is the expected cubic
+   sequence: L = 8 (ℓ₁ℓ₂ = 44) at 0.83 dimensionless, L = 4 (22) at 0.69,
+   L = 12 (66) at 0.67, with the ±M partners at their forced ratios.
+2. **The grading refines 1.4 → 1.7:** the matched-filter S/N over the full
+   anisotropic BipoSH set is **1.68**, against the generator's off-diagonal-only
+   Σρ² figure of 1.44. The 17% excess is identified, not mysterious: the
+   m-dependent DIAGONAL anisotropy (⟨|a_ℓm|²⟩ varying with m at fixed ℓ) is
+   real pattern information the off-diagonal ρ measure cannot see and the
+   ℓ₁ = ℓ₂, L > 0 BipoSH components capture. Both figures are cosmic-variance
+   statements on the template; 1.7σ is the estimator's honest ceiling on
+   Planck-class low-ℓ data in the pattern's own frame.
+3. **Data application, stated for the calendar:** Â^{LM}_{ℓ1ℓ2} from measured
+   a_ℓm rotated to the pattern frame — or frame-maximized, which then carries
+   its look-elsewhere factor in the grading. External; the instrument is now
+   on the shelf for it. T12's estimator row shares this build.
