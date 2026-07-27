@@ -1527,3 +1527,19 @@ flagged:
 **#11's remaining half is now one question with one named owner:** does the
 pour partition the deposit at the medium's coupling? (One vertex between the
 sectors at birth — the genesis event's dynamics.)
+
+**Addendum (2026-07-27) — the rivals priced** (`scripts/pour_partition_rival_pricing.py`):
+the coincidence's rival partition rules, each run through the same dof
+arithmetic against the committed window. Three classes die: equipartition
+(ΔN_eff = 1.61, above — the window itself excludes equilibration, agreeing
+with the roster argument), gravitational-class transfer (ΔN_eff ~ 10⁻⁶,
+born-empty), and every sub-percent share — bare α gives 0.049 and α_c² gives
+0.003, both below the floor, which makes the factor 3 in α_c = 3α
+load-bearing: it alone moves the one-vertex share from outside the window to
+its center. Two survivors, both single-medium-vertex percent-class: s = α_c
+(ΔN_eff = 0.146, the registered P-2026-059) and s = ε = 27α/5π (ΔN_eff =
+0.084). CMB-S4 at σ(ΔN_eff) ≈ 0.03 separates the pair at 2.1σ — the same
+measurement that tests the window adjudicates between the survivors. The
+coincidence stays at coincidence grade (the pour's dynamics still owe WHICH
+member), but the partition's CLASS is now priced, not assumed: one vertex,
+medium-percent coupling.
