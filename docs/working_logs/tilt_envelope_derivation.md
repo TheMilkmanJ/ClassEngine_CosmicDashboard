@@ -183,3 +183,26 @@ parameters and land 4π/g_scr. **Kill:** that computation landing elsewhere, or
 the bare channel proving unsuppressed. The keystone is now a specified
 superfluid-turbulence computation with a demanded answer — the triangle's last
 abstract link is physical.
+
+## Addendum 7 (2026-07-27): the Kelvin cutoff computed — one flag resolved, one sharpened, one edge discovered
+
+`scripts/kelvin_cutoff_compute.py`, recorded parameters only.
+
+- **Flag (ii) RESOLVED BY COMPUTATION:** the bare (quadrupole) channel's
+  per-cycle emission against the screened channel's: 8×10⁻¹⁴ at the largest
+  observable scales, 9×10⁻⁴ at the pivot, narrowing to 7×10⁻² at the window's
+  UV edge — the screened channel sets the cutoff throughout, margin reported
+  exactly as it tightens. The bare-alone count is epoch-dependent (10⁵ → 1200
+  across the window): its subdominance is REQUIRED for scale invariance and
+  HOLDS.
+- **Flag (i) SHARPENED:** the count's structure N₁ ∝ 4π/g_scr stands; the exact
+  prefactor awaits the vertex derivation. Consistency: the identical 4π loop
+  convention is already fixed in the recorded closed form — one convention, two
+  appearances, zero freedom once the vertex lands.
+- **THE UV VALIDITY EDGE (new, named exposure):** the cell size tracks the
+  causal range while the core is fixed, so ℓ_min/ξ shrinks toward early times
+  and saturates at z ≈ 8.9×10⁴ — k_edge ≈ 0.26/Mpc, essentially at the
+  observable window's boundary. Beyond it the imprint construction cannot
+  continue unchanged; the consequence for smaller scales (the Lyman-α range,
+  k ~ 1–3/Mpc, where data reads the spectrum as roughly standard) is
+  UNASSESSED. Filed as its own task.
