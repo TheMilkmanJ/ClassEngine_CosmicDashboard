@@ -115,3 +115,27 @@ different engine, and every other route is already route-eliminated.
 on "+1/ln, IR-anchored, wrong sign" — the conserved-charge conversion delivers
 −2/ln, UV-anchored, passing the autopsy that killed its predecessor. Consistency,
 not evidence.
+
+## Addendum 4 (2026-07-27): the two-scale closure — the tension dissolves
+
+`scripts/two_scale_closure.py`. β = γ/N₁, with the algebra/structure split stated
+so nothing is double-counted:
+
+- **Algebra (confirms nothing):** given the mechanism and the closed form, the
+  identity β = γ/N₁ with γ ≡ (2π²/(r²L*²))^{1/3} is a rewriting.
+- **New structure:** (1) the counting volume is PHYSICAL — the census count
+  N₁³ = (4πk/α_c)³ lives per NETWORK CELL, closing the old factor-250
+  "pivot-volume convention" question: it was never a convention, it was an
+  unidentified physical volume. (2) The demanded network density lands INSIDE the
+  vanilla scaling band: γ runs 0.20 → 0.10 across r ∈ [0.8, 2.0] against the
+  standard reconnecting-network band 0.1–0.3 — no exotic network, no 10³
+  suppression; the elimination's one surviving holder does the holding at its
+  natural density. (3) Four observables sit on one rate with no strain at
+  r ∈ [0.8, ~2.3]: A_s (construction), the tilt (mechanism), the isocurvature
+  residual (0.7–2.0%, the registered band), the network density (vanilla band).
+
+**The gates, localized and named:** (i) derive N₁-per-cell from the screened
+interaction — the old normalization keystone, relocated from cosmology to a
+local problem with a physical container; (ii) compute γ for the medium's own
+network (reconnection ≈ 1, Goldstone losses; the vanilla band contains every
+demanded value). Nothing promoted; the ledger carries the eliminations.

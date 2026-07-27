@@ -2946,3 +2946,26 @@ order-one conversion coefficient to exceed ~10⁴
 identically unity, making the mechanism's constant-fraction premise exact rather
 than approximate. The surviving triangle bounds the conversion rate two-sided
 (r ∈ [0.8, 3.2]) and pins the imprint cell fraction near 2×10⁻⁴.
+
+### Standard mechanism classes as holders of the imprint fraction — ELIMINATED (2026-07-27)
+
+**What was attempted:** deriving the imprint cell fraction (β ≈ 2×10⁻⁴, the
+coherence-to-causal-range ratio the primordial-amplitude triangle demands) from a
+standard mechanism class (`scripts/beta_holders_elimination.py`).
+
+**What died:** three classes fail to hold ANY constant fraction — thermal
+coherence falls with the bath temperature; phase-ordering coarsening falls as
+t^(−1/2) against the causal range; critical-riding at the adiabatic–impulse
+boundary with the on-file exponent ν = 2/3 falls as H^(0.6), ~16 orders across
+the observable window. The one class that does hold a constant fraction — the
+scaling defect-network attractor — holds at its natural density 0.1–0.3 of the
+causal range, three orders above the demanded value, and is not adjustable there
+by any recorded mechanism.
+
+**What survived (worked the same day):** the two-scale reading — the network
+attractor holds the skeleton at its natural density while the screened
+interaction subdivides each network cell — carried forward at candidate grade in
+the working log; its gates are the per-cell count derivation and the network
+density computation. If those gates fail, the imprint-fraction link fails and
+the tilt mechanism loses its promotion path with all alternative routes already
+retired (this ledger, #184 and the incoherent/running-coupling eliminations).
