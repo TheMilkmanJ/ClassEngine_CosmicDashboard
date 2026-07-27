@@ -1499,3 +1499,31 @@ genesis for the dark-side coupling — consistent with the coupling
 inventory's law; coefficient unrecorded), and the partition value's origin
 (why the genesis event deposits at ζ ∈ [0.25, 0.35] — the genesis event's
 own physics).
+
+## The partition's provenance fully mapped; the window restated in coupling units (2026-07-28)
+
+`scripts/pour_partition_structure.py`, on the provenance hunt through the
+non-thermalization tribunal's record. Three findings, two exact and one
+flagged:
+
+1. **The committed pair is the 27-dof booking, verified to the digit:**
+   ΔN_eff = 27ζ⁴/(7/4) gives 0.0603 and 0.2315 at the window's corners — the
+   booked 0.06/0.24 — and the tribunal's own threshold arithmetic
+   ((0.3·(7/4)/27)^¼ = 0.3734) confirms the convention. The previous
+   verification's g_d ~ 4–40 band sharpens to the exact implicit count: 27.
+2. **The isolation condition closes on the corpus's own computation:** the
+   tribunal already priced gravity at the recorded pour scale 8×10¹⁶ GeV at
+   Γ/H = (T/M_Pl)³ = 2.8×10⁻⁷ (reproduced exactly). The dark core is BORN
+   isolated; the assembly's named remainder (i) is closed, not open.
+3. **The window restated at the pour (dof run-back, recorded content):**
+   ζ_BBN = 0.570·ζ_pour, so the committed window corresponds to a pour-epoch
+   dark share s = ρ_dark/ρ_SM = (27/112)·ζ_pour⁴ ∈ [0.9%, 3.4%] — which is
+   [0.41, 1.58]·α_c: THE WINDOW IS THE α_c-CLASS BAND, and the exact
+   identification s = α_c lands ζ_BBN = 0.312 (s/α_c = 0.99), near the
+   window's center. FLAGGED AT COINCIDENCE GRADE. If the pour's dynamics
+   derive the share at the coupling, ζ becomes a prediction: ΔN_eff = 0.146
+   — a five-sigma-class CMB-S4 target at its ±0.03.
+
+**#11's remaining half is now one question with one named owner:** does the
+pour partition the deposit at the medium's coupling? (One vertex between the
+sectors at birth — the genesis event's dynamics.)
