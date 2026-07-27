@@ -24,7 +24,8 @@
 | recombination (z ~ 1100) | 1.232% (fit) / 1.254% (derived stack) | the production chain |
 | BBN window (LT era, inside) | ε_rec × [0.8–1.0] (mean-field ramp factor, internal review debt) | the windowed splice |
 | above z_high (~T_c epoch) | 0 (disordered) | the dyad window's high edge |
-Rows must cite THIS table, not "the" ε. Item 2 (the masters' calendar) still open.
+Rows must cite THIS table, not "the" ε. (Item 2's "still open" clause removed 2026-07-27 —
+its payment is recorded three lines below and predates the clause's survival.)
 
 ## PAID item 2: the masters' calendar — docs/PRTOE_REFEREE_CALENDAR.md.
 

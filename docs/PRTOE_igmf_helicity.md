@@ -136,9 +136,14 @@ rather than nearly so.
 
 What closes the link is one draw carrying both structures. The genesis system evolves the phase
 in time and has no winding; the multi-component winding average carries the six-channel winding and
-has no time evolution. Link 5 needs the second given the first — the channel phase configuration
-evolved through the roll-up, with sign(θ̇) and sign(n) read from the same trajectory (docketed #154).
-Until that exists the product is unmeasured rather than owed, and the handedness hint stays a watch.
+has no time evolution. That joint reading has now been made — sign(θ̇) and sign(n) drawn from the
+same evolved trajectory — and the answer is that they are independent: the joint correlation sits
+at −0.06 to +0.09 against a ±0.13 noise floor, a result forced by spatial parity. **The prediction
+that the helicity sign correlates with the matter–antimatter draw is therefore not supported** —
+the model joins the generic case where the two are independent, and the distinctiveness that rode
+this correlation is withdrawn. What survives untouched is the magnitude-level seeding claim
+(the field's helicity is signed by the genesis flow's own handedness); the handedness hint stays
+a watch on that narrower claim alone.
 
 ## The seeding link, taken apart (2026-07-20)
 

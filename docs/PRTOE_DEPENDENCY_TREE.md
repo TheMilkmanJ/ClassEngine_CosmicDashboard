@@ -89,8 +89,10 @@ to come from the other five.
 **"Signed" means signed *relative to* n, and not more than that:** the genesis draw generates
 rotation with no preferred sense — a reflection symmetry of the recorded tilt that the uniform
 release prior does not break — so the family cannot name which absolute handedness corresponds to
-matter. That limit is proven rather than pending. Whether even the relative lock between the
-temporal rotation and the spatial winding holds is a separate question and is open
+matter. That limit is proven rather than pending. The relative lock between the
+temporal rotation and the spatial winding has been computed and does not hold: the two signs are
+drawn independently at genesis (joint correlation consistent with zero against the instrument's
+noise floor, forced by spatial parity), so the product is a draw the model cannot call
 ([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)).
 
 ## The reading rule

@@ -1,5 +1,12 @@
 # T14 IGMF helicity (the chirality family's possible FIRST DATUM) — OWED
 1. THE SIGN MAP (load-bearing): the family predicts sign(helicity_B) = sign(n) = the matter draw — but the map owes TWO signs on two different objects. WHICH handedness the genesis flow has (the seeding step, sign(H_kin)) and WHICH handedness corresponds to matter-wins (the AD-direct rectification, sign(θ̇·n)). Until both are explicit, the measured hint cannot be read.
+   — **LINK 5 CLOSED, NEGATIVE (2026-07-27 sync; computed 2026-07-20,** `T14_link5_joint_draw.md`**):**
+   sign(θ̇) and sign(n) are drawn INDEPENDENTLY (joint correlation −0.06 to +0.09 against a ±0.13
+   floor, forced by spatial parity, `scripts/genesis_joint_draw.py`) — sign(θ̇·n) is a coin the
+   model cannot call, the matter-draw lock is withdrawn (failures ledger), and the measured hint
+   cannot be read as a genome sign THROUGH THIS LINK ever, not merely yet. Link 4's sign(H_kin)
+   is the sole surviving sign debt (its poloidal half computed, its toroidal half in the running
+   3D experiment — see the HALF-PAID block below).
 2. The hint's status pass: Tashiro–Vachaspati-class claims (~2σ, left-handed, Fermi parity-odd statistics; disputed) — literature refresh + systematics status.
 3. IF the map lands and the hint firms: the family becomes one-measured/two-predicted — the strongest cross-messenger test on the board.
 
@@ -211,9 +218,11 @@ half — whether the ring's toroidal circulation is set by (and signed by) the g
 and that is the 3D toroidal pair now running (`scripts/ring_toroidal_3d.py`, n = ±1, fork
 pre-registered: shape-helicity reading vs core-circuit phase-twist reading; survivor keeps candidate
 grade, loser to the ledger). If it lands sign-locked, the first branch above closes with
-sign(H_kin) = sign(n) up to the recorded fixed factor, and link 4 reduces to link 5's rectification
-question. Link 5 remains owed on its own terms (sign(θ̇·n), #154's scope; converges with the
-transfer integral's rectification pass).
+sign(H_kin) = sign(n) up to the recorded fixed factor. (An earlier version of this block said
+link 5 "remains owed on its own terms" — corrected same day: link 5 was CLOSED NEGATIVE
+2026-07-20 by the joint-draw instrument, see item 1's annotation above; what converges with the
+transfer integral's rectification pass is the junction's diode structure, a mechanism question,
+not the dead genesis-correlation question.)
 
 **What this does to the census's reading.** The census counted link 5 as the single owed junction;
 its row now carries both. **A closed link 5 alone leaves the measured left-handed hint unreadable**,

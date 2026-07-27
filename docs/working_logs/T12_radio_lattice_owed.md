@@ -11,6 +11,14 @@ candidate priced; the gate's energy bookkeeping supplies the ~50 eV/particle cro
 the debt census records). Item 1 remains calendar-gated (the BipoSH estimator pass — data
 exists, analysis-limited), items 2–4 standing.
 
+## PAID (2026-07-27 sync): item 1's INSTRUMENT — the BipoSH estimator pass is BUILT
+(`scripts/biposh_estimator_pass.py`, 2026-07-28: Racah 3j in exact integer arithmetic with
+an independent closed-form validation; the cubic selection rule L even, M ≡ 0 mod 4 emerges
+103/103; S/N graded 1.44 → 1.68 on the retained generator; write-up in T5's addendum).
+What remains of item 1 is the DATA APPLICATION only — Planck low-ℓ a_ℓm in the pattern
+frame (or frame-maximized with its look-elsewhere factor) — which is the external calendar
+item, not the analysis-limited instrument this row used to name.
+
 ## PAID (2026-07-20): item 3 — the synchrotron row's weight convention
 
 The row's number is the **fixed-field** reading. The synchrotron critical frequency carries a γ²
