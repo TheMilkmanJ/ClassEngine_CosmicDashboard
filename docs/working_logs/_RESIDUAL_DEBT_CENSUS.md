@@ -35,6 +35,16 @@
 > * **T7's dataset question: ANSWERED 2026-07-28** (the file's addendum) — no dataset
 >   tabulates the winding average; the observable exists latently in disk-referenced spiral
 >   interferograms; the named target is a percent-level reanalysis of archived images.
+> * **The area-law ROSTER EXTENSION: PAID 2026-07-28** (entropy §3 extended;
+>   `scripts/area_law_roster_extension.py`) — per-class on literature-standard results:
+>   fermions exact (no contact term), the gauge sector restored by the Donnelly–Wall
+>   edge-mode identification of Kabat's term, the conformal Higgs dropping out under the
+>   corpus's own ξ = 1/6 finiteness condition. 63% of roster units unconditional; 37% on
+>   the one named commitment (edge modes = horizon entropy); its rejection is the kill.
+>   The corpus-level area-law row is now fully discharged at candidate grade.
+> * **Remaining verified-open census debts, now tracked as tasks:** the SMBH spin-mass
+>   confrontation + saturation corrections (#31), the matched lensing fit (#32), the EDE
+>   fairness pass (#33), the BipoSH estimator build (#34).
 
 *What each threaded owed-file still owes, after cross-checking every item against work paid
 elsewhere in the corpus. Four states: **PAID** (here or elsewhere, with the pointer),

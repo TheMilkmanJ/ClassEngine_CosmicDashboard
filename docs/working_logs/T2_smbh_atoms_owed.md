@@ -19,3 +19,33 @@ log₁₀(N_spin-down/N_eq) = −83.7/−85.1/−85.8 at α_g = 0.1/0.3/0.5. Thr
 (c) p was not the defect — the sweep balanced a *total* rate against a *per-particle* rate,
 costing one power of λ, which is 90 decades here. Autopsy in the failures ledger.
 **Still open: item 4 (chain-gated).**
+
+## The spin-mass confrontation, first assembly (2026-07-28, literature survey — task #31's data half)
+
+**The 2026 data state, assembled against P-2026-034's band (M ≈ 6×10⁸–3×10⁹ M☉):**
+
+| mass range | measured spins (X-ray reflection, ~50+ objects total) | vs the band |
+|---|---|---|
+| ≲ 10⁷·⁵–10⁸ M☉ | predominantly high (χ ≳ 0.9) | BELOW the band — no dip expected there ✓ |
+| ≳ 10⁸ M☉ (into the band) | a tentative DECREASE — a moderate-spin population appears (a* ~ 0.5–0.7); literature's own caution: small samples, selection effects | the predicted direction ✓ |
+| H1821+643 (log M ~ 9.2–10.5, at/above the band top) | a* > 0.4, "moderate" — the most massive well-constrained case | not maximal; weakly informative on band-localization |
+
+**The verdict, both ways honest:**
+- **The registered kill does NOT fire.** "A flat or oppositely-featured spin-mass plane at
+  good statistics" is the kill; the plane is featured, in the predicted direction, at weak
+  statistics.
+- **The registered win does not fire either.** The same declining trend is DEGENERATE with
+  the standard story — chaotic/incoherent accretion plus mergers at high mass predict
+  moderate spins (median a ~ 0.4–0.5) in the same range. The current data cannot separate a
+  superradiant band-dip from standard high-mass growth.
+- **The census's earlier exposure framing is refined:** the high-spin population sits BELOW
+  the band; the in-band and above-band population trends moderate. "High spins populate the
+  band" was the older data state; the live state is consistent-leaning non-discrimination.
+- **The discriminating shape, named:** the model predicts a LOCALIZED dip (recovery above
+  ~3×10⁹ M☉ where superradiance detunes); chaotic accretion predicts a continuing or flat
+  decline. Above-band recovery is therefore the clean signature, and H1821+643's a* > 0.4
+  is the first weak datum on it. **The referee: NewAthena's projected homogeneous catalog
+  (~50 nearby AGN at ≤10% spin precision) — the α_c chain sharpens the band meanwhile.**
+
+Remaining for #31: the theory half — the quartic's saturation corrections to the spin-down
+rate inside the band (what nonlinear saturation does to the dip's depth and edges).
