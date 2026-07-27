@@ -39,7 +39,7 @@ the model posterior collapsing.
 ## 3. The forward structure (benchmark point)
 
 Benchmark A (`v_L = 5 MeV`, `M = 10 TeV`): near-resonant (`μ/Γ = 0.46`, benchmark-local),
-Majoron coupling `g = 1.2×10⁻⁸`, which lies inside the CMB-S4 target band (P-2026-025).
+Majoron coupling `g = m₃/v_L = 1.0×10⁻⁸`, which lies inside the CMB-S4 target band (P-2026-025).
 CMB-S4 tests `v_L < 20 MeV`, which is roughly one-third of the natural parameter space. The same
 sector is also the one used in the baryogenesis route, where `K = Γ_N/H = 9×10⁷` has already been
 computed.

@@ -967,3 +967,30 @@ averaged re-expansion — is met at the reconstruction's working grade
 transverse-axis evolution (out of 1D reach) and the honest averaging
 bookkeeping in an expanding background — both fold into #13's dynamical half
 alongside the spherical focusing run.
+
+---
+
+## 22. Task 5 — the assembled timeline: the bar the focusing must clear (2026-07-28)
+
+Script: [`scripts/bounce_task5_assembled_timeline.py`](../../scripts/bounce_task5_assembled_timeline.py).
+
+Under the two-scale reading the restart bath temperature is pure adiabatics:
+T_restart = T_door,bath × F^{1/3}, with F the local volume compression between
+the door's opening and the gradient-stress turn. Assembling the recorded
+anchors (door scale from ξ recomputed at 3.72 keV; the medium floor recomputed
+at 1.06 keV; the M2 bath-at-door 146 eV; the M1 seed scan's floor-class doors
+at ~keV) gives the single bar O6 demands of the spherical focusing:
+
+| door | bath there | F required for 1 MeV |
+|---|---|---|
+| CMB-class seed | 146 eV | ≥ 3.2×10¹¹ |
+| deepest (floor-class) | ~1 keV | ≥ 1.0×10⁹ |
+| perfect shear→heat conversion too | 2.8 keV | ≥ 4.6×10⁷ |
+
+The verified 1D rebounds overshoot by O(1); the sequencing race measured peak
+compressions of 3–8 at Mach 2–3. **The verdict is withheld until the adaptive
+spherical run lands its measured F** — the script folds the number in
+automatically and prints promote (O6 funded by compression) or the §18 honest
+endpoint (the reconstruction's own channels under-fund the hot start; the
+outer-spec tension recorded; funding moves to the genesis cascade's open
+dynamical half, task #11). Nothing concluded before the number.
