@@ -247,3 +247,13 @@ k = 1/Mpc — and is excluded by the recorded sky. The small-scale data thereby
 constrain #15's gate from the observation side: the weight-zero exhibit must
 land coupling-class. #25's promotion rides on that landing; its kill applies
 only to the reading the sky already disfavors.
+
+## Addendum 10 (2026-07-28): the residual gate checked — one object read twice
+
+`scripts/ns_residual_gate_check.py`. Gate (2) of the tilt's promotion: over the
+construction's surviving band r ∈ [0.8, 2.3], the mechanism's correlated
+residual S/ζ = 1/(rL) spans 0.70–2.02% — the percent class that P-2026-031
+registers as the isocurvature line's amplitude. Consistency passes across the
+whole band; the r ≲ 0.1 tension zone lies outside it. The tilt now waits on
+one gate only: the rate normalization (task #15's weight-zero exhibit), with
+P-2026-031's external referee (a CMB bound at ℓ ≈ 170) unchanged.
