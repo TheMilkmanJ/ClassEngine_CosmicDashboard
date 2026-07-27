@@ -831,3 +831,43 @@ exactly two live levers — the spherical focusing amplification (computing now)
 the Standard-Model crossing (task #14, the only channel large enough to matter if
 focusing falls short). If both fail, the honest endpoint is a recorded outer-spec
 tension: the reconstruction under-funds BBN and says so. No knob exists to turn.
+
+---
+
+## 19. Task 14 — the Standard-Model crossing forced to two scales; a candidate reframing filed (2026-07-27)
+
+Script: [`scripts/sm_crossing_two_scale.py`](../../scripts/sm_crossing_two_scale.py).
+
+**The forcing argument.** The recorded light framework makes the photon the
+substrate's transverse Goldstone mode. Today's sky then decides the crossing's
+architecture: photons at wavelengths 10¹⁷ below the dark fluid's coherence length
+propagate over ~10¹¹ coherence lengths undispersed (the recorded Lorentz-invariance
+pricing). The photon's carrier is not the 402-AU-coherent dark fluid; the substrate
+stays coherent far below ξ. **At the door, photons persist.** The single-scale
+reading (photons exotically converting at ξ) is dead on observation.
+
+**The crossing is textbook.** Through the interval the photons are ordinary
+in-medium fields: massed at the thermal plasma frequency (ω_p ≈ eT/3 — ~100 keV at
+an MeV bath: the "crunch mouth masses the photons" line upgrades from story to
+in-medium QED), Compton-locked at the recorded Γ/H ~ 10¹⁷ rates, with only the
+recorded tiny portals to the dark sector. **The bath's energy passes through
+conserved.**
+
+**The budget implication (candidate).** The Standard-Model bath is its own
+reservoir riding the contraction, blueshifting as 1/a, passing through the dark
+sector's non-hydrodynamic interval intact — the door does not fund the hot start;
+the contraction already did. The MeV lever (§18's second live channel) resolves
+affirmative at candidate grade, conditional on the two-scale reading (forced) and
+bath survival through local rebounds (the portals' smallness — recorded).
+
+**The candidate reframing, filed openly.** Two-scale means the interval is "the
+dominant component's hydrodynamics off," metric on — consistent with the
+metric-on closures (which were homogeneous-level; the door is inhomogeneous by
+this log's own results, and the recorded "homogeneous quantum pressure vanishes"
+leaves ξ-scale gradient stress — the verified rebound's own engine — as the local
+turn's source). This does not overturn §13/§15; it refines what "the exit from the
+metric description" physically is: the source's hydrodynamic exit, locally, with
+the substrate persisting. The white-hole file's causal conclusions (the achronal
+re-emergence asymmetry) are unchanged — they constrain the same boundary under
+either name. Reconciliation with the M4–M8 language is now an open item of this
+log, named here rather than smoothed.
