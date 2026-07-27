@@ -1470,3 +1470,32 @@ only. The assembly, four steps:
    heating of the dark side, which lowers ζ); a different dark-side reheat
    chain. **Closing the ζ gap is the assembly's promotion gate; the gap
    proving unclosable at any legal roster is its kill.**
+
+## The ζ gap verified and dissolved (2026-07-28) — the corpus's own numbers decide the owner
+
+`scripts/zeta_gap_verification.py`, on the owner's order to verify. Three
+computations on recorded content:
+
+1. **Owner (a) is dead.** The recorded roster counts to g* ≈ 143 (Standard
+   Model 106.75 + three right-handed neutrinos 5.25 + the deconfined dark
+   sector's 27 + the scalar roster 4) — the demanded 484–1327 is unreachable
+   at any reading of the recorded content.
+2. **The committed pair coheres.** Inverting ΔN_eff = 0.06–0.24 against
+   ζ = 0.25–0.35 in both ζ-epoch conventions implies a dark-radiation count
+   g_d ~ 4–40 — order ten, the confined sector's Goldstone-class content. No
+   internal conflict.
+3. **The committed window itself excludes full equilibration.** A joint
+   dark+SM bath at genesis would give ζ ≥ 0.53 with the recorded roster —
+   above the committed top. So the dark core NEVER joined the joint bath;
+   the electron-coupled scalar's Standard-Model channels equilibrate (the
+   recorded gates — the assembly's steps 1–3 and the hot-start funding
+   stand), and ζ is the GENESIS PARTITION: an initial condition of the
+   genesis event, cross-checked by (2).
+
+**The gap dissolves** — it was the assembly's step-4 whole-sector-equilibrium
+assumption that failed, and the corpus's own numbers exclude it. Named
+remainders for #11: the dark-bridge isolation condition (Γ/H < 1 through
+genesis for the dark-side coupling — consistent with the coupling
+inventory's law; coefficient unrecorded), and the partition value's origin
+(why the genesis event deposits at ζ ∈ [0.25, 0.35] — the genesis event's
+own physics).
