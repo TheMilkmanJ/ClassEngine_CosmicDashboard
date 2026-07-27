@@ -244,3 +244,36 @@ requirement — of the re-emergence surface's spacelike character from the mediu
 equations. The identification stays a candidate. Its causal-structure half is now
 exhaustively supported; its dynamical half is a toy; neither is a completed
 derivation.
+
+## 11. Scope refinement (2026-07-27): two descriptions of one boundary
+
+Section 10's statements are refined by a scale-separation result from the
+light sector, recorded the same day (`scripts/sm_crossing_two_scale.py`; working
+log §19–20). The photon is the substrate's transverse Goldstone mode, and
+observed photons resolve the dark fluid's coherence length by seventeen orders
+of magnitude over gigaparsec distances without dispersion — so the substrate
+that carries the geometry remains coherent far below the dark fluid's coherence
+scale. Two consequences sharpen §10 without overturning any of its computations:
+
+**(a) The boundary is a past boundary of the coarse-grained description.** The
+exhaustion argument of §10(a) establishes that no homogeneous turning point
+exists while the hydrodynamic description of the dominant component holds — and
+the turning dynamics are supplied by that component's gradient stresses at the
+coherence scale, exactly the terms that vanish under homogeneous averaging. The
+restart surface is therefore where hydrodynamic cosmology *begins again*: a past
+boundary of the effective description that any observer in the re-expanding
+universe reconstructs. At the substrate level the spacetime is continuous.
+
+**(b) The event is permeable at the fundamental level.** Standard-Model fields
+cross the interval as ordinary in-medium fields — massed at the thermal plasma
+frequency, collision-locked at the recorded rates — with their energy conserved.
+The "exit-only causal role" of §2 is a true statement about the coarse-grained
+description; permeability is a true statement about the substrate. The local
+prohibition of §1 is satisfied automatically in the refined picture: no
+time-reversed horizon appears anywhere, and the spacelike-re-emergence condition
+of §10(b) becomes a dynamical consistency requirement on neighboring regions
+rather than a causal law — with the same quantitative content.
+
+The identification's grade is unchanged (candidate); what changed is its
+precision: "white-hole-like" names the causal shape of the reborn description's
+first surface, not a property of the underlying spacetime.

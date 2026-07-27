@@ -869,3 +869,19 @@ isocurvature residual (0.7–2.0%, the registered line's class), and the network
 density. **Gates:** the substructure count per network cell under screened
 damping (a specified computation), and the network density for the medium's
 parameters. Grade: candidate; the surviving route is unique.
+
+### 23.4 Scope refinement to 23.1 (same day)
+
+The conditional in §23.1 — "the bounce proceeds through the end of the metric
+description or not at all" — is sharpened by the light-sector scale separation
+(recorded the same day; [PRTOE_white_holes.md](PRTOE_white_holes.md) §11): the
+closures exclude a HOMOGENEOUS turning point, and the description that ends at
+the coherence scale is the *hydrodynamic description of the dominant component*,
+while the substrate carrying the geometry — and the Standard-Model fields, which
+cross the interval as ordinary in-medium fields with energy conserved — remains
+coherent throughout. The turn is a sub-coherence-scale inhomogeneous event
+powered by the component's gradient stresses (the verified rebound's engine),
+and the restart surface is the past boundary of the re-expanding hydrodynamic
+description. One architecture, two consistent descriptions; every computed
+number of §23.1 is unchanged. The hot-start budget resolves at candidate grade:
+the Standard-Model bath rides the contraction as its own conserved reservoir.
