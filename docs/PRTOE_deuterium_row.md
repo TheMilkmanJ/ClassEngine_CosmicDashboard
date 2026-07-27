@@ -16,7 +16,7 @@ the other end.*
 >
 > **One part of it is not waiting, and stays adverse.** The rate compilation moves the model and its
 > ΛCDM control together — the model-minus-control gap changes by 0.067σ across the two compilations.
-> So **the model is worse than ΛCDM on deuterium by ~0.62σ, and no nuclear measurement changes
+> So **the model is worse than ΛCDM on deuterium by 0.6–0.7σ, and no nuclear measurement changes
 > that.** The absolute row is hostage to LUNA; the comparison is not (§2b, §8).
 
 ---
@@ -120,7 +120,9 @@ and it arrives from nuclear data rather than from any mechanism.
 +1.23σ, essentially the same amount. **The model-versus-control gap changes by 0.067σ** — from
 −0.616σ to −0.683σ. Whatever this model is doing wrong on deuterium relative to ΛCDM, it is doing
 just as wrong under either compilation. The gap is the compilation-robust statement; the absolute
-row is not.
+row is not. (This leg's control, 2.4164, is the in-pipeline configuration; §1's booked
+decomposition control is 2.420 — two audited conventions, which is why the gap reads −0.62σ here
+and −0.69σ there. The robustness statement holds on either.)
 
 **What it does mean is that the headline is a PRIMAT number, not a model property.** Quoting
 −2.94σ without naming the compilation attributes to the model a deficit that nuclear data is
