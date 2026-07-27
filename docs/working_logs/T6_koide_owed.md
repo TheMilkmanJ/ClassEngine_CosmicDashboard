@@ -2087,3 +2087,16 @@ literature result is imported for the 2D incompressible cascade, and the medium'
 compressible corrections are unpriced — named residual). Pass 4's verdict was
 already asymptotically independent of the precise scale (only the ordering
 mattered); this addendum supplies the ordering's origin.
+
+**SCOPE CORRECTION (2026-07-27, same day — the consumer check this addendum skipped):**
+the identification's named consumer — pass 4's "LIFE at estimate grade" — was EXECUTED
+on 2026-07-18 by the ring-on-ring trial's verdict (pass 5, all three Widnall points in
+the death zone; "what dies with it: the cascade-delivery chain end to end… including
+the pass-4 LIFE"; the failures ledger carries the autopsy). This addendum therefore
+pays NO LIVE VERDICT: it stands as an argued input — the ring-scale identification any
+SUCCESSOR deliverer would need (the R_c = M_c blank is reopened by the same autopsy) —
+not as support for a standing result. The same scoping applies to the x_out crossing
+curve (pass 4's §: equality at x_out ≈ 0.85): with the delivery chain executed, x_out
+is MOOT as a verdict object and survives only as machinery for a successor. The live
+route to the complex is the LOCK arc (the a = 3b reduction, the occupancy lock, the
+2/9 closure — later in this file), which does not ride the cascade deliverer.
