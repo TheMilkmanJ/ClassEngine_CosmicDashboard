@@ -58,13 +58,25 @@ the two heat-kernel coefficients under the medium's own Bogoliubov regulator, 12
 exactly (§5; [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). **The entanglement-side
 check is paid (2026-07-20), and structurally**: the conical deficit's R-delta makes the horizon
 area term the *same* heat-kernel coefficient that generates 1/G, so any regulator multiplies both
-by one factor and cancels in the ratio — the quarter is regulator-**independent**. The residual
-debt is not this O(1) but the roster: the coefficients 12π and 48π are the minimally coupled
-scalar's, and for spin and non-minimal coupling the two divergences are no longer one term.
+by one factor and cancels in the ratio — the quarter is regulator-**independent**.
 
-Located by the model, with the scaling derived and the coefficient derived for minimally coupled
-content (the regulator's entanglement-side check is structural; the field-content extension is
-open). The same structure gates the Page curve
+**The roster extension (2026-07-28,** `scripts/area_law_roster_extension.py`**).** For the full
+field content the two divergences split per class, and the literature has adjudicated each
+split: spin-½ produces no contact term and preserves the ratio exactly (Kabat 1995; the
+induced-gravity program's standard result); gauge fields break the naive ratio by Kabat's
+contact term, which Donnelly & Wall identify as the edge modes' own entanglement entropy — with
+edge modes counted as horizon entropy the ratio is restored; and a conformally coupled scalar
+drops out of both sides identically, which the Higgs does under the same ξ = 1/6 condition the
+induced-G finiteness already requires. Bookkeeping over the model's roster: 63% of the units
+(the 48 Weyl fermions and the medium's minimal scalars) carry the quarter unconditionally, and
+the remaining 37% (the fifteen gauge bosons) carry it under the one modern-standard commitment
+that edge modes are physical horizon entropy. The quarter therefore survives the full roster at
+candidate grade with that single named commitment; rejecting edge-mode entropy would break the
+gauge sector's share, and that is the extension's kill.
+
+Located by the model, with the scaling derived and the coefficient derived for the full roster
+at candidate grade (one named commitment; the regulator's entanglement-side check is
+structural). The same structure gates the Page curve
 ([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), which it unblocks rather than
 delivers: the phonon-Hawking-flux computation is a separate object. Homes:
 [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
