@@ -49,8 +49,15 @@
 >   assembled the same day (the T2 file's addendum): featured in the predicted direction,
 >   degenerate with chaotic accretion, above-band recovery named as the discriminating
 >   signature, NewAthena the referee.
+> * **The BipoSH estimator (T5/T12's shared instrument): BUILT 2026-07-28**
+>   (`scripts/biposh_estimator_pass.py`; the T5 file's addendum) — cubic selection emerges
+>   from the projection (103/103 components), the template tower is the cubic L = 4, 8, 12
+>   sequence, and the grading refines 1.4 → 1.68 with the excess identified as the
+>   m-dependent diagonal anisotropy. The data application (pattern-frame a_ℓm) is the
+>   external calendar item, as this census always framed it.
 > * **Remaining verified-open census debts, tracked as tasks:** the matched lensing fit
->   (#32), the EDE fairness pass (#33), the BipoSH estimator build (#34).
+>   (#32) and the EDE fairness pass (#33) — both pipeline-class, queued behind the running
+>   chains and the MCMC cap.
 
 *What each threaded owed-file still owes, after cross-checking every item against work paid
 elsewhere in the corpus. Four states: **PAID** (here or elsewhere, with the pointer),
