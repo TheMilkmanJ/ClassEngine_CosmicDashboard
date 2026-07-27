@@ -27,6 +27,17 @@ GRADE RULE
   WITH rings present → the theorem's first half dies; ledger row.  No ring
   by t = 15 at these amplitudes would contradict the diagnostic — treated
   as a harness bug, not physics.
+
+RUN RECORD (2026-07-28, the graded run)
+  Parity: CONFIRMED exactly — +z fountain → leading-ring charge +1.00 at
+  t = 1.5; −z fountain → −1.00, same birth time.  Lock table: three of four
+  configurations nucleated (v = 6 both directions at t = 1.5; v = 4 in the
+  −z row at t = 2.0) and every ring carried the direction's sign — five
+  rings observed across the run, five correct signs, zero exceptions.  The
+  one silent row (v = 4, +z, seed 7) sits at the nucleation threshold and
+  grades nothing.  VERDICT: the poloidal lock HOLDS at candidate grade in
+  the axisymmetric reduction; the toroidal half remains the named 3D
+  question.
 """
 from __future__ import annotations
 
