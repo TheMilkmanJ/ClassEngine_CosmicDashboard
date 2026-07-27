@@ -32,6 +32,15 @@ GRADE RULE
   Energy monitored; sponge at the outer boundaries; results quoted only if
   the reflection check passes at machine class.  Half of link 4 either
   computes or dies; the toroidal half's 3D requirement stands either way.
+
+RUN RECORD (honest, dated)
+  v1 (2026-07-27, V_JET = 1.2, T_MAX = 30): NUCLEATION NULL — the reflection
+  pair and the first two lock rows all returned net ring charge zero: no
+  vortex ring formed at that jet strength, so the sign-lock test never
+  executed (a null on nucleation, not on the lock; nothing for the ledger).
+  The run was stopped before its remaining rows for relaunch efficiency.
+  v2 (2026-07-28): V_JET raised 1.2 → 2.5 and T_MAX 30 → 45 to force
+  nucleation; the checks and the verdict logic are unchanged.
 """
 from __future__ import annotations
 
@@ -43,8 +52,8 @@ NR, NZ = 192, 384
 RMAX, ZMAX = 28.0, 56.0
 DR, DZ = RMAX / NR, 2.0 * ZMAX / NZ
 DT = 2.0e-3
-T_MAX = 30.0
-R_JET, Z_JET, V_JET = 4.0, 8.0, 1.2
+T_MAX = 45.0
+R_JET, Z_JET, V_JET = 4.0, 8.0, 2.5
 
 r = (np.arange(NR) + 0.5) * DR
 z = -ZMAX + np.arange(NZ) * DZ
@@ -134,7 +143,7 @@ def main() -> None:
     print("   direction   v_jet   seed   net ring charge")
     results = []
     for direction in (+1, -1):
-        for vj, sd in ((1.2, 7), (1.2, 19), (1.6, 7)):
+        for vj, sd in ((2.5, 7), (2.5, 19), (3.0, 7)):
             q = ring_charge(evolve(initial(direction, vj, sd)))
             results.append((direction, q))
             print(f"   {direction:+d}          {vj:.1f}    {sd:3d}    {q:+d}")
