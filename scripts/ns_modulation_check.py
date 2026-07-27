@@ -13,10 +13,22 @@ WHAT THIS SCRIPT ESTABLISHES
         α_s = dn_s/dlnk = −2/ln² = −(1 − n_s)²/2,
      a zero-parameter consistency relation between two observables — the
      mechanism's fingerprint, and the referee's target.
-  3. THE LICENSING READING, named: 1/ln(Λ_UV/k) is the running-coupling
-     envelope form — the imprint amplitude running like a logarithmically
-     screened coupling between the mode's scale and the anchor.  Candidate
-     reading; not forced; recorded so the mechanism has a structural home.
+  3. THE ROUTE ELIMINATION (corrected 2026-07-27, superseding v1's reading):
+     three envelope mechanisms exist for a log form, and the data kills two:
+       * running-coupling (amplitude ∝ 1/ln): tilt = +2/L, BLUE — killed by
+         sign.  (v1 of this script named this reading; the sign check kills
+         it, and the correction is recorded here in place.)
+       * incoherent accumulation (variance ∝ interval): tilt = −1/L,
+         n_s = 0.9838 — excluded by data at +4.5σ.
+       * COHERENT accumulation (amplitude ∝ ln(T₀/k), one equal in-phase
+         increment per decade of scale between the mode and the anchor):
+         tilt = −2/L, n_s = 0.9677 — the surviving route, selected by data.
+     The derivation target is therefore unique: show the recorded imprint
+     adds one coherent increment per log-band of substructure, or kill it.
+     ANCHOR NOTE: the corpus's anchor is the hunt's k_UV — "not the present
+     CMB temperature" conceptually — while numerically coinciding with the
+     comoving thermal scale used here (a·T invariant); the caption carries
+     this distinction.
   4. Internal consistency: the envelope's normalization at the pivot is
      absorbed in the amplitude claim's normalization identification, so the
      tilt (a derivative) and the amplitude landing (−0.92%) do not disturb
