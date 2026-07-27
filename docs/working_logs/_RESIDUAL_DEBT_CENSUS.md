@@ -1,4 +1,28 @@
-# The T-file residual-debt census (2026-07-18)
+# The T-file residual-debt census (2026-07-18; synced 2026-07-28)
+
+> **2026-07-28 sync** — rows paid or moved since the census was cut:
+> * **T14, link 4 (the census's heaviest pair): HALF-PAID and the other half in flight.** The
+>   poloidal circulation's sign-lock is COMPUTED (the v3 sign-lock run: exact parity pair,
+>   five rings, five correct signs — task #19 closed); the toroidal-vs-poloidal relative sign
+>   (the helicity bilinear's sign, this row's exact ask) is the 3D fork experiment running now
+>   (`ring_toroidal_3d.py`, both candidate readings in one run).
+> * **T13's open item (the D/H error budget's reproducibility): PAID** — the deuterium row's
+>   §2b now computes the theory error inside the pipeline (±0.0240 from PRyM's own nuisance
+>   pulls), prices the compilation systematic reaction-by-reaction (d(d,n)³He at 94%), and
+>   tables the four width constructions with the booking question stated. The absolute row is
+>   registered as P-2026-058.
+> * **T11's MACHINE column: PolyChord ended 2026-07-20** (archived; the referee calendar
+>   carries the 163-day costing); the evidence verdict rides Laplace-from-MCMC on the bbnfix
+>   pair, with the z_on-identity rerun prepped and self-queuing (task #23).
+> * **T3's MACHINE column:** the Σm_ν joint fit is now the bbnfix pair (relaunched fresh
+>   2026-07-26 on the production-faithful D/H prior — the deuterium-inclusive joint fit,
+>   task #27); dyad R−1 ≈ 4 and falling.
+> * **The amplitude count (corpus-level):** the shot-noise normalization is DERIVED at
+>   candidate grade (spine §23.5 — channel, count, measure; N = 1.003 ± 0.005 data-locked);
+>   the screening host is settled on standard ground with the formation-epoch number paid by
+>   the hierarchy factor (hierarchy §6n; tasks #15, #16 closed). The winding average's
+>   high-statistics check is delivered and passing (P-2026-041 annotated; f̄ = 0.6314 ± 0.0033
+>   at the many-turn members).
 
 *What each threaded owed-file still owes, after cross-checking every item against work paid
 elsewhere in the corpus. Four states: **PAID** (here or elsewhere, with the pointer),
