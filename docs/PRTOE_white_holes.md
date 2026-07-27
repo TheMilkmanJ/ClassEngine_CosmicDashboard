@@ -193,3 +193,54 @@ Internal support:
 * [PRTOE_cyclic_torus_genesis.md](PRTOE_cyclic_torus_genesis.md)
 * [PRTOE_wormholes.md](PRTOE_wormholes.md)
 * [working_logs/expansion_energy_ledger.md](working_logs/expansion_energy_ledger.md)
+
+---
+
+## 10. Status upgrade from the reconstruction program (2026-07-27)
+
+Three results from the bounce-reconstruction working log
+([working_logs/bounce_reconstruction_rp.md](working_logs/bounce_reconstruction_rp.md))
+change the standing of §2's identification. All grades below remain candidate-class;
+what changed is the support structure.
+
+**(a) The causal shape is now forced by exhaustion, not chosen.** Two closures
+(`scripts/bounce_m5_exotic_fluid.py`, `scripts/bounce_m8_ledger_quartic.py`) establish
+that a contraction with the effective metric description intact has no turning point
+in the recorded theory — at the fluid level (no admissible negative-energy component:
+measured-sign, budget, and existence arguments) and at the constraint level (the
+energy-balance derivation of the expansion equation keeps its exact form at quartic
+order, and the medium's short-distance corrections vanish for homogeneous cosmology,
+activating only at coherence-length gradients). The bounce therefore proceeds through
+the end of the metric description or not at all. Consequently the restart event is,
+by construction, a past boundary of the emergent spacetime — an initial-data surface,
+not a horizon inside a pre-existing geometry. The "exit-only causal role" of §2 is no
+longer one reading among several; it is the only surviving shape.
+
+**(b) The exit-only role now has an equation.** The causal analysis of the boundary
+(`scripts/bounce_m4_arrow_boundary.py`) shows the surface where the metric description
+ends is spacelike for order-unity density contrasts, while collapsed regions bound it
+with timelike *absorbing* segments — permitted, since they admit no exit. The
+re-emergence surface, by contrast, must be spacelike (achronal) everywhere: a timelike
+segment there would be a locally emitting boundary, which is exactly the object §1
+forbids. The requirement is quantitative — the non-metric interval must persist at
+least the spread in boundary-crossing times, or a re-synchronization mechanism must be
+exhibited. This is the precise asymmetry the identification claimed: absorbing
+boundaries allowed inward, none allowed outward, and the only exit is a global
+spacelike beginning.
+
+**(c) The turning dynamics now exist at toy grade.** The anisotropic approach
+delivers a strongly planar, supersonic compression at the coherence scale (the
+directional analysis in the working log, §16–17), and the medium's repulsive
+self-interaction dynamically reverses such compressions in verified one-dimensional
+simulations, returning an outflowing state on coherence-time scales. The "detailed
+field profile" listed as open in §8 has a computed skeleton; spherical and
+high-velocity extensions are in progress.
+
+**Still open, unchanged in kind:** the boundary between a re-expanding region and a
+still-contracting exterior; the sequencing of neighboring regions; the crossing of
+Standard-Model fields (most of the energy budget); the nucleosynthesis energy budget
+(two live channels, priced in the working log); and the derivation — rather than
+requirement — of the re-emergence surface's spacelike character from the medium's own
+equations. The identification stays a candidate. Its causal-structure half is now
+exhaustively supported; its dynamical half is a toy; neither is a completed
+derivation.
