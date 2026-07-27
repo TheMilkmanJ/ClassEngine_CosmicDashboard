@@ -871,3 +871,53 @@ the substrate persisting. The white-hole file's causal conclusions (the achronal
 re-emergence asymmetry) are unchanged — they constrain the same boundary under
 either name. Reconciliation with the M4–M8 language is now an open item of this
 log, named here rather than smoothed.
+
+---
+
+## 20. The reconciliation, executed (2026-07-27): one regime, two descriptions, no contradiction
+
+The §19 reframing is now reconciled with the M4–M8 board, item by item.
+
+**The scope alignment.** M5 closed homogeneous fluids; M8 closed the homogeneous
+constraint and itself located the new physics at ξ-scale gradients; M1/M2/§16
+established the door is reached inhomogeneously (the directional squeeze); M6's
+verified engine is gradient stress — the exact terms homogeneous averaging kills.
+So the board's combined content, stated once: **no homogeneous metric-on turn
+exists (exhaustive, unchanged), and the turn is a sub-coherence-scale
+inhomogeneous event powered by the dark fluid's gradient stress.** The
+homogeneous closures are not weakened — they are what FORCES the turn into the
+inhomogeneous regime.
+
+**The two names.** "Metric exit" (the coarse-grained FRW description of the
+dominant source fails at ξ) and "hydrodynamic exit, metric on" (the substrate
+carrying the geometry stays coherent — forced by the photon argument, §19) are
+the same domain in two descriptions. Every computed surface, time, and number
+(M4's crossing spreads and front characters; §16's squeeze count; §17's joints)
+is identical under both names.
+
+**M4's status change, stated exactly.** At the fundamental level there is no
+time-reversed horizon anywhere in the assembly, so the local white-hole no-go is
+satisfied automatically and the achronal-re-entry demand softens from causal law
+to dynamical consistency: M4's mathematics (the hold vs crossing-spread
+arithmetic) becomes the quantitative core of the SEQUENCING problem — do
+rebounding pockets and contracting neighbors coexist consistently — which is
+task #20's existing content. Nothing computed is discarded; its jurisdiction
+moves from kinematics to dynamics.
+
+**The white-hole identification, re-scoped.** The restart is a past boundary OF
+THE COARSE-GRAINED DESCRIPTION — the surface where hydrodynamic cosmology begins
+again — while the fundamental spacetime is continuous and permeable (the
+Standard-Model bath's passage, §19, which is also the budget resolution). The
+"exit-only causal role" is a true statement about the description that observers
+of the reborn hydrodynamic universe can reconstruct; permeability is a true
+statement about the substrate. Both recorded; the forward-facing white-hole file
+carries the refinement.
+
+**What this changes on the board:** O2's "written replacement" of the FRW turn
+pair now has its candidate form — local gradient-stress rebounds under a
+continuous metric, with averaged re-expansion (the inhomogeneous-averaging
+bookkeeping is the remaining formal step, folded into task #20); O8 is satisfied
+automatically at the fundamental level; O6 is resolved at candidate grade (§19).
+The reconstruction's grade stays candidate throughout — but it is now ONE
+architecture with two consistent descriptions instead of an architecture with an
+unreconciled fork.
