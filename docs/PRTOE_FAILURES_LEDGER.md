@@ -2931,3 +2931,18 @@ and the corpus was wrong**. Re-weighting the posterior onto the measured exponen
 booked values is replaced by one pinning the measured scan
 (`scripts/prym_omega_b_elasticity.py`), and the standing rule is booked with it: **the decomposition
 rows must never be differenced to obtain a slope.**
+
+### The tilt mechanism's dark-subcomponent reading — KILLED by four orders (2026-07-27)
+
+**What it was:** one of two readings of the conserved-census conversion mechanism
+for the spectral tilt — the census residing in the dark fluid's radiation-like
+phase. Its energy fraction before the transition is (Ω_dm/Ω_r)/(1+z_on) ≈ 7.2×10⁻⁵,
+so meeting the registered percent-class isocurvature band would require the
+order-one conversion coefficient to exceed ~10⁴
+(`scripts/as_normalization_triangle.py`). Dead on recorded numbers.
+
+**What survives:** the substrate reading — the census is the medium's own occupancy
+(the same counting that prices the vacuum energy), whose energy fraction is
+identically unity, making the mechanism's constant-fraction premise exact rather
+than approximate. The surviving triangle bounds the conversion rate two-sided
+(r ∈ [0.8, 3.2]) and pins the imprint cell fraction near 2×10⁻⁴.

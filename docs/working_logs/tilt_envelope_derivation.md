@@ -48,3 +48,24 @@ arithmetic verified, residual test run. **Promotion gates:** the rate normalizat
 (#15) and the residual's consistency against the registered isocurvature bounds.
 **Kill:** a rate landing that pushes the residual outside the registered band, or
 the constant-fraction premise failing at the imprint epochs. Nothing promoted today.
+
+## Addendum (2026-07-27, same day): the normalization triangle, and the premise made exact
+
+`scripts/as_normalization_triangle.py` (task #15). The mechanism transforms the old
+one-shot normalization (C with its factor-250 convention spread) into two physical
+parameters: A_s = r²L*²f³/2π² — the conversion rate r and the imprint cell fraction
+f = k·ξ. Results:
+
+- **The component-identity ruling.** The rate normalizes as r = c·f_E. The
+  dark-subcomponent reading (census in the dark fluid's radiation-like phase,
+  fraction (Ω_dm/Ω_r)/(1+z_on) ≈ 7.2×10⁻⁵) needs c ≳ 10⁴ to meet the registered
+  residual band — dead by four orders (ledger row filed). The census is the
+  SUBSTRATE's own occupancy — the same counting that prices the vacuum energy —
+  whose fraction is identically 1: **the constant-fraction premise becomes exact.**
+- **The rate is bounded two-sided by the registered band:** r ∈ [0.8, 3.2].
+- **The cell fraction is pinned given r:** f ≈ 2×10⁻⁴ — the basement's forward
+  target, REVISED from the one-shot 3.45×10⁻³ (the L*² factor is computed, not
+  chosen).
+- **The closed form is a consistent point:** (α_c/4πk)³ demands f = 2.206×10⁻⁴ at
+  r = 1, against the measured-A_s pin of 2.213×10⁻⁴ — 0.3% apart. Deriving f from
+  the medium now decides #15, gates #8, and referees #9 in one stroke.
