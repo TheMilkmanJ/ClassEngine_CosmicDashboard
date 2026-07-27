@@ -167,7 +167,10 @@ mid-chain is the model's strength (which is why the fit works: the data lives mi
 The two named debts, what unification still owes: (i) the bounce equations (0→1) and
 the contracting branch (the expanding turn is computed — a ≈ 2.0–2.8, MATH_SPINE §7d; the
 bounce sector holds both ends of the cycle); (ii) **the scaling mechanism at link 5** — what holds
-ξ/ℓ_H at 3.45×10⁻³ across every decade the CMB resolves. *(The draw-epoch conflict this debt used
+ξ/ℓ_H at its fixed fraction across every decade the CMB resolves (the measured ratio is
+3.45×10⁻³; the mechanism's forward target is the revised 2.21×10⁻⁴ once the pivot-volume factor
+is computed rather than absorbed — the scaling-mechanism log carries the adjudication, and the
+branch selection it feeds survives strengthened, ×245 deeper into the overdamped regime). *(The draw-epoch conflict this debt used
 to name is settled: the two draws are separate mechanism CLASSES, not two events competing for one
 epoch. The topology draw is a genuine freeze-out at condensation; the census imprint is not a
 freeze-out and cannot be, since one frozen comoving cell is white at every k by construction and

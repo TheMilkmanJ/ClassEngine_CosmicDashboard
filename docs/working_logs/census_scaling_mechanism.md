@@ -40,6 +40,17 @@ tangle held small by strong dissipation. That is exactly a **superfluid vortex t
 friction**, not a relativistic string network — so the smallness of 3.45×10⁻³ is not an embarrassment
 to be tuned away; it is a reading that points straight at the model's own superfluid genesis medium.
 
+> **TARGET REVISION, ADJUDICATED (2026-07-27):** the tilt-envelope derivation's normalization
+> triangle computed the L\*² factor in A_s = r²L\*²f³/2π² and REVISED the forward target from the
+> one-shot 3.45×10⁻³ to **f = 2.21×10⁻⁴** (the factor L\*^{2/3} = 15.64; the closed form lands at
+> the measured pin to 0.3%). The two numbers were the same object under two decompositions of A_s;
+> the L\*²-inclusive one is computed, not chosen, and governs. Re-solving this file's own VOS fixed
+> point at the revised target: k_mom = 2.1×10⁻⁷, **v\* = 9.6×10⁻⁴** — the required damping deepens
+> ×245, so the branch selection this section argues SURVIVES STRENGTHENED (the one-shot inversion
+> reproduces the recorded v ~ 1.5×10⁻² exactly, validating the method). Every 3.45×10⁻³ in this
+> file is the scaling ratio k_*ξ as measured; the MECHANISM'S target — what the tangle's
+> microphysics must produce — is the revised 2.21×10⁻⁴.
+
 ## The derivation skeleton: fixed point first, number second
 
 The field-theoretic part of the argument is the fixed-point reduction of the VOS equations. In the
