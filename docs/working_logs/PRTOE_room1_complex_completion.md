@@ -528,6 +528,21 @@ rescaled integrator (the floor-rising trend is the thing to chase —
 if the quiet branch closes at h ~ 10⁸, P-2026-005 is not improbable
 but IMPOSSIBLE under minimal genesis, and the collision resolves
 outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
+
+> **RE-SCOPED (2026-07-27,** `scripts/hscan_physical_target.py`**):** the
+> h ~ 10⁸ target was era-bound and the standing era moved it SIX decades
+> the other way. h₀ = λ·ρ_dm(z_rel)/m⁴ at release (3H = m, relic-closed)
+> reproduces this room's own numbers at the era values (10⁷·⁶ at the
+> m = 10⁻²² corner ≈ the booked "~10⁸"; 10⁵·¹ at the band) and gives
+> **h₀ ≈ 0.1 at the standing m = 2.24×10⁻²⁰, λ = 2×10⁻⁹¹** (scaling
+> h₀ ∝ λ/m^{5/2}: −2.7 − 3.4 decades). The physical regime is BELOW the
+> scan's bottom, not above its top: the quartic is a ~10% correction at
+> release, no rescaled integrator is needed (stiffness was the large-h
+> obstacle), and the owed question inverts to "does ANY ringing survive
+> at h₀ ~ 0.1?" — with the granule ε-meter's stakes (A4a/A5a: the only ε
+> readout) riding on it. Corollary recorded: at the standing era the
+> field never passes basin entry (ρ_rel < m⁴/λ), so A3a's z_x identity is
+> era-bound; every τ_Q verdict used the direct h_eff formula and stands.
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only, so far).
 
