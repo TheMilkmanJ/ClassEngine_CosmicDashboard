@@ -47,3 +47,32 @@ the current comparison grades a point near the model, not the exact stated confi
 1. Re-run the H₀ comparison on the corrected chains and replace the not-yet-final number if it moves.
 2. Recheck the `m_ββ` floor against the final dark-energy scale.
 3. If the xenon matrix element firm ups, update the nEXO overlap accordingly.
+
+## Status sync (2026-07-27)
+
+*Dated addendum; the letter's text is untouched — any change to the letter itself
+is listed here first for the owner's approval.*
+
+**The H₀ instrument is running.** The "live MCMC work being repaired" note above
+is superseded: the production pair was restarted fresh on 2026-07-26 on the
+current code with full provenance (the archived prior samples, the code state at
+restart, and the launch environment are recorded in the chains directory and the
+repository history). Both chains are sampling; convergence is pending, and the
+letter's own caveat — do not quote H₀ ≈ 69.9 as final — stands unchanged until
+they report. The onset-identity offset flagged above is now tracked as its own
+work item (the evidence-configuration rerun), so the eventual comparison grades
+the model's stated configuration rather than a nearby point.
+
+**The m_ββ anchor's source strengthened, value unchanged.** The letter's table
+already carries the derived m₁ = 2.2599 meV column (floor 0.038 meV, ceiling
+5.310 meV), so the quoted window [0.04, 5.3] meV stands. Since the last check,
+the ratio sourcing that value (τ = ½ln2) gained a two-part candidate mechanism —
+a conservation law fixing one component (computed) and a ground-state occupancy
+condition fixing the other (candidate) — with its external referees unchanged
+(the SU(2), N_f = 3 lattice campaign, now carrying five verdicts; the registered
+deviation lock; the tau-lepton mass at ≲1.4 ppm). No number in the letter moves;
+the mechanism's standing is recorded in the mathematical spine (§23.2).
+
+**Unchanged:** the nested-sampling deferral (hardware), the xenon matrix-element
+watch, and the pre-send checklist — items 1 and 3 remain open; item 2 is
+satisfied by the letter's existing table pending the final dark-energy scale.
