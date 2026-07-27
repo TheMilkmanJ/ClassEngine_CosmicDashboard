@@ -596,6 +596,18 @@ re-derived jointly against the model's actual m before the threshold
 is re-pinned; flagged so the correction cannot silently inflate the
 odds). Structure booked; normalization owed.
 
+> **POINTER (2026-07-27):** the deferred joint arithmetic was PERFORMED by
+> this file's own audit — A2's beat_needed = 0.1·(m/10⁻²²)² is exactly the
+> booked 0.2 threshold halved by this correction's stronger signal, then
+> gated by the 1/m² normalization: 10 at the audited band's bottom, 90 at
+> its top, against beat ≤ 1 identically — dead at every m ≥ 3.2×10⁻²², no
+> threshold left to re-pin. Re-verified 2026-07-27 (every number
+> reproduces; kill mass √10×10⁻²² = 3.16×10⁻²²) and extended to the
+> standing mass m = 2.24×10⁻²⁰ eV: beat_needed = 5018 — dead by 3.7
+> decades, the era note's "PTA deader still" now computed. The absolute
+> KR normalization is moot on a channel that needs 5000× the identical
+> ceiling.
+
 **THE SECOND ε-METER (prediction-shaped, sim-owed):** two independent
 speckle fields with fractions p, q reduce the granule density-contrast
 power to p² + q² of single-field FDM: the median draw (f_rot ~ 0.4)
