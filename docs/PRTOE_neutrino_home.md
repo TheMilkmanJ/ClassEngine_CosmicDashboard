@@ -8,7 +8,7 @@ with standard cosmology, the model shifts the inferred neutrino mass upward rath
 
 > Status: the lightest-mass relation and the upward shift in the inferred neutrino mass are
 > established in the model; the remaining open items are the joint-fit consistency, the exact
-> `v_L` derivation, and the comparison with direct and oscillation bounds.
+> v_L derivation, and the comparison with direct and oscillation bounds.
 
 ## 0. The tension in standard cosmology
 
@@ -26,7 +26,8 @@ not the electroweak Higgs sector.
 
 ## 2. The fit, with numbers (P-2026-023, registered)
 
-Fitting the same data, the model shifts the inferred neutrino mass upward:
+Fitting the same data, the model shifts the inferred neutrino mass upward (`m_ncdm` is the
+sampler's neutrino-mass parameter, the sampled Σm_ν):
 - the ΛCDM fit gives `m_ncdm = 0.000 eV`;
 - the model preference is `m_ncdm = 0.0875 eV`;
 - when curvature is freed, the preference remains `m_ncdm = 0.071 eV`;
@@ -38,18 +39,19 @@ the model posterior collapsing.
 
 ## 3. The forward structure (benchmark point)
 
-Benchmark A (`v_L = 5 MeV`, `M = 10 TeV`): near-resonant (`μ/Γ = 0.46`, benchmark-local),
-Majoron coupling `g = m₃/v_L = 1.0×10⁻⁸`, which lies inside the CMB-S4 target band (P-2026-025).
-CMB-S4 tests `v_L < 20 MeV`, which is roughly one-third of the natural parameter space. The same
-sector is also the one used in the baryogenesis route, where `K = Γ_N/H = 9×10⁷` has already been
+Benchmark A (v_L = 5 MeV, heavy-state mass M = 10 TeV): near-resonant, with the inverse-seesaw
+parameter against the heavy state's width at μ/Γ = 0.46 at this benchmark; the Majoron coupling
+g = m₃/v_L = 1.0×10⁻⁸ lies inside the CMB-S4 target band (P-2026-025). CMB-S4 tests
+v_L < 20 MeV, roughly one-third of the natural parameter space. The same sector is also the one
+used in the baryogenesis route, where the equilibrium ratio K = Γ_N/H = 9×10⁷ has already been
 computed.
 
 ## 4. Honest scope
 
 - The upward-shift direction is generic to varying-m_e cosmologies; the model's specific numbers
   are its own.
-- `v_L` still has two viable parameter points: a MeV-scale point that is accessible to CMB-S4, and a
-  high-`v_L` point that is not.
+- v_L still has two viable parameter points: a MeV-scale point that is accessible to CMB-S4, and
+  a high-v_L point that is not.
 - CMB-S4 is the cleanest discriminator among the parameter points.
 - KATRIN-class direct limits and the oscillation floor bracket the remaining allowed window.
 
