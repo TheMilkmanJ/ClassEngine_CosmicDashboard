@@ -69,3 +69,26 @@ f = k·ξ. Results:
 - **The closed form is a consistent point:** (α_c/4πk)³ demands f = 2.206×10⁻⁴ at
   r = 1, against the measured-A_s pin of 2.213×10⁻⁴ — 0.3% apart. Deriving f from
   the medium now decides #15, gates #8, and referees #9 in one stroke.
+
+## Addendum 2 (2026-07-27): the cell fraction reduced to the held fraction β
+
+`scripts/cell_fraction_reduction.py`. A derivation of f must supply the imprint
+clock and the coherence scale; self-similarity constrains both jointly, and the
+elimination is computable:
+
+- single-epoch census: n_s = 4 (the recorded excluded branch);
+- mode-scaled clock with CONSTANT physical ξ: f = H·ξ at crossing ⟹ f ∝ k² in the
+  radiation era ⟹ n_s ≈ 7, and f ~ 10⁻⁶ at the pivot — wrong scaling AND ~150×
+  under the window. Dead twice over.
+- mode-scaled clock with HORIZON-TRACKING coherence (ξ_eff = β·c_s/H): f = β for
+  every mode — constant, self-similar, and verbatim the hunt's recorded scaling
+  ruling. THE SOLE SURVIVOR: the clock is derived by elimination.
+
+**The reduction: f = β**, the medium's early-era coherence-to-causal-range
+fraction, with the triangle demanding β ∈ [1.0, 2.6]×10⁻⁴ and the closed form's
+point at 2.21×10⁻⁴. The requirement β names: standard coarsening cannot hold a
+fixed ordering fraction (coherence ∝ t^½ against horizon ∝ t) — the radiation-like
+era must be scale-free (critical). Deriving β = deriving that critical fraction.
+Two numerological temptations in range are recorded as temptations with weight
+zero. β is now the program's single sharpest open number: one value closes #15,
+gates #8, and referees #9.
