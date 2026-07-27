@@ -1410,3 +1410,33 @@ Owner: chase all three; do not fabricate. Full write-up:
 
 **Net:** one real medium-layer computation (rebound sign); two honest non-closures.
 RP-A still reconstructed. Derived bounce still no. Failures only in the ledger + these logs.
+
+---
+
+## The genesis-cascade parts-list (2026-07-28) — the mechanism's vertebrae exist; the spine between them is the open piece
+
+Task #11's sweep, run on the owner's order ("see if the corpus carries one
+somewhere, or signs one might exist"). The answer: no assembled mechanism — and
+five recorded parts that are exactly mechanism-shaped, three of which are
+computed rates:
+
+| part | where recorded | what it supplies |
+|---|---|---|
+| the high-scale portal rate law | spine §(operating point); `PRTOE_me_mechanism_math.md` — "already computed in the high-energy matching calculation" | the coupling that moves energy between sectors at the high scale; f ≈ 145 TeV; the missing piece is named there as "the crunch-sector bridge" |
+| thermalization gates clearing by 10⁸–10⁹ | same operating point, closed-form | wherever priced, thermalization is FAST — the cascade's rate side is supported, not open |
+| K = Γ_N/H = 9×10⁷ | the baryogenesis route (neutrino home §3) | an independent portal-class rate ratio ≫ 1 at its epoch |
+| freeze-out third + release memory | PHYSICS_DOMAINS (the dice); the backbone's extrapolation retired to the ledger, the decomposition standing | the deposit's statistics decompose into a thermal part and a memory part born at L = 0 |
+| the T = m_e localizable-zero burst | `expansion_energy_ledger.md` | the handover can be finite — a localization of the budget |
+| the legal window | the coupling inventory (gravitational-only binds only after condensation) | the cascade must complete above T_c, where a direct coupling is allowed — consistent with the gates' high-scale timing |
+
+**The signs the owner asked about: three, independent.** (1) Every rate ratio
+the corpus has computed at the relevant scales is enormous (10⁸–10⁹ gates,
+K = 9×10⁷) — nothing rate-shaped obstructs a fast cascade. (2) The deposit's
+statistics already decompose. (3) The handover is finite. What no file
+supplies: the ASSEMBLY — which channel carries the genesis deposit into
+radiation, evaluated at the genesis epoch with the recorded portal law, ending
+in the bath the thermal history needs. That is one computation with a named
+input (evaluate the recorded high-scale rate law at the genesis epoch inside
+the legal window) — a construction task for the owner, not a missing physics
+idea. Stakes raised by the bounce board: task #5 closed with O6's funding
+moved here, so this assembly now owns the hot start.
