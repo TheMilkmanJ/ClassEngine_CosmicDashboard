@@ -32,7 +32,8 @@ early stages of nucleosynthesis at production grade).
 - **Same data, same pipeline**: ΛCDM's best fit gives H₀ = 68.2; the model gives
  **69.9**, with the Bayesian evidence favoring the model at ΔlnZ ≈ +2.6 (Laplace
  approximation; past the pre-registered win threshold; graded internally as marginal
- and calibration-conditional pending the full nested-sampling verdict now running).
+ and calibration-conditional — the nested-sampling confirmer is deferred to cluster
+ time, so this estimate stands on the converging chains rather than awaiting a run).
 - **The residual is owned**: 69.9 is not 73.0. The model closes roughly half the
  gap and *refuses* the rest — offered spatial curvature as an escape, the fit declined
  it. The claim is not "SH0ES is fully explained"; it is "the sky prefers a universe
@@ -42,7 +43,7 @@ early stages of nucleosynthesis at production grade).
  model owns — the supernova-standardization channels (computed through synthetic
  photometry; the sign came out *opposite* to the tension, robustly, across 162
  template configurations), the survey-geometry leakage (+0.1–0.3%), and the
- reionization tether (±0.3) — caps the model's account of the *ladder* reading at
+ reionization coupling (±0.3) — caps the model's account of the *ladder* reading at
  **~70.9–71.3. The model cannot reach 73, and says so.**
 
 ## 4. The calibration question (where the residual points)
@@ -71,9 +72,10 @@ disagreement whose *mechanism* is now unexplained rather than identified.
 The model additionally *contributes* a candidate systematic from its own physics: under
 its environmental screening reading, supernovae in dense versus sparse hosts carry a
 small standardization offset with the observed **SN host mass step's** direction —
-graded (the web-scale-gate consistency passes): *subdominant at central
+graded, and consistent with the screening threshold inferred independently from
+cosmic-web scales: *subdominant at central
 values* (~0.02 mag of the observed 0.05–0.08 mag step, environment-tagged), with the
-full-step reading surviving only in one corner of the gate's allowed window — a corner
+full-step reading surviving only in one corner of the threshold's allowed window — a corner
 that simultaneously fixes the Lyman-α forest offset, so DESI's forest cross-calibration
 decides between "the mass step is the model's" and "the step is astrophysical." Either
 outcome is informative; neither is free.
@@ -162,15 +164,15 @@ fourteen-model common-framework comparison — the scoreboard §5 is graded agai
 [Poulin et al. 2019] (arXiv:1811.04083, EDE); [Hill et al. 2020] (arXiv:2003.07355, EDE's S₈
 cost); [Toda–Seto 2026] (arXiv:2508.09025) and [Lee–Zhou 2026] (arXiv:2606.06495) — varying-m_e
 under ACT DR6 + DESI DR2; [Riess et al. 2024] (arXiv:2401.04773, the crowding referee);
-[Freedman et al. 2025] (arXiv:2408.06153, CCHP JWST).
+[Freedman et al. 2025] (arXiv:2408.06153, CCHP JWST). The 2026-07-27 fairness refresh adds:
+[arXiv:2505.08051] (EDE under ACT DR6 + DESI DR2 — §5's EDE status card);
+[Di Valentino et al. 2020] (arXiv:1908.04281, interacting dark energy — the table's fifth row);
+[Riess et al. 2024b] (the JWST-extended-calibrator 72.6 ± 2.0 — the ladder row's counterweight).
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ## Where the dead ends live
 
-The abandoned H₀ routes for this sector — chiefly the H₀=73-via-birth-ramp attempt (extra
-recombination-era dark radiation, which the model's own physics falsifies: the dCDF's
-radiation phase ends at z_on ≈ 4×10⁷ and is dust by recombination, giving ΔN_eff ~ 10⁻³,
-not the 0.26 that was hand-picked) — are recorded in
+The abandoned H₀ routes for this sector are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). They matter: they are why the model's
 honest H₀ is 69.9 and the gap to SH0ES's 73 is owned and open, not closed by a knob.
 
