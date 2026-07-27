@@ -3249,3 +3249,38 @@ is the honest price of the claim.**
 
 **Status: OPEN, awaiting an experiment nobody has scheduled.** Row detail:
 [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md).
+
+## P-2026-059: The genesis partition sits at the medium's coupling — ΔN_eff = 0.146 (registered 2026-07-28, conditional, before its derivation and before CMB-S4)
+
+**The finding that seeds it** (`scripts/pour_partition_structure.py`; the workplan's
+partition-provenance record). The committed dilution window is fully mapped: the pair
+(ζ ∈ [0.25, 0.35] ⟺ ΔN_eff ∈ [0.06, 0.24]) is exactly the 27-degree-of-freedom booking; the dark
+core is born isolated (the recorded pour-scale gravity rate, Γ/H = 2.8×10⁻⁷); and running the
+partition back to the pour through the sector-by-sector entropy evolution restates the window as
+a pour-epoch dark share s = ρ_dark/ρ_SM ∈ [0.41, 1.58]·α_c. **The exact identification s = α_c
+lands ζ = 0.312 — the window's center, s/α_c = 0.99.**
+
+**The conditional, stated exactly:**
+
+> **IF** the pour partitions the deposit at the medium's coupling (one vertex between the sectors
+> at birth, s = α_c), **THEN ζ = 0.312 and ΔN_eff = 27·ζ⁴/(7/4) = 0.146.**
+
+CMB-S4's projected ±0.03 makes this a ~5σ-class target. Registered at coincidence grade, before
+the pour's dynamics are built (the antecedent is un-derived — the genesis event's one remaining
+dynamical question) and before the instrument reports: both blinds intact.
+
+**Kills:**
+(i) CMB-S4 measuring ΔN_eff outside [0.06, 0.24] — kills the committed window itself (already
+armed corpus-wide); (ii) CMB-S4 landing inside the window but away from 0.146 beyond its
+precision — kills the exact-coupling reading while the window survives; (iii) the pour's
+derivation, when built, landing s outside [0.41, 1.58]·α_c — kills from the theory side (and
+breaks the committed window's consistency, a larger event than this entry); (iv) the derivation
+landing inside the band but away from α_c — the coincidence dies as a coincidence, the window
+stands.
+
+**What this is not:** a derivation. The antecedent is the open half of the genesis program; this
+entry arms the referee in advance so that, if the derivation lands the coupling, the sky was
+predicted and not postdicted.
+
+**Status: OPEN, conditional; referees CMB-S4 and the pour's own derivation.** Detail:
+`docs/working_logs/bounce_derivation_workplan.md` (the partition provenance).
