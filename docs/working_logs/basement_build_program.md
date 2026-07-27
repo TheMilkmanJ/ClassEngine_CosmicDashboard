@@ -103,6 +103,20 @@ roster and its weights.)*
 Reading off how many constituents the spectrum needs, and their actual masses, is the remaining
 step — genuine model-building, not gated on any run.
 
+> **THE SPREAD SOLVED ON THE FIXED ROSTER (2026-07-27,** `scripts/basement_mass_spread.py`**):**
+> the qualitative statement gets its quantitative body. Structure first: µ-independence forces
+> str[k₁m²] = 0 as well, which kills any two-scale ansatz outright (60 = 60 ⟹ degenerate ⟹
+> 1/G = 0) — the retracted toy's ~7% figure could never have survived. On the minimal paired
+> ansatz over the +48/−48/+12/−12 roster (splittings ±x on the 48-pair, ±y on the 12-pair), the
+> constraint is y = −4x EXACTLY, so the admissible window is x ∈ (0, ¼] — the edge is the light
+> scalar constituent going massless. The induced-G relation then fixes the scale along the locus:
+> m runs from 2.5·M_Pl at x = 0.1 down to **0.87·M_Pl at x = 0.2** (max mass ratio 9), with
+> percent-class spreads EXCLUDED — both linear terms die by the constraint, str[k₁m²ln m²]
+> scales as the spread squared, and small splittings drive the needed scale far above M_Pl.
+> **The roster must sit AT the Planck scale with an O(1) spread across both sign pairs: a
+> computed locus, not a scaling argument.** Unchanged and still owed: the emit mechanism, and
+> which point on the locus the UV completion picks.
+
 ## Parts 3+ — genuinely open, and this is where the model-building lives
 
 - **The emit mechanism.** How a roster at ~M_Pl emits α_Y(M_Pl) = 0.0180 and the non-abelian
