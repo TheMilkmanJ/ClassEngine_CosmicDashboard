@@ -30,6 +30,32 @@ VERDICTS (either is a finding)
     stage (report exactly; refinement, not kill — the doors still open,
     in smaller pieces).
   Energy monitored; quotable only under 2%.
+
+DETECTOR REVISION (recorded after the run, 2026-07-27 — the metric, not
+  the physics).  The growth-factor column is INVALID as built: σ_⊥ reads
+  the x-averaged density's y-profile, and every seed ripple carries a
+  nonzero integer x-wavenumber whose x-mean over the periodic box is
+  exactly zero — the x-average annihilates the seed by orthogonality.
+  The instrument's own initial printout flagged it (seed σ_⊥ = 8.09e-16,
+  machine roundoff, where a surviving 1e-3 seed would read ~1e-4-class),
+  so the "growth factor" measured growth relative to ROUNDOFF and its
+  2×10¹² is unquotable; the FRAGMENTING verdict line it triggered is
+  withdrawn.  The absolute columns are the readout, and they are clean
+  (energy drift 0.000%):
+    * f_⊥ ≤ 1.2×10⁻⁵ through the whole door-turn-collision epoch
+      (t ≤ 14), peaking at 7.8×10⁻⁴ only at t = 20;
+    * ⟨Θ_yy⟩ stays below 10⁻⁴ against ⟨Θ_xx⟩ swings of 0.03–0.08 —
+      the transverse expansion rate is two orders down throughout.
+  VERDICT AS GRADED: transverse PASSIVITY through the doors, the turn,
+  and the collisions — the 1D chain's static-transverse assumption is
+  validated at candidate grade over the epoch it is used for.  The tail
+  shows the expected textbook caveat: an exponential transverse mode
+  (doubling time ≈ 1) growing from numerical noise, the snake-class
+  instability quasi-1D structures are known to carry, reaching only
+  8×10⁻⁴ of the kinetic energy by t = 20.  Long after the rebound the
+  pancake therefore fragments into filaments — downstream of every
+  graded conclusion, and consistent with the standard instability, not
+  a new channel.  Gate (b) closes on the absolute columns.
 """
 from __future__ import annotations
 

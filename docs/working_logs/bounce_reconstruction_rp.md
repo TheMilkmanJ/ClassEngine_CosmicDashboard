@@ -1061,3 +1061,42 @@ reconciliation's mechanism, term by term, in the medium's own run.
 grade.** Remaining gates: (a) the energy-clean spherical number (the
 sine-transform run, in flight) and (b) transverse-axis dynamics (the 3D
 machinery now exists; the toroidal pair informs the design).
+
+## 25. The transverse axis watched through the doors — gate (b) of the dynamical half (2026-07-27)
+
+The directional door is a pancake: one axis collapses while the others watch,
+and every rebound computation so far has held the watchers static by
+construction. Gate (b) asked whether they actually stay passive.
+`scripts/bounce_transverse_2d.py` answers in two dimensions, which is where
+the question lives — the sequencing race's graded staggered-door flow along
+one axis (V = 2, V₂ = 0.6), a quiescent seeded transverse axis, periodic
+160 × 40 healing lengths at 1024 × 256, energy drift 0.000% over the full
+run (the strictest energy verdict any run in this program has returned).
+
+The instrument caught its own metric before it caught the physics — the
+sixth self-catch of the shift. The transverse growth-factor column read the
+x-averaged density's y-profile, and the x-average annihilates every seed
+ripple by orthogonality (each carries a nonzero integer x-wavenumber, whose
+x-mean is exactly zero), so its denominator was machine roundoff and its
+verdict line unquotable; the in-file record withdraws it. The absolute
+columns carry the answer:
+
+* the transverse kinetic-energy fraction stays at or below 1.2×10⁻⁵ through
+  the entire door–turn–collision epoch (t ≤ 14), reaching 7.8×10⁻⁴ only at
+  t = 20;
+* the transverse expansion rate ⟨Θ_yy⟩ holds below 10⁻⁴ against collapse-axis
+  swings of 0.03–0.08 — two orders of separation, the whole way through.
+
+**Transverse passivity holds through the doors, the turn, and the collisions:
+the one-dimensional chain's static-transverse assumption is validated at
+candidate grade over exactly the epoch it is used for. Gate (b) closes.** The
+run's tail records the honest caveat that comes with it: an exponential
+transverse mode grows from numerical noise with doubling time ≈ 1 — the
+snake-class instability quasi-one-dimensional structures are known to carry —
+still at only 8×10⁻⁴ of the kinetic energy when the run ends. Long after the
+rebound, the pancake fragments into filaments; that is downstream of every
+graded conclusion here and is the standard instability, not a new channel.
+The dynamical half now stands at two gates closed of three, with gate (a) —
+the energy-clean spherical number — the last one out, and its first row
+already refused by its own energy gate (391% drift at the deepest amplitude:
+grades nothing, exactly as designed; the grid continues).
