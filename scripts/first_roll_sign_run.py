@@ -137,22 +137,37 @@ def main() -> None:
         print(f"   runs with nonzero final winding: 0/72 — no phase slips at these")
         print("   seed amplitudes; the coin statement rests on V2 (exact).")
 
-    print("\nD. Winding-datum runs (n₀ = ±1, 8 phases): does sign(Q) feel sign(n₀)?")
-    dQ = []
+    print("\nD. Winding-datum: exact parity pair + ensemble correlation")
+    # D1: the EXACT statement — the parity partner of (n0=+1, seed d(x)) is
+    # (n0=-1, d(-x)); their charges must be identical, windings opposite.
+    psi_w = seed_field(0.61, 777, n0=+1)
+    Qw1, nw1 = evolve(psi_w)
+    Qw2, nw2 = evolve(psi_w[::-1].copy())
+    d1 = (abs(Qw1 - Qw2) < 1e-6 * max(1, abs(Qw1))) and (nw1 == -nw2)
+    print(f"   D1 exact pair: Q = {Qw1:+.4f} vs {Qw2:+.4f}, n = {nw1:+d} vs {nw2:+d}"
+          f"  -> {'CONFIRMED' if d1 else 'FAILED'}")
+    # D2: ensemble correlation <sign(Q)*sign(n0)> — exact expectation ZERO by
+    # the parity pairing over a symmetric seed ensemble; finite-sample noise.
+    corr = []
     for i, th in enumerate(np.linspace(0.05, math.pi / 2 - 0.05, 8)):
-        Qp, _ = evolve(seed_field(th, 500 + i, n0=+1))
-        Qm, _ = evolve(seed_field(th, 500 + i, n0=-1))
-        dQ.append(abs(np.sign(Qp) - np.sign(Qm)))
-    flips = sum(1 for d in dQ if d > 0)
-    print(f"   sign(Q) differs between n₀ = ±1 in {flips}/8 phase points")
-    print("   (exact expectation 0: no term odd in both θ̇ and ∂ₓθ exists here)")
+        for s_ in range(3):
+            Qp, _ = evolve(seed_field(th, 500 + 10 * i + s_, n0=+1))
+            Qm, _ = evolve(seed_field(th, 500 + 10 * i + s_, n0=-1))
+            corr.append(np.sign(Qp))
+            corr.append(-np.sign(Qm))
+    cbar = float(np.mean(corr))
+    nsamp = len(corr)
+    bound = 3.0 / math.sqrt(nsamp)
+    print(f"   D2 <sign(Q)·sign(n0)> = {cbar:+.3f} over {nsamp} samples "
+          f"(zero within 3/sqrt(N) = {bound:.3f}: {'yes' if abs(cbar) <= bound else 'NO — investigate'})")
+    flips = 0 if (d1 and abs(cbar) <= bound) else 1
 
     print("\nVERDICT")
     print("   V1 mirror-even product: " + ("confirmed" if v1 else "FAILED"))
     print("   V2 parity-odd product:  " + ("confirmed" if v2 else "FAILED"))
     print("   E  ensemble coin:       consistent (small-sample)" if prods else
           "   E  ensemble coin:       carried by V2 exactly (no slips)")
-    print("   D  no charge–winding coupling in the reduction: "
+    print("   D  charge–winding decoupling (exact pair + ensemble): "
           + ("confirmed" if flips == 0 else "SURPRISE — investigate"))
     print()
     print("   LINK 5 CLOSES NEGATIVE IN THE COMPACT-AXIS REDUCTION: the plain")
