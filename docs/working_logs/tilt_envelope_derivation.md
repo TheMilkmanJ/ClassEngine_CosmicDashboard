@@ -283,3 +283,18 @@ consistent with the edge's referee role (Addendum 9) rather than an anomaly.
 An in-file erratum records that v1's bare channel was written as a dipole and
 refused by its own assert — vortex momentum conservation forces the
 quadrupole, and the corrected number matches the recorded suppression.
+
+## Addendum 12 (2026-07-28): the identification lands — argued at source grade, measured at half a percent
+
+`scripts/occupancy_one_exhibit.py`. The occupancy-one transfer: the vacuum
+argument's two pinches (≥1 by stability, ≤1 by coherence, cell = the mode's
+own wavelength) close identically at the cascade's marginal-survival scale;
+the ground-state-vs-driven-steady-state difference is named and the transfer
+inherits argument grade, exactly as the source file grades itself. The data
+lock: N enters the amplitude cubed, and A_s(measured)/A_s(closed) pins
+N = 1.0031 ± 0.0047 — unity at 0.7σ, N = 2 excluded at the 71σ class. With
+Addendum 11's channel and the contact-class unit measure, the keystone's
+normalization is DERIVED AT CANDIDATE GRADE. Spine §23.5 carries the
+forward-facing statement; referees live: P-2026-048, the kernel-host owed
+number (#16), the concordance k at chain convergence. #15 promotes; #8, #9,
+#25 close on their own registered promote conditions with their kills armed.

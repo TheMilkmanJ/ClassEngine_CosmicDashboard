@@ -885,3 +885,39 @@ and the restart surface is the past boundary of the re-expanding hydrodynamic
 description. One architecture, two consistent descriptions; every computed
 number of §23.1 is unchanged. The hot-start budget resolves at candidate grade:
 the Standard-Model bath rides the contraction as its own conserved reservoir.
+
+### 23.5 The amplitude's normalization derived (2026-07-28)
+
+The triangle of §23.3 carried one owed derivation: why the primordial
+amplitude's per-vertex factor is the screened coupling over the standard loop
+measure. That derivation now exists at candidate grade, in three parts, each
+with its check.
+
+**The channel.** Small-scale structure on the network's vortex lines is erased
+by pairwise exchange through the screened interaction. Every rival channel is
+priced out by standard physics: quadrupole sound emission carries the velocity
+suppression the cutoff computation already measured; contact damping through
+the particle-hole continuum has the right size but the wrong coupling
+structure (it grows with the screening factor where the amplitude's factor
+falls with it); reconnection is not perturbative; resonant mode conversion
+operates only where the substructure reaches the core scale — the observable
+window's ultraviolet edge, consistently with that edge's referee role.
+
+**The count.** The exchange needs exactly one partner quantum per substructure
+cell, and that count is the occupancy principle of the vacuum-energy sector
+applied at the cascade's marginal scale: the mode holds its quantum or the
+structure is not there, and a second quantum is an excitation the cascade
+passes down — the same two-sided pinch, inheriting that argument's own grade
+and its named referee (P-2026-048). The sky has also weighed the count
+directly: a partner count N would enter the amplitude cubed, and the measured
+amplitude against the closed form pins N = 1.003 ± 0.005.
+
+**The measure.** Below the screening scale the exchange is contact-class, so
+the emission carries the unit isotropic measure and no residual energy ratios
+— the factor 1/4π with nothing adjustable.
+
+Together: the per-vertex factor is the screened coupling over 4π by channel,
+count, and measure, and the closed form's three vertices stand derived at
+candidate grade. Live referees: the crossover number of P-2026-048, the
+kernel-host condition of the hierarchy sector (its one owed number), and the
+concordance value of the screening factor at the chains' convergence.
