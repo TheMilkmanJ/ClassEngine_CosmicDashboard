@@ -1,5 +1,5 @@
 # T10 gravitational waves — OWED
-1. THE CHIRAL-GW AMPLITUDE (the family's missing number): the θ·R·R̃ coupling's magnitude for the genome's n — is the polarized background detectable (LISA/ET/CMB-B) or formal?
+1. THE CHIRAL-GW AMPLITUDE (the family's missing number): the θ·R·R̃ coupling's magnitude for the genome's n — is the polarized background detectable (LISA/ET/CMB-B) or formal? — **PAID (see §PAID below: structural null, 2026-07-18; header synced 2026-07-27 per the audit's stale-header flag)**
 2. The echo amplitude (internal review prong) if pursued — core-boundary reflectivity model.
 3. The n-sign linkage's Card-4 contingency (the sign prediction fires only when the baryon-sign chain lands).
 4. Track PTA astro-only consistency (the vortex-null stands; SMBH-binary interpretation must keep working).

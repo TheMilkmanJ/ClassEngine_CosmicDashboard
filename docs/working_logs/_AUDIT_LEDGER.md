@@ -4331,3 +4331,30 @@ re-running the pattern would not have.
 booked at 0.13σ. It is 0.0138. The harness refusing it is the instrument working.)*
 
 Harness 720/720.
+
+### 2026-07-27 — marker-sweep verification: two SCOPE-OK residuals since paid, one header synced
+
+A full-corpus owed-marker sweep (run because the board kept yielding live items after
+"done" claims — the sweep is now the standard before any emptiness claim) checked every
+row of the SCOPE-OK table against the current files. Three rows had gone stale in the
+direction of UNDER-claiming (residuals recorded as owed that have since been paid):
+
+1. **#92's residual is PAID.** "Regulator's O(1) entanglement-side check still owed" —
+   `PRTOE_entropy.md` §3 records the check paid 2026-07-20, and structurally: the conical
+   deficit's R-delta makes the horizon area term the same heat-kernel coefficient that
+   generates 1/G, so the quarter is regulator-independent. The row's Page-curve gate is
+   therefore open, not blocked.
+2. **#55's residual is PAID.** "Shot-noise count C still unmechanized" — the count was
+   mechanized 2026-07-27 by the amplitude promotion chain (`occupancy_one_exhibit.py`:
+   occupancy-one at the marginal scale, data-locked N = 1.0031 ± 0.0047), part of #15's
+   closure. The Tier-3 dependency-tree row was moved the same day.
+3. **#96's hygiene item is DONE.** The T10 stale header (title said OWED, body said PAID)
+   is synced — the header line now carries the payment pointer.
+
+The other SCOPE-OK residuals were re-verified as still open and correctly scoped: #65
+(seat constant b + alignment), #86 (the base-α owed pieces), #93 (the Gibbs–Duhem
+mode-sum, #123 territory), #104 (careful pass + rectification efficiency, converging
+with T14 link 5). The sweep also caught a filing that never landed: room 1's h_eff
+ANCHOR INCONSISTENCY (two anchors disagreeing by ~9 decades, "filed into the morning
+band audit") appears in no audit file — it is unresolved and now sits on the board as
+its own task, MANDATORY per the room's own ruling.

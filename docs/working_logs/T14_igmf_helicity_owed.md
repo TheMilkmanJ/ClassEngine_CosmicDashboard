@@ -201,6 +201,20 @@ prediction is recovered exactly. If instead the two circulations are locked to e
 helicity comes out with a *universal* handedness and the prediction becomes a different — and
 sharper — claim. Both live; the missing object decides which.
 
+**HALF-PAID (2026-07-27 sync — the file catching up to the board; the census already carries
+this).** The POLOIDAL half is computed: task #19's sign-lock run (`scripts/ring_rollup_poloidal_v3.py`)
+delivered exactly the "fixed genesis-set sense" branch's first ingredient — the roll-up ring's
+poloidal circulation is locked to the fountain's axial direction at birth (exact parity pair
+±1.00; five nucleated rings, five correct signs; rings are transient, read at birth — the earlier
+nulls were detection-timing artifacts, recorded in-file). What remains of link 4 is the TOROIDAL
+half — whether the ring's toroidal circulation is set by (and signed by) the genome's winding draw —
+and that is the 3D toroidal pair now running (`scripts/ring_toroidal_3d.py`, n = ±1, fork
+pre-registered: shape-helicity reading vs core-circuit phase-twist reading; survivor keeps candidate
+grade, loser to the ledger). If it lands sign-locked, the first branch above closes with
+sign(H_kin) = sign(n) up to the recorded fixed factor, and link 4 reduces to link 5's rectification
+question. Link 5 remains owed on its own terms (sign(θ̇·n), #154's scope; converges with the
+transfer integral's rectification pass).
+
 **What this does to the census's reading.** The census counted link 5 as the single owed junction;
 its row now carries both. **A closed link 5 alone leaves the measured left-handed hint unreadable**,
 because link 4 is the junction between the current and the observable handedness and it is open on
