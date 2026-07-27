@@ -2418,11 +2418,18 @@ edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
  gives a = 0.280677 in closed form, a = (1+2b)/2 − 1/ln(1+1/b), validated against the textbook
  Slater exchange self-energy and an independently derived large-b asymptote). Together they move
  the anchor **down** by
- e^(−(c+a)) = 0.343, collapsing the band from 1–8 TeV to **0.55–1.78 TeV** — i.e. *away* from the
- shooter, not toward it. The minimum gap therefore widens from 1.6× to **7.3× at the band's top
- edge**, and runs to 36× at its bottom, a **4.5× widening** of the tightest reading. No convention
- choice reconciles 13–20 TeV with a band that a computation has just pushed further below it, so
- the strain is a fact about the census arrow and not about edge-matching. **The reservation #141
+ e^(−(c+a)) = 0.343 — acting on the two-term 1.6–5.2 TeV band (the 1–8 TeV sizing already
+ contained the vertex factor, so the correction supersedes it rather than multiplying it) — and
+ the corrected band is **0.55–1.78 TeV**: *away* from the
+ shooter, not toward it. The gap, stated on one convention (nearest edges to farthest edges:
+ 13/1.78 to 20/0.55), therefore widens from 1.6× at its tightest to **7.3×**, running to 36×
+ at the far pairing — a **4.5× widening** of the tightest reading. No convention
+ choice reconciles 13–20 TeV with a band that a computation has just pushed further below it —
+ confirmed exhaustively 2026-07-27 (`scripts/edge_convention_verdict.py`): every admissible
+ pairing of anchor convention and band edge leaves at least a **3.6× gap** — so
+ the strain is a fact about the census arrow and not about edge-matching. One provenance caveat
+ stands with the closure: the shooter's 13–20 TeV itself has no recorded computation in the
+ corpus; the gap's anchor side is fully reproducible, its shooter side is a quoted number. **The reservation #141
  recorded is now closed, against the direction it feared:** the Fock insertion does *not* partially
  cancel the vertex term. On an instantaneous interaction Σ is frequency-independent, so there is no
  Eliashberg Z factor; the effect is a velocity renormalisation whose integrand is pointwise positive

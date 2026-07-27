@@ -47,10 +47,14 @@ def rhs(t, y, h, rt):
     u, v, du, dv = y
     H = 0.5 / t
     r2 = u * u + v * v
+    # complex EOM ẍ + 3Hẋ + ∂V/∂x* = 0, and ∂V/∂x* = ½(∂V/∂u + i∂V/∂v):
+    # the ½ makes the mass-term oscillator ω = 1 exactly (the rotor/librator
+    # calibration asserts it — v1 omitted the ½, ω = √2, rotor limit 0.89,
+    # caught by the calibration's own assert before anything was quoted).
     # dV/du with V = r² + h(r⁴ + rt·Re(x⁴)); Re(x⁴) = u⁴ − 6u²v² + v⁴
     Vu = 2 * u + h * (4 * r2 * u + rt * (4 * u ** 3 - 12 * u * v * v))
     Vv = 2 * v + h * (4 * r2 * v + rt * (4 * v ** 3 - 12 * u * u * v))
-    return [du, dv, -3 * H * du - Vu, -3 * H * dv - Vv]
+    return [du, dv, -3 * H * du - 0.5 * Vu, -3 * H * dv - 0.5 * Vv]
 
 
 def universe(theta0: float, h: float, rt: float) -> float:

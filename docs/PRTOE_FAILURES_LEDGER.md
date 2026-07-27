@@ -645,7 +645,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | the quartet file §1 clock marks read as a standalone lineup | the §1 marks are retired as a standalone read (§1 now carries 7.59/7.74/7.89, template offset applied); the live object is §5's registered PAIR call at 7.55/7.70/7.85, graded against the zon_disp chain, and the two-clock re-derivation is owed ramps-first — quartet file §4b |
 | "transfer favorable-leaning" | reservoir survives; delivered η owed the sphaleron-weighted integral — the working docket |
 | T14's sign map read as "links 1–4 laid, link 5 the single owed junction" (the T14 table's grade and the census's entry, #158) | links 1–3 are laid and link 4 is a second open junction on its own object. The Harrison battery's coefficient enters the seeded helicity **squared** — H_B = k²H_kin, so sign(helicity_B) = sign(H_kin) exactly and the "sign convention unfixed" grade was a false debt; what the step actually needs is a *linkage*, which neither recorded rotation supplies (a rigid rotation has u·ω = 0; the winding current k₀ = 2πn/L is curl-free). The handedness lives in the roll-up's helical ring and is bilinear in its two circulations [Moffatt1969], so sign(n) alone cannot set it — T14 §"Link 4 taken apart", [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md) §"the seeding link" |
-| shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |
+| shooter v2's 13–20 TeV read as P-042 support | it strained arrow C, and the edge-convention audit has since concluded the arrow fell (no convention closes the gap — minimum 3.6× across every admissible pairing) — hierarchy §2(a) |
 | the quartet-clock mechanism ("Z4-locked quartet") | conflated phase-sector locking (cos 4θ) with composite binding; killed by the recorded stability sign (c_s real ⟹ λ > 0 ⟹ pairs repel ⟹ no quartets) | the pair stands by derivation |
 | the DE-amplitude "√N closing lineshape S(ω/T)" / the "Γ₀ = 76 meV" target (entries 176/188) | an inversion of a Γ=H freeze condition; the forward collisionless neutrino response is Ohmic (s=1) in BOTH the density and the scalar/Majoron channel (`scripts/kubo_freeze.py`), so no sub-Ohmic lineshape exists to supply it | the freeze is a DECOUPLING not a rate-crossing: the condensate tracks the relativistic-ν bath (Γ/H ≈ 5×10¹⁰) and freezes when the lightest ν goes NR — ρ_Λ¼ = m_ν,lightest forward at the scale. |
 
@@ -2815,7 +2815,8 @@ insertions **add**: 1/λ_eff = 1/λ + c + a, with a = (1 + 2b)/2 − 1/ln(1 + 1/
 **What it does.** The anchor multiplier goes from e^(−c) = 0.454 to e^(−(c+a)) = 0.343, a further
 ×0.755. The band moves from 0.73–2.4 TeV to **0.55–1.78 TeV** — further *below* the shooter's
 13–20 TeV, not toward it. **#124's verdict is reinforced, not re-opened**: the tightest gap widens
-from 5.4× to 7.3×, and the reservation that could have re-opened the sizing is closed against the
+from 5.5× to 7.3× (source values, not display-rounded), and the reservation that could have
+re-opened the sizing is closed against the
 direction it feared.
 
 **The lesson (process).** *This is the third time on this one integral that a verbal argument

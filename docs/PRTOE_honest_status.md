@@ -91,7 +91,9 @@ corpus's own cosmology, misses the screening constant by 1.6–2× at every stan
 the agreement is evidence **for the conditions**, not a derivation from recorded structure, and the
 obvious rescue — the model's repeated "condensate at finite chemical potential" — does not apply:
 that μ is the dark condensate's at basin entry, sixty orders below. The anchor's precision claim is
-withdrawn with it: **1–8 TeV, not 1.57 TeV at 2.5%**, because ∂lnM/∂lnk = 33 amplifies every O(1).
+withdrawn with it: **a band, not 1.57 TeV at 2.5%**, because ∂lnM/∂lnk = 33 amplifies every O(1) —
+first sized at 1–8 TeV, and now, with the O(λ) pair computed (the crossed box and its Fock
+companion, both downward), standing at **0.55–1.78 TeV**.
 And the two bands must be velocity-matched to the percent level (∂lnM/∂r ≈ 11.6) — a match the
 one-metric constitution now supplies: two cone slopes would be a dimension-4 Lorentz-violating
 coefficient, which the no-bridge clause books at zero ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md)),

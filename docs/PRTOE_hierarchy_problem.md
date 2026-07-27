@@ -48,13 +48,18 @@ one-loop echo.**
 the hierarchy dial $x_0$ is consistency-only (a free dial of the GC dictionary that this
 closure selects — failures ledger §6); the census closure / duty-family landing is
 strained (the two-loop shooter lands the census portal at 13–20 TeV, not the anchor —
-the edge-convention audit decides whether that arrow fell or the convention did). **That strain
+and the edge-convention audit has concluded: the arrow fell, not the convention, confirmed by
+computing every admissible edge pairing — the most anchor-favorable of them still leaves a 3.6×
+gap with no overlap). **That strain
 was sized against the anchor as a point value, 1.57 TeV, and that value is withdrawn** (§6e): the
 anchor is a band, and with the complete O(λ) correction evaluated (§6e, dockets #141 and #183:
 c = 0.789 from the crossed box and a = 0.281 from the Fock self-energy, the anchor
 × e^(−(c+a)) = 0.343) that band is **0.55–1.78 TeV**. Re-measured against it, the gap to the
-shooter's 13–20 TeV is **7.3× at the band's top edge and 24× at its bottom** — so the strain's size
-is a fact about where in the band the anchor sits, and it is now sized rather than pending. The
+shooter's 13–20 TeV runs **7.3× (nearest edges) to 36× (farthest edges)** — so the strain's size
+is a fact about where in the band the anchor sits, and it is now sized rather than pending. One
+caveat travels with the sizing: the shooter's 13–20 TeV itself carries no recorded computation
+in the corpus — the gap's anchor side is fully reproducible, its shooter side is a quoted
+number. The
 one genuinely independent arrow ($m_H$ is measured) stands:
 
 $$\ln\!\frac{M_{\rm red}}{4\pi\,m_H} = 34.98 \quad\Longrightarrow\quad M_{\rm anchor} \approx 4\pi\,m_H \approx 1.57\ \text{TeV}\ \ (2.5\%)$$
@@ -168,8 +173,9 @@ mooted, so nothing inherits it.)
 The collider knife-edge P-2026-039 — once read as a sharp [1.00–1.19] TeV prediction — is
 suspended: the two-loop term is a shift, not a smear, and the masses open across a "1–100 TeV
 decade". The perturbative program that would have narrowed that decade is closed, so the decade
-is refereed by the collider search directly, and the census arrow's strain by the edge-convention
-audit. That suspension, and the rigid-13 census count it rode with, live in
+is refereed by the collider search directly; the census arrow's strain went to the edge-convention
+audit, which has concluded against the arrow (no convention closes the gap — the minimum across
+every admissible pairing is 3.6×). That suspension, and the rigid-13 census count it rode with, live in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census & roster count."**
 
 ## 6. Where the gap equation sits: the Fermi-point basement

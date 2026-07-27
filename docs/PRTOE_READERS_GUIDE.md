@@ -105,9 +105,10 @@ fixed here:
  supernova fork.
 - **The electroweak anchor is a mechanism, not a measurement.** The chain from the Planck floor
   to a few TeV is derived end to end — the pairing channel, the screening constant, the measure,
-  the shell cutoff — but its *precision* is a factor of a few: **1 to 8 TeV**, not four significant
-  figures. The exponent amplifies every O(1) thirty-threefold, so the largest uncorrected term (a
-  vertex correction, plausibly downward) dominates the band. Agreement quoted to better than that
+  the shell cutoff — but its *precision* is a factor of a few: **0.55 to 1.78 TeV** (first sized
+  at 1–8 TeV; the vertex correction and its self-energy companion have since been computed, both
+  downward), not four significant
+  figures. The exponent amplifies every O(1) thirty-threefold. Agreement quoted to better than that
   is a coincidence of convention, and the corpus says so where it arises.
 - **The count k in that chain is derived exactly, on a host this corpus does not record.** The
   reconstruction is exact and independently confirmed, but it assumes a Fermi surface at finite

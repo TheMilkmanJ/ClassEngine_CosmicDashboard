@@ -78,6 +78,10 @@ measurement, a ruling or a facility. Each waits only on someone doing it.
 - **#141 — the vertex correction.** One coefficient from one well-posed integral. It dominates the
   anchor's 1–8 TeV band and blocks **#124**. Attempted twice, retracted twice, both times as an
   *argument* rather than an integral and both times pointing the favourable way
+  *(2026-07-27 sync: both clauses are dead — #141 closed at c = 0.789262 (see the reverse-audit
+  correction above), the band moved to 0.55–1.78 TeV, and #124 itself is now closed by
+  computation: no edge convention closes the gap, minimum 3.6× across every admissible pairing,
+  `scripts/edge_convention_verdict.py`)*
 - **#146** the basement's band structure · **#168** the count C (now known to be an identification,
   not a result) · **#101/#102** the Koide mechanism and the Brannen phase · **#115–#118** the family
   potential, seat alignment, bounce sector, two-draws · **#120** the regulator's entanglement side ·

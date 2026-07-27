@@ -5,7 +5,9 @@ STATE COMING IN (the file is ahead of the task list)
   additivity grade); the shared k triple-determined (gap equation 1.360, closed
   form 1.36461, A_s-measured 1.3602 ± 0.0064); the complete O(λ) correction
   evaluated (crossed box c = 0.789, Fock a = 0.281, factor e^{−(c+a)} = 0.343);
-  the band 0.55–1.78 TeV; the strain vs the 13–20 TeV shooter sized (7.3–24×).
+  the band 0.55–1.78 TeV; the strain vs the 13–20 TeV shooter sized 7.3–36×
+  (nearest-edges to farthest-edges; the earlier 7.3–24× used the 13-TeV
+  numerator against both edges — a mixed pairing, corrected 2026-07-27).
 
 WHAT THIS ADDS
   The one missing piece: the budget DECOMPOSITION — which input drives the

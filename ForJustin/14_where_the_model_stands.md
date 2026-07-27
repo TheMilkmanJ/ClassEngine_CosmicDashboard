@@ -27,9 +27,11 @@ c/300, which is exactly why its effective coupling is O(1) rather than O(α).
 ## What got weaker, and this is the honest half
 
 **The anchor is a mechanism, not a measurement.** The chain runs end to end, but ∂lnM/∂lnk = 33.5
-amplifies every O(1), so the value is **1–8 TeV, not 1.57 TeV at 2.5%**. The +0.14% agreement with
-4πm_H is a coincidence of one convention inside that band. The dominant uncorrected term is the
-crossed-box vertex correction, whose conventional sign is **downward** — so the honest reading is
+amplifies every O(1), so the value is a band, **not 1.57 TeV at 2.5%** — first sized at 1–8 TeV,
+and with the crossed-box vertex and its self-energy companion since computed (both downward), now
+standing at **0.55–1.78 TeV**. The +0.14% agreement with
+4πm_H is a coincidence of one convention inside the original band. That computation confirmed the
+expected direction: the honest reading is
 that the band's lower half is favoured.
 
 **k's exactness rides a host the corpus does not have.** The derivation needs a Fermi surface at
