@@ -2051,3 +2051,39 @@ single-particle statement — "the one charged quantum's hop clock is the therma
 clock" — with the pacing bound (ħ/T as the fastest thermal action) and the
 bath-limited saturation already recorded (2026-07-19). What remains for the phase is
 the saturation's microphysical derivation and the external judges.
+
+---
+
+## ADDENDUM (2026-07-27) — the owed R₀ identification, argued from pin 1 + causality
+
+Pass 4's one remaining scale identification ("R₀ ~ horizon-class, the one
+identification still owed", pin 3's parenthesis) turns out to be an output of the
+corpus's own pins rather than an extra assumption:
+
+1. **Pin 1 already commits the cascade** to the Kraichnan dual form, and the
+   inverse-energy branch of that cascade has a known destination: in any finite
+   system, energy pumped upscale **condenses at the largest available scale** — the
+   large-scale condensate is Kraichnan's own prediction and a textbook-standard
+   result of 2D turbulence (Kraichnan 1967; the Boffetta–Ecke review's condensation
+   regime). The ring that forms IS the condensate; its scale is the box scale.
+2. **Causality names the box.** At the pour there is no larger causally coherent
+   scale than the horizon: no roll-up can organize across regions that have never
+   been in contact. So "largest available" = the causal horizon, R₀ → R_H — a cap
+   (rigorous) that is also the attractor (the inverse cascade drives to it).
+3. **The geometry checks.** With R₀ = R_H, injection sits at q_inj·R₀ = √n =
+   3.16–5.48 across the Widnall band (n ∈ [10, 30]) — sub-horizon by 3–5×, the
+   inject-small/condense-large ordering the cascade needs, and comfortably above
+   the ≥ 2.5 threshold where (h2) showed the verdict SATURATES (locked at 1.002
+   from 5.5 to 14+; entry at ≈ 2.5). Context anchor at the recorded pour scale
+   (T = 8×10¹⁶ GeV, roster g* = 143): H = 1.0×10¹⁶ GeV, R_H = 9.6×10⁻¹⁷ GeV⁻¹
+   (arithmetic verified in-session, 2026-07-27).
+
+**Standing of the identification after this addendum:** argued at the same grade as
+the pins themselves — pin 1 (Kraichnan) + causality ⟹ condensation at the causal
+maximum ⟹ R₀ ~ R_H, with the checked consequence that injection lands sub-horizon
+in (h2)'s saturated plateau. It is no longer a bare naming; what it is NOT is a
+dynamical derivation of condensate formation in the medium's own equations (the
+literature result is imported for the 2D incompressible cascade, and the medium's
+compressible corrections are unpriced — named residual). Pass 4's verdict was
+already asymptotically independent of the precise scale (only the ordering
+mattered); this addendum supplies the ordering's origin.
