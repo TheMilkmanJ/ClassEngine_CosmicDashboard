@@ -1030,3 +1030,34 @@ final verdict confirmed the closure above — "NOT CONVERGED — the run reports
 itself unusable; no numbers from this script may be quoted" — its honesty
 assert ending the process. §23's endpoint and reopening condition stand
 unchanged.
+
+---
+
+## 24. The averaging bookkeeping performed — gate (c) of the dynamical half (2026-07-28)
+
+Script: [`scripts/bounce_averaging_decomposition.py`](../../scripts/bounce_averaging_decomposition.py),
+on the sequencing race's graded configuration.
+
+The reconciliation's central claim — the averaged turn is powered by the terms
+homogeneous averaging kills — is now an exhibited identity. Working at the
+coarse-grained level (kernel 2ξ), where continuity and momentum conservation
+commute with the kernel and the momentum flux computes regularly from the
+field itself, the exact balance is
+
+> d⟨Θ_c⟩/dt = −⟨Θ_c⟩² − Var(Θ_c) + (the coarse-grained stress drive),
+
+verified in-run at machine precision (RMS residual 0.000 over the active
+window — after the first attempt's bare-Madelung version was refused by its
+own identity check: the decomposition is singular at near-zero-density cores,
+an in-file record). At the turn (⟨Θ_c⟩ crossing zero at t = 9.75): the stress
+drive is +0.0266 — interaction pressure +0.0261, quantum-gradient +0.0006,
+sub-kernel Reynolds −0.0002 — against the variance's −0.0113 and a negligible
+mean-square term; net +0.0153, rising through zero. Every channel in the
+drive is of the homogeneity-killed class (⟨∂ₓ[(1/ρ)∂ₓΠ]⟩ ≡ 0 for homogeneous
+fields), with the interaction pressure carrying it at this Mach — the
+reconciliation's mechanism, term by term, in the medium's own run.
+
+**Gate (c) of the white-hole task's dynamical half closes at candidate
+grade.** Remaining gates: (a) the energy-clean spherical number (the
+sine-transform run, in flight) and (b) transverse-axis dynamics (the 3D
+machinery now exists; the toroidal pair informs the design).
