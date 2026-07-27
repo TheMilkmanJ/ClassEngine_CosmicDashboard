@@ -1893,6 +1893,13 @@ primordial vorticity by construction (rotation + vortex network + the genome).
 via dynamo (a bill ΛCDM cannot pay). The primordial field's **magnetic helicity is signed by the
 genome** (the quantized winding current) → parity-odd radio/γ observables carry
 the same sign as the matter/antimatter draw.
+*(ANNOTATION 2026-07-27, syncing the 2026-07-20 withdrawal already ratified in the failures
+ledger: the final clause's matter/antimatter lock is STRUCK — the joint genesis draw proved
+sign(θ̇) and sign(n) independent, so the helicity does not carry the matter draw's sign. What
+stands is the narrower seeding claim: the field's helicity is signed by the genesis flow's own
+handedness, sign(helicity_B) = sign(H_kin), with link 4 owing which handedness that is. The
+magnitude prediction and the kill clause below, which tests against the genome only, are
+untouched.)*
 
 **Honest gap:** the void floor (blazar TeV halos, ~10⁻¹⁶ G) sits ~1.5 orders above the
 smooth-Harrison number, and **two of the three candidate rescues are closed.** Vortex-line-network
@@ -1992,7 +1999,13 @@ fence's 0.7% floor.**
 
 **What survives.** The *location* ℓ₁ ≈ 3.1n is geometry and is untouched. The *amplitude* is not a
 percent-level overtone — it is unobservably small, so the comb is not a live two-sided falsifier and
-cannot be the ~2–3σ hint. The entry keeps its location claim and drops its detection claim. **The
+cannot be the ~2–3σ hint. The entry keeps its location claim and drops its detection claim.
+*(ANNOTATION 2026-07-27, syncing the winding integer's adjudication: the band ℓ₁ ≈ 31–94 rode
+n ~ 10–30, which has since been adjudicated down to the BOUND n ≳ 1.65 at the torus floor — the
+canonical-values file books the bound as standing and the determination as superseded. The
+location claim is therefore ℓ₁ ≈ 3.1n with n ≳ 1.65, i.e. ℓ₁ ≳ 5; the 31–94 band holds only for
+a torus 37–330× above its floor, which forfeits the banked low-ℓ signature. The registered
+geometry ℓ₁ = 3.1n is unchanged; its numerical window moved with its input.)* **The
 one escape, named because it is testable:** the acoustic ("ringing") reading — if the twist rang the
 medium *in time* during horizon exit rather than laying down a spatial array, the imprint is
 resonant, periodic in **ln ℓ** and isotropic in k̂, which evades the monopole dilution entirely.
@@ -3253,6 +3266,14 @@ temporal half alone is known to be a fair coin (proven by the tilt's reflection 
 the *product* that has no instrument computing it yet. This entry graduates to a full registration
 the day that run lands, and until then it is a statement about what the run will decide, placed
 before it decides it.
+
+**ANNOTATION (2026-07-27 sync — the run landed 2026-07-20 and kill (iv) FIRED):** the joint
+genesis draw was computed (`scripts/genesis_joint_draw.py`; the joint-draw log): sign(θ̇) and
+sign(n) are drawn **independently** — the joint correlation sits at −0.06 to +0.09 against a
+±0.13 noise floor, forced by spatial parity. Kill (iv)'s condition is met exactly: **there is
+no product to fix; the conditional's antecedent is empty rather than merely unrun.** This entry
+does not graduate — it closes as a conditional whose antecedent the model's own dynamics
+refused, recorded with the same ink it was registered with.
 
 
 ---

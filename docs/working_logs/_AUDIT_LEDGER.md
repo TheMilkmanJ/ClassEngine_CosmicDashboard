@@ -4382,3 +4382,16 @@ at coincidence grade. Also synced on the same sweep: the master-computes M2 row,
 #141 (closed — the shelf had flagged the row stale against the recorded c = 0.789262),
 and docket #121 (substantially paid by the release-era Ψ₀ and the physical-hierarchy
 f_amp distribution; the genesis-dynamics remainder rehomed under #117).
+
+**Check-13 amendment (2026-07-27, the formal pass):** the sweep note above claimed the Tier-3
+dependency-tree row moved with #55's sync — it had not (only the k row moved that day); the
+A_s/count-C cell still read "unmechanized." The formal owed-vs-payments pass caught it, and the
+cell is NOW moved (count derived at candidate grade, spine §23.5, N = 1.003 ± 0.005). Same pass,
+same day: M8's "f̄ = 2/π is DERIVED" downgraded to checked-with-mechanism-owed (the prereg's own
+kill (iii) and the hunt's strengthened-candidate grade govern; the standing-derivations header
+loses the entry), and #96's closure annotated to its carrier-only scope. Full harvest in the
+2026-07-27 commits: five docket rows synced, the shelf's dead bullets struck with receipts, link
+5's negative verdict propagated to every record that cited it open, three prereg entries
+annotated to their changed inputs (P-2026-057's kill (iv) fired; P-2026-028's matter-draw clause
+struck; P-2026-029's band re-based on the adjudicated bound), and the docket preamble's carve-out
+extended to the third numbering scheme.
