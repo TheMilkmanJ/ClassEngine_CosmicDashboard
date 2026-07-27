@@ -257,3 +257,29 @@ registers as the isocurvature line's amplitude. Consistency passes across the
 whole band; the r ≲ 0.1 tension zone lies outside it. The tilt now waits on
 one gate only: the rate normalization (task #15's weight-zero exhibit), with
 P-2026-031's external referee (a CMB bound at ℓ ≈ 170) unchanged.
+
+## Addendum 11 (2026-07-28): the weight-zero hunt — four channels priced out, one lands with zero dials
+
+`scripts/weight_zero_channel_pricing.py`. Every standard erasure-channel shape
+priced against the demanded p = g_scr/4π = 1.277×10⁻³ at the pivot's cutoff
+geometry (ℓ_min/ξ = 25.0, Kelvin Mach 0.064):
+
+| channel | result | verdict |
+|---|---|---|
+| quadrupole (bare) radiation | M⁵ = 1.1×10⁻⁶, ×8.6×10⁻⁴ of demand | wrong shape (velocity powers); cross-validates the recorded bare suppression |
+| contact particle-hole damping | [λ², π²λ²] = ×0.70–6.9 of demand | right order, wrong structure: ∝ k² where the demand is ∝ 1/k |
+| reconnection | geometric, not ∝ g_scr | wrong shape |
+| resonant mode conversion | \|M\|² → 1 only at kξ ~ 1 — the UV edge | holds nowhere in the window except the edge |
+| **pairwise screened de-excitation × occupancy-one** | **p = g_scr·1·(1/4π) — exact, no dial** | **the surviving candidate** |
+
+The landing channel's unit partner count is the corpus's occupancy-one
+principle — the same principle that prices ρ_Λ — and the 1/4π is the
+unit-normalized isotropic measure of the one partner, weight zero because
+screened exchange is contact-class below the screening scale. The keystone's
+remaining exhibit is therefore ONE corpus-native identification: occupancy-one
+governs the network's substructure cells as it governs the condensate's
+binding quanta. The UV edge's takeover by resonant conversion at ℓ_min = ξ is
+consistent with the edge's referee role (Addendum 9) rather than an anomaly.
+An in-file erratum records that v1's bare channel was written as a dipole and
+refused by its own assert — vortex momentum conservation forces the
+quadrupole, and the corrected number matches the recorded suppression.
