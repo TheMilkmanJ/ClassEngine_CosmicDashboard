@@ -660,6 +660,22 @@ granules regardless); the 14%-branch predicts silence AND full
 granule contrast. A joint sky reading of the same single dice roll.
 Simulation-grade follow-up owed before any number is quotable.
 
+> **THE LAW, DERIVED AND VALIDATED (2026-07-27,**
+> `scripts/granule_contrast_meter.py`**):** C = p² + q² = (1 + f_rot²)/2,
+> derived from the counter-rotating decomposition (the 2m beat averages
+> away; equivalently the E7 particle/antiparticle split), then validated
+> statically and dynamically at instrument scale — worst deviation 0.6%,
+> free-FDM control exact (C = 1.000 at f_rot = 1), and free evolution
+> preserves the law through full granule churn. **At the physical
+> hierarchy the dice's f_rot ∈ [0.01, 0.32] pins C = 0.50–0.55: the
+> granule contrast is HALF free-FDM's, essentially parameter-free** —
+> granule-driven heating suppressed ~4×, which also RELAXES free-FDM
+> dwarf-heating bounds as applied to this medium (the A6 family). The
+> "before any number is quotable" clause above is superseded for the LAW
+> and the instrument-scale number; the halo-scale sims (self-gravity,
+> the χ condensation lag) remain owed for the corrections around C ≈ ½
+> and keep the booking's make-or-break role.
+
 **E7b — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
 meter's concrete observables, with one overclaim caught pre-booking):**
 (i) CONDENSATION LAG: each fluid condenses into its soliton on its

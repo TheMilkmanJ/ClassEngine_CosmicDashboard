@@ -561,7 +561,14 @@ untouched — it survives instrumentally by the mass gate (UPDATE 3's
 beat arithmetic at the standing mass: beat_needed = 5018 against
 beat ≤ 1 identically), not by quietness; (iii) the granule ε-meter —
 the collision's one m-independent readout — now expects NEAR-MAXIMAL
-contrast, the sharpest sim target this thread has produced; (iv) the
+contrast, the sharpest sim target this thread has produced *(CORRECTED
+same day, self-caught when the meter's law was derived: ε near-maximal
+means the granule CONTRAST sits at its FLOOR — the readout law is
+C = (1 + f_rot²)/2, so the physical dice's f_rot ∈ [0.01, 0.32] gives
+C = 0.50–0.55, HALF free-FDM's granule contrast, the suppression being
+the signature; "near-maximal" belongs to ε and to the suppression, not
+to the contrast — `scripts/granule_contrast_meter.py`, validated 0.6%)*;
+(iv) the
 distributional summit (outcome iv) NARROWS at the physical h: the
 chaos dies with the quartic (the 14-angle spread collapses to ±0.08
 at h₀ = 0.1) and a mild tilt-dependence returns (the erased dial
