@@ -921,3 +921,49 @@ automatically at the fundamental level; O6 is resolved at candidate grade (§19)
 The reconstruction's grade stays candidate throughout — but it is now ONE
 architecture with two consistent descriptions instead of an architecture with an
 unreconciled fork.
+
+---
+
+## 21. The sequencing race computed (2026-07-27): clock-first doors, surviving pockets, averaged turn
+
+The reconciled wall problem (§20 jurisdiction) is now computed
+(`scripts/bounce_task20_sequencing_race.py`): two collapse basins in one
+periodic medium (1D GPE, split-step Fourier, 8 points per healing length), the
+clock stagger dialed by a second flow harmonic — linear compression-rate ratio
+(2V+V₂)/(2V−V₂) — and measured (0.16–0.27 of the mean clock, bracketing §16's
+directional-door spread). Checks: exact grid-translation twin at 2×10⁻¹¹;
+energy drift ~4×10⁻⁷; dt/2 refinement identical to the printed digits.
+
+**The results, three configurations (Mach 2 and Mach 3 classes):**
+- **(ii) Sequencing is clock-first throughout.** The laggard's door opens at
+  t ≈ 6–8.5; the leader's outflow front (measured 2.2–5.0 c_s) arrives at
+  t ≈ 19–29 — a factor 3–4 late. Consistent with the scaling arithmetic: both
+  the stagger and the collapse times are set by the flow scale, so the front's
+  crossing-time-to-stagger ratio ~2V/(0.3·v_front) is geometry-independent and
+  grows with the door Mach — at the recorded Mach 8–15 the clock-first margin
+  only widens. Every arrival is a §17 joint collision, already computed.
+- **(i) Survival holds.** During exposure to a still-contracting neighbor
+  (t ≤ both turns) no pocket is re-crushed in any configuration. All later
+  re-compressions (t ≈ 35–60) are collision-epoch transients, bounded and
+  declining (end values ~75% of transient peaks), no runaway re-collapse.
+- **(iv) The averaged turn (toy).** The mass-weighted expansion rate
+  Θ = ⟨ρ∂ₓv⟩/⟨ρ⟩ crosses from contraction to sustained expansion 2–4 time
+  units after the last door and stays positive (+0.021 to +0.023) through the
+  collision epoch — the local rebounds assemble into averaged re-expansion.
+
+**Detector honesty, recorded:** the verdict criterion was revised twice —
+(v1) an undated re-compression comparison mislabeled §17 collision transients
+as re-crushing; (v2) a full-dispersal demand asked the periodic conservative
+box for what it geometrically cannot deliver (wave energy recirculates
+forever; the true dilution agent is the re-expanding background — the very
+Θ > 0 the run measures but a fixed box cannot feed back). The final criteria:
+re-crush dated to the exposure window; transients tested for bounded decline.
+The physics was identical under all three criteria; the detectors converged
+on it.
+
+**Status:** task #20's promote condition — computed sequencing with consistent
+averaged re-expansion — is met at the reconstruction's working grade
+(candidate; 1D, flow-modeled contraction, no self-gravity). Named remainders:
+transverse-axis evolution (out of 1D reach) and the honest averaging
+bookkeeping in an expanding background — both fold into #13's dynamical half
+alongside the spherical focusing run.
