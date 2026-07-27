@@ -231,9 +231,9 @@ v_L it reduces to the lightest-state Majorana term. The associated Majoron coupl
 
 > **g = m₁/v_L**
 
-which gives g = 2.3×10⁻⁹ at the MeV-scale point and g = 2.4×10⁻¹⁵ at the TeV-scale point. That
-keeps the UV completion safe with respect to supernova limits and makes the Majoron signal far
-below current ββ limits.
+which gives g = 5.4×10⁻¹⁰ at the MeV-scale point (v_L = 4.18 MeV) and g = 9.4×10⁻¹⁶ at the
+TeV-scale point's 2.4 TeV ceiling. That keeps the UV completion safe with respect to supernova
+limits and makes the Majoron signal far below current ββ limits.
 
 The remaining open pieces are:
 
