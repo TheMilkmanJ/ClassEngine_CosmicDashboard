@@ -812,9 +812,15 @@ percent-level fidelity the kill condition names requires μ/T ≳ 18 at the floo
 constant, which pointed away from the recorded basement at μ = 0, points exactly at it once the
 basement carries a chemical potential.
 
-What supplies μ is the narrowed question. The corpus's one recorded chemical-potential-class
-object is the arrow sector's ⟨θ̇⟩ ≠ 0 — a uniformly rotating phase is a chemical potential for
-the charge it rotates. Whether the basement roster carries that charge at μ ≫ T is a condition
-for the arrow sector's development to derive; it is carried here as this section's named
-condition, not asserted. §6e's velocity-matching requirement and the surviving ratio r = v_e/v_h
-are untouched.
+Two further computations sharpen where the condition lands
+(`scripts/arrow_mu_pricing.py`). First, the constant is **doping-independent**: b = m_D²/4k_F²
+evaluates to 2α_c/π at any nonzero doping whatever, because both the screening mass and the
+normalization scale as k_F². The booked value therefore requires no particular chemical
+potential — only that the kernel be evaluated with T ≪ μ. Second, a T → 0 kernel at the ground
+state is the standard host of every gap equation: BCS and Eliashberg compute the degenerate
+kernel, and the thermal bath decides *when* condensation happens, not what the kernel's screening
+constant is. The cold Fermi-surface host is thus the gap equation's own standard construction
+rather than a foreign assumption, and the section's named condition narrows to one owed number:
+**T/μ at gap formation** — the formation-epoch bath against the band's doping, a quantitative
+question rather than a structural conflict. §6e's velocity-matching requirement and the surviving
+ratio r = v_e/v_h are untouched; the ledger carries the full pricing record.

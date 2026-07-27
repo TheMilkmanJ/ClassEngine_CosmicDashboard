@@ -2988,3 +2988,26 @@ pure number decomposes exactly as N₁ = 4π/g_scr = (8R/π)·ln(1+R), a
 Coulomb-log-weighted channel count, specifying the owning computation: the
 substructure cutoff of a scaling vortex network under screened-interaction
 damping at the medium's coupling.
+
+### The arrow sector as the basement's chemical-potential source — PRICED OUT (2026-07-28)
+
+**What it was:** a one-day candidate (hierarchy §6n, 2026-07-28) for the
+μ-dominated basement the screening constant selects: the arrow sector's
+⟨θ̇⟩ ≠ 0 — the bibliography's own "θ-dot background = the permanent μ" — read
+as the chemical potential doping the basement roster at μ/T ≳ 18.
+
+**Why it died (`scripts/arrow_mu_pricing.py`, recorded structure only):** the
+ceiling identity forces the arrow's rotation rate at the floor exactly:
+ρ_ceiling = m⁴/λ with amplitude Ψ₀ = m/√λ gives θ̇ = m = 2.24×10⁻²⁰ eV. Against
+the door's keV bath that is μ/T ~ 10⁻²³ (short of the μ-domination bar by ~24
+orders); against a Planck bath, ~49 orders. The spine's validated tracking law
+adds that no polynomial regime grows the ratio on approach faster than a⁻², and
+the quartic youth freezes it — so no approach dynamics rescue it either. No
+charge assignment closes 23–48 orders.
+
+**What survives (same computation):** the screening constant is
+doping-independent — b = m_D²/4k_F² = 2α_c/π at ANY nonzero doping with
+T ≪ μ — and a T → 0 ground-state kernel is the standard host of every gap
+equation. The mismatch lands on standard ground with one owed number: T/μ at
+gap formation. Carried at candidate grade in hierarchy §6n; task #16 holds the
+gate.
