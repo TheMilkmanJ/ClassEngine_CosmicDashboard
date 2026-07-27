@@ -2184,6 +2184,20 @@ geometry factor × the census's one external quote). Production fit: 1.232%.
 2/π (then f̄ is not a sharp constant and the closed form is moot); (iii) the mechanism
 derivation (owed) producing a different closed form.
 
+> **ANNOTATION (2026-07-28) — the check delivered, at 5× the interim's precision, and it
+> passes.** The awaited high-statistics check ran on the registered object's own machine
+> (`scripts/winding_fbar_spatial.py`): rings of the genesis field carrying windings 1–8 on
+> the recorded potential (the Z₄ tilt at ε_A = 2/9), 64 draws per winding, amplitude-gated
+> median winding readout, all draws surviving. The many-turn members (n ≥ 4) land
+> **f̄ = 0.63137 ± 0.00328 — 1.6σ from 2/π**, the winding-number systematic (0.0009) far
+> under the distance: neither kill (i) nor (ii) fires. The small-n members carry the tilt's
+> expected imprint (+1.5% at n = 1, −4.0% at n = 2), converging by n = 4 — the many-turns
+> limit behaving as claimed. Consistent with and superseding the interim 0.635 ± 0.026 as
+> the standing check. Kill (iii) — the mechanism derivation — remains the open referee,
+> with the residual central deficit (−0.8%, unresolved at this precision) noted for it.
+> An earlier same-day attempt measured a friction-damped orbit's polar angle — the wrong
+> object; its erratum is in `winding_fbar_ensemble.py` and it graded nothing.
+
 **Honest flags:** the 2/π identification currently has NO derivation (plausible-shaped:
 f̄ is exactly the kind of average that produces 2/π; the arcsine-family mechanism is owed);
 the three-factor ε stack is graded factor-by-factor (the α_c MCMC → 3α; the ensemble → 2/π;
