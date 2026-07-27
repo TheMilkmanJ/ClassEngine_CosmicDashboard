@@ -42,9 +42,15 @@
 >   corpus's own ξ = 1/6 finiteness condition. 63% of roster units unconditional; 37% on
 >   the one named commitment (edge modes = horizon entropy); its rejection is the kill.
 >   The corpus-level area-law row is now fully discharged at candidate grade.
-> * **Remaining verified-open census debts, now tracked as tasks:** the SMBH spin-mass
->   confrontation + saturation corrections (#31), the matched lensing fit (#32), the EDE
->   fairness pass (#33), the BipoSH estimator build (#34).
+> * **T2's row: CLOSED 2026-07-28 (both halves).** The saturation corrections were already
+>   paid 2026-07-20 (the quench computation: 85 decades short of shielding; bosenova paces
+>   rather than stops; the band's evolution is a free scalar's, as P-2026-034's note
+>   carries) — the census's phrasing predated it by two days. The data confrontation is
+>   assembled the same day (the T2 file's addendum): featured in the predicted direction,
+>   degenerate with chaotic accretion, above-band recovery named as the discriminating
+>   signature, NewAthena the referee.
+> * **Remaining verified-open census debts, tracked as tasks:** the matched lensing fit
+>   (#32), the EDE fairness pass (#33), the BipoSH estimator build (#34).
 
 *What each threaded owed-file still owes, after cross-checking every item against work paid
 elsewhere in the corpus. Four states: **PAID** (here or elsewhere, with the pointer),
