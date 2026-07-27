@@ -75,8 +75,10 @@ this file:
 | **net** | **2.387** | −1.36% | **−0.69σ** |
 
 **The electron-mass window's own nuclear physics helps deuterium.** The ε(T) ramp switching on at
-T_c ≈ 179 keV raises D/H by 0.645%, moving it *toward* Cooke — worth +0.31σ. Grafted onto the
-ΛCDM control alone it would give D/H = 2.435, or −1.93σ, better than the control's −2.25σ.
+T_c ≈ 179 keV (the booked value the production numbers were made at; the derived re-pin is
+177.10 keV, and the abundances are insensitive to the difference) raises D/H by 0.645%, moving it
+*toward* Cooke — worth +0.31σ. Grafted onto the ΛCDM control alone it would give D/H = 2.435, or
+−1.93σ, better than the control's −2.25σ.
 
 **That last sentence is a decomposition, not a scenario, and the distinction matters.** The window
 and the ω_b shift are both consequences of the same ε — one at nucleosynthesis, one at
@@ -174,8 +176,6 @@ symmetric in kind: the narrow end omits a systematic that is measured and real, 
 folds in a compilation spread while still quoting one compilation's central value, which needs the
 central value moved too if it is taken.
 
-
-
 ### The compilation spread is one reaction, and the disagreement is about its error bar
 
 Attributing the PRIMAT → NACRE II shift reaction by reaction, using the measured sensitivities
@@ -243,10 +243,9 @@ now the measurement of the D(d,n)³He and D(d,p)³H reactions, which have become
 source of uncertainty in the determination of the primordial deuterium abundance"* (Cavanna for the
 LUNA collaboration, EPJ Web Conf. 279, 01002 (2023)). As of mid-2026 it has not been done. If the
 rate lands on PRIMAT's band the row is −3.6σ and the model is in real trouble on deuterium; on the
-wider assessments it is −1.6 to −2.1σ and this was never a crisis. **P-2026-027's radio referee decides the observational side of the fork; this decides the
-theory side, and it is the larger of the two.**
-
----
+wider assessments it is −1.6 to −2.1σ and this was never a crisis. **P-2026-027's radio referee
+decides the observational side of the fork; this decides the theory side, and it is the larger of
+the two.**
 
 ---
 
@@ -274,9 +273,10 @@ Only the first row is interpolation. The lower two assume the degeneracy stays l
 where it was measured, which is not established — they should be read as showing the direction and
 rough scale of the trade, not as predicted landing points.
 
-**Even taking only the first row, reaching parity with ΛCDM costs 69% of the H₀ relief.** That much
-is inside the measured range and does not depend on the extrapolation. The deuterium row and the H₀ result are not two
-problems; they are one trade, and the model is currently sitting at the end of it that buys H₀.
+**Even taking only the first row, reaching parity with ΛCDM costs 69% of the H₀ relief.** That
+much is inside the measured range and does not depend on the extrapolation. The deuterium row and
+the H₀ result are not two problems; they are one trade, and the model is currently sitting at the
+end of it that buys H₀.
 
 **The m_e degeneracy audit (Q2/#20), first measurement 2026-07-21.** The free-`varying_me`
 `dyad_mnu` chain (N ≈ 8700 post burn-in) measures the ridge directly:
@@ -347,9 +347,9 @@ the network.)*
 
 **Constant dark radiation fails on shape, not size.** It raises both abundances with the same sign,
 but the two rows need opposite moves: deuterium is 2.5σ low and helium is already 1.09σ high. The
-committed ζ window (ΔN_eff ≈ 0.06–0.24) tops out just under this lever's optimum (≈0.26). Zeroing deuterium takes
-ΔN_eff = 0.42, which lands helium at +2.5 to +2.7σ against Aver and +4.9 to +5.1σ against EMPRESS —
-trading a 2.5σ deficit for a 2.5σ excess.
+committed ζ window (ΔN_eff ≈ 0.06–0.24) tops out just under this lever's optimum (≈0.26).
+Zeroing deuterium takes ΔN_eff = 0.42, which lands helium at +2.5 to +2.7σ against Aver and
++4.9 to +5.1σ against EMPRESS — trading a 2.5σ deficit for a 2.5σ excess.
 
 **Confining the boost below T_c is the model's one native orthogonal lever, and it is real.**
 The transition temperature T_c ≈ 179 keV sits between helium's n/p freeze-out (~800 keV) and
@@ -380,8 +380,8 @@ E_C ≈ m_e²/(22T); that cutoff clears ⁴He's 19.8 MeV only once T < 599 eV, i
 deuterium is bound by only 2.22 MeV it is destroyed at every earlier time, so **an electromagnetic
 injection before ~6 weeks destroys deuterium** and the deposit must land at **t > 4×10⁶ s**. A
 *hadronic* injection is not subject to that cutoff — fast nucleons spall ⁴He whatever the photon
-bath is doing — and in that channel the same interval net *produces* deuterium (§5b). The result would be **joint p = 0.135–0.43**, with helium
-the only residual.
+bath is doing — and in that channel the same interval net *produces* deuterium (§5b). The result
+would be **joint p = 0.135–0.43**, with helium the only residual.
 
 It needs a source with three properties at once: **mass ≳ 20 MeV** (so the cascade reaches the
 ⁴He threshold), **lifetime ~10⁶–10⁸ s** (so the deposit lands in the window), and an abundance
@@ -431,8 +431,8 @@ symmetry — and the distinction matters, because it is the difference between a
 and one that is merely very far away. The electron-coupled scalar's portal is the dark-neutral
 bilinear |Ψ|², a total singlet, which reaches the quark bilinear only through a loop —
 scalar → lepton loop → 2γ → quark, suppressed by **(α/π)² = 5.4×10⁻⁶**. Applied to the scalar's
-own amplitude that delivers 6.8×10⁻⁶
-percent where P-2026-006 needs 0.14–0.21% — short by a factor of **21,000 to 31,000**. A quark
+own amplitude that delivers 6.8×10⁻⁶ percent where P-2026-006 needs 0.14–0.21% — short by a
+factor of **21,000 to 31,000**. A quark
 shift anywhere near what a heal would need is independently excluded at **12–18σ** by the very row
 it would be healing.
 
@@ -444,7 +444,6 @@ This is the sharpest statement of where the row comes from. **The model's one ma
 channel is the lepton current, and deuterium's binding is nuclear.** The electron-coupled scalar
 can reach the electron and cannot reach the nucleus — a quantitative wall, by loop order and by
 data, four orders wider than the row needs.
-
 
 **⁶Li is this file's only spallation-aware constraint, and it kills the one lever that had the
 right shape.** The section below records it.
@@ -461,10 +460,9 @@ t > 4×10⁶ s), and its net effect is the literature's, not a hope: an increase
 in ⁴He (Carr, Kohri, Sendouda & Yokoyama, Rep. Prog. Phys. 84, 116902 (2021), and references
 therein). **That is the right shape on both rows at once** — the only mechanism in this
 inventory that moves deuterium up while moving helium down — and the price of entry is steep:
-the parent must
-fragment into hadrons, so it must clear ~2m_N ≈ 1.9 GeV, ninety times the photon channel's
-threshold. Every field-content candidate that failed the photon spec by being too light fails this
-one by more.
+the parent must fragment into hadrons, so it must clear ~2m_N ≈ 1.9 GeV, ninety times the
+photon channel's threshold. Every field-content candidate that failed the photon spec by being
+too light fails this one by more.
 
 **One source is exempt from the roster, and it is the only one.** Pauli finiteness (P-2026-045)
 counts *fields* — sixteen Weyl fermions per generation, every seat taken. A black hole is not a
@@ -472,8 +470,8 @@ field and adds nothing to str[k₁]. An evaporating primordial black hole theref
 inventory without touching the balance that forces three generations, and its Hawking emission is
 identity-blind — it needs no lepton charge, so the sector's leptophilic coupling structure does
 not bind it. The numbers land in the window without tuning: τ ∝ M³ puts evaporation at
-t = 4×10⁶–10⁸ s for
-**M = 1.1–3.1×10¹¹ g**, with Hawking temperatures of 34–99 GeV — comfortably above the hadronic
+t = 4×10⁶–10⁸ s for **M = 1.1–3.1×10¹¹ g**, with Hawking temperatures of 34–99 GeV —
+comfortably above the hadronic
 threshold, fragmenting into QCD jets whose nucleons do the spalling. The required abundance is an
 initial mass fraction β ~ 2×10⁻²⁸ at unit cascade efficiency.
 
@@ -494,8 +492,9 @@ locked to each other through M, so there is no corner of the window where the de
 without the lithium.
 
 **Verdict: killed by the ⁶Li co-signature** — the inventory's first entry killed neither by shape,
-size, nor symmetry, but by a receipt. The route's post-mortem is worth its line: it was the only
-candidate to clear the roster, the only one with the right shape on both rows, and it failed on a
+size, nor symmetry, but by a measured yield ratio. The route's post-mortem is worth its line: it
+was the only candidate to clear the roster, the only one with the right shape on both rows, and
+it failed on a
 number that is nuclear physics rather than model structure. *(The five-lever audit's earlier PBH
 kill addressed PBHs as an expansion-rate component — a different job; this entry prices them as an
 injector, which had never been done.)*
@@ -630,9 +629,9 @@ Ranked by how much they would change the row, cheapest first:
 **What the row is.** It is not a bug in the nuclear sector and not an unfinished fit. The
 electron-mass window *helps* deuterium. The deficit is the CMB fit's +1.1% in ω_b, forced by the
 m_e–ω_b ridge (degeneracy audit, 2026-07-21: free-slide residual consistent with zero; m_e off 1
-at ~2.7σ).
-That same ridge is the H₀ relief. **D/H and H₀ are one trade.** Standing row: **−2.94σ** on the
-two-term width (#157) — a figure that uses the tightest rate-error assessment in the literature and
+at ~2.7σ). That same ridge is the H₀ relief. **D/H and H₀ are one trade.** Standing row:
+**−2.94σ** on the two-term width (#157) — a figure that uses the tightest rate-error assessment
+in the literature and
 is not this code's own (§2b).
 
 **And what the row is *now* is a wait.** The day's nuclear work moved this from a verdict to a
