@@ -134,6 +134,11 @@ def trace_ring(psi, n_wind: int):
 
 
 def run(n_wind: int):
+    # PROGRESS/CHECKPOINT DISCIPLINE (added 2026-07-27 after the first launch was
+    # killed at 6 h 46 m under machine contention having printed nothing at all —
+    # seven hours of compute lost because every result waited on the final return.
+    # Now: every frame reports, flushed, so a kill leaves a usable partial record,
+    # and the first ring detection is announced the moment it happens.)
     psi = initial(n_wind)
     e0 = energy(psi)
     steps = int(T_MAX / DT)
@@ -142,12 +147,19 @@ def run(n_wind: int):
     for s in range(steps + 1):
         if s % per == 0 and s * DT >= 1.0:
             res = trace_ring(psi, n_wind)
+            drift_now = abs(energy(psi) - e0) / abs(e0)
+            print(f"      [n={n_wind:+d} t={s*DT:5.2f}  E-drift {100*drift_now:6.3f}%"
+                  f"  ring: {'yes' if res is not None else 'no '}]", flush=True)
             if res is not None and best is None:
                 best = (s * DT, res)
+                print(f"      [n={n_wind:+d} FIRST RING at t = {s*DT:.2f}: "
+                      f"helA {res['helA']:+.0f}, W {res['W']:+.2f}]", flush=True)
         if s == steps:
             break
         psi = step(psi, DT)
         if not np.isfinite(psi).all():
+            print(f"      [n={n_wind:+d} field went non-finite at t = {s*DT:.2f}]",
+                  flush=True)
             return None, math.inf
     drift = abs(energy(psi) - e0) / abs(e0)
     return best, drift
@@ -159,19 +171,21 @@ def main() -> None:
     print("=" * 78)
     out = {}
     for n_wind in (+1, -1):
+        print(f"\n   --- starting n = {n_wind:+d} ---", flush=True)
         best, drift = run(n_wind)
         if best is None:
             print(f"\n   n = {n_wind:+d}: NO RING DETECTED (or blowup); "
-                  f"drift = {drift:.3f}")
+                  f"drift = {drift:.3f}", flush=True)
             out[n_wind] = None
             continue
         t0, r = best
         out[n_wind] = r
         print(f"\n   n = {n_wind:+d}: ring at t = {t0:.2f}, r̄ = {r['rbar']:.1f}, "
-              f"z̄ = {r['zbar']:.1f}, bins {r['nbins']}/{NBINS}, drift {drift:.4f}")
+              f"z̄ = {r['zbar']:.1f}, bins {r['nbins']}/{NBINS}, drift {drift:.4f}",
+              flush=True)
         print(f"      (A) shape helicity: {r['helA']:+.0f} (m₁ amp {r['ampA']:.2f})")
         print(f"      (B) core-circuit winding W = {r['W']:+.2f}, "
-              f"excess = {r['excessB']:+.2f}")
+              f"excess = {r['excessB']:+.2f}", flush=True)
 
     print("\nVERDICT (the fork resolves on the pair):")
     if out.get(1) and out.get(-1):
