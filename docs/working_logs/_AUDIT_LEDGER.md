@@ -4619,3 +4619,37 @@ within 2.6% of the recorded number. Against the *identification*. §6f's horn (a
 3α(0) — absorbs both constraints without strain. **The convergence is evidence on the fork and it
 points at (b)**, which is the first thing found today that moves the fork rather than sharpening
 it. Written into §6g; nine checks added, harness 852.
+
+### 2026-07-28 — d carries two jobs and cannot do both: the α_c convergence is a three-way conflict, not evidence for horn (b)
+
+Propagating the d = 3 exclusion to wherever d is derived changed what it means. The spine
+defines d once — "the spatial dimension" — and uses it twice: **α_c = d·α**, and the dark-energy
+floor **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)α⁴T_c**, with the second stated explicitly as "the same 3 as
+in α_c = 3α". So d is a single quantity constrained from three directions, and check 23 applies.
+
+| constraint on d | value | vs the band |
+|---|---|---|
+| the ε-assembly's indirect band on α_c | [2.809, 2.933] | — |
+| the hierarchy anchor's exact landing | 2.921 | inside, 91% |
+| the observed ρ_Λ¼ = 2.25 meV | 2.993 | +2.08% above |
+| the spatial dimension | 3 | +2.30% above |
+
+**The band agrees with the anchor and disagrees with both the geometry and the observation** —
+and those last two agree with each other to 0.22%, which is exactly what the floor's recorded
++0.44% landing *is*. Moving d into the band costs the floor **−4.0% at the band's top and −11.9%
+at its bottom**.
+
+**This corrects the earlier reading.** The morning's convergence — anchor and band both wanting
+α_c below 3α(0) — was written up as evidence for §6f horn (b), a free medium constant. That
+holds only while d is free, and d is not: the floor's d²/2 is the same d, so letting α_c drift
+down to satisfy the band drags the dark-energy prediction with it. The convergence is a
+three-way conflict at the 2% level, and the choice is between the constraints rather than
+between the fork's horns. §6g rewritten accordingly.
+
+Three ways out, none decided by anything recorded: the indirect band is wrong; the floor's d²/2
+does not carry the coupling's d despite the spine saying it does; or the +0.44% landing is a
+coincidence a corrected d spoils. **The middle is cheapest to test** — it asks whether the
+geometry factor and the coupling factor were ever one quantity, which is a question about the
+derivation, not about a measurement.
+
+Seven checks added, harness 859.

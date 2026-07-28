@@ -808,10 +808,32 @@ infrared cap of 137.036. Written as α_c = d·α(0), the band permits **d ∈ [2
 anchor's landing sits at **d = 2.921**, and **d = 3 is excluded by 2.30%.**
 
 None of this touches α_c's *value*, which both constraints put near 0.0213 — within 2.6% of the
-recorded number. What it bears on is the identification, and it is evidence on the fork rather
-than a restatement of it: horn (a) needs α_c to be 3α at some scale, which the band now forbids
-outright, while horn (b) — a medium constant that merely sits near 3α(0) — absorbs both
-constraints without strain, being free to take 0.0213. **The convergence points at (b).**
+recorded number. What it bears on is the identification: horn (a) needs α_c to be 3α at some
+scale, which the band forbids outright.
+
+**But horn (b) does not absorb it either, because d is not free.** The same d appears squared in
+the dark-energy floor — ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)α⁴T_c — and the spine ties them explicitly,
+"the same 3 as in α_c = 3α". So d is one quantity constrained from three directions, and they do
+not meet:
+
+| constraint on d | value | against the band |
+|---|---|---|
+| the indirect band on α_c | **[2.809, 2.933]** | — |
+| the hierarchy anchor's exact landing | 2.921 | inside, at 91% |
+| the observed ρ_Λ¼ = 2.25 meV | **2.993** | +2.08% above |
+| the spatial dimension | **3** | +2.30% above |
+
+The band agrees with the anchor and disagrees with both the geometric d = 3 *and* the d the
+observed dark-energy density requires — and those two agree with each other to 0.22%, which is
+precisely what the floor's +0.44% landing is. Moving d into the band drags the floor down with
+it: **−4.0% at the band's top, −11.9% at its bottom**, against the +0.44% that d = 3 buys.
+
+So the choice is between the three constraints rather than between the fork's two horns. Either
+the indirect band is wrong; or the floor's d²/2 does not carry the same d as the coupling, the
+spine's identification notwithstanding; or the +0.44% landing is a coincidence a corrected d
+spoils. Nothing recorded decides it, and **the middle option is the cheapest to test** — it asks
+only whether the geometry factor and the coupling factor were ever one quantity, which is a
+question about the derivation rather than about any measurement.
 
 But horn (b) carries a double-counting hazard. α(0) is the *fully infrared-screened* coupling —
 the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening

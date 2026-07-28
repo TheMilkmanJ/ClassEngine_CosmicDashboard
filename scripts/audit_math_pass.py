@@ -1084,6 +1084,23 @@ chk("quantum trio", "d the band permits, low end", 2.8092, _BLO*137.035999084, 1
 chk("quantum trio", "d the band permits, high end", 2.9326, _BHI*137.035999084, 1e-3)
 chk("quantum trio", "d the anchor's landing corresponds to", 2.9211,
     _AC_ANCH*137.035999084, 1e-3)
+# d is not free: the same d appears squared in the dark-energy floor, rho^(1/4) = (d^2/2) a^4 T_c.
+# So the band, the anchor and the observed floor constrain ONE quantity, and they do not meet.
+_A4 = (1/137.035999084)**4
+_TC = 0.5*math.log(2)*0.51099895e6
+_rho_of = lambda d: (d*d/2)*_A4*_TC
+chk("d three-way", "rho^(1/4) at d = 3", 2.2599, _rho_of(3.0)*1e3, 1e-4, "meV")
+chk("d three-way", "its landing against the observed 2.25 meV", 0.44,
+    (_rho_of(3.0)/2.25e-3 - 1)*100, 1e-2, "%")
+_d_rho = 3.0*math.sqrt(2.25e-3/_rho_of(3.0))
+chk("d three-way", "d the observed floor requires", 2.9934, _d_rho, 1e-3)
+chk("d three-way", "it sits above the band top by", 2.08,
+    (_d_rho/(_BHI*137.035999084) - 1)*100, 1e-2, "%")
+chk("d three-way", "and it agrees with d = 3 to", 0.22, abs(_d_rho/3.0 - 1)*100, 1e-2, "%")
+chk("d three-way", "the floor at the band's top", -4.02,
+    (_rho_of(_BHI*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
+chk("d three-way", "the floor at the band's bottom", -11.93,
+    (_rho_of(_BLO*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
