@@ -405,6 +405,43 @@ silently, which is its own hazard:
    electron-like and one hole-like species rather than to the bath. Nothing recorded selects
    that pair. The corpus describes no such band structure.
 
+**The screening constant is not a count, and weighting it correctly all but names the pair.**
+Thomas–Fermi screening of a gauge field weights each carrier band by its charge squared —
+m_D² = Σ_bands (g q_b)²N₀,b, so N_screen/N₀ = Σ_b q_b² — and §6g fixes which gauge field: α_c = 3α,
+the kernel *is* electromagnetism because electromagnetism is the medium. The weights are therefore
+electric charges, the roster's charges are fractional, and quarks carry colour multiplicity on top.
+A doped node pair is worth 2·N_colour·q², which is 2 for a charged lepton, 8/3 for an up-type
+quark, 2/3 for a down-type and nothing at all for a neutrino:
+
+> N_screen = 2N₀ has exactly **two** solutions over the roster — **one charged lepton**, or **all
+> three down-type quarks**. Neutrinos are invisible to the screening and ride free; a single
+> up-type quark already overshoots at 8/3.
+
+Between the two, the second is not merely less economical. It needs three cones doped to a common
+Fermi level rather than one, and all three carry colour, so the medium would acquire a gluon Debye
+mass beside the photon's — which changes the 1/q² Goldstone exchange the derivation runs on rather
+than merely adding to it. **So the doped pair is a charged lepton**, and which of the three the
+corpus answers elsewhere: the electron is the portal, √σ_dark = m_e.
+
+This does not supply the chemical potential — nothing here says why one cone is doped and
+forty-six species are not, and the three closed routes stay closed. What it does is remove the
+freedom in the *choice*: condition (i) is no longer "two of forty-eight, unselected" but "the
+charged-lepton cone, or an arrangement that breaks the kernel."
+
+**A chiral chemical potential on one cone supplies the rest of the structure.** Doping the two
+chiralities oppositely puts an electron pocket and a hole pocket at the same Fermi level, so a
+single cone gives **two screening bands with one pairing density of states** — §6c's
+2-for-screening, 1-for-pairing asymmetry, delivered by the mechanism instead of assumed. The two
+pockets are the same cone's halves, so they share a velocity and **r = v_e/v_h = 1 is automatic**,
+and the compensation is exact rather than tuned. The residue is one question, not a structure: what
+puts μ₅ on that cone.
+
+**And it corrects the arithmetic of the failed kill.** §6c prices "the whole roster doped" as
+N = 24, the 48 Weyl read as Dirac equivalents. Charge-weighted the figure is not 24 but **16** —
+which is ΣQ² over the same roster, the two being the same quantity. That gives k = 0.73195 rather
+than 0.61846 and an anchor at 2.7×10⁻¹³ rather than 2.9×10⁻¹⁸. Both destroy it, so the kill stays
+failed and the verdict is unchanged; 16 is simply the right number for it.
+
 **Conditions 3 and 4 are one condition.** Both act on the screening constant, and they act only
 through their ratio. Carrying the band velocity and the species count together,
 

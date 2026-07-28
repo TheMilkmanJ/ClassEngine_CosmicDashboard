@@ -1812,6 +1812,29 @@ chk("#146 screening", "fence on N/v, high end", 2.1845, _fence(-math.log(2), 2.0
 chk("#146 screening", "so v at N = 2 must sit within this fraction of 1", 0.084,
     1 - 2/_fence(-math.log(2), 2.0, 6.0), 2e-2)
 
+# --- #146: the screening weight is charge-squared, which selects the doped pair -------
+# alpha_c = 3 alpha (6g): the medium's gauge field IS electromagnetism, so N_screen/N_0 is
+# sum of q^2 over doped bands, not a count. One doped Dirac cone = 2 bands x colour x q^2.
+_w = lambda q, nc: 2*nc*q*q
+chk("#146 selection", "one charged-lepton cone is worth", 2.0, _w(1.0, 1), 1e-12, "N_0")
+chk("#146 selection", "one up-type quark cone", 8/3, _w(2/3, 3), 1e-12, "N_0")
+chk("#146 selection", "one down-type quark cone", 2/3, _w(1/3, 3), 1e-12, "N_0")
+chk("#146 selection", "one neutrino cone (invisible to the screening)", 0.0, _w(0.0, 1), 1e-12)
+# Enumerate every roster combination hitting exactly 2, ignoring the free-riding neutrino.
+_combos = [(_l, _u, _d) for _l in range(4) for _u in range(4) for _d in range(4)
+           if abs(_l*_w(1.0,1) + _u*_w(2/3,3) + _d*_w(1/3,3) - 2.0) < 1e-12]
+chk("#146 selection", "charged-sector configurations giving N_screen = 2N_0", 2, len(_combos), 0)
+chk("#146 selection", "one of them is a single charged lepton", 1, _combos.count((1,0,0)), 0)
+chk("#146 selection", "the other is all three down-type quarks", 1, _combos.count((0,0,3)), 0)
+chk("#146 selection", "no solution dopes an up-type quark", 0, sum(1 for c in _combos if c[1]), 0)
+# The full roster, charge-weighted, is SumQ^2 = 16 -- not the counted 24.
+_full = 3*(_w(1.0,1) + _w(0.0,1) + _w(2/3,3) + _w(1/3,3))
+chk("#146 selection", "the whole roster doped, charge-weighted (= SumQ^2)", 16.0, _full, 1e-12)
+chk("#146 selection", "one generation's share", 16/3, _full/3, 1e-12)
+chk("#146 selection", "k at the charge-weighted roster reading", 0.73195, _kNv(16, 1), 1e-4)
+chk("#146 selection", "its anchor, against the counted reading's 2.9e-18", 2.7e-13,
+    math.exp(_dlnM(16, 1)), 2e-2, "x")
+
 # --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
 # 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.
 # The PAIRING density of states also depends on r: for congruent pockets the excitonic pair
