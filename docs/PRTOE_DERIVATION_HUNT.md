@@ -75,15 +75,14 @@ what survives it: a counting assumption the data confirms, not a count the frame
 **What the data can and cannot do here.** The ε-blind ensemble lands at c = 0.903 [0.867, 0.942],
 −0.08σ from 9/10 — a genuine independent landing, and not an adjudication: at that width 12/13 sits
 +0.53σ and the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, inside the ensemble's own
-error bar. The candidates sit close together — 9/10 and 8/9 are 0.0111 apart, and that spacing,
-not the measurement, is what governs. An ensemble whose width *equals* the spacing places the two
-one standard deviation apart, which is where they stop coinciding rather than where either is
-excluded. **A 3σ call on that binding pair needs σ_c ≤ 0.0037 — a 10× sharpening, and since an
+error bar. The required width is set by the candidate spacing rather than by the current
+measurement: 9/10 and 8/9 differ by 0.0111. An ensemble whose width equals that spacing places the
+two one standard deviation apart, which is a marginal separation and not an exclusion. **A 3σ discrimination on that pair requires σ_c ≤ 0.0037 — a 10× sharpening, and since an
 ensemble's width falls as 1/√N, about 100× the data** (`scripts/c_census_discrimination_width.py`).
-So the alternative the routing step was invoked to exclude is not excluded by measurement either,
-and will not be soon; what remains against it is that the charge criterion, run to
-its end, returns the excluded c = 1. **Owed: nothing further that analysis alone can settle** —
-the closing move is a far sharper ensemble or the α_c chain.
+The alternative the routing step was invoked to exclude is therefore not excluded by measurement
+either, and the required sample is not in hand; what remains against it is that the charge
+criterion, run to its end, returns the excluded c = 1. **Owed: nothing further that analysis alone can settle** —
+the closing move is an ensemble at σ_c ≤ 0.0037 or the α_c chain.
 
 **The velocity ladder — the interface named, and what the naming costs.** The base
 claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio
@@ -170,14 +169,14 @@ posterior separates *"α_c = 3α because one response sets both"* from *"α_c ha
 likelihood. (The chain does not even measure α_c directly — it fits log₁₀ z_on and converts through
 z_on ∝ α_c⁻² — so the value it returns is itself one inference removed.)
 
-**And most of the question is fixed by symmetry, without the constituents at all**
-(`scripts/two_channel_polarization_obstruction.py`). Gauge invariance forces Π^μν transverse. In a
-Lorentz-invariant vacuum the only available structure is (q²g^μν − q^μq^ν), so there is exactly
+**Symmetry constraint on the polarization tensor — most of the question is fixed without the
+constituents** (`scripts/two_channel_polarization_obstruction.py`). Gauge invariance forces Π^μν
+transverse. In a Lorentz-invariant vacuum the only available structure is (q²g^μν − q^μq^ν), so there is exactly
 **one** form factor and the two channels are the same function identically — the identification
-holds for free and carries no content. A medium supplies a second vector, its rest 4-velocity, and
-then gauge invariance permits **two independent form factors**. Whether "one function" survives is
-therefore a question about which symmetry the medium keeps, not about what it is made of. In
-normal degenerate matter the two channels are not merely unequal: Π_L(0, q→0) is the Debye mass
+is automatic and carries no content. A medium supplies a second vector, its rest 4-velocity, and
+then gauge invariance permits **two independent form factors**. Whether the single-form-factor
+structure survives is therefore a question about which symmetry the medium retains, not about its
+constituents. In normal degenerate matter the two channels are unequal in kind: Π_L(0, q→0) is the Debye mass
 and is finite, while Π_T(0, q→0) vanishes as q² — one channel is zero and the other is not, so no
 O(1) factor relates them. In a condensate both are finite and the unit-coefficient claim becomes
 the sharp equality **n_s/m = ∂n/∂μ** — a stiffness against a phase twist set equal to a
