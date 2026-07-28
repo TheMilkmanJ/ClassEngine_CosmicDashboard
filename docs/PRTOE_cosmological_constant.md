@@ -439,13 +439,13 @@ computation failing to sustain k ≈ 1.36 unravels the hierarchy leg.
 
 ## Where the dead ends live
 
-Four dead ends set this file's honest grade: the "residual IS the dressing" identity (downgraded
+Four dead ends set this file's grade: the "residual IS the dressing" identity (downgraded
 to *suggestive* once run at 3α, 0.846 vs 0.835); the triangle's "0.1% match" (it *selects* the free
 parameter x₀ rather than pinning it); and two attempts on the perturbations reading's O(1) — a
 pair-count of the collective modes, and a nodal-gap weighting borrowed from the He-3-A order
-parameter — both raised and retired. All are logged in
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) (the mathematical self-audit and the
-superseded-claims index) — which is why §2 states the closure as occupancy *without* leaning
+parameter — both closed. All are logged in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) — which is why §2 states the closure as
+occupancy *without* leaning
 on the identity.
 
 

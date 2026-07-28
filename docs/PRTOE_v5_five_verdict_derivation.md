@@ -279,21 +279,20 @@ plus virialized interiors ((σ_v/R)² ~ 10²H₀² over volume fraction
 core scale. Numbers (α = 2): M_eff = 2.9×10⁻¹⁹ eV → ν = 5×10⁻¹⁵;
 2×10⁻²¹ → 1.1×10⁻¹⁰; 8.8×10⁻²³ → 5.6×10⁻⁸.
 
-**Step 3 — THE MUTUAL-EXCLUSION THEOREM (and a correction).** A
+**Step 3 — THE MUTUAL-EXCLUSION THEOREM.** A
 DESI-visible drift (ν ~ 10⁻³) requires m̄₂ = 1.3×10¹⁷ GeV ⇒
 M_eff = 6.6×10⁻²⁵ eV ⇒ l_dB(200 km/s) ≈ 91 kpc — galaxies could not
 exist. **Observable drift and observable cores are mutually exclusive;
-LSS kills the deep hierarchy outright.** This SUPERSEDES the earlier
-scaling-grade claim that the deep end (x₀ ~ e⁻⁴³) was "DESI-scale" —
-that estimate did not carry the m̄₂–M_eff lock. Consequences: the
+LSS kills the deep hierarchy outright.** A scaling-grade estimate that
+does not carry the m̄₂–M_eff lock would put the deep end
+(x₀ ~ e⁻⁴³) at "DESI-scale"; the lock excludes it. Consequences: the
 two-sided x₀ window's lower (chalk) wall is replaced by a brick one
 (LSS); P-2026-003's fingerprint resolves to its "absent/below
 detection" branch — the mechanism stands, sign-locked phantom, at
 ν ≤ 10⁻⁸ in the structure-allowed range: invisible to any foreseeable
-w-measurement. **Step 4 — withdrawal:** fractional growth drag
+w-measurement. **Step 4 — the residual drag:** fractional growth drag
 ~ ν/Ω_m ≤ 10⁻⁸ — clears RSD by ~7 orders; rider (i) trivially
-satisfied. An honest self-kill of our own conditional fingerprint,
-by our own locked relation.
+satisfied.
 
 ### 2.5 The local caustic-bit operator — constructed and verified (2026-07-07)
 
@@ -366,10 +365,9 @@ no small-scale fingerprint distinguishes dCDF from FDM at mass M_eff.
 ### V4 — funded floor: MUTUAL-EXCLUSION THEOREM; fingerprint ABSENT (locked relation derived)
 Chain: 2.4 in full. ν = (4πα/3)(M₂²/(M_eff M_Pl))² — cores and
 observable drift are mutually exclusive; LSS bricks the deep end;
-ν ≤ 10⁻⁸ in the allowed range; withdrawal clears RSD by 7 orders.
+ν ≤ 10⁻⁸ in the allowed range; the residual drag clears RSD by 7 orders.
 **P-2026-003 resolves to its "absent" branch by derivation** —
-registered in ANN-2026-008. The earlier "deep end is DESI-scale"
-scaling claim is corrected on the record.
+registered in ANN-2026-008.
 
 ### V5 — the caustic bit: EXISTENCE PASSED, precision test DISCHARGED by theorem (constructed + numerically verified)
 Chain: 2.3 Step 2 (Θ universal by random-wave theory) + 2.5 in full

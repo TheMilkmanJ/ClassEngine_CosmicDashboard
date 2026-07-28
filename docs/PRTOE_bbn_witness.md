@@ -11,7 +11,7 @@ abundances are three views of the same condensation.*
 - the ramp — ε's linear turn-on with temperature: ε(T) = ε·(1 − T/T_c), with
  **T_c = 177.10 keV**, the value the Koide kernel sources through τ = ½ln2 (193 keV is the
  perturbative μ=T fixed-point cross-check). The coded pipeline and the spliced run below ran at
- the earlier 179 keV and ε = 1.24%. Both replacements are quantified by direct computation, each
+ 179 keV and ε = 1.24%. Both differences are quantified by direct computation, each
  from a wide scan through the production nuclear-reaction network rather than a pair of runs: the
  T_c move costs
  **−0.0036σ ± 0.0013** on D/H and the ε move **+0.0035σ ± 0.0004**. They carry opposite signs and
@@ -185,8 +185,8 @@ abundances are three views of the same condensation.*
  required by a factor of ~30,000, and a quark coupling anywhere near ε is independently excluded
  by deuterium itself at 12–18σ. *(Lepton number does not tighten this: |Ψ|² is phase-blind and
  L-neutral, so it screens the quark bilinear no more than the lepton one. The suppression is
- loop-order and the bound is data; a withdrawn symmetry argument for the same conclusion is
- recorded in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). The margin is four orders
+ loop-order and the bound is data; the symmetry route to the same conclusion is ruled out
+ ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). The margin is four orders
  wider than it needs to be.)* The model knows exactly what would repair its weakest sector and
  has no field that can supply it — which is why P-2026-006 is retained as a statement about a
  lever this model does not have.

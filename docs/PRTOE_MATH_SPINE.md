@@ -51,16 +51,15 @@ and the model brings no defence there, the λ-quench margin computed at its own 
 being −83.7 to −85.8 decades across α_g = 0.1–0.5, so P-2026-034 stands or falls on the spin
 measurements alone. Under the onset clock T_on = √(m·M_red/0.61) this mass sits at
 **z_on = 4.03×10⁷ (log₁₀ 7.605)**, which is the value `include/background.h` carries as the derived
-identity and which five of the six production configs set. *(An earlier confirmation recorded here
-— the free-z_on optimizer's landing at log₁₀ z = 7.5517
-read as "m = 2.29×10⁻²⁰, 2% above" — was arithmetically inverted: 7.5517 implies 1.75×10⁻²⁰, 22%
-**below**, and that mass misses all three checks above by ~28%. The grade stands on the three
-independent uses, not on that reading.)*
-The former "derived from ε via c(m) = (m/m₀)^{1/4} at c = 1" was a relic of the SUPERSEDED
-f_amp decomposition — in the standing decomposition ε = c·f̄·α_c the mass never touches the
-census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through this
-route** (the hinge keeps only its α_c conditionality via c_s = √α_c). And read backward, the
-old curve is dead by its own arithmetic: it would force c = 1.005 while the census excludes
+identity and which five of the six production configs set. *(The free-z_on optimizer lands at
+log₁₀ z = 7.5517, which implies m = 1.75×10⁻²⁰ — 22%
+**below**, a mass that misses all three checks above by ~28%. The grade stands on the three
+independent uses, not on that landing.)*
+The route "derived from ε via c(m) = (m/m₀)^{1/4} at c = 1" belongs to the
+f_amp decomposition, not this one — in the standing decomposition ε = c·f̄·α_c the mass never
+touches the census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through
+this route** (the hinge keeps only its α_c conditionality via c_s = √α_c). That curve is closed by
+its own arithmetic in any case: it would force c = 1.005 while the census excludes
 c = 1. Provenance walk].
 The dark condensate fluid branch itself is already on the derived side of the ledger at the
 structural level: exact `w = −1`, derived `H = m` onset/crossover, finite quartic floor, and the
@@ -790,7 +789,7 @@ the whole descent**; the double-ladder alignments graded per-rung (2 definitiona
 no mechanism, honestly tagged); the energy cascade still open as the dynamical half.
 
 **THE WINDOWED BBN VERDICT:**
-T_c (177.10 keV on the kernel's τ; 179 keV in the superseded reading — the conclusion is
+T_c (177.10 keV on the kernel's τ; 179 keV as the BBN pipeline codes it — the conclusion is
 insensitive to the difference) is INSIDE the BBN window → the ε(epoch) stamps re-price everything:
 **the Y_p improvement was an artifact of applying ε above T_c** — windowed, Y_p ≈ 0.24900 (+1.09σ
 COUNTER vs Aver; +3.53σ vs EMPRESS — the disagreement between the two helium determinations

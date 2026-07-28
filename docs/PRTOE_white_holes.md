@@ -27,14 +27,13 @@ violent than its surroundings, but not time-reversed relative to the same medium
 
 > a local time-reversed horizon is incompatible with the global time-oriented medium.
 
-This is the clean version of the old "the medium has no reverse gear" line. It is the same
-arrow/background premise in proof form, not a new mechanism.
+This is the arrow/background premise in proof form, not a new mechanism.
 
 ---
 
 ## 2. The only white-hole-like event the corpus is willing to count
 
-**Adopted record.** GR already contains black-hole and white-hole regions in the maximal extension of Schwarzschild geometry. The literature also contains black-to-white transition proposals [RovelliHaggard2014].
+**Adopted record.** GR already contains black-hole and white-hole regions in the maximal extension of Schwarzschild geometry. The literature also contains black-to-white transition proposals [HaggardRovelli2015].
 
 **Provisional identification, not yet a derivation.** The corpus's cyclic origin model identifies the
 bounce and reheating event at the beginning of a cycle as the only white-hole-like event that
@@ -68,7 +67,7 @@ that would turn the event around remain open.
 
 ## 3. Contact kills anti-time-oriented states
 
-This is the clean version of the "counterparty rule."
+This is the "counterparty rule" in proof form.
 
 **Derived synthesis, not a new mechanism.** Two standard facts are being combined:
 
@@ -84,8 +83,7 @@ So the model's general rule is:
 
 > anti-time-oriented states survive isolation and fail on first generic contact with a time-oriented environment.
 
-That is a useful schema, and in this file it is now meant as a proof-style synthesis of known
-mechanisms rather than as a newly invented law.
+That is a proof-style synthesis of known mechanisms, not a newly invented law.
 
 ---
 
@@ -185,7 +183,7 @@ good the white-hole analogy is. The live checklist is in
 
 ## Sources
 
-[Eardley1974], [RovelliHaggard2014], [RovelliVidotto2018], [ArkaniHamed2004] - full entries in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) section 11.
+[Eardley1974], [HaggardRovelli2015], [RovelliVidotto2018], [ArkaniHamed2004] - full entries in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) section 11.
 
 Internal support:
 

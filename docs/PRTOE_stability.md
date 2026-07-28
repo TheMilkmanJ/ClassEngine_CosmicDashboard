@@ -10,7 +10,7 @@ configuration that is actually running.*
 *It has to answer them **twice**, because the model has two sectors with completely different
 stability stories: a condensate whose health is inherited from a canonical UV completion, and a
 dark-energy floor operator whose health had to be earned on explicit certificates. The corpus also
-holds a third certificate set belonging to a **superseded** object, and citing that one — the
+holds a third certificate set belonging to a **different** object, and citing that one — the
 obvious thing to do, since it is the most detailed — would describe conditions this model does not
 have.*
 
@@ -72,7 +72,8 @@ by three checks that are stated and were done.
   i.e. the condition that lets "w(ρ)" mean anything at all. With the s ↔ X map built monotonic, both
   ∂ρ/∂X > 0 and P_X ≥ 0 hold together.
 
-**These certify the v4 dCDF's P(X) branch, and that object is superseded.** The file says so at its
+**These certify the v4 dCDF's P(X) branch, which is not this model's configuration.** The file says
+so at its
 head. The derivation remains correct and is worth keeping — a P(X) sector *would* need exactly these
 checks, and they were done properly rather than asserted by analogy. But **they are not this model's
 stability argument**, and quoting them as though they were would suggest the current configuration

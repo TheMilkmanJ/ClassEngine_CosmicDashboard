@@ -205,7 +205,7 @@ the news.*
 
 ## Where the dead ends live
 
-The superseded readings of the near-meeting graded in §5 are recorded in
+The ruled-out readings of the near-meeting graded in §5 are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"The census & roster count"**
 (with the ramp-discipline catches). The exact closure is a cost the constituent theory owes,
 not a result this file holds.

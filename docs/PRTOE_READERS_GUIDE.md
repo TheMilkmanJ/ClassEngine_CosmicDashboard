@@ -68,7 +68,7 @@ fixed here:
 | **ε** | the fractional electron-mass shift, 1.2543% — the model's one modification to known physics | everywhere |
 | **α_c** | the dCDF's condensate coupling, 3α | the amplitude, the vacuum, the hierarchy exponent |
 | **c**, **f̄** | the census fraction 9/10; the winding average 2/π | the amplitude's decomposition ε = c·f̄·α_c |
-| **τ** | T_c/m_e = **½ln2 = 0.34657** — the electron-coupled scalar's condensation temperature in electron-mass units, sourced by the Koide kernel through Parseval (T_c = 177.10 keV). *A superseded reading used 0.3503, which was the observed dark-energy density inverted and rounded* | the dark-energy chain |
+| **τ** | T_c/m_e = **½ln2 = 0.34657** — the electron-coupled scalar's condensation temperature in electron-mass units, sourced by the Koide kernel through Parseval (T_c = 177.10 keV) | the dark-energy chain |
 | **ζ** | the genesis dilution T_dark/T_γ ∈ [0.25, 0.35] — the dark sector's temperature relative to the photons at genesis; sets ΔN_eff | the high-f configuration, the BBN books, the CMB-S4 falsifier |
 | **ξ** | a *length*: the medium's coherence length. Bare ξ = 402 AU is the coherence hinge in the scale ladder; **ξ_K** = 256 Mpc is the Kibble domain size | the scale ladder, the vortex network, magnetogenesis |
 | **ξ_H** | the non-minimal curvature coupling of a scalar (the standard gravitational meaning, as in the weight 1/6 − ξ) — unrelated to the lengths above | the induced-G sector, P-2026-045 |
