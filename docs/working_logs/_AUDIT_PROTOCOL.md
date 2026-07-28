@@ -18,15 +18,19 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty-two checks
+## The twenty-five checks
 
-Run all twenty-two. Record what was found, even when nothing was.
+Run all twenty-five. Record what was found, even when nothing was.
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
 recording them: every one was found by a person reading, and none would have been caught by
-the checks that existed that morning. **Check 22 was added 2026-07-28**, from audience-facing
-prose that passed every terminology check and still read as narrative.*
+the checks that existed that morning. **Checks 22–25 were added 2026-07-28**: 22 from
+audience-facing prose that passed every terminology check and still read as narrative; 23 from
+two sectors whose numbers each passed alone and failed jointly; 23a from an absence claim that
+searched the working tree and not the history; 24 from a posterior interval read at R−1 = 93 and
+used for a year as a measurement; and 25 from a capability probe that reported a thread budget
+instead of a core count, which sent a wrong recommendation to the owner.*
 
 **1. Read it whole, line by line.** Not grep. The contradictions live between sections.
 
