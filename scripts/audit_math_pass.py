@@ -1313,6 +1313,13 @@ chk("hierarchy 6d", "exact-solution anchor 2*Lam*exp(-1/lam) (GeV)", 3152.3,
 # ---- hierarchy 6j: the portal-roster S bound ----
 chk("hierarchy 6j", "Delta_S per degenerate heavy doublet", 0.05305, 1/(6*math.pi), 1e-3)
 chk("hierarchy 6j", "max doublets from |S| < 0.14", 2.639, 0.14*6*math.pi, 1e-2)
+# The bound is tight enough that one doublet per generation fails it, which is why the portal
+# roster's uncounted electroweak content is an owed item rather than a formality.
+_dS = 1/(6*math.pi)
+chk("hierarchy 6j", "S at three doublets = 1/(2 pi)", 1/(2*math.pi), 3*_dS, 1e-12)
+chk("hierarchy 6j", "which exceeds |S| < 0.14 by", 13.7, (3*_dS/0.14 - 1)*100, 1e-2, "%")
+chk("hierarchy 6j", "S at two doublets", 0.10610, 2*_dS, 1e-4)
+chk("hierarchy 6j", "its margin under the bound", 24.2, (1 - 2*_dS/0.14)*100, 1e-2, "%")
 
 # ---- P-2026-038: the last registered entry with no harness coverage (added 2026-07-20)
 # Its "4.75 doublet-units" and "b2 = -0.167" are exact rationals off one input,

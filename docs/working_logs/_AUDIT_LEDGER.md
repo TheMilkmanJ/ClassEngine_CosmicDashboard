@@ -4894,3 +4894,23 @@ entirely-self-contained list is down from 21 sections to **17**. Harness 892.
 One method note: the first version of the residual check booked 0.0013 against a 1e-4 tolerance
 and failed, because `chk`'s tolerance is relative and 0.0013 rounds the residual too coarsely to
 survive it. Booked to 0.00134 instead of loosening the tolerance to hide the rounding.
+
+### 2026-07-28 — §6j derives a falsifiable bound on the portal roster and never applies it
+
+The section derives ΔS = 1/6π per degenerate heavy doublet against |S| ≲ 0.14, tabulates 1 and 2
+as allowed and 3 as excluded, and concludes the portal roster is limited to at most two new
+doublets. Three other files repeat the bound. **None of them, and not the census, ever counts the
+portal roster's electroweak content** — the species are described as Higgs-coupled and leptophilic
+and given no representation assignment.
+
+So a falsifiable self-constraint sits on the books with nothing to test it against, and the
+ceiling is tight enough that the most natural reading fails it: **one doublet per generation is
+three, giving S = 1/2π = 0.159 — excluded by 13.7%.** Two doublets sit at 0.106 with a 24.2%
+margin. The portal cannot carry a full generation's worth of electroweak doublets.
+
+Written into §6j as the owed item; four checks pin the arithmetic. Harness 896.
+
+**Not a defect, checked and dismissed:** the section sequence runs 6j → 6m with no 6k or 6l. That
+gap is deliberate — the ledger records both withdrawn on 2026-07-20 as pricing an
+extended-technicolor flavour problem an elementary Higgs does not have. Renumbering 6m/6n would
+cost eight-plus cross-file manual edits against a cosmetic gain, so it stays as the owner's call.

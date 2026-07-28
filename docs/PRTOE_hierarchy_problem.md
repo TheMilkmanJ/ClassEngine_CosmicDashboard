@@ -1029,6 +1029,17 @@ about where the anchor sits. That is a real constraint on the census's portal co
 falsifiable one — but it is a roster bound, not a scale bound, and it leaves §6d's band and the
 4πm_H identification untouched.
 
+**The bound has not been applied.** It is derived here and repeated in three other files, but the
+portal roster's electroweak content is nowhere counted: the species are described as Higgs-coupled
+and leptophilic and given no representation assignment. A falsifiable self-constraint therefore
+sits on the books with nothing to test it against.
+
+That gap matters because the ceiling is tight and the most natural reading fails it. **One doublet
+per generation is three**, giving S = 3/6π = 1/2π = **0.159 against |S| ≲ 0.14 — excluded by 14%**.
+Two doublets sit at 0.106, a 24% margin. So the portal cannot carry a full generation's worth of
+electroweak doublets, and whether it does is a question the census can answer and has not. Until
+it does, the anchor's portal content is constrained in principle and unconstrained in fact.
+
 
 ### 6m. Cold or hot? The screening constant discriminates, and not in §6c's favour
 
