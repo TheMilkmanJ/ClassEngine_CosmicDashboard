@@ -145,8 +145,8 @@ the NJL chain yields **f_dark/Λ_dark** and no value of f_dark/√σ at all. A s
 reason it was never the same observable: that chain computes the **dyad's** condensate, while
 F_dark is the **confining SU(2) sector's** Goldstone decay constant, and the standing roster keeps
 those apart — §6 of [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) records the sector's two
-condensates, the diquark ⟨qq⟩ and the chiral ⟨q̄q⟩, and rules that *"the dyad is neither"*. Two
-sectors, two decay constants, one label.
+condensates, the diquark ⟨qq⟩ and the chiral ⟨q̄q⟩, and rules that *the electron-coupled scalar
+is neither of them*. Two sectors, two decay constants, one label.
 
 **F_dark/√σ = 0.40–0.47 stands unopposed** as the referee target;
 the vortex-pair route is the corpus's only computation of it. What the audit removes is a rival
