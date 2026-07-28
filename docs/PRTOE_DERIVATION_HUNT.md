@@ -193,6 +193,25 @@ supplies one obstructs the other. **Still-open, and obstructed rather than uncom
 sharpened question, answerable without specifying the constituents, is whether the medium retains
 an emergent Lorentz invariance at the scale the photon coupling is read.
 
+**That question is answered by recorded material, and the answer makes piece 1 empty rather than
+open.** [PRTOE_special_relativity.md](PRTOE_special_relativity.md): *"Lorentz symmetry is exact in
+the IR limit and approximate fundamentally — the medium has a rest frame."* α_EM is read at q = 0,
+which is the IR limit. And [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6 records the
+standing basement as a **Fermi point, μ = 0** (the Volovik frame), noting that the finite-μ Fermi
+surface *"is what I introduced… It is not recorded anywhere else,"* with three routes to it walked
+and all three failing. At μ = 0 in the IR the medium supplies no rest-frame vector, gauge invariance
+leaves **one** form factor, Π_T = Π_L identically — and the unit-coefficient identity is true
+automatically, carrying no content.
+
+**So piece 1 is not a derivation waiting to be done.** It is a tautology on the recorded basement
+and false on the introduced one; either way there is nothing to derive. What the sector owes is a
+ruling on which basement stands.
+
+**And that ruling is contested from the other side.** The hierarchy chain needs finite μ — §6a shows
+a Fermi *point* cannot pair at this coupling — while α_c's response identity needs μ = 0 or it says
+nothing. One medium, and two sectors requiring opposite things of it. That conflict, not the
+polarization integral, is the live object.
+
 *Piece 2 — the roster's induced split.* The claim conditions "base = α" on the recorded ~44%
 induced fraction. **That fraction belongs to a different coupling at a different scale.** The 44% is
 *hypercharge read at M_Z* (42.9 of 98.4). What α_c = 3α names is the *electromagnetic* α at zero

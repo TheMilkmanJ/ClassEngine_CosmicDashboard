@@ -44,6 +44,41 @@ WHAT THIS COMPUTES (standard, closed-form, verified numerically here)
       them — Galilean invariance at T = 0 forces n_s = n exactly, and its
       relativistic analogue does the same job.
 
+RESOLVED THE SAME DAY, FROM RECORDED MATERIAL — the answer is "empty",
+not "open".  The sharpened question was: does the medium keep an emergent
+Lorentz invariance at the scale the photon coupling is read?  The corpus
+answers both halves.
+
+  (a) `PRTOE_special_relativity.md`: "Lorentz symmetry is exact in the IR
+      limit and APPROXIMATE fundamentally — the medium has a rest frame."
+      alpha_EM is read at q = 0, which IS the IR limit.
+
+  (b) `PRTOE_hierarchy_problem.md` section 6: "This corpus's constituent
+      level is a **Fermi point** (the Volovik frame) ... which is mu = 0.
+      ... the finite-mu Fermi surface is what I introduced to resolve
+      that.  **It is not recorded anywhere else.**  Three routes to it
+      have been walked and all three fail."
+
+  So the STANDING basement is mu = 0, and at zero density in the IR the
+  medium supplies no rest-frame vector to the polarization tensor.  Gauge
+  invariance then leaves ONE form factor, Pi_T = Pi_L identically, and
+  "one response with unit coefficient" is TRUE AUTOMATICALLY — and
+  therefore carries no content, exactly as the vacuum case above shows.
+
+  **Piece 1 is not an open derivation.  It is empty on the recorded
+  basement and false on the introduced one.**  Nothing can be derived
+  here because there is nothing left to derive: either the identity is a
+  tautology (mu = 0) or it fails (mu != 0).  What the sector actually
+  owes is a decision about which basement stands — and the corpus already
+  records that the finite-mu surface is unsupported by three failed
+  routes.
+
+  THE TENSION THIS EXPOSES, which is the real finding: the hierarchy
+  chapter needs finite mu (a Fermi POINT cannot pair at this coupling —
+  its own section 6a), while alpha_c's response-function identity needs
+  mu = 0 (or it has no content).  Those are the same medium.  One sector
+  requires a Fermi surface and another requires a Fermi point.
+
 THE POINT, AND WHY IT BEARS ON THE BASEMENT
   The unit-coefficient identification needs the symmetry that ties the
   transverse stiffness to the density response.  The basement's own band
