@@ -15,6 +15,15 @@ during the citation pass.*
 > independent ways at **2.24×10⁻²⁰ eV** — an order above this scan's band — so the numbers
 > below are the era's; the meter's *structure* (what reads ε, and at what contrast) is what
 > survives, and any use of the band's masses defers to the recorded pin.
+>
+> **The same deferral applies to the draw, and it moves the contrast the right way.** The
+> figures below evaluate the meter at the era's release ensemble, f_rot ≈ 0.4, giving
+> S ≈ 0.58 and a ~42% deficit. At the physical hierarchy the ensemble is much tighter and
+> much closer to full libration — f_rot ∈ [0.01, 0.32] across every tilt — so the standing
+> reading is **S = 0.50–0.55, a 45–50% deficit**, and the meter's floor is the parameter-free
+> S = ½. The signal is therefore 7–19% larger than the detectability arithmetic below assumes,
+> and that arithmetic should be re-read at S ≈ ½ rather than 0.58 before its
+> population-scale conclusion is quoted.
 
 ## 1. The instrument: what the granule meter measures
 
