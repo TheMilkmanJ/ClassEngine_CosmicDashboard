@@ -290,3 +290,26 @@ of a mechanism, and what the exactness rules out is every mechanism of the kind 
 equilibria, averages and balances all deliver a number with fluctuations around it. What it points
 at instead is a quantity that vanishes. **A = √2 and 2/9 are one complex number, and the amplitude
 half of it is the statement that a Z₃-graded norm is zero. Nothing in the corpus yet says why.**
+
+**What the vanishing quantity is, stated as physics rather than as a norm.** Evaluate the seat
+amplitudes at the seed phase φ = π/12, where A = √2 saturates positivity:
+
+> √m₀ = 2.366025…, **√m₁ = 0 exactly**, √m₂ = 0.633975…, Σ√m = 3
+
+So the graded norm's zero is not an abstract condition: **at the seed the lightest branch is exactly
+massless**, and A = √2 is the amplitude at which that happens. Requiring a massless branch and
+saturating the positivity wall are the same equation, so the two readings of the wall — φ capped at
+π/12 given A = √2, A capped at √2 given φ = π/12 — are one statement: *the seed sits on the
+boundary where the electron's mass vanishes.* The observed configuration is that critical point
+dressed away from it, which is what gives the electron its mass.
+
+The holonomy makes the same point in one line. At the seed, 3φ = **π/4** exactly; at the measured
+phase, 3φ = **Q = 2/3** — so the closure 3·arg f₁ = Q reads as a dressing of the critical holonomy
+π/4, moved by π/4 − 2/3 = 3·(3π−8)/36.
+
+This does not derive A = √2 — requiring a massless branch fixes A only *given* φ, and one equation
+cannot fix two numbers. What it changes is the question. "Why A = √2" is a bare number with no
+handle, and every mechanism tried against it — equilibria, averages, balances, cascade
+equipartition — has died on fluctuations. **"Why is the seed the critical configuration, at
+holonomy π/4?" is a statement about a phase boundary**, and a boundary is the kind of thing that can
+be exact without being an average.

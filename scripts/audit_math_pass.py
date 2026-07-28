@@ -1870,6 +1870,21 @@ chk("hierarchy 6", "#130: Weyl fermions in the visible roster", 48, _NW, 0)
 # counted them. Dirac equivalents are therefore 24, not 25.5, and k = 0.618.
 chk("hierarchy 6", "roster without nu_R (SM proper)", 45, 3*15, 0)
 
+# --- Koide: the seed configuration is critical (the lightest branch is massless)
+# sqrt(m_k) = 1 + A cos(phi + 2 pi k/3).  At A = sqrt2, phi = pi/12 the middle
+# branch vanishes exactly -- so the Z3-graded norm's zero IS a massless electron
+# at the seed, and the two readings of the positivity wall are one statement.
+_Ak, _PHI = math.sqrt(2.0), math.pi/12
+_sqm = sorted(1 + _Ak*math.cos(_PHI + 2*math.pi*k/3) for k in range(3))
+chk("koide seed", "lightest branch at the seed (exactly massless)", 0.0, _sqm[0], 1e-12)
+chk("koide seed", "middle branch at the seed", 0.633975, _sqm[1], 1e-5)
+chk("koide seed", "heaviest branch at the seed", 2.366025, _sqm[2], 1e-5)
+chk("koide seed", "sum sqrt(m) = 3 identically", 3.0, sum(_sqm), 1e-12)
+chk("koide seed", "seed holonomy 3*phi = pi/4", math.pi/4, 3*_PHI, 1e-12)
+chk("koide seed", "measured holonomy 3*phi = Q = 2/3", 2.0/3.0, 3*(2.0/9.0), 1e-12)
+chk("koide seed", "holonomy dressing pi/4 - 2/3 = 3(3pi-8)/36", 3*(3*math.pi-8)/36,
+    math.pi/4 - 2.0/3.0, 1e-12)
+
 # --- light: why gravity is fully induced and light is not, in one number ------
 # Gravity's bare term vanishes AT the cutoff (Pauli). Light's would vanish only
 # at its abelian Landau pole, which sits far above M_Pl -- so the medium can
