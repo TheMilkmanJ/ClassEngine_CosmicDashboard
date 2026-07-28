@@ -353,27 +353,29 @@ V_CW(φ)=−(1/16π²)m_e(φ)⁴[ln(m_e(φ)²/μ²)−3/2], whose φ² term is a
 m_φ²(0)=−(κ/2π²)m_e0⁴(L−1) (radiative SSB). Self-consistent VEV
 **v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV** (150/175/196 keV for L−1=2/5/10) — the CW minimum imposed
 together with the delivered shift κv² = ε (full 1.2543%), which fixes κm_e0² = ε(m_e0/v)² ≈ 0.108;
-robust under the 1/6-power. So the onset falls out of m_e0 + the dyad amplitude ALONE = a genuine
-reduction (the onset is no longer free). Un-swamped because field 2 carries no charge → no TeV soft mass.
+robust under the 1/6-power. So the onset falls out of m_e0 + the scalar's amplitude ALONE = a
+genuine reduction (the onset is no longer free). Un-swamped because field 2 carries no charge →
+no TeV soft mass.
 
 Finite-T (the coin-flip). Thermal mass Δm_φ²(T)=+(κm_e0²/3)T² (electron plasma, symmetry-
 restoring); symmetry restored above T_c where it cancels the tachyonic curvature. κ CANCELS →
 **T_c = m_e0·√(3(L−1)/2π²), coupling-independent, ~electron-scale.** Leading-log is UNRELIABLE
 here (μ~T_c → L−1→0 iterates unstably), so T_c is log-ambiguous ~40–450 keV, central ~70–160 keV —
-**STRADDLING the deuterium bottleneck (~70 keV).** Structural: onset AND D/H are both electron-scale
-→ "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN network (the working docket).
-Caveat — T_c is marginal. The condensation temperature is electron-scale but genuinely marginal:
-the perturbative (Coleman–Weinberg) treatment is scale-ambiguous, and a careful analysis shows T_c is not
-perturbatively well-defined — the condensation is a strong-coupling effect. Treated non-perturbatively
-(as a gap equation for a composite dyad), T_c *is* well-defined and lands at the electron scale, but its
-precise value then rests on the medium's strong binding, which the model does not yet supply from first
-principles. This is the same marginality that limits the dark-energy value (see the cosmological-constant
-document).
+**STRADDLING the deuterium bottleneck (~70 keV).** Structural: onset AND D/H are both
+electron-scale → "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN
+network (the working docket).
+Caveat — T_c is marginal. The condensation temperature is electron-scale but genuinely
+marginal: the perturbative (Coleman–Weinberg) treatment is scale-ambiguous, and a careful
+analysis shows T_c is not perturbatively well-defined — the condensation is a strong-coupling
+effect. Treated non-perturbatively (as a gap equation for a composite scalar), T_c *is*
+well-defined and lands at the electron scale, but its precise value then rests on the medium's
+strong binding, which the model does not yet supply from first principles. This is the same
+marginality that limits the dark-energy value (see the cosmological-constant document).
 
 Leptophilia (allowed ≠ generated). Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
-EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia. CAVEAT
-: the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so
-the dyad's leptophilia rests on a lepton-specific portal / the P-020 leptogenesis route, not bare
+EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia.
+CAVEAT: the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so the
+scalar's leptophilia rests on a lepton-specific portal / the P-020 leptogenesis route, not bare
 Majoron. Scripts (scratch-era, not retained): electron_cw_Tc.py, finite_T_Tc.py, leptophilia.py.
 
 ---
@@ -397,7 +399,7 @@ the small tilt that does the *timing*:
 | quantity | value at f = 3×10¹⁴ eV | note |
 |---|---|---|
 | CW-induced mass — √[(κ/2π²)m_e0⁴(L−1)] | 3.1–6.9×10⁻⁵ eV (L−1 = 2–10) | **coincides with the constraint-window mass 2.8×10⁻⁵ eV — the allowed line IS the CW locus**, an unarranged consistency |
-| restoration temperature T_c = m_e0·√(3(L−1)/2π²) | **κ-independent** (κ cancels between the vacuum and thermal terms) | the ramp's T_γ-keyed timing survives at any f; value log-ambiguous [40, 900] keV. **The BBN-stability fence, stated on the derived anchor T_c = 177.10 keV, is [70, 500] keV** — bounded below by the deuterium bottleneck (~70 keV, beneath which the ramp's stamp at the bottleneck is zero and the sector stops witnessing the transition) and above by the weak-rate window (~500 keV, above which the dyad reaches n/p freeze-out and helium moves). 177.10 keV is interior on both sides, 2.5× and 2.8×. **The fence's conclusion is insensitive to where inside it T_c sits: the whole-range swing is at most 0.32σ on D/H** (2-term width; 0.27σ on the 3-term), against a row whose code systematic alone spans ~1.1σ — the kernel's own 1.1% move costs 0.0022σ, one part in 449. The RG-resummation docket retains the re-pin; the fence no longer waits on it |
+| restoration temperature T_c = m_e0·√(3(L−1)/2π²) | **κ-independent** (κ cancels between the vacuum and thermal terms) | the ramp's T_γ-keyed timing survives at any f; value log-ambiguous [40, 900] keV. **The BBN-stability fence, stated on the derived anchor T_c = 177.10 keV, is [70, 500] keV** — bounded below by the deuterium bottleneck (~70 keV, beneath which the ramp's stamp at the bottleneck is zero and the sector stops witnessing the transition) and above by the weak-rate window (~500 keV, above which the electron-coupled scalar reaches n/p freeze-out and helium moves). 177.10 keV is interior on both sides, 2.5× and 2.8×. **The fence's conclusion is insensitive to where inside it T_c sits: the whole-range swing is at most 0.32σ on D/H** (2-term width; 0.27σ on the 3-term), against a row whose code systematic alone spans ~1.1σ — the kernel's own 1.1% move costs 0.0022σ, one part in 449. The RG-resummation docket retains the re-pin; the fence no longer waits on it |
 | roll time 1/m_φ | 2.4×10⁻¹¹ s | the ramp is dynamically unimpeded (instant vs BBN minutes) |
 | thermal fluctuation term κ⟨δφ²⟩_T at n/p freeze-out | ~5.7×10⁻²¹ | **2×10¹⁸ below ε** — the OFF-window is honest at high f |
 | thermalization channels | Γ ∝ κ², all gates clear by 10⁸–10⁹ | ε rides first order in κ (the zero mode); the two orders are the configuration's whole point |
@@ -409,29 +411,29 @@ only inside high-Weyl structure (below). The ramp, computed with the exact therm
 ε(T)/ε₀ = 1 − [T³|J_F′(m_e/T)|] / [T_c³|J_F′(m_e/T_c)|] — half amplitude at T ≈ 152 keV
 (0.86 T_c), 90% by T ≈ 113 keV (0.64 T_c), full below ~100 keV. The transition is second order
 (a quadratic thermal correction on a quartic potential), so the order-parameter birth is
-continuous — what the depth law requires, and what the BBN engine codes. The named fork inherited from the un-merger: whether
-f = v_L (one L-breaking scale — the seesaw scan re-runs at ~100 TeV, where y ≈ 1.6×10⁻⁵ is natural
-and the Majoron–ν channel is safer) or f ≠ v_L (two scales; the spec stays agnostic). This
-section is spec-grade: every number above is closed-form from (ε, f, m_e, L−1); the open items are
-λ_dyad's origin, the T_c re-pin, and the v_L fork.
+continuous — what the depth law requires, and what the BBN engine codes. The named fork
+inherited from the un-merger: whether f = v_L (one L-breaking scale — the seesaw scan re-runs at
+~100 TeV, where y ≈ 1.6×10⁻⁵ is natural and the Majoron–ν channel is safer) or f ≠ v_L (two
+scales; the spec stays agnostic). This section is spec-grade: every number above is closed-form
+from (ε, f, m_e, L−1); the open items are λ_dyad's origin, the T_c re-pin, and the v_L fork.
 
 ## THE GATE — the variable derived, the form graded (2026-07-18)
 
 Why the gate reads Weyl curvature and not density — structural, from the census's own coupling
-form. The census-legal coupling is a universal **conformal (metric) rescaling**: the dyad enters
-through Ω²(φ)·g_μν. A conformally-coupled channel responds to the metric's **conformal class
-only** — and the local, covariant measure of departure from conformal flatness is precisely the
-Weyl tensor. FRW is conformally flat (C ≡ 0): the channel is fully open in the homogeneous cosmos
-— which is exactly where the model operates (the ε-ramp, recombination, the dark ages). Inside
-formed structure C² ≠ 0 obstructs the conformal channel. **So the gate variable is C² by the
-coupling's own geometry — a conformal portal cannot key on density, and no chameleon-class
-density gate is available to it even in principle.** *(This is also why the laboratory checklist
-clears the vacuum-chamber trap: curvature penetrates chambers.)*
+form. The census-legal coupling is a universal **conformal (metric) rescaling**: the
+electron-coupled scalar enters through Ω²(φ)·g_μν. A conformally-coupled channel responds to the
+metric's **conformal class only** — and the local, covariant measure of departure from conformal
+flatness is precisely the Weyl tensor. FRW is conformally flat (C ≡ 0): the channel is fully open
+in the homogeneous cosmos — which is exactly where the model operates (the ε-ramp, recombination,
+the dark ages). Inside formed structure C² ≠ 0 obstructs the conformal channel. **So the gate
+variable is C² by the coupling's own geometry — a conformal portal cannot key on density, and no
+chameleon-class density gate is available to it even in principle.** *(This is also why the
+laboratory checklist clears the vacuum-chamber trap: curvature penetrates chambers.)*
 
 The two recorded rooms — the exponential f = exp(−C²/C_ref²) (reading B) and the power form
 1/(1 + (C/C_ref)^p) (the candle-room module, p = 4) — with **every current use robust to the
 choice**: at the ~24 orders above the edge that any terrestrial environment sits, both are zero
-for every purpose in the books. C_ref is **event-set, not tuned** (the first
+for every purpose on the record. C_ref is **event-set, not tuned** (the first
 shell-crossing/vortex — §3 above; this addendum inherits that).
 
 The obstruction functional — the form derived at class level; the two rooms reconciled. The
@@ -491,7 +493,7 @@ winding field's own ceiling (σ ≈ 0.012 from the n_s subdominance condition, a
 threshold) would demand N_cell = 10¹⁵¹⁰, which overshoots even a Planck-seeded coherence volume
 (10¹⁴⁶ cells at ξ = 398 AU) by some 1360 orders. That route is sound as the *bound* it was written
 for — σ ≪ δ_c forces ν ≫ 1 forces a step — and is not available as a valuation. In summary: the gate
-variable is derived-structural (conditional on the census coupling form); the gate form is derived at class
-level (survival/exponential-power — the power form retired); the exponent is a hard step
-unconditionally, its value reduced to the closed form n(N_cell) with ℓ_seed the single owed
-number; C_ref is an input.
+variable is derived-structural (conditional on the census coupling form); the gate form is
+derived at class level (survival/exponential-power — the power form retired); the exponent is a
+hard step unconditionally, its value reduced to the closed form n(N_cell) with ℓ_seed the single
+owed number; C_ref is an input.

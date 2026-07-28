@@ -21,7 +21,8 @@ of. Its direction is *temporal* ("before"), not spatial ("outside").
 Inflation displaces a complex field Ψ; it rolls/spirals in a tilted potential,
 acquiring rotation (charge). Runs ONCE.
  **V(Ψ) = m²|Ψ|² + λ|Ψ|⁴** (m = 2.24×10⁻²⁰ eV, λ ≈ 2×10⁻⁹¹)
- outputs: **Ψ₀** (field scale ~10¹⁷ GeV), **f_rot ≈ 0.4 / f_amp ≈ 0.6** (dice)
+ outputs: **Ψ₀** (field scale ~10¹⁷ GeV), **f_rot ≈ 0.4 / f_amp ≈ 0.6**
+ (the stochastic genesis draw)
  The mechanism is the Room-1 identity (charged rotating superfluid); exact Ψ₀ and f_amp remain
  open to the genesis calculation.
 
@@ -37,12 +38,15 @@ and it is *cheap*. (This coupling will be force-closed in Act 4.)
  window; the caustic-bit exhumation (R1) is its one live remnant.
 
 ## ACT 3 — BBN (z ~ 10⁹): the witness era
-The dyad condenses mid-window (T_c = 177.10 keV, z ≈ 7.5×10⁸ — between n/p freeze-out and
-the deuterium bottleneck), and its order parameter is a ramp, not a switch:
+The electron-coupled scalar condenses mid-window (T_c = 177.10 keV, z ≈ 7.5×10⁸ — between n/p
+freeze-out and the deuterium bottleneck), and its order parameter is a ramp, not a switch:
  **ε(T) = ε·(1 − T/T_c)** → stamps 0.60ε at the deuterium bottleneck, 0.77ε at lithium
+ *(this linear form is the one the production pipeline runs; the exact thermal kernel is
+ steeper near the transition, reaching half amplitude at ≈ 0.86 T_c rather than 0.5 T_c —
+ see the mechanism file. The epoch stamps above are computed on the coded linear ramp.)*
  The window's own nuclear physics helps deuterium (+0.645%, worth +0.27σ) and the pattern
  is windowed: Y_p +0.85%. The row it cannot fix is carried openly — **D/H = 2.387×10⁻⁵,
- −2.94σ**, with the lever census closed and no healer available to the dyad
+ −2.94σ**, with the lever census closed and no healer available to the scalar
  ([PRTOE_deuterium_row.md](PRTOE_deuterium_row.md)); helium pays +1.3 to +2.0σ.
  The deuterium row is carried honestly; the earlier vev-heal reading died with its magnitude and
  is retained only as P-2026-006's hypothetical non-Majoron lever.
@@ -57,11 +61,14 @@ order parameter |Ψ| forms; thereafter it dilutes as dark matter.
  Note (the trigger doc): the AD field is ~10⁵–10⁹× LARGER at BBN than recomb (R_eq ~ a⁻³ᐟ²),
  which is WHY any early-window effect had to ride the small normal fraction, not |Ψ| itself.
 
-## ACT 5 — Recombination (z ~ 1100): the electron-mass shift (flagship)
-The dyad — the Majoron, coupling to the current of its broken lepton number —
-shifts the charged-lepton mass; quarks carry L = 0 and sit untouched at tree
-level (a flavor-blind shift would be BBN-dead at +12–18σ through deuterium's
-binding). At recombination the electron is the whole story:
+## ACT 5 — Recombination (z ~ 1100): the electron-mass shift (the headline result)
+The electron-coupled scalar shifts the charged-lepton mass; quarks sit untouched, and what
+forces that is data rather than a symmetry — a flavour-blind shift would be excluded at
++12–18σ through deuterium's binding. *(This passage formerly identified the scalar with the
+Majoron. That merged single-scale reading is retired — it fails on the neutrino tie — which is
+why the sector carries three dark fields rather than two: the dCDF superfluid, this scalar, and
+the Majoron as a separate field.)* At
+recombination the electron is the whole story:
  **ε ≡ δm_e/m_e = c·f̄·α_c = 27α/5π = 1.2543%**
  c = 9/10 (the census count, (N−1)/N)
  f̄ = 2/π (the genesis winding's roll-up)
@@ -91,18 +98,19 @@ universe), screened to lab value inside virialized structure (Θ saturates).
  master relations:
  **G_μν = 8πG T_μν** (gravity — the only late-time coupling)
  **ε = c·f̄·α_c = 27α/5π** (the m_e amplitude)
- **S = (1 + f_rot²)/2 = p²+q² ≈ 0.6** at the median draw (granule ε-meter)
+ **S = (1 + f_rot²)/2 = p²+q² ≈ 0.6** at the median of the stochastic genesis draw
+ (granule ε-meter)
 
 ---
 
 ## The whole arc in one breath
-R=0 → genesis makes a charged superfluid (Ψ₀, f_rot) → the dyad condenses mid-BBN and
-its ramp stamps the light elements (the witness era; the deuterium row carried openly at
-−2.94σ) → the medium condenses, acquires mass, and naturalness FORCE-CLOSES its one early
-coupling (the census switches to gravity-only forever) → the gravity-only dyad shifts m_e
-by 1.2543% at recombination, easing H₀ → the shift is gated off inside structure → today:
-H₀ = 69.9 (provisional), dark matter + dark energy from one fluid, and the void-side
-m_e step (P-2026-007) as the sharpest surviving fingerprint.
+R=0 → genesis makes a charged superfluid (Ψ₀, f_rot) → the electron-coupled scalar condenses
+mid-BBN and its ramp stamps the light elements (the witness era; the deuterium row carried
+openly at −2.94σ) → the medium condenses, acquires mass, and naturalness FORCE-CLOSES its one
+early coupling (the census switches to gravity-only forever) → the gravity-only scalar shifts
+m_e by 1.2543% at recombination, easing H₀ → the shift is gated off inside structure → today:
+H₀ = 69.9 (provisional), dark matter + dark energy from one fluid, and the void-side m_e step
+(P-2026-007) as the sharpest surviving fingerprint.
 
 ## The honest accounting of what's DERIVED vs OWED
  DERIVED : R=0; the genesis mechanism; basin-entry/census-switch; the field SHRINKS;
@@ -110,8 +118,8 @@ m_e step (P-2026-007) as the sharpest surviving fingerprint.
  REGISTERED : α_c = 3α — the amplitude's one remaining input, under MCMC test.
  RECORDED : the BBN window (stamps 0.60/0.77; Y_p +0.85%) with the deuterium row carried at
  −2.94σ, lever census closed.
- OPEN : exact Ψ₀ / f_amp (the genesis calc); the granule/dice readout (sim-gated);
- the evidence run's verdict (executing).
+ OPEN : exact Ψ₀ / f_amp (the genesis calc); the readout of the granule and the
+ stochastic genesis draw (sim-gated); the evidence run's verdict (executing).
  THREATS : DESI DR2's 3.1σ evolving-DE preference (standing bet #3, the model votes
  against); the superradiance exposure at the recorded mass (P-2026-034's populated
  band); the deuterium row itself, should its budget tighten. A confirmed 5σ isotropic
