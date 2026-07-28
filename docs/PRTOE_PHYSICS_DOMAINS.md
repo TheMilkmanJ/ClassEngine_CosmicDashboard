@@ -835,7 +835,7 @@ the (dead) PTA channel carried. *Hook: a controlled lab violation of
 rotor/librator ratio freezing wounds the adiabatic-invariance core that
 the collision pricing rode on.*
 
-64. Bragg spectroscopy of condensates — receipt (R1.4's measured
+64. Bragg spectroscopy of condensates — receipt (Room 1 §4's measured
 analog). The Feynman relation S(k) = k²/2mω(k) with Bogoliubov ω(k)
 is measured (PRL 88, 120407) — the form-factor softness that
 radiatively protects κ_v has a lab-verified shape. *Hook: the κ_v
@@ -843,9 +843,9 @@ program's protection argument leans on this shape holding for the
 medium; the nonlinear derivation must reproduce it.*
 
 65. Amplitude ("dark Higgs") modes in lattice superfluids — receipt
-(R1.6's lab twin). The medium's amplitude mode — the object whose gap
+(Room 1 §6's lab twin). The medium's amplitude mode — the object whose gap
 2m sets the beat — is measured in the same minimal-SSB EFT class
-(Nature 487, 454). *Hook: R1.6's furniture depends on the minimal
+(Nature 487, 454). *Hook: Room 1 §6's furniture depends on the minimal
 V = m²|Ψ|² + λ|Ψ|⁴; lab physics that forced a different EFT class would
 weaken the isomorphism.*
 
@@ -1022,7 +1022,7 @@ receipt, is an internal theorem, or is a ruler we measure against rather than a 
 | 62 | Dark photons | standing null — none detected; the census channel stays sealed |
 | 63 | Ring-BEC analog | protocol registered — tabletop frozen-ellipticity test written, unrun; thousands not billions |
 | 64 | Bragg S(k) | lab-verified — PRL 88, 120407, the form-factor shape exists in a lab universe |
-| 65 | Amplitude mode | lab-verified — Nature 487, 454, R1.6's object measured in the same EFT class |
+| 65 | Amplitude mode | lab-verified — Nature 487, 454, Room 1 §6's object measured in the same EFT class |
 | 66 | Quantum turbulence | waiting on lab calibration — lab tangle statistics → granule Θ meter |
 | 67 | ³He contrast class | lab-established — gapped family mapped; P-2026-005 binds us to the gapless side |
 | 68 | Isocurvature | passes, consistent with the r bounds — H_inf pin consistent with r bounds; θ-veto step-converged in h-scan |

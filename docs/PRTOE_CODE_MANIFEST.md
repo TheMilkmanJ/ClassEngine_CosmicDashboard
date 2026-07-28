@@ -153,7 +153,7 @@ Reference is the `upstream` remote, `lesgourg/class_public` at **e8580832** (202
 
 | file | lines | what lives there |
 |---|---|---|
-| `source/perturbations.c` | 397 | the dyad's perturbation sector |
+| `source/perturbations.c` | 397 | the dCDF's perturbation sector |
 | `source/background.c` | 343 | `background_varconst_of_z` — the ε(z) window and its ramped edges |
 | `source/input.c` | 234 | the model's parameters and their parsing |
 | `include/background.h` | 182 | the background structure's new members |
