@@ -669,8 +669,16 @@ Simulation-grade follow-up owed before any number is quotable.
 > preserves the law through full granule churn. **At the physical
 > hierarchy the dice's f_rot ∈ [0.01, 0.32] pins C = 0.50–0.55: the
 > granule contrast is HALF free-FDM's, essentially parameter-free** —
-> granule-driven heating suppressed ~4×, which also RELAXES free-FDM
-> dwarf-heating bounds as applied to this medium (the A6 family). The
+> granule-driven heating therefore runs at 50–55% of free FDM's, a
+> suppression of ×1.8–2.0, which also RELAXES free-FDM dwarf-heating
+> bounds as applied to this medium (the A6 family). *(Erratum, same
+> day: this line first said "~4×", from a C²-class scaling. Heating is
+> a random walk in the granule potential, so its diffusion coefficient
+> goes as the density-fluctuation VARIANCE — linear in C, as this
+> room's own granule-scoping record already books it at "S ≈ 0.58 →
+> heating suppressed ~40%". The law itself was likewise already
+> verified there to <1% at 2×10⁶ cells; what today's run adds is the
+> dynamical check and the physical-hierarchy evaluation.)* The
 > "before any number is quotable" clause above is superseded for the LAW
 > and the instrument-scale number; the halo-scale sims (self-gravity,
 > the χ condensation lag) remain owed for the corrections around C ≈ ½

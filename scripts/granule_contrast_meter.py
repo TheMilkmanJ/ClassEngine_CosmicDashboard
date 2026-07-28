@@ -15,10 +15,26 @@ THE PREDICTION AT THE PHYSICAL HIERARCHY (the dice's own numbers)
   The low-h dice (2026-07-27) put f_rot ∈ [0.01, 0.32] across every
   tilt and draw at h₀ ≤ 0.3 ⟹  C ∈ [0.500, 0.551]:
       THE GRANULE DENSITY-CONTRAST IS HALF FREE-FDM'S, essentially
-      parameter-free.  Consequences: granule-driven stellar heating
-      rates (∝ C²-class) are suppressed ~4× against free FDM at the
-      same mass — the discriminator the ε-meter program wanted, now a
-      number instead of a direction.
+      parameter-free.
+
+  ERRATUM, same day (this docstring's first version said heating falls
+  "~4×", from a C²-class scaling — WRONG, and caught against the
+  corpus's own granule-scoping record).  Granule heating is a random
+  walk in the fluctuating granule potential, so the diffusion
+  coefficient goes as the density-fluctuation VARIANCE, D ∝ ⟨δρ²⟩ =
+  C·⟨ρ⟩² — LINEAR in C at fixed mean density and granule size (the
+  standard FDM-heating scaling; the scoping file's own booked reading,
+  "S ≈ 0.58 → heating suppressed ~40%", is linear and confirms it).
+  The correct consequence: at C = 0.50–0.55 granule heating runs at
+  50–55% of free FDM's, a suppression of ×1.8–2.0 — roughly halved,
+  not quartered.  Still the discriminator the ε-meter program wanted,
+  and now a parameter-free number rather than a direction.
+
+  NOTE ON PRIORITY: the law itself is NOT new here — the granule
+  scoping record already verified C = (1+f_rot²)/2 to <1% at 2×10⁶
+  cells.  What this run adds is the DYNAMICAL check (the law survives
+  free evolution through full granule churn, not just static draws)
+  and the law's evaluation at the physical hierarchy's dice.
 
 WHAT THIS RUN VALIDATES (the sim the room booked, at instrument scale)
   (1) STATICS: random two-component draws at a grid of f_rot reproduce

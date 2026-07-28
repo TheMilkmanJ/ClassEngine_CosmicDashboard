@@ -126,8 +126,12 @@ wears a debt tag. No prose without physics behind it. Updated continuously.*
 > uses η = n × transmission, which makes the transmission target scale *inversely* with n: the booked
 > 𝒯 = 2–6×10⁻¹¹ holds at n ~ 10–30, but at the floor's n ≈ 1.65 the same η demands 1.2×10⁻¹⁰ to
 > 1.1×10⁻⁹, a factor 6.1–18.2. The row's "factor 122, AT the pre-committed 10² acceptance boundary"
-> is therefore quoted at the most favourable end of an unpinned range; at the floor it widens by the
-> same factor and lands well past that boundary. The comb's location ℓ₁ ≈ 3.1n moves with n too — at
+> was therefore quoted at the most favourable end of an unpinned range. *(That boundary reading has
+> since been withdrawn on separate grounds — 2026-07-27: the symmetric junction transfers nothing
+> adiabatically, and the ratio it rested on was an artifact of the integration window's edge, so the
+> transmission now rides the junction's own symmetry breaking. The n-dependence recorded here is
+> unaffected and still governs whatever transmission the mechanism delivers.)* The comb's location
+> ℓ₁ ≈ 3.1n moves with n too — at
 > the floor the feature sits near ℓ ≈ 5 rather than ℓ ≈ 31–93, which is a different observable, not a
 > shifted one. Pinning L is therefore not bookkeeping: it is a prerequisite for reading the
 > baryogenesis verdict and for knowing which multipole the comb claim is even about.

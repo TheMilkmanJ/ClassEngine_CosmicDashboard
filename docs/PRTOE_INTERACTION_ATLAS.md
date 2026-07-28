@@ -15,7 +15,7 @@ Every qualifier in an entry body binds its summary.
 **THE PINNING RULE (adopted as binding):** every
 prediction this program has produced from an UN-PINNED function has
 died when the function was pinned — 3 for 3 (the V4 drift fingerprint
-from the un-locked scaling; the deep-end DESI claim; the κ_v void
+from the unpinned scaling; the deep-end DESI claim; the κ_v void
 branch). Standing law: no prediction born of a function is advertised,
 registered, or shared with a reviewer until the function is pinned to
 a single definition with values by substitution. Un-pinned functions
@@ -30,7 +30,7 @@ environment half, one interaction and one signature at a time.
 
 ## Identities (exact, zero parameters)
 - **ρ(basin entry) = 2·M₂⁴** — the condensate scale IS the basin-entry
- density. (2026-07-06, found en route to the local-coupling door.)
+ density. (2026-07-06, found en route to the local-coupling question.)
 - **ν·x₀ = 6ρ_dust,0/(M_eff²M_Pl²)** — funded-floor amplitude × hierarchy
  = a product of measured quantities only. (Died with its parent source;
  the identity's method survives.)
@@ -43,9 +43,9 @@ environment half, one interaction and one signature at a time.
  dynamics AND from phonon thermodynamics — two roads, one number.
 
 ## Coherences (one parameter, many observables — the bet's evidence class)
-- **The dyad**: one rules amendment (m_e) → H₀ ≈ 69.9 from the CMB fit
- (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval, S₈ at
- the KiDS-Legacy consensus. The H₀ figure is provisional — the live evidence
+- **The electron-coupled scalar**: one modification to known physics (m_e) → H₀ ≈ 69.9
+ from the CMB fit (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval,
+ S₈ at the KiDS-Legacy consensus. The H₀ figure is provisional — the live evidence
  run is re-measuring it.
 - **The deuterium row-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
@@ -57,10 +57,11 @@ environment half, one interaction and one signature at a time.
  is the meV whisper (Σm_ν ≈ 61.4 meV, normal ordering). Posterior now
  tests the whisper.
 
-## Architecture correspondences (analogy-grade, per the §13 relabeling —
-## true-and-structural, not theorems; demoted here 2026-07-07)
+## Architecture correspondences
+*Analogy-grade, per the §13 relabeling — true-and-structural, not theorems; demoted here
+2026-07-07.*
 - **The three laws**: one coupling channel (gauge structure); adiabatic
- background (unitarity); rules amendable, balances not.
+ background (unitarity); rules amendable, conserved quantities not.
 
 ## Calibration (known answers the interaction language must and does reproduce)
 - **Total energy (closed universe) ≡ 0** — the Hamiltonian constraint,
@@ -70,12 +71,12 @@ environment half, one interaction and one signature at a time.
  numbers, textbook QM restated (moved from Identities, same ruling).
 - **Hydrogen from scratch**: binding as variational equilibrium
  (localization energy vs Coulomb energy) → Bohr radius to 2.6×10⁻⁶,
- E_1s = −13.6057 eV to 1.2×10⁻⁹. The dyad's m_e amendment rescales it
- by the exact arithmetic CLASS integrates. (2026-07-06 battery.)
+ E_1s = −13.6057 eV to 1.2×10⁻⁹. The electron-coupled scalar's m_e shift
+ rescales it by the exact arithmetic CLASS integrates. (2026-07-06 battery.)
 - **The laser linewidth**: photon condensate + one quantum of phase per
- unsolicited interaction → Schawlow–Townes exactly (ratio 1.000 vs
+ spontaneous-emission event → Schawlow–Townes exactly (ratio 1.000 vs
  textbook; ~1 mHz HeNe benchmark). The quantum noise floor of every
- laser is the unsolicited-interaction signature stream.
+ laser is the spontaneous-emission signature stream.
 - **The charged vortex theorem (superconductivity)**: gauging the
  shift-charge U(1) with q = 2e turns the O1 vortex quantization into
  flux quantization h/2e — matches CODATA to 2×10⁻¹⁰. And the Josephson
@@ -84,7 +85,7 @@ environment half, one interaction and one signature at a time.
  implemented on a chip, at the precision that defines the volt.
 - **Horizon thermometers (C1 bridge)**: T = a/2π at three scales —
  Unruh at g: 3.98×10⁻²⁰ K; Hawking at M☉: 6.169×10⁻⁸ K;
- Gibbons–Hawking at H₀: 2.75×10⁻³⁰ K. X1 recheck at the dyad's H₀:
+ Gibbons–Hawking at H₀: 2.75×10⁻³⁰ K. X1 recheck at the electron-coupled scalar's H₀:
  ρ(T_GH⁴) misses the floor by 10¹²⁴ — the thermal ontology stays dead.
 - **The Chandrasekhar limit**: relativistic localization energy
  vs gravitational energy → critical mass 0.93 M☉ dimensionally (full
@@ -124,7 +125,7 @@ environment half, one interaction and one signature at a time.
  DEMON'S DEFEAT — Maxwell's demon fails by information cost, not physics:
  it must record to act, memory is finite, and erasure costs exactly
  the entropy it "beat" (Bennett 1982) — its gain was an unrecorded
- operation; recording it cancels the gain. ENTROPY = RECORD COUNT — S = kB·lnΩ is
+ operation; recording it cancels the gain. ENTROPY = RECORD COUNT — S = k_B·lnΩ is
  the record size, and the second law becomes: RECORDING IS CHEAPER THAN
  ERASING (the arrow's rate law, completing C1c). THE MAXIMUM STORE
  — a solar-mass black hole stores 1.5×10⁷⁷ bits on its
@@ -141,7 +142,7 @@ environment half, one interaction and one signature at a time.
  the fee entirely; mandatory architecture of quantum computers); and
  the cosmic case is the information-paradox resolution (Page-curve
  results ~2019–22): even evaporating black holes RETURN their
- records, scrambled but complete. The bank archives illegibly;
+ records, scrambled but complete. The universe archives illegibly;
  it never shreds.
 - **The quantum-computing cluster (2026-07-07 night — the decoherence
  law as engineering)**: a QUBIT is a deliberately unposted draft
@@ -152,7 +153,7 @@ environment half, one interaction and one signature at a time.
  phase accrual so wrong-answer branches cancel — Shor/Grover as
  interest-rate bookkeeping); MEASUREMENT is the single final posting
  (algorithm design = Born-rule engineering); ERROR CORRECTION is the
- crown — syndrome measurements are engineered check-in-free
+ crown — syndrome measurements are engineered quantum-non-demolition
  interactions (C4h/QND class): they post records about the ERRORS
  while leaving the data's draft unposted. Receipt: Google Willow
  (Nature, Dec 2024, cite-verified) — logical errors suppressed
@@ -175,7 +176,7 @@ environment half, one interaction and one signature at a time.
  entry left no relic, E3.1). Degeneracy scorecard: a halo of the
  medium scores n·λ³ ~ 10⁹³ against the 2.6 threshold — the most
  quantum-degenerate object in existence.
-- **The debt reading of gauge fields (C1a)**: Gauss's law = the field
+- **The record reading of gauge fields (C1a)**: Gauss's law = the field
  is the record of the source, not the flux (evidence: charge
  conservation, e⁻ lifetime > 6.6×10²⁸ yr); Aharonov–Bohm = the
  potential is physically real in flux-free regions — the source is present
@@ -184,12 +185,12 @@ environment half, one interaction and one signature at a time.
 
 ## Open list (environment terms named; signatures derived where stamped)
 - **Tunneling as environment thermometer — DERIVED, comes out faint
- (2026-07-06)**: linear local-state door (1% at 1600 GeV/cm³) →
+ (2026-07-06)**: linear local-state coupling (1% at 1600 GeV/cm³) →
  lab δm_e = 2.5×10⁻⁶; SN host contrast → ⁵⁶Co clock shifts 3.7×10⁻⁵
  (~4 min on the 77-d tail), **~1500× below the SN mass step**; zero
  terrestrial annual modulation predicted (consistent with modern
  stability nulls). Demoted: discriminator → consistency check. Decay
- data can neither see nor close the half-open door.
+ data can neither see nor close the half-open local-state coupling.
 - **Binding-sector coefficients — LITERATURE GRADE (2026-07-06)**: DSW
  PRD 76, 063513 pulled from source; δB_D/B_D ∈ [−1.57%, −0.85%] heals
  the deuterium row; the clean lever is δm̂/m̂ = +0.14–0.21% at BBN
@@ -198,8 +199,8 @@ environment half, one interaction and one signature at a time.
  Remaining: the medium-native coupling construction (§2 wall).
 - **Force-by-force environment terms**: EM booked (m_e, α levers);
  the strong-sector lever is now NAMED with its price (m̂, above);
- **the weak sector (G_F) is STRUCTURALLY VOID — closed by the census,
- not owed.** Three routes, all shut. (i) A direct medium→W/Z coupling
+ **the weak sector (G_F) is STRUCTURALLY VOID — closed by the coupling census
+ (the derived gravity-only count), not owed.** Three routes, all shut. (i) A direct medium→W/Z coupling
  needs one entity bridging the dark charge to the chiral electroweak
  sector, which the medium has not (L1's birefringence rider). (ii) The
  census-legal channel is a universal conformal rescaling Ω²(φ)·g_μν,
@@ -235,7 +236,7 @@ environment half, one interaction and one signature at a time.
 ## The Graveyard
 *Every executed negative, with its kill and — where legitimate — its
 resurrection condition. Precedent: three entries have come back in
-changed form (funded floor via the (δK)² face; the m_e door via the
+changed form (funded floor via the (δK)² face; the m_e coupling via the
 local-state loophole; the universal-vev kill via epoch gating).*
 
 **Binding rules (adopted verbatim):**
@@ -255,7 +256,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
 - **Cold (7)** — no live route in the minimal model: the β sound-speed family;
  the c_EM exchange coupling; the flavor-structured shared coupling; varying G /
  ν self-interactions / dark-sector PTA / PBH expansion (one bullet, four levers);
- the funded-floor drift fingerprint (final inside the minimal room — its door is a
+ the funded-floor drift fingerprint (final inside the minimal model — the way back is a
  model extension, not a repair); the thermal / Casimir / zero-point floor
  ontologies; the v1–v3 F(φ)R screening program.
 - **Warm (4)** — a named development could meet the condition: the local-state
@@ -282,7 +283,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  (2026-07-06) via the (δK)² fluctuation face, structure-gated. The
  graveyard's founding precedent.
 - **Epoch m_e couplings (linear / log / bespoke saturation)** — killed
- by BBN pincer / quasar 11,000× / no natural scale. SPLIT per Rule 1
+ by BBN pincer / quasar 11,000× / no natural scale. SPLIT per Rule 1:
  the *epoch* half is a passed test (coupling active only
  z>1000 while killers live z<3 — specific both ways). The *local-state*
  half's condition is now named to escape blank-check status: MET by a
@@ -305,7 +306,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  inverts where the shift lives: m_e is BARE at recombination/BBN
  (no structure exists) and suppressed −1% inside shell-crossed
  regions, where every lab sits: m_e(rec)/m_e(lab) = 1.0101 = the
- dyad's amendment, from the other side. Derived here: the
+ electron-coupled scalar's shift, from the other side. Derived here: the
  continuous version dies by quasar differentials (10⁴ over); binarity
  is FORCED. The binary version passes: clocks (virial-static), Oklo,
  stars (co-suppressed), all same-absorber 21cm/molecular nulls
@@ -350,7 +351,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  arithmetic.
 - **v1–v3 F(φ)R screening program** — four independent kills.
  *Resurrects if:* never as H₀ mechanism; the coupling zoo it explored
- feeds the door taxonomy.
+ feeds the coupling taxonomy.
 - **Model-SOURCED cosmic birefringence (the six-angle source hunt)** —
  killed 2026-07-08. IMPORTANT SCOPE: this buries the search for a way to
  make the medium *produce* birefringence; it does NOT touch **P-2026-009**
@@ -359,7 +360,7 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  source-routes (multiverse/external, early open-coupling regime, the
  regime-change tail, the radiation era, residual-coupling rotation, and
  real-time generation at last scattering) all closed on the SAME TWO
- locks: (i) any source must be *alive at last scattering* z~1100 → needs
+ conditions: (i) any source must be *alive at last scattering* z~1100 → needs
  the condensation redshift z_x near matter-radiation equality, but the
  model gives z_x~1×10⁵ where the residual normal fraction is ~1×10⁻⁸
  (scripts/birefringence_window.py, ANN-2026-017). CLEANEST STATEMENT
@@ -379,15 +380,15 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  **FAILED-forever by** the genesis calc confirming z_x~1×10⁵ (the current value) OR the
  angular mode remaining census-forbidden under the scope ruling. Warm,
  on those terms.
- **KEYSTONE (adaptation refinement):** lock (i) is
+ **KEYSTONE (adaptation refinement):** condition (i) is
  ESCAPABLE — a regime change framed as an *adaptation/feedback to the
  forming polarization* (not a timed switch) auto-times itself to last
  scattering, defeating scrambling and the z_x tail at once. But "adapting
  to POLARIZATION" is, by definition, the medium reading the *handedness*
- of light and responding — i.e. the parity-odd EM coupling of lock (ii).
+ of light and responding — i.e. the parity-odd EM coupling of condition (ii).
  So every timing fix collapses onto (ii): the **census (the derived gravity-only count) is the SOLE
  true keystone**, and the deepest reopener is the parity-coupling
- ruling, not z_x (which is only the soft/escapable lock). If #5 stays
+ ruling, not z_x (which is only the soft, escapable one). If #5 stays
  gravity-only, birefringence is forbidden regardless of timing cleverness.
  **Sub-refinement (the handoff leak):** a
  transient residual coupling DOES exist mid-handoff (the un-condensed f_n
@@ -398,16 +399,16 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  transition relaxes (→ the parity-even f_n leak); the PARITY-odd ban is
  STRUCTURAL — the medium's U(1) is dark-number and EM-neutral, carries no
  EM anomaly EVER, so the parity coupling was never in the field content to
- leak. The medium can grab the wrong person (flavor); it has no organ to
- grab a handedness (parity). The keystone isn't a locked door, it's the
- ABSENCE of the door — which is why no transition-cleverness reaches it.
+ leak. The medium can grab the wrong particle (flavor); it has no means to
+ grab a handedness (parity). The keystone is not a closed channel, it is the
+ ABSENCE of the channel — which is why no cleverness about the transition reaches it.
  **CAPSTONE (the space-radiation-radiation-space route):**
- the m_e cheat code (space-mass-mass-space, §92) is census-legal precisely
+ the m_e workaround (space-mass-mass-space, §92) is census-legal precisely
  because it scrambles through the METRIC — but the metric is parity-EVEN and
  handedness-blind, so anything routed through it exits parity-even. So
  space-radiation-radiation-space yields gravitational redshift / lensing /
- ISW of the CMB (all already in the model), NEVER a rotation. The cheat
- code reaches whatever LIVES IN THE METRIC: mass scales bank there (why
+ ISW of the CMB (all already in the model), NEVER a rotation. The
+ workaround reaches whatever LIVES IN THE METRIC: mass scales live there (why
  space-mass works); photon handedness does NOT (it is an internal EM
  property gravity cannot see), so nothing to scramble. Even the parity-odd
  gravitational coupling θ·R R̃ (Chern-Simons gravity) rotates GRAVITATIONAL
@@ -415,12 +416,12 @@ countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
  off-metric, the EM anomaly, census-forbidden. DEEPEST FORM OF THE KEYSTONE:
  census = gravity-only = metric-only = parity-even-only; birefringence is an
  off-metric parity-odd effect, constitutionally unreachable by any
- metric-mediated cheat. Author parked the search 2026-07-08 (this the
+ metric-mediated workaround. Author parked the search 2026-07-08 (this was the
  "very last idea" — seven angles now, all converged on the one structural
  fact: the medium touches only the metric, and handedness is not in it).
- **FINAL / 8th angle (the imperfect-handoff premise):** the premise is sound (the universe is imperfect — the model's
- own deuterium row is exactly such a fumble). But imperfection CANNOT
- manufacture parity violation: a symmetry is not broken by sloppiness. A
+ **FINAL / 8th angle (the imperfect-handoff premise):** the premise is sound (the
+ universe is imperfect — the model's own deuterium row is exactly such a fumble). But
+ imperfection CANNOT manufacture parity violation: a symmetry is not broken by sloppiness. A
  fumbled parity-even coupling is still parity-even; its imperfections are
  symmetric NOISE (equally likely either handedness) that averages to ZERO
  net rotation and is incoherent (patchy), not the observed coherent
@@ -456,7 +457,7 @@ is its only coupling). Give it curvature and the product is determined:*
 
 | input (geometry offered) | product | threshold / rate |
 |---|---|---|
-| uniform expansion (Hubble flow) | NOTHING — no shedding, no records; occupation conserved, denomination redshifts | Galilean protection: a uniform flow is a boost, and a boost sheds nothing |
+| uniform expansion (Hubble flow) | NOTHING — no shedding, no records; occupation conserved, energy per quantum redshifts | Galilean protection: a uniform flow is a boost, and a boost sheds nothing |
 | convergent flow, region R ≫ l_dB | granule field: exponential speckle, Θ-plateau vortex tangle | complete in t_shed ~ ħ/(M_eff v²) |
 | convergent flow, region R ≲ l_dB | one soliton (single coherence patch) | the regime boundary R ~ l_dB |
 | nonlinear structure's ⟨(δK)²⟩ | floor contribution ν = (4πα/3)(m̄₂/M_Pl)² | invisible (≤10⁻⁸; mutual-exclusion) |
@@ -475,7 +476,7 @@ is its only coupling). Give it curvature and the product is determined:*
  PRX 8, 021021 (2018) — supersonic ring expansion with measured
  Hubble-friction redshift of excitations; Jacobson AGAIN — the same
  author whose 1995 result healed the gravitational-energy strain).
- The dyad's claim maps directly: prepare a two-frequency condensate
+ The model's claim maps directly: prepare a two-frequency condensate
  (partial rotor: net circulation + amplitude oscillation), expand the
  trap, measure whether the rotor/librator ratio survives expansion.
  Our theorem says the ratio is an adiabatic invariant of the
@@ -581,7 +582,7 @@ is its only coupling). Give it curvature and the product is determined:*
  direction — which is axion-shaped: the only axion-shaped hole in
  the architecture, and strong CP's missing speaker. ROOM 2 — the
  origin pair: m̄₂ and Ω_ini (the medium's abundance is a SHOOTING
- PARAMETER — an opening balance with no deposit slip: the medium's
+ PARAMETER — an initial value with no derivation behind it: the medium's
  own baryogenesis problem). M₂ is sourced above at 9.43 eV = α²·T_c,
  and the meV relation is derived and registered. ROOM 3 — the
  completion's form factor (the one property κ_v and R1 both queue
@@ -605,15 +606,15 @@ is its only coupling). Give it curvature and the product is determined:*
  quasiparticle mass by m̄₂ = M₂²/M_eff. The complex completion charges
  for the same erasure from the other side: the phase sector hid X₀,
  the amplitude sector prices it at μ₀ = m. Derivation: v5 five-verdict
- §2.1. The erasure is complete in the ledger sense as well — no
+ §2.1. The erasure is complete in the record-keeping sense as well — no
  observable in the corpus carries a value for X₀ at all.
 
 - **White holes — inadmissible, four
- kills:** (1) no formation history — formation forbidden; a state
- opening with a full balance and a pre-written payout schedule;
+ kills:** (1) no formation history — formation forbidden; a state that
+ begins fully stocked, with a pre-written emission schedule;
  (2) an un-posting machine — horizon area (entropy) run backwards:
  the demon's big brother, executed by the second law/Landauer/C4a;
- (3) blue-sheet foreclosure — gravity's deposits are COMPULSORY, and
+ (3) blue-sheet foreclosure — gravity's infall is COMPULSORY, and
  a source that only emits is collapsed into a black hole by its
  first infalling photon within ~one light-crossing (~10 μs stellar);
  (4) model-specific: the medium's global rotation (θ̇ = +μ) breaks
@@ -629,8 +630,8 @@ is its only coupling). Give it curvature and the product is determined:*
  paper geometry (they pinch off faster than light crosses; collapsed
  stars don't build the far side). TRAVERSABLE throats (Morris–Thorne)
  require NEC violation — sustained negative energy — i.e. a
- PERMANENT OVERDRAFT. The bank's one negative-energy counter
- (Casimir, booked calibration) lends only in whispers and under the
+ PERMANENTLY MAINTAINED DEFICIT. The one negative-energy source physics
+ offers (Casimir, booked calibration) supplies only whispers, and under the
  QUANTUM INTEREST CONJECTURE (Ford & Roman, PRD 60, 104018 (1999),
  cite-verified — physics' own banking language: every negative pulse
  repaid fast, with overcompensating interest growing with the
@@ -638,13 +639,13 @@ is its only coupling). Give it curvature and the product is determined:*
  planetary masses held open indefinitely: the request is denied on
  theorem-grade grounds. Our medium cannot supply it: NEC-
  saturating at the floor (w ≥ −1 in the basin; the funded floor's
- 1×10⁻⁸ effective phantom is a cosmic average, not throat collateral).
- And the back door is welded: a financed wormhole converts to a time
+ 1×10⁻⁸ effective phantom is a cosmic average, not a local supply at a throat).
+ And the remaining exit is welded shut: a supplied wormhole converts to a time
  machine (Morris–Thorne–Yurtsever), which the khronon's global clock
  forbids structurally (C1e) — the "no way to invert time"
- call closes both exits. VERDICT: white hole = illegal books;
- wormhole = legal books, uncreditworthy; time machine = forbidden
- regardless of financing.
+ call closes both exits. VERDICT: white hole = internally inconsistent;
+ wormhole = internally consistent but unsupplyable; time machine = forbidden
+ regardless of what supplies it.
 
 - **The information-scrambling cluster — what is provenance erasure, cosmically?** It = erasing
  PROVENANCE at conserved VALUE. Verdict: the universe permits
@@ -664,7 +665,7 @@ is its only coupling). Give it curvature and the product is determined:*
  the limit (Sekino–Susskind fast-scrambler conjecture,
  cite-verified). And the biggest information scrambling job in history: the
  INITIAL CONDITIONS — whatever mechanism blanked the opening state
- (inflation-class) scrambled the universe's prior books to
+ (inflation-class) scrambled the universe's prior state to
  near-pristine flatness; C1c's past-hypothesis wall is the question
  "what scrambled the first record, and what did it cost."
 
@@ -688,9 +689,9 @@ is its only coupling). Give it curvature and the product is determined:*
  searches are the proper tools and bound any container beyond the
  observable volume.
 
-- **THE COUPLING CENSUS CLOSED (2026-07-07): the B-L portal,
- the identity's last legal door, priced.** A current-current coupling
- J_dark·J_(B-L) is the one channel a charged condensate could
+- **THE COUPLING CENSUS CLOSED (2026-07-07): the B−L portal,
+ the last channel left legally open, priced.** A current-current coupling
+ J_dark·J_(B−L) is the one channel a charged condensate could
  lawfully open to the SM. Pricing: EP tests (gradient channel) cap it
  only weakly (n_dark gradients are feeble for ultralight DM) — but
  the UNIFORM neutron potential V = (g/M*²)·n_dark grows as a⁻³ into
@@ -703,67 +704,67 @@ is its only coupling). Give it curvature and the product is determined:*
  third appearance.) THE CENSUS IS COMPLETE: gravity is the medium's
  only coupling not merely in practice but after exhaustive checking of
  every legal alternative — EM/strong/weak (structural), Higgs portal
- (radiatively dead in the minimal room), density portals (drift
- wall), B-L current portal (BBN wall). The identity's isolation is
+ (radiatively dead in the minimal model), density portals (drift
+ wall), B−L current portal (BBN wall). The identity's isolation is
  now a theorem-grade census result.
 
 - **The one direction:** spatially NO
- (isotropy to 1×10⁻⁵; the medium's rotation is field-space, compass-
- blind); temporally YES AND LITERAL — the khronon's tick is a
+ (isotropy to 1×10⁻⁵; the medium's rotation is field-space,
+ compass-blind); temporally YES AND LITERAL — the khronon's tick is a
  universal temporal current and the Hubble flow is matter comoving
  with its foliation ("sliding with the superfluid down the current
- of time" = the comoving frame, in house language). RECEIPT: the CMB
+ of time" is the comoving frame). RECEIPT: the CMB
  dipole (370 km/s) is our measured speedometer AGAINST the medium's
  rest frame — everything slides with the current to 99.9%; peculiar
  velocity is the crosscurrent swim.
 
-## Strains (where the translation is PARTIAL — the streak's honest deuterium rows)
+## Strains (where the translation is PARTIAL — the honest exceptions)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
  domains, found by hunting for a break):** the framework's core axiom —
  charges have gauge fields, fields have locations — meets a THEOREM of
  general relativity: gravitational field energy has NO local density
  (the equivalence principle erases it pointwise — free-fall and it's
  gone; only coordinate-dependent pseudotensors exist). Yet the GLOBAL
- books are exact: ADM/Bondi totals are well-defined, and the
+ accounting is exact: ADM/Bondi totals are well-defined, and the
  Hulse–Taylor binary loses orbital energy at 0.9983 ± 0.0016 of GR's
  predicted radiative rate (Weisberg & Huang, ApJ 829, 55 (2016),
  cite-verified — 35 years of timing on PSR B1913+16) — energy whose
- transport is measured to 0.16% and whose location is UNDEFINABLE. The translation survives only by
- adding an axiom: **global conservation keeps
- totals, not line-items — no branch addresses.** Scored honestly:
- a STRAIN, not a break — physics carries the identical strain (a
- century of pseudotensor awkwardness), and C1b's self-collateralization
+ transport is measured to 0.16% and whose location is UNDEFINABLE. The
+ translation survives only by adding an axiom: **global conservation keeps
+ totals, not line-items — there is no local address for the energy.** Scored
+ honestly: a STRAIN, not a break — physics carries the identical strain (a
+ century of pseudotensor awkwardness), and C1b's self-sourcing
  arguably predicts it (a field whose own energy is the source
  cannot separate the charge from the field) — but this is
  the first domain where the language required an amendment rather
- than translating exactly. The streak's deuterium row, kept visible.
- **THE STRAIN'S CANDIDATE HEALING (the thermodynamic route): it lands on Jacobson, PRL 75, 1260 (1995),
- cite-verified.** Take three things already in this atlas — the
+ than translating exactly. The one honest exception, kept visible.
+ **THE STRAIN'S CANDIDATE HEALING (the thermodynamic route): it lands on
+ Jacobson, PRL 75, 1260 (1995), cite-verified.** Take three things already in this atlas — the
  Clausius relation δQ = TdS, the Unruh temperature (C1's bridge),
  and entropy-as-horizon-area (the information cluster) — demand
  they hold on every local causal horizon through every point, and
  **Einstein's field equations EMERGE as an equation of state**: not
- a fundamental force law but the thermodynamics of spacetime's
- information books. Under this reading the strain is not a defect
+ a fundamental force law but the thermodynamics of spacetime's own
+ information content. Under this reading the strain is not a defect
  but a SIGNATURE: statistical laws have no line-items ("which
  molecule carries the pressure?" is a category error), so gravity
  keeping totals-not-line-items is exactly what a thermodynamic
- phenomenon must do. The deuterium row becomes the fingerprint. GRADE:
+ phenomenon must do. The exception becomes the fingerprint. GRADE:
  correspondence — the entropic-gravity program is celebrated but
  contested, and THIS model deliberately keeps GR fundamental (the
  survival choice); the connection is booked, not adopted. But the
  instinct — that thermodynamics answers gravity — is a published
- research program, named blind, healing the atlas's one deuterium row.
+ research program, named blind, healing the atlas's one exception.
 
 ## Silences (the language translates but adds nothing — distinct from strains)
 - **The strong CP problem (2026-07-07 night, break-hunt round 2):** QCD's
- rules permit a CP-violating fee (the θ-term); the totalitarian
- principle says un-forbidden terms are compulsory; yet the fee is
- waived to ten decimal places — neutron EDM < 1.8×10⁻²⁶ e·cm (nEDM
+ rules permit a CP-violating term (the θ-term); the totalitarian
+ principle says un-forbidden terms are compulsory; yet the term is
+ absent to ten decimal places — neutron EDM < 1.8×10⁻²⁶ e·cm (nEDM
  collab, PRL 124, 081803 (2020), cite-verified) ⇒ θ < ~10⁻¹⁰. This
- framing restates the puzzle exactly (a cost, mysteriously waived)
- and offers NOTHING toward the mechanism. Worse for us: the known
- candidate mechanism (Peccei–Quinn/axion — a field that rolls the fee
+ framing restates the puzzle exactly (a permitted term, mysteriously
+ absent) and offers NOTHING toward the mechanism. Worse for us: the known
+ candidate mechanism (Peccei–Quinn/axion — a field that rolls the term
  to zero and then OSCILLATES) is exactly the potential-class object
  our kinetic medium is structurally not (P-2026-005's zoo split).
  A silence, kept audible.
@@ -830,8 +831,9 @@ is its only coupling). Give it curvature and the product is determined:*
  long before the quartic notices it exists.
 
  **Which quartic — settled first, because two were on the table 53 decades
- apart.** λ_dyad ≈ 1.3×10⁻³⁸ is the quartic of the high-f Coleman–Weinberg
- field whose VEV sets m_e; that field's own mass is 3.1–6.9×10⁻⁵ eV, a Compton
+ apart.** The first, ≈ 1.3×10⁻³⁸, is the quartic of the electron-coupled scalar —
+ the high-f Coleman–Weinberg field whose VEV sets m_e. That field's own mass is
+ 3.1–6.9×10⁻⁵ eV, a Compton
  wavelength of centimetres, and it forms no gravitational atom around a 10⁹ M☉
  hole. It is not this field's bare coupling — it is a **different field**, 15
  decades heavier. The cloud is made of the m = 2.24×10⁻²⁰ eV boson, so the only
@@ -883,17 +885,17 @@ is its only coupling). Give it curvature and the product is determined:*
  outputs without one of those two mechanisms derived first is noise
  and gets treated as such.
  **Mechanism-level completion:** the
- four real φ-systems translate exactly, and φ enters banking in
+ four real φ-systems translate exactly, and φ enters this framework in
  precisely two ways — the two faces of x² = x + 1: (i) ANTI-RESONANCE
  — resonance is compound interest; rational schedules compound
  (Kirkwood gaps: the asteroid belt emptied at rational ratios with
  Jupiter — measured), irrational schedules amortize, φ is the
  maximally amortizing schedule (KAM in time; quasicrystals run the
- same trick in space — order without repetition, books balance, no
- audit period exists); (ii) SELF-REFERENCE — the Fibonacci anyon's
- merger rule τ×τ = 1+τ IS x² = x+1 as banking policy (capacity grows
+ same trick in space — order without repetition, consistent everywhere,
+ with no repeat period); (ii) SELF-REFERENCE — the Fibonacci anyon's
+ fusion rule τ×τ = 1+τ IS x² = x+1 as a growth law (capacity grows
  by φ per mode), and E8's spectrum contains a pentagonal entry
- (m₂/m₁ = 2cos36° = φ, Coldea 2010). Why our medium is no customer,
+ (m₂/m₁ = 2cos36° = φ, Coldea 2010). Why our medium does not qualify,
  now at mechanism grade: a condensate is MAXIMAL synchronization
  (one phase, lockstep — the anti-resonance case's opposite) with
  LINEAR merger rules (vortex+vortex = 2 vortices; no self-reference).
@@ -912,8 +914,8 @@ is its only coupling). Give it curvature and the product is determined:*
  ADM models explain Ω_DM ~ 5Ω_b by tying the dark asymmetry to the
  baryon asymmetry (similar number densities, GeV-ish dark mass). Our
  charge-to-entropy ratio is Y_Q ~ f_rot·ρ_DM/(m·s) ~ 10²¹ — THIRTY
- decades above η_B ~ 6×10⁻¹⁰. No co-genesis numerology connects the
- deposits; the 5:1 ratio stays an honest input (the abundance pin),
+ decades above η_B ~ 6×10⁻¹⁰. No co-genesis numerology connects the two
+ abundances; the 5:1 ratio stays an honest input (the abundance pin),
  not a clue we can cash. Null booked so nobody retro-fits it later.
 
 - **Gravitational waves from the chaotic genesis (same burn):** the
@@ -921,14 +923,14 @@ is its only coupling). Give it curvature and the product is determined:*
  total density at release (abundance pin), GW production scales as
  the fraction SQUARED, and the emission scale (~m at z ~ 10⁸)
  redshifts to sub-horizon-band frequencies today. Nothing observable;
- the dice roll left no gravitational echo. One-line null.
+ the stochastic genesis left no gravitational echo. One-line null.
 
 ## Killed candidates (set 3)
 
 - **THE DARK-ANTIMATTER REFRAME (coherence-grade; falls out of E7's
  two-fluid for free):** the antiparticle sector n₋ never annihilates
  (gravity + λ ≈ 2×10⁻⁹¹ only — nothing to annihilate INTO), so the
- dark sector RETAINS its antimatter forever. Median draw: **30% of
+ dark sector RETAINS its antimatter forever. At the median stochastic draw, **30% of
  dark matter — a quarter of all matter in the universe — is
  antimatter**, coexisting peacefully at every point in the halo. The
  old question "where did the antimatter go?" splits: the VISIBLE
@@ -1041,7 +1043,7 @@ version of everything? ONE SUBSTANCE, MANY NAMES:** in this
 model the answer is NO, and the no is structural. Dark RADIATION
 (the pre-basin w = 1/3 youth), dark MATTER (the condensate above
 the floor), dark ENERGY (the same condensate's ground-state
-pressure), dark ANTIMATTER (the χ component, 30% at the median
+pressure), dark ANTIMATTER (the χ component, 30% at the median stochastic
 draw) are ONE FIELD at different epochs and in different components
 — a zoo of names created by observers who didn't know they were
 watching one coupling age. The census (gravity-only; no dark photon;
@@ -1066,23 +1068,23 @@ worlds.
  or quantize the substrate. The model must elect a cost before the
  entanglement entry can be derived; no election, no entry.
 - The remaining §2 wall: recombination sits e¹³ from every natural scale;
- every door variant (epoch, local, binding) shares this one boundary.
+ every coupling variant (epoch, local, binding) shares this one boundary.
 
 *Method note: entries are added only when a relation is DERIVED. The
 atlas is falsified entry-by-entry, never defended as a whole.*
 
-- **The Weyl door — gravity is
- the funnel objects use to reach the medium; could time and EM be the
- same, a second funnel? Three verdicts:**
- (i) FUNNEL REFRAME ADOPTED — "gravity is the coupling window, not the
- interaction" is better house language than the coupling channel line;
+- **The Weyl question — gravity is
+ the window objects use to reach the medium; could time and EM be the
+ same, a second window? Three verdicts:**
+ (i) WINDOW REFRAME ADOPTED — "gravity is the coupling window, not the
+ interaction" states it better than the coupling-channel phrasing;
  and EM already acts THROUGH that window (electrostatic binding energy
  gravitates — Eötvös-class signatures; the radiation era is EM paying
  the stress-energy for 50,000 years). The window takes one thing only,
  energy-momentum, from anyone — that is WHY it is universal.
- (ii) SECOND FUNNEL: CLOSED BY THE BEST NULL IN PHYSICS — a charge-
- opened conduit to the medium means composition-dependent free fall;
- MICROSCOPE: η(Ti,Pt) = (−1.5±2.7)e-15. Fifteen decades of silence,
+ (ii) SECOND WINDOW: CLOSED BY THE BEST NULL IN PHYSICS — a
+ charge-opened conduit to the medium means composition-dependent free fall;
+ MICROSCOPE: η(Ti,Pt) = (−1.5±2.7)×10⁻¹⁵. Fifteen decades of silence,
  plus the census (no EM charge; B−L at GUT suppression). One window.
  (iii) TIME=EM: A BLIND RECONSTRUCTION OF WEYL 1918 — EM as the
  geometry of clock calibration; killed by Einstein's spectral-line
@@ -1094,20 +1096,20 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  interferometry); gravity/the khronon is the geometry of the PUBLIC
  clock (proper time, the foliation). Both clock-geometries; provably
  distinct clocks (the public window is charge-blind to 1×10⁻¹⁵; the
- private connection responds to charge). House tie-ins already load-
- bearing: C2 action invariant = private-clock accrual; Josephson volt
+ private connection responds to charge). Connections already load-bearing
+ in this file: C2 action invariant = private-clock accrual; Josephson volt
  = a private-clock rate realized on a chip; khronon tick = the public
  current. The reconstruction streak: Zurek, Jacobson,
  Affleck-Dine, Penrose CCC, ergodic backbone — now Weyl.
 
- **Weyl-door follow-ups (scored):**
+ **Weyl-question follow-ups (scored):**
  (a) "TIME IS HOW THE LEDGER GETS PAID BACK — IN DECOHERENCE": the
  TICK/ARROW split resolves it. The tick is FUNDAMENTAL in this model
  (the khronon's foliation is physical, not emergent). The ARROW is
  exactly as the model states — and the file already carries it as
  C1c's rate law: decoherence IS the posting event (C4a), entropy =
  record count, and time's direction = the direction net records
- accumulate ("posting is cheaper than shredding"). This
+ accumulate ("recording is cheaper than erasing"). This
  re-derives the file's own arrow law. Cousin flagged at
  correspondence grade: Page–Wootters (time from entanglement with a
  clock subsystem; lab analog Moreva et al. 2014) — the emergent-TIME
@@ -1116,7 +1118,7 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  unmoved: what opened the universe empty remains one floor up.
  (b) "EM IS HOW IT GETS PAID BACK — IN MAGNETIC FIELDS": two kernels,
  one kill. KERNEL 1 (adopted): magnetic fields are the EM sector's
- UNSHREDDABLE RECORDS — the universe screens charge (Debye hides the
+ UNERASABLE RECORDS — the universe screens charge (Debye hides the
  E-field) but cannot screen circulation (no monopoles = no eraser),
  so B is the only large-scale EM memory the universe keeps; galactic
  fields sit at equipartition (~μG ↔ eV/cm³, CMB/cosmic-ray class).
@@ -1141,8 +1143,8 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  is ever built and couples to FF̃, haloscopes become relevant and the
  entry faces full graveyard scrutiny at the outset.
 
-- **Does space revert to its own properties, or keep a lighter file
- on record? — answered by the model's
+- **Does space revert to its own properties, or retain a residual
+ imprint? — answered by the model's
  own regime-label principle, not a new derivation.** Correction first:
  the medium is a MATTER FIELD on spacetime (gravity stays exactly GR);
  "space is a fluid" is the founding intuition, "the dark sector is one
@@ -1164,9 +1166,9 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  vacuum, and CONFIRMED.** Followed to its full
  rigor: strip away all matter, all radiation, all dark energy, and the
  medium itself (correctly identified as ALREADY matter, "the start of
- all the contact") — what remains is MINKOWSKI SPACE, T_munu=0
+ all the contact") — what remains is MINKOWSKI SPACE, T_μν = 0
  identically, with no seeded/pre-existing curvature either. Answer,
- unambiguous, bedrock GR: R=0. Flat. Forever. Space does not curve
+ unambiguous, bedrock GR: R = 0. Flat. Forever. Space does not curve
  itself from true nothing — it is a genuine fixed point of Einstein's
  equations. Every candidate counterexample explored first (radiation,
  vacuum Kasner/Bianchi cosmologies, gravitational waves in vacuum)
@@ -1181,39 +1183,39 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  VERDICT: "nothing happens until contact is made" survives the
  hardest constructible test (total gutted vacuum) and is confirmed as
  the correct description of how curvature comes to exist at all, not
- merely a metaphor. Adopted as house law, on the same footing as the
- three laws (one coupling channel; adiabatic background; rules amendable,
- balances not).
+ merely a metaphor. Adopted as a standing law of this framework, on the same
+ footing as the three laws (one coupling channel; adiabatic background;
+ rules amendable, conserved quantities not).
 
-- **CLEARINGHOUSES ARE CONTINGENT -- banks open at contact, in order
+- **COUPLING CHANNELS ARE CONTINGENT — they open at contact, in order
  (grounds the split and reconciles
- Law 1).** Claim: space has NO coupling channel for itself -- it never
- needed one, because space-alone (r=0, the equation-of-nothing) has
- nothing to transact. Banking systems come into being only at FIRST
- CONTACT (when r=0 stops being true, i.e. when matter appears). This
- is the "nothing until contact" house law stated at the level of
- INSTITUTIONS: not just no interaction until contact, but no BANK
- until contact. PRECISION: space CAN self-transact in a limited way
+ Law 1).** Claim: space has NO coupling channel for itself — it never
+ needed one, because space alone (R = 0, the equation-of-nothing) has
+ nothing to interact with. Coupling channels come into being only at FIRST
+ CONTACT (when R = 0 stops being true, i.e. when matter appears). This
+ is the "nothing until contact" law stated at the level of
+ STRUCTURE: not just no interaction until contact, but no CHANNEL
+ until contact. PRECISION: space CAN self-interact in a limited way
  (gravitational waves = vacuum curvature self-interacting via GR
- nonlinearity), BUT every GW traces to a matter source -- in a
+ nonlinearity), BUT every GW traces to a matter source — in a
  never-had-matter universe there is none, so the claim holds for
- primordial/pure space. THE PAYOFF -- this DERIVES the coupling channel
- structure from one rule ("banks open at contact, in order") instead
- of asserting it: (1) pure space = no bank; (2) first matter (r≠0) →
+ primordial/pure space. THE PAYOFF — this DERIVES the coupling channel
+ structure from one rule ("channels open at contact, in order") instead
+ of asserting it: (1) pure space = no channel; (2) first matter (R ≠ 0) →
  the space↔matter coupling channel opens = GRAVITY; (3) matter dealing
- with matter → matter opens its OWN sub-banks (EM, weak, strong). So
+ with matter → matter opens its OWN channels (EM, weak, strong). So
  the dark medium (space) has EXACTLY ONE coupling, gravity, and NEVER
- opens an EM coupling -- which is precisely why the m_e amplitude cannot
+ opens an EM coupling — which is precisely why the m_e amplitude cannot
  be the dark sector acting through EM (no EM charge) and MUST be EM
  handling matter internally with space only triggering via gravity
  (the split, now FORCED not assumed). RECONCILES LAW 1:
- "gravity is the only coupling channel" is correct -- it describes SPACE's
+ "gravity is the only coupling channel" is correct — it describes SPACE's
  coupling (one coupling: gravity); it was only misread as "the universe's
- only bank." Matter has several sub-banks. Both true, no conflict.
- GRADE: architectural/foundational principle -- makes the framework
+ only channel." Matter has several of its own. Both true, no conflict.
+ GRADE: architectural/foundational principle — makes the framework
  cohere and explains the coupling channel structure; does NOT produce a
- new number or change the load-bearing open calc (EM self-energy
- bistability, sec 42). A right blueprint, turning three assertions into
+ new number or change the load-bearing open calculation (EM self-energy
+ bistability, §42). A right blueprint, turning three assertions into
  one rule.
 
 - **CROSS-BANK TRANSACTIONS AND THE E=mc² SETTLEMENT LAYER — is there
