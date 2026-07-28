@@ -500,7 +500,14 @@ Steep-zone density isocurvature at H_inf = 4×10¹² would be ~50× the
 Planck cap: **high tilt + high H_inf corners of the genesis space are
 now VETOED — clearing the gate at r_t ~ 0.9 steep zones needs
 H_inf ≲ 10¹⁰⁻¹¹ GeV** (smooth zones and low tilt keep the base-camp
-ceiling). The over-constrained mountain is doing what the internal review
+ceiling). **SCOPE (check 14, 2026-07-28): this conclusion is ERA-BOUND.**
+It rests on the 350/rad gradient, which is an h = 300 measurement. At the
+standing hierarchy the gradient is 5.43/rad, and the ceiling this
+paragraph derives lifts by that ratio to 6.5×10¹¹–6.5×10¹² GeV — which
+straddles the ordinary isocurvature bound instead of sitting two decades
+under it. The veto stops being separately binding; see the re-measured
+block below. The premise here died; this conclusion had to be re-scoped
+rather than left standing on it. The over-constrained mountain is doing what the internal review
 promised: the gates prune genesis space. The 86% is UNMOVED by the
 pruning — it is tilt-universal and H_inf-independent below the
 ceiling. And the SINGLE-DRAW picture is confirmed: patch-to-patch
