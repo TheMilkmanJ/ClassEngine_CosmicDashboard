@@ -1187,6 +1187,35 @@ chk("winding turns", "fraction of it laid down by T = 0.01 T_sph", 99.0, (1-0.01
 chk("winding turns", "f_bar deviation on the accumulated reading", 2.64e-5,
     0.1009/(_RSPH/(2*math.pi))*100, 2e-2, "%")
 
+# --- the Z3 selector tension, priced by scale -------------------------------------
+# The 3q = 0 obstruction needs the three seats to be one orbit AT THE SHELL; the Koide
+# node's Z3 is a statement about charged-lepton masses, far below it. The separation is
+# what an emergent (IR-exact, UV-broken) family symmetry would need.
+_LAM_SH = 3152.0/(2*math.exp(-33.474))          # GeV; same shell as the 6f/#146 blocks
+chk("z3 selector", "orders between the pairing shell and the tau mass", 17.49,
+    math.log10(_LAM_SH/1.77686), 1e-3, "dex")
+# the residual is the Koide triangle's: grant the closure, let the light masses fix the rest
+_RATZ = 105.6583755/0.51099895
+def _rz(_A, _p):
+    _r = [1 + _A*math.cos(_p + 2*math.pi*k/3) for k in range(3)]
+    return (_r[2]/_r[1])**2
+_lo, _hi, _fl = math.sqrt(2)-1e-4, math.sqrt(2)+1e-4, None
+_fz = lambda a: _rz(a, (1 + a*a/2)/9) - _RATZ
+_fl = _fz(_lo)
+for _ in range(300):
+    _m = 0.5*(_lo+_hi)
+    if _fl*_fz(_m) <= 0: _hi = _m
+    else: _lo, _fl = _m, _fz(_m)
+_Az = 0.5*(_lo+_hi)
+_RESID = abs((1/3 + _Az*_Az/6) - 2/3)/(2/3)*1e6
+chk("z3 selector", "the Koide residual an emergent Z3 must account for", 0.168,
+    _RESID, 2e-2, "ppm")
+# The obvious spurion scales miss it in both directions, which is why this is a candidate.
+chk("z3 selector", "(alpha/pi)^2, too large by", 32.2,
+    ((1/137.035999084/math.pi)**2*1e6)/_RESID, 2e-2, "x")
+chk("z3 selector", "m_e/Lambda_shell, too small by", 1.8e14,
+    (_RESID/1e6)/(0.51099895e6/(_LAM_SH*1e9)), 5e-2, "x")
+
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
 _Msun   = 1.98892e30; _G = 6.6743e-11; _c = 2.99792458e8

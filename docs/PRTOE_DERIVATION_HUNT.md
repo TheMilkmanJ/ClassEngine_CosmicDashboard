@@ -817,6 +817,34 @@ orbit cannot also single out two of them: **any selector for the node pair must 
 the family node needs the Z₃ exact.** So §6c's selector and the Koide node's symmetry pull against
 each other, and any future candidate supplying one must be checked against the other.
 
+**A selector now exists, and it is not the Z₃.** Thomas–Fermi screening weights carriers by charge
+squared, not by count, so N_screen = 2N₀ is a Diophantine condition on the roster with exactly two
+solutions — one charged lepton, or all three down-type quarks — and the second breaks the 1/q²
+Goldstone kernel by adding gluon Debye screening
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c). The selector is therefore *electric
+charge*, a property the family grading does not carry, and the portal names which lepton. It is a
+genuine selector and it duly breaks the Z₃, so it falls squarely under the obstruction above.
+
+**But the obstruction is scale-conditional, and the two requirements do not live at one scale.**
+The 3q = 0 argument needs the three seats to be one orbit *where the nodes are* — and that is the
+pairing shell, Λ_shell = 5.4×10¹⁷ GeV. The Koide node's Z₃ is a statement about charged-lepton
+masses, **17.5 orders below it.** Nothing forces the same symmetry to be realised identically at
+both, and only one direction lets both hold: **the family Z₃ is emergent — exact in the infrared
+where the Koide node lives, broken at the shell where the doping happens.** That is the standard
+direction for an emergent symmetry, which is an infrared accident violated by ultraviolet
+operators, and it is the reverse of the restoration pattern a fundamental symmetry would follow.
+
+The reading makes a commitment: **an emergent Z₃ cannot be exact, so the Koide relation must be
+approximate**, with a residual set by the ultraviolet breaking. It is — the two watches cannot
+both hold, and the light masses put the failure at **0.17 ppm in Q**
+([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). The sign of the argument is therefore right.
+
+**Candidate, not an account.** Nothing here sizes that residual: no spurion is exhibited, and the
+obvious scales miss it — (α/π)² = 5.4 ppm is thirty times too large, (m_e/Λ_shell) ~ 10⁻²¹
+hopelessly too small. **Kill condition:** exhibit the Z₃-breaking operator and show it cannot
+produce a residual of order 0.1 ppm, or show that an emergent family symmetry cannot survive to
+the precision the Koide relation already demonstrates.
+
 **What the pairing section would need to say.** That its four conditions are two: (1) *a
 species-selective chiral chemical potential on exactly one node pair* — which subsumes the old
 conditions 1, 2 and 4 and §6b's condensation residual, since screening, compensation and the

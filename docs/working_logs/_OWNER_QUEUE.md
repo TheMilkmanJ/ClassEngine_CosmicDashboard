@@ -99,3 +99,26 @@ that single quantity and do not meet: the indirect band gives d ∈ [2.809, 2.93
 anchor 2.921, the observed dark-energy density 2.993, and the geometry 3. The escape of separating
 the two d's is **closed algebraically** — the floor's d² is α_c²/α², so the two forms are one form.
 Two branches survive, both empirical, and item 3 above is the tractable one.
+
+---
+
+## Standing re-check list — the four absences
+
+Owner instruction 2026-07-28: these may become derivable once other things are derived, so each
+new result gets tested against them. What each is waiting on:
+
+| absence | what would unlock it |
+|---|---|
+| the α_c band's provenance | any α_c reading that skips the ε-assembly — the dispersion chain, the isocurvature phase speed, or a converged α_c chain |
+| the portal roster's doublet count | the census's portal species given electroweak representations; adjacent to #6 and #41 |
+| f̄'s averaging window | the epoch at which ε acts — adjacent to #11, the genesis cascade |
+| why Q = 2/3 | a mechanism making the Z₃-graded norm vanish; **fired 2026-07-28, see below** |
+
+**First hit.** The charge-weighted selection (§6c) supplies the selector the μ₅ residue needed,
+and it is electric charge rather than the Z₃ — which means it breaks the family symmetry, exactly
+as DERIVATION_HUNT's obstruction says any selector must. The new step is that the obstruction is
+**scale-conditional**: 3q = 0 needs the seats to be one orbit *at the shell*, 17.5 orders above
+where the Koide node lives. An **emergent** Z₃ — exact in the infrared, broken in the ultraviolet —
+is the only realisation letting both hold, and it commits to the Koide relation being approximate.
+It is, at 0.17 ppm in Q. Candidate, not an account: no spurion is exhibited and the obvious scales
+miss the residual by 32× and 10¹⁴×.
