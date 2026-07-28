@@ -5027,3 +5027,37 @@ rewritten accordingly, and the chain-ops memory now carries the `nproc` trap exp
 
 **Filed as protocol check 25** — a capability probe that reports a resource budget rather than the
 resource is a general trap, and this one cost a wrong recommendation to the owner.
+
+### 2026-07-28 — the bbnfix pair moved to real MPI; the M6 rebound run stopped by owner ruling
+
+**MPI relaunch.** Both production chains now run **3 MPI ranks each** on the system stack
+(`/usr/bin/mpirun`, Open MPI 4.1.6, mpi4py 4.1.2 on `/usr/bin/python3.12` — not conda's). Pre-MPI
+products preserved in `chains/_snapshot_pre_mpi_20260728_1045/` (2,981 and 2,710 rows). Launcher
+recorded as `scripts/relaunch_bbnfix_mpi.sh` with its hazards in the header.
+
+Safety checks before launch, all passing: the `classy` .so mtime is 2026-07-23, **older than the
+2026-07-26 restart**, so resuming splices no physics; no uncommitted C edits; system MPI not
+conda's.
+
+**Desktop headroom, to the owner's constraint.** All ranks pinned to **CPUs 0–7** (`taskset`,
+verified mask `ff`), at **nice 15**, `OMP_NUM_THREADS=1`. CPUs 8–11 — two physical cores — are
+never touched by this work. Measured idle after launch: **31.8%**.
+
+**What it buys:** 83 → **21 days** to the cap for `cmp_lcdm_mnu_bbnfix`, 92 → **23** for
+`dyad_mnu_bbnfix`, and R−1 becomes a genuine **between-chain** Gelman–Rubin instead of the
+within-chain split statistic the 0.05 target was never entitled to. Expect R−1 to read *worse*
+initially as the two new ranks burn in; that is the honest diagnostic arriving, not a regression.
+
+**M6 stopped.** `bounce_m6_rebound_dst.py` killed on owner ruling — its coarse pass failed its own
+energy gate on every row (24%, 119%, 217%, 391% against a declared 2%), all four already marked
+unquotable, and it had produced nothing for seven hours while refining that configuration. Output
+preserved at `docs/working_logs/_dead_runs/m6v3_rebound_2026-07-28_killed.txt`. Three stale watcher
+shells from that session remain at 0.0% CPU, looping on a pattern that will never match; left in
+place rather than risk another `pkill`.
+
+**And a process failure worth the protocol entry.** The `pkill -f "bounce_m6_rebound_dst.py"` that
+stopped the M6 job also matched the *issuing shell's own command line*, killing it — and took the
+six MPI ranks launched minutes earlier with it, despite `setsid`. The chains were confirmed dead
+only because a CPU reading looked wrong four commands later; nothing announced it. Relaunched
+immediately and verified. **Filed as check 26**, with the rule that a kill must be followed by
+confirming what you did *not* mean to stop is still alive.

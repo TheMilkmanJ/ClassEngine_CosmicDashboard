@@ -18,9 +18,9 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty-five checks
+## The twenty-six checks
 
-Run all twenty-five. Record what was found, even when nothing was.
+Run all twenty-six. Record what was found, even when nothing was.
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
@@ -29,8 +29,9 @@ the checks that existed that morning. **Checks 22–25 were added 2026-07-28**: 
 audience-facing prose that passed every terminology check and still read as narrative; 23 from
 two sectors whose numbers each passed alone and failed jointly; 23a from an absence claim that
 searched the working tree and not the history; 24 from a posterior interval read at R−1 = 93 and
-used for a year as a measurement; and 25 from a capability probe that reported a thread budget
-instead of a core count, which sent a wrong recommendation to the owner.*
+used for a year as a measurement; 25 from a capability probe that reported a thread budget
+instead of a core count, which sent a wrong recommendation to the owner; and 26 from a `pkill -f`
+that matched its own shell and took six freshly-launched MPI ranks with it.*
 
 **1. Read it whole, line by line.** Not grep. The contradictions live between sections.
 
@@ -377,6 +378,19 @@ The harness already contains the correct pattern, in one place: `chk("sqrt3_deri
 omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes** the surplus
 member from the other two rather than booking it separately. That line would have caught either
 defect above had it been written for those sectors.
+
+**26. `pkill -f` MATCHES YOUR OWN COMMAND LINE, AND KILLS MORE THAN YOU AIMED AT (2026-07-28 —
+twice in one hour).** `pkill -f "bounce_m6_rebound_dst.py"` was issued to stop one dead job. The
+pattern appeared in the issuing shell's *own* command line, so pkill killed that shell (exit 144) —
+and took the six MPI ranks launched minutes earlier with it, despite their having been `setsid`
+detached. The same mistake had already destroyed an in-flight file rewrite an hour before. Both
+times the visible symptom was an odd exit code, not an error message naming what died.
+
+**The check: never `pkill -f` on a string that appears in the command you are typing.** Resolve to
+PIDs first (`pgrep -f … | grep -v $$`, or read the PID and `kill` it), and after any kill, verify
+that everything you did *not* intend to stop is still running. The verification is the part that
+was missing: the chains were confirmed dead only because an unrelated CPU reading looked wrong
+four commands later.
 
 **25. A CAPABILITY PROBE MAY BE REPORTING A BUDGET, NOT THE RESOURCE (2026-07-28 — caught by the
 owner, not by me).** I reported "the box has one core" from `nproc` = 1, built a throughput
