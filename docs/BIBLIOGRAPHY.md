@@ -47,9 +47,9 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 ## 3. The mechanism's literature (varying m_e and the H₀ tension)
 
 - **[HartChluba2018]** L. Hart, J. Chluba, "New constraints on time-varying fundamental constants from Planck," MNRAS 474, 1850 (2018), arXiv:1705.03925.
-- **[HartChluba2020]** L. Hart, J. Chluba, "Updated fundamental constant constraints from Planck 2018 data and possible relations to the Hubble tension," MNRAS 493, 3255 (2020), arXiv:1912.03986. — The varying-m_e ↔ H₀ degeneracy the dyad gives an ontology to.
+- **[HartChluba2020]** L. Hart, J. Chluba, "Updated fundamental constant constraints from Planck 2018 data and possible relations to the Hubble tension," MNRAS 493, 3255 (2020), arXiv:1912.03986. — The varying-m_e ↔ H₀ degeneracy the electron-coupled scalar gives an ontology to.
 - **[SekiguchiTakahashi2021]** T. Sekiguchi, T. Takahashi, "Early recombination as a solution to the H₀ tension," PRD 103, 083507 (2021), arXiv:2007.03381. — The independent varying-m_e H₀ result.
-- **[VaryingMe2025a]** arXiv:2508.09025 — varying-m_e against ACT DR6 + DESI DR2; its own number is m_e/m_e₀ = 1.0081 ± 0.0046, a **1.8σ** preference (NOT the 2–3.6σ this entry formerly claimed — see the failures ledger, 2026-07-20), with the same partial-relief ceiling this model finds. The independent existence of the dyad's recombination component.
+- **[VaryingMe2025a]** arXiv:2508.09025 — varying-m_e against ACT DR6 + DESI DR2; its own number is m_e/m_e₀ = 1.0081 ± 0.0046, a **1.8σ** preference, with the same partial-relief ceiling this model finds. The independent existence of the electron-coupled scalar's recombination component.
 - **[VaryingMe2026]** arXiv:2606.06495 — the companion varying-m_e analysis on the same stacks. It quotes NO significance and concludes varying m_e cannot fully resolve the Hubble tension once DESI DR2 BAO is included — i.e. it runs against the claim it was formerly cited to support.
 - **[DiValentino2021]** E. Di Valentino et al., "In the realm of the Hubble tension — a review of solutions," Class. Quant. Grav. 38, 153001 (2021), arXiv:2103.01183. — The competitor map.
 
@@ -78,11 +78,11 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 
 - **[Leggett1980]** A. J. Leggett, "Diatomic molecules and Cooper pairs," in *Modern Trends in the Theory of Condensed Matter*, Springer (1980). / **[NSR1985]** P. Nozières, S. Schmitt-Rink, "Bose condensation in an attractive fermion gas," J. Low Temp. Phys. 59, 195 (1985). — The BCS–BEC crossover machinery the measurement-sector computation runs on.
 
-- **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^{-3/2} ω_c e^{-1/λ} the referee sessions run on.
+- **[Combescot1990]** R. Combescot, "Critical temperature of superconductors: Exact solution from Eliashberg equations on the weak-coupling side," Phys. Rev. B 42, 7810 (1990). / **[Marsiglio2018]** F. Marsiglio et al., "Eliashberg theory in the weak-coupling limit," arXiv:1807.04907; real-axis companion arXiv:1912.09460. — The exact weak-coupling prefactor T_c = 1.13 e^(−3/2) ω_c e^(−1/λ) the referee sessions run on.
 
 - **[NBV2006]** A. Nayeri, R. Brandenberger, C. Vafa, "Producing a scale-invariant spectrum of perturbations in a Hagedorn phase of string cosmology," PRL 97, 021302 (2006), arXiv:hep-th/0511140. / **[BrandenbergerVafa1989]** R. Brandenberger, C. Vafa, "Superstrings in the early universe," Nucl. Phys. B 316, 391 (1989). / **[SGCreview2011]** R. Brandenberger, "String gas cosmology: progress and problems," Class. Quantum Grav. 28, 204005 (2011), arXiv:1105.3247. — The thermal/maximal-temperature/area-specific-heat cousin of lock 2's lane: the model's "maximal thermal allowance" = the Hagedorn concept; its winding-mode C_V ∝ R² = the exemption-clause drift, thermodynamic road.
 
-- **[KSS2005]** P. Kovtun, D. T. Son, A. O. Starinets, "Viscosity in strongly interacting quantum field theories from black hole physics," PRL 94, 111601 (2005), arXiv:hep-th/0405231. — The lower viscosity fence (η/s ≥ hbar/4pi); the zero-infinity asymmetry's other end.
+- **[KSS2005]** P. Kovtun, D. T. Son, A. O. Starinets, "Viscosity in strongly interacting quantum field theories from black hole physics," PRL 94, 111601 (2005), arXiv:hep-th/0405231. — The lower viscosity fence (η/s ≥ ℏ/4π); the zero-infinity asymmetry's other end.
 
 - **[WidnallTsai1977]** S. E. Widnall, C.-Y. Tsai, "The instability of the thin vortex ring of constant vorticity," Phil. Trans. R. Soc. A 287, 273 (1977). / **[Gharib1998]** M. Gharib, E. Rambod, K. Shariff, "A universal time scale for vortex ring formation," J. Fluid Mech. 360, 121 (1998). — The Widnall azimuthal selection (ka = 2.26-2.51 → the n-predictor) and the universal formation number (F ~ 4 → the partition/window targets).
 
@@ -104,7 +104,7 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 - **[AffleckDine1985]** I. Affleck, M. Dine, "A new mechanism for baryogenesis," Nucl. Phys. B 249, 361 (1985). — The AD-direct route (charge = abundance).
 - **[FukugitaYanagida1986]** M. Fukugita, T. Yanagida, "Baryogenesis without grand unification," Phys. Lett. B 174, 45 (1986). — The thermal-leptogenesis baseline the empty-surface scan retired in-model.
 - **[ColemanWeinberg1973]** S. Coleman, E. Weinberg, "Radiative corrections as the origin of spontaneous symmetry breaking," PRD 7, 1888 (1973). — Cited by the legacy action's activation form.
-- **[Koide1983]** Y. Koide, "A fermion-boson composite model of quarks and leptons," Phys. Lett. B 120, 161 (1983); PRD 28, 252 (1983). — The charged-lepton relation the dyad must not break (thread 6).
+- **[Koide1983]** Y. Koide, "A fermion-boson composite model of quarks and leptons," Phys. Lett. B 120, 161 (1983); PRD 28, 252 (1983). — The charged-lepton relation the electron-coupled scalar must not break (thread 6).
 - **[Tsirelson1980]** B. S. Tsirelson, "Quantum generalizations of Bell's inequality," Lett. Math. Phys. 4, 93 (1980). — The bound the quantum wing treats as a standing exam.
 
 - **[Zurek2003]** W. H. Zurek, "Environment-assisted invariance, entanglement, and probabilities in quantum physics," PRL 90, 120404 (2003), arXiv:quant-ph/0211037 (and PRA 71, 052105). — The envariance derivation of the Born rule; the swap partners are the twins (the selection law, clause ii — adopted).
@@ -149,7 +149,7 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 
 ## 9. Neighboring dark-sector models (the honest competitors and cousins)
 
-- **[BerezhianiKhoury2015]** L. Berezhiani, J. Khoury, "Theory of dark matter superfluidity," PRD 92, 103510 (2015), arXiv:1507.01019. — The nearest superfluid-DM cousin; differs by scope (galactic vs cosmological) and by the dyad.
+- **[BerezhianiKhoury2015]** L. Berezhiani, J. Khoury, "Theory of dark matter superfluidity," PRD 92, 103510 (2015), arXiv:1507.01019. — The nearest superfluid-DM cousin; differs by scope (galactic vs cosmological) and by the electron-coupled scalar.
 - **[HBG2000]** W. Hu, R. Barkana, A. Gruzinov, "Cold and fuzzy dark matter," PRL 85, 1158 (2000), arXiv:astro-ph/0003365. / **[Hui2017]** L. Hui, J. P. Ostriker, S. Tremaine, E. Witten, "Ultralight scalars as cosmological dark matter," PRD 95, 043541 (2017), arXiv:1610.08297. — The ultralight-field toolbox (ξ-scale physics).
 - **[Kamenshchik2001]** A. Kamenshchik, U. Moschella, V. Pasquier, "An alternative to quintessence," Phys. Lett. B 511, 265 (2001), arXiv:gr-qc/0103004. — The unified-dark-fluid (Chaplygin) precedent dCDF improves on.
 - **[Hu1998]** W. Hu, "Structure formation with generalized dark matter," ApJ 506, 485 (1998), arXiv:astro-ph/9801234. — The GDM formalism the perturbation-sector debt (the working docket) will be phrased in.
@@ -159,7 +159,7 @@ their sources, and when — is [PRTOE_references.md](PRTOE_references.md).*
 
 ## 10. Historical foundations (the legacy action's ancestry — retired era)
 
-- **[BransDicke1961]** C. Brans, R. H. Dicke, Phys. Rev. 124, 925 (1961). — The e^{ξφ}-class ancestor.
+- **[BransDicke1961]** C. Brans, R. H. Dicke, Phys. Rev. 124, 925 (1961). — The e^(ξφ)-class ancestor.
 - **[Horndeski1974]** G. W. Horndeski, Int. J. Theor. Phys. 10, 363 (1974). — The general scalar-tensor frame.
 - **[LangloisNoui2016]** D. Langlois, K. Noui, "Degenerate higher derivative theories beyond Horndeski," JCAP 02 (2016) 034, arXiv:1510.06930. — The DHOST conditions the legacy spec invoked.
 

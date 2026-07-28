@@ -1,23 +1,24 @@
-# What Ends the m_e Amendment? — the dyad's trigger question and its current state
+# What Ends the m_e Amendment? — the electron-coupled scalar's trigger question and its state
 
 > *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The dyad's m_e amendment (~1% heavier electron in the early universe) is epoch-gated by
-hand in every config (varying_transition_redshift = 50). This document formalizes the
-trigger question, records the one surviving candidate, the Θ = granule convergence, and the
-discriminator fork. Nothing here is registered as a prediction — R1 is un-pinned
-(consistency-construction grade) and the Pinning Rule binds. Approaches that were tried and
-failed are indexed in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).*
+*The electron-coupled scalar's m_e amendment (~1% heavier electron in the early universe) is
+epoch-gated by hand in every config (varying_transition_redshift = 50). This document
+formalizes the trigger question, records the one surviving candidate, the Θ = granule
+convergence, and the discriminator fork. Nothing here is registered as a prediction — R1 is
+un-pinned (consistency-construction grade) and the Pinning Rule binds. Approaches that were
+tried and failed are indexed in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).*
 
 ## 1. The question
 
 WHAT physical event ends (or begins) the amendment? Requirements from data: bare value
-(1.012543) at recombination (z ≳ 1100), the ramp's stamps inside the BBN window; suppressed (lab) value in every virialized
-absorber ever measured (z ≲ 4 quasar/molecular/21cm systems, Oklo, all labs); no continuous
-environmental dependence (drift wall; quasar differentials kill the smooth version at 10⁴×).
+(1.012543) at recombination (z ≳ 1100), the ramp's stamps inside the BBN window; suppressed
+(lab) value in every virialized absorber ever measured (z ≲ 4 quasar/molecular/21cm systems,
+Oklo, all labs); no continuous environmental dependence (drift wall; quasar differentials kill
+the smooth version at 10⁴×).
 
 ---
 
@@ -92,14 +93,14 @@ granule-onset boundary).
 
 ## 4. The discriminator fork (pre-registerable ONLY after #11 pins R1)
 
-- TIME-GATE story (current configs): 21-cm sky below z = 50 fully standard (booked as the
-  domain census's §74).
+- TIME-GATE story (current configs): 21-cm sky below z = 50 fully standard (on the record as
+  the domain census's §74).
 - STRUCTURE-GATE story (R1): the UNVIRIALIZED dark-ages/cosmic-dawn IGM carries bare
   m_e ≈ 1.01 → percent-level shifts in 21-cm physics exactly where REACH/SKA-low will look.
 
 The fork is real, clean, and instrument-dated. It is NOT registered: R1 must first survive
-#11. Booked here so it cannot be quietly skipped — and so nobody registers it early in
-enthusiasm.
+#11. It is on the record here so it cannot be quietly skipped — and so nobody registers it
+early in enthusiasm.
 
 ## 5. The near-term judge already running
 
@@ -210,17 +211,18 @@ change at z_x ≈ 10⁵.
   cleanly: MICROSCOPE, quasars, Oklo and clocks are all late (post-z_x) and see only the closed
   account; the early coupling is invisible to every existing test.
 
-The two-phase *structure* is recorded and
-load-bearing: the coupling window closes at condensation, which is why every late-universe
-instrument (MICROSCOPE, quasars, Oklo, clocks) sees only the closed account. The two claims
-that once rode it are gone. The early-phase vev heal died with its magnitude — the flat vev at
-+7.7σ, the one-carrier κ_v by eight orders (ANN-2026-006) — and the deuterium row stands at
-−2.94σ with the lever census closed ([PRTOE_deuterium_row.md](PRTOE_deuterium_row.md)). And
-the universality reading is superseded by the standing identification: the dyad **is** the
-Majoron, coupling to the current of its broken charge, so the shift is **leptophilic** — quarks
-carry L = 0 and the tree coupling is exactly zero. A flavor-blind shift of every mass would put
-δm_q = ε through d ln B_D/d ln m̂ = −4 and drive D/H to +12–18σ; the leptophilia is not a
-choice but the configuration's own survival condition at BBN.
+The two-phase *structure* is recorded and load-bearing: the coupling window closes at
+condensation, which is why every late-universe instrument (MICROSCOPE, quasars, Oklo, clocks)
+sees only the closed account. The two claims that once rode it are gone. The early-phase vev
+heal died with its magnitude — the flat vev at +7.7σ, the one-carrier κ_v by eight orders
+(ANN-2026-006) — and the deuterium row stands at −2.94σ with the lever census closed
+([PRTOE_deuterium_row.md](PRTOE_deuterium_row.md)). And
+the shift is **leptophilic**, and what forces that is the data. The standing operator is the
+quadratic portal |Ψ|², which is lepton-number-neutral and phase-blind, so lepton number screens
+no quark bilinear and cannot deliver the leptophilia by symmetry. The deuterium constraint
+does: a flavour-blind shift of every mass would put δm_q = ε through d ln B_D/d ln m̂ = −4 and
+drive D/H to +12–18σ. The leptophilia is not a choice but the configuration's own survival
+condition at BBN.
 
 ## 12. The ledger — what was owed here, and where each item stands
 

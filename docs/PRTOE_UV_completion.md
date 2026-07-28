@@ -266,7 +266,7 @@ stress tensor is traceless (T^mu_mu=0) ⇒ APPROXIMATELY CONFORMALLY INVARIANT. 
 conformal, not singular. (3) Conformal symmetry fixes the scalar-matter coupling to its
 conformal value c=1 → c is SYMMETRY-PROTECTED at the origin, not a free dial. (4) As w runs
 1/3 → 0 → −1, scales (m, Ψ₀) turn on, conformality breaks, and c RUNS from 1.
-CONSISTENCY: matches #14 (low-energy does NOT fix c -- correct; the UV/conformal origin does) and
+CONSISTENCY: matches #14 (low-energy does NOT fix c — correct; the UV/conformal origin does) and
 #16 (c in [1.0,1.9] today = "starts at 1, drifts up as conformality breaks"). Three findings,
 one arrow. PAYOFF IF TRUE: c=1 becomes PREDICTED → amplitude sharp (1.23% vs measured 1.20%) →
 #11 fully closed.
@@ -274,7 +274,7 @@ STATUS: HYPOTHESIS, not derivation. Open work (the real #17 climb): (a) show the
 phase carries the FULL protecting conformal symmetry (not just a traceless T at the fluid level);
 (b) compute the RUNNING of c from the conformal point and check it stays ~1 (not drifting to >2.6,
 the naturalness ceiling). The conformal symmetry is only APPROXIMATE (broken by m, Ψ₀), so c
-is protected NEAR the origin and runs away from it -- by how much is uncomputed.
+is protected NEAR the origin and runs away from it — by how much is uncomputed.
 
 ## ASSUMPTION: gravity self-clumping to the c=1 attractor — NOT a derivation, **DEAD with #17**
 

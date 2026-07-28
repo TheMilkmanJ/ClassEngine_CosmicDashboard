@@ -47,9 +47,9 @@ $$i\hbar\,\partial_t \psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + \lambda|\psi|^2\
  medium's zero-point sector; its computed scale is the vacuum-occupancy binding energy
  $\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2$. With τ sourced by the Koide kernel this is
  **2.2599 meV against the measured 2.25 — +0.44%**, an existence claim rather than a precision one
- (the quartic sits past perturbative control — head of this file); the structure $M_2 = \alpha^2 T_c$ carries it,
- and $\alpha_c = 3\alpha$ is under test. From the condensation temperature of the dyad (the
- electron-coupled pseudo-Goldstone field)
+ (the quartic sits past perturbative control — head of this file); the structure
+ $M_2 = \alpha^2 T_c$ carries it, and $\alpha_c = 3\alpha$ is under test. From the condensation
+ temperature of the electron-coupled scalar, a pseudo-Goldstone field
  ($m_e \to T_c \to M_2 \to \rho_\Lambda$); see the cosmological-constant document.)
 - The **excitations** are the dark matter: radiation-like above a transition redshift
  $z_{\rm on}$, CDM-like below — one fluid, two eras (the dCDF sector — the dark-sector
@@ -103,10 +103,10 @@ derivation is ≈1.8% *of the value* — and the running measurements decide.)
 
 - $c = 9/10$: a **counting fraction**, and the decomposition's assumed factor. The count is
  (N−1)/N over the **universal charged-fermion roster** — 9 charged species + the zero-point's own
- seat → $c = 9/10$ — **not** the dyad's leptophilic subset, which drops the quarks and cannot
- reach the count. Which universal-charged reading holds (democratic-9 → 9/10, or the
- neutrino-inclusive 12/13) is settled by the dark-energy–neutrino tie: ρ_Λ¼ = m_ν,lightest is a
- genuine lock *only if* the lightest neutrino mass is **direct-Majorana** (m₁ ≈ μ = 2.25 meV),
+ seat → $c = 9/10$ — **not** the electron-coupled scalar's leptophilic subset, which drops the
+ quarks and cannot reach the count. Which universal-charged reading holds (democratic-9 → 9/10,
+ or the neutrino-inclusive 12/13) is settled by the dark-energy–neutrino tie: ρ_Λ¼ = m_ν,lightest
+ is a genuine lock *only if* the lightest neutrino mass is **direct-Majorana** (m₁ ≈ μ = 2.25 meV),
  which seats the neutrino on the medium's own tenth channel (the seat operator is exhibited with
  its UV form — [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)) → **9/10**; the 12/13 reading
  needs an inverse-seesaw light mass, which demotes the meV coincidence from a lock to a tuning of
@@ -117,16 +117,19 @@ derivation is ≈1.8% *of the value* — and the running measurements decide.)
  chosen ones — and the roster is chosen by **charge**, an identity-reading criterion. Carried
  through consistently, charge weights as well as selects: Σ N_c Q² over the charged nine is
  exactly **8**, giving c = 8/9 = 0.889, and if the neutral seat then takes weight zero the count
- returns c = 1, which the counting argument excludes. **No single criterion returns 9/10**, so the value is
- a counting assumption the data confirms rather than one the framework forces
+ returns c = 1, which the counting argument excludes. **No single criterion returns 9/10**, so
+ the value is a counting assumption the data confirms rather than one the framework forces
  ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1). The ε-blind ensemble is the check and
  it does not adjudicate: 8/9 sits 0.30σ from 9/10 at its width, inside its own error bar.
  So the value is **9/10, conditional on keeping the tie a lock and on the equal-weight
- assumption** (the position the dark-energy prediction takes); the empirical f̄ ensemble / α_c chain (P-2026-040) remains
- the independent check.
-- $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$, forced by many-turn equidistribution, with the coupling form data-selected (P-2026-041). *(The winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of $\bar{f}$ — the high-statistics ensemble is the check, not the source.)* **Derived — not a parameter, and not
- a simulation output.**
-- $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), booked BEFORE the deciding
+ assumption** (the position the dark-energy prediction takes); the empirical f̄ ensemble / α_c
+ chain (P-2026-040) remains the independent check.
+- $\bar{f} = 2/\pi = 0.63662$: **derived** — the winding's time-average $\langle|\cos|\rangle$,
+ forced by many-turn equidistribution, with the coupling form data-selected (P-2026-041). *(The
+ winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of
+ $\bar{f}$ — the high-statistics ensemble is the check, not the source.)* **Derived — not a
+ parameter, and not a simulation output.**
+- $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), on the record BEFORE the deciding
  measurement (the α_c chain) converges — and 2.3% ABOVE where current data points, so it is
  falsifiable within weeks, not retrofit ever.
 
@@ -164,7 +167,9 @@ single row, is the claim under adjudication in the nested-sampling run now execu
 
 What does not compress is the derivation chain *inside* the symbols — why $9/10$
 (the counting-argument mechanism), why $2/\pi$ (the winding history from first genesis), why
-$177.10$ keV (the confining chiral ratio $\tau \cdot m_e$ — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is the perturbative cross-check, **never the keying value**), why $3\alpha$ (owed at the microphysical level, bet-registered).
+$177.10$ keV (the confining chiral ratio $\tau \cdot m_e$ —
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is the perturbative cross-check,
+**never the keying value**), why $3\alpha$ (owed at the microphysical level, bet-registered).
 Those numbers are outputs of the field's history from its initial conditions, not axioms.
 The equations are three lines; the receipts are the repository.
 

@@ -335,7 +335,7 @@ upper end of the scanned range — the same fraction as in the beat formula abov
 not the retired amplitude factor) — at a pitch PTAs cannot hear. Also a genuine null: the
 chaotic genesis left no observable stochastic background (fraction² tiny).
 
-PTA is a corpse, dead by mass; the ε-meter role passed entirely to the
+The pulsar-timing channel is closed by the mass gate; the ε-meter role passed entirely to the
 granule channel (§14). The model's cleanest near-term GW-adjacent exposure
 is superradiance (§12's live exposure), not pulsar timing.
 
@@ -579,9 +579,9 @@ detection kills the model), votes (the model takes a side on a live
 controversy, kill-only), inherits (a published bound that binds us
 through a derived transfer factor), receipt (existing data the model's
 structure already passed or requires), instrument (a laboratory class
-whose improving nulls the model must survive forever), killed-by (a
-domain that already executed part of the model — attachment proven by the
-corpse). Every entry ends with the hook: what result in that domain hurts
+whose improving nulls the model must survive forever), exclusion (a
+domain whose data has already ruled out a variant or component of the model —
+the attachment is demonstrated by that exclusion). Every entry ends with the hook: what result in that domain hurts
 us. Sources: the Atlas, the predictions registry, the Room 1 expedition
 log, the five-verdict derivation, the reconciliation audit.*
 
@@ -607,7 +607,7 @@ every clock generation, currently 10⁻¹⁸. *Hook: a drifting or
 environment-tracking constant NOT matching R1's binary pattern kills R1;
 any lab-frame dark coupling kills the census.*
 
-28. Quasar absorption spectroscopy — killed-by, and binds R1. This
+28. Quasar absorption spectroscopy — exclusion, and binds R1. This
 domain already executed varying-α (45–100× over the z≈4 bound, all β).
 It now holds R1's fate in its Rule-1 terms: MET by a ~1% m_e offset
 between virialized and unvirialized absorbers; KILLED by ≪1% uniformity.
@@ -680,7 +680,7 @@ determination now test that number from the lab side. *Hook: a
 lab-determined inverted hierarchy or a Σ incompatible with 61.4 meV
 scores the whisper dead.*
 
-39. Neutrino self-interactions — killed-by. The five-lever audit
+39. Neutrino self-interactions — exclusion. The five-lever audit
 executed ν self-interaction levers within the model class (measured
 free-streaming phase shift). *Hook: closed; resurrection forbidden.*
 
@@ -697,11 +697,11 @@ ever. The model votes AGAINST DESI DR2's 3.1σ evolving-DE preference,
 live now. *Hook: decisive confirmation of dynamical DE with phantom
 crossing kills the bare-constant floor and E2.7's split.*
 
-42. Weak-lensing surveys (DES, KiDS-Legacy) — receipt and killed-by.
+42. Weak-lensing surveys (DES, KiDS-Legacy) — receipt and exclusion.
 S₈ = 0.823 at the KiDS consensus at zero χ² cost is the model's live
-S₈ claim; DES is also β's executioner (+30 at 10⁻⁷ — attachment proven
-by corpse). *Hook: S₈ resolving high (ΛCDM-side) removes a tension
-relief; shear demanding nonzero β would resurrect a corpse we buried.*
+S₈ claim; DES also excludes the sound-speed parameter β (+30 at 10⁻⁷ — the
+attachment is demonstrated by that exclusion). *Hook: S₈ resolving high (ΛCDM-side) removes a
+tension relief; shear demanding nonzero β would reopen a closed route.*
 
 43. The Lyman-α forest — inherits (survived once, still armed). The
 squeeze passed by 6 decades at k = 0.2/Mpc at M = 2×10⁻²² — and the
@@ -770,10 +770,11 @@ model's side. High spins holding in the registered band now kill the recorded
 mass outright, because the defence that was owed has been computed and is
 absent, and the mass has nowhere to go.*
 
-53. Pulsar timing arrays — killed-by (headstone in place). The beat
-channel died by mass — after a month of derivation, ensemble runs,
-and protocol. The attachment is proven by the corpse and its
-pre-registered burial. *Hook: closed honestly; PTA silence is now
+53. Pulsar timing arrays — exclusion, and it is recorded. The beat
+channel is closed by the mass gate — the signal a pulsar array could hear
+requires a lighter field than the three-way mass determination permits.
+The attachment is demonstrated by that exclusion, which was
+pre-registered before it fired. *Hook: closed honestly; PTA silence is now
 REQUIRED — a confirmed nanohertz signal matching the KR template at our
 old band would be someone else's discovery and our confusion.*
 
@@ -960,7 +961,7 @@ checkable rather than trusted:
 - Inherits (6): §§34, 35, 43, 46, 49, 68
 - Receipt (12): §§29, 36, 37, 50, 51, 56, 64, 65, 67, 69, 70, 72
 - Instrument (2): §§27, 30
-- Killed-by (2): §§39, 53
+- Exclusion (2): §§39, 53
 - Mixed (4): §§25, 28, 33, 42
 
 which means more than half the census can still hurt us,
@@ -975,8 +976,8 @@ direction.
 *Current standing of every attachment (written 2026-07-07; maintained since). Each row states in
 plain words whether the domain passes now, runs as a standing null (a bet held
 at the required null), is trailing (live data currently leaning against us),
-awaits posterior / sims / data / derivation, has already executed a kill
-(attachment proven by corpse), rests on a cite-verified laboratory
+awaits posterior / sims / data / derivation, has already ruled out a
+component (attachment demonstrated by that exclusion), rests on a cite-verified laboratory
 receipt, is an internal theorem, or is a ruler we measure against rather than a claim.*
 
 | § | Domain | The receipt / what's owed |
@@ -995,7 +996,7 @@ receipt, is an internal theorem, or is a ruler we measure against rather than a 
 | 36 | Cosmic ν background | passes, and has already fired once — N_eff = 3.044 arithmetic executed ξ_Neff; damping tail consistent |
 | 37 | ν oscillations | a ruler we measure against — Δm² floors; not ours to bend |
 | 38 | KATRIN / JUNO | awaits the posterior — P-2026-004 falsified (ANN-2026-021); meV whisper (Σm_ν≈61.4 meV, NO) stands, and the chain running right now tests it |
-| 39 | ν self-interactions | already executed — five-lever audit corpse |
+| 39 | ν self-interactions | already ruled out — the five-lever audit |
 | 40 | Distance ladder | a standing bet — P-2026-001 registered (commit 8a5840a5); ladder unresolved |
 | 41 | DESI DE evolution | trailing — DR2 prefers evolving DE at 3.1σ, the one attachment currently moving against us; the bet is that it recedes |
 | 42 | Weak lensing S₈ | passes, and carries a corpse — S₈ = 0.823 at KiDS consensus, zero χ² cost; DES executed β |

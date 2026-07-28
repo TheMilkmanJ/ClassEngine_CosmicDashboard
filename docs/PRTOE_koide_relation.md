@@ -19,10 +19,10 @@ made stick; the standard position is "numerology, presumably."
 Any new physics touching lepton masses should WRECK a delicate mass relation. This model's
 lepton coupling is **multiplicative-universal by construction** (the Card-7 structure, graded:
 every lepton Yukawa dressed by the SAME factor) — and Q is a RATIO invariant under a common
-rescaling: **the dyad shifts every lepton mass 1.2543% and Koide's Q does not move in the tenth
-digit.** A model that had to choose between varying lepton masses and preserving Koide got
-both, from one portal structure needed anyway for gate-0. That is a real, graded improvement:
-the relation's robustness is EXPLAINED here and accidental everywhere else.
+rescaling: **the electron-coupled scalar shifts every lepton mass 1.2543% and Koide's Q does
+not move in the tenth digit.** A model that had to choose between varying lepton masses and
+preserving Koide got both, from one portal structure needed anyway for gate-0. That is a real,
+graded improvement: the relation's robustness is EXPLAINED here and accidental everywhere else.
 
 ## 2. The live half: why it holds (the lane, honest status)
 
@@ -51,7 +51,8 @@ medium." **Medium w and field w are different objects.** A separate scalar in a 
 background has its own dynamics: overdamped and frozen (K ≈ 0, w_field ≈ −1) when m ≪ H;
 oscillating with ⟨K⟩ = ⟨V⟩ (w_field = 0) when m ≫ H. Neither regime gives K = 2V. The medium's
 radiation EoS does not transfer to an embedded field by proximity. *(Ledger:
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) — "medium-w inheritance for Koide.")*
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) — the retired medium-w inheritance for
+Koide's A = √2.)*
 
 
 What would still close the blank: either (i) the family structure is **not** a separate field
@@ -91,7 +92,7 @@ What is owed, and it is one thing: the identification K ∼ R², V ∼ M² — t
 fluctuation *is* the family field's kinetic energy and its background *is* the potential — is a
 property of the family-field potential, and **that potential is not built**. The generation
 structure is the unbuilt floor beneath it: **family space is Z₃, not the condensate phase** (the
-Z4-torus reading is retired — [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)), and the
+Z₄-torus reading is retired — [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)), and the
 floor's missing object is named: **the background M**. The log coupling derives the ring's geometry
 and its scale (R = 1/√κ), but **A = R/M is a ratio to a centre no term in that energy locates.**
 Until the identification is exhibited on the masses, the packet is a sharp restatement, not a
@@ -109,8 +110,8 @@ Landing not derived; protection still is.
 
 Remaining-shapes walk (same day). Topology deferred-closed (no invariant = √2). Two-deposit
 knobs live as shape only; Komar-balance map killed (produces A = 1/√2 — fence: do not flip labels).
-Two-field architecture reduces to equal stiffness under medium-modulation. Basement lock 6 is a
-target, not a payment.
+Two-field architecture reduces to equal stiffness under medium-modulation. The constituent
+theory's lock 6 is a target, not a payment.
 
 
 Equal stiffness, paid from the field-space metric. Canonical kinetic term for three real
@@ -142,8 +143,8 @@ coincidence, at minimum, has finally met a structure shaped like itself.*
 
 
 ## The fence, measured
-Q = 0.6666605 ± 6.8×10⁻⁶ today (τ-dominated; 0.9σ from exactly 2/3). The dyad's
-multiplicative universality preserves Q by construction; any non-multiplicative
+Q = 0.6666605 ± 6.8×10⁻⁶ today (τ-dominated; 0.9σ from exactly 2/3). The electron-coupled
+scalar's multiplicative universality preserves Q by construction; any non-multiplicative
 distortion must sit under ~7×10⁻⁶ — the numerical fence, improvable by Belle-II-class
 τ-mass measurements.
 
@@ -173,11 +174,11 @@ diverges as the wall is approached — which is the wall-tangency reading's cont
 Σ√m_k = 3 identically for every φ, because three cosines at 120° cancel; that exact fact is
 sometimes mistaken for a stationarity condition at 2/9, and it is not one.
 
-so **f₁/f₀ = e^(−½ln2 + i·2/9)**. The phase relation says something geometric: stepping once
-around the three-generation ring accumulates 3 × (2/9) = 2/3, so **the ring's holonomy is the
-Koide invariant itself.** That identification is structure-clean and still un-derived — it is the
-sector's one remaining theoretical link, and it is the only thing between Q = 2/3 and a closed
-account of the lepton masses.
+Together the two parts give **f₁/f₀ = e^(−½ln2 + i·2/9)**. The phase relation says something
+geometric: stepping once around the three-generation ring accumulates 3 × (2/9) = 2/3, so
+**the ring's holonomy is the Koide invariant itself.** That identification is structure-clean
+and still un-derived — it is the sector's one remaining theoretical link, and it is the only
+thing between Q = 2/3 and a closed account of the lepton masses.
 
 ### The modulus predicts a temperature
 
@@ -188,9 +189,10 @@ carries the dark-energy scale. So the Koide sector, using no cosmological input 
 
 This is worth stating carefully, because the comparison is not what it first looks like. Inverting
 the observed dark-energy density gives τ = 0.34506, which returns the observation by construction
-and is therefore not a determination of τ at all. **½ln2 is.** It descends from Q = 2/3 — a lepton-mass fact measured to ten parts per million — through an exact
-identity, with nothing cosmological entering anywhere. Judged as the only independently sourced τ
-the model possesses, it lands **0.44% from the sky** — **an existence claim, not a precision one**:
+and is therefore not a determination of τ at all. **½ln2 is.** It descends from Q = 2/3 — a
+lepton-mass fact measured to ten parts per million — through an exact identity, with nothing
+cosmological entering anywhere. Judged as the only independently sourced τ the model possesses,
+it lands **0.44% from the sky** — **an existence claim, not a precision one**:
 the composite quartic that carries ρ_Λ¼ sits above its control edge (λ = 26–46 against λ\* = 22.41),
 so the radiative correction is uncontrolled at this order and the chain is claimed to land on the
 scale rather than to two decimal places. The τ comparison below is unaffected, being exact
