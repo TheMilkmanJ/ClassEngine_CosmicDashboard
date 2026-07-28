@@ -254,6 +254,15 @@ a handedness it never held. Even the parity-odd gravitational coupling θ·R·R�
 gravitational waves, not photons — the wrong messenger, since rotating photons still requires
 θ·F·F̃, off-metric and census-forbidden.
 
+The ban's enforcer is worth stating precisely, because it is not a closed channel but an absent
+one. The medium's U(1) is a dark-number symmetry and electromagnetically neutral, so it carries
+no electromagnetic anomaly at all: the parity-odd coupling was never in the field content to
+leak. This is why the two bans behave differently under the condensation handoff. A transient
+residual coupling does exist mid-handoff — the un-condensed fraction — so something can slip
+through, but that leak grabs the wrong particle's *mass* and stays parity-even: a momentary
+electron-mass wobble, not a rotation. The mass-based ban is the one the transition relaxes; the
+parity-odd ban is structural and no timing argument reaches it.
+
 - **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
  structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
  mechanism produces a c_s²(s) bump with independent motivation. None
@@ -367,76 +376,6 @@ gravitational waves, not photons — the wrong messenger, since rotating photons
  **FAILED-forever by** the genesis calc confirming z_x~1×10⁵ (the current value) OR the
  angular mode remaining census-forbidden under the scope ruling. Warm,
  on those terms.
- **KEYSTONE (adaptation refinement):** condition (i) is
- ESCAPABLE — a regime change framed as an *adaptation/feedback to the
- forming polarization* (not a timed switch) auto-times itself to last
- scattering, defeating scrambling and the z_x tail at once. But "adapting
- to POLARIZATION" is, by definition, the medium reading the *handedness*
- of light and responding — i.e. the parity-odd EM coupling of condition (ii).
- So every timing fix collapses onto (ii): the **census (the derived gravity-only count) is the SOLE
- true keystone**, and the deepest reopener is the parity-coupling
- ruling, not z_x (which is only the soft, escapable one). If #5 stays
- gravity-only, birefringence is forbidden regardless of timing cleverness.
- **Sub-refinement (the handoff leak):** a
- transient residual coupling DOES exist mid-handoff (the un-condensed f_n
- — the coupling isn't cleanly closed), so something CAN slip through. But
- that leak is a FLAVOR slip (grabbing the wrong particle's MASS) and stays
- parity-EVEN → a momentary m_e-like wobble, not a rotation. The two bans
- have different enforcers: the MASS-based ban (naturalness) is what the
- transition relaxes (→ the parity-even f_n leak); the PARITY-odd ban is
- STRUCTURAL — the medium's U(1) is dark-number and EM-neutral, carries no
- EM anomaly EVER, so the parity coupling was never in the field content to
- leak. The medium can grab the wrong particle (flavor); it has no means to
- grab a handedness (parity). The keystone is not a closed channel, it is the
- ABSENCE of the channel — which is why no cleverness about the transition reaches it.
- **CAPSTONE (the space-radiation-radiation-space route):**
- the m_e workaround (space-mass-mass-space, §92) is census-legal precisely
- because it scrambles through the METRIC — but the metric is parity-EVEN and
- handedness-blind, so anything routed through it exits parity-even. So
- space-radiation-radiation-space yields gravitational redshift / lensing /
- ISW of the CMB (all already in the model), NEVER a rotation. The
- workaround reaches whatever LIVES IN THE METRIC: mass scales live there (why
- space-mass works); photon handedness does NOT (it is an internal EM
- property gravity cannot see), so nothing to scramble. Even the parity-odd
- gravitational coupling θ·R R̃ (Chern-Simons gravity) rotates GRAVITATIONAL
- waves, not photons — wrong messenger; rotating photons still needs θ·F F̃,
- off-metric, the EM anomaly, census-forbidden. DEEPEST FORM OF THE KEYSTONE:
- census = gravity-only = metric-only = parity-even-only; birefringence is an
- off-metric parity-odd effect, constitutionally unreachable by any
- metric-mediated workaround. Author parked the search 2026-07-08 (this was the
- "very last idea" — seven angles now, all converged on the one structural
- fact: the medium touches only the metric, and handedness is not in it).
- **FINAL / 8th angle (the imperfect-handoff premise):** the premise is sound (the
- universe is imperfect — the model's own deuterium row is exactly such a fumble). But
- imperfection CANNOT manufacture parity violation: a symmetry is not broken by sloppiness. A
- fumbled parity-even coupling is still parity-even; its imperfections are
- symmetric NOISE (equally likely either handedness) that averages to ZERO
- net rotation and is incoherent (patchy), not the observed coherent
- isotropic β (which needs a SYSTEMATIC handedness preference). Tellingly,
- every imperfection the model DOES engage (deuterium = a mass/abundance
- fumble) is parity-EVEN — the medium fumbles what it holds (masses, in the
- metric); it cannot fumble a handedness it never held. You can drop the
- plate you are carrying, not one you never picked up. Eight angles, one
- structural fact; the null is now maximally over-determined. Parked.
- **SOLUTION HUNT (2026-07-08 — find a mechanism, not
- just re-bury):** four fresh angles thrown and answered. (a) Weak-sector bridge
- (EM-neutral but weak-charged, neutrino-like) — DEAD: the photon anomaly counts
- (T₃+Y)²=Q_em²=0 for EM-neutral, and the surviving θ·Z·Z̃ is irrelevant (Z absent
- at CMB energies). (b) θ·R·R̃ chiral GWs → photons via Gertsenshtein — DEAD:
- needs external B, Planck×B suppressed, incoherent. (c) vorticity·E (parity-odd)
- — DEAD: coupling ω to E needs the EM charge / chiral charged fermions. (d)
- **Kinetic mixing / dark photon — the real find:** gauging the medium's GLOBAL
- U(1) into a dark photon + a kinetic-mixing portal (ε F F′) DOES transfer a dark
- axion coupling into visible θ·F·F̃ (∝ε²) → genuine birefringence. It WORKS — but
- requires exactly what the census forbids and the model explicitly excludes ("no
- dark photon"). **So the resurrection cost is now SPECIFIC: a confirmed 5σ
- birefringence forces the model to gauge its U(1) into a dark photon + open a
- kinetic-mixing portal, surrendering the census (and MICROSCOPE-safety,
- flavor-blind constants).** Not "the model dies" — "the model becomes a
- dark-photon-portal model." Graveyard cross-link check: NONE — the other entries
- (carrier-ratio/caustic, funded floor, screening) are parity-even scalar/DE/DM
- sector; birefringence is parity/EM, no shared handedness structure. Stays buried;
- the one gain is that the cost of a future signal is now named, not vague.
 
 ## The coupling→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
 *The medium responds to exactly one input — spacetime geometry (gravity
