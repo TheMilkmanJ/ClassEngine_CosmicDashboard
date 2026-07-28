@@ -98,8 +98,9 @@ granule-onset boundary).
 - STRUCTURE-GATE story (R1): the UNVIRIALIZED dark-ages/cosmic-dawn IGM carries bare
   m_e ≈ 1.01 → percent-level shifts in 21-cm physics exactly where REACH/SKA-low will look.
 
-The fork is real, clean, and instrument-dated. It is not registered: R1's remaining gate is the
-two-field simulation. It is on the record here so it cannot be quietly skipped — and so nobody registers it
+The fork is real, clean, and instrument-dated. It is not registered: what R1 still owes is the
+non-polynomial coupling's ultraviolet story, the precision question having been settled
+analytically. It is on the record here so it cannot be quietly skipped — and so nobody registers it
 early in enthusiasm.
 
 ## 5. The near-term judge already running

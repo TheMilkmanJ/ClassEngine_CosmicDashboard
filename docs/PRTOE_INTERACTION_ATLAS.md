@@ -289,8 +289,13 @@ critical velocity is zero, so classical caustics wave-regularise into de Broglie
 threaded by a vortex tangle, which makes the caustic bit a random-wave statistics question
 rather than a ray-tracing one — and for developed circular-Gaussian speckle the local quantity
 Θ = Q/(Q+K) is Beta(d/2, d/2)-distributed, so its mean is exactly ½ independent of the power
-spectrum, velocity dispersion, density, epoch, dimension, and even anisotropy. The remaining
-gate is the two-field simulation. Externally it is met by a ~1% offset in electron-mass-sensitive
+spectrum, velocity dispersion, density, epoch, dimension, and even anisotropy. Two structural
+conditions carry that result and are where any residual kill lives: the coupling must respond
+to a many-cell average — a realistic absorber column of ~10⁹ cells clears the required
+uniformity with orders of margin, while a pointwise coupling is excluded by the distribution's
+own order-unity variance — and the environments compared must be deep-developed rather than
+soliton-core or laminar. What remains owed is the non-polynomial coupling's ultraviolet story.
+Externally it is met by a ~1% offset in electron-mass-sensitive
 spectroscopy between virialized and demonstrably unvirialized gas, and killed by such
 spectroscopy matching the laboratory to well under 1%; that channel carries registered bets of
 its own (P-2026-007, -043, -050).
