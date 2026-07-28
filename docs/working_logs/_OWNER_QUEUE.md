@@ -78,6 +78,41 @@ keeps its place in the registry or moves to a parked register until an instrumen
 
 ---
 
+## 3b. z_on (task #23) is queued correctly, but the queue does not clear for three months
+
+**Raised 2026-07-28, on the owner's question.** The queueing discipline is already built and
+already right: `scripts/launch_zon_identity_rerun.sh` **refuses to start while either bbnfix chain
+is alive**, and it records the `classy` .so mtime and git HEAD into the launchlog so the physics
+provenance is unambiguous. Nothing needs adding to make it queue properly.
+
+**The problem is when the queue clears.** At measured throughput the pair reaches its own
+`max_samples = 40000` cap in **83 and 92 days**, so the launcher unblocks in about **three
+months** — and then the z_on chain starts from zero on the same one-core box. Adding it *now*
+instead pushes the pair to 111 and 123 days, buying nothing: three unconverged chains instead of
+two.
+
+**And the instrument may be wrong for the job.** What #23 feeds is the zero-parameter evidence
+exposure, carried as **Laplace-from-MCMC** — which needs a well-located mode and a local curvature,
+not a converged posterior. Per check 24 that is a *point plus a Hessian*, and no chain in this tree
+has ever produced a defensible width anyway. `scripts/zon_bobyqa_frozen.py` already finds that mode
+by BOBYQA over the six compensating dimensions, and at ~66 s per likelihood it costs **6–30 hours**
+on the contended core depending on the eval budget — against three months of waiting followed by
+months of sampling.
+
+**The ruling, three options:**
+
+1. **Leave it queued as built.** Correct, self-enforcing, and nothing happens for three months.
+2. **Run the optimizer instead, now.** Gets the identity-configuration mode and χ² floor in under a
+   day, which is what the Laplace ΔlnZ actually consumes. Costs the production pair ~25% throughput
+   while it runs. This is the recommendation.
+3. **Both** — optimizer now for the point, MCMC still queued for a width nobody can currently
+   defend.
+
+Nothing has been launched: adding a CPU-bound job to a saturated core is the owner's call, and the
+standing instruction is that the current pair finishes because it rides the latest C build.
+
+---
+
 ## 4. The junction quartet misses closure by nine, and #39's target may be the wrong number
 
 **Raised 2026-07-28.** Baryogenesis records ω_J ≈ 5.7 keV, j = ω_J²/Γ_φ ≈ 6 meV, Γ_φ/θ̇ ≈ 10⁷ and
