@@ -1,4 +1,4 @@
-> **PROVENANCE NOTE (2026-07-12):** the v4 era (superseded by v5+/the dyad era); for current state see PRTOE_INDEX.md.
+> **PROVENANCE NOTE (2026-07-12):** the v4 era (superseded by the v5+ era); for current state see PRTOE_INDEX.md.
 
 # PRTOE v4 dCDF — Honest-Pipeline Results (2026-07-05)
 

@@ -183,7 +183,7 @@ opened it; nine turns closed it. In between: the unfalsifiability
 pincer was broken on paper at the attacker's own chosen line, the
 funded-floor mechanism was derived and then executed by the defender's
 own computation of the attacker's question, ξ_Neff was executed by
-the data mid-review (the triad collapsing to a dyad), a prediction
+the data mid-review (the triad collapsing to a pair), a prediction
 market on the BBN-consistent fit embarrassed both parties each in one
 leg, and the review's extracted qualifiers were promoted into the
 document's headline with turn attributions preserved. The reviewer's

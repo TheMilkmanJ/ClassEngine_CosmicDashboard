@@ -1100,3 +1100,33 @@ The dynamical half now stands at two gates closed of three, with gate (a) —
 the energy-clean spherical number — the last one out, and its first row
 already refused by its own energy gate (391% drift at the deepest amplitude:
 grades nothing, exactly as designed; the grid continues).
+
+## 26. Gate (a) diagnosed: the instrument's error tracks the quantity it measures (2026-07-27)
+
+Three of the spherical rebound's four configurations have returned, and all three are refused
+by their own energy gate — 391%, 119% and 24% drift against a 2% bar. The useful question is
+not how large those are but which way they move, and the three rows span about a decade in
+achieved focusing, so the scaling is measurable (`scripts/spherical_drift_scaling.py`).
+
+**Drift rises with focus, faster than linearly.** Over the measured decade,
+drift(%) ≈ 0.033 · focus^1.28. The exponent above unity is the finding: the numerical error
+grows faster than the compression the run exists to measure. Setting drift = 2% gives a
+ceiling of **focus ≤ 25×**, while the recorded O6 bar needs **focus ≥ 1.0×10⁹** — seven and a
+half decades apart, and the two requirements move in opposite directions.
+
+**So gate (a) is unreachable by this scheme rather than by this budget.** Running longer,
+adding configurations, or refining the grid all push toward deeper focusing, which is exactly
+what makes a row unquotable. Closing the gate needs a formulation whose error does not track
+the compression: a manifestly conservative integrator (symplectic or constraint-projected), or
+a reformulation in a variable that stays regular through the focus — not a finer version of
+this one.
+
+**Stated with its own limits.** Three points over one decade, extrapolated to nine: the
+exponent is indicative at the bar, not measured there. What is *not* an extrapolation is the
+sign — drift rises with focus in every row — and the sign alone settles the direction. The
+fourth configuration is still running; it can sharpen the exponent and cannot change the sign.
+
+**Consequence for the white-hole task.** Gates (b) and (c) are closed at candidate grade. Gate
+(a) does not close on this instrument, so the O6 endpoint's caveat stays as recorded rather
+than upgrading to measured, and the reopening condition named there — an energy-clean run
+clearing 10⁹ — now carries a method requirement with it.

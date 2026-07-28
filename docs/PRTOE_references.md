@@ -32,9 +32,9 @@ V = verified, exactly as used in our documents):
  completion, the X₀-free canonical form, the GC dictionary.
 - [V] **Hart & Chluba**, MNRAS 474, 1850 (2018) (CosmoRec varying-
  constants modeling); **Hart & Chluba**, MNRAS 493, 3255 (2020)
- (Planck 2018 constraints + Hubble-tension relation) — the dyad's
- varying_me implementation basis AND independent literature
- convergence.
+ (Planck 2018 constraints + Hubble-tension relation) — the
+ electron-coupled scalar's varying_me implementation basis AND
+ independent literature convergence.
 
 ## Quantum-foundations receipts (C-series)
 - [V] **Gleason**, J. Math. Mech. 6, 885 (1957) — pricing forced by

@@ -1,4 +1,4 @@
-> **PROVENANCE NOTE (2026-07-19):** the v4 era (superseded by v5+/the dyad era); the
+> **PROVENANCE NOTE (2026-07-19):** the v4 era (superseded by the v5+ era); the
 > general P(X) derivation below remains correct and load-bearing; for current state see
 > PRTOE_INDEX.md.
 

@@ -61,13 +61,13 @@ prices in μ² itself.
 | epoch/environment | w | δv/v |
 |---|---|---|
 | BBN (pre-basin) | 1/3 EXACTLY, zero drift | **+0.15% constant** — the healer |
-| recombination (mean) | 2×10⁻⁷ | 10⁻⁹ — dyad untouched |
+| recombination (mean) | 2×10⁻⁷ | 10⁻⁹ — the electron-coupled scalar untouched |
 | laboratory halos | 5×10⁻¹¹ | 10⁻¹³ — clocks/Oklo/absorbers safe |
 | deep voids today | g → 0 | **0 — dead** (the −0.45% first written here conflated g with the full-medium w; corrected by §3a's retraction) |
 | cosmic diffuse mean today | g → 0 | 0 — dead (same correction) |
 
-**Consistency check not forced:** mapping back to the booked
-normalization, κ_v = (k·w/2)/(ρ_d/ρ_r) = **0.06 at the ΔN_eff
+**Consistency check not forced:** mapping back to the normalization
+on the record, κ_v = (k·w/2)/(ρ_d/ρ_r) = **0.06 at the ΔN_eff
 bound — inside ANN-2026-005's [0.06, 0.41] window**, derived, not
 fitted to it.
 

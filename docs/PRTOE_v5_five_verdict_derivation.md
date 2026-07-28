@@ -348,10 +348,11 @@ Chain: 2.3's granule masses (~10⁶ M☉ lumps in dwarfs) + V1's
 FDM-equivalence ⇒ the ultra-faint-dwarf heating bounds apply to M_eff
 verbatim. If the Dalal–Kravtsov-class analyses hold: M_eff ≥ 3×10⁻¹⁹
 eV ⇒ m̄₂ ≤ 3×10¹¹ GeV ⇒ cores < 1 pc ⇒ **the small-scale
-discriminator is dead and the model reverts to the pure dyad
-(§4.2 permanent).** If their relaxation modeling fails scrutiny
-(contested), a window at M_eff ~ 1–3×10⁻²¹ eV with 60–200 pc cores
-survives. The verdict is the fork itself, stated without preference.
+discriminator is dead and the model reverts to the dark fluid and the
+electron-mass shift alone (§4.2 permanent).** If their relaxation
+modeling fails scrutiny (contested), a window at M_eff ~ 1–3×10⁻²¹ eV
+with 60–200 pc cores survives. The verdict is the fork itself, stated
+without preference.
 
 ### V3 — granule reshaping: NONE (derivation grade)
 Chain: the pre-basin remnant is diluted by a⁻⁶ since z ~ 10⁵ (7×10⁻⁵
