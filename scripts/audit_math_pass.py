@@ -1853,6 +1853,20 @@ chk("DERIVATION_HUNT 1", "#126: 8/9 and 9/10 separated by, at the ensemble width
 # guarded beneath it so a file restoring "3.3x" cannot pass unnoticed.
 chk("DERIVATION_HUNT 1", "#126: sharpening to the candidate SPACING 0.0115 (not a separation)",
     3.26, _SDc/0.0115, 5e-3, "x")
+# --- P-048: the null inherits the sky, and that caps the test -----------------
+# H_observation = rho_Lambda^(1/4)(obs) / [(9/2) alpha^4 m_e], so it carries
+# rho_Lambda's +/-0.449%. That uncertainty EXCEEDS the 0.44% separation being
+# measured, so clauses 2 and 3 of the decision rule cannot execute at any
+# lattice precision. Guarded so the point cannot be lost again.
+_TAU_K, _TAU_N, _FRAC_RHO = 0.34657359, 0.3450553, 0.00449
+_SIG_N = _TAU_N * _FRAC_RHO
+chk("P-048", "sigma on the observation-inverted null", 1.549e-3, _SIG_N, 5e-3)
+chk("P-048", "kernel-vs-null separation", 1.518e-3, _TAU_K - _TAU_N, 5e-3)
+chk("P-048", "separation in units of the NULL's own sigma", 0.980,
+    (_TAU_K - _TAU_N)/_SIG_N, 5e-3, "sigma")
+chk("P-048", "best case at the 0.22% lattice threshold", 0.873,
+    (_TAU_K - _TAU_N)/((0.0008**2 + _SIG_N**2)**0.5), 5e-3, "sigma")
+
 _GAP89 = 0.9 - 8.0/9.0
 chk("DERIVATION_HUNT 1", "#126: what 0.0115 actually buys against 8/9", 0.966,
     _GAP89/0.0115, 5e-3, "sigma")

@@ -24,7 +24,7 @@ PRTOE_the_great_chain.md (+ Appendices A/B).*
 - [THE FORCED COMBINATION](PRTOE_forced_combination.md) — the family ring's existence theorem: pure-gauge collapses, pure-medium is scale-free, only the hybrid exists (algebra EXACT; setting candidate-grade)
 - [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–29 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)
-- [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
+- [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every ruled-out route in one place (the graveyard; the main read stays gold)
 - [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the source list)
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — the elevator formulation: substrate, coupling, decomposition (the compressed front door)
 
@@ -104,9 +104,9 @@ candid self-assessment is deliberately not on this shelf and is not listed here.
 
 ## The archive — provenance only, DO NOT cite as current
 
-*Superseded work, kept for the record. The reading rule: **a file here may state a retired claim
-as if live.** Where a headline result was retired, the file carries a named retirement banner;
-where it only carries the generic "some statuses may be superseded" hedge, trust
+*Historical work, kept for provenance. The reading rule: **a file here states the model as of its
+own date.** Where a headline result has since moved, the file carries a banner saying so; where it
+does not, trust
 [MATH_SPINE](PRTOE_MATH_SPINE.md) and [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) over it.*
 
 - [amplitude_derivation](archive/PRTOE_amplitude_derivation.md) — **retired decomposition**

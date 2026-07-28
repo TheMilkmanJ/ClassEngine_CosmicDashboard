@@ -532,11 +532,8 @@ protocol row VIOLATES the pre-registered monotonic shrink (soft,
 PTA channel is BAND-BOTTOM-SENSITIVE and may be dead on both V2-fork
 branches (band fragments disagree: 1×10⁻²² / 5×10⁻²² / 1-3×10⁻²¹); the
 morning band audit gates ALL PTA numbers. (5) The collision now has
-THREE correlated readouts of one eps: PTA beat (light-m-gated),
-granule power p²+q² (any m), superradiance quench (heavy edge,
-CONFIRMED-QUENCH grade, possibly live with existing data on the
-DK-holds branch — **the quench readout is WITHDRAWN 2026-07-20: the
-margin is −83.7 to −85.8 decades and no quench occurs**). The
+TWO correlated readouts of one eps: PTA beat (light-m-gated) and
+granule power p²+q² (any m). The
 registration's spirit is unchanged: both
 directions still executable, now with the instruments named per
 mass branch.
@@ -659,18 +656,6 @@ Consequences, stated per the registry's own discipline:
  channel (p² + q² suppression, m-independent) carries the dice
  readout alone. Simulation-grade follow-up owed before any granule
  number is quotable.
-- The free-vs-condensate discriminator (superradiance λ-quench)
- is LIVE at the band top: M87*'s [2.9, 4.6]x10⁻²¹ free-scalar
- exclusion overlaps m ~ 3x10⁻²¹. A spin measurement there kills
- free FDM and not the dyad — present-day data, not future.
- **[WITHDRAWN 2026-07-20 — there is nothing to discriminate.]** The
- shield this rested on does not exist: re-derived at the model's own
- quartic and mass, the λ-quench margin is **−83.7 to −85.8 decades**
- across α_g = 0.1–0.5, so at λ ≈ 2×10⁻⁹¹ the field is a free scalar
- for every superradiance purpose (f_eff = 5×10¹⁶ GeV). The band-top
- framing is retired independently, the mass having since been pinned
- an order higher at 2.24×10⁻²⁰ eV. The live physics is P-2026-034,
- and it stands undefended.
 
 No new prediction is registered by this annotation; it settles one
 collision, kills three advertised numbers, and narrows the program's
@@ -1336,41 +1321,34 @@ A FLAT 3-TORUS is finite + compact + no-center + no-edge (satisfies finitism and
 chain) AND flat (Ok=0 → H₀ easing untouched, stays 69.9). So the corrected bet is FLAT-AND-COMPACT
 (3-torus, Ok~0), NOT positively-curved-closed (3-sphere, Ok<0).
 
-**P-2026-013 primary claim updated:** Ok ~ 0 (FLAT) + compact/finite topology + suppressed large-angle
-CMB power (a finite box quantizes the largest modes even when flat). The old falsifier "Ok firmly ≥0"
-is WITHDRAWN (flat is now the prediction, not a falsifier). New live falsifiers: (a) a confirmed
+**P-2026-013 primary claim:** Ok ~ 0 (FLAT) + compact/finite topology + suppressed large-angle
+CMB power (a finite box quantizes the largest modes even when flat). Live falsifiers: (a) a confirmed
 INFINITE universe / no compact-topology signature at any scale; (b) an off-diagonal covariance over
-ℓ ≤ 6 inconsistent with the predicted correlation pattern -- **which replaces the earlier falsifier
-"no large-angle power suppression": at every box size the matched circles permit, the suppression is
+ℓ ≤ 6 inconsistent with the predicted correlation pattern -- **the measurable channel, because at
+every box size the matched circles permit, the power suppression is
 0.16σ against cosmic variance, so its absence cannot be measured and cannot falsify anything**
 (2026-07-20); (c) Ok pushed firmly NEGATIVE by data (positively-curved-closed) -- which would both cost H₀ and
 contradict the flat-torus form. The H₀ easing and the (refined) shape bet are now COMPATIBLE.
 
-## P-2026-013 QUANTITATIVE UPDATE (2026-07-08): flat-torus quadrupole window computed
+## P-2026-013 QUANTITATIVE UPDATE (2026-07-08): flat-torus low-ℓ pattern computed
 
-`scripts/torus_quadrupole.py` (sanity-matched: numeric C2(full)=0.0833=analytic). Sachs-Wolfe
-leading-order estimate of the flat 3-torus large-angle suppression (finite box → no modes with
-k<2pi/L). Quadrupole suppression C2(torus)/C2(inf) vs box size L (D=comoving dist to last scatter):
- L=10D: 1.00 ; L=4D: 0.94 ; L=3D: 0.83 ; L=2D(=obs.univ.diam): 0.49 ; L=1.5D: 0.19 (excluded).
+`scripts/torus_lowell_pattern.py` (checks carried: the infinite-universe C_l against the analytic
+1/(9πℓ(ℓ+1)); retention → 1.0000 as the box grows). A finite box is a mode LATTICE — the six modes
+sitting exactly at k_min carry their full cells' weight rather than being discarded — so the flat
+3-torus large-angle suppression is a mode sum, not a sharp cutoff at k<2pi/L. Quadrupole
+suppression C2(torus)/C2(inf) vs box size L (D=comoving dist to last scatter), Sachs-Wolfe:
+ L=3D: 0.976 ; L=2D(=obs.univ.diam): 0.844 ; L=1.5D: 0.447. At L=2D the retention is **0.90**
+with the ISW included.
 KEY RESULTS:
- (1) the torus reproduces the observed low quadrupole (~0.2-0.5 of ΛCDM) ONLY for L ~ 2-2.5 D --
- i.e. a box just larger than the observable universe, RIGHT AT the matched-circle bound (no
- circles ⇒ L > ~2D). Bigger box → suppression fades; smaller → circles would be seen. A
- razor-thin viable window L ~ 2-3D at the current detection threshold.
- (2) DISTINCTIVE SIGNATURE: quadrupole suppressed MORE than octupole (0.49 vs 0.85 at L=2D) --
- scale-dependent, hits the largest scale hardest, matching the FORM of the real low-l anomaly.
-
-**SUPERSEDED on result (1) — the depth, not the shape (2026-07-20, `scripts/torus_lowell_pattern.py`).**
-The table above is a sharp-cutoff continuum estimate. A finite box is a mode LATTICE, and the six
-modes sitting exactly at k_min carry their full cells' weight rather than being discarded; done as
-the mode sum, the same L = 2D box retains **0.84** (Sachs-Wolfe) or **0.90** (with the ISW), not
-0.49. **There is therefore no box size, permitted or otherwise, that delivers the observed
-0.2-0.5 quadrupole**: the "razor-thin viable window at L ~ 2-3D" does not exist, and the shape
-result (2) survives while the depth result (1) does not. The prediction's live content moves
-entirely to the compact-topology signature — matched circles and the off-diagonal correlation
-pattern — and away from large-angle power suppression, which cosmic variance cannot resolve at
-any box size the circles permit.
-CAVEATS: SW-only, isotropic-cutoff estimate; full torus C_l is anisotropic (preferred axes) + ISW;
+ (1) THERE IS NO BOX SIZE, permitted or otherwise, that delivers the observed low quadrupole
+ (~0.2-0.5 of ΛCDM). At the matched-circle bound (no circles ⇒ L > ~2D) the largest suppression
+ available is ~10%, i.e. 0.16σ against cosmic variance — its absence cannot be measured. The
+ prediction's live content is therefore the compact-topology signature — matched circles and the
+ off-diagonal correlation pattern — and not large-angle power suppression.
+ (2) DISTINCTIVE SIGNATURE: quadrupole suppressed MORE than octupole --
+ scale-dependent, hits the largest scale hardest, matching the FORM of the real low-l anomaly;
+ the suppression is confined to the lowest multipoles and is gone by ℓ ≈ 4.
+CAVEATS: full torus C_l is anisotropic (preferred axes);
 observed low quadrupole is only ~2sigma (cosmic variance). ⇒ P-2026-013 is quantitatively LIVE but
 TIGHT: falsifiers now sharpened to (a) matched circles found at L<2D (would've been seen) OR pushed
 so large no suppression remains; (b) octupole suppressed as much as/more than quadrupole (wrong
@@ -1460,14 +1438,6 @@ particle-DM signal). SUPPORTED by continued direct-detection nulls at improving 
 **Status:** CONSISTENT (all direct-detection null to date). A clean, standing PRTOE-vs-WIMP referee.
 
 ## P-2026-049: Cosmic birefringence — the census fork (registered 2026-07-09, Version B)
-
-> **ID CORRECTED 2026-07-17 — this entry was registered as `P-2026-010`, an ID already held since
-> 2026-07-07 19:37 MDT by the gravitational-wave standard-sirens bet (above).** Two unrelated
-> pre-registrations shared one number, so every downstream citation of "P-2026-010" was ambiguous
-> and one of the two bets was uncitable. **The earlier registration keeps the ID** (the timestamp is
-> the authority — that is this registry's founding rule); the later one moves to the next free slot.
-> **Nothing about the bet, its content, its date, or its kill conditions changes** — only the label.
-> Its registration timestamp remains **2026-07-09**.
 
 **Context:** the original strict census (P-2026-009) predicted birefringence NULL as a
 kill-switch (dark sector EM-neutral). This registers the OPPOSITE, unification-motivated
@@ -2081,8 +2051,8 @@ survives: the minimal solutions sit at 1–3 TeV.
 
 ## P-2026-039: Three Type-III Seesaw Triplets at ~1 TeV (registered 2026-07-11)
 
-**CURRENT STATUS (2026-07-12): SUSPENDED-ADVERSE — read the amendments in order.** The
-one-loop band was suspended (two-loop shift); shooter v2 lands the census triplets
+**CURRENT STATUS (2026-07-12): SUSPENDED-ADVERSE.** The
+one-loop band is suspended by the two-loop shift; shooter v2 lands the census triplets
 at 13–20 TeV (beyond HL-LHC). **The edge-convention audit CONCLUDED 2026-07-20 (#124): the
 census arrow fell, not the convention.** Both O(λ) corrections it waited on are now computed by
 integral (#141, crossed box c = 0.789262; #183, Fock self-energy a = 0.280677 — same sign, they add),
@@ -2093,18 +2063,42 @@ survive; the ~1 TeV collider knife-edge does not, at current grade.
 
 **The claim:** the induced-gauge closure (the joint solve), duty-pinned by the model's
 own hiring needs (the seesaw + the portal), predicts **exactly three wino-like
-Y=0 fermion triplets** — the type-III seesaw mediators — at **M_T = 1.07 TeV central, band
-0.4–2.6 TeV** (two-loop + input uncertainties). The count is forced from both sides: the RG
+Y=0 fermion triplets** — the type-III seesaw mediators. The count is forced from both sides: the RG
 system REFUSES n_T = 2 (solves to 22 keV, absurd), the seesaw refuses n_T < 2; the minimal
 joint content is 3 — equal to the generation count by a route that never consulted it.
 
-**What is and is not predicted:** M_T is ROBUST (stable across n_D = 1–5, factor ~2.5 band);
-the accompanying vector-like doublet's mass is NOT predicted (exponentially sensitive to the
-two-loop difference — nominal 3.3 TeV, honest range 10³–10⁶ GeV). The triplet Yukawa needed
+**The conditions that set the masses.** The induced conditions belong to the true UV couplings —
+1/α₂(M_red) = 0 AND 1/α_Y(M_red) = 0, spliced at M_Z to measured values (29.58, 98.37) — not to the
+electron-scale α, which overcounts sub-threshold running (crude 20.5 vs measured 9.1). Under that
+system the SU(2) equation is unchanged, and the duty-pinned bands are **M_T ∈ [1.00, 1.19] TeV**
+and, for the accompanying vector-like doublet, **M_D ∈ [1.0, 8.0] TeV** — **both at one loop only.**
+
+**What M_T and M_D are, pending the two-loop run.** The two-loop term is a definite shift, not a
+smear: the new content inflates its own two-loop coefficients (B₂₂ ≈ 280 vs the SM's ~6; each Dirac
+triplet contributes ~85), the induced coupling is born strong (the top ~6 e-folds of the run
+are outside one-loop control), and the estimated two-loop shift on the SU(2) need is ~17% —
+enough to move M_T from ~1 TeV toward ~50 TeV. The one-loop bands are therefore ONE-LOOP
+ARTIFACTS, and the honest statement is that **the duty family closes the corrected census with
+masses in the 1–100 TeV decade**: the exact location is a
+CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
+with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable. M_T is
+ROBUST against the doublet count (stable across n_D = 1–5, factor ~2.5 band); M_D is the
+exponentially sensitive one (nominal 3.3 TeV, honest range 10³–10⁶ GeV). The triplet Yukawa needed
 for m_ν = 0.05–0.09 eV (P-023's band) is y ~ 1.5×10⁻⁶ — electron-class, no new tuning.
 
-**Kills:** (i) HL-LHC/future type-III searches exhausting the band (current limit ~0.9–1.0
-TeV — the window is a factor ≲2.6: this prediction is SCHEDULED, not safe); (ii) any
+**What the hypercharge log requires.** It demands MORE screening than
+SU(2), and Y=0 triplets supply none of it: every closure requires additional charged-lepton
+content (e.g. 8 × Q=1 or 2 × Q=2 vector-like singlets near 50 TeV in the duty family) — a
+predicted species class in its own right. The doublet-only closure needs EXACTLY n = 13 doublets at
+1.17 TeV, a multiplicity floor.
+
+**Honest demotion:**
+census-invisible steriles (type-I) could carry the seesaw instead — the type-III triplets
+are the census-VISIBLE option, not forced.
+
+**Kills:** (i) HL-LHC/future type-III searches exhausting the decade (the current type-III
+limit is ~0.9–1.0 TeV, and with the perturbative program suspended the collider search referees
+the decade directly); (ii) any
 demonstration that the triplets cannot carry the seesaw while the doublet carries the portal
 (duty conflict); (iii) the full two-loop run pushing M_T outside collider reach (that kills
 the sharp version and reverts to "content required, unpinned").
@@ -2113,31 +2107,6 @@ the sharp version and reverts to "content required, unpinned").
 contingency chain (premise → closure → duty-pin) — but it is the chain's first knife-edge
 collider number, leptophilic per t358b, and the neutral members self-dispose via the seesaw
 Yukawa (no relic bill).
-
-**AMENDMENT 2 (2026-07-11) — THE CORRECT UV VARIABLES; THE BAND SHARPENS; A NEW
-SPECIES IS BILLED.** The induced conditions belong to the true UV couplings — 1/α₂(M_red) = 0
-AND 1/α_Y(M_red) = 0, spliced at M_Z to measured values (29.58, 98.37) — not to the
-electron-scale α (the m_e anchor overcounted sub-threshold running: crude 20.5 vs measured
-9.1; fifth threshold-error, self-caught). Under the corrected system: (i) the SU(2) equation
-is unchanged, and the duty-pinned triplet band SHARPENS to **M_T ∈ [1.00, 1.19] TeV at one
-loop** (two-loop smear owed) — the knife edge stands, harder; (ii) the doublet mass is now
-PREDICTED: **M_D ∈ [1.0, 8.0] TeV**; (iii) the hypercharge log demands MORE screening than
-SU(2) and Y=0 triplets supply none of it — every closure requires additional charged-lepton
-content (e.g. 8 × Q=1 or 2 × Q=2 vector-like singlets near 50 TeV in the duty family): a
-NEW predicted species class; (iv) the doublet-only closure needs EXACTLY n = 13 doublets at
-1.17 TeV (the dissolved integer returns as a multiplicity floor); (v) honest demotion:
-census-invisible steriles (type-I) could carry the seesaw instead — the type-III triplets
-are the census-VISIBLE option, not forced.
-
-**AMENDMENT 3 (2026-07-11) — THE KNIFE EDGE IS SUSPENDED PENDING THE TWO-LOOP RUN.**
-The new content inflates its own two-loop coefficients (B₂₂ ≈ 280 vs the SM's ~6; each Dirac
-triplet contributes ~85), the induced coupling is born strong (the top ~6 e-folds of the run
-are outside one-loop control), and the estimated two-loop shift on the SU(2) need is ~17% —
-enough to move M_T from ~1 TeV toward ~50 TeV. The one-loop bands ([1.00–1.19] TeV;
-M_D [1–8] TeV) are therefore ONE-LOOP ARTIFACTS. Honest current statement: the duty family
-closes the corrected census with masses in the 1–100 TeV decade; the exact location is a
-CALCULABLE definite shift (not noise) owed to the full piecewise two-loop shooting run,
-with residual (three-loop + birth-zone) floors of only ~×1.3. Suspended, recoverable.
 
 ## P-2026-040: α_c = 3α — the Condensate Coupling (registered 2026-07-11; graded by the α_c MCMC)
 
@@ -2309,44 +2278,17 @@ kill (b) tests, is a TeV-scale anchor derived from the Planck floor and α alone
 landing is superseded: that program closed as mooted, and the collider search refereeing the decade
 directly is what remains.
 
-**AMENDMENT 2 (2026-07-19) — arrow B is now in tension with electroweak precision.**
-*(Withdrawn by amendment 3 below — it prices the Higgs as composite, which §2(c) of this model does
-not. Retained unedited because the registry's history is auditable.)* The channel
-result commits the anchor to dynamical electroweak breaking with a composite Higgs, which inherits
-the S-parameter constraint. Vector dominance gives S ≈ 4πv²/M_ρ² against the measured |S| ≲ 0.14
-(S = −0.01 ± 0.07, U = 0): **S = 0.307 at 1576 GeV — excluded at ≈ 4σ — against 0.077 at the
-exact-solution value 3152 GeV, with the bound at M_ρ > 2333 GeV.** So **arrow B, the identification
-M_anchor = 4πm_H = 1574 GeV, sits where electroweak precision disfavours it**, while the value the
-exact gap-equation solution independently produces sits in the allowed region. Two unrelated lines —
-a solved gap equation, and existing precision data — both point above ≈ 2.3 TeV, and both point
-away from 4πm_H.
-
-The escape is g_ρ ≳ 1.5, since S constrains g_ρ·f rather than the anchor alone; but λ = kα_c = 0.030
-is thirty-three times below a confining sector, and weak coupling argues for g_ρ ≲ 1, tightening
-rather than loosening. **Arrow B is not withdrawn — the O(1)s in the S estimate are not computed —
-but it can no longer be described as standing unopposed.** The honest reading is that the anchor
-most likely sits in the upper half of the band, with 4πm_H a coincidence rather than the
-identification. That reverses this entry's original ordering, in which arrow B was the one genuinely
-independent arrow ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6j).
-
-**AMENDMENT 3 (2026-07-19) — AMENDMENT 2 IS WITHDRAWN. It rested on a misreading of this model.**
-Amendment 2 priced the anchor as a *composite* Higgs and concluded that arrow B was in tension with
-electroweak precision. That reading is not this model's. §2(c) above states it directly: the Higgs
-is **elementary** and its *mass parameter* is induced — "under the no-bare clause m_H² must be
-induced; one loop of anchor-scale census states gives m_H ~ M_anchor/4π" — with the electroweak vev
-remaining the Standard Model's own. A model with an elementary Higgs does not carry the
-compositeness bound, and its Yukawas are the Standard Model's, so no extended-technicolor operators
-exist to constrain. **The S-parameter tension amendment 2 reported does not exist, and arrow B
-stands as originally registered.**
-
-What survives is a different and weaker constraint, recorded in its place: the anchor-scale portal
+**What electroweak precision constrains here (2026-07-19).** Not the anchor's scale, but the
+roster: the anchor-scale portal
 species carry electroweak quantum numbers, and a degenerate heavy doublet contributes
 ΔS = 1/6π = 0.053 without decoupling, so |S| ≲ 0.14 permits **at most two new electroweak
-doublets**. That bounds the census's portal roster, not the anchor's scale.
-
-The error is recorded rather than quietly reverted because the registry's value is that its history
-is auditable: amendment 2 moved a registered arrow on the strength of an analysis that had imported
-an assumption the model does not make.
+doublets**. The anchor itself carries no compositeness bound — §2(c) above states it directly: the
+Higgs is **elementary** and its *mass parameter* is induced — "under the no-bare clause m_H² must be
+induced; one loop of anchor-scale census states gives m_H ~ M_anchor/4π" — with the electroweak vev
+remaining the Standard Model's own, and its Yukawas the Standard Model's, so no
+extended-technicolor operators exist to constrain. **Arrow B, the identification
+M_anchor = 4πm_H = 1574 GeV, stands as registered**
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6j).
 
 **VISIBILITY NOTE on the P-2026-009 family (2026-07-12):** the model's zero-birefringence
 prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
@@ -2402,7 +2344,7 @@ edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
  resolved as data-selected rather than a free choice. The 256×3 ensemble does not decide it,
  it checks it; the squared-estimator precision is what that check awaits. The speed-weighted
  retrial runs.
-- **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND (the S-parameter tension reported in amendment 2 was withdrawn by amendment 3 — it rested on a composite-Higgs reading this model does not hold); arrow C (the census
+- **P-2026-042** (the TeV anchor): arrows A (x₀) and B (4πm_H) STAND (electroweak precision bounds the portal roster — at most two new electroweak doublets — not the anchor's scale); arrow C (the census
  landing) STRAINED by shooter v2 (13–20 TeV); the edge-convention audit decides whether
  C fell or the convention did. **CONCLUDED 2026-07-20 (#124): the arrow fell, not the
  convention.** The audit could not conclude while the anchor was a band whose width came from an
@@ -2671,10 +2613,25 @@ that computation lands.
 > | | τ | a return here means |
 > |---|---|---|
 > | **H_kernel** | **0.34657** | the kernel sources τ; the dark-energy prediction is real (as an existence claim — its precision waits on the same campaign's non-perturbative treatment) |
-> | H_observation | 0.34506 | the model is reading ρ_Λ back; the flagship has no independent prediction |
+> | H_observation | 0.34506 **± 0.00155** | the model is reading ρ_Λ back; the flagship has no independent prediction |
 >
 > They sit **0.00151 apart — 0.44%**. That gap *is* the dark-energy claim; there is nothing else to
 > measure.
+>
+> **The null is not a point, and this bounds what any lattice can settle.** H_observation is
+> ρ_Λ¼(obs) ÷ (9/2)α⁴m_e, so it inherits the measured dark-energy density's **±0.449%** — giving
+> 0.34506 ± 0.00155, a 1σ band of [0.34351, 0.34660] that **contains H_kernel at its upper edge**.
+> The uncertainty on the null therefore *exceeds* the 0.44% separation being tested. Even a lattice
+> determination at σ = 0 separates the two hypotheses by only **0.98σ**; at the 0.22% threshold
+> below, 0.87σ. **Clauses 2 and 3 are consequently not executable at present cosmological
+> precision, and no lattice campaign can make them so** — the limit is the sky's, not the lattice's.
+> Executing them requires either ρ_Λ measured several times better, or the test restated in a form
+> that does not use the observed dark-energy density to define its null.
+>
+> **What remains fully executable is clause 4**, which needs no comparison to H_observation: it asks
+> only whether τ̂ lands in a window fixed by the prediction alone. The best inference from measured
+> neighbours, 0.39 ± 0.05, sits **above** that window, so the falsification clause is live and the
+> claim is genuinely at risk.
 >
 > **The decision rule**, for a determination of T_c/√σ for SU(2), N_f = 3 reporting τ̂ ± σ:
 >

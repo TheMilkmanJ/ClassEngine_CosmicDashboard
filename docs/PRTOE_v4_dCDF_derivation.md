@@ -118,7 +118,7 @@ energy transfer, it identifies which regime a *given point in space* is in —
 dust-like inside a halo (locally dense), vacuum-like in a void (locally
 dilute). The "contact threshold" is a **density**, not a time.
 
-## 3. The de Sitter fixed-point constraint (the error caught and corrected)
+## 3. The de Sitter fixed-point constraint
 
 If $w(\rho)=-1$ identically anywhere, eq. (4) forces $\rho'=0$ there — the
 density cannot keep diluting while sitting at $w=-1$. So any viable w(ρ) must
@@ -156,8 +156,7 @@ tension in one line: **α simultaneously controls "how different from ΛCDM"
 and "how large the dangerous peak sound speed is."** They are the same knob.
 Making the model interesting (α not tiny) makes it fail LSS constraints;
 making it safe (α→0) makes it degenerate with ΛCDM+dust. No amount of
-sharpening a *single-parameter* transition escapes this — an earlier version
-of this derivation claimed otherwise and was wrong; corrected here.
+sharpening a *single-parameter* transition escapes this.
 
 ### 3.2 A genuine two-parameter family that decouples them
 

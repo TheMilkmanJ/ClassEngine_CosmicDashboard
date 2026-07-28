@@ -1556,6 +1556,21 @@ alive and the corner-selector reverts to the registry's original referee — the
 ν-interaction search (a g-detection selects the MeV corner; a null leans high-v_L). The corner-B
 seal made on the corridor's evidence is reverted to an open two-corner state.
 
+### The P-2026-010 identifier collision — two pre-registrations under one number (2026-07-17)
+
+**What happened:** the cosmic-birefringence census fork (Version B), pre-registered 2026-07-09, was
+written into the registry as `P-2026-010` — an ID already held since **2026-07-07 19:37 MDT** by
+the gravitational-wave standard-sirens bet. Two unrelated pre-registrations shared one number, so
+every downstream citation of "P-2026-010" was ambiguous and one of the two bets was uncitable.
+
+**The resolution (2026-07-17):** the earlier registration keeps the ID — the timestamp is the
+authority, which is this registry's founding rule — and the later one moved to the next free slot,
+becoming **P-2026-049**. Nothing about the bet, its content, its date, or its kill conditions
+changed; only the label. Its registration timestamp remains **2026-07-09**.
+
+**Why it is recorded here:** any citation of "P-2026-010" written between 2026-07-09 and
+2026-07-17 may mean either bet, and that ambiguity is not readable from the entries themselves.
+
 ### Process error 42: a root-level rm glob hit two tracked launch configs (2026-07-18)
 
 Relaunching the paused chains, a cleanup glob (`rm -f cmp_prtoe_routeD.* cmp_prtoe_conv_desi.*`)
@@ -3199,7 +3214,21 @@ mixing. Both consequences are withdrawn with the premise.
 **What survives, and it is a real constraint:** a counting bound rather than a compositeness
 bound. The anchor-scale portal species carry electroweak quantum numbers, and a degenerate heavy
 doublet contributes ΔS = 1/6π = 0.053 **without decoupling** — the contribution is
-mass-independent, so it bounds the species count rather than the scale.
+mass-independent, so it bounds the species count rather than the scale. With |S| ≲ 0.14 that
+permits **at most two new electroweak doublets**, and it bounds the census's portal roster, not the
+anchor's scale.
+
+**The numbers the withdrawn reading produced, recorded here in full since they no longer have a
+home in the registry.** Vector dominance gives S ≈ 4πv²/M_ρ² against the measured |S| ≲ 0.14
+(S = −0.01 ± 0.07, U = 0), which was read as **S = 0.307 at 1576 GeV — excluded at ≈ 4σ** — against
+**0.077 at the exact-solution value 3152 GeV**, with the bound at **M_ρ > 2333 GeV**. The escape
+weighed and rejected was g_ρ ≳ 1.5, since S constrains g_ρ·f rather than the anchor alone, against
+λ = kα_c = 0.030 sitting thirty-three times below a confining sector — weak coupling arguing for
+g_ρ ≲ 1, tightening rather than loosening. On that reading two unrelated lines (a solved gap
+equation and existing precision data) both pointed above ≈ 2.3 TeV and away from 4πm_H, and the
+anchor's arrow B — the identification M_anchor = 4πm_H = 1574 GeV — was said to sit where
+electroweak precision disfavours it. With the composite premise withdrawn the tension does not
+exist, and arrow B stands as originally registered.
 
 ### The six birefringence source-routes — all closed on the same two conditions (back-filled 2026-07-27)
 

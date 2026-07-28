@@ -50,10 +50,10 @@ studied distinction).
 
 If the quartet reading holds, the P-2026-040 corollary's apparent tension INVERTS: the chain
 center the constituent clock calls adverse becomes the quartet clock's confirmation zone
-(the $3\alpha$ prediction moves $7.59 \to 7.89$). **The chain state, read honestly:** the
+(the $3\alpha$ prediction moves $7.59 \to 7.89$). **The chain state:** the
 live dispersion chain (zon\_disp) currently sits at $\approx 7.7$ with $R{-}1 \approx 23$ —
-far from the $R{-}1 < 0.05$ bar, so **nothing confirms anything yet**; an earlier read of
-7.94 came from the superseded zon chain. On today's face value the nearest rung is the
+far from the $R{-}1 < 0.05$ bar, so **nothing confirms anything yet**; the 7.94 mark
+belongs to the old-template chain, not this one. On today's face value the nearest rung is the
 **pair** (7.74), which by §4 would kill the QUARTET, not the model — the converged center
 alone decides among the three rungs. The "gap" dissolves one level deeper only if the
 composite reading survives that referee. The triangle (occupancy + 3α + $x_0$), the freeze cascade, and P-2026-042's
@@ -75,11 +75,11 @@ The onset-clock identity (include/background.h, the coded T = 9.46 keV derivatio
 ## 4a. RESOLVED BY STABILITY: THE UNIT IS THE PAIR
 Quartets require attractive pair-pair coupling; the model's recorded real sound speed
 (c_s = √α_c) forces λ > 0 — repulsive — so quartets do not bind. The Z4 term locks
-phases, not composites (the §2 sketch conflated the two — failures ledger). The
-pair call is now DERIVED, not just registered. The running chain, unconverged, remains
+phases, not composites — two different objects (failures ledger). The
+pair call is DERIVED, not merely registered. The running chain, unconverged, remains
 the referee (§4b).
 
-**The plain-language completion (registered post-derivation):** "It's running
+**The plain-language completion:** "It's running
 forward and mirroring backwards. It doesn't need 2 more to do that." — the NECESSITY half
 of the argument: the pairing's job is time-reversal completion (one member with the
 arrow, one mirrored against it — the ghost's grammar), and that job is FULL at two. The
@@ -87,18 +87,17 @@ stability proof says quartets cannot bind; the registered reading says they woul
 nothing to do. Impossibility and pointlessness, one verdict.
 
 **Bets graded:** the TWINS bet — WON (derived). The exact-number
-bet — LOST honestly (the registered 7.72 vs the collapsed mark 7.547; the 7.70/7.72
-zone was a constructional double-count, so the number-bet was
-placed against a mislabeled board — noted, still graded as lost per the house rules).
+bet — LOST (the registered 7.72 against the collapsed mark 7.547; the 7.70/7.72
+zone is a constructional double-count).
 THE LIVE STAKES NOW: the chain (drifting 7.66→7.77) must DESCEND to ~7.55 for α_c = 3α
 to confirm — which makes the crest-and-descend trajectory call LOAD-BEARING
 for P-2026-040 itself: if the descent materializes and lands at 7.55, the trajectory call and
 3α confirm in the same breath.
 
-## 4b. STATUS (current truth): the lineup marks are SUPERSEDED
-The two-clock correction (two components — the zero-mode's H = m AND the winding mode's
-k/a = m coexist, sharing one m; their ratio measures n) RETIRES the §1 table as grading
-marks; the ramps-first re-derivation is owed before any center is graded. The QUESTION
+## 4b. Why the §1 marks do not grade a center
+The two-clock structure (two components — the zero-mode's H = m AND the winding mode's
+k/a = m coexist, sharing one m; their ratio measures n) means the §1 table supplies no
+grading marks; the ramps-first re-derivation is owed before any center is graded. The QUESTION
 stands (whose mass does the oscillating unit carry). Live watch: the dispersion chain's
 raw center is CLIMBING through the pair zone (7.66 → 7.77 across early segments,
 unconverged; log10_zon's own split-R−1 = 1.38 — no verdict until the drift dies).

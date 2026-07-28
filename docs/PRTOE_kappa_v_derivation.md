@@ -14,7 +14,7 @@
 > deuterium row's §7 and the registry. The operator work below (shape-forced / amplitude-input /
 > window-consistent, the seams, the audits) stands as method and record.
 
-**Status (2026-07-07): the honest triple, binding —
+**Status (2026-07-07): the status triple, binding —
 SHAPE-FORCED (class universality) / AMPLITUDE-INPUT (k_eff is chosen,
 not derived) / WINDOW-CONSISTENT (0.06 lands inside ANN-2026-005's
 window as a consistency, not a prediction). "Derived" may not
@@ -94,21 +94,21 @@ labs y = 5×10⁻¹¹ ⇒ g = 1.3×10⁻¹¹.
 w = −ρ∞/ρ — that is a different function, not the operator's, and it is
 what a void negative branch (δv → −0.45%) would require. Under the true
 operator, voids have y → 0 ⇒ g → 0: **no negative branch, no void
-prediction, no late-time signal anywhere.** The forced-prediction
-claim is withdrawn; R1's channel loses the κ_v companion. Cost paid
-in full; the operator is correspondingly SAFER (g ∈ [0, 1/3] always,
+prediction, no late-time signal anywhere.** There is no forced
+prediction here, and R1's channel carries no κ_v companion; the
+operator is correspondingly SAFER (g ∈ [0, 1/3] always,
 dead everywhere post-basin).
 
-**Seam 2 — uniqueness was the wrong claim; the right one is CLASS
-UNIVERSALITY.** c_s²(X̃) = (X̃−1)/(3(X̃−1)+2) is indeed a second
+**Seam 2 — the claim is CLASS UNIVERSALITY, not uniqueness.**
+c_s²(X̃) = (X̃−1)/(3(X̃−1)+2) is a second
 dimensionless invariant with the same limits — because at the
 two-derivative level EVERY local dimensionless scalar of one field is
-an analytic function h(X̃). The honest statement: **any bounded h(X̃)
+an analytic function h(X̃). Precisely: **any bounded h(X̃)
 with h(1) = 0 produces the healer profile automatically** — constancy
 pre-basin is forced by y → ∞ (every bounded h plateaus), death in
 labs by y → 0. The shape is universal over the class; the class
 collapses to ONE effective coupling k_eff = k·h(∞). Shape: forced.
-Amplitude: input (as audit 4 already conceded). "Derived not fitted"
+Amplitude: input (audit 4, §4a). "Derived not fitted"
 holds at class level, which is the level the ANN-2026-005 window
 comparison tests.
 
@@ -141,14 +141,14 @@ condition and the verdict is sharp both ways:**
  if and only if the completion delivers the form factor — the same
  single window every open item in this program queues at.**
 - Audit 3: MOOT (no void branch exists). Audit 4: permanent residue
- (the honest triple's amplitude-input clause).
+ (the status triple's amplitude-input clause).
 
 **Final status of the working docket: the operator is written, local,
 tree-natural, shape-forced, seam-closed, and radiatively viable
 conditional on completion softness. Nothing further is derivable
 this side of the §2 wall.**
 
-## 4-old. Audits owed (superseded by the above)
+## 4a. The four audits, as posed
 
 1. **Radiative stability**: does the portal loop-induce μ²-shifts or
  medium-potential corrections that destabilize k ~ 10⁻²?

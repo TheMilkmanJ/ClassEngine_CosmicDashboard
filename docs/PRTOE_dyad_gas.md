@@ -125,19 +125,19 @@ electron-coupler).
 
 ## Where the dead ends live
 
-The lepton/hadron varying-constant hierarchy (P-2026-011 — leptons shifting ~13× more than
-hadrons) is retired and lives in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under
-**"Retracted predictions"**. The scope of the surviving universality, stated precisely: the
+A lepton/hadron varying-constant hierarchy — leptons shifting ~13× more than
+hadrons (P-2026-011) — is closed; its autopsy is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). The scope of the universality that
+stands, stated precisely: the
 coupling is **multiplicative-universal *within* the lepton sector** (no flavour structure — the
 Koide protection) and **exactly leptophilic *across* sectors** — forced by **data**: a universal
 quark-mass shift at ε would move the deuterium binding by −4ε ≈ −5%, a +12–18σ D/H
-catastrophe on the recorded Dent–Stern–Wetterich elasticity. *(This was once billed as forced
-twice over, the second arrow being lepton number itself. That arrow does not fire: the operator is
+catastrophe on the recorded Dent–Stern–Wetterich elasticity. *(Lepton number supplies no second
+arrow: the operator is
 a total singlet and L-neutral, so lepton number screens the quark bilinear no more than the lepton
-one — §2. The data arrow alone carries it, at 12σ.)* A quarks-included reading of the
-P-011 retraction's wording is superseded by that adjudication; the census's "universal charged
-roster" is the *counting measure* for c = 9/10, a different object from the coupling's flavour
-reach.
+one — §2. The data arrow alone carries it, at 12σ.)* The coupling's flavour reach is not the
+census's "universal charged
+roster", which is the *counting measure* for c = 9/10 — a different object.
 
 ## Sources / see also
 
