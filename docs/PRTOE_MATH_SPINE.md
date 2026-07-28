@@ -1,6 +1,6 @@
 # PRTOE — THE MATH SPINE (genesis → now → end)
 
-> The flagship claim: the dark-energy scale is
+> The headline result: the dark-energy scale is
 > **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — α⁴ times a temperature tied to the electron. Every factor is sourced
 > except τ = T_c/m_e, and τ is where the claim lives.
 >
@@ -42,7 +42,7 @@ PRTOE_UV_completion.md, PRTOE_cosmological_constant.md (J1).*
 
 One dark superfluid, two components (the two-field split):
 
-* **Field 1** — the dcdf fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
+* **Field 1** — the dCDF fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
 [**MEASURED**, confirmed three independent ways: the coherence length ξ = ħ/(m c_s) returns
 398 AU against the recorded 402; the Schive core radius returns 7.14 pc against the recorded 7.0 for
 a 10⁹ M☉ halo; and the superradiance window lands on its recorded 6×10⁸–3×10⁹ M☉ — **that third one

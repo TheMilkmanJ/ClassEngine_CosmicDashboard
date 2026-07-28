@@ -46,8 +46,9 @@ environment half, one interaction and one signature at a time.
 ## Coherences (one parameter, many observables — the bet's evidence class)
 - **The electron-coupled scalar**: one modification to known physics (m_e) → H₀ ≈ 69.9
  from the CMB fit (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval,
- S₈ at the KiDS-Legacy consensus. The H₀ figure is provisional — the live evidence
- run is re-measuring it.
+ S₈ at the KiDS-Legacy consensus. The H₀ figure is provisional — its evidence
+ number is a Laplace estimate from the MCMC chains, with the nested-sampling confirmer
+ deferred to cluster time, so the chains' convergence is what sharpens it.
 - **The deuterium row-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
  (Approximate coefficients, literature-grade — pulled from source; see
@@ -836,11 +837,11 @@ is its only coupling). Give it curvature and the product is determined:*
  **Which quartic — settled first, because two were on the table 53 decades
  apart.** The first, ≈ 1.3×10⁻³⁸, is the quartic of the electron-coupled scalar —
  the high-f Coleman–Weinberg field whose VEV sets m_e. That field's own mass is
- 3.1–6.9×10⁻⁵ eV, a Compton
- wavelength of centimetres, and it forms no gravitational atom around a 10⁹ M☉
- hole. It is not this field's bare coupling — it is a **different field**, 15
- decades heavier. The cloud is made of the m = 2.24×10⁻²⁰ eV boson, so the only
- admissible coupling is its own quartic, **λ ≈ 2×10⁻⁹¹**.
+ 3.1–6.9×10⁻⁵ eV, a Compton wavelength of centimetres, and it forms no
+ gravitational atom around a 10⁹ M☉ hole. It is not this field's bare coupling —
+ it is a **different field**, 15 decades heavier. The cloud is made of the
+ m = 2.24×10⁻²⁰ eV boson, so the only admissible coupling is its own quartic,
+ **λ ≈ 2×10⁻⁹¹**.
 
  **What the resolved exponent actually cost.** The depleting channel is fixed
  by kinematics: a free final quantum requires the partner to land in n = 1, so
