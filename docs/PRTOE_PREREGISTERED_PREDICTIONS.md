@@ -619,10 +619,8 @@ detection" branch** — the mechanism stands (sign-locked phantom,
 growth-squared time-shape) at an amplitude invisible to any
 foreseeable w-measurement; the Bianchi withdrawal (ANN-2026-001's
 rider (i)) clears RSD by ~7 orders, trivially;
-(iii) **CORRECTION ON THE RECORD:** the earlier scaling-grade claim
-that the deep end (x0 ~ e⁻⁴³) was "DESI-scale" (4×10⁻³) did not carry
-the m̄₂–M_eff lock and is superseded; the two-sided x0 window's
-chalk lower wall is replaced by a brick one (LSS), and the drift
+(iii) the two-sided x0 window's lower wall is a **brick** one (LSS),
+not a chalk one, and the drift
 fingerprint is retired as an observable. P-2026-003's falsification
 structure survives unchanged: a confirmed phantom drift with the
 wrong shape still kills the mechanism; a confirmed drift at
@@ -1754,9 +1752,7 @@ in rest frequency; the offset turns OFF across the screening edge. Three verdict
 frequency); (ii) **the edge's SHAPE is predicted, not offered as a fork:** a patchy, σ8-tracking **fade over
 z ≈ 30–60** (the C²/clumping gate). A sharp global step is **not** an alternative reading — a
 dynamical discontinuity carries no exemption under the depth law — so **a confirmed sharp global
-edge counts against this entry** rather than selecting one of its readings. *(The retired
-thermal/global-step reading, and why it was registered, are in
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); amended 2026-07-16.)*;
+edge counts against this entry** rather than selecting one of its readings;
 (iii) **the edge's location measures C_ref.** Consistency check: EDGES-class z ≈ 17 sits below
 the edge → NO shift predicted there. **Instruments:** lunar-farside dark-ages radio
 (LuSEE-Night/FARSIDE class). **Falsifier:** a clean dark-ages detection at the standard rest
@@ -1786,8 +1782,8 @@ live falsifier; the v_L derivation decides how much of the model rides on it.
 
 **Context:** the deuterium "deuterium row" re-signed as a discriminator. Production PRyM at the model's OWN
 baryon densities (the m_e–ω_b CMB degeneracy pulls ω_b up +1.1% vs the in-house ΛCDM control on
-identical data): dyad-true primordial **D/H = 2.387×10⁻⁵** (**the RAMPED window**, 2026-07-16; was
-2.372 pre-window; the superseded step-bracket value was 2.40–2.42) vs own-ΛCDM **2.420** vs
+identical data): dyad-true primordial **D/H = 2.387×10⁻⁵** (**the RAMPED window**, 2026-07-16,
+applied to 2.372 pre-window) vs own-ΛCDM **2.420** vs
 quasar-optical **2.527 ± 0.030** (Cooke). The dyad sits on the LOW side of the fork — a
 self-adverse, owned bet (the direct m_e→BBN response is ~0, production-verified; the shift is all η).
 
@@ -1931,15 +1927,14 @@ A = 0.7% requires a primordial single-axis modulation A_prim = 36% at n = 30, 60
 Δ² ≲ 2×10⁻⁶ per log) A_prim ≲ 0.14%, giving **f_wind ≲ 3×10⁻⁵ = 0.003%, which is 255× under the
 fence's 0.7% floor.**
 
-**What survives.** The *location* ℓ₁ ≈ 3.1n is geometry and is untouched. The *amplitude* is not a
+**What survives.** The *location* ℓ₁ ≈ 3.1n is geometry and is untouched. The winding integer
+stands as the **BOUND n ≳ 1.65** at the torus floor rather than as a determination, so the location
+claim is **ℓ₁ ≈ 3.1n with n ≳ 1.65, i.e. ℓ₁ ≳ 5**; the ℓ₁ ≈ 31–94 band rode n ~ 10–30 and holds
+only for a torus 37–330× above its floor, which forfeits the banked low-ℓ signature. The
+registered geometry ℓ₁ = 3.1n is unchanged; its numerical window follows its input. The
+*amplitude* is not a
 percent-level overtone — it is unobservably small, so the comb is not a live two-sided falsifier and
-cannot be the ~2–3σ hint. The entry keeps its location claim and drops its detection claim.
-*(ANNOTATION 2026-07-27, syncing the winding integer's adjudication: the band ℓ₁ ≈ 31–94 rode
-n ~ 10–30, which has since been adjudicated down to the BOUND n ≳ 1.65 at the torus floor — the
-canonical-values file books the bound as standing and the determination as superseded. The
-location claim is therefore ℓ₁ ≈ 3.1n with n ≳ 1.65, i.e. ℓ₁ ≳ 5; the 31–94 band holds only for
-a torus 37–330× above its floor, which forfeits the banked low-ℓ signature. The registered
-geometry ℓ₁ = 3.1n is unchanged; its numerical window moved with its input.)* **The
+cannot be the ~2–3σ hint. The entry keeps its location claim and drops its detection claim. **The
 one escape, named because it is testable:** the acoustic ("ringing") reading — if the twist rang the
 medium *in time* during horizon exit rather than laying down a spatial array, the imprint is
 resonant, periodic in **ln ℓ** and isotropic in k̂, which evades the monopole dilution entirely.

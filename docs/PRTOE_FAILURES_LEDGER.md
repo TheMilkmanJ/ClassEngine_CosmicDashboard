@@ -1534,6 +1534,14 @@ forward. Any second equation for this sector must be satisfied at the *physical*
 criticality is not. The seed's exact masslessness stands as a fact about the seed; it cannot be
 promoted to the sector's missing condition.
 
+**Correction to this entry's own framing (same day).** What dies is criticality as an *equality*.
+Read as the **inequality** it actually is — positivity requires A ≤ A_max(φ), not A = A_max(φ) —
+the same pair of conditions is not a failed prediction but a **ceiling**: √(6Q−2) ≤ A_max(Q/3)
+bounds **Q ≤ 0.689433**, and the measured 2/3 sits inside it at 96.7%. So Q* = 0.689433 is the
+boundary of the allowed region rather than a prediction that missed, and the 3349σ figure grades
+only the attempt to impose it as an equality. The bound itself is a live derived constraint on Q and
+belongs in the sector's file, not here.
+
 ### P-2026-004 (Σm_ν ∈ [0.11, 0.17] eV) — FALSIFIED by DESI (2026-07-10; moved here 2026-07-28)
 
 **What it claimed:** a high summed neutrino mass, Σm_ν ∈ [0.11, 0.17] eV.
@@ -1715,6 +1723,25 @@ at ε_A = 2/9), 64 draws per winding, amplitude-gated median winding readout. It
 
 **Rule it carries:** a check is graded only after the object it measures is confirmed to be the
 registered one.
+
+### The "DESI-scale deep end" — a scaling-grade drift amplitude that skipped the m̄₂–M_eff lock
+
+**What it claimed:** that the hierarchy's deep end (x₀ ~ e⁻⁴³) put the dark-energy drift at
+**DESI-scale, ν ≈ 4×10⁻³** — i.e. that the drift fingerprint was observable at the deep end.
+
+**Why it died:** the estimate was scaling-grade and did not carry the zero-free-parameter lock
+ν = (4πα/3)(M₂²/(M_eff M_Pl))², α ≈ 2, in which the same operator coefficient m̄₂² sets both the
+funded floor's amplitude and, via M_eff = M₂²/m̄₂, the core scale (ANN-2026-008's V4
+mutual-exclusion theorem). Under the lock, DESI-visible ν ~ 1×10⁻³ requires
+M_eff ~ 6.6×10⁻²⁵ eV, i.e. l_dB ~ 90 kpc — galaxies could not exist. In the structure-allowed
+range ν ≤ 1×10⁻⁸.
+
+**What survives:** the two-sided x₀ window keeps its lower wall, but the wall is a **brick** one
+(LSS) rather than the chalk one this estimate drew; and P-2026-003 resolves to its registered
+"absent/below detection" branch, its falsification structure unchanged.
+
+**Disposition:** the drift fingerprint is retired as an observable — see the drift-fingerprint
+entry below for its final status.
 
 ### The P-2026-010 identifier collision — two pre-registrations under one number (2026-07-17)
 

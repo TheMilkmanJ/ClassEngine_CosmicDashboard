@@ -1902,6 +1902,18 @@ chk("koide joint", "phi* where closure meets criticality", 0.229811, _phi_star, 
 chk("koide joint", "Q* predicted by the joint system", 0.689433, _Q_star, 1e-4)
 chk("koide joint", "that miss in sigma on the measured Q", 3349.0,
     (_Q_star - 0.6666605)/6.8e-6, 5e-3, "sigma")
+# Read as the INEQUALITY it is, the same pair is a ceiling, not a prediction:
+# positivity requires A <= A_max, so Q <= Q*. The measured Q sits inside it.
+chk("koide bound", "Q ceiling from positivity + closure", 0.689433, _Q_star, 1e-4)
+chk("koide bound", "measured Q as a fraction of that ceiling", 0.9670,
+    (2.0/3)/_Q_star, 1e-3)
+chk("koide bound", "measured Q is inside the ceiling", 1, 1 if (2.0/3) < _Q_star else 0, 0)
+# The closure's branch is fixed by the same wall: branch spacing 2pi/3 against a
+# positivity window pi/6 at A = sqrt2 -- a factor 4, so at most one branch fits.
+chk("koide branch", "branch spacing over positivity window", 4.0,
+    (2*math.pi/3)/(math.pi/6), 1e-12)
+chk("koide branch", "how many branches fit the window", 1,
+    sum(1 for n in (-2,-1,0,1,2) if abs((2.0/3 + 2*math.pi*n)/3) < math.pi/12), 0)
 
 # --- Koide: the whole sector is a function of Q alone -------------------------
 # Parseval fixes the modulus from Q; the closure fixes the phase from Q. So the

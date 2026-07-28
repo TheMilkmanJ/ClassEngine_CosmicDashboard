@@ -335,3 +335,19 @@ second input beside the phase; Parseval fixes it from Q, the closure fixes the p
 whole sector — including the dark-energy floor's one lepton-side input — descends from **a single
 measured ratio**. The debt is therefore *one number and one relation*: why Q = 2/3, and why the
 closure 3·arg f₁ = Q holds at all.
+
+**The closure's branch is not ambiguous, and positivity is what fixes it.** A phase is defined
+mod 2π while a mass ratio is not, so 3·arg f₁ = Q admits branches φ_n = (Q + 2πn)/3 spaced 2π/3
+apart. With A = √2 positivity admits only |φ| < π/12, a window of width π/6 — **four times narrower
+than the branch spacing**, so at most one branch can ever fit. Exactly one does: n = 0 gives
+φ = 2/9 = 0.22222 inside the window, while n = ±1 land at +2.31662 and −1.87217, far outside. The
+branch is selected uniquely, by a wall the corpus already carries.
+
+**And the same pair bounds Q from above.** Positivity is the inequality A ≤ A_max(φ), which with
+A = √(6Q − 2) and φ = Q/3 reads √(6Q − 2) ≤ A_max(Q/3) and gives
+
+> **Q ≤ 0.689433**
+
+The measured Q = 2/3 sits inside that ceiling at 96.7% of it. This is a genuine derived constraint
+on Q — the sector's first — and it is what the recorded "96% of the wall" measures when read as a
+bound rather than as a coincidence. It does not fix Q; it fences it.
