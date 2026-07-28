@@ -1145,6 +1145,12 @@ chk("band provenance", "how far that is above the chain's own target", 1862,
     93.100635/0.05, 1e-3, "x")
 chk("band provenance", "the last row that chain ever wrote", 40.36, 40.362246, 1e-4)
 chk("band provenance", "its successor's best before collapse", 11.87, 11.869753, 1e-4)
+# Protocol check 24: the tree-wide state, booked so it is tracked rather than remembered.
+# If any chain ever converges these must be updated -- which is the point of booking them.
+chk("chain convergence", "best R-1 ever recorded across all 18 chains", 0.9095, 0.909502, 1e-3)
+chk("chain convergence", "the target it is measured against", 0.05, 0.05, 1e-12)
+chk("chain convergence", "so the best chain is still this far off", 18.19, 0.909502/0.05, 1e-3, "x")
+chk("chain convergence", "chains meeting their own stopping rule", 0, 0, 0)
 chk("band provenance", "epsilon at alpha_c = 3 alpha", 1.2543,
     _CF*3/137.035999084*100, 1e-3, "%")
 # The band is NOT the epsilon posterior inverted: the recorded ~1.24% maps ABOVE the band top.

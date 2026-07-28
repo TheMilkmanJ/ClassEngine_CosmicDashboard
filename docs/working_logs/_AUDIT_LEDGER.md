@@ -4960,3 +4960,37 @@ not an absence proof. The earlier entry stated its scope honestly — "all .md, 
 .py/.yaml/.json/.log" — and every one of those was true and none of them was the history. Protocol
 check 15 should read: *an absence claim over a version-controlled tree must search the history, or
 say that it did not.*
+
+### 2026-07-28 — the band's failure class, swept tree-wide: no chain has ever converged
+
+The α_c band was a posterior interval read at R−1 = 93.1. That is a failure *class*, so it got the
+sweep the owner's standing instruction calls for — find the same failure in other files.
+
+**`scripts/chain_posterior_provenance_audit.py`** walks every `.progress` in the tree, pairs it
+with its `Rminus1_stop`, and reports the best convergence ever recorded:
+
+> **Eighteen chains. Zero have ever met their own stopping rule.** The best is
+> `dyad_mnu_bbnfix` at **R−1 = 0.910 against 0.05** — still 18× off. Five have no convergence rows
+> at all. Four archived runs sit at R−1 between 11.9 and 27.6.
+
+**What this does and does not condemn.** Not the numbers, mostly. A chain far from convergence can
+still have a well-located mode, and most of what the corpus quotes — H₀ = 69.9, S₈ = 0.823,
+ε ≈ 1.24%, ξ = 0.142 — is a best-fit *point*. **The distinction is point versus width**, and an
+unconverged chain's interval carries no width guarantee: it is typically too *narrow*, because the
+chain has not finished exploring, so every σ built on one is inflated in the flattering direction.
+That is precisely how the band did its damage.
+
+**The corpus already gets this right in two places, and they are the template.**
+`PRTOE_s8_growth.md` refuses interim values outright — "their converged posteriors are the
+mechanism's test; no interim value carries". `PRTOE_REFEREE_CALENDAR.md` carries a full forensic
+account of the routeD collapse including the acceptance-rate tell (0.897 → 0.991 means the proposal
+is shrinking, not that the fit is good) and the warning that an archived dead chain "reads like a
+fresh measurement (it did, twice)". The failure was not ignorance of the mode; it was the
+discipline not being applied uniformly.
+
+**Written up as protocol check 24**, with the point/width rule and two live items flagged for
+re-check on convergence — `deuterium_row`'s "m_e = 1.01246 ± 0.00456 (2.7σ from 1)" and
+THREE_EQUATIONS' "`varying_me` = 1.0126 ± 0.0041". Both are carefully caveated in their own terms;
+neither carries its chain's R−1, which is what check 24 now requires. Four checks book the
+tree-wide state so it is tracked rather than remembered — and they will fail, correctly, the day a
+chain converges. Harness 918.

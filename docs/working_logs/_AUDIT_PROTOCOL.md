@@ -374,6 +374,34 @@ omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes
 member from the other two rather than booking it separately. That line would have caught either
 defect above had it been written for those sectors.
 
+**24. A POSTERIOR QUOTED FROM A CHAIN INHERITS THAT CHAIN'S CONVERGENCE STATE, AND A WIDTH
+INHERITS IT HARDER THAN A POINT (2026-07-28).** The α_c band [0.0205, 0.0214] was read off
+`cmp_prtoe_zon` when its last recorded R−1 was **93.1** against a `Rminus1_stop` of 0.05, and was
+then used for a year as though it were a measurement. Sweeping every chain in the tree
+(`scripts/chain_posterior_provenance_audit.py`): **none of the eighteen has ever recorded R−1 at or
+below its own stopping target**, the best being 0.910 against 0.05.
+
+That does not condemn the numbers. A chain far from convergence can still have a well-located
+mode, and most of what the corpus quotes — H₀ = 69.9, S₈ = 0.823, ε ≈ 1.24%, ξ = 0.142 — is a
+best-fit *point*, which is a much weaker claim and survives. **The distinction that matters is
+point versus width.** An unconverged chain's interval carries no width guarantee at all, and is
+typically too *narrow* rather than too wide, because the chain has not finished exploring — so
+every σ built on one is inflated in the flattering direction.
+
+The corpus already gets this right in two places and they are the template:
+`PRTOE_s8_growth.md` refuses interim values outright ("their converged posteriors are the
+mechanism's test; **no interim value carries**"), and `PRTOE_REFEREE_CALENDAR.md` carries a full
+forensic account of the routeD collapse, including the acceptance-rate tell (0.897 → 0.991 means
+the proposal is shrinking, not that the fit is good) and the warning that an archived dead chain
+"reads like a fresh measurement (it did, twice)".
+
+**The check: for every number attributed to a chain, state (a) which chain, (b) its R−1 at the time
+of reading, and (c) whether the quantity is a point or a width.** A width from an unconverged chain
+may be quoted only with its R−1 beside it. Live items this flags for re-check on convergence, both
+currently well-caveated but neither carrying its chain's state: `PRTOE_deuterium_row.md`'s
+"m_e = 1.01246 ± 0.00456 (2.7σ from 1)" and `PRTOE_THREE_EQUATIONS.md`'s
+"`varying_me` = 1.0126 ± 0.0041".
+
 **23a. AN ABSENCE CLAIM OVER A VERSIONED TREE MUST SEARCH THE HISTORY (2026-07-28).** The indirect
 band on α_c was reported as having "no derivation anywhere in the repository", on a sweep that
 honestly stated its scope — all `.md`, all chain inputs, all `.py`/`.yaml`/`.json`/`.log` — and
