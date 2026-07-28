@@ -31,11 +31,14 @@ The constitutional text (L1a, recorded): the medium cannot reach the PHOTON with
 couplings (the birefringence zero) — but it CAN carry a parity-odd GRAVITATIONAL coupling,
 θ·R·R̃ → gravitational waves. Consequence, joined to these structures: **a circularly-
 polarized (chiral) component of any primordial GW background, with handedness set by the
-genome's sign** — the SAME topological draw as the baryon asymmetry and the magnetic helicity
-(P-028). The chirality family now has three members on one integer: matter, magnetism,
-metric ripples. (The amplitude is computed below and closes as a structural null — the carrier
-is absent — so the GW member may never be readable; the SIGN correlation's falsifiable content
-lives through the family's other two members, the magnetic helicity and the baryon draw.)
+winding's sign** — the same topological integer that fixes the magnetic helicity's sign
+(P-028). The baryon asymmetry is **not** a member of this family: it rides the temporal
+rotation θ̇ while the helicity and the GW handedness ride the spatial winding n, and the joint
+draw finds those two signs independent (correlation −0.06 to +0.09 against a ±0.13 noise
+floor). The family is two members on one integer — magnetism and metric ripples — not three.
+(The amplitude is computed below and closes as a structural null: the carrier is absent, so
+the GW member may never be readable, and what remains testable is the helicity's sign relative
+to the winding axis.)
 
 ## 3. Ringdowns, echoes, and the interior
 

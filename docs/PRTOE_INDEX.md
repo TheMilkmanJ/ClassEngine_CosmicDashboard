@@ -22,7 +22,7 @@ PRTOE_the_great_chain.md (+ Appendices A/B).*
 - [THE COSMOLOGICAL CONSTANT](PRTOE_cosmological_constant.md) — the vacuum priced by census: ρ_Λ¼ = (9/2)α⁴·T_c, and with τ sourced by the Koide kernel (τ = ½ln2, T_c = 177.10 keV) that is **2.2599 meV against the observed 2.25 — +0.44%**, nothing cosmological in the chain — an existence claim, not a precision one, the quartic sitting past perturbative control. Referee: a lattice T_c/√σ for SU(2), N_f = 3, one job that gates the λ and τ questions together (CANDIDATE)
 - [THE HIERARCHY PROBLEM](PRTOE_hierarchy_problem.md) — the EW scale as a pairing gap: M_red·e^{−1/kα_c} (EXPLORATORY)
 - [THE FORCED COMBINATION](PRTOE_forced_combination.md) — the family ring's existence theorem: pure-gauge collapses, pure-medium is scale-free, only the hybrid exists (algebra EXACT; setting candidate-grade)
-- [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–38 order margins
+- [LV PRICING](PRTOE_LV_pricing.md) — the Lorentz-violation pricing pass: the blindness clause is the Lorentz shield; every sector priced, 12–29 order margins
 - [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md) — the remaining underived numbers and where their pieces already sit (living)
 - [FAILURES LEDGER](PRTOE_FAILURES_LEDGER.md) — every death, reversal, and self-caught error in one place (the graveyard; the main read stays gold)
 - [BIBLIOGRAPHY](BIBLIOGRAPHY.md) — every external source the model stands on (the source list)
@@ -30,7 +30,7 @@ PRTOE_the_great_chain.md (+ Appendices A/B).*
 
 ## The spine and constitution
 MATH_SPINE (§0–23; §23.5 = the primordial amplitude's normalization derived, 2026-07-28) · laws_and_rules/ (the constitutional tiers; Tier R = the review-process laws, adopted 2026-07-18) · INTERACTION_ATLAS · interaction_map ·
-thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-055; P-052 registered and retracted the same day, annotated; P-048 carries the two-point lattice fork; P-055 is the LSS-parity position, placed 2026-07-11 and mirrored late with its provenance stated)
+thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001 → P-2026-059; P-048 carries the two-point lattice fork; P-055 is the LSS-parity position)
 
 ## The dark fields (the pieces; identity files) — two carry identity files, the third is the Majoron
 - [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
@@ -78,7 +78,7 @@ which is the authority wherever the two disagree.
 *These are current and load-bearing; none was reachable from this index before. (The internal
 candid self-assessment is deliberately not on this shelf and is not listed here.)*
 
-- [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 74-domain census with verdicts and receipts
+- [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 76-domain census with verdicts and receipts
 - [dCDF v5 — THE COMPLETE MODEL](archive/PRTOE_v5_dCDF_complete.md) — **mechanics current, fit numbers
   historical.** The barotropic dark fluid that replaces both CDM and Λ (p_d ≡ −ρ_∞, the
   w = −ρ_∞/ρ background) is the standing model; the July-6 refit tables inside it (H₀ = 69.70,

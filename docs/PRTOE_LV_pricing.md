@@ -13,7 +13,7 @@ The standard objection [Collins et al. class]: if Lorentz symmetry breaks at the
 scale, loops drag the violation into UNsuppressed dim-3/4 operators — suppression is not
 protection; only a symmetry is. THE MODEL'S PROTECTION IS THE BLINDNESS CLAUSE: matter
 holds no account with the medium except (a) THE METRIC — universal, one-metric-for-all,
-Lorentz-preserving by construction; and (b) THE DYAD CHANNEL — a SCALAR coupling
+Lorentz-preserving by construction; and (b) THE ELECTRON-COUPLED SCALAR'S CHANNEL — a SCALAR coupling
 (m_f(1+εf(T/T_c))ψ̄ψ), and scalars carry no frame index: a time-dependent mass is not a
 b_μ. No vector/tensor bridge between the frame and any non-gravitational sector EXISTS in
 the constitution — the dangerous operators are not suppressed, they are UNWRITABLE — within this model's constitution (the statement is conditional on the no-bridge structure itself, which the shield section states; violate the constitution and the operators return).

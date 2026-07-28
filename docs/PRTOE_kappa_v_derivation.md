@@ -19,7 +19,7 @@ SHAPE-FORCED (class universality) / AMPLITUDE-INPUT (k_eff is chosen,
 not derived) / WINDOW-CONSISTENT (0.06 lands inside ANN-2026-005's
 window as a consistency, not a prediction). "Derived" may not
 re-inflate; this header governs every summary of this document. The
-void prediction is retracted (§3a); the surviving audits (radiative
+operator predicts no void signal (§3a); the surviving audits (radiative
 stability, BBN form-factor, k-naturalness) can CLEAR the operator but
 cannot make it distinctive.**
 
@@ -63,20 +63,19 @@ prices in μ² itself.
 | BBN (pre-basin) | 1/3 EXACTLY, zero drift | **+0.15% constant** — the healer |
 | recombination (mean) | 2×10⁻⁷ | 10⁻⁹ — the electron-coupled scalar untouched |
 | laboratory halos | 5×10⁻¹¹ | 10⁻¹³ — clocks/Oklo/absorbers safe |
-| deep voids today | g → 0 | **0 — dead** (the −0.45% first written here conflated g with the full-medium w; corrected by §3a's retraction) |
-| cosmic diffuse mean today | g → 0 | 0 — dead (same correction) |
+| deep voids today | g → 0 | **0 — no signal** (voids have y → 0, so the operator's g vanishes) |
+| cosmic diffuse mean today | g → 0 | 0 — no signal (same limit) |
 
 **Consistency check not forced:** mapping back to the normalization
 on the record, κ_v = (k·w/2)/(ρ_d/ρ_r) = **0.06 at the ΔN_eff
 bound — inside ANN-2026-005's [0.06, 0.41] window**, derived, not
 fitted to it.
 
-**The late-time branch:** none. A forced negative branch (−0.3 to −0.45% in void/diffuse
-gas) was first claimed here and is retracted in §3a — it conflated the operator's g with
-the full-medium w. Under the true operator voids have y → 0 ⇒ g → 0: no late-time signal
-anywhere, and R1's unvirialized-gas channel has no κ_v companion.
+**The late-time branch:** none. The operator's g is not the full-medium w = −ρ∞/ρ but a
+distinct function of y, and voids have y → 0 ⇒ g → 0. There is no late-time signal anywhere,
+and R1's unvirialized-gas channel has no κ_v companion.
 
-## 3a. THE THREE SEAMS — closed, with one retraction
+## 3a. THE THREE SEAMS — closed
 
 **Seam 1 — the single definition, and the values by substitution.**
 The portal's w is the EXCITATION-SECTOR equation of state, one
@@ -91,9 +90,9 @@ O(1/y), five parts in 10⁸** (not piecewise: the transition is smooth
 and analytic, compressed at basin entry z~10⁵ where nothing
 m_e-sensitive exists); recombination y = 8.4×10⁻⁷ ⇒ g = 2.1×10⁻⁷;
 labs y = 5×10⁻¹¹ ⇒ g = 1.3×10⁻¹¹.
-**THE RETRACTION seam 1 forced:** the "void negative branch"
-(δv → −0.45%) came from conflating g with the FULL-medium
-w = −ρ∞/ρ (a different function, not the operator's). Under the true
+**WHAT SEAM 1 FIXES:** g is not the full-medium
+w = −ρ∞/ρ — that is a different function, not the operator's, and it is
+what a void negative branch (δv → −0.45%) would require. Under the true
 operator, voids have y → 0 ⇒ g → 0: **no negative branch, no void
 prediction, no late-time signal anywhere.** The forced-prediction
 claim is withdrawn; R1's channel loses the κ_v companion. Cost paid
@@ -141,7 +140,7 @@ condition and the verdict is sharp both ways:**
  completion. **The w-portal's radiative bill is therefore payable
  if and only if the completion delivers the form factor — the same
  single window every open item in this program queues at.**
-- Audit 3: MOOT (void branch retracted). Audit 4: permanent residue
+- Audit 3: MOOT (no void branch exists). Audit 4: permanent residue
  (the honest triple's amplitude-input clause).
 
 **Final status of the working docket: the operator is written, local,

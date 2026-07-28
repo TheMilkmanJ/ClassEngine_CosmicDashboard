@@ -1082,7 +1082,12 @@ chk("small-scale", "braiding vs dwarf soliton (two orders)", 125, _rc_m/3.0857e1
 chk("low-ell", "coefficients ell=2..6", 45, sum(2*l+1 for l in range(2,7)), 0)
 chk("low-ell", "independent pairs = C(45,2)", 990, 45*44//2, 0)
 chk("low-ell", "quadrupole cosmic variance sqrt(2/5)", 63, math.sqrt(2/5)*100, 0.01, "%")
-chk("low-ell", "83% retention in sigma units", 0.27, (1-0.83)/math.sqrt(2/5), 0.02, "sigma")
+# The 83% retention this once guarded is RETIRED (#160): the regenerated low-ell
+# pattern gives 90%, guarded below as _RET2 = 0.900 with its 0.158 sigma. Two
+# guards on one quantity at two values is the check-2a anti-pattern, so this row
+# now books the retired figure explicitly as retired rather than as a live check.
+chk("low-ell", "the RETIRED 83% retention, in sigma units (superseded by 90%)",
+    0.27, (1-0.83)/math.sqrt(2/5), 0.02, "sigma")
 
 # --- kappa_v docket: the operator arithmetic (record grade, program closed) ---
 _k_kv = 9e-3
@@ -1842,8 +1847,18 @@ chk("MATH_SPINE 0", "#126: ensemble distance to the charge^2 8/9", -0.376,
     (_Q2/(_Q2+1)-_C0)/_SDc, 5e-3, "sigma")
 chk("DERIVATION_HUNT 1", "#126: 8/9 and 9/10 separated by, at the ensemble width", 0.296,
     (0.9-_Q2/(_Q2+1))/_SDc, 5e-3, "sigma")
-chk("DERIVATION_HUNT 1", "#126: sharpening to the pre-registered sigma_c = 0.0115", 3.26,
-    _SDc/0.0115, 5e-3, "x")
+# 0.0115 is the 9/10-vs-8/9 SPACING, so it buys 0.97 sigma -- the width at which
+# the two stop coinciding, not one that excludes either. Kept for the arithmetic,
+# relabelled so it cannot be read as the closing target, and the real target is
+# guarded beneath it so a file restoring "3.3x" cannot pass unnoticed.
+chk("DERIVATION_HUNT 1", "#126: sharpening to the candidate SPACING 0.0115 (not a separation)",
+    3.26, _SDc/0.0115, 5e-3, "x")
+_GAP89 = 0.9 - 8.0/9.0
+chk("DERIVATION_HUNT 1", "#126: what 0.0115 actually buys against 8/9", 0.966,
+    _GAP89/0.0115, 5e-3, "sigma")
+chk("DERIVATION_HUNT 1", "#126: sigma_c for a 3-sigma call on the binding pair", 3.7037e-3,
+    _GAP89/3.0, 1e-3)
+chk("DERIVATION_HUNT 1", "#126: that is a sharpening of", 10.1, _SDc/(_GAP89/3.0), 5e-3, "x")
 
 # --- rho_bounce in physical units + the sanity checks (scripts/rho_bounce.py), 2026-07-20 ---
 # The finite bounce/core density that discharges 'no singularity': rho = m^4/lam = m^2 Psi0^2,

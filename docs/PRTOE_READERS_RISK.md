@@ -14,8 +14,9 @@ number, ε, applied everywhere atomic physics appears.
 
 ## 2. Strongest claims (graded honestly)
 - **ε = c·f̄·α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%**, against the sky's fitted ~1.24% — zero
-  dials. *Two factors are derived, one is a registered bet — so the stack's effective grade
-  is the bet's.* c = 9/10 is a **counting assumption the data confirms** — conditional on the
+  dials. *One factor is derived (f̄ = 2/π, the winding average), one is a counting assumption
+  (c = 9/10), one is a registered bet (α_c = 3α) — so the stack's effective grade is the
+  weakest of the three, not the strongest.* c = 9/10 is a **counting assumption the data confirms** — conditional on the
   ρ_Λ¼ = m_ν tie holding as a lock, and on an equal share per channel, which the framework does
   not force (the ε-blind ensemble lands at 0.903, −0.08σ, but at its width does not exclude the
   neutrino-inclusive 12/13 or the charge²-weighted 8/9);

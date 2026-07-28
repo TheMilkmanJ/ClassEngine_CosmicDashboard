@@ -139,9 +139,10 @@ Consequences:
 - **Not unique:** the Harrison mechanism (standard, 1970); the seed magnitude class (~10⁻¹⁸ G).
 - **Unique to this model:** (i) a *structural* primordial vorticity source — rotation as
  founding identity, quantized, crunch-proof — where every competitor must add a field or an
- epoch by hand; (ii) the **signed-helicity linkage** to the baryon asymmetry through one
- topological integer — no other framework ties the sky's magnetic parity to the existence of
- matter; (iii) the shared-axis triple (ε-dipole, the winding comb, the helicity parity).
+ epoch by hand; (ii) the **helicity sign fixed relative to the winding**, sign(helicity_B) =
+ sign(n) — the sky's magnetic parity tied to the same topological integer that sets the comb
+ axis, though not to the matter–antimatter draw, which §4 shows is an independent sign;
+ (iii) the shared-axis triple (ε-dipole, the winding comb, the helicity parity).
 
 ## 6. Ledger summary
 
@@ -151,7 +152,8 @@ Consequences:
 | EM-neutrality consistency (stir, don't charge) | forced (Meissner) |
 | void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — 1.5 orders short; the working docket** |
 | helicity sign = the seeded flow's sign, sign(helicity_B) = sign(H_kin) | derived (the battery's coefficient squares out of it) |
-| helicity sign = genome sign = baryon sign | registered prediction (the falsifier with no dial) — riding two open signs: the roll-up's handedness and the rectification |
+| helicity sign = winding sign, sign(helicity_B) = sign(n) | the surviving registered content — testable against the winding axis, not against the matter–antimatter draw (§4: the two signs are drawn independently, joint correlation −0.06 to +0.09 against a ±0.13 noise floor) |
+| helicity sign = baryon sign | **void** — no measured correlation between them can confirm or kill anything |
 | coherence scale ~ Kibble ξ | distinctive, un-priced in RM statistics (owed if pursued) |
 
 ## Sources
@@ -164,4 +166,4 @@ Consequences:
 
 *Everyone else must explain where the spin came from. This model cannot explain where it would
 have gone: a rotating superfluid universe magnetizes its plasma as surely as it swings its
-vortices — and it signs the work with the same integer that chose matter over antimatter.*
+vortices — and it signs the work with the winding integer that also fixes the comb axis.*

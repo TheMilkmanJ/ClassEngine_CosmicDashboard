@@ -215,14 +215,20 @@ Asked directly of the record: no. Three findings, and the first is dispositive.
    helical"* (:72). The **+1 is the λ > 0 branch by construction** — the mirror flow is equally
    torus-supported and returns −0.998 — and the winding number n does not appear in the file at
    all. There is no sense, no handedness, no chirality of the roll-up on the record to read.
-3. The instrument that produced even the magnitude is gone. `c1_locus_twist.py`, cited as the
-   source of the H/E computation, is scratch-era and not retained; no script, notebook or C source
-   in the corpus holds a three-dimensional genesis flow field.
+3. The instrument that produced the original magnitude is gone: `c1_locus_twist.py`, cited as the
+   source of the H/E computation, is scratch-era and not retained. Two replacements now exist —
+   `scripts/ring_rollup_poloidal_v3.py` (axisymmetric roll-up) and `scripts/ring_toroidal_3d.py`
+   (full three-dimensional Gross–Pitaevskii, 128×128×256, split-step Fourier, a directed fountain
+   on a background vortex line).
 
 The missing object cannot be mistaken for a number. Helicity is **bilinear** —
 H = 2·Lk·Φ_tor·Φ_pol — so sign(H_kin) = sign(Φ_pol)·sign(Φ_tor). The genome already supplies one
-factor: the toroidal circulation is Γ_ring, which links 1–2 carry into sign(n). **The corpus has no
-source for the other.** What is owed is therefore not a sign but **one bit** — *whether the
+factor: the toroidal circulation is Γ_ring, which links 1–2 carry into sign(n). **The other factor
+is now computed** (`scripts/ring_rollup_poloidal_v3.py`): the poloidal sense is fixed by the
+plume's own geometry, not drawn — a +z fountain gives leading-ring charge +1.00 and a −z fountain
+−1.00, five rings observed with five correct signs and no exceptions, at candidate grade. The
+remaining half of the bilinear is the toroidal-versus-poloidal *relative* sign, which is what the
+three-dimensional run addresses. What was owed here was **one bit** — *whether the
 roll-up's poloidal sense is fixed by the plume's own geometry or drawn with the same coin that sets
 n* — and that bit is a property of the flow, not of any recorded integer. This is why sign(n) does
 not reach it and why no re-reading of the genome will: the two branches above differ in what the

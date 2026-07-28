@@ -174,6 +174,29 @@ ABSENT, search on three distinct phrasings plus one distinctive number, and stat
 tried.** A negative result is a claim about your search, not about the corpus, until you have shown
 otherwise. (This is check 2a's mirror and it fires far more often.)
 
+> **15a. AN ABSENCE CLAIM SILENTLY EXPIRES, AND NOTHING RE-READS IT (2026-07-28).** Check 15 is
+> about searches that could not have found the thing. This is the opposite and it is more common:
+> the search was *fine* and the claim was *true when written* — and then someone built the missing
+> object, and the sentence asserting its absence sat there aging into a falsehood. A claim of
+> absence is the only kind of claim that can be invalidated by work the corpus itself does, without
+> anyone touching the sentence.
+>
+> A sweep on 2026-07-28 found four live ones, and three had been true at the minute they were
+> written. `igmf_helicity` said "no script, notebook or C source in the corpus holds a
+> three-dimensional genesis flow field" — `scripts/ring_toroidal_3d.py` had been committed **six
+> hours before that file was last edited**. The same file said "the corpus has no source for the
+> other [poloidal] factor" while `ring_rollup_poloidal_v3.py` had already returned five rings with
+> five correct signs. The failures ledger said of a Δτ integral "no such number exists anywhere in
+> the corpus"; the integral was run and committed **32 minutes later**, and the row was never
+> revisited. In every case the *working log* was updated and the *forward-facing file* was not.
+>
+> **The rule: when a script, run or number lands, grep the corpus for claims that it does not
+> exist** — `no script`, `nowhere`, `not retained`, `no source`, `never`, `no such`, `exists
+> nowhere` — before closing the session that produced it. An absence claim is a perishable
+> statement about the corpus's own contents, and the thing most likely to falsify it is the next
+> commit. Treat "nothing computes X" as carrying an implicit expiry date, and make the commit that
+> computes X responsible for finding it.
+
 **16. THE FAVOURABLE ARGUMENT WHERE AN INTEGRAL WAS OWED.** The vertex correction (#141) was
 attempted twice and retracted twice; both attempts were verbal arguments, and **both happened to
 point the favourable way**. The integral, when finally run, confirmed the adverse prior. **The rule

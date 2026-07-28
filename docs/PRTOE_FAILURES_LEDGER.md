@@ -506,9 +506,9 @@ loop generates 44% of light's coupling and the basement must supply the other 56
 **A naked failure became a falsifiable target (α_Y(M_Pl) = 0.0180) and a structural find
 (gravity is 100% induced; light is only 44% induced).** *(The 44% is the hypercharge channel,
 which is what this walk ran. Read in the electromagnetic channel at zero momentum — the coupling
-the α_c = 3α identification actually names — the induced share is **23.5%**, 32.14 of
-1/α_EM(0) = 137.036 above 1/α_EM(M_Pl) = 49.4 + 55.5 = 104.9. The structural find survives and
-sharpens: light is even less induced than the hypercharge reading suggested.)*
+named by the α_c = 3α identification — the induced share is **23.5%**, 32.14 of
+1/α_EM(0) = 137.036 above 1/α_EM(M_Pl) = 49.4 + 55.5 = 104.9. The structural find holds and
+tightens: the induced fraction is smaller than the hypercharge reading indicated.)*
 
 **The pattern, stated plainly because it is now five deep in one day** (errors 27, 28, 29, and
 this): *every one of these was a NEGATIVE verdict issued fast on an unwalked ramp.* The bias is
@@ -636,7 +636,7 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | The "residual = dressing" identity used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; the 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
 | The triangle's "0.1% match" | x₀ is a free dial whose band covers the target — the triangle selects, not confirms; arrow A = consistency-only | overstated, corrected |
 | The two-census marriage (c's recipient-split vs the scalar delivery) | **AUDITED 2026-07-20 (#126), and the step does not close.** Walked, the blindness premise gives the wrong roster: the G-closure rebuild ran the same law and returned *every field in the vacuum*, catching "the medium's 9 fermions" as an error there — so gravity-routed, the count is not 9/10; not gravity-routed, a singlet scalar's independent per-operator coefficients leave no democratic warrant. Compounding it, membership on the roster is decided by *charge* (the seat argument's "needs charge to grab") while the weights are decided by *blindness*. **c = 9/10 is data-selected, not framework-forced**; the value keeps its independent support (ε-blind ensemble, −0.08σ). The definition itself had been lost from the live corpus in the 2026-07-16 hunt rewrite and is now restored to [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1. **CLOSED 2026-07-20 by the death, not the argument** — see the row below | RETIRED (#126) |
-| **The gravity-routing licence for the democratic count** — "gravity is blind, so the budget splits democratically over the census of participants" | **RETIRED 2026-07-20 (#126), and by exhaustion rather than by a failed calculation.** The count needs *membership* from one criterion and *weights* from another, and both are properties of one coupling. Run either alone and it does not return 9/10: **blindness** reads energy rather than identity, so it weights by energy over every field present — the roster the G-closure rebuild returned under this same law — and stops nowhere near nine; **charge** (the seat argument's "the ε-channel dresses the EM fraction of an electroweak mass, and it needs charge to grab") selects the nine but then weights them too, Σ N_c Q² = 3 + 4 + 1 = **8**, giving **c = 8/9 = 0.8889** and ε = 16α/3π = 1.2388%; and carried all the way, with the neutral seat weighing zero, charge returns **c = 1**, which the census independently excludes. A coupling selective enough to build a charged roster is not blind, and a blind one does not stop at nine — so this is not a gap that further desk work fills. **What survives is the conclusion, not the reason** (check 14a: the principle dies, the number stands): c = 9/10 is a **counting assumption the data confirms**, ε-blind ensemble at −0.08σ. **And the data does not adjudicate the fork the licence was invoked to settle** — at the ensemble's ±0.0375 the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, and 12/13 sits +0.53σ; the pre-registered separating width is σ_c ≤ 0.0115, a 3.3× sharpening not in hand *(that width is the candidate spacing and buys 0.97σ; a 3σ call needs σ_c ≤ 0.0037 — 10× in width, ~100× in sample, corrected 2026-07-28)*. Propagated the same pass: `THREE_EQUATIONS` opened its c bullet with the blindness derivation *and* excluded 8/9 by it, `THE_AMPLITUDE`, `READERS_RISK`, `fingerprint_lattice`, `weakest_joints_and_cprep` and `DEPENDENCY_TREE` all still graded c **derived** or called 12/13 disfavoured without naming by what | RETIRED (#126) — the value keeps its grade, the licence is withdrawn |
+| **The gravity-routing licence for the democratic count** — "gravity is blind, so the budget splits democratically over the census of participants" | **RETIRED 2026-07-20 (#126), and by exhaustion rather than by a failed calculation.** The count needs *membership* from one criterion and *weights* from another, and both are properties of one coupling. Run either alone and it does not return 9/10: **blindness** reads energy rather than identity, so it weights by energy over every field present — the roster the G-closure rebuild returned under this same law — and stops nowhere near nine; **charge** (the seat argument's "the ε-channel dresses the EM fraction of an electroweak mass, and it needs charge to grab") selects the nine but then weights them too, Σ N_c Q² = 3 + 4 + 1 = **8**, giving **c = 8/9 = 0.8889** and ε = 16α/3π = 1.2388%; and carried all the way, with the neutral seat weighing zero, charge returns **c = 1**, which the census independently excludes. A coupling selective enough to build a charged roster is not blind, and a blind one does not stop at nine — so this is not a gap that further desk work fills. **What survives is the conclusion, not the reason** (check 14a: the principle dies, the number stands): c = 9/10 is a **counting assumption the data confirms**, ε-blind ensemble at −0.08σ. **And the data does not adjudicate the fork the licence was invoked to settle** — at the ensemble's ±0.0375 the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, and 12/13 sits +0.53σ; the pre-registered separating width is σ_c ≤ 0.0115, a 3.3× sharpening not in hand *(that width is the candidate spacing and yields 0.97σ; 3σ requires σ_c ≤ 0.0037 — 10× in width, ~100× in sample, corrected 2026-07-28)*. Propagated the same pass: `THREE_EQUATIONS` opened its c bullet with the blindness derivation *and* excluded 8/9 by it, `THE_AMPLITUDE`, `READERS_RISK`, `fingerprint_lattice`, `weakest_joints_and_cprep` and `DEPENDENCY_TREE` all still graded c **derived** or called 12/13 disfavoured without naming by what | RETIRED (#126) — the value keeps its grade, the licence is withdrawn |
 | n_s under the clock ambiguity | 0.9638–0.9640 both ways | PASS |
 
 ## 7. Superseded-claims index (the derivation log's corpses, per the separation law)
@@ -2671,10 +2671,16 @@ the ε ramp's neutral-era tail "carries a τ contribution **orders below** Planc
 **Why that is not a closure.** Δτ from a specified ionization history against a specified ramp is a
 well-posed integral, and it was not run — the margin is asserted, not computed, and it points the
 favourable way, which is check 16's signature. Searched three ways plus the distinctive number
-(`Δτ`, `optical depth`, `τ contribution`, `0.007`): **no such number exists anywhere in the
-corpus**, so nothing downstream is carrying a computed value either. The tether's grade is
-unchanged — estimate-grade was always honest — but its atomic half now reads as reduced on an
-estimate with the calculation named, rather than as a debt discharged.
+(`Δτ`, `optical depth`, `τ contribution`, `0.007`): no such number existed anywhere in the corpus
+at the time of writing, so nothing downstream was carrying a computed value either.
+
+**DISCHARGED the same day, and this row did not record it.** The integral was run 32 minutes after
+the paragraph above was written (`scripts/reionization_dtau_ramp.py`), and the result is carried in
+[PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md): the entire optical depth available across the ramp's tail
+is τ(z = 30–60) = 1.25×10⁻⁴, which is 0.018 of Planck's ±0.007 even if the ramp changed the residual
+by 100%; at the physical ε = 1.2543% acting on x_e, **|Δτ| ≲ 1.6×10⁻⁶, i.e. 2×10⁻⁴σ**. The leading
+term cancels — σ_T ∝ m_e⁻² against x_e ∝ m_e⁺² makes σ_T·x_e go as m_e⁰ — so only the freeze-out
+redshift shift survives. The atomic half is a debt discharged by computation, not an estimate.
 
 **Not adverse, and worth saying so.** The ramp closes at z ~ 30–60 while τ's weight lives at
 z ≲ 10, several octaves apart, so the expected answer really is small; the defect is that "small"
@@ -3201,33 +3207,33 @@ meet its condition, which is why it is warm and not cold.
 **What it was:** the junction that carries the baryon asymmetry needs a rectification
 efficiency ~5×10⁻⁵, and the ratio of the Majorana insertion to the winding rate at the
 sphaleron era, m₁/θ̇ = 2.25 meV / 59.7 eV = 3.8×10⁻⁵, sits at 0.75 of it. Three mechanism
-classes were priced; two were computed dead by twenty-six and two orders, and the survivor —
+classes were priced; two were computed dead by 26 and 2 orders of magnitude, and the survivor —
 a driven, overdamped, pinned junction — was recorded with that ratio as its leading factor
 and an O(1) junction response F as the single owed number. Four separate results were
-allowed to ride on F.
+conditioned on F.
 
 **Why it is dead:** the averaging was performed and does not produce that factor. For an
 **overdamped** coordinate — and the class's own premise is that the neutrino bath overdamps
 the visible phase by ~10⁷ — a pinning term does not enter as its frequency m₁ but as the
-relaxation rate m₁²/Γ_φ = 9.4×10⁻¹⁶ eV. The comparison m₁ vs θ̇ is the one an *undamped*
-phase would make; the class forbids it. Done correctly the second-order averaging returns
+relaxation rate m₁²/Γ_φ = 9.4×10⁻¹⁶ eV. The comparison m₁ vs θ̇ is the *undamped* comparison,
+which this class excludes. Done correctly the second-order averaging returns
 ω_J²/(2Γ_φθ̇), verified against direct integration of the nonlinear equation to 0.06% across
 p/θ̇ ∈ [0, 10] and for both pinning harmonics. **The Majorana term is not small in it — it is
 absent:** setting m₁ = 0 exactly moves the answer by 0.05%.
 
-**The sign of the effect was also backwards.** The overdamped equation is a current balance in
-which the surviving asymmetry is the accumulated drift of the phase. A phase strong-armed by a
-pinning term cannot wind, and then the lepton-number-violating channel destroys exactly what
-the junction delivers: measured, the accumulated asymmetry falls to 0.3% of its free value
-once the pinning reaches ~1% of the drive. Pinning is the mechanism's off switch. The transfer
-works at the standing parameters only because the Majorana term is nine orders too weak to
-hold anything.
+**The sign of the effect is opposite to the one assumed.** The overdamped equation is a current
+balance in which the surviving asymmetry is the accumulated drift of the phase. A phase dominated
+by the pinning term cannot wind, and the lepton-number-violating channel then washes out the
+asymmetry the junction produces: measured, the accumulated asymmetry falls to 0.3% of its free
+value once the pinning reaches ~1% of the drive. Pinning suppresses the mechanism rather than
+enabling it. The transfer works at the standing parameters only because the Majorana term is
+9 orders of magnitude too weak to pin the phase.
 
 **Disposition — re-pointed, not executed.** The route is not killed: the surviving class still
 transfers, and the pre-committed kill was written on F, which was never the free parameter.
-What dies is the coincidence and the claim that the neutrino mass sets the scale. The four
-consumers now ride a different object — the seat coupling's junction plasma frequency at the
-sphaleron era, ω_J ≈ 5.7 keV, equivalently a ~6 meV relaxation rate on the visible phase.
+The coincidence and the claim that the neutrino mass sets the scale are withdrawn. The four
+consumers now depend on a different quantity — the seat coupling's junction plasma frequency
+at the sphaleron era, ω_J ≈ 5.7 keV, equivalently a ~6 meV relaxation rate on the visible phase.
 That number is owed by the seat sector and is not a neutrino property. Cold as a coincidence;
 the mechanism it was attached to stays warm.
 

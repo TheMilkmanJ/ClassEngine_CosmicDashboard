@@ -1,6 +1,6 @@
 # PRTOE and White Holes - derived claims, candidate identifications, and estimates (2026-07-12)
 
-*This note separates three kinds of statements:*
+*This note separates four kinds of statements:*
 
 * *adopted* = standard GR or literature fact the corpus cites but does not derive;
 * *derived* = follows from earlier model premises already in the corpus;

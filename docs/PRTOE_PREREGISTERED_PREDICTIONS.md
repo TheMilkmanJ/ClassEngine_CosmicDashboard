@@ -512,9 +512,9 @@ transition. (3) NEW: the θ-channel isocurvature gate vetoes
 high-tilt + high-H_inf genesis corners (steep zones at r_t=0.9 need
 H_inf <~ 1×10¹⁰-11 GeV); the 86% is unmoved (tilt-universal).
 [Measured at the standing release hierarchy the steepness is 5.4/rad
-rather than the era regime's 350/rad, lifting this ceiling to
+rather than the era regime's 350/rad, relaxing this bound to
 ~6×10¹¹-6×10¹² GeV — comparable to the ordinary isocurvature bound
-rather than two decades under it.] (4) Dense
+rather than 2 orders of magnitude below it.] (4) Dense
 scan n=28: 86% ±6.5%; cos2-prior robustness 84%. Remaining
 precondition on the odds: the h-convergence of P(f_amp).
 
@@ -563,11 +563,11 @@ the physical range rather than being superseded by it; ε = √f_amp has
 medians 0.65–0.87 across tilts and a full spread of [0.18, 0.99].
 [Re-run at 4× the angular resolution — 56 angles per tilt,
 `scripts/quiet_branch_fine_search.py` — the branch is still empty, so
-the absence is not a sampling artifact. The margin is worth stating
-plainly, because "zero draws" conceals it: the closest approach falls
-steeply with tilt, reaching f_amp = 0.031 at r_t = 0.9 — only 1.6× the
-quiet threshold, against 20× at r_t = 0.3. The high-tilt corner nearly
-reaches the branch, and the tilt is a free dial.]
+the absence is not a sampling artifact. The margin is not conveyed by
+the draw count: the closest approach falls with tilt, reaching
+f_amp = 0.031 at r_t = 0.9 — 1.6× the quiet threshold, against 20× at
+r_t = 0.3. The high-tilt corner approaches the branch, and the tilt is
+a free parameter.]
 (ii) the registered SILENCE half is
 untouched — it survives instrumentally by the mass gate (UPDATE 3's
 beat arithmetic at the standing mass: beat_needed = 5018 against
@@ -2208,11 +2208,11 @@ recorded induced split (the medium's fermion loop supplies ~44% of light's stren
 the rest), so "base = α" stands or falls with that split. [The ~44% is the *hypercharge* channel
 read at M_Z. The coupling this identification names is electromagnetic α at q = 0, where the
 induced share is **23.5%** (32.14 of 137.036, above 1/α_EM(M_Pl) = 49.4 + 55.5 = 104.9; ±2 on
-those Planck values gives 20.5–26.4%). The condition is therefore conditioned on 23.5%, and the
-direction is adverse: the coupling is more the basement's bare value and less the medium's loop
-than the recorded figure implied. The corrected quantity is also the right *type* — an
-endpoint-to-endpoint fraction, not a reading at a chosen scale — which is what a
-scale-independent α_c can be conditioned on at all.] Neither piece touches the factor 3 = d,
+those Planck values gives 20.5–26.4%). The roster condition is therefore conditioned on 23.5%, and
+the direction is adverse: the medium's loop supplies less of the coupling, and the basement's bare
+value more, than the recorded figure implied. The corrected quantity is also the right type — an
+endpoint-to-endpoint fraction rather than a reading at a chosen scale — which is the only kind a
+scale-independent α_c can be conditioned on.] Neither piece touches the factor 3 = d,
 which follows from the second sound independently of the loop. *(Recorded without weight: c₂ = √α·c
 is the geometric mean of the two velocity scales the model already carries — light speed and the
 Bohr velocity αc. That is the claim rewritten, not evidence for it.)*
@@ -2867,44 +2867,6 @@ number (kill 1) remains the entry's decisive test.
 
 ---
 *External sources for all referee datasets and methods: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
-
-## P-2026-052: Late neutrino recoupling through the Majoron corridor (registered 2026-07-18) — RETRACTED same day
-
-> **ID CORRECTED 2026-07-18 — this entry was registered as `P-2026-049`, an ID already held
-> since 2026-07-09 by the cosmic-birefringence census fork (above, itself renumbered on
-> 2026-07-17 for the same reason).** The registry's founding rule applies unchanged: the
-> earlier registration keeps the ID, the later moves to the next free slot. Nothing about
-> this entry's content, date, retraction, or kill conditions changes — only the label. Its
-> registration timestamp remains **2026-07-18**.
-
-**The prediction:** the cosmic neutrino bath re-couples through the Majoron channel (νν̄ ↔ φ) at a
-redshift **z_rec ∈ [150, 1100]** — after recombination, before the dark-energy freeze era. The
-corridor follows from two independent fences on the Majoron scale: CMB free-streaming at
-recombination requires Γ/H(z = 1100) < 1 (v_L > 0.22 TeV), and the ν-tie's tracking mechanism
-requires Γ/H(z ≈ 12) ≥ 1 (v_L < 0.94 TeV) — so within the standing configuration the recoupling
-is not optional and its epoch is bracketed. Observable territory: late-neutrino free-streaming
-modifications (CMB lensing, Σm_ν inference systematics, S4-class polarization); the CMB primary
-spectra are unaffected (the corridor's lower fence is exactly that statement).
-
-**Grades:** the corridor's fences — estimate (order-of-magnitude rates; the Boltzmann pass is the
-named owed computation); the two-sided structure — derived from the recorded tracking scaling
-(Γ/H ∝ g² with g = m₃/v_L).
-
-**Kills:** (i) data requiring standard ν free-streaming through the entire band z ∈ [150, 1100]
-(kills the corridor outright, and with it the ν-tie's forward mechanism — the fallback is the
-one-scale configuration with the tie at registered-equality grade); (ii) a CMB-S4 Majoron-line
-detection at g ~ 10⁻⁸–10⁻⁹ (the corridor is line-dark; a detection points to the MeV corner the
-free-streaming lane disfavours); (iii) any independent determination of v_L outside
-[0.22, 0.94] TeV.
-
-**RETRACTED (2026-07-18, same day).** The prediction's channel is kinematically closed in this
-model: νν̄ ↔ φ coalescence requires m_φ > 2m₁ ≈ 4.5 meV, and the recorded Majoron mass is
-m_J ~ (1–3)H₀ ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §, the thaw identification) — ~30
-orders below threshold. For an ultralight mediator the only ν-interaction is g⁴ exchange
-scattering, negligible at every corner (Γ/H ≲ 10⁻⁵ everywhere). The corridor's lower fence and
-the recoupling epoch dissolve with the channel; the upper fence (the settling-dynamics ceiling,
-v_L < 0.94 TeV) is a different channel (condensate friction) and stands. Autopsy:
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 ## P-2026-050: The dark-ages 21-cm frequency offset (registered 2026-07-18)
 

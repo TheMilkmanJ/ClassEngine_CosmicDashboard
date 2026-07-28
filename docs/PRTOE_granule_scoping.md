@@ -27,9 +27,9 @@ during the citation pass.*
 > does fix: **no quiet draw appears anywhere in the grid**, so the medium rings — the meter
 > always has something to read, even where the contrast is weak. That survives a fourfold
 > refinement of the angular grid, so it is a property of the map rather than of the sampling;
-> but the margin narrows sharply with tilt, and at the steepest tilt the nearest draw sits
-> only 1.6× above the quiet threshold. The meter's guarantee is a measured margin, not a
-> structural floor.
+> but the margin narrows with tilt, and at the steepest tilt the nearest draw sits
+> 1.6× above the quiet threshold. The floor on the meter is therefore a measured margin, not a
+> structural bound.
 
 ## 1. The instrument: what the granule meter measures
 
