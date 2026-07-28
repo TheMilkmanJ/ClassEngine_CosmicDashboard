@@ -70,9 +70,9 @@ coupling, no quark coupling). This operator satisfies all three tests:
  one of them.
 Prior verdicts stand with the clause (the birefringence null, gate-0, the
 EP posture, BBN). Sec 7's screening computation is a separate item from the
-legality question, and it is delivered on all four of its items there. The form is forced: geometry is 60 orders
-too weak (sec 32), so a direct operator is unavoidable. [trigger-doc sec 23,
-32, 34; laws_and_rules]
+legality question, and it is delivered on all four of its items there. The form is forced:
+geometry is 60 orders too weak (sec 32), so a direct operator is unavoidable.
+[trigger-doc sec 23, 32, 34; laws_and_rules]
 
 ---
 
@@ -256,9 +256,9 @@ the data.
 
 ## 10. The leptonic origin -- why m_e and not m_q (2026-07-09)
 
-BBN (the data ruling — the windowed program) REQUIRES the coupling be leptonic: a universal mass shift is 12-16σ
-dead via the D/H quark→pion→deuteron channel (dln(D/H)/dln m_q ~ 15 vs dln m_e ~ 0.5,
-a 30x ratio). Why the coupling picks the electron:
+BBN (the data ruling — the windowed program) REQUIRES the coupling be leptonic: a universal
+mass shift is 12-16σ dead via the D/H quark→pion→deuteron channel (dln(D/H)/dln m_q ~ 15 vs
+dln m_e ~ 0.5, a 30x ratio). Why the coupling picks the electron:
 
 NO-GO (it is not a symmetry): L-bar H e and Q-bar H d both need a gauge-SINGLET scalar;
 a singlet couples to every Yukawa operator with INDEPENDENT coefficients → no gauge
@@ -267,8 +267,8 @@ FN charges comparable to the electron's, so a generic flavon shifts m_q and re-t
 BBN. Leptophilia is neither a gauge nor a generic-flavor consequence.
 
 WHAT IS ACTUALLY ON OFFER (the operator roster, #125). The portal must be **even** in the
-dyad field, so what multiplies a Standard-Model operator is the dimension-2 singlet |Ψ|².
-Three couplings are available, ordered by dimension:
+electron-coupled scalar, so what multiplies a Standard-Model operator is the dimension-2
+singlet |Ψ|². Three couplings are available, ordered by dimension:
 
  |Ψ|² H†H [dim 4, renormalizable] → shifts the Higgs vev → EVERY mass, quarks included
  |Ψ|² L̄He [dim 6, → m_e ψ̄ψ after EWSB] → δm_e alone — THE STANDING CHOICE
@@ -311,8 +311,9 @@ MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09, re-keyed to the standing oper
  transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
  ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4) = 2.25 meV =
  m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
- is P-2026-012's POSIT, not derived. So the last residual is the cosmological-
- constant question -- not a PRTOE-specific gap but the universal one (reduced to the cosmological-constant question).
+ is P-2026-012's POSIT, not derived. So the last residual is the
+ cosmological-constant question -- not a PRTOE-specific gap but the universal one
+ (reduced to the cosmological-constant question).
 
 The delivering operator is not selected by
 any symmetry the model carries: a gauge singlet couples to every Yukawa operator with an
@@ -328,23 +329,23 @@ the composition-dependent Vainshtein-screened Delta_a/a = 8×10⁻²¹..8e-19, 3
 MICROSCOPE (screened regime, cubic galileon); EP gate clears, favorable-prior, sole
 caveat a non-standard eps_V^(1/2) power (numerical galileon solve would fully discharge).
 So varying-m_e is single-gated on DESI. And the leptonic-origin mechanism (this section)
-resolves item [2]'s "census-scope legality" via interface/substance
--- the coupling is legal as substance. What stays open is not the legality but the *selection*:
-which legal operator delivers δm_e, which is assumed above (#125), and the CC value the loop reduces to.
+resolves item [2]'s "census-scope legality" via interface/substance -- the coupling is legal
+as substance. What stays open is not the legality but the *selection*: which legal operator
+delivers δm_e, which is assumed above (#125), and the CC value the loop reduces to.
 
 ---
 
 ## THE ELECTRON-LOOP ONSET — the predecessor configuration
 
 > This section describes the retired operating point, in which the electron's
-> Coleman–Weinberg backreaction drove the dyad's condensation. That configuration is
-> BBN-fatal at its own numbers and no longer describes the model
+> Coleman–Weinberg backreaction drove the electron-coupled scalar's condensation. That
+> configuration is BBN-fatal at its own numbers and no longer describes the model
 > ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); the standing configuration is the
 > high-f operating point above. What survives from the work below is the κ-independent
 > transition-temperature formula, which still supplies the ramp's timing. The rest is kept for
 > the record and must not be cited as current.
 
-On the charge-free dyad field, the electron Coleman–Weinberg backreaction was taken to set the
+On the charge-free scalar, the electron Coleman–Weinberg backreaction was taken to set the
 condensation scale, making the onset derived rather than a free input.
 
 Zero-T (the VEV / reduction). m_e(φ)=m_e0(1+κφ²); the electron loop gives

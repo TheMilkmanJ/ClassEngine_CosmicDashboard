@@ -24,7 +24,10 @@ BBN. T_c is a COIN-FLIP straddling the deuterium bottleneck (~70 keV), log-ambig
 docket). BUILDABLE — this is the highest-leverage joint.
 
 **J3 — DESI w=−1 (P-2026-018). [RED — external falsifier]**
-If DESI DR2+ shows evolving DE, clean kill. Jointly squeezed with Σm_ν (can't relax one with the
+If DESI DR2+ shows evolving DE, clean kill. *(That condition has since been met and the outcome
+is recorded in UPDATE 3 below: DR2 prefers evolving dark energy at 3.1σ, and the derived w = −1
+did not die — it re-graded to a standing bet against that preference. Read the kill condition
+with its own outcome.)* Jointly squeezed with Σm_ν (can't relax one with the
 other). **Shore:** none — it's a data verdict; the model must survive it. Watch, don't build.
 
 **J4 — The +1.2% m_e shift being REAL. [the load-bearing bolt]**

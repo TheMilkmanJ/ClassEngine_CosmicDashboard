@@ -270,13 +270,14 @@ reach until the cluster time is bought**, the attempt on this hardware having be
 (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
 grading in the private internal review record (defender "THE NUMBER" turn).
 
-### SHARPENED by internal review, (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
+### SHARPENED by internal review (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
 Two corrections to the verdict above, both taken: (1) BRAKE 2 is worse than "conditional" — it is
-SHOES-DEPENDENT: net Δ χ² -9.52 minus SHOES ~-13.7 = +4.2, i.e. WITHOUT SHOES the dyad is
-~4 WORSE than ΛCDM (the edge INVERTS to a loss). The m_e signature alone (ACT -3.8) does NOT beat
-the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SHOES H₀ tension — NOT on
-CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family does it, the internal review),
-so the win adds ZERO evidence for the ontology (superfluid/census/dyad). (2) The win is robust only
+SHOES-DEPENDENT: net Δ χ² -9.52 minus SHOES ~-13.7 = +4.2, i.e. WITHOUT SHOES the
+electron-coupled scalar is ~4 WORSE than ΛCDM (the edge INVERTS to a loss). The m_e signature alone
+(ACT -3.8) does NOT beat the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SHOES
+H₀ tension — NOT on CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family
+does it, the internal review), so the win adds ZERO evidence for the ontology
+(superfluid/census/electron-coupled scalar). (2) The win is robust only
 if BOTH a nested ln Z confirms +2.6 AND SHOES is physical (two live-uncertain gates — **and the
 first is now unscheduled**, nested sampling having been priced off this hardware and deferred to
 cluster time). Final label: "suggestive / SHOES-DEPENDENT / Laplace-marginal / non-original-class
