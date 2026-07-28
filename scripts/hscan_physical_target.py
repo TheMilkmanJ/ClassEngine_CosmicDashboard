@@ -1,5 +1,21 @@
 """hscan_physical_target — task #36's scoping computation: where the physical hierarchy actually sits at the standing era (2026-07-27).
 
+SUPERSEDED ON THE ABSOLUTE NUMBERS (2026-07-28) — READ THIS FIRST.
+  The authority for the release amplitude is the misalignment abundance
+  closure in `genesis_solver_B1.py`, which releases at H = m and returns
+  1 + z_osc = 4.03×10⁷ — the corpus's own canonical onset z_on — and
+  Psi0 = 5.03×10¹⁶ GeV, hence
+        h0 = lambda*Psi0^2/m^2 = 1.01 .
+  **The standing physical hierarchy is h0 ~ 1, not the 0.1 this script
+  first reported.**  Two departures produced that: releasing at 3H = m
+  (which does not reproduce z_on) and omitting the 1/2 in rho = 1/2 m^2
+  Psi^2 that the standard misalignment closure carries.  The temperature
+  route below also carries its own g*/normalization drift and does not
+  reproduce z_on even at H = m, so it is kept only for the SCALING it
+  demonstrates (h0 proportional to lambda/m^(5/2), the era-to-standing
+  direction), not for absolute values.  Take absolute Psi0 and h0 from B1.
+
+
 THE QUESTION
   Room 1's h-scan chased the ringing floor upward (86% → 100% by h = 10⁴)
   toward an era-bound physical target "h ~ 10⁸", and the owed item was a
@@ -37,7 +53,12 @@ G_STAR_KEV = 3.36          # post-annihilation plasma, keV epoch
 
 
 def release(m_ev: float, lam: float):
-    H_rel = m_ev / 3.0
+    # RELEASE CONDITION: H = m, not 3H = m.  This version first used 3H = m,
+    # which gives 1+z = 2.33e7 — NOT the corpus's canonical onset z_on =
+    # 4.03e7.  The misalignment closure in genesis_solver_B1.py releases at
+    # H = m and reproduces z_on exactly, so H = m is the corpus's condition
+    # and the earlier choice was inconsistent with its own onset.
+    H_rel = m_ev
     T_rel = math.sqrt(H_rel * M_PL_EV / (1.66 * math.sqrt(G_STAR_KEV)))
     z_rel = T_rel / T0_EV          # 1+z, g*-corrections ~10% ignored
     rho_rel = RHO_DM0_EV4 * z_rel ** 3

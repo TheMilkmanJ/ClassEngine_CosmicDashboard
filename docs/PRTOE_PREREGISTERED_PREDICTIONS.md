@@ -540,40 +540,39 @@ mass branch.
 **UPDATE 4 (2026-07-27) — THE h-CONVERGENCE PRECONDITION RESOLVES, AND
 THE DICE NEARLY STOPS BEING DICE:** UPDATE 2's remaining precondition
 ("the h-convergence of P(f_amp)") is answered by relocating the
-physical hierarchy first: h₀ = λ·ρ(z_rel)/m⁴ at release scales as
-λ/m^{5/2}, and the standing parameters (m = 2.24×10⁻²⁰ eV,
-λ = 2×10⁻⁹¹) put it at **h₀ ≈ 0.1** — six decades below the era-bound
-"~10⁸" and three below the old scan's bottom; the formula reproduces
-the room's own era numbers before it is trusted
-(`scripts/hscan_physical_target.py`). The dice rerun on the physical
-grid (`scripts/lowh_dice.py`, validation-gated: the booked h = 300 row's
-P = 86% reproduces exactly; its median lands 0.68 vs 0.55, at the
-gate's edge — an instrument-convention caveat carried by every number
-below): **P(f_amp > 0.2) = 100% across h ∈ {0.03, 0.1, 0.3} at every
-tilt; zero quiet draws in 168 universes; minimum f_amp = 0.68 at
-h₀ = 0.1, and 0.31 over the whole h ≤ 0.3 block** (which covers the
-scoping's factor-2 uncertainty in h₀). Consequences, exactly: (i) the
-~86% odds were era-bound — at the physical hierarchy the ringing side
-holds with no surviving quiet branch, and ε = √f_amp lands LARGE
-(medians 0.96/0.92/0.87 at r_t = 0.3/0.6/0.9; full spread
-[0.83, 0.99] at h₀ = 0.1); (ii) the registered SILENCE half is
+physical hierarchy first. The authority is the misalignment abundance
+closure (`scripts/genesis_solver_B1.py`), whose release condition H = m
+returns 1 + z_osc = 4.03×10⁷ — this corpus's own canonical onset — and
+Ψ₀ = 5.03×10¹⁶ GeV, so at the standing parameters (m = 2.24×10⁻²⁰ eV,
+λ = 2×10⁻⁹¹) the release hierarchy is **h₀ = λΨ₀²/m² ≈ 1.0**, seven
+decades below the era-bound "~10⁸". Reproducing z_on is the check that
+selects this closure. The dice were rerun across a grid that brackets
+it (`scripts/lowh_dice.py`, h ∈ {0.03, 0.1, 0.3, 1.0}, validation-gated:
+the booked h = 300 row's P = 86% reproduces exactly; its median lands
+0.68 vs 0.55, at the gate's edge — an instrument-convention caveat
+carried by every number below). **At the physical point h ≈ 1:
+P(f_amp > 0.2) = 71–100% depending on tilt, medians 0.42–0.76, and
+zero quiet draws in 42 universes.** Consequences, exactly: (i) the
+ringing side holds and **the quiet branch does not exist** — no draw
+anywhere on the grid reaches it — while the ~86% era odds sit inside
+the physical range rather than being superseded by it; ε = √f_amp has
+medians 0.65–0.87 across tilts and a full spread of [0.18, 0.99];
+(ii) the registered SILENCE half is
 untouched — it survives instrumentally by the mass gate (UPDATE 3's
 beat arithmetic at the standing mass: beat_needed = 5018 against
 beat ≤ 1 identically), not by quietness; (iii) the granule ε-meter —
-the collision's one m-independent readout — now expects NEAR-MAXIMAL
-contrast, the sharpest sim target this thread has produced *(CORRECTED
-same day, self-caught when the meter's law was derived: ε near-maximal
-means the granule CONTRAST sits at its FLOOR — the readout law is
-C = (1 + f_rot²)/2, so the physical dice's f_rot ∈ [0.01, 0.32] gives
-C = 0.50–0.55, HALF free-FDM's granule contrast, the suppression being
-the signature; "near-maximal" belongs to ε and to the suppression, not
-to the contrast — `scripts/granule_contrast_meter.py`, validated 0.6%)*;
+the collision's one m-independent readout — has a **floor but no pinned
+target**: its law is C = (1 + f_rot²)/2
+(`scripts/granule_contrast_meter.py`, validated to 0.6% statically and
+dynamically), so the physical ensemble's f_rot ∈ [0.02, 0.97] gives
+**C from ½ up to ~0.97**, with the parameter-free ½ reached only where
+libration is near-total. Granule heating tracks C linearly, so the
+suppression relative to free FDM ranges from ~2× down to nothing;
 (iv) the
-distributional summit (outcome iv) NARROWS at the physical h: the
-chaos dies with the quartic (the 14-angle spread collapses to ±0.08
-at h₀ = 0.1) and a mild tilt-dependence returns (the erased dial
-re-emerges below h ~ 1) — ε is still a draw, but from a distribution
-tight enough to act like a prediction.
+distributional summit (outcome iv) stands unchanged: ε remains a
+genuine draw at the physical hierarchy, and the tilt dial is live
+rather than erased — the minimal genesis prices ε rather than pinning
+it, which is what outcome (iv) said in the first place.
 
 ## ANN-2026-009: Magnitude correction to ANN-2026-006(a), self-caught
 

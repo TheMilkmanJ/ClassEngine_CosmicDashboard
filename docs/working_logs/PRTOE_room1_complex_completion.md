@@ -1123,19 +1123,22 @@ distinctiveness axis: FDM has no condensation lag; a redshift-dependent
 core-halo normalization is dyad-specific). Sims-owed, same family as
 (ii).
 
-> **CONDITIONALITY ON Ψ₀ (2026-07-28).** The re-scope above puts the physical hierarchy at
-> h₀ ≈ 0.1 using a release amplitude Ψ₀ = 1.6×10¹⁶ GeV computed at 3H = m with ρ = m²Ψ².
-> The dedicated genesis solver's abundance closure records **Ψ₀ = 5.0×10¹⁶ GeV**, which — since
-> h = λΨ₀²/m² — puts the hierarchy at **h₀ ≈ 1.0** instead. Reproducing the difference:
-> releasing at H = m rather than 3H = m gives 3.6×10¹⁶ (h = 0.52), and a further ½ in the
-> energy density reaches 5.1×10¹⁶, matching the solver's number; but this room's own
-> basin-entry convention (ρ_x = m⁴/λ with Ψ₀ = m/√λ) implies no ½, so the two are not yet
-> reconciled and neither is adopted here.
+> **THE HIERARCHY, SETTLED (2026-07-28): h₀ ≈ 1.0, not 0.1.** The authority is the
+> misalignment abundance closure in `scripts/genesis_solver_B1.py`, which releases at H = m
+> and returns 1 + z_osc = **4.03×10⁷ — this corpus's own canonical onset z_on** — with
+> Ψ₀ = 5.03×10¹⁶ GeV, hence h₀ = λΨ₀²/m² = **1.01**. The re-scope's 0.1 came from releasing
+> at 3H = m (which does not reproduce z_on) and from omitting the ½ that the standard
+> misalignment closure carries in ρ = ½m²Ψ². Reproducing z_on is the decisive check, and only
+> the H = m closure does it.
 >
-> **What the dice say across both.** The grid was run at h ∈ {0.03, 0.1, 0.3, 1.0}, so it
-> spans the whole disputed range. **Zero quiet draws appear at any hierarchy or tilt**, so the
-> conclusion that the medium rings — and that the quiet branch does not exist at the physical
-> hierarchy — holds on either reading. What does *not* transfer is the sharpness: at h ≤ 0.3
-> the ensemble is tight (f_rot ∈ [0.01, 0.32]) and the granule contrast is pinned near ½; at
-> h = 1.0 it is broad (f_rot reaching 0.97) and the contrast is not pinned at all. The
-> granule meter's sharp target is therefore conditional on the lower reading.
+> **What that does to the dice, read off the grid already run.** The grid covered
+> h ∈ {0.03, 0.1, 0.3, 1.0}, so the physical point is IN it. At h = 1.0:
+> P(f_amp > 0.2) = **71–100% by tilt** (not 100% everywhere), medians 0.42–0.76, and **zero
+> quiet draws in 42 universes** — so the quiet branch still does not exist at the physical
+> hierarchy, and the medium rings. That conclusion stands.
+>
+> **What does not stand is the sharpness.** At h = 1.0 the ensemble is broad — f_amp reaching
+> down to 0.032, i.e. f_rot up to 0.97 — so the granule contrast is *not* pinned near ½; it
+> ranges up to ~0.97. The parameter-free contrast target belonged to the h ≤ 0.3 rows and does
+> not describe the physical point. The tilt dial also re-emerges here, where the h ≤ 0.3 rows
+> had erased it.

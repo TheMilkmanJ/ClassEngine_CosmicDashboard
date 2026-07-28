@@ -16,19 +16,16 @@ during the citation pass.*
 > below are the era's; the meter's *structure* (what reads ε, and at what contrast) is what
 > survives, and any use of the band's masses defers to the recorded pin.
 >
-> **The same deferral applies to the draw — and the size of that deferral is currently
-> unsettled.** The figures below evaluate the meter at the era's release ensemble,
-> f_rot ≈ 0.4, giving S ≈ 0.58 and a ~42% deficit. Where the standing ensemble sits depends
-> on the release hierarchy h = λΨ₀²/m², and **two computations of Ψ₀ in this corpus differ by
-> a factor ~3, hence ~10 in h**: a scoping calculation releasing at 3H = m gives
-> Ψ₀ = 1.6×10¹⁶ GeV and h ≈ 0.10, while the dedicated genesis solver's abundance closure
-> records Ψ₀ = 5.0×10¹⁶ GeV, which gives h ≈ 1.0. The dice were run across both
-> (h ∈ {0.03, 0.1, 0.3, 1.0}), and the two readings differ materially for this meter:
-> at h ≤ 0.3 the ensemble is tight and close to full libration (f_rot ∈ [0.01, 0.32],
-> **S = 0.50–0.55**), whereas at h = 1.0 it is broad (f_rot reaching 0.97, S up to 0.97).
-> **So the sharp reading S ≈ ½ is conditional on the lower hierarchy and must not be quoted
-> as standing until Ψ₀ is reconciled.** What survives on both readings: no quiet draw appears
-> anywhere in the grid, so the medium rings either way.
+> **The same deferral applies to the draw, and the standing ensemble is broad.** The figures
+> below evaluate the meter at the era's release ensemble, f_rot ≈ 0.4, giving S ≈ 0.58 and a
+> ~42% deficit. The physical release hierarchy is **h₀ = λΨ₀²/m² ≈ 1.0**, fixed by the
+> misalignment abundance closure whose release condition reproduces the corpus's canonical
+> onset redshift (Ψ₀ = 5.03×10¹⁶ GeV). At that hierarchy the release ensemble is *wide*, not
+> tight: f_amp runs from 0.032 to 0.98 across tilts, so f_rot reaches ~0.97 and **S ranges
+> from ½ up to ~0.97**. The meter therefore has a floor at S = ½ but no pinned target, and
+> the era's S ≈ 0.58 sits inside the standing range rather than beside it. What the ensemble
+> does fix: **no quiet draw appears anywhere in the grid**, so the medium rings — the meter
+> always has something to read, even where the contrast is weak.
 
 ## 1. The instrument: what the granule meter measures
 
