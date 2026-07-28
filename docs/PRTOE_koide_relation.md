@@ -322,3 +322,16 @@ tried against it — equilibria, averages, balances, cascade equipartition — h
 fluctuations. **The seed is exactly critical at holonomy π/4**, and that is a statement about a
 phase boundary, which is the one class of thing that can be exact without being an average. Any
 second equation must hold at the *physical* point; criticality holds at the seed.
+
+**And the sector's debt is one real number, not one complex one.** The hopping is usually stated as
+a single complex b whose two parts are the amplitude and the phase — two reals. Given the closure
+they are not independent, and every quantity in the chain is a function of Q alone:
+
+> A = √(6Q − 2) · · · |b|/a = A/2 · · · τ = −ln(|b|/a) · · · φ = Q/3
+
+At Q = 2/3 these return √2, 1/√2, ½ln2 = 0.3465736 and 2/9 exactly — and with them T_c = τ·m_e =
+177.099 keV and the floor ρ_Λ¼ = (9/2)α⁴τ·m_e, since both read the same τ. So the modulus is not a
+second input beside the phase; Parseval fixes it from Q, the closure fixes the phase from Q, and the
+whole sector — including the dark-energy floor's one lepton-side input — descends from **a single
+measured ratio**. The debt is therefore *one number and one relation*: why Q = 2/3, and why the
+closure 3·arg f₁ = Q holds at all.

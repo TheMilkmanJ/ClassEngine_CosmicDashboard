@@ -1634,7 +1634,7 @@ expected sign was called downward and the call held: both O(λ) terms computed, 
 **0.55–1.78 TeV** and arrow C is concluded rather than strained.
 
 **What survives:** a **TeV-scale anchor derived from the Planck floor and α alone** — which is what
-kill (b), HL-LHC exhausting ~1–2 TeV, tests. Arrow B, the identification M_anchor = 4πm_H
+the HL-LHC kill (exhausting ~1–2 TeV without portal states) tests. Arrow B, the identification M_anchor = 4πm_H
 = 1574 GeV, stands. The mechanism is stronger than at registration and the precision weaker; that
 trade is the honest cost.
 
@@ -1683,6 +1683,38 @@ pre-registered menu of pinned/bounded/inconsistent did not contain, booked as a 
 lesson.
 
 **Disposition:** retired as a bound. Nothing downstream cites it.
+
+### P-2026-024's predecessor sizing — the ε-dipole quoted on the IR-scale growth rate (2026-07-17)
+
+**What it claimed:** the horizon-scale varying-constants dipole sized at **δ_DE ≈ 5×10⁻⁵** and
+**δm_e/m_e ≈ 6×10⁻⁷**, with the perturbation growing at **√3·H**.
+
+**Why it died:** it used the IR-scale rate Γ_par/H = √3 where the Jeans mode's rate is
+Γ_eff/H = **√(3/2)**, i.e. B = ω_J/Γ_par = **1/√2**
+([PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md)).
+
+**What survives:** everything but the factor. Rescaled by B = 1/√2 the entry reads
+**δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at √(3/2)·H — the order of magnitude and
+every falsifier are unchanged (still a consistent null against ~10⁻⁶ maps; still killed by a
+confirmed ≫10⁻⁶ dipole or a null at ≲10⁻⁷).
+
+**Disposition:** the registry carries the rescaled numbers; the √3 pair is recorded here only so
+the older figures are traceable if they are met in downstream text.
+
+### The f̄ check's first attempt measured the wrong object (2026-07-28)
+
+**What happened:** the high-statistics check owed to P-2026-041 (f̄ = 2/π) was first run as a
+measurement of a **friction-damped orbit's polar angle** — not the winding average the entry
+registers. Wrong object, so it graded nothing either way; its erratum is recorded in
+`winding_fbar_ensemble.py`.
+
+**The correct run, same day:** `scripts/winding_fbar_spatial.py`, on the registered object's own
+machine — rings of the genesis field carrying windings 1–8 on the recorded potential (the Z₄ tilt
+at ε_A = 2/9), 64 draws per winding, amplitude-gated median winding readout. It delivered
+**f̄ = 0.63137 ± 0.00328, 1.6σ from 2/π**, and is the standing check.
+
+**Rule it carries:** a check is graded only after the object it measures is confirmed to be the
+registered one.
 
 ### The P-2026-010 identifier collision — two pre-registrations under one number (2026-07-17)
 

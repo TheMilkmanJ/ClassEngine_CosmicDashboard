@@ -1903,6 +1903,20 @@ chk("koide joint", "Q* predicted by the joint system", 0.689433, _Q_star, 1e-4)
 chk("koide joint", "that miss in sigma on the measured Q", 3349.0,
     (_Q_star - 0.6666605)/6.8e-6, 5e-3, "sigma")
 
+# --- Koide: the whole sector is a function of Q alone -------------------------
+# Parseval fixes the modulus from Q; the closure fixes the phase from Q. So the
+# sector's irreducible input is ONE REAL number, not one complex one.
+_QK = 2.0/3
+_AQ = math.sqrt(6*_QK - 2)
+_modQ = _AQ/2
+_tauQ = -math.log(_modQ)
+_phiQ = _QK/3
+chk("koide reduction", "A = sqrt(6Q-2) returns sqrt2", math.sqrt(2.0), _AQ, 1e-12)
+chk("koide reduction", "modulus A/2 returns 1/sqrt2", 1/math.sqrt(2.0), _modQ, 1e-12)
+chk("koide reduction", "tau = -ln(A/2) returns (1/2)ln2", 0.5*math.log(2.0), _tauQ, 1e-12)
+chk("koide reduction", "phi = Q/3 returns 2/9", 2.0/9, _phiQ, 1e-12)
+chk("koide reduction", "T_c = tau*m_e from Q alone (keV)", 177.099, _tauQ*510.99895, 1e-3)
+
 # --- light: why gravity is fully induced and light is not, in one number ------
 # Gravity's bare term vanishes AT the cutoff (Pauli). Light's would vanish only
 # at its abelian Landau pole, which sits far above M_Pl -- so the medium can

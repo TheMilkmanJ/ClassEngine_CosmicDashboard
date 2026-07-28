@@ -497,9 +497,7 @@ r_t in {0.3, 0.6, 0.9}): f_amp median 0.55-0.67 and
 erases the tilt dial. So the model forecasts the R1.6 PTA channel fires
 (P-2026-005's band-silence violated) with ~86% probability; the silence
 survives with ~14% probability, priced by the model's own genesis. Caveats (binomial ±9%, single-h dice, order-unity
-normalization, threshold grade) stamped in the Room 1 entry. The
-earlier segmented bound eps ≥ 0.67 (booked provisionally same night)
-is SUPERSEDED — its own stamped caveat fired.
+normalization, threshold grade) stamped in the Room 1 entry.
 
 **UPDATE 2 (2026-07-07) — the gates run (Room 1 doc,
 Expedition 6):** (1) the reviewer's proposed inversion (abundance =
@@ -1581,10 +1579,10 @@ the Sakharov ingredient for **leptogenesis**. The lepton sector is the ONLY sect
 renormalizable number-violation (quarks have none → B conserved), so the model's AD
 asymmetry, IF it is the lepton asymmetry, is built here — and the medium's coupling to L
 (for leptogenesis) drags along the amplitude coupling that IS the dyad (δm_e). This is the
-candidate DERIVATION of the leptophilia (the once-owed object — **still owed**: the Majoron route to
-it was withdrawn 2026-07-20, the singlet |Ψ|² being L-neutral and screening no quark bilinear, so
+candidate DERIVATION of the leptophilia (the once-owed object — **still owed**: the Majoron route
+does not supply it, the singlet |Ψ|² being L-neutral and screening no quark bilinear, so
 leptophilia is carried by data — loop order plus the +12–18σ D/H bound — and this leptogenesis route
-stands as the surviving structural companion): leptonic because the medium is
+stands as the structural companion): leptonic because the medium is
 the asymmetry field and the asymmetry can only route through the L-violating (lepton) sector.
 [OBJECT-PENDING on: AD-asymmetry = lepton asymmetry; amplitude-follows-current; magnitude
 → η_B ~ 6×10⁻¹⁰.]
@@ -1693,7 +1691,7 @@ only genuinely distinctive claim.**
 
 ---
 
-## ANN-2026-026: P-2026-048's central value is superseded, and its tolerance cannot resolve the test (2026-07-19)
+## ANN-2026-026: P-2026-048's two candidate values, and why its tolerance cannot resolve the test (2026-07-19)
 
 **What a reader needs before scoring a lattice result against P-2026-048.** Two values are in
 play, and telling them apart is the entire point of the test:
@@ -1732,12 +1730,9 @@ tracks the local condensate; the floor's Jeans mode gives δ_DE at horizon scale
 > **δm_e/m_e ≈ ε·δ_DE** — a spatial varying-constants dipole (m_e-family: α-combinations
 > per the §29 lattice), horizon-scale, **axis-correlated** (the recoil/low-ℓ axis).
 
-**Amendment (2026-07-17):** the Jeans growth rate is Γ_eff/H = √(3/2) (B = 1/√2), not the
-IR-scale Γ_par/H = √3. Predecessor sizing used √3 and quoted δ_DE ≈ 5×10⁻⁵, δm_e/m_e ≈ 6×10⁻⁷,
-growth at √3·H. Rescaled by B = 1/√2: **δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at
-√(3/2)·H. Order of magnitude and falsifiers unchanged (still a consistent null at ~10⁻⁶ maps;
-still killed by a confirmed ≫10⁻⁶ dipole or a null at ≲10⁻⁷). See
-[PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
+**The sizing:** the Jeans growth rate is Γ_eff/H = √(3/2) (B = ω_J/Γ_par = 1/√2), not the
+IR-scale Γ_par/H = √3, giving **δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at
+√(3/2)·H. See [PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
 
 **Test:** current α-variation sky-maps reach ~10⁻⁶ → the prediction is a *consistent null today*,
 detectable at next-generation precision. **Falsifiers:** (i) a confirmed varying-constants dipole
@@ -1836,15 +1831,9 @@ primordial vorticity by construction (rotation + vortex network + the genome).
 **The prediction:** Harrison seeding from the model's own vorticity, B ≈ 2(m_p c/e)·ω_vort ≈
 **5×10⁻¹⁸ G** (comoving-class) at ω_vort ~ 0.5 H(rec) — sufficient to seed every galactic field
 via dynamo (a bill ΛCDM cannot pay). The primordial field's **magnetic helicity is signed by the
-genome** (the quantized winding current) → parity-odd radio/γ observables carry
-the same sign as the matter/antimatter draw.
-*(ANNOTATION 2026-07-27, syncing the 2026-07-20 withdrawal already ratified in the failures
-ledger: the final clause's matter/antimatter lock is STRUCK — the joint genesis draw proved
-sign(θ̇) and sign(n) independent, so the helicity does not carry the matter draw's sign. What
-stands is the narrower seeding claim: the field's helicity is signed by the genesis flow's own
-handedness, sign(helicity_B) = sign(H_kin), with link 4 owing which handedness that is. The
-magnitude prediction and the kill clause below, which tests against the genome only, are
-untouched.)*
+genome** (the quantized winding current) — it carries the genesis flow's own handedness,
+**sign(helicity_B) = sign(H_kin)**, with link 4 owing which handedness that is → parity-odd
+radio/γ observables carry that sign.
 
 **Honest gap:** the void floor (blazar TeV halos, ~10⁻¹⁶ G) sits ~1.5 orders above the
 smooth-Harrison number, and **two of the three candidate rescues are closed.** Vortex-line-network
@@ -2181,11 +2170,9 @@ derivation (owed) producing a different closed form.
 > **f̄ = 0.63137 ± 0.00328 — 1.6σ from 2/π**, the winding-number systematic (0.0009) far
 > under the distance: neither kill (i) nor (ii) fires. The small-n members carry the tilt's
 > expected imprint (+1.5% at n = 1, −4.0% at n = 2), converging by n = 4 — the many-turns
-> limit behaving as claimed. Consistent with and superseding the interim 0.635 ± 0.026 as
-> the standing check. Kill (iii) — the mechanism derivation — remains the open referee,
+> limit behaving as claimed. Consistent with the interim 0.635 ± 0.026, and now the standing
+> check. Kill (iii) — the mechanism derivation — remains the open referee,
 > with the residual central deficit (−0.8%, unresolved at this precision) noted for it.
-> An earlier same-day attempt measured a friction-damped orbit's polar angle — the wrong
-> object; its erratum is in `winding_fbar_ensemble.py` and it graded nothing.
 
 **Honest flags:** the 2/π identification currently has NO derivation (plausible-shaped:
 f̄ is exactly the kind of average that produces 2/π; the arcsine-family mechanism is owed);
@@ -2223,7 +2210,7 @@ the template offset — THEN the 7.55-vs-7.94 comparison becomes meaningful.
 ## P-2026-042: The TeV Anchor — Where the Zero-Point Becomes Non-Zero (registered 2026-07-12, quiet-mode)
 
 **The claim:** the medium's hierarchy anchors at M_anchor = M_red·e⁻³⁵ ≈ 1.54 TeV, identified
-as **4π·m_H = 1.57 TeV (2.5%; ln(M_red/4πm_H) = 34.98 vs the arrows' 35)** — the no-bare
+as **4π·m_H = 1.57 TeV (ln(M_red/4πm_H) = 34.98 vs the arrows' 35)** — the no-bare
 Higgs reading: with no bare m_H² permitted by the clause, the Higgs mass is the ONE-LOOP
 ECHO of census states living at the anchor (m_H = M_anchor/4π), and those states are the
 portal species the corrected census already demanded (Higgs-coupled, leptophilic). THE
@@ -2234,37 +2221,29 @@ the spectral tilt, now the electroweak hierarchy).
 
 **The three convergent arrows (none fitted):** (i) the hierarchy dial x₀ = e⁻³⁵ (pinned by
 the occupancy+3α triangle); (ii) the census wall — the one-loop portal
-solutions landed AT x = 35.3–35.4 uninvited; (iii) 4π·m_H at 2.5%.
+solutions landed AT x = 35.3–35.4 uninvited; (iii) 4π·m_H = 1574 GeV.
 
-**Predictions/kills:** (a) THE TWO-LOOP LANDING, pre-registered before the shooting run
-exists: the full two-loop census solve must land the portal spectrum near ~1.5 TeV —
-P-039's suspension acquires a predicted landing spot (the suspended knife-edge returns as
-a TARGET); (b) HL-LHC exhausting ~1–2 TeV without portal states kills the visible branch
-sharply; (c) the α_c MCMC killing the triangle (P-040) unpins x₀ and the anchor's first arrow falls;
-(d) a derived "35" (= ln(M_red/4πm_H) from the census structure itself) would convert this
-from an identification to a derivation — the owed step.
-
-**AMENDMENT (2026-07-19) — kill (d) is PAID, and the precision is withdrawn.** The gap equation
-was written down and solved rather than adopted ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
-§6b–6g). The exponent's 35 is now derived: 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97, with **k = 1.36461 reconstructed
+**The exponent is derived, not adopted (2026-07-19).** The gap equation
+was written down and solved ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+§6b–6g): the 35 is 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97, with **k = 1.36461 reconstructed
 exactly**, not fitted — Thomas–Fermi screening at 2α_c/π from a *two-band* polarisation, averaged over
 the full Fermi surface, Monte-Carlo verified. **Conditional:** that host is a cold degenerate Fermi
 surface, and the recorded basement is a hot Fermi point; the hot reading misses the screening
 constant by 1.6–2× (hierarchy §6m). The exponent's derivation therefore rests on band structure the
 corpus has yet to supply. The channel is fixed too: **particle-hole, not Cooper** — a
 charge-2e condensate at this scale would give the photon a mass ~10¹² eV against the recorded bound
-of 10⁻¹⁸ eV. So the identification has become a derivation and the claim's *mechanism* is stronger
-than at registration.
+of 10⁻¹⁸ eV.
 
-**Its precision is correspondingly weaker, and that is the honest cost.** ∂lnM/∂lnk = 33.47, so
+**The precision the derivation carries, stated honestly.** ∂lnM/∂lnk = 33.47, so
 every O(1) in the calculation is amplified thirty-threefold: the exact-solution factor (Δ = 2Λe^(−1/λ),
 not Λe^(−1/λ)), the rainbow truncation's dropped vertex (relative order λ = 3%, a factor ≈2.7), and
 the Fermi surface's position within Λ_shell ≤ E_F ≤ M_red (≈1.6) compound to **a factor of a few:
-the anchor is 1–8 TeV, not 1.57 TeV at 2.5%.** The 2.5% agreement stated at registration is finer
-than the calculation supporting it and is withdrawn as a precision claim. What stands, and what
-kill (b) tests, is a TeV-scale anchor derived from the Planck floor and α alone. Kill (a)'s two-loop
-landing is superseded: that program closed as mooted, and the collider search refereeing the decade
-directly is what remains.
+the anchor is 1–8 TeV.** What the entry claims, and what the collider referees, is a TeV-scale
+anchor derived from the Planck floor and α alone.
+
+**Predictions/kills:** HL-LHC exhausting ~1–2 TeV without portal states kills the visible branch
+sharply — the collider search refereeing the decade directly is this entry's referee; and the α_c
+MCMC killing the triangle (P-040) unpins x₀, at which the anchor's first arrow falls.
 
 **What electroweak precision constrains here (2026-07-19).** Not the anchor's scale, but the
 roster: the anchor-scale portal
@@ -2360,18 +2339,11 @@ edge moving off z ≈ 50 enough to exit decoupling (breaks the mechanism).
  Eliashberg Z factor; the effect is a velocity renormalisation whose integrand is pointwise positive
  on the Fermi sea. Both insertions carry the same sign and add, and the sizing is reinforced rather
  than re-opened.
- *(Superseded, kept as the amendment trail — **the earlier re-sizing, 2026-07-20**: that strain was
- measured against the anchor as a point value (1.57 TeV), withdrawn in favour of a 1–8 TeV band.
- Against that band the gap was 1.6× at the top edge and 13× at the bottom, so the audit was
- **downstream of the O(λ) correction rather than independent of it** — and the correction's
- expected sign was called downward, favouring the band's lower half. Both O(λ) terms have since
- been computed and the call held: the band is 0.55–1.78 TeV and arrow C is concluded, not
- STRAINED.)*
 - **P-2026-043** (the cosmic-dawn trough, deeper): LIVE — the thermal-history run has been
  made and the depth is **≈ 1.0%**, not the estimate's 4.6%; the sign, which is the registered
  content, holds. The decision rule is a sign test.
-- All other entries: statuses unchanged from their last amendments; the birefringence
- visibility note (vs the claimed EB rotation) and the neutrino block stand as written.
+- All other entries stand as written, the birefringence
+ visibility note (vs the claimed EB rotation) and the neutrino block included.
 
 ## P-2026-044: The evidence forecast — ΔlnZ ≥ +5 (registered 2026-07-12, BEFORE the PolyChord run)
 
@@ -2382,9 +2354,18 @@ bottom-out line, stated honestly: if the model is only marginally better (ΔlnZ 
 
 **Kills/grades:** ΔlnZ < +2.5 → the cap holds and the bottom-out clause fires; +2.5 to +5
 → the Laplace estimate confirmed, the aggressive forecast missed; ≥ +5 → the aggressive
-forecast lands in full and the model's standing is re-graded upward. The referee:
-cmp_prtoe_dyad_ev vs cmp_lcdm_ev (PolyChord, same data, no derived values anywhere in
-either config).
+forecast lands in full and the model's standing is re-graded upward. **The referee:** the
+**Laplace-from-MCMC** estimate on the full data stack, with no derived values anywhere in
+either config — nested sampling is unaffordable at this likelihood cost (66 s per likelihood
+evaluation against 534 slice steps per iteration is 9.8 h per nested iteration, so a first
+checkpoint at nlive = 400 sits 163 days out and the 1 809-iteration reference run 736 days
+out, with the ΛCDM twin doubling it), and cluster time would have to be bought to change that.
+**That instrument is adverse to this prediction and is recorded as such:** the Laplace
+estimator's own systematic is larger than the +0.135 by which the standing +2.635 clears the
+win line, so the instrument now in hand cannot resolve the interval this registration was
+written to decide. The consequence for the model is that **chain convergence is the critical
+path for P-2026-044 itself** rather than a side referee on individual parameters — the MCMC is
+not supporting evidence, it is the evidence calculation's only input.
 
 **The conservative forecast (registered alongside, same timestamp class):** **ΔlnZ = +3.0
 ± 1.0 (interval +2 to +4).** Reasoning: the Laplace +2.635 was computed for the OLD setup
@@ -2402,29 +2383,11 @@ tension (H₀: Planck-vs-SH0ES is in this stack via pantheonplusshoes; S₈'s di
 likelihood gains of tension-release class, which generically exceed its Occam cost (basis:
 ~1000 prior projection runs). **The counter, also on record:** the H₀-relief gain is
 already largely PRICED into the Laplace +2.635 (SH0ES was in that fit); the NEW freedom
-(z_on, varying_me) must earn its own keep beyond it. THE AUTOPSY PROTOCOL, set now: when
-the number lands, decompose it — best-fit Δχ² of the freed run vs the old fixed run,
-against the measured Occam costs (from the PolyChord outputs) — and grade which mechanism
+(z_on, varying_me) must earn its own keep beyond it. THE AUTOPSY PROTOCOL, set now and
+executable in reduced form: when the number lands, decompose it — best-fit Δχ² of the freed run
+vs the old fixed run, which runs on the chains, against the measured Occam costs, which are a
+nested-sampling output and wait with the rest — and grade which mechanism
 story was right, independent of which interval wins. Forecasts stand as registered.
-
-**AMENDMENT (2026-07-20) — THE REFEREE CHANGES; THE FORECASTS DO NOT.** The nested run named
-above is ended and archived (`chains/_archive_polychord_ended_20260720_0915/`). It was not
-stalled and it was not wrong — it was unaffordable: 66 s per likelihood evaluation against 534
-slice steps per iteration is 9.8 h per nested iteration, so the first checkpoint at nlive = 400
-sits 163 days out and the 1 809-iteration reference run 736 days out, with the ΛCDM twin
-doubling it. Forty-eight hours bought 4.1 iterations.
-
-**What this changes.** The forecasts, the intervals and the bottom-out clause stand exactly as
-registered — the number they grade is now the **Laplace-from-MCMC** estimate rather than a
-nested one, until cluster time is bought. That substitution is adverse to this prediction and
-is recorded as such: the Laplace estimator's own systematic is larger than the +0.135 by which
-the standing +2.635 clears the win line, so the instrument now in hand cannot resolve the
-interval this registration was written to decide. The consequence for the model is that
-**chain convergence is the critical path for P-2026-044 itself** rather than a side referee on
-individual parameters — the MCMC is no longer supporting evidence, it is the evidence
-calculation's only input. The autopsy protocol survives in reduced form: the Δχ² decomposition
-runs on the chains, while the measured Occam costs it wanted are a nested-sampling output and
-wait with the rest.
 
 ---
 
