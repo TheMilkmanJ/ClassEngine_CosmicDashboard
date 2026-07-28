@@ -3580,3 +3580,25 @@ grading cannot serve, its Z₃ charge having been shown to commute with chiralit
 
 A direction, not a derivation. Filed here rather than forward because it is a finding *about the
 failures*: `scripts/null_mechanism_class_filter.py`, five harness checks.
+
+### The two rings' 8:3 amplitude ratio — RAISED AND KILLED THE SAME HOUR (2026-07-28)
+
+**The lead.** The charged ring has A² = 6Q − 2 = 2 at Q = 2/3. The neutrino triple's Q is fixed
+once the lightest mass is, and the corpus fixes it — m₁ = 2.25 meV, the dark-energy scale ρ_Λ¼. So
+A_ν is determined too, and the ratio of the two amplitudes is a number the corpus already carries
+without having looked at it. It lands on **8/3 to 67 ppm**, equivalently A_ν² = 3/4 to 67 ppm, or
+Q_ν = 11/24 to **18 ppm**. Three simple fractions at once, from a quantity nobody chose.
+
+**The kill: the target is wider than the miss by a factor 99.** Propagating the inputs —
+Δm²₂₁ = (7.53 ± 0.18)×10⁻⁵, Δm²₃₁ = (2.53 ± 0.03)×10⁻³, and m₁ at ±0.5% — gives Q_ν an error of
+**1808 ppm**. The 18 ppm miss on 11/24 is therefore **0.010σ from exact**, which is not a precision
+agreement but an unconstrained one: at that width every nearby simple fraction fits, and the
+apparent sharpness is entirely an artefact of quoting a central value without its budget.
+
+**What survives, at its true strength:** A_ν² ≈ 3/4 against the charged ring's exactly 2, so the
+two amplitudes sit near 8:3. That is a target for a mechanism, not evidence of one, and it cannot
+be sharpened — it would need the splittings and the lightest mass to a part in 10⁵, which no
+experiment offers and none is planned.
+
+Filed here rather than pursued, per check 20. `scripts/two_ring_amplitude_ratio.py` carries the
+budget so the lead cannot be re-raised without it.

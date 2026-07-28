@@ -20,8 +20,14 @@
 #   * system /usr/bin/python3.12, NOT conda — cobaya 3.6.2, clipy, candl, mpi4py 4.1.2;
 #   * /usr/bin/mpirun (Open MPI 4.1.6), NOT the conda one on PATH;
 #   * classy .so mtime is recorded below. It was 2026-07-23 20:00, older than the
-#     2026-07-26 restart, so resuming does not splice physics. VERIFY THIS AGAIN before
-#     any future resume.
+#     2026-07-26 restart, so the physics is the current build. VERIFY THIS AGAIN before
+#     any future launch.
+#   * NOT A RESUME. Cobaya refuses to resume across a rank-count change --
+#     "Cannot resume a run with a different number of chains: was 1 and now is 3" --
+#     so this starts FRESH at 3 ranks with -f. The 2,900 serial samples are not thrown
+#     away: their value was the learned proposal covariance, which is preserved in
+#     _seed_covmats_20260728/ and is what each rank now starts from. Products from the
+#     serial run are archived beside them.
 set -e
 cd "$(dirname "$0")/../chains"
 
@@ -48,7 +54,7 @@ for CH in cmp_lcdm_mnu_bbnfix dyad_mnu_bbnfix; do
 
   OMP_NUM_THREADS=1 nohup setsid taskset -c $PIN nice -n 10 \
     /usr/bin/mpirun -n $RANKS --oversubscribe --bind-to none \
-    /usr/bin/python3.12 -m cobaya.run $CH.input.yaml -r \
+    /usr/bin/python3.12 -m cobaya.run $CH.input.yaml -f \
     >> $CH.launchlog 2>&1 &
   echo "$CH launched under $RANKS ranks, pid $!"
   sleep 3
