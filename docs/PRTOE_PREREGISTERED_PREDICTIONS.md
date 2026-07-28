@@ -1520,13 +1520,11 @@ self-scrambles. Combined with the other two routes — the energy/amplitude mode
 coupling was deleted 2026-07-09 as census-illegal — **all three birefringence routes are
 null.** Version A (β=0) is confirmed **by computation**, not merely by assumption.
 
-**Retraction booked:** a transient claim this
-session that the dCDF is "rolling dark energy" sourcing β ~ 0.01–0.3° *locked to w(z)* is
-**withdrawn** — it rode two label-reasoning fouls ("w runs 0→-1" → "rolling field";
-"P=const" → "true Λ"), neither checked against w_dcdf(ρ)=-ρ_inf/ρ (background.h:680) or a
-computed θ̇(a). **Version B (P-2026-049) is demoted:** the as-built dCDF *cannot* source it
-(it would need a DE-scale-mass slow roller it does not have, plus the deleted coupling).
-Version B survives only as a property of a hypothetical *different* field, not this model.
+**The dCDF does not source a birefringence angle locked to w(z).** Its equation of state is
+w_dcdf(ρ) = −ρ_inf/ρ (`background.h:680`), which is not a rolling field: a locked β ~ 0.01–0.3°
+would require a dark-energy-scale-mass slow roller the medium does not have, together with a
+coupling the census excludes. **Version B (P-2026-049) is therefore a property of a hypothetical
+different field, not of this model.**
 
 **Open extension:** a counter-rotating / two-component **beat**
 (2026-07-09) — two opposite rotations whose fast (~m) windings cancel, leaving a
@@ -1681,39 +1679,6 @@ tie-as-LOCK (vs a two-scale tuning) selects DIRECT. Residual: the value μ = 2.2
 shared-scale-motivated (AZK-dodging) not MaVaN-derived. The claim is held provisional pending its named referees.
 
 ---
-
-## ANN-2026-021: P-2026-004 FALSIFIED — the whisper wins the pre-registered collision (2026-07-10)
-
-**P-2026-004 (Σm_ν ∈ [0.11, 0.17] eV) is FALSIFIED.** The pre-registered collision (Atlas
-2026-07-07: whisper ρ_inf = m_ν,lightest → Σ ~ 62 meV **XOR** P-004's high-Σ) is resolved by DESI's
-low-Σ preference (<~60 meV): the **low-Σ / whisper branch survives, P-004's high-Σ branch dies.**
-Per P-004's own clause ("a limit below 0.10 eV embarrasses this entry"), it is embarrassed. **Stop
-advertising the "dyad allows high Σm_ν" reading anywhere it appears.**
-
-**Honest accounting — a real cost, partially offset:**
-- COST: a pre-registered prediction is dead. Booked.
-- OFFSET (i): the model PRE-REGISTERED the collision — it pre-committed that one branch would die,
- so this is a designed either/or resolving, not an unanticipated failure.
-- OFFSET (ii): a model that makes falsifiable predictions and has one KILLED by data is behaving
- like a real theory — genuine falsifiability, a point of respect under the corrected standard.
-
-**The surviving whisper is THIN (not new credit):** ρ_inf = m_ν,lightest = 2.25 meV / Σ ~ 62 meV is
-(a) NON-DISTINCTIVE (NH-minimal is the generic expectation DESI squeezes everyone toward; 2.25 meV
-vs 0 unresolvable) and (b) VALUE UN-DERIVED (√(H₀M_Pl) = the Λ-dominance tautology; the m_e→M₂→ρ_inf
-cascade = meV-kinship factor ~3-4; the "constitution" fallback = value-is-an-input). Its survival =
-the Σm_ν ~ 60 meV live falsifier *not yet firing*, not a positive result.
-
-**POST-HOC FLAG (conceded):** the whisper PREDICTION is legitimately pre-registered
-(2026-07-07), BUT the shared-spurion MECHANISM that makes the structure "pick
-the whisper" is NEW — devised *after* DESI's low-Σ was known. So it is a **post-hoc rationalization**
-of the data-favored branch, NOT an independent prediction. It earns NO "derivation" credit until it
-produces a NEW falsifiable consequence beyond the already-registered whisper. Flagged, not recorded.
-
-The claim is held provisional pending its named referees
-the survivor is thin + un-derived + carries a post-hoc flag on its mechanism.
-
----
-
 
 ## ANN-2026-025: P-2026-012's frozen text vs the model's current position (2026-07-19)
 

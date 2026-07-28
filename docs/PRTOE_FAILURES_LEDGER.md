@@ -1509,6 +1509,32 @@ metric-on turn is closed at both the fluid level and the constraint level; a
 bounded-density bounce law survives only as unrecorded new physics, the same
 status as any unnamed operator.
 
+### P-2026-004 (Σm_ν ∈ [0.11, 0.17] eV) — FALSIFIED by DESI (2026-07-10; moved here 2026-07-28)
+
+**What it claimed:** a high summed neutrino mass, Σm_ν ∈ [0.11, 0.17] eV.
+
+**Why it died:** the atlas pre-registered a collision on 2026-07-07 — the whisper branch
+(ρ_inf = m_ν,lightest, giving Σ ~ 62 meV) **XOR** this entry's high-Σ branch. DESI's low-Σ
+preference (≲ 60 meV) resolved it against this entry, which had itself written the clause
+"a limit below 0.10 eV embarrasses this entry".
+
+**What survives, and how thin it is.** The whisper branch lives, but it is not new credit:
+it is **non-distinctive** (normal-hierarchy-minimal is the generic expectation DESI squeezes
+everyone toward, and 2.25 meV against 0 is unresolvable) and its **value is underived** —
+√(H₀M_Pl) is the Λ-dominance tautology, the m_e → M₂ → ρ_inf cascade supplies only a meV-kinship
+factor of 3–4, and the constitution fallback makes the value an input. Its survival is the
+Σm_ν ~ 60 meV falsifier *not yet firing*, not a positive result.
+
+**The post-hoc flag, conceded and binding.** The whisper *prediction* is legitimately
+pre-registered (2026-07-07), but the shared-spurion *mechanism* that makes the structure pick
+the whisper was devised **after** DESI's low-Σ was known. It is therefore a post-hoc
+rationalisation of the data-favoured branch, not an independent prediction, and it earns no
+derivation credit until it produces a new falsifiable consequence beyond the registered whisper.
+
+**Disposition:** cold as a prediction. One offset worth recording for the method rather than for
+the model: the collision was pre-committed, so a designed either/or resolved — the branch that
+died was named in advance.
+
 ### P-2026-052 (the ν-recoupling corridor; registered as 049, ID corrected same day) — RETRACTED same-day: wrong channel (2026-07-18)
 
 **What it claimed:** ν recoupling through the Majoron at z ∈ [150, 1100], from a two-fence
