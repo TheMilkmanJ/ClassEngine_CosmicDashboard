@@ -4750,3 +4750,28 @@ the integral over 100M samples and had to be killed; the closed form runs instan
 which is the better answer to a slow numerical check.
 
 Eight checks added, harness 882.
+
+### 2026-07-28 — the winding turn budget: branch (a) closes under the natural reading, and the owed piece is the averaging window
+
+Priced the equidistribution grant, which DERIVATION_HUNT's f̄ row states outright ("The
+equidistribution is granted"). The corpus already carries the inputs: baryogenesis records
+**θ̇/H = 2.4×10⁶ at T_sph** with **θ̇ ∝ T³**, and in a radiation background H ∝ T².
+
+Two consequences, and they answer the turn count differently in kind:
+
+- **turns per Hubble time go as T** — 3.82×10⁵ at T_sph, through the five-turn threshold branch
+  (a) needs at **T ≈ 1.7 MeV** (on a 130 GeV shutoff), and down to **7.6×10⁻⁷ by recombination**,
+  where the phase is not equidistributing at all but frozen at whatever value it holds.
+- **accumulated winding saturates**: θ̇·dt = (θ̇/H)_sph·dT/T_sph is flat in T, so the total is
+  **3.82×10⁵ turns** with 99% laid down by T = 0.01·T_sph and essentially none after.
+
+On the accumulated reading — the natural one for a phase winding since genesis — f̄ sits within
+**2.6×10⁻⁵ %** of 2/π, so **branch (a) is dead by six orders and the α_c conflict stands at its
+full 2.08%**.
+
+**The owed piece is therefore not the grant but the window.** "Is equidistribution granted" is
+answered; "over what window is the average taken" is not, and the two readings differ in kind
+rather than in precision — one pins f̄ to a part in 10⁷, the other makes f̄ not an average at all
+below an MeV. Nothing recorded says which the ε-assembly uses.
+
+Seven checks added, harness 889.

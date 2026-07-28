@@ -899,6 +899,22 @@ is a physical question the corpus answers elsewhere and a different question fro
 fit's scatter answers. Past a few tens of turns f̄ is pinned far tighter than the conflict and
 this route closes.
 
+**And the corpus already carries enough to price the turn count.** Baryogenesis records
+θ̇/H = 2.4×10⁶ at T_sph with θ̇ ∝ T³; in a radiation background H ∝ T², so turns per Hubble time
+go as T, and the accumulated winding θ̇·dt goes as dT — flat, hence dominated by the earliest
+epoch. The two readings answer differently, and they differ in kind rather than in precision:
+
+- **accumulated since T_sph: 3.8×10⁵ turns**, 99% of them laid down by T = 0.01·T_sph. On that
+  reading f̄ sits within **2.6×10⁻⁵ %** of 2/π and branch (a) is dead by six orders.
+- **instantaneous, per Hubble time**: 3.8×10⁵ at T_sph, falling through the five-turn threshold at
+  T ≈ 1.7 MeV and reaching 7.6×10⁻⁷ by recombination — where the phase is not equidistributing at
+  all but sitting frozen at whatever value it holds.
+
+So the owed piece is not "is equidistribution granted" — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)
+grants it — but **over what window the average is taken**. Under the accumulated reading, the
+natural one for a phase that has wound since genesis, f̄ is pinned and the α_c conflict stands at
+its full 2.08%.
+
 What would otherwise settle the branch is an α_c reading that does not route through the assembly
 at all. The trio's other two doors, the dispersion chain and the isocurvature phase speed, are
 both of that kind, so the triangulation keeps two clean legs.

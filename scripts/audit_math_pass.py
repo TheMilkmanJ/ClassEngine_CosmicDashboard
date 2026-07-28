@@ -1155,6 +1155,21 @@ chk("fbar envelope", "worst case at 30 turns", 0.348, _env(30.0)*100, 3e-2, "%")
 # the 1/(pi N) proxy overstates the allowance threefold, which is why it is not used
 chk("fbar envelope", "1/(pi N) proxy at 10 turns, for contrast", 3.183,
     1/(math.pi*10)*100, 1e-3, "%")
+# The turn budget, from baryogenesis's theta_dot/H = 2.4e6 at T_sph with theta_dot ~ T^3.
+# H ~ T^2 in radiation, so turns per Hubble go as T while the ACCUMULATED winding saturates:
+# theta_dot dt = (theta_dot/H)_sph dT/T_sph is flat in T.
+_RSPH = 2.4e6
+chk("winding turns", "turns per Hubble time at T_sph", 3.820e5, _RSPH/(2*math.pi), 1e-3)
+chk("winding turns", "T/T_sph where it falls to five turns", 1.309e-5,
+    5*2*math.pi/_RSPH, 1e-3)
+chk("winding turns", "that temperature on a 130 GeV shutoff", 1.70,
+    5*2*math.pi/_RSPH*130*1e3, 1e-2, "MeV")
+chk("winding turns", "turns per Hubble at recombination (0.26 eV)", 7.64e-7,
+    _RSPH*(0.26/(130*1e9))/(2*math.pi), 2e-3)
+chk("winding turns", "total accumulated turns below T_sph", 3.820e5, _RSPH/(2*math.pi), 1e-3)
+chk("winding turns", "fraction of it laid down by T = 0.01 T_sph", 99.0, (1-0.01)*100, 1e-6, "%")
+chk("winding turns", "f_bar deviation on the accumulated reading", 2.64e-5,
+    0.1009/(_RSPH/(2*math.pi))*100, 2e-2, "%")
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
