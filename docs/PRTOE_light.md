@@ -110,6 +110,19 @@ the constituent level must supply it bare. (Read at M_Z, the medium's loop accou
 of the 98.4, ~44%, and the constituent level for ~56% — an illustration tied to that reading
 scale, not an invariant.)
 
+**Why the two differ, in one number.** Gravity is fully induced because the Pauli condition makes
+its bare term vanish *at the cutoff*. Light would be fully induced on the same terms — but only if
+its bare term vanished there too, and it does not. Running hypercharge on upward from M_Pl with the
+same one-loop slope, 1/α_Y reaches zero at
+
+> **μ ≈ 1.8×10⁴¹ GeV — 22 decades above the Planck scale.**
+
+That is where an abelian coupling's bare term would go away, and it is far above where this medium
+stops. So the medium can supply only the running *below* its own cutoff, and the constituent level
+must hand over the rest — which is exactly the recorded split, 23.5% loop against 76.5% bare. **The
+asymmetry between gravity and light is not two different mechanisms; it is one mechanism against two
+different cutoffs**, and the abelian sign (§3) is what puts light's 22 decades out of reach.
+
 > **Gravity is what the medium does. Light is what the medium was given.**
 
 ## 5. The two boundary values: what the running finds at the Planck scale

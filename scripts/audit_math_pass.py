@@ -1869,6 +1869,20 @@ chk("hierarchy 6", "#130: Weyl fermions in the visible roster", 48, _NW, 0)
 # hierarchy section read "48 plus three right-handed neutrinos" and double-
 # counted them. Dirac equivalents are therefore 24, not 25.5, and k = 0.618.
 chk("hierarchy 6", "roster without nu_R (SM proper)", 45, 3*15, 0)
+
+# --- light: why gravity is fully induced and light is not, in one number ------
+# Gravity's bare term vanishes AT the cutoff (Pauli). Light's would vanish only
+# at its abelian Landau pole, which sits far above M_Pl -- so the medium can
+# supply only the running below its own cutoff and the constituents hand over
+# the rest. Running reproduces the file's own 55.5 at M_Pl, which is the check
+# that this slope is the corpus's.
+_MZ, _MPL, _INVAY_MZ, _BY = 91.1876, 1.22e19, 98.4, 41.0/6.0
+_slope = _BY/(2*math.pi)
+chk("light 4", "1/alpha_Y run from M_Z to M_Pl", 55.5,
+    _INVAY_MZ - _slope*math.log(_MPL/_MZ), 5e-3)
+_mu_pole = _MZ*math.exp(_INVAY_MZ/_slope)
+chk("light 4", "decades from M_Pl to the abelian Landau pole", 22.2,
+    math.log10(_mu_pole/_MPL), 5e-3)
 chk("hierarchy 6", "Dirac equivalents of the 48-Weyl roster", 24.0, _NW/2, 1e-9)
 _bk = lambda N: math.log(1.0 + math.pi/(N*3*ALPHA))/math.pi
 chk("hierarchy 6", "k at the corrected N_screen = 24", 0.6185, _bk(24.0), 1e-3)
