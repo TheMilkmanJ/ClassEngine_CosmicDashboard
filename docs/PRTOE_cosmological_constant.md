@@ -17,10 +17,10 @@
 > two apart — a demanding number, and nobody has computed it yet.
 >
 > And the claim is existence, not precision — the distinction is load-bearing and is made in full
-> at §4d. The gap above is a statement about *τ*, where it is exact arithmetic between two
+> at §4b. The gap above is a statement about *τ*, where it is exact arithmetic between two
 > candidate values. The *predicted meV* is not owned to that accuracy: the composite quartic maps to
 > λ = 26–46, the whole band above the control edge λ\* = 22.41, so ρ_Λ¼ carries an uncontrolled
-> radiative correction whose formal size is 5.4–9.8% — wider than the gap itself. The chain lands on
+> radiative correction whose formal size is 5.2–9.2% — wider than the gap itself. The chain lands on
 > the observed scale, and the same lattice job that measures τ is what would let the two decimal
 > places be claimed.
 >
@@ -165,7 +165,7 @@ BCS–BEC crossover, where the coherence length equals the bound-state size — 
 *(The group that supplies that crossover is now named: the finiteness balance selects a dark
 **SU(2)** sector, whose pseudo-real fundamental makes its baryons **bosonic diquarks** — the
 canonical diquark-BEC realization of this very crossover, and the origin of the s-wave channel
-§4c selects. Registered as **P-2026-048**, with the one uncomputed number that decides it.)*
+§4b selects. Registered as **P-2026-048**, with the one uncomputed number that decides it.)*
 The two sides of condensed matter's most famous crossover perform the two famous jobs
 in one vacuum: the weak side's exponential gap digs the electroweak hierarchy; the
 strong side's occupancy sets the cosmological constant.
@@ -382,8 +382,12 @@ value: at N_c = 2 the dark quartic is 3/2 of the three-colour one at the same M/
 
 Where that lands. Every reading in the band sits **above** the control edge λ\* = 22.4 (1.1× to
 2.1×; √(na³) = 0.043–0.077, so it is series *control* that fails, not diluteness). The LHY term is
-therefore the wrong order to quote — its formal value would be ΔE/E_MF = 22–39%, hence
-Δρ_Λ¼/ρ_Λ¼ = 5.4–9.8%, while the next term of the same series is already larger. **So the λ gate and
+therefore the wrong order to quote — its formal value would be ΔE/E_MF = 21–37%, hence
+Δρ_Λ¼/ρ_Λ¼ = 5.2–9.2%, while the next term of the same series is already larger.
+*(Both bands recomputed 2026-07-27 from this section's own closed form: (8/15π²)·√α_c =
+0.007995, times λ = 26–46, with the quarter-power tie giving the second band exactly. The
+previously quoted 22–39% and 5.4–9.8% correspond to λ ≈ 27.5–48.8 and predate the λ band's
+present value; the coefficient itself was always right.)* **So the λ gate and
 the τ gate MERGE, and the merge is forced rather than marginal** — the composite quartic sits past
 where perturbative control ends, so the headline chain's radiative band needs the same
 non-perturbative SU(2) N_f = 3 treatment that owes τ. One lattice job gates both open numbers.

@@ -200,7 +200,8 @@ environment half, one interaction and one signature at a time.
 - **Force-by-force environment terms**: EM booked (m_e, α levers);
  the strong-sector lever is now NAMED with its price (m̂, above);
  **the weak sector (G_F) is STRUCTURALLY VOID — closed by the coupling census
- (the derived gravity-only count), not owed.** Three routes, all shut. (i) A direct medium→W/Z coupling
+ (the derived gravity-only count), not owed.** Three routes, all shut.
+ (i) A direct medium→W/Z coupling
  needs one entity bridging the dark charge to the chiral electroweak
  sector, which the medium has not (L1's birefringence rider). (ii) The
  census-legal channel is a universal conformal rescaling Ω²(φ)·g_μν,
@@ -466,9 +467,10 @@ is its only coupling). Give it curvature and the product is determined:*
 
 ## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
 - **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 burn;
- proposal-grade):** the frozen-ellipticity theorem (the ellipticity fraction — **a different quantity from the
- retired amplitude factor of the same name**, which the standing decomposition ε = c·f̄·α_c
- no longer contains; see [PRTOE_amplitude_derivation.md](archive/PRTOE_amplitude_derivation.md)'s
+ proposal-grade):** the frozen-ellipticity theorem (the ellipticity fraction —
+ **a different quantity from the retired amplitude factor of the same name**, which
+ the standing decomposition ε = c·f̄·α_c no longer contains; see
+ [PRTOE_amplitude_derivation.md](archive/PRTOE_amplitude_derivation.md)'s
  banner — here it is ε² frozen
  because rotation and libration redshift identically) is testable in
  a LAB: expanding-ring BEC "analog universe" experiments already
@@ -964,7 +966,7 @@ is its only coupling). Give it curvature and the product is determined:*
  (Superconductor contrast, booked while here: a superconductor is a
  GAUGED U(1) condensate — Meissner, flux quantization; the medium is
  a GLOBAL-U(1) condensate, He-4-class, no dark photon — the census
- closed that door; the two condensate families are cousins, not
+ closed that channel; the two condensate families are cousins, not
  twins.)
 
 - **QUANTUM BIOLOGY AND THE CONSCIOUSNESS FIREWALL (scales-only,
@@ -1050,7 +1052,7 @@ watching one coupling age. The census (gravity-only; no dark photon;
 B−L capped) FORBIDS a mirror world: no dark atoms, no dark
 chemistry, no dark stars, no dark light. Falsifiable as always:
 dark acoustic oscillations in P(k), a dark disk in the Galaxy, or
-self-interacting dark radiation would each kill the minimal room.
+self-interacting dark radiation would each kill the minimal model.
 The "opposite of everything" instinct lands where the file lives:
 every conserved charge defines a ±, every interaction has a source and
 a sink — the universe's opposites are CONJUGATE CHARGES, not parallel
@@ -1060,8 +1062,8 @@ worlds.
 - Absolute scales: relations fix only dimensionless values; units need
  anchors.
 - Quantum kinematics: Bell is a cost, not a wall — it excludes only
- maps that are simultaneously local, classical, and measurement-
- independent. Priced exits: nonlocal interactions; substrate-correlated
+ maps that are simultaneously local, classical, and
+ measurement-independent. The priced exits: nonlocal interactions; substrate-correlated
  settings (a universal medium is the natural implementer); retrocausal
  handshakes (the transactional interpretation, J. Cramer 1986 —
  entanglement as an interaction, already published and Bell-compatible);
@@ -1218,58 +1220,58 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  bistability, §42). A right blueprint, turning three assertions into
  one rule.
 
-- **CROSS-BANK TRANSACTIONS AND THE E=mc² SETTLEMENT LAYER — is there
- ever a point where they clear between both
- coupling channels?** YES -- and it is the m_e mechanism itself. The
+- **CROSS-CHANNEL INTERACTIONS AND THE E=mc² BRIDGE — is there
+ ever an interaction that completes across both
+ coupling channels?** YES — and it is the m_e mechanism itself. The
  trigger/amplitude split (gravity triggers, EM executes) is ONE
- interaction that starts in the space↔matter bank (gravity) and
- finishes in the matter↔matter bank (EM) -- it cannot clear in a
- single bank. THE SETTLEMENT LAYER between the two banks is E=mc²
- enforced by the equivalence principle: any energy in the EM bank
- must also post to the gravity bank as mass/weight, universally. This
- is ubiquitous -- every binding energy is a cross-bank entry (the
- electron's EM self-energy is EM-bank field energy that simultaneously
- weighs in the gravity bank). THE USEFUL CONSEQUENCE: a cross-bank
- interaction is regulated by BOTH banks' rulebooks at once -- EM's
- (quasar delta_mu, MICROSCOPE composition-dependence) AND gravity's
+ interaction that starts in the space↔matter channel (gravity) and
+ finishes in the matter↔matter channel (EM) — it cannot complete in a
+ single channel. THE BRIDGE between the two channels is E=mc²
+ enforced by the equivalence principle: any energy in the EM channel
+ must also register in the gravitational channel as mass, universally. This
+ is ubiquitous — every binding energy is a cross-channel entry (the
+ electron's EM self-energy is EM-channel field energy that simultaneously
+ weighs in the gravitational channel). THE USEFUL CONSEQUENCE: a cross-channel
+ interaction is constrained by BOTH channels' rules at once — EM's
+ (quasar Δμ/μ, MICROSCOPE composition-dependence) AND gravity's
  (equivalence principle, fifth-force bounds). Those are EXACTLY the
  constraints that have shaped/killed the m_e mechanism all along. So
  the m_e mechanism is the hardest thing in the model to legalize NOT
- by bad luck but STRUCTURALLY -- it is DOUBLE-REGULATED (cross-bank),
- facing two banks' inspectors where most interactions face one. Also
+ by bad luck but STRUCTURALLY — it is DOUBLY CONSTRAINED (cross-channel),
+ facing two sets of constraints where most interactions face one. Also
  clarifies the census: space reaches EM via its gravitational coupling + the
  E=mc² equivalence (census-clean, no EM charge needed, matches the
- contingent-coupling channel principle) -- BUT the reach is the E=mc²/
- curvature route = 60-orders-weak, so this re-confirms the strength
- problem rather than solving it. GRADE: structural insight -- explains
- the mechanism's cross-bank status and WHY it is maximally constrained;
+ contingent-coupling channel principle) — BUT the reach is the E=mc²/
+ curvature route, weak by 60 orders, so this re-confirms the strength
+ problem rather than solving it. GRADE: structural insight — explains
+ the mechanism's cross-channel status and WHY it is maximally constrained;
  does NOT supply the missing mechanism (the equivalence ensures
  consistency once a shift happens, does not create the shift).
 
-- **"THE BANK COMES TO COLLECT" -- mandatory vs optional couplings, and why
- the medium's charge is UNCOLLECTABLE (why can't the coupling come
+- **WHAT WOULD FORCE A COUPLING — mandatory vs optional couplings, and why
+ the medium's charge cannot be reached (why can't the coupling come
  directly from the medium?).** Real
- distinction: OPTIONAL couplings (portals -- kinetic mixing, Higgs, B-L) are
+ distinction: OPTIONAL couplings (portals — kinetic mixing, Higgs, B−L) are
  model-building choices, and the census KILLED them. MANDATORY couplings are
  forced by a symmetry (gravity, by the equivalence principle, MUST couple to
- all energy -- no opt-out). A mandatory coupling could be census-exempt (the
- census priced OPTIONAL portals) AND strong -- a legitimate escape route.
- BUT the medium's charge is a GLOBAL U(1) (Room1 doc: "broken global U(1)";
- Atlas: GLOBAL-U(1) condensate, He-4-class, NO dark photon), and a global
- charge is CONSERVED BUT UNCOLLECTABLE -- no gauge boson, no force carrier,
+ all energy — no opt-out). A mandatory coupling could be census-exempt (the
+ census priced OPTIONAL portals) AND strong — a legitimate escape route.
+ BUT the medium's charge is a GLOBAL U(1) (Room 1 doc: "broken global U(1)";
+ this atlas: GLOBAL-U(1) condensate, He-4-class, NO dark photon), and a global
+ charge is CONSERVED BUT UNSOURCED — no gauge boson, no force carrier,
  no mandatory coupling (exactly like baryon number: conserved, but there is
- no "baryon force" to enforce it). So there is NO bank collector for the
- medium's charge. From the other side identically: EM's collector (the
- photon) grabs ELECTRIC charge, and the medium is not electrically charged,
- so EM cannot collect either. The two banks are disconnected at the GAUGE
+ no "baryon force" to enforce it). So there is NO force carrier for the
+ medium's charge. From the other side identically: EM's carrier (the
+ photon) couples to ELECTRIC charge, and the medium is not electrically charged,
+ so EM cannot reach it either. The two sectors are disconnected at the GAUGE
  level; the only thing reaching across is GRAVITY (energy, E=mc²),
  mandatory but weak. THIS EXPLAINS THE CENSUS rather than restating it:
  gravity being the medium's only coupling FOLLOWS from the medium being a
  global-U(1) condensate (unsourced charge → only the mandatory
  energy coupling, gravity, applies). The one way to install a strong
- mandatory collector: GAUGE the U(1) → but that creates a DARK PHOTON,
+ mandatory carrier: GAUGE the U(1) → but that creates a DARK PHOTON,
  reopening the killed kinetic-mixing/dark-photon grave (census closed it).
- VERDICT: "come get it" is the right kind of idea (mandatory couplings are
+ VERDICT: "make it mandatory" is the right kind of idea (mandatory couplings are
  the real loophole), but the medium's charge is the one unsourced
  kind (global charge), the sector that could couple strongly (gauged dark
  photon) is already buried, and the surviving mandatory coupling (gravity)

@@ -203,7 +203,7 @@ bound closes the same channel from the other side: a universal quark shift at ε
 phase-blind, while the Majoron's tree coupling is to the phase — so what holds the quarks away is a
 number, and a number can be reopened by better data in a way a symmetry cannot.
 
-Principled silences, not open items: strong-CP, collapse dynamics, the jurisdiction
+Constitutional silences, not open items: strong-CP, collapse dynamics, the jurisdiction
 clause, and **the CMB cold spot** — the anomaly family's machinery is anisotropic-Gaussian
 (axes, spectra, covariances) and a cold spot is localized, sign-definite and
 phase-coherent, so no stage sources one; the distinctive route (a texture) is closed by the

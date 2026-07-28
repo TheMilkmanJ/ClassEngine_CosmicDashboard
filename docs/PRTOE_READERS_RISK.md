@@ -52,7 +52,7 @@ everywhere atomic physics appears.
   and ρ_Λ¼ = 2.2599 meV — **+0.44%**, with no cosmological input in the chain. **Read that as an
   existence claim and not a precision one:** the composite quartic maps to λ = 26–46, the whole band
   above the control edge λ\* = 22.41, so the radiative correction on ρ_Λ¼ is uncontrolled at this
-  order (formally 5.4–9.8%, with the next term of the series already larger). The chain lands on the
+  order (formally 5.2–9.2%, with the next term of the series already larger). The chain lands on the
   observed scale; it does not claim the two decimal places it lands to. That rests on one
   hypothesis (the charged-lepton √m thermally populated, which is what Q = 2/3 asserts) and is
   candidate-grade. The same uncomputed lattice number decides it — and it is one job, not two, the
