@@ -2205,7 +2205,14 @@ precisely:** (1) *the same-response identification* — that the medium response
 photon's coupling is the same response that sets the condensate's compressibility, and that it
 enters both with unit coefficient; (2) *the roster condition* — the base equals α only for the
 recorded induced split (the medium's fermion loop supplies ~44% of light's strength, the basement
-the rest), so "base = α" stands or falls with that split. Neither piece touches the factor 3 = d,
+the rest), so "base = α" stands or falls with that split. [The ~44% is the *hypercharge* channel
+read at M_Z. The coupling this identification names is electromagnetic α at q = 0, where the
+induced share is **23.5%** (32.14 of 137.036, above 1/α_EM(M_Pl) = 49.4 + 55.5 = 104.9; ±2 on
+those Planck values gives 20.5–26.4%). The condition is therefore conditioned on 23.5%, and the
+direction is adverse: the coupling is more the basement's bare value and less the medium's loop
+than the recorded figure implied. The corrected quantity is also the right *type* — an
+endpoint-to-endpoint fraction, not a reading at a chosen scale — which is what a
+scale-independent α_c can be conditioned on at all.] Neither piece touches the factor 3 = d,
 which follows from the second sound independently of the loop. *(Recorded without weight: c₂ = √α·c
 is the geometric mean of the two velocity scales the model already carries — light speed and the
 Bohr velocity αc. That is the claim rewritten, not evidence for it.)*

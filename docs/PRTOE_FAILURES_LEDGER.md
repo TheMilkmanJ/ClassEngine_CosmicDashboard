@@ -504,7 +504,11 @@ boundary rather than ramped.
 1/α_Y(M_Z) = 98.4 to the Planck scale gives **1/α_Y(M_Pl) = 55.5, not 0** — meaning the medium's
 loop generates 44% of light's coupling and the basement must supply the other 56% bare.
 **A naked failure became a falsifiable target (α_Y(M_Pl) = 0.0180) and a structural find
-(gravity is 100% induced; light is only 44% induced).**
+(gravity is 100% induced; light is only 44% induced).** *(The 44% is the hypercharge channel,
+which is what this walk ran. Read in the electromagnetic channel at zero momentum — the coupling
+the α_c = 3α identification actually names — the induced share is **23.5%**, 32.14 of
+1/α_EM(0) = 137.036 above 1/α_EM(M_Pl) = 49.4 + 55.5 = 104.9. The structural find survives and
+sharpens: light is even less induced than the hypercharge reading suggested.)*
 
 **The pattern, stated plainly because it is now five deep in one day** (errors 27, 28, 29, and
 this): *every one of these was a NEGATIVE verdict issued fast on an unwalked ramp.* The bias is

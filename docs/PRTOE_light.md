@@ -149,15 +149,24 @@ interaction grammar's split, found independently by the renormalization group.
 - light's role as the record — forbidden from scale-building by the sign of its β
  (theorem);
 - the machinery/record division of labour — the signs of the two β functions (theorem);
-- 44% of light's strength — the medium's fermion loop (computed);
+- **23.5% of the electromagnetic coupling's strength at zero momentum** — the medium's fermion
+ loop, supplying 32.14 of 1/α_EM(0) = 137.036 above the Planck-scale bare value
+ 1/α_EM(M_Pl) = 1/α₂ + 1/α_Y = 49.4 + 55.5 = 104.9; the ±2 scheme band on those two values
+ carries it across 20.5–26.4% (computed). **This is the fraction the α_c = 3α identification
+ uses**, because that identification names electromagnetic α at q = 0, and it is an
+ endpoint-to-endpoint quantity rather than a reading at a chosen scale;
+- ~44% in the *hypercharge* channel read at M_Z (42.9 of 98.4) — the same loop against a
+ different coupling at a different scale, and not the quantity the identification conditions on
+ (computed);
 - the two-value structure at the Planck scale — the non-abelian near-meeting plus the
  abelian outlier (computed from measured couplings).
 
 **Not derived — one number:**
 
-- the remaining 56% of light's strength. The constituent level must supply a bare coupling
- **α_Y(M_Pl) = 0.0180** (GUT-normalised 1/α₁ = 33.3), and its constituents
- are not yet specified.
+- the remaining **76.5%** of the electromagnetic coupling. The constituent level must supply the
+ bare Planck-scale values — 1/α₂(M_Pl) = 49.4 and **α_Y(M_Pl) = 0.0180** (GUT-normalised
+ 1/α₁ = 33.3), i.e. 1/α_EM(M_Pl) = 104.9 — and its constituents are not yet specified. In the
+ hypercharge channel alone the corresponding unsupplied share is 56%.
 
 **The pre-registered constraints (standing targets; the wrong constituent theory gives the
 wrong numbers and the route dies):** any constituent structure this model ever specifies must
