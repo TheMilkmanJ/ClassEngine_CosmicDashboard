@@ -792,6 +792,27 @@ scale — weaker than the infrared 137.04.** Running takes α the other way: str
 ultraviolet. So running cannot rescue the anchor's value under any amount; it can only move it
 further. Horn (a) is disfavoured by sign, not merely by magnitude.
 
+**A second sector reaches the same value, and it excludes d = 3 at every scale.** The ε-assembly's
+background fit registers an independent indirect band on the same coupling, **α_c ∈ [0.0205,
+0.0214]** ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)). The anchor's exact-landing value falls
+inside it, at 91% of its height; the recorded α_c = 3α(0) = 0.021892 falls outside it, 2.30% above
+its top. Two constraints from unrelated sectors therefore agree with each other and disagree with
+the identification in the same direction — the anchor wanting α_c 2.63% below the recorded value,
+the band's top sitting 2.25% below it.
+
+The exclusion does not depend on where α is evaluated. Since α strengthens toward the ultraviolet,
+3α(μ) ≥ 3α(0) for every μ, so the *smallest* value the identification can take is the one it
+already takes — and that minimum exceeds the band's top. **No choice of scale brings 3α inside the
+band**, which is the same shape as the anchor's own bound, where 1/α = 140.74 lies past the
+infrared cap of 137.036. Written as α_c = d·α(0), the band permits **d ∈ [2.809, 2.933]**, the
+anchor's landing sits at **d = 2.921**, and **d = 3 is excluded by 2.30%.**
+
+None of this touches α_c's *value*, which both constraints put near 0.0213 — within 2.6% of the
+recorded number. What it bears on is the identification, and it is evidence on the fork rather
+than a restatement of it: horn (a) needs α_c to be 3α at some scale, which the band now forbids
+outright, while horn (b) — a medium constant that merely sits near 3α(0) — absorbs both
+constraints without strain, being free to take 0.0213. **The convergence points at (b).**
+
 But horn (b) carries a double-counting hazard. α(0) is the *fully infrared-screened* coupling —
 the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening
 from the constituent level's own fermions on top of it. Either α(0) is the bare coupling at that

@@ -4591,3 +4591,31 @@ visible. `S8 pair` moves from 4 self-contained / 0 coupled to coupled; the censu
 80.8%, and the entirely-self-contained list from 21 sections to 20.
 
 Harness 843, passing.
+
+### 2026-07-28 — the census's third target: two sectors converge on α_c, and d = 3 is excluded at every scale
+
+`quantum trio` was the next self-contained cluster. Its three checks are individually fine, but
+one of them books a quantity that nothing else in the harness touches: the ε-assembly's indirect
+band on α_c, [0.0205, 0.0214], recorded as sitting 2.3% below the α_c = 3α claim. That band had
+never been put against the hierarchy anchor's own demand.
+
+**They agree.** §6g solves for the coupling that lands the anchor exactly on 4πm_H and gets
+α_c = 0.021316. That value falls **inside** the indirect band, at 91% of its height. The recorded
+α_c = 3α(0) = 0.021892 falls **outside** it, 2.30% above the top. Two constraints from unrelated
+sectors — a pairing anchor and a background fit — push the same way: the anchor wants α_c 2.63%
+below the recorded value, the band's top sits 2.25% below it.
+
+**And the exclusion is scale-free.** α strengthens toward the ultraviolet, so 3α(μ) ≥ 3α(0) for
+every μ: the smallest value the identification can take is the one it already takes, and that
+minimum is above the band. No choice of scale brings 3α inside — the same shape as the anchor's
+own bound found this morning, where 1/α = 140.74 lies past the infrared cap 137.036. On
+α_c = d·α(0) the band permits **d ∈ [2.809, 2.933]**, the anchor sits at **d = 2.921**, and
+**d = 3 misses by 2.30%**. Nothing simple occupies the permitted interval: its centre is 2.871,
+with e = 2.718 below and 3 above.
+
+**What it is evidence for.** Not against α_c's value, which both constraints put near 0.0213,
+within 2.6% of the recorded number. Against the *identification*. §6f's horn (a) needs α_c to be
+3α at some scale and the band now forbids that outright; horn (b) — a medium constant sitting near
+3α(0) — absorbs both constraints without strain. **The convergence is evidence on the fork and it
+points at (b)**, which is the first thing found today that moves the fork rather than sharpening
+it. Written into §6g; nine checks added, harness 852.

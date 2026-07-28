@@ -1065,6 +1065,25 @@ chk("lab cousins", "fit-implied 0.6253 vs 2/pi", 1.8, (2/math.pi/0.6253-1)*100, 
 chk("quantum trio", "second sound c2 = c1/sqrt(3) = sqrt(alpha)", 0.0854, math.sqrt(1/137.035999), 0.002, "c")
 chk("quantum trio", "identity sqrt(3a)/sqrt(3) == sqrt(a)", 1.0, math.sqrt(3/137.035999)/math.sqrt(3)/math.sqrt(1/137.035999), 1e-12)
 chk("quantum trio", "indirect band top 0.0214 below 3a", 2.3, (1-0.0214/(3/137.035999))*100, 0.03, "%")
+# The same band against the hierarchy anchor's exact-landing coupling (6g). Two unrelated
+# sectors, one value: the anchor lands inside the band, d.alpha(0) with d = 3 lands outside.
+_BLO, _BHI, _AC_ANCH = 0.0205, 0.0214, 0.021316
+_AC_REC = 3.0/137.035999084
+chk("quantum trio", "the anchor's alpha_c is inside the indirect band", 1,
+    1 if _BLO <= _AC_ANCH <= _BHI else 0, 0)
+chk("quantum trio", "where it sits in the band", 90.7, (_AC_ANCH-_BLO)/(_BHI-_BLO)*100, 0.1, "%")
+chk("quantum trio", "3.alpha(0) sits above the band top by", 2.30, (_AC_REC/_BHI-1)*100, 1e-2, "%")
+chk("quantum trio", "the anchor wants alpha_c below the recorded value by", 2.63,
+    (1-_AC_ANCH/_AC_REC)*100, 1e-2, "%")
+# alpha only strengthens toward the UV, so 3.alpha(mu) >= 3.alpha(0): the minimum is already
+# above the band, and no scale choice can bring the identification inside it.
+chk("quantum trio", "min over mu of 3.alpha(mu) = 3.alpha(0)", _AC_REC, _AC_REC, 1e-12)
+chk("quantum trio", "so the identification is excluded at every scale", 1,
+    1 if _AC_REC > _BHI else 0, 0)
+chk("quantum trio", "d the band permits, low end", 2.8092, _BLO*137.035999084, 1e-3)
+chk("quantum trio", "d the band permits, high end", 2.9326, _BHI*137.035999084, 1e-3)
+chk("quantum trio", "d the anchor's landing corresponds to", 2.9211,
+    _AC_ANCH*137.035999084, 1e-3)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
