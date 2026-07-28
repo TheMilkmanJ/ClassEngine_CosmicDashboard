@@ -1090,6 +1090,15 @@ structure R_c = M_c needs has no source at Widnall aspect ratios (pair asymmetry
 delivery is therefore weight-independent per-mode — A → 2, the axis grave. **The ring-on-ring
 deliverer is dead. Autopsy with full receipts: the failures ledger.**
 
+**Scope of the "no source" clause, corrected 2026-07-28 (see the ledger's amendment).** It holds
+for the *geometric* host and for the kernel the corpus's own regime implies. A kernel sweep on the
+same three-defect ring gives, in this frame: **−log r (the 2D vortex kernel) → k_doublet = 0
+exactly**, so the shape mode is not nearly flat but perfectly flat, and the 0.99 degeneracy above
+is generous to the host; **1/r → k_S/k_D = 8**; **pair-harmonic r² → k_S = 6, k_D = 3, i.e.
+k_S/k_D = 2 exactly**, at every R, which is the structure this passage says has no source. So a
+source exists — one standard kernel supplies the ratio identically. What is owed is why the family
+ring's defects should interact pair-harmonically rather than logarithmically.
+
 **The door's final state after the campaign:** the equivalence stack stands as mathematics
 (A = √2 ⟺ sector-equipartition ⟺ R_c = M_c ⟺ the mean-power locus — derived both directions);
 the wall-tangency kinematics, the dressing frame, the moment arithmetic, and all seven-plus
