@@ -1266,6 +1266,35 @@ chk("null class", "so no charge sum over the seats vanishes", 0,
     1 if abs(sum([-1.0]*3)) < 1e-9 or abs(sum(q*q for q in [-1.0]*3)) < 1e-9 else 0, 0)
 chk("null class", "recorded dead mechanisms referencing charge", 0, 0, 0)
 chk("null class", "recorded dead mechanisms built on a vanishing", 0, 0, 0)
+# The Coulomb stiffness ratio on a three-defect ring: exactly 8, analytically and scale-free.
+# U = sqrt3/R for three unit charges at 120 deg, so both irrep stiffnesses go as 1/R^3.
+import itertools as _it
+def _ring_ratio(_R):
+    _h = _R*1e-5
+    _T = [2*math.pi*k/3 for k in range(3)]
+    def _E(_d):
+        _p = [((_R+_d[k])*math.cos(_T[k]), (_R+_d[k])*math.sin(_T[k])) for k in range(3)]
+        return sum(1.0/math.hypot(_p[i][0]-_p[j][0], _p[i][1]-_p[j][1])
+                   for i, j in _it.combinations(range(3), 2))
+    _H = [[0.0]*3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            _a=[0.]*3; _b=[0.]*3; _c=[0.]*3; _e=[0.]*3
+            _a[i]+=_h; _a[j]+=_h; _b[i]+=_h; _b[j]-=_h
+            _c[i]-=_h; _c[j]+=_h; _e[i]-=_h; _e[j]-=_h
+            _H[i][j] = (_E(_a)-_E(_b)-_E(_c)+_E(_e))/(4*_h*_h)
+    _q = lambda v: sum(v[i]*_H[i][j]*v[j] for i in range(3) for j in range(3))
+    _S = [1/math.sqrt(3)]*3
+    _D = [2/math.sqrt(6), -1/math.sqrt(6), -1/math.sqrt(6)]
+    return _q(_S), _q(_D)
+_ks, _kd = _ring_ratio(1.0)
+chk("coulomb ring", "singlet stiffness at R = 1 is 2/sqrt3", 2/math.sqrt(3), _ks, 1e-4)
+chk("coulomb ring", "doublet stiffness at R = 1 is 1/(4 sqrt3)", 1/(4*math.sqrt(3)), _kd, 1e-4)
+chk("coulomb ring", "so the ratio is exactly 8", 8.0, _ks/_kd, 1e-4)
+chk("coulomb ring", "and it is scale-free (R = 100 gives the same)", 8.0,
+    _ring_ratio(100.0)[0]/_ring_ratio(100.0)[1], 1e-4)
+chk("coulomb ring", "against the 2:1 the R_c = M_c condition needs, an overshoot of", 4.0,
+    (_ks/_kd)/2.0, 1e-4, "x")
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)

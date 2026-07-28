@@ -1924,6 +1924,22 @@ before it.** Checked before acceptance: the face-map subtlety dissolves at t* �
 planar-radial, projection 0.99998); chart-mode and ξ-convention systematics are few-% against a
 2× margin. The verdict is robust.
 
+**AMENDED 2026-07-28 — the "no source" clause was established for a NEUTRAL host.** The autopsy's
+cause of death is that the 2:1 stiffness asymmetry "has NO SOURCE on the Widnall-thin torus", the
+pair-interaction's pattern asymmetry entering only at O((a/R)²) ≈ 1–5%. That holds for a neutral
+ring. **A charged one has a source, and it is exact.** Three equal charges at 120° carry
+U = √3/R, and projecting the Hessian of the radial displacements onto the S₃ irreps gives
+k_singlet = 2/√3·R⁻³ and k_doublet = 1/(4√3)·R⁻³ — **a ratio of exactly 8, independent of R**
+(verified 0.5 ≤ R ≤ 100), with no a/R suppression at all, because Coulomb does not see the tube.
+
+So the asymmetry the host could not supply is supplied by charge. **It overshoots: 8 against the
+2 the condition names, by exactly a factor 4.** A geometric-plus-Coulomb mixture reaches 2:1 at
+d_c/d_g = 0.168 — Coulomb carrying ~17% of the doublet stiffness — but nothing fixes that
+fraction, so that is a tuning and not a derivation. The blank therefore moves from *"no source
+exists"* to *"a source exists, is exact and scale-free, and overshoots by four"*, which is a
+different and more tractable statement. `scripts/coulomb_ring_stiffness_ratio.py`, five harness
+checks.
+
 **What dies with it:** the cascade-delivery chain end to end as this week built it — the pass-4
 "LIFE at estimate grade" (already downgraded through the passes), the per-irrep quota's exhibited
 deliverer, the nested-sharing mechanism AS DELIVERED, and the claim that A = √2 is derived from
