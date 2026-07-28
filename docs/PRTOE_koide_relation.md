@@ -336,12 +336,22 @@ whole sector — including the dark-energy floor's one lepton-side input — des
 measured ratio**. The debt is therefore *one number and one relation*: why Q = 2/3, and why the
 closure 3·arg f₁ = Q holds at all.
 
-**The closure's branch is not ambiguous, and positivity is what fixes it.** A phase is defined
-mod 2π while a mass ratio is not, so 3·arg f₁ = Q admits branches φ_n = (Q + 2πn)/3 spaced 2π/3
-apart. With A = √2 positivity admits only |φ| < π/12, a window of width π/6 — **four times narrower
-than the branch spacing**, so at most one branch can ever fit. Exactly one does: n = 0 gives
-φ = 2/9 = 0.22222 inside the window, while n = ±1 land at +2.31662 and −1.87217, far outside. The
-branch is selected uniquely, by a wall the corpus already carries.
+**The closure is a statement about a Z₃ invariant, and written that way it has no branch problem.**
+Relabelling which seat is first sends f_j → ω^j f_j with ω = e^{2πi/3}, so f₁ → ω f₁ and
+**(f₁/f₀)³ is invariant** — the cube is the natural Z₃-invariant built from the charged mode. The
+closure is its argument:
+
+> **arg[(f₁/f₀)³] = Q**, with **|(f₁/f₀)³| = 2^(−3/2)**
+
+Both verified exactly at the standing values. In this form nothing refers to a first seat, so the
+objection that 3·arg f₁ equates a quantity defined mod 2π to one that is not never arises: the cube's
+argument is well defined without a labelling choice, and the modulus is the same τ read three times.
+
+**The branch is also fixed independently, by positivity.** Taking the uncovariant form at face
+value, 3·arg f₁ = Q admits branches φ_n = (Q + 2πn)/3 spaced 2π/3 apart. With A = √2 positivity
+admits only |φ| < π/12, a window of width π/6 — **four times narrower than the branch spacing** — so
+at most one branch can ever fit. Exactly one does: n = 0 gives φ = 2/9 inside the window, while
+n = ±1 land at +2.31662 and −1.87217, far outside.
 
 **And the same pair bounds Q from above.** Positivity is the inequality A ≤ A_max(φ), which with
 A = √(6Q − 2) and φ = Q/3 reads √(6Q − 2) ≤ A_max(Q/3) and gives
@@ -351,3 +361,11 @@ A = √(6Q − 2) and φ = Q/3 reads √(6Q − 2) ≤ A_max(Q/3) and gives
 The measured Q = 2/3 sits inside that ceiling at 96.7% of it. This is a genuine derived constraint
 on Q — the sector's first — and it is what the recorded "96% of the wall" measures when read as a
 bound rather than as a coincidence. It does not fix Q; it fences it.
+
+**The fence is one-sided, and the ceiling has no closed form.** Positivity is silent below
+Q = 1/2, where A = √(6Q − 2) ≤ 1 and every branch stays positive whatever the phase — so the
+ceiling exists only on Q > 1/2. Below that the only floor is the node itself, Q > 1/3 at A = 0,
+which says no more than that the hopping is nonzero. And the ceiling is the root of
+1 + √(6Q − 2)·cos(Q/3 + 2π/3) = 0, transcendental in Q; the nearest simple forms
+((1+√2)/3.5, ln2) miss by 3×10⁻⁴ and 4×10⁻³, so it is a number and not an identity. The fence
+therefore reads **1/3 < Q ≤ 0.689433**, derived at the top and trivial at the bottom.

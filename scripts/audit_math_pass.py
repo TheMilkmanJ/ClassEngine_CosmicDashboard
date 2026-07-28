@@ -4,6 +4,7 @@ Each check states the claim, the file it lives in, and what the arithmetic actua
 A check FAILS if the recomputed value misses the booked one by more than the stated
 tolerance. Run: python3 scripts/audit_math_pass.py
 """
+import cmath
 import math
 
 ALPHA = 1/137.035999084
@@ -1914,6 +1915,16 @@ chk("koide branch", "branch spacing over positivity window", 4.0,
     (2*math.pi/3)/(math.pi/6), 1e-12)
 chk("koide branch", "how many branches fit the window", 1,
     sum(1 for n in (-2,-1,0,1,2) if abs((2.0/3 + 2*math.pi*n)/3) < math.pi/12), 0)
+# The closure is covariant when written on the Z3 INVARIANT (f1/f0)^3: relabelling
+# sends f_j -> omega^j f_j, so the cube is fixed and its argument needs no first seat.
+_cube = cmath.exp(3*(-0.5*math.log(2) + 1j*(2.0/9)))
+chk("koide invariant", "|(f1/f0)^3| = 2^(-3/2)", 2.0**-1.5, abs(_cube), 1e-12)
+chk("koide invariant", "arg[(f1/f0)^3] = Q", 2.0/3, cmath.phase(_cube), 1e-12)
+_om = cmath.exp(2j*math.pi/3)
+chk("koide invariant", "cube is Z3-invariant under f1 -> omega f1", 0.0,
+    abs((_om*cmath.exp(-0.5*math.log(2) + 1j*(2.0/9)))**3 - _cube), 1e-12)
+# The fence is one-sided: positivity is silent at or below Q = 1/2 (A <= 1).
+chk("koide bound", "A at Q = 1/2 (positivity threshold)", 1.0, math.sqrt(6*0.5-2), 1e-12)
 
 # --- Koide: the whole sector is a function of Q alone -------------------------
 # Parseval fixes the modulus from Q; the closure fixes the phase from Q. So the
