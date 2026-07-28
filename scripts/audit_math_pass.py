@@ -1077,9 +1077,20 @@ chk("no singularities", "lambda support margin (2e-91 over 8e-94)", 250, 2e-91/8
 
 # --- the S8 pair: standing-anchor arithmetic (2026-07-19) ---
 chk("S8 pair", "g candidate identity 10*eps == 54a/pi", 1.0, (10*27/(5*math.pi)*(1/137.035999)) / (54/(math.pi*137.035999)), 1e-12)
-chk("S8 pair", "LCDM 0.833 vs Legacy consensus", 1.6, (0.833-0.814)/0.012, 0.02, "sigma")
-chk("S8 pair", "model 0.823 vs Legacy consensus", 0.75, (0.823-0.814)/0.012, 0.02, "sigma")
-chk("S8 pair", "model twice as close as LCDM", 2.1, (0.833-0.814)/(0.823-0.814), 0.02, "x")
+# Named once, used everywhere below, so a corrected value propagates (protocol check 21).
+_S8_LCDM, _S8_MOD = 0.833, 0.823
+_S8_KIDS, _S8_KIDS_ERR = 0.814, 0.012
+_S8_MIN = 0.821                       # the minimizer's value at g = 0.12, before the production fit
+chk("S8 pair", "LCDM vs Legacy consensus", 1.6, (_S8_LCDM-_S8_KIDS)/_S8_KIDS_ERR, 0.02, "sigma")
+chk("S8 pair", "model vs Legacy consensus", 0.75, (_S8_MOD-_S8_KIDS)/_S8_KIDS_ERR, 0.02, "sigma")
+chk("S8 pair", "model twice as close as LCDM", 2.1,
+    (_S8_LCDM-_S8_KIDS)/(_S8_MOD-_S8_KIDS), 0.02, "x")
+chk("S8 pair", "minimizer g = 0.12 against the production fit", 0.002, _S8_MOD-_S8_MIN, 1e-9)
+# The pair's two halves come from different fits: the joint stack reports H0 = 69.05 and no S8,
+# the production CMB re-fit reports H0 = 69.9 with S8 = 0.823. Guarded so the gap stays visible.
+_H0_STACK, _H0_REFIT, _H0_LCDM = 69.05, 69.9, 67.4
+chk("S8 pair", "the two model H0 fits differ by", 0.85, _H0_REFIT-_H0_STACK, 1e-9, "km/s/Mpc")
+chk("S8 pair", "joint-stack H0 easing over LCDM", 1.65, _H0_STACK-_H0_LCDM, 1e-9, "km/s/Mpc")
 
 # --- small_scale_structure: the braiding scale (2026-07-19) ---
 _MPl_full_eV = 1.22091e19 * 1e9                   # full Planck mass, eV

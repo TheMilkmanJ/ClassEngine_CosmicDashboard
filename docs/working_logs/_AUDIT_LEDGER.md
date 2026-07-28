@@ -4561,3 +4561,33 @@ check 23 found four numbers that pass separately and miss closure by nine. `S8 p
 
 80/20 is a healthier split than expected; the useful output is the 21-section list, which is where
 a corrected input would silently fail to propagate.
+
+### 2026-07-28 — the census's second target lands: S₈ and H₀ quoted as one fit, measured on two
+
+Took `S8 pair`, the other 100%-self-contained cluster the harness census flagged. The defect is
+not in the S₈ arithmetic, which closes: 0.833 and 0.823 against the KiDS-Legacy 0.814 ± 0.012 give
+1.6σ and 0.75σ, and the "twice as close" claim is 2.1. All correct.
+
+**It is in the attribution.** `PRTOE_intellectual_history.md` stated the live claim as "equal fit
+quality across every dataset **simultaneously**, with H₀ = 69.0 and S₈ = 0.823 instead of ΛCDM's
+67.4 / 0.833". Those four numbers do not come from one fit:
+
+| number | source |
+|---|---|
+| H₀ = 69.05 | the joint-stack optimum (ACT DR6 included), ξ = 0.142, plik = 586.5 |
+| S₈ = 0.823 | the production CMB re-fit, which sits at **H₀ = 69.9** |
+| ΛCDM 67.4 | Planck's headline |
+| ΛCDM 0.833 | the S₈ comparator, paired there with **H₀ = 68.2** |
+
+Checked before naming it, per check 20a: 69.9 and 69.05 are two genuinely distinct named fits
+(CMB re-fit output vs joint-stack optimum), so neither file is wrong about its own number. What
+is wrong is the word *simultaneously* — and **the joint stack reports no S₈ anywhere in the
+corpus**, so the pair cannot be sourced to it. Prose corrected to name each half's fit; the claim
+survives, its provenance now stated.
+
+**And the section is no longer self-contained.** Its four values are now named constants used by
+every check that touches them, plus the H₀ gap between the two fits guarded explicitly so it stays
+visible. `S8 pair` moves from 4 self-contained / 0 coupled to coupled; the census goes 80.4% →
+80.8%, and the entirely-self-contained list from 21 sections to 20.
+
+Harness 843, passing.

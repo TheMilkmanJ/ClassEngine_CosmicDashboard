@@ -152,10 +152,12 @@ where the radiation lever could not.
 - ACT DR6 clawed essentially all of it back; the joint-stack refit landed
   at H₀ = 69.05, ξ = 0.142 — *exactly* where the ridge analysis predicted
   it would — and the refit ΛCDM twin is converging to a statistical tie.
-- The model's live claim is therefore: **equal fit quality across every
-  dataset simultaneously, with H₀ = 69.0 and S₈ = 0.823 instead of
-  ΛCDM's 67.4 / 0.833** — both tensions eased directionally, at zero χ²
-  cost, for one extra parameter.
+- The model's live claim is therefore **equal fit quality across every
+  dataset, both tensions eased directionally, at zero χ² cost for one
+  extra parameter**: the joint stack lands H₀ = 69.05 against ΛCDM's
+  67.4, and the production re-fit lands S₈ = 0.823 against 0.833. The
+  joint stack reports no S₈ of its own, so the two halves of that pair
+  are measured on different fits.
 - The m_e coupling (the possible fourth graft) is under profile test as
   this document is written.
 
