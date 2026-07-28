@@ -106,7 +106,7 @@ bottleneck and **0.7741** at lithium, against the coded 0.6089 and 0.7765 — a 
 stamp.
 
 **Priced by measurement.** Scanning T_c over 0.150–0.210 MeV through the production splice and
-fitting the slope gives ∂(D/H)/∂T_c = **+0.0898 ± 0.0328** per MeV, so the 1.9 eV move costs
+fitting the slope gives ∂(D/H)/∂T_c = **+0.0898 ± 0.0328** per MeV, so the 1.90 keV move costs
 **−0.0036σ ± 0.0013** against the ±0.0476 width. The ε move 1.24% → 1.2543%, priced the same way
 over 0–2.5%, costs **+0.0035σ ± 0.0004**. The two carry opposite signs and near-equal magnitude,
 so **applying both together is −0.00005σ, zero to within ±0.0014σ** — the residual uncertainty is

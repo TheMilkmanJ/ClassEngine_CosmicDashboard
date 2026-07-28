@@ -4095,7 +4095,11 @@ the coordinator).** F4 (v5:59-62) reads: "the medium is collisionless and never 
 sound, no counterflow degree of freedom." But (i) the **velocity ladder** (DERIVATION_HUNT §1,
 MATH_SPINE) treats the **second sound (√α·c)** as the medium's real *entropy wave* — a thermodynamic
 mode; (ii) white_holes Add. 2 and cosmological_constant's thermal door invoke **"the fountain effect"
-as "thermal counterflow"**; (iii) granule_scoping carries **ψ/χ counterflow**; and (iv) the
+as "thermal counterflow"**; (iii) granule_scoping carries **ψ/χ counterflow** *(citation
+corrected 2026-07-27: the word "counterflow" does not appear in that file — what it carries is
+the two independent ψ/χ speckle fields coupled only through shared gravity, which is the
+substance the flag rests on, but this support was quoted as a phrase the file does not
+contain)*; and (iv) the
 non-thermalization / kubo-settling analyses treat the medium as *thermalizing* in specific couplings.
 F4 is likely scoped to the late-time halo two-fluid sector (coherent condensate + normal excitations
 coupling only through gravity), which is coherent — but F4 states it as a general property of "the
