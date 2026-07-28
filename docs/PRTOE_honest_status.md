@@ -137,7 +137,7 @@ doubling it. Nested sampling waits for cluster time.
 
 **Deciders** (unchanged in kind, changed in instrument): the **evidence number** (still the Laplace,
 now without a confirmer in prospect — it can be sharpened by better-converged chains but not made
-robust by them) and SHOES-vs-TRGB (physical → holds, systematic → inverts). The DE closed form is
+robust by them) and SH0ES-vs-TRGB (physical → holds, systematic → inverts). The DE closed form is
 real theoretical progress, but it rests on unproven new physics and does not solve the coincidence
 problem, and there is no new positive *evidence* that upgrades the evidence class.
 
@@ -149,7 +149,7 @@ problem, and there is no new positive *evidence* that upgrades the evidence clas
 **The +1.2% varying electron-mass shift being REAL.** It is the load-bearing bolt: it is
 simultaneously (a) the engine of the H₀ easing and (b) the model's primary observable signature.
 If a full systematics/degeneracy audit (Q2/#20) or better CMB data (CMB-S4) shows the shift is
-consistent with m_e = 1 — i.e. that N_eff, the calibration, or the SHOES prior absorbs the same
+consistent with m_e = 1 — i.e. that N_eff, the calibration, or the SH0ES prior absorbs the same
 improvement — the headline collapses and only the (unbuilt) DE floor remains. **Everything hangs
 on this one number being physics, not a degeneracy artifact.**
 Runners-up: a negative evidence verdict (Q1/#19), or DESI pinning w robustly away from -1.
@@ -252,34 +252,34 @@ likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
      makes it robust, and nested sampling is unaffordable on this hardware (9.8 h per iteration) —
      so the crossing stands as marginal, without the confirmer it was explicitly awaiting, until
      cluster time is bought. Better-converged chains sharpen this number; they cannot promote it.
-  2. SHOES-CONDITIONAL: the -9.52 edge is dominated by SN+SHOES (~-13.7, the H₀ easing
+  2. SH0ES-CONDITIONAL: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
      68.18→69.82) + ACT (~-3.8, high-l m_e). So the win RIDES ON the H₀ tension being physical
-     (Stage 0). SHOES-as-systematic sinks it. The win and the single window are the same brick.
+     (Stage 0). SH0ES-as-systematic sinks it. The win and the single window are the same brick.
   3. Gate A SIDESTEPPED (stronger than passed): m_e was FIXED, not floated → no prior to game;
      the win comes from a better fit with m_e pinned at the prediction.
   4. Gate B CAPS it SUGGESTIVE (f_amp partial-mover, Psi0 OOM-fixed); SHOT 1 SURVIVES (amplitude
      ontology un-derived). w=1/3 phase confirmed NEUTRAL (onset never moved) → kept, free.
 
-**LABEL: suggestive / SHOES-conditional / Laplace-marginal WIN.** Best realistic outcome on the
+**LABEL: suggestive / SH0ES-conditional / Laplace-marginal WIN.** Best realistic outcome on the
 table, landed exactly at the line. NOT decisive, NOT robust, NOT prediction-confirmed.
 
 The ONE lever that would move the evidence class hard is still a nested confirmation of the +2.6
 on a paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready) — **and that lever is now out of
 reach until the cluster time is bought**, the attempt on this hardware having been ended on
-2026-07-20 at 9.8 h per iteration. The two things that still sink it: SHOES-as-systematic
+2026-07-20 at 9.8 h per iteration. The two things that still sink it: SH0ES-as-systematic
 (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
 grading in the private internal review record (defender "THE NUMBER" turn).
 
-### SHARPENED by internal review (accepted): the win INVERTS without SHOES, adds ZERO ontology evidence
+### SHARPENED by internal review (accepted): the win INVERTS without SH0ES, adds ZERO ontology evidence
 Two corrections to the verdict above, both taken: (1) BRAKE 2 is worse than "conditional" — it is
-SHOES-DEPENDENT: net Δ χ² -9.52 minus SHOES ~-13.7 = +4.2, i.e. WITHOUT SHOES the
+SH0ES-DEPENDENT: net Δ χ² -9.52 minus SH0ES ~-13.7 = +4.2, i.e. WITHOUT SH0ES the
 electron-coupled scalar is ~4 WORSE than ΛCDM (the edge INVERTS to a loss). The m_e signature alone
-(ACT -3.8) does NOT beat the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SHOES
+(ACT -3.8) does NOT beat the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SH0ES
 H₀ tension — NOT on CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family
 does it, the internal review), so the win adds ZERO evidence for the ontology
 (superfluid/census/electron-coupled scalar). (2) The win is robust only
-if BOTH a nested ln Z confirms +2.6 AND SHOES is physical (two live-uncertain gates — **and the
+if BOTH a nested ln Z confirms +2.6 AND SH0ES is physical (two live-uncertain gates — **and the
 first is now unscheduled**, nested sampling having been priced off this hardware and deferred to
-cluster time). Final label: "suggestive / SHOES-DEPENDENT / Laplace-marginal / non-original-class
+cluster time). Final label: "suggestive / SH0ES-DEPENDENT / Laplace-marginal / non-original-class
 win, no ontology evidence." Deciders from here: a nested ln Z when it can be afforded
-(marginal→robust or sinks it) and SHOES-vs-TRGB (physical→holds, systematic→INVERTS to a loss).
+(marginal→robust or sinks it) and SH0ES-vs-TRGB (physical→holds, systematic→INVERTS to a loss).
