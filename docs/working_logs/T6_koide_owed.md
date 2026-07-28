@@ -2100,14 +2100,23 @@ clock" — with the pacing bound (ħ/T as the fastest thermal action) and the
 bath-limited saturation already recorded (2026-07-19). What remains for the phase is
 the saturation's microphysical derivation and the external judges.
 
-**The chaos-bound route is closed (2026-07-28).** The obvious candidate for "why the clock
-saturates" is the Maldacena–Shenker–Stanford bound λ_L ≤ 2πk_BT/ħ, which the corpus already
-carries cite-verified ([PRTOE_INTERACTION_ATLAS.md](../PRTOE_INTERACTION_ATLAS.md)) and which
-maximally chaotic systems saturate by definition. **It does not fit.** ω₁ = (2/9)T_c sits
-**4.5× below** the thermal-action bound and **28× below** the chaos bound — a maximally
-chaotic ring would run twenty-eight times faster than the phase needs. Whatever "saturation"
-means here, it is not either of these, and the route is recorded closed so it is not
-re-walked.
+**The chaos-bound route is UNTESTED, not closed — and the object being compared must be kept
+straight (2026-07-28).** The obvious candidate for "why the clock saturates" is the
+Maldacena–Shenker–Stanford bound λ_L ≤ 2πk_BT/ħ, which the corpus carries cite-verified
+([PRTOE_INTERACTION_ATLAS.md](../PRTOE_INTERACTION_ATLAS.md)). A first pass set ω₁ = (2/9)T_c
+against it and reported the route closed at 28×. **That comparison was a category error and the
+conclusion is withdrawn.**
+
+ω₁ = μ_face is a chemical potential — equivalently the charged mode's frequency, from
+E_c = ħω₁ — and **not a rate**. The rate in this chain is the hop rate 1/Δt_hop, and the
+saturation statement is Δt_hop = β, i.e. **hop rate = T_c exactly**. That is saturated *by
+construction* the moment "one face per thermal period" is assumed; there is no 4.5× shortfall
+against the pacing bound, because μ was never the quantity the bound constrains. And λ_L bounds a
+*scrambling* rate, so setting it against a mode frequency settles nothing in either direction.
+
+What survives is the real question, unchanged: the saturation is currently an **assumption**
+("the front locks one face per thermal period"), and whether a chaos-bound or Kibble–Zurek
+argument supplies it has not been tested — only mis-tested.
 
 ---
 

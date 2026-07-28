@@ -18,9 +18,9 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty-seven checks
+## The twenty-eight checks
 
-Run all twenty-seven. Record what was found, even when nothing was.
+Run all twenty-eight. Record what was found, even when nothing was.
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
@@ -378,6 +378,20 @@ The harness already contains the correct pattern, in one place: `chk("sqrt3_deri
 omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes** the surplus
 member from the other two rather than booking it separately. That line would have caught either
 defect above had it been written for those sectors.
+
+**27a. AND A QUANTITY IS NOT ITS DIMENSION-MATE — CHECK WHAT THE BOUND CONSTRAINS
+(2026-07-28, the same day, by the same hand, after writing 27).** Having just written check 27
+about matching ratios without checking their variables, I compared ω₁ = μ_face against the
+Maldacena–Shenker–Stanford chaos bound and reported a route closed at 28×. **μ_face is a chemical
+potential**; the MSS bound constrains a *scrambling rate*; the pacing bound constrains a *hop
+rate*. In natural units all three are "keV", which is exactly why the error survived a numerical
+check — the arithmetic was right and the objects were not the same kind of thing.
+
+**The check: before comparing a quantity to a bound, name what the bound constrains and confirm
+the quantity is that.** Natural units erase the dimensional guard-rail that would catch this in SI,
+so in ħ = c = k_B = 1 the discipline has to be manual. Writing check 27 did not prevent 27a, which
+is the honest lesson: a protocol entry protects against the instance you wrote it from, and the
+class is wider than the instance.
 
 **27. A RATIO IS NOT A NUMBER — CHECK ITS VARIABLES AND ITS DIRECTION BEFORE MATCHING IT
 (2026-07-28).** A kernel sweep returned singlet:doublet = 2 on a three-defect ring and was reported

@@ -1374,9 +1374,12 @@ _TC = 0.5*math.log(2)*0.51099895e6/1e3          # keV
 _w1 = (2/9)*_TC
 chk("phase pacing", "T_c in keV", 177.099, _TC, 1e-4, "keV")
 chk("phase pacing", "w_1 = (2/9) T_c", 39.355, _w1, 1e-4, "keV")
-chk("phase pacing", "how far under the thermal-action bound T_c", 4.5, _TC/_w1, 1e-6, "x")
-chk("phase pacing", "how far under the MSS chaos bound 2 pi T_c", 28.274,
-    2*math.pi*_TC/_w1, 1e-4, "x")
+# NOT a bound comparison: mu_face is a chemical potential, the bounds constrain RATES.
+# Kept as the arithmetic relation it is, relabelled so it is not read as a shortfall.
+chk("phase pacing", "T_c / mu_face = 9/2, an amplitude ratio not a bound miss", 4.5,
+    _TC/_w1, 1e-6, "x")
+chk("phase pacing", "the hop rate saturates the pacing bound by construction", 1.0,
+    _TC/_TC, 1e-12, "x")
 # mu_face and w_1 are the same closure twice, not two measurements
 chk("phase pacing", "mu_face = (Q/3) T_c", _w1, (2/3)/3*_TC, 1e-9, "keV")
 chk("phase pacing", "and w_1 = theta_B T_c is the same number", 0.0, _w1 - (2/9)*_TC, 1e-12)
