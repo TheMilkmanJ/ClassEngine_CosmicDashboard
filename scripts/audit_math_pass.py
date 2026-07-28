@@ -1835,6 +1835,30 @@ chk("#146 selection", "k at the charge-weighted roster reading", 0.73195, _kNv(1
 chk("#146 selection", "its anchor, against the counted reading's 2.9e-18", 2.7e-13,
     math.exp(_dlnM(16, 1)), 2e-2, "x")
 
+# --- #146: which PHASE the medium is in decides which charge screens (hierarchy 6f fork) ---
+# Delta = 2 Lambda_shell exp(-1/lambda) puts the shell 15 orders above the electroweak scale,
+# where EW is unbroken: the screened abelian charge is hypercharge, not electric charge.
+_LAMSH = 3152.0/(2*math.exp(-33.474))
+chk("#146 phase", "Lambda_shell from Delta = 2 L exp(-1/lambda)", 5.434e17, _LAMSH, 1e-3, "GeV")
+chk("#146 phase", "orders between the shell and the electroweak scale", 15.3,
+    math.log10(_LAMSH/246.0), 1e-2, "dex")
+# Per generation: (n_Weyl, Y) over Q_L, u_R, d_R, L, e_R, nu_R.
+_ROSTER = ((6, 1/6), (3, 2/3), (3, -1/3), (2, -1/2), (1, -1.0), (1, 0.0))
+_SY2 = 3*sum(n*Y*Y for n, Y in _ROSTER)
+chk("#146 phase", "sum Y^2 over the 48-Weyl roster", 10.0, _SY2, 1e-12)
+chk("#146 phase", "roster Weyl count", 48, 3*sum(n for n, _ in _ROSTER), 0)
+# The SM's own hypercharge beta coefficient checks that sum: b_Y = (2/3)sumY^2 + (1/3)*Higgs.
+chk("#146 phase", "b_Y = (2/3)sumY^2 + (1/3)sum_scalar Y^2 (SM value 41/6)", 41/6,
+    (2/3)*_SY2 + (1/3)*(2*0.25), 1e-12)
+chk("#146 phase", "k at the hypercharge-weighted roster", 0.86935, _kNv(10, 1), 1e-4)
+chk("#146 phase", "its anchor", 5.23e-9, math.exp(_dlnM(10, 1)), 2e-2, "x")
+# No SM species is vector-like: every LH field is an SU(2) doublet, every RH one a singlet,
+# so no opposite-chirality pair shares a representation and there is no Dirac cone for mu_5.
+_LH = ((2, 1/6, 3), (2, -1/2, 1))          # (SU(2) dim, Y, colour)
+_RH = ((1, 2/3, 3), (1, -1/3, 3), (1, -1.0, 1), (1, 0.0, 1))
+chk("#146 phase", "vector-like pairs in the unbroken roster", 0,
+    sum(1 for a in _LH for b in _RH if a[0] == b[0] and abs(a[1]-b[1]) < 1e-12 and a[2] == b[2]), 0)
+
 # --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
 # 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.
 # The PAIRING density of states also depends on r: for congruent pockets the excitonic pair

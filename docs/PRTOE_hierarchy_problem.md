@@ -405,13 +405,16 @@ silently, which is its own hazard:
    electron-like and one hole-like species rather than to the bath. Nothing recorded selects
    that pair. The corpus describes no such band structure.
 
-**The screening constant is not a count, and weighting it correctly all but names the pair.**
-Thomas–Fermi screening of a gauge field weights each carrier band by its charge squared —
-m_D² = Σ_bands (g q_b)²N₀,b, so N_screen/N₀ = Σ_b q_b² — and §6g fixes which gauge field: α_c = 3α,
-the kernel *is* electromagnetism because electromagnetism is the medium. The weights are therefore
-electric charges, the roster's charges are fractional, and quarks carry colour multiplicity on top.
-A doped node pair is worth 2·N_colour·q², which is 2 for a charged lepton, 8/3 for an up-type
-quark, 2/3 for a down-type and nothing at all for a neutrino:
+**The screening constant is not a count, and weighting it correctly narrows the pair — in one
+phase.** Thomas–Fermi screening weights each carrier band by its charge squared,
+m_D² = Σ_bands (g q_b)²N₀,b, so N_screen/N₀ = Σ_b q_b² and not a species count. *Which* charge
+depends on the phase the medium is in, and the two readings do not agree.
+
+Read in the broken phase — which is where §6g's identification α_c = 3α puts the kernel, the
+medium's own Goldstone being the photon — the weights are electric charges, the roster's charges
+are fractional, and quarks carry colour multiplicity on top. A doped node pair is then worth
+2·N_colour·q², which is 2 for a charged lepton, 8/3 for an up-type quark, 2/3 for a down-type and
+nothing at all for a neutrino:
 
 > N_screen = 2N₀ has exactly **two** solutions over the roster — **one charged lepton**, or **all
 > three down-type quarks**. Neutrinos are invisible to the screening and ride free; a single
@@ -425,8 +428,8 @@ corpus answers elsewhere: the electron is the portal, √σ_dark = m_e.
 
 This does not supply the chemical potential — nothing here says why one cone is doped and
 forty-six species are not, and the three closed routes stay closed. What it does is remove the
-freedom in the *choice*: condition (i) is no longer "two of forty-eight, unselected" but "the
-charged-lepton cone, or an arrangement that breaks the kernel."
+freedom in the *choice*: on this reading condition (i) is no longer "two of forty-eight,
+unselected" but "the charged-lepton cone, or an arrangement that breaks the kernel."
 
 **A chiral chemical potential on one cone supplies the rest of the structure.** Doping the two
 chiralities oppositely puts an electron pocket and a hole pocket at the same Fermi level, so a
@@ -436,11 +439,32 @@ pockets are the same cone's halves, so they share a velocity and **r = v_e/v_h =
 and the compensation is exact rather than tuned. The residue is one question, not a structure: what
 puts μ₅ on that cone.
 
-**And it corrects the arithmetic of the failed kill.** §6c prices "the whole roster doped" as
-N = 24, the 48 Weyl read as Dirac equivalents. Charge-weighted the figure is not 24 but **16** —
-which is ΣQ² over the same roster, the two being the same quantity. That gives k = 0.73195 rather
-than 0.61846 and an anchor at 2.7×10⁻¹³ rather than 2.9×10⁻¹⁸. Both destroy it, so the kill stays
-failed and the verdict is unchanged; 16 is simply the right number for it.
+**But the shell is not in that phase.** Δ = 2Λ_shell·e^(−1/λ) with 1/λ = 33.474 and Δ = 3152 GeV
+puts **Λ_shell = 5.4×10¹⁷ GeV — 15.3 orders above the electroweak scale.** There electroweak
+symmetry is unbroken, and the two things the reading above uses are both absent:
+
+- **Electric charge is not the screened abelian charge**; hypercharge is. Over the roster
+  ΣY² = **10**, not ΣQ² = 16 — and 10 is the right figure, since the Standard Model's own
+  hypercharge beta coefficient ⅔·ΣY² + ⅓·Σ_scalar Y² returns 41/6 on it exactly.
+- **No species is vector-like.** Every left-handed field is an SU(2) doublet and every
+  right-handed one a singlet, so no pair of opposite-chirality Weyl nodes shares a
+  representation — the hypercharges never get a chance to match. There is no Dirac cone in the
+  48 for a chiral chemical potential to sit on. That is what it means for the Standard Model to
+  be a chiral gauge theory, and it is an obstruction rather than a shortage of candidates.
+
+So the selection result is a conditional, and the condition is §6f's open question rather than a
+detail: **if the medium screens in the broken phase, the doped pair must be a charged lepton; at
+the scale §6c places the shell, the mechanism has no object to act on.** This is a third horn of
+that fork and a sharper one than the two already there — §6f asks what value α takes eighteen
+orders from the scale defining it, while this asks whether the objects the kernel refers to exist
+at that scale at all.
+
+**It also re-prices the failed kill.** §6c reads "the whole roster doped" as N = 24, the 48 Weyl
+as Dirac equivalents. Weighted rather than counted it is **16** in the broken phase and **10** in
+the unbroken one, giving k = 0.73195 and 0.86935 against the counted 0.61846, and anchors at
+2.7×10⁻¹³ and 5.2×10⁻⁹ against 2.9×10⁻¹⁸. All three destroy the anchor, so the kill stays failed
+and the verdict is unchanged whichever phase is meant; the count of 24 is simply not the quantity
+that screens in either.
 
 **Conditions 3 and 4 are one condition.** Both act on the screening constant, and they act only
 through their ratio. Carrying the band velocity and the species count together,
