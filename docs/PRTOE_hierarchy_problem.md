@@ -858,32 +858,30 @@ with observation is a coincidence**, α_c really sitting near 0.0213 and the flo
 2.143 meV — a 5% miss that the d = 3 arithmetic disguised. They point in opposite directions and
 are decidable by measurement, which makes this a live fork rather than an unexplained tension.
 
-**And the first branch has a concrete form, because the band is not a direct reading of the
-coupling.** It comes from the zero-dial assembly ε = c·f̄·α_c inverted on a measured ε, so the
-band's α_c carries the democratic count c = 9/10 and the winding average f̄ = 2/π — neither of
-which the floor's α_c touches, since that comes from E_b = ½α_c²M₂. The two instruments are
-therefore not independent in the way [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)'s
-triangulation reads them, and any error in c or f̄ moves the band by the same fraction.
+**And the first branch has a sharp form, because the corpus holds two ε-side numbers that
+disagree.** The band's provenance is not recorded — it is cited in four forward-facing places and
+one ledger entry, every one of which quotes it and none of which derives it. The natural reading,
+that it inverts the zero-dial assembly ε = c·f̄·α_c on a measured ε, does not survive arithmetic:
+the recorded dyad posterior is **ε ≈ 1.24%**, which maps to **α_c = 0.021642**, above the band's
+top. The band corresponds instead to **ε ∈ [1.175%, 1.226%]**, and the posterior sits **1.13%
+above** that interval.
 
-The corpus already records one of that size. f̄'s fit-implied value is **0.6253, 1.81% below
-2/π**, with the simulation at 0.635. Holding the measured ε fixed and using the fit's f̄ moves
-the band's top from 0.0214 to **0.021787** and cuts the conflict with the observed floor from
-**2.08% to 0.26%**:
+So two determinations of the same coupling are on the books, they differ by 1.13%, and it is the
+band rather than the posterior that P-2026-040 grades the bet against:
 
-| f̄ used | band top | vs the floor's demand |
+| source | α_c | vs the floor's demand |
 |---|---|---|
-| 2/π, booked | 0.021400 | +2.08% |
-| the simulation's 0.635 | 0.021455 | +1.82% |
-| the fit-implied 0.6253 | 0.021787 | **+0.26%** |
+| the dark-energy floor's demand | 0.021844 | — |
+| d = 3, the registered bet | 0.021892 | −0.22% |
+| the ε posterior, through the assembly | **0.021642** | **+0.93%** |
+| the indirect band, top | 0.021400 | +2.08% |
+| the hierarchy anchor's exact landing | 0.021316 | +2.48% |
 
-**But that shift cannot simply be borrowed from the fit.** f̄ = ⟨|cos|⟩ over a uniformly wound
-phase is **exactly 2/π** — a theorem, not a measurement — so 0.6253 is a noisy estimate of the
-booked value rather than a rival to it, and the recorded scatter of 4.1% comfortably covers the
-1.81%. Preferring the estimate is not an argument.
-
-What *can* move f̄ is failure of the premise: a winding that does not complete whole turns. Over
-any integer number of turns the average is 2/π identically; a partial turn leaves a residue, and
-that residue is the honest envelope:
+**The conversion itself is clean**, which needs establishing because it is the one step that could
+have manufactured the gap. ε → α_c routes through c·f̄ and so inherits f̄ = ⟨|cos|⟩ — and f̄ over a
+uniformly wound phase is **exactly 2/π**, a theorem rather than a measurement, so the fit-implied
+0.6253 is a noisy estimate of the booked value and not a rival to it. What could move f̄ is failure
+of the premise, a winding that does not complete whole turns, and that residue is computable:
 
 | turns | worst-case deviation from 2/π |
 |---|---|
@@ -893,27 +891,24 @@ that residue is the honest envelope:
 | 30 | 0.35% |
 | 100 | 0.11% |
 
-Solving for the 2.08% the conflict needs gives **N ≈ 4.8 turns.** So branch (a) does not rest on
-the fit disagreeing with 2/π — it rests on the winding being *short*, of order five turns, which
-is a physical question the corpus answers elsewhere and a different question from the one the
-fit's scatter answers. Past a few tens of turns f̄ is pinned far tighter than the conflict and
-this route closes.
-
 **And the corpus already carries enough to price the turn count.** Baryogenesis records
 θ̇/H = 2.4×10⁶ at T_sph with θ̇ ∝ T³; in a radiation background H ∝ T², so turns per Hubble time
 go as T, and the accumulated winding θ̇·dt goes as dT — flat, hence dominated by the earliest
-epoch. The two readings answer differently, and they differ in kind rather than in precision:
+epoch. The two readings differ in kind rather than in precision:
 
 - **accumulated since T_sph: 3.8×10⁵ turns**, 99% of them laid down by T = 0.01·T_sph. On that
-  reading f̄ sits within **2.6×10⁻⁵ %** of 2/π and branch (a) is dead by six orders.
-- **instantaneous, per Hubble time**: 3.8×10⁵ at T_sph, falling through the five-turn threshold at
-  T ≈ 1.7 MeV and reaching 7.6×10⁻⁷ by recombination — where the phase is not equidistributing at
-  all but sitting frozen at whatever value it holds.
+  reading f̄ sits within **2.6×10⁻⁵ %** of 2/π.
+- **instantaneous, per Hubble time**: 3.8×10⁵ at T_sph, falling through five turns at T ≈ 1.7 MeV
+  and reaching 7.6×10⁻⁷ by recombination — where the phase is not equidistributing at all but
+  sitting frozen at whatever value it holds.
 
 So the owed piece is not "is equidistribution granted" — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)
 grants it — but **over what window the average is taken**. Under the accumulated reading, the
-natural one for a phase that has wound since genesis, f̄ is pinned and the α_c conflict stands at
-its full 2.08%.
+natural one for a phase that has wound since genesis, the assembly is exact to a part in ten
+million, **so the 1.13% between the posterior and the band is not an artefact of the conversion.**
+It is a disagreement between two recorded determinations, and which of them is the instrument
+decides whether the conflict with the floor is 0.93% or 2.08%. That is a question about a recorded
+derivation rather than about new data, which is what makes this the tractable branch.
 
 What would otherwise settle the branch is an α_c reading that does not route through the assembly
 at all. The trio's other two doors, the dispersion chain and the isocurvature phase speed, are

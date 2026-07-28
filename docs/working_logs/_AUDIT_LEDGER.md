@@ -4775,3 +4775,38 @@ rather than in precision — one pins f̄ to a part in 10⁷, the other makes f�
 below an MeV. Nothing recorded says which the ε-assembly uses.
 
 Seven checks added, harness 889.
+
+### 2026-07-28 — the band is not an ε-inversion: correcting two cycles' premise, and a better finding underneath
+
+Went to price branch (c) and re-checked the premise of the two passes before it. **It was wrong.**
+Those passes asserted the indirect band [0.0205, 0.0214] is the assembly ε = c·f̄·α_c inverted on
+a measured ε. Arithmetic refutes it: the recorded dyad posterior ε ≈ 1.24% maps to
+**α_c = 0.021642**, which lies *above* the band's top of 0.0214. The band corresponds instead to
+**ε ∈ [1.175%, 1.226%]**, and the posterior sits 1.13% above that interval.
+
+**The band's provenance is recorded nowhere.** Four forward-facing citations plus one ledger
+entry, all quoting it; none deriving it. The 2026-07-19 quantum_trio audit verified only that the
+text "matches P-2026-040's registry text verbatim" — the number was checked for transcription,
+never for source.
+
+**What is underneath is a better finding than the one it replaces.** The corpus holds two ε-side
+determinations of the same coupling, 1.13% apart, and grades the bet against the one whose
+derivation is missing:
+
+| source | α_c | vs the floor's demand |
+|---|---|---|
+| the floor's demand | 0.021844 | — |
+| d = 3, the registered bet | 0.021892 | −0.22% |
+| the ε posterior, via the assembly | 0.021642 | **+0.93%** |
+| the indirect band, top | 0.021400 | **+2.08%** |
+| the hierarchy anchor | 0.021316 | +2.48% |
+
+Which number is the instrument decides whether the conflict is 0.93% or 2.08%.
+
+**The f̄ work from the previous two passes survives and is what makes this usable.** ε → α_c does
+route through c·f̄, so the gap could have been a conversion artefact — and it is not: f̄ is pinned
+to 2.6×10⁻⁵ % of 2/π on the accumulated winding, so the 1.13% is real. That is the load those
+passes now carry, rather than the escape they were built for.
+
+Corrected in `PRTOE_hierarchy_problem.md` §6g and `PRTOE_quantum_trio.md`; harness block replaced,
+890 passing.

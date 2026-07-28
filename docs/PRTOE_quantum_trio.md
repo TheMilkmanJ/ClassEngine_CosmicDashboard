@@ -71,13 +71,14 @@ sector, running), the isocurvature phase speed (the thermal face, awaiting data)
 ε-assembly's indirect band (the background fit — already registered at [0.0205, 0.0214],
 2.3% below 3α). **Three instruments, one coupling** — a consequence triangulation inherited from P-2026-040,
 carrying that bet's status and none of its own. Two of the three are clean: the dispersion chain
-and the isocurvature phase speed read the coupling without passing through anything else. The
-third does not. The ε-assembly's band is ε = c·f̄·α_c inverted on a measured ε, so it carries the
-democratic count and the winding average as well, and an error in either moves it by the same
-fraction — f̄'s own fit-implied value sits 1.81% below the booked 2/π, which is most of the 2.3%
-the band reports. That leg is therefore conditional on two further numbers, and the triangulation
-should be read as two independent instruments plus one that is not
-([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).
+and the isocurvature phase speed read the coupling without passing through anything else. **The
+third has no recorded derivation.** The band is cited in four forward-facing places and one ledger
+entry, all of which quote it; none derives it. Nor is it the assembly ε = c·f̄·α_c inverted on the
+measured ε, which would be the natural reading — the recorded dyad posterior ε ≈ 1.24% maps to
+α_c = 0.021642, above the band's top, while the band corresponds to ε ∈ [1.175%, 1.226%]. Those
+two ε-side determinations differ by 1.13%, and the conversion between them is exact to a part in
+ten million, so the gap is real. Supplying the band's provenance is the outstanding item on this
+leg ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).
 
 ## 4b. The third stage — neutrality, and superposition as its screening
 

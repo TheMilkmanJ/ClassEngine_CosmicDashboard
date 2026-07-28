@@ -1125,18 +1125,21 @@ _CF = 0.9*(2/math.pi)
 chk("band provenance", "the assembly's conversion factor c.f_bar", 0.572958, _CF, 1e-5)
 chk("band provenance", "epsilon at alpha_c = 3 alpha", 1.2543,
     _CF*3/137.035999084*100, 1e-3, "%")
-chk("band provenance", "the band expressed on epsilon, top", 1.2261, _BHI*_CF*100, 1e-3, "%")
-chk("band provenance", "f_bar fit-implied sits below 2/pi by", 1.81,
-    ((2/math.pi)/0.6253 - 1)*100, 1e-2, "%")
+# The band is NOT the epsilon posterior inverted: the recorded ~1.24% maps ABOVE the band top.
+# Its provenance is cited in four places and derived in none. These record the mismatch.
+chk("band provenance", "the band expressed back on epsilon, low", 1.1746, _BLO*_CF*100, 1e-3, "%")
+chk("band provenance", "the band expressed back on epsilon, top", 1.2261, _BHI*_CF*100, 1e-3, "%")
+chk("band provenance", "alpha_c from the dyad posterior epsilon = 1.24%", 0.021642,
+    0.0124/_CF, 1e-4)
+chk("band provenance", "it lies above the band top", 1, 1 if 0.0124/_CF > _BHI else 0, 0)
+chk("band provenance", "the two epsilon-side numbers differ by", 1.13,
+    ((0.0124/_CF)/_BHI - 1)*100, 1e-2, "%")
 _ac_floor = math.sqrt(2*2.25e-3/_M2)
-chk("band provenance", "conflict with the floor at the booked f_bar", 2.08,
+chk("band provenance", "conflict with the floor, on the band", 2.08,
     (_ac_floor/_BHI - 1)*100, 1e-2, "%")
-chk("band provenance", "band top recomputed on the fit's f_bar", 0.021787,
-    _BHI*(2/math.pi)/0.6253, 1e-4)
-chk("band provenance", "conflict there", 0.26,
-    (_ac_floor/(_BHI*(2/math.pi)/0.6253) - 1)*100, 5e-2, "%")
-chk("band provenance", "and on the simulation's f_bar", 1.82,
-    (_ac_floor/(_BHI*(2/math.pi)/0.635) - 1)*100, 2e-2, "%")
+chk("band provenance", "conflict with the floor, on the posterior", 0.93,
+    (_ac_floor/(0.0124/_CF) - 1)*100, 2e-2, "%")
+
 # f_bar = <|cos|> is EXACTLY 2/pi over any whole number of turns -- a theorem, not a datum.
 # The only honest way it moves is a partial turn, and that envelope is what bounds branch (a).
 def _Gabs(x):
