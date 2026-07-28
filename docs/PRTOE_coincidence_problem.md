@@ -82,7 +82,8 @@ The floor is not a constant that matter happens to dilute past — the late era 
  time sits in the first cycle for linear growth, under 4% for geometric. Being early is therefore
  the disfavoured option under the model's own bookkeeping, and the one standard repair is
  anthropic, which [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md) §3 rejects on its own terms. The
- era-level derivation below stands on its own; it does not reach the chain. See
+ era-level derivation below stands on its own; it does not reach the chain, and the chain-level
+ bookkeeping is carried as an open item (T8's owed list, item 4). See
  [PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
 
 ## 3. Falsifiable content

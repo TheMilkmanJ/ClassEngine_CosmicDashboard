@@ -551,21 +551,14 @@ chk("ForJustin/07", "identity vs the 3alpha mark — the unresolved gap", 0.058,
 chk("ForJustin/07", "the implied dyad-mass disagreement", 1.31,
     10**(2*(math.log10(_Ton/_T0) - 7.547)), 0.02, "x")
 
-# ---- #130 piece 2: the induced split belongs to alpha_EM(0), not alpha_Y(M_Z)
-# The recorded 44% is hypercharge read at M_Z. The coupling that alpha_c = 3alpha
-# names is electromagnetic alpha at zero momentum, where 1/alpha_EM = 1/alpha_2 +
-# 1/alpha_Y at a common scale. Locked here so the 44% cannot drift back into the
-# roster condition it does not belong to.
-_INV_A2_PL, _INV_AY_PL = 49.4, 55.5
-_inv_aEM_pl = _INV_A2_PL + _INV_AY_PL
-_induced = (1.0/ALPHA) - _inv_aEM_pl
-chk("light/#130", "1/alpha_EM(M_Pl) = 1/alpha_2 + 1/alpha_Y", 104.9, _inv_aEM_pl, 1e-3)
-chk("light/#130", "the medium loop's share of 1/alpha_EM(0)", 0.2345,
-    _induced/(1.0/ALPHA), 5e-3)
-chk("light/#130", "the constituent level's share", 0.7655,
-    _inv_aEM_pl/(1.0/ALPHA), 5e-3)
-chk("light/#130", "the recorded 44% overstates it by", 1.88,
-    0.44/(_induced/(1.0/ALPHA)), 0.02, "x")
+# ---- #130 piece 2: the induced split is ALREADY GUARDED, three checks down at
+# "--- #130: the induced split ---" (light 5 + two DERIVATION_HUNT 1 rows). A
+# duplicate block was added here on 2026-07-28 and removed the same day under
+# check 2a: the existing guard computes the hypercharge share from its own
+# unrounded inputs (42.9/98.4) and returns 1.859x, where the duplicate used the
+# rounded 44% and returned 1.876x. Two guards on one quantity disagreeing by a
+# rounding is exactly the failure 2a names. Reconcile with the existing check;
+# do not add a second opinion.
 
 # ---- the dyad mass, pinned three independent ways --------------------------
 _HBARC, _AU = 197.3269804e-9, 1.495978707e11
