@@ -1339,6 +1339,14 @@ def _logd(_R):
 _ls, _ld = _logd(1.0)
 chk("log ring", "singlet stiffness of the 2D vortex kernel at R = 1", 1.0, _ls, 1e-4)
 chk("log ring", "its doublet stiffness is zero", 0.0, _ld, 1e-4)
+# The null's a = 3b is a = b.lambda_1 with lambda_q = 2(1-cos 2 pi q/N) the ring Laplacian.
+# lambda_1 equals the site count ONLY at N = 3 -- the "on-site = N x bond" gloss is an accident.
+_lam1 = lambda N: 2*(1 - math.cos(2*math.pi/N))
+chk("null lambda", "lambda_1 at N = 3 is 3", 3.0, _lam1(3), 1e-12)
+chk("null lambda", "at N = 4 it is 2, not 4", 2.0, _lam1(4), 1e-12)
+chk("null lambda", "at N = 6 it is 1, not 6", 1.0, _lam1(6), 1e-12)
+chk("null lambda", "so lambda_1 = N holds at N = 3 alone", 1,
+    sum(1 for N in range(3, 40) if abs(_lam1(N) - N) < 1e-9), 0)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)

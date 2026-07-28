@@ -1945,7 +1945,19 @@ profile on the ring as a fluctuation field frozen at the transition, quadratic t
 H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²]. Fourier stiffnesses: ε₀ = a (neutral),
 ε± = a + 3b (charged). Sector powers ⟨|f_q|²⟩ = T/ε_q give ρ² = a/(a+3b), and
 
-> **Q = 2/3 ⟺ ε_charged = 2·ε_neutral ⟺ a = 3b (on-site = N × bond, N = 3).**
+> **Q = 2/3 ⟺ ε_charged = 2·ε_neutral ⟺ a = 3b.**
+
+**The "on-site = N × bond" gloss is an N = 3 accident and should not be built on (2026-07-28).**
+The structural form is ε_q = a + b·λ_q with λ_q = 2(1 − cos 2πq/N) the ring Laplacian's spectrum,
+so the null reads **a = b·λ₁**. At N = 3, λ₁ = 2(1 − cos 120°) = 3, which happens to equal the site
+count — and nowhere else: N = 4 gives λ₁ = 2 against 4, N = 6 gives 1 against 6, N = 12 gives 0.268
+against 12. **Any mechanism motivated by counting sites is reading a coincidence.**
+
+Read structurally the null says **a = b·λ_charged**, i.e. the on-site term contributes exactly as
+much to the charged mode's stiffness as the bonds do: ε_± = a + bλ₁ = 2a, its two halves equal.
+That is the honest target — an equality between the on-site and bond contributions at the charged
+mode — and it is a *balance*, which is the category the #101 exactness argument says cannot hold to
+6×10⁻⁶ unprotected. So the lock being hunted must protect that equality, not produce it.
 
 The modulus follows at once: ρ = 1/√2 ⟹ τ = −ln ρ = ½ln2. Dead ends checked so nobody
 revisits: per-mode democracy gives Q = 1 (the recorded wrong answer); sum-coupling
