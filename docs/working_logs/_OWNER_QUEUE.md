@@ -128,5 +128,13 @@ breaking — does not bite: the two natural spurion forms rank the seats opposit
 τ carries most, relatively the electron does at +28.8 ppm), which is arithmetic rather than
 evidence, since the electron's seat ratio is 0.0403 against the τ's 2.379. Three masses with one
 fitted scale leave two residuals, exactly the freedom A and φ already use. **A fourth mass
-governed by the same node is what would give it a handle** — which makes whether the family node
-reaches the neutrino sector the live question, and the roster's three ν_R make that askable.
+governed by the same node is what would give it a handle**, and there is none: the neutrino triple
+cannot be on the node for *any* lightest mass, Q_ν topping out at 0.585 against 2/3 — short by
+12.2%. The reading is untestable inside the corpus's structure, which is its status rather than a
+step toward one.
+
+**The return is elsewhere.** The same neutrino failure confirms the selector from a second
+direction: T6 concludes from it that the cone acts in the charged sector specifically, and the
+basement reaches the same place because screening weights by charge² so a neutrino cone is worth
+zero. Two sectors, two arguments, neither using the other — **electric charge is the selector on
+both**.

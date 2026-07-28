@@ -854,10 +854,19 @@ the electron does (+28.8 ppm). That is arithmetic, not evidence: the electron's 
 origin. Three masses with one fitted scale leave two residuals, which is exactly the freedom A and
 φ already consume, so nothing remains to test against.
 
-**What would give it a handle is a fourth measured mass governed by the same node.** The sector has
-none among the charged leptons. If the family node also governs the neutrino sector — which the
-roster's three ν_R make a live question rather than a wish — the reading becomes testable; until
-then it is a structural argument with one confirmed sign and no independent check.
+**What would give it a handle is a fourth measured mass governed by the same node — and there is
+none.** The charged leptons supply no fourth, and the neutrino triple cannot be on the node for
+*any* lightest mass: Q_ν falls monotonically from its m₁ = 0 value toward 1/3 as the spectrum
+degenerates, so its maximum is **0.585, short of 2/3 by 12.2%.** T6's "no m₁ brings it to 2/3" is
+a proof rather than an observation, and the margin is not marginal. **The reading therefore stays
+untestable inside the corpus's structure**, which is its status rather than a step toward one.
+
+**The same result confirms the selector from a second direction, and that is the return.** T6
+concludes from the neutrino failure that "whatever pins the cone acts in the charged sector
+specifically". The basement arrives at the same place for an unrelated reason: Thomas–Fermi weights
+carriers by charge squared, so a neutrino cone is worth 2·N_c·q² = 0 and cannot be the doped pair.
+Two sectors, two arguments — one from a failed forward test on the mass triple, one from screening
+and the roster — and neither used the other. **Electric charge is the selector on both.**
 
 **What the pairing section would need to say.** That its four conditions are two: (1) *a
 species-selective chiral chemical potential on exactly one node pair* — which subsumes the old

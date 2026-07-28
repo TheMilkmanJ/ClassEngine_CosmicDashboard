@@ -1231,6 +1231,18 @@ chk("z3 spurion", "but absolutely the tau carries most", 1,
     1 if abs(_sm["tau"]-_pr["tau"]) > abs(_sm["e"]-_pr["e"]) else 0, 0)
 chk("z3 spurion", "the electron's seat ratio, smallest of the three", 0.04035,
     _pr["e"]/_afit, 1e-3)
+# The neutrino triple cannot be on the cone for ANY lightest mass: Q_nu falls monotonically
+# from its m1 = 0 value toward 1/3, so its maximum is the massless-lightest limit.
+def _Qnu(_m1, _d21=7.53e-5, _d31=2.53e-3):
+    _m2, _m3 = math.sqrt(_m1*_m1 + _d21), math.sqrt(_m1*_m1 + _d31)
+    return (_m1+_m2+_m3)/(math.sqrt(_m1)+math.sqrt(_m2)+math.sqrt(_m3))**2
+chk("neutrino cone", "Q_nu at the recorded m1 = 2.25 meV", 0.458, _Qnu(2.25e-3), 1e-3)
+chk("neutrino cone", "Q_nu at m1 = 0, its maximum", 0.58531, _Qnu(0.0), 1e-4)
+chk("neutrino cone", "it is monotone: Q_nu falls as m1 rises", 1,
+    1 if all(_Qnu(x) > _Qnu(x + 1e-4) for x in (0.0, 1e-3, 1e-2, 5e-2)) else 0, 0)
+chk("neutrino cone", "so the cone is unreachable, short by", 12.2,
+    (1 - _Qnu(0.0)/(2/3))*100, 1e-2, "%")
+chk("neutrino cone", "and a neutrino cone's screening weight is zero", 0.0, 2*1*0.0**2, 1e-12)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
