@@ -1859,6 +1859,51 @@ _RH = ((1, 2/3, 3), (1, -1/3, 3), (1, -1.0, 1), (1, 0.0, 1))
 chk("#146 phase", "vector-like pairs in the unbroken roster", 0,
     sum(1 for a in _LH for b in _RH if a[0] == b[0] and abs(a[1]-b[1]) < 1e-12 and a[2] == b[2]), 0)
 
+# --- 6f: the which-scale fork, priced on the corpus's own derived Planck-floor coupling ---
+_kac = lambda _ac: math.log(1 + math.pi/(2*_ac))/math.pi
+_anch = lambda _ac: 2*_LAMSH*math.exp(-1/(_kac(_ac)*_ac))
+_4pimH = 4*math.pi*125.25
+# The Planck-floor value is derived, not extrapolated: one-loop running then tree composition.
+_L2 = math.log(1.220890e19/91.1876)
+_i2 = 127.951*0.23122 + (19/6)/(2*math.pi)*_L2
+_iY = 127.951*(1-0.23122) - (41/6)/(2*math.pi)*_L2
+chk("hierarchy 6f", "1/alpha_2 at M_Pl (light file hands out 49.4)", 49.46, _i2, 1e-3)
+chk("hierarchy 6f", "1/alpha_Y at M_Pl (hands out 55.5)", 55.48, _iY, 1e-3)
+chk("hierarchy 6f", "1/alpha_EM at M_Pl = their sum (hands out 104.9)", 104.94, _i2 + _iY, 1e-4)
+for _nm, _inv, _k, _M in (("alpha(0)", 137.036, 1.36461, 3153.0),
+                          ("alpha(M_Z)", 127.951, 1.34309, 1.758e4),
+                          ("alpha(M_Pl)", 104.938, 1.28100, 1.504e6)):
+    chk("hierarchy 6f", f"k at {_nm}", _k, _kac(3.0/_inv), 1e-4)
+    chk("hierarchy 6f", f"anchor at {_nm}", _M, _anch(3.0/_inv), 2e-3, "GeV")
+chk("hierarchy 6f", "the recorded anchor overshoots 4 pi m_H by", 2.003,
+    _anch(3.0/137.036)/_4pimH, 1e-3, "x")
+chk("hierarchy 6f", "the Planck-floor reading overshoots it by", 955.5,
+    _anch(3.0/104.938)/_4pimH, 2e-3, "x")
+# dlnM/dlnalpha_c = (1/lambda)(1 + dlnk/dlnb), analytic and numeric.
+_ac0 = 3.0/137.036
+_b0 = 2*_ac0/math.pi
+chk("hierarchy 6f", "dlnk/dlnb = -1/(pi k (1+b))", -0.230054,
+    -1/(math.pi*_kac(_ac0)*(1 + _b0)), 1e-4)
+chk("hierarchy 6f", "dlnM/dlnalpha_c (recorded 25.8)", 25.773,
+    (1/(_kac(_ac0)*_ac0))*(1 - 1/(math.pi*_kac(_ac0)*(1 + _b0))), 1e-3)
+chk("hierarchy 6f", "the same by central difference", 25.773,
+    (math.log(_anch(_ac0*1.000001)) - math.log(_anch(_ac0*0.999999)))/2e-6, 1e-3)
+# The exact-landing coupling lies OUTSIDE the running coupling's range, which is capped at alpha(0).
+def _solve_inv(_M, _lo=100.0, _hi=200.0):
+    _f = lambda _i: _anch(3.0/_i) - _M
+    _fl = _f(_lo)
+    for _ in range(300):
+        _m = 0.5*(_lo + _hi)
+        if _fl*_f(_m) <= 0: _hi = _m
+        else: _lo, _fl = _m, _f(_m)
+    return 0.5*(_lo + _hi)
+chk("hierarchy 6f", "1/alpha an exact landing on 4 pi m_H needs (recorded 140.7)", 140.74,
+    _solve_inv(_4pimH), 1e-3)
+chk("hierarchy 6f", "alpha_c it corresponds to (recorded 0.021316)", 0.021316,
+    3.0/_solve_inv(_4pimH), 1e-3)
+chk("hierarchy 6f", "how far that sits beyond the infrared cap 1/alpha(0) = 137.036", 2.70,
+    (_solve_inv(_4pimH)/137.036 - 1)*100, 1e-2, "%")
+
 # --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
 # 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.
 # The PAIRING density of states also depends on r: for congruent pockets the excitonic pair

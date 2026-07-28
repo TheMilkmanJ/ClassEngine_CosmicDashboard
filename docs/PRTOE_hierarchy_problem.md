@@ -724,15 +724,26 @@ runs.** The corpus evaluates it at zero momentum.
 
 The leverage is the same 33× compounded with k's own response: ∂lnM/∂lnα_c = **25.8**.
 
-| α used | 1/α | k | M_anchor |
-|---|---|---|---|
-| **α(0) — as recorded** | 137.036 | 1.3646 | **3152 GeV** |
-| α(M_Z) | 127.951 | 1.3431 | 1.76×10⁴ GeV |
-| naive extrapolation toward 10¹⁸ GeV | ~106 | 1.2841 | 1.22×10⁶ GeV |
+| α used | 1/α | k | M_anchor | against 4πm_H |
+|---|---|---|---|---|
+| **α(0) — as recorded** | 137.036 | 1.36461 | **3153 GeV** | **×2.00** |
+| α(M_Z) | 127.951 | 1.34309 | 1.76×10⁴ GeV | ×11.2 |
+| α at the Planck floor | 104.94 | 1.28100 | 1.50×10⁶ GeV | ×956 |
 
-The 7.1% between α(0) and α(M_Z) is already a factor 5.6 on the anchor; running to the pairing
-scale is a factor of hundreds. **So the anchor's landing requires the zero-momentum value
-specifically, at a process eighteen orders above the scale that defines it.**
+The last row is not an extrapolation to be discounted: 1/α(M_Pl) = 1/α₂ + 1/α_Y = 49.46 + 55.48 =
+**104.94** is the tree-level composition of two one-loop-run couplings, and it is the same figure
+[PRTOE_light.md](PRTOE_light.md) hands out. The 7.1% between α(0) and α(M_Z) is already a factor
+5.6 on the anchor; going to the pairing scale on the corpus's own Planck-floor value costs a
+factor **956**. **So the anchor's landing requires the zero-momentum value specifically, at a
+process eighteen orders above the scale that defines it.**
+
+**And the coupling an exact landing would need is not available at any scale.** Solving for it
+gives α_c = 0.021316, i.e. 1/α = **140.74** — but 1/α(0) = 137.036 is the *largest* value the
+running coupling ever takes, since α only strengthens toward the ultraviolet. The requirement sits
+**2.70% beyond the infrared endpoint**, so it is not that the chain has picked the wrong scale but
+that no scale supplies what an exact landing wants. What the infrared endpoint does supply is a
+×2.00 overshoot on 4πm_H, which is the factor the chain is actually carrying and which sits
+inside §6d's own factor-of-a-few band.
 
 The tension is sharp and it cuts both ways. If α_c is genuinely electromagnetic — which is what
 §6c's Coulomb kernel and Thomas–Fermi screening assume — then it must be evaluated at the pairing
