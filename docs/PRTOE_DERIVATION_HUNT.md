@@ -469,7 +469,14 @@ high-decay-constant field of §8 item 1b (§6).
   the dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie
   exact to 2.2%. **Graded: μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
   electron-mass-anchored meV-scale value of §2 (the headline chain (9/2)α⁴τ·m_e = **2.2599 meV**,
-  against the observed 2.25 — a **+0.44%** prediction), with κ_V, κ_m the O(1) ties; it is
+  against the observed 2.25 — a **+0.44%** prediction), with κ_V, κ_m the O(1) ties. **What the tie
+  constrains is the combination, not either constant.** ρ_inf¼ = κ_V¼·μ against m_ν = κ_m·μ makes
+  ρ_Λ¼ = m_ν,lightest the condition **κ_m = κ_V¼** — so the seat constant is not "κ_m ≈ 1" but a
+  ratio, and neither factor is separately fixed by it. The fourth root also sets how tight the tie
+  is: a factor-f error on the dark-energy O(1) moves the neutrino side only as f¼, so the recorded
+  2.2% tolerance leaves κ_V free across a factor 1.09 and constrains κ_m and κ_V individually not at
+  all. Any attempt on "the seat constant" must therefore target the ratio; computing κ_m alone
+  closes nothing. It is
   downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a separate knob.
 - **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, within CMB-S4's
   reach; junction double-duty → ≥ GeV, beyond it); the point value awaits the coupling λ′, and
