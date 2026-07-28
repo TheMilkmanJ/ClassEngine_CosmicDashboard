@@ -2082,14 +2082,32 @@ deposit argument.
 
 **The task-2 coherence, computed:** if the one frozen charged quantum hops one face
 per thermal period (the standing winding identification), the closure 3θ_B = Q forces
-**ω₁ = (2/9)·T_c = 39.36 keV — numerically identical to the independently recorded
-per-face drift μ_face from the thermal-twist reading.** The lock's quantum and the
+**ω₁ = (2/9)·T_c = 39.36 keV — numerically identical to the recorded
+per-face drift μ_face from the thermal-twist reading.**
+
+**Not an independent confirmation (corrected 2026-07-28).** μ_face is not independently
+recorded: the forced-combination file derives it from the same closure, μ_total = Q·T_c
+so μ_face = (Q/3)·T_c = (2/9)T_c. And ω₁ = θ_B·T_c = (Q/3)·T_c by the same closure and
+the same one-hop-per-thermal-period identification. **The two are one derivation run
+twice**, and their agreement is an identity by construction rather than a check. What the
+equality does express is the Josephson relation ω = μ — which is here *imposed* by the
+shared "one face per thermal period" step, not tested by it. The coherence claim stands
+as a statement of internal consistency and must not be cited as evidence. The lock's quantum and the
 phase chain's carrier are ONE OBJECT: amplitude integer-locked (the lock), phase
 accumulated by transport (the holonomy). The winding identification sharpens to a
 single-particle statement — "the one charged quantum's hop clock is the thermal
 clock" — with the pacing bound (ħ/T as the fastest thermal action) and the
 bath-limited saturation already recorded (2026-07-19). What remains for the phase is
 the saturation's microphysical derivation and the external judges.
+
+**The chaos-bound route is closed (2026-07-28).** The obvious candidate for "why the clock
+saturates" is the Maldacena–Shenker–Stanford bound λ_L ≤ 2πk_BT/ħ, which the corpus already
+carries cite-verified ([PRTOE_INTERACTION_ATLAS.md](../PRTOE_INTERACTION_ATLAS.md)) and which
+maximally chaotic systems saturate by definition. **It does not fit.** ω₁ = (2/9)T_c sits
+**4.5× below** the thermal-action bound and **28× below** the chaos bound — a maximally
+chaotic ring would run twenty-eight times faster than the phase needs. Whatever "saturation"
+means here, it is not either of these, and the route is recorded closed so it is not
+re-walked.
 
 ---
 

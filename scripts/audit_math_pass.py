@@ -1369,6 +1369,17 @@ _nv = 1/(3*(_qv - 1/3))
 chk("occupancy A4", "the neutrino tower's implied occupancy", 2.6668, _nv, 1e-3)
 chk("occupancy A4", "it is not an integer -- nearest is 3, missing by", 0.333,
     min(abs(_nv-k) for k in (1, 2, 3, 4)), 2e-2)
+# Task 2's saturation: the hop rate against the two candidate bounds. Neither is saturated.
+_TC = 0.5*math.log(2)*0.51099895e6/1e3          # keV
+_w1 = (2/9)*_TC
+chk("phase pacing", "T_c in keV", 177.099, _TC, 1e-4, "keV")
+chk("phase pacing", "w_1 = (2/9) T_c", 39.355, _w1, 1e-4, "keV")
+chk("phase pacing", "how far under the thermal-action bound T_c", 4.5, _TC/_w1, 1e-6, "x")
+chk("phase pacing", "how far under the MSS chaos bound 2 pi T_c", 28.274,
+    2*math.pi*_TC/_w1, 1e-4, "x")
+# mu_face and w_1 are the same closure twice, not two measurements
+chk("phase pacing", "mu_face = (Q/3) T_c", _w1, (2/3)/3*_TC, 1e-9, "keV")
+chk("phase pacing", "and w_1 = theta_B T_c is the same number", 0.0, _w1 - (2/9)*_TC, 1e-12)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
