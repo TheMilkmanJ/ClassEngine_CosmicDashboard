@@ -18,14 +18,15 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty-one checks
+## The twenty-two checks
 
-Run all twenty. Record what was found, even when nothing was.
+Run all twenty-two. Record what was found, even when nothing was.
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
 recording them: every one was found by a person reading, and none would have been caught by
-the checks that existed that morning.*
+the checks that existed that morning. **Check 22 was added 2026-07-28**, from audience-facing
+prose that passed every terminology check and still read as narrative.*
 
 **1. Read it whole, line by line.** Not grep. The contradictions live between sections.
 
@@ -307,7 +308,33 @@ unpiped command:
 If the output is too long, redirect to a file and grep the file *afterwards* — never in the pipeline
 that guards the commit.
 
-A file is not closed until checks 12 and 13 pass. Running the regression harness and a stale-pattern sweep
+**22. REGISTER, NOT JUST VOCABULARY — the forward-facing prose test (owner ruling, 2026-07-28).**
+The de-jargon rule swaps house codenames for field terms. It does not catch prose that has the
+right *words* in the wrong *register*: narrative sentences in an audience file read, in the owner's
+words, like "story letters to people we want to take this seriously." The rule is separate from
+check 3 and has to be run separately, because a paragraph can pass every terminology check and
+still be unpublishable.
+
+The tells, all taken from audience-facing prose written the day this check was added:
+
+| tell | example written | field-physics form |
+|---|---|---|
+| anthropomorphic verb | "an overdamped phase does not **feel** a mass" | "the pinning enters as the relaxation rate" |
+| dramatic verb | "**destroys** the asymmetry", "begins to **bite**" | "suppresses", "exceeds the threshold" |
+| house verb | the limit "**rides**" the steepness; the coupling "**shakes**" the phase | "is set by the gradient"; "drives" |
+| narrative heading | "**What the averaging returns.**" | "**Second-order averaging.**" |
+| story connective | "**So** the transmission … fixes one number" | state the result directly |
+| prose numerals | "**seventeen orders** under" | "a factor 10⁻¹⁷ below" |
+| emphasis as argument | italics carrying the persuasion | let the number carry it |
+
+**The positive form, and the test to apply:** display the equation, define every symbol, give the
+verification tolerance and the range checked, state the regime of validity, state the required
+value and the kill condition. **A referee must be able to extract the claim, its inputs and its
+falsifier without reading a single adjective.** If a sentence survives deleting all its adjectives
+and adverbs with its physics intact, it passes; if it collapses, it was carrying argument in the
+wrong place.
+
+A file is not closed until checks 12, 13 and 22 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.
 
 ## Recording

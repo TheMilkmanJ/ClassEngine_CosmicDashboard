@@ -362,11 +362,11 @@ partition the mass band with §13's channels.
 
 The genesis chain is pinned at both ends: Ψ₀ ~ 5×10¹⁶ GeV
 (abundance), H_inf < ~2–4×10¹² GeV (isocurvature) — and a second,
-θ-channel isocurvature limit rides the steepness of the angle-to-amplitude
-map. That steepness grows with both the release hierarchy and the tilt; at
-the standing hierarchy it reaches 5.4/rad at r_t = 0.9, which places the
-θ-channel ceiling at ~6×10¹¹–6×10¹² GeV — the same decade as the ordinary
-bound, so the two are comparable rather than one dominating. The quartic era is not negligible at
+θ-channel isocurvature limit set by the gradient of the angle-to-amplitude
+map, df_amp/dθ₀, which scales with both the release hierarchy and the
+tilt. At the standing hierarchy it is 5.4/rad at r_t = 0.9, placing the
+θ-channel ceiling at ~6×10¹¹–6×10¹² GeV: the same decade as the ordinary
+bound, so neither dominates. The quartic era is not negligible at
 release — h = λΨ₀²/m² ≈ 2–9 at the recorded λ ≈ 2×10⁻⁹¹ across the Ψ₀ pin —
 and its interacting-regime physics is what the Eckel ring-BEC probes. Inflation
 also holds the atlas's deepest confessed debt: the past hypothesis —

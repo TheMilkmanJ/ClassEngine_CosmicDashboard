@@ -151,10 +151,10 @@ interaction grammar's split, found independently by the renormalization group.
 - the machinery/record division of labour — the signs of the two β functions (theorem);
 - **23.5% of the electromagnetic coupling's strength at zero momentum** — the medium's fermion
  loop, supplying 32.14 of 1/α_EM(0) = 137.036 above the Planck-scale bare value
- 1/α_EM(M_Pl) = 1/α₂ + 1/α_Y = 49.4 + 55.5 = 104.9; the ±2 scheme band on those two values
- carries it across 20.5–26.4% (computed). **This is the fraction the α_c = 3α identification
- uses**, because that identification names electromagnetic α at q = 0, and it is an
- endpoint-to-endpoint quantity rather than a reading at a chosen scale;
+ 1/α_EM(M_Pl) = 1/α₂ + 1/α_Y = 49.4 + 55.5 = 104.9; the ±2 scheme uncertainty on those two
+ values gives a range of 20.5–26.4% (computed). **This is the fraction entering the α_c = 3α
+ identification**, which names α_EM at q = 0; it is defined between two fixed scales rather
+ than evaluated at a chosen one;
 - ~44% in the *hypercharge* channel read at M_Z (42.9 of 98.4) — the same loop against a
  different coupling at a different scale, and not the quantity the identification conditions on
  (computed);
