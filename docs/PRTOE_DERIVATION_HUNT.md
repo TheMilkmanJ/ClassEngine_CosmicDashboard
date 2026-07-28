@@ -1092,7 +1092,10 @@ Both misses are real, and the first is decisive. m_μ/m_e is known to 22 parts p
 be exact on the pole masses**, and no τ-mass measurement bears on it, because the τ does not enter
 the ratio. Singly each watch is comfortable — Q = 2/3 sits 0.91σ from the data and the closure
 0.89σ — so it is the conjunction the light masses refuse, and the conjunction is what a finished
-account of the sector owes ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
+account of the sector owes. The size matters as much as the significance: grant the closure and Q
+misses 2/3 by **0.17 ppm**; grant Q = 2/3 and θ misses 2/9 by **0.79 ppm**. The 452σ measures how
+sharply m_μ/m_e is known, not how far apart the two watches sit. The conjunction is refuted, and
+it is refuted by under one part per million ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 
 So the statement is not that the model is silent on the ratios — it is that the model
 **stakes** them on two numbers, neither of which is derived. A = √2 has seven recorded mechanism

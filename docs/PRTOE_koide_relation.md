@@ -419,8 +419,23 @@ That is a miss of **9.8 parts per million** on a ratio known to 22 parts per bil
 The τ mass appears nowhere in it, so no future τ measurement bears on it in either direction.
 
 **At most one of A = √2 and arg f₁ = 2/9 holds exactly on the pole masses.** The other is an
-approximation to something not yet written down, and the sector's two headline numbers are
-therefore not both exact statements about the spectrum, whatever their status as statements about
-Q. This does not touch either watch taken alone: Q = 2/3 alone sits 0.91σ from the data and the
-closure alone sits 0.89σ from it, both comfortable. It is the conjunction that the light masses
-refuse, and the conjunction is what a complete account of the sector would have to deliver.
+approximation to something not yet written down. This does not touch either watch taken alone:
+Q = 2/3 alone sits 0.91σ from the data and the closure alone sits 0.89σ from it, both
+comfortable. It is the conjunction the light masses refuse.
+
+**How large is the failure — and the two numbers must be read together.** Each constraint is a
+curve in the (A, φ) plane: the measured ratio a razor-thin one, Q = 2/3 a horizontal line, the
+closure a shallow parabola. Were all three exact they would meet at a point. They bound a
+triangle instead, **2.4×10⁻⁷ wide in A and 1.8×10⁻⁷ in φ.** Grant the closure and let the light
+masses fix everything else, and Q misses 2/3 by **0.17 parts per million**; grant Q = 2/3
+instead, and arg f₁ misses 2/9 by **0.79 parts per million.** So the 452σ is a statement about
+how sharply m_μ/m_e is known, not about how far apart the two watches sit — a 9.8 ppm
+discrepancy measured against 22 parts per billion is unavoidably hundreds of σ. Both readings are
+correct and neither alone is the whole statement: the conjunction is refuted, and it is refuted
+by less than one part per million.
+
+**The τ cannot see any of this**, which is why the disagreement sat unrecorded. Its ±0.12 MeV
+displaces the fitted point by 1.3×10⁻⁵ in A — **55 times the triangle's width** — so a
+three-mass fit seats both watches inside one σ while hiding the structure they disagree about.
+Only the two light masses resolve it, and they will not improve on their own; nothing about this
+question waits on the τ.

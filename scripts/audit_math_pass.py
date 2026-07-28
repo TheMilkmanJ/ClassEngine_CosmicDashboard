@@ -1720,6 +1720,34 @@ _dre = (105.6583755/0.51099895)*math.sqrt((1.5e-10/0.51099895)**2 + (2.3e-6/105.
 chk("DERIVATION_HUNT 9", "sigma on the measured m_mu/m_e", 4.50e-6, _dre, 1e-2)
 chk("DERIVATION_HUNT 9", "so the joint claim's m_mu/m_e miss, in sigma", 452,
     abs(_m22[1]/_m22[0] - 105.6583755/0.51099895)/_dre, 2e-2, "sigma")
+# But 452 sigma is a statement about how sharply m_mu/m_e is known, not about how far
+# apart the watches sit. In the sector's own variables the three constraints bound a
+# triangle well under a part per million wide. Both readings belong in the record.
+_RAT = 105.6583755/0.51099895
+def _ratio_of(_A, _p):
+    _r = [1 + _A*math.cos(_p + 2*math.pi*k/3) for k in range(3)]
+    return (_r[2]/_r[1])**2                      # k=2 is the muon seat, k=1 the electron
+def _bis(_f, _lo, _hi):
+    _flo = _f(_lo)
+    for _ in range(300):
+        _mid = 0.5*(_lo + _hi)
+        if _flo*_f(_mid) <= 0: _hi = _mid
+        else: _lo, _flo = _mid, _f(_mid)
+    return 0.5*(_lo + _hi)
+_clo = lambda _A: (1 + _A*_A/2)/9
+_p1 = _bis(lambda p: _ratio_of(math.sqrt(2), p) - _RAT, 2/9 - 1e-4, 2/9 + 1e-4)
+_a2 = _bis(lambda a: _ratio_of(a, _clo(a)) - _RAT, math.sqrt(2) - 1e-4, math.sqrt(2) + 1e-4)
+chk("koide triangle", "grant the closure: Q - 2/3 from the light masses", -1.119e-7,
+    (1/3 + _a2*_a2/6) - 2/3, 1e-2)
+chk("koide triangle", "that miss in ppm of Q", 0.168,
+    abs((1/3 + _a2*_a2/6) - 2/3)/(2/3)*1e6, 1e-2, "ppm")
+chk("koide triangle", "grant Q = 2/3: phi - 2/9 from the light masses", -1.751e-7,
+    _p1 - 2/9, 1e-2, "rad")
+chk("koide triangle", "that miss in ppm of phi", 0.788, abs(_p1 - 2/9)/(2/9)*1e6, 1e-2, "ppm")
+chk("koide triangle", "the triangle's width in A", 2.373e-7, math.sqrt(2) - _a2, 1e-2)
+# The tau's error bar is far wider than the structure, which is why a three-mass fit hides it.
+chk("koide triangle", "the tau displaces the fitted point by this many triangle widths",
+    55.0, abs(_AM - math.sqrt(2))/(math.sqrt(2) - _a2), 2e-2, "x")
 
 # --- the sector's arithmetic is scheme-locked to the pole masses -------------------
 # Every Koide number in the corpus is read off POLE masses. One-loop QED on-shell/MS-bar,
