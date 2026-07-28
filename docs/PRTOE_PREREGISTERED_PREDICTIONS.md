@@ -2013,41 +2013,30 @@ PRODUCES six novel falsifiable predictions... that is what a real predictive the
  MOND-like anomalies are systematics (no ξ-force exists — the λ-ceiling). **Kill**: a
  confirmed wide-binary anomaly at the MOND acceleration scale.
 
-## P-2026-038: The Portal's Multiplicity Is FIVE (registered 2026-07-11)
+## P-2026-038: The Portal Requires New Electroweak-Charged Vector-Like Matter (registered 2026-07-11)
 
-**The convergence:** two independent requirements — the SU(2)-inducibility flip (b₂(SM) = +19/6
-needs > 4.75 doublet-units of new matter) and the induced-α count (the log-rigid 13 = the SM's
-8 + n) — BOTH pick **n = 5 vector-like lepton doublets**, the model's own Card-7 species
-(hired previously for Koide protection and the seesaw). 4 → 12 (α misses), 6 → 14 (misses):
-only 5 closes both.
+**The prediction:** the induced-gauge premise **REQUIRES new electroweak-charged vector-like
+matter below M_red** — the content is the prediction. The census is a two-equation system in
+(n, rep, M_E) — the new states decouple at M_E, so the running is two-segment — and the joint
+solve closes it: **NO single relic-legal rep works** (exact closure needs illegal Y at every
+dimension; the theorem-saturating Y=0 reps sit 6.9% under, beyond two-loop reach ~1.9%), but
+**TWO legal species close it exactly and abundantly** (~10³ solutions, n ≤ 15) — minimal
+flagship: **1 vector-like lepton doublet (Y = ½) at 3.3 TeV + 3 wino-like Y=0 triplets at
+~1.1 TeV**, all integer charges, zero relic bill. The doublet is the model's own Card-7 species
+(hired previously for Koide protection and the seesaw). Multiplicity and rep-type are
+model-building unknowns until the portal's other duties (the AD-direct transfer, the seesaw)
+select among the solutions.
 
-**The prediction:** five vector-like charged lepton states, and the census PREFERS THEM LIGHT
-(the threshold integral wants the doublets spanning most of the log — pushing toward the
-collider-reachable end above the LHC's ~0.7–1 TeV floor).
+**The collider-facing flavor:** the minimal solutions sit at **1–3 TeV**, above the LHC's
+~0.7–1 TeV floor.
 
-**Kills:** a fourth or sixth doublet (either count breaks 13); heavy-decoupled doublets (the
-threshold integral collapses the closure to ~11.5 — quantitative pin fails); a two-loop
-un-flip of the marginal b₂ = −0.167 (the fragility check, owed).
+**Kill:** an induced-gauge closure requiring NO new electroweak-charged matter — the requirement
+is the whole prediction. Multiplicity and rep-type carry no kill of their own; they are the
+model-building freedom this entry explicitly does not claim.
 
 **Scope (honest):** MULTIPLY-CONTINGENT — lives inside H-TOE's induced-gauge premise
-(Gate-1-class); the "5" is FIXED-NOW as a prediction, not retrodicted. It recovers M3's
+(Gate-1-class); the content is FIXED-NOW as a prediction, not retrodicted. It recovers M3's
 α-prong and gives H-TOE its first collider-facing test.
-
-**AMENDMENT (2026-07-11) — THE "5" IS WITHDRAWN; CONTENT SURVIVES,
-COUNT DOES NOT.** The third check (induced sin²θ_W) broke the two-vote basis: the
-flip's vote was conditional on log-induced SU(2), and the induced α₂ came out ~30× too
-strong. The ramped piecewise reopening (doublets decouple at M_E; the running is
-two-segment) then dissolved the log-rigid 13 itself — the census becomes a two-equation
-system in (n, rep, M_E). The joint solve closed the system: NO single relic-legal
-rep works (exact closure needs illegal Y at every dimension; the theorem-saturating Y=0 reps
-sit 6.9% under, beyond two-loop reach ~1.9%), but TWO legal species close it exactly and
-abundantly (~10³ solutions, n ≤ 15) — minimal flagship: 1 vector-like lepton doublet
-(Y = ½) at 3.3 TeV + 3 wino-like Y=0 triplets at ~1.1 TeV, all integer charges, zero relic
-bill. STANDING CLAIM (replaces the "5"): the induced-gauge premise REQUIRES new
-electroweak-charged vector-like matter below M_red — the content is the prediction;
-multiplicity and rep-type are model-building unknowns until the portal's other duties
-(the AD-direct transfer, the seesaw) select among the solutions. The collider-facing flavor
-survives: the minimal solutions sit at 1–3 TeV.
 
 ## P-2026-039: Three Type-III Seesaw Triplets at ~1 TeV (registered 2026-07-11)
 
@@ -2208,16 +2197,17 @@ TRANSLATION.** The model's own onset clock (H = m at z_on: T_on = √(m·M_red/0
 against the coded identity m = 2.24×10⁻²⁰ eV ↔ 9.46 keV ↔ z_on = 4.0×10⁷) plus the
 abundance closure (Ψ₀ ∝ m^(−1/4)) give z_on ∝ α_c^(−2). Therefore α_c = 3α PREDICTS
 **log10(z_on) = 7.55** (z_on = 3.5×10⁷). The chain's unconverged center currently sits at
-~7.94 (watch-only) — 0.4 dex ABOVE. Two honest outcomes, written in advance: (i) the center
+~7.94 (watch-only) — 0.4 dex ABOVE. Three honest outcomes, written in advance: (i) the center
 descends toward 7.55 through convergence → P-040 confirms at onset grade; (ii) it holds
 near 7.94 → the ONSET α_c is ≈ 0.0139 and P-040 survives only as a RECOMBINATION-epoch
 claim requiring an onset→rec amplitude ratio of ≈ 1.58 — exactly the flagged
 "α_c ramp/locked question" (the aging-partition map), which would then be DATA-REQUIRED
-rather than optional. Either way the chain now grades not just a number but the model's
+rather than optional; (iii) **the prediction's mapping was mis-set**, co-equal with the other
+two. In every case the chain grades not just a number but the model's
 onset-vs-observation structure.
 
-**AMENDMENT to the corollary (2026-07-12 — the sixth process-error class):
-there is a THIRD outcome.** The corollary's identification "the fit's z_on parameter = the
+**Why outcome (iii) is co-equal (registered 2026-07-12, before the chain converges).**
+The corollary's identification "the fit's z_on parameter = the
 physical H = m clock" is itself un-derived — a step-class equation of a *template parameter*
 with a *physical epoch*. Unaccounted candidates, enumerated before the chain converges:
 (i) TEMPLATE-SHAPE OFFSET — the coded ramp x²/(1+x²) has its own internal conventions (its
@@ -2228,9 +2218,7 @@ the onset differs, the fit center shifts further; (iii) the ABUNDANCE CLOSURE as
 dust redshift after onset — the conversion channel (dcdf_conv) sheds part of the budget,
 bending the Ψ₀ ∝ m^(−1/4) quarter-power. OWED (before convergence, so the prediction is
 shape-corrected in advance): derive the model's true w(a) through the onset and calibrate
-the template offset — THEN the 7.55-vs-7.94 comparison becomes meaningful. Until that
-calibration lands, outcome (iii) "the prediction's mapping was mis-set" stands co-equal
-with the corollary's two.
+the template offset — THEN the 7.55-vs-7.94 comparison becomes meaningful.
 
 ## P-2026-042: The TeV Anchor — Where the Zero-Point Becomes Non-Zero (registered 2026-07-12, quiet-mode)
 

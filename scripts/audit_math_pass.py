@@ -1885,6 +1885,24 @@ chk("koide seed", "measured holonomy 3*phi = Q = 2/3", 2.0/3.0, 3*(2.0/9.0), 1e-
 chk("koide seed", "holonomy dressing pi/4 - 2/3 = 3(3pi-8)/36", 3*(3*math.pi-8)/36,
     math.pi/4 - 2.0/3.0, 1e-12)
 
+# --- Koide: criticality is NOT the sector's second equation (dead at 3349 sigma)
+# Closure 3 phi = Q = 1/3 + A^2/6 and criticality A = A_max(phi) together close
+# the system, so they predict. The prediction misses the measured Q badly.
+def _Amax_k(t):
+    return -1.0/min(math.cos(t + 2*math.pi*k/3) for k in range(3))
+_lo, _hi = 0.16, 0.30
+for _ in range(200):                       # bisection on A_closure - A_max
+    _mid = 0.5*(_lo+_hi)
+    _f = lambda t: math.sqrt(max(18*t-2.0, 0.0)) - _Amax_k(t)
+    if _f(_lo)*_f(_mid) <= 0: _hi = _mid
+    else: _lo = _mid
+_phi_star = 0.5*(_lo+_hi)
+_Q_star = 1.0/3 + _Amax_k(_phi_star)**2/6
+chk("koide joint", "phi* where closure meets criticality", 0.229811, _phi_star, 1e-4)
+chk("koide joint", "Q* predicted by the joint system", 0.689433, _Q_star, 1e-4)
+chk("koide joint", "that miss in sigma on the measured Q", 3349.0,
+    (_Q_star - 0.6666605)/6.8e-6, 5e-3, "sigma")
+
 # --- light: why gravity is fully induced and light is not, in one number ------
 # Gravity's bare term vanishes AT the cutoff (Pauli). Light's would vanish only
 # at its abelian Landau pole, which sits far above M_Pl -- so the medium can

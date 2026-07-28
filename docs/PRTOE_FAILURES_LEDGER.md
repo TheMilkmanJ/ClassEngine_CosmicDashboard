@@ -1510,6 +1510,30 @@ metric-on turn is closed at both the fluid level and the constraint level; a
 bounded-density bounce law survives only as unrecorded new physics, the same
 status as any unnamed operator.
 
+### Criticality as the Koide sector's second equation — dead at 3349σ (2026-07-28)
+
+**What it was.** The sector reduces to one complex hopping b, i.e. two numbers (|b|/a and arg b),
+and the corpus holds one relation between them — the holonomy closure 3·arg f₁ = Q, with
+Q = ⅓ + A²/6 and A = 2|b|/a. One equation cannot fix two numbers, so the sector needs a second.
+The candidate: **criticality**, A = A_max(φ) = −1/min_k cos(φ + 2πk/3), the condition that the
+lightest branch is exactly massless. It is attractive because it is exact at the seed — at
+φ = π/12 the amplitudes are √m = 2.366, **0**, 0.634 — and because a phase boundary can be exact
+without being an average, which is what every failed mechanism in this sector could not manage.
+
+**Why it is dead.** Imposed together the two conditions close the system, so they *predict* rather
+than describe. Solving them jointly gives
+
+> φ* = 0.2298111, A* = 1.4617111, **Q* = 0.6894332**
+
+against a measured Q = 0.6666605 ± 6.8×10⁻⁶. That is a **3349σ** miss. The intersection sits 3.4%
+away from the physical point in both φ and A.
+
+**What it establishes.** Criticality is a property of the **seed** and not a constraint on the
+dressed configuration — which is what the recorded "96% of the positivity wall" already said, read
+forward. Any second equation for this sector must be satisfied at the *physical* point, and
+criticality is not. The seed's exact masslessness stands as a fact about the seed; it cannot be
+promoted to the sector's missing condition.
+
 ### P-2026-004 (Σm_ν ∈ [0.11, 0.17] eV) — FALSIFIED by DESI (2026-07-10; moved here 2026-07-28)
 
 **What it claimed:** a high summed neutrino mass, Σm_ν ∈ [0.11, 0.17] eV.
@@ -1555,6 +1579,110 @@ two-source/tenth-channel spec; the leptophilic resolution; the seesaw naturalnes
 alive and the corner-selector reverts to the registry's original referee — the CMB-S4 Majoron/
 ν-interaction search (a g-detection selects the MeV corner; a null leans high-v_L). The corner-B
 seal made on the corridor's evidence is reverted to an open two-corner state.
+
+### P-2026-038's multiplicity — "the portal's multiplicity is FIVE" died the day it was registered (2026-07-11)
+
+**What it claimed:** exactly **five** vector-like lepton doublets, from two independent
+requirements that were said to converge: the SU(2)-inducibility flip (b₂(SM) = +19/6 needs
+> 4.75 doublet-units of new matter) and the induced-α count (the log-rigid **13** = the SM's
+**8** + n). 4 → 12 and 6 → 14 both miss, so only 5 was held to close both. The census PREFERRED
+them light — the threshold integral wants the doublets spanning most of the log, pushing toward
+the collider-reachable end above the LHC's ~0.7–1 TeV floor. Its kills were the count's:
+a fourth or sixth doublet (either breaks 13); heavy-decoupled doublets (the threshold integral
+collapses the closure to ~11.5); a two-loop un-flip of the marginal b₂ = −0.167.
+
+**Why it died:** the third check — induced sin²θ_W — broke the two-vote basis. The flip's vote
+was conditional on log-induced SU(2), and the induced α₂ came out **~30× too strong**. The ramped
+piecewise reopening (doublets decouple at M_E; the running is two-segment) then dissolved the
+log-rigid 13 itself: the census becomes a two-equation system in (n, rep, M_E). The joint solve
+closed that system against a single species — **no single relic-legal rep works** (exact closure
+needs illegal Y at every dimension; the theorem-saturating Y=0 reps sit **6.9%** under, beyond
+two-loop reach **~1.9%**).
+
+**What survives — the content, not the count.** TWO legal species close the system exactly and
+abundantly (**~10³ solutions, n ≤ 15**); the minimal flagship is **1 vector-like lepton doublet
+(Y = ½) at 3.3 TeV + 3 wino-like Y=0 triplets at ~1.1 TeV**, all integer charges, zero relic bill.
+The collider-facing flavour survives with it: the minimal solutions sit at **1–3 TeV**.
+
+**Disposition:** multiplicity and rep-type are model-building unknowns until the portal's other
+duties (the AD-direct transfer, the seesaw) select among the solutions. The registry entry stands
+as the content claim — the induced-gauge premise requires new electroweak-charged vector-like
+matter below M_red — and no longer as a count.
+
+### P-2026-042's 2.5% precision, and its two-loop-landing kill (2026-07-19)
+
+**What it claimed (registered 2026-07-12):** the hierarchy anchor M_anchor = M_red·e⁻³⁵ ≈ 1.54 TeV
+identified as **4π·m_H = 1.57 TeV, agreeing to 2.5%** (ln(M_red/4πm_H) = 34.98 vs the arrows' 35);
+and, as kill (a), **the two-loop landing** — the full two-loop census solve must land the portal
+spectrum near ~1.5 TeV, so P-2026-039's suspended knife-edge returned as a target.
+
+**Why the precision died:** paying kill (d) killed it. The gap equation was written down and solved
+rather than adopted, deriving the exponent's 35 as 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97 with
+**k = 1.36461 reconstructed exactly**. But ∂lnM/∂lnk = 33.47, so every O(1) in the calculation is
+amplified thirty-threefold: the exact-solution factor (Δ = 2Λe^(−1/λ), not Λe^(−1/λ)), the rainbow
+truncation's dropped vertex (relative order λ = 3%, a factor ≈2.7), and the Fermi surface's
+position within Λ_shell ≤ E_F ≤ M_red (≈1.6) compound to **a factor of a few**. The anchor is
+**1–8 TeV**, not 1.57 TeV at 2.5% — the agreement stated at registration was finer than the
+calculation supporting it.
+
+**Why kill (a) died:** the two-loop landing program closed as mooted, and the collider search
+refereeing the decade directly is what replaced it. The strain against shooter v2's 13–20 TeV had
+first been measured against the anchor as a **point value (1.57 TeV)** — a gap of **1.6× at the
+band's top edge and 13× at its bottom** once the point gave way to the 1–8 TeV band — which made
+that audit **downstream of the O(λ) correction rather than independent of it**. The correction's
+expected sign was called downward and the call held: both O(λ) terms computed, the band is
+**0.55–1.78 TeV** and arrow C is concluded rather than strained.
+
+**What survives:** a **TeV-scale anchor derived from the Planck floor and α alone** — which is what
+kill (b), HL-LHC exhausting ~1–2 TeV, tests. Arrow B, the identification M_anchor = 4πm_H
+= 1574 GeV, stands. The mechanism is stronger than at registration and the precision weaker; that
+trade is the honest cost.
+
+**Disposition:** the entry carries a band, not a percentage agreement.
+
+### The nested evidence run — P-2026-044's registered referee, ended as unaffordable (2026-07-20)
+
+**What it was:** the referee named in P-2026-044 at registration — `cmp_prtoe_dyad_ev` vs
+`cmp_lcdm_ev`, PolyChord nested sampling on the same data, with no derived values anywhere in
+either config.
+
+**Why it died:** not stalled and not wrong — unaffordable. At **66 s per likelihood evaluation**
+against **534 slice steps per iteration**, one nested iteration costs **9.8 h**, so the first
+checkpoint at nlive = 400 sits **163 days** out and the 1 809-iteration reference run **736 days**
+out, with the ΛCDM twin doubling it. Forty-eight hours bought **4.1 iterations**. Ended and
+archived (`chains/_archive_polychord_ended_20260720_0915/`).
+
+**What survives:** P-2026-044's forecasts, its intervals and its bottom-out clause stand exactly as
+registered; the number they grade is now the **Laplace-from-MCMC** estimate rather than a nested
+one, until cluster time is bought. The autopsy protocol survives in reduced form — the Δχ²
+decomposition runs on the chains, while the measured Occam costs it wanted are a nested-sampling
+output and wait with the rest.
+
+**Why the substitution is adverse, and recorded as such:** the Laplace estimator's own systematic is
+larger than the **+0.135** by which the standing **+2.635** clears the win line, so the instrument
+now in hand cannot resolve the interval that registration was written to decide. The consequence
+for the model is that **chain convergence is the critical path for P-2026-044 itself** rather than a
+side referee on individual parameters — the MCMC is no longer supporting evidence, it is the
+evidence calculation's only input.
+
+### The segmented ε ≥ 0.67 bound — killed by its own stamped caveat (2026-07-07)
+
+**What it claimed:** a lower bound **ε ≥ 0.67** on the genesis orbit's ellipticity, booked
+provisionally the same night from a segmented birth-orbit calculation and carrying its own caveat
+that the segmentation might not survive a seamless integration.
+
+**Why it died:** the caveat fired. The seamless birth-orbit integration is **CHAOTIC in the release
+angle θ_0**, which is a random variable — one stochastic inflationary draw per universe. ε is
+therefore not bounded but **DISTRIBUTIONAL**, and a segmented calculation cannot produce a bound on
+a quantity whose value is a draw.
+
+**What survives:** the distributional reading that replaced it — the 14-angle dice at h = 300,
+r_t ∈ {0.3, 0.6, 0.9} giving f_amp median **0.55–0.67** and **P(f_amp > 0.2) = 86% at all three
+tilt strengths**, with ε = √f_amp — and the fourth summit outcome (distributional) that the
+pre-registered menu of pinned/bounded/inconsistent did not contain, booked as a pre-registration
+lesson.
+
+**Disposition:** retired as a bound. Nothing downstream cites it.
 
 ### The P-2026-010 identifier collision — two pre-registrations under one number (2026-07-17)
 

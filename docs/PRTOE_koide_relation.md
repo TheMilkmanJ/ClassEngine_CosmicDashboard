@@ -308,8 +308,17 @@ phase, 3φ = **Q = 2/3** — so the closure 3·arg f₁ = Q reads as a dressing 
 π/4, moved by π/4 − 2/3 = 3·(3π−8)/36.
 
 This does not derive A = √2 — requiring a massless branch fixes A only *given* φ, and one equation
-cannot fix two numbers. What it changes is the question. "Why A = √2" is a bare number with no
-handle, and every mechanism tried against it — equilibria, averages, balances, cascade
-equipartition — has died on fluctuations. **"Why is the seed the critical configuration, at
-holonomy π/4?" is a statement about a phase boundary**, and a boundary is the kind of thing that can
-be exact without being an average.
+cannot fix two numbers.
+
+**And criticality cannot be the sector's second equation.** Imposed together with the holonomy
+closure it closes the system and therefore predicts: solving both gives φ* = 0.22981, A* = 1.46171,
+**Q* = 0.68943** against the measured 0.6666605 ± 6.8×10⁻⁶ — a 3349σ miss, 3.4% away in both φ and
+A. So the seed's exact masslessness is a fact about the seed and not a constraint on the dressed
+configuration, which is the forward reading of the recorded "96% of the wall". The autopsy is in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+
+What survives is the reframing. "Why A = √2" is a bare number with no handle, and every mechanism
+tried against it — equilibria, averages, balances, cascade equipartition — has died on
+fluctuations. **The seed is exactly critical at holonomy π/4**, and that is a statement about a
+phase boundary, which is the one class of thing that can be exact without being an average. Any
+second equation must hold at the *physical* point; criticality holds at the seed.
