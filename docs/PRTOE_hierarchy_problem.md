@@ -828,12 +828,35 @@ observed dark-energy density requires — and those two agree with each other to
 precisely what the floor's +0.44% landing is. Moving d into the band drags the floor down with
 it: **−4.0% at the band's top, −11.9% at its bottom**, against the +0.44% that d = 3 buys.
 
-So the choice is between the three constraints rather than between the fork's two horns. Either
-the indirect band is wrong; or the floor's d²/2 does not carry the same d as the coupling, the
-spine's identification notwithstanding; or the +0.44% landing is a coincidence a corrected d
-spoils. Nothing recorded decides it, and **the middle option is the cheapest to test** — it asks
-only whether the geometry factor and the coupling factor were ever one quantity, which is a
-question about the derivation rather than about any measurement.
+So the choice is between the three constraints rather than between the fork's two horns. Three
+ways out present themselves, and **one of them is closed algebraically.**
+
+The floor is recorded primarily as **E_b = ½α_c²M₂ with M₂ = α²T_c**, and the (d²/2)α⁴T_c form is
+that expression with α_c = d·α substituted. The two agree identically, not to some tolerance. So
+the d² in the floor *is* α_c²/α² — there is no independent geometry factor to hold at 9/2 while
+the coupling moves. Whatever α_c turns out to be, the floor carries its square, and the escape
+route of separating the two d's does not exist.
+
+Stated without d at all, the conflict is bare: the observed ρ_Λ¼ = 2.25 meV requires
+**α_c = √(2ρ/M₂) = 0.021844**, and the indirect band caps α_c at **0.0214** — an excess of
+**2.08%**. The four values fall into two pairs:
+
+| source | α_c | ρ_Λ¼ |
+|---|---|---|
+| the spatial dimension, d = 3 | 0.021892 | 2.2599 meV |
+| the observed dark-energy density | 0.021844 | 2.2500 meV |
+| the indirect band, top | 0.021400 | 2.1595 meV |
+| the hierarchy anchor's exact landing | 0.021316 | 2.1425 meV |
+
+The first two agree to 0.22% — that agreement *is* the floor's +0.44%, since ρ goes as α_c² — and
+the last two agree to 0.39%. **The two pairs differ by 2.70%**, and no choice of d reconciles
+them, because d is not a free label but the ratio α_c/α itself.
+
+Two ways out remain and both are empirical rather than algebraic: **the indirect band is wrong**,
+or applies to a different quantity than the coupling the floor uses; or **the floor's agreement
+with observation is a coincidence**, α_c really sitting near 0.0213 and the floor landing at
+2.143 meV — a 5% miss that the d = 3 arithmetic disguised. They point in opposite directions and
+are decidable by measurement, which makes this a live fork rather than an unexplained tension.
 
 But horn (b) carries a double-counting hazard. α(0) is the *fully infrared-screened* coupling —
 the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening

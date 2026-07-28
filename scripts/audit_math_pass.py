@@ -1101,6 +1101,23 @@ chk("d three-way", "the floor at the band's top", -4.02,
     (_rho_of(_BHI*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
 chk("d three-way", "the floor at the band's bottom", -11.93,
     (_rho_of(_BLO*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
+# The escape route -- a geometry d^2/2 independent of the coupling's d -- is closed
+# algebraically: the floor's primary form E_b = (1/2) alpha_c^2 M_2 with M_2 = alpha^2 T_c
+# becomes (d^2/2) alpha^4 T_c on substituting alpha_c = d.alpha. Identical, not merely close.
+_M2 = (1/137.035999084)**2 * _TC
+_floor = lambda ac: 0.5*ac*ac*_M2
+chk("d three-way", "M_2 = alpha^2 T_c", 9.4307, _M2, 1e-4, "eV")
+chk("d three-way", "the two floor forms are identical at d = 3", 0.0,
+    _floor(3.0/137.035999084) - _rho_of(3.0), 1e-18, "eV")
+chk("d three-way", "alpha_c the observed floor demands, d never mentioned", 0.021844,
+    math.sqrt(2*2.25e-3/_M2), 1e-4)
+chk("d three-way", "which exceeds the band top by", 2.08,
+    (math.sqrt(2*2.25e-3/_M2)/_BHI - 1)*100, 1e-2, "%")
+chk("d three-way", "theory and observation agree to", 0.22,
+    abs((3.0/137.035999084)/math.sqrt(2*2.25e-3/_M2) - 1)*100, 2e-2, "%")
+chk("d three-way", "band top and anchor agree to", 0.39, abs(_BHI/_AC_ANCH - 1)*100, 2e-2, "%")
+chk("d three-way", "the two pairs differ by", 2.70,
+    ((3.0/137.035999084)/_AC_ANCH - 1)*100, 1e-2, "%")
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)

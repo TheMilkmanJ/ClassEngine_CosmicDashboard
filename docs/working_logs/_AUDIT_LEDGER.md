@@ -4653,3 +4653,34 @@ geometry factor and the coupling factor were ever one quantity, which is a quest
 derivation, not about a measurement.
 
 Seven checks added, harness 859.
+
+### 2026-07-28 — the cheapest escape from the d conflict is closed algebraically; two empirical ones remain
+
+Tested whether the dark-energy floor's d²/2 could be an independent geometry factor that merely
+shares a symbol with the coupling's d — which would have let α_c drift into the indirect band
+while the floor kept its 9/2. **It cannot.**
+
+The floor's primary form is **E_b = ½α_c²M₂ with M₂ = α²T_c = 9.4307 eV**. Substituting
+α_c = d·α turns it into (d²/2)α⁴T_c exactly — the two evaluate to 2.259900 meV with a difference
+of 0.00e+00, not to some tolerance. So the d² in the floor **is** α_c²/α². There is no geometry
+factor to hold fixed; whatever α_c is, the floor carries its square.
+
+**Stated without d at all**, the conflict is bare: the observed ρ_Λ¼ = 2.25 meV requires
+α_c = √(2ρ/M₂) = **0.021844**, against an indirect band capping α_c at **0.0214** — an excess of
+**2.08%**. The four values fall into two pairs that each agree internally and disagree across:
+
+| source | α_c | ρ_Λ¼ |
+|---|---|---|
+| the spatial dimension, d = 3 | 0.021892 | 2.2599 meV |
+| the observed dark-energy density | 0.021844 | 2.2500 meV |
+| the indirect band, top | 0.021400 | 2.1595 meV |
+| the hierarchy anchor's exact landing | 0.021316 | 2.1425 meV |
+
+First pair agree to 0.22% — that *is* the floor's +0.44%, since ρ ∝ α_c². Second pair agree to
+0.39%. **The pairs differ by 2.70%**, and no d reconciles them because d is not a free label but
+the ratio α_c/α.
+
+**Two ways out survive, both empirical:** the indirect band is wrong or measures a different
+quantity; or the floor's agreement with observation is a coincidence, with α_c really near 0.0213
+and the floor missing by 5% behind d = 3's arithmetic. They point opposite ways and are decidable
+by measurement, so this is now a live fork rather than a tension. Seven checks added, harness 866.
