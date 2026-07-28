@@ -4715,3 +4715,38 @@ else, and the third does not. Both files now say so.
 
 What would settle it: f̄ to better than 1%, or an α_c reading that skips the assembly. Eight
 checks added, harness 874.
+
+### 2026-07-28 — f̄ is a theorem, not a datum: branch (a) needs a short winding, not a preferred fit
+
+Checked the escape the previous pass proposed, and it needed narrowing. That pass moved the
+indirect band by swapping the booked f̄ = 2/π for the fit-implied 0.6253, cutting the α_c conflict
+from 2.08% to 0.26%. But **f̄ = ⟨|cos|⟩ over a uniformly wound phase is exactly 2/π** — a theorem
+under the stated equidistribution premise, verified here to machine precision over 1, 2, 10 and
+50 whole turns. So 0.6253 is a noisy estimate of the booked value, not a rival determination, and
+the recorded 4.1% scatter covers the 1.81% several times over. Preferring the estimate is not an
+argument.
+
+**What can move f̄ is failure of the premise — a winding that does not complete whole turns.**
+That envelope is computable exactly (|cos| has period π with integral 2, so the primitive is
+closed-form) and it is the honest bound:
+
+| turns | worst-case deviation |
+|---|---|
+| 2 | 4.755% |
+| 5 | 2.018% |
+| 10 | 1.030% |
+| 30 | 0.348% |
+| 100 | 0.105% |
+
+Solving for the 2.08% the conflict needs gives **N ≈ 4.8 turns**. So branch (a) rests on the
+winding being *short*, of order five turns — a physical question, and a different one from what
+the fit's scatter answers. Past a few tens of turns f̄ is pinned far tighter than the conflict and
+the route closes.
+
+Two method notes. The 1/(πN) proxy I first reached for **overstates the allowance threefold** —
+it gives 15 turns where the exact envelope gives 4.8 — so the harness carries the computed
+envelope and the proxy side by side as a caution. And the first version of the script brute-forced
+the integral over 100M samples and had to be killed; the closed form runs instantly and is exact,
+which is the better answer to a slow numerical check.
+
+Eight checks added, harness 882.

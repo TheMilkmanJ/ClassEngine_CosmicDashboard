@@ -876,11 +876,32 @@ the band's top from 0.0214 to **0.021787** and cuts the conflict with the observ
 | the simulation's 0.635 | 0.021455 | +1.82% |
 | the fit-implied 0.6253 | 0.021787 | **+0.26%** |
 
-This does not show the band is wrong — it shows the discrepancy it reports is the same size as an
-uncertainty already carried inside it. What would settle the branch is f̄ to better than 1%, or an
-α_c reading that does not route through the assembly. The trio's other two doors, the dispersion
-chain and the isocurvature phase speed, are both of that second kind, so the triangulation keeps
-two clean legs.
+**But that shift cannot simply be borrowed from the fit.** f̄ = ⟨|cos|⟩ over a uniformly wound
+phase is **exactly 2/π** — a theorem, not a measurement — so 0.6253 is a noisy estimate of the
+booked value rather than a rival to it, and the recorded scatter of 4.1% comfortably covers the
+1.81%. Preferring the estimate is not an argument.
+
+What *can* move f̄ is failure of the premise: a winding that does not complete whole turns. Over
+any integer number of turns the average is 2/π identically; a partial turn leaves a residue, and
+that residue is the honest envelope:
+
+| turns | worst-case deviation from 2/π |
+|---|---|
+| 2 | 4.76% |
+| 5 | 2.02% |
+| 10 | 1.03% |
+| 30 | 0.35% |
+| 100 | 0.11% |
+
+Solving for the 2.08% the conflict needs gives **N ≈ 4.8 turns.** So branch (a) does not rest on
+the fit disagreeing with 2/π — it rests on the winding being *short*, of order five turns, which
+is a physical question the corpus answers elsewhere and a different question from the one the
+fit's scatter answers. Past a few tens of turns f̄ is pinned far tighter than the conflict and
+this route closes.
+
+What would otherwise settle the branch is an α_c reading that does not route through the assembly
+at all. The trio's other two doors, the dispersion chain and the isocurvature phase speed, are
+both of that kind, so the triangulation keeps two clean legs.
 
 But horn (b) carries a double-counting hazard. α(0) is the *fully infrared-screened* coupling —
 the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening

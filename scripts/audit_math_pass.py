@@ -1137,6 +1137,24 @@ chk("band provenance", "conflict there", 0.26,
     (_ac_floor/(_BHI*(2/math.pi)/0.6253) - 1)*100, 5e-2, "%")
 chk("band provenance", "and on the simulation's f_bar", 1.82,
     (_ac_floor/(_BHI*(2/math.pi)/0.635) - 1)*100, 2e-2, "%")
+# f_bar = <|cos|> is EXACTLY 2/pi over any whole number of turns -- a theorem, not a datum.
+# The only honest way it moves is a partial turn, and that envelope is what bounds branch (a).
+def _Gabs(x):
+    _m, _r = divmod(x, math.pi)
+    return 2*_m + (math.sin(_r) if _r <= math.pi/2 else 2 - math.sin(_r))
+_mac = lambda _n, _p=0.0: (_Gabs(_p + 2*math.pi*_n) - _Gabs(_p))/(2*math.pi*_n)
+for _n in (1, 10, 50):
+    chk("fbar envelope", f"<|cos|> over exactly {_n} turns is 2/pi", 2/math.pi, _mac(_n), 1e-12)
+def _env(_N):
+    return max(abs(_mac(_N + _j/200.0, math.pi*_k/100)/(2/math.pi) - 1)
+               for _j in range(200) for _k in range(100))
+chk("fbar envelope", "worst case at 2 turns", 4.755, _env(2.0)*100, 2e-2, "%")
+chk("fbar envelope", "worst case at 5 turns", 2.018, _env(5.0)*100, 2e-2, "%")
+chk("fbar envelope", "worst case at 10 turns", 1.030, _env(10.0)*100, 2e-2, "%")
+chk("fbar envelope", "worst case at 30 turns", 0.348, _env(30.0)*100, 3e-2, "%")
+# the 1/(pi N) proxy overstates the allowance threefold, which is why it is not used
+chk("fbar envelope", "1/(pi N) proxy at 10 turns, for contrast", 3.183,
+    1/(math.pi*10)*100, 1e-3, "%")
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
