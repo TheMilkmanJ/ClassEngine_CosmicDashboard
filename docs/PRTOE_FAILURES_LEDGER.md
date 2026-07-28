@@ -3145,3 +3145,33 @@ mixing. Both consequences are withdrawn with the premise.
 bound. The anchor-scale portal species carry electroweak quantum numbers, and a degenerate heavy
 doublet contributes ΔS = 1/6π = 0.053 **without decoupling** — the contribution is
 mass-independent, so it bounds the species count rather than the scale.
+
+### The six birefringence source-routes — all closed on the same two conditions (back-filled 2026-07-27)
+
+**What they claimed:** six independent routes by which the medium might *produce* a cosmic
+photon birefringence — a multiverse/external source, an early open-coupling regime, the
+regime-change tail, the radiation era, residual-coupling rotation, and real-time generation at
+last scattering.
+
+**Why they died — one pair of conditions closed all six:**
+(i) **The epochs are disjoint.** Any source must be alive at last scattering (z ~ 1100), which
+would need the condensation redshift near matter–radiation equality; the model puts it at
+z_x ~ 1×10⁵, where the residual normal fraction is ~1×10⁻⁸. Across the whole span from
+nucleosynthesis to recombination the coupling is open only in the *opaque* era (z ≳ 1×10⁵),
+where Thomson scattering scrambles any imprint, and the light does not free-stream until
+z ~ 1100, by which point the coupling is closed to ~10⁻⁸. The coupling-open and
+light-remembers windows never overlap; only a negligible residual tail bridges them
+(`scripts/birefringence_window.py`, ANN-2026-017).
+(ii) **The signature needs a forbidden coupling.** An EB rotation requires a parity-odd
+coupling — the electromagnetic-anomalous angular mode the census forbids (ANN-2026-012).
+
+Generating rather than rotating does not evade (ii); reionization does not reopen (i), the data
+separating recombination at z ~ 1100 from reionization at z ~ 7 by ~140×, four ways over.
+
+**What survives, and it is stronger than what died:** the standing prediction that the medium
+produces **zero** parity-odd rotation (P-2026-009) is untouched, and is now over-determined by
+the same two conditions that closed every source-route.
+
+**Reopening condition (a registered two-way bet):** a genesis calculation pinning the
+condensation redshift near equality (a few ×10³) would make a small, suppressed, isotropic
+signal census-legal through the still-open residual coupling.
