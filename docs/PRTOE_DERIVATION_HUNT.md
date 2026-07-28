@@ -1087,6 +1087,13 @@ mass ratios are determined**:
 | m_μ/m_e | 206.7703 | 206.7683 | +9.8×10⁻⁶ |
 | m_τ/m_e | 3477.473 | 3477.228 | +7.0×10⁻⁵ |
 
+Both misses are real, and the first is decisive. m_μ/m_e is known to 22 parts per billion, so
++9.8×10⁻⁶ is a **452σ** statement rather than a near-agreement: **A = √2 and θ = 2/9 cannot both
+be exact on the pole masses**, and no τ-mass measurement bears on it, because the τ does not enter
+the ratio. Singly each watch is comfortable — Q = 2/3 sits 0.91σ from the data and the closure
+0.89σ — so it is the conjunction the light masses refuse, and the conjunction is what a finished
+account of the sector owes ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
+
 So the statement is not that the model is silent on the ratios — it is that the model
 **stakes** them on two numbers, neither of which is derived. A = √2 has seven recorded mechanism
 attempts and every one of them failed ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md));

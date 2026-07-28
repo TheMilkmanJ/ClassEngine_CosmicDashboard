@@ -1713,6 +1713,38 @@ chk("DERIVATION_HUNT 9", "its m_mu/m_e miss vs measured 206.76828", 9.83e-6,
     _m22[1]/_m22[0]/206.76828 - 1, 0.02)
 chk("DERIVATION_HUNT 9", "its m_tau/m_e miss vs measured 3477.2283", 7.03e-5,
     _m22[2]/_m22[0]/3477.2283 - 1, 0.02)
+# That miss is not a near-agreement to be read charitably: m_mu/m_e is known to 1.1e-8,
+# so the JOINT claim is over-determined and refuted on the light masses alone. No m_tau
+# measurement can rescue it -- at most one of the two watches is exact on pole masses.
+_dre = (105.6583755/0.51099895)*math.sqrt((1.5e-10/0.51099895)**2 + (2.3e-6/105.6583755)**2)
+chk("DERIVATION_HUNT 9", "sigma on the measured m_mu/m_e", 4.50e-6, _dre, 1e-2)
+chk("DERIVATION_HUNT 9", "so the joint claim's m_mu/m_e miss, in sigma", 452,
+    abs(_m22[1]/_m22[0] - 105.6583755/0.51099895)/_dre, 2e-2, "sigma")
+
+# --- the sector's arithmetic is scheme-locked to the pole masses -------------------
+# Every Koide number in the corpus is read off POLE masses. One-loop QED on-shell/MS-bar,
+# mbar(mu) = m_pole [1 - (alpha/pi)(3/4 ln(mu^2/m^2) + 1)], moves Q by 1e-3 -- two orders
+# above the 9.2 ppm residual the sector reports. The mass definition is load-bearing.
+def _msb(m, mu):
+    return m*(1 - (ALPHA/math.pi)*(0.75*math.log(mu**2/m**2) + 1))
+def _Qof(me, mmu, mt):
+    return (me + mmu + mt)/(math.sqrt(me) + math.sqrt(mmu) + math.sqrt(mt))**2
+_Qpole = _Qof(0.51099895, 105.6583755, 1776.86)
+_MZ = 91187.6
+_Qbar = _Qof(*[_msb(m, _MZ) for m in (0.51099895, 105.6583755, 1776.86)])
+chk("koide scheme", "Q on the pole masses", 0.6666605, _Qpole, 1e-6)
+chk("koide scheme", "Q on MS-bar masses at M_Z (one-loop QED)", 0.6678359, _Qbar, 1e-5)
+chk("koide scheme", "the pole-mass residual on Q", 9.23, abs(_Qpole - 2/3)/(2/3)*1e6, 1e-2, "ppm")
+chk("koide scheme", "the scheme shift on Q", 1763, abs(_Qbar - _Qpole)/(2/3)*1e6, 1e-2, "ppm")
+chk("koide scheme", "so the choice of mass variable outweighs the measured deviation by",
+    191, abs(_Qbar - _Qpole)/abs(_Qpole - 2/3), 1e-2, "x")
+# And against the separation the registered m_tau test must resolve (2.518 keV in m_tau).
+_dQdm = (_Qof(0.51099895, 105.6583755, 1776.86 + 1e-4)
+         - _Qof(0.51099895, 105.6583755, 1776.86 - 1e-4))/2e-4
+chk("koide scheme", "dQ/dm_tau", 5.646e-5, _dQdm, 1e-3, "/MeV")
+chk("koide scheme", "the two watches' separation, in Q", 1.421e-7, _dQdm*2.518e-3, 1e-2)
+chk("koide scheme", "the scheme shift is this many times that separation", 8270,
+    abs(_Qbar - _Qpole)/(_dQdm*2.518e-3), 2e-2, "x")
 
 # --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
 # 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.

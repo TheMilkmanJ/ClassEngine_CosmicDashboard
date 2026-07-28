@@ -163,8 +163,12 @@ determines it completely**:
 
 | part | how Q fixes it | value |
 |---|---|---|
-| modulus | Parseval: Q = 1/3 + (2/3)\|f₁/f₀\|² | **\|f₁/f₀\| = 1/√2**, exact |
-| phase | the holonomy closure: 3·arg f₁ = Q | **arg f₁ = 2/9**, exact |
+| modulus | Parseval: Q = 1/3 + (2/3)\|f₁/f₀\|² | **\|f₁/f₀\| = 1/√2** at Q = 2/3 |
+| phase | the holonomy closure: 3·arg f₁ = Q | **arg f₁ = 2/9** at Q = 2/3 |
+
+Both entries are exact consequences of Q = 2/3, which is the sense in which one statement fixes
+the kernel. They are not both exact statements about the measured spectrum — the light masses
+rule that out, and the last section of this file gives the margin.
 
 Two corrections to how this is usually stated. First, Q = 2/3 is phase-independent *only
 inside a window*: the reconstruction needs every √m_k = 1 + A·cos(2πk/3 + φ) positive, which with
@@ -369,3 +373,54 @@ which says no more than that the hopping is nonzero. And the ceiling is the root
 1 + √(6Q − 2)·cos(Q/3 + 2π/3) = 0, transcendental in Q; the nearest simple forms
 ((1+√2)/3.5, ln2) miss by 3×10⁻⁴ and 4×10⁻³, so it is a number and not an identity. The fence
 therefore reads **1/3 < Q ≤ 0.689433**, derived at the top and trivial at the bottom.
+
+## Which masses the sector is about
+
+Every number in this file is read off the **pole masses**. That is the convention Koide's
+relation has always been stated in, and it is not a neutral one. Converting to renormalized
+masses at one loop in QED,
+
+> m̄(μ) = m_pole·[1 − (α/π)(¾·ln(μ²/m²) + 1)]
+
+sends the invariant to Q̄ = 0.667836 at μ = M_Z and Q̄ = 0.667820 at μ = m_τ. The scale barely
+matters; the change of variable does. The pole masses miss 2/3 by **9.2 parts per million**, and
+moving to renormalized masses moves Q by **1763 parts per million** — so **the choice of mass
+definition is worth 191 times the deviation the sector reports.**
+
+Two things follow, and they pull in opposite directions.
+
+The first is that the pole-mass agreement is the whole phenomenon. A relation holding to nine
+parts per million in one set of variables while failing at the part-per-thousand level in an
+equally standard set is not a rounding accident: it says the pole masses are the ones the
+underlying structure refers to. That is a substantive claim about the mechanism, and the sector
+should make it rather than inherit it. Nothing here yet says why a condensate ring would organize
+on-shell masses instead of renormalized ones, so the sector's variables are at present chosen and
+not derived — the same gap that leaves the relation itself unexplained, now stated in the sector's
+own units instead of as a general worry about radiative corrections.
+
+The second is a bound on what the τ-mass measurement can buy. Q = 2/3 and arg f₁ = 2/9 demand
+slightly different τ masses — 1776.96903 MeV and 1776.96651 MeV, **2.518 keV apart** — and the
+referee programme stakes a discrimination on resolving that gap. The test is sound: both are
+pole-mass statements, the pole mass is what is measured, and 1.4 ppm separates them. But the gap
+is 1.42×10⁻⁷ in Q, while the change of variable above moves Q by 1.18×10⁻³ — **8270 times more.**
+A measurement at that precision can say which watch matches the data; on its own it cannot
+promote the winner's mechanism, because the same framework fixes a far larger number by
+convention and does not account for it.
+
+## The two watches cannot both be exact
+
+Taken together, A = √2 and arg f₁ = 2/9 leave the ring no freedom but its overall scale, so both
+charged-lepton mass ratios follow with no measured input at all. The lighter one is the test,
+because it is the best-known ratio in the sector:
+
+> **m_μ/m_e = 206.770316** predicted, against **206.768283 ± 4.5×10⁻⁶** measured
+
+That is a miss of **9.8 parts per million** on a ratio known to 22 parts per billion — **452σ**.
+The τ mass appears nowhere in it, so no future τ measurement bears on it in either direction.
+
+**At most one of A = √2 and arg f₁ = 2/9 holds exactly on the pole masses.** The other is an
+approximation to something not yet written down, and the sector's two headline numbers are
+therefore not both exact statements about the spectrum, whatever their status as statements about
+Q. This does not touch either watch taken alone: Q = 2/3 alone sits 0.91σ from the data and the
+closure alone sits 0.89σ from it, both comfortable. It is the conjunction that the light masses
+refuse, and the conjunction is what a complete account of the sector would have to deliver.
