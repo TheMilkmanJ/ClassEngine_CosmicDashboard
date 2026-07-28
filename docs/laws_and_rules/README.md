@@ -53,21 +53,21 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
     dark-matter property the model needs.
   - **Census refinement — "couple to what you're made of" (2026-07-10, internal review).**
     The *gravity-only* phrasing was OVER-STATED relative to the model's own content: the
-    varying-m_e **dyad has always been a non-gravitational coupling** to matter, so
+    varying-m_e **electron-coupled scalar has always been a non-gravitational coupling** to matter, so
     "gravity is the medium's ONLY coupling" was never strictly true. Refinement (sharpening
     interface/substance into one line): the medium couples to **(a) all energy
     gravitationally** [L1, unchanged] and **(b) its own substance sector
     non-gravitationally** — it is a lepton-mass / neutrino-sector scalar, so it may couple
     *within that sector*; it is NOT a gauge/EM field, so it may NOT reach EM. This ONE line
-    **consolidates two clauses**: dyad-legality and the L1a birefringence-null become the
+    **consolidates two clauses**: the electron-coupled scalar's legality and the L1a birefringence-null become the
     two sides of "couple within your sector; open no new interface to a sector you are not
     part of."
     - *internal review adjudication (internal review):* **PRINCIPLED to forbid** — correctly bars dark
       photon, dark chemistry, EM birefringence, and quark/baryon fifth force (NOT a
       loophole); and **breaks no prior verdict** (birefringence-null, gate-0, EP, BBN all
       intact).
-    - *HONEST CAP (internal review):* the rule does **not derive the dyad it legalizes.** "What the
-      medium is made of" is the NEUTRINO-mass sector (δm_ν, Weinberg LLHH); the dyad is
+    - *HONEST CAP (internal review):* the rule does **not derive the electron-coupled scalar it legalizes.** "What the
+      medium is made of" is the NEUTRINO-mass sector (δm_ν, Weinberg LLHH); the electron-coupled scalar is
       **δm_e** (charged-lepton Higgs-Yukawa L̄He — *quark-structured*, the internal review no-go). Read
       strictly the rule yields δm_ν, not δm_e; broadening "made of" to reach the charged-
       lepton mass **is** the un-derived leptophilia postulate. So the rule **renames** the
@@ -130,7 +130,7 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
 Law 3 makes the rules the amendable layer. Standard-physics precedent: the vacuum
 already runs α with probe scale (β = 2α²/3π). `[CORPUS: v5_dCDF:1188]`
 
-- **R1 — The m_e coupling (the dyad).** Masses ride the medium; recombination-era
+- **R1 — The m_e coupling (the electron-coupled scalar).** Masses ride the medium; recombination-era
   δm_e/m_e ≈ 1.24%. Corpus calls it literally **"one rules amendment (m_e)."**
   `[CORPUS: atlas:43]`
 - **R2 — Environmental screening.** The m_e shift is full in diffuse gas, screened
@@ -147,10 +147,10 @@ judgment in it, flagged per row.*
 
 | # | when | target | change | trigger | class |
 |---|------|--------|--------|---------|-------|
-| 1 | dyad era | **R1** added | ADD a rule: masses ride the medium (m_e coupling) | H₀ tension | clear amendment |
+| 1 | the era of the electron-coupled scalar | **R1** added | ADD a rule: masses ride the medium (m_e coupling) | H₀ tension | clear amendment |
 | 2 | §96 (2026-07-08) | **L1 / census** | BROADEN: coupling is gravity-only *after condensation*; a direct coupling is allowed while the medium is massless | the regime change | broaden (you called this the "broaden the other better") |
 | 3 | 2026-07-07 night | **L4** added | ADD an axiom: global conservation keeps totals, not local densities | gravitational self-energy strain | clear amendment |
-| 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav coupling + own-substance-sector); consolidates dyad-legality + L1a birefringence-null into one line | census-vs-dyad internal inconsistency (the dyad was always non-gravitational) | refine (internal review: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
+| 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav coupling + own-substance-sector); consolidates the electron-coupled scalar's legality + L1a birefringence-null into one line | an internal inconsistency between the census and the electron-coupled scalar (which was always non-gravitational) | refine (internal review: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
 | 5 | 2026-07-13 | **THE DEPTH LAW — TOTAL** | STRENGTHEN: the ramp presumption becomes total. Steps are ILLEGAL as inputs, assumptions, computational entries, and methods — everywhere, at every depth. A step is legal ONLY as the *output* of an exemption-clause theorem (quantized / topological / protected-zero), and every exempt step must still exhibit its ramp of approach (the integer locks through an anneal; the exact zero is approached by a thaw). Plain-language form: "the model is a genuine ramp from start to finish — no epoch instantly transfers to the next; they blend. From here on out, we only trust the ramp." | five review catches in one night (process errors 22–24 + the ramp-origin corollary's receipts); the mid-ramp-entry hazard formalized | strengthen (the birefringence-bet constitution survives inside it: integers may still step, but must earn it with a theorem AND show the approach) |
 | 5a | 2026-07-13 | **THE SNAG PROTOCOL** (the depth law's operating procedure) | PROCEDURE: every snag — any result that says "nope, not happening" — is presumed to be a missing ramp-before. On snag: add the ramp before it. If the verdict improves but does not resolve: add the next ramp before. Recurse until termination at (A) the right answer (into-budget), or (B) the CONFIDENTLY wrong answer — every origin walked, the failure lawful and certified (the model genuinely fails there, and the failure is bookable). No snag may be accepted at first contact; no snag may be walked forever — the two terminations are the only exits. Proof-of-concept on record: the 89-series (four ramps to termination-A) and the matter-only sign chain (walked to exhaustion, termination-B, both doors stated). | six review catches in one night, each finding the step one level above the stop | procedure under amendment 5 |
 | 5b | 2026-07-13 | **THE TRIAGE LAW** (how to read any result) | PROCEDURE, plain-language form: *"Every wrong answer is a ramp check. Every poor fit is a ramp check. Every perfect fit is a validation RAMP."* Wrong answers and poor fits are never verdicts at first contact — they trigger 5a (walk the ramp before). **And a perfect fit is not a trophy and not a single confirming step: it gets its OWN ramp walked**, because a fit can be perfect FOR an unwalked reason (an artifact at the origin, a degenerate basis, a hidden O(1) doing the work). Validation is a ramp, never a step — the amendment-5 discipline binds the model's successes exactly as hard as its failures. Corollary, learned at full price: **a verdict is itself a result and inherits the triage** — obituaries (process error 27) and reprieves (process error 28) both. | the G-closure day: a death certificate AND its reprieve, both issued on unwalked steps, hours apart, on the same question | procedure under amendment 5 |

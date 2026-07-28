@@ -8,8 +8,8 @@ varying-mₑ CMB fit prefers a higher baryon density than deuterium wants. Code:
 
 At BBN the condensate is not yet formed, so m_e = 1 and the model's nucleosynthesis is standard: the
 deuterium heal by varying-mₑ is excluded at 12σ, so the varying-mₑ shift acts only later, at
-recombination, and the abundances follow the standard relations in ω_b. The dyad is L-neutral and
-reaches the deuteron only at two loops, ~2×10⁴ times too weakly to touch it.
+recombination, and the abundances follow the standard relations in ω_b. The electron-coupled scalar
+is L-neutral and reaches the deuteron only at two loops, ~2×10⁴ times too weakly to touch it.
 
 ## The abundances
 

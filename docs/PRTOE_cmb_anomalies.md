@@ -122,7 +122,7 @@ exhausted by π₁ = ℤ. That π₁ is the winding and the vortex network the m
 erases circulation — the magnetic-memory argument); π₃ is the same fact one dimension up, and
 it says the model cannot make a texture at all. Scale closes the route independently: a
 texture's imprint is δT/T ≈ 8π(η/M_Pl)², so a cold-spot-class feature needs η ≈ 8×10¹⁵ GeV,
-while the model's highest symmetry-breaking scale is the dyad's f ≈ 100–500 TeV
+while the model's highest symmetry-breaking scale is the electron-coupled scalar's f ≈ 100–500 TeV
 ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) — eleven orders below, which is **4×10⁻²⁶ in δT/T,
 twenty orders under the sky's own 10⁻⁵**. Not un-computed; unavailable. The standard
 string-network route is separately booked as a null, the U(1) never having been restored

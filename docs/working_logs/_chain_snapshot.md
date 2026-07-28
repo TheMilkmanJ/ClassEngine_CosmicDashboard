@@ -100,3 +100,35 @@ chain carries the production-faithful D/H term); the letter's replacement H₀ s
 five-minute edit via `scripts/finalize_h0_at_convergence.py`, which refuses to print until both
 chains are under the bar; and the third sampler slot opens for the onset-identity rerun and the
 relaunched thaw-branch chain, both of which are launch-ready and currently capacity-blocked.
+
+## The BBN-fixed pair — 2026-07-28 01:00, and the projection re-fitted to the data
+
+The N = 1920 checkpoints have landed for both chains, and they do not extend the contraction
+the projection above was fitted to.
+
+| chain | N | R−1 | history | last block |
+|---|---|---|---|---|
+| `dyad_mnu_bbnfix` (the model) | 1920 | **1.0550** | 4.21 → 1.80 → 0.91 → **1.06** | 6.5 h |
+| `cmp_lcdm_mnu_bbnfix` (the ΛCDM twin) | 1920 | **2.8686** | 9.03 → 6.83 → 2.87, then flat | 4.7 h |
+
+**The model chain's statistic rose**, 0.9095 → 1.0550, so "halving each 384 steps" describes a
+phase the chain has left; the ΛCDM twin repeated 2.8686 exactly rather than contracting again.
+Both behaviours are ordinary — Gelman–Rubin is a ratio of variance estimates and wanders while
+the between-chain variance is still being explored — but neither supports an extrapolation
+built on a fixed contraction factor.
+
+Re-fitting on the two bracketing models the statistic is known to follow gives, to the
+R−1 < 0.05 bar:
+
+| chain | geometric fit (last 3 blocks) | R−1 ∝ 1/N | wall-clock bracket |
+|---|---|---|---|
+| `cmp_lcdm_mnu_bbnfix` | 2,700 more steps | 108,000 more steps | **48 h … 1,900 h** |
+| `dyad_mnu_bbnfix` | 4,400 more steps | 39,000 more steps | **87 h … 770 h** |
+
+The honest reading is the bracket, not either end: the geometric branch assumes the fast
+burn-in drain resumes, and the 1/N branch assumes it has already stopped. What the data
+support today is that **the near end of the bracket is now days, not the ~22–25 h the
+projection above quoted**, and the owner's standing ruling — the letter's H₀ waits days rather
+than hours — is the one that survives contact with these checkpoints. The pair is left running;
+`finalize_h0_at_convergence.py` still refuses to print until both are under the bar, so nothing
+downstream can be released early by mistake.

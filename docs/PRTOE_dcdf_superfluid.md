@@ -6,7 +6,7 @@
 *Identity file for the dCDF. Quantitative derivations live in
 [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
 [PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md); this file is what it is, not the
-derivation. It is one of three dark fields — the others are the dyad
+derivation. It is one of three dark fields — the others are the electron-coupled scalar
 ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) and the Majoron, which the one-scale corner's tie-death
 keeps distinct from it.*
 

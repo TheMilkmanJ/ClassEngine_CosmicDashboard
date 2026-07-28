@@ -34,7 +34,7 @@ thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (
 
 ## The dark fields (the pieces; identity files) — two carry identity files, the third is the Majoron
 - [THE dCDF — the superfluid piece](PRTOE_dcdf_superfluid.md) — s-wave-binding and baryon-free ("He-3-A missing its baryonic matter"), abundance+asymmetry carrier, light is its Goldstone; its handedness is the genesis winding's, not its pairing channel's (identity consolidation; grades inline)
-- [THE ELECTRON-COUPLED SCALAR — the gas piece](PRTOE_dyad_gas.md) — charge-free, couples the electron, varying-m_e binds hydrogen (the H₀ mechanism); leptophilic by data at 12σ rather than by lepton number. The **Majoron** is the third field, separate from that scalar since the one-scale corner went tie-dead, and it carries the neutrino tie ([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md))
+- [THE ELECTRON-COUPLED SCALAR — the thermal-sector field](PRTOE_dyad_gas.md) — charge-free, couples the electron, varying-m_e binds hydrogen (the H₀ mechanism); leptophilic by data at 12σ rather than by lepton number. The **Majoron** is the third field, separate from that scalar since the one-scale corner went tie-dead, and it carries the neutrino tie ([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md))
 
 ## Physics domains — content and natively ours
 hubble_tension · bbn_witness · deuterium_row · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
