@@ -4430,3 +4430,42 @@ linear coupling gives κ_Θ = −2ε/(1 + ε) = −2.478%, determined by the amp
 with nothing left to fit. The external test becomes a slope, δm_e/m_e = 0.384%·f in the
 residual-laminar fraction, i.e. a comparison between environments of differing development
 rather than between an absorber and the laboratory.
+
+### 2026-07-28 — the running jobs, forecast: one core, three CPU-bound processes, and a chain that cannot reach its own gate
+
+Checked the live MCMCs before doing more desk work, on the theory that a task waiting on a
+chain is worth knowing about. Four findings, and none of them is about physics.
+
+**The box has one core.** `nproc` = 1, load average 9.3. Three python jobs are each asking for
+100% of it: the two bbnfix chains and `bounce_m6_rebound_dst.py` from another session. Each
+therefore runs at roughly a third of its solo speed. Measured throughput is **18.6 and 16.9
+accepted samples per hour**, over 6.5 days of wall clock apiece.
+
+**Neither chain is multi-chain.** Both were launched as MPI singletons — an `orted` appears
+against each — but each writes one `.1.txt`, so the R−1 in the progress files is a within-chain
+split statistic rather than the between-chain Gelman–Rubin that `Rminus1_stop = 0.05` is
+calibrated for. That makes the forecast below optimistic rather than pessimistic.
+
+**`cmp_lcdm_mnu_bbnfix` cannot satisfy its own stopping rule.** At R−1 = 3.24 after 2890
+accepted samples, reaching 0.05 needs **7.5×10⁴ samples on the fitted exponent and 9.7×10⁶ on
+the asymptotic N^(−1/2)** — against `max_samples = 40000`, which it would not reach for another
+**83 days**. The cap binds first on either projection, so the run will stop unconverged. Its
+partner `dyad_mnu_bbnfix` is at R−1 = 1.055 and is the marginal case: 7.8×10³ on the fitted
+slope, 8.5×10⁵ asymptotically. The fitted slopes (−1.20 and −2.17) are steeper than −0.5 because
+both are still in the proposal-learning transient — eleven learn events so far — so the
+asymptotic column is the one to plan against, and on it neither arrives.
+
+Forecast tool: `scripts/chain_convergence_forecast.py`, which fits the trajectory and reports
+both projections against the cap and the throughput.
+
+**And the third job has produced nothing for seven hours.** `bounce_m6_rebound_dst.py` last
+wrote at 00:37 and has held a full core since, now in the refinement pair at grid ×1.5 and
+dt_max ×0.5 — roughly triple the cost of the coarse rows, each of which took 1.8–3.0M steps.
+Worth flagging to whoever owns it: the coarse pass it is refining **failed its own energy gate
+on every row**, drifting 24%, 119%, 217% and 391% against a declared tolerance of 2%, and all
+four rows are already marked unquotable. Refining a configuration that missed by 12–195× buys
+a more expensive number in the same bin.
+
+Nothing was stopped or restarted — the chains and the M6 run are live work and the call on
+whether to kill any of them is the owner's. What this entry supplies is the arithmetic to make
+that call with.
