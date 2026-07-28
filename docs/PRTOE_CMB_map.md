@@ -10,8 +10,9 @@ states, for each: (1) the physical mechanism that sources it, (2) how PRTOE acco
 for it, (3) the verdict. The model does **not** re-derive acoustic physics from
 scratch — nobody does; it inherits the Boltzmann treatment (via CLASS) and adds its two
 ingredients: the **dCDF fluid** (the charged rotating superfluid acting as dark matter →
-dark energy) and the **varying electron mass m_e** (the dyad's leptophilic coupling shifting
-recombination — it rides the lepton-number current, so quarks sit untouched). For each
+dark energy) and the **varying electron mass m_e** (the electron-coupled scalar's leptophilic
+coupling shifting recombination — quarks sit untouched, forced by the deuterium constraint
+rather than by a symmetry). For each
 spectrum the verdict is stated plainly: whether it is reproduced in the model's MCMC fit,
 inherited from the standard physics the model shares, left free and inflation-dependent as
 in ΛCDM, or forced to zero as a falsifiable kill-switch.
