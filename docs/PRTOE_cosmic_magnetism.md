@@ -112,18 +112,23 @@ the prior evenly at any tilt strength, confirmed to machine precision
 handedness is therefore not something this sector can predict** — not pending a computation, but
 forbidden by a symmetry the model's own content does not break.
 
-**What remains open is the correlation, and it has no instrument.** Whether θ̇ and n are locked
-requires one draw carrying both, and no solver in the corpus does: the genesis integration evolves
-the zero mode with no winding, and the winding average carries no time evolution. So this sector
-predicts a helicity sign **relative to the winding**, cannot say which handedness the matter universe
-corresponds to, and cannot yet say whether the relative lock exists either.
+**The correlation has since been computed, and it is negative.** Whether θ̇ and n are locked
+requires one draw carrying both; that joint draw was built and run (2026-07-20), and it finds the
+two signs **independent** — the joint correlation sits at −0.06 to +0.09 against a ±0.13 noise
+floor, a result forced by the same spatial parity that makes each sign separately a fair coin. So
+this sector predicts a helicity sign **relative to the winding**, cannot say which handedness the
+matter universe corresponds to, and now knows why: the relative lock does not exist, and its
+absence is a symmetry statement rather than a missing computation.
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in
  γ-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
  which is ALSO P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
-- A measured magnetic helicity of the WRONG sign relative to the baryon asymmetry's
- genome-sign kills the linkage outright (a clean falsifier no dial can dodge).
+- The falsifier that once stood here — a measured magnetic helicity of the wrong sign
+ relative to the baryon asymmetry's own sign — is **void, and by the model's own
+ computation**: the two signs are drawn independently at genesis, so no measured
+ correlation between them can confirm or kill anything. What survives as testable is the
+ helicity's sign *relative to the winding*, which is a different and narrower claim.
 - The coherence scale is not microscopic: the Kibble network sets ~100-Mpc-class comoving
  structure in the seed — distinctive against phase-transition mechanisms (which cannot reach
  such scales causally) and testable in principle in Faraday-rotation-measure correlation

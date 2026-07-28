@@ -731,8 +731,13 @@ and not the roster.**
   census imprint and the phase-slip quantization event as *separate adjacent links*. The
   quantization event **is** a freeze-out and keeps its criterion; the census imprint is not, and
   borrowing across that boundary is what produced the collision.
-  **What the basement owes, correctly typed: a mechanism holding ξ/ℓ_H constant at 3.45×10⁻³
-  (at R = 1) across the observed decades — and C follows from it.** The mechanism is a **defect-network
+  **What the constituent level owes, correctly typed: a mechanism holding ξ/ℓ_H constant at a fixed
+  fraction across the observed decades — and C follows from it.** The measured scaling ratio is
+  k_*ξ = 3.45×10⁻³ (at R = 1); the *mechanism's* forward target is the revised 2.21×10⁻⁴ once the
+  pivot-volume factor L\*² is computed rather than absorbed (the tilt-envelope derivation's
+  normalization triangle; the two are one object under two decompositions of A_s, and the branch
+  selection below survives the revision ×245 deeper into the overdamped regime).
+  The mechanism is a **defect-network
   scaling attractor** ([working_logs/census_scaling_mechanism.md](working_logs/census_scaling_mechanism.md),
   `scripts/census_scaling_network.py`): a vortex tangle in an expanding background flows from generic
   initial conditions to a self-similar regime in which the coherence length tracks the horizon,
