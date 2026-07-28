@@ -75,8 +75,14 @@ The floor is not a constant that matter happens to dilute past — the late era 
  derived), A_s (measured), and ρ_inf (the occupancy binding
  ½α_c²M₂ = 2.2599 meV) — **no dial whose job is the coincidence**. The residual honesty: the
  floor VALUE rests on the kernel-sourced τ (lattice-refereed, P-2026-048), on the portal
- √σ_dark = m_e, and on α_c = 3α; and the cyclic frame re-poses the question at the chain level (why THIS cycle? —
- answered by the bookkeeping's early-cycle lean, recorded). See
+ √σ_dark = m_e, and on α_c = 3α; and the cyclic frame re-poses the question at the chain level
+ (why THIS cycle?), **which this model does not answer**. The chain-level question is harder than
+ the era-level one it solves: the model accepts Tolman accumulation, so cycles lengthen, and an
+ observer-moment weighted by elapsed time falls preferentially *late* — under 7% of the chain's
+ time sits in the first cycle for linear growth, under 4% for geometric. Being early is therefore
+ the disfavoured option under the model's own bookkeeping, and the one standard repair is
+ anthropic, which [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md) §3 rejects on its own terms. The
+ era-level derivation below stands on its own; it does not reach the chain. See
  [PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
 
 ## 3. Falsifiable content
