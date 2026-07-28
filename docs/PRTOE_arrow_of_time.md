@@ -52,8 +52,9 @@ With the low start explained, the arrow itself is the model's graded free-energy
  inverts intuition: uniform = far from equilibrium = the full reservoir). This is
  the Penrose-standard reading.
 2. **The statement**: the Weyl tensor — gravitational entropy ~ C² (Penrose's hypothesis) —
- and the model's own dyad gate — the curvature-metered near-step, exp(−(C/C_ref)ⁿ) with n > 2.43 — **is the free-energy gauge**
- (a recorded formula acquires meaning). The medium literally meters the arrow.
+ and the model's own gate on the electron-coupled scalar — the curvature-metered near-step,
+ exp(−(C/C_ref)ⁿ) with n > 2.43 — **is the free-energy gauge** (a recorded formula acquires
+ meaning). The medium literally meters the arrow.
 3. **The flow**: dE = −p dV — the one exchange; internal exchanges conserve;
  only the matter–space exchange spends free energy.
 4. **The cost**: Landauer — every recorded event (decoherence event) pays its

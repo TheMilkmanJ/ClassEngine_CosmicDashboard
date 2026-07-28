@@ -61,7 +61,7 @@ c₂ = 4/(3·ln 2) demands q̃² = c₂/√3 = 1.11·m_e). Its named candidate s
 **dual-superconductor identity** — the chromo-string as a vortex of the dual condensate, so
 σ and the medium stiffness are one sector's numbers. *(Candidate-grade chain, stated for
 what it would deliver:)* if that identity lands 1.11, then c₂ is derived, and with it
-τ = Q/c₂ = ½ln2 — sourcing the flagship, which lands at +0.44% as an existence claim (its
+τ = Q/c₂ = ½ln2 — sourcing the headline result, which lands at +0.44% as an existence claim (its
 quartic sits past perturbative control), the kernel modulus, the Brannen phase,
 and the P-048 fork's kernel point in one stroke. None of that is claimed here; §2–3 stand
 alone.
@@ -142,11 +142,11 @@ denominator.**
 And the correction cannot be completed, which is the honest end of the route. Nothing in the
 corpus determines Λ_dark/√σ_dark independently — QCD's 1.434 is a transfer, not a derivation — so
 the NJL chain yields **f_dark/Λ_dark** and no value of f_dark/√σ at all. A second, independent
-reason it was never the same observable: that chain computes the **dyad's** condensate, while
-F_dark is the **confining SU(2) sector's** Goldstone decay constant, and the standing roster keeps
-those apart — §6 of [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) records the sector's two
-condensates, the diquark ⟨qq⟩ and the chiral ⟨q̄q⟩, and rules that *the electron-coupled scalar
-is neither of them*. Two sectors, two decay constants, one label.
+reason it was never the same observable: that chain computes the **electron-coupled scalar's**
+condensate, while F_dark is the **confining SU(2) sector's** Goldstone decay constant, and the
+standing roster keeps those apart — §6 of [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)
+records the sector's two condensates, the diquark ⟨qq⟩ and the chiral ⟨q̄q⟩, and rules that
+*the electron-coupled scalar is neither of them*. Two sectors, two decay constants, one label.
 
 **F_dark/√σ = 0.40–0.47 stands unopposed** as the referee target;
 the vortex-pair route is the corpus's only computation of it. What the audit removes is a rival

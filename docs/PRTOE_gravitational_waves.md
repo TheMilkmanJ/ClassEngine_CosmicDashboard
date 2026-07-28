@@ -47,9 +47,9 @@ consistent with silence — which costs the model nothing (the core sits deep).
 
 ## 4. The recorded collision retired honorably
 
-ANN-2026-010 (the ε-collision with PTA reach) remains the bookkept boundary: the medium's
+ANN-2026-010 (the ε-collision with PTA reach) remains the boundary on the record: the medium's
 strain-scale sits below PTA sensitivity — the GW sector neither rescues nor threatens the
-dyad. The model's GW record: one computed silence, one signed chirality, one deep prong, zero
+model. The model's GW record: one computed silence, one signed chirality, one deep prong, zero
 current tensions.
 
 ## 5. The lightswitch — the parity channel's biography and the SPLIT prediction

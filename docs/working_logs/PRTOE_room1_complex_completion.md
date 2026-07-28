@@ -1122,3 +1122,20 @@ relation is ELEVATED from structure to CANDIDATE OBSERVABLE (fourth
 distinctiveness axis: FDM has no condensation lag; a redshift-dependent
 core-halo normalization is dyad-specific). Sims-owed, same family as
 (ii).
+
+> **CONDITIONALITY ON Ψ₀ (2026-07-28).** The re-scope above puts the physical hierarchy at
+> h₀ ≈ 0.1 using a release amplitude Ψ₀ = 1.6×10¹⁶ GeV computed at 3H = m with ρ = m²Ψ².
+> The dedicated genesis solver's abundance closure records **Ψ₀ = 5.0×10¹⁶ GeV**, which — since
+> h = λΨ₀²/m² — puts the hierarchy at **h₀ ≈ 1.0** instead. Reproducing the difference:
+> releasing at H = m rather than 3H = m gives 3.6×10¹⁶ (h = 0.52), and a further ½ in the
+> energy density reaches 5.1×10¹⁶, matching the solver's number; but this room's own
+> basin-entry convention (ρ_x = m⁴/λ with Ψ₀ = m/√λ) implies no ½, so the two are not yet
+> reconciled and neither is adopted here.
+>
+> **What the dice say across both.** The grid was run at h ∈ {0.03, 0.1, 0.3, 1.0}, so it
+> spans the whole disputed range. **Zero quiet draws appear at any hierarchy or tilt**, so the
+> conclusion that the medium rings — and that the quiet branch does not exist at the physical
+> hierarchy — holds on either reading. What does *not* transfer is the sharpness: at h ≤ 0.3
+> the ensemble is tight (f_rot ∈ [0.01, 0.32]) and the granule contrast is pinned near ½; at
+> h = 1.0 it is broad (f_rot reaching 0.97) and the contrast is not pinned at all. The
+> granule meter's sharp target is therefore conditional on the lower reading.
