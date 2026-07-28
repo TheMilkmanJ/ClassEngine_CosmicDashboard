@@ -311,7 +311,9 @@ and it is the entire content of the constant:
   b ≡ m_D²/4k_F² = e²·(2N₀)/4k_F² = 2α_c/π = 0.0139369
 
 So k is derived rather than adopted — on a host this corpus mostly does not record, which the
-four conditions below name (three unmet, one supplied):
+four conditions below name. Three are unmet and one is supplied, but the count of *independent*
+asks is three rather than four: the last two act on the screening constant only through the ratio
+N/v, and the supplied one is what holds that ratio still:
 
   λ = N₀·⟨V⟩_FS = (α_c/π)·ln(1 + 1/b) = (α_c/π)·ln(1 + π/2α_c) ≡ k·α_c,  k = 1.36461191
 
@@ -402,6 +404,41 @@ silently, which is its own hazard:
    species-selective**, and §6c's condition (i) has to be read as supplying μ ≠ 0 to one
    electron-like and one hole-like species rather than to the bath. Nothing recorded selects
    that pair. The corpus describes no such band structure.
+
+**Conditions 3 and 4 are one condition.** Both act on the screening constant, and they act only
+through their ratio. Carrying the band velocity and the species count together,
+
+> b = m_D²/4k_F² = e²·(N·N₀)/4k_F² = **N·α_c/(πv)**
+
+so (N, v) = (2, 1), (4, 2) and (1, ½) return the same b, the same k = 1.36461191, and the same
+anchor to every digit. What §6c asks of the host is therefore a single relation, **N = 2v**, and
+supplying either half on its own reduces the debt by nothing.
+
+That changes what the velocity argument is worth. Read as an independent condition it looked like
+the cheap one of the four — a linear node is a cone whose slope defines the emergent light speed,
+so v = 1 arrives free. Read against the degeneracy it is load-bearing in a second way: **it is
+what stops N and v trading off**, and with it in hand the whole of the residue is the species
+count. The trade has no far end to escape into, which is the one piece of good news here — a host
+doping N = 4 would need v = 2, fermions outrunning the gauge field whose own speed defines the
+cone, so the degeneracy is not a loophole.
+
+**And the count has no room.** The anchor is exponential in the pairing coupling, so
+∂lnM/∂lnk = 1/(kα_c) = 33.47 turns the ratio into a narrow fence:
+
+| N/v | k | anchor, against the booked point |
+|---|---|---|
+| 1 | 1.58305 | ×101 |
+| **2** | **1.36461** | **×1** |
+| 3 | 1.23773 | ×0.032 |
+| 4 | 1.14832 | ×1.8×10⁻³ |
+| 24 | 0.61846 | ×2.9×10⁻¹⁸ |
+
+Between integers there is nothing: one band overshoots by two orders, three undershoots by one
+and a half. Continuously, the anchor holds within a factor of 2 for **N/v ∈ [1.82, 2.18]** and
+within an order of magnitude for [1.45, 2.65] — so about **±9%**, and at N = 2 that is the room
+the band velocity has: **v within 8.4% of the medium's gauge-field speed.** The requirement is
+therefore not a soft O(1) preference that a different host might shade; it is a percent-level
+condition on a ratio, with the integer part isolated and the continuous part fenced.
 
 So §6c is a conditional derivation, and its conditions are load-bearing. *If* the constituent
 level has a compensated two-band Fermi surface at finite chemical potential with Thomas–Fermi

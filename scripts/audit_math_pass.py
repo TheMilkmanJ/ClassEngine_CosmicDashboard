@@ -1774,6 +1774,44 @@ chk("koide scheme", "the two watches' separation, in Q", 1.421e-7, _dQdm*2.518e-
 chk("koide scheme", "the scheme shift is this many times that separation", 8270,
     abs(_Qbar - _Qpole)/(_dQdm*2.518e-3), 2e-2, "x")
 
+# --- #146: conditions 3 and 4 are one, and the ratio N/v is fenced (hierarchy 6c) ---
+# b = m_D^2/4k_F^2 with m_D^2 = e^2 N N_0, N_0 = k_F^2/(pi^2 v), e^2 = 4 pi alpha_c gives
+# b = N alpha_c/(pi v) -- a function of N/v alone, so the species count and the band velocity
+# are not separable asks. alpha_c is fixed by the booked b itself.
+_ACB = 0.0139369*math.pi/2
+_bNv = lambda N, v: N*_ACB/(math.pi*v)
+_kNv = lambda N, v: math.log(1 + 1/_bNv(N, v))/math.pi
+chk("#146 screening", "alpha_c implied by the booked b = 2 alpha_c/pi", 0.021892, _ACB, 1e-4)
+chk("#146 screening", "k at (N, v) = (2, 1) -- the booked value", 1.36461191, _kNv(2, 1), 1e-6)
+chk("#146 screening", "(N, v) = (4, 2) returns the same k (the degeneracy)", 0.0,
+    _kNv(4, 2) - _kNv(2, 1), 1e-12)
+chk("#146 screening", "(N, v) = (1, 0.5) returns it too", 0.0, _kNv(1, 0.5) - _kNv(2, 1), 1e-12)
+chk("#146 screening", "k at N = 1 (one band screening)", 1.58305, _kNv(1, 1), 1e-5)
+chk("#146 screening", "k at N = 24 (the roster as Dirac equivalents)", 0.61846, _kNv(24, 1), 1e-4)
+chk("#146 screening", "k at v = 0.9, N = 2", 1.3316, _kNv(2, 0.9), 1e-4)
+# The anchor is exponential in lambda = k alpha_c, so ln M carries -1/(k alpha_c).
+_dlnM = lambda N, v: 1/(1.36461191*_ACB) - 1/(_kNv(N, v)*_ACB)
+chk("#146 screening", "dlnM/dlnk = 1/(k alpha_c)", 33.47, 1/(1.36461191*_ACB), 1e-3)
+chk("#146 screening", "N = 1 moves the anchor by (booked 1.6e5 GeV vs ~1.57 TeV)", 101,
+    math.exp(_dlnM(1, 1)), 2e-2, "x")
+chk("#146 screening", "N = 3 moves the anchor by", 0.0323, math.exp(_dlnM(3, 1)), 1e-2, "x")
+chk("#146 screening", "N = 24 moves the anchor by", 2.9e-18, math.exp(_dlnM(24, 1)), 2e-2, "x")
+chk("#146 screening", "v = 0.9 moves the anchor by (booked 'about a factor two')", 2.28,
+    1/math.exp(_dlnM(2, 0.9)), 1e-2, "x")
+def _fence(_t, _lo, _hi):
+    _f = lambda x: _dlnM(x, 1.0) - _t
+    _fl = _f(_lo)
+    for _ in range(200):
+        _m = 0.5*(_lo + _hi)
+        if _fl*_f(_m) <= 0: _hi = _m
+        else: _lo, _fl = _m, _f(_m)
+    return 0.5*(_lo + _hi)
+chk("#146 screening", "fence on N/v, low end for factor-2 anchor accuracy", 1.8245,
+    _fence(math.log(2), 0.5, 2.0), 1e-3)
+chk("#146 screening", "fence on N/v, high end", 2.1845, _fence(-math.log(2), 2.0, 6.0), 1e-3)
+chk("#146 screening", "so v at N = 2 must sit within this fraction of 1", 0.084,
+    1 - 2/_fence(-math.log(2), 2.0, 6.0), 2e-2)
+
 # --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
 # 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.
 # The PAIRING density of states also depends on r: for congruent pockets the excitonic pair
