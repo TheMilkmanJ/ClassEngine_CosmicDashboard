@@ -1940,6 +1940,32 @@ exists"* to *"a source exists, is exact and scale-free, and overshoots by four"*
 different and more tractable statement. `scripts/coulomb_ring_stiffness_ratio.py`, five harness
 checks.
 
+**And the kernel sweep locates the ratio exactly (2026-07-28).** Coulomb was the wrong test — the
+corpus's own regime statement is that the family field's log coupling makes it *effectively 2D*,
+and two-dimensional defects are vortices. Sweeping the pair kernel on the same three-defect ring:
+
+| pair interaction | k_singlet | k_doublet | ratio |
+|---|---|---|---|
+| −log r (2D vortex) | 1 | **0** | — |
+| 1/r (Coulomb) | 2/√3 | 1/(4√3) | 8 |
+| 1/r² | 2 | 1/3 | 6 |
+| **r² (pair-harmonic)** | **6** | **3** | **2 — exactly** |
+
+Two exact results, both analytic. **The pair-harmonic kernel gives 2:1 with no approximation**:
+with x_k = R + d_k and cos 120° = −½, |r_i − r_j|² = x_i² + x_j² + x_i x_j, so the three pairs sum
+to U = (3/2)Σx_k² + ½(Σx_k)² and **H = 3I + J**, whose eigenvalues are 6 on the singlet and 3 on
+the doublet. The Hessian of a quadratic form is constant, so this holds at every R with no
+leading-order caveat — precisely the 2:1 the flat model's κ-confinement supplied and the curved
+host could not.
+
+**And the 2D vortex kernel leaves the doublet exactly flat** — k_doublet = 0, not merely small. A
+log-interacting ring confines its breathing mode and does not confine its shape mode at all, which
+is a sharper statement of the same failure the autopsy recorded as a 0.99 degeneracy.
+
+So the ratio is not exotic: one standard kernel delivers it identically. **What is owed is why the
+family ring's defects should interact pair-harmonically** rather than logarithmically, which is
+the question the host's geometry was supposed to answer and did not.
+
 **What dies with it:** the cascade-delivery chain end to end as this week built it — the pass-4
 "LIFE at estimate grade" (already downgraded through the passes), the per-irrep quota's exhibited
 deliverer, the nested-sharing mechanism AS DELIVERED, and the claim that A = √2 is derived from

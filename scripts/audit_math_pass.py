@@ -1295,6 +1295,50 @@ chk("coulomb ring", "and it is scale-free (R = 100 gives the same)", 8.0,
     _ring_ratio(100.0)[0]/_ring_ratio(100.0)[1], 1e-4)
 chk("coulomb ring", "against the 2:1 the R_c = M_c condition needs, an overshoot of", 4.0,
     (_ks/_kd)/2.0, 1e-4, "x")
+# The pair-HARMONIC kernel on the same ring gives the ratio exactly, and analytically:
+# |r_i - r_j|^2 = x_i^2 + x_j^2 + x_i x_j at 120 deg, so H = 3I + J with eigenvalues 6 and 3.
+def _harm(_R):
+    _h = _R*1e-5
+    _T = [2*math.pi*k/3 for k in range(3)]
+    def _E(_d):
+        _p = [((_R+_d[k])*math.cos(_T[k]), (_R+_d[k])*math.sin(_T[k])) for k in range(3)]
+        return sum((_p[i][0]-_p[j][0])**2 + (_p[i][1]-_p[j][1])**2
+                   for i, j in _it.combinations(range(3), 2))
+    _H = [[0.0]*3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            _a=[0.]*3; _b=[0.]*3; _c=[0.]*3; _e=[0.]*3
+            _a[i]+=_h; _a[j]+=_h; _b[i]+=_h; _b[j]-=_h
+            _c[i]-=_h; _c[j]+=_h; _e[i]-=_h; _e[j]-=_h
+            _H[i][j] = (_E(_a)-_E(_b)-_E(_c)+_E(_e))/(4*_h*_h)
+    _q = lambda v: sum(v[i]*_H[i][j]*v[j] for i in range(3) for j in range(3))
+    return _q([1/math.sqrt(3)]*3), _q([2/math.sqrt(6), -1/math.sqrt(6), -1/math.sqrt(6)])
+_hs, _hd = _harm(1.0)
+chk("harmonic ring", "singlet eigenvalue of H = 3I + J", 6.0, _hs, 1e-5)
+chk("harmonic ring", "doublet eigenvalue", 3.0, _hd, 1e-5)
+chk("harmonic ring", "ratio, exactly the 2:1 the condition names", 2.0, _hs/_hd, 1e-5)
+chk("harmonic ring", "and it is R-independent (quadratic form)", 2.0,
+    _harm(100.0)[0]/_harm(100.0)[1], 1e-4)
+# the log kernel leaves the doublet flat at quadratic order -- exactly zero, not merely small
+def _logd(_R):
+    _h = _R*1e-5
+    _T = [2*math.pi*k/3 for k in range(3)]
+    def _E(_d):
+        _p = [((_R+_d[k])*math.cos(_T[k]), (_R+_d[k])*math.sin(_T[k])) for k in range(3)]
+        return sum(-math.log(math.hypot(_p[i][0]-_p[j][0], _p[i][1]-_p[j][1]))
+                   for i, j in _it.combinations(range(3), 2))
+    _H = [[0.0]*3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            _a=[0.]*3; _b=[0.]*3; _c=[0.]*3; _e=[0.]*3
+            _a[i]+=_h; _a[j]+=_h; _b[i]+=_h; _b[j]-=_h
+            _c[i]-=_h; _c[j]+=_h; _e[i]-=_h; _e[j]-=_h
+            _H[i][j] = (_E(_a)-_E(_b)-_E(_c)+_E(_e))/(4*_h*_h)
+    _q = lambda v: sum(v[i]*_H[i][j]*v[j] for i in range(3) for j in range(3))
+    return _q([1/math.sqrt(3)]*3), _q([2/math.sqrt(6), -1/math.sqrt(6), -1/math.sqrt(6)])
+_ls, _ld = _logd(1.0)
+chk("log ring", "singlet stiffness of the 2D vortex kernel at R = 1", 1.0, _ls, 1e-4)
+chk("log ring", "its doublet stiffness is zero", 0.0, _ld, 1e-4)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
