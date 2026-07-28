@@ -15,7 +15,7 @@
 > It is an **existence** claim — that the chain
 > lands on the observed scale with nothing cosmological in it — and **not a precision** claim. The
 > composite quartic maps to λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY
-> correction is uncontrolled at this order on every reading: its formal size would be 5.2–9.2% on
+> correction is uncontrolled at this order on every reading: its formal size would be 5.4–9.8% on
 > ρ_Λ¼, while the next term of the same series is already larger. The agreement is therefore good to
 > the order the series can be trusted, and the two decimal places are not the claim.
 >

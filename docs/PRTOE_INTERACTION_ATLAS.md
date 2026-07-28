@@ -34,6 +34,7 @@ environment half, one interaction and one signature at a time.
 - **ν·x₀ = 6ρ_dust,0/(M_eff²M_Pl²)** — funded-floor amplitude × hierarchy
  = a product of measured quantities only. (Died with its parent source;
  the identity's method survives.)
+
 ## Structural theorems (derived, not assumed)
 - **Coupling taxonomy exhaustive at two derivatives**: contents-couplings
  dead, geometry-couplings reduce to dead, self-derivative = one term.
@@ -135,11 +136,11 @@ environment half, one interaction and one signature at a time.
  signatures; twelfth domain; the language holds.
  **Author's completion (same night): "information doesn't get
  destroyed, it just gets returned — too costly to shred, so reuse
- it."** Exact on all three clauses: Landauer's fee is a RELOCATION
- fee, not destruction (the bit is scrambled into the bath, never
+ it."** Exact on all three clauses: Landauer's cost is a RELOCATION
+ cost, not destruction (the bit is scrambled into the bath, never
  annihilated — unitarity forbids shredding outright); "reuse it" is
  REVERSIBLE COMPUTING (Bennett — un-compute instead of erase, evade
- the fee entirely; mandatory architecture of quantum computers); and
+ the cost entirely; mandatory architecture of quantum computers); and
  the cosmic case is the information-paradox resolution (Page-curve
  results ~2019–22): even evaporating black holes RETURN their
  records, scrambled but complete. The universe archives illegibly;
@@ -151,7 +152,7 @@ environment half, one interaction and one signature at a time.
  "reuse, don't shred" rule is MANDATORY architecture, not a
  choice); ALGORITHMS are choreographed interference (C4g: arrange
  phase accrual so wrong-answer branches cancel — Shor/Grover as
- interest-rate bookkeeping); MEASUREMENT is the single final posting
+ engineered phase bookkeeping); MEASUREMENT is the single final posting
  (algorithm design = Born-rule engineering); ERROR CORRECTION is the
  crown — syndrome measurements are engineered quantum-non-demolition
  interactions (C4h/QND class): they post records about the ERRORS
@@ -466,7 +467,7 @@ is its only coupling). Give it curvature and the product is determined:*
 | anything from the other three sectors | no interaction — the medium holds no EM, weak or strong charge | structural (all α/fifth-force nulls) |
 
 ## Whispers (patterns the model produces unprompted; below bet-grade, logged so they can be watched)
-- **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 burn;
+- **THE TABLETOP FROZEN-ELLIPTICITY TEST (2026-07-07 session;
  proposal-grade):** the frozen-ellipticity theorem (the ellipticity fraction —
  **a different quantity from the retired amplitude factor of the same name**, which
  the standing decomposition ε = c·f̄·α_c no longer contains; see
@@ -529,8 +530,8 @@ is its only coupling). Give it curvature and the product is determined:*
  lattice superfluid — Endres et al., Nature 487, 454 (2012)
  (softening at the quantum critical point; the effective relativistic
  two-component field theory is the minimal SSB model — the same EFT
- class as the medium). The room's falsifiable furniture exists in
- at least one laboratory universe.
+ class as the medium). The falsifiable pieces of this picture exist in
+ at least one laboratory analog.
 - **The eV/meV whisper (2026-07-07 evening):** the model keeps landing
  on sub-eV scales without being asked — M₂ = **9.43 eV** (= α²·T_c at the
  kernel-sourced T_c = 177.10 keV), the ~20 nm cutoff, the κ_v opening pass
@@ -912,7 +913,7 @@ is its only coupling). Give it curvature and the product is determined:*
  own radiation," not its own plasma. A gapped phase would also sit
  against P-2026-005's structural gaplessness. Phase: yes. Plasma: no.
 
-- **The asymmetric-dark-matter coincidence is NOT ours (same burn):**
+- **The asymmetric-dark-matter coincidence is NOT ours (same session):**
  ADM models explain Ω_DM ~ 5Ω_b by tying the dark asymmetry to the
  baryon asymmetry (similar number densities, GeV-ish dark mass). Our
  charge-to-entropy ratio is Y_Q ~ f_rot·ρ_DM/(m·s) ~ 10²¹ — THIRTY
@@ -920,7 +921,7 @@ is its only coupling). Give it curvature and the product is determined:*
  abundances; the 5:1 ratio stays an honest input (the abundance pin),
  not a clue we can cash. Null booked so nobody retro-fits it later.
 
-- **Gravitational waves from the chaotic genesis (same burn):** the
+- **Gravitational waves from the chaotic genesis (same session):** the
  birth orbit is chaotic, but the medium is a ~5×10⁻⁴ fraction of the
  total density at release (abundance pin), GW production scales as
  the fraction SQUARED, and the emission scale (~m at z ~ 10⁸)

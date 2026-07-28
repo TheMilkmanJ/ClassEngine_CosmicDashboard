@@ -187,7 +187,7 @@ $$\rho_\Lambda^{1/4} = \tfrac{1}{2}\alpha_c^2 M_2 = \tfrac{9}{2}\alpha^4\,\tau\,
   **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**. Nothing cosmological enters that chain;
   it descends from a lepton-mass fact measured to ten parts per million. **What that buys is
   existence, not precision:** the composite quartic maps to λ = 26–46, the whole band above the
-  control edge λ\* = 22.41, so the LHY correction is uncontrolled at this order — formally 5.2–9.2%
+  control edge λ\* = 22.41, so the LHY correction is uncontrolled at this order — formally 5.4–9.8%
   on ρ_Λ¼, with the next term of the series already larger. The chain lands on the scale; the two
   decimal places are not claimed. See
   [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
