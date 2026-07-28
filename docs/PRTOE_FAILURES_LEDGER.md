@@ -3544,3 +3544,39 @@ reopening price is specific rather than vague: a confirmed 5σ birefringence wou
 model to gauge its U(1) into a dark photon and open that portal, surrendering the census along
 with its MICROSCOPE-safety and flavour-blind constants.** That is not "the model dies" but "the
 model becomes a dark-photon-portal model" — a different theory, named in advance.
+
+### The eleven A = √2 mechanisms were one excluded class, not eleven ideas (2026-07-28)
+
+A pattern across the retirements above, found by applying two constraints that were derived long
+after them and independently of each other.
+
+**Constraint (A) — charge-coupled.** The neutrino triple cannot sit on the cone for any lightest
+mass: Q_ν rises monotonically to **0.585 as m₁ → 0**, short of 2/3 by 12.2%, so T6's "no m₁ brings
+it to 2/3" is a proof. From it T6 concludes the cone acts in the charged sector specifically. The
+basement reaches the same place from an unrelated direction — Thomas–Fermi weights carriers by
+charge squared, so a neutral cone is worth 2·N_c·q² = 0 and cannot be the doped pair.
+
+**Constraint (B) — exact, not balanced.** Q is held to ~10⁻⁵. Balances and equilibria come with
+fluctuations; the fluctuation here would need suppressing by four orders it has no reason to be.
+Exactness of that kind comes from a quantity that vanishes.
+
+**Applied to the retired list** — 2D-Potts seam, SOC attractor, medium-w inheritance, quartic
+virial, harmonic equipartition, CS midpoint, GBM/log gas, hand-built (R²−2M²)², Komar balance,
+topology/lock-6, natural Z₃ cubic:
+
+> **Eleven mechanisms. Zero reference electric charge. Zero rest on a vanishing quantity.**
+
+Every one was a charge-blind balance, which is exactly the conjunction (A) and (B) forbid. The
+autopsies above each found a specific fault — a category error, an inverted result, a false
+premise — and every one of those faults was true. What none of them saw is that the eleven share a
+property the answer cannot have, so the search space was excluded before any of them was proposed.
+
+**What the constraints name.** A charge-coupled quantity that vanishes identically — the shape of
+an anomaly-cancellation or index condition. The corpus already carries two of that shape for
+unrelated reasons: str[k₁] = 0 and ΣQ² = 16. **The first obstacle is visible too**: the three
+charged leptons all carry Q = −1, so ΣQ = −3 and ΣQ² = 3, and nothing vanishes over the seats
+alone. A mechanism must couple charge to something else that distinguishes them — and the family
+grading cannot serve, its Z₃ charge having been shown to commute with chirality.
+
+A direction, not a derivation. Filed here rather than forward because it is a finding *about the
+failures*: `scripts/null_mechanism_class_filter.py`, five harness checks.

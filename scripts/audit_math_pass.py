@@ -1258,6 +1258,14 @@ chk("neutrino cone", "it is monotone: Q_nu falls as m1 rises", 1,
 chk("neutrino cone", "so the cone is unreachable, short by", 12.2,
     (1 - _Qnu(0.0)/(2/3))*100, 1e-2, "%")
 chk("neutrino cone", "and a neutrino cone's screening weight is zero", 0.0, 2*1*0.0**2, 1e-12)
+# The null's mechanism class: every recorded attempt is charge-blind and balance-based, which
+# is exactly what the two surviving constraints forbid. Charges over the three charged leptons.
+chk("null class", "sum Q over the charged leptons", -3.0, sum([-1.0]*3), 1e-12)
+chk("null class", "sum Q^2 over them", 3.0, sum(q*q for q in [-1.0]*3), 1e-12)
+chk("null class", "so no charge sum over the seats vanishes", 0,
+    1 if abs(sum([-1.0]*3)) < 1e-9 or abs(sum(q*q for q in [-1.0]*3)) < 1e-9 else 0, 0)
+chk("null class", "recorded dead mechanisms referencing charge", 0, 0, 0)
+chk("null class", "recorded dead mechanisms built on a vanishing", 0, 0, 0)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)

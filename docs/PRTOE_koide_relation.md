@@ -263,6 +263,30 @@ kernel's own coordinates. Parseval gives Q = ⅓ + (2/3)|f₁/f₀|², so
 > eigenvalues (+1, −1, −1): a Lorentzian metric on family space whose light cone opens at exactly
 > 45° about the democratic direction (1,1,1).
 
+**Two constraints now bound that mechanism, and together they condemn every candidate tried so far
+as one class.** The first is *charge-coupling*: the neutrino triple cannot sit on the cone for any
+lightest mass — Q_ν rises monotonically to only **0.585 as m₁ → 0**, short of 2/3 by 12.2% — so
+whatever pins the cone acts in the charged sector specifically. The basement reaches the same
+conclusion independently, since Thomas–Fermi weights carriers by charge squared and a neutral cone
+is worth 2·N_c·q² = 0. The second is *exactness*: a quantity held to 10⁻⁵ is not held by a balance,
+because balances come with fluctuations that would need suppressing by four orders they have no
+reason to be.
+
+Set against the eleven recorded attempts — the 2D-Potts seam, the SOC attractor, medium-w
+inheritance, the quartic virial, harmonic equipartition, the CS midpoint, the log gas, the
+hand-built quartic, Komar balance, topology/lock-6, the Z₃ cubic — **not one references electric
+charge, and not one rests on a vanishing quantity.** Every failure was a charge-blind balance,
+which is precisely the conjunction the two constraints forbid. They were not eleven bad ideas but
+one excluded class explored eleven ways.
+
+What the constraints demand together is a **charge-coupled quantity that vanishes identically** —
+the shape of an anomaly-cancellation or index condition, and the corpus already carries two objects
+of that shape for unrelated reasons: str[k₁] = 0 and ΣQ² = 16 over the roster. The first obstacle
+is also already visible: the three charged leptons all carry Q = −1, so no charge sum over them
+vanishes on its own (ΣQ = −3, ΣQ² = 3), and a working mechanism must couple charge to something
+else that distinguishes the seats — which the family grading cannot supply, its Z₃ charge having
+been shown to commute with chirality.
+
 This is an exact rewriting and not yet a mechanism — it moves no number. What it does is name the
 class the mechanism must belong to, and rule out the class every candidate so far has come from.
 "Two sectors share power equally" invites a thermodynamic argument, and thermodynamics cannot
