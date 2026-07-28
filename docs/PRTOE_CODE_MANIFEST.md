@@ -2,7 +2,6 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-
 *The inclusion law: everything proven beneficial enters the pipeline; nothing killed ever does. This
 file is the single source of truth for implementation status — so every row states where a thing
 lives and whether it is actually running, checked against `ps` and the file timestamps rather than
@@ -18,11 +17,11 @@ expression).*
 |---|---|---|
 | The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | CLASS source: background.c | IN — the live .so, direct-eval verified (2798.7) |
 | THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
-| The dyad (varying m_e, the ramp through T_c) | CLASS source | IN |
+| The electron-coupled scalar (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
 | **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **NOT RUNNING** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
 | **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **NOT RUNNING — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
-| The evidence pair (sampled-ε dyad + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee KILLED mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
+| The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee KILLED mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
 | The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
 
 ## 2. ARMED — enters on its named trigger
@@ -73,11 +72,11 @@ tools, ordered by the chain:*
 |---|---|---|---|---|
 | B1 | **THE GENESIS SOLVER** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H₀ remainder | PROJECT — the queue's crown |
 | B2 | **the winding-gas C_V** (lock 2's method, string-gas import) | the medium's specific-heat scaling near T_c: does C_V ∝ R² emerge from the compact-axis windings? | the census drift (the tilt, thermodynamic road) + the lock-count C → THE A_s CLEARANCE | one careful session |
-| B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the basement does not record (§6m) — the audit is not superseded* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
+| B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the constituent theory does not record (§6m) — the audit is not superseded* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
 | B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (REHEARSAL, not the referee) | light — one evening |
 | B5 | **the μ-injection calculator** | μ(z_inject, efficiency) with the visibility ramp | the draw-branch discriminator (ξ vs 1/m) | small script |
-| B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee ("analysis-limited, data exists") | PROJECT — no longer queued behind a nested run |
-| B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 tether, the cycle-counter's sizing | PROJECT — shares B1's room |
+| B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee: analysis-limited, with the data already in hand | PROJECT — no longer queued behind a nested run |
+| B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 handoff, the cycle-counter's sizing | PROJECT — shares B1's room |
 
 *Execution order when the referee frees the box: B4 + B5 (light, immediate) → B2 + B3
 (the clearance pair — A_s hangs on them) → B1 (the crown: five pre-registered ambushes
@@ -109,9 +108,10 @@ stamp.
 **Priced by measurement.** Scanning T_c over 0.150–0.210 MeV through the production splice and
 fitting the slope gives ∂(D/H)/∂T_c = **+0.0898 ± 0.0328** per MeV, so the 1.9 eV move costs
 **−0.0036σ ± 0.0013** against the ±0.0476 width. The ε move 1.24% → 1.2543%, priced the same way
-over 0–2.5%, costs **+0.0035σ ± 0.0004**. The two carry opposite signs and near-equal magnitude, so
-**applying both together is −0.00005σ, zero to within ±0.0014σ** — the residual uncertainty is dominated by the T_c slope, whose 36% error bar is itself far below anything that matters here. The coded
-values stand until the pipeline is rebuilt for another reason.
+over 0–2.5%, costs **+0.0035σ ± 0.0004**. The two carry opposite signs and near-equal magnitude,
+so **applying both together is −0.00005σ, zero to within ±0.0014σ** — the residual uncertainty is
+dominated by the T_c slope, whose 36% error bar is itself far below anything that matters here.
+The coded values stand until the pipeline is rebuilt for another reason.
 
 The scan is the only sound way to price these. Both moves are ~0.007% effects on D/H, more than ten
 times below the solver's ~0.1% non-smoothness in its own inputs, so differencing a single pair of
@@ -121,13 +121,13 @@ too large in both cases. `scripts/prym_supersession_pricing.py` carries the scan
 **`varying_z_high` is set in no config anywhere**, and the C default is 0, which makes the
 `if (varconst_z_high > 0.)` branch never fire: **f_high = 1 at every redshift.**
 
-**Arming it would change nothing.** CLASS's varconst acts through **recombination (z ≈ 1100)**, where
-the model's own ramp is saturated to **f_high = 0.999999**. **The growth ramp cannot affect any CMB
-observable** — it is structurally unable to. Claims that the ramp is "now also in the CMB-side code"
-are true of the source and empty of consequence. *(It matters on the BBN side, where it is applied —
-by `scripts/prym_ramped_splice.py`, offline.)*
+**Arming it would change nothing.** CLASS's varconst acts through **recombination (z ≈ 1100)**,
+where the model's own ramp is saturated to **f_high = 0.999999**. **The growth ramp cannot affect
+any CMB observable** — it is structurally unable to. Claims that the ramp is "now also in the
+CMB-side code" are true of the source and empty of consequence. *(It matters on the BBN side,
+where it is applied — by `scripts/prym_ramped_splice.py`, offline.)*
 
-### 2. The BBN prior and YHe apply the dyad's ramp
+### 2. The BBN prior and YHe apply the electron-coupled scalar's ramp
 
 Both lambdas in the evidence configs carry the measured varying-m_e curve, so the model's own
 window (Y_p +0.85%, D/H +0.65%) reaches the likelihood and the YHe fed to `thermodynamics.c` is the
@@ -143,7 +143,6 @@ in both the `bbn` prior and the `YHe` value across `cmp_prtoe_*` and `pc_prtoe`.
 rather than ΛCDM, the BBN prior carries its own weight (χ² 0.31 → 1.31): the window's Y_p +0.85% and
 D/H +0.65% now enter the fit, and the helium fraction n_e ∝ (1−Y_p) is the model's, closing the
 few-per-mille damping-tail degeneracy with n_s and H₀.
-
 
 ## THE DIFF AGAINST VANILLA CLASS (2026-07-20)
 
@@ -170,10 +169,10 @@ difference from upstream is one `class_test` message gaining the failing conditi
 boundary section above states that the file consumes the varconst rescalings and contributes nothing
 of the model's; the diff confirms it.
 
-**The perturbation sector is real and integrated, which the project's own history can obscure.** For
-part of one day in July 2026 the dark fluid had declared perturbation infrastructure and no equations
-behind it, and that produced a plik TTTEEE χ² near 224 800. It was built the same evening, and the
-code carries it now: `perturbations.h:495-496` declares `index_pt_delta_dcdf` and
+**The perturbation sector is real and integrated, which the project's own history can obscure.**
+For part of one day in July 2026 the dark fluid had declared perturbation infrastructure and no
+equations behind it, and that produced a plik TTTEEE χ² near 224 800. It was built the same
+evening, and the code carries it now: `perturbations.h:495-496` declares `index_pt_delta_dcdf` and
 `index_pt_theta_dcdf` as **evolved** variables, `perturbations.c:3964` registers them in the
 integrated vector, `:5508-5509` sets adiabatic initial conditions in w_dcdf and cs2_dcdf, and
 `:8004`/`:8151` build the transfer sources from them. A fluid with a sound speed, in the hierarchy.
@@ -190,17 +189,17 @@ hierarchy) and the conversion is structurally the same problem: add the perturbe
 shed radiation a hierarchy sourced by the conversion, rerun. Its expected size is ≲10⁻⁴ on S₈
 against a ~0.012 error, and — decisively — **conversion is OFF in the headline evidence chains**
 (`cmp_prtoe_fixed`, `pc_prtoe`, `cmp_prtoe_zon_disp` all sample zero conversion parameters; it is on
-only in routeD / conv_desi), so this gap does not touch the dyad-vs-ΛCDM ΔlnZ verdict — it is owed
+only in routeD / conv_desi), so this gap does not touch the scalar-vs-ΛCDM ΔlnZ verdict — it is owed
 only before the S₈-easing sub-claim is published as a converged number.
 
-*A separate thing that travels under the same word, and must not be merged with it:* the m_e coupling
-itself is background-only by construction — `background_varconst_of_z` (`background.c:891`) is a pure
-function of redshift, and δm_e appears in no perturbation equation (`perturbations.c` uses the fixed
-CODATA `_m_e_`). That is not a gap: its spatial fluctuation is negligible for the linear fit
-(δm_e/m_e ≲ 10⁻⁷ against a 10⁻⁵ primary anisotropy — the coupling sits on its flat window plateau at
-recombination, and the physical trigger is uniformly off in the smooth pre-structure universe).
-Where δm_e is O(1) is inside virialised halos, which is the separately-booked 21-cm/small-scale
-prediction, not a linear-CMB omission.
+*A separate thing that travels under the same word, and must not be merged with it:* the m_e
+coupling itself is background-only by construction — `background_varconst_of_z`
+(`background.c:891`) is a pure function of redshift, and δm_e appears in no perturbation equation
+(`perturbations.c` uses the fixed CODATA `_m_e_`). That is not a gap: its spatial fluctuation is
+negligible for the linear fit (δm_e/m_e ≲ 10⁻⁷ against a 10⁻⁵ primary anisotropy — the coupling
+sits on its flat window plateau at recombination, and the physical trigger is uniformly off in the
+smooth pre-structure universe). Where δm_e is O(1) is inside virialised halos, which is the
+21-cm/small-scale prediction already on the record separately, not a linear-CMB omission.
 
 **Reproducing this: a naive `git diff` will report 64 files and ~44 700 lines, and that number is an
 artefact.** The bulk is line-ending churn — `tools/arrays.c` alone shows 3 613 insertions against

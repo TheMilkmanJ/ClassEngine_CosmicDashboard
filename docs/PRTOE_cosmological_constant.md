@@ -384,12 +384,10 @@ Where that lands. Every reading in the band sits **above** the control edge λ\*
 2.1×; √(na³) = 0.043–0.077, so it is series *control* that fails, not diluteness). The LHY term is
 therefore the wrong order to quote — its formal value would be ΔE/E_MF = 22–39%, hence
 Δρ_Λ¼/ρ_Λ¼ = 5.4–9.8%, while the next term of the same series is already larger.
-*(Coefficient note, added 2026-07-27 because this band invites a wrong "correction": the
-displayed closed form (8/15π²)·√α_c is 0.00800, and 0.00800 × λ would give 21–37%. The bands
-above use the **measured** coefficient 0.0084 — the leading closed form plus the O(α_c)
-relativistic term that the formula's own [1 + O(α_c)] announces — and 0.0084 × [26, 46] gives
-22–39%, quartered to 5.4–9.8%. The numbers are right as written; only the leading term is
-displayed.)* **So the λ gate and
+*(The bands use the measured coefficient **0.0084** — the leading closed form
+(8/15π²)·√α_c = 0.00800 plus the O(α_c) relativistic term the expression's own [1 + O(α_c)]
+carries — so 0.0084 × [26, 46] = 22–39%, quartered to 5.4–9.8%. The displayed closed form is
+the leading term only.)* **So the λ gate and
 the τ gate MERGE, and the merge is forced rather than marginal** — the composite quartic sits past
 where perturbative control ends, so the headline chain's radiative band needs the same
 non-perturbative SU(2) N_f = 3 treatment that owes τ. One lattice job gates both open numbers.

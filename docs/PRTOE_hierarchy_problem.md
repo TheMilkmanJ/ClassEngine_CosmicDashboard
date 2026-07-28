@@ -394,11 +394,8 @@ silently, which is its own hazard:
 
    That is arithmetically unforgiving. Generalising N_screen = N·N₀ gives b = Nα_c/πv and
    k = ln(1+1/b)/π, so N = 6 returns k = 1.024 and N = 25.5 (the roster as Dirac equivalents)
-   returns k = 0.602 — which move the anchor by 10⁻⁵ and 4×10⁻¹⁹ of its recorded value
-   respectively (the second figure corrected 2026-07-27: the same exponential that gives
-   1.5×10⁻⁵ at k = 1.024 gives 4×10⁻¹⁹ at k = 0.602, not the 10⁻¹² previously written; both
-   k values themselves reproduce exactly, and the conclusion — that either reading destroys
-   the anchor — is unchanged and strengthened).
+   returns k = 0.602 — which move the anchor to 10⁻⁵ and 4×10⁻¹⁹ of its recorded value
+   respectively. Either reading destroys the anchor.
    **The factor 2 is not an O(1) convention; it is a statement that the doping is
    species-selective**, and §6c's condition (i) has to be read as supplying μ ≠ 0 to one
    electron-like and one hole-like species rather than to the bath. Nothing recorded selects

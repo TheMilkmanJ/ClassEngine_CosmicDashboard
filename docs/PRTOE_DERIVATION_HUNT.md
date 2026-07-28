@@ -267,11 +267,9 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
 
 The confining sector that binds the dark energy is a **3-flavour, lepton-partnered confining
 vacuum at the electron scale** (√σ_dark ≈ m_e). It sets the dark-energy binding scale only — the
-dark matter remains the medium's own ultralight excitations. *(An earlier reading identified this
-sector's chiral condensate WITH the electron-coupled scalar; that identification is retired — §6
-records the scalar as neither of the confining sector's condensates but the separate
-high-decay-constant field of §8 item 1b, and its own exact thermal band excludes the confining
-scale. The two are distinct fields.)*
+dark matter remains the medium's own ultralight excitations. Its condensates are the diquark and
+the chiral condensate; the electron-coupled scalar is neither of them, being the separate
+high-decay-constant field of §8 item 1b (§6).
 
 > **The flavour count's supporting argument was withdrawn and replaced.** This section previously
 > read *"its three flavours supply the '3' in α_c = 3α"* — **retired**: that 3 is the spatial
@@ -485,12 +483,10 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > prediction addressed to a *lattice computation* rather than a telescope.
 >
 > **CANDIDATE, not yet on the record — one number decides it, and it is not yet computed.**
-> *The τ collision:* τ is now sourced by the Koide kernel — Parseval forces the kernel's modulus
-> to 1/√2 once Q = 2/3, giving τ = ½ln2 = 0.34657 (§2). It was formerly read off the band
-> T_c/√σ ≈ 0.34–0.37 of a **QCD-like (SU(3))** sector *(and 0.345 specifically is the observed ρ_Λ
-> inverted — see §2's re-grade; those two provenances were never the same claim)*, with SU(3) pure
-> glue at 0.63 excluded — and τ scales ρ_Λ¼ **linearly**, so the headline result's +0.44% rides on
-> it whichever provenance is read.
+> *The τ collision:* τ is sourced by the Koide kernel — Parseval forces the kernel's modulus
+> to 1/√2 once Q = 2/3, giving τ = ½ln2 = 0.34657 (§2). The lattice band T_c/√σ ≈ 0.34–0.37 for a
+> **QCD-like (SU(3))** sector is the independent check on it, with SU(3) pure glue at 0.63
+> excluded — and τ scales ρ_Λ¼ **linearly**, so the headline result's +0.44% rides on it.
 > Lattice anchors are firm for pure glue (**SU(3): 0.63; SU(2): 0.69–0.71**, ~11% higher), but
 > **no published T_c/√σ for SU(2) with N_f = 3 light flavours was located** — the two-color
 > literature is dominated by N_f = 2 at finite *density*. An independent adversarial analysis

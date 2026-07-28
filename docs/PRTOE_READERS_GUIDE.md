@@ -10,7 +10,7 @@ term, and gives the reading order.*
 > value, where it is *derived* (not merely quoted), what proves it, and its grade — plus a "what it
 > is NOT" column, because on 2026-07-20 two apparent contradictions turned out to be **two different
 > objects** rather than a disagreement. It also lists the quantities where no canonical value exists
-> yet, so none gets booked by accident.
+> yet, so none goes on the record by accident.
 
 ## 1. The model in five plain sentences
 
@@ -20,9 +20,9 @@ term, and gives the reading order.*
 2. The field's phase winds an integer number of times around one compact spatial
  direction; that single integer and its axis source all of the model's predicted sky
  anisotropies.
-3. A second field (the dyad) couples to leptons through exactly one number: a fractional
- shift of the electron mass, ε ≈ 1.24%, active in the early universe and switched off at
- late times by a screening transition.
+3. A second field (the electron-coupled scalar) couples to leptons through exactly one number: a
+ fractional shift of the electron mass, ε ≈ 1.24%, active in the early universe and switched off
+ at late times by a screening transition.
 4. That one shift, applied wherever atomic physics looks — recombination, BBN's later
  stages, 21cm rest frequencies, potentially supernova spectra in unscreened
  environments — is the source of every claimed signature; the same number must work
@@ -68,13 +68,13 @@ fixed here:
 | **ε** | the fractional electron-mass shift, 1.2543% — the model's one modification to known physics | everywhere |
 | **α_c** | the dCDF's condensate coupling, 3α | the amplitude, the vacuum, the hierarchy exponent |
 | **c**, **f̄** | the census fraction 9/10; the winding average 2/π | the amplitude's decomposition ε = c·f̄·α_c |
-| **τ** | T_c/m_e = **½ln2 = 0.34657** — the dyad's condensation temperature in electron-mass units, sourced by the Koide kernel through Parseval (T_c = 177.10 keV). *A superseded reading used 0.3503, which was the observed dark-energy density inverted and rounded* | the dark-energy chain |
+| **τ** | T_c/m_e = **½ln2 = 0.34657** — the electron-coupled scalar's condensation temperature in electron-mass units, sourced by the Koide kernel through Parseval (T_c = 177.10 keV). *A superseded reading used 0.3503, which was the observed dark-energy density inverted and rounded* | the dark-energy chain |
 | **ζ** | the genesis dilution T_dark/T_γ ∈ [0.25, 0.35] — the dark sector's temperature relative to the photons at genesis; sets ΔN_eff | the high-f configuration, the BBN books, the CMB-S4 falsifier |
 | **ξ** | a *length*: the medium's coherence length. Bare ξ = 402 AU is the coherence hinge in the scale ladder; **ξ_K** = 256 Mpc is the Kibble domain size | the scale ladder, the vortex network, magnetogenesis |
 | **ξ_H** | the non-minimal curvature coupling of a scalar (the standard gravitational meaning, as in the weight 1/6 − ξ) — unrelated to the lengths above | the induced-G sector, P-2026-045 |
 | **n** | the genesis winding integer, n ≳ 1.65 (a band of 10–30 only for a torus far above its floor) — the one topological draw | the comb, the helicity sign, the matter asymmetry |
 | **L**, **χ_\*** | the torus's compactification scale (≥ 27.6 Gpc); the comoving distance to last scattering (13.76 Gpc) | the low-ℓ sky, the winding comb |
-| **f** | the dyad's decay constant, ~100–500 TeV | the dyad sector, the portal |
+| **f** | the electron-coupled scalar's decay constant, ~100–500 TeV | the scalar's sector, the portal |
 | **ς** (final sigma) | the sign in the H₀-ceiling formula, read off the supernova colour channel — **ς = −1** (estimate grade, robust; the H₀-lever branch is dead and the bracket collapses to 70.9–71.3) | the candle room |
 
 *Retired-era documents may use these letters differently; each such file carries its own banner.*
@@ -107,14 +107,14 @@ fixed here:
   to a few TeV is derived end to end — the pairing channel, the screening constant, the measure,
   the shell cutoff — but its *precision* is a factor of a few: **0.55 to 1.78 TeV** (first sized
   at 1–8 TeV; the vertex correction and its self-energy companion have since been computed, both
-  downward), not four significant
-  figures. The exponent amplifies every O(1) thirty-threefold. Agreement quoted to better than that
-  is a coincidence of convention, and the corpus says so where it arises.
+  downward), not four significant figures. The exponent amplifies every O(1) thirty-threefold.
+  Agreement quoted to better than that is a coincidence of convention, and the corpus says so
+  where it arises.
 - **The count k in that chain is derived exactly, on a host this corpus does not record.** The
   reconstruction is exact and independently confirmed, but it assumes a Fermi surface at finite
-  chemical potential with two velocity-matched bands, where the recorded basement is a Fermi point
-  at zero chemical potential. That is evidence *for* those conditions rather than a derivation
-  *from* recorded structure, and it is the hierarchy chain's largest open exposure.
+  chemical potential with two velocity-matched bands, where the recorded constituent level is a
+  Fermi point at zero chemical potential. That is evidence *for* those conditions rather than a
+  derivation *from* recorded structure, and it is the hierarchy chain's largest open exposure.
 - **The chirality family cannot name which handedness means matter, and that is settled rather
   than pending.** The sector predicts a magnetic-helicity sign *relative to* the genesis winding;
   it cannot predict the absolute sign, because the genesis draw generates rotation with no

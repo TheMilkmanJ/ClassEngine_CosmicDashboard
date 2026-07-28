@@ -6,8 +6,8 @@
 > **READING RULE — this is a WORKING DOCKET, not a reader-facing result file.** Its headline
 > target (deriving **c**) is **CLOSED**, by a route this docket never took. The step-log below is
 > that era's record and uses that era's working equation, **ε = c·f_amp·(Ψ₀/M_red)** — a
-> **retired** decomposition. Nothing below is current unless [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)
-> also says it.
+> **retired** decomposition. Nothing below is current unless
+> [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) also says it.
 
 *Home for the Ψ-identity question: committing to what Ψ IS fundamentally. Steps 1–9 are the
 2026-07-08 climb.*
@@ -63,8 +63,8 @@ holds, maximally."
 c forced-vs-dial — is settled the other way: c = 9/10 is a counting assumption the data confirms,
 not forced by the framework, since no single census criterion returns it (#126); the loop's own
 margin remains the unfinished half — how saturated the ceiling is); the environmental Θ-switch that
-gates WHERE m_e shifts is separate (sim-gated: the granule sim). Also owed: why the explicit breaking lands
-the mass at ~2×10⁻²⁰ eV exactly (the Coleman-Weinberg / shift-breaking structure).
+gates WHERE m_e shifts is separate (sim-gated: the granule sim). Also owed: why the explicit
+breaking lands the mass at ~2×10⁻²⁰ eV exactly (the Coleman–Weinberg / shift-breaking structure).
 
 ## Step 2 (2026-07-08) — attacking the two residuals
 
@@ -73,7 +73,8 @@ the mass at ~2×10⁻²⁰ eV exactly (the Coleman-Weinberg / shift-breaking str
  trace anomaly breaks it by each species' anomalous dimension. Electron (QED):
  gamma_me = 3 α/(2pi) = 0.0035 = **0.35%**. So **c_e ~ 1.00 to sub-percent** (the
  electron sets the CMB amplitude). Hadrons ~few-10% (QCD). Predicts a tiny residual
- varying-constant flavor-dependence -- anomaly-level only (no multiplicative flavor factor exists in the model).
+ varying-constant flavor-dependence — anomaly-level only (no multiplicative flavor factor
+ exists in the model).
 - **1b Overall normalization (HARD WALL):** how saturated the gravitational ceiling is =
  a UV threshold-matching calc, not shortcuttable. c_e = 1 - (matching, sub-% to few-%).
  Honest prediction: **c ~ 1.00**; measured 0.93+-0.38 consistent (offset within
@@ -176,8 +177,8 @@ Can we extract DM's ceiling/floor and DE's floor from the current regime + H? So
 - **DE-takeover rate (FIELD w: 0→-1, the floor's DYNAMICS):** ONLY measurable if w is
  evolving (thawing / B-branch). This is the one NEW number the current transition offers.
 - **DM ceiling (peak density at condensation):** an EARLY quantity, NOT from the late
- transition -- but already pinned via m~2×10⁻²⁰ & Psi0~5×10¹⁶ (abundance/amplitude door). Or via
- the untested late-templates-early universality.
+ transition — but already pinned via m~2×10⁻²⁰ & Ψ₀~5×10¹⁶ (the abundance/amplitude
+ reading). Or via the untested late-templates-early universality.
 
 **Bracket filled:** ceiling (pinned m,Psi0) / floor=DE-floor (Ω_Λ now) / density-rate
 (now) all in hand; the field freeze-rate is the lone future number, = DESI w(z) IF thawing.
@@ -243,7 +244,8 @@ Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/pla
  claimed from this chain.)
 
 **DEBATE -- can we use it for the neutrino-funded floor (piece 3 thread)? VERDICT: NO.**
-- FOR: upper limit ~0.13 eV is CONSISTENT with meV-scale masses the floor would need; thread not killed.
+- FOR: upper limit ~0.13 eV is CONSISTENT with meV-scale masses the floor would need; the
+ thread is not killed.
 - AGAINST (wins): it's a BOUND not a DETECTION -- the MaVaN-floor needs the neutrino mass to SET
  ρ_Λ~m_ν⁴, and a bound gives no mass to build from. Consistent ≠ confirming. Using
  "Σm_ν<0.13 ⇒ floor is neutrino-funded" would over-read a non-exclusion as a confirmation.
@@ -274,7 +276,7 @@ phase carries the FULL protecting conformal symmetry (not just a traceless T at 
 the naturalness ceiling). The conformal symmetry is only APPROXIMATE (broken by m, Psi0), so c
 is protected NEAR the origin and runs away from it -- by how much is uncomputed.
 
-## ASSUMPTION (explicitly fenced — NOT a derivation; **DEAD with #17**): gravity self-clumping to the c=1 attractor
+## ASSUMPTION: gravity self-clumping to the c=1 attractor — NOT a derivation, **DEAD with #17**
 
 **The assumption, stated plainly.** Gravity is the one force that sources itself — its own
 energy gravitates, which is *why* Einstein's equations are nonlinear. We can therefore *assume*
@@ -288,17 +290,17 @@ supplies the journey; the fixed point supplies the stop.
 **The math that follows (ILLUSTRATIVE ANSATZ — makeable only in this limited form).** A coupling
 flowing to an attractive fixed point at c=1 obeys, schematically,
 
- dc/dN = -β(c), β(1) = 0, β'(1) > 0 (c=1 is attractive)
+ dc/dN = −β(c), β(1) = 0, β′(1) > 0 (c = 1 is attractive)
 
-Linearizing β(c) = γ (c - 1):
+Linearizing β(c) = γ(c − 1):
 
- c(N) = 1 - (1 - c_i) e^{-γ N} → 1 as N → infinity
+ c(N) = 1 − (1 − c_i)·exp(−γN) → 1 as N → ∞
 
-With a diffuse start c_i ≈ 0: c(N) = 1 - e^{-γ N} (rises from ~0 toward 1 — "the clumping").
+With a diffuse start c_i ≈ 0: c(N) = 1 − exp(−γN) (rises from ~0 toward 1 — "the clumping").
 Then, as the medium leaves the conformal regime (w: 1/3 → 0 → -1) and conformal symmetry breaks,
 the fixed point drifts and c runs slightly ABOVE 1 — consistent with the result c in [1.0, 1.9].
 
-**THE CATCH (why this is fenced as an assumption, not booked as a result).**
+**THE CATCH (why this is fenced as an assumption, not placed on the record as a result).**
  1. γ (flow rate), N (the flow parameter — e-folds? a clumping measure? undefined), and c_i are
  ALL undetermined. The equation illustrates the STRUCTURE of the assumption; it derives no number.
  2. The attractor at c=1 is INPUT from the conformal-fixed-point hypothesis — it is not produced by
@@ -310,15 +312,15 @@ the fixed point drifts and c runs slightly ABOVE 1 — consistent with the resul
  4. What IS testable lives in #17, NOT here: whether the w=1/3 phase actually attracts/protects c to
  1, and how c runs afterward. The clumping ORIGIN story is the *why-it-feels-right*, not the proof.
 
-## #17 — the gate-0 radiation-phase escape: what sets the dyad's condensation temperature
+## #17 — the gate-0 radiation-phase escape: the electron-coupled scalar's condensation temperature
 
-The escape needs the dyad condensate DISORDERED at BBN (T ~ MeV) and CONDENSED at recombination
+The escape needs that scalar's condensate DISORDERED at BBN (T ~ MeV) and CONDENSED at recombination
 (T ~ eV) — a condensation temperature **T_c ∈ (0.26 eV, 1 MeV)**, anywhere in the keV decade. An
 early objection closed it by asserting T_c ~ VEV ~ soft mass ~ TeV, condensed already at BBN and
 therefore loud; that reading took the naive ghost-condensate scale M ~ VEV.
 
 **The escape does not ride on a scale estimate, because the sector computes the transition
-directly.** The dyad condenses when the electron plasma's thermal mass stops holding the symmetric
+directly.** The scalar condenses when the electron plasma's thermal mass stops holding the symmetric
 point against the electron loop's own tachyonic curvature — and both terms are first order in
 κ = ε/f², so **the coupling cancels between them and the decay constant never enters**
 ([PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md), the high-f operating point). What is
@@ -337,13 +339,13 @@ every one of them lands inside the escape window:
 | the ramp-timing relation across the whole adopted f window | **130–940 keV** over f = 100–500 TeV | MATH_SPINE §4's C_T(T_c) = 2λ_dyad·f², at the recorded λ_dyad |
 
 *(Rows one and two are two objects, not one: the first is the SU(2) sector's portal-anchored
-confinement scale, the second the dyad's own restoration temperature, and
+confinement scale, the second the scalar's own restoration temperature, and
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 keeps them distinct — they coincide only in
 decade, not in value. **Rows two and three intersect on 307–714 keV, which excludes row one**, so
-the dyad's own physics does not reach the temperature its own order parameter's ramp is keyed to.
-**The escape does not need them resolved**, because it asks only which decade the dyad's transition
-sits in, and every row answers the same decade; the **BBN ramp does** need them resolved, because
-53% of the intersection sits above the fence's 500 keV — see MATH_SPINE §4.)*
+the scalar's own physics does not reach the temperature its own order parameter's ramp is keyed to.
+**The escape does not need them resolved**, because it asks only which decade that scalar's
+transition sits in, and every row answers the same decade; the **BBN ramp does** need them
+resolved, because 53% of the intersection sits above the fence's 500 keV — see MATH_SPINE §4.)*
 
 Only the third row carries any f-dependence at all, and it carries it only because λ_dyad is held
 at its recorded value while f moves. Held instead at its own defining expression,
@@ -353,7 +355,7 @@ not at its top.
 
 **And BBN fences T_c more tightly than the escape does.** The deuterium bottleneck below (~70 keV,
 beneath which the ramp stamps nothing at the bottleneck) and the weak-rate window above (~500 keV,
-above which the dyad reaches n/p freeze-out and helium moves) give **[70, 500] keV**, with
+above which the scalar reaches n/p freeze-out and helium moves) give **[70, 500] keV**, with
 177.10 keV interior by 2.5× and 2.8×, and a whole-range swing of at most 0.32σ on D/H. Anything
 that clears the BBN fence clears the escape window several times over.
 

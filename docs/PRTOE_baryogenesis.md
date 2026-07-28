@@ -3,10 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> The framework's one true calculation was carried out on 2026-07-19, and two later passes have
-> since moved it (2026-07-27): the boundary verdict below is **superseded**, and the rectification
-> mechanism — which four separate results depend on — now has a selected class and one owed
-> number. See "What the later passes changed" at the end of this section. Full record:
+> The framework's one true calculation stands, and the rectification mechanism it turns on —
+> which four separate results depend on — now has a selected class and one owed number. Full
+> record:
 > [working_logs/the_transfer_integral_spec.md](working_logs/the_transfer_integral_spec.md).
 > Un-refereed portions from the review-hold are marked.
 
@@ -73,22 +72,15 @@ recorded junction template): I_L ∝ μ sin Δθ.
  the sharpest outstanding computation in the sector and is tracked on the project's task board
  rather than here.
 
-### What the later passes changed (2026-07-27)
+### What carries the transmission
 
-Two further passes moved the picture above, and both moved it toward a sharper statement
-rather than a softer one.
+**A symmetric junction transfers nothing across a monotonic winding.** Carrying the weighted
+integral through the measured sphaleron shutoff — with the smooth envelope every physical
+feature of that shutoff has — a junction whose current–phase relation is symmetric under
+θ → −θ transfers exponentially little. The *entire* transmission, not a factor multiplying it,
+therefore rides on the junction's own breaking of that symmetry.
 
-**The boundary verdict is withdrawn — the symmetric junction transfers nothing.** Carrying the
-weighted integral through the measured sphaleron shutoff, rather than estimating it at the
-window's edge, shows that the naive ratio R = H/θ̇ was itself an artifact of where the
-integration window was cut: with a smooth envelope — and every physical feature of the shutoff
-is smooth — a junction whose current–phase relation is symmetric under θ → −θ transfers
-exponentially little across a monotonic winding. The factor-122 reading, and the "at the
-acceptance boundary" verdict it supported, do not survive that correction. What replaces them
-is stronger: the *entire* transmission, not a factor multiplying it, rides on the junction's
-own breaking of that symmetry.
-
-**The mechanism class is now selected, by elimination.** Three classes can make a wound
+**The mechanism class is selected, by elimination.** Three classes can make a wound
 junction pass net charge, and recorded inputs price all three: a dissipative bias through
 lepton-number-violating rates falls twenty-six orders short; a static asymmetric
 current–phase relation is capped by the same adiabatic argument above and falls two orders

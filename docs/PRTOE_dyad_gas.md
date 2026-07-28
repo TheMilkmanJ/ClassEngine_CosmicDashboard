@@ -46,19 +46,13 @@ transition temperature into a two-parameter family
 ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4). The ramp is keyed at **T_c = 177.10 keV** —
 the kernel-sourced value (τ = ½ln2 through Parseval),
 lattice-refereed at P-2026-048; the coded pipeline still runs the earlier 179 keV, a
-difference priced at 0.002σ on D/H ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)). *(That
+difference priced at 0.002σ on D/H ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)). That
 keying value is the confining sector's scale rather than this field's own restoration temperature,
 which the exact thermal kernel puts at **307–714 keV** — a band that **excludes** the keying value
 by 1.73× at its bottom, so the two are **not one object**, consistent with
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §6 ruling this field neither of the confining
-sector's condensates. The ≤ 0.32σ whole-fence swing that made this look costless is stated on
-[70, 500] keV, and **53% of this field's own band lies above that fence**, where the field reaches
-n/p freeze-out. **That re-keying has since been priced and it fails** (2026-07-27): running the
-production abundance pipeline with the ramp keyed on this field's own band moves helium-4 by
-+0.50σ at the band's bottom to +1.37σ at its top, with deuterium adding up to +0.79σ, against a
-0.32σ fence — so the abundances themselves pin the ramp's onset to the confining sector's scale,
-and the two remain distinct objects by measurement rather than by assumption
-([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).)*
+sector's condensates. **The keying is enforced by measurement, not convention:** the primordial
+abundances themselves pin the ramp's onset to the confining sector's scale near 177 keV.
 
 *(A note on the file's "gas" label: it is a role name, not a phase claim — this field's
 **complementary role** to the dCDF superfluid, the hot/thermal/lepton-binding side against the

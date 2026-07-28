@@ -41,9 +41,9 @@ and it is *cheap*. (This coupling will be force-closed in Act 4.)
 The electron-coupled scalar condenses mid-window (T_c = 177.10 keV, z ≈ 7.5×10⁸ — between n/p
 freeze-out and the deuterium bottleneck), and its order parameter is a ramp, not a switch:
  **ε(T) = ε·(1 − T/T_c)** → stamps 0.60ε at the deuterium bottleneck, 0.77ε at lithium
- *(this linear form is the one the production pipeline runs; the exact thermal kernel is
- steeper near the transition, reaching half amplitude at ≈ 0.86 T_c rather than 0.5 T_c —
- see the mechanism file. The epoch stamps above are computed on the coded linear ramp.)*
+ (the linear form the production pipeline runs; the exact thermal kernel is steeper near the
+ transition, reaching half amplitude at ≈ 0.86 T_c — see
+ [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md))
  The window's own nuclear physics helps deuterium (+0.645%, worth +0.27σ) and the pattern
  is windowed: Y_p +0.85%. The row it cannot fix is carried openly — **D/H = 2.387×10⁻⁵,
  −2.94σ**, with the lever census closed and no healer available to the scalar
@@ -64,10 +64,8 @@ order parameter |Ψ| forms; thereafter it dilutes as dark matter.
 ## ACT 5 — Recombination (z ~ 1100): the electron-mass shift (the headline result)
 The electron-coupled scalar shifts the charged-lepton mass; quarks sit untouched, and what
 forces that is data rather than a symmetry — a flavour-blind shift would be excluded at
-+12–18σ through deuterium's binding. *(This passage formerly identified the scalar with the
-Majoron. That merged single-scale reading is retired — it fails on the neutrino tie — which is
-why the sector carries three dark fields rather than two: the dCDF superfluid, this scalar, and
-the Majoron as a separate field.)* At
++12–18σ through deuterium's binding. It is a separate field from the Majoron: the sector
+carries three dark fields — the dCDF superfluid, this scalar, and the Majoron. At
 recombination the electron is the whole story:
  **ε ≡ δm_e/m_e = c·f̄·α_c = 27α/5π = 1.2543%**
  c = 9/10 (the census count, (N−1)/N)
