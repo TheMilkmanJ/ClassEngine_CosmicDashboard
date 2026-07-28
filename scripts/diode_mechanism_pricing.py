@@ -1,5 +1,20 @@
 """diode_mechanism_pricing — #39/#104 stage 7: the rectifier's mechanism classes, each priced from recorded inputs (2026-07-27).
 
+SUPERSEDED ON CLASS B'S PARAMETERISATION (stage 8, 2026-07-28) — READ FIRST.
+  The ELIMINATION below stands: classes A and C are dead by 26 and 2.1
+  orders, and class B is the survivor.  What does NOT stand is class B's
+  efficiency as written here, R_B ~ (m1/thetadot)*F.
+  `scripts/kapitza_junction_response.py` performs the owed averaging and
+  returns  R_B = omega_J^2 / (2*Gamma_phi*thetadot), with no m1 in it.
+  The reason: for an OVERDAMPED coordinate — and class B's own premise is
+  that the bath overdamps by ~1e7 — a pinning term enters as the
+  relaxation rate m1^2/Gamma_phi = 9.4e-16 eV, not as the frequency m1.
+  Comparing m1 to thetadot is what an undamped phase would do.
+  Consequence: the m1/thetadot = 3.8e-5 watch is NOT earned, the F
+  needed below is not a meaningful O(1) target, and the number the sector
+  actually owes is the seat coupling's junction plasma frequency
+  omega_J ~ 5.7 keV at T_sph.  Take class B's efficiency from stage 8.
+
 WHAT STAGE 6 LEFT
   The symmetric junction is adiabatically null; the whole transmission
   rides the junction's θ → −θ symmetry breaking.  The needed efficiency:
@@ -86,16 +101,25 @@ def main() -> None:
 
     print("\nVERDICT:")
     print("   THE MECHANISM CLASS IS SELECTED BY ELIMINATION, at candidate-")
-    print("   mechanism grade: the rectifier is the Kapitza-pinned (driven")
-    print("   overdamped) junction — the only class of the three that recorded")
-    print("   inputs do not kill — and it EARNS the m₁/θ̇ watch as its leading")
-    print("   factor, with F = 1.33 needed where the class predicts O(1).")
-    print("   NOT claimed: F's derived value. The kill stands pre-committed:")
-    print("   a derived F < 10⁻² (or the class's own consistency failing —")
-    print("   e.g. the ν damping NOT overdamped at T_sph) kills the junction")
-    print("   carrier entirely, and η_B has no recorded transfer route.")
-    print("   Four consumers ride F's derivation; it is the owner-session's")
-    print("   sharpest single target.")
+    print("   mechanism grade: the rectifier is the driven overdamped")
+    print("   junction — the only class of the three that recorded inputs do")
+    print("   not kill.")
+    print()
+    print("   THE m₁/θ̇ LEADING FACTOR SHOWN ABOVE IS SUPERSEDED (stage 8).")
+    print("   The owed averaging was performed in")
+    print("   scripts/kapitza_junction_response.py and returns")
+    print("      R_B = ω_J²/(2Γ_φθ̇)   — no m₁ in it.")
+    print("   An overdamped phase feels a pinning term as the rate m₁²/Γ_φ =")
+    print("   9.4e-16 eV, seventeen orders under θ̇, so m₁ vs θ̇ was never the")
+    print("   right comparison; and where such a term IS strong enough to")
+    print("   hold the phase it destroys the accumulated asymmetry instead of")
+    print("   supplying it. The m₁/θ̇ = 0.75×-need watch is therefore a")
+    print("   coincidence, not a mechanism.")
+    print()
+    print("   What the sector owes is the seat coupling's junction plasma")
+    print("   frequency at T_sph: ω_J ≈ 5.7 keV (equivalently a ~6 meV")
+    print("   relaxation rate on the visible phase). Four consumers ride")
+    print("   that number; it is the owner-session's sharpest single target.")
     print("=" * 78)
 
 

@@ -143,13 +143,17 @@ def main() -> None:
 
     m1_ev = 2.25e-3
     watch = m1_ev / (td_star * 1e9)
-    print(f"\n   THE WATCH (flagged, not asserted): the junction's own symmetry")
-    print(f"   breaker is the seat term's Majorana insertion m₁ = 2.25 meV —")
-    print(f"   the object that makes the junction a DIODE (φ₀/anomalous-junction")
-    print(f"   class), and m₁/θ̇(T*) = {watch:.3g} against the need {NEED:.1e}")
-    print(f"   (ratio {watch/NEED:.2f}) — coincidence grade until the diode's")
-    print(f"   efficiency is DERIVED from the seat term; owning computation:")
-    print(f"   the φ₀-junction response, T14 link 5's rectifier, same object.")
+    print(f"\n   THE WATCH, RETIRED (stage 8, 2026-07-28): this run flagged")
+    print(f"   m₁/θ̇(T*) = {watch:.3g} against the need {NEED:.1e} (ratio "
+          f"{watch/NEED:.2f})")
+    print(f"   at coincidence grade, pending a derivation. The derivation was")
+    print(f"   run — kapitza_junction_response.py — and the overdamped")
+    print(f"   averaging returns ω_J²/(2Γ_φθ̇), which contains no m₁ at all")
+    print(f"   (setting m₁ = 0 moves it by 0.05%). A pinning term in an")
+    print(f"   overdamped phase acts through m₁²/Γ_φ = 9.4e-16 eV, seventeen")
+    print(f"   orders under θ̇. The scale the sector owes is the seat")
+    print(f"   coupling's junction plasma frequency ω_J ≈ 5.7 keV, not a")
+    print(f"   neutrino mass. Everything else in this run stands.")
 
     print("\nVERDICT (v2, the honest one):")
     print("   THE SYMMETRIC JUNCTION IS ADIABATICALLY DEAD: with the envelope")
@@ -160,8 +164,8 @@ def main() -> None:
     print("   boundary' verdict is superseded in the DEAD direction for the")
     print("   symmetric channel: the magnitude rides ENTIRELY on the junction's")
     print("   symmetry-breaking (diode) structure — which is T14 link 5's one")
-    print("   object, now carrying all four consumers with a named scale watch")
-    print("   (m₁/θ̇ = 0.75× the need) to earn or kill.")
+    print("   object, now carrying all four consumers — whose scale is the")
+    print("   seat coupling's junction plasma frequency (stage 8).")
     print("=" * 78)
 
 

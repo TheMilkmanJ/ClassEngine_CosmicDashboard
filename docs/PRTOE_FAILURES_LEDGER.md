@@ -3192,6 +3192,41 @@ nulls. Decay data can therefore neither see the coupling nor close it.
 check, and this coupling stays half-open rather than executed — a named development could still
 meet its condition, which is why it is warm and not cold.
 
+### The m₁/θ̇ scale watch for the baryon-transfer rectifier — a coincidence with nothing behind it (2026-07-28)
+
+**What it was:** the junction that carries the baryon asymmetry needs a rectification
+efficiency ~5×10⁻⁵, and the ratio of the Majorana insertion to the winding rate at the
+sphaleron era, m₁/θ̇ = 2.25 meV / 59.7 eV = 3.8×10⁻⁵, sits at 0.75 of it. Three mechanism
+classes were priced; two were computed dead by twenty-six and two orders, and the survivor —
+a driven, overdamped, pinned junction — was recorded with that ratio as its leading factor
+and an O(1) junction response F as the single owed number. Four separate results were
+allowed to ride on F.
+
+**Why it is dead:** the averaging was performed and does not produce that factor. For an
+**overdamped** coordinate — and the class's own premise is that the neutrino bath overdamps
+the visible phase by ~10⁷ — a pinning term does not enter as its frequency m₁ but as the
+relaxation rate m₁²/Γ_φ = 9.4×10⁻¹⁶ eV. The comparison m₁ vs θ̇ is the one an *undamped*
+phase would make; the class forbids it. Done correctly the second-order averaging returns
+ω_J²/(2Γ_φθ̇), verified against direct integration of the nonlinear equation to 0.06% across
+p/θ̇ ∈ [0, 10] and for both pinning harmonics. **The Majorana term is not small in it — it is
+absent:** setting m₁ = 0 exactly moves the answer by 0.05%.
+
+**The sign of the effect was also backwards.** The overdamped equation is a current balance in
+which the surviving asymmetry is the accumulated drift of the phase. A phase strong-armed by a
+pinning term cannot wind, and then the lepton-number-violating channel destroys exactly what
+the junction delivers: measured, the accumulated asymmetry falls to 0.3% of its free value
+once the pinning reaches ~1% of the drive. Pinning is the mechanism's off switch. The transfer
+works at the standing parameters only because the Majorana term is nine orders too weak to
+hold anything.
+
+**Disposition — re-pointed, not executed.** The route is not killed: the surviving class still
+transfers, and the pre-committed kill was written on F, which was never the free parameter.
+What dies is the coincidence and the claim that the neutrino mass sets the scale. The four
+consumers now ride a different object — the seat coupling's junction plasma frequency at the
+sphaleron era, ω_J ≈ 5.7 keV, equivalently a ~6 meV relaxation rate on the visible phase.
+That number is owed by the seat sector and is not a neutrino property. Cold as a coincidence;
+the mechanism it was attached to stays warm.
+
 ## The closed-route census (moved here from the interaction atlas, 2026-07-27)
 
 *Enumerated, because the second binding rule below is a tripwire and a tripwire needs a

@@ -273,3 +273,70 @@ recorded seat coupling J and the ν damping is the one remaining object, now car
 consumers. Pre-committed kills: derived F < 10⁻² kills the junction carrier entirely; so does
 any failure of the class's own premises (the overdamping just verified; the pinning hierarchy
 m₁ ≪ θ̇ ✓ = 3.8×10⁻⁵).
+
+## STAGE 8 (2026-07-28) — the owed averaging performed; the leading factor is not m₁/θ̇
+
+**The object.** Stage 7 left one number owed: F, the O(1) junction response in
+R_B ~ (m₁/θ̇)·F, with F = 1.33 needed and four consumers riding on it. Stage 8 performs the
+averaging (`scripts/kapitza_junction_response.py`, `scripts/kapitza_drift_direction.py`).
+
+**The model, written out from stage 7's own words.** An overdamped phase in a potential obeys
+χΓ_φ·φ̇ = −U′(φ). Writing the pinning as U_pin = −χm₁²cos φ and the seat junction as
+U_J = −χω_J²cos(φ − θ̇t), the stiffness χ cancels and the equation of motion is a competition
+of three *rates*:
+
+> φ̇ = −p·sin φ − j·sin(φ − θ̇t),  p ≡ m₁²/Γ_φ,  j ≡ ω_J²/Γ_φ
+
+**This is the step that decides it.** For an overdamped coordinate the pinning does not enter
+as the frequency m₁ — it enters as the relaxation rate m₁²/Γ_φ. The same bath that makes the
+class work is what converts the Majorana energy scale into a rate and divides it by 5.4×10⁹ eV.
+Stage 7 compared m₁ to θ̇ directly, which is the comparison an *undamped* pinned phase would
+make; the class's own premise forbids it.
+
+**The averaging.** Expanding about the pinned minimum, solving the driven linear response and
+correlating it back against the drive:
+
+> R = ⟨sin(φ − θ̇t)⟩ = **−j·θ̇ / (2(p² + θ̇²))**
+
+verified against direct integration of the nonlinear equation to **0.06% worst-case** across
+p/θ̇ ∈ [0, 10], and separately for both the cos φ and the cos 2φ pinning harmonic (a ΔL = 2
+insertion has period π, so the harmonic was checked rather than assumed — the two columns
+agree to five digits).
+
+**The two limits, and which one is ours.** p ≫ θ̇ gives R → −jθ̇/2p², where the pinning
+matters. p ≪ θ̇ gives R → −j/2θ̇, where it is *absent*. The physical point is
+
+> p/θ̇ = m₁²/(Γ_φθ̇) = **1.57×10⁻¹⁷**
+
+— seventeen orders into the second limit. **The control settles it:** setting m₁ = 0 exactly
+changes the rectified transfer by 0.05%. The transfer survives the removal of the thing it
+was credited to.
+
+**Which way the pinning actually cuts (stage 8b).** The overdamped equation is a current
+balance — Γ_φ⟨φ̇⟩ = −p⟨sin φ⟩ − j⟨sin ψ⟩ — in which φ is conjugate to the visible lepton
+number, so the surviving asymmetry is the *accumulated drift of φ*, not the junction current
+alone. A free phase drifts at j²/2θ̇ and the drift is the asymmetry. A held phase cannot wind,
+so ⟨φ̇⟩ = 0 forces p⟨sin φ⟩ = −j⟨sin ψ⟩: the L-violating channel destroys precisely what the
+junction delivers. Measured, at j = 0.05, θ̇ = 1: drift/free = 1.04, 0.97, 0.45, 0.0033 as
+p runs 0 → 10⁻⁴ → 10⁻³ → 10⁻². The trapping threshold is p ≈ j²/2θ̇, and the standing
+parameters sit **3.1×10⁻⁹** of it. **The pinning is the mechanism's off switch, not its
+prefactor.** The transfer works here only because the Majorana term is far too weak to hold
+anything, and crediting the rectification to m₁ inverts the causality.
+
+**What this does to the watch.** m₁/θ̇ = 3.8×10⁻⁵ landing at 0.75 of the need is a numerical
+coincidence with nothing behind it: the quantity that governs the transfer never contained m₁.
+The stage-7 kill was written on F and does not fire as written, because F was never the free
+parameter. What replaces it is sharper and testable — the junction transfers what η needs
+**iff the seat term supplies ω_J ≈ 5.68 keV** at T_sph (equivalently j = ω_J²/Γ_φ ≈ 5.97 meV,
+a relaxation rate on the visible phase). Perturbative validity holds there: j/θ̇ = 10⁻⁴.
+
+**The honest boundary of this result.** What is derived is: *given* a sinusoidal seat junction,
+a static Majorana pinning in the same phase, and ν-sector damping, the rectified transfer is
+ω_J²/(2Γ_φθ̇) and carries no m₁. That mapping into the overdamped equation is the standard
+formalization of exactly the class stage 7 named, but it is a formalization. If the sector
+means something else by "the Majorana term pins", this result names what that something else
+must now supply — because in the class as written, it supplies nothing.
+
+**The four consumers are not paid, they are re-pointed.** η's magnitude, η's sign, the
+θ_B ↔ helicity lock and T14 link 5 still ride one object; that object is now the seat
+coupling's junction plasma frequency at the sphaleron era, not the neutrino mass.

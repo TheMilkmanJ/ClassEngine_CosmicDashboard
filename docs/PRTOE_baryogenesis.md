@@ -84,14 +84,28 @@ therefore rides on the junction's own breaking of that symmetry.
 junction pass net charge, and recorded inputs price all three: a dissipative bias through
 lepton-number-violating rates falls twenty-six orders short; a static asymmetric
 current–phase relation is capped by the same adiabatic argument above and falls two orders
-short; and the driven, overdamped pinned phase survives — the Majorana insertion pins, the
-seat coupling shakes at the winding rate, the thermal bath overdamps (verified: the relevant
-damping exceeds the winding rate by ~10⁷), and second-order averaging rectifies with the
-pinning-to-drive ratio in front. That leading factor is m₁/θ̇(T_sph) = 3.8×10⁻⁵, which sits at
-**0.75 of the needed transmission** — so the remaining unknown is an order-unity junction
-response, and the class predicts order unity. Kill conditions stand pre-committed: a derived
-response below 10⁻², or any failure of the class's own premises, ends the junction route and
-leaves the sector with no recorded transfer mechanism.
+short; and the driven, overdamped junction survives — the seat coupling shakes the
+visible-side phase at the winding rate, and the thermal bath overdamps it (verified: the
+relevant damping exceeds the winding rate by ~10⁷).
+
+**What the averaging returns.** Carrying the second-order averaging through for that class
+gives a rectified transmission **ω_J²/(2Γ_φθ̇)** — the junction's own plasma frequency,
+weighed against the damping and the winding rate. The neutrino mass does not appear in it. An
+overdamped phase does not feel a mass as a frequency but as a relaxation rate, and the
+Majorana term's rate is m₁²/Γ_φ = 9×10⁻¹⁶ eV, seventeen orders under the winding rate it
+would have to compete with; removing that term entirely leaves the rectified transfer
+unchanged to within a twentieth of a percent. Where a pinning term is instead strong enough
+to hold the phase, it *destroys* the accumulated asymmetry rather than supplying it — a held
+phase means the lepton-number-violating channel annihilates exactly what the junction
+delivers — and the standing parameters sit nine orders below the strength at which that would
+begin to bite.
+
+So the transmission the recorded η needs fixes one number, and it is a property of the seat
+coupling rather than of the neutrino sector: a junction plasma frequency **ω_J ≈ 5.7 keV** at
+the sphaleron era, equivalently a junction relaxation rate of ~6 meV on the visible phase.
+Kill conditions stand pre-committed: if the seat coupling's derived plasma frequency falls
+more than two orders below that, or any of the class's own premises fails, the junction route
+ends and the sector has no recorded transfer mechanism.
 
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —

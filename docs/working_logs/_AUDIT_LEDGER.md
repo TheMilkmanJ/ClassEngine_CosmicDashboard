@@ -4382,7 +4382,10 @@ magnitude piece and found the symmetric junction ADIABATICALLY NULL (the naive b
 scale was a hard-edge artifact of the integration window — demonstrated by moving and then
 smoothing the edge). The residual sharpens rather than closes: the whole transmission now
 rides T14 link 5's diode object, four consumers, with the m₁/θ̇ = 0.75×-need scale watch
-at coincidence grade. Also synced on the same sweep: the master-computes M2 row, docket
+at coincidence grade. *(The watch was retired on 2026-07-28 when stage 8 performed the owed
+averaging: the overdamped result carries no m₁, and the four consumers now ride the seat
+coupling's junction plasma frequency ω_J ≈ 5.7 keV instead — spec stage 8, ledger entry
+"The m₁/θ̇ scale watch".)* Also synced on the same sweep: the master-computes M2 row, docket
 #141 (closed — the shelf had flagged the row stale against the recorded c = 0.789262),
 and docket #121 (substantially paid by the release-era Ψ₀ and the physical-hierarchy
 f_amp distribution; the genesis-dynamics remainder rehomed under #117).
