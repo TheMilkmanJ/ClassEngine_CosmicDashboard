@@ -13,8 +13,8 @@ h ≤ 0.3 rows only.
 
 WHAT THIS RUNS
   Room 1's summit dice, rebuilt to its own conventions and pointed at the
-  regime the standing era actually selects (scripts/hscan_physical_target.py:
-  h₀ ≈ 0.1, three decades below the old scan's bottom).
+  regime the standing era actually selects (h₀ ≈ 1.0 from the abundance
+  closure, seven decades below the era-bound target).
 
   The instrument (room's spec, ~lines 364-412): seamless integration of the
   complex field through frozen era → release → late oscillations in the
@@ -149,7 +149,7 @@ def main() -> None:
         print(f"   {quiet_total} quiet draws found at low h — the conversion")
         print("   mechanism survives where the weak-torque expectation said it")
         print("   could not. The expectation was wrong; report exactly, and the")
-        print("   quiet-branch probability at h₀ = 0.1 becomes the number.")
+        print("   quiet-branch probability at the physical h becomes the number.")
     print("=" * 78)
 
 

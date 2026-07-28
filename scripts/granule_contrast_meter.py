@@ -29,10 +29,9 @@ THE PREDICTION AT THE PHYSICAL HIERARCHY (the dice's own numbers)
   C·⟨ρ⟩² — LINEAR in C at fixed mean density and granule size (the
   standard FDM-heating scaling; the scoping file's own booked reading,
   "S ≈ 0.58 → heating suppressed ~40%", is linear and confirms it).
-  The correct consequence: at C = 0.50–0.55 granule heating runs at
-  50–55% of free FDM's, a suppression of ×1.8–2.0 — roughly halved,
-  not quartered.  Still the discriminator the ε-meter program wanted,
-  and now a parameter-free number rather than a direction.
+  The correct consequence: heating runs at C times free FDM's, so at
+  the floor C = ½ it is roughly halved — not quartered — and it
+  approaches free-FDM values as C rises toward unity.
 
   NOTE ON PRIORITY: the law itself is NOT new here — the granule
   scoping record already verified C = (1+f_rot²)/2 to <1% at 2×10⁶
