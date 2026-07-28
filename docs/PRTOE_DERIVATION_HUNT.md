@@ -208,10 +208,10 @@ and false on the introduced one; either way there is nothing to derive. What the
 ruling on which basement stands.
 
 **There is no conflict, and the corpus already states the configuration that removes it.** §6c does
-not dope the medium; it requires **exactly two of the roster's fifty-one Weyl species to carry finite
-density, with the other forty-nine sitting at μ = 0** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+not dope the medium; it requires **exactly two of the roster's forty-eight Weyl species to carry finite
+density, with the other forty-six sitting at μ = 0** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
 §6). So the basement is not "a Fermi point" *or* "a Fermi surface" — it is a roster in which
-forty-nine species sit at nodes and one pair is doped.
+forty-six species sit at nodes and one pair is doped.
 
 **That makes the identity a computable correction rather than a tautology or a falsehood.** The
 forty-nine at μ = 0 are Lorentz-invariant and contribute a single form factor, so Π_T − Π_L is
@@ -234,8 +234,10 @@ electromagnetically neutral.** What piece 1 owes is not a calculation but an ide
 pair §6c dopes. That is a constituent-level choice, and the corpus already narrows it — the pair
 must form a compensated semimetal gapped by ⟨ψ̄_L ψ_R⟩.
 
-(Consistency check: 51 Weyl species is 25.5 Dirac equivalents, which is the N_screen = 25.5 N₀ the
-same section books.)
+(The roster is **48** Weyl species, not 51: the finiteness table's 48 is 3 generations × 16 and the
+three right-handed neutrinos are already inside it — the Standard Model proper carries 45. Read as
+Dirac equivalents that is **N_screen = 24 N₀**, giving k = 0.618. The verdict is unchanged, since
+both that reading and N = 6 destroy the anchor.)
 
 *Piece 2 — the roster's induced split.* The claim conditions "base = α" on the recorded ~44%
 induced fraction. **That fraction belongs to a different coupling at a different scale.** The 44% is
@@ -759,9 +761,9 @@ one-term form stated beside it. The conclusion is unchanged and slightly strengt
 at the percent level, and (iii) is what holds it.
 
 **(v) What is left is the species count, and it is the whole residue.** The two-band condition
-requires exactly two of the roster's fifty-one Weyl species to carry finite density while the rest
+requires exactly two of the roster's forty-eight Weyl species to carry finite density while the rest
 sit at μ = 0, and §6c's own arithmetic is what makes that unforgiving — the roster read as Dirac
-equivalents gives N_screen = 25.5 N₀, k = 0.602, and an anchor off by twelve orders. **The missing
+equivalents gives N_screen = 24 N₀, k = 0.618, and an anchor off by eighteen orders. **The missing
 object can now be named more precisely than "a chemical potential", and the sharpening explains why
 all three routes §6c walked failed: all three were *vector* chemical potentials, and a vector μ
 cannot build the configuration this channel needs.** Doping a Nielsen–Ninomiya node pair with a

@@ -3272,7 +3272,10 @@ gives k = 1.024 at N = 6 and k = 0.602 at N = 25.5, moving the anchor by 10⁻�
 fatal and is not: **§6h already resolves it** — vacuum polarisation exists at zero density and lives
 inside α_c, Thomas–Fermi needs real carriers and scales as e²N₀, so N_screen counts species carrying
 finite *density*. The forty-nine at μ = 0 contribute nothing. **What survives the failed kill is the
-sharpening: the factor 2 asserts exactly two of fifty-one species are doped off the node**, which
+sharpening: the factor 2 asserts exactly two of forty-eight species are doped off the node** *(the
+count read 51 until 2026-07-28; the three right-handed neutrinos were being added to a roster of 48
+that already contained them, so Dirac equivalents are 24 N₀ and k = 0.618, not 25.5 N₀ and 0.602 —
+the verdict is unchanged, both readings destroy the anchor)*, which
 makes condition (i) a *species-selective* chemical potential rather than merely a nonzero one, and
 nothing recorded selects the pair.
 

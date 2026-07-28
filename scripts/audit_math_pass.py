@@ -1864,6 +1864,15 @@ _GEN = [(_Fr(2,3),3),(_Fr(-1,3),3),(_Fr(2,3),3),(_Fr(-1,3),3),
 _NW = 3*sum(m for _,m in _GEN)
 _SQ2 = 3*sum(m*q*q for q,m in _GEN)
 chk("hierarchy 6", "#130: Weyl fermions in the visible roster", 48, _NW, 0)
+# The roster is 48, NOT 51: the finiteness table's 48 = 3 gen x 16 already
+# contains the three right-handed neutrinos (the SM proper carries 45). The
+# hierarchy section read "48 plus three right-handed neutrinos" and double-
+# counted them. Dirac equivalents are therefore 24, not 25.5, and k = 0.618.
+chk("hierarchy 6", "roster without nu_R (SM proper)", 45, 3*15, 0)
+chk("hierarchy 6", "Dirac equivalents of the 48-Weyl roster", 24.0, _NW/2, 1e-9)
+_bk = lambda N: math.log(1.0 + math.pi/(N*3*ALPHA))/math.pi
+chk("hierarchy 6", "k at the corrected N_screen = 24", 0.6185, _bk(24.0), 1e-3)
+chk("hierarchy 6", "k at the superseded N_screen = 25.5", 0.6020, _bk(25.5), 1e-3)
 chk("hierarchy 6", "#130: roster sum Q^2 (three generations)", 16.0, float(_SQ2), 1e-9)
 chk("hierarchy 6", "#130: split if the doped pair is EM-neutral", 0.0,
     float(2*_Fr(0)**2/_SQ2), 1e-12)

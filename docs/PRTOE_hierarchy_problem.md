@@ -384,17 +384,19 @@ silently, which is its own hazard:
 4. Two compensated bands — and, read against the recorded roster, that means exactly two. The
    factor 2 needs an electron pocket and a hole pocket at the same Fermi level — a compensated
    semimetal. Stated that way it sounds like a mild structural ask; set against the bath this
-   constituent level actually has, it is not. **The Planck-floor roster is the Standard Model's
-   48 Weyl fermions plus three right-handed neutrinos**, and §6h's own resolution of the
+   constituent level actually has, it is not. **The Planck-floor roster is 48 Weyl fermions —
+   three generations × 16, the three right-handed neutrinos already inside that count**
+   ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5's finiteness table; the Standard Model
+   proper carries 45, and the ν_R bring it to 48), and §6h's own resolution of the
    double-counting
    worry is what makes the count bite: Thomas–Fermi screening "needs real carriers and scales as
    e²N₀", while virtual pairs live in Π_vac and are already inside α_c. So **N_screen counts the
    species carrying finite density, not the species present** — and the recorded factor 2 says
-   exactly two of fifty-one do, with the other forty-nine sitting at μ = 0.
+   exactly two of forty-eight do, with the other forty-six sitting at μ = 0.
 
    That is arithmetically unforgiving. Generalising N_screen = N·N₀ gives b = Nα_c/πv and
-   k = ln(1+1/b)/π, so N = 6 returns k = 1.024 and N = 25.5 (the roster as Dirac equivalents)
-   returns k = 0.602 — which move the anchor to 10⁻⁵ and 4×10⁻¹⁹ of its recorded value
+   k = ln(1+1/b)/π, so N = 6 returns k = 1.024 and N = 24 (the roster as Dirac equivalents)
+   returns k = 0.618 — which move the anchor to 10⁻⁵ and ~10⁻¹⁸ of its recorded value
    respectively. Either reading destroys the anchor.
    **The factor 2 is not an O(1) convention; it is a statement that the doping is
    species-selective**, and §6c's condition (i) has to be read as supplying μ ≠ 0 to one
