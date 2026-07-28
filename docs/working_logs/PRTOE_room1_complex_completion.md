@@ -559,14 +559,43 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 > owed" above is PAID in its re-scoped form.
 >
 > **And the second owed clause (same day,** `scripts/lowh_gradient_scan.py`**):**
-> the fine-gradient tilt scan, run where the physics lives — 56 angles,
-> both physical hierarchies, all tilts. Worst gradient 3.2/rad (h = 0.3,
-> r_t = 0.9) against Gate C's ~350/rad steep zones: a factor ~110 down,
-> and the 56-angle medians reproduce the 14-angle dice to the third
-> digit. **The θ-channel isocurvature amplification has no lever arm at
-> the physical hierarchy — Gate C's high-tilt + high-H_inf veto retires
-> at the standing parameters** (it stays true of the era regime it was
-> found in). Both clauses of this owed block are now paid.
+> the fine-gradient tilt scan — 56 angles, all tilts. Worst gradient
+> 3.2/rad (h = 0.3, r_t = 0.9) against Gate C's ~350/rad steep zones: a
+> factor ~110 down, and the 56-angle medians reproduce the 14-angle dice
+> to the third digit. **The θ-channel isocurvature amplification has no
+> lever arm at the physical hierarchy — Gate C's high-tilt + high-H_inf
+> veto retires at the standing parameters** (it stays true of the era
+> regime it was found in). Both clauses of this owed block are now paid.
+>
+> **RE-MEASURED AT THE STANDING HIERARCHY (2026-07-28), and the verdict
+> above does not survive.** The scan quoted here stopped at h = 0.3
+> because h₀ was then believed to be ≈ 0.1; the abundance closure puts it
+> at 1.01, so the rows it graded were never the physical point. Extended
+> to h = 1.0, the gradient rises monotonically in **both** h and tilt:
+>
+> | h | r_t = 0.3 | r_t = 0.6 | r_t = 0.9 |
+> |---|---|---|---|
+> | 0.1 | 0.44 | 0.88 | 1.33 |
+> | 0.3 | 1.13 | 2.23 | 3.19 |
+> | **1.0** | 2.38 | 3.54 | **5.43** |
+>
+> So the standing hierarchy is the worst case on the grid, at 5.43/rad —
+> not the 3.2/rad the retirement was written on. **And the verdict was
+> the wrong kind of statement to begin with:** "no lever arm" is a claim
+> about a threshold nobody derived. The physical question is where the
+> gradient puts the H_inf ceiling, and since the θ-channel isocurvature
+> amplitude goes as (df/dθ₀)·H_inf/(2πΨ₀), that ceiling scales as
+> 1/gradient. A lever arm 64.5× weaker than Gate C's lifts its
+> H_inf ≲ 10¹⁰–10¹¹ GeV to **6.5×10¹¹–6.5×10¹² GeV** — which straddles
+> the ordinary isocurvature bound of 2–4×10¹² GeV already in the books.
+>
+> **The correct verdict is neither of the two on offer.** The θ-channel
+> veto does not retire, and it does not keep its old bite: it stops being
+> a *separately* binding constraint and becomes one of two comparable
+> limits on H_inf. What fails is any claim that the θ-channel cuts
+> corners the standard bound leaves standing — at the standing parameters
+> it no longer does. What also fails is "the veto is gone," which
+> overstates a factor-64 relaxation into an infinity.
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only, so far).
 

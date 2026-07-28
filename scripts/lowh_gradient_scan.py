@@ -35,6 +35,15 @@ from lowh_dice import universe  # noqa: E402
 N_ANGLES = 56
 LO, HI = 0.05, math.pi / 4 - 0.05
 
+# Gate C's recorded numbers, the ones the veto was derived at (era regime,
+# h = 300, r_t = 0.9) — see the prereg thread's item (3).
+GATE_C_GRAD = 350.0            # /rad
+GATE_C_HINF_LO = 1.0e10        # GeV
+GATE_C_HINF_HI = 1.0e11        # GeV
+# The ordinary (non-theta-channel) isocurvature bound already in the books.
+STD_HINF_LO = 2.0e12           # GeV
+STD_HINF_HI = 4.0e12           # GeV
+
 
 def scan(h: float, rt: float):
     thetas = np.linspace(LO, HI, N_ANGLES)
@@ -58,21 +67,45 @@ def main() -> None:
             print(f"   {h:<4}  {rt:.1f}   {mg:10.2f}           "
                   f"{np.median(f):.3f}         {f.max()-f.min():.3f}")
     print(f"\n   worst gradient at the standing hierarchy h = 1.0: {worst:.2f}/rad")
-    print("   (Gate C's steep zones at h = 300, r_t = 0.9: ~350/rad)")
+    print(f"   (Gate C's steep zones at h = 300, r_t = 0.9: {GATE_C_GRAD:.0f}/rad)")
+
+    # The verdict is NOT a threshold on the gradient — any such threshold would
+    # be invented.  The physical question is where the gradient puts the H_inf
+    # ceiling.  The theta-channel isocurvature amplitude goes as
+    # (df/dtheta0) * delta_theta0 with delta_theta0 = H_inf/(2 pi Psi0), so at
+    # fixed isocurvature bound the ceiling scales as 1/gradient.
+    ratio = GATE_C_GRAD / max(worst, 1e-9)
+    lo, hi = GATE_C_HINF_LO * ratio, GATE_C_HINF_HI * ratio
+    print(f"\n   the lever arm is {ratio:.0f}x weaker than Gate C's, so the")
+    print(f"   theta-channel H_inf ceiling relaxes by the same factor:")
+    print(f"     Gate C (era regime):  H_inf <~ {GATE_C_HINF_LO:.0e}-{GATE_C_HINF_HI:.0e} GeV")
+    print(f"     standing hierarchy:   H_inf <~ {lo:.1e}-{hi:.1e} GeV")
+    print(f"   against the ORDINARY isocurvature bound already in the books,")
+    print(f"   H_inf < {STD_HINF_LO:.0e}-{STD_HINF_HI:.0e} GeV.")
 
     print("\nVERDICT:")
-    if worst < 5.0:
-        print("   The steep zones are GONE at the standing hierarchy — the map")
-        print(f"   θ₀ → f_amp is smooth (max {worst:.1f}/rad, a factor")
-        print(f"   ~{350.0/max(worst,1e-9):.0f} below Gate C's steep zones). The")
-        print("   θ-channel isocurvature amplification that vetoed high-tilt +")
-        print("   high-H_inf corners has no lever arm at h₀ ≈ 1: the veto is")
-        print("   retired at the standing parameters (it remains a true fact")
-        print("   about the era-parameter regime it was found in). The owed")
-        print("   fine-gradient scan is PAID in its physical form.")
+    if lo > STD_HINF_HI:
+        print("   THE THETA-CHANNEL VETO IS NO LONGER BINDING at the standing")
+        print("   hierarchy: its ceiling has risen clear above the ordinary")
+        print("   isocurvature bound, so it cuts no corner that bound leaves.")
+    elif hi < STD_HINF_LO:
+        print("   THE THETA-CHANNEL VETO STILL BINDS at the standing hierarchy:")
+        print("   its ceiling sits below the ordinary isocurvature bound, so it")
+        print("   remains the tighter of the two and keeps cutting corners.")
     else:
-        print(f"   Steep structure SURVIVES at low h (max {worst:.1f}/rad) —")
-        print("   the veto keeps its bite; map the zones and report exactly.")
+        print("   THE THETA-CHANNEL VETO BECOMES DEGENERATE with the ordinary")
+        print("   isocurvature bound at the standing hierarchy. Its ceiling no")
+        print("   longer sits two decades under that bound as it did in the era")
+        print("   regime — it now BRACKETS it. So the veto neither retires nor")
+        print("   keeps its old bite: it stops being the separately binding")
+        print("   constraint and becomes one of two comparable limits on H_inf.")
+        print("   Anything resting on 'the theta-channel cuts corners the")
+        print("   standard bound does not' no longer holds at these parameters;")
+        print("   anything resting on 'the veto is gone' overstates it.")
+    print("\n   NOTE: the gradient rises monotonically in BOTH h and tilt across")
+    print("   this grid, so the standing hierarchy is the worst case ON the")
+    print("   grid and the high-tilt row is what governs. Scans that stopped")
+    print("   below h = 1 read a weaker gradient than the physics carries.")
     print("=" * 78)
 
 

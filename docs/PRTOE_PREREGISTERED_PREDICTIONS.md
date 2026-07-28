@@ -510,7 +510,11 @@ f_rot fraction); gate-conditioned P(f_amp>0.2) = 85.2-86.5% vs raw 86%.
 tolerances and two independent integrators through the stiff
 transition. (3) NEW: the θ-channel isocurvature gate vetoes
 high-tilt + high-H_inf genesis corners (steep zones at r_t=0.9 need
-H_inf <~ 1×10¹⁰-11 GeV); the 86% is unmoved (tilt-universal). (4) Dense
+H_inf <~ 1×10¹⁰-11 GeV); the 86% is unmoved (tilt-universal).
+[Measured at the standing release hierarchy the steepness is 5.4/rad
+rather than the era regime's 350/rad, lifting this ceiling to
+~6×10¹¹-6×10¹² GeV — comparable to the ordinary isocurvature bound
+rather than two decades under it.] (4) Dense
 scan n=28: 86% ±6.5%; cos2-prior robustness 84%. Remaining
 precondition on the odds: the h-convergence of P(f_amp).
 
