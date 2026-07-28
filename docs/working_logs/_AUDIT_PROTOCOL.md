@@ -374,6 +374,15 @@ omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes
 member from the other two rather than booking it separately. That line would have caught either
 defect above had it been written for those sectors.
 
+**23a. AN ABSENCE CLAIM OVER A VERSIONED TREE MUST SEARCH THE HISTORY (2026-07-28).** The indirect
+band on α_c was reported as having "no derivation anywhere in the repository", on a sweep that
+honestly stated its scope — all `.md`, all chain inputs, all `.py`/`.yaml`/`.json`/`.log` — and
+every item in that scope was true. None of it was `git log -S`. The derivation was in the commit
+that registered the prediction, and recovering it voided three results built on the absence.
+**The check: for any claim that something is not in the repository, `git log -S`/`git log -G` the
+string across all refs, or state in the claim that the history was not searched.** A file deleted
+after its number was quoted leaves exactly this trace and no other.
+
 **The check: count the independent unknowns, count the recorded numbers, and if the second exceeds
 the first, take a spanning subset and predict the rest.** A booked value that agrees with its own
 source proves nothing about the set. The tell is a section quoting three or more numbers that a
