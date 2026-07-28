@@ -1,8 +1,8 @@
-> **PROVENANCE NOTE (2026-07-12):** the v4 era (superseded by the v5+ era); for current state see PRTOE_INDEX.md.
+> **PROVENANCE NOTE (2026-07-12):** the v4 era; for current state see PRTOE_INDEX.md.
 
 # PRTOE v4 dCDF — Honest-Pipeline Results (2026-07-05)
 
-> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *The current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

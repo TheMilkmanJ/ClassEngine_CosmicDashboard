@@ -41,7 +41,8 @@ number, ε, applied everywhere atomic physics appears.
   internal cross-check passed), carrying ONE remaining theoretical stage and judged by three
   lattice observables of a single SU(2) N_f = 3 campaign plus a registered deviation lock
   (P-2026-051) — candidate-grade throughout, stated as such.*
-- **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived*, independent of the
+- **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived conditional on
+  ξ_H = 1/6*, an unmeasured Standard-Model input the balance requires; independent of the
   pairing sector.
 
 ## 3. Weakest links — stated plainly

@@ -92,7 +92,8 @@ candid self-assessment is deliberately not on this shelf and is not listed here.
   body is lineage; the HIGH-F OPERATING SPEC and THE GATE sections (2026-07-18) are live and
   canonical** (the hunt's gate checklist points here)
 - [UV COMPLETION](PRTOE_UV_completion.md) — **a working docket, not a result file.** Its headline
-  target (deriving c) is **closed by the census, c = 9/10**, and its own c = 1 candidate is dead; the
+  target (deriving c) is **settled at c = 9/10 as a counting assumption the data confirms**, not as a
+  framework-forced derivation, and its own c = 1 candidate is dead; the
   step-log carries the retired ε = c·f_amp·Ψ₀/M_red throughout. **Live content: ξ only.**
 - [THE AMPLITUDE](PRTOE_THE_AMPLITUDE.md) ·
   [THE CHAIN](PRTOE_THE_CHAIN.md) · [THE CMB MAP](PRTOE_CMB_map.md) ·

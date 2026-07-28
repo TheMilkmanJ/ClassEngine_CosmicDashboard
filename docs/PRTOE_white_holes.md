@@ -7,7 +7,7 @@
 * *provisional* = physically motivated identification, but not yet a closed derivation;
 * *estimate* = a numerical bound or scale, not an exact derivation.
 
-*The internal shorthand from earlier drafts has been translated into plain physics terms where possible. What remains open is labeled open.*
+*What remains open is labeled open.*
 
 ---
 

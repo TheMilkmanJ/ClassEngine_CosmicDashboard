@@ -1,12 +1,11 @@
 # PRTOE — The Story in Math, Start to Finish (2026-07-08)
 
-> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *The current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*One narrative from t=0 to today, with the equation at each stage. Supersedes the older
-PRTOE_SKELETON.md (archived; it pre-dates the regime change). Depth lives in PRTOE_me_trigger.md,
+*One narrative from t=0 to today, with the equation at each stage. Depth lives in PRTOE_me_trigger.md,
 [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md), and the predictions registry — this file is
 the map, not the territory.*
 

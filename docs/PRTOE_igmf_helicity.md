@@ -140,15 +140,14 @@ has no time evolution. That joint reading has now been made — sign(θ̇) and s
 same evolved trajectory — and the answer is that they are independent: the joint correlation sits
 at −0.06 to +0.09 against a ±0.13 noise floor, a result forced by spatial parity. **The prediction
 that the helicity sign correlates with the matter–antimatter draw is therefore not supported** —
-the model joins the generic case where the two are independent, and the distinctiveness that rode
-this correlation is withdrawn. What survives untouched is the magnitude-level seeding claim
+the model joins the generic case where the two are independent, and nothing distinctive rides
+this correlation. What stands is the magnitude-level seeding claim
 (the field's helicity is signed by the genesis flow's own handedness); the handedness hint stays
 a watch on that narrower claim alone.
 
 ## The seeding link, taken apart (2026-07-20)
 
-The step *before* the rectification carries its own sign question, and it is not the one it was
-recorded as carrying.
+The step *before* the rectification carries its own sign question.
 
 The seeding is mechanical, and the model requires it to be. The field is raised by the
 **Harrison battery** — photon drag spins electrons and ions differently where the pre-recombination

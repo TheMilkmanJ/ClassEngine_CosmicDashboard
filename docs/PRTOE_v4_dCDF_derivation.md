@@ -1,10 +1,10 @@
-> **PROVENANCE NOTE (2026-07-19):** the v4 era (superseded by the v5+ era); the
+> **PROVENANCE NOTE (2026-07-19):** the v4 era; the
 > general P(X) derivation below remains correct and load-bearing; for current state see
 > PRTOE_INDEX.md.
 
 # PRTOE v4 — dCDF (Dynamic Cold Dark Fluid): Action → Equations → Stability
 
-> *Some statuses in this file may be superseded by later work; the current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *The current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

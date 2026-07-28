@@ -7,7 +7,8 @@
 ## The result in three sentences
 
 In a unified dark-sector cosmology — one superfluid scalar replacing dark matter and dark energy,
-plus a single derived 1.2543% early-universe shift of the electron mass (ε = 27α/5π) — the neutrino
+plus a single 1.2543% early-universe shift of the electron mass (ε = 27α/5π, assembled from one
+derived factor, one counting assumption and one registered coupling identification) — the neutrino
 sector is an output rather than an input: the model's dark-energy scale ties to the lightest
 neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**. Because the mass mechanism violates
 lepton number, **neutrinos must be Majorana, and the 0νββ process is structurally required.** The

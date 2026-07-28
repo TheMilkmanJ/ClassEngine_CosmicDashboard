@@ -12,9 +12,12 @@
 *Home for the Ψ-identity question: committing to what Ψ IS fundamentally. Steps 1–9 are the
 2026-07-08 climb.*
 
-## The target — closed for c, open for ξ
+## The target — c settled as a counting assumption, ξ open
 
-**c is derived; it is not a free parameter and it never needed the UV completion.** The standing
+**c is not a free parameter, and it never needed the UV completion — but it is a counting
+assumption the data confirms rather than a quantity the framework forces**, since no single census
+criterion returns 9/10 (blindness weights by energy over every field; charge weights by Σ N_c Q²
+and gives 8/9; charge carried to its end gives c = 1, which the census excludes). The standing
 coupling is
 
 > **ε = c·f̄·α_c = 27α/5π = 1.2543%**, with **c = 9/10** — a counting fraction (N−1)/N over the

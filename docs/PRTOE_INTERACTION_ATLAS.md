@@ -580,13 +580,13 @@ is its only coupling). Give it curvature and the product is determined:*
  cite-verified — 35 years of timing on PSR B1913+16) — energy whose
  transport is measured to 0.16% and whose location is UNDEFINABLE. The
  translation survives only by adding an axiom: **global conservation keeps
- totals, not line-items — there is no local address for the energy.** Scored
- honestly: a STRAIN, not a break — physics carries the identical strain (a
+ totals, not line-items — there is no local address for the energy.** Scored:
+ a STRAIN, not a break — physics carries the identical strain (a
  century of pseudotensor awkwardness), and C1b's self-sourcing
  arguably predicts it (a field whose own energy is the source
  cannot separate the charge from the field) — but this is
- the first domain where the language required an amendment rather
- than translating exactly. The one honest exception, kept visible.
+ the one domain that requires an added axiom rather than
+ translating exactly.
  **THE STRAIN'S CANDIDATE HEALING (the thermodynamic route): it lands on
  Jacobson, PRL 75, 1260 (1995), cite-verified.** Take three things already in this atlas — the
  Clausius relation δQ = TdS, the Unruh temperature (C1's bridge),
