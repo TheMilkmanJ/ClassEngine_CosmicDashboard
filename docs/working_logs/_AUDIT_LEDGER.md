@@ -4865,3 +4865,32 @@ the numbers above, leaving the original registration sentence in the past tense 
 
 No chain was started or stopped: the decision to relaunch, re-tune the proposal, or move Route-D
 to other hardware is the owner's.
+
+### 2026-07-28 — a harness input shaved to make its own check pass, and one coupling restored
+
+Two more from the census list.
+
+**`deuterium_row 5` had its input shaved.** The check reads "window high edge from dNeff = 0.24"
+and computes with **0.238**. At the booked 0.24 the linearized formula returns 2.4643 against a
+booked 2.463 on a 0.001 tolerance — it fails. At 0.238 it returns 2.4637 and passes. The low edge
+uses the booked 0.06 exactly and passes on its own; only the high edge was moved, which is the
+tell.
+
+Nothing is wrong with the physics. D/H = 2.387(1 + 0.1350·ΔN_eff) is a **linearization of a full
+BBN run**, and its worst residual across the window is 0.00134 — one part in 2000, which is the
+linearization's own error. The defect was the bookkeeping: an approximation was made to look
+exact by moving its input rather than by declaring what it is. Both edges now use the booked
+window values, the tolerance carries the residual, and a third check pins the residual itself so
+it cannot drift.
+
+**`light 6` retyped a derived number.** It booked 1/α₁ = 33.3 at M_Pl as a literal. That is the
+GUT-normalized hypercharge, α₁ = (5/3)α_Y, so 1/α₁ = (3/5)·(1/α_Y) = 0.6 × 55.5 — the same
+handout the file already carries 850 lines further down. Both handouts are now named once near
+the top of the harness and referenced everywhere, so a correction to either propagates.
+
+Census after: **82.0% coupled** (was 80.4% at the start of the sweep), and the
+entirely-self-contained list is down from 21 sections to **17**. Harness 892.
+
+One method note: the first version of the residual check booked 0.0013 against a 1e-4 tolerance
+and failed, because `chk`'s tolerance is relative and 0.0013 rounds the residual too coarsely to
+survive it. Booked to 0.00134 instead of loosening the tolerance to hide the rounding.

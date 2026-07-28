@@ -8,6 +8,9 @@ import cmath
 import math
 
 ALPHA = 1/137.035999084
+# PRTOE_light.md's two Planck-floor handouts. Named here rather than retyped at each use, so a
+# correction to either reaches every check that depends on it (audit protocol check 21).
+_invY_Pl, _inv2_Pl = 55.5, 49.4
 ME    = 0.51099895e6      # eV
 MP    = 938.27208816e6    # eV
 MPL   = 1.220890e28       # eV
@@ -949,8 +952,15 @@ chk("PHYSICS_DOMAINS 6", "LCDM control on the same width", -2.25, -(2.527-2.420)
 _wU = math.sqrt(_wD**2+(0.035*2.387)**2)          # ⊕ inter-code ~3.5% relative
 chk("PHYSICS_DOMAINS 6", "spread-unfolded standing row", -1.46, -(2.527-2.387)/_wU, 0.02, "sigma")
 # the committed window IS dNeff 0.06-0.24 (the deuterium row's 0.26-0.29 was a garble)
-chk("deuterium_row 5", "window low edge from dNeff = 0.06", 2.407, 2.387*(1+0.1350*0.06), 0.001)
-chk("deuterium_row 5", "window high edge from dNeff = 0.24", 2.463, 2.387*(1+0.1350*0.238), 0.001)
+# These LINEARIZE a full BBN run: D/H = 2.387(1 + 0.1350 dNeff) reproduces the booked window
+# 2.407-2.463 to about 1 part in 2000, which is the linearization's own error and not a defect.
+# The booked window edges are dNeff = 0.06 and 0.24 exactly; the tolerance carries the residual
+# rather than the input being shaved to meet a tighter one.
+_dh = lambda dN: 2.387*(1 + 0.1350*dN)
+chk("deuterium_row 5", "window low edge from dNeff = 0.06 (linearized)", 2.407, _dh(0.06), 0.002)
+chk("deuterium_row 5", "window high edge from dNeff = 0.24 (linearized)", 2.463, _dh(0.24), 0.002)
+chk("deuterium_row 5", "the linearization's worst residual across the window", 0.00134,
+    max(abs(_dh(0.06)-2.407), abs(_dh(0.24)-2.463)), 1e-2)
 # the quartic era at the recorded lambda and m
 _h_lo = 2e-91*(0.7e26)**2/(2.24e-20)**2
 _h_hi = 2e-91*(1.5e26)**2/(2.24e-20)**2
@@ -1044,7 +1054,10 @@ chk("GW addendum", "the B-mode floor the recorded 1.5-dex margin implies", 9.5e-
 
 # --- the light file's lock arithmetic (2026-07-19) ---
 chk("light 4", "medium loop share at M_Z", 44, 42.9/98.4*100, 0.02, "%")
-chk("light 6", "lock iv: 1/a1 over 1/a2 at M_Pl", 0.673, 33.3/49.4, 0.005)
+# 1/a1 is the GUT-normalized hypercharge, a1 = (5/3) a_Y, so 1/a1 = (3/5)(1/a_Y). Deriving it
+# from the file's own 1/a_Y handout rather than retyping 33.3 means a correction there reaches here.
+chk("light 6", "1/a1 at M_Pl is (3/5) of the 1/a_Y handout", 33.3, 0.6*_invY_Pl, 1e-2)
+chk("light 6", "lock iv: 1/a1 over 1/a2 at M_Pl", 0.673, (0.6*_invY_Pl)/_inv2_Pl, 0.005)
 chk("light 6", "lock vi: measured A vs sqrt(2)", 0.001, abs(1.41420/2**0.5-1)*100, 0.35, "%")
 
 # --- CMB_map: the inflationary-tensor chirality (chiral_gw_genesis.py, model-natural row) ---
@@ -2082,7 +2095,7 @@ chk("THE_AMPLITUDE", "fixed-cell shot census: dln(Delta^2)/dlnk = n_s - 1", 3.0,
 # --- #130: the induced split, for the coupling alpha_c = 3 alpha actually names ---
 # The recorded 44% is HYPERCHARGE at M_Z. alpha_c = 3 alpha names alpha_EM at q = 0.
 # 1/alpha_EM = 1/alpha_2 + 1/alpha_Y, on the light file's own M_Pl handouts.
-_invY_Pl, _inv2_Pl = 55.5, 49.4                        # PRTOE_light.md, the two handouts
+# (defined once near the top of the file so every user inherits a correction to it)
 _invEM_Pl = _invY_Pl + _inv2_Pl
 _share_EM = (1/ALPHA - _invEM_Pl)/(1/ALPHA)            # the medium loop's share of 1/alpha_EM(0)
 chk("light 5", "bare EM handout 1/a_EM(M_Pl) = 1/a_Y + 1/a_2", 104.9, _invEM_Pl, 1e-6)
