@@ -3617,3 +3617,31 @@ species and one number moves while the other does not, which is the whole test.
 Recorded because the temptation is structural rather than accidental — the two constraints are
 adjacent in the argument, both were derived this session, and a reader arriving at them in
 sequence will notice the shared 2 and want it to mean something. It does not.
+
+### Charge forbids the Z₃ cubic — the mechanism dies, one piece survives (2026-07-28)
+
+**The idea**, under the charge-coupled/vanishing filter. The null's sharpest form is R_c = M_c
+(T6): the canonically normalized singlet amplitude equal to the doublet's, equivalently the field
+vector at 45° to the democratic direction. The standing fence says a natural Z₃ cubic
+V ⊃ −g·Σφ³ drives A → 2 and must not be cited as the landing mechanism. But **Σφ³ carries three
+units of whatever charge φ carries**, and 3q = 0 has no solution at q = −1 — so an electrically
+charged family field cannot have that term at all.
+
+**Two failures, the second decisive.**
+
+*The quartic leaves a flat direction.* With the cubic gone, V = (λ/4)(Σφ² − v²)² and in canonical
+coordinates Σφ² = M_c² + R_c². Its minimum is the whole circle M_c² + R_c² = v². R_c = M_c is one
+point on it and nothing prefers that point. Forbidding the cubic removes the wrong attractor
+without supplying the right one — A becomes *undetermined*, not √2.
+
+*The neutrino side is wrong, and that is the kill.* The story requires the neutral sector to keep
+the cubic and therefore to sit at its minimum, A = 2. The observed neutrino ring has
+**A_ν = √(6Q_ν − 2) = 0.866** — a 57% miss, off by a factor 2.3. The one side where the mechanism
+makes a testable prediction refutes it.
+
+**What survives, and it is worth keeping.** The fence — "a natural Z₃ cubic drives A → 2, do not
+cite Z₃-invariant cubics as the landing mechanism" — was written without asking whether the charged
+sector may carry that term. **It may not.** The fence stands for a neutral family field and does
+not bind a charged one. That removes one recorded obstacle from the charged sector's path without
+supplying a mechanism, and it relocates the blank precisely: **what picks R_c = M_c on the
+quartic's circle.**
