@@ -291,92 +291,30 @@ parity-odd ban is structural and no timing argument reaches it.
 - **Flavor-structured shared coupling (~6× lepton-enhanced)** —
  anti-natural (dilaton lore points opposite). *Resurrects if:* some
  derived SM structure computes 5–7 unforced. No candidate.
-- **Carrier-ratio unification (one κ_v, both epochs)** — killed by 8
- orders (ANN-2026-006); class exclusion ANN-2026-007. *Resurrects
- if:* a condensate attribute with genuine z~1100-vs-today contrast is
- found that is NOT density, order parameter, or clustering part — a
- fourth measure with independent motivation.
- **EXHUMATION IN PROGRESS (2026-07-07, at turn zero per Rule 3 —
- candidate R1, "the inverted lever"):** the fourth measure may be the
- CAUSTIC BIT — shell-crossing as a binary topological attribute. R1
- inverts where the shift lives: m_e is BARE at recombination/BBN
- (no structure exists) and suppressed −1% inside shell-crossed
- regions, where every lab sits: m_e(rec)/m_e(lab) = 1.0101 = the
- electron-coupled scalar's shift, from the other side. Derived here: the
- continuous version dies by quasar differentials (10⁴ over); binarity
- is FORCED. The binary version passes: clocks (virial-static), Oklo,
- stars (co-suppressed), all same-absorber 21cm/molecular nulls
- (virialized gas, uniform), all α nulls (masses only). Rule-1 bet
- terms — MET by: a ~1% offset in m_e-sensitive spectroscopy between
- virialized and demonstrably unvirialized gas. KILLED by: (i) such
- spectroscopy matching lab to ≪1%, or (ii) the nonlinear
- derivation showing the medium's caustic structure cannot support a
- Θ-type coupling. Standing: turn-zero candidate, zero inherited
- support, amplitude (the 1%) is a measured input not a prediction.
- **GRADE (adopted): CONSISTENCY-CONSTRUCTION, not
- derivation.** R1 is null in every currently accessible channel BY
- CONSTRUCTION, not by accident — the suppression was hung on the
- shell-crossed side in exactly the amount and sector that renders it
- invisible to all present probes. What distinguishes it from the
- opening pincer (effect-only-where-unobservable) is its IMMINENT
- internal test: #11 either shows the caustic structure supports the
- Θ coupling or kills R1 outright. Its fate is #11's, near-term; the
- external (unvirialized-gas) channel meanwhile carries registered
- bets of its own (P-2026-007, -043, -050).
-- **Tunneling discriminator** — demoted, not dead (signature 1500× below
- the SN mass step). *Resurrects if:* mmag-decade photometric decay
- clocks, or a steeper coupling that survives §2.
-- **Varying G / ν self-interactions / dark-sector PTA signal / PBH
- expansion role** — the five-lever audit kills (ξ gallows; measured
- phase shift; rolls-never-oscillates; identity-blind coupling).
- *Resurrection conditions:* none within the model class; the PTA
- silence is P-2026-005's structural half and must NOT resurrect.
-- **The funded-floor drift fingerprint (P-2026-003's observable half)**
- — killed 2026-07-07 by the mutual-exclusion theorem (V4), step-walk
- CLEARED on review: ν rides m̄₂ alone, M₂ is pinned by
- the completion, observable drift and observable cores cannot coexist;
- ν ≤ 2×10⁻⁸ in the allowed range. *Resurrects if (Rule-1 terms):* a
- second independent (δg⁰⁰)² operator is
- added AND passes three fresh certificates (α_T, foliation, α_B) — a
- model EXTENSION, not a repair; within the minimal model the kill is
- final. FAILED-forever by: nothing short of that extension. The
- mechanism (sign-locked phantom floor) survives; only its
- observability died.
-- **Thermal / Casimir / zero-point floor ontologies** — dimensional
- kills by 10¹²¹–10¹²⁴ (X1). *Resurrects if:* never; these are
- arithmetic.
-- **v1–v3 F(φ)R screening program** — four independent kills.
- *Resurrects if:* never as H₀ mechanism; the coupling zoo it explored
- feeds the coupling taxonomy.
-- **Model-SOURCED cosmic birefringence (the six-angle source hunt)** —
- killed 2026-07-08. IMPORTANT SCOPE: this buries the search for a way to
- make the medium *produce* birefringence; it does NOT touch **P-2026-009**
- (medium produces ZERO parity-odd rotation), which is the opposite —
- a healthy, now over-determined standing prediction. Six independent
- source-routes (multiverse/external, early open-coupling regime, the
- regime-change tail, the radiation era, residual-coupling rotation, and
- real-time generation at last scattering) all closed on the SAME TWO
- conditions: (i) any source must be *alive at last scattering* z~1100 → needs
- the condensation redshift z_x near matter-radiation equality, but the
- model gives z_x~1×10⁵ where the residual normal fraction is ~1×10⁻⁸
- (scripts/birefringence_window.py, ANN-2026-017). CLEANEST STATEMENT
- (the BBN→recomb synthesis): across the whole
- BBN→recombination span the coupling is open only in the OPAQUE era
- (z≳1×10⁵), where Thomson scattering scrambles any imprint; the light does
- not free-stream until z~1100, by which point the coupling is ~1×10⁻⁸
- closed — the coupling-open and light-remembers windows are DISJOINT
- epochs, bridged only by the negligible residual tail. (ii) the birefringence
- *signature* (EB rotation) requires a parity-ODD coupling → the
- EM-anomalous angular mode the census forbids (ANN-2026-012). Generating
- vs rotating does not evade (ii); reionization does not reopen (i) (data
- separates recomb z~1100 from reion z~7 by ~140×, four ways over).
- *Resurrects if (Rule-1 bet, both ways):* **MET by** the genesis calc
- pinning z_x near equality (~few×10³) — a small suppressed isotropic
- signal then becomes census-legal via the still-open residual coupling;
- **FAILED-forever by** the genesis calc confirming z_x~1×10⁵ (the current value) OR the
- angular mode remaining census-forbidden under the scope ruling. Warm,
- on those terms.
+## A live candidate: the inverted lever
 
+One route in this atlas is under active development rather than closed, and it is worth
+stating plainly because its grade is unusual. **Candidate R1 inverts where the electron-mass
+shift lives:** the mass is bare at recombination and during nucleosynthesis, when no structure
+exists, and suppressed by about 1% inside shell-crossed regions — which is where every
+laboratory sits. That gives m_e(recombination)/m_e(laboratory) = 1.0101, the same shift read
+from the other side. The candidate measure is the caustic bit, shell-crossing treated as a
+binary topological attribute; the continuous version is excluded by quasar differentials by
+four orders, so binarity is forced rather than chosen. The binary version passes the standing
+nulls: atomic clocks (virial-static), the Oklo reactor, stellar spectra (co-suppressed), the
+same-absorber 21-cm and molecular comparisons (virialized, uniform gas), and every
+fine-structure null (it moves masses only).
+
+**Its grade is a consistency construction, not a derivation, and the file says so.** R1 is null
+in every currently accessible channel *by construction* rather than by accident — the
+suppression sits on the shell-crossed side in exactly the amount and sector that renders it
+invisible to present probes, and its 1% amplitude is a measured input rather than a prediction.
+What separates it from an untestable contrivance is an imminent internal test: the nonlinear
+derivation either shows the medium's caustic structure supports the required coupling or ends
+the candidate outright. Externally it is met by a ~1% offset in electron-mass-sensitive
+spectroscopy between virialized and demonstrably unvirialized gas, and killed by such
+spectroscopy matching the laboratory to well under 1%; that channel carries registered bets of
+its own (P-2026-007, -043, -050).
 ## The coupling→product law (the medium's I/O table; assembled from the kernels, 2026-07-07)
 *The medium responds to exactly one input — spacetime geometry (gravity
 is its only coupling). Give it curvature and the product is determined:*
