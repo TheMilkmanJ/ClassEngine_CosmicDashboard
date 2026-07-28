@@ -2975,8 +2975,17 @@ the other side and the adjudication rule together, so that whichever branch the 
 losing one is on the record as having been at risk.
 
 **Timing, stated plainly.** The chain that decides this (`cmp_prtoe_routeD` — thaw free on the
-CMB+BAO+SN joint stack) is sampling as this is written and has produced no convergence statistic.
-Nothing below is informed by its posterior.
+CMB+BAO+SN joint stack) was sampling as this was written and had produced no convergence
+statistic. Nothing below is informed by its posterior.
+
+**Chain status (2026-07-28).** It still has not. The run stopped on 2026-07-20 at 21:39 with
+**363 accepted samples from 11,508 steps** — a 3.2% acceptance — and its progress file carries
+only a header, so no convergence statistic was ever computed. Two earlier attempts are archived
+beside it, one recorded as collapsed and one as a diagonal-seed retry, making this the third to
+stall. The entry's pre-hoc standing is unaffected: what is registered above was fixed before any
+posterior existed, and none exists now. What is affected is the timetable — **the adjudication is
+waiting on a chain that has failed three times**, and on the single-core host it runs at roughly
+thirty accepted samples an hour, so a converged posterior is not weeks away but months.
 
 **The two branches, and they exhaust the model.**
 

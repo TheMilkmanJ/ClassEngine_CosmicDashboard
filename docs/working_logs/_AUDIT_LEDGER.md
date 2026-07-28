@@ -4839,3 +4839,29 @@ item: supply the band's provenance, or grade the bet against the posterior inste
 
 Absence claim, per check 15a: made 2026-07-28 against the repository as it stands; it expires if
 chain archives outside this tree exist.
+
+### 2026-07-28 — task #21's deciding chain has been dead for eight days, and has failed three times
+
+Went to the Route-D verdict (#21) and checked the chain it waits on. `cmp_prtoe_routeD` **stopped
+on 2026-07-20 at 21:39** — eight days ago — with **363 accepted samples from 11,508 steps**, a
+3.2% acceptance, and a progress file containing nothing but its header. Cobaya writes a progress
+row at each learn-and-convergence test, so the run never reached its first one: **no convergence
+statistic has ever been computed for this chain.**
+
+It is also the third attempt. `_archive_routeD_collapsed_20260720_0639` holds a 6,937-row run
+recorded as collapsed, and `_archive_routeD_diagonalseed_20260720_0926` a diagonal-seed retry.
+All three stalled inside a single day, 2026-07-20.
+
+**What this means for the task.** #21 is not merely waiting — it is waiting on an instrument that
+has failed three times, on a host that (per this morning's forecast) runs one chain at ~18–30
+accepted samples an hour with two others already competing for the same core. A converged
+Route-D posterior is a months-scale item on current hardware, not a weeks-scale one.
+
+**What it means for the registry.** P-2026-056's pre-hoc standing is untouched — everything
+registered was fixed before any posterior existed, and none exists now, which is the strongest
+form of that claim. But its timing note read "is sampling as this is written" in the present
+tense, and a reader today would take it as current. A dated status note now sits under it giving
+the numbers above, leaving the original registration sentence in the past tense where it belongs.
+
+No chain was started or stopped: the decision to relaunch, re-tune the proposal, or move Route-D
+to other hardware is the owner's.
