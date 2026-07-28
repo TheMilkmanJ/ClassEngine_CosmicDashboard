@@ -53,7 +53,7 @@ Major moves since the 2026-07-08 baseline (below):
 **Favourable.** The coupling's legality — the model's single largest conditional, on which the
 whole electron-mass mechanism rested — is closed by the constitution's own clause, and the
 screening computation that had been open since 7 July is delivered on all four of its items.
-The dark-energy sector's "un-built O(1) coefficient" turned out not to exist: the two doors
+The dark-energy sector's "un-built O(1) coefficient" turned out not to exist: the two readings
 stand in exactly the derived phase-space ratio, so nothing is owed there. The turn is computed,
 and the negative bare vacuum became load-bearing rather than decorative.
 
@@ -85,8 +85,8 @@ Separately, α_c's scale is settled by data rather than choice: A_s selects 3α(
 
 **Adverse, and it is the same result read honestly.** That exact eight-digit reconstruction runs on a
 host **this corpus does not have** — finite chemical potential, Thomas–Fermi screening, two
-velocity-matched bands — while the recorded basement is a Fermi point at μ = 0, which §6a shows
-cannot pair at this coupling at all (subcritical by 22–67×). The hot reading, which *is* this
+velocity-matched bands — while the recorded constituent level is a Fermi point at μ = 0, which §6a
+shows cannot pair at this coupling at all (subcritical by 22–67×). The hot reading, which *is* this
 corpus's own cosmology, misses the screening constant by 1.6–2× at every standard normalisation. So
 the agreement is evidence **for the conditions**, not a derivation from recorded structure, and the
 obvious rescue — the model's repeated "condensate at finite chemical potential" — does not apply:
@@ -96,7 +96,7 @@ first sized at 1–8 TeV, and now, with the O(λ) pair computed (the crossed box
 companion, both downward), standing at **0.55–1.78 TeV**.
 And the two bands must be velocity-matched to the percent level (∂lnM/∂r ≈ 11.6) — a match the
 one-metric constitution now supplies: two cone slopes would be a dimension-4 Lorentz-violating
-coefficient, which the no-bridge clause books at zero ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md)),
+coefficient, which the no-bridge clause records as zero ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md)),
 so r = 1 holds exactly (reduced, not derived).
 
 **Adverse, second front.** The genesis draw does **not** pick a handedness, and this is now proven
@@ -220,31 +220,31 @@ Audited the CLASS C source against the model's claims. GOOD: dcdf has a real per
      `varying_me = 1 + c·f_amp·Psi0/M_red` (the #11 amplitude stack) at input time and stores
      the stack on the background structure. Thermodynamics does not invent m_e; it consumes
      `background_varconst_of_z` / the background table. Production configs may still pin
-     `varying_me` without the link for chain continuity; the model path is the dyad link.
-  2. **Density-dependent Theta / gate screening.** With the dyad link (or
+     `varying_me` without the link for chain continuity; the model path is `dcdf_dyad_link`.
+  2. **Density-dependent Theta / gate screening.** With `dcdf_dyad_link` on (or
      `varconst_density_gate=yes`), the environmental switch is the survival-form gate
      `S = exp(-(max(Δ,0)/C_ref)^n)` (me_mechanism_math THE GATE), not a pure redshift step.
      Homogeneous FRW uses a growth-proxy load calibrated at `varying_transition_redshift`;
      local environments call `background_varconst_of_z_delta(z, delta)` — voids (δ≤0) keep
      the bare value (P-2026-007), clusters screen to lab. Legacy pure-z window remains when
-     the density gate is off (default without dyad link).
+     the density gate is off (default without `dcdf_dyad_link`).
   3. **The w=1/3 radiation-like phase is IN the code and enabled** (closed earlier).
      `dcdf_z_rad_onset` drives the conformal-origin phase; evidence configs set it live.
   (Checked 2026-07-20: `cs2_dcdf` returns 0.0 unconditionally — c_s² ≡ 0 after β removal.)
 
-HONEST IMPLICATION (as of 2026-07-23): the code-level dyad → m_e link and the density gate
-are implemented end-to-end. Homogeneous FRW uses the **actual growth factor D(z)** from the
-background table (load = C_ref · D(z)/D(z_trans)), recomputed after D is normalized to today;
-local void/cluster discrimination is `background_varconst_of_z_delta(z, δ)`. Production fixed-me
-configs carry `dcdf_dyad_link: yes`; sampled-me configs carry `varconst_density_gate: yes`.
+HONEST IMPLICATION (as of 2026-07-23): the code-level link from the electron-coupled scalar to m_e
+and the density gate are implemented end-to-end. Homogeneous FRW uses the **actual growth factor
+D(z)** from the background table (load = C_ref · D(z)/D(z_trans)), recomputed after D is normalized
+to today; local void/cluster discrimination is `background_varconst_of_z_delta(z, δ)`. Production
+fixed-me configs carry `dcdf_dyad_link: yes`; sampled-me configs carry `varconst_density_gate: yes`.
 
 ## EVIDENCE VERDICT — LANDED 2026-07-09 (Laplace; the pre-committed gate met, marginally)
 
-The constrained-dyad vs ΛCDM full-data comparison (matched optimizers, same 10
+The constrained electron-coupled-scalar vs ΛCDM full-data comparison (matched optimizers, same 10
 likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
-  - ΛCDM:  χ² = 2809.179 | Laplace lnZ = -1474.566 | H₀ = 68.18
-  - dyad:  χ² = 2799.654 | Laplace lnZ = -1471.931 | H₀ = 69.82  (m_e FIXED at 1.01232)
-  - Δ χ² = -9.52 (dyad better) ; **Δ lnZ = +2.635 (Laplace, dyad favored)** ; Δ BIC ~ -9.5.
+  - ΛCDM:    χ² = 2809.179 | Laplace lnZ = -1474.566 | H₀ = 68.18
+  - scalar:  χ² = 2799.654 | Laplace lnZ = -1471.931 | H₀ = 69.82  (m_e FIXED at 1.01232)
+  - Δ χ² = -9.52 (scalar better) ; **Δ lnZ = +2.635 (Laplace, scalar favored)** ; Δ BIC ~ -9.5.
 
 **VERDICT: the +2.5 win threshold is CROSSED (+2.635) — the first time — but heavily qualified:**
   1. LAPLACE, and the Laplace is where it stays: margin over the line (+0.135) < the estimator's own

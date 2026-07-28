@@ -4395,3 +4395,11 @@ loses the entry), and #96's closure annotated to its carrier-only scope. Full ha
 annotated to their changed inputs (P-2026-057's kill (iv) fired; P-2026-028's matter-draw clause
 struck; P-2026-029's band re-based on the adjudicated bound), and the docket preamble's carve-out
 extended to the third numbering scheme.
+
+**Retention supersession noted (2026-07-27):** the 49–83% span this ledger adjudicated for the
+quadrupole retention at the 27.6 Gpc floor is SUPERSEDED by the 2026-07-20 regeneration on the
+retained script (`scripts/torus_lowell_pattern.py`, docket #160): the booked value is now **90%**,
+recorded in T5's table (83% → 90%) and in `_CANONICAL_VALUES.md` under #160's own number. An
+audience pass flagged `PRTOE_cyclic_torus_genesis.md`'s 0.90 as sitting outside this ledger's
+span — it does, and the file is the current one; this note exists so the next reader checking
+that file against this adjudication does not "correct" a current value back to a retired one.

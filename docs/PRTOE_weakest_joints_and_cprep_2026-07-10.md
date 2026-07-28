@@ -14,13 +14,14 @@ what would shore each, (B) the C-code scaffolding plan (PLAN ONLY — integratio
 The entire DE sector + the neutrino tie rest on it. Status: UN-DERIVED. √(H₀M_Pl) is the
 Λ-dominance tautology; the m_e→M₂→ρ_inf cascade is "kinship" (factor ~3-4); the shared-spurion
 gives the RELATION not the value. Atlas fallback: it may be a "constitution" rule-constant
-(un-derivable in principle, like ħ/c). **Shore:** accept as boundary data and bank the RELATION
+(un-derivable in principle, like ħ/c). **Shore:** accept as boundary data and secure the RELATION
 reductions (DE↔m_ν), OR find a genuine value-derivation (hard; may not exist). Not buildable fast.
 
-**J2 — Gate-0 dyad BBN clearance. [RED — empirical make-or-break]**
-The +1.2% m_e shift (the load-bearing bolt) requires the dyad quiet at BBN. T_c is a COIN-FLIP
-straddling the deuterium bottleneck (~70 keV), log-ambiguous 40–450 keV. **Shore:** the RG-improved
-V_eff(φ,T) + BBN D/H network resolver (the working docket). BUILDABLE — this is the highest-leverage joint.
+**J2 — Gate-0 BBN clearance for the electron-coupled scalar. [RED — empirical make-or-break]**
+The +1.2% m_e shift (the load-bearing bolt) requires the electron-coupled scalar quiet at
+BBN. T_c is a COIN-FLIP straddling the deuterium bottleneck (~70 keV), log-ambiguous
+40–450 keV. **Shore:** the RG-improved V_eff(φ,T) + BBN D/H network resolver (the working
+docket). BUILDABLE — this is the highest-leverage joint.
 
 **J3 — DESI w=−1 (P-2026-018). [RED — external falsifier]**
 If DESI DR2+ shows evolving DE, clean kill. Jointly squeezed with Σm_ν (can't relax one with the
@@ -32,8 +33,8 @@ A good FIT (ΔlnZ=+2.635) but SHOES-conditional, zero ontology evidence, NOT pre
 bound. Buildable/observable; the single best way to move "flat".
 
 **J5 — The two-field split + charged-lepton leptophilia portal. [ORANGE]**
-The dyad needs a charge-free 2nd field with a lepton-specific portal (the Majoron forces only the
-NEUTRINO coupling, not the charged-lepton dyad). **Shore:** the P-2026-020 leptogenesis
+The model needs a charge-free 2nd field with a lepton-specific portal (the Majoron forces only the
+NEUTRINO coupling, not the charged-lepton scalar). **Shore:** the P-2026-020 leptogenesis
 amplitude-follows-current derivation, OR an explicit lepton-specific portal (a Higgs portal would
 break leptophilia).
 
@@ -45,8 +46,9 @@ Post-fragmentation the Q-ball charge IS the DM; the magnitude is still open. **S
 leptogenesis magnitude calc (ties to J5/P-020).
 
 **TOP-3 make-or-break: J1 (DE value), J2 (gate-0 clearance), J3 (DESI w=−1).**
-**Most buildable / highest-leverage: J2 (its resolver has since run — the T_c gap-equation program) and J4 (independent m_e detection).** J1 may be
-constitutional; J3 is a data verdict.
+**Most buildable / highest-leverage: J2 (its resolver has since run — the T_c gap-equation
+program) and J4 (independent m_e detection).** J1 may be constitutional; J3 is a data
+verdict.
 
 ---
 
@@ -54,26 +56,30 @@ constitutional; J3 is a data verdict.
 
 ### B0. GATE (do not skip)
 Integration is GATED on **both**: (a) confidence on the new model **>85%**, and (b) gate-0
-resolver (the T_c program — since run) landing **clear**. Confidence assessed as insufficient → **NO INTEGRATION THIS PASS.**
-This section is a map so the eventual fix drops in without syntax/missing-piece thrash. **No
-active-code changes are made.**
+resolver (the T_c program — since run) landing **clear**. Confidence assessed as
+insufficient → **NO INTEGRATION THIS PASS.** This section is a map so the eventual fix
+drops in without syntax errors or missing pieces. **No active-code changes are made.**
 
 ### B1. Current surface (recon)
-- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (the conformal onset — since the derived identity z_on), `dcdf_conv_g/at/n`
- (DM→DE/dark-rad conversion); inline `dcdf_s_of_rho`, `dcdf_rho_rad`, `dcdf_conv_rate`.
+- `include/background.h`: `dcdf_rho_inf`, `dcdf_z_rad_onset` (the conformal onset — since
+ the derived identity z_on), `dcdf_conv_g/at/n` (DM→DE/dark-rad conversion); inline
+ `dcdf_s_of_rho`, `dcdf_rho_rad`, `dcdf_conv_rate`.
 - varying-m_e: via CLASS `varying_fundamental_constants` (instantaneous step at
  `varying_transition_redshift`, currently z=50 — a HARD STEP, not the order-parameter ramp).
 
 ### B2. What the new model changes (when unlocked)
-1. **Dyad as a thermal order parameter, not a z=50 step.** Replace the hard step with a smooth ramp
- φ(T)/v = √(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)² turns on continuously below T_c.
+1. **The electron-coupled scalar as a thermal order parameter, not a z=50 step.** Replace
+ the hard step with a smooth ramp φ(T)/v = √(max(0, 1 − T/T_c)), so δm_e/m_e = ε·(φ/v)²
+ turns on continuously below T_c.
  New param: `dcdf_dyad_Tc` (condensation temperature, ~keV, the output). `Tc<=0` disables →
  recovers the current step (backward-compatible, like the `z_rad_onset<=0` guard).
-2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = dyad (charge-free).
- Only field 2 sources δm_e; field 1 stays as-is. Minimal: one new ramp function, one new param.
-3. **Amplitude:** ε = 1.2543% stays the derived dyad amplitude, not a new knob. *(The
- factorization written here was the era's — `c·f_amp·Ψ₀/M_red` — and is retired; the standing
- decomposition is ε = c·f̄·α_c = 27α/5π, as this file's own closing note records.)*
+2. **Two-field bookkeeping.** Field 1 = existing dcdf (charge/DM+DE). Field 2 = the
+ electron-coupled scalar (charge-free). Only field 2 sources δm_e; field 1 stays as-is.
+ Minimal: one new ramp function, one new param.
+3. **Amplitude:** ε = 1.2543% stays the derived amplitude of the electron-coupled scalar,
+ not a new free parameter. *(The factorization written here was the era's —
+ `c·f_amp·Ψ₀/M_red` — and is retired; the standing decomposition is ε = c·f̄·α_c = 27α/5π,
+ as this file's own closing note records.)*
 
 ### B3. Where each change lands (map)
 - `include/background.h`: add `double dcdf_dyad_Tc;` to the struct; add inline
@@ -86,38 +92,47 @@ active-code changes are made.**
 
 ### B4. Order of operations (when unlocked)
 #40 clears → set ε, T_c from the resolver → add the param + ramp (B3) behind the `Tc<=0` guard →
-`make -j12` → diff CMB vs the step version at fixed ε → only then wire as default. Backward-compatible
-at every step (guarded), so a syntax error or missing piece can't corrupt the working step model.
+`make -j12` → diff CMB vs the step version at fixed ε → only then wire as default.
+Backward-compatible at every step (guarded), so a syntax error or missing piece can't
+corrupt the working step model.
 
 ---
 
 ## JOINTS UPDATE (same day, post-atom-night)
 
 - **J2 (gate-0) — RESOLVED**: cleared via the double sign-correction, re-signed as a HEAL
- (T_c = **193** keV — *the retired perturbative cross-check; this resolution was computed before the engine was re-keyed to the derived 179 keV, so its +0.06σ D/H and zero-Y_p-tax figures are era values, not standing ones*). The wall was a pharmacy.
-- **J1 (the DE value) — RECLASSIFIED**: not constitutional-forever; **the cosmic Rydberg** (
- whisper: ½α_c²M₂ = 1.98 vs 2.25 meV; graduation teeth set).
+ (T_c = **193** keV — *the retired perturbative cross-check; this resolution was computed
+ before the engine was re-keyed to the derived 179 keV, so its +0.06σ D/H and zero-Y_p-tax
+ figures are era values, not standing ones*). The wall was a pharmacy.
+- **J1 (the DE value) — RECLASSIFIED**: not constitutional-forever; **the cosmic Rydberg**
+ (whisper: ½α_c²M₂ = 1.98 vs 2.25 meV; graduation teeth set).
 - **J3 (DESI) — HARDENED BY THE MODEL ITSELF**: the grammar derives w = −1 today (mass-defect
  O(δ²)); DR3 is now a pure kill-or-confirm on a derived commitment.
 - **J4 (m_e real) — new instruments**: P-022 (21cm), P-024 (the ε-dipole), the radio ratio-lock.
-- **J5–J7 — became the open-derivation set** (now worked in [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)): the portal embodied (vector-like candidate),
- the abundance routed (genome→CP→η), v_L benchmarked.
+- **J5–J7 — became the open-derivation set** (now worked in
+ [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)): the portal embodied (vector-like
+ candidate), the abundance routed (winding→CP→η), v_L benchmarked.
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
 
-- **J1 (the DE value) — COMPUTED AT 20%, ZERO DIALS:** ρ_inf^¼ =
+- **J1 (the DE value) — COMPUTED AT 20%, ZERO FREE PARAMETERS:** ρ_inf^¼ =
  ½α_c²M₂/(16π²α_c^{3/2})^¼ = 2.695 vs 2.25 meV. Bohr binding × Landau-capped collective
  zero-point (pair-breaking = E_b = 2Δ) × BEC phonon speed (c_s = √α_c). The 0.4% "match"
  retired as prefactor-naive; scope held cold: the MODEL's floor value, not the CC problem writ
  large. J1 is no longer RED — it is a candidate-derivation with a 20% honest O(1).
 - **J2 (gate-0) — PRODUCTION-ABSOLUTE:** clean PRyM: ∂ln(D/H)/∂ln m_e ≈ 0. The D/H pharmacy
- died with it; Y_p is the true medicine (+0.65σ); the dyad owns a D/H-widening discriminator
- (2.387 vs Cooke 2.527; **−2.9σ** on the full stated budget — obs ±0.030 ⊕ PRIMAT theory ±0.037 = ±0.0476; was 2.372 pre-window) with the radio D-line (P-027) as referee.
+ died with it; Y_p is the true medicine (+0.65σ); the electron-coupled scalar owns a
+ D/H-widening discriminator (2.387 vs Cooke 2.527; **−2.9σ** on the full stated budget —
+ obs ±0.030 ⊕ PRIMAT theory ±0.037 = ±0.0476; was 2.372 pre-window) with the radio D-line
+ (P-027) as referee.
 - **J4 gains the sharpest instrument:** the two-line ratio-lock (ν_H/ν_D = 4.338649 preserved,
  both lines +2.50% at z>50).
-- **NEW STANDING RISK:** the D/H fork (the bet: 2.387×10⁻⁵, easing to 2.407–2.463 across the genesis window, vs the quasar 2.527; **−2.5 to −1.4σ** on the full budget) AND the Y_p reversal (+1.3 to +2.0σ counter — the medicine was an artifact).
-- **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved draw→winding-average
- (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ± 0.04 implied, the remaining O(1).
+- **NEW STANDING RISK:** the D/H fork (the bet: 2.387×10⁻⁵, easing to 2.407–2.463 across
+ the genesis window, vs the quasar 2.527; **−2.5 to −1.4σ** on the full budget) AND the
+ Y_p reversal (+1.3 to +2.0σ counter — the medicine was an artifact).
+- **THE ε JOINT RESTRUCTURED:** ε = c·f̄·α_c — f_amp moved from the stochastic genesis
+ draw to the winding average (f̄ = 0.644 ± 0.03, pending t-grade + 512-run); c = 0.90 ±
+ 0.04 implied, the remaining O(1).
 - **C-code gate RESET:** >85% deleted; PolyChord is the gate (the claim is held
  provisional until it runs).
 
@@ -129,13 +144,13 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
   chain. The 2.695/20% reading is retired (input-inconsistent; failures ledger). What remains:
   α_c = 3α under MCMC, the portal √σ_dark = m_e as the one irreducible input, and the lattice
   T_c/√σ for SU(2), N_f = 3 as the confirm-or-kill (P-2026-048). J1 has gone from RED to the
-  flagship-grade chain.
+  headline-result-grade chain.
 - **J2 (gate-0 / BBN) — the row carried, the census closed.** T_c re-keyed to the kernel's
-  177.10 keV; the standing D/H row is 2.387×10⁻⁵ at **−2.49σ** on the deuterium row file's combined width
-  0.0563 (the −2.9σ above is the same value on the 2-term width — the two-budget question is
-  ForJustin/10). The lever census is closed with no healer available to the dyad; the full
-  accounting, including the hadronic channel and the one roster-exempt source, is
-  [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) §5–6.
+  177.10 keV; the standing D/H row is 2.387×10⁻⁵ at **−2.49σ** on the deuterium row file's
+  combined width 0.0563 (the −2.9σ above is the same value on the 2-term width — the
+  two-budget question is ForJustin/10). The lever census is closed with no healer available
+  to the electron-coupled scalar; the full accounting, including the hadronic channel and
+  the one roster-exempt source, is [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) §5–6.
 - **J3 (DESI) — TRAILING.** DR2 prefers evolving DE at 3.1σ; the model's derived w = −1 stands
   against it as standing bet #3. The one attachment currently moving against the model.
 - **J4 (the shift being real) — the judge is running.** The zero-parameter evidence run
@@ -143,14 +158,15 @@ at every step (guarded), so a syntax error or missing piece can't corrupt the wo
   suggestive, SHOES-conditional interim. The sharpest independent instrument has firmed: the
   dark-ages trough at +0.40 MHz (16.0 → 16.4 MHz class), an astrophysics-free channel for
   lunar-farside instruments, beside the ratio-lock and P-2026-007.
-- **J5 (leptophilia) — carried by data, and the portal is the residue.** The dyad is a separate
-  field from the Majoron, and its portal is the total singlet |Ψ|², which is L-neutral — so lepton
-  number screens no quark bilinear. What holds the quarks off is loop order (two EW/EM loops,
-  (α/π)² = 5.4×10⁻⁶) and BBN, which kills a universal quark shift at ε by +12–18σ on D/H. The
-  un-derived core is **which Standard-Model operator the singlet multiplies** — docket #125.
+- **J5 (leptophilia) — carried by data, and the portal is the residue.** The
+  electron-coupled scalar is a separate field from the Majoron, and its portal is the total
+  singlet |Ψ|², which is L-neutral — so lepton number screens no quark bilinear. What holds
+  the quarks off is loop order (two EW/EM loops, (α/π)² = 5.4×10⁻⁶) and BBN, which kills a
+  universal quark shift at ε by +12–18σ on D/H. The un-derived core is **which
+  Standard-Model operator the singlet multiplies** — docket #125.
 - **J6 (the spurion tie) — carried into the tenth-channel seating** (m₁ = κ_m·ρ_inf¼), with the
   0νββ window [0.04, 5.3] meV and the nEXO overlap as its new falsifiable consequences.
-- **J7 (the abundance) — routed, one integral owed.** η via AD-direct = n_L(genome)/s × transfer;
+- **J7 (the abundance) — routed, one integral owed.** η via AD-direct = n_L(winding)/s × transfer;
   the frozen-era transfer fraction is the named debt (the thermal route is dead, ×40–1000 under).
 - **The ε joint — assembled.** f̄ = **2/π derived** (the winding's roll-up) and c = **9/10, a
   counting assumption the data confirms** (the census count, (N−1)/N; the ε-blind ensemble lands
