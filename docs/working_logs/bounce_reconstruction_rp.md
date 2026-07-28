@@ -1130,3 +1130,24 @@ fourth configuration is still running; it can sharpen the exponent and cannot ch
 (a) does not close on this instrument, so the O6 endpoint's caveat stays as recorded rather
 than upgrading to measured, and the reopening condition named there — an energy-clean run
 clearing 10⁹ — now carries a method requirement with it.
+
+**Fourth row, and a caveat on §26 (2026-07-28).** The last configuration returned:
+A = 20, v₀ = 3 → focus 752×, drift 216.5%, and it **hit the 3×10⁶ step cap** without reaching
+T_MAX (its peak sits at t = 38.1 of 60). So all four configurations are refused by the energy
+gate, and the fourth did not even complete its evolution. Cost to date: 8.4×10⁶ steps in
+14.7 h, about 1.75 h per million — the adaptive step dt = φ_tol/max|n−1| collapses as the
+field focuses, which is where the time goes.
+
+**The run has now started a refinement pair (A = 20, v₀ = 1 at grid ×1.5, dt_max ×0.5), and
+that test discriminates against §26's reading rather than confirming it.** §26 measured how
+drift scales with focus ACROSS configurations at fixed resolution; the refinement measures how
+drift moves with RESOLUTION at fixed configuration. Those are different questions, and only
+the second says whether the error is intrinsic to the scheme or merely under-resolved. If the
+A = 20, v₀ = 1 drift falls substantially from its 118.9% at 1.5× grid and half the maximum
+step, then the gate is resolution-limited after all and §26's "unreachable by this scheme"
+is too strong. If it barely moves, §26 stands and the method conclusion holds.
+
+**So §26 is provisional pending that pair, and the pair is expensive** — roughly 2–3× a normal
+configuration each, order 18 h for both on this box. It is also the single most informative
+thing the run can still produce, since it tests the diagnosis rather than adding a fifth
+refused row.
