@@ -269,8 +269,10 @@ One route in this atlas is under active development rather than closed, and it i
 stating plainly because its grade is unusual. **Candidate R1 inverts where the electron-mass
 shift lives:** the mass is bare at recombination and during nucleosynthesis, when no structure
 exists, and suppressed by about 1% inside shell-crossed regions — which is where every
-laboratory sits. That gives m_e(recombination)/m_e(laboratory) = 1.0101, the same shift read
-from the other side. The candidate measure is the caustic bit, shell-crossing treated as a
+laboratory sits. The suppression is not a free amplitude: reading the same observed ratio the
+model derives, 1/(1 − S) = 1 + ε fixes S = ε/(1 + ε) = 1.2388%, so
+m_e(recombination)/m_e(laboratory) = 1.012543 — the derived shift exactly, read from the other
+side. The candidate measure is the caustic bit, shell-crossing treated as a
 binary topological attribute; the continuous version is excluded by quasar differentials by
 four orders, so binarity is forced rather than chosen. The binary version passes the standing
 nulls: atomic clocks (virial-static), the Oklo reactor, stellar spectra (co-suppressed), the

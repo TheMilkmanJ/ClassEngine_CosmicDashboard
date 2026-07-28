@@ -4407,3 +4407,18 @@ recorded in T5's table (83% → 90%) and in `_CANONICAL_VALUES.md` under #160's 
 audience pass flagged `PRTOE_cyclic_torus_genesis.md`'s 0.90 as sitting outside this ledger's
 span — it does, and the file is the current one; this note exists so the next reader checking
 that file against this adjudication does not "correct" a current value back to a retired one.
+
+**Check 20a resolved, not merely graded (2026-07-27):** this ledger's entry at 4141–4143 graded
+R1's "m_e(rec)/m_e(lab) = 1.0101" against the standing 1.012543 as *"loose rather than wrong"*,
+on the ground that R1's 1% is an approximate measured input. The looseness is now removed
+rather than tolerated (`scripts/r1_coupling_from_theta.py`). R1 reads the SAME observed ratio
+the model derives, so its suppression is fixed by that ratio and not chosen:
+1/(1 − S) = 1 + ε ⟹ S = ε/(1 + ε) = 1.2388%, ratio 1.012543 exactly. The recorded 1% was
+S = ε mis-set; the 0.24-point gap is that algebra. **Consequence: R1 makes no independent
+amplitude claim at all**, which also retires the apparent 0.32σ tension between "R1 requires
+1.0101" and the posterior. What R1 does add is a coupling constant, and V5's Beta(d/2, d/2)
+plateau now fixes it — with ⟨Θ⟩ = ½ exactly in developed speckle and Θ = 1.9×10⁻⁶ laminar, a
+linear coupling gives κ_Θ = −2ε/(1 + ε) = −2.478%, determined by the amplitude and the plateau
+with nothing left to fit. The external test becomes a slope, δm_e/m_e = 0.384%·f in the
+residual-laminar fraction, i.e. a comparison between environments of differing development
+rather than between an absorber and the laboratory.

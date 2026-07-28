@@ -104,14 +104,30 @@ early in enthusiasm.
 
 ## 5. The near-term judge already running
 
-R1 requires the amendment ≈ 1.0101 specifically, against the derived stack's 1.012543 — a
-separation of 0.00244 in varying_me. **Measured on the sampled-ε chain (2026-07-27, 3406
-post-burn samples): varying_me = 1.01252 ± 0.00768.** The posterior centres on the derived
-value to two parts in 10⁵ (0.00σ) and places R1's requirement at −0.32σ, so both survive and
-neither is selected: at this width the two hypotheses are separated by 0.32σ, and telling them
-apart needs the posterior about **6× tighter (σ < 0.0012) for a 2σ decision**, 9× for 3σ. That
-is the arithmetic the near-term judge has to beat; until it does, this check constrains nothing
-and should not be quoted either way.
+**R1 makes no independent amplitude claim.** It reads the same observed quantity the model
+derives — the ratio of the electron mass at recombination to its laboratory value — from the
+other side, so its suppression is fixed by that ratio rather than chosen:
+m_e(lab) = m_e(bare)(1 − S) with 1/(1 − S) = 1 + ε gives **S = ε/(1 + ε) = 1.2388%**, and the
+ratio is 1.012543 exactly as the derived stack has it. The round "1%" that appears in older
+statements is S = ε mis-set; the 0.24-percentage-point gap is that algebra, not a disagreement
+about physics (`scripts/r1_coupling_from_theta.py`).
+
+**What R1 adds instead is a coupling constant, and it is now determined.** Both endpoints of
+the caustic bit are known: developed speckle sits at ⟨Θ⟩ = ½ exactly by the Beta(d/2, d/2) law,
+and laminar flow at Θ = 1.9×10⁻⁶, zero to six orders. A linear coupling
+m_e = m_bare(1 + κ_Θ·Θ) then fixes **κ_Θ = −2ε/(1 + ε) = −2.478%** — a number set by two
+derived things, the amplitude and the plateau, with nothing left to fit.
+
+That converts the external test from a bare offset into a slope. With a residual-laminar
+fraction f the plateau reads ⟨Θ⟩ ≈ ½ − 0.155·f, so the shift relative to a fully developed
+environment is **δm_e/m_e = 0.384%·f** — 0.10% at a quarter-laminar absorber, 0.19% at half.
+The comparison to make is therefore between environments of *differing* development, not
+between an absorber and the laboratory.
+
+*The chain check, for completeness:* the sampled-amplitude posterior reads
+varying_me = 1.01252 ± 0.00768 (3406 post-burn samples, 2026-07-27), centred on the derived
+value. With R1 now inheriting that same value, this measurement no longer discriminates between
+them at all — it constrains ε, which both share.
 
 ## 6. Status
 
