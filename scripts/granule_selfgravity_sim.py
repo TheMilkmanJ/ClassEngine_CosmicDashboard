@@ -175,28 +175,48 @@ def main() -> None:
     # self-gravitating column to the LAW mixes estimator bias with physics.  The
     # clean statistic is self-gravity against free field through the SAME
     # estimator, where the bias cancels.
-    bias = [r[2] / r[1] for r in rows]
-    ratio = [r[3] / r[2] for r in rows]
-    print("\n   estimator calibration (free field vs law — this is bias, not physics):")
-    for r, b in zip(rows, bias):
-        print(f"     f_rot = {r[0]:.1f}: {100*(b-1):+.1f}%")
-    print("\n   THE PHYSICS — self-gravity against free field, same estimator:")
-    for r, q in zip(rows, ratio):
-        print(f"     f_rot = {r[0]:.1f}: {100*(q-1):+.1f}%")
-    worst = max(abs(q - 1.0) for q in ratio)
-    print(f"\n   worst gravity-induced shift in the contrast: {100*worst:.1f}%")
+    # THE OBSERVABLE IS A RATIO, NOT AN ABSOLUTE CONTRAST.  The meter is
+    # defined (granule_scoping section 1) as granule power RELATIVE TO A SINGLE
+    # FIELD OF THE SAME TOTAL DENSITY: S = p^4 + q^4.  So the quantity to grade
+    # is C(f_rot)/C(f_rot = 1), and in that ratio BOTH the local estimator's
+    # bias AND any self-gravity shift common to all f_rot divide out.  Grading
+    # the absolute contrast against the law instead mixes in two systematics
+    # that the observable never sees.
+    ctrl_g = [r for r in rows if r[0] == 1.0][0][3]
+    ctrl_f = [r for r in rows if r[0] == 1.0][0][2]
+    print("\n   raw shift, self-gravity vs free field (NOT the observable):")
+    for r in rows:
+        print(f"     f_rot = {r[0]:.1f}: {100*(r[3]/r[2]-1):+.1f}%")
+    print("   Note this is nonzero at f_rot = 1, which is a SINGLE field — so it")
+    print("   is generic to self-gravitating wave dark matter, not a two-field")
+    print("   effect, and it is common-mode in the ratio below.")
+
+    print("\n   THE OBSERVABLE — S = C(f_rot)/C(1), self-gravitating:")
+    print("     f_rot    law      S measured   deviation")
+    dev = []
+    for r in rows:
+        s = r[3] / ctrl_g
+        dev.append(abs(s / r[1] - 1.0))
+        print(f"     {r[0]:.1f}    {r[1]:.4f}    {s:.4f}      {100*(s/r[1]-1):+.1f}%")
+    worst = max(dev)
+    print(f"\n   worst deviation of the meter's reading from the law: {100*worst:.1f}%")
+    print(f"   (the sim spec's target for this run is ~10%)")
 
     print("\nVERDICT:")
-    if worst < 0.15:
-        print("   THE LAW SURVIVES SELF-GRAVITY. Measured through one estimator")
-        print("   on both sides, the self-gravitating contrast differs from the")
-        print(f"   free-field contrast by at most {100*worst:.1f}%, across the spec's")
-        print("   f_rot grid. The meter's free-field calibration therefore")
-        print("   transfers to halos at that accuracy. Note the sign: the shift")
-        print("   is NEGATIVE at every f_rot measured, i.e. self-gravity")
-        print("   slightly SUPPRESSES granule contrast rather than raising it,")
-        print("   so the free-field law is a mild OVER-estimate of what a halo")
-        print("   delivers — the conservative direction for a detection claim.")
+    if worst < 0.10:
+        print("   THE LAW SURVIVES SELF-GRAVITY, and comfortably. Measured as the")
+        print("   meter defines it — granule power relative to a single field of")
+        print(f"   the same total density — S = (1+f_rot^2)/2 holds to {100*worst:.1f}% in a")
+        print("   self-gravitating halo, against the sim spec's ~10% target.")
+        print("   The free-field calibration transfers to halos.")
+        print()
+        print("   The reason the ratio is so much cleaner than the absolute")
+        print("   contrast is that two systematics are common-mode in it: the")
+        print("   local estimator's bias, and a self-gravity suppression that is")
+        print("   present even in the SINGLE-FIELD control and is therefore")
+        print("   generic to wave dark matter rather than a property of two")
+        print("   condensates. Neither survives the normalisation the observable")
+        print("   already performs.")
     else:
         print("   THE LAW DOES NOT SURVIVE SELF-GRAVITY as written. The")
         print("   free-field calibration is not the halo's calibration, so the")
