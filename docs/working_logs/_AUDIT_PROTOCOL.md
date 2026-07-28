@@ -374,6 +374,22 @@ omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes
 member from the other two rather than booking it separately. That line would have caught either
 defect above had it been written for those sectors.
 
+**25. A CAPABILITY PROBE MAY BE REPORTING A BUDGET, NOT THE RESOURCE (2026-07-28 — caught by the
+owner, not by me).** I reported "the box has one core" from `nproc` = 1, built a throughput
+analysis on core contention, told the owner MPI would buy nothing, and put it in the chain-ops
+memory. All of it was wrong: GNU `nproc` honours **`OMP_NUM_THREADS`**, which is 1 here. The
+machine is a 6-core/12-thread i7-9850H, every process carries the full `fff` affinity mask, and
+`top` showed 41.6% idle while I was describing a saturated core. The measurements were right and
+the diagnosis inverted, which is the dangerous combination — a wrong *cause* attached to correct
+*data* survives every consistency check the data would fail.
+
+**The check: before attributing a symptom to a resource limit, confirm the limit with a second
+tool that reads the resource rather than a budget.** Here: `nproc --all`, `lscpu`, `/proc/cpuinfo`,
+`taskset -p`, the cgroup's `cpuset.cpus.effective` — any one of which would have caught it. The
+family is general: `free` inside a container, `df` across a bind mount, `ulimit` versus the cgroup,
+`CUDA_VISIBLE_DEVICES` versus the GPU count. **A recommendation that depends on a resource ceiling
+must name the tool that measured the ceiling.**
+
 **24. A POSTERIOR QUOTED FROM A CHAIN INHERITS THAT CHAIN'S CONVERGENCE STATE, AND A WIDTH
 INHERITS IT HARDER THAN A POINT (2026-07-28).** The α_c band [0.0205, 0.0214] was read off
 `cmp_prtoe_zon` when its last recorded R−1 was **93.1** against a `Rminus1_stop` of 0.05, and was

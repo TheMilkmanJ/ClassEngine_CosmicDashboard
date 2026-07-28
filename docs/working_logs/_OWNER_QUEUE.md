@@ -6,26 +6,45 @@ are removed when ruled, not when acted on.
 
 ---
 
-## 1. The two production chains cannot reach their own stopping rule
+## 1. The two production chains are serial on a 12-thread box — 4 ranks would quarter the wait
 
-**Raised 2026-07-28.** `cmp_lcdm_mnu_bbnfix` sits at R−1 = 3.24 after 2,890 accepted samples. To
-reach its own `Rminus1_stop = 0.05` it needs **7.5×10⁴ samples on the fitted exponent and 9.7×10⁶
-on the asymptotic** — against `max_samples = 40000`, which it will not reach for **83 days**. The
-cap binds first on either projection, so the run stops unconverged. `dyad_mnu_bbnfix` is the
-marginal case at R−1 = 1.055.
+**Raised 2026-07-28; the diagnosis was corrected the same day and this is the corrected version.**
 
-Both are single-chain despite launching as MPI singletons, so the reported R−1 is a within-chain
-split statistic rather than the between-chain Gelman–Rubin the 0.05 target assumes — which makes
-the forecast optimistic. And `nproc` = 1: MPI buys nothing, and three CPU-bound jobs are dividing
-one core at load 9.3.
+`cmp_lcdm_mnu_bbnfix` sits at R−1 = 3.24 after 2,890 accepted samples and needs **7.5×10⁴ on the
+fitted exponent, 9.7×10⁶ on the asymptotic** to reach `Rminus1_stop = 0.05` — against
+`max_samples = 40000`, which it reaches in **83 days** at current throughput. The cap binds first
+either way. `dyad_mnu_bbnfix` is the marginal case at R−1 = 1.055.
 
-**The ruling:** let them run to the cap and accept an unconverged posterior; re-tune the proposal
-and restart; or move them to hardware with cores. Tool: `scripts/chain_convergence_forecast.py`.
+**The earlier reading of *why* was wrong.** I reported "the box has one core" from `nproc` = 1.
+`nproc` honours `OMP_NUM_THREADS`, which is 1 here; the machine is an **i7-9850H, 6 cores / 12
+threads**, every process has the full `fff` affinity mask, and `top` showed **41.6% idle**. The
+chains are slow because each CLASS+likelihood call costs ~10.5 s, not because they are fighting for
+a core — there have been ~9 idle threads beside them throughout.
+
+**Both are single-chain** (one `.1.txt` each) despite launching as MPI singletons, so the reported
+R−1 is a within-chain split statistic rather than the between-chain Gelman–Rubin the 0.05 target
+assumes.
+
+**Running real MPI ranks fixes both problems at once:**
+
+| ranks per chain | cmp_lcdm to cap | dyad to cap | R−1 |
+|---|---|---|---|
+| 1 (now) | 83 d | 92 d | within-chain split |
+| 2 | 42 d | 46 d | **between-chain** |
+| 4 | **21 d** | **23 d** | **between-chain** |
+| 6 | 14 d | 15 d | between-chain |
+
+Keep ranks × OMP ≲ 12 and leave headroom for the M6 job.
+
+**The ruling:** relaunch under MPI at 4 ranks (recommended — quarters the wall clock and buys a
+real convergence statistic), or leave them serial and accept the cap. Relaunching costs the current
+samples unless resumed, and the memory's standing hazard applies — check the `classy` .so mtime
+against the launch date before any resume. Tool: `scripts/chain_convergence_forecast.py`.
 
 **Related, same host:** `bounce_m6_rebound_dst.py` (another session) had produced no output for
-7.4 hours while holding a full core, and the coarse pass it is refining **failed its own energy
-gate on every row** — 24%, 119%, 217%, 391% against a declared 2% tolerance, all four already
-marked unquotable.
+7.4 hours, and the coarse pass it is refining **failed its own energy gate on every row** — 24%,
+119%, 217%, 391% against a declared 2% tolerance, all four already marked unquotable. On the
+corrected picture it is not starving anything; it is simply producing unusable output.
 
 ---
 

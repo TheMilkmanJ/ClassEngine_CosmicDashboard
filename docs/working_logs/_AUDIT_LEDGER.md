@@ -4994,3 +4994,36 @@ THREE_EQUATIONS' "`varying_me` = 1.0126 ± 0.0041". Both are carefully caveated 
 neither carries its chain's R−1, which is what check 24 now requires. Four checks book the
 tree-wide state so it is tracked rather than remembered — and they will fail, correctly, the day a
 chain converges. Harness 918.
+
+### 2026-07-28 — CORRECTION: the box is not one core. `nproc` honours OMP_NUM_THREADS
+
+The entry above ("the running jobs, forecast: one core, three CPU-bound processes") got its
+central diagnosis wrong, on the owner's catch. Recording the correction here rather than editing
+the dated entry, since the entry is a record of what was found when.
+
+**What is true:** the machine is an **Intel i7-9850H, 6 cores / 12 threads**. `nproc --all` = 12,
+`lscpu` agrees, the cgroup cpuset is `0-11`, and every process — both chains, the M6 job, init —
+carries the affinity mask **`fff`**, all twelve CPUs. `top` during the measurement showed
+**41.6% idle**.
+
+**Why `nproc` said 1:** GNU `nproc` honours `OMP_NUM_THREADS`, which is set to **1** in this
+environment. It reports the OpenMP thread budget, not the processor count. `OMP_NUM_THREADS=4
+nproc` returns 4 on the same box. **`nproc` is not a hardware count and must not be read as one.**
+
+**What survives from the original entry:** the measured throughput (18.55 and 16.87 accepted
+samples/hour), the R−1 trajectories, the projection that neither chain reaches `Rminus1_stop`
+before `max_samples`, and the single-chain finding. Those were measurements and they stand.
+
+**What was wrong:** the *explanation*. "Three CPU-bound jobs dividing one core", "each runs at a
+third of solo speed", "MPI buys nothing", and the claim that the M6 job was starving the chains —
+all false. 18.55 accepted/hour at ~5.4% acceptance is ~343 proposals/hour, i.e. **~10.5 s per
+CLASS+likelihood call**. That is the evaluation cost. There have been ~9 idle threads beside the
+chains throughout.
+
+**And the correction is worth real time.** Running actual MPI ranks fixes the throughput *and* the
+diagnostic together: 4 ranks per chain takes cmp_lcdm from 83 days to **21** and turns R−1 from a
+within-chain split statistic into a genuine between-chain Gelman–Rubin. The owner queue's item 1 is
+rewritten accordingly, and the chain-ops memory now carries the `nproc` trap explicitly.
+
+**Filed as protocol check 25** — a capability probe that reports a resource budget rather than the
+resource is a general trap, and this one cost a wrong recommendation to the owner.
