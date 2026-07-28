@@ -11,8 +11,8 @@ and the honest verdict. Numbers are sourced from the working documents —
 nothing here is quoted that does not have a receipt in
 `archive/PRTOE_v5_dCDF_complete.md`, `working_logs/PRTOE_room1_complex_completion.md`,
 `PRTOE_INTERACTION_ATLAS.md`, `PRTOE_PREREGISTERED_PREDICTIONS.md`, or
-`PRTOE_intellectual_history.md`. Deaths are listed with the same pride as
-survivals; the graveyard is the proof that the survivals mean something.*
+`PRTOE_intellectual_history.md`. Closed routes are recorded with the same care as
+surviving ones, in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).*
 
 PRTOE's mature form is a two-part claim.
 (1) The dark sector is ONE substance: a charged, rotating superfluid — the
@@ -41,7 +41,7 @@ this program ever tried is dead, and the record of dead approaches is public.
 | 6 | BBN | Deuterium row decomposed; the lever census closed | −2.94σ on the tightest rate error in the literature; **awaiting d(d,n)³He** (P-2026-058). Compilation-robust content: 0.62σ behind its own ΛCDM control |
 | 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the model's second half |
 | 8 | Neutrino physics | P-2026-004 falsified (ANN-2026-021); meV whisper (Σm_ν ≈ 61.4 meV, normal ordering) stands, posterior tests it | Mid-measurement |
-| 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen operator |
+| 9 | Scalar-field EFT | the (δK)² operator carried on 3 certificates | one operator in use; closed routes in the failures ledger |
 | 10 | Superfluidity & BEC | Son isomorphism; two-fluid; KR beat; lab receipts | The identity itself |
 | 11 | Particle physics | Affleck-Dine genesis; coupling census closed | Gravity-only = theorem-grade |
 | 12 | Black holes | Superradiance at the recorded mass; de-condensation at 1.8393 r_s | Live exposure — a populated spin band the mass cannot leave |
@@ -233,9 +233,8 @@ temporally frozen, μ−1 ~ 4×10⁻²¹; Landau v_c = 0 dissolving caustics int
 interference). The floor fluctuation face is sign-locked phantom and
 structure-gated; observable drift died by the V4 mutual-exclusion theorem.
 
-The graveyard's founding precedent (risen at full price) and
-its firmest law — no prediction from an un-pinned function, measured
-3-for-3.
+The founding precedent for readmitting a closed route at full price, and the firmest law
+that came with it — no prediction from an un-pinned function — measured 3-for-3.
 
 ## 10. Superfluidity, Bose–Einstein condensation & condensed matter
 
@@ -536,8 +535,8 @@ forensics down to a C⁰ discontinuity from a leftover dy = 0 hack; the
 freshness check that made "which .so am I actually importing" a ritual.
 Above the numerics, the method itself: **pre-registration with death
 conditions, a turn-based adversarial review with written
-concessions on both sides, the Pinning Rule (3-for-3), graveyard Rules 1–3
-with a published warm/cold census (the atlas's enumerated 7 cold / 4 warm / 3 risen), and
+concessions on both sides, the Pinning Rule (3-for-3), the readmission rules governing
+closed routes and their published census (kept in the failures ledger), and
 falsify-first scoring of every intuition** — several of which
 turned out to be blind reconstructions of Zurek, Jacobson, Affleck-Dine,
 and Penrose CCC. The reviewer's closing line after nine turns: "a smaller,
@@ -548,29 +547,11 @@ this domain is what makes the death worth having.
 
 ---
 
-## The graveyard, one line each
+## The routes this program has closed
 
-*Census: 7 cold / 4 warm / 3 risen — the atlas's enumerated count; the table below adds kills
-recorded outside the graveyard proper (the dkappa hack, varying α, the Earth-spin reflex, the
-five-lever audit). Deaths by calculation, burials with resurrection terms or the word "never."*
-
-| Mechanism | Killed by | Grave |
-|---|---|---|
-| v1–v3 F(φ)R screening program | four independent sign-locked kills | never (as H₀ mechanism) |
-| dkappa opacity hack | clean-tree χ² forensics (not physics — fraud) | never; contaminated a year of numbers |
-| β sound-speed family | DES +30 at β = 10⁻⁷; structural no-go | coldest grave |
-| ξ_Neff at recombination | ACT + BBN execution | half-risen (BBN-era carrier, ANN-2026-005) |
-| c_EM energy exchange | +261 χ², acoustic wreckage | warm, structurally disfavored |
-| varying α | quasar bound 45–100× over; CMB +433 | never |
-| (□φ)² funded floor, early face | BBN ν·x scaling | RISEN as (δK)², three fresh certificates |
-| universal single-vev amendment | D/H +7.7σ, τ_n −4.9% | risen gated (vev package) |
-| flavor-structured coupling | anti-natural (dilaton lore opposite) | cold |
-| carrier-ratio unification (one κ_v) | 8 orders (ANN-2026-006) | exhumation in progress (R1 caustic bit — Θ is derived and its gate form derived at class level; the two-field sims are the remaining gate) |
-| drift fingerprint (P-2026-003's observable half) | V4 mutual-exclusion theorem | final within the minimal model |
-| thermal/Casimir/zero-point floor ontologies | 10¹²¹–10¹²⁴ arithmetic | never; these are arithmetic |
-| tunneling discriminator | receipt 1500× below the SN mass step | demoted, not dead |
-| varying G / ν self-int. / dark PTA / PBH levers | the five-lever audit | none within the class |
-| Earth-spin coincidence (self-killed) | lunar tides, 3.8 cm/yr receipt | never; the reflex is installed |
+Fifteen mechanisms have been tried across these domains and closed by calculation, each with its
+cause of death, its supporting numbers, and whether anything of it survives. They are recorded in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), which is their single home.
 
 ---
 
