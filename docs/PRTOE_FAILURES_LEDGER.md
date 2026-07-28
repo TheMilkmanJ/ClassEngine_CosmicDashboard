@@ -3121,3 +3121,27 @@ not.
 coincidence entirely.
 **Disposition:** never; recorded because the model killed its own coincidence rather than
 waiting to be told, and the reflex that did so is installed.
+
+### The β sound-speed family — the coldest grave (back-filled 2026-07-27)
+
+**What it claimed:** a nonzero sound-speed parameter β in the dark sector, tuned to reshape
+structure growth.
+**Why it died:** the first weak-lensing dataset it met drove it to null — Δχ² = +30 at
+β = 10⁻⁷ against DES — and the failure is structural rather than a matter of the fitted value:
+the parameter cannot help at any magnitude it is allowed to take.
+**Disposition:** the coldest grave in the census; no resurrection term attached.
+
+### The composite-Higgs pricing of the anchor — withdrawn as a self-misreading (back-filled 2026-07-27)
+
+**What it claimed:** an earlier pass of the hierarchy argument priced the electroweak anchor as
+a *composite* Higgs, and derived from that both a compositeness bound out of the S parameter and
+an extended-technicolor flavour problem.
+**Why it died:** it misread the same file's own construction. The Higgs here is elementary — its
+mass parameter induced by one loop of anchor-scale states, its vacuum expectation value the
+Standard Model's — and an elementary Higgs inherits neither constraint: the Yukawa couplings are
+the Standard Model's own, so no extended-technicolor operators exist to reach neutral-kaon
+mixing. Both consequences are withdrawn with the premise.
+**What survives, and it is a real constraint:** a counting bound rather than a compositeness
+bound. The anchor-scale portal species carry electroweak quantum numbers, and a degenerate heavy
+doublet contributes ΔS = 1/6π = 0.053 **without decoupling** — the contribution is
+mass-independent, so it bounds the species count rather than the scale.
