@@ -85,7 +85,7 @@ squared-mass-log form gives 3/4 (excluded). A sharp underived residual, and the
 derivation of the 3/2 is dead. All four natural attachment routes were computed and fail:
 the CW minimum gives 1/2, the tachyonic onset 3/4, the sharp-cutoff BCS gap equation ln 2,
 and scheme/threshold matching gives {0 (gauge decoupling), 5/6 (momentum-scheme), 1 (the
-pairing-susceptibility scheme — the honest reading of "gap-scheme coupling")}. The
+pairing-susceptibility scheme — the correct reading of "gap-scheme coupling")}. The
 obstruction is structural: every one-loop dimensional-regularization constant enters against
 ln μ² (squared-log), so it halves at this single-log normalization — landing 3/2 requires a
 squared-log constant of 3, absent from the one-loop fermionic menu. Identification

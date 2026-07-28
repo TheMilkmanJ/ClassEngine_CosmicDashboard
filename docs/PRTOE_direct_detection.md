@@ -48,7 +48,7 @@ helicity, P-028), and **precision mass-ratio drift** (the ε-dipole P-024, Koide
 The model doesn't just predict where dark matter isn't — it says which instruments are aimed
 at the actual interfaces.
 
-## 3. The honest exposure
+## 3. The exposure
 
 This stance is UNHEDGEABLE: **one confirmed direct-detection signal — one haloscope photon,
 one WIMP recoil above coherent-neutrino floor attributable to the halo — kills the model

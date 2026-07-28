@@ -46,7 +46,7 @@ v_L < 20 MeV, roughly one-third of the natural parameter space. The same sector 
 used in the baryogenesis route, where the equilibrium ratio K = Γ_N/H = 9×10⁷ has already been
 computed.
 
-## 4. Honest scope
+## 4. Scope
 
 - The upward-shift direction is generic to varying-m_e cosmologies; the model's specific numbers
   are its own.

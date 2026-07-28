@@ -562,7 +562,7 @@ So the missing ingredient is not a free parameter that has yet to be fixed — i
 current field content **cannot** contain. That is a real structural statement about where a cure
 would have to come from, and it is worth more than a fitted patch.
 
-**The honest reading of the coupling law.** The dark sector couples to the Standard Model
+**What the coupling law allows.** The dark sector couples to the Standard Model
 gravitationally and nothing else. That law is exactly what forces every native lever to be an
 expansion lever — and §5 shows expansion levers are the wrong shape for this row. The two levers
 with the right shape both act on deuterium's own physics (its binding, its destruction) rather than

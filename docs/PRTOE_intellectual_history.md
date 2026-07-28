@@ -146,7 +146,7 @@ the H₀ mechanism's anatomy — the acoustic-scale ridge, the damping-tail
 tax, and the recombination-timing lever (varying m_e) that evades the tax
 where the radiation lever could not.
 
-## Where the honest scoreboard stands (morning of 2026-07-06)
+## Where the scoreboard stands (morning of 2026-07-06)
 
 - On Planck+BAO+SN alone: dCDF beat ΛCDM by 19.2 in χ².
 - ACT DR6 clawed essentially all of it back; the joint-stack refit landed

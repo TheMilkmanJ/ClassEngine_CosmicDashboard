@@ -22,7 +22,7 @@ twist_floor.py, c1_locus_twist.py.*
 
 ---
 
-## The chain (each stage computed, each verdict honest)
+## The chain (each stage computed, each verdict graded)
 
 ### 1. Hawking radiation as a "brake" — real sign, negligible magnitude
 - Converting black-hole rest mass (w = 0) → radiation (w = +1/3) raises (ρ+3p): a **brake**
@@ -143,7 +143,7 @@ twist_floor.py, c1_locus_twist.py.*
 
 ---
 
-## Honest overall status
+## Overall status
 A **coherent cyclic-genesis narrative assembled from real mechanisms** (acoustic horizon, plume
 roll-up, helical vortex ring, thawing pseudo-Goldstone floor, negative bare vacuum). It closes a
 loop: torus → twist genesis → thawing floor → reversal → crunch → confined c = 1 heat → the torus

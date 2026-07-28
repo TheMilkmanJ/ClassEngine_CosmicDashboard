@@ -27,7 +27,7 @@ without disturbing the acoustic structure (the established varying-m_e degenerac
 the condensate's order parameter, condensing at T_c = 177.10 keV, inactive during the
 early stages of nucleosynthesis at production grade).
 
-## 3. Where it lands — stated honestly
+## 3. Where it lands
 
 - **Same data, same pipeline**: ΛCDM's best fit gives H₀ = 68.2; the model gives
  **69.9**, with the Bayesian evidence favoring the model at ΔlnZ ≈ +2.6 (Laplace

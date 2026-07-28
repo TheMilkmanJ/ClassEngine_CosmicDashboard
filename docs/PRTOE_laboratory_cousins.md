@@ -90,7 +90,7 @@ The model's claim that the winding freezes mechanically at a slip threshold, rat
 thermal draw, predicts a slip rate following the barrier form rather than an Arrhenius law —
 measurable in existing rotating-ring apparatus.
 
-**The bench-to-cosmos mapping, stated honestly:**
+**The bench-to-cosmos mapping:**
 
 | quantity | carries over? |
 |---|---|

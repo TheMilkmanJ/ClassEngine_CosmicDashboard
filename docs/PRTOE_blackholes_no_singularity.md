@@ -82,7 +82,7 @@ the ceiling (Colpi–Shapiro–Wasserman class):
 
 Reaching 3×10¹⁰ M☉ needs only a repulsive λ ≳ 2.2×10⁻⁹² in this section's normalization — and the
 threshold is convention-dependent at the factor-4π level (the CSW normalization reads the same
-requirement ~13× smaller). The honest statement uses the tighter convention: the derived
+requirement ~13× smaller). Stated in the tighter convention: the derived
 λ ≈ 2×10⁻⁹¹ clears the largest known holes by **at least a factor of 20**, and by ~250× in the
 looser normalization. Either way, any repulsive radial self-coupling of the condensate clears it. (This is the repulsive
 *amplitude* quartic, distinct from the tiny *attractive* axion/phase coupling that sets the
@@ -151,7 +151,7 @@ The theorem's premises, audited against this interior:
 The theorem is not violated — it is **discharged at its premises**, exactly as in every
 analog-gravity system where sonic horizons demonstrably form and nothing singular ever occurs.
 
-## 7. Observational posture (honest)
+## 7. Observational posture
 
 - **Null-prediction stance** (the model's stance): exteriors indistinguishable from GR
  at current precision — shadows, ringdowns, superradiance margins all inherited.

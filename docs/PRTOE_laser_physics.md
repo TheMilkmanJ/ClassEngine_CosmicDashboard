@@ -47,7 +47,7 @@ electron row) — the laser is the instrument holding the medium's Lorentz shiel
 account. And optical clocks (laser-locked) police the ṁ_e = 0 today claim (the window's
 low edge). The medium's two hardest performance bills are enforced BY laser physics.
 
-## 5\. The honest boundary
+## 5\. The boundary
 
 No new laser predictions. The flow is one-way: lasers legitimize the grammar
 (macroscopic coherence is ordinary), rehearse the transition (GL universality), and

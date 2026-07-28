@@ -30,7 +30,7 @@ preferred frame = the CMB frame (free consistency); the bill = note-perfect repr
 (the LV envelope, Planck-suppressed by the forced basement). **Thread: PERFECT-AS-ORIGIN,
 with the standing performance bill (M3).**
 
-## 3. GR — threads CONDITIONALLY (the honest half-point)
+## 3. GR — threads CONDITIONALLY (a half-point)
 
 The assembled kit, every piece graded: dE = −p dV, the zero-sum constraint,
 the horizon thermodynamics (Jacobson's route), the singularity discharges, the

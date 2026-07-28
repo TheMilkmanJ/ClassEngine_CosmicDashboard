@@ -62,7 +62,7 @@ to unity as the box grows.
 **What that is worth, with the error bar attached.** The quadrupole carries 63% cosmic
 variance — five modes, irreducible by any amount of data. Against that scale: the observed
 deficit sits about 1σ below expectation, this prediction sits 0.16σ below, and the two are
-roughly **0.9σ apart**. So the honest statement is neither that the model predicts the anomaly
+roughly **0.9σ apart**. So the statement is neither that the model predicts the anomaly
 (the data does not demand any particular depth) nor that it falls short (the data cannot
 resolve the difference): **the mechanism produces a suppression in the right place, of a size
 the quadrupole alone can never grade.**
@@ -121,7 +121,7 @@ spectrum and exactly one preferred axis, and it has independently pre-registered
 axis is testable. The anomalies convert from embarrassments-of-chance to
 predictions-in-waiting.
 
-## 3. The honest risks
+## 3. The risks
 
 - The torus size (L ≥ 27.6 Gpc) risked being too large for the mode cutoff to explain the low
  quadrupole quantitatively. The cavity computation settled it, and the answer is split: the

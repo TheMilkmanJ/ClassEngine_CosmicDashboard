@@ -45,7 +45,7 @@ Newton's first law is not an axiom here — it is the superfluid's zero-drag cer
 Free motion exists because the one medium that survived 1887 is the one medium that
 never drags.
 
-## 3. The two aether objections, answered separately (regime honesty)
+## 3. The two aether objections, answered separately (by regime)
 
 The historical case against a medium is two distinct objections, and they are paid from
 two different accounts — this file refuses to blur them:
@@ -92,7 +92,7 @@ its predicted deviations at (E/M_Pl)ⁿ: below current reach, same envelope as t
 Lorentz-violation budget. One suppression meets both requirements — a consistency, not a
 coincidence.
 
-## 5. The propulsion corollary (graded honestly; jurisdiction respected)
+## 5. The propulsion corollary (graded; jurisdiction respected)
 
 What the medium tells a traveler, in three lines:
 

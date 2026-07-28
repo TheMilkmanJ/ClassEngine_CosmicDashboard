@@ -51,14 +51,14 @@ the residue of insisting the substrate is two places rather than one object.
 1. **Reproduction-exactness**: the model must match QM's correlations EXACTLY —
  **Tsirelson's bound, 2√2, to all precision**. Below = local (dead);
  above = super-quantum (dead). Every improved Bell-type experiment is a standing test the
- model must pass forever and can never win points from. That asymmetry is the honest price
+ model must pass forever and can never win points from. That asymmetry is the price
  of a null-prediction ontology — and in this model's stance, "reproduces exactly"
  IS the prediction.
 2. **No preferred-frame leakage into correlations**: the medium has a rest frame (the Weinberg–Witten
  evasion's price); entanglement correlations must remain frame-independent to current
  precision — the Lorentz-violation literature covers this jointly.
 
-## 5. Honest scope
+## 5. Scope
 
 No new experimental signature is claimed. The document's value is ontological economy,
 auditable: the nonlocal beable that Bohm-class interpretations must *posit*, this model

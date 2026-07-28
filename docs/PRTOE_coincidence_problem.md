@@ -67,7 +67,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  placement slightly harder to explain, not easier. The model has traded "why is Λ this size" for
  "why are we early in its era" — a sharper question, not a closed one.
 
-## 2. The improvement, honestly bounded
+## 2. The improvement, bounded
 
 - ΛCDM: the coincidence is unaddressable in principle (Λ is an input).
 - Quintessence trackers: address it with a designed potential (a dial doing the work).

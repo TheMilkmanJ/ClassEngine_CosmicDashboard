@@ -114,7 +114,7 @@ EM-binding environment. Split:
 So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits AT the
 ceiling. The size is derived here as a bound; the exact value comes from the standing
 stack eps = c*fbar*alpha_c = 27*alpha/(5*pi), which uses no cutoff at all --
-this section's Lambda-and-modulation route is superseded by it. [sec 28, 31]
+it, not this section's Lambda-and-modulation route, sets the value. [sec 28, 31]
 
 Why m_e and not α: varying-α killed by quasars (45-100x); m_e evades
 those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]

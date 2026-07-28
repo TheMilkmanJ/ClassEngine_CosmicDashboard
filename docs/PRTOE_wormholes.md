@@ -29,7 +29,7 @@ extra negative energy — it needs the zero-point itself to go negative. The vac
 and the stability law names who can: **no one.** The whole ban in
 eight words: *you'd have to push the zero-point below zero.*
 
-**The price (stated honestly):** the model DOES own one NEC-flexible sector —
+**The price:** the model DOES own one NEC-flexible sector —
 the ghost condensate, the arrow-giver (⟨θ̇⟩ ≠ 0 background [ArkaniHamed2004]). But its
 excitation budget at the anchor surface was computed in the branch-DOS pass: **17 orders
 of magnitude suppressed**. So the model's wormhole statement is sharper than the generic

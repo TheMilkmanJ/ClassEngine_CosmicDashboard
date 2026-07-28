@@ -138,7 +138,7 @@ wears a debt tag. No prose without physics behind it. Updated continuously.*
 > formula string itself — it is never assigned a value. The nearest recorded quantity is the
 > torus scale **L ≥ 27.6 Gpc**, and that is explicitly a *lower bound*: the smallest torus the
 > matched-circles nulls permit. Evaluating the formula there, with the recorded ξ_K = 256 Mpc,
-> gives **n_rms = 1.65** — so the honest reading of the GEN 1 step is a bound, **n ≳ 1.65**, not
+> gives **n_rms = 1.65** — so the GEN 1 step is a bound, **n ≳ 1.65**, not
 > a determination.
 >
 > The registered band n ~ 10–30 is consistent with the formula, but only for **L ≈ 1000–9000 Gpc**,

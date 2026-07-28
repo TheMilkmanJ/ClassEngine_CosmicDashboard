@@ -59,7 +59,7 @@ FORCED to 37–47 orders below unit charge by the Meissner/photon-mass bound
 (q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — P-2026-028's constraint-closed-en-route). The model is not
 allowed to make fields directly; it is allowed to stir.
 
-## 3. The void floor — the honest open gap
+## 3. The void floor — the open gap
 
 The blazar bound constrains the field BETWEEN structures. The vortex-network rms boost
 (×3400) concentrates B on the **filaments/lines**, while the void floor constrains the

@@ -42,7 +42,7 @@ edge-shape fork is recorded in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.
 Below z = 50 the lattice predicts NULLS (today's constants are the lab's) — quasar-epoch drift
 searches must stay quiet (they have).
 
-## 3. Honest scope
+## 3. Scope
 
 - Signal sizes are hard: dark-ages radio is a lunar-farside program; the comb needs a
  dedicated trispectrum/BipoSH pass (the isotropy-estimator class must be

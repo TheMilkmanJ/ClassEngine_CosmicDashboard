@@ -1,13 +1,11 @@
 # PRTOE — Laws & Rules (canonical home)
 
-*Single home for the model's constitutional layer, created 2026-07-08 because
-the laws were scattered across three docs (`PRTOE_v5_dCDF_complete.md` C1,
-`PRTOE_INTERACTION_ATLAS.md`, `PRTOE_me_trigger.md`) and their amendment history
-was tracked nowhere. This file collects them, sources each one, and — the part
-that was missing — keeps an **amendment record** so "how many times have we
-changed a law?" has a real answer going forward.*
+*Single home for the model's constitutional layer (2026-07-08). It collects the laws
+from `PRTOE_v5_dCDF_complete.md` C1, `PRTOE_INTERACTION_ATLAS.md` and
+`PRTOE_me_trigger.md`, sources each one, and keeps an **amendment record** so
+"how many times has a law changed?" has a real answer.*
 
-**Honesty key:**
+**Provenance key:**
 - `[CORPUS]` = quoted or paraphrased from an existing doc, with file:line.
 - `[AUTHOR-PHRASING — verify]` = the originator's plain-language memory, matched to the
   corpus; confirm it matches original intent.
@@ -120,8 +118,8 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
   keeps TOTALS, not local densities — gravitational field energy has no pointwise location. `[CORPUS: atlas:644]`
   Forced by the **gravitational-self-energy strain**: gravitational field energy
   has no local density (EP erases it pointwise), yet the global totals are exact.
-  The language required a genuine amendment rather than translating cleanly — "the
-  streak's first deuterium row." **This is very likely the "4th law" you were sensing.**
+  This is the one place the language needs an added axiom rather than an exact
+  translation.
 
 ---
 

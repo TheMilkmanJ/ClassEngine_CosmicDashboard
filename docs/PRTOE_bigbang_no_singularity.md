@@ -104,7 +104,7 @@ but it is a structure term for the loaded floor and cavity, not by itself the ha
 | initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded |
 | the pre-genesis relic hunt | NULL: the crunch eats all light (τ_ff ≫ 1); any confirmed pre-genesis EM relic KILLS the model | recorded falsifier |
 
-## 5. Honest owed items
+## 5. Owed items
 
 - λ — **paid**: derived at ≈ 2×10⁻⁹¹ (the CMB ceiling (m/Ψ₀)², clearing the black-hole core's
  requirement by at least 20× in the tight convention). What this file still owes through it is

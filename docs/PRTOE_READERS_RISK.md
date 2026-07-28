@@ -12,7 +12,7 @@ fractional amount ε ≈ 1.24%, active pre-recombination and screened off late. 
 induced/GR, with no bare cosmological terms. The entire modification to known physics is one
 number, ε, applied everywhere atomic physics appears.
 
-## 2. Strongest claims (graded honestly)
+## 2. Strongest claims, graded
 - **ε = c·f̄·α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%**, against the sky's fitted ~1.24% — zero
   dials. *One factor is derived (f̄ = 2/π, the winding average), one is a counting assumption
   (c = 9/10), one is a registered bet (α_c = 3α) — so the stack's effective grade is the

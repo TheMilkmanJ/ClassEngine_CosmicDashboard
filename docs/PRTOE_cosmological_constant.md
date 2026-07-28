@@ -125,7 +125,7 @@ observed 2.25 meV. (This sector sets the dark-energy *binding scale* only; the d
 the medium's own excitations. The derivation, and why a QCD-like sector is required, are in the
 open-derivations document.) What the model does **not** derive is the pinning — *why* the dark
 scale equals the electron mass. That one input is irreducible: it is the meV coincidence
-ρ_Λ ~ α⁴m_e, and it cannot be derived without spoiling the value of τ. So the honest reading: the
+ρ_Λ ~ α⁴m_e, and it cannot be derived without spoiling the value of τ. So: the
 dark-energy *scale* follows a derived closed form in α with a single dimensionful input, the
 electron mass; the value lands within a few percent; and the one un-derived step is stated
 plainly, not hidden.
@@ -242,7 +242,7 @@ the headline binding by **+18.2%** — an **enhancement**. The full phonon sum's
 and still holds: it over-predicts by **3.2×**, which is what licenses reading Λ as a residual
 rather than the full sum. But the residual's *size* is not obtained by applying the phase-space
 factor to 7.1. So the thermal reading's scale (2.25 meV, forward) and the perturbations reading's
-coefficient (2.672) are **one number to ~19%** — the honest statement — and the owed O(1)
+coefficient (2.672) are **one number to ~19%**, and the owed O(1)
 (effective mode count g_*, the exact Landau cap) is the gap between **E_b and E_b/(16π²α_c³ᐟ²)¼**,
 not between 7.1 and 2.67. Located precisely: the headline E_b = ½α_c²M₂ = 2.2599 meV (**+0.44%**)
 and the tie m_ν = 2.250 meV agree to that same 0.44%, and both sit at the observed 2.25; the

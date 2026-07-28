@@ -24,7 +24,7 @@ not move in the tenth digit.** A model that had to choose between varying lepton
 preserving Koide got both, from one portal structure needed anyway for gate-0. That is a real,
 graded improvement: the relation's robustness is EXPLAINED here and accidental everywhere else.
 
-## 2. The live half: why it holds (the lane, honest status)
+## 2. The live half: why it holds (the lane, and its status)
 
 Koide is one derived number away, modulo one linkage that is not built. That is the whole
 status; the rest of this section is what it means.
@@ -282,7 +282,7 @@ This replaces the earlier reading, which required choosing that equilibrium part
 returns Q = 1. The moment condition needs no such choice: the sector split falls out of it rather
 than being imposed on it.
 
-What remains open is what enforces the constraint exactly, and the honest statement of it is
+What remains open is what enforces the constraint exactly, and the statement of it is
 short. A thermal population explains the number's value and nothing else: three draws from a
 Boltzmann law scatter with σ = 1/√60, four orders wider than the agreement, and the law's
 deterministic representatives miss 2/3 outright. The sector's single input is a constraint in search

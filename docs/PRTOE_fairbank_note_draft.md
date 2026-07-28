@@ -89,7 +89,7 @@ closes, the floor is exactly zero, and complete cancellation becomes allowed. Th
 anchor sits 2.8% below that threshold — six times the precision to which the scale is measured —
 so the floor thins across the allowed range, but it does not vanish inside it.
 
-So the honest statement is that the floor is around 0.04 meV, and that it is a coincidence of
+So the floor is around 0.04 meV, and it is a coincidence of
 scales rather than a protected feature. Nothing observable rides on it: it is two orders below any
 experiment's reach on any timeline, and every conclusion below turns on the ceiling instead, which
 the anchor barely moves.

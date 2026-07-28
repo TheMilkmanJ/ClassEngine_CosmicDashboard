@@ -7,7 +7,7 @@
 
 *A showcase, written 2026-07-07. One section per domain: what the program
 actually did there, what was computed or derived (never merely asserted),
-and the honest verdict. Numbers are sourced from the working documents —
+and the verdict. Numbers are sourced from the working documents —
 nothing here is quoted that does not have a receipt in
 `archive/PRTOE_v5_dCDF_complete.md`, `working_logs/PRTOE_room1_complex_completion.md`,
 `PRTOE_INTERACTION_ATLAS.md`, `PRTOE_PREREGISTERED_PREDICTIONS.md`, or
@@ -403,7 +403,7 @@ empirical: P(f_amp>0.2) rose with h — 84 → 82 → 84 → 94 → 100% — wit
 quiet realization at h=1×10⁴ (min f_amp 0.246). The ensemble stands; the
 backbone that tried to extrapolate it does not.
 
-The honest answer to "what is ε?" is a probability distribution
+The answer to "what is ε?" is a probability distribution
 (the ensemble, intact) — and the pre-registered falsifier killed the backbone
 that tried to derive it, exactly where the review said to look. Stage-two
 conformal integration is now the sole ladder to physical h.

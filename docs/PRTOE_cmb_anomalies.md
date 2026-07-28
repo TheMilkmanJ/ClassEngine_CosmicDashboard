@@ -72,8 +72,8 @@ different amplitudes — any constant-amplitude dipole fit is a step-shaped erro
 
 ## What the torus can and cannot grade (2026-07-18)
 
-The compact cavity's effect on the power spectrum has been computed, and the honest reading is
-narrower than the file's framing above. The suppression appears where it should — confined to
+The compact cavity's effect on the power spectrum has been computed, and it reads
+narrower than the framing above. The suppression appears where it should — confined to
 the lowest multipoles, gone by ℓ ≈ 4 — but at the smallest torus the matched-circle nulls
 permit it is shallow, and the quadrupole's own cosmic variance is 63%. Model and observation
 sit roughly **0.9σ apart**, and the whole pattern across ℓ = 2–6 scores a signal-to-noise of

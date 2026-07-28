@@ -100,8 +100,8 @@ Literature pulled when this went on the record:
  demand m < 10⁻²¹ and declare free FDM INTERNALLY INCOMPATIBLE**
  (no single m fits Fornax-class and UFD-class systems together).
 - Calabrese & Spergel 2016 (MNRAS 460, 4397): Draco II + Tri II
- prefer 3.7–5.6×10⁻²² (below band; two-object fit, superseded in
- spirit by the 18-UFD sample).
+ prefer 3.7–5.6×10⁻²² (below band; a two-object fit, against the
+ 18-UFD sample above).
 
 **The two-fluid medium's angle — recorded as a HYPOTHESIS, sims-owed:**
 the free-FDM "incompatibility" assumes one field, one universal

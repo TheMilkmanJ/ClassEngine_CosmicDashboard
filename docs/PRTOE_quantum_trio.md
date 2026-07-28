@@ -36,7 +36,7 @@ same three doors as:
 phenomena inseparably, because the three are not properties the pair *has* — they are the
 three windows through which any condensate is seen.
 
-## 3. What this explains, at its honest grade
+## 3. What this explains, at its grade
 
 - **Why the trio always travels together.** No theory ever finds superposition without
  entanglement without tunneling; textbooks treat this as three axioms sharing a formalism.

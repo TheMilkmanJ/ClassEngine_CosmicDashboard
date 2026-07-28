@@ -73,17 +73,16 @@ only: the reasoning lives in [`working_logs/_AUDIT_LEDGER.md`](working_logs/_AUD
 kills in [`PRTOE_FAILURES_LEDGER.md`](PRTOE_FAILURES_LEDGER.md), and each claim in its own file —
 which is the authority wherever the two disagree.
 
-## Live, previously unlinked (surfaced 2026-07-16)
+## Live — the rest of the current shelf
 
-*These are current and load-bearing; none was reachable from this index before. (The internal
-candid self-assessment is deliberately not on this shelf and is not listed here.)*
+*These are current and load-bearing. The internal status board is deliberately not on this shelf.*
 
 - [THE PHYSICS DOMAINS](PRTOE_PHYSICS_DOMAINS.md) — the 76-domain census with verdicts and receipts
 - [dCDF v5 — THE COMPLETE MODEL](archive/PRTOE_v5_dCDF_complete.md) — **mechanics current, fit numbers
   historical.** The barotropic dark fluid that replaces both CDM and Λ (p_d ≡ −ρ_∞, the
   w = −ρ_∞/ρ background) is the standing model; the July-6 refit tables inside it (H₀ = 69.70,
   the χ² tables) are that era's frozen record and carry their own banner. *Filed here, not in the
-  archive: the "v5" in the name is a version label, not a retirement.*
+  archive: the "v5" in the name is a version label.*
 - [THE CODE MANIFEST](PRTOE_CODE_MANIFEST.md) — what is in the pipeline, what is armed, what is
   banned (the theory↔code boundary)
 - [THE H₀ CEILING](PRTOE_H0_CEILING.md) — how high the model can reach, and why the pipeline can't
@@ -118,7 +117,7 @@ does not, trust
 - [STATE_OF_MODEL](archive/PRTOE_STATE_OF_MODEL.md) — historical checkpoint, predates the derivation hunt
 - the v4/v5 era: [v5_five_verdict_derivation](PRTOE_v5_five_verdict_derivation.md) ·
   [v5_SIDM_scoping](archive/PRTOE_v5_SIDM_scoping.md) · [v4_dCDF_derivation](PRTOE_v4_dCDF_derivation.md) ·
-  [v4_dCDF_results](PRTOE_v4_dCDF_results.md) (superseded by the era of the electron-coupled scalar)
+  [v4_dCDF_results](PRTOE_v4_dCDF_results.md) (predating the era of the electron-coupled scalar)
 - lab-logs (dead ends included, by design):
   [room1_complex_completion](working_logs/PRTOE_room1_complex_completion.md) ·
   [gate0_qft_derivation](working_logs/PRTOE_gate0_qft_derivation.md)
@@ -130,4 +129,4 @@ does not, trust
   [intellectual_history](PRTOE_intellectual_history.md) ·
   [kill_and_patch_2026-07-07](working_logs/PRTOE_kill_and_patch_2026-07-07.md) ·
   [granule_scoping](PRTOE_granule_scoping.md) · [math_story](PRTOE_math_story.md) ·
-  [references](PRTOE_references.md) (superseded by [BIBLIOGRAPHY](BIBLIOGRAPHY.md))
+  [references](PRTOE_references.md) (the canonical source list is [BIBLIOGRAPHY](BIBLIOGRAPHY.md))

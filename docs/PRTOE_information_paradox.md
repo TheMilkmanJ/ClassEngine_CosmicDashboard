@@ -65,7 +65,7 @@ system**. Consequences, each from a graded object:
 | the Page curve | the quantitative test | **derived-conditional at the coefficient, owed at the curve** — the functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)), the scaling follows with species count and cutoff cancelling, and the coefficient is the ratio the same cutoff supplies (12π/48π = 1/4, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); the regulator's entanglement-side O(1) is paid structurally (the conical δ-function in R makes both coefficients one heat-kernel term, so any form factor cancels in the ratio); what remains is the curve itself, plus the field-content extension beyond minimally coupled scalars |
 | firewalls / remnants / ER=EPR | competing exotica | unnecessary: the interior is matter, not geometry |
 
-## 3. Honest scope
+## 3. Scope
 
 This is a **dissolution, not a calculation**: the paradox's premises fail in this model, so no
 paradox forms — the same logical shape as the Penrose-premise audit. What would elevate it to

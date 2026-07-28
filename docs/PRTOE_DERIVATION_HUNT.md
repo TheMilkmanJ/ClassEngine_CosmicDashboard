@@ -750,6 +750,20 @@ is, the selectivity is supplied by structure the model already carries for unrel
 **Kill condition:** if the Z₃ charge is shown to commute with chirality — grading families rather
 than handedness — the identification fails and the residue stands as recorded.
 
+**The kill fires** (`scripts/z3_axial_identification_verdict.py`), on a requirement this sector
+imposes itself. The Z₃ must be a *genuine* symmetry making the three Fermi points one cone-sharing
+orbit — that is what the family node needs. A cyclic permutation is orientation-preserving, so nodes
+in one orbit carry the same Berry monopole charge q; Nielsen–Ninomiya sets the total over compact
+momentum space to zero, so 3q = 0 and **q = 0**. The three seats are topologically neutral, there is
+no chirality on them for a Z₃ charge to be identified with, and the Z₃ therefore grades the family
+index while chirality lives on the Dirac index — they commute. The identification is dead; §6c's
+residue stands as recorded.
+
+**The obstruction generalises, and that is what survives.** A symmetry that makes all three seats one
+orbit cannot also single out two of them: **any selector for the node pair must break the Z₃, and
+the family node needs the Z₃ exact.** So §6c's selector and the Koide node's symmetry pull against
+each other, and any future candidate supplying one must be checked against the other.
+
 **What the pairing section would need to say.** That its four conditions are two: (1) *a
 species-selective chiral chemical potential on exactly one node pair* — which subsumes the old
 conditions 1, 2 and 4 and §6b's condensation residual, since screening, compensation and the
@@ -1020,7 +1034,7 @@ mass ratios are determined**:
 | m_μ/m_e | 206.7703 | 206.7683 | +9.8×10⁻⁶ |
 | m_τ/m_e | 3477.473 | 3477.228 | +7.0×10⁻⁵ |
 
-So the honest statement is not that the model is silent on the ratios — it is that the model
+So the statement is not that the model is silent on the ratios — it is that the model
 **stakes** them on two numbers, neither of which is derived. A = √2 has seven recorded mechanism
 attempts and every one of them failed ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md));
 θ = 2/9 rests on the closure, which is structure-clean, post-hoc-found, and carries the standing

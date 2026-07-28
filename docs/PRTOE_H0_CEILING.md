@@ -47,7 +47,7 @@ real-SN-template + real-filter synthetic photometry; the module stays armed-off 
 then. The model does not currently explain the full SH0ES reading — it predicts
 ~70–71 and owns the residual as tension.
 
-## 4. Why PolyChord/CLASS cannot carry these parameters today (the honest gap)
+## 4. Why PolyChord/CLASS cannot carry these parameters today
 
 - **CLASS is an isotropic, global Boltzmann code**: it evolves one homogeneous
  background and linear perturbations. The candle term is a PER-OBJECT, ENVIRONMENTAL

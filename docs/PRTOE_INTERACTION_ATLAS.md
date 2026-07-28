@@ -567,7 +567,7 @@ is its only coupling). Give it curvature and the product is determined:*
  rest frame — everything slides with the current to 99.9%; peculiar
  velocity is the crosscurrent swim.
 
-## Strains (where the translation is PARTIAL — the honest exceptions)
+## Strains (where the translation is PARTIAL)
 - **Gravitational self-energy (2026-07-07 night; the first strain in 14
  domains, found by hunting for a break):** the framework's core axiom —
  charges have gauge fields, fields have locations — meets a THEOREM of

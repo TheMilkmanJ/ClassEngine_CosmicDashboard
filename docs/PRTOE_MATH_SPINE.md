@@ -786,7 +786,7 @@ universe rung SITS on its own skeleton: 2.28 vs 2.29×10⁻⁴); the corrected o
 nucleus > UNIVERSE > atom > star > galaxy — the universe is the tightest GRAVITY-made
 structure); **the hinge: ξ = 402 AU inside the solar-system rung — one substrate boundary in
 the whole descent**; the double-ladder alignments graded per-rung (2 definitional, 3 loose —
-no mechanism, honestly tagged); the energy cascade still open as the dynamical half.
+no mechanism); the energy cascade still open as the dynamical half.
 
 **THE WINDOWED BBN VERDICT:**
 T_c (177.10 keV on the kernel's τ; 179 keV as the BBN pipeline codes it — the conclusion is

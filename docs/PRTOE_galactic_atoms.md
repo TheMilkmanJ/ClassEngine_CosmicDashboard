@@ -69,7 +69,7 @@ The soliton ("1s") core radius scales as r_c ∝ 1/m² per halo mass; with the r
  in that potential is not the soliton the relation describes; the literature on ultralight dark
  matter with central black holes finds such cores disrupted or accreted.
 
- **So the honest statement has two parts.** The naive core-halo prediction is excluded at the
+ **So the statement has two parts.** The naive core-halo prediction is excluded at the
  Galactic Centre by about a factor of three. The model's answer must therefore be that galaxies
  with dominant nuclear black holes **do not** carry the soliton the relation predicts — which is
  a claim the sector has to make explicitly rather than inherit, and which weakens "every galactic
@@ -94,7 +94,7 @@ partition measured by the ramp), relaxation by wave interference rather than two
 scattering. Standard heavy-FDM phenomenology inherited; the model's specific f_amp value is a
 cross-link no generic FDM has.
 
-## 3. Honest scope
+## 3. Scope
 
 - The soliton scalings are the standard Schive-class relations at OOM precision; the model's
  content is the FIXED m (one number for every galaxy — falsifiable in aggregate).

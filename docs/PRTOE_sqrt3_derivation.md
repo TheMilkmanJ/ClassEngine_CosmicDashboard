@@ -90,7 +90,7 @@ why-now stays dial-free.
 **Do not identify** `dcdf_floor_thaw` with B·√3 — the code parameter is 1+w today (amplitude of
 how far nonlinear the mode has grown); B·√3 is the rate in units of H (the clock).
 
-## Connection to KP-sequester (honest scope)
+## Connection to KP-sequester (scope)
 
 The KP (Kaloper–Padilla) self-consistency solve **fails** as a mechanism for the residual Λ
 *value* (Ω_Λ/Ω_m capped at ~0.40 vs observed 2.2 —

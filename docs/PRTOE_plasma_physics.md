@@ -11,7 +11,7 @@
 - the crunch's mouth: ν_p sweeps up with density (ν_p ~ 900 MHz at n_e ~ 10¹⁰ cm⁻³) — each
  radio band massed, then thermalized (the before-genesis null's mechanism, graded)
 - EM-trace ownership: electrons 99.95% (1/m weighting) — the leptophilia RHYME
- (suggestive-only, honestly tagged)
+ (suggestive only)
 
 ## How PRTOE connects
 Plasma is where the medium and light exchange their only glances: dispersion (measurable, the

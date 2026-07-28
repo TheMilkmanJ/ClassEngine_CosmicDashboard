@@ -39,7 +39,7 @@ history — exactly the shape of the observed tension.
 - MEANING-INVERSION NOTE (kept): a conv_g pulled LARGE would ease S₈ at the price
  of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 
-## 3. The improvement, honestly bounded
+## 3. The improvement, bounded
 
 ΛCDM: S₈ tension = hope-it's-systematics. This model: a built, recorded, pre-registered,
 one-parameter mechanism WITH ITS OWN POLICE (the w = −1 commitment) — falsifiable in both

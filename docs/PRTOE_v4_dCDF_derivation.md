@@ -16,8 +16,8 @@
 > with **c_s² ≡ 0**. dCDF v5 samples 8 parameters — only +1 (ξ_Neff) vs ΛCDM.
 > Everything below remains the correct derivation of the general P(X)
 > framework, but the β-specific sections are now **historical**: §3.2 (the
-> two-parameter family), §9.4 (logistic ansatz — a review also found its
-> c_s²≥0 claim unproven, which is moot now), and the β rows of the parameter
+> two-parameter family), §9.4 (logistic ansatz — its c_s²≥0 claim is
+> unproven and moot at β = 0), and the β rows of the parameter
 > dictionaries. Configs passing `dcdf_beta` now fail loudly. Current results,
 > validation matrix, and best fit: `PRTOE_v4_dCDF_results.md`.
 
@@ -60,7 +60,7 @@ dcdf_beta=1×10⁻⁷, dcdf_rho_inf=0.7 → age=13.98 Gyr, σ8=0.789, w(today)�
 c_s²(today)≈5×10⁻⁸ (order β, as predicted). Falsifiability tests (§6) still
 not run — this was a functionality check, not yet a physics comparison
 against ΛCDM.
-This supersedes the v3 (F(φ)R non-minimal coupling) program, which is closed —
+This replaces the v3 (F(φ)R non-minimal coupling) program, which is closed —
 see `[[prtoe-screening-nogo]]` memory / `archive/root_cleanup_20260705/HANDOFF_FOR_GEMINI.md` for the four
 independent H₀-rescue attempts that failed by direct calculation. v4 does **not**
 modify gravity. It replaces separate CDM + Λ (or CDM + fld) with a single dark
@@ -180,7 +180,7 @@ decoupling §3.1 lacked: β suppresses the dangerous peak sound speed
 independently of how compressed (in e-folds of density) the transition is.
 This is now the adopted background equation of state.
 
-**Honest limitation:** the peak-$c_s^2$ estimate is a proxy, not a Boltzmann
+**Limitation:** the peak-$c_s^2$ estimate is a proxy, not a Boltzmann
 calculation. Whether $\beta\sim10^{-7}$ (chosen to target peak $c_s^2\sim10^{-7}$,
 comfortably below Sandvik-type bounds) actually reproduces a viable matter
 power spectrum is a numerical question — the first real test to run once the
@@ -246,7 +246,7 @@ functions plugged into the existing fluid equations.
 | $\Omega_{d,0}$ | `pba->Omega0_dcdf` | target density fraction today (shooting target) |
 | $s$ | — | $\ln(\rho_d/\rho_\infty)$, computed, not stored as a parameter |
 
-## 8. Open theory debts ([DERIVE] tags, honest as of implementation start)
+## 8. Open theory debts ([DERIVE] tags, as of implementation start)
 
 - **[DERIVE]** §3.2's family was constructed to satisfy the local
  no-gradient condition and match the two asymptotic limits; it was *not*
@@ -397,7 +397,7 @@ $\Delta$ comparable to the whole range flattens the profile) at $s\approx0$–$5
 — wrecking σ8 the same way v4.0's β did, just via a different knob. There is
 no $(\Delta,w_1)$ that threads both needles with a monotonic $w_{\rm kin}(s)$.
 
-**Honest correction of my message to Gemini:** a genuine halo-core signature
+**What a halo-core signature would actually require:** a genuine signature
 would require $c_s^2(s)$ itself to be a *bump* (small at $s\sim0$–5, rising to
 non-negligible at $s\sim12$–16, presumably falling again beyond that), which
 is mathematically constructible — integrate the linear ODE

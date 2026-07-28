@@ -109,7 +109,7 @@ m_e by 1.2543% at recombination, easing H₀ → the shift is gated off inside s
 H₀ = 69.9 (provisional), dark matter + dark energy from one fluid, and the void-side m_e step
 (P-2026-007) as the sharpest surviving fingerprint.
 
-## The honest accounting of what's DERIVED vs OWED
+## The accounting of what's DERIVED vs OWED
  DERIVED : R=0; the genesis mechanism; basin-entry/census-switch; the field SHRINKS;
  G_μν = 8πG T_μν; the S formula; c = 9/10 (census count); f̄ = 2/π (winding).
  REGISTERED : α_c = 3α — the amplitude's one remaining input, under MCMC test.

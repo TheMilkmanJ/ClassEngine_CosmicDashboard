@@ -48,7 +48,7 @@ submits to a correlation test of this width.
  cluster time); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
  jointly).
 
-## 3. Honest accounting
+## 3. Accounting
 
 Rows currently favorable: H₀, Σm_ν, the nulls. Rows owned-adverse: Y_p (+1.3 to +2.0σ, the
 reversed row) and D/H (the fork — **−2.5 to −1.4σ** on the full stated budget: obs ±0.030 ⊕

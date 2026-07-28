@@ -6,8 +6,7 @@
 > A philosophy note — zero new physics claims (the fences cite recorded mechanisms only). The
 > model's mechanism needs nothing on this page (definiteness comes from decoherence/envariance;
 > anti-stagnation from the genesis draw). This is a teleological reading, preserved because it
-> completes a symmetry the model built — and because a repository this honest can afford one page
-> of why.
+> completes a symmetry the model built.
 
 ## The thesis
 The observer is a forced fundamental: art demands a gallery-goer. Without observers the
@@ -38,7 +37,7 @@ A refinement sharpens the thesis and, in doing so, splits from Wheeler entirely:
 observer changes nothing — "art will always be art, even without the observer." The
 observer has READ-ONLY access to the state; observation never writes entries. What the observer
 adds is appreciation value alone, and appreciation is marginalia — a mark the record itself
-cannot see. The physical fence, stated honestly: observation is interaction (a photon
+cannot see. The physical fence: observation is interaction (a photon
 must scatter), but that scatter is generic environment, indistinguishable from dust doing
 the same job; nothing observer-SPECIAL is ever posted. This is decoherence realism, and
 it is the model's native stance — decoherence resolved outcomes for 13.8 Gyr before
