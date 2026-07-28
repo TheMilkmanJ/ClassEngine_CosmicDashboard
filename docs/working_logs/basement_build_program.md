@@ -124,6 +124,17 @@ step — genuine model-building, not gated on any run.
   model-building, not a desk computation.
 - **The equation of state**, from which the response-function identity descends — the object α_c's
   derivation owes (that one medium response sets both the photon coupling and the compressibility).
+  *(2026-07-28, `scripts/two_channel_polarization_obstruction.py`: this is #130's piece 1, one debt
+  in two homes — and it is **obstructed by symmetry rather than blocked on the constituents**. One
+  form factor exists only in a Lorentz-invariant vacuum, where the identity is empty; a medium
+  supplies a rest 4-velocity and gauge invariance then permits two independent form factors. In
+  normal degenerate matter Π_L is the finite Debye mass while Π_T vanishes as q², so no O(1)
+  relates them; in a condensate the claim sharpens to n_s/m = ∂n/∂μ, a phase stiffness set equal to
+  a thermodynamic derivative, which only a Galilean- or Lorentz-type symmetry ties. **The band
+  structure below needs exactly the symmetry-breaking structure that unties them**, so this bullet
+  and the μ₅ residue pull opposite ways on one tensor. The sharpened question needs no
+  constituents: does the medium keep an emergent Lorentz invariance at the scale the photon
+  coupling is read?)*
 - **The seat constant b** (κ_m's exact value), which the tenth channel's m₁ = κ_m·ρ_inf¼ owes.
 - **The 2.9 near-lock's closure** — whether the basement's own threshold corrections close the
   non-abelian gap at M_Pl and turn the near-lock exact. A bonus round, not a lock.

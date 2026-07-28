@@ -168,7 +168,30 @@ mismatch rather than a question of precision:** the α_c chain returns a scalar,
 posterior separates *"α_c = 3α because one response sets both"* from *"α_c happens to equal
 0.0219"*. The owed object is an identity between two response functions, and an identity has no
 likelihood. (The chain does not even measure α_c directly — it fits log₁₀ z_on and converts through
-z_on ∝ α_c⁻² — so the value it returns is itself one inference removed.) **Still-open.**
+z_on ∝ α_c⁻² — so the value it returns is itself one inference removed.)
+
+**And most of the question is fixed by symmetry, without the constituents at all**
+(`scripts/two_channel_polarization_obstruction.py`). Gauge invariance forces Π^μν transverse. In a
+Lorentz-invariant vacuum the only available structure is (q²g^μν − q^μq^ν), so there is exactly
+**one** form factor and the two channels are the same function identically — the identification
+holds for free and carries no content. A medium supplies a second vector, its rest 4-velocity, and
+then gauge invariance permits **two independent form factors**. Whether "one function" survives is
+therefore a question about which symmetry the medium keeps, not about what it is made of. In
+normal degenerate matter the two channels are not merely unequal: Π_L(0, q→0) is the Debye mass
+and is finite, while Π_T(0, q→0) vanishes as q² — one channel is zero and the other is not, so no
+O(1) factor relates them. In a condensate both are finite and the unit-coefficient claim becomes
+the sharp equality **n_s/m = ∂n/∂μ** — a stiffness against a phase twist set equal to a
+thermodynamic derivative. Those are tied only by a symmetry: Galilean invariance at T = 0 forces
+n_s = n exactly, and the relativistic analogue does the same job.
+
+**This collides with the band structure the basement separately requires.** §6c needs a Fermi
+surface carrying a species-selective *chiral* chemical potential — a medium that has picked both a
+rest frame and a chirality, which is precisely the structure that splits Π_T from Π_L and releases
+them from each other. So piece 1 and the band-structure residue are not two debts that happen to
+share an object; they pull opposite ways on the same tensor, and whatever supplies one makes the
+other harder. **Still-open, and now obstructed rather than merely uncomputed** — the sharpened
+question, answerable without ever specifying the constituents, is whether the medium retains an
+emergent Lorentz invariance at the scale the photon coupling is read.
 
 *Piece 2 — the roster's induced split.* The claim conditions "base = α" on the recorded ~44%
 induced fraction. **That fraction belongs to a different coupling at a different scale.** The 44% is
@@ -713,7 +736,23 @@ already ruled out.** The axial route therefore supplies the *structure* and not 
 *selectivity*, and the residual reaches its sharpest form: **not "what gives the constituent level
 a Fermi surface" but "what gives one node pair a chiral chemical potential while the rest of the
 roster stays at μ₅ = 0."**
-Nothing recorded selects that pair.
+
+**A candidate selector is already in the corpus, in another sector**
+(`scripts/mu5_selectivity_from_z3.py`, candidate grade). The Koide reduction forces a Z₃-graded
+family node and records its charges explicitly — on a 3-cycle the Fourier modes carry Z₃ charges
+**0, +1, −1**. A chemical potential conjugate to *that* charge is not democratic: it vanishes
+identically on the neutral mode and is equal-and-opposite on the remaining pair, which is the
+residue's demand word for word — one particle pocket, one hole pocket, equal in magnitude, one node
+left untouched. **It also evades the count objection that killed the ungraded version:** the Z₃
+charges sum to zero, so a graded potential contributes nothing to any democratically summed
+quantity and cannot restore the ruled-out N ≈ 25.5. And neutrality is preserved *identically*
+rather than imposed, for the same reason. The graded form's (+,−,−) signature partitions the three
+modes exactly as the charge assignment does — the two are one grading read twice, not a
+coincidence. **The single remaining identification, named rather than assumed: whether the Z₃
+family charge is the axial charge.** If it is, the selectivity is supplied by structure the model
+already carries for unrelated reasons. **Kill condition:** if the Z₃ charge is shown to commute
+with chirality — grading families rather than handedness — the identification fails and the
+residue stands as recorded.
 
 **What the pairing section would need to say.** That its four conditions are two: (1) *a
 species-selective chiral chemical potential on exactly one node pair* — which subsumes the old
