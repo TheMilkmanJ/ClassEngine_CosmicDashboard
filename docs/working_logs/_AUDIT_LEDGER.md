@@ -4469,3 +4469,45 @@ a more expensive number in the same bin.
 Nothing was stopped or restarted — the chains and the M6 run are live work and the call on
 whether to kill any of them is the owner's. What this entry supplies is the arithmetic to make
 that call with.
+
+### 2026-07-28 — two owner decisions off #39: a symbol carrying two meanings, and a quartet that misses closure by nine
+
+Went to #39 (derive ω_J, target ≈5.7 keV) and found two things standing in front of the
+derivation. Neither is mine to rule on, so both are recorded rather than acted on, and the
+forward-facing files are untouched.
+
+**(1) ω_J denotes two unrelated quantities in five live files.** In `PRTOE_sqrt3_derivation.md`,
+`PRTOE_coincidence_problem.md` and `PRTOE_PREREGISTERED_PREDICTIONS.md` it is the **Jeans**
+frequency √(4πGρ) = √(3/2)·H_Λ, the growth rate of the most unstable mode. In
+`PRTOE_baryogenesis.md` and the failures ledger it is the **junction** plasma frequency, ≈5.7 keV
+at T_sph. Both readings own the subscript honestly — Jeans and Junction — and the two values sit
+about thirty-six orders apart, so nothing is numerically at risk. What is at risk is a reader
+meeting both. Same category as the de-jargon pass's naming collisions (#45): **owner decision on
+which keeps ω_J.**
+
+**(2) The junction rectifier's four recorded numbers are over-determined, and miss closure by a
+clean factor of nine.** The section records ω_J ≈ 5.7 keV, j = ω_J²/Γ_φ ≈ 6 meV,
+Γ_φ/θ̇ ≈ 10⁷, and a needed R = ω_J²/(2Γ_φθ̇) ≈ 5×10⁻⁵ (which is 122× the naive H/θ̇ = 4.1×10⁻⁷,
+exactly as recorded). Substituting Γ_φ collapses R to **j/(2θ̇)**, so ω_J cancels out of R
+entirely and the four constrain three unknowns. Taking any three and predicting the fourth:
+
+| take | predicts | recorded | miss |
+|---|---|---|---|
+| ω_J, j, ratio | R = 5.54×10⁻⁶ | 5×10⁻⁵ needed | **×9.03 short** |
+| j, ratio, R | ω_J = 1.897 keV | 5.7 keV | ×3.004 low |
+| ω_J, j, R | Γ_φ/θ̇ = 9.03×10⁷ | 10⁷ | ×9.03 high |
+| ω_J, ratio, R | j = 18.0 meV | 6 meV | ×3.004 high |
+
+One number seen four ways: a factor 9 in R, √9 = 3 in ω_J. **Which of the three inputs carries
+it is not determined by anything recorded** — all are quoted to one significant figure with a
+leading tilde, and moving any one of them closes the system.
+
+**What it costs #39.** The task's target is "derive ω_J, needs ≈5.7 keV", kill two orders below.
+On the recorded j and overdamping ratio the internally consistent value is **1.90 keV**, so a
+derivation landing there would read as a 3× miss while in fact closing the transmission the
+section needs. The kill threshold is untouched — a factor 3 is well inside two orders — but the
+target is only as firm as the least certain member of the trio, and #39 should not be graded
+against 5.7 keV until the owner says which number moves.
+
+Arithmetic in `scripts/baryogenesis_junction_closure.py`; nine harness checks pin every leg, so
+the tension is guarded rather than remembered. Harness 838, passing.

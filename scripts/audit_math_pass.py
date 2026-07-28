@@ -1904,6 +1904,31 @@ chk("hierarchy 6f", "alpha_c it corresponds to (recorded 0.021316)", 0.021316,
 chk("hierarchy 6f", "how far that sits beyond the infrared cap 1/alpha(0) = 137.036", 2.70,
     (_solve_inv(_4pimH)/137.036 - 1)*100, 1e-2, "%")
 
+# --- baryogenesis: the junction rectifier's four numbers are over-determined -----------
+# Recorded: omega_J ~ 5.7 keV, j = omega_J^2/Gamma_phi ~ 6 meV, Gamma_phi/theta_dot ~ 1e7,
+# and R = omega_J^2/(2 Gamma_phi theta_dot) needed ~ 5e-5 (= 122 x the naive H/theta_dot).
+# Substituting Gamma_phi collapses R to j/(2 theta_dot), so the four over-determine three
+# unknowns by one relation. These checks record what that relation actually returns.
+_wJ, _jrel, _rat, _Rnaive = 5.7e3, 6e-3, 1e7, 4.1e-7
+chk("baryogenesis junction", "the needed R, from its own factor 122", 5.0e-5,
+    122*_Rnaive, 3e-3)
+_Gphi = _wJ**2/_jrel
+_thd = _Gphi/_rat
+chk("baryogenesis junction", "Gamma_phi implied by omega_J and j", 5.415e9, _Gphi, 1e-3, "eV")
+chk("baryogenesis junction", "theta_dot implied by the overdamping ratio", 541.5, _thd, 1e-3, "eV")
+chk("baryogenesis junction", "R the recorded trio delivers", 5.54e-6, _jrel/(2*_thd), 2e-3)
+chk("baryogenesis junction", "so R falls short of the needed value by", 9.03,
+    (122*_Rnaive)/(_jrel/(2*_thd)), 2e-3, "x")
+# The same miss expressed on each input in turn -- it is one number seen four ways.
+chk("baryogenesis junction", "the omega_J that would close it", 1897.0,
+    math.sqrt(_jrel*_rat*_jrel/(2*122*_Rnaive)), 2e-3, "eV")
+chk("baryogenesis junction", "i.e. omega_J low by", 3.004,
+    _wJ/math.sqrt(_jrel*_rat*_jrel/(2*122*_Rnaive)), 2e-3, "x")
+chk("baryogenesis junction", "the overdamping ratio that would close it", 9.025e7,
+    _Gphi/(_jrel/(2*122*_Rnaive)), 2e-3)
+chk("baryogenesis junction", "the j that would close it", 18.02,
+    math.sqrt(2*122*_Rnaive*_wJ**2/_rat)*1e3, 2e-3, "meV")
+
 # --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
 # 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.
 # The PAIRING density of states also depends on r: for congruent pockets the excitonic pair
