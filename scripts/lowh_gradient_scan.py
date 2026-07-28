@@ -9,8 +9,13 @@ THE OWED ITEM (room 1's owed block, second clause)
 
 WHAT THIS RUNS
   The same validated instrument (lowh_dice), dense-θ₀ (56 angles), at
-  the PHYSICAL hierarchy h₀ = 0.1 (and h = 0.3 as the band's top), all
+  h = 0.1 and h = 0.3, all
   three tilts — measuring max|df_amp/dθ₀| by central differences.
+  NOTE (2026-07-28): the physical hierarchy is h₀ ≈ 1.0, above this
+  scan's range, so the gradients below bound the low-h side only.  The
+  conclusion they support — that the steep zones of the era regime are
+  absent here — should be re-measured at h = 1 before it is applied to
+  the physical point.
   Expectation on record: the steep zones are a large-h chaos feature;
   at h₀ ~ 0.1 the map θ₀ → f_amp should be smooth with gradients O(1)/rad,
   retiring the isocurvature veto's bite at the physical parameters.

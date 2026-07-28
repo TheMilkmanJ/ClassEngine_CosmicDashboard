@@ -531,13 +531,13 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 
 > **RE-SCOPED (2026-07-27,** `scripts/hscan_physical_target.py`**):** the
 > h ~ 10⁸ target was era-bound and the standing era moved it SIX decades
-> the other way. h₀ = λ·ρ_dm(z_rel)/m⁴ at release (3H = m, relic-closed)
-> reproduces this room's own numbers at the era values (10⁷·⁶ at the
-> m = 10⁻²² corner ≈ the booked "~10⁸"; 10⁵·¹ at the band) and gives
-> **h₀ ≈ 0.1 at the standing m = 2.24×10⁻²⁰, λ = 2×10⁻⁹¹** (scaling
-> h₀ ∝ λ/m^{5/2}: −2.7 − 3.4 decades). The physical regime is BELOW the
-> scan's bottom, not above its top: the quartic is a ~10% correction at
-> release, no rescaled integrator is needed (stiffness was the large-h
+> the other way. The release amplitude comes from the misalignment abundance closure
+> (`scripts/genesis_solver_B1.py`, release at H = m, which returns this corpus's own onset
+> 1 + z = 4.03×10⁷): Ψ₀ = 5.03×10¹⁶ GeV, hence
+> **h₀ = λΨ₀²/m² ≈ 1.0 at the standing m = 2.24×10⁻²⁰, λ = 2×10⁻⁹¹** — seven decades below
+> the era-bound "~10⁸" (the scaling h₀ ∝ λ/m^{5/2} carries the era-to-standing direction).
+> The physical regime is far BELOW the
+> scan's bottom, not above its top, so no rescaled integrator is needed (stiffness was the large-h
 > obstacle), and the owed question inverts to "does ANY ringing survive
 > at h₀ ~ 0.1?" — with the granule ε-meter's stakes (A4a/A5a: the only ε
 > readout) riding on it. Corollary recorded: at the standing era the
@@ -549,11 +549,11 @@ outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
 > caught a missing complex-field ½ in v1's force before anything was
 > quoted) and validation-gated on the booked h = 300 row (P = 86%
 > reproduced exactly; median 0.68 vs 0.55, gate's edge — convention
-> caveat carried). The physical grid: **P(f_amp > 0.2) = 100% at every
-> h ≤ 0.3 and every tilt; 0 quiet draws in 168; min f_amp = 0.68 at
-> h₀ = 0.1**. The quiet branch does not exist at the physical
-> hierarchy; the ε-meter keeps a near-maximal target (ε medians
-> 0.87–0.96); the chaos dies with the quartic (spread ±0.08 — the dice
+> caveat carried). The grid: **0 quiet draws in 168 universes across
+> h ∈ {0.03, 0.1, 0.3, 1.0}; at the physical h ≈ 1, P(f_amp > 0.2) = 71–100%
+> by tilt with medians 0.42–0.76**. The quiet branch does not exist at the physical
+> hierarchy; the ε-meter keeps a floor but not a pinned target (ε spread
+> 0.18–0.99); the tilt dial is live rather than erased (the dice
 > nearly deterministic, the tilt dial mildly re-emerging). Registered
 > consequences: prereg ANN thread UPDATE 4 (P-2026-005). The "still
 > owed" above is PAID in its re-scoped form.
@@ -667,17 +667,19 @@ Simulation-grade follow-up owed before any number is quotable.
 > statically and dynamically at instrument scale — worst deviation 0.6%,
 > free-FDM control exact (C = 1.000 at f_rot = 1), and free evolution
 > preserves the law through full granule churn. **At the physical
-> hierarchy the dice's f_rot ∈ [0.01, 0.32] pins C = 0.50–0.55: the
-> granule contrast is HALF free-FDM's, essentially parameter-free** —
-> granule-driven heating therefore runs at 50–55% of free FDM's, a
-> suppression of ×1.8–2.0, which also RELAXES free-FDM dwarf-heating
-> bounds as applied to this medium (the A6 family). *(Erratum, same
-> day: this line first said "~4×", from a C²-class scaling. Heating is
+> hierarchy h ≈ 1 the ensemble is wide — f_rot spans [0.02, 0.97] — so the
+> law gives C from ½ up to ~0.97: a floor, not a pinned target.** Heating
+> tracks C linearly, so the suppression relative to free FDM runs from
+> about ×2 at the floor down to nothing at the top; where it is strong it
+> also RELAXES free-FDM dwarf-heating
+> bounds as applied to this medium (the A6 family). *(The linearity is the
+> point: heating is
 > a random walk in the granule potential, so its diffusion coefficient
 > goes as the density-fluctuation VARIANCE — linear in C, as this
 > room's own granule-scoping record already books it at "S ≈ 0.58 →
-> heating suppressed ~40%". The law itself was likewise already
-> verified there to <1% at 2×10⁶ cells; what today's run adds is the
+> heating suppressed ~40%", a value that sits inside the standing range
+> rather than beside it. The law itself was likewise already
+> verified there to <1% at 2×10⁶ cells; what the later run adds is the
 > dynamical check and the physical-hierarchy evaluation.)* The
 > "before any number is quotable" clause above is superseded for the LAW
 > and the instrument-scale number; the halo-scale sims (self-gravity,

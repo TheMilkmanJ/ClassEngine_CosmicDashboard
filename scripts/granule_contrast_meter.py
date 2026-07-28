@@ -12,10 +12,14 @@ THE LAW (derived here, then tested)
   pure librator/symmetric (p = q) → C = 1/2.
 
 THE PREDICTION AT THE PHYSICAL HIERARCHY (the dice's own numbers)
-  The low-h dice (2026-07-27) put f_rot ∈ [0.01, 0.32] across every
-  tilt and draw at h₀ ≤ 0.3 ⟹  C ∈ [0.500, 0.551]:
-      THE GRANULE DENSITY-CONTRAST IS HALF FREE-FDM'S, essentially
-      parameter-free.
+  The physical release hierarchy is h₀ ≈ 1.0 (the misalignment
+  abundance closure, whose release condition reproduces the corpus's
+  canonical onset redshift).  At h = 1.0 the release ensemble is WIDE:
+  f_amp runs 0.032–0.98 across tilts, so f_rot reaches ~0.97 and
+      C RANGES FROM ½ UP TO ~0.97 — a floor, not a pinned target.
+  The parameter-free C = ½ is reached only where libration is
+  near-total.  (The tight band C ∈ [0.500, 0.551] quoted below belongs
+  to the h ≤ 0.3 rows of the dice grid, not to the physical point.)
 
   ERRATUM, same day (this docstring's first version said heating falls
   "~4×", from a C²-class scaling — WRONG, and caught against the
@@ -123,12 +127,13 @@ def main() -> None:
     print("\nVERDICT:")
     if worst < 0.10:
         print("   THE LAW HOLDS, statically and dynamically: the instrument is")
-        print("   built and the ε-meter's target is now a NUMBER — granule")
-        print("   contrast 0.50–0.55, half free-FDM's, across the entire")
-        print("   physical dice. Granule-driven heating suppressed ~4× against")
-        print("   free FDM at the same mass. The heavy halo-scale sims the room")
-        print("   booked inherit this law and readout; their job narrows to the")
-        print("   self-gravity and χ-lag corrections around C ≈ ½.")
+        print("   built. At the physical hierarchy h₀ ≈ 1 the release ensemble is")
+        print("   wide, so the meter has a FLOOR at C = ½ and no pinned target —")
+        print("   C runs from ½ up to ~0.97 as f_rot spans [0.02, 0.97], and")
+        print("   heating (linear in C) is suppressed from ~2× down to nothing.")
+        print("   The heavy halo-scale sims the room booked inherit this law and")
+        print("   readout; their job is the self-gravity and χ-lag corrections")
+        print("   across that range.")
     else:
         print("   the law fails its own validation — instrument diagnosis before")
         print("   any physics is quoted.")

@@ -101,9 +101,9 @@ def main() -> None:
     print("     DIRECT h_eff formula (used by every τ_Q verdict) is unaffected.")
 
     print("\nVERDICT: the owed 'push to h ~ 10⁸' chased an era-bound target.")
-    print("   At the standing parameters the physical hierarchy is h₀ ≈ 0.1 —")
-    print("   three decades BELOW the scan's bottom, on the cheap side: the")
-    print("   quartic is a ~10% correction at release, the ringing kick is weak,")
+    print("   The standing physical hierarchy is h₀ ≈ 1.0 (abundance closure,")
+    print("   B1) — seven decades BELOW the era target and below the old scan's")
+    print("   bottom, so no rescaled integrator is needed,")
     print("   and the question inverts from 'does the quiet branch close at")
     print("   large h?' to 'does ANY ringing survive at h ~ 0.1?' — with the")
     print("   granule ε-meter's readout (the corpus's only ε observable) staked")

@@ -1,4 +1,15 @@
-"""lowh_dice — task #36: the release dice at the PHYSICAL hierarchy h₀ ≈ 0.1 (2026-07-27).
+"""lowh_dice — task #36: the release dice across the physical hierarchy (2026-07-27).
+
+HIERARCHY CORRECTED 2026-07-28: the physical point is h₀ ≈ 1.0, not the
+0.1 this docstring first assumed.  The authority is the misalignment
+abundance closure in `genesis_solver_B1.py` (release at H = m, which
+returns the corpus's canonical onset 1 + z = 4.03×10⁷): Ψ₀ = 5.03×10¹⁶
+GeV, so h₀ = λΨ₀²/m² = 1.01.  The grid below spans {0.03, 0.1, 0.3,
+1.0}, so the physical point IS covered — read the h = 1.0 rows as the
+standing ones.  At h = 1.0: P(f_amp > 0.2) = 71–100% by tilt, medians
+0.42–0.76, and zero quiet draws.  The no-quiet-branch conclusion holds
+at every h on the grid; the tight-ensemble conclusion belongs to the
+h ≤ 0.3 rows only.
 
 WHAT THIS RUNS
   Room 1's summit dice, rebuilt to its own conventions and pointed at the
