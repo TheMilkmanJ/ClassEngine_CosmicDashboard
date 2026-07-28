@@ -137,14 +137,14 @@ twice, correctly, both times.
 
 ## 5. Supernova cosmology & the distance ladder
 
-Pantheon+SHOES anchors every joint fit. The model's H₀ = 69.9 (CMB re-fit
+Pantheon+SH0ES anchors every joint fit. The model's H₀ = 69.9 (CMB re-fit
 output; 69.70 ± ~0.8 the joint best-fit) sits between the ladders, and the
 program converted that discomfort into its headline falsifiable:
 **P-2026-001 — the local distance ladder resolves to the TRGB side;
 H₀ ∈ [69, 71]; a confirmed 72+ falsifies the H₀ program, no hedge**
-(pre-registered, commit 8a5840a5). The SHOES→TRGB scenario is
+(pre-registered, commit 8a5840a5). The SH0ES→TRGB scenario is
 on the record honestly: the model is conditional concordance — its SN
-improvement rides SHOES calibration and it says so.
+improvement rides SH0ES calibration and it says so.
 
 A standing bet with a death condition, which is the only kind
 this program registers.
@@ -527,7 +527,7 @@ One exact translation, one honest silence, one lab bridge.
 
 The unglamorous domain that made every other one mean something. Real
 likelihoods over proxies (Planck plik + lowl + lensing, ACT DR6, SPT-3G
-via candl, BAO, Pantheon+SHOES, BBN priors); single-point χ² evaluation as
+via candl, BAO, Pantheon+SH0ES, BBN priors); single-point χ² evaluation as
 the honesty instrument that caught the missing perturbation sector;
 optimizer/MCMC/PolyChord tiers with their traps documented (external
 likelihoods stealing theory params — use prior blocks; system-vs-conda
@@ -705,7 +705,7 @@ free-streaming phase shift). *Hook: closed; resurrection forbidden.*
 
 ## The sky surveys
 
-40. The local distance ladder (SHOES vs TRGB) — predicts, no hedge.
+40. The local distance ladder (SH0ES vs TRGB) — predicts, no hedge.
 P-2026-001: the ladder resolves TRGB-side, H₀ ∈ [69, 71]; confirmed 72+
 falsifies the entire H₀ program. *Hook: the sharpest registered bet in
 the file.*

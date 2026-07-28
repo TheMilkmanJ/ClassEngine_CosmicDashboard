@@ -299,7 +299,7 @@ CONFIRMS, not decides.
 
 ## 5\. Recombination → today [the fitted era]
 
-m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SHOES-conditional, and
+m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SH0ES-conditional, and
 Laplace is where it stays — nested sampling waits for cluster time, so the estimate has no confirmer
 in prospect and its margin over the decision threshold is inside its own systematic);
 screening returns m_e → standard below z ≈ 50 [survival form S = exp[−(C²/C_ref²)^n_eff],

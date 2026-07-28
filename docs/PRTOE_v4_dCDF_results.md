@@ -10,7 +10,7 @@
 All numbers below are from the **clean tree** (dkappa hack removed, perturbation
 sector implemented, budget closure exact, null-test validated) against real
 likelihoods: Planck 2018 lowl TT+EE, plik TTTEEE lite, Planck lensing, BAO
-(6dF + MGS + DR12 consensus), Pantheon+SHOES. Single-point evaluations via
+(6dF + MGS + DR12 consensus), Pantheon+SH0ES. Single-point evaluations via
 cobaya `evaluate` (system python; clik is py3.12-only); MCMC via CosmicForge.
 
 ## Headline
@@ -118,8 +118,8 @@ moot: that section defended β's cs² guarantee and β no longer exists.
  (adopted that same night — the v5 transition above).
  Fixed symmetrically in both models: m_ncdm=0.06, T_cmb, N_ur base 2.0328.
  Never-sampled sandbox knobs (dcdf_c_gamma, dcdf_c_EM) remain 0/off.
-- H₀=70.4 closes ~45% of the gap to SHOES (74.0 central; ~54% to its 1σ-low
-  edge); Pantheon+SHOES χ²
+- H₀=70.4 closes ~45% of the gap to SH0ES (74.0 central; ~54% to its 1σ-low
+  edge); Pantheon+SH0ES χ²
  improves −27.8, so the SN data endorse the partial move. Full 73+ remains
  blocked by the damping tail (ξ≈1.0 territory).
 

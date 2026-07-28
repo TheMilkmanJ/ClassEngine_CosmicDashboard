@@ -30,7 +30,7 @@ is a kill condition after its data has spoken.
 **Model state:** dCDF v5 dyad — unified dark fluid + varying electron mass
 (m_e/m_e0 = 1.010 above z=50), xi_Neff → 0 (executed by ACT+BBN+plik in
 the BBN-priced joint refit of 2026-07-06). Joint-stack optimum, all of
-Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SHOES + BBN(Y_p, D/H):
+Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES + BBN(Y_p, D/H):
 **H₀ = 69.70 km/s/Mpc** (raw χ² 2798.4, best point ever recorded on
 this stack, ~ -7 vs refit ΛCDM at +1 effective parameter).
 
@@ -1313,11 +1313,11 @@ the bet. Next-gen CMB (LiteBIRD, CMB-S4, with polarization-angle calibration) wi
 
 ## P-2026-013 STATUS UPDATE + REFINEMENT (2026-07-08, same-day): flat-finite, NOT curved-closed
 
-**Justin's directional call (logged as placed):** a closed universe RAISES H₀ toward SHOES.
+**Justin's directional call (logged as placed):** a closed universe RAISES H₀ toward SH0ES.
 **Quick check adjudication (`scripts/curvature_H0_check.py`, sanity-matched: Ok=-0.044 → H₀=55.0,
 = Planck-alone):** the geometry says the OPPOSITE. At fixed CMB acoustic scale theta_* and fixed
 ω_m: Ok=0 → H₀=69.9 ; Ok=-0.01 → 65.3 ; Ok=-0.04 → 56.0 ; Ok=+0.02 (open) → 84.6.
-⇒ CLOSED (Ok<0) LOWERS H₀ (away from SHOES); OPEN raises it. The directional bet is AGAINST the
+⇒ CLOSED (Ok<0) LOWERS H₀ (away from SH0ES); OPEN raises it. The directional bet is AGAINST the
 geometry, and the earlier threat is CONFIRMED: positive curvature fights the m_e H₀ easing.
 
 **Tension exposed:** finitism WANTS closed; H₀-easing WANTS flat. Opposite pulls on curvature.

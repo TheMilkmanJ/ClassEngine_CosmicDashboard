@@ -31,7 +31,7 @@ with its own outcome.)* Jointly squeezed with Σm_ν (can't relax one with the
 other). **Shore:** none — it's a data verdict; the model must survive it. Watch, don't build.
 
 **J4 — The +1.2% m_e shift being REAL. [the load-bearing bolt]**
-A good FIT (ΔlnZ=+2.635) but SHOES-conditional, zero ontology evidence, NOT prediction-confirmed.
+A good FIT (ΔlnZ=+2.635) but SH0ES-conditional, zero ontology evidence, NOT prediction-confirmed.
 **Shore:** an INDEPENDENT m_e-shift detection — P-2026-007 (void/IGM m_e-step) + the quasar shape
 bound. Buildable/observable; the single best way to move "flat".
 
@@ -158,7 +158,7 @@ corrupt the working step model.
   against it as standing bet #3. The one attachment currently moving against the model.
 - **J4 (the shift being real) — the judge is running.** The zero-parameter evidence run
   (ε, A_s, n_s all fixed) has been executing since 2026-07-18; ΔlnZ = +2.635 Laplace remains the
-  suggestive, SHOES-conditional interim. The sharpest independent instrument has firmed: the
+  suggestive, SH0ES-conditional interim. The sharpest independent instrument has firmed: the
   dark-ages trough at +0.40 MHz (16.0 → 16.4 MHz class), an astrophysics-free channel for
   lunar-farside instruments, beside the ratio-lock and P-2026-007.
 - **J5 (leptophilia) — carried by data, and the portal is the residue.** The
