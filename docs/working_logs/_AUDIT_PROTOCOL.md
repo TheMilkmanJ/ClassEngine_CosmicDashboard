@@ -18,9 +18,9 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty-six checks
+## The twenty-seven checks
 
-Run all twenty-six. Record what was found, even when nothing was.
+Run all twenty-seven. Record what was found, even when nothing was.
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
@@ -378,6 +378,25 @@ The harness already contains the correct pattern, in one place: `chk("sqrt3_deri
 omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes** the surplus
 member from the other two rather than booking it separately. That line would have caught either
 defect above had it been written for those sectors.
+
+**27. A RATIO IS NOT A NUMBER — CHECK ITS VARIABLES AND ITS DIRECTION BEFORE MATCHING IT
+(2026-07-28).** A kernel sweep returned singlet:doublet = 2 on a three-defect ring and was reported
+as delivering "the 2:1 the R_c = M_c condition names". It does not. The condition's own convention
+(T6) is ε_charged = 2·ε_neutral on the **√m fluctuation field** — the *charged* modes twice as
+stiff — while the sweep was in **radial displacements**, where its 2 is the *neutral* mode twice as
+stiff. Same number, other coordinates, opposite direction. Mapping one onto the other gives a = −6b
+against the required a = 3b, with the bond coefficient's sign flipped.
+
+This is check 18's family (*"for any ratio quoted across sectors, confirm the denominator is the
+same object in both"*) extended to the numerator and to the sign. **The check: before matching a
+computed ratio to a required one, write both as explicit quotients — which mode over which mode,
+in which field — and confirm the variable sets coincide.** Two "2:1"s in one corpus are more likely
+to be inverses in different coordinates than a hit.
+
+The same pass turned up why the trap was open: the ring-on-ring autopsy states the requirement as
+w_breath/w_shape = 2 and T6 states it as ε_charged = 2ε_neutral, both describing R_c = M_c. They
+reconcile only through the canonical normalizations R_c = √(3/2)R, M_c = √3M, and **no file states
+that bridge** — an owed reconciliation now recorded in the ledger.
 
 **26. `pkill -f` MATCHES YOUR OWN COMMAND LINE, AND KILLS MORE THAN YOU AIMED AT (2026-07-28 —
 twice in one hour).** `pkill -f "bounce_m6_rebound_dst.py"` was issued to stop one dead job. The

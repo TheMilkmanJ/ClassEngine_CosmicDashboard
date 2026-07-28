@@ -1951,20 +1951,38 @@ and two-dimensional defects are vortices. Sweeping the pair kernel on the same t
 | 1/r² | 2 | 1/3 | 6 |
 | **r² (pair-harmonic)** | **6** | **3** | **2 — exactly** |
 
-Two exact results, both analytic. **The pair-harmonic kernel gives 2:1 with no approximation**:
-with x_k = R + d_k and cos 120° = −½, |r_i − r_j|² = x_i² + x_j² + x_i x_j, so the three pairs sum
-to U = (3/2)Σx_k² + ½(Σx_k)² and **H = 3I + J**, whose eigenvalues are 6 on the singlet and 3 on
-the doublet. The Hessian of a quadratic form is constant, so this holds at every R with no
-leading-order caveat — precisely the 2:1 the flat model's κ-confinement supplied and the curved
-host could not.
+Two exact results, both analytic — and **only the second bears on the null**, for a reason worth
+stating plainly.
 
-**And the 2D vortex kernel leaves the doublet exactly flat** — k_doublet = 0, not merely small. A
+**The direction check the sweep needed and did not get at first.** T6's reduction fixes the null's
+convention unambiguously: H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²] on the √m fluctuation field gives
+ε₀ = a (neutral) and ε± = a + 3b (charged), and the null is **ε_charged = 2·ε_neutral**, i.e.
+a = 3b — the *charged* modes twice as stiff. The kernel sweep below is in **radial displacements
+on the ring**, a different variable set, and its 2 is *singlet:doublet* — the neutral mode twice as
+stiff. Mapping H = 3I + J onto T6's form gives a = −6b with the bond coefficient **negative**, not
+a = 3b. So the pair-harmonic result does not deliver the null's ratio; it is the same number
+pointing the other way in other coordinates.
+
+**And that exposes an owed reconciliation.** The ring-on-ring autopsy states the requirement as
+w_breath/w_shape = 2 (breathing stiffer); T6 states the same condition as ε_charged = 2ε_neutral
+(shape stiffer). Both describe R_c = M_c. They can be consistent only through the canonical
+normalizations R_c = √(3/2)R and M_c = √3M, and **no file states that bridge** — which is what let
+a sweep in the wrong variables look like a hit. Recorded as owed.
+
+**What the sweep does establish**, in the autopsy's own variables:
+with x_k = R + d_k and cos 120° = −½, |r_i − r_j|² = x_i² + x_j² + x_i x_j, so the three pairs sum
+to U = (3/2)Σx_k² + ½(Σx_k)² and **H = 3I + J**, eigenvalues 6 (singlet) and 3 (doublet), exactly
+and at every R since the Hessian of a quadratic form is constant. A clean result about kernels,
+and not the null's.
+
+**The load-bearing one: the 2D vortex kernel leaves the doublet exactly flat** — k_doublet = 0, not merely small. A
 log-interacting ring confines its breathing mode and does not confine its shape mode at all, which
 is a sharper statement of the same failure the autopsy recorded as a 0.99 degeneracy.
 
-So the ratio is not exotic: one standard kernel delivers it identically. **What is owed is why the
-family ring's defects should interact pair-harmonically** rather than logarithmically, which is
-the question the host's geometry was supposed to answer and did not.
+So the autopsy's "0.99 degeneracy" is generous to the host: for the kernel the corpus's own regime
+actually implies, the shape mode is not nearly flat but **exactly** flat. The failure is worse and
+cleaner than recorded, and no amount of a/R refinement touches it — a log-interacting ring has no
+shape stiffness at quadratic order, full stop.
 
 **What dies with it:** the cascade-delivery chain end to end as this week built it — the pass-4
 "LIFE at estimate grade" (already downgraded through the passes), the per-irrep quota's exhibited
