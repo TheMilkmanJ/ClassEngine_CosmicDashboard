@@ -19,13 +19,13 @@ PRTOE's mature form is a two-part claim.
 phase EFT of a complex condensate at finite chemical potential — whose
 dense regime is dark matter, whose ground-state pressure is dark energy,
 whose pre-condensation youth is dark radiation, and ~30% of which (median
-genesis draw) is never-annihilating dark antimatter. Gravity is exactly GR;
+genesis realization) is never-annihilating dark antimatter. Gravity is exactly GR;
 the medium's only coupling is geometry (a theorem-grade counting argument, not an
 assumption). (2) One amendment to the rules at recombination — a ~1%
-varying electron mass — buys **H₀ = 69.9** (CMB re-fit output; 69.70 the joint best-fit; provisional — the running
-evidence test re-measures it) at zero χ² cost against the full
-Planck+ACT+SPT+BAO+SN stack. Everything else this program ever tried is
-dead, and the record of dead approaches is public.
+varying electron mass — buys **H₀ = 69.9** (CMB re-fit output; 69.70 the
+joint best-fit; provisional — the running evidence test re-measures it) at
+zero χ² cost against the full Planck+ACT+SPT+BAO+SN stack. Everything else
+this program ever tried is dead, and the record of dead approaches is public.
 
 ---
 
@@ -39,7 +39,7 @@ dead, and the record of dead approaches is public.
 | 4 | BAO & RSD | Clustering-part insight (BAO 593 → 8.2) | Alive |
 | 5 | SNe & distance ladder | P-2026-001: TRGB, no hedge | Standing bet |
 | 6 | BBN | Deuterium row decomposed; the lever census closed | −2.94σ on the tightest rate error in the literature; **awaiting d(d,n)³He** (P-2026-058). Compilation-robust content: 0.62σ behind its own ΛCDM control |
-| 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the dyad's second half |
+| 7 | Atomic physics & constants | varying-α killed; varying-m_e triangulated | m_e is the model's second half |
 | 8 | Neutrino physics | P-2026-004 falsified (ANN-2026-021); meV whisper (Σm_ν ≈ 61.4 meV, normal ordering) stands, posterior tests it | Mid-measurement |
 | 9 | Scalar-field EFT | v1–v3 killed; (δK)² re-earned by 3 certificates | Graveyard + one risen operator |
 | 10 | Superfluidity & BEC | Son isomorphism; two-fluid; KR beat; lab receipts | The identity itself |
@@ -47,8 +47,8 @@ dead, and the record of dead approaches is public.
 | 12 | Black holes | Superradiance at the recorded mass; de-condensation at 1.8393 r_s | Live exposure — a populated spin band the mass cannot leave |
 | 13 | GW & pulsar timing | ε collision (ANN-2026-010) | PTA channel dead by mass (ANN-2026-011); granule meter carries ε |
 | 14 | Galactic dynamics | SIDM/SPARC; FDM-inherited verdicts; granules | V1–V3 inherited, V5 alive |
-| 15 | Inflation & genesis | Isocurvature pins; chaotic release; THE DICE | P(f_amp>0.2) rises 84→100% (h-scan) |
-| 16 | Chaos & ergodic theory | The One Mountain; the DICE | backbone dead (pre-registered falsifier fired); dice stand |
+| 15 | Inflation & genesis | Isocurvature pins; chaotic release; the release-angle ensemble | P(f_amp>0.2) rises 84→100% (h-scan) |
+| 16 | Chaos & ergodic theory | The One Mountain; the release-angle ensemble | backbone dead (pre-registered falsifier fired); the ensemble stands |
 | 17 | Thermodynamics & information | Landauer, demon, holography, chaos bound | Language exact; 14 domains |
 | 18 | Quantum foundations & metrology | Tsirelson to 4×10⁻¹⁶; Josephson volt | Calibration receipts |
 | 19 | Quantum computing | Willow error-correction reading | Restatement; language holds |
@@ -58,10 +58,10 @@ dead, and the record of dead approaches is public.
 | 23 | Fluid dynamics & turbulence | Kolmogorov translates; intermittency silent | Honest silence |
 | 24 | Methods: Bayesian & numerical | Joint refits; pre-registration; adversarial self-review protocol | The method IS a result |
 
-*Part II (below) extends the census to **76 domains** — every Part II entry is an ATTACHMENT: the model
-predicts, forbids, votes, inherits a bound, or stakes a kill condition
-in that domain, and each entry names the result that would hurt it. No
-falsification hook, no entry.*
+*Part II (below) extends the census to **76 domains** — every Part II entry
+is an ATTACHMENT: the model predicts, forbids, votes, inherits a bound, or
+stakes a kill condition in that domain, and each entry names the result that
+would hurt it. No falsification hook, no entry.*
 
 ---
 
@@ -71,8 +71,9 @@ The program's floor. The dCDF fluid replaces CDM and Λ with one barotropic
 medium; after the v5 amputation its equation of state is w = −ρ∞/ρ
 **exactly** — a fluid whose background *and linear perturbations* are
 provably identical to ΛCDM, carrying one reinterpretation (dark matter and
-dark energy as dense/dilute regimes of one substance) and one extra parameter. The continuity equation has an exact de Sitter fixed
-point at ρ = ρ∞, approached from above and never crossed. Gravity was
+dark energy as dense/dilute regimes of one substance) and one extra
+parameter. The continuity equation has an exact de Sitter fixed point at
+ρ = ρ∞, approached from above and never crossed. Gravity was
 never modified: the v1–v3 F(φ)R era taught that lesson by four independent
 kills, and "gravity is exactly GR, minimally coupled" became a survival
 choice that later paid for itself in certificates. The regime-label
@@ -99,7 +100,7 @@ conditions counted only baryons in ρ_m under use_dcdf. Fix: gauge test
 acoustic-scale ridge, the damping-tail penalty that killed every radiation
 lever, and the one lever that evades the penalty — recombination timing via
 m_e. The joint-stack optimum landed at H₀ = 69.05, ξ = 0.142, *exactly*
-where the ridge analysis predicted; the dyad refit reached plik = 586.5,
+where the ridge analysis predicted; the model's refit reached plik = 586.5,
 better than ΛCDM's own anchor.
 
 The CMB executed ξ_Neff, taxed every energy-injection scheme,
@@ -136,13 +137,14 @@ twice, correctly, both times.
 
 ## 5. Supernova cosmology & the distance ladder
 
-Pantheon+SHOES anchors every joint fit. The dyad's H₀ = 69.9 (CMB re-fit output; 69.70 ± ~0.8 the joint best-fit) sits
-between the ladders, and the program converted that discomfort into its
-flagship falsifiable: **P-2026-001 — the local distance ladder resolves to
-the TRGB side; H₀ ∈ [69, 71]; a confirmed 72+ falsifies the H₀ program, no
-hedge** (pre-registered, commit 8a5840a5). The SHOES→TRGB scenario is
-booked honestly: the dyad is conditional concordance — its SN improvement rides
-SHOES calibration and it says so.
+Pantheon+SHOES anchors every joint fit. The model's H₀ = 69.9 (CMB re-fit
+output; 69.70 ± ~0.8 the joint best-fit) sits between the ladders, and the
+program converted that discomfort into its headline falsifiable:
+**P-2026-001 — the local distance ladder resolves to the TRGB side;
+H₀ ∈ [69, 71]; a confirmed 72+ falsifies the H₀ program, no hedge**
+(pre-registered, commit 8a5840a5). The SHOES→TRGB scenario is
+on the record honestly: the model is conditional concordance — its SN
+improvement rides SHOES calibration and it says so.
 
 A standing bet with a death condition, which is the only kind
 this program registers.
@@ -159,19 +161,22 @@ a⁻³ into the past; 10²⁷ × today at BBN). It also holds the deuterium row,
 −2.94σ** against Cooke on the combined width 0.0476 (obs ±0.030 ⊕ PRIMAT post-LUNA theory ±0.037);
 the committed ζ window (ΔN_eff ≈ 0.06–0.24) eases it to **−2.5 to −1.4σ**, and
 unfolding the 3.5% inter-code spread softens the standing row to ≈−1.4σ (ΛCDM's own control
-carries −2.25σ on the same width). The dyad cannot be the
-healer: its portal is the dark-neutral bilinear |Ψ|², which reaches the quark bilinear only at two
-EW/EM loops, and a quark coupling anywhere near the size a heal needs is independently excluded by
-this very row — so the row stands at its stated tension with no rescue. *(The older reading made this
-zero **by symmetry**, reading the dyad as the Majoron and quarks as carrying L = 0. That route is
-closed: the two are separate fields, and |Ψ|² is L-neutral.)* P-2026-006's abundance signature — a δm̂/m̂ = +0.14–0.21% amendment
+carries −2.25σ on the same width). The electron-coupled scalar cannot be the
+healer: its portal is the dark-neutral bilinear |Ψ|², which reaches the quark
+bilinear only at two EW/EM loops, and a quark coupling anywhere near the size
+a heal needs is independently excluded by this very row — so the row stands at
+its stated tension with no rescue. *(The older reading made this zero **by
+symmetry**, reading the electron-coupled scalar as the Majoron and quarks as
+carrying L = 0. That route is closed: the two are separate fields, and |Ψ|² is
+L-neutral.)* P-2026-006's abundance signature — a δm̂/m̂ = +0.14–0.21% amendment
 healing D/H with a mandatory Y_p −0.5% and ⁷Li −7..13% co-signature (DSW PRD 76, 063513) — is
 retained only as a prediction about a lever this model does not have: a hypothetical future
-non-Majoron amendment, not the dyad.
+non-Majoron amendment, not the electron-coupled scalar.
 
-The deuterium row is carried honestly — −2.94σ standing, −2.5 to −1.4σ across the committed
-window — with no healer available to the dyad; the full lever census, including the hadronic
-channel and the one roster-exempt source (both closed), is the deuterium row file's §5–6.
+The deuterium row is carried honestly — −2.94σ standing, −2.5 to −1.4σ across
+the committed window — with no healer available to the electron-coupled
+scalar; the full lever census, including the hadronic channel and the one
+roster-exempt source (both closed), is the deuterium row file's §5–6.
 
 ## 7. Recombination, atomic physics & varying fundamental constants
 
@@ -183,13 +188,13 @@ the acoustic scale without the damping-tail penalty, and its −8.5 clean improv
 was triangulated analytically (quadratic surfaces plus a falsified-then-
 confirmed midpoint prediction: 2812.1 predicted, 2812.15 measured). This
 framing then re-derived hydrogen from scratch as calibration —
-Bohr radius to 2.6×10⁻⁶, E_1s to 1.2×10⁻⁹ — and noted that the dyad's
-amendment reprices atomic binding by the exact arithmetic CLASS
-integrates. The Saha equation served twice: as the v6 ionization proxy and
-as the free-electron gate in the c_EM coupling (killed, +261 χ², acoustic
-wreckage).
+Bohr radius to 2.6×10⁻⁶, E_1s to 1.2×10⁻⁹ — and noted that the
+electron-coupled scalar's amendment reprices atomic binding by the exact
+arithmetic CLASS integrates. The Saha equation served twice: as the v6
+ionization proxy and as the free-electron gate in the c_EM coupling
+(killed, +261 χ², acoustic wreckage).
 
-The dyad's second half: one rules amendment, many receipts.
+The model's second half: one rules amendment, many receipts.
 
 ## 8. Neutrino physics
 
@@ -197,7 +202,7 @@ Neutrinos entered as a lever (ξ_Neff, dark radiation at recombination) and
 exited as a liberated measurement. ACT+BBN executed ξ (0.122 → 0.012 ±
 0.002); removing it collapsed the neutrino-mass penalty 4.4× and briefly
 reopened the inverted hierarchy as a live target. The pre-registered
-collision between **P-2026-004** (the dyad's Σm_ν 95% limit lands in
+collision between **P-2026-004** (the model's Σm_ν 95% limit lands in
 [0.11, 0.17] eV — the high-Σ, inverted-hierarchy-leaning branch) and the
 meV whisper (ρ∞^{1/4} = 2.25 meV ≈ the lightest neutrino mass scale) is
 resolved: DESI's low-Σ preference falsified P-2026-004
@@ -217,16 +222,16 @@ The race is over (the whisper won by resolution, not by data yet)
 The v1–v3 non-minimal era (F(φ)R + Vainshtein/chameleon screening) died
 completely — four rescue mechanisms killed by direct calculation, each
 sign-locked or ineffective. The v6 scalar-field host struggled while its
-couplings thrived (the graft that became the triad, then the dyad). EDE
-was tried and understood rather than estimated: exponential potentials hit
-the scaling-attractor failure mode; the claimed n=3 axion form turned out
-never to have been compiled. The mature EFT work is sharper: the (□φ)²
-funded floor died by BBN and was **resurrected as (δK)² — a background-
-orthogonal operator that re-earned admission via three fresh certificates**
-(exact tensor silence since det(e^h) = 1; gravity-mixing temporally frozen,
-μ−1 ~ 4×10⁻²¹; Landau v_c = 0 dissolving caustics into interference). The
-floor fluctuation face is sign-locked phantom and structure-gated;
-observable drift died by the V4 mutual-exclusion theorem.
+couplings thrived (the graft that became the three-lever package, then the
+two-lever one). EDE was tried and understood rather than estimated: exponential
+potentials hit the scaling-attractor failure mode; the claimed n=3 axion form
+turned out never to have been compiled. The mature EFT work is sharper: the
+(□φ)² funded floor died by BBN and was **resurrected as (δK)² — a
+background-orthogonal operator that re-earned admission via three fresh
+certificates** (exact tensor silence since det(e^h) = 1; gravity-mixing
+temporally frozen, μ−1 ~ 4×10⁻²¹; Landau v_c = 0 dissolving caustics into
+interference). The floor fluctuation face is sign-locked phantom and
+structure-gated; observable drift died by the V4 mutual-exclusion theorem.
 
 The graveyard's founding precedent (risen at full price) and
 its firmest law — no prediction from an un-pinned function, measured
@@ -234,18 +239,19 @@ its firmest law — no prediction from an un-pinned function, measured
 
 ## 10. Superfluidity, Bose–Einstein condensation & condensed matter
 
-The identity itself. Room 1 closed on the recognition that the medium is
+The identity itself. Room 1 — one of the program's numbered working
+sessions — closed on the recognition that the medium is
 the **phase EFT of a complex condensate at finite chemical potential**
 (Son hep-ph/0204199; the isomorphism holds below the
 amplitude gap). Minimal V = m²|Ψ|² + λ|Ψ|⁴ matches the basin exactly —
 basin entry IS the condensation threshold μ = m; unification m̄₂ = M₂²/m
-removed a parameter; λ ≈ 2×10⁻⁹¹ is a visible deuterium row that must also answer
+removed a parameter; λ ≈ 2×10⁻⁹¹ is a visible scar that must also answer
 black-hole spin archaeology — §12's live re-pricing. The two-fluid reduction (particle
-+ antiparticle Schrödinger fluids) produced the KR beat: the beat goes as the ellipticity
-fraction through √(f(2−f)), *not* f itself. *(That fraction shares a symbol with the retired
-amplitude factor and is not the same object — the standing amplitude decomposition contains
-no such factor.)* The
-pre-basin w = 1/3 was double-derived (dynamics AND phonon thermodynamics).
++ antiparticle Schrödinger fluids) produced the KR beat: the beat goes as the
+ellipticity fraction through √(f(2−f)), *not* f itself. *(That fraction shares
+a symbol with the retired amplitude factor and is not the same object — the
+standing amplitude decomposition contains no such factor.)* The pre-basin
+w = 1/3 was double-derived (dynamics AND phonon thermodynamics).
 Lab receipts were cite-verified for the load-bearing furniture: Bogoliubov
 S(k) measured (Steinhauer et al., PRL 88, 120407), the amplitude/"dark
 Higgs" mode measured (Endres et al., Nature 487, 454), and the Eckel
@@ -310,13 +316,15 @@ and the medium's own θ̇ = +μ breaking the time-reversal symmetry the paper
 solution needed.
 
 The sharpest live exposure the dark sector faces — a populated spin band the recorded
-mass cannot retreat from, its former shield awaiting re-derivation at the recorded λ and m.
+mass cannot retreat from, and the shield that once covered it is gone: the re-derivation at
+the recorded λ and m has been run, and it finds no shield across α_g = 0.1–0.5 (§52).
 
 ## 13. Gravitational waves & pulsar timing
 
-The PTA beat channel is dead by mass (reconciliation audit, ANN-2026-011). The KR beat (Ψ ~ 10⁻¹⁵ × beat factor) was the light-edge
-test, and ANN-2026-010 originally priced the ε collision at ~6:1 that PTA
-fires. But the reconciliation audit pinned the then-band to
+The PTA beat channel is dead by mass (reconciliation audit, ANN-2026-011).
+The KR beat (Ψ ~ 10⁻¹⁵ × beat factor) was the light-edge test, and
+ANN-2026-010 originally priced the ε collision at ~6:1 that PTA fires. But
+the reconciliation audit pinned the then-band to
 [1,3]×10⁻²¹ eV — where beat_needed = 10–90 while the observable beat
 saturates at 1 — and the since-recorded mass, **2.24×10⁻²⁰ eV**, sits an order
 above even that: Ψ_KR ∝ 1/m² suppresses the beat a further 60–500×. So the beat
@@ -328,9 +336,9 @@ upper end of the scanned range — the same fraction as in the beat formula abov
 not the retired amplitude factor) — at a pitch PTAs cannot hear. Also a genuine null: the
 chaotic genesis left no observable stochastic background (fraction² tiny).
 
-PTA is a corpse, dead by mass; the ε-meter role passed
-entirely to the granule channel (§14). The model's cleanest near-term GW-
-adjacent exposure is superradiance (§12's live exposure), not pulsar timing.
+PTA is a corpse, dead by mass; the ε-meter role passed entirely to the
+granule channel (§14). The model's cleanest near-term GW-adjacent exposure
+is superradiance (§12's live exposure), not pulsar timing.
 
 ## 14. Galactic dynamics & dark-matter phenomenology
 
@@ -369,30 +377,32 @@ the label.
 
 The One Mountain. The seamless birth-orbit integration turned out
 **chaotic in release angle θ₀** — the outcome (iv) that wasn't on the
-pre-registered menu — making ε distributional: an inflationary dice roll.
-THE DICE (14 angles × 3 tilts): f_amp median 0.55–0.67,
+pre-registered menu — making ε distributional: a stochastic inflationary
+outcome. The release-angle ensemble (14 angles × 3 tilts): f_amp median 0.55–0.67,
 P(f_amp > 0.2) = 86% at all three tilts (chaos erases the tilt dial); the
 chaos was verified physical (3–4 decimal convergence across DOP853/Radau/
-tolerances); an earlier segmented bound's death is filed in the failures ledger — the surviving bound is stated by its
-own stamped caveat within the hour. Then the ergodic backbone: a
-microcanonical ensemble on the quartic shell — a blind
-reconstruction — approximately reproduces the dice; the gap was dissected
-(freeze-out explains a third; the remainder is *release memory*, born at
-L = 0, and anti-tracks tilt at n = 110/tilt), and the analytic exceedance
-came out 78–80%. The whole edifice was then handed to adversarial review, which
-pre-registered the acceptance protocol for the h-scan (dual integrator,
-n = 50 angles, h to 10⁴, graded by *their* criteria). The ergodic backbone is dead as an extrapolation
-instrument (protocol harvest, complete) — the gap-vs-ergodic grew at h = 1000, 3000, and 1×10⁴ (three
-consecutive violations of the pre-registered monotonic-shrink falsifier,
+tolerances); an earlier segmented bound's death is filed in the failures
+ledger — the surviving bound is stated by its own stamped caveat within the
+hour. Then the ergodic backbone: a microcanonical ensemble on the quartic
+shell — a blind reconstruction — approximately reproduces the release-angle
+distribution; the gap was dissected (freeze-out explains a third; the
+remainder is *release memory*, born at L = 0, and anti-tracks tilt at
+n = 110/tilt), and the analytic exceedance came out 78–80%. The whole edifice
+was then handed to adversarial review, which pre-registered the acceptance
+protocol for the h-scan (dual integrator,
+n = 50 angles, h to 10⁴, graded by *their* criteria). The ergodic backbone is
+dead as an extrapolation instrument (protocol harvest, complete) — the
+gap-vs-ergodic grew at h = 1000, 3000, and 1×10⁴ (three consecutive
+violations of the pre-registered monotonic-shrink falsifier,
 terminal gaps 3–5× the first). The microcanonical ensemble remains a
 partial mechanism decomposition (freeze-out third + release memory), but
 its physical-h exceedance claim is retired to the failures ledger. What stands is
 empirical: P(f_amp>0.2) rose with h — 84 → 82 → 84 → 94 → 100% — with no
-quiet draw at h=1×10⁴ (min f_amp 0.246). The dice stand; the backbone that
-tried to extrapolate them does not.
+quiet realization at h=1×10⁴ (min f_amp 0.246). The ensemble stands; the
+backbone that tried to extrapolate it does not.
 
 The honest answer to "what is ε?" is a probability distribution
-(the dice, intact) — and the pre-registered falsifier killed the backbone
+(the ensemble, intact) — and the pre-registered falsifier killed the backbone
 that tried to derive it, exactly where the review said to look. Stage-two
 conformal integration is now the sole ladder to physical h.
 
@@ -442,7 +452,7 @@ mandatory architecture), algorithms as choreographed interference,
 measurement as the single final recording, and error correction as the crown
 — syndrome measurements post records about the *errors* while the data's
 draft stays unposted. Receipt: Google Willow (Nature, Dec 2024,
-cite-verified), logical errors suppressed 2.14± 0.02× per code-distance
+cite-verified), logical errors suppressed 2.14 ± 0.02× per code-distance
 step. Why QC is hard, in the file's one sentence: drafts are free but
 every stray photon is an auditor.
 
@@ -453,8 +463,8 @@ The thirteenth domain; restatement-grade; the language holds.
 The medicine cluster: MRI as a decoherence camera (T1/T2 as relaxation
 times; the Larmor rate derived from constants = 42.577 MHz/T, the exact
 clinical value); PET as double-entry imaging (the 511.00 keV line is m_e c²
-remeasured daily in every hospital — the same constant the dyad amends at
-recombination); Tc-99m as an engineered metastable state parked for 6.01 h;
+remeasured daily in every hospital — the same constant the electron-coupled
+scalar amends at recombination); Tc-99m as an engineered metastable state parked for 6.01 h;
 proton therapy as choosing the deposition depth (Bethe's 1/v² → the Bragg
 peak). The retina reads single receipts.
 
@@ -475,9 +485,10 @@ kernel gives **2.2599 meV against the observed 2.25 — +0.44%** — conditional
 α_c = 3α (under MCMC test) and on the one irreducible input, the portal
 √σ_dark = m_e; a lattice T_c/√σ for SU(2), N_f = 3 confirms or kills it
 (P-2026-048). The whisper trial that once guarded the deposit reading is
-resolved (ANN-2026-021); the posterior now tests the surviving whisper. Standing bet #3: the effective dark energy is
-exactly Λ — the model votes *against* DESI DR2's 3.1σ evolving-DE
-preference, and dies if a phantom crossing is decisively confirmed.
+resolved (ANN-2026-021); the posterior now tests the surviving whisper.
+Standing bet #3: the effective dark energy is exactly Λ — the model votes
+*against* DESI DR2's 3.1σ evolving-DE preference, and dies if a phantom
+crossing is decisively confirmed.
 
 One half answered at stated grade, one half confessed, one bet
 placed against live data.
@@ -490,7 +501,7 @@ rotation breaks the needed time-reversal symmetry) — the predicted
 result, borne out. Wormholes: allowed in principle, denied viability — traversable
 throats need a permanent negative-energy overdraft that the quantum
 interest conjecture (Ford & Roman) refuses, and the medium cannot co-sign
-(NEC-saturating at the floor); the time-machine back door is welded shut
+(NEC-saturating at the floor); the time-machine loophole is welded shut
 by the khronon's global clock. Analog horizons: scope calibrated — sonic
 black holes in BECs (Unruh, Steinhauer) simulate horizon kinematics
 exactly and our c_s = 0 medium gives the dispersive regime; it does not
@@ -574,7 +585,7 @@ five-lever audit). Deaths by calculation, burials with resurrection terms or the
  (the high-Σ, inverted-hierarchy-leaning branch) was falsified
  (ANN-2026-021); the running posterior now tests the surviving whisper.
 
-*If every bet survives, the program has earned its next room. If one
+*If every bet survives, the program has earned its next working session. If one
 dies, the file shows exactly where, and why, and what was paid to know.*
 
 ---
@@ -593,12 +604,12 @@ corpse). Every entry ends with the hook: what result in that domain hurts
 us. Sources: the Atlas, the predictions registry, the Room 1 expedition
 log, the five-verdict derivation, the reconciliation audit.*
 
-## The exam rooms (solar system and laboratory)
+## The precision examinations (solar system and laboratory)
 
 25. Solar-system tests / PPN — receipt and instrument. The gravity-only
 census requires exact-GR at every PPN order; the medium's local density
 (7×10⁻²⁵ g/cm³) sits 4–5 decades below ephemeris sensitivity — computed,
-booked, and mandatory. *Hook: any confirmed dark-sector fifth force or
+on the record, and mandatory. *Hook: any confirmed dark-sector fifth force or
 PPN anomaly breaks the census, and the census is the spine.*
 
 26. Equivalence-principle tests (MICROSCOPE, Eöt-Wash) — forbids. No
@@ -622,7 +633,7 @@ between virialized and unvirialized absorbers; KILLED by ≪1% uniformity.
 *Hook: live both ways, pre-registered.*
 
 29. The Oklo natural reactor — receipt for R1. Two-billion-year-old
-fission books demand constants stable in virialized environments —
+fission records demand constants stable in virialized environments —
 exactly R1's suppressed-side prediction. *Hook: an Oklo-class anomaly
 inside virialized matter contradicts the binary structure.*
 
@@ -636,12 +647,14 @@ gravity residuals attributable to the dark sector.*
 
 31. Deuterium cosmology (PRIMAT) — predicts. The deuterium row: **−2.5 to −1.4σ** carried
 honestly on the standing 2.387 (full budget: obs ±0.030 ⊕ theory ±0.037; the unfolded
-inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The dyad cannot heal it: its
-portal is the total singlet |Ψ|², which reaches the quark bilinear only at two EW/EM loops and
+inter-code spread would soften it to −1.4…−2.2σ; ΛCDM itself: 1.85σ). The
+electron-coupled scalar cannot heal it: its portal is the total singlet |Ψ|²,
+which reaches the quark bilinear only at two EW/EM loops and
 delivers 20 000–31 000× too little, and a universal shift at ε is independently 12–18σ dead on D/H
 — so D/H stands at −2.5 to −1.4σ with no rescue.
 P-2026-006's co-signed amendment (δm̂/m̂ = +0.14–0.21% at BBN) is retained only for a hypothetical
-future lever sourced outside this sector. *Hook: a deuterium row resolving to >3σ against us wounds the dyad's BBN books.*
+future lever sourced outside this sector. *Hook: a deuterium row resolving
+to >3σ against us wounds the model's BBN bookkeeping.*
 
 32. The lithium problem — predicts (a mandatory co-signature). If
 P-2026-006's quark-mass amendment is real, ⁷Li must move −7..13% — the
@@ -651,13 +664,13 @@ healed with lithium untouched kills the healer.*
 33. Helium-4 (Y_p) — receipt, with veto power. Y_p pinned the knob
 family (it's why α and the vev amendment died) and prices every healer
 (+1.9 for the pre-basin ΔN_eff route). Our YHe is computed from
-ω_b and m_e in-config, not fit. *Hook: a Y_p measurement shifting
->1σ re-evaluates every BBN process in the file.*
+ω_b and m_e in-config, not fit. *Hook: a Y_p measurement shifting >1σ
+re-evaluates every BBN process in the file.*
 
-34. The neutron lifetime — inherits (an exposure in our own books).
+34. The neutron lifetime — inherits (an exposure inside our own analysis).
 τ_n sets n/p freeze-out inside our BBN prior; the beam-bottle 4σ split
 is unresolved upstream of us. *Hook: resolution toward exotic neutron
-disappearance re-audits every dyad fit's BBN block.*
+disappearance re-audits every fit's BBN block.*
 
 35. Nuclear binding sensitivity (DSW coefficients) — inherits.
 ∂lnB_D/∂ln m̂ = −4 (pulled from source, PRD 76, 063513) is the derived
@@ -670,7 +683,7 @@ coefficient re-prices or kills the healer.*
 T_ν = (4/11)^⅓T_γ and N_eff = 3.044 are hard-coded in every config
 (N_ur = 2.0328, T_ncdm = 0.71611); the CMB damping tail measuring this
 arithmetic is what executed ξ_Neff. *Hook: already fired once — it
-killed a third of the triad.*
+killed one of the model's three original levers.*
 
 37. Neutrino oscillations — receipt (it sets the floor the posterior
 walks on). Δm² splittings floor Σm_ν ≥ 0.06 eV (normal) / 0.10 eV
@@ -717,7 +730,7 @@ the medium's granule scale re-open the trial.*
 44. Dark acoustic oscillations in P(k) — forbids. One substance, no
 dark radiation coupled to dark matter today, no mirror sector (census):
 P(k) must show NO dark oscillation features. *Hook: a confirmed DAO
-signature kills the minimal room.*
+signature kills the minimal model.*
 
 45. Galactic dark disk (Gaia) — forbids. No dissipative dark channel
 exists to cool a disk with (Law 2 + census). *Hook: a confirmed dark
@@ -735,7 +748,7 @@ supply would squeeze the two-fluid factor, not the mass.*
 
 47. Stellar streams — predicts (the sole ε-meter). Granule heating
 suppressed by p²+q² ≈ 0.6 relative to free FDM at fixed m — the ONLY
-observable that reads the genesis dice. *Hook: sims failing to
+observable that reads the genesis distribution. *Hook: sims failing to
 distinguish 0.6× contrast = ε unobservable full stop; stream data
 matching free-FDM heating exactly disfavors the two-fluid split.*
 
@@ -777,7 +790,7 @@ mass outright, because the defence that was owed has been computed and is
 absent, and the mass has nowhere to go.*
 
 53. Pulsar timing arrays — killed-by (headstone in place). The beat
-channel died by mass — after a month of derivation, dice,
+channel died by mass — after a month of derivation, ensemble runs,
 and protocol. The attachment is proven by the corpse and its
 pre-registered burial. *Hook: closed honestly; PTA silence is now
 REQUIRED — a confirmed nanohertz signal matching the KR template at our
@@ -822,17 +835,17 @@ program.*
 61. Dark-sector neutrino flux (IceCube) — forbids. No annihilation,
 no decay, no flux, ever. *Hook: same class as §59-60.*
 
-62. Dark photons / hidden gauge sectors — forbids (a census-closed
-door). The medium is a global-U(1) condensate; the gauged door was
+62. Dark photons / hidden gauge sectors — forbids (a channel the census
+closes). The medium is a global-U(1) condensate; the gauged channel was
 priced shut (B−L capped at M* ≳ 10¹⁴ GeV; no Meissner cousin). *Hook: a
-confirmed dark photon coupled to the dark sector reopens a door the
-census claims is welded — and breaks the census's exhaustiveness
+confirmed dark photon coupled to the dark sector reopens a channel the
+census claims is sealed — and breaks the census's exhaustiveness
 theorem.*
 
 ## The laboratory cousins (where the identity is testable for thousands, not billions)
 
 63. Ring-BEC analog cosmology (Eckel-class) — predicts (tabletop
-protocol booked). The frozen-ellipticity theorem is testable in an
+protocol registered). The frozen-ellipticity theorem is testable in an
 expanding ring trap: prepare ±1 winding superposition at chosen f_rot,
 expand adiabatically, read mode populations by time-of-flight; the
 fringe contrast 2√(n₊n₋)/n = √(f_amp(2−f_amp)) is the SAME beat formula
@@ -874,12 +887,12 @@ H_inf < 2–4×10¹² GeV (abundance/isocurvature), plus this program's own
 *Hook: a confirmed tensor-to-scalar ratio implying H_inf above the pin
 kills the AD genesis as drawn.*
 
-69. CP violation & baryogenesis — input (a structural requirement).
+69. CP violation & baryogenesis — receipt (a structural requirement the data already supplies).
 The AD spiral requires a tilt slant; the **Z4 tilt is an input** — parity and renormalizability
 do not select it, because the field parity Ψ → −Ψ is even on both Ψ² + h.c. (dimension two) and
 Ψ³Ψ* + h.c., and each of those breaks the U(1) to **Z2**, the lower-dimension one generically
 dominating. Fixing four-foldness needs a selection rule on which charge quantum the ultraviolet
-may violate, and no standing basement supplies one. The dark asymmetry f_rot ≈ 0.4
+may violate, and no standing constituent theory supplies one. The dark asymmetry f_rot ≈ 0.4
 coexists with the baryons' ≈1 because the penalty schedule differs.
 *The genesis handedness result does not ride on this:* the reflection that makes sign(θ̇) a fair
 coin exists for **any** single-harmonic tilt cos Nθ (take σ: θ → 2π/N − θ; at N = 4 that is the
@@ -907,7 +920,7 @@ boring. *Hook: a confirmed intrinsic-dipole anomaly would challenge the
 khronon's global foliation.*
 
 73. Dark-antimatter astronomy — predicts (the reframe's edge). ~30%
-of DM is never-annihilating antimatter (median draw) — coexisting
+of DM is never-annihilating antimatter (median realization) — coexisting
 peacefully BECAUSE no channel exists. *Hook: this is §57–61's guillotine
 from the other side — ANY dark annihilation signature simultaneously
 falsifies the reframe and the census.*
@@ -923,8 +936,8 @@ diffuse, unenriched, HI-rich sub-threshold IGM, so it should carry the
 shift → a +2.51% shift in the 21-cm rest frequency (~m_e²/m_p), ~1.7–2.2
 MHz at 68–89 MHz. The structure gate is the current best physics; the
 epoch gate is its homogeneous approximation. *Hook: cosmic-dawn 21-cm
-(HERA/SKA-low/REACH) reads +2.5% (confirm P-2026-007, dyad-specific,
-ΛCDM-impossible) or consistent-with-zero (kills the sharp-step / favors
+(HERA/SKA-low/REACH) reads +2.5% (confirm P-2026-007, specific to the
+electron-coupled scalar, ΛCDM-impossible) or consistent-with-zero (kills the sharp-step / favors
 the epoch-gate approximation). HI needs no enrichment, so it reaches the
 sub-threshold voids metals never can. Fights astrophysical degeneracy.*
 
@@ -979,9 +992,10 @@ direction.
 ## The validation record (added 2026-07-13)
 
 *Current standing of every attachment (written 2026-07-07; maintained since). Each row states in
-plain words whether the domain passes now, runs as a standing null (a bet held at the required null),
-is trailing (live data currently leaning against us), awaits posterior / sims / data / derivation,
-has already executed a kill (attachment proven by corpse), rests on a cite-verified laboratory
+plain words whether the domain passes now, runs as a standing null (a bet held
+at the required null), is trailing (live data currently leaning against us),
+awaits posterior / sims / data / derivation, has already executed a kill
+(attachment proven by corpse), rests on a cite-verified laboratory
 receipt, is an internal theorem, or is a ruler we measure against rather than a claim.*
 
 | § | Domain | The receipt / what's owed |
@@ -992,7 +1006,7 @@ receipt, is an internal theorem, or is a ruler we measure against rather than a 
 | 28 | Quasar spectroscopy | already executed α (killed 45–100×); R1 awaits data — m_e in unvirialized gas unmeasured, R1's judge |
 | 29 | Oklo reactor | passes — 2-Gyr constants stability inside virialized matter, as R1 requires |
 | 30 | Matter-wave interferometry | standing null — δg/g ~ 1×10⁻⁹, no dark dephasing |
-| 31 | Deuterium (PRIMAT) | **awaiting measurement** — standing −2.94σ (window −2.5 to −1.4σ), but the row spans −3.6σ to −1.6σ across the literature's four rate-error assessments and localises to d(d,n)³He at 94%; LUNA names its measurement the top open priority and it is unmade. Bet registered P-2026-058. What does not wait: 0.62σ behind the ΛCDM control, compilation-robust. No healer available to the dyad |
+| 31 | Deuterium (PRIMAT) | **awaiting measurement** — standing −2.94σ (window −2.5 to −1.4σ), but the row spans −3.6σ to −1.6σ across the literature's four rate-error assessments and localises to d(d,n)³He at 94%; LUNA names its measurement the top open priority and it is unmade. Bet registered P-2026-058. What does not wait: 0.62σ behind the ΛCDM control, compilation-robust. No healer available to the electron-coupled scalar |
 | 32 | Lithium | awaits data — co-signature −7..13% untestable until healer tested |
 | 33 | Helium-4 (Y_p) | passes — in-config YHe(ω_b, m_e) consistent with 0.2449±0.0040 |
 | 34 | Neutron lifetime | exposure open — beam-bottle 4σ unresolved upstream of our BBN prior |
@@ -1023,8 +1037,8 @@ receipt, is an internal theorem, or is a ruler we measure against rather than a 
 | 59 | 3.5 keV line | standing vote, currently favorable — deep follow-ups have not confirmed the line; vote currently winning |
 | 60 | Direct detection | standing null — LZ/XENONnT null to ~2×10⁻⁴⁸ cm², as census requires, forever |
 | 61 | Dark-sector ν flux | standing null — IceCube shows none, as required |
-| 62 | Dark photons | standing null — none detected; census door stays welded |
-| 63 | Ring-BEC analog | protocol booked — tabletop frozen-ellipticity test written, unrun; thousands not billions |
+| 62 | Dark photons | standing null — none detected; the census channel stays sealed |
+| 63 | Ring-BEC analog | protocol registered — tabletop frozen-ellipticity test written, unrun; thousands not billions |
 | 64 | Bragg S(k) | lab-verified — PRL 88, 120407, the form-factor shape exists in a lab universe |
 | 65 | Amplitude mode | lab-verified — Nature 487, 454, R1.6's object measured in the same EFT class |
 | 66 | Quantum turbulence | waiting on lab calibration — lab tangle statistics → granule Θ meter |
