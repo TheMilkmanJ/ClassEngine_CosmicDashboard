@@ -2064,6 +2064,15 @@ so the null's ratio is delivered at candidate grade and what L2 owes is the over
 - **A4 (why one):** N = n gives Q = 1/3 + 1/(3n); the data select n = 1 alone, and the
   vacuum-sector occupancy argument independently argues "exactly one."
 - **A5 (neutrinos):** no occupancy statement applies to an unbound tower; Q_ν = 0.458 ✓.
+  **Quantified 2026-07-28, and it is a much stronger pass than a spot-check.** A4's own
+  formula inverts to n = 1/[3(Q − 1/3)], so the neutrino tower's occupancy is a *measured*
+  quantity: **n_ν = 2.667 ± 0.018**, the error propagated from Δm²₂₁, Δm²₃₁ and m₁. Every
+  integer is excluded — n = 3 at **19σ**, n = 2 at 38σ, n = 4 at 75σ, n = 1 at 94σ. So the
+  tower does not merely fail to sit at the charged sector's value; it sits at **no integer
+  occupancy at all**, which is exactly and only what the lock forbids. The test passes on
+  its own terms rather than by coincidence of one number.
+  *(The non-integer value is near 8/3, but Q_ν's 1808 ppm input error cannot resolve 8/3 from
+  its neighbours — that lead is dead and filed, and nothing here rests on it.)*
 - **A6 (double-booking):** one counting law, two different cells, two different
   binding quanta — not one number reused.
 

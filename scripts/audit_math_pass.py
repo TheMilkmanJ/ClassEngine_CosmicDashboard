@@ -1354,6 +1354,21 @@ chk("occupancy lock", "the Q it delivers", 2/3, 1/3 + (2/3)*0.5, 1e-12)
 chk("occupancy lock", "the A it delivers", math.sqrt(2), math.sqrt(6*(1/3+(2/3)*0.5)-2), 1e-12)
 chk("occupancy lock", "the tau it delivers", math.log(2)/2,
     -math.log(math.sqrt(6*(1/3+(2/3)*0.5)-2)/2), 1e-12)
+# A4's generalization: occupancy n gives Q = 1/3 + 1/(3n), i.e. A^2 = 2/n. Inverting it makes
+# the neutrino tower's occupancy a measured quantity, and every integer must miss it.
+_Qn = lambda n: 1/3 + 1/(3*n)
+chk("occupancy A4", "Q at n = 1", 2/3, _Qn(1), 1e-12)
+chk("occupancy A4", "Q at n = 2", 0.5, _Qn(2), 1e-12)
+chk("occupancy A4", "Q at n = 3", 4/9, _Qn(3), 1e-12)
+chk("occupancy A4", "A^2 = 2/n at n = 1", 2.0, 6*_Qn(1)-2, 1e-12)
+def _Qnu(_m1, _d21=7.53e-5, _d31=2.53e-3):
+    _m2, _m3 = math.sqrt(_m1*_m1+_d21), math.sqrt(_m1*_m1+_d31)
+    return (_m1+_m2+_m3)/(math.sqrt(_m1)+math.sqrt(_m2)+math.sqrt(_m3))**2
+_qv = _Qnu(2.25e-3)
+_nv = 1/(3*(_qv - 1/3))
+chk("occupancy A4", "the neutrino tower's implied occupancy", 2.6668, _nv, 1e-3)
+chk("occupancy A4", "it is not an integer -- nearest is 3, missing by", 0.333,
+    min(abs(_nv-k) for k in (1, 2, 3, 4)), 2e-2)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
