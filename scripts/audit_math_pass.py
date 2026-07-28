@@ -1215,6 +1215,22 @@ chk("z3 selector", "(alpha/pi)^2, too large by", 32.2,
     ((1/137.035999084/math.pi)**2*1e6)/_RESID, 2e-2, "x")
 chk("z3 selector", "m_e/Lambda_shell, too small by", 1.8e14,
     (_RESID/1e6)/(0.51099895e6/(_LAM_SH*1e9)), 5e-2, "x")
+# The reading's one further prediction -- an electron-localised breaking -- does not bite:
+# the two natural spurion forms rank the seats oppositely, which is arithmetic and not evidence.
+_sm = {"tau": math.sqrt(1776.86), "e": math.sqrt(0.51099895), "mu": math.sqrt(105.6583755)}
+_afit = sum(_sm.values())/3
+_pk = {"tau": 0, "e": 1, "mu": 2}
+_pr = {n: _afit*(1 + math.sqrt(2)*math.cos(2/9 + 2*math.pi*k/3)) for n, k in _pk.items()}
+chk("z3 spurion", "residuals sum to zero (a is their mean)", 0.0,
+    sum(_sm[n]-_pr[n] for n in _sm), 1e-9)
+chk("z3 spurion", "relative residual on the electron", 28.84,
+    (_sm["e"]-_pr["e"])/_pr["e"]*1e6, 1e-2, "ppm")
+chk("z3 spurion", "relative residual on the tau", -6.32,
+    (_sm["tau"]-_pr["tau"])/_pr["tau"]*1e6, 1e-2, "ppm")
+chk("z3 spurion", "but absolutely the tau carries most", 1,
+    1 if abs(_sm["tau"]-_pr["tau"]) > abs(_sm["e"]-_pr["e"]) else 0, 0)
+chk("z3 spurion", "the electron's seat ratio, smallest of the three", 0.04035,
+    _pr["e"]/_afit, 1e-3)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)

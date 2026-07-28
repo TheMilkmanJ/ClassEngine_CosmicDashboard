@@ -845,6 +845,20 @@ hopelessly too small. **Kill condition:** exhibit the Z₃-breaking operator and
 produce a residual of order 0.1 ppm, or show that an emergent family symmetry cannot survive to
 the precision the Koide relation already demonstrates.
 
+**And the reading makes no further prediction the sector can test.** If the breaking is the
+electron's doping it should be electron-localised, which sounds falsifiable and is not: fitting
+the zero-parameter node to the measured masses leaves residuals that rank the seats *oppositely*
+under the two natural spurion forms — additively the τ carries most (−2.7×10⁻⁴ in √m), relatively
+the electron does (+28.8 ppm). That is arithmetic, not evidence: the electron's seat ratio is
+0.0403 against the τ's 2.379, so any absolute perturbation looks largest there whatever its
+origin. Three masses with one fitted scale leave two residuals, which is exactly the freedom A and
+φ already consume, so nothing remains to test against.
+
+**What would give it a handle is a fourth measured mass governed by the same node.** The sector has
+none among the charged leptons. If the family node also governs the neutrino sector — which the
+roster's three ν_R make a live question rather than a wish — the reading becomes testable; until
+then it is a structural argument with one confirmed sign and no independent check.
+
 **What the pairing section would need to say.** That its four conditions are two: (1) *a
 species-selective chiral chemical potential on exactly one node pair* — which subsumes the old
 conditions 1, 2 and 4 and §6b's condensation residual, since screening, compensation and the

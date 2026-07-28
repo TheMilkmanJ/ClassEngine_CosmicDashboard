@@ -122,3 +122,11 @@ where the Koide node lives. An **emergent** Z₃ — exact in the infrared, brok
 is the only realisation letting both hold, and it commits to the Koide relation being approximate.
 It is, at 0.17 ppm in Q. Candidate, not an account: no spurion is exhibited and the obvious scales
 miss the residual by 32× and 10¹⁴×.
+
+**And it is untestable inside the sector.** Its one further prediction — an electron-localised
+breaking — does not bite: the two natural spurion forms rank the seats oppositely (additively the
+τ carries most, relatively the electron does at +28.8 ppm), which is arithmetic rather than
+evidence, since the electron's seat ratio is 0.0403 against the τ's 2.379. Three masses with one
+fitted scale leave two residuals, exactly the freedom A and φ already use. **A fourth mass
+governed by the same node is what would give it a handle** — which makes whether the family node
+reaches the neutrino sector the live question, and the roster's three ν_R make that askable.
