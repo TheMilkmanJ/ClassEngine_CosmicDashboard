@@ -1853,6 +1853,23 @@ chk("DERIVATION_HUNT 1", "#126: 8/9 and 9/10 separated by, at the ensemble width
 # guarded beneath it so a file restoring "3.3x" cannot pass unnoticed.
 chk("DERIVATION_HUNT 1", "#126: sharpening to the candidate SPACING 0.0115 (not a separation)",
     3.26, _SDc/0.0115, 5e-3, "x")
+# --- #130 piece 1: the roster's charge weighting bounds the identity ----------
+# The Planck-floor roster is the SM's 48 Weyl fermions + 3 right-handed
+# neutrinos (hierarchy section 6). 49 of 51 sit at mu = 0 and are Lorentz-
+# invariant, so Pi_T - Pi_L is sourced by the doped pair alone, weighted by its
+# share of sum Q^2. Locked so the bound cannot drift.
+from fractions import Fraction as _Fr
+_GEN = [(_Fr(2,3),3),(_Fr(-1,3),3),(_Fr(2,3),3),(_Fr(-1,3),3),
+        (_Fr(0),1),(_Fr(-1),1),(_Fr(-1),1),(_Fr(0),1)]
+_NW = 3*sum(m for _,m in _GEN)
+_SQ2 = 3*sum(m*q*q for q,m in _GEN)
+chk("hierarchy 6", "#130: Weyl fermions in the visible roster", 48, _NW, 0)
+chk("hierarchy 6", "#130: roster sum Q^2 (three generations)", 16.0, float(_SQ2), 1e-9)
+chk("hierarchy 6", "#130: split if the doped pair is EM-neutral", 0.0,
+    float(2*_Fr(0)**2/_SQ2), 1e-12)
+chk("hierarchy 6", "#130: split if the doped pair is charged leptons (the cap)",
+    0.125, float(2*_Fr(-1)**2/_SQ2), 1e-9)
+
 # --- P-048: the null inherits the sky, and that caps the test -----------------
 # H_observation = rho_Lambda^(1/4)(obs) / [(9/2) alpha^4 m_e], so it carries
 # rho_Lambda's +/-0.449%. That uncertainty EXCEEDS the 0.44% separation being

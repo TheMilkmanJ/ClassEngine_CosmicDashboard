@@ -215,11 +215,24 @@ forty-nine species sit at nodes and one pair is doped.
 
 **That makes the identity a computable correction rather than a tautology or a falsehood.** The
 forty-nine at μ = 0 are Lorentz-invariant and contribute a single form factor, so Π_T − Π_L is
-sourced by the **doped pair alone**. Unweighted, that is 2/51 = **3.9%**; properly it scales as the
-pair's share of Σ Q² over the roster rather than its share of the head count, so the exact figure
-needs the roster's charge assignment. The unit-coefficient identification therefore holds **up to a
-few-percent correction with a named source**, and what piece 1 owes is that correction's size — a
-constituent-level number, not a structural obstruction.
+sourced by the **doped pair alone**, weighted by that pair's share of Σ Q² over the roster.
+
+**And the roster's charges are not unknown — §6c names them.** The Planck-floor roster is *"the
+Standard Model's 48 Weyl fermions plus three right-handed neutrinos"*, so the weighting is the
+Standard Model's own: Σ Q² = 16/3 per generation, **Σ Q² = 16** over the 48, with the three ν_R
+contributing zero. The split is therefore a **discrete choice over the roster**, not an open O(1):
+
+| doped pair | Q²(pair) | Π_T − Π_L as a fraction of Π |
+|---|---|---|
+| ν_L or ν_R | 0 | **0 — the identity is exact** |
+| d_L or d_R | 2/9 | 1.39% |
+| u_L or u_R | 8/9 | 5.56% |
+| e_L or e_R | 2 | 12.50% |
+
+So the unit-coefficient identification is **bounded in [0, 12.5%], and exact if the doped pair is
+electromagnetically neutral.** What piece 1 owes is not a calculation but an identification: *which*
+pair §6c dopes. That is a constituent-level choice, and the corpus already narrows it — the pair
+must form a compensated semimetal gapped by ⟨ψ̄_L ψ_R⟩.
 
 (Consistency check: 51 Weyl species is 25.5 Dirac equivalents, which is the N_screen = 25.5 N₀ the
 same section books.)
