@@ -25,7 +25,9 @@ Major moves since the 2026-07-08 baseline (below):
   by energy over every field in the vacuum, and charge (which selects the roster) weights by
   Σ N_c Q² = 8 → c = 8/9, or → c = 1 with a zero-weight seat, which the census excludes. No single
   criterion returns 9/10. Nor does the ensemble adjudicate — at its width 8/9 sits 0.30σ from 9/10,
-  and σ_c ≤ 0.0115 would be needed to separate them. So the framework does not force the value; it is
+  and a 3σ separation needs σ_c ≤ 0.0037 — a 10× sharpening, ~100× the sample. (The 0.0115 booked
+  earlier is the candidate spacing, which buys 0.97σ: where they stop coinciding, not where either
+  is excluded.) So the framework does not force the value; it is
   well-supported and assumed (#126, the two-census marriage,
   [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1).
 - The dark-energy value now has a derived-scaling closed form: ρ_Λ¼ = (d²/2)α⁴·T_c, which on the

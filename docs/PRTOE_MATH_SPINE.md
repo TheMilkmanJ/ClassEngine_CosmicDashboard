@@ -123,8 +123,10 @@ running instrument:
 > ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1, the two-census marriage), and what the
 > value rests on independently is the ε-blind ensemble — c = 0.903 [0.867, 0.942], −0.08σ from 9/10.
 > **That ensemble confirms and does not select.** At its width it sits +0.53σ from the
-> neutrino-inclusive 12/13 and −0.38σ from the charge²-weighted 8/9, so it excludes neither; the
-> pre-registered width that would separate them is σ_c ≤ 0.0115, a 3.3× sharpening not yet in hand.
+> neutrino-inclusive 12/13 and −0.38σ from the charge²-weighted 8/9, so it excludes neither. The
+> binding pair is 9/10 against 8/9, only 0.0111 apart, and separating two hypotheses that close
+> takes a width well under their spacing: a 3σ call needs σ_c ≤ 0.0037, a 10× sharpening and — since
+> ensemble width falls as 1/√N — roughly 100× the data. That is not near.
 > What picks 9/10 over 12/13 is the tie-as-lock argument, not the measurement;
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, set by the
 > winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):

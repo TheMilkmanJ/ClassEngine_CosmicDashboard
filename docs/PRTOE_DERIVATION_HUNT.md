@@ -75,11 +75,15 @@ what survives it: a counting assumption the data confirms, not a count the frame
 **What the data can and cannot do here.** The ε-blind ensemble lands at c = 0.903 [0.867, 0.942],
 −0.08σ from 9/10 — a genuine independent landing, and not an adjudication: at that width 12/13 sits
 +0.53σ and the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, inside the ensemble's own
-error bar. The pre-registered width that would separate the candidates is σ_c ≤ 0.0115, a 3.3×
-sharpening the ensemble has not reached. So the alternative the routing step was invoked to exclude
-is not excluded by measurement either; what remains against it is that the charge criterion, run to
+error bar. The candidates sit close together — 9/10 and 8/9 are 0.0111 apart, and that spacing,
+not the measurement, is what governs. An ensemble whose width *equals* the spacing places the two
+one standard deviation apart, which is where they stop coinciding rather than where either is
+excluded. **A 3σ call on that binding pair needs σ_c ≤ 0.0037 — a 10× sharpening, and since an
+ensemble's width falls as 1/√N, about 100× the data** (`scripts/c_census_discrimination_width.py`).
+So the alternative the routing step was invoked to exclude is not excluded by measurement either,
+and will not be soon; what remains against it is that the charge criterion, run to
 its end, returns the excluded c = 1. **Owed: nothing further that analysis alone can settle** —
-the closing move is a sharper ensemble (σ_c ≤ 0.0115) or the α_c chain, both already running.
+the closing move is a far sharper ensemble or the α_c chain.
 
 **The velocity ladder — the interface named, and what the naming costs.** The base
 claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio

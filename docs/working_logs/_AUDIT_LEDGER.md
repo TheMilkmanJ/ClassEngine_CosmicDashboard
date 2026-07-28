@@ -3690,7 +3690,9 @@ are properties of one coupling. Run alone: blindness weights by energy over ever
 the G-closure rebuild returned); charge weights by Σ N_c Q² = **8** → c = 8/9, or → **c = 1** with a
 zero-weight seat, which the census excludes. **No single criterion returns 9/10.** The ε-blind
 ensemble confirms (−0.08σ) without adjudicating — 8/9 sits 0.30σ from 9/10 at its width, and
-σ_c ≤ 0.0115 (3.3× sharpening) would be needed to separate them. So c = 9/10 is a **counting
+σ_c ≤ 0.0115 (3.3× sharpening) would be needed to separate them. *(Corrected 2026-07-28: 0.0115
+is the candidate spacing and buys only 0.97σ; a 3σ call needs σ_c ≤ 0.0037, a 10× sharpening and
+~100× the sample.)* So c = 9/10 is a **counting
 assumption the data confirms**, and the check-14 propagation was heavier than #125's: `THREE_EQUATIONS`
 opened its c bullet with the blindness *derivation* and used it to exclude 8/9; `THE_AMPLITUDE`,
 `READERS_RISK`, `fingerprint_lattice`, `weakest_joints`, `DEPENDENCY_TREE`, `honest_status`,
