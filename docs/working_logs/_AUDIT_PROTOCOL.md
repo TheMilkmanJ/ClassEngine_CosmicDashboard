@@ -357,6 +357,31 @@ falsifier without reading a single adjective.** If a sentence survives deleting 
 and adverbs with its physics intact, it passes; if it collapses, it was carrying argument in the
 wrong place.
 
+**23. AN OVER-DETERMINED SET MUST BE CLOSED, NOT MERELY EACH MEMBER GUARDED (2026-07-28 — found
+twice in one day, in unrelated sectors).** Wherever a section records more numbers than it has
+independent unknowns, the surplus is a free consistency test, and a harness that checks each
+number against its own source cannot see it. Two instances, both invisible for months:
+
+- **The Koide watches.** A = √2 and arg f₁ = 2/9 were each tested against m_τ and each sat under
+  1σ. Together they leave the ring only its overall scale, so they also fix m_μ/m_e — a ratio
+  known to 22 ppb — where they miss by 9.8 ppm, or **452σ**. Every individual check passed.
+- **The junction rectifier.** ω_J ≈ 5.7 keV, j = ω_J²/Γ_φ ≈ 6 meV, Γ_φ/θ̇ ≈ 10⁷ and the needed
+  R = ω_J²/(2Γ_φθ̇) ≈ 5×10⁻⁵ are four numbers over three unknowns. Substituting Γ_φ collapses R
+  to j/(2θ̇), and the set misses closure by **a factor 9**. Which input carries it is undetermined.
+
+The harness already contains the correct pattern, in one place: `chk("sqrt3_derivation", "B =
+omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes** the surplus
+member from the other two rather than booking it separately. That line would have caught either
+defect above had it been written for those sectors.
+
+**The check: count the independent unknowns, count the recorded numbers, and if the second exceeds
+the first, take a spanning subset and predict the rest.** A booked value that agrees with its own
+source proves nothing about the set. The tell is a section quoting three or more numbers that a
+substitution visibly relates — and the harness entry for it reading `chk(name, booked, booked)`
+in disguise, i.e. checking a decimal against its own surd rather than against the other members.
+When the set does close, record that too: closure confirmed is a result, and it is what
+distinguishes this check from fishing.
+
 A file is not closed until checks 12, 13 and 22 pass. Running the regression harness and a stale-pattern sweep
 is necessary and is not sufficient: both test what you thought to test.
 

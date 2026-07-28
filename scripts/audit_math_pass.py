@@ -115,6 +115,15 @@ chk("scale_ladder", "nucleus ~ 8 MeV / 939 MeV", 8.5e-3, 8e6/939e6, 0.05)
 chk("sqrt3_derivation", "Gamma_par/H = sqrt(3)", 1.7320, math.sqrt(3), 1e-4)
 chk("sqrt3_derivation", "omega_J/H = sqrt(3/2)", 1.2247, math.sqrt(1.5), 1e-4)
 chk("sqrt3_derivation", "B = omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3), 1e-4)
+# Closure, from the physics rather than from the surds (protocol check 23): with
+# G = 1/(8 pi M_red^2) the Jeans rate is omega_J^2 = 4 pi G rho = rho/(2 M_red^2), and
+# Friedmann gives H^2 = rho/(3 M_red^2). Both rho and M_red cancel, so the ratio is forced.
+_rho, _Mred = 7.3e-3, 2.435e27        # arbitrary positive values; they must cancel
+_omJ2 = 4*math.pi*(1/(8*math.pi*_Mred**2))*_rho
+_H2   = _rho/(3*_Mred**2)
+chk("sqrt3_derivation", "omega_J^2/H^2 derived from G and Friedmann", 1.5, _omJ2/_H2, 1e-12)
+chk("sqrt3_derivation", "and it is independent of rho (decade shift)", 0.0,
+    (4*math.pi*(1/(8*math.pi*_Mred**2))*(10*_rho))/((10*_rho)/(3*_Mred**2)) - _omJ2/_H2, 1e-12)
 As = 2.088e-9
 # --- the occupancy, in ONE clock -------------------------------------------
 # t_turn is a dark-energy-era quantity (H_Lambda^-1). The elapsed time since the

@@ -4511,3 +4511,24 @@ against 5.7 keV until the owner says which number moves.
 
 Arithmetic in `scripts/baryogenesis_junction_closure.py`; nine harness checks pin every leg, so
 the tension is guarded rather than remembered. Harness 838, passing.
+
+### 2026-07-28 — protocol check 23 added: over-determined sets must be closed, not merely guarded
+
+Two defects found today, in sectors that share nothing, turned out to be one class. The Koide
+watches (A = √2 and arg f₁ = 2/9, each under 1σ against m_τ, jointly 452σ against m_μ/m_e) and
+the junction rectifier's quartet (four numbers over three unknowns, missing closure by 9) were
+both invisible to a harness with 838 passing checks — because every check compared one booked
+number against its own source, and neither defect lives in any single number.
+
+Written up as **check 23**. The rule: count the independent unknowns, count the recorded numbers,
+and where the second exceeds the first, take a spanning subset and predict the rest.
+
+The harness already had the correct pattern in exactly one place — `sqrt3_derivation`'s
+`B = omega_J/Gamma_par` line computes the surplus member from the other two instead of booking it
+— which is what made the class recognisable. That set was then checked properly and **closes**:
+ω_J² = 4πGρ = ρ/2M_red² with G = 1/8πM_red², against Friedmann H² = ρ/3M_red², gives ω_J²/H² =
+3/2 with both ρ and M_red cancelling identically. Two checks added, including a decade shift in ρ
+to confirm the cancellation is exact rather than numerical. Closure confirmed is recorded because
+a check that only ever finds defects is fishing; this one finds both.
+
+Harness 840, passing.
