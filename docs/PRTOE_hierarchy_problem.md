@@ -50,8 +50,8 @@ strained (the two-loop shooting run lands the census portal at 13–20 TeV, not 
 and the edge-convention audit has concluded: the inference fell, not the convention, confirmed
 by computing every admissible edge pairing — the most anchor-favorable of them still leaves a
 3.6× gap with no overlap). **That strain was sized against the anchor as a point value,
-1.57 TeV, and that value is withdrawn** (§6e): the
-anchor is a band, and with the complete O(λ) correction evaluated (§6e, dockets #141 and #183:
+1.57 TeV; the anchor is a band** (§6e),
+and with the complete O(λ) correction evaluated (§6e, dockets #141 and #183:
 c = 0.789 from the crossed box and a = 0.281 from the Fock self-energy, the anchor
 × e^(−(c+a)) = 0.343) that band is **0.55–1.78 TeV**. Re-measured against it, the gap to the
 shooting run's 13–20 TeV runs **7.3× (nearest edges) to 36× (farthest edges)** — so the
@@ -88,9 +88,9 @@ and scheme/threshold matching gives {0 (gauge decoupling), 5/6 (momentum-scheme)
 pairing-susceptibility scheme — the honest reading of "gap-scheme coupling")}. The
 obstruction is structural: every one-loop dimensional-regularization constant enters against
 ln μ² (squared-log), so it halves at this single-log normalization — landing 3/2 requires a
-squared-log constant of 3, absent from the one-loop fermionic menu. The earlier
-identification with the T_c derivation's own bracket constant (L − 1 = ln(m_e0²/μ²) − 3/2)
-is **retracted** on the same ground: that bracket is squared-log, and at this normalization
+squared-log constant of 3, absent from the one-loop fermionic menu. Identification
+with the T_c derivation's own bracket constant (L − 1 = ln(m_e0²/μ²) − 3/2)
+is **closed** on the same ground: that bracket is squared-log, and at this normalization
 it predicts the excluded 3/4 (autopsy:
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). Any future exhibition must produce 3
 at squared-log or a natively single-log mechanism — and the one arithmetic option in the menu
@@ -753,20 +753,17 @@ exactly 1. The UV-extrapolated reading needs C ≈ 0.387 to reproduce A_s, which
 **the α(M_Z) reading needs only C ≈ 0.779**, which is not. So the selection is not "C = 1 against
 something absurd" — it requires **C = 1 to about ±22%**, and the count is derived to nothing like
 that. So this argument rides C = 1 — which means **"the count is exactly (4πk/α_c)³" and "α_c does
-not run" now stand or fall together.** They were previously independent claims; they are one joint
-now, and either one failing takes the other with it. That is a real tightening of the corpus's
-exposure and it is recorded as such rather than as a free win.
+not run" stand or fall together.** They are one joint, not two independent claims, and either one
+failing takes the other with it: a tightening of the corpus's exposure, not a free win.
 
 
 ### 6j. Electroweak precision — the constraint that actually applies
 
-An earlier pass of this section priced the anchor as a *composite* Higgs and derived a
-compositeness bound from the S parameter, plus an extended-technicolor flavour problem. **That was
-a misreading of this file's own §2(c)** and both are withdrawn: the Higgs here is elementary, its
-mass parameter induced by one loop of anchor-scale states, and its vev the Standard Model's. A
-model with an elementary Higgs inherits neither the compositeness bound nor the flavour problem —
-the Yukawas are the Standard Model's own, so no extended-technicolor operators exist to hit K⁰
-mixing.
+**The Higgs here is elementary** (§2(c)): its mass parameter is induced by one loop of
+anchor-scale states, and its vev is the Standard Model's. A model with an elementary Higgs
+inherits neither the compositeness bound the S parameter would place on a *composite* Higgs
+nor an extended-technicolor flavour problem — the Yukawas are the Standard Model's own, so no
+extended-technicolor operators exist to hit K⁰ mixing.
 
 What does apply is a counting bound. The anchor-scale portal species carry electroweak quantum
 numbers, and a degenerate heavy doublet contributes ΔS = 1/6π = 0.053 **without decoupling** — the

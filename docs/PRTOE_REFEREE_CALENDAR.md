@@ -72,6 +72,17 @@ No verdict may be argued after the fact — the rules below were set before the 
 > iterations to the first checkpoint is **163 days** and the reference 1809-iteration run is **736
 > days**, with the ΛCDM twin doubling it. Forty-eight hours bought 4.1 iterations of 1809.
 >
+> **What the run actually costs, and what machine matches it**
+> (`scripts/nested_run_cluster_sizing.py`). The reference run and its twin are 1.93 million
+> likelihood evaluations, i.e. **4.0 core-years** — a many-core node, not a cluster. At 64 cores
+> it is about a month; at 128, about two weeks. **The live-point count caps the return:** with
+> nlive = 200 PolyChord cannot usefully employ more than ~200 cores, and raising nlive lifts the
+> ceiling only by raising total work in proportion. The configuration sets the maximum useful
+> machine. The dominant term is the 66 s likelihood, which is slow for a CLASS-class evaluation
+> and is the one input here never profiled: 66 s → 10 s would be worth more than six times the
+> cores, at no cost. num_repeats = 24 = 2·ndim is already at the economical end and holds little
+> slack.
+>
 > The verdict therefore rests on Laplace-from-MCMC, as it did before the nested run was
 > attempted, until cluster time makes nested sampling affordable. That changes what the MCMC chains
 > are for: they are no longer a side referee on individual parameters, they are the evidence

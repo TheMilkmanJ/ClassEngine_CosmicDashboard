@@ -69,8 +69,8 @@ calculation (docket item #126).** Run either criterion by itself and the count i
 The democratic count needs *membership* from the second row and *weights* from the first, and the
 two rows are the same coupling. That is the marriage, and it is not a gap to be filled — a coupling
 selective enough to build a charged roster is not blind, and a blind one does not stop at nine.
-**The gravity-routing licence is therefore withdrawn rather than supplied**, and c = 9/10 stands as
-what survives it: a counting assumption the data confirms, not a count the framework forces.
+**The gravity-routing licence is therefore unavailable, not merely unbuilt**, and c = 9/10 stands as
+what survives without it: a counting assumption the data confirms, not a count the framework forces.
 
 **What the data can and cannot do here.** The ε-blind ensemble lands at c = 0.903 [0.867, 0.942],
 −0.08σ from 9/10 — a genuine independent landing, and not an adjudication: at that width 12/13 sits
@@ -277,16 +277,16 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
   fix √σ_dark = m_e gives the wrong τ; the QCD-like sector that gives τ carries its own scale). It
   is an **irreducible input** — the meV-scale dark-energy value, ρ_Λ ~ α⁴m_e — but a
   **falsifiable** one (it predicts ~MeV dark states).
-- **Head-on pass: confirmed irreducible, and the total-input count named.** A direct
-  re-attack finds no derivation — the τ-vs-scale obstruction above is a genuine fork, not a gap to be
-  filled. What the pass *does* fix is the honest scope: √σ_dark = m_e is the one dimensionful input **of
+- **Irreducible, and the total-input count.** No derivation exists — the τ-vs-scale obstruction
+  above is a genuine fork, not a gap to be
+  filled. The scope: √σ_dark = m_e is the one dimensionful input **of
   this (dark-energy / confining) sector**, and it is *not* the theory's sole dimensionful anchor. The
   ultralight quantum mass **m = 2.24×10⁻²⁰ eV** (the onset clock z_on, a separately *measured* input;
   [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §Field 1) sets the DM / healing-length sector independently.
   So the theory carries **exactly two dimensionful inputs** — m_e (confining/DE) and m (ultralight/onset) —
   each falsifiable, each anchoring a different sector; every other scale (τ, T_c, M₂, ρ_Λ, Σm_ν, ξ) is one
-  of these two times pure numbers. Two anchors, not one — the honest count, stated so no later pass mistakes
-  m_e for the sole input or tries to re-derive the portal.
+  of these two times pure numbers. Two anchors, not one: m_e is not the sole input, and the portal
+  is not a derivable quantity.
 
 ---
 
@@ -298,10 +298,9 @@ dark matter remains the medium's own ultralight excitations. Its condensates are
 the chiral condensate; the electron-coupled scalar is neither of them, being the separate
 high-decay-constant field of §8 item 1b (§6).
 
-> **The flavour count's supporting argument was withdrawn and replaced.** This section previously
-> read *"its three flavours supply the '3' in α_c = 3α"* — **retired**: that 3 is the spatial
-> dimension d (§1, MATH_SPINE §0), so it never supported the flavour count. τ requires only
-> N_f ≥ 2 (§2), so the count stood unsupported. The candidate replacement is **Pauli finiteness
+> **What supports the flavour count.** Not the '3' in α_c = 3α — that 3 is the spatial
+> dimension d (§1, MATH_SPINE §0), a different object — and not τ, which requires only
+> N_f ≥ 2 (§2). The candidate support is **Pauli finiteness
 > applied to this sector**, which forces **dark SU(2) with N_f = 3** as the unique integer solution
 > of str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 — see the note in §6, **including its live risk**
 > (τ's 0.34–0.37 band is an SU(3) value, and τ scales ρ_Λ¼ linearly). **Until that is settled the
@@ -311,25 +310,23 @@ high-decay-constant field of §8 item 1b (§6).
 - **Cosmology (safe):** the ~MeV dark baryons cannot overclose. To be the dark matter they would need a
   dark asymmetry ~1700× the visible one; at any natural asymmetry they are ≤10⁻³ of it, and symmetric
   relics annihilate away (strong coupling).
-- **Footprint (falsifiable) — RECOMPUTED at N_c = 2, and the answer changed sign.** The old
-  figure (**ΔN_eff ≈ 0.05–0.3**) came from a *generic scan* over g_dark = 2, 4, 8, taken because
-  the colour group was unknown. With the group fixed to SU(2) (§6), the count is determined — and
+- **Footprint (falsifiable).** A group-agnostic scan over g_dark = 2, 4, 8 gives
+  **ΔN_eff ≈ 0.05–0.3**. With the group fixed to SU(2) (§6), the count is determined — and
   **pseudo-reality enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14
   Goldstones**, not the
-  N_f² − 1 = 8 an SU(3) sector gives. That is **1.75× the old scan's ceiling**, and it puts
+  N_f² − 1 = 8 an SU(3) sector gives. That is **1.75× that scan's ceiling**, and it puts
   **ΔN_eff = 0.375 even at the earliest possible decoupling** — above Planck's ΔN_eff ≲ 0.3 (2σ), at *any*
   T_dec (the largest g_dark Planck admits is 11.2). **The sector cannot escape by making the Goldstones
   heavy:** a pseudo-Goldstone is lighter than its confinement scale (√σ_dark = m_e = 511 keV) by
   construction, and **τ is spending exactly that lightness** — heavy dark quarks push T_c/√σ back toward
-  the pure-glue 0.69–0.71 and break §2's value. **The ramp audit made it worse:** n/p freeze-out is at
+  the pure-glue 0.69–0.71 and break §2's value. **And the freeze-out epoch is worse:** n/p freeze-out is at
   T ≈ 700 keV while T_c = 177.10 keV, so **T/T_c ≈ 4.0 — the dark sector is DECONFINED at
   freeze-out** and the Goldstones do not exist yet; the correct count there is dark quarks +
   gluons = **27**, giving **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's **+1.09σ
   adverse Y_p deuterium row → ≈ +3.4σ**. **Consequence: the dark sector must have NEVER
   THERMALISED with the SM.** Registered as the fifth falsifier of **P-2026-048**.
   (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
-- **THE NON-THERMALIZATION ESCAPE — BUILT (2026-07-17), ADJUDICATED BY ADVERSARIAL REVIEW
-  (2026-07-18): verdict NARROWED.** The falsifier is **CONFIRMED on the recorded model** (the
+- **THE NON-THERMALIZATION ESCAPE.** The falsifier is **CONFIRMED on the recorded model** (the
   v ≈ 175 keV electron-CW version of the electron-coupled scalar thermalizes; margins 10⁸–10¹⁷,
   strengthened in trial: the U(1) seal, the 2-dof floor ΔN_eff = 1.14, the fluctuation nail);
   **one branch survives — the zero-mode/high-f configuration of that scalar (v ≈ 100–500 TeV)**:
@@ -343,7 +340,7 @@ high-decay-constant field of §8 item 1b (§6).
   recorded and settled; **the branch is the standing configuration (§8 item 1b)**.
   √σ_dark = m_e and the headline result survive either way. Full record + verdict:
   [Nontherm_Kill_Discussions.md](working_logs/Nontherm_Kill_Discussions.md) §6.
-  The original build's detail, for the recorded-model falsification it established: the rate check
+  The rate check behind the recorded-model falsification:
   Γ(dark–SM) < H at all T, run on the model's own recorded couplings: **(i)** gravity and the
   census-closed portals pass (Γ/H ≈ 3×10⁻⁷ even at the bounce scale — the standard gravitational
   escape holds *for those channels*). **(ii) The scalar–electron channel is fatal:** the
@@ -457,16 +454,15 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 
 ## 6. The constituent-level roster
 
-> **ADJUDICATED: the "3" in α_c = 3α is the SPATIAL DIMENSION d, not the flavour
+> **The "3" in α_c = 3α is the SPATIAL DIMENSION d, not the flavour
 > count.** §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 hold (*"α_c = 3α = d·α"*, the
-> transverse-projector trace of the induced loop). **§3's claim that "its three flavours supply the
-> '3' in α_c = 3α" is therefore retired** — a false warrant. This was the third instance of one
-> attribution pattern (chirality double-sourced from the winding n *and* p-wave L; the generation
-> count from str[k₁] = 0 *and* Weyl nodes; the "3" from d *and* flavours) — and in every case the
-> redundant claimant lost.
+> transverse-projector trace of the induced loop), so the dark sector's three flavours are no
+> warrant for it. One attribution pattern runs through this sector — chirality double-sourced
+> from the winding n *and* p-wave L; the generation count from str[k₁] = 0 *and* Weyl nodes; the
+> "3" from d *and* flavours — and in each of the three only one claimant survives.
 >
-> **What that leaves, and the candidate that replaces it.** With the α_c warrant withdrawn, nothing
-> held the dark flavour count at 3: τ requires only N_f ≥ 2 (§2), and the corpus never names the
+> **What holds the dark flavour count.** Not α_c, and not τ, which requires only
+> N_f ≥ 2 (§2); the corpus never names the
 > dark colour group N_c at all. But [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2 states
 > the finiteness sum runs over **"every field in the vacuum — not the model's coupling roster"** —
 > and **the §5 table counts only the Standard Model's 48 Weyl fermions and 12 gauge bosons. The dark
@@ -610,26 +606,26 @@ are owed):
 | corner | tie tracking | ν free-streaming at z ≈ 1100 (computed) | standing |
 |---|---|---|---|
 | **A: f = v_L ≈ 100–500 TeV** | dead (ceiling 2.4 TeV vs floor 40 TeV — a factor 17) | Γ/H ~ 3×10⁻³⁸ — CMB-safe, beyond CMB-S4's reach, invisible in 0νββχ | tie-dead |
-| **B: v_L in the corridor (below)** | was "alive" via the retracted channel | *(withdrawn — the corridor's bounds rode P-2026-052)* | dissolved with the retraction |
-| **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(the deep-recoupling stress was the retracted channel)* | **alive — clears every applied constraint** |
+| **B: v_L in the corridor (below)** | no channel — the corridor's bounds rode P-2026-052 | *(no bound: P-2026-052's channel is kinematically closed)* | not a corner |
+| **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(no deep-recoupling stress: P-2026-052's channel is kinematically closed)* | **alive — clears every applied constraint** |
 
-**The corridor's floor bound and the recoupling epoch are withdrawn** (the νν̄ ↔ φ channel is
-kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ — P-2026-052 retracted,
-autopsy in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); for an ultralight Majoron the
+**There is no corridor floor bound and no recoupling epoch**: the νν̄ ↔ φ channel is
+kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ (P-2026-052's
+autopsy is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); for an ultralight Majoron the
 free-streaming constraint returns no discriminator at any corner (g⁴ exchange only, Γ/H ≲ 10⁻⁵
 everywhere; the massless-mediator CMB bound g ≲ few×10⁻⁷ is passed by ≥ 20× at the MeV corner).
-**What stands on this fork (rates now computed, not estimated):** the free-streaming constraint
+**What stands on this fork (rates computed):** the free-streaming constraint
 is clean at every corner by six orders or more (Γ/H at recombination: 8×10⁻⁷ at the MeV corner,
 2×10⁻²⁸ at the TeV class, 3×10⁻³⁸ at one scale — the 2↔2 exchange rate Γ ≈ 7.3×10⁻³·g⁴·T
 against the epoch's H). The one-scale corner remains **tie-dead**: the condensate-friction
 channel is a coherent-mode damping rate (Γ ≈ g²T/8π, evaluated where the settling freezes —
 the lightest neutrino going non-relativistic at z ≈ 12.4), giving a ceiling **v_L ≲ 2.4 TeV**
-against the thermalization floor f ≥ 40 TeV — a factor 17, decisive. *(The proper rate moves
-the ceiling up from the recorded 0.94 TeV by ×2.6 and changes no verdict; the table graduates
-from estimate to computed.)* The TeV and MeV corners are **both alive**, and the corner-selector
+against the thermalization floor f ≥ 40 TeV — a factor 17, decisive. *(A cruder estimate of the
+same rate puts the ceiling ×2.6 lower, at 0.94 TeV, and changes no verdict.)*
+The TeV and MeV corners are **both alive**, and the corner-selector
 is the prediction registry's original referee — the CMB-S4 Majoron/ν-interaction search (a
 detection at g ~ 10⁻⁸–10⁻⁹ selects the MeV corner and its resonant-leptogenesis route; a null
-leans high-v_L). **The SN1987A constraint, verified against the literature (2026-07-18): both
+leans high-v_L). **The SN1987A constraint, verified against the literature: both
 corners clear.** The Majoron–ν channel is
 kinematically open in the supernova core and ungated, and the bounds are: the classic
 luminosity/trapping exclusion band **3×10⁻⁷ < g < 2×10⁻⁵** (Kachelriess et al. 2000; Farzan
@@ -645,7 +641,7 @@ ultralight-mediator bounds). The two-scale structure (f ≠ v_L, three dark fiel
 one-scale corner's tie-death alone. Corner selection: **open — both corners clear every
 constraint the model can apply; CMB-S4 is the selector.**
 
-**What the test settles and what it leaves (post-retraction state):** the TeV and MeV corners
+**What the test settles and what it leaves:** the TeV and MeV corners
 both survive every constraint applied so far and CMB-S4 is the sole selector (a g ~ 10⁻⁸–10⁻⁹
 detection selects MeV and its resonant-leptogenesis route; a null leans high-v_L); the one-scale
 corner stays tie-dead on the condensate-friction ceiling alone. **The un-merger's residue is
@@ -796,11 +792,11 @@ pair and not the roster.**
   number (the formation-epoch bath against the band's doping). The velocity-matching structure
   (r = v_e/v_h free) is unchanged (hierarchy §6c, §6e). The **4π is the standard loop factor**;
   the **cube is the three spatial dimensions**. Live referees: P-2026-048's crossover number, the
-  kernel-host owed number, and the concordance k at the chains' convergence. The former residual —
-  the exact O(1) **normalization of the shot-noise count** (the "count C") — is the piece the
-  2026-07-28 derivation supplies: the erasure channel's occupancy-one partner count sets the
-  per-vertex factor with nothing adjustable, and the convention decomposition that once offered
-  C = π/4, 0.098, or 3.2×10⁻³ is superseded by the physical channel (its rivals ruled out, the
+  kernel-host owed number, and the concordance k at the chains' convergence. The exact O(1)
+  **normalization of the shot-noise count** (the "count C") is set by the physical erasure
+  channel: its occupancy-one partner count fixes the
+  per-vertex factor with nothing adjustable. The convention decomposition, which offers
+  C = π/4, 0.098, or 3.2×10⁻³, does not compete with it (its rivals ruled out, the
   survivors' record in the working log). The closed form lands **−0.92% (−0.66σ)** against the
   measured 2.100×10⁻⁹; the −0.35% quoted beside the pipeline's frozen input is the closed form
   against its own value at the concordance k, a k-spread rather than a test of the count.
@@ -968,16 +964,16 @@ pair and not the roster.**
    kinematics alone: the force range is mm–cm and the source–test separation is ~700 km — the
    Yukawa factor is e^(−2×10⁷). Casimir-band (μm) experiments constrain μm-range forces; the
    scalar's mm–cm range lives in torsion-balance territory, already bounded (S_⊕ < 2.1×10⁻¹¹
-   required; the recorded exponential form delivers immeasurably more). **The honest price, stated
-   plainly: the gate that clears the laboratory closes the laboratory as a test** — the local-force
+   required; the recorded exponential form delivers immeasurably more). **The price: the gate that
+   clears the laboratory closes the laboratory as a test** — the local-force
    channel is unobservable by construction, and the configuration's falsifiable channels are
    cosmological (the ΔN_eff window at CMB-S4, the BBN calculations, DESI). **The high-f
    condensation mechanism is specified** — the bare potential, λ_dyad with its radiative-stability
    check, the sequence, and the ramp with its exact thermal kernel — leaving three narrower
    residuals in its place: λ_dyad's origin, the T_c re-pin, and the v_L fork. The gate form itself
    is **derived at class level**
-   (an event-triggered gate is a survival probability — exponential-power class, the power form
-   retired; [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) gate section), which
+   (an event-triggered gate is a survival probability — exponential-power class, not power-law;
+   [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) gate section), which
    grounds the checklist's exponential-form reliance; the remaining form residual is the seed
    exponent n.
 2. *(resolved) The induced-G scalar coefficient* — verified: Visser Eq. 35 assigns each
@@ -986,17 +982,16 @@ pair and not the roster.**
    G-value's own need, but an input: induced-G finiteness is conditional on conformal Higgs coupling
    (§5). The "hole" reduces to one named assumption.
 3. **f̄ and α_c referees** — the winding ensemble and the α_c chain, both running (§1).
-4. *(derived at candidate grade, 2026-07-28) A_s's count* — the former residual, the O(1)
-   normalization of the shot-noise count, is supplied by the erasure channel's occupancy-one
+4. *(derived at candidate grade, 2026-07-28) A_s's count* — the O(1)
+   normalization of the shot-noise count is supplied by the erasure channel's occupancy-one
    partner count (the spine §23.5: channel + count + measure, the count measured directly at
    1.003 ± 0.005 through the amplitude's cube). k remains the derived screened-interaction
    integral on its standard host (hierarchy §6n); the live referees are P-2026-048, the
    kernel-host owed number, and the concordance k at the chains' convergence.
 5. *(closed as owed) The spurion μ = 2.25 meV* — graded as **not** an independent input:
    it is the electron-anchored meV-scale value (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1.
-   One fewer free number than the list once carried.
 
-*Ruled-out approaches and retracted claims are recorded in
+*Ruled-out approaches are recorded in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), not here.*
 
 ---

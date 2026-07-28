@@ -93,6 +93,7 @@ Undated entries below read against this register.*
 | Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal audit |
 | The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal audit |
 | P-039's collider knife-edge ([1.00–1.19] TeV) | **NOT A DEATH — SUSPENDED (live):** the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now open across a "1–100 TeV decade". The perturbative program that would have narrowed the decade is closed, so the decade is refereed by the collider search directly — recorded here for provenance, not buried | internal audit |
+| P-039's **pre-correction** triplet band — M_T = 1.07 TeV central, band 0.4–2.6 TeV (two-loop + input uncertainties), and the kill framing built on it ("current type-III limit ~0.9–1.0 TeV, the window is a factor ≲2.6: SCHEDULED, not safe") | SUPERSEDED, not falsified: it was computed against the electron-scale α anchor (process error 5). Re-run on the correct UV variables — 1/α₂(M_red) = 0 and 1/α_Y(M_red) = 0 spliced at M_Z to (29.58, 98.37) — the same duty-pin returns M_T ∈ [1.00, 1.19] TeV at one loop, and the two-loop shift then opens the decade above. Recorded here so the retired numbers keep a home | internal audit |
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal audit |
 | c = 9/12 and c = 9/13 (the "neutrino side doesn't count" rosters) | RAMP-PROOF KILLS: each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | 2026-07-13 |
 
@@ -2457,6 +2458,16 @@ quartic, and even granting an attractive coupling of the same size, N_bosenova s
 scalar for every superradiance purpose — f_eff = 5×10¹⁶ GeV — so there is nothing to discriminate,
 and P-2026-034 stands or falls on the spin measurements alone.
 
+**The discriminator's registered form, recorded here in full since it no longer has a home in the
+registry.** It was booked LIVE at the era band's top edge: M87*'s **[2.9, 4.6]×10⁻²¹ eV**
+free-scalar exclusion overlaps **m ~ 3×10⁻²¹ eV**, so a spin measurement there would kill free FDM
+and not the dyad — present-day data, not future. The band-top framing is retired independently, the
+mass having since been pinned an order higher at **2.24×10⁻²⁰ eV**. The quench was also one of the
+ε-collision's **three** correlated readouts of one ε — the PTA beat (light-m-gated), the granule
+power p²+q² (any m), and the superradiance quench (heavy edge, CONFIRMED-QUENCH grade, booked as
+possibly live with existing data on the DK-holds branch). Two readouts remain; the quench is not
+one of them, and P-2026-034 stands undefended.
+
 **The lesson (process).** *A rate is not a rate until you say per what.* The sweep's two rates were
 both written as "Γ ~ … m" and looked commensurable; one was per particle and one was per cloud.
 Sweeping an unknown exponent over ten units of α_g hid a normalization error worth ninety decades,
@@ -2597,6 +2608,14 @@ alone). Both booked values are wrong, and the true value is *above* the span the
 | "conclusions robust across the 49–83% span" | the span excluded the answer. Robust anyway, but by luck: at 0.90 the power-spectrum route is *more* hopeless, not less |
 | "a razor-thin viable window L ~ 2–3 D" | **there is no window.** No box the matched circles permit delivers the observed 0.2–0.5 quadrupole; the largest suppression available at the floor is 10%, i.e. 0.16σ against the quadrupole's own 63% cosmic variance |
 | off-diagonal S/N = 2.2 over 990 pairs | **1.4** ISW-inclusive; 2.0 on Sachs–Wolfe alone, which is what the lost pass appears to have computed. The ISW's near-isotropic power adds to the diagonal without adding to the off-diagonal, so it dilutes the correlations exactly as it shallows the quadrupole |
+
+**The superseded estimate in full, recorded here since it no longer has a home in the registry.**
+`scripts/torus_quadrupole.py` (sanity-matched: numeric C2(full) = 0.0833 = analytic) gave the
+Sachs–Wolfe leading-order quadrupole suppression C2(torus)/C2(inf) against box size L (D = comoving
+distance to last scattering) as **L=10D: 1.00 ; L=4D: 0.94 ; L=3D: 0.83 ; L=2D (= obs. univ. diam.):
+0.49 ; L=1.5D: 0.19 (excluded)**, and the octupole at L=2D retaining **0.85** against the
+quadrupole's 0.49. The ordering of those last two — quadrupole hit harder than octupole — is the
+shape statement the lattice sum preserves; the depths are the part it does not.
 
 **What survives, and it is the part that mattered.** The *shape* result is untouched — suppression
 confined to the lowest multipoles and gone by ℓ ≈ 4 — as is the relocation of the test from the
