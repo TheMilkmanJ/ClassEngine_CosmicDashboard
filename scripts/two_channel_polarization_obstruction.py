@@ -73,11 +73,25 @@ answers both halves.
   records that the finite-mu surface is unsupported by three failed
   routes.
 
-  THE TENSION THIS EXPOSES, which is the real finding: the hierarchy
-  chapter needs finite mu (a Fermi POINT cannot pair at this coupling —
-  its own section 6a), while alpha_c's response-function identity needs
-  mu = 0 (or it has no content).  Those are the same medium.  One sector
-  requires a Fermi surface and another requires a Fermi point.
+  AND THE APPARENT CONFLICT DISSOLVES ON THE CORPUS'S OWN CONFIGURATION.
+  It looked as though two sectors demanded opposite things of one medium
+  — the hierarchy chain needing finite mu because a Fermi POINT cannot
+  pair at this coupling (its section 6a), alpha_c's identity needing
+  mu = 0 or it has no content.  That framing was wrong, and section 6c
+  states why: it requires **exactly two of the roster's fifty-one Weyl
+  species to carry finite density, with the other forty-nine sitting at
+  mu = 0** (hierarchy_problem.md section 6).  The basement is neither a
+  bare Fermi point nor a bare Fermi surface; it is a roster with 49 nodes
+  and one doped pair.
+
+  So the 49 at mu = 0 are Lorentz-invariant and supply a single form
+  factor, and Pi_T - Pi_L is sourced by the DOPED PAIR ALONE.  The
+  identity is therefore neither empty nor false: it holds up to a
+  correction of order 2/51 = 3.9% unweighted, scaling properly as the
+  pair's share of sum Q^2 over the roster.  Piece 1's owed object is that
+  correction's size — a constituent-level number, not an obstruction.
+  (51 Weyl = 25.5 Dirac equivalents, matching the N_screen = 25.5 N_0
+  the same section books.)
 
 THE POINT, AND WHY IT BEARS ON THE BASEMENT
   The unit-coefficient identification needs the symmetry that ties the

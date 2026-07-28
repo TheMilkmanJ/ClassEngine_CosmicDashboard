@@ -207,10 +207,22 @@ automatically, carrying no content.
 and false on the introduced one; either way there is nothing to derive. What the sector owes is a
 ruling on which basement stands.
 
-**And that ruling is contested from the other side.** The hierarchy chain needs finite μ — §6a shows
-a Fermi *point* cannot pair at this coupling — while α_c's response identity needs μ = 0 or it says
-nothing. One medium, and two sectors requiring opposite things of it. That conflict, not the
-polarization integral, is the live object.
+**There is no conflict, and the corpus already states the configuration that removes it.** §6c does
+not dope the medium; it requires **exactly two of the roster's fifty-one Weyl species to carry finite
+density, with the other forty-nine sitting at μ = 0** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+§6). So the basement is not "a Fermi point" *or* "a Fermi surface" — it is a roster in which
+forty-nine species sit at nodes and one pair is doped.
+
+**That makes the identity a computable correction rather than a tautology or a falsehood.** The
+forty-nine at μ = 0 are Lorentz-invariant and contribute a single form factor, so Π_T − Π_L is
+sourced by the **doped pair alone**. Unweighted, that is 2/51 = **3.9%**; properly it scales as the
+pair's share of Σ Q² over the roster rather than its share of the head count, so the exact figure
+needs the roster's charge assignment. The unit-coefficient identification therefore holds **up to a
+few-percent correction with a named source**, and what piece 1 owes is that correction's size — a
+constituent-level number, not a structural obstruction.
+
+(Consistency check: 51 Weyl species is 25.5 Dirac equivalents, which is the N_screen = 25.5 N₀ the
+same section books.)
 
 *Piece 2 — the roster's induced split.* The claim conditions "base = α" on the recorded ~44%
 induced fraction. **That fraction belongs to a different coupling at a different scale.** The 44% is
