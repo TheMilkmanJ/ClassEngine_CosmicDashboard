@@ -459,6 +459,22 @@ that fork and a sharper one than the two already there — §6f asks what value 
 orders from the scale defining it, while this asks whether the objects the kernel refers to exist
 at that scale at all.
 
+**Two chemical potentials are in play and they are not interchangeable.** §6n resolves the host
+question with a *vector* chemical potential — the μ-dominated limit of the thermal screening mass
+— and nothing above touches that: a conserved charge can carry a vector μ in the unbroken phase,
+and §6n's identity holds. The residue named in the docket is a *chiral* μ₅ on one node pair,
+which is a different object, and it is the one the unbroken phase forbids. The distinction is
+worth keeping because the two buy different things. A vector μ delivers the μ-domination §6n
+needs and nothing else; μ₅ would additionally have delivered the compensation and the velocity
+match for free, since the two pockets would be one cone's halves.
+
+**Without μ₅, condition (i) reverts to its harder form.** The two compensated bands must then be
+two *different* Weyl species of opposite charge, doped to a common Fermi momentum — so the
+pairing has to be selected rather than arriving as one object's two halves, and r = v_e/v_h = 1
+becomes a matching requirement again rather than an identity. That is exactly the "two of
+forty-eight, unselected" the μ₅ reading was meant to dissolve. The reading survives, but it costs
+what it was brought in to save.
+
 **It also re-prices the failed kill.** §6c reads "the whole roster doped" as N = 24, the 48 Weyl
 as Dirac equivalents. Weighted rather than counted it is **16** in the broken phase and **10** in
 the unbroken one, giving k = 0.73195 and 0.86935 against the counted 0.61846, and anchors at

@@ -830,6 +830,20 @@ This is **reduced** — three unmet conditions plus one open residual go to one 
 the object named. **Still-open, and the missing object is the selection rule that dopes one node
 pair and not the roster.**
 
+Two scope notes attach to the named object, both from the shell's own scale. The conditions
+collapse further than stated — the screening constant depends on the species count and the band
+velocity only through their ratio, b = Nα_c/(πv), so conditions 3 and 4 were never separable and
+the ask is the single relation N = 2v, fenced at ±9% for factor-two accuracy on the anchor. But
+the object itself is unavailable there: **a chiral chemical potential needs a Dirac cone, and the
+unbroken phase has none** — every left-handed field is an SU(2) doublet and every right-handed
+one a singlet, so no opposite-chirality pair shares a representation. §6n's resolution is
+untouched, because it runs on a *vector* chemical potential, which a conserved charge can carry in
+either phase. What is lost is what μ₅ would have thrown in free: with two halves of one cone
+unavailable, the compensated pair must be two separately selected species and r = v_e/v_h = 1
+returns to being a matching requirement. The selection rule is therefore still the missing object,
+and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+§6c).
+
 ---
 
 ## 7. The genesis and structural numbers
