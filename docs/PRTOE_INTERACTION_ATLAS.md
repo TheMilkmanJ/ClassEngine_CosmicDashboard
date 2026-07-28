@@ -263,34 +263,6 @@ through, but that leak grabs the wrong particle's *mass* and stays parity-even: 
 electron-mass wobble, not a rotation. The mass-based ban is the one the transition relaxes; the
 parity-odd ban is structural and no timing argument reaches it.
 
-- **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
- structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
- mechanism produces a c_s²(s) bump with independent motivation. None
- known; coldest grave here.
-- **ξ_Neff (recombination-era dark radiation)** — executed by ACT+BBN.
- *Already half-resurrected:* the normal-fraction carrier provides
- BBN-era ΔN_eff that evaporates before the CMB — ξ's job, moved to
- the epoch where it isn't taxed (abundance channel only,
- ANN-2026-005).
-- **c_EM energy-exchange coupling** — +261 χ²; acoustic wreckage.
- *Resurrects if:* an exchange term acts only post-recombination.
- Structurally disfavored (Law 2).
-- **(□φ)² funded floor, early face** — BBN ν·x scaling. *RESURRECTED*
- (2026-07-06) via the (δK)² fluctuation face, structure-gated. The
- graveyard's founding precedent.
-- **Epoch m_e couplings (linear / log / bespoke saturation)** — killed
- by BBN pincer / quasar 11,000× / no natural scale. SPLIT per Rule 1:
- the *epoch* half is a passed test (coupling active only
- z>1000 while killers live z<3 — specific both ways). The *local-state*
- half's condition is now named to escape blank-check status: MET by a
- detected μ/α gradient tracking local dark density across environments;
- FAILED by environment-resolved spectroscopy establishing <10⁻⁵
- uniformity across a decade of dark density. Warm, on those terms.
-- **Universal single-vev amendment (flat)** — D/H +7.7σ, τ_n −4.9%.
- *Resurrected in gated form* as the vev package (ANN-2026-005).
-- **Flavor-structured shared coupling (~6× lepton-enhanced)** —
- anti-natural (dilaton lore points opposite). *Resurrects if:* some
- derived SM structure computes 5–7 unforced. No candidate.
 ## A live candidate: the inverted lever
 
 One route in this atlas is under active development rather than closed, and it is worth
