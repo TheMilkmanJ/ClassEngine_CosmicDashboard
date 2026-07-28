@@ -214,10 +214,14 @@ delivered exactly the "fixed genesis-set sense" branch's first ingredient — th
 poloidal circulation is locked to the fountain's axial direction at birth (exact parity pair
 ±1.00; five nucleated rings, five correct signs; rings are transient, read at birth — the earlier
 nulls were detection-timing artifacts, recorded in-file). What remains of link 4 is the TOROIDAL
-half — whether the ring's toroidal circulation is set by (and signed by) the genome's winding draw —
-and that is the 3D toroidal pair now running (`scripts/ring_toroidal_3d.py`, n = ±1, fork
-pre-registered: shape-helicity reading vs core-circuit phase-twist reading; survivor keeps candidate
-grade, loser to the ledger). If it lands sign-locked, the first branch above closes with
+half — whether the ring's toroidal circulation is set by (and signed by) the genome's winding draw.
+The instrument exists and its fork is pre-registered (`scripts/ring_toroidal_3d.py`, n = ±1:
+shape-helicity reading vs core-circuit phase-twist reading; survivor keeps candidate grade, loser
+to the ledger). **Run status (2026-07-27): the first launch was LOST — the process was killed at
+6 h 46 m of compute without writing a verdict, under machine contention (single core shared with
+two production chains and a second field-theory run), not for any physics reason. Nothing was
+produced, so nothing is graded: the fork stands exactly where it stood before the launch, and the
+relaunch wants a quiet box.** If it lands sign-locked, the first branch above closes with
 sign(H_kin) = sign(n) up to the recorded fixed factor. (An earlier version of this block said
 link 5 "remains owed on its own terms" — corrected same day: link 5 was CLOSED NEGATIVE
 2026-07-20 by the joint-draw instrument, see item 1's annotation above; what converges with the
