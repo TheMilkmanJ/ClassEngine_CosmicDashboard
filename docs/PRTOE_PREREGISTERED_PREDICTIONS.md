@@ -1847,7 +1847,7 @@ photon a mass (m_γ² = 2q²n/m); photon-mass limits force q_EM < 4.7×10⁻³�
 EM-neutrality is structurally mandatory (birefringence null sharpened from "consistent" to
 "forced").
 
-## P-2026-029: The winding comb — a periodic tooth pattern in the CMB with fundamental ℓ₁ ≈ 31–94 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
+## P-2026-029: The winding comb — a periodic tooth pattern in the CMB with fundamental ℓ₁ = 3.1n, n ≳ 1.65 (registered 2026-07-11; **entry reconstructed 2026-07-17**)
 
 > **RECONSTRUCTED, NOT BACK-DATED.** This bet was **cited across the corpus as registered** — as a
 > member of P-032's four-axis kill (:1729), as the owner of a tooth count with a second duty
@@ -2232,8 +2232,10 @@ of 10⁻¹⁸ eV.
 **The precision the derivation carries, stated honestly.** ∂lnM/∂lnk = 33.47, so
 every O(1) in the calculation is amplified thirty-threefold: the exact-solution factor (Δ = 2Λe^(−1/λ),
 not Λe^(−1/λ)), the rainbow truncation's dropped vertex (relative order λ = 3%, a factor ≈2.7), and
-the Fermi surface's position within Λ_shell ≤ E_F ≤ M_red (≈1.6) compound to **a factor of a few:
-the anchor is 1–8 TeV.** What the entry claims, and what the collider referees, is a TeV-scale
+the Fermi surface's position within Λ_shell ≤ E_F ≤ M_red (≈1.6) compound to a factor of a few,
+and the O(λ) pair (the crossed box c = 0.789262 with its Fock companion a = 0.280677, multiplier
+e^−(c+a) = 0.343) then acts on that: **the anchor is 0.55–1.78 TeV.** What the entry claims, and
+what the collider referees, is a TeV-scale
 anchor derived from the Planck floor and α alone.
 
 **Predictions/kills:** HL-LHC exhausting ~1–2 TeV without portal states kills the visible branch
