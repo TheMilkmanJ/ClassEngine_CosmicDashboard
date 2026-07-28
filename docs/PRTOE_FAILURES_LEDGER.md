@@ -3175,3 +3175,19 @@ the same two conditions that closed every source-route.
 **Reopening condition (a registered two-way bet):** a genesis calculation pinning the
 condensation redshift near equality (a few ×10³) would make a small, suppressed, isotropic
 signal census-legal through the still-open residual coupling.
+
+### The local-state half of the epoch electron-mass couplings — half-open, not closed (back-filled 2026-07-27)
+
+**What it is:** a linear coupling of the electron mass to the local matter state (1% at
+1600 GeV/cm³), the environmental counterpart to the epoch-gated shift.
+
+**Why it sits here:** the channel that would have decided it does not reach it. Its own
+signatures are derived and come out faint — a laboratory shift of δm_e = 2.5×10⁻⁶, and a
+supernova host-contrast effect moving the ⁵⁶Co decay clock by 3.7×10⁻⁵ (about four minutes on
+the 77-day tail), **~1500× below the supernova mass step** it would have had to discriminate
+against. Zero terrestrial annual modulation is predicted, consistent with modern stability
+nulls. Decay data can therefore neither see the coupling nor close it.
+
+**Disposition:** the tunneling discriminator is demoted from discriminator to consistency
+check, and this coupling stays half-open rather than executed — a named development could still
+meet its condition, which is why it is warm and not cold.
