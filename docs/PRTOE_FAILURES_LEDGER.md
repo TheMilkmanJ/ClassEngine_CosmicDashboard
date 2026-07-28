@@ -3602,3 +3602,18 @@ experiment offers and none is planned.
 
 Filed here rather than pursued, per check 20. `scripts/two_ring_amplitude_ratio.py` carries the
 budget so the lead cannot be re-raised without it.
+
+### The two 2s are not the same 2 — checked and dismissed before pursuit (2026-07-28)
+
+A tempting coincidence, tested rather than followed. The screening condition says a doped
+charged-lepton cone is worth exactly **2** in units of N₀ (two bands × one colour × q² = 1), and
+the null says **a² = 2|b|²**. Same number, both in the same sector, both load-bearing.
+
+**They are independent.** The null's 2 counts the ring's charged Z₃ modes, f₁ and f₂ — a property
+of a three-cycle, fixed at 2 for *any* occupant. The screening's 2 is 2·N_c·q², which varies with
+the species: 8/3 for an up-type quark, 2/3 for a down-type, 0 for a neutrino. Vary the doped
+species and one number moves while the other does not, which is the whole test.
+
+Recorded because the temptation is structural rather than accidental — the two constraints are
+adjacent in the argument, both were derived this session, and a reader arriving at them in
+sequence will notice the shared 2 and want it to mean something. It does not.
