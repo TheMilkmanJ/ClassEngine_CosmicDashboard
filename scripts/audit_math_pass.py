@@ -1078,8 +1078,9 @@ chk("lab cousins", "fit-implied 0.6253 vs 2/pi", 1.8, (2/math.pi/0.6253-1)*100, 
 chk("quantum trio", "second sound c2 = c1/sqrt(3) = sqrt(alpha)", 0.0854, math.sqrt(1/137.035999), 0.002, "c")
 chk("quantum trio", "identity sqrt(3a)/sqrt(3) == sqrt(a)", 1.0, math.sqrt(3/137.035999)/math.sqrt(3)/math.sqrt(1/137.035999), 1e-12)
 chk("quantum trio", "indirect band top 0.0214 below 3a", 2.3, (1-0.0214/(3/137.035999))*100, 0.03, "%")
-# The same band against the hierarchy anchor's exact-landing coupling (6g). Two unrelated
-# sectors, one value: the anchor lands inside the band, d.alpha(0) with d = 3 lands outside.
+# The band is a posterior interval from cmp_prtoe_zon read at R-1 = 93.1 against a 0.05
+# target (commit a48b2a1e, 2026-07-11). It is a valid PRE-REGISTRATION and an invalid
+# constraint; these record where its edges sit, and nothing may be inferred from that.
 _BLO, _BHI, _AC_ANCH = 0.0205, 0.0214, 0.021316
 _AC_REC = 3.0/137.035999084
 chk("quantum trio", "the anchor's alpha_c is inside the indirect band", 1,
@@ -1091,7 +1092,7 @@ chk("quantum trio", "the anchor wants alpha_c below the recorded value by", 2.63
 # alpha only strengthens toward the UV, so 3.alpha(mu) >= 3.alpha(0): the minimum is already
 # above the band, and no scale choice can bring the identification inside it.
 chk("quantum trio", "min over mu of 3.alpha(mu) = 3.alpha(0)", _AC_REC, _AC_REC, 1e-12)
-chk("quantum trio", "so the identification is excluded at every scale", 1,
+chk("quantum trio", "3.alpha(0) is above the band top -- arithmetic, NOT a constraint", 1,
     1 if _AC_REC > _BHI else 0, 0)
 chk("quantum trio", "d the band permits, low end", 2.8092, _BLO*137.035999084, 1e-3)
 chk("quantum trio", "d the band permits, high end", 2.9326, _BHI*137.035999084, 1e-3)
@@ -1107,12 +1108,12 @@ chk("d three-way", "its landing against the observed 2.25 meV", 0.44,
     (_rho_of(3.0)/2.25e-3 - 1)*100, 1e-2, "%")
 _d_rho = 3.0*math.sqrt(2.25e-3/_rho_of(3.0))
 chk("d three-way", "d the observed floor requires", 2.9934, _d_rho, 1e-3)
-chk("d three-way", "it sits above the band top by", 2.08,
+chk("band position", "the floor's d sits above the band top by", 2.08,
     (_d_rho/(_BHI*137.035999084) - 1)*100, 1e-2, "%")
 chk("d three-way", "and it agrees with d = 3 to", 0.22, abs(_d_rho/3.0 - 1)*100, 1e-2, "%")
-chk("d three-way", "the floor at the band's top", -4.02,
+chk("band position", "the floor at the band's top", -4.02,
     (_rho_of(_BHI*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
-chk("d three-way", "the floor at the band's bottom", -11.93,
+chk("band position", "the floor at the band's bottom", -11.93,
     (_rho_of(_BLO*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
 # The escape route -- a geometry d^2/2 independent of the coupling's d -- is closed
 # algebraically: the floor's primary form E_b = (1/2) alpha_c^2 M_2 with M_2 = alpha^2 T_c
@@ -1124,18 +1125,26 @@ chk("d three-way", "the two floor forms are identical at d = 3", 0.0,
     _floor(3.0/137.035999084) - _rho_of(3.0), 1e-18, "eV")
 chk("d three-way", "alpha_c the observed floor demands, d never mentioned", 0.021844,
     math.sqrt(2*2.25e-3/_M2), 1e-4)
-chk("d three-way", "which exceeds the band top by", 2.08,
+chk("band position", "alpha_c the floor demands exceeds the band top by", 2.08,
     (math.sqrt(2*2.25e-3/_M2)/_BHI - 1)*100, 1e-2, "%")
 chk("d three-way", "theory and observation agree to", 0.22,
     abs((3.0/137.035999084)/math.sqrt(2*2.25e-3/_M2) - 1)*100, 2e-2, "%")
-chk("d three-way", "band top and anchor agree to", 0.39, abs(_BHI/_AC_ANCH - 1)*100, 2e-2, "%")
-chk("d three-way", "the two pairs differ by", 2.70,
+chk("band position", "band top and anchor agree to", 0.39, abs(_BHI/_AC_ANCH - 1)*100, 2e-2, "%")
+chk("band position", "theory and the anchor differ by", 2.70,
     ((3.0/137.035999084)/_AC_ANCH - 1)*100, 1e-2, "%")
 # The band is not a direct reading of alpha_c: it inverts epsilon = c.f_bar.alpha_c, so it
 # carries c = 9/10 and f_bar = 2/pi, which the floor's alpha_c does not. f_bar's own recorded
 # fit value sits 1.81% below 2/pi, and that shift moves the band by the same fraction.
 _CF = 0.9*(2/math.pi)
 chk("band provenance", "the assembly's conversion factor c.f_bar", 0.572958, _CF, 1e-5)
+# Provenance, recovered from git history (commit a48b2a1e, 2026-07-11 20:25): the band is a
+# posterior interval from cmp_prtoe_zon, whose last progress row before the reading was
+# 2026-07-11T20:03 at R-1 = 93.100635 against Rminus1_stop = 0.05.
+chk("band provenance", "R-1 of the source chain when the band was read", 93.10, 93.100635, 1e-4)
+chk("band provenance", "how far that is above the chain's own target", 1862,
+    93.100635/0.05, 1e-3, "x")
+chk("band provenance", "the last row that chain ever wrote", 40.36, 40.362246, 1e-4)
+chk("band provenance", "its successor's best before collapse", 11.87, 11.869753, 1e-4)
 chk("band provenance", "epsilon at alpha_c = 3 alpha", 1.2543,
     _CF*3/137.035999084*100, 1e-3, "%")
 # The band is NOT the epsilon posterior inverted: the recorded ~1.24% maps ABOVE the band top.

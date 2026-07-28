@@ -792,127 +792,35 @@ scale — weaker than the infrared 137.04.** Running takes α the other way: str
 ultraviolet. So running cannot rescue the anchor's value under any amount; it can only move it
 further. Horn (a) is disfavoured by sign, not merely by magnitude.
 
-**A second sector reaches the same value, and it excludes d = 3 at every scale.** The ε-assembly's
-background fit registers an independent indirect band on the same coupling, **α_c ∈ [0.0205,
-0.0214]** ([PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)). The anchor's exact-landing value falls
-inside it, at 91% of its height; the recorded α_c = 3α(0) = 0.021892 falls outside it, 2.30% above
-its top. Two constraints from unrelated sectors therefore agree with each other and disagree with
-the identification in the same direction — the anchor wanting α_c 2.63% below the recorded value,
-the band's top sitting 2.25% below it.
+**A second reading of the same coupling exists, and it cannot bear weight.** The ε-assembly's
+background fit registers an indirect band, **α_c ∈ [0.0205, 0.0214]**, against which P-2026-040
+grades its bet. Its provenance is a posterior interval from the `cmp_prtoe_zon` chain, read at
+registration on 2026-07-11 — when that chain's last recorded convergence statistic was
+**R−1 = 93.1**, against its own stopping target of 0.05. The chain wrote one further row, at
+R−1 = 40.4, and stopped; its successor reached 11.9 and was archived as collapsed.
 
-The exclusion does not depend on where α is evaluated. Since α strengthens toward the ultraviolet,
-3α(μ) ≥ 3α(0) for every μ, so the *smallest* value the identification can take is the one it
-already takes — and that minimum exceeds the band's top. **No choice of scale brings 3α inside the
-band**, which is the same shape as the anchor's own bound, where 1/α = 140.74 lies past the
-infrared cap of 137.036. Written as α_c = d·α(0), the band permits **d ∈ [2.809, 2.933]**, the
-anchor's landing sits at **d = 2.921**, and **d = 3 is excluded by 2.30%.**
+**As a pre-registration that is sound** — betting against a running instrument is exactly what
+P-2026-040 says it is doing, and doing so before the instrument reports is the strongest form of
+the claim. **As a constraint it is worthless**, and it must not be used as one: an interval read at
+R−1 = 93 is the spread of a chain that has not found the distribution, which is typically far too
+narrow rather than too wide. Nothing that rests on the band's *edges* survives, and the anchor's
+own bound above — 1/α = 140.74 lying past the infrared cap — is independent of it and stands.
 
-None of this touches α_c's *value*, which both constraints put near 0.0213 — within 2.6% of the
-recorded number. What it bears on is the identification: horn (a) needs α_c to be 3α at some
-scale, which the band forbids outright.
+**What the coupling's constraints actually are, band withdrawn.** d appears twice, in α_c = d·α and
+in the floor ρ_Λ¼ = (d²/2)α⁴T_c, and the spine ties them explicitly; the two are one quantity
+because the floor's d² *is* α_c²/α², which is algebra and not a naming coincidence. Three readings
+remain:
 
-**But horn (b) does not absorb it either, because d is not free.** The same d appears squared in
-the dark-energy floor — ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)α⁴T_c — and the spine ties them explicitly,
-"the same 3 as in α_c = 3α". So d is one quantity constrained from three directions, and they do
-not meet:
-
-| constraint on d | value | against the band |
-|---|---|---|
-| the indirect band on α_c | **[2.809, 2.933]** | — |
-| the hierarchy anchor's exact landing | 2.921 | inside, at 91% |
-| the observed ρ_Λ¼ = 2.25 meV | **2.993** | +2.08% above |
-| the spatial dimension | **3** | +2.30% above |
-
-The band agrees with the anchor and disagrees with both the geometric d = 3 *and* the d the
-observed dark-energy density requires — and those two agree with each other to 0.22%, which is
-precisely what the floor's +0.44% landing is. Moving d into the band drags the floor down with
-it: **−4.0% at the band's top, −11.9% at its bottom**, against the +0.44% that d = 3 buys.
-
-So the choice is between the three constraints rather than between the fork's two horns. Three
-ways out present themselves, and **one of them is closed algebraically.**
-
-The floor is recorded primarily as **E_b = ½α_c²M₂ with M₂ = α²T_c**, and the (d²/2)α⁴T_c form is
-that expression with α_c = d·α substituted. The two agree identically, not to some tolerance. So
-the d² in the floor *is* α_c²/α² — there is no independent geometry factor to hold at 9/2 while
-the coupling moves. Whatever α_c turns out to be, the floor carries its square, and the escape
-route of separating the two d's does not exist.
-
-Stated without d at all, the conflict is bare: the observed ρ_Λ¼ = 2.25 meV requires
-**α_c = √(2ρ/M₂) = 0.021844**, and the indirect band caps α_c at **0.0214** — an excess of
-**2.08%**. The four values fall into two pairs:
-
-| source | α_c | ρ_Λ¼ |
-|---|---|---|
-| the spatial dimension, d = 3 | 0.021892 | 2.2599 meV |
-| the observed dark-energy density | 0.021844 | 2.2500 meV |
-| the indirect band, top | 0.021400 | 2.1595 meV |
-| the hierarchy anchor's exact landing | 0.021316 | 2.1425 meV |
-
-The first two agree to 0.22% — that agreement *is* the floor's +0.44%, since ρ goes as α_c² — and
-the last two agree to 0.39%. **The two pairs differ by 2.70%**, and no choice of d reconciles
-them, because d is not a free label but the ratio α_c/α itself.
-
-Two ways out remain and both are empirical rather than algebraic: **the indirect band is wrong**,
-or applies to a different quantity than the coupling the floor uses; or **the floor's agreement
-with observation is a coincidence**, α_c really sitting near 0.0213 and the floor landing at
-2.143 meV — a 5% miss that the d = 3 arithmetic disguised. They point in opposite directions and
-are decidable by measurement, which makes this a live fork rather than an unexplained tension.
-
-**And the first branch has a sharp form, because the corpus holds two ε-side numbers that
-disagree.** The band's provenance is not recorded — it is cited in four forward-facing places and
-one ledger entry, every one of which quotes it and none of which derives it. The natural reading,
-that it inverts the zero-dial assembly ε = c·f̄·α_c on a measured ε, does not survive arithmetic:
-the recorded dyad posterior is **ε ≈ 1.24%**, which maps to **α_c = 0.021642**, above the band's
-top. The band corresponds instead to **ε ∈ [1.175%, 1.226%]**, and the posterior sits **1.13%
-above** that interval.
-
-So two determinations of the same coupling are on the books, they differ by 1.13%, and it is the
-band rather than the posterior that P-2026-040 grades the bet against:
-
-| source | α_c | vs the floor's demand |
-|---|---|---|
-| the dark-energy floor's demand | 0.021844 | — |
-| d = 3, the registered bet | 0.021892 | −0.22% |
-| the ε posterior, through the assembly | **0.021642** | **+0.93%** |
-| the indirect band, top | 0.021400 | +2.08% |
-| the hierarchy anchor's exact landing | 0.021316 | +2.48% |
-
-**The conversion itself is clean**, which needs establishing because it is the one step that could
-have manufactured the gap. ε → α_c routes through c·f̄ and so inherits f̄ = ⟨|cos|⟩ — and f̄ over a
-uniformly wound phase is **exactly 2/π**, a theorem rather than a measurement, so the fit-implied
-0.6253 is a noisy estimate of the booked value and not a rival to it. What could move f̄ is failure
-of the premise, a winding that does not complete whole turns, and that residue is computable:
-
-| turns | worst-case deviation from 2/π |
+| constraint on d | value |
 |---|---|
-| 2 | 4.76% |
-| 5 | 2.02% |
-| 10 | 1.03% |
-| 30 | 0.35% |
-| 100 | 0.11% |
+| the spatial dimension | 3 |
+| the observed ρ_Λ¼ = 2.25 meV | 2.993 |
+| the hierarchy anchor's exact landing | 2.921 |
 
-**And the corpus already carries enough to price the turn count.** Baryogenesis records
-θ̇/H = 2.4×10⁶ at T_sph with θ̇ ∝ T³; in a radiation background H ∝ T², so turns per Hubble time
-go as T, and the accumulated winding θ̇·dt goes as dT — flat, hence dominated by the earliest
-epoch. The two readings differ in kind rather than in precision:
-
-- **accumulated since T_sph: 3.8×10⁵ turns**, 99% of them laid down by T = 0.01·T_sph. On that
-  reading f̄ sits within **2.6×10⁻⁵ %** of 2/π.
-- **instantaneous, per Hubble time**: 3.8×10⁵ at T_sph, falling through five turns at T ≈ 1.7 MeV
-  and reaching 7.6×10⁻⁷ by recombination — where the phase is not equidistributing at all but
-  sitting frozen at whatever value it holds.
-
-So the owed piece is not "is equidistribution granted" — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)
-grants it — but **over what window the average is taken**. Under the accumulated reading, the
-natural one for a phase that has wound since genesis, the assembly is exact to a part in ten
-million, **so the 1.13% between the posterior and the band is not an artefact of the conversion.**
-It is a disagreement between two recorded determinations, and which of them is the instrument
-decides whether the conflict with the floor is 0.93% or 2.08%. That is a question about a recorded
-derivation rather than about new data, which is what makes this the tractable branch.
-
-What would otherwise settle the branch is an α_c reading that does not route through the assembly
-at all. The trio's other two doors, the dispersion chain and the isocurvature phase speed, are
-both of that kind, so the triangulation keeps two clean legs.
+Theory and observation agree to **0.22%** — which is precisely the floor's recorded +0.44%, since
+ρ goes as d². The outlier is the anchor, 2.63% below both, and that is §6f's exposure restated
+rather than a new one: the anchor's exact landing wants a coupling weaker than α's infrared limit
+and cannot have it at any scale.
 
 But horn (b) carries a double-counting hazard. α(0) is the *fully infrared-screened* coupling —
 the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening

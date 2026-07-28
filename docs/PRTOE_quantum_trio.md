@@ -72,13 +72,14 @@ sector, running), the isocurvature phase speed (the thermal face, awaiting data)
 2.3% below 3α). **Three instruments, one coupling** — a consequence triangulation inherited from P-2026-040,
 carrying that bet's status and none of its own. Two of the three are clean: the dispersion chain
 and the isocurvature phase speed read the coupling without passing through anything else. **The
-third has no recorded derivation.** The band is cited in four forward-facing places and one ledger
-entry, all of which quote it; none derives it. Nor is it the assembly ε = c·f̄·α_c inverted on the
-measured ε, which would be the natural reading — the recorded dyad posterior ε ≈ 1.24% maps to
-α_c = 0.021642, above the band's top, while the band corresponds to ε ∈ [1.175%, 1.226%]. Those
-two ε-side determinations differ by 1.13%, and the conversion between them is exact to a part in
-ten million, so the gap is real. Supplying the band's provenance is the outstanding item on this
-leg ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).
+third is a pre-registration, not a measurement.** The band [0.0205, 0.0214] is a posterior interval
+from the `cmp_prtoe_zon` chain read on 2026-07-11, when that chain's last convergence statistic was
+**R−1 = 93.1** against a target of 0.05; it wrote one further row at 40.4 and stopped, and its
+successor was archived as collapsed. Betting against a running instrument before it reports is
+exactly what P-2026-040 claims to do and is the strongest form of that claim — but the band's edges
+carry no information, and nothing should be inferred from where they sit
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g). The bench is therefore two
+instruments in hand and one awaiting a chain that has never converged.
 
 ## 4b. The third stage — neutrality, and superposition as its screening
 

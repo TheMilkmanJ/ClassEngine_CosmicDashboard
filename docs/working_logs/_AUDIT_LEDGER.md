@@ -4914,3 +4914,49 @@ Written into §6j as the owed item; four checks pin the arithmetic. Harness 896.
 gap is deliberate — the ledger records both withdrawn on 2026-07-20 as pricing an
 extended-technicolor flavour problem an elementary Higgs does not have. Renumbering 6m/6n would
 cost eight-plus cross-file manual edits against a cosmetic gain, so it stays as the owner's call.
+
+### 2026-07-28 — the band's provenance is found in the history, and it invalidates three of my own results
+
+Owner instruction: find P-2026-040's derivation or toss the prediction. **Found.** The earlier
+sweep searched the working tree and not the git history, which is where it is:
+
+> commit **a48b2a1e**, 2026-07-11 20:25 — *"registered while the zon chain's center is still
+> watch-only and the indirect band [0.0205, 0.0214] sits 2.3% BELOW the claim — this is a bet
+> against a running instrument, not a fit"*, with the kill written as *"zon-converged α_c more
+> than 2σ from 0.02189 (the chain is at 2.6% width and tightening)"*.
+
+The band is a posterior interval from `cmp_prtoe_zon`. **Its last convergence row before the
+reading, 20:03 that evening, was R−1 = 93.1** — against the chain's own `Rminus1_stop = 0.05`, a
+factor **1,862**. It wrote one further row at 40.4 and stopped. `cmp_prtoe_zon_disp` reached 11.9
+and was archived as collapsed. Neither runs now.
+
+**The prediction stands; the instrument does not.** The entry never claimed the band was a
+measurement — it says "a bet against a running instrument, not a fit", which is pre-registration in
+its strongest form and is exactly right. What must go is any use of the band's *edges* as a
+constraint: an interval read at R−1 = 93 is the spread of a chain that has not found the
+distribution, and is typically far too narrow rather than too wide.
+
+**Three of my own results this session were built on that misuse and are withdrawn:**
+
+| result | status |
+|---|---|
+| "d = 3 is excluded at every scale" (cycle 20) | **void** — rested entirely on the band's top |
+| the three-way conflict on d (cycle 21) | **void** — the band was one of its three constraints |
+| "the convergence points at §6f horn (b)" (cycle 20) | **void** — same dependency |
+| the d²/2 = α_c²/α² identity (cycle 22) | **stands** — pure algebra, no band |
+
+With the band withdrawn the picture is **simpler and better than I described it**: theory (d = 3)
+and the observed floor (d = 2.993) agree to 0.22% — which is the floor's recorded +0.44%, since
+ρ ∝ d² — and the lone outlier is the hierarchy anchor at 2.921, 2.63% below both. That is §6f's
+already-named exposure, not a second one. **I made the model look worse than it is by treating an
+unconverged posterior as a constraint.**
+
+Corrected in §6g, `PRTOE_quantum_trio.md`, the registry's instrument note, and the harness, where
+the affected checks are relabelled from "excluded" to "position" and four provenance checks added.
+Harness 914.
+
+**Method note, and it is the useful part.** A repository sweep that reads only the working tree is
+not an absence proof. The earlier entry stated its scope honestly — "all .md, all chain inputs, all
+.py/.yaml/.json/.log" — and every one of those was true and none of them was the history. Protocol
+check 15 should read: *an absence claim over a version-controlled tree must search the history, or
+say that it did not.*

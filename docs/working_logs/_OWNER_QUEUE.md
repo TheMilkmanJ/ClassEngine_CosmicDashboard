@@ -44,21 +44,37 @@ Route-D posterior is months away, not weeks.
 
 ---
 
-## 3. P-2026-040 is graded against a number with no recorded computation
+## 3. RESOLVED 2026-07-28 — the band's provenance is found, and it cannot grade anything
 
-**Raised 2026-07-28.** The indirect band **[0.0205, 0.0214]** on α_c exists nowhere in the
-repository except as prose — four forward-facing citations and one ledger entry, all quoting, none
-deriving. No chain samples α_c; the archived `alpha_scan` runs vary `varying_alpha`, the
-fine-structure multiplier. The 2026-07-19 audit verified the transcription, never the source.
+**Raised and closed the same day, on the owner's instruction to find the derivation or toss the
+prediction.** The earlier sweep searched the working tree and not the history. It is in the
+history: commit **a48b2a1e, 2026-07-11 20:25**, registering P-2026-040 — *"registered while the
+zon chain's center is still watch-only and the indirect band [0.0205, 0.0214] sits 2.3% BELOW the
+claim"*.
 
-Nor is it the assembly inverted on the posterior: **ε ≈ 1.24% maps to α_c = 0.021642**, above the
-band's top, the band corresponding to ε ∈ [1.175%, 1.226%]. The conversion is exact to a part in
-ten million, so those two ε-side numbers genuinely differ by **1.13%**.
+So the band is a posterior interval from `cmp_prtoe_zon`. Its last convergence row before the
+reading, at 20:03 that evening, was **R−1 = 93.1** against the chain's own `Rminus1_stop = 0.05` —
+a factor **1,862**. It wrote one further row at R−1 = 40.4 and stopped. Its successor
+`cmp_prtoe_zon_disp` reached 11.9 and was archived as collapsed. Neither is running.
 
-Which one is the instrument decides the bet's standing against the dark-energy floor: **0.93% on
-the posterior, 2.08% on the band.**
+**The prediction is not tossed, because the entry never claimed more than it had.** Betting a value
+against an instrument that has not reported is pre-registration in its strongest form, and
+P-2026-040 says so in those words. **What is tossed is the band's standing as a constraint** — an
+interval read at R−1 = 93 is the spread of a chain that has not found the distribution, and is
+typically far too narrow rather than too wide.
 
-**The ruling:** supply the band's provenance, or grade P-2026-040 against the ε posterior instead.
+**This corrects three of my own results.** "d = 3 is excluded at every scale", the three-way
+conflict on d, and the reading that the α_c convergence pointed at §6f horn (b) all counted the
+band as a constraint and none survives. With it withdrawn the picture is *simpler and better*:
+theory (d = 3) and the observed floor (d = 2.993) agree to 0.22%, and the lone outlier is the
+hierarchy anchor at 2.921, which is §6f's already-named exposure rather than a new one.
+
+Corrected in `PRTOE_hierarchy_problem.md` §6g, `PRTOE_quantum_trio.md`, the registry's instrument
+note, and the harness (checks relabelled from constraints to positions).
+
+**Remaining owner call:** whether P-2026-040 should stay registered while its only instrument is a
+chain that has never converged and is not running — i.e. whether an un-gradeable pre-registration
+keeps its place in the registry or moves to a parked register until an instrument exists.
 
 ---
 

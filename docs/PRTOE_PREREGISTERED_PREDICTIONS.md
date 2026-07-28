@@ -2090,18 +2090,19 @@ running instrument: the α_c chain's indirect band [0.0205, 0.0214] sits 2.3% be
 c = 9/10 and f̄ = 2/π, the zero-dial assembly gives ε = (9/10)·(2/π)·3α = 1.254%, against the dyad
  posterior's ~1.24%.
 
-**Instrument note (2026-07-28).** The band's derivation is not on record and no artefact of it
-survives in the repository. A sweep of every `.md`, `.py`, `.yaml`, `.json` and `.log` finds it
-only as prose — four forward-facing citations and one audit-ledger entry that verified the
-transcription rather than the source. No chain samples α_c: the dyad chains carry `varying_me`,
-and the archived `alpha_scan` runs vary `varying_alpha`, the fine-structure multiplier, not the
-condensate coupling. Nor is the band the assembly inverted on the posterior, which is the
-natural reading: **ε ≈ 1.24% maps to α_c = 0.021642, above the band's top**, the band
-corresponding instead to ε ∈ [1.175%, 1.226%]. The conversion is exact to a part in ten million,
-so those two ε-side numbers genuinely differ by 1.13%. Until the band's provenance is supplied,
-the grading instrument for this bet is the one number in its chain with no recorded computation,
-and which of the two is used moves the bet's standing against the dark-energy floor between
-0.93% and 2.08%.
+**Instrument note (2026-07-28).** The band's provenance is the `cmp_prtoe_zon` chain, read at
+registration on 2026-07-11. That chain's last recorded convergence statistic before the reading was
+**R−1 = 93.1**, against its own `Rminus1_stop = 0.05`; it wrote one further row at R−1 = 40.4 and
+stopped. Its successor `cmp_prtoe_zon_disp` reached 11.9 and was archived as collapsed. Neither is
+running.
+
+This does not weaken the entry — it is what the entry says. Registering a value against an
+instrument that has not yet reported is pre-registration in its strongest form, and the wording
+above ("a bet against a running instrument, not a fit") is exactly right. What it does mean is that
+**the band's edges carry no information and must not be used as a constraint**: an interval read at
+R−1 = 93 is the spread of a chain that has not found the distribution, typically far too narrow
+rather than too wide. The kill condition stands as written — it fires on a *converged* α_c, and no
+converged α_c exists. Until one does, this entry is un-graded rather than passing or failing.
 
 **Scale note (2026-07-19).** α_c = 3α relates two couplings, so it holds at a scale, and this entry
 now states it: **the infrared one, and α_c does not run.** The corpus spends one number across
