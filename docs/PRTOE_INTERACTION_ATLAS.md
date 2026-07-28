@@ -281,9 +281,14 @@ fine-structure null (it moves masses only).
 in every currently accessible channel *by construction* rather than by accident — the
 suppression sits on the shell-crossed side in exactly the amount and sector that renders it
 invisible to present probes, and its 1% amplitude is a measured input rather than a prediction.
-What separates it from an untestable contrivance is an imminent internal test: the nonlinear
-derivation either shows the medium's caustic structure supports the required coupling or ends
-the candidate outright. Externally it is met by a ~1% offset in electron-mass-sensitive
+What separates it from an untestable contrivance is that its internal test has been run and it
+passed: the medium's caustic structure does support the required coupling. In this medium the
+critical velocity is zero, so classical caustics wave-regularise into de Broglie speckle
+threaded by a vortex tangle, which makes the caustic bit a random-wave statistics question
+rather than a ray-tracing one — and for developed circular-Gaussian speckle the local quantity
+Θ = Q/(Q+K) is Beta(d/2, d/2)-distributed, so its mean is exactly ½ independent of the power
+spectrum, velocity dispersion, density, epoch, dimension, and even anisotropy. The remaining
+gate is the two-field simulation. Externally it is met by a ~1% offset in electron-mass-sensitive
 spectroscopy between virialized and demonstrably unvirialized gas, and killed by such
 spectroscopy matching the laboratory to well under 1%; that channel carries registered bets of
 its own (P-2026-007, -043, -050).

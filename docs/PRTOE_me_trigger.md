@@ -98,17 +98,20 @@ granule-onset boundary).
 - STRUCTURE-GATE story (R1): the UNVIRIALIZED dark-ages/cosmic-dawn IGM carries bare
   m_e ≈ 1.01 → percent-level shifts in 21-cm physics exactly where REACH/SKA-low will look.
 
-The fork is real, clean, and instrument-dated. It is NOT registered: R1 must first survive
-#11. It is on the record here so it cannot be quietly skipped — and so nobody registers it
+The fork is real, clean, and instrument-dated. It is not registered: R1's remaining gate is the
+two-field simulation. It is on the record here so it cannot be quietly skipped — and so nobody registers it
 early in enthusiasm.
 
 ## 5. The near-term judge already running
 
-R1 requires the amendment ≈ 1.0101 specifically. The standing posterior reads
-varying_me = 1.0125 ± 0.004 (unconverged) — consistent at 0.6σ. If the converged posterior
-pulls away from 1.010, R1 takes damage before #11 runs. The judge is the evidence run now
-sampling; its completion horizon is under review, so this verdict may be a while, and the
-posterior above should be read as pre-convergence until it lands.
+R1 requires the amendment ≈ 1.0101 specifically, against the derived stack's 1.012543 — a
+separation of 0.00244 in varying_me. **Measured on the sampled-ε chain (2026-07-27, 3406
+post-burn samples): varying_me = 1.01252 ± 0.00768.** The posterior centres on the derived
+value to two parts in 10⁵ (0.00σ) and places R1's requirement at −0.32σ, so both survive and
+neither is selected: at this width the two hypotheses are separated by 0.32σ, and telling them
+apart needs the posterior about **6× tighter (σ < 0.0012) for a 2σ decision**, 9× for 3σ. That
+is the arithmetic the near-term judge has to beat; until it does, this check constrains nothing
+and should not be quoted either way.
 
 ## 6. Status
 
