@@ -3052,3 +3052,72 @@ with — the scalar's coupling strength ε and the ramp's onset scale are two
 distinct physical objects, the onset belonging to the confining sector's
 transition. Primordial abundances themselves now enforce the separation: the
 booked keying is not a convention but the only keying the fences admit.
+
+## Back-filled from the domain census (recorded 2026-07-27)
+
+*These nine deaths were recorded only in the domain survey's own graveyard table and in the
+interaction atlas, never here — found when two independent audience passes tried to compress
+those sections and correctly refused, because compressing them would have destroyed the only
+surviving record. Each entry below preserves the cause of death and the disposition exactly as
+the census recorded them; the fuller context remains in
+[PRTOE_PHYSICS_DOMAINS.md](PRTOE_PHYSICS_DOMAINS.md) and
+[PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md) until those sections are compressed
+against this section.*
+
+### ξ_Neff at recombination — executed by ACT and BBN, half-risen
+
+**What it claimed:** an extra radiation density carried at recombination.
+**Why it died:** the combination of ACT's constraint and the primordial-abundance bound
+executes it at the recombination epoch.
+**What survives:** the BBN-era carrier — the mechanism lives at the earlier epoch under
+ANN-2026-005, so the grave is half-open rather than sealed.
+
+### Varying α as an H₀ or precision lever — never
+
+**Why it died:** the quasar absorption bound sits 45–100× below what the lever needs, and the
+CMB fit degrades by Δχ² = +433. Two independent executions, both decisive.
+**Disposition:** never — this is arithmetic, not a modelling choice.
+
+### The (□φ)² funded floor, in its early face — died, then rose as (δK)²
+
+**Why the early face died:** the BBN ν·x scaling excludes it.
+**What rose:** the (δK)² operator re-earned its place on three fresh certificates. The
+resurrection is recorded as full-price, not a rehabilitation of the dead form.
+
+### The universal single-vev amendment — died, risen only gated
+
+**Why it died:** a universal vacuum-expectation shift moves deuterium by +7.7σ and the neutron
+lifetime by −4.9%.
+**What survives:** the gated form inside the vev package; the universal reading does not return.
+
+### Carrier-ratio unification (one κ_v for both carriers) — dead by eight orders
+
+**Why it died:** the two carriers' ratios differ by eight orders of magnitude (ANN-2026-006);
+one coupling cannot serve both.
+**Disposition:** an exhumation is in progress on a different object (the R1 caustic-bit reading,
+whose Θ and gate form are derived) — that is a successor, not this claim revived.
+
+### The drift fingerprint (P-2026-003's observable half) — final within the minimal model
+
+**Why it died:** the V4 mutual-exclusion theorem forbids the observable half.
+**Disposition:** final within the minimal model; only a non-minimal extension could reopen it,
+and none is proposed.
+
+### The tunneling discriminator — demoted, not dead
+
+**Why it fell:** the receipt sits 1500× below the supernova mass step it would have to
+discriminate against.
+**Disposition:** demoted rather than buried — the channel exists, its discriminating power does
+not.
+
+### The five-lever audit: varying G, neutrino self-interaction, dark PTA, PBH levers — none survive in class
+
+**Why they died:** the five-lever audit executed the class as a whole.
+**Disposition:** no lever of this class remains available to the model.
+
+### The Earth-spin coincidence — self-killed
+
+**Why it died:** lunar tides and the measured 3.8 cm/yr recession receipt account for the
+coincidence entirely.
+**Disposition:** never; recorded because the model killed its own coincidence rather than
+waiting to be told, and the reflex that did so is installed.
