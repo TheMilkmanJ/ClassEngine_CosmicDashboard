@@ -461,6 +461,13 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > exactly** (quarks +12, gluons −12). The same condition that forces three generations would force
 > **dark SU(2) with three flavours** — a genuine warrant where the α_c one was false.
 >
+> **And the uniqueness holds over the whole infinite range, not just the five rows above**, because
+> the condition splits: **N_f = 2(N_c²−1)/N_c = 2N_c − 2/N_c**. The first term is an integer for
+> every N_c, so **N_f is an integer if and only if N_c divides 2** — leaving only N_c = 1, which has
+> no gluons and returns the empty theory (N_f = 0), and N_c = 2, which returns 3. The same line
+> explains why the larger groups miss: they sit a shrinking 2/N_c below the even integer 2N_c and
+> never reach it (`scripts/dark_colour_uniqueness_proof.py`).
+>
 > **The consilience — SU(2) independently delivers three things the model already
 > required, for reasons that have nothing to do with this counting.** Two-color QCD's fundamental
 > representation is **pseudo-real**, so a colour singlet needs an **even** number of quarks:
