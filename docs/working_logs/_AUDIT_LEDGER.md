@@ -4532,3 +4532,32 @@ to confirm the cancellation is exact rather than numerical. Closure confirmed is
 a check that only ever finds defects is fishing; this one finds both.
 
 Harness 840, passing.
+
+### 2026-07-28 — the harness measured against itself: 80% of it inherits a correction, 20% cannot
+
+Check 23's sweep across the flagship sections kept returning closures — the dark-energy floor
+(ρ_Λ¼ = ½α_c²M₂ = (9/2)α⁴τm_e with M₂ = α²T_c = 9.43 eV), the dark colour/flavour pair
+(N_f = 2N_c − 2/N_c at N_c = 2), the turnaround time (t_turn = ln(1/√A_s)/(√(3/2)H) = 8.16),
+the √3 chain. All close. Recording that, per the check's own instruction.
+
+Rather than keep reading, turned the instrument on the harness. `scripts/harness_strength_census.py`
+parses every `chk()` call site and asks whether its computed side references any named quantity
+or is closed in literals:
+
+> **816 call sites — 656 coupled (80.4%), 160 self-contained (19.6%)**, with 21 of 136 tagged
+> sections carrying no coupled check at all.
+
+**What this does and does not measure, stated because I first mislabelled it.** This is protocol
+check 21's propagation axis, not check 23's closure axis. A self-contained check can be a
+perfectly good closure test — `sqrt3_derivation`'s `B = omega_J/Gamma_par` derives B from two
+other booked ratios and is the exemplar cited in check 23 — but it *retypes* their values instead
+of referencing them, so if either upstream number were corrected that line would keep the old one
+and still pass. Self-contained ≠ weak; self-contained = cannot inherit a fix.
+
+**The instrument validates on a known case.** It flags `baryogenesis` as 3 self-contained, 0
+coupled — 100% — with no knowledge of this morning's work. That is precisely the section where
+check 23 found four numbers that pass separately and miss closure by nine. `S8 pair` is the other
+100% cluster at that size and is the natural next target.
+
+80/20 is a healthier split than expected; the useful output is the 21-section list, which is where
+a corrected input would silently fail to propagate.
