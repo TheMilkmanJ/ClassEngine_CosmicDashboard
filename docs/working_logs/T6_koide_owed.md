@@ -2024,9 +2024,27 @@ quantization (charged half, candidate)** — both in the aisle #101 demanded.
 **Survival tests, named and unpaid:** (1) why the charged mode's quantum is the unit
 (the "binding quantum" reading matches the vacuum argument's grammar; still the
 invented identification); (2) the neutrino tower must NOT satisfy an occupancy
-statement — it is not a bound cell of the confining sector — and indeed Q_ν = 0.458;
+statement — it is not a bound cell of the confining sector — and indeed Q_ν = 0.458.
+**Upgraded to a proof 2026-07-28:** Q_ν falls monotonically from its m₁ → 0 value toward
+1/3, so its maximum over *all* lightest masses is **0.58531**, short of 2/3 by 12.2%.
+The neutrino triple cannot satisfy the lock for any m₁ whatever, so the test is passed
+outright rather than at one assumed mass;
 (3) the external judges unchanged: the lattice fork (P-2026-048), the deviation lock
 (P-2026-051), m_τ at ≲1.4 ppm. **Grade: candidate closure, registered, not promoted.**
+
+**Independent endorsement from outside the ring (2026-07-28).** A filter built this session
+without reference to this candidate — (A) *charge-coupled*, from the neutrino forward test and the
+basement's q²-weighted screening; (B) *exact rather than balanced*, from the 6×10⁻⁶ agreement —
+scores the eleven retired mechanisms **0 for 22** and this lock **2 for 2**. The lock is
+charge-coupled in its own A1 argument (the neutral mode is a Goldstone with no frequency, so the
+charged pair are the cell's only oscillators and the unit has one candidate) and exact because N₀
+is an integer. That is not a proof of the lock. It is independent agreement about *where* the
+answer must live, arrived at from the neutrino sector and the basement rather than from the ring.
+
+**And residual L2 does not block Q.** N₀ = 1 gives f₀² = ħ/Mω₁ and the ground-state charged pair
+gives |f₁|²+|f₂|² = ħ/Mω₁, so M and ω₁ cancel from the ratio: ρ² = 1/2, Q = 2/3, A = √2,
+τ = ½ln2, all independent of f₀²'s value. L2 sets the **ring's centre**, not the cone's radius —
+so the null's ratio is delivered at candidate grade and what L2 owes is the overall scale.
 
 ## THE LOCK PRESSURE-TESTED — five survivals, one sharpening, one residual; the phase carrier identified (2026-07-27)
 

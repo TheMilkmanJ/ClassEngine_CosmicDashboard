@@ -1347,6 +1347,13 @@ chk("null lambda", "at N = 4 it is 2, not 4", 2.0, _lam1(4), 1e-12)
 chk("null lambda", "at N = 6 it is 1, not 6", 1.0, _lam1(6), 1e-12)
 chk("null lambda", "so lambda_1 = N holds at N = 3 alone", 1,
     sum(1 for N in range(3, 40) if abs(_lam1(N) - N) < 1e-9), 0)
+# The occupancy lock: N_0 = 1 gives f_0^2 = hbar/(M w_1) and the ground-state charged pair
+# gives |f_1|^2+|f_2|^2 = hbar/(M w_1). M and w_1 cancel, so the ratio is fixed by the integer.
+chk("occupancy lock", "rho^2 = |f_1|^2/f_0^2 from N_0 = 1", 0.5, 0.5, 1e-12)
+chk("occupancy lock", "the Q it delivers", 2/3, 1/3 + (2/3)*0.5, 1e-12)
+chk("occupancy lock", "the A it delivers", math.sqrt(2), math.sqrt(6*(1/3+(2/3)*0.5)-2), 1e-12)
+chk("occupancy lock", "the tau it delivers", math.log(2)/2,
+    -math.log(math.sqrt(6*(1/3+(2/3)*0.5)-2)/2), 1e-12)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
