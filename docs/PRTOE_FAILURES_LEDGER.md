@@ -1954,26 +1954,26 @@ and two-dimensional defects are vortices. Sweeping the pair kernel on the same t
 Two exact results, both analytic — and **only the second bears on the null**, for a reason worth
 stating plainly.
 
-**The direction check the sweep needed and did not get at first.** T6's reduction fixes the null's
-convention unambiguously: H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²] on the √m fluctuation field gives
-ε₀ = a (neutral) and ε± = a + 3b (charged), and the null is **ε_charged = 2·ε_neutral**, i.e.
-a = 3b — the *charged* modes twice as stiff. The kernel sweep below is in **radial displacements
-on the ring**, a different variable set, and its 2 is *singlet:doublet* — the neutral mode twice as
-stiff. Mapping H = 3I + J onto T6's form gives a = −6b with the bond coefficient **negative**, not
-a = 3b. So the pair-harmonic result does not deliver the null's ratio; it is the same number
-pointing the other way in other coordinates.
+**Which frame the sweep is in, settled — the corpus states it outright.** The x_out entry records
+the condition in the ring-on-ring frame verbatim: *"the operative condition is R_c = M_c (equal
+canonical amplitudes), which under the impulsive SNAP means the doublet sector receives HALF the
+singlet's energy (**the singlet is twice as stiff**)"*. That is k_S/k_D = 2 — **the pair-harmonic
+kernel's ratio exactly**, and the sweep is a hit in the frame the ring-on-ring mechanism works in.
 
-**And that exposes an owed reconciliation.** The ring-on-ring autopsy states the requirement as
-w_breath/w_shape = 2 (breathing stiffer); T6 states the same condition as ε_charged = 2ε_neutral
-(shape stiffer). Both describe R_c = M_c. They can be consistent only through the canonical
-normalizations R_c = √(3/2)R and M_c = √3M, and **no file states that bridge** — which is what let
-a sweep in the wrong variables look like a hit. Recorded as owed.
+**Two frames, both recorded, and the bridge is not.** T6's reduction works in the √m fluctuation
+field, H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²], where ε₀ = a and ε± = a + 3b and the null reads
+ε_charged = 2ε_neutral — the *doublet* twice as stiff, the inverse statement. The two are
+reconciled only through the canonical normalizations R_c = √(3/2)R and M_c = √3M, and **no file
+states that bridge.** Treating either as *the* convention and judging the other against it is the
+error to avoid; a first pass here did exactly that and withdrew a correct result before restoring
+it. **The bridge is owed, and it is what makes the frames confusable.**
 
-**What the sweep does establish**, in the autopsy's own variables:
+**What the sweep establishes**, in the ring-on-ring frame:
 with x_k = R + d_k and cos 120° = −½, |r_i − r_j|² = x_i² + x_j² + x_i x_j, so the three pairs sum
 to U = (3/2)Σx_k² + ½(Σx_k)² and **H = 3I + J**, eigenvalues 6 (singlet) and 3 (doublet), exactly
-and at every R since the Hessian of a quadratic form is constant. A clean result about kernels,
-and not the null's.
+and at every R since the Hessian of a quadratic form is constant — **k_S = 2k_D, the condition as
+the corpus states it**, with no expansion and no leading-order caveat. Precisely the 2:1 the flat
+model's κ-confinement supplied and the curved host could not.
 
 **The load-bearing one: the 2D vortex kernel leaves the doublet exactly flat** — k_doublet = 0, not merely small. A
 log-interacting ring confines its breathing mode and does not confine its shape mode at all, which

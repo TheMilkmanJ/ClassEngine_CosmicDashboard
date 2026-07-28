@@ -18,9 +18,9 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty-eight checks
+## The twenty-nine checks
 
-Run all twenty-eight. Record what was found, even when nothing was.
+Run all twenty-nine. Record what was found, even when nothing was.
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
@@ -378,6 +378,22 @@ The harness already contains the correct pattern, in one place: `chk("sqrt3_deri
 omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3))` **computes** the surplus
 member from the other two rather than booking it separately. That line would have caught either
 defect above had it been written for those sectors.
+
+**27b. AN OVER-CORRECTION IS A DEFECT, AND TWO RECORDED FRAMES MAKE ONE INEVITABLE
+(2026-07-28).** A kernel sweep returned k_singlet/k_doublet = 2 and was matched to the ring-on-ring
+condition. A later pass judged it against T6's √m-field convention — where the null reads
+ε_charged = 2ε_neutral, the inverse — and **withdrew a correct result**. The corpus states the
+ring-on-ring frame outright ("the singlet is twice as stiff"), so the original match was right and
+the withdrawal was the error.
+
+Both slips have one cause: **two frames for one condition, with the bridge unstated.** The
+canonical normalizations R_c = √(3/2)R, M_c = √3M relate them and no file writes that down.
+
+**The check: when two frames for one condition are on the books, neither is "the" convention.**
+Before withdrawing a result for disagreeing with a recorded statement, confirm the statement is in
+the same frame — and if the bridge between frames is unwritten, record *that* as the defect rather
+than adjudicating between them. Withdrawing correct work costs as much as asserting wrong work,
+and it is harder to notice because it looks like rigour.
 
 **27a. AND A QUANTITY IS NOT ITS DIMENSION-MATE — CHECK WHAT THE BOUND CONSTRAINS
 (2026-07-28, the same day, by the same hand, after writing 27).** Having just written check 27
