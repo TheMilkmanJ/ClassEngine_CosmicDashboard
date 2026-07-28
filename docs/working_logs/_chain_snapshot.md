@@ -74,3 +74,29 @@ the 7.8 failure line. Neither is evidence against the model, and neither would b
 running longer under this configuration.
 
 **Owner's call, and it is a configuration decision rather than a wait.** Nothing here was touched.
+
+---
+
+## The BBN-fixed pair — running status, 2026-07-27 21:00
+
+Both chains of the nucleosynthesis-fixed pair have been running ~1 day 8 h and are converging
+steadily. Neither has reached the R−1 < 0.05 bar, so nothing below is booked.
+
+| chain | N | R−1 | acceptance | trend |
+|---|---|---|---|---|
+| `dyad_mnu_bbnfix` (the model) | 1536 | **0.9095** | 0.997 | 4.21 → 1.80 → 0.91, halving each 384 steps |
+| `cmp_lcdm_mnu_bbnfix` (the ΛCDM twin) | 1920 | **2.8686** | 0.998 | 9.03 → 6.83 → 2.87, factor 2.4 per 384 |
+
+**Projection to the gate, and why it is a floor not an estimate.** Extrapolating each chain's
+own recent contraction factor (1.97 and 2.38 per 384 steps, at 5.8 h and 4.7 h per checkpoint)
+puts both at R−1 = 0.05 in roughly **1600–1800 further steps, about 22–25 hours**. That is an
+optimistic floor: the Gelman–Rubin statistic contracts fastest while burn-in is still draining
+and slows as the chains approach stationarity, so the realistic arrival is longer than the
+naive extrapolation — consistent with the owner's standing ruling that the letter's H₀ waits
+days rather than hours.
+
+**What the gate releases when it is met:** the deuterium-inclusive joint fit grades (the model
+chain carries the production-faithful D/H term); the letter's replacement H₀ sentence becomes a
+five-minute edit via `scripts/finalize_h0_at_convergence.py`, which refuses to print until both
+chains are under the bar; and the third sampler slot opens for the onset-identity rerun and the
+relaunched thaw-branch chain, both of which are launch-ready and currently capacity-blocked.
