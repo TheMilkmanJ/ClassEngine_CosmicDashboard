@@ -3191,3 +3191,50 @@ nulls. Decay data can therefore neither see the coupling nor close it.
 **Disposition:** the tunneling discriminator is demoted from discriminator to consistency
 check, and this coupling stays half-open rather than executed — a named development could still
 meet its condition, which is why it is warm and not cold.
+
+## The closed-route census (moved here from the interaction atlas, 2026-07-27)
+
+*Enumerated, because the second binding rule below is a tripwire and a tripwire needs a
+countable trigger.* **Fourteen entries: 7 cold, 4 warm, 3 risen.**
+
+- **Cold (7)** — no live route in the minimal model: the β sound-speed family; the c_EM
+  exchange coupling; the flavour-structured shared coupling; varying G / neutrino
+  self-interactions / dark-sector pulsar timing / primordial-black-hole expansion (one entry,
+  four levers); the funded-floor drift fingerprint (final inside the minimal model — the way
+  back is a model extension, not a repair); the thermal / Casimir / zero-point floor
+  ontologies; the v1–v3 F(φ)R screening program.
+- **Warm (4)** — a named development could meet the reopening condition: the local-state half
+  of the epoch electron-mass couplings; carrier-ratio unification; the tunneling
+  discriminator; model-sourced birefringence.
+- **Risen (3)** — routes readmitted at full price: ξ_Neff (as the BBN-era carrier); the funded
+  floor (via the (δK)² face); the universal single-vev (as the gated vev package).
+
+**Tripwire check: 4 warm against 7 cold — the record is closing routes, not hedging them.**
+
+**The three binding rules this census enforces.** (1) *Reopening conditions are bets, not
+hedges*: a condition is legitimate only if closing the route names BOTH a development that
+would meet it AND one that would fail it; a condition that forbids nothing is a hedge, and the
+entry is recorded as permanent instead. (2) *Permanent is the default*: if warm entries ever
+outnumber cold ones, the record has become finality-avoidance. (3) *Readmission is review from
+zero*: a revived route inherits nothing from its former life and faces full scrutiny on its new
+form — the precedent being (□φ)² returning as (δK)² on three fresh certificates.
+
+**Supplement to the birefringence closure — the eight angles and the named reopening price
+(2026-07-27):** beyond the six source-routes, a second hunt threw four further angles and
+answered all four. A weak-sector bridge fails because the photon anomaly coefficient
+(T₃+Y)² = Q_em² vanishes for an electromagnetically neutral carrier, and the surviving θ·Z·Z̃
+is irrelevant at CMB energies. A chiral gravitational-wave route converting to photons by the
+Gertsenshtein effect needs an external magnetic field and is Planck-suppressed and incoherent.
+A vorticity·E coupling requires electromagnetic charge or chiral charged fermions, which the
+medium does not carry. There is also a structural reason the search kept failing: every
+imperfection the model does engage is parity-even — it can fumble a quantity it holds, such as
+a mass, and cannot fumble a handedness it never held.
+
+**The fourth angle succeeded, and its price is the point.** Gauging the medium's global U(1)
+into a dark photon and opening a kinetic-mixing portal (ε F F′) does transfer a dark axion
+coupling into a visible θ·F·F̃ (∝ ε²), producing genuine birefringence. It works — and it
+requires exactly what the species census forbids and the model explicitly excludes. **So the
+reopening price is specific rather than vague: a confirmed 5σ birefringence would force the
+model to gauge its U(1) into a dark photon and open that portal, surrendering the census along
+with its MICROSCOPE-safety and flavour-blind constants.** That is not "the model dies" but "the
+model becomes a dark-photon-portal model" — a different theory, named in advance.

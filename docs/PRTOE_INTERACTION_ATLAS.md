@@ -236,39 +236,23 @@ environment half, one interaction and one signature at a time.
  structure — C4 locates where classical physics ends; it is a
  boundary honestly drawn, not a conquest past the wall.
 
-## The Graveyard
-*Every executed negative, with its kill and — where legitimate — its
-resurrection condition. Precedent: three entries have come back in
-changed form (funded floor via the (δK)² face; the m_e coupling via the
-local-state loophole; the universal-vev kill via epoch gating).*
+## Closed routes
 
-**Binding rules (adopted verbatim):**
-1. *Conditions are bets, not hedges*: a condition is legitimate only if
- burial names BOTH a development that meets it AND one that fails it.
- A condition that forbids nothing is a hedge; the entry buries "never."
-2. *Default is permanent*: the warm/cold census is published below. If
- warm ever exceeds cold, the graveyard has become finality-avoidance.
-3. *Resurrection is review at turn zero*: a revived entry inherits
- NOTHING from its former life — it faces full scrutiny on the new
- interaction alone (precedent: (□φ)² → (δK)² re-earned via three
- fresh certificates).
+Fourteen interaction routes have been tried and closed across this atlas, each with its cause
+of death and, where one is legitimate, its reopening condition. They are recorded in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) — the census, its warm/cold tally, and the
+three binding rules that govern how a route may be readmitted — which is their single home.
 
-**Census — enumerated, because Rule 2 is a tripwire and a tripwire needs a
-countable trigger. Fourteen entries: 7 cold, 4 warm, 3 risen.**
-
-- **Cold (7)** — no live route in the minimal model: the β sound-speed family;
- the c_EM exchange coupling; the flavor-structured shared coupling; varying G /
- ν self-interactions / dark-sector PTA / PBH expansion (one bullet, four levers);
- the funded-floor drift fingerprint (final inside the minimal model — the way back is a
- model extension, not a repair); the thermal / Casimir / zero-point floor
- ontologies; the v1–v3 F(φ)R screening program.
-- **Warm (4)** — a named development could meet the condition: the local-state
- half of the epoch m_e couplings; carrier-ratio unification (exhumation at turn
- zero); the tunneling discriminator; model-sourced birefringence.
-- **Risen (3)** — the precedents: ξ_Neff (as the BBN-era carrier); the funded
- floor (via the (δK)² face); the universal single-vev (as the gated vev package).
-
-**Rule 2 check: 4 warm against 7 cold — the graveyard is burying, not hedging.**
+**One structural result came out of that work and belongs here rather than there.** The medium
+couples to the metric and to nothing else; the metric is parity-even and handedness-blind; so
+anything routed through it exits parity-even. That chain — the species census means
+gravity-only, gravity-only means metric-only, metric-only means parity-even-only — makes a
+cosmic birefringence constitutionally unreachable by any metric-mediated route, which is why
+the prediction of **zero parity-odd rotation** (P-2026-009) is over-determined rather than
+merely unfalsified. The model can fumble a quantity it holds, such as a mass; it cannot fumble
+a handedness it never held. Even the parity-odd gravitational coupling θ·R·R̃ rotates
+gravitational waves, not photons — the wrong messenger, since rotating photons still requires
+θ·F·F̃, off-metric and census-forbidden.
 
 - **β sound-speed family (v4)** — killed by DES/P(k) shape damage +
  structural no-go (monotonic w(ρ) crossover). *Resurrects if:* a
