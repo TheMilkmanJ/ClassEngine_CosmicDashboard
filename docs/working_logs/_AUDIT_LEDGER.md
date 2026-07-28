@@ -4684,3 +4684,34 @@ the ratio α_c/α.
 quantity; or the floor's agreement with observation is a coincidence, with α_c really near 0.0213
 and the floor missing by 5% behind d = 3's arithmetic. They point opposite ways and are decidable
 by measurement, so this is now a live fork rather than a tension. Seven checks added, harness 866.
+
+### 2026-07-28 — the indirect band is not an independent instrument, and the conflict is the size of its own f̄ uncertainty
+
+Traced what the ε-assembly's band on α_c actually measures. It is not a reading of the coupling:
+it is **ε = c·f̄·α_c inverted on a measured ε**, so [0.0205, 0.0214] on α_c is
+[1.1746%, 1.2261%] on ε divided by c·f̄ = 0.572958. The dark-energy floor's α_c, from
+E_b = ½α_c²M₂, carries neither c nor f̄.
+
+**So the band and the floor are not independent in the way the trio's "none able to cheat for the
+others" reads.** The band inherits two further model numbers, and an error in either moves it by
+the same fraction. The corpus records one of exactly the needed size: f̄'s fit-implied value is
+**0.6253, 1.81% below the booked 2/π**, with the simulation at 0.635.
+
+| f̄ used | band top | vs the floor's demand |
+|---|---|---|
+| 2/π, booked | 0.021400 | +2.08% |
+| the simulation's 0.635 | 0.021455 | +1.82% |
+| the fit-implied 0.6253 | **0.021787** | **+0.26%** |
+
+Holding the measured ε fixed and using the fit's f̄ cuts the conflict from 2.08% to 0.26% — it
+very nearly closes.
+
+**What this is and is not.** It is not a demonstration that the band is wrong; it is a
+demonstration that the discrepancy it reports against the floor is the same size as an
+uncertainty already carried inside it, which is what branch (a) of the fork needed to become
+concrete. It also corrects the triangulation's reading: two of the trio's three doors — the
+dispersion chain and the isocurvature phase speed — read α_c without passing through anything
+else, and the third does not. Both files now say so.
+
+What would settle it: f̄ to better than 1%, or an α_c reading that skips the assembly. Eight
+checks added, harness 874.

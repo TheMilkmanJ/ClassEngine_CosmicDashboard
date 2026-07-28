@@ -1118,6 +1118,25 @@ chk("d three-way", "theory and observation agree to", 0.22,
 chk("d three-way", "band top and anchor agree to", 0.39, abs(_BHI/_AC_ANCH - 1)*100, 2e-2, "%")
 chk("d three-way", "the two pairs differ by", 2.70,
     ((3.0/137.035999084)/_AC_ANCH - 1)*100, 1e-2, "%")
+# The band is not a direct reading of alpha_c: it inverts epsilon = c.f_bar.alpha_c, so it
+# carries c = 9/10 and f_bar = 2/pi, which the floor's alpha_c does not. f_bar's own recorded
+# fit value sits 1.81% below 2/pi, and that shift moves the band by the same fraction.
+_CF = 0.9*(2/math.pi)
+chk("band provenance", "the assembly's conversion factor c.f_bar", 0.572958, _CF, 1e-5)
+chk("band provenance", "epsilon at alpha_c = 3 alpha", 1.2543,
+    _CF*3/137.035999084*100, 1e-3, "%")
+chk("band provenance", "the band expressed on epsilon, top", 1.2261, _BHI*_CF*100, 1e-3, "%")
+chk("band provenance", "f_bar fit-implied sits below 2/pi by", 1.81,
+    ((2/math.pi)/0.6253 - 1)*100, 1e-2, "%")
+_ac_floor = math.sqrt(2*2.25e-3/_M2)
+chk("band provenance", "conflict with the floor at the booked f_bar", 2.08,
+    (_ac_floor/_BHI - 1)*100, 1e-2, "%")
+chk("band provenance", "band top recomputed on the fit's f_bar", 0.021787,
+    _BHI*(2/math.pi)/0.6253, 1e-4)
+chk("band provenance", "conflict there", 0.26,
+    (_ac_floor/(_BHI*(2/math.pi)/0.6253) - 1)*100, 5e-2, "%")
+chk("band provenance", "and on the simulation's f_bar", 1.82,
+    (_ac_floor/(_BHI*(2/math.pi)/0.635) - 1)*100, 2e-2, "%")
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)

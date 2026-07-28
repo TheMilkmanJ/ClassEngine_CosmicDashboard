@@ -69,9 +69,15 @@ and with the first sound at √α_c·c and the registered bet α_c = 3α, this l
 times light *exactly if the bet holds*. Three doors give the bet its full bench: the dispersion chain (the mode
 sector, running), the isocurvature phase speed (the thermal face, awaiting data), and the
 ε-assembly's indirect band (the background fit — already registered at [0.0205, 0.0214],
-2.3% below 3α). **Three instruments, one coupling, none able to cheat for the others** — a
-consequence triangulation inherited from P-2026-040, carrying that bet's status and none of
-its own.
+2.3% below 3α). **Three instruments, one coupling** — a consequence triangulation inherited from P-2026-040,
+carrying that bet's status and none of its own. Two of the three are clean: the dispersion chain
+and the isocurvature phase speed read the coupling without passing through anything else. The
+third does not. The ε-assembly's band is ε = c·f̄·α_c inverted on a measured ε, so it carries the
+democratic count and the winding average as well, and an error in either moves it by the same
+fraction — f̄'s own fit-implied value sits 1.81% below the booked 2/π, which is most of the 2.3%
+the band reports. That leg is therefore conditional on two further numbers, and the triangulation
+should be read as two independent instruments plus one that is not
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).
 
 ## 4b. The third stage — neutrality, and superposition as its screening
 

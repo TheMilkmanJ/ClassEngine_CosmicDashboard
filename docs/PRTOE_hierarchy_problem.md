@@ -858,6 +858,30 @@ with observation is a coincidence**, α_c really sitting near 0.0213 and the flo
 2.143 meV — a 5% miss that the d = 3 arithmetic disguised. They point in opposite directions and
 are decidable by measurement, which makes this a live fork rather than an unexplained tension.
 
+**And the first branch has a concrete form, because the band is not a direct reading of the
+coupling.** It comes from the zero-dial assembly ε = c·f̄·α_c inverted on a measured ε, so the
+band's α_c carries the democratic count c = 9/10 and the winding average f̄ = 2/π — neither of
+which the floor's α_c touches, since that comes from E_b = ½α_c²M₂. The two instruments are
+therefore not independent in the way [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md)'s
+triangulation reads them, and any error in c or f̄ moves the band by the same fraction.
+
+The corpus already records one of that size. f̄'s fit-implied value is **0.6253, 1.81% below
+2/π**, with the simulation at 0.635. Holding the measured ε fixed and using the fit's f̄ moves
+the band's top from 0.0214 to **0.021787** and cuts the conflict with the observed floor from
+**2.08% to 0.26%**:
+
+| f̄ used | band top | vs the floor's demand |
+|---|---|---|
+| 2/π, booked | 0.021400 | +2.08% |
+| the simulation's 0.635 | 0.021455 | +1.82% |
+| the fit-implied 0.6253 | 0.021787 | **+0.26%** |
+
+This does not show the band is wrong — it shows the discrepancy it reports is the same size as an
+uncertainty already carried inside it. What would settle the branch is f̄ to better than 1%, or an
+α_c reading that does not route through the assembly. The trio's other two doors, the dispersion
+chain and the isocurvature phase speed, are both of that second kind, so the triangulation keeps
+two clean legs.
+
 But horn (b) carries a double-counting hazard. α(0) is the *fully infrared-screened* coupling —
 the value after all vacuum polarisation has been summed. §6c then adds Thomas–Fermi screening
 from the constituent level's own fermions on top of it. Either α(0) is the bare coupling at that
