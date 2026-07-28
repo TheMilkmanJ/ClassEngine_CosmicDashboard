@@ -11,6 +11,16 @@ standing ones.  At h = 1.0: P(f_amp > 0.2) = 71–100% by tilt, medians
 at every h on the grid; the tight-ensemble conclusion belongs to the
 h ≤ 0.3 rows only.
 
+REFINED 2026-07-28 (`scripts/quiet_branch_fine_search.py`): re-run at 56
+angles per tilt — 4x this grid's resolution — the quiet branch is still
+empty, so the absence is a property of the map and not of the sampling.
+But state the margin, because "zero draws" hides it: the closest
+approach falls steeply with tilt, 20.4x -> 5.9x -> 1.6x the quiet
+threshold across r_t = 0.3, 0.6, 0.9.  At the steepest tilt the nearest
+draw is f_amp = 0.031 against a 0.02 threshold.  The defensible claim is
+"no quiet draw, by 1.6x at the worst tilt on the grid" — not that the
+branch cannot be reached.
+
 WHAT THIS RUNS
   Room 1's summit dice, rebuilt to its own conventions and pointed at the
   regime the standing era actually selects (h₀ ≈ 1.0 from the abundance
@@ -140,11 +150,14 @@ def main() -> None:
 
     print("\nVERDICT:")
     if quiet_total == 0:
-        print("   THE QUIET BRANCH DOES NOT EXIST at the physical hierarchy —")
-        print("   every draw rings, at every tilt. P-2026-005's ringing half is")
-        print("   no longer a probability but a regime fact, and the granule")
-        print("   ε-meter keeps its readout. Report the f_amp levels exactly:")
-        print("   the ε distribution follows as ε = √f_amp per row above.")
+        print("   NO DRAW REACHES THE QUIET BRANCH at the physical hierarchy —")
+        print("   every draw rings, at every tilt, and the granule ε-meter")
+        print("   keeps its readout. This survives a 4× angular refinement")
+        print("   (quiet_branch_fine_search.py), so it is a property of the")
+        print("   map rather than of the sampling. It is a MEASURED MARGIN,")
+        print("   not a structural floor: the margin narrows steeply with")
+        print("   tilt and reaches 1.6× the threshold at r_t = 0.9. Report")
+        print("   the f_amp levels exactly; ε = √f_amp per row above.")
     else:
         print(f"   {quiet_total} quiet draws found at low h — the conversion")
         print("   mechanism survives where the weak-torque expectation said it")

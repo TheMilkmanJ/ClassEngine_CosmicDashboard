@@ -1173,3 +1173,29 @@ core-halo normalization is dyad-specific). Sims-owed, same family as
 > ranges up to ~0.97. The parameter-free contrast target belonged to the h ≤ 0.3 rows and does
 > not describe the physical point. The tilt dial also re-emerges here, where the h ≤ 0.3 rows
 > had erased it.
+>
+> **THE ABSENCE TESTED AT 4× RESOLUTION (2026-07-28,
+> `scripts/quiet_branch_fine_search.py`).** "Zero quiet draws in 42 universes" is a claim
+> fourteen angles per tilt cannot make safely: a narrow quiet window between samples would look
+> exactly like an absence, and this absence is load-bearing — it is what promoted the ringing
+> half of P-2026-005 from a probability to a regime fact and what lets the granule meter keep
+> its readout. Re-run at 56 angles per tilt at h = 1.0, with the reading pre-committed both ways:
+>
+> | r_t | min f_amp | at θ₀ | median | draws < 0.02 |
+> |---|---|---|---|---|
+> | 0.3 | 0.40772 | 0.3865 | 0.5453 | 0/56 |
+> | 0.6 | 0.11826 | 0.3366 | 0.3902 | 0/56 |
+> | 0.9 | **0.03134** | 0.2619 | 0.7261 | 0/56 |
+>
+> **The branch stays empty, and the minimum is converged.** The coarse grid's own minimum at
+> the worst tilt is 0.03165 at θ₀ = 0.2609 — quadrupling the resolution moved it by **1.0%**,
+> and moved the minimising angle by one coarse step. So fourteen angles happened to sample
+> essentially the minimising angle: the absence is a property of the map, not a gap between
+> samples. **#36's conclusion is not a sampling artifact.**
+>
+> **But the margin is thin, and "zero draws" conceals it.** The closest approach falls steeply
+> with tilt — 20.4× → 5.9× → **1.6×** the quiet threshold across r_t = 0.3, 0.6, 0.9. At the
+> steepest tilt the nearest draw sits at f_amp = 0.031 against a threshold of 0.02. The
+> defensible statement is *"no quiet draw, by a factor 1.6 at the worst tilt on the grid"* —
+> not *"the quiet branch does not exist"*, which reads as structural when what is in hand is a
+> measured margin, on a grid whose tilt is a free dial and whose worst row is its edge.

@@ -557,10 +557,17 @@ the booked h = 300 row's P = 86% reproduces exactly; its median lands
 carried by every number below). **At the physical point h ≈ 1:
 P(f_amp > 0.2) = 71–100% depending on tilt, medians 0.42–0.76, and
 zero quiet draws in 42 universes.** Consequences, exactly: (i) the
-ringing side holds and **the quiet branch does not exist** — no draw
-anywhere on the grid reaches it — while the ~86% era odds sit inside
+ringing side holds and **no draw reaches the quiet branch**
+— while the ~86% era odds sit inside
 the physical range rather than being superseded by it; ε = √f_amp has
-medians 0.65–0.87 across tilts and a full spread of [0.18, 0.99];
+medians 0.65–0.87 across tilts and a full spread of [0.18, 0.99].
+[Re-run at 4× the angular resolution — 56 angles per tilt,
+`scripts/quiet_branch_fine_search.py` — the branch is still empty, so
+the absence is not a sampling artifact. The margin is worth stating
+plainly, because "zero draws" conceals it: the closest approach falls
+steeply with tilt, reaching f_amp = 0.031 at r_t = 0.9 — only 1.6× the
+quiet threshold, against 20× at r_t = 0.3. The high-tilt corner nearly
+reaches the branch, and the tilt is a free dial.]
 (ii) the registered SILENCE half is
 untouched — it survives instrumentally by the mass gate (UPDATE 3's
 beat arithmetic at the standing mass: beat_needed = 5018 against
