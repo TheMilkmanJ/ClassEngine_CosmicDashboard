@@ -4810,3 +4810,32 @@ passes now carry, rather than the escape they were built for.
 
 Corrected in `PRTOE_hierarchy_problem.md` §6g and `PRTOE_quantum_trio.md`; harness block replaced,
 890 passing.
+
+### 2026-07-28 — the band has no provenance anywhere in the repository (exhaustive sweep)
+
+Hunted the indirect band's derivation. **It does not exist as anything but prose.** Scope of the
+search, stated so the absence claim is auditable (check 15):
+
+- **all `.md`** — four forward-facing citations (`PREREGISTERED_PREDICTIONS`, `quantum_trio`,
+  `hierarchy_problem`, `FAILURES_LEDGER`) plus one audit-ledger entry. Every one quotes it. The
+  2026-07-19 trio audit verified it "matches P-2026-040's registry text verbatim" — transcription,
+  not source.
+- **all chain inputs** — no chain samples α_c. The dyad chains carry `varying_me`; the archived
+  `alpha_scan_{1000,1004,1010}` runs vary `varying_alpha`, the fine-structure multiplier, at
+  1.000/1.004/1.010. Neither is the condensate coupling.
+- **all `.py`, `.yaml`, `.json`, `.log`** — every hit outside the prose is a coincidental digit
+  string: pybobyqa trust-region step components, a BOBYQA lower bound, a BAO `DH_over_rs` of
+  20.0214.
+
+And it is not the assembly inverted on the posterior, which was the natural guess: ε ≈ 1.24% maps
+to α_c = 0.021642, *above* the band's top, the band corresponding to ε ∈ [1.175%, 1.226%]. The
+conversion is exact to a part in ten million, so the 1.13% between those two ε-side numbers is
+real.
+
+**So a registered prediction is graded against a number with no recorded computation** — and the
+choice between it and the ε posterior moves the bet's standing against the dark-energy floor
+between 0.93% and 2.08%. An instrument note now sits on P-2026-040 saying so. This is an owner
+item: supply the band's provenance, or grade the bet against the posterior instead.
+
+Absence claim, per check 15a: made 2026-07-28 against the repository as it stands; it expires if
+chain archives outside this tree exist.
