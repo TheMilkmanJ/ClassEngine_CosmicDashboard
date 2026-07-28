@@ -87,7 +87,7 @@ environment half, one interaction and one signature at a time.
  implemented on a chip, at the precision that defines the volt.
 - **Horizon thermometers (C1 bridge)**: T = a/2π at three scales —
  Unruh at g: 3.98×10⁻²⁰ K; Hawking at M☉: 6.169×10⁻⁸ K;
- Gibbons–Hawking at H₀: 2.75×10⁻³⁰ K. X1 recheck at the electron-coupled scalar's H₀:
+ Gibbons–Hawking at H₀: 2.75×10⁻³⁰ K. X1 recheck at the model's H₀:
  ρ(T_GH⁴) misses the floor by 10¹²⁴ — the thermal ontology stays dead.
 - **The Chandrasekhar limit**: relativistic localization energy
  vs gravitational energy → critical mass 0.93 M☉ dimensionally (full

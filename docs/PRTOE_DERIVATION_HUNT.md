@@ -1039,7 +1039,7 @@ entire remaining open surface is:
 | the seat constant b | κ_m's exact value | the constituent-level build |
 | T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note APPROVED FOR CIRCULATION) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
-| the running referees (f̄/α_c chains; the evidence pair) | the ε decomposition; the electron-coupled scalar vs ΛCDM | local compute time |
+| the running referees (f̄/α_c chains; the evidence pair) | the ε decomposition; the model vs ΛCDM | local compute time |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
 
 Conditions settled by analysis this cycle: the Koide aggregation supply (N ≈ 1.5×10¹⁸, nine

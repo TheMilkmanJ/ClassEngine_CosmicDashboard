@@ -99,7 +99,7 @@ candid self-assessment is deliberately not on this shelf and is not listed here.
   [CYCLIC TORUS GENESIS](PRTOE_cyclic_torus_genesis.md) ·
   [IMPLEMENTATION SUMMARY](archive/PRTOE_IMPLEMENTATION_SUMMARY.md) ·
   [2-loop V_eff spec](PRTOE_build_2loop_Veff_spec.md) ·
-  [weakest joints + c-prep](PRTOE_weakest_joints_and_cprep_2026-07-10.md) ·
+  [weakest joints + c-prep](working_logs/PRTOE_weakest_joints_and_cprep_2026-07-10.md) ·
   [Fairbank note draft](PRTOE_fairbank_note_draft.md)
 
 ## The archive — provenance only, DO NOT cite as current
@@ -127,6 +127,6 @@ where it only carries the generic "some statuses may be superseded" hedge, trust
   current and canonical)*
 - session/provenance: [SKELETON](archive/PRTOE_SKELETON.md) (skeleton/outline era) ·
   [intellectual_history](PRTOE_intellectual_history.md) ·
-  [kill_and_patch_2026-07-07](PRTOE_kill_and_patch_2026-07-07.md) ·
+  [kill_and_patch_2026-07-07](working_logs/PRTOE_kill_and_patch_2026-07-07.md) ·
   [granule_scoping](PRTOE_granule_scoping.md) · [math_story](PRTOE_math_story.md) ·
   [references](PRTOE_references.md) (superseded by [BIBLIOGRAPHY](BIBLIOGRAPHY.md))

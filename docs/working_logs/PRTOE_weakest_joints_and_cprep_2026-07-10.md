@@ -1,6 +1,6 @@
 # PRTOE — Weakest Joints & C-Code Prep (2026-07-10 evening)
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
 Written after the gate-0 / neutrino-home session. Two parts: (A) the ranked weakest joints +
@@ -113,7 +113,7 @@ corrupt the working step model.
  O(δ²)); DR3 is now a pure kill-or-confirm on a derived commitment.
 - **J4 (m_e real) — new instruments**: P-022 (21cm), P-024 (the ε-dipole), the radio ratio-lock.
 - **J5–J7 — became the open-derivation set** (now worked in
- [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)): the portal embodied (vector-like
+ [PRTOE_DERIVATION_HUNT.md](../PRTOE_DERIVATION_HUNT.md)): the portal embodied (vector-like
  candidate), the abundance routed (winding→CP→η), v_L benchmarked.
 
 ## JOINTS UPDATE 2 (2026-07-11, the radio night)
@@ -153,7 +153,7 @@ corrupt the working step model.
   combined width 0.0563 (the −2.9σ above is the same value on the 2-term width — the
   two-budget question is ForJustin/10). The lever census is closed with no healer available
   to the electron-coupled scalar; the full accounting, including the hadronic channel and
-  the one roster-exempt source, is [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) §5–6.
+  the one roster-exempt source, is [PRTOE_deuterium_row.md](../PRTOE_deuterium_row.md) §5–6.
 - **J3 (DESI) — TRAILING.** DR2 prefers evolving DE at 3.1σ; the model's derived w = −1 stands
   against it as standing bet #3. The one attachment currently moving against the model.
 - **J4 (the shift being real) — the judge is running.** The zero-parameter evidence run
