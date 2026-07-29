@@ -543,3 +543,59 @@ smoothing mechanism:
 
 That is the honest next object for this docket — a residual that can be named, quantified, and handed
 to data.
+
+---
+
+## The width check, run (2026-07-29) — and it retires the averaging argument
+
+The check named immediately above has been carried out. `scripts/speckle_width_check.py`,
+16 controls including four anti-controls, all passing.
+
+**The centroid and the width are the same object seen twice, and they cannot be had separately.**
+Averaging divides the centroid error by √N. It leaves the width untouched, because **N does not
+appear in the width at all** — superposing more cells samples the distribution of per-cell shifts
+better, it does not narrow it:
+
+| | scales as |
+|---|---|
+| centroid error | w·ε·sd(Θ)/√N — **N helps** |
+| line width | w·ε·sd(Θ) — **N is absent** |
+
+Their ratio is √N. At the recorded N = 10⁹ that is a factor of **31 623**.
+
+### The fork, and both horns close
+
+| branch | centroid | width | verdict |
+|---|---|---|---|
+| Θ uniform at its mean ½ | coherent shift ε/2 = 6.27×10⁻³, **1.6×10⁴×** over the μ bound | none | **dead on the centroid** |
+| Θ scattered per Beta(3/2,3/2) | averages to 9.9×10⁻⁸ as advertised | **1880 km/s** (sd); FWHM 4427 km/s | **dead on the width** |
+| Θ laminar = 1.9×10⁻⁶ | 2.38×10⁻⁸ | 7.1×10⁻³ km/s | **passes both** |
+
+For the scattered branch to fit inside even a 10 km/s allowance, sd(Θ) would have to be suppressed
+**188×** below the Beta law (1880× at 1 km/s, 38× at 50 km/s). 21 cm absorption in damped systems is
+narrow — of order 1–50 km/s as a class. No specific measured width is sourced in-corpus, so the
+demand is quoted across the class rather than against one system.
+
+> **The N = 10⁹ coincidence is a red herring.** It was recorded hours earlier that the cell count
+> sits "within 2% of exactly the number that brings speckle scatter under spectroscopic bounds," and
+> called load-bearing. The 2% reproduces here exactly (ratio 1.017) — and it tunes the **centroid**
+> while the **width** fails by two orders of magnitude. **The averaging argument is retired as a route
+> to compliance.** The anti-control is decisive: scanning N across 24 decades never brings the width
+> under 50 km/s, because N is not in the expression.
+
+**What survives is the branch that never needed the averaging.** Laminar Θ suppresses the mean and
+the scatter by the same factor and clears both tests at once. Environmental screening was already
+data-required from centroids alone; the width makes it required far more strongly, and **rules out
+the developed-speckle alternative rather than merely disfavouring it.**
+
+### A structural result worth keeping
+
+The two observable classes of the radio-lattice construction respond to cell-to-cell scatter in
+**opposite** directions:
+
+- **Line rows** (21 cm hyperfine, recombination lines) are **broadened**, with no relief from N.
+- **Reconstructed-column rows** (dispersion measure, rotation measure) are path integrals, so their
+  scatter averages down exactly like a centroid and is **invisible** — 2.0×10⁻⁷ at N = 10⁹.
+
+So scatter is maximally visible in precisely the rows that construction calls measurable, and
+invisible in the three it demoted. That is a falsifiable statement about where to look.

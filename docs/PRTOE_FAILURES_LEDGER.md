@@ -4133,3 +4133,34 @@ different mechanism and it is suppressed.
 **Scope.** Nothing here touches the leptogenesis side — the AD mechanism, the asymmetry and the
 neutrino-sector couplings are unaffected. What fails is only the claimed **drag** from the current
 coupling to the electron mass shift. Leptophilia remains carried by data, as the corpus already says.
+
+---
+
+## The speckle-averaging route to spectroscopic compliance — RETIRED 2026-07-29
+
+**What was claimed, and when.** Earlier the same day, in `PRTOE_me_mechanism_math.md`: that
+developed speckle with ⟨Θ⟩ = ½ and sd = ¼ (the Beta(d/2,d/2) law) reconciles a 1.2543% electron-mass
+shift with spectroscopic μ bounds, because the per-cell scatter of 3.14×10⁻³ averages over N ≈ 10⁹
+cells to 9.9×10⁻⁸. The cell count was noted to sit **within 2% of exactly the value required** and the
+coincidence was called **load-bearing**.
+
+**Why it fails.** The averaging needs the scatter — that is what it averages. But the resulting line
+**width** is set by the same scatter and **contains no N**: superposing more cells samples the
+distribution of shifts better rather than narrowing it. So the route buys centroid compliance and
+declines to pay for width, which is not available. At N = 10⁹ the width exceeds the centroid error by
+**31 623×**, giving **1880 km/s** (sd) of intrinsic broadening in the 21 cm row against absorption
+lines that are narrow. Fitting inside even 10 km/s needs sd(Θ) suppressed **188×** below the law that
+generated the argument.
+
+The 2% coincidence is confirmed arithmetically (ratio 1.017) and is a **red herring** — it tunes the
+centroid while the width fails by two orders of magnitude. The anti-control settles it: N scanned
+across 24 decades never brings the width under 50 km/s.
+
+**What this does and does not kill.** It kills the **route**, not the model. Laminar Θ = 1.9×10⁻⁶
+suppresses mean and scatter by the same factor and passes both tests together (centroid 2.38×10⁻⁸,
+width 7.1×10⁻³ km/s). Environmental screening was already data-required from centroids; the width
+makes it required far more strongly and **excludes** the developed-speckle alternative rather than
+disfavouring it.
+
+**Instrument:** `scripts/speckle_width_check.py`, 16 controls including four anti-controls, all
+passing. Recorded here the same day the argument was recorded, not later.
