@@ -598,3 +598,60 @@ free parameters, checkable by inspection. That half of the promotion condition i
 **So the paper is not yet promotable, but the blocker has moved** — from "no route exists" to "the
 route is derived and needs an observational pairing." That is a materially better position, and it is
 a question for the sky rather than the desk.
+
+## Both referee objections answered (2026-07-29)
+
+`scripts/epsilon_number_and_sz_pairing.py`, 10 controls including two anti-controls.
+
+### 1. The paper can quote a number, and it was already in its own citations
+
+The paper cites Rahmani et al. 2012 — Δx/x = −(0.1 ± 1.3)×10⁻⁶ over four systems at
+1.17 < z < 1.56, with x ≡ g_p α²/μ — then says only that this is *"a statistical precision of
+1.3×10⁻⁶ on ε"* and stops. But since μ = m_p/m_e and the paper already holds g_p and α fixed,
+
+> **d ln x = −d ln μ = +ε**, one-to-one.
+
+So that measurement **is** a measurement of ε:
+
+| | |
+|---|---|
+| statistical | ε = (−0.1 ± 1.3)×10⁻⁶ |
+| systematic (Kanekar et al. 2010) | ± 6.7×10⁻⁶ |
+| **combined** | **ε = (−0.1 ± 6.8)×10⁻⁶** |
+| **2σ bound** | **\|ε\| < 1.4×10⁻⁵** at 1.17 < z < 1.56 |
+
+The systematic dominates the statistical by **5.2×** — which is not a presentational weakness but
+the state of the field, and precisely why a ratio test across bands with *different* systematics is
+worth building. **Stating the result costs one sentence and removes the "constrains nothing"
+objection outright.** It must be written as a reinterpretation of someone else's measurement under
+the paper's stated assumptions, not as a new measurement.
+
+### 2. The Thomson pairing exists, and has been measured
+
+σ_T ∝ α²/m_e², and Compton-y carries a further 1/(m_e c²). Three reconstructions, three weights:
+
+| probe | integrand | w(m_e) | w(α) |
+|---|---|---|---|
+| dispersion measure | ∫n_e dl | **−1** | +1 |
+| kinetic SZ | ∫n_e v dl | **−2** | +2 |
+| thermal SZ | ∫n_e kT dl | **−3** | +2 |
+
+Every pairing carries nonzero net m_e weight. And one is better than expected:
+
+> ### The kSZ/tSZ pair is blind to α
+>
+> Both carry σ_T, so **α cancels identically** in their ratio, leaving net w(m_e) = +1 and
+> **w(α) = 0**. That is a pure electron-mass probe with no fine-structure contamination at all —
+> a cleaner discriminator than any pair in the paper's current table.
+
+**And the cross-correlation is not hypothetical.** Takahashi, Ioka, Shirasaki & Osato
+(arXiv:2511.02155) measure the angular cross-correlation of dispersion measures from **133 localized
+FRBs** with Planck and ACT Compton-y maps over 1′–1000′: amplitude **𝒜 = 2.01 ± 0.50 (4.0σ)** with
+Planck, 1.23 ± 0.82 (1.5σ) with ACT, implying ⟨T_e⟩ ≈ 2×10⁷ K under isothermal assumptions.
+
+> **⚠ THE CAVEAT THAT MUST SURVIVE INTO ANY TEXT.** These are three different **moments** of the
+> same gas — density, velocity-weighted, temperature-weighted. The unknown does **not** divide out
+> the way it does between two probes of one identical integral. The clean cancellation belongs to
+> the *derivation*; the observational version needs the astrophysical weighting modelled, which is
+> what that analysis already does and where its 4σ is spent. Writing it up as though the column
+> simply cancels would be false, and would be caught.
