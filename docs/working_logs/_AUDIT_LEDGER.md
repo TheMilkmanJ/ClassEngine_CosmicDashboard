@@ -6281,3 +6281,68 @@ result, which showed one particular corner missing; the overlap shows the *geome
 **#28's desk debt is paid** — both fence numbers now exist and are sourced. What remains is what it
 always was: DESI's forest cross-calibration, which now has a sharper question to answer, and a
 prediction that on these ranges the mass-step-from-screening corner should not survive it.
+
+## The lattice note cross-referenced against its own sources (2026-07-29)
+
+*Owner asked directly: is anything in it unaccounted for, and does it read as partial
+understanding? Every citation in `docs/PRTOE_lattice_note.md` was opened.*
+
+### What holds
+
+| claim | verdict |
+|---|---|
+| √σ₀ = 476(5) MeV, arXiv:1808.06466 | **CONFIRMED** — *"σ₀ = 476(5) MeV at a = 0.044 fm"*, and *"we use the string tension σ = (476 MeV)² which was calculated in this paper"* |
+| m_π = 740 MeV on those ensembles | **CONFIRMED** — the paper states m_π = 740(40) MeV |
+| N_f = 2, rooted staggered | **CONFIRMED** — *"corresponds to N_f = 2 dynamical fermions in the continuum limit"* |
+| Polyakov peak *weakens* as quarks lighten, opposite to SU(3) | **CONFIRMED verbatim** — *"Contrary to three-colour QCD the peak in the Polyakov loop susceptibility decreases with decreasing quark mass"* |
+| SU(2N_f) → Sp(2N_f), 14 Goldstones at N_f = 3 | **CONFIRMED by computation** — dim SU(6) − dim Sp(6) = 35 − 21 = 14 |
+| conformal-window edge N_f ≈ 6, so N_f = 3 confines | consistent with the cited range |
+| ½ln2 = 0.34657; 0.44% above 0.34506; discrimination needs σ ≲ 0.22% | **arithmetic confirmed** — separation 0.437%, half of it 0.22% |
+| T_d/√σ = 0.483(23) from 230/476 | **arithmetic confirmed** (0.4832; errors in quadrature 0.022) |
+
+### Four defects, one of them load-bearing
+
+1. **T_d(0) = 230(10) MeV is MIS-ATTRIBUTED.** The string tension and pion mass are in
+   arXiv:1808.06466; **the number 230 appears nowhere in that paper** (full text extracted and
+   searched). And that paper is a static-potential / Debye-screening study of *dense* matter, not a
+   finite-temperature transition determination. This matters because T_d/√σ = 0.483 is the **single
+   measured anchor** the whole τ ≈ 0.39 ± 0.05 bracket is built from. `BIBLIOGRAPHY.md` had already
+   flagged the entry *"Locator unrecorded — needs external verification"* — the verification has now
+   been done and half of it fails. The likely true source is a Braguta-school finite-T paper
+   (Bornyakov et al., arXiv:1711.01869, JHEP 03 (2018) 161, is the nearest candidate), **not
+   established here.**
+
+2. **The Kaczmarek support is N_f = 4, and the note does not say so.** hep-lat/9809059 is
+   *Thermodynamics of two-colour QCD*, Nucl. Phys. Proc. Suppl. **73** (1999) 441 — a three-page
+   proceedings contribution with **four** staggered flavours on N_τ = 4. The physics claim it is
+   cited for is exactly right, but a lattice reader will want the flavour count and the venue stated,
+   since the note's whole subject is N_f = 3.
+
+3. **The SU(3) benchmark disagrees with the corpus's own reading of the same table.** The note
+   quotes the intercept as 0.40(1); `Basement_Roster_Discussions.md` reads Karsch–Laermann–Peikert
+   Table 3 as 0.425(15) at N_f = 2 chiral and ~0.41(2) at N_f = 3. The note's *"−0.03 for the third
+   flavour"* does not reproduce from 0.425 → 0.41, which is −0.015. One of the two readings is wrong
+   and the note is the one going out.
+
+4. **The stale 0.3503 is still in the adjudication.** The working log grades the bet at 0.3503;
+   that value is retired in the failures ledger as *"not a derivation"*, superseded by 0.34657. The
+   note itself is correct — the log around it is not.
+
+### Does it read as partial understanding? No — with one exception
+
+The markers of real fluency are there: it asks for **both** transitions separately and knows they
+decouple in SU(2); it demands the scale conversion be stated **on the same ensembles**, which is the
+thing that ruins cross-paper comparison; it asks for two temporal extents because coarse-lattice
+SU(3) drifted ~10% in the continuum; it checks conformal-window safety first; and it states the
+precision needed to settle the bet **in advance**, conceding that a standard-precision calculation
+scores neither way. That last move is the opposite of partial understanding.
+
+**The exception, and it is the thing a lattice referee will raise first.** The note offers
+*"three staggered or Wilson flavours"* as if the choice were free. It is not. **N_f = 3 with
+staggered fermions requires the odd root (det)^{3/4}** — rooted staggered at its most contested — and
+in two-color QCD the staggered symmetry-breaking pattern **differs from the continuum theory with
+fundamental quarks**, a point made in the very paper the note cites for its anchor (arXiv:1808.06466:
+*"the symmetries of the staggered fermion action are different from those of two-color QCD with
+fundamental quarks... In particular, the symmetry breaking pattern"*). Asking for N_f = 3 is asking
+for the hardest flavour count to discretize, and the note does not acknowledge it. **This is the one
+place the draft would read as not having gone all the way down.**
