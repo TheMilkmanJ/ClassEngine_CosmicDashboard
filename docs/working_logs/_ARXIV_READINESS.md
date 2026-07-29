@@ -554,3 +554,47 @@ across five rows, where proportionality would give one.
 hand-typed table — breaks the ratio row immediately. So the check bites on the entry it guards. A
 wrong table entry would not have surfaced as a build error, a bad citation or a failed control. **It
 would have shipped.**
+
+## The promotion piece has a derivation: the Thomson row (2026-07-29)
+
+Owner ruling: make the paper stronger rather than ship the two-row version. The demotion named the
+condition — *"an independent determination of the same electron column"* — and one exists inside the
+physics the paper already uses. `scripts/thomson_row_promotion.py`, 12 controls, three anti-controls.
+
+**The observation.** The Thomson cross-section is σ_T = (8π/3)r_e² with r_e = e²/m_e c², so
+**σ_T ∝ α²/m_e²**. Any optical depth τ = N_e·σ_T that is divided by the *laboratory* σ_T to report a
+column therefore inherits **weight −2** — against the dispersion row's **−1**.
+
+> ### Two reconstructions of one column at different weights ⟹ the column cancels
+>
+> **N_e(DM) / N_e(Thomson) = (1−ε)/(1−2ε) = 1 + ε + O(ε²)**
+>
+> Checked numerically across **fifteen decades** of column: the ratio is identical to one part in
+> 10¹². The unknown drops out *exactly*. To first order the ratio is 1 + ε — a handle on the shift
+> that never requires knowing the true column, which is precisely the obstruction the demotion
+> identified.
+
+**And it inherits the paper's own discriminator.** The α weights are +1 (dispersion) and +2
+(Thomson), so the same ratio goes as **1 − δα**. A varying electron mass raises it; a varying
+fine-structure constant lowers it. The pair separates the hypotheses **by sign**, exactly as the
+paper's existing opposite-weight pairs do. Nothing new has to be argued for.
+
+**The anti-controls fix what is doing the work.** Two probes of *equal* weight give identically no
+signal — so it is the weight **difference**, not the existence of a second probe. And a 10% mismatch
+between the two columns produces a shift **90×** a 10⁻³ signal, so *"the same column"* is a hard
+physical requirement rather than a formality.
+
+### What this is, and what it is not
+
+**It is a derivation** at the same standing as the paper's five existing rows: textbook scalings, no
+free parameters, checkable by inspection. That half of the promotion condition is now met.
+
+> **It is NOT an observational programme.** Pairing a dispersion measure with a Thomson optical depth
+> over the *same* column is the work that remains. The natural candidates — fast-radio-burst columns
+> against kinetic-SZ or CMB optical depth through the same structures — are **candidates, not
+> existing measurements**. No claim is made that such a pairing has been performed, or that its
+> precision is known. Any text must keep that line exactly where the script puts it.
+
+**So the paper is not yet promotable, but the blocker has moved** — from "no route exists" to "the
+route is derived and needs an observational pairing." That is a materially better position, and it is
+a question for the sky rather than the desk.
