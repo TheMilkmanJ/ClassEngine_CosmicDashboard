@@ -409,3 +409,50 @@ three-row test it cannot presently deliver.
 >
 > The seven references still carry VERIFY flags from the earlier pass and need checking against the
 > literature before submission; that was always true and is not new.
+
+## Category assignment for the radio-lattice paper (2026-07-29, owner taking endorsement on)
+
+Categorised on the paper's actual content: it sits in the varying-fundamental-constants literature
+(Uzan reviews, quasar absorption, CMB, BBN, Oklo, clocks), is motivated in part by the m_e-at-
+recombination route to the Hubble tension, and its observables are radio ISM/IGM diagnostics —
+21 cm, radio recombination lines, dispersion measures, synchrotron, Faraday rotation.
+
+### Recommended: primary **astro-ph.CO**
+
+| | category | why | archive |
+|---|---|---|---|
+| **primary** | **astro-ph.CO** | Cosmology and Nongalactic Astrophysics. Varying constants at cosmological epochs is where this literature lives, and the paper's framing (CMB, BBN, recombination-era m_e, high-redshift absorbers) is squarely that. | `astro-ph` |
+| cross-list | **astro-ph.IM** | It is a proposed measurement — a maximum-likelihood estimator, a sensitivity forecast, and a statement of which rows are presently usable. | `astro-ph` |
+| cross-list | **hep-ph** | Varying-constants phenomenology is routinely cross-listed here, and the α-vs-m_e separation is the paper's phenomenological core. | `hep-ph` |
+| optional | **physics.atom-ph** | The five weights are derived from atomic physics — hyperfine structure and the Rydberg formula — and the H/D control is an isotopic argument. | `physics` |
+| optional | **astro-ph.GA** | The observables are ISM diagnostics (RRLs in HII regions, RM grids). Weakest of the set; the paper is not about galaxies. | `astro-ph` |
+
+**Not appropriate:** `physics.space-ph` — that is space *plasma* physics (magnetospheres, solar wind),
+and is the account default rather than a considered choice. Also not `gr-qc`: there is no
+gravitational or metric content in the paper.
+
+### The one structural point worth knowing before chasing endorsements
+
+**Endorsement is per ARCHIVE, not per subject class.** So:
+
+- **astro-ph.CO and astro-ph.IM (and astro-ph.GA) are all the same archive, `astro-ph`.** One
+  endorsement covers all of them. Cross-listing within astro-ph costs nothing extra.
+- **hep-ph is a separate archive.** It would need its own endorsement.
+- **physics.atom-ph is in the `physics` archive** — separate again.
+
+> **So the minimum viable path is a single `astro-ph` endorsement.** That gets the paper posted with
+> astro-ph.CO primary and astro-ph.IM cross-listed, which is a complete and honest placement. hep-ph
+> and physics.atom-ph are *nice to have* and should not hold up submission — cross-lists can be added
+> later, and a paper is not weakened by being listed in one archive.
+
+**Stated as confidence, not fact:** the per-archive endorsement structure above is how arXiv is set up
+as far as this can be established from here, but the account page is the authority — it shows which
+archives the account is already endorsed for, and whether any are auto-endorsed from institutional
+affiliation. That check has not been made from this box and should not be assumed either way.
+
+### What this does NOT unblock
+
+The paper is still **not arXiv-ready**, for the reason recorded above and unchanged by categorisation:
+the dispersion row is demoted, the measurable set is two rows, and promotion needs an independent
+electron-column determination. The seven references also still carry VERIFY flags. Categorisation was
+the smaller of the two remaining blockers and is now settled; the physics one is not.
