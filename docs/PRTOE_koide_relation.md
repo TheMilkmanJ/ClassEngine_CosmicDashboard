@@ -657,3 +657,60 @@ model's neutrino-mass prediction while P-2026-012 stands.
 **Which resolves it is an owner call**, and it is a good fork to have: the two branches differ by a
 factor 6 in m₁ and 3.8% in Σm_ν — the latter within reach of near-term cosmology, the former
 distinguishing a triple on the cone from one off it.
+
+## The neutrino fork, decided — and not by data (2026-07-29)
+
+`scripts/neutrino_fork_decide.py`, 12 controls including three anti-controls. Two incompatible values
+of Σm_ν were both being carried as the model's prediction. This settles which stands.
+
+**Data does not decide it.** On one splitting set the sums are **59.13 meV** (Koide branch) and
+**61.34 meV** (P-2026-012) — a gap of 2.21 meV, far inside every current cosmological upper limit.
+Waiting for data means waiting years.
+
+> **⚠ First, a bookkeeping error the comparison exposed.** The two numbers were quoted on
+> **different oscillation splittings** — the Koide branch's 0.374 meV / 58.5 meV reproduces on
+> NuFIT 7.53×10⁻⁵ / 2.455×10⁻³, while P-2026-012's 61.3 meV uses 7.42×10⁻⁵ / 2.515×10⁻³. Compared
+> like for like the gap is **2.21 meV, not the 2.8 meV** the raw quotes imply. Part of the apparent
+> disagreement was an input mismatch.
+
+### The parameter-free test, which is the discriminator
+
+The ring form's overall scale **cancels** from Δm²₃₁/Δm²₂₁. So fixing A = √2 (Koide) *and*
+φ = 2/9 + π/12 leaves **nothing free** and predicts that ratio outright:
+
+| | |
+|---|---|
+| predicted | **32.43** |
+| measured | **33.89** |
+| deviation | **4.33%** |
+
+The corpus records this agreement as **0.5%**. It is not reproduced — the miss is **4.3%**, nearly
+nine times larger.
+
+**And the fallback is not evidence.** Leaving φ free at A = √2 fits the ratio to 0.0001% — but that
+is *one parameter fitted to one number*, which is guaranteed and carries no information. **m₁ = 0.374
+meV is an output of that saturated fit, not a prediction from it.**
+
+### The structural ruling already pointed the same way
+
+Q_ν = ⅔ is **unreachable with all roots positive** — the ceiling is 0.5857 — so the Koide branch
+*requires* the negative root. And the corpus has twice concluded, by independent arguments, that the
+cone is selected by **electric charge**: T6 from the neutrino failure itself, the basement because
+screening weights by charge² and a neutral cone is worth zero. Numerical reachability on a sign
+branch is not a mechanism for being there.
+
+> ### RULING
+>
+> **P-2026-012 stands as the model's neutrino prediction** — Σm_ν = 61.3 meV with
+> m_lightest = 2.24 meV, carried with its own stated conditional (the floor being neutrino-funded)
+> and its own void clause.
+>
+> **The Koide-neutrino branch is WITHDRAWN as a prediction.** Σm_ν = 58.5 meV must not be quoted as
+> the model's number. It survives only as an observation: *if* the neutral triple were on the cone
+> the sum would be ≈59 meV — and the charge-selector argument says it is not, while the
+> parameter-free test that would have supported it misses by 4.3%.
+
+**What would reopen it,** so the door is not nailed shut by accident: a mechanism putting a *neutral*
+triple on the cone, which would have to defeat both charge-selector arguments at once; or a corrected
+φ that passes the parameter-free ratio test. The second is checkable immediately against any proposed
+φ, and the script above is the check.
