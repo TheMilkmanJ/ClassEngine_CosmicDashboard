@@ -831,3 +831,45 @@ error as well** (1.0 vs 0.8), which is the third independent instance of the sam
 | as arXiv builds it (main.tex + main.bbl) | 0 errors, 0 undefined, 0 overfull, 7 pp |
 | abstract | 1900 / 1920 characters |
 | bibliography | **31 entries** |
+
+## The humanizing pass, and the paper's final state (2026-07-29)
+
+The prose pass the owner asked for, done against measured tells rather than impression.
+
+| | before | after |
+|---|---|---|
+| mean sentence length | 25.0 words | **23.5** |
+| sentences over 55 words | 4 | **2** |
+| "It should be said plainly…" / "It is also worth noting…" | 2 | **0** |
+
+Four long sentences were split at their natural seam (the SZ prior-work sentence, the FRB
+dispersion-measure sentence, the methanol sentence, the systematics sentence) and two throat-clearing
+openers were cut. Nothing was reworded for its own sake; the register was already close.
+
+**One real inconsistency fixed:** the introduction's roadmap stopped at Sec. "What is assumed" and
+never mentioned the sensitivity section — which is where the paper's only number lives. It now says
+what that section does, including that it places the bound beside the best existing one.
+
+### Not changed, deliberately
+
+The source mixes `\cite` and `\citep`. Under `apsrev4-2` both render as `[n]` — verified in the
+built PDF, not assumed — so there is **no difference in the output**. Seven mechanical edits for a
+zero-visible-effect style point is a worse trade than leaving it, given the edit rule.
+
+Sentences opening with "The" sit at 51 of 154 (33%). That is normal for the register and forcing
+variety would read worse, so it stands.
+
+### Final verified state
+
+| | |
+|---|---|
+| **as arXiv builds it** (main.tex + main.bbl, no bibtex run) | **0 errors, 0 undefined, 0 overfull, 7 pp, 312 KB** |
+| from-scratch build (pdflatex → bibtex → ×2) | bibtex clean, identical result |
+| abstract | 1900 / 1920 characters |
+| bibliography | 31 entries, **31 cited, 0 orphans, 0 missing** |
+| scaffolding markers | none |
+| control-count sweep | 47 claims, **0 wrong, 0 over-stated** |
+| math audit | **1374 / 1374** |
+
+**The paper is arXiv-ready.** Categories astro-ph.CO (primary) + astro-ph.IM. The one remaining
+item is the endorsement, which the owner has taken as their own task.
