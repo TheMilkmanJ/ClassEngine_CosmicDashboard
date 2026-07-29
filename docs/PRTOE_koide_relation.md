@@ -660,7 +660,7 @@ distinguishing a triple on the cone from one off it.
 
 ## The neutrino fork, decided — and not by data (2026-07-29)
 
-`scripts/neutrino_fork_decide.py`, 12 controls including three anti-controls. Two incompatible values
+`scripts/neutrino_fork_decide.py`, 13 controls including three anti-controls. Two incompatible values
 of Σm_ν were both being carried as the model's prediction. This settles which stands.
 
 **Data does not decide it.** On one splitting set the sums are **59.13 meV** (Koide branch) and

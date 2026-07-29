@@ -1079,6 +1079,16 @@ it predicts a low-z drift confronted against existing data:
 | Oklo (α) | 0.14 | 4×10⁻⁷ | 1×10⁻⁷ | TENSION ~4× |
 | atomic clocks (α) | 0 | 3×10⁻⁷ | 1×10⁻⁷ | TENSION ~2× |
 
+> **Correction to the methanol row, 2026-07-29 — the direction holds, the size softens.** The
+> 1×10⁻⁷ used above is the 1σ figure from Bagdonaite et al. 2013 (PRL **111**, 231101). Their own
+> *robust* value, after the systematics are carried, is Δμ/μ = (−1.0 ± 0.8_stat ± 1.0_sys) × 10⁻⁷,
+> a combined 1σ of 1.28×10⁻⁷; and Kanekar et al. 2015 (MNRAS Lett. **448**, L104) independently
+> report ≲4×10⁻⁷ at 2σ. Graded against the combined 1σ, the tension on this row is **~7×, not 9×**,
+> and the range below becomes **2–7×**. The verdict is unchanged in direction and in consequence —
+> every row still leans the same way and screening is still forced — but the strongest single row
+> is weaker than booked. Recorded rather than silently edited, since the original grading was
+> against a published number, not an invented one.
+
 **Verdict:** the "everywhere" reading is MILDLY EXCLUDED (2–9×). The data bites.
 It FORCES the ENVIRONMENTAL SCREENING (Θ switch, P-2026-007): masers/H2/Oklo/
 clocks all sit in dense/structured gas or on Earth → screened → lab value →

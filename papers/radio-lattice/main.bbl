@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{28}%
+\begin{thebibliography}{32}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -119,14 +119,14 @@
   {volume} {103}},\ \bibinfo {pages} {083507} (\bibinfo {year} {2021})},\
   \Eprint {https://arxiv.org/abs/2007.03381} {arXiv:2007.03381} \BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Kalita}(2024)}]{Kalita2024}%
+\bibitem [{\citenamefont {Kalita}(2024{\natexlab{a}})}]{Kalita2024}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
   {Kalita}},\ }\href {https://doi.org/10.1093/mnrasl/slae062} {\bibfield
   {journal} {\bibinfo  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf
   {\bibinfo {volume} {533}},\ \bibinfo {pages} {L57} (\bibinfo {year}
-  {2024})},\ \Eprint {https://arxiv.org/abs/2407.01736} {arXiv:2407.01736}
-  \BibitemShut {NoStop}%
+  {2024}{\natexlab{a}})},\ \Eprint {https://arxiv.org/abs/2407.01736}
+  {arXiv:2407.01736} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wang}\ and\ \citenamefont {Xia}(2025)}]{WangXia2025}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.-Y.}\ \bibnamefont
@@ -333,6 +333,29 @@
   dominates; the result is a null. Cited here for the systematic, not the
   central value.},\ \Eprint {https://arxiv.org/abs/1003.0444} {arXiv:1003.0444}
   \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lemos}\ \emph {et~al.}(2025)\citenamefont {Lemos},
+  \citenamefont {Gon{\c c}alves}, \citenamefont {Carvalho},\ and\ \citenamefont
+  {Alcaniz}}]{LemosFRB2025}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Lemos}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Gon{\c
+  c}alves}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Carvalho}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Alcaniz}},\ }\href
+  {https://doi.org/10.1088/1475-7516/2025/01/059} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\ }\textbf {\bibinfo
+  {volume} {01}},\ \bibinfo {pages} {059}},\ \bibinfo {note} {17 localized FRBs
+  with Pantheon supernovae, in the runaway-dilaton parametrization.},\ \Eprint
+  {https://arxiv.org/abs/2406.11691} {arXiv:2406.11691} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kalita}(2024{\natexlab{b}})}]{KalitaFRB2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kalita}},\ }\href {https://doi.org/10.1093/mnrasl/slae062} {\bibfield
+  {journal} {\bibinfo  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf
+  {\bibinfo {volume} {533}},\ \bibinfo {pages} {L57} (\bibinfo {year}
+  {2024}{\natexlab{b}})},\ \bibinfo {note} {50 localized FRBs, $0.004 < z <
+  1.02$. The mass constraint is obtained from the $\alpha$ constraint through
+  an assumed unification relation, not independently.},\ \Eprint
+  {https://arxiv.org/abs/2407.01736} {arXiv:2407.01736} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Jones}\ \emph {et~al.}(2017)\citenamefont {Jones},
   \citenamefont {McLaughlin}, \citenamefont {Lam} \emph
   {et~al.}}]{JonesNANOGrav2017}%
@@ -375,4 +398,47 @@
   m$^{-2}$, systematic up to $0.3$ rad m$^{-2}$ after ionospheric
   correction.},\ \Eprint {https://arxiv.org/abs/2301.07697} {arXiv:2301.07697}
   \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kanekar}\ \emph {et~al.}(2015)\citenamefont
+  {Kanekar}, \citenamefont {Ubachs}, \citenamefont {Menten}, \citenamefont
+  {Bagdonaite}, \citenamefont {Brunthaler}, \citenamefont {Henkel},
+  \citenamefont {Muller}, \citenamefont {Bethlem},\ and\ \citenamefont
+  {Dapr\`{a}}}]{KanekarMethanol2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Kanekar}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Ubachs}},
+  \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Menten}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Bagdonaite}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Brunthaler}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Henkel}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont {H.~L.}\
+  \bibnamefont {Bethlem}},\ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Dapr\`{a}}},\ }\href
+  {https://doi.org/10.1093/mnrasl/slu206} {\bibfield  {journal} {\bibinfo
+  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf {\bibinfo {volume}
+  {448}},\ \bibinfo {pages} {L104} (\bibinfo {year} {2015})},\ \bibinfo {note}
+  {vLA absorption spectroscopy of four CH$_3$OH lines in the $z = 0.88582$ lens
+  toward PKS1830$-$211. The robust limit uses the 48.372, 48.377 and 60.531 GHz
+  transitions, whose line profiles agree and which therefore sample the same
+  gas.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Bagdonaite}\ \emph {et~al.}(2013)\citenamefont
+  {Bagdonaite}, \citenamefont {Dapr\`{a}}, \citenamefont {Jansen},
+  \citenamefont {Bethlem}, \citenamefont {Ubachs}, \citenamefont {Muller},
+  \citenamefont {Henkel},\ and\ \citenamefont
+  {Menten}}]{BagdonaiteMethanol2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Bagdonaite}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Dapr\`{a}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Jansen}},
+  \bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont {Bethlem}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Ubachs}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Henkel}},\ and\ \bibinfo {author} {\bibfnamefont {K.~M.}\
+  \bibnamefont {Menten}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.111.231101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\
+  \bibinfo {pages} {231101} (\bibinfo {year} {2013})},\ \bibinfo {note} {ten
+  CH$_3$OH lines toward PKS1830$-$211 with Effelsberg, IRAM 30-m and ALMA. The
+  robust value $(-1.0 \pm 0.8_{\rm stat} \pm 1.0_{\rm sys}) \times 10^{-7}$ is
+  systematics-dominated, as is the 21 cm row.},\ \Eprint
+  {https://arxiv.org/abs/1311.3438} {arXiv:1311.3438} \BibitemShut {NoStop}%
 \end{thebibliography}%

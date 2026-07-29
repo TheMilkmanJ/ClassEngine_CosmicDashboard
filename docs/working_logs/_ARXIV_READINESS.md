@@ -601,7 +601,7 @@ a question for the sky rather than the desk.
 
 ## Both referee objections answered (2026-07-29)
 
-`scripts/epsilon_number_and_sz_pairing.py`, 10 controls including two anti-controls.
+`scripts/epsilon_number_and_sz_pairing.py`, 11 controls including two anti-controls.
 
 ### 1. The paper can quote a number, and it was already in its own citations
 
@@ -658,7 +658,7 @@ Planck, 1.23 ± 0.82 (1.5σ) with ACT, implying ⟨T_e⟩ ≈ 2×10⁷ K under i
 
 ## The two owed items, settled — one favourably, one AGAINST the novelty claim (2026-07-29)
 
-`scripts/sz_moment_mismatch_and_priority.py`, 10 controls including two anti-controls.
+`scripts/sz_moment_mismatch_and_priority.py`, 9 controls including two anti-controls.
 
 ### ⚠ Priority: the Thomson/SZ route is NOT new. It is established varying-constants method.
 
@@ -753,3 +753,71 @@ that left NANOGravDM2023 incomplete.
 **The "it constrains nothing" objection is answered, and the closest neighbouring method is now
 cited.** What remains is unchanged: the promotion piece needs an observational pairing that is not
 the SZ one (that route is established method, not ours), and the endorsement is the owner's.
+
+## The amplitude claim was wrong, and the correction makes the paper honest (2026-07-29)
+
+A literature check on the number just placed in the text turned up two things the paper did not
+know. One of them is unwelcome and governs the framing.
+
+### The paper's amplitude is already bounded 35× tighter than its own rows can reach
+
+Methanol absorption in the z = 0.88582 lens toward PKS1830−211 gives
+
+> **|Δμ/μ| ≲ 4 × 10⁻⁷ (2σ), 0 < z ≤ 0.886** — Kanekar et al. 2015, MNRAS Lett. 448, L104
+
+and methanol's transition frequencies carry **μ alone** — no α, no proton moment. So it bounds ε
+under a set of assumptions **strictly contained in** the one the 21 cm row needs (which reads
+x = g_pα²/μ and must hold two further constants still). It is 35× tighter than the |ε| < 1.4×10⁻⁵
+placed in the paper this morning, and the 21 cm + Faraday pair would need σ ≃ 1.1×10⁻⁶ per band
+merely to match it.
+
+**The paper therefore cannot claim to improve the limit on the amplitude, and the text no longer
+does** — the abstract, a new subsection, and the conclusion all say so outright.
+
+The answer is not empty, and the counting is why: once ε is fitted, a **single** row leaves
+1 − 1 = 0 degrees of freedom, so every hypothesis with a free amplitude absorbs it exactly and it
+discriminates among none. **Two** rows of different weight leave 2 − 1 = 1. That count contains no
+σ, so a 35× better amplitude bound does not touch it. A tight μ limit and a weak pattern test
+answer different questions. This argument is now in the paper.
+
+There is a second lesson in *how* Kanekar's figure was reached: a tighter statistical limit from one
+line pair (1.1×10⁻⁷) was **set aside** for the weaker three-transition figure, because only those
+profiles agree and hence demonstrably sample the same gas. That is the same systematic limiting the
+21 cm row. Both of the best constraints on ε are limited by sightline structure, not photon noise —
+and the paper now says so.
+
+### A citation gap in the paper's own band, worse than the SZ one
+
+The dispersion-measure row had a varying-constants literature cited **nowhere**:
+
+| | |
+|---|---|
+| Lemos et al. 2025, JCAP **01**, 059 | 17 localised FRBs + Pantheon, runaway dilaton, Δα/α ~ 10⁻² |
+| Kalita 2024, MNRAS Lett. **533**, L57 | 50 localised FRBs, 0.004 < z < 1.02, Δα/α ≃ 2×10⁻⁵ |
+
+Both compare the observed DM against the value predicted from Ω_b h² and an assumed baryon
+fraction — **precisely the external electron column the paper's own demotion argument named**, so
+the literature *confirms* the reasoning rather than contradicting it.
+
+But Kalita's Δμ/μ = −1×10⁻⁵ is **not** an independent mass constraint: it comes from his α result
+through an assumed unification relation (R ≈ 278, S ≈ 742), so it says nothing about ε at fixed α,
+which is the case this paper considers. **The mass-only analysis appears not to have been done.**
+Both papers are now cited with that distinction stated explicitly.
+
+`scripts/amplitude_standing.py`, 13 controls including two anti-controls. All pass.
+
+**The 4×10⁻⁷ was checked against an independent analysis before it went in.** Bagdonaite et al.
+2013 (PRL **111**, 231101) observed the same source at Effelsberg, IRAM 30-m and ALMA in ten
+methanol transitions and report Δμ/μ = (−1.0 ± 0.8_stat ± 1.0_sys) × 10⁻⁷ — a worst-case 2σ
+excursion of 3.6×10⁻⁷, agreeing with Kanekar's 4×10⁻⁷ to 11%. Two teams, two line sets, one answer,
+so the figure the paper quotes is not an underquote. And **its systematic exceeds its statistical
+error as well** (1.0 vs 0.8), which is the third independent instance of the same pattern.
+
+### Verified state
+
+| | |
+|---|---|
+| from-scratch build | bibtex clean, 0 errors, 0 undefined, **0 overfull**, 7 pp |
+| as arXiv builds it (main.tex + main.bbl) | 0 errors, 0 undefined, 0 overfull, 7 pp |
+| abstract | 1900 / 1920 characters |
+| bibliography | **31 entries** |

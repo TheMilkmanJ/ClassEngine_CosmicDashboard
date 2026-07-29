@@ -34,7 +34,9 @@ ones. Throughout, $\varepsilon$ is treated as a free amplitude to be fitted rath
 so the ratio structure is testable independently of any particular mechanism for the shift. Read
 through the pattern, the tightest existing $21\,$cm comparison gives
 $|\varepsilon| < 1.4 \times 10^{-5}$ at $2\sigma$ over $1.17 < z < 1.56$, limited by systematics
-rather than by precision. A single band deviating from its assigned weight falsifies the pattern.
+rather than by precision; molecular lines bound it more tightly still. The pattern identifies the
+shift rather than sizing it. A single band deviating from its assigned weight falsifies the
+pattern.
 \end{abstract}
 
 \maketitle
@@ -441,6 +443,18 @@ $\mathrm{DM}_{\rm fit}$ while saying nothing about the shift. The row constrains
 in the sense already stated in Sec.~\ref{sec:weights}: against an independent determination of the
 same electron column, whose precision, not the DM precision, sets $\sigma_\varepsilon$.
 
+That route has been taken. Analyses of localised fast radio bursts constrain varying constants by
+comparing the observed dispersion measure against the value predicted from $\Omega_b h^{2}$ and an
+assumed intergalactic baryon fraction, which is exactly the external column referred to above;
+17~bursts with supernovae in a runaway-dilaton parametrization give $\Delta\alpha/\alpha$ at the
+$10^{-2}$ level~\cite{LemosFRB2025}, and 50 bursts over $0.004 < z < 1.02$ tighten this to
+$\Delta\alpha/\alpha \simeq 2 \times 10^{-5}$~\cite{KalitaFRB2024}. The quoted mass constraint in
+the latter, $\Delta\mu/\mu \simeq -1 \times 10^{-5}$, is not independent of the $\alpha$ result: it
+is obtained from it through an assumed relation between mass and coupling variation, so it does not
+constrain $\varepsilon$ at fixed $\alpha$, which is the case considered here. The corresponding
+mass-only analysis has not to our knowledge been performed, and the limiting uncertainty would be
+the baryon fraction rather than the dispersion measures.
+
 What the timing literature does bound is the \emph{variation} of $\varepsilon$. Mis-estimated
 dispersion produces infinite-frequency arrival-time offsets of order $20\,\mu\mathrm{s}$ for
 high-DM pulsars, correlated on month timescales
@@ -453,6 +467,36 @@ The Faraday row is set by rotation-measure catalogue precision. The deepest curr
 median RM uncertainty of $0.06\,\mathrm{rad\,m^{-2}}$ across $2461$ extragalactic sources, with a
 possible residual systematic of up to $0.3\,\mathrm{rad\,m^{-2}}$ after ionospheric correction
 \citep{OSullivanLoTSS2023}.
+
+\subsection{Where the amplitude actually stands}
+
+It should be said plainly that the strongest existing bound on $\varepsilon$ comes from none of
+these rows. Methanol absorption in the $z = 0.88582$ lens toward PKS1830$-$211 gives
+$|\Delta\mu/\mu| \lesssim 4 \times 10^{-7}$ at $2\sigma$ over $0 < z \leq 0.886$
+\citep{KanekarMethanol2015}, and since the methanol transitions carry $\mu$ alone --- no $\alpha$,
+no proton moment --- that is a bound on $\varepsilon$ under weaker assumptions than
+Eq.~\eqref{eq:eps21} requires, and some thirty-five times tighter. An independent analysis of the
+same source at three telescopes, using ten transitions, agrees:
+$\Delta\mu/\mu = (-1.0 \pm 0.8_{\rm stat} \pm 1.0_{\rm sys}) \times 10^{-7}$
+\citep{BagdonaiteMethanol2013}, which is $|\Delta\mu/\mu| < 3.6 \times 10^{-7}$ at $2\sigma$ and is
+likewise dominated by its systematic. The $21\,$cm and Faraday pair
+would need a fractional precision of $\sigma \simeq 1.1 \times 10^{-6}$ per band to match it. The
+two rows that can presently be entered therefore do not improve the limit on the amplitude, and we
+do not claim that they do.
+
+What they supply instead is the quantity a single molecular comparison cannot. The point is a
+counting one. A measurement of $\mu$ in one transition returns a single number, against which
+$\varepsilon$ is a single free amplitude; the fit is exact and nothing is left over, so every
+hypothesis with a free amplitude accommodates the result equally well and the measurement
+discriminates among none of them. Two rows of different weight return two numbers for the same one
+amplitude, leaving one degree of freedom that the hypotheses do not share --- and it is that
+residual, not the amplitude, that Eq.~\eqref{eq:ml} is a sensitivity calculation for. Because the
+count does not involve $\sigma$, a tighter bound on the amplitude does not diminish it. It is
+also worth noting how the methanol result was arrived at, because the same effect governs the
+$21\,$cm row: a tighter statistical limit from one line pair was set aside in favour of the weaker
+figure from three transitions whose profiles agree, on the grounds that only those demonstrably
+sample the same gas. Both of the best available constraints on $\varepsilon$ are limited by
+sightline structure rather than by photon noise.
 
 \section{Falsification}
 
@@ -477,10 +521,14 @@ hydrogen--deuterium hyperfine ratio provides an internal control on universality
 hypotheses pass and a species-dependent variation fails.
 
 Two of the five rows can be entered at present. Read through the weights, the tightest published
-$21\,$cm comparison already bounds the amplitude at $|\varepsilon| < 1.4 \times 10^{-5}$ over
-$1.17 < z < 1.56$, with the systematic five times the statistical error. That ordering is the
-argument for the pattern rather than against it: a ratio taken between bands whose systematics are
-unrelated is limited by neither alone.
+$21\,$cm comparison bounds the amplitude at $|\varepsilon| < 1.4 \times 10^{-5}$ over
+$1.17 < z < 1.56$, with the systematic five times the statistical error --- and methanol absorption
+bounds it some thirty-five times more tightly still. Neither figure is improved here. The case for
+the pattern is not that it measures $\varepsilon$ better, but that a limit on $\mu$ is a single
+number, which cannot say whether the shift lies in the electron mass or in the coupling, nor
+whether every species shares it. Five weights of two signs answer both questions, and the ordering
+of the errors points the same way: a ratio taken between bands whose systematics are unrelated is
+limited by neither alone.
 
 \begin{acknowledgments}
 \end{acknowledgments}
