@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{32}%
+\begin{thebibliography}{31}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -119,14 +119,14 @@
   {volume} {103}},\ \bibinfo {pages} {083507} (\bibinfo {year} {2021})},\
   \Eprint {https://arxiv.org/abs/2007.03381} {arXiv:2007.03381} \BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Kalita}(2024{\natexlab{a}})}]{Kalita2024}%
+\bibitem [{\citenamefont {Kalita}(2024)}]{Kalita2024}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
   {Kalita}},\ }\href {https://doi.org/10.1093/mnrasl/slae062} {\bibfield
   {journal} {\bibinfo  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf
   {\bibinfo {volume} {533}},\ \bibinfo {pages} {L57} (\bibinfo {year}
-  {2024}{\natexlab{a}})},\ \Eprint {https://arxiv.org/abs/2407.01736}
-  {arXiv:2407.01736} \BibitemShut {NoStop}%
+  {2024})},\ \Eprint {https://arxiv.org/abs/2407.01736} {arXiv:2407.01736}
+  \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wang}\ and\ \citenamefont {Xia}(2025)}]{WangXia2025}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.-Y.}\ \bibnamefont
@@ -335,7 +335,7 @@
   \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lemos}\ \emph {et~al.}(2025)\citenamefont {Lemos},
   \citenamefont {Gon{\c c}alves}, \citenamefont {Carvalho},\ and\ \citenamefont
-  {Alcaniz}}]{LemosFRB2025}%
+  {Alcaniz}}]{Lemos2025}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
   {Lemos}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Gon{\c
@@ -346,16 +346,6 @@
   {volume} {01}},\ \bibinfo {pages} {059}},\ \bibinfo {note} {17 localized FRBs
   with Pantheon supernovae, in the runaway-dilaton parametrization.},\ \Eprint
   {https://arxiv.org/abs/2406.11691} {arXiv:2406.11691} \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kalita}(2024{\natexlab{b}})}]{KalitaFRB2024}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Kalita}},\ }\href {https://doi.org/10.1093/mnrasl/slae062} {\bibfield
-  {journal} {\bibinfo  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf
-  {\bibinfo {volume} {533}},\ \bibinfo {pages} {L57} (\bibinfo {year}
-  {2024}{\natexlab{b}})},\ \bibinfo {note} {50 localized FRBs, $0.004 < z <
-  1.02$. The mass constraint is obtained from the $\alpha$ constraint through
-  an assumed unification relation, not independently.},\ \Eprint
-  {https://arxiv.org/abs/2407.01736} {arXiv:2407.01736} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Jones}\ \emph {et~al.}(2017)\citenamefont {Jones},
   \citenamefont {McLaughlin}, \citenamefont {Lam} \emph
   {et~al.}}]{JonesNANOGrav2017}%

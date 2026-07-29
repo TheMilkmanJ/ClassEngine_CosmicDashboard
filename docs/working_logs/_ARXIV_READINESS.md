@@ -786,18 +786,28 @@ profiles agree and hence demonstrably sample the same gas. That is the same syst
 21 cm row. Both of the best constraints on ε are limited by sightline structure, not photon noise —
 and the paper now says so.
 
-### A citation gap in the paper's own band, worse than the SZ one
+### The dispersion-measure row's prior work — and a correction to what follows
 
-The dispersion-measure row had a varying-constants literature cited **nowhere**:
+**Correction, same session:** I first wrote that this literature was "cited nowhere." That was
+wrong. The introduction already cited Kalita 2024 and Wang & Xia 2025 (ApJ **982**, 86) — and I
+briefly created a duplicate `KalitaFRB2024` key on top of the existing `Kalita2024` before catching
+it. What was actually missing is **Lemos et al. 2025**, plus the substantive point below about how
+Kalita's mass number is obtained. This is the second over-stated citation gap today; the first was
+#91's own original wording. The lesson both times: **grep the .bib and the .tex before calling
+anything uncited.**
+
+The relevant analyses:
 
 | | |
 |---|---|
-| Lemos et al. 2025, JCAP **01**, 059 | 17 localised FRBs + Pantheon, runaway dilaton, Δα/α ~ 10⁻² |
-| Kalita 2024, MNRAS Lett. **533**, L57 | 50 localised FRBs, 0.004 < z < 1.02, Δα/α ≃ 2×10⁻⁵ |
+| Lemos et al. 2025, JCAP **01**, 059 | 17 localised FRBs + Pantheon, runaway dilaton, Δα/α ~ 10⁻² | **newly added** |
+| Kalita 2024, MNRAS Lett. **533**, L57 | 50 localised FRBs, 0.004 < z < 1.02, Δα/α ≃ 2×10⁻⁵ | already cited |
+| Wang & Xia 2025, ApJ **982**, 86 | clustering of burst dispersion measures | already cited |
 
-Both compare the observed DM against the value predicted from Ω_b h² and an assumed baryon
+All compare the observed DM against the value predicted from Ω_b h² and an assumed baryon
 fraction — **precisely the external electron column the paper's own demotion argument named**, so
-the literature *confirms* the reasoning rather than contradicting it.
+the literature *confirms* the reasoning rather than contradicting it. That connection was not drawn
+anywhere in the text before; it is now, in the dispersion-measure discussion.
 
 But Kalita's Δμ/μ = −1×10⁻⁵ is **not** an independent mass constraint: it comes from his α result
 through an assumed unification relation (R ≈ 278, S ≈ 742), so it says nothing about ε at fixed α,
