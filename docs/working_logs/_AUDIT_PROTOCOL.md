@@ -18,9 +18,21 @@ The batch passes caught formatting, jargon, and stale numbers. They did not catc
 Every one of those needs the *whole* file in view at once, plus its sources. None of them survive a
 three-file sweep, and all of them are the kind a referee opens with.
 
-## The twenty-nine checks
+## The checks
 
-Run all twenty-nine. Record what was found, even when nothing was.
+**Numbered entries 1–38, plus six lettered sub-entries (2a, 9a, 15a, 27d, 33a, 36a) — 44 in all.**
+Run every one. Record what was found, even when nothing was.
+
+*The count is written this way deliberately. A bare "the forty checks" went stale three times in a
+single day (2026-07-28) as entries were added, which is check 9a's own defect occurring in the file
+that documents it. **Stating the range and the sub-entries separately makes the heading verifiable by
+`grep -cE '^\*\*[0-9]+\.'` rather than by memory** — and a count nobody can check is a count that
+will be wrong.*
+
+*(This line read "run all thirty-three" while the heading above said thirty-seven — the exact
+stale-cardinality defect check 9a describes, sitting in the file that describes it. Caught
+2026-07-28 while adding check 35. The lesson generalises: the count-word most likely to rot is the
+one nearest the list you just extended.)*
 
 *Checks 1–13 came from the 2026-07-19 Fairbank pass and the deep audit. **Checks 14–19 were
 added 2026-07-20**, each from a defect that survived all thirteen — which is the point of
@@ -31,7 +43,16 @@ two sectors whose numbers each passed alone and failed jointly; 23a from an abse
 searched the working tree and not the history; 24 from a posterior interval read at R−1 = 93 and
 used for a year as a measurement; 25 from a capability probe that reported a thread budget
 instead of a core count, which sent a wrong recommendation to the owner; and 26 from a `pkill -f`
-that matched its own shell and took six freshly-launched MPI ranks with it.*
+that matched its own shell and took six freshly-launched MPI ranks with it. **Checks 27–30 were
+added the same day**: 27 and its sub-entries from a ratio matched in the wrong direction and an
+over-correction that withdrew a correct result; 28 from 23 harness checks that could not fail; 29
+from two frames whose disagreement turned out to be a physical delivery law rather than a
+convention; and 30 from a degeneracy that was lifted without fixing the parameter it was lifted
+for. **27c and 31 closed the same day**: 27c from a cumulative acceptance rate misread as a current
+one, which nearly reversed a correct ruling on the production chains; and 31 from seven open items
+worked in one session of which **none was solved** — every one already paid, duplicated, superseded,
+moot or misclassified, which is a fact about how a debt-recording corpus behaves rather than about
+that session.*
 
 **1. Read it whole, line by line.** Not grep. The contradictions live between sections.
 
@@ -414,8 +435,13 @@ class is wider than the instance.
 as delivering "the 2:1 the R_c = M_c condition names". It does not. The condition's own convention
 (T6) is ε_charged = 2·ε_neutral on the **√m fluctuation field** — the *charged* modes twice as
 stiff — while the sweep was in **radial displacements**, where its 2 is the *neutral* mode twice as
-stiff. Same number, other coordinates, opposite direction. Mapping one onto the other gives a = −6b
-against the required a = 3b, with the bond coefficient's sign flipped.
+stiff. Same number, opposite direction.
+
+*The diagnosis in this entry was incomplete, and check 29 carries the correction.* "Other
+coordinates" is not the cause: both frames resolve the same two irreps and both use the same
+canonical amplitudes, so the normalizations cancel from every ratio and cannot flip a direction.
+The flip is physical — the two rooms assume different energy-delivery laws. The rule below is
+still the right first move; it just does not finish the job on its own.
 
 This is check 18's family (*"for any ratio quoted across sectors, confirm the denominator is the
 same object in both"*) extended to the numerator and to the sign. **The check: before matching a
@@ -502,7 +528,282 @@ in disguise, i.e. checking a decimal against its own surd rather than against th
 When the set does close, record that too: closure confirmed is a result, and it is what
 distinguishes this check from fishing.
 
-A file is not closed until checks 12, 13 and 22 pass. Running the regression harness and a stale-pattern sweep
+**28. A CHECK THAT CANNOT FAIL IS NOT A CHECK (2026-07-28).** The regression harness graded every
+booking *relatively*: `ok = booked == 0 or abs(got-booked)/abs(booked) <= tol`. The guard was put
+there to avoid dividing by zero and it did that — by making the check pass unconditionally. **23 of
+the harness's checks were unfalsifiable**, and they were exactly the load-bearing ones: every claim
+of the form "this residual vanishes", "this quantity is exactly zero", "no solution dopes an
+up-type quark". A "must vanish" assertion is precisely the kind that should be graded hardest, and
+it was the kind that could not fail. All 23 turned out to be satisfied when graded absolutely — the
+cost of the defect was zero this time, which is the reason it survived so long.
+
+The same family has a second member: a booking whose expected value and computed value trace back
+to the same literal. One was written this same session — `chk(..., 7/5, (lambda: [t for t in
+[7/5]][0])())` — which tests Python, not physics. It was replaced with a numerical root-solve of
+the curve it was supposed to be checking.
+
+**The check: for every assertion in a harness, ask what recomputed value would make it print FAIL.**
+If no value would, the line is documentation wearing a test's clothes. Grade zero bookings against
+an absolute tolerance; make the expected value and the computed value travel by different routes;
+and be most suspicious of the checks that have never once failed.
+
+**29. A RATIO NEEDS ITS DELIVERY LAW, NOT ONLY ITS FRAME (2026-07-28).** Check 27 says a ratio is
+not a number — name the variables and the direction. That is necessary and it was not sufficient.
+The Koide null is recorded in two places as a stiffness relation: T6's reduction gives
+ε_charged = 2ε_neutral (doublet stiffer), the ring-on-ring entry gives k_S = 2k_D (singlet
+stiffer). Both name their variables. Both state their direction. They are still inverse, and three
+cycles were spent withdrawing and restoring a correct result while trying to decide which
+convention was "the" one.
+
+Neither was. The underlying statement, R_c = M_c, is about **amplitudes**; every stiffness
+statement is that constraint pushed through a rule for how energy sits in the modes, and with the
+singlet at one degree of freedom against the doublet's two, the rules disagree by mode-counting
+factors. The corpus uses four — thermal equipartition, sudden quench, equal sector delivery,
+doublet-gets-half — which convert one null into ε_D/ε_S ∈ {2, √2, 1, ½}. A factor 4, spanned by
+physics, not by bookkeeping. And the reconciliation that had been *assumed* (canonical
+normalizations) provably cannot do the job: both frames grade the same two irreps, so the
+normalizations enter every ratio as a fixed factor and cancel out of the comparison.
+
+**The check: before comparing two stiffnesses, two powers, or two amplitudes across sections, name
+the law that converted the underlying constraint into that quantity — and check the degree-of-
+freedom count each side assumed.** A normalization difference rescales both sides and cannot flip a
+direction; if the direction flips, the disagreement is physical and the two results are answers to
+different questions. Neither may be withdrawn in favour of the other until the law is fixed.
+
+**30. LIFTING A DEGENERACY IS NOT THE SAME AS FIXING A PARAMETER (2026-07-28).** The Koide phase φ
+was shown to be an exactly flat direction of the democratic graph, because the two charged modes are
+degenerate and rotations in their plane are a symmetry. The obvious repair — make the
+inter-generation coupling complex, which demonstrably splits ε₁ from ε₂ — was written up as the
+answer. It is not. The ring field is **real**, so f₂ = f₁\* and the two modes are not independent:
+|f₁| = |f₂| always, and only the *sum* ε₁ + ε₂ = 2a − 2·Re b enters the energy, which carries no φ.
+The splitting is real and does no work. Caught by checking the energy at three φ values instead of
+reasoning from the spectrum: constant to 9×10⁻¹⁵ at every arg b.
+
+The error is seductive because both halves are true — the degeneracy *is* what makes φ flat, and a
+complex bond *does* lift it. What fails is the inference between them, and it fails on a constraint
+that lives in the field's reality condition rather than in the Hamiltonian at all.
+
+**The check: before concluding that lifting a degeneracy fixes a parameter, count the physical
+configuration space, not the mode space.** Write the general real configuration explicitly (here:
+three real f_k ↔ M, R, φ), and confirm the parameter in question survives as an independent
+coordinate that the perturbation actually distinguishes. A reality condition, a gauge condition or a
+constraint can tie modes the spectrum treats as separate — and then a term that splits the spectrum
+still cannot see the parameter. The corrected result was stronger than the wrong one: *no* term at
+*any* order in the ring's own real potential can reach φ, since Z₃ plus evenness forces V = F(cos 3φ).
+
+**27c. A CUMULATIVE AVERAGE IS NOT THE CURRENT RATE (2026-07-28).** The two production chains were
+relaunched under MPI, and their logs reported acceptance of 0.207% against 5.434% before the
+relaunch — a 26× collapse, which would have inverted the recommendation that put them on three ranks
+and argued for reverting. It was about to be reported as a finding.
+
+The number is real and the reading was wrong. Cobaya's "N steps taken, and M accepted" is
+**cumulative since the run started**, and the run had just spent its first ~1100 steps climbing to
+the posterior peak from a fresh start — the burn-in transient sits in the denominator forever.
+Differencing consecutive rows per rank instead gives the *current* rate: **6–11%**, at or above the
+5.4% the serial runs had, with the covmat confirmed loaded. The chains were healthy the whole time.
+
+The general form is worth having, because this corpus has already met it in physics: **a ratio
+accumulated over a history is not the ratio holding now, and the two differ by exactly whatever
+transient the history contains.** The f̄ window question is the same distinction — an average over the
+winding versus the value at the epoch ε acts — and it was open for months there. **The check: before
+quoting any rate, ask over what window it was accumulated, and if the window includes a transient
+(burn-in, spin-up, a quench), difference the series instead.** A rate that has been averaged since
+t = 0 answers a question nobody asked.
+
+**31. AN OPEN-ITEM COUNT OVERSTATES THE DEBT, AND THE DOMINANT CLOSURE MODE IS "ALREADY PAID"
+(2026-07-28).** A marker sweep found 246 open-debt markers across 72 live files, 70 of them
+"owed"-class after excluding archive and ledger material. Triaged, 57 looked desk-doable. Seven were
+then worked in one session. **None was solved.** Every one closed some other way:
+
+| item | how it closed |
+|---|---|
+| the area law's field content | **already paid** by a prior task, unpropagated across seven files |
+| light's 56% unsupplied share | **not independent** — the same debt as the basement's, read in a second channel |
+| the pair-harmonic kernel question | **superseded** — its premise was removed by a later result |
+| the seat sector's owed number | **duplicate** of an existing board item |
+| the §2 wall "owed twice" | **halved** — the second amendment died on loop order |
+| κ_v's value | **moot** — the mechanism it normalises is dead three times over |
+| T14's conversion law | **reclassified** — a run, not a derivation, and blocked on one already executing |
+
+The pattern is not luck. A corpus that records debts faithfully and closes them in the file that
+owns them will accumulate markers faster than it retires them, because retirement requires editing
+*every* file that ever cited the debt, and nobody does that. The count therefore measures
+**bookkeeping lag**, not remaining physics.
+
+**The check: before working any open item, spend five minutes trying to close it without doing the
+work.** Grep the debt's own object across the tree; check whether a later dated section in the same
+file already pays it; check the board for a duplicate; check whether its premise survived. Expect
+this to succeed more often than not. **A session that closes seven items by finding six of them
+already dead is not a session that avoided the work — it is one that avoided doing the work twice.**
+
+The corollary matters for planning. Do not estimate remaining effort from the marker count, and do
+not report it to an owner as a workload. Report it as an upper bound with the triage rate attached.
+
+**A refinement, from getting the triage itself wrong the same day.** The first sweep sorted markers
+into two bins — desk-doable, or needs a run — by testing for run-words (chain, MCMC, lattice,
+telescope, integrator). That is the wrong partition, and it inflated the desk column. **There is a
+third class: model-building**, which is neither a desk computation nor a run, and which the corpus
+grades explicitly where it occurs ("this is where the model-building lives"; "model-building, not a
+desk computation"). Two items sorted as desk-doable were sitting under exactly that heading, and a
+desk session cannot move either. **Test for all three bins, and take the corpus's own grading of an
+item over your inference from its wording** — a file that says what class its own debt belongs to is
+better evidence than a keyword search over the sentence that states it.
+
+**32. NAME THE SECTOR BEFORE QUOTING A MEDIUM PROPERTY (2026-07-28).** The program carries more than
+one condensate, and they have different sound speeds, different critical velocities, and different
+coherence lengths. The vacuum's excitations ride the light cone, so its Landau velocity is c. The
+ultralight dark condensate has c_s = √α_c = 0.148 c and ξ = 402 AU. Both are correctly called "the
+medium" in their own files.
+
+The failure this produces is not an arithmetic error — it is a result that is right about one sector
+and gets written up as though it were about the other. A decoherence null derived from the dark
+condensate's parameters was drafted as "the medium cannot decohere a superposition," which reads as a
+claim about the vacuum, and would then appear to contradict the vacuum's own zero-drag certificate.
+Both statements were true; the write-up merged two sectors that the physics keeps apart.
+
+**The check: whenever a derivation consumes c_s, ξ, v_c, m, or a density, name which condensate
+supplied it, in the result's own title, before the result leaves the desk.** The tell that you have
+skipped this is a sentence containing "the medium" with no qualifier. And when a new result appears
+to contradict an existing certificate, suspect a sector mismatch before suspecting either result —
+that is the cheaper diagnosis and, here, the correct one.
+
+**REFINEMENT, same day, after failing this check a second time.** The rule above catches the error at
+write-up. That is too late, and the second failure proves it: a turnaround time was lifted from
+`PRTOE_coincidence_problem.md` and attached to the w = −1 row as a correction, when the file's own
+opening line — "the floor is *not* a constant" — marks it as belonging to the **Route-D** branch,
+whose competitor P-2026-018 has no turnaround at all. The published "correction" was wrong, and it
+contradicted a claim that had been right.
+
+**Ask the question at PICKUP, not at write-up.** The moment a number is lifted out of a file, before
+any use is made of it, ask: *which sector, branch, epoch, or convention does this number belong to?*
+The cost is one line. The cost of asking later is a correction that has to be corrected.
+
+This generalises past condensates. The same failure mode covers **branches of a registered fork**
+(P-2026-018 vs Route-D), **conventions** (§6d's factor two), **epochs** (Ψ₀ at onset vs today), and
+**sectors** (vacuum vs dark condensate). In every case the number is correct and the *scope* is
+what travels wrong — which is why no numerical check can catch it and why the harness stayed green
+through all four.
+
+**33. STATE THE GRADE BEFORE COMPUTING, AND SAY WHICH INPUTS ARE FITTED (2026-07-28).** An external
+reviewer named the program's characteristic failure precisely: landing on an observed number after a
+long chain, then demoting the claim to "existence, not precision." The demotion is correct
+epistemics. Doing it *after* seeing the landing is not, because the grade then depends on how close
+the number came, which is the one thing the grade is supposed to be independent of.
+
+The same day, this failed in the sharpest possible way. Ψ₀ was diluted from onset to the present and
+found to reproduce Ω_DM to 0.09%, and that was written up as the model landing on the measured dark
+matter density. But Ψ₀ *is fixed by demanding today's abundance* — `PRTOE_PHYSICS_DOMAINS.md` row 70
+says so outright. The computation inverted its own defining relation and recovered its input. Four
+correct digits, harness checks passing, and no content whatever.
+
+**The check, in two parts, both before the first number is produced:**
+
+1. **Write the grade down first.** State what result would count as confirmation, what would count as
+   a null, and what the claim's evidence class will be *whatever* comes out. If that cannot be
+   written before the computation, the computation is not yet a test of anything.
+2. **List every input and mark each as measured, derived, or fitted-to-the-target.** If any input was
+   fixed by demanding the very quantity being recovered, the result is circular and must be labelled
+   so in the script, in the harness row, and in any prose that quotes it. Circular checks are still
+   worth running as arithmetic tripwires — they catch slipped exponents and wrong dilution laws — but
+   they are never evidence, and a harness row that does not say so will be misread later, including
+   by the person who wrote it.
+
+The tell is a result that agrees far better than the messiness of the derivation should allow. Four
+digits out of a chain with three modelling choices in it is not a triumph; it is a signal that the
+answer was in the inputs.
+
+**34. ASK "WHAT FIXED THIS?" OF EVERY INPUT, BEFORE THE LANDING IS WRITTEN UP (2026-07-28).** Two
+headline claims died the same day by one mechanism: a quantity fixed by demanding X, then reported as
+landing on X. Ψ₀ was fixed by demanding today's dark matter abundance and then found to redshift onto
+it. The scale ladder defined α_eff ≡ v/c and then found ½α_eff² at every rung, which is the virial
+theorem. **Both were caught by accident, while doing something else.** That is not a method.
+
+The test is one line per input — *what fixed this?* — and the answers sort into three bins: measured
+externally, derived from something independent, or **fixed by demanding the very quantity now being
+recovered**. Any input in the third bin makes the landing empty, however many digits agree.
+
+**Run it on every landing before writing the landing up, not after.** Applied deliberately across
+five headline claims (`scripts/circularity_sweep.py`), it returned:
+
+| claim | verdict |
+|---|---|
+| Ψ₀ → Ω_DM | **circular** — relabelled |
+| the scale ladder | **definitional** — retired |
+| ρ_Λ¼ = (9/2)α⁴T_c | clean, but a ~1.8σ *offset* rather than an agreement |
+| A_s = (α_c/4πk)³ | clean, with a standing fence that must not be removed |
+| ε = c·f̄·α_c | clean, but inherits c = 9/10's status as a counting choice |
+
+Two of five were empty. Two of the three survivors needed weaker wording. **A sweep that finds
+nothing is cheap; a sweep never run is how two dead claims stood for months.**
+
+The corollary is about fences. Where an input has two provenances — A_s's k has a closed-form value
+*and* an A_s-measured one — the fence separating them is load-bearing. Quoting k as A_s-derived while
+also quoting A_s as a k-prediction closes the loop, and the fence is the only thing preventing it.
+Fences of this kind should be annotated with what they prevent, so a later editor does not remove one
+as redundant.
+
+**35. A MARKER SWEEP NEEDS THREE FILTERS BEFORE ITS COUNT MEANS ANYTHING (2026-07-28).** Check 31
+says an open-item count overstates the debt. Measuring it properly showed *how*, and the correction
+is mechanical.
+
+A raw grep for owed-work markers (`is owed`, `still owed`, `remains open`, `not yet derived`,
+`un-derived`) returned **83** hits across 35 forward-facing files. Three filters cut it:
+
+| filter | removes | why |
+|---|---|---|
+| **negations** | 5 | `"**no** separate cancellation coefficient is owed"` matches an `is owed` grep and means the opposite |
+| **the failures ledger** | 11 | recorded deaths, not live debts — the file exists to hold them |
+| **archive and dated logs** | 8 | state-as-of-their-date by convention; not current work |
+| **every other historical directory** | — | see below; this is the one that is easy to miss |
+
+Leaving **67** corpus-wide, of which **16 more** are open *predictions awaiting referees* rather than
+desk items. Restricted to the live forward-facing files, the count is **19**.
+
+**The fourth filter deserves its own warning: "archive" is not the only name history hides under.**
+The first pass here excluded `archive/`, `working_logs/` and `exploratory/` and still returned two
+markers from `PRTOE_Working_Formulation.md` — which sits in **`historical_v1-v3_scalar_tensor/`**, the
+retired scalar-tensor formulation. They read exactly like live debts. **Enumerate the directories
+first (`find . -maxdepth 1 -type d`) and decide each one's status explicitly**, rather than excluding
+the names you happen to remember. This corpus has seven such directories and three of them are
+historical under three different naming conventions.
+
+**A second false-positive class, found the same way:** a file's own *meta-statements* match the
+pattern — "this document tracks the numbers the model has **not yet derived**", "what **remains
+open** is labeled open" — as does any correction text that quotes the wording it is retiring. Those
+are not debts either, and no regex distinguishes them. The count is a starting point for reading,
+never a workload.
+
+**The negation filter is the one that bites**, because it inverts meaning rather than merely
+inflating the count — a sweep that reports "no X is owed" as an open debt will send someone to
+re-derive a thing already settled. Grep for the marker, then read the forty characters before it.
+
+**And the reason this check exists at all:** on the day it was written, four consecutive dockets
+turned out to be model-building, run-gated, or data-gated, which made "the desk is empty" feel
+established. It was not — the sweep found roughly forty live items. **A run of non-desk tasks is
+evidence about the last four items, not about the remainder.**
+
+**36. FINDINGS TRAVEL INWARD BY DEFAULT; SOMEONE HAS TO CARRY THEM OUT (2026-07-28).** Three defects
+found in one day had the same shape, and it is not concealment — it is drift with a direction.
+
+| the honest number | where it was written | where it was missing |
+|---|---|---|
+| the anchor's factor-11 band (§6d's convention ×2, §6f's residual ×5.6) | hierarchy §6d/§6f | the risk page, which had **no mention of the hierarchy chain at all** |
+| every chain unconverged, best 265× over target | each chain's own `.progress` | the parameter tables presenting them, and the evidence section |
+| the τ collision — the dof-family band putting ρ_Λ¼ at +4.3%, not +0.44% | `PRTOE_DERIVATION_HUNT.md` | the dark-energy file **and** the risk page |
+
+In every case the person who found it wrote it down accurately, in the file they were working in.
+Working files are where investigation happens, so that is where findings land. **Nothing in the
+process pushes them the other way**, and a headline is edited least often precisely because it is
+settled — so the caveat accumulates inward while the claim stays put.
+
+**The check: when a result changes what a headline should say, edit the headline in the same
+session, not the working file alone.** And the reverse direction, which is cheaper and catches the
+backlog: **when auditing a forward-facing file, grep the working logs for its own key quantity** —
+τ, the anchor, the chain name — and ask whether anything found there has failed to arrive.
+
+The tell is a working file containing a qualification *more specific* than the headline it belongs
+to. A headline reading "+0.44%" over a working log reading "a few percent above the observation" is
+not two views of one result; it is one result and one stale advertisement.
 is necessary and is not sufficient: both test what you thought to test.
 
 ## Recording
@@ -548,3 +849,548 @@ and check whether any file states it as established rather than as owed. Applied
 the flagships use Q = 2/3 as *measured input* and derive the kernel modulus from it, and the
 dependency tree grades the chain candidate. A clean result is worth recording too: it says the
 sector's documentation held under a targeted attack on its most-attacked object.
+
+**37. A LIVE NUMBER BELONGS IN THE RUN LOG UNTIL IT STOPS MOVING (2026-07-28).** Check 36 says carry
+findings outward to the headline. This is its boundary condition, and it was learned by getting it
+wrong the same afternoon.
+
+A running-chain reading put the model 41 log-units behind ΛCDM+mν. It was hedged correctly —
+labelled a burn-in snapshot, with the descent explicitly "not established as having stopped" — and
+then written onto the **risk page**, on the reasoning that a reader asking about current evidence
+deserves to know the number in progress is adverse. Four hours later the same chain's leading rank
+had descended 42 units and stood 0.6 log-units *ahead*. The risk page had been asserting something
+false for four hours, correctly hedged and still wrong.
+
+**The distinction check 36 does not make, and needs:**
+
+| kind of finding | where it goes |
+|---|---|
+| a **settled** result that changes what a headline should say | the headline, same session |
+| a **live** number from a process still running | the run log only, however well hedged |
+
+A hedge does not fix placement. "This is a burn-in snapshot" sitting under a risk-page heading still
+reads, to anyone skimming, as *the current state of the evidence* — and skimming is what that page
+is for.
+
+**The test before writing a number outward: could this move by more than the margin I am quoting,
+without anything being wrong?** If yes it is not a finding yet, it is a reading. The chain pair
+demonstrated the point at zero cost by producing a strongly adverse and a mildly favourable reading
+six hours apart, from the same data, with no error in either.
+
+**And the asymmetry to watch in oneself:** the temptation is to report a favourable reversal with
+more energy than the adverse original, or to quietly drop the original. Record both, side by side,
+in the order they occurred.
+
+**38. A DOCKET WRITTEN AT THE MOMENT OF CONFUSION RECORDS THE CONFUSION, NOT THE DEBT (2026-07-28).**
+Three dockets worked in one session turned out to be misnamed, and in each case the misnaming was
+the reason the item looked hard:
+
+| docket, as written | what it actually was |
+|---|---|
+| #58 "supply the density of states and k_F" | the DOS was already supplied and **k_F does not exist in the construction** — it cancels twice |
+| #72 "supply the seeding step's conversion law" | the law was already supplied and convention-free; the missing thing was one **input sign**, gated on a running experiment |
+| #67 "derive Ψ₀'s profile through z_x" | the fraction was already supplied; the missing thing was a **modelling ruling**, and under two of three readings the profile is one line |
+
+None was a physics gap. Each was written when the author could see that *something* was owed but not
+yet what, and the wording froze that uncertainty into a task title — which then survived unchallenged
+because titles are what get scanned and bodies are what get read.
+
+**The check, when opening any docket: before working it, restate what is owed in one sentence using
+the corpus's current vocabulary, and compare that against the docket's own title.** Where they
+differ, the title is usually the stale one, and the difference is usually the whole job. Retitle
+first; the work often shrinks or dissolves.
+
+**The tell** is a docket asking for an *object* ("supply X", "derive the shape of Y") when the file
+it refers to already contains that object under a different name, or contains everything except a
+one-line ruling. Objects are what a confused author asks for; rulings and inputs are what is
+generally missing.
+
+This compounds with check 31 — the dominant closure mode is "already paid" — and explains part of
+it. An item can be paid and still look open because the docket is asking for the wrong thing.
+
+> **27d. SAMPLE COUNT IS NOT PROGRESS, AND ON A HETEROGENEOUS POSTERIOR IT CAN RUN BACKWARDS
+> (2026-07-28).** Sibling of 27c, which caught a cumulative acceptance rate misread as a current one.
+> This is the same disease in a different instrument.
+>
+> On the running dyad pair, the three MPI ranks stood at 325 / 1173 / 498 samples. The rank with
+> **3.6× the samples had made a fifth of the progress** — 24.8 log-units of descent against rank 1's
+> 114.1, and sitting 234 log-units from the basin rank 1 had already reached. The cause is mundane:
+> rank 2 was at H₀ = 64, away from the model's region, where CLASS evaluates faster. It accumulated
+> samples quickly while going nowhere.
+>
+> **So on any posterior where likelihood cost varies across parameter space — which is every
+> cosmology chain — sample count measures how cheap a region is, not how converged a rank is.** The
+> fastest-accumulating rank is often the one furthest from the answer, because being wrong is cheap.
+>
+> This was nearly quoted the wrong way the same day: "992 and 1759 samples" was reported for the two
+> runs with the larger number attached to the model, which reads as the model chain being further
+> along. It was the opposite.
+>
+> **Report per-rank −logpost and its trend, never the pooled sample count.** If a single number is
+> wanted, use the worst rank's distance from the best rank's basin — that is what convergence
+> actually waits on.
+
+> **36a. A CORRECTION FIXES ONE INSTANCE; THE CLAIM HAS SEVERAL (2026-07-28, same day as 36).**
+> Check 36 is about findings failing to travel from working files to headlines. This is its twin:
+> **corrections failing to travel from the place you noticed the error to the other places the error
+> lives.** Both were demonstrated the same afternoon, by the person who had just written 36.
+>
+> A cross-reference to "hierarchy §2b" was corrected in the failures ledger at midday. The section
+> does not exist — it is §2 part (b). By evening the same phantom was found in **four more files**:
+> the dependency tree, the derivation hunt, the audit ledger and T6's working log. Separately, the
+> anchor's honest band was written into the hierarchy header in the afternoon, and §6 was still
+> quoting "+0.14%" as a settled figure at the end of the day, because the header's qualification
+> says "every anchor number quoted in **§2** below" and §6 is not §2.
+>
+> **The check: after correcting a claim, grep the corpus for the claim's own distinctive string —
+> not for the docket number, which never appears in prose.** One command, and it is the difference
+> between a correction and a correction that took.
+>
+> **And the trap that makes a blind replace worse than nothing:** `PRTOE_deuterium_row.md` genuinely
+> *has* a §2b, "The nuclear-data systematic, measured inside the pipeline". A search-and-replace on
+> `§2b` would have corrupted three correct references while fixing five wrong ones. **Grep for the
+> qualified string — "hierarchy §2b" — never the bare token.** The same applies to any symbol or
+> section number that more than one file uses legitimately, which in this corpus is most of them.
+
+> **33a. AN HONEST LABEL IS NOT A GUARD (2026-07-28).** Check 33 requires every input to be marked
+> measured, derived, or fitted. That is necessary and it is not sufficient, because **a label
+> travels with a number without stopping it.**
+>
+> The radio-lattice paper's RRL precision was written into the source as "~7e-6, inferred from
+> fitted-velocity uncertainties, **NOT sourced**". The labelling was exactly right. The number was
+> still wrong by one to two orders — the row is limited by bulk gas motion at 6.7e-5 to 2.7e-4, not
+> by a velocity fit — and it sat in the working number for the sensitivity budget for hours,
+> correctly labelled the whole time. Had the paper been assembled from that block, the label would
+> have travelled into a footnote and the wrong figure into the arithmetic.
+>
+> **The rule: a number marked "inferred" is not permitted to be the working value.** Either it gets
+> sourced, or the slot stays empty and the downstream calculation is not attempted. An empty slot
+> stops work; a labelled slot does not, which is precisely why the labelled one is more dangerous.
+>
+> The same applies to "provisional", "estimate", "order of magnitude" and "pending verification".
+> Each reads as a caveat and functions as permission.
+
+---
+
+**39. "Waiting on an external referee" is a claim about the adjudicator, not a licence to stop
+work — and it hides desk debt better than any other label on the board.**
+
+Three of the five items opened on 2026-07-28 carried referee-style tags. All three tags were about
+*who decides*, and none of them was true about *whether anything remained to do first*:
+
+- **#33** was tagged "MCMC-queued behind capacity." It needed no chain at all — the item asked for a
+  literature refresh of a comparison table. The work was already done in the file, and what actually
+  remained was verifying the one citation the corpus had booked as a bare arXiv identifier with no
+  author, title, or year. Verifying it **moved the number against this model**, which is the direction
+  a fairness pass exists to find.
+- **#29** was tagged "21-cm referee." The fork it was waiting on had been **collapsed twelve days
+  earlier** — one reading retired as an illegal step — and the registry already said so. Two
+  forward-facing files were still presenting the dead fork as live.
+- **#28** was tagged "external referees." True, and irrelevant: the fence the referee's answer would
+  be graded against **has no number in the corpus**. A detection and a null would both be arguable.
+
+**The rule: before parking an item on an external referee, state the grading rule and check that
+every number in it exists.** A pre-registered fork whose fence is qualitative is not pre-registered
+— it is a place to have an argument later. Ask three questions and answer them in writing:
+(i) *has the referee already reported, or has the fork already collapsed for internal reasons?*
+(ii) *is the discriminator stated as a number on both sides?* (iii) *if the answer arrived tomorrow,
+could it be graded without a judgement call?* Any "no" is desk work, and it is desk work **now**,
+because it is exactly the work that cannot be done honestly once the data are in hand.
+
+The failure this prevents is not laziness — it is the far more comfortable error of believing the
+board is blocked when it is merely unexamined. Related: **38** (misnamed dockets are not hard ones)
+and **36a** (a closure that leaves its own markers stale).
+
+---
+
+**40. A number reconstructed from a rounded intermediate is not a second opinion — it is the first
+number with error added, and it will be mistaken for a disagreement.**
+
+θ̇ was carried at 59.7 eV (derived: θ̇ = m·(T_sph/T_on)³, every input sourced) and at 58.5 eV
+(reconstructed by back-multiplying θ̇/H, a ratio recorded to two significant figures). The 2.05% gap
+between them is *entirely* the truncation of 2.450×10⁶ to 2.4×10⁶. Three files recorded this as a
+"two-percent internal disagreement worth naming rather than averaging", and the adjudication came
+down **for the artifact and against the derivation** — praising the reconstruction for having "each
+of its inputs sourced", which was the exact virtue of the number it demoted.
+
+The failure has a signature worth memorising: **the discrepancy got attributed to a physical
+parameter.** The ledger concluded "the gap is a g\* choice: 59.7 eV would require g\* = 111.1." That
+arithmetic is right and the inference is empty — it holds a two-figure quantity fixed and pushes a
+2% residual into whichever parameter is nearest. A quantity known to two figures **cannot support a
+2% inference about anything**, and a discrepancy at the size of the rounding is the rounding until
+proven otherwise.
+
+**The rule: before adjudicating a small numerical conflict, check the significant figures of every
+intermediate on both paths.** If either path passes through a rounded quantity, the conflict's size
+must exceed that rounding before it is a conflict at all. And when two routes to one number
+disagree, ask which is *primary* — the one computed from inputs, or the one reconstructed from a
+recorded output. The reconstruction never wins on provenance; it inherits the primary's provenance
+plus its own truncation.
+
+The other half of this entry: **the argued-about gap is often not the largest one.** Here the onset
+temperature is carried at 9.41, 9.46 and 9.5 keV across the corpus — 1.0%, cubed into **2.9%** on
+θ̇ — while three files adjudicated a 2% artifact. Look for the unargued spread before spending a
+paragraph on the argued one. Related: **9a** (labelled slots read as caveats and function as
+permission) and **36a** (stale markers left by one's own closure).
+
+---
+
+**41. "The chain is running" is a claim about the box, and it decays silently. Verify it against
+`ps`, not against the sentence that asserted it last week.**
+
+Six separate places in the corpus asserted that a computation was live when it was not — found on
+2026-07-28 by sweeping for run-status language and checking each against the process list:
+
+| file | claimed | actual |
+|---|---|---|
+| `PRTOE_MATH_SPINE.md` §7 | "the running Route-D chain is the single decider" | one chain file, dead since 07-20 |
+| `PRTOE_MATH_SPINE.md` (second site) | "its adjudicating chain is running" | same chain — **missed on the first fix that same day** |
+| `PRTOE_s8_tension.md` | "The conv_desi chain (running)" | dead since 07-22, R−1 = 13.25 |
+| `PRTOE_s8_growth.md` | "converged posteriors (running)" | same chain |
+| `PRTOE_PREREGISTERED_PREDICTIONS.md` | "the adjudicator is still running" | same chain |
+| `T4_s8_growth_owed.md` (earlier find) | "the chain is running again" | died a second time |
+
+**Two failure modes, and the second is worse.** The first is ordinary decay: a run ends, and the
+prose that described it does not. The second is that **a dead chain reads exactly like a scheduled
+one** — "waiting on the chain" is indistinguishable from "waiting on nothing" from inside the
+document, so the debt looks handled and nobody looks for another route. The Route-D case is the
+sharpest: the chain was not merely dead but **single-chain**, so the statistic it could produce was
+blind to the failure mode the gate cared about, however long it ran. That is
+unfalsifiable-by-construction waiting.
+
+> *Corrected 2026-07-29.* This paragraph first said a single chain "could never have produced the
+> Gelman–Rubin statistic". **It can** — with one process the sampler splits the chain into
+> `Rminus1_single_split` segments (default 4) and computes a within-chain split-R̂; two other
+> single-chain runs here recorded R−1 = 13.25 and R−1 = 40.36. What a split-R̂ **cannot** do is
+> detect confinement to a single basin, since every segment shares it. The conclusion is unchanged
+> and the phrase is now accurate: the gate was waiting on a number that could not fail in the
+> relevant way. Ironically this is protocol **46**'s pattern — a check incapable of detecting the
+> thing it was there to detect — appearing in the diagnosis rather than in the audit.
+
+**The rule: any sentence claiming a computation is running, pending, or in flight must be checked
+against `ps` and the file's own mtime before it is relied on, and re-checked whenever the claim is
+quoted.** Two commands. Also check *multiplicity*: a convergence gate needs ≥2 chains, so a
+one-chain run cannot satisfy it and the gate is mis-specified rather than slow.
+
+**And fix every site at once.** The math spine carried the same false claim twice; one was corrected
+in the morning and the other survived until an explicit sweep that afternoon. Related: **36a** (a
+closure that leaves its own markers stale) — which this is an instance of, committed *while writing
+the correction for the other instance*.
+
+---
+
+**42. A proxy is not the quantity. Before trusting a number you derived, check that what you computed
+is what its name claims — the reported value is usually one directory away.**
+
+Protocol 40 covers a factor read off a *rounded* input. This is its sibling and it bit three times in
+one session, each time on a quantity that had an authoritative version available:
+
+| what was computed | what it actually measured | where the real value was |
+|---|---|---|
+| "acceptance = 97–99.8%", from accepted-rows ÷ total-weight in the **chain file** | nothing — chain files store only *accepted* points, so that ratio is ~1 by construction | the launchlog, in the sampler's own words: **5.3–6.2%**, the *opposite* diagnosis |
+| "8 script citations are missing", from `grep -rh … \| grep -v /archive/` | everything, unfiltered — **`-h` strips filenames, so the archive filter had nothing to match** | the same grep without `-h`: **6**, one of which had no live citation at all |
+| "`burn_in: 40 → 300` will help the ranks escape a trap" | a *discard length*, which has no effect on escaping anything | the sampler printed its own resolved target: **5400 accepted steps**, ≈20 h of silence |
+
+**The shape:** in each case a derived quantity was preferred to a reported one, and the derivation
+was never checked against what the name promised. Two of the three pointed the *wrong way* — the
+acceptance error inverted the diagnosis (too-small steps vs too-large), and the grep error
+manufactured work that did not exist.
+
+**The rule, in order:**
+1. **Prefer the reported number.** Samplers, compilers and libraries state their own diagnostics.
+   If you are deriving one they already publish, you are choosing the worse source.
+2. **Sanity-check the magnitude before acting.** 99% acceptance and 5% acceptance imply opposite
+   fixes; either would have been caught by asking "is this plausible for a tuned MCMC?"
+3. **Verify the filter filters.** A pipeline stage that silently passes everything looks identical to
+   one that finds nothing to remove. Test it on a case you know should be excluded.
+4. **Change parameters by mechanism, not by name.** Ask what the knob *does*, not what it is called.
+
+**And say so when it reaches something outward-facing.** The acceptance error had been written into
+`PRTOE_fairbank_note_draft.md`, a letter to a named person, before it was caught. It was corrected
+within the same session rather than at the end — the cost of a correction rises steeply once someone
+has read it. Related: **40** (rounded intermediates), **41** (status claims that decay).
+
+---
+
+**43. `pgrep -f X` matches the shell that is running it, if X appears in that shell's own command
+line. This bug produced two unrelated failures in one day.**
+
+**Failure one — it killed the wrong thing.** Stopping the model chain with
+`PIDS=$(pgrep -f "cobaya.run.*dyad_mnu_bbnfix"); kill $PIDS` also matched the *bash process issuing
+the command*, because that process's command line contained the pattern. The shell killed itself
+mid-script. Harmless here, but the same construction aimed at anything important is a self-inflicted
+outage, and it is invisible in review because the pattern looks correct.
+
+**Failure two — it created immortal watchers.** Eight background shells of the form
+
+    while pgrep -f granule_selfgravity >/dev/null; do sleep 30; done; echo DONE; cat …
+
+**can never exit.** The `pgrep` matches the `while` loop's own shell forever, so the watcher outlives
+its target indefinitely — the oldest found had been polling for **two days** for a process that
+finished in minutes. They cost almost nothing in CPU, which is exactly why they accumulate: the
+symptom is a cluttered background list, not a slow machine, and nobody investigates clutter.
+
+**The fixes, in preference order:**
+1. **Kill by explicit PID.** Capture the PID at launch (`$!`) or read it once, then `kill 12345`.
+2. **Bracket the first character** so the pattern cannot match itself: `pgrep -f "[g]ranule_selfgravity"`.
+3. **Wait properly** — `wait $PID` for a child, or watch the artefact (`while [ ! -f done.flag ]`)
+   rather than the process table.
+4. **Never poll for a name you also typed in the polling command.**
+
+**And the corollary that costs the most: verify what you did NOT intend to stop is still alive.**
+That is check **26**, and it is why the chain kill was recoverable — the reference chain was
+confirmed running within seconds. Related: **42** (a proxy measuring something other than its name),
+of which this is the process-table instance.
+
+---
+
+**44. Never append to a file a running process holds open. Your text will be overwritten and you
+will not be told.**
+
+The 3D toroidal run wrote its log through a `>` redirection, so the process carried its own file
+offset. A `>>` append lands at end-of-file; the process then continues writing **at its own,
+earlier offset** and overwrites whatever was appended. There is no error, no warning, and the file
+looks fine — the loss is only visible if you go looking for the specific text.
+
+**What it cost here:** the *pre-registered acceptance criterion* for that run, appended at t = 6.25/8
+and gone by completion. That note's entire value was fixing the verdict's conditions before the
+answer was visible; losing it damaged precisely the discipline it existed to serve. The run log was
+untracked in git, so there was no recovery.
+
+**The rule: write notes to a separate file — `<run>.notes.md` — and reconcile after the process
+exits.** If a note must live in the log, append it only once the writer has exited (`kill -0 $PID`
+to confirm). And **put anything that functions as a pre-registration under version control the
+moment it is written**, so its timestamp is attested by something other than a mutable file.
+
+**Recovery discipline, if it happens anyway:** find a secondary artifact that carries the same
+content with an earlier, independent timestamp (here, a script whose docstring held the criterion,
+written 27 minutes before the result). Restore the text **labelled as restored**, state what the
+attestation now rests on, and say plainly that it is weaker than an untouched original. A restored
+pre-registration presented as if it were the original is a provenance claim you can no longer back.
+
+Related: **41** (status claims that decay), **43** (`pgrep -f` matching its own shell) — all three are
+the same failure of treating a name as the thing.
+
+---
+
+**45. A field's NAME is not its DEFINITION. When a number will drive a diagnosis, read the code that
+computes it — especially when a second number with the same name disagrees.** (2026-07-29)
+
+The model chain's `.progress` file has a column named `acceptance_rate` reporting **0.9736**. The
+launchlog reports **745 accepted / 8018 steps = 9.3 %**. Both are "the acceptance rate" by name;
+they differ by a factor of ten, and they license opposite diagnoses — *proposal far too narrow*
+versus *proposal poorly matched and exploring slowly*. The second is the one that drove a re-tune
+and a paragraph in an outward-facing letter.
+
+Reading `cobaya/samplers/mcmc/mcmc.py` settled it in one function:
+
+```python
+def get_acceptance_rate(self, first=0, last=None):
+    return ((last or self.n()) - (first or 0)) / self.collection[OutPar.weight][first:last].sum()
+```
+
+Stored rows ÷ Σ weights. Under fast-parameter oversampling each accepted sub-step is written as its
+own row, so the weights sit near 1 and this ratio is **pinned near unity whatever the proposal is
+doing**. Confirmed numerically on the live reference chain: 2154 rows / 2221 total weight = 0.970,
+reproducing the column; against 745 / 8018 = 9.3 % from the step counters. The column is not wrong —
+it is a different quantity wearing a name that invites misuse as a health metric.
+
+**What made this dangerous rather than merely confusing:** the earlier correction reached the right
+conclusion — launchlog authoritative, ~0.97 an artifact — but recorded the *wrong reason*, that
+"chain files store only accepted points so the ratio is ≈1 by construction." Weights do record
+rejections; that reasoning is false, and it happened to point at a true conclusion. **A right answer
+resting on a wrong reason survives every check that tests the answer**, and it will break the moment
+it is applied somewhere the coincidence does not hold.
+
+**The rule:** when two sources disagree about a named quantity, do not adjudicate by plausibility or
+by which one you already believe. Open the definition. Then state, in whatever document quotes the
+number, **which counter you read and why the other one differs** — a reader checking your figure
+will find the more conveniently-named column first, and reach the opposite conclusion about your
+competence with better evidence than you gave them.
+
+Related: **42** (a proxy is not the quantity) — 45 is its inverse, where the *same name* hides two
+quantities rather than one quantity hiding behind a stand-in. Also **40**: a conclusion inherits the
+soundness of its derivation, not merely the truth of its result.
+
+---
+
+**46. A check that cannot fail is not evidence, and a count that mixes the two kinds overstates
+both. Audit the audit.** (2026-07-29)
+
+The corpus leans on a headline: *"1282 closed-form checks, all pass."* That number is worth exactly
+what the checks are worth. Reading an unrelated line surfaced this one:
+
+```python
+chk("S8 pair", "g candidate identity 10*eps == 54a/pi", 1.0,
+    (10*27/(5*math.pi)*(1/137.035999)) / (54/(math.pi*137.035999)), 1e-12)
+```
+
+With ε defined as 27α/(5π), that ratio reduces to (10·27/5)/54 = 1 **for any α**. It cannot fail. It
+is a fine transcription check on 10·27/5 = 54, but its *label* read as though the pass list were
+evidence for g = 10ε — which is precisely the claim docket #82 records as **still owed**. The check
+was passing, correct, and rhetorically doing work it had not earned.
+
+`scripts/audit_selfcheck_tautology_scan.py` now parses every `chk()` call site and flags three
+patterns: **T1** ratio-to-one (reduces to an identity regardless of inputs), **T2** literal echo
+(the booked value appears verbatim inside the computed side), **T3** constant-free (pure literal
+arithmetic, so only transcription is tested).
+
+**Result: 161 of 1236 call sites flagged, 13.0%.** Which is the reassuring direction — **87% are
+substantive recomputations** — but the 13% should be *stated*, not blurred into the headline.
+
+> **REFINEMENT, made within the hour and before the 13% was quoted anywhere.** Spot-checking the
+> `deuterium_row` block (93 checks, 12 pure-literal — the same 13%) showed **T3 conflates two
+> different things**, and only one of them is a weakness:
+>
+> - *Pinning an external input* — "d ln(D/H)/d ln ω_b (production, **measured**)", "Pisanti's rate
+>   error vs PRyM-on-PRIMAT-bands", "τ_n bottle→beam". **You cannot recompute a measurement.**
+>   Pinning is the correct and necessary check for these, and flagging them as weak is simply wrong.
+> - *Pinning something that could have been derived* — where an independent route existed and was
+>   not taken. This is the only case that represents a missed opportunity.
+>
+> So **13% is an upper bound on the soft checks, not an estimate of them**, and the real figure is
+> lower by however many are external-input pins. The scanner cannot separate these automatically,
+> because the distinction is about provenance, not syntax — it lives in whether the number came from
+> a measurement or from the theory. **Do not quote 13% as a defect rate.** Quote it as "13% are
+> definition- or input-pins rather than independent recomputations, most of them legitimately so."
+
+**The rule, in three parts:**
+
+1. **Flagged does not mean wrong.** T3 in particular is a legitimate way to pin a definition or catch
+   a transcription slip, and a lot of this file's value is exactly that. Do not delete these.
+2. **But relabel any T1/T2 whose label implies a physical identity.** The fix is the label, not the
+   check. A reader scanning a pass list credits what the label says.
+3. **Quote the split, not just the total.** "N checks pass" invites the reading that N independent
+   facts were verified. When the number is used as evidence — in a letter, a paper, a risk page —
+   say how many recompute a quantity by an independent route and how many pin a definition.
+
+The deeper point, and the reason this sits next to **40** and **45**: *the failure modes that survive
+longest are the ones that keep passing.* A wrong number gets caught. A check that cannot fail never
+gets caught, because nothing it can do looks like failure.
+
+---
+
+**47. A plausible code path is not a diagnosis. Find the log line that proves which mechanism
+actually fired.** (2026-07-29)
+
+The model chain's proposal was never re-learned. Reading cobaya's source turned up a mechanism that
+explained it perfectly: learning is refused while R−1 exceeds `learn_proposal_Rminus1_max` (2.0, or
+30.0 early), and a chain whose ranks sit in different basins never gets under either. That became the
+recorded diagnosis, complete with a memorable framing — *"the mechanism that would fix the proposal
+is gated behind the problem it would fix"* — and it reached **the reader-facing risk page and the
+Fairbank letter**, carrying the further claim that *more running time could not repair it*.
+
+It was wrong. Isolating the archived run's MPI section (the launchlog is append-mode across
+relaunches, so this required finding the last rank-prefixed `Sampling!` line first) shows what
+actually happened:
+
+```
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+```
+
+…and rank 0 never announcing it. *"All chains are ready"* never appears. **No convergence statistic
+is ever computed** — so the R−1 gate was never reached, let alone triggered. Learning is a
+**collective checkpoint** at `learn_every` = 40·d accepted samples *per rank*; with d = 13 that is
+520, and the ranks held 467 / 1684 / 658. Two ranks blocked for hours waiting on a third that was
+**53 samples** short.
+
+**Why the wrong diagnosis was so convincing:** it explained every symptom. The proposal never
+adapted ✓. The covmat mtime never advanced ✓. R−1 never appeared to fall ✓. It was consistent with
+all the evidence *and it named a real code path* — the gate exists, and would plausibly have bitten
+next. It was simply not the one that fired.
+
+**The rule:** when the evidence is an *absence* — nothing adapted, nothing was written, nothing
+converged — an absence is consistent with every mechanism that would produce it. **Ranking candidate
+mechanisms by plausibility is not diagnosis.** Go find the positive artifact: the log line that only
+one hypothesis predicts. Here it was six words — *"waiting for the rest"* — which the R−1 story does
+not predict at all and which settles it outright.
+
+**And the corollary that cost the most:** the wrong mechanism carried a wrong *prognosis*. "R−1 is
+locked out" implies more wall-clock cannot help; "one rank is 53 samples short" implies it very
+nearly could. A published claim about what *will not work* inherits every weakness of the diagnosis
+behind it.
+
+Related: **45** (read the definition, not the label) — 47 is the same discipline applied to
+mechanisms rather than quantities. Also **40**: a conclusion inherits the soundness of its
+derivation, not the truth of its result — here the result ("never re-learned") was true throughout,
+which is exactly why the faulty derivation survived so long.
+
+**48. Before fitting a recorded set of numbers, open the script that produced them.** Controls test
+whether your check could fail. They cannot test whether your *quantity* is the right one, because the
+symbol's definition lives somewhere else — and a script that fits four numbers correctly, with every
+control passing, will state a confident wrong answer.
+
+This fired on #85 (2026-07-29). The corpus records four energy-delivery laws as ε_D/ε_S ∈ {2, √2, 1,
+½}. A new instrument reproduced all four as ε_mode ∝ k^p at p ∈ {0, ½, 1} and concluded there were
+three laws rather than four, with a two-way fork remaining. Every control passed, including a real
+anti-control showing the family could not fit 3, 1/3 or 4. But ε is a **stiffness** — fixed by
+⟨f²⟩ ∝ 1/ε and ω ∝ √ε in two scripts that both predate the new one — and the fit had read it as an
+**energy**. The two constructions agree at p = 0 and nowhere else, so the agreement at √2 and 1 was a
+coincidence of small powers of 2.
+
+**Why four points is not reassuring.** A one-parameter family sweeping a continuum will pass through
+small integers and their square roots, and the corpus's characteristic ratios are all built from 2.
+Four hits looks like confirmation and is nearly free. The fifth point is what discriminates: the
+zero-point law lands on **4** under the correct algebra and on √2 under the wrong one, and the
+recorded set contains neither.
+
+**The tell you can act on.** If the numbers you are fitting came from somewhere — a script, a table,
+an earlier note — then their definition came with them, and reading it costs one file open. If they
+came from nowhere, that is the finding, and no fit should be attempted at all.
+
+Related: **42** (the proxy is not the quantity) — 48 is 42's *preventive* form, since 42 is normally
+discovered after the fact. **45** (a field's name is not its definition) is the same discipline for a
+single number; 48 extends it to a set. And **46**: the withdrawn script's controls were not weak or
+tautological, which is the uncomfortable part — strong internal controls do not reach outside the
+file they live in.
+
+**49. A control count is a claim, and it goes stale the moment the script grows.** Every "N controls"
+in the corpus tells a reader how hard a result was tested. It is written once, when the script is
+first described — and then controls get added, and nobody re-counts. `scripts/control_count_sweep.py`
+checks all of them against the scripts they name.
+
+First run, 2026-07-29: **18 claims, 6 wrong** — three found by hand and three by the sweep, spanning
+docs/, working logs and the ledger. Every one was written the same day as the script it described.
+The over-stated ones are what matter: an under-stated count is merely stale, an over-stated one claims
+testing that was never done. This is protocol **46**'s defect (a count that overstates the evidence)
+arriving by drift instead of by tautology, which is why 46's discipline does not catch it — 46 asks
+whether each check *can fail*, and these checks all could.
+
+**Why the sweep does not rewrite.** Control counts live in prose that also says what the controls
+*found*, and no substitution can tell a stale count from a deliberate count of a subset. It reports
+and stops; the fixes are manual, one at a time.
+
+**Run it after any session that adds controls to an existing script** — that is the exact motion that
+breaks the claims, and it is invisible to every other check in this file.
+
+**50. Before recording a finding as NEW, search the shelf for it.** Deriving something correctly is
+not the same as finding it. A result you reached by thinking is new *to you*; whether it is new *to
+the corpus* is a separate question with a cheap answer — one grep — and skipping it produces write-ups
+that overstate what a session bought.
+
+This fired twice on 2026-07-29, in the same session, in two different ways:
+
+- **#2.** I graded a live docket against α_dark ≈ 3.2 and reported that it "does not reproduce in any
+  convention." The value had been **retracted eleven days earlier**, in the same file I was writing
+  into — *"wrong sign in the gauge channel"*. I checked the number and not its status.
+- **#13.** I recorded the bounded-density lane H² ∝ ρ(1 − ρ/ρ_c) as the route my earlier answer had
+  missed. The corpus names it in **three** places and had already graded it *un-derived, named in the
+  reconstruction, not stocked*. One of those three even says *"searching the corpus does not turn up a
+  completed derivation"* — the search had been done, and recorded, and I did not read it.
+
+**The two failure modes are distinct and both are cheap to avoid.** One is a stale *input* (a number
+whose status changed); the other is a stale *claim of priority* (a result the shelf already holds).
+The first is caught by grepping the quantity's name for RETRACTED/WITHDRAWN before using it. The
+second is caught by grepping the finding's own distinctive expression — here `rho/rho_c` — before
+writing "this was missed."
+
+**What it costs when you skip it.** Not the physics: in both cases the algebra was right. What breaks
+is the *ledger* — a session that reports two discoveries when it made one correction and one
+re-derivation leaves the next reader with a wrong picture of where the work stands, which is exactly
+what the failures ledger exists to prevent.
+
+Related: **45** (a field's name is not its definition) and **48** (open the script that produced the
+numbers) are the same discipline applied to quantities and to number-sets; 50 applies it to *status
+and priority*. Also **40**: a conclusion inherits the soundness of its derivation — and a claim of
+novelty inherits the thoroughness of the search behind it.

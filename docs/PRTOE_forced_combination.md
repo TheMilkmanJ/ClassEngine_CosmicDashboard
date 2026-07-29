@@ -57,11 +57,11 @@ The short-range gauge channel between faces is attractive — both binding agent
 
 The equilibrium spacing in string units is fixed by one coefficient:
 **q̃²/√σ — the medium's vortex stiffness in string units** (pure limit: the kernel target
-c₂ = 4/(3·ln 2) demands q̃² = c₂/√3 = 1.11·m_e). Its named candidate source is the
+c_K = 4/(3·ln 2) demands q̃² = c_K/√3 = 1.11·m_e). Its named candidate source is the
 **dual-superconductor identity** — the chromo-string as a vortex of the dual condensate, so
 σ and the medium stiffness are one sector's numbers. *(Candidate-grade chain, stated for
-what it would deliver:)* if that identity lands 1.11, then c₂ is derived, and with it
-τ = Q/c₂ = ½ln2 — sourcing the headline result, which lands at +0.44% as an existence claim (its
+what it would deliver:)* if that identity lands 1.11, then c_K is derived, and with it
+τ = Q/c_K = ½ln2 — sourcing the headline result, which lands at +0.44% as an existence claim (its
 quartic sits past perturbative control), the kernel modulus, the Brannen phase,
 and the P-048 fork's kernel point in one stroke. None of that is claimed here; §2–3 stand
 alone.
@@ -91,9 +91,9 @@ value) — natural at factor-≲2, but outside the measured class rather than in
 The closing state: the chain hangs on THREE observables of ONE lattice theory, but they are
 TWO tests. T_c/√σ (the P-048 fork: ½ln2 = 0.34657 vs the observation-inverted 0.34506) is
 one independent referee. F_dark/√σ and w·√σ are **not two** — the demand band below is derived
-from c₂ *and* the thickness, so F_dark/√σ alone referees nothing; only the pair
-(F_dark/√σ, w·√σ) measured on the same ensembles tests c₂, through
-c₂ = √3·2π·(F/√σ)²·(w√σ). A lattice reporting one without the other closes nothing.
+from c_K *and* the thickness, so F_dark/√σ alone referees nothing; only the pair
+(F_dark/√σ, w·√σ) measured on the same ensembles tests c_K, through
+c_K = √3·2π·(F/√σ)²·(w√σ). A lattice reporting one without the other closes nothing.
 The coefficient, pinned. The vortex-pair energy in the sector's own normalization
 (L = |∂φ|² fixes F² ≡ 2v²; verified numerically) is E = 2πF²t·ln(R/d) exactly, so
 q̃² = 2πF²t with the sheet thickness t the one geometric input. The sheet is the flux-tube
@@ -160,7 +160,7 @@ timescale estimate. The kernel's phase per hop is the twist per face, θ_hop = �
 so the closure reads in its native form: **μ_total = Q·T_c** — the ring's total chemical
 potential at freeze equals the spectral invariant times the transition temperature
 (μ_face = (2/9)·T_c ≈ 40 keV). In this form the phase never touches the spacing, and
-**c₂ = Q/τ = 1.924 becomes a prediction** the correlator locus must independently
+**c_K = Q/τ = 1.924 becomes a prediction** the correlator locus must independently
 accommodate — it does (the band [1.76, 1.97] contains it, at m_D/T_c ≈ 1.34). The twist
 transfer, reduced: a freeze that sweeps the ring imprints the Josephson rotation as a
 spatial gradient, θ_hop = μ·Δt_hop — so the one-to-one transfer holds **exactly when the

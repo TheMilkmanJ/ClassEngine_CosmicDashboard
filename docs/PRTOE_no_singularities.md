@@ -5,13 +5,13 @@
 
 *Status: structural synthesis, complete at the structural level. Zero new predictions of its own —
 it seats the model's already-recorded singularity results under one mechanism, the companion
-piece to [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md). Rides M3 (the medium's reality) and
+piece to [PRTOE_quantum_trio.md](exploratory/PRTOE_quantum_trio.md). Rides M3 (the medium's reality) and
 the emergent-gravity frame. Component files:
 [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
 [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md),
 [PRTOE_white_holes.md](PRTOE_white_holes.md),
 [PRTOE_information_paradox.md](PRTOE_information_paradox.md),
-[PRTOE_wormholes.md](PRTOE_wormholes.md).*
+[PRTOE_wormholes.md](exploratory/PRTOE_wormholes.md).*
 
 ---
 
@@ -84,13 +84,15 @@ debt:
   §4a). **The same payment closes the Page curve**, which was blocked on it. **What that
   derivation is conditional on, stated as its source states it:** 12π and 48π are the heat-kernel
   coefficients *of minimally coupled scalars*, and the cancellation is derived for that field
-  content. It does **not** extend to the roster the model actually carries — for non-minimal
-  coupling and for fields with spin the two divergences stop being one heat-kernel term, so the
-  cancellation is not automatic. The recorded fermion-sign hazard, a fermion-dominated roster
-  driving naive 1/G wrong-signed, is untouched by the ratio argument, because a ratio survives
-  both its halves being wrong. **The roster question is the open item, and it is larger than the
-  O(1) regulator check it replaced** — so both the area law's coefficient and the Page-curve
-  closure that rides on it inherit it.
+  content, so it does not extend to the model's roster automatically — for non-minimal coupling
+  and for fields with spin the two divergences stop being one heat-kernel term. **That extension
+  has since been made per class:** spin-½ produces no contact term and preserves the ratio exactly,
+  which settles the recorded fermion-sign hazard directly instead of leaving it to survive a ratio
+  argument; gauge fields break the ratio through the contact term, restored once edge modes are
+  counted as horizon entropy; and a conformally coupled scalar drops out of both sides identically,
+  as the Higgs does under the ξ = 1/6 already required elsewhere. The quarter survives the full
+  roster at candidate grade on that one commitment ([PRTOE_entropy.md](PRTOE_entropy.md) §3), and
+  the Page-curve closure inherits the same standing.
 - **λ (the quartic self-coupling)** — sets the core floor and the bounce density ρ_bounce. The
   support requirement is comfortable: holding up the largest known black holes needs λ ≳ 8×10⁻⁹⁴,
   which the medium's amplitude quartic clears by more than two orders. The density it sets follows

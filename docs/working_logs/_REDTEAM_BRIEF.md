@@ -9,8 +9,8 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 | quantity | value | note |
 |---|---|---|
 | **ε** | **c·f̄·α_c = 27α/5π = 1.2543%** | the coupling; three factors, multiplicative |
-| **c** | **9/10** | census counting fraction (N−1)/N: 9 charged species + the vacuum's seat. **DERIVED.** `c = 1` is a DEAD candidate. |
-| **f̄** | **2/π = 0.63662** | the winding time-average ⟨\|cos\|⟩. **DERIVED.** `f_amp ≈ 0.6 / 0.69` is the RETIRED decomposition. |
+| **c** | **9/10** | census counting fraction (N−1)/N: 9 charged species + the vacuum's seat. **A COUNTING ASSUMPTION THE DATA CONFIRMS — do not defend it as *derived*** (no single census criterion returns 9/10, and the ε-blind ensemble confirms without separating it from the charge²-weighted 8/9 — see the standing-value note below). `c = 1` is a DEAD candidate. |
+| **f̄** | **2/π = 0.63662** | the winding time-average ⟨\|cos\|⟩. **DERIVED GIVEN THE COUPLING FORM; the coupling form itself is DATA-SELECTED.** ⟨\|cos\|⟩ = 2/π is exact under equidistribution, and the turn budget (≈3.8×10⁵ turns) secures equidistribution to ~10⁻⁴%. What is *selected* rather than forced is which average applies: mass-positivity excludes the signed mean, leading-order dominance picks linear over quadratic, and the data rejects the RMS reading at +13%. The subleading term shifts f̄ by ≈0.99% per unit c₂ and the observed deficits imply \|c₂\| of order one, so the residual is the expansion's own next term — but c₂ is not derived. `f_amp ≈ 0.6 / 0.69` is the RETIRED decomposition. |
 | **α_c** | **3α = d·α = 0.02189206** | **the dCDF's** condensate coupling; the 3 is the SPATIAL DIMENSION |
 | **T_c** | **177.10 keV** | = τ·m_e with τ = ½ln2 from the Koide kernel. **193 keV is a CROSS-CHECK ONLY — illegal as the keying value.** |
 | **M₂** | **α²·T_c = 9.43 eV** | the "electromagnetic handshake"; T_c is the **dyad's** |

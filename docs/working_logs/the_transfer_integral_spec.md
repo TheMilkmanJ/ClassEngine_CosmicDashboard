@@ -34,10 +34,37 @@ with the three factors:
      sphaleron WEIGHTING does not commute with the choice (different T-dependences).
    - Δθ(T): the phase difference across the junction — sourced by the genesis winding's
      gradient (the same object the sign-chain walk routes through sign(μ·n)).
-2. **The sphaleron efficiency f_sph(T)**: the standard electroweak conversion (the 28/79
-   factor for the SM roster; check the +3ν_R roster's coefficient — P-2026-045's content
-   changes the denominator) times the shutoff profile at T_sph = 131.7 GeV (a RAMP — the
-   sphaleron rate's exponential fall through the crossover; amendment 5 applies, no step).
+2. **The sphaleron efficiency f_sph(T)**: the standard electroweak conversion times the
+   shutoff profile at T_sph = 131.7 GeV (a RAMP — the sphaleron rate's exponential fall
+   through the crossover; amendment 5 applies, no step).
+
+   **The conversion coefficient is COMPUTED, 2026-07-28** (`scripts/sphaleron_conversion_nuR.py`,
+   3 harness rows; the SM control reproduces 28/79 exactly before either number is quoted):
+
+   | roster | B/(B−L) |
+   |---|---|
+   | Standard Model | **28/79** = 0.354430 |
+   | SM + 3ν_R, Dirac Yukawa **in equilibrium** at T_sph | **1/4** = 0.250000 |
+
+   A 29.5% reduction, and the mechanism is transparent: ν_R carries lepton number but no
+   hypercharge, so it stays out of the neutrality condition and leaves B untouched while
+   enlarging L.
+
+   **Which value applies is a physics ruling the corpus still owes — and the spec's own
+   phrasing invited a mistake here.** "P-2026-045's content changes the denominator"
+   conflates two different questions. That prediction counts ν_R as **Weyl fields in a
+   gravitational supertrace**; whether they are **thermally populated at 131.7 GeV** is
+   unrelated, and a field can be in the roster while absent from the plasma. Importing the
+   finiteness count into an equilibrium calculation would be exactly the scope error
+   protocol check 32 exists to prevent.
+
+   On the physics: equilibrating a Dirac Yukawa needs y ≳ 10⁻⁷ at 132 GeV, i.e. a Dirac
+   mass above the MeV scale, and the light neutrinos are sub-eV — so on a Dirac reading the
+   SM value stands untouched. But the corpus's neutrinos are seesaw Majorana, so the heavy
+   ν_R's presence in the plasma turns on the **v_L corner**, itself an open two-branch fork
+   (MeV vs ≥ GeV). **Use 28/79 unless v_L resolves to a thermalising regime; if it does, the
+   coefficient is 1/4 and this integral must be re-run with it.** Both values now exist, so
+   the remaining question is a ruling, not a missing number.
 3. **The entropy normalization s(T)** and any dilution between the transfer era and today —
    RECORDED (standard; the genesis reheating entropy is already booked).
 

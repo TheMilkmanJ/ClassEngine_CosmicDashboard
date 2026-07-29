@@ -1,0 +1,168 @@
+# The κ_v Derivation (the working docket, working document)
+
+> *The current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
+
+
+> **PROGRAM STATUS (2026-07-19): CLOSED — this docket is the record of the operator
+> derivation, and nothing in it is currently load-bearing.** The unification (one κ_v
+> sourcing BBN and recombination) died the night this docket closed: the carrier-ratio
+> fails by 8–10 orders (ANN-2026-006), excluding the whole density-proportional class
+> (ANN-2026-007). The BBN vev heal itself was later excluded (the flat-vev at +7.7σ) and
+> is retained only as P-2026-006's hypothetical non-Majoron lever — see the deuterium
+> deuterium row's §7 and the registry. The operator work below (shape-forced / amplitude-input /
+> window-consistent, the seams, the audits) stands as method and record.
+
+**Status (2026-07-07): the status triple, binding —
+SHAPE-FORCED (class universality) / AMPLITUDE-INPUT (k_eff is chosen,
+not derived) / WINDOW-CONSISTENT (0.06 lands inside ANN-2026-005's
+window as a consistency, not a prediction). "Derived" may not
+re-inflate; this header governs every summary of this document. The
+operator predicts no void signal (§3a); the surviving audits (radiative
+stability, BBN form-factor, k-naturalness) can CLEAR the operator but
+cannot make it distinctive.**
+
+## 1. The problem
+
+ANN-2026-005's healer is phenomenological: δv/v = κ_v·(ρ_d/ρ_r) with
+κ_v ∈ [0.06, 0.41]. The first evidence-class entry requires deriving
+the coupling from an action. Constraints accumulated:
+- (ANN-2026-004) the amendment must be CONSTANT through BBN
+ (z ~ 10⁹ → 10⁸), dead by recombination, dead in all laboratories;
+- Derived-vs-fitted: the model's key structure must be
+ computed, not tuned;
+- (opening pass) density-portals demand an eV suppression scale
+ (IR-strong) AND fail constancy anyway.
+
+## 2. The drift wall
+
+Any local portal to the medium's DENSITY drifts: δv ∝ ρ_d ∝ a⁻⁴
+(×10⁴ over BBN — Y_p destroyed at freeze-out); δv ∝ y ∝ a⁻²
+(×130 — still fatal). The healer's constancy rides the RATIO
+ρ_d/ρ_r, which no local operator supplies. **The derivation target
+is therefore: a LOCAL, dimensionless, expansion-invariant attribute
+of the medium.** The medium has exactly one: its equation of state.
+
+## 3. The w-portal
+
+ **L = −μ²(1 + k·w[(∂ξ)²])|Φ|², w(y) = y/(4+3y)**
+
+— the medium's local equation of state multiplicatively modulating
+the Higgs mass parameter. Local; analytic in (∂ξ)² (w is a smooth
+function of X̃ through the basin); ONE dimensionless coupling k.
+
+**Amplitude:** δv/v = k·w/2. The healer's +0.15% at w = 1/3 gives
+**k = 9×10⁻³ — a per-cent-level dimensionless coupling.** No
+hierarchy, no eV-scale suppression needed: the multiplicative form
+prices in μ² itself.
+
+**Profile (all computed):**
+| epoch/environment | w | δv/v |
+|---|---|---|
+| BBN (pre-basin) | 1/3 EXACTLY, zero drift | **+0.15% constant** — the healer |
+| recombination (mean) | 2×10⁻⁷ | 10⁻⁹ — the electron-coupled scalar untouched |
+| laboratory halos | 5×10⁻¹¹ | 10⁻¹³ — clocks/Oklo/absorbers safe |
+| deep voids today | g → 0 | **0 — no signal** (voids have y → 0, so the operator's g vanishes) |
+| cosmic diffuse mean today | g → 0 | 0 — no signal (same limit) |
+
+**Consistency check not forced:** mapping back to the normalization
+on the record, κ_v = (k·w/2)/(ρ_d/ρ_r) = **0.06 at the ΔN_eff
+bound — inside ANN-2026-005's [0.06, 0.41] window**, derived, not
+fitted to it.
+
+**The late-time branch:** none. The operator's g is not the full-medium w = −ρ∞/ρ but a
+distinct function of y, and voids have y → 0 ⇒ g → 0. There is no late-time signal anywhere,
+and R1's unvirialized-gas channel has no κ_v companion.
+
+## 3a. THE THREE SEAMS — closed
+
+**Seam 1 — the single definition, and the values by substitution.**
+The portal's w is the EXCITATION-SECTOR equation of state, one
+analytic function of the single local invariant X̃ = (∂ξ)²:
+
+ **g(X̃) ≡ (P+ρ∞)/(ρ−ρ∞) = (X̃−1)/(4+3(X̃−1))**
+
+(ρ∞ = −P₀ are constants of the action, so g is local). Substitution,
+one definition, three values: pre-basin y ≡ X̃−1 = 2.8×10⁷ at BBN ⇒
+g = (1/3)(1−4/3y) = 1/3 to **5×10⁻⁸ — the drift across all of BBN is
+O(1/y), five parts in 10⁸** (not piecewise: the transition is smooth
+and analytic, compressed at basin entry z~10⁵ where nothing
+m_e-sensitive exists); recombination y = 8.4×10⁻⁷ ⇒ g = 2.1×10⁻⁷;
+labs y = 5×10⁻¹¹ ⇒ g = 1.3×10⁻¹¹.
+**WHAT SEAM 1 FIXES:** g is not the full-medium
+w = −ρ∞/ρ — that is a different function, not the operator's, and it is
+what a void negative branch (δv → −0.45%) would require. Under the true
+operator, voids have y → 0 ⇒ g → 0: **no negative branch, no void
+prediction, no late-time signal anywhere.** There is no forced
+prediction here, and R1's channel carries no κ_v companion; the
+operator is correspondingly SAFER (g ∈ [0, 1/3] always,
+dead everywhere post-basin).
+
+**Seam 2 — the claim is CLASS UNIVERSALITY, not uniqueness.**
+c_s²(X̃) = (X̃−1)/(3(X̃−1)+2) is a second
+dimensionless invariant with the same limits — because at the
+two-derivative level EVERY local dimensionless scalar of one field is
+an analytic function h(X̃). Precisely: **any bounded h(X̃)
+with h(1) = 0 produces the healer profile automatically** — constancy
+pre-basin is forced by y → ∞ (every bounded h plateaus), death in
+labs by y → 0. The shape is universal over the class; the class
+collapses to ONE effective coupling k_eff = k·h(∞). Shape: forced.
+Amplitude: input (audit 4, §4a). "Derived not fitted"
+holds at class level, which is the level the ANN-2026-005 window
+comparison tests.
+
+**Seam 3 — the freeze-out number.** Notation clarified: the operator
+is multiplicative in the BOUNDED g — there is no ⟨(∂ξ)²⟩ factor
+(the note's shorthand "w[(∂ξ)²]" meant "function of," not "times").
+δμ²/μ² = k·g ≤ k/3 = 3.0×10⁻³ ⇒ δv/v = 1.5×10⁻³ AT FREEZE-OUT AND
+AT THE BOTTLENECK ALIKE (constant to 5×10⁻⁸). Its Y_p consequence is
+not an open question — it is the vev package's own five-abundance
+chain (ANN-2026-005, DSW rows incl. τ_n, Q_N, m_e): Y_p −0.68%, the
+designed IMPROVEMENT. The constant offset at freeze-out is the
+healer working, not the Drift Wall's failure returning.
+
+## 4. Audits — RUN (2026-07-07 night); verdict two-sided
+
+**Audits 1 (radiative stability) and 2 (BBN thermal) collapse to ONE
+condition and the verdict is sharp both ways:**
+- NAIVE point coupling (loop momenta to m_h): the Higgs loop feeds
+ k·μ²·⟨|Φ|²⟩ ~ 7×10³⁹ eV⁴ into the medium's Lagrangian — 10³⁶ × M₂⁴:
+ the basin is obliterated without a ~10⁻³⁶ tadpole tuning. **FAILS.**
+- FORM-FACTOR-PROTECTED coupling (vertex soft above the condensate
+ scale M₂ — the portal reads the COLLECTIVE density, and probes
+ above the healing scale see no collective mode): the loop is
+ m_h-suppressed, fractional medium correction = k/32π² = **2.8×10⁻⁵.
+ PASSES.** The same softness simultaneously kills BBN-era
+ medium–plasma thermalization (audit 2). One condition, two audits.
+- Softness is NATURAL for condensate portals (standard collective-
+ mode physics) but UNDERIVED here: it is a property of the §2
+ completion. **The w-portal's radiative bill is therefore payable
+ if and only if the completion delivers the form factor — the same
+ single window every open item in this program queues at.**
+- Audit 3: MOOT (no void branch exists). Audit 4: permanent residue
+ (the status triple's amplitude-input clause).
+
+**Final status of the working docket: the operator is written, local,
+tree-natural, shape-forced, seam-closed, and radiatively viable
+conditional on completion softness. Nothing further is derivable
+this side of the §2 wall.**
+
+## 4a. The four audits, as posed
+
+1. **Radiative stability**: does the portal loop-induce μ²-shifts or
+ medium-potential corrections that destabilize k ~ 10⁻²?
+2. **Thermal consistency at BBN**: the vertex's y-dependent pieces
+ vs the MeV plasma — form-factor/collective-mode analysis (the
+ condensate's healing-scale cutoff is the expected regulator).
+3. **The late-time negative branch**: audit m_e-sensitive
+ diffuse-gas data at z ≲ 2 (Lyα forest thermal history, late-time
+ CMB) for a −0.3% kill.
+4. k's VALUE (9×10⁻³) remains an input — the derivation fixes the
+ operator's form and profile; naturalness of the number is the
+ final step (or the honest residue).
+
+*Chain of custody: drift wall found → density portals killed →
+invariant-attribute search → w unique → operator written → profile
+computed → κ_v window reproduced unforced. Scripts were job-scratch,
+not retained.*

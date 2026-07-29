@@ -129,3 +129,50 @@ bath.
 ## Sources
 [AffleckDine1985], [FukugitaYanagida1986] (the ruled-out baseline), [Josephson1962],
 internal: the AD-direct route. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+## What "a second un-rotatable phase" has to be, stated exactly (2026-07-29)
+
+`scripts/second_phase_counting.py`, 13 controls including two anti-controls. The outstanding object
+for the sign of the asymmetry has been carried as *"a second un-rotatable phase from a roll-up-era
+term"*. That is the wrong name for it, and the right statement is a counting result.
+
+**A single term carries zero physical phases, not one.** Write the roll-up potential on one complex
+field as V = Σ_k A_k·cos(n_k θ + φ_k) with θ = arg Φ. The only redefinition available is Φ → e^{iα}Φ,
+under which φ_k → φ_k + n_k·α. With one term, α = −φ₁/n₁ removes the phase outright.
+
+**So what is needed is a SECOND TERM, at a DIFFERENT WINDING POWER.** Two terms at the *same* power
+combine exactly into a single cosine (verified to 10⁻¹⁵) and leave nothing behind. At different
+powers, exactly one combination survives every rephasing:
+
+> **I = n₂·φ₁ − n₁·φ₂**
+
+invariant identically, since it shifts by n₂n₁α − n₁n₂α = 0. Checked across a scan of α (drift
+6×10⁻¹⁵) against a deliberately non-invariant combination that moves over a range of 50.
+
+### And the condition for a definite sign is exact
+
+The coin flip is a **reflection symmetry**. A one-term potential admits θ → c − θ with c = −2φ/n —
+verified exact to 5×10⁻¹⁵ — so trajectories come in mirror pairs and the mean torque over a uniform
+prior vanishes identically (checked: 3.5×10⁻¹⁷). With two terms a reflection needs n_k·c + 2φ_k ≡ 0
+(mod 2π) for **both** k, which is solvable precisely when
+
+> **I is an integer multiple of π**
+
+Tested both ways: at I/π = 0.9231 no centre gives a reflection (best residual 0.089 over a full scan),
+and at a tuned I = exactly π one does (residual 5×10⁻¹⁵ at the solved centre, which satisfies both
+terms' conditions to 10⁻¹²).
+
+> ### The requirement is therefore one testable quantity
+>
+> The asymmetry has a definite sign **if and only if** the roll-up potential carries two terms at
+> different winding powers whose invariant **I = n₂φ₁ − n₁φ₂ is not a multiple of π**. That can be
+> checked against any candidate potential the moment one is written.
+
+**The anti-control earns its keep.** If the two terms involve *different* fields, each brings its own
+rephasing and both phases are removable — so the invariant genuinely requires the two terms to
+**share** a field. "Physical phase" is doing real work here, not standing in for "phase".
+
+**What this does not do.** It does not supply the second term and does not compute I. The family
+sector's arg b remains excluded as the source on the separate ground already recorded — the spectrum
+is real for every arg b, so it is a shape parameter rather than a phase reaching observables. What
+changes is that the ask is now specific enough to grade a candidate against, instead of a category.

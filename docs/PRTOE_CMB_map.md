@@ -110,7 +110,7 @@ The medium is **electrically neutral in every state and every regime**, so it
 cannot source β (the θ·F·F̃ anomaly coefficient = 0, protected by charge conservation and
 anomaly matching — the null is maximally over-determined: eight parked attacks plus a
 four-route solution hunt, enumerated in
-[PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)). Its only parity-odd handle
+[PRTOE_INTERACTION_ATLAS.md](exploratory/PRTOE_INTERACTION_ATLAS.md)). Its only parity-odd handle
 is *gravitational*, and that route is computed to Π ~ 10⁻⁷ (unobservable). Therefore:
 
 PRTOE forces **TB = EB = 0** (β = 0) to observable precision.

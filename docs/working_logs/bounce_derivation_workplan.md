@@ -680,7 +680,7 @@ So the thermal crossing **fails as a bounce**:
    (`need / ρ_bounce ~ 10⁹`). No such crunch-sector term is written in the corpus.
 5. The ghost-condensate NEC-flexible window is the wrong scale and the wrong job:
    it is a late-time floor / arrow sector, priced ~17 orders under engineering need
-   for sustained exotic stress ([PRTOE_wormholes.md](../PRTOE_wormholes.md)). It cannot
+   for sustained exotic stress ([PRTOE_wormholes.md](../exploratory/PRTOE_wormholes.md)). It cannot
    cancel a `T_c⁴` radiation bath.
 
 **What survives from the thermal picture:** `T(a) = T_*(a_*/a)` and the melt condition
@@ -1543,3 +1543,112 @@ measurement that tests the window adjudicates between the survivors. The
 coincidence stays at coincidence grade (the pour's dynamics still owe WHICH
 member), but the partition's CLASS is now priced, not assumed: one vertex,
 medium-percent coupling.
+
+## Tasks 4 and 5, answered (2026-07-29)
+
+`scripts/bounce_handover_sign.py`, 10 controls incl. an anti-control. Both tasks are FRW energy
+balance, not model-building, so both were desk-doable and are now settled.
+
+**Task 4 — can negative bare vacuum + Tolman-kept radiation produce the sign change? NO, and for a
+reason that admits no tuning.** With H = 0 ⟺ ρ_total = 0 and Ḣ > 0 ⟺ ρ + p < 0, everything turns on
+Σᵢ(1 + wᵢ)ρᵢ. A w = −1 component contributes **exactly zero** — 1 + w vanishes identically, so the
+vacuum's *sign is irrelevant*: a negative Λ is as inert in the Ḣ equation as a positive one. That
+leaves ρ + p = (4/3)ρ_r > 0 for every combination scanned, hence **Ḣ < 0 always**. This is not a
+near-miss that better numbers could close; the term is identically absent.
+
+**The pair does deliver H = 0** — radiation's a⁻⁴ growth crosses the constant vacuum under
+contraction — but crossing H = 0 with Ḣ < 0 is a **turnaround**, expansion→contraction, the opposite
+of a bounce. The two components supply the easy condition and not the one that matters.
+
+**Task 5 — the missing component is a NEGATIVE-ENERGY STIFF one, w = +1, ρ < 0.** Ḣ > 0 needs some
+component with (1 + w)ρ < 0, which requires either phantom behaviour (w < −1 at positive energy) or
+**negative energy at w > −1**. Negative stiff takes the second route: (1 + w)ρ = 2ρ < 0, and its
+**a⁻⁶** scaling makes it subdominant today and dominant exactly at maximum compression.
+
+> **Both qualifiers are load-bearing** (anti-control): *positive* stiff does not flip the sign at all,
+> and negative **matter** flips it but scales a⁻³ and never comes to dominate — it loses even to
+> radiation. So "stiff or effectively stiff" was doing real work: the sign needs the negative energy,
+> the domination needs w = +1.
+
+**What remains is now a single named object,** which sharpens this file's own warning that "the
+reversal mechanism is not hidden in the white-hole label; it still has to come from a sector-local
+ρ_X(T) or branch-changing Ḟ(T)": whatever supplies it must be **negative-energy and stiff** — a much
+narrower target than "a source term". Its existence, magnitude, and whether the model's own content
+provides one are the residue.
+
+## Task 5's answer was ONE of two routes — and the closed one (2026-07-29, same day)
+
+`scripts/bounce_two_routes.py`, 18 controls, three anti-control blocks. This extends the task-4/5
+entry above; **nothing in task 4 is revised** (re-verified as control R-A).
+
+**What was incomplete.** Task 5 concluded *"the missing component is a NEGATIVE-ENERGY STIFF one."*
+That develops only the first of the two routes **this file already names** — *"a bounce needs either
+ρ + p < 0 transiently, or a modified gravitational branch that changes the hand-over condition
+itself"* — and it is the route the corpus has already priced as unavailable, since the only
+NEC-flexible sector is the ghost-condensate branch whose negative-energy budget the wormhole audit
+calls tiny, and `PRTOE_stability.md` opens on whether the scalar carries a ghost at all.
+
+### Route 2 needs no exotic matter
+
+With a quadratic correction, H² = (8πG/3)·ρ(1 − ρ/ρ_c):
+
+> H = 0 exactly at **ρ = ρ_c**, and Ḣ = −4πG(ρ+p)(1 − 2ρ/ρ_c) = **+4πG(ρ+p)** there
+
+— positive for matter, radiation and stiff alike. **ρ + p > 0 throughout: no negative energy, no NEC
+violation, no ghost.** The sign flip lives in the bracket, not in the fluid. An explicit RK4
+integration from the contracting branch turns around at **a_min = 0.215443** against the predicted
+(ρ₀/ρ_c)^(1/3) = 0.215443, and switching the correction off removes the bounce entirely (the
+uncorrected run reaches a = 1.3×10⁻⁴ still contracting).
+
+### And the effective-fluid reading corrects the label
+
+Written as its own component, ρ_X = −ρ²/ρ_c scales as a^(−6(1+w)) against a background a^(−3(1+w)),
+so **w_X = 2w + 1**:
+
+| background | w | w_X |
+|---|---|---|
+| matter | 0 | **1 — stiff** |
+| radiation | ⅓ | 5/3 |
+| stiff | 1 | 3 |
+
+> So **"negative-energy stiff" was the matter-background special case quoted as the general answer.**
+> The general statement is simpler: **the missing component is the square of whatever dominates,
+> negative** — and it outgrows its own source automatically, since 6(1+w) > 3(1+w) for every w > −1.
+> No tuning selects the epoch.
+
+**The anti-controls earn their keep.** Shear scales as a⁻⁶ too and does *not* bounce — it deepens the
+collapse, which is the BKL problem. So a⁻⁶ is not what does the work; the **sign** is. And negative
+curvature reaches H = 0 with Ḣ < 0 — a turnaround, exactly task 4's trap.
+
+> **What is now owed is a different question.** Not *"does the model contain a negative-energy stiff
+> component"* — the corpus has answered that, no. It is: **does the model's gravitational sector carry
+> a ρ² correction, and what sets ρ_c?** That is a question about the induced-gravity construction, not
+> about the matter roster, and it is where this docket should be pointed next.
+
+> ### ⚠ THE ENTRY ABOVE OVER-CLAIMED NOVELTY — corrected within the hour (2026-07-29)
+>
+> It reads as though route 2 (the bounded-density constraint H² ∝ ρ(1 − ρ/ρ_c)) were newly found.
+> **It was not. The corpus names it in three places**, and had already graded it:
+>
+> - this file, the three-lane table: *"no derived ρ(1−ρ/ρ_c) bounce constraint in corpus. No free
+>   turn from this lane."*
+> - `PRTOE_FAILURES_LEDGER.md`: *"A bounded-density constraint ρ(1 − ρ/ρ_c) remains un-derived in
+>   the corpus (named in the reconstruction, not stocked)."*
+> - `bounce_reconstruction_rp.md` §14.3: *"Searching the corpus does not turn up a completed
+>   derivation of that constraint from the recorded Lagrangian … Any ρ²/ρ_c bounce law remains
+>   unbuilt (not fabricated here either)."*
+>
+> So the re-pointed question I recorded — *"does the gravitational sector carry a ρ² correction?"* —
+> **is also already answered: no, and it is recorded as such.** I found a lane the corpus had already
+> walked, and mistook a search of my own memory for a search of the shelf.
+>
+> **What the instrument does contribute, and it is smaller.** (i) The label correction, which is a
+> correction to *my own* task-5 entry from this morning: ρ_X = −ρ²/ρ_c has **w_X = 2w + 1**, so
+> "negative-energy stiff" is the matter-background special case, and the general object is *the square
+> of whatever dominates*. (ii) An explicit RK4 exhibit that the constraint does bounce at the
+> predicted a_min, with ρ + p > 0 throughout, and does not when the correction is removed — a
+> demonstration of something already asserted, useful as a check and not as a finding. (iii) The
+> anti-controls separating sign from scaling (shear is a⁻⁶ and positive, and deepens collapse).
+>
+> **Net effect on this docket: none.** The lane's grade is unchanged — *un-derived, not fabricated
+> here either*. See protocol **50**.

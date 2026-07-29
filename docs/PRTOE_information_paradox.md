@@ -11,11 +11,15 @@ coefficients the same cutoff supplies, 12π/48π = 1/4 exactly, giving S = A/4G
 delivered* — the table below grades it "derived-conditional at the coefficient, owed at the curve",
 and the area law's field content gates it. **Status: structural dissolution plus a
 derived-conditional capstone** — conditional on the roster the model actually carries. The
-coefficients 12π and 48π are those of minimally coupled scalars, and with non-minimal coupling or
-spin the two divergences stop being one heat-kernel term, so the cancellation is not automatic; the
-fermion-sign hazard survives the ratio argument, because a ratio survives both its halves being
-wrong. That roster question is the sector's remaining residue, and it is **larger** than the O(1)
-regulator check it replaced.*
+coefficients 12π and 48π are those of minimally coupled scalars, so with non-minimal coupling or
+spin the two divergences stop being one heat-kernel term and the cancellation is not automatic. That
+extension has since been made class by class: spin-½ produces no contact term and preserves the ratio
+exactly, which also disposes of the fermion-sign hazard rather than arguing past it; gauge fields
+break the ratio through the contact term, which is the edge modes' own entanglement entropy and
+restores it once edge modes count as horizon entropy; and a conformally coupled scalar drops out of
+both sides identically, as the Higgs does under the ξ = 1/6 that induced-Newton finiteness already
+demands. The quarter survives the full roster at candidate grade, on one named commitment
+([PRTOE_entropy.md](PRTOE_entropy.md) §3).*
 
 ## 0. The paradox, and why it needs a singularity to bite
 

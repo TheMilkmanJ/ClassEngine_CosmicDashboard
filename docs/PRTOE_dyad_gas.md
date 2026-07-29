@@ -4,7 +4,7 @@
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *Identity file for the electron-coupled scalar. Quantitative derivation lives in
-[PRTOE_me_trigger.md](PRTOE_me_trigger.md) /
+[PRTOE_me_trigger.md](exploratory/PRTOE_me_trigger.md) /
 [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md); this file is what it is. It is one of
 three dark fields — the dCDF superfluid ([PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md)),
 this field, and the Majoron (§2).*
@@ -141,7 +141,7 @@ roster", which is the *counting measure* for c = 9/10 — a different object.
 
 ## Sources / see also
 
-Derivation: [PRTOE_me_trigger.md](PRTOE_me_trigger.md),
+Derivation: [PRTOE_me_trigger.md](exploratory/PRTOE_me_trigger.md),
 [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md). The amplitude ε:
 [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). The Majoron:
 [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md). H₀:

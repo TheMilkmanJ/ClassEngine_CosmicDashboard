@@ -102,13 +102,21 @@ What earns the quarter is the shared-coefficient structure, and the flat 1.0000 
 quoted as though the medium selected it.
 
 **Derived for the field content the coefficients assume** — minimally coupled scalars, which
-is what 12π and 48π are the coefficients *of*. **It does not extend to the roster the model
-actually carries.** For non-minimal coupling and for fields with spin the two divergences stop
-being one heat-kernel term (this is precisely where Frolov, Fursaev and Zelnikov require extra subtractions — [FrolovFursaevZelnikov1997]), so the
-cancellation is not automatic; and the recorded fermion-sign hazard — a fermion-dominated roster
-driving naive 1/G wrong-signed — is untouched by a *ratio* argument, since a ratio survives both
-its halves being wrong. **That roster question is now the open item here, and it is larger than the
-O(1) it replaces.**
+is what 12π and 48π are the coefficients *of* — and it does not extend to the model's roster
+automatically. For non-minimal coupling and for fields with spin the two divergences stop being one
+heat-kernel term (this is precisely where Frolov, Fursaev and Zelnikov require extra subtractions —
+[FrolovFursaevZelnikov1997]).
+
+**The extension has been made, class by class.** Spin-½ produces no contact term and preserves the
+ratio exactly, which settles the recorded fermion-sign hazard directly rather than arguing past it
+with a ratio. Gauge fields break the ratio through Kabat's contact term, which Donnelly and Wall
+identify as the edge modes' own entanglement entropy, restoring it once edge modes are counted as
+horizon entropy. A conformally coupled scalar drops out of both sides identically, as the Higgs does
+under the same ξ = 1/6 that the induced-Newton finiteness condition already requires. Over the
+model's roster, the Weyl fermions and minimal scalars carry the quarter unconditionally and the
+gauge bosons carry it under that one commitment. **The quarter survives the full roster at candidate
+grade, and rejecting edge-mode entropy is what would break it**
+([PRTOE_entropy.md](PRTOE_entropy.md) §3).
 
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
@@ -157,6 +165,21 @@ Newton constant [Visser 2002, Eq. 35]: *"if you additionally assume str(k₁) = 
 the one-loop contribution to Newton's constant is finite"* — and, as Visser notes, G
 becomes independent of the renormalization scale. These are, in his words, *"very strong
 constraints on the particle content,"* not derivable from supersymmetry alone.
+
+**Prior art on the conclusion, recorded 2026-07-28.** The generation count reached here is not a
+new result. [Navarro-Salas 2024, arXiv:2403.13201, *Classical and Quantum Gravity*] requires
+**exact conformal symmetry** — both trace-anomaly coefficients vanishing — and concludes that the
+Standard Model gauge group *"requires precisely 48 Weyl fermions, i.e. three generations of
+standard model fermions, including right-handed neutrinos."* The two derivations sit at different
+orders of the same expansion (the induced-Newton-constant coefficient here; the Weyl-squared and
+Euler coefficients there) with entirely different weights, and it would be easy to present them as
+two independent gravitational arguments for three generations. **They are not, and the corpus
+should not.** Solved out, the published condition is N_½ = 4·N₁ − N₀/2 and this one is
+N_½ = 4·N₁ — the same equation once N₀ = 0, which is the conformally-coupled-scalar premise
+(ξ_H = 1/6) that Visser's Eq. 35 already forces on this balance. Two coefficients of one expansion
+over one roster, agreeing because the roster does the work. What is not known to be published is
+the route taken here — str[k₁] = 0 evaluated for Standard Model plus three right-handed
+neutrinos — and the search establishing that is a partial negative, not a clean one.
 
 **The Standard Model alone does not satisfy it (str[k₁] = −3). It is satisfied exactly —
 to zero — by the Standard Model plus three right-handed neutrinos: the content this

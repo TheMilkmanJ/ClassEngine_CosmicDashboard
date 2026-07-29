@@ -7,9 +7,10 @@
 > **½ln2 = 0.34657** follows. The chain descends from a lepton-mass fact and nothing cosmological
 > enters it. It gives **T_c = 177.10 keV** and
 >
-> > **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%.**
+> > **ρ_Λ¼ lands on the observed dark-energy scale — and sits a small, specific distance *above*
+> > the value that would return the observation by construction. That distance is the claim.**
 >
-> The 0.44% is the whole claim, and the reason is worth stating before anything else. Inverting
+> The gap is the whole claim, and the reason is worth stating before anything else. Inverting
 > the observation gives τ = 2.25/((9/2)α⁴m_e) = **0.34506**, which returns 2.25 by construction — a
 > perfect match that predicts nothing. The kernel's 0.34657 sits 0.44% above that value, so the gap
 > between them is precisely what distinguishes a derivation from a back-solve. **A lattice T_c/√σ

@@ -189,7 +189,7 @@ Internal support:
 
 * [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md)
 * [PRTOE_cyclic_torus_genesis.md](PRTOE_cyclic_torus_genesis.md)
-* [PRTOE_wormholes.md](PRTOE_wormholes.md)
+* [PRTOE_wormholes.md](exploratory/PRTOE_wormholes.md)
 * [working_logs/expansion_energy_ledger.md](working_logs/expansion_energy_ledger.md)
 
 ---

@@ -120,13 +120,15 @@ question it does answer.
  subdominant: with the recorded healing length it reaches ~10³⁶ k_B today against ~10¹⁰⁴ in
  black holes. The functional supplies the theorem and the mechanism, not the universe's
  entropy budget, and is stated that way.
-- **What is owed:** (ii) the area law's field content — its coefficients 12π and 48π are the
- heat-kernel coefficients of minimally coupled scalars, and the cancellation is derived for that
- content only. It does not extend to the roster the model carries: with non-minimal coupling or
- spin the two divergences stop being one heat-kernel term, and the fermion-sign hazard is
- untouched by a ratio argument. **This roster question replaced the regulator's O(1) check and is
- larger than it**, and the Page curve rides on the same payment
- ([PRTOE_entropy.md](PRTOE_entropy.md)); (iii) "whatever
+- **The area law's field content, since paid:** its coefficients 12π and 48π are those of
+ minimally coupled scalars, so the cancellation was derived for that content only. The extension to
+ the roster the model carries has since been made: spin-½ produces no contact term and preserves the
+ ratio exactly; gauge fields break it through the contact term, which is identified as the edge
+ modes' own entanglement entropy and restores the ratio once those are counted as horizon entropy;
+ and a conformally coupled scalar drops out of both sides identically, which the Higgs does under
+ the same ξ = 1/6 that induced-Newton finiteness already demands. Roughly two-thirds of the roster
+ carries the quarter unconditionally and the remainder under one named commitment
+ ([PRTOE_entropy.md](PRTOE_entropy.md) §3). **What is owed:** (iii) "whatever
  begins, begins in the choice-free state" is a metaphysical premise made physical by the
  model's structure — flagged as the load-bearing philosophical joint.
 - **Falsifiers inherited:** any confirmed pre-genesis relic (kills the finite-past structure);

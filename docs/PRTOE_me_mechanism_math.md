@@ -497,3 +497,49 @@ variable is derived-structural (conditional on the census coupling form); the ga
 derived at class level (survival/exponential-power — the power form retired); the exponent is a
 hard step unconditionally, its value reduced to the closed form n(N_cell) with ℓ_seed the single
 owed number; C_ref is an input.
+
+## The Θ-averaging is forced, and by how much (2026-07-29)
+
+`scripts/theta_averaging_forced.py`, 10 controls including three anti-controls. This also **corrects a
+figure recorded earlier the same day**, which quoted Θ's scatter as m_e's.
+
+**What was already held.** Developed speckle sits at **⟨Θ⟩ = ½ exactly by the Beta(d/2, d/2) law**
+(`PRTOE_me_trigger.md`), against Θ = 1.9×10⁻⁶ laminar. Re-derived here by integrating the density
+rather than quoting moment formulae: mean ½ and **sd = 1/(2√(d+1))** at every d, hence exactly
+**0.25 in three dimensions**. So ⟨Θ⟩ = ½ is a *distributional fact*, not something the model arranges,
+and the 0.25 is that law's own spread.
+
+> **⚠ CORRECTION.** An entry recorded earlier today read *"pointwise Θ (sd = 0.25 in 3D) would scatter
+> m_e by 25% within a single absorber."* That quotes **Θ's** scatter as **m_e's**. Θ is a 0-to-1
+> coherence indicator and the shift it drives is ε·Θ, so a Θ scatter of 0.25 induces an m_e scatter of
+> ε × 0.25 = **3.14×10⁻³ — 0.31% of m_e, not 25%.** Off by a factor 80. (It is 50% of the *mean shift*
+> ε⟨Θ⟩, which is the nearest true statement to what was written, and still not it.)
+
+**The averaging is nonetheless forced, and now by a number rather than a feel.**
+
+| | scatter in δm_e/m_e |
+|---|---|
+| pointwise, one cell | 3.14×10⁻³ |
+| averaged over N cells | 3.14×10⁻³/√N |
+| at the recorded N = 10⁹ | **9.9×10⁻⁸** |
+
+Astrophysical constraints on μ = m_p/m_e variation sit in the 10⁻⁵–10⁻⁷ range depending on the
+system, so the pointwise value is excluded by four to five orders of magnitude and the averaged one is
+not.
+
+> **Run backwards, the cell count is not arbitrary.** Reaching 10⁻⁷ requires N > 9.83×10⁸, and the
+> corpus records 10⁹ — a ratio of **1.017**. The recorded cell count is, to within 2%, exactly the
+> number that brings speckle scatter under spectroscopic bounds. The anti-control confirms this is
+> load-bearing: N = 1, 10², 10⁴ and 10⁶ all stay excluded, and only ~10⁹ clears.
+
+**So the debt is better stated and smaller than it was.** Not *"why does the coupling average"* as an
+open mechanism question — the observable **is** an average, because an absorption line forms across
+the whole column and each cell contributes its own m_e. What the model owes is a **check**, not a
+smoothing mechanism:
+
+> The same cell-to-cell scatter that averages away in the line **centroid** does not average away in
+> the line **width**. A 3.14×10⁻³ spread in m_e across cells implies an excess broadening, and whether
+> that survives observed line widths is a real, external, falsifiable test the corpus has not run.
+
+That is the honest next object for this docket — a residual that can be named, quantified, and handed
+to data.

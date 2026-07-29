@@ -70,7 +70,10 @@ fixed here:
 | **c**, **f̄** | the census fraction 9/10; the winding average 2/π | the amplitude's decomposition ε = c·f̄·α_c |
 | **τ** | T_c/m_e = **½ln2 = 0.34657** — the electron-coupled scalar's condensation temperature in electron-mass units, sourced by the Koide kernel through Parseval (T_c = 177.10 keV) | the dark-energy chain |
 | **ζ** | the genesis dilution T_dark/T_γ ∈ [0.25, 0.35] — the dark sector's temperature relative to the photons at genesis; sets ΔN_eff | the high-f configuration, the BBN books, the CMB-S4 falsifier |
-| **ξ** | a *length*: the medium's coherence length. Bare ξ = 402 AU is the coherence hinge in the scale ladder; **ξ_K** = 256 Mpc is the Kibble domain size | the scale ladder, the vortex network, magnetogenesis |
+| **c_K** | the **Koide kernel constant**, c_K = Q/τ = 4/(3·ln2) = 1.92359 — dimensionless, and equal to the face spacing in string units, d·√σ. **Renamed from c₂ on 2026-07-28** because that symbol carried three unrelated meanings. **Working logs still write it c₂**; the two are the same object. It is load-bearing: τ = Q/c_K sources T_c and thence the dark-energy scale | the forced-combination file, the Koide chain |
+| **c_w** | the **winding-response quadratic coefficient**: writing the fractional mass shift as \|x\| + c_w·x² in the winding projection x = ε·cos θ gives f̄_eff = 2/π + c_w·ε/2. Dimensionless, negative, and only bounded to order unity by data (−1.80 fit-implied, −0.84 ± 0.52 winding ensemble, 1.9σ apart). **Renamed from c₂ on 2026-07-28.** Deriving it is docket #55 | the f̄ subleading price, P-2026-026 |
+| **c₂** | reserved for its **standard physics meaning only**: the *second sound speed* of Landau two-fluid hydrodynamics, c₂ = c₁/√d = √α·c ≈ 0.0854c. **A velocity.** Not to be confused with c_K (dimensionless, +1.924, a string spacing) or c_w (dimensionless, ≈ −1, a Taylor coefficient). The three were checked in the 2026-07-28 sweep and are genuinely distinct — different dimensions, values differing by a factor 22, and no relation claimed anywhere in the corpus. The near-coincidence \|−1.80\| ≈ 1.92 is accidental: the same quantity's other determination is −0.84. **A fourth usage, found on the sweep's second pass and recorded so the count is not overstated:** working logs also write c₂ as an ordinary *indexed* coefficient in local polynomial fits (e.g. c₂A² alongside c₃, c₅ in a thermal expansion). That is generic subscript notation rather than a named constant, and context makes it plain, but it means "c₂" in a working log should be read from its neighbours rather than from this glossary | the second-sound prediction, the isocurvature phase speed |
+| **ξ** | a *length*: the medium's coherence length. Bare ξ = 402 AU is the **coherence hinge** — it falls between the planetary system (~40 AU) and the Oort cloud (~10⁴⁻⁵ AU), so structures above it span many coherence cells and structures below it sit inside one. That is a property of ξ itself; the scale ladder it used to be quoted from was retired 2026-07-28 as a restatement of the virial theorem. **ξ_K** = 256 Mpc is the Kibble domain size | the medium's own properties, the vortex network, magnetogenesis |
 | **ξ_H** | the non-minimal curvature coupling of a scalar (the standard gravitational meaning, as in the weight 1/6 − ξ) — unrelated to the lengths above | the induced-G sector, P-2026-045 |
 | **n** | the genesis winding integer, n ≳ 1.65 (a band of 10–30 only for a torus far above its floor) — the one topological draw | the comb, the helicity sign, the matter asymmetry |
 | **L**, **χ_\*** | the torus's compactification scale (≥ 27.6 Gpc); the comoving distance to last scattering (13.76 Gpc) | the low-ℓ sky, the winding comb |
@@ -100,9 +103,14 @@ fixed here:
  reads 70.9–71.3); the coupling's legality is closed by the model's own coupling law
  (sector-internal coupling is permitted; the mechanism file states the three tests). The
  screening computation, open since 7 July, was **delivered on all four of its items** on
- 2026-07-18. What remains is the observational side: the 21-cm edge shape decides between the
- thermal and environmental readings, and the DESI forest cross-calibration adjudicates the
- supernova fork.
+ 2026-07-18. What remains is the observational side. **That side got sharper, not softer:** the
+ 21-cm edge shape no longer *selects between* a thermal and an environmental reading, because the
+ thermal one was retired on 2026-07-16 as an illegal step — a global gate switching off is a
+ dynamical discontinuity, and it is neither quantized, topological, nor a protected zero, so no
+ exemption covers it. **The model is committed to the environmental reading** (the structure-tracking
+ fade over z ≈ 30–60), which means a confirmed sharp global step in the edge now counts **against**
+ the model rather than choosing one of its branches. The DESI forest cross-calibration still
+ adjudicates the supernova fork.
 - **The electroweak anchor is a mechanism, not a measurement.** The chain from the Planck floor
   to a few TeV is derived end to end — the pairing channel, the screening constant, the measure,
   the shell cutoff — but its *precision* is a factor of a few: **0.55 to 1.78 TeV** (first sized

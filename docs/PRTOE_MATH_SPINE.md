@@ -7,7 +7,10 @@
 > τ is sourced by the lepton-mass relation, and nothing cosmological enters. The linear-algebra
 > kernel fixes its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
 >
-> > **τ = ½ln2 = 0.34657 ⟹ T_c = 177.10 keV ⟹ ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**
+> > **τ = ½ln2 ⟹ T_c ≈ 177 keV ⟹ ρ_Λ¼ lands on the observed dark-energy scale, with nothing
+> > cosmological in the chain.** *(An existence claim. The decimals are given in
+> > [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), where the radiative control
+> > that would be needed to defend them is also priced.)*
 >
 > descending from Q, a lepton-mass fact measured to ten parts per million, through an exact identity
 > ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
@@ -43,10 +46,16 @@ PRTOE_me_mechanism_math.md (electron-mass sector detail), PRTOE_cyclic_torus_gen
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dCDF fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[**MEASURED**, confirmed three independent ways: the coherence length ξ = ħ/(m c_s) returns
-398 AU against the recorded 402; the Schive core radius returns 7.14 pc against the recorded 7.0 for
-a 10⁹ M☉ halo; and the superradiance window lands on its recorded 6×10⁸–3×10⁹ M☉ — **that third one
-is support and exposure in the same object**: the band is populated and carries high measured spins,
+[**MEASURED** via the onset clock. **The "three independent ways" wording is withdrawn
+(2026-07-28, circularity sweep, check 34)** and the three legs now read: **(1) ξ is circular** —
+ξ ≡ ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is itself computed from m, so 398
+against 402 compares two computations from the same input, differing by rounding. No measurement of
+the coherence length exists. **(2) the Schive core radius is unresolved but may be real** — the
+external relation goes as 1/m and the model's own as 1/m², so they intersect at one m only and
+agreement *would* pin it, provided the model's normalization was not set from this comparison
+(provenance not established). **(3) the superradiance window** returns 7.14 pc / its recorded
+6×10⁸–3×10⁹ M☉ — **and that third one is support and exposure in the same object**: the band is
+populated and carries high measured spins,
 and the model brings no defence there, the λ-quench margin computed at its own quartic and mass
 being −83.7 to −85.8 decades across α_g = 0.1–0.5, so P-2026-034 stands or falls on the spin
 measurements alone. Under the onset clock T_on = √(m·M_red/0.61) this mass sits at
@@ -141,7 +150,7 @@ running instrument:
 > product. Substituting α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical
 > to 4×10⁻¹⁹):
 >
-> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — +0.44%** *(an existence claim; the quartic sits past perturbative control, so the digits are not a precision claim — head of this file)*
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — a +0.44% OFFSET, i.e. ~1.8σ on the observational error** *(2026-07-28: the theory side carries no free parameter, so the 0.44% is a discrepancy rather than a tolerance; ρ_Λ¼ inherits ~0.25% from Ω_Λ's ~1%. The claim is that the chain lands on the right SCALE, not on the value — the quartic sits past perturbative control, so the digits are not a precision claim — head of this file)*
 >
 > | factor | owner | why |
 > |---|---|---|
@@ -334,10 +343,31 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 
 > **Read 7a–7c with their verdict, which is below in the addendum and is adverse.** The full-cycle
 > KP solve fired the internal falsifier: the clean Route-D prediction is dead, and what survives is
-> a narrow imminent-turn corner needing a favorable alignment the priors do not favour. The running
-> Route-D chain is the single decider. **P-2026-018 (w = −1 rigid) is the standing branch.** The
+> a narrow imminent-turn corner needing a favorable alignment the priors do not favour.
+> **P-2026-018 (w = −1 rigid) is the standing branch.** The
 > sections below record the mechanism as it was worked out; the addendum records what happened to
 > it.
+>
+> **Correction, 2026-07-28: there is no running Route-D chain, and the one that ran could not have
+> decided anything.** This passage previously named it "the single decider". On the box,
+> `cmp_prtoe_routeD` holds **exactly one** chain file — 11,508 steps, 363 accepted (3.2%
+> acceptance), **last written 2026-07-20**, with a header-only progress file. The blocker is
+> structural rather than temporal — *though not in the way this passage first stated it (corrected
+> 2026-07-29).* It previously read: "the Gelman–Rubin statistic is a between-chain quantity, so a
+> one-chain run yields no convergence diagnostic **however long it runs**." **That is false.** When
+> only one process is running, the sampler splits the single chain into `Rminus1_single_split`
+> segments (default 4) and computes R−1 *across those segments* — a within-chain split-R̂. Other
+> single-chain runs on this box did record one (R−1 = 13.25 at N = 3744; R−1 = 40.36 at N = 832), so
+> the statistic is produced, and is comparable across them.
+>
+> **The real objection is sharper, and it survives.** A split-R̂ compares segments of *one*
+> trajectory, so it **cannot detect a chain confined to a single basin** — every segment shares the
+> confinement. A between-chain R−1 can, because independently seeded chains would have to agree. The
+> failure mode that actually matters here is precisely multi-modality, so a one-chain run supplies a
+> number that is *blind to the thing being tested.* Deciding this fork from the model's own chains
+> therefore still requires a multi-chain relaunch — **which has since been done** (2 ranks, launched
+> 2026-07-28 22:51, healthy at 21–24% acceptance, burning in). The external adjudicator (DESI DR3) is
+> unaffected and still decides the branch.
 
 **7a. The sequestered floor — a route that does not work.** A Kaloper–Padilla vacuum-sequestering
 attempt to fix the dark-energy value from the cosmic expansion history was checked and fails: it
@@ -696,7 +726,13 @@ fork with a signature moves an unmeasurable quantity. That is a permanent grade 
 and it belongs beside c on the list of things the model counts on rather than derives.
 
 **Standing:** open pending the named referees, DESI-capped; the branch is registered
-(P-2026-056) with its guards discharged, and its adjudicating chain is running.
+(P-2026-056) with its guards discharged. Its adjudicating chain was **not running** as of
+2026-07-28 (this sentence previously said it was); `cmp_prtoe_routeD` then held a single chain file,
+last written 2026-07-20. It has since been **relaunched with two ranks** (2026-07-28 22:51, healthy
+at 21–24% acceptance, still burning in). Note the earlier gloss here — that a one-chain run "cannot
+yield a convergence statistic at all" — was **wrong and is corrected in §7**: a single chain does
+yield a within-chain split-R̂; what it cannot do is detect confinement to one basin, which is the
+failure mode at issue. **DESI DR3 remains the adjudicator and is unaffected.**
 
 *(Every debt on this page names where it is closed or what it waits on. Bare "open" is not a
 status: [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) resolves task numbers, and
@@ -786,7 +822,14 @@ universe rung SITS on its own skeleton: 2.28 vs 2.29×10⁻⁴); the corrected o
 nucleus > UNIVERSE > atom > star > galaxy — the universe is the tightest GRAVITY-made
 structure); **the hinge: ξ = 402 AU inside the solar-system rung — one substrate boundary in
 the whole descent**; the double-ladder alignments graded per-rung (2 definitional, 3 loose —
-no mechanism); the energy cascade still open as the dynamical half.
+no mechanism). **The ladder is RETIRED and the energy cascade CLOSED as malformed
+(2026-07-28, `scripts/scale_ladder_virial_check.py`):** the per-rung grading did not go far
+enough. Unpacking α_eff = v/c shows the "loose" rungs are also definitional — ½α_eff² = ½v²/c²
+is the virial theorem, verified against GM/2rc² to machine precision — and the atomic rung is
+the Rydberg. All five rungs are one textbook identity written five times, so there is nothing
+for an energy cascade to be the dynamics of. **What survives is the hinge alone:** ξ = 402 AU
+sits between the planetary system and the Oort cloud, one substrate boundary in the whole
+descent — a statement about ξ, now filed with the medium's properties.
 
 **THE WINDOWED BBN VERDICT:**
 T_c (177.10 keV on the kernel's τ; 179 keV as the BBN pipeline codes it — the conclusion is

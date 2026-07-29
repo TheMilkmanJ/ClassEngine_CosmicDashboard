@@ -28,6 +28,16 @@ number, ε, applied everywhere atomic physics appears.
   sign ς = −1). Closes roughly half the SH0ES gap, refuses the rest, and pre-registered the TRGB side
   of the calibration dispute. *Production, but SH0ES-conditional.*
 - **w = −1 exactly** (a protected ground state, no thaw). *Derived*, and DESI's direct target.
+  **Read this as one branch of a live fork, not as the model's single position (clarified
+  2026-07-28).** P-2026-056 registers an explicit either/or and the two branches disagree about
+  exactly this row: under **P-2026-018** the floor is a bare constant, w = −1 holds forever, and
+  "no thaw" is unqualified and correct. Under **Route-D** the floor is leaving its ground state
+  *now* — 1 + w_floor(a) = thaw·a³ with thaw ∈ [0.08, 0.14], so w₀ ∈ [−0.92, −0.86] today — and
+  `PRTOE_coincidence_problem.md` computes that era's end at t_turn = ln(1/√A_s)/√(3/2) = **8.16
+  H⁻¹**, a ≈ 2.0–2.8. Route-D is nested at the prior's floor (thaw ≤ 0 recovers w = −1), and
+  **DESI DR3 adjudicates**. A true phantom crossing kills both. So the honest headline is that the
+  model bets on rigidity while carrying a pre-registered thawing alternative, and the coincidence
+  file's turnaround belongs to the *alternative* — it is not a qualification on w = −1.
 - **The multi-messenger single-ε lattice** — one amplitude at window-specific weights across CMB,
   BBN, 21-cm, Koide, with no per-window exits. *Grammar/production*; individual windows carry their
   own grades (§3).
@@ -43,7 +53,14 @@ number, ε, applied everywhere atomic physics appears.
   (P-2026-051) — candidate-grade throughout, stated as such.*
 - **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived conditional on
   ξ_H = 1/6*, an unmeasured Standard-Model input the balance requires; independent of the
-  pairing sector.
+  pairing sector. **Prior art, recorded 2026-07-28 so this is not read as a novel result:** the
+  same conclusion — a gravitational requirement forcing exactly three generations and demanding
+  right-handed neutrinos, at 48 Weyl fermions — is published in [Navarro-Salas 2024,
+  arXiv:2403.13201, *Classical and Quantum Gravity*], derived instead from exact conformal
+  symmetry (both trace-anomaly coefficients vanishing). The two are **not** independent
+  confirmations: solved out, both reduce to N_½ = 4·N₁ over the same roster, and the published
+  route needs the same conformal-coupling premise. What remains unsurfaced is this specific
+  route — the finiteness condition at the induced-Newton-constant order — not the conclusion.
 
 ## 3. Weakest links — stated plainly
 - **(a) The dark-energy headline result's "+1.5%" is an artifact; its real prediction is +0.44% and
@@ -80,6 +97,71 @@ number, ε, applied everywhere atomic physics appears.
   pre-registered win line only slightly, inside the estimator's own systematic error; without SH0ES
   the model does not win. The easing is shared by the whole varying-m_e model class — it adds no
   independent evidence for the superfluid ontology.
+  **And it is no longer the only number on the table — added 2026-07-28 after an external reviewer
+  observed, correctly, that a stale Laplace estimate should not headline while live chains are
+  running.** The live comparison on the current pair is **a wash, and quotable in neither
+  direction.** Best −logpost stands at **1377.89 (model)** against **1379.79 (ΛCDM)** — nominally
+  1.9 log units the model's way. **That figure is worse than unconverged: it is one rank of three.**
+  Checked the same day (`scripts/rank_basin_diagnostic.py`), the model's three parallel chains sit at
+  best fits of **1377.9, 1610.6 and 1440.6**, with H₀ = 69.5 / 64.0 / 64.8 and dcdf_rho_inf =
+  0.700 / 0.595 / 0.635 — **three different basins, separated by up to 317 standard errors on a
+  single parameter (H₀).** *(Corrected 2026-07-29. This figure was published as 23,855 s.e. and that
+  was overstated 75×, for two compounding reasons, both found by a second instrument —
+  `scripts/rank_separation_ess.py`. First, the ranks were compared at their own differing sample
+  counts rather than truncated to the shortest, which shrinks the error bar of whichever rank ran
+  longest: matching them gives 2,102. Second and larger, the standard error divided by the raw sample
+  count, treating autocorrelated Markov-chain samples as independent. The measured integrated
+  autocorrelation time is τ ≈ 26–46, so the honest effective sample size is ~6–9 per rank-half, not
+  467, and the corrected separation is **317 s.e.** The direction of the conclusion is unchanged and
+  in fact sharpened — see the reference chain immediately below.)* The reference chains are **not
+  merely better behaved: on this corrected measure they are consistent with a single basin**, worst
+  separation **1.6 standard errors** (published as 12.6, same defect). They remain unconverged for a
+  different and now clearer reason — with τ ≈ 23–68 each rank-half carries only ~5–19 effective
+  samples, which is what R−1 = 1.011 is reporting. The cause is diagnosable: **acceptance is 5.3–6.2%
+  for the model chain and 8.5–8.9% for the reference, against a ~25% target** — the proposal is
+  poorly matched to the posterior, and the rank with the *most* samples (1663) sits 233 log units
+  *worse* than the rank with the fewest. *(A reader checking this should know which counter to read.
+  These are the sampler's own step counters — accepted steps divided by steps taken. The run's
+  `.progress` file carries a column also named `acceptance_rate`, and it reports ≈0.97. That column
+  is a different quantity: stored rows divided by the sum of their weights. Under fast-parameter
+  oversampling each accepted sub-step is written as its own row, so weights sit near 1 and the ratio
+  is pinned near unity by construction — for these runs it reads ≈0.97 whatever the proposal is
+  doing, and cannot diagnose proposal health. Verified against both counters on the live reference
+  chain: 2154 rows / 2221 total weight = 0.970, against 745 accepted / 8018 steps = 9.3%.)*
+
+  **The proposal was never re-learned — and the reason, corrected 2026-07-29, is not the one first
+  recorded here.** This page previously said the lock was cobaya's R−1 threshold: that it re-learns
+  only once R−1 falls below 2.0 (30 early), which the model chain never reached, so "the mechanism
+  that would fix the proposal is gated behind the problem it would fix." **That gate was never
+  reached.** Re-reading the archived run's log isolates the actual mechanism, and it is simpler and
+  more instructive:
+
+  > Learning is a **collective MPI checkpoint**. Every rank must reach a multiple of `learn_every`
+  > = 40·d accepted samples before any of them may proceed. With d = 13 that is **520 per rank**, and
+  > the three ranks held **467 / 1684 / 658**. The log shows ranks 1 and 2 announcing *"Ready to check
+  > convergence and learn a new proposal covmat (waiting for the rest…)"* and rank 0 never doing so.
+  > **"All chains are ready" never appears, and no convergence statistic is ever computed** — which is
+  > why that run's `.progress` file is empty. Two ranks sat blocked, indefinitely, waiting for a third
+  > that was 53 samples short.
+
+  So the R−1 threshold is a real gate that would plausibly have bitten *next* — with three basins 233
+  log units apart, R−1 would have far exceeded 30 — but it was never tested, and **the claim that
+  "more wall-clock at these settings will not fix this" was not established.** Rank 0 needed 53 more
+  accepted samples to trigger the first collective learn. What is established, and unchanged, is that
+  **the proposal was never re-learned and the three ranks never merged.** The remedy applied (reseed
+  the covariance from the rank that found the good basin) was the right action under either mechanism,
+  and it worked: acceptance moved 5.3–6.2% → 31.2–31.9%. *(The earlier "confirmed by file times"
+  evidence — the model's covmat never changing — is consistent with this but proves less than claimed:
+  an unchanged covmat means nothing until `learn_every` has actually been reached.)* Three further reasons
+  forbid banking the number even if the basins merged: the model's chain has **1.79×
+  more samples**, and best-so-far is a running minimum that favours the longer chain even for
+  identical models; **neither chain is converged**, so both figures are upper bounds still falling;
+  and **best-fit is not evidence at all** —
+  it carries no parameter penalty, and Δln Z is what decides. A reading circulating externally has
+  the model ~41 log units *behind*; that is stale (it predates the model's best falling from 1421.6),
+  but correcting it buys nothing, because the honest current state is **no usable evidence
+  comparison from the live chains**, and the +2.635 remains what it was: marginal, conditional, and
+  the wrong kind of number to lead with. Verified: `scripts/live_evidence_honest_read.py`.
 - **(d) The electron-coupled scalar's thermalisation problem — adjudicated (2026-07-18): the
   recorded configuration is BBN-fatal; one repair branch survives, at a named price.** The
   non-thermalisation escape was built and adversarially tried: **as recorded** (the electron-CW
@@ -150,6 +232,46 @@ number, ε, applied everywhere atomic physics appears.
   determinations typically carry 1–3%. **The test may not be performable at the precision the claim
   requires** (ANN-2026-026).
 
+  **And the model carries a second estimate of τ that disagrees with its own headline (surfaced
+  2026-07-28).** The kernel gives τ = ½ln2 = 0.34657 from Parseval once Q = 2/3. But scaling the
+  known lattice anchors down to SU(2) with N_f = 3 — the corpus's own "dof-family" reduction, ~42%
+  convention-clean — gives **τ ≈ 0.355–0.382, centre ~0.36**. Since τ scales ρ_Λ¼ *linearly*, that
+  band puts the dark-energy scale at **+2.9% to +10.7% above observation, centre +4.3%** — roughly
+  **ten times** the +0.44% the headline quotes.
+
+  Stated fairly in both directions: the dof-family figure is an estimate from scaling, not a
+  measurement, and `PRTOE_DERIVATION_HUNT.md` notes it "points the right way on physics"
+  (N_f/N_c = 1.5 against SU(3)'s 1.0). It is not evidence the kernel is wrong. **But it is the
+  model's own independent handle on the same quantity, and it does not agree with the kernel to
+  anything like the precision the headline advertises.** A reader comparing +0.44% against a
+  self-consistent chain should know the chain's other estimate of its key input says +4%. This was
+  recorded in the derivation hunt and had not reached either the dark-energy file or this page.
+
+- **(k) The electroweak anchor is advertised far tighter than its own construction supports, and its
+  largest exposure was absent from this page until 2026-07-28.** The hierarchy chain quotes
+  M_anchor = 1576 GeV against 4πm_H = 1574, "+0.14%". Two ambiguities the file itself records make
+  that precision unearnable. §6d carries a **factor-2 convention** (the exact gap-equation solution
+  gives 3153 GeV; the recorded figure absorbs the two). And §6f is named in its own file as *"the
+  single largest exposure in the hierarchy chain"*: the gap equation's kernel is electromagnetic —
+  Coulomb exchange, Thomas–Fermi screening, e² = 4πα_c — while the coupling is evaluated at zero
+  momentum and not allowed to run, eighteen orders below the pairing scale. **Both readings cannot
+  be held at once, and the chain currently holds both.**
+
+  Two 2026-07-28 results sharpen this rather than relieving it. First, horn (a) of that fork
+  ("just evaluate α at the pairing scale") **double-counts** — §6c already carries the medium's
+  polarization explicitly as a Thomas–Fermi mass, and the screening it applies, ln(1+1/b) = 4.287,
+  is **62× the entire QED run to the Z pole**. But second, §6e settles the constituents as
+  *compensated* rather than uncharged (n_electron = n_hole, charged carriers), so a residual
+  Standard-Model run survives on top of the screening and costs a further **×5.6** — adverse.
+  Composed with the convention factor, the honest band is **1576 → 17,580 GeV, a factor of 11**,
+  with 4πm_H at its very bottom edge. With ∂lnM/∂lnk = 33.5, quoting 1576.1 rather than 1576 would
+  need k to eight digits, which nothing supplies.
+
+  **The supportable claim is that a construction carrying no electroweak input lands at the
+  electroweak scale within a factor of a few, every named residual adverse.** That is non-trivial
+  and worth reporting. It is not a sub-percent result, and §6d's own phrase — "a factor-of-a-few
+  band" — already said so before this page did.
+
 ## 4. Current evidence class
 **FLAT / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
 crossed a pre-committed threshold but adds no independent evidence for the ontology. **And it stands
@@ -160,6 +282,35 @@ evidence class as: one marginal Laplace estimate, whose margin over the win line
 estimator's own systematic, with no nested number in prospect. What that verdict now depends on is
 the MCMC chains it is computed from, which makes their convergence — not any separate referee — the
 thing standing between the model and its headline evidence claim.
+
+**And that distance is now measured, 2026-07-28. It is large.** No chain in this corpus has ever
+reached its own stopping target of R−1 = 0.05:
+
+| chain | last recorded R−1 | over target |
+|---|---|---|
+| `cmp_prtoe_conv_desi` | 13.25 | **265×** |
+| `cmp_prtoe_zon_disp` | 17.81 | **356×** |
+| `cmp_prtoe_zon` | 40.36 | **807×** |
+| `dyad_mnu_mcmc` | *none recorded* | unknown — no `.progress` file exists |
+| the running pair (`cmp_lcdm_mnu_bbnfix`, `dyad_mnu_bbnfix`) | *not yet produced* | still in burn-in at 5.5 h |
+
+Two consequences a reader should carry. **First**, the parameter tables in
+[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) are formatted as posterior summaries but are not;
+their 68% limits should be read as lower bounds on the true width, since a wandering chain has not
+visited the tails that would earn them.
+
+**Second — and this row moved within a single day, which is the point of it.** An earlier reading
+this session put the model **41 log-units behind** ΛCDM+mν on an identical ten-likelihood stack. Six
+hours later the model's leading rank had descended from −logpost 1421.6 to **1379.2**, against the
+reference's best **1379.8** — a gap of 0.6 in the model's favour rather than 41 against it. The
+descent is monotone by fifths (1490 → 1423 → 1410 → 1387 → 1379) and its minimum still sits in the
+most recent segment, so **it has not stopped either.**
+
+Neither number was a verdict and neither should be quoted as one. What a reader should take is the
+shape: **the model's chain is still finding its basin, one rank of three is in it (the others sit at
+1612 and 1443), and the comparison will not mean anything until all three mix.** Recorded live in
+`working_logs/_runs/chain_status_2026-07-28.md`. The honest present state is *not yet measurable*,
+and anyone quoting a number from this pair today — in either direction — is quoting burn-in.
 
 ## 5. What would kill it (pre-registered)
 1. DESI DR3 confirms w ≠ −1.

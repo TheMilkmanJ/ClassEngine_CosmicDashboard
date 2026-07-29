@@ -168,6 +168,37 @@ included even though that calibration pulls the other way. That figure is not ye
 chains that underwrite it are still being brought to convergence under a corrected sampler
 configuration, and the value may shift.
 
+**Where those chains stand as of 28 July, and the honest answer is worse than "not yet final".**
+On the current matched pair the best fit is 1377.89 for this model against 1379.79 for ΛCDM —
+nominally 1.9 log units our way. **That number should not be used, and we would rather say so than
+have it quoted back.** Checking whether the three parallel chains agree about where the posterior
+is, they do not: our three sit at best fits of **1377.9, 1610.6 and 1440.6**, with H₀ = 69.5, 64.0
+and 64.8 — three different regions, not one distribution. The 1377.89 is a single chain that found a
+good region while the other two did not. The reference model's chains are far better behaved
+(spread 0.43) but are not converged either. The proximate cause is visible: acceptance sits at
+**5.3–6.2%** for our chains and 8.5–8.9% for the reference, against a well-tuned target near 25%,
+so the proposal is poorly matched to the posterior and the chains explore slowly. And the proposal
+was never re-tuned during that run: in the sampler we use, re-tuning is a **collective checkpoint**
+that every parallel chain must reach before any of them may proceed, and one of our three fell short
+of it. The log shows the other two announcing that they were ready and waiting, indefinitely, for a
+third that was 53 samples away. **No convergence statistic was ever computed for that run** — which
+is why its progress file is empty. We have since reseeded the proposal covariance from the chain that
+found the good region, and acceptance moved to **31%**, close to the well-tuned target.
+
+*(An earlier draft of this paragraph gave a different reason — that re-tuning is gated behind a
+convergence threshold our chains never reached, and therefore that more running time could not help.
+That gate is real and would plausibly have bitten next, but it was never reached, so that claim was
+not established and has been withdrawn. The observable fact, unchanged, is that the proposal was
+never re-tuned and the three chains never merged.)*
+**We do not claim the comparison as a result, for three further reasons.** Our chain has 1.79 times more samples, and a best-fit value is a
+running minimum that favours the longer chain even when two models are identical. Neither chain has
+converged: ΛCDM sits at R−1 ≈ 1.0 and ours has no convergence statistic yet, so both numbers are
+upper bounds that will keep falling. And a best fit is not an evidence comparison at all — it
+carries no penalty for parameters, which is the whole point at issue when one model has fewer of
+them. **The honest position today is that the live comparison is a wash and cannot be quoted in
+either direction**, and that the standing evidence number remains the marginal, SH0ES-conditional
+Laplace estimate described below.
+
 **The current test, with a caveat found while checking it.** The zero-parameter evidence
 comparison freezes amplitude, tilt, coupling and transition epoch in advance, against ΛCDM at full
 freedom, so any stated number being wrong collapses the model's own evidence. Nested sampling was

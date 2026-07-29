@@ -129,7 +129,7 @@ c₂ = c₁/√d gives c₂ = √α·c *if* α_c = 3α), which
 weight* — the claim rewritten, not evidence for it. **#129 closes negative:** supplying a section
 scale cannot upgrade the ladder to an independent derivation of the bet, because the section is
 ill-posed for one medium's co-modes; and any residual "matching length," were it well-posed,
-would inherit the constituent-level build (the constituents [PRTOE_light.md](PRTOE_light.md) §6
+would inherit the constituent-level build (the constituents [PRTOE_light.md](exploratory/PRTOE_light.md) §6
 records as not yet specified), not further analysis here. The ladder's whole content is the
 consistency of α_c = 3α with Landau's √d and an impedance-matched internal junction; its weight
 is the same-response identification's (piece 1 below), and it carries none of its own.
@@ -163,7 +163,7 @@ between them. Neither is computed anywhere; the relation is only ever run backwa
 definition, since c_s = √α_c is a BEC sound-speed relation *adopted*, and once it is written
 "α_c sets the compressibility" is true by construction and carries no independent content.
 Computing the two channels needs the medium's constituents, which are recorded as not yet specified
-([PRTOE_light.md](PRTOE_light.md) §6). **A posterior cannot substitute, and the reason is a type
+([PRTOE_light.md](exploratory/PRTOE_light.md) §6). **A posterior cannot substitute, and the reason is a type
 mismatch rather than a question of precision:** the α_c chain returns a scalar, and no scalar
 posterior separates *"α_c = 3α because one response sets both"* from *"α_c happens to equal
 0.0219"*. The owed object is an identity between two response functions, and an identity has no
@@ -194,7 +194,7 @@ sharpened question, answerable without specifying the constituents, is whether t
 an emergent Lorentz invariance at the scale the photon coupling is read.
 
 **That question is answered by recorded material, and the answer makes piece 1 empty rather than
-open.** [PRTOE_special_relativity.md](PRTOE_special_relativity.md): *"Lorentz symmetry is exact in
+open.** [PRTOE_special_relativity.md](exploratory/PRTOE_special_relativity.md): *"Lorentz symmetry is exact in
 the IR limit and approximate fundamentally — the medium has a rest frame."* α_EM is read at q = 0,
 which is the IR limit. And [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6 records the
 standing basement as a **Fermi point, μ = 0** (the Volovik frame), noting that the finite-μ Fermi
@@ -249,7 +249,7 @@ i.e. 23.5%** (±2 points on those values' own ±2 scheme band), and the constitu
 76.5%. The recorded figure is **1.86× too large for the quantity the identification actually
 uses**, and the direction is adverse: the coupling α_c is being tied to is *more* the constituent
 level's bare value and *less* the medium's own loop than the condition states. **A second
-inconsistency rides on the same number:** [PRTOE_light.md](PRTOE_light.md) marks the 44%
+inconsistency rides on the same number:** [PRTOE_light.md](exploratory/PRTOE_light.md) marks the 44%
 explicitly as *"an illustration tied to that reading scale, not an invariant"*, while this row and
 P-2026-040 make "base = α" stand or fall with it — and this same row commits α_c to being a
 **scale-independent** medium constant. A scale-independent claim cannot rest on a quantity its own
@@ -355,7 +355,10 @@ high-decay-constant field of §8 item 1b (§6).
 
 - **Cosmology (safe):** the ~MeV dark baryons cannot overclose. To be the dark matter they would need a
   dark asymmetry ~1700× the visible one; at any natural asymmetry they are ≤10⁻³ of it, and symmetric
-  relics annihilate away (strong coupling).
+  relics annihilate away (strong coupling). *(Verified 2026-07-28: n_dark/n_b = (Ω_DM/Ω_b)(m_p/m_dark)
+  with Ω_DM/Ω_b = 5.364 returns 1700× at **m_dark = 2.96 MeV**, so the recorded figure assumes the
+  few-MeV end of "~MeV". At 1 MeV the bound is **5033×**, a factor 3 stronger — the conclusion is
+  unaffected either way, but the number is mass-specific and should be quoted with its mass.)*
 - **Footprint (falsifiable).** A group-agnostic scan over g_dark = 2, 4, 8 gives
   **ΔN_eff ≈ 0.05–0.3**. With the group fixed to SU(2) (§6), the count is determined — and
   **pseudo-reality enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14
@@ -861,6 +864,18 @@ degenerates, so its maximum is **0.585, short of 2/3 by 12.2%.** T6's "no m₁ b
 a proof rather than an observation, and the margin is not marginal. **The reading therefore stays
 untestable inside the corpus's structure**, which is its status rather than a step toward one.
 
+> **⚠ QUALIFIED 2026-07-29 — the "proof" is a proof about ONE SIGN BRANCH.** Q = Σm ⁄ (Σ√m)² depends
+> on the signs chosen for the square roots, and the 0.585 ceiling assumes all three positive. The
+> ring form √m_k = a + 2|b|cos(φ + 2πk/3) generates a **negative** √m_k whenever 2|b| > a, and only
+> m = (√m)² is observable. On the **(−,+,+) branch Q_ν crosses 2/3 at m₁ ≈ 0.00040 eV**
+> (`scripts/neutrino_Q_sign_branch.py`, which reproduces the 0.585 ceiling exactly as a control).
+> So "no m₁ brings it to 2/3" is not a proof as stated — it is a proof given an assumption that was
+> never written down. Whether the negative branch is physically admissible is a separate and open
+> question. **Note the practical consequence runs the other way from the rhetoric here:** a fourth
+> measured mass governed by the same node may exist after all, since Brannen's φ = 2/9 + π/12 fit
+> reproduces the measured Δm²₃₁/Δm²₂₁ to 0.5% on exactly that branch and pins Σm_ν = 0.0585 eV —
+> which is a testable number, not an untestable reading.
+
 **The same result confirms the selector from a second direction, and that is the return.** T6
 concludes from the neutrino failure that "whatever pins the cone acts in the charged sector
 specifically". The basement arrives at the same place for an unrelated reason: Thomas–Fermi weights
@@ -952,7 +967,7 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
   C = R²(k_*ℓ_p)³/2π², the factor-250 convention spread, the C = 1.009 ± 0.014 data limit and the
   §6i joint all sit at one scale and never see the k-dependence. What dies is the extrapolation of
   a single ξ off the pivot, and the census's typing as an instant.
-  **A structural mark points the same way**: [PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) keeps the
+  **A structural mark points the same way**: [PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md) keeps the
   census imprint and the phase-slip quantization event as *separate adjacent stages*. The
   quantization event **is** a freeze-out and keeps its criterion; the census imprint is not, and
   borrowing across that boundary is what produced the collision.
@@ -1026,10 +1041,13 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
   linearity exponent exhibited at additivity level (shared with A_s, one assumption not two)
   and independently data-selected; the Δ² subdominance condition named.
 - **z_on = 4.03×10⁷ — a derived identity, not an estimate.** It is the H = m epoch of the fluid's
-  own mass, T_on = √(m·M_red/0.61) = 9.46 keV, and the mass carrying it (2.24×10⁻²⁰ eV) is confirmed
-  three independent ways: ξ = ħ/(m c_s) returns 398 AU against the recorded 402, the Schive core
-  radius returns 7.14 pc against 7.0 for a 10⁹ M☉ halo, and the superradiance window lands on its
-  recorded 6×10⁸–3×10⁹ M☉ band. *(The evidence run is frozen at a profiled 3.56×10⁷ instead — 0.053
+  own mass, T_on = √(m·M_red/0.61) = 9.46 keV. **The "confirmed three independent ways" claim on the
+  mass carrying it (2.24×10⁻²⁰ eV) was WITHDRAWN 2026-07-28** by the circularity sweep (check 34):
+  ξ = ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is computed from m too, so 398 against
+  402 is one computation compared with itself; the Schive comparison is unresolved (external 1/m vs
+  the model's own 1/m², which would pin m *if* the model's normalization is independent — not
+  established); and the superradiance band is priced elsewhere as an adverse exposure, so it cannot
+  also be support. The mass rests on the onset clock plus at most one unresolved check. *(The evidence run is frozen at a profiled 3.56×10⁷ instead — 0.053
   dex low, which under the same clock implies a mass 28% off and misses all three checks. The run
   grades a point beside the identity, not the identity.)*
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude
@@ -1163,15 +1181,30 @@ sharply m_μ/m_e is known, not how far apart the two watches sit. The conjunctio
 it is refuted by under one part per million ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 
 So the statement is not that the model is silent on the ratios — it is that the model
-**stakes** them on two numbers, neither of which is derived. A = √2 has seven recorded mechanism
-attempts and every one of them failed ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md));
-θ = 2/9 rests on the closure, which is structure-clean, post-hoc-found, and carries the standing
-objection that it sets an angle equal to a pure number and so holds in radians and in no other
-unit; and the scale M is located by nothing in the sector — the log coupling derives the ring's
-geometry and radius, but *A = R/M is a ratio to a centre no term in that energy locates*
-([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). **Candidate, gated.** It is the first
-row of the open surface below, and its referee is the lattice triple plus the P-2026-051 lock —
-not a flavour argument.
+**stakes** them on two numbers, neither of which is derived. A = √2 carries seven recorded
+mechanism attempts that failed ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)) and one that
+has not: the democratic construction, in which the condensate is one further node of the coupling
+graph rather than a backdrop
+([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). It stands on two stated claims — one
+structural, that the condensate is a node of the coupling graph whose couplings are fixed before it
+is pinned; and one dynamical, that the modes carry equal quanta rather than equal energy. The
+single coupling is not a third assumption: it follows from the first, since the complete graph on
+four nodes is edge-transitive. Candidate, not a bank.
+
+**That construction also supplies the centre this paragraph used to record as missing.** The
+complaint was that *A = R/M is a ratio to a centre no term in that energy locates*: a pure
+inter-generation coupling leaves the uniform mode a flat direction, so M floats and the ratio has no
+denominator. The bond to the condensate is that term. It is a restoring force toward the reference
+amplitude, and removing it returns the uniform mode to an exact zero mode — which is also why the
+construction predicts nothing for a neutral triple, whose bond to the condensate is weighted away by
+q². The centre is the condensate, and it is located by the same coupling that fixes everything else.
+
+θ = 2/9 still rests on the closure, which is structure-clean, post-hoc-found, and carries the
+standing objection that it sets an angle equal to a pure number and so holds in radians and in no
+other unit. That half is now known to be *unreachable* from the ring's own potential at any order,
+so its source must be external to the ring. **Candidate, gated.** It is the first row of the open
+surface below, and its referee is the lattice triple plus the P-2026-051 lock — not a flavour
+argument.
 
 **The mixing angles — silent, and the silence is constitutional rather than a gap.** The corpus
 contains no derivation, prediction or constraint of any mixing angle. PMNS enters exactly once,
@@ -1222,7 +1255,7 @@ entire remaining open surface is:
 | open object | what it decides | gated on |
 |---|---|---|
 | the Koide kernel chain's last stage (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the analytic steps are worked (the pacing-saturation step, the sign-chain walk); what stands between the chain and its grade is the first-roll sign run, then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
-| the additivity bottleneck — one assumption carrying three separate results (the anchor's −3/2, the A_s shot count, the n_s variance-linearity) | whether those three stand on one premise or need three | the ring-on-ring trial, which tests its Koide instance. *(The anchor's −3/2 itself is no longer open: it follows from a boost-dressed cutoff, a geometric mean and equipartition at additivity grade — hierarchy §2b.)* |
+| the additivity bottleneck — one assumption carrying three separate results (the anchor's −3/2, the A_s shot count, the n_s variance-linearity) | whether those three stand on one premise or need three | the ring-on-ring trial, which tests its Koide instance. *(The anchor's −3/2 itself is no longer open: it follows from a boost-dressed cutoff, a geometric mean and equipartition at additivity grade — hierarchy §2, part (b).)* |
 | the seat constant b | κ_m's exact value | the constituent-level build |
 | T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note APPROVED FOR CIRCULATION) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |

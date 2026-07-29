@@ -8,6 +8,36 @@
 > w = −1) is not recklessness; it is the method. **We bury what dies, with the why, and keep what
 > survives the full build.** This ledger is the record of that discipline, not a list of regrets.
 
+### THE SCALE LADDER — RETIRED, AND ITS DYNAMICAL HALF CLOSED AS MALFORMED (2026-07-28)
+
+**What it claimed:** that every bound structure in the universe obeys one grammar, the Bohr
+skeleton E_bind/(mc²) = ½·α_eff², with α_eff the rung's own coupling — nucleon through universe in a
+single column, "one grammar spanning everything." The dynamical counterpart, an *energy cascade*
+linking the rungs, was carried as open work (docket #11).
+
+**How it died:** by unpacking its own definition (`scripts/scale_ladder_virial_check.py`, 5 checks).
+The gravitational rungs define α_eff ≡ v/c, so ½α_eff² = ½v²/c² **is the virial theorem** with a
+symbol renamed. Checked against E_bind/mc² = GM/2rc² computed independently: identical to machine
+precision at 1 AU and 40 AU, because they are the same expression. The atomic rung's ½α² is the
+Rydberg — how the Bohr radius is derived in the first place. And the universe rung was already
+conceded as definitional in the ladder file itself ("dividing it by M₂ returns ½α_c² by
+construction"). **All five rungs are one textbook identity written five times.**
+
+**Why the earlier grading missed it.** MATH_SPINE graded the rungs "2 definitional, 3 loose — no
+mechanism," which was close but stopped one step short: *loose* and *definitional* are the same thing
+here once α_eff = v/c is substituted. A partial audit that names some rungs as empty can make the
+rest look earned by contrast.
+
+**What this closes.** Docket #11, the energy cascade, is **malformed rather than unfinished**. A
+cascade would be the dynamics connecting rungs, but the rungs are not coupled — a hydrogen atom's
+binding is not dynamically connected to a galaxy cluster's. They merely both satisfy a relation every
+bound system satisfies. There is nothing for a cascade to be the dynamics *of*.
+
+**What survives, on its own terms:** the hinge. ξ = 402 AU falls between the planetary system and the
+Oort cloud, so the descent from cosmos to atom crosses exactly one substrate boundary. That is a real
+model-dependent statement **about ξ**, and it is now filed with the medium's properties
+([PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md)) rather than quoted from a retired column.
+
 *The hygiene law: "Documenting failures is great, but things need to be
 separated. There should be a file specifically that labels failures, and keeps the main
 read gold." This is that file. The main read (INDEX → THREE_EQUATIONS → MATH_SPINE) states
@@ -888,7 +918,7 @@ A = √2 ⟺ R_c = M_c; that residual is still open.
 **Topology:** present discrete objects fix the scaffold (N_gen, Z₃, 120°), not A. No topological
 invariant in the corpus equals √2. Reopen only with a new index I such that A = f(I) = √2.
 
-**Lock 6:** a basement *target* ([PRTOE_light.md](PRTOE_light.md) §6), not a mechanism. Square
+**Lock 6:** a basement *target* ([PRTOE_light.md](exploratory/PRTOE_light.md) §6), not a mechanism. Square
 geometry that yields √2 fights Z₃; triangular geometry yields √3. Naming lock 6 does not pay it.
 
 ### The BBN witness's D/H chain — THE η-FLOW WAS SPENT TWICE, AND THE SHELF INHERITED A WITHDRAWN σ (2026-07-17)
@@ -1330,7 +1360,7 @@ stability window (α_d ≲ 2.2) tested only the symmetric breathing direction.
 Caveats before any downstream re-grade: classical point-face model, quadratic order
 only, fully relaxed Y-junction; quartic terms or junction physics could stabilize.
 Until that is checked, the equal-spacing premise used by the string-geometry
-coefficient c₂ = 4/(3ln2) carries an unpriced stability question.
+coefficient c_K = 4/(3ln2) carries an unpriced stability question.
 
 ### The ring's shape sector at third order — the classical layer does not stabilize the equilateral ring (2026-07-26, same-day follow-up)
 
@@ -1357,7 +1387,7 @@ result verifies to 2×10⁻¹⁰.
   the local saddle statement (k_E = −(3/2)α_d < 0) stands there.
 
 **Consequence, stated carefully:** the equal-spacing equilateral ring premise
-underneath the string-geometry coefficient c₂ = 4/(3ln2) — a support of the
+underneath the string-geometry coefficient c_K = 4/(3ln2) — a support of the
 τ = ½ln2 → dark-energy chain — is not delivered by the classical layer of its own
 recorded binding. The kernel algebra itself (the circulant spectrum, Parseval, the
 null condition) is untouched by this result. If the ring premise survives, its
@@ -1387,7 +1417,7 @@ natural core scale of order √σ = m_e) was available; the mechanism is not.
 
 **What the pricing surfaced (recorded here per the ledger rule):** the thin-string
 expansion parameter at the recorded operating point is
-w/d = (w·√σ)/c₂ = (0.8–1.1)/1.9236 ≈ 0.42–0.57 — the faces sit about two
+w/d = (w·√σ)/c_K = (0.8–1.1)/1.9236 ≈ 0.42–0.57 — the faces sit about two
 string-widths apart, so the classical thin-string layer (the three-term balance
 and the instability analysis alike) is uncontrolled at O(1). The ring-vs-chain
 question is genuinely undecidable classically and escalates to a
@@ -1417,7 +1447,7 @@ deepest channel), identically for ring and chain.
 **Byproduct (named exposure; no numbers invented):** adjoint sources in SU(2) are
 screened by gluons — the adjoint string is metastable and breaks at a distance set
 by the gluelump mass, a lattice quantity not in the corpus. If the SU(2), N_f = 3
-breaking distance lies below the recorded spacing d·√σ = c₂ ≈ 1.92, the
+breaking distance lies below the recorded spacing d·√σ = c_K ≈ 1.92, the
 string-bound ring of the *adjoint* branch dissolves as a long-lived object
 regardless of geometry; the medium-vortex branch does not carry this exposure.
 One more question for the single SU(2), N_f = 3 lattice campaign, alongside
@@ -1699,7 +1729,7 @@ lesson.
 
 **Why it died:** it used the IR-scale rate Γ_par/H = √3 where the Jeans mode's rate is
 Γ_eff/H = **√(3/2)**, i.e. B = ω_J/Γ_par = **1/√2**
-([PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md)).
+([PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md)).
 
 **What survives:** everything but the factor. Rescaled by B = 1/√2 the entry reads
 **δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at √(3/2)·H — the order of magnitude and
@@ -1888,7 +1918,12 @@ The Saha hazard this entry named is evaded explicitly: the dressed object is a d
 boost ratio — no density, hence no (mT)^(3/2) log-power — and the mean-field fence coheres
 (a cutoff property is invisible to a density-weighted gap equation). The 3/2 re-grades:
 **sharp underived residual → derived at additivity grade** (conditions: the shared
-additivity neck; the NR formation window). Full statement: hierarchy §2b.
+additivity neck; the NR formation window). Full statement:
+[PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §2, part (b) — *not* a heading
+called §2b, which does not exist and cost a later reader two searches to establish.
+Verified numerically 2026-07-28: ln(M_red/M_eff) = 1/(kα_c) with M_eff = M·e^(3/2) returns
+**1576.4 GeV** against the recorded 1576.1, so the chain stated there does deliver the
+recorded formula rather than merely being compatible with it (3 harness rows).
 Fences: scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different
 object class — do not book it. *(Watch-grade note: equipartition now anchors both of the
 day's live candidates — the Koide channel balance and this seam constant; no shared mechanism
@@ -1962,11 +1997,85 @@ kernel's ratio exactly**, and the sweep is a hit in the frame the ring-on-ring m
 
 **Two frames, both recorded, and the bridge is not.** T6's reduction works in the √m fluctuation
 field, H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²], where ε₀ = a and ε± = a + 3b and the null reads
-ε_charged = 2ε_neutral — the *doublet* twice as stiff, the inverse statement. The two are
-reconciled only through the canonical normalizations R_c = √(3/2)R and M_c = √3M, and **no file
-states that bridge.** Treating either as *the* convention and judging the other against it is the
-error to avoid; a first pass here did exactly that and withdrew a correct result before restoring
-it. **The bridge is owed, and it is what makes the frames confusable.**
+ε_charged = 2ε_neutral — the *doublet* twice as stiff, the inverse statement. Treating either as
+*the* convention and judging the other against it is the error to avoid; a first pass here did
+exactly that and withdrew a correct result before restoring it.
+
+**The bridge, paid — and the proposed reconciliation was itself wrong (2026-07-28).**
+`scripts/koide_frame_bridge.py`. The two normalizations are correct: the Fourier transform on the
+three-site ring returns M_c = √3·M and R_c = √(3/2)·R at arbitrary M, R, θ, and with them
+R_c = M_c, ρ = 1/√2, A = √2 and Q = 2/3 are verified to be one statement. But they **cannot be
+the reconciliation this row proposed**, for a reason that survives no arithmetic: both frames
+grade the same two irreps of the same ring, so the normalizations enter every stiffness *ratio*
+as the fixed factor k_R/k_M = ½·(ε₁/ε₀). That is a factor 2 in a known direction — not the
+factor 4 with a sign flip that separates ε₁/ε₀ = 2 from k_S/k_D = 2.
+
+**What actually separates the frames is the energy-delivery law.** R_c = M_c constrains
+*amplitudes*; converting it into a statement about *stiffnesses* requires a rule for how energy
+sits in the modes, and the singlet is one degree of freedom against the doublet's two, so the
+rules disagree by mode-counting factors. Four laws in use across the corpus, each verified to
+give a different target from the same null:
+
+| delivery law | R_c = M_c becomes |
+|---|---|
+| thermal equipartition (½T per DOF) — **T6's reduction** | ε_D = 2ε_S |
+| sudden quench, 1/ω² per mode | ε_D = √2·ε_S |
+| equal sector delivery | ε_D = ε_S |
+| doublet receives half the singlet — **the ring-on-ring entry** | ε_D = ½ε_S |
+
+Both readings therefore stand and neither refutes the other: the kernel sweep's exact 2 answers
+the fourth row, T6's a = 3b is written in the first. **The blank is not a missing conversion
+factor; it is that the corpus has never fixed which law governs the freeze.** Until it is fixed
+no stiffness computation can be graded, and the same number will keep arriving with opposite
+signs — which is precisely what happened here.
+
+**The two-line lock does not discriminate m_e from α — an overclaim caught while drafting for
+submission (2026-07-28).** `PRTOE_radio_lattice.md` §1 carried the D-to-H 21 cm frequency ratio
+(4.338649, preserved at every z) with the gloss *"only a universal m_e shift does that."* It does
+not. Both hyperfine frequencies go as α⁴·m_e²·g_N/m_N with the same powers of α and m_e, so **both
+constants cancel identically from the ratio** — verified by log-differentiation, returning
+∂ln(ratio)/∂ln m_e = 0 and ∂ln(ratio)/∂ln α = 0 to machine precision. A varying-α model preserves
+the ratio exactly as well as a varying-m_e one.
+
+**What the lock actually tests is universality**: that whatever shifts, shifts hydrogen and
+deuterium together. It therefore excludes *species-dependent* shifts — which is a real and useful
+exclusion — and says nothing about which constant moved. The m_e-versus-α separation is done by the
+five-band weight pattern alone (α enters the 21 cm line at α⁴ but the dispersion delay not at all),
+which is where the file's discriminating power genuinely lives.
+
+**Nothing numerical is affected**: the ratio's value is right, the five weights are right (+2, +1,
+−1, −1, −2 confirmed independently, with the fixed-energy synchrotron reading at −3), and P-027's
+observational content is unchanged. What is retracted is one sentence of interpretation attached to
+it. Recorded because it was found by preparing the claim for outside readers, which is the whole
+argument for doing that early: a referee would have found it on page one.
+
+**Containment checked — the registry entry was already correct and must not be "fixed".** P-2026-027
+states the lock as *"ν_H/ν_D = 4.338649 at every z, exactly preserved (both lines ∝ m_e²) — generic
+line-shifting physics breaks it, a universal m_e shift cannot."* That is exact: it names the
+cancellation's cause and claims only that a universal shift **cannot break** the lock, never that it
+is the only thing that preserves it. The defect existed in one sentence of one file and has been
+corrected there.
+
+**"a = 3b" does not survive as an exact relation — it is the classical limit (2026-07-28).**
+`scripts/koide_delivery_law_discriminator.py`. The stiffness reduction reads its sector powers off
+⟨|f_q|²⟩ = T/ε_q, which is the classical limit of ⟨|f_q|²⟩ = (ħ/2Mω_q)·coth(ħω_q/2kT). The two
+sectors sit at different frequencies — ε₁ = 2ε₀ gives ω₁ = √2ω₀ — so the quantum correction does
+not cancel from the ratio, and the corpus fixes its size itself through ω₁ = (2/9)T_c, i.e.
+x₁ = 2/9 and a charged-mode occupancy of **n̄ = 4.02**, nowhere near the n̄ ≫ 1 equipartition needs.
+
+Holding ε₁ = 2ε₀ exactly then returns **Q = 0.667350 — 1025 ppm from 2/3, against the 6 ppm the
+agreement is quoted at, an overrun of 171×.** The distortion is one-signed and monotonic in x (the
+charged sector is always the more quantum of the two, so its power is always suppressed less than
+the classical formula says), so no cancellation is available. Inverting it, Q = 2/3 at the corpus's
+own x₁ requires ε_D/ε_S = 2.004110, i.e. **a = 2.9877·b.**
+
+**What is retracted:** the integer. `a = 3b` and its structural form `a = b·λ₁` are the null's
+*classical* statement and are correct as such; they are not exact, and the clean 3 is an artifact
+of the limit rather than a fact about the ring. **No mechanism should be graded on its ability to
+produce exactly 3** — which retires, as a grading criterion, the entire line of work that was
+hunting an integer. What survives untouched is the direction and the order: the charged mode is
+about twice as stiff as the neutral one, and the exact factor is a function of how classical the
+modes are at freeze — a quantity the corpus has no independent handle on.
 
 **What the sweep establishes**, in the ring-on-ring frame:
 with x_k = R + d_k and cos 120° = −½, |r_i − r_j|² = x_i² + x_j² + x_i x_j, so the three pairs sum
@@ -2765,8 +2874,8 @@ routes to this one observable were compared and appeared to disagree by **2.39×
 NJL/gap-equation chain's **0.1759 pinned** against the vortex-pair **0.4204** — with the note that
 2.39 is neither √2 nor 2 and therefore survives every normalization choice. Also corrected at the
 same time, and this part stands: the referee calendar billed *three* numbers of one campaign, but
-F_dark/√σ and w·√σ are **one** test — the demand band is derived from c₂ *and* the thickness, so
-only the pair constrains anything, via c₂ = √3·2π·(F/√σ)²·(w√σ).
+F_dark/√σ and w·√σ are **one** test — the demand band is derived from c_K *and* the thickness, so
+only the pair constrains anything, via c_K = √3·2π·(F/√σ)²·(w√σ).
 
 ### The "2.39× internal disagreement" (#134) — RETIRED (2026-07-20): it was a change of denominator
 
@@ -2983,7 +3092,7 @@ at the time of writing, so nothing downstream was carrying a computed value eith
 
 **DISCHARGED the same day, and this row did not record it.** The integral was run 32 minutes after
 the paragraph above was written (`scripts/reionization_dtau_ramp.py`), and the result is carried in
-[PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md): the entire optical depth available across the ramp's tail
+[PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md): the entire optical depth available across the ramp's tail
 is τ(z = 30–60) = 1.25×10⁻⁴, which is 0.018 of Planck's ±0.007 even if the ramp changed the residual
 by 100%; at the physical ε = 1.2543% acting on x_e, **|Δτ| ≲ 1.6×10⁻⁶, i.e. 2×10⁻⁴σ**. The leading
 term cancels — σ_T ∝ m_e⁻² against x_e ∝ m_e⁺² makes σ_T·x_e go as m_e⁰ — so only the freeze-out
@@ -3029,7 +3138,7 @@ C = R²(k_*ℓ_p)³/2π² that rests on it goes with it.
 > The error survived because a docs-only grep never reaches two scripts no document cites.
 
 **A third mark against the label, independent of the spectrum argument.**
-[PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) keeps the census lock and the phase-slip quantization
+[PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md) keeps the census lock and the phase-slip quantization
 event as *separate adjacent links* and says so explicitly. The freeze-out criterion is the
 quantization event's; attaching it to the census lock crossed a distinction the chain itself draws.
 
@@ -3052,7 +3161,7 @@ attached to it was not, and the noun is what a derivation would have to chase.
 **What was booked.** Two mechanizations of one object, both live in the corpus at once. The
 **freeze picture**: the census is a lock — *"the census lock"*, *"the payroll snapshot"*, *"the
 A_s = 1/N cell freeze at the pivot scale"*, *"the frozen amplitude"* — one comoving cell size,
-snapped at z ~ 10⁶ ([PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md) link 5 and tether 4→5). The
+snapped at z ~ 10⁶ ([PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md) link 5 and tether 4→5). The
 **scaling picture**: the tilt route's *"the A_s mechanism's own scale-invariant shot imprint"*,
 which requires ξ(k) ∝ 1/k. #168 retired the *Kibble–Zurek label* on the first of these but left
 its structure standing in the chain, so both pictures were still being asserted.
@@ -3377,8 +3486,8 @@ interaction atlas, never here — found when two independent audience passes tri
 those sections and correctly refused, because compressing them would have destroyed the only
 surviving record. Each entry below preserves the cause of death and the disposition exactly as
 the census recorded them; the fuller context remains in
-[PRTOE_PHYSICS_DOMAINS.md](PRTOE_PHYSICS_DOMAINS.md) and
-[PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md) until those sections are compressed
+[PRTOE_PHYSICS_DOMAINS.md](exploratory/PRTOE_PHYSICS_DOMAINS.md) and
+[PRTOE_INTERACTION_ATLAS.md](exploratory/PRTOE_INTERACTION_ATLAS.md) until those sections are compressed
 against this section.*
 
 ### ξ_Neff at recombination — executed by ACT and BBN, half-risen
@@ -3550,6 +3659,25 @@ value once the pinning reaches ~1% of the drive. Pinning suppresses the mechanis
 enabling it. The transfer works at the standing parameters only because the Majorana term is
 9 orders of magnitude too weak to pin the phase.
 
+**A two-percent internal disagreement on θ̇, noted 2026-07-28.** This entry carries θ̇ = 59.7 eV
+directly. Reconstructing it from the recorded ratio θ̇/H = 2.4×10⁶ with the sourced sphaleron
+temperature T_sph = 131.7 GeV (d'Onofrio–Rummukainen–Tranberg, per the transfer-integral spec) and
+the Standard-Model g\* = 106.75 gives **58.5 eV** instead.
+
+> **CORRECTED, same day, and the correction inverts this paragraph's own ruling.** The gap is
+> **not** a g\* choice, and 59.7 eV does **not** "state no derivation". θ̇ = 59.7 eV is the derived
+> number: for a deep-frozen condensate θ̇ ∝ a⁻³, so θ̇ = m·(T_sph/T_on)³ with the field mass, T_sph
+> and the onset temperature all recorded (the transfer-integral spec, stage 5). **58.5 eV is the
+> artifact** — it is 59.7 back-multiplied out of a ratio carried to two significant figures. The
+> exact ratio is 2.450×10⁶ against the recorded 2.4×10⁶, a **2.05%** truncation, which is the
+> entire "disagreement". The g\* = 111.1 inference is arithmetically correct and inferentially void:
+> it holds a truncated ratio fixed and pushes the shortfall into a parameter that never moved.
+> **The provenance ruling above was exactly backwards** — the sourced-inputs praise belongs to 59.7.
+> *The real spread is elsewhere and larger:* the onset temperature appears as 9.41, 9.46 and 9.5 keV
+> across files, 1.0%, which cubes into **2.9%** on θ̇. Verified: `scripts/thetadot_two_percent.py`
+> (control: H(T_sph) reproduces the recorded 2.44×10⁻⁵ eV before anything else is read).
+> Consumers corrected: hierarchy §6f (μ₅ = 29.85 eV, was 29.3) and `_DOCKET_INDEX.md` #146.
+
 **Disposition — re-pointed, not executed.** The route is not killed: the surviving class still
 transfers, and the pre-committed kill was written on F, which was never the free parameter.
 The coincidence and the claim that the neutrino mass sets the scale are withdrawn. The four
@@ -3705,3 +3833,303 @@ sector may carry that term. **It may not.** The fence stands for a neutral famil
 not bind a charged one. That removes one recorded obstacle from the charged sector's path without
 supplying a mechanism, and it relocates the blank precisely: **what picks R_c = M_c on the
 quartic's circle.**
+
+### #67's PREMISE — RETIRED: "Ψ₀'s profile through z_x" merged three objects (2026-07-28)
+
+**What it asked for:** the condensate-growth shape of Ψ₀ through z_x — carried as an open desk item
+("the genesis calc") in `exploratory/PRTOE_me_trigger.md`.
+
+**Why it dissolved.** The implementation distinguishes three objects the docket had treated as one:
+
+| object | law | epoch |
+|---|---|---|
+| **Ψ₀**, the fluid's misalignment amplitude | ∝ a^(−3/2) | from z_on = 4.03×10⁷ — **does not pass through z_x** |
+| the **dyad's order parameter** | f_growth = 1 − T/T_c | gated at z_x, and **already coded** (`background_varconst_f_growth`) |
+| the **normal fraction** | f_n = (T/T_c)⁴ | the phonon two-fluid, used to price birefringence |
+
+`include/background.h` states it directly: z_on is *"the textbook ULDM start-of-oscillation clock…
+Radiation-like above H~m, dust below. **NOT a condensation T_c**"*, while z_x is where *"the **dyad**
+condensate is thermally **DISORDERED** above its T_c"*. **Two different fields.** The docket's
+question presumed the oscillating field and the condensing medium were the same object; they are
+not, and the apparent 403× redshift gap between "already oscillating" and "not yet condensed" was
+never a paradox — it was two sectors read as one. Protocol check 32.
+
+**Verdict: the shape was never missing.** Ψ₀ ∝ a^(−3/2) throughout (reading (c) of the three that
+were on the table), and the dyad's growth law is in the source. Readings (a) and (b) are buried here.
+
+**One live discrepancy surfaced by the same check, recorded rather than resolved.** The coded
+order-parameter growth is **linear** in T/T_c; the phonon two-fluid the birefringence pricing uses is
+**quartic**. Near z_x they differ by up to **3.9×** (at z = 9.9×10⁴: 0.0100 against 0.0394), converging
+to 1.11× at z = 10⁴ and 1.01× by recombination. **Nothing currently in use is affected** — the
+varconst window and the birefringence limit both operate far below z_x — but no file states which
+form is intended, and anything needing behaviour near z_x would need that settled first.
+
+### Reading (B), the core-circuit phase-twist observable — EARNED its burial 2026-07-28
+
+**What it was.** One of two pre-registered candidate observables for the toroidal half of T14's
+link 4: the unwrapped phase winding around the ring core's circuit, W, with the twist read as
+excess = W − n. Its rival, reading (A) (the core curve's m = 1 shape helicity), survives.
+
+**Why it is here, and why it was NOT here eight hours earlier.** The completed 10 h fork run had (B)
+failing its parity pair (−1.190 against +1.870, residual 44.4%), and the fork's rule sends the loser
+to this ledger. **That burial was refused on the day**, because reading the instrument showed it
+sampled the phase **at the density minimum — i.e. at the vortex core, where |ψ| → 0 and the phase is
+singular** — contrary to its own inline comment specifying a probe *outside* the core radius. A
+reading that fails on a quantity measured at its own singularity has not been tested, and booking it
+would have recorded an implementation defect as physics.
+
+**The re-run that earned the entry.** `scripts/ring_toroidal_circulation.py` — the same physics,
+grid, potential, sponge, initial data and stepper copied verbatim, with **one** change: the phase
+sampled on a ring of 1.5 healing lengths about each core point, 8 samples circular-averaged, with a
+rejection gate on probes falling too near another core. Graded by a criterion fixed **before** the
+run and a pairing rule fixed **before** the second branch produced any value.
+
+| at t = 1.00, both branches 15/16 probes | n = +1 | n = −1 | pair sum |
+|---|---|---|---|
+| (A) shape helicity — the CONTROL and the survivor | −1 | +1 | **0, exact flip** |
+| **(B) core-circuit W** | +0.354 | −0.979 | **−0.625** |
+
+**(B)'s residual is 93.8% of its own typical magnitude, exceeding the measured branch drift asymmetry
+by 3,190×** — against 44.4% in the defective run. **Correcting the instrument made it fail harder,
+not softer.** The intrinsic twist Tw = W − n does not flip either (−0.646 against +0.021).
+
+**Verdict: (B) is not a locked observable of this configuration.** It is buried here on a measurement
+that does what its own documentation specified, which the first one did not.
+
+**The process point, which is the reason this entry reads as it does.** The difference between
+booking (B) at 22:08 and booking it at 23:32 is one ~40-minute re-run. The first burial would have
+been *correct by accident* — right verdict, defective evidence — and nothing in the ledger would have
+recorded that the instrument was broken. **A ledger entry's value is the evidence behind it, not the
+verdict on its face**, and an entry earned by a corrected instrument is worth more than the same
+words placed on a bug. Related: protocol **42** (a proxy is not the quantity).
+
+### The "self-locking loop" diagnosis — WITHDRAWN, it was not the mechanism that fired (2026-07-29)
+
+**What it claimed.** That the model chain's proposal was never re-learned because cobaya refuses to
+re-learn while R−1 exceeds `learn_proposal_Rminus1_max` (2.0, or 30.0 early), and a chain whose ranks
+sit in different basins never gets under either — *"the mechanism that would fix the proposal is
+gated behind the problem it would fix."* Carried the further claim that **more wall-clock could not
+repair it**. Reached `PRTOE_READERS_RISK.md`, the Fairbank letter draft, the run log, and memory.
+
+**How it died.** By isolating the archived run's MPI section of the launchlog — which required first
+finding the last rank-prefixed `Sampling!` line, since that file is append-mode across relaunches and
+the earlier single-process run's convergence lines had been read as if they belonged to the MPI run.
+Within the MPI region there are exactly two convergence-related lines:
+
+```
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+```
+
+Rank 0 never announces it. **"All chains are ready" never appears, and no convergence statistic is
+ever computed** — hence that run's empty `.progress` file. Proposal learning is a **collective MPI
+checkpoint**: every rank must reach a multiple of `learn_every` = 40·d accepted samples before any
+proceeds. With d = 13 that is **520 per rank**; the ranks held **467 / 1684 / 658**. Two ranks sat
+blocked for hours waiting on a third that was **53 samples** short. The R−1 gate is real and would
+plausibly have bitten *next* — but it was never reached, so it cannot be what happened.
+
+**Why it survived as long as it did.** It explained every symptom: the proposal never adapted, the
+covmat mtime never advanced, R−1 never appeared to fall. And it named a real code path. But the
+evidence was entirely an *absence*, and an absence is consistent with every mechanism that would
+produce it. Ranking candidates by plausibility is not diagnosis — see protocol **47**. The positive
+artifact that settles it is six words: *"waiting for the rest"*, which the R−1 story does not predict.
+
+**What survives, unchanged.** The proposal was never re-learned. The three ranks never merged. The
+remedy applied — reseed the covariance from the rank that found the good basin — was correct under
+either mechanism and worked: acceptance **5.3–6.2% → 31.2–31.9%**.
+
+**What was lost.** The prognosis. "R−1 is locked out" implies more running time cannot help; "one
+rank is 53 samples short" implies it very nearly could. **A published claim about what will not work
+inherits every weakness of the diagnosis behind it**, and this one was published twice.
+
+**What replaces it as the thing to watch.** Not the covmat mtime (meaningless until `learn_every` is
+reached) but **rank-count spread**. On the live re-tuned run it is now **19 / 15 / 14** — spread 5,
+against the archived run's **1217**. The reseeded covariance made the ranks track together, which is
+what actually prevents the block.
+
+### #85's "one exponent" collapse — WITHDRAWN the same day: it fitted the wrong quantity (2026-07-29)
+
+**The claim.** `scripts/delivery_law_is_one_exponent.py`: the four recorded energy-delivery laws,
+ε_D/ε_S ∈ {2, √2, 1, ½}, are a single family ε_mode ∝ k^p at p ∈ {0, ½, 1} on the ring's normal-mode
+stiffnesses (k_S = 6 mult 1, k_D = 3 mult 2), with the ½ a per-mode restatement of the 1. Consequences
+drawn and published in three places: *"three laws, not four"*, *"the live fork is p = ½ vs p = 1"*,
+and *"the delivery law is a radial-sector statement"* — the last presented as answering an open
+question in spec C3.
+
+**Why it is wrong.** The corpus's ε is a **stiffness**, not an energy. `koide_frame_bridge.py` writes
+amplitude² = g·T/ε; `koide_delivery_law_discriminator.py` writes ω ∝ √ε and ⟨f²⟩ ∝ 1/ε. Both are
+unambiguous and both predate the withdrawn script. Fitting a recorded set of numbers with a quantity
+that is not the one they denote is **protocol 42** — and it was committed in the session that wrote
+protocol 42 up.
+
+**How badly.** `scripts/delivery_law_two_parameters.py` (20 controls) puts the two constructions side
+by side: they agree at p = 0 and **nowhere else** (p = ½ gives √2 under the withdrawn reading and
+**4** under the corpus's). So the matches at √2 and 1 were a coincidence of small powers of 2 — the
+kind a four-point fit produces easily and a fifth point destroys.
+
+**Three labels went with it.** √2 is the **sudden quench** (e ∝ 1/ε, p = −1), not the zero-point law;
+the zero-point law gives **4**, which is absent from the recorded four; and *"equal amplitude"* is not
+a delivery law at all — at p = 1 the amplitude goes ε-independent, the null degenerates to 2 = 1, and
+it fixes nothing. That row was three errors in one.
+
+**What the controls could and could not do.** Every control in the withdrawn script passed, and they
+were not weak ones — including an anti-control confirming the family cannot fit 3, 1/3 or 4. But all
+of them were *internal*: they tested whether the family fitted, never whether ε meant what the script
+computed. **No internal control can test that**, because the definition lives in a different file. It
+surfaced only on going back to read the four laws at their source. Anti-controls ask *could this check
+fail?*; they cannot ask *is this the right quantity?* — see protocol **42**, and now protocol **48**.
+
+**What survives, and it is more than what was lost.** The corrected family is
+**ε₁/ε₀ = 2^(s/(1−p))** with e ∝ ε^p per degree of freedom and s the counting label: two parameters,
+holding all four recorded laws at four distinct (s, p) plus the zero-point law at (1, ½) → 4. And it
+**answers** the docket instead of narrowing it: Q = ⅔ requires ε₁/ε₀ = 2 exactly, i.e. s = 1 − p, and
+with s restricted to the two ways a sector total can be counted, **thermal equipartition is the unique
+admissible law**. The next-nearest, √2, misses ⅔ by 207,107 ppm against a 6 ppm budget.
+
+**And that is a worse problem than the fork it replaced.** The null selects thermal equipartition
+uniquely; the discriminator has already shown thermal equipartition overruns the same 6 ppm budget by
+**171×** at the corpus's own x₁ = 2/9. The two results conflict, and the conflict sits **inside** the
+Koide derivation rather than upstream of it. The occupancy lock is not one option among four — it is
+the only named escape from a contradiction. **The withdrawn result was hiding this**, by presenting a
+four-way freedom where the null had already spent it.
+
+**C3's warning is extended, not resolved.** The required ε₁/ε₀ = 2 matches neither existing stiffness
+pair: the radial Hessian gives k_D/k_S = ½ (that is law 3, yielding Q = 5/3), and the circulant
+amplitude stiffnesses at the Koide point give 0.1213. The delivery law's ε is a **third** pair, and
+which one it is remains open.
+
+### The occupancy lock as the Koide null's delivery law — CLOSED, and by impossibility (2026-07-29)
+
+**What it was.** T6 promoted the occupancy lock to "a fifth law, and it is the right class", on the
+ground that *"an integer occupancy cannot drift, which is the one exactness class a 6×10⁻⁶ claim
+admits."* Once `scripts/delivery_law_two_parameters.py` showed the null selects thermal equipartition
+uniquely and the discriminator showed thermal equipartition overruns the 6 ppm budget by 171×, the
+lock became **the only named escape from a contradiction inside the Koide derivation**.
+
+**Why it is closed.** `scripts/occupancy_lock_cannot_deliver.py`, 17 controls. For a harmonic degree
+of freedom ⟨x²⟩ = (2n+1)ħ/(2Mω), so with w = 2n+1 the null gives
+
+> ω₁/ω₀ = 2·w_D/w_S — **always rational**
+
+while ε ∝ ω² and Q = ⅔ requires ε₁/ε₀ = 2, hence **ω₁/ω₀ = √2, irrational**. A ratio of integers is
+never √2. The lock fails at every occupancy and every multiplicity — not for want of a search.
+Verified two ways: an exhaustive scan of 90,601 pairs (best miss 8.75 ppm) and exact rational
+arithmetic over 4×10⁶ pairs confirming (ω₁/ω₀)² = 2 is never attained.
+
+**The property that killed it is the property it was praised for.** Integers that cannot drift also
+cannot drift onto √2. The exactness that made the lock attractive is the same rigidity that puts the
+target out of reach.
+
+**The recorded occupancies were already the wrong answer.** T6 found a 15.9% miss (R_c/M_c = 2^(−¼))
+once the two frequencies were kept distinct, and read it as a *condition on the freeze* — the sectors
+must be degenerate when the quanta are counted. But (n_S, n_D) = (1, 0) reads as (w_S, w_D) = (2, 1),
+forcing ω₁/ω₀ = **1 exactly**. Degeneracy is not a rescue condition; it is what the lock's own numbers
+assert, and it yields ε₁/ε₀ = 1 and **Q = 1**, not ⅔.
+
+**Both freeze branches fail, for different reasons.** Adiabatic: n conserved, ⟨x²⟩ ∝ 1/ω, ratio must
+be √2 — unreachable. Diabatic: amplitudes frozen at their degenerate values, so R_c/M_c = 1 at *every*
+stiffness ratio (0.5 → 100 checked, against the adiabatic branch's 1.189 → 0.316), the null becomes an
+identity and selects nothing — the same degeneracy that disqualified the "equal amplitude" row. A
+partially adiabatic split interpolates between two failures, so there is no third branch.
+
+**And the approximate escape is a fit, not a lock.** With both w odd the convergents to √2 are 7/5
+(10,051 ppm), 41/29 (297 ppm), 239/169 (8.75 ppm) and 1393/985 (0.26 ppm) — the first inside budget
+needing **696 quanta in the singlet and 492 in each doublet mode**. Nothing selects those numbers.
+
+**What survives, and it is worth more than what was lost.** The two classes divide with nothing in
+both: occupancy laws can be exact but reach only rational ω₁/ω₀; equipartition reaches the target —
+because **ε ∝ ω² absorbs the irrationality**, the null reading as the integer statement 2/ε₁ = 1/ε₀ —
+but cannot be exact. So the debt is re-pointed, not erased: *exhibit a delivery law whose frequency
+dependence enters through ε ∝ ω² rather than through a count, and which is also exact*, or establish
+that no such class exists. Carried as docket **#87**.
+
+**Scope, stated so it is not overread.** None of this touches Q = ⅔ itself, which is measured. It
+touches the *derivation* of Q = ⅔ from a ring condensate, which is now known to require a mechanism
+the corpus does not have.
+
+### Kibble–Zurek as the Koide delivery law — DOES NOT DELIVER: wrong sign, and no exactness (2026-07-29)
+
+**What it was.** T6 recorded KZ as the route out of #85: *"the delivery law may not be a free choice
+among four at all — KZ carries its own freeze-out prescription … which converts #85 from 'choose among
+four conventions' into 'apply a textbook mechanism the model already claims', which is a categorically
+better position."* It was left as *"a route, not an answer"*, with the prescription unapplied.
+
+**Applied, it fails on sign.** `scripts/kibble_zurek_delivery_law.py`, 15 controls. With ε_i = c_i·λ(t),
+λ ∝ t^m and τ ∝ ε^(−a), freezing at τ_i(t) = t gives ε_i(t_i) ∝ c_i^(1/(1+am)), so the null reads
+**(c_D/c_S)^(1/(1+am)) = 2**. But c_D/c_S = **½ < 1** while the target is **2 > 1**, so the exponent
+must be negative — 1 + am < 0, i.e. **m < 0**. Scanned over a ∈ [0.1, 10] and m ∈ [0.1, 100], *every*
+stiffening quench lands below 1 and puts Q above 1. **The sign is wrong, not the magnitude.** Reaching
+the null needs a **softening** ramp at a tuned exponent: am = −2 (overdamped m = −2, underdamped −4).
+
+**And the no-ramp limit is a law already in the table.** am = 0 returns exactly ½ — the recorded
+"doublet gets half the singlet", Q = 5/3. KZ does not add a mechanism so much as parametrise the
+existing rows by a quench exponent.
+
+**It also does nothing about the thing the arc is actually blocked on.** At am = −2 the sectors freeze
+at stiffnesses differing by 2, hence frequencies differing by √2, so the quantum correction still fails
+to cancel — **1025.4 ppm**, the identical number the thermal reading gives, against a 6 ppm budget.
+
+**So the earlier grade was half right, and the failing half was the load-bearing one.** KZ does replace
+a convention with a mechanism. But the mechanism then *demands* a softening quench with a tuned
+exponent to reach the null, and leaves exactness untouched. That is a reparametrisation of the choice,
+not a removal of it — and "apply a textbook mechanism the model already claims" oversold it.
+
+**What survives, and it is worth keeping.** Under KZ a mode's stiffness **at freeze** (which sets the
+frozen amplitude) differs from its stiffness **at observation** (which the mass formula reads). The
+(s, p) family assumed one ε; KZ supplies two. That is a candidate identity for #85's unexplained
+**third stiffness pair**, which is neither the final radial Hessian (½) nor the circulant amplitudes
+(0.1213). The route fails; this lead does not.
+
+**Caveat recorded with it.** The whole construction is predictive only because both sectors ride one
+λ(t). With independent ramp rates the ratio spans 0.224 → 2.236 and KZ predicts nothing. The shared
+ramp is the physical content, and it is an assumption.
+
+### "Amplitude-follows-current" as the derivation of leptophilia — OBSTRUCTED by lepton number (2026-07-29)
+
+**What it was.** P-020 carries `[OBJECT-PENDING on: … amplitude-follows-current …]`, the claim that
+*"the medium's coupling to L (for leptogenesis) drags along the amplitude coupling that IS the dyad
+(δm_e) … leptonic because the medium is the asymmetry field and the asymmetry can only route through
+the L-violating (lepton) sector."* It is the one piece of docket #59 with no other home.
+
+**Why it is blocked.** `scripts/amplitude_follows_current_charges.py`, 10 controls, exact rational
+charge arithmetic. One field S is asked to do two jobs:
+
+- **the current job** — a phase gradient coupled to the lepton current, ∂_μθ·J^μ_L, which is what
+  drives Affleck–Dine leptogenesis. This **requires L_S ≠ 0**: a lepton-number-neutral field has no
+  phase conjugate to J^μ_L at all.
+- **the amplitude job** — a **linear** coupling S·O whose O contains the charged-lepton mass term.
+  Linearity is what makes the coupling sector-selective; a quadratic |S|² coupling is charge-blind.
+
+For S·O to be invariant, O must carry L_O = −L_S ≠ 0. But **every Standard Model Yukawa conserves
+lepton number** — computed, not assumed:
+
+| operator | L | hypercharge | colour |
+|---|---|---|---|
+| L̄He_R (charged-lepton mass) | **0** | 0 | singlet |
+| Q̄Hd_R | 0 | 0 | singlet |
+| Q̄H̃u_R | 0 | 0 | singlet |
+| L̄H̃ν_R | 0 | 0 | singlet |
+| (LH)(LH) | **+2** | 0 | singlet |
+| ν_Rν_R | **+2** | 0 | singlet |
+
+> **The only gauge-singlet operators an L-charged S can reach are the two Majorana ones — and both
+> are neutrino masses.** So it can generate neutrino Majorana mass and *cannot* generate a
+> charged-lepton mass shift. The two jobs demand incompatible charge assignments for the same field,
+> and the claim fails on bookkeeping before any dynamics is written.
+
+**This is the corollary of something the corpus already states.** The predictions file records that
+*"the Majoron route does not supply it, the singlet |Ψ|² being L-neutral and screening no quark
+bilinear."* Same fact from the other side: the L-charged **linear** coupling reaches only the neutrino
+sector, the L-neutral **quadratic** coupling reaches everything indiscriminately. What was *not*
+recorded is that this **closes** the route rather than leaving it open.
+
+**Three escapes, each costing something named.** (a) Quadratic |S|²·O — L-neutral, so it pairs with
+both quark Yukawas too (checked); leptophilia is lost, which the corpus already reports. (b) Two
+fields, one L-charged and one L-neutral — consistent, but then the amplitude does **not follow** the
+current and object 2 is false as stated. (c) Loop transmission from the neutrino sector to m_e — not
+excluded here, and the corpus already cites "loop order" among what carries leptophilia, but it is a
+different mechanism and it is suppressed.
+
+**Scope.** Nothing here touches the leptogenesis side — the AD mechanism, the asymmetry and the
+neutrino-sector couplings are unaffected. What fails is only the claimed **drag** from the current
+coupling to the electron mass shift. Leptophilia remains carried by data, as the corpus already says.

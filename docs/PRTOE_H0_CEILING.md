@@ -61,7 +61,7 @@ then. The model does not currently explain the full SH0ES reading — it predict
 - **The leakage and τ terms** are comparison-layer and reionization-history effects
  respectively — the first lives outside the likelihoods entirely; the second reduced by
  the chain's own structure and survives only through the edge's low tail
- ([PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md), tether 7→8).
+ ([PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md), tether 7→8).
 - **Nothing is lost**: the evidence run's chains can be IMPORTANCE-REWEIGHTED with the
  candle-corrected SN likelihood retroactively — this run collects the data once;
  the ceiling cashes against it whenever the candle correction is wired in.

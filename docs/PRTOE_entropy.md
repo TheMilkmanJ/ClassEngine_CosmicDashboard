@@ -114,11 +114,33 @@ suppression. It cannot be — at ordinary speeds it is too small, and the wall r
 would make it large enough is excluded by an order of magnitude. S₈ delivery rests on the
 pre-registered rotation-shed parameter instead ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).
 
-Priced; the front's treatment at high relative velocity is still owed.
+**The high-velocity treatment, supplied 2026-07-28** (`scripts/entropy_front_high_velocity.py`,
+7 checks; the slow-limit numbers above are reproduced first, so this extends the construction rather
+than replacing it).
+
+The traversed fraction f = v/c_s is a *fraction*, so the linear law can only hold while v < c_s, and
+the correct statement is f = min(1, v/c_s). Saturation gives a ceiling of E_step/3 ≈ 2140 eV per
+particle — well above the 100–300 keV cm² floors groups show. So the channel is bounded by its
+ceiling, not by the law being intrinsically small.
+
+That saturation velocity is the same c_s as the Landau critical velocity of this condensate, and not
+by coincidence: both measure how fast the medium re-phases. Below it the medium stays ahead of the
+traversing element, the pickup is adiabatic, and Landau forbids any excitation, so the entropy gained
+is reversible work rather than dissipation. At and above it the fraction saturates and the excitation
+channel opens together. The two regimes are qualitatively different with a sharp line between them.
+
+**Nothing made of gas reaches that line.** The fastest cluster merger known sits at v/c_s = 0.113, so
+the slow-limit treatment is valid everywhere this file applies it and the high-velocity correction to
+cluster entropy is nil. The threshold *is* crossed by AGN ultra-fast outflows, whose measured
+velocities run from roughly 0.03 c to 0.3 c and therefore straddle √(3α)·c = 0.148 c, and by
+relativistic jets. Whether the crossing is observable needs the matter–medium coupling, which is not
+fixed, so no detectability claim is made — only that the line falls inside an already-measured,
+already-velocity-binned population, and that this is a different observational programme from the
+entropy floor entirely.
 
 ## 5. What the model does NOT claim about entropy
 
-- The area law's coefficient is **the ratio 12π/48π = 1/4** of the induced-Newton and entanglement heat-kernel coefficients, both regulated by the medium's own Bogoliubov cutoff ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). Conditional on field content: 12π and 48π are the coefficients of minimally coupled scalars, and with non-minimal coupling or spin the two divergences stop being one heat-kernel term, so the cancellation does not automatically extend to the roster the model carries.
+- The area law's coefficient is **the ratio 12π/48π = 1/4** of the induced-Newton and entanglement heat-kernel coefficients, both regulated by the medium's own Bogoliubov cutoff ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). The coefficients 12π and 48π are those of minimally coupled scalars, so the cancellation does not *automatically* extend to the roster the model carries — but the extension has been made (§3): spin-½ preserves the ratio exactly, gauge fields restore it once edge modes are counted as horizon entropy, and conformally coupled scalars drop out of both sides under the same ξ = 1/6 that induced-Newton finiteness already requires. Candidate grade, on the single commitment that edge-mode entropy is physical.
 - No claim that the medium's entropy is the universe's entropy budget — the functional in §1
   is real but subdominant by ~70 orders; the budget is dominated by black holes.
 - No entropic-gravity reading: gravity here is induced by one-loop content, not by an entropy

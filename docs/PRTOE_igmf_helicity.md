@@ -172,7 +172,7 @@ the seeded field runs along the vorticity or against it is irrelevant, and
 What that exposes is a geometry requirement, not a sign. Kinetic helicity is a *linkage*: a flow
 must screw, not merely turn. The medium's recorded rotation does not. A rigid rotation u = ½ ω × r
 has u·ω = 0 identically, and the winding current the chain hands off — k₀ = 2πn/L, a uniform phase
-gradient around a torus cycle ([PRTOE_THE_CHAIN.md](PRTOE_THE_CHAIN.md)) — is curl-free, so it
+gradient around a torus cycle ([PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md)) — is curl-free, so it
 carries no helicity of either sign. A rotation rate and a winding direction are both real, and
 neither is a handedness.
 

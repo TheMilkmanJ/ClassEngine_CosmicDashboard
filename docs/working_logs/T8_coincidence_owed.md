@@ -11,7 +11,7 @@ Coupling-geometry status: background-level (no gate exposure).
 
 ## Item 1 — PAID (2026-07-17 walk)
 
-Stand-alone page with real GR signs: [PRTOE_sqrt3_derivation.md](../PRTOE_sqrt3_derivation.md).
+Stand-alone page with real GR signs: [PRTOE_sqrt3_derivation.md](../exploratory/PRTOE_sqrt3_derivation.md).
 
 **What the walk closed.**
 - Γ_par = M_GC²/M_red, M_GC⁴ = ρ_inf, 3H_Λ²M_red² = ρ_inf ⇒ **Γ_par/H_Λ = √3** exactly, value-independent.

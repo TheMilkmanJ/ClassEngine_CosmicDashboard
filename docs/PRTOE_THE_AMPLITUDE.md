@@ -47,9 +47,13 @@ separate parameters.*
 ## 3. The gate (what turns ε off)
 
 ε(C) = ε₀·g(C/C_ref): fully on in the early universe (above the condensation at
-T_c = 177.10 keV, per the BBN window), fading over z ≈ 30–60 by one of two registered
-readings — A (thermal, global) or B (environmental, tracking local clumping). Under B
-the gate is a smooth, steep curve in local density, fenced four independent ways (the
+T_c = 177.10 keV, per the BBN window), fading over z ≈ 30–60 **by the environmental
+reading — a fade tracking local clumping.** (A rival thermal/global reading was registered
+until 2026-07-16 and then **retired as an illegal step**: a global gate switching off is a
+dynamical discontinuity, and being neither quantized, topological, nor a protected zero it
+carries no exemption under the depth law. The model is committed to the environmental reading,
+which sharpens rather than softens its exposure — see §4.) The gate is a smooth, steep curve
+in local density, fenced four independent ways (the
 forest's observed flatness, the SN host-density range, P-2026-022's fade profile, and
 the composition-cliff invariant). The invariant's receipt, spelled out: the swing's fixed
 potential step is ΔΦ = c²·f_lep·ε₀ = (553 km/s)², with f_lep = m_e/2m_u = 2.74×10⁻⁴ at the
@@ -57,9 +61,11 @@ one-electron-per-two-nucleons composition floor — every realistic composition 
 electrons per unit mass (pure hydrogen gives 779 km/s), so 553 is the conservative minimum and
 the fence only strengthens from it. That step exceeds real halo potentials, so the gate must
 swing at void/supercluster boundaries, not around individual galaxies — one curve, four fences,
-three skies. A-versus-B is registered (the 21-cm edge shape decides) and
-controls both the dark-ages signal and the supernova channel. The laboratory, Oklo, and
-molecular-absorber nulls survive under B structurally, not by tuning: every such
+three skies. **With the thermal reading retired, the 21-cm edge shape is no longer a selector
+between two survivable branches but a falsifier**: a confirmed sharp global step now counts
+against the model. The same curve controls both the dark-ages signal and the supernova channel.
+The laboratory, Oklo, and molecular-absorber nulls survive under the environmental
+reading structurally, not by tuning: every such
 instrument lives in a screened environment (the absorber audit — molecules
 only form where ε is off).
 

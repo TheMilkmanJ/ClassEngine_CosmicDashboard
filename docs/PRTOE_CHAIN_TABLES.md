@@ -4,6 +4,41 @@
 > Regenerated per run at its landing; the running pair and Route-D join
 > at convergence. Means with 68% limits, 30% burn-in.
 
+> ## ⚠ READ THIS BEFORE THE NUMBERS (added 2026-07-28)
+>
+> **None of the chains below has converged, and the 68% limits are therefore not posterior
+> intervals.** Their last recorded Gelman–Rubin statistics, against a stopping target of
+> **R−1 = 0.05**:
+>
+> | chain | last R−1 | over target |
+> |---|---|---|
+> | `cmp_prtoe_conv_desi` | **13.25** | 265× |
+> | `cmp_prtoe_zon_disp` | **17.81** | 356× |
+> | `cmp_prtoe_zon` | **40.36** | 807× |
+> | `dyad_mnu_mcmc` | **none recorded** | unknown — no `.progress` file exists |
+>
+> The fourth row is the worst case: that chain has **no convergence statistic at all**, so its
+> interval cannot even be graded as too narrow. It is unknown.
+>
+> The header's "at convergence" refers to when the *running* pair joins this table, not to the
+> rows already in it. That distinction is easy to miss, and the numbers below look like
+> posterior summaries because they are formatted as posterior summaries.
+>
+> **The direction of the error is known and it is the dangerous one.** §6g withdrew the α_c band
+> for exactly this defect, in its own words: *"an interval read at R−1 = 93 is the spread of a
+> chain that has not found the distribution, which is typically far too narrow rather than too
+> wide."* So these intervals should be read as **lower bounds on the true width**, not as
+> measurements — a chain still wandering has not visited the tails it would need to visit to
+> earn a 68% limit that tight.
+>
+> A concrete demonstration, from `cmp_prtoe_zon_disp` (2026-07-28): its segment means scatter
+> **59× wider** than a settled chain of that length and variance would allow, and its cumulative
+> mean was passing through the model's own target value at the moment the run stopped —
+> a coincidence that would have read as a 0.0006 hit. See `PRTOE_quartet_clock.md` §4b.
+>
+> **Nothing in these tables may be quoted as a constraint** until the chain supplying it reports
+> R−1 at target. They are recorded here as run diagnostics, which is what they currently are.
+
 ## cmp_prtoe_conv_desi — conversion channel vs DESI stack (3462 post-burn samples)
 
 | parameter | mean | 68% limits |

@@ -110,6 +110,6 @@ Not gated on any run.
 [Kibble 1976] (defect formation and the one-scale picture); [Martins–Shellard 1996, 2002]
 (the velocity-dependent one-scale model; network scaling as an attractor); [Vinen 1957] /
 [Volovik 2003] (superfluid vortex-tangle dynamics under mutual friction — the overdamped branch).
-Internal: [PRTOE_THE_CHAIN.md](../PRTOE_THE_CHAIN.md) link 5,
+Internal: [PRTOE_THE_CHAIN.md](../exploratory/PRTOE_THE_CHAIN.md) link 5,
 [PRTOE_THE_AMPLITUDE.md](../PRTOE_THE_AMPLITUDE.md) §5,
 [PRTOE_DERIVATION_HUNT.md](../PRTOE_DERIVATION_HUNT.md) §7.

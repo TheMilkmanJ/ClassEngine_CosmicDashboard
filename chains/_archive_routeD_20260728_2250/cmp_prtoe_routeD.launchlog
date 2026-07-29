@@ -1,0 +1,554 @@
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_routeD'
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.desi_2024_bao_all] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Getting initial point... (this may take a few seconds)
+[mcmc] Initial point: omega_b:0.02269347, H0:69.23727, logA:3.064861, n_s:0.9591159, z_reio:8.302067, dcdf_rho_inf:0.6952259, dcdf_conv_g:0.12, dcdf_floor_thaw:0.12, A_planck:0.9998247, A_act:1.000612, P_act:1.007663, Tcal:0.9971298, Ecal:1.006553, m_ncdm:0.06264438
+[model] Measuring speeds... (this may take a few seconds)
+[model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 78.3, planck_2018_lowl.EE: 376.0, planck_2018_highl_plik.TTTEEE_lite: 150.0, planck_2018_lensing.clik: 218.0, bao.desi_2024_bao_all: 79.8, sn.pantheonplusshoes: 38.2, act_dr6: 66.6, spt3g_lite: 93.9, classy: 0.00754}
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'dcdf_conv_g', 'dcdf_floor_thaw', 'm_ncdm']
+[mcmc] * 22 : ['A_planck']
+[mcmc] * 30 : ['A_act', 'P_act']
+[mcmc] * 43 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix loaded for params ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'dcdf_conv_g', 'dcdf_floor_thaw', 'A_planck', 'A_act', 'P_act', 'Tcal', 'Ecal', 'm_ncdm']
+[mcmc] All parameters' covariance loaded from given covmat.
+[mcmc] Sampling! (NB: no accepted step will be saved until 100 burn-in samples have been obtained)
+[mcmc] Progress @ 2026-07-20 09:34:56 : 1 steps taken -- still burning in, 1300 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:36:46 : 16 steps taken -- still burning in, 1295 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:38:36 : 45 steps taken -- still burning in, 1286 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:40:47 : 53 steps taken -- still burning in, 1285 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:42:39 : 75 steps taken -- still burning in, 1282 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:44:17 : 116 steps taken -- still burning in, 1271 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:46:05 : 119 steps taken -- still burning in, 1269 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:47:48 : 133 steps taken -- still burning in, 1265 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:49:28 : 165 steps taken -- still burning in, 1261 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:51:10 : 177 steps taken -- still burning in, 1260 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:52:58 : 223 steps taken -- still burning in, 1252 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:54:21 : 247 steps taken -- still burning in, 1245 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:55:26 : 284 steps taken -- still burning in, 1236 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:56:28 : 291 steps taken -- still burning in, 1235 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:57:29 : 297 steps taken -- still burning in, 1234 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:58:40 : 333 steps taken -- still burning in, 1226 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:00:37 : 337 steps taken -- still burning in, 1225 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:01:37 : 342 steps taken -- still burning in, 1224 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:02:40 : 387 steps taken -- still burning in, 1211 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:03:44 : 388 steps taken -- still burning in, 1211 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:05:36 : 438 steps taken -- still burning in, 1197 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:07:35 : 446 steps taken -- still burning in, 1196 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:09:32 : 516 steps taken -- still burning in, 1177 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:11:27 : 552 steps taken -- still burning in, 1167 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:12:27 : 596 steps taken -- still burning in, 1158 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:14:25 : 620 steps taken -- still burning in, 1155 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:16:27 : 659 steps taken -- still burning in, 1149 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:17:29 : 703 steps taken -- still burning in, 1140 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:18:29 : 733 steps taken -- still burning in, 1137 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:20:29 : 775 steps taken -- still burning in, 1127 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:21:29 : 784 steps taken -- still burning in, 1126 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:23:37 : 813 steps taken -- still burning in, 1121 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:25:37 : 815 steps taken -- still burning in, 1120 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:26:39 : 881 steps taken -- still burning in, 1107 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:27:44 : 892 steps taken -- still burning in, 1106 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:28:59 : 916 steps taken -- still burning in, 1098 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:30:17 : 946 steps taken -- still burning in, 1093 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:32:12 : 971 steps taken -- still burning in, 1088 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:33:13 : 1005 steps taken -- still burning in, 1082 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:34:14 : 1010 steps taken -- still burning in, 1081 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:35:18 : 1020 steps taken -- still burning in, 1079 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:36:18 : 1048 steps taken -- still burning in, 1071 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:37:22 : 1075 steps taken -- still burning in, 1064 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:38:25 : 1080 steps taken -- still burning in, 1064 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:39:32 : 1116 steps taken -- still burning in, 1055 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:40:34 : 1130 steps taken -- still burning in, 1052 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:41:37 : 1147 steps taken -- still burning in, 1050 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:42:45 : 1173 steps taken -- still burning in, 1044 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:43:54 : 1207 steps taken -- still burning in, 1035 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:44:59 : 1223 steps taken -- still burning in, 1029 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:46:02 : 1236 steps taken -- still burning in, 1027 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:47:08 : 1244 steps taken -- still burning in, 1026 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:48:09 : 1270 steps taken -- still burning in, 1021 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:49:17 : 1277 steps taken -- still burning in, 1020 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:50:34 : 1291 steps taken -- still burning in, 1018 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:51:49 : 1311 steps taken -- still burning in, 1013 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:52:53 : 1317 steps taken -- still burning in, 1012 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:53:54 : 1344 steps taken -- still burning in, 1007 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:54:57 : 1349 steps taken -- still burning in, 1005 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:57:00 : 1439 steps taken -- still burning in, 986 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:58:07 : 1447 steps taken -- still burning in, 984 accepted steps left.
+[mcmc] Progress @ 2026-07-20 10:59:15 : 1457 steps taken -- still burning in, 983 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:00:21 : 1471 steps taken -- still burning in, 978 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:01:21 : 1472 steps taken -- still burning in, 978 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:02:24 : 1527 steps taken -- still burning in, 962 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:03:31 : 1556 steps taken -- still burning in, 956 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:04:33 : 1581 steps taken -- still burning in, 951 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:05:38 : 1624 steps taken -- still burning in, 942 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:06:42 : 1639 steps taken -- still burning in, 939 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:07:51 : 1657 steps taken -- still burning in, 936 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:09:35 : 1681 steps taken -- still burning in, 933 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:11:44 : 1682 steps taken -- still burning in, 933 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:13:40 : 1697 steps taken -- still burning in, 931 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:15:28 : 1706 steps taken -- still burning in, 929 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:17:48 : 1722 steps taken -- still burning in, 924 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:19:33 : 1769 steps taken -- still burning in, 917 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:21:15 : 1797 steps taken -- still burning in, 910 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:22:47 : 1799 steps taken -- still burning in, 910 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:24:34 : 1801 steps taken -- still burning in, 909 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:26:04 : 1805 steps taken -- still burning in, 909 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:27:30 : 1829 steps taken -- still burning in, 903 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:28:54 : 1854 steps taken -- still burning in, 899 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:30:28 : 1913 steps taken -- still burning in, 894 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:32:17 : 1930 steps taken -- still burning in, 890 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:33:31 : 1936 steps taken -- still burning in, 890 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:34:52 : 1967 steps taken -- still burning in, 887 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:36:21 : 1983 steps taken -- still burning in, 887 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:37:45 : 1988 steps taken -- still burning in, 886 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:39:41 : 2037 steps taken -- still burning in, 880 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:41:26 : 2047 steps taken -- still burning in, 879 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:43:14 : 2052 steps taken -- still burning in, 877 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:45:07 : 2076 steps taken -- still burning in, 872 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:47:10 : 2179 steps taken -- still burning in, 856 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:48:38 : 2194 steps taken -- still burning in, 853 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:50:37 : 2209 steps taken -- still burning in, 851 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:52:34 : 2233 steps taken -- still burning in, 846 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:54:14 : 2247 steps taken -- still burning in, 842 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:56:23 : 2274 steps taken -- still burning in, 836 accepted steps left.
+[mcmc] Progress @ 2026-07-20 11:58:56 : 2291 steps taken -- still burning in, 834 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:01:19 : 2303 steps taken -- still burning in, 830 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:03:03 : 2328 steps taken -- still burning in, 827 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:05:16 : 2330 steps taken -- still burning in, 827 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:07:14 : 2331 steps taken -- still burning in, 826 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:08:48 : 2352 steps taken -- still burning in, 819 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:10:22 : 2381 steps taken -- still burning in, 816 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:11:40 : 2439 steps taken -- still burning in, 804 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:13:11 : 2450 steps taken -- still burning in, 802 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:14:49 : 2458 steps taken -- still burning in, 799 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:16:13 : 2480 steps taken -- still burning in, 796 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:17:33 : 2489 steps taken -- still burning in, 795 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:19:06 : 2491 steps taken -- still burning in, 795 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:20:39 : 2521 steps taken -- still burning in, 786 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:22:09 : 2534 steps taken -- still burning in, 785 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:24:04 : 2553 steps taken -- still burning in, 782 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:25:33 : 2599 steps taken -- still burning in, 772 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:27:09 : 2609 steps taken -- still burning in, 766 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:29:17 : 2633 steps taken -- still burning in, 759 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:31:36 : 2683 steps taken -- still burning in, 751 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:33:35 : 2690 steps taken -- still burning in, 751 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:35:08 : 2692 steps taken -- still burning in, 750 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:37:02 : 2712 steps taken -- still burning in, 748 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:39:02 : 2719 steps taken -- still burning in, 747 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:40:28 : 2760 steps taken -- still burning in, 740 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:42:33 : 2765 steps taken -- still burning in, 740 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:45:04 : 2801 steps taken -- still burning in, 733 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:46:48 : 2896 steps taken -- still burning in, 712 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:48:07 : 2910 steps taken -- still burning in, 709 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:49:48 : 2911 steps taken -- still burning in, 709 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:52:14 : 2940 steps taken -- still burning in, 702 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:54:20 : 2948 steps taken -- still burning in, 701 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:56:42 : 2969 steps taken -- still burning in, 693 accepted steps left.
+[mcmc] Progress @ 2026-07-20 12:59:25 : 2973 steps taken -- still burning in, 693 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:01:44 : 2985 steps taken -- still burning in, 691 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:04:05 : 2987 steps taken -- still burning in, 691 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:06:23 : 3031 steps taken -- still burning in, 683 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:08:38 : 3037 steps taken -- still burning in, 680 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:11:11 : 3041 steps taken -- still burning in, 678 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:14:03 : 3067 steps taken -- still burning in, 672 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:16:31 : 3136 steps taken -- still burning in, 662 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:18:49 : 3157 steps taken -- still burning in, 659 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:21:27 : 3158 steps taken -- still burning in, 659 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:23:33 : 3185 steps taken -- still burning in, 655 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:25:40 : 3226 steps taken -- still burning in, 644 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:27:39 : 3272 steps taken -- still burning in, 635 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:29:35 : 3280 steps taken -- still burning in, 635 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:31:36 : 3310 steps taken -- still burning in, 628 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:33:40 : 3325 steps taken -- still burning in, 625 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:36:24 : 3334 steps taken -- still burning in, 624 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:38:13 : 3345 steps taken -- still burning in, 624 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:40:37 : 3349 steps taken -- still burning in, 622 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:43:17 : 3351 steps taken -- still burning in, 622 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:48:02 : 3378 steps taken -- still burning in, 617 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:50:16 : 3402 steps taken -- still burning in, 611 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:53:23 : 3416 steps taken -- still burning in, 610 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:55:19 : 3429 steps taken -- still burning in, 606 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:56:48 : 3451 steps taken -- still burning in, 600 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:58:14 : 3476 steps taken -- still burning in, 598 accepted steps left.
+[mcmc] Progress @ 2026-07-20 13:59:26 : 3504 steps taken -- still burning in, 592 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:00:28 : 3513 steps taken -- still burning in, 591 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:01:33 : 3516 steps taken -- still burning in, 591 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:02:34 : 3545 steps taken -- still burning in, 583 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:03:37 : 3546 steps taken -- still burning in, 583 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:04:49 : 3572 steps taken -- still burning in, 576 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:06:03 : 3575 steps taken -- still burning in, 574 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:07:08 : 3607 steps taken -- still burning in, 564 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:08:44 : 3700 steps taken -- still burning in, 552 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:10:52 : 3715 steps taken -- still burning in, 548 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:12:34 : 3766 steps taken -- still burning in, 534 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:14:10 : 3777 steps taken -- still burning in, 531 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:15:37 : 3850 steps taken -- still burning in, 515 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:17:26 : 3889 steps taken -- still burning in, 508 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:19:00 : 3916 steps taken -- still burning in, 505 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:20:42 : 3942 steps taken -- still burning in, 500 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:21:49 : 3979 steps taken -- still burning in, 494 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:23:52 : 4027 steps taken -- still burning in, 489 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:25:07 : 4036 steps taken -- still burning in, 486 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:26:29 : 4039 steps taken -- still burning in, 486 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:29:23 : 4074 steps taken -- still burning in, 481 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:30:47 : 4090 steps taken -- still burning in, 478 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:32:05 : 4099 steps taken -- still burning in, 477 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:34:20 : 4180 steps taken -- still burning in, 462 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:35:28 : 4182 steps taken -- still burning in, 462 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:36:38 : 4232 steps taken -- still burning in, 445 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:37:56 : 4247 steps taken -- still burning in, 440 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:39:03 : 4248 steps taken -- still burning in, 440 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:40:40 : 4270 steps taken -- still burning in, 434 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:42:05 : 4284 steps taken -- still burning in, 432 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:43:38 : 4320 steps taken -- still burning in, 428 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:44:57 : 4322 steps taken -- still burning in, 428 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:46:02 : 4363 steps taken -- still burning in, 416 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:47:42 : 4380 steps taken -- still burning in, 414 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:49:13 : 4395 steps taken -- still burning in, 410 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:50:15 : 4397 steps taken -- still burning in, 410 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:52:18 : 4469 steps taken -- still burning in, 401 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:53:33 : 4503 steps taken -- still burning in, 398 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:54:44 : 4525 steps taken -- still burning in, 398 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:55:53 : 4533 steps taken -- still burning in, 398 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:57:05 : 4535 steps taken -- still burning in, 397 accepted steps left.
+[mcmc] Progress @ 2026-07-20 14:58:31 : 4555 steps taken -- still burning in, 393 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:00:14 : 4556 steps taken -- still burning in, 393 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:02:10 : 4600 steps taken -- still burning in, 382 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:03:22 : 4606 steps taken -- still burning in, 381 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:04:54 : 4624 steps taken -- still burning in, 378 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:05:56 : 4633 steps taken -- still burning in, 375 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:07:32 : 4653 steps taken -- still burning in, 371 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:09:01 : 4657 steps taken -- still burning in, 370 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:10:22 : 4704 steps taken -- still burning in, 361 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:11:50 : 4708 steps taken -- still burning in, 361 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:13:05 : 4726 steps taken -- still burning in, 358 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:14:33 : 4775 steps taken -- still burning in, 346 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:16:22 : 4813 steps taken -- still burning in, 335 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:17:52 : 4825 steps taken -- still burning in, 334 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:19:17 : 4844 steps taken -- still burning in, 332 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:20:21 : 4882 steps taken -- still burning in, 322 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:22:31 : 4899 steps taken -- still burning in, 319 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:23:48 : 4909 steps taken -- still burning in, 315 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:25:24 : 4926 steps taken -- still burning in, 313 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:27:55 : 4975 steps taken -- still burning in, 304 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:29:47 : 4986 steps taken -- still burning in, 301 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:32:37 : 5017 steps taken -- still burning in, 292 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:35:29 : 5036 steps taken -- still burning in, 290 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:37:48 : 5056 steps taken -- still burning in, 286 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:39:44 : 5067 steps taken -- still burning in, 284 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:41:07 : 5126 steps taken -- still burning in, 276 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:42:31 : 5136 steps taken -- still burning in, 275 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:45:34 : 5156 steps taken -- still burning in, 273 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:46:50 : 5219 steps taken -- still burning in, 258 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:48:25 : 5232 steps taken -- still burning in, 256 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:49:27 : 5238 steps taken -- still burning in, 253 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:51:01 : 5256 steps taken -- still burning in, 252 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:52:08 : 5264 steps taken -- still burning in, 251 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:53:20 : 5301 steps taken -- still burning in, 245 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:54:25 : 5323 steps taken -- still burning in, 238 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:56:37 : 5356 steps taken -- still burning in, 230 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:58:17 : 5367 steps taken -- still burning in, 228 accepted steps left.
+[mcmc] Progress @ 2026-07-20 15:59:38 : 5399 steps taken -- still burning in, 222 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:01:04 : 5402 steps taken -- still burning in, 222 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:02:14 : 5444 steps taken -- still burning in, 215 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:03:30 : 5489 steps taken -- still burning in, 206 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:04:47 : 5528 steps taken -- still burning in, 195 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:06:11 : 5537 steps taken -- still burning in, 194 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:07:39 : 5544 steps taken -- still burning in, 192 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:08:49 : 5550 steps taken -- still burning in, 188 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:10:14 : 5581 steps taken -- still burning in, 182 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:11:14 : 5632 steps taken -- still burning in, 178 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:12:29 : 5633 steps taken -- still burning in, 178 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:13:53 : 5662 steps taken -- still burning in, 172 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:15:10 : 5744 steps taken -- still burning in, 158 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:16:21 : 5779 steps taken -- still burning in, 148 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:18:13 : 5787 steps taken -- still burning in, 148 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:19:38 : 5803 steps taken -- still burning in, 148 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:21:03 : 5832 steps taken -- still burning in, 140 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:22:28 : 5859 steps taken -- still burning in, 131 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:24:04 : 5887 steps taken -- still burning in, 124 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:26:58 : 5929 steps taken -- still burning in, 108 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:28:11 : 5965 steps taken -- still burning in, 98 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:29:36 : 5989 steps taken -- still burning in, 95 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:31:23 : 6005 steps taken -- still burning in, 91 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:32:52 : 6016 steps taken -- still burning in, 90 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:34:39 : 6018 steps taken -- still burning in, 90 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:36:05 : 6063 steps taken -- still burning in, 77 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:37:28 : 6075 steps taken -- still burning in, 74 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:38:40 : 6077 steps taken -- still burning in, 74 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:40:23 : 6109 steps taken -- still burning in, 72 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:42:05 : 6148 steps taken -- still burning in, 63 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:43:35 : 6171 steps taken -- still burning in, 57 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:45:08 : 6191 steps taken -- still burning in, 53 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:46:43 : 6223 steps taken -- still burning in, 47 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:48:05 : 6227 steps taken -- still burning in, 47 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:49:37 : 6257 steps taken -- still burning in, 40 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:51:04 : 6269 steps taken -- still burning in, 39 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:52:21 : 6291 steps taken -- still burning in, 32 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:53:54 : 6298 steps taken -- still burning in, 32 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:55:35 : 6359 steps taken -- still burning in, 20 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:57:09 : 6389 steps taken -- still burning in, 15 accepted steps left.
+[mcmc] Progress @ 2026-07-20 16:59:13 : 6391 steps taken -- still burning in, 15 accepted steps left.
+[mcmc] Progress @ 2026-07-20 17:00:49 : 6402 steps taken -- still burning in, 13 accepted steps left.
+[mcmc] Finished burn-in phase: discarded 100 accepted steps.
+[mcmc] Progress @ 2026-07-20 17:02:05 : 6492 steps taken, and 0 accepted.
+[mcmc] Progress @ 2026-07-20 17:03:47 : 6543 steps taken, and 3 accepted.
+[mcmc] Progress @ 2026-07-20 17:05:32 : 6560 steps taken, and 4 accepted.
+[mcmc] Progress @ 2026-07-20 17:08:22 : 6567 steps taken, and 5 accepted.
+[mcmc] Progress @ 2026-07-20 17:09:49 : 6638 steps taken, and 11 accepted.
+[mcmc] Progress @ 2026-07-20 17:11:32 : 6654 steps taken, and 12 accepted.
+[mcmc] Progress @ 2026-07-20 17:12:55 : 6691 steps taken, and 15 accepted.
+[mcmc] Progress @ 2026-07-20 17:14:13 : 6708 steps taken, and 16 accepted.
+[mcmc] Progress @ 2026-07-20 17:15:56 : 6727 steps taken, and 18 accepted.
+[mcmc] Progress @ 2026-07-20 17:18:37 : 6761 steps taken, and 20 accepted.
+[mcmc] Progress @ 2026-07-20 17:19:42 : 6833 steps taken, and 26 accepted.
+[mcmc] Progress @ 2026-07-20 17:20:49 : 6835 steps taken, and 26 accepted.
+[mcmc] Progress @ 2026-07-20 17:21:58 : 6853 steps taken, and 27 accepted.
+[mcmc] Progress @ 2026-07-20 17:23:01 : 6856 steps taken, and 27 accepted.
+[mcmc] Progress @ 2026-07-20 17:24:18 : 6869 steps taken, and 29 accepted.
+[mcmc] Progress @ 2026-07-20 17:25:37 : 6933 steps taken, and 33 accepted.
+[mcmc] Progress @ 2026-07-20 17:27:26 : 6984 steps taken, and 37 accepted.
+[mcmc] Progress @ 2026-07-20 17:28:41 : 7007 steps taken, and 39 accepted.
+[mcmc] Progress @ 2026-07-20 17:29:45 : 7039 steps taken, and 42 accepted.
+[mcmc] Progress @ 2026-07-20 17:31:42 : 7089 steps taken, and 44 accepted.
+[mcmc] Progress @ 2026-07-20 17:32:47 : 7106 steps taken, and 46 accepted.
+[mcmc] Progress @ 2026-07-20 17:34:51 : 7136 steps taken, and 48 accepted.
+[mcmc] Progress @ 2026-07-20 17:36:26 : 7160 steps taken, and 49 accepted.
+[mcmc] Progress @ 2026-07-20 17:37:47 : 7163 steps taken, and 49 accepted.
+[mcmc] Progress @ 2026-07-20 17:39:06 : 7249 steps taken, and 56 accepted.
+[mcmc] Progress @ 2026-07-20 17:40:59 : 7259 steps taken, and 56 accepted.
+[mcmc] Progress @ 2026-07-20 17:42:24 : 7281 steps taken, and 58 accepted.
+[mcmc] Progress @ 2026-07-20 17:43:49 : 7308 steps taken, and 60 accepted.
+[mcmc] Progress @ 2026-07-20 17:45:18 : 7311 steps taken, and 61 accepted.
+[mcmc] Progress @ 2026-07-20 17:46:28 : 7312 steps taken, and 61 accepted.
+[mcmc] Progress @ 2026-07-20 17:47:41 : 7363 steps taken, and 65 accepted.
+[mcmc] Progress @ 2026-07-20 17:48:53 : 7364 steps taken, and 65 accepted.
+[mcmc] Progress @ 2026-07-20 17:50:09 : 7374 steps taken, and 65 accepted.
+[mcmc] Progress @ 2026-07-20 17:51:20 : 7390 steps taken, and 67 accepted.
+[mcmc] Progress @ 2026-07-20 17:52:21 : 7461 steps taken, and 72 accepted.
+[mcmc] Progress @ 2026-07-20 17:53:41 : 7462 steps taken, and 72 accepted.
+[mcmc] Progress @ 2026-07-20 17:54:58 : 7493 steps taken, and 74 accepted.
+[mcmc] Progress @ 2026-07-20 17:57:13 : 7524 steps taken, and 77 accepted.
+[mcmc] Progress @ 2026-07-20 17:58:34 : 7556 steps taken, and 79 accepted.
+[mcmc] Progress @ 2026-07-20 17:59:56 : 7560 steps taken, and 80 accepted.
+[mcmc] Progress @ 2026-07-20 18:01:02 : 7561 steps taken, and 80 accepted.
+[mcmc] Progress @ 2026-07-20 18:03:18 : 7608 steps taken, and 82 accepted.
+[mcmc] Progress @ 2026-07-20 18:04:53 : 7643 steps taken, and 85 accepted.
+[mcmc] Progress @ 2026-07-20 18:06:03 : 7677 steps taken, and 88 accepted.
+[mcmc] Progress @ 2026-07-20 18:07:13 : 7687 steps taken, and 89 accepted.
+[mcmc] Progress @ 2026-07-20 18:08:24 : 7695 steps taken, and 89 accepted.
+[mcmc] Progress @ 2026-07-20 18:09:30 : 7706 steps taken, and 90 accepted.
+[mcmc] Progress @ 2026-07-20 18:10:46 : 7726 steps taken, and 92 accepted.
+[mcmc] Progress @ 2026-07-20 18:11:54 : 7730 steps taken, and 92 accepted.
+[mcmc] Progress @ 2026-07-20 18:14:01 : 7774 steps taken, and 95 accepted.
+[mcmc] Progress @ 2026-07-20 18:15:09 : 7805 steps taken, and 98 accepted.
+[mcmc] Progress @ 2026-07-20 18:16:32 : 7806 steps taken, and 98 accepted.
+[mcmc] Progress @ 2026-07-20 18:18:04 : 7818 steps taken, and 98 accepted.
+[mcmc] Progress @ 2026-07-20 18:19:09 : 7838 steps taken, and 99 accepted.
+[mcmc] Progress @ 2026-07-20 18:20:11 : 7848 steps taken, and 100 accepted.
+[mcmc] Progress @ 2026-07-20 18:21:17 : 7851 steps taken, and 100 accepted.
+[mcmc] Progress @ 2026-07-20 18:22:28 : 7860 steps taken, and 101 accepted.
+[mcmc] Progress @ 2026-07-20 18:23:45 : 7919 steps taken, and 105 accepted.
+[mcmc] Progress @ 2026-07-20 18:24:55 : 7929 steps taken, and 106 accepted.
+[mcmc] Progress @ 2026-07-20 18:26:12 : 8024 steps taken, and 113 accepted.
+[mcmc] Progress @ 2026-07-20 18:27:19 : 8025 steps taken, and 113 accepted.
+[mcmc] Progress @ 2026-07-20 18:28:36 : 8036 steps taken, and 114 accepted.
+[mcmc] Progress @ 2026-07-20 18:29:51 : 8044 steps taken, and 114 accepted.
+[mcmc] Progress @ 2026-07-20 18:30:58 : 8045 steps taken, and 114 accepted.
+[mcmc] Progress @ 2026-07-20 18:32:12 : 8079 steps taken, and 116 accepted.
+[mcmc] Progress @ 2026-07-20 18:33:26 : 8085 steps taken, and 116 accepted.
+[mcmc] Progress @ 2026-07-20 18:34:31 : 8120 steps taken, and 119 accepted.
+[mcmc] Progress @ 2026-07-20 18:35:47 : 8124 steps taken, and 119 accepted.
+[mcmc] Progress @ 2026-07-20 18:37:00 : 8174 steps taken, and 123 accepted.
+[mcmc] Progress @ 2026-07-20 18:39:09 : 8193 steps taken, and 124 accepted.
+[mcmc] Progress @ 2026-07-20 18:40:15 : 8205 steps taken, and 125 accepted.
+[mcmc] Progress @ 2026-07-20 18:42:06 : 8274 steps taken, and 131 accepted.
+[mcmc] Progress @ 2026-07-20 18:44:01 : 8316 steps taken, and 133 accepted.
+[mcmc] Progress @ 2026-07-20 18:45:08 : 8321 steps taken, and 133 accepted.
+[mcmc] Progress @ 2026-07-20 18:46:31 : 8330 steps taken, and 134 accepted.
+[mcmc] Progress @ 2026-07-20 18:47:45 : 8397 steps taken, and 139 accepted.
+[mcmc] Progress @ 2026-07-20 18:48:45 : 8434 steps taken, and 141 accepted.
+[mcmc] Progress @ 2026-07-20 18:50:44 : 8445 steps taken, and 142 accepted.
+[mcmc] Progress @ 2026-07-20 18:52:47 : 8472 steps taken, and 144 accepted.
+[mcmc] Progress @ 2026-07-20 18:53:55 : 8490 steps taken, and 145 accepted.
+[mcmc] Progress @ 2026-07-20 18:55:02 : 8525 steps taken, and 148 accepted.
+[mcmc] Progress @ 2026-07-20 18:56:12 : 8536 steps taken, and 149 accepted.
+[mcmc] Progress @ 2026-07-20 18:57:34 : 8591 steps taken, and 153 accepted.
+[mcmc] Progress @ 2026-07-20 18:58:47 : 8608 steps taken, and 154 accepted.
+[mcmc] Progress @ 2026-07-20 18:59:53 : 8611 steps taken, and 154 accepted.
+[mcmc] Progress @ 2026-07-20 19:01:09 : 8612 steps taken, and 154 accepted.
+[mcmc] Progress @ 2026-07-20 19:02:21 : 8643 steps taken, and 157 accepted.
+[mcmc] Progress @ 2026-07-20 19:03:26 : 8660 steps taken, and 158 accepted.
+[mcmc] Progress @ 2026-07-20 19:05:23 : 8705 steps taken, and 161 accepted.
+[mcmc] Progress @ 2026-07-20 19:06:42 : 8718 steps taken, and 163 accepted.
+[mcmc] Progress @ 2026-07-20 19:08:14 : 8723 steps taken, and 163 accepted.
+[mcmc] Progress @ 2026-07-20 19:09:18 : 8733 steps taken, and 164 accepted.
+[mcmc] Progress @ 2026-07-20 19:10:18 : 8744 steps taken, and 164 accepted.
+[mcmc] Progress @ 2026-07-20 19:11:25 : 8774 steps taken, and 167 accepted.
+[mcmc] Progress @ 2026-07-20 19:12:32 : 8786 steps taken, and 167 accepted.
+[mcmc] Progress @ 2026-07-20 19:13:51 : 8791 steps taken, and 168 accepted.
+[mcmc] Progress @ 2026-07-20 19:15:52 : 8894 steps taken, and 176 accepted.
+[mcmc] Progress @ 2026-07-20 19:18:03 : 8915 steps taken, and 178 accepted.
+[mcmc] Progress @ 2026-07-20 19:19:21 : 8980 steps taken, and 183 accepted.
+[mcmc] Progress @ 2026-07-20 19:21:29 : 9022 steps taken, and 186 accepted.
+[mcmc] Progress @ 2026-07-20 19:22:41 : 9026 steps taken, and 187 accepted.
+[mcmc] Progress @ 2026-07-20 19:23:52 : 9028 steps taken, and 187 accepted.
+[mcmc] Progress @ 2026-07-20 19:24:57 : 9049 steps taken, and 188 accepted.
+[mcmc] Progress @ 2026-07-20 19:26:11 : 9072 steps taken, and 190 accepted.
+[mcmc] Progress @ 2026-07-20 19:27:45 : 9079 steps taken, and 191 accepted.
+[mcmc] Progress @ 2026-07-20 19:29:17 : 9130 steps taken, and 195 accepted.
+[mcmc] Progress @ 2026-07-20 19:30:30 : 9152 steps taken, and 196 accepted.
+[mcmc] Progress @ 2026-07-20 19:31:43 : 9161 steps taken, and 197 accepted.
+[mcmc] Progress @ 2026-07-20 19:34:14 : 9185 steps taken, and 199 accepted.
+[mcmc] Progress @ 2026-07-20 19:35:18 : 9213 steps taken, and 201 accepted.
+[mcmc] Progress @ 2026-07-20 19:37:02 : 9231 steps taken, and 201 accepted.
+[mcmc] Progress @ 2026-07-20 19:38:13 : 9249 steps taken, and 202 accepted.
+[mcmc] Progress @ 2026-07-20 19:39:24 : 9256 steps taken, and 203 accepted.
+[mcmc] Progress @ 2026-07-20 19:40:44 : 9259 steps taken, and 204 accepted.
+[mcmc] Progress @ 2026-07-20 19:42:09 : 9291 steps taken, and 206 accepted.
+[mcmc] Progress @ 2026-07-20 19:43:22 : 9355 steps taken, and 211 accepted.
+[mcmc] Progress @ 2026-07-20 19:44:25 : 9390 steps taken, and 214 accepted.
+[mcmc] Progress @ 2026-07-20 19:46:56 : 9422 steps taken, and 216 accepted.
+[mcmc] Progress @ 2026-07-20 19:48:06 : 9423 steps taken, and 216 accepted.
+[mcmc] Progress @ 2026-07-20 19:49:11 : 9435 steps taken, and 216 accepted.
+[mcmc] Progress @ 2026-07-20 19:50:22 : 9453 steps taken, and 217 accepted.
+[mcmc] Progress @ 2026-07-20 19:51:42 : 9527 steps taken, and 222 accepted.
+[mcmc] Progress @ 2026-07-20 19:52:59 : 9636 steps taken, and 228 accepted.
+[mcmc] Progress @ 2026-07-20 19:54:11 : 9637 steps taken, and 228 accepted.
+[mcmc] Progress @ 2026-07-20 19:55:26 : 9638 steps taken, and 228 accepted.
+[mcmc] Progress @ 2026-07-20 19:56:45 : 9639 steps taken, and 228 accepted.
+[mcmc] Progress @ 2026-07-20 19:58:02 : 9651 steps taken, and 229 accepted.
+[mcmc] Progress @ 2026-07-20 19:59:21 : 9661 steps taken, and 230 accepted.
+[mcmc] Progress @ 2026-07-20 20:00:37 : 9696 steps taken, and 233 accepted.
+[mcmc] Progress @ 2026-07-20 20:01:48 : 9708 steps taken, and 234 accepted.
+[mcmc] Progress @ 2026-07-20 20:03:27 : 9739 steps taken, and 236 accepted.
+[mcmc] Progress @ 2026-07-20 20:04:58 : 9759 steps taken, and 238 accepted.
+[mcmc] Progress @ 2026-07-20 20:06:22 : 9762 steps taken, and 238 accepted.
+[mcmc] Progress @ 2026-07-20 20:07:30 : 9781 steps taken, and 239 accepted.
+[mcmc] Progress @ 2026-07-20 20:09:03 : 9822 steps taken, and 242 accepted.
+[mcmc] Progress @ 2026-07-20 20:10:20 : 9832 steps taken, and 242 accepted.
+[mcmc] Progress @ 2026-07-20 20:11:46 : 9833 steps taken, and 242 accepted.
+[mcmc] Progress @ 2026-07-20 20:13:14 : 9890 steps taken, and 246 accepted.
+[mcmc] Progress @ 2026-07-20 20:14:25 : 9918 steps taken, and 248 accepted.
+[mcmc] Progress @ 2026-07-20 20:15:34 : 9941 steps taken, and 249 accepted.
+[mcmc] Progress @ 2026-07-20 20:16:36 : 9974 steps taken, and 252 accepted.
+[mcmc] Progress @ 2026-07-20 20:17:42 : 9982 steps taken, and 253 accepted.
+[mcmc] Progress @ 2026-07-20 20:19:14 : 10001 steps taken, and 255 accepted.
+[mcmc] Progress @ 2026-07-20 20:20:29 : 10017 steps taken, and 256 accepted.
+[mcmc] Progress @ 2026-07-20 20:21:40 : 10020 steps taken, and 256 accepted.
+[mcmc] Progress @ 2026-07-20 20:24:09 : 10089 steps taken, and 261 accepted.
+[mcmc] Progress @ 2026-07-20 20:25:22 : 10095 steps taken, and 262 accepted.
+[mcmc] Progress @ 2026-07-20 20:27:11 : 10125 steps taken, and 264 accepted.
+[mcmc] Progress @ 2026-07-20 20:28:29 : 10131 steps taken, and 264 accepted.
+[mcmc] Progress @ 2026-07-20 20:29:39 : 10140 steps taken, and 264 accepted.
+[mcmc] Progress @ 2026-07-20 20:30:42 : 10144 steps taken, and 264 accepted.
+[mcmc] Progress @ 2026-07-20 20:32:00 : 10171 steps taken, and 267 accepted.
+[mcmc] Progress @ 2026-07-20 20:33:13 : 10202 steps taken, and 269 accepted.
+[mcmc] Progress @ 2026-07-20 20:34:29 : 10239 steps taken, and 271 accepted.
+[mcmc] Progress @ 2026-07-20 20:35:59 : 10288 steps taken, and 276 accepted.
+[mcmc] Progress @ 2026-07-20 20:37:17 : 10305 steps taken, and 277 accepted.
+[mcmc] Progress @ 2026-07-20 20:38:28 : 10314 steps taken, and 277 accepted.
+[mcmc] Progress @ 2026-07-20 20:39:50 : 10324 steps taken, and 278 accepted.
+[mcmc] Progress @ 2026-07-20 20:41:16 : 10340 steps taken, and 280 accepted.
+[mcmc] Progress @ 2026-07-20 20:42:21 : 10348 steps taken, and 280 accepted.
+[mcmc] Progress @ 2026-07-20 20:44:07 : 10403 steps taken, and 283 accepted.
+[mcmc] Progress @ 2026-07-20 20:46:05 : 10508 steps taken, and 290 accepted.
+[mcmc] Progress @ 2026-07-20 20:47:59 : 10550 steps taken, and 293 accepted.
+[mcmc] Progress @ 2026-07-20 20:49:01 : 10557 steps taken, and 293 accepted.
+[mcmc] Progress @ 2026-07-20 20:50:07 : 10597 steps taken, and 296 accepted.
+[mcmc] Progress @ 2026-07-20 20:52:05 : 10603 steps taken, and 296 accepted.
+[mcmc] Progress @ 2026-07-20 20:53:07 : 10611 steps taken, and 298 accepted.
+[mcmc] Progress @ 2026-07-20 20:54:08 : 10631 steps taken, and 298 accepted.
+[mcmc] Progress @ 2026-07-20 20:55:11 : 10641 steps taken, and 300 accepted.
+[mcmc] Progress @ 2026-07-20 20:56:12 : 10667 steps taken, and 302 accepted.
+[mcmc] Progress @ 2026-07-20 20:57:13 : 10679 steps taken, and 303 accepted.
+[mcmc] Progress @ 2026-07-20 20:58:30 : 10715 steps taken, and 305 accepted.
+[mcmc] Progress @ 2026-07-20 20:59:31 : 10779 steps taken, and 310 accepted.
+[mcmc] Progress @ 2026-07-20 21:00:33 : 10780 steps taken, and 310 accepted.
+[mcmc] Progress @ 2026-07-20 21:02:36 : 10825 steps taken, and 314 accepted.
+[mcmc] Progress @ 2026-07-20 21:03:39 : 10864 steps taken, and 317 accepted.
+[mcmc] Progress @ 2026-07-20 21:05:21 : 10870 steps taken, and 317 accepted.
+[mcmc] Progress @ 2026-07-20 21:07:16 : 10955 steps taken, and 324 accepted.
+[mcmc] Progress @ 2026-07-20 21:08:51 : 10965 steps taken, and 325 accepted.
+[mcmc] Progress @ 2026-07-20 21:10:34 : 10996 steps taken, and 327 accepted.
+[mcmc] Progress @ 2026-07-20 21:12:30 : 11002 steps taken, and 328 accepted.
+[mcmc] Progress @ 2026-07-20 21:14:26 : 11035 steps taken, and 330 accepted.
+[mcmc] Progress @ 2026-07-20 21:15:28 : 11068 steps taken, and 333 accepted.
+[mcmc] Progress @ 2026-07-20 21:17:20 : 11121 steps taken, and 335 accepted.
+[mcmc] Progress @ 2026-07-20 21:19:17 : 11171 steps taken, and 339 accepted.
+[mcmc] Progress @ 2026-07-20 21:20:18 : 11184 steps taken, and 341 accepted.
+[mcmc] Progress @ 2026-07-20 21:21:30 : 11197 steps taken, and 342 accepted.
+[mcmc] Progress @ 2026-07-20 21:23:23 : 11227 steps taken, and 344 accepted.
+[mcmc] Progress @ 2026-07-20 21:25:11 : 11264 steps taken, and 347 accepted.
+[mcmc] Progress @ 2026-07-20 21:26:12 : 11265 steps taken, and 347 accepted.
+[mcmc] Progress @ 2026-07-20 21:27:27 : 11334 steps taken, and 352 accepted.
+[mcmc] Progress @ 2026-07-20 21:29:22 : 11398 steps taken, and 357 accepted.
+[mcmc] Progress @ 2026-07-20 21:30:31 : 11408 steps taken, and 357 accepted.
+[mcmc] Progress @ 2026-07-20 21:31:58 : 11413 steps taken, and 358 accepted.
+[mcmc] Progress @ 2026-07-20 21:33:30 : 11431 steps taken, and 359 accepted.
+[mcmc] Progress @ 2026-07-20 21:34:59 : 11440 steps taken, and 360 accepted.
+[mcmc] Progress @ 2026-07-20 21:36:25 : 11448 steps taken, and 361 accepted.
+[mcmc] Progress @ 2026-07-20 21:37:58 : 11458 steps taken, and 361 accepted.
+[mcmc] Progress @ 2026-07-20 21:39:32 : 11508 steps taken, and 363 accepted.

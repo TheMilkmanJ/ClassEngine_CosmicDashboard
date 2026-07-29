@@ -19,13 +19,28 @@
 > value, not a prediction:** solving the gap equation exactly rather than adopting its form gives
 > 3152 GeV — the recorded expression is the exact one with a factor two absorbed (§6d) — and
 > §6j's electroweak-precision bound is a roster bound, not a scale bound. Every anchor
-> number quoted in §2 below carries that qualification. Other conditionality: the no-bare
+> number quoted in §2 below carries that qualification.
+>
+> **And a second factor now rides alongside the first (2026-07-28,
+> `scripts/anchor_honest_precision.py`).** §6e settles the constituents as *compensated* rather
+> than uncharged — n_electron = n_hole, with charged carriers — so §6f's residual running is not
+> escapable and costs a further **×5.6** at the Z pole. Composed with §6d's factor two, the honest
+> band on the anchor runs **1576 → 17,580 GeV, a factor of 11**, with 4πm_H sitting at its very
+> bottom edge. Since ∂lnM/∂lnk = 33.5, quoting 1576.1 rather than 1576 would require k to eight
+> digits, which nothing in the physics supplies. **The supportable claim is that the anchor lands
+> at the electroweak scale within a factor of a few, every named residual adverse** — non-trivial
+> for a construction carrying no electroweak input, and not a sub-percent statement. The +0.14%
+> should be read as §6d already labels it: a coincidence of one convention inside that band. Other conditionality: the no-bare
 > clause and P-2026-042's anchor identification. **The exponent's k is determined** — the
 > screened-interaction integral, three concordant readings
 > (1.360 / 1.36461 / 1.3602) inside the Eliashberg window. Its **kernel** is the live front: §6
-> seats the gap equation in the constituent level and §6b fixes the channel as particle-hole,
-> so what is owed is no longer an object but a computation — showing the bend-over spectrum
-> condenses in that channel at λ = 0.03.
+> seats the gap equation in the constituent level and §6b fixes the channel as particle-hole.
+> The computation that was owed — showing the bend-over spectrum condenses in that channel at
+> λ = 0.03 — **is done** (§6a, 2026-07-28): the condition ln(Λ/E_*) = 1/λ − 1/p has a solution
+> for every p, so it condenses. What it does *not* do is deliver the anchor: Δ drops out, the
+> condition fixes the node-emergence scale, and the ledger already records that route missing by
+> e² with the wrong sign. Condensing and sourcing the exponent are separate claims and only the
+> first is established.
 > Referees: the α_c MCMC (the triangle plot) and HL-LHC (the portal search).
 
 ## 0. The problem
@@ -194,7 +209,10 @@ three things of its host, and the constituent level supplies all three:
 | **the attractive channel** (what pairs the census states) | **met — §6b.** The channel is particle-hole, not particle-particle: a charged Cooper condensate is excluded by thirty orders on the photon mass, and particle-hole Coulomb at α_c binds by construction. The residual is narrower than the requirement — showing the bend-over spectrum condenses in that channel at λ = 0.03 |
 
 The arithmetic is self-contained — measured m_H, the shared k, the derived 3/2, reproducing
-1576 GeV against 4πm_H = 1574 at +0.14%. Putting the gap equation in this vacuum makes the
+1576 GeV against 4πm_H = 1574 at +0.14%. *(That percentage is not the claim's precision: §6d's
+factor-2 convention and §6f's residual give an honest band of ×11, and this file's header states
+what is actually supportable. Quoted here only to identify which convention the arithmetic uses.)*
+Putting the gap equation in this vacuum makes the
 hierarchy answer and the gravity answer one statement: **the same fermionic floor that induces
 G pairs at kα_c, and the electroweak scale is that pairing's gap.** The three requirements are met,
 two from recorded structure and the third by the channel argument of §6b, with the residual now a
@@ -218,7 +236,20 @@ the cutoff but *a fermionic bath with finite density of states in the pairing sh
 supplies one is a **finite chemical potential** — a Fermi surface at some k_F inside the linear
 cone, where ρ(E_F) = E_F²/2π²v³ = k_F²/2π²v is finite and the shell is locally flat (the two forms
 are the same object in different variables, since E_F = v k_F; §6c uses the second, doubled for
-both spins). It is not the bend-over: §6c shows the anchor requires exactly the cone's density
+both spins).
+
+**k_F has no value to supply, and that is the result** (`scripts/hierarchy_kF_and_bendover.py`,
+2026-07-28, 9 checks). Assembling λ = N₀·⟨V⟩_FS with k_F kept symbolic, it cancels twice: once out
+of the screening constant, since b = e²·2N₀/4k_F² = 2α_c/πv carries no k_F, and again between N₀ ∝
+k_F² and the Fermi-surface average ⟨V⟩_FS ∝ 1/k_F². What survives is λ = (α_c/πv)·ln(1+1/b) with no
+trace of the Fermi momentum. Verified numerically across eight decades of k_F, spread 7×10⁻¹⁸.
+
+So the construction is **independent of where the Fermi surface sits**, and what it requires is an
+inequality rather than a number: k_F > 0 strictly, lying inside the linear cone. The strictness
+carries the whole content — at k_F = 0 the surface degenerates to the node, N₀ → 0, the log is gone,
+and §6a's table records that pairing would then need λ ≥ 2/3 instead of 0.03. This is a stronger
+position than a fitted k_F: a value would have been one more quantity requiring justification, and
+there is none to give. It is not the bend-over: §6c shows the anchor requires exactly the cone's density
 of states, and the van Hove enhancement
 at a band extremum would push it eight orders. So the node is what survives in the infrared, the
 bend-over is only the cutoff, and **the pairing is a Fermi-surface instability at finite μ inside
@@ -245,7 +276,7 @@ fixes the channel, because the two ways to pair at electromagnetic strength do n
 Particle-particle is excluded, by thirty orders. A Cooper-style condensate of two charge-e
 fermions carries charge 2e, so it breaks U(1)_EM at the anchor scale and the photon takes an
 Anderson-Higgs mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV. The recorded bound is m_γ < 10⁻¹⁸ eV
-([PRTOE_light.md](PRTOE_light.md)), a line the model's own Goldstone reading of light already
+([PRTOE_light.md](exploratory/PRTOE_light.md)), a line the model's own Goldstone reading of light already
 treats as a kill. For a charged condensate to clear it the pairing scale would have to sit below
 1.65×10⁻¹⁸ eV, which nothing in the sector can do. The same-charge Cooper reading is not merely
 unsupported; it is dead.
@@ -439,6 +470,62 @@ pockets are the same cone's halves, so they share a velocity and **r = v_e/v_h =
 and the compensation is exact rather than tuned. The residue is one question, not a structure: what
 puts μ₅ on that cone.
 
+**A source is available, and it is assembled from parts already in the corpus.** The portal's
+operator is the singlet multiplying the electron Yukawa, S·(L̄ H e_R)/Λ, and the singlet is a total
+gauge singlet carrying no charge of its own. Invariance under S → e^{iθ}S therefore leaves exactly
+one compensator in the operator: e_R → e^{−iθ}e_R, a rotation of the **right-handed electron alone**.
+A winding θ then deposits μ_R = θ̇ and μ_L = 0 — half vector, half axial. The two halves have
+different fates: the vector half is a chemical potential for a *gauged* charge and is screened by
+the medium's own neutrality, while chirality is not gauged and nothing compensates it. What survives
+is
+
+> **μ₅ = θ̇/2, on the electron**
+
+species-selective because the operator names the electron, and chiral because only e_R can absorb
+the phase. Both ingredients are already recorded elsewhere — the operator selection, and the
+identification μ = θ̇ that the baryogenesis chapter uses for lepton number. At the one epoch where
+θ̇ is pinned, **μ₅ ≈ 29.9 eV**. An earlier version of this paragraph named a "two-percent
+disagreement between two recorded values of θ̇" and ruled for 58.5 eV over 59.7 eV on provenance;
+**that ruling was backwards and is corrected here (2026-07-28).** There is no disagreement to
+adjudicate. θ̇ = 59.7 eV is the derived value — it follows from θ̇ ∝ a⁻³ for a deep-frozen
+condensate, θ̇ = m·(T_sph/T_on)³, with the field mass, T_sph = 131.7 GeV (the standard freeze-out,
+d'Onofrio–Rummukainen–Tranberg) and the onset temperature all recorded. The 58.5 eV figure is an
+artifact: it is that same number back-multiplied out of the ratio θ̇/H, which was only ever carried
+to two significant figures. The exact ratio is 2.450×10⁶ and it is recorded as 2.4×10⁶, so
+back-multiplying loses **2.05%** — which is the whole of the supposed disagreement. The claim that
+59.7 eV "would require g\* = 111.1" is arithmetically right and inferentially void, since it holds a
+truncated ratio fixed and pushes the discrepancy into a parameter that never moved.
+
+**The real uncertainty here is larger and sits elsewhere:** the onset temperature is carried at
+9.41, 9.46 and 9.5 keV in different files — a 1.0% spread that enters θ̇ cubed, hence **2.9%**,
+comfortably exceeding the 2% that was being ruled on. Nothing in the argument below turns on either
+figure, but the sourced value is **μ₅ = θ̇/2 = 29.85 eV**.
+
+**It inherits the phase condition below rather than escaping it.** A chiral chemical potential needs
+two opposite-chirality states in one representation to dope oppositely; in the unbroken phase the
+compensating rotation still exists but dopes a chiral singlet with no partner. So the μ₅ source and
+the charged-lepton selection hold in the same phase and fail in the same phase, for one structural
+reason. **That is a reduction, not a rescue: the two open items collapse into the single fork below.**
+What remains genuinely unpriced is the *size* — whether ~29 eV is the doping the band structure needs
+is not a comparison the recorded conditions permit, since they fix the doping through N_screen = 2N₀
+rather than through a stated μ₅.
+
+**Upgraded 2026-07-28, and the upgrade is structural rather than a new number.** That comparison is
+not merely unavailable in the recorded conditions — **it does not exist to be made.** §6a shows k_F
+cancels identically out of λ: once from the screening constant, since b = e²·2N₀/4k_F² = 2α_c/πv
+carries no k_F, and again between N₀ ∝ k_F² and ⟨V⟩_FS ∝ 1/k_F². The doping enters the gap equation
+*only* through N₀, and N₀'s k_F-dependence cancels, so **the construction never determines a doping
+value at all.** What it requires is the inequality k_F > 0 strictly, inside the linear cone.
+
+So the honest grade on this half of the item moves from *unpriced* to **undetermined by
+construction**: μ₅ = θ̇/2 ≈ 29.85 eV is derived (θ̇ ∝ a⁻³ from the onset, each input sourced), and there is
+no "doping the band structure needs" for it to match or miss. **A question that dissolves is not the
+same as one that is answered**, and this one dissolves — but it also stops being owed, because no
+amount of further work inside this construction would produce the number it asks to be compared
+against. (Note the objects are distinct: μ₅ is a *chiral* chemical potential, μ_L − μ_R, while the
+Fermi surface is set by the ordinary μ. The cancellation argument bears on the latter; what it
+establishes is that neither is pinned.)
+
 **But the shell is not in that phase.** Δ = 2Λ_shell·e^(−1/λ) with 1/λ = 33.474 and Δ = 3152 GeV
 puts **Λ_shell = 5.4×10¹⁷ GeV — 15.3 orders above the electroweak scale.** There electroweak
 symmetry is unbroken, and the two things the reading above uses are both absent:
@@ -526,10 +613,21 @@ the conditions, not a derivation from recorded structure. Supplying or refuting 
 now the constituent-level build's sharpest task.
 
 What the derivation rests on beyond that. N₀ = k_F²/π²v assumes linear dispersion at the pairing
-shell, and §6a puts that shell at a finite-μ Fermi surface *inside* the cone, not at the
-bend-over — so the density of states is owed, as is whatever fixes k_F. The rainbow truncation
-and the equal-density assumption for the two bands are the other two. Each is a computation
-inside the constituent theory rather than a missing object, and each is on the board.
+shell, and §6a puts that shell at a finite-μ Fermi surface *inside* the cone, not at the bend-over.
+
+**Corrected 2026-07-28 — this paragraph previously read "so the density of states is owed, as is
+whatever fixes k_F". Neither is owed.** The density of states was already supplied here,
+N₀ = k_F²/π²v, and **k_F is not an input the construction contains**: it cancels twice — out of the
+screening constant, since b = e²·2N₀/4k_F² = 2α_c/πv carries no k_F, and again between N₀ ∝ k_F² and
+the Fermi-surface average ⟨V⟩_FS ∝ 1/k_F². Verified numerically across eight decades of k_F, spread
+7×10⁻¹⁸ (§6a; `scripts/hierarchy_kF_and_bendover.py`). What the construction requires is an
+inequality rather than a value: **k_F > 0 strictly, inside the linear cone** — the strictness being
+the whole content, since at k_F = 0 the surface degenerates to the node, N₀ → 0, and pairing would
+need λ ≥ 2/3 instead of 0.03.
+
+So what remains on this list is **two items, not four**: the rainbow truncation and the equal-density
+assumption for the two bands. Each is a computation inside the constituent theory rather than a
+missing object, and each is on the board.
 
 
 ### 6d. What the gap equation pins, and what it does not
@@ -748,7 +846,7 @@ The leverage is the same 33× compounded with k's own response: ∂lnM/∂lnα_c
 
 The last row is not an extrapolation to be discounted: 1/α(M_Pl) = 1/α₂ + 1/α_Y = 49.46 + 55.48 =
 **104.94** is the tree-level composition of two one-loop-run couplings, and it is the same figure
-[PRTOE_light.md](PRTOE_light.md) hands out. The 7.1% between α(0) and α(M_Z) is already a factor
+[PRTOE_light.md](exploratory/PRTOE_light.md) hands out. The 7.1% between α(0) and α(M_Z) is already a factor
 5.6 on the anchor; going to the pairing scale on the corpus's own Planck-floor value costs a
 factor **956**. **So the anchor's landing requires the zero-momentum value specifically, at a
 process eighteen orders above the scale that defines it.**
@@ -777,7 +875,7 @@ larger than every O(1) in §6e.
 
 ### 6g. Which α, sharpened
 
-Three things narrow §6f's fork without closing it.
+Four things narrow §6f's fork without closing it.
 
 The corpus's own stance is principled, and it is horn (b). MATH_SPINE records
 "α_c = 3α = d·α — *the dCDF's* condensate coupling (α is its Goldstone's — light **is** that
@@ -805,6 +903,38 @@ the claim. **As a constraint it is worthless**, and it must not be used as one: 
 R−1 = 93 is the spread of a chain that has not found the distribution, which is typically far too
 narrow rather than too wide. Nothing that rests on the band's *edges* survives, and the anchor's
 own bound above — 1/α = 140.74 lying past the infrared cap — is independent of it and stands.
+
+**Horn (a) double-counts, and the amount is not small** (`scripts/hierarchy_6f_double_count.py`,
+2026-07-28, 5 checks). §6c does not use a bare Coulomb interaction: it uses V(q) = e²/(q² + m_D²)
+with the Thomas–Fermi mass m_D² = e²·2N₀, which is the medium's own polarization resummed. Written
+as a dielectric function that is V(q) = (e²/q²)/ε(q) with ε(q) = 1 + m_D²/q², so the momentum
+dependence of the effective coupling is already carried in full by ε(q).
+
+Running the coupling from zero momentum up to the Fermi surface *is* the statement that the
+intervening polarization screens it. §6c has already put that in by hand. Pairing a bare charge with
+an explicit dielectric function is the standard many-body construction; pairing a *running* charge
+with one as well applies the same physics twice. So α(0) is not a scale choice in §6c — it is the
+only value with the right meaning in that formula.
+
+The sizes make the point unmissable. The screening §6c performs, ln(1 + 1/b) = 4.287, is **62 times**
+the entire QED run from zero momentum to the Z pole, ln(α(M_Z)/α(0)) = 0.0686. The effect horn (a)
+proposes to add is not a neglected small term; it is a second copy of the dominant one.
+
+**What that leaves, and the corpus answers it — adversely.** Standard Model vacuum polarization from
+electron, muon, quark and W loops is a different object from the medium's Thomas–Fermi screening, and
+ε(q) does not double-count it. Whether it applies turns on whether the constituents carry electric
+charge at all. §6b excludes a charged *condensate*, which is silent on the question, but **§6e is
+not**: the constituent-level vacuum "carries no net electric charge" and is *compensated*,
+n_electron = n_hole, with electron and hole pockets. Net-neutral is not uncharged. The carriers are
+charged, and on this program's own identification — light is the medium's Goldstone, so
+electromagnetism *is* the medium — it is the same U(1).
+
+So the residual survives. Horn (a) does not close: some genuine running applies on top of the
+screening, and sizing it at the pairing scale costs a further factor of order 5–10 on the anchor,
+adverse, compounding the ×2.00 already recorded. What the double-count argument buys is smaller than
+it first appeared — it removes the naive "just evaluate α at the pairing scale" reading and shows
+that most of what horn (a) proposes to add is already present, but it does not remove the effect.
+§6f remains the chain's largest exposure and is now sharper rather than smaller.
 
 **What the coupling's constraints actually are, band withdrawn.** d appears twice, in α_c = d·α and
 in the floor ρ_Λ¼ = (d²/2)α⁴T_c, and the spine ties them explicitly; the two are one quantity
@@ -937,16 +1067,35 @@ about where the anchor sits. That is a real constraint on the census's portal co
 falsifiable one — but it is a roster bound, not a scale bound, and it leaves §6d's band and the
 4πm_H identification untouched.
 
-**The bound has not been applied.** It is derived here and repeated in three other files, but the
-portal roster's electroweak content is nowhere counted: the species are described as Higgs-coupled
-and leptophilic and given no representation assignment. A falsifiable self-constraint therefore
-sits on the books with nothing to test it against.
+**The bound applied: the count is zero, and the margin is unused.** S counts new *electroweak-charged*
+states, so the roster's doublet content is forced to be nonzero only if something requires the portal
+species to carry electroweak charge. Nothing does. The three properties the portal species are asked
+for are each met by a gauge singlet, and met at the right size:
 
-That gap matters because the ceiling is tight and the most natural reading fails it. **One doublet
-per generation is three**, giving S = 3/6π = 1/2π = **0.159 against |S| ≲ 0.14 — excluded by 14%**.
-Two doublets sit at 0.106, a 24% margin. So the portal cannot carry a full generation's worth of
-electroweak doublets, and whether it does is a question the census can answer and has not. Until
-it does, the anchor's portal content is constrained in principle and unconstrained in fact.
+| requirement | satisfied by |
+|---|---|
+| Higgs-coupled, to induce m_H² under the no-bare clause | λ|S|²|H|² for a gauge-singlet scalar S |
+| leptophilic | the dimension-5 operator S·(L̄ H e_R)/Λ — §5's own operator selection |
+| m_H ≈ M_anchor/4π from that loop | fixes λ × multiplicity ≈ 1, which is a coupling, not a representation |
+
+The size check is the one that matters. A scalar of mass M coupling as λ|S|²|H|² induces
+δm_H² ≈ (n_S·λ/16π²)·M², and the recorded anchor identification is m_H² = M²/16π²; the two agree at
+n_S·λ = 1, returning **125.25 GeV** from M_anchor = 4π·m_H = 1573.9 GeV. The 1/4π is a loop factor
+and a singlet loop carries it identically, so no electroweak charge enters anywhere. Consistently,
+the only portal-class object in this corpus with an assigned representation — the electron-coupled
+scalar — is explicitly a total singlet: Lorentz-scalar, dark-neutral, gauge-neutral, L-neutral.
+
+Nor does the census force the issue: c = 9/10 is a count over the universal charged-fermion roster,
+whose representations are already fixed and which contains no new states. The census constrains what
+the light scalar may couple to; it says nothing about the representation of anchor-scale species.
+
+**So S(n_D = 0) = 0 against |S| ≲ 0.14, and the constraint is carried forward as a design rule rather
+than as a test already passed.** The rule is tight and worth stating in the form that bites: one
+doublet per generation would be three, giving S = 3/6π = 1/2π = **0.159 — excluded by 14%**, with two
+doublets at 0.106 leaving a 24% margin. Any future construction that gives the portal states a
+generation index or an electroweak representation — to explain *why* they are leptophilic rather than
+assuming it — meets that ceiling immediately. **The portal may not acquire more than two electroweak
+doublets.**
 
 
 ### 6m. Cold or hot? The screening constant discriminates, and not in §6c's favour

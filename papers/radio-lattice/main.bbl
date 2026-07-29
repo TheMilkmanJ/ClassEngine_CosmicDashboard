@@ -1,0 +1,342 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{26}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Uzan}(2003)}]{Uzan2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont
+  {Uzan}},\ }\href {https://doi.org/10.1103/RevModPhys.75.403} {\bibfield
+  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
+  {75}},\ \bibinfo {pages} {403} (\bibinfo {year} {2003})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/0205340} {arXiv:hep-ph/0205340} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Uzan}(2011)}]{Uzan2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont
+  {Uzan}},\ }\href {https://doi.org/10.12942/lrr-2011-2} {\bibfield  {journal}
+  {\bibinfo  {journal} {Living Rev. Relativity}\ }\textbf {\bibinfo {volume}
+  {14}},\ \bibinfo {pages} {2} (\bibinfo {year} {2011})},\ \Eprint
+  {https://arxiv.org/abs/1009.5514} {arXiv:1009.5514} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Webb}\ \emph {et~al.}(1999)\citenamefont {Webb},
+  \citenamefont {Flambaum}, \citenamefont {Churchill}, \citenamefont
+  {Drinkwater},\ and\ \citenamefont {Barrow}}]{Webb1999}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont
+  {Webb}}, \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont {Flambaum}},
+  \bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont {Churchill}}, \bibinfo
+  {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Drinkwater}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Barrow}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.82.884} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
+  {pages} {884} (\bibinfo {year} {1999})},\ \Eprint
+  {https://arxiv.org/abs/astro-ph/9803165} {arXiv:astro-ph/9803165}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Murphy}\ \emph {et~al.}(2003)\citenamefont {Murphy},
+  \citenamefont {Webb},\ and\ \citenamefont
+  {Flambaum}}]{MurphyWebbFlambaum2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont
+  {Murphy}}, \bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont {Webb}},\
+  and\ \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont {Flambaum}},\
+  }\href {https://doi.org/10.1046/j.1365-8711.2003.06970.x} {\bibfield
+  {journal} {\bibinfo  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf
+  {\bibinfo {volume} {345}},\ \bibinfo {pages} {609} (\bibinfo {year}
+  {2003})},\ \Eprint {https://arxiv.org/abs/astro-ph/0306483}
+  {arXiv:astro-ph/0306483} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Planck
+  Collaboration}}(2015)}]{PlanckVaryingConstants}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Planck
+  Collaboration}}},\ }\href {https://doi.org/10.1051/0004-6361/201424496}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astron. Astrophys.}\ }\textbf
+  {\bibinfo {volume} {580}},\ \bibinfo {pages} {A22} (\bibinfo {year}
+  {2015})},\ \Eprint {https://arxiv.org/abs/1406.7482} {arXiv:1406.7482}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hart}\ and\ \citenamefont
+  {Chluba}(2018)}]{HartChluba2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Hart}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chluba}},\
+  }\href {https://doi.org/10.1093/mnras/stx2783} {\bibfield  {journal}
+  {\bibinfo  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume}
+  {474}},\ \bibinfo {pages} {1850} (\bibinfo {year} {2018})},\ \Eprint
+  {https://arxiv.org/abs/1705.03925} {arXiv:1705.03925} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sekiguchi}\ and\ \citenamefont
+  {Takahashi}(2021)}]{Sekiguchi2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sekiguchi}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Takahashi}},\ }\href {https://doi.org/10.1103/PhysRevD.103.083507}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {103}},\ \bibinfo {pages} {083507} (\bibinfo {year} {2021})},\
+  \Eprint {https://arxiv.org/abs/2007.03381} {arXiv:2007.03381} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kalita}(2024)}]{Kalita2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kalita}},\ }\href {https://doi.org/10.1093/mnrasl/slae062} {\bibfield
+  {journal} {\bibinfo  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf
+  {\bibinfo {volume} {533}},\ \bibinfo {pages} {L57} (\bibinfo {year}
+  {2024})},\ \Eprint {https://arxiv.org/abs/2407.01736} {arXiv:2407.01736}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ and\ \citenamefont {Xia}(2025)}]{WangXia2025}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.-Y.}\ \bibnamefont
+  {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {J.-Q.}\ \bibnamefont {Xia}},\
+  }\href {https://doi.org/10.3847/1538-4357/adba4a} {\bibfield  {journal}
+  {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {982}},\
+  \bibinfo {pages} {86} (\bibinfo {year} {2025})},\ \Eprint
+  {https://arxiv.org/abs/2503.06120} {arXiv:2503.06120} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Flambaum}\ and\ \citenamefont
+  {Porsev}(2010)}]{FlambaumPorsev2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont
+  {Flambaum}}\ and\ \bibinfo {author} {\bibfnamefont {S.~G.}\ \bibnamefont
+  {Porsev}},\ }\href {https://doi.org/10.1103/PhysRevLett.105.039001}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {105}},\ \bibinfo {pages} {039001} (\bibinfo {year}
+  {2010})},\ \Eprint {https://arxiv.org/abs/1004.2540} {arXiv:1004.2540}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khatri}\ and\ \citenamefont
+  {Wandelt}(2007)}]{KhatriWandelt2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Khatri}}\ and\ \bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont
+  {Wandelt}},\ }\href {https://doi.org/10.1103/PhysRevLett.98.111301}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {98}},\ \bibinfo {pages} {111301} (\bibinfo {year}
+  {2007})},\ \Eprint {https://arxiv.org/abs/astro-ph/0701752}
+  {arXiv:astro-ph/0701752} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khatri}\ and\ \citenamefont
+  {Wandelt}(2010)}]{KhatriWandelt2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Khatri}}\ and\ \bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont
+  {Wandelt}},\ }\href {https://doi.org/10.1103/PhysRevLett.105.039002}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {105}},\ \bibinfo {pages} {039002} (\bibinfo {year}
+  {2010})},\ \Eprint {https://arxiv.org/abs/1007.1963} {arXiv:1007.1963}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wolfe}\ \emph {et~al.}(1976)\citenamefont {Wolfe},
+  \citenamefont {Brown},\ and\ \citenamefont
+  {Roberts}}]{WolfeBrownRoberts1976}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Wolfe}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont {Brown}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont {Roberts}},\
+  }\href {https://doi.org/10.1103/PhysRevLett.37.179} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {37}},\
+  \bibinfo {pages} {179} (\bibinfo {year} {1976})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tzanavaris}\ \emph {et~al.}(2005)\citenamefont
+  {Tzanavaris}, \citenamefont {Webb}, \citenamefont {Murphy}, \citenamefont
+  {Flambaum},\ and\ \citenamefont {Curran}}]{Tzanavaris2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Tzanavaris}}, \bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont
+  {Webb}}, \bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont {Murphy}},
+  \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont {Flambaum}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont {Curran}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.95.041301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {95}},\
+  \bibinfo {pages} {041301} (\bibinfo {year} {2005})},\ \Eprint
+  {https://arxiv.org/abs/astro-ph/0412649} {arXiv:astro-ph/0412649}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gordon}\ and\ \citenamefont
+  {Sorochenko}(2009)}]{GordonSorochenko2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Gordon}}\ and\ \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {Sorochenko}},\ }\href {https://doi.org/10.1007/978-0-387-09691-9} {\emph
+  {\bibinfo {title} {Radio Recombination Lines: Their Physics and Astronomical
+  Applications}}},\ \bibinfo {series} {Astrophysics and Space Science Library},
+  Vol.\ \bibinfo {volume} {282}\ (\bibinfo  {publisher} {Springer},\ \bibinfo
+  {address} {New York},\ \bibinfo {year} {2009})\ \bibinfo {note} {vERIFIED
+  against the Crossref record for the DOI, 2026-07-28: title, authors,
+  publisher (Springer New York), year (2009), series, and both ISBNs
+  (978-0-387-09604-9 print, 978-0-387-09691-9 electronic) all confirmed. One
+  caveat recorded rather than hidden: the series VOLUME NUMBER is ABSENT from
+  the Crossref record. The 282 above is corroborated by the publisher's own
+  catalogue listing for this ISBN, not by Crossref}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lorimer}\ and\ \citenamefont
+  {Kramer}(2004)}]{LorimerKramer2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {Lorimer}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kramer}},\ }\href@noop {} {\emph {\bibinfo {title} {Handbook of Pulsar
+  Astronomy}}},\ \bibinfo {series} {Cambridge Observing Handbooks for Research
+  Astronomers}, Vol.~\bibinfo {volume} {4}\ (\bibinfo  {publisher} {Cambridge
+  University Press},\ \bibinfo {address} {Cambridge},\ \bibinfo {year} {2004})\
+  \bibinfo {note} {year VERIFIED 2026-07-28 against the ADS bibcode
+  2004hpa..book.....L, which records December 2004 and is the citation form the
+  pulsar literature uses. Cambridge's own catalogue and several secondary
+  indexes give 2005, so the discrepancy is real but resolved in favour of 2004;
+  series (Cambridge Observing Handbooks for Research Astronomers, vol. 4) and
+  ISBN 978-0-521-82823-9 independently confirmed. NOTE ON METHOD: the bibcode
+  was read from an ADS search listing, not fetched from the ADS record itself,
+  whose interface is script-rendered and returned empty content}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kulkarni}(2020)}]{Kulkarni2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {Kulkarni}},\ }\href@noop {} {\bibinfo {title} {Dispersion measure:
+  Confusion, constants \& clarity}} (\bibinfo {year} {2020}),\ \bibinfo {note}
+  {arXiv eprint; entry type changed @article -> @misc 2026-07-28. As @article
+  with no journal field, apsrev4-2 threw 13 errors trying to match a missing
+  journal against its abbreviation table. Caught by the first compile the paper
+  has ever had},\ \Eprint {https://arxiv.org/abs/2007.02886} {arXiv:2007.02886
+  [astro-ph.HE]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rybicki}\ and\ \citenamefont
+  {Lightman}(1979)}]{RybickiLightman1979}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~B.}\ \bibnamefont
+  {Rybicki}}\ and\ \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
+  {Lightman}},\ }\href@noop {} {\emph {\bibinfo {title} {Radiative Processes in
+  Astrophysics}}}\ (\bibinfo  {publisher} {Wiley},\ \bibinfo {address} {New
+  York},\ \bibinfo {year} {1979})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brentjens}\ and\ \citenamefont
+  {de~Bruyn}(2005)}]{BrentjensDeBruyn2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Brentjens}}\ and\ \bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont
+  {de~Bruyn}},\ }\href {https://doi.org/10.1051/0004-6361:20052990} {\bibfield
+  {journal} {\bibinfo  {journal} {Astron. Astrophys.}\ }\textbf {\bibinfo
+  {volume} {441}},\ \bibinfo {pages} {1217} (\bibinfo {year} {2005})},\ \Eprint
+  {https://arxiv.org/abs/astro-ph/0507349} {arXiv:astro-ph/0507349}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Seto}\ and\ \citenamefont
+  {Toda}(2023)}]{SetoToda2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Seto}}\ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Toda}},\
+  }\href {https://doi.org/10.1103/PhysRevD.107.083512} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {107}},\
+  \bibinfo {pages} {083512} (\bibinfo {year} {2023})},\ \Eprint
+  {https://arxiv.org/abs/2206.13209} {arXiv:2206.13209} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hart}\ and\ \citenamefont
+  {Chluba}(2020)}]{HartChluba2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Hart}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chluba}},\
+  }\href {https://doi.org/10.1093/mnras/staa412} {\bibfield  {journal}
+  {\bibinfo  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume}
+  {493}},\ \bibinfo {pages} {3255} (\bibinfo {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/1912.03986} {arXiv:1912.03986} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rahmani}\ \emph {et~al.}(2012)\citenamefont
+  {Rahmani}, \citenamefont {Srianand}, \citenamefont {Gupta}, \citenamefont
+  {Petitjean}, \citenamefont {Noterdaeme},\ and\ \citenamefont
+  {Vasquez}}]{Rahmani2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Rahmani}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Srianand}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Gupta}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Petitjean}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Noterdaeme}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.~A.}\ \bibnamefont {Vasquez}},\ }\href
+  {https://doi.org/10.1111/j.1365-2966.2012.21503.x} {\bibfield  {journal}
+  {\bibinfo  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume}
+  {425}},\ \bibinfo {pages} {556} (\bibinfo {year} {2012})},\ \bibinfo {note}
+  {weighted mean $\Delta x/x = -(0.1 \pm 1.3)\times 10^{-6}$, $x =
+  g_p\alpha^2/\mu$; four systems, $1.17<z<1.56$; VLT/UVES, GMRT, GBT, with VLBA
+  used to select unresolved sightlines.},\ \Eprint
+  {https://arxiv.org/abs/1206.2653} {arXiv:1206.2653} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kanekar}\ \emph {et~al.}(2010)\citenamefont
+  {Kanekar}, \citenamefont {Prochaska}, \citenamefont {Ellison},\ and\
+  \citenamefont {Chengalur}}]{Kanekar2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Kanekar}}, \bibinfo {author} {\bibfnamefont {J.~X.}\ \bibnamefont
+  {Prochaska}}, \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont
+  {Ellison}},\ and\ \bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
+  {Chengalur}},\ }\href {https://doi.org/10.1088/2041-8205/712/2/L148}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J. Lett.}\ }\textbf
+  {\bibinfo {volume} {712}},\ \bibinfo {pages} {L148} (\bibinfo {year}
+  {2010})},\ \bibinfo {note} {$\Delta X/X = [+6.8 \pm 1.0\,(\mathrm{stat}) \pm
+  6.7\,(\mathrm{max\ sys})] \times 10^{-6}$, $0<z\le 1.46$. The systematic
+  dominates; the result is a null. Cited here for the systematic, not the
+  central value.},\ \Eprint {https://arxiv.org/abs/1003.0444} {arXiv:1003.0444}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jones}\ \emph {et~al.}(2017)\citenamefont {Jones},
+  \citenamefont {McLaughlin}, \citenamefont {Lam} \emph
+  {et~al.}}]{JonesNANOGrav2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Jones}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {McLaughlin}}, \bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont {Lam}},
+  \emph {et~al.},\ }\href {https://doi.org/10.3847/1538-4357/aa73df} {\bibfield
+   {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume}
+  {841}},\ \bibinfo {pages} {125} (\bibinfo {year} {2017})},\ \bibinfo {note}
+  {dMX methodology for dispersion-measure variation in a pulsar timing
+  array.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {{NANOGrav Collaboration}}(2023)}]{NANOGravDM2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{NANOGrav
+  Collaboration}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys. J.}\ } (\bibinfo {year} {2023})},\ \bibinfo {note}
+  {infinite-frequency TOA offsets $\sim 22\,\mu$s for the highest-DM pulsar
+  (J1643$-$1224), $\sim 7\,\mu$s at low DM, correlated over $\sim$1 month. This
+  is the systematic that binds the DM row.},\ \Eprint
+  {https://arxiv.org/abs/2307.13248} {arXiv:2307.13248} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {O'Sullivan}\ \emph {et~al.}(2023)\citenamefont
+  {O'Sullivan}, \citenamefont {Shimwell}, \citenamefont {Hardcastle} \emph
+  {et~al.}}]{OSullivanLoTSS2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~P.}\ \bibnamefont
+  {O'Sullivan}}, \bibinfo {author} {\bibfnamefont {T.~W.}\ \bibnamefont
+  {Shimwell}}, \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Hardcastle}}, \emph {et~al.},\ }\href
+  {https://doi.org/10.1093/mnras/stac3820} {\bibfield  {journal} {\bibinfo
+  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume} {519}},\
+  \bibinfo {pages} {5723} (\bibinfo {year} {2023})},\ \bibinfo {note} {2461
+  extragalactic RMs over 5720 deg$^2$; median RM uncertainty $0.06$ rad
+  m$^{-2}$, systematic up to $0.3$ rad m$^{-2}$ after ionospheric
+  correction.},\ \Eprint {https://arxiv.org/abs/2301.07697} {arXiv:2301.07697}
+  \BibitemShut {NoStop}%
+\end{thebibliography}%

@@ -8,13 +8,14 @@
 > **τ is sourced by the Koide sector, and nothing cosmological enters.** The circulant kernel fixes
 > its own modulus through Parseval: Q = 2/3 forces |f₁/f₀| = 1/√2, hence
 >
-> > **τ = ½ln2 = 0.34657 ⟹ T_c = 177.10 keV ⟹ ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**
+> > **τ = ½ln2 ⟹ T_c ≈ 177 keV ⟹ ρ_Λ¼ lands on the observed dark-energy scale, with nothing
+> > cosmological anywhere in the chain.**
 >
 > That chain descends from Q, a lepton-mass fact measured to ten parts per million, through an exact
 > identity ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
 >
-> **Read the +0.44% as existence, not precision.** The claim it carries is that the chain lands on
-> the observed scale with nothing cosmological in it. It is not a claim on the decimal places: the
+> **This is an existence claim, and the decimals are deliberately not the headline.** The chain
+> returns 2.2599 meV against an observed 2.25, but that agreement is not what is being asserted: the
 > composite quartic maps to λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY
 > correction is uncontrolled at this order — formally 5.4–9.8% on ρ_Λ¼, with the next term of the
 > same series already larger.
@@ -27,7 +28,7 @@
 > prediction together; 0.34506 kills both.**
 
 
-> *New reader? The repository's internal shorthand decodes in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *Claim conditionality is mapped in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 *The elevator formulation — the model's testable core compressed to three lines, written for
@@ -150,7 +151,7 @@ data speaks** — the object the running evidence comparison actually grades:
 | ε | 1.2403 ± 0.0079% | the concordance joint of fit and stack | conditional (three referees) |
 | A_s | **2.088×10⁻⁹ frozen**; the closed form (α_c/4πk)³ = **2.081×10⁻⁹** — it lands **−0.34%** | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
 | n_s | 0.9677 = 1 − 2/ln(T₀/k*) k-local, predicted running α_s = −5.2×10⁻⁴ (the executed run value 0.9641 is the established k-independent form, now consistency-check grade) | the modulation map: envelope × shot on the verified k_UV = T₀ anchor; the 2 = amplitude-squared | mechanism candidate (exhibited) |
-| z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass confirmed independently by ξ = 402 AU, the Schive core radii, and the superradiance window — which the mass **clears** (M87\*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
+| z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass resting on that clock alone — **the "confirmed independently" wording was withdrawn 2026-07-28** (circularity sweep, check 34: ξ ≡ ħ/(m c_s) is *defined* from m so it confirms nothing; the Schive comparison is unresolved; the superradiance band is an exposure) — and the superradiance window, which the mass **clears** (M87\*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
 | *(the evidence run's setting)* | 3.5619×10⁷ | a profiled freeze, 0.053 dex below the identity — it implies m = 1.75×10⁻²⁰, which misses all three mass checks by ≈28% | **inconsistent with the model's own mass; the run tests this point, not the identity** |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits 2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |

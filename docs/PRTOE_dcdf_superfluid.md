@@ -4,7 +4,7 @@
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *Identity file for the dCDF. Quantitative derivations live in
-[PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
+[PRTOE_v4_dCDF_derivation.md](exploratory/PRTOE_v4_dCDF_derivation.md) /
 [PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md); this file is what it is, not the
 derivation. It is one of three dark fields — the others are the electron-coupled scalar
 ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) and the Majoron, which the one-scale corner's tie-death
@@ -22,7 +22,8 @@ What is already derived in this branch:
 
 What is still open:
 
-- the residual magnitude tied to the dark-energy value;
+- the residual magnitude **from this sector's own dynamics** (it is supplied by the Koide-kernel
+  route — see §5 and the note there; what fails here is the fluctuation–dissipation closure);
 - the matter-asymmetry sign correlation from the genesis draw;
 - the exact link between the condensate floor and the bounce dynamics.
 
@@ -97,16 +98,39 @@ condensate). *This identification carries a second load as of 2026-07-19: it is 
 medium's own coupling rather than an external one, and so what lets the hierarchy's pairing kernel
 be electromagnetic without α being obliged to run to the pairing scale
 ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).* The medium is EM-neutral → transparent → zero optical birefringence; the parity is
-forced into the metric instead. Full account: [PRTOE_light.md](PRTOE_light.md).
+forced into the metric instead. Full account: [PRTOE_light.md](exploratory/PRTOE_light.md).
 
 ## 5. What it does NOT close
 
 - The dark-energy **value** does **not** forward-close from the neutrino microphysics: the
- fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss**. The
- sub-ohmic/critical closure (s ≈ 0.26) is **CONDITIONAL** on the settling attractor being
- self-organized-critical (otherwise the transition boils, first-order); the boiling-free
- superfluid-λ reading gives s ≈ 0.69 (misses). See the derivation log.
-- **w = −1 is exact and derived**; the residual's *magnitude* is the owed piece.
+ fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss**. The boiling-free
+ superfluid-λ reading gives s ≈ 0.69 and also misses. **The sub-ohmic/critical closure
+ (s ≈ 0.26) is not an escape hatch and was wrongly carried here as one until 2026-07-28**: this
+ file presented it as merely *conditional* on the settling attractor being self-organized-critical
+ (*otherwise the transition boils, first-order* — that clause remains true and is cited elsewhere
+ for its grammar, since first-order is how this sector goes wrong),
+ but the standing ruling is stronger and structural — **the sub-ohmic self-tuning belongs to the
+ dark-matter channel, not the dark-energy one**, so it is not a route to this value at any
+ confidence in the SOC premise ([PRTOE_honest_status.md](PRTOE_honest_status.md), which states it
+ flatly: the settling response is ohmic in the dark-energy channel, the floor's value is not fixed
+ by the settling, the coincidence problem stands, and there is *"still no working self-tuning
+ mechanism for the value"*). Read the two together and the conditional disappears: the honest
+ status is **no mechanism**, not **a mechanism awaiting a premise**.
+- **w = −1 is exact and derived**; the residual's *magnitude* is the owed piece **from this
+  sector's own dynamics** — the qualifier matters and was missing until 2026-07-28. The magnitude
+  **is** supplied elsewhere, by a route this file never mentioned: the Koide-kernel chain gives
+  ρ_Λ¼ = (d²/2)·α⁴·T_c = 2.2599 meV ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)),
+  with α, m_e and d = 3 as inputs and nothing cosmological in it. Read together, the two files say:
+  the number exists, and **the dCDF cannot yet produce it from its own fluctuation–dissipation
+  response**, which is ohmic (s = 1) and misses by 21 decades.
+
+  That is a genuine open item and it should not be softened — but neither should it be stated in a
+  way that implies the dark-energy scale is underived corpus-wide, which is how this bullet read on
+  its own. The honest form: **one route supplies it at existence grade, this sector's own route
+  fails by 21 dex, and the two facts belong in the same sentence.** (The supplying route carries its
+  own caveats: a +0.44% offset that is ~1.8σ on the observational error, and the corpus's own
+  dof-family estimate of τ pointing to ~+4% — both recorded in
+  [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md) §3.)
 
 ## Where the dead ends live
 
@@ -116,9 +140,9 @@ Literal He-3-as-medium (four shots) and the DE-amplitude inversion are in
 
 ## Sources / see also
 
-Derivations: [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md),
-[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md). The Goldstone: [PRTOE_light.md](PRTOE_light.md).
+Derivations: [PRTOE_v4_dCDF_derivation.md](exploratory/PRTOE_v4_dCDF_derivation.md),
+[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md). The Goldstone: [PRTOE_light.md](exploratory/PRTOE_light.md).
 Genesis: [PRTOE_white_holes.md](PRTOE_white_holes.md). The three-door map:
 [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b, read through
-[PRTOE_quantum_trio.md](PRTOE_quantum_trio.md). The open derivations:
+[PRTOE_quantum_trio.md](exploratory/PRTOE_quantum_trio.md). The open derivations:
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md).

@@ -110,11 +110,15 @@ the area law are in hand: the *scaling* from counting horizon entanglement acros
 coherence cells against induced gravity's inverse Newton constant (species count and cutoff cancel
 in the ratio — that cancellation is the universality), and the *coefficient* as the ratio of the
 two heat-kernel coefficients the same cutoff supplies, 12π/48π = **1/4 exactly**, giving S = A/4G
-([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). The residue is the field content those
-coefficients assume: 12π and 48π belong to minimally coupled scalars, and the cancellation does not
-extend to the roster the model carries — with non-minimal coupling or spin the two divergences stop
-being one heat-kernel term, and the fermion-sign hazard survives a ratio argument because a ratio
-survives both its halves being wrong.
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). Those coefficients belong to minimally
+coupled scalars, so the cancellation does not extend automatically to the roster the model carries.
+The extension has been made per class: spin-½ produces no contact term and preserves the ratio
+exactly, which settles the fermion-sign hazard directly rather than by a ratio argument; gauge fields
+break it through the contact term, which is identified as the edge modes' entanglement entropy and
+restores the ratio once those are counted as horizon entropy; and a conformally coupled scalar drops
+out of both sides identically, as the Higgs does under the same ξ = 1/6 that induced-Newton
+finiteness already requires. The quarter survives at candidate grade on that single commitment
+([PRTOE_entropy.md](PRTOE_entropy.md) §3).
 
 Hawking radiation survives: phonon Hawking emission from sonic horizons is standard
 analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not lost.

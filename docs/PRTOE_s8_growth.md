@@ -49,7 +49,14 @@ is information; ΛCDM's position provides none.
 
 ## 4. Owed
 
-The chains' converged posteriors (running); a matched-lensing-likelihood fit (DES/KiDS proper,
+The chains' converged posteriors — **not running, corrected 2026-07-28.** `conv_desi` holds a
+single chain file last written **2026-07-22** at R−1 = 13.25. *(That figure is a within-chain
+split-R̂ — one chain cut into four segments — so it is a genuine number, but one that cannot detect
+confinement to a single basin; flagged 2026-07-29, since elsewhere the corpus wrongly stated a
+one-chain run yields no statistic at all.)* Three runs are live on the box as of 2026-07-29 — the
+bbnfix pair and route-D — and none of them is this one. The chain has died twice (at initialisation on 07-16, then again on
+07-22), so **this posterior is unproduced rather than pending** and restarting it is an owner
+decision. Also owed: a matched-lensing-likelihood fit (DES/KiDS proper,
 not just the S₈ point) before any tension-easing CLAIM is recorded; the conversion's
 perturbation-sector treatment.
 

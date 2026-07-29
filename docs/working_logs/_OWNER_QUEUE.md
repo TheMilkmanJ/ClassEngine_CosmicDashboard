@@ -46,6 +46,28 @@ against the launch date before any resume. Tool: `scripts/chain_convergence_fore
 119%, 217%, 391% against a declared 2% tolerance, all four already marked unquotable. On the
 corrected picture it is not starving anything; it is simply producing unusable output.
 
+**STATUS 2026-07-28, 13:35 — the 3-rank relaunch is healthy, and an alarm about it was withdrawn
+before it reached this page.** Both chains run 3 MPI ranks at ~101% CPU. Rank 0 on each was still in
+burn-in until ~13:30, which is why only `.2.txt`/`.3.txt` existed — cobaya writes a rank's file after
+its burn-in completes — and why the `.progress` files carried headers with no rows: no convergence
+check runs until every rank is past burn-in. Both are now clearing it.
+
+The cumulative acceptance the logs report reads **0.207% against 5.434% before the relaunch**, a 26×
+collapse that would have argued for reverting to serial. **That reading is wrong and the number is
+an artifact.** Cobaya's counter is cumulative since launch, so the fresh start's climb to the peak
+sits permanently in the denominator. Differencing consecutive rows per rank gives the *current*
+rate:
+
+| | current (incremental) | pre-relaunch |
+|---|---|---|
+| cmp_lcdm, rank 2 | 5.6 / 15.4 / 7.7 / 11.1 % | 5.434% |
+| dyad, rank 1 | steady **6–7%** across 18 intervals | 5.606% |
+
+So acceptance is **at or above** what the serial runs had, and the seed covmat is confirmed loaded
+(*"All parameters' covariance loaded from given covmat"*). **No action needed; the ranks ruling
+stands on its original grounds.** Recorded as audit check 27c — a cumulative average is not the
+current rate.
+
 ---
 
 ## 2. Task #21's deciding chain has been dead eight days, on its third failure
@@ -132,7 +154,30 @@ standing instruction is that the current pair finishes because it rides the late
 
 ---
 
-## 4. The junction quartet misses closure by nine, and #39's target may be the wrong number
+## 4. ~~The junction quartet misses closure by nine~~ — **DISSOLVED 2026-07-28, no ruling needed**
+
+> **RESOLVED before it reached the owner. The quartet closes; there is no factor-9 discrepancy and
+> #39's 5.7 keV target is correct.** The item below is kept as raised, then answered.
+>
+> **The overdamping ratio is 9.03×10⁷, not 10⁷.** Computed from its own sourced inputs:
+> Γ_φ = G_F²T⁵ = 5.3902×10⁹ eV at T_sph = 131.7 GeV (control: reproduces the recorded 5.4×10⁹), and
+> θ̇ = 59.68 eV, giving **Γ_φ/θ̇ = 9.0319×10⁷**. The transfer-integral spec records this correctly —
+> *"overdamped by 9×10⁷"* — and the summary below compressed it to an order of magnitude. **The
+> missing 9.03 is exactly that compression**, which is why the shortfall came out at 9.03 rather
+> than some incommensurate number.
+>
+> With the computed ratio all four numbers agree simultaneously:
+> **ω_J = 5.7 keV → j = 6.03 meV** (recorded ~6) **→ R = 5.05×10⁻⁵** (needed ~5×10⁻⁵). Inverting,
+> the need requires ω_J = **5.672 keV**, which is **0.5%** from the stated target.
+>
+> **The 1.90 keV alternative must NOT be adopted** — it is what you get by imposing the *rounded*
+> ratio, and a derivation landing there would be **8.9× short** of the transmission the reservoir
+> needs. #39 should be graded against 5.7 keV after all.
+>
+> Verified: `scripts/junction_quartet_closure.py`. This is protocol entry **40**'s failure mode for
+> the second time in one day — a factor inferred from a quantity quoted to one figure, then
+> attributed to physics. The entry below even names the mechanism ("all three inputs are quoted to
+> one significant figure") and still filed it as an open ruling instead of computing the ratio.
 
 **Raised 2026-07-28.** Baryogenesis records ω_J ≈ 5.7 keV, j = ω_J²/Γ_φ ≈ 6 meV, Γ_φ/θ̇ ≈ 10⁷ and
 a needed R ≈ 5×10⁻⁵. Substituting Γ_φ collapses R to j/(2θ̇), so ω_J cancels out of R and the four
@@ -159,7 +204,77 @@ values sit ~36 orders apart, and nothing is numerically at risk — a reader mee
 
 **The ruling:** which sense keeps ω_J. Same category as the de-jargon pass's naming collisions.
 
+**A second collision, and this one has already cost real work (added 2026-07-28).** The pair
+(a, b) denotes two different decompositions of the *same* family-ring operator:
+
+| convention | form | the graph's values |
+|---|---|---|
+| T6's stiffness pair | H = ½Σ[**a**·f_k² + **b**·(f_k − f_{k+1})²] — on-site, bond | **a = b** = g |
+| the circulant pair | H = **a**·I + **b**·P + **b**\*·P² — diagonal, hopping | a = 3g, **b = −g** |
+
+Both are live, both are standard, and they disagree on the value of "a/b" for one matrix — 1 versus
+−3. This is not hypothetical: the null was carried for a day as "a = 3b", a statement true only in
+the first convention and only under the thermal delivery law. **The ruling:** either rename one pair
+(the circulant hopping to t, say, which is the usual letter for it), or require every quotation of
+a and b to name its convention inline. The second is cheaper and weaker; the first is what audit
+check 29 would recommend.
+
 ---
+
+## 6. The toroidal fork's energy gate looks unsatisfiable by construction (2026-07-28)
+
+`scripts/ring_toroidal_3d.py` is running (task #42, ~15.4 h, one core at nice 19, first execution
+that has survived past its opening frames). It is producing readings: a ring is detected from
+t = 1.00 with shape helicity **helA = −1** and core-circuit winding **W = −1.19**.
+
+**The problem is its third gate.** The header's quotability gates are (i) a ring detected in ≥14 of
+16 azimuthal bins, (ii) the n = ±1 pair behaving as a parity pair, and (iii) **energy drift ≤ 2% per
+run**. Observed drift is 16.1% at t = 1.00 and 19.2% at t = 1.25, climbing steadily, against a run
+that goes to t = 8.
+
+That is not a numerical failure — it is the sponge doing its job. The integrator carries an explicit
+dissipative term, `psi -= 0.4·dt·SPONGE·(n−1)·psi`, whose purpose is to absorb the directed
+fountain's radiation at the box edge, and the energy functional integrates the whole box. **An
+absorbing boundary and an energy-conservation gate cannot both be satisfied**; the 2% figure appears
+to have been written for a closed system.
+
+**The decision.** Gate (iii) as written will fail, and under "quotable only if all pass" that would
+bury a result whose actual content — the parity behaviour of helA across n = ±1 — is a *relative*
+comparison that a common dissipation does not corrupt. Three options:
+
+- **(a)** re-scope gate (iii) to the physical region inside the sponge, which is what it was meant to
+  measure, and grade the run on that;
+- **(b)** keep gate (iii) literal, bury the run, and re-register the experiment with a conserving
+  boundary — expensive, and the sponge exists because a periodic box without it is worse;
+- **(c)** grade the parity test on its own and record the drift beside it, unquoted.
+
+**Recommendation: (a).** It is the only one that keeps the pre-registration honest without
+discarding a result for failing a condition its own instrument design forbids. This should be ruled
+**before** the n = −1 half completes, so the ruling cannot be accused of following the answer.
+
+**MEASURED, not argued (`scripts/toroidal_energy_gate_diagnostic.py`).** The recommendation above
+was an argument, and the corpus has buried a run on this exact bar before — the adaptive spherical
+rebound (bounce_reconstruction_rp §23) failed it at 22–1817% and was correctly recorded as
+"numerically unresolved by this method at this resolution." So re-scoping needs evidence that this
+case differs in *cause*, not merely in sympathy. The two candidate causes are separable by one
+experiment: same initial condition, sponge on versus sponge off.
+
+| configuration | drift over 200 steps | per step |
+|---|---|---|
+| sponge **ON** (as run) | **3.8341%** | 0.019170% |
+| sponge **OFF** | **0.0003%** | 0.000002% |
+
+A ratio of **12,705×**. With the absorbing term removed the integrator conserves energy to four
+significant figures; switching it on reproduces the drift. **The 2% bar is measuring the sponge, not
+the numerics.** It cannot be met by any run using an absorbing boundary, and this instrument uses one
+by design — a periodic box without it reflects the fountain's radiation back onto the ring being
+measured.
+
+That is a different situation from the spherical run, where the energy error was the integrator
+failing with no dissipative term to blame. Same symptom, different cause, and the distinguishing
+measurement is above. **Recommendation (a) stands and is now evidenced.** Note also that the fork's
+actual content — the parity of helA across n = ±1 — is a *relative* comparison from which a common
+dissipation cancels, so it survives either ruling.
 
 ## Not a decision, but the owner should see it
 
@@ -169,6 +284,22 @@ that single quantity and do not meet: the indirect band gives d ∈ [2.809, 2.93
 anchor 2.921, the observed dark-energy density 2.993, and the geometry 3. The escape of separating
 the two d's is **closed algebraically** — the floor's d² is α_c²/α², so the two forms are one form.
 Two branches survive, both empirical, and item 3 above is the tractable one.
+
+**A registrable prediction, offered rather than filed (2026-07-28).** The democratic construction for
+the null fixes the family ring's *neutral* mode frequency, not only Q: the spectrum ε₀ = a,
+ε_charged = 4a gives ω₀ = ω₁/2, so with the recorded ω₁ = (2/9)T_c = 39.355 keV,
+
+> **ω₀ = (1/9)·T_c = 19.677 keV.**
+
+The corpus carries no independent ω₀ — every occurrence traces to this session — so nothing tests it
+today, and it is the cheapest single number that could kill the mechanism. **Whether this earns a
+P-number is the owner's call, not mine**; registering a prediction is a commitment, and this one
+descends from a candidate resting on one structural and one dynamical claim rather than from a
+banked result. Recorded here so
+the option is visible and the number is not quietly lost. It sits in T6's log with the mechanism's
+three other consequences (the uniform mode is bound rather than flat; no null for any neutral
+triple, ever; and N = 3 uniquely, so a fourth generation breaks the null rather than merely
+extending it).
 
 ---
 
@@ -180,9 +311,9 @@ new result gets tested against them. What each is waiting on:
 | absence | what would unlock it |
 |---|---|
 | the α_c band's provenance | any α_c reading that skips the ε-assembly — the dispersion chain, the isocurvature phase speed, or a converged α_c chain |
-| the portal roster's doublet count | the census's portal species given electroweak representations; adjacent to #6 and #41 |
-| f̄'s averaging window | the epoch at which ε acts — adjacent to #11, the genesis cascade |
-| why Q = 2/3 | a mechanism making the Z₃-graded norm vanish; **fired 2026-07-28, see below** |
+| ~~the portal roster's doublet count~~ | **RESOLVED 2026-07-28** — the count is zero; `scripts/portal_roster_doublet_count.py`. S counts electroweak-*charged* states, and each property the portal species are asked for (Higgs-coupled, leptophilic, m_H at one loop) is met by a gauge singlet at the right size — n_S·λ = 1 returns 125.25 GeV from the 4π anchor. The census counts SM charged fermions and never ranged over these states. Carried forward as a design rule: the portal may not acquire more than two electroweak doublets. |
+| f̄'s averaging window | **NARROWED 2026-07-28 to evidence grade** — `scripts/fbar_window_discriminator.py`. The accumulated reading (N = 3.82×10⁵ turns ⇒ f̄ = 2/π to 8×10⁻⁵%) predicts 2/π; the instantaneous reading makes f̄ a frozen \|cos θ\| with a 48% spread. The fit-implied f̄ = 0.6253 sits 1.78% from 2/π, which a frozen phase reaches with probability 1.87% — **54 : 1 for the accumulated reading**, read as modest given look-elsewhere. *The winding-sim's 0.25% is NOT usable — it simulates the premise under test.* Consequence: the α_c conflict stands at its full 2.08% and nothing about f̄ is available to relieve it. Still owed: the operator form (integral over the winding epoch vs value at recombination) |
+| ~~why Q = 2/3~~ | **CANDIDATE MECHANISM 2026-07-28** — the medium as a fourth node: `koide_democratic_graph_null.py`, `koide_equal_quanta_from_adiabaticity.py`, `koide_pour_before_split.py`. Democratic K₄ + equal quanta gives a = b, ε ratio 4, Q = 2/3 exactly, and selects N = 3 uniquely via (N−1)² = N+1; passes the charge filter unprompted. Reduced to one structural question — the assembly order (task #1). |
 
 **First hit.** The charge-weighted selection (§6c) supplies the selector the μ₅ residue needed,
 and it is electric charge rather than the Z₃ — which means it breaks the family symmetry, exactly
@@ -203,8 +334,90 @@ cannot be on the node for *any* lightest mass, Q_ν topping out at 0.585 against
 12.2%. The reading is untestable inside the corpus's structure, which is its status rather than a
 step toward one.
 
+> **⚠ QUALIFIED 2026-07-29, and this one may reopen rather than close.** The 0.585 ceiling assumes
+> all three square roots POSITIVE — Q = Σm ⁄ (Σ√m)² depends on those signs, and the ring form
+> generates a negative root whenever 2|b| > a, with only m = (√m)² observable. On the **(−,+,+)
+> branch Q_ν crosses 2/3 at m₁ ≈ 0.00040 eV** (`scripts/neutrino_Q_sign_branch.py`, which reproduces
+> the 0.585 ceiling exactly as a control). **So the "there is none" may be wrong**: Brannen's
+> φ = 2/9 + π/12 fit reproduces the measured Δm²₃₁/Δm²₂₁ to 0.5% on precisely that branch, predicts
+> m₁ = 0.000374 eV — agreeing with the branch's own crossing — and pins **Σm_ν = 0.0585 eV**. If the
+> negative branch is admissible, the fourth handle this passage says does not exist would exist, and
+> it would be a testable number rather than an untestable reading. **Whether that branch is
+> physically admissible is the open question, and it is now the one worth owner attention.** Note the
+> *second* leg below (charge² weighting makes a neutral cone worth zero) is untouched by any of this
+> — as this passage already says, the two arguments do not use each other.
+
 **The return is elsewhere.** The same neutrino failure confirms the selector from a second
 direction: T6 concludes from it that the cone acts in the charged sector specifically, and the
 basement reaches the same place because screening weights by charge² so a neutrino cone is worth
 zero. Two sectors, two arguments, neither using the other — **electric charge is the selector on
 both**.
+
+## The radio-lattice paper: one sentence, and one item that closed itself (2026-07-29)
+
+`scripts/dm_row_sigma_eps.py`, 9 controls. Two things for the owner, one of which needs no decision.
+
+**No decision needed — item 1 of "what is still genuinely owed" is closed.** The readiness note read
+*"σ_ε in physical units … needs the DM timing-model conversion. This is the one piece of physics still
+missing."* It is not missing. **A universal constant ε is exactly degenerate with the fitted dispersion
+measure**: it rescales the delay's coefficient and leaves its 1/ν² shape untouched, so a timing model
+absorbs it completely — DM_fit = (∫n_e dl)/(1+ε), t_∞ unchanged, residuals at machine precision, at
+every frequency coverage tested. So there is nothing to convert, and the 20 μs figure bounds ε
+*variation* (1.7×10⁻⁶ to 3.1×10⁻⁴ depending on band and column, a span of 183×), not ε. Full working
+in `_ARXIV_READINESS.md`.
+
+> ### ✅ RULED 2026-07-29 — demote the row, and hold the paper back
+>
+> **Owner ruling: demote.** Applied — the ranking sentence is replaced by the degeneracy statement,
+> the dispersion row joins the two already set aside as failing Eq. (ML)'s presumption "not as a
+> matter of precision but of kind", and the measurable set drops from three rows to two
+> (**σ_ε = σ/√8 ≈ 0.35σ**; σ/√11 retained as an upper bound, not a forecast). Rebuilt clean: 0 errors,
+> 0 undefined, 6 pp. **And the paper is now marked NOT arXiv-ready** until an independent
+> electron-column determination promotes the row back. Full record in `_ARXIV_READINESS.md`.
+>
+> *Original decision text retained below for provenance.*
+>
+> ### ⚠ DECISION NEEDED — one sentence in `papers/radio-lattice/main.tex`
+>
+> *"The dispersion-measure row is statistically the strongest."*
+>
+> Both numbers in that paragraph are correct and reproduce exactly. But they are the precision of the
+> **DM measurement**, and by the degeneracy above that precision **does not transfer to ε** — a better
+> DM measurement gives a better DM_fit and says nothing about the shift. The paper already declines to
+> fold the 10⁻⁷ into a forecast, so the caution is there; the ranking claim is what a referee
+> following the degeneracy would stop on.
+>
+> **The minimal repair is one clause** — that the row's strength lies in DM precision, while its
+> sensitivity to ε is set by the independent column determination, which is what the paper's own next
+> sentence already says. **I have not edited it.** It is an authorship call in your paper, and the
+> alternatives (leave it, qualify it, or demote the row's ranking) differ in what they concede.
+>
+> Note the two **line** rows are unaffected: a shifted rest frequency is an irreducible apparent
+> redshift against the fixed laboratory value, at weight +2 for 21 cm and +1 for the RRL (ratio
+> exactly 2, checked). The degeneracy is specific to the reconstructed-quantity rows.
+
+## A pre-registered prediction's tag may need changing (2026-07-29)
+
+**P-020 carries `[OBJECT-PENDING on: … amplitude-follows-current …]`, and that object is now
+obstructed rather than pending.** `scripts/amplitude_follows_current_charges.py`, 10 controls, exact
+rational charge arithmetic; full working in the failures ledger and annotated at the prediction.
+
+The claim asks one field to carry lepton number (so its phase couples to the lepton current, which is
+what drives the asymmetry) *and* to couple linearly to an operator containing the charged-lepton mass.
+Those are incompatible: **every Standard Model Yukawa conserves lepton number**, so an L-charged field
+can only reach (LH)(LH) and ν_Rν_R — both ΔL = 2, both neutrino Majorana masses. It can make neutrino
+mass; it cannot shift m_e.
+
+> **I have annotated the prediction but not rewritten it.** Changing a pre-registration's status tag
+> is your call, not mine. The three options differ in what they concede:
+>
+> 1. **Leave `OBJECT-PENDING`** and rely on the annotation. Cheapest; but the tag then overstates how
+>   open the object is, and a referee who does the charge arithmetic will notice.
+> 2. **Change to `OBJECT-OBSTRUCTED`** for that one item, keeping the other two pending. Most accurate
+>   to what is now known.
+> 3. **Change to `OBJECT-PENDING (loop route only)`** — escape (c) survives, so this is defensible and
+>   is the narrowest honest statement, but it commits to a mechanism nobody has estimated.
+>
+> **Nothing about the leptogenesis side changes** under any of the three, and leptophilia is still
+> carried by data exactly as P-020 already says. What changes is only how open the *drag* to δm_e is
+> allowed to look.

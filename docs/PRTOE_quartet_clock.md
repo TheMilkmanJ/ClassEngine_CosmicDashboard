@@ -106,6 +106,29 @@ OVERSHOOT and then whittle back DOWN toward the pair zone, turnover near the ~50
 marker — the same crest-and-descend the old-template chain showed (7.94 → 7.82,
 descending when retired). Graded at samples ≈ 500 and ≈ 800.
 
+**GRADING ATTEMPTED 2026-07-28 — AND REFUSED.** `cmp_prtoe_zon_disp` now carries 4758 samples,
+well past both markers, so the call looks gradeable. It is not, and the reason is quantitative.
+Splitting the chain into eighths, the segment means run
+
+  7.4495 · 7.4461 · 7.4806 · 7.5607 · 7.6081 · 7.6348 · 7.6031 · 7.6118
+
+a spread of **0.1887** where a settled chain of this length and variance would scatter by
+**0.0032** — **59× too wide**. The recorded convergence statistic agrees and is worse than that:
+R−1 runs 11.3 → 22.8 → 17.8 against the 0.05 stopping target, *rising* over the run. The chain has
+not found the distribution, so it has no center to grade.
+
+**The near-miss is worth recording as a warning.** The cumulative running mean of log10_zon reaches
+**7.5494** at the final sample — against 7.55, the value α_c = 3α requires. That is a 0.0006 hit and
+it is **meaningless**: the segment means show the chain sitting near 7.61 and still moving, and the
+cumulative average merely happened to be crossing 7.55 where the run stopped. Quoting it would have
+produced the most impressive-looking number in the file, sourced from a chain that is wandering.
+
+This is the same defect the α_c band was withdrawn for (§6g: "an interval read at R−1 = 93 is the
+spread of a chain that has not found the distribution"). **The trajectory call remains ungraded and
+must stay ungraded until R−1 falls to its target.** What can be said meanwhile: the observed
+turnover, such as it is, sits near sample ~3500 rather than the called ~500 — but on an unconverged
+chain even that is not evidence against the call.
+
 ## 5. The registered call (BEFORE the dispersion chain's convergence)
 
 **The registered call is PAIR (7.70).** Reasoning, registered in structure: the

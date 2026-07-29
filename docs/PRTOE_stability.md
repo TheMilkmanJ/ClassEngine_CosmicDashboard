@@ -19,7 +19,7 @@ have.*
 The medium is a **canonical complex scalar** — Ψ with the minimal potential
 V = m²|Ψ|² + λ|Ψ|⁴ — whose working description below the amplitude gap is the phase EFT of a
 condensate at finite chemical potential (Son, hep-ph/0204199; see
-[PRTOE_PHYSICS_DOMAINS.md](PRTOE_PHYSICS_DOMAINS.md) room 10). **Ghost-freedom is not a condition
+[PRTOE_PHYSICS_DOMAINS.md](exploratory/PRTOE_PHYSICS_DOMAINS.md) room 10). **Ghost-freedom is not a condition
 this model satisfies; it is a property it inherits.** A canonical kinetic term has no
 higher-derivative sector to produce an Ostrogradsky mode, and a phase EFT derived from a healthy UV
 completion carries that health down with it. The sound speed of the phonon is the Bogoliubov speed,
@@ -92,10 +92,10 @@ The Vainshtein estimate clears the Hui–Nicolis argument with roughly five orde
 corpus is careful to record as a **band rather than a zero**: a solar-system residual at or below
 10⁻⁵ of current bounds. The model therefore does not say "no fifth force ever"; it says where the
 residual sits, which is a thing an experiment can go and fail to find. Homes:
-[PRTOE_classical_gravity.md](PRTOE_classical_gravity.md),
-[PRTOE_interaction_map.md](PRTOE_interaction_map.md),
+[PRTOE_classical_gravity.md](exploratory/PRTOE_classical_gravity.md),
+[PRTOE_interaction_map.md](exploratory/PRTOE_interaction_map.md),
 [PRTOE_direct_detection.md](PRTOE_direct_detection.md),
-[PRTOE_PHYSICS_DOMAINS.md](PRTOE_PHYSICS_DOMAINS.md).
+[PRTOE_PHYSICS_DOMAINS.md](exploratory/PRTOE_PHYSICS_DOMAINS.md).
 
 ## Lorentz violation
 

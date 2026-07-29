@@ -1,6 +1,6 @@
 # PRTOE/dCDF — Pre-Registered Predictions
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *Claim conditionality is mapped in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *Notation modernized 2026-07-13 (mathematical symbols and internal terminology). Entry
 > content — numbers, dates, kill conditions — is unchanged; the registry remains append-only
@@ -294,6 +294,18 @@ one-amendment-per-tension is an EPICYCLE PROGRAM unless a single
 medium-native coupling sources both. The amendments are cheap
 individually and expensive collectively until they share one
 mechanism. The §2 wall is owed twice, by the same construction.
+
+**Status: the count is now one, because the second amendment died rather than
+being unified.** P-2026-006's mhat amendment is excluded — the portal reaches
+the quark bilinear only at two electroweak/electromagnetic loops, and the loop
+floor sits at ~7×10⁻⁸ against the ~2×10⁻³ a heal would require, five orders
+short. The BBN quark-bleed row is retired with it. What remains is a single
+epoch-localized amendment, m_e at recombination, whose sourcing is the two-phase
+coupling that closes at condensation. **The epicycle critique registered above
+therefore dissolves on its own terms**: one amendment healing one tension is not
+a pattern, and the dangerous version of this program — one new constant per
+anomaly — was foreclosed by the second candidate failing on loop order rather
+than by an argument constructed to save it. The §2 wall is owed once.
 **The unifier stress test (derived 2026-07-07):** the obvious single mechanism — one Higgs-vev-type
 coupling, universal at fixed Yukawas (dln m_e = dln mhat) — is DEAD
 on arrival: the dyad's m_e amendment extends to BBN, so mhat would
@@ -348,6 +360,16 @@ not twice. Per the ruling: until κ's form is
 action-derived, this is a constraint-with-a-locked-signature, not a
 populated evidence-class entry.
 
+**Status: the carrier structure survives; the mhat relation it carries does not.** The two-epoch
+structure recorded above is a real feature and is used elsewhere — the normal fraction alive at BBN
+and dying as a⁻⁶, the condensate nonexistent before z_x and alive at recombination. What does *not*
+survive is the specific amendment this entry was built to carry: the mhat lever is excluded on loop
+order, the portal reaching the quark bilinear only at two electroweak/electromagnetic loops with a
+floor five orders below what a heal requires. **So deriving mhat(ρ_d/ρ_r) from an action would
+supply the coupling form of a lever that no longer exists**, and the "honest hole" recorded above is
+no longer a debt. The gate, the epoch contrast and the a⁻⁶ evaporation are what to carry forward
+from this entry; the locked ΔN_eff relation is not a live signature.
+
 ---
 
 ## ANN-2026-005: The vev package — the healer's source is the Higgs portal, full five-abundance co-signature
@@ -389,6 +411,19 @@ Delta_Neff detection attributed to this carrier, kills it.
 **Still owed (unchanged ruling):** κ_v's value and the portal's
 attachment to (ρ_d/ρ_r) are not action-derived; this remains a
 constraint-with-a-locked-signature until they are.
+
+**Status: the package is dead, and the ruling above is the one thing about it that did not
+change.** Three independent kills, all recorded elsewhere and none of them pointed to from here.
+(i) The unification test was run and came out against it — the one-carrier κ_v fails by eight to
+ten orders (ANN-2026-006, below). (ii) The flat-vev heal itself is excluded at **+7.7σ**, a 6.5×
+overshoot of the healer window. (iii) The whole density-proportional class goes with it
+(ANN-2026-007). The κ_v docket has carried **PROGRAM STATUS: CLOSED** since 2026-07-19, stating
+that nothing in it is load-bearing, and the P-2026-006 lever this package was retained against is
+itself excluded by loop order.
+
+**Consequence for the debt:** κ_v's value is owed to nothing. It was the normalisation of a
+mechanism that no longer exists, and deriving it now would price a dead lever. The falsifiable
+co-signature above is retained as the record of what the package predicted, not as a live target.
 
 ---
 
@@ -445,6 +480,14 @@ capture.** The two amendments cannot be siblings. The open
 recombination search is narrowed accordingly: shared-carrier stories
 are closed; candidate mechanisms must produce epoch contrast through
 something other than the medium's density history.
+
+**Status: the sibling question is moot and the narrowing survives it.** The BBN
+amendment is excluded on loop order, so there is no second lever to be a sibling
+of. What does not depend on that comparison is the density-proportional
+exclusion itself, which was computed for the recombination lever alone —
+~1×10⁻⁷ against the required 6.7 — and stands unchanged. The search remains
+narrowed to mechanisms producing epoch contrast through something other than the
+medium's density history.
 
 ---
 
@@ -676,7 +719,7 @@ per-operator coefficients leave no democratic warrant), so the value stands on a
 at −0.08σ rather than on a forced count. The **m_e gates are** — which rung the condensation picks
 closed 2026-07-20: the dyad's restoration temperature is κ-independent, so the decay constant cancels
 out of it and the bracket is the electron mass, with all three recorded readings landing inside the
-gate-0 escape window ([PRTOE_UV_completion.md](PRTOE_UV_completion.md) §#17). The **two-fluid sims are not run** — the granule meter's statistical core is finished
+gate-0 escape window ([PRTOE_UV_completion.md](exploratory/PRTOE_UV_completion.md) §#17). The **two-fluid sims are not run** — the granule meter's statistical core is finished
 (S = (1+f_rot²)/2 confirmed) but its dynamical half is unbuilt (docket #160), and the genesis
 solver is docket #150.
 
@@ -1585,6 +1628,31 @@ the asymmetry field and the asymmetry can only route through the L-violating (le
 [OBJECT-PENDING on: AD-asymmetry = lepton asymmetry; amplitude-follows-current; magnitude
 → η_B ~ 6×10⁻¹⁰.]
 
+> **⚠ ANNOTATION 2026-07-29 — one of those three objects is OBSTRUCTED, not pending.** The
+> pre-registration above is left exactly as written; this is an annotation, not an edit to a
+> registered claim. **Amplitude-follows-current fails on lepton-number bookkeeping.** The current
+> coupling ∂_μθ·J^μ_L requires the medium to *carry* lepton number — a lepton-number-neutral field has
+> no phase conjugate to that current. But a **linear** coupling S·O then needs an operator with
+> L ≠ 0, and every Standard Model Yukawa conserves lepton number: L̄He_R, Q̄Hd_R, Q̄H̃u_R and L̄H̃ν_R
+> are all L = 0 (each verified a hypercharge- and colour-singlet). The only L ≠ 0 gauge-singlet
+> operators are (LH)(LH) and ν_Rν_R, both ΔL = 2 and **both neutrino Majorana masses**. So the medium
+> can generate neutrino mass and **cannot** generate a charged-lepton mass shift: the two jobs need
+> incompatible charges for one field.
+>
+> This is the corollary of what the paragraph above already says — *"the Majoron route does not supply
+> it, the singlet |Ψ|² being L-neutral"* — seen from the other side, and it **closes** the route
+> rather than leaving it open. Escapes: a **quadratic** |Ψ|² coupling works but is charge-blind and
+> pairs with the quark Yukawas too (leptophilia lost, as already reported); **two fields** is
+> consistent but makes "amplitude follows current" false as stated; **loop transmission** from the
+> neutrino sector is not excluded and is a different, suppressed mechanism.
+>
+> **Nothing here touches the leptogenesis side** — the AD mechanism, the asymmetry and the
+> neutrino-sector couplings are unaffected. Only the claimed *drag* to δm_e fails, and leptophilia
+> remains carried by data exactly as the paragraph above states.
+> `scripts/amplitude_follows_current_charges.py` (10 controls, exact rational charge arithmetic);
+> failures ledger, this date. **Whether the tag itself should read OBJECT-OBSTRUCTED is an owner
+> call** — I have not rewritten a pre-registration.
+
 **Falsifiers (three independent, all on the neutrino home):**
 1. **0νββ null at the sensitivity that covers Σm_ν ~ 61 meV / normal ordering** → Majorana
  disfavored → neutrino home cracks. (nEXO, LEGEND-1000, next-gen reach m_ββ ~ 10-20 meV.)
@@ -1730,7 +1798,7 @@ tracks the local condensate; the floor's Jeans mode gives δ_DE at horizon scale
 
 **The sizing:** the Jeans growth rate is Γ_eff/H = √(3/2) (B = ω_J/Γ_par = 1/√2), not the
 IR-scale Γ_par/H = √3, giving **δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at
-√(3/2)·H. See [PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
+√(3/2)·H. See [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md).
 
 **Test:** current α-variation sky-maps reach ~10⁻⁶ → the prediction is a *consistent null today*,
 detectable at next-generation precision. **Falsifiers:** (i) a confirmed varying-constants dipole
@@ -1944,7 +2012,7 @@ question the comb now poses.
 ## P-2026-030: The astrochemical inheritance — the medium's window leaves molecular-line ratios standard (registered 2026-07-11; **entry reconstructed 2026-07-17**)
 
 > **RECONSTRUCTED, NOT BACK-DATED** — same status as P-2026-029 above. Cited in
-> [PRTOE_astrochemistry.md](PRTOE_astrochemistry.md) and the INDEX's "astrochemistry (+P-030)"; no
+> [PRTOE_astrochemistry.md](exploratory/PRTOE_astrochemistry.md) and the INDEX's "astrochemistry (+P-030)"; no
 > registration entry existed.
 
 **The prediction:** astrochemistry inherits the model's screening — inside dense structure the
@@ -2183,8 +2251,20 @@ derivation (owed) producing a different closed form.
 > check. Kill (iii) — the mechanism derivation — remains the open referee,
 > with the residual central deficit (−0.8%, unresolved at this precision) noted for it.
 
-**Honest flags:** the 2/π identification currently has NO derivation (plausible-shaped:
-f̄ is exactly the kind of average that produces 2/π; the arcsine-family mechanism is owed);
+**Honest flags:** the 2/π identification's coupling form is data-selected rather than derived —
+mass-positivity rectifies the signed projection to ⟨|cos|⟩, and the residual is that
+"leading-order dominates" was argued generically. **That residual is now priced.** Writing the
+fractional shift as |x| + c_w·x² in the winding projection x = ε·cos θ gives
+f̄_eff = 2/π + c_w·ε/2, so the subleading term is suppressed by one power of ε and can move f̄ by
+only **0.98% per unit c_w**. *(Written c₂ before 2026-07-28; renamed because that symbol also
+carried the second-sound speed and the Koide kernel constant c_K = 1.924. The three were checked
+and are unrelated — see the reader's guide.)* The observed deficits convert to c_w = −1.80 (fit-implied) and
+−0.84 ± 0.52 (winding ensemble) — **both of order unity, which is what an un-tuned expansion
+gives**. So the central deficit is better read as the expansion's own next term than as an
+unresolved tension, and it is evidence *for* the leading-order reading rather than against it.
+Still not derived: c_w itself, which needs the unbuilt family-coupling Lagrangian; and the two
+readings sit 1.9σ apart, so the data bounds c_w to order unity without pinning it. The falsifier is
+sharp — a deficit that does **not** scale with ε is not a subleading term and this reading dies;
 the three-factor ε stack is graded factor-by-factor (the α_c MCMC → 3α; the ensemble → 2/π;
 c-sharpening → 9/10), which is what separates this from dense-family numerology.
 
@@ -3064,7 +3144,20 @@ solve, once by the data — and settles the branch without waiting for DR3.
 **Grade.** The branch structure is forced: both sides are properties of the same as-built
 background, and the third outcome is fatal to both. Route-D's *window* is toy-grade in its O(1)
 factors and is stated as a band, not a point; P-2026-018's side carries no freedom at all. What is
-being registered is the adjudication, and it is registered while the adjudicator is still running.
+being registered is the adjudication, and it was registered **before** its adjudicator reported —
+which is the point of the timestamp and is unaffected by what follows. **Status of that adjudicator,
+added 2026-07-28, corrected 2026-07-29:** the internal one was not running. `cmp_prtoe_routeD` then
+held a single chain file last written 2026-07-20, so the model's own chains could not grade this
+branch. *(The reason first given here — that "a one-chain run yields no convergence statistic however
+long it runs" — is **false** and has been corrected in the math spine §7. A single chain is split
+into `Rminus1_single_split` segments, default 4, and does yield a within-chain split-R̂; two other
+single-chain runs on this box recorded one. The correct objection is that a split-R̂ compares
+segments of one trajectory and so **cannot detect confinement to a single basin**, which is exactly
+the failure mode at issue — it produces a number blind to the thing being tested.)* The chain has
+since been **relaunched with two ranks** (2026-07-28 22:51, healthy at 21–24% acceptance, burning
+in), so a genuine between-chain R−1 is now obtainable. **DESI DR3 is the external adjudicator and is
+unaffected** — the registration stands, and the pre-commitment is not weakened by the internal
+chain's state.
 
 ## P-2026-057: The cross-sector sign lock — the Koide phase and the magnetic helicity are one genesis draw (registered 2026-07-20, conditional)
 
@@ -3234,3 +3327,73 @@ predicted and not postdicted.
 
 **Status: OPEN, conditional; referees CMB-S4 and the pour's own derivation.** Detail:
 `docs/working_logs/bounce_derivation_workplan.md` (the partition provenance).
+
+## P-2026-060: The dark condensate cannot decohere a laboratory superposition — a prohibition, not a signal (registered 2026-07-28)
+
+**Which sector this is about.** The program carries two condensates and they must not be confused
+here. The *vacuum* has phonon-class excitations riding the light cone, so its Landau critical
+velocity is c; nothing can exceed it, which is the existing zero-drag certificate behind inertia
+(`exploratory/PRTOE_inertia.md`). This entry concerns the *ultralight dark condensate* —
+m = 2.24×10⁻²⁰ eV, c_s = √α_c, ξ = 402 AU — which is a non-relativistic superfluid with a
+sub-c critical velocity. The two results are complementary rather than competing: the vacuum
+decoheres nothing because nothing outruns it, and the dark condensate decoheres nothing because
+everything in a laboratory is far too slow and far too small to reach it.
+
+**The derivation** (`scripts/medium_induced_decoherence.py`, 7 checks in the harness). The dark
+condensate's
+excitation branch is Bogoliubov, ω(q) = c_s·q·√(1+(qξ/2)²), fixed with no free input once
+α_c = 3α and m = 2.24×10⁻²⁰ eV are set. Two independent consequences follow.
+
+**Landau.** That branch has no roton minimum, so min_q[ω(q)/q] is the q → 0 limit and the critical
+velocity is exactly the sound speed: **v_c = c_s = √(3α)·c = 0.1479596 c = 44,357 km/s.** Below it
+no final state conserves both energy and momentum, so the medium cannot acquire a which-path record
+at all. Earth's motion through the CMB frame is 8.3×10⁻³ of v_c; the fastest solar wind is 1.8×10⁻².
+
+**Rigidity.** ξ = ħ/(m·c_s) = 402 AU. The order parameter cannot resolve a separation below that,
+and the rate carries (Δx/ξ)². A micron-scale superposition is suppressed by 2.8×10⁻⁴⁰ before any
+coupling constant is applied.
+
+The two cover different regimes — Landau the steady state, rigidity the sudden case — so no gap
+remains between them. Finite temperature opens none: λ_T = ħc_s/(k_BT) stays above ξ throughout the
+range in which the medium is condensed, with equality exactly at T = μ/k_B = 5.7×10⁻¹⁸ K, which is
+where the condensate ends.
+
+**The prediction, stated as a prohibition:**
+
+> **No laboratory decoherence signal can be attributed to the dark condensate.** Any anomalous collapse
+> observed in matter-wave interferometry, optomechanics, or levitated-nanoparticle experiments —
+> at any separation, any mass, any temperature achievable in a laboratory — has some other cause.
+
+**Kills:**
+(i) A confirmed anomalous decoherence rate scaling as Δx², surviving environmental controls, and
+quantitatively matching a medium with c_s = 0.148 c and ξ = 402 AU — would kill the prohibition,
+because this medium is forbidden from producing it; (ii) any future corpus result claiming credit
+for such a signal — a self-inflicted kill, since the model cannot both forbid and claim it;
+(iii) a shift in either input, α_c = 3α or m = 2.24×10⁻²⁰ eV, moves v_c and ξ and requires this
+entry to be re-graded rather than assumed to survive.
+
+**What this costs and what it buys.** It removes an entire class of results the model might
+otherwise have claimed, and the removal cannot be tuned away without giving up two inputs load-
+bearing elsewhere. In exchange the quantum-foundations material stops being interpretation: the
+statement that the medium hosts quantum mechanics without disturbing it is now a computed result
+with a threshold attached.
+
+**Where the live physics went.** Upward in velocity. v_c = 0.148 c is low enough that every
+relativistic particle is supercritical *with respect to the dark condensate*, so the one open
+channel of this kind is Cherenkov emission of dark quasiparticles by fast matter — and that, not
+tabletop interferometry, is where a bound on the matter–dark-sector coupling has to come from.
+
+This is a different test from the ultra-high-energy cosmic-ray argument already on the books, which
+probes whether the *vacuum's* dispersion bends downward at high momentum. That one constrains the
+vacuum's linearity; this one constrains a coupling into the dark sector. A sub-c critical velocity
+exists here by construction and does not threaten the inertia certificate, because the certificate
+is a statement about the vacuum.
+
+One consequence is already coupling-free: the Cherenkov condition on the Bogoliubov branch caps
+the momentum transfer at q ≤ 2m√(v²−c_s²), so **no single emitted quantum carries more than
+4.43×10⁻²⁰ eV**, however energetic the projectile. Losing 1 eV to the dark condensate takes
+2.3×10¹⁹ emissions; losing 1 TeV takes 2.3×10³¹. The absolute rate still needs the coupling and is
+not yet computed (`scripts/psi0_redshift_closure.py` §6).
+
+**Status: OPEN; referee any tabletop collapse experiment.** Detail:
+`docs/exploratory/README.md` (the quantum group's state).

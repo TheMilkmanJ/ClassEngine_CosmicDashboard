@@ -6,7 +6,7 @@ derivation owes and the seat constant b the tenth channel owes. This is the corp
 chokepoint — several open debts converge here, and no MCMC or telescope reaches it. It is a research
 program; this file tracks its parts, closed and open, honestly.*
 
-## The target — six locks any basement must hit simultaneously (from [PRTOE_light.md](../PRTOE_light.md) §6)
+## The target — six locks any basement must hit simultaneously (from [PRTOE_light.md](../exploratory/PRTOE_light.md) §6)
 
 1. Pauli finiteness (the condition itself)
 2. three Fermi points (the generation count, via the Pauli balance)

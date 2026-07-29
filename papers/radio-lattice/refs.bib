@@ -1,0 +1,499 @@
+% ---------------------------------------------------------------------------
+% Bibliography for radio-lattice.
+%
+% Checked 2026-07-28 against Crossref (title, journal, volume, page, year,
+% DOI) and the arXiv API (eprint number, title). Volumes, pages and author
+% lists are as the publisher records them. Where the arXiv title differs from
+% the published title, the published one is used and the difference is noted.
+%
+% Two groups. First the varying-constants literature the claim has to engage.
+% Then one block per row of the ratio lattice, plus amplitude bounds and the
+% existing radio work on varying constants.
+%
+% Nothing below is left in place on memory alone. All seven of the original
+% entries resolved to real papers, so nothing was deleted; what could not be
+% confirmed is recorded in the gap list at the end of the file.
+% ---------------------------------------------------------------------------
+
+% --- reviews: the standard entry points -----------------------------------
+@article{Uzan2003,
+  author  = {Uzan, Jean-Philippe},
+  title   = {The fundamental constants and their variation:
+             observational and theoretical status},
+  journal = {Rev. Mod. Phys.},
+  volume  = {75},
+  pages   = {403--455},
+  year    = {2003},
+  doi     = {10.1103/RevModPhys.75.403},
+  eprint  = {hep-ph/0205340},
+  archivePrefix = {arXiv}
+}
+% Published title is as given. The arXiv version is titled "...observational
+% status and theoretical motivations"; both forms circulate in citing papers.
+
+@article{Uzan2011,
+  author  = {Uzan, Jean-Philippe},
+  title   = {Varying Constants, Gravitation and Cosmology},
+  journal = {Living Rev. Relativity},
+  volume  = {14},
+  pages   = {2},
+  year    = {2011},
+  doi     = {10.12942/lrr-2011-2},
+  eprint  = {1009.5514},
+  archivePrefix = {arXiv}
+}
+% Also the source for the +2 weight. See the 21 cm block below.
+
+% --- varying m_e as an H0 resolution: the directly competing programme -----
+% The epsilon of this paper shifts m_e and would ease H0; so does this
+% literature, by a different route. The radio ratio lattice is what separates
+% them, which makes the citation an asset.
+@article{Sekiguchi2021,
+  author  = {Sekiguchi, Toyokazu and Takahashi, Tomo},
+  title   = {Early recombination as a solution to the $H_0$ tension},
+  journal = {Phys. Rev. D},
+  volume  = {103},
+  pages   = {083507},
+  year    = {2021},
+  doi     = {10.1103/PhysRevD.103.083507},
+  eprint  = {2007.03381},
+  archivePrefix = {arXiv}
+}
+
+@article{HartChluba2018,
+  author  = {Hart, Luke and Chluba, Jens},
+  title   = {New constraints on time-dependent variations of fundamental
+             constants using Planck data},
+  journal = {Mon. Not. R. Astron. Soc.},
+  volume  = {474},
+  pages   = {1850--1861},
+  year    = {2018},
+  doi     = {10.1093/mnras/stx2783},
+  eprint  = {1705.03925},
+  archivePrefix = {arXiv}
+}
+% Advance access 2017-10-30, issue dated February 2018. Cited as 2018.
+
+% --- CMB constraints on varying constants ---------------------------------
+@article{PlanckVaryingConstants,
+  author  = {{Planck Collaboration}},
+  title   = {Planck intermediate results. {XXIV}. Constraints on variations
+             in fundamental constants},
+  journal = {Astron. Astrophys.},
+  volume  = {580},
+  pages   = {A22},
+  year    = {2015},
+  doi     = {10.1051/0004-6361/201424496},
+  eprint  = {1406.7482},
+  archivePrefix = {arXiv}
+}
+% Title corrected. The recorded version had no roman numeral and read
+% "varying fundamental constants". A&A splits the record as title "Planck
+% intermediate results" with subtitle "XXIV. Constraints on variations in
+% fundamental constants"; the arXiv version reads "variation of fundamental
+% constants". 170 authors, listed as Planck Collaboration, Ade et al.
+% This paper constrains m_e as well as alpha, so it also serves as the CMB
+% amplitude bound.
+
+% --- quasar-absorption bounds: the classic observational thread -----------
+@article{Webb1999,
+  author  = {Webb, J. K. and Flambaum, V. V. and Churchill, C. W. and
+             Drinkwater, M. J. and Barrow, J. D.},
+  title   = {Search for Time Variation of the Fine Structure Constant},
+  journal = {Phys. Rev. Lett.},
+  volume  = {82},
+  pages   = {884--887},
+  year    = {1999},
+  doi     = {10.1103/PhysRevLett.82.884},
+  eprint  = {astro-ph/9803165},
+  archivePrefix = {arXiv}
+}
+% The arXiv title carries a leading "A"; the PRL title does not.
+
+@article{MurphyWebbFlambaum2003,
+  author  = {Murphy, M. T. and Webb, J. K. and Flambaum, V. V.},
+  title   = {Further evidence for a variable fine-structure constant from
+             Keck/HIRES QSO absorption spectra},
+  journal = {Mon. Not. R. Astron. Soc.},
+  volume  = {345},
+  pages   = {609--638},
+  year    = {2003},
+  doi     = {10.1046/j.1365-8711.2003.06970.x},
+  eprint  = {astro-ph/0306483},
+  archivePrefix = {arXiv}
+}
+
+% ===========================================================================
+% ROW SOURCING. One block per weight in Eq. (10). None of these entries is
+% cited in main.tex yet; the \cite calls still have to be added.
+% ===========================================================================
+
+% --- w = +2, the 21 cm hyperfine frequency ---------------------------------
+% Uzan 2011 sources this row and is already cited in the introduction. Its
+% Sec. 3.1.1 displays the hydrogen ground-state hyperfine frequency as
+%
+%     nu ~ c R_inf alpha^2 g_p mubar,     mubar = m_e/m_p,
+%
+% and R_inf ~ alpha^2 m_e turns that into Eq. (3). Sec. 3.3 states it again as
+% nu_hf ~ alpha^2 g_p mu^-1 R_inf in the 21 cm versus UV subsection. Uzan's mu
+% is m_p/m_e, the reciprocal of the convention Tzanavaris et al. use; the two
+% agree once that is unwound. Verified against the arXiv LaTeX source of
+% 1009.5514 on 2026-07-28, not from the abstract.
+%
+% The two entries below are the observational thread. Both work with
+% x = alpha^2 g_p m_e/m_p, which is the hyperfine frequency over an optical
+% resonance frequency. Wolfe, Brown and Roberts is the first 21 cm versus
+% optical comparison; Tzanavaris et al. is the modern version and defines x
+% in its abstract.
+@article{WolfeBrownRoberts1976,
+  author  = {Wolfe, A. M. and Brown, Robert L. and Roberts, Morton S.},
+  title   = {Limits on the Variation of Fundamental Atomic Quantities over
+             Cosmic Time Scales},
+  journal = {Phys. Rev. Lett.},
+  volume  = {37},
+  pages   = {179--181},
+  year    = {1976},
+  doi     = {10.1103/PhysRevLett.37.179}
+}
+
+@article{Tzanavaris2005,
+  author  = {Tzanavaris, P. and Webb, J. K. and Murphy, M. T. and
+             Flambaum, V. V. and Curran, S. J.},
+  title   = {Limits on Variations in Fundamental Constants from 21-cm and
+             Ultraviolet Quasar Absorption Lines},
+  journal = {Phys. Rev. Lett.},
+  volume  = {95},
+  pages   = {041301},
+  year    = {2005},
+  doi     = {10.1103/PhysRevLett.95.041301},
+  eprint  = {astro-ph/0412649},
+  archivePrefix = {arXiv}
+}
+
+% Khatri and Wandelt treat the 21 cm signal as a probe of alpha. Flambaum and
+% Porsev object that the calculation varies dimensionful quantities and that
+% the magnitude and sign of the effect can then depend on the choice of units;
+% Khatri and Wandelt reply. Read the exchange before Sec. V is finalised.
+% Eq. (1) of this paper varies a dimensionful constant with everything else
+% held fixed, which is the construction the Comment attacks. A referee who
+% knows this exchange will raise it.
+@article{KhatriWandelt2007,
+  author  = {Khatri, Rishi and Wandelt, Benjamin D.},
+  title   = {21-cm Radiation: A New Probe of Variation in the Fine-Structure
+             Constant},
+  journal = {Phys. Rev. Lett.},
+  volume  = {98},
+  pages   = {111301},
+  year    = {2007},
+  doi     = {10.1103/PhysRevLett.98.111301},
+  eprint  = {astro-ph/0701752},
+  archivePrefix = {arXiv}
+}
+
+@article{FlambaumPorsev2010,
+  author  = {Flambaum, V. V. and Porsev, S. G.},
+  title   = {Comment on ``21-cm Radiation: A New Probe of Variation in the
+             Fine-Structure Constant''},
+  journal = {Phys. Rev. Lett.},
+  volume  = {105},
+  pages   = {039001},
+  year    = {2010},
+  doi     = {10.1103/PhysRevLett.105.039001},
+  eprint  = {1004.2540},
+  archivePrefix = {arXiv}
+}
+
+@article{KhatriWandelt2010,
+  author  = {Khatri, Rishi and Wandelt, Benjamin D.},
+  title   = {Khatri and Wandelt Reply:},
+  journal = {Phys. Rev. Lett.},
+  volume  = {105},
+  pages   = {039002},
+  year    = {2010},
+  doi     = {10.1103/PhysRevLett.105.039002},
+  eprint  = {1007.1963},
+  archivePrefix = {arXiv}
+}
+% APS house style for replies; the trailing colon is part of the published
+% title. The arXiv version is titled "Reply to Flambaum and Porsev comment on
+% '21 cm radiation - a new probe of variation in the fine structure
+% constant'".
+
+% --- w = +1, radio recombination lines -------------------------------------
+% Standard monograph. Sources nu_RRL = R_inf c (n_1^-2 - n_2^-2) and the
+% high-n conditions under which the transition is pure Rydberg.
+@book{GordonSorochenko2009,
+  author    = {Gordon, M. A. and Sorochenko, R. L.},
+  title     = {Radio Recombination Lines: Their Physics and Astronomical
+               Applications},
+  series    = {Astrophysics and Space Science Library},
+  volume    = {282},
+  publisher = {Springer},
+  address   = {New York},
+  year      = {2009},
+  doi       = {10.1007/978-0-387-09691-9},
+  isbn      = {978-0-387-09604-9},
+  note      = {VERIFIED against the Crossref record for the DOI, 2026-07-28: title,
+               authors, publisher (Springer New York), year (2009), series, and both
+               ISBNs (978-0-387-09604-9 print, 978-0-387-09691-9 electronic) all
+               confirmed. One caveat recorded rather than hidden: the series VOLUME
+               NUMBER is ABSENT from the Crossref record. The 282 above is corroborated
+               by the publisher's own catalogue listing for this ISBN, not by Crossref}
+}
+% Softcover reissue with corrections; the hardcover is Kluwer 2002, same ASSL
+% volume number.
+
+% --- w = -1, dispersion measure --------------------------------------------
+% Lorimer and Kramer for the cold-plasma group delay and the dispersion
+% constant. Kulkarni is specifically about that constant: what the measured
+% quantity actually is, what conversion factor turns it into DM, and how the
+% conventions in circulation differ. That is the point Sec. III C turns on,
+% so it is the load-bearing citation for the -1.
+@book{LorimerKramer2004,
+  author    = {Lorimer, D. R. and Kramer, M.},
+  title     = {Handbook of Pulsar Astronomy},
+  series    = {Cambridge Observing Handbooks for Research Astronomers},
+  volume    = {4},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {2004},
+  isbn      = {978-0-521-82823-9},
+  note      = {Year VERIFIED 2026-07-28 against the ADS bibcode 2004hpa..book.....L,
+               which records December 2004 and is the citation form the pulsar
+               literature uses. Cambridge's own catalogue and several secondary
+               indexes give 2005, so the discrepancy is real but resolved in favour of
+               2004; series (Cambridge Observing Handbooks for Research Astronomers,
+               vol. 4) and ISBN 978-0-521-82823-9 independently confirmed. NOTE ON
+               METHOD: the bibcode was read from an ADS search listing, not fetched
+               from the ADS record itself, whose interface is script-rendered and
+               returned empty content}
+}
+% First publication 2004; widely cited as 2005, which is the paperback.
+
+@misc{Kulkarni2020,
+  author  = {Kulkarni, S. R.},
+  title   = {Dispersion measure: Confusion, Constants \& Clarity},
+  year    = {2020},
+  eprint  = {2007.02886},
+  archivePrefix = {arXiv},
+  primaryClass  = {astro-ph.HE},
+  note    = {arXiv eprint; entry type changed @article -> @misc 2026-07-28. As
+             @article with no journal field, apsrev4-2 threw 13 errors trying to
+             match a missing journal against its abbreviation table. Caught by the
+             first compile the paper has ever had}
+}
+% No journal version. Checked Crossref and the arXiv listing on 2026-07-28;
+% only the eprint exists. Cite as an eprint or drop it, but do not invent a
+% journal line for it.
+
+% --- w = -1, synchrotron characteristic frequency ---------------------------
+% Rybicki and Lightman for nu_c = (3/2) gamma^2 eB / (2 pi m_e c). The text
+% supplies the formula. It does not supply the fixed-gamma versus fixed-E
+% labelling, which is a choice about the emitting population; Sec. III D makes
+% that choice and should keep saying so under its own authority.
+@book{RybickiLightman1979,
+  author    = {Rybicki, George B. and Lightman, Alan P.},
+  title     = {Radiative Processes in Astrophysics},
+  publisher = {Wiley},
+  address   = {New York},
+  year      = {1979},
+  isbn      = {978-0-471-04815-2}
+}
+% First edition 1979. The Wiley-VCH reissue carries doi 10.1002/9783527618170
+% and is dated 1985 in Crossref; add that doi field if the reissue is the copy
+% actually consulted. Chapter numbers were not verified, so do not cite one.
+
+% --- w = -2, Faraday rotation -----------------------------------------------
+% Brentjens and de Bruyn define Faraday depth and rotation measure and set out
+% when the two coincide, which is the definitional citation. The constant
+% e^3/(2 pi m_e^2 c^4) carrying the -2 is in Rybicki and Lightman.
+@article{BrentjensDeBruyn2005,
+  author  = {Brentjens, M. A. and de Bruyn, A. G.},
+  title   = {Faraday rotation measure synthesis},
+  journal = {Astron. Astrophys.},
+  volume  = {441},
+  pages   = {1217--1228},
+  year    = {2005},
+  doi     = {10.1051/0004-6361:20052990},
+  eprint  = {astro-ph/0507349},
+  archivePrefix = {arXiv}
+}
+
+% --- amplitude bounds on a varying m_e --------------------------------------
+% Seto and Toda is the BBN bound. Their abstract states that an acceptable
+% electron mass at BBN is only about 1 per cent above the present value, which
+% is a published bound on |epsilon| at that epoch. Sec. V currently assumes
+% |epsilon| < 10^-2 without sourcing it; this is the source. Hart and Chluba
+% 2020 is the CMB bound and the closest published competitor to this
+% programme, since it ties a varying m_e to the Hubble tension explicitly.
+@article{SetoToda2023,
+  author  = {Seto, Osamu and Toda, Yo},
+  title   = {Big bang nucleosynthesis constraints on varying electron mass
+             solution to the Hubble tension},
+  journal = {Phys. Rev. D},
+  volume  = {107},
+  pages   = {083512},
+  year    = {2023},
+  doi     = {10.1103/PhysRevD.107.083512},
+  eprint  = {2206.13209},
+  archivePrefix = {arXiv}
+}
+
+@article{HartChluba2020,
+  author  = {Hart, Luke and Chluba, Jens},
+  title   = {Updated fundamental constant constraints from Planck 2018 data
+             and possible relations to the Hubble tension},
+  journal = {Mon. Not. R. Astron. Soc.},
+  volume  = {493},
+  pages   = {3255--3263},
+  year    = {2020},
+  doi     = {10.1093/mnras/staa412},
+  eprint  = {1912.03986},
+  archivePrefix = {arXiv}
+}
+
+% --- prior art on the same observables --------------------------------------
+% Found while sourcing the DM row. Both use radio propagation observables to
+% constrain varying constants, so the paper is not first on this ground and
+% should say so. Kalita varies alpha and mu = m_p/m_e against the DM-redshift
+% relation for 50 localised FRBs. Wang and Xia constrain alpha from the
+% cross-correlation of foreground galaxies with FRB dispersion measures.
+% Neither computes a multi-band weight vector, which is where the claim of
+% this paper still stands, but an introduction that does not cite them will
+% look uninformed.
+@article{Kalita2024,
+  author  = {Kalita, Surajit},
+  title   = {Constraining fundamental constants with fast radio bursts:
+             unveiling the role of energy scale},
+  journal = {Mon. Not. R. Astron. Soc. Lett.},
+  volume  = {533},
+  pages   = {L57--L63},
+  year    = {2024},
+  doi     = {10.1093/mnrasl/slae062},
+  eprint  = {2407.01736},
+  archivePrefix = {arXiv}
+}
+
+@article{WangXia2025,
+  author  = {Wang, Shi-Yuan and Xia, Jun-Qing},
+  title   = {Constraints on Evolutions of Fundamental Constants from
+             Clustering of Fast Radio Burst Dispersion Measure},
+  journal = {Astrophys. J.},
+  volume  = {982},
+  pages   = {86},
+  year    = {2025},
+  doi     = {10.3847/1538-4357/adba4a},
+  eprint  = {2503.06120},
+  archivePrefix = {arXiv}
+}
+
+% ---------------------------------------------------------------------------
+% GAPS. What was searched and not found, stated so that nobody re-derives it
+% from memory later.
+%
+%  * CLOSED. The hyperfine scaling is displayed in Uzan 2011 Sec. 3.1.1, read
+%    from the arXiv LaTeX source. Every row of Eq. (10) now has a source.
+%    Tzanavaris and Khatri & Wandelt each stop short of it: Tzanavaris gives
+%    only the ratio x, and Khatri & Wandelt give only nu_21 ~ alpha^2 R_inf
+%    ~ alpha^4, holding m_e fixed because they vary alpha alone.
+%
+%  * OPEN. No reference found for how a varying m_e would bias published
+%    rotation-measure catalogues. arXiv abstract search on 2026-07-28 returned
+%    one incidental hit for abs:"rotation measure" AND abs:"fundamental
+%    constants" (1708.07371, the MALS survey description), zero for
+%    abs:"Faraday rotation" AND abs:"varying constants", and zero for
+%    abs:"rotation measure" AND abs:"electron mass" AND abs:"variation".
+%    Crossref and web searches returned only magnetic-field work. Kalita and
+%    Wang & Xia cover the dispersion-measure side; the RM side looks unworked,
+%    so Sec. III E may be new. Abstract search is not full-text search, so
+%    confirm on ADS before claiming priority in the text.
+%
+%  * OPEN, and not closeable from here. No ADS search was run. There is no ADS
+%    API token on this machine and the ADS web interface does not serve
+%    content to a fetcher. Everything above went through Crossref, the arXiv
+%    API and web search. ADS indexes the older radio and pulsar literature
+%    better than Crossref does, so the two book entries, Wolfe 1976 and the
+%    RM question above are what a token would most improve.
+%
+%  * Nothing was deleted. All seven original entries resolved to real papers.
+%    Corrections were confined to the Planck title, and to volume, page and
+%    identifier fields; see the comments on each entry.
+% ---------------------------------------------------------------------------
+
+% --- added 2026-07-28: the per-band observational precisions (three measurable rows) ---
+% Each verified by fetching the arXiv abstract directly, not from a search summary.
+% See NOTES.md for why that distinction mattered on Kanekar2010.
+
+@article{Rahmani2012,
+  author  = {Rahmani, H. and Srianand, R. and Gupta, N. and Petitjean, P.
+             and Noterdaeme, P. and Vasquez, D. Albornoz},
+  title   = {Constraining the variation of fundamental constants at
+             $z \sim 1.3$ using 21-cm absorbers},
+  journal = {Mon. Not. R. Astron. Soc.},
+  volume  = {425},
+  pages   = {556--576},
+  year    = {2012},
+  doi     = {10.1111/j.1365-2966.2012.21503.x},
+  eprint  = {1206.2653},
+  archivePrefix = {arXiv},
+  note    = {Weighted mean $\Delta x/x = -(0.1 \pm 1.3)\times 10^{-6}$,
+             $x = g_p\alpha^2/\mu$; four systems, $1.17<z<1.56$; VLT/UVES,
+             GMRT, GBT, with VLBA used to select unresolved sightlines.}
+}
+
+@article{Kanekar2010,
+  author  = {Kanekar, N. and Prochaska, J. X. and Ellison, S. L. and Chengalur, J. N.},
+  title   = {Probing fundamental constant evolution with neutral atomic gas lines},
+  journal = {Astrophys. J. Lett.},
+  volume  = {712},
+  pages   = {L148--L152},
+  year    = {2010},
+  doi     = {10.1088/2041-8205/712/2/L148},
+  eprint  = {1003.0444},
+  archivePrefix = {arXiv},
+  note    = {$\Delta X/X = [+6.8 \pm 1.0\,(\mathrm{stat}) \pm 6.7\,(\mathrm{max\ sys})]
+             \times 10^{-6}$, $0<z\le 1.46$. The systematic dominates; the result is a
+             null. Cited here for the systematic, not the central value.}
+}
+
+@article{JonesNANOGrav2017,
+  author  = {Jones, M. L. and McLaughlin, M. A. and Lam, M. T. and others},
+  title   = {The {NANOGrav} Nine-year Data Set: Measurement and Analysis of
+             Variations in Dispersion Measures},
+  journal = {Astrophys. J.},
+  volume  = {841},
+  pages   = {125},
+  year    = {2017},
+  doi     = {10.3847/1538-4357/aa73df},
+  archivePrefix = {arXiv},
+  note    = {DMX methodology for dispersion-measure variation in a pulsar timing array.}
+}
+
+@article{NANOGravDM2023,
+  author  = {{NANOGrav Collaboration}},
+  title   = {The {NANOGrav} 12.5-Year Data Set: Dispersion Measure
+             Mis-Estimation with Varying Bandwidths},
+  journal = {Astrophys. J.},
+  year    = {2023},
+  eprint  = {2307.13248},
+  archivePrefix = {arXiv},
+  note    = {Infinite-frequency TOA offsets $\sim 22\,\mu$s for the highest-DM pulsar
+             (J1643$-$1224), $\sim 7\,\mu$s at low DM, correlated over $\sim$1 month.
+             This is the systematic that binds the DM row.}
+}
+
+@article{OSullivanLoTSS2023,
+  author  = {O'Sullivan, S. P. and Shimwell, T. W. and Hardcastle, M. J. and others},
+  title   = {The {Faraday} Rotation Measure Grid of the {LOFAR} Two-metre Sky Survey:
+             Data Release 2},
+  journal = {Mon. Not. R. Astron. Soc.},
+  volume  = {519},
+  pages   = {5723--5742},
+  year    = {2023},
+  doi     = {10.1093/mnras/stac3820},
+  eprint  = {2301.07697},
+  archivePrefix = {arXiv},
+  note    = {2461 extragalactic RMs over 5720 deg$^2$; median RM uncertainty
+             $0.06$ rad m$^{-2}$, systematic up to $0.3$ rad m$^{-2}$ after
+             ionospheric correction.}
+}

@@ -1,0 +1,144 @@
+==========================================================================
+  TOROIDAL CIRCULATION, phase sampled OFF the core
+  R_PROBE = 1.5 healing lengths, 8 samples/bin, T_MAX = 1.5
+==========================================================================
+
+  --- n = +1 ---
+   [n=+1 t= 0.25] ----
+   [n=+1 t= 0.50] ring  helA +1  W +1.027  (phase pts 16/16)
+      FIRST RING at t = 0.50: helA +1, W_toroidal +1.027, excess +0.027
+   [n=+1 t= 0.75] ring  helA -1  W +nan  (phase pts 10/16)
+   [n=+1 t= 1.00] ring  helA -1  W +0.354  (phase pts 15/16)
+   [n=+1 t= 1.25] ring  helA +1  W +nan  (phase pts 1/16)
+   [n=+1 t= 1.50] ring  helA -1  W +nan  (phase pts 8/16)
+
+  --- n = -1 ---
+   [n=-1 t= 0.25] ----
+   [n=-1 t= 0.50] ring  helA +1  W -1.251  (phase pts 16/16)
+      FIRST RING at t = 0.50: helA +1, W_toroidal -1.251, excess -0.251
+   [n=-1 t= 0.75] ring  helA +1  W +nan  (phase pts 9/16)
+   [n=-1 t= 1.00] ring  helA +1  W -0.979  (phase pts 15/16)
+   [n=-1 t= 1.25] ring  helA -1  W +nan  (phase pts 5/16)
+   [n=-1 t= 1.50] ring  helA -1  W +nan  (phase pts 11/16)
+
+==========================================================================
+  CONTROL (must reproduce the completed run):
+    helA: +1 at n=+1, +1 at n=-1   -> FAIL  (completed run: -1 / +1)
+
+  THE MEASUREMENT:
+    W_toroidal: +1.027 at n=+1, -1.251 at n=-1
+    pair sum -0.224, i.e. 19.7% of |W|
+    (completed run, phase sampled AT the core: -1.190 / +1.870, sum +0.680 = 44.4%)
+
+  READING (B) FAILS HONESTLY: the parity violation survives correct
+  sampling, so it is a property of the configuration. NOW it earns the
+  ledger row the fork pre-registered.
+==========================================================================
+ANTISYMMETRIC between branches would still pass the parity
+test, because the test is on the sum, not on the stability.
+
+Recorded so that the drift cannot later be presented as either evidence for or
+against (B) depending on which way the pair lands.
+
+--- PAIRING RULE, fixed 23:12 before the n = -1 branch reaches any comparison point ---
+
+The n = +1 branch has TWO frames with a valid W (the others were suppressed by the
+phase-probe threshold):
+
+    t = 0.50   W = +1.027   (16/16 probes)   helA = +1  <- early transient
+    t = 1.00   W = +0.354   (15/16 probes)   helA = -1  <- settled, and the CONTROL
+                                                          value matching the original
+
+The n = -1 branch will also have only some frames valid. That makes "which frame to
+pair at" a choice, and a choice made after seeing the numbers is not a test. So it is
+fixed here:
+
+  1. PAIR AT t = 1.00 IF the n = -1 branch yields a valid W there. That is the
+     settled ring, it is the time at which the completed run took its reading, and
+     it is where the helA control reproduces. This is the primary and preferred test.
+
+  2. IF t = 1.00 is unavailable on n = -1, pair at t = 0.50, and REPORT IT AS A
+     FALLBACK -- with the caveat that helA there is +1 on the n = +1 branch, i.e. the
+     early transient, so a t = 0.50 pairing tests the transient ring and not the
+     settled one.
+
+  3. NEVER pair readings from DIFFERENT times. W drifts across frames (+1.027 at
+     0.50, +0.354 at 1.00 on the same branch), so a cross-time pair sum would mix
+     drift into the parity test and could produce either verdict at will.
+
+  4. If NEITHER time is available on n = -1, the run yields no verdict on reading
+     (B) and that is the honest outcome -- the instrument would then be too fragile
+     at this probe radius, and the fix is an adaptive probe, not a different pairing.
+
+The verdict criterion itself is unchanged: pair sum small against |W| means (B) is
+RESCUED and its earlier falsification was the instrument; pair sum large means (B)
+fails honestly and NOW earns the ledger row.
+
+--- ADVERSE OBSERVATION, recorded 23:26 BEFORE the n = -1 pair value exists ---
+
+The n = +1 branch has run to T_MAX. Its helA time series is NOT constant:
+
+    t = 0.50   helA +1   16/16 phase points
+    t = 0.75   helA -1   10/16
+    t = 1.00   helA -1   15/16   <- the control frame, matches the completed run
+    t = 1.25   helA +1    1/16
+    t = 1.50   helA -1    8/16
+
+THIS WAS INVISIBLE IN THE COMPLETED RUN, which reported helA only at first ring.
+It bears on this evening's verdict at 22:08, which rested reading (A)'s survival on
+"integer-valued, therefore immune to the 0.0294% drift asymmetry". That argument is
+still true as far as it goes -- a common-mode drift cannot move an integer -- but it
+is NOT the same as the observable being stable, and the two were treated as one.
+
+WHAT SURVIVES THE OBSERVATION. The frames disagree, but they are not of equal
+quality: 1/16 and 8/16 phase points mean the ring was barely resolved, and the m=1
+fit that produces helA degrades with the bin count for the same reason W does. Among
+WELL-RESOLVED frames only two exist -- t = 0.50 (16/16, helA +1) and t = 1.00 (15/16,
+helA -1) -- and t = 0.50 was independently identified as the early transient before
+this was noticed. So the settled, well-resolved value is helA = -1 at t = 1.00,
+which is what the completed run reported and what the control reproduces.
+
+WHAT DOES NOT SURVIVE. The claim that (A) is robust *because it is an integer* is
+too strong on its own. The honest form: (A)'s -1/+1 flip is read at the settled ring
+in the branch's best-resolved frame, it reproduces across two independent harnesses,
+and it is immune to the drift -- but it is a snapshot of a quantity that this run
+shows moving, and a future run should report helA's full series rather than its
+first-ring value.
+
+STATED BEFORE THE PAIR IS KNOWN so it cannot be presented as a caveat discovered
+only if the answer is unwelcome. If the n = -1 branch gives helA = +1 at t = 1.00,
+the flip stands as reported; if it gives -1, reading (A) has no flip at matched time
+and this evening's verdict needs revisiting in full.
+
+================================================================================
+BOTH BRANCHES COMPLETE — instrument note for whoever runs this next
+================================================================================
+
+Phase-probe yield across all ten frames (both branches, t = 0.50 … 1.50):
+
+    n=+1:  16/16   10/16   15/16    1/16    8/16
+    n=-1:  16/16    9/16   15/16    5/16   11/16
+
+USABLE FRAMES (>= 12/16): FOUR OF TEN -- 40% yield. And they are exactly t = 0.50
+and t = 1.00 on BOTH branches, with nothing usable elsewhere. The fixed probe
+radius of 1.5 healing lengths fails on 60% of frames.
+
+WHY THIS MATTERS AND WHY IT DID NOT INVALIDATE THE RESULT. The verdict was taken
+at t = 1.00, which is one of the four good frames on both branches, and the choice
+of t = 1.00 was FIXED IN WRITING before either branch reached it (the pairing rule
+at 23:12) -- on grounds that had nothing to do with probe yield: it is the settled
+ring, the completed run's own reading time, and where the helA control reproduces.
+That the good frames happen to include it is luck the pre-registration did not rely
+on. Had t = 1.00 failed on the n = -1 branch, the rule said NO VERDICT, and that is
+what would have been reported.
+
+THE FIX, for the next run: make the probe radius ADAPTIVE rather than fixed --
+scale it to the local core separation, or search outward from each core point until
+|psi| exceeds the rejection floor, instead of sampling a fixed 1.5 xi and discarding
+whatever falls short. The failures cluster where the ring approaches the axis vortex
+(probe points land in another core's depleted region and are rejected), which an
+outward search handles naturally and a fixed radius cannot.
+
+DO NOT respond to a low-yield frame by lowering the rejection floor. The floor is
+what keeps the probe off other cores, and relaxing it reintroduces exactly the
+singular-sampling defect this instrument was built to remove.

@@ -21,8 +21,20 @@ lepton coupling is **multiplicative-universal by construction** (the Card-7 stru
 every lepton Yukawa dressed by the SAME factor) — and Q is a RATIO invariant under a common
 rescaling: **the electron-coupled scalar shifts every lepton mass 1.2543% and Koide's Q does
 not move in the tenth digit.** A model that had to choose between varying lepton masses and
-preserving Koide got both, from one portal structure needed anyway for gate-0. That is a real,
-graded improvement: the relation's robustness is EXPLAINED here and accidental everywhere else.
+preserving Koide got both, from one portal structure needed anyway for gate-0.
+
+**Stated at its true weight (2026-07-28 sweep).** The invariance itself is trivial mathematics: Q is
+homogeneous of degree 0, so *any* universal rescaling m_i → λm_i leaves it unchanged exactly, for
+any λ, to machine precision. The content is therefore not "Q survives a shift" but the structural
+fact that **this coupling is flavour-universal rather than flavour-dependent** — and that is load-
+bearing, because a non-universal shift does move Q: dressing the electron alone by 1.24% shifts Q by
+**163 ppm**, against a measured fence of 6.8×10⁻⁶. So the model had a genuine way to die here and
+does not take it.
+
+What this is **not** is an explanation of Koide's robustness relative to mainstream physics. In a
+theory that does not vary lepton masses at all, Q's stability is not at issue — there is nothing to
+be robust against. The honest framing is that the model **avoids a problem of its own making**, which
+is a consistency property rather than an improvement on anyone else's account.
 
 ## 2. The live half: why it holds (the lane, and its status)
 
@@ -89,14 +101,37 @@ the dark-energy freeze at neutrino decoupling
 scale inherits its epoch's EoS when it *is* that epoch's medium, not when it is a spectator.
 
 What is owed, and it is one thing: the identification K ∼ R², V ∼ M² — that the √m spectrum's
-fluctuation *is* the family field's kinetic energy and its background *is* the potential — is a
-property of the family-field potential, and **that potential is not built**. The generation
-structure is the unbuilt floor beneath it: **family space is Z₃, not the condensate phase** (the
+fluctuation *is* the family field's kinetic energy and its background *is* the potential. Under it,
+w = (A² − 1)/(A² + 1), so **A = √2 and w = ⅓ are the same statement**, and the recorded compression
+A² = (1 − w)/w follows.
+
+**The two objects it names now exist.** The democratic construction's energy has exactly two terms —
+one measuring how the generations differ from each other, one measuring displacement against the
+condensate — and the uniform mode is held by the second alone, since the inter-generation term has no
+uniform component. What was an identification between a spectrum and an unbuilt potential is now an
+identification between a spectrum and two terms of the right two kinds.
+
+**What is not supplied is the equal-coefficient clause, and the shortfall is exact.** Read on sector
+*energies* the null returns a ratio of 4 and w = 0.6; what returns ⅓ is the identification as
+written, on raw *amplitudes* with a common constant. An energy carries its stiffness and an amplitude
+does not, so the identification quietly requires the equation of state to be read *before* the ring's
+stiffnesses separate — which is the same ordering question the construction's other premise turns on,
+and at a degenerate stage the two stiffnesses are equal and the clause holds exactly. That is a
+candidate reading, offered because it is checkable, not because it is settled.
+
+Beneath the identification sits the generation structure itself: **family space is Z₃, not the condensate phase** (the
 Z₄-torus reading is retired — [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)), and the
 floor's missing object is named: **the background M**. The log coupling derives the ring's geometry
-and its scale (R = 1/√κ), but **A = R/M is a ratio to a centre no term in that energy locates.**
-Until the identification is exhibited on the masses, the packet is a sharp restatement, not a
-derivation.
+and its scale (R = 1/√κ), but on that energy alone **A = R/M is a ratio to a centre no term
+locates** — a pure inter-generation coupling leaves the uniform mode a flat direction, so M floats
+and the ratio has no denominator.
+
+**The centre is the condensate, and one term locates it.** Treating the condensate as a further node
+of the coupling graph rather than as a backdrop adds a bond from each generation to it, and that
+bond is a restoring force toward the reference amplitude — precisely the term the uniform mode was
+missing. Removing it returns that mode to an exact zero mode, which is the same statement read
+backwards. Until the identification is exhibited on the masses the packet remains a sharp
+restatement rather than a derivation, but the missing object is no longer unnamed.
 
 
 Hard landing pass (2026-07-17), the energetic reading's regime problem. Even granting
@@ -266,7 +301,66 @@ kernel's own coordinates. Parseval gives Q = ⅓ + (2/3)|f₁/f₀|², so
 **Two constraints now bound that mechanism, and together they condemn every candidate tried so far
 as one class.** The first is *charge-coupling*: the neutrino triple cannot sit on the cone for any
 lightest mass — Q_ν rises monotonically to only **0.585 as m₁ → 0**, short of 2/3 by 12.2% — so
-whatever pins the cone acts in the charged sector specifically. The basement reaches the same
+whatever pins the cone acts in the charged sector specifically.
+
+> **⚠ QUALIFIED 2026-07-29 — that ceiling is real but BRANCH-SPECIFIC, and the qualification was
+> never stated.** Verified in `scripts/neutrino_Q_sign_branch.py`, which reproduces the recorded
+> number exactly (Q → 0.584 as m₁ → 0, monotonic) as a control. But Q = Σm ⁄ (Σ√m)² depends on the
+> **signs chosen for the square roots**, and the ceiling assumes all three positive. The ring
+> parametrisation √m_k = a + 2|b|cos(φ + 2πk/3) produces a **negative** √m_k whenever 2|b| > a, and
+> nothing forbids it, since only m = (√m)² is observable. On the **(−,+,+) branch Q_ν crosses 2/3 at
+> m₁ ≈ 0.00040 eV.**
+>
+> This is not idle. Brannen's published neutrino extension (2006) — which this corpus did not carry —
+> takes the ring form with the charged sector's own **A = √2** and the phase shifted by **π/12**, and
+> reproduces the measured squared-mass splitting ratio to **0.5%**: Δm²₃₁/Δm²₂₁ = 32.43 against a
+> measured 32.58, with a free best fit at φ = 0.483376 versus 2/9 + π/12 = 0.484022 (0.13% apart).
+> The charged sector's own phase 2/9 gives **283** — off by 768% — so the two sectors demonstrably do
+> **not** share a phase. That fit requires exactly the negative root, i.e. it lives on the same
+> (−,+,+) branch, and it independently predicts **m₁ = 0.000374 eV** against the branch's Q = 2/3
+> crossing at 0.00040 eV. Two routes, one sign branch, one lightest mass.
+>
+> **Consequence for the argument above — and it does NOT collapse, which is the fair reading.**
+> "The neutrino triple cannot sit on the cone for any lightest mass" holds only on the all-positive
+> branch, and whether the negative branch is *physically* admissible is not settled either way here.
+> So that leg is weaker than it was written. **But the exclusion has a second leg that is untouched:**
+> the sentence immediately below — Thomas–Fermi weights carriers by charge squared, so a neutral cone
+> is worth 2·N_c·q² = 0 — makes no reference to Koide's Q, to square roots, or to any mass. It is an
+> independent argument for the same conclusion, and the sign branch has no purchase on it. **The
+> class-wide condemnation therefore still stands on the charge-squared leg**; what has changed is
+> that it can no longer also claim the Q_ν ceiling without stating which branch that ceiling is
+> about.
+>
+> It also yields a prediction the model can be held to: with A and φ fixed, the masses follow up to
+> one scale, and Δm²₂₁ sets it — **Σm_ν = 0.0585 eV, normal ordering**, essentially the minimal NO
+> value, comfortably under the ~0.12 eV cosmological bound and inside the range the model's own
+> `m_ncdm` posterior can speak to. ~~**The new debt is π/12 itself:** the charged phase is 2/9 = Q/3
+> by the holonomy closure, and nothing yet says why the neutral triple sits a further π/12 around the
+> ring. Note π/12 is a *pure geometric angle carrying no Q*, so whatever supplies it is a different
+> kind of object from whatever supplies 2/9.~~
+>
+> **↑ WITHDRAWN the same day — π/12 is NOT an independent angle**
+> (`scripts/pi_over_12_is_the_zero_crossing.py`, 10 controls incl. anti-control). With
+> √m_k = a[1 + A·cos(φ + 2πk/3)], the middle root vanishes when cos(φ + 2π/3) = −1/A. At the Koide
+> amplitude A = √2 that reads cos = −1/√2, so φ + 2π/3 = 3π/4 and
+>
+> > **φ_cross = 3π/4 − 2π/3 = 9π/12 − 8π/12 = π/12** — exact, to 1.7×10⁻¹⁶.
+>
+> So π/12 = arccos(−1/A) − 2π/3 is fixed by **A alone**, and A is fixed by Koide through
+> A² = 6(Q − ⅓) — *the same invariant* that fixes 2/9 through the holonomy closure. It is not a
+> different kind of object, and it carries Q after all. **A = √2 is the unique amplitude producing
+> it** (solved 1.414213562373; at A = 1 the crossing is π/3, and φ_cross ranges over 1.05 rad across
+> A ∈ [1, 2], so the dependence is real rather than a coincidence of one value).
+>
+> **And this explains the sign branch instead of assuming it.** The crossing partitions the phase
+> line: *below* it all three roots are positive — the charged sector at 2/9, its middle root only
+> **+0.040**, barely inside; *above* it the middle root is negative — the neutral sector at
+> 2/9 + π/12, middle root **−0.196**. The (−,+,+) branch the neutral fit requires is simply where one
+> lands by sitting past the crossing, which also ties this paragraph to the branch qualification above.
+>
+> **What remains is one relation, not one angle:** why the neutral phase is φ_e + φ_cross rather than
+> some other combination. That displacement rule is still an input — but it relates two quantities
+> both already fixed by Koide. The basement reaches the same
 conclusion independently, since Thomas–Fermi weights carriers by charge squared and a neutral cone
 is worth 2·N_c·q² = 0. The second is *exactness*: a quantity held to 10⁻⁵ is not held by a balance,
 because balances come with fluctuations that would need suppressing by four orders they have no
@@ -298,7 +392,7 @@ So the whole sector follows from one hypothesis about the spectrum's origin:
 
 | step | statement |
 |---|---|
-| constraint (source open) | CV = 1 exactly, i.e. V = μ², i.e. the Z₃-graded norm f₀² − \|f₁\|² − \|f₂\|² vanishes — value readable as thermal, mechanism unknown |
+| constraint (candidate source) | CV = 1 exactly, i.e. V = μ², i.e. the Z₃-graded norm f₀² − \|f₁\|² − \|f₂\|² vanishes — supplied by the democratic construction below, on one structural and one dynamical claim |
 | ⟹ | **Q = 2/3** — the Koide relation |
 | ⟹ | A = √2, ρ = \|f₁/f₀\| = 1/√2 — the amplitude and modulus watches |
 | ⟹ | τ = −ln ρ = **½ln2**, so **T_c = 177.10 keV** and **ρ_Λ¼ = 2.2599 meV** (observed 2.25) |
@@ -317,7 +411,47 @@ deterministic representatives miss 2/3 outright. The sector's single input is a 
 of a mechanism, and what the exactness rules out is every mechanism of the kind so far tried —
 equilibria, averages and balances all deliver a number with fluctuations around it. What it points
 at instead is a quantity that vanishes. **A = √2 and 2/9 are one complex number, and the amplitude
-half of it is the statement that a Z₃-graded norm is zero. Nothing in the corpus yet says why.**
+half of it is the statement that a Z₃-graded norm is zero.**
+
+**A structural candidate for the amplitude half.** The averaging class fails because an ensemble
+ratio carries fluctuations; a spectral statement does not. Write the three generation amplitudes as
+a quadratic form in which the on-site term and the inter-generation term are not different in kind —
+the first penalises an amplitude against the condensate, the second against a neighbour, so both are
+bonds and the condensate is simply one more node. Couple every pair with a single constant, pin the
+condensate at the reference amplitude, and the stiffness matrix in the N generation amplitudes is
+(N + 1)·I − J: eigenvalue 1 on the uniform mode and N + 1 on every zero-sum mode, with equal
+on-site and bond couplings enforced rather than tuned.
+
+If the modes then carry **equal quanta** — the same occupation number, not the same energy — the
+mode amplitudes scale as ω^(−1/2), and the ratio of non-uniform to uniform power is
+(N − 1)/√(N + 1). Setting it to unity gives (N − 1)² = N + 1, whose only positive root is **N = 3**;
+Parseval then returns
+
+> Q = [1 + (N − 1)/√(N + 1)]/N, and **Q(3) = 2/3 exactly**,
+
+with A = √2, τ = ½ln2 and T_c = 177.099 keV following unchanged. The occupation number cancels
+identically rather than being averaged, so the result carries no temperature, no ensemble and no
+scatter — which is why it is not in the class the exactness rules out. The construction also
+switches itself off for a neutral triple: screening weights the condensate bond by q², and with
+that bond absent the uniform mode is an exact zero mode, so no value of Q is predicted for
+neutrinos, which is the observed situation.
+
+The premises are stated rather than hidden, and one of the two turns out not to be independent.
+**Equality of couplings is forced, not assumed**, provided the condensate is genuinely a node of the
+same graph: the complete graph on four nodes is edge-transitive — its automorphism group acts
+transitively on all six edges — so a single coupling is the only symmetric choice, and the
+condensate's distinguished role enters as a property of the *state* (it sits at the reference
+amplitude) rather than of the couplings. The ordering is load-bearing and worth stating plainly: if
+the condensate is pinned *first*, the residual symmetry is only the permutation of the three
+generations, the six bonds fall into two orbits of three, and the equality reverts to an assumption.
+
+So the construction rests on two things. That **the condensate is a node of the coupling graph
+rather than a backdrop**, with its couplings fixed before its pinning; and that the modes carry
+**equal quanta** rather than equal energy — which is itself equal *action*, and therefore follows
+from the spectrum splitting slowly from a degenerate start rather than being a statement about
+quantum numbers. **Neither is yet derived.** What has changed is the shape of the debt: from a bare
+number with no handle to two structural claims about how the ring is assembled, each of which can be
+attacked directly.
 
 **What the vanishing quantity is, stated as physics rather than as a norm.** Evaluate the seat
 amplitudes at the seed phase φ = π/12, where A = √2 saturates positivity:
@@ -346,10 +480,14 @@ configuration, which is the forward reading of the recorded "96% of the wall". T
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 What survives is the reframing. "Why A = √2" is a bare number with no handle, and every mechanism
-tried against it — equilibria, averages, balances, cascade equipartition — has died on
-fluctuations. **The seed is exactly critical at holonomy π/4**, and that is a statement about a
-phase boundary, which is the one class of thing that can be exact without being an average. Any
-second equation must hold at the *physical* point; criticality holds at the seed.
+tried against it *from the averaging class* — equilibria, averages, balances, cascade equipartition
+— has died on fluctuations, for one reason: an ensemble ratio carries a spread, and the agreement
+it must reproduce is 6×10⁻⁶. That diagnosis is what makes the surviving route recognisable. A
+statement about a **spectrum** rather than an ensemble carries no spread at all, and the democratic
+construction above is of that kind — the occupation number cancels identically instead of being
+averaged over. **The seed is exactly critical at holonomy π/4**, and that too is a statement about a
+phase boundary, which is the same class: exact without being an average. Any second equation must
+hold at the *physical* point; criticality holds at the seed.
 
 **And the sector's debt is one real number, not one complex one.** The hopping is usually stated as
 a single complex b whose two parts are the amplitude and the phase — two reals. Given the closure
@@ -363,6 +501,33 @@ second input beside the phase; Parseval fixes it from Q, the closure fixes the p
 whole sector — including the dark-energy floor's one lepton-side input — descends from **a single
 measured ratio**. The debt is therefore *one number and one relation*: why Q = 2/3, and why the
 closure 3·arg f₁ = Q holds at all.
+
+**The two are different in kind, and the difference is a theorem rather than an impression.** Q
+depends only on the modulus |f₁|/f₀; the phase enters nowhere in it. Any quadratic form on the three
+generation amplitudes with a *real* inter-generation coupling has a twice-degenerate charged pair,
+those two modes span a plane, and every rotation in that plane is a symmetry — so the phase is an
+exactly flat direction. Sweeping it at fixed moduli moves the individual mass fractions across the
+whole spectrum, from (0.971, 0.014, 0.014) to (0.028, 0.005, 0.966), while both the energy and Q
+stay fixed to one part in 10¹⁵.
+
+Two consequences follow. First, a mechanism for the modulus is **complete on its own terms**: it
+does not owe the phase as a missing piece, because the quantity it fixes is phase-blind.
+
+Second, and sharper: **the phase is unreachable from the ring's own potential at every order.** A
+complex inter-generation coupling does split the two charged stiffnesses, but the splitting never
+reaches the phase, because the amplitudes are real — f₂ = f₁\*, so only ε₁ + ε₂ = 2a − 2·Re b enters
+the energy, which carries no φ. Going to higher order does not rescue it: the symmetry under
+φ → φ + 2π/3 together with evenness in φ forces any real symmetric ring potential to be a function of
+cos 3φ alone, whose stationary points are 3φ = 0 and 3φ = π. The cubic makes this concrete —
+Σ_k (√m_k)³ = 3M³ + (9/2)MR² + (¾)R³·cos 3φ, one harmonic and no other φ-dependence — and the closure
+requires 3φ = Q = 0.6667, missing the nearer stationary point by 0.667 radians. Any further terms
+add roots of F′(cos 3φ), which land wherever the couplings are tuned to put them.
+
+**The closure therefore requires an external phase reference that carries the angle Q itself.** That
+is why the route to it is thermal rather than potential-based: the Kubo–Martin–Schwinger construction
+supplies the Euclidean time circle as such a reference and reads the angle as a twist per generation.
+Whether that reference is legitimate is the open question — but the search space is now bounded, since
+no candidate built from the ring's own couplings can reach it at any order.
 
 **The closure is a statement about a Z₃ invariant, and written that way it has no branch problem.**
 Relabelling which seat is first sends f_j → ω^j f_j with ω = e^{2πi/3}, so f₁ → ω f₁ and
@@ -463,3 +628,32 @@ displaces the fitted point by 1.3×10⁻⁵ in A — **55 times the triangle's w
 three-mass fit seats both watches inside one σ while hiding the structure they disagree about.
 Only the two light masses resolve it, and they will not improve on their own; nothing about this
 question waits on the τ.
+
+### ⚠ The neutral triple: a FORK, found 2026-07-29, and it touches a pre-registered prediction
+
+Adding Brannen's π/12 neutral fit to this file exposed a conflict with **P-2026-012**, which
+pre-registers **m₁,lightest = 2.3 meV** (and the Σ ≈ 61 meV that follows). The two cannot both hold.
+
+Solving the Brannen form for *both* measured splittings **and** a target m₁ (three equations, three
+unknowns a, A, φ) gives:
+
+| | m₁ | Σm_ν | A | Q_ν |
+|---|---|---|---|---|
+| **Koide branch** — A = √2, φ = 2/9 + π/12 | **0.374 meV** | **58.5 meV** | √2 | **⅔ exactly** |
+| **P-2026-012 branch** — m₁ = 2.25 meV imposed | 2.25 meV | 60.8 meV | **1.735** | **0.835** |
+
+The second requires **A = 1.735, i.e. 22.7% off √2**, and hence Q_ν = 0.835 — *not* on the cone.
+(Consistent with the branch scan: on (−,+,+), Q_ν crosses ⅔ near m₁ ≈ 0.4 meV and keeps rising.)
+
+> **So the fork is sharp: EITHER the neutral triple sits on the Koide cone — A = √2, m₁ = 0.374 meV,
+> Σ = 58.5 meV — OR P-2026-012's m₁ = 2.3 meV holds and the neutral triple is off the cone entirely,
+> with the π/12 fit not applying to this model.** They are alternative hypotheses, not complements.
+
+**Correction to the entry above.** The Σm_ν = 0.0585 eV figure recorded there as "a prediction the
+model can be held to" was stated without noticing this conflict. It is **conditional on the Koide
+branch**, and it contradicts a standing pre-registered prediction. It should not be quoted as *the*
+model's neutrino-mass prediction while P-2026-012 stands.
+
+**Which resolves it is an owner call**, and it is a good fork to have: the two branches differ by a
+factor 6 in m₁ and 3.8% in Σm_ν — the latter within reach of near-term cosmology, the former
+distinguishing a triple on the cone from one off it.

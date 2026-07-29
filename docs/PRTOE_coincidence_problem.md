@@ -24,7 +24,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  the physical thaw growth rate is the Jeans frequency
  ω_J = √(4πG ρ) = Γ_par/√2, so Γ_eff/H_Λ = √(3/2) with **B = 1/√2 derived** — homogeneous
  P(X) settles, which is the wrong sign for a thaw; the Jeans branch is what can leave the floor. Walked in
- [PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
+ [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md).
 2. **The turnaround is a computed multiple of the Hubble time**:
  t_turn = ln(1/√A_s)/(√(3/2)·H) ≈ **8.16 H⁻¹** at A_s = 2.088×10⁻⁹.
  (was 5.77 H⁻¹ at the par-normalized B = 1; B picked from the dispersion,
@@ -84,7 +84,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  anthropic, which [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md) §3 rejects on its own terms. The
  era-level derivation below stands on its own; it does not reach the chain, and the chain-level
  bookkeeping is carried as an open item (T8's owed list, item 4). See
- [PRTOE_sqrt3_derivation.md](PRTOE_sqrt3_derivation.md).
+ [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md).
 
 ## 3. Falsifiable content
 

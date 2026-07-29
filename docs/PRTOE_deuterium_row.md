@@ -172,11 +172,40 @@ uncertainty on it:**
 | …⊕ the compilation systematic | 0.0713 | **−1.96σ** |
 
 Every one of those is defensible; they differ by **1.7σ**. The standing −2.94σ sits mid-range by the
-accident of having borrowed another code's error rather than computed one. **Which construction the
-corpus stands on is a booking, not a desk computation, and it is owed.** The two ends are not
+accident of having borrowed another code's error rather than computed one. The two ends are not
 symmetric in kind: the narrow end omits a systematic that is measured and real, and the wide end
 folds in a compilation spread while still quoting one compilation's central value, which needs the
 central value moved too if it is taken.
+
+**The booking is replaced by a rule, 2026-07-28** (`scripts/deuterium_row_width.py`, 6 checks). With
+1.7σ of spread available, any answer can be reached by choosing a construction, so the rule was
+written down before the numbers were produced:
+
+> **A central value and its error must come from the same place.**
+
+That admits two self-consistent constructions and kills one:
+
+| | model | ΛCDM control | self-consistent |
+|---|---|---|---|
+| **(A)** PRIMAT centre + PRIMAT error | **−2.94σ** | −2.25σ | yes |
+| **(B)** compilation average, centre *and* error moved together | **−2.06σ** | −1.46σ | yes |
+| (X) PRIMAT centre + compilation-spread error | −1.96σ | — | **no** |
+
+(X) is the widest and most flattering option on the table, and it is the one the rule excludes: it
+counts the PRIMAT/NACRE disagreement as uncertainty while still standing on one compilation's centre.
+Taking that disagreement seriously means moving the centre too, which is (B) — and (B) lands at
+−2.06σ, close to (X) numerically but reached honestly, since NACRE's lower d(d,n)³He rate burns less
+deuterium and carries the prediction up by half the full shift, +0.026.
+
+**The standing row is (A) and it should keep standing** — now for a reason rather than by the
+accident of a borrowed error bar — with (B) quoted beside it, because the two answer different
+questions: (A) how the model does against the best single compilation, (B) how it does given that the
+compilations disagree.
+
+**The row is adverse under every construction, and the width-independent part is untouched.** The
+model burns 0.033×10⁻⁵ more deuterium than its own control on identical data — 0.69σ in (A) units,
+0.60σ in (B) units — and no choice of error bar moves the sign or the size of that. Re-booking a
+width does not improve a fit.
 
 ### The compilation spread is one reaction, and the disagreement is about its error bar
 
@@ -534,8 +563,11 @@ accidental:
 
 **And the field content is not merely short of one — it is provably full.** P-2026-045 registers
 Pauli finiteness, str[k₁] = 16·N_gen − 48 = 0, satisfied exactly by the Standard Model plus three
-right-handed neutrinos: **sixteen Weyl fermions per generation, every seat taken.** Adding one
-returns +3 instead of 0, and the balance that breaks is the same one that forces N_gen = 3. The
+right-handed neutrinos: **sixteen Weyl fermions per generation, every seat taken** (15 Standard-Model
+Weyl components plus its ν_R; twelve gauge bosons at −4 each supply the −48). Adding a second ν_R to
+*every* generation returns +3 instead of 0 — while a **single** extra sterile species breaks the
+balance by **+1** and a fourth generation by **+16**, which is how P-2026-045 states the penalties.
+The balance that breaks is the same one that forces N_gen = 3. The
 entry's own named kills are "a light sterile; a 4th generation" — precisely the object a cure would
 need. So the price of healing this row is the three-generation derivation, which is the strongest
 statement available about why the row stays open.

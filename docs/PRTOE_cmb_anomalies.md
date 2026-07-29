@@ -116,7 +116,7 @@ location. An axis family is what this geometry can produce; a spot family is not
 The distinctive route is closed twice over. A collapsing texture is the mechanism that
 makes a sign-definite spot a few degrees wide, and it requires a vacuum manifold with
 non-trivial π₃. The medium's order parameter is a broken global U(1)
-([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)) — a circle, whose homotopy is
+([PRTOE_INTERACTION_ATLAS.md](exploratory/PRTOE_INTERACTION_ATLAS.md)) — a circle, whose homotopy is
 exhausted by π₁ = ℤ. That π₁ is the winding and the vortex network the model already runs on;
 π₂ and π₃ both vanish. The corpus already spends the vanishing of π₂ (no monopoles, so nothing
 erases circulation — the magnetic-memory argument); π₃ is the same fact one dimension up, and
