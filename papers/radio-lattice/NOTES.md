@@ -380,3 +380,82 @@ submission and cannot be discharged from this machine as configured.
 **Still owed, unchanged:** σ_ε in physical units, which awaits the DM timing-model conversion —
 the binding limit there is a ~20 μs month-correlated timing offset rather than a DM error, and
 converting it needs the full timing model.
+
+## Comment blocks moved out of main.tex for submission (2026-07-29)
+
+arXiv distributes the LaTeX source, so anyone who downloads the paper reads its comments.
+Two blocks were removed from `main.tex` on that ground and are preserved verbatim here.
+
+**Why they had to go.** The template scaffolding gave authoring instructions and discussed
+what "a moderator reads", which reads as managing moderation rather than doing physics. The
+"STILL OWED before submission" block is self-evidently stale once submitted. Neither is
+discreditable, but neither belongs in a public source file. The substantive verification
+record survives in `refs.bib` and in this file.
+
+```
+% ---------------------------------------------------------------------------
+% Template for a single-claim submission.
+%
+% revtex4-2 is the default because most of the target categories (hep-ph,
+% astro-ph.CO, gr-qc) read as APS-style. Swap to `article` for math-ph.
+%
+% BEFORE WRITING ANY PROSE, fill in the abstract. If the abstract cannot be
+% written without pointing at another document, the paper's boundary is wrong
+% and the scope needs cutting, not explaining.
+% ---------------------------------------------------------------------------
+% ---------------------------------------------------------------------------
+% ABSTRACT. Hard limit 1920 characters in arXiv metadata; aim well under.
+% A moderator reads this and nothing else. It must contain, in order:
+%   (1) the setting, in one sentence a non-specialist in the subfield follows;
+%   (2) the specific claim, with its number;
+%   (3) how it is obtained;
+%   (4) what would falsify it;
+%   (5) what is assumed and not derived --- stated here, not buried.
+% Point (5) is not a weakness to hide. A paper that names its own assumptions
+% in the abstract reads as competent; one that does not reads as overclaiming,
+% and overclaiming is what draws reclassification.
+% ---------------------------------------------------------------------------
+```
+
+```
+% STILL OWED before submission:
+% (a) RESOLVED 2026-07-28 --- both remaining book entries verified, and both were already
+%     CORRECT; the check confirmed rather than corrected them.
+%       * GordonSorochenko2009: verified against the Crossref record for DOI
+%         10.1007/978-0-387-09691-9 --- title, authors, Springer New York, 2009, series, and
+%         both ISBNs confirmed. Caveat recorded in refs.bib rather than hidden: the series
+%         VOLUME NUMBER (282) is ABSENT from the Crossref record and rests on the publisher's
+%         catalogue listing for that ISBN.
+%       * LorimerKramer2004: the year was the open question, since Cambridge's catalogue and
+%         several secondary indexes say 2005. ADS records bibcode 2004hpa..book.....L with a
+%         December 2004 date, which is the form the pulsar literature cites, so the 2004 key
+%         stands. Series (Cambridge Observing Handbooks, vol. 4) and ISBN independently confirmed.
+%     METHOD LIMIT, stated so this is not read as a full ADS pass: the bibcode was read from an
+%     ADS search listing. The ADS record page itself could NOT be fetched --- its interface is
+%     script-rendered and returned empty content, and no ADS API token is available here. So ADS
+%     has been consulted for these two entries, not searched systematically for the paper.
+% (b) RESOLVED 2026-07-29 --- and the answer was that the conversion does not exist. A constant
+%     eps is EXACTLY degenerate with the fitted dispersion measure: it rescales the delay's
+%     coefficient and leaves its nu^-2 shape untouched, so the timing fit absorbs it completely
+%     (DM_fit = N_e/(1+eps), t_inf unchanged, residuals at machine precision, at every frequency
+%     coverage tested). So there was never a sigma_eps to convert TO. The 20 us figure bounds eps
+%     VARIATION, ~2e-6 to ~3e-4 depending on band and column, and that is now stated in the text.
+%     CONSEQUENCE, applied 2026-07-29 by owner ruling: the dispersion row is DEMOTED into the
+%     set-aside group, the measurable set is two rows, and the forecast is sigma/sqrt(8) not
+%     sigma/sqrt(11). scripts/dm_row_sigma_eps.py, 9 controls.
+%     PROMOTION CONDITION: an independent determination of the same electron column at a
+%     precision competitive with the other rows. Until then this row carries the pattern but
+%     not a measurement.
+%
+% RESOLVED 2026-07-28 --- the RRL row. An earlier note here carried "~7e-6, inferred, not
+% sourced" as its differential precision. That figure is WITHDRAWN and was wrong by one to two
+% orders. A targeted search finds NO RRL-based constraint on electron-mass variation in the
+% literature, and the reason is that the row is width-limited rather than rest-frequency-limited:
+% RRLs in ultra-compact HII regions have intrinsic widths of 20-50 km/s, up to 80 km/s with bulk
+% motions, and pressure-broadened wings reaching 200 km/s below 8 GHz. Centroid precision scales
+% as width/SNR and can look excellent, but the systematic floor is bulk gas motion, which SNR
+% does not reduce: 6.7e-5 to 2.7e-4, i.e. 10-40x WEAKER than the 21 cm systematic. The RRL row
+% therefore contributes essentially nothing to sigma_eps at present precision and belongs with
+% synchrotron among the rows that cannot yet be entered --- now for a quantitative reason as
+% well as a structural one. See NOTES.md.
+```

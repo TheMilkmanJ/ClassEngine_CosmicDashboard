@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  29 JUL 2026 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  29 JUL 2026 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -75,9 +75,6 @@ Class revtex4-2 Info: RevTeX society APS selected on input line 40.
 )
 Class revtex4-2 Info: Selecting journal prd on input line 7671.
 Class revtex4-2 Info: APS journal PRD selected on input line 7672.
-
-
-Class revtex4-2 Warning: No type size specified, using default 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx
 File: aps10pt4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for document
@@ -365,10 +362,10 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 LaTeX Info: Redefining \bm on input line 219.
 )
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 18.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 18.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 18.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 18.
+lass! (Proceeding with fingers crossed.) on input line 8.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 8.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 8.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
@@ -378,24 +375,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count294
@@ -427,21 +424,21 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring ON on input line 8.
  (./main.out)
 (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 18.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 8.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -449,36 +446,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 160.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 160.
+(hyperref)                removed on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `math shift' on input line 154.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `math shift' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 163.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -490,27 +495,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 207.
+(hyperref)                removing `math shift' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 207.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 232.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 232.
-
-
-Overfull \hbox (20.17963pt too wide) detected at line 252
-[][][][]
- []
+(hyperref)                removing `math shift' on input line 210.
 
 [2]
-Underfull \hbox (badness 2913) in paragraph at lines 305--310
+Underfull \hbox (badness 2913) in paragraph at lines 286--291
 \OT1/cmr/m/n/10 in which both $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 and $\OML/cm
 m/m/it/10 m[]$ \OT1/cmr/m/n/10 can-cel iden-ti-cally, the
  []
@@ -533,8 +525,8 @@ Underfull \hbox (badness 2035) in paragraph at lines 298--308
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 321--329
- []\OT1/cmr/m/n/9 NANOGrav Col-lab-o-ra-tion, As-tro-phys. J.  (2023),
+Underfull \hbox (badness 1067) in paragraph at lines 325--335
+ []\OT1/cmr/m/n/9 S. V. Sosa Fis-cella, M. T. Lam, Z. Ar-zou-ma-nian,
  []
 
 ) [6] (./main.aux)
@@ -546,10 +538,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0C42AA6F1C5886A2E1E536B1472AFA34;4029.
  ) 
 Here is how much of TeX's memory you used:
- 11869 strings out of 476182
- 176184 string characters out of 5795595
+ 11872 strings out of 476182
+ 176265 string characters out of 5795595
  1951975 words of memory out of 5000000
- 33647 multiletter control sequences out of 15000+600000
+ 33650 multiletter control sequences out of 15000+600000
  571595 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,12n,79p,477b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -574,10 +566,10 @@ s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 c/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 303711 bytes).
+Output written on main.pdf (6 pages, 304213 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
+ 403 PDF objects out of 1000 (max. 8388607)
+ 346 compressed objects within 4 object streams
  69 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

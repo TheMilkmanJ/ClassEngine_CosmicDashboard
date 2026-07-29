@@ -408,6 +408,18 @@
 %    so Sec. III E may be new. Abstract search is not full-text search, so
 %    confirm on ADS before claiming priority in the text.
 %
+%    UPDATE 2026-07-29 — this is NOT a submission blocker, and the reason is that
+%    the text never claims priority. A grep for "for the first time", "novel",
+%    "not previously", "first to", "we are aware" and similar returns NOTHING in
+%    main.tex. Sec. III E derives the row from the standard RM expression with a
+%    citation and stops there. So the caution above ("confirm on ADS before
+%    claiming priority in the text") is satisfied by the text making no such
+%    claim. A further web search on 2026-07-29 again found varying-constants
+%    limits coming from quasar absorption and the CMB, and nothing working out
+%    how a varying m_e biases published RM catalogues — consistent with the
+%    assessment above, but still a negative search result rather than a proof,
+%    which is exactly why the text should continue not to claim priority.
+%
 %  * OPEN, and not closeable from here. No ADS search was run. There is no ADS
 %    API token on this machine and the ADS web interface does not serve
 %    content to a fetcher. Everything above went through Crossref, the arXiv
@@ -418,9 +430,27 @@
 %  * Nothing was deleted. All seven original entries resolved to real papers.
 %    Corrections were confined to the Planck title, and to volume, page and
 %    identifier fields; see the comments on each entry.
+%
+%  * CLOSED 2026-07-29. The last incomplete article entry, NANOGravDM2023, is now
+%    complete: ApJ 966, 95 (2024), DOI 10.3847/1538-4357/ad2858, verified against
+%    the IOP record. Three fields were wrong as recorded — year (2023, the arXiv
+%    posting, not 2024), title (the arXiv "Mis-Estimation", not the published
+%    "Misestimations") and author (bare collaboration, not first author). arXiv's
+%    abstract page carries no journal reference for it, which is why it sat
+%    incomplete. EVERY article entry now carries volume, pages and DOI; the four
+%    remaining entries without them are three books and one misc entry, for which
+%    those fields do not apply.
+%    NB do not write an at-sign followed by an entry type in these comments --
+%    BibTeX parses the at-sign even inside a percent comment and reports a
+%    spurious error. That is how this note first went in.
 % ---------------------------------------------------------------------------
 
-% --- added 2026-07-28: the per-band observational precisions (three measurable rows) ---
+% --- added 2026-07-28: the per-band observational precisions ---
+% NB "three measurable rows" as originally written here is SUPERSEDED. The
+% dispersion-measure row was demoted 2026-07-29 (a constant eps is exactly degenerate
+% with the fitted DM), so the measurable set is TWO rows: 21 cm and Faraday. The DM
+% entries below are still cited -- they now support the paragraph explaining why that
+% row cannot be entered, rather than a third constraint.
 % Each verified by fetching the arXiv abstract directly, not from a search summary.
 % See NOTES.md for why that distinction mattered on Kanekar2010.
 
@@ -469,12 +499,25 @@
   note    = {DMX methodology for dispersion-measure variation in a pulsar timing array.}
 }
 
+% Publication data completed 2026-07-29 against the IOP record for DOI
+% 10.3847/1538-4357/ad2858. THREE fields were wrong as recorded: the year was 2023
+% (the arXiv posting) rather than 2024 (publication); the title was the arXiv form
+% "Mis-Estimation" rather than the published "Misestimations"; and the author was the
+% bare collaboration rather than the first author. arXiv's abstract page shows no
+% journal reference, which is why the entry sat incomplete.
+% NB the given name is "Sophia" in the IOP record and "Sofia" in some indexes; the
+% publisher of record is used here.
 @article{NANOGravDM2023,
-  author  = {{NANOGrav Collaboration}},
+  author  = {Sosa Fiscella, Sophia Valentina and Lam, Michael T. and
+             Arzoumanian, Zaven and others},
+  collaboration = {NANOGrav Collaboration},
   title   = {The {NANOGrav} 12.5-Year Data Set: Dispersion Measure
-             Mis-Estimation with Varying Bandwidths},
+             Misestimations with Varying Bandwidths},
   journal = {Astrophys. J.},
-  year    = {2023},
+  volume  = {966},
+  pages   = {95},
+  year    = {2024},
+  doi     = {10.3847/1538-4357/ad2858},
   eprint  = {2307.13248},
   archivePrefix = {arXiv},
   note    = {Infinite-frequency TOA offsets $\sim 22\,\mu$s for the highest-DM pulsar

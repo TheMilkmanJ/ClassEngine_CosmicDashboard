@@ -456,3 +456,63 @@ The paper is still **not arXiv-ready**, for the reason recorded above and unchan
 the dispersion row is demoted, the measurable set is two rows, and promotion needs an independent
 electron-column determination. The seven references also still carry VERIFY flags. Categorisation was
 the smaller of the two remaining blockers and is now settled; the physics one is not.
+
+## Submission prep pass, 2026-07-29 — the package is mechanically READY
+
+Owner instruction: prep for arXiv. Everything below is done; what remains is stated at the end and
+is not mechanical.
+
+> **⚠ CORRECTING MY OWN CLAIM FIRST.** I twice wrote that "seven references still carry VERIFY
+> flags". **That was wrong** — I was reading the original pre-verification line in this file rather
+> than `refs.bib`, which was fully checked against Crossref and the arXiv API on 2026-07-28 and
+> carries **zero** VERIFY flags. Protocol 45: I read the label, not the thing.
+
+### What the pass did
+
+| item | before | after |
+|---|---|---|
+| `NANOGravDM2023` | no volume/pages/DOI, **year 2023**, arXiv title, bare collaboration | **ApJ 966, 95 (2024)**, DOI 10.3847/1538-4357/ad2858, published title, first author + collaboration |
+| every other article entry | — | verified complete: all carry volume, pages, DOI |
+| `showpacs` class option | present | **removed** (APS discontinued PACS in 2016; a no-op that advertises a stale template) |
+| headline boxed equation | **overfull hbox, 20.2 pt** | split to two lines; **zero overfull boxes** |
+| authoring scaffolding in `main.tex` | shipped with the source | **removed** — preserved verbatim in `NOTES.md` |
+| "STILL OWED before submission" block | shipped with the source | **removed** — preserved verbatim in `NOTES.md` |
+| bib comment `three measurable rows` | stale after the demotion | corrected to two |
+
+**Why the comments had to go.** arXiv distributes the LaTeX source. The stripped blocks gave
+authoring instructions and discussed what "a moderator reads", which reads as managing moderation
+rather than doing physics; and a "STILL OWED before submission" note is self-evidently stale once
+submitted. Neither is discreditable — but neither belongs in a public source file. Nothing was lost:
+both are in `NOTES.md`, and the substantive verification record is in `refs.bib`.
+
+*(A self-inflicted one: my first version of the bib note wrote an at-sign followed by an entry type
+inside a `%` comment. BibTeX parses the at-sign even in comments and threw three spurious errors.
+Fixed, and a warning left in the file so it is not repeated.)*
+
+### Verified state of the shippable package
+
+```
+main.tex  25,052 bytes      main.bbl  20,448 bytes      (no figures, no \input, no absolute paths)
+```
+
+- **From-scratch build** (latex → bibtex → latex → latex): 0 errors, 0 undefined, 0 overfull, 6 pp
+- **As arXiv builds it** (main.tex + main.bbl only, no BibTeX run): 0 errors, 0 undefined, 0 overfull
+- Abstract **1602 / 1920** characters
+- No internal leakage: zero hits for docket numbers, task numbers, `working_logs`, `PRTOE_*`,
+  "the corpus", ledger pointers
+- **No priority claim anywhere in the text** — checked for "for the first time", "novel", "not
+  previously", "first to", "we are aware". This matters: the bibliography's gap list flags that the
+  Faraday row may be unworked but says to confirm on ADS before claiming priority. The text makes no
+  such claim, so the open ADS gap is **not a submission blocker**.
+- Newest references 2024 and 2025, so the paper engages current literature
+
+### What remains, and none of it is mechanical
+
+1. **The promotion piece** — an independent electron-column determination at competitive precision.
+   Until then the paper stands as a two-row test at σ/√8. *This is the owner's standing ruling and
+   the only genuine blocker.*
+2. **Endorsement** — owner's task. Categories are settled: primary **astro-ph.CO**, cross-list
+   **astro-ph.IM** (same archive, one endorsement covers both).
+
+> **The package is ready to upload the moment those clear.** Nothing in the LaTeX, the bibliography
+> or the build stands in the way.

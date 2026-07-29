@@ -315,15 +315,21 @@
   {841}},\ \bibinfo {pages} {125} (\bibinfo {year} {2017})},\ \bibinfo {note}
   {dMX methodology for dispersion-measure variation in a pulsar timing
   array.}\BibitemShut {Stop}%
-\bibitem [{\citenamefont {{NANOGrav Collaboration}}(2023)}]{NANOGravDM2023}%
+\bibitem [{\citenamefont {Sosa~Fiscella}\ \emph {et~al.}(2024)\citenamefont
+  {Sosa~Fiscella}, \citenamefont {Lam}, \citenamefont {Arzoumanian} \emph
+  {et~al.}}]{NANOGravDM2023}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{NANOGrav
-  Collaboration}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Astrophys. J.}\ } (\bibinfo {year} {2023})},\ \bibinfo {note}
-  {infinite-frequency TOA offsets $\sim 22\,\mu$s for the highest-DM pulsar
-  (J1643$-$1224), $\sim 7\,\mu$s at low DM, correlated over $\sim$1 month. This
-  is the systematic that binds the DM row.},\ \Eprint
-  {https://arxiv.org/abs/2307.13248} {arXiv:2307.13248} \BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~V.}\ \bibnamefont
+  {Sosa~Fiscella}}, \bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont
+  {Lam}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Arzoumanian}},
+  \emph {et~al.} (\bibinfo {collaboration} {NANOGrav Collaboration}),\ }\href
+  {https://doi.org/10.3847/1538-4357/ad2858} {\bibfield  {journal} {\bibinfo
+  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {966}},\ \bibinfo
+  {pages} {95} (\bibinfo {year} {2024})},\ \bibinfo {note} {infinite-frequency
+  TOA offsets $\sim 22\,\mu$s for the highest-DM pulsar (J1643$-$1224), $\sim
+  7\,\mu$s at low DM, correlated over $\sim$1 month. This is the systematic
+  that binds the DM row.},\ \Eprint {https://arxiv.org/abs/2307.13248}
+  {arXiv:2307.13248} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {O'Sullivan}\ \emph {et~al.}(2023)\citenamefont
   {O'Sullivan}, \citenamefont {Shimwell}, \citenamefont {Hardcastle} \emph
   {et~al.}}]{OSullivanLoTSS2023}%
