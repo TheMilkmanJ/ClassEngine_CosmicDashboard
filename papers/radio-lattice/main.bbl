@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{26}%
+\begin{thebibliography}{28}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -135,6 +135,36 @@
   {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {982}},\
   \bibinfo {pages} {86} (\bibinfo {year} {2025})},\ \Eprint
   {https://arxiv.org/abs/2503.06120} {arXiv:2503.06120} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2021)\citenamefont {Liu},
+  \citenamefont {Liu}, \citenamefont {Zhang}, \citenamefont {Zhai},\ and\
+  \citenamefont {Bora}}]{LiuAlphaClusters2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.-E.}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {W.-F.}\ \bibnamefont {Liu}},
+  \bibinfo {author} {\bibfnamefont {T.-J.}\ \bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {Z.-X.}\ \bibnamefont {Zhai}},\ and\ \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Bora}},\ }\href
+  {https://doi.org/10.3847/1538-4357/ac2150} {\bibfield  {journal} {\bibinfo
+  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {922}},\ \bibinfo
+  {pages} {19} (\bibinfo {year} {2021})},\ \bibinfo {note} {uses the ratio of
+  the integrated Comptonization $Y_{\rm SZ}D_A^2$ to its X-ray counterpart
+  $Y_X$ as the observable, over 61 Planck and 58 South Pole Telescope
+  clusters.},\ \Eprint {https://arxiv.org/abs/2109.00134} {arXiv:2109.00134}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {de~Martino}\ \emph {et~al.}(2016)\citenamefont
+  {de~Martino}, \citenamefont {Martins}, \citenamefont {Ebeling},\ and\
+  \citenamefont {Kocevski}}]{deMartinoAlphaClusters2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {de~Martino}}, \bibinfo {author} {\bibfnamefont {C.~J. A.~P.}\ \bibnamefont
+  {Martins}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ebeling}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Kocevski}},\ }\href
+  {https://doi.org/10.3390/universe2040034} {\bibfield  {journal} {\bibinfo
+  {journal} {Universe}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages}
+  {34} (\bibinfo {year} {2016})},\ \bibinfo {note} {multi-frequency thermal SZ
+  measurements of 618 X-ray selected clusters, constraining spatial rather than
+  temporal variation.},\ \Eprint {https://arxiv.org/abs/1612.06739}
+  {arXiv:1612.06739} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Flambaum}\ and\ \citenamefont
   {Porsev}(2010)}]{FlambaumPorsev2010}%
   \BibitemOpen

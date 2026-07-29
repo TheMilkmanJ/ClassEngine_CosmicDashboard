@@ -708,3 +708,48 @@ exactly zero bias. The signal is the weight **difference**, not the SZ effect it
 
 **And the kSZ/tSZ combination is α-free** — both carry σ_T, so its α² divides out identically,
 leaving pure m_e weight **+1** from the Compton-y 1/(m_e c²). Clean, and **not claimed as new**.
+
+## Both items are now IN THE TEXT (2026-07-29)
+
+### The paper now quotes a bound
+
+Three places, consistently:
+
+- **Abstract** — *"Read through the pattern, the tightest existing 21 cm comparison gives
+  |ε| < 1.4×10⁻⁵ at 2σ over 1.17 < z < 1.56, limited by systematics rather than by precision."*
+- **Sec. "Where the rows currently stand"** — the derivation δ ln x = −δ ln μ = ε is now shown, and
+  Eq. (eps21) states **ε = −(0.1 ± 1.3)×10⁻⁶** (statistical), followed by the quadrature combination
+  with Kanekar's 6.7×10⁻⁶ systematic giving **ε = −(0.1 ± 6.8)×10⁻⁶**, i.e. |ε| < 1.4×10⁻⁵ at 2σ.
+- **Conclusion** — the bound restated, with the point that the systematic exceeding the statistical
+  by 5× is *the argument for the pattern rather than against it*.
+
+Arithmetic cross-checked independently: √(1.3² + 6.7²) = 6.82, 2σ = 1.36×10⁻⁵, ratio 5.2×.
+
+> The text says explicitly that this is **a reinterpretation of a published measurement under the
+> assumptions of Sec. "What is assumed", not a new one.** That sentence is not optional.
+
+### The prior-work gap is closed
+
+A new paragraph in the introduction states that the construction — a quantity reconstructed with
+laboratory constants, read against something that does not share its dependence — **is not new and
+is not confined to the radio bands**, gives σ_T ∝ α²m_e⁻² as the mechanism, and cites the cluster
+SZ method over 119 clusters (Liu et al. 2021, ApJ 922, 19) and 618 (de Martino et al. 2016).
+It closes: *"What follows applies the same logic to a different set of observables, chosen so that
+the weights differ in sign as well as magnitude."*
+
+**No novelty is claimed anywhere.** Both references verified at the publisher, not from search
+snippets — Liu et al.'s arXiv page shows "Accepted by ApJ" with no volume or page, the same trap
+that left NANOGravDM2023 incomplete.
+
+### Verified state
+
+| | |
+|---|---|
+| from-scratch build | bibtex clean, 0 errors, 0 undefined, **0 overfull**, 6 pp |
+| as arXiv builds it (main.tex + main.bbl) | 0 errors, 0 undefined, 0 overfull, 6 pp |
+| abstract | **1799 / 1920** characters |
+| bibliography | **28 entries**, every article with volume, pages and DOI |
+
+**The "it constrains nothing" objection is answered, and the closest neighbouring method is now
+cited.** What remains is unchanged: the promotion piece needs an observational pairing that is not
+the SZ one (that route is established method, not ours), and the endorsement is the owner's.
