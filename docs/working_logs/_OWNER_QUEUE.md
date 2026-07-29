@@ -421,3 +421,39 @@ mass; it cannot shift m_e.
 > **Nothing about the leptogenesis side changes** under any of the three, and leptophilia is still
 > carried by data exactly as P-020 already says. What changes is only how open the *drag* to δm_e is
 > allowed to look.
+
+## Both dead chains are UNRESUMABLE — classy was rebuilt after they last wrote (2026-07-29)
+
+Found while checking whether conv_desi could be restarted into a freed core. It cannot be *resumed*,
+and neither can the other dead chain. The timeline is unambiguous:
+
+| | |
+|---|---|
+| `cmp_prtoe_conv_desi` last write | **2026-07-22 14:25** |
+| `cmp_prtoe_zon` last write | **2026-07-22 14:27** |
+| `libclass.a` rebuilt | **2026-07-23 18:48** |
+| `classy` py3.12 module rebuilt | **2026-07-23 20:00** |
+
+The standing chain-ops rule is that a classy rebuild changes physics under a resume. Both dead chains
+predate the rebuild, so resuming either would splice samples from two different physics builds into
+one posterior. **They must be restarted from scratch, losing their burn-in and their learned
+covariances.** The 3.2 MB conv_desi chain and its R−1 = 13.25 are not a head start; they are a
+different theory's samples.
+
+> **The three live runs are unaffected and self-consistent** — all three started 2026-07-28, after the
+> rebuild. Nothing running needs to be touched.
+
+### Consequence for the "one more core" offer
+
+Measured per-core load, 6 s sample: cores 1–8 are at **91–100%**; core 0 is at **41.9%**; cores 9, 10
+and 11 are at **18.1%, 31.9%, 18.1%** — which is the TV and desktop, not idle capacity. So the picture
+is not "9 busy cores and 3 spare"; it is **~0.6 cores of genuine slack on core 0, inside the range
+already permitted**, plus whatever can be taken from the owner's own cores.
+
+**But cores are not the binding constraint.** conv_desi needs a *fresh* multi-day run through burn-in,
+not a resume. Starting one on ~1.4 cores of leftovers — while contending with the TV on core 9 —
+would take weeks and invites a fourth death on a chain that has already died three times.
+
+> **Recommendation: do not launch on the extra core.** The honest move is to wait for one of the three
+> live runs to finish and give conv_desi real cores. The extra core does not change the answer,
+> because the cost was never one core — it was a full restart. **The TV reservation stays intact.**
