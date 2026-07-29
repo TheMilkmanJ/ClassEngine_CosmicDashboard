@@ -6346,3 +6346,45 @@ fundamental quarks**, a point made in the very paper the note cites for its anch
 fundamental quarks... In particular, the symmetry breaking pattern"*). Asking for N_f = 3 is asking
 for the hardest flavour count to discretize, and the note does not acknowledge it. **This is the one
 place the draft would read as not having gone all the way down.**
+
+## Chain health read, 2026-07-29 16:40 — and a wrong diagnosis of my own, corrected
+
+**My first reading was wrong and I am withdrawing it.** I saw acceptance 0.997 with two ranks at
+exactly 1.0000 in the launchlogs and read it as a proposal pathology. It is not. The launchlogs show
+`[mcmc] Oversampling with factors:` — cobaya's reported acceptance counts fast-parameter sub-steps,
+and with four fast nuisances (A_planck, A_act, P_act, Tcal) a reported rate near unity is expected.
+Nothing is broken on that axis. The chains are alive and all three are writing.
+
+The true per-step acceptance is visible only in the step counters, and Route-D shows it plainly:
+**13227 steps / 690 accepted = 5.2%** on rank 0, **502/11648 = 4.3%** on rank 1. That is low against
+a ~25% target, so Route-D's proposal is too *wide* — the opposite of what I first claimed.
+
+### What is actually worth acting on
+
+**1. cmp_lcdm_mnu_bbnfix will probably stop UNCONVERGED, and the arithmetic says so.**
+
+| N | R−1 | Δ |
+|---|---|---|
+| 1396 | 1.0109 | — |
+| 2680 | 0.5223 | −0.4886 |
+| 4017 | 0.5101 | −0.0123 |
+| 5292 | 0.4939 | −0.0162 |
+
+After the first drop the slope is **−1.27×10⁻⁵ per sample**. Reaching `Rminus1_stop: 0.05` from
+0.494 needs **~35,000 more samples**, and `max_samples: 40000` with ~5,300 already taken leaves
+~34,700. **The budget and the requirement cross at essentially the same point**, so as configured this
+run terminates on `max_samples` at or just before convergence. Raising `max_samples`, or accepting a
+looser `Rminus1_stop`, is a decision the owner should take *before* the run ends rather than after.
+
+**2. dyad_mnu_bbnfix sits 9% below the cliff where adaptation switches off.** Its R−1 is **91.2** and
+its `learn_proposal_Rminus1_max` is **100.0**. Proposal learning is active only while R−1 stays under
+that ceiling; if R−1 drifts up, the chain loses adaptation exactly when it most needs it. Rank 1's
+burn-in descent is complete (log-posterior flat from decile 4 of the chain: 1407.8 → ~1382), so an
+R−1 of 91 means the three ranks have **not found a common mode**, not that they are still falling.
+
+**3. Route-D's timeline has slipped and the task list is optimistic.** Task #21 records "R−1 not
+before ~11:00". At 16:40 the progress file still carries **no data rows at all** — not one
+convergence check has been written in 17.4 hours, on 1192 accepted samples across 2 ranks.
+
+**4. #89 stays correctly blocked.** All nine permitted cores are saturated (9 processes at ~100%,
+load 11.4). There is no slot for conv_desi, exactly as the task says.
