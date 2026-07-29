@@ -655,3 +655,56 @@ Planck, 1.23 ± 0.82 (1.5σ) with ACT, implying ⟨T_e⟩ ≈ 2×10⁷ K under i
 > the *derivation*; the observational version needs the astrophysical weighting modelled, which is
 > what that analysis already does and where its 4σ is spent. Writing it up as though the column
 > simply cancels would be false, and would be caught.
+
+## The two owed items, settled — one favourably, one AGAINST the novelty claim (2026-07-29)
+
+`scripts/sz_moment_mismatch_and_priority.py`, 10 controls including two anti-controls.
+
+### ⚠ Priority: the Thomson/SZ route is NOT new. It is established varying-constants method.
+
+This is the governing result and it must be read before anything else here.
+
+A targeted search returns a substantial existing literature using the SZ effect to constrain varying
+constants **by exactly the logic derived yesterday**:
+
+- σ_T ∝ α²/m_e² is stated as **the mechanism** in that literature, not discovered by us.
+- The standard observable is **Y_SZ / Y_X** — integrated Comptonization against its X-ray
+  counterpart, i.e. SZ compared to an *independent probe of the same gas*. That is structurally the
+  identical move, with X-ray where we put the dispersion measure.
+- Samples already analysed: 61 Planck + 58 SPT clusters against XMM-Newton; **618 X-ray selected
+  clusters** for spatial α variation; 82 clusters to z = 1.36 for runaway-dilaton models.
+- The CMB varying-constants papers (Planck intermediate XXIV, Hart & Chluba) already treat the σ_T
+  rescaling explicitly, including its role in the α/m_e geometric degeneracy.
+
+> **So the derivation is correct and not new.** Its value to the paper is real but different from
+> what I suggested: it reproduces an established construction *from the paper's own weight
+> formalism*, which is a consistency check worth having — and it exposes a **prior-work gap the
+> paper currently has entirely**, since none of this literature is cited.
+
+**Rules for the text, so this cannot be misread:**
+
+1. SZ material may enter **only** as engagement with existing method, **with citations**.
+2. It may **not** be presented as a new row, a new probe, or a new idea.
+3. The one element with any remaining chance of being new — SZ paired with **FRB dispersion
+   measures** rather than X-ray, and the α-free kSZ/tSZ combination — is **not claimed**, and needs
+   its own targeted search first.
+4. Until that search is done the text claims nothing, exactly as it already claims nothing about the
+   Faraday row.
+
+### The moment mismatch resolves, and the observable was never a column ratio
+
+Compton-y is measured directly as a dimensionless decrement, so for a **fixed physical gas** it is
+biased by **−3** (σ_T's −2 plus the 1/(m_e c²)). Inverting it for a pressure column and dividing by
+a DM-inferred column, biased by −1, leaves
+
+> **T_e(inferred) = T_e(true) × (1+ε)⁻²**
+
+A bias of −2ε, **identical for every gas** — hence a genuine observable, not a property of the
+cluster. An independent temperature closes it. Under an α shift the same quantity is biased **+1**:
+different magnitude *and* opposite sign, so the pair separates the hypotheses.
+
+**The anti-control fixes what does the work:** a column taken from a *same-weight* probe gives
+exactly zero bias. The signal is the weight **difference**, not the SZ effect itself.
+
+**And the kSZ/tSZ combination is α-free** — both carry σ_T, so its α² divides out identically,
+leaving pure m_e weight **+1** from the Compton-y 1/(m_e c²). Clean, and **not claimed as new**.
