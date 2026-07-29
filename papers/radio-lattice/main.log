@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  29 JUL 2026 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  29 JUL 2026 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,17 +521,17 @@ bx/n/9 580\OT1/cmr/m/n/9 , A22
  []
 
 [6]
-Underfull \hbox (badness 2035) in paragraph at lines 328--338
+Underfull \hbox (badness 2035) in paragraph at lines 335--345
  []\OT1/cmr/m/n/9 N. Kanekar, J. X. Prochaska, S. L. El-li-son, and
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 343--351
+Underfull \hbox (badness 1400) in paragraph at lines 350--358
  []\OT1/cmr/m/n/9 T. Lemos, R. Gon^^Xcalves, J. Car-valho, and J. Al-
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 368--378
+Underfull \hbox (badness 1067) in paragraph at lines 375--385
  []\OT1/cmr/m/n/9 S. V. Sosa Fis-cella, M. T. Lam, Z. Ar-zou-ma-nian,
  []
 
@@ -544,13 +544,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C3AF99400B4DE32FADFF2EE2590A3F6;4273.
  ) 
 Here is how much of TeX's memory you used:
- 11901 strings out of 476182
- 176883 string characters out of 5795595
+ 11902 strings out of 476182
+ 176893 string characters out of 5795595
  1952975 words of memory out of 5000000
- 33671 multiletter control sequences out of 15000+600000
+ 33672 multiletter control sequences out of 15000+600000
  571595 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,79p,477b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,477b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
@@ -572,7 +572,7 @@ s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 c/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on main.pdf (7 pages, 318776 bytes).
+Output written on main.pdf (7 pages, 319252 bytes).
 PDF statistics:
  443 PDF objects out of 1000 (max. 8388607)
  385 compressed objects within 4 object streams

@@ -270,7 +270,14 @@
   {Rybicki}}\ and\ \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
   {Lightman}},\ }\href@noop {} {\emph {\bibinfo {title} {Radiative Processes in
   Astrophysics}}}\ (\bibinfo  {publisher} {Wiley},\ \bibinfo {address} {New
-  York},\ \bibinfo {year} {1979})\BibitemShut {NoStop}%
+  York},\ \bibinfo {year} {1979})\ \bibinfo {note} {checked 2026-07-29.
+  Crossref carries NO record of the 1979 Wiley original; the only registered
+  record is the 1985 Wiley-VCH reissue (DOI 10.1002/9783527618170, print ISBN
+  9783527414499), whose Crossref entry confirms the title and both authors. The
+  1979 year and the ISBN above therefore rest on the field-standard citation
+  form and the publisher's own printing, not on a Crossref record. Recorded
+  rather than papered over. No chapter or section numbers are cited anywhere,
+  precisely because they were never verified}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Brentjens}\ and\ \citenamefont
   {de~Bruyn}(2005)}]{BrentjensDeBruyn2005}%
   \BibitemOpen
