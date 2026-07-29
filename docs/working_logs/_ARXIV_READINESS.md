@@ -516,3 +516,41 @@ main.tex  25,052 bytes      main.bbl  20,448 bytes      (no figures, no \input, 
 
 > **The package is ready to upload the moment those clear.** Nothing in the LaTeX, the bibliography
 > or the build stands in the way.
+
+## De-AIification pass — measured, and the paper does not need one (2026-07-29)
+
+Owner asked for a humanising pass. I ran the checks before rewriting anything, and the honest
+finding is that **the prose does not read as machine-written by any measure I can apply.** Rewriting
+it would have been motion, not improvement.
+
+| tell | result |
+|---|---|
+| stock phrases (*it is worth noting, notably, crucial, pivotal, delve, leverage, underscore, robust, furthermore, moreover, serves to*…) | **zero hits** across 17 patterns |
+| em-dashes in prose | **2** — both legitimate parentheticals |
+| sentence length | 4 to 68 words, median 19; **16 very short, 12 very long** — real rhythm, not uniform |
+| paragraph length | 13 to 229 words, median 48 — varied |
+| section headings | standard physics form; the "X, and why Y" construction appears **once**, not as a pattern |
+| repeated openers | "The" 43/134, which is normal for physics exposition |
+| "not X but Y" | 3 uses, all doing work |
+
+> **One correction to my own measurement.** My first pass reported **52 em-dashes** and I nearly
+> started cutting them. That count was an artefact: the `%-----` separator rules each contain ~25
+> instances of `---`. Excluding comment lines gives **2**. I was about to rewrite prose on the
+> strength of a number produced by my own counting error.
+
+### What the pass did instead
+
+Verified the one substantive claim in the paper that had **no computational backing**:
+`scripts/radio_lattice_weights.py`, 10 controls, exact rational arithmetic on Table I.
+
+Both columns reproduce from the standard scalings — the five m_e weights (+2, +1, −1, −1, −2) and
+the five α weights (+4, +2, +1, +½, +3/2) — as does the quoted ratio row (2, 2, −1, −½, −¾) and both
+sensitivity normalisations (Σw² = 11 for all five bands, 8 for the 21 cm / Faraday pair). The
+discriminating claim is now checked rather than asserted: every α weight is positive while the m_e
+weights split two up and three down, and the columns are not proportional — four distinct ratios
+across five rows, where proportionality would give one.
+
+**The anti-control matters here.** Changing the synchrotron α-weight from ½ to 1 — an easy slip in a
+hand-typed table — breaks the ratio row immediately. So the check bites on the entry it guards. A
+wrong table entry would not have surfaced as a build error, a bad citation or a failed control. **It
+would have shipped.**
