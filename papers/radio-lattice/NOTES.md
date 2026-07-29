@@ -459,3 +459,34 @@ record survives in `refs.bib` and in this file.
 % synchrotron among the rows that cannot yet be entered --- now for a quantitative reason as
 % well as a structural one. See NOTES.md.
 ```
+
+---
+
+## The ADS gap, closed by substitution (2026-07-29)
+
+**ADS itself was never queried.** `api.adsabs.harvard.edu` returns **401** without a token and no
+token exists on this machine. That is stated plainly: item 6 above is *not* discharged by running an
+ADS search. What was done instead is to verify, one at a time, the specific entries ADS was wanted
+for — which is the end that item was a means to.
+
+| entry | outcome |
+|---|---|
+| **Wolfe, Brown & Roberts 1976** | **CONFIRMED independently** — Phys. Rev. Lett. **37**, 179 (1976), DOI 10.1103/PhysRevLett.37.179, source AO 0235+164 at z = 0.5. The entry already carried exactly this. Nothing to fix. |
+| **Gordon & Sorochenko 2009** | already Crossref-verified 2026-07-28, with the series-volume caveat recorded in the entry |
+| **Lorimer & Kramer 2004** | already verified, with the 2004-vs-2005 discrepancy resolved and the read-from-listing method caveat recorded |
+| **Rybicki & Lightman 1979** | **the one entry that had no verification note, and now has one.** Crossref carries **no record of the 1979 Wiley original** — only the 1985 Wiley-VCH reissue (DOI 10.1002/9783527618170), whose record does confirm title and both authors. The 1979 year and the ISBN rest on the field-standard citation form, not on a registered record. Recorded in the entry. |
+
+**So item 6 shrinks to a single residual:** the 1979 printing of one textbook is attested by
+convention rather than by a registry. Nothing in the paper depends on it beyond one standard formula
+for the synchrotron characteristic frequency, and no chapter numbers are cited.
+
+### The rotation-measure novelty question, swept a second time
+
+Still **nothing found** on how a varying electron mass would bias published rotation-measure
+catalogues. Two independent searches now, including one aimed squarely at it; both return ordinary
+Faraday-rotation physics and varying-constants work that does not touch the RM reconstruction.
+
+**This does not license a novelty claim, and none is made.** Absence in two searches is weak
+evidence, and the standing rule holds: the text claims nothing about the RM row's priority. What has
+changed is only that the gap is better characterised — it is not that nobody has thought about
+Faraday rotation and constants, it is that the *reconstruction bias* specifically appears unworked.
