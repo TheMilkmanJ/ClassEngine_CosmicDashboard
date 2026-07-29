@@ -6837,3 +6837,17 @@ candl: clearing all internal priors.
 [2 : mcmc] Progress @ 2026-07-29 17:15:31 : 17085 steps taken, and 938 accepted.
 [0 : mcmc] Progress @ 2026-07-29 17:16:23 : 17469 steps taken, and 973 accepted.
 [1 : mcmc] Progress @ 2026-07-29 17:17:39 : 16668 steps taken, and 919 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:18:43 : 17091 steps taken, and 938 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:19:38 : 17473 steps taken, and 973 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:21:19 : 16696 steps taken, and 920 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:21:57 : 17108 steps taken, and 939 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:23:02 : 17517 steps taken, and 977 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:24:25 : 16704 steps taken, and 921 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:25:11 : 17113 steps taken, and 940 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:25:57 : 17526 steps taken, and 977 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:27:09 : 16731 steps taken, and 923 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:28:04 : 17115 steps taken, and 940 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:28:36 : 17533 steps taken, and 978 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:31:47 : 17569 steps taken, and 980 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:32:09 : 16738 steps taken, and 923 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:32:44 : 17152 steps taken, and 942 accepted.

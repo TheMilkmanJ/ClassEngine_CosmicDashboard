@@ -2858,8 +2858,41 @@ separation (dark ages clean vs cosmic dawn degenerate) — standard.
 
 **Kills:** (i) a lunar-farside measurement of the dark-ages trough at the standard frequency
 (±0.1 MHz-class precision makes the 0.40 MHz offset a 4σ-class discriminant) kills the ε
-mechanism's dark-ages arm outright; (ii) an offset at a value inconsistent with +2.5% (the
-mechanism's own arithmetic allows no other number); (iii) inherits every kill of ε itself.
+mechanism's dark-ages arm outright; (ii) an offset inconsistent with **either** value in the fork
+below; (iii) inherits every kill of ε itself.
+
+> **⚠ THE UNIQUENESS CLAIM IS WITHDRAWN, 2026-07-29.** Kill (ii) previously read *"an offset at a
+> value inconsistent with +2.5% (the mechanism's own arithmetic allows no other number)."* **The
+> mechanism's own arithmetic allows exactly one other number, a factor of two below.** This entry
+> takes Θ = 1 in unvirialized gas; but the coupling's own framework, in
+> [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md), names **two** states — laminar
+> Θ = 1.9×10⁻⁶ and developed speckle at **⟨Θ⟩ = ½, called there "a distributional fact, not
+> something the model arranges"** — and **contains no Θ = 1 state.** Θ = 1 is the upper endpoint of
+> the Beta(d/2,d/2) support, not its mean, and a dark-ages or cosmic-dawn signal is a volume
+> average, so the mean is what the observable carries.
+>
+> | | Θ = 1 (as registered) | ⟨Θ⟩ = ½ (the Beta law) |
+> |---|---|---|
+> | rest-frequency offset | +2.509% | **+1.254%** |
+> | dark-ages trough | 16.20–16.91 MHz, **+0.40 MHz** | 16.00–16.71 MHz, **+0.20 MHz** |
+> | cosmic-dawn trough | 79.96 MHz, +1.96 MHz | 78.98 MHz, +0.98 MHz |
+> | discriminant at ±0.1 MHz | **4.1σ** | **2.0σ** |
+>
+> The branches differ by exactly 2 with no residual. **The entry's arithmetic is internally correct
+> at Θ = 1** — +2.509%, the 16.2–16.9 MHz band, +0.40 MHz and +1.96 MHz all reproduce to three
+> decimals — so the defect is not the algebra but the unstated choice of regime, and the kill
+> threshold inherits the factor.
+>
+> Docket #62's speckle broadening lands here too, at **0.101 MHz** — coincidentally the stated
+> instrument precision, though small against the 0.7 MHz trough band (0.14 of it) and it degrades a
+> centroid rather than moving one. Recorded as secondary; the factor of two in the offset dominates.
+>
+> **OWNER DECISION OWED.** Either unvirialized gas occupies a third, fully coherent regime — in
+> which case the framework must add it and say why voids are coherent where the same field is
+> speckled elsewhere — or the registered offsets and the kill threshold both halve. Until it is
+> settled this entry asserts no uniqueness. The laminar branch is not a live third option: it gives
+> 0.77 Hz, unobservable. Instrument: `scripts/theta_regime_fork_21cm.py`, 13 controls including
+> three anti-controls, all passing.
 
 
 ## P-2026-048 ADDENDUM (registered 2026-07-18, before any lattice result): the two-point fork

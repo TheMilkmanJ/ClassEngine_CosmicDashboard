@@ -457,3 +457,39 @@ would take weeks and invites a fourth death on a chain that has already died thr
 > **Recommendation: do not launch on the extra core.** The honest move is to wait for one of the three
 > live runs to finish and give conv_desi real cores. The extra core does not change the answer,
 > because the cost was never one core — it was a full restart. **The TV reservation stays intact.**
+
+## DECISION: which Θ regime does unvirialized gas occupy? (raised 2026-07-29)
+
+**Why it is yours and not mine.** It is a model question about the coupling's own state, and both
+answers are internally consistent — they just are not the same prediction.
+
+**The collision.** P-2026-050 takes **Θ = 1** in unvirialized gas. The coupling's framework in
+`PRTOE_me_mechanism_math.md` names **two** states — laminar Θ = 1.9×10⁻⁶ and developed speckle at
+**⟨Θ⟩ = ½**, described there as *"a distributional fact, not something the model arranges"* — and
+**contains no Θ = 1 state at all.** Θ = 1 is the upper endpoint of the Beta(d/2,d/2) support, not its
+mean, and a dark-ages or cosmic-dawn signal is a volume average.
+
+| | Θ = 1 (as registered) | ⟨Θ⟩ = ½ (the Beta law) |
+|---|---|---|
+| rest-frequency offset | +2.509% | **+1.254%** |
+| dark-ages trough offset | **+0.40 MHz** | **+0.20 MHz** |
+| cosmic-dawn trough offset | +1.96 MHz | +0.98 MHz |
+| discriminant at ±0.1 MHz | **4.1σ** | **2.0σ** |
+
+Exactly a factor of 2, no residual. **The entry's arithmetic is correct at Θ = 1** — every registered
+figure reproduces to three decimals — so this is not an algebra error, it is an unstated choice of
+regime, and the kill threshold inherits it.
+
+**Already done without waiting for you:** the false uniqueness claim in kill (ii) is withdrawn, since
+it read *"the mechanism's own arithmetic allows no other number"* and the mechanism's own arithmetic
+allows exactly one other. The entry now presents the fork.
+
+**The two ways out.**
+1. **Unvirialized gas is a third, fully coherent regime (Θ = 1).** Then the framework must add that
+   state and say *why voids are coherent where the same field is speckled elsewhere.* The registered
+   numbers stand as they are.
+2. **Unvirialized gas is developed speckle (⟨Θ⟩ = ½).** Then the registered offsets and the kill
+   threshold both halve, and the entry's advertised 4σ discriminant is really 2σ at the same
+   instrument. Note this branch also carries docket #62's 0.101 MHz broadening.
+
+Instrument: `scripts/theta_regime_fork_21cm.py`, 13 controls including three anti-controls, all pass.
