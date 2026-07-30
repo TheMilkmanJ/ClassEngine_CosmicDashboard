@@ -298,3 +298,52 @@ structure and the scheme ambiguity §5 addresses).
 Volovik, *The Universe in a Helium Droplet*; Barceló–Liberati–Visser, *Analogue
 Gravity* — the framework's nearest ancestors.
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+---
+
+### The Navarro-Salas comparison, verified and sharpened (2026-07-29)
+
+The file records that the published condition and this one "collapse to N_½ = 4N₁ and are NOT
+independent." **That is correct, and it now has a proof.** Navarro-Salas's two conformal-anomaly
+conditions (CQG 2024, Eq. 3.10) are
+
+> a ∝ N₀ + (11/2)N_½ + 62N₁ − 28N^ξ = 0,  c ∝ N₀ + 3N_½ + 12N₁ − 8N^ξ = 0
+
+Eliminating N^ξ between them gives −(5/2)N₀ − 5N_½ + 20N₁ = 0, i.e. **N_½ = 4N₁ − N₀/2** — exactly
+as recorded, and equal to str[k₁] = 0's N_½ = 4N₁ when N₀ = 0. His stated solution (N₀ = 0,
+N^ξ = 36, N_½ = 48, N₁ = 12) makes both coefficients vanish identically, checked.
+
+**Also checked, and it matters for how this must be written:** his paper contains **no mention of
+Sakharov induced gravity, of the induced Newton constant, or of Visser** — zero hits across the full
+text. The route here is genuinely not his.
+
+### But the two theories are not the same theory, and the difference is the Higgs
+
+| | Navarro-Salas (conformal anomaly) | str[k₁] = 0 (induced-G finiteness) |
+|---|---|---|
+| relation | N_½ = 4N₁ − N₀/2 | N_½ = 4N₁ |
+| scalars | **N₀ = 0 forced** — *"the Higgs doublet … cannot be considered [a] fundamental [entity]"* | Higgs kept, N₀ = 4 at **ξ_H = 1/6** |
+| new fields | **N^ξ = 36 required** | **none** |
+| SM + 3ν_R at N₁ = 12 | needs N_½ = 48 ✓ (only because N₀ = 0) | needs N_½ = 48 ✓ |
+
+At N₀ = 4 his relation would demand N_½ = 46, which SM + 3ν_R misses by two. **He escapes that by
+banishing the Higgs; this route escapes it by making the Higgs conformal.** Same counting relation,
+incompatible field content.
+
+### What that makes the paper
+
+Not "a gravitational argument for three generations" — that is published. **A deflationary note, and
+a useful one:**
+
+> Two gravitational conditions that appear to give independent support for three generations plus
+> right-handed neutrinos reduce to the same counting relation, so they are not independent evidence.
+> They are nonetheless distinguishable, because they disagree about the Higgs: anomaly cancellation
+> forbids a fundamental Higgs doublet and requires 36 additional scalars, while finiteness of the
+> induced Newton constant admits the Higgs as a conformally coupled scalar and requires nothing new.
+
+That is honest, short, entirely textbook in its inputs, and it does something worth doing — it stops
+a double-count of evidence while identifying the observable that separates the two. **It is also the
+only version of this file that is publishable**, since the headline conclusion is Navarro-Salas's.
+
+*Debt 3 is therefore discharged in the only way it could be:* the positioning is not a paragraph
+acknowledging Visser 2018 and Navarro-Salas 2024, it is the paper's entire thesis.
