@@ -622,3 +622,48 @@ sector parameter.** τ still needs the SU(2) N_f = 3 campaign; nothing here touc
 *Not yet done, and not claimed:* the analytical law's explicit form and the r₀ threshold below which
 (a₀, r₀) universality holds are in the paper body, not its abstract, and the dark sector's r₀ has
 not been computed from M and Λ. Both are desk items.
+
+#### The law, retrieved — and the gate now has a price tag
+
+Planasdemunt et al.'s Eq. (9), with their Table I coefficients, gives the departure from the
+universal equation of state as an explicit function of the gas parameter and the effective range:
+
+> (E − E_u)/N = 4πx [ c₀x̄ + (c₁ − (16/15π)r₀)x̄^{3/2} + (c₂ + c₄r₀)x̄² + (c₃ + c₅r₀)x̄^{5/2} ],
+> x̄ = 16πx, with c₀ = −1.29(7), c₁ = 5.4(4), c₂ = −9.9(9), c₃ = 6.2(6), c₄ = 2.50(8), c₅ = −2.33(12)
+
+**Validity: |r₀| < 2 in units of a₀, and gas parameters up to x = 10⁻².** The model's
+x = 0.0019–0.0059 sits inside both bounds, so the law applies without extrapolation.
+
+Isolating the r₀-proportional piece gives the sensitivity across the model's range:
+
+| x | shift in E per unit r₀ | on ρ_Λ¼ |
+|---|---|---|
+| 1.85×10⁻³ | 0.58% | 0.15% |
+| 3.60×10⁻³ | 2.33% | 0.58% |
+| 5.93×10⁻³ | **5.38%** | **1.35%** |
+
+**The r₀ term is a correction to apply, not an error bar.** The error bar is the sensitivity times
+the *uncertainty* in r₀, evaluated at the worst case (top of the range):
+
+| r₀ known to | error on ρ_Λ¼ |
+|---|---|
+| ±2 (i.e. not known at all) | 2.69% |
+| ±0.5 | 0.67% |
+| **±0.2** | **0.27%** |
+
+For reference, a hard-sphere gas has r₀ = 2a/3 = 0.67, which would itself shift ρ_Λ¼ by +0.90%.
+
+### Where this leaves the gate
+
+**Pinning r₀ to ±0.2 brings the radiative systematic to 0.27% — below the +0.44% gap.** That is the
+first time in this file's history that the error budget has been smaller than the effect being
+claimed, and it is reachable from published work plus one sector calculation.
+
+What is owed is now exactly one thing, and it is small: **compute r₀/a₀ for the dark condensate**
+from the NJL parameters the file already carries (M = 304 keV, M/Λ = 0.595, m_σ = 2M). Both the
+scattering length and the effective range follow from the σ-exchange interaction those numbers fix.
+
+*Stated plainly so it is not over-read:* r₀ has **not** been computed here, the +0.90% hard-sphere
+figure is an illustration rather than the model's value, and nothing above touches τ. The claim is
+that the λ gate has gone from "uncontrolled, needs a lattice campaign" to "one short calculation,
+with the target precision already known to be achievable."
