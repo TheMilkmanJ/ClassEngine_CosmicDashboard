@@ -929,3 +929,48 @@ Three things are now owed before a line is written, and none is cosmetic:
 
 **Assessment revised: `PRTOE_neutrino_sector.md` §3 is now the nearest candidate,** not this one. The
 str[k₁] paper has gone from "shortest path" to "three unpaid debts, one of them a physics problem."
+
+### Debts 1 and 2 PAID (2026-07-29) — the claim verifies, with one unit correction
+
+**Debt 1: str[k₁] computed independently from Visser's Table 1.** `scripts/supertrace_k1_verify.py`,
+15 controls including two anti-controls, all passing. **The corpus's claim is CONFIRMED.**
+
+The sign convention was the whole risk. Visser's table lists a Weyl spinor at k₁ = −1/6; the balance
+needs +1/6. That is not a double-counted minus — his caption folds the fermion sign in **only for
+the supermultiplet rows**, and the elementary rows are plain traces (k₀ = 2 and 4, positive spin-state
+counts). The control that pins it is Visser's own stated additivity for a massive vector,
+**−1/2 = −2/3 + 1/6**, which only holds if bosons carry their printed sign. Had the minus been
+double-counted the total would be −16, nowhere near zero, so the convention is load-bearing and it
+checks out.
+
+| | Weyl × (+1/6) | 12 vectors × (−2/3) | str[k₁] |
+|---|---|---|---|
+| SM + 3ν_R | 48 → **+8** | **−8** | **0 exactly** |
+| SM alone | 45 → +7.5 | −8 | **−1/2** |
+
+The balance is the integer identity **N_½ = 4N₁, i.e. 48 = 4 × 12**, with no slack. The Higgs adds
+4(1/6 − ξ_H), zero iff ξ_H = 1/6. Forward content survives: a sterile Weyl shifts it by +1/6, a
+fourth generation by +8/3 — both genuinely excluded.
+
+> **THE CORRECTION THE PAPER MUST CARRY.** The corpus writes "str[k₁] = −3" for the Standard Model
+> alone. In Visser's normalisation it is **−1/2**; the −3 is the deficit counted in **Weyl spinors**
+> (45 − 48), the two related by the 1/6 per Weyl. Both are true and −3 is the more legible statement,
+> but **a referee checking Table 1 will compute −1/2 and conclude the arithmetic is broken.** Quote
+> −1/2 as str[k₁] and give the Weyl deficit alongside it.
+
+**Debt 2: what imposing the zero costs — answerable, and it changes the paper's claim.**
+
+Visser Eq. (29) is 1/G ≈ −(1/2π)·str[k₁]·κ². Setting str[k₁] = 0 removes the κ² term, so **Sakharov
+induction is switched off at leading order** — G is not generated. With str[k₁m²] = 0 as well, the
+logarithmic piece goes too, and the one-loop matter contribution to 1/G is finite.
+
+So the paper's claim is **not** "this content induces gravity." It is the opposite, and it is cleaner:
+
+> For Standard Model content plus three right-handed neutrinos and a conformally coupled Higgs, the
+> one-loop matter correction to Newton's constant is **finite** — so G can be a genuine tree-level
+> constant rather than a quantity fine-tuned against a Planck-scale divergence.
+
+That is a naturalness statement about G, not an induction statement, and it is consistent with
+Visser's own remark that the finiteness condition *"is completely at odds with Sakharov's original
+version."* Stated this way debt 2 is discharged rather than merely flagged. **Debt 3 — positioning
+against Visser 2018 — remains, and is a writing task, not a physics one.**
