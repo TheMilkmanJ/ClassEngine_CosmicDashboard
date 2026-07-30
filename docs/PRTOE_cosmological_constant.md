@@ -496,3 +496,47 @@ II, which did not survive text extraction. **This establishes that the gate is o
 rather than *"pending a lattice campaign nobody has run"*, which is a materially different debt.
 
 `scripts/lhy_control_edge_refuted.py`, 7 controls including two anti-controls. All pass.
+
+### The residual, now measured (2026-07-29) — the reason was wrong, the conclusion survives
+
+Tables I and II of Giorgini, Boronat & Casulleras read off directly. Energies in ħ²/2ma²,
+hard-sphere potential, against the three truncations:
+
+| na³ | QMC | mean-field | **+ LHY** | + log term |
+|---|---|---|---|---|
+| 1×10⁻⁴ | 1.311×10⁻³ | −4.15% | **+0.47%** | −1.27% |
+| 5×10⁻⁴ | 6.880×10⁻³ | −8.67% | **+1.16%** | −5.66% |
+| **5×10⁻³** | **8.154×10⁻²** | **−22.94%** | **+3.29%** | **−36.83%** |
+| 1×10⁻² | 1.796×10⁻¹ | −30.03% | **+3.65%** | −59.67% |
+
+The 5×10⁻³ row sits inside the model's na³ = 0.0019–0.0059. Three things follow.
+
+**The log term is not a warning, it is a wreck.** At the model's own density it takes a +3.3% error
+to −36.8%. Keeping it is strictly worse than dropping it, which is what the paper says in words and
+what the table shows in numbers. §4b's inference — that a large third term means the second cannot
+be trusted — is refuted outright.
+
+**LHY truncation is accurate to 3.3% in the energy**, hence **0.82% on ρ_Λ¼** (which goes as E¼).
+Against the quoted uncontrolled band of 5.4–9.8%, that is a **6.6× to 11.9× reduction**.
+
+**But the error does not vanish, it relocates.** Table II gives three potentials at na³ = 10⁻³:
+SS(R=5a) 1.395×10⁻², SS(R=10a) 1.356×10⁻², HCSW 1.430×10⁻² — a **5.31% spread**, i.e. **1.33% on
+ρ_Λ¼**, and that is measured *below* the model's range, so it is a lower bound. Combined in
+quadrature with the truncation error: **≈1.6% on ρ_Λ¼**.
+
+### Verdict
+
+| | before | after |
+|---|---|---|
+| stated uncertainty on ρ_Λ¼ | 5.4–9.8%, *uncontrolled* | **≈1.6%, quantified** |
+| what would close it | "one lattice job" | the dark sector's **interaction shape** |
+| the +0.44% gap | inside an unknown error | inside a **known** error, 3.5× wider |
+
+**The demotion's reason was wrong; its conclusion stands on a different footing.** The gap is still
+inside the error bar, so the precision claim is not restored — but the error is now a measured
+number dominated by a *named* systematic rather than an admission that the expansion failed. And
+the closing move is not the lattice: it is pinning the dark sector's potential shape, since
+hard-sphere versus soft-sphere is what the 1.33% is made of.
+
+`scripts/lhy_control_edge_refuted.py` (7 controls) established the refutation; the numbers here are
+read straight from the published tables.
