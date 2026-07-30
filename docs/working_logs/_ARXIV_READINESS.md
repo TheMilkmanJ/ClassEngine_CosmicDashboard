@@ -1189,3 +1189,44 @@ entirely — its inputs are Seeley–DeWitt coefficients and measured field cont
 
 *Caught in drafting, second time this session:* markdown `**bold**` left in LaTeX. Same bug as the
 neutrino paper. It now goes on the pre-build checklist rather than being rediscovered.
+
+## Submission packages built and tested (2026-07-29) — `papers/_submission/`
+
+All three papers are now packaged the way arXiv actually processes a submission, and **each was
+rebuilt in an empty directory containing only the package contents** — no `refs.bib`, no BibTeX
+pass, nothing else on the path. That is the test that matters, because arXiv runs `pdflatex` twice
+over what you upload and nothing more.
+
+| package | contents | build alone | pages | size |
+|---|---|---|---|---|
+| `radio-lattice.tar.gz` | main.tex, main.bbl | **0 / 0 / 0** | 7 | 20 KB |
+| `neutrino-mbb.tar.gz` | main.tex, main.bbl | **0 / 0 / 0** | 4 | 12 KB |
+| `supertrace-note.tar.gz` | main.tex | **0 / 0 / 0** | 3 | 8 KB |
+
+*(errors / undefined / overfull)*
+
+The note ships without a `.bbl` because it carries an inline `thebibliography` and never calls
+`\bibliography` — the stray file from an earlier build was removed and the package re-tested without
+it, still clean at 3 pp.
+
+### Categories
+
+| paper | primary | cross-list |
+|---|---|---|
+| radio-lattice | astro-ph.CO | astro-ph.IM |
+| neutrino-mbb | hep-ph | astro-ph.CO |
+| supertrace-note | gr-qc | hep-th, hep-ph |
+
+### What each is, in one line
+
+- **radio-lattice** — a universal electron-mass shift marks five radio observables in the fixed
+  ratio +2 : +1 : −1 : −1 : −2; the pattern, not the amplitude, is the claim.
+- **neutrino-mbb** — if the lightest neutrino mass equals the dark-energy scale, m_ββ lands in a
+  3.69–5.30 meV band that minimal normal ordering cannot reach, and one planned experiment looks
+  exactly there.
+- **supertrace-note** — two gravitational counting conditions for three generations are the same
+  condition; they differ only on the Higgs.
+
+**All three are submittable today. The only remaining item on any of them is an endorsement**, which
+is the owner's. None depends on a chain, a lattice, or any unconverged quantity, and each survives
+the wider framework being wrong.

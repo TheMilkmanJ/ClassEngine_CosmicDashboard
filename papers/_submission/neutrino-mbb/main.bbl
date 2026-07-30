@@ -1,0 +1,182 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{11}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Fardon}\ \emph {et~al.}(2004)\citenamefont {Fardon},
+  \citenamefont {Nelson},\ and\ \citenamefont
+  {Weiner}}]{FardonNelsonWeiner2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Fardon}}, \bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont {Nelson}},\
+  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Weiner}},\ }\href
+  {https://doi.org/10.1088/1475-7516/2004/10/005} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\ }\textbf {\bibinfo
+  {volume} {2004}}\bibfield  {number} {\bibinfo  {number} { (10)},\ \bibinfo
+  {pages} {005}},\ }\bibinfo {note} {the reference point for tying the
+  dark-energy density to the neutrino sector dynamically. Cited here as the
+  model-building context this paper explicitly does NOT enter.},\ \Eprint
+  {https://arxiv.org/abs/astro-ph/0309800} {arXiv:astro-ph/0309800}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peccei}(2005)}]{PecceiMaVaN2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
+  {Peccei}},\ }\href {https://doi.org/10.1103/PhysRevD.71.023527} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {71}},\ \bibinfo {pages} {023527} (\bibinfo {year} {2005})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/0411137} {arXiv:hep-ph/0411137} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Dell'Oro}\ \emph {et~al.}(2016)\citenamefont
+  {Dell'Oro}, \citenamefont {Marcocci}, \citenamefont {Viel},\ and\
+  \citenamefont {Vissani}}]{DellOroReview2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Dell'Oro}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Marcocci}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Viel}},\ and\ \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Vissani}},\ }\href
+  {https://doi.org/10.1155/2016/2162659} {\bibfield  {journal} {\bibinfo
+  {journal} {Adv. High Energy Phys.}\ }\textbf {\bibinfo {volume} {2016}},\
+  \bibinfo {pages} {2162659} (\bibinfo {year} {2016})},\ \bibinfo {note} {cited
+  for the standard allowed region in the $(m_{\rm lightest}, m_{\beta\beta})$
+  plane -- the point being that the map used here is textbook and is not
+  claimed as new.},\ \Eprint {https://arxiv.org/abs/1601.07512}
+  {arXiv:1601.07512} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agostini}\ \emph {et~al.}(2023)\citenamefont
+  {Agostini}, \citenamefont {Benato}, \citenamefont {Detwiler}, \citenamefont
+  {Men{\'e}ndez},\ and\ \citenamefont {Vissani}}]{AgostiniReview2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Agostini}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Benato}},
+  \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Detwiler}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Men{\'e}ndez}},\ and\ \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Vissani}},\ }\href
+  {https://doi.org/10.1103/RevModPhys.95.025002} {\bibfield  {journal}
+  {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {95}},\
+  \bibinfo {pages} {025002} (\bibinfo {year} {2023})},\ \Eprint
+  {https://arxiv.org/abs/2202.01787} {arXiv:2202.01787} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Esteban}\ \emph {et~al.}(2020)\citenamefont
+  {Esteban}, \citenamefont {Gonzalez-Garcia}, \citenamefont {Maltoni},
+  \citenamefont {Schwetz},\ and\ \citenamefont {Zhou}}]{NuFIT2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Esteban}}, \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Gonzalez-Garcia}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Maltoni}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Schwetz}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Zhou}},\ }\href
+  {https://doi.org/10.1007/JHEP09(2020)178} {\bibfield  {journal} {\bibinfo
+  {journal} {J. High Energy Phys.}\ }\textbf {\bibinfo {volume}
+  {2020}}\bibfield  {number} {\bibinfo  {number} { (9)},\ \bibinfo {pages}
+  {178}},\ }\bibinfo {note} {source of the mixing angles and mass-squared
+  splittings used in the text.},\ \Eprint {https://arxiv.org/abs/2007.14792}
+  {arXiv:2007.14792} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Particle Data Group}}(2024)}]{PDG2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Particle Data
+  Group}}},\ }\href {https://doi.org/10.1103/PhysRevD.110.030001} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {110}},\ \bibinfo {pages} {030001} (\bibinfo {year} {2024})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{DESI Collaboration}}(2025)}]{DESI2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{DESI
+  Collaboration}}},\ }\href {https://doi.org/10.1088/1475-7516/2025/02/021}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\
+  }\textbf {\bibinfo {volume} {2025}}\bibfield  {number} {\bibinfo  {number} {
+  (02)},\ \bibinfo {pages} {021}},\ }\bibinfo {note} {cited for the combined
+  CMB + BAO bound on the neutrino mass sum. The exact number depends on the
+  dataset combination; the text quotes the bound as "reaching 72 meV, with some
+  combinations pressing lower" rather than fixing on one combination.},\
+  \Eprint {https://arxiv.org/abs/2404.03002} {arXiv:2404.03002} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{nEXO Collaboration}}(2022)}]{nEXO2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{nEXO
+  Collaboration}}},\ }\href {https://doi.org/10.1088/1361-6471/ac3631}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Phys. G: Nucl. Part. Phys.}\
+  }\textbf {\bibinfo {volume} {49}},\ \bibinfo {pages} {015104} (\bibinfo
+  {year} {2022})},\ \bibinfo {note} {projects a half-life sensitivity of $1.35
+  \times 10^{28}$ yr at 90\% C.L. in ten years of data with 5000 kg of enriched
+  liquid xenon. The 4.7--20.3 meV span quoted in the text is the corresponding
+  matrix-element range.},\ \Eprint {https://arxiv.org/abs/2106.16243}
+  {arXiv:2106.16243} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{LEGEND Collaboration}}(2022)}]{LEGEND1000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LEGEND
+  Collaboration}}},\ }\href {https://doi.org/10.22323/1.414.0177} {\bibfield
+  {journal} {\bibinfo  {journal} {PoS}\ }\textbf {\bibinfo {volume}
+  {ICHEP2022}},\ \bibinfo {pages} {177} (\bibinfo {year} {2022})},\ \bibinfo
+  {note} {goal stated as covering the inverted-ordering range, $m_{\beta\beta}
+  = 9$--$21\,$meV, in ten years of live time with sensitivity beyond $10^{28}$
+  yr. A 1000 kg array of inverted-coaxial point-contact germanium detectors in
+  a liquid-argon shield.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {{CUPID Interest Group}}(2019)}]{CUPID2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{CUPID Interest
+  Group}}},\ }\href@noop {} {\bibinfo {title} {{CUPID} pre-{CDR}}} (\bibinfo
+  {year} {2019}),\ \bibinfo {note} {pre-conceptual design report for the
+  tonne-scale bolometric search in $^{100}$Mo. Cited for the projected reach
+  only. Entry type is @misc, not @article: it has no journal locator because it
+  is a design report, and as @article apsrev4-2 throws 13 errors matching a
+  missing journal against its abbreviation table -- the same trap Kulkarni2020
+  hit in the radio-lattice paper.},\ \Eprint {https://arxiv.org/abs/1907.09376}
+  {arXiv:1907.09376 [physics.ins-det]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{KamLAND-Zen Collaboration}}(2023)}]{KamLANDZen2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{KamLAND-Zen
+  Collaboration}}},\ }\href {https://doi.org/10.1103/PhysRevLett.130.051801}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {130}},\ \bibinfo {pages} {051801} (\bibinfo {year}
+  {2023})},\ \bibinfo {note} {$T_{1/2} > 4.3 \times 10^{26}$ yr at 90\% C.L.
+  over a 2097 kg yr exposure of $^{136}$Xe, giving $m_{\beta\beta} <
+  28$--$122\,$meV across the matrix-element range. This is the strongest
+  existing limit and it sits a factor of five above the window computed in this
+  paper.},\ \Eprint {https://arxiv.org/abs/2203.02139} {arXiv:2203.02139}
+  \BibitemShut {NoStop}%
+\end{thebibliography}%
