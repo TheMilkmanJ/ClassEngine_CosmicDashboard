@@ -1033,3 +1033,49 @@ Target: **hep-ph**, cross-list astro-ph.CO.
 > `texcheck.py`, which parses `main.log` directly.** The two errors it caught here were markdown
 > `**bold**` left in the source and bare underscores inside BibTeX `note` fields, which apsrev4-2
 > typesets into the bibliography.
+
+## `PRTOE_igmf_helicity.md` assessed (2026-07-29) — NO PAPER, and the reason is structural
+
+The roster's entry reads *"a clean single falsifiable sign is an ideal first paper **if the sign is
+actually determined**."* **It is not**, and the file says so plainly: *"Neither sign is determined
+alone because a symmetry of the tilt forbids it."* The condition fails, so this file does not carry
+a paper as it stands. Assessment closed.
+
+### Why it fails is more interesting than that it fails
+
+Magnetic helicity is a **quadratic** invariant. For one quantized filament
+H = Γ²(Wr + Tw) = n²κ²(Wr + Tw); for a linked pair H = 2·Lk·Φ_tor·Φ_pol. **So sign(n) squares away
+in the self-term**, and the only signed object left is the *mutual* term, sign(n_tor·n_pol). No
+single winding integer can sign a quadratic invariant — that is a theorem about the observable, not
+a gap in the derivation, and no amount of further work on the genesis draw will change it.
+
+Two keys are owed and they are different objects:
+- **the seeding key** — reading a measured handedness back to sign(n) needs the seeding step to be
+  signed by n, and on the recorded Harrison-battery mechanism it is not: vorticity converts to field
+  through a *positive constant*, so the seeded magnetic helicity is the medium's kinetic helicity
+  rescaled, sign untouched;
+- **the rectification key** — which magnetic handedness corresponds to matter-wins.
+
+Supplying only one does not open the datum. The file states this and is right to.
+
+### The fork worth flagging, because one branch is a much better paper
+
+The seeding link reduces to a single object: **the sign of the ring's poloidal circulation relative
+to its toroidal one.**
+
+| if | then | as a paper |
+|---|---|---|
+| poloidal genesis-fixed, toroidal drawn | sign(helicity) = sign(n) — a *correlated* handedness | weak: needs the draw, predicts nothing alone |
+| the two circulations **locked** | the sky carries a **universal** handedness | **strong: a parameter-free sign prediction** |
+
+The file already notes the second is *"a different and sharper prediction than the one on the
+books"* and that *"the measurement is the same either way; what changes is what a measured left hand
+would mean."*
+
+**That second branch is the only version of this file that is worth a paper**, and it is worth a
+good one — a universal handedness is parameter-free, falsifiable by one measurement, and needs no
+dictionary. It is also the branch that would make the Tashiro–Vachaspati hint readable.
+
+**Recommended status: NOT READY, and the blocking item is now named precisely** — establish whether
+the poloidal and toroidal circulations are locked or independent. That is a single structural
+question about the ring, not a chain, not a lattice, and not a literature search.
