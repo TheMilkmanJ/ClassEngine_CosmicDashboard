@@ -9,8 +9,8 @@ directory holding exactly the files arXiv receives, a tarball of that directory,
 | folder | arXiv | pp | depends on the framework? |
 |---|---|---|---|
 | [`supertrace-note/`](supertrace-note/) | gr-qc | 3 | **No.** Entirely about published literature. |
-| [`neutrino-mbb/`](neutrino-mbb/) | hep-ph | 4 | **No.** Its input is stated as a hypothesis. |
-| [`radio-lattice/`](radio-lattice/) | astro-ph.CO, astro-ph.IM | 7 | **Motivated by it, does not rest on it.** |
+| [`neutrino-mbb/`](neutrino-mbb/) | hep-ph | 3 | **No.** Its input is stated as a hypothesis. |
+| [`radio-lattice/`](radio-lattice/) | astro-ph.CO, astro-ph.IM | 6 | **Motivated by it, does not rest on it.** |
 
 All three are written so a reader who has never seen this corpus loses nothing. None of
 them names the framework anywhere in its text — which is correct for arXiv, and is exactly

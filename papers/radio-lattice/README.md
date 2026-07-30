@@ -57,14 +57,13 @@ carries no σ. A single band deviating from its assigned weight falsifies the pa
 ## Folder contents
 
 - `main.tex`, `refs.bib` — source. 31 bibliography entries, all cited, no orphans.
-- `main.pdf` — 7 pp, 312 KB.
+- `main.pdf` — 6 pp, ~302 KB (after stripping printed BibTeX `note` audit text).
 - `submission/` — exactly what arXiv receives: `main.tex` + `main.bbl`, nothing else.
-- `radio-lattice.tar.gz` — that directory, 20 KB.
+- `radio-lattice.tar.gz` — that directory, ~15 KB. Must be rebuilt whenever `refs.bib` changes
+  so the shipped `main.bbl` matches the source.
 - `NOTES.md` — working notes.
 
-Verified by building `submission/` in an empty scratch directory with two pdflatex passes
-and nothing else, which is what arXiv does: 0 errors, 0 undefined references, 0 overfull
-boxes.
-
-Provenance for individual references is kept as `%` comments in `refs.bib`, not in BibTeX
-`note` fields — apsrev4-2 typesets `note` fields into the reference list.
+Verified by extracting `radio-lattice.tar.gz` into an empty scratch directory and running two
+pdflatex passes with nothing else (arXiv's build): 0 errors, 0 undefined references, 0 overfull
+boxes. BibTeX `note` fields are absent from `refs.bib` / `main.bbl`; provenance lives only as
+`%` comments (and those comments must not contain bare `@…` tokens — BibTeX still tokenizes them).

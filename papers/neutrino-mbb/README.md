@@ -43,12 +43,17 @@ reach falls inside that interval.
 ## Folder contents
 
 - `main.tex`, `refs.bib` — source. 11 bibliography entries.
-- `main.pdf` — 4 pp, 256 KB.
+- `main.pdf` — 3 pp, ~249 KB (after stripping printed BibTeX `note` audit text).
 - `submission/` — exactly what arXiv receives: `main.tex` + `main.bbl`, nothing else.
-- `neutrino-mbb.tar.gz` — that directory, 12 KB.
+- `neutrino-mbb.tar.gz` — that directory, ~8 KB. Rebuild whenever `refs.bib` changes so the
+  shipped `main.bbl` matches the source.
 
-Verified by building `submission/` in an empty scratch directory with two pdflatex passes
-and nothing else: 0 errors, 0 undefined references, 0 overfull boxes.
+Verified by extracting `neutrino-mbb.tar.gz` into an empty scratch directory and running two
+pdflatex passes with nothing else: 0 errors, 0 undefined references, 0 overfull boxes.
+
+Provenance for individual references is kept as `%` comments in `refs.bib`, not in BibTeX
+`note` fields — apsrev4-2 typesets `note` fields into the reference list. Comments must not
+contain bare `@…` tokens; BibTeX still tokenizes them.
 
 One packaging note worth keeping: `CUPID2019` is `@misc`, not `@article`. A design report
 has no journal locator, and as `@article` apsrev4-2 throws 13 errors trying to match a

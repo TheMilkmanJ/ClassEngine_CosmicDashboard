@@ -60,11 +60,8 @@
   {https://doi.org/10.1088/1475-7516/2004/10/005} {\bibfield  {journal}
   {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\ }\textbf {\bibinfo
   {volume} {2004}}\bibfield  {number} {\bibinfo  {number} { (10)},\ \bibinfo
-  {pages} {005}},\ }\bibinfo {note} {the reference point for tying the
-  dark-energy density to the neutrino sector dynamically; cited as context, not
-  as a framework adopted here.},\ \Eprint
-  {https://arxiv.org/abs/astro-ph/0309800} {arXiv:astro-ph/0309800}
-  \BibitemShut {NoStop}%
+  {pages} {005}},\ }\Eprint {https://arxiv.org/abs/astro-ph/0309800}
+  {arXiv:astro-ph/0309800} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Peccei}(2005)}]{PecceiMaVaN2005}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
@@ -83,11 +80,8 @@
   {author} {\bibfnamefont {F.}~\bibnamefont {Vissani}},\ }\href
   {https://doi.org/10.1155/2016/2162659} {\bibfield  {journal} {\bibinfo
   {journal} {Adv. High Energy Phys.}\ }\textbf {\bibinfo {volume} {2016}},\
-  \bibinfo {pages} {2162659} (\bibinfo {year} {2016})},\ \bibinfo {note} {cited
-  for the standard allowed region in the $(m_{\rm lightest}, m_{\beta\beta})$
-  plane -- the point being that the map used here is textbook and is not
-  claimed as new.},\ \Eprint {https://arxiv.org/abs/1601.07512}
-  {arXiv:1601.07512} \BibitemShut {NoStop}%
+  \bibinfo {pages} {2162659} (\bibinfo {year} {2016})},\ \Eprint
+  {https://arxiv.org/abs/1601.07512} {arXiv:1601.07512} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Agostini}\ \emph {et~al.}(2023)\citenamefont
   {Agostini}, \citenamefont {Benato}, \citenamefont {Detwiler}, \citenamefont
   {Men{\'e}ndez},\ and\ \citenamefont {Vissani}}]{AgostiniReview2023}%
@@ -113,9 +107,8 @@
   {https://doi.org/10.1007/JHEP09(2020)178} {\bibfield  {journal} {\bibinfo
   {journal} {J. High Energy Phys.}\ }\textbf {\bibinfo {volume}
   {2020}}\bibfield  {number} {\bibinfo  {number} { (9)},\ \bibinfo {pages}
-  {178}},\ }\bibinfo {note} {source of the mixing angles and mass-squared
-  splittings used in the text.},\ \Eprint {https://arxiv.org/abs/2007.14792}
-  {arXiv:2007.14792} \BibitemShut {NoStop}%
+  {178}},\ }\Eprint {https://arxiv.org/abs/2007.14792} {arXiv:2007.14792}
+  \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Particle Data Group}}(2024)}]{PDG2024}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Particle Data
@@ -129,9 +122,7 @@
   Collaboration}}},\ }\href {https://doi.org/10.1088/1475-7516/2025/02/021}
   {\bibfield  {journal} {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\
   }\textbf {\bibinfo {volume} {2025}}\bibfield  {number} {\bibinfo  {number} {
-  (02)},\ \bibinfo {pages} {021}},\ }\bibinfo {note} {cited for the combined
-  CMB + BAO bound on the neutrino mass sum, whose exact value depends on the
-  dataset combination adopted.},\ \Eprint {https://arxiv.org/abs/2404.03002}
+  (02)},\ \bibinfo {pages} {021}},\ }\Eprint {https://arxiv.org/abs/2404.03002}
   {arXiv:2404.03002} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{nEXO Collaboration}}(2022)}]{nEXO2021}%
   \BibitemOpen
@@ -139,28 +130,20 @@
   Collaboration}}},\ }\href {https://doi.org/10.1088/1361-6471/ac3631}
   {\bibfield  {journal} {\bibinfo  {journal} {J. Phys. G: Nucl. Part. Phys.}\
   }\textbf {\bibinfo {volume} {49}},\ \bibinfo {pages} {015104} (\bibinfo
-  {year} {2022})},\ \bibinfo {note} {projects a half-life sensitivity of $1.35
-  \times 10^{28}$ yr at 90\% C.L. in ten years of data with 5000 kg of enriched
-  liquid xenon. The 4.7--20.3 meV span quoted in the text is the corresponding
-  matrix-element range.},\ \Eprint {https://arxiv.org/abs/2106.16243}
+  {year} {2022})},\ \Eprint {https://arxiv.org/abs/2106.16243}
   {arXiv:2106.16243} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{LEGEND Collaboration}}(2022)}]{LEGEND1000}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LEGEND
   Collaboration}}},\ }\href {https://doi.org/10.22323/1.414.0177} {\bibfield
   {journal} {\bibinfo  {journal} {PoS}\ }\textbf {\bibinfo {volume}
-  {ICHEP2022}},\ \bibinfo {pages} {177} (\bibinfo {year} {2022})},\ \bibinfo
-  {note} {goal stated as covering the inverted-ordering range, $m_{\beta\beta}
-  = 9$--$21\,$meV, in ten years of live time with sensitivity beyond $10^{28}$
-  yr. A 1000 kg array of inverted-coaxial point-contact germanium detectors in
-  a liquid-argon shield.}\BibitemShut {Stop}%
+  {ICHEP2022}},\ \bibinfo {pages} {177} (\bibinfo {year} {2022})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {{CUPID Interest Group}}(2019)}]{CUPID2019}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {{CUPID Interest
   Group}}},\ }\href@noop {} {\bibinfo {title} {{CUPID} pre-{CDR}}} (\bibinfo
-  {year} {2019}),\ \bibinfo {note} {pre-conceptual design report for the
-  tonne-scale bolometric search in $^{100}$Mo. Cited for the projected reach
-  only.},\ \Eprint {https://arxiv.org/abs/1907.09376} {arXiv:1907.09376
+  {year} {2019}),\ \Eprint {https://arxiv.org/abs/1907.09376} {arXiv:1907.09376
   [physics.ins-det]} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{KamLAND-Zen Collaboration}}(2023)}]{KamLANDZen2023}%
   \BibitemOpen
@@ -168,10 +151,6 @@
   Collaboration}}},\ }\href {https://doi.org/10.1103/PhysRevLett.130.051801}
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {130}},\ \bibinfo {pages} {051801} (\bibinfo {year}
-  {2023})},\ \bibinfo {note} {$T_{1/2} > 4.3 \times 10^{26}$ yr at 90\% C.L.
-  over a 2097 kg yr exposure of $^{136}$Xe, giving $m_{\beta\beta} <
-  28$--$122\,$meV across the matrix-element range. This is the strongest
-  existing limit and it sits a factor of five above the window computed in this
-  paper.},\ \Eprint {https://arxiv.org/abs/2203.02139} {arXiv:2203.02139}
+  {2023})},\ \Eprint {https://arxiv.org/abs/2203.02139} {arXiv:2203.02139}
   \BibitemShut {NoStop}%
 \end{thebibliography}%
