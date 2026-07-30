@@ -1079,3 +1079,59 @@ dictionary. It is also the branch that would make the Tashiro–Vachaspati hint 
 **Recommended status: NOT READY, and the blocking item is now named precisely** — establish whether
 the poloidal and toroidal circulations are locked or independent. That is a single structural
 question about the ring, not a chain, not a lattice, and not a literature search.
+
+## Two roster rows corrected and merged (2026-07-29): the deuterium row and the BBN witness
+
+### The stated blocker on `PRTOE_deuterium_row.md` is stale
+
+The roster reads *"blocked by task #57, its central value is a booking not a computation."* **Task #57
+was paid on 2026-07-28** — the file records at its §1, *"The booking is replaced by a rule,
+2026-07-28"* (`scripts/deuterium_row_width.py`, 6 checks), on the principle that a central value and
+its error must come from the same place. That blocker is gone.
+
+### The real status is worse than the stale one, and the file says so first
+
+| | D/H ×10⁵ | vs Cooke 2.527 ± 0.030 |
+|---|---|---|
+| ΛCDM control — same code, same data | 2.420 | −2.25σ |
+| **this framework** | **2.387** | **−2.94σ** |
+
+**The model is worse than ΛCDM on deuterium by 0.69σ.** The file states it in those words and leads
+with it, which is the right call. So the reason this row is not a paper is not a missing computation
+— it is that the row is a **liability**.
+
+One piece of genuine context, which the file also supplies without leaning on it: the inter-code
+spread on identical physics (PRIMAT 2.439, PArthENoPE 2.51–2.54, ~0.08 in these units) is **larger
+than the 0.033 by which the model underperforms**, and ΛCDM itself sits at 1.85σ under PRIMAT. The
+field's own systematic floor is above the gap between the two models, which bounds how much this row
+can decide in either direction.
+
+### But the decomposition contains the paper
+
+| step | D/H ×10⁵ | σ moved |
+|---|---|---|
+| ΛCDM control | 2.420 | — |
+| ω_b pulled up +1.1% by the CMB fit | 2.372 | **−1.01σ** |
+| the electron-mass window at nucleosynthesis, +0.645% | 2.387 | **+0.31σ** |
+| net | 2.387 | −0.69σ |
+
+**The mechanism itself helps.** An electron-mass transition switching on in the BBN window raises
+D/H by 0.645% and moves it *toward* the measurement. What hurts is the accompanying baryon-density
+shift, which more than cancels it. That is a clean and honest thing to publish — as a **bound on
+such a transition**, not as a success.
+
+### Consolidation
+
+That is the same paper the roster separately specifies for `PRTOE_bbn_witness.md`: *"As a constraint
+paper with ε free and T_c scanned over [70, 500] keV it works and sidesteps docket #182's conflict."*
+**These two rows are one manuscript**, and it is a constraint paper:
+
+> primordial abundances bound the amplitude of an electron-mass transition switching on inside the
+> nucleosynthesis window, with ε free and T_c scanned rather than fixed.
+
+Written that way it carries no chain-dependent central value, avoids the 177 keV vs 307–714 keV
+conflict entirely by scanning, and its honest headline is a **bound** — which is what the numbers
+support. Written as a prediction it is a −2.94σ result and should not be submitted at all.
+
+**Status: both rows → NOT READY as predictions; ONE paper available as a constraint.** The blocking
+item is no longer a computation, it is the decision to write it as a bound.
