@@ -294,3 +294,53 @@ same ε(T) as every other epoch, with nothing chosen for lithium; no earlier con
 reaches the lithium epoch; and the ×3.4 discrepancy has a standing conventional explanation in
 stellar depletion, which the model neither needs nor contradicts.
 
+
+---
+
+## The constraint, computed (2026-07-29): helium bounds ε, and only one determination can be used
+
+The roster's recommendation — reframe as a constraint paper with ε free — is executable, and the
+bound follows from numbers already in this file. Using the stated linear elasticity
+**d(Y_p)/dε = 0.00163 per %ε** and the windowed run's Y_p = 0.248995 at ε = 1.2543%, the baseline
+without the window is Y_p⁰ = 0.246891, and the elasticity reproduces the window to 2.8%.
+
+| | Aver 0.2453 ± 0.0034 | EMPRESS 0.2370 ± 0.0034 |
+|---|---|---|
+| baseline alone, **ε = 0** | +0.47σ | **+2.91σ** |
+| at ε = 1.2543% | +1.07σ *(file: +1.09)* | +3.51σ *(file: +3.5)* |
+| 1σ bound | ε < 1.11% | **none** |
+| 2σ bound | **ε < 3.20%** | **none** |
+
+### The result, and the reason it is only one number
+
+**Against Aver: ε < 3.20% at 2σ.** A genuine, non-trivial bound on the amplitude of an
+electron-mass transition switching on inside the nucleosynthesis window, with zero fitted
+parameters. It admits this framework's 1.2543% comfortably — the transition is constrained but not
+excluded.
+
+**Against EMPRESS: no bound exists**, and the reason is not the transition. The baseline is already
+**+2.91σ high before any window is applied**. That is standard-BBN-versus-EMPRESS, the known helium
+disagreement, and it is present at ε = 0. A measurement in tension with the null hypothesis cannot
+constrain a deformation of it — the window contributes only 0.60σ of the 3.51σ, and removing the
+transition entirely leaves 2.91σ standing.
+
+**So the paper has one bound, not two, and must say why.** Quoting an EMPRESS-based limit would
+attribute to the transition a discrepancy that exists without it.
+
+### What this makes the manuscript
+
+> Primordial helium bounds the amplitude of an electron-mass transition switching on inside the
+> nucleosynthesis window to **ε < 3.2% at 2σ**, using the Aver determination and with T_c scanned
+> rather than fixed. The EMPRESS determination cannot be used for this purpose: it sits 2.9σ from
+> standard big-bang nucleosynthesis independently of any transition.
+
+That is honest, chain-free, and carries no central value that depends on an unconverged posterior.
+**Deuterium stays out of the bound** — this file already records that its ε-response is nonlinear
+(a bottleneck quantity, 4-point scan ~0.0119 per %ε against the window's implied ~0.0126), so no
+derivative-based limit is legitimate there; and the deuterium row is separately a −2.94σ liability
+([PRTOE_deuterium_row.md](PRTOE_deuterium_row.md)). ΔN_eff stays out too, its ζ ∈ [0.25, 0.35]
+being Planck-fitted rather than predicted.
+
+**Status: the constraint is computed and the manuscript is ready to write.** What remains is the
+T_c scan over [70, 500] keV — the bound above is at the window's own T_c, and the paper wants it as
+a curve.
