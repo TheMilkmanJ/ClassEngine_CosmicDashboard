@@ -748,3 +748,44 @@ literature the file already cites for the σ mass is the same body of work. **No
 *What is established:* the convention (LSM, m_σ² = 2λf², verified against the file's own λ), that
 σ-exchange contributes 5× the contact term, and that both readings land at or below 0.6% on ρ_Λ¼.
 *What is not:* which reading is right, and whether tree level suffices at this coupling.
+
+#### The amplitude question, reduced to a one-way bound
+
+The correction does not need the amplitude settled to be bounded, because r₀ is fixed by the
+interaction range while a₀ is not:
+
+> correction on ρ_Λ¼ = (5.38%/4) · r₀/a₀ = **1.345% / (Λa₀)**
+
+Everything therefore turns on **a₀ measured in units of the interaction range**, and the dependence
+is one-way: a larger a₀ — a more resonant system — gives a *smaller* correction.
+
+| reading | a₀ / range | r₀/a₀ | on ρ_Λ¼ |
+|---|---|---|---|
+| contact only (−6λ) | 2.29 | 0.436 | 0.59% |
+| contact + σ-exchange (−36λ) | **13.8** | 0.073 | **0.10%** |
+| hard-sphere limit a₀ ≈ range | 1.0 | 0.67 | 0.90% |
+
+**The threshold is Λa₀ = 3.06.** Above it the correction is smaller than the +0.44% gap; below it,
+larger. The full tree amplitude puts the system at 13.8 — a factor of 4.5 clear of the threshold on
+the favourable side — and the contact-only truncation, which is the one that omits a term it has no
+right to omit, puts it just under.
+
+Three things make this a useful place to stop.
+
+**The bound is one-way and the physics pushes the right way.** σ-exchange is attractive and
+increases a₀; strong coupling pushes toward resonance, which increases a₀ further. Every correction
+to the tree estimate that is likely to matter moves the system deeper into the safe region, not out
+of it.
+
+**Even the worst case is under 1%.** If a₀ collapsed all the way to the interaction range —
+hard-sphere-like, which λ = 45.7 makes implausible — the correction would be 0.90% on ρ_Λ¼. That is
+the ceiling, and it is a fifth of the band §4b originally quoted.
+
+**What would overturn it is specific.** Only a₀ falling below 3.06 × the range puts the correction
+above the gap, and that requires the σ-exchange contribution to be largely cancelled rather than
+merely corrected. Nothing in the structure suggests that.
+
+*Still not done, and worth being exact about:* tree-level scattering at λ = 45.7 is not quantitatively
+reliable, so 13.8 is an estimate, not a measurement. What has been established is that the
+*conclusion* is insensitive to it over the whole plausible range — which is a different and more
+robust thing than pinning the number.
