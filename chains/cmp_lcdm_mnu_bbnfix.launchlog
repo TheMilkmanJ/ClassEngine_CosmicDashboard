@@ -6791,3 +6791,4 @@ candl: clearing all internal priors.
 [2 : mcmc] Progress @ 2026-07-29 21:56:56 : 1677 steps taken -- still burning in, 93 accepted steps left.
 [0 : mcmc] Progress @ 2026-07-29 21:58:15 : 1749 steps taken -- still burning in, 108 accepted steps left.
 [1 : mcmc] Progress @ 2026-07-29 21:58:57 : 2002 steps taken -- still burning in, 19 accepted steps left.
+[2 : mcmc] Progress @ 2026-07-29 21:59:18 : 1687 steps taken -- still burning in, 90 accepted steps left.
