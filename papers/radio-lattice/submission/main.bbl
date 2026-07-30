@@ -326,8 +326,9 @@
   and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Alcaniz}},\ }\href
   {https://doi.org/10.1088/1475-7516/2025/01/059} {\bibfield  {journal}
   {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\ }\textbf {\bibinfo
-  {volume} {01}},\ \bibinfo {pages} {059}},\ \bibinfo {note} {17 localized FRBs
-  with Pantheon supernovae, in the runaway-dilaton parametrization.},\ \Eprint
+  {volume} {2025}}\bibfield  {number} {\bibinfo  {number} { (01)},\ \bibinfo
+  {pages} {059}},\ }\bibinfo {note} {17 localized FRBs with Pantheon
+  supernovae, in the runaway-dilaton parametrization.},\ \Eprint
   {https://arxiv.org/abs/2406.11691} {arXiv:2406.11691} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Jones}\ \emph {et~al.}(2017)\citenamefont {Jones},
   \citenamefont {McLaughlin}, \citenamefont {Lam} \emph

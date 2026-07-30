@@ -1300,3 +1300,48 @@ three papers names the framework anywhere in its text:
 - **radio-lattice — motivated by the framework, does not rest on it.** ε is the
   electron-coupled scalar's imprint, but the paper treats it as a free amplitude to be
   fitted rather than predicted, and says so in the abstract.
+
+### Follow-up sweep, same evening: one real citation bug, and two stale claims in NOTES.md
+
+Having found the note-field defect by reading rendered output rather than the log, the same
+treatment was applied to the rest. Mechanical checks across all three PDFs came back clean —
+no broken `??` references, no leaked LaTeX macros, no stray markdown, no TODO markers, no
+doubled words. Citation integrity re-verified after the bib edits: radio-lattice 31 entries
+/ 31 cited, neutrino-mbb 11 / 11, no orphans and nothing missing in either.
+
+**One caveat on method, worth recording because it bit twice today.** The doubled-word check
+initially reported "none" for all three papers — but ugrep does not support backreferences,
+so the pattern had errored out and printed nothing. Identical in shape to the earlier
+`grep -c` false clean. Re-run in Python it genuinely returns none, but the first result was
+worthless. A checking tool that cannot fail loudly is not a checking tool.
+
+**The real find: `Lemos2025` was malformed.** BibTeX reported `Warning--missing number in
+Lemos2025`, and the consequence was visible in the printed reference list — it rendered as
+"J. Cosmol. Astropart. Phys. 01, 059," **with no year at all**. JCAP's volume *is* the year,
+as its own DOI says (`10.1088/1475-7516/2025/01/059` = year/issue/article), so `volume = {01}`
+was wrong twice over: apsrev4-2 took 01 for the volume, wanted a `number` it did not have,
+and suppressed the year. Corrected to `volume = {2025}, number = {01}`, matching the
+`DESI2024` entry in the other paper. It now renders "J. Cosmol. Astropart. Phys. 2025 (01),
+059" and BibTeX warnings are zero.
+
+Every reference in the paper was then audited for a rendered year. Three books came back
+without a parenthesised one, but that is correct apsrev4-2 book form — the year sits inside
+the publisher group, "(Springer, New York, 2009)". No other entry was affected.
+
+**`radio-lattice/NOTES.md` had two stale claims**, both corrected in place rather than
+deleted, since the drafting record is worth keeping:
+
+- Item 7 said pdflatex and bibtex were not installed and the document had never been built.
+  TeX went in on 2026-07-28.
+- Item 4 called the observational section "the remaining substantive gap", with five per-band
+  precisions owed and a TODO in the source. That TODO is gone, and the gap closed by a
+  different route than the item envisaged: §V costs the test in units of a common per-band
+  precision σ, which needs no sourcing, and then says which rows can supply a σ at all. Three
+  of five fail *in kind rather than in precision* — recombination lines are computed from the
+  Rydberg formula and so already carry the electron mass, synchrotron is degenerate with the
+  emitting population, and a constant shift is absorbed exactly by the fitted dispersion
+  measure. Two measurable rows, σ_ε = σ/√8, with σ/√11 named as an upper bound rather than a
+  forecast. The item's actual worry — "the paper proposes a test nobody can cost" — no longer
+  holds.
+
+Package rebuilt and re-tested in an empty directory: 0 errors, 0 undefined, 0 overfull, 7 pp.

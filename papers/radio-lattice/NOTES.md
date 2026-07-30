@@ -1,6 +1,9 @@
 # radio-lattice — what this paper claims, and what it deliberately leaves out
 
-*Draft. Not for `arxiv/` until its row in `docs/working_logs/_ARXIV_READINESS.md` reads READY.*
+*Status as of 2026-07-29: **submission-ready**. Builds clean, packaged in `submission/`, and
+the only remaining step is an endorsement. See `README.md` in this folder for the current
+state; what follows is the drafting record, kept because it says why things are the way they
+are. Where an item below is marked stale, the header of that item says so.*
 
 ## The one claim
 
@@ -91,11 +94,18 @@ not been checked against ADS** and must not be claimed in the text until it is.
 2. ~~Six sourcing citations~~ — **done**; all placed in the weight subsections where a referee
    looks first.
 3. ~~Body text~~ — **done**: 8 sections, ~2100 words, 14 equations, one table.
-4. **Observational section — the remaining substantive gap.** The sensitivity formalism is derived
-   (σ_ε = (Σ wᵢ²/σᵢ²)^(−½); σ/√11 for all five bands at common precision, σ/√8 for the best pair),
-   but the per-band observational precisions are absent, so σ_ε cannot be quoted in physical units
-   and the paper proposes a test nobody can cost. The five needed are listed as a TODO in the
-   source. **Do not estimate them.**
+4. ~~Observational section~~ — **CLOSED 2026-07-29, by a different route than this item
+   envisaged.** The plan was to source five per-band precisions so σ_ε could be quoted in
+   physical units. That is not what happened, and the TODO it refers to is no longer in the
+   source. Instead §V now costs the test *in units of* a common per-band precision σ, which is
+   dimensionless and needs no sourcing, and then says which rows can actually supply a σ at
+   all: three of the five fail **in kind, not in precision** — recombination lines are computed
+   from the Rydberg formula and so already carry m_e, synchrotron is degenerate with the
+   emitting population, and a constant ε is absorbed exactly by the fitted dispersion measure.
+   So the honest count is two measurable rows, σ_ε = σ/√8, with σ/√11 named as an upper bound
+   on what the method could reach rather than a forecast. Separately the paper now quotes a
+   real number against real data, |ε| < 1.4 × 10⁻⁵ from Rahmani (2012). The original worry —
+   "the paper proposes a test nobody can cost" — no longer applies.
 5. **Two smaller gaps from the bibliography pass.** No reference displays ν_hf ∝ g_p α⁴m_e²/m_p as a
    displayed equation — the 21 cm literature carries the combination x = α²g_p m_e/m_p instead — so
    Eq. (3) derives it and the citations corroborate rather than substitute. Rybicki & Lightman
@@ -103,7 +113,11 @@ not been checked against ADS** and must not be claimed in the text until it is.
 6. **No ADS search has been run.** Everything went through Crossref, the arXiv API and web search.
    ADS indexes the older radio and pulsar literature better, and the two book entries plus Wolfe
    (1976) are what it would most improve.
-7. `pdflatex` and `bibtex` are not installed on this machine; the document has never been built.
+7. ~~`pdflatex` and `bibtex` are not installed; the document has never been built.~~ — **stale.**
+   TeX was installed 2026-07-28. The paper has been built many times since and is clean:
+   0 errors, 0 undefined references, 0 overfull boxes, 0 BibTeX warnings, 7 pp. It has also
+   been built the way arXiv builds it — `main.tex` + `main.bbl` alone in an empty directory,
+   two pdflatex passes, nothing else — which is the test that actually matters.
 
 ## Verified so far
 
