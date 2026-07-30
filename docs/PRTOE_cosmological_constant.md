@@ -571,3 +571,54 @@ claimed is +0.44%, so it remains comfortably inside the error bar. What has genu
 that the dominant term is now a *named, measurable* systematic (interaction shape) rather than a
 failed expansion, and the instrument that would close it is Bose-gas Monte Carlo at the right
 density — still not the SU(2) lattice.
+
+#### And the shape systematic is not irreducible either — it collapses to one number
+
+The note above concluded that closing the shape term "needs Monte Carlo for several potentials at
+na³ ≈ 5×10⁻³, which this reference does not contain." That reference does not. **A more recent one
+does, and it changes the shape of the debt.**
+
+> Planasdemunt, Pera & Boronat, *Equation of state of Bose gases beyond the universal regime*,
+> **Phys. Rev. Research 6, L042071 (2024)**, arXiv:2407.18059.
+>
+> *"We have carried out a bunch of diffusion Monte Carlo calculations **up to gas parameters of
+> 10⁻²** to explore how the departure from the universality emerges. Using different model
+> potentials, we calculate the energies of the gas in an exact way … as a function of the three
+> relevant scattering parameters: the s-wave scattering length a₀, the s-wave effective range r₀,
+> and the p-wave scattering length a₁. **If the effective range is not large we observe universality
+> in terms of a₀ and r₀ up to gas parameters of 10⁻².** … In the (a₀,r₀) universal regime we propose
+> **an analytical law that reproduces fairly well the exact energies**."*
+
+Three things follow, and they are all favourable.
+
+1. **The density range is covered.** Their calculations reach na³ = 10⁻², above the model's
+   0.0019–0.0059. No extrapolation is required, so the two-point log–log fit above — and its 2–4%
+   — is superseded rather than merely refined.
+2. **"Potential shape" is not an open-ended ambiguity.** It reduces to **two** scattering
+   parameters, a₀ and r₀, with p-wave effects entering only once r₀ grows. The 5.31% spread across
+   four hand-picked potentials was measuring the wrong thing: those potentials differ in r₀, and
+   once r₀ is specified the spread is not free.
+3. **There is a published analytical law** for the energy in that regime, so the correction is
+   evaluated rather than bounded.
+
+### What the λ gate now costs
+
+One dimensionless number: **the dark condensate's effective range r₀ (or r₀/a₀)**. For a QCD-like
+sector that is set by the interaction range, and the file already carries the scales it descends
+from — M = 304 keV, M/Λ = 0.595, m_σ = 2M in the chiral limit.
+
+So the ledger for this gate reads, in the order it was understood today:
+
+| stage | status of the radiative band |
+|---|---|
+| as written in §4b | uncontrolled, 5.4–9.8%, "one lattice job gates both" |
+| after the LHY refutation | truncation good to 0.82%, shape term unknown |
+| after the density trend | ≈2–4%, shape-dominated, thought irreducible here |
+| **after Planasdemunt et al.** | **evaluable from a published law, given one number: r₀** |
+
+**The λ gate is off the lattice's critical path and is now a desk computation waiting on a single
+sector parameter.** τ still needs the SU(2) N_f = 3 campaign; nothing here touches that.
+
+*Not yet done, and not claimed:* the analytical law's explicit form and the r₀ threshold below which
+(a₀, r₀) universality holds are in the paper body, not its abstract, and the dark sector's r₀ has
+not been computed from M and Λ. Both are desk items.
