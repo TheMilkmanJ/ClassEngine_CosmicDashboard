@@ -41,8 +41,15 @@ it simply survives every year the sky stays mundane, while tuned-WIMP interpreta
 
 1. ~~The cross-section CEILING computation.~~ **Paid — the tail below: tree-level σv = 0
  exactly, gravitational ceiling ~10⁻¹⁵⁴ cm³/s, ~128 orders under thermal-relic.**
-2. The GC-excess pulsar-interpretation tracking (the model roots for the pulsars).
-3. The 511 keV bookkeeping note (positrons from astrophysics — no medium channel).
+2. ~~The GC-excess pulsar-interpretation tracking (the model roots for the pulsars).~~
+ **Reduced, and re-typed as a calendar item.** The model has no stake in *which* astrophysical
+ explanation wins. With tree-level σv = 0 the prediction is "astrophysical" outright, so
+ pulsars, millisecond-pulsar populations and unresolved point sources all satisfy it equally.
+ Nothing here is a computation this model owes; it is literature to watch, and it can only
+ ever confirm or kill, never refine.
+3. ~~The 511 keV bookkeeping note (positrons from astrophysics — no medium channel).~~
+ **Reduced — already written, in "The ceiling" below**, which states that every indirect
+ excess including 511 keV is predicted astrophysical. There is no separate note to write.
 
 *Two decades of maybe-signals, and this model's reading of every one is the boring answer —
 not from timidity but from a conservation law with a genome behind it. The silence

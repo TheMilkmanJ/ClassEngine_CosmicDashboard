@@ -61,4 +61,4 @@ not just the S₈ point) before any tension-easing CLAIM is recorded; the conver
 perturbation-sector treatment.
 
 *The universe got smoother than the standard picture allows. This model's dark sector does extra
-work that does exactly that — and the chains testing it are running.*
+work that does exactly that — and the chain that would test it has not yet been produced.*

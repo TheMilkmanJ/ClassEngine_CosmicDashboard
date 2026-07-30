@@ -6426,3 +6426,58 @@ run and wrong about the schedule.
 
 **Operational note:** do not read R−1 for this chain until rank 1's log-posterior flattens. Reading
 it now would either panic or, worse, invite a restart of a run that is working.
+
+---
+
+## 2026-07-29 — docket #149 (checks 12 and 13) part-paid over the forward-facing "Owed" sections
+
+Docket #78 closed the deep audit while recording that **checks 12 and 13 never ran**, and #149
+is their home. This is a partial payment against #149, scoped deliberately and not a closure.
+
+**Scope taken.** Check 13's core question — is every "owed" resolved to *closed / reduced /
+gated / docketed*, since the bare word is none of those — applied to the seven forward-facing
+files that carry a literal `Owed` section: `PRTOE_indirect_detection.md`, `PRTOE_lss_parity.md`,
+`PRTOE_s8_growth.md`, `PRTOE_bigbang_no_singularity.md`, `PRTOE_no_singularities.md`,
+`PRTOE_arrow_of_time.md`, `PRTOE_igmf_helicity.md`.
+
+**Scope NOT taken, stated so the row is not misread as done.** A mechanized pass over
+`docs/PRTOE_*.md` finds 160 owed-class markers, 135 of them with no outcome word within two
+lines. The large majority sit in `PRTOE_FAILURES_LEDGER.md` and
+`PRTOE_PREREGISTERED_PREDICTIONS.md`, where they are **records of what was owed on a stated
+date** rather than live work orders — the same carve-out the rename pass already granted those
+two registries, and for the same reason: rewriting them destroys the record they exist to be.
+Those were left alone by intent. Check 12 — the whole-file re-read, as a read and not a grep —
+has been run on the files edited here and on no others; across sixty-four forward-facing files
+it remains outstanding.
+
+**Three defects found, all fixed.**
+
+1. **`PRTOE_s8_growth.md` — a dead premise under a live conclusion, which is check 14's class
+   and exactly what check 12 exists to catch.** The section body was corrected on 2026-07-28 to
+   say the `conv_desi` posterior is *unproduced rather than pending* — the chain died twice, and
+   the three runs live on the box are the bbnfix pair and route-D, none of them this one. The
+   italic line immediately beneath it still read *"and the chains testing it are running."* The
+   correction had landed on the paragraph and stopped at the pull-quote under it. Now reads
+   "the chain that would test it has not yet been produced." Swept for the same claim elsewhere
+   in forward-facing files: one other hit, in `PRTOE_REFEREE_CALENDAR.md`, which is a true
+   statement about leaving cores free and is untouched.
+
+2. **`PRTOE_indirect_detection.md` item 2 — reduced, and re-typed.** "The GC-excess
+   pulsar-interpretation tracking" was a bare label. With tree-level σv = 0 the model predicts
+   "astrophysical" outright, so pulsars, millisecond-pulsar populations and unresolved point
+   sources satisfy it equally — the model has no stake in which one wins. Nothing there is a
+   computation this model owes; it is literature to watch, and it can only confirm or kill,
+   never refine.
+
+3. **`PRTOE_indirect_detection.md` item 3 — reduced, already written.** "The 511 keV
+   bookkeeping note" is discharged by the file's own ceiling section four lines below, which
+   states that every indirect excess including 511 keV is predicted astrophysical. There was no
+   separate note to write.
+
+**Four sections came back clean**, and are recorded as checked rather than silently passed:
+`lss_parity` (three items — one done in §3a, one gated on data with the gate named, one an
+outright settling measurement), `bigbang_no_singularity`, `no_singularities` and
+`arrow_of_time` all classify their items already, mostly as paid-with-the-number or as a named
+philosophical commitment. `bigbang_no_singularity`'s third bullet — first-cycle Kibble numbers
+resting on ambient-era estimates — is a stated limitation rather than a work order, and was
+left as one.
