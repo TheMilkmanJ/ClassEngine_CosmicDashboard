@@ -2891,7 +2891,7 @@ below; (iii) inherits every kill of ε itself.
 > which case the framework must add it and say why voids are coherent where the same field is
 > speckled elsewhere — or the registered offsets and the kill threshold both halve. Until it is
 > settled this entry asserts no uniqueness. The laminar branch is not a live third option: it gives
-> 0.77 Hz, unobservable. Instrument: `scripts/theta_regime_fork_21cm.py`, 13 controls including
+> 0.77 Hz, unobservable. Instrument: `scripts/theta_regime_fork_21cm.py`, 15 controls including
 > three anti-controls, all passing.
 
 

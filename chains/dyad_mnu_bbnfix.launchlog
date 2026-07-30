@@ -6851,3 +6851,32 @@ candl: clearing all internal priors.
 [0 : mcmc] Progress @ 2026-07-29 17:31:47 : 17569 steps taken, and 980 accepted.
 [1 : mcmc] Progress @ 2026-07-29 17:32:09 : 16738 steps taken, and 923 accepted.
 [2 : mcmc] Progress @ 2026-07-29 17:32:44 : 17152 steps taken, and 942 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:35:24 : 17602 steps taken, and 982 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:35:49 : 16749 steps taken, and 924 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:36:03 : 17242 steps taken, and 948 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:38:30 : 17614 steps taken, and 983 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:38:54 : 16759 steps taken, and 925 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:39:13 : 17244 steps taken, and 949 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:41:26 : 17623 steps taken, and 983 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:41:59 : 16801 steps taken, and 927 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:42:09 : 17280 steps taken, and 951 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:44:13 : 17675 steps taken, and 987 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:44:45 : 17300 steps taken, and 952 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:45:28 : 16853 steps taken, and 931 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:47:07 : 17710 steps taken, and 989 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:47:24 : 17308 steps taken, and 953 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:48:05 : 16872 steps taken, and 932 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:50:02 : 17721 steps taken, and 990 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:50:12 : 17359 steps taken, and 956 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:51:19 : 16876 steps taken, and 932 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:52:36 : 17736 steps taken, and 991 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:52:56 : 17362 steps taken, and 956 accepted.
+[1 : mcmc] Progress @ 2026-07-29 17:53:59 : 16914 steps taken, and 934 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:55:42 : 17741 steps taken, and 992 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:56:08 : 17415 steps taken, and 960 accepted.
+[2 : mcmc] Learn + convergence test @ 960 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2026-07-29 17:57:20 : 16974 steps taken, and 939 accepted.
+[0 : mcmc] Progress @ 2026-07-29 17:59:24 : 17775 steps taken, and 994 accepted.
+[2 : mcmc] Progress @ 2026-07-29 17:59:53 : 17423 steps taken, and 961 accepted.
+[1 : mcmc] Progress @ 2026-07-29 18:00:55 : 17030 steps taken, and 942 accepted.

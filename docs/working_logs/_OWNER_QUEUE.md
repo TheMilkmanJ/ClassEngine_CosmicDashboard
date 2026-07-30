@@ -492,4 +492,4 @@ allows exactly one other. The entry now presents the fork.
    threshold both halve, and the entry's advertised 4σ discriminant is really 2σ at the same
    instrument. Note this branch also carries docket #62's 0.101 MHz broadening.
 
-Instrument: `scripts/theta_regime_fork_21cm.py`, 13 controls including three anti-controls, all pass.
+Instrument: `scripts/theta_regime_fork_21cm.py`, 15 controls including three anti-controls, all pass.
