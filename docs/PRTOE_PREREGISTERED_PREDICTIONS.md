@@ -763,22 +763,18 @@ typical varying-constant bounds (δ μ/μ ~ 1×10⁻⁵ to 1×10⁻⁷). It does
 exotic precision -- any ~1%-level m_e/μ handle in genuinely underdense gas tests
 it. It is the most concrete dyad-specific signature the program has produced.
 
-> **⚠ THE AMPLITUDE CARRIES THE SAME UNSTATED Θ = 1 AS P-2026-050, 2026-07-29.** "The FULL
-> +1.24%" presumes Θ = 1 in sub-threshold gas. The coupling's framework in
-> [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) names only two states — laminar
-> Θ = 1.9×10⁻⁶ and developed speckle at ⟨Θ⟩ = ½, the latter derived there by integration and
-> called *"a distributional fact, not something the model arranges."* On the ⟨Θ⟩ = ½ reading this
-> entry's shift is **+0.63%, not +1.24%**, and the "4–6 orders larger than typical bounds" margin
-> loses a factor of two. The *qualitative* claim is untouched — 0.63% is still orders above any
-> existing bound — so this entry survives the fork where P-2026-050's kill threshold does not.
+> **CONFIRMED CORRECT, 2026-07-29 — and an annotation claiming otherwise is withdrawn.** "The FULL
+> +1.24%" is right. Per `docs/exploratory/PRTOE_me_trigger.md` §3, Θ is multi-stream occupancy:
+> single-stream gas (voids, pre-collapse) has **no granules and carries m_e bare**, while
+> multi-stream gas (halos, folded filaments) has granules on and sits at the lab value. With
+> m_e = m_bare(1 + κ_Θ·Θ) and κ_Θ = −2ε/(1+ε), Θ = 0 gives the full ε and Θ = ½ gives exactly
+> 1/(1+ε) — the laboratory value. Sub-threshold gas is single-stream, so it carries the **whole**
+> shift, precisely as this entry says.
 >
-> **The stronger reading, stated but NOT acted on.** If Θ is the speckle *intensity*, then Θ = 1 is
-> the peak of the Beta support and **no volume average can ever attain it**, which would make both
-> amplitudes simply halve rather than fork. That turns on whether Θ is a speckle intensity or a
-> binary screening switch, and the corpus does not say unambiguously. I am not halving a registered
-> prediction on an inference about notation — it is filed as the owner decision instead
-> ([_OWNER_QUEUE.md](working_logs/_OWNER_QUEUE.md), task #93). What *is* fixed without waiting is
-> that neither entry may present its amplitude as unique while the framework contains no Θ = 1 state.
+> An annotation placed here earlier the same day claimed the amplitude should halve to +0.63% on a
+> ⟨Θ⟩ = ½ reading. **That was my error** — it assumed the shift is ε·Θ rather than κ_Θ·Θ, and it had
+> the endpoints inverted. Withdrawn in full. Verified by `scripts/theta_coupling_resolved.py`,
+> 13 controls including two anti-controls, all passing.
 
 **Confrontation status (first pass, 2026-07-07): UN-EXCLUDED, UN-CONFIRMED.**
 Every current precision m_e/μ handle (H2/HD in DLAs, methanol/ammonia masers,
@@ -2875,41 +2871,25 @@ separation (dark ages clean vs cosmic dawn degenerate) — standard.
 
 **Kills:** (i) a lunar-farside measurement of the dark-ages trough at the standard frequency
 (±0.1 MHz-class precision makes the 0.40 MHz offset a 4σ-class discriminant) kills the ε
-mechanism's dark-ages arm outright; (ii) an offset inconsistent with **either** value in the fork
-below; (iii) inherits every kill of ε itself.
+mechanism's dark-ages arm outright; (ii) an offset at a value inconsistent with +2.5% (the
+mechanism's own arithmetic allows no other number); (iii) inherits every kill of ε itself.
 
-> **⚠ THE UNIQUENESS CLAIM IS WITHDRAWN, 2026-07-29.** Kill (ii) previously read *"an offset at a
-> value inconsistent with +2.5% (the mechanism's own arithmetic allows no other number)."* **The
-> mechanism's own arithmetic allows exactly one other number, a factor of two below.** This entry
-> takes Θ = 1 in unvirialized gas; but the coupling's own framework, in
-> [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md), names **two** states — laminar
-> Θ = 1.9×10⁻⁶ and developed speckle at **⟨Θ⟩ = ½, called there "a distributional fact, not
-> something the model arranges"** — and **contains no Θ = 1 state.** Θ = 1 is the upper endpoint of
-> the Beta(d/2,d/2) support, not its mean, and a dark-ages or cosmic-dawn signal is a volume
-> average, so the mean is what the observable carries.
+> **LABEL CORRECTION ONLY — the numbers stand, 2026-07-29.** The parenthetical above should read
+> **Θ ≈ 0**, not Θ = 1. Per `docs/exploratory/PRTOE_me_trigger.md` §3, *"Θ ≡ multi-stream
+> interference present ≡ granules on. Single-stream (voids, pre-collapse): no granules, m_e bare.
+> Multi-stream (halos, folded filaments): granules on, m_e lab."* The coupling is
+> m_e = m_bare(1 + κ_Θ·Θ) with **κ_Θ = −2ε/(1+ε) = −2.478%**, so **the bare value sits at Θ = 0 and
+> the laboratory value at Θ = ½** — the identity 1 + κ_Θ/2 = 1/(1+ε) holds to machine precision,
+> because κ_Θ was defined to make it hold. Unvirialized gas is single-stream, hence Θ ≈ 0, hence the
+> **full** ε. **+2.509%, +0.40 MHz and +1.96 MHz are all correct as registered.**
 >
-> | | Θ = 1 (as registered) | ⟨Θ⟩ = ½ (the Beta law) |
-> |---|---|---|
-> | rest-frequency offset | +2.509% | **+1.254%** |
-> | dark-ages trough | 16.20–16.91 MHz, **+0.40 MHz** | 16.00–16.71 MHz, **+0.20 MHz** |
-> | cosmic-dawn trough | 79.96 MHz, +1.96 MHz | 78.98 MHz, +0.98 MHz |
-> | discriminant at ±0.1 MHz | **4.1σ** | **2.0σ** |
->
-> The branches differ by exactly 2 with no residual. **The entry's arithmetic is internally correct
-> at Θ = 1** — +2.509%, the 16.2–16.9 MHz band, +0.40 MHz and +1.96 MHz all reproduce to three
-> decimals — so the defect is not the algebra but the unstated choice of regime, and the kill
-> threshold inherits the factor.
->
-> Docket #62's speckle broadening lands here too, at **0.101 MHz** — coincidentally the stated
-> instrument precision, though small against the 0.7 MHz trough band (0.14 of it) and it degrades a
-> centroid rather than moving one. Recorded as secondary; the factor of two in the offset dominates.
->
-> **OWNER DECISION OWED.** Either unvirialized gas occupies a third, fully coherent regime — in
-> which case the framework must add it and say why voids are coherent where the same field is
-> speckled elsewhere — or the registered offsets and the kill threshold both halve. Until it is
-> settled this entry asserts no uniqueness. The laminar branch is not a live third option: it gives
-> 0.77 Hz, unobservable. Instrument: `scripts/theta_regime_fork_21cm.py`, 15 controls including
-> three anti-controls, all passing.
+> *Withdrawn the same day it was raised:* an annotation here claimed a factor-2 fork between Θ = 1
+> and ⟨Θ⟩ = ½ and escalated it as an owner decision. That was my error — it assumed the shift is
+> ε·Θ, when the coupling is κ_Θ·Θ with κ_Θ negative and calibrated to put developed speckle *on* the
+> lab value. Nothing halves; the uniqueness claim in kill (ii) is reinstated. Two independent checks
+> confirm the reading: the exact lab identity above, and the corpus's own residual-laminar slope
+> 0.384%·f, which reproduces from the same κ_Θ. Instrument:
+> `scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls, all passing.
 
 
 ## P-2026-048 ADDENDUM (registered 2026-07-18, before any lattice result): the two-point fork

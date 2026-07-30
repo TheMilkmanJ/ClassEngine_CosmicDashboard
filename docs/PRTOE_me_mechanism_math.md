@@ -599,3 +599,45 @@ The two observable classes of the radio-lattice construction respond to cell-to-
 
 So scatter is maximally visible in precisely the rows that construction calls measurable, and
 invisible in the three it demoted. That is a falsifiable statement about where to look.
+
+---
+
+## The width check corrected — the coupling is κ_Θ, not ε (2026-07-29, same day)
+
+Everything above about the width used **ε·sd(Θ)** for the induced mass scatter. **Wrong.** The
+coupling recorded in `docs/exploratory/PRTOE_me_trigger.md` §5 is
+
+> m_e = m_bare(1 + κ_Θ·Θ),  **κ_Θ = −2ε/(1+ε) = −2.478%**
+
+so the per-cell scatter is **|κ_Θ|·sd(Θ) = 6.19×10⁻³**, not 3.14×10⁻³. Every width figure above is
+low by **2/(1+ε) = 1.975×**. The 21 cm broadening is **3714 km/s**, not 1880.
+
+**And the endpoints are the reverse of what was assumed here.** Θ is multi-stream occupancy:
+
+| | Θ | m_e |
+|---|---|---|
+| single-stream — voids, pre-collapse | **0** | **bare** (the full ε) |
+| multi-stream — halos, folded filaments | **½** | **laboratory**, since 1 + κ_Θ/2 = 1/(1+ε) exactly |
+
+That identity holds to machine precision because κ_Θ was defined to make it hold, and the corpus's
+own residual-laminar slope, 0.384%·f, reproduces from the same κ_Θ — two independent confirmations.
+
+### What this does to the argument
+
+**The core claim survives untouched:** averaging divides a centroid error by √N and leaves a width
+alone, because N is absent from the width. Correcting the coupling makes the tension *worse*, not
+better.
+
+**But it relocates it, and that matters more than the size.** Developed speckle lives in
+**multi-stream** gas — halos and folded filaments — which is exactly where 21 cm and methanol
+absorbers are observed. The broadening therefore lands on the very systems supplying the tightest
+constraints, not on some unobserved diffuse phase.
+
+**The escape is real and it is not the sightline.** Sightline averaging protects a centroid only.
+What protects the width is averaging *within each absorbing atom's own sampling volume*: if that
+volume spans many granules, every atom sees the same effective Θ and the line stays narrow. The
+demand is **≳1.4×10⁵ granules per sampling volume** to fit inside 10 km/s (1.4×10⁷ for 1 km/s,
+5.5×10³ for 50 km/s). That is a concrete constraint on the granule scale, and a **different** one
+from the sightline cell count recorded earlier.
+
+`scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls. All pass.

@@ -458,7 +458,18 @@ would take weeks and invites a fourth death on a chain that has already died thr
 > live runs to finish and give conv_desi real cores. The extra core does not change the answer,
 > because the cost was never one core — it was a full restart. **The TV reservation stays intact.**
 
-## DECISION: which Θ regime does unvirialized gas occupy? (raised 2026-07-29)
+## ~~DECISION: which Θ regime does unvirialized gas occupy?~~ — WITHDRAWN, never was a decision
+
+**Raised and withdrawn the same day, 2026-07-29. This should not have reached the queue.** The
+answer is written in `docs/exploratory/PRTOE_me_trigger.md` §3 and §5: Θ is multi-stream occupancy,
+the coupling is m_e = m_bare(1 + κ_Θ·Θ) with κ_Θ = −2ε/(1+ε) = −2.478%, **voids are Θ = 0 and carry
+the full bare shift**, halos are Θ = ½ and sit exactly on the laboratory value. I had the endpoints
+inverted and assumed the shift was ε·Θ. **Nothing halves; both registered amplitudes stand.** I
+searched `docs/` for the defining file, got nothing because it lives in `docs/exploratory/`, and
+concluded "the corpus doesn't say" instead of widening the search. Recorded in the failures ledger.
+The text below is left only so the withdrawal has something to point at.
+
+---
 
 **Why it is yours and not mine.** It is a model question about the coupling's own state, and both
 answers are internally consistent — they just are not the same prediction.
@@ -492,4 +503,5 @@ allows exactly one other. The entry now presents the fork.
    threshold both halve, and the entry's advertised 4σ discriminant is really 2σ at the same
    instrument. Note this branch also carries docket #62's 0.101 MHz broadening.
 
-Instrument: `scripts/theta_regime_fork_21cm.py`, 15 controls including three anti-controls, all pass.
+*(The instrument this block cited was deleted with the claim it supported. The correct one is
+`scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls, all passing.)*

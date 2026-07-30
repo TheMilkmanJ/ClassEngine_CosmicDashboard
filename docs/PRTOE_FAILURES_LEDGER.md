@@ -4164,3 +4164,35 @@ disfavouring it.
 
 **Instrument:** `scripts/speckle_width_check.py`, 16 controls including four anti-controls, all
 passing. Recorded here the same day the argument was recorded, not later.
+
+---
+
+## My Θ "factor-2 fork" — WRONG, withdrawn the same day (2026-07-29)
+
+**What I claimed.** That P-2026-050 and P-2026-007 faced an unresolved factor-of-2 fork, because
+the entries take Θ = 1 in unvirialized gas while the mechanism file gives developed speckle
+⟨Θ⟩ = ½. I annotated both registry entries, withdrew a kill condition's uniqueness claim, filed an
+owner decision, and told the owner it needed their word.
+
+**Why it was wrong.** I assumed the shift is ε·Θ. It is not. `PRTOE_me_trigger.md` §5 gives
+**m_e = m_bare(1 + κ_Θ·Θ) with κ_Θ = −2ε/(1+ε) = −2.478%** — negative, and calibrated so that
+**Θ = ½ lands exactly on the laboratory value** (1 + κ_Θ/2 = 1/(1+ε), machine precision). And §3
+defines Θ as multi-stream occupancy, so **voids are Θ = 0 and carry the full bare shift**, while
+halos are Θ = ½. I had the endpoints inverted.
+
+**Consequence: nothing halves.** +1.2543% and +2.509% stand as registered. The uniqueness claim in
+P-2026-050's kill (ii) is reinstated. The one real defect was a *label* — that entry writes
+"(Θ = 1 — the bare value)" where bare is Θ = 0.
+
+**The compounding error.** I escalated it as an owner decision, saying "the corpus doesn't say."
+The corpus does say, in `docs/exploratory/PRTOE_me_trigger.md`, which I had not read — I searched
+`docs/` for the file, got nothing because it sits in `docs/exploratory/`, and stopped there instead
+of widening the search. **A definition I could not find is not a definition that does not exist.**
+
+**What it cost and what it bought.** Cost: two wrong registry annotations, one wrong withdrawal,
+one wrongly-escalated decision, and the owner's time three times over. Bought: docket #62's scatter
+was found to use ε where the coupling is κ_Θ, so every width figure there was low by 1.975×, and
+the tension relocates to multi-stream gas — which is where the absorbers actually are, making it
+sharper. That correction is real and stands.
+
+Instrument: `scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls.

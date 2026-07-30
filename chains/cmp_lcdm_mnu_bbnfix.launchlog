@@ -6543,3 +6543,34 @@ candl: clearing all internal priors.
 [2 : mcmc] Getting initial point... (this may take a few seconds)
 [1 : mcmc] Getting initial point... (this may take a few seconds)
 [0 : mcmc] Initial point: omega_b:0.02244584, H0:68.50967, logA:3.038025, omega_cdm:0.1204173, n_s:0.9783101, z_reio:7.244932, A_planck:0.9947675, A_act:0.9981449, P_act:1.008721, Tcal:1.002126, Ecal:1.007079, m_ncdm:0.09011122
+[2 : mcmc] Initial point: omega_b:0.02188253, H0:69.00886, logA:3.039106, omega_cdm:0.1199755, n_s:0.9856762, z_reio:7.562154, A_planck:0.9992887, A_act:0.9991937, P_act:0.993895, Tcal:0.9961126, Ecal:1.005472, m_ncdm:0.058417
+[1 : mcmc] Initial point: omega_b:0.02239425, H0:69.57996, logA:3.0499, omega_cdm:0.1196347, n_s:0.9781634, z_reio:7.375429, A_planck:1.001979, A_act:1.00093, P_act:1.001383, Tcal:1.002364, Ecal:1.009654, m_ncdm:0.04492693
+[0 : model] Measuring speeds... (this may take a few seconds)
+[0 : model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 71.8, planck_2018_lowl.EE: 323.0, planck_2018_highl_plik.TTTEEE_lite: 70.2, planck_2018_lensing.clik: 209.0, bao.sixdf_2011_bao: 116.0, bao.sdss_dr7_mgs: 397.0, bao.sdss_dr12_consensus_final: 150.0, sn.pantheonplusshoes: 46.5, act_dr6: 48.2, spt3g_lite: 53.3, classy: 0.00864}
+[0 : mcmc] Oversampling with factors:
+[0 : mcmc] *  1 : ['omega_b', 'H0', 'logA', 'omega_cdm', 'n_s', 'z_reio', 'm_ncdm']
+[0 : mcmc] * 18 : ['A_planck']
+[0 : mcmc] * 24 : ['A_act', 'P_act']
+[0 : mcmc] * 32 : ['Tcal', 'Ecal']
+[0 : mcmc] Covariance matrix loaded for params ['omega_b', 'H0', 'logA', 'omega_cdm', 'n_s', 'z_reio', 'A_planck', 'A_act', 'P_act', 'Tcal', 'Ecal', 'm_ncdm']
+[0 : mcmc] All parameters' covariance loaded from given covmat.
+[0 : mcmc] Sampling! (NB: no accepted step will be saved until 60 burn-in samples have been obtained)
+[0 : mcmc] Progress @ 2026-07-29 18:32:29 : 1 steps taken -- still burning in, 660 accepted steps left.
+[2 : mcmc] Progress @ 2026-07-29 18:32:44 : 1 steps taken -- still burning in, 661 accepted steps left.
+[1 : mcmc] Progress @ 2026-07-29 18:32:45 : 1 steps taken -- still burning in, 661 accepted steps left.
+[0 : mcmc] Progress @ 2026-07-29 18:34:31 : 17 steps taken -- still burning in, 653 accepted steps left.
+[2 : mcmc] Progress @ 2026-07-29 18:34:38 : 64 steps taken -- still burning in, 639 accepted steps left.
+[1 : mcmc] Progress @ 2026-07-29 18:34:50 : 28 steps taken -- still burning in, 649 accepted steps left.
+[0 : mcmc] Progress @ 2026-07-29 18:36:49 : 18 steps taken -- still burning in, 653 accepted steps left.
+[2 : mcmc] Progress @ 2026-07-29 18:36:51 : 84 steps taken -- still burning in, 636 accepted steps left.
+[1 : mcmc] Progress @ 2026-07-29 18:37:59 : 33 steps taken -- still burning in, 648 accepted steps left.
+[0 : mcmc] Progress @ 2026-07-29 18:39:03 : 26 steps taken -- still burning in, 650 accepted steps left.
+[2 : mcmc] Progress @ 2026-07-29 18:39:14 : 89 steps taken -- still burning in, 634 accepted steps left.
+[1 : mcmc] Progress @ 2026-07-29 18:40:25 : 42 steps taken -- still burning in, 644 accepted steps left.
+[0 : mcmc] Progress @ 2026-07-29 18:41:20 : 39 steps taken -- still burning in, 647 accepted steps left.
+[2 : mcmc] Progress @ 2026-07-29 18:41:50 : 91 steps taken -- still burning in, 633 accepted steps left.
+[1 : mcmc] Progress @ 2026-07-29 18:42:48 : 57 steps taken -- still burning in, 640 accepted steps left.
+[0 : mcmc] Progress @ 2026-07-29 18:43:37 : 92 steps taken -- still burning in, 627 accepted steps left.
+[2 : mcmc] Progress @ 2026-07-29 18:44:15 : 97 steps taken -- still burning in, 632 accepted steps left.
+[1 : mcmc] Progress @ 2026-07-29 18:45:39 : 76 steps taken -- still burning in, 630 accepted steps left.
+[0 : mcmc] Progress @ 2026-07-29 18:45:56 : 116 steps taken -- still burning in, 619 accepted steps left.
