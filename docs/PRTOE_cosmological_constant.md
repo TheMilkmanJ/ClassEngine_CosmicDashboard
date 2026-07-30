@@ -667,3 +667,36 @@ scattering length and the effective range follow from the σ-exchange interactio
 figure is an illustration rather than the model's value, and nothing above touches τ. The claim is
 that the λ gate has gone from "uncontrolled, needs a lattice campaign" to "one short calculation,
 with the target precision already known to be achievable."
+
+#### Attempting r₀/a₀ — and the one thing that blocks it
+
+The file's λ → gas-parameter map recovers exactly: √(na³) = 0.0080·λ/4.814 = 0.001662·λ, giving
+0.0432 and 0.0764 at λ = 26 and 46 against the recorded 0.043 and 0.077. **But that map fixes the
+combination na³, not a₀ and n separately** — so a₀ cannot be read from λ alone.
+
+The effective range is the easy half: r₀ is set by the interaction range, and for a composite
+scalar built at cutoff Λ that is r₀ ≈ 1/Λ = 1/(511 keV). The scattering length is the hard half,
+because it needs the normalisation relating λ to a₀, and that is convention-dependent by a factor
+of four:
+
+| convention | 1/a₀ | r₀/a₀ | shift on ρ_Λ¼ |
+|---|---|---|---|
+| a = λ/(8πm) | 334 keV | 0.65 | 0.88% |
+| a = λ/(16πm) | 669 keV | 1.31 | 1.76% |
+| a = λ/(32πm) | 1337 keV | 2.62 | 3.52% — **outside the fit's \|r₀\| < 2** |
+
+**The calculation is blocked on the field normalisation, not on physics.** Which of these is right
+depends on how the sector's Lagrangian normalises the quartic — real versus complex field, whether
+λ multiplies |φ|⁴ or φ⁴/4!, and the relativistic-to-non-relativistic matching factor. Picking wrong
+moves the answer by 4×, and one of the three choices puts the model outside the published law's
+validity altogether.
+
+**This is a well-posed, small, and genuinely unfinished item.** It is not a literature question and
+not a compute question: it is a matter of reading the sector's own field convention off the
+Lagrangian that defines λ = 4π²/(N_c·F(M/Λ)), then evaluating one formula. Until it is done, the
+honest statement is that the radiative systematic is **somewhere between 0.9% and 3.5% on ρ_Λ¼**,
+and only the most favourable convention brings it near the +0.44% gap.
+
+*What is settled by this pass:* the sensitivity coefficient (5.38% in E per unit r₀ at the top of
+the band), that r₀ ≈ 1/Λ, and that the whole remaining uncertainty is one dimensionless
+normalisation. *What is not:* the normalisation itself, and therefore the number.
