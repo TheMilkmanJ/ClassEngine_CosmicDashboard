@@ -540,3 +540,34 @@ hard-sphere versus soft-sphere is what the 1.33% is made of.
 
 `scripts/lhy_control_edge_refuted.py` (7 controls) established the refutation; the numbers here are
 read straight from the published tables.
+
+#### Correction to the line above, same day: the 1.33% was an underestimate
+
+The potential-shape spread was quoted at na³ = 10⁻³ because that is where Table II sits. **It grows
+steeply with density**, so evaluating it below the model's range understates it:
+
+| na³ | potentials compared | spread in E | on ρ_Λ¼ |
+|---|---|---|---|
+| 10⁻⁵ | 4 | 0.31% | 0.08% |
+| 10⁻⁴ | 4 | 0.84% | 0.21% |
+| 10⁻³ | 3 | 5.31% | **1.33%** ← what was quoted |
+
+A log–log fit over those points gives slope 0.61, which extrapolated across the model's own
+na³ = 0.0019–0.0059 gives **2.0% to 4.0% on ρ_Λ¼**, not 1.33%. Combined in quadrature with the
+0.82% truncation error, the total is **≈2–4%**, not the ≈1.6% recorded above.
+
+Two honest weaknesses in that extrapolation, both of which cut against leaning on it: the 10⁻³ row
+compares only **three** potentials because Table I has no 10⁻³ entry for hard spheres, so it is not
+strictly commensurate with the four-potential rows below it; and it is a two-point fit pushed up to
+6× beyond the last measured density.
+
+**Consequence: this paper cannot close the shape systematic.** Table II stops at na³ = 10⁻³ and the
+model lives above it. Closing it needs Monte Carlo for several potentials at na³ ≈ 5×10⁻³, which
+this reference does not contain.
+
+**Revised verdict.** The uncertainty on ρ_Λ¼ falls from the file's 5.4–9.8% to roughly **2–4%** —
+a real improvement of order 2–3×, not the 6–12× the truncation error alone suggested. The gap being
+claimed is +0.44%, so it remains comfortably inside the error bar. What has genuinely changed is
+that the dominant term is now a *named, measurable* systematic (interaction shape) rather than a
+failed expansion, and the instrument that would close it is Bose-gas Monte Carlo at the right
+density — still not the SU(2) lattice.
