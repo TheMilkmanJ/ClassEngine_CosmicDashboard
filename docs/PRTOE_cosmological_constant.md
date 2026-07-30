@@ -700,3 +700,51 @@ and only the most favourable convention brings it near the +0.44% gap.
 *What is settled by this pass:* the sensitivity coefficient (5.38% in E per unit r₀ at the top of
 the band), that r₀ ≈ 1/Λ, and that the whole remaining uncertainty is one dimensionless
 normalisation. *What is not:* the normalisation itself, and therefore the number.
+
+#### The convention IS fixed — by the file's own λ formula. And the blocker moves.
+
+The previous note left r₀/a₀ blocked on "which normalisation." That is answerable, and the file
+answers it itself. Taking the standard linear-sigma-model identity **m_σ² = 2λf²** with the file's
+own f² = N_c M²F(y)/2π² and m_σ = 2M gives
+
+> λ = (2M)² / (2 · N_c M²F/2π²) = **4π²/(N_c F)** — identical to the file's formula, reproducing
+> 45.7 at F(0.595) = 0.4316.
+
+So the convention is pinned: **V = (λ/4)(φ² − f²)², a quartic (λ/4)σ⁴** — and, unavoidably, a
+**cubic λfσ³** that comes with it.
+
+That cubic is the problem, and it is a more interesting one than the convention was. At tree level
+the threshold 2→2 amplitude is not the contact term alone:
+
+| | amplitude | 1/a₀ | r₀/a₀ | on ρ_Λ¼ |
+|---|---|---|---|---|
+| contact only | −6λ = −274 | 223 keV | 0.436 | **0.59%** |
+| contact + σ-exchange (s, t, u) | −36λ = −1645 | 37 keV | 0.073 | **0.10%** |
+
+**σ-exchange is five times the contact term**, so the total is 6× the contact piece alone and the
+answer moves by 6× depending on whether it is included. It must be — the cubic is not optional, it
+is forced by the same potential that defines λ.
+
+### Where that leaves it, honestly
+
+Both candidate answers are *favourable*: 0.59% and 0.10% on ρ_Λ¼, the second comfortably below the
++0.44% gap and the first close to it. But the spread between them is the whole question, and it sits
+on **tree-level scattering theory at λ = 45.7** — a coupling where tree level is not obviously
+trustworthy, and where the s-channel pole sits at s = 4m_σ² against an exchanged mass m_σ, i.e.
+right on top of the kinematics.
+
+So the debt has moved rather than closed, and it is worth saying exactly how:
+
+| | blocker |
+|---|---|
+| this morning | uncontrolled radiative band, "one lattice job gates both" |
+| earlier today | which field normalisation? |
+| **now** | **is tree-level σσ scattering reliable at λ = 45.7?** |
+
+That is a sharper and more standard question than either of its predecessors — it is the sort of
+thing chiral perturbation theory and unitarised amplitude methods exist to answer, and the f₀(500)
+literature the file already cites for the σ mass is the same body of work. **Not attempted here.**
+
+*What is established:* the convention (LSM, m_σ² = 2λf², verified against the file's own λ), that
+σ-exchange contributes 5× the contact term, and that both readings land at or below 0.6% on ρ_Λ¼.
+*What is not:* which reading is right, and whether tree level suffices at this coupling.
