@@ -763,6 +763,23 @@ typical varying-constant bounds (δ μ/μ ~ 1×10⁻⁵ to 1×10⁻⁷). It does
 exotic precision -- any ~1%-level m_e/μ handle in genuinely underdense gas tests
 it. It is the most concrete dyad-specific signature the program has produced.
 
+> **⚠ THE AMPLITUDE CARRIES THE SAME UNSTATED Θ = 1 AS P-2026-050, 2026-07-29.** "The FULL
+> +1.24%" presumes Θ = 1 in sub-threshold gas. The coupling's framework in
+> [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) names only two states — laminar
+> Θ = 1.9×10⁻⁶ and developed speckle at ⟨Θ⟩ = ½, the latter derived there by integration and
+> called *"a distributional fact, not something the model arranges."* On the ⟨Θ⟩ = ½ reading this
+> entry's shift is **+0.63%, not +1.24%**, and the "4–6 orders larger than typical bounds" margin
+> loses a factor of two. The *qualitative* claim is untouched — 0.63% is still orders above any
+> existing bound — so this entry survives the fork where P-2026-050's kill threshold does not.
+>
+> **The stronger reading, stated but NOT acted on.** If Θ is the speckle *intensity*, then Θ = 1 is
+> the peak of the Beta support and **no volume average can ever attain it**, which would make both
+> amplitudes simply halve rather than fork. That turns on whether Θ is a speckle intensity or a
+> binary screening switch, and the corpus does not say unambiguously. I am not halving a registered
+> prediction on an inference about notation — it is filed as the owner decision instead
+> ([_OWNER_QUEUE.md](working_logs/_OWNER_QUEUE.md), task #93). What *is* fixed without waiting is
+> that neither entry may present its amplitude as unique while the framework contains no Θ = 1 state.
+
 **Confrontation status (first pass, 2026-07-07): UN-EXCLUDED, UN-CONFIRMED.**
 Every current precision m_e/μ handle (H2/HD in DLAs, methanol/ammonia masers,
 21cm-vs-optical, metal-line α) lives in DENSE/structured gas → reads lab
