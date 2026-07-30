@@ -6388,3 +6388,41 @@ convergence check has been written in 17.4 hours, on 1192 accepted samples acros
 
 **4. #89 stays correctly blocked.** All nine permitted cores are saturated (9 processes at ~100%,
 load 11.4). There is no slot for conv_desi, exactly as the task says.
+
+## Chain status, 2026-07-29 21:23 — one good surprise, one wrong timeline
+
+### dyad_mnu_bbnfix is converging, and fast
+
+R−1 fell from **91.23** (09:49, N = 1549) to **2.86** (18:22, N = 2943). That is the run's first
+real movement and it happened inside nine hours. Target is 0.05, so it is not there — but 91 → 2.9
+is the hard part of the descent, and the chain is behaving.
+
+### cmp_prtoe_routeD's R−1 = 19331 is a burn-in artifact, not a pathology
+
+Task #21 recorded the run as *"HEALTHY — burn-in until ~06:50, R−1 not before ~11:00."* At 22 hours
+the progress file reports **R−1 = 19331**, which looks catastrophic. It is not, and the distinction
+matters:
+
+| | rank 1 | rank 2 |
+|---|---|---|
+| samples | 893 | 706 |
+| minuslogpost, first→last quintile | **1524.8 → 1482.8** | 1392.3 → 1387.2 |
+| still descending? | **yes, −8 in the last quintile** | no, flat |
+| true acceptance | 5.7% | 5.0% |
+
+**Rank 2 has found its mode; rank 1 is 94 units above it and still coming down.** R−1 measures the
+disagreement between them, so a huge value is exactly what mid-burn-in with one lagging rank
+produces. Nothing is stuck.
+
+Where rank 1 sits, and why it is slow: ω_b = 0.02371 against rank 2's 0.02257, which costs it a
+**24-unit BBN prior penalty** (minuslogprior__bbn 23.9 vs 0.76) and **Δχ² = 139** overall
+(2962.6 vs 2823.3), with m_ncdm at 0.125 against 0.009. It is descending out of a poor corner of
+the prior, not oscillating in one.
+
+**The timeline in the task was wrong by more than a day.** At ~40 accepted samples per hour, rank 1
+needs roughly 1000–2000 more to reach rank 2's level — **25 to 50 further hours of burn-in before
+R−1 carries any information.** Task #21 updated accordingly; its "HEALTHY" label was right about the
+run and wrong about the schedule.
+
+**Operational note:** do not read R−1 for this chain until rank 1's log-posterior flattens. Reading
+it now would either panic or, worse, invite a restart of a run that is working.
