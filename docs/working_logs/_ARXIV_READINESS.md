@@ -1135,3 +1135,57 @@ support. Written as a prediction it is a −2.94σ result and should not be subm
 
 **Status: both rows → NOT READY as predictions; ONE paper available as a constraint.** The blocking
 item is no longer a computation, it is the decision to write it as a bound.
+
+## Third paper built: `papers/supertrace-note/` (2026-07-29)
+
+**Title:** *Two gravitational counting conditions for three generations are the same condition.*
+Target **gr-qc**, cross-list hep-th/hep-ph. 3 pp, self-contained bibliography (no BibTeX pass).
+
+### The thesis, and why it is the only publishable version
+
+The generation-counting conclusion is **Navarro-Salas's** (CQG **41**, 2024). This note does not
+re-claim it. What it establishes is that the two gravitational conditions are **one condition**:
+
+> Eliminating the auxiliary count N_ξ between his two anomaly conditions leaves
+> **N_½ = 4N₁ − N₀/2**, and str[k₁] = 0 gives **N_½ = 4N₁**. They coincide once conventional scalars
+> leave the count — by deletion (N₀ = 0) or by conformal coupling (ξ = 1/6). Both are then solved by
+> N_½ = 48 at N₁ = 12.
+
+So the apparent corroboration is arithmetic. **A spectrum satisfying one satisfies the other
+automatically**, and the fact that both select three generations is a single fact, not two. Verified
+symbolically over a grid of (N₀, N₁).
+
+### What still separates them, which is the paper's second half
+
+| | anomaly cancellation | str[k₁] = 0 |
+|---|---|---|
+| relation | N_½ = 4N₁ − N₀/2 | N_½ = 4N₁ |
+| Higgs doublet | **excluded** — *"cannot be considered as [a] fundamental [entity]"* | **retained** at ξ = 1/6 |
+| extra fields | **N^ξ = 36** | none |
+
+At N₀ = 4 the anomaly relation demands N_½ = 46, which the Standard Model with three right-handed
+neutrinos misses by two. One condition escapes by banishing the Higgs; the other by making it
+conformal. **Same counting, incompatible spectra** — and that, not the agreement, is where evidence
+could discriminate.
+
+Two further honesty items are in the text: that imposing str[k₁] = 0 switches Sakharov induction off
+rather than realising it (Visser: *"completely at odds with Sakharov's original version"*), so it is
+a naturalness statement about G; and that Visser's separate Pauli-sum-rule evaluation
+(Phys. Lett. B **791**, 2019, N_BSM = 68) uses unweighted counts and does **not** reduce to this
+relation.
+
+### Verified state
+
+| | |
+|---|---|
+| build | **0 errors, 0 undefined, 0 overfull**, 3 pp, 228 KB |
+| abstract | 1478 / 1920 |
+| references | 5 bibitems, 5 cited, none orphaned |
+| prose | 42 sentences, mean 22.8 words, none over 55 |
+| scaffolding / house terms / markdown | none |
+
+**Framework exposure: zero.** Like the other two, this paper survives the framework being wrong
+entirely — its inputs are Seeley–DeWitt coefficients and measured field content.
+
+*Caught in drafting, second time this session:* markdown `**bold**` left in LaTeX. Same bug as the
+neutrino paper. It now goes on the pre-build checklist rather than being rediscovered.
