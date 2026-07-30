@@ -456,3 +456,43 @@ on the identity.
 (vacuum-as-condensate precedent); [Sakharov 1967] (the induced-action ancestry).
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md); derivation chain: the internal hunt
 log; the thermal reading's arc.
+
+---
+
+## The control-edge demotion, re-examined against the Monte Carlo (2026-07-29)
+
+§4b demotes the +0.44% from a precision claim because *"the next term of the same series is
+already larger"*, and concludes that **"the λ gate and the τ gate MERGE … One lattice job gates
+both open numbers."** The arithmetic there is correct. **The inference is not, and the λ half of
+that merge is wrong.**
+
+Giorgini, Boronat & Casulleras (*Phys. Rev. A* **60**, 5129, 1999; arXiv:cond-mat/9902185) grade
+the two terms **separately and oppositely**, at exactly the gas parameter in play:
+
+> *"the Lee–Huang–Yang (LHY) correction [second term] … allows for a good approximation of the
+> equation of state **up to very high densities**. On the contrary, the logarithmic correction
+> [third term] **goes wrong already at intermediate densities (na³ ≃ 10⁻³)**."*
+
+The model sits at **na³ = 0.0019–0.0059**, i.e. 1.8× to 5.9× the density at which the third term is
+stated to fail. So a large third term is a **known defect of that term**, not evidence that LHY has
+lost control. Truncating at LHY is the validated procedure; the correct error is the
+Monte-Carlo-minus-LHY residual, not the size of a term the literature already discards.
+
+The paper is the right instrument on both axes. Its density grid — 10⁻⁶, 5×10⁻⁶, 10⁻⁵, 5×10⁻⁵,
+10⁻⁴, 5×10⁻⁴, **5×10⁻³**, 10⁻², 5×10⁻², 10⁻¹, 0.166, 0.244 — brackets the model's range with
+simulated points either side, so no extrapolation is needed. And it runs four potentials (hard
+sphere; soft sphere at R = 5a and R = 10a, described there as *"two extreme cases for a repulsive
+potential"*; hard-core square well) expressly to test how far universality survives.
+
+### What this changes, and what it does not
+
+**Changes:** the stated ground for the demotion is refuted by the source that ground would have to
+rest on, and **the λ gate no longer needs the lattice.** τ still does. The two gates do not merge.
+
+**Does not change:** the numeric residual is not yet in hand. The QMC-minus-LHY difference at
+na³ = 0.0019–0.0059, and the spread across those four potentials, live in the paper's Tables I and
+II, which did not survive text extraction. **This establishes that the gate is openable at the desk
+— not that it is open.** The honest status of the precision claim is now *"pending a table read"*
+rather than *"pending a lattice campaign nobody has run"*, which is a materially different debt.
+
+`scripts/lhy_control_edge_refuted.py`, 7 controls including two anti-controls. All pass.
