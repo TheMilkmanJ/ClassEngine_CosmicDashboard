@@ -348,7 +348,21 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > sections below record the mechanism as it was worked out; the addendum records what happened to
 > it.
 >
-> **Correction, 2026-07-28: there is no running Route-D chain, and the one that ran could not have
+> **Superseded in part, 2026-07-29: Route-D is running again — but the "single decider" retraction
+> stands, for a reason that has nothing to do with whether a chain is on the box.** `cmp_prtoe_routeD`
+> was relaunched and is live as of 2026-07-29 22:00, now with **two** chains rather than one,
+> ~22 h in. Its R−1 reads 19331, which is a burn-in artefact and not a pathology — the two chains
+> sit only 2–7 proposal-σ apart, and the huge number comes from within-chain scatter being 8–70×
+> smaller than that separation while both chains are still descending rather than sampling. It is
+> nonetheless stuck in a configuration deadlock: `learn_proposal_Rminus1_max_early` is 1000, so the
+> proposal covariance cannot be relearned until R−1 falls, and R−1 falls slowly because it was never
+> relearned. Expect nothing before 2026-08-01 and plan for ~08-09. **What does not change:** the
+> clean Route-D prediction was killed by the full-cycle KP solve analytically, so no chain was ever
+> the single decider — see the addendum, where that phrase has now actually been removed from the
+> sentence carrying it.
+>
+> **Correction, 2026-07-28 (the state that prompted the retraction, kept for the record): there was
+> no running Route-D chain, and the one that had run could not have
 > decided anything.** This passage previously named it "the single decider". On the box,
 > `cmp_prtoe_routeD` holds **exactly one** chain file — 11,508 steps, 363 accepted (3.2%
 > acceptance), **last written 2026-07-20**, with a header-only progress file. The blocker is
@@ -750,9 +764,16 @@ turnaround, z=+0.43)** — excluded by observed acceleration; a future turn is 3
 (near-mirror contraction cancels). **So §7a–7c are DOWNGRADED:** the clean Route-D prediction is
 dead; what survives is the IMMINENT-TURN CORNER (z_turn \~ −0.1..−0.3, needing \~3× from four
 favorably-aligned rigorous-KP O(1)s [prior-adverse, tail] AND a strong thaw pulled by the data).
-The two kill switches MERGE: the running Route-D MCMC (thaw free on the DESI joint stack) is the
-single decider — thaw pulled hard → corner lives; thaw \~ 0 → Route-D dead twice over, **P-2026-018
-(w = −1 rigid) stands as the distinctive branch, and J1 reverts to constitution/boundary-datum.**
+The two kill switches MERGE, and the Route-D MCMC (thaw free on the DESI joint stack) decides
+**what is left** rather than the fork itself — the clean Route-D prediction was already killed
+analytically by the full-cycle KP solve, with no chain involved. What the chain still settles is
+whether the surviving imminent-turn corner lives: thaw pulled hard → corner lives; thaw \~ 0 →
+Route-D dead twice over, **P-2026-018 (w = −1 rigid) stands as the distinctive branch, and J1
+reverts to constitution/boundary-datum.** *(This sentence read "is the single decider" until
+2026-07-29. The §7 header has carried a correction saying it "previously named it 'the single
+decider'" since 2026-07-28 — but the correction was written at the head of §7 and never applied
+to this line down in the addendum, so the retracted phrase stood for a day beneath its own
+retraction.)*
 §7d (the melt/re-form cycle closure) is unaffected as a phenomenological cycle picture. Held
 open. *(The turn's
 own timing follows from the surviving structure — the thaw plus the sector's negative bare

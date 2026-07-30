@@ -3,7 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> The recorded T4 thread, consolidated; the conv_desi chain is refining the posterior now.
+> The recorded T4 thread, consolidated. **The conv_desi chain is not running and its posterior is
+> unproduced** (corrected 2026-07-29; this line previously read "is refining the posterior now").
+> The chain died twice, at initialisation on 07-16 and again on 07-22, and nothing of it survives on
+> the box but a seed covariance — restarting it is an owner decision. The companion file had carried
+> this correction since 2026-07-28; this one had not.
 > *Companion: the conversion-channel standalone, [PRTOE_s8_growth.md](PRTOE_s8_growth.md).*
 
 ## 0. The tension

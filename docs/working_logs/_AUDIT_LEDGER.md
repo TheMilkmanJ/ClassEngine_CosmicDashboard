@@ -6481,3 +6481,52 @@ outright settling measurement), `bigbang_no_singularity`, `no_singularities` and
 philosophical commitment. `bigbang_no_singularity`'s third bullet — first-cycle Kibble numbers
 resting on ambient-era estimates — is a stated limitation rather than a work order, and was
 left as one.
+
+### Same evening, continued: the run-state sweep, and the retraction that never reached its sentence
+
+Having found one stale run-state claim by check 13, the class was swept properly: every
+forward-facing mention of a chain by name, checked against `ps` and against the chain files on
+disk at 2026-07-29 22:00.
+
+**Ground truth at that moment.** Three runs live: `dyad_mnu_bbnfix` (3 ranks, R−1 = 2.86),
+`cmp_lcdm_mnu_bbnfix` (3 ranks, still in burn-in), `cmp_prtoe_routeD` (2 ranks, ~22 h in).
+Two not running: `cmp_prtoe_zon` (last written 07-22, pre-dates the classy rebuild, unresumable)
+and `conv_desi`, of which **nothing survives on the box but a seed covariance** — no chain file
+at all.
+
+**Three defects, all the same shape as the `s8_growth` one: a correction that landed somewhere
+and did not reach the sentence it was about.**
+
+1. **`PRTOE_MATH_SPINE.md` — a retraction sitting a hundred lines above the phrase it retracts.**
+   The §7 header has carried, since 2026-07-28, a correction reading *"This passage previously
+   named it 'the single decider'."* The sentence it describes lives in the §7 ADDENDUM and still
+   read, verbatim, "the running Route-D MCMC … is the **single decider**." The retracted phrase
+   stood for a full day directly beneath its own retraction. `_AUDIT_PROTOCOL.md` even logs this
+   exact pairing as a known example, which is how thoroughly it had been noticed without being
+   fixed. The sentence now says what the correction says: the clean Route-D prediction was killed
+   analytically by the full-cycle KP solve with no chain involved, and what the chain still
+   settles is only whether the surviving imminent-turn corner lives.
+
+2. **The same header's factual claim had itself gone stale, in the opposite direction.** It reads
+   "there is no running Route-D chain" — true on 07-28, false now: the chain was relaunched and is
+   live with **two** chains rather than the one it describes. Rewritten as a dated supersession
+   that keeps the 07-28 state for the record, and carries the current diagnosis — R−1 = 19331 is a
+   burn-in artefact (the two chains sit 2–7 proposal-σ apart; the number is large because
+   within-chain scatter is 8–70× smaller than the separation while both are still descending), but
+   the run is in a configuration deadlock, since `learn_proposal_Rminus1_max_early` is 1000 and the
+   proposal cannot be relearned until R−1 falls. **The retraction survives the relaunch**, because
+   its real ground was never whether a chain was on the box.
+
+3. **`PRTOE_s8_tension.md` — the correction reached one sibling and not the other.** Its header
+   said the conv_desi chain "is refining the posterior now." Its companion `PRTOE_s8_growth.md`
+   has carried the opposite since 2026-07-28 — the chain died twice and the posterior is
+   unproduced. Two files on the same subject, cross-linked to each other, disagreeing on whether
+   a chain exists. Corrected, with the asymmetry named in the text so the next reader knows which
+   way the propagation failed.
+
+**The pattern worth naming, since it is now four instances in one day.** Every one of these was a
+correction written *near* the defect rather than *on* it — at the head of a section, in a sibling
+file, in a paragraph above a pull-quote. The arithmetic was never wrong. What failed was
+propagation, and no harness catches it, because every individual statement is locally
+well-formed. This is what check 12 is for, and it is why the check is specified as a read of the
+whole file rather than a grep.
