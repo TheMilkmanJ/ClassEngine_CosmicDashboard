@@ -214,7 +214,7 @@ condition the literature identifies as hard to meet.
 > folds the fermion minus in *only* for the supermultiplet rows, and his stated additivity for a
 > massive vector (−1/2 = −2/3 + 1/6) holds only if bosons carry their printed sign. Double-counting
 > that minus would give −16. Forward content survives: a sterile Weyl shifts the balance by +1/6, a
-> fourth generation by +8/3. Instrument: `scripts/supertrace_k1_verify.py`, 15 controls, all pass.
+> fourth generation by +8/3. Instrument: `scripts/supertrace_k1_verify.py`, 16 controls, all pass.
 
 *(The scalar sector.* The count above runs over fermions and gauge bosons,
 whose supertrace is zero for SM + 3ν_R. The Higgs is a complex SU(2) doublet — four real

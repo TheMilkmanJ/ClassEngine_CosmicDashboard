@@ -61,8 +61,8 @@
   {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\ }\textbf {\bibinfo
   {volume} {2004}}\bibfield  {number} {\bibinfo  {number} { (10)},\ \bibinfo
   {pages} {005}},\ }\bibinfo {note} {the reference point for tying the
-  dark-energy density to the neutrino sector dynamically. Cited here as the
-  model-building context this paper explicitly does NOT enter.},\ \Eprint
+  dark-energy density to the neutrino sector dynamically; cited as context, not
+  as a framework adopted here.},\ \Eprint
   {https://arxiv.org/abs/astro-ph/0309800} {arXiv:astro-ph/0309800}
   \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Peccei}(2005)}]{PecceiMaVaN2005}%
@@ -130,11 +130,9 @@
   {\bibfield  {journal} {\bibinfo  {journal} {J. Cosmol. Astropart. Phys.}\
   }\textbf {\bibinfo {volume} {2025}}\bibfield  {number} {\bibinfo  {number} {
   (02)},\ \bibinfo {pages} {021}},\ }\bibinfo {note} {cited for the combined
-  CMB + BAO bound on the neutrino mass sum. The exact number depends on the
-  dataset combination; the text quotes the bound as "reaching 72 meV, with some
-  combinations pressing lower" rather than fixing on one combination.},\
-  \Eprint {https://arxiv.org/abs/2404.03002} {arXiv:2404.03002} \BibitemShut
-  {NoStop}%
+  CMB + BAO bound on the neutrino mass sum, whose exact value depends on the
+  dataset combination adopted.},\ \Eprint {https://arxiv.org/abs/2404.03002}
+  {arXiv:2404.03002} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{nEXO Collaboration}}(2022)}]{nEXO2021}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {{nEXO
@@ -162,11 +160,8 @@
   Group}}},\ }\href@noop {} {\bibinfo {title} {{CUPID} pre-{CDR}}} (\bibinfo
   {year} {2019}),\ \bibinfo {note} {pre-conceptual design report for the
   tonne-scale bolometric search in $^{100}$Mo. Cited for the projected reach
-  only. Entry type is @misc, not @article: it has no journal locator because it
-  is a design report, and as @article apsrev4-2 throws 13 errors matching a
-  missing journal against its abbreviation table -- the same trap Kulkarni2020
-  hit in the radio-lattice paper.},\ \Eprint {https://arxiv.org/abs/1907.09376}
-  {arXiv:1907.09376 [physics.ins-det]} \BibitemShut {NoStop}%
+  only.},\ \Eprint {https://arxiv.org/abs/1907.09376} {arXiv:1907.09376
+  [physics.ins-det]} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{KamLAND-Zen Collaboration}}(2023)}]{KamLANDZen2023}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {{KamLAND-Zen

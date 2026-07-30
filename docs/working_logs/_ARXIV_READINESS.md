@@ -933,7 +933,7 @@ str[k₁] paper has gone from "shortest path" to "three unpaid debts, one of the
 ### Debts 1 and 2 PAID (2026-07-29) — the claim verifies, with one unit correction
 
 **Debt 1: str[k₁] computed independently from Visser's Table 1.** `scripts/supertrace_k1_verify.py`,
-15 controls including two anti-controls, all passing. **The corpus's claim is CONFIRMED.**
+16 controls including two anti-controls, all passing. **The corpus's claim is CONFIRMED.**
 
 The sign convention was the whole risk. Visser's table lists a Weyl spinor at k₁ = −1/6; the balance
 needs +1/6. That is not a double-counted minus — his caption folds the fermion sign in **only for
@@ -1230,3 +1230,73 @@ it, still clean at 3 pp.
 **All three are submittable today. The only remaining item on any of them is an endorsement**, which
 is the owner's. None depends on a chain, a lattice, or any unconverged quantity, and each survives
 the wider framework being wrong.
+
+---
+
+## 2026-07-29, later: two defects found in packages already called submittable
+
+Both were caught by reading the *rendered* PDFs rather than the build log. A clean
+`texcheck` (0 errors / 0 undefined / 0 overfull) does not mean the paper reads correctly —
+it means LaTeX did not complain.
+
+**Defect 1: internal working notes were being typeset into the reference lists.**
+apsrev4-2 prints BibTeX `note` fields. Those fields had been used as an audit trail, so the
+radio-lattice bibliography carried, in the published reference list, sentences like
+"NOTE ON METHOD: the bibcode was read from an ADS search listing", "entry type changed
+@article -> @misc 2026-07-28", "Caught by the first compile the paper has ever had", and
+"Recorded rather than papered over". Four entries in radio-lattice (GordonSorochenko2009,
+LorimerKramer2004, Kulkarni2020, RybickiLightman1979) and one in neutrino-mbb (CUPID2019).
+
+Fixed by moving the provenance into `%` comments, which BibTeX does not read and
+apsrev4-2 cannot typeset. Nothing was discarded — the verification record survives in the
+`.bib` source. Two further notes (DESI2024, FardonNelsonWeiner2004) were trimmed of
+note-to-self phrasing but kept, since their substance is a normal scholarly annotation.
+
+Ten note fields were deliberately **left alone**: Rahmani2012, Kanekar2010,
+JonesNANOGrav2017, NANOGravDM2023, OSullivanLoTSS2023, LiuAlphaClusters2021,
+deMartinoAlphaClusters2016, KanekarMethanol2015, BagdonaiteMethanol2013, Lemos2025, and in
+the other paper nEXO2021, LEGEND1000, KamLANDZen2023, NuFIT2020, DellOroReview2016. These
+state measured values, redshift ranges, instruments and sample sizes — exactly what an
+annotated bibliography is for, and they read as a physicist's notes rather than a
+workflow's.
+
+**Defect 2: all three papers carried an empty `acknowledgments` environment**, which
+revtex4-2 renders as a bare "ACKNOWLEDGMENTS" heading above the bibliography with nothing
+beneath it. Removed from all three.
+
+**Re-verified after the fixes.** All three rebuild at 0 errors / 0 undefined / 0 overfull
+with page counts unchanged (7 / 4 / 3 pp). A grep of the rendered PDFs for the leaked
+vocabulary — VERIFIED, NOTE ON METHOD, entry type changed, apsrev, Crossref, papered over,
+bibcode, first compile, ACKNOWLEDGMENT — now returns zero hits in all three.
+
+**Packages rebuilt.** The previous `_submission/` tarballs held the pre-fix text and were
+stale the moment these edits landed; they have been replaced.
+
+## Reorganised at the owner's request: one self-contained folder per paper
+
+`papers/_submission/` is gone. Each paper now owns everything about itself:
+
+    papers/README.md                     index, with the framework-dependence table
+    papers/<paper>/README.md             what it claims, and its relation to the framework
+    papers/<paper>/main.tex, refs.bib    source
+    papers/<paper>/main.pdf              built
+    papers/<paper>/submission/           exactly what arXiv receives
+    papers/<paper>/<paper>.tar.gz        that directory, tarred
+
+Each `submission/` was re-tested by copying it into an empty scratch directory and running
+pdflatex twice with nothing else present — the only test that matters, since that is what
+arXiv does. All three clean.
+
+The framework-dependence question the owner asked is worth recording, because none of the
+three papers names the framework anywhere in its text:
+
+- **supertrace-note — no dependence at all.** Entirely about Navarro-Salas (CQG 2024) and
+  Visser (2002). Could have been written by someone who had never seen this corpus. The
+  natural one to send out first.
+- **neutrino-mbb — no dependence as written.** Its input, m₁ = ρ_Λ^(1/4) ≃ 2.25 meV, is
+  introduced as a hypothesis, not derived. The corpus reaches m₁ = 2.24 meV by its own
+  route (P-2026-012), which is why the calculation was worth doing, but the paper never
+  appeals to that.
+- **radio-lattice — motivated by the framework, does not rest on it.** ε is the
+  electron-coupled scalar's imprint, but the paper treats it as a free amplitude to be
+  fitted rather than predicted, and says so in the abstract.

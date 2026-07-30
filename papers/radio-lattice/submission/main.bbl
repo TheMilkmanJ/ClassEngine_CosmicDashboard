@@ -228,13 +228,7 @@
   {\bibinfo {title} {Radio Recombination Lines: Their Physics and Astronomical
   Applications}}},\ \bibinfo {series} {Astrophysics and Space Science Library},
   Vol.\ \bibinfo {volume} {282}\ (\bibinfo  {publisher} {Springer},\ \bibinfo
-  {address} {New York},\ \bibinfo {year} {2009})\ \bibinfo {note} {vERIFIED
-  against the Crossref record for the DOI, 2026-07-28: title, authors,
-  publisher (Springer New York), year (2009), series, and both ISBNs
-  (978-0-387-09604-9 print, 978-0-387-09691-9 electronic) all confirmed. One
-  caveat recorded rather than hidden: the series VOLUME NUMBER is ABSENT from
-  the Crossref record. The 282 above is corroborated by the publisher's own
-  catalogue listing for this ISBN, not by Crossref}\BibitemShut {NoStop}%
+  {address} {New York},\ \bibinfo {year} {2009})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lorimer}\ and\ \citenamefont
   {Kramer}(2004)}]{LorimerKramer2004}%
   \BibitemOpen
@@ -243,26 +237,15 @@
   {Kramer}},\ }\href@noop {} {\emph {\bibinfo {title} {Handbook of Pulsar
   Astronomy}}},\ \bibinfo {series} {Cambridge Observing Handbooks for Research
   Astronomers}, Vol.~\bibinfo {volume} {4}\ (\bibinfo  {publisher} {Cambridge
-  University Press},\ \bibinfo {address} {Cambridge},\ \bibinfo {year} {2004})\
-  \bibinfo {note} {year VERIFIED 2026-07-28 against the ADS bibcode
-  2004hpa..book.....L, which records December 2004 and is the citation form the
-  pulsar literature uses. Cambridge's own catalogue and several secondary
-  indexes give 2005, so the discrepancy is real but resolved in favour of 2004;
-  series (Cambridge Observing Handbooks for Research Astronomers, vol. 4) and
-  ISBN 978-0-521-82823-9 independently confirmed. NOTE ON METHOD: the bibcode
-  was read from an ADS search listing, not fetched from the ADS record itself,
-  whose interface is script-rendered and returned empty content}\BibitemShut
-  {NoStop}%
+  University Press},\ \bibinfo {address} {Cambridge},\ \bibinfo {year}
+  {2004})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kulkarni}(2020)}]{Kulkarni2020}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
   {Kulkarni}},\ }\href@noop {} {\bibinfo {title} {Dispersion measure:
-  Confusion, constants \& clarity}} (\bibinfo {year} {2020}),\ \bibinfo {note}
-  {arXiv eprint; entry type changed @article -> @misc 2026-07-28. As @article
-  with no journal field, apsrev4-2 threw 13 errors trying to match a missing
-  journal against its abbreviation table. Caught by the first compile the paper
-  has ever had},\ \Eprint {https://arxiv.org/abs/2007.02886} {arXiv:2007.02886
-  [astro-ph.HE]} \BibitemShut {NoStop}%
+  Confusion, constants \& clarity}} (\bibinfo {year} {2020}),\ \Eprint
+  {https://arxiv.org/abs/2007.02886} {arXiv:2007.02886 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Rybicki}\ and\ \citenamefont
   {Lightman}(1979)}]{RybickiLightman1979}%
   \BibitemOpen
@@ -270,14 +253,7 @@
   {Rybicki}}\ and\ \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
   {Lightman}},\ }\href@noop {} {\emph {\bibinfo {title} {Radiative Processes in
   Astrophysics}}}\ (\bibinfo  {publisher} {Wiley},\ \bibinfo {address} {New
-  York},\ \bibinfo {year} {1979})\ \bibinfo {note} {checked 2026-07-29.
-  Crossref carries NO record of the 1979 Wiley original; the only registered
-  record is the 1985 Wiley-VCH reissue (DOI 10.1002/9783527618170, print ISBN
-  9783527414499), whose Crossref entry confirms the title and both authors. The
-  1979 year and the ISBN above therefore rest on the field-standard citation
-  form and the publisher's own printing, not on a Crossref record. Recorded
-  rather than papered over. No chapter or section numbers are cited anywhere,
-  precisely because they were never verified}\BibitemShut {NoStop}%
+  York},\ \bibinfo {year} {1979})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Brentjens}\ and\ \citenamefont
   {de~Bruyn}(2005)}]{BrentjensDeBruyn2005}%
   \BibitemOpen
