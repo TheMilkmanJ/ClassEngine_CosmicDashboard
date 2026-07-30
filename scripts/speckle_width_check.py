@@ -1,5 +1,26 @@
 #!/usr/bin/env python3
 """
+*** SUPERSEDED IN ITS NUMBERS, 2026-07-29 (same day). READ THIS FIRST. ***
+
+Every width figure below uses eps for the coupling. **The coupling is kappa_Theta, not
+eps.** PRTOE_me_trigger.md sec. 5 gives m_e = m_bare(1 + kappa*Theta) with
+kappa = -2 eps/(1+eps) = -2.478%, so the per-cell scatter is |kappa|*sd(Theta) = 6.19e-3,
+not the 3.14e-3 used here, and the 21 cm broadening is 3714 km/s, not 1880. Everything
+below is LOW BY 2/(1+eps) = 1.975x.
+
+The ARGUMENT is unaffected and is why this file is kept rather than deleted: averaging
+divides a centroid error by sqrt(N) and cannot touch a width, because N is absent from the
+width. Correcting the coupling makes that tension worse, not better -- and relocates it to
+MULTI-STREAM gas (halos, filaments), which is where 21 cm and methanol absorbers actually
+are. Two further errors of mine are corrected there too: I had Theta's endpoints inverted
+(voids are Theta = 0 and carry the FULL shift; halos are Theta = 1/2 and sit on the lab
+value), and I wrongly claimed a factor-2 fork in two registered predictions.
+
+**Use scripts/theta_coupling_resolved.py for the numbers.** This file is retained for
+provenance: it is what was computed before the coupling constant was checked.
+
+--------------------------------------------------------------------------------------
+
 Docket #62's check, run. It does not kill the model -- it kills the ROUTE, and the route
 it kills is the one the corpus had just called load-bearing.
 
