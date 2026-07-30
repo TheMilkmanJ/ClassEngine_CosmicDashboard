@@ -166,6 +166,19 @@ the one-loop contribution to Newton's constant is finite"* — and, as Visser no
 becomes independent of the renormalization scale. These are, in his words, *"very strong
 constraints on the particle content,"* not derivable from supersymmetry alone.
 
+> **What imposing the zero COSTS, settled 2026-07-29.** Visser's Eq. 29 is
+> 1/G ≈ −(1/2π)·str[k₁]·κ², with str[k₁] ≈ −1 in his estimate. **Setting str[k₁] = 0 therefore
+> switches Sakharov induction off at leading order: the κ² term that would generate Newton's
+> constant vanishes.** Visser flags the tension himself — the finiteness assumption *"is completely
+> at odds with Sakharov's original version."*
+>
+> This is not a hole in the argument once stated correctly, and the correct statement is the
+> stronger one. **The claim is not that this field content induces gravity. It is that for Standard
+> Model content plus three right-handed neutrinos and a conformally coupled Higgs, the one-loop
+> matter correction to Newton's constant is finite — so G can be a genuine tree-level constant
+> rather than a quantity fine-tuned against a Planck-scale divergence.** That is a naturalness
+> statement about G, not an induction statement, and it is what any manuscript must say.
+
 **Prior art on the conclusion, recorded 2026-07-28.** The generation count reached here is not a
 new result. [Navarro-Salas 2024, arXiv:2403.13201, *Classical and Quantum Gravity*] requires
 **exact conformal symmetry** — both trace-anomaly coefficients vanishing — and concludes that the
@@ -181,10 +194,27 @@ over one roster, agreeing because the roster does the work. What is not known to
 the route taken here — str[k₁] = 0 evaluated for Standard Model plus three right-handed
 neutrinos — and the search establishing that is a partial negative, not a clean one.
 
-**The Standard Model alone does not satisfy it (str[k₁] = −3). It is satisfied exactly —
-to zero — by the Standard Model plus three right-handed neutrinos: the content this
-framework independently requires for Majorana neutrino masses.** The framework's field
-content lands on a knife-edge condition the literature identifies as hard to meet.
+**The Standard Model alone does not satisfy it. It is satisfied exactly — to zero — by the
+Standard Model plus three right-handed neutrinos: the content this framework independently
+requires for Majorana neutrino masses.** The framework's field content lands on a knife-edge
+condition the literature identifies as hard to meet.
+
+> **⚠ UNITS, corrected 2026-07-29 — verified, but state it two ways.** An earlier version of this
+> paragraph read "str[k₁] = −3" for the Standard Model alone. **In Visser's normalisation the value
+> is −1/2.** The −3 is the deficit counted in **Weyl spinors** (45 against the 48 required), and the
+> two are related by the +1/6 each Weyl contributes: (−3)/6 = −1/2. Both statements are true and the
+> Weyl deficit is the more legible one, but **a referee checking Visser's Table 1 will compute −1/2
+> and conclude the arithmetic is broken.** Any manuscript must give −1/2 as str[k₁] with the Weyl
+> deficit alongside it.
+>
+> The balance itself is confirmed by independent computation from Visser's published coefficients:
+> 48 Weyl × (+1/6) = +8 against 12 massless vectors × (−2/3) = −8, the integer identity
+> **N_½ = 4N₁, i.e. 48 = 4 × 12**, with no slack. The sign convention — the one thing that could
+> have destroyed the result — is settled by Visser's own table rather than assumed: his caption
+> folds the fermion minus in *only* for the supermultiplet rows, and his stated additivity for a
+> massive vector (−1/2 = −2/3 + 1/6) holds only if bosons carry their printed sign. Double-counting
+> that minus would give −16. Forward content survives: a sterile Weyl shifts the balance by +1/6, a
+> fourth generation by +8/3. Instrument: `scripts/supertrace_k1_verify.py`, 15 controls, all pass.
 
 *(The scalar sector.* The count above runs over fermions and gauge bosons,
 whose supertrace is zero for SM + 3ν_R. The Higgs is a complex SU(2) doublet — four real
