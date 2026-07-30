@@ -1170,3 +1170,54 @@ exponential; the cold kernel is self-consistently the correct host for the very 
 computes. What this section does **not** decide — and re-homes rather than smuggles — is why the
 pairing sea fills at the reduced-Planck scale at all: that is the scale-selection question of
 §6a and §6i, a different question from the screening host's, and it stays with them.
+
+---
+
+### 6f, examined (2026-07-29): the double-counting argument has a gap, and closing it is ontological
+
+The four narrowing arguments above were checked. The table reproduces (4πm_H = 1574 GeV; ×2.00,
+×11.2, ×953), the adverse-sign argument holds (landing the anchor exactly needs 1/α = 140.74 at the
+pairing scale, weaker than the infrared 137.04, while running goes the other way), and the
+dismissal of the α_c ∈ [0.0205, 0.0214] band as a constraint is correct. **One argument is weaker
+than it reads.**
+
+**The gap.** The double-counting claim is that §6c already carries the momentum dependence through
+V(q) = e²/(q² + m_D²) = (e²/q²)/ε(q), so running the charge as well applies the same physics twice.
+That is right for the medium's *own* polarization — Thomas–Fermi screening by real carriers at the
+Fermi surface is exactly what m_D² resums. But the running of α in ordinary quantum electrodynamics
+comes from **vacuum polarization by virtual pairs**, which is a physically distinct effect present
+with no medium at all. In a conventional many-body calculation the two are independent and both
+apply; they only coincide if there is no separate vacuum to polarize.
+
+**Which is exactly what horn (b) asserts.** The corpus's stance is that α_c is the medium's coupling
+to its own massless Goldstone and that light *is* that Goldstone. On that reading there is no second
+polarization function: the virtual pairs that would generate the running *are* the medium's own
+excitations, and m_D² already resums them. The double-counting argument is therefore **not a
+general many-body argument — it is a consequence of the framework's central identification**, and it
+is sound only if that identification is.
+
+### What that makes §6f
+
+Not a loose end. **A consistency test of the framework's foundational claim**, and the file should
+say so:
+
+| if | then |
+|---|---|
+| the medium **is** the vacuum (horn b) | one polarization function, α(0) is the only value with the right meaning in §6c, anchor ×2.00 stands |
+| the medium sits **inside** a QED vacuum (horn a) | vacuum polarization and medium screening are distinct, both apply, anchor moves to ×11.2 or worse |
+
+The leverage makes this decisive rather than academic: a 7.1% shift in α from the infrared to M_Z
+moves the anchor by **5.6×**, because ∂lnM/∂lnα_c ≈ 25 compounds k's own response.
+
+So §6f cannot be closed by a better calculation of the vertex or the screening. **It is closed only
+by the framework's ontology, and it therefore inherits whatever confidence that ontology has —
+which is exactly why any manuscript must present the anchor as conditional on horn (b) rather than
+as a derived number.** Stated that way it is honest and still interesting: the hierarchy anchor
+becomes a *test* of the light-is-the-Goldstone identification, since horn (a) would put the anchor
+an order of magnitude off and thereby falsify the identification rather than merely shifting a
+figure.
+
+*Unchanged by this pass:* the adverse-sign result, the worthlessness of the unconverged band as a
+constraint, and the arithmetic of the table. *Changed:* the double-counting argument is downgraded
+from independent to conditional, and the fork is re-labelled from an open technical question to a
+load-bearing consistency test.
