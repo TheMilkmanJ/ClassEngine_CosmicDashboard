@@ -6530,3 +6530,68 @@ file, in a paragraph above a pull-quote. The arithmetic was never wrong. What fa
 propagation, and no harness catches it, because every individual statement is locally
 well-formed. This is what check 12 is for, and it is why the check is specified as a read of the
 whole file rather than a grep.
+
+---
+
+## 2026-07-30 — routeD stopped and relaunched: it was never going to converge
+
+**The trigger.** The owner pushed back on R−1 = 19331 rather than accepting "slow but
+not broken", and was right to. My 2026-07-29 reading — "a burn-in artefact, gaps only
+2–7 proposal-σ, leave it running" — understated it. Recomputing R−1 from the chain files
+directly gives ~11,500 at cobaya's recorded point and ~12,100 nine hours later: **flat,
+not falling.**
+
+**What the number actually was.** R−1 is the largest eigenvalue of
+Cov(chain means) · Cov(within-chain)⁻¹ — separation divided by movement. The within-chain
+covariance had a condition number of **7.4 × 10⁹**, i.e. numerically near-singular: there
+were directions in which the chains essentially did not move. A modest separation over an
+almost-zero spread gives five figures. The statistic was correct and was reporting a
+stuck sampler, which is exactly what a decomposition shows and a wait never would.
+
+**The finding that settles it.** The two chains explored **completely non-overlapping
+ranges for a full day**:
+
+| parameter | chain 1 | chain 2 | overlap |
+|---|---|---|---|
+| `dcdf_conv_g` | [0.2743, 0.2993] | [0.1024, 0.1150] | none |
+| `m_ncdm` | [0.0787, 0.1912] | [0.0043, 0.0137] | none |
+| `dcdf_rho_inf` | [0.7380, 0.7485] | [0.7193, 0.7254] | none |
+
+The `dcdf_conv_g` gap is 0.16 — **twelve times chain 1's entire explored width**. Neither
+chain ever entered the other's territory in ~1200 samples each. Not a rival mode either:
+chain 1 sat 94 log-units worse (minuslogpost 1480.8 vs 1386.8, Δχ² ≈ 188), so it never
+found the basin rather than finding a competing one.
+
+**Root cause, and I had the mechanism half right and the parameter wrong.** The seed
+covmat gave `dcdf_conv_g` a proposal sd of 0.03 against a local posterior width of 0.0047
+— the proposal was ~6× too **wide**, so nearly every step in that direction was rejected
+and true acceptance sat at 6.3% / 5.8%. The cure for a mis-scaled proposal is proposal
+learning, and it was refused at every check.
+
+**CORRECTION to my own 2026-07-29 diagnosis.** I blamed
+`learn_proposal_Rminus1_max_early: 1000`. That is **not** the gate. Reading cobaya's
+source (`samplers/mcmc/mcmc.py` ~line 429), `_max_early` is substituted for `_max` *only
+when the covmat is missing or incomplete*; this run supplied a complete one, so
+`_max_early` never applied at all. The gate that refused was
+`learn_proposal_Rminus1_max: 100.0` against R−1 ≈ 12000. **Raising `_max_early` alone, as
+I proposed yesterday, would have changed nothing.** Checking the source rather than
+trusting the parameter name is what caught it.
+
+**The relaunch (03:50).** Prior run archived intact to
+`chains/_archive_routeD_stuck_20260730_0340/` with its own `WHY_ARCHIVED.md`. Two fixes:
+
+1. `learn_proposal_Rminus1_max` 100 → 10000, so a rough start can still learn.
+2. `covmat: routeD_seed → routeD_relaunch`, rebuilt from chain 2's post-burn-in samples,
+   eigenvalue-floored at 1e-6 of the maximum (the raw estimate had condition number
+   4.6 × 10⁹ — ω_b came out at sd 1.3e-6, a pure stuck-chain artefact) and inflated 2× in
+   sd to hedge the known tendency of a stuck chain to understate its own widths. The new
+   proposal is 8–18% of the old width in the dark-sector directions.
+
+**A launcher trap worth recording, hit on the first attempt.** `mpirun` on PATH resolves
+to `~/miniconda3/envs/prtoe_gold/bin/mpirun`, which is MPICH-family and sets `PMI_SIZE`;
+mpi4py under `/usr/bin/python3.12` is built against **Open MPI**. Each rank then reports
+"rank 0 of 1", both try to claim the output lock, and cobaya dies with
+`File ... .locked is locked` plus `Your current mpi4py config is: {}`. The live chains all
+use `/usr/bin/mpirun` (→ `orterun`) explicitly. Verified before relaunching: two ranks now
+report "rank 0 of 2" / "rank 1 of 2". **Always launch with `/usr/bin/mpirun`, never a bare
+`mpirun`.**
