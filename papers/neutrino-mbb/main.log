@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  29 JUL 2026 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  29 JUL 2026 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,149 +433,91 @@ Package hyperref Info: Link coloring ON on input line 8.
 Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 8.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `\\' on input line 41.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 1365) in paragraph at lines 179--184
+\OT1/cmr/m/n/10 so min-i-mal nor-mal or-der-ing has a hard ceil-ing at
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 154.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 154.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 180.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 180.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 203.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 203.
+Underfull \hbox (badness 1515) in paragraph at lines 195--199
+[]\OT1/cmr/m/n/10 Projected ten-year reaches for the ton-scale pro-
+ []
 
 [2]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 228.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 228.
-
-
-Underfull \hbox (badness 2913) in paragraph at lines 304--309
-\OT1/cmr/m/n/10 in which both $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 and $\OML/cm
-m/m/it/10 m[]$ \OT1/cmr/m/n/10 can-cel iden-ti-cally, the
- []
-
-[3] [4] [5] (./main.bbl
-Underfull \hbox (badness 3128) in paragraph at lines 64--70
- []\OT1/cmr/m/n/9 J.-P. Uzan, [][]Liv-ing Rev. Rel-a-tiv-ity \OT1/cmr/bx/n/9 14
-\OT1/cmr/m/n/9 , 2 (2011)[][],
+Underfull \hbox (badness 1147) in paragraph at lines 253--256
+\OT1/cmr/m/n/10 change dom-i-nates the am-pli-tude. If other lepton-
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 98--104
- []\OT1/cmr/m/n/9 Planck Col-lab-o-ra-tion, [][]As-tron. As-tro-phys. \OT1/cmr/
-bx/n/9 580\OT1/cmr/m/n/9 , A22
+Underfull \hbox (badness 1742) in paragraph at lines 270--274
+\OT1/cmr/m/n/10 energy scale, with nor-mal or-der-ing, gives $\OML/cmm/m/it/10 
+m[] \OMS/cmsy/m/n/10 2
  []
 
-[6]
-Underfull \hbox (badness 2035) in paragraph at lines 335--345
- []\OT1/cmr/m/n/9 N. Kanekar, J. X. Prochaska, S. L. El-li-son, and
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 350--358
- []\OT1/cmr/m/n/9 T. Lemos, R. Gon^^Xcalves, J. Car-valho, and J. Al-
+(./main.bbl
+Underfull \hbox (badness 3746) in paragraph at lines 112--119
+ []\OT1/cmr/m/n/9 I. Es-te-ban, M. C. Gonzalez-Garcia, M. Mal-toni,
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 375--385
- []\OT1/cmr/m/n/9 S. V. Sosa Fis-cella, M. T. Lam, Z. Ar-zou-ma-nian,
+Underfull \hbox (badness 1107) in paragraph at lines 129--138
+ \OT1/cmr/m/n/9 on the neu-trino mass sum. The ex-act num-ber de-
  []
 
-) [7] (./main.aux)
+[3]) [4] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5C3AF99400B4DE32FADFF2EE2590A3F6;4273.
+(rerunfilecheck)             Checksum: DC5407E980F855C11D8062F8A08671FF;2903.
  ) 
 Here is how much of TeX's memory you used:
- 11902 strings out of 476182
- 176893 string characters out of 5795595
- 1952975 words of memory out of 5000000
- 33672 multiletter control sequences out of 15000+600000
- 571595 words of font info for 85 fonts, out of 8000000 for 9000
+ 11778 strings out of 476182
+ 174261 string characters out of 5795595
+ 1957975 words of memory out of 5000000
+ 33587 multiletter control sequences out of 15000+600000
+ 571236 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,79p,477b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,659b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on main.pdf (7 pages, 319252 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msam10.pfb>
+Output written on main.pdf (4 pages, 259623 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

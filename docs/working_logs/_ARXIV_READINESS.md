@@ -974,3 +974,62 @@ That is a naturalness statement about G, not an induction statement, and it is c
 Visser's own remark that the finiteness condition *"is completely at odds with Sakharov's original
 version."* Stated this way debt 2 is discharged rather than merely flagged. **Debt 3 — positioning
 against Visser 2018 — remains, and is a writing task, not a physics one.**
+
+## Second paper drafted: the 0νββ window — `papers/neutrino-mbb/` (2026-07-29)
+
+**Every number recomputed from oscillation data before a word was written.**
+`scripts/mbb_paper_verify.py`, 17 controls including three anti-controls, all passing. The corpus's
+(1.52, 2.67, 1.10) meV, the [0.04, 5.30] meV window, Σm_ν, the [1.48, 3.69] minimal-ordering
+window, and all four probabilities (10.8%, 69.1%, 63.7%, 31.8%) reproduce.
+
+### How it is framed, and why that framing was necessary
+
+The map from m_lightest to m_ββ is textbook and the allowed region appears in every review. **The
+paper says so in the introduction, in as many words** — otherwise it reads as reinventing a standard
+plot. What it actually contributes is the placement: evaluating that standard band at
+m₁ = ρ_Λ¼ = 2.25 meV lands just above minimal normal ordering's hard ceiling, and the gap between
+them is where one planned experiment is projected to look.
+
+The physics that makes it more than a lookup is the near-cancellation. The floor exists only because
+the middle term beats the other two by **0.045 meV on terms of order 2.6** — a 1.7% margin, protected
+by nothing, gone entirely above m₁ ≈ 2.32 meV. That same near-degeneracy is what makes m_ββ steep in
+m₁. The paper states the fragility rather than selling the floor, and notes that nothing observable
+rides on it.
+
+**The discriminating interval is the result.** Minimal ordering cannot exceed 3.69 meV at any phases;
+this hypothesis reaches 5.30 and occupies 3.69–5.30 meV about 32% of the time. Baseline nEXO's
+4.7–5.3 meV overlap falls entirely inside it. The barium-tagged upgrade raises detection probability
+from 10.8% to 69% but **separates almost nothing**, since minimal ordering also clears 2.35 meV 63.7%
+of the time. The unimproved machine is the discriminating one — that inversion is the paper's point.
+
+### Corrections carried in
+
+- **KamLAND-Zen's limit is m_ββ < 28–122 meV**, not the 28–180 recorded in
+  `PRTOE_neutrino_sector.md`. The verified number is used.
+- The **observed** 2.25 meV is used throughout, never the derived 2.2599. Anti-control M-H confirms
+  this cannot matter: the derived value moves the floor and leaves the ceiling alone.
+- The in-house contradiction the readiness file warned about (P-2026-023's 0.07–0.09 eV band against
+  an unconverged chain) **does not appear in the paper at all** — no chain-dependent quantity does.
+
+### Verified state
+
+| | |
+|---|---|
+| from-scratch build | bibtex 0, **0 errors, 0 undefined, 0 overfull**, 4 pp, 256 KB |
+| as arXiv builds it (main.tex + main.bbl) | 0 / 0 / 0, 4 pp |
+| abstract | 1675 / 1920 |
+| bibliography | 11 entries, **all 11 cited**, 0 orphans, 0 missing |
+| prose | 77 sentences, mean 19.3 words, one over 55 |
+| scaffolding / markdown artifacts | none |
+
+Target: **hep-ph**, cross-list astro-ph.CO.
+
+> ### A methodological catch worth keeping
+> The build checks in this session used `grep -c`, and on this machine `grep` is **ugrep**, which
+> prints *nothing* rather than `0` when there are no matches. An empty result is therefore
+> indistinguishable from a failed invocation, and this paper reported "clean" while carrying
+> **20 LaTeX errors**. Re-checked with a Python counter: radio-lattice is genuinely 0/0/0, so no
+> earlier claim about it was wrong — but it could have been. **Build verification now goes through
+> `texcheck.py`, which parses `main.log` directly.** The two errors it caught here were markdown
+> `**bold**` left in the source and bare underscores inside BibTeX `note` fields, which apsrev4-2
+> typesets into the bibliography.

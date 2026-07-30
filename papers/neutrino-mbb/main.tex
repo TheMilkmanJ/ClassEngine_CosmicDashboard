@@ -1,0 +1,290 @@
+\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,10pt]{revtex4-2}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{bm}
+
+\begin{document}
+
+\title{If the lightest neutrino mass is the dark-energy scale:\\
+a narrow window for neutrinoless double-beta decay}
+
+\author{Justin Pulford}
+\email{pulfordj420@gmail.com}
+\affiliation{Unaffiliated}
+
+\date{\today}
+
+\begin{abstract}
+The observed dark-energy density corresponds to an energy scale
+$\rho_\Lambda^{1/4} \simeq 2.25\,$meV, close to the neutrino mass splittings. This numerical
+proximity is long noted and has motivated a substantial model-building literature. We do not
+propose a mechanism. Instead we take the sharpest arithmetic version of the coincidence as a
+hypothesis --- that the lightest neutrino mass equals that scale, $m_1 = 2.25\,$meV, with normal
+ordering --- and ask what it implies for neutrinoless double-beta decay. The mapping from
+$m_{\rm lightest}$ to the effective Majorana mass is standard and the resulting band appears in
+every review of the subject; what is specific here is the consequence of evaluating it at this one
+value. With current oscillation parameters the three contributions are
+$(1.52, 2.67, 1.10)\,$meV, giving $m_{\beta\beta} \in [0.04, 5.30]\,$meV and
+$\Sigma m_\nu = 61.3\,$meV. The lower edge is not protected by any symmetry: it is nonzero only
+because the middle term exceeds the other two combined by $0.045\,$meV, so the three phasors cannot
+close. That same near-cancellation makes $m_{\beta\beta}$ an unusually steep function of $m_1$. The
+observationally useful statement is the upper edge. Minimal normal ordering ($m_1 = 0$) cannot
+exceed $3.69\,$meV at any phases, while this hypothesis reaches $5.30\,$meV and occupies the
+interval between them $32\%$ of the time. The projected reach of a single planned experiment falls
+inside that interval, so a detection there would be difficult to attribute to minimal ordering,
+while a detection above $5.30\,$meV excludes the hypothesis outright. A null result constrains
+nothing, at any sensitivity.
+\end{abstract}
+
+\maketitle
+
+% ---------------------------------------------------------------------------
+\section{Introduction}\label{sec:intro}
+
+The energy density of dark energy, expressed as a mass scale, is
+%
+\begin{equation}
+  \rho_\Lambda^{1/4} \simeq 2.25\,\mathrm{meV},
+  \label{eq:rho}
+\end{equation}
+%
+which lies within an order of magnitude of $\sqrt{\Delta m^2_{21}} \simeq 8.6\,$meV and two orders
+of $\sqrt{\Delta m^2_{31}} \simeq 50\,$meV. That the cosmological constant and the neutrino masses
+should sit at comparable scales, when they are separated by every other consideration in the
+Standard Model, has been remarked on for decades and has motivated a large body of model building
+--- most directly the mass-varying-neutrino scenarios in which the dark-energy density is tied
+dynamically to the neutrino sector~\cite{FardonNelsonWeiner2004,PecceiMaVaN2005}.
+
+We take no position on any of those mechanisms, and we propose no new one. Our purpose is narrower
+and, we think, more useful: the coincidence in Eq.~\eqref{eq:rho} admits one arithmetically sharp
+reading, and that reading has consequences which are close to being tested. The reading is
+%
+\begin{equation}
+  m_1 = \rho_\Lambda^{1/4} = 2.25\,\mathrm{meV}, \qquad \text{normal ordering},
+  \label{eq:hyp}
+\end{equation}
+%
+with $m_1$ the lightest neutrino mass. Everything below follows from Eq.~\eqref{eq:hyp} together
+with measured oscillation parameters. No cosmological model enters, and nothing we compute depends
+on why Eq.~\eqref{eq:hyp} might hold.
+
+\emph{What is and is not new here.} The map from the lightest mass to the effective Majorana mass
+$m_{\beta\beta}$ is textbook, and the familiar lobster-shaped allowed region in the
+$(m_{\rm lightest}, m_{\beta\beta})$ plane appears in every review of neutrinoless double-beta
+decay~\cite{DellOroReview2016,AgostiniReview2023}. Evaluating it at one particular value of
+$m_{\rm lightest}$ is not a new calculation. What we draw out is that this particular value lands
+in an unusually informative place: it sits just above the reach of minimal normal ordering, and the
+gap between the two is where one planned experiment is projected to look. That placement, and the
+detection probabilities attached to it, is the content of this paper.
+
+Section~\ref{sec:calc} fixes the inputs and computes the window. Section~\ref{sec:floor} explains
+why the lower edge is nonzero and why it is fragile. Section~\ref{sec:test} sets out what would
+distinguish the hypothesis from minimal ordering and what would refute it. Section~\ref{sec:assume}
+states the assumptions.
+
+% ---------------------------------------------------------------------------
+\section{The effective mass}\label{sec:calc}
+
+For three Majorana neutrinos the amplitude for neutrinoless double-beta decay is controlled by
+%
+\begin{equation}
+  \begin{aligned}
+    m_{\beta\beta} &= \Big| \sum_{i=1}^{3} U_{ei}^2\, m_i \Big| \\[2pt]
+    &= \Big| c_{12}^2 c_{13}^2 m_1 + s_{12}^2 c_{13}^2 m_2 e^{i\alpha_2}
+       + s_{13}^2 m_3 e^{i\alpha_3} \Big|,
+  \end{aligned}
+  \label{eq:mbb}
+\end{equation}
+%
+with $\alpha_2, \alpha_3$ the Majorana phases, which oscillation experiments do not constrain. We
+use $\sin^2\theta_{12} = 0.307$, $\sin^2\theta_{13} = 0.022$,
+$\Delta m^2_{21} = 7.42 \times 10^{-5}\,\mathrm{eV}^2$ and
+$\Delta m^2_{31} = 2.51 \times 10^{-3}\,\mathrm{eV}^2$, consistent with current global
+fits~\cite{NuFIT2020,PDG2024}. With $m_2 = (m_1^2 + \Delta m^2_{21})^{1/2}$ and
+$m_3 = (m_1^2 + \Delta m^2_{31})^{1/2}$, Eq.~\eqref{eq:hyp} gives
+$m_2 = 8.90\,$meV, $m_3 = 50.15\,$meV, and
+%
+\begin{equation}
+  \Sigma m_\nu = 61.3\,\mathrm{meV}.
+  \label{eq:sum}
+\end{equation}
+%
+The three contributions to Eq.~\eqref{eq:mbb} are
+%
+\begin{equation}
+  \big( |U_{e1}^2 m_1|,\ |U_{e2}^2 m_2|,\ |U_{e3}^2 m_3| \big)
+  = (1.52,\ 2.67,\ 1.10)\ \mathrm{meV}.
+  \label{eq:terms}
+\end{equation}
+%
+Varying the phases over their full range gives
+%
+\begin{equation}
+  \boxed{\ 0.04\,\mathrm{meV} \;\le\; m_{\beta\beta} \;\le\; 5.30\,\mathrm{meV}\ }
+  \label{eq:window}
+\end{equation}
+%
+with $\simeq 3.3\,$meV typical. The hypothesis fixes $m_1$ but says nothing about the Majorana
+phases, so position within Eq.~\eqref{eq:window} is unconstrained; that is a genuine limitation and
+not a marginal one, as Sec.~\ref{sec:test} makes quantitative.
+
+The mass sum in Eq.~\eqref{eq:sum} is the more immediately testable number. Current cosmological
+bounds from the microwave background combined with baryon acoustic oscillations have reached
+$\Sigma m_\nu \lesssim 72\,$meV, with some combinations pressing lower~\cite{DESI2024}. The value
+in Eq.~\eqref{eq:sum} sits just inside, so this hypothesis may well be graded by cosmology before
+any laboratory experiment reaches it.
+
+% ---------------------------------------------------------------------------
+\section{Why the lower edge is nonzero, and why it is fragile}\label{sec:floor}
+
+Complete cancellation in Eq.~\eqref{eq:mbb} requires the three complex terms to close a triangle,
+which is possible only if no one of them exceeds the sum of the other two. From
+Eq.~\eqref{eq:terms},
+%
+\begin{equation}
+  2.67 \;>\; 1.52 + 1.10 = 2.62 \ \mathrm{meV},
+  \label{eq:triangle}
+\end{equation}
+%
+by $0.045\,$meV. The middle term wins, the triangle cannot close, and the lower edge of
+Eq.~\eqref{eq:window} follows as the residue $2.67 - 2.62$.
+
+Two things should be said about this immediately. First, the margin is $0.045\,$meV on terms of
+order $2.6\,$meV --- a $1.7\%$ effect. Nothing protects it. It is not the consequence of a symmetry
+and it would not survive a modest shift in $\theta_{12}$, in $\Delta m^2_{21}$, or in $m_1$ itself.
+At $m_1 \gtrsim 2.32\,$meV the inequality reverses and the floor vanishes entirely.
+
+Second, and more usefully, the same near-degeneracy makes $m_{\beta\beta}$ a steep function of
+$m_1$ near this point. A quantity sitting close to a cancellation responds sharply to its inputs.
+This is the one respect in which evaluating the standard band at this particular value is more than
+a lookup: the hypothesis places $m_1$ where the effective mass is unusually sensitive to it.
+
+We stress that no observable consequence rides on the lower edge. At $0.04\,$meV it is two orders
+of magnitude below any experimental reach on any timeline under discussion. Every statement in
+Sec.~\ref{sec:test} concerns the upper edge, which the near-cancellation barely moves.
+
+% ---------------------------------------------------------------------------
+\section{What would test it}\label{sec:test}
+
+\subsection{The interval that separates hypotheses}
+
+The comparison that matters is not against zero but against the minimal alternative. Setting
+$m_1 = 0$ with the same ordering and parameters gives
+%
+\begin{equation}
+  m_{\beta\beta}^{\rm min} \in [1.48,\ 3.69]\ \mathrm{meV},
+  \label{eq:minimal}
+\end{equation}
+%
+so minimal normal ordering has a hard ceiling at $3.69\,$meV that no choice of phases can exceed.
+The hypothesis of Eq.~\eqref{eq:hyp} reaches $5.30\,$meV. The interval
+%
+\begin{equation}
+  3.69\,\mathrm{meV} \;<\; m_{\beta\beta} \;<\; 5.30\,\mathrm{meV}
+  \label{eq:band}
+\end{equation}
+%
+is therefore inaccessible to minimal ordering and occupied by this hypothesis. Integrating
+Eq.~\eqref{eq:mbb} over flat Majorana phases, the hypothesis lands inside Eq.~\eqref{eq:band}
+$31.8\%$ of the time.
+
+\subsection{Where the experiments fall}
+
+Projected ten-year reaches for the ton-scale programme, quoted as ranges because the nuclear matrix
+element is the dominant uncertainty, are approximately $4.7$--$20.3\,$meV for
+nEXO~\cite{nEXO2021}, $9$--$21\,$meV for LEGEND-1000~\cite{LEGEND1000}, and $12$--$34\,$meV for
+CUPID~\cite{CUPID2019}.
+
+Against the ceiling of Eq.~\eqref{eq:window}, LEGEND-1000 and CUPID lie entirely above the
+hypothesis and cannot reach it for any matrix element. Only nEXO overlaps, and only at the
+favourable end of its matrix-element range, $4.7$--$5.3\,$meV. Over flat phases the hypothesis
+exceeds $4.7\,$meV $10.8\%$ of the time.
+
+Two features of this placement are worth separating. The probability is low --- roughly one in nine
+--- so the baseline experiment is unlikely to see a signal even if the hypothesis is correct. But
+the entire $4.7$--$5.3\,$meV overlap lies inside the interval of Eq.~\eqref{eq:band}, which minimal
+ordering cannot reach. A baseline nEXO detection would therefore be hard to accommodate within
+minimal normal ordering, which is a stronger statement than the detection probability alone
+suggests.
+
+\subsection{Why a sensitivity upgrade does not help as much as expected}
+
+A factor-of-four improvement in half-life sensitivity, of the kind a barium-tagging upgrade is
+projected to deliver, corresponds to a factor $\sqrt{4} = 2$ in $m_{\beta\beta}$, taking the reach
+to $\simeq 2.35\,$meV. The detection probability rises from $10.8\%$ to $69.1\%$.
+
+This buys likelihood, not discrimination. Minimal normal ordering also exceeds $2.35\,$meV, and
+does so $63.7\%$ of the time. A tagged detection near that threshold would be consistent with both
+hypotheses and would separate almost nothing. The unimproved machine is the discriminating one,
+precisely because its reach sits in the interval where the two hypotheses do not overlap.
+
+\subsection{Falsification}
+
+A measured $m_{\beta\beta} > 5.30\,$meV refutes Eq.~\eqref{eq:hyp} outright, since no choice of
+phases can produce it. Evidence for inverted ordering does the same: at $m_3 = 2.25\,$meV inverted
+ordering gives $m_{\beta\beta} \in [18.6, 49.1]\,$meV, which does not overlap
+Eq.~\eqref{eq:window} at any phase. Evidence that neutrinos are Dirac particles removes the
+observable entirely.
+
+A null result refutes nothing. Because the phases are free, $m_{\beta\beta}$ can be arbitrarily
+small, and no non-observation at any sensitivity constrains Eq.~\eqref{eq:hyp}. This asymmetry is
+intrinsic to the hypothesis and we make no attempt to dress it up.
+
+For orientation, the strongest current limit comes from $^{136}$Xe: KamLAND-Zen reports
+$T_{1/2} > 4.3 \times 10^{26}\,$yr at $90\%$ confidence over a $2097\,$kg\,yr exposure,
+corresponding to $m_{\beta\beta} < 28$--$122\,$meV across the matrix-element
+range~\cite{KamLANDZen2023}. That is a factor of five or more above the ceiling of
+Eq.~\eqref{eq:window}, so no existing measurement bears on this hypothesis in either direction.
+
+% ---------------------------------------------------------------------------
+\section{What is assumed}\label{sec:assume}
+
+\emph{Majorana neutrinos.} Eq.~\eqref{eq:mbb} presumes lepton-number violation. If neutrinos are
+Dirac there is no $m_{\beta\beta}$ and the question does not arise.
+
+\emph{Normal ordering.} Assumed throughout, and stated in Eq.~\eqref{eq:hyp} rather than derived.
+Global fits currently prefer it at modest significance; the preference is not settled.
+
+\emph{Three light species.} A light sterile state would add a term to Eq.~\eqref{eq:mbb} and widen
+the window.
+
+\emph{Standard mechanism.} We assume light-neutrino exchange dominates the amplitude. If other
+lepton-number-violating physics contributes, $m_{\beta\beta}$ as extracted from a half-life is no
+longer the quantity computed here.
+
+\emph{The numerical input.} We use the observed $\rho_\Lambda^{1/4} = 2.25\,$meV. Nothing depends
+on this at the quoted precision: shifting it by $0.5\%$ moves the lower edge of
+Eq.~\eqref{eq:window} from $0.045$ to $0.039\,$meV and leaves the upper edge at $5.30\,$meV, so
+every conclusion in Sec.~\ref{sec:test} is unchanged.
+
+\emph{And the coincidence itself.} Eq.~\eqref{eq:hyp} is a hypothesis, not a result. We are aware
+that equating two scales because they are numerically close is weak grounds, and we do not argue
+otherwise. The case for writing it down is that it is sharp, that it costs nothing to state, and
+that it happens to be nearly testable --- not that the coincidence is evidence for itself.
+
+% ---------------------------------------------------------------------------
+\section{Conclusion}
+
+Taking the lightest neutrino mass equal to the dark-energy scale, with normal ordering, gives
+$m_{\beta\beta} \in [0.04, 5.30]\,$meV and $\Sigma m_\nu = 61.3\,$meV. The lower edge exists only
+through a $0.045\,$meV margin in the triangle inequality and carries no observational weight. The
+upper edge does the work.
+
+The useful comparison is against minimal normal ordering, whose hard ceiling is $3.69\,$meV. The
+interval between the two ceilings is closed to minimal ordering, is occupied by this hypothesis
+about a third of the time, and contains the entire projected overlap of one planned experiment. A
+detection there would be awkward to explain with minimal ordering; a detection above $5.30\,$meV
+would refute the hypothesis; a null result would say nothing at all.
+
+Cosmology will likely speak first. A mass sum of $61.3\,$meV sits just inside current combined
+limits, and the bound is tightening.
+
+\begin{acknowledgments}
+\end{acknowledgments}
+
+\bibliographystyle{apsrev4-2}
+\bibliography{refs}
+
+\end{document}
