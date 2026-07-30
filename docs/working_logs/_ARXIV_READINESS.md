@@ -873,3 +873,59 @@ variety would read worse, so it stands.
 
 **The paper is arXiv-ready.** Categories astro-ph.CO (primary) + astro-ph.IM. The one remaining
 item is the endorsement, which the owner has taken as their own task.
+
+## The Visser check, CLOSED (2026-07-29) — and it goes badly for the gr-qc paper
+
+The open gate was: *walk the citation list of Visser 2002 for anyone who evaluates the supertrace
+against a specific particle content.* Done properly this time, through the INSPIRE-HEP API rather
+than web search — recid **585618**, **263 citing papers** retrieved and scanned.
+
+### Finding 1: the closest prior art is Visser himself, and it is squarely on the programme
+
+**M. Visser, "The Pauli sum rules imply BSM physics", Phys. Lett. B (2019), arXiv:1808.04583.**
+It takes Pauli's three sum rules, *"contrast[s] them with the observed standard model particle
+physics spectrum, and use[s] them to extract as much model-independent information as possible
+regarding beyond standard model (BSM) physics."* And it already includes the right-handed
+neutrinos, verbatim:
+
+> *"Note that I include 3 right-handed singlets for the tau, muon and electron, and 3 right-handed
+> singlets for the neutrinos, this being the minimalist extension of the original standard model to
+> include neutrino masses."*
+
+His result is **N_BSM = 68**: with Dirac neutrinos, Str_SM[1] = −68, so 68 bosonic degrees of
+freedom are *required* beyond the Standard Model. **The general move — sum rule against SM content,
+right-handed neutrinos included, BSM conclusion drawn — is taken.**
+
+### Finding 2: the corpus's quantity is not Visser 2018's, so the paper is not automatically dead
+
+Visser 2018 evaluates the **Pauli sum rules** Str[1], Str[m²], Str[m⁴] — unweighted degree-of-freedom
+counts. The corpus's claim is about **str[k₁]**, which weights each field by its Seeley–DeWitt
+coefficient and therefore depends on spin *and* on ξ. These are different sums, and Str[1] = −68
+does not imply anything about str[k₁]. **That distinction is the only remaining room for a paper.**
+
+### Finding 3: and here is the harder problem, from Visser 2002 itself
+
+Equation (29) of gr-qc/0204062 reads
+
+> 1/G ≈ −(1/2π)·str[k₁]·κ² ;  **str[k₁] ≈ −1**
+
+So in Sakharov's picture **str[k₁] is what induces Newton's constant** — and Visser puts it at order
+−1, not zero. Setting str[k₁] = 0 does make the one-loop contribution finite, which is the condition
+the corpus quotes, but it simultaneously means **gravity is not induced at all** and a tree-level G
+must be supplied. Visser flags this himself: the finiteness assumption *"is completely at odds with
+Sakharov's original version."* The corpus records that sentence but has not confronted what it costs.
+
+### Status: the paper is NOT dead, but it is no longer "the shortest path"
+
+Three things are now owed before a line is written, and none is cosmetic:
+
+1. **Compute str[k₁] independently** for SM and SM + 3ν_R from published Seeley–DeWitt coefficients,
+   and confirm the −3 → 0 the corpus records. Not yet done here.
+2. **Say what str[k₁] = 0 costs**, since it switches Sakharov induction off. A paper claiming the
+   zero must say where G then comes from, or it will be refereed straight into that hole.
+3. **Position against Visser 2018 explicitly.** Same author, same journal family, same programme,
+   right-handed neutrinos already in. Any manuscript must open by saying what is different — the
+   weighted sum versus the unweighted one — or it reads as a rediscovery.
+
+**Assessment revised: `PRTOE_neutrino_sector.md` §3 is now the nearest candidate,** not this one. The
+str[k₁] paper has gone from "shortest path" to "three unpaid debts, one of them a physics problem."
