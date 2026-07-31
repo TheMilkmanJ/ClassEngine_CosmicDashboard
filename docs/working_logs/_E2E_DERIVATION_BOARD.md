@@ -12,6 +12,7 @@
 | **Open (closable)** | Attack path exists |
 | **Permanent input / bet** | Stated, not hidden |
 | **Story** | No mechanism for H=0,Ḣ>0 |
+| **Reconstructed candidate** | Equations/matching written (Racing Point); not OEM; residuals named |
 | **DEAD** | Do not reopen |
 
 ## Track A — final status (2026-07-31)
@@ -23,7 +24,7 @@
 | A3 | f̄ / c_w / LO | **CANDIDATE CLOSED** | f̄=2/π (equidistribution + rectified linear); LO dominance proved as bound (quad/lead ≤2% on data band); form c_w=−a (C16 back-reaction). Named residual: value of a (ens [0.32,1.36]; fit 1.80 @1.9σ). `fbar_cw_lo_closure.md` + `scripts/fbar_cw_lo_closure.py` |
 | A4 | α_c same-response | **Permanent bet (P-2026-040)** | Factor 3=d **derived**; same-response base α **not derived** (μ=0 tautology or doped-pair ≤12.5%); value bet with **A_s referee only**. Not open derivation debt. `alpha_c_same_response.md` + `scripts/alpha_c_same_response.py` |
 | A5 | B1 hydro crown | **PARTIAL (scoped)** | Ψ₀/f_amp **done**; comoving intake share **0.839@χ=5.3** (vs 0.843) candidate; L/D computable in [4.3,5.3]; flow coherent fraction **small** (~0.02, not full-coherence ladder); pour→release / first-principles n **open**. No full inverse claim. `B1_crown_status_2026-07-31.md` |
-| A6 | Bounce turn (B7) | **STORY (permanent)** | Legal parts cannot close H=0∧Ḣ>0; all native FRW engines **DEAD** (do not reopen); RP-A reconstructed silhouette only; no legal-part scaffold equations. `bounce_e2e_verdict_2026-07-31.md` |
+| A6 | Bounce turn (B7) | **RECONSTRUCTED CANDIDATE** | Homogeneous legal FRW engines **DEAD**. RP-A scaffold: ODEs + F-A1…F-A5; O1/O3–O5/O8 PASS; O2 PARTIAL (H_re declared); O6 FAIL (MeV); O7 PARTIAL. Not DERIVED. `bounce_rpA_scaffold.py`, `bounce_promotion_2026-07-31.md`, `bounce_e2e_verdict_2026-07-31.md` |
 
 ## Track B — permanent inputs (named, not claimed derived)
 
@@ -57,7 +58,7 @@
 - ε stack: c counting input; f̄ candidate-closed; α_c = permanent bet (3 derived, base bet P-2026-040)
 - A_s: closed form + medium γ* candidate-closed (portal friction + transverse chop)
 - n_s: envelope candidate-closed with Route T f
-- Bounce: **permanent story** (native engines dead; RP-A reconstructed only)
+- Bounce: **reconstructed candidate** (scaffold + knobs; turn not derived; FRW engines dead)
 - Genesis numbers: done; hydro crown partial (intake candidate; n/pour open)
 
 ## Session log
@@ -71,3 +72,4 @@
 | 2026-07-31 | **A4 hardened:** permanent bet P-2026-040 (A_s referee); geometric 3 derived; same-response not derivation debt (`alpha_c_same_response.md`/`.py`) |
 | 2026-07-31 | **A5 scoped push:** comoving intake numbers forced; coherent fraction small; crown still open (`B1_crown_status_2026-07-31.md`) |
 | 2026-07-31 | **A6 permanent STORY:** kill list + legal-parts no-go; no bounce_rpA_scaffold (`bounce_e2e_verdict_2026-07-31.md`) |
+| 2026-07-31 | **A6 → RECONSTRUCTED CANDIDATE:** `bounce_rpA_scaffold.py` ODEs+matching; O2 PARTIAL, O6 FAIL; not DERIVED (`bounce_promotion_2026-07-31.md`) |

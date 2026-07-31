@@ -71,18 +71,18 @@ tools, ordered by the chain:*
 | # | build | what it computes | feeds | size |
 |---|---|---|---|---|
 | B1 | **THE GENESIS SOLVER** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H₀ remainder | PROJECT — the queue's crown |
-| B2 | **the winding-gas C_V / census tilt** | freeze imprint and 2D-Gaussian height tilt both **DEAD** (#184): white noise n_s=4; Gaussian gives +1/ln wrong-sign IR tilt | A_s clearance **not** delivered; closed form remains candidate | **CLOSED negative** 2026-07-30 — see `working_logs/B2_winding_gas_cv_findings.md` |
+| B2 | **the winding-gas C_V / census tilt** | freeze imprint and 2D-Gaussian height tilt both **DEAD** (#184): white noise n_s=4; Gaussian gives +1/ln wrong-sign IR tilt | B2 path does **not** deliver A_s; A_s closed form is **candidate closed** via E2E A1 (γ\*/c_chop), not via B2 | **CLOSED negative** 2026-07-30 — see `working_logs/B2_winding_gas_cv_findings.md`; do not reopen (E2E board) |
 | B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the constituent theory does not record (§6m) — the audit still stands* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
 | B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (REHEARSAL, not the referee) | light — one evening |
 | B5 | **the μ-injection calculator** | μ(z_inject, efficiency) with the visibility ramp | the draw-branch discriminator (ξ vs 1/m) | small script |
 | B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee: analysis-limited, with the data already in hand | PROJECT — no longer queued behind a nested run |
-| B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 handoff, the cycle-counter's sizing | PROJECT — shares B1's room |
+| B7 | the cycle-map / bounce turn | classical H=0∧Ḣ>0 from legal parts | chain 10→11 handoff **not** derivation-closed | **RECONSTRUCTED CANDIDATE** 2026-07-31 — floor derived; FRW engines DEAD; RP-A scaffold + knobs (`scripts/bounce_rpA_scaffold.py`); turn not derived (`working_logs/bounce_promotion_2026-07-31.md`) |
 
-*Execution order when the referee frees the box: B4 + B5 (light, immediate) → B2 + B3
-(the clearance pair — A_s hangs on them) → B1 (the crown: five pre-registered ambushes
-wait on its outputs) → B6 (the axis referee) → B7. Nothing on the banned list appears
-above; nothing beneficial is missing — any session that mints a new computable adds its
-row here in the same commit.*
+*Execution order residual (post E2E 2026-07-31): B4 + B5 already light/done in audience prep → B2
+**CLOSED DEAD** (A_s no longer hangs on B2; A1 γ*/c_chop candidate-closed, residual κ≈1) → B3 host-exposure stands → B1 crown remains
+**PARTIAL** (numbers done; hydro open) → B6 external maps → **B7 reconstructed candidate, turn not derived**.
+Nothing on the banned list appears above; any session that mints a new computable adds its row here
+in the same commit.*
 
 ## THE THEORY↔CODE BOUNDARY
 

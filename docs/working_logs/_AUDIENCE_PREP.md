@@ -38,7 +38,7 @@
 | B4 | Comb rehearsal | **DONE** (null) |
 | B5 | μ-injection calculator | **DONE** |
 | B6 | BipoSH joint | **external / maps** — estimator built; data application out of scope |
-| B7 | Bounce / cycle turn | **NOT DERIVED** — must stay story-grade in audience text |
+| B7 | Bounce / cycle turn | **RECONSTRUCTED CANDIDATE** — floor derived; FRW engines DEAD; RP-A scaffold + knobs (`bounce_rpA_scaffold.py`); turn not derived — do not claim derived bounce in audience text |
 | — | Conversion-channel linear perts | **DONE 2026-07-30** (`has_dcdf_conv`, F_ℓ hierarchy; routeD only) |
 
 ### C. Weak-claim strengthening (honesty)
@@ -89,6 +89,8 @@
 | 2026-07-30 | Board opened; harnesses; B4/B5; Amplitude/Risk; Fairbank cluster |
 | 2026-07-30 | B2 closed DEAD; B1 scoped; Hubble/dCDF/dyad/stability/CC/hierarchy audience pass; 100% in-repo board |
 | 2026-07-30 | Conversion-channel perts in CLASS; bbn_witness de-AIified; CODE_MANIFEST updated |
-| 2026-07-31 | E2E derivation program opened (`_E2E_DERIVATION_BOARD.md`); A_s γ* microphysics pass — value not derived, residue = one mutual-friction number |
-| 2026-07-31 | **α_B = ε² first principles;** Route T γ*=ε²√2 candidate-closes A_s imprint value (~1% on f, ~2% on A_s); residual = d_⊥=2 |
-| 2026-07-31 | **E2E full Track A:** A1–A3 candidate closed; A4 partial (3 derived, base bet); A5 numbers-only; A6 bounce STORY; board final |
+| 2026-07-31 | E2E derivation program opened (`_E2E_DERIVATION_BOARD.md`); A_s γ* microphysics started |
+| 2026-07-31 | **α_B = ε² first principles;** Route T γ*=ε²√2 — **superseded residual:** not “value underived,” but A1 **CANDIDATE CLOSED** with residual **κ≈1** in c_chop=κ d_⊥ (d_⊥=2 forced) |
+| 2026-07-31 | **E2E full Track A:** A1–A3 **candidate closed**; A4 **permanent bet** P-2026-040; A5 **partial (scoped)**; A6 initially STORY then **promoted RECONSTRUCTED CANDIDATE** (scaffold) |
+| 2026-07-31 | Doc sync: honest_status / CODE_MANIFEST / B7 → reconstructed candidate (turn not derived); early γ* log lines superseded by A1 CANDIDATE CLOSED (κ residual) |
+| 2026-07-31 | deep-research-2 leftovers: CC scaffolding de-AIify; bounce photon-medium-mass note (candidate, not bounce engine) |
