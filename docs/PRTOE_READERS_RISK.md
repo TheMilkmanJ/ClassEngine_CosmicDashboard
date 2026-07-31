@@ -4,6 +4,8 @@ One page for an outside physicist. Falsify-first. Glossary: [PRTOE_READERS_GUIDE
 
 ## 1. What PRTOE is
 
+**Pulford–Romsa Theory of Expansion** — a dark-sector cosmology of the expanding cosmos, not a theory of everything. Local bound matter is ceded to the Standard Model; the domain is the diffuse cosmic medium and its expansion imprints.
+
 A two-field dark sector replaces ΛCDM’s separate dark matter and dark energy:
 
 1. **dCDF** — one complex scalar superfluid: ground state is w = −1 dark energy; excitations are radiation-like early / CDM-like late.

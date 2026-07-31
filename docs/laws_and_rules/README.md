@@ -345,24 +345,25 @@ counts, because the anomaly is matched across all of them."**
 
 ## SCOPE — what this model IS and IS NOT
 
-**PRTOE is a "Theory of EXPANSION" (a TOE, not THE TOE)** -- a falsifiable theory of the
-**diffuse cosmic dark sector**: dark matter + dark energy (the dCDF fluid), the expansion, and
-their specific imprints (H₀ easing via varying-m_e at recombination, the void 21-cm step, the
-w=-1 floor, Σm_ν, the birefringence null). It **cedes local/bound physics to the Standard
-Model on purpose** -- atoms, chemistry, atmospheres, planets run on baryons + EM + thermo, which
-the census forbids the medium from touching significantly (screened to null in virialized
-structure; expansion ~68 orders too weak on atomic scales).
+**PRTOE is a Theory of Expansion** — a falsifiable theory of the **diffuse cosmic dark sector**:
+dark matter + dark energy (the dCDF fluid), the expansion, and their specific imprints (H₀ easing
+via varying-m_e at recombination, the void 21-cm step, the w=−1 floor, Σm_ν, the birefringence
+null). It is **not a theory of everything.** It **cedes local/bound physics to the Standard Model
+on purpose** — atoms, chemistry, atmospheres, planets run on baryons + EM + thermo, which the
+census forbids the medium from touching significantly (screened to null in virialized structure;
+expansion ~68 orders too weak on atomic scales).
 
-**NOT a theory of everything.** The instinct to tether it to local physics (medicine, planetary
-cascade, "familiar physics IS the medium", local new-functions) was stress-tested FOUR ways this
-session and fails every time -- the census STRUCTURALLY forbids the local connections. Bound
-matter has left the medium's domain (decoupled from the Hubble flow AND Theta-screened). The
-medium's domain is the diffuse/cosmic/void; it goes silent the moment matter clumps.
+The instinct to tether it to local physics (medicine, planetary cascade, "familiar physics IS the
+medium", local new-functions) was stress-tested and fails — the census structurally forbids those
+local connections. Bound matter has left the medium's domain (decoupled from the Hubble flow and
+Theta-screened). The medium's domain is the diffuse/cosmic/void; it goes silent the moment matter
+clumps.
 
-**The "does it connect further" question is PARKED** as a labeled, speculative, LOW-priority
-future research project -- to be looked at ONLY after the MCMCs/real tests decide the core, and
-with LOW expectations (the census restriction won't change). Legitimate as "someday, out of
-curiosity"; NOT a promising TOE. Border defended on purpose; that border is the model's strength.
+**The "does it connect further" question is PARKED** as a labeled, speculative, low-priority
+future research project — only after MCMCs/real tests decide the core, and with low expectations
+(the census restriction will not change). Related physics may be tied where the expansion medium
+forces a link; that is not a claim on all of physics. Border defended on purpose; that border is
+the model's strength.
 
 ## Guideline 6 — the three-door reading (2026-07-14; a GUIDELINE by the operator's explicit ruling, NOT a law)
 

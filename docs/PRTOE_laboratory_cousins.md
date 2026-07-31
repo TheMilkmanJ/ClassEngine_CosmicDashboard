@@ -48,7 +48,7 @@ quenches vs the Kibble √N law (the n-distribution); (iii) phase-slip statistic
 co-link question (the interpretation layer's one lab-adjacent corner). None registered;
 all possible with existing apparatus classes.
 
-*Every other theory of everything asks for a bigger collider. This one asks for a colder
+*Most BSM programs ask for a bigger collider. This expansion-sector program asks for a colder
 doughnut — and half its certificates already hang in metrology labs.*
 
 ## The bench proposals, specified (2026-07-18)
