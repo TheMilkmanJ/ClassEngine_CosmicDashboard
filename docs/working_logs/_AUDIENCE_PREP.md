@@ -91,3 +91,4 @@
 | 2026-07-30 | Conversion-channel perts in CLASS; bbn_witness de-AIified; CODE_MANIFEST updated |
 | 2026-07-31 | E2E derivation program opened (`_E2E_DERIVATION_BOARD.md`); A_s γ* microphysics pass — value not derived, residue = one mutual-friction number |
 | 2026-07-31 | **α_B = ε² first principles;** Route T γ*=ε²√2 candidate-closes A_s imprint value (~1% on f, ~2% on A_s); residual = d_⊥=2 |
+| 2026-07-31 | **E2E full Track A:** A1–A3 candidate closed; A4 partial (3 derived, base bet); A5 numbers-only; A6 bounce STORY; board final |
