@@ -1,14 +1,26 @@
-# The m_e Mechanism: Consolidated Mathematical Formulation
+# The m_e mechanism — consolidated mathematical formulation
 
-> *The current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude grades: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Reasoning and dead ends: [PRTOE_me_trigger.md](exploratory/PRTOE_me_trigger.md).
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Equations-only companion to the trigger doc. Every result is cross-referenced to its trigger-doc section. Assembled 2026-07-07; high-f operating point 2026-07-18.
 
+**Audience grade.**
 
-*Assembled 2026-07-07. This is the EQUATIONS-ONLY companion to
-`PRTOE_me_trigger.md` (which holds the reasoning and the dead ends).
-Every result here is cross-referenced to its trigger-doc
-section.*
+| item | grade |
+|---|---|
+| Form m_e(x) = m_e^lab [1 + ε S(x)], ε = 1.2543% | standing claim; ε stack **conditional** (see Amplitude) |
+| Environmental variable Θ / Weyl gate | **derived / forced** (conformal portal → C²) |
+| Transition sharpness | **forced** by MICROSCOPE + quasar (two-constraint) |
+| Weyl not Ricci | **derived** (three independent reasons) |
+| Amplitude ceiling ~1–2% (EM self-energy) | **derived** as bound; exact value from stack |
+| High-f operator (dim-6 lepton) | **assumed** (data-narrowed, not symmetry-selected) — docket #125 |
+| Electron-loop onset / low-f config | **dead** (BBN-fatal; failures ledger) |
+| Canonical T_c | **177.10 keV derived** (Koide τ); κ-independent formula survives; 179 pipeline; 193 cross-check |
+| ρ_Λ / CC residual | **existence not precision** where it lands |
+| Θ-averaging / developed-speckle compliance | **retired** as route; laminar Θ branch survives |
+| Conversion-channel linear perts | **implemented** when `dcdf_conv_g > 0` (CLASS; not this file) |
+
+Do not cite the retired electron-loop onset as current. Body below keeps equations and numbers; grades above police how to read them.
 
 ---
 
@@ -40,7 +52,7 @@ so Theta can only flip at genuine phase defects (vortices) -- structure.
 [trigger-doc sec 3, 20]
 
 Smooth observable proxy: the Weyl curvature invariant C², which is
-IDENTICALLY ZERO in conformally-flat FRW and nonzero only where tidal
+identically zero in conformally-flat FRW and nonzero only where tidal
 structure exists:
 
  S(x) = f(C²(x) / C_ref² ), f = a near-step (saturating) function
@@ -55,7 +67,7 @@ This is a direct, dimension-5 operator with S(x) the environmental modulator.
 The operator is legal under the model's coupling law,
 by the constitution's own consolidated clause (laws_and_rules, the L1 block):
 the medium couples to ordinary matter only through gravity, and the second
-field may couple non-gravitationally WITHIN its own sector — the lepton-mass
+field may couple non-gravitationally within its own sector — the lepton-mass
 sector — while opening no interface to sectors it is not part of (no photon
 coupling, no quark coupling). This operator satisfies all three tests:
  (1) it lives inside the permitted sector (it shifts a lepton mass);
@@ -66,7 +78,7 @@ coupling, no quark coupling). This operator satisfies all three tests:
  the electron is singled out only by being the charged lepton present at
  recombination, not by hand. The identity-blindness rule polices couplings
  that pick species without a symmetry reason (the deleted per-species knobs
- were exactly that crime); a coupling that follows the lepton charge is not
+ were exactly that); a coupling that follows the lepton charge is not
  one of them.
 Prior verdicts stand with the clause (the birefringence null, gate-0, the
 EP posture, BBN). Sec 7's screening computation is a separate item from the
@@ -86,7 +98,7 @@ satisfy the Eotvos bound. Differential Ti/Pt sensitivity:
  ⇒ residual |δ m_e/m_e| at Earth < 8.7×10⁻¹¹
 
 Requirement B (quasar, sec 7/12): a smooth density-dependence gives absorber
-differentials 1×10⁴ over bound → binarity FORCED.
+differentials 1×10⁴ over bound → binarity forced.
 
 Consequence: a gentle exponential fails -- the curvature gap between
 recombination and dwarf cores is only ~22x (1.35 decades) but the required
@@ -98,23 +110,24 @@ i.e. a near-threshold/step. Both independent constraints force the same
 sharpness → two-constraint pillar. Once suppressed at the dwarf core,
 Earth (17 decades higher C²) is automatically suppressed. [sec 26, 27]
 
-C_ref is NOT a free scale: the transition is set by a topological event
+C_ref is not a free scale: the transition is set by a topological event
 (first shell-crossing / first vortex), not a tuned curvature value. [sec 27]
 
 ---
 
 ## 4. The amplitude
 
-Ceiling (sec 31): only the ELECTROMAGNETIC part of m_e can respond to an
+Ceiling (sec 31): only the electromagnetic part of m_e can respond to an
 EM-binding environment. Split:
 
  m_e = m_bare(Higgs-Yukawa, ~99%) + delta_m_EM(self-energy, ~1%)
  delta_m_EM/m_e = (3 α / 4pi) * ln(Λ²/m_e²) ~ 1-2% (O(α))
 
-So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits AT the
+So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits at the
 ceiling. The size is derived here as a bound; the exact value comes from the standing
 stack eps = c*fbar*alpha_c = 27*alpha/(5*pi), which uses no cutoff at all --
-it, not this section's Lambda-and-modulation route, sets the value. [sec 28, 31]
+it, not this section's Lambda-and-modulation route, sets the value. **Stack grade: conditional**
+(f̄ derived, c assumed, α_c bet). [sec 28, 31]
 
 Why m_e and not α: varying-α killed by quasars (45-100x); m_e evades
 those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]
@@ -123,13 +136,13 @@ those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]
 
 ## 5. Which curvature piece, and why
 
-The trigger couples to WEYL (tidal/radiative), not RICCI (local/binding):
- R1. Ricci fails directionally -- large at BOTH high-z background AND in
+The trigger couples to Weyl (tidal/radiative), not Ricci (local/binding):
+ R1. Ricci fails directionally -- large at both high-z background and in
  halos, cannot distinguish smooth-dense from clumped. [sec 25]
  R2. Weyl = 0 identically in smooth FRW (conformal flatness) -- exactly the
  "bare in smooth space" requirement. [sec 23]
- R3. The switch fires on a DECOHERENCE event; decoherence is driven by a
- force's RADIATIVE/far piece; Weyl IS gravity's radiative piece; Ricci
+ R3. The switch fires on a decoherence event; decoherence is driven by a
+ force's radiative/far piece; Weyl is gravity's radiative piece; Ricci
  (binding piece) cannot trigger a decoherence event. [sec 30]
 
 Near/far force split (general): every long-range force = near piece (binds)
@@ -140,8 +153,8 @@ photons decohere. Gravity: Ricci binds, Weyl decoheres. [sec 30]
 
 ## 6. The amplitude-channel constraint (why the roof is one question)
 
-A viable channel must be simultaneously STRONG [S] (O(α), not curvature-
-suppressed), LEGAL [L] (census + MICROSCOPE), VARYING [V] (smooth vs
+A viable channel must be simultaneously strong [S] (O(α), not curvature-
+suppressed), legal [L] (census + MICROSCOPE), varying [V] (smooth vs
 structured). Scored:
 
  curvature : L,V not S (60 orders weak, R/m_e²~1×10⁻⁶⁹)
@@ -162,20 +175,20 @@ properties. [sec 34; laws_and_rules]
 Smooth dilaton: needs β~0.012, MICROSCOPE allows β<~1×10⁻⁴ → 2 orders
 over → dead.
 
-Escape: the field is the SHARP/SATURATED Theta (sec 27 sharpness), not a
+Escape: the field is the sharp/saturated Theta (sec 27 sharpness), not a
 smooth dilaton. Inside the virialized MW halo Theta is at its ceiling →
 grad(Theta) ~ 0 (flat top) → grad(φ) exponentially suppressed → no
 fifth force. Chameleon-class screening; screening agent = Theta saturation
-(forced, not tuned). Freezing agent = VIRIALIZATION (medium's own dynamics,
+(forced, not tuned). Freezing agent = virialization (medium's own dynamics,
 static in a virialized halo).
 
-Screening-test corroboration (sec 37, computed): atomic clocks are a GENUINE
+Screening-test corroboration (sec 37, computed): atomic clocks are a genuine
 third independent leg -- they kill the continuous version via temporal physics
 (a continuous 1% coupling gives ~1×10⁻⁴ clock modulation, ruled out), while the
 saturated form predicts a null (observed). Caveat: clocks force the screening-
-CONSEQUENCE, not the sharp-form-CAUSE uniquely. White-dwarf spectroscopy =
+consequence, not the sharp-form-cause uniquely. White-dwarf spectroscopy =
 consistency-check (saturated → lab value, confirmed ~1×10⁻⁵). Continuous version
-now killed by TWO independent experiments (quasar spatial + clocks temporal).
+now killed by two independent experiments (quasar spatial + clocks temporal).
 
 The four deliveries, paid under the survival-form gate (S = exp[−(C²/C_ref²)^n_eff],
 n_eff ≥ 35, threshold event-set):
@@ -207,7 +220,7 @@ and the recorded curvature ladder alone.
 
 ## 8. Observable signature
 
-Under a single m_e amendment, ALL EM-binding observables shift in LOCKED
+Under a single m_e amendment, all EM-binding observables shift in locked
 correlation (sec 29):
 
  binding energies (Rydberg ~ m_e): +1.2543%
@@ -216,15 +229,15 @@ correlation (sec 29):
  21-cm hyperfine (~m_e²/m_p): +2.51%
 
 Discriminator: the dark-ages/cosmic-dawn 21-cm sky (unvirialized IGM,
-Theta~1, BARE value) vs the standard (virialized) sky. A specific
-CORRELATED pattern across all EM-binding observables, not a single-line
+Theta~1, bare value) vs the standard (virialized) sky. A specific
+correlated pattern across all EM-binding observables, not a single-line
 shift. [sec 8, 29] REACH/SKA-low class instruments.
 
-FORECAST NUMBERS (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
+Forecast numbers (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
  the bare-value hyperfine frequency runs +2.509% high in unvirialized gas.
- - THE CLEAN CHANNEL — the dark-ages absorption trough (z ~ 85-90, linear
+ - The clean channel — the dark-ages absorption trough (z ~ 85-90, linear
    physics only, no stars): standard 15.8-16.5 MHz -> model 16.2-16.9 MHz,
-   a +0.40 MHz offset that CANNOT be absorbed into astrophysics. Instrument
+   a +0.40 MHz offset that cannot be absorbed into astrophysics. Instrument
    class: lunar farside (LuSEE-Night / FarView). This is the mechanism's
    sharpest astrophysics-free falsifier outside the CMB.
  - the cosmic-dawn trough (EDGES band): 78.0 -> 79.96 MHz (+1.96 MHz) —
@@ -237,22 +250,22 @@ FORECAST NUMBERS (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
 
 Derived or forced:
  - the environmental variable (Theta, vorticity-based, exact identity) [1]
- - the coupling FORM is forced (geometry 60 orders too weak) [2]
- - the transition is FORCED sharp by 2 independent constraints [3]
+ - the coupling form is forced (geometry 60 orders too weak) [2]
+ - the transition is forced sharp by 2 independent constraints [3]
  - Weyl not Ricci, 3 independent reasons [5]
- - the amplitude SIZE/CEILING (EM self-energy fraction, ~1-2%) [4]
- - the roof reduces to ONE question (census scope) [6]
+ - the amplitude size/ceiling (EM self-energy fraction, ~1-2%) [4]
+ - the roof reduces to one question (census scope) [6]
  - the locked-correlation observable signature [8]
 
-Open:
+Open / graded:
  (census-scope legality: closed — the coupling law's consolidated clause; sec 2, 6)
- (the amplitude coefficient: derived by the standing stack 27*alpha/(5*pi), no cutoff [4])
+ (the amplitude coefficient: stack 27*alpha/(5*pi) — **conditional**: f̄ derived, c assumed, α_c bet [4])
  (the sec-7 screening computation: delivered — all four items, see sec 7)
  - the two-field sims (sim-gated): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 
-The empirical fit (m_e = 1.012543, fits the CMB) is UNTOUCHED by all of the
-above -- this document concerns the MECHANISM's legality/derivation, not
-the data.
+The empirical fit (m_e = 1.012543, fits the CMB) is untouched by all of the
+above -- this document concerns the mechanism's legality/derivation, not
+the data. H₀/ΔlnZ from that fit remain **provisional**.
 
 ## 10. The leptonic origin -- why m_e and not m_q (2026-07-09)
 

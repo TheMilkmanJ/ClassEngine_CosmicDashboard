@@ -1,5 +1,8 @@
 # Strong CP — The Silence the Model Signs Its Name To (2026-07-12)
 
+**Audience grade.** Explicit **abstention**: the model has nothing to say about θ̄. Not a paper claim.
+
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 

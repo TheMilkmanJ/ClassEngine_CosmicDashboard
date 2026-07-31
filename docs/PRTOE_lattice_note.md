@@ -2,6 +2,8 @@
 
 *Approved for circulation (owner, 2026-07-18).*
 
+**Audience grade.** This note states a **pre-registered bet** (P-2026-048) on an external lattice measurement — not a result. Discrimination needs σ ≲ 0.22%; ordinary 1–3% determinations score neither way. The program’s T_c = 177.10 keV (τ = ½ln2) is the **derived** lepton-side anchor behind 0.34657; 0.34506 is the null that would show cosmology read back. ρ_Λ chain is an **existence claim, not precision**.
+
 ## The computation
 
 Finite-temperature lattice determination of the transition temperature in units of the string

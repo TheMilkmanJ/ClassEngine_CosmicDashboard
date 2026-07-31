@@ -1,43 +1,28 @@
-# PRTOE — Reader's Risk Summary
+# PRTOE — Reader’s risk summary
 
-> *One page for an outside physicist. Falsify-first: nothing below is oversold. House terms decode
-> in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality in
-> [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+One page for an outside physicist. Falsify-first. Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Audience prep tracker: [working_logs/_AUDIENCE_PREP.md](working_logs/_AUDIENCE_PREP.md).
 
 ## 1. What PRTOE is
-A two-field dark sector replaces ΛCDM's separate dark matter and dark energy with one complex scalar
-superfluid (the dCDF): its ground state is w = −1 dark energy, its excitations are radiation-like
-early / CDM-like late. A second field (the electron-coupled scalar) shifts the electron mass by a
-fractional amount ε ≈ 1.24%, active pre-recombination and screened off late. Gravity is treated as
-induced/GR, with no bare cosmological terms. The entire modification to known physics is one
-number, ε, applied everywhere atomic physics appears.
+
+A two-field dark sector replaces ΛCDM’s separate dark matter and dark energy:
+
+1. **dCDF** — one complex scalar superfluid: ground state is w = −1 dark energy; excitations are radiation-like early / CDM-like late.
+2. **Electron-coupled scalar** — shifts the electron mass by ε ≈ 1.24%, active pre-recombination, screened off late.
+
+Gravity is treated as induced/GR (no bare cosmological constant term as free input). The modification to known physics is **one number, ε**, applied wherever atomic physics appears.
 
 ## 2. Strongest claims, graded
-- **ε = c·f̄·α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%**, against the sky's fitted ~1.24% — zero
-  dials. *One factor is derived (f̄ = 2/π, the winding average), one is a counting assumption
-  (c = 9/10), one is a registered bet (α_c = 3α) — so the stack's effective grade is the
-  weakest of the three, not the strongest.* c = 9/10 is a **counting assumption the data confirms** — conditional on the
-  ρ_Λ¼ = m_ν tie holding as a lock, and on an equal share per channel, which the framework does
-  not force (the ε-blind ensemble lands at 0.903, −0.08σ, but at its width does not exclude the
-  neutrino-inclusive 12/13 or the charge²-weighted 8/9);
-  **f̄ = 2/π is derived** — the winding's many-turn equidistribution forces ⟨|cos|⟩, with the coupling
-  form data-selected; the simulation's 0.635 ± 0.026 confirms it to +0.3% and is the check, not the
-  source. α_c = 3α is a registered bet, decided by a running chain, currently ~2% above where data
-  points — **it is the weakest parent, and the stack stands or falls with it.**
-- **H₀ mechanism reaching ~69.9–71.3** (CMB re-fit; ladder-reach ceiling with the SN-standardization
-  sign ς = −1). Closes roughly half the SH0ES gap, refuses the rest, and pre-registered the TRGB side
-  of the calibration dispute. *Production, but SH0ES-conditional.*
-- **w = −1 exactly** (a protected ground state, no thaw). *Derived*, and DESI's direct target.
-  **Read this as one branch of a live fork, not as the model's single position (clarified
-  2026-07-28).** P-2026-056 registers an explicit either/or and the two branches disagree about
-  exactly this row: under **P-2026-018** the floor is a bare constant, w = −1 holds forever, and
-  "no thaw" is unqualified and correct. Under **Route-D** the floor is leaving its ground state
-  *now* — 1 + w_floor(a) = thaw·a³ with thaw ∈ [0.08, 0.14], so w₀ ∈ [−0.92, −0.86] today — and
-  `PRTOE_coincidence_problem.md` computes that era's end at t_turn = ln(1/√A_s)/√(3/2) = **8.16
-  H⁻¹**, a ≈ 2.0–2.8. Route-D is nested at the prior's floor (thaw ≤ 0 recovers w = −1), and
-  **DESI DR3 adjudicates**. A true phantom crossing kills both. So the honest headline is that the
-  model bets on rigidity while carrying a pre-registered thawing alternative, and the coincidence
-  file's turnaround belongs to the *alternative* — it is not a qualification on w = −1.
+
+- **ε = c · f̄ · α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%** vs fitted ~1.24%. **Not “zero free parameters” until all three factors hold.** Grade = **weakest parent**:
+  - **f̄ = 2/π** — derived (winding ⟨|cos|⟩); sim 0.635 ± 0.026 confirms (+0.3%).
+  - **c = 9/10** — counting assumption (not framework-forced). Conditional on ρ_Λ¼ = m_ν as a lock and equal channel weights. ε-blind ensemble 0.903 (−0.08σ) does not exclude 12/13 or charge-weighted 8/9 (0.30σ away).
+  - **α_c = 3α** — pre-registered bet (P-2026-040); ~2% above current data point. **Stack stands or falls with this.**
+
+- **H₀ ~ 69.9–71.3** (CMB re-fit; ladder ceiling with SN sign ς = −1). ~Half the SH0ES gap; refuses the rest. *Production, SH0ES-conditional; chains not yet final.*
+
+- **w = −1** as protected ground state — **one branch of a live fork**, not the only position:
+  - **P-2026-018:** bare constant floor, w = −1 forever.
+  - **Route-D:** floor thawing now, 1+w_floor(a) = thaw·a³, thaw ∈ [0.08, 0.14] → w₀ ∈ [−0.92, −0.86]. DESI DR3 decides. Phantom crossing kills both.
 - **The multi-messenger single-ε lattice** — one amplitude at window-specific weights across CMB,
   BBN, 21-cm, Koide, with no per-window exits. *Grammar/production*; individual windows carry their
   own grades (§3).
@@ -51,16 +36,7 @@ number, ε, applied everywhere atomic physics appears.
   internal cross-check passed), carrying ONE remaining theoretical stage and judged by three
   lattice observables of a single SU(2) N_f = 3 campaign plus a registered deviation lock
   (P-2026-051) — candidate-grade throughout, stated as such.*
-- **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived conditional on
-  ξ_H = 1/6*, an unmeasured Standard-Model input the balance requires; independent of the
-  pairing sector. **Prior art, recorded 2026-07-28 so this is not read as a novel result:** the
-  same conclusion — a gravitational requirement forcing exactly three generations and demanding
-  right-handed neutrinos, at 48 Weyl fermions — is published in [Navarro-Salas 2024,
-  arXiv:2403.13201, *Classical and Quantum Gravity*], derived instead from exact conformal
-  symmetry (both trace-anomaly coefficients vanishing). The two are **not** independent
-  confirmations: solved out, both reduce to N_½ = 4·N₁ over the same roster, and the published
-  route needs the same conformal-coupling premise. What remains unsurfaced is this specific
-  route — the finiteness condition at the induced-Newton-constant order — not the conclusion.
+- **N_gen = 3 from Pauli finiteness** (SM + 3 right-handed neutrinos → str[k₁] = 0 at ξ_H = 1/6). *Conditional on conformal Higgs.* Independent of the pairing sector. **Units (2026-07-29 harness):** SM alone is **str[k₁] = −1/2** in Visser’s normalisation; the corpus’s “−3” is the **Weyl-spinor deficit** (45 vs 48). Quote both. **Prior art:** same three-generation + ν_R conclusion in Navarro-Salas 2024 (arXiv:2403.13201) from conformal anomaly cancellation — not an independent confirmation (both reduce to N_½ = 4 N₁). What’s less standard is this *route* (induced-G finiteness), not the conclusion.
 
 ## 3. Weakest links — stated plainly
 - **(a) The dark-energy headline result's "+1.5%" is an artifact; its real prediction is +0.44% and
@@ -207,13 +183,13 @@ number, ε, applied everywhere atomic physics appears.
   are now named, and either could close the sector. *(The mass itself is firm: three independent
   uses return it — ξ = 402 AU, the Schive core radii, and this same superradiance band — so the
   exposures cannot be relieved by moving it.)*
-- **(f) Code-vs-theory gap, narrowed but real:** the CLASS source does not compute the
-  electron-coupled scalar's m_e shift *from* the dCDF, so the "one linked superfluid" is asserted
-  rather than implemented — `thermodynamics.c` carries no dark-sector reference. What is no longer
-  true is the sharper version of this criticism: the running config pins `varying_me` at the
-  derived 1.012543, so the fit does not buy competitiveness with a free knob. The zero-parameter
-  claim is tested by the ε-fixed config, not the ε-sampled one, which is the harder test rather
-  than the softer.
+- **(f) Code-vs-theory gap, narrowed (2026-07-23 / rechecked 2026-07-30).** `dcdf_dyad_link=yes`
+  derives `varying_me` from the amplitude stack at input time; density-gate screening is coded;
+  thermodynamics consumes varconst tables (no dark-sector equations *inside* thermo — by design).
+  What remains for S₈: re-validate with conversion hierarchy on (routeD); conversion *linear* perts are implemented 2026-07-30 when `dcdf_conv_g>0` (off on headline chains);
+  spatial δm_e is not evolved (background-only varconst — fine for linear CMB, not for halo-scale
+  predictions). Fixed-ε configs test the harder zero-extra-parameter case; sampled-ε is the softer
+  Occam test.
 
 - **(i) The evidence configuration sits off the model's own onset identity.** The transition epoch is
   frozen at z_on = 3.5619×10⁷ where the H = m identity gives 4.03×10⁷ — 0.053 dex, which under the

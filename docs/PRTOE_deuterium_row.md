@@ -1,9 +1,6 @@
 # The deuterium row
 
-*The model's weakest measured row, isolated and taken apart. The finding: the deficit is not made
-in the nuclear sector — the electron-mass shift's own nucleosynthesis physics **improves**
-deuterium — it is imported from the CMB fit, and it is the same object as the H₀ result seen from
-the other end.*
+Weakest measured row. Deficit is not made in the nuclear sector — the electron-mass shift at nucleosynthesis **improves** deuterium — it is imported from the CMB fit, and it is the same object as the H₀ result from the other end.
 
 > **Status: awaiting a measurement.** The size of this row is set by the d(d,n)³He rate, which
 > carries **94%** of the available nuclear leverage. The two standard compilations disagree about
@@ -14,10 +11,10 @@ the other end.*
 > registered as a two-sided bet, P-2026-058**: the true rate lies 5.0–9.6% below PRIMAT's central
 > value. That is what this row is waiting on.
 >
-> **One part of it is not waiting, and stays adverse.** The rate compilation moves the model and its
-> ΛCDM control together — the model-minus-control gap changes by 0.067σ across the two compilations.
-> So **the model is worse than ΛCDM on deuterium by 0.6–0.7σ, and no nuclear measurement changes
-> that.** The absolute row is hostage to LUNA; the comparison is not (§2b, §8).
+> **What stays adverse without waiting.** Rate compilation moves model and ΛCDM control together —
+> model-minus-control gap changes by 0.067σ across the two compilations. **Model is worse than ΛCDM
+> on deuterium by 0.6–0.7σ; no nuclear measurement changes that.** Absolute row waits on LUNA;
+> comparison does not (§2b, §8).
 
 ---
 
@@ -44,21 +41,20 @@ Applying the committed dark-radiation residual (the ζ window), the quotable win
 **−2.5σ to −1.4σ** on this same two-term width; the standing (pre-window-edge) figure is
 **−2.94σ**.
 
-**Against ΛCDM, honestly.** The in-house ΛCDM control on identical data and the same code gives
-D/H = 2.420×10⁻⁵, which is **−2.25σ** on the standing width. So:
+**Against ΛCDM.** In-house ΛCDM control on identical data and code: D/H = 2.420×10⁻⁵ (**−2.25σ**
+on the standing width):
 
 | | D/H ×10⁵ | vs Cooke |
 |---|---|---|
 | ΛCDM control (same code, same data) | 2.420 | −2.25σ |
 | **PRTOE** | **2.387** | **−2.94σ** |
 
-**The model is worse than ΛCDM on deuterium by 0.69σ.** It is not solved and it is not better. Any
-reading of what follows has to start there.
+**Model is worse than ΛCDM on deuterium by 0.69σ.** Not solved; not better. Start there.
 
-One piece of context, not a defence: the inter-code spread on the same physics (PRIMAT 2.439,
-PArthENoPE 2.51–2.54) is ~0.08 in these units, larger than the model's 0.033 excess deficit. ΛCDM
-itself carries 1.85σ under PRIMAT. The field's own systematic floor is above the gap between the
-two models — which bounds how much this row can currently decide, in either direction.
+Context (not a defence): inter-code spread on the same physics (PRIMAT 2.439, PArthENoPE 2.51–2.54)
+is ~0.08 in these units, larger than the model’s 0.033 excess deficit. ΛCDM itself is 1.85σ under
+PRIMAT. The field’s systematic floor sits above the gap between the two models — limits how much
+this row can decide either way.
 
 ---
 
@@ -262,8 +258,7 @@ the current literature, and the row moves 2σ across them:
 | Pisanti et al. 2021, rates only (published) | ±0.060 | **−2.09σ** |
 | PRyM propagated on NACRE II's bands (measured here) | ±0.0807 | **−1.63σ** |
 
-**The standing −2.94σ rests on the tightest error assessment available, and it is not this code's
-own.** On the published budget of the independent post-LUNA analysis the row is **−2.0σ**. Three
+**Standing −2.94σ uses the tightest error assessment available, and it is not this code’s own.** On the published budget of the independent post-LUNA analysis the row is **−2.0σ**. Three
 routes — NACRE II's bands, folding the compilation spread, and Pisanti's published budget — land
 between −1.6σ and −2.1σ; only PRIMAT's bands put it past −2.9σ.
 
@@ -355,8 +350,7 @@ That single test sorts every route the model has, and explains which ones surviv
 | shift m̂ at BBN (through B_D) | changes deuterium's binding | **yes** | no channel: the quark bilinear is two EW/EM loops down, and full ε on the quarks is itself excluded at 12–18σ |
 | evaporating PBHs at 10¹¹ g (§5b) | hadronic spallation of ⁴He into D | **yes** | right shape on *both* rows; killed by the ⁶Li co-signature, 39–156×; pure-EM dodge closed (no T ∩ τ overlap) |
 
-**Gravity is the strongest dial at BBN, not the absent one.** It is worth stating in the same units,
-because proposals recur that BBN was an EM-governed era in which gravity had no say. Converting the
+**Gravity is the strongest dial at BBN, not the absent one.** Stated in the same units, because proposals recur that BBN was EM-only with gravity silent. Converting the
 model's own coefficient: ∂ln ρ_rad/∂N_eff = 0.134, so ∂ln H/∂N_eff = 0.067, and with
 ∂ln(D/H)/∂N_eff = 0.135 the row reads **∂ln(D/H)/∂ln H = 2.0**. A one per cent change in the
 expansion rate moves deuterium two per cent; the entire varying-m_e window moves it 0.645%. **Per
@@ -506,7 +500,7 @@ comfortably above the hadronic
 threshold, fragmenting into QCD jets whose nucleons do the spalling. The required abundance is an
 initial mass fraction β ~ 2×10⁻²⁸ at unit cascade efficiency.
 
-**The kill is the co-signature, and it is efficiency-free.** Nucleon spallation of ⁴He produces
+**Kill is the co-signature (efficiency-free).** Nucleon spallation of ⁴He produces
 non-thermal **⁶Li** alongside the deuterium, and ⁶Li/H is bound far more tightly than D/H is. Read
 off the BBN constraint figure of the Carr et al. review (curves extracted from the vector source
 and calibrated against the figure's own axis ticks), at M = 10¹¹ g:
@@ -522,11 +516,7 @@ mass within the window.** A one-parameter population cannot dodge it: temperatur
 locked to each other through M, so there is no corner of the window where the deuterium arrives
 without the lithium.
 
-**Verdict: killed by the ⁶Li co-signature** — the inventory's first entry killed neither by shape,
-size, nor symmetry, but by a measured yield ratio. The route's post-mortem is worth its line: it
-was the only candidate to clear the roster, the only one with the right shape on both rows, and
-it failed on a
-number that is nuclear physics rather than model structure. *(The five-lever audit's earlier PBH
+**Verdict: killed by the ⁶Li co-signature** — first inventory entry killed by a measured yield ratio rather than shape, size, or symmetry. Only candidate to clear the roster with the right shape on both rows; failed on nuclear physics, not model structure. *(The five-lever audit's earlier PBH
 kill addressed PBHs as an expansion-rate component — a different job; this entry prices them as an
 injector, which had never been done.)*
 
@@ -592,7 +582,7 @@ abundance is where they part, and it parts by thirty orders.
 
 So the missing ingredient is not a free parameter that has yet to be fixed — it is a state the
 current field content **cannot** contain. That is a real structural statement about where a cure
-would have to come from, and it is worth more than a fitted patch.
+would have to come from, worth more than a fitted patch.
 
 **What the coupling law allows.** The dark sector couples to the Standard Model
 gravitationally and nothing else. That law is exactly what forces every native lever to be an
@@ -660,7 +650,7 @@ Ranked by how much they would change the row, cheapest first:
 
 ## 8. The answer (not a patch)
 
-**What the row is.** It is not a bug in the nuclear sector and not an unfinished fit. The
+**What the row is.** Not a nuclear-sector bug and not an unfinished fit. The
 electron-mass window *helps* deuterium. The deficit is the CMB fit's +1.1% in ω_b, forced by the
 m_e–ω_b ridge (degeneracy audit, 2026-07-21: free-slide residual consistent with zero; m_e off 1
 at ~2.7σ). That same ridge is the H₀ relief. **D/H and H₀ are one trade.** Standing row:
@@ -668,12 +658,11 @@ at ~2.7σ). That same ridge is the H₀ relief. **D/H and H₀ are one trade.** 
 in the literature and
 is not this code's own (§2b).
 
-**And what the row is *now* is a wait.** The day's nuclear work moved this from a verdict to a
-pending measurement: the compilation systematic localises to one reaction, d(d,n)³He, at 94%, and
+**What the row is now: a wait.** Nuclear work moved this from a verdict to a pending measurement: the compilation systematic localises to one reaction, d(d,n)³He, at 94%, and
 the field has not measured it to the precision LUNA reached on the neighbouring channel in 2020.
 Until it does, the absolute σ on this row is a statement about nuclear data, not about the model.
-What survives the wait, and is the honest adverse content, is the **0.62σ by which the model trails
-its own ΛCDM control** — compilation-robust, and unmoved by any rate revision.
+What survives the wait (and is the real adverse content) is the **0.62σ by which the model trails
+its own ΛCDM control** — compilation-robust, unmoved by any rate revision.
 
 **What does not fix it** — checked, not hoped:
 
@@ -690,19 +679,18 @@ its own ΛCDM control** — compilation-robust, and unmoved by any rate revision
 | false vacuum at 20 MeV | space-filling over-delivers by 10¹⁸; dilute limit is a particle again |
 | intermediate M_N ~ 20–50 MeV with seesaw τ | *near-miss only* — mass/lifetime can land in the EM window under U²~m/M, but (i) that is not either surviving v_L point, (ii) abundance ~30 eV/H is a third requirement and does not follow from seating, (iii) claiming it would be inventing a third parameter point the sector does not currently select |
 
-**What the answer is.** The row is the **owned structural price** of two load-bearing choices
-together:
+**What the answer is.** The row is the **owned structural price** of two choices that carry weight
+elsewhere:
 
-1. **varying-m_e as the H₀ lever** — which forces +ω_b along a CMB degeneracy that deuterium
-   reads as a deficit;
-2. **gravitational-only dark–SM coupling** — which forces every *native* lever to be an expansion
-   lever, and expansion levers are the wrong shape for this row.
+1. **varying-m_e as the H₀ lever** — forces +ω_b along a CMB degeneracy that deuterium reads as a
+   deficit;
+2. **gravitational-only dark–SM coupling** — forces every *native* lever to be an expansion lever,
+   and expansion levers are the wrong shape for this row.
 
-The named missing piece (≳20 MeV, 10⁶–10⁸ s, ~30 eV/H electromagnetic injector) is real as a
-*spec*. The standing configuration cannot contain a source for it without breaking something that
-elsewhere is load-bearing (Pauli finiteness, the dCDF's shift symmetry, or the
-H₀ result itself). That is why the row stays open as an **owned adverse bet**, not as an
-unfinished calculation.
+The named missing piece (≳20 MeV, 10⁶–10⁸ s, ~30 eV/H electromagnetic injector) is a real *spec*.
+The standing configuration cannot host a source without breaking something that matters elsewhere
+(Pauli finiteness, the dCDF’s shift symmetry, or the H₀ result). So the row stays open as an
+**owned adverse bet**, not an unfinished calculation.
 
 **What still changes the number without being a fake cure** (external or diagnostic, not a patch):
 
@@ -716,13 +704,11 @@ unfinished calculation.
 - CMB-S4 on the Majoron sector — selects v_L; it does **not** by itself supply the 20 MeV injector
   (the MeV-scale point is a scale, not that state).
 
-**One-line answer.** The deuterium row is the H₀ mechanism's other face under a gravitational-only
-dark sector; the model has named the only shape of object that would break the tie and does not
-contain one.
+**One line.** Deuterium is the H₀ mechanism’s other face under a gravitational-only dark sector; the model names the only object shape that would break the tie and does not contain one.
 
 ---
 
-## 9. In plain language
+## 9. Plain language
 
 The model makes slightly too little deuterium — less than ΛCDM does, and both make less than
 astronomers measure. The surprise is where the shortfall comes from. The new physics that acts

@@ -1262,7 +1262,7 @@ int input_get_guess(double *xguess,
        * exactly (beta=1e-7 correction is negligible) -- verified
        * numerically to match a direct ODE integration at the percent
        * level or better across Omega_ini in [0.5,100]. See
-       * docs/PRTOE_v4_dCDF_derivation.md. */
+       * docs/exploratory/PRTOE_v4_dCDF_derivation.md. */
       /* ba.dcdf_rho_inf is stored in absolute (H0^2-scaled) units by this
        * point (input_read_parameters_species scales it on read); target
        * and Omega_ini_dcdf are dimensionless Omega-like quantities, so
@@ -3298,7 +3298,7 @@ int input_read_parameters_species(struct file_content * pfc,
   /* PRTOE v4 dCDF: read the activation flag now (before the dark-energy
    * budget below) so it can force Omega0_cdm down to (near) 0 -- dCDF
    * replaces cdm+DE with a single fluid, see
-   * docs/PRTOE_v4_dCDF_derivation.md. Use ppr->Omega0_cdm_min_synchronous
+   * docs/exploratory/PRTOE_v4_dCDF_derivation.md. Use ppr->Omega0_cdm_min_synchronous
    * (1e-10), not a literal 0: the synchronous gauge is defined relative to
    * a CDM-comoving frame and CLASS fatal-errors with has_cdm==FALSE there
    * (perturbations_init). This floor is already how CLASS avoids the same
@@ -3410,14 +3410,26 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* ** END OF BUDGET EQUATION ** */
 
-  /** PRTOE v4 -- dCDF: unified dark fluid parameters. See
-   * docs/PRTOE_v4_dCDF_derivation.md. Omega0_dcdf is the shooting target
+  /** PRTOE v4/v5 -- dCDF: unified dark fluid parameters. See
+   * docs/exploratory/PRTOE_v4_dCDF_derivation.md. Omega0_dcdf is the shooting target
    * (density today); Omega_ini_dcdf is the shooting unknown (dust-era
    * amplitude), overwritten by the shooting driver when Omega0_dcdf is
    * given as a target -- read here exactly as Omega_ini_dcdm is read for
    * the analogous dcdm shooting pair. dcdf_rho_inf (de Sitter floor
    * density) is a direct input, not shot. (dcdf_beta was removed 2026-07-05:
    * the data drove it to its null limit; see background.h cs2_dcdf.) */
+  /* Fail loudly if a retired v4 knob is still in the input (docs claim this;
+   * CLASS would otherwise only WARN "input line not used"). */
+  {
+    double retired_beta;
+    class_call(parser_read_double(pfc,"dcdf_beta",&retired_beta,&flag1,errmsg),
+               errmsg, errmsg);
+    class_test(flag1 == _TRUE_, errmsg,
+               "dcdf_beta was removed 2026-07-05 (v5): MCMC drove beta -> 0 and any beta > 1e-6 "
+               "destroys sigma8. Equation of state is w=-rho_inf/rho with c_s^2 ≡ 0. "
+               "Remove dcdf_beta from the input. See docs/exploratory/PRTOE_v4_dCDF_derivation.md "
+               "and docs/PRTOE_FAILURES_LEDGER.md.");
+  }
   if (pba->use_dcdf == _TRUE_) {
     class_call(parser_read_double(pfc,"Omega0_dcdf",&param1,&flag1,errmsg),
                errmsg,
@@ -3457,7 +3469,7 @@ int input_read_parameters_species(struct file_content * pfc,
                  "dcdf_rho_inf (%e) must be strictly less than Omega0_dcdf (%e): "
                  "the de Sitter floor density cannot exceed the total dCDF density "
                  "today (Omega_ini_dcdf ~= Omega0_dcdf - dcdf_rho_inf would go negative). "
-                 "See docs/PRTOE_v4_dCDF_derivation.md.",
+                 "See docs/exploratory/PRTOE_v4_dCDF_derivation.md.",
                  pba->dcdf_rho_inf, pba->Omega0_dcdf);
     }
     /* Read in H0^2 (dimensionless Omega-like) units, scale to CLASS's
@@ -6108,7 +6120,7 @@ int input_default_params(struct background *pba,
   pba->tau_dcdm = 0.0;
 
   /** 7.1.d) PRTOE v4 -- dCDF unified dark fluid (see
-   *  docs/PRTOE_v4_dCDF_derivation.md). Off by default. */
+   *  docs/exploratory/PRTOE_v4_dCDF_derivation.md). Off by default. */
   pba->use_dcdf = _FALSE_;
   pba->Omega0_dcdf = 0.0;
   pba->Omega_ini_dcdf = 0.0;
@@ -6118,6 +6130,7 @@ int input_default_params(struct background *pba,
                                 the smooth de Sitter floor is not matter. Mode 0 (full density)
                                 decided against 2026-07-05: BAO DR12 chi2 593 vs 8.2 for mode 1. */
   pba->dcdf_conv_g  = 0.0;   /* rotation-cancellation conversion off by default (backward compat) */
+  pba->has_dcdf_conv = _FALSE_;
   pba->dcdf_floor_thaw = 0.0; /* Route-D thawing floor off by default (constant floor, w=-1 exact) */
   pba->dcdf_conv_at = 0.6;   /* turn-on scale factor ~ z=0.67 */
   pba->dcdf_conv_n  = 4.0;   /* turn-on sharpness */

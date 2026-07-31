@@ -63,6 +63,16 @@ Recomputed from α and m_e alone, independently of `audit_math_pass.py`, and eve
 | **the charge²-weighted census** | **c = 8/9**, from Σ N_c Q² = 3 + 4 + 1 = **8** | 14/17 = 0.8235 (the colourless sum, 4.667/5.667) | Colour is counted in the roster the count is over, so the up-type contributes 4 and the down-type 1. c = 8/9 gives ε = 16α/3π = **1.2388%**. Carrying the charge criterion all the way — the neutral seat then weighs zero — returns **c = 1**, which the census excludes (#126). |
 | **the portal's Higgs branch** | **λ_p ≲ 5×10⁻¹¹ … 1×10⁻⁹** across f = 100–500 TeV | a coupling the roster does not list | |Ψ|²H†H is the *only renormalizable* SM partner of the dark bilinear, and it shifts the Higgs vev, so it moves every mass; the bound is D/H's 12–18σ on a universal shift at ε. The standing dim-6 lepton operator induces it at **λ_p ≤ 1.1×10⁻¹³** (Λ_UV = 4πf; 6.8×10⁻¹⁶ at Λ_UV = f) — 3–6 orders under, so excluding it costs no tuning (#125). |
 
+## Supertrace units (settled 2026-07-29 harness; audience-critical)
+
+| quantity | canonical | note |
+|---|---|---|
+| str[k₁] SM alone (Visser norm) | **−1/2** | heat-kernel table sum |
+| Weyl deficit SM alone | **−3** | 45 vs 48 Weyl fermions; related by 1/6 per Weyl |
+| str[k₁] SM + 3 ν_R, ξ_H = 1/6 | **0** | N_½ = 4 N₁ = 48 = 4×12 |
+
+Always quote Visser −1/2 *and* Weyl −3 for SM alone. `scripts/supertrace_k1_verify.py`.
+
 ## Open — no canonical value exists yet
 
 Listed so nobody books one by accident.
@@ -70,3 +80,4 @@ Listed so nobody books one by accident.
 - **T_c's owner**: MATH_SPINE assigns it to the dyad; DERIVATION_HUNT to the SU(2) confining sector. Same arithmetic, incompatible structural claims. Three recorded points lean to the confining sector. **Owner ruling pending.**
 - **D/H width**: settled 2026-07-21 (#157) — two-term **±0.0476**, standing row **−2.94σ**. The three-term ±0.0563 double-counted LUNA's d(p,γ)³He inside PRIMAT's post-LUNA ±0.037 and is retired (`ForJustin/10`, `PRTOE_FAILURES_LEDGER.md`).
 - **A_s's imprint**: freeze-out (n_s = 4, white) vs scale-invariant (ξ ∝ 1/k). Exactly one can stand (#184).
+- **B2 tilt / A_s census imprint**: freeze route and 2D-Gaussian height tilt both **DEAD** (#184; `working_logs/B2_winding_gas_cv_findings.md`). A_s closed form remains candidate; imprint mechanism open.

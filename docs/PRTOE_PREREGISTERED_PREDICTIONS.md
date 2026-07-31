@@ -2608,7 +2608,7 @@ any evidence for additional light fermionic content in the vacuum.
 Eq. 35): it kills the quadratic divergence in 1/G and makes G independent of the
 renormalization scale. Visser calls these *"very strong constraints on the particle
 content,"* not derivable from supersymmetry alone. **The Standard Model alone violates it
-(−3). The model's content satisfies it exactly.** The two kills above therefore have a
+(str[k₁]=−1/2 in Visser units; Weyl deficit −3). The model's content satisfies it exactly.** The two kills above therefore have a
 sharpened meaning: **a light sterile neutrino or a fourth generation would restore the
 quadratic divergence and make Newton's constant cutoff-dependent** — destroying the
 framework's finiteness, not merely its bookkeeping.

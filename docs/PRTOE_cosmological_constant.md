@@ -1,4 +1,8 @@
-# The Cosmological Constant from Vacuum Occupancy
+# Cosmological constant from vacuum occupancy
+
+**Audience grade (2026-07-30).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel (nothing cosmological in the chain) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 (0.34657 crowns; 0.34506 kills). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+
+---
 
 > The dark-energy scale follows the closed form
 > ρ_Λ¼ = (9/2)α⁴·τ·m_e, where the α⁴ is derived — the condensate's own binding α_c² times the
@@ -10,24 +14,12 @@
 > > **ρ_Λ¼ lands on the observed dark-energy scale — and sits a small, specific distance *above*
 > > the value that would return the observation by construction. That distance is the claim.**
 >
-> The gap is the whole claim, and the reason is worth stating before anything else. Inverting
-> the observation gives τ = 2.25/((9/2)α⁴m_e) = **0.34506**, which returns 2.25 by construction — a
-> perfect match that predicts nothing. The kernel's 0.34657 sits 0.44% above that value, so the gap
-> between them is precisely what distinguishes a derivation from a back-solve. **A lattice T_c/√σ
-> for SU(2) with N_f = 3 decides it** (P-2026-048), and it must reach 0.22% precision to tell the
-> two apart — a demanding number, and nobody has computed it yet.
->
-> And the claim is existence, not precision — the distinction is load-bearing and is made in full
-> at §4b. The gap above is a statement about *τ*, where it is exact arithmetic between two
-> candidate values. The *predicted meV* is not owned to that accuracy: the composite quartic maps to
-> λ = 26–46, the whole band above the control edge λ\* = 22.41, so ρ_Λ¼ carries an uncontrolled
-> radiative correction whose formal size is 5.4–9.8% — wider than the gap itself. The chain lands on
-> the observed scale, and the same lattice job that measures τ is what would let the two decimal
-> places be claimed.
->
-> What remains conditional: α_c = 3α is a registered bet under MCMC test, and the portal
-> √σ_dark = m_e — why the dark scale equals the electron mass — is the one irreducible input. The
-> pinning is not derived and the file says so where it arises.
+> The gap is the whole claim. Inverting the observation gives τ = 2.25/((9/2)α⁴m_e) = **0.34506**,
+> which returns 2.25 by construction — a perfect match that predicts nothing. The kernel's 0.34657
+> sits 0.44% above that value; that gap is what distinguishes a derivation from a back-solve.
+> **Lattice T_c/√σ for SU(2), N_f = 3 decides it** (P-2026-048); needs ~0.22% precision; not yet
+> computed. Claim is existence, not precision (§4b). Quartic past control → meV not owned to two
+> decimals. Conditional: α_c = 3α (bet); portal √σ_dark = m_e (irreducible input).
 
 
 > Whose coupling is whose — the two fields behind the headline number. ½α_c²M₂ hides that

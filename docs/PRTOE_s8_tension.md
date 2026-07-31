@@ -1,5 +1,8 @@
 # The S₈ Tension — the Second Fight, Fought With the Right Sign (2026-07-12)
 
+**Audience grade.** Companion to s8_growth. No published tension-easing claim until a matched lensing likelihood is run. Chains with conversion (routeD/conv_desi) are exploratory.
+
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 

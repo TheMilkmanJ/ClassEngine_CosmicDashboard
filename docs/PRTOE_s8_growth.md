@@ -1,5 +1,8 @@
 # The S₈ Tension and Growth — the Conversion Channel (2026-07-11)
 
+**Audience grade.** Mechanism note only — no matched DES/KiDS lensing fit yet; do not quote S₈ as a measured win. Conversion perts now coded when `dcdf_conv_g>0` (routeD); headline chains have conversion off.
+
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 

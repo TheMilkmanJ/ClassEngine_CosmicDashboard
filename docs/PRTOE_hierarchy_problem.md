@@ -1,9 +1,12 @@
-# The Hierarchy Problem — the Electroweak Scale as a Pairing Gap (2026-07-12)
+# Hierarchy problem — electroweak scale as a pairing gap (2026-07-12)
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
 
+**Audience grade (2026-07-30).** Supportable claim: anchor lands at the **electroweak scale within a factor of a few** (band **~0.55–1.78 TeV** after O(λ) corrections), with **no electroweak input** in the construction. **Not** a sub-percent prediction of 4π m_H. k is derived on a **host the constituent theory does not record** (Fermi surface vs Fermi point) — largest open exposure. α_c = 3α is a bet. Do not quote 1576 GeV as a precision result.
 
-> The claim splits, because the pieces did not fail together. A named condition failed — the
+---
+
+> The claim splits: pieces did not fail together. A named condition failed — the
 > paired lepton-sector vacuum was excluded by the constituent-level rebuild — but "every result
 > inherits that conditionality" was too broad, and the split matters:
 >

@@ -1,45 +1,39 @@
-# The Koide Relation — a Famous Coincidence Given a Frame (2026-07-11)
+# The Koide relation — a mass coincidence given a frame
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Lattice stake: [PRTOE_lattice_note.md](PRTOE_lattice_note.md). Owed work: [T6_koide_owed.md](working_logs/T6_koide_owed.md).
 
+Thread 6. One recorded explanation (why the relation survives a mass shift) plus one live derivation lane (why Q = 2/3 holds at all).
 
-*Thread 6. Structural (candidate) — one recorded explanation (why the relation survives)
-plus one live derivation lane (why it holds). The improvement: mainstream particle physics has
-no account of Koide at all; this model supplies a protection mechanism it needs for other
-reasons, and a generation-structure lane under active test.*
+**Audience grade.**
+
+| claim | grade |
+|---|---|
+| Protection: Q invariant under universal rescaling | **derived** (homogeneous of degree 0; content is flavour-universality of the portal) |
+| Why Q = 2/3 at all (A = √2) | **not derived** — candidate chain; cascade deliverer **dead** |
+| T_c = 177.10 keV from τ = ½ln2 | **derived** (from Q = 2/3 via Parseval); pipeline often 179; 193 is cross-check only |
+| ρ_Λ¼ = 2.2599 meV (+0.44%) | **existence claim, not precision** (composite quartic uncontrolled at this order) |
+| Neutrino sum | **P-2026-012 stands** (Σm_ν ≈ 61.3 meV); Koide-neutrino branch **withdrawn** as prediction |
+| Medium-w inheritance of A = √2 | **dead** (failures ledger) |
+
+Do not present Koide as solved. Protection is real; the value is open.
+
+---
 
 ## 0. The mystery
 
-Koide (1981): Q ≡ (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 to ~10⁻⁵ — with the POLE masses,
-including QED corrections that had no reason to preserve it. It fits no symmetry anyone has
-made stick; the standard position is "numerology, presumably."
+Koide (1981): Q ≡ (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 to ~10⁻⁵ — with the pole masses, including QED corrections that had no reason to preserve it. It fits no symmetry anyone has made stick; the standard position is "numerology, presumably."
 
 ## 1. The recorded half: why it survives (the protection, derived)
 
-Any new physics touching lepton masses should WRECK a delicate mass relation. This model's
-lepton coupling is **multiplicative-universal by construction** (the Card-7 structure, graded:
-every lepton Yukawa dressed by the SAME factor) — and Q is a RATIO invariant under a common
-rescaling: **the electron-coupled scalar shifts every lepton mass 1.2543% and Koide's Q does
-not move in the tenth digit.** A model that had to choose between varying lepton masses and
-preserving Koide got both, from one portal structure needed anyway for gate-0.
+Any new physics touching lepton masses should wreck a delicate mass relation. This model's lepton coupling is **multiplicative-universal by construction** (the Card-7 structure, graded: every lepton Yukawa dressed by the same factor) — and Q is a ratio invariant under a common rescaling: **the electron-coupled scalar shifts every lepton mass 1.2543% and Koide's Q does not move in the tenth digit.** A model that had to choose between varying lepton masses and preserving Koide got both, from one portal structure needed anyway for gate-0.
 
-**Stated at its true weight (2026-07-28 sweep).** The invariance itself is trivial mathematics: Q is
-homogeneous of degree 0, so *any* universal rescaling m_i → λm_i leaves it unchanged exactly, for
-any λ, to machine precision. The content is therefore not "Q survives a shift" but the structural
-fact that **this coupling is flavour-universal rather than flavour-dependent** — and that is load-
-bearing, because a non-universal shift does move Q: dressing the electron alone by 1.24% shifts Q by
-**163 ppm**, against a measured fence of 6.8×10⁻⁶. So the model had a genuine way to die here and
-does not take it.
+**Stated at its true weight (2026-07-28 sweep).** The invariance itself is trivial mathematics: Q is homogeneous of degree 0, so *any* universal rescaling m_i → λm_i leaves it unchanged exactly, for any λ, to machine precision. The content is therefore not "Q survives a shift" but the structural fact that **this coupling is flavour-universal rather than flavour-dependent** — and that is load-bearing, because a non-universal shift does move Q: dressing the electron alone by 1.24% shifts Q by **163 ppm**, against a measured fence of 6.8×10⁻⁶. So the model had a genuine way to die here and does not take it.
 
-What this is **not** is an explanation of Koide's robustness relative to mainstream physics. In a
-theory that does not vary lepton masses at all, Q's stability is not at issue — there is nothing to
-be robust against. The honest framing is that the model **avoids a problem of its own making**, which
-is a consistency property rather than an improvement on anyone else's account.
+What this is **not** is an explanation of Koide's robustness relative to mainstream physics. In a theory that does not vary lepton masses at all, Q's stability is not at issue — there is nothing to be robust against. The honest framing is that the model **avoids a problem of its own making**, which is a consistency property rather than an improvement on anyone else's account.
 
 ## 2. The live half: why it holds (the lane, and its status)
 
-Koide is one derived number away, modulo one linkage that is not built. That is the whole
-status; the rest of this section is what it means.
+Koide is one derived number away, modulo one linkage that is not built. That is the whole status; the rest of this section is what it means.
 
 The frame. In the Z₃-family frame the three √m sit on a 120° ring,
 √m_k = M(1 + A cos(θ + 2πk/3)) — three parameters (centre M, amplitude A, phase θ) onto three
@@ -169,12 +163,8 @@ decomposition, ε = c × f_amp × Ψ₀/M_red, is archive-only and is not a chec
 
 The protection mechanism predicts: any environment-dependence of lepton masses is
 Koide-preserving — precision μ/e and τ/e mass-ratio comparisons across environments/epochs
-must hold Q fixed even where masses drift (P-024's dipole would shift masses, NEVER Q). A
+must hold Q fixed even where masses drift (P-024's dipole would shift masses, never Q). A
 measured Q-drift kills the multiplicative-universal portal outright.
-
-*The most precise unexplained number in particle physics is a ratio that ignores a universal
-rescaling — and this model, for unrelated reasons, is only ALLOWED to rescale universally. The
-coincidence, at minimum, has finally met a structure shaped like itself.*
 
 
 ## The fence, measured

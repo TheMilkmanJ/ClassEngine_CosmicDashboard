@@ -71,7 +71,7 @@ tools, ordered by the chain:*
 | # | build | what it computes | feeds | size |
 |---|---|---|---|---|
 | B1 | **THE GENESIS SOLVER** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H₀ remainder | PROJECT — the queue's crown |
-| B2 | **the winding-gas C_V** (lock 2's method, string-gas import) | the medium's specific-heat scaling near T_c: does C_V ∝ R² emerge from the compact-axis windings? | the census drift (the tilt, thermodynamic road) + the lock-count C → THE A_s CLEARANCE | one careful session |
+| B2 | **the winding-gas C_V / census tilt** | freeze imprint and 2D-Gaussian height tilt both **DEAD** (#184): white noise n_s=4; Gaussian gives +1/ln wrong-sign IR tilt | A_s clearance **not** delivered; closed form remains candidate | **CLOSED negative** 2026-07-30 — see `working_logs/B2_winding_gas_cv_findings.md` |
 | B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the constituent theory does not record (§6m) — the audit still stands* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
 | B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (REHEARSAL, not the referee) | light — one evening |
 | B5 | **the μ-injection calculator** | μ(z_inject, efficiency) with the visibility ramp | the draw-branch discriminator (ξ vs 1/m) | small script |
@@ -176,21 +176,18 @@ evening, and the code carries it now: `perturbations.h:495-496` declares `index_
 `index_pt_theta_dcdf` as **evolved** variables, `perturbations.c:3964` registers them in the
 integrated vector, `:5508-5509` sets adiabatic initial conditions in w_dcdf and cs2_dcdf, and
 `:8004`/`:8151` build the transfer sources from them. A fluid with a sound speed, in the hierarchy.
-**What remains open is narrower and should not be confused with it:** the *conversion channel's*
-perturbation treatment — the dcdf matter-part shedding into free-streaming dark radiation
-(`rho_dcdf_conv`), the mechanism that eases S₈. This is scoped precisely: the background conversion
-is coded (`background.c:2895-2898`, an energy-conserving sink/source keyed to a(t)), and the leading
-effect is already carried — the depleted `rho_dcdf` feeds the perturbed metric source, so less
-clustering matter → suppressed growth → lower S₈ is present. What is missing is two sub-leading
-pieces: a perturbed sink on δ_dcdf/θ_dcdf, and a free-streaming hierarchy for the shed radiation
-(no `index_pt` for `rho_dcdf_conv`). It is an **implementation** task, not research — the build
-already carries CLASS's decaying-DM → dark-radiation machinery (`Gamma_dcdm`, the `index_pt_F0_dr`
-hierarchy) and the conversion is structurally the same problem: add the perturbed sink, give the
-shed radiation a hierarchy sourced by the conversion, rerun. Its expected size is ≲10⁻⁴ on S₈
-against a ~0.012 error, and — decisively — **conversion is OFF in the headline evidence chains**
-(`cmp_prtoe_fixed`, `pc_prtoe`, `cmp_prtoe_zon_disp` all sample zero conversion parameters; it is on
-only in routeD / conv_desi), so this gap does not touch the scalar-vs-ΛCDM ΔlnZ verdict — it is owed
-only before the S₈-easing sub-claim is published as a converged number.
+**Conversion-channel perturbations (closed 2026-07-30).** Background conversion was already coded
+(energy-conserving sink/source on `rho_dcdf` ↔ `rho_dcdf_conv`). Linear sector now mirrors
+CLASS dcdm→dr when `dcdf_conv_g > 0` (`pba->has_dcdf_conv`):
+
+- dcdm-like gauge term on δ_dcdf (`aΓ = rate × aH`);
+- free-streaming multipoles `index_pt_F0_dcdf_conv` (same Kaplinghat F_ℓ convention / `l_max_dr`);
+- sourced by the converting matter-part; stress added to δρ, (ρ+p)θ, shear, δp.
+
+Leading S₈ effect still rides depleted background `rho_dcdf`. Sub-leading hierarchy is for
+routeD / conv_desi only — **conversion remains OFF** on headline evidence chains
+(`cmp_prtoe_fixed`, `pc_prtoe`, `cmp_prtoe_zon_disp`). Re-validate S₈ numbers on those configs
+before publishing a conversion-easing claim.
 
 *A separate thing that travels under the same word, and must not be merged with it:* the m_e
 coupling itself is background-only by construction — `background_varconst_of_z`
