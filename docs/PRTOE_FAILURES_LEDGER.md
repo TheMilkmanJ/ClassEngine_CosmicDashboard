@@ -97,7 +97,7 @@ Undated entries below read against this register.*
 | **Natural Z₃ cubic V ⊃ −g Σφ³ as A = √2 mechanism** | **KILLED.** Free min of Mexican-hat + cubic sits at **A = 2** (axis vacuum) for all g tried — fights Koide | 2026-07-17 |
 | **P-2026-036's registered Y_p = 0.2495–0.2505** ("the helium war resolves high") | **RETIRED — the LT *step* value.** The ramped ε(T) gives **0.24900**, *below* the registered interval, and the kill threshold weakens from **+4σ to +3.5σ** (EMPRESS-ward). The prediction's DIRECTION survives — 0.24900 still sits above both Aver (+1.09σ) and EMPRESS (+3.53σ) — but its quoted value and its kill were both step-derived | ramped splice, 2026-07-16 |
 | **P-2026-022's reading A** ("the thermal/global gate: a sharp global step") | **RETIRED — an illegal step.** A global thermal gate switching off is a dynamical discontinuity: not quantized, not topological, not a protected zero ⟹ **no exemption clause** under amendment 5. The model now **commits to reading B** (the σ8-tracking fade over z ≈ 30–60), which *sharpens* the entry: a confirmed sharp global step now counts AGAINST the model instead of selecting one of its readings | 2026-07-16 |
-| The BBN engine's ramp keyed to T_c = 193 keV | the stamps (0.64ε, 0.79ε) are 1 − T/**193** — the *perturbative Coleman–Weinberg cross-check* — while the model derives T_c = **179 keV** (τ·m_e). Engine and stamps re-keyed to the derived value (0.61ε, 0.78ε); 193 demoted to an explicit cross-check | witness restatement, 2026-07-16 |
+| The BBN engine's ramp keyed to T_c = 193 keV | the stamps (0.64ε, 0.79ε) are 1 − T/**193** — the *perturbative Coleman–Weinberg cross-check* — while the BBN books then used T_c = **179 keV** (coded τ·m_e rounding). Engine and stamps re-keyed off 193 (0.61ε, 0.78ε); 193 demoted to an explicit cross-check. **Later standing:** kernel derivation is **T_c = 177.10 keV**; 179 remains the coded BBN-book value in the same insensitivity band — do not read 179 as the live derivation | witness restatement, 2026-07-16; standing note 2026-07-30 |
 
 ### Baryogenesis (the η channel)
 
@@ -2152,8 +2152,8 @@ fraction of the dyad's own band lying **above the BBN fence's 500 keV** — **53
 old band implied. Since the ≤ 0.32σ whole-fence swing is stated *on* [70, 500], the claim that
 "the BBN books do not move" is **not established over the corrected band**. Now carried by
 `scripts/audit_math_pass.py`, which previously checked only the superseded high-temperature route.
-*(One home for the old band is outside this pass's write scope —
-`PRTOE_DERIVATION_HUNT.md` §6 — and still reads 250–530 keV.)*
+*(The old 250–530 keV band was also corrected in `PRTOE_DERIVATION_HUNT.md` §6 to **307–714 keV**;
+that home is no longer stale.)*
 
 Caught in the resummation docket — the docket that was opened to shrink the band found that the
 band's width was the smaller problem.
@@ -2942,7 +2942,7 @@ is the right one.
 | the escape rests on a conformal-window geometric mean | it does not. The dyad condenses when the electron plasma's thermal mass stops holding the symmetric point against the electron loop's tachyonic curvature; **both terms are first order in κ = ε/f², so κ cancels** and the restoration temperature is m_e0·√(3(L−1)/2π²) — the electron mass times a pure number (`PRTOE_me_mechanism_math.md`, the high-f operating point) |
 | the bracket's UV end is f, or a soft mass the dyad may not have | **neither.** f does not appear in a κ-independent quantity. The only surviving f-dependence is in the ramp-timing relation C_T(T_c) = 2λ_dyad·f², and only while λ_dyad is held at its recorded value rather than at its own defining expression; held there, λ_dyad·f⁴ = ε·m_e0⁴(L−1)/4π² and f cancels exactly |
 | "1.07 MeV at f = 500 TeV leaves the escape window" | an artifact of the heuristic. Across that same 100–500 TeV window the sector's own timing relation gives **T_c = 130–940 keV — inside at both ends** — and read backwards places f ≈ 145 TeV, in the *low* part of the adopted window |
-| the escape is "physical-but-unproven" pending the rung | the rung is fixed by the cancellation. Three independent readings — the kernel's 177.10 keV, the exact-kernel electron-loop cross-check at 250–530 keV, and the timing relation's 130–940 keV — all sit inside (0.26 eV, 1 MeV), and all sit inside the tighter **BBN fence [70, 500] keV** that actually binds |
+| the escape is "physical-but-unproven" pending the rung | the rung is fixed by the cancellation. Three independent readings — the kernel's 177.10 keV, the exact-kernel electron-loop cross-check at **307–714 keV** (not the retired mis-range 250–530 keV), and the timing relation's 130–940 keV — all sit inside (0.26 eV, 1 MeV); the kernel and the lower half of the exact-kernel band also sit inside the tighter **BBN fence [70, 500] keV** that actually binds (53% of 307–714 lies above 500 keV — see the #182 correction above) |
 
 **The failure mode, named.** A heuristic was left standing in the place where the sector had a
 calculation, and then re-run with a new input when the model's scales moved. Because a geometric
