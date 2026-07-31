@@ -89,3 +89,5 @@
 | 2026-07-30 | Board opened; harnesses; B4/B5; Amplitude/Risk; Fairbank cluster |
 | 2026-07-30 | B2 closed DEAD; B1 scoped; Hubble/dCDF/dyad/stability/CC/hierarchy audience pass; 100% in-repo board |
 | 2026-07-30 | Conversion-channel perts in CLASS; bbn_witness de-AIified; CODE_MANIFEST updated |
+| 2026-07-31 | E2E derivation program opened (`_E2E_DERIVATION_BOARD.md`); A_s γ* microphysics pass — value not derived, residue = one mutual-friction number |
+| 2026-07-31 | **α_B = ε² first principles;** Route T γ*=ε²√2 candidate-closes A_s imprint value (~1% on f, ~2% on A_s); residual = d_⊥=2 |
