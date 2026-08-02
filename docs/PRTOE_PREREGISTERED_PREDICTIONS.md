@@ -1270,6 +1270,27 @@ Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute 
  scoped-and-owed, not built. Priority now = TESTS (Σm_ν, DESI w=-1, fuzzy-DM mass), not
  more structure.
 
+**ANNOTATION (2026-08-02 — the registered value sits ON the 0νββ funnel edge; computed and
+adversarially verified, `scripts/funnel_edge_identity.py`, 9 controls).** The smallest lightest-mass
+at which the effective Majorana mass m_ββ can cancel exactly — the lower edge m₁\* of the
+normal-ordering "funnel" — computes to **2.2496 meV at NuFIT 5.0 centrals, against this entry's
+ρ_Λ^{1/4} = 2.2395 ± 0.0108 meV: a 0.45% coincidence between a number set by oscillation
+experiments and a number set by dark energy.** Stated nowhere in the funnel literature (three
+searches, null; the dedicated funnel papers arXiv:2308.09737 and 2603.06787 never mention the
+dark-energy scale). Consequences, recorded without adopting any of them: (i) exact cancellation at
+the edge happens at exactly one phase point and it is CP-conserving, (α₂₁, α₃₁) = (π, 0); (ii) a
+mechanism making the identity exact exists in the literature — the symmetry-protected ee-texture
+zero (Frampton–Glashow–Marfatia classes A1/A2, hep-ph/0201008; realizable by Abelian symmetries,
+hep-ph/0405016; viable ONLY in normal ordering with m_lightest pinned to the funnel) — and "m_ee = 0
+with m₁ minimal" lands exactly on the edge, but adopting it is flavor structure, which
+[PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) declares constitutionally not writable, and it
+would invert the m_ββ paper's discriminating band into a falsifier (it predicts m_ββ ≲ 0.05 meV, no
+observable signal); (iii) the identity is testable: JUNO brings θ₁₂ and Δm²₂₁ below 0.5% by
+~2031–32 (arXiv:2204.13249; first 59-day data already at 2.8%/1.6%, arXiv:2511.14593), shrinking
+σ(m₁\*) from 0.24 to 0.06 meV, after which θ₁₃ — Daya Bay final, no successor planned — gates the
+test at ~3% permanently. If the identity survives JUNO at 3%, it is either the framework's to
+derive or the sharpest numerical accident in the registry.
+
 ## P-2026-013: The universe is closed/compact (the "all in" topology bet, pre-registered 2026-07-08)
 
 **The claim (COHERENCE LEAN — the softest evidential class in this registry, labeled honestly):**

@@ -75,6 +75,25 @@ because the middle term exceeds the other two combined — 2.67 against 2.62 at 
 three phasors cannot close a triangle and exact cancellation is impossible. The margin is 0.05 meV
 on terms of order 2.
 
+**The margin's sign is a coin toss on today's data, and where the coin lands is itself structured
+(computed 2026-08-02, `scripts/funnel_edge_identity.py`, 9 controls).** At the global-fit central
+values (NuFIT 5.0: sin²θ₁₂ = 0.304) the margin's sign flips to −0.0002 meV: the floor's existence
+is decided by which side of the closure threshold m₁ sits on, and the 1σ band on the margin,
+±0.24 meV, is dominated by θ₁₂ and makes the sign a 50/50 draw. The threshold itself — the smallest
+m₁ at which exact cancellation first becomes possible, the lower edge of the well-known
+normal-ordering "funnel" — computes to **m₁\* = 2.2496 meV at current centrals, against
+ρ_Λ^{1/4} = 2.2395 ± 0.0108 meV: agreement to 0.45%, i.e. the registered m₁ sits ON the closure
+threshold**, a coincidence found stated nowhere in the funnel literature (three searches, null).
+Exact cancellation at the threshold occurs at exactly one phase point, and it is CP-conserving:
+(α₂₁, α₃₁) = (π, 0). JUNO (θ₁₂ and Δm²₂₁ below 0.5% by ~2031–32) tightens the threshold's error
+to 0.06 meV, after which θ₁₃ — frozen at Daya Bay's final precision, with no successor planned —
+gates the test at ~3% and the sign stays uncalled if the true margin is under ~0.04 meV. What
+would decide it structurally is recorded with its price at the registry annotation to P-2026-012:
+a closure mechanism exists in the literature (ee-texture zero, symmetry-protected, viable only in
+normal ordering with m₁ pinned to the funnel) but is flavor structure, which this model's own
+constitution declares not writable — and adopting it would invert the discriminating band above
+into a falsifier, since it predicts m_ββ = |margin| ≲ 0.05 meV, no observable signal.
+
 The model's derived dark-energy scale sits 0.44% from the observed value: the observation is at
 2.25 meV and the current derived anchor from the composite quartic lands at 2.2599 meV. **This small
 gap is not a propagated uncertainty or formal error bar.** The composite quartic sits above its
