@@ -4080,6 +4080,24 @@ frozen amplitude) differs from its stiffness **at observation** (which the mass 
 **third stiffness pair**, which is neither the final radial Hessian (½) nor the circulant amplitudes
 (0.1213). The route fails; this lead does not.
 
+**THE LEAD IS NOW ALSO DEAD (2026-08-02 — tested against the corpus's own recorded numbers;
+adversarial verifier: 14/14 confirmed, including three-phrasing hunts confirming nothing needed is
+missing).** The identity tested: the third pair is the freeze-time image r_obs^{1/(1+am)} of a
+recorded observation-time pair, with r_obs ∈ {½ (radial Hessian), 0.1213 (circulant at the Koide
+point)} and the corpus-named quench exponents am ∈ {0, −2}. The full reachable set is
+{0.5, 2, 0.1213, 8.2426}, and the target 2 is hit exactly once — the radial pair at am = −2 — which
+is not a new identification but a verbatim restatement of the KZ route this very entry closes: am = −2
+is the tuned softening exponent with the sign wrong for every ordering transition, and even granting
+it the frozen frequencies still differ by √2, leaving the 1025.4 ppm residual against the 6 ppm
+budget. The kill is structural twice over: **(i) sign** — both recorded observation-time ratios lie
+below 1, the target lies above 1, and every stiffening quench (1 + am > 1) maps sub-unity ratios to
+sub-unity ratios, so no sign-allowed assignment from either recorded pair can reach 2; **(ii)
+exactness** — any freeze that does deliver stiffness ratio 2 forces frequency ratio √2, so the
+quantum correction fails to cancel regardless of which am produced it. A continuous fit for the
+circulant base needs am = −4.0431, a value named nowhere in the corpus (hunted; the nearest clean
+am = −4 misses by 10,010 ppm). **The Koide arc's residue is now one unsupplied number and four dead
+routes, zero live leads.**
+
 **Caveat recorded with it.** The whole construction is predictive only because both sectors ride one
 λ(t). With independent ramp rates the ratio spans 0.224 → 2.236 and KZ predicts nothing. The shared
 ramp is the physical content, and it is an assumption.
@@ -4133,6 +4151,24 @@ different mechanism and it is suppressed.
 **Scope.** Nothing here touches the leptogenesis side — the AD mechanism, the asymmetry and the
 neutrino-sector couplings are unaffected. What fails is only the claimed **drag** from the current
 coupling to the electron mass shift. Leptophilia remains carried by data, as the corpus already says.
+
+**ESCAPE (c) CLOSED DEAD (2026-08-02, `scripts/escape_c_loop_magnitude.py`, 7 controls; adversarial
+verifier re-derived every number: 6/6 confirmed).** "Suppressed" is now a number: every loop channel
+falls **25–26 orders of magnitude** short of the required ε = 1.2543×10⁻² under maximally generous
+assumptions. Weak channel (ν–W loop into the electron self-energy): 3.9×10⁻²⁸. Portal channel
+(through O_A itself, c_A = 1): 1.3×10⁻²⁸ — and v_L cancels out entirely, so the MeV corner buys
+nothing. Higgs portal at λ_p = 1: 9.7×10⁻²⁸, and that λ_p gives the medium's field a 174 GeV mass
+(10²⁸ above its own scale) while making the shift universal — escape (a)'s recorded cost, paid again
+for nothing. **The structural reason no cleverness rescues it:** the electron mass operator conserves
+L and breaks electron chirality; the medium's one handle violates L by two and breaks no electron
+chirality — so insertions come in pairs (a single m_ν insertion vanishes identically between the W's
+left-handed vertices), the amplitude scales as δ(m_ν²) ~ (2.25 meV)², and the chirality flip is
+borrowed from m_e itself. Even the chirality-forbidden linear form, granted anyway as an absolute
+ceiling, reaches 7.4×10⁻¹⁰ — still 7.2 orders short. Delivering the required ε through the allowed
+structure would take δ(m_ν²) ≈ (22 GeV)², thirteen orders above the entire neutrino sector. **All
+three escapes are now computed and dead: "amplitude-follows-current" is falsified outright as the
+derivation of leptophilia, not merely obstructed.** Leptophilia stands exactly where the scope note
+left it — carried by data.
 
 ---
 
