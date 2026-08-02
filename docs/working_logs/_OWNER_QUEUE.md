@@ -6,7 +6,14 @@ are removed when ruled, not when acted on.
 
 ---
 
-## 1. The two production chains are serial on a 12-thread box — 4 ranks would quarter the wait
+## 1. ~~The two production chains are serial on a 12-thread box~~ — **OVERTAKEN 2026-08-02, no ruling needed**
+
+Both production chains have run **three MPI ranks each since the 2026-07-29/30 relaunches**
+(dyad at R−1 = 0.19 and falling, cmp_lcdm at 0.29, both with genuine between-chain
+Gelman–Rubin), so the serial-chain premise below no longer holds and the rank decision was
+effectively taken by the relaunches. Kept for the rank-scaling table, which still prices any
+future rebalancing. Standing ruling on top of it (2026-08-02): **let the chains finish** — no
+stops, restarts or reconfigurations.
 
 **Raised 2026-07-28; the diagnosis was corrected the same day and this is the corrected version.**
 
@@ -70,7 +77,13 @@ current rate.
 
 ---
 
-## 2. Task #21's deciding chain has been dead eight days, on its third failure
+## 2. ~~Task #21's deciding chain has been dead eight days~~ — **CURED 2026-08-02: running on its fifth launch**
+
+`cmp_prtoe_routeD` runs again: the 2026-07-30 relaunch fixed the proposal-learning deadlock
+(acceptance 6% → 21–25%, measured), the 2026-08-01 basin relaunch narrowed the covmat to the
+winning chain's basin and went to three ranks, and as of 2026-08-02 it is in burn-in with all
+ranks alive. The history below stands as the record of the three earlier failures. Same standing
+ruling: let it finish.
 
 **Raised 2026-07-28.** `cmp_prtoe_routeD` stopped 2026-07-20 21:39 with **363 accepted samples
 from 11,508 steps** and a progress file containing only its header — **no convergence statistic
