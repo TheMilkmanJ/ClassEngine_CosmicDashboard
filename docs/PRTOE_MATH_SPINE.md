@@ -26,8 +26,10 @@
 > This is a conditional claim, and its price is one hypothesis: that the charged-lepton √m values are
 > thermally populated, which is what Q = 2/3 asserts (the variance of √m equals the mean squared,
 > the Boltzmann second moment, to 18 ppm). **Its referee is one number:** a lattice T_c/√σ for
-> SU(2), N_f = 3. **And it is one job, not two:** the same non-perturbative calculation that fixes
-> τ is the one the radiative band needs, so the λ and τ gates open together.
+> SU(2), N_f = 3. The lattice owes τ alone — the radiative band is bounded at the desk (0.10–0.90%,
+> the control-edge re-examination in
+> [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)), waiting on one scattering
+> amplitude rather than on these ensembles.
 > A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
 > 0.34506 shows the model reading the sky back, and kills both.
 

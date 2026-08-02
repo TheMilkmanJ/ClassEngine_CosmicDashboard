@@ -34,10 +34,11 @@ Major moves since the 2026-07-08 baseline (below):
   Koide kernel's τ = ½ln2 gives **2.2599 meV against the observed 2.25 — +0.44%**. *(This board's
   earlier (d/2)α⁴m_e ≈ 2.17 meV, 0.97×, is the same structure with τ approximated as 1/3; the kernel
   supplies τ exactly and the agreement improves from −3% to +0.44%.)* **The +0.44% is an existence
-  claim and not a precision one** — the composite quartic sits past perturbative control (λ = 26–46
-  against λ\* = 22.41), so ρ_Λ¼'s radiative correction is uncontrolled at this order. Its referee is
-  a lattice T_c/√σ for SU(2) with N_f = 3 — a number that does not yet exist, and the same
-  non-perturbative treatment is what the radiative band needs, so one job gates both.
+  claim and not a precision one** — ρ_Λ¼'s radiative correction is bounded at 0.10–0.90%,
+  comparable to the gap itself, with the residual question one scattering amplitude
+  ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge
+  re-examination). The kernel τ's referee is a lattice T_c/√σ for SU(2) with N_f = 3 — a number
+  that does not yet exist; the lattice owes τ alone.
 - DE-floor self-tuning (least-trusted joint #1) is now sharply understood — and it does not self-tune.
   The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
