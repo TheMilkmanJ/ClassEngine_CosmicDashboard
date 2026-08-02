@@ -1405,3 +1405,13 @@ weight lattice and a kinetic-theory window — different objects entirely.
 
 So the propagation defects found on 07-29 were fixed and no new ones of that class
 exist. Recorded as a checked negative rather than a silent pass.
+
+---
+
+## 2026-08-02 — FIRST PAPER PUBLISHED
+
+**The supertrace note is public: Zenodo DOI [10.5281/zenodo.21763188](https://zenodo.org/records/21763188),
+published 2026-08-02, CC BY 4.0, both files attached (PDF + the arXiv source tarball).** Record
+verified by fetching it back: title, author, date, license and both files all correct. The other
+two papers await posting (copies staged in `docs/arXivReady/` with the posting README). Rule for
+corrections: "New version" on the same record — the concept DOI must stay stable.

@@ -4,11 +4,11 @@ One PDF + one source tarball per paper. These are copies for easy access; the li
 sources are in `papers/<name>/` at the repository root, and if a paper is ever edited
 the copies here must be refreshed from there.
 
-| file | what it is | post where |
+| file | what it is | status |
 |---|---|---|
-| `supertrace-note.pdf` | *Two gravitational counting conditions for three generations are the same condition* — 3 pp, gr-qc | **Post first** (cleanest, fully standalone) |
-| `neutrino-mbb.pdf` | *If the lightest neutrino mass is the dark-energy scale* — 3 pp, hep-ph | Second |
-| `radio-lattice.pdf` | *A ratio-locked radio signature of a universal shift in the electron mass* — 6 pp, astro-ph.CO | Third |
+| `supertrace-note.pdf` | *Two gravitational counting conditions for three generations are the same condition* — 3 pp, gr-qc | **PUBLISHED 2026-08-02: [DOI 10.5281/zenodo.21763188](https://zenodo.org/records/21763188)** |
+| `neutrino-mbb.pdf` | *If the lightest neutrino mass is the dark-energy scale: a narrow window for neutrinoless double-beta decay* — 3 pp, hep-ph | Post next |
+| `radio-lattice.pdf` | *A ratio-locked radio signature of a universal shift in the electron mass* — 6 pp, astro-ph.CO | Post third |
 
 The `.tar.gz` files are the exact arXiv source packages (`main.tex` + `main.bbl` where
 used) — attach them as a second file on each Zenodo record so the source is archived

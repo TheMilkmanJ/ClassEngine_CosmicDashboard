@@ -2,7 +2,9 @@
 
 **Author:** Justin Pulford (unaffiliated)
 **arXiv category:** gr-qc
-**Status:** submission-ready. Endorsement is the only remaining step.
+**Status: PUBLISHED 2026-08-02 on Zenodo — [DOI 10.5281/zenodo.21763188](https://zenodo.org/records/21763188)** (PDF + source
+tarball, CC BY 4.0). arXiv remains open later if an endorsement materialises; any future edit
+must go up as a Zenodo "New version" on the same record, never a new record.
 
 ## Relation to the framework
 
