@@ -6595,3 +6595,33 @@ mpi4py under `/usr/bin/python3.12` is built against **Open MPI**. Each rank then
 use `/usr/bin/mpirun` (→ `orterun`) explicitly. Verified before relaunching: two ranks now
 report "rank 0 of 2" / "rank 1 of 2". **Always launch with `/usr/bin/mpirun`, never a bare
 `mpirun`.**
+
+---
+
+## 2026-08-02 — check 12, batch 1: the LHY correction had never left its home file
+
+Whole-file read of `PRTOE_koide_relation.md` (the highest-churn unread file) caught the thread:
+its τ-prediction caveat still gave the REFUTED control-edge argument ("uncontrolled at this
+order") as the reason for existence-not-precision. Pulling that thread corpus-wide found the
+2026-07-29 LHY re-examination — which bounded the radiative band at 0.10–0.90% on ρ_Λ¼ and took
+the λ gate off the lattice's critical path — had landed ONLY as appended sections inside
+`PRTOE_cosmological_constant.md`, while **eight forward-facing files kept asserting the dead
+reading live**, including the CC file's own intro box and §4b:
+
+cosmological_constant (intro box, §4b body, the merge paragraph, the re-exam's opening tense),
+koide_relation (the τ caveat, plus the Brannen 0.5%-agreement claim the same file's own ruling
+had already corrected to a 4.33% miss), READERS_RISK (which also still carried "one job, not
+two"), MATH_SPINE (the header box), THREE_EQUATIONS (the header box), DEPENDENCY_TREE (both
+cells of the ρ_Λ row — claim and falsifier), neutrino_sector, DERIVATION_HUNT, and
+coincidence_problem (twice — including the downstream numbers, recomputed: the absolute-duration
+channel is 2× the band so ~2% at the ceiling, not "ten percent"; the occupancy-fraction
+propagation is 0.5–4.5%, straddling the anchor's 2.2%, so the limiting-uncertainty question now
+turns on the scattering-amplitude landing, not the lattice). Thirteen edits across eight files;
+every replacement carries the current statement with no history narration; the registries were
+left as records per the carve-out. Post-fix sweep: zero live assertions remain outside the CC
+re-examination chain, which correctly narrates its own before/after.
+
+Batch-1 residue: koide_relation is read whole and clean apart from the two fixes above (its
+prose arithmetic verified in-line: 3Q = 2 slope factor, Q(3) = 2/3, the 96.7% ceiling fraction,
+the 452σ and triangle numbers all reproduce). The other six batch-1 files were fixed at their
+flagged lines but not yet read whole; they stay in #94's queue.

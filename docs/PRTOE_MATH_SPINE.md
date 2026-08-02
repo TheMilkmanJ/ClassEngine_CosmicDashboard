@@ -17,10 +17,11 @@
 >
 > It is an **existence** claim — that the chain
 > lands on the observed scale with nothing cosmological in it — and **not a precision** claim. The
-> composite quartic maps to λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY
-> correction is uncontrolled at this order on every reading: its formal size would be 5.4–9.8% on
-> ρ_Λ¼, while the next term of the same series is already larger. The agreement is therefore good to
-> the order the series can be trusted, and the two decimal places are not the claim.
+> composite quartic maps to λ = 26–46, and the radiative correction on ρ_Λ¼ is bounded at
+> 0.10–0.90% — a one-way bound through the measured Bose-gas equation of state, comparable to the
+> +0.44% gap itself ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the
+> control-edge re-examination). The agreement is therefore good to
+> the order the error budget allows, and the two decimal places are not the claim.
 >
 > This is a conditional claim, and its price is one hypothesis: that the charged-lepton √m values are
 > thermally populated, which is what Q = 2/3 asserts (the variance of √m equals the mean squared,

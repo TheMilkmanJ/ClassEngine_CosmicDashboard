@@ -16,9 +16,10 @@
 >
 > **This is an existence claim, and the decimals are deliberately not the headline.** The chain
 > returns 2.2599 meV against an observed 2.25, but that agreement is not what is being asserted: the
-> composite quartic maps to λ = 26–46, the whole band above the control edge λ\* = 22.41, so the LHY
-> correction is uncontrolled at this order — formally 5.4–9.8% on ρ_Λ¼, with the next term of the
-> same series already larger.
+> composite quartic maps to λ = 26–46, and the radiative correction on ρ_Λ¼ is bounded at
+> 0.10–0.90% — comparable to the gap itself
+> ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge
+> re-examination).
 >
 > **Its price is one hypothesis** — that the charged-lepton √m are thermally
 > populated, which is what Q = 2/3 asserts (it says the variance of √m equals its mean squared, the

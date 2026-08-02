@@ -96,10 +96,11 @@ into a falsifier, since it predicts m_ββ = |margin| ≲ 0.05 meV, no observabl
 
 The model's derived dark-energy scale sits 0.44% from the observed value: the observation is at
 2.25 meV and the current derived anchor from the composite quartic lands at 2.2599 meV. **This small
-gap is not a propagated uncertainty or formal error bar.** The composite quartic sits above its
-control edge, so the derived value carries an uncontrolled higher-order correction whose formal
-size is 5.4–9.8%. The quoted 2.2599 meV is therefore best read as an anchor comparison rather than
-a fully converged model prediction.
+gap is not a propagated uncertainty or formal error bar.** The derived value carries a radiative
+correction bounded at 0.10–0.90%
+([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge
+re-examination), comparable to the gap itself. The quoted 2.2599 meV is therefore best read as an
+anchor comparison rather than a fully converged model prediction.
 
 The sum is insensitive to this: Σm_ν varies only from 61.34 to 61.37 meV across the observed
 range, which is why it is quoted as 61.4 meV. The effective mass floor is more sensitive due to

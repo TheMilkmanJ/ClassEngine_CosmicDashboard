@@ -38,8 +38,9 @@ The floor is not a constant that matter happens to dilute past — the late era 
  live values bracket it tightly: the frozen 2.088×10⁻⁹ gives 8.1597 H⁻¹ and the closed form
  (0.35% below) gives 8.1611 H⁻¹, a spread of **0.02%**. The floor's one channel is the
  *absolute* duration, through H_Λ ∝ (ρ_Λ¼)²: the +0.44% anchor gap shortens the era by 0.87% in
- years, not in H⁻¹ — and the derived floor's own uncontrolled band (5.4–9.8% on ρ_Λ¼) enters the
- same channel at twice its size, so the absolute duration is known to ten percent and not to one.
+ years, not in H⁻¹ — and the derived floor's own radiative band (0.10–0.90% on ρ_Λ¼) enters the
+ same channel at twice its size, so the absolute duration is known to about two percent at that
+ band's ceiling.
 3. **What that buys, and what it does not.** Λ-domination begins when the fluid's density hits
  the floor, and the era then runs 8.16 H⁻¹ to turnaround — **a width the model computes rather
  than assumes.** But we observe early in it: matter–Λ crossing is at z ≈ 0.33, which is **0.219 H_Λ⁻¹
@@ -54,12 +55,13 @@ The floor is not a constant that matter happens to dilute past — the late era 
  gap between derived and observed — the propagation is +1.77% on ρ_Λ, hence on Ω_Λ/Ω_m, against a
  sensitivity d ln f/d ln(Ω_Λ/Ω_m) = 1.26 at the z ≈ 0.33 crossing, with t_turn's own 0.02%
  negligible beside it; on that reading "one time in thirty-seven" does not move by a whole unit.
- **But the derived floor's own uncertainty is not 0.44%.** The composite quartic sits above its
- control edge (λ = 26–46 against λ\* = 22.41), so ρ_Λ¼ carries an uncontrolled correction of formal
- size 5.4–9.8% — which is 22–39% on ρ_Λ and, at the same sensitivity, tens of percent on the
- occupancy fraction. **So the claim that the floor is no longer the limiting uncertainty in the
- timing holds only for the anchor comparison and not for the derived value, and it is suspended
- until the same SU(2) N_f = 3 lattice job that owes τ brings the radiative band under control.**
+ **But the derived floor's own uncertainty is not 0.44%.** The composite quartic's radiative
+ correction is bounded at 0.10–0.90% on ρ_Λ¼
+ ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge
+ re-examination) — 0.4–3.6% on ρ_Λ and, at the same sensitivity, 0.5–4.5% on the occupancy
+ fraction, a band that straddles the anchor comparison's 2.2%. **So whether the floor is the
+ limiting uncertainty in the timing depends on where in that band the one open
+ scattering-amplitude question lands — a desk question, not the lattice's.**
  What this band does NOT carry is the cosmological input's own error — Ω_m enters the same ratio,
  and bounding that is a separate propagation.
  **The width is derived; the occupancy is not** — and "why now" in its

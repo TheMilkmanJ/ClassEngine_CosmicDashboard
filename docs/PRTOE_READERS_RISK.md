@@ -69,13 +69,13 @@ number, ε, applied everywhere atomic physics appears.
   evidence. **τ does now have an independent source**, from the other end of the model: the Koide
   kernel's modulus is fixed by Parseval at 1/√2, giving τ = ½ln2 = 0.34657, hence T_c = 177.10 keV
   and ρ_Λ¼ = 2.2599 meV — **+0.44%**, with no cosmological input in the chain. **Read that as an
-  existence claim and not a precision one:** the composite quartic maps to λ = 26–46, the whole band
-  above the control edge λ\* = 22.41, so the radiative correction on ρ_Λ¼ is uncontrolled at this
-  order (formally 5.4–9.8%, with the next term of the series already larger). The chain lands on the
+  existence claim and not a precision one:** the composite quartic maps to λ = 26–46, and the
+  radiative correction on ρ_Λ¼ is bounded at 0.10–0.90% — comparable to the +0.44% gap itself
+  ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge
+  re-examination). The chain lands on the
   observed scale; it does not claim the two decimal places it lands to. That rests on one
   hypothesis (the charged-lepton √m thermally populated, which is what Q = 2/3 asserts) and is
-  candidate-grade. The same uncomputed lattice number decides it — and it is one job, not two, the
-  non-perturbative treatment that measures τ being what the radiative band needs — T_c/√σ for an
+  candidate-grade. One uncomputed lattice number decides the kernel τ — T_c/√σ for an
   SU(2), N_f = 3 dark sector, where **0.34657 crowns the kernel and 0.34506 kills it**. **No lattice
   determination of that theory exists** (literature sweep, 2026-07-17; an outward-facing
   specification note is approved for circulation — PRTOE_lattice_note.md); the best inference bracket

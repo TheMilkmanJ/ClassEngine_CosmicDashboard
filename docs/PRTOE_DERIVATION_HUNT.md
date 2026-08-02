@@ -275,11 +275,11 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
   modulus to 1/√2 once Q = 2/3, so τ = ½ln2 = 0.34657, T_c = 177.10 keV, and
   **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**. Nothing cosmological enters that chain;
   it descends from a lepton-mass fact measured to ten parts per million. **What that buys is
-  existence, not precision:** the composite quartic maps to λ = 26–46, the whole band above the
-  control edge λ\* = 22.41, so the LHY correction is uncontrolled at this order — formally 5.4–9.8%
-  on ρ_Λ¼, with the next term of the series already larger. The chain lands on the scale; the two
+  existence, not precision:** the composite quartic maps to λ = 26–46, and the radiative
+  correction on ρ_Λ¼ is bounded at 0.10–0.90% — comparable to the gap itself, with the residual
+  question one scattering amplitude, not the lattice. The chain lands on the scale; the two
   decimal places are not claimed. See
-  [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md).
+  [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge re-examination.
 - **τ = ½ln2 = 0.34657 — sourced, and what it must be told apart from.** The kernel gives τ directly;
   the number to distinguish it from is **0.34506** = ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207, the
   observed dark-energy density read backwards. If τ *were* that number the chain would run backwards

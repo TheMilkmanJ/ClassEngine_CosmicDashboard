@@ -232,9 +232,11 @@ and is therefore not a determination of τ at all. **½ln2 is.** It descends fro
 lepton-mass fact measured to ten parts per million — through an exact identity, with nothing
 cosmological entering anywhere. Judged as the only independently sourced τ the model possesses,
 it lands **0.44% from the sky** — **an existence claim, not a precision one**:
-the composite quartic that carries ρ_Λ¼ sits above its control edge (λ = 26–46 against λ\* = 22.41),
-so the radiative correction is uncontrolled at this order and the chain is claimed to land on the
-scale rather than to two decimal places. The τ comparison below is unaffected, being exact
+the composite quartic that carries ρ_Λ¼ carries a radiative correction bounded at 0.10–0.90% on
+ρ_Λ¼ (a one-way bound through the measured Bose-gas equation of state —
+[PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge re-examination),
+comparable to the gap itself, so the chain is claimed to land on the scale rather than to two
+decimal places. The τ comparison below is unaffected, being exact
 arithmetic between two candidate values of τ.
 
 ### What decides it
@@ -312,9 +314,10 @@ whatever pins the cone acts in the charged sector specifically.
 > m₁ ≈ 0.00040 eV.**
 >
 > This is not idle. Brannen's published neutrino extension (2006) — which this corpus did not carry —
-> takes the ring form with the charged sector's own **A = √2** and the phase shifted by **π/12**, and
-> reproduces the measured squared-mass splitting ratio to **0.5%**: Δm²₃₁/Δm²₂₁ = 32.43 against a
-> measured 32.58, with a free best fit at φ = 0.483376 versus 2/9 + π/12 = 0.484022 (0.13% apart).
+> takes the ring form with the charged sector's own **A = √2** and the phase shifted by **π/12**. Its
+> parameter-free splitting-ratio test gives Δm²₃₁/Δm²₂₁ = 32.43 against 33.89 measured on current
+> oscillation inputs — a **4.33% miss** (the ruling at the end of this file) — with a free best fit
+> at φ = 0.483376 versus 2/9 + π/12 = 0.484022 (0.13% apart).
 > The charged sector's own phase 2/9 gives **283** — off by 768% — so the two sectors demonstrably do
 > **not** share a phase. That fit requires exactly the negative root, i.e. it lives on the same
 > (−,+,+) branch, and it independently predicts **m₁ = 0.000374 eV** against the branch's Q = 2/3

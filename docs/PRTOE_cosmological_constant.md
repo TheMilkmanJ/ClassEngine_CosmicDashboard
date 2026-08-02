@@ -20,10 +20,12 @@
 > And the claim is existence, not precision — the distinction is load-bearing and is made in full
 > at §4b. The gap above is a statement about *τ*, where it is exact arithmetic between two
 > candidate values. The *predicted meV* is not owned to that accuracy: the composite quartic maps to
-> λ = 26–46, the whole band above the control edge λ\* = 22.41, so ρ_Λ¼ carries an uncontrolled
-> radiative correction whose formal size is 5.4–9.8% — wider than the gap itself. The chain lands on
-> the observed scale, and the same lattice job that measures τ is what would let the two decimal
-> places be claimed.
+> λ = 26–46, and ρ_Λ¼ carries a radiative correction bounded at **0.10–0.90%** — a one-way bound
+> through the measured Bose-gas equation of state, 1.345%/(Λa₀), with the hard-sphere 0.90% as its
+> ceiling (the control-edge re-examination below). That band is comparable to the +0.44% gap itself,
+> so the chain lands on the observed scale, and the two decimal places wait on the σσ scattering
+> amplitude at the sector's own coupling — a desk question, not the lattice; τ alone needs the
+> lattice.
 >
 > What remains conditional: α_c = 3α is a registered bet under MCMC test, and the portal
 > √σ_dark = m_e — why the dark scale equals the electron mass — is the one irreducible input. The
@@ -341,14 +343,15 @@ is the non-analytic Lee–Huang–Yang term:
 
 (derived within the stated relativistic |φ|⁴ completion; the coefficient carries no α_c and no
 16π²α_c³ᐟ² structure). The correction is percent-class, not O(1), for any controlled coupling —
-safe for λ ≲ 10, and losing control above λ* ≈ 22, where the next-order term overtakes and neither
-bound is certifiable. The price is that the +0.44% sits at mean-field-level consistency: E_b is the
-prediction, not an absorber of radiative pieces, so the headline chain carries an un-pinned
-O(λ · few %) radiative band for any λ ≳ 0.2–0.5. The precision of the +0.44% is exposed even though
-its existence is not, and a percent-class radiative band is wider than the gap itself. The coupling
-λ is mapped from the sector's own NJL coupling (equivalently the gas parameter √(na³), the position
-on the BEC side), and the map puts it past the control edge, so the size stays an estimate for a
-stated reason.
+safe for λ ≲ 10, with the expansion's next-order term overtaking above λ* ≈ 22 — a fact about that
+term, not about the truncation: the Monte Carlo grades LHY truncation as valid at exactly this gas
+parameter and grades the overtaking term as one the literature discards (the control-edge
+re-examination below). The +0.44% sits at mean-field-plus-LHY consistency: E_b is the prediction,
+not an absorber of radiative pieces, and the surviving radiative band is **0.10–0.90% on ρ_Λ¼** —
+comparable to the gap, so the precision of the +0.44% is exposed even though its existence is not.
+The coupling λ is mapped from the sector's own NJL coupling (equivalently the gas parameter √(na³),
+the position on the BEC side), and the band's width waits on one scattering-amplitude question
+rather than on the lattice.
 
 The two frames. Frame 1 (naive uniform dilute-gas map, c_s² = gn/m): self-inconsistent,
 rejected. Holding c_s² = α_c with any cosmological density gives E_MF = ½α_c·ρ_mass, which misses
@@ -388,13 +391,14 @@ therefore the wrong order to quote — its formal value would be ΔE/E_MF = 22�
 *(The bands use the measured coefficient **0.0084** — the leading closed form
 (8/15π²)·√α_c = 0.00800 plus the O(α_c) relativistic term the expression's own [1 + O(α_c)]
 carries — so 0.0084 × [26, 46] = 22–39%, quartered to 5.4–9.8%. The displayed closed form is
-the leading term only.)* **So the λ gate and
-the τ gate MERGE, and the merge is forced rather than marginal** — the composite quartic sits past
-where perturbative control ends, so the headline chain's radiative band needs the same
-non-perturbative SU(2) N_f = 3 treatment that owes τ. One lattice job gates both open numbers.
-*(The map is derived — closed form, no new input, QCD-validated to 0.7%; the size stays an estimate,
-now because the series is past control at the model's own λ rather than because λ was missing.
-The +0.44% keeps its existence claim and loses its precision claim.)*
+the leading term only.)* **The λ gate and the τ gate do NOT merge** — the Monte Carlo grades the
+LHY truncation as valid at exactly this gas parameter, and the surviving radiative band is the
+one-way bound 1.345%/(Λa₀), i.e. **0.10–0.90% on ρ_Λ¼**, closed at the desk given the σσ
+amplitude rather than by the lattice (the control-edge re-examination below carries the whole
+chain). τ alone still needs the SU(2) N_f = 3 campaign.
+*(The map is derived — closed form, no new input, QCD-validated to 0.7%.
+The +0.44% keeps its existence claim; its precision claim waits on the amplitude question, whose
+whole plausible range leaves the conclusion unchanged.)*
 
 The partial wave is data-selected, and it is s-wave. A Coulombic two-body spectrum is
 E_n = ½α_c²M₂/n², and partial wave ℓ requires n ≥ ℓ+1 — so the channel picks the level:
@@ -461,10 +465,11 @@ log; the thermal reading's arc.
 
 ## The control-edge demotion, re-examined against the Monte Carlo (2026-07-29)
 
-§4b demotes the +0.44% from a precision claim because *"the next term of the same series is
-already larger"*, and concludes that **"the λ gate and the τ gate MERGE … One lattice job gates
-both open numbers."** The arithmetic there is correct. **The inference is not, and the λ half of
-that merge is wrong.**
+§4b originally demoted the +0.44% from a precision claim because *"the next term of the same
+series is already larger"*, and concluded that the λ gate and the τ gate merge, one lattice job
+gating both open numbers. The arithmetic there was correct. **The inference was not, and the λ half
+of that merge was wrong** — §4b now carries the corrected statement, and this section is the chain
+that produced it.
 
 Giorgini, Boronat & Casulleras (*Phys. Rev. A* **60**, 5129, 1999; arXiv:cond-mat/9902185) grade
 the two terms **separately and oppositely**, at exactly the gas parameter in play:
