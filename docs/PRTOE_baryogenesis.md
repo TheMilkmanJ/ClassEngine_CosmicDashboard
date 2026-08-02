@@ -85,7 +85,7 @@ junction pass net charge, and recorded inputs price all three: a dissipative bia
 lepton-number-violating rates falls twenty-six orders short; a static asymmetric
 current–phase relation is capped by the same adiabatic argument above and falls two orders
 short; and the driven, overdamped junction survives — the seat coupling drives the
-visible-side phase at the winding rate θ̇, and the ν-sector bath overdamps it (Γ_φ/θ̇ ≈ 10⁷).
+visible-side phase at the winding rate θ̇, and the ν-sector bath overdamps it (Γ_φ/θ̇ ≈ 9×10⁷).
 
 **Second-order averaging.** For an overdamped phase φ in a static pinning potential, driven by
 a junction whose partner phase winds uniformly, the rectified current is

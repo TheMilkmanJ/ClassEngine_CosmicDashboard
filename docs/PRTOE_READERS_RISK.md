@@ -196,7 +196,8 @@ number, ε, applied everywhere atomic physics appears.
   cent of the shock's own heating — real, but hiding inside a larger effect that the same events
   produce, so it neither threatens the model nor tests it. (One consequence
   is already on the record: S₈ is not delivered by this channel — it rests on the pre-registered
-  rotation-shed parameter, graded by a running chain.)
+  rotation-shed parameter, graded by a chain whose full restart is queued behind the running
+  production pair.)
 - **(h) Two independent constraints now bear directly on the ultralight mass, and both are
   unpriced.** That mass is fixed by the onset clock and cannot float. (i) The central soliton
   it implies carries about 3×10⁶ solar masses within one parsec of the Galactic Centre —
@@ -217,11 +218,13 @@ number, ε, applied everywhere atomic physics appears.
 
 - **(i) The evidence configuration sits off the model's own onset identity.** The transition epoch is
   frozen at z_on = 3.5619×10⁷ where the H = m identity gives 4.03×10⁷ — 0.053 dex, which under the
-  same clock is a **28% difference in the dark fluid mass**. That mass is pinned three independent
-  ways, so the identity is the model's value and the frozen setting is a profiled offset, disclosed
-  in the config as a "FAST-FUDGE" priced at χ² +7.4. **The comparison therefore grades a point near
-  the model rather than the model's stated configuration**, and its result needs reading in that
-  light. The chain named to arbitrate the freeze has not run since 2026-07-12.
+  same clock is a **28% difference in the dark fluid mass**. That mass is committed across three
+  independent uses — the onset clock, the galactic cores, the superradiance band — so it cannot
+  retreat to fit, the identity is the model's value, and the frozen setting is a profiled offset,
+  disclosed in the config as a "FAST-FUDGE" priced at χ² +7.4. **The comparison therefore grades a
+  point near the model rather than the model's stated configuration**, and its result needs reading
+  in that light. The chain named to arbitrate the freeze is dead — unresumable across the classy
+  rebuild — and its full restart is queued behind the running production chains.
 
 - **(j) The lattice test that decides the headline result cannot currently resolve it.** P-2026-048
   registers T_c/√σ = 0.3503 ± 0.02. The standing prediction is the kernel's 0.34657, which sits
@@ -263,9 +266,11 @@ number, ε, applied everywhere atomic physics appears.
   is **62× the entire QED run to the Z pole**. But second, §6e settles the constituents as
   *compensated* rather than uncharged (n_electron = n_hole, charged carriers), so a residual
   Standard-Model run survives on top of the screening and costs a further **×5.6** — adverse.
-  Composed with the convention factor, the honest band is **1576 → 17,580 GeV, a factor of 11**,
-  with 4πm_H at its very bottom edge. With ∂lnM/∂lnk = 33.5, quoting 1576.1 rather than 1576 would
-  need k to eight digits, which nothing supplies.
+  The standing band, with the O(λ) pair since computed (the crossed box c = 0.789 and its Fock
+  companion a = 0.281, both acting downward), is **0.55–1.78 TeV** (the hierarchy file's own §6d
+  table), with 4πm_H toward its top edge — and the §6f run question above remains the chain's
+  largest single exposure, sitting outside that band's accounting. With ∂lnM/∂lnk = 33.5, quoting
+  1576.1 rather than 1576 would need k to eight digits, which nothing supplies.
 
   **The supportable claim is that a construction carrying no electroweak input lands at the
   electroweak scale within a factor of a few, every named residual adverse.** That is non-trivial
@@ -292,7 +297,8 @@ reached its own stopping target of R−1 = 0.05:
 | `cmp_prtoe_zon_disp` | 17.81 | **356×** |
 | `cmp_prtoe_zon` | 40.36 | **807×** |
 | `dyad_mnu_mcmc` | *none recorded* | unknown — no `.progress` file exists |
-| the running pair (`cmp_lcdm_mnu_bbnfix`, `dyad_mnu_bbnfix`) | *not yet produced* | still in burn-in at 5.5 h |
+| `dyad_mnu_bbnfix` (running, 3 chains) | 0.19, falling | **3.8×** — the closest any chain has come |
+| `cmp_lcdm_mnu_bbnfix` (running, 3 chains) | 0.29, falling | **5.7×** |
 
 Two consequences a reader should carry. **First**, the parameter tables in
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) are formatted as posterior summaries but are not;
@@ -306,11 +312,14 @@ reference's best **1379.8** — a gap of 0.6 in the model's favour rather than 4
 descent is monotone by fifths (1490 → 1423 → 1410 → 1387 → 1379) and its minimum still sits in the
 most recent segment, so **it has not stopped either.**
 
-Neither number was a verdict and neither should be quoted as one. What a reader should take is the
-shape: **the model's chain is still finding its basin, one rank of three is in it (the others sit at
-1612 and 1443), and the comparison will not mean anything until all three mix.** Recorded live in
-`working_logs/_runs/chain_status_2026-07-28.md`. The honest present state is *not yet measurable*,
-and anyone quoting a number from this pair today — in either direction — is quoting burn-in.
+Neither number was a verdict and neither should be quoted as one. **The basin problem has since
+resolved:** both chains were relaunched with three ranks each and matched settings, burn-in cleared,
+and every sampled parameter now agrees across the three ranks to within 0.6 within-chain standard
+deviations — one basin, genuinely mixing. What remains is statistics, not pathology: the integrated
+autocorrelation times put the effective sample count near one to two hundred per chain, which is
+exactly what R−1 ≈ 0.2–0.3 reports, and the 0.05 stopping target needs roughly four times more.
+The honest present state is *converging but not yet quotable*: anyone quoting an evidence number
+from this pair before R−1 reaches its target is quoting noise, in either direction.
 
 ## 5. What would kill it (pre-registered)
 1. DESI DR3 confirms w ≠ −1.

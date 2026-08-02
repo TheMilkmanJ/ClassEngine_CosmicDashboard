@@ -1016,7 +1016,7 @@ receipt, is an internal theorem, or is a ruler we measure against rather than a 
 | 49 | Dynamical friction | passes by inheritance — FDM verdicts transfer at stated precision, within band |
 | 50 | Schrödinger–Poisson | an internal theorem — corrections 1/X₀-suppressed ≤1×10⁻²²; inheritance license |
 | 51 | Rotation curves | passes — the founding receipt; nothing new owed |
-| 52 | SMBH superradiance | a live exposure, now undefended — the mass is pinned three ways at 2.24×10⁻²⁰; the registered band 6×10⁸–3×10⁹ M☉ is populated with high spins; the quench re-derivation has run and the shield is absent, the margin −83.7 to −85.8 decades, so the model meets P-2026-034 as a free scalar |
+| 52 | SMBH superradiance | a live exposure, now undefended — the mass is pinned at 2.24×10⁻²⁰ by the onset clock and committed across its three uses; the registered band 6×10⁸–3×10⁹ M☉ is populated with high spins; the quench re-derivation has run and the shield is absent, the margin −83.7 to −85.8 decades, so the model meets P-2026-034 as a free scalar |
 | 53 | Pulsar timing | already executed — channel dead by mass; silence now required |
 | 54 | Stochastic GW / strings | passes at null — no echo (fraction² computed); no strings (born condensed); none observed |
 | 55 | BH accretion sonic point | derived, awaiting data — r = 1.8393 r_s exact; no instrument yet |

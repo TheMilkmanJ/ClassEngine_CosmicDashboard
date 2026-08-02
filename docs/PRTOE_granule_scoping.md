@@ -11,8 +11,8 @@ be read; and pin m inside the era's audited band [1,3]×10⁻²¹ eV. Every
 number re-derived when it went on the record; literature cite-pulled
 during the citation pass.*
 
-> **Reading rule:** this is a dated scoping record. The mass has since been pinned three
-> independent ways at **2.24×10⁻²⁰ eV** — an order above this scan's band — so the numbers
+> **Reading rule:** this is a dated scoping record. The mass has since been pinned at
+> **2.24×10⁻²⁰ eV** by the onset clock — an order above this scan's band — so the numbers
 > below are the era's; the meter's *structure* (what reads ε, and at what contrast) is what
 > survives, and any use of the band's masses defers to the recorded pin.
 >

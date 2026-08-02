@@ -6625,3 +6625,36 @@ Batch-1 residue: koide_relation is read whole and clean apart from the two fixes
 prose arithmetic verified in-line: 3Q = 2 slope factor, Q(3) = 2/3, the 96.7% ceiling fraction,
 the 452σ and triangle numbers all reproduce). The other six batch-1 files were fixed at their
 flagged lines but not yet read whole; they stay in #94's queue.
+
+### Batch 1 completed (2026-08-02, continued): seven files read whole, five more defects
+
+**coincidence_problem** — clean; every number reproduces (t_turn = 8.160 H⁻¹ from A_s, the 0.02%
+spread, the 0.87% duration channel, 2.7% → 1-in-37, the 36.5–38.2 band; the ~3.4% wrong-clock
+aside is within reconstruction ambiguity of an illustration of a mistake, left alone).
+**DEPENDENCY_TREE** — clean after the row fixes; k = 1.36461 and A_s = 2.081×10⁻⁹ re-derived
+exactly. **INDEX** — clean; P-range correct through P-2026-060, the exploratory count consistent
+(36 moved + README = 37 files), all links resolve. **baryogenesis** — one defect: "Γ_φ/θ̇ ≈ 10⁷"
+where the spec computes G_F²T⁵ = 5.4×10⁹ eV against θ̇ = 59.7 eV, i.e. 9×10⁷ — the ledger's own
+closure table (j = 6.028 meV, R = 5.050×10⁻⁵, ω_J = 5.672 keV) coheres only at the un-rounded
+ratio, and the loose 10⁷ was exactly what once made "ω_J look low by 3.004". Fixed to 9×10⁷.
+Everything else reproduces: n ≳ 1.65 at the torus floor, the 6.1–18.2× target shift, R = H/θ̇ =
+4.1×10⁻⁷, the 26-order trickle kill. **granule_scoping** — one defect: the reading rule still said
+the mass was "pinned three independent ways", the claim check 34 withdrew on 2026-07-28; fixed to
+the onset clock. The phrase-sweep found two more live carriers: **READERS_RISK** item (i) used the
+withdrawn claim as load-bearing support (rebuilt on the surviving leg — three independent USES fix
+the mass, which is the dependency tree's dies-if wording — and its stale "chain has not run since
+2026-07-12" tail replaced with the current dead-and-queued state) and **exploratory
+PHYSICS_DOMAINS** row 52 (fixed the same way). **READERS_RISK read whole** — three further
+defects, all of the snapshot-as-current class: the convergence table still said the running pair
+was "in burn-in at 5.5 h" (now: dyad R−1 0.19 at 3.8× target — the closest any chain has ever
+come — and cmp_lcdm 0.29); §4's closing paragraph still described three ranks in three basins and
+"anyone quoting a number today is quoting burn-in" (now: the basin problem resolved — all
+parameters agree across ranks to 0.6 within-chain sd — and the honest state is converging but not
+quotable, ESS-limited); item (g) said the rotation-shed is "graded by a running chain" (conv_desi
+is dead, restart queued); and item (k) still quoted the pre-#12 anchor band 1576 → 17,580 GeV
+where the adjudicated standing band is 0.55–1.78 TeV (#124 closed on it; the §6f exposure kept
+named as outside that accounting).
+
+Batch 1 tally: 7 files read whole (koide_relation, coincidence_problem, DEPENDENCY_TREE, INDEX,
+baryogenesis, granule_scoping, READERS_RISK), 20+ defects fixed across 15 files including the
+LHY propagation thread. 46 files remain in #94's queue.
