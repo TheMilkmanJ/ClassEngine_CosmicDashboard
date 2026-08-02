@@ -1345,3 +1345,63 @@ deleted, since the drafting record is worth keeping:
   holds.
 
 Package rebuilt and re-tested in an empty directory: 0 errors, 0 undefined, 0 overfull, 7 pp.
+
+---
+
+## 2026-08-02 — the other two papers audited to the radio-lattice standard
+
+`radio-lattice` had had every number re-derived and its whole rendered text read; the
+other two had only had mechanical checks. Both have now had the same treatment, and
+**both come back clean.**
+
+**`neutrino-mbb` — 8 of 8 numbers reproduce exactly** against the paper's own stated
+oscillation parameters (§II: sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.022, Δm²₂₁ = 7.42e-5,
+Δm²₃₁ = 2.51e-3): the three contributions (1.525, 2.673, 1.103) meV, Σm_ν = 61.30,
+m_ββ max 5.301, the minimal-ordering ceiling 3.688, the 31.7% occupancy, and the
+lower edge 0.0448 with its +0.0448 meV margin. Clean-room build 0 errors / 0
+undefined / 0 overfull, 3 pp, no leaked process language, no `??`.
+
+**A false alarm of my own, recorded because the lesson is real.** My first pass used
+NuFIT 5.0's sin²θ₁₂ = 0.304 rather than the paper's stated 0.307 and got a lower edge
+of 0.0000 with the margin's sign *reversed* (−0.0002 meV against the paper's +0.045).
+I briefly took that for a defect in the paper. It was a defect in my check: the paper
+states its inputs explicitly and is correct at them. **What the episode does establish
+quantitatively** — and this is a genuine addition, not a correction — is how sharp the
+knife-edge is. Propagating NuFIT 1σ uncertainties through the margin gives a median of
+−0.001 meV with a 1σ band of [−0.144, +0.142], i.e. **the sign is a 49.7 / 50.3 coin
+flip** and the median lower edge is exactly zero; only 38.7% of parameter draws put it
+at or above the quoted 0.04 meV. The upper edge by contrast is robust: 5.292 meV with
+a 1σ band [5.200, 5.385]. The paper already says the right thing in words — "not
+protected by any symmetry", "would not survive a modest shift in θ₁₂, in Δm²₂₁, or in
+m₁ itself", "the observationally useful statement is the upper edge" — so this
+sharpens its own caveat rather than contradicting it. **Optional, owner's call:** the
+abstract could quote the interval as (0, 5.30] meV with the lower edge stated as
+consistent with zero. It would cost nothing the paper is relying on and would close
+the one place where a coin flip is printed as a figure.
+
+**`supertrace-note` — the entire argument verifies symbolically.** Eliminating N_ξ from
+the two anomaly conditions reproduces −(5/2)N₀ − 5N_½ + 20N₁ = 0 exactly, hence
+N_½ = 4N₁ − N₀/2; str[k₁] = 0 gives N_½ = 4N₁ at both ξ = 1/6 and N₀ = 0; N_½ = 48 at
+N₁ = 12; N_½ = 46 at N₀ = 4, so the doublet-retained case does miss by two; N_ξ = 36;
+and 48·(1/6) − 12·(2/3) = 0. Clean-room build 0 errors, 3 pp, nothing leaked.
+
+## Docket #149, check 12 — the retraction-propagation sweep, and it is clean
+
+The 2026-07-29 pass found four defects of one shape: a correction written *near* the
+problem rather than *on* it. That class is now mechanized. Across all of `docs/`,
+nine retraction annotations quote the text they retract; each quoted string was then
+searched corpus-wide for a surviving live occurrence.
+
+**All nine are correct usage.** Five initially flagged, all cleared on inspection: two
+in `PRTOE_MATH_SPINE.md` are inside the correction blocks I wrote, which necessarily
+quote "the single decider" in order to retract it; `_OWNER_QUEUE.md` and
+`_AUDIT_PROTOCOL.md` both quote "the box has one core" as the error being recorded;
+`PRTOE_hierarchy_problem.md` carries "the charged-lepton cone" as the *replacement*
+reading, not the retracted one (my matcher had the pair backwards); and the
+`s8_tension` hit resolves to my own ledger entry recording that fix. The
+`THREE_EQUATIONS` retraction of "confirmed independently" is scoped to the z_on mass
+claim, while the three surviving occurrences are ordinary English about the radio
+weight lattice and a kinetic-theory window — different objects entirely.
+
+So the propagation defects found on 07-29 were fixed and no new ones of that class
+exist. Recorded as a checked negative rather than a silent pass.
