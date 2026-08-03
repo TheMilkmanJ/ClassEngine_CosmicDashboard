@@ -69,7 +69,7 @@ whole-file re-reads — which is the standing check-12 sweep, still in progress.
 
 Internal: [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) (§2, §6c, §6g),
 [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md), [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md),
-[PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md) (P-2026-004/012,
+[PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md) (standing; P-004 and other rehomed IDs also in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); P-012,
 ANN-2026-025), [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md),
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) (NavarroSalas2024). External: Navarro-Salas, *Class.
 Quantum Grav.* (2024), arXiv:2403.13201.

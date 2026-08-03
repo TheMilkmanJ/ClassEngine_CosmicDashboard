@@ -50,8 +50,13 @@ The failures ledger is the honest count of the search. As of this writing:
 
 - **162 dated entries** in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), of which 64
   carry headings that self-describe as dead routes, withdrawals, falsifications or kills.
-- **50 registered predictions** in the registry, with 10 falsification markers among the
-  gradings.
+- **Standing predictions** live in [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md)
+  (final-product register; count the `## P-2026-NNN:` headings there). **Failed / withdrawn /
+  rehomed predictions and repair narrative** live in
+  [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) (R1-predfile recategorization). The honest
+  denominator for look-elsewhere is **registry + ledger**, not the live register alone. A prior
+  snapshot used ~50 registered / ~10 falsification markers before recategorization; after
+  rehome, do not quote those snapshot counts without citing both files.
 - Documented per-constant multiplicities, which are the trials factor in miniature: the
   hierarchy exponent's 3/2 survived after **four attachment routes were computed and failed**
   (Coleman–Weinberg ½, tachyonic onset ¾, sharp-cutoff BCS ln 2, scheme constants {0, 5/6, 1})

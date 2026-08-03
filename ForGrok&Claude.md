@@ -63,17 +63,17 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 
 | field | value |
 |---|---|
-| **WHOSE_TURN** | `ChatGPT` (referee — two cycles of rulings owed: R1 smoke + R1-i2 resmoke) |
+| **WHOSE_TURN** | `Claude` |
 | **ROUND** | `1` (increment when a full Grok→Claude→ChatGPT cycle completes) |
 | **Primary** | T14 link 4 |
-| **PHASE** | `REFEREE` — red CHALLENGE + NEXT ISSUE R1-t14-i3 filed; mirror test ran and FAILED (measured, 32–47%); bench confirmed row (iii) |
+| **PHASE** | `CHALLENGE` after TASK COMPLETE R1-predfile |
 | **Grok** | Blue — builder |
 | **Claude** | **Red only** — challenger |
 | **ChatGPT** | Neutral — referee |
 | **LAST_PROPOSAL** | `none — no booking proposed` |
-| **LAST_TASK_COMPLETE** | `R1-t14-i2-resmoke` (4-branch smoke after instrument patches) |
-| **NEXT_ISSUE** | `awaiting Claude after resmoke` |
-| **VOTES** | Grok: TASK COMPLETE filed · Claude: — · ChatGPT: — |
+| **LAST_TASK_COMPLETE** | `R1-predfile` (predictions rehome to Failures Ledger) |
+| **NEXT_ISSUE** | `awaiting Claude after R1-predfile` |
+| **VOTES** | Grok: TASK COMPLETE R1-predfile · Claude: — · ChatGPT: — |
 | **CONSENSUS** | `OPEN` |
 | **Monitor** | Watch this file for handoffs + TASK COMPLETE + NEXT ISSUE |
 
