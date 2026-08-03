@@ -1291,6 +1291,15 @@ observable signal); (iii) the identity is testable: JUNO brings θ₁₂ and Δm
 test at ~3% permanently. If the identity survives JUNO at 3%, it is either the framework's to
 derive or the sharpest numerical accident in the registry.
 
+**ADDENDUM (2026-08-02, appended same day — the σ framing, so the 0.45% is never quoted past its
+weight).** The 0.45% is a central-value statement. Its error budget: the threshold carries
+σ(m₁\*) ≈ 0.24 meV today (±11%, θ₁₂-dominated) against the dark-energy side's 0.0108 meV (±0.48%),
+so on the combined budget the 0.010 meV gap is **~0.04σ — deep consistency, no precision claim.**
+Even granting the oscillation side as exact, the gap is 0.94σ of the dark-energy error alone.
+Today the identity is therefore *consistent and unresolved*; it becomes a *test* only when JUNO
+brings σ(m₁\*) to ≈ 0.06 meV (~2031–32), a ~3%-level comparison thereafter (θ₁₃-gated). Forward
+files must carry this framing, never the bare 0.45%.
+
 ## P-2026-013: The universe is closed/compact (the "all in" topology bet, pre-registered 2026-07-08)
 
 **The claim (COHERENCE LEAN — the softest evidential class in this registry, labeled honestly):**

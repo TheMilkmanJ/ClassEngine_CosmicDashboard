@@ -91,10 +91,16 @@ deferred to cluster time) actually grades:
 | T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the standing `YHe` treatment; a re-measurement is queued and the value may move |
 
-ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
-whatever the sky refuses, the model has nowhere to retreat. That totality, not any
-single row, is the claim under adjudication — carried today by Laplace-from-MCMC; the
-nested-sampling confirmer ended on this hardware (2026-07-20) and waits for cluster time.
+ΛCDM meets the same data with six free parameters; this stack fits with **zero continuous
+dials — a count that is conditional, not absolute: it holds only while c, f̄, and α_c all
+hold** (the amplitude file's own gate — any one of the three failing turns its slot back into
+a fitted parameter). And the zero counts continuous freedom only. The stack spends **discrete
+commitments** instead: which census counting (9/10), which pairing channel, which O(1) is
+exactly 1 (C, κ_m, b), where each convention parks its factor of 2. Fewer dials than ΛCDM,
+strictly more discrete choices — that trade, stated whole, is the claim. Whatever the sky
+refuses, the model has nowhere to retreat; that totality, not any single row, is what is
+under adjudication — carried today by Laplace-from-MCMC; the nested-sampling confirmer ended
+on this hardware (2026-07-20) and waits for cluster time.
 
 ---
 

@@ -10,6 +10,8 @@ Map of the live shelf. Files under [`exploratory/`](exploratory/README.md) (move
 - [Canonical values](working_logs/_CANONICAL_VALUES.md) — when two files disagree on a number
 - [Pre-registered predictions](PRTOE_PREREGISTERED_PREDICTIONS.md) — timestamped bets and kill conditions (P-001 → P-2026-060)
 - [Failures ledger](PRTOE_FAILURES_LEDGER.md) — ruled-out routes
+- [Trials factor](PRTOE_TRIALS_FACTOR.md) — how large the closed-form search space was; which agreement classes survive it; binding quotation rules
+- [Independence audit](PRTOE_INDEPENDENCE_AUDIT.md) — which multi-way agreements are genuinely independent and which collapse, pair by pair
 - [Bibliography](BIBLIOGRAPHY.md) — external sources
 
 ## Outward-facing

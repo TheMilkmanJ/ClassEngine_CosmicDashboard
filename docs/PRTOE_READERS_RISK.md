@@ -295,6 +295,23 @@ line is smaller than the estimator's own systematic, with **no nested number in 
 verdict now depends on the MCMC chains the Laplace is computed from — so their convergence, not a
 separate nested referee, stands between the model and its headline evidence claim.
 
+**The scoreboard, stated bluntly (2026-08-02).** Zero preregistered predictions have been
+confirmed by data that postdates their registration — every "confirmed" grading in the registry
+is consistency with data that existed when the bet was placed. The one column where the model
+already faces adverse data, it is losing: primordial deuterium at −2.9σ on the tightest
+published error budget, defended by a registered nuclear-rate bet (P-2026-058) that ΛCDM
+largely shares. The headline fit comparison is unquotable by this corpus's own ruling (chain
+table below). And the nearest calendar events are likelier to wound than confirm:
+ΛCDM-conditional Σm_ν upper limits are descending through 61.4 meV from above. Pay dates for
+the bets that could genuinely confirm something: JUNO ~2031–32 (the funnel-edge inputs),
+ton-scale 0νββ in the 2030s, CMB-S4 (ΔN_eff, the Majoron coupling), HL-LHC (the anchor band),
+a LUNA-class d(d,n)³He measurement (the deuterium bet). Until one of those pays, every
+validation in this corpus is internal. Two companion documents carry the statistical exposure
+a skeptic will raise first: [PRTOE_TRIALS_FACTOR.md](PRTOE_TRIALS_FACTOR.md) (how large the
+closed-form search space was, counted from the failures ledger's own records) and
+[PRTOE_INDEPENDENCE_AUDIT.md](PRTOE_INDEPENDENCE_AUDIT.md) (which multi-way agreements are
+genuinely independent and which collapse).
+
 **That distance is measured.** No chain in this corpus has ever reached its own stopping target
 (R−1 = 0.05 for the production pair; 0.1 for Route-D). Status as of 2026-08-02
 ([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md)):

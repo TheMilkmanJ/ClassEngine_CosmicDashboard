@@ -45,8 +45,11 @@ is decided by which side of the closure threshold m₁ sits on, and the 1σ band
 ±0.24 meV, is dominated by θ₁₂ and makes the sign a 50/50 draw. The threshold itself — the smallest
 m₁ at which exact cancellation first becomes possible, the lower edge of the well-known
 normal-ordering "funnel" — computes to **m₁\* = 2.2496 meV at current centrals, against
-ρ_Λ^{1/4} = 2.2395 ± 0.0108 meV: agreement to 0.45%, i.e. the registered m₁ sits on the closure
-threshold**, a coincidence found stated nowhere in the funnel literature (three searches, null).
+ρ_Λ^{1/4} = 2.2395 ± 0.0108 meV: central values agreeing to 0.45%. Read that with its full error
+budget: the threshold itself carries ±0.24 meV (±11%, θ₁₂-dominated) today, so the agreement is a
+~0.04σ consistency — a statement about central values that current data cannot resolve, not a
+precision coincidence** — though one found stated nowhere in the funnel literature (three
+searches, null).
 Exact cancellation at the threshold occurs at exactly one phase point, and it is CP-conserving:
 (α₂₁, α₃₁) = (π, 0). JUNO (θ₁₂ and Δm²₂₁ below 0.5% by ~2031–32) tightens the threshold's error
 to 0.06 meV, after which θ₁₃ — frozen at Daya Bay's final precision, with no successor planned —
