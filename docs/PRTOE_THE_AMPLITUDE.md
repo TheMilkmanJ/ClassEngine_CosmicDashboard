@@ -39,7 +39,7 @@ separate parameters.*
 | window | epoch | what ε does there | grade |
 |---|---|---|---|
 | **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H₀ = 69.9** (the Hubble-tension mechanism) — *provisional: measured under an earlier `YHe` treatment, re-measurement pending* | production fit; the evidence exposure stands with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity; the identity-configuration rerun is prepared and queued behind the production chains), and is priced from the MCMC — nested sampling deferred to cluster time |
-| **windowed BBN** | T ≈ 0.7 MeV–70 keV | OFF at n/p freeze-out, GROWING below T_c (the order-parameter birth ramp — the BBN engine's standing treatment) → the abundance pattern. Under the standing configuration's committed genesis window the joint reads p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), with deuterium eased to −2.5 to −1.4σ from Cooke and helium paying at +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ); the helium fork, the nuclear-code systematic, and the radio referee are the judges | production (PRyM pipeline) |
+| **windowed BBN** | T ≈ 0.7 MeV–70 keV | off at n/p freeze-out, growing below T_c (the order-parameter birth ramp — the BBN engine's standing treatment) → the abundance pattern. Under the standing configuration's committed genesis window the joint reads p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), with deuterium eased to −2.5 to −1.4σ from Cooke and helium paying at +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ); the helium fork, the nuclear-code systematic, and the radio referee are the judges | production (PRyM pipeline) |
 | **21-cm lines** | z ≈ 30–150 | rest frequencies shifted +2.5% (the (1+ε)² identity), with the exact ratio-lock ν_H/ν_D; the screening edge's *shape* reads the gate | registered (P-2026-022/027) |
 | **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 4×10⁻⁷, axis-correlated (sized by the Jeans rate √(3/2)) | registered (P-2026-024); consistent null today |
 | **Σm_ν de-bias** | parameter fits | model-conditional neutrino masses stay physical (61.4 meV vs DESI's ≲ 72 meV squeeze). The de-bias is the claim; the sum itself is not a discriminator — 2.6 meV above the m₁ = 0 floor against ~20 meV planned resolution | recorded; referee near |
@@ -138,7 +138,7 @@ one number, no exits, referees everywhere.
 
 A lepton/hadron varying-constant hierarchy — leptons shifting ~13× more than hadrons
 (P-2026-011) — is closed: a flavor-structured shift needs a Higgs/EM portal the census
-forbids. The census-legal coupling is a UNIVERSAL conformal rescaling, which is the
+forbids. The census-legal coupling is a universal conformal rescaling, which is the
 "one number, no exits" statement this file carries. The autopsy is in
 [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 

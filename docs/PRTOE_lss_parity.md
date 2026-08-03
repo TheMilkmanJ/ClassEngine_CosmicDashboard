@@ -11,15 +11,15 @@ construction, even though its amplitude cannot reach the claim.*
 
 ## 0. The claim in the data
 
-The BOSS galaxy four-point correlation function has been reported to violate PARITY at high
+The BOSS galaxy four-point correlation function has been reported to violate parity at high
 claimed significance (Hou–Slepian–Cahn; Philcox — ~5–7σ class), hotly debated (window
-functions, covariance estimation). Parity violation in the DENSITY field cannot arise in
+functions, covariance estimation). Parity violation in the density field cannot arise in
 standard ΛCDM at any order from Gaussian initial conditions with parity-even physics: if the
-signal is real, something in the universe's initial conditions or growth history is CHIRAL.
+signal is real, something in the universe's initial conditions or growth history is chiral.
 
 ## 1. The model's native machinery (nothing added for the purpose)
 
-The medium is chiral BY CONSTRUCTION: the winding n (a signed integer), the genesis helicity,
+The medium is chiral by construction: the winding n (a signed integer), the genesis helicity,
 the vortex network, the Harrison-era rotation — the same chirality that signs the magnetic
 helicity (P-028), the prospective GW handedness (T10), and the matter draw. A helical velocity
 field imprints parity-odd mode-couplings in the density field as growth proceeds — the injection
@@ -50,8 +50,8 @@ has no channel — the exposure is priced and owned.
 
 Even landing short, the model gains a clean statement: "the universe's only chiral
 cosmological framework predicts LSS parity violation exists but at amplitude X ≪ claimed" —
-converting the BOSS debate into a test: a CONFIRMED signal at the claimed size is then evidence
-of chirality NOT ours (or kills the framework's monopoly claim); a dissolved signal costs
+converting the BOSS debate into a test: a confirmed signal at the claimed size is then evidence
+of chirality not ours (or kills the framework's monopoly claim); a dissolved signal costs
 nothing; a signal at X would be a miracle-class confirmation. All three outcomes are
 informative because the model computes rather than fits.
 

@@ -20,11 +20,11 @@ growth history is locked once the CMB is fit.
 
 ## 1. The model's lever is not a lever — it is the fluid's own thermodynamics
 
-The dCDF is ONE fluid whose phases exchange: the conversion channel (recorded, coded:
+The dCDF is one fluid whose phases exchange: the conversion channel (recorded, coded:
 dcdf_conv_g/at/n) lets the DM component shed into the floor/dark-radiation at late times —
 **the same physics as the cycle's pdV work** (the fluid does work against gravity through its own
 equation of state; graded). Converting a percent-level
-fraction of DM after z ~ 1 suppresses late growth (lower S₈) WITHOUT touching the CMB-era
+fraction of DM after z ~ 1 suppresses late growth (lower S₈) without touching the CMB-era
 history — exactly the shape of the observed tension.
 
 ## 2. Where it stands empirically (live)
@@ -37,13 +37,13 @@ history — exactly the shape of the observed tension.
 - conv_g is a sampled parameter in the thaw and conv_desi *configurations*, pre-registered at
  g ≈ 0.10 ± 0.05. Their converged posteriors *would be* the mechanism's test once produced; none
  exist yet (§4), and no interim value carries weight.
-- MEANING-INVERSION NOTE (kept): a conv_g pulled LARGE would ease S₈ at the price
+- Meaning-inversion note (kept): a conv_g pulled large would ease S₈ at the price
  of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 
 ## 3. The improvement, bounded
 
 ΛCDM: S₈ tension = hope-it's-systematics. This model: a built, recorded, pre-registered,
-one-parameter mechanism WITH ITS OWN POLICE (the w = −1 commitment) — falsifiable in both
+one-parameter mechanism with its own police (the w = −1 commitment) — falsifiable in both
 directions (conv_g posterior consistent with 0 ⇒ no help, the tension is not ours to ease;
 conv_g large but DESI kills the implied w(z) ⇒ the mechanism dies honorably). Either outcome
 is information; ΛCDM's position provides none.
@@ -54,11 +54,11 @@ The chains' converged posteriors — **not running, corrected 2026-07-28.** `con
 single chain file last written **2026-07-22** at R−1 = 13.25. *(That figure is a within-chain
 split-R̂ — one chain cut into four segments — so it is a genuine number, but one that cannot detect
 confinement to a single basin; flagged 2026-07-29, since elsewhere the corpus wrongly stated a
-one-chain run yields no statistic at all.)* Three runs are live on the box as of 2026-07-29 — the
-bbnfix pair and route-D — and none of them is this one. The chain has died twice (at initialisation on 07-16, then again on
+one-chain run yields no statistic at all.)* Three runs are live on the box as of 2026-08-02 (same
+trio since 2026-07-29) — the bbnfix pair and route-D — and none of them is this one. The chain has died twice (at initialisation on 07-16, then again on
 07-22), so **this posterior is unproduced rather than pending** and restarting it is an owner
 decision. Also owed: a matched-lensing-likelihood fit (DES/KiDS proper,
-not just the S₈ point) before any tension-easing CLAIM is recorded; the conversion's
+not just the S₈ point) before any tension-easing claim is recorded; the conversion's
 perturbation-sector treatment.
 
 *The universe got smoother than the standard picture allows. This model's dark sector does extra

@@ -14,14 +14,14 @@ already have one measured member sitting in published data.*
 ## 0. The claim in the literature
 
 Parity-odd statistics of diffuse γ-ray arrival directions (Tashiro–Vachaspati class
-analyses of Fermi-LAT data) have yielded persistent ~2σ-level indications of a HELICAL
-intergalactic magnetic field — with LEFT-handed helicity — at ~10⁻¹⁴ G-class strengths on Mpc
+analyses of Fermi-LAT data) have yielded persistent ~2σ-level indications of a helical
+intergalactic magnetic field — with left-handed helicity — at ~10⁻¹⁴ G-class strengths on Mpc
 scales. Disputed, unconfirmed, systematics-debated — but published, repeated, and exactly the
 observable class this model marks.
 
 ## 1. What the model says (graded structure)
 
-P-2026-028: the primordial field's magnetic helicity is SIGNED BY THE GENOME —
+P-2026-028: the primordial field's magnetic helicity is signed by the genome —
 sign(helicity_B) = sign(n). That routing rides one structural condition the seeding step imposes —
 the genesis flow's own handedness (§"the seeding link" below). One factor of that condition is
 now supplied (poloidal sense fixed by plume geometry); the relative toroidal–poloidal bit remains
@@ -37,27 +37,27 @@ matter–antimatter draw does not.
 
 ## 2. The reading protocol (and the keys)
 
-If the IGMF helicity measurement firms, the family converts to ONE-MEASURED / TWO-PREDICTED
-on the *narrower* claim: the measured handedness would FIX sign(n) *if* the seeding step is
-signed by n, which then PREDICTS the chiral-GW background's handedness (thread T10). The
+If the IGMF helicity measurement firms, the family converts to one-measured / two-predicted
+on the *narrower* claim: the measured handedness would fix sign(n) *if* the seeding step is
+signed by n, which then predicts the chiral-GW background's handedness (thread T10). The
 baryon-sign consistency that once sat as a second prediction is **void** — the rectification
 key has been computed and finds sign(θ̇·n) independent (below), so matter-wins does not
 translate into a magnetic hand.
 
 The keys are two different objects, and they are no longer both unpaid. The first is the
-SEEDING key: reading a measured handedness back to sign(n) at all requires that the seeding
+seeding key: reading a measured handedness back to sign(n) at all requires that the seeding
 step be signed by n; the Harrison battery converts vorticity to field through a constant
 coefficient, so the seeded magnetic helicity is the medium's *kinetic* helicity rescaled by a
 positive number (§"the seeding link" below) — **half paid** (poloidal sense fixed), relative
-bit open. The second is the RECTIFICATION key — **computed and closed as independent** — so
+bit open. The second is the rectification key — **computed and closed as independent** — so
 the dictionary the sky needs is the seeding half alone, not both keys.
 
 ## 3. Falsifiable content
 
-Once the map exists: a measured IGMF helicity of the WRONG sign kills the family linkage
+Once the map exists: a measured IGMF helicity of the wrong sign kills the family linkage
 outright (no dial — the sign is topological). The strength (~10⁻¹⁴ G at Mpc) also confronts
 P-028's magnitude column (the filament/void structure, the working docket — the claimed values sit
-ABOVE our smooth-Harrison floor and would need the network structure to be real).
+above our smooth-Harrison floor and would need the network structure to be real).
 
 ## 4. Owed (mirrors working_logs/T14)
 

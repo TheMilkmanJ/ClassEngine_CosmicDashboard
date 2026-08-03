@@ -9,8 +9,8 @@ CMB, BBN, neutrinos, radio, and precision-mass physics, with zero per-row freedo
 
 ## 0. The principle
 
-A model with one lever and many windows cannot cheat: every window must show the SAME lever at
-its OWN known weight. The electron-coupled scalar's **ε = c·f̄·α_c = 27α/5π = 1.2543%** — **one
+A model with one lever and many windows cannot cheat: every window must show the same lever at
+its own known weight. The electron-coupled scalar's **ε = c·f̄·α_c = 27α/5π = 1.2543%** — **one
 factor derived, one assumed, one registered**: f̄ = 2/π (the winding time-average) is derived;
 c = 9/10 (the census counting fraction over the charged-fermion roster) is a counting assumption
 the ε-blind ensemble confirms at −0.08σ without excluding its alternatives; α_c = 3α is the
@@ -22,8 +22,8 @@ producing it: a posterior inconsistent with 3α is a falsification, not a measur
 |---|---|---|
 | CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | the founding fit (thread 11). **\*Conditional:** the +2.635 (Laplace) came from chains scored with a ΛCDM helium fraction; the configs now carry the measured PRyM response, and the zero-parameter comparison (cmp_prtoe_fixed) is graded from the MCMC — the number stays a Laplace estimate, nested sampling being deferred to cluster time, so what it awaits is chain convergence ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund + the genesis residual | the signed self-adverse bet (2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window: **−2.5 to −1.4σ** on the full budget); radio-arbitrated |
-| BBN: Y_p | windowed (ε OFF at freeze-out) plus the genesis residual: **+1.3 to +2.0σ** COUNTER vs Aver | owned-adverse, zero fitted parameters |
-| BBN: quark-bleed | **EXCLUDED — the row is retired, by loop order and by data rather than by symmetry.** The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4 — so the bleed is excluded by this row itself. What the electron-coupled scalar can actually deliver is set by loop order: its portal is the dark-neutral bilinear |Ψ|², which reaches the quark bilinear only at two EW/EM loops, and the loop floor (scalar → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. *(Not symmetry: that scalar is a separate field from the Majoron, and |Ψ|² is L-neutral, so U(1)_L screens the quark bilinear no more than the lepton one.)* | **no bleed, no blowout, and no healer: D/H carries −2.5 to −1.4σ** |
+| BBN: Y_p | windowed (ε off at freeze-out) plus the genesis residual: **+1.3 to +2.0σ** counter vs Aver | owned-adverse, zero fitted parameters |
+| BBN: quark-bleed | **Excluded — the row is retired, by loop order and by data rather than by symmetry.** The old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4 — so the bleed is excluded by this row itself. What the electron-coupled scalar can actually deliver is set by loop order: its portal is the dark-neutral bilinear |Ψ|², which reaches the quark bilinear only at two EW/EM loops, and the loop floor (scalar → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. *(Not symmetry: that scalar is a separate field from the Majoron, and |Ψ|² is L-neutral, so U(1)_L screens the quark bilinear no more than the lepton one.)* | **no bleed, no blowout, and no healer: D/H carries −2.5 to −1.4σ** |
 | neutrinos | Σm_ν de-biased to 0.07–0.09 eV | P-023; survives curvature freed |
 | the radio bands | +2 : +1 : −1 : −1 : −2, ratio-locked | threads 12; P-022/P-027/P-029 |
 | space/direction | the ε-dipole ~6×10⁻⁷ on the winding axis | P-024; the shared-axis family |
@@ -32,8 +32,8 @@ producing it: a posterior inconsistent with 3α is a falsification, not a measur
 
 ## 1. What makes this an improvement rather than a list
 
-Standard cosmology's anomalies are ORPHANS — each tension gets its own bespoke model, each null
-its own shrug. The lattice makes them SIBLINGS: the same ε that eases H₀ engages Y_p through its
+Standard cosmology's anomalies are orphans — each tension gets its own bespoke model, each null
+its own shrug. The lattice makes them siblings: the same ε that eases H₀ engages Y_p through its
 window (the verdict: a +1.3 to +2.0σ counter-lean, honestly owned), must de-bias Σm_ν upward (it
 does, in-house), must widen D/H (it did — owned as a bet, not hidden), must chord the radio bands
 at fixed ratios, must point one axis, and must never touch Koide or a haloscope. **Any single row
@@ -59,7 +59,7 @@ not yet on any single decisive row. *One lever, many windows, no exits: the latt
 most over-constrained correct idea in cosmology or the most efficiently falsifiable wrong one.
 Both are compliments to its construction; only the sky knows which.*
 
-## The ε(epoch) table — rows must cite THIS, not "the" ε
+## The ε(epoch) table — rows must cite this table, not "the" ε
 
 | epoch | ε | provenance |
 |---|---|---|

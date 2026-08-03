@@ -1,7 +1,7 @@
-# THE READER'S GUIDE — plain physics, no house dialect (2026-07-13)
+# The Reader's Guide — plain physics, no house dialect (2026-07-13)
 
 *Written for the newcomer and the external reviewer. The repository's working documents
-use a compact internal vocabulary for the model's recurring objects; it is NOT required to
+use a compact internal vocabulary for the model's recurring objects; it is not required to
 evaluate the physics. This page states the model plainly, translates every recurring house
 term, and gives the reading order.*
 
@@ -36,7 +36,7 @@ term, and gives the reading order.*
 |---|---|
 | the medium / the fluid | the superfluid scalar field (the unified dark sector) |
 | the amplitude / ε | the fractional electron-mass shift. Three numbers appear deliberately: **1.2543%** is the derived stack (c·f̄·α_c = 27α/5π), **1.232%** the production-chain fit, **~1.24%** the posterior. The 1.8% gap between the derived stack and the production fit sits inside the posterior width and is what the production-chain posteriors grade (once converged) |
-| the dyad — **officially "the electron-coupled scalar"** (owner's rename, 2026-07-28; the audience-facing files use the new name) | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's THREE dark fields (the dCDF superfluid, the electron-coupled scalar, the Majoron). It is **not** the Majoron: the single-scale reading that merged them (f = v_L) is dead on the neutrino tie, which is what leaves three fields rather than two. In older documents "the dyad" named the (dark fluid + varying-m_e) pair |
+| the dyad — **officially "the electron-coupled scalar"** (owner's rename, 2026-07-28; the audience-facing files use the new name) | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's three dark fields (the dCDF superfluid, the electron-coupled scalar, the Majoron). It is **not** the Majoron: the single-scale reading that merged them (f = v_L) is dead on the neutrino tie, which is what leaves three fields rather than two. In older documents "the dyad" named the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
 | f_amp | the medium's **librating fraction**, 1 − f_rot: the dice output, the granule-contrast dial p²+q², and the beat √(f_amp(2−f_amp)) all use this sense. Older documents use the same letter for an amplitude-decomposition factor in ε = c·f_amp·Ψ₀/M_red; that is not the standing decomposition, which is ε = c·f̄·α_c with f̄ = 2/π |
 | the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
@@ -53,7 +53,7 @@ term, and gives the reading order.*
 | the curvature-metered gate | the screen that switches the electron-mass shift off in dense, curved regions, keyed to how sharply curved they are: exp(−(C/C_ref)ⁿ) with n > 2.43, so sharp it is effectively a step. It is what makes today's laboratories see no effect |
 | ramps vs steps | the house discipline: physical transitions are modeled as smooth (finite-width) functions, never discontinuities, unless protected by quantization/topology |
 | the error log | the log of caught errors (public, in the failures ledger) |
-| the §12 wall | the corpus's hard scope boundary: the interpretation layer makes NO claims about mind, consciousness, or observers — measurement is decoherence/einselection and nothing more. Named for a section number in an early draft; the number outlived the draft, the boundary is the content |
+| the §12 wall | the corpus's hard scope boundary: the interpretation layer makes no claims about mind, consciousness, or observers — measurement is decoherence/einselection and nothing more. Named for a section number in an early draft; the number outlived the draft, the boundary is the content |
 | the killer / the kill | the named observation that falsifies a specific claim |
 | estimate / open item | computed lightly or not yet verified by the full chain — said in plain prose, not as a grade tag |
 

@@ -1,6 +1,6 @@
 # PRTOE in Three Equations
 
-> **THE DARK-ENERGY PREDICTION — THE HEADLINE CLAIM — AND ITS GRADE.** The dark-energy scale is
+> **The dark-energy prediction — the headline claim — and its grade.** The dark-energy scale is
 > **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — the vacuum-occupancy binding energy, α⁴ times a temperature tied to
 > the electron. That structure is what makes it predictive rather than descriptive, and every factor
 > in it is sourced except τ = T_c/m_e, which is where the whole claim now lives.
@@ -77,8 +77,8 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 177\
  favors it over ΛCDM at $\Delta\ln Z \approx +2.6$ (Laplace approximation; marginal and
  SH0ES-conditional; the definitive nested-sampling comparison is unaffordable on the hardware
  available and waits for cluster time).
-- The same $\varepsilon$ — ONE amplitude passed through window-specific activation (OFF at
- BBN freeze-out, ON below $T_c$; the ε-epoch table in the fingerprint file governs) — is
+- The same $\varepsilon$ — one amplitude passed through window-specific activation (off at
+ BBN freeze-out, on below $T_c$; the ε-epoch table in the fingerprint file governs) — is
  then owed everywhere at its epoch weights: BBN's windowed pattern,
  the radio-band ratios, the de-biased $\Sigma m_\nu$, the Koide invariance, the underground
  nulls — the fingerprint lattice (thread 13). One lever, many windows, no exits.
@@ -131,15 +131,15 @@ derivation is ≈1.8% *of the value* — and the α_c instrument (once converged
  winding sim's $0.635 \pm 0.026$ is the output that **confirms** it to +0.3%, not the value of
  $\bar{f}$ — the high-statistics ensemble is the check, not the source.)* **Derived — not a
  parameter, and not a simulation output.**
-- $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), on the record BEFORE the deciding
- measurement (the α_c instrument) converges — and 2.3% ABOVE where current data points, so it is
+- $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), on the record before the deciding
+ measurement (the α_c instrument) converges — and 2.3% above where current data points, so it is
  falsifiable once that instrument runs, not retrofit ever. The instrument is **not currently
  running** (zon_disp collapsed; seed ready).
 
-IF the decomposition's referees sign (its factors are currently: one conditional derivation,
+If the decomposition's referees sign (its factors are currently: one conditional derivation,
 one open closed-form, one registered bet whose instrument is offline), the model becomes a
 **zero-extra-parameter rival to ΛCDM** in the committed fixed-$\varepsilon$ evidence
-configuration — no Occam penalty, pure goodness-of-fit, no retreat. The claim is CONDITIONAL
+configuration — no Occam penalty, pure goodness-of-fit, no retreat. The claim is conditional
 until then.
 
 ---

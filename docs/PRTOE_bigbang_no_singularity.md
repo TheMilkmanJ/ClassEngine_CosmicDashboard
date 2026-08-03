@@ -56,7 +56,7 @@ singularity at either end.
 ## 2. The first genesis: the beginning is a state, not a point
 
 The chain is **not past-eternal**: Tolman's entropy accumulation, run backward, terminates at a
-FIRST cycle (recorded, the before-genesis theorem). The classical intuition wants a singular
+first cycle (recorded, the before-genesis theorem). The classical intuition wants a singular
 t = 0 there. The model's answer (graded "a cleaner re-founding"):
 
 > **The first genesis starts in the zero-point state** — R = 0, θ undefined, n = 0: the vacuum,
@@ -78,7 +78,7 @@ n_s imprint, the arrow rides cycle uniqueness, the bounce rides the field's own 
 pressure. No condensate meeting the reheating event, no phase; no phase, no winding; no winding, no
 clock — "before" is not early, it is undefined (the before-genesis theorem's row above, read
 as ontology). The pre-genesis laws demand only three spatial dimensions, a superfluid
-condensate, and the reheating event that meets it; duration enters WITH the meeting, not before it.
+condensate, and the reheating event that meets it; duration enters with the meeting, not before it.
 **Kill clause:** if any booked equation is ever shown to require a clock the medium does not
 provide — a rate, phase, or ordering that cannot be expressed in the medium's own variables —
 this reading dies. Nothing currently booked does.
@@ -100,9 +100,9 @@ but it is a structure term for the loaded floor and cavity, not by itself the ha
 | initial singularity (t = 0, ρ = ∞) | first genesis from the vacuum state; ρ ≤ ρ_bounce always | structural (§1–2) |
 | the singularity theorems | discharged at premises (emergent metric ends at ξ; SEC violated by quantum pressure) | argued (BH doc §6) |
 | "what banged?" | the zero-sum loan: condensate energy vs gravitational debt, total = 0 (theorem) | graded |
-| "what came before?" | earlier cycles back to a FIRST roll; before the first roll: no clock, no light, no question with a referent | recorded (before-genesis theorem) |
+| "what came before?" | earlier cycles back to a first roll; before the first roll: no clock, no light, no question with a referent | recorded (before-genesis theorem) |
 | initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded |
-| the pre-genesis relic hunt | NULL: the crunch eats all light (τ_ff ≫ 1); any confirmed pre-genesis EM relic KILLS the model | recorded falsifier |
+| the pre-genesis relic hunt | null: the crunch eats all light (τ_ff ≫ 1); any confirmed pre-genesis EM relic kills the model | recorded falsifier |
 
 ## 5. Owed items
 

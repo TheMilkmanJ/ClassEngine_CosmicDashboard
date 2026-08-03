@@ -13,13 +13,13 @@ number.*
 A black hole immersed in a light bosonic medium is the literature's "gravitational atom":
 hydrogen-like bound levels with fine-structure constant α_g = GMm/ħc, superradiant growth of
 the cloud for α_g ≲ O(0.5), level spacings and selection rules exactly Bohr-patterned. In this
-model the medium is not hypothetical — it is the dark matter itself, with a RECORDED mass.
+model the medium is not hypothetical — it is the dark matter itself, with a recorded mass.
 
 ## 1. The numbers (m = 2.24×10⁻²⁰ eV)
 
  stellar (10 M☉): α_g = 1.7×10⁻⁹ (atom in the extreme-weak limit)
  Sgr A* (4.3×10⁶): α_g = 7×10⁻⁴
- M87* (6.5×10⁹): α_g = 1.09 ← AT the strong-coupling boundary
+ M87* (6.5×10⁹): α_g = 1.09 ← at the strong-coupling boundary
  TON 618 (6.6×10¹⁰): α_g = 11 (deep strong coupling)
 
  **α_g = 1 at M ≈ 6×10⁹ M☉.**
@@ -35,7 +35,7 @@ at the boundary (α_g = 1.09, r_s/ξ = 0.32).
 
 *Noted, not recorded: the empirical SMBH cutoff (~10¹⁰·⁵ M☉) has
 astrophysical explanations (Eddington-limited growth); the model's threshold is a
-characteristic-scale COINCIDENCE candidate, flagged for the day the mass function's top is
+characteristic-scale coincidence candidate, flagged for the day the mass function's top is
 measured precisely.*
 
 ## 3. What the atom grammar adds to P-2026-005
@@ -43,11 +43,11 @@ measured precisely.*
 P-005 ("spins without clouds") was a kill-test: superradiance would spin down BHs if the medium
 formed clouds; the margins cleared. The atom grammar gives that passed null a
 structure: (i) which BHs can host levels at all (α_g windows per mass — the superradiance
-condition is mass-selective with ONE m for the whole sky); (ii) the strong-coupling regime
+condition is mass-selective with one m for the whole sky); (ii) the strong-coupling regime
 (α_g > 1) where the perturbative cloud picture fails and the BH's near-zone is a nonlinear
 condensate problem (the same regime as the black-hole core — one physics, inside and out);
 (iii) the shared-m cross-link: any future superradiance detection anywhere on the mass ladder
-must fit the SAME m the onset clock fixes (and that the α_c instrument is meant to
+must fit the same m the onset clock fixes (and that the α_c instrument is meant to
 referee) — a one-parameter sky.
 
 ## 4. Scope

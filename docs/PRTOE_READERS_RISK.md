@@ -44,12 +44,12 @@ number, ε, applied everywhere atomic physics appears.
   own grades (§3).
 - **Koide protection** — the multiplicative-universal lepton coupling explains *why* Koide's Q
   survives a 1.24% mass shift (a real improvement; mainstream has no account). *Candidate: protection
-  derived; the reason Q = 2/3 at all (A = √2) is NOT derived — the one assembled candidate
+  derived; the reason Q = 2/3 at all (A = √2) is not derived — the one assembled candidate
   chain (cascade-delivered sector-equipartition) was executed by its own pre-registered trial
   (kill zones sealed before computation; all readings in the death zone). The equivalence
   A = √2 ⟺ sector-equipartition stands as mathematics. A complete candidate chain now exists
   (the circulant kernel, an existence theorem, and a thermal-boundary reading whose one
-  internal cross-check passed), carrying ONE remaining theoretical stage and judged by three
+  internal cross-check passed), carrying one remaining theoretical stage and judged by three
   lattice observables of a single SU(2) N_f = 3 campaign plus a registered deviation lock
   (P-2026-051) — candidate-grade throughout, stated as such.*
 - **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived conditional on
@@ -286,7 +286,7 @@ number, ε, applied everywhere atomic physics appears.
   band" — already said so before this page did.
 
 ## 4. Current evidence class
-**FLAT / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
+**Flat / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
 crossed a pre-committed threshold but adds no independent evidence for the ontology. **And it stands
 without its confirmer.** The zero-free-parameter nested-sampling comparison against ΛCDM — the only
 thing that can make this robust — costs 9.8 h per iteration on the hardware available, which is 163

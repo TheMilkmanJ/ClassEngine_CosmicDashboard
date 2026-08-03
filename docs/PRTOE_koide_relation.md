@@ -10,15 +10,15 @@ reasons, and a generation-structure lane under active test.*
 
 ## 0. The mystery
 
-Koide (1981): Q ≡ (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 to ~10⁻⁵ — with the POLE masses,
+Koide (1981): Q ≡ (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 to ~10⁻⁵ — with the pole masses,
 including QED corrections that had no reason to preserve it. It fits no symmetry anyone has
 made stick; the standard position is "numerology, presumably."
 
 ## 1. The recorded half: why it survives (the protection, derived)
 
-Any new physics touching lepton masses should WRECK a delicate mass relation. This model's
+Any new physics touching lepton masses should wreck a delicate mass relation. This model's
 lepton coupling is **multiplicative-universal by construction** (the Card-7 structure, graded:
-every lepton Yukawa dressed by the SAME factor) — and Q is a RATIO invariant under a common
+every lepton Yukawa dressed by the same factor) — and Q is a ratio invariant under a common
 rescaling: **the electron-coupled scalar shifts every lepton mass 1.2543% and Koide's Q does
 not move in the tenth digit.** A model that had to choose between varying lepton masses and
 preserving Koide got both, from one portal structure needed anyway for gate-0.
@@ -169,11 +169,11 @@ decomposition, ε = c × f_amp × Ψ₀/M_red, is archive-only and is not a chec
 
 The protection mechanism predicts: any environment-dependence of lepton masses is
 Koide-preserving — precision μ/e and τ/e mass-ratio comparisons across environments/epochs
-must hold Q fixed even where masses drift (P-024's dipole would shift masses, NEVER Q). A
+must hold Q fixed even where masses drift (P-024's dipole would shift masses, never Q). A
 measured Q-drift kills the multiplicative-universal portal outright.
 
 *The most precise unexplained number in particle physics is a ratio that ignores a universal
-rescaling — and this model, for unrelated reasons, is only ALLOWED to rescale universally. The
+rescaling — and this model, for unrelated reasons, is only allowed to rescale universally. The
 coincidence, at minimum, has finally met a structure shaped like itself.*
 
 
@@ -323,7 +323,7 @@ whatever pins the cone acts in the charged sector specifically.
 > (−,+,+) branch, and it independently predicts **m₁ = 0.000374 eV** against the branch's Q = 2/3
 > crossing at 0.00040 eV. Two routes, one sign branch, one lightest mass.
 >
-> **Consequence for the argument above — and it does NOT collapse, which is the fair reading.**
+> **Consequence for the argument above — and it does not collapse, which is the fair reading.**
 > "The neutrino triple cannot sit on the cone for any lightest mass" holds only on the all-positive
 > branch, and whether the negative branch is *physically* admissible is not settled either way here.
 > So that leg is weaker than it was written. **But the exclusion has a second leg that is untouched:**
@@ -342,7 +342,7 @@ whatever pins the cone acts in the charged sector specifically.
 > ring. Note π/12 is a *pure geometric angle carrying no Q*, so whatever supplies it is a different
 > kind of object from whatever supplies 2/9.~~
 >
-> **↑ WITHDRAWN the same day — π/12 is NOT an independent angle**
+> **↑ Withdrawn the same day — π/12 is not an independent angle**
 > (`scripts/pi_over_12_is_the_zero_crossing.py`, 10 controls incl. anti-control). With
 > √m_k = a[1 + A·cos(φ + 2πk/3)], the middle root vanishes when cos(φ + 2π/3) = −1/A. At the Koide
 > amplitude A = √2 that reads cos = −1/√2, so φ + 2π/3 = 3π/4 and
@@ -632,7 +632,7 @@ three-mass fit seats both watches inside one σ while hiding the structure they 
 Only the two light masses resolve it, and they will not improve on their own; nothing about this
 question waits on the τ.
 
-### ⚠ The neutral triple: a FORK, found 2026-07-29, and it touches a pre-registered prediction
+### ⚠ The neutral triple: a fork, found 2026-07-29, and it touches a pre-registered prediction
 
 Adding Brannen's π/12 neutral fit to this file exposed a conflict with **P-2026-012**, which
 pre-registers **m₁,lightest = 2.3 meV** (and the Σ ≈ 61 meV that follows). The two cannot both hold.
@@ -648,7 +648,7 @@ unknowns a, A, φ) gives:
 The second requires **A = 1.735, i.e. 22.7% off √2**, and hence Q_ν = 0.835 — *not* on the cone.
 (Consistent with the branch scan: on (−,+,+), Q_ν crosses ⅔ near m₁ ≈ 0.4 meV and keeps rising.)
 
-> **So the fork is sharp: EITHER the neutral triple sits on the Koide cone — A = √2, m₁ = 0.374 meV,
+> **So the fork is sharp: either the neutral triple sits on the Koide cone — A = √2, m₁ = 0.374 meV,
 > Σ = 58.5 meV — OR P-2026-012's m₁ = 2.3 meV holds and the neutral triple is off the cone entirely,
 > with the π/12 fit not applying to this model.** They are alternative hypotheses, not complements.
 
@@ -702,13 +702,13 @@ cone is selected by **electric charge**: T6 from the neutrino failure itself, th
 screening weights by charge² and a neutral cone is worth zero. Numerical reachability on a sign
 branch is not a mechanism for being there.
 
-> ### RULING
+> ### Ruling
 >
 > **P-2026-012 stands as the model's neutrino prediction** — Σm_ν = 61.3 meV with
 > m_lightest = 2.24 meV, carried with its own stated conditional (the floor being neutrino-funded)
 > and its own void clause.
 >
-> **The Koide-neutrino branch is WITHDRAWN as a prediction.** Σm_ν = 58.5 meV must not be quoted as
+> **The Koide-neutrino branch is withdrawn as a prediction.** Σm_ν = 58.5 meV must not be quoted as
 > the model's number. It survives only as an observation: *if* the neutral triple were on the cone
 > the sum would be ≈59 meV — and the charge-selector argument says it is not, while the
 > parameter-free test that would have supported it misses by 4.3%.

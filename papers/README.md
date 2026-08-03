@@ -11,36 +11,36 @@ directory holding exactly the files arXiv receives, a tarball of that directory,
 | [`supertrace-note/`](supertrace-note/) | gr-qc | 3 | **No.** Entirely about published literature. | **Published** on Zenodo ([DOI 10.5281/zenodo.21763188](https://zenodo.org/records/21763188)). arXiv still open if endorsement materialises. |
 | [`neutrino-mbb/`](neutrino-mbb/) | hep-ph | 3 | **No.** Its input is stated as a hypothesis. | TeX package ready. External gate: hep-ph endorsement. |
 | [`radio-lattice/`](radio-lattice/) | astro-ph.CO, astro-ph.IM | 6 | **Motivated by it, does not rest on it.** | TeX package ready. External gate: astro-ph endorsement. |
+| [`lattice-tc-gap/`](lattice-tc-gap/) | hep-lat | 2 | **No** as a gap note. Optional transparency stake is one paragraph. | TeX package ready. External gate: hep-lat endorsement. |
 
-All three are written so a reader who has never seen this corpus loses nothing. None of
-them names the framework anywhere in its text — which is correct for arXiv, and is exactly
-why this index exists.
+All are written so a reader who has never seen this corpus loses nothing. None of them names
+the framework in its TeX — which is correct for arXiv. Full candidacy inventory:
+`docs/working_logs/_ARXIV_CANDIDACY.md`.
 
 Read in order of independence:
 
 - **`supertrace-note/`** is the cleanest. Two published conditions, one page of algebra
-  showing they are the same condition, no connection to anything else here. Easiest for a
-  referee to check, and the natural one to send out first (now public on Zenodo).
+  showing they are the same condition. Public on Zenodo.
+- **`lattice-tc-gap/`** is a literature-gap note: no published T_c/√σ for SU(2) N_f=3 light
+  fundamentals; the computation is conventional and missing.
 - **`neutrino-mbb/`** takes one number as a hypothesis and works out its consequence for
-  neutrinoless double-beta decay. The framework independently reaches the same number,
-  which is why the calculation was worth doing, but the paper never appeals to it.
+  neutrinoless double-beta decay. The paper never appeals to the framework.
 - **`radio-lattice/`** is the one closest to the framework's own machinery. Even so, it
   treats the shift amplitude as a free parameter to be fitted rather than predicted, and
-  it states in its own abstract that molecular lines already bound that amplitude ~35×
-  more tightly than its rows do.
+  it states that molecular lines already bound that amplitude ~35× more tightly than its rows do.
 
 ## Status (desk readiness, 2026-08-02)
 
-All three **TeX packages** build clean and are packaged. Each `submission/` was tested by
+All **TeX packages** below build clean and are packaged. Each `submission/` was tested by
 copying it into an empty scratch directory and running pdflatex twice with nothing else
-present — which is what arXiv does — giving 0 errors, 0 undefined references and 0 overfull
-boxes in every case.
+present — which is what arXiv does — giving 0 errors in every case.
 
 | paper | TeX package ready? | Content holds remaining? | External gate |
 |---|---|---|---|
-| supertrace-note | **Yes** — `main.tex` only; 3 pp, ~225 KB | None. Public on Zenodo 2026-08-02. | arXiv: gr-qc endorsement (optional; Zenodo already public) |
-| neutrino-mbb | **Yes** — `main.tex` + `main.bbl`; 3 pp, ~249 KB | None blocking. Optional owner call only: abstract lower edge is knife-edge under NuFIT 1σ (paper already says so in prose). | hep-ph endorsement (archive separate from astro-ph) |
-| radio-lattice | **Yes** — `main.tex` + `main.bbl`; 6 pp, ~302 KB | None. DM-row demotion is **in the text**, not a hold (see below). | astro-ph endorsement covers .CO primary + .IM cross-list |
+| supertrace-note | **Yes** — `main.tex` only; 3 pp | None. Public on Zenodo 2026-08-02. | arXiv: gr-qc endorsement (optional) |
+| neutrino-mbb | **Yes** — `main.tex` + `main.bbl`; 3 pp | None blocking. | hep-ph endorsement |
+| radio-lattice | **Yes** — `main.tex` + `main.bbl`; 6 pp | None. DM demotion is in the text. | astro-ph endorsement |
+| lattice-tc-gap | **Yes** — `main.tex` only; 2 pp | None as a gap note (no lattice result claimed). | hep-lat endorsement |
 
 **Do not invent endorsement.** No arXiv endorsement is claimed here. The remaining step for
 arXiv for the two unpublished papers is the same and is not a technical one: arXiv requires

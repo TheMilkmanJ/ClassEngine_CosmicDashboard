@@ -1,0 +1,174 @@
+\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,10pt]{revtex4-2}
+
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+\title{A well-posed gap in the two-color lattice literature:\\
+$T_c/\sqrt{\sigma}$ for SU(2) with $N_f=3$ light fundamental flavours}
+
+\author{Justin Pulford}
+\email{pulfordj420@gmail.com}
+\affiliation{Unaffiliated}
+
+\date{\today}
+
+\begin{abstract}
+Two-color QCD has a substantial finite-temperature literature at $N_f=2$, yet no published
+determination of the transition temperature in string-tension units, $T_c/\sqrt{\sigma}$, exists
+for $N_f=3$ light fundamental Dirac flavours. We state the computation cleanly: separate chiral and
+deconfinement crossovers, a chiral extrapolation, a continuum statement at least two temporal
+extents, and an explicit confrontation of the staggered-rooting versus Wilson trade-off in a
+pseudo-real theory. The gap is scientifically interesting independent of any particular dark-sector
+model: flavour dependence of $T_c/\sqrt{\sigma}$ is well mapped in SU(3), while SU(2)'s enlarged
+chiral pattern and different Goldstone count leave the saturation of that flavour dependence open.
+We record, for transparency only, a publicly pre-registered numerical stake on the chiral
+transition and the precision required to score it; the stake is not the result of this note. The
+result of the note is that the calculation is conventional, well posed, and missing.
+\end{abstract}
+
+\maketitle
+
+\section{The missing number}
+
+We ask for a finite-temperature lattice determination of
+%
+\begin{equation}
+  T_c/\sqrt{\sigma}
+\end{equation}
+%
+in SU(2) gauge theory with $N_f=3$ degenerate light Dirac fermions in the fundamental
+representation, with four requirements stated up front.
+
+\begin{enumerate}
+\item \emph{Both transitions separately.} The chiral crossover (peak of the chiral susceptibility)
+  and the deconfinement crossover (peak of the Polyakov-loop susceptibility). In two-color QCD the
+  Polyakov peak weakens as the quarks lighten, opposite to the three-color behaviour~\cite{Kaczmarek1999},
+  so the splitting is itself a result.
+\item \emph{A chiral extrapolation.} Ensembles at $m_{\rm PS}/\sqrt{\sigma}\lesssim 1$ with the
+  quark-mass slope measured. The SU(3) benchmark is
+  $T_c/\sqrt{\sigma} = 0.40(1) + 0.039(4)\,(m_{\rm PS}/\sqrt{\sigma})$~\cite{Karsch2001}; whether a
+  pseudo-real theory follows the same pattern is untested.
+\item \emph{A scale set by the string tension} directly, or by $r_0/t_0/w_0$ with the conversion
+  stated on the same ensembles.
+\item \emph{A continuum statement} from at least two temporal extents ($N_\tau=6,8$; $10$--$12$ if
+  affordable). Coarse-lattice SU(3) values drifted downward by about $10\%$ in the continuum; whether
+  SU(2) does the same is unknown.
+\end{enumerate}
+
+\section{Why the gap is interesting without any model}
+
+The literature at $N_f=2$ is not empty. On the staggered side, Astrakhantsev \emph{et al.}~\cite{Astrakhantsev2019}
+report $\sqrt{\sigma_0}=476(5)\,$MeV on-ensemble, and Kudrov, Bornyakov and Goy~\cite{Kudrov2025}
+place the deconfinement crossover at $T_d(0)=230(10)\,$MeV, equivalently $r_0 T_d(0)=0.55(4)$.
+Taken together these give $T_d/\sqrt{\sigma}\approx 0.48$. On the Wilson side, two determinations of
+the chiral crossover disagree at the $\sim\!30\%$ level~\cite{Iida2020,Iida2024}.
+
+What is missing is $N_f=3$ light fundamentals. $N_f=4$ exists only in qualitative form from older
+work. That absence matters for three reasons that do not require a dark-sector story.
+
+\emph{Flavour dependence in a pseudo-real theory.} In SU(3) the flavour suppression of
+$T_c/\sqrt{\sigma}$ largely saturates after the first two flavours. SU(2)'s fundamental
+representation is pseudo-real: the chiral symmetry is enlarged, $\mathrm{SU}(2N_f)\to\mathrm{Sp}(2N_f)$,
+the Goldstone count differs (fourteen at $N_f=3$), and whether the SU(3) saturation pattern
+transfers is an open, clean question.
+
+\emph{Conformal-window safety.} $N_f=3$ sits well below the SU(2) fundamental window edge near
+$N_f\approx 6$~\cite{Karavirta2012,Appelquist2016}, so the theory confines and breaks chiral symmetry.
+The computation is conventional.
+
+\emph{Cost.} Two colors, three light flavours, moderate volumes; existing $N_f=2$ ensembles and
+tuning are a natural starting point.
+
+\section{The discretization is the hard choice}
+
+$N_f=3$ is the least comfortable flavour count to discretize, and anyone costing the computation will
+see that first.
+
+\emph{Staggered.} Three flavours require the odd root, $\det^{3/4}$ --- rooted staggered where it is
+least comfortable. Two-color QCD adds a second problem: with fundamental quarks the staggered action
+does not reproduce the continuum symmetry-breaking pattern~\cite{Astrakhantsev2019}. Since the
+pseudo-real enlargement is precisely what makes the $N_f$ dependence interesting, a discretization
+that deforms it is not a neutral choice.
+
+\emph{Wilson.} The symmetry pattern is correct, at the cost of explicit chiral-symmetry breaking at
+finite lattice spacing --- which is exactly what a chiral-crossover determination is trying to
+measure --- and the two existing $N_f=2$ Wilson determinations already disagree at $\sim\!30\%$.
+
+Neither choice is settled here. The discretization is part of the computation, not a detail beneath
+it. A result whose discretization is not argued for will not settle the flavour question at the
+precision discussed next.
+
+\section{A pre-registered stake (transparency only)}
+
+An independent phenomenological program has publicly pre-registered a numerical stake on the chiral
+transition, placed before any dedicated $N_f=3$ computation existed:
+$T_c/\sqrt{\sigma}=0.34657$ ($=\tfrac12\ln 2$), with pre-committed kill conditions. The stake is
+recorded here for transparency, not as a result of this note.
+
+The precision required to score the stake is more important than the central value. The stake
+distinguishes two hypotheses $0.44\%$ apart; a determination with relative uncertainty $\sigma>0.44\%$
+cannot score either way and is registered in advance as inconclusive. Discrimination needs
+$\sigma\lesssim 0.22\%$. At ordinary published precision ($1$--$3\%$), the expected outcome is
+therefore a null score on the stake itself.
+
+Two coarser clauses remain live at ordinary precision: a determination outside $[0.330,0.370]$
+falsifies that program's dark-energy sector, and the best current inference from measured
+neighbours is $0.39\pm 0.05$, centred \emph{above} the stake. Whether those clauses matter is the
+program's problem. The field's problem is the missing $N_f=3$ number.
+
+\section{Conclusion}
+
+No published $T_c/\sqrt{\sigma}$ exists for SU(2) with $N_f=3$ light fundamental flavours. The
+calculation is conventional, well posed, and discretization-sensitive. Filling the gap would answer
+a clean question about flavour dependence in a pseudo-real theory, independent of any particular
+beyond-Standard-Model motivation. We have stated the requirements, the literature anchors at
+$N_f=2$, and the precision a pre-registered stake would need. The computation itself remains to be
+done.
+
+\begin{thebibliography}{99}
+
+\bibitem{Kaczmarek1999}
+O.~Kaczmarek, F.~Karsch, and E.~Laermann,
+Thermodynamics of two-colour QCD,
+Nucl.\ Phys.\ B Proc.\ Suppl.\ \textbf{73}, 441 (1999);
+arXiv:hep-lat/9809059.
+
+\bibitem{Karsch2001}
+F.~Karsch, E.~Laermann, and A.~Peikert,
+Quark mass and flavour dependence of the QCD phase transition,
+Nucl.\ Phys.\ B \textbf{605}, 579 (2001);
+arXiv:hep-lat/0012023.
+
+\bibitem{Astrakhantsev2019}
+N.~Astrakhantsev \emph{et~al.},
+Lattice study of static quark-antiquark interactions in dense quark matter,
+JHEP \textbf{05}, 171 (2019);
+arXiv:1808.06466.
+
+\bibitem{Kudrov2025}
+I.~Kudrov, V.~Bornyakov, and V.~Goy,
+Studying properties of the SU(2) QCD by lattice field theory methods,
+arXiv:2511.19789.
+
+\bibitem{Iida2020}
+K.~Iida, E.~Itou, and T.-G.~Lee,
+Two-colour QCD phases and the topology at low temperature and high density,
+arXiv:2008.06322.
+
+\bibitem{Iida2024}
+K.~Iida, E.~Itou, and T.-G.~Lee,
+JHEP \textbf{10}, 022 (2024).
+
+\bibitem{Karavirta2012}
+T.~Karavirta \emph{et~al.},
+arXiv:1111.4104.
+
+\bibitem{Appelquist2016}
+T.~Appelquist \emph{et~al.},
+arXiv:1511.01968.
+
+\end{thebibliography}
+
+\end{document}

@@ -34,7 +34,7 @@ during the citation pass.*
 ## 1. The instrument: what the granule meter measures
 
 Two incoherent fields (ψ, χ) with number fractions p² = (1+f_rot)/2,
-q² = (1−f_rot)/2 each produce speckle; total granule POWER relative to a
+q² = (1−f_rot)/2 each produce speckle; total granule power relative to a
 single field of the same total density:
 
  S = p⁴ + q⁴ = (1 + f_rot²)/2, f_rot = 1 − f_amp
@@ -49,7 +49,7 @@ single field of the same total density:
 Everything granule-driven scales with S: heating rates ∝ S, relaxation
 times ∝ 1/S (×1.7 at the median), stream-perturbation power ∝ S.
 
-## 2. Feasibility: single objects CANNOT do it; populations CAN
+## 2. Feasibility: single objects cannot do it; populations can
 
 Requirement: distinguish S ≈ 0.58 from S = 1. With per-object
 heating-rate calibration honest at ~50% (current sims-vs-data modeling
@@ -62,9 +62,9 @@ scatter is at least this):
 | 30 dwarfs | 9% | **4.6σ — real** |
 | 100 dwarfs | 5% | 8.4σ |
 
-**Verdict: the granule meter is a POPULATION statistic.** It is out of
+**Verdict: the granule meter is a population statistic.** It is out of
 reach for any single system today, and genuinely reachable with a
-Rubin-era UFD census (30+ systems with kinematics) IF per-object
+Rubin-era UFD census (30+ systems with kinematics) if per-object
 modeling holds at ~50%. The make-or-break (the binding question) therefore
 splits: (a) the two-field sims must confirm S = (1+f_rot²)/2 at the
 ~10% level (spec in §5), and (b) the observational program needs N ≳ 30
@@ -72,24 +72,24 @@ dwarfs — a date with Rubin, not a wall.
 
 Corollary recorded in the model's favor: **ignoring S biases heating-fit
 masses only by S^⅓ = 0.83 (16% low)** — smaller than current modeling
-errors, so every free-FDM heating bound we INHERIT (DK included)
+errors, so every free-FDM heating bound we inherit (DK included)
 transfers safely. The inheritance license survives its own correction.
 
-## 3. The coupled estimator: the pin and the meter are ONE fit
+## 3. The coupled estimator: the pin and the meter are one fit
 
 The core radius reads m (Schive core–halo: r_c ≈ 1.6 kpc
 (m/10⁻²²)⁻¹(M_h/10⁹M☉)^(−⅓)); the heating rate reads m³/S. Neither
 observable reads its parameter alone — and the two-fluid medium adds
 structure free FDM lacks: cores are ψ-only where χ is uncondensed
 (Room 5's ×11 lag), so core-halo normalization carries f_rot and
-condensation age. The honest instrument is a JOINT (m, f_rot) fit over a
+condensation age. The honest instrument is a joint (m, f_rot) fit over a
 dwarf population using three observable classes at once: core sizes,
 heating rates, core-halo normalization vs redshift/halo-age.
 
 ## 4. The mass pin: literature triangulation + a reconciliation hypothesis
 
 Band mapping (Schive at M_h = 10⁹ M☉): m = 1×10⁻²¹ → r_c = 160 pc;
-2×10⁻²¹ → 80 pc; 3×10⁻²¹ → 53 pc — the V2 window [60, 200] pc IS the
+2×10⁻²¹ → 80 pc; 3×10⁻²¹ → 53 pc — the V2 window [60, 200] pc is the
 audited band, consistently.
 
 Literature pulled when this went on the record:
@@ -97,35 +97,35 @@ Literature pulled when this went on the record:
  prefer m > 10⁻²¹ eV.** Reinforces the audited band's bottom from
  data, independently of the citation audit.
 - **Safarzadeh & Spergel 2020 (ApJ 893, 21): MW satellite kinematics
- demand m < 10⁻²¹ and declare free FDM INTERNALLY INCOMPATIBLE**
+ demand m < 10⁻²¹ and declare free FDM internally incompatible**
  (no single m fits Fornax-class and UFD-class systems together).
 - Calabrese & Spergel 2016 (MNRAS 460, 4397): Draco II + Tri II
  prefer 3.7–5.6×10⁻²² (below band; a two-object fit, against the
  18-UFD sample above).
 
-**The two-fluid medium's angle — recorded as a HYPOTHESIS, sims-owed:**
+**The two-fluid medium's angle — recorded as a hypothesis, sims-owed:**
 the free-FDM "incompatibility" assumes one field, one universal
 core-halo relation. The two-fluid medium breaks exactly that assumption:
-χ-lagged halos sit OFF the universal relation (younger/lighter cores at
+χ-lagged halos sit off the universal relation (younger/lighter cores at
 fixed halo), by amounts that depend on halo age and f_rot. The
-mutually-contradictory free-FDM fits could be the lag SHOWING — the
+mutually-contradictory free-FDM fits could be the lag showing — the
 tension in the literature is, on this reading, evidence-shaped rather
 than exclusion-shaped. Grade:
 consistency-hypothesis until the two-field sims produce the predicted
-scatter PATTERN (older halos closer to the universal relation; younger
+scatter pattern (older halos closer to the universal relation; younger
 ones below it). This is P-2026-00X material only after sims — the
 Pinning Rule applies and this function is not yet pinned.
 
-**PROVISIONAL PIN: m ≈ 1–2×10⁻²¹ eV** — bottom held by Hayashi+ (most
+**Provisional pin: m ≈ 1–2×10⁻²¹ eV** — bottom held by Hayashi+ (most
 UFDs > 10⁻²¹) and the audit's A1; top disfavored softly by the same
 UFD core sizes (53 pc cores at 3×10⁻²¹ sit below most measured
 half-light radii) and watched by M87*. Point estimate honesty: this is
 a lean, not a measurement; the joint (m, f_rot) population fit is the
 measurement.
 
-**Superradiance graduation status: NOT GRADUATED.** The provisional
+**Superradiance graduation status: not graduated.** The provisional
 lean (1–2×10⁻²¹) sits below the M87* exclusion floor (2.9×10⁻²¹), so the
-free-vs-condensate discriminator remains live-IF-heavy. It graduates
+free-vs-condensate discriminator remains live-if-heavy. It graduates
 only if the joint fit lands the mass in the top third of the band.
 
 ## 5. The sim spec (the make-or-break, concretely)
@@ -144,18 +144,18 @@ change since ψ and χ share m and couple only through gravity):
 
 Deliverable per run: S_measured, τ_condense(ψ,χ), core-halo offset.
 Kill condition (binding): if sims show granule
-observables CANNOT separate S = 0.58 from 1 at population scale, ε is
+observables cannot separate S = 0.58 from 1 at population scale, ε is
 unobservable, full stop, and the edifice built on the stochastic genesis
 draw is physics without a readout.
 
 ## 6. Fairbank/evidence note (for the record)
 
-ΛCDM is NESTED in the model at varying_me = 1 (the fluid background is
+ΛCDM is nested in the model at varying_me = 1 (the fluid background is
 ΛCDM-identical by proof; ξ executed). Therefore the running Fairbank
-posterior yields a real Bayes factor WITHOUT PolyChord via
+posterior yields a real Bayes factor without PolyChord via
 Savage–Dickey: B = π(m_e=1)/p(m_e=1|data). Machinery delivered
 (scripts/savage_dickey_dyad.py, runs turn-key on the converged chain).
-Preview at R−1 ≫ 0.05 (NOT quotable): varying_me = 1.0126 ± 0.0041
+Preview at R−1 ≫ 0.05 (not quotable): varying_me = 1.0126 ± 0.0041
 (3.0σ from ΛCDM), ln B ≈ +2.9 in the model's favor. Caveats stamped: chain
 unconverged; Gaussian density approximation; prior-width dependent
 (flat [0.98, 1.04] — halving the prior width halves B; the prior is
@@ -167,47 +167,47 @@ sampling is deferred to cluster time, so Savage–Dickey on a converged chain is
 the evidence route in hand for the nested case, and its caveats above are the
 ones that must be defended rather than waited out.]
 
-## GRANULE-POWER FORMULA CONFIRMED (Tier-3 partial, 2026-07-07)
+## Granule-power formula confirmed (Tier-3 partial, 2026-07-07)
 
-Ran the statistical core of the granule sim: two INCOHERENT wave-DM fields
+Ran the statistical core of the granule sim: two incoherent wave-DM fields
 (ψ=particle, χ=antiparticle), each a Gaussian speckle field, total density
 ρ = |ψ|² + |χ|². Measured granule power S = Var(ρ)/mean(ρ)² vs the
 predicted p⁴+q⁴ = (1+f_rot²)/2.
 
-RESULT (N=2×10⁶ cells): S = (1+f_rot²)/2 CONFIRMED to <1% at f_rot = 0, 0.4, 0.8,
+Result (N=2×10⁶ cells): S = (1+f_rot²)/2 confirmed to <1% at f_rot = 0, 0.4, 0.8,
 1.0. (An initial 10% offset at N=400 was heavy-tail under-sampling, resolved by
-high statistics.) So the ε-meter's LOAD-BEARING number is verified: the
+high statistics.) So the ε-meter's load-bearing number is verified: the
 stochastic genesis draw's median f_rot~0.4 (f_amp~0.6) gives
 S~0.58 → granule heating suppressed ~40% vs free FDM. This is the number
 dwarf-heating / stellar-stream data would test.
 
-STILL OWED (the bigger Tier-3 piece, needs a real SP integrator, not statistics):
- - full Schrödinger–Poisson DYNAMICS (self-gravity, soliton formation);
- - the ψ/χ CONDENSATION LAG (Levkov rate, Room 5 χ-lag) — needs time
+Still owed (the bigger Tier-3 piece, needs a real SP integrator, not statistics):
+ - full Schrödinger–Poisson dynamics (self-gravity, soliton formation);
+ - the ψ/χ condensation lag (Levkov rate, Room 5 χ-lag) — needs time
  evolution to produce the redshift-dependent core-halo scatter pattern;
  - mapping S → actual dwarf-heating rate and comparison to real SPARC/stream data.
-Status: statistical core DONE (S-formula confirmed); dynamical sim + data
-confrontation NOT started (infrastructure).
+Status: statistical core done (S-formula confirmed); dynamical sim + data
+confrontation not started (infrastructure).
 
-## χ-LAG: analytic scaling confirmed; dynamical sim NOT achieved in-session (2026-07-07)
+## χ-lag: analytic scaling confirmed; dynamical sim not achieved in-session (2026-07-07)
 
 Attempted a minimal 3D two-field Schrödinger–Poisson sim to demonstrate the
-ψ/χ condensation lag DYNAMICALLY. HONEST RESULT: the minimal version (N=32–48,
-≤1500 steps) did NOT cleanly condense — initial contrast was already ~10–13 and
+ψ/χ condensation lag dynamically. Honest result: the minimal version (N=32–48,
+≤1500 steps) did not cleanly condense — initial contrast was already ~10–13 and
 did not grow over the available steps (gravitational Bose-star formation takes
 many dynamical times; needs careful ICs far from condensation, a bigger grid,
 and long runs with convergence testing). Reported as a failed minimal attempt,
 not dressed up.
 
-What IS solid: the χ-lag SCALING is analytic (Levkov condensation τ ~ 1/ρ²):
+What is solid: the χ-lag scaling is analytic (Levkov condensation τ ~ 1/ρ²):
  τ_χ/τ_ψ = (p²/q²)²
  f_rot=0.4 → 5.4×; f_rot=0.54 → 11.2× (matches Room 5's recorded ~11×); f_rot=0.67 → 26×.
 
-TIER-3 HONEST STATE:
- - S = (1+f_rot²)/2 (granule power): CONFIRMED numerically (<1%).
- - χ-lag = (p²/q²)²: CONFIRMED analytically (Levkov scaling); NOT demonstrated
+Tier-3 honest state:
+ - S = (1+f_rot²)/2 (granule power): confirmed numerically (<1%).
+ - χ-lag = (p²/q²)²: confirmed analytically (Levkov scaling); not demonstrated
  dynamically (minimal SP sim failed to condense — real campaign owed).
- - core-halo SCATTER PATTERN (the observable prediction) + dwarf/stream DATA
- confrontation: NOT done, needs a real SP sim campaign
+ - core-halo scatter pattern (the observable prediction) + dwarf/stream data
+ confrontation: not done, needs a real SP sim campaign
  (PyUltraLight/UltraDark-class, careful ICs, convergence) = genuine
  infrastructure beyond a single working session.

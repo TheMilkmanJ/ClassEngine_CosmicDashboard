@@ -41,7 +41,7 @@ equivalence principle converts "does not read identity" into "one equal share pe
 one for the vacuum."
 The corpus has in fact already run this argument elsewhere, and it did not return 9:
 the G-closure rebuild took the same blindness law — gravity reads energy, not identity — and
-concluded **the roster is EVERY field in the vacuum**, catching "the medium's 9 fermions" as an
+concluded **the roster is every field in the vacuum**, catching "the medium's 9 fermions" as an
 error in that setting ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), the G-closure row).
 So the fork is closed on both sides: routed through gravity, the roster is not the charged nine
 and the count is not 9/10; not routed through gravity, the democratic rule has no warrant at all,
@@ -369,13 +369,13 @@ high-decay-constant field of §8 item 1b (§6).
   heavy:** a pseudo-Goldstone is lighter than its confinement scale (√σ_dark = m_e = 511 keV) by
   construction, and **τ is spending exactly that lightness** — heavy dark quarks push T_c/√σ back toward
   the pure-glue 0.69–0.71 and break §2's value. **And the freeze-out epoch is worse:** n/p freeze-out is at
-  T ≈ 700 keV while T_c = 177.10 keV, so **T/T_c ≈ 4.0 — the dark sector is DECONFINED at
+  T ≈ 700 keV while T_c = 177.10 keV, so **T/T_c ≈ 4.0 — the dark sector is deconfined at
   freeze-out** and the Goldstones do not exist yet; the correct count there is dark quarks +
   gluons = **27**, giving **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's **+1.09σ
-  adverse Y_p deuterium row → ≈ +3.4σ**. **Consequence: the dark sector must have NEVER
-  THERMALISED with the SM.** Registered as the fifth falsifier of **P-2026-048**.
+  adverse Y_p deuterium row → ≈ +3.4σ**. **Consequence: the dark sector must have never
+  thermalised with the SM.** Registered as the fifth falsifier of **P-2026-048**.
   (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
-- **THE NON-THERMALIZATION ESCAPE.** The falsifier is **CONFIRMED on the recorded model** (the
+- **The non-thermalization escape.** The falsifier is **confirmed on the recorded model** (the
   v ≈ 175 keV electron-CW version of the electron-coupled scalar thermalizes; margins 10⁸–10¹⁷,
   strengthened in trial: the U(1) seal, the 2-dof floor ΔN_eff = 1.14, the fluctuation nail);
   **one branch survives — the zero-mode/high-f configuration of that scalar (v ≈ 100–500 TeV)**:
@@ -401,7 +401,7 @@ high-decay-constant field of §8 item 1b (§6).
   the bound the mechanism's maximum deliverable amplitude is ε_max ≈ 2×10⁻¹⁶ vs the needed 1.25×10⁻²
   — **the size-XOR-quiet wall (gate-0 §7.3) recurring: a scalar big enough to source ε
   thermalises; one quiet enough not to cannot source ε.** **(iii)** The identification the corpus
-  then held (the electron-coupled scalar AS the SU(2) sector's chiral condensate — since retired
+  then held (the electron-coupled scalar as the SU(2) sector's chiral condensate — since retired
   in §6, which now keeps that scalar out of the sector's two condensates) drags the full 27 dof
   in: ΔN_eff = 27/(7/4) = **15.4**; even a detached thermalised scalar alone gives 8/7 = **1.14**
   (complex Ψ — the adversarial review's U(1) seal; the real-scalar half, 0.571, was the charitable
@@ -409,12 +409,12 @@ high-decay-constant field of §8 item 1b (§6).
   codes the ramp on T_γ with T_c ≈ 177–179 keV (the calculations are insensitive at this level);
   synchrony requires ζ = T_dark/T_γ = 1 (⟹ ΔN_eff = 15.4); the quoted dilution ζ = 0.465 puts dark
   confinement at T_γ = 385 keV and the escape's ζ ≤ 0.284 at ≥ 630 keV — desynchronising the coded
-  window ("OFF at n/p freeze-out, GROWING below T_c"). Every branch closes. **(v)** The only
+  window ("off at n/p freeze-out, growing below T_c"). Every branch closes. **(v)** The only
   recorded normalization that passes (f_L = 2.3×10¹¹ GeV, by 10⁵) is the single-field era ruled
   out in §7.6 — it cannot produce the coded ramp; reviving it is a different model. **Net: the
   ΔN_eff escape, the ε-ramp mechanism, and √σ_dark = m_e are pairwise-incompatible as recorded**
   — the sharpest structural tension in the corpus, sharper than BBN D/H. *The normalization fork
-  surfaced here is RESOLVED (2026-07-17): the operator is **quadratic-canonical** — dark-U(1)
+  surfaced here is resolved (2026-07-17): the operator is **quadratic-canonical** — dark-U(1)
   forbids the linear coupling
   ([PRTOE_gate0_qft_derivation.md](working_logs/PRTOE_gate0_qft_derivation.md) §1, which
   pre-labels the linear amplitude formula as the quadratic operator's value); the "linear g_ee" is
@@ -426,28 +426,28 @@ high-decay-constant field of §8 item 1b (§6).
   escape-failure finding is unaffected (marginally strengthened).* (Worked script: the
   non-thermalization build, 2026-07-17; every crux number independently re-verified when it was
   recorded.)
-- **THE m_q SQUEEZE — three constraints, one variable, and τ pulls against the other two.**
+- **The m_q squeeze — three constraints, one variable, and τ pulls against the other two.**
   The dark quark mass is asked to be **light** by τ (**0.34657**; the rows here were computed at
   0.345 — a 0.44% shift, immaterial to this squeeze) (§2 — heavy quarks drive T_c/√σ back toward
   the pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which
   needs Boltzmann suppression and gets none while τ keeps the quarks light; and (ii) **the depth
-  law + the coded BBN ramp**, because **N_f = 3 degenerate light quarks give a FIRST-ORDER
+  law + the coded BBN ramp**, because **N_f = 3 degenerate light quarks give a first-order
   transition at any N_c** (the Columbia-plot corner — SU(3) included, so this predates and is
-  independent of §6's SU(2)), whereas the BBN engine's standing treatment is ε *"GROWING below
+  independent of §6's SU(2)), whereas the BBN engine's standing treatment is ε *"growing below
   T_c — the order-parameter birth **ramp**"*
   ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)), and a first-order transition **jumps** the
-  order parameter rather than growing it. Amendment 5 (the depth law, TOTAL) forbids that step
+  order parameter rather than growing it. Amendment 5 (the depth law, total) forbids that step
   outright: a dynamical discontinuity is not quantized, not topological, not a protected zero, so
   it has **no exemption clause**.
   [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 already names this failure mode —
   *"otherwise the transition boils, first-order"* — for a different sector, in the same grammar.
-  **RUN — the window is NOT empty, and it pins m_q.** The framing that raised the alarm was
+  **Run — the window is not empty, and it pins m_q.** The framing that raised the alarm was
   wrong: *"N_f = 3 light quarks → first order"* is the **chiral-limit** statement, and this sector
   is not in the chiral limit ("light" means light *relative to Λ*, not massless). Against the QCD
   anchors τ is quoted from (chiral T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at 0.318),
   **τ (0.345 as this row's input; the kernel's 0.34657) sits at m_π/√σ ≈ 0.274**, while the
   Columbia first-order corner ends at **0.06–0.16** — the sector is **above it by 1.7–4.6×**.
-  **The transition is a CROSSOVER**, so τ and the depth law are compatible and the coded
+  **The transition is a crossover**, so τ and the depth law are compatible and the coded
   order-parameter birth ramp is correct. What the squeeze buys instead of a falsification is a
   number the model never had: **m_π,dark ≈ 140 keV**, and via GMOR **m_q,dark ≈ 38 keV**. ΔN_eff
   is *not* rescued by it — at freeze-out the sector is deconfined and m_q/T = 0.055 is
@@ -465,7 +465,7 @@ high-decay-constant field of §8 item 1b (§6).
   the settling freezes when the bath goes non-relativistic and decouples. The **lightest** neutrino is
   the last relativistic friction partner (heavier species go NR earlier), so it sets the final freeze.
   **The tie's arrow is re-homed:** the equality's *source* is the mass-generation identity read
-  forward (the tenth-channel seat term — operator exhibited, with its UV form; the floor SETS m₁),
+  forward (the tenth-channel seat term — operator exhibited, with its UV form; the floor sets m₁),
   and the Kubo settling above is the *dynamics* that then freezes there by construction. See
   [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
 - **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both
@@ -510,7 +510,7 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 
 ## 6. The constituent-level roster
 
-> **The "3" in α_c = 3α is the SPATIAL DIMENSION d, not the flavour
+> **The "3" in α_c = 3α is the spatial dimension d, not the flavour
 > count.** §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 hold (*"α_c = 3α = d·α"*, the
 > transverse-projector trace of the induced loop), so the dark sector's three flavours are no
 > warrant for it. One attribution pattern runs through this sector — chirality double-sourced
@@ -563,13 +563,13 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 >    does not exist, so s-wave is unsuppressed — which is precisely the mechanism §4c invokes and
 >    precisely what the ℓ = 0 selection needs.
 >
-> **REGISTERED as P-2026-048** — the dark colour group is SU(2), N_f = 3, and
+> **Registered as P-2026-048** — the dark colour group is SU(2), N_f = 3, and
 > **T_c/√σ = 0.34657** for SU(2) with three light flavours, to be told apart from the
 > observation-inverted 0.34506 (§2); see
 > [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The model's first
 > prediction addressed to a *lattice computation* rather than a telescope.
 >
-> **CANDIDATE, not yet on the record — one number decides it, and it is not yet computed.**
+> **Candidate, not yet on the record — one number decides it, and it is not yet computed.**
 > *The τ collision:* τ is sourced by the Koide kernel — Parseval forces the kernel's modulus
 > to 1/√2 once Q = 2/3, giving τ = ½ln2 = 0.34657 (§2). The lattice band T_c/√σ ≈ 0.34–0.37 for a
 > **QCD-like (SU(3))** sector is the independent check on it, with SU(3) pure glue at 0.63
@@ -593,13 +593,13 @@ Gravity is induced by the medium's one-loop content, with no fundamental Einstei
 > suppression **saturates** (−0.21 for two flavours, −0.03 for the third). The inference bracket:
 > **τ(SU(2), N_f = 3, chiral) ≈ 0.39 ± 0.05** (generous 0.34–0.45), every step past the measured
 > 0.483 an SU(3)-analog transfer, stated not hidden. **Verdict (standing): the kernel's
-> τ = 0.34657 sits at the BOTTOM EDGE of the literature bracket — permitted, not favoured; the
+> τ = 0.34657 sits at the bottom edge of the literature bracket — permitted, not favoured; the
 > centre (~0.40) is above the
-> model. Reaching it requires BOTH (i) the transition being the chiral/condensation one, not
+> model. Reaching it requires both (i) the transition being the chiral/condensation one, not
 > deconfinement (if the mechanism keys on deconfinement, the supported value is ~0.48 — real
-> tension), AND (ii) near-maximal continuum/chiral-limit suppression. On fork (i) the model has a
+> tension), and (ii) near-maximal continuum/chiral-limit suppression. On fork (i) the model has a
 > genuine argument: the dCDF's T_c is a pairing/condensation transition — the chiral-condensate
-> analog, not the Polyakov-loop one — and in SU(2) the two transitions demonstrably DECOUPLE
+> analog, not the Polyakov-loop one — and in SU(2) the two transitions demonstrably decouple
 > (Kaczmarek et al.: the Polyakov susceptibility peak shrinks with lighter quarks, opposite of
 > SU(3)), so the chiral T_c legitimately sits below the deconfinement number (argument-grade). Fork
 > (ii) is not arguable from here — only a dedicated SU(2) N_f = 3 lattice run decides it, and this
@@ -701,7 +701,7 @@ constraint the model can apply; CMB-S4 is the selector.**
 both survive every constraint applied so far and CMB-S4 is the sole selector (a g ~ 10⁻⁸–10⁻⁹
 detection selects MeV and its resonant-leptogenesis route; a null leans high-v_L); the one-scale
 corner stays tie-dead on the condensate-friction ceiling alone. **The un-merger's residue is
-PAID:** the tie's mode is re-homed — the tenth-channel mass relation (the seat term, operator
+paid:** the tie's mode is re-homed — the tenth-channel mass relation (the seat term, operator
 exhibited with its UV form; [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)); the seat
 constant b is the remaining number gated on the constituent level. *(The tie's numerical
 equality, and the c = 9/10 lock that seats on the equality, are untouched by the corner choice —
@@ -864,7 +864,7 @@ degenerates, so its maximum is **0.585, short of 2/3 by 12.2%.** T6's "no m₁ b
 a proof rather than an observation, and the margin is not marginal. **The reading therefore stays
 untestable inside the corpus's structure**, which is its status rather than a step toward one.
 
-> **⚠ QUALIFIED 2026-07-29 — the "proof" is a proof about ONE SIGN BRANCH.** Q = Σm ⁄ (Σ√m)² depends
+> **⚠ Qualified 2026-07-29 — the "proof" is a proof about one sign branch.** Q = Σm ⁄ (Σ√m)² depends
 > on the signs chosen for the square roots, and the 0.585 ceiling assumes all three positive. The
 > ring form √m_k = a + 2|b|cos(φ + 2πk/3) generates a **negative** √m_k whenever 2|b| > a, and only
 > m = (√m)² is observable. On the **(−,+,+) branch Q_ν crosses 2/3 at m₁ ≈ 0.00040 eV**
@@ -1007,7 +1007,7 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
   computation (2026-07-17):** the candidate microphysics (winding field as a 2D transverse
   log-correlated height model, δ ~ h²) had
   its owed step — the exact χ²-field convolution P_δ(k) — computed, and **the direct reading
-  FAILS**: the exact spectrum is k²P_δ ∝ ln(k/k_IR) (numerics match the analytic 2·ln(k/k_IR)/π to
+  fails**: the exact spectrum is k²P_δ ∝ ln(k/k_IR) (numerics match the analytic 2·ln(k/k_IR)/π to
   4 decimals), giving tilt **+1/ln(k/k_IR)** — wrong sign (blue), wrong coefficient (1 not 2), and
   IR-anchored where the recorded form needs UV. The earlier σ⁴ argument conflated the one-point
   variance with the per-mode spectrum. Autopsy in
@@ -1045,7 +1045,7 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
   and independently data-selected; the Δ² subdominance condition named.
 - **z_on = 4.03×10⁷ — a derived identity, not an estimate.** It is the H = m epoch of the fluid's
   own mass, T_on = √(m·M_red/0.61) = 9.46 keV. **The "confirmed three independent ways" claim on the
-  mass carrying it (2.24×10⁻²⁰ eV) was WITHDRAWN 2026-07-28** by the circularity sweep (check 34):
+  mass carrying it (2.24×10⁻²⁰ eV) was withdrawn 2026-07-28** by the circularity sweep (check 34):
   ξ = ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is computed from m too, so 398 against
   402 is one computation compared with itself; the Schive comparison is unresolved (external 1/m vs
   the model's own 1/m², which would pin m *if* the model's normalization is independent — not
@@ -1262,7 +1262,7 @@ entire remaining open surface is:
 | the Koide kernel chain's last stage (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the analytic steps are worked (the pacing-saturation step, the sign-chain walk); what stands between the chain and its grade is the first-roll sign run, then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
 | the additivity bottleneck — one assumption carrying three separate results (the anchor's −3/2, the A_s shot count, the n_s variance-linearity) | whether those three stand on one premise or need three | the ring-on-ring trial, which tests its Koide instance. *(The anchor's −3/2 itself is no longer open: it follows from a boost-dressed cutoff, a geometric mean and equipartition at additivity grade — hierarchy §2, part (b).)* |
 | the seat constant b | κ_m's exact value | the constituent-level build |
-| T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note APPROVED FOR CIRCULATION) |
+| T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note approved for circulation) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
 | the production referees (f̄ ensemble; α_c instrument offline; evidence pair converging) | the ε decomposition; the model vs ΛCDM | local compute time |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |

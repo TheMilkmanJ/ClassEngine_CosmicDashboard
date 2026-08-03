@@ -6990,3 +6990,84 @@ the carved-out failures ledger remain) — **zero live assertions** under forwar
 withdrawn-pin-under-live-conclusion) is **cleaner on the residual greps**. Still open on #149:
 full whole-file deep reads of remaining unread giants (hierarchy foremost; shared with #94),
 and the 135 bare owed-class markers in the two registries.
+
+## 2026-08-02 — hygiene / check-12 residual pass (dead premises + links + trackers)
+
+**Scope.** Residual hygiene after batches 1–3 and the running-chain batch: (1) re-grep
+`docs/PRTOE_*.md` for dead premises on offline instruments; (2) sample relative links under
+`docs/`; (3) refresh `_FILE_COMPLETION_STATUS.md` only if honest status changed; (4) sync
+`_PROJECT_FINISH_ROADMAP.md`; (5) this ledger note. **No** `chains/` process state, **no**
+invented physics, **no** OPEN-THEORY→COMPLETE.
+
+**Ground truth.** `_chain_snapshot.md` Snapshot 2026-08-02: live = `dyad_mnu_bbnfix` (R−1≈0.19),
+`cmp_lcdm_mnu_bbnfix` (R−1≈0.14), `cmp_prtoe_routeD` (R−1≈129); **not live** = PolyChord
+(ended 07-20), zon_disp (parked), conv_desi (unproduced). Owner queue / CODE_MANIFEST / CHAIN_TABLES
+Sitting tables already match.
+
+### 1. Dead-premise greps (STALE only)
+
+| phrase class | hits under `docs/PRTOE_*.md` | verdict |
+|---|---|---|
+| `currently running` / `not currently running` | ~14 (zon_disp / α_c instrument) | **OK** — correctly offline |
+| `live zero-parameter` / `both running` / `MEASURED by the α` / `nested-sampling run now` | **zero** live assertions | **clean** (batch 3 residual sweep held) |
+| `will tighten` on offline instruments | galactic_atoms: "once produced, will tighten" | **OK** — conditional future, not present-tense offline claim |
+| PREDICTIONS "will tighten Ω_k" / "deciding computation is running" | registry historical | **carved out** |
+| Present-tense "are actually running" on routeD+conv_desi | **REFEREE_CALENDAR** 07-20 diagnostic block | **STALE** — fixed (below) |
+| S₈ "Three runs are live… as of 2026-07-29" | s8_tension, s8_growth | **OK factually** (same trio still live); date stamp **refreshed** to 2026-08-02 |
+
+**Defect fixed (1 file body + 2 date stamps):**
+
+1. **`PRTOE_REFEREE_CALENDAR.md`** — Sitting NOW already correct (zon_disp parked; conv_desi
+   unproduced; three live MCMC). The long 2026-07-20 covariance/seed diagnostic under it still
+   used present tense ("What routeD and conv_desi are actually running on", "chains already
+   running", burn-in ETA as if live). Reframed as **historical note (2026-07-20)** with explicit
+   present (2026-08-02): routeD live on fifth launch; conv_desi unproduced; zon_disp parked by
+   decision. No chain process touched.
+2. **`PRTOE_s8_tension.md`**, **`PRTOE_s8_growth.md`** — live-trio date stamp → 2026-08-02
+   (same trio since 07-29). conv_desi still correctly unproduced.
+
+### 2. Relative links (sample)
+
+- `PRTOE_INDEX.md` shelf + archive + working_logs targets — resolve
+  (`archive/PRTOE_{amplitude_derivation,v5_dCDF_complete,Second_Order_Action_Specification,
+  STATE_OF_MODEL,SKELETON,v5_SIDM_scoping,IMPLEMENTATION_SUMMARY}.md`; session/findings logs).
+- Cross-shelf sample: `exploratory/` and `working_logs/` targets from white_holes, dcdf_superfluid,
+  dyad_gas, DEPENDENCY_TREE, MATH_SPINE — resolve.
+- Script sample: `../scripts/{bounce_bkl_stiff_check,superradiance_quench,hierarchy_vertex_crossed_box,
+  hierarchy_fock_self_energy,de_value_kp_selfconsistency,r1_caustic_sim}.py` — present under
+  `scripts/`.
+- Prior corpus-wide zero-broken-links receipts stand; this pass is a sample re-check, not a full
+  re-parse of every markdown path. **No broken targets found in the sample; no link edits.**
+
+### 3. `_FILE_COMPLETION_STATUS.md`
+
+Tags unchanged (64 files; OPEN-DESK = 0; no OPEN-THEORY→COMPLETE). Evidence lines already match
+2026-08-02 chain reality. Appended residual-hygiene note under desk-edits section.
+
+### 4. `_PROJECT_FINISH_ROADMAP.md`
+
+Already matched live triple + OPEN-MACHINE/THEORY lists. Added residual check-12 pass under
+"Already done" and a re-grep guidance line under next sessions. No machine/theory invent.
+
+### Counts
+
+| | |
+|---|---|
+| STALE defects fixed | **1 present-tense block (calendar) + 2 S₈ date stamps** |
+| Status tags changed | **0** |
+| Broken links fixed | **0 found in sample** |
+| Physics / chains process | **untouched** |
+
+### Residual risks
+
+1. **Whole-file deep reads still unpaid on giants** (hierarchy foremost; shared with #94) — residual
+   greps do not substitute for end-to-end re-read.
+2. **Registries carved out** — `PRTOE_FAILURES_LEDGER.md` / `PRTOE_PREREGISTERED_PREDICTIONS.md`
+   still carry historical "running" / "owed" language as record.
+3. **Historical narrative blocks** elsewhere (dated 07-20 process notes) can re-introduce
+   present-tense offline claims if edited without a tense check — calendar block was the residual
+   find this pass.
+4. **Link sample ≠ exhaustive** — a full automated path parse of every `](...)` under `docs/` is
+   still the higher-confidence bar if a large move/rename lands.
+5. **Machine debt unchanged** — bbnfix pair not at R−1≤0.05; routeD early; zon_disp parked;
+   conv_desi unproduced; nested sampling cluster-gated.

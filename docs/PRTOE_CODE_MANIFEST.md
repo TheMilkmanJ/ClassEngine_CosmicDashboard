@@ -1,4 +1,4 @@
-# THE CODE MANIFEST — what is in the pipeline, what is armed, what is banned (2026-07-12)
+# The code manifest — what is in the pipeline, what is armed, what is banned (2026-07-12)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -16,30 +16,30 @@ expression).*
 | item | home | status |
 |---|---|---|
 | The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | CLASS source: background.c | IN — the live .so, direct-eval verified (2798.7) |
-| THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
+| The ramped window edges: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The electron-coupled scalar (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
-| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **LIVE (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.19** at N ≈ 14544; stop 0.05; raw accept ~6.4% (progress accept ~0.996 is oversampled). Do not kill. See `PRTOE_CHAIN_TABLES.md` live table |
-| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **LIVE (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.14** at N ≈ 13193; stop 0.05; raw accept ~8.6%. Do not kill |
-| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **LIVE (2026-08-02)** — 3 MPI ranks; R−1 ≈ **129** at N ≈ 1593 (early); stop 0.1; raw accept ~5.1%. Do not kill |
-| **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **NOT RUNNING** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
-| **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **NOT RUNNING — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
-| The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee KILLED mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
+| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.19** at N ≈ 14544; stop 0.05; raw accept ~6.4% (progress accept ~0.996 is oversampled). Do not kill. See `PRTOE_CHAIN_TABLES.md` live table |
+| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.14** at N ≈ 13193; stop 0.05; raw accept ~8.6%. Do not kill |
+| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **129** at N ≈ 1593 (early); stop 0.1; raw accept ~5.1%. Do not kill |
+| **The PolyChord evidence run — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all sampled) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **not running** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
+| **The zero-parameter run — ε/A_s/n_s fixed** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **not running — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
+| The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee killed mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
 | The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
-| **zon_disp / conv_desi production MCMC** | yaml: cmp_prtoe_zon_disp / cmp_prtoe_conv_desi | **NOT RUNNING** — zon_disp parked (seed ready); conv_desi unproduced after two deaths. Not live as of 2026-08-02 |
+| **zon_disp / conv_desi production MCMC** | yaml: cmp_prtoe_zon_disp / cmp_prtoe_conv_desi | **not running** — zon_disp parked (seed ready); conv_desi unproduced after two deaths. Not live as of 2026-08-02 |
 
-## 2. ARMED — enters on its named trigger
+## 2. Armed — enters on its named trigger
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED in the fixed-ε configs** (nested zero-parameter run itself is not live; Laplace grades until cluster time) | yaml |
+| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — executed in the fixed-ε configs** (nested zero-parameter run itself is not live; Laplace grades until cluster time) | yaml |
 | z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c instrument grades it when restarted** | yaml |
-| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the fixed-ε configs execute; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the NEXT config, no mid-run change) | **IN — frozen into the fixed-ε configs** | yaml |
+| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the fixed-ε configs execute; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the next config, no mid-run change) | **IN — frozen into the fixed-ε configs** | yaml |
 | ρ_inf stated | the occupancy value | the α_c instrument + the triangle confirmed | yaml |
 | m_ncdm stated | 61.4 meV | the spurion identification lifted (done — neutrino_sector §2) + P-023 resolved | yaml |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | comparison layer: flow_ladder_correction.py (built) |
 
-## 3. NO PIPELINE EXPRESSION — beneficial, lives in the theory (not code by nature)
+## 3. No pipeline expression — beneficial, lives in the theory (not code by nature)
 
 The chain law; the melt; the counterparty rule; the zero–infinity asymmetry; the genesis
 chart (Γ/impulse/E/friction); the Widnall n-predictor (n = 2.26–2.51 × R/a — the α_c MCMC/comb
@@ -49,7 +49,7 @@ target); the μ-branch discriminator (future-data referee); the helicity cross-l
 they do not alter any observable CLASS computes (the entry-55 energy nulls are the
 proof for the flow family).
 
-## 4. BANNED — killed items; never enter the pipeline (the failures ledger governs)
+## 4. Banned — killed items; never enter the pipeline (the failures ledger governs)
 
 The v1–v5 screening mechanisms; the β barotropic parameter; the dkappa hack; the c_γ/c_EM
 environmental knobs (census-illegal); the sound-horizon lock (+6 blue); the μ-era H₀
@@ -61,12 +61,12 @@ a new derivation that overturns its killshot, logged in the failures ledger firs
 
 ## 5. The standing verification
 
-Every beneficial item expressible in the CLASS source is ALREADY COMPILED into the live .so the
+Every beneficial item expressible in the CLASS source is already compiled into the live .so the
 chains run against — the inclusion law is satisfied for the C code as of now; the remaining deltas
 are all yaml-layer freezes on named triggers. Any future session that produces a
-pipeline-expressible result MUST add its row here in the same commit.
+pipeline-expressible result must add its row here in the same commit.
 
-## 6. THE BUILD QUEUE — everything still needing code, genesis → now
+## 6. The build queue — everything still needing code, genesis → now
 
 *CLASS is complete for its jurisdiction (isotropic background + linear physics — every
 beneficial item compiled and running). The remainder are standalone solvers/analysis
@@ -74,13 +74,13 @@ tools, ordered by the chain:*
 
 | # | build | what it computes | feeds | size |
 |---|---|---|---|---|
-| B1 | **THE GENESIS SOLVER** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H₀ remainder | PROJECT — the queue's crown |
-| B2 | **the winding-gas C_V** (lock 2's method, string-gas import) | the medium's specific-heat scaling near T_c: does C_V ∝ R² emerge from the compact-axis windings? | the census drift (the tilt, thermodynamic road) + the lock-count C → THE A_s CLEARANCE | one careful session |
+| B1 | **The genesis solver** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H₀ remainder | project — the queue's crown |
+| B2 | **the winding-gas C_V** (lock 2's method, string-gas import) | the medium's specific-heat scaling near T_c: does C_V ∝ R² emerge from the compact-axis windings? | the census drift (the tilt, thermodynamic road) + the lock-count C → the A_s clearance | one careful session |
 | B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the constituent theory does not record (§6m) — the audit still stands* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
-| B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (REHEARSAL, not the referee) | light — one evening |
+| B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (rehearsal, not the referee) | light — one evening |
 | B5 | **the μ-injection calculator** | μ(z_inject, efficiency) with the visibility ramp | the draw-branch discriminator (ξ vs 1/m) | small script |
-| B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee: analysis-limited, with the data already in hand | PROJECT — no longer queued behind a nested run |
-| B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 handoff, the cycle-counter's sizing | PROJECT — shares B1's room |
+| B6 | **The BipoSH joint pipeline** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee: analysis-limited, with the data already in hand | project — no longer queued behind a nested run |
+| B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 handoff, the cycle-counter's sizing | project — shares B1's room |
 
 *Execution order when the referee frees the box: B4 + B5 (light, immediate) → B2 + B3
 (the clearance pair — A_s hangs on them) → B1 (the crown: five pre-registered ambushes
@@ -88,7 +88,7 @@ wait on its outputs) → B6 (the axis referee) → B7. Nothing on the banned lis
 above; nothing beneficial is missing — any session that mints a new computable adds its
 row here in the same commit.*
 
-## THE THEORY↔CODE BOUNDARY
+## The theory↔code boundary
 
 *A line-by-line read of the varying-constant path, from `background_varconst_of_z` through
 `thermodynamics.c` to the chain configs. `thermodynamics.c` itself is **vanilla CLASS** — it
@@ -148,7 +148,7 @@ rather than ΛCDM, the BBN prior carries its own weight (χ² 0.31 → 1.31): th
 D/H +0.65% now enter the fit, and the helium fraction n_e ∝ (1−Y_p) is the model's, closing the
 few-per-mille damping-tail degeneracy with n_s and H₀.
 
-## THE DIFF AGAINST VANILLA CLASS (2026-07-20)
+## The diff against vanilla CLASS (2026-07-20)
 
 *Referee-facing: exactly what this pipeline changes in CLASS, measured rather than described.
 Reference is the `upstream` remote, `lesgourg/class_public` at **e8580832** (2025-11-24).*

@@ -8,9 +8,9 @@ level in this model. **Status (2026-08-02), stated so it cannot be misread:**
 
 | Page-curve ingredient | status |
 |---|---|
-| area-law **coefficient** S = A/4G | **PAID** — ratio of the two heat-kernel coefficients the same cutoff supplies, 12π/48π = 1/4 exactly ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a) |
-| **field-content** extension beyond minimally coupled scalars | **PAID** class by class at candidate grade ([PRTOE_entropy.md](PRTOE_entropy.md) §3): spin-½ preserves the ratio exactly (and disposes of the fermion-sign hazard); gauge fields restore it once edge modes count as horizon entropy; a conformally coupled scalar drops out of both sides under the same ξ = 1/6 induced-Newton finiteness already demands |
-| the **curve itself** (S_rad(v) vs Page time for phonon Hawking flux off a finite core) | **OPEN — still un-run; do not fake it** |
+| area-law **coefficient** S = A/4G | **paid** — ratio of the two heat-kernel coefficients the same cutoff supplies, 12π/48π = 1/4 exactly ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a) |
+| **field-content** extension beyond minimally coupled scalars | **paid** class by class at candidate grade ([PRTOE_entropy.md](PRTOE_entropy.md) §3): spin-½ preserves the ratio exactly (and disposes of the fermion-sign hazard); gauge fields restore it once edge modes count as horizon entropy; a conformally coupled scalar drops out of both sides under the same ξ = 1/6 induced-Newton finiteness already demands |
+| the **curve itself** (S_rad(v) vs Page time for phonon Hawking flux off a finite core) | **open — still un-run; do not fake it** |
 
 The coefficient *was* the historical block; that block is removed. Field content *was* the residual
 gate after the coefficient; that gate is also paid. **Neither payment delivers the Page curve as a
@@ -63,7 +63,7 @@ system**. Consequences, each from a graded object:
 | the singularity (the shredder) | required | absent |
 | unitarity | threatened | manifest (the interior is a quantum many-body system) |
 | "where is the information during evaporation?" | mysterious | in the core's correlations + outgoing-mode entanglement (ordinary) |
-| the Page curve | the quantitative test | **coefficient PAID; field content PAID; curve OPEN** — functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)); scaling cancels species count and cutoff; coefficient = 12π/48π = 1/4 ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); regulator O(1) paid structurally (conical δ in R); roster extension paid class by class (header; [PRTOE_entropy.md](PRTOE_entropy.md) §3); **what remains is the dynamical curve** (phonon Hawking flux off a finite core vs Page time) — not a remaining area-law block |
+| the Page curve | the quantitative test | **coefficient paid; field content paid; curve open** — functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)); scaling cancels species count and cutoff; coefficient = 12π/48π = 1/4 ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); regulator O(1) paid structurally (conical δ in R); roster extension paid class by class (header; [PRTOE_entropy.md](PRTOE_entropy.md) §3); **what remains is the dynamical curve** (phonon Hawking flux off a finite core vs Page time) — not a remaining area-law block |
 | firewalls / remnants / ER=EPR | competing exotica | unnecessary: the interior is matter, not geometry |
 
 ## 3. Scope

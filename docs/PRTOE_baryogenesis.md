@@ -14,22 +14,22 @@ The universe holds ~6×10⁻¹⁰ baryons per photon and essentially no antimatt
 Standard Model's CP violation is orders of magnitude too small; every mechanism needs new
 physics.
 
-## 1. What the model has RULED OUT (recorded, production-grade)
-Thermal leptogenesis on the model's own η: the scanned parameter surface is EMPTY — ×40–1000
+## 1. What the model has ruled out (recorded, production-grade)
+Thermal leptogenesis on the model's own η: the scanned parameter surface is empty — ×40–1000
 under target, two independent methods (see the failures ledger). The model cannot obtain its
 baryons thermally. That failure forced the alternative route:
 
 ## 2. The Affleck–Dine-direct route (charge = abundance)
-The superfluid scalar field is a CHARGED condensate with a phase; an Affleck–Dine-class
+The superfluid scalar field is a charged condensate with a phase; an Affleck–Dine-class
 transfer moves its charge into the lepton sector through the one leptophilic channel (t358b),
 then sphalerons reprocess L → B. The transfer's structure is the DC-Josephson form (the
 recorded junction template): I_L ∝ μ sin Δθ.
 
 ## 3. The derived form [un-refereed]
 **η = n × 𝒯**
-— the winding integer times ONE transmission number. Consequences already in force:
+— the winding integer times one transmission number. Consequences already in force:
 - **The shared-integer cross-falsifier**: the tooth count of the CMB power-spectrum comb
- (P-029) and the baryon density read the SAME n. Once the comb measures n, η/n is pure
+ (P-029) and the baryon density read the same n. Once the comb measures n, η/n is pure
  mechanism — if the computed transmission then misses, the route fails with no fallback.
 - **The frozen-era crux — resolved, and it was a category error.** Sphalerons freeze out at
  T ~ 130 GeV while the condensate amplitude is frozen until T ~ 9.4 keV, so the transfer
@@ -113,7 +113,7 @@ the class's premises, ends the junction route.
 
 ## 3a. ω_J at 5.7 keV — what is closed vs still missing (2026-08-02)
 
-**Status of the owed number: BACK-TARGET, not a forward computation. Still OPEN as a
+**Status of the owed number: back-target, not a forward computation. Still open as a
 derivation.** The 5.7 keV figure is *not* landable from existing corpus inputs as a first-principles
 result; it is the value the seat sector must supply if the overdamped rectifier is to return the
 recorded η.
@@ -152,7 +152,7 @@ grading number; the gap is that it is still a target, not a land.
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —
 two measurements (η, n_comb) and one computation (𝒯) closing one consistency triangle
-(the legs are NOT mutually independent; the triangle is one constraint). Falsified if any leg
+(the legs are not mutually independent; the triangle is one constraint). Falsified if any leg
 fails.
 
 ## Where the dead ends live
@@ -178,7 +178,7 @@ term"*. That is the wrong name for it, and the right statement is a counting res
 field as V = Σ_k A_k·cos(n_k θ + φ_k) with θ = arg Φ. The only redefinition available is Φ → e^{iα}Φ,
 under which φ_k → φ_k + n_k·α. With one term, α = −φ₁/n₁ removes the phase outright.
 
-**So what is needed is a SECOND TERM, at a DIFFERENT WINDING POWER.** Two terms at the *same* power
+**So what is needed is a second term, at a different winding power.** Two terms at the *same* power
 combine exactly into a single cosine (verified to 10⁻¹⁵) and leave nothing behind. At different
 powers, exactly one combination survives every rephasing:
 

@@ -9,7 +9,7 @@
 > unphysical for **any** O(1) 2-loop coefficient (the O(α) curvature is too weak). So **T_c is not
 > a perturbatively well-defined quantity**; the electron-coupled scalar's electron-CW condensation
 > is a large-log/marginal effect, and the seam route ρ_Λ¼ = (9/2)α⁴T_c has no perturbative T_c to
-> evaluate. Defining T_c needs a NON-perturbative (gap-equation/lattice) build, if the condensation
+> evaluate. Defining T_c needs a non-perturbative (gap-equation/lattice) build, if the condensation
 > survives resummation at all. The full 2-loop diagrammatic spec below stands as the record of what
 > was attempted; the negative verdict does not depend on completing it.
 >
@@ -50,7 +50,7 @@ the scale. Success = a computed ρ_Λ¼ to compare against the observed 2.25 meV
  - β_{m_φ²} = (κ/π²) m_e0⁴
  - β_κ ≈ (3α/2π)κ + O(κ², λκ)
 - The O(α) running of the source S = κ m_e0⁴ puts a PMS stationary point at μ*/m_e ~ e⁻⁵⁷ —
- **unphysical.** So the leading log is NOT fixed at 1-loop; the 2-loop is genuinely required.
+ **unphysical.** So the leading log is not fixed at 1-loop; the 2-loop is genuinely required.
 
 ## 3. The theory (the scalar–electron sector)
 
@@ -69,7 +69,7 @@ This diagram carries the **log² term** that provides the physical curvature to 
 1. Compute the 2-loop effective potential V₂(φ, μ) for scalar-QED-Yukawa (standard techniques:
  Ford–Jack–Jones / Martin's 2-loop V_eff, or direct diagrammatics). Include the O(α) photon-
  exchange inside the electron loop and the λ, κ sunset topologies.
-2. Do it at **finite T** with the **exact** fermionic thermal function J_F(m_e/T), NOT the high-T
+2. Do it at **finite T** with the **exact** fermionic thermal function J_F(m_e/T), not the high-T
  expansion — T_c < m_e, so the electrons are Boltzmann-suppressed (regime error found in hunt 213;
  the high-T formula under-estimates T_c by ×1.4). Daisy/ring resummation of the soft thermal modes
  should be included at the same order.
@@ -83,7 +83,7 @@ This diagram carries the **log² term** that provides the physical curvature to 
 - The exact finite-T fermion loop J_F and the ×1.4 regime correction (hunt 213; script
  `scripts/de_value_Tc_exact_thermal.py`).
 - The expansion check: the transition is adiabatic (m_φ/H ~ 10²⁰) and the electron bath is in
- equilibrium at T_c, so an EQUILIBRIUM V_eff is the correct object (hunt 213 addendum;
+ equilibrium at T_c, so an equilibrium V_eff is the correct object (hunt 213 addendum;
  `scripts/de_value_expansion_check.py`). No supercooling correction needed.
 - The seam scaling ρ_Λ¼ = (9/2)α⁴T_c (hunt 210–211; `scripts/de_value_seam_scale.py`,
  `de_value_alpha2_handshake.py`).
@@ -96,7 +96,7 @@ This diagram carries the **log² term** that provides the physical curvature to 
  function as m_e/T → 0.
 3. **Regime consistency:** the exact-J_F ×1.4 uplift (hunt 213) must be reproduced by the full
  treatment.
-4. **The verdict number:** report ρ_Λ¼ = (9/2)α⁴T_c against observed 2.25 meV. NOTE the equilibrium
+4. **The verdict number:** report ρ_Λ¼ = (9/2)α⁴T_c against observed 2.25 meV. Note the equilibrium
  estimate currently **over-predicts ~2×** at μ=v (hunt 213); the 2-loop must either move it onto
  the value or confirm the over-prediction (which would be an adverse result against the seam route).
 
@@ -107,12 +107,12 @@ tools: a 2-loop V_eff package (e.g. `2ndPole`/`SARAH`-class or hand-computation 
 formulae), plus a finite-T module for J_F and daisy resummation. Deliverable: a short technical
 note + the computed RG-invariant T_c and ρ_Λ¼, filed back against this spec.
 
-## 8. What this does NOT resolve
+## 8. What this does not resolve
 
 Even a clean T_c leaves the DE *absolute* value riding **m_ν = the L-breaking spurion μ** (underived
 value, hunt 207) if the seam route is taken as the primary. The two other standing DE-value
 blockers — the **ohmic-vs-sub-ohmic response exponent** (hunt 189, the thermal-reading
-coefficient) and the **spurion value** (hunt 207) — are separate builds. This spec closes ONLY the
+coefficient) and the **spurion value** (hunt 207) — are separate builds. This spec closes only the
 T_c leg of the seam scaling ρ_Λ¼ = (9/2)α⁴T_c.
 
 ## See also

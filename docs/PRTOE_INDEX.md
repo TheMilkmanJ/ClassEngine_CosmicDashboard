@@ -1,4 +1,4 @@
-# THE PRTOE DOCUMENT INDEX
+# The PRTOE document index
 
 *The map of the live shelf. Files moved to [`exploratory/`](exploratory/README.md) on 2026-07-28 are
 still present and still worked on; they are simply not part of what an outside reader is pointed at

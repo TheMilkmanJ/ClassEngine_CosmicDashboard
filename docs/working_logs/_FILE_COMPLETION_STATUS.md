@@ -183,6 +183,16 @@ No OPEN-THEORY items were marked COMPLETE. No Koide #101/#102, bounce, basement 
 sign(H_kin), Page-curve dynamics, or lensing MCMC work was invented. Chain run state was not
 killed or edited.
 
+### Residual hygiene / check-12 residual (2026-08-02, later)
+
+Phrase re-grep of `docs/PRTOE_*.md` for dead premises (`currently running`, `live zero-parameter`,
+`both running`, `MEASURED by the α`, `nested-sampling run now`, present-tense offline instruments).
+**No status-tag changes.** Remaining `not currently running` / zon_disp offline wording is
+**accurate** (instrument parked). One residual STALE present-tense block fixed in
+`PRTOE_REFEREE_CALENDAR.md` (07-20 diagnostic still said routeD+conv_desi "are actually running");
+S₈ companions' live-trio date stamp refreshed to 2026-08-02. Tags and evidence lines above still
+match reality; no OPEN-THEORY→COMPLETE.
+
 ---
 
 ## What this inventory is not

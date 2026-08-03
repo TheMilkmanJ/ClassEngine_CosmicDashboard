@@ -6,7 +6,7 @@
 *Thread 5 of the atom-grammar survey. Status: computed and graded — the cavity computation is in,
 it relocates the test from the power spectrum to the off-diagonal covariance, and it hands the
 BipoSH referee a specific pattern. The model gives the
-large-angle anomalies a HOME and, distinctively, ONE SHARED AXIS with two registered
+large-angle anomalies a home and, distinctively, one shared axis with two registered
 predictions. The improvement: standard cosmology must call these flukes (and pays a ~0.1%-class
 look-elsewhere embarrassment); the model expects them as a family.*
 
@@ -15,7 +15,7 @@ look-elsewhere embarrassment); the model expects them as a family.*
 At the largest angles the CMB persistently misbehaves: the low quadrupole (less power at ℓ=2
 than ΛCDM predicts), the quadrupole–octupole alignment ("the axis of evil"), the hemispherical
 power asymmetry, parity preferences. Each is 2–3σ-ish; ΛCDM's verdict is cosmic variance plus
-a posteriori selection — permanently unexplainable BY CONSTRUCTION, since ΛCDM's largest
+a posteriori selection — permanently unexplainable by construction, since ΛCDM's largest
 scales are statistically isotropic and Gaussian by assumption.
 
 *(The cold spot is routinely listed alongside these and is a different kind of object —
@@ -27,14 +27,14 @@ the verdict is in [PRTOE_cmb_anomalies.md](PRTOE_cmb_anomalies.md).)*
 
 Three recorded/graded objects bear directly on the largest angles:
 1. **The torus** (P-013, flat, compact — the omk run re-confirmed the model keeps it): a
- compact topology DISCRETIZES the largest modes — the "missing" ℓ=2 power is the cavity's
+ compact topology discretizes the largest modes — the "missing" ℓ=2 power is the cavity's
  infrared mode cutoff (no modes longer than the box). The atom reading (§10, recorded): the
- low-ℓ sky is the cavity's LINE SPECTRUM — the cycle odometer.
-2. **The winding axis** (graded): the n ≠ 0 winding singles out ONE DIRECTION on the
+ low-ℓ sky is the cavity's line spectrum — the cycle odometer.
+2. **The winding axis** (graded): the n ≠ 0 winding singles out one direction on the
  sky — the natural seed for alignment/asymmetry families. Standard cosmology has no axis;
  this model cannot avoid having exactly one.
-3. **The axis is SHARED and already registered twice**: P-2026-024 (the ε-dipole) and
- P-2026-029 (the winding comb, fundamental ℓ₁ ≈ 31–94) both point along it. The anomalies join a THREE-member
+3. **The axis is shared and already registered twice**: P-2026-024 (the ε-dipole) and
+ P-2026-029 (the winding comb, fundamental ℓ₁ ≈ 31–94) both point along it. The anomalies join a three-member
  family with two falsifiable siblings: **the axis-of-evil direction should coincide with the
  comb axis and the ε-dipole axis.** One direction, four phenomena — or the family dies
  together.
@@ -116,7 +116,7 @@ Not "the model explains the anomalies". What is computed above is the torus's ow
 what is not built is the **confrontation** — a low-ℓ likelihood that scores a measured covariance
 against the pattern in the table, which is the BipoSH pass's job and is analysis-limited rather
 than theory-limited. The improvement is structural: ΛCDM
-CANNOT expect these features even in principle; this model REQUIRES a discretized large-scale
+cannot expect these features even in principle; this model requires a discretized large-scale
 spectrum and exactly one preferred axis, and it has independently pre-registered where that
 axis is testable. The anomalies convert from embarrassments-of-chance to
 predictions-in-waiting.
@@ -134,7 +134,7 @@ predictions-in-waiting.
  something a single analysis will settle.
 - Planck's isotropy analyses constrain dipolar power modulation at large scales — the same
  BipoSH class flagged for the comb; the family must survive it jointly.
-- A measured axis-of-evil direction INCONSISTENT with a future comb/ε-dipole axis kills the
+- A measured axis-of-evil direction inconsistent with a future comb/ε-dipole axis kills the
  family linkage cleanly.
 
 *Standard cosmology looks at the largest scales, sees structure, and files it under luck. This

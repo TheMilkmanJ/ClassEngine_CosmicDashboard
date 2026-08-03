@@ -9,6 +9,8 @@ machine, theory, external, or packaging.
 - Tracker hygiene + file completion inventory (64 PRTOE files classified)
 - Strong CP complete as abstention
 - Check 12 batches 1–3 (stale “owed” / “running chain” residues)
+- Check 12 residual pass (2026-08-02): dead-premise greps clean except one calendar
+  historical present-tense block; S₈ live-trio date stamps refreshed
 - Live chain status tables refreshed (bbnfix pair + routeD)
 - Baryogenesis ω_J quartet-closure re-landed as back-target; Page-curve status lock;
   magnetism void shortfall priced
@@ -62,3 +64,5 @@ CHAIN_TABLES with bookable GetDist; close T3 / T11 machine halves.
 3. Theory sprints one at a time (Koide OR bounce OR T14 3D), never all three half-done  
 4. Endorsement chase in parallel (papers already packaged)  
 5. Check 12 on hierarchy / remaining giants only when editing them  
+6. Residual dead-premise greps are clean as of 2026-08-02 residual pass; re-run only after
+   large chain-status edits  

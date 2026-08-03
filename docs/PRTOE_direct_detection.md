@@ -43,7 +43,7 @@ every corner in the range, and would survive even if the strong end were dropped
 
 The detection budget, per this model, belongs to: the **radio sub-lattice** (the ratio-lock,
 P-027's referee, P-029's comb), **CMB-S4's neutrino sector** (the Majoron corner, P-025 —
-the ONE laboratory-adjacent coupling the model owns), **parity-odd magnetism** (the signed
+the one laboratory-adjacent coupling the model owns), **parity-odd magnetism** (the signed
 helicity, P-028), and **precision mass-ratio drift** (the ε-dipole P-024, Koide-preserving).
 The model doesn't just predict where dark matter isn't — it says which instruments are aimed
 at the actual interfaces.

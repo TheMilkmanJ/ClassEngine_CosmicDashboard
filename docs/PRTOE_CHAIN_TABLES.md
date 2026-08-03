@@ -22,7 +22,7 @@
 > ~3.8×; routeD is early and far (≈1290× its looser 0.1 stop).
 >
 > **No GetDist posterior table exists yet for the three live runs** — they join this file only
-> when R−1 hits stop. Any PRELIMINARY peek must be labeled as such and is not booked.
+> when R−1 hits stop. Any preliminary peek must be labeled as such and is not booked.
 >
 > ### Archive / dead chains still tabulated below (not live)
 >

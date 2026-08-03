@@ -3,17 +3,17 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **PRIVATE — internal candid self-assessment, not the audience-facing record.** Unlinked
+> **Private — internal candid self-assessment, not the audience-facing record.** Unlinked
 > from the reader-facing shelf on purpose.
 
-> **The `#N` numbers in this file are local and are NOT the docket's.** This page predates the
+> **The `#N` numbers in this file are local and are not the docket's.** This page predates the
 > current numbering and carries two of its own: the **Q-series** of the 2026-07-08 review (Q1/#19,
 > Q2/#20, Q3/#21, Q5/#23, Q6/#24, Q7/#25), and the **least-trusted-joints list** (its own #1 and #3,
 > at "least-trusted joint #1/#3"). Neither maps onto
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-07-20)
+## Current (2026-07-20)
 
 Major moves since the 2026-07-08 baseline (below):
 
@@ -150,7 +150,7 @@ problem, and there is no new positive *evidence* that upgrades the evidence clas
 
 ## The single kill-shot (task Q3 / #21)
 
-**The +1.2% varying electron-mass shift being REAL.** It is the load-bearing bolt: it is
+**The +1.2% varying electron-mass shift being real.** It is the load-bearing bolt: it is
 simultaneously (a) the engine of the H₀ easing and (b) the model's primary observable signature.
 If a full systematics/degeneracy audit (Q2/#20) or better CMB data (CMB-S4) shows the shift is
 consistent with m_e = 1 — i.e. that N_eff, the calibration, or the SH0ES prior absorbs the same
@@ -166,13 +166,13 @@ Ranked, honestly:
 2. **The m_e shift's robustness** — unproven it isn't absorbing a systematic. (Q2/#20.)
 3. **c's derivation is one step short.** The census sources the seating (the neutrino sits on the
    vacuum's seat because its mass is medium-sourced, not electroweak) and two independent routes pin
-   the value, but the step licensing a democratic count is open — see the CURRENT section at the head
+   the value, but the step licensing a democratic count is open — see the Current section at the head
    of this file. The empirical pin to [1.0, 1.9] is consistent with it. (Q5/#23.)
 
 ## The near-term falsifier calendar (task Q6 / #24)
 
 In order of arrival / actionability:
-1. **PRTOE-vs-ΛCDM full-data evidence** (Q1/#19) — RUNNING NOW (matched optimizers). Δchi2/ΔBIC/ΔlnZ.
+1. **PRTOE-vs-ΛCDM full-data evidence** (Q1/#19) — running now (matched optimizers). Δchi2/ΔBIC/ΔlnZ.
 2. **Ω_k / shape** — deferred (single-chain MCMC too slow); quick geometric check already says
    flat keeps H₀, closed lowers it → flat-3-torus is the H₀-safe shape (P-2026-013 refined).
 3. **DESI DR2 w-running** — data exists; compare against the dCDF w=-1 prediction.
@@ -180,46 +180,46 @@ In order of arrival / actionability:
 5. Slow: LiteBIRD β (P-2026-009/015), CMB-S4, halo vortices (P-2026-016), direct-detection
    nulls (P-2026-017), matched circles / low-quadrupole (P-2026-013).
 
-## PRE-COMMITTED evidence verdict (locked 2026-07-08, BEFORE #19 returns)
+## Pre-committed evidence verdict (locked 2026-07-08, before #19 returns)
 
-internal review rule: lock what counts as a win BEFORE the number comes back, or we rationalize whatever
+internal review rule: lock what counts as a win before the number comes back, or we rationalize whatever
 we get. For the PRTOE-vs-ΛCDM full-data comparison (the evidence run — Laplace landed 2026-07-09,
 and the Laplace is what the thresholds are graded against, nested sampling being deferred to
-cluster time), verdict thresholds committed NOW:
-  - PRTOE WINS:   Δ lnZ ≥ +2.5 in PRTOE's favor (moderate+) AND Δ BIC ≤ -2
+cluster time), verdict thresholds committed now:
+  - PRTOE wins:   Δ lnZ ≥ +2.5 in PRTOE's favor (moderate+) AND Δ BIC ≤ -2
                   (BIC/AIC already penalize PRTOE's ~2 extra physical params: varying_me, m_ncdm).
-  - ΛCDM WINS:    Δ lnZ ≤ -2.5  OR  Δ BIC ≥ +2.
-  - INCONCLUSIVE: anything in between -- and this is the HONESTLY-EXPECTED outcome, since PRTOE is
+  - ΛCDM wins:    Δ lnZ ≤ -2.5  OR  Δ BIC ≥ +2.
+  - inconclusive: anything in between -- and this is the honestly-expected outcome, since PRTOE is
                   ΛCDM-like + the m_e signature; a decisive win would be a genuine surprise.
 No moving these after the optimizers finish. (Optimizer gives a Laplace ln Z + bestfit χ² for
 BIC/AIC. A gold-standard nested ln Z would be the publication number, and it is not in reach on
 this hardware — that number waits on cluster time and the thresholds are graded on the Laplace
 meanwhile, with its systematic stated wherever the verdict is quoted.)
 
-## #22 DE-FLOOR — the one serious calculation, RESOLVED (2026-07-08)
+## #22 DE-floor — the one serious calculation, resolved (2026-07-08)
 
 `scripts/floor_ghost_condensate.py`. Ran internal review's demanded single calculation of the (δ K)² /
 ghost-condensate critical-point floor. k-essence P(X): ρ=2X P_X - P, p=P, c_s²=P_X/(P_X+2X P_XX).
-RESULTS:
-  - w=-1 EXACTLY at P_X=0 (X0), c_s²=0 there → exact de Sitter floor. And for X<X0, c_s²<0 (unstable)
-    → the floor is an ATTRACTOR approached from ABOVE (field cannot sit below it). Good feature.
-  - STABILITY: PASS. The c_s²=0 flat direction is stabilized by the (δ K)² k⁴ term
+Results:
+  - w=-1 exactly at P_X=0 (X0), c_s²=0 there → exact de Sitter floor. And for X<X0, c_s²<0 (unstable)
+    → the floor is an attractor approached from above (field cannot sit below it). Good feature.
+  - Stability: pass. The c_s²=0 flat direction is stabilized by the (δ K)² k⁴ term
     (ω² = α/M² k⁴ > 0 for α>0; window P_XX>0 & α>0, Arkani-Hamed+ 2004). The
-    self-tuning TOY RAN AWAY ONLY because it dropped that k⁴ term; WITH it, the floor holds.
-  - SELF-TUNING: FAIL. V0(=Λ) is a free, TUNED parameter -- mechanism does NOT explain why
+    self-tuning toy ran away only because it dropped that k⁴ term; with it, the floor holds.
+  - Self-tuning: fail. V0(=Λ) is a free, tuned parameter -- mechanism does not explain why
     Λ is small (Weinberg's no-go stands).
-VERDICT (internal review fight-or-concede resolved): KEEP the stable DYNAMICAL w=-1 floor (a real mechanism,
-an attractor, better than a bare constant); CONCEDE the self-tuning / "solves the cosmological-constant
+Verdict (internal review fight-or-concede resolved): keep the stable dynamical w=-1 floor (a real mechanism,
+an attractor, better than a bare constant); concede the self-tuning / "solves the cosmological-constant
 problem" claim. Update the least-trusted-joints ranking: the floor is no longer "no working mechanism"
 -- it has a stable mechanism -- it just isn't a CC-problem solution (which we should never have claimed).
 
-## CODE-vs-THEORY AUDIT (2026-07-08, re-checked 2026-07-19) — the link is unenforced in code, but the fit no longer floats m_e
+## Code-vs-theory audit (2026-07-08, re-checked 2026-07-19) — the link is unenforced in code, but the fit no longer floats m_e
 
-Audited the CLASS C source against the model's claims. GOOD: dcdf has a real perturbation sector
+Audited the CLASS C source against the model's claims. Good: dcdf has a real perturbation sector
 (δ/θ/delta_p) -- old gap closed; the w=-1 floor is asymptotic/never-crossed (matches the
 #22 ghost-condensate attractor).
 
-**CLOSED 2026-07-23 — gaps 1 and 2 (the m_e / screening coupling):**
+**Closed 2026-07-23 — gaps 1 and 2 (the m_e / screening coupling):**
   1. **m_e from the dark sector.** `dcdf_dyad_link=yes` derives
      `varying_me = 1 + c·f_amp·Psi0/M_red` (the #11 amplitude stack) at input time and stores
      the stack on the background structure. Thermodynamics does not invent m_e; it consumes
@@ -227,63 +227,63 @@ Audited the CLASS C source against the model's claims. GOOD: dcdf has a real per
      `varying_me` without the link for chain continuity; the model path is `dcdf_dyad_link`.
   2. **Density-dependent Theta / gate screening.** With `dcdf_dyad_link` on (or
      `varconst_density_gate=yes`), the environmental switch is the survival-form gate
-     `S = exp(-(max(Δ,0)/C_ref)^n)` (me_mechanism_math THE GATE), not a pure redshift step.
+     `S = exp(-(max(Δ,0)/C_ref)^n)` (me_mechanism_math the gate), not a pure redshift step.
      Homogeneous FRW uses a growth-proxy load calibrated at `varying_transition_redshift`;
      local environments call `background_varconst_of_z_delta(z, delta)` — voids (δ≤0) keep
      the bare value (P-2026-007), clusters screen to lab. Legacy pure-z window remains when
      the density gate is off (default without `dcdf_dyad_link`).
-  3. **The w=1/3 radiation-like phase is IN the code and enabled** (closed earlier).
+  3. **The w=1/3 radiation-like phase is in the code and enabled** (closed earlier).
      `dcdf_z_rad_onset` drives the conformal-origin phase; evidence configs set it live.
   (Checked 2026-07-20: `cs2_dcdf` returns 0.0 unconditionally — c_s² ≡ 0 after β removal.)
 
-HONEST IMPLICATION (as of 2026-07-23): the code-level link from the electron-coupled scalar to m_e
+Honest implication (as of 2026-07-23): the code-level link from the electron-coupled scalar to m_e
 and the density gate are implemented end-to-end. Homogeneous FRW uses the **actual growth factor
 D(z)** from the background table (load = C_ref · D(z)/D(z_trans)), recomputed after D is normalized
 to today; local void/cluster discrimination is `background_varconst_of_z_delta(z, δ)`. Production
 fixed-me configs carry `dcdf_dyad_link: yes`; sampled-me configs carry `varconst_density_gate: yes`.
 
-## EVIDENCE VERDICT — LANDED 2026-07-09 (Laplace; the pre-committed gate met, marginally)
+## Evidence verdict — landed 2026-07-09 (Laplace; the pre-committed gate met, marginally)
 
 The constrained electron-coupled-scalar vs ΛCDM full-data comparison (matched optimizers, same 10
-likelihoods) CONVERGED. Result graded cold against the pre-committed gate:
+likelihoods) converged. Result graded cold against the pre-committed gate:
   - ΛCDM:    χ² = 2809.179 | Laplace lnZ = -1474.566 | H₀ = 68.18
-  - scalar:  χ² = 2799.654 | Laplace lnZ = -1471.931 | H₀ = 69.82  (m_e FIXED at 1.01232)
+  - scalar:  χ² = 2799.654 | Laplace lnZ = -1471.931 | H₀ = 69.82  (m_e fixed at 1.01232)
   - Δ χ² = -9.52 (scalar better) ; **Δ lnZ = +2.635 (Laplace, scalar favored)** ; Δ BIC ~ -9.5.
 
-**VERDICT: the +2.5 win threshold is CROSSED (+2.635) — the first time — but heavily qualified:**
-  1. LAPLACE, and the Laplace is where it stays: margin over the line (+0.135) < the estimator's own
-     systematic uncertainty ⇒ a MARGINAL crossing on the APPROXIMATE number. Only nested sampling
+**Verdict: the +2.5 win threshold is crossed (+2.635) — the first time — but heavily qualified:**
+  1. Laplace, and the Laplace is where it stays: margin over the line (+0.135) < the estimator's own
+     systematic uncertainty ⇒ a marginal crossing on the approximate number. Only nested sampling
      makes it robust, and nested sampling is unaffordable on this hardware (9.8 h per iteration) —
      so the crossing stands as marginal, without the confirmer it was explicitly awaiting, until
      cluster time is bought. Better-converged chains sharpen this number; they cannot promote it.
-  2. SH0ES-CONDITIONAL: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
-     68.18→69.82) + ACT (~-3.8, high-l m_e). So the win RIDES ON the H₀ tension being physical
+  2. SH0ES-conditional: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
+     68.18→69.82) + ACT (~-3.8, high-l m_e). So the win rides on the H₀ tension being physical
      (Stage 0). SH0ES-as-systematic sinks it. The win and the single window are the same brick.
-  3. Gate A SIDESTEPPED (stronger than passed): m_e was FIXED, not floated → no prior to game;
+  3. Gate A sidestepped (stronger than passed): m_e was fixed, not floated → no prior to game;
      the win comes from a better fit with m_e pinned at the prediction.
-  4. Gate B CAPS it SUGGESTIVE (f_amp partial-mover, Psi0 OOM-fixed); SHOT 1 SURVIVES (amplitude
-     ontology un-derived). w=1/3 phase confirmed NEUTRAL (onset never moved) → kept, free.
+  4. Gate B caps it suggestive (f_amp partial-mover, Psi0 OOM-fixed); shot 1 survives (amplitude
+     ontology un-derived). w=1/3 phase confirmed neutral (onset never moved) → kept, free.
 
-**LABEL: suggestive / SH0ES-conditional / Laplace-marginal WIN.** Best realistic outcome on the
-table, landed exactly at the line. NOT decisive, NOT robust, NOT prediction-confirmed.
+**Label: suggestive / SH0ES-conditional / Laplace-marginal win.** Best realistic outcome on the
+table, landed exactly at the line. Not decisive, not robust, not prediction-confirmed.
 
-The ONE lever that would move the evidence class hard is still a nested confirmation of the +2.6
+The one lever that would move the evidence class hard is still a nested confirmation of the +2.6
 on a paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready) — **and that lever is now out of
 reach until the cluster time is bought**, the attempt on this hardware having been ended on
 2026-07-20 at 9.8 h per iteration. The two things that still sink it: SH0ES-as-systematic
 (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
-grading in the private internal review record (defender "THE NUMBER" turn).
+grading in the private internal review record (defender "the number" turn).
 
-### SHARPENED by internal review (accepted): the win INVERTS without SH0ES, adds ZERO ontology evidence
-Two corrections to the verdict above, both taken: (1) BRAKE 2 is worse than "conditional" — it is
-SH0ES-DEPENDENT: net Δ χ² -9.52 minus SH0ES ~-13.7 = +4.2, i.e. WITHOUT SH0ES the
-electron-coupled scalar is ~4 WORSE than ΛCDM (the edge INVERTS to a loss). The m_e signature alone
-(ACT -3.8) does NOT beat the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins ONLY by easing the SH0ES
-H₀ tension — NOT on CMB-internal merits. And that easing is NON-ORIGINAL (whole varying-m_e family
-does it, the internal review), so the win adds ZERO evidence for the ontology
+### Sharpened by internal review (accepted): the win inverts without SH0ES, adds zero ontology evidence
+Two corrections to the verdict above, both taken: (1) Brake 2 is worse than "conditional" — it is
+SH0ES-dependent: net Δ χ² -9.52 minus SH0ES ~-13.7 = +4.2, i.e. without SH0ES the
+electron-coupled scalar is ~4 worse than ΛCDM (the edge inverts to a loss). The m_e signature alone
+(ACT -3.8) does not beat the ~+8 Planck-lowlEE/BAO/SPT cost, so m_e wins only by easing the SH0ES
+H₀ tension — not on CMB-internal merits. And that easing is non-original (whole varying-m_e family
+does it, the internal review), so the win adds zero evidence for the ontology
 (superfluid/census/electron-coupled scalar). (2) The win is robust only
-if BOTH a nested ln Z confirms +2.6 AND SH0ES is physical (two live-uncertain gates — **and the
+if both a nested ln Z confirms +2.6 and SH0ES is physical (two live-uncertain gates — **and the
 first is now unscheduled**, nested sampling having been priced off this hardware and deferred to
-cluster time). Final label: "suggestive / SH0ES-DEPENDENT / Laplace-marginal / non-original-class
+cluster time). Final label: "suggestive / SH0ES-dependent / Laplace-marginal / non-original-class
 win, no ontology evidence." Deciders from here: a nested ln Z when it can be afforded
-(marginal→robust or sinks it) and SH0ES-vs-TRGB (physical→holds, systematic→INVERTS to a loss).
+(marginal→robust or sinks it) and SH0ES-vs-TRGB (physical→holds, systematic→inverts to a loss).

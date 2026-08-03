@@ -138,7 +138,7 @@ fixed, so no detectability claim is made — only that the line falls inside an 
 already-velocity-binned population, and that this is a different observational programme from the
 entropy floor entirely.
 
-## 5. What the model does NOT claim about entropy
+## 5. What the model does not claim about entropy
 
 - The area law's coefficient is **the ratio 12π/48π = 1/4** of the induced-Newton and entanglement heat-kernel coefficients, both regulated by the medium's own Bogoliubov cutoff ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). The coefficients 12π and 48π are those of minimally coupled scalars, so the cancellation does not *automatically* extend to the roster the model carries — but the extension has been made (§3): spin-½ preserves the ratio exactly, gauge fields restore it once edge modes are counted as horizon entropy, and conformally coupled scalars drop out of both sides under the same ξ = 1/6 that induced-Newton finiteness already requires. Candidate grade, on the single commitment that edge-mode entropy is physical.
 - No claim that the medium's entropy is the universe's entropy budget — the functional in §1

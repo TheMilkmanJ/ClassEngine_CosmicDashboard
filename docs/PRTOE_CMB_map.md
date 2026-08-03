@@ -18,8 +18,8 @@ inherited from the standard physics the model shares, left free and inflation-de
 in ΛCDM, or forced to zero as a falsifiable kill-switch.
 
 The parity structure is the spine of the whole map:
-- **Parity-EVEN** (nonzero in a mirror-symmetric universe): **TT, TE, EE, BB**
-- **Parity-ODD** (exactly zero unless something violates parity): **TB, EB**
+- **Parity-even** (nonzero in a mirror-symmetric universe): **TT, TE, EE, BB**
+- **Parity-odd** (exactly zero unless something violates parity): **TB, EB**
 
 ---
 

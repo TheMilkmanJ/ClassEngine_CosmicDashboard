@@ -33,7 +33,7 @@
 
 
 > Whose coupling is whose — the two fields behind the headline number. ½α_c²M₂ hides that
-> the dark-energy scale is a **cross of BOTH dark fields**, not one field's product. Substituting
+> the dark-energy scale is a **cross of both dark fields**, not one field's product. Substituting
 > α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical to 4×10⁻¹⁹):
 >
 > > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c = 2.2599 meV** *(observed 2.25; +0.44%)*
@@ -182,7 +182,7 @@ consistency structure applied to its most famous problem:
  condensate's equilibrium vacuum has **identically zero pressure by the Gibbs–Duhem
  relation** — the enormous vacuum energies do not gravitate at equilibrium (and the
  species roster demonstrably cannot supply the cancellation one species at a time:
- str[1] = −68 and the Veltman-class sum both FAIL — the whole medium does what the
+ str[1] = −68 and the Veltman-class sum both fail — the whole medium does what the
  parts cannot). The observed Λ = the deviation from equilibrium, whose dynamic face is
  the still-settling genesis injection (below).
 - The background reading, which does not fix the value: on the finite 4-volume,
@@ -192,7 +192,7 @@ consistency structure applied to its most famous problem:
  as the mechanism for the residual Λ **value**; sequestering as the vacuum **cancellation**
  (the thermodynamic reading) is a separate, untouched claim.
 - The thermal reading, the residual's dynamics: the candidate
- chain is now end-to-end mechanism-shaped — the deviation is EXPANSION-SOURCED (free decay
+ chain is now end-to-end mechanism-shaped — the deviation is expansion-sourced (free decay
  would die by e^(−10⁵); the settling law is an attractor), the friction partner is the
  neutrino bath (the medium's only tree-level coupling; the friction turns on where
  free-streaming turns off), and the freeze is a **decoupling, not a rate-crossing**: the
@@ -204,12 +204,12 @@ consistency structure applied to its most famous problem:
  registered tie ρ_Λ¼ = m_ν,lightest = 2.25 meV**: the last bath to quit sets the frozen
  excitation scale. **w = −1 exact through the observable range, untuned; the settling's
  residue banks as dark matter (the fluid's own dust-like face); the frozen residual is Λ.**
- Candidate grade: the amplitude *scale* is now FORWARD via the neutrino-decoupling
+ Candidate grade: the amplitude *scale* is now forward via the neutrino-decoupling
  freeze-out (`scripts/kubo_freeze.py`); the earlier lineshape-suppression route is retired —
  the collisionless neutrino response is Ohmic in **both** the density and the scalar (Majoron)
  channel ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). The O(1) coefficient of the frozen
  equilibrium excitation follows the tie's arrow: the equality's source is the mass-generation
- identity read forward — the tenth-channel seat term, the floor SETTING m₁ — so the
+ identity read forward — the tenth-channel seat term, the floor setting m₁ — so the
  coefficient rides κ_m = b^(−1/4) ≈ 1, and what survives is the constituent-level-gated seat
  constant b rather than a specific-heat calculation. The original statement stands beneath it:
  the condensate is **still settling from the one genesis injection** — thermal counterflow
@@ -393,7 +393,7 @@ to quote, and the surviving radiative band is the 0.10–0.90% below.
 *(The bands use the measured coefficient **0.0084** — the leading closed form
 (8/15π²)·√α_c = 0.00800 plus the O(α_c) relativistic term the expression's own [1 + O(α_c)]
 carries — so 0.0084 × [26, 46] = 22–39%, quartered to 5.4–9.8%. The displayed closed form is
-the leading term only.)* **The λ gate and the τ gate do NOT merge** — the Monte Carlo grades the
+the leading term only.)* **The λ gate and the τ gate do not merge** — the Monte Carlo grades the
 LHY truncation as valid at exactly this gas parameter, and the surviving radiative band is the
 one-way bound 1.345%/(Λa₀), i.e. **0.10–0.90% on ρ_Λ¼**, closed at the desk given the σσ
 amplitude rather than by the lattice (the control-edge re-examination below carries the whole

@@ -61,7 +61,7 @@ diquark-BEC realization of the BCS–BEC crossover the occupancy argument requir
 ([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), P-2026-048; one
 uncomputed lattice number decides it).
 
-**What this identity does NOT source.** Two claims once rested here and rest elsewhere:
+**What this identity does not source.** Two claims once rested here and rest elsewhere:
 - **The chirality** — parity-odd signatures (GW handedness, IGMF helicity, LSS parity, the AD
   matter bias) are signed by the **genesis winding integer n**, not by a pairing channel. The
   three-membered family (matter / magnetism / metric) is one integer:
@@ -104,7 +104,7 @@ be electromagnetic without α being obliged to run to the pairing scale
 ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).* The medium is EM-neutral → transparent → zero optical birefringence; the parity is
 forced into the metric instead. Full account: [PRTOE_light.md](exploratory/PRTOE_light.md).
 
-## 5. What it does NOT close
+## 5. What it does not close
 
 - The dark-energy **value** does **not** forward-close from the neutrino microphysics: the
  fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss**. The boiling-free

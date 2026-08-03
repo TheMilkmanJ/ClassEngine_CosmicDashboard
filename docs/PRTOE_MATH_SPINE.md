@@ -1,4 +1,4 @@
-# PRTOE — THE MATH SPINE (genesis → now → end)
+# PRTOE — the math spine (genesis → now → end)
 
 > The headline result: the dark-energy scale is
 > **ρ_Λ¼ = (9/2)·α⁴·τ·m_e** — α⁴ times a temperature tied to the electron. Every factor is sourced
@@ -49,7 +49,7 @@ PRTOE_me_mechanism_math.md (electron-mass sector detail), PRTOE_cyclic_torus_gen
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dCDF fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[**MEASURED** via the onset clock. **The "three independent ways" wording is withdrawn
+[**measured** via the onset clock. **The "three independent ways" wording is withdrawn
 (2026-07-28, circularity sweep, check 34)** and the three legs now read: **(1) ξ is circular** —
 ξ ≡ ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is itself computed from m, so 398
 against 402 compares two computations from the same input, differing by rounding. No measurement of
@@ -93,7 +93,7 @@ runs the other way — it forces the portal **even** in the dark field, which is
 is quadratic-canonical rather than linear. The Standard-Model side of that portal is the
 headline result's one assumed step, and the block below states it.)
 
-> **THE PORTAL'S STANDARD-MODEL SIDE — the assumed step, stated (#125).** The dark side is
+> **The portal's Standard-Model side — the assumed step, stated (#125).** The dark side is
 > settled: the operator is even in that field and |Ψ|² is its leading invariant. A dimension-2
 > dark singlet then has three couplings available, and they order by **dimension**, not by
 > preference:
@@ -962,7 +962,7 @@ parameters. Grade: candidate; the surviving route is unique.
 The conditional in §23.1 — "the bounce proceeds through the end of the metric
 description or not at all" — is sharpened by the light-sector scale separation
 (recorded the same day; [PRTOE_white_holes.md](PRTOE_white_holes.md) §11): the
-closures exclude a HOMOGENEOUS turning point, and the description that ends at
+closures exclude a homogeneous turning point, and the description that ends at
 the coherence scale is the *hydrodynamic description of the dominant component*,
 while the substrate carrying the geometry — and the Standard-Model fields, which
 cross the interval as ordinary in-medium fields with energy conserved — remains

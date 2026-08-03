@@ -4,7 +4,7 @@
 
 
 *The atom grammar applied to galactic dynamics, with the model's recorded mass. Status:
-STRUCTURAL (candidate) with computed numbers — **and one boundary, priced**: the soliton exists in
+structural (candidate) with computed numbers — **and one boundary, priced**: the soliton exists in
 halos below σ ≈ 77 km/s (M_h ≈ 3×10¹¹ M☉) and not above, because a dominant nuclear black hole
 takes the core radius inside its own sphere of influence (P-2026-054). The Milky Way is on the
 far side of that line, which is what resolves the Galactic Centre's 3× tension. The improvement over standard
@@ -88,7 +88,7 @@ The soliton ("1s") core radius scales as r_c ∝ 1/m² per halo mass; with the r
 ## 2. The excited spectrum
 
 The halo above the soliton is the atom's excited/quasi-thermal spectrum: granule interference
-(the recorded granule structure, S = (1+(1−f_amp)²)/2 — note f_amp enters HERE too: the same
+(the recorded granule structure, S = (1+(1−f_amp)²)/2 — note f_amp enters here too: the same
 partition measured by the ramp), relaxation by wave interference rather than two-body
 scattering. Standard heavy-FDM phenomenology inherited; the model's specific f_amp value is a
 cross-link no generic FDM has.

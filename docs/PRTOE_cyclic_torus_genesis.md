@@ -210,7 +210,7 @@ the only escape (a heavier ⟨Ψ⟩) worsens the hierarchy.
 The verdict, accepted: the mechanism is real and inaccessible to ΛCDM, but this model cannot carry
 it at observable amplitude — both roads (a universal lepton coupling, where the reading and the EDM
 are both dead; an electron-specific coupling, where the reading stays shut and a flavor puzzle is
-added) end at the fully-sourced reading. SHOT 1 was dented, then re-closed, and stands firmer. The
+added) end at the fully-sourced reading. Shot 1 was dented, then re-closed, and stands firmer. The
 claim is held provisional pending its named referees. That reading (m_e sourced entirely by Ψ,
 beating gate-0 BBN, the hierarchy, and the τ-Barr-Zee EDM) is now the whole game for both #30 and
 birefringence — one wall, three defenders.

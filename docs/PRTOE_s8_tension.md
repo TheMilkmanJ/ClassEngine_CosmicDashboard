@@ -42,8 +42,8 @@ before any tension-easing claim upgrades.) The conv_desi chain was to deliver th
 **2026-07-22**, at R−1 = 13.25, which is nowhere near converged. *(That R−1 is a within-chain
 split-R̂ — a single chain is split into four segments — so it is a real number but blind to
 confinement in one basin; noted 2026-07-29 because elsewhere the corpus wrongly said a one-chain run
-yields no statistic at all.)* Three runs are live on the box as of 2026-07-29 03:00 — the bbnfix
-pair and route-D — and none is this one. This chain has now died twice (it was found dead at initialisation on
+yields no statistic at all.)* Three runs are live on the box as of 2026-08-02 (same trio since
+2026-07-29) — the bbnfix pair and route-D — and none is this one. This chain has now died twice (it was found dead at initialisation on
 2026-07-16, relaunched, and stopped again six days ago), so **the S₈ posterior is not pending — it
 is unproduced**, and restarting it is an owner decision. The
 firewalled derivation candidate g = 10ε = 54α/π (the machines' table,

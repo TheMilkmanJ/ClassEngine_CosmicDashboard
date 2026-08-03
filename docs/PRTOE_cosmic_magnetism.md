@@ -55,26 +55,26 @@ a genuine new explanatory front, registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's
 rotation — never through dark-charge currents, because the condensate's EM-neutrality is
-FORCED to 37–47 orders below unit charge by the Meissner/photon-mass bound
+forced to 37–47 orders below unit charge by the Meissner/photon-mass bound
 (q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — P-2026-028's constraint-closed-en-route). The model is not
 allowed to make fields directly; it is allowed to stir.
 
 ## 3. The void floor — the open gap
 
-The blazar bound constrains the field BETWEEN structures. The vortex-network rms boost
+The blazar bound constrains the field between structures. The vortex-network rms boost
 (×3400) concentrates B on the **filaments/lines**, while the void floor constrains the
 **inter-line** field — which stays **~1.5 orders short** on the smooth estimate. Two
 candidate rescues fail on inspection: (i) return-flux topology falls to flux
 conservation — the return flux through the void cell equals the flux-average, i.e. the
 smooth estimate; concentrating B on lines cannot raise the inter-line floor. (ii)
 post-recombination vorticity persistence sources the same average and cannot beat the same
-theorem. THEREFORE the void column rides SOLELY on (iii): the blazar bound's own
+theorem. Therefore the void column rides solely on (iii): the blazar bound's own
 robustness. The live external debate (plasma instabilities — beam-plasma energy loss may
 relax the ≥10⁻¹⁶ G floor entirely) is the referee: **if the blazar floor survives that
-debate, P-028's void column FAILS while the galactic column stands** — the registered risk,
+debate, P-028's void column fails while the galactic column stands** — the registered risk,
 sharpened to a single external question.
 
-### 3a. Void-floor shortfall and RM coherence — priced vs OPEN (2026-08-02)
+### 3a. Void-floor shortfall and RM coherence — priced vs open (2026-08-02)
 
 **The shortfall is arithmetic from recorded numbers; no internal formula closes it.**
 
@@ -98,18 +98,18 @@ No such formula exists in the corpus. The open object is therefore either (a) an
 relaxation of the blazar floor, or (b) a new internal seed mechanism — neither of which is
 desk-doable from existing numbers without inventing content.
 
-**RM coherence scale — OPEN, formula missing.**
+**RM coherence scale — open, formula missing.**
 
 §4 notes that the Kibble network sets ~100-Mpc-class comoving structure, "testable in
 principle in Faraday-rotation-measure correlation functions." The ledger marks that
-"un-priced in RM statistics (owed if pursued)." **Explicit OPEN:** there is no recorded
+"un-priced in RM statistics (owed if pursued)." **Explicit open:** there is no recorded
 expression for ⟨RM(θ)·RM(0)⟩, no transfer of ξ_K = 256 Mpc into an angular multipole, and
 no comparison to existing RM surveys. The qualitative claim (coherence scale set by the
 Kibble network, not by a phase-transition horizon) stands; the quantitative RM prediction
 does not. Closing it would require writing and evaluating that correlation — not available
 as an existing corpus number.
 
-## 4. The signature no one else can write down: THE SIGN
+## 4. The signature no one else can write down: the sign
 
 Every other mechanism predicts a magnitude and (at best) a spectrum. This model's field
 inherits **magnetic helicity with a sign tied to the genesis flow**, because the Harrison step
@@ -117,7 +117,7 @@ copies that flow's handedness across faithfully. Writing H_B = ∫A·B d³x (rig
 using B = k ω with k = 2 m_p c/e a constant, the vector potential A = k u + ∇φ gives
 
  H_B = k² ∫u·(∇×u) d³x = k² H_kin  ⟹  **sign(helicity_B) = sign(H_kin)** — exactly, on
- the closed 3-torus, with the battery's coefficient entering SQUARED so no sign convention
+ the closed 3-torus, with the battery's coefficient entering squared so no sign convention
  survives to be argued over.
 
 The registered routing sign(helicity_B) = sign(n) is that identity plus one structural condition:
@@ -158,7 +158,7 @@ absence is a symmetry statement rather than a missing computation.
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in
  γ-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
- which is ALSO P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
+ which is also P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
 - The falsifier that once stood here — a measured magnetic helicity of the wrong sign
  relative to the baryon asymmetry's own sign — is **void, and by the model's own
  computation**: the two signs are drawn independently at genesis, so no measured
@@ -169,7 +169,7 @@ Consequences:
  such scales causally) and testable in principle in Faraday-rotation-measure correlation
  functions.
 
-## 5. What is and is not unique here (the precise boast)
+## 5. What is unique here, and what is not (the precise boast)
 
 - **Not unique:** the Harrison mechanism (standard, 1970); the seed magnitude class (~10⁻¹⁸ G).
 - **Unique to this model:** (i) a *structural* primordial vorticity source — rotation as
@@ -185,11 +185,11 @@ Consequences:
 |---|---|
 | galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded, P-028 |
 | EM-neutrality consistency (stir, don't charge) | forced (Meissner) |
-| void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — shortfall priced at ×20 = 1.30 dex vs B_seed = 5×10⁻¹⁸ G; no internal formula closes it (§3a)** |
+| void floor (≥10⁻¹⁶ G inter-filament) | **Open — shortfall priced at ×20 = 1.30 dex vs B_seed = 5×10⁻¹⁸ G; no internal formula closes it (§3a)** |
 | helicity sign = the seeded flow's sign, sign(helicity_B) = sign(H_kin) | derived (the battery's coefficient squares out of it) |
 | helicity sign = winding sign, sign(helicity_B) = sign(n) | the surviving registered content — testable against the winding axis, not against the matter–antimatter draw (§4: the two signs are drawn independently, joint correlation −0.06 to +0.09 against a ±0.13 noise floor) |
 | helicity sign = baryon sign | **void** — no measured correlation between them can confirm or kill anything |
-| RM coherence ~ Kibble ξ | **OPEN — formula missing** (no ⟨RM·RM⟩ expression; qualitative ~100 Mpc claim only; §3a) |
+| RM coherence ~ Kibble ξ | **Open — formula missing** (no ⟨RM·RM⟩ expression; qualitative ~100 Mpc claim only; §3a) |
 
 ## Sources
 

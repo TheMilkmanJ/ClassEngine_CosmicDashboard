@@ -128,7 +128,7 @@ geometric mean is then forced, M_eff = M·e^(⟨E_kin⟩/T), and equipartition g
 ⟨E_kin⟩/T = **3/2 exactly at any nonrelativistic formation temperature** — self-pinned. The
 gap condition ln(M_red/M_eff) = 1/(kα_c) delivers the recorded formula. Sign automatic
 (boost raises the cutoff, suppresses the gap); the factor-of-2 wall evaded legitimately
-(E_kin/T dresses the LINEAR scale — natively single-log, which is why the five in-sector
+(E_kin/T dresses the linear scale — natively single-log, which is why the five in-sector
 routes could never find it); the Saha log-power hazard evaded explicitly (the dressed object
 is a dimensionless boost ratio — no density, no (mT)^(3/2); this is also why the mean-field
 venue, which weights by density, saw nothing). **Conditions: the shared additivity (one
@@ -138,7 +138,7 @@ channel → e^(−⟨E_kin⟩/T) = e^(−3/2) — the portfolio's three floors e
 their coupling order forces. Guards that stand: the sharp precision
 rides the closed-form k (the A_s-measured k gives 1.39 ± 0.16, consistent not sharp), and
 the result is conditional on the recorded 4πm_H anchor definition. The coupling in the
-exponent is not new — it is the SAME α_c = 3α
+exponent is not new — it is the same α_c = 3α
 that runs the electron-coupled scalar and prices the vacuum (the one-coupling portfolio).
 
 (c) The Higgs mass with no bare term. Under the no-bare clause m_H² must be
@@ -175,10 +175,10 @@ the internal chain (PRTOE_DERIVATION_HUNT.md), P-2026-042. Full list:
 ## 5. Addendum (the stability audit)
 
 The reading's owed consistency check — do the portal's Yukawas destabilize the Higgs
-vacuum? — computed at one loop: the dip is SHALLOWER than the SM's own (−0.017 vs −0.022),
+vacuum? — computed at one loop: the dip is shallower than the SM's own (−0.017 vs −0.022),
 and the census's rising gauge couplings then return λ to **+0.146 at 10¹⁶ GeV**: the
 endpoint is stable, unlike the SM's. The anchor does not merely coexist with the vacuum's
-health; the census structure CURES the Standard Model's metastability. (One-loop;
+health; the census structure cures the Standard Model's metastability. (One-loop;
 two-loop piece is unowned: it was routed to the shooting-run redesign, and that program closed
 as mooted, so nothing inherits it.)
 
@@ -205,7 +205,7 @@ three things of its host, and the constituent level supplies all three:
 | what the gap equation needs of its host | status in the Fermi-point constituent level |
 |---|---|
 | **a fermionic bath at the cutoff** | **met, recorded** — the finiteness roster IS the Planck-floor fermion content; Fermi-point universality (the Volovik frame the quantum-gravity file already rides) is precisely the statement that such a vacuum's low-energy fermions are generic |
-| **the coupling kα_c reaching the constituent level** | **met, recorded** — k is the screened-interaction integral (independent of the constituent level by construction; the corpus's one shared k), and α_c is the medium's coupling, which reaches the Planck floor through the induced loop — the SAME loop that makes gravity itself (no new bridge is invented; the anchor uses the induced-G channel that no-bare-G already requires) |
+| **the coupling kα_c reaching the constituent level** | **met, recorded** — k is the screened-interaction integral (independent of the constituent level by construction; the corpus's one shared k), and α_c is the medium's coupling, which reaches the Planck floor through the induced loop — the same loop that makes gravity itself (no new bridge is invented; the anchor uses the induced-G channel that no-bare-G already requires) |
 | **the attractive channel** (what pairs the census states) | **met — §6b.** The channel is particle-hole, not particle-particle: a charged Cooper condensate is excluded by thirty orders on the photon mass, and particle-hole Coulomb at α_c binds by construction. The residual is narrower than the requirement — showing the bend-over spectrum condenses in that channel at λ = 0.03 |
 
 The arithmetic is self-contained — measured m_H, the shared k, the derived 3/2, reproducing

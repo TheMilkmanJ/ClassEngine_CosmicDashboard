@@ -5,7 +5,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Assembled 2026-07-07. This is the EQUATIONS-ONLY companion to
+*Assembled 2026-07-07. This is the equations-only companion to
 `PRTOE_me_trigger.md` (which holds the reasoning and the dead ends).
 Every result here is cross-referenced to its trigger-doc
 section.*
@@ -40,7 +40,7 @@ so Theta can only flip at genuine phase defects (vortices) -- structure.
 [trigger-doc sec 3, 20]
 
 Smooth observable proxy: the Weyl curvature invariant C², which is
-IDENTICALLY ZERO in conformally-flat FRW and nonzero only where tidal
+identically zero in conformally-flat FRW and nonzero only where tidal
 structure exists:
 
  S(x) = f(C²(x) / C_ref² ), f = a near-step (saturating) function
@@ -55,7 +55,7 @@ This is a direct, dimension-5 operator with S(x) the environmental modulator.
 The operator is legal under the model's coupling law,
 by the constitution's own consolidated clause (laws_and_rules, the L1 block):
 the medium couples to ordinary matter only through gravity, and the second
-field may couple non-gravitationally WITHIN its own sector — the lepton-mass
+field may couple non-gravitationally within its own sector — the lepton-mass
 sector — while opening no interface to sectors it is not part of (no photon
 coupling, no quark coupling). This operator satisfies all three tests:
  (1) it lives inside the permitted sector (it shifts a lepton mass);
@@ -86,7 +86,7 @@ satisfy the Eotvos bound. Differential Ti/Pt sensitivity:
  ⇒ residual |δ m_e/m_e| at Earth < 8.7×10⁻¹¹
 
 Requirement B (quasar, sec 7/12): a smooth density-dependence gives absorber
-differentials 1×10⁴ over bound → binarity FORCED.
+differentials 1×10⁴ over bound → binarity forced.
 
 Consequence: a gentle exponential fails -- the curvature gap between
 recombination and dwarf cores is only ~22x (1.35 decades) but the required
@@ -98,20 +98,20 @@ i.e. a near-threshold/step. Both independent constraints force the same
 sharpness → two-constraint pillar. Once suppressed at the dwarf core,
 Earth (17 decades higher C²) is automatically suppressed. [sec 26, 27]
 
-C_ref is NOT a free scale: the transition is set by a topological event
+C_ref is not a free scale: the transition is set by a topological event
 (first shell-crossing / first vortex), not a tuned curvature value. [sec 27]
 
 ---
 
 ## 4. The amplitude
 
-Ceiling (sec 31): only the ELECTROMAGNETIC part of m_e can respond to an
+Ceiling (sec 31): only the electromagnetic part of m_e can respond to an
 EM-binding environment. Split:
 
  m_e = m_bare(Higgs-Yukawa, ~99%) + delta_m_EM(self-energy, ~1%)
  delta_m_EM/m_e = (3 α / 4pi) * ln(Λ²/m_e²) ~ 1-2% (O(α))
 
-So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits AT the
+So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits at the
 ceiling. The size is derived here as a bound; the exact value comes from the standing
 stack eps = c*fbar*alpha_c = 27*alpha/(5*pi), which uses no cutoff at all --
 it, not this section's Lambda-and-modulation route, sets the value. [sec 28, 31]
@@ -123,13 +123,13 @@ those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]
 
 ## 5. Which curvature piece, and why
 
-The trigger couples to WEYL (tidal/radiative), not RICCI (local/binding):
- R1. Ricci fails directionally -- large at BOTH high-z background AND in
+The trigger couples to Weyl (tidal/radiative), not Ricci (local/binding):
+ R1. Ricci fails directionally -- large at both high-z background and in
  halos, cannot distinguish smooth-dense from clumped. [sec 25]
  R2. Weyl = 0 identically in smooth FRW (conformal flatness) -- exactly the
  "bare in smooth space" requirement. [sec 23]
- R3. The switch fires on a DECOHERENCE event; decoherence is driven by a
- force's RADIATIVE/far piece; Weyl IS gravity's radiative piece; Ricci
+ R3. The switch fires on a decoherence event; decoherence is driven by a
+ force's radiative/far piece; Weyl is gravity's radiative piece; Ricci
  (binding piece) cannot trigger a decoherence event. [sec 30]
 
 Near/far force split (general): every long-range force = near piece (binds)
@@ -140,8 +140,8 @@ photons decohere. Gravity: Ricci binds, Weyl decoheres. [sec 30]
 
 ## 6. The amplitude-channel constraint (why the roof is one question)
 
-A viable channel must be simultaneously STRONG [S] (O(α), not curvature-
-suppressed), LEGAL [L] (census + MICROSCOPE), VARYING [V] (smooth vs
+A viable channel must be simultaneously strong [S] (O(α), not curvature-
+suppressed), legal [L] (census + MICROSCOPE), varying [V] (smooth vs
 structured). Scored:
 
  curvature : L,V not S (60 orders weak, R/m_e²~1×10⁻⁶⁹)
@@ -162,20 +162,20 @@ properties. [sec 34; laws_and_rules]
 Smooth dilaton: needs β~0.012, MICROSCOPE allows β<~1×10⁻⁴ → 2 orders
 over → dead.
 
-Escape: the field is the SHARP/SATURATED Theta (sec 27 sharpness), not a
+Escape: the field is the sharp/saturated Theta (sec 27 sharpness), not a
 smooth dilaton. Inside the virialized MW halo Theta is at its ceiling →
 grad(Theta) ~ 0 (flat top) → grad(φ) exponentially suppressed → no
 fifth force. Chameleon-class screening; screening agent = Theta saturation
-(forced, not tuned). Freezing agent = VIRIALIZATION (medium's own dynamics,
+(forced, not tuned). Freezing agent = virialization (medium's own dynamics,
 static in a virialized halo).
 
-Screening-test corroboration (sec 37, computed): atomic clocks are a GENUINE
+Screening-test corroboration (sec 37, computed): atomic clocks are a genuine
 third independent leg -- they kill the continuous version via temporal physics
 (a continuous 1% coupling gives ~1×10⁻⁴ clock modulation, ruled out), while the
 saturated form predicts a null (observed). Caveat: clocks force the screening-
-CONSEQUENCE, not the sharp-form-CAUSE uniquely. White-dwarf spectroscopy =
+consequence, not the sharp-form-cause uniquely. White-dwarf spectroscopy =
 consistency-check (saturated → lab value, confirmed ~1×10⁻⁵). Continuous version
-now killed by TWO independent experiments (quasar spatial + clocks temporal).
+now killed by two independent experiments (quasar spatial + clocks temporal).
 
 The four deliveries, paid under the survival-form gate (S = exp[−(C²/C_ref²)^n_eff],
 n_eff ≥ 35, threshold event-set):
@@ -207,7 +207,7 @@ and the recorded curvature ladder alone.
 
 ## 8. Observable signature
 
-Under a single m_e amendment, ALL EM-binding observables shift in LOCKED
+Under a single m_e amendment, all EM-binding observables shift in locked
 correlation (sec 29):
 
  binding energies (Rydberg ~ m_e): +1.2543%
@@ -216,15 +216,15 @@ correlation (sec 29):
  21-cm hyperfine (~m_e²/m_p): +2.51%
 
 Discriminator: the dark-ages/cosmic-dawn 21-cm sky (unvirialized IGM,
-Theta~1, BARE value) vs the standard (virialized) sky. A specific
-CORRELATED pattern across all EM-binding observables, not a single-line
+Theta~1, bare value) vs the standard (virialized) sky. A specific
+correlated pattern across all EM-binding observables, not a single-line
 shift. [sec 8, 29] REACH/SKA-low class instruments.
 
-FORECAST NUMBERS (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
+Forecast numbers (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
  the bare-value hyperfine frequency runs +2.509% high in unvirialized gas.
- - THE CLEAN CHANNEL — the dark-ages absorption trough (z ~ 85-90, linear
+ - The clean channel — the dark-ages absorption trough (z ~ 85-90, linear
    physics only, no stars): standard 15.8-16.5 MHz -> model 16.2-16.9 MHz,
-   a +0.40 MHz offset that CANNOT be absorbed into astrophysics. Instrument
+   a +0.40 MHz offset that cannot be absorbed into astrophysics. Instrument
    class: lunar farside (LuSEE-Night / FarView). This is the mechanism's
    sharpest astrophysics-free falsifier outside the CMB.
  - the cosmic-dawn trough (EDGES band): 78.0 -> 79.96 MHz (+1.96 MHz) —
@@ -237,11 +237,11 @@ FORECAST NUMBERS (chain-free, from dln nu_hf/dln m_e = 2 and eps = 1.2543%):
 
 Derived or forced:
  - the environmental variable (Theta, vorticity-based, exact identity) [1]
- - the coupling FORM is forced (geometry 60 orders too weak) [2]
- - the transition is FORCED sharp by 2 independent constraints [3]
+ - the coupling form is forced (geometry 60 orders too weak) [2]
+ - the transition is forced sharp by 2 independent constraints [3]
  - Weyl not Ricci, 3 independent reasons [5]
- - the amplitude SIZE/CEILING (EM self-energy fraction, ~1-2%) [4]
- - the roof reduces to ONE question (census scope) [6]
+ - the amplitude size/ceiling (EM self-energy fraction, ~1-2%) [4]
+ - the roof reduces to one question (census scope) [6]
  - the locked-correlation observable signature [8]
 
 Open:
@@ -250,28 +250,28 @@ Open:
  (the sec-7 screening computation: delivered — all four items, see sec 7)
  - the two-field sims (sim-gated): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 
-The empirical fit (m_e = 1.012543, fits the CMB) is UNTOUCHED by all of the
-above -- this document concerns the MECHANISM's legality/derivation, not
+The empirical fit (m_e = 1.012543, fits the CMB) is untouched by all of the
+above -- this document concerns the mechanism's legality/derivation, not
 the data.
 
 ## 10. The leptonic origin -- why m_e and not m_q (2026-07-09)
 
-BBN (the data ruling — the windowed program) REQUIRES the coupling be leptonic: a universal
+BBN (the data ruling — the windowed program) requires the coupling be leptonic: a universal
 mass shift is 12-16σ dead via the D/H quark→pion→deuteron channel (dln(D/H)/dln m_q ~ 15 vs
 dln m_e ~ 0.5, a 30x ratio). Why the coupling picks the electron:
 
-NO-GO (it is not a symmetry): L-bar H e and Q-bar H d both need a gauge-SINGLET scalar;
-a singlet couples to every Yukawa operator with INDEPENDENT coefficients → no gauge
+No-go (it is not a symmetry): L-bar H e and Q-bar H d both need a gauge-singlet scalar;
+a singlet couples to every Yukawa operator with independent coefficients → no gauge
 symmetry forces leptonic. Froggatt-Nielsen also fails -- the light quarks (u,d) carry
 FN charges comparable to the electron's, so a generic flavon shifts m_q and re-triggers
 BBN. Leptophilia is neither a gauge nor a generic-flavor consequence.
 
-WHAT IS ACTUALLY ON OFFER (the operator roster, #125). The portal must be **even** in the
+What is actually on offer (the operator roster, #125). The portal must be **even** in the
 electron-coupled scalar, so what multiplies a Standard-Model operator is the dimension-2
 singlet |Ψ|². Three couplings are available, ordered by dimension:
 
- |Ψ|² H†H [dim 4, renormalizable] → shifts the Higgs vev → EVERY mass, quarks included
- |Ψ|² L̄He [dim 6, → m_e ψ̄ψ after EWSB] → δm_e alone — THE STANDING CHOICE
+ |Ψ|² H†H [dim 4, renormalizable] → shifts the Higgs vev → every mass, quarks included
+ |Ψ|² L̄He [dim 6, → m_e ψ̄ψ after EWSB] → δm_e alone — the standing choice
  |Ψ|² (LH)(LH) [dim 7] → δm_ν alone; cannot reach δm_e at any coefficient
 
 The renormalizable one is the one the model must do without: a universal shift at ε is
@@ -283,11 +283,11 @@ so the induced universal shift reaches at
 most 2×10⁻³σ on D/H. No tuning is spent inside the effective theory; what is assumed is
 that the completion above f writes the lepton operator and not the other two.
 
-WHY THE ELECTRON, and it survives the roster change: the operator shifts all charged
+Why the electron, and it survives the roster change: the operator shifts all charged
 leptons equally (e, μ, τ); only electrons are present at recombination (μ, τ decayed), so
-the electron is the charged lepton PRESENT, not a chosen flavour. No flavon needed.
+the electron is the charged lepton present, not a chosen flavour. No flavon needed.
 
-THE FINER FORK — one coefficient or two. Writing |Ψ|² into the lepton DOUBLET's
+The finer fork — one coefficient or two. Writing |Ψ|² into the lepton doublet's
 normalization rather than into each mass operator separately correlates them: the charged
 mass carries one power of L and the Weinberg operator two, so
 
@@ -298,26 +298,26 @@ with the factor 2 pure operator counting. Independent coefficients leave δm_ν 
 inside a window whose exit restores the present-day value the sky measures — observationally
 identical to the free case. The pipeline runs the correlated point (`background.c`, m_ν ∝ m_e²).
 (assumed; docket #125)
-MAGNITUDE + SELF-CONSISTENCY (computed 2026-07-09, re-keyed to the standing operator):
- (a) The coupling PROFILE is forced to be CONDENSATION-TRIGGERED, not smooth in the field.
- A profile that tracks the field's own redshift gives dm_e(z=2) ~ 1.8×10⁻⁶ -- AT the
- quasar bound (|dm_e/m_e| <~ 1×10⁻⁶ at z~1-3). The model AVOIDS this with the z=50
- STEP (dm_e=0 below z=50; the condensate/transition reading, see [28]). So the shift
- must switch AT condensation and be gated thereafter, which both matches the code and
+Magnitude + self-consistency (computed 2026-07-09, re-keyed to the standing operator):
+ (a) The coupling profile is forced to be condensation-triggered, not smooth in the field.
+ A profile that tracks the field's own redshift gives dm_e(z=2) ~ 1.8×10⁻⁶ -- at the
+ quasar bound (|dm_e/m_e| <~ 1×10⁻⁶ at z~1-3). The model avoids this with the z=50
+ step (dm_e=0 below z=50; the condensate/transition reading, see [28]). So the shift
+ must switch at condensation and be gated thereafter, which both matches the code and
  dodges quasars. This ties [10] to the [28] reconciliation (resolved to a
  condensation-step, not smooth).
  (b) The loop, worked (2026-07-09). Minimal potential V(Psi)=ρ_inf + 1/2 m² Psi²
- (DM oscillation early, DE floor late). It CLOSES TO CONSISTENCY: the DM→DE
+ (DM oscillation early, DE floor late). It closes to consistency: the DM→DE
  transition lands at z~0.7 (1/2 m² Psi² = ρ_inf), the right epoch (observed
  ~0.3, same order) for the model's own m + abundance; and ρ_inf^(1/4) = 2.25 meV =
- m_ν,light [P-2026-012]. BUT it bottoms out at the CC PROBLEM: why ρ_inf=(m_ν)⁴
- is P-2026-012's POSIT, not derived. So the last residual is the
+ m_ν,light [P-2026-012]. But it bottoms out at the CC problem: why ρ_inf=(m_ν)⁴
+ is P-2026-012's posit, not derived. So the last residual is the
  cosmological-constant question -- not a PRTOE-specific gap but the universal one
  (reduced to the cosmological-constant question).
 
 The delivering operator is not selected by
 any symmetry the model carries: a gauge singlet couples to every Yukawa operator with an
-INDEPENDENT coefficient, which is this section's own no-go read forwards. Data does the
+independent coefficient, which is this section's own no-go read forwards. Data does the
 excluding -- H†H and the quark bilinear at ε are both +12–18σ dead on D/H, and the Weinberg
 operator reaches no charged mass at all -- so what remains standing is the lepton bilinear by
 elimination, with the doublet-normalization correlation an assumption on top of it. The portal
@@ -335,7 +335,7 @@ delivers δm_e, which is assumed above (#125), and the CC value the loop reduces
 
 ---
 
-## THE ELECTRON-LOOP ONSET — the predecessor configuration
+## The electron-loop onset — the predecessor configuration
 
 > This section describes the retired operating point, in which the electron's
 > Coleman–Weinberg backreaction drove the electron-coupled scalar's condensation. That
@@ -349,19 +349,19 @@ On the charge-free scalar, the electron Coleman–Weinberg backreaction was take
 condensation scale, making the onset derived rather than a free input.
 
 Zero-T (the VEV / reduction). m_e(φ)=m_e0(1+κφ²); the electron loop gives
-V_CW(φ)=−(1/16π²)m_e(φ)⁴[ln(m_e(φ)²/μ²)−3/2], whose φ² term is a TACHYONIC induced mass
+V_CW(φ)=−(1/16π²)m_e(φ)⁴[ln(m_e(φ)²/μ²)−3/2], whose φ² term is a tachyonic induced mass
 m_φ²(0)=−(κ/2π²)m_e0⁴(L−1) (radiative SSB). Self-consistent VEV
 **v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV** (150/175/196 keV for L−1=2/5/10) — the CW minimum imposed
 together with the delivered shift κv² = ε (full 1.2543%), which fixes κm_e0² = ε(m_e0/v)² ≈ 0.108;
-robust under the 1/6-power. So the onset falls out of m_e0 + the scalar's amplitude ALONE = a
+robust under the 1/6-power. So the onset falls out of m_e0 + the scalar's amplitude alone = a
 genuine reduction (the onset is no longer free). Un-swamped because field 2 carries no charge →
 no TeV soft mass.
 
 Finite-T (the coin-flip). Thermal mass Δm_φ²(T)=+(κm_e0²/3)T² (electron plasma, symmetry-
-restoring); symmetry restored above T_c where it cancels the tachyonic curvature. κ CANCELS →
-**T_c = m_e0·√(3(L−1)/2π²), coupling-independent, ~electron-scale.** Leading-log is UNRELIABLE
+restoring); symmetry restored above T_c where it cancels the tachyonic curvature. κ cancels →
+**T_c = m_e0·√(3(L−1)/2π²), coupling-independent, ~electron-scale.** Leading-log is unreliable
 here (μ~T_c → L−1→0 iterates unstably), so T_c is log-ambiguous ~40–450 keV, central ~70–160 keV —
-**STRADDLING the deuterium bottleneck (~70 keV).** Structural: onset AND D/H are both
+**straddling the deuterium bottleneck (~70 keV).** Structural: onset and D/H are both
 electron-scale → "derived" and "marginal" are one fact. Resolver: RG-improved V_eff + BBN
 network (the working docket).
 Caveat — T_c is marginal. The condensation temperature is electron-scale but genuinely
@@ -374,13 +374,13 @@ marginality that limits the dark-energy value (see the cosmological-constant doc
 
 Leptophilia (allowed ≠ generated). Ψ (lepton-sector Majoron) generates |Ψ|²q̄q only at ~2-loop
 EW/EM ~(α/4π)² ~ 3×10⁻⁷ → quark fractional shift ~1×10⁻⁹ → effectively exact leptophilia.
-CAVEAT: the Majoron forces the NEUTRINO coupling (σNN), NOT the charged-lepton Yukawa — so the
+Caveat: the Majoron forces the neutrino coupling (σNN), not the charged-lepton Yukawa — so the
 scalar's leptophilia rests on a lepton-specific portal / the P-020 leptogenesis route, not bare
 Majoron. Scripts (scratch-era, not retained): electron_cw_Tc.py, finite_T_Tc.py, leptophilia.py.
 
 ---
 
-## THE HIGH-f OPERATING POINT — the standing configuration's mechanism (2026-07-18)
+## The high-f operating point — the standing configuration's mechanism (2026-07-18)
 
 The operator: m_e(φ) = m_e0(1 + κφ²), quadratic-canonical (dark-U(1) forbids the
 linear coupling). At the standing decay constant f ≈ 3×10¹⁴ eV (window 10¹⁴–5×10¹⁴):
@@ -398,13 +398,13 @@ the small tilt that does the *timing*:
 
 | quantity | value at f = 3×10¹⁴ eV | note |
 |---|---|---|
-| CW-induced mass — √[(κ/2π²)m_e0⁴(L−1)] | 3.1–6.9×10⁻⁵ eV (L−1 = 2–10) | **coincides with the constraint-window mass 2.8×10⁻⁵ eV — the allowed line IS the CW locus**, an unarranged consistency |
+| CW-induced mass — √[(κ/2π²)m_e0⁴(L−1)] | 3.1–6.9×10⁻⁵ eV (L−1 = 2–10) | **coincides with the constraint-window mass 2.8×10⁻⁵ eV — the allowed line is the CW locus**, an unarranged consistency |
 | restoration temperature T_c = m_e0·√(3(L−1)/2π²) | **κ-independent** (κ cancels between the vacuum and thermal terms) | the ramp's T_γ-keyed timing survives at any f; value log-ambiguous [40, 900] keV. **The BBN-stability fence, stated on the derived anchor T_c = 177.10 keV, is [70, 500] keV** — bounded below by the deuterium bottleneck (~70 keV, beneath which the ramp's stamp at the bottleneck is zero and the sector stops witnessing the transition) and above by the weak-rate window (~500 keV, above which the electron-coupled scalar reaches n/p freeze-out and helium moves). 177.10 keV is interior on both sides, 2.5× and 2.8×. **The fence's conclusion is insensitive to where inside it T_c sits: the whole-range swing is at most 0.32σ on D/H** (2-term width; 0.27σ on the 3-term), against a row whose code systematic alone spans ~1.1σ — the kernel's own 1.1% move costs 0.0022σ, one part in 449. The RG-resummation docket retains the re-pin; the fence no longer waits on it |
 | roll time 1/m_φ | 2.4×10⁻¹¹ s | the ramp is dynamically unimpeded (instant vs BBN minutes) |
-| thermal fluctuation term κ⟨δφ²⟩_T at n/p freeze-out | ~5.7×10⁻²¹ | **2×10¹⁸ below ε** — the OFF-window is honest at high f |
+| thermal fluctuation term κ⟨δφ²⟩_T at n/p freeze-out | ~5.7×10⁻²¹ | **2×10¹⁸ below ε** — the off-window is honest at high f |
 | thermalization channels | Γ ∝ κ², all gates clear by 10⁸–10⁹ | ε rides first order in κ (the zero mode); the two orders are the configuration's whole point |
 
-The sequence: above T_c the electron-plasma thermal mass holds the symmetric point (ε OFF —
+The sequence: above T_c the electron-plasma thermal mass holds the symmetric point (ε off —
 including through n/p freeze-out); at T_c the tilt flips tachyonic and the field rolls to the bare
 minimum at f (fast); ε ramps in with the order parameter and sits at 1.2543% thereafter, gated off
 only inside high-Weyl structure (below). The ramp, computed with the exact thermal kernel:
@@ -417,7 +417,7 @@ inherited from the un-merger: whether f = v_L (one L-breaking scale — the sees
 scales; the spec stays agnostic). This section is spec-grade: every number above is closed-form
 from (ε, f, m_e, L−1); the open items are λ_dyad's origin, the T_c re-pin, and the v_L fork.
 
-## THE GATE — the variable derived, the form graded (2026-07-18)
+## The gate — the variable derived, the form graded (2026-07-18)
 
 Why the gate reads Weyl curvature and not density — structural, from the census's own coupling
 form. The census-legal coupling is a universal **conformal (metric) rescaling**: the
@@ -509,7 +509,7 @@ rather than quoting moment formulae: mean ½ and **sd = 1/(2√(d+1))** at every
 **0.25 in three dimensions**. So ⟨Θ⟩ = ½ is a *distributional fact*, not something the model arranges,
 and the 0.25 is that law's own spread.
 
-> **⚠ CORRECTION.** An entry recorded earlier today read *"pointwise Θ (sd = 0.25 in 3D) would scatter
+> **⚠ Correction.** An entry recorded earlier today read *"pointwise Θ (sd = 0.25 in 3D) would scatter
 > m_e by 25% within a single absorber."* That quotes **Θ's** scatter as **m_e's**. Θ is a 0-to-1
 > coherence indicator and the shift it drives is ε·Θ, so a Θ scatter of 0.25 induces an m_e scatter of
 > ε × 0.25 = **3.14×10⁻³ — 0.31% of m_e, not 25%.** Off by a factor 80. (It is 50% of the *mean shift*

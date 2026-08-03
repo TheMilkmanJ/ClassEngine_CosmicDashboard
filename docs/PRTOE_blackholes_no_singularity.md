@@ -46,7 +46,7 @@ that resolved the vacuum catastrophe and the graviton's non-renormalizability
 : the degree of freedom dissolves at the cutoff; questions about it beneath the cutoff
 are category errors.
 
-## 2. The number that changes the picture: every known black hole fits inside ONE healing length
+## 2. The number that changes the picture: every known black hole fits inside one healing length
 
 | object | r_s | r_s/ξ |
 |---|---|---|
