@@ -5,8 +5,9 @@
 
 *Thread 4 of the atom-grammar survey; the standalone for the recorded DM→(DE/dark-radiation)
 conversion lead — the consolidated production file is
-[PRTOE_s8_tension.md](PRTOE_s8_tension.md). The mechanism is built into CLASS, with live chains testing
-it (conv_g sampled in the thaw chain and conv_desi): a one-parameter, physically motivated easing of
+[PRTOE_s8_tension.md](PRTOE_s8_tension.md). The mechanism is built into CLASS; conv_g is a sampled
+parameter in the thaw and conv_desi *configurations*, but those posteriors are **unproduced** (the
+conv_desi chain died twice — see §4), not live tests: a one-parameter, physically motivated easing of
 the growth tension that ΛCDM must treat as systematics.*
 
 ## 0. The tension
@@ -33,9 +34,9 @@ history — exactly the shape of the observed tension.
 - The omk scan's minimum: S₈ = 0.807; the production joint fit: **S₈ = 0.823 — at the
  KiDS-Legacy consensus, vs ΛCDM's 0.833, at zero χ² cost** (the standing claim). Both
  readings sit on the tension's easing side.
-- conv_g is a sampled parameter in the thaw and conv_desi chains, pre-registered at
- g ≈ 0.10 ± 0.05. Their converged posteriors are the mechanism's test; no interim value carries
- weight.
+- conv_g is a sampled parameter in the thaw and conv_desi *configurations*, pre-registered at
+ g ≈ 0.10 ± 0.05. Their converged posteriors *would be* the mechanism's test once produced; none
+ exist yet (§4), and no interim value carries weight.
 - MEANING-INVERSION NOTE (kept): a conv_g pulled LARGE would ease S₈ at the price
  of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 

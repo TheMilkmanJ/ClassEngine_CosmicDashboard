@@ -61,9 +61,11 @@ and the identification of the scalar sector as what separates them.
   `.bib` file and the paper never calls `\bibliography`. A `main.bbl` may still appear here
   as a leftover from the build harness running BibTeX unconditionally; it is unused, and it
   is deliberately **not** in `submission/`.
-- `main.pdf` — 3 pp, 228 KB.
+- `main.pdf` — 3 pp, ~225 KB (229842 bytes).
 - `submission/` — exactly what arXiv receives: `main.tex` alone.
-- `supertrace-note.tar.gz` — that directory, 8 KB.
+- `supertrace-note.tar.gz` — that directory, ~8 KB.
 
 Verified by building `submission/` in an empty scratch directory with two pdflatex passes
-and nothing else: 0 errors, 0 undefined references, 0 overfull boxes.
+and nothing else: 0 errors, 0 undefined references, 0 overfull boxes. Re-checked 2026-08-02:
+no empty acknowledgments, no framework name in the source. Argument verified symbolically
+(full reduction N_½ = 4N₁ − N₀/2 and the Higgs-sector distinction).

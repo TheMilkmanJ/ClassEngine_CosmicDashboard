@@ -1,6 +1,86 @@
 # arXiv readiness — what each file needs, and who is READY
 
-*Task #54.*
+*Task #54.* Living sources: `papers/<name>/`. Index: `papers/README.md`. Staged copies:
+`docs/arXivReady/`.
+
+---
+
+## CURRENT desk readiness — 2026-08-02
+
+**Authoritative snapshot for the three packaged papers.** Material below this section is
+the drafting/history log; when history and this section disagree, **this section wins**.
+
+**Do not invent endorsement.** No arXiv endorsement is claimed, verified, or assumed here.
+Endorsement is per archive and is the owner's external task.
+
+### Verification re-run 2026-08-02
+
+| check | radio-lattice | neutrino-mbb | supertrace-note |
+|---|---|---|---|
+| `submission/` contents | `main.tex` + `main.bbl` | `main.tex` + `main.bbl` | `main.tex` alone |
+| PDF pages (from build log) | **6** (309217 bytes ≈ 302 KB) | **3** (254556 bytes ≈ 249 KB) | **3** (229842 bytes ≈ 225 KB) |
+| Live BibTeX `note =` in `refs.bib` | **none** | **none** | n/a (inline bib) |
+| `\bibinfo{note}` in shipped `.bbl` | **none** | **none** | n/a |
+| "PRTOE" in `main.tex` / submission | **none** | **none** | **none** |
+| empty `acknowledgments` | **none** | **none** | **none** |
+| last clean-room claim in log | 0 / 0 / 0 | 0 / 0 / 0 | 0 / 0 / 0 |
+
+Page counts in the historical log that say 7 pp (radio) or 4 pp (neutrino) are **pre-note-strip**
+states; current PDFs are 6 and 3 after provenance was moved out of typeset `note` fields.
+
+### Per-paper desk status
+
+#### 1. `papers/supertrace-note/` — *Two gravitational counting conditions…*
+
+| | |
+|---|---|
+| **1. TeX package ready?** | **Yes.** `submission/main.tex` only (inline `thebibliography`). Clean-room 0/0/0. |
+| **2. Content holds remaining?** | **None.** Full argument verified symbolically (2026-08-02 audit). |
+| **3. External gate** | **Published** 2026-08-02: Zenodo DOI [10.5281/zenodo.21763188](https://zenodo.org/records/21763188) (PDF + source tarball, CC BY 4.0). arXiv gr-qc remains open if endorsement materialises; corrections = Zenodo "New version" on the same record. Category: gr-qc (optional cross-lists hep-th / hep-ph). |
+
+#### 2. `papers/neutrino-mbb/` — *If the lightest neutrino mass is the dark-energy scale…*
+
+| | |
+|---|---|
+| **1. TeX package ready?** | **Yes.** `submission/main.tex` + `main.bbl`. 3 pp. Notes stripped. Clean-room 0/0/0. 8/8 numbers re-derived against the paper's stated oscillation inputs. |
+| **2. Content holds remaining?** | **None blocking.** Optional owner call only (not a hold): the quoted lower edge ~0.04 meV is knife-edge under NuFIT 1σ on the inputs; the paper already says the lower edge is unprotected and that the useful statement is the upper edge. |
+| **3. External gate** | **hep-ph endorsement** (separate archive from astro-ph). No endorsement claimed here. |
+
+#### 3. `papers/radio-lattice/` — *A ratio-locked radio signature…*
+
+| | |
+|---|---|
+| **1. TeX package ready?** | **Yes.** `submission/main.tex` + `main.bbl`. 6 pp. Notes stripped. Clean-room 0/0/0. 31/31 cites. |
+| **2. Content holds remaining?** | **None.** See reconciliation below. |
+| **3. External gate** | **astro-ph endorsement** covers primary astro-ph.CO and cross-list astro-ph.IM (same archive). No endorsement claimed here. |
+
+##### Owner queue once said NOT arXiv-ready after DM demotion — reconciled
+
+| stage | status | what it meant |
+|---|---|---|
+| 2026-07-29 owner ruling | **NOT arXiv-ready** | Dispersion row demoted (constant ε degenerate with fitted DM). Paper held until an independent electron-column determination could promote it, or equivalent. |
+| Same day, later passes | content rewritten | Demotion written into the paper: two measurable rows (21 cm + Faraday), σ_ε = σ/√8; σ/√11 as upper bound not forecast; methanol's ~35× tighter amplitude bound stated; prior-work SZ/FRB engagement added; no novelty claim for established methods. |
+| Final package state | **TeX ready; content hold closed** | Hold closed by **honest two-row framing**, not by obtaining a third measurable row. Pattern (five weights) unchanged. |
+| 2026-08-02 desk | **ready for endorsement** | Technical package + content: ready. External gate only: endorsement. |
+
+**Separation of concerns (do not collapse these):**
+
+1. **Technical package** — LaTeX, bbl, tarball, clean-room build, no note-field leakage, no empty acks, no framework name → **ready** for all three.
+2. **Content holds** — physics claims that must change before post → **none remaining** on the three packaged papers.
+3. **External gate** — arXiv endorsement / category access → **owner**, not inventable from the desk. Zenodo already clears public distribution for supertrace-note without arXiv.
+
+### What this file is not
+
+This snapshot does **not** submit anything, request endorsement, or assert that any archive is
+open on the account. Account defaults (historically `physics.space-ph`) remain inappropriate
+homes for these three papers; categories above are the ones that match the content.
+
+---
+
+## Historical log (below)
+
+*Everything from here down is chronological drafting record. Prefer the CURRENT section
+above for desk decisions.*
 
 ## Submitter details (fixed — use verbatim, no placeholders)
 

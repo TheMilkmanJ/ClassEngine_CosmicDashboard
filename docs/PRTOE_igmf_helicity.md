@@ -4,8 +4,10 @@
 
 
 *Thread 14's standalone — a structural candidate riding P-2026-028's helicity sign; the
-decisive dependency is the sign map, two signs on two objects (the seeding step's sign(H_kin) and
-the AD-direct rectification's sign(θ̇·n)), both owed. The
+decisive dependency is the sign map on two objects: the seeding step's sign(H_kin) (half paid —
+poloidal sense fixed by plume geometry; relative toroidal–poloidal bit still open on the 3D
+run) and the AD-direct rectification's sign(θ̇·n) (**computed 2026-07-20: independent**, so the
+matter–helicity lock is void). The
 model's three-membered chirality family (matter / magnetism / metric — one integer n) may
 already have one measured member sitting in published data.*
 
@@ -20,8 +22,10 @@ observable class this model marks.
 ## 1. What the model says (graded structure)
 
 P-2026-028: the primordial field's magnetic helicity is SIGNED BY THE GENOME —
-sign(helicity_B) = sign(n). That routing rides one structural condition the seeding step imposes and
-the corpus has not yet supplied — the genesis flow's own handedness (§"the seeding link" below).
+sign(helicity_B) = sign(n). That routing rides one structural condition the seeding step imposes —
+the genesis flow's own handedness (§"the seeding link" below). One factor of that condition is
+now supplied (poloidal sense fixed by plume geometry); the relative toroidal–poloidal bit remains
+the open half.
 
 The helicity sign is not locked to the baryon draw. The winding n and the rotation θ̇ are independent
 draws: reversing the genesis ring flips n while leaving the charge Q that sets θ̇ untouched, so
@@ -31,21 +35,22 @@ model lacks is injected). Helicity, if measured, is an independent accident — 
 on one integer. The magnitude claim sign(helicity_B) = sign(n) still holds; its lock to the
 matter–antimatter draw does not.
 
-## 2. The reading protocol (and the owed keys)
+## 2. The reading protocol (and the keys)
 
-If the IGMF helicity measurement firms, the family converts to ONE-MEASURED / TWO-PREDICTED:
-the measured handedness would FIX sign(n), which then PREDICTS (i) the chiral-GW background's
-handedness (thread T10) and (ii) the baryon-sign consistency. The owed keys are two, and they
-are different objects. The first is the SEEDING key: reading a measured handedness back to
-sign(n) at all requires that the seeding step be signed by n, and on the recorded mechanism it is
-not — the Harrison battery converts vorticity to field through a constant coefficient, so the
-seeded magnetic helicity is the medium's *kinetic* helicity rescaled by a positive number
-(§"the seeding link" below). The second is the RECTIFICATION key: which magnetic handedness
-corresponds to matter-wins runs through the AD-direct rectification (the domain-sign gate). Until
-both are derived the datum cannot be read — the family has a measured member but no dictionary,
-and **supplying only the rectification does not open it**. Both keys are therefore promoted: they
-are no longer only the baryogenesis internal debt; they are the key to the sky's first chirality
-datum.
+If the IGMF helicity measurement firms, the family converts to ONE-MEASURED / TWO-PREDICTED
+on the *narrower* claim: the measured handedness would FIX sign(n) *if* the seeding step is
+signed by n, which then PREDICTS the chiral-GW background's handedness (thread T10). The
+baryon-sign consistency that once sat as a second prediction is **void** — the rectification
+key has been computed and finds sign(θ̇·n) independent (below), so matter-wins does not
+translate into a magnetic hand.
+
+The keys are two different objects, and they are no longer both unpaid. The first is the
+SEEDING key: reading a measured handedness back to sign(n) at all requires that the seeding
+step be signed by n; the Harrison battery converts vorticity to field through a constant
+coefficient, so the seeded magnetic helicity is the medium's *kinetic* helicity rescaled by a
+positive number (§"the seeding link" below) — **half paid** (poloidal sense fixed), relative
+bit open. The second is the RECTIFICATION key — **computed and closed as independent** — so
+the dictionary the sky needs is the seeding half alone, not both keys.
 
 ## 3. Falsifiable content
 
@@ -56,14 +61,20 @@ ABOVE our smooth-Harrison floor and would need the network structure to be real)
 
 ## 4. Owed (mirrors working_logs/T14)
 
-1. The sign map, in two parts, both load-bearing: (a) the seeding sign — the handedness of the
-   genesis roll-up's flow, sign(H_kin), which is what the Harrison step actually hands on; (b) the
-   AD-direct rectification — sign(θ̇·n), which says which handedness means matter.
+1. The sign map, split by what the body has already paid:
+   (a) the seeding sign — the handedness of the genesis roll-up's flow, sign(H_kin), which is
+   what the Harrison step actually hands on. **Half paid:** poloidal sense is fixed by the
+   plume's geometry (`scripts/ring_rollup_poloidal_v3.py`). **Still open:** the relative
+   toroidal–poloidal bit the three-dimensional run addresses.
+   (b) ~~the AD-direct rectification — sign(θ̇·n)~~ — **computed 2026-07-20: independent**
+   (joint correlation −0.06 to +0.09 against a ±0.13 floor). The cross-messenger lock is
+   **void**, not pending; absolute handedness is not something this sector can predict.
 2. The literature refresh + systematics status of the helicity claims.
 3. The magnitude confrontation with P-028's computed columns.
 
-*Three siblings, one integer. The sky may have already fingerprinted the first — and the
-model's next derivation is not a number but a dictionary: which hand means matter.*
+*Three siblings, one integer. The sky may have already fingerprinted the first — and what
+remains of the dictionary is the seeding half alone: whether the ring's poloidal sense locks
+to the genome's toroidal draw.*
 
 
 ## The rectification link, taken apart (2026-07-18)

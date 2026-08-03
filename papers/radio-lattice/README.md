@@ -2,7 +2,8 @@
 
 **Author:** Justin Pulford (unaffiliated)
 **arXiv category:** astro-ph.CO primary, astro-ph.IM cross-list
-**Status:** submission-ready. Endorsement is the only remaining step.
+**Status (2026-08-02):** TeX package ready. No content holds. Endorsement (astro-ph archive)
+is the only remaining step for arXiv — not claimed here.
 
 ## Relation to the framework
 
@@ -57,7 +58,7 @@ carries no σ. A single band deviating from its assigned weight falsifies the pa
 ## Folder contents
 
 - `main.tex`, `refs.bib` — source. 31 bibliography entries, all cited, no orphans.
-- `main.pdf` — 6 pp, ~302 KB (after stripping printed BibTeX `note` audit text).
+- `main.pdf` — 6 pp, ~302 KB (309217 bytes; after stripping printed BibTeX `note` audit text).
 - `submission/` — exactly what arXiv receives: `main.tex` + `main.bbl`, nothing else.
 - `radio-lattice.tar.gz` — that directory, ~15 KB. Must be rebuilt whenever `refs.bib` changes
   so the shipped `main.bbl` matches the source.
@@ -65,5 +66,13 @@ carries no σ. A single band deviating from its assigned weight falsifies the pa
 
 Verified by extracting `radio-lattice.tar.gz` into an empty scratch directory and running two
 pdflatex passes with nothing else (arXiv's build): 0 errors, 0 undefined references, 0 overfull
-boxes. BibTeX `note` fields are absent from `refs.bib` / `main.bbl`; provenance lives only as
-`%` comments (and those comments must not contain bare `@…` tokens — BibTeX still tokenizes them).
+boxes. BibTeX `note` fields are absent from `refs.bib` / `main.bbl` (no live `note =`, no
+`\bibinfo{note}` cruft); provenance lives only as `%` comments (and those comments must not
+contain bare `@…` tokens — BibTeX still tokenizes them). No empty acknowledgments; no
+framework name in the source.
+
+**DM demotion (reconciled, not a hold).** An earlier owner ruling held the paper for an
+independent electron-column determination after the dispersion row was demoted. The hold was
+closed by writing the demotion into the paper: only 21 cm and Faraday are treated as presently
+measurable; the five-weight pattern stands; methanol's tighter amplitude bound is stated
+outright. See `docs/working_logs/_ARXIV_READINESS.md`.

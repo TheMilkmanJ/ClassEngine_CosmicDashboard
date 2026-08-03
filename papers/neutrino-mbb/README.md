@@ -2,7 +2,8 @@
 
 **Author:** Justin Pulford (unaffiliated)
 **arXiv category:** hep-ph
-**Status:** submission-ready. Endorsement is the only remaining step.
+**Status (2026-08-02):** TeX package ready. No content holds. Endorsement (hep-ph archive)
+is the only remaining step for arXiv — not claimed here.
 
 ## Relation to the framework
 
@@ -43,13 +44,16 @@ reach falls inside that interval.
 ## Folder contents
 
 - `main.tex`, `refs.bib` — source. 11 bibliography entries.
-- `main.pdf` — 3 pp, ~249 KB (after stripping printed BibTeX `note` audit text).
+- `main.pdf` — 3 pp, ~249 KB (254556 bytes; after stripping printed BibTeX `note` audit text).
 - `submission/` — exactly what arXiv receives: `main.tex` + `main.bbl`, nothing else.
 - `neutrino-mbb.tar.gz` — that directory, ~8 KB. Rebuild whenever `refs.bib` changes so the
   shipped `main.bbl` matches the source.
 
 Verified by extracting `neutrino-mbb.tar.gz` into an empty scratch directory and running two
 pdflatex passes with nothing else: 0 errors, 0 undefined references, 0 overfull boxes.
+Re-checked 2026-08-02: no live `note =` in `refs.bib`, no `\bibinfo{note}` in `main.bbl`, no
+empty acknowledgments, no framework name in the source. 8/8 numerical claims re-derived
+against the paper's own oscillation inputs.
 
 Provenance for individual references is kept as `%` comments in `refs.bib`, not in BibTeX
 `note` fields — apsrev4-2 typesets `note` fields into the reference list. Comments must not

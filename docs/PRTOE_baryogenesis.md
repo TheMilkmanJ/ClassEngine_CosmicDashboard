@@ -67,10 +67,10 @@ recorded junction template): I_L ∝ μ sin Δθ.
   docket item **#180** — and it is a prerequisite for reading this entry's verdict, not a
   footnote to it.
 - **The one residual, and it is a single calculation.** The **rectification** — the AD-direct
- domain-sign mechanism — is now required by four separate results at once: η's magnitude at
- that boundary, η's sign, the θ_B↔helicity lock, and step 5 of T14's derivation chain. It is
- the sharpest outstanding computation in the sector and is tracked on the project's task board
- rather than here.
+ domain-sign mechanism for η's magnitude and sign — remains the outstanding demand of the
+ junction route. *(The θ_B↔helicity lock that once sat among its dependents is **void**: the
+ joint draw finds sign(θ̇·n) independent, so T14's step 5 does not ride this residual.)* It is
+ tracked on the project's task board rather than here.
 
 ### What carries the transmission
 

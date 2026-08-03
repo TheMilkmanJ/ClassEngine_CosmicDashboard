@@ -1006,5 +1006,6 @@ the emission carries the unit isotropic measure and no residual energy ratios
 Together: the per-vertex factor is the screened coupling over 4π by channel,
 count, and measure, and the closed form's three vertices stand derived at
 candidate grade. Live referees: the crossover number of P-2026-048, the
-kernel-host condition of the hierarchy sector (its one owed number), and the
-concordance value of the screening factor at the chains' convergence.
+kernel-host condition of the hierarchy sector (its formation-epoch number, paid
+in hierarchy §6n), and the concordance value of the screening factor at the
+chains' convergence.

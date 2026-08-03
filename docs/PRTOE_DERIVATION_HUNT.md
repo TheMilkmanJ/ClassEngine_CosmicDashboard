@@ -935,11 +935,13 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
   full-Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange in the particle-hole
   channel (Monte-Carlo confirmed; re-verified to 9×10⁻¹² with its conventions printed), and its
   host question is settled onto standard ground: the screening constant is doping-independent and
-  a ground-state kernel is the gap equation's own construction (hierarchy §6n), with one owed
-  number (the formation-epoch bath against the band's doping). The velocity-matching structure
+  a ground-state kernel is the gap equation's own construction (hierarchy §6n), with the
+  formation-epoch bath against the band's doping **now computed there** (T/μ = 2–7×10⁻¹⁶). The
+  velocity-matching structure
   (r = v_e/v_h free) is unchanged (hierarchy §6c, §6e). The **4π is the standard loop factor**;
   the **cube is the three spatial dimensions**. Live referees: P-2026-048's crossover number, the
-  kernel-host owed number, and the concordance k at the chains' convergence. The exact O(1)
+  kernel-host formation-epoch condition (paid in hierarchy §6n), and the concordance k at the
+  chains' convergence. The exact O(1)
   **normalization of the shot-noise count** (the "count C") is set by the physical erasure
   channel: its occupancy-one partner count fixes the
   per-vertex factor with nothing adjustable. The convention decomposition, which offers
@@ -1137,7 +1139,8 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
    partner count (the spine §23.5: channel + count + measure, the count measured directly at
    1.003 ± 0.005 through the amplitude's cube). k remains the derived screened-interaction
    integral on its standard host (hierarchy §6n); the live referees are P-2026-048, the
-   kernel-host owed number, and the concordance k at the chains' convergence.
+   kernel-host formation-epoch condition (paid in hierarchy §6n), and the concordance k at the
+   chains' convergence.
 5. *(closed as owed) The spurion μ = 2.25 meV* — graded as **not** an independent input:
    it is the electron-anchored meV-scale value (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1.
 

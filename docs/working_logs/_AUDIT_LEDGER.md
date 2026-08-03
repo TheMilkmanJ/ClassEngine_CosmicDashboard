@@ -6702,3 +6702,103 @@ three rewritten to the current state: fifth launch, three ranks, basin-narrowed 
 burn-in, predecessors archived. Residual sweep for both phrases corpus-wide: clean.
 
 Tally: 10 of 53 files read whole. hierarchy_problem (1,223 lines) is the remaining giant.
+
+---
+
+## 2026-08-02 — docket #149 check 12: Owed / still-open residue sweep (dead premise under live conclusion)
+
+**Scope.** Check 12's residue class, the same failure mode as the s8_growth "unproduced vs chains
+running" bug fixed under check 13 on 2026-07-29: a header, open-list, or pull-quote still saying
+*owed / still open / live / pending* while the body (or a sibling forward file) has already paid,
+voided, or reclassified the item. Pass ran over forward-facing `docs/PRTOE_*.md` (~57 files under
+`docs/` excluding `archive/`, `exploratory/`, `historical_*`, pure working-log archives). Grep for
+`Owed|owed|still open|pending|running chains|unproduced|live chains|both owed|#154`, then read
+surrounding context. **Carved out by intent:** `PRTOE_FAILURES_LEDGER.md` and
+`PRTOE_PREREGISTERED_PREDICTIONS.md` (historical "owed on a date" records). Working-log
+`T*_owed.md` files not rewritten. Physics and prediction content untouched — wording only.
+
+**Method, not a whole-file re-read of every page.** This tick is the *residue class* sweep, not the
+broader #94 whole-file queue. Every hit was classified OK / STALE / REAL OPEN before any edit.
+
+### Defects fixed (STALE only) — 9 files, ~17 local edits
+
+1. **`PRTOE_s8_growth.md` — exact sibling of the 07-29 check-13 find.** §4 correctly says the
+   conv_desi posterior is *unproduced rather than pending* and the chain died twice; the *header*
+   still read "with live chains testing it (conv_g sampled in the thaw chain and conv_desi)", and
+   §2 said "Their converged posteriors are the mechanism's test." Header and §2 rewritten to
+   *configurations / unproduced / would be the test once produced*. Companion `s8_tension` already
+   clean from 07-29.
+
+2. **`PRTOE_igmf_helicity.md` — "both owed" under a body that had paid half and voided half.**
+   Intro box, §1, §2 ("owed keys… Until both are derived"), and §4 all still treated seeding
+   sign(H_kin) and rectification sign(θ̇·n) as unpaid work orders. Body (2026-07-20) already:
+   temporal half = fair coin; joint draw = independent (lock void); poloidal sense fixed by plume
+   geometry. Rewrote intro/§1/§2/§4 to current: rectification **computed, lock void**; seeding
+   **half paid**, relative toroidal–poloidal bit still open on the 3D run. Pull-quote no longer
+   asks "which hand means matter."
+
+3. **`PRTOE_dcdf_superfluid.md` — open-residue list and §3 still claimed #154 was missing.**
+   "What is still open" listed the matter-asymmetry sign correlation; §3 said "one unbuilt
+   junction" and "an instrument the corpus does not yet have (#154)". #154 closed 2026-07-20
+   (independent). Dropped the correlation from the open list (with a short paid note), rewrote §3
+   and the temporal/correlation paragraph to *void, not pending*.
+
+4. **`PRTOE_honest_status.md` — same #154 absence claim** ("no solver in the corpus can compute
+   it… Building the joint solver… is docket #154"). Updated to the closed, negative verdict.
+   (Internal board, but it was a live contradictory claim against three forward siblings.)
+
+5. **`PRTOE_information_paradox.md` table — field-content extension still listed as remaining.**
+   Header and §3 already say the roster extension is paid class by class; the Page-curve table
+   cell still said "what remains is the curve itself, *plus* the field-content extension." Table
+   now: extension paid; **what remains is the curve itself**.
+
+6. **`PRTOE_THE_AMPLITUDE.md`, `PRTOE_DERIVATION_HUNT.md` (two sites), `PRTOE_MATH_SPINE.md` §23.5
+   — "owed formation-epoch number" after hierarchy §6n paid it.** Hierarchy's own next sentence
+   is "And the owed number is now computed" (T/μ = 2–7×10⁻¹⁶). Four live carriers still sold it as
+   a live referee debt. All four now point at the paid condition. (Failures-ledger historical row
+   left alone.)
+
+7. **`PRTOE_baryogenesis.md` residual bullet — θ_B↔helicity lock still listed as a dependent.**
+   Body demanded rectification for "four separate results" including the lock; the lock is void.
+   Residual narrowed to η's magnitude/sign; lock noted void so T14 step 5 does not ride it.
+   Header "one owed number" left — still names a real residual (junction demand), not a paid one.
+
+### Classified OK (historical / narrative / already paid-in-place) — not edited
+
+Literal `## Owed` sections already adjudicated under check 13 (2026-07-29): `indirect_detection`
+(paid/reduced with strike-throughs), `lss_parity`, `bigbang_no_singularity`, `no_singularities`,
+`arrow_of_time` (philosophical joint named), `s8_growth` §4 body (header was the leak). Sequential
+"narrows to one owed number / And the owed number is now computed" in hierarchy §6n is narrative,
+not residue. `cosmic_magnetism` already carries the independent-draw update. `s8_tension` header
+already corrected 07-29.
+
+### REAL OPEN left open (genuinely unfinished — no fake discharge)
+
+Representative, not exhaustive: bounce dynamics / MeV-over-keV hot start; seeding relative
+toroidal–poloidal bit (3D); Page *curve* computation; matched DES/KiDS lensing fit; conv_desi
+posterior (unproduced, owner restart); dyad_gas UV operator / T_c pin / crunch bridge; neutrino
+flavor distribution; radio-lattice trispectrum/BipoSH check; lattice T_c/√σ for SU(2) N_f=3;
+Koide K∼R², V∼M² identification; junction ω_J as an independent seat derivation (η still *demands*
+~5.7 keV); DE residual from dCDF's own F–D response; Route-D / α_c chain convergence as referees.
+
+### Residual phrase sweep after edits
+
+`live chains testing`, `both owed`, `does not yet have (#154)`, `no solver in the corpus`,
+`kernel-host owed`, `owed formation-epoch` — **zero hits** remaining under `docs/PRTOE_*.md`.
+One working-log hit left in `working_logs/tilt_envelope_derivation.md` (not forward-facing; not
+touched).
+
+### Counts
+
+| | |
+|---|---|
+| Forward-facing files in scope (docs/PRTOE_*.md, excl. carved-out registries as *edit* targets) | **~57 scanned by grep; 20+ bodies read at hit context** |
+| STALE defects fixed | **9 files, ~17 edits** |
+| REAL OPEN left open | **many — listed above; none silently closed** |
+| Carved out (historical record) | failures ledger, prediction registry |
+
+**Docket #149 status after this tick.** Check 12 residue class (owed/still-open contradiction
+sweep) is **paid for the forward-facing corpus on this failure mode**. Check 12 as *whole-file
+read of every remaining unread page* is a broader queue (shared with #94's tally: hierarchy giant
+still queued); that is not this tick's claim. Check 13's seven-section pass stands from 07-29.
+The 135 bare owed-class markers inside the two registries remain carved out.

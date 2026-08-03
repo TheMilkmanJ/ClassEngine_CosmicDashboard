@@ -552,3 +552,76 @@ excluded. **The sign is still undetermined** and for the reasons already recorde
 genuinely dead rather than provisionally suspended, so the toroidal *circulation* is not measured by
 it, and the assembly rule (self term κ²(Wr+Tw) versus mutual 2κ₁κ₂Lk) still needs its dominant term
 identified. Killing (B) honestly removes a false hope, it does not supply the missing number.
+
+## Desk bits closed (2026-08-02) — convention audit verdict; which terms contribute
+
+Two items were named "owed, and it is desk work." Both are stated here so the next pass does
+not re-open them by inspection. Neither invents sign(H_kin).
+
+### 1. Convention audit — verdict
+
+**Cross-instrument frame matching cannot close the overall sign.** The 2026-07-28 audit
+attempted to align `ring_rollup_poloidal_v3.py` and `ring_toroidal_3d.py` on a common
+right-handed frame, positive-circulation sense, and axial direction. That programme fails for
+a structural reason, not a missing checklist item: the two scripts do not reduce the same
+kind of object. The poloidal instrument returns a **signed circulation** (plaquette-winding
+sum about the vortex core). The toroidal instrument's surviving reading (A) returns a
+**writhe / shape** observable — sign(Im(z₁·conj(r₁))), the m = 1 displacement sense of the
+core *curve* — not a line-integral circulation. Reading (B), which *is* a toroidal phase
+winding, is ledger-dead after the off-core re-run. A product of a circulation and a shape
+number is not H_kin until a map supplies the missing identification; agreeing that both
+scripts use a right-handed coordinate frame does not supply that map.
+
+**Resolution path, already named and still correct:** form the product inside a **single
+instrument's convention** — specifically, have the 3D harness report the ring's toroidal
+circulation (phase gradient integrated the long way around the core, sampled off the
+singularity) alongside the shape reading, in the frame it already uses for the m = 1
+decomposition. Once both factors live in one script, the cross-instrument audit is
+unnecessary.
+
+**Residual risk, stated without a provisional sign:** until that single-instrument product
+exists, the only safe external statement is
+
+> **sign(H_kin) ∝ sign(n), with the proportionality sign undetermined.**
+
+Do **not** quote sign(H_kin) = −sign(n) or +sign(n). The branch result (toroidal structure
+flips with the winding draw; universal handedness excluded) is convention-free and stands
+without that overall sign. Harrison's step remains exact: sign(helicity_B) = sign(H_kin);
+what is open is only the sign of H_kin relative to n.
+
+**Desk status: closed as a verdict.** The open work is MACHINE — the 3D / toroidal-circulation
+diagnostic (and any re-run that reports it), not another pass of reading the two scripts
+side by side.
+
+### 2. Which terms contribute at this configuration — short statement
+
+**Both helicity terms are present; they carry the sign differently; their magnitudes are
+expected to compete.**
+
+Configuration (the completed 3D setup): a thin-core vortex ring (r̄ ≈ 4.3, core ~√2,
+r̄/core ≈ 3) encircling a background axis line of winding n, **Lk = 1**, ring well inside the
+box. Then, in quantized units with κ_ring = 1 and κ_axis ∝ n:
+
+| term | form | sign carrier |
+|---|---|---|
+| **self** (ring with itself) | κ_ring² · (Wr + Tw) = Wr + Tw | **geometry only** — writhe of the centreline plus intrinsic twist along it; the ring's own circulation **squares away** |
+| **mutual** (ring ↔ axis) | 2 · κ_ring · κ_axis · Lk = **2n** | **n** (and the ring circulation if it is signed separately); mutual piece is **exactly 2n**, no measurement required for that term alone |
+
+**Assembly, explicit:** H_kin ~ **2n + Wr + Tw**. The mutual piece is the robust, quantized
+contribution that flips with the genome draw by construction. The self piece is whatever
+writhe and intrinsic twist the ring carries; #19's poloidal *sign* enters the mutual term
+and is irrelevant to the self term. Reading (A) is writhe-like; an honest off-core (B) would
+have been twist-like — (B) is dead, so Tw is not in hand from that channel.
+
+**What the defective-run scale check already showed, and what it may not conclude:** using the
+old on-core Tw only as an order-of-magnitude probe, mutual (~2) and Tw were comparable and
+opposed, so sign(H_kin) sits near a cancellation and is acutely sensitive to Tw. That is a
+structural warning, not a booked magnitude comparison. Dominance (self vs mutual at this
+scale separation) is a **magnitude** question and remains open until an honest Tw (or an
+equivalent single-instrument helicity) is measured.
+
+**Desk status: closed** for the qualitative assembly rule and the statement of which terms
+exist. **MACHINE remains:** honest toroidal circulation / Tw in one 3D instrument; then the
+numerical self-vs-mutual comparison that decides sign(H_kin) at this configuration. Link 5
+stays closed negative; the measured left-handed IGMF hint stays unreadable through this chain
+regardless of how link 4's overall sign lands.

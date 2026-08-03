@@ -108,11 +108,11 @@ is odd under it, so the uniform release prior splits exactly evenly at any tilt 
 any CP phase. The proof does not lean on the tilt's four-foldness — which is an input, not a
 derivation — because every single-harmonic tilt cos Nθ carries the same reflection, σ: θ → 2π/N − θ.
 The chirality family therefore cannot deliver an absolute sign a priori — not pending a
-computation, but forbidden by a symmetry the model does not break. What could still rescue the
-cross-messenger test is the *correlation* between θ̇ and the winding, and no solver in the corpus can
-compute it: one carries time evolution without winding, the other winding without time evolution.
-Building the joint solver — winding and rotation on one trajectory — is docket **#154**, desk work
-on the genesis solver with no external gate.
+computation, but forbidden by a symmetry the model does not break. What could still have rescued the
+cross-messenger test was the *correlation* between θ̇ and the winding. That joint draw has since
+been made (#154, 2026-07-20) and finds the two signs **independent** — joint correlation −0.06 to
++0.09 against a ±0.13 floor — so the lock is **void**, not pending
+([PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md); [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md)).
 
 **Adverse, third front — an exposure lost its defence.** The genesis quartic was carried as
 quenching a growing superradiant cloud, so P-2026-034's band could hold high measured spins without

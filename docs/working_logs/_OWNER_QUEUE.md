@@ -388,9 +388,14 @@ in `_ARXIV_READINESS.md`.
 > 0 undefined, 6 pp. **And the paper is now marked NOT arXiv-ready** until an independent
 > electron-column determination promotes the row back. Full record in `_ARXIV_READINESS.md`.
 >
+> **2026-08-02 readiness check (hygiene only):** the demotion ruling still stands. The radio-lattice
+> package is staged mechanically in `docs/arXivReady/` (0/0/0 build); that is not a physics-readiness
+> flip. The first public note from the set is the **supertrace** Zenodo deposit
+> (10.5281/zenodo.21763188), not radio-lattice. No new owner ruling is asked here.
+>
 > *Original decision text retained below for provenance.*
 >
-> ### ⚠ DECISION NEEDED — one sentence in `papers/radio-lattice/main.tex`
+> ### ⚠ DECISION NEEDED — one sentence in `papers/radio-lattice/main.tex` *(historical; ruled above)*
 >
 > *"The dispersion-measure row is statistically the strongest."*
 >

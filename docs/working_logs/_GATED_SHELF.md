@@ -52,12 +52,16 @@ the board.
 
 Distinct from section 3, because nothing external is being waited on — the code has not been built.
 
-- **#150 (B1, the genesis solver)** and **#151 (B6, the BipoSH joint pipeline)** — both still PROJECT
-- **#160 — the low-ℓ regeneration**, which gates #151: the booked 83% retention came from a
-  scratch-era pass that no longer exists, and the retained toy gives ~49%
-  *(2026-07-27 sync: PAID 2026-07-20 — `scripts/torus_lowell_pattern.py`, 90% retention, S/N 0.16;
-  the #151 gate is lifted; this bullet stood stale while its own payment sat in T5's table)*
-- **#173 — the R1 caustic-bit two-field sims**, the named remaining gate on the carrier-ratio exhumation
+- ~~**#150 (B1, the genesis solver)** and **#151 (B6, the BipoSH joint pipeline)** — both still PROJECT~~
+  **(2026-08-02 hygiene: both are no longer sim-gated as "unbuilt".)** #150 is **built and delivering**
+  (`scripts/genesis_solver_B1.py`; production run deferred only). #151's **estimator is built**
+  (`scripts/biposh_estimator_pass.py`); what remains is the external data application, not a missing
+  pipeline. #160's gate on #151 was already lifted 2026-07-20.
+- ~~**#160 — the low-ℓ regeneration**~~ *(PAID 2026-07-20 — `scripts/torus_lowell_pattern.py`, 90%
+  retention, S/N 0.16; the #151 gate is lifted)*
+- **#173 — the R1 caustic-bit two-field sims** — re-typed 2026-07-27: the precision test this row
+  gated is discharged by theorem; the sweep is confirmation-class and MACHINE-gated (run when MCMC
+  is off the box). Genuine residual is the non-polynomial coupling's UV story, not the sim itself
 - **the two surviving staged tests** (χ-lag core-halo, granule heating) — sim-gated, and neither
   waits on any remaining mathematics. The granule meter's statistical core is finished; only its
   dynamical half is missing
@@ -67,38 +71,32 @@ Distinct from section 3, because nothing external is being waited on — the cod
 **This is the longest section, and that is the point of the page.** Nothing below waits on a run, a
 measurement, a ruling or a facility. Each waits only on someone doing it.
 
-> **Reverse-audit correction (2026-07-21):** four items below closed in the files *after* this page
-> was written and are stale here — **#141** (vertex integral, c = 0.789262), **#133** (the rung is
-> fixed by the κ-cancellation), **#134** (F_dark/√σ = 0.40–0.47, "Docket #134 closes"), **#175** (the
-> RECFAST-class thermal-history run made and booked). Of the set the task list had over-marked — #101, #102, #121, #123, #154, #180 — four have since
-> resolved: **#121** (exact Ψ₀ and f_amp, computed) and **#154** (the joint genesis draw, proven);
-> **#123** (a reframe — the DE value rides the condensation energy at Door A, and the mode sum cannot
-> be the object) and **#180** (adjudicated — n ≳ 1.65 is the honest bound, the derived n carried under
-> #117). That leaves **#101 and #102** as the genuinely-owed remainder — the Koide-node physics: what
-> seats the hopping at |b|/a = 1/√2, and what sources the Brannen phase.
+> **Reverse-audit correction (2026-07-21; list hygiene 2026-08-02):** the following closed in the
+> files after this page was written and are **no longer listed below** — **#141** (vertex integral,
+> c = 0.789262), **#133** (rung fixed by κ-cancellation), **#134** (F_dark/√σ = 0.40–0.47),
+> **#175** (RECFAST-class thermal-history run made and booked), **#120** (regulator O(1), structural),
+> **#121** (exact Ψ₀ and f_amp), **#123** (Gibbs–Duhem reframe — DE rides Door A), **#154** (joint
+> genesis draw, proven independent), **#180** (n ≳ 1.65 adjudicated; first-principles n under #117),
+> plus the earlier struck set **#168, #125/#126, #129**. Docket rows carry the receipts.
 
-- **#141 — the vertex correction.** One coefficient from one well-posed integral. It dominates the
-  anchor's 1–8 TeV band and blocks **#124**. Attempted twice, retracted twice, both times as an
-  *argument* rather than an integral and both times pointing the favourable way
-  *(2026-07-27 sync: both clauses are dead — #141 closed at c = 0.789262 (see the reverse-audit
-  correction above), the band moved to 0.55–1.78 TeV, and #124 itself is now closed by
-  computation: no edge convention closes the gap, minimum 3.6× across every admissible pairing,
-  `scripts/edge_convention_verdict.py`)*
-- **#146** the basement's band structure · **#101/#102** the Koide mechanism and the Brannen phase
-  · **#115–#118** the family
-  potential, seat alignment, bounce sector, two-draws ·
-  **#123** the Gibbs–Duhem mode sum
-  · **#130** the base α's two pieces · **#133** which rung
-  condensation picks · **#134** the dark vortex pair · **#161** the
-  matched lensing likelihood · **#180** the winding integer,
-  *(struck from this list 2026-07-27, all docket-closed with receipts: #168 — the count C,
-  mechanized, N = 1.003 ± 0.005, `occupancy_one_exhibit.py`; #120 — closed structural; #125/#126 —
-  graded adverse / withdrawn; #129 — closed negative, an identification not a derivation; #154 —
-  the joint draw, proven independent; #175 — the thermal-history run, made and booked)*
-  whose input `L_gen` is never assigned a value anywhere in the corpus
-- **#22 — the flavour puzzle**, reopened: its lever ("α_c = 3α counts the three flavours") was
+**Still genuinely owed on this shelf (desk work, no external gate):**
+
+- **#101 / #102** — the Koide-node physics: what seats the hopping at |b|/a = 1/√2, and what sources
+  the Brannen phase
+- **#115** — family-field / lock-arc residue (ring-centre face supplied 2026-07-28; live residue is
+  L2 deposit argument and the graded-norm mechanism with #101). **#117** bounce sector (owns a
+  first-principles winding integer beyond #180's bound). **#118** closed by the chain file's own
+  record (two draws are separate mechanism classes) — not listed as open here
+- **#116** — seat-alignment: medium is identity-blind; gated on a flavor-resolved settling profile
+  Φ_med(T) (inherits the basement build — belongs with basement-blocked work rather than pure desk)
+- **#130** — base α piece 1 only (two-channel Π at zero momentum); piece 2 closed and propagated.
+  Piece 1 is basement-blocked behind #113/#146
+- **#146** — basement band structure (reduced; open count is §6f's third horn / phase condition)
+- **#161** — the matched lensing-likelihood fit
+- **#22** — the flavour puzzle, reopened: its lever ("α_c = 3α counts the three flavours") was
   retired as a false receipt, so reopening is a re-scope rather than a re-run
 
 *Discipline for this page: an item moves out of section 6 only when a real external dependency is
 named, and moves into sections 1–5 with that dependency written beside it. "Waiting" is not a
-dependency.*
+dependency. Closed items do not remain in the bullet list with a parenthetical "paid" note — they
+leave the list and sit in the reverse-audit box above.*

@@ -24,8 +24,11 @@ What is still open:
 
 - the residual magnitude **from this sector's own dynamics** (it is supplied by the Koide-kernel
   route — see §5 and the note there; what fails here is the fluctuation–dissipation closure);
-- the matter-asymmetry sign correlation from the genesis draw;
 - the exact link between the condensate floor and the bounce dynamics.
+
+*(The matter-asymmetry sign correlation from the genesis draw is **not** still open: the joint
+draw was run 2026-07-20 and finds θ̇ and n independent — the cross-messenger lock is void, not
+pending; see [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md) and §3 below.)*
 
 So the dCDF is already mostly derived structurally. The open residue is the residual magnitude
 and the sign/correlation junctions, not the existence of the component itself.
@@ -78,18 +81,19 @@ He-3-as-medium is retired there on four independent shots.)*
 
 Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abundance"). The genesis
 draw is **a candidate source of the matter asymmetry** (why the hot baryonic pour contains matter at
-all) — candidate because the step from the draw to a matter *sign* is the sector's one unbuilt
-junction. *"The superfluid fathered the visible universe"* = this claim at that grade, and the live
-thread: the **AD-direct rectification**, which reduces to a single relative sign — matter rides the
-temporal rotation θ̇, handedness the spatial winding n, and the recorded first-roll theorem is what
-would lock them ([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)).
+all) — candidate at the magnitude/route grade, not at the absolute-sign grade. *"The superfluid
+fathered the visible universe"* = this claim at that grade. The **AD-direct rectification** that
+would have locked matter's temporal rotation θ̇ to the spatial winding n has been run
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)): the two signs
+are independent, so the cross-messenger lock is void rather than unbuilt.
 
 **The temporal factor is settled and it is a coin.** The genesis tilt's reflection symmetry
 θ → π/2 − θ leaves release-at-rest and the uniform prior invariant while flipping L = R² θ̇, so the
 roll generates rotation with no preferred sense — verified to machine precision at every tilt
-strength. So the sector cannot name which handedness means matter *a priori*. Whether it can name the
-**correlation** turns on the first-roll theorem run for its sign, which needs one draw carrying both
-the winding and the rotation — an instrument the corpus does not yet have (#154).
+strength. So the sector cannot name which handedness means matter *a priori*. The **correlation**
+has since been computed: one draw carrying both the winding and the rotation was built and run
+(#154, 2026-07-20) and finds the two signs **independent** — joint correlation −0.06 to +0.09
+against a ±0.13 floor. The absolute-handedness question is therefore closed as *void*, not pending.
 
 ## 4. Its light
 

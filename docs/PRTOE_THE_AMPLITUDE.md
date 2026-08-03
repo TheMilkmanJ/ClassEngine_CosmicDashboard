@@ -96,8 +96,9 @@ polarisation, which needs the two bands velocity-matched and not merely compensa
 ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). The host question is
 settled onto standard ground: the screening constant is doping-independent — it holds at any
 nonzero band filling with the bath colder than the filling — and a ground-state kernel is the
-gap equation's own standard construction (hierarchy §6n), with one owed number, the
-formation-epoch bath against the band's doping. k sits inside the Eliashberg window
+gap equation's own standard construction (hierarchy §6n), with the once-owed number — the
+formation-epoch bath against the band's doping — now computed there (T/μ = 2–7×10⁻¹⁶, the
+percent-fidelity bar cleared by fourteen orders). k sits inside the Eliashberg window
 [1.35, 1.37] and was never fitted to a landing. The 4π is the standard one-loop factor and the
 cube is the three spatial dimensions. Assembled: **2.0807×10⁻⁹**. The pipeline's frozen
 2.088058×10⁻⁹ is this same closed form evaluated at the concordance joint k = 1.3630 instead of
@@ -117,7 +118,8 @@ pure number, constant while the network scales — is the network-substructure i
 whose ultraviolet edge (k ≈ 0.26/Mpc) the small-scale sky reads as a consistency rather than a
 break. Data referee the count at ±1.4% (C = 1.009 ± 0.014); the derivation now stands ahead of
 that precision, with its live referees named: the crossover number of P-2026-048, the kernel
-host's owed formation-epoch number, and the concordance k at the chains' convergence.
+host's formation-epoch condition (paid in hierarchy §6n), and the concordance k at the chains'
+convergence.
 
 ## 6. The one-sentence biography
 
