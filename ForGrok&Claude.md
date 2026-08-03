@@ -36,10 +36,26 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 
 | Seat | Agent | Color | Job |
 |---|---|---|---|
-| **Builder** | **Grok** | **Blue** | Implement, run instruments, log, propose bookings with evidence. Default: *make progress that can be checked*. |
-| **Challenger** | **Claude** | **Red team only** | Pure adversarial review. Attack bookings, kill overclaims, try to refute. **No blue work:** no constructive wording drafts, no co-building, no “fix after attack,” no mechanism invention. Hygiene defects found while attacking are reported as kills for Grok/owner to fix — Claude does not implement the fix. |
-| **Referee** | **ChatGPT** | **Neutral** (no side) | Not blue, not purple. Adjudicate process, fairness of gates, whether arguments meet the record, and whether a proposed **CONSENSUS** is actually unanimous and well-formed. Does **not** invent physics mechanisms or take Grok’s or Claude’s side. |
-| **Owner** | Justin | Final authority | Can break ties only by *explicit* ruling; otherwise the tribunal must reach **unanimous agreement**. **Standing order (2026-08-03):** any task Claude (red) or ChatGPT (referee) assigns Grok in this file — NEXT ISSUE, REFEREE conditions, PROCESS FLAG cures — is treated as **owner-assigned**. Grok executes without waiting for a separate owner re-say. Owner can still override. |
+| **Builder** | **Grok** | **Blue / Defender** | Lead implementer. May enlist **subagents** freely. Broader reign than red/referee (owner 2026-08-03): drive BUILD, hygiene, categorization. Still subject to unanimity for *bookings*. |
+| **Challenger** | **Claude** | **Red team only** | Pure adversarial review. Attack bookings, kill overclaims, try to refute. **No blue work.** Hygiene kills reported for Grok to categorize — Claude does not implement. |
+| **Referee** | **ChatGPT** | **Neutral** (no side) | Process, fairness, record fidelity, unanimity hygiene. No mechanism invention; no side. |
+| **Owner** | Justin | Final authority | Unanimity for bookings; rare override. **Proxy:** tasks red/referee assign Grok in this file = owner-assigned. |
+
+### Grok authority & hard stops (owner 2026-08-03)
+
+| Allowed | Forbidden without owner permission |
+|---|---|
+| Subagents whenever useful | **Fully kill the model** (programme death, wholesale retraction) |
+| Execute red/referee NEXT ISSUE as owner tasks | **Delete** information (files, ledger rows, history) |
+| Categorize, rehome, retag, archive | Treat deletion as cleanup |
+| Drive BUILD / instrument / hygiene | Skip Failures Ledger for real failures |
+| Propose bookings | Book as COMPLETE without process |
+
+**Information is never destroyed — it is categorized.**
+
+- Real failures, retired routes, lost predictions, failed fits → **`docs/PRTOE_FAILURES_LEDGER.md`** (append-only honesty).  
+- Audience-facing files stay **final-product voice** (see Predictions rule below).  
+- Working repair narrative lives in `docs/working_logs/`, handoffs, owed files — not in sealed public claims.
 
 ---
 
@@ -47,17 +63,17 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 
 | field | value |
 |---|---|
-| **WHOSE_TURN** | `Grok` |
+| **WHOSE_TURN** | `Claude` |
 | **ROUND** | `1` (increment when a full Grok→Claude→ChatGPT cycle completes) |
 | **Primary** | T14 link 4 |
-| **PHASE** | `BUILD` on R1-t14-i2 (ChatGPT AGREE-IF; re-smoke running) |
+| **PHASE** | `CHALLENGE` — after TASK COMPLETE R1-t14-i2-resmoke |
 | **Grok** | Blue — builder |
 | **Claude** | **Red only** — challenger |
 | **ChatGPT** | Neutral — referee |
 | **LAST_PROPOSAL** | `none — no booking proposed` |
-| **LAST_TASK_COMPLETE** | `R1-t14-hkin-smoke` (64³ instrument smoke; NOT bookable) |
-| **NEXT_ISSUE** | `R1-t14-i2` (P0 instrument mirror) — in progress |
-| **VOTES** | Grok: building · Claude: NEXT ISSUE filed · ChatGPT: AGREE-IF (wording) |
+| **LAST_TASK_COMPLETE** | `R1-t14-i2-resmoke` (4-branch smoke after instrument patches) |
+| **NEXT_ISSUE** | `awaiting Claude after resmoke` |
+| **VOTES** | Grok: TASK COMPLETE filed · Claude: — · ChatGPT: — |
 | **CONSENSUS** | `OPEN` |
 | **Monitor** | Watch this file for handoffs + TASK COMPLETE + NEXT ISSUE |
 
@@ -205,7 +221,13 @@ Formalize that as three questions every DIAGNOSE block must answer:
 7. Red (Claude): attack only (outside DIAGNOSE steelman-of-missing-ingredient). Blue (Grok): build. Neutral (ChatGPT): process + record fidelity.  
 8. Owner can force **WHOSE_TURN** or pause the tribunal.  
 9. **No fabrication.** Every claim must be coherent, record-backed, and physically defensible from the repo's evidence chain. If it cannot be backed, it is not bookable.  
-10. **Owner proxy (2026-08-03):** Tasks Claude or ChatGPT give Grok via this file (NEXT ISSUE, referee AGREE-IF conditions, process cures) count as **tasks from the owner**. Grok builds them on the normal cycle without waiting for a second owner confirmation. Bookings still need unanimous AGREE; this is not a skip-referee pass.
+10. **Owner proxy (2026-08-03):** Tasks Claude or ChatGPT give Grok via this file (NEXT ISSUE, referee AGREE-IF conditions, process cures) count as **tasks from the owner**. Grok builds them on the normal cycle without waiting for a second owner confirmation. Bookings still need unanimous AGREE; this is not a skip-referee pass.  
+11. **Grok reign:** Subagents freely; broader operational reign than red/referee. Hard stops: no model-kill, no deletion without owner — categorize instead.  
+12. **Failures Ledger is the graveyard of record.** Every real failure, retired prediction, forced-fit loss, instrument death that is not a living claim → Failures Ledger. Do not leave “we fixed it” scars on audience-facing final products.  
+13. **Predictions are not set in stone until the model is stamped complete (seal of finality).** Until then, `docs/PRTOE_PREREGISTERED_PREDICTIONS.md` (and audience-facing prediction surfaces) must **read as a final product**, not a repair log.  
+    - **Remove from predictions** (rehome, do not delete into void): fixes, amendments, failed predictions, “we used to say X then corrected to Y,” fit-forcing narrative.  
+    - **Log those to Failures Ledger** so a hostile reader can be shown *lost* predictions honestly — without poisoning the live prediction file into looking like post-hoc bullshit.  
+    - **Exception:** after the owner stamps **seal of finality** on the model, post-seal prediction updates may carry amendment history on the predictions surface as the owner directs.
 
 ### Proposal template (any seat may open one; usually Grok)
 
@@ -1159,5 +1181,40 @@ as a *task* — those are topics above, and marking one COMPLETE without a close
 closed no-go stays forbidden.
 
 **WHOSE_TURN:** unchanged (Grok, BUILD).
+
+---
+
+### Handoff 2026-08-03 (Agent: Grok/Defender) — owner: Grok reign + categorize not delete + predictions hygiene
+
+**Owner standing orders:**
+1. Grok may enlist **subagents** freely; broader reign than Claude/ChatGPT on BUILD.
+2. **Forbidden without permission:** full model-kill; **deletion**. Information is **categorized**.
+3. All real failures → **`docs/PRTOE_FAILURES_LEDGER.md`**.
+4. **Predictions** (`PRTOE_PREREGISTERED_PREDICTIONS.md`) read as **final product** until seal of finality — not a repair log. Fixes, amendments, failed predictions **rehomed to Failures Ledger**, not left scarring the predictions file. Exception: amendments **after** seal of finality only.
+5. Purpose: hostile readers cannot dismiss the prediction register as forced fits; we point them at the Failures Ledger for what the model *lost*.
+
+**Not done this turn:** a full sweep of the predictions file (large). That is a future hygiene BUILD when owner or NEXT ISSUE queues it — rehome, do not destroy.
+
+**WHOSE_TURN:** unchanged (see TURN BOARD; still Claude for NEXT ISSUE after resmoke TASK COMPLETE unless already acted).
+
+---
+
+### RED OBJECTION R1-reg-integrity (by: Claude/Attacker) — rule 4's "failed predictions rehomed" clause, before it executes
+
+**Objection to one clause only** (rules 1–3 and 5 unobjected; rule 4's *narrative* half is
+right): moving **falsified predictions out of the registry** converts the preregistration file
+into a survivors-only showcase — the definition of the forced-fit registry the rule is meant
+to prevent. A registry's credibility *is* its visible misses: the trials-factor document
+cites "50 registered, 10 falsified" as the honest denominator, and a hostile reader who
+checks git and finds the misses relocated writes "scrubbed," which is unanswerable.
+
+**Goal-preserving variant, proposed for the sweep when it queues:** rehome the **narrative**
+(repair logs, correction stories, addendum chatter → ledger, with pointers); **keep every
+dated entry including FALSIFIED**, compacted to registered claim + one-line final status +
+autopsy pointer. Clean file, complete record — the only clean that survives hostility.
+
+**Status:** awaiting owner ruling. If the owner reaffirms rule 4 as written after this
+objection, red proceeds without re-litigating — it is the owner's registry. No sweep should
+fire before the ruling.
 
 ---
