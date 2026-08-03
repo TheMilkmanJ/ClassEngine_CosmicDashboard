@@ -150,19 +150,31 @@ Booking when bbnfix pair hits R−1 ≤ 0.05: `docs/working_logs/_POSTERIOR_BOOK
 
 ## 4. Division of labor (default assignment)
 
+### Color code (owner 2026-08-03)
+
+| Agent | Color | Meaning |
+|---|---|---|
+| **Grok** | **Blue team** | Build: machine runs, scripts, logs, constructive desk fixes that land after review. Default posture: *make progress that can be checked*. |
+| **Claude** | **Purple team** | **Mostly red, a hint of blue.** Default posture: *try to refute* every proposed booking (gates, signs, arithmetic, independence, trials factor). The blue hint is only: hardening instruments (TRIALS_FACTOR, INDEPENDENCE_AUDIT, check-12, quotation rules) and fixes that *survive* adversarial review — not drafting new mechanisms or inventing closures. |
+| **Owner** | Final accept | Endorsements, Fairbank, chain kills/reseeds, what gets booked as theory COMPLETE. |
+
 | Lane | Primary agent | Secondary agent |
 |---|---|---|
-| T14 3D / gates / ledger | **Grok** | Claude reviews gates + prose in `PRTOE_igmf_helicity.md` |
-| Koide #101/#102 mechanism | **Claude** | Grok runs scripts, checks fence arithmetic, ledger rows |
-| Bounce constraints only | **Either** (low duty cycle) | Never both inventing turns in parallel |
-| Package hygiene / arXivReady | Grok | Claude proofreads TeX if endorsement near |
+| T14 3D / gates / machine | **Grok (blue)** | Claude **red-teams** any number before booking; may propose probe/gate tests (blue hint) |
+| T14 prose / “what is bookable” | Grok drafts if needed | **Claude attacks** overclaim; optional one-line safe wording if red-team found a bug |
+| Koide #101/#102 | Grok only if primary reassigned | Claude **red-teams** any proposed node; does **not** invent the mechanism |
+| Bounce constraints | Grok (if assigned) | Claude red-teams promotion attempts |
+| Package hygiene / arXivReady | Grok | Claude red-teams claims in TeX if near submission |
 | Live MCMC watch | Grok (shell) | Claude must not kill/relaunch without owner |
 | Endorsement / Fairbank / Zenodo | **Owner only** | Agents prepare packages only |
-| Subagents | Grok spawns for parallel hygiene / audit | Claude may use own tools; write results into this file |
+| Hardening docs (trials, independence, check-12) | **Claude (blue hint)** | Grok implements if code needed |
+| Subagents | Grok spawns for parallel build/audit | Claude may use own tools; write results into this file |
 
 **Conflict rule:** if both agents edit the same theory file, **stop and merge via owner**. Prefer one writer per file per day.
 
 **Git rule:** no force-push; no amend of published commits; ask owner before push to `main`.
+
+**Booking rule:** Grok (or owner) proposes a grade change → Claude red-teams → owner accepts. Claude does not self-book OPEN-THEORY → COMPLETE.
 
 ---
 
@@ -212,8 +224,9 @@ Copy this template to the bottom:
 ### Cross-talk without collision
 
 - Prefer **disjoint files**.  
-- Theory claims: one agent drafts, the other **adversarial-reviews** (red-team), then owner accepts.  
-- Scripts: Grok owns long runs; Claude may propose patches but should not start 10 h sims without checking CPU against MCMCs.
+- Theory claims: **Grok (blue) drafts** → **Claude (purple/red) attacks** → owner accepts.  
+- Claude’s blue hint: check-12 / trials / independence hygiene and *surviving* wording fixes — not parallel mechanism invention.  
+- Scripts: Grok owns long runs; Claude may propose patches or attack gate logic but should not start 10 h sims without checking CPU against MCMCs.
 
 ---
 
@@ -221,15 +234,20 @@ Copy this template to the bottom:
 
 | Role | Focus | Status |
 |---|---|---|
-| **Primary theory** | T14 link 4 (`ring_toroidal_3d`) | **PENDING kickoff** — not yet running this dual brief |
-| **Secondary theory** | Koide #101/#102 | Support / mechanism only; not closed |
-| **Tertiary** | Bounce B18 constraints | Idle unless primary stalls |
-| **Packages** | READY; neutrino with Fairbank | Owner endorsements |
-| **MCMC** | Leave running | Watch only |
-| **Claude — standing role (owner-assigned 2026-08-03)** | **Purple team: mostly red, a hint of blue.** Red: adversarial review of every booking before it lands — gates, signs, arithmetic, independence rows, trials discipline; default posture is *try to refute*. Blue: the hardening instruments (TRIALS_FACTOR, INDEPENDENCE_AUDIT, check-12 sweep, quotation rules) and fixes that survive review. Claude does not draft mechanisms; Grok (or owner) drafts, Claude attacks, owner accepts. | **Active** |
+| **Primary theory** | **T14 link 4** | **ACTIVE 2026-08-03** — owner chose option 1 |
+| **Grok** | **Blue team** — MACHINE: energy gate ✓; next single-instrument H / Wr+Tw | Live |
+| **Claude** | **Purple team — mostly red, hint of blue** | Live — paste §12 |
+| **Secondary** | Koide #101/#102 | Only if T14 idle; Claude does not invent the node |
+| **Tertiary** | Bounce B18 | Idle |
+| **Packages / MCMC** | READY / leave running | Owner endorsements; do not kill chains |
 
-**Owner decision needed:** confirm primary = T14 (recommended) or reassign. (Claude's role is
-now fixed by the owner; the open decision is Grok's primary lane.)
+**Owner decisions (2026-08-03):**
+1. Primary = **T14** (not all three deep).  
+2. **Claude = purple team** (mostly red-team, a hint of blue-team). Grok builds; Claude attacks bookings and keeps hardening instruments honest.
+
+**Claude purple posture on T14 this week:**
+- **Red (default):** attack any claim that “link 4 closed” means overall sign known; attack ±sign(n) quotes; attack (A)×#19 products; attack Fermi-as-datum; attack energy-gate handwaving; try to break proposed single-instrument H acceptance criteria before Grok books a number.  
+- **Blue (hint only):** tighten *external-safe* wording when a red-team hit finds a real bug; keep TRIALS_FACTOR / INDEPENDENCE_AUDIT / check-12 alive; propose gate tests Grok should run — do not draft the bounce/Koide/sign mechanism.
 
 ---
 
@@ -244,15 +262,15 @@ now fixed by the owner; the open decision is Grok's primary lane.)
 4. Write results into `T14_igmf_helicity_owed.md` + `PRTOE_igmf_helicity.md`; bury dead fork in failures ledger if needed.  
 5. Append handoff.
 
-**Claude:**
-1. Read T14 docs + link 5 negative closure; red-team the *interpretation* of any numerical sign before it is booked.  
-2. Optionally draft the “what would close link 4” acceptance criteria prose for the live file (without inventing a number).  
-3. Parallel **only if idle:** re-read Koide #101 surface and list *disallowed* aisles already retired (do not invent the node).
+**Claude (purple — mostly red):**
+1. Read T14 docs + §11 acceptance card; **attack** any overclaim (overall sign, Fermi, (B) unbury, energy absolutes).  
+2. Red-team Grok’s proposed machine acceptance criteria *before* numbers land; list kill conditions.  
+3. Blue hint only: one-pass external-safe wording fixes if red-team finds a real doc bug; optional Koide *disallowed-aisles* inventory (no mechanism draft).
 
 ### If primary = Koide
 
-**Claude:** mechanism hunt under constraints of `T6_koide_desk_status.md` “Truly open” table.  
-**Grok:** arithmetic reconfirm scripts; ensure no desk residue is mislabeled theory.
+**Grok (blue):** mechanism *attempts* only under `T6_koide_desk_status.md` constraints; arithmetic reconfirm.  
+**Claude (purple):** red-team any proposed node/conservation law before booking; list disallowed aisles; do **not** invent the mechanism.
 
 ### If primary = Bounce
 
@@ -282,7 +300,8 @@ Claude: if you only have time for a **short physics picture**, use this.
 
 ## 10. Owner checklist (not agent work)
 
-- [ ] Confirm primary theory sprint (T14 recommended).  
+- [x] Confirm primary theory sprint — **T14** (2026-08-03).  
+- [x] Claude role — **purple team** (mostly red, hint of blue) (2026-08-03).  
 - [ ] Endorsements: radio-lattice, lattice-tc-gap, bbn-eps-bound, kination (± supertrace).  
 - [ ] Fairbank / neutrino-mbb thread (external).  
 - [ ] When bbnfix R−1 ≤ 0.05: authorize posterior booking.  
@@ -290,23 +309,106 @@ Claude: if you only have time for a **short physics picture**, use this.
 
 ---
 
+## 11. T14 blue-team acceptance card (2026-08-03) — authoritative for both agents
+
+| Claim | Grade |
+|---|---|
+| Harrison: sign(H_B) = sign(H_kin) | **Booked** |
+| Link 5 matter lock | **CLOSED NEGATIVE** |
+| Link 4 **branch** (tracks n; not universal) | **CLOSED** via (A) shape helicity exact flip |
+| Link 4 **overall** sign(H_kin) vs n | **OPEN** — quote only: **∝ sign(n), prop. sign undetermined** |
+| Reading (B) as Tw / toroidal circ. | **Ledger-dead** (earned after off-core re-run) |
+| Fermi IGMF as genome datum via this chain | **Unreadable permanently** |
+
+**Assembly (this config):** \(H_\mathrm{kin} \sim 2n + \mathrm{Wr} + \mathrm{Tw}\). Near-cancellation warning; Tw not in hand.
+
+**Energy gate (2026-08-03 diagnostic):** sponge ON drift 3.83% vs OFF 0.0003% at reduced grid — cause is **designed dissipation**, not integrator failure. Log: `docs/working_logs/_runs/toroidal_energy_gate_2026-08-03.log`. Re-scope absolute 2% gate to physical region; parity of integer (A) still licensed under common-mode pre-reg.
+
+**Do not:** multiply #19 poloidal × (A) and call it \(H_\mathrm{kin}\); quote \(\pm\)sign(n); re-open convention audit by inspection; unbury (B) without adaptive-probe data.
+
+**Next MACHINE (Grok, blue):** single-instrument \(H_\mathrm{kin}\) (preferred) or adaptive-probe Tw + numerical Wr — sibling script, short \(T_\mathrm{MAX}\sim 1.5\), nice vs MCMCs. Propose acceptance criteria *before* booking any overall sign.
+
+**Next DESK (Claude, purple):** paste prompt in §12 — mostly attack, hint of fix.
+
+Full T14 status synthesis: explore subagent 2026-08-03 + owed file `T14_igmf_helicity_owed.md`.
+
+---
+
+## 12. Claude paste-ready prompt (**purple team** — mostly red, hint of blue)
+
+```text
+You are PURPLE TEAM on the PRTOE repo (prtoe_class): mostly RED-TEAM, a hint of blue.
+Grok is BLUE TEAM (builds machine work on T14). You do not invent mechanisms or book
+OPEN-THEORY complete. Owner accepts grade changes.
+
+Read first:
+  ForGrok&Claude.md §§4, 7, 11, 12
+  docs/working_logs/T14_igmf_helicity_owed.md from "## LINK 4 — CLOSED" through 2026-08-02 desk bits
+  docs/PRTOE_igmf_helicity.md seeding / link sections
+  docs/PRTOE_FAILURES_LEDGER.md entry for reading (B)
+  (if present) docs/PRTOE_TRIALS_FACTOR.md, docs/PRTOE_INDEPENDENCE_AUDIT.md
+
+Authoritative status (attack anyone who over-reads these):
+- Link 5 CLOSED NEGATIVE. Fermi IGMF is NOT a genome datum through this chain.
+- Link 4 BRANCH closed: (A) flips exactly with n. Universal handedness EXCLUDED.
+- Overall sign(H_kin) OPEN. Safe quote only: ∝ sign(n), prop. sign undetermined.
+- (B) ledger-dead after off-core fix (earned burial). Do not unbury without new data.
+- Assembly: H ~ 2n + Wr + Tw. Product of #19 poloidal × (A) is NOT H_kin.
+- Energy: sponge causes drift (2026-08-03 diagnostic); kills absolute energy claims.
+  Integer (A) parity is only as strong as the pre-reg common-mode argument — attack it if weak.
+
+RED tasks (default — spend most of the session here):
+1. List every way Grok could falsely book overall sign(H_kin) from the next single-instrument
+   H or Wr+Tw run. For each: kill condition + what evidence would actually be needed.
+2. Attack the claim "branch closed" if any doc still equates it with overall-sign closed.
+3. Attack energy-gate re-scope if it smuggles absolute energetic claims back in.
+4. Score §11 acceptance card: which rows are over-strong? Which under-strong?
+5. If Grok posts a number: try to refute before owner books.
+
+BLUE hint only (≤20% of effort):
+6. If red-team finds a real wording bug in PRTOE_igmf_helicity.md, propose a minimal fix
+   (do not rewrite the file as a promotional pass).
+7. Keep trials/independence/check-12 hygiene if you find live defects while reading.
+
+Do NOT: start long GP runs; edit ring_toroidal_3d.py; invent Koide #101; invent bounce B11;
+mark anything COMPLETE-THEORY closed; invent endorsement.
+
+Append a handoff block at the bottom of ForGrok&Claude.md when done.
+```
+
+---
+
 ## Handoffs (append below)
 
-### Handoff 2026-08-03 (Agent: Grok)
+### Handoff 2026-08-03 (Agent: Grok) — dual brief created
 
-**Active primary:** unassigned pending owner confirm (recommend **T14**).  
-**Done this dual-brief session:**
-- Created `ForGrok&Claude.md` with strategy, model brief, three-sprint cards, labor split, hard rules.
-- Prior session state still holds: packages READY, docs PAPER_CANDIDATE = 0, neutrino with Fairbank, MCMCs alive.
+**Active primary:** unassigned at that moment (recommended T14).  
+**Done:** created this file.
+
+### Handoff 2026-08-03 ~01:30 (Agent: Grok) — T14 primary kickoff
+
+**Active primary:** **T14** (owner chose 1)  
+**Done:** inventory + acceptance card §11 + energy gate diagnostic  
+**Note:** mode later corrected to Grok=blue / Claude=purple (see next handoff)
+
+### Handoff 2026-08-03 (Agent: Grok) — Claude = purple team
+
+**Active primary:** T14  
+**Roles:** **Grok = blue team** (build). **Claude = purple team** (mostly red, hint of blue).  
+**Done:**
+- Updated `ForGrok&Claude.md` §§4, 6, 7, 8, 10, 11, 12 for purple-team posture
+- Rewrote §12 Claude paste prompt as red-primary with ≤20% blue-hint tasks
 **Files touched:**
-- `ForGrok&Claude.md` (new)
+- `ForGrok&Claude.md`
 **OPEN residual left:**
-- T14 link 4; Koide #101/#102; Bounce B11/B18
+- Overall sign(H_kin); single-instrument H / Wr+Tw still machine-open
 **Do not:**
-- Parallel deep mechanism invention on all three; kill chains; invent packages; mark theory COMPLETE without derivation
+- Treat Claude as co-builder of mechanisms; quote ±sign(n); kill MCMCs
 **Next concrete step for Claude:**
-- Read this file §§0–3 and §9; if owner confirms T14 primary, red-team link-4 acceptance criteria and optionally start Koide *disallowed-aisles* inventory only
-**Chains:** leave alone (last known R−1 ~0.19 / 0.14 / 129)
+- Paste **§12 purple prompt** — attack §11 card + pre-kill Grok’s next machine booking paths
+**Next concrete step for Grok:**
+- After Claude red-team of acceptance criteria (or in parallel on scripts only): sibling H/Wr instrument
+**Chains:** leave alone
 
 ---
 
@@ -377,5 +479,52 @@ anchor band, re-check the phrasing matches.
 
 **Chains (checked this turn, 2026-08-03):** alive (12 processes). R−1 = 0.1918 (dyad) /
 0.1409 (cmp_lcdm, closest to gate) / 129.1 (routeD, early). Left alone.
+
+---
+
+### Handoff 2026-08-03 (Agent: Claude) — purple pass on T14: deciding-run protocol registered; §11 card attacked
+
+**Active primary:** T14 (owner-confirmed).
+**Done:**
+- Read the full T14 surface end-to-end: live file, owed file, `ring_toroidal_3d.py`,
+  `ring_toroidal_circulation.py`.
+- **Acceptance protocol for the deciding run REGISTERED before it fires** — prose version as
+  the new final section of `PRTOE_igmf_helicity.md`; operational version with the record's own
+  numbers as the RED-TEAM section at the end of `T14_igmf_helicity_owed.md`. Grok: read the
+  owed-file version before writing the sibling instrument.
+- **§11 card attacked — three hits, two land as additions, one as a condition:**
+  1. **(lands) The n = ±1 pair at a fixed +z fountain is not a parity pair of the
+     configuration.** The corrected run's own record shows it: Tw(n=+1) = −0.646 against
+     Tw(n=−1) = +0.021 — not odd under the winding flip, i.e. an n-even, plume-sourced twist
+     component is already in the data. The deciding design is therefore **four runs,
+     {n = ±1} × {fountain ±z}**. The true-mirror pairs (n,up) ↔ (−n,down) are the artifact
+     null: the dynamics is parity-symmetric, so any violation of H → −H there is instrument,
+     and its size fences the quotable sign. A two-run "pair sum small" criterion can pass on
+     an instrument that would fail the real mirror.
+  2. **(lands) Margin gate with the dials named.** Near the 2n-vs-Tw cancellation a sign is
+     quotable only if |H| at the verdict frame exceeds 3× the measured spread — spread from
+     re-running the extraction on the **saved field** across R_PROBE ∈ {1.0, 1.5, 2.0}, the
+     |ψ| < 0.55 rejection threshold, and the well-resolved frames. So the sibling instrument
+     must save ψ at the verdict frame and report the 2n / (Wr+Tw) decomposition, not a total
+     alone. If the gate fails, "sign unresolved; near-cancellation confirmed" is the
+     pre-registered, bookable verdict.
+  3. **(condition) Energy-gate re-scope accepted** — sponge dissipation is designed, agreed —
+     but "physical region" must be defined *before* the run (the trace_ring interior mask),
+     evaluated at the verdict frame per branch, threshold pre-stated. Otherwise the re-scope
+     is a post-hoc dial.
+- Outcome table pre-registered in both files (sign booked configuration-local / near-
+  cancellation booked / instrument to bench / nothing graded). No post-hoc switching of
+  frames, probe settings, or readings after any number is seen.
+**Files touched:** `docs/PRTOE_igmf_helicity.md`, `docs/working_logs/T14_igmf_helicity_owed.md`,
+this file.
+**OPEN residual left:** overall sign(H_kin) — MACHINE, now under a registered protocol.
+**Do not:** run the deciding measurement through `ring_toroidal_3d.py`'s trace_ring (still
+samples the phase at the singularity — deliberately unmodified for July-verdict
+reproducibility); book any sign without the four-point mirror; define "physical region" after
+seeing numbers.
+**Next concrete step for Grok:** sibling instrument implementing the protocol — four branches
+at T_MAX ≈ 1.5 (~40 min each, nice'd against the MCMCs), save ψ at the verdict frame, report
+decomposition + dial spread. I attack the output when it lands.
+**Chains:** alive at last check (0.1918 / 0.1409 / 129.1). Left alone.
 
 ---

@@ -259,3 +259,47 @@ unpaid condition above without carrying it: on the locked-circulation branch the
 P-2026-057 is conditional on one more link than it declares — its antecedent should read
 *sign(μ·n) **and** the poloidal sense being genesis-fixed*. The consequent and the arithmetic are
 untouched; only the gate is wider than written.
+
+## What would close link 4's overall sign — acceptance criteria, registered before the deciding run (2026-08-03)
+
+State of play: the branch is closed (the ring's toroidal structure flips with the winding draw;
+a universal handedness is excluded) and the overall sign is open. At the simulated configuration
+the kinetic helicity decomposes as H ≈ 2n + Wr + Tw, with the mutual term (2n, exact) and the
+intrinsic twist comparable and opposed — so the sign sits near a cancellation and is decided by
+a quantity the instrument must measure well. These criteria are registered before that
+measurement so the result is read by rules fixed in advance.
+
+1. **The full mirror is four runs, not two.** Flipping n at a fixed upward fountain is not a
+   parity transformation of the configuration — the recorded twist values already show an
+   n-even component, which the fixed fountain direction can source. The deciding design is
+   {n = ±1} × {fountain up, fountain down}. The true-mirror pairs — (n, up) against (−n, down)
+   — must return H → −H within the measured run-to-run asymmetry: the equations of motion are
+   parity-symmetric, so **any violation of that antisymmetry is instrument, not physics, and
+   its size fences the quotable sign.** The two single-flip comparisons then separate what is
+   carried by the winding from what is carried by the plume.
+2. **A margin gate against the measured spread.** The sign is quotable only if |H| at the
+   verdict frame exceeds three times the instrument spread (protocol threshold), where the
+   spread is measured, not assumed: the twist extraction repeated across probe radii and probe
+   thresholds on the same saved field, and across the well-resolved frames. If the margin
+   fails, the pre-registered verdict is *"sign unresolved at this configuration — the
+   near-cancellation is confirmed as the finding"* — a bookable outcome, not a failure.
+3. **The verdict frame is fixed in advance**: the first frame with at least 15 of 16 position
+   bins and at least 12 of 16 phase probes, at matched time across branches; the full time
+   series of both readings is reported alongside it. Energy drift at the verdict frame — not
+   at run end — must be within the 2% gate, and is reported per branch.
+4. **Only the corrected instrument counts.** The original harness samples the phase at the
+   vortex singularity its own comment warns against; the off-core probe is the instrument of
+   record. Fields at the verdict frame are saved so diagnostics can be re-run without
+   re-evolution.
+5. **Any booked sign is configuration-local.** It is a statement about this ring-on-line
+   geometry at this amplitude, at candidate grade; the bridge from the simulated condensate
+   flow to the recombination-era plasma flow that the battery mechanism actually converts
+   rides one named condition — that the drag copies the flow's handedness faithfully — which
+   is stated here as a condition, not silently assumed.
+
+Outcomes, pre-registered: (i) margin passes and the mirror holds → the overall sign is booked
+at candidate grade, configuration-local, with the generalization owed; (ii) margin fails → the
+near-cancellation is the booked result and the sign stays open; (iii) the true-mirror
+antisymmetry fails beyond the measured asymmetry → nothing is booked and the instrument goes
+back to the bench. No post-hoc switching of frames, probe settings, or readings after any
+number is seen.
