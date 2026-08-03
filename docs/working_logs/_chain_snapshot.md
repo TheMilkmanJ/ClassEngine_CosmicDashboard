@@ -150,3 +150,18 @@ Progress `acceptance_rate` near 0.99 is **oversampled**; raw accept = launchlog 
 `dyad_mnu_mcmc` archive only.
 
 **Still not bookable:** any H₀ / Σm_ν / thaw posterior. R−1 < stop is required. Do not kill the three live objects. Living docs synced: `PRTOE_CHAIN_TABLES.md`, `PRTOE_REFEREE_CALENDAR.md` Sitting NOW, `PRTOE_CODE_MANIFEST.md` §1.
+
+### Re-verify 2026-08-02 ~22:20 — R−1 **unchanged**
+
+Progress/checkpoint R−1 still **0.1918 / 0.1409 / 129.14** (no new progress rows yet). Launchlogs
+and rank chain files still advancing. Fresher raw accepts (launchlog Σ):
+
+| chain | raw accept Σ | ≈ accepted / steps per rank | notes |
+|---|---:|---|---|
+| `dyad_mnu_bbnfix` | **6.40%** (15132/236443) | ~5044 / ~78814 | 3 ranks alive |
+| `cmp_lcdm_mnu_bbnfix` | **8.59%** (13599/158247) | ~4533 / ~52749 | closest to gate |
+| `cmp_prtoe_routeD` | **5.15%** (1828/35479) | ~609 / ~11826 | rank H₀ post-50% means ≈ **68.55 / 68.66 / 69.83** (spread ~1.28) — ranks **partially disjoint**; first R−1 still 129 |
+
+Booking procedure when the pair hits R−1 ≤ 0.05:
+`docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`. RouteD surgery recommendation (do **not** kill
+while waiting for a second progress row unless owner decides): `_PROJECT_FINISH_ROADMAP.md`.

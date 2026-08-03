@@ -1652,3 +1652,32 @@ curvature reaches H = 0 with Ḣ < 0 — a turnaround, exactly task 4's trap.
 >
 > **Net effect on this docket: none.** The lane's grade is unchanged — *un-derived, not fabricated
 > here either*. See protocol **50**.
+
+---
+
+## Remaining open list (2026-08-02 desk pass)
+
+Crisp inventory only. No new mechanisms. Arithmetic reconfirm: `scripts/rho_bounce.py` → **ρ_bounce^(1/4) = 1.06 keV** (1059 eV; asserts pass). Grade tags: **DONE** / **BLOCKED_ON** / **DESK_NEXT**.
+
+| # | item | status | note |
+|---|---|---|---|
+| B1 | Finite ρ_bounce = m⁴/λ (keV-class CSW ceiling) | **DONE** | reconfirmed 2026-08-02; number paid; not the turn |
+| B2 | Local white-hole no-go (time-oriented medium) | **DONE** | derived; white_holes §1 |
+| B3 | Compact-torus zero-net energy ledger (support, not turn) | **DONE** | supports localization; does not force Ḣ > 0 |
+| B4 | Thermal T=T_c as bounce source | **DONE** (no-go) | radiation-dominated; Ḣ < 0 |
+| B5 | CSW / live dCDF / metric-exit-at-floor as homogeneous FRW bounce | **DONE** (no-gos) | floor number ≠ turn mechanism |
+| B6 | Rotating condensate as BKL-safe stiff engine | **DONE** (no-go) | w=(n−2)/(n+2)<1; kination only trans-Planckian |
+| B7 | Task 4: bare vacuum + Tolman radiation → bounce sign | **DONE** (NO) | delivers H=0 turnaround, never Ḣ>0 (w=−1 inert in Ḣ) |
+| B8 | Task 5 / two-routes: missing component characterization | **DONE** (shape only) | FRW route needs ρ+p flip; ρ(1−ρ/ρ_c) route works as *demo* but **un-derived** in corpus |
+| B9 | M1–M2b shear/junction/mixmaster scaffold | **DONE** (reconstruction) | door geometry; not cosmological matching |
+| B10 | M6 1D repulsive rebound toy | **DONE** (toy) | dynamic density turn in 1D GPE; not MeV hot-start / H>0 match |
+| B11 | Classical turn: H=0 and Ḣ>0 *or* written FRW-exit from recorded Lagrangian | **BLOCKED_ON** | **not in current corpus** (standing admission 2026-07-25); ρ² bounce constraint un-derived, not fabricated |
+| B12 | MeV-class hot start over keV floor (~12 dex density joint) | **BLOCKED_ON** | two-component *shape* named; dynamics un-simulated; funds C2 |
+| B13 | BKL primitive in crunch roster (stiff phase or early FRW-exit) | **BLOCKED_ON** | H7/C3; which branch open |
+| B14 | Global bounce as white-hole-like branch boundary | **BLOCKED_ON** | provisional ID; causal half supported by exhaustion (M4/M5/M8); dynamics toy-grade |
+| B15 | Matching F-A1…F-A4 (medium ↔ g inverse map) | **BLOCKED_ON** | RP-A unwritten matching |
+| B16 | Boundary sequencing / neighbor re-sync / SM-field budget at handover | **BLOCKED_ON** | white_holes §10 still-open list; reconstruction |
+| B17 | Induced-gravity ρ_c / bounded-density derivation | **DESK_NEXT** only if reopened as *search*, not as claim | corpus already grades lane un-derived; **do not invent X** |
+| B18 | Further no-go pricing / constraint hands (watch-face C1–C6) | **DESK_NEXT** | allowed: tighter constraints; forbidden: story promotion |
+
+**Bottom line (unchanged grade):** OPEN-THEORY. Floor number and no-gos stand. Classical bounce mechanism remains **not written**. White-hole file cannot promote past provisional without B11.

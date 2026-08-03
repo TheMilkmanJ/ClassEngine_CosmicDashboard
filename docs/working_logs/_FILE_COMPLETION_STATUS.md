@@ -78,9 +78,9 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 | [`PRTOE_cmb_anomalies.md`](../PRTOE_cmb_anomalies.md) | WATCH-EXTERNAL | One-axis family claim; joint BipoSH referee external |
 | [`PRTOE_CMB_map.md`](../PRTOE_CMB_map.md) | COMPLETE | Six spectra mechanism→verdict scorecard; no open desk residue |
 | [`PRTOE_lss_parity.md`](../PRTOE_lss_parity.md) | WATCH-EXTERNAL | Amplitude ~7 orders short; DESI 4PCF + conditional axis-correlation (T16) |
-| [`PRTOE_igmf_helicity.md`](../PRTOE_igmf_helicity.md) | OPEN-THEORY | Link 5 closed negative; sole sign debt link 4 (toroidal relative — 3D fork, not desk) (T14) |
+| [`PRTOE_igmf_helicity.md`](../PRTOE_igmf_helicity.md) | OPEN-THEORY | Link 5 closed NEG; link 4 branch closed (shape helicity flips w/ n; 2026-07-28 run + 2026-08-02 verdict reconfirm); sign(H_kin) prop. undetermined; (B) sampling defect open; full 3D re-run ~10 h not desk (T14) |
 | [`PRTOE_cosmic_magnetism.md`](../PRTOE_cosmic_magnetism.md) | OPEN-THEORY | P-028 structure; seeding sign rides T14 link 4; void shortfall priced ×20 (1.30 dex); RM ⟨RM·RM⟩ formula missing (§3a 2026-08-02) |
-| [`PRTOE_koide_relation.md`](../PRTOE_koide_relation.md) | OPEN-THEORY | Protection half paid; node physics #101/#102, pacing + sign-chain open (T6 / gated §6) |
+| [`PRTOE_koide_relation.md`](../PRTOE_koide_relation.md) | OPEN-THEORY | Protection + fence arithmetic paid; #101/#102 one node residual (exact null + holonomy); desk walks done — theory residual (T6_koide_desk_status 2026-08-02) |
 | [`PRTOE_forced_combination.md`](../PRTOE_forced_combination.md) | COMPLETE-CONDITIONAL | Existence theorem exact in setting; inherits candidate-grade Koide program |
 | [`PRTOE_quartet_clock.md`](../PRTOE_quartet_clock.md) | OPEN-MACHINE | Unit = pair resolved; live readout vs zon_disp (parked / unconverged) |
 | [`PRTOE_hierarchy_problem.md`](../PRTOE_hierarchy_problem.md) | OPEN-THEORY | Exponent derived; anchor band honest; §6f / basement μ5 residual live (gated #146) |
@@ -88,8 +88,8 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 | [`PRTOE_entropy.md`](../PRTOE_entropy.md) | COMPLETE | Four statements consolidated; area-law regulator + roster extension paid |
 | [`PRTOE_no_singularities.md`](../PRTOE_no_singularities.md) | COMPLETE-CONDITIONAL | Structural synthesis complete; bounce dynamics + optional echoes remain in components |
 | [`PRTOE_blackholes_no_singularity.md`](../PRTOE_blackholes_no_singularity.md) | COMPLETE-CONDITIONAL | Core/horizon/entropy land; regulator residue struck 2026-08-02 (paid); echoes optional |
-| [`PRTOE_bigbang_no_singularity.md`](../PRTOE_bigbang_no_singularity.md) | OPEN-THEORY | ρ_bounce finite paid; turn dynamics open (bounce workplan) |
-| [`PRTOE_white_holes.md`](../PRTOE_white_holes.md) | OPEN-THEORY | Local WH forbidden derived; global identification provisional; bounce equations open |
+| [`PRTOE_bigbang_no_singularity.md`](../PRTOE_bigbang_no_singularity.md) | OPEN-THEORY | ρ_bounce^(1/4)=1.06 keV reconfirmed 2026-08-02; classical turn still open (bounce workplan remaining-open list) |
+| [`PRTOE_white_holes.md`](../PRTOE_white_holes.md) | OPEN-THEORY | Local WH forbidden derived; global ID provisional (causal half supported, dynamics toy); bounce turn open with bigbang workplan |
 | [`PRTOE_information_paradox.md`](../PRTOE_information_paradox.md) | COMPLETE-CONDITIONAL | Structural dissolution; coefficient + roster PAID; Page *curve* computation still OPEN (not area-law-blocked; 2026-08-02 lock) |
 | [`PRTOE_arrow_of_time.md`](../PRTOE_arrow_of_time.md) | COMPLETE-CONDITIONAL | First-genesis uniqueness derived; our-cycle gap OPEN and not desk-closeable (§2a 2026-08-02 lock) |
 | [`PRTOE_baryogenesis.md`](../PRTOE_baryogenesis.md) | COMPLETE-CONDITIONAL | AD-direct route + transmission class; ω_J ~ 5.7 keV BACK-TARGET (quartet closes; forward micro inputs missing; §3a 2026-08-02) |

@@ -12,10 +12,13 @@ directory holding exactly the files arXiv receives, a tarball of that directory,
 | [`neutrino-mbb/`](neutrino-mbb/) | hep-ph | 3 | **No.** Its input is stated as a hypothesis. | TeX package ready. External gate: hep-ph endorsement. |
 | [`radio-lattice/`](radio-lattice/) | astro-ph.CO, astro-ph.IM | 6 | **Motivated by it, does not rest on it.** | TeX package ready. External gate: astro-ph endorsement. |
 | [`lattice-tc-gap/`](lattice-tc-gap/) | hep-lat | 2 | **No** as a gap note. Optional transparency stake is one paragraph. | TeX package ready. External gate: hep-lat endorsement. |
+| [`bbn-eps-bound/`](bbn-eps-bound/) | astro-ph.CO | 3 | **No.** ε and T_c free; Aver Y_p bound only. | TeX package ready. External gate: astro-ph endorsement. Dense ε_max(T_c) curve still UNVERIFIED. |
+| [`fairbank-0nubb/`](fairbank-0nubb/) | — | — | — | **NOT_READY** — README only. Duplicate of neutrino-mbb; do not invent TeX. |
 
-All are written so a reader who has never seen this corpus loses nothing. None of them names
-the framework in its TeX — which is correct for arXiv. Full candidacy inventory:
-`docs/working_logs/_ARXIV_CANDIDACY.md`.
+All **TeX packages** are written so a reader who has never seen this corpus loses nothing.
+None of them names the framework in its TeX — which is correct for arXiv. Full candidacy
+inventory: `docs/working_logs/_ARXIV_CANDIDACY.md`. Live hygiene table:
+`docs/working_logs/_PACKAGE_AUDIT.md` (`scripts/arxiv_package_audit.py`).
 
 Read in order of independence:
 
@@ -28,6 +31,8 @@ Read in order of independence:
 - **`radio-lattice/`** is the one closest to the framework's own machinery. Even so, it
   treats the shift amplitude as a free parameter to be fitted rather than predicted, and
   it states that molecular lines already bound that amplitude ~35× more tightly than its rows do.
+- **`bbn-eps-bound/`** is a chain-free helium constraint: ε free, Aver Y_p ⇒ ε < 3.2% (2σ);
+  EMPRESS cannot be used (standard BBN already +2.9σ). D/H model predictions stay out.
 
 ## Status (desk readiness, 2026-08-02)
 
@@ -41,9 +46,11 @@ present — which is what arXiv does — giving 0 errors in every case.
 | neutrino-mbb | **Yes** — `main.tex` + `main.bbl`; 3 pp | None blocking. | hep-ph endorsement |
 | radio-lattice | **Yes** — `main.tex` + `main.bbl`; 6 pp | None. DM demotion is in the text. | astro-ph endorsement |
 | lattice-tc-gap | **Yes** — `main.tex` only; 2 pp | None as a gap note (no lattice result claimed). | hep-lat endorsement |
+| bbn-eps-bound | **Yes** — `main.tex` only; 3 pp | Dense ε_max(T_c) curve over [70, 500] keV not produced (bound at measured T_c only). | astro-ph endorsement |
+| fairbank-0nubb | **No** — intentionally no TeX | Would duplicate neutrino-mbb | n/a |
 
 **Do not invent endorsement.** No arXiv endorsement is claimed here. The remaining step for
-arXiv for the two unpublished papers is the same and is not a technical one: arXiv requires
+arXiv for the unpublished TeX packages is the same and is not a technical one: arXiv requires
 an endorsement for a first submission from an unaffiliated author, **per archive**.
 
 ### radio-lattice: DM demotion reconciled
@@ -72,5 +79,6 @@ reference list. Reference provenance belongs in `%` comments.
 "ACKNOWLEDGMENTS" heading above the bibliography with nothing under it.
 
 Both of these had reached the packaged tarballs before being caught on 2026-07-29.
-Verified 2026-08-02: no live `note =` fields in `refs.bib`; no `\bibinfo{note}` in shipped
-`.bbl` files; no empty acknowledgments; no "PRTOE" string in any `main.tex`.
+Verified 2026-08-02 (and re-checked by `scripts/arxiv_package_audit.py`): no live `note =`
+fields in `refs.bib`; no `\bibinfo{note}` in shipped `.bbl` files; no empty acknowledgments;
+no "PRTOE" string in any packaged `main.tex`.

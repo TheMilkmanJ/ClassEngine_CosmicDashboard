@@ -1,67 +1,67 @@
 # PRTOE — Reader's Risk Summary
 
+**Status (2026-08-02):** evidence class is still **Laplace-marginal, not nested-sampling confirmed**.
+The production MCMC pair is live and *converging but not yet quotable*; PolyChord nested evidence
+is offline (waits for cluster time). No headline posterior is bankable yet. Full chain table:
+[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
+
 > *One page for an outside physicist. Falsify-first: nothing below is oversold. House terms decode
 > in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality in
 > [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 ## 1. What PRTOE is
 A two-field dark sector replaces ΛCDM's separate dark matter and dark energy with one complex scalar
-superfluid (the dCDF): its ground state is w = −1 dark energy, its excitations are radiation-like
-early / CDM-like late. A second field (the electron-coupled scalar) shifts the electron mass by a
-fractional amount ε ≈ 1.24%, active pre-recombination and screened off late. Gravity is treated as
-induced/GR, with no bare cosmological terms. The entire modification to known physics is one
-number, ε, applied everywhere atomic physics appears.
+superfluid (the dCDF): its ground state is w = −1 dark energy; its excitations are radiation-like
+early and CDM-like late. A second field (the electron-coupled scalar) shifts the electron mass by a
+fractional amount ε ≈ 1.24%, active before recombination and screened off later. Gravity is treated
+as induced/GR, with no bare cosmological terms. The entire modification to known physics is one
+number, ε, applied wherever atomic physics appears.
 
 ## 2. Strongest claims, graded
 - **ε = c·f̄·α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%**, against the sky's fitted ~1.24% — zero
-  dials. *One factor is derived (f̄ = 2/π, the winding average), one is a counting assumption
-  (c = 9/10), one is a registered bet (α_c = 3α) — so the stack's effective grade is the
-  weakest of the three, not the strongest.* c = 9/10 is a **counting assumption the data confirms** — conditional on the
-  ρ_Λ¼ = m_ν tie holding as a lock, and on an equal share per channel, which the framework does
-  not force (the ε-blind ensemble lands at 0.903, −0.08σ, but at its width does not exclude the
-  neutrino-inclusive 12/13 or the charge²-weighted 8/9);
-  **f̄ = 2/π is derived** — the winding's many-turn equidistribution forces ⟨|cos|⟩, with the coupling
-  form data-selected; the simulation's 0.635 ± 0.026 confirms it to +0.3% and is the check, not the
-  source. α_c = 3α is a registered bet, decided by the α_c instrument (zon_disp —
-  unconverged and not currently running), last interim center ~2% above where data
-  points — **it is the weakest parent, and the stack stands or falls with it.**
-- **H₀ mechanism reaching ~69.9–71.3** (CMB re-fit; ladder-reach ceiling with the SN-standardization
-  sign ς = −1). Closes roughly half the SH0ES gap, refuses the rest, and pre-registered the TRGB side
-  of the calibration dispute. *Production, but SH0ES-conditional.*
-- **w = −1 exactly** (a protected ground state, no thaw). *Derived*, and DESI's direct target.
-  **Read this as one branch of a live fork, not as the model's single position (clarified
-  2026-07-28).** P-2026-056 registers an explicit either/or and the two branches disagree about
-  exactly this row: under **P-2026-018** the floor is a bare constant, w = −1 holds forever, and
-  "no thaw" is unqualified and correct. Under **Route-D** the floor is leaving its ground state
-  *now* — 1 + w_floor(a) = thaw·a³ with thaw ∈ [0.08, 0.14], so w₀ ∈ [−0.92, −0.86] today — and
-  `PRTOE_coincidence_problem.md` computes that era's end at t_turn = ln(1/√A_s)/√(3/2) = **8.16
-  H⁻¹**, a ≈ 2.0–2.8. Route-D is nested at the prior's floor (thaw ≤ 0 recovers w = −1), and
-  **DESI DR3 adjudicates**. A true phantom crossing kills both. So the honest headline is that the
-  model bets on rigidity while carrying a pre-registered thawing alternative, and the coincidence
-  file's turnaround belongs to the *alternative* — it is not a qualification on w = −1.
+  free dials. *One factor is derived (f̄ = 2/π, the winding average), one is a counting assumption
+  (c = 9/10), one is a registered bet (α_c = 3α) — so the stack's grade is the weakest of the
+  three, not the strongest.* c = 9/10 is a **counting assumption the data confirms**, conditional on
+  the ρ_Λ¼ = m_ν tie holding as a lock and on equal share per channel (the framework does not force
+  that share; the ε-blind ensemble lands at 0.903, −0.08σ, but at its width does not exclude the
+  neutrino-inclusive 12/13 or the charge²-weighted 8/9).
+  **f̄ = 2/π is derived** — many-turn equidistribution forces ⟨|cos|⟩; the simulation's
+  0.635 ± 0.026 confirms it to +0.3% and is the check, not the source. α_c = 3α is a registered
+  bet, decided by the α_c instrument (zon_disp — **unconverged and not running**); last interim
+  center sits ~2% above where data points — **weakest parent; the stack stands or falls with it.**
+- **H₀ mechanism reaching ~69.9–71.3** (CMB re-fit; ladder-reach ceiling with SN-standardization
+  sign ς = −1). Closes roughly half the SH0ES gap, refuses the rest, and pre-registered the TRGB
+  side of the calibration dispute. *Mechanism at production grade, SH0ES-conditional. The
+  statistical win ΔlnZ = +2.635 is a separate Laplace estimate — nested sampling is not live
+  (§3c, §4).*
+- **w = −1 exactly** (protected ground state, no thaw). *Derived*, and DESI's direct target.
+  **Read this as one branch of a live fork, not the model's only position.** P-2026-056 registers
+  an either/or. Under **P-2026-018** the floor is a bare constant and w = −1 holds forever. Under
+  **Route-D** the floor is leaving that ground state *now* — 1 + w_floor(a) = thaw·a³ with
+  thaw ∈ [0.08, 0.14], so w₀ ∈ [−0.92, −0.86] today — and the coincidence file puts that era's
+  end at t_turn = ln(1/√A_s)/√(3/2) = **8.16 H⁻¹**, a ≈ 2.0–2.8. Route-D nests at the prior's
+  floor (thaw ≤ 0 recovers w = −1); **DESI DR3 adjudicates**. A true phantom crossing kills both.
+  Honest headline: the model bets on rigidity while carrying a pre-registered thawing alternative;
+  the coincidence file's turnaround belongs to the *alternative*, not as a hedge on w = −1.
 - **The multi-messenger single-ε lattice** — one amplitude at window-specific weights across CMB,
-  BBN, 21-cm, Koide, with no per-window exits. *Grammar/production*; individual windows carry their
-  own grades (§3).
+  BBN, 21-cm, and Koide, with no per-window exits. *Grammar/production*; individual windows carry
+  their own grades (§3).
 - **Koide protection** — the multiplicative-universal lepton coupling explains *why* Koide's Q
-  survives a 1.24% mass shift (a real improvement; mainstream has no account). *Candidate: protection
-  derived; the reason Q = 2/3 at all (A = √2) is not derived — the one assembled candidate
-  chain (cascade-delivered sector-equipartition) was executed by its own pre-registered trial
-  (kill zones sealed before computation; all readings in the death zone). The equivalence
-  A = √2 ⟺ sector-equipartition stands as mathematics. A complete candidate chain now exists
-  (the circulant kernel, an existence theorem, and a thermal-boundary reading whose one
-  internal cross-check passed), carrying one remaining theoretical stage and judged by three
-  lattice observables of a single SU(2) N_f = 3 campaign plus a registered deviation lock
-  (P-2026-051) — candidate-grade throughout, stated as such.*
+  survives a 1.24% mass shift (mainstream has no account). *Candidate throughout:* protection is
+  derived; the reason Q = 2/3 at all (A = √2) is not. The assembled candidate chain
+  (cascade-delivered sector-equipartition) was executed under its own pre-registered trial and
+  landed in the death zone. The equivalence A = √2 ⟺ sector-equipartition stands as mathematics.
+  A full candidate chain now exists (circulant kernel, existence theorem, thermal-boundary reading
+  with one internal cross-check passed), still carrying one theoretical stage and judged by three
+  lattice observables of a single SU(2) N_f = 3 campaign plus P-2026-051.
 - **N_gen = 3 from Pauli finiteness** (str[k₁] = 16·N_gen − 48 = 0). *Derived conditional on
-  ξ_H = 1/6*, an unmeasured Standard-Model input the balance requires; independent of the
-  pairing sector. **Prior art, recorded 2026-07-28 so this is not read as a novel result:** the
-  same conclusion — a gravitational requirement forcing exactly three generations and demanding
-  right-handed neutrinos, at 48 Weyl fermions — is published in [Navarro-Salas 2024,
-  arXiv:2403.13201, *Classical and Quantum Gravity*], derived instead from exact conformal
-  symmetry (both trace-anomaly coefficients vanishing). The two are **not** independent
-  confirmations: solved out, both reduce to N_½ = 4·N₁ over the same roster, and the published
-  route needs the same conformal-coupling premise. What remains unsurfaced is this specific
-  route — the finiteness condition at the induced-Newton-constant order — not the conclusion.
+  ξ_H = 1/6*, an unmeasured Standard-Model input the balance requires; independent of the pairing
+  sector. **Prior art (not a novel conclusion):** the same result — three generations and
+  right-handed neutrinos at 48 Weyl fermions — is published in [Navarro-Salas 2024,
+  arXiv:2403.13201, *Classical and Quantum Gravity*], from exact conformal symmetry (both
+  trace-anomaly coefficients vanishing). The two are **not** independent confirmations: both
+  reduce to N_½ = 4·N₁ over the same roster and need the same conformal-coupling premise. What is
+  distinctive here is the route (finiteness at induced-Newton-constant order), not the conclusion.
 
 ## 3. Weakest links — stated plainly
 - **(a) The dark-energy headline result's "+1.5%" is an artifact; its real prediction is +0.44% and
@@ -93,81 +93,65 @@ number, ε, applied everywhere atomic physics appears.
   is folded in. There is no healer available to the electron-coupled scalar (the Majoron couples to
   lepton number, quarks carry none), and that code disagreement plus the helium Aver/EMPRESS fork
   are the verdict's two hinges — the residual shifts every column without changing which one decides.
-- **(c) The H₀ evidence is SH0ES-conditional and marginal.** ΔlnZ = +2.635 (a Laplace estimate; the
-  nested-sampling number is unaffordable on this hardware and waits for cluster time) crosses the
-  pre-registered win line only slightly, inside the estimator's own systematic error; without SH0ES
-  the model does not win. The easing is shared by the whole varying-m_e model class — it adds no
-  independent evidence for the superfluid ontology.
-  **And it is no longer the only number on the table — added 2026-07-28 after an external reviewer
-  observed, correctly, that a stale Laplace estimate should not headline while production chains are
-  still open.** The July matched-pair snapshot that followed was **a wash, and quotable in neither
+- **(c) The H₀ evidence is SH0ES-conditional and marginal.** ΔlnZ = +2.635 is a **Laplace** estimate
+  (Hessian-from-MCMC). Nested sampling — the confirmer that would make this robust — is
+  **unaffordable on this hardware and not running**; it waits for cluster time. The +2.635 crosses
+  the pre-registered win line only slightly, inside the estimator's own systematic error; without
+  SH0ES the model does not win. The easing is shared by the whole varying-m_e model class — it adds
+  no independent evidence for the superfluid ontology.
+
+  **A stale Laplace should not headline while production chains are still open.** That is why the
+  July matched-pair snapshot is kept on the record even though it was **a wash, quotable in neither
   direction.** Best −logpost stood at **1377.89 (model)** against **1379.79 (ΛCDM)** — nominally
   1.9 log units the model's way — but that figure was worse than unconverged: **one rank of three.**
   Checked the same day (`scripts/rank_basin_diagnostic.py`), the model's three parallel chains sat at
   best fits of **1377.9, 1610.6 and 1440.6**, with H₀ = 69.5 / 64.0 / 64.8 and dcdf_rho_inf =
   0.700 / 0.595 / 0.635 — **three different basins, separated by up to 317 standard errors on a
-  single parameter (H₀).** *(Corrected 2026-07-29. This figure was published as 23,855 s.e. and that
-  was overstated 75×, for two compounding reasons, both found by a second instrument —
-  `scripts/rank_separation_ess.py`. First, the ranks were compared at their own differing sample
-  counts rather than truncated to the shortest, which shrinks the error bar of whichever rank ran
-  longest: matching them gives 2,102. Second and larger, the standard error divided by the raw sample
-  count, treating autocorrelated Markov-chain samples as independent. The measured integrated
-  autocorrelation time is τ ≈ 26–46, so the honest effective sample size is ~6–9 per rank-half, not
-  467, and the corrected separation is **317 s.e.** The direction of that July conclusion is
-  unchanged and in fact sharpened — see the reference chain immediately below.)* The reference
-  chains on that snapshot were **not merely better behaved: on this corrected measure they were
-  consistent with a single basin**, worst separation **1.6 standard errors** (published as 12.6,
-  same defect). They remained unconverged for a different and clearer reason — with τ ≈ 23–68 each
-  rank-half carried only ~5–19 effective samples, which is what R−1 = 1.011 was reporting. The cause
-  was diagnosable: **acceptance sat at 5.3–6.2% for the model chain and 8.5–8.9% for the reference,
-  against a ~25% target** — the proposal was poorly matched to the posterior, and the rank with the
-  *most* samples (1663) sat 233 log units *worse* than the rank with the fewest. *(A reader checking
-  this should know which counter to read. These are the sampler's own step counters — accepted steps
-  divided by steps taken. The run's `.progress` file carries a column also named `acceptance_rate`,
-  and it reports ≈0.97. That column is a different quantity: stored rows divided by the sum of their
-  weights. Under fast-parameter oversampling each accepted sub-step is written as its own row, so
-  weights sit near 1 and the ratio is pinned near unity by construction — for those runs it reads
-  ≈0.97 whatever the proposal is doing, and cannot diagnose proposal health. Verified against both
-  counters on the reference chain of that era: 2154 rows / 2221 total weight = 0.970, against 745
-  accepted / 8018 steps = 9.3%.)*
+  single parameter (H₀).** *(Corrected 2026-07-29. An earlier figure of 23,855 s.e. was overstated
+  75× for two compounding reasons, both found by `scripts/rank_separation_ess.py`. First, the ranks
+  were compared at their own sample counts rather than truncated to the shortest, which shrinks the
+  error bar of whichever rank ran longest: matching them gives 2,102. Second and larger, the
+  standard error treated autocorrelated Markov samples as independent. With integrated
+  autocorrelation time τ ≈ 26–46, the honest effective sample size is ~6–9 per rank-half, not 467,
+  and the corrected separation is **317 s.e.** Direction unchanged; sharpened.)* The reference
+  chains on that snapshot were **consistent with a single basin** on the corrected measure (worst
+  separation **1.6 s.e.**, published as 12.6 by the same defect). They remained unconverged for a
+  clearer reason: with τ ≈ 23–68 each rank-half carried only ~5–19 effective samples, which is what
+  R−1 = 1.011 was reporting. The cause was diagnosable: **acceptance sat at 5.3–6.2% for the model
+  and 8.5–8.9% for the reference, against a ~25% target** — proposal poorly matched to the posterior;
+  the rank with the *most* samples (1663) sat 233 log units *worse* than the rank with the fewest.
+  *(Which counter to read: the sampler's own accepted/steps. The `.progress` column also named
+  `acceptance_rate` reports ≈0.97; that is stored rows over total weight, pinned near unity by
+  oversampling, and does not diagnose proposal health. Verified on that era's reference chain:
+  2154/2221 = 0.970 against 745/8018 = 9.3%.)*
 
-  **The proposal was never re-learned on that run — and the reason, corrected 2026-07-29, is not
-  the one first recorded here.** This page previously said the lock was cobaya's R−1 threshold:
-  that it re-learns only once R−1 falls below 2.0 (30 early), which the model chain never reached, so
-  "the mechanism that would fix the proposal is gated behind the problem it would fix." **That gate
-  was never reached.** Re-reading the archived run's log isolates the actual mechanism, and it is
-  simpler and more instructive:
+  **Why the proposal was never re-learned on that July run (corrected 2026-07-29).** This page first
+  blamed cobaya's R−1 gate (re-learn only once R−1 falls below 2.0). **That gate was never reached.**
+  The archived log isolates a simpler mechanism:
 
   > Learning is a **collective MPI checkpoint**. Every rank must reach a multiple of `learn_every`
-  > = 40·d accepted samples before any of them may proceed. With d = 13 that is **520 per rank**, and
-  > the three ranks held **467 / 1684 / 658**. The log shows ranks 1 and 2 announcing *"Ready to check
-  > convergence and learn a new proposal covmat (waiting for the rest…)"* and rank 0 never doing so.
-  > **"All chains are ready" never appears, and no convergence statistic is ever computed** — which is
-  > why that run's `.progress` file is empty. Two ranks sat blocked, indefinitely, waiting for a third
-  > that was 53 samples short.
+  > = 40·d accepted samples before any proceeds. With d = 13 that is **520 per rank**; the three
+  > ranks held **467 / 1684 / 658**. Ranks 1 and 2 announced ready; rank 0 never did. **"All chains
+  > are ready" never appears**, no convergence statistic is computed, and that run's `.progress`
+  > file is empty. Two ranks waited indefinitely for a third 53 samples short.
 
-  So the R−1 threshold is a real gate that would plausibly have bitten *next* — with three basins 233
-  log units apart, R−1 would have far exceeded 30 — but it was never tested, and **the claim that
-  "more wall-clock at these settings will not fix this" was not established.** Rank 0 needed 53 more
-  accepted samples to trigger the first collective learn. What that July diagnosis established is that
-  **the proposal was never re-learned and the three ranks never merged.** The remedy applied (reseed
-  the covariance from the rank that found the good basin) was the right action under either mechanism,
-  and it worked: acceptance moved 5.3–6.2% → 31.2–31.9%. *(The earlier "confirmed by file times"
-  evidence — the model's covmat never changing — is consistent with this but proves less than claimed:
-  an unchanged covmat means nothing until `learn_every` has actually been reached.)* Three further
-  reasons forbade banking the number even if the basins had merged then: the model's chain had
-  **1.79× more samples**, and best-so-far is a running minimum that favours the longer chain even for
-  identical models; **neither chain was converged**, so both figures were upper bounds still falling;
-  and **best-fit is not evidence at all** — it carries no parameter penalty, and Δln Z is what decides.
-  A reading circulating externally had the model ~41 log units *behind*; that was already stale then
-  (it predated the model's best falling from 1421.6), and correcting it bought nothing.
+  The R−1 threshold would likely have bitten *next* — three basins 233 log units apart would have
+  pushed R−1 far past 30 — but it was never tested, so **the claim that "more wall-clock at these
+  settings will not fix this" was not established.** What July did establish: **the proposal was
+  never re-learned and the three ranks never merged.** Reseeding the covariance from the good basin
+  was the right remedy under either mechanism, and it worked: acceptance 5.3–6.2% → 31.2–31.9%.
+  Three further reasons forbade banking even a merged best-fit then: the model had **1.79× more
+  samples** (best-so-far favours the longer chain); **neither chain was converged**; and **best-fit
+  is not evidence** — it carries no parameter penalty; Δln Z is what decides. An external reading
+  that put the model ~41 log units *behind* was already stale then (it predated the model's best
+  falling from 1421.6).
 
-  **Present tense (2026-08-02), matching §4 below:** a later matched relaunch **merged the basins**
-  (every sampled parameter agrees across the three ranks to within ~0.6 within-chain s.d.) and is
-  *converging but not yet quotable* (R−1 ≈ 0.19–0.29, ESS-limited, stop target 0.05 still ahead). No
-  best-fit comparison from this pair is bankable yet. The standing evidence number remains the
-  marginal, SH0ES-conditional Laplace estimate +2.635 — the wrong kind of number to lead with.
-  Verified: `scripts/live_evidence_honest_read.py`.
+  **As of 2026-08-02 (§4):** a later matched relaunch **merged the basins** (every sampled parameter
+  agrees across the three ranks to within ~0.6 within-chain s.d.) and is *converging but not yet
+  quotable* (R−1 ≈ **0.14–0.19**, ESS-limited; stop target 0.05 still ahead). No best-fit comparison
+  from this pair is bankable. The standing evidence number remains the marginal, SH0ES-conditional
+  **Laplace** estimate +2.635 — the wrong kind of number to lead with. Nested sampling is still
+  offline. Verified: `scripts/live_evidence_honest_read.py`.
 - **(d) The electron-coupled scalar's thermalisation problem — adjudicated (2026-07-18): the
   recorded configuration is BBN-fatal; one repair branch survives, at a named price.** The
   non-thermalisation escape was built and adversarially tried: **as recorded** (the electron-CW
@@ -188,7 +172,8 @@ number, ε, applied everywhere atomic physics appears.
   ΔN_eff ≈ 0.06–0.24. Remaining exposure: the gate's chameleon/Casimir/EP checklist, and the
   helium Aver/EMPRESS fork.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
-  closed form is the corpus's boldest standing claim, frozen into the live run by design.
+  closed form is the corpus's boldest standing claim, frozen into the production configs by design
+  (not by a converged posterior).
 - **(g) The gate's energy bookkeeping is unpaid, and one endpoint is excluded.** The electron's
   rest energy differs across the screening transition by 6.4 keV. If gas crosses that transition
   ballistically it is heated by ~2 keV per particle — an entropy floor an order of magnitude
@@ -287,47 +272,47 @@ number, ε, applied everywhere atomic physics appears.
 
 ## 4. Current evidence class
 **Flat / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
-crossed a pre-committed threshold but adds no independent evidence for the ontology. **And it stands
+crossed a pre-committed threshold but adds no independent evidence for the ontology. **It stands
 without its confirmer.** The zero-free-parameter nested-sampling comparison against ΛCDM — the only
-thing that can make this robust — costs 9.8 h per iteration on the hardware available, which is 163
-days to a first checkpoint, so it has been ended and waits for cluster time. A reader should take the
-evidence class as: one marginal Laplace estimate, whose margin over the win line is smaller than the
-estimator's own systematic, with no nested number in prospect. What that verdict now depends on is
-the MCMC chains it is computed from, which makes their convergence — not any separate referee — the
-thing standing between the model and its headline evidence claim.
+thing that can make this robust — costs 9.8 h per iteration on available hardware (163 days to a
+first checkpoint). That run has been **ended** and waits for cluster time; **it is not live.** A
+reader should take the evidence class as: one marginal Laplace estimate, whose margin over the win
+line is smaller than the estimator's own systematic, with **no nested number in prospect**. The
+verdict now depends on the MCMC chains the Laplace is computed from — so their convergence, not a
+separate nested referee, stands between the model and its headline evidence claim.
 
-**And that distance is now measured, 2026-07-28. It is large.** No chain in this corpus has ever
-reached its own stopping target of R−1 = 0.05:
+**That distance is measured.** No chain in this corpus has ever reached its own stopping target
+(R−1 = 0.05 for the production pair; 0.1 for Route-D). Status as of 2026-08-02
+([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md)):
 
-| chain | last recorded R−1 | over target |
-|---|---|---|
-| `cmp_prtoe_conv_desi` | 13.25 | **265×** |
-| `cmp_prtoe_zon_disp` | 17.81 | **356×** |
-| `cmp_prtoe_zon` | 40.36 | **807×** |
-| `dyad_mnu_mcmc` | *none recorded* | unknown — no `.progress` file exists |
-| `dyad_mnu_bbnfix` (running, 3 chains) | 0.19, falling | **3.8×** — the closest any chain has come |
-| `cmp_lcdm_mnu_bbnfix` (running, 3 chains) | 0.29, falling | **5.7×** |
+| chain | last recorded R−1 | live? | note |
+|---|---|---|---|
+| `dyad_mnu_bbnfix` (model, 3 ranks) | **0.19**, falling | **yes** | ~3.8× stop (0.05); closest to gate among the model stack |
+| `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin, 3 ranks) | **0.14**, falling | **yes** | ~2.8× stop (0.05) |
+| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **~129** | **yes** | early; stop 0.1; far from gate |
+| `cmp_prtoe_conv_desi` | 13.25 | **no** | unproduced; last write 2026-07-22 |
+| `cmp_prtoe_zon_disp` | 17.81 | **no** | collapsed; seed ready, owner restart |
+| `cmp_prtoe_zon` | 40.36 | **no** | stopped since 07-12 |
+| `dyad_mnu_mcmc` | *none recorded* | **no** | diagnostic archive only |
+| PolyChord nested evidence (`cmp_prtoe_fixed` et al.) | — | **no** | ended 2026-07-20; waits for cluster time |
 
 Two consequences a reader should carry. **First**, the parameter tables in
-[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) are formatted as posterior summaries but are not;
-their 68% limits should be read as lower bounds on the true width, since a wandering chain has not
-visited the tails that would earn them.
+[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) that are formatted as posterior summaries are not
+posteriors for any unconverged run; their 68% limits are lower bounds on the true width, because a
+wandering chain has not visited the tails that would earn them. **No GetDist table exists yet for
+the three live runs** — they join only at stop.
 
-**Second — and this row moved within a single day, which is the point of it.** An earlier reading
-this session put the model **41 log-units behind** ΛCDM+mν on an identical ten-likelihood stack. Six
-hours later the model's leading rank had descended from −logpost 1421.6 to **1379.2**, against the
-reference's best **1379.8** — a gap of 0.6 in the model's favour rather than 41 against it. The
-descent is monotone by fifths (1490 → 1423 → 1410 → 1387 → 1379) and its minimum still sits in the
-most recent segment, so **it has not stopped either.**
+**Second**, intermediate best-fit gaps are not verdicts. In July the model briefly sat ~41 log units
+*behind* ΛCDM+mν on an identical stack, then the leading rank descended to roughly even (−logpost
+~1379 each way). Descent was still active when that snapshot closed. Neither figure was bankable.
 
-Neither number was a verdict and neither should be quoted as one. **The basin problem has since
-resolved:** both chains were relaunched with three ranks each and matched settings, burn-in cleared,
-and every sampled parameter now agrees across the three ranks to within 0.6 within-chain standard
-deviations — one basin, genuinely mixing. What remains is statistics, not pathology: the integrated
-autocorrelation times put the effective sample count near one to two hundred per chain, which is
-exactly what R−1 ≈ 0.2–0.3 reports, and the 0.05 stopping target needs roughly four times more.
-The honest present state is *converging but not yet quotable*: anyone quoting an evidence number
-from this pair before R−1 reaches its target is quoting noise, in either direction.
+**The basin problem has since resolved.** Both production chains were relaunched with three ranks
+each and matched settings; burn-in cleared; every sampled parameter now agrees across ranks to
+within 0.6 within-chain standard deviations — one basin, genuinely mixing. What remains is
+statistics, not pathology: effective sample counts are still low (R−1 ≈ 0.14–0.19), and the 0.05
+stop needs roughly a few times more. Honest present state: *converging but not yet quotable*.
+Anyone quoting an evidence number from this pair before R−1 hits target is quoting noise, either
+way.
 
 ## 5. What would kill it (pre-registered)
 1. DESI DR3 confirms w ≠ −1.
@@ -342,6 +327,6 @@ from this pair before R−1 reaches its target is quoting noise, in either direc
 
 *The single sentence: the model is a narrow, falsifiable reinterpretation whose one statistical win
 is SH0ES-conditional and rests on a marginal Laplace estimate with no nested confirmation in
-prospect, whose headline number is a sourced structural relation that lands on the observed
-dark-energy scale without claiming the precision it lands to, and whose fate rides on chains that
-have yet to converge, a lattice number no one has computed at the precision required, and DESI.*
+prospect, whose headline dark-energy number is a sourced structural relation that lands on the
+observed scale without claiming the precision it lands to, and whose fate rides on chains that have
+yet to converge, a lattice number no one has computed at the precision required, and DESI.*

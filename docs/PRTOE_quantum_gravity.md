@@ -146,7 +146,7 @@ gauge bosons −4 each; real scalars (1/6 − ξ).
 | **dark** — fermions | dark quarks: N_f × N_c × 2 Weyl = 3 × 2 × 2 | **+12** *(candidate — P-2026-048)* |
 | **dark** — gauge | dark gluons: (N_c² − 1) = 3 bosons × (−4) | **−12** *(candidate — P-2026-048)* |
 | | *dark subtotal* | ***0 — exactly*** |
-| | **TOTAL** | **0** |
+| | **Total** | **0** |
 
 **The visible subtotal is the balance §5.3 is named for, but it is not by itself the
 finiteness condition** — "every field in the vacuum" includes the dark sector, and an
@@ -166,7 +166,7 @@ the one-loop contribution to Newton's constant is finite"* — and, as Visser no
 becomes independent of the renormalization scale. These are, in his words, *"very strong
 constraints on the particle content,"* not derivable from supersymmetry alone.
 
-> **What imposing the zero COSTS, settled 2026-07-29.** Visser's Eq. 29 is
+> **What imposing the zero costs, settled 2026-07-29.** Visser's Eq. 29 is
 > 1/G ≈ −(1/2π)·str[k₁]·κ², with str[k₁] ≈ −1 in his estimate. **Setting str[k₁] = 0 therefore
 > switches Sakharov induction off at leading order: the κ² term that would generate Newton's
 > constant vanishes.** Visser flags the tension himself — the finiteness assumption *"is completely
@@ -199,7 +199,7 @@ Standard Model plus three right-handed neutrinos: the content this framework ind
 requires for Majorana neutrino masses.** The framework's field content lands on a knife-edge
 condition the literature identifies as hard to meet.
 
-> **⚠ UNITS, corrected 2026-07-29 — verified, but state it two ways.** An earlier version of this
+> **⚠ Units, corrected 2026-07-29 — verified, but state it two ways.** An earlier version of this
 > paragraph read "str[k₁] = −3" for the Standard Model alone. **In Visser's normalisation the value
 > is −1/2.** The −3 is the deficit counted in **Weyl spinors** (45 against the 48 required), and the
 > two are related by the +1/6 each Weyl contributes: (−3)/6 = −1/2. Both statements are true and the
@@ -303,7 +303,7 @@ Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 ### The Navarro-Salas comparison, verified and sharpened (2026-07-29)
 
-The file records that the published condition and this one "collapse to N_½ = 4N₁ and are NOT
+The file records that the published condition and this one "collapse to N_½ = 4N₁ and are not
 independent." **That is correct, and it now has a proof.** Navarro-Salas's two conformal-anomaly
 conditions (CQG 2024, Eq. 3.10) are
 

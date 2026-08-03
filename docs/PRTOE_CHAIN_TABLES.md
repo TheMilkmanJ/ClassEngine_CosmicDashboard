@@ -4,25 +4,29 @@
 > Regenerated per run at its landing; the live pair and Route-D join
 > **at convergence only**. Means with 68% limits, 30% burn-in — and only then.
 
-> ## Live production status (read 2026-08-02 from `.progress`, launchlog tails, checkpoints)
+> ## Live production status (re-read 2026-08-02 ~22:20 from `.progress`, launchlog tails, checkpoints)
 >
 > Three MPI production objects are **live** (do not kill). None has met its R−1 stop.
 > Cobaya `.progress` `acceptance_rate` is **oversampled** (`oversample_power = 0.4`) and
 > sits near ~0.99 even when the raw Metropolis accept rate is healthy; **use launchlog
 > accepted/steps** for the real accept rate.
 >
+> **R−1 unchanged** since the last progress checkpoints (dyad 15:41 / lcdm 19:00 / routeD 19:24);
+> launchlogs and `*.{1,2,3}.txt` still advancing.
+>
 > | chain | ranks (`mpi_size`) | N (progress) | R−1 last | stop | raw accept (launchlog Σ) | progress accept | live? |
 > |---|---:|---:|---:|---:|---:|---:|---|
-> | `dyad_mnu_bbnfix` (model, BBN-fixed) | **3** | 14544 | **0.192** | 0.05 | **~6.4%** (≈5059/79027 per rank) | 0.996 ⚠ oversampled | **YES** — last progress 2026-08-02T15:41; launchlog still advancing |
-> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 13193 | **0.141** | 0.05 | **~8.6%** (≈4561/53139 per rank) | 0.984 ⚠ oversampled | **YES** — last progress 2026-08-02T19:00; launchlog still advancing |
-> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 1593 | **129.1** | 0.1 | **~5.1%** (≈588/11453 per rank) | 1.0 ⚠ oversampled | **YES** — first progress row 2026-08-02T19:24; early |
+> | `dyad_mnu_bbnfix` (model, BBN-fixed) | **3** | 14544 | **0.192** | 0.05 | **~6.40%** (Σ 15132/236443; ≈5044/78814 per rank) | 0.996 ⚠ oversampled | **YES** — progress 2026-08-02T15:41; launchlog ~22:18 |
+> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 13193 | **0.141** | 0.05 | **~8.59%** (Σ 13599/158247; ≈4533/52749 per rank) | 0.984 ⚠ oversampled | **YES** — progress 2026-08-02T19:00; launchlog ~22:18 |
+> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 1593 | **129.1** | 0.1 | **~5.15%** (Σ 1828/35479; ≈609/11826 per rank) | 1.0 ⚠ oversampled | **YES** — first progress row 2026-08-02T19:24; early; ranks partially disjoint (H₀ post-50% means ≈68.55 / 68.66 / 69.83) |
 >
 > **Stop targets (from yaml):** dyad / lcdm `Rminus1_stop = 0.05`; routeD `Rminus1_stop = 0.1`.
 > Checkpoints all report `converged: false`. Closest to gate: lcdm twin at ~2.8× stop; model at
 > ~3.8×; routeD is early and far (≈1290× its looser 0.1 stop).
 >
 > **No GetDist posterior table exists yet for the three live runs** — they join this file only
-> when R−1 hits stop. Any preliminary peek must be labeled as such and is not booked.
+> when R−1 hits stop. Booking commands: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`.
+> Any preliminary peek must be labeled as such and is not booked.
 >
 > ### Archive / dead chains still tabulated below (not live)
 >

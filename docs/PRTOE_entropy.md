@@ -58,7 +58,7 @@ the two heat-kernel coefficients under the medium's own Bogoliubov regulator, 12
 exactly (§5; [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). **The entanglement-side
 check is paid (2026-07-20), and structurally**: the conical deficit's R-delta makes the horizon
 area term the *same* heat-kernel coefficient that generates 1/G, so any regulator multiplies both
-by one factor and cancels in the ratio — the quarter is regulator-**independent**.
+by one factor and cancels in the ratio — the quarter is regulator-independent.
 
 **The roster extension (2026-07-28,** `scripts/area_law_roster_extension.py`**).** For the full
 field content the two divergences split per class, and the literature has adjudicated each
@@ -74,11 +74,19 @@ that edge modes are physical horizon entropy. The quarter therefore survives the
 candidate grade with that single named commitment; rejecting edge-mode entropy would break the
 gauge sector's share, and that is the extension's kill.
 
+**Status (2026-08-02), area-law roster — so it cannot be misread:**
+
+| piece | status |
+|---|---|
+| scaling + coefficient (minimally coupled scalars; regulator structural) | **complete** — paid |
+| roster extension (full field content; edge-mode commitment named) | **complete** at candidate grade |
+| Page-curve *dynamics* (phonon flux off a finite core) | **open** — separate computation; *not* an area-law residue |
+
 Located by the model, with the scaling derived and the coefficient derived for the full roster
 at candidate grade (one named commitment; the regulator's entanglement-side check is
-structural). The same structure **unblocks** the Page curve
-([PRTOE_information_paradox.md](PRTOE_information_paradox.md)) — coefficient and roster paid;
-the dynamical curve is still a separate open computation, not an area-law residue. Homes:
+structural). The same structure unblocks the Page curve
+([PRTOE_information_paradox.md](PRTOE_information_paradox.md)) — coefficient and roster complete;
+the dynamical curve remains open, not an area-law residue. Homes:
 [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md).
 
@@ -118,6 +126,14 @@ pre-registered rotation-shed parameter instead ([PRTOE_FAILURES_LEDGER.md](PRTOE
 7 checks; the slow-limit numbers above are reproduced first, so this extends the construction rather
 than replacing it).
 
+**Status (2026-08-02), high-velocity section — so it cannot be misread:**
+
+| piece | status |
+|---|---|
+| saturation law f = min(1, v/c_s); ceiling; Landau identity of threshold | **complete** — paid (7/7 checks) |
+| cluster / thermal-gas application (all known systems subcritical) | **complete** — high-velocity correction to cluster entropy is nil |
+| detectability of the AGN/jet crossing | **open as a claim** — coupling unfixed; *not* an open half of the treatment above |
+
 The traversed fraction f = v/c_s is a *fraction*, so the linear law can only hold while v < c_s, and
 the correct statement is f = min(1, v/c_s). Saturation gives a ceiling of E_step/3 ≈ 2140 eV per
 particle — well above the 100–300 keV cm² floors groups show. So the channel is bounded by its
@@ -129,7 +145,7 @@ traversing element, the pickup is adiabatic, and Landau forbids any excitation, 
 is reversible work rather than dissipation. At and above it the fraction saturates and the excitation
 channel opens together. The two regimes are qualitatively different with a sharp line between them.
 
-**Nothing made of gas reaches that line.** The fastest cluster merger known sits at v/c_s = 0.113, so
+Nothing made of gas reaches that line. The fastest cluster merger known sits at v/c_s = 0.113, so
 the slow-limit treatment is valid everywhere this file applies it and the high-velocity correction to
 cluster entropy is nil. The threshold *is* crossed by AGN ultra-fast outflows, whose measured
 velocities run from roughly 0.03 c to 0.3 c and therefore straddle √(3α)·c = 0.148 c, and by

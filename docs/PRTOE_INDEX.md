@@ -24,7 +24,8 @@ first. Nothing was deleted.*
 - [Stability](PRTOE_stability.md) — the four questions a referee opens with: ghost, gradient, c_T,
   equivalence principle
 - [The code manifest](PRTOE_CODE_MANIFEST.md) — what is in the pipeline, armed, or banned
-- [Strong CP](PRTOE_strong_cp.md) — complete abstention: θ̄ is outside jurisdiction (not a paper; not the dark-confining/g_p notes)
+- [Strong CP](PRTOE_strong_cp.md) — COMPLETE-ABSTENTION: θ̄ is outside jurisdiction (not a paper; not the dark-confining/g_p notes)
+- [Papers packages](../papers/README.md) — **4+** TeX packages (supertrace-note shipped on Zenodo; neutrino-mbb, radio-lattice, lattice-tc-gap ready; staged copies under [arXivReady](arXivReady/README.md))
 
 ## The core claim
 

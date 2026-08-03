@@ -1,16 +1,21 @@
-# The Reader's Guide — plain physics, no house dialect (2026-07-13)
+# The Reader's Guide — plain physics, no house dialect
 
-*Written for the newcomer and the external reviewer. The repository's working documents
-use a compact internal vocabulary for the model's recurring objects; it is not required to
-evaluate the physics. This page states the model plainly, translates every recurring house
-term, and gives the reading order.*
+**Status (2026-08-02):** glossary and reading map for outsiders. For graded claims, evidence class
+(Laplace-marginal; nested sampling offline), and kill conditions, start with
+[PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Live chain status:
+[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
+
+*Written for the newcomer and the external reviewer. Working documents in this repository use a
+compact internal vocabulary for the model's recurring objects; you do not need that dialect to
+evaluate the physics. This page states the model plainly, translates the recurring house terms, and
+gives a reading order.*
 
 > **If two files disagree about a number, do not adjudicate it yourself.**
 > [`working_logs/_CANONICAL_VALUES.md`](working_logs/_CANONICAL_VALUES.md) carries the canonical
 > value, where it is *derived* (not merely quoted), what proves it, and its grade — plus a "what it
-> is NOT" column, because on 2026-07-20 two apparent contradictions turned out to be **two different
-> objects** rather than a disagreement. It also lists the quantities where no canonical value exists
-> yet, so none goes on the record by accident.
+> is NOT" column. On 2026-07-20 two apparent contradictions turned out to be **two different
+> objects**, not a disagreement. The same file lists quantities with no canonical value yet, so none
+> enters the record by accident.
 
 ## 1. The model in five plain sentences
 
@@ -22,12 +27,12 @@ term, and gives the reading order.*
  anisotropies.
 3. A second field (the electron-coupled scalar) couples to leptons through exactly one number: a
  fractional shift of the electron mass, ε ≈ 1.24%, active in the early universe and switched off
- at late times by a screening transition.
-4. That one shift, applied wherever atomic physics looks — recombination, BBN's later
- stages, 21cm rest frequencies, potentially supernova spectra in unscreened
+ later by a screening transition.
+4. That one shift, applied wherever atomic physics appears — recombination, BBN's later
+ stages, 21 cm rest frequencies, potentially supernova spectra in unscreened
  environments — is the source of every claimed signature; the same number must work
  everywhere or the model fails.
-5. The model is pre-registered: its predictions carry numbered entries with named
+5. The model is pre-registered: predictions carry numbered entries with named
  killing observations, filed before the deciding data.
 
 ## 2. The glossary — house term → physics term
@@ -35,27 +40,27 @@ term, and gives the reading order.*
 | house term | plain physics |
 |---|---|
 | the medium / the fluid | the superfluid scalar field (the unified dark sector) |
-| the amplitude / ε | the fractional electron-mass shift. Three numbers appear deliberately: **1.2543%** is the derived stack (c·f̄·α_c = 27α/5π), **1.232%** the production-chain fit, **~1.24%** the posterior. The 1.8% gap between the derived stack and the production fit sits inside the posterior width and is what the production-chain posteriors grade (once converged) |
-| the dyad — **officially "the electron-coupled scalar"** (owner's rename, 2026-07-28; the audience-facing files use the new name) | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of the model's three dark fields (the dCDF superfluid, the electron-coupled scalar, the Majoron). It is **not** the Majoron: the single-scale reading that merged them (f = v_L) is dead on the neutrino tie, which is what leaves three fields rather than two. In older documents "the dyad" named the (dark fluid + varying-m_e) pair |
+| the amplitude / ε | the fractional electron-mass shift. Three numbers appear deliberately: **1.2543%** is the derived stack (c·f̄·α_c = 27α/5π), **1.232%** the production-chain fit, **~1.24%** the posterior summary. The 1.8% gap between derived stack and production fit sits inside the posterior width; production-chain posteriors will grade it **once those chains converge** (they have not yet) |
+| the dyad — **prefer "the electron-coupled scalar"** (rename 2026-07-28; audience-facing files use the new name) | the high-decay-constant pseudo-Goldstone field that shifts m_e — one of three dark fields (dCDF superfluid, electron-coupled scalar, Majoron). It is **not** the Majoron: the single-scale reading that merged them (f = v_L) is dead on the neutrino tie, which is why there are three fields rather than two. Older documents used "the dyad" for the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | the quantized phase winding number, set stochastically (Kibble mechanism) at the condensation transition |
-| f_amp | the medium's **librating fraction**, 1 − f_rot: the dice output, the granule-contrast dial p²+q², and the beat √(f_amp(2−f_amp)) all use this sense. Older documents use the same letter for an amplitude-decomposition factor in ε = c·f_amp·Ψ₀/M_red; that is not the standing decomposition, which is ε = c·f̄·α_c with f̄ = 2/π |
-| the axis / the axis family | the compact direction; the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
-| the gate / screening / the gate curve ε(C) | the environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
-| recorded | established within the model at production grade (coded, fit, or derived) and recorded |
+| f_amp | the medium's **librating fraction**, 1 − f_rot (used by the dice output, the granule-contrast dial p²+q², and the beat √(f_amp(2−f_amp))). Older documents reuse the letter as an amplitude factor in ε = c·f_amp·Ψ₀/M_red; that is not the standing form, which is ε = c·f̄·α_c with f̄ = 2/π |
+| the axis / the axis family | the compact direction, and the set of sky signatures predicted to share it (power-spectrum comb, dipole, alignments, bulk flow) |
+| the gate / screening / the gate curve ε(C) | environmental switch-off of ε: a smooth function of local clumping (dense regions: ε → 0; voids retain it) |
+| recorded | established within the model at production grade (coded, fit, or derived) and written into the corpus |
 | the census / census blindness | the counting argument behind c = 9/10: gravity couples to energy content, not particle identity |
 | the pinch / occupancy one | the ground state holds exactly one quantum per coherence cell (sets the vacuum energy scale) |
-| the anchor / the gap equation | the TeV scale from a pairing exponential, M ≈ M_red·e^(−1/kα_c − 3/2) — the hierarchy mechanism. The pairing is **particle-hole** (a Cooper pair of charged fermions would give the photon a mass); the −3/2 says the pairing shell's cutoff is the Planck floor dressed down by the equipartition boost. Derived end to end, but the anchor's *value* carries a factor-of-a-few band, since ∂lnM/∂lnk = 33 amplifies every O(1) |
+| the anchor / the gap equation | the TeV scale from a pairing exponential, M ≈ M_red·e^(−1/kα_c − 3/2) — the hierarchy mechanism. Pairing is **particle-hole** (a Cooper pair of charged fermions would mass the photon); the −3/2 says the pairing shell's cutoff is the Planck floor dressed down by the equipartition boost. Derived end to end, but the *value* carries a factor-of-a-few band (∂lnM/∂lnk = 33 amplifies every O(1)) |
 | the twins / the pair | Cooper-style pairing of a mode with its time-reversed partner |
-| the arrow / the arrow-giver | the time orientation set by the condensate background (⟨θ̇⟩ ≠ 0, ghost-condensate class) |
+| the arrow / the arrow-giver | time orientation set by the condensate background (⟨θ̇⟩ ≠ 0, ghost-condensate class) |
 | the pour / the snap / the fountain | the bounce: the hot re-start of a cycle (structurally the one realized white-hole-like event) |
 | the melt | reheating above T_c at the crunch: superfluidity ends, friction returns, the winding's protection lapses |
-| route D / the thaw branch | the alternative to a rigid dark-energy floor: w₀ ∈ [−0.92, −0.86] with wₐ < 0, the dark energy *leaving* its floor as the universe expands rather than sitting on it. DESI DR3 decides between this and w = −1 exactly |
-| the curvature-metered gate | the screen that switches the electron-mass shift off in dense, curved regions, keyed to how sharply curved they are: exp(−(C/C_ref)ⁿ) with n > 2.43, so sharp it is effectively a step. It is what makes today's laboratories see no effect |
-| ramps vs steps | the house discipline: physical transitions are modeled as smooth (finite-width) functions, never discontinuities, unless protected by quantization/topology |
-| the error log | the log of caught errors (public, in the failures ledger) |
-| the §12 wall | the corpus's hard scope boundary: the interpretation layer makes no claims about mind, consciousness, or observers — measurement is decoherence/einselection and nothing more. Named for a section number in an early draft; the number outlived the draft, the boundary is the content |
+| route D / the thaw branch | alternative to a rigid dark-energy floor: w₀ ∈ [−0.92, −0.86] with wₐ < 0 — dark energy *leaving* its floor as the universe expands rather than sitting on it. DESI DR3 decides between this and w = −1 exactly |
+| the curvature-metered gate | screen that switches the electron-mass shift off in dense, curved regions, keyed to curvature sharpness: exp(−(C/C_ref)ⁿ) with n > 2.43 — sharp enough to act as a step. Why today's laboratories see no effect |
+| ramps vs steps | house discipline: physical transitions are modeled as smooth (finite-width) functions, never bare discontinuities, unless protected by quantization or topology |
+| the error log | log of caught errors (public, in the failures ledger) |
+| the §12 wall | hard scope boundary: the interpretation layer makes no claims about mind, consciousness, or observers — measurement is decoherence/einselection and nothing more. Named for a section number in an early draft; the boundary is the content |
 | the killer / the kill | the named observation that falsifies a specific claim |
-| estimate / open item | computed lightly or not yet verified by the full chain — said in plain prose, not as a grade tag |
+| estimate / open item | computed lightly, or not yet verified by the full chain — said in plain prose, not as a grade tag |
 
 ## 2b. The symbol table — one symbol, one meaning
 
@@ -84,49 +89,50 @@ fixed here:
 
 ## 3. The reading order
 
+0. **READERS_RISK** — one honest page: strongest claims, weakest links, evidence class, kill list.
 1. **THREE_EQUATIONS** — the testable core in three lines.
 2. **THE_AMPLITUDE** — the one number and its seven windows.
 3. **DEPENDENCY_TREE** — what is conditional on what (the honesty map).
 4. **PREREGISTERED_PREDICTIONS** — the bets, with killers.
 5. **FAILURES_LEDGER** — everything that died, and the error log.
-6. The per-topic shelf (cosmological constant, hierarchy, neutrino sector, ...) as
- interest dictates; **MATH_SPINE** for the full derivation chain.
+6. The per-topic shelf (cosmological constant, hierarchy, neutrino sector, …) as interest
+ dictates; **MATH_SPINE** for the full derivation chain.
 
 ## 4. What to be skeptical of
 
-- The A_s closed form is a *candidate* (its counting mechanism is half-derived; frozen
- into the current run by explicit decision, with the risk documented).
-- Several numerical landings are estimate-grade with O(1) honesty bands — statuses are
- stamped where they apply.
-- The candle-room/H₀-ceiling story: the screening form is derived at class level
- (survival/exponential) and the sign is signed (ς = −1 — the H₀ lever is dead; the ceiling
- reads 70.9–71.3); the coupling's legality is closed by the model's own coupling law
- (sector-internal coupling is permitted; the mechanism file states the three tests). The
- screening computation, open since 7 July, was **delivered on all four of its items** on
- 2026-07-18. What remains is the observational side. **That side got sharper, not softer:** the
- 21-cm edge shape no longer *selects between* a thermal and an environmental reading, because the
- thermal one was retired on 2026-07-16 as an illegal step — a global gate switching off is a
- dynamical discontinuity, and it is neither quantized, topological, nor a protected zero, so no
- exemption covers it. **The model is committed to the environmental reading** (the structure-tracking
- fade over z ≈ 30–60), which means a confirmed sharp global step in the edge now counts **against**
- the model rather than choosing one of its branches. The DESI forest cross-calibration still
- adjudicates the supernova fork.
-- **The electroweak anchor is a mechanism, not a measurement.** The chain from the Planck floor
-  to a few TeV is derived end to end — the pairing channel, the screening constant, the measure,
-  the shell cutoff — but its *precision* is a factor of a few: **0.55 to 1.78 TeV** (first sized
-  at 1–8 TeV; the vertex correction and its self-energy companion have since been computed, both
-  downward), not four significant figures. The exponent amplifies every O(1) thirty-threefold.
-  Agreement quoted to better than that is a coincidence of convention, and the corpus says so
-  where it arises.
+- The statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and marginal.
+  Nested sampling is **not running** and waits for cluster time. Production MCMC is converging but
+  **not yet quotable** — see the risk summary.
+- The A_s closed form is a *candidate* (counting mechanism half-derived; frozen into the production
+  configs by explicit decision, with the risk documented — not the output of a converged posterior).
+- Several numerical landings are estimate-grade with O(1) honesty bands; statuses are stamped where
+  they apply.
+- The candle-room / H₀-ceiling story: the screening form is derived at class level
+  (survival/exponential) and the sign is signed (ς = −1 — the H₀ lever is dead; the ceiling reads
+  70.9–71.3). Coupling legality is closed by the model's own coupling law (sector-internal coupling
+  is permitted). The screening computation, open since 7 July, was **delivered on all four items**
+  on 2026-07-18. What remains is the observational side, and that side got sharper, not softer: the
+  21-cm edge shape no longer *selects between* a thermal and an environmental reading — the thermal
+  one was retired on 2026-07-16 as an illegal step (a global gate switching off is a dynamical
+  discontinuity, neither quantized, topological, nor a protected zero). **The model is committed to
+  the environmental reading** (structure-tracking fade over z ≈ 30–60), so a confirmed sharp global
+  step in the edge now counts **against** the model rather than choosing one of its branches. The
+  DESI forest cross-calibration still adjudicates the supernova fork.
+- **The electroweak anchor is a mechanism, not a measurement.** The chain from the Planck floor to a
+  few TeV is derived end to end — pairing channel, screening constant, measure, shell cutoff — but
+  its *precision* is a factor of a few: **0.55 to 1.78 TeV** (first sized at 1–8 TeV; vertex and
+  self-energy corrections both act downward), not four significant figures. The exponent amplifies
+  every O(1) thirty-threefold. Agreement quoted tighter than that is a coincidence of convention;
+  the corpus says so where it arises.
 - **The count k in that chain is derived exactly, on a host this corpus does not record.** The
   reconstruction is exact and independently confirmed, but it assumes a Fermi surface at finite
-  chemical potential with two velocity-matched bands, where the recorded constituent level is a
+  chemical potential with two velocity-matched bands, whereas the recorded constituent level is a
   Fermi point at zero chemical potential. That is evidence *for* those conditions rather than a
-  derivation *from* recorded structure, and it is the hierarchy chain's largest open exposure.
-- **The chirality family cannot name which handedness means matter, and that is settled rather
-  than pending.** The sector predicts a magnetic-helicity sign *relative to* the genesis winding;
-  it cannot predict the absolute sign, because the genesis draw generates rotation with no
-  preferred sense — a symmetry of the recorded potential that the release prior does not break.
-  Whether even the relative lock exists is a separate question, and it is open.
-- The deepest claim (the medium's reality) remains an open assumption — the corpus
- names it as such and tracks its exposure honestly.
+  derivation *from* recorded structure — the hierarchy chain's largest open exposure.
+- **The chirality family cannot name which handedness means matter, and that is settled rather than
+  pending.** The sector predicts a magnetic-helicity sign *relative to* the genesis winding; it
+  cannot predict the absolute sign, because the genesis draw generates rotation with no preferred
+  sense — a symmetry of the recorded potential that the release prior does not break. Whether even
+  the relative lock exists is a separate, open question.
+- The deepest claim (the medium's reality) remains an open assumption — named as such, with its
+  exposure tracked honestly.

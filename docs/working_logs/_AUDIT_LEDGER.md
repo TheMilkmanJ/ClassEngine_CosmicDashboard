@@ -7071,3 +7071,32 @@ Already matched live triple + OPEN-MACHINE/THEORY lists. Added residual check-12
    still the higher-confidence bar if a large move/rename lands.
 5. **Machine debt unchanged** — bbnfix pair not at R−1≤0.05; routeD early; zon_disp parked;
    conv_desi unproduced; nested sampling cluster-gated.
+
+## 2026-08-02 — arXiv package audit script + index refresh
+
+**Task.** Create `scripts/arxiv_package_audit.py`, run it, grep residual shout-caps /
+"We stress" in `papers/*/main.tex`, refresh package indexes.
+
+### Deliverables
+
+| item | result |
+|---|---|
+| `scripts/arxiv_package_audit.py` | **created** — tar contents, PRTOE in tex, `note=` in refs.bib, `\bibinfo{note}` in bbl, pdfinfo pages |
+| `docs/working_logs/_PACKAGE_AUDIT.md` | **written** by the script |
+| shout-caps / We stress in `papers/*/main.tex` | **none** found (no TeX edits) |
+| indexes | `_ARXIV_CANDIDACY.md`, `_PROJECT_FINISH_ROADMAP.md`, `papers/README.md` refreshed for living packages |
+
+### Package scan (final)
+
+| package | pages | tar | PRTOE | note= | bibinfo note |
+|---|---:|---|---|---|---|
+| supertrace-note | 3 | yes (`main.tex`) | none | n/a | none |
+| neutrino-mbb | 3 | yes (`main.tex`+`main.bbl`) | none | none | none |
+| radio-lattice | 6 | yes (`main.tex`+`main.bbl`) | none | none | none |
+| lattice-tc-gap | 2 | yes (`main.tex`) | none | n/a | n/a |
+| bbn-eps-bound | 3 | yes (`main.tex`) | none | n/a | n/a |
+| fairbank-0nubb | — | no TeX (NOT_READY by design) | — | — | — |
+
+**Hygiene:** 5/5 TeX packages clean for PRTOE / note-field greps and tarball presence.
+**Physics / chains:** untouched.
+
