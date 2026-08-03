@@ -8,6 +8,36 @@
 > w = −1) is not recklessness; it is the method. **We bury what dies, with the why, and keep what
 > survives the full build.** This ledger is the record of that discipline, not a list of regrets.
 
+### THE SCALE LADDER — RETIRED, AND ITS DYNAMICAL HALF CLOSED AS MALFORMED (2026-07-28)
+
+**What it claimed:** that every bound structure in the universe obeys one grammar, the Bohr
+skeleton E_bind/(mc²) = ½·α_eff², with α_eff the rung's own coupling — nucleon through universe in a
+single column, "one grammar spanning everything." The dynamical counterpart, an *energy cascade*
+linking the rungs, was carried as open work (docket #11).
+
+**How it died:** by unpacking its own definition (`scripts/scale_ladder_virial_check.py`, 5 checks).
+The gravitational rungs define α_eff ≡ v/c, so ½α_eff² = ½v²/c² **is the virial theorem** with a
+symbol renamed. Checked against E_bind/mc² = GM/2rc² computed independently: identical to machine
+precision at 1 AU and 40 AU, because they are the same expression. The atomic rung's ½α² is the
+Rydberg — how the Bohr radius is derived in the first place. And the universe rung was already
+conceded as definitional in the ladder file itself ("dividing it by M₂ returns ½α_c² by
+construction"). **All five rungs are one textbook identity written five times.**
+
+**Why the earlier grading missed it.** MATH_SPINE graded the rungs "2 definitional, 3 loose — no
+mechanism," which was close but stopped one step short: *loose* and *definitional* are the same thing
+here once α_eff = v/c is substituted. A partial audit that names some rungs as empty can make the
+rest look earned by contrast.
+
+**What this closes.** Docket #11, the energy cascade, is **malformed rather than unfinished**. A
+cascade would be the dynamics connecting rungs, but the rungs are not coupled — a hydrogen atom's
+binding is not dynamically connected to a galaxy cluster's. They merely both satisfy a relation every
+bound system satisfies. There is nothing for a cascade to be the dynamics *of*.
+
+**What survives, on its own terms:** the hinge. ξ = 402 AU falls between the planetary system and the
+Oort cloud, so the descent from cosmos to atom crosses exactly one substrate boundary. That is a real
+model-dependent statement **about ξ**, and it is now filed with the medium's properties
+([PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md)) rather than quoted from a retired column.
+
 *The hygiene law: "Documenting failures is great, but things need to be
 separated. There should be a file specifically that labels failures, and keeps the main
 read gold." This is that file. The main read (INDEX → THREE_EQUATIONS → MATH_SPINE) states
@@ -67,7 +97,7 @@ Undated entries below read against this register.*
 | **Natural Z₃ cubic V ⊃ −g Σφ³ as A = √2 mechanism** | **KILLED.** Free min of Mexican-hat + cubic sits at **A = 2** (axis vacuum) for all g tried — fights Koide | 2026-07-17 |
 | **P-2026-036's registered Y_p = 0.2495–0.2505** ("the helium war resolves high") | **RETIRED — the LT *step* value.** The ramped ε(T) gives **0.24900**, *below* the registered interval, and the kill threshold weakens from **+4σ to +3.5σ** (EMPRESS-ward). The prediction's DIRECTION survives — 0.24900 still sits above both Aver (+1.09σ) and EMPRESS (+3.53σ) — but its quoted value and its kill were both step-derived | ramped splice, 2026-07-16 |
 | **P-2026-022's reading A** ("the thermal/global gate: a sharp global step") | **RETIRED — an illegal step.** A global thermal gate switching off is a dynamical discontinuity: not quantized, not topological, not a protected zero ⟹ **no exemption clause** under amendment 5. The model now **commits to reading B** (the σ8-tracking fade over z ≈ 30–60), which *sharpens* the entry: a confirmed sharp global step now counts AGAINST the model instead of selecting one of its readings | 2026-07-16 |
-| The BBN engine's ramp keyed to T_c = 193 keV | the stamps (0.64ε, 0.79ε) are 1 − T/**193** — the *perturbative Coleman–Weinberg cross-check* — while the model derives T_c = **179 keV** (τ·m_e). Engine and stamps re-keyed to the derived value (0.61ε, 0.78ε); 193 demoted to an explicit cross-check | witness restatement, 2026-07-16 |
+| The BBN engine's ramp keyed to T_c = 193 keV | the stamps (0.64ε, 0.79ε) are 1 − T/**193** — the *perturbative Coleman–Weinberg cross-check* — while the BBN books then used T_c = **179 keV** (coded τ·m_e rounding). Engine and stamps re-keyed off 193 (0.61ε, 0.78ε); 193 demoted to an explicit cross-check. **Later standing:** kernel derivation is **T_c = 177.10 keV**; 179 remains the coded BBN-book value in the same insensitivity band — do not read 179 as the live derivation | witness restatement, 2026-07-16; standing note 2026-07-30 |
 
 ### Baryogenesis (the η channel)
 
@@ -81,6 +111,8 @@ Undated entries below read against this register.*
 |---|---|---|
 | **"Its three flavours supply the '3' in α_c = 3α"** | **A FALSE RECEIPT.** That 3 is the **spatial dimension d** (§1, MATH_SPINE §0: α_c = d·α, the transverse-projector trace). It never supported the flavour count, which stood unsupported once withdrawn (τ requires only N_f ≥ 2). Replaced by a candidate with a real receipt: Pauli finiteness forces dark SU(2), N_f = 3 (P-2026-048) | adjudicated 2026-07-16 |
 | **The dCDF's chirality sourced from p-wave L** (dcdf_superfluid §2) | **REDUNDANT AND EXCLUDED.** Every claim that *spends* the chirality sources it from the **genesis winding integer n** — magnetic helicity ("SIGNED BY THE GENOME"), LSS parity, baryogenesis, the GW genome signature. **Nothing downstream ever drew on p-wave L**, and the DE value's ℓ = 0 selection excludes it. Retired at no cost | 2026-07-16 |
+| **The τ split ("½ = dyad, ln2 = dCDF")** | **FALSE RECEIPT.** τ is sourced by the Koide / lepton-mass kernel as one bridge number (`τ = ½ ln 2`), while the dCDF and dyad are separate fields in separate identity files. The corpus gives no factorization of τ into one field per factor, and no equation assigns `½` to the dyad or `ln 2` to the dCDF. | 2026-07-26 |
+| **The white-hole / dCDF-dyad mixture reading for τ** | **FALSE RECEIPT.** The white-hole side is causal-structure only, not a τ source; the dCDF and dyad are distinct fields, and the corpus gives no mechanism that mixes them into the Koide kernel or factorizes `τ = ½ ln 2` that way. | 2026-07-26 |
 | **The Weyl-point → 3-generation count** (needing L = 3, f-wave) | **REDUNDANT.** The count is forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹ N_gen = 3 uniquely (P-2026-045). Pure heat-kernel species counting — no nodes, no pairing channel, no angular momentum. The f-wave order-parameter build it demanded was never done and is not needed | 2026-07-16 |
 
 *(Pattern worth naming: all three above are the same failure — **a second, weaker source offered for something already better-sourced elsewhere**, and in every case the weaker claimant was the condensate's node topology.)*
@@ -91,6 +123,7 @@ Undated entries below read against this register.*
 | Census lane (3a) — per-factor cutoffs | DEAD BY ABSURDITY: needs Λ₂ ~ e¹¹⁰⁰·M_Z | internal audit |
 | The rigid 13 (8+5 e-unit census) + P-038's "multiplicity = 5" | dissolved by the ramped/corrected-variables system; P-038 demoted to "content required, count unpinned" | internal audit |
 | P-039's collider knife-edge ([1.00–1.19] TeV) | **NOT A DEATH — SUSPENDED (live):** the two-loop term is a shift not a smear (B₂₂ ≈ 280; top ~6 e-folds non-perturbative); masses now open across a "1–100 TeV decade". The perturbative program that would have narrowed the decade is closed, so the decade is refereed by the collider search directly — recorded here for provenance, not buried | internal audit |
+| P-039's **pre-correction** triplet band — M_T = 1.07 TeV central, band 0.4–2.6 TeV (two-loop + input uncertainties), and the kill framing built on it ("current type-III limit ~0.9–1.0 TeV, the window is a factor ≲2.6: SCHEDULED, not safe") | SUPERSEDED, not falsified: it was computed against the electron-scale α anchor (process error 5). Re-run on the correct UV variables — 1/α₂(M_red) = 0 and 1/α_Y(M_red) = 0 spliced at M_Z to (29.58, 98.37) — the same duty-pin returns M_T ∈ [1.00, 1.19] TeV at one loop, and the two-loop shift then opens the decade above. Recorded here so the retired numbers keep a home | internal audit |
 | c = 1 (the medium takes no census share) | 1.6σ fit-disfavored; EXCLUDED-by-Λ inside the mechanism | internal audit |
 | c = 9/12 and c = 9/13 (the "neutrino side doesn't count" rosters) | RAMP-PROOF KILLS: each demands an f̄ (0.75, 0.81) far above the ramped band's ceiling (0.648) — and **every ramp that touches f̄ pushes it DOWN** (the roll-up adds low-circulation time; the freeze ends the average). No ramp in the model can supply the lift | 2026-07-13 |
 
@@ -115,6 +148,15 @@ Undated entries below read against this register.*
 |---|---|---|
 | The ξ-scale "hinge-zone" wide-binary force | no mechanism; refined toward kill by the lab-cousin scan (coherence lengths don't push on embedded bodies) | parked register |
 | The MOND kill (first version) | **NOT DEAD — REOPENED:** itself killed-then-reopened by the step-vs-ramp rule — the kill was a step artifact; MOND/RAR engagement **lives** in the galactic-atoms thread (this row records the retracted *kill*, not a dead claim) | internal audit |
+| The ε-gradient lepton channel as a galaxy-scale RAR / rotation-curve lead (#33 route A) | the composition-cliff invariant. The gate's full swing carries a FIXED potential step ΔΦ = c²·f_lep·ε₀ — (553 km/s)² at the Y_e = ½ floor, (721 km/s)² at real stellar composition — an order above real halo potentials ~(200 km/s)². A gate swinging anywhere inside bound-orbit scales would roughly double escape velocities and distort satellite and Local-Group kinematics that are measured normal. Exemption-class: the killshot is an integral invariant, not a step. The channel itself is not dead — it relocates to void/supercluster boundaries, where the fences already put the swing | `scripts/response_function_session.py`, `scripts/gate_halo_profile.py`; recovered from `0315894d` 2026-07-20 |
+| The "×1.98 gas-vs-stars" composition discriminator (#33 route A) | a label error, not an arithmetic one. The factor 2 is pure hydrogen (Y_e = 1) against the *helium-and-heavier floor* (Y_e = ½), and the floor was mislabelled "stars". Real stellar material sits at Y_e ≈ 0.85 and neutral galactic gas at ≈ 0.88, so the honest split between them is ≈ 3%, not a factor of two. The same mislabel moved the channel's headline scale: a₀ is reached at 83 kpc only at the Y_e = ½ floor — at real stellar composition it is 140 kpc. The composition *dependence* survives (MOND is composition-blind; this is not); its advertised *size* does not | recovered and recomputed 2026-07-20 |
+
+### Staged candidate tests (the 2026-07-07 shortlist, adjudicated 2026-07-20)
+
+| what died | the killshot | provenance |
+|---|---|---|
+| **The molecular-spectroscopy test (the benzene idea)** — m_e-dependent molecular spectra (benzene, methanol/ammonia) shifting with environment, validated against astronomical μ = m_e/m_p bounds | **RETIRED — it fails the shortlist's own two criteria, and no gate can close it** (kills #135's molecular candidate). Criterion (a), uniqueness: any varying-m_e model predicts the same shift, so a detection selects nothing. Criterion (b), out-of-fit discrimination: the half that would discriminate is unobservable **in principle with these tracers** — molecules form only in dense gas, so every sightline is already structured. The data can confirm "structure → lab value" and can never test "void → bare value". This is not a computation that failed; it is a test that cannot be built from this tracer. A diffuse or unvirialized molecular tracer would be a different test, and faces the same gap as the Lyα-forest near-threshold test | #135 adjudication |
+| **The superradiance discriminator** — at the mass band's top edge (~3×10⁻²¹ eV), SMBH-spin data excludes free FDM while the λ-quenched dyad survives, so a spin measurement there separates them | **RETIRED — overtaken by its own mass, and its content is already registered** (kills #135's staged superradiance item; the live physics is P-034). It was written against the era's audited band [1,3]×10⁻²¹ eV. The dyad mass has since been pinned three independent ways at **2.24×10⁻²⁰ eV**, an order above it, and at the recorded mass the same physics is the registered spin-dip band P-034 (M ≈ 6×10⁸–3×10⁹ M☉, α_g ~ 0.1–0.5). So the staged item was a stale duplicate of a live prediction, not a candidate awaiting promotion. **The residue is adverse, not neutral:** the λ-quench that would have done the protecting was re-derived at the model's own quartic and mass on 2026-07-20 and misses by 85 decades, so P-034 has no shield at all while its band carries high measured spins — an exposure, autopsy below (#156) | #135 adjudication |
 
 ### Supernovae — the candle room
 
@@ -200,6 +242,98 @@ and the gate-0 reduction itself (v still from m_e0 + ε alone, now at a more rob
 **Fork adjudicated in the same pass:** the operator is quadratic-canonical (dark-U(1) forbids the
 linear coupling — gate0_qft §1); the "linear g_ee" was never an independent operator. All rate
 implications for the non-thermalization finding change by ≤ 10², adverse direction.
+
+### The kinetic-Z_L portal framing, and the Majoron leg of leptophilia — RETIRED (kills #125's premise, 2026-07-20)
+
+**What was retired, and by what.** Two joined claims left the forward books when #125 was worked
+head-on. **(i) The kinetic-Z_L portal** — Z_L(Ψ) = 1 + Ψ/f_L, the dim-5 term (Ψ/f_L)·L̄ iD̸ L that
+carried the "δm_ν = 2·δm_e" operator-counting prediction — is **linear in Ψ**, and the standing
+normalization fork adjudicated (2026-07-17) that **dark-U(1) forbids any coupling linear in Ψ**
+(gate0_qft §1: the portal may see |Ψ|² only, never the phase-carrying ⟨Ψ⟩). It is also not on the
+high-f retirement's survivors list, which keeps *the quadratic operator form*. So the MATH_SPINE
+framing "why the kinetic term rather than only the Weinberg operator" was asking why the model
+takes an operator its own roster excludes; the exclusion it wanted fires on the model's own
+retired term, not on the Weinberg alternative. **(ii) The identity leg of "leptophilia forced
+twice over"** does not reach the standing operator. Ψ carries L, so **|Ψ|² carries L = 0** — the
+standing quadratic portal is L-neutral and phase-blind, while the Majoron's tree coupling is to
+the *current* of the broken charge, i.e. the phase. U(1)_L therefore screens nothing here: it
+forbids no quark bilinear |Ψ|²q̄q.
+
+**What survives, and where the claim now lives.** The Majoron identity and its σNN neutrino
+coupling are untouched; what is withdrawn is their reach to δm_e. Leptophilia in the standing
+configuration is carried by the **data leg alone** — BBN killing a universal quark shift at ≥ 12σ
+through the D/H quark→pion→deuteron channel — which the corpus already records as the second of
+the two forcings. The correctly-posed open core, now in
+[PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0: **which Standard-Model scalar the total singlet
+|Ψ|² multiplies.** It admits |Ψ|²·ψ̄ψ and |Ψ|²·(LH)(LH)/Λ with independent coefficients, and the
+corpus's own recorded NO-GO says why no symmetry can choose between them — "a singlet couples to
+every Yukawa operator with INDEPENDENT coefficients → no gauge symmetry forces leptonic."
+**#125 is open, and wider than its title: the gap is not kinetic-versus-Weinberg but
+portal-selection among singlet-multiplied operators.** Docket #125.
+
+### #125 CLOSED — the portal is assumed, the roster was short one operator, and the retirement over-reached (2026-07-20)
+
+**Three findings, and the middle one is the useful one.**
+
+**(i) The title's fork does not exist, and neither leg survives.** "Why the kinetic term rather
+than only the Weinberg operator" needed both horns and has neither. The Weinberg operator reaches
+**δm_ν alone at any coefficient** — it cannot deliver the charged-lepton shift the flagship is
+built on, so it was never an alternative to be argued against. And the privilege it seemed to hold
+came from "the medium is made of the neutrino sector", i.e. the dyad-as-Majoron identity, retired
+in the row above.
+
+**(ii) The retirement above over-reached, and the correction matters.** It reads the kinetic-term
+class as "an operator its own roster excludes". The roster excludes the **linear** realization
+Z_L = 1 + Ψ/f_L, and nothing more: **Z_L = 1 + |Ψ|²/Λ² is even, sits squarely on the recorded
+roster, and reproduces δm_ν = 2·δm_e exactly** — the charged mass carries one power of L, the
+Weinberg operator two. So the factor-2 content did not die with the linear term. What it is,
+correctly stated, is not a separate operator at all but a **correlated point** in the
+two-coefficient space {|Ψ|²L̄He, |Ψ|²(LH)(LH)}: one parameter instead of two, reachable from the
+other by a field redefinition of L. Nothing selects the correlated point — the corpus's own no-go
+says a singlet couples to every Yukawa operator with an independent coefficient — and **nothing
+can**: it moves Σm_ν by 1.5 meV inside a window whose exit restores the present-day mass the sky
+measures. `source/background.c` runs the correlated point (m_ν ∝ m_e²) and its comment credited it
+to the retired mechanism; the comment now carries the grade instead.
+
+**(iii) The roster was short its lowest-dimension member, and the omission was the dangerous one.**
+A dimension-2 dark singlet's Standard-Model partners order by dimension: **H†H at total dimension
+4 — renormalizable, unsuppressed, always allowed** — then the lepton bilinear at 6, then the
+Weinberg operator at 7. The corpus listed the second and third and not the first. It matters
+because H†H shifts the Higgs vev and so moves **every** mass including the quarks, which is the
++12–18σ D/H catastrophe the model spends the rest of this section avoiding: the bound is
+**λ_p ≲ 5×10⁻¹¹…1×10⁻⁹** across f = 100–500 TeV.
+
+**And the news there is good, which is why it is worth having computed rather than argued.** The
+standing dimension-6 lepton operator feeds H†H back through one electron loop at
+λ_p ≈ ε·y_e²·(Λ_UV/4πf)² ≤ **1.1×10⁻¹³** — from ~500× under that bound at its tightest corner
+(biggest cutoff, biggest f) to ~10⁶× under at the loosest, worth at most **2×10⁻³σ** on D/H. Setting the renormalizable
+portal aside is **radiatively stable**, so the selection costs no tuning inside the effective
+theory. What it assumes is that the completion above f writes the lepton operator and not the other
+two — the same assumption λ_dyad's origin already carries, and no new debt.
+
+**The grade, and it is a permanent one rather than a debt.** The portal is **data-narrowed and
+assumed**: data excludes H†H and the quark bilinear at ε, the Weinberg operator cannot deliver, and
+what stands is the lepton bilinear by elimination with the doublet correlation assumed on top. It
+does not become derivable by further desk work, and its one discriminating observable is
+unreachable. `PRTOE_MATH_SPINE.md` §0 carries the roster and the grade; the "genuinely owed" list
+no longer carries the portal, because an assumption named at its price is not a debt.
+
+**Propagation, run on the conclusions rather than the wording (check 14).** `me_mechanism_math` §10
+still carried the whole construction — a **LOCKED PREDICTION**, a *derived* f_L = 2.3×10¹¹ GeV
+(six orders from the standing f ≈ 100–500 TeV), and a **[CLOSED]** grade on the kinetic-vs-Yukawa
+fork; `PREREGISTERED_PREDICTIONS` P-006 re-asserted *"the same symmetry … lepton number forbids
+it"* **three lines below the correction that withdrew it**; `weakest_joints_and_cprep` still read
+*"The dyad **is** the Majoron"*. All corrected.
+
+*One near-miss worth recording, because it is check 21's direction — a correct number nearly
+overwritten with a wrong one and filed as a fix.* This pass read `bbn_witness` and
+`me_mechanism_math` carrying the loop floor as **(α/4π)²** against the **(α/π)²** the harness
+guards, and changed both. That was wrong and is reverted: #185's ruling in
+[`_CANONICAL_VALUES.md`](working_logs/_CANONICAL_VALUES.md) had landed in the same hour and settles
+it — the naive two-loop counting **is** (α/4π)² = 3.37×10⁻⁷ and those two files are self-consistent
+with it, while the downstream (α/π)² is a deliberately conservative overestimate. Two objects, both
+right, and the adjudicator says so. **The lookup existed and the row was newer than the read that
+opened the file** — re-check the canonical values before writing, not only before starting.
 
 ### The n_s 2D-Gaussian χ² mechanism (the direct δ ~ h² spectral reading) — KILLED by its own owed step
 
@@ -334,6 +468,7 @@ coupling as the electron-mass shift.
 | Process error 2: the transition treated as a switch | ramp/window structure through T_c | caught in review |
 | Pre-depth-law step framings in the registry itself (P-2026-007 "near-step S(C)"; ANN-2026-013 "discrete switch"; the dead healer epoch gates) | the registry ramp audit ANN-2026-022: both live entries survive as ramps under the gate curve ε(C) — P-007 sharpens to an environment trend; ANN-013's owed "sharp switch mechanism" dissolved into the crossover | 2026-07-13 |
 | Process error 16: the "voids retain FULL ε" binary | THE GATE FUNCTION ε(C) — one smooth screening curve read by four instruments (21cm fade = the curve in redshift; SN host TREND not step; forest = the curve at Δ~1; voids = the ceiling); the room becomes overdetermined | 2026-07-12 |
+| The gate exponent's σ-route read as a *valuation* — "σ ≈ 0.012 gives n_eff of order 10³, a ten-times-rougher medium still gives 50" | Two slips, one structural. **Arithmetic:** at σ = 0.12 against a unit threshold the exact slope is **35.2, not 50** (the 50 is (1/0.1)²/2, i.e. the ceiling re-rounded to 0.01). **Structural:** (σ, δ_c) is not an independent handle on n at all — the recorded hazard already normalizes N̄(C_ref) = 1, which fixes σ(C_ref) = δ_c/ν_ref from the seed-cell count, so feeding in an outside σ over-determines the gate. Read as a valuation the winding ceiling demands N_cell = 10¹⁵¹⁰ against a Planck-seeded ceiling of 10¹⁴⁶ — 1360 orders over. The route stands as the **bound** it was written for (σ ≪ δ_c ⟹ a step) and the hard-step conclusion is unaffected; the exponent's value now runs through n(N_cell) instead ([PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md), THE GATE). Docket #127 | 2026-07-20 |
 
 ### The G-closure & gravity's sign
 
@@ -375,6 +510,7 @@ coupling as the electron-mass shift.
 |---|---|---|
 | Process error 9: the birefringence timing wall step-phrased ("polarization didn't exist yet") | ramped: the pour writes light's BIRTH CERTIFICATE — parity-odd initial conditions (P-028/T10) make EB/TB with no EM coupling; T10 = the white hole's fingerprint in light; en-route null unchanged (exempt anomaly zero) | 2026-07-12 |
 | Process error 10: the thermalization ceiling coded as a wall | the blackbody visibility ramp exp[−(z/z_dc)^{5/2}]: the 1/m-branch whispers at μ ~ 1.2×10⁻⁹×eff (PRISM-reachable), not "silent forever"; discriminator survives at 7×10⁵ ratio | 2026-07-12 |
+| **The cold spot as a link-1 vortex/void relic** — the chain's standing candidate address for the anomaly family's unclaimed sibling, carried unexplored as the bill's fourth debt | **RETIRED — the candidate is unavailable in both halves, and the debt it stood for is not a debt** (closes #119). *Vortex half:* the Kibble network is the model's only distinctive structure within reach of a Gpc, and at ξ_K = 256 Mpc comoving against χ_* = 13.76 Gpc its cells subtend **1.07°** — a fine tiling of order 10⁴ cells, not one 5–10° feature, and line defects imprint edges rather than disks. *Void half:* it is not a relic at all but late-time ISW at links 9–10, where the fluid's linear sector is ΛCDM-identical and the distinctive scales are sub-parsec — inherited, not claimed. The distinctive route that would have made a spot ours, a collapsing texture, is doubly closed: the medium's order parameter is a global U(1), so π₃ = 0 and no texture exists to collapse; and a texture's δT/T ≈ 8π(η/M_Pl)² needs η ≈ 8×10¹⁵ GeV against the model's top scale f ≈ 100–500 TeV, which is **4×10⁻²⁶** — twenty orders under the sky's own 10⁻⁵. The verdict is constitutional silence, booked in [PRTOE_cmb_anomalies.md](PRTOE_cmb_anomalies.md) | #119; audit checks `cmb_anomalies` ×5, 2026-07-20 |
 
 ### Structure formation (JWST / IMF)
 
@@ -399,7 +535,11 @@ boundary rather than ramped.
 1/α_Y(M_Z) = 98.4 to the Planck scale gives **1/α_Y(M_Pl) = 55.5, not 0** — meaning the medium's
 loop generates 44% of light's coupling and the basement must supply the other 56% bare.
 **A naked failure became a falsifiable target (α_Y(M_Pl) = 0.0180) and a structural find
-(gravity is 100% induced; light is only 44% induced).**
+(gravity is 100% induced; light is only 44% induced).** *(The 44% is the hypercharge channel,
+which is what this walk ran. Read in the electromagnetic channel at zero momentum — the coupling
+named by the α_c = 3α identification — the induced share is **23.5%**, 32.14 of
+1/α_EM(0) = 137.036 above 1/α_EM(M_Pl) = 49.4 + 55.5 = 104.9. The structural find holds and
+tightens: the induced fraction is smaller than the hypercharge reading indicated.)*
 
 **The pattern, stated plainly because it is now five deep in one day** (errors 27, 28, 29, and
 this): *every one of these was a NEGATIVE verdict issued fast on an unwalked ramp.* The bias is
@@ -526,7 +666,8 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 |---|---|---|
 | The "residual = dressing" identity used α_c = 0.0214 while the stack uses 3α | at 3α: 0.846 vs 0.835 — the identity downgrades to suggestive; the 0.846 recompute resolved (input mismatch, not algebra) | self-caught, corrected |
 | The triangle's "0.1% match" | x₀ is a free dial whose band covers the target — the triangle selects, not confirms; arrow A = consistency-only | overstated, corrected |
-| The two-census marriage (c's recipient-split vs the scalar delivery) | the gravity-routing step of the c-derivation is un-audited — the ε-decomposition's weakest joint | FLAGGED — carried as live work on the board |
+| The two-census marriage (c's recipient-split vs the scalar delivery) | **AUDITED 2026-07-20 (#126), and the step does not close.** Walked, the blindness premise gives the wrong roster: the G-closure rebuild ran the same law and returned *every field in the vacuum*, catching "the medium's 9 fermions" as an error there — so gravity-routed, the count is not 9/10; not gravity-routed, a singlet scalar's independent per-operator coefficients leave no democratic warrant. Compounding it, membership on the roster is decided by *charge* (the seat argument's "needs charge to grab") while the weights are decided by *blindness*. **c = 9/10 is data-selected, not framework-forced**; the value keeps its independent support (ε-blind ensemble, −0.08σ). The definition itself had been lost from the live corpus in the 2026-07-16 hunt rewrite and is now restored to [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1. **CLOSED 2026-07-20 by the death, not the argument** — see the row below | RETIRED (#126) |
+| **The gravity-routing licence for the democratic count** — "gravity is blind, so the budget splits democratically over the census of participants" | **RETIRED 2026-07-20 (#126), and by exhaustion rather than by a failed calculation.** The count needs *membership* from one criterion and *weights* from another, and both are properties of one coupling. Run either alone and it does not return 9/10: **blindness** reads energy rather than identity, so it weights by energy over every field present — the roster the G-closure rebuild returned under this same law — and stops nowhere near nine; **charge** (the seat argument's "the ε-channel dresses the EM fraction of an electroweak mass, and it needs charge to grab") selects the nine but then weights them too, Σ N_c Q² = 3 + 4 + 1 = **8**, giving **c = 8/9 = 0.8889** and ε = 16α/3π = 1.2388%; and carried all the way, with the neutral seat weighing zero, charge returns **c = 1**, which the census independently excludes. A coupling selective enough to build a charged roster is not blind, and a blind one does not stop at nine — so this is not a gap that further desk work fills. **What survives is the conclusion, not the reason** (check 14a: the principle dies, the number stands): c = 9/10 is a **counting assumption the data confirms**, ε-blind ensemble at −0.08σ. **And the data does not adjudicate the fork the licence was invoked to settle** — at the ensemble's ±0.0375 the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, and 12/13 sits +0.53σ; the pre-registered separating width is σ_c ≤ 0.0115, a 3.3× sharpening not in hand *(that width is the candidate spacing and yields 0.97σ; 3σ requires σ_c ≤ 0.0037 — 10× in width, ~100× in sample, corrected 2026-07-28)*. Propagated the same pass: `THREE_EQUATIONS` opened its c bullet with the blindness derivation *and* excluded 8/9 by it, `THE_AMPLITUDE`, `READERS_RISK`, `fingerprint_lattice`, `weakest_joints_and_cprep` and `DEPENDENCY_TREE` all still graded c **derived** or called 12/13 disfavoured without naming by what | RETIRED (#126) — the value keeps its grade, the licence is withdrawn |
 | n_s under the clock ambiguity | 0.9638–0.9640 both ways | PASS |
 
 ## 7. Superseded-claims index (the derivation log's corpses, per the separation law)
@@ -538,7 +679,8 @@ gold; the graveyard stays complete; neither pretends to be the other.*
 | the flux-measure "theorem dissolution" of f̄ (killed in simulation; the retrial estimator itself corrected) | P-041 = un-mechanized value, ensemble decides — THREE_EQUATIONS Eq. 3 |
 | the quartet file §1 clock marks read as a standalone lineup | the §1 marks are retired as a standalone read (§1 now carries 7.59/7.74/7.89, template offset applied); the live object is §5's registered PAIR call at 7.55/7.70/7.85, graded against the zon_disp chain, and the two-clock re-derivation is owed ramps-first — quartet file §4b |
 | "transfer favorable-leaning" | reservoir survives; delivered η owed the sphaleron-weighted integral — the working docket |
-| shooter v2's 13–20 TeV read as P-042 support | it is a STRAIN on arrow C — hierarchy §2(a) |
+| T14's sign map read as "links 1–4 laid, link 5 the single owed junction" (the T14 table's grade and the census's entry, #158) | links 1–3 are laid and link 4 is a second open junction on its own object. The Harrison battery's coefficient enters the seeded helicity **squared** — H_B = k²H_kin, so sign(helicity_B) = sign(H_kin) exactly and the "sign convention unfixed" grade was a false debt; what the step actually needs is a *linkage*, which neither recorded rotation supplies (a rigid rotation has u·ω = 0; the winding current k₀ = 2πn/L is curl-free). The handedness lives in the roll-up's helical ring and is bilinear in its two circulations [Moffatt1969], so sign(n) alone cannot set it — T14 §"Link 4 taken apart", [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md) §"the seeding link" |
+| shooter v2's 13–20 TeV read as P-042 support | it strained arrow C, and the edge-convention audit has since concluded the arrow fell (no convention closes the gap — minimum 3.6× across every admissible pairing) — hierarchy §2(a) |
 | the quartet-clock mechanism ("Z4-locked quartet") | conflated phase-sector locking (cos 4θ) with composite binding; killed by the recorded stability sign (c_s real ⟹ λ > 0 ⟹ pairs repel ⟹ no quartets) | the pair stands by derivation |
 | the DE-amplitude "√N closing lineshape S(ω/T)" / the "Γ₀ = 76 meV" target (entries 176/188) | an inversion of a Γ=H freeze condition; the forward collisionless neutrino response is Ohmic (s=1) in BOTH the density and the scalar/Majoron channel (`scripts/kubo_freeze.py`), so no sub-Ohmic lineshape exists to supply it | the freeze is a DECOUPLING not a rate-crossing: the condensate tracks the relativistic-ν bath (Γ/H ≈ 5×10¹⁰) and freezes when the lightest ν goes NR — ρ_Λ¼ = m_ν,lightest forward at the scale. |
 
@@ -776,7 +918,7 @@ A = √2 ⟺ R_c = M_c; that residual is still open.
 **Topology:** present discrete objects fix the scaffold (N_gen, Z₃, 120°), not A. No topological
 invariant in the corpus equals √2. Reopen only with a new index I such that A = f(I) = √2.
 
-**Lock 6:** a basement *target* ([PRTOE_light.md](PRTOE_light.md) §6), not a mechanism. Square
+**Lock 6:** a basement *target* ([PRTOE_light.md](exploratory/PRTOE_light.md) §6), not a mechanism. Square
 geometry that yields √2 fights Z₃; triangular geometry yields √3. Naming lock 6 does not pay it.
 
 ### The BBN witness's D/H chain — THE η-FLOW WAS SPENT TWICE, AND THE SHELF INHERITED A WITHDRAWN σ (2026-07-17)
@@ -832,7 +974,7 @@ significance is not reproducible without it. Until the budget is stated, this ro
 value and no σ."*
 
 **It was stated.** [PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md) §headline, since
-2026-07-07: *"with the post-LUNA nuclear-theory error (**PRIMAT ±0.037, cite-verified**) the scar is
+2026-07-07: *"with the post-LUNA nuclear-theory error (**PRIMAT ±0.037, cite-verified**) the deuterium row is
 −1.2σ"*, sourced to arXiv:2011.11320 vs 2011.11537. **It reproduces exactly**: the v5-era D/H 2.468
 against Cooke gives −1.97σ on the observational error alone (the quoted "−2.0") and **−1.24σ** on
 ±0.030 ⊕ ±0.037 (the quoted "−1.2"). Three live docs were *already using* it.
@@ -897,7 +1039,7 @@ The suppression is now a **number the model must produce**:
 
 **RESOLVED SAME DAY — branch 3, by symmetry (2026-07-17).** The suppression was derived rather than
 estimated: **the dyad IS the Majoron**, the Goldstone of U(1)_L breaking
-([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2, [ESTABLISHED]). **A Goldstone couples to the current of
+([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md) §2). **A Goldstone couples to the current of
 its broken charge**, and **quarks carry L = 0** — so the tree coupling is **zero by the symmetry that
 defines the field**, not merely suppressed. The loop floor (dyad → lepton loop → 2γ → quark,
 O(α²) = 5.4×10⁻⁶) is **~20,000× short** of the healer's 0.14–0.21%.
@@ -910,7 +1052,7 @@ O(α²) = 5.4×10⁻⁶) is **~20,000× short** of the healer's 0.14–0.21%.
 
 **The model is safe and unhealed by the same fact.** The symmetry that forbids the blowout also
 forbids the cure. **What is dead is the "credited side-prediction" grade**, which credited a coupling
-the model's own [ESTABLISHED] identity forbids.
+the model's own standing identity forbids.
 
 **JP's structural reading survives untouched, and it never needed the quark coupling.** "The thing
 that allowed them to bind came from the dyad" is *correct* — the dyad binds the **electrons to the
@@ -1041,6 +1183,421 @@ else) is a corpus-wide coherence failure the value-checker cannot see. It took r
 | **The ν-free-streaming lane was un-priced corpus-wide** | The Majoron's νν̄ ↔ φ recoupling channel was never run against the CMB free-streaming requirement — including at the recorded launch value g = 1.2×10⁻⁸ (v_L ≈ 4.2 MeV), which recouples the ν bath ~9 orders deep before recombination (the strongly-interacting-ν regime, Planck-tension class). Caught by the three-corner test; the lane is now in the books (hunt §6), and the MeV corner carries its exposure. |
 | **A wrong-class ΔN_eff claim, same-day self-caught** | The corner test's first booking assigned the late-thermal Majoron a "+0.1-class ΔN_eff addition" to the committed budget. Wrong class: late recoupling redistributes the ν bath's *conserved* comoving energy — ΔN_eff shifts ≈ nothing; the observable is the free-streaming change. Corrected in place within the hour; the CMB-S4 budget stands at the pure dyad window. |
 
+### Bounce-source lane retirements (2026-07-24)
+
+| lane | why it died | status |
+|---|---|---|
+| black holes | reservoir/release piece only; no sign-flip term | retired as bounce source |
+| magnetars | local analogue only; no cosmological handover term | retired as bounce source |
+| neutrino freeze | timing lock only; not the turn itself | retired as bounce source |
+| fountain effect | release-side clue only; no bounce-sector `ρ_X(T)` found | retired as bounce source |
+| high-f dyad portal | trigger-only; not a live bridge | retired as bounce source |
+| topology / Casimir | structure clue only; no handover term | retired as bounce source |
+
+*The surviving role of these lanes is support only: reservoir, timing, release, or structure. None of them currently writes the missing crunch-sector source term.*
+
+### Thermal `T = T_c` crossing as bounce source — RETIRED by computation (2026-07-25)
+
+**What it claimed:** that the contracting-branch thermal crossing `T(a_b) = T_c`
+is itself the cosmological bounce (i.e. that the melt threshold also supplies
+`H = 0` and `Ḣ > 0`).
+
+**Why it died (computed, not argued):** `scripts/bounce_thermal_crossing_nogo.py`
+with recorded inputs only (`T_c = 177.10 keV`, `m = 2.24×10⁻²⁰ eV`, `λ = 2×10⁻⁹¹`,
+`g_* = 10.75`):
+
+- `ρ_rad(T_c) / ρ_bounce ≈ 2.8×10⁹` — radiation dominates the condensate floor by ~9 dex;
+- bare vacuum at the DE scale is `~10⁻³²` of that radiation budget — invisible;
+- canonical `ρ + p ≈ (4/3) ρ_rad > 0` ⇒ `Ḣ < 0` in flat FRW;
+- flat `H = 0` still needs `ρ_tot = 0` even in the historical `F`-modified form;
+- the `X` budget needed to flip the sign is radiation-scale (`|ρ_X + p_X| ≳ T_c⁴`),
+  not keV-floor scale.
+
+**What survives:** the melt threshold itself. Contraction still blueshifts radiation;
+`T_c` is still a real order-parameter edge. It is not the bounce.
+
+**What stays open:** a crunch-sector `ρ_X(T)` or a live modified branch that changes
+the handover bookkeeping. Neither is written. Do not re-promote the thermal picture
+without a new equation that closes both `H = 0` and `Ḣ > 0` at once.
+
+### CSW floor / live dCDF / Hubble metric-exit as bounce sources — RETIRED (2026-07-25)
+
+Three related promotions, killed by `scripts/bounce_floor_frw_nogo.py`:
+
+| claim | why it died |
+|---|---|
+| **CSW `ρ_bounce` is the cosmological bounce** | Homogeneous FRW: `p = Kρ²` and `p~ρ` both give `ρ+p>0` ⇒ `Ḣ<0`. Bare vacuum is `~10²³` too small for `H=0`. Homogeneous quantum pressure is zero. CSW is a BH/core hydrostatic ceiling, not an FRW minimum of `a(t)`. |
+| **Live barotropic dCDF flips the sign** | Production `w = −ρ_inf/ρ` gives `ρ+p = ρ−ρ_inf ≥ 0` always. Floor ⇒ `Ḣ=0` (coast), not `Ḣ>0` (bounce). |
+| **Hubble-scale metric exit at `ρ_bounce`** | At the recorded floor, `H⁻¹/ξ ~ 12`. Density for `H⁻¹=ξ` is `~150×ρ_bounce`, above the CSW ceiling. Local BKL-curvature exit is uncomputed, not a free pass. |
+
+**What survives:** finite sub-Planckian `ρ_bounce` as a no-singularity *number*; the
+BH-core use of the same ceiling; the structural claim that the metric is emergent
+below `ξ`. **What does not:** any of the three as a derived homogeneous bounce.
+
+### `N_med = 1/c_s` as derived MeV compression — RETIRED as coincidence (2026-07-25)
+
+**What it claimed:** that the Racing Point toy's required medium compression
+`N_med ≳ 6` (exit energy → 1 MeV reheat) is the legal identity `N_med = 1/c_s`
+(or `ξ·m`), hence no longer fabricated.
+
+**Why it died (`scripts/bounce_m2b_mixmaster_nmed.py`):** at the recorded operating
+point the numbers sit close (`N_med ≈ 6.18`, `1/c_s ≈ 6.76`, ratio `≈ 0.92`), but
+varying `c_s` with `ξ = 1/(m c_s)` makes `N_med/(1/c_s)` run ~0.3→5 (not constant),
+and varying `T_reheat` at fixed `ξ` makes `N_med` track `ln T`, not a medium constant.
+
+**What survives:** `N_med` remains an explicit reconstructed knob in the RP toy until
+a medium ODE predicts it. Do not re-promote the coincidence.
+
+### Inverse acoustic matching as closed F-A1 — does not close (2026-07-26)
+
+**What it claimed:** that the metric-off → medium matching rule is simply the inverse
+of the corpus acoustic/emergent metric map, hence no longer fabricated.
+
+**Why it does not close:** the recorded emergence dictionary determines
+medium `(n, v, c_s) → g_acoustic`. The inverse `g → medium` at metric exit is
+underdetermined (slice/gauge and which hydro variables are fixed are not unique).
+Extra structure would be a new assumption, not a derivation from what is written.
+See working log `bounce_reconstruction_rp.md` §14.2.
+
+**What survives:** forward acoustic map as support; F-A1 remains open/reconstructed.
+
+### Homogeneous higher-order / quartic Friedmann bounce — not available from recorded parts (2026-07-26)
+
+**What it hoped:** a next-order medium correction (gradient/quartic) changes
+homogeneous `H = 0` bookkeeping enough to bounce without exotic `X`.
+
+**Why not:** in homogeneous FRW, quantum pressure vanishes; repulsive interaction
+stress is already in the live barotropic fluid with `ρ + p ≥ 0`; the expansion-energy
+ledger is consistency with standard Friedmann, not a higher-order bounce term.
+A bounded-density constraint `ρ(1 − ρ/ρ_c)` remains un-derived in the corpus
+(named in the reconstruction, not stocked). See `bounce_reconstruction_rp.md` §14.3.
+
+**What survives:** medium-layer repulsive rebound (M6 toy) as a *local* turn mechanism
+candidate; not a homogeneous FRW bounce derivation.
+
+### Magnetic polarity flip (Earth/Sun analogy) as the bounce turn — RETIRED by class (2026-07-26)
+
+**What it proposed:** that because Earth’s magnetic poles reverse and the Sun’s
+field reverses on a longer cycle, the universe might “flip” magnetically, and that
+flip might *be* the bounce (the expansion/contraction sign change).
+
+**Why it died as the turn:**
+1. **Wrong kind of flip.** Geomagnetic/solar reversals are **polarity** changes
+   (`B → −B`). Energy density and Maxwell stress depend on **B²**, so they are
+   invariant under the flip. The bounce needs a change in expansion (`H`, `Ḣ`) or
+   a true NEC-violating stress, not a direction label on **B**.
+2. **NEC class.** Tangled cosmic **B** acts like radiation (`w ≈ 1/3`, `ρ+p > 0`).
+   Coherent **B** at best saturates `ρ + p_∥ = 0` along the field; it does not
+   provide a homogeneous isotropic `Ḣ > 0` engine. Amplifying **B** on the crunch
+   still feeds a NEC-nonnegative channel.
+3. **Not the same clock.** Dynamo flip times scale with turbulent diffusion /
+   convective turnover; the bounce is a cosmological density/causal problem. Larger
+   object → slower flip does not derive a cosmic bounce mechanism.
+
+**What survives:** the corpus’s real magnetism program — rotation-seeded fields,
+helicity sign tied to kinetic helicity / genesis flow (P-2026-028 and the magnetism
+note). That is parity and seeding, not the bounce turn. See workplan section
+“what if it’s magnetism.”
+
+### Electron / electromagnetic sector as the bounce mechanism — RETIRED by class (2026-07-26)
+
+**What it proposed (2026-07-26):** that the bounce is driven by electrons — the
+charge carriers that would let a current flow and heat the dark-sector condensate
+during the contracting phase.
+
+**Why it died as the bounce mechanism (`scripts/bounce_electron_contact.py`):** a
+bounce in flat FRW requires a component with negative energy density and
+`ρ + p < 0` at the turning point — here `ρ_X + p_X ≤ −(4/3)ρ_rad(T_c)`. Every
+channel in the electron/electromagnetic sector satisfies the null energy condition:
+the relativistic e± plasma has `ρ + p = 4ρ/3`; a non-relativistic electron gas has
+`ρ + p = ρ + nT`; the Maxwell stress tensor gives `ρ + p ≥ 0` (vanishing only along
+the field direction of a pure magnetic field); an Ohmic or drift current adds
+positive carrier kinetic energy; and superfluid two-fluid counterflow adds
+`ρ_n w² ≥ 0`. The sector fails by **class**, not by margin — no choice of coupling
+constant or number density changes the sign of `ρ + p`.
+
+**What survives (and it is real):** the *heating* half of the proposal was already
+computed and passes with large margin. The electron-coupled scalar field keeps the
+electromagnetic plasma and the dark sector in thermal equilibrium at
+`Γ/H ~ 10¹⁶–10¹⁷` across the transition temperature, even with the e± number
+density Boltzmann-suppressed by `e^{−m_e/T_c} ≈ 0.056`. Because the critical
+temperature is tied to the electron mass (`T_c = τ·m_e`), the superfluid transition
+and the re-population of e± pairs on the contracting branch fall in the same
+temperature range automatically. The electron sector therefore supplies the computed
+**thermal-contact channel** and a candidate **timing threshold** for the transition —
+not the null-energy-condition-violating component the bounce requires. Pinning the
+re-entry temperature of the reconstructed bounce interval to the electron-mass or
+`T_c` threshold gives `T_reheat` = 177–511 keV, a factor 2–6 below the ≳ 1 MeV
+needed for weak equilibrium before BBN; that reading stays candidate-grade.
+
+### The stiffness-spectrum (virial-class) route to the charged-sector power balance — RETIRED by computation (2026-07-26)
+
+**What it proposed:** that the equal split of spectral power between the neutral and
+charged Z₃ sectors of the charged-lepton mass kernel — the condition equivalent to
+Q = 2/3, hence τ = ½ln2 — is enforced by the lepton ring's own elastic structure.
+With breathing-mode stiffness k_A and a doubly degenerate shape-pair stiffness k_E,
+thermal sector powers balance identically iff k_E = 2k_A, independent of temperature.
+The route was tried because identities of virial type balance sector *sums* rather
+than per-mode shares — the one shape plain equipartition cannot produce.
+
+**Why it died (`scripts/koide_ring_shape_modes.py`, numerics verified against closed
+forms):** for the recorded three-term binding — Y-junction string, pairwise
+logarithmic repulsion q̃², pairwise Coulomb attraction α_d, radial equilibrium
+√3σ = 3(q̃² − α_d) — the internal stiffness spectrum computes to
+
+> k_A = 3q̃² − 6α_d,  k_E = −(3/2)α_d  (d = 1 units, exact at quadratic order).
+
+The shape pair is exactly flat in the Coulomb-free limit and destabilizing for any
+α_d > 0, so the required k_E = 2k_A > 0 is unreachable anywhere in parameter space —
+failure by structure, not by margin. Consistent with the standing classification
+that equilibrium arguments cannot source the exact null; the sector-sum loophole
+this route bet on closes because the shape sector carries no restoring force at all.
+
+**Adverse byproduct (recorded here per the ledger rule):** the equilateral
+configuration of the three-term ring is *marginal* (α_d = 0) or *unstable*
+(α_d > 0) against shape distortion at quadratic order. The previously recorded
+stability window (α_d ≲ 2.2) tested only the symmetric breathing direction.
+Caveats before any downstream re-grade: classical point-face model, quadratic order
+only, fully relaxed Y-junction; quartic terms or junction physics could stabilize.
+Until that is checked, the equal-spacing premise used by the string-geometry
+coefficient c_K = 4/(3ln2) carries an unpriced stability question.
+
+### The ring's shape sector at third order — the classical layer does not stabilize the equilateral ring (2026-07-26, same-day follow-up)
+
+Follow-up to the row above (`scripts/koide_ring_quartic.py`). Method note: the
+first pass of this script had a contaminated mode basis at α_d = 0 — the shape
+pair is degenerate with the zero modes there, and eigenvector sorting mixed in
+translations — so the basis was rebuilt exactly from symmetry (orthogonal
+complement of translations, rotation, and breathing); the Z₃ periodicity of the
+result verifies to 2×10⁻¹⁰.
+
+- **The flat direction tilts at cubic order.** The two-mode shape sector carries
+  the three-fold warping invariant its symmetry allows, with amplitude
+  B₃ ≈ 6.0·q̃²/d³ — large, not marginal. The equilateral configuration is not a
+  local minimum of the recorded three-term energy even in the Coulomb-free limit.
+- **The classical ground state is a chain, not a ring.** The collinear
+  configuration with spacing (√3/2)·d has the same total string length as the
+  equilateral triangle (both √3·d at their respective equilibria), so the
+  logarithmic repulsion decides, and the chain wins by exactly
+  ΔE = ln(4/(3√3))·q̃² = −0.2616·q̃² — closed form, numerics agree to 8 decimals.
+  The chain is a genuine local minimum (nonzero stiffness spectrum 2, 2, 4 in
+  q̃²/d² units).
+- **The Coulomb branch is unbounded below for point faces** (−α_d/r beats
+  −q̃²·ln r as r → 0): pair collapse is a model limitation, not a finding; only
+  the local saddle statement (k_E = −(3/2)α_d < 0) stands there.
+
+**Consequence, stated carefully:** the equal-spacing equilateral ring premise
+underneath the string-geometry coefficient c_K = 4/(3ln2) — a support of the
+τ = ½ln2 → dark-energy chain — is not delivered by the classical layer of its own
+recorded binding. The kernel algebra itself (the circulant spectrum, Parseval, the
+null condition) is untouched by this result. If the ring premise survives, its
+stabilizer must come from outside the classical layer: Y-junction core energetics,
+quantum zero-point motion of the soft mode pair, or rigidity from the ε^abc color
+structure. None of the three is written. Until one is, the ring premise carries an
+**open stability debt**, and the forced-combination support theorem inherits it.
+
+### Junction-core energetics as the ring's stabilizer — RETIRED at the thin-string layer (2026-07-26, third same-day entry)
+
+**What it proposed:** the first of the three stabilizer candidates named above — a
+Y-junction core energy penalizing the collinear chain, which puts the junction on
+the middle face with a zero-length string leg, thereby restoring the equilateral
+ring as the ground state.
+
+**Why it died (`scripts/koide_ring_junction_core.py`, closed forms asserted):**
+with the overall scale relaxed, the string energy always settles at exactly 3q̃²
+(a virial identity of the logarithmic term), so the landscape reduces to the
+scale-invariant shape functional S = 3·ln L_Steiner − ln(r₁₂·r₁₃·r₂₃). Along the
+relaxed flattening path the energy falls monotonically, and the junction first
+touches the middle face at apex angle 120° — by which point the energy is already
+0.117·q̃² below the equilateral ring. A contact penalty cannot cure an interior
+instability: even an infinite junction-on-face wall leaves the minimum at the 120°
+isosceles configuration, E = 3 + 3ln2 − 2ln3 = 2.8822·q̃², below the ring for
+*every* penalty size. The required magnitude (0.26·q̃² ≈ 0.29·m_e against a
+natural core scale of order √σ = m_e) was available; the mechanism is not.
+
+**What the pricing surfaced (recorded here per the ledger rule):** the thin-string
+expansion parameter at the recorded operating point is
+w/d = (w·√σ)/c_K = (0.8–1.1)/1.9236 ≈ 0.42–0.57 — the faces sit about two
+string-widths apart, so the classical thin-string layer (the three-term balance
+and the instability analysis alike) is uncontrolled at O(1). The ring-vs-chain
+question is genuinely undecidable classically and escalates to a
+beyond-thin-string computation. The geometry of the three-source ground state
+(Y-junction-like vs collinear) is lattice-computable within the same SU(2),
+N_f = 3 campaign already refereeing T_c/√σ, F_π/√σ and w·√σ — a **fourth
+observable for the one campaign**. Stabilizer candidates remaining: quantum
+zero-point motion of the soft mode pair (strengthened — soft modes at w/d ≈ 0.5
+carry O(1) quantum corrections) and rigidity from the ε^abc color structure.
+
+### Color-structure rigidity as the ring's stabilizer — RETIRED by exact group theory (2026-07-26, fourth same-day entry)
+
+**What it proposed:** the last of the three stabilizer candidates — that the ε^abc
+color structure of the three-adjoint ring dynamically disfavors the collinear
+geometry and restores the equilateral ring.
+
+**Why it died (`scripts/koide_ring_color_rigidity.py`, exact in the 27-dimensional
+three-adjoint space):** (i) the collinear geometry is fully color-allowed — the
+middle face couples the two end strings through the same f^abc = ε^abc vertex, and
+no contraction is lost when the junction lands on that face; (ii) every pairwise
+color operator is *exactly* equal across the three pairs in the ε-singlet (spread
+< 10⁻¹², forced by the permutation antisymmetry of ε) — color is shape-blind at
+two-body order, so there is nothing in the algebra for geometry to couple to. Each
+pair sits in the adjoint channel with ⟨T_i·T_j⟩ = −1 exactly (attractive, not the
+deepest channel), identically for ring and chain.
+
+**Byproduct (named exposure; no numbers invented):** adjoint sources in SU(2) are
+screened by gluons — the adjoint string is metastable and breaks at a distance set
+by the gluelump mass, a lattice quantity not in the corpus. If the SU(2), N_f = 3
+breaking distance lies below the recorded spacing d·√σ = c_K ≈ 1.92, the
+string-bound ring of the *adjoint* branch dissolves as a long-lived object
+regardless of geometry; the medium-vortex branch does not carry this exposure.
+One more question for the single SU(2), N_f = 3 lattice campaign, alongside
+T_c/√σ, F_π/√σ, w·√σ, and the three-source ground-state geometry.
+
+**Standing after all three stabilizer candidates:** junction-core (a) retired;
+color rigidity (c) retired; **quantum zero-point (b) survives at estimate grade**
+(`scripts/koide_ring_zero_point.py`): the chain carries three stiff internal modes
+against the ring's one, so zero-point energy taxes the chain harder everywhere on
+the flattening path; the restoration threshold is η* = 0.311 in the quantumness
+parameter η = ħ/(d·√(m_face·q̃²)), and constituent-scale face masses
+(0.5–2)·√σ give η = 0.35–0.70 — above threshold. Fences: harmonic-adiabatic
+estimate, semiclassics itself O(1)-marginal at η ≈ 0.5, the face-mass
+identification open (m_face ≳ 3·√σ falls back below threshold). The survivor's
+record lives in the working log; this ledger holds the two deaths.
+
+### The exotic-fluid bounce branch — CLOSED: no native component exists (2026-07-26)
+
+**What it needed:** for a bounce with the metric description intact, a component X
+with Σρ = 0 and Σp < 0 at the turning point — negative energy density at crunch
+scale with a sufficiently stiff equation of state.
+
+**Why it closes (`scripts/bounce_m5_exotic_fluid.py`):** every recorded corner that
+could carry negative energy density fails on one of three grounds. **(i) Measured
+sign:** a negative component scaling exactly like a positive one has a ratio frozen
+for all time, so a future crossing requires that sector net-negative *today* —
+excluded for radiation-like scaling (N_eff ≈ 3) and geometrically impossible against
+shear (σ² ≥ 0); the conformal Casimir energy of the compact direction additionally
+sits 10¹¹⁶–10¹²⁰ below today's radiation. **(ii) Budget:** the ghost-condensate
+transient is 10¹⁹–10³² under the handover requirement (recorded), and
+quantum-curvature terms (~N·H⁴) fall ~10⁹⁵ short everywhere the metric description
+holds. **(iii) Nonexistence:** the medium's quartic self-interaction is repulsive
+(λ > 0 — the same sign that gives the finite density floor), no recorded channel
+turns the interaction energy negative at crunch density, and the bare vacuum's only
+zero-crossing is the low-density turnaround, with w = −1 there.
+
+**Consequence:** a crunch with the metric description intact has no turning point in
+the recorded theory — exhaustively priced at the fluid level, not asserted. The
+bounce, if real, requires the exit from the metric description, which carries the
+reconstruction's two assumed matching rules and the achronal re-entry condition.
+The one adjacent unwritten alternative is a modification of the Friedmann
+constraint itself (bounded-density class, −ρ²/ρ_c); it is not a fluid, and no
+derivation of it from the medium exists in the corpus — named as open, not supplied.
+
+### Cosmic polarity reversal / dark diamagnetism as the turn — RETIRED by class (2026-07-27)
+
+**What it proposed:** that the universe reverses magnetic polarity the way Earth and
+the Sun periodically do, and the reversal flips the expansion into contraction;
+companion question — dark-sector diamagnetism as the coupling.
+
+**Why it died (`scripts/bounce_magnetic_flip_nogo.py`, exact class statements):**
+(i) gravity couples to the field's stress-energy, which is *quadratic* in B —
+T_μν(−B) = T_μν(B) identically, so a universal polarity reversal is gravitationally
+invisible, term by term; Earth's and the Sun's reversals redistribute field energy
+without changing it. (ii) Magnetic energy satisfies ρ + p ≥ 0 along every principal
+axis (saturating only along the field direction), and a diamagnetic response stores
+*positive* energy — expelling a field costs energy; it does not mint the negative
+energy a turn requires. (iii) Flux freezing gives ρ_B ∝ a⁻⁴, the same scaling as
+radiation, so the measured ratio is frozen at every epoch (the frozen-ratio anchor):
+≤ 10⁻⁶ of the radiation bath at the CMB comoving cap, ~10⁻²⁰ at the void floor —
+cosmic magnetism can never even dominate, let alone reverse anything.
+
+**What survives (both threads are real):** the reversal instinct is the recorded
+cyclic grammar seen from outside — rotation is dynamical and may reset across
+cycles, with the helicity sign set per cycle at genesis (the rotation-machine
+registration P-2026-028). The flip is something the bounce *writes*, not what
+causes it. The diamagnetism instinct corresponds to the medium's superfluid
+response to rotation (rotation expulsion, London-class physics — the Fairbank
+thread): genuine bookkeeping for how rotation carries or resets across the bounce
+interval; NEC-nonnegative, so never a turn term.
+
+### The bounded-density constraint modification — CLOSED as non-native (2026-07-27)
+
+**What it was:** the last adjacent lane after the exotic-fluid close — the Friedmann
+constraint acquiring a −ρ²/ρ_ceiling correction so a crunch with the metric
+description intact could turn.
+
+**Why it closes (`scripts/bounce_m8_ledger_quartic.py`):** chased at its native
+source — the expansion-energy ledger with the quartic interaction energy in the
+books. (A) Interaction energy enters the shell's inertia and its gravitational
+source identically, so the zero-energy condition returns H² = (8πG/3)ρ_tot with its
+form unchanged, exactly. (B) The quartic only steepens the contracting history:
+ρ + p > 0 at every density, 1+w running 1.00 → 1.89 into the ceiling, H² monotone —
+no zero crossing. (C) The medium's discreteness analog — the quasiparticle
+dispersion correction ∝ k⁴ξ² — vanishes identically for homogeneous cosmology and
+activates only at coherence-length gradients, which is the metric exit itself.
+
+**Consequence:** the constraint lane and the metric exit are the same lane. The
+metric-on turn is closed at both the fluid level and the constraint level; a
+bounded-density bounce law survives only as unrecorded new physics, the same
+status as any unnamed operator.
+
+### Criticality as the Koide sector's second equation — dead at 3349σ (2026-07-28)
+
+**What it was.** The sector reduces to one complex hopping b, i.e. two numbers (|b|/a and arg b),
+and the corpus holds one relation between them — the holonomy closure 3·arg f₁ = Q, with
+Q = ⅓ + A²/6 and A = 2|b|/a. One equation cannot fix two numbers, so the sector needs a second.
+The candidate: **criticality**, A = A_max(φ) = −1/min_k cos(φ + 2πk/3), the condition that the
+lightest branch is exactly massless. It is attractive because it is exact at the seed — at
+φ = π/12 the amplitudes are √m = 2.366, **0**, 0.634 — and because a phase boundary can be exact
+without being an average, which is what every failed mechanism in this sector could not manage.
+
+**Why it is dead.** Imposed together the two conditions close the system, so they *predict* rather
+than describe. Solving them jointly gives
+
+> φ* = 0.2298111, A* = 1.4617111, **Q* = 0.6894332**
+
+against a measured Q = 0.6666605 ± 6.8×10⁻⁶. That is a **3349σ** miss. The intersection sits 3.4%
+away from the physical point in both φ and A.
+
+**What it establishes.** Criticality is a property of the **seed** and not a constraint on the
+dressed configuration — which is what the recorded "96% of the positivity wall" already said, read
+forward. Any second equation for this sector must be satisfied at the *physical* point, and
+criticality is not. The seed's exact masslessness stands as a fact about the seed; it cannot be
+promoted to the sector's missing condition.
+
+**Correction to this entry's own framing (same day).** What dies is criticality as an *equality*.
+Read as the **inequality** it actually is — positivity requires A ≤ A_max(φ), not A = A_max(φ) —
+the same pair of conditions is not a failed prediction but a **ceiling**: √(6Q−2) ≤ A_max(Q/3)
+bounds **Q ≤ 0.689433**, and the measured 2/3 sits inside it at 96.7%. So Q* = 0.689433 is the
+boundary of the allowed region rather than a prediction that missed, and the 3349σ figure grades
+only the attempt to impose it as an equality. The bound itself is a live derived constraint on Q and
+belongs in the sector's file, not here.
+
+### P-2026-004 (Σm_ν ∈ [0.11, 0.17] eV) — FALSIFIED by DESI (2026-07-10; moved here 2026-07-28)
+
+**What it claimed:** a high summed neutrino mass, Σm_ν ∈ [0.11, 0.17] eV.
+
+**Why it died:** the atlas pre-registered a collision on 2026-07-07 — the whisper branch
+(ρ_inf = m_ν,lightest, giving Σ ~ 62 meV) **XOR** this entry's high-Σ branch. DESI's low-Σ
+preference (≲ 60 meV) resolved it against this entry, which had itself written the clause
+"a limit below 0.10 eV embarrasses this entry".
+
+**What survives, and how thin it is.** The whisper branch lives, but it is not new credit:
+it is **non-distinctive** (normal-hierarchy-minimal is the generic expectation DESI squeezes
+everyone toward, and 2.25 meV against 0 is unresolvable) and its **value is underived** —
+√(H₀M_Pl) is the Λ-dominance tautology, the m_e → M₂ → ρ_inf cascade supplies only a meV-kinship
+factor of 3–4, and the constitution fallback makes the value an input. Its survival is the
+Σm_ν ~ 60 meV falsifier *not yet firing*, not a positive result.
+
+**The post-hoc flag, conceded and binding.** The whisper *prediction* is legitimately
+pre-registered (2026-07-07), but the shared-spurion *mechanism* that makes the structure pick
+the whisper was devised **after** DESI's low-Σ was known. It is therefore a post-hoc
+rationalisation of the data-favoured branch, not an independent prediction, and it earns no
+derivation credit until it produces a new falsifiable consequence beyond the registered whisper.
+
+**Disposition:** cold as a prediction. One offset worth recording for the method rather than for
+the model: the collision was pre-committed, so a designed either/or resolved — the branch that
+died was named in advance.
+
 ### P-2026-052 (the ν-recoupling corridor; registered as 049, ID corrected same day) — RETRACTED same-day: wrong channel (2026-07-18)
 
 **What it claimed:** ν recoupling through the Majoron at z ∈ [150, 1100], from a two-fence
@@ -1060,6 +1617,176 @@ two-source/tenth-channel spec; the leptophilic resolution; the seesaw naturalnes
 alive and the corner-selector reverts to the registry's original referee — the CMB-S4 Majoron/
 ν-interaction search (a g-detection selects the MeV corner; a null leans high-v_L). The corner-B
 seal made on the corridor's evidence is reverted to an open two-corner state.
+
+### P-2026-038's multiplicity — "the portal's multiplicity is FIVE" died the day it was registered (2026-07-11)
+
+**What it claimed:** exactly **five** vector-like lepton doublets, from two independent
+requirements that were said to converge: the SU(2)-inducibility flip (b₂(SM) = +19/6 needs
+> 4.75 doublet-units of new matter) and the induced-α count (the log-rigid **13** = the SM's
+**8** + n). 4 → 12 and 6 → 14 both miss, so only 5 was held to close both. The census PREFERRED
+them light — the threshold integral wants the doublets spanning most of the log, pushing toward
+the collider-reachable end above the LHC's ~0.7–1 TeV floor. Its kills were the count's:
+a fourth or sixth doublet (either breaks 13); heavy-decoupled doublets (the threshold integral
+collapses the closure to ~11.5); a two-loop un-flip of the marginal b₂ = −0.167.
+
+**Why it died:** the third check — induced sin²θ_W — broke the two-vote basis. The flip's vote
+was conditional on log-induced SU(2), and the induced α₂ came out **~30× too strong**. The ramped
+piecewise reopening (doublets decouple at M_E; the running is two-segment) then dissolved the
+log-rigid 13 itself: the census becomes a two-equation system in (n, rep, M_E). The joint solve
+closed that system against a single species — **no single relic-legal rep works** (exact closure
+needs illegal Y at every dimension; the theorem-saturating Y=0 reps sit **6.9%** under, beyond
+two-loop reach **~1.9%**).
+
+**What survives — the content, not the count.** TWO legal species close the system exactly and
+abundantly (**~10³ solutions, n ≤ 15**); the minimal flagship is **1 vector-like lepton doublet
+(Y = ½) at 3.3 TeV + 3 wino-like Y=0 triplets at ~1.1 TeV**, all integer charges, zero relic bill.
+The collider-facing flavour survives with it: the minimal solutions sit at **1–3 TeV**.
+
+**Disposition:** multiplicity and rep-type are model-building unknowns until the portal's other
+duties (the AD-direct transfer, the seesaw) select among the solutions. The registry entry stands
+as the content claim — the induced-gauge premise requires new electroweak-charged vector-like
+matter below M_red — and no longer as a count.
+
+### P-2026-042's 2.5% precision, and its two-loop-landing kill (2026-07-19)
+
+**What it claimed (registered 2026-07-12):** the hierarchy anchor M_anchor = M_red·e⁻³⁵ ≈ 1.54 TeV
+identified as **4π·m_H = 1.57 TeV, agreeing to 2.5%** (ln(M_red/4πm_H) = 34.98 vs the arrows' 35);
+and, as kill (a), **the two-loop landing** — the full two-loop census solve must land the portal
+spectrum near ~1.5 TeV, so P-2026-039's suspended knife-edge returned as a target.
+
+**Why the precision died:** paying kill (d) killed it. The gap equation was written down and solved
+rather than adopted, deriving the exponent's 35 as 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97 with
+**k = 1.36461 reconstructed exactly**. But ∂lnM/∂lnk = 33.47, so every O(1) in the calculation is
+amplified thirty-threefold: the exact-solution factor (Δ = 2Λe^(−1/λ), not Λe^(−1/λ)), the rainbow
+truncation's dropped vertex (relative order λ = 3%, a factor ≈2.7), and the Fermi surface's
+position within Λ_shell ≤ E_F ≤ M_red (≈1.6) compound to **a factor of a few**. The anchor is
+**1–8 TeV**, not 1.57 TeV at 2.5% — the agreement stated at registration was finer than the
+calculation supporting it.
+
+**Why kill (a) died:** the two-loop landing program closed as mooted, and the collider search
+refereeing the decade directly is what replaced it. The strain against shooter v2's 13–20 TeV had
+first been measured against the anchor as a **point value (1.57 TeV)** — a gap of **1.6× at the
+band's top edge and 13× at its bottom** once the point gave way to the 1–8 TeV band — which made
+that audit **downstream of the O(λ) correction rather than independent of it**. The correction's
+expected sign was called downward and the call held: both O(λ) terms computed, the band is
+**0.55–1.78 TeV** and arrow C is concluded rather than strained.
+
+**What survives:** a **TeV-scale anchor derived from the Planck floor and α alone** — which is what
+the HL-LHC kill (exhausting ~1–2 TeV without portal states) tests. Arrow B, the identification M_anchor = 4πm_H
+= 1574 GeV, stands. The mechanism is stronger than at registration and the precision weaker; that
+trade is the honest cost.
+
+**Disposition:** the entry carries a band, not a percentage agreement.
+
+### The nested evidence run — P-2026-044's registered referee, ended as unaffordable (2026-07-20)
+
+**What it was:** the referee named in P-2026-044 at registration — `cmp_prtoe_dyad_ev` vs
+`cmp_lcdm_ev`, PolyChord nested sampling on the same data, with no derived values anywhere in
+either config.
+
+**Why it died:** not stalled and not wrong — unaffordable. At **66 s per likelihood evaluation**
+against **534 slice steps per iteration**, one nested iteration costs **9.8 h**, so the first
+checkpoint at nlive = 400 sits **163 days** out and the 1 809-iteration reference run **736 days**
+out, with the ΛCDM twin doubling it. Forty-eight hours bought **4.1 iterations**. Ended and
+archived (`chains/_archive_polychord_ended_20260720_0915/`).
+
+**What survives:** P-2026-044's forecasts, its intervals and its bottom-out clause stand exactly as
+registered; the number they grade is now the **Laplace-from-MCMC** estimate rather than a nested
+one, until cluster time is bought. The autopsy protocol survives in reduced form — the Δχ²
+decomposition runs on the chains, while the measured Occam costs it wanted are a nested-sampling
+output and wait with the rest.
+
+**Why the substitution is adverse, and recorded as such:** the Laplace estimator's own systematic is
+larger than the **+0.135** by which the standing **+2.635** clears the win line, so the instrument
+now in hand cannot resolve the interval that registration was written to decide. The consequence
+for the model is that **chain convergence is the critical path for P-2026-044 itself** rather than a
+side referee on individual parameters — the MCMC is no longer supporting evidence, it is the
+evidence calculation's only input.
+
+### The segmented ε ≥ 0.67 bound — killed by its own stamped caveat (2026-07-07)
+
+**What it claimed:** a lower bound **ε ≥ 0.67** on the genesis orbit's ellipticity, booked
+provisionally the same night from a segmented birth-orbit calculation and carrying its own caveat
+that the segmentation might not survive a seamless integration.
+
+**Why it died:** the caveat fired. The seamless birth-orbit integration is **CHAOTIC in the release
+angle θ_0**, which is a random variable — one stochastic inflationary draw per universe. ε is
+therefore not bounded but **DISTRIBUTIONAL**, and a segmented calculation cannot produce a bound on
+a quantity whose value is a draw.
+
+**What survives:** the distributional reading that replaced it — the 14-angle dice at h = 300,
+r_t ∈ {0.3, 0.6, 0.9} giving f_amp median **0.55–0.67** and **P(f_amp > 0.2) = 86% at all three
+tilt strengths**, with ε = √f_amp — and the fourth summit outcome (distributional) that the
+pre-registered menu of pinned/bounded/inconsistent did not contain, booked as a pre-registration
+lesson.
+
+**Disposition:** retired as a bound. Nothing downstream cites it.
+
+### P-2026-024's predecessor sizing — the ε-dipole quoted on the IR-scale growth rate (2026-07-17)
+
+**What it claimed:** the horizon-scale varying-constants dipole sized at **δ_DE ≈ 5×10⁻⁵** and
+**δm_e/m_e ≈ 6×10⁻⁷**, with the perturbation growing at **√3·H**.
+
+**Why it died:** it used the IR-scale rate Γ_par/H = √3 where the Jeans mode's rate is
+Γ_eff/H = **√(3/2)**, i.e. B = ω_J/Γ_par = **1/√2**
+([PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md)).
+
+**What survives:** everything but the factor. Rescaled by B = 1/√2 the entry reads
+**δ_DE ≈ 3.5×10⁻⁵**, **δm_e/m_e ≈ 4×10⁻⁷**, growing at √(3/2)·H — the order of magnitude and
+every falsifier are unchanged (still a consistent null against ~10⁻⁶ maps; still killed by a
+confirmed ≫10⁻⁶ dipole or a null at ≲10⁻⁷).
+
+**Disposition:** the registry carries the rescaled numbers; the √3 pair is recorded here only so
+the older figures are traceable if they are met in downstream text.
+
+### The f̄ check's first attempt measured the wrong object (2026-07-28)
+
+**What happened:** the high-statistics check owed to P-2026-041 (f̄ = 2/π) was first run as a
+measurement of a **friction-damped orbit's polar angle** — not the winding average the entry
+registers. Wrong object, so it graded nothing either way; its erratum is recorded in
+`winding_fbar_ensemble.py`.
+
+**The correct run, same day:** `scripts/winding_fbar_spatial.py`, on the registered object's own
+machine — rings of the genesis field carrying windings 1–8 on the recorded potential (the Z₄ tilt
+at ε_A = 2/9), 64 draws per winding, amplitude-gated median winding readout. It delivered
+**f̄ = 0.63137 ± 0.00328, 1.6σ from 2/π**, and is the standing check.
+
+**Rule it carries:** a check is graded only after the object it measures is confirmed to be the
+registered one.
+
+### The "DESI-scale deep end" — a scaling-grade drift amplitude that skipped the m̄₂–M_eff lock
+
+**What it claimed:** that the hierarchy's deep end (x₀ ~ e⁻⁴³) put the dark-energy drift at
+**DESI-scale, ν ≈ 4×10⁻³** — i.e. that the drift fingerprint was observable at the deep end.
+
+**Why it died:** the estimate was scaling-grade and did not carry the zero-free-parameter lock
+ν = (4πα/3)(M₂²/(M_eff M_Pl))², α ≈ 2, in which the same operator coefficient m̄₂² sets both the
+funded floor's amplitude and, via M_eff = M₂²/m̄₂, the core scale (ANN-2026-008's V4
+mutual-exclusion theorem). Under the lock, DESI-visible ν ~ 1×10⁻³ requires
+M_eff ~ 6.6×10⁻²⁵ eV, i.e. l_dB ~ 90 kpc — galaxies could not exist. In the structure-allowed
+range ν ≤ 1×10⁻⁸.
+
+**What survives:** the two-sided x₀ window keeps its lower wall, but the wall is a **brick** one
+(LSS) rather than the chalk one this estimate drew; and P-2026-003 resolves to its registered
+"absent/below detection" branch, its falsification structure unchanged.
+
+**Disposition:** the drift fingerprint is retired as an observable — see the drift-fingerprint
+entry below for its final status.
+
+### The P-2026-010 identifier collision — two pre-registrations under one number (2026-07-17)
+
+**What happened:** the cosmic-birefringence census fork (Version B), pre-registered 2026-07-09, was
+written into the registry as `P-2026-010` — an ID already held since **2026-07-07 19:37 MDT** by
+the gravitational-wave standard-sirens bet. Two unrelated pre-registrations shared one number, so
+every downstream citation of "P-2026-010" was ambiguous and one of the two bets was uncitable.
+
+**The resolution (2026-07-17):** the earlier registration keeps the ID — the timestamp is the
+authority, which is this registry's founding rule — and the later one moved to the next free slot,
+becoming **P-2026-049**. Nothing about the bet, its content, its date, or its kill conditions
+changed; only the label. Its registration timestamp remains **2026-07-09**.
+
+**Why it is recorded here:** any citation of "P-2026-010" written between 2026-07-09 and
+2026-07-17 may mean either bet, and that ambiguity is not readable from the entries themselves.
 
 ### Process error 42: a root-level rm glob hit two tracked launch configs (2026-07-18)
 
@@ -1151,8 +1878,8 @@ seam country, at single-log normalization with both endpoints corpus-pinned: pol
 thermal dimensional-reduction 1.954 · BCS Δ/T_c 0.568 · BCS prefactor 0.126 — **none is 3/2 —
 except one: the nonrelativistic phase-space power (mT/2π)^(d/2), whose d/2 = 3/2 in three
 spatial dimensions rides a SINGLE log natively** (phase-space counting, not a loop bracket;
-the same "3 = d" the corpus books in α_c = 3α). Grade: **named lead — route 6, sharpened same
-day to a candidate.** The local is equipartition itself: a nonrelativistic state's mean
+the same "3 = d" the corpus books in α_c = 3α). Named lead — route 6, sharpened same
+day to a live candidate. The local is equipartition itself: a nonrelativistic state's mean
 kinetic energy is ⟨E_kin⟩ = (d/2)·T, so occupancy at the thermal-mean energy carries
 e^(−(M+(3/2)T)/T) = e^(−M/T)·**e^(−3/2)** — a pure multiplicative constant. Two of the three
 conditions discharge structurally: **(ii) self-pinning is automatic** — the cost (3/2)T rides
@@ -1191,7 +1918,12 @@ The Saha hazard this entry named is evaded explicitly: the dressed object is a d
 boost ratio — no density, hence no (mT)^(3/2) log-power — and the mean-field fence coheres
 (a cutoff property is invisible to a density-weighted gap equation). The 3/2 re-grades:
 **sharp underived residual → derived at additivity grade** (conditions: the shared
-additivity neck; the NR formation window). Full statement: hierarchy §2b.
+additivity neck; the NR formation window). Full statement:
+[PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §2, part (b) — *not* a heading
+called §2b, which does not exist and cost a later reader two searches to establish.
+Verified numerically 2026-07-28: ln(M_red/M_eff) = 1/(kα_c) with M_eff = M·e^(3/2) returns
+**1576.4 GeV** against the recorded 1576.1, so the chain stated there does deliver the
+recorded formula rather than merely being compatible with it (3 harness rows).
 Fences: scheme-conversion locals excluded (endpoint-renaming); ζ(3/2) = 2.612 is a different
 object class — do not book it. *(Watch-grade note: equipartition now anchors both of the
 day's live candidates — the Koide channel balance and this seam constant; no shared mechanism
@@ -1226,6 +1958,140 @@ per-mode: **the host delivers A → 2, the axis grave — the same value that ki
 before it.** Checked before acceptance: the face-map subtlety dissolves at t* ≈ π (tube-angle ≡
 planar-radial, projection 0.99998); chart-mode and ξ-convention systematics are few-% against a
 2× margin. The verdict is robust.
+
+**AMENDED 2026-07-28 — the "no source" clause was established for a NEUTRAL host.** The autopsy's
+cause of death is that the 2:1 stiffness asymmetry "has NO SOURCE on the Widnall-thin torus", the
+pair-interaction's pattern asymmetry entering only at O((a/R)²) ≈ 1–5%. That holds for a neutral
+ring. **A charged one has a source, and it is exact.** Three equal charges at 120° carry
+U = √3/R, and projecting the Hessian of the radial displacements onto the S₃ irreps gives
+k_singlet = 2/√3·R⁻³ and k_doublet = 1/(4√3)·R⁻³ — **a ratio of exactly 8, independent of R**
+(verified 0.5 ≤ R ≤ 100), with no a/R suppression at all, because Coulomb does not see the tube.
+
+So the asymmetry the host could not supply is supplied by charge. **It overshoots: 8 against the
+2 the condition names, by exactly a factor 4.** A geometric-plus-Coulomb mixture reaches 2:1 at
+d_c/d_g = 0.168 — Coulomb carrying ~17% of the doublet stiffness — but nothing fixes that
+fraction, so that is a tuning and not a derivation. The blank therefore moves from *"no source
+exists"* to *"a source exists, is exact and scale-free, and overshoots by four"*, which is a
+different and more tractable statement. `scripts/coulomb_ring_stiffness_ratio.py`, five harness
+checks.
+
+**And the kernel sweep locates the ratio exactly (2026-07-28).** Coulomb was the wrong test — the
+corpus's own regime statement is that the family field's log coupling makes it *effectively 2D*,
+and two-dimensional defects are vortices. Sweeping the pair kernel on the same three-defect ring:
+
+| pair interaction | k_singlet | k_doublet | ratio |
+|---|---|---|---|
+| −log r (2D vortex) | 1 | **0** | — |
+| 1/r (Coulomb) | 2/√3 | 1/(4√3) | 8 |
+| 1/r² | 2 | 1/3 | 6 |
+| **r² (pair-harmonic)** | **6** | **3** | **2 — exactly** |
+
+Two exact results, both analytic — and **only the second bears on the null**, for a reason worth
+stating plainly.
+
+**Which frame the sweep is in, settled — the corpus states it outright.** The x_out entry records
+the condition in the ring-on-ring frame verbatim: *"the operative condition is R_c = M_c (equal
+canonical amplitudes), which under the impulsive SNAP means the doublet sector receives HALF the
+singlet's energy (**the singlet is twice as stiff**)"*. That is k_S/k_D = 2 — **the pair-harmonic
+kernel's ratio exactly**, and the sweep is a hit in the frame the ring-on-ring mechanism works in.
+
+**Two frames, both recorded, and the bridge is not.** T6's reduction works in the √m fluctuation
+field, H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²], where ε₀ = a and ε± = a + 3b and the null reads
+ε_charged = 2ε_neutral — the *doublet* twice as stiff, the inverse statement. Treating either as
+*the* convention and judging the other against it is the error to avoid; a first pass here did
+exactly that and withdrew a correct result before restoring it.
+
+**The bridge, paid — and the proposed reconciliation was itself wrong (2026-07-28).**
+`scripts/koide_frame_bridge.py`. The two normalizations are correct: the Fourier transform on the
+three-site ring returns M_c = √3·M and R_c = √(3/2)·R at arbitrary M, R, θ, and with them
+R_c = M_c, ρ = 1/√2, A = √2 and Q = 2/3 are verified to be one statement. But they **cannot be
+the reconciliation this row proposed**, for a reason that survives no arithmetic: both frames
+grade the same two irreps of the same ring, so the normalizations enter every stiffness *ratio*
+as the fixed factor k_R/k_M = ½·(ε₁/ε₀). That is a factor 2 in a known direction — not the
+factor 4 with a sign flip that separates ε₁/ε₀ = 2 from k_S/k_D = 2.
+
+**What actually separates the frames is the energy-delivery law.** R_c = M_c constrains
+*amplitudes*; converting it into a statement about *stiffnesses* requires a rule for how energy
+sits in the modes, and the singlet is one degree of freedom against the doublet's two, so the
+rules disagree by mode-counting factors. Four laws in use across the corpus, each verified to
+give a different target from the same null:
+
+| delivery law | R_c = M_c becomes |
+|---|---|
+| thermal equipartition (½T per DOF) — **T6's reduction** | ε_D = 2ε_S |
+| sudden quench, 1/ω² per mode | ε_D = √2·ε_S |
+| equal sector delivery | ε_D = ε_S |
+| doublet receives half the singlet — **the ring-on-ring entry** | ε_D = ½ε_S |
+
+Both readings therefore stand and neither refutes the other: the kernel sweep's exact 2 answers
+the fourth row, T6's a = 3b is written in the first. **The blank is not a missing conversion
+factor; it is that the corpus has never fixed which law governs the freeze.** Until it is fixed
+no stiffness computation can be graded, and the same number will keep arriving with opposite
+signs — which is precisely what happened here.
+
+**The two-line lock does not discriminate m_e from α — an overclaim caught while drafting for
+submission (2026-07-28).** `PRTOE_radio_lattice.md` §1 carried the D-to-H 21 cm frequency ratio
+(4.338649, preserved at every z) with the gloss *"only a universal m_e shift does that."* It does
+not. Both hyperfine frequencies go as α⁴·m_e²·g_N/m_N with the same powers of α and m_e, so **both
+constants cancel identically from the ratio** — verified by log-differentiation, returning
+∂ln(ratio)/∂ln m_e = 0 and ∂ln(ratio)/∂ln α = 0 to machine precision. A varying-α model preserves
+the ratio exactly as well as a varying-m_e one.
+
+**What the lock actually tests is universality**: that whatever shifts, shifts hydrogen and
+deuterium together. It therefore excludes *species-dependent* shifts — which is a real and useful
+exclusion — and says nothing about which constant moved. The m_e-versus-α separation is done by the
+five-band weight pattern alone (α enters the 21 cm line at α⁴ but the dispersion delay not at all),
+which is where the file's discriminating power genuinely lives.
+
+**Nothing numerical is affected**: the ratio's value is right, the five weights are right (+2, +1,
+−1, −1, −2 confirmed independently, with the fixed-energy synchrotron reading at −3), and P-027's
+observational content is unchanged. What is retracted is one sentence of interpretation attached to
+it. Recorded because it was found by preparing the claim for outside readers, which is the whole
+argument for doing that early: a referee would have found it on page one.
+
+**Containment checked — the registry entry was already correct and must not be "fixed".** P-2026-027
+states the lock as *"ν_H/ν_D = 4.338649 at every z, exactly preserved (both lines ∝ m_e²) — generic
+line-shifting physics breaks it, a universal m_e shift cannot."* That is exact: it names the
+cancellation's cause and claims only that a universal shift **cannot break** the lock, never that it
+is the only thing that preserves it. The defect existed in one sentence of one file and has been
+corrected there.
+
+**"a = 3b" does not survive as an exact relation — it is the classical limit (2026-07-28).**
+`scripts/koide_delivery_law_discriminator.py`. The stiffness reduction reads its sector powers off
+⟨|f_q|²⟩ = T/ε_q, which is the classical limit of ⟨|f_q|²⟩ = (ħ/2Mω_q)·coth(ħω_q/2kT). The two
+sectors sit at different frequencies — ε₁ = 2ε₀ gives ω₁ = √2ω₀ — so the quantum correction does
+not cancel from the ratio, and the corpus fixes its size itself through ω₁ = (2/9)T_c, i.e.
+x₁ = 2/9 and a charged-mode occupancy of **n̄ = 4.02**, nowhere near the n̄ ≫ 1 equipartition needs.
+
+Holding ε₁ = 2ε₀ exactly then returns **Q = 0.667350 — 1025 ppm from 2/3, against the 6 ppm the
+agreement is quoted at, an overrun of 171×.** The distortion is one-signed and monotonic in x (the
+charged sector is always the more quantum of the two, so its power is always suppressed less than
+the classical formula says), so no cancellation is available. Inverting it, Q = 2/3 at the corpus's
+own x₁ requires ε_D/ε_S = 2.004110, i.e. **a = 2.9877·b.**
+
+**What is retracted:** the integer. `a = 3b` and its structural form `a = b·λ₁` are the null's
+*classical* statement and are correct as such; they are not exact, and the clean 3 is an artifact
+of the limit rather than a fact about the ring. **No mechanism should be graded on its ability to
+produce exactly 3** — which retires, as a grading criterion, the entire line of work that was
+hunting an integer. What survives untouched is the direction and the order: the charged mode is
+about twice as stiff as the neutral one, and the exact factor is a function of how classical the
+modes are at freeze — a quantity the corpus has no independent handle on.
+
+**What the sweep establishes**, in the ring-on-ring frame:
+with x_k = R + d_k and cos 120° = −½, |r_i − r_j|² = x_i² + x_j² + x_i x_j, so the three pairs sum
+to U = (3/2)Σx_k² + ½(Σx_k)² and **H = 3I + J**, eigenvalues 6 (singlet) and 3 (doublet), exactly
+and at every R since the Hessian of a quadratic form is constant — **k_S = 2k_D, the condition as
+the corpus states it**, with no expansion and no leading-order caveat. Precisely the 2:1 the flat
+model's κ-confinement supplied and the curved host could not.
+
+**The load-bearing one: the 2D vortex kernel leaves the doublet exactly flat** — k_doublet = 0, not merely small. A
+log-interacting ring confines its breathing mode and does not confine its shape mode at all, which
+is a sharper statement of the same failure the autopsy recorded as a 0.99 degeneracy.
+
+So the autopsy's "0.99 degeneracy" is generous to the host: for the kernel the corpus's own regime
+actually implies, the shape mode is not nearly flat but **exactly** flat. The failure is worse and
+cleaner than recorded, and no amount of a/R refinement touches it — a log-interacting ring has no
+shape stiffness at quadratic order, full stop.
 
 **What dies with it:** the cascade-delivery chain end to end as this week built it — the pass-4
 "LIFE at estimate grade" (already downgraded through the passes), the per-irrep quota's exhibited
@@ -1268,12 +2134,26 @@ thermal function. At the operating point that expansion does not apply: m_e/T_c 
 electrons are Boltzmann-suppressed and the expansion **overstates the thermal restoration by a
 factor ~16** (exact |J_F′| = 0.38 vs the expansion's 2.35).
 
-**Corrected:** with the exact kernel the cross-check reads **250–530 keV** over L−1 ∈ [1, 10] —
-three times narrower than the retired envelope, and sitting **above** the adopted 179 keV rather
-than bracketing it. The correction is therefore **adverse to the cross-check's comfort**: the
-perturbative route agrees less well than the old band implied. What is unaffected: the adopted
-T_c's own source (the confining chiral ratio τ·m_e, lattice-gated), and the standing
+**Corrected:** with the exact kernel the cross-check reads **307–714 keV** over L−1 ∈ [1, 10] —
+a factor 2.3 in range where the retired envelope spanned a factor 22, and sitting **entirely
+above** the adopted 177.10 keV rather than bracketing it. The correction is therefore **adverse to
+the cross-check's comfort**: the perturbative route does not agree less well than the old band
+implied — it **excludes** the adopted value, by 1.73× at its very bottom. What is unaffected: the
+adopted T_c's own source (the confining chiral ratio τ·m_e, lattice-gated), and the standing
 configuration's log-free timing relation, in which no such expansion appears.
+
+**A second correction, to the correction (2026-07-20, #182).** The **250–530 keV** first recorded
+here does not follow from the exact kernel over the stated L−1 ∈ [1, 10]: recomputed from the same
+kernel that yields this entry's own |J_F′| = 0.374 at m_e/T_c = 2.9, that range returns
+**307–714 keV**, and 250–530 keV corresponds instead to L−1 ∈ [0.50, 4.78]. **The recorded range
+and the recorded band were not the same computation.** The error was benign-looking and is not:
+it understated both the exclusion of 177.10 keV (1.73–4.03×, not 1.4–3.0×) and, decisively, the
+fraction of the dyad's own band lying **above the BBN fence's 500 keV** — **53%**, not the ~6% the
+old band implied. Since the ≤ 0.32σ whole-fence swing is stated *on* [70, 500], the claim that
+"the BBN books do not move" is **not established over the corrected band**. Now carried by
+`scripts/audit_math_pass.py`, which previously checked only the superseded high-temperature route.
+*(The old 250–530 keV band was also corrected in `PRTOE_DERIVATION_HUNT.md` §6 to **307–714 keV**;
+that home is no longer stale.)*
 
 Caught in the resummation docket — the docket that was opened to shrink the band found that the
 band's width was the smaller problem.
@@ -1316,6 +2196,44 @@ neither threatens the model nor tests it.
 actually codes — a **pre-registered parameter** (g ≈ 0.10 ± 0.05) whose fitted value (0.12)
 sits inside its registration, graded by the conv_desi chain. That is a pre-committed fit, not
 a derivation, and the corpus should read it as such.
+
+### The f_arr razor — the decider was already run, and the razor never had an edge (2026-07-20)
+
+**What it claimed** (the surviving stub at `T4_s8_growth_owed.md`, the sole appearance of `f_arr`
+anywhere in the corpus): that S₈ closure needs an arriving gate-energy fraction f_arr ∈ [0.008, 0.013]
+while an X-ray scaling fence allows ≤ 0.013, so "two independent requirements meet in a window one
+millimeter wide" and the web-dissipation ramp is the sole decider. RETIRED as a live question (kills
+#162's object): the ramp was computed on the day the razor was written, and the razor's premise was
+re-priced out from under it five days later.
+
+**The sequence, from the commits.** The razor was raised at 13:47 on 2026-07-13. At 13:49 — the very
+next entry — the ramp was walked and returned the opposite of a squeak: boosted gas meets wall shocks
+before it ever reaches a halo, so f_arr(halos) is small *by geometry* and the fence is satisfied
+without tuning. On 2026-07-16 the derivation hunt was rewritten and the entries carrying f_arr were
+dropped, orphaning the term in one working-log line. On 2026-07-18 the energy bookkeeping killed the
+route the term served outright (the entry above), re-homing S₈ delivery to the rotation-shed.
+
+**And the razor's own variable now settles it, in the same direction.** Under the standing pricing —
+the gate is a phase re-arranging in place, so a gas element picks up the ballistic third of the
+6.41 keV step times the fraction it traverses, f = v_gas/c_s — the arriving share is bounded by the
+clean identity **f_arr ≤ f/3 = v_gas/(3c_s)**, with c_s = √(3α)·c = 44 357 km/s:
+
+| scale | v_vir | fence allows f_arr ≤ | pricing delivers f_arr ≤ | margin |
+|---|---|---|---|---|
+| galaxy | 286 km/s | 0.0133 | **0.00215** | 6.2× clear |
+| group | 429 km/s | 0.0300 | **0.00322** | 9.3× clear |
+| cluster | 1423 km/s | 0.3298 | **0.0107** | 31× clear |
+
+The virial speeds in that table are the fence's own three registered ceilings inverted through
+0.2·(½m_p v_vir²)/(ε·m_e) — so the table checks the fence's *internal* consistency, not its
+calibration, and what it shows is that the ceilings correspond to 286/429/1423 km/s, which are the
+right speeds for the scales they are labelled with. What fails is the other jaw: the delivery needed
+0.008–0.013 and the pricing supplies 0.0022–0.0032 at the scales that set S₈ — **short by 2.5–3.7×
+before web dissipation takes anything away.** The two jaws never met. The fence was never the binding
+constraint, and the suppression was never available to be fenced.
+
+**What this does not touch:** the standing S₈ claim, which is the rotation-shed and was already the
+rotation-shed before this stub was written. No live claim moves.
 
 ### The low-ℓ anomaly claim — RE-GRADED by its own decisive computation (2026-07-18)
 
@@ -1540,6 +2458,40 @@ was booked the same day as the closure it differentiates, with no step shown bet
 less likely anyone is to differentiate it themselves.* The check took one line of arithmetic and
 had never been run.
 
+**A second correction, to the data the entry quotes (2026-07-20, #102).** The **−0.54σ** above is
+wrong, and so was the −0.31σ it replaced, for three compounding reasons — none of them the slope.
+
+*(i) The sign of δθ was inverted.* Recomputed three independent ways — the direct circulant fit,
+and solving the phase from m_τ/m_e and from m_μ/m_e separately with A fixed by Q alone —
+θ_B = 0.2222296315 rad against 2/9 = 0.2222222222, so **δθ = +7.409×10⁻⁶, positive**, in every
+ring convention that puts θ_B near 2/9 at all. The corpus already carried the contradiction:
+P-2026-057 records θ_B = **+**0.222229 rad and calls its sign "not in doubt".
+
+*(ii) Both deviations were propagated from rounded displays, not from the masses* (audit protocol
+check 21). δA was taken as 1.414200 − √2 = −1.36×10⁻⁵ where the source A = 1.4142005 gives
+**−1.3057×10⁻⁵**; δθ as radians(132.7328 − 120) − 2/9 = 7.06×10⁻⁶ where the masses give
+**7.409×10⁻⁶**. A deviation is a difference of nearly equal numbers, so a display rounded at the
+seventh digit puts 4–5% of pure rounding into it — the check-21 signature, amplified by the
+subtraction.
+
+*(iii) The σ was taken on one axis rather than on the residual.* m_e and m_μ are known to 3×10⁻¹⁰
+and 2×10⁻⁸, so both deviations are functions of m_τ alone and are anti-correlated at **exactly −1**.
+The residual off the corrected line is **+9.461×10⁻⁶ ± 1.061×10⁻⁵ = +0.89σ**.
+
+**What it costs, and what survives.** The verdict survives in kind — the data is consistent with
+the closure — but three things change. The pair sits on the side of the line the closure does not
+predict (a positive slope wants δA and δθ same-signed; they are opposite-signed). The margin is
++0.89σ, not −0.54σ. And **the lock's scope is far narrower than registered**: with one degree of
+freedom, every statement in the sector is a prediction of m_τ — Q = 2/3 needs 1776.96903 MeV, the
+phase watch 1776.96651, the closure 1776.96705, against a measured 1776.86 ± 0.12 — and those span
+2.52 keV, or 1.42 ppm. Below that precision, testing the closure and testing A = √2 are the same
+measurement. The registration now states the separating test instead.
+
+**How it survived.** The same way the slope did: the entry that found the slope error re-derived
+the *line* and re-quoted the *data row* beneath it unchanged. A correction pass re-checks the
+object it came for, and the numbers standing next to that object inherit its credibility without
+being touched — which is why the row survived two audits with its sign inverted.
+
 ### THE 3.5×10¹⁷ GeV "PORTAL SCALE" — A PRE-DYAD PLACEHOLDER FOR A SCALE THE MODEL DOES NOT CARRY (2026-07-19)
 
 **What it was doing.** Both detection files justified their nulls with "the portal at
@@ -1673,8 +2625,10 @@ signs. The dark-energy era's **width** is genuinely computed, which is more than
 anything in this problem class.
 
 **What does not follow.** A computed width does not place the observer inside it. Matter–Λ crossing
-sits at z ≈ 0.33, roughly 0.28 H⁻¹ ago, so **~3.5% of the era has elapsed** — an observation drawn
-uniformly across the era lands that early about **one time in thirty**. "Why now" in its ordinary
+sits at z ≈ 0.33, which is 0.219 H_Λ⁻¹ ago in the era's own clock, so **~2.7% of the era has
+elapsed** — an observation drawn uniformly across the era lands that early about **one time in
+thirty-seven**. Both figures are in H_Λ⁻¹; t_turn is a dark-energy-era quantity, and expressing the
+elapsed time in H₀⁻¹ instead (0.262 at Ω_m = 0.30) would inflate the occupancy to one in twenty-nine. "Why now" in its ordinary
 sense is precisely that occupancy question, and the chain is silent on it.
 
 **And the direction is worth noting.** A *longer* derived era makes the placement slightly harder
@@ -1693,5 +2647,1588 @@ unexamined.
 
 | the route | how it died | what replaced it |
 |---|---|---|
-| **the charged Cooper reading** — the anchor as a particle-particle condensate, which is how the corpus described the pairing throughout (the glossary's "Cooper-style pairing of a mode with its time-reversed partner"; quantum_trio's (k↑, −k↓)) | a condensate of two charge-e fermions carries charge 2e, so it breaks U(1)_EM at the anchor scale and the photon takes an Anderson–Higgs mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV against the recorded bound m_γ < 10⁻¹⁸ eV — **excluded by thirty orders**. Clearing the bound would need the condensate below 1.65×10⁻¹⁸ eV | the **particle-hole** channel, where ⟨ψ̄ψ⟩ is neutral and the attraction is automatic — and where the same vacuum neutrality also forces the two screening bands equal (hierarchy §6b, §6e) |
+| **the charged Cooper reading** — the anchor as a particle-particle condensate, which is how the corpus described the pairing throughout (the glossary's "Cooper-style pairing of a mode with its time-reversed partner"; quantum_trio's (k↑, −k↓)) | a condensate of two charge-e fermions carries charge 2e, so it breaks U(1)_EM at the anchor scale and the photon takes an Anderson–Higgs mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV against the recorded bound m_γ < 10⁻¹⁸ eV — **excluded by thirty orders**. Clearing the bound would need the condensate below 1.65×10⁻¹⁸ eV | the **particle-hole** channel, where ⟨ψ̄ψ⟩ is neutral and the attraction is automatic. Neutrality does *not* also settle the screening: it compensates the two bands, hence equal densities, but the density of states is k_F²/v, so the ratio r = v_e/v_h survives free and the factor 2 needs the bands **velocity-matched**, which is a standing requirement on the basement rather than a consequence of neutrality (hierarchy §6b, §6e) |
 | **the node-deficit route to the exponent's 3/2** — reading the −3/2 as a Fermi point's phase-space deficit, which is numerically d/2 = 3/2 under equal-states normalisation | give the spectrum a crossover (ρ ∝ E^p below a bend-over, flat above) and the pairing integral is exactly J = 1/p + ln(Λ/E_*), verified to four decimals at p = 1, 2, 3. Two failures at once: it fixes the node-emergence scale rather than a gap (Δ drops out), and it carries the **wrong sign** — a deficit that raises the scale where the anchor needs suppression. At p = 2 it lands 11.65 TeV against 1576 GeV, over by e² | route 6's equipartition reading, which carries the constant alone and is the one of the two with the right sign. The −3/2 is separately identified as the pairing shell's cutoff, M_red·e^(−3/2) (hierarchy §6d) |
+
+
+### THE A_s RESIDUAL'S MEANING — the −0.35% was measuring the k spread, not the count (2026-07-20)
+
+**What was booked.** That A_s = (α_c/4πk)³ lands −0.35% from the measured amplitude, and that the
+−0.35% is what the unmechanized count C measures — "that is the number the chain hangs on, and it is
+what the −0.35% measures."
+
+**What it actually measures.** The pipeline's frozen A_s = 2.088058×10⁻⁹ is not a measurement. It is
+the *same closed form* evaluated at the concordance joint k = 1.3630 (`scripts/concordance.py`)
+rather than at the closed-form k = 1.364612 — the implied k recovers 1.3630000 exactly. So the
+−0.35% is 3·ln(k_joint/k_closed), a k-determination spread, and the comparison is self-referential
+twice over: the joint's three inputs include the closed form itself and Planck's A_s inverted
+*through* the closed form.
+
+**The honest confrontation.** Against the measured 2.100×10⁻⁹ at ~1.4%, the closed form lands
+**−0.92%, −0.66σ**, so C = 1.009 ± 0.014. C = 1 is consistent — and no present measurement can pin C
+better than ±1.4%, so data cannot referee the count at all. The derivation has to.
+
+**And the count is two O(1)s, not one.** Carrying the census through to the dimensionless power per
+log k gives A_s = R²(k_*ξ)³/2π², hence C = R²(k_*ℓ_p)³/2π² — the pivot-volume convention ℓ_p *and*
+the transfer R = ∂ζ/∂(δn/n̄). At the medium's own conformal (w = ⅓) transfer R = ¼ the three natural
+conventions give C = π/4, 0.098, 3.2×10⁻³, spanning a factor 250 and containing no 1. C = 1 is an
+identification. Equivalently the closed form asserts a freeze-out ratio k_*ξ = 3.45×10⁻³ — one part
+in 290 of the horizon — which is the Kibble–Zurek number the basement owes.
+
+**The lesson (process).** *A residual quoted against a number the same formula produced is not a
+test.* The frozen value's provenance was recorded in the yaml comment the whole time; nothing was
+hidden, and the reading still drifted into "measured" because the comparator was quoted by value
+rather than by origin.
+
+
+### P-2026-029's AMPLITUDE — the comb's detection claim dies on the monopole dilution (2026-07-20)
+
+**What was booked.** A winding comb modulating C_ℓ by A = δC_ℓ/C_ℓ ≈ 1% across ℓ = 100–600, bounded
+observationally to [0.7%, 1.4%], registered as a live two-sided falsifier with the forward number
+f_wind owed.
+
+**What the forward computation gives** (`scripts/winding_comb_cl.py`). A comb in the *diagonal* C_ℓ
+requires a coherent feature in the primordial two-point function at the winding's own separation
+d = L/n. But the diagonal sees only the k̂-**monopole** of that feature — Σ_m |Y_ℓm|² = (2ℓ+1)/4π
+removes every higher multipole — and the monopole of a single-axis modulation is
+j₀(kd) ≈ 1/(kd) = ℓ₁/2πℓ. The exact radial projection costs a further 2.5–9×, leaving
+T_proj = 0.0009–0.061 over n ∈ [10, 30], ℓ ∈ [100, 600].
+
+**Two things break at once.** The comb is not flat — A(ℓ) falls ~1/ℓ, a factor 13 across the band,
+while the fence was inverted for constant A (flat-equivalent A_eff = 0.32·A(100)), so the bounded
+template and the predicted template are different objects. And the amplitude cannot reach the fence:
+A = 0.7% needs a primordial single-axis modulation of 36% at n = 30, 60% at n = 20 and 181% —
+impossible — at n = 10. At the model's own weak-modulation ceiling (winding roughness Δ² ≲ 2×10⁻⁶
+per log) **f_wind ≲ 3×10⁻⁵, 255× under the fence floor.**
+
+**What survives.** The location ℓ₁ ≈ 3.1n is geometry and is untouched. What dies is the *detection*
+claim: the comb cannot be the ~2–3σ hint, and its absence cannot kill the model, so it stops being a
+falsifier and becomes a place to look. **The one escape, named because it is testable:** the acoustic
+"ringing" reading — a *temporal* resonance during horizon exit rather than a spatial array — is
+isotropic in k̂ and periodic in ln ℓ, evading the dilution entirely. Different template, live question.
+
+**Inheritance.** Nothing downstream consumed the 1% amplitude; the same integer n still sets the
+η-era phase pattern and the off-diagonal cavity covariance (docket #151), both untouched. The kill
+is confined to this entry's amplitude row.
+
+**The lesson (process).** *An observational bound inverted for a template is not a prediction, and
+the two can differ in shape as well as size.* The fence was honestly labelled as a bound from the
+day it was registered; what nobody checked was whether the model's own template was the one the
+bound had been inverted for.
+
+### "Z4 is forced by parity + renormalizability" — THE ARGUMENT FAILS ON ITS OWN OPERATOR LIST (2026-07-20)
+
+**What it claimed** (Room 4's first wall, the corpus's only forcing argument for the tilt's
+four-foldness): *"At dimension 4, the only U(1)-breaking operators are Ψ⁴ + h.c. (preserves Z4) and
+Ψ³Ψ* + h.c. (breaks to Z2); if the UV respects field parity Ψ → −Ψ, the Ψ³Ψ* family is forbidden and
+Ψ⁴ + h.c. is the UNIQUE renormalizable tilt."* RETIRED (kills #174's object) — the tilt is booked as
+an input.
+
+**Why it dies — the parity does not do the work it is asked to do.** Ψ → −Ψ counts fields mod 2, and
+Ψ³Ψ* has **four** of them:
+
+| operator | dim | fields | parity Ψ → −Ψ | breaks U(1) to |
+|---|---|---|---|---|
+| Ψ² + h.c. | **2** | 2 | **even — allowed** | **Z2** |
+| Ψ³ + h.c. | 3 | 3 | odd — forbidden | Z3 |
+| Ψ²Ψ* + h.c. | 3 | 3 | odd — forbidden | Z1 |
+| Ψ⁴ + h.c. | 4 | 4 | even — allowed | Z4 |
+| Ψ³Ψ* + h.c. | 4 | 4 | **even — allowed** | **Z2** |
+
+The parity kills exactly the two odd-field operators, both dimension three. Ψ³Ψ* — the one the
+argument names as forbidden — survives it, and so does Ψ² + h.c., which is the **lowest-dimension
+U(1)-breaking operator of all** and therefore the one that generically dominates. Parity plus
+renormalizability leaves three candidates, **two of them Z2**. Z4 is not forced; on operator
+dimension alone it is disfavoured.
+
+**What would force it, and why the corpus cannot supply it.** Ψ² and Ψ³Ψ* both violate the charge by
+2q while Ψ⁴ violates it by 4q, so selecting Z4 requires a rule permitting ΔQ = 4q while forbidding
+ΔQ = 2q — a statement about the ultraviolet's field content and charge assignments. That is basement
+business, and the basement that would have carried it (the dyad-as-SU(2)-condensate identification)
+was dropped on 2026-07-18 with the non-thermal operating point.
+
+**What survives, and it is the load-bearing piece.** The genesis handedness theorem — sign(θ̇) an
+exact 50/50 coin — **never used N = 4**. For any single-harmonic tilt cos Nθ the reflection
+σ: θ → 2π/N − θ leaves the tilt invariant while sending θ̇ → −θ̇, so L = R²θ̇ is odd and the uniform
+release prior splits evenly; verified symbolically at N = 2, 3, 4, 6, with N = 4 returning the
+recorded σ: θ → π/2 − θ. The theorem's real premises are single-harmonic, release-at-rest, isotropic
+friction and a uniform prior over one period. Its genuine loophole is a **second** harmonic with an
+irremovable relative phase: cos 2θ + cos(4θ + δ) admits a reflection at δ = 0 and **none** at
+δ = π/4 or π/3 — which is the corpus's own "a second phase that cannot be rotated away", now
+sharpened from a remark into a criterion.
+
+**The lesson (process).** *A symmetry argument has to be run against the whole operator list, not the
+one the conclusion came from.* The list here was truncated at dimension four, and the dimension-two
+term that decides the question was never written down.
+
+### The "varying m_e preferred at 2–3.6σ" citation — THE NUMBER WAS REAL, THE PAPERS WERE NOT ITS SOURCE (2026-07-20)
+
+**What was claimed** (`PRTOE_hubble_tension.md` §5, on the file the corpus calls its core empirical
+claim): *"the recent ACT DR6 + DESI DR2 analyses (arXiv:2508.09025, arXiv:2606.06495) find varying
+m_e preferred at 2–3.6σ."* Both identifiers resolve to real papers. Neither supports the sentence.
+Corrected in place (#166's fairness pass).
+
+| the claim | what the cited source actually says |
+|---|---|
+| "preferred at 2–3.6σ" from arXiv:2508.09025 | its abstract reports **m_e/m_e₀ = 1.0081 ± 0.0046** — a **1.8σ** preference over unity |
+| the same, from arXiv:2606.06495 | that paper quotes **no** detection significance and concludes the *opposite*: *"Once DESI DR2 BAO data are added, however, perturbative modifications to m_e(z) cannot fully resolve the Hubble tension"* |
+| where 3.5σ does live | **Hart–Chluba 2020** (arXiv:1912.03986), CMB+BAO+SNe: m_e = 1.0190 ± 0.0055, *"≃3.5σ above m_e,0"* — a 2020 result on Planck-era data, not an ACT DR6 + DESI DR2 one |
+| where "2.5–3.6σ" lives verbatim | **arXiv:2607.13282**'s abstract, as the *residual* Hubble tension left over by the best-performing models — a leftover, not a preference, and not for this mechanism |
+
+**The failure mode, named.** A right-sized number attached to the wrong papers and the wrong
+quantity. Two distinct slips compose: a 2020 significance was carried forward onto 2025/2026
+citations that had since moved it **down** (3.5σ → 1.8σ as the data improved), and a *residual
+tension* range was read as a *preference* range. The second is the more dangerous, because
+"3.6σ" reads as support while in its own source it is the measure of what the model class still
+fails to explain.
+
+**What survives, and it is not nothing.** The direction is still independently supported — every
+one of the three fits sits above unity, and the model's own pinned 1.012543 lands +0.7σ, −1.2σ and
++1.0σ from them, consistent with all three without having been fitted to any. The claim needed to
+shrink, not to go.
+
+**The lesson (process).** *Check what a σ is a σ **of**.* Preference-over-null and residual-tension
+are both quoted in Gaussian sigmas in this literature, they appear in adjacent sentences of the same
+abstracts, and they point in opposite directions.
+
+### THE SUPERRADIANCE λ-QUENCH — RE-DERIVED AND DEAD BY 85 DECADES (2026-07-20)
+
+**What was claimed** (`PRTOE_INTERACTION_ATLAS.md`, the live-exposure entry, and inherited by
+`PRTOE_DOMAIN_COVERAGE.md`, `PRTOE_blackholes_no_singularity.md`, `PRTOE_references.md`): that the
+genesis quartic quenches a growing superradiant cloud, so P-2026-034's band could carry high
+measured spins without the recorded mass being in trouble. The margin was swept as a rate balance
+Γ_SR ~ α_g⁹m against Γ_nl ~ λ²N²α_g^p m with p over [5, 15], giving log₁₀(N_spin-down/N_eq) = +2.5
+to +7.7 decades, re-priced to −0.2 to +5.0 when λ moved to 2×10⁻⁹¹. **RETIRED — the shield does
+not exist** (closes #156). Computed at the model's own quartic and mass
+(`scripts/superradiance_quench.py`), the margin is **−83.7, −85.1, −85.8 decades** at
+α_g = 0.1, 0.3, 0.5.
+
+| the step | what the sweep had | what it is |
+|---|---|---|
+| **which quartic** | ambiguous — λ_dyad ≈ 1.3×10⁻³⁸ and λ ≈ 2×10⁻⁹¹ both in play, 53 decades apart, read as bare-vs-effective | **not two normalizations of one coupling — two different fields.** λ_dyad belongs to the high-f Coleman–Weinberg field (m_φ = 3.1–6.9×10⁻⁵ eV, Compton wavelength ~cm), which forms no gravitational atom around a 10⁹ M☉ hole. The cloud is the m = 2.24×10⁻²⁰ eV boson, so λ ≈ 2×10⁻⁹¹ is the only admissible value |
+| **the exponent p** | swept over [5, 15] | **p = 4**, below the whole swept window. Kinematics force the channel: a free final quantum needs its partner in n = 1, so \|211⟩\|211⟩ → \|100⟩\|k⟩ at k = mα_g/√2, and the golden rule with the contact vertex gives Γ_nl ∝ λ²N m α_g⁴. Confirmed independently by kinetic theory (nσv), prefactors agreeing to 2.8× |
+| **the N-power** | N² in a per-particle rate | **N¹.** λ²N² is a *total* event rate. At order λ² a per-particle N² would require three quanta in, which a single vertex cannot supply |
+| **the balance** | total rate set equal to a per-particle rate | like against like: N_eq = α_g^(9−p)/λ², not α_g^((9−p)/2)/λ |
+
+**Where the kill actually came from — not where it was expected.** Resolving p was the owed
+calculation, but p is not what fails: evaluated at p = 4 the old expression still returns +5
+decades. The decisive defect is the **rate-normalization mismatch**, which put one power of λ where
+two belong. At λ = 2×10⁻⁹¹ that single missing power is worth **90 decades**, and it converts an
+apparent shield into an 85-decade shortfall.
+
+**Why no O(1) rescues it.** The overlap coefficient would have to be ~10⁸⁵. For the quench to
+shield, λ would have to exceed ~7×10⁻⁴⁹ — 42.6 decades above the recorded value, i.e. f_eff ≲
+3×10⁴ eV against the model's 5.01×10¹⁶ GeV. The bosenova branch is closed twice over: it requires
+an *attractive* quartic while the λ that sets the collapse floor is the **repulsive amplitude**
+quartic, and even granting an attractive coupling of the same size, N_bosenova sits 1.5–3.6 decades
+*below* N_spin-down, so collapse paces the spin-down into 30–3700 bursts rather than preventing it
+— completing in 5×10³ to 5×10⁹ yr.
+
+**What dies with it.** The free-vs-condensate discriminator (`PRTOE_PREREGISTERED_PREDICTIONS.md`,
+`PRTOE_DOMAIN_COVERAGE.md`) rested entirely on the quench. At λ ≈ 2×10⁻⁹¹ the field **is** a free
+scalar for every superradiance purpose — f_eff = 5×10¹⁶ GeV — so there is nothing to discriminate,
+and P-2026-034 stands or falls on the spin measurements alone.
+
+**The discriminator's registered form, recorded here in full since it no longer has a home in the
+registry.** It was booked LIVE at the era band's top edge: M87*'s **[2.9, 4.6]×10⁻²¹ eV**
+free-scalar exclusion overlaps **m ~ 3×10⁻²¹ eV**, so a spin measurement there would kill free FDM
+and not the dyad — present-day data, not future. The band-top framing is retired independently, the
+mass having since been pinned an order higher at **2.24×10⁻²⁰ eV**. The quench was also one of the
+ε-collision's **three** correlated readouts of one ε — the PTA beat (light-m-gated), the granule
+power p²+q² (any m), and the superradiance quench (heavy edge, CONFIRMED-QUENCH grade, booked as
+possibly live with existing data on the DK-holds branch). Two readouts remain; the quench is not
+one of them, and P-2026-034 stands undefended.
+
+**The lesson (process).** *A rate is not a rate until you say per what.* The sweep's two rates were
+both written as "Γ ~ … m" and looked commensurable; one was per particle and one was per cloud.
+Sweeping an unknown exponent over ten units of α_g hid a normalization error worth ninety decades,
+because the sweep was performed on the parameter that was merely unknown rather than on the step
+that was wrong.
+
+### F_dark/√σ's "NORMALIZATION BAND" — THERE WAS NO BAND, AND THE QCD MATCH WAS THE MISSING √2 (2026-07-20)
+
+**What was claimed** (`PRTOE_forced_combination.md` §4, inherited by `working_logs/T6_koide_owed.md`):
+that the vortex-stiffness tie converts to **F_dark/√σ = 0.30–0.42**, *"the band is the normalization
+convention, to be FIXED by the sector's own vortex-pair computation, blind"*, graded
+**CLASS-YES, PRECISION-PENDING** because that band overlaps the QCD-like class 0.21–0.30; with the
+fenced note that *"the band's lower edge, 0.297, sits 0.3% from QCD's own 130-MeV-convention
+value — proximity is bait until the convention is computed."* **RETIRED on all three counts**
+(#134's normalization half; the docket stays open on what replaced it).
+
+| the claim | what it is |
+|---|---|
+| "the band is the normalization convention" | **not a band.** 0.2973 and 0.4204 are *one number in two conventions* — their ratio is √2 to 5 digits. A quantity written twice is not an interval, and nothing about it needed a blind computation |
+| "to be FIXED by … the vortex-pair computation" | the convention is **read off the Lagrangian**, not computed. L_θ = (F²/2)(∂θ)² matched to L = (F_π²/4)Tr(∂U†∂U) on the winding direction U = diag(e^{iθ}, e^{−iθ}) gives Tr = 2(∂θ)², hence L = (F_π²/2)(∂θ)² and **F ≡ F_π = √2 f_π**: the 130.4-MeV branch, decided by inspection |
+| "0.297 sits 0.3% from QCD's 130-MeV-convention value" | a **cross-convention comparison**. It divides the model's 0.4204 by √2 and does not divide QCD's 0.2964. Like for like the two are 0.4204 vs 0.2964 = **1.4186, i.e. √2 to 0.3%** — and that 0.3% *is* the residue the note reported as an agreement |
+| **CLASS-YES** | earned against the superseded 0.30–0.42, which overlapped the known class. The live demand 0.40–0.47 overlaps **neither** QCD (0.21–0.30 in the 92.4 convention, 0.30–0.42 pinned) nor the two-color lattice range. Re-graded **CLASS-NEAR**: 1.35–1.59× QCD's pinned value — factor-≲2 natural, but outside the measured class, not inside it |
+
+**The failure mode, named.** A convention factor was mistaken for a physical uncertainty, and then
+the *same* factor was spent a second time buying an agreement. Because 0.4204 happens to be √2 ×
+QCD's pinned 0.2964, dividing the model by √2 lands on QCD exactly — so the unresolved convention
+manufactured both the "band" and the "0.3% proximity", and the two artifacts corroborated each
+other. The file's own fence ("proximity is bait until the convention is computed") was correct and
+was the thing that survived.
+
+**What replaced it briefly, and then died too.** With the convention pinned, the corpus's two
+routes to this one observable were compared and appeared to disagree by **2.39×** — the
+NJL/gap-equation chain's **0.1759 pinned** against the vortex-pair **0.4204** — with the note that
+2.39 is neither √2 nor 2 and therefore survives every normalization choice. Also corrected at the
+same time, and this part stands: the referee calendar billed *three* numbers of one campaign, but
+F_dark/√σ and w·√σ are **one** test — the demand band is derived from c_K *and* the thickness, so
+only the pair constrains anything, via c_K = √3·2π·(F/√σ)²·(w√σ).
+
+### The "2.39× internal disagreement" (#134) — RETIRED (2026-07-20): it was a change of denominator
+
+**What it was:** the successor claim above — that the corpus holds two independent predictions of
+F_dark/√σ that disagree by a factor no convention explains, an internal contradiction no lattice
+could adjudicate.
+
+**Why it died — the NJL route never computed that ratio.** Its one-loop formula is
+f² = N_c M² F(y)/(2π²) with **y = M/Λ**, so the coded quantity (`de_value_g_to_lambda.py:113`,
+named `f_over_root_sigma`) is algebraically **f/Λ** — the decay constant in units of the NJL
+three-momentum regulator. Λ = √σ was inherited, not derived: `de_value_derive_Lambda_g.py:9-11`
+sets Λ = m_e by *compositeness* (the dyad as an electron bilinear), `de_value_g_to_lambda.py:51`
+labels the same 511 keV *the portal, √σ_dark = m_e*. **Two physical statements, one number,
+silently identified — and the script's own calibration theory refutes the identification:** its
+QCD set is Λ = 631 MeV (`:97`) against √σ = 440 MeV, so Λ/√σ = 1.434 there, and read the script's
+way QCD returns f/Λ = 0.1475 where its measured f_π/√σ is 0.2100 — **the step fails by 1.42× in
+the one theory where it is checkable.**
+
+| the 2.39, factored | what it is |
+|---|---|
+| **1.424** | Λ read as √σ — the unit error |
+| **1.186** | the real dark-vs-QCD difference in f/Λ (N_c = 2, its own y) |
+| **1.419** | the vortex route's already-recorded √2 above QCD — not a new disagreement |
+
+**The tell that was on the console the whole time.** `de_value_g_to_lambda.py:123-124` prints
+0.1244 against *"the corpus's QCD-transfer band 0.19–0.25"* — a number printed **below** the band
+it is compared to, in the same line, unchased.
+
+**What is left of the route:** nothing that reaches this observable. No independent determination
+of Λ_dark/√σ_dark exists (QCD's 1.434 is a transfer, not a derivation), so the chain yields
+f_dark/Λ_dark and no f_dark/√σ. Independently, it computes the **dyad's** condensate while F_dark
+belongs to the **confining SU(2) sector**, and the standing roster rules *"the dyad is neither"* of
+that sector's two condensates (`PRTOE_DERIVATION_HUNT.md:422-423`) — so the two were observables of
+different sectors under one label. **F_dark/√σ = 0.40–0.47 stands unopposed.**
+
+**The failure mode, named — and it is the same species as the √2 above.** A *dimensionless ratio
+was compared across two different denominators*. The √2 error compared one number in two
+normalizations; this one compared two numbers in two units. Both were invisible because the
+quantity carried a name (*"F_dark/√σ"*) rather than its definition, and the name was true of only
+one of the objects wearing it. **The general rule: a ratio is not identified by its numerator.**
+
+**The lesson (process).** *Two numbers a factor √2 apart are one number until proven otherwise.*
+In a sector where the decay constant has two live conventions differing by exactly √2, any
+"band" spanning √2, and any agreement reached by inserting or removing a √2, must be checked
+against the Lagrangian before it is read as physics.
+
+### THE CONFORMAL-WINDOW GEOMETRIC MEAN AS THE DYAD'S T_c — RETIRED, and the alarm it raised was its own artifact (2026-07-20)
+
+**What was claimed** (`PRTOE_UV_completion.md` §#17): that the gate-0 radiation-phase escape stood
+on a *conformal-window heuristic* — the w = ⅓ radiation youth read as a scale-invariant window
+bracketed at UV = soft mass and IR = the dark-energy floor, with the condensation scale at the
+geometric mean √(m_soft·Λ_IR) ≈ 48 keV, "inside the escape window". Graded **DEFUSES, does not
+clear**, waiting on "which rung the condensation picks". A 2026-07-20 check then raised the alarm
+that the high-f adoption may have moved the bracket: with f = 100–500 TeV in place of a TeV soft
+mass the same geometric mean reads **480 keV to 1.07 MeV, and the upper end leaves the escape
+window (0.26 eV, 1 MeV)**.
+
+**RETIRED (kills #133's object — the docket closes on the answer, not on the question).** The
+heuristic was never what set the dyad's condensation temperature, and neither end of its bracket
+is the right one.
+
+| the claim | what it is |
+|---|---|
+| the escape rests on a conformal-window geometric mean | it does not. The dyad condenses when the electron plasma's thermal mass stops holding the symmetric point against the electron loop's tachyonic curvature; **both terms are first order in κ = ε/f², so κ cancels** and the restoration temperature is m_e0·√(3(L−1)/2π²) — the electron mass times a pure number (`PRTOE_me_mechanism_math.md`, the high-f operating point) |
+| the bracket's UV end is f, or a soft mass the dyad may not have | **neither.** f does not appear in a κ-independent quantity. The only surviving f-dependence is in the ramp-timing relation C_T(T_c) = 2λ_dyad·f², and only while λ_dyad is held at its recorded value rather than at its own defining expression; held there, λ_dyad·f⁴ = ε·m_e0⁴(L−1)/4π² and f cancels exactly |
+| "1.07 MeV at f = 500 TeV leaves the escape window" | an artifact of the heuristic. Across that same 100–500 TeV window the sector's own timing relation gives **T_c = 130–940 keV — inside at both ends** — and read backwards places f ≈ 145 TeV, in the *low* part of the adopted window |
+| the escape is "physical-but-unproven" pending the rung | the rung is fixed by the cancellation. Three independent readings — the kernel's 177.10 keV, the exact-kernel electron-loop cross-check at **307–714 keV** (not the retired mis-range 250–530 keV), and the timing relation's 130–940 keV — all sit inside (0.26 eV, 1 MeV); the kernel and the lower half of the exact-kernel band also sit inside the tighter **BBN fence [70, 500] keV** that actually binds (53% of 307–714 lies above 500 keV — see the #182 correction above) |
+
+**The failure mode, named.** A heuristic was left standing in the place where the sector had a
+calculation, and then re-run with a new input when the model's scales moved. Because a geometric
+mean is *linear in the log of each bracket*, swapping the UV end from 1 TeV to 500 TeV moved the
+answer by 20× and pushed it through a boundary — while the quantity it was standing in for does
+not depend on that end at all. The alarm was raised by the substitute, not by the physics.
+
+**The lesson (process).** *When a heuristic and a calculation cover the same quantity, the
+heuristic's sensitivities are not the model's.* Before re-running an order-of-magnitude estimate
+against a changed input, check whether the corpus has already computed the thing the estimate was
+approximating — here it had, twice, and both computations are κ-independent.
+
+### THE LOW-ℓ CAVITY DEPTH — a sharp k-cutoff standing in for a mode lattice, and the "razor-thin viable window" that never existed (2026-07-20)
+
+**What was claimed.** Two numbers, from two passes, for one quantity — the flat cubic torus's
+quadrupole retention at the matched-circles floor L = 27.6 Gpc. `scripts/torus_quadrupole.py`
+(retained) returned **0.49**; the 2026-07-18 cavity pass, whose script was scratch-era and not
+retained, booked **0.83**. `PRTOE_lowell_anomalies.md` carried both with a provenance note holding
+the conclusions "robust across the 49–83% span". Upstream of both,
+`PRTOE_PREREGISTERED_PREDICTIONS.md`'s P-2026-013 quantitative update read the 0.49 as the model
+reproducing the observed low quadrupole, in "a razor-thin viable window L ~ 2–3 D at the current
+detection threshold".
+
+**RETIRED (kills the T5 low-ℓ thread's booked retention and ρ pattern; (no docket) — the
+regeneration was run without a task number of its own, and one is owed: #160 is already the
+two-fluid sims).** Regenerated ISW-inclusive on a retained generator,
+`scripts/torus_lowell_pattern.py`: the retention at the floor is **0.90** (0.85 on Sachs–Wolfe
+alone). Both booked values are wrong, and the true value is *above* the span they bracketed.
+
+| the claim | what it is |
+|---|---|
+| 0.49 retention at the floor | a **sharp continuum cutoff**, not a torus. The estimate integrates ∫dk/k below k_min away; a finite box does not empty that region, it concentrates it — six modes sit **exactly at** k_min carrying their full k-cells' weight. The generator reproduces the estimate's 0.831 / 0.489 / 0.189 exactly from the same integral, and the lattice sum on the same boxes gives 0.976 / 0.844 / 0.447 |
+| 0.83 at the floor, from the lost pass | close to right (0.90) for reasons that cannot now be checked. The provenance note's reading — that the ISW dilution supplied the 0.49 → 0.83 gap — was the right mechanism attached to the wrong baseline: the ISW is worth 0.85 → 0.90, and the lattice-vs-cutoff correction is worth 0.49 → 0.85 |
+| "conclusions robust across the 49–83% span" | the span excluded the answer. Robust anyway, but by luck: at 0.90 the power-spectrum route is *more* hopeless, not less |
+| "a razor-thin viable window L ~ 2–3 D" | **there is no window.** No box the matched circles permit delivers the observed 0.2–0.5 quadrupole; the largest suppression available at the floor is 10%, i.e. 0.16σ against the quadrupole's own 63% cosmic variance |
+| off-diagonal S/N = 2.2 over 990 pairs | **1.4** ISW-inclusive; 2.0 on Sachs–Wolfe alone, which is what the lost pass appears to have computed. The ISW's near-isotropic power adds to the diagonal without adding to the off-diagonal, so it dilutes the correlations exactly as it shallows the quadrupole |
+
+**The superseded estimate in full, recorded here since it no longer has a home in the registry.**
+`scripts/torus_quadrupole.py` (sanity-matched: numeric C2(full) = 0.0833 = analytic) gave the
+Sachs–Wolfe leading-order quadrupole suppression C2(torus)/C2(inf) against box size L (D = comoving
+distance to last scattering) as **L=10D: 1.00 ; L=4D: 0.94 ; L=3D: 0.83 ; L=2D (= obs. univ. diam.):
+0.49 ; L=1.5D: 0.19 (excluded)**, and the octupole at L=2D retaining **0.85** against the
+quadrupole's 0.49. The ordering of those last two — quadrupole hit harder than octupole — is the
+shape statement the lattice sum preserves; the depths are the part it does not.
+
+**What survives, and it is the part that mattered.** The *shape* result is untouched — suppression
+confined to the lowest multipoles and gone by ℓ ≈ 4 — as is the relocation of the test from the
+power spectrum to the covariance, and the cube's Δm ≡ 0 (mod 4), ℓ − ℓ′ even selection rule, which
+every one of the 111 non-zero pairs obeys. The relocation is *strengthened* by the retention move
+and *weakened* by the S/N move, and the two do not cancel: the referee now grades a 1.4σ structure.
+
+**The failure mode, named.** An estimate labelled honestly as an estimate ("leading-order, SW-only,
+isotropic-cutoff") was carried into a place where the difference between the estimate and the
+object was the entire result. The label was on the script and not on the conclusion, so a
+razor-thin window survived in a registered prediction for twelve days on a number that was never
+the torus's.
+
+**The instrument, so this cannot recur silently.** The retained generator carries its own checks:
+the infinite-universe C_ℓ against the analytic 1/(9πℓ(ℓ+1)); retention → 1.0000 as the box grows;
+the lattice sum computed two independent ways — shell multiplicities under the addition theorem
+against a mode-by-mode sum over spherical harmonics, agreeing to five decimals; and the cutoff
+estimate reported *beside* the lattice sum rather than in place of it.
+
+**The lesson (process).** *When an estimate and the object it approximates differ by the size of
+the claim, the estimate is not a version of the result — it is a different quantity.* A cutoff
+approximates a lattice well where the modes are dense and not at all where the answer lives, which
+here is the first shell.
+
+### LEPTOPHILIA'S IDENTITY LEG — the propagation half: it was still live in three files, one of them the red-team brief (2026-07-20)
+
+**Not a second retirement.** The claim itself — that the dyad's leptophilia is forced *twice over*,
+the second arrow being lepton number — was retired earlier the same day under **#125** (the entry
+above: |Ψ|² carries L = 0, so U(1)_L screens no quark bilinear, and the Majoron's tree coupling is
+to the phase a quadratic portal cannot see). This row records what that retirement left behind,
+because a withdrawal creates propagation debt retroactively and nothing prompts the re-check.
+
+**Three forward files were still asserting it**, found by the deep audit's check 12 across the
+flagship set:
+
+| file | what it said | fixed to |
+|---|---|---|
+| `PRTOE_dyad_gas.md` §2 | *"Its identity is the **Majoron**… **This is why the medium's coupling is leptophilic: the broken symmetry it carries is lepton number.**"* — headed as established | leptophilia carried by data at 12σ; the Majoron a separate field; the symmetry route named as not available |
+| `PRTOE_dyad_gas.md` (dead ends) | *"forced twice over: by identity … and by data"* | forced once, by data |
+| `PRTOE_bbn_witness.md` | P-2026-006's lever unavailable because *"the tree coupling is zero by symmetry, not small"* | unavailable by loop order (two EW/EM loops, ~(α/4π)²) and by the same row's own 12–18σ bound |
+| `working_logs/_REDTEAM_BRIEF.md` | **"SYMMETRY-FORBIDDEN"** — i.e. a line the corpus was telling adversaries not to attack | re-stated as excluded by loop-order and data, with an explicit instruction *not* to defend it with lepton number |
+
+**A second, older identification travelled with it and was corrected in the same pass:** the
+one-scale reading f = v_L that made the dyad *be* the Majoron went tie-dead on the
+condensate-friction ceiling (v_L ≲ 2.4 TeV against a 40 TeV thermalization floor), leaving **three
+dark fields**. `PRTOE_dyad_gas.md`, `PRTOE_dcdf_superfluid.md` and `PRTOE_INDEX.md` were still
+titled and written for **two**, and `PRTOE_MATH_SPINE.md` §0 still graded the one-vs-two-scale
+question an open fork. All four corrected.
+
+**What does not move.** Every downstream conclusion survives with room to spare — the leptophilia,
+the P-2026-006 verdict (~7×10⁻⁸ against the ~2×10⁻³ a heal would need), the D/H books. Only the
+reason changed, which is exactly why it survived: a correct conclusion kept re-certifying a broken
+premise every time anyone checked the number instead of the argument.
+
+**The lesson (process).** *Retiring a claim in the file that owns it is half the job; the other half
+is the files that were quoting it, and the red-team brief is the one that cannot be left.* An
+A standing-grade tag on an inherited argument makes it look checked, and a defence that reaches a true
+conclusion gives a reviewer nothing to trip on.
+
+**SECOND WAVE — the propagation sweep above was itself incomplete (checks 14–19 pass, 2026-07-20).**
+The row above closed on three files. Running check 14 across the flagship set found the same retired
+leg live in **three more, at seven further sites** — none of which the first sweep reached, because
+it searched the premise's own wording rather than the conclusions carrying it.
+
+| file | what it said | fixed to |
+|---|---|---|
+| `PRTOE_DERIVATION_HUNT.md` §1 (×2) | *"quarks carry L = 0 and sit untouched"*; *"quarks carry L = 0 and the tree coupling is exactly zero"* — the premise the two-census marriage argument runs on | held off by loop order and by data, with the singlet named L-neutral |
+| `PRTOE_DERIVATION_HUNT.md` §6, §9 | *"leptophilic by **identity**"*; *"the census axiom is what pays for **leptophilia**"* | leptophilic by loop order and by data; the census axiom pays for the *universality* |
+| `PRTOE_PREREGISTERED_PREDICTIONS.md` (P-006 open half) | *"the dyad **is** the Majoron … quarks carry L = 0, making the tree-level quark coupling **zero by the symmetry that defines the field**, not merely small"*, citing `dyad_gas` §2 as established | reasoning replaced, verdict unchanged; the withdrawn symmetry leg recorded with the claim |
+| `PRTOE_PREREGISTERED_PREDICTIONS.md` (neutrino home) | *"since **derived** via the Majoron: quarks carry L = 0"* | still owed; the Majoron route withdrawn |
+| `PRTOE_MATH_SPINE.md` §9 | leptophilia portal listed as **settled**, *"census-forced"*, citing `dyad_gas` §2 — which by then said the opposite | settled as *leptonic*; the portal moved to the owed list as docket #125 |
+
+**And the correction itself carried a wrong number, in this ledger and in three files.** The loop
+floor for the dyad → lepton loop → 2γ → quark chain is quoted in prose as **(α/4π)² ≈ 3×10⁻⁷** — in
+the row above, in `PRTOE_bbn_witness.md`, `PRTOE_me_mechanism_math.md` and (until this pass)
+`PRTOE_THE_CHAIN.md` — while every operative number downstream is computed from **(α/π)² = 5.4×10⁻⁶**,
+which is what `scripts/audit_math_pass.py` guards and what the 6.8×10⁻⁶ % delivered shift and the
+20 000–31 000× shortfall are built on. **Sixteen-fold apart, and the prose label is the
+optimistic one** — it implies a quark shift 16× smaller than the corpus actually computes. No
+verdict moves (20 000× short either way), but the named quantity and the used quantity were not the
+same object: check 18, in a place nobody would look because the conclusion was never in doubt.
+
+**A second misattribution rode with it.** `PRTOE_THE_CHAIN.md` quoted the shortfall as
+*"20 000–31 000× short, backed by the row's own 12–18σ bound"* — joining two independent
+comparisons into one. The 20 000–31 000× is short of **P-2026-006's required healer shift of
+0.14–0.21%**; the 12–18σ is the **D/H exclusion of a universal quark shift**. Separate objects,
+separate denominators, adjacent in the source and merged in the quotation. Corrected to two
+arguments where the corpus always had two.
+
+### The reionization-τ half of tether 7→8 — reduced on an argument where an integral was owed (no docket, 2026-07-20)
+
+**What was booked.** `PRTOE_THE_CHAIN.md` closed the τ question "by the chain's own structure, in
+two halves", grading the tether **[REDUCED, estimate-grade]**. The *clustering* half is genuinely
+zero by construction and stands: the fluid's linear sector is ΛCDM-identical and its distinctive
+scales sit far below anything that sources reionization. The *atomic* half rested on one clause —
+the ε ramp's neutral-era tail "carries a τ contribution **orders below** Planck's ±0.007 width".
+
+**Why that is not a closure.** Δτ from a specified ionization history against a specified ramp is a
+well-posed integral, and it was not run — the margin is asserted, not computed, and it points the
+favourable way, which is check 16's signature. Searched three ways plus the distinctive number
+(`Δτ`, `optical depth`, `τ contribution`, `0.007`): no such number existed anywhere in the corpus
+at the time of writing, so nothing downstream was carrying a computed value either.
+
+**DISCHARGED the same day, and this row did not record it.** The integral was run 32 minutes after
+the paragraph above was written (`scripts/reionization_dtau_ramp.py`), and the result is carried in
+[PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md): the entire optical depth available across the ramp's tail
+is τ(z = 30–60) = 1.25×10⁻⁴, which is 0.018 of Planck's ±0.007 even if the ramp changed the residual
+by 100%; at the physical ε = 1.2543% acting on x_e, **|Δτ| ≲ 1.6×10⁻⁶, i.e. 2×10⁻⁴σ**. The leading
+term cancels — σ_T ∝ m_e⁻² against x_e ∝ m_e⁺² makes σ_T·x_e go as m_e⁰ — so only the freeze-out
+redshift shift survives. The atomic half is a debt discharged by computation, not an estimate.
+
+**Not adverse, and worth saying so.** The ramp closes at z ~ 30–60 while τ's weight lives at
+z ≲ 10, several octaves apart, so the expected answer really is small; the defect is that "small"
+was doing a closure's work. **Owed: integrate Δτ over the ramp's low tail. Desk work, no external
+gate — it needs a task number.**
+
+
+### The count C's Kibble–Zurek typing — RETIRED, the target names the wrong mechanism class (#168, 2026-07-20)
+
+**What was booked.** That A_s's residual count resolves into a freeze-out ratio —
+*"the census lock freezes cells at k_*ξ = 3.45×10⁻³ … the lock criterion is mechanical, phase-slip
+freeze-out, Kibble–Zurek class"* — and that this is *"the Kibble–Zurek number the basement owes."*
+
+**Why it cannot be that.** The mechanization's own line is P_ζ = R²ξ³, which carries no k. A single
+frozen comoving cell size is therefore **white noise**: Δ²_ζ = k³P_ζ/2π² ∝ k³, reproducing A_s at
+the pivot by construction and giving **n_s = 4**. A Kibble–Zurek quench delivers exactly that — one
+coherence length, frozen once, thereafter fixed in comoving units. The scale invariance the closed
+form needs requires the opposite, ξ(k) ∝ 1/k: a length holding a constant fraction of the imprint
+scale across every decade the CMB resolves, which is a **scaling (self-similar) solution**, not a
+freeze-out. A length that has stopped evolving cannot track a horizon that has not.
+
+**The internal collision this exposes.** The tilt route reads its whole answer off the envelope and
+takes the shot factor to be *"the A_s mechanism's own scale-invariant shot imprint"*, i.e. it
+already assumes what the count's mechanization denies. **The two mechanizations of one object are
+incompatible and exactly one can stand** — if the shot census is white noise the tilt is dead, and
+if the shot imprint is scale-invariant then P_ζ = R²ξ³ is wrong and the two-O(1) decomposition
+C = R²(k_*ℓ_p)³/2π² that rests on it goes with it.
+
+> **Corrected by #184 (2026-07-20), on two points.** The collision was real and is now ruled —
+> scale-invariance stands, the freeze-out branch is excluded by the tilt — but this entry priced
+> the consequence too high and one of its supporting facts is wrong. (i) P_ζ = R²ξ³ is *not*
+> wrong under the surviving branch; it is the power imprinted **at** scale k with ξ read at that
+> mode's imprint time, so the pivot-evaluated C = R²(k_*ℓ_p)³/2π², the convention spread and the
+> data limit all survive — only ξ-as-one-global-constant is struck. This entry's own "What
+> survives" paragraph already said the arithmetic was untouched, and the two paragraphs
+> contradicted each other. (ii) The claim below that the corpus records no critical exponents is
+> **false**: ν = 2/3, named 3D-XY, is in `scripts/winding_gas_cv.py:5` and
+> `scripts/winding_gas_cv_v2.py:11`. Only *z* and a microscopic (ξ₀, τ₀) are genuinely absent.
+> The error survived because a docs-only grep never reaches two scripts no document cites.
+
+**A third mark against the label, independent of the spectrum argument.**
+[PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md) keeps the census lock and the phase-slip quantization
+event as *separate adjacent links* and says so explicitly. The freeze-out criterion is the
+quantization event's; attaching it to the census lock crossed a distinction the chain itself draws.
+
+**What survives.** The arithmetic is untouched: k_*ξ = (2π²A_s)^⅓ = 3.4502×10⁻³ at R = 1 is an
+exact restatement of the closed form, and the factor-250 convention spread, the C = 1.009 ± 0.014
+data limit, and the §6i joint with "α_c does not run" all stand. **Only the mechanism class is
+retired**, and the forward target is re-typed: a mechanism holding ξ/ℓ_H constant at 3.45×10⁻³
+across the observed decades. Also retired with it: the search for this transition's quench rate and
+microscopic (ξ₀, τ₀) — neither of which the corpus records, and neither of which would have
+answered the question. *(This sentence originally also claimed no critical exponents were on file;
+see the #184 correction above — ν = 2/3 is, in two scripts.)*
+
+**The lesson (process).** *A residual can be named precisely, priced honestly, and still be filed
+under the wrong physics.* The number, its spread, and its data limit were all correct; the noun
+attached to it was not, and the noun is what a derivation would have to chase.
+
+
+### The A_s collision, ruled: the freeze-out census — RETIRED, excluded by the tilt (#184, 2026-07-20)
+
+**What was booked.** Two mechanizations of one object, both live in the corpus at once. The
+**freeze picture**: the census is a lock — *"the census lock"*, *"the payroll snapshot"*, *"the
+A_s = 1/N cell freeze at the pivot scale"*, *"the frozen amplitude"* — one comoving cell size,
+snapped at z ~ 10⁶ ([PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md) link 5 and tether 4→5). The
+**scaling picture**: the tilt route's *"the A_s mechanism's own scale-invariant shot imprint"*,
+which requires ξ(k) ∝ 1/k. #168 retired the *Kibble–Zurek label* on the first of these but left
+its structure standing in the chain, so both pictures were still being asserted.
+
+**The ruling, and it is data's.** One frozen comoving cell size is a single Poisson census, and a
+Poisson census is white at every k by construction — not approximately, definitionally. So
+P_ζ = R²ξ³ with ξ constant gives Δ²_ζ ∝ k³ and **n_s = 4**, against a measured 0.9649 ± 0.0042.
+The freeze branch is **excluded by the tilt**, not merely unmechanized, and it takes with it every
+freeze-out reading of this link. **The model asserts the scaling picture**, and it has no choice:
+its only surviving tilt mechanism (the modulation map, DERIVATION_HUNT §7) takes the
+scale-invariant shot imprint as its *input*, so the corpus's own graded tilt candidate already
+presupposes the branch that survives.
+
+**What the ruling does NOT cost, against #168's pricing.** #168 wrote that if the shot imprint is
+scale-invariant then *"P_ζ = R²ξ³ is wrong and the two-O(1) decomposition C = R²(k_*ℓ_p)³/2π² that
+rests on it goes with it."* That over-priced it, and contradicted its own next paragraph.
+P_ζ = R²ξ³ is the power imprinted **at** scale k, with ξ read at that mode's imprint time; it is
+correct there. Every object in the C decomposition is evaluated **at the pivot**, one scale, and
+never sees the k-dependence — so C = R²(k_*ℓ_p)³/2π², the factor-250 convention spread, the
+C = 1.009 ± 0.014 data limit and the §6i joint all stand. What is struck is (i) reading ξ as one
+global constant and (ii) the census's typing as a single instant.
+
+**The third thing, and it is the honest headline.** Neither picture was ever *specified*. The
+freeze branch is dead. The scaling branch is **asserted and assumed, never exhibited**: nothing in
+the corpus supplies the dynamics that holds ξ/ℓ_H at 3.45×10⁻³ across the observed decades, and
+the tilt route consumes that constancy as an input rather than deriving it. And the tilt appeared
+to have *two* sources — the modulation envelope A(k) ∝ σ²(k), and the chain's
+*"recorded census-drift reading, n_s − 1 = −dlnN/dlnk"*. It has one. Once N ≡ 1/Δ²_ζ(k) the
+census-drift line is true by definition and carries no mechanism; read instead as a physical count
+it restates the ξ(k) requirement rather than supplying it. Booking it as a second, independent
+reading made an identity look like physics.
+
+**A recorded absence, corrected.** #168 and DERIVATION_HUNT §7 both stated that neither ν nor z
+appears anywhere in the corpus. **ν does**: ν = 2/3, with the universality class named (3D-XY), at
+`scripts/winding_gas_cv.py:5` and `scripts/winding_gas_cv_v2.py:11`, applied to exactly this census
+(ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). It does not rescue the freeze branch — a *static* exponent for the
+condensation ramp at T_c is not a quench criterion for the census imprint, and those scripts are
+keyed to a different link — but the corpus was asserting an absence that its own `scripts/` refutes.
+Genuinely absent, confirmed: **z**, and any microscopic (ξ₀, τ₀) pair (ξ₀ appears only as a unit,
+never a value). Both scripts also carry the χ²-convolution tilt route killed earlier; both are
+banner-marked.
+
+**Files corrected.** `PRTOE_THE_CHAIN.md` (link 5 re-typed from lock to scale-by-scale imprint;
+tether 4→5 now states that the quantization event *is* a freeze-out and the census imprint is not,
+and forbids borrowing the criterion across that boundary; tether 5→6 names the one tilt mechanism
+and demotes the census-drift line to the identity it is); `PRTOE_THE_AMPLITUDE.md` §5 and
+`PRTOE_DERIVATION_HUNT.md` §7 (ruling stated as data's, surviving arithmetic named, absence
+corrected); `scripts/winding_gas_cv.py`, `scripts/winding_gas_cv_v2.py` (banners).
+
+**The lesson (process).** *Retiring a label is not retiring a picture.* #168 struck the words
+"Kibble–Zurek" from the two files that owned the claim and re-typed the target correctly, but the
+freeze *structure* — a lock, a snapshot, a frozen amplitude, an event at one redshift — went on
+standing in the chain file, where it read as ordinary chronology rather than as a mechanism claim.
+A picture embedded in nouns survives a retirement aimed at adjectives. And an absence claim is a
+claim: this one was audited across `docs/` and was false in `scripts/`.
+
+
+### "The Fock insertion partially cancels the vertex term" — WRONG, they add (#183, 2026-07-20)
+
+**What was booked.** #141 computed the crossed box (c = 0.789262) and recorded a reservation, which
+`PRTOE_PREREGISTERED_PREDICTIONS.md` carried forward as the one caveat on #124's verdict: *"the
+Fock self-energy insertion sits at the same order and is uncomputed (#183); in Eliashberg-class
+treatments it partially cancels the vertex term, so a substantial cancellation would move the band
+back up and re-open this sizing."* `PRTOE_hierarchy_problem.md` §6e carried the same expectation.
+
+**Why it is wrong.** The Eliashberg intuition imports a *retarded* interaction's mass enhancement
+into a problem that has none. On this host V is **instantaneous**, so the Matsubara sum in Σ
+collapses to the occupation and Σ is frequency-independent: **Z = 1 exactly**, and there is no mass
+enhancement to cancel anything with. The entire self-energy effect is the momentum dependence — a
+velocity renormalisation v\* = v + ∂Σ/∂k|_{k_F}, hence N₀\* = N₀/(1 + δv). Differentiating under
+the integral with **k** along ẑ gives
+δv = 2e²∫_{p<1} d³p/(2π)³ (1 − p_z)/(|k̂ − **p**|² + m_D²)², and p < 1 forces p_z < 1, so the
+integrand is **pointwise positive on the Fermi sea**. Exchange stiffens the band, the density of
+states falls, the coupling falls with it — the *same* sign as the crossed box. The two O(λ)
+insertions **add**: 1/λ_eff = 1/λ + c + a, with a = (1 + 2b)/2 − 1/ln(1 + 1/b) = **0.280677**.
+
+**What it does.** The anchor multiplier goes from e^(−c) = 0.454 to e^(−(c+a)) = 0.343, a further
+×0.755. The band moves from 0.73–2.4 TeV to **0.55–1.78 TeV** — further *below* the shooter's
+13–20 TeV, not toward it. **#124's verdict is reinforced, not re-opened**: the tightest gap widens
+from 5.5× to 7.3× (source values, not display-rounded), and the reservation that could have
+re-opened the sizing is closed against the
+direction it feared.
+
+**The lesson (process).** *This is the third time on this one integral that a verbal argument
+pointed the favourable way.* #141's first two attempts at the vertex correction were verbal and
+both favoured the model; the standing rule after them was INTEGRATE, DO NOT ARGUE. The "partial
+cancellation" hedge was a fourth verbal argument, inherited from a textbook regime the host does
+not sit in, and it also pointed the favourable way — a cancellation was the one outcome that would
+have rescued the census arrow. The rule caught it only because it was applied.
+
+### The helicity↔matter cross-messenger lock — WITHDRAWN, the two signs are independent (#154, 2026-07-20)
+
+**What was claimed.** `PRTOE_igmf_helicity.md` carried a distinctiveness claim: that the intergalactic-
+magnetic-field helicity sign is set by the *same* topological draw that set matter over antimatter —
+a three-way parity-lock on one integer, sign(helicity_B) = sign(n) = the baryon draw. No other
+magnetogenesis framework predicts a helicity sign correlated with the baryon asymmetry, so the claim
+was the sector's headline distinctiveness. It was flagged as owed, never established.
+
+**Why it is withdrawn.** The joint genesis solver (`scripts/genesis_joint_draw.py`) evolves the
+winding n and the rotation θ̇ on one trajectory and finds them independent: the joint correlation
+holds at −0.06 to +0.09 against a ±0.13 noise floor. The reason is spatial parity — reversing the
+ring flips n → −n while the charge Q that sets θ̇ and the tilt torque are site-sums that do not move,
+so every trajectory's mirror keeps θ̇ and flips n. sign(θ̇·n) is a coin the model cannot call.
+
+**Not a resolution artefact, and not forced.** The instrument sees a correlation the moment a
+parity-odd term the model lacks is injected (+0.51/−0.75); the recorded potential holds −0.09. The
+model joins the generic case: helicity, if measured, is an independent accident. What survives is the
+seeding-side magnitude claim sign(helicity_B) = sign(n); only its lock to the matter–antimatter draw
+is gone. Link 4's sign(H_kin) is a separate, still-open object (a 3D writhe+twist quantity no 1D
+solver reaches).
+
+### The three-term D/H error budget (−2.49σ) — RETIRED, double-counts LUNA (#157, 2026-07-21)
+
+**What was claimed.** The deuterium row quoted the standing row against a "fuller" three-term width
+±0.0563 = obs ±0.030 ⊕ PRIMAT nuclear ±0.037 ⊕ d(p,γ)³He ±0.030, giving **−2.49σ** at D/H = 2.387,
+and treated the two-term ±0.0476 (−2.94σ) as an open owner choice between two honest budgets
+(`ForJustin/10_the_two_full_budgets.md`).
+
+**Why it is retired.** arXiv:2011.11320 (Pitrou et al., the PRIMAT post-LUNA paper the ±0.037 is
+cited from) adopts the LUNA D(p,γ)³He rate (Mossa et al. 2020) as the network's deuterium-destruction
+rate and builds ±0.037 by Monte Carlo over **nuclear rates**, τ_n, and the CMB+BAO baryon posterior.
+LUNA *is* the d(p,γ)³He measurement. Folding that rate in again as a third ±0.030 counts the dominant
+deuterium channel twice. The friendlier −2.49σ was an accounting error, not a fuller budget.
+
+**What replaces it.** Standing width is two-term **±0.0476**; standing row is **−2.94σ**. The
+committed genesis window **−2.5 to −1.4σ** was always the two-term number and does not move. Harness
+pins both foldings so a stale −2.49σ is caught; the three-term arithmetic is labelled RETIRED (#157)
+in `scripts/audit_math_pass.py`. Desk recommendation had already inverted toward 0.0476 once the
+citation was read; the source check closes the gate without a taste call.
+
+**Process note.** The third term equals the observational error numerically
+(√(0.037²+0.030²) = √(0.030²+0.037²) = 0.0476), so no arithmetic check can separate the two
+decompositions — only the wording of the citation can. That is why the fork survived so long.
+
+### Evaporating PBHs as the deuterium injector — KILLED twice (hadronic 2026-07-19; pure-EM 2026-07-21)
+
+**What was hoped.** A state mass ≳ 20 MeV, lifetime 10⁶–10⁸ s, ~30 eV per H would photodissociate
+a tiny fraction of ⁴He and centre the deuterium row without touching H₀. Standing field content
+cannot supply it (Pauli finiteness; dCDF shift-symmetry; dyad too long-lived; Majoron too light;
+ν_R at the MeV corner short of threshold by ~5×). Evaporating primordial black holes at
+M ~ 10¹¹ g clear the roster (a black hole is not a field), land in the window without tuning
+(τ ∝ M³), and — in the hadronic channel — have the right shape on **both** BBN rows (D up, ⁴He down).
+
+**Kill 1 — hadronic channel, ⁶Li co-signature (2026-07-19).** Nucleon spallation of ⁴He co-produces
+non-thermal ⁶Li. Read off Carr et al. (2021) at M = 10¹¹ g: lithium binds **33×** tighter than
+deuterium (efficiency cancels: same population feeds both curves). At the ⁶Li bound, D has moved
+only 0.04–0.15%; the row needs +5.9%. Short by **39–156×**, model-free. Full account:
+`PRTOE_deuterium_row.md` §5b.
+
+**Kill 2 — pure-EM dodge, no timing ∩ temperature overlap (2026-07-21).** Hoping to avoid ⁶Li by
+running cooler PBHs that emit only electromagnetically fails on the mass–temperature–lifetime lock.
+In the ⁴He photodissociation window (t = 4×10⁶–10⁸ s) every evaporating PBH has
+T_H ≈ 35–100 GeV — fully hadronic. Suppressing hadrons (T_H ≲ Λ_QCD ≈ 200 MeV) requires
+M ≳ 5×10¹³ g and τ ≳ 5×10¹⁴ s, six orders past the window. **No mass is both on-time for ⁴He
+photodissociation and cool enough to be EM-only.** Harness checks pin the window's min T_H and the
+sub-QCD lifetime.
+
+**What survives.** The electromagnetic *spec* (mass / lifetime / abundance) remains the named missing
+ingredient; the model still cannot contain a source for it. PBHs are not that source in either
+channel. The deuterium row stays an owned structural deficit, not an unfinished calculation.
+
+---
+
+### d ln(D/H)/d ln ω_b = −1.83 — RETIRED, a differencing artefact; the measured value is −1.66 (2026-07-21)
+
+The corpus carried **−1.83** as the deuterium–baryon elasticity, sourced to "the production run",
+and used it to argue that the textbook −1.6 "understates the sensitivity by 14%". It was never
+measured. It was obtained by dividing two booked, rounded D/H values across the 1.1% ω_b step:
+
+> log(2.372 / 2.420) / log(1.011) = **−1.83**
+
+**Why that is unsound.** PRyM is bit-for-bit deterministic — repeat runs agree to every digit —
+but its D/H output is **not smooth** in ω_b at the ~0.1% level. The wide-scan log-log residuals are
+~10⁻³, and a 0.071% ω_b step returns an apparent slope of **−0.34** against the true −1.66. Across
+the 1.1% step, that non-smoothness alone makes a differenced slope unstable at **±0.15**. Redoing
+the identical difference on freshly run values gives **−1.61**. The −1.83 is that instability, not
+physics.
+
+**The configuration is verified, and the booked rows stand.** The triple was made at ε = 1.24%,
+T_c = 179 keV — exactly what `PRTOE_bbn_witness.md` documents. Y_p settles it, being far less
+sensitive to the solver's D/H non-smoothness: the windowed run reproduces Y_p to **0.0004%** at that
+config, against 0.013% at the re-pinned 177.10 keV. D/H then reproduces to 0.072% and the ΛCDM
+control to 0.15% — inside a few times the solver's own resolution. **No row is re-booked.**
+
+**The measurement.** A 6%-wide ω_b scan through the production splice at fixed everything else,
+fitted in log-log — a six-times longer lever arm, so the same non-smoothness costs ~3% instead of
+~18%. Result: **−1.6582** at m_e = 1 and **−1.6751** at the model's m_e, residuals ~5×10⁻⁴. Standing
+value **−1.66**.
+
+**Consequences.** A 1.1% baryon shift costs **1.8%** of deuterium, not 2.0%. The chains' BBN prior,
+which codes −1.6, is low by 4% — inside the numerics floor, so **the sampler was right on this axis
+and the corpus was wrong**. Re-weighting the posterior onto the measured exponent moves ω_b by
+−0.05 percentage points and the standing row by +0.04σ. The harness check that differenced the two
+booked values is replaced by one pinning the measured scan
+(`scripts/prym_omega_b_elasticity.py`), and the standing rule is booked with it: **the decomposition
+rows must never be differenced to obtain a slope.**
+
+### The tilt mechanism's dark-subcomponent reading — KILLED by four orders (2026-07-27)
+
+**What it was:** one of two readings of the conserved-census conversion mechanism
+for the spectral tilt — the census residing in the dark fluid's radiation-like
+phase. Its energy fraction before the transition is (Ω_dm/Ω_r)/(1+z_on) ≈ 7.2×10⁻⁵,
+so meeting the registered percent-class isocurvature band would require the
+order-one conversion coefficient to exceed ~10⁴
+(`scripts/as_normalization_triangle.py`). Dead on recorded numbers.
+
+**What survives:** the substrate reading — the census is the medium's own occupancy
+(the same counting that prices the vacuum energy), whose energy fraction is
+identically unity, making the mechanism's constant-fraction premise exact rather
+than approximate. The surviving triangle bounds the conversion rate two-sided
+(r ∈ [0.8, 3.2]) and pins the imprint cell fraction near 2×10⁻⁴.
+
+### Standard mechanism classes as holders of the imprint fraction — ELIMINATED (2026-07-27)
+
+**What was attempted:** deriving the imprint cell fraction (β ≈ 2×10⁻⁴, the
+coherence-to-causal-range ratio the primordial-amplitude triangle demands) from a
+standard mechanism class (`scripts/beta_holders_elimination.py`).
+
+**What died:** three classes fail to hold ANY constant fraction — thermal
+coherence falls with the bath temperature; phase-ordering coarsening falls as
+t^(−1/2) against the causal range; critical-riding at the adiabatic–impulse
+boundary with the on-file exponent ν = 2/3 falls as H^(0.6), ~16 orders across
+the observable window. The one class that does hold a constant fraction — the
+scaling defect-network attractor — holds at its natural density 0.1–0.3 of the
+causal range, three orders above the demanded value, and is not adjustable there
+by any recorded mechanism.
+
+**What survived (worked the same day):** the two-scale reading — the network
+attractor holds the skeleton at its natural density while the screened
+interaction subdivides each network cell — carried forward at candidate grade in
+the working log; its gates are the per-cell count derivation and the network
+density computation. If those gates fail, the imprint-fraction link fails and
+the tilt mechanism loses its promotion path with all alternative routes already
+retired (this ledger, #184 and the incoherent/running-coupling eliminations).
+
+### Particle-quanta census cells — ELIMINATED by e⁶⁰ (2026-07-27)
+
+**What it was:** one of two identities for the census cells inside the two-scale
+imprint structure — cells as particle-quanta at the medium's number density.
+
+**Why it died (`scripts/per_cell_count_structure.py`):** the count per network
+cell would be n·(γd_causal)³ ∝ a⁻³·a⁶ = a³ in the radiation era — the
+per-dimension count growing linearly in the scale factor, ~e⁶⁰ across the
+observable window. The shot amplitude would inherit that scale dependence and
+destroy the measured spectral tilt by orders. Dead regardless of any coefficient.
+
+**What survives:** cells as NETWORK SUBSTRUCTURE (small-scale structure on the
+vortex lines), whose count per network cell is a pure number of the network's
+internal dynamics — automatically constant in the scaling regime. The demanded
+pure number decomposes exactly as N₁ = 4π/g_scr = (8R/π)·ln(1+R), a
+Coulomb-log-weighted channel count, specifying the owning computation: the
+substructure cutoff of a scaling vortex network under screened-interaction
+damping at the medium's coupling.
+
+### The arrow sector as the basement's chemical-potential source — PRICED OUT (2026-07-28)
+
+**What it was:** a one-day candidate (hierarchy §6n, 2026-07-28) for the
+μ-dominated basement the screening constant selects: the arrow sector's
+⟨θ̇⟩ ≠ 0 — the bibliography's own "θ-dot background = the permanent μ" — read
+as the chemical potential doping the basement roster at μ/T ≳ 18.
+
+**Why it died (`scripts/arrow_mu_pricing.py`, recorded structure only):** the
+ceiling identity forces the arrow's rotation rate at the floor exactly:
+ρ_ceiling = m⁴/λ with amplitude Ψ₀ = m/√λ gives θ̇ = m = 2.24×10⁻²⁰ eV. Against
+the door's keV bath that is μ/T ~ 10⁻²³ (short of the μ-domination bar by ~24
+orders); against a Planck bath, ~49 orders. The spine's validated tracking law
+adds that no polynomial regime grows the ratio on approach faster than a⁻², and
+the quartic youth freezes it — so no approach dynamics rescue it either. No
+charge assignment closes 23–48 orders.
+
+**What survives (same computation):** the screening constant is
+doping-independent — b = m_D²/4k_F² = 2α_c/π at ANY nonzero doping with
+T ≪ μ — and a T → 0 ground-state kernel is the standard host of every gap
+equation. The mismatch lands on standard ground with one owed number: T/μ at
+gap formation. Carried at candidate grade in hierarchy §6n; task #16 holds the
+gate.
+
+### The amplitude residual misnamed as a high-energy scale — RETIRED (recorded 2026-07-28)
+
+**What it was:** a predecessor reading of the amplitude file's mechanization
+section named the closed form's residual as "the bounce's stiffness-ceiling
+scale, ~1.6×10¹⁶ GeV," paired with the pour scale.
+
+**Why it died:** the scale appeared nowhere else in the corpus, was computed by
+no script, and entered the closed form at no step. The genuine residual was the
+shot-noise count's O(1) normalisation — which has since been derived at
+candidate grade (spine §23.5: channel, count, and measure, with the count
+measured at 1.003 ± 0.005 through the amplitude's cube). The misnaming was
+corrected in the amplitude file before the derivation landed; this row records
+the retired reading, which had survived only as an in-file parenthetical until
+the file's audience pass.
+
+### The screening-transition scale as the weak-rate ramp's key — KILLED BY ITS OWN BBN PRICE (recorded 2026-07-27)
+
+**What it was:** the primordial-abundance computation ramps the electron-coupled
+scalar's rest-mass effect on with temperature as ε(T) = ε·(1 − T/T_c), and the
+booked numbers key that ramp at T_c ≈ 179 keV — a value the derivation record
+assigns to the confining sector, not to the scalar itself. The scalar's own
+exact-kernel band is 307–714 keV, so a live alternative existed: key the ramp on
+the scalar's own scale.
+
+**Why it died (the re-key grid, computed through the production splice at
+ε = 1.2543%):** moving the key from 179 keV to the scalar's band shifts helium-4
+by +0.50σ at the band's bottom (307 keV), +0.96σ at 500 keV, and +1.37σ at the
+band's top (714 keV), with deuterium adding up to +0.79σ — against a recorded
+whole-fence bound of 0.32σ. The alternative fails at its own band's most
+favorable edge and worsens monotonically across it; the radiation density is
+untouched by the re-key (the ramp's internal consistency check), so nothing
+absorbs the shift. Above 500 keV, where the fence bound was never claimed, the
+shifts are still σ-class — the region was not safe by default.
+
+**What survives (the same computation):** the two-scale reading it competed
+with — the scalar's coupling strength ε and the ramp's onset scale are two
+distinct physical objects, the onset belonging to the confining sector's
+transition. Primordial abundances themselves now enforce the separation: the
+booked keying is not a convention but the only keying the fences admit.
+
+## Back-filled from the domain census (recorded 2026-07-27)
+
+*These nine deaths were recorded only in the domain survey's own graveyard table and in the
+interaction atlas, never here — found when two independent audience passes tried to compress
+those sections and correctly refused, because compressing them would have destroyed the only
+surviving record. Each entry below preserves the cause of death and the disposition exactly as
+the census recorded them; the fuller context remains in
+[PRTOE_PHYSICS_DOMAINS.md](exploratory/PRTOE_PHYSICS_DOMAINS.md) and
+[PRTOE_INTERACTION_ATLAS.md](exploratory/PRTOE_INTERACTION_ATLAS.md) until those sections are compressed
+against this section.*
+
+### ξ_Neff at recombination — executed by ACT and BBN, half-risen
+
+**What it claimed:** an extra radiation density carried at recombination.
+**Why it died:** the combination of ACT's constraint and the primordial-abundance bound
+executes it at the recombination epoch.
+**What survives:** the BBN-era carrier — the mechanism lives at the earlier epoch under
+ANN-2026-005, so the grave is half-open rather than sealed.
+
+### Varying α as an H₀ or precision lever — never
+
+**Why it died:** the quasar absorption bound sits 45–100× below what the lever needs, and the
+CMB fit degrades by Δχ² = +433. Two independent executions, both decisive.
+**Disposition:** never — this is arithmetic, not a modelling choice.
+
+### The (□φ)² funded floor, in its early face — died, then rose as (δK)²
+
+**Why the early face died:** the BBN ν·x scaling excludes it.
+**What rose:** the (δK)² operator re-earned its place on three fresh certificates. The
+resurrection is recorded as full-price, not a rehabilitation of the dead form.
+
+### The universal single-vev amendment — died, risen only gated
+
+**Why it died:** a universal vacuum-expectation shift moves deuterium by +7.7σ and the neutron
+lifetime by −4.9%.
+**What survives:** the gated form inside the vev package; the universal reading does not return.
+
+### Carrier-ratio unification (one κ_v for both carriers) — dead by eight orders
+
+**Why it died:** the two carriers' ratios differ by eight orders of magnitude (ANN-2026-006);
+one coupling cannot serve both.
+**Disposition:** an exhumation is in progress on a different object (the R1 caustic-bit reading,
+whose Θ and gate form are derived) — that is a successor, not this claim revived.
+
+### The drift fingerprint (P-2026-003's observable half) — final within the minimal model
+
+**Why it died:** the V4 mutual-exclusion theorem forbids the observable half.
+**Disposition:** final within the minimal model; only a non-minimal extension could reopen it,
+and none is proposed.
+
+### The tunneling discriminator — demoted, not dead
+
+**Why it fell:** the receipt sits 1500× below the supernova mass step it would have to
+discriminate against.
+**Disposition:** demoted rather than buried — the channel exists, its discriminating power does
+not.
+
+### The five-lever audit: varying G, neutrino self-interaction, dark PTA, PBH levers — none survive in class
+
+**Why they died:** the five-lever audit executed the class as a whole.
+**Disposition:** no lever of this class remains available to the model.
+
+### The Earth-spin coincidence — self-killed
+
+**Why it died:** lunar tides and the measured 3.8 cm/yr recession receipt account for the
+coincidence entirely.
+**Disposition:** never; recorded because the model killed its own coincidence rather than
+waiting to be told, and the reflex that did so is installed.
+
+### The β sound-speed family — the coldest grave (back-filled 2026-07-27)
+
+**What it claimed:** a nonzero sound-speed parameter β in the dark sector, tuned to reshape
+structure growth.
+**Why it died:** the first weak-lensing dataset it met drove it to null — Δχ² = +30 at
+β = 10⁻⁷ against DES — and the failure is structural rather than a matter of the fitted value:
+the parameter cannot help at any magnitude it is allowed to take.
+**Disposition:** the coldest grave in the census; no resurrection term attached.
+
+### The composite-Higgs pricing of the anchor — withdrawn as a self-misreading (back-filled 2026-07-27)
+
+**What it claimed:** an earlier pass of the hierarchy argument priced the electroweak anchor as
+a *composite* Higgs, and derived from that both a compositeness bound out of the S parameter and
+an extended-technicolor flavour problem.
+**Why it died:** it misread the same file's own construction. The Higgs here is elementary — its
+mass parameter induced by one loop of anchor-scale states, its vacuum expectation value the
+Standard Model's — and an elementary Higgs inherits neither constraint: the Yukawa couplings are
+the Standard Model's own, so no extended-technicolor operators exist to reach neutral-kaon
+mixing. Both consequences are withdrawn with the premise.
+**What survives, and it is a real constraint:** a counting bound rather than a compositeness
+bound. The anchor-scale portal species carry electroweak quantum numbers, and a degenerate heavy
+doublet contributes ΔS = 1/6π = 0.053 **without decoupling** — the contribution is
+mass-independent, so it bounds the species count rather than the scale. With |S| ≲ 0.14 that
+permits **at most two new electroweak doublets**, and it bounds the census's portal roster, not the
+anchor's scale.
+
+**The numbers the withdrawn reading produced, recorded here in full since they no longer have a
+home in the registry.** Vector dominance gives S ≈ 4πv²/M_ρ² against the measured |S| ≲ 0.14
+(S = −0.01 ± 0.07, U = 0), which was read as **S = 0.307 at 1576 GeV — excluded at ≈ 4σ** — against
+**0.077 at the exact-solution value 3152 GeV**, with the bound at **M_ρ > 2333 GeV**. The escape
+weighed and rejected was g_ρ ≳ 1.5, since S constrains g_ρ·f rather than the anchor alone, against
+λ = kα_c = 0.030 sitting thirty-three times below a confining sector — weak coupling arguing for
+g_ρ ≲ 1, tightening rather than loosening. On that reading two unrelated lines (a solved gap
+equation and existing precision data) both pointed above ≈ 2.3 TeV and away from 4πm_H, and the
+anchor's arrow B — the identification M_anchor = 4πm_H = 1574 GeV — was said to sit where
+electroweak precision disfavours it. With the composite premise withdrawn the tension does not
+exist, and arrow B stands as originally registered.
+
+### The six birefringence source-routes — all closed on the same two conditions (back-filled 2026-07-27)
+
+**What they claimed:** six independent routes by which the medium might *produce* a cosmic
+photon birefringence — a multiverse/external source, an early open-coupling regime, the
+regime-change tail, the radiation era, residual-coupling rotation, and real-time generation at
+last scattering.
+
+**Why they died — one pair of conditions closed all six:**
+(i) **The epochs are disjoint.** Any source must be alive at last scattering (z ~ 1100), which
+would need the condensation redshift near matter–radiation equality; the model puts it at
+z_x ~ 1×10⁵, where the residual normal fraction is ~1×10⁻⁸. Across the whole span from
+nucleosynthesis to recombination the coupling is open only in the *opaque* era (z ≳ 1×10⁵),
+where Thomson scattering scrambles any imprint, and the light does not free-stream until
+z ~ 1100, by which point the coupling is closed to ~10⁻⁸. The coupling-open and
+light-remembers windows never overlap; only a negligible residual tail bridges them
+(`scripts/birefringence_window.py`, ANN-2026-017).
+(ii) **The signature needs a forbidden coupling.** An EB rotation requires a parity-odd
+coupling — the electromagnetic-anomalous angular mode the census forbids (ANN-2026-012).
+
+Generating rather than rotating does not evade (ii); reionization does not reopen (i), the data
+separating recombination at z ~ 1100 from reionization at z ~ 7 by ~140×, four ways over.
+
+**What survives, and it is stronger than what died:** the standing prediction that the medium
+produces **zero** parity-odd rotation (P-2026-009) is untouched, and is now over-determined by
+the same two conditions that closed every source-route.
+
+**Reopening condition (a registered two-way bet):** a genesis calculation pinning the
+condensation redshift near equality (a few ×10³) would make a small, suppressed, isotropic
+signal census-legal through the still-open residual coupling.
+
+### The local-state half of the epoch electron-mass couplings — half-open, not closed (back-filled 2026-07-27)
+
+**What it is:** a linear coupling of the electron mass to the local matter state (1% at
+1600 GeV/cm³), the environmental counterpart to the epoch-gated shift.
+
+**Why it sits here:** the channel that would have decided it does not reach it. Its own
+signatures are derived and come out faint — a laboratory shift of δm_e = 2.5×10⁻⁶, and a
+supernova host-contrast effect moving the ⁵⁶Co decay clock by 3.7×10⁻⁵ (about four minutes on
+the 77-day tail), **~1500× below the supernova mass step** it would have had to discriminate
+against. Zero terrestrial annual modulation is predicted, consistent with modern stability
+nulls. Decay data can therefore neither see the coupling nor close it.
+
+**Disposition:** the tunneling discriminator is demoted from discriminator to consistency
+check, and this coupling stays half-open rather than executed — a named development could still
+meet its condition, which is why it is warm and not cold.
+
+### The m₁/θ̇ scale watch for the baryon-transfer rectifier — a coincidence with nothing behind it (2026-07-28)
+
+**What it was:** the junction that carries the baryon asymmetry needs a rectification
+efficiency ~5×10⁻⁵, and the ratio of the Majorana insertion to the winding rate at the
+sphaleron era, m₁/θ̇ = 2.25 meV / 59.7 eV = 3.8×10⁻⁵, sits at 0.75 of it. Three mechanism
+classes were priced; two were computed dead by 26 and 2 orders of magnitude, and the survivor —
+a driven, overdamped, pinned junction — was recorded with that ratio as its leading factor
+and an O(1) junction response F as the single owed number. Four separate results were
+conditioned on F.
+
+**Why it is dead:** the averaging was performed and does not produce that factor. For an
+**overdamped** coordinate — and the class's own premise is that the neutrino bath overdamps
+the visible phase by ~10⁷ — a pinning term does not enter as its frequency m₁ but as the
+relaxation rate m₁²/Γ_φ = 9.4×10⁻¹⁶ eV. The comparison m₁ vs θ̇ is the *undamped* comparison,
+which this class excludes. Done correctly the second-order averaging returns
+ω_J²/(2Γ_φθ̇), verified against direct integration of the nonlinear equation to 0.06% across
+p/θ̇ ∈ [0, 10] and for both pinning harmonics. **The Majorana term is not small in it — it is
+absent:** setting m₁ = 0 exactly moves the answer by 0.05%.
+
+**The sign of the effect is opposite to the one assumed.** The overdamped equation is a current
+balance in which the surviving asymmetry is the accumulated drift of the phase. A phase dominated
+by the pinning term cannot wind, and the lepton-number-violating channel then washes out the
+asymmetry the junction produces: measured, the accumulated asymmetry falls to 0.3% of its free
+value once the pinning reaches ~1% of the drive. Pinning suppresses the mechanism rather than
+enabling it. The transfer works at the standing parameters only because the Majorana term is
+9 orders of magnitude too weak to pin the phase.
+
+**A two-percent internal disagreement on θ̇, noted 2026-07-28.** This entry carries θ̇ = 59.7 eV
+directly. Reconstructing it from the recorded ratio θ̇/H = 2.4×10⁶ with the sourced sphaleron
+temperature T_sph = 131.7 GeV (d'Onofrio–Rummukainen–Tranberg, per the transfer-integral spec) and
+the Standard-Model g\* = 106.75 gives **58.5 eV** instead.
+
+> **CORRECTED, same day, and the correction inverts this paragraph's own ruling.** The gap is
+> **not** a g\* choice, and 59.7 eV does **not** "state no derivation". θ̇ = 59.7 eV is the derived
+> number: for a deep-frozen condensate θ̇ ∝ a⁻³, so θ̇ = m·(T_sph/T_on)³ with the field mass, T_sph
+> and the onset temperature all recorded (the transfer-integral spec, stage 5). **58.5 eV is the
+> artifact** — it is 59.7 back-multiplied out of a ratio carried to two significant figures. The
+> exact ratio is 2.450×10⁶ against the recorded 2.4×10⁶, a **2.05%** truncation, which is the
+> entire "disagreement". The g\* = 111.1 inference is arithmetically correct and inferentially void:
+> it holds a truncated ratio fixed and pushes the shortfall into a parameter that never moved.
+> **The provenance ruling above was exactly backwards** — the sourced-inputs praise belongs to 59.7.
+> *The real spread is elsewhere and larger:* the onset temperature appears as 9.41, 9.46 and 9.5 keV
+> across files, 1.0%, which cubes into **2.9%** on θ̇. Verified: `scripts/thetadot_two_percent.py`
+> (control: H(T_sph) reproduces the recorded 2.44×10⁻⁵ eV before anything else is read).
+> Consumers corrected: hierarchy §6f (μ₅ = 29.85 eV, was 29.3) and `_DOCKET_INDEX.md` #146.
+
+**Disposition — re-pointed, not executed.** The route is not killed: the surviving class still
+transfers, and the pre-committed kill was written on F, which was never the free parameter.
+The coincidence and the claim that the neutrino mass sets the scale are withdrawn. The four
+consumers now depend on a different quantity — the seat coupling's junction plasma frequency
+at the sphaleron era, ω_J ≈ 5.7 keV, equivalently a ~6 meV relaxation rate on the visible phase.
+That number is owed by the seat sector and is not a neutrino property. Cold as a coincidence;
+the mechanism it was attached to stays warm.
+
+## The closed-route census (moved here from the interaction atlas, 2026-07-27)
+
+*Enumerated, because the second binding rule below is a tripwire and a tripwire needs a
+countable trigger.* **Fourteen entries: 7 cold, 4 warm, 3 risen.**
+
+- **Cold (7)** — no live route in the minimal model: the β sound-speed family; the c_EM
+  exchange coupling; the flavour-structured shared coupling; varying G / neutrino
+  self-interactions / dark-sector pulsar timing / primordial-black-hole expansion (one entry,
+  four levers); the funded-floor drift fingerprint (final inside the minimal model — the way
+  back is a model extension, not a repair); the thermal / Casimir / zero-point floor
+  ontologies; the v1–v3 F(φ)R screening program.
+- **Warm (4)** — a named development could meet the reopening condition: the local-state half
+  of the epoch electron-mass couplings; carrier-ratio unification; the tunneling
+  discriminator; model-sourced birefringence.
+- **Risen (3)** — routes readmitted at full price: ξ_Neff (as the BBN-era carrier); the funded
+  floor (via the (δK)² face); the universal single-vev (as the gated vev package).
+
+**Tripwire check: 4 warm against 7 cold — the record is closing routes, not hedging them.**
+
+**The three binding rules this census enforces.** (1) *Reopening conditions are bets, not
+hedges*: a condition is legitimate only if closing the route names BOTH a development that
+would meet it AND one that would fail it; a condition that forbids nothing is a hedge, and the
+entry is recorded as permanent instead. (2) *Permanent is the default*: if warm entries ever
+outnumber cold ones, the record has become finality-avoidance. (3) *Readmission is review from
+zero*: a revived route inherits nothing from its former life and faces full scrutiny on its new
+form — the precedent being (□φ)² returning as (δK)² on three fresh certificates.
+
+**Supplement to the birefringence closure — the eight angles and the named reopening price
+(2026-07-27):** beyond the six source-routes, a second hunt threw four further angles and
+answered all four. A weak-sector bridge fails because the photon anomaly coefficient
+(T₃+Y)² = Q_em² vanishes for an electromagnetically neutral carrier, and the surviving θ·Z·Z̃
+is irrelevant at CMB energies. A chiral gravitational-wave route converting to photons by the
+Gertsenshtein effect needs an external magnetic field and is Planck-suppressed and incoherent.
+A vorticity·E coupling requires electromagnetic charge or chiral charged fermions, which the
+medium does not carry. There is also a structural reason the search kept failing: every
+imperfection the model does engage is parity-even — it can fumble a quantity it holds, such as
+a mass, and cannot fumble a handedness it never held.
+
+**The fourth angle succeeded, and its price is the point.** Gauging the medium's global U(1)
+into a dark photon and opening a kinetic-mixing portal (ε F F′) does transfer a dark axion
+coupling into a visible θ·F·F̃ (∝ ε²), producing genuine birefringence. It works — and it
+requires exactly what the species census forbids and the model explicitly excludes. **So the
+reopening price is specific rather than vague: a confirmed 5σ birefringence would force the
+model to gauge its U(1) into a dark photon and open that portal, surrendering the census along
+with its MICROSCOPE-safety and flavour-blind constants.** That is not "the model dies" but "the
+model becomes a dark-photon-portal model" — a different theory, named in advance.
+
+### The eleven A = √2 mechanisms were one excluded class, not eleven ideas (2026-07-28)
+
+A pattern across the retirements above, found by applying two constraints that were derived long
+after them and independently of each other.
+
+**Constraint (A) — charge-coupled.** The neutrino triple cannot sit on the cone for any lightest
+mass: Q_ν rises monotonically to **0.585 as m₁ → 0**, short of 2/3 by 12.2%, so T6's "no m₁ brings
+it to 2/3" is a proof. From it T6 concludes the cone acts in the charged sector specifically. The
+basement reaches the same place from an unrelated direction — Thomas–Fermi weights carriers by
+charge squared, so a neutral cone is worth 2·N_c·q² = 0 and cannot be the doped pair.
+
+**Constraint (B) — exact, not balanced.** Q is held to ~10⁻⁵. Balances and equilibria come with
+fluctuations; the fluctuation here would need suppressing by four orders it has no reason to be.
+Exactness of that kind comes from a quantity that vanishes.
+
+**Applied to the retired list** — 2D-Potts seam, SOC attractor, medium-w inheritance, quartic
+virial, harmonic equipartition, CS midpoint, GBM/log gas, hand-built (R²−2M²)², Komar balance,
+topology/lock-6, natural Z₃ cubic:
+
+> **Eleven mechanisms. Zero reference electric charge. Zero rest on a vanishing quantity.**
+
+Every one was a charge-blind balance, which is exactly the conjunction (A) and (B) forbid. The
+autopsies above each found a specific fault — a category error, an inverted result, a false
+premise — and every one of those faults was true. What none of them saw is that the eleven share a
+property the answer cannot have, so the search space was excluded before any of them was proposed.
+
+**What the constraints name.** A charge-coupled quantity that vanishes identically — the shape of
+an anomaly-cancellation or index condition. The corpus already carries two of that shape for
+unrelated reasons: str[k₁] = 0 and ΣQ² = 16. **The first obstacle is visible too**: the three
+charged leptons all carry Q = −1, so ΣQ = −3 and ΣQ² = 3, and nothing vanishes over the seats
+alone. A mechanism must couple charge to something else that distinguishes them — and the family
+grading cannot serve, its Z₃ charge having been shown to commute with chirality.
+
+A direction, not a derivation. Filed here rather than forward because it is a finding *about the
+failures*: `scripts/null_mechanism_class_filter.py`, five harness checks.
+
+### The two rings' 8:3 amplitude ratio — RAISED AND KILLED THE SAME HOUR (2026-07-28)
+
+**The lead.** The charged ring has A² = 6Q − 2 = 2 at Q = 2/3. The neutrino triple's Q is fixed
+once the lightest mass is, and the corpus fixes it — m₁ = 2.25 meV, the dark-energy scale ρ_Λ¼. So
+A_ν is determined too, and the ratio of the two amplitudes is a number the corpus already carries
+without having looked at it. It lands on **8/3 to 67 ppm**, equivalently A_ν² = 3/4 to 67 ppm, or
+Q_ν = 11/24 to **18 ppm**. Three simple fractions at once, from a quantity nobody chose.
+
+**The kill: the target is wider than the miss by a factor 99.** Propagating the inputs —
+Δm²₂₁ = (7.53 ± 0.18)×10⁻⁵, Δm²₃₁ = (2.53 ± 0.03)×10⁻³, and m₁ at ±0.5% — gives Q_ν an error of
+**1808 ppm**. The 18 ppm miss on 11/24 is therefore **0.010σ from exact**, which is not a precision
+agreement but an unconstrained one: at that width every nearby simple fraction fits, and the
+apparent sharpness is entirely an artefact of quoting a central value without its budget.
+
+**What survives, at its true strength:** A_ν² ≈ 3/4 against the charged ring's exactly 2, so the
+two amplitudes sit near 8:3. That is a target for a mechanism, not evidence of one, and it cannot
+be sharpened — it would need the splittings and the lightest mass to a part in 10⁵, which no
+experiment offers and none is planned.
+
+Filed here rather than pursued, per check 20. `scripts/two_ring_amplitude_ratio.py` carries the
+budget so the lead cannot be re-raised without it.
+
+### The two 2s are not the same 2 — checked and dismissed before pursuit (2026-07-28)
+
+A tempting coincidence, tested rather than followed. The screening condition says a doped
+charged-lepton cone is worth exactly **2** in units of N₀ (two bands × one colour × q² = 1), and
+the null says **a² = 2|b|²**. Same number, both in the same sector, both load-bearing.
+
+**They are independent.** The null's 2 counts the ring's charged Z₃ modes, f₁ and f₂ — a property
+of a three-cycle, fixed at 2 for *any* occupant. The screening's 2 is 2·N_c·q², which varies with
+the species: 8/3 for an up-type quark, 2/3 for a down-type, 0 for a neutrino. Vary the doped
+species and one number moves while the other does not, which is the whole test.
+
+Recorded because the temptation is structural rather than accidental — the two constraints are
+adjacent in the argument, both were derived this session, and a reader arriving at them in
+sequence will notice the shared 2 and want it to mean something. It does not.
+
+### Charge forbids the Z₃ cubic — the mechanism dies, one piece survives (2026-07-28)
+
+**The idea**, under the charge-coupled/vanishing filter. The null's sharpest form is R_c = M_c
+(T6): the canonically normalized singlet amplitude equal to the doublet's, equivalently the field
+vector at 45° to the democratic direction. The standing fence says a natural Z₃ cubic
+V ⊃ −g·Σφ³ drives A → 2 and must not be cited as the landing mechanism. But **Σφ³ carries three
+units of whatever charge φ carries**, and 3q = 0 has no solution at q = −1 — so an electrically
+charged family field cannot have that term at all.
+
+**Two failures, the second decisive.**
+
+*The quartic leaves a flat direction.* With the cubic gone, V = (λ/4)(Σφ² − v²)² and in canonical
+coordinates Σφ² = M_c² + R_c². Its minimum is the whole circle M_c² + R_c² = v². R_c = M_c is one
+point on it and nothing prefers that point. Forbidding the cubic removes the wrong attractor
+without supplying the right one — A becomes *undetermined*, not √2.
+
+*The neutrino side is wrong, and that is the kill.* The story requires the neutral sector to keep
+the cubic and therefore to sit at its minimum, A = 2. The observed neutrino ring has
+**A_ν = √(6Q_ν − 2) = 0.866** — a 57% miss, off by a factor 2.3. The one side where the mechanism
+makes a testable prediction refutes it.
+
+**What survives, and it is worth keeping.** The fence — "a natural Z₃ cubic drives A → 2, do not
+cite Z₃-invariant cubics as the landing mechanism" — was written without asking whether the charged
+sector may carry that term. **It may not.** The fence stands for a neutral family field and does
+not bind a charged one. That removes one recorded obstacle from the charged sector's path without
+supplying a mechanism, and it relocates the blank precisely: **what picks R_c = M_c on the
+quartic's circle.**
+
+### #67's PREMISE — RETIRED: "Ψ₀'s profile through z_x" merged three objects (2026-07-28)
+
+**What it asked for:** the condensate-growth shape of Ψ₀ through z_x — carried as an open desk item
+("the genesis calc") in `exploratory/PRTOE_me_trigger.md`.
+
+**Why it dissolved.** The implementation distinguishes three objects the docket had treated as one:
+
+| object | law | epoch |
+|---|---|---|
+| **Ψ₀**, the fluid's misalignment amplitude | ∝ a^(−3/2) | from z_on = 4.03×10⁷ — **does not pass through z_x** |
+| the **dyad's order parameter** | f_growth = 1 − T/T_c | gated at z_x, and **already coded** (`background_varconst_f_growth`) |
+| the **normal fraction** | f_n = (T/T_c)⁴ | the phonon two-fluid, used to price birefringence |
+
+`include/background.h` states it directly: z_on is *"the textbook ULDM start-of-oscillation clock…
+Radiation-like above H~m, dust below. **NOT a condensation T_c**"*, while z_x is where *"the **dyad**
+condensate is thermally **DISORDERED** above its T_c"*. **Two different fields.** The docket's
+question presumed the oscillating field and the condensing medium were the same object; they are
+not, and the apparent 403× redshift gap between "already oscillating" and "not yet condensed" was
+never a paradox — it was two sectors read as one. Protocol check 32.
+
+**Verdict: the shape was never missing.** Ψ₀ ∝ a^(−3/2) throughout (reading (c) of the three that
+were on the table), and the dyad's growth law is in the source. Readings (a) and (b) are buried here.
+
+**One live discrepancy surfaced by the same check, recorded rather than resolved.** The coded
+order-parameter growth is **linear** in T/T_c; the phonon two-fluid the birefringence pricing uses is
+**quartic**. Near z_x they differ by up to **3.9×** (at z = 9.9×10⁴: 0.0100 against 0.0394), converging
+to 1.11× at z = 10⁴ and 1.01× by recombination. **Nothing currently in use is affected** — the
+varconst window and the birefringence limit both operate far below z_x — but no file states which
+form is intended, and anything needing behaviour near z_x would need that settled first.
+
+### Reading (B), the core-circuit phase-twist observable — EARNED its burial 2026-07-28
+
+**What it was.** One of two pre-registered candidate observables for the toroidal half of T14's
+link 4: the unwrapped phase winding around the ring core's circuit, W, with the twist read as
+excess = W − n. Its rival, reading (A) (the core curve's m = 1 shape helicity), survives.
+
+**Why it is here, and why it was NOT here eight hours earlier.** The completed 10 h fork run had (B)
+failing its parity pair (−1.190 against +1.870, residual 44.4%), and the fork's rule sends the loser
+to this ledger. **That burial was refused on the day**, because reading the instrument showed it
+sampled the phase **at the density minimum — i.e. at the vortex core, where |ψ| → 0 and the phase is
+singular** — contrary to its own inline comment specifying a probe *outside* the core radius. A
+reading that fails on a quantity measured at its own singularity has not been tested, and booking it
+would have recorded an implementation defect as physics.
+
+**The re-run that earned the entry.** `scripts/ring_toroidal_circulation.py` — the same physics,
+grid, potential, sponge, initial data and stepper copied verbatim, with **one** change: the phase
+sampled on a ring of 1.5 healing lengths about each core point, 8 samples circular-averaged, with a
+rejection gate on probes falling too near another core. Graded by a criterion fixed **before** the
+run and a pairing rule fixed **before** the second branch produced any value.
+
+| at t = 1.00, both branches 15/16 probes | n = +1 | n = −1 | pair sum |
+|---|---|---|---|
+| (A) shape helicity — the CONTROL and the survivor | −1 | +1 | **0, exact flip** |
+| **(B) core-circuit W** | +0.354 | −0.979 | **−0.625** |
+
+**(B)'s residual is 93.8% of its own typical magnitude, exceeding the measured branch drift asymmetry
+by 3,190×** — against 44.4% in the defective run. **Correcting the instrument made it fail harder,
+not softer.** The intrinsic twist Tw = W − n does not flip either (−0.646 against +0.021).
+
+**Verdict: (B) is not a locked observable of this configuration.** It is buried here on a measurement
+that does what its own documentation specified, which the first one did not.
+
+**The process point, which is the reason this entry reads as it does.** The difference between
+booking (B) at 22:08 and booking it at 23:32 is one ~40-minute re-run. The first burial would have
+been *correct by accident* — right verdict, defective evidence — and nothing in the ledger would have
+recorded that the instrument was broken. **A ledger entry's value is the evidence behind it, not the
+verdict on its face**, and an entry earned by a corrected instrument is worth more than the same
+words placed on a bug. Related: protocol **42** (a proxy is not the quantity).
+
+### The "self-locking loop" diagnosis — WITHDRAWN, it was not the mechanism that fired (2026-07-29)
+
+**What it claimed.** That the model chain's proposal was never re-learned because cobaya refuses to
+re-learn while R−1 exceeds `learn_proposal_Rminus1_max` (2.0, or 30.0 early), and a chain whose ranks
+sit in different basins never gets under either — *"the mechanism that would fix the proposal is
+gated behind the problem it would fix."* Carried the further claim that **more wall-clock could not
+repair it**. Reached `PRTOE_READERS_RISK.md`, the Fairbank letter draft, the run log, and memory.
+
+**How it died.** By isolating the archived run's MPI section of the launchlog — which required first
+finding the last rank-prefixed `Sampling!` line, since that file is append-mode across relaunches and
+the earlier single-process run's convergence lines had been read as if they belonged to the MPI run.
+Within the MPI region there are exactly two convergence-related lines:
+
+```
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+```
+
+Rank 0 never announces it. **"All chains are ready" never appears, and no convergence statistic is
+ever computed** — hence that run's empty `.progress` file. Proposal learning is a **collective MPI
+checkpoint**: every rank must reach a multiple of `learn_every` = 40·d accepted samples before any
+proceeds. With d = 13 that is **520 per rank**; the ranks held **467 / 1684 / 658**. Two ranks sat
+blocked for hours waiting on a third that was **53 samples** short. The R−1 gate is real and would
+plausibly have bitten *next* — but it was never reached, so it cannot be what happened.
+
+**Why it survived as long as it did.** It explained every symptom: the proposal never adapted, the
+covmat mtime never advanced, R−1 never appeared to fall. And it named a real code path. But the
+evidence was entirely an *absence*, and an absence is consistent with every mechanism that would
+produce it. Ranking candidates by plausibility is not diagnosis — see protocol **47**. The positive
+artifact that settles it is six words: *"waiting for the rest"*, which the R−1 story does not predict.
+
+**What survives, unchanged.** The proposal was never re-learned. The three ranks never merged. The
+remedy applied — reseed the covariance from the rank that found the good basin — was correct under
+either mechanism and worked: acceptance **5.3–6.2% → 31.2–31.9%**.
+
+**What was lost.** The prognosis. "R−1 is locked out" implies more running time cannot help; "one
+rank is 53 samples short" implies it very nearly could. **A published claim about what will not work
+inherits every weakness of the diagnosis behind it**, and this one was published twice.
+
+**What replaces it as the thing to watch.** Not the covmat mtime (meaningless until `learn_every` is
+reached) but **rank-count spread**. On the live re-tuned run it is now **19 / 15 / 14** — spread 5,
+against the archived run's **1217**. The reseeded covariance made the ranks track together, which is
+what actually prevents the block.
+
+### #85's "one exponent" collapse — WITHDRAWN the same day: it fitted the wrong quantity (2026-07-29)
+
+**The claim.** `scripts/delivery_law_is_one_exponent.py`: the four recorded energy-delivery laws,
+ε_D/ε_S ∈ {2, √2, 1, ½}, are a single family ε_mode ∝ k^p at p ∈ {0, ½, 1} on the ring's normal-mode
+stiffnesses (k_S = 6 mult 1, k_D = 3 mult 2), with the ½ a per-mode restatement of the 1. Consequences
+drawn and published in three places: *"three laws, not four"*, *"the live fork is p = ½ vs p = 1"*,
+and *"the delivery law is a radial-sector statement"* — the last presented as answering an open
+question in spec C3.
+
+**Why it is wrong.** The corpus's ε is a **stiffness**, not an energy. `koide_frame_bridge.py` writes
+amplitude² = g·T/ε; `koide_delivery_law_discriminator.py` writes ω ∝ √ε and ⟨f²⟩ ∝ 1/ε. Both are
+unambiguous and both predate the withdrawn script. Fitting a recorded set of numbers with a quantity
+that is not the one they denote is **protocol 42** — and it was committed in the session that wrote
+protocol 42 up.
+
+**How badly.** `scripts/delivery_law_two_parameters.py` (20 controls) puts the two constructions side
+by side: they agree at p = 0 and **nowhere else** (p = ½ gives √2 under the withdrawn reading and
+**4** under the corpus's). So the matches at √2 and 1 were a coincidence of small powers of 2 — the
+kind a four-point fit produces easily and a fifth point destroys.
+
+**Three labels went with it.** √2 is the **sudden quench** (e ∝ 1/ε, p = −1), not the zero-point law;
+the zero-point law gives **4**, which is absent from the recorded four; and *"equal amplitude"* is not
+a delivery law at all — at p = 1 the amplitude goes ε-independent, the null degenerates to 2 = 1, and
+it fixes nothing. That row was three errors in one.
+
+**What the controls could and could not do.** Every control in the withdrawn script passed, and they
+were not weak ones — including an anti-control confirming the family cannot fit 3, 1/3 or 4. But all
+of them were *internal*: they tested whether the family fitted, never whether ε meant what the script
+computed. **No internal control can test that**, because the definition lives in a different file. It
+surfaced only on going back to read the four laws at their source. Anti-controls ask *could this check
+fail?*; they cannot ask *is this the right quantity?* — see protocol **42**, and now protocol **48**.
+
+**What survives, and it is more than what was lost.** The corrected family is
+**ε₁/ε₀ = 2^(s/(1−p))** with e ∝ ε^p per degree of freedom and s the counting label: two parameters,
+holding all four recorded laws at four distinct (s, p) plus the zero-point law at (1, ½) → 4. And it
+**answers** the docket instead of narrowing it: Q = ⅔ requires ε₁/ε₀ = 2 exactly, i.e. s = 1 − p, and
+with s restricted to the two ways a sector total can be counted, **thermal equipartition is the unique
+admissible law**. The next-nearest, √2, misses ⅔ by 207,107 ppm against a 6 ppm budget.
+
+**And that is a worse problem than the fork it replaced.** The null selects thermal equipartition
+uniquely; the discriminator has already shown thermal equipartition overruns the same 6 ppm budget by
+**171×** at the corpus's own x₁ = 2/9. The two results conflict, and the conflict sits **inside** the
+Koide derivation rather than upstream of it. The occupancy lock is not one option among four — it is
+the only named escape from a contradiction. **The withdrawn result was hiding this**, by presenting a
+four-way freedom where the null had already spent it.
+
+**C3's warning is extended, not resolved.** The required ε₁/ε₀ = 2 matches neither existing stiffness
+pair: the radial Hessian gives k_D/k_S = ½ (that is law 3, yielding Q = 5/3), and the circulant
+amplitude stiffnesses at the Koide point give 0.1213. The delivery law's ε is a **third** pair, and
+which one it is remains open.
+
+### The occupancy lock as the Koide null's delivery law — CLOSED, and by impossibility (2026-07-29)
+
+**What it was.** T6 promoted the occupancy lock to "a fifth law, and it is the right class", on the
+ground that *"an integer occupancy cannot drift, which is the one exactness class a 6×10⁻⁶ claim
+admits."* Once `scripts/delivery_law_two_parameters.py` showed the null selects thermal equipartition
+uniquely and the discriminator showed thermal equipartition overruns the 6 ppm budget by 171×, the
+lock became **the only named escape from a contradiction inside the Koide derivation**.
+
+**Why it is closed.** `scripts/occupancy_lock_cannot_deliver.py`, 17 controls. For a harmonic degree
+of freedom ⟨x²⟩ = (2n+1)ħ/(2Mω), so with w = 2n+1 the null gives
+
+> ω₁/ω₀ = 2·w_D/w_S — **always rational**
+
+while ε ∝ ω² and Q = ⅔ requires ε₁/ε₀ = 2, hence **ω₁/ω₀ = √2, irrational**. A ratio of integers is
+never √2. The lock fails at every occupancy and every multiplicity — not for want of a search.
+Verified two ways: an exhaustive scan of 90,601 pairs (best miss 8.75 ppm) and exact rational
+arithmetic over 4×10⁶ pairs confirming (ω₁/ω₀)² = 2 is never attained.
+
+**The property that killed it is the property it was praised for.** Integers that cannot drift also
+cannot drift onto √2. The exactness that made the lock attractive is the same rigidity that puts the
+target out of reach.
+
+**The recorded occupancies were already the wrong answer.** T6 found a 15.9% miss (R_c/M_c = 2^(−¼))
+once the two frequencies were kept distinct, and read it as a *condition on the freeze* — the sectors
+must be degenerate when the quanta are counted. But (n_S, n_D) = (1, 0) reads as (w_S, w_D) = (2, 1),
+forcing ω₁/ω₀ = **1 exactly**. Degeneracy is not a rescue condition; it is what the lock's own numbers
+assert, and it yields ε₁/ε₀ = 1 and **Q = 1**, not ⅔.
+
+**Both freeze branches fail, for different reasons.** Adiabatic: n conserved, ⟨x²⟩ ∝ 1/ω, ratio must
+be √2 — unreachable. Diabatic: amplitudes frozen at their degenerate values, so R_c/M_c = 1 at *every*
+stiffness ratio (0.5 → 100 checked, against the adiabatic branch's 1.189 → 0.316), the null becomes an
+identity and selects nothing — the same degeneracy that disqualified the "equal amplitude" row. A
+partially adiabatic split interpolates between two failures, so there is no third branch.
+
+**And the approximate escape is a fit, not a lock.** With both w odd the convergents to √2 are 7/5
+(10,051 ppm), 41/29 (297 ppm), 239/169 (8.75 ppm) and 1393/985 (0.26 ppm) — the first inside budget
+needing **696 quanta in the singlet and 492 in each doublet mode**. Nothing selects those numbers.
+
+**What survives, and it is worth more than what was lost.** The two classes divide with nothing in
+both: occupancy laws can be exact but reach only rational ω₁/ω₀; equipartition reaches the target —
+because **ε ∝ ω² absorbs the irrationality**, the null reading as the integer statement 2/ε₁ = 1/ε₀ —
+but cannot be exact. So the debt is re-pointed, not erased: *exhibit a delivery law whose frequency
+dependence enters through ε ∝ ω² rather than through a count, and which is also exact*, or establish
+that no such class exists. Carried as docket **#87**.
+
+**Scope, stated so it is not overread.** None of this touches Q = ⅔ itself, which is measured. It
+touches the *derivation* of Q = ⅔ from a ring condensate, which is now known to require a mechanism
+the corpus does not have.
+
+### Kibble–Zurek as the Koide delivery law — DOES NOT DELIVER: wrong sign, and no exactness (2026-07-29)
+
+**What it was.** T6 recorded KZ as the route out of #85: *"the delivery law may not be a free choice
+among four at all — KZ carries its own freeze-out prescription … which converts #85 from 'choose among
+four conventions' into 'apply a textbook mechanism the model already claims', which is a categorically
+better position."* It was left as *"a route, not an answer"*, with the prescription unapplied.
+
+**Applied, it fails on sign.** `scripts/kibble_zurek_delivery_law.py`, 15 controls. With ε_i = c_i·λ(t),
+λ ∝ t^m and τ ∝ ε^(−a), freezing at τ_i(t) = t gives ε_i(t_i) ∝ c_i^(1/(1+am)), so the null reads
+**(c_D/c_S)^(1/(1+am)) = 2**. But c_D/c_S = **½ < 1** while the target is **2 > 1**, so the exponent
+must be negative — 1 + am < 0, i.e. **m < 0**. Scanned over a ∈ [0.1, 10] and m ∈ [0.1, 100], *every*
+stiffening quench lands below 1 and puts Q above 1. **The sign is wrong, not the magnitude.** Reaching
+the null needs a **softening** ramp at a tuned exponent: am = −2 (overdamped m = −2, underdamped −4).
+
+**And the no-ramp limit is a law already in the table.** am = 0 returns exactly ½ — the recorded
+"doublet gets half the singlet", Q = 5/3. KZ does not add a mechanism so much as parametrise the
+existing rows by a quench exponent.
+
+**It also does nothing about the thing the arc is actually blocked on.** At am = −2 the sectors freeze
+at stiffnesses differing by 2, hence frequencies differing by √2, so the quantum correction still fails
+to cancel — **1025.4 ppm**, the identical number the thermal reading gives, against a 6 ppm budget.
+
+**So the earlier grade was half right, and the failing half was the load-bearing one.** KZ does replace
+a convention with a mechanism. But the mechanism then *demands* a softening quench with a tuned
+exponent to reach the null, and leaves exactness untouched. That is a reparametrisation of the choice,
+not a removal of it — and "apply a textbook mechanism the model already claims" oversold it.
+
+**What survives, and it is worth keeping.** Under KZ a mode's stiffness **at freeze** (which sets the
+frozen amplitude) differs from its stiffness **at observation** (which the mass formula reads). The
+(s, p) family assumed one ε; KZ supplies two. That is a candidate identity for #85's unexplained
+**third stiffness pair**, which is neither the final radial Hessian (½) nor the circulant amplitudes
+(0.1213). The route fails; this lead does not.
+
+**THE LEAD IS NOW ALSO DEAD (2026-08-02 — tested against the corpus's own recorded numbers;
+adversarial verifier: 14/14 confirmed, including three-phrasing hunts confirming nothing needed is
+missing).** The identity tested: the third pair is the freeze-time image r_obs^{1/(1+am)} of a
+recorded observation-time pair, with r_obs ∈ {½ (radial Hessian), 0.1213 (circulant at the Koide
+point)} and the corpus-named quench exponents am ∈ {0, −2}. The full reachable set is
+{0.5, 2, 0.1213, 8.2426}, and the target 2 is hit exactly once — the radial pair at am = −2 — which
+is not a new identification but a verbatim restatement of the KZ route this very entry closes: am = −2
+is the tuned softening exponent with the sign wrong for every ordering transition, and even granting
+it the frozen frequencies still differ by √2, leaving the 1025.4 ppm residual against the 6 ppm
+budget. The kill is structural twice over: **(i) sign** — both recorded observation-time ratios lie
+below 1, the target lies above 1, and every stiffening quench (1 + am > 1) maps sub-unity ratios to
+sub-unity ratios, so no sign-allowed assignment from either recorded pair can reach 2; **(ii)
+exactness** — any freeze that does deliver stiffness ratio 2 forces frequency ratio √2, so the
+quantum correction fails to cancel regardless of which am produced it. A continuous fit for the
+circulant base needs am = −4.0431, a value named nowhere in the corpus (hunted; the nearest clean
+am = −4 misses by 10,010 ppm). **The Koide arc's residue is now one unsupplied number and four dead
+routes, zero live leads.**
+
+**Caveat recorded with it.** The whole construction is predictive only because both sectors ride one
+λ(t). With independent ramp rates the ratio spans 0.224 → 2.236 and KZ predicts nothing. The shared
+ramp is the physical content, and it is an assumption.
+
+### "Amplitude-follows-current" as the derivation of leptophilia — OBSTRUCTED by lepton number (2026-07-29)
+
+**What it was.** P-020 carries `[OBJECT-PENDING on: … amplitude-follows-current …]`, the claim that
+*"the medium's coupling to L (for leptogenesis) drags along the amplitude coupling that IS the dyad
+(δm_e) … leptonic because the medium is the asymmetry field and the asymmetry can only route through
+the L-violating (lepton) sector."* It is the one piece of docket #59 with no other home.
+
+**Why it is blocked.** `scripts/amplitude_follows_current_charges.py`, 10 controls, exact rational
+charge arithmetic. One field S is asked to do two jobs:
+
+- **the current job** — a phase gradient coupled to the lepton current, ∂_μθ·J^μ_L, which is what
+  drives Affleck–Dine leptogenesis. This **requires L_S ≠ 0**: a lepton-number-neutral field has no
+  phase conjugate to J^μ_L at all.
+- **the amplitude job** — a **linear** coupling S·O whose O contains the charged-lepton mass term.
+  Linearity is what makes the coupling sector-selective; a quadratic |S|² coupling is charge-blind.
+
+For S·O to be invariant, O must carry L_O = −L_S ≠ 0. But **every Standard Model Yukawa conserves
+lepton number** — computed, not assumed:
+
+| operator | L | hypercharge | colour |
+|---|---|---|---|
+| L̄He_R (charged-lepton mass) | **0** | 0 | singlet |
+| Q̄Hd_R | 0 | 0 | singlet |
+| Q̄H̃u_R | 0 | 0 | singlet |
+| L̄H̃ν_R | 0 | 0 | singlet |
+| (LH)(LH) | **+2** | 0 | singlet |
+| ν_Rν_R | **+2** | 0 | singlet |
+
+> **The only gauge-singlet operators an L-charged S can reach are the two Majorana ones — and both
+> are neutrino masses.** So it can generate neutrino Majorana mass and *cannot* generate a
+> charged-lepton mass shift. The two jobs demand incompatible charge assignments for the same field,
+> and the claim fails on bookkeeping before any dynamics is written.
+
+**This is the corollary of something the corpus already states.** The predictions file records that
+*"the Majoron route does not supply it, the singlet |Ψ|² being L-neutral and screening no quark
+bilinear."* Same fact from the other side: the L-charged **linear** coupling reaches only the neutrino
+sector, the L-neutral **quadratic** coupling reaches everything indiscriminately. What was *not*
+recorded is that this **closes** the route rather than leaving it open.
+
+**Three escapes, each costing something named.** (a) Quadratic |S|²·O — L-neutral, so it pairs with
+both quark Yukawas too (checked); leptophilia is lost, which the corpus already reports. (b) Two
+fields, one L-charged and one L-neutral — consistent, but then the amplitude does **not follow** the
+current and object 2 is false as stated. (c) Loop transmission from the neutrino sector to m_e — not
+excluded here, and the corpus already cites "loop order" among what carries leptophilia, but it is a
+different mechanism and it is suppressed.
+
+**Scope.** Nothing here touches the leptogenesis side — the AD mechanism, the asymmetry and the
+neutrino-sector couplings are unaffected. What fails is only the claimed **drag** from the current
+coupling to the electron mass shift. Leptophilia remains carried by data, as the corpus already says.
+
+**ESCAPE (c) CLOSED DEAD (2026-08-02, `scripts/escape_c_loop_magnitude.py`, 7 controls; adversarial
+verifier re-derived every number: 6/6 confirmed).** "Suppressed" is now a number: every loop channel
+falls **25–26 orders of magnitude** short of the required ε = 1.2543×10⁻² under maximally generous
+assumptions. Weak channel (ν–W loop into the electron self-energy): 3.9×10⁻²⁸. Portal channel
+(through O_A itself, c_A = 1): 1.3×10⁻²⁸ — and v_L cancels out entirely, so the MeV corner buys
+nothing. Higgs portal at λ_p = 1: 9.7×10⁻²⁸, and that λ_p gives the medium's field a 174 GeV mass
+(10²⁸ above its own scale) while making the shift universal — escape (a)'s recorded cost, paid again
+for nothing. **The structural reason no cleverness rescues it:** the electron mass operator conserves
+L and breaks electron chirality; the medium's one handle violates L by two and breaks no electron
+chirality — so insertions come in pairs (a single m_ν insertion vanishes identically between the W's
+left-handed vertices), the amplitude scales as δ(m_ν²) ~ (2.25 meV)², and the chirality flip is
+borrowed from m_e itself. Even the chirality-forbidden linear form, granted anyway as an absolute
+ceiling, reaches 7.4×10⁻¹⁰ — still 7.2 orders short. Delivering the required ε through the allowed
+structure would take δ(m_ν²) ≈ (22 GeV)², thirteen orders above the entire neutrino sector. **All
+three escapes are now computed and dead: "amplitude-follows-current" is falsified outright as the
+derivation of leptophilia, not merely obstructed.** Leptophilia stands exactly where the scope note
+left it — carried by data.
+
+---
+
+## The speckle-averaging route to spectroscopic compliance — RETIRED 2026-07-29
+
+**What was claimed, and when.** Earlier the same day, in `PRTOE_me_mechanism_math.md`: that
+developed speckle with ⟨Θ⟩ = ½ and sd = ¼ (the Beta(d/2,d/2) law) reconciles a 1.2543% electron-mass
+shift with spectroscopic μ bounds, because the per-cell scatter of 3.14×10⁻³ averages over N ≈ 10⁹
+cells to 9.9×10⁻⁸. The cell count was noted to sit **within 2% of exactly the value required** and the
+coincidence was called **load-bearing**.
+
+**Why it fails.** The averaging needs the scatter — that is what it averages. But the resulting line
+**width** is set by the same scatter and **contains no N**: superposing more cells samples the
+distribution of shifts better rather than narrowing it. So the route buys centroid compliance and
+declines to pay for width, which is not available. At N = 10⁹ the width exceeds the centroid error by
+**31 623×**, giving **1880 km/s** (sd) of intrinsic broadening in the 21 cm row against absorption
+lines that are narrow. Fitting inside even 10 km/s needs sd(Θ) suppressed **188×** below the law that
+generated the argument.
+
+The 2% coincidence is confirmed arithmetically (ratio 1.017) and is a **red herring** — it tunes the
+centroid while the width fails by two orders of magnitude. The anti-control settles it: N scanned
+across 24 decades never brings the width under 50 km/s.
+
+**What this does and does not kill.** It kills the **route**, not the model. Laminar Θ = 1.9×10⁻⁶
+suppresses mean and scatter by the same factor and passes both tests together (centroid 2.38×10⁻⁸,
+width 7.1×10⁻³ km/s). Environmental screening was already data-required from centroids; the width
+makes it required far more strongly and **excludes** the developed-speckle alternative rather than
+disfavouring it.
+
+**Instrument:** `scripts/speckle_width_check.py`, 16 controls including four anti-controls, all
+passing. Recorded here the same day the argument was recorded, not later.
+
+---
+
+## My Θ "factor-2 fork" — WRONG, withdrawn the same day (2026-07-29)
+
+**What I claimed.** That P-2026-050 and P-2026-007 faced an unresolved factor-of-2 fork, because
+the entries take Θ = 1 in unvirialized gas while the mechanism file gives developed speckle
+⟨Θ⟩ = ½. I annotated both registry entries, withdrew a kill condition's uniqueness claim, filed an
+owner decision, and told the owner it needed their word.
+
+**Why it was wrong.** I assumed the shift is ε·Θ. It is not. `PRTOE_me_trigger.md` §5 gives
+**m_e = m_bare(1 + κ_Θ·Θ) with κ_Θ = −2ε/(1+ε) = −2.478%** — negative, and calibrated so that
+**Θ = ½ lands exactly on the laboratory value** (1 + κ_Θ/2 = 1/(1+ε), machine precision). And §3
+defines Θ as multi-stream occupancy, so **voids are Θ = 0 and carry the full bare shift**, while
+halos are Θ = ½. I had the endpoints inverted.
+
+**Consequence: nothing halves.** +1.2543% and +2.509% stand as registered. The uniqueness claim in
+P-2026-050's kill (ii) is reinstated. The one real defect was a *label* — that entry writes
+"(Θ = 1 — the bare value)" where bare is Θ = 0.
+
+**The compounding error.** I escalated it as an owner decision, saying "the corpus doesn't say."
+The corpus does say, in `docs/exploratory/PRTOE_me_trigger.md`, which I had not read — I searched
+`docs/` for the file, got nothing because it sits in `docs/exploratory/`, and stopped there instead
+of widening the search. **A definition I could not find is not a definition that does not exist.**
+
+**What it cost and what it bought.** Cost: two wrong registry annotations, one wrong withdrawal,
+one wrongly-escalated decision, and the owner's time three times over. Bought: docket #62's scatter
+was found to use ε where the coupling is κ_Θ, so every width figure there was low by 1.975×, and
+the tension relocates to multi-stream gas — which is where the absorbers actually are, making it
+sharper. That correction is real and stands.
+
+Instrument: `scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls.

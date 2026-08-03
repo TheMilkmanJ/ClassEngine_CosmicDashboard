@@ -3,10 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 15's standalone; T9's sibling (underground silence → sky silence). Status: STRUCTURAL —
-the null is FORCED by the conserved dark charge (recorded) and the portal scale.
-The improvement: every DM-annihilation "excess" of the last two decades is PREDICTED
-astrophysical, from theorems — with the same unhedgeable exposure as T9.*
+*Thread 15's standalone; T9's sibling (underground silence → sky silence). The null is forced by
+the conserved dark charge and the portal scale. Every DM-annihilation "excess" of the last two
+decades is predicted astrophysical, from theorems — with the same unhedgeable exposure as T9.*
 
 ## 0. The landscape
 
@@ -17,33 +16,40 @@ has died conventionally (3.5 keV: eROSITA).
 
 ## 1. The forced null (each clause recorded)
 
-1. **The dark charge is CONSERVED** — charge = abundance (the founding AD structure); the
+1. **The dark charge is conserved** — charge = abundance (the founding AD structure); the
  recorded dark-antimatter reframe (the never-annihilating ~30% counter-charge) exists
- PRECISELY because the medium cannot annihilate its charge away. No annihilation channel
- exists AT ALL — not suppressed: absent by conservation law.
-2. **Decay to the SM runs through the portal**, whose scale sits at 100–500 TeV for the dyad's
- decay constant and 13–20 TeV for the census portal — giving lifetimes beyond cosmological by
- many orders. No decay signals.
+ precisely because the medium cannot annihilate its charge away. No annihilation channel
+ exists at all — not suppressed: absent by conservation law.
+2. **Decay to the SM runs through the portal**, whose scale sits at 100–500 TeV for the
+ electron-coupled scalar's decay constant and 13–20 TeV for the census portal — giving
+ lifetimes beyond cosmological by many orders. No decay signals.
 3. **The quanta are 2×10⁻²⁰ eV condensate modes** — there is no particle pair to annihilate
- into photons at ANY energy a telescope observes.
+ into photons at any energy a telescope observes.
 
 **Verdict: the GC GeV excess is pulsars (or other astrophysics), the 511 keV line is
 astrophysical positron production, the AMS fraction is pulsars/propagation — the model does
-not interpret them; it PREDICTS their mundanity.**
+not interpret them; it predicts their mundanity.**
 
 ## 2. The exposure (unhedgeable, owned)
 
-One CONFIRMED DM-attributed annihilation or decay signal — a line with the halo's morphology,
+One confirmed DM-attributed annihilation or decay signal — a line with the halo's morphology,
 a cross-section detection — kills the conserved-charge structure outright. No parameter
 absorbs it. As with T9 and Tsirelson: the model earns nothing further from continued silence;
 it simply survives every year the sky stays mundane, while tuned-WIMP interpretations shrink.
 
 ## 3. Owed
 
-1. ~~The cross-section CEILING computation.~~ **Paid — the tail below: tree-level σv = 0
+1. ~~The cross-section ceiling computation.~~ **Paid — the tail below: tree-level σv = 0
  exactly, gravitational ceiling ~10⁻¹⁵⁴ cm³/s, ~128 orders under thermal-relic.**
-2. The GC-excess pulsar-interpretation tracking (the model roots for the pulsars).
-3. The 511 keV bookkeeping note (positrons from astrophysics — no medium channel).
+2. ~~The GC-excess pulsar-interpretation tracking (the model roots for the pulsars).~~
+ **Reduced, and re-typed as a calendar item.** The model has no stake in *which* astrophysical
+ explanation wins. With tree-level σv = 0 the prediction is "astrophysical" outright, so
+ pulsars, millisecond-pulsar populations and unresolved point sources all satisfy it equally.
+ Nothing here is a computation this model owes; it is literature to watch, and it can only
+ ever confirm or kill, never refine.
+3. ~~The 511 keV bookkeeping note (positrons from astrophysics — no medium channel).~~
+ **Reduced — already written, in "The ceiling" below**, which states that every indirect
+ excess including 511 keV is predicted astrophysical. There is no separate note to write.
 
 *Two decades of maybe-signals, and this model's reading of every one is the boring answer —
 not from timidity but from a conservation law with a genome behind it. The silence

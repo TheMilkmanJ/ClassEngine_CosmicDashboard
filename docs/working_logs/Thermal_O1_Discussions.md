@@ -66,7 +66,7 @@ piece riding a diluting density is not. Each term gets its honest w.
 | build **fails the tribunal** | autopsy to PRTOE_FAILURES_LEDGER.md with time of death; §4b unchanged |
 
 **Booking rule.** Nothing books until the Referee files a VERDICT in §5. Kills go to the ledger,
-not forward files. Forward-facing docs receive only the surviving claim, fluent, no scar tags.
+not forward files. Forward-facing docs receive only the surviving claim, fluent, no deuterium row tags.
 
 ---
 

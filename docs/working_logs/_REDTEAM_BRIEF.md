@@ -9,14 +9,14 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 | quantity | value | note |
 |---|---|---|
 | **ε** | **c·f̄·α_c = 27α/5π = 1.2543%** | the coupling; three factors, multiplicative |
-| **c** | **9/10** | census counting fraction (N−1)/N: 9 charged species + the vacuum's seat. **DERIVED.** `c = 1` is a DEAD candidate. |
-| **f̄** | **2/π = 0.63662** | the winding time-average ⟨\|cos\|⟩. **DERIVED.** `f_amp ≈ 0.6 / 0.69` is the RETIRED decomposition. |
+| **c** | **9/10** | census counting fraction (N−1)/N: 9 charged species + the vacuum's seat. **A COUNTING ASSUMPTION THE DATA CONFIRMS — do not defend it as *derived*** (no single census criterion returns 9/10, and the ε-blind ensemble confirms without separating it from the charge²-weighted 8/9 — see the standing-value note below). `c = 1` is a DEAD candidate. |
+| **f̄** | **2/π = 0.63662** | the winding time-average ⟨\|cos\|⟩. **DERIVED GIVEN THE COUPLING FORM; the coupling form itself is DATA-SELECTED.** ⟨\|cos\|⟩ = 2/π is exact under equidistribution, and the turn budget (≈3.8×10⁵ turns) secures equidistribution to ~10⁻⁴%. What is *selected* rather than forced is which average applies: mass-positivity excludes the signed mean, leading-order dominance picks linear over quadratic, and the data rejects the RMS reading at +13%. The subleading term shifts f̄ by ≈0.99% per unit c₂ and the observed deficits imply \|c₂\| of order one, so the residual is the expansion's own next term — but c₂ is not derived. `f_amp ≈ 0.6 / 0.69` is the RETIRED decomposition. |
 | **α_c** | **3α = d·α = 0.02189206** | **the dCDF's** condensate coupling; the 3 is the SPATIAL DIMENSION |
 | **T_c** | **177.10 keV** | = τ·m_e with τ = ½ln2 from the Koide kernel. **193 keV is a CROSS-CHECK ONLY — illegal as the keying value.** |
 | **M₂** | **α²·T_c = 9.43 eV** | the "electromagnetic handshake"; T_c is the **dyad's** |
 | **ρ_Λ¼** | **½α_c²M₂ = (9/2)α⁴T_c = 2.2599 meV** | obs 2.25 (+0.44%). α⁴ → dCDF; T_c → dyad; 9/2 → geometry |
 | **Y_p** (ramped) | **0.248995** | +1.09σ vs Aver; **+3.53σ** vs EMPRESS. `0.2495–0.2505` is the RETIRED step interval; **`+3.7σ` is the step-era pull.** |
-| **D/H** (standing) | **2.387×10⁻⁵** | **−2.49σ** on the standing 3-term width (0.0563); **−2.9σ** on the 2-term budget (0.0476 = obs ±0.030 ⊕ PRIMAT ±0.037). The width standardization is owner-gated (ForJustin/10) — quote the fork, not one side. |
+| **D/H** (standing) | **2.387×10⁻⁵** | **−2.94σ** on the standing width **±0.0476** (obs ±0.030 ⊕ PRIMAT post-LUNA ±0.037). The three-term ±0.0563 / −2.49σ is RETIRED — it double-counted d(p,γ)³He, already inside PRIMAT's Monte-Carlo error. ΛCDM control on the same width: −2.25σ. **STATUS: awaiting d(d,n)³He.** The absolute σ is hostage to a rate the two compilations disagree on by 4× PRIMAT's band and whose *uncertainty* they disagree on by 5.2×; across the literature's four assessments the row spans −3.6σ to −1.6σ, and the corpus quotes the tightest. Bet registered P-2026-058. **Do not attack the absolute σ as a model claim — attack the 0.62σ against its own ΛCDM control, which is compilation-robust.** |
 | **Σm_ν** | **61.4 meV**, normal ordering | m_ββ ∈ [0.04, 5.3] meV, ~3.3 typical |
 | **N_gen** | **3** | str[k₁] = 16N_gen − 48 = 0 |
 | **N_c (dark)** | **2** | 2N_f·N_c − 4(N_c²−1) = 0; N_f = 3 |
@@ -25,13 +25,13 @@ engine before any edit is made — a red-team claim is a hypothesis, not a warra
 ## RETIRED / WITHDRAWN — must never appear as a live claim
 
 - **`f_amp` decomposition** (ε = c·f_amp·Ψ₀/M_red) — retired; standing is ε = c·f̄·α_c
-- **`c = 1`** (the UV conformal-origin candidate) — dead; c = 9/10 is derived. *(`c ~ 1` meaning "order unity" is fine.)*
+- **`c = 1`** (the UV conformal-origin candidate) — dead; the standing value is c = 9/10, a **counting assumption the data confirms** (do not defend it as *derived*: no single census criterion returns 9/10, and the ε-blind ensemble confirms without separating 9/10 from the charge²-weighted 8/9 — #126). *(`c ~ 1` meaning "order unity" is fine.)*
 - **D/H `2.470340` / `2.454498` / `2.4305`** — PRyM-DEFAULT-ω_b absolutes, **WITHDRAWN** (process error 38). Relative effects only.
 - **D/H `2.468`** — the v5-era champion's value; superseded by the ramp
-- **D/H scar `−1.2σ` / `−2.0σ`** — v5-era; the standing ramp is **−2.9σ**
+- **D/H deuterium row `−1.2σ` / `−2.0σ`** — v5-era; the standing ramp is **−2.9σ**
 - **Y_p `+3.7σ` vs EMPRESS**, **`+1.24σ` vs Aver** — step-era pulls
 - **P-022's "sharp global step" reading** — RETIRED. The registry predicts a **σ8-tracking FADE over z ≈ 30–60**; a sharp global step **counts against** the model.
-- **"δm_q = ε full"** quark-bleed — **SYMMETRY-FORBIDDEN.** The dyad is the Majoron (Goldstone of U(1)_L); quarks carry L = 0 ⟹ tree coupling is ZERO.
+- **"δm_q = ε full"** quark-bleed — **EXCLUDED, but by loop-order and data, NOT by symmetry.** Do not defend this line with lepton number: the dyad is not the Majoron (separate fields since the one-scale corner went tie-dead), and the operator |Ψ|² is a total singlet — L-neutral — so it screens the quark bilinear no more than the lepton one. What does exclude it: the quark bilinear is reached only at two EW/EM loops, ~(α/4π)², and full ε on the quarks moves D/H by +12–18σ. The margin is four orders wider than needed; the *argument* is the part that was wrong.
 - **ODDS of any kind** (~10%, ~12%, ~16%) — **NEVER audience-facing.** This is an absolute standing law.
 
 ## THE SIX SPECIES — hunt all six

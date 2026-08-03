@@ -4,8 +4,8 @@
 
 
 *Derivation-from-recorded-structure. Every load-bearing input cites a graded recorded object; owed
-items are flagged. Status: structurally complete — the core, the horizon, and the entropy all
-land; what remains is λ's bounce-density number and one optional observable.
+items are flagged. Status: structurally complete — the core, the horizon, the entropy, and the
+core-density ceiling all land; what remains is one optional observable.
 The exterior is unchanged (horizons, shadows, P-2026-005 intact); this document is about what
 replaces the singular interior, with the actual numbers.*
 
@@ -46,7 +46,7 @@ that resolved the vacuum catastrophe and the graviton's non-renormalizability
 : the degree of freedom dissolves at the cutoff; questions about it beneath the cutoff
 are category errors.
 
-## 2. The number that changes the picture: every known black hole fits inside ONE healing length
+## 2. The number that changes the picture: every known black hole fits inside one healing length
 
 | object | r_s | r_s/ξ |
 |---|---|---|
@@ -82,13 +82,15 @@ the ceiling (Colpi–Shapiro–Wasserman class):
 
 Reaching 3×10¹⁰ M☉ needs only a repulsive λ ≳ 2.2×10⁻⁹² in this section's normalization — and the
 threshold is convention-dependent at the factor-4π level (the CSW normalization reads the same
-requirement ~13× smaller). The honest statement uses the tighter convention: the derived
+requirement ~13× smaller). Stated in the tighter convention: the derived
 λ ≈ 2×10⁻⁹¹ clears the largest known holes by **at least a factor of 20**, and by ~250× in the
 looser normalization. Either way, any repulsive radial self-coupling of the condensate clears it. (This is the repulsive
 *amplitude* quartic, distinct from the tiny *attractive* axion/phase coupling that sets the
 isocurvature — §on λ.) In the Thomas–Fermi regime the core radius is mass-independent and the
-central density scales as ρ_c ∝ M — **finite for all astrophysical M**. There is no mass in the
-observed universe that this medium must crush to a point.
+central density scales as ρ_c ∝ M, saturating at the relativistic ceiling ρ_c ~ m⁴/λ ≈
+2.9×10⁻⁷ g/cm³ ≈ (1.1 keV)⁴ at the maximum-mass anchor M ≈ 2×10¹⁰ M☉ — **finite for all
+astrophysical M**, ~100 orders below the Planck density (`scripts/rho_bounce.py`). There is no mass
+in the observed universe that this medium must crush to a point.
 
 ## 4. Pillar three: the Landau ceiling — where the horizon comes from and where the energy goes
 
@@ -108,11 +110,24 @@ the area law are in hand: the *scaling* from counting horizon entanglement acros
 coherence cells against induced gravity's inverse Newton constant (species count and cutoff cancel
 in the ratio — that cancellation is the universality), and the *coefficient* as the ratio of the
 two heat-kernel coefficients the same cutoff supplies, 12π/48π = **1/4 exactly**, giving S = A/4G
-([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). One residue: the Bogoliubov regulator's
-O(1) is run on the induced-G side and not yet explicitly on the entanglement side.
+([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). Those coefficients belong to minimally
+coupled scalars, so the cancellation does not extend automatically to the roster the model carries.
+The extension has been made per class: spin-½ produces no contact term and preserves the ratio
+exactly, which settles the fermion-sign hazard directly rather than by a ratio argument; gauge fields
+break it through the contact term, which is identified as the edge modes' entanglement entropy and
+restores the ratio once those are counted as horizon entropy; and a conformally coupled scalar drops
+out of both sides identically, as the Higgs does under the same ξ = 1/6 that induced-Newton
+finiteness already requires. The quarter survives at candidate grade on that single commitment
+([PRTOE_entropy.md](PRTOE_entropy.md) §3).
 
 Hawking radiation survives: phonon Hawking emission from sonic horizons is standard
 analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not lost.
+For the timing question: ordinary Hawking evaporation is far too slow to be the next
+generator on a ~60 Gyr crunch. A stellar black hole lives for ~10^67 yr, and a
+supermassive one for vastly longer; only a primordial substellar hole, roughly
+M ~ 10^14–10^15 g, evaporates on ~10^10–10^11 yr scales. So if black-hole death ever
+matters for the next regime, it has to come from a tiny primordial population, not from
+the astrophysical holes this section is centered on.
 
 ## 5. Rotation: Kerr as a vortex bundle
 
@@ -127,9 +142,9 @@ unchanged at observational scales. Superradiance physics (P-2026-005) is untouch
 
 The theorem's premises, audited against this interior:
 
-1. **A Lorentzian metric on the full domain** — FAILS below ξ / inside the quantum core (§1–2):
+1. **A Lorentzian metric on the full domain** — fails below ξ / inside the quantum core (§1–2):
  the theorem's arena dissolves before its conclusion's locus.
-2. **Energy conditions (SEC/NEC on the relevant congruences)** — FAIL in the core: quantum
+2. **Energy conditions (SEC/NEC on the relevant congruences)** — fail in the core: quantum
  pressure and the quartic produce the effective-stress violations standard to every bounce
  and boson-star solution (and to this model's own thaw sector).
 3. **Trapped surfaces** — form (the sonic horizon is real); the theorem correctly predicts
@@ -140,7 +155,7 @@ The theorem's premises, audited against this interior:
 The theorem is not violated — it is **discharged at its premises**, exactly as in every
 analog-gravity system where sonic horizons demonstrably form and nothing singular ever occurs.
 
-## 7. Observational posture (honest)
+## 7. Observational posture
 
 - **Null-prediction stance** (the model's stance): exteriors indistinguishable from GR
  at current precision — shadows, ringdowns, superradiance margins all inherited.
@@ -152,7 +167,8 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
  ([PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md)); (iv) the boson
  mass puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ — **registered as
  P-2026-034, and a live exposure**: the band is populated and carries high measured spins, the
- λ-quench that once shielded it is un-quotable until re-derived at the recorded λ and m, and
+ self-interaction shield is absent — at the recorded λ the quench misses by 85 decades, so the
+ model meets this test as a free scalar — and
  the mass cannot retreat without breaking the fit that fixed it
  ([PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md)).
 
@@ -165,7 +181,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 | Collapse unbounded | CSW equilibrium at any known mass: supporting the largest known black holes (2×10¹⁰ M☉) needs λ ≳ 8×10⁻⁹⁴ to 1.0×10⁻⁹², depending on the quartic's normalization convention — the derived λ ≈ 2×10⁻⁹¹ clears the requirement by **at least 20×** (and by ~250× in the looser convention) | computed; met with room in every convention |
 | Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |
 | Penrose theorem | discharged at premises (no metric below ξ; SEC violated; phonon geodesics end, histories don't) | argued (§6) |
-| BH entropy | thermal core + Landauer accounting; area law derived, scaling and coefficient (S = A/4G from 12π/48π) | derived, one regulator residue |
+| BH entropy | thermal core + Landauer accounting; area law derived, scaling and coefficient (S = A/4G from 12π/48π); regulator O(1) structural + roster extension paid (2026-07-20/28) | derived-conditional at candidate grade (edge-mode commitment for the gauge share; see entropy §3) |
 
 *The medium does not permit infinities: the same Landau threshold that caps the vacuum budget
 and feeds the crunch dissolves the singularity. What falls in is not crushed to a point — it is

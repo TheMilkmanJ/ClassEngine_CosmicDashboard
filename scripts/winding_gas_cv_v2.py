@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
-"""B2 v2 (sweep 72) — the two ramps the operator's bet demanded:
+"""SUPERSEDED — both routes below are retired.  Kept for the ramp arithmetic only.
+
+  * Route (1), the freeze reading — "WHERE ON THIS CURVE DID IT FREEZE?" — is DEAD (#184).
+    A single frozen comoving cell size is one Poisson census, hence white noise, hence n_s = 4
+    against a measured 0.9649.  The A_s census is a SCALING imprint, xi(k) ~ 1/k, not a freeze.
+  * Route (2), the 2D-Gaussian/chi^2 tilt, is DEAD by computation: the exact convolution gives
+    tilt +1/ln(k/k_IR) — wrong sign, wrong coefficient, IR-anchored where the banked form is UV.
+  * The nu = 2/3 (3D-XY) exponent here is STATIC and belongs to the condensation ramp at T_c, a
+    DIFFERENT link from the census imprint.  It is not a quench criterion for the census, and the
+    corpus's claim that no critical exponent is on file was corrected against these two scripts.
+
+Autopsies: docs/PRTOE_FAILURES_LEDGER.md (#184, and the 2D-Gaussian kill).
+
+B2 v2 (sweep 72) — the two ramps the operator's bet demanded:
 (1) xi(t) DIVERGES at T_c: xi = xi0*(1-t)^(-nu) -> the patch census N(R,t) =
     (R/xi)^2 COLLAPSES toward the draw — the count is dynamical, not static.
 (2) THE COUPLED FIELD: adjacent winding mismatches cost vortex-line energy ->

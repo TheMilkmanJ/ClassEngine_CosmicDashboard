@@ -1,7 +1,6 @@
-# THE CODE MANIFEST — what is in the pipeline, what is armed, what is banned (2026-07-12)
+# The code manifest — what is in the pipeline, what is armed, what is banned (2026-07-12)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
-
 
 *The inclusion law: everything proven beneficial enters the pipeline; nothing killed ever does. This
 file is the single source of truth for implementation status — so every row states where a thing
@@ -17,26 +16,30 @@ expression).*
 | item | home | status |
 |---|---|---|
 | The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | CLASS source: background.c | IN — the live .so, direct-eval verified (2798.7) |
-| THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
-| The dyad (varying m_e, the ramp through T_c) | CLASS source | IN |
+| The ramped window edges: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
+| The electron-coupled scalar (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
-| **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **NOT RUNNING** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
-| **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **EXECUTING** — the headline evidence test, restarted 2026-07-18 with the prior phase explicit; sampling since 16:22 |
-| The evidence pair (sampled-ε dyad + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | queued — the sampled referee KILLED mid-prior by decision (relaunch fresh later); the ΛCDM twin awaits its slot |
+| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.19** at N ≈ 14544; stop 0.05; raw accept ~6.4% (progress accept ~0.996 is oversampled). Do not kill. See `PRTOE_CHAIN_TABLES.md` live table |
+| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.14** at N ≈ 13193; stop 0.05; raw accept ~8.6%. Do not kill |
+| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **129** at N ≈ 1593 (early); stop 0.1; raw accept ~5.1%. Do not kill |
+| **The PolyChord evidence run — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all sampled) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **not running** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
+| **The zero-parameter run — ε/A_s/n_s fixed** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **not running — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
+| The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee killed mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
 | The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
+| **zon_disp / conv_desi production MCMC** | yaml: cmp_prtoe_zon_disp / cmp_prtoe_conv_desi | **not running** — zon_disp parked (seed ready); conv_desi unproduced after two deaths. Not live as of 2026-08-02 |
 
-## 2. ARMED — enters on its named trigger
+## 2. Armed — enters on its named trigger
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — EXECUTED; running in the live zero-parameter test** | yaml |
-| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c MCMC grades it later** | yaml |
-| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the live run executes; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the NEXT config, no mid-run change) | **IN — running in the live test** | yaml |
-| ρ_inf stated | the occupancy value | the α_c MCMC + the triangle confirmed | yaml |
+| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — executed in the fixed-ε configs** (nested zero-parameter run itself is not live; Laplace grades until cluster time) | yaml |
+| z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c instrument grades it when restarted** | yaml |
+| n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the fixed-ε configs execute; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the next config, no mid-run change) | **IN — frozen into the fixed-ε configs** | yaml |
+| ρ_inf stated | the occupancy value | the α_c instrument + the triangle confirmed | yaml |
 | m_ncdm stated | 61.4 meV | the spurion identification lifted (done — neutrino_sector §2) + P-023 resolved | yaml |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | comparison layer: flow_ladder_correction.py (built) |
 
-## 3. NO PIPELINE EXPRESSION — beneficial, lives in the theory (not code by nature)
+## 3. No pipeline expression — beneficial, lives in the theory (not code by nature)
 
 The chain law; the melt; the counterparty rule; the zero–infinity asymmetry; the genesis
 chart (Γ/impulse/E/friction); the Widnall n-predictor (n = 2.26–2.51 × R/a — the α_c MCMC/comb
@@ -46,7 +49,7 @@ target); the μ-branch discriminator (future-data referee); the helicity cross-l
 they do not alter any observable CLASS computes (the entry-55 energy nulls are the
 proof for the flow family).
 
-## 4. BANNED — killed items; never enter the pipeline (the failures ledger governs)
+## 4. Banned — killed items; never enter the pipeline (the failures ledger governs)
 
 The v1–v5 screening mechanisms; the β barotropic parameter; the dkappa hack; the c_γ/c_EM
 environmental knobs (census-illegal); the sound-horizon lock (+6 blue); the μ-era H₀
@@ -58,12 +61,12 @@ a new derivation that overturns its killshot, logged in the failures ledger firs
 
 ## 5. The standing verification
 
-Every beneficial item expressible in the CLASS source is ALREADY COMPILED into the live .so the
-referee is sampling — the inclusion law is satisfied for the C code as of now; the remaining deltas
+Every beneficial item expressible in the CLASS source is already compiled into the live .so the
+chains run against — the inclusion law is satisfied for the C code as of now; the remaining deltas
 are all yaml-layer freezes on named triggers. Any future session that produces a
-pipeline-expressible result MUST add its row here in the same commit.
+pipeline-expressible result must add its row here in the same commit.
 
-## 6. THE BUILD QUEUE — everything still needing code, genesis → now
+## 6. The build queue — everything still needing code, genesis → now
 
 *CLASS is complete for its jurisdiction (isotropic background + linear physics — every
 beneficial item compiled and running). The remainder are standalone solvers/analysis
@@ -71,21 +74,21 @@ tools, ordered by the chain:*
 
 | # | build | what it computes | feeds | size |
 |---|---|---|---|---|
-| B1 | **THE GENESIS SOLVER** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H₀ remainder | PROJECT — the queue's crown |
-| B2 | **the winding-gas C_V** (lock 2's method, string-gas import) | the medium's specific-heat scaling near T_c: does C_V ∝ R² emerge from the compact-axis windings? | the census drift (the tilt, thermodynamic road) + the lock-count C → THE A_s CLEARANCE | one careful session |
-| B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the basement does not record (§6m) — the audit is not superseded* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
-| B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (REHEARSAL, not the referee) | light — one evening |
+| B1 | **the genesis solver** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core, velocity field, the intake curve | ε + the mass share (one curve, two moments), the discharge band (L/D 4.3–5.3), n's aspect ratio, the flow's coherent fraction, the H₀ remainder | project — the queue's crown |
+| B2 | **the winding-gas C_V / census tilt** | freeze imprint and 2D-Gaussian height tilt both **DEAD** (#184): white noise n_s=4; Gaussian gives +1/ln wrong-sign IR tilt | B2 path does **not** deliver A_s; A_s closed form is **candidate closed** via E2E A1 (γ\*/c_chop), not via B2 | **CLOSED negative** 2026-07-30 — see `working_logs/B2_winding_gas_cv_findings.md`; do not reopen (E2E board) |
+| B3 | **the k_int O(1) audit** (referee 1's residue) — *2026-07-19: k reconstructs exactly from a two-band screened particle-hole kernel (§6c/§6e, Monte-Carlo confirmed), but on a host the constituent theory does not record (§6m) — the audit still stands* | the interaction integral's surface-DOS + normalization conventions, forced from the roster | the Eliashberg kill window (k ∈ [1.35, 1.37]) | done |
+| B4 | **the Tier-1 comb/isocurvature rehearsal** | ramped template fit on the public Planck binned TT residuals (teeth widths + envelope + shared n) | P-029/031/033 sensitivity (rehearsal, not the referee) | light — one evening |
 | B5 | **the μ-injection calculator** | μ(z_inject, efficiency) with the visibility ramp | the draw-branch discriminator (ξ vs 1/m) | small script |
-| B6 | **THE BipoSH JOINT PIPELINE** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee ("analysis-limited, data exists") | PROJECT — post-PolyChord |
-| B7 | the cycle-map turn module | the DE-era → contraction transition dynamics | the chain's 10→11 tether, the cycle-counter's sizing | PROJECT — shares B1's room |
+| B6 | **the BipoSH joint pipeline** | one sky direction forced through the axis family on the Planck maps | P-032 — the registered referee: analysis-limited, with the data already in hand | project — no longer queued behind a nested run |
+| B7 | the cycle-map / bounce turn | classical H=0∧Ḣ>0 from legal parts; DE-era → contraction handoff | chain 10→11 handoff **not** derivation-closed; cycle-counter sizing shares B1's room | **reconstructed candidate** 2026-07-31 — floor derived; FRW engines DEAD; RP-A scaffold + knobs (`scripts/bounce_rpA_scaffold.py`); turn not derived (`working_logs/bounce_promotion_2026-07-31.md`) |
 
-*Execution order when the referee frees the box: B4 + B5 (light, immediate) → B2 + B3
-(the clearance pair — A_s hangs on them) → B1 (the crown: five pre-registered ambushes
-wait on its outputs) → B6 (the axis referee) → B7. Nothing on the banned list appears
-above; nothing beneficial is missing — any session that mints a new computable adds its
-row here in the same commit.*
+*Execution order residual (post E2E 2026-07-31): B4 + B5 already light/done in audience prep → B2
+**CLOSED DEAD** (A_s no longer hangs on B2; A1 γ*/c_chop candidate-closed, residual κ≈1) → B3 host-exposure stands → B1 crown remains
+**PARTIAL** (numbers done; hydro open) → B6 external maps → **B7 reconstructed candidate, turn not derived**.
+Nothing on the banned list appears above; any session that mints a new computable adds its row here
+in the same commit.*
 
-## THE THEORY↔CODE BOUNDARY
+## The theory↔code boundary
 
 *A line-by-line read of the varying-constant path, from `background_varconst_of_z` through
 `thermodynamics.c` to the chain configs. `thermodynamics.c` itself is **vanilla CLASS** — it
@@ -102,23 +105,33 @@ z_high = z(T_c = 179 keV) = 7.62×10⁸, the formula returns **0.6089 at the D b
 **The coded T_c and the chain's T_c, and why the difference does not propagate.** The pipeline and
 the offline BBN splice were computed at **T_c = 179 keV**; the dark-energy chain's T_c is the
 kernel-sourced **177.10 keV**, 1.07% lower. It is one temperature, not two, so the coded value is an
-approximation of the standing one. Priced: at 177.10 keV the ramp stamps read **0.6047** at the
-deuterium bottleneck and **0.7741** at lithium, against the coded 0.6089 and 0.7765 — a 0.69% shift
-on the D stamp, which moves the window's D/H contribution from +0.645% to +0.641% and the predicted
-D/H by **0.002σ** against a budget of ±0.047×10⁻⁵. The difference is four hundred times smaller than
-the measurement it feeds, so the coded value stands until the pipeline is rebuilt for another
-reason.
+approximation of the standing one. At 177.10 keV the ramp stamps read **0.6047** at the deuterium
+bottleneck and **0.7741** at lithium, against the coded 0.6089 and 0.7765 — a 0.69% shift on the D
+stamp.
+
+**Priced by measurement.** Scanning T_c over 0.150–0.210 MeV through the production splice and
+fitting the slope gives ∂(D/H)/∂T_c = **+0.0898 ± 0.0328** per MeV, so the 1.90 keV move costs
+**−0.0036σ ± 0.0013** against the ±0.0476 width. The ε move 1.24% → 1.2543%, priced the same way
+over 0–2.5%, costs **+0.0035σ ± 0.0004**. The two carry opposite signs and near-equal magnitude,
+so **applying both together is −0.00005σ, zero to within ±0.0014σ** — the residual uncertainty is
+dominated by the T_c slope, whose 36% error bar is itself far below anything that matters here.
+The coded values stand until the pipeline is rebuilt for another reason.
+
+The scan is the only sound way to price these. Both moves are ~0.007% effects on D/H, more than ten
+times below the solver's ~0.1% non-smoothness in its own inputs, so differencing a single pair of
+runs returns the solver rather than the step — it reports −0.034σ and +0.038σ, an order of magnitude
+too large in both cases. `scripts/prym_supersession_pricing.py` carries the scans and the fits.
 
 **`varying_z_high` is set in no config anywhere**, and the C default is 0, which makes the
 `if (varconst_z_high > 0.)` branch never fire: **f_high = 1 at every redshift.**
 
-**Arming it would change nothing.** CLASS's varconst acts through **recombination (z ≈ 1100)**, where
-the model's own ramp is saturated to **f_high = 0.999999**. **The growth ramp cannot affect any CMB
-observable** — it is structurally unable to. Claims that the ramp is "now also in the CMB-side code"
-are true of the source and empty of consequence. *(It matters on the BBN side, where it is applied —
-by `scripts/prym_ramped_splice.py`, offline.)*
+**Arming it would change nothing.** CLASS's varconst acts through **recombination (z ≈ 1100)**,
+where the model's own ramp is saturated to **f_high = 0.999999**. **The growth ramp cannot affect
+any CMB observable** — it is structurally unable to. Claims that the ramp is "now also in the
+CMB-side code" are true of the source and empty of consequence. *(It matters on the BBN side,
+where it is applied — by `scripts/prym_ramped_splice.py`, offline.)*
 
-### 2. The BBN prior and YHe apply the dyad's ramp
+### 2. The BBN prior and YHe apply the electron-coupled scalar's ramp
 
 Both lambdas in the evidence configs carry the measured varying-m_e curve, so the model's own
 window (Y_p +0.85%, D/H +0.65%) reaches the likelihood and the YHe fed to `thermodynamics.c` is the
@@ -135,3 +148,68 @@ rather than ΛCDM, the BBN prior carries its own weight (χ² 0.31 → 1.31): th
 D/H +0.65% now enter the fit, and the helium fraction n_e ∝ (1−Y_p) is the model's, closing the
 few-per-mille damping-tail degeneracy with n_s and H₀.
 
+## The diff against vanilla CLASS (2026-07-20)
+
+*Referee-facing: exactly what this pipeline changes in CLASS, measured rather than described.
+Reference is the `upstream` remote, `lesgourg/class_public` at **e8580832** (2025-11-24).*
+
+**Eleven files differ. 1 104 insertions, 131 deletions.**
+
+| file | lines | what lives there |
+|---|---|---|
+| `source/perturbations.c` | 397 | the dCDF's perturbation sector |
+| `source/background.c` | 343 | `background_varconst_of_z` — the ε(z) window and its ramped edges |
+| `source/input.c` | 234 | the model's parameters and their parsing |
+| `include/background.h` | 182 | the background structure's new members |
+| `include/perturbations.h` | 36 | the perturbation structure's new members |
+| `tools/evolver_ndf15.c` | 24 | stiff-solver tolerance handling |
+| `source/fourier.c` | 10 | — |
+| `include/input.h` | 4 | — |
+| `python/setup.py`, `python/external` | 3 | build wiring |
+| `source/thermodynamics.c` | 2 | **an error-message string only** |
+
+**`thermodynamics.c` carries no physics.** Its entire
+difference from upstream is one `class_test` message gaining the failing condition as a prefix. The
+boundary section above states that the file consumes the varconst rescalings and contributes nothing
+of the model's; the diff confirms it.
+
+**The perturbation sector is real and integrated, which the project's own history can obscure.**
+For part of one day in July 2026 the dark fluid had declared perturbation infrastructure and no
+equations behind it, and that produced a plik TTTEEE χ² near 224 800. It was built the same
+evening, and the code carries it now: `perturbations.h:495-496` declares `index_pt_delta_dcdf` and
+`index_pt_theta_dcdf` as **evolved** variables, `perturbations.c:3964` registers them in the
+integrated vector, `:5508-5509` sets adiabatic initial conditions in w_dcdf and cs2_dcdf, and
+`:8004`/`:8151` build the transfer sources from them. A fluid with a sound speed, in the hierarchy.
+**Conversion-channel perturbations (closed 2026-07-30).** Background conversion was already coded
+(energy-conserving sink/source on `rho_dcdf` ↔ `rho_dcdf_conv`). Linear sector now mirrors
+CLASS dcdm→dr when `dcdf_conv_g > 0` (`pba->has_dcdf_conv`):
+
+- dcdm-like gauge term on δ_dcdf (`aΓ = rate × aH`);
+- free-streaming multipoles `index_pt_F0_dcdf_conv` (same Kaplinghat F_ℓ convention / `l_max_dr`);
+- sourced by the converting matter-part; stress added to δρ, (ρ+p)θ, shear, δp.
+
+Leading S₈ effect still rides depleted background `rho_dcdf`. Sub-leading hierarchy is for
+routeD / conv_desi only — **conversion remains OFF** on headline evidence chains
+(`cmp_prtoe_fixed`, `pc_prtoe`, `cmp_prtoe_zon_disp`). Re-validate S₈ numbers on those configs
+before publishing a conversion-easing claim.
+
+*A separate thing that travels under the same word, and must not be merged with it:* the m_e
+coupling itself is background-only by construction — `background_varconst_of_z`
+(`background.c:891`) is a pure function of redshift, and δm_e appears in no perturbation equation
+(`perturbations.c` uses the fixed CODATA `_m_e_`). That is not a gap: its spatial fluctuation is
+negligible for the linear fit (δm_e/m_e ≲ 10⁻⁷ against a 10⁻⁵ primary anisotropy — the coupling
+sits on its flat window plateau at recombination, and the physical trigger is uniformly off in the
+smooth pre-structure universe). Where δm_e is O(1) is inside virialised halos, which is the
+21-cm/small-scale prediction already on the record separately, not a linear-CMB omission.
+
+**Reproducing this: a naive `git diff` will report 64 files and ~44 700 lines, and that number is an
+artefact.** The bulk is line-ending churn — `tools/arrays.c` alone shows 3 613 insertions against
+3 613 deletions, and vanishes entirely under `-w`. The command that gives the real answer is
+
+```
+git diff --stat -w --ignore-blank-lines --ignore-cr-at-eol upstream/master -- \
+    source/ include/ python/ tools/ main/
+```
+
+Anyone auditing the modification surface without those flags will be looking at whitespace and will
+conclude the pipeline is forty times more modified than it is.

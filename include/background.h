@@ -18,6 +18,10 @@ enum equation_of_state {CLP,EDE};
 /** list of possible parametrizations of the varying fundamental constants */
 
 enum varconst_dependence {varconst_none,varconst_instant};
+/* varconst_instant covers both the legacy pure-redshift window and the PRTOE
+ * density-gate path (varconst_density_gate). The latter is the model path:
+ * eps is set by the dyad amplitude stack and the environmental switch is the
+ * survival-form gate S(Δ) of me_mechanism_math / THE_AMPLITUDE. */
 
 /** list of formats for the vector of background quantities */
 
@@ -119,14 +123,19 @@ struct background
   double phi_prime_ini_scf;/**< \f$ d\phi(t_0)/d\tau \f$: scalar field initial derivative wrt conformal time */
   int scf_parameters_size; /**< size of scf_parameters */
   double varconst_alpha; /**< finestructure constant for varying fundamental constants */
-  double varconst_me; /**< electron mass for varying fundamental constants */
+  double varconst_me; /**< electron mass for varying fundamental constants.
+                           With dcdf_dyad_link=yes this is DERIVED (1+eps) from the
+                           amplitude stack, not a free input. */
   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
-  double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
+  double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case.
+                              With varconst_density_gate=yes this calibrates the homogeneous
+                              structure proxy: the growth-proxy load equals C_ref at this z. */
   double varconst_transition_width; /**< PRTOE (2026-07-12, the depth law): ramp width of
                               the window edges in ln(1+z). 0 (default) = the original
                               instantaneous steps (backward compatible); > 0 = both edges
                               become tanh ramps — the banked screening-edge fade (z~30-60)
-                              and the T_c condensation onset, at global-average level. */
+                              and the T_c condensation onset, at global-average level.
+                              Used only when varconst_density_gate is off. */
   double varconst_z_high; /**< PRTOE dyad HIGH-z window edge (2026-07-10): above this
                               redshift the constants return to STANDARD -- the dyad
                               condensate is thermally DISORDERED above its T_c (electron-CW
@@ -136,10 +145,32 @@ struct background
                               window is varconst_transition_redshift < z < varconst_z_high.
                               <=0 disables (default): plain varconst_instant step exactly. */
 
-  /* ===== PRTOE v4 -- dCDF: single dark fluid unifying CDM+DE =====
-   * See docs/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
-   * exactly barotropic: w(rho) = -exp(-(s+beta*s^2)), s = ln(rho/rho_inf).
-   * No gravity modification (contrast with v1-v3's F(phi)R coupling). */
+  /* PRTOE density-dependent Theta / gate screening (2026-07-23).
+   * Model: m_e(x) = m_e^lab * [1 + eps * f_growth(z) * S(x)], with
+   *   S = exp(-(max(Δ,0)/C_ref)^n)   (survival form; me_mechanism_math THE GATE)
+   * Δ is a local matter overdensity (voids: Δ≤0 → S=1 bare; clusters: Δ≫C_ref → S=0 lab).
+   * Homogeneous FRW has no local Δ, so the background path uses a structure proxy
+   * Δ_proxy(z) = C_ref * (1+z_trans)/(1+z)  (matter-era growth D∝a, calibrated so the
+   * load equals C_ref at varconst_transition_redshift — the banked z~30–60 fade).
+   * Local environments call background_varconst_of_z_delta(...).
+   * Off by default (legacy pure-redshift window); auto-on with dcdf_dyad_link=yes. */
+  short varconst_density_gate; /**< _TRUE_ = survival-form density gate; _FALSE_ = legacy z-window */
+  double varconst_C_ref;       /**< gate reference load (overdensity units); default 2 (fence window) */
+  double varconst_gate_n;      /**< survival exponent n; must exceed 2.43 (forced sharpness); default 4 */
+  short dyad_link;             /**< _TRUE_ when dcdf_dyad_link derived the amplitude */
+  double dyad_c;               /**< amplitude stack factor c (default 9/10) */
+  double dyad_f_amp;           /**< amplitude stack factor f_amp (default 2/π) */
+  double dyad_Psi0_GeV;        /**< amplitude stack Psi0 in GeV */
+  double dyad_eps;             /**< derived eps = c * f_amp * Psi0 / M_red */
+  /** After background_init: D(z_trans)/D(today) for the density-gate load.
+   *  0 means "not yet available" — of_z falls back to the a^{-1} proxy. */
+  double varconst_D_trans;
+  short varconst_bg_table_ready; /**< _TRUE_ once D is normalized and varc recomputed */
+
+  /* ===== PRTOE v4/v5 -- dCDF: single dark fluid unifying CDM+DE =====
+   * See docs/exploratory/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
+   * exactly barotropic: w(rho) = -rho_inf/rho  (p ≡ -rho_inf; beta removed 2026-07-05).
+   * Adiabatic sound speed c_s^2 ≡ 0. No gravity modification (vs v1-v3 F(phi)R). */
   short use_dcdf;         /**< flag: replace cdm+lambda with the dCDF fluid */
   double Omega_ini_dcdf;  /**< dust-era abundance at a_ini (shooting unknown) */
   double Omega0_dcdf;     /**< target dCDF density fraction today (shooting target) */
@@ -160,13 +191,13 @@ struct background
                              2 = baryons only (fluid excluded from delta_m) */
 
   /* PRTOE rotation-cancellation conversion (operator, 2026-07-09): as the twist
-   * relaxes, the dcdf matter-part (rho - rho_inf) sheds to a free-streaming dark-
-   * radiation component. Background-only (thermo untouched; the sigma8 effect rides
-   * the depleted rho_dcdf through the existing dcdf perturbation sector). */
+   * relaxes, the dcdf matter-part (rho - rho_inf) sheds to free-streaming dark
+   * radiation. Background + linear hierarchy when dcdf_conv_g > 0 (mirrors dcdm→dr). */
   double dcdf_conv_g;   /**< conversion strength: Gamma/H = g*shape(a); <=0 disables
                              (default), recovering the pure dust->deSitter fluid exactly */
   double dcdf_conv_at;  /**< conversion turn-on scale factor: shape=(a/at)^n/(1+(a/at)^n) */
   double dcdf_conv_n;   /**< conversion turn-on sharpness */
+  short has_dcdf_conv;  /**< TRUE when use_dcdf and dcdf_conv_g > 0: evolve conv DR multipoles */
 
   /* PRTOE Route-D thawing floor (2026-07-10, ForClaude t217-223): the sequestered-Lambda
    * reading forces turnaround~now -> floor mass m_J ~ H0 -> the de Sitter floor THAWS,
@@ -501,6 +532,26 @@ extern "C" {
                                double* me
                                );
 
+  /**
+   * Local-environment varying constants: same as background_varconst_of_z but
+   * with an explicit matter overdensity delta = rho_m/rho_mean - 1.
+   * Voids (delta ≤ 0) keep the bare value; overdense structure screens to lab.
+   * When varconst_density_gate is off this ignores delta and matches of_z.
+   */
+  int background_varconst_of_z_delta(
+                                     struct background* pba,
+                                     double z,
+                                     double delta,
+                                     double* alpha,
+                                     double* me
+                                     );
+
+  /** Survival-form gate S(load) = exp(-(max(load,0)/C_ref)^n). Returns 1 if gate off. */
+  double background_varconst_gate_S(
+                                    struct background* pba,
+                                    double load
+                                    );
+
   int background_init(
                       struct precision *ppr,
                       struct background *pba
@@ -703,10 +754,10 @@ extern "C" {
 
 //@}
 
-/* ===== PRTOE v4 -- dCDF equation of state and sound speed =====
- * See docs/PRTOE_v4_dCDF_derivation.md eq. (9)-(10). s = ln(rho/rho_inf) is
- * clamped at 0 (i.e. rho/rho_inf clamped at 1 before the log) to guard
- * against numerical overshoot below the de Sitter fixed point: the
+/* ===== PRTOE v4/v5 -- dCDF equation of state and sound speed =====
+ * See docs/exploratory/PRTOE_v4_dCDF_derivation.md (v5 update: beta deleted).
+ * s = ln(rho/rho_inf) is clamped at 0 (rho/rho_inf clamped at 1 before the log)
+ * to guard against numerical overshoot below the de Sitter fixed point: the
  * continuity equation has an exact fixed point at rho=rho_inf (w=-1 there),
  * approached asymptotically from above and never crossed in exact
  * integration, but finite-step integrators can overshoot slightly. */
@@ -739,24 +790,18 @@ static inline double cs2_dcdf(struct background *pba, double rho) {
  * environmental coupling, if ever wanted, must read total energy / H, not a
  * species. See docs/laws_and_rules/README.md. */
 
-/* PRTOE #17 conformal-origin radiation. A SEPARATE, background-only dark-radiation
- * energy density active above z_rad_onset, so the total dCDF-associated energy
- * redshifts ~a^-4 (radiation) -> a^-3 (dust) -> const (de Sitter): the equation
- * of state runs 1/3 -> 0 -> -1. By design it drives ONLY the expansion -- it is
- * added to rho_tot / p_tot / rho_r (like any relativistic species) and is
- * DELIBERATELY NOT folded into w_dcdf, rho_m, or the dcdf perturbation sector:
- * radiation has pressure support and must not bleed into clustering/structure.
- * The amplitude is DERIVED from the fluid's own abundance (Omega_ini_dcdf) and is
- * continuous with the dust density at the onset -- no free amplitude knob, only
- * z_rad_onset. f(a) = x^2/(1+x^2), x = a_onset/a: ->1 early, ->0 late.
- * dcdf_z_rad_onset <= 0 disables it, recovering the pure dust->deSitter fluid. */
-/* [2026-07-12 THE DISPERSION UPGRADE, derivation-hunt sweep 1] The phenomenological
- * ramp x^2/(1+x^2) is REPLACED by the DERIVED single-mode shape: the winding is one
- * comoving mode, so its energy is the exact massive dispersion rho ~ omega(a)/a^3,
- * omega = sqrt(m^2 + (k/a)^2), normalized to the dust density late. With x = a_on/a
- * (a_on = the H=m clock, now EXACTLY the fit parameter -- the fit-vs-clock offset
- * dissolves by construction): total/dust = sqrt(1+x^2), i.e. the EXTRA (radiation-like)
- * part is dust*(sqrt(1+x^2)-1). Pressure exact: p_extra = dust * x^2/(3*sqrt(1+x^2)).
+/* PRTOE #17 conformal-origin radiation (dispersion form, 2026-07-12).
+ * A SEPARATE, background-only dark-radiation energy density active above
+ * z_rad_onset, so the total dCDF-associated energy redshifts ~a^-4 -> a^-3 ->
+ * const: the equation of state runs 1/3 -> 0 -> -1. By design it drives ONLY
+ * the expansion -- added to rho_tot / p_tot / rho_r and DELIBERATELY NOT folded
+ * into w_dcdf, rho_m, or the dcdf perturbation sector (must not bleed into
+ * clustering). Amplitude DERIVED from Omega_ini_dcdf; continuous with dust at
+ * onset; only free knob is z_rad_onset (<=0 disables, pure dust->deSitter).
+ *
+ * Live shape is the derived single-mode massive dispersion (not the retired
+ * phenomenological ramp x^2/(1+x^2)): x = a_on/a, extra density =
+ * dust*(sqrt(1+x^2)-1), p_extra = dust * x^2/(3*sqrt(1+x^2)).
  * Old-template chains (pre-2026-07-12) carry the old shape; do not resume them. */
 static inline double dcdf_rho_rad(struct background *pba, double a) {
   if (pba->dcdf_z_rad_onset <= 0.0) return 0.0;

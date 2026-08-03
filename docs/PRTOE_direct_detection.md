@@ -3,10 +3,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Thread 9. Status: STRUCTURAL — the nulls are FORCED by graded results, not chosen. The
-improvement: WIMP-era cosmology treats forty years of detector silence as bad luck in a
-parameter scan; this model PREDICTS the silence, from theorems, across every channel at once —
-and stakes its life on the silence continuing.*
+*Thread 9. The nulls are forced by the model's structure, not chosen. WIMP-era cosmology treats
+forty years of detector silence as bad luck in a parameter scan; this model predicts the silence,
+from theorems, across every channel at once — and stakes its life on the silence continuing.*
 
 ## 0. The landscape
 
@@ -19,23 +18,39 @@ was always adjustable. This model has no room to adjust:
 
 | channel | the model's verdict | forced by |
 |---|---|---|
-| axion haloscopes / LSW (dark matter ↔ photons) | **NULL, forever** | EM-neutrality forced to 37–47 orders below unit charge (Meissner/photon-mass, q_EM < 4.7×10⁻³⁸…10⁻⁴⁷); the birefringence anomaly-zero (L1a, recorded) |
-| nuclear recoil (dark matter ↔ quarks, contact) | **NULL at all reachable cross-sections** | the medium is a condensate of 2×10⁻²⁰ eV quanta — no particle-like recoils exist; the only matter coupling is the trace channel at gravitational-strength-class (c ~ 0.9) |
-| fifth-force / EP torsion balances | **NULL within current reach** | the EP/Vainshtein gate cleared with 5-order margin (recorded distinctive-standing) |
-| collider missing-energy production | **NULL within reach** | the dyad's decay constant sits at 100–500 TeV and the census portal at 13–20 TeV — both above collider energies; the vector-like leptons are collider-safe by construction. HL-LHC referees the visible branch |
+| axion haloscopes / LSW (dark matter ↔ photons) | **null, forever** | EM-neutrality forced to 37–47 orders below unit charge (Meissner/photon-mass, q_EM < 4.7×10⁻³⁸…10⁻⁴⁷); the birefringence anomaly-zero (L1a, recorded) |
+| nuclear recoil (dark matter ↔ quarks, contact) | **null at all reachable cross-sections** | the medium is a condensate of 2×10⁻²⁰ eV quanta — no particle-like recoils exist; the only matter coupling is the trace channel at gravitational-strength-class (c ~ 0.9) |
+| fifth-force / EP torsion balances | **null within current reach** | the EP/Vainshtein gate cleared with 5-order margin (recorded distinctive-standing) |
+| collider missing-energy production | **null within reach** | the electron-coupled scalar's decay constant sits at 100–500 TeV and the census portal at 13–20 TeV — both above collider energies; the vector-like leptons are collider-safe by construction. HL-LHC referees the visible branch |
 
-## 2. Where the model says LOOK INSTEAD (the redirect that makes this an improvement)
+**The corners, checked rather than assumed.** The bound is quoted as a nine-order range because it
+is not one measurement: it comes from photon-mass limits through m_γ² = 2q²n/m, so the charge bound
+scales as q ≲ √(m_γ,limit²·m/2n) and every environment with its own density n returns its own number.
+That scaling settles the two corners worth asking about, and it settles them the safe way. **Denser
+environments and earlier epochs both raise n, and a larger n makes the bound *stronger*, not weaker**
+— the same dark charge would produce a bigger Meissner response where the medium is thicker. The
+direction in which the bound genuinely weakens is *low* density, and no laboratory sits there: a
+haloscope operates at the local halo density, not in a void.
+
+The one caveat is not about the physics but the inference. In a dense plasma the dark
+contribution to the photon mass is degenerate with the ordinary plasma mass, so a limit set there
+constrains the sum and cannot cleanly separate the dark part. That is why the strong end of the range
+should never be the number a null is stated against — and it is not. **The claim above is already
+written against the weak end, 37 orders, not the strong end's 47.** So the null as stated survives
+every corner in the range, and would survive even if the strong end were dropped entirely.
+
+## 2. Where the model says look instead (the redirect that makes this an improvement)
 
 The detection budget, per this model, belongs to: the **radio sub-lattice** (the ratio-lock,
 P-027's referee, P-029's comb), **CMB-S4's neutrino sector** (the Majoron corner, P-025 —
-the ONE laboratory-adjacent coupling the model owns), **parity-odd magnetism** (the signed
+the one laboratory-adjacent coupling the model owns), **parity-odd magnetism** (the signed
 helicity, P-028), and **precision mass-ratio drift** (the ε-dipole P-024, Koide-preserving).
 The model doesn't just predict where dark matter isn't — it says which instruments are aimed
 at the actual interfaces.
 
-## 3. The honest exposure
+## 3. The exposure
 
-This stance is UNHEDGEABLE: **one confirmed direct-detection signal — one haloscope photon,
+This stance is unhedgeable: **one confirmed direct-detection signal — one haloscope photon,
 one WIMP recoil above coherent-neutrino floor attributable to the halo — kills the model
 outright.** No parameter absorbs it (that is what "forced by theorems" costs). Conversely the
 model earns nothing further from continued silence — the asymmetric bet it has already recorded

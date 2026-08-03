@@ -70,7 +70,10 @@ int thermodynamics_at_z(
   double x0;
   /* Dark matter baryon scattering */
   double Vrms_idm_b2, T_diff_idm_b, m_b, FHe;
-  /* Varying fundamental constants */
+  /* Varying fundamental constants (1705.03925). PRTOE: this module consumes
+   * alpha(z), me(z) from background_varconst_of_z — it does not own the m_e
+   * model. With dcdf_dyad_link the background derives eps from the amplitude
+   * stack and applies the density gate; thermodynamics only rescales rates. */
   double sigmaTrescale = 1., alpha = 1., me = 1.;
 
   /* The fact that z is in the pre-computed range 0 <= z <= z_initial will be checked in the interpolation routines below. Before

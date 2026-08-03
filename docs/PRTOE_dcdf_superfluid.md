@@ -1,44 +1,46 @@
-# The dCDF — the Superfluid Piece (identity file)
+# dCDF — the superfluid piece (identity file)
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
-> conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Derivation: [exploratory/PRTOE_v4_dCDF_derivation.md](exploratory/PRTOE_v4_dCDF_derivation.md). Code: [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md).
 
-*Status: identity file. Grades are inline: **[ESTABLISHED]** derived/coded and load-bearing · **[CANDIDATE]**
-coherent synthesis, unbanked · **[KILLED]** tried and dead. The quantitative derivations live in
-[PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md) /
-[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md); this file is the WHAT-IT-IS, not the
-derivation. It is one of TWO dark fields — its partner is the dyad
-([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)).*
+One of three dark fields — with the electron-coupled scalar ([PRTOE_dyad_gas.md](PRTOE_dyad_gas.md)) and the Majoron ([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)).
+
+## 0. Derived core / open residue
+
+**Derived / forced**
+
+- Two-era dark superfluid; exact **w = −1** floor (p = −ρ_inf)
+- Onset clock H = m; radiation → dust crossover
+- s-wave channel selected by binding data
+- Finite quartic floor (no-singularity support scale)
+- Topological / winding side carries chirality and axis-family information
+
+**Open**
+
+- the residual magnitude **from this sector's own dynamics** (it is supplied by the Koide-kernel
+  route — see §5 and the note there; what fails here is the fluctuation–dissipation closure —
+  FDT here is ohmic and misses);
+- the exact link between the condensate floor and the bounce dynamics (**bounce not derived**).
+
+*(The matter-asymmetry sign correlation from the genesis draw is **not** still open: the joint
+draw was run 2026-07-20 and finds θ̇ and n independent — the cross-messenger lock is void, not
+pending; see [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md) and §3 below.)*
+
+So the dCDF is already mostly derived structurally. The open residue is the residual magnitude
+and the bounce junction, not the existence of the component itself.
 
 ---
 
-## 1. What it is [ESTABLISHED]
+## 1. What it is
 
-Field 1 of the two-field dark sector: a cosmological **superfluid** that unifies dark matter and
-dark energy. Ultralight quantum **m ≈ 2.24×10⁻²⁰ eV** (the onset clock — effectively massless on
-any laboratory scale). Ground state **w = −1 exactly** (the de Sitter floor, P = −ρ_inf);
-excitations are radiation-like above the H = m onset (z ≈ 4×10⁷) and dust-like below — **one
-fluid, two eras**.
+Cosmological superfluid unifying DM and DE. Ultralight mass **m ≈ 2.24×10⁻²⁰ eV** (onset clock). Ground state **w = −1** (de Sitter floor). Excitations radiation-like above H = m (z ~ 4×10⁷), dust-like below — **one fluid, two eras**. Implemented in CLASS (`use_dcdf`, dispersion rad phase, optional conversion/thaw).
 
-## 2. Its structure: an s-wave-binding, baryon-free condensate [CANDIDATE]
+## 2. Structure
 
-**The binding channel is s-wave, and the data selects it.** E_b is a Coulombic two-body level
-(E_n = ½α_c²M₂/n², partial wave ℓ requiring n ≥ ℓ+1), so the channel picks the level: the s-wave
-ground state gives **2.2599 meV** vs the observed 2.25, against **−74.9%** for p-wave and
-**−93.7%** for f-wave ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4c). The
-flagship's agreement *requires* ℓ = 0.
+**s-wave binding, selected by data.** Coulombic two-body levels: s-wave gives **2.2599 meV** vs observed 2.25; p-wave −75%; f-wave −94% ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)). Agreement requires ℓ = 0.
 
-**The mechanism: the medium is He-3-A missing its baryonic matter.** He-3 pairs p-wave *because*
-its baryonic hard core suppresses ℓ = 0 — chiral superfluidity is not intrinsically p-wave; helium
-is made of baryons. A medium with no baryonic core leaves the s-wave channel unsuppressed, which is
-the channel the data selects. The finiteness balance independently selects a dark **SU(2)** sector,
-whose pseudo-real fundamental makes its baryons **bosonic diquarks** — no fermionic hard core
-exists, the lightest baryon is the **scalar** diquark, and two-color QCD is the canonical
-diquark-BEC realization of the BCS–BEC crossover the occupancy argument requires
-([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), P-2026-048; candidate
-grade, one uncomputed lattice number decides it).
+**Analogy (not identity):** ³He-A pairs p-wave because of a baryonic hard core. A medium without a fermionic hard core leaves s-wave open. Finiteness balance selects dark **SU(2)** with bosonic diquarks (pseudo-real fundamental) — canonical diquark-BEC / BCS–BEC language (P-2026-048; lattice T_c/√σ still owed).
 
-**What this identity does NOT source.** Two claims once rested here and rest elsewhere:
+**What this identity does not source.** Two claims once rested here and rest elsewhere:
 - **The chirality** — parity-odd signatures (GW handedness, IGMF helicity, LSS parity, the AD
   matter bias) are signed by the **genesis winding integer n**, not by a pairing channel. The
   three-membered family (matter / magnetism / metric) is one integer:
@@ -48,51 +50,37 @@ grade, one uncomputed lattice number decides it).
 - **The generation count** — forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
   **N_gen = 3** uniquely, pure heat-kernel species counting with no nodes and no angular momentum
   ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3; P-2026-045, conditional on
-  ξ_H = 1/6).
+  ξ_H = 1/6). SM alone: **−1/2** (Visser) / **−3** (Weyl deficit).
 
-*(The retired "He-3-A class / p-wave L" reading of this section — which sourced both of the above
-from node topology — is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). Literal
-He-3-as-medium is **[KILLED]** there on four independent shots.)*
+Literal He-3-as-medium: **retired** (failures ledger).
 
-## 3. Its charge: abundance + asymmetry [CANDIDATE]
+## 3. Charge: abundance + asymmetry
 
-Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abundance"). The
-**genesis winding's** handedness (the integer n, §2) is what biases matter over antimatter — so the
-dCDF plausibly **sourced the matter asymmetry** (why the hot baryonic pour contains matter at all).
-*"The superfluid fathered the visible universe"* = this claim, candidate grade, and the live thread:
-derive the sign(n) → matter-vs-antimatter link — the **AD-direct rectification**, which reduces
-to a single relative sign (matter rides the temporal rotation, handedness the spatial winding;
-the recorded first-roll theorem is what would lock them), the one owed
-junction of the chirality family's sign map
-([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)).
+Carries the dark **abundance/asymmetry** charge (the AD-spiral, "charge = abundance"). The genesis
+draw is **a candidate source of the matter asymmetry** (why the hot baryonic pour contains matter at
+all) — candidate at the magnitude/route grade, not at the absolute-sign grade. *"The superfluid
+fathered the visible universe"* = this claim at that grade. The **AD-direct rectification** that
+would have locked matter's temporal rotation θ̇ to the spatial winding n has been run
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)): the two signs
+are independent, so the cross-messenger lock is void rather than unbuilt.
 
-## 4. Its light [ESTABLISHED]
+**The temporal factor is settled and it is a coin.** The genesis tilt's reflection symmetry
+θ → π/2 − θ leaves release-at-rest and the uniform prior invariant while flipping L = R² θ̇, so the
+roll generates rotation with no preferred sense — verified to machine precision at every tilt
+strength. So the sector cannot name which handedness means matter *a priori*. The **correlation**
+has since been computed: one draw carrying both the winding and the rotation was built and run
+(#154, 2026-07-20) and finds the two signs **independent** — joint correlation −0.06 to +0.09
+against a ±0.13 floor. The absolute-handedness question is therefore closed as *void*, not pending.
 
-Light is the dCDF's **massless Goldstone mode** (the transverse collective mode of the
-condensate). *This identification carries a second load as of 2026-07-19: it is what makes α the
-medium's own coupling rather than an external one, and so what lets the hierarchy's pairing kernel
-be electromagnetic without α being obliged to run to the pairing scale
-([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6g).* The medium is EM-neutral → transparent → zero optical birefringence; the parity is
-forced into the metric instead. Full account: [PRTOE_light.md](PRTOE_light.md).
+## 4. Light
 
-## 5. What it does NOT close (honest boundaries)
+Light as massless Goldstone of the condensate (load-bearing for “α is the medium’s coupling” in hierarchy pairing). EM-neutral → transparent → no optical birefringence. Detail: [exploratory/PRTOE_light.md](exploratory/PRTOE_light.md).
 
-- The dark-energy **value** does **not** forward-close from the neutrino microphysics: the
- fluctuation-dissipation response is **ohmic (s = 1)**, a **21-dex miss**. The
- sub-ohmic/critical closure (s ≈ 0.26) is **CONDITIONAL** on the settling attractor being
- self-organized-critical (otherwise the transition boils, first-order); the boiling-free
- superfluid-λ reading gives s ≈ 0.69 (misses). See the derivation log.
-- **w = −1 is exact and derived**; the residual's *magnitude* is the owed piece.
+## 5. What it does not close
 
-## Where the dead ends live
+- **DE value** does not forward-close from this sector’s FDT (ohmic, ~21 dex miss). Sub-ohmic SOC is **not** a DE self-tuning escape (belongs to DM channel). Magnitude **is** supplied at existence grade by Koide-kernel ρ_Λ¼ = (9/2)α⁴ T_c = 2.2599 meV — **one route supplies, this sector’s own route fails; both belong in the same sentence.**
+- **w = −1** exact and derived for the floor; optional Route-D thaw is a separate registered fork (DESI DR3).
 
-Literal He-3-as-medium (four shots) and the DE-amplitude inversion are in
-[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). The chirality/GW-parity dead ends are under
-**"Birefringence."**
+## Dead ends / sources
 
-## Sources / see also
-
-Derivations: [PRTOE_v4_dCDF_derivation.md](PRTOE_v4_dCDF_derivation.md),
-[PRTOE_v5_dCDF_complete.md](archive/PRTOE_v5_dCDF_complete.md). The Goldstone: [PRTOE_light.md](PRTOE_light.md).
-Genesis: [PRTOE_white_holes.md](PRTOE_white_holes.md). The three-door map + the response function:
-the derivation log ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)).
+Failures: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). v4/v5 derivation docs; CC file; [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md).

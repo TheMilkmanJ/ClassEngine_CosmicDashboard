@@ -3,10 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **STATUS: graded per claim — see the table in §3.** The model answers each problem inflation was
-> invented for without an inflaton, but the answers are not of one kind: two are consequences of
-> structure the model already has, one is a *measurement* rather than a derivation, and the tilt is
-> a computed candidate. Read the grades, not the headline.
+> The model answers each problem inflation was invented for without an inflaton, but the answers
+> are not of one kind: two are consequences of structure the model already has, one is a
+> *measurement* rather than a derivation, and the tilt is a computed candidate. See the table in §3
+> rather than the headline alone.
 
 ## 0. What inflation was hired to do
 Solve the horizon problem (why the sky is one temperature), the flatness problem, dilute
@@ -15,14 +15,14 @@ does so at the price of: an inflaton field with a tuned potential, the measure p
 and eternal-inflation's multiverse.
 
 ## 1. The model's answers, one per problem
-- **Horizon**: the universe is CYCLIC with a bounce (the CSW pressure floor discharges
+- **Horizon**: the universe is cyclic with a bounce (the CSW pressure floor discharges
  the singularity) — causal contact is inherited from the previous cycle. No superluminal
  trick needed; the sky is one temperature because it has always been one system.
 - **Flatness/geometry**: the compact flat torus is the model's standing geometry (the omk
  run: curvature offered, declined); geometry is inherited through the bounce,
  not driven flat.
 - **Relics**: no GUT phase transition is invoked → no monopole problem to dilute. The one
- topological object (the winding) is not a relic problem — it is the GENOME, and its
+ topological object (the winding) is not a relic problem — it is the genome, and its
  observational signature is the axis family (a prediction, not a pollution).
 - **The seeds**: the zero-point start (§19) — fluctuations are the condensate's quantum
  noise, stretched through the conformal (w = 1/3) phase.
@@ -38,7 +38,7 @@ and eternal-inflation's multiverse.
  [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §7 carries the exhibit. Inflation fits
  this number with potential parameters; here it comes out of recorded scales.)
 - **The isocurvature signature**: inflation must suppress isocurvature; this model
- PREDICTS a specific %-level line at ℓ ~ 170 (P-031, now a consequence of the λ
+ predicts a specific %-level line at ℓ ~ 170 (P-031, now a consequence of the λ
  saturation) — a discriminant, not an embarrassment.
 
 ## 3. What supports each answer
@@ -60,7 +60,7 @@ current sensitivity — so it is a real distinguishing feature that no present d
 **ln(M_Pl/T_on) = 55.5**, and the corpus's bare-handout asymmetry 1/α_Y(M_Pl) is also 55.5. Noted,
 unexplained, and not used.*
 
-## 2. What the model does NOT need
+## 2. What the model does not need
 No inflaton, no slow-roll tuning, no reheating theory, no measure problem, no eternal
 inflation, no multiverse. The price paid instead: the cyclic/bounce machinery (recorded),
 and the A_s amplitude count (1/N census form — coupling, loop factor, and the normalization k

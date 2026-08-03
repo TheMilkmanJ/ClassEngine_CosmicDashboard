@@ -342,6 +342,19 @@ A = R/M has no derivable value, no Ginzburg *number* is computable (same missing
 V ~ M², K ~ R² identification cannot be checked. **The 120° geometry is derived; the amplitude is
 not, and now we know why.**
 
+**The background M and the missing constraint are one object, not two.**
+The graded-norm result below reduces Q = 2/3 to a vanishing f₀² − |f₁|² − |f₂|² = 0, and a
+vanishing norm invites *a constraint, an index, or a conservation law* rather than an equilibrium —
+because every energy-minimum candidate died. That is the same statement as this blank from the
+other side: an **energy** picture needs a background M to set the ring's centre and the theory has
+none, while a **constraint** picture fixes the swing-to-centre ratio directly, with no dynamical
+minimum and so no M to supply. So the object that would supply the missing constraint (forcing the
+graded norm to vanish) is the same object that would supply the background M (setting the ring's
+centre without a potential's minimum). The R₀/R_v scale question folds in here too: it is the same
+missing scale read at the vortex ring rather than the √m axis.
+**One missing object, three faces — the ring's centre, the graded-norm constraint, and the vortex
+scale. Naming it as three debts overstated the count.**
+
 ---
 
 
@@ -476,7 +489,7 @@ concrete coupling either (a) leaves A free, (b) writes 2 into V by hand, or (c) 
 
 ### Shape 4 — basement lock 6 → DELEGATION, not payment
 
-Lock 6 is a *scoreboard target* the basement must hit ([PRTOE_light.md](../PRTOE_light.md) §6),
+Lock 6 is a *scoreboard target* the basement must hit ([PRTOE_light.md](../exploratory/PRTOE_light.md) §6),
 not a mechanism. Square-diagonal → √2 fights Z₃ (triangular 120°; square is Z4-adjacent, and
 the Z4-torus floor is already retired). Equilateral geometry yields √3 ratios, not √2.
 
@@ -699,7 +712,7 @@ amplitude constants are the first and second moments of the SAME uniform-phase m
 f̄ = ⟨|cos|⟩ = 2/π and 1/A = √⟨cos²⟩ = 1/√2. One equidistribution, two moments, two constants.
 No shared mechanism built; watch grade. **UPGRADED to the moment TRIO:** the anchor's
 e^(−3/2) is the exponential channel's member — the geometric mean of the thermal boost
-measure (hierarchy §2b, derived at additivity grade). Three coupling orders, three forced
+measure (hierarchy §2 part (b), derived at additivity grade). Three coupling orders, three forced
 averages: linear → first moment, quadratic → second moment, exponential → geometric mean.
 The portfolio's three floors carry the three averaging structures of one thermal medium.
 
@@ -1077,6 +1090,30 @@ structure R_c = M_c needs has no source at Widnall aspect ratios (pair asymmetry
 delivery is therefore weight-independent per-mode — A → 2, the axis grave. **The ring-on-ring
 deliverer is dead. Autopsy with full receipts: the failures ledger.**
 
+**Scope of the "no source" clause, corrected 2026-07-28 (see the ledger's amendment).** It holds
+for the *geometric* host and for the kernel the corpus's own regime implies. A kernel sweep on the
+same three-defect ring gives, in this frame: **−log r (the 2D vortex kernel) → k_doublet = 0
+exactly**, so the shape mode is not nearly flat but perfectly flat, and the 0.99 degeneracy above
+is generous to the host; **1/r → k_S/k_D = 8**; **pair-harmonic r² → k_S = 6, k_D = 3, i.e.
+k_S/k_D = 2 exactly**, at every R, which is the structure this passage says has no source. So a
+source exists — one standard kernel supplies the ratio identically. What is owed is why the family
+ring's defects should interact pair-harmonically rather than logarithmically.
+
+> **Superseded 2026-07-28, conditionally, and the condition is worth stating.** This question
+> presupposes that the null's stiffness ratio is set by a defect-**position** kernel. Three results
+> remove that presupposition. (i) T6's own computation (i) had already closed the geometric route by
+> bracketing. (ii) `koide_frame_bridge.py` closes it by a *branch*: restoring the confining trap so
+> the ring sits at a real equilibrium, every isotropic kernel lands on the convex branch with
+> ε_D/ε_S capped at ¾, while the thermal null needs 2 — so **no choice of kernel reaches it**, and
+> the pair-harmonic hit was a match to a delivery law since superseded. (iii) The democratic
+> construction supplies the null in **amplitude** space instead, giving a = b from the graph's
+> edge-transitivity, so no pair kernel is asked for the ratio at all.
+>
+> The question therefore cannot be answered as posed: if the democratic construction stands, it does
+> not arise; if it falls, (ii) says no kernel answers it either. What would revive it is a
+> demonstration that the null does live in position space after all — which is the same thing as
+> refuting (ii).
+
 **The door's final state after the campaign:** the equivalence stack stands as mathematics
 (A = √2 ⟺ sector-equipartition ⟺ R_c = M_c ⟺ the mean-power locus — derived both directions);
 the wall-tangency kinematics, the dressing frame, the moment arithmetic, and all seven-plus
@@ -1174,12 +1211,14 @@ two numbers to one modulus plus one law. Grade: post-hoc-found candidate closure
 status through its independent consequence:
 
 **THE DEVIATION LOCK (registered as P-2026-051):** the closure demands the two watches'
-deviations be correlated on one line, δθ = (2A/9)·δA = 0.3143·δA. Current data: δA =
-−1.36×10⁻⁵ ± 1.4×10⁻⁵, δθ = −7.0×10⁻⁶ ± 8.7×10⁻⁶ rad — the lock's prediction −4.3×10⁻⁶ sits
-**−0.31σ** from measurement. **The lock HOLDS at current precision and is tested by every
-future τ-mass improvement** (Belle II class): deviations leaving the line kill the closure;
-deviations tracking it as errors shrink would be mechanism-grade evidence that the spectrum
-closes on itself.
+deviations be correlated on one line, δθ = (A/9)·δA = 0.1571·δA. Taken from the pole masses:
+δA = −1.3057×10⁻⁵ ± 1.4372×10⁻⁵, δθ = **+**7.409×10⁻⁶ ± 8.348×10⁻⁶ rad. The slope is positive
+so the closure wants the two same-signed; they are opposite-signed, and the residual off the
+line is +9.461×10⁻⁶ ± 1.061×10⁻⁵ = **+0.89σ** — consistent, on the side the closure does not
+predict. **The lock HOLDS at current precision**, but what it can referee is bounded: both axes
+are functions of m_τ alone (correlation exactly −1), so the σ must be taken on the residual, and
+the closure's own m_τ (1776.96705 MeV) sits 2.52 keV from the amplitude watch's (1776.96903).
+Until m_τ reaches ~1.4 ppm, testing the closure IS testing A = √2 — see the m_τ table below.
 
 
 ## THE CARRIER QUESTION — "is it a gluon?" — and the rep fork it forces (2026-07-18, night)
@@ -1287,6 +1326,34 @@ collective rotation imprints at freeze. And t is confirmed at class — the flux
 w·√σ ≈ 0.8–1.1, thin-film consistent — giving the demand band F_dark/√σ = 0.40–0.47. The one
 lattice campaign now referees three numbers: T_c/√σ, F_π/√σ, w·√σ. Current forward statement:
 [PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4.
+
+**#134 — THE NORMALIZATION FIXED, AND WHAT IT UNCOVERED (2026-07-20).** Three results, the
+third adverse. (a) **The convention is derivable, not a band.** Matching L_θ = (F²/2)(∂θ)²
+against L = (F_π²/4)Tr(∂U†∂U) on the winding direction U = diag(e^{iθ}, e^{−iθ}) gives
+L = (F_π²/2)(∂θ)², so F ≡ F_π = √2 f_π — the **130.4-MeV branch**. The "convention band"
+0.30–0.42 was one number written twice; the pinned value is 0.4204. (b) **The 0.3%
+QCD-proximity note was a cross-convention artifact** and is withdrawn: it divided the model's
+number by √2 and left QCD's undivided. Like for like, 0.4204 vs QCD's 130.4/440 = 0.2964 is a
+factor 1.4186 — √2 to 0.3%. The model sits a clean √2 above QCD, not on it. (c) **A second
+route appeared to disagree by 2.39× and does not.** Also recorded: F_dark/√σ and w·√σ are
+**not two independent referees** — the demand band is derived from c₂ *and* t, so only the
+pair tests anything, through c₂ = √3·2π·(F/√σ)²·(w√σ).
+
+**#134 — CLOSED (2026-07-20, same day): the 2.39 was a change of denominator.** The NJL/gap
+chain (`scripts/de_value_g_to_lambda.py`) prints 0.1244 as *f/√σ*; its formula is
+f² = N_c M² F(y)/(2π²) with y = M/Λ, so the coded quantity (`:113`) is **f/Λ** — the NJL
+three-momentum regulator, not the string tension. Λ = √σ was inherited from two different
+statements about one number (`de_value_derive_Lambda_g.py:9-11` fixes Λ = m_e by electron
+compositeness; `de_value_g_to_lambda.py:51` labels 511 keV *the portal √σ_dark = m_e*), and
+the script's own QCD anchor refutes it: Λ = 631 MeV against √σ = 440 MeV, so read its way QCD
+returns f/Λ = 0.1475 where the measured f_π/√σ is 0.2100 — **1.42× off where it is checkable**.
+The 2.39 factors 1.424 (the unit error) × 1.186 (the real N_c = 2 dark-vs-QCD offset) × 1.419
+(the vortex route's own √2-above-QCD). The tell was printed all along: `:123-124` puts 0.1244
+against *"the corpus's QCD-transfer band 0.19–0.25"* and lands below it. The route cannot be
+repaired here — nothing determines Λ_dark/√σ_dark independently — and it was never the same
+observable anyway: it computes the **dyad's** condensate, while F_dark belongs to the
+**confining SU(2) sector**, whose two condensates §6 rules the dyad is neither of.
+**F_dark/√σ = 0.40–0.47 stands unopposed; the √2-above-QCD offset is what a lattice tests.**
 
 **THE KMS TWIST READING (2026-07-18, the night's last derivation):** the t_corr·T_c = 1
 question DISSOLVES — it was the drift picture's shadow of the KMS periodicity (β = 1/T is
@@ -1524,10 +1591,1963 @@ sign question in both sectors now funnels through ONE object: the genesis produc
 decided by the first-roll-at-rest theorem run for its sign.** The cross-sector lock is
 therefore registrable in conditional form now — "IF the first-roll sign run fixes sign(μ·n) = s,
 THEN sign(θ_B) = s·sign(helicity_B), a two-observable prediction with zero remaining freedom"
-— and graduates to a full registration the day that run lands.
+— and graduates to a full registration the day that run lands. **Registered in that form as
+P-2026-057** (2026-07-20), with the trigger convention carried as its named fence.
 
 **Desk state of #79 after both steps:** the kernel chain (modulus ½ln2, phase 2/9, the closure
 3θ = Q) stands candidate-grade end to end on exactly ONE internal postulate (the
 fundamental-winding identification, step 1) plus ONE genesis computation (the first-roll sign
 run) plus the external lattice triple (T_c/√σ, F_π/√σ, w·√σ) and the P-2026-051 deviation lock.
 The two desk steps the open surface owed are worked; what remains is not desk work.
+
+
+## THE #101 / #102 PASS (2026-07-20): the sector reduces to one measurement, and one class is named
+
+**Every headline number in the sector was recomputed from the pole masses, and they all stand.**
+Q = 0.6666605 ± 6.8×10⁻⁶, A = 1.414200 ± 0.000014, θ_house = 132.7328° ± 0.0005°,
+V/μ² = 0.9999815, the 84.9% of the way to the wall, the (−0.960, −0.420, +1.379) face deviations.
+Nothing in the sector's arithmetic moved.
+
+### #101 — what enforces Var(√m) = mean² exactly
+
+**The three-draw kill is now closed form, not a simulation.** Q is scale-free, so for iid
+exponential draws it depends only on the proportions, which are Dirichlet(1,1,1) — uniform on the
+simplex. The Dirichlet moments then give **E[Q] = 1/2** and **Var[Q] = 1/60** exactly (σ = 1/√60 =
+0.12910), reproducing the recorded 0.50 and 0.13 from first principles. The geometry gives the rest:
+Q = ⅓ + r² with r the distance from the centroid, and at Q = 2/3 the radius stands to the inradius
+as √2, so each side removes exactly 90° and **the density is π/(2√3) = 0.90690**. The odds of
+landing as close as the leptons do are πε/√3 = **1.1×10⁻⁵** with ε = |Q − 2/3| = 6.16×10⁻⁶ —
+confirmed against 10⁸ draws (1.111×10⁻⁵ ± 3.0×10⁻⁷). The kill is unchanged in kind and now cannot
+rot.
+
+**Two repairs the kill left open, both closed and both negative.** If the three √m were not draws
+but the exponential's own deterministic representatives, there would be no scatter to kill —
+so the representatives were computed:
+
+| reading | √m triple | Q |
+|---|---|---|
+| mid-quantiles of Exp(1) | 0.18232, 0.69315, 1.79176 | 0.52348 |
+| expected order statistics | 1/3, 5/6, 11/6 | 25/54 = 0.46296 |
+| equally spaced in CDF | 0.28768, 0.69315, 1.38629 | 0.44350 |
+| geometric ladder e^k | 1, e, e² | 0.51054 |
+
+**None is near 2/3.** The exponential law carries CV = 1 as a property of the *distribution*; no
+finite realisation of it inherits the property. The thermal reading is dead as a source of the
+number, not merely as a source of its precision — a stronger negative than the sampling argument
+gave.
+
+**What the exactness itself says, and it is the pass's one structural output.** Written in the
+kernel's coordinates, Parseval turns the constraint into
+
+> **Q = 2/3 ⟺ f₀² − |f₁|² − |f₂|² = 0**
+
+— the Fourier vector is **null** for the indefinite form graded by Z₃ charge (neutral timelike, the
+two charged modes spacelike). In face coordinates the same condition is (2/3)(Σ√m)² − Σm = 0, a
+form with eigenvalues (+1, −1, −1) whose light cone opens at 45° about (1,1,1). This is an exact
+rewriting and moves no number. Its use is classification: **it is the same equation as
+"the two charge sectors carry equal power", but in the form that says what kind of mechanism can
+hold it.** Equal-power invites equilibrium arguments, and every one of them delivers a value with
+fluctuations around it — which is precisely how the seven recorded selectors and the thermal
+reading died. A vanishing graded norm invites a constraint, an index, or a conservation law, which
+is the only class that delivers exactness. **The blank does not close; it changes aisle.**
+
+**Grade: UNEARNED EXACTNESS, unchanged.** Nothing in the corpus says why the graded norm vanishes.
+What the pass adds is that the search should stop visiting the aisle it has been in.
+
+### #79 — the kernel ratio's MAGNITUDE is the cone; only the phase survives (2026-07-20)
+
+Posing #101 in the kernel's own coordinates settles half of #79's target — the complex ratio
+f₁/f₀ = e^(−τ)·e^(i·2/9) — outright. The **magnitude is not a second fact to source; it is the
+null condition itself.** With the masses real, f₂ = f₁*, so |f₁| = |f₂| (checked to 4×10⁻¹⁵), and
+the null constraint f₀² = |f₁|² + |f₂|² collapses to f₀² = 2|f₁|². Hence
+
+> **|f₁/f₀|² = 1/2  ⟺  |f₁/f₀| = e^(−τ),  τ = ½ ln 2**
+
+exactly — verified on the pole masses at |f₁/f₀| = 0.707100 vs e^(−τ) = 0.707107. The exponent's
+ln 2 is the log of the **two** charged legs: |f₁/f₀|² = 1/N_charged with N_charged = 2, so
+τ = ½ ln N_charged. The kernel's amplitude ratio is therefore sourced to precisely where Q = 2/3 is
+sourced — the graded null — and τ = ½ ln 2 is forced by "two equal spacelike legs balancing one
+timelike seat," the same ½ ln 2 the shell-cutoff seam carries. **The magnitude half of #79 closes
+into #101.**
+
+**The phase does not, and cannot, come from the cone.** A vanishing graded norm is a statement about
+magnitudes; it is blind to the argument of f₁. The measured deviation from the democratic 120° is
+12.7328° = 0.222230 rad = **2/9** (confirmed on the masses) — the Brannen phase, the sector's one
+genuinely unsourced number, the same survivor #102 lands on. So **#79 reduces from "derive the
+complex ratio" to "derive one angle, 2/9"** — the magnitude is the cone, the phase is the holdout.
+
+**Three points, recorded so the cone is not over-read:**
+- **2/3 is the cone, not a tuned value.** By Parseval the Z₃ transform is unitary, so Σm =
+  f₀² + |f₁|² + |f₂|²; on the null that is 2f₀², while (Σ√m)² = 3f₀² for any vector. Hence
+  Q = 2f₀²/3f₀² = 2/3 **identically for every null vector** — there is nothing to tune; "2/3" is
+  what "on the cone" evaluates to. The object to explain is the null, not the fraction.
+- **The cone is per-sector, not universal.** The forward test on the neutrino √m-vector fails —
+  Q_ν = 0.458 at m₁ = 2.25 meV, and no m₁ brings it to 2/3 — so the null is a charged-lepton
+  statement, not a family-wide law. Whatever pins the cone acts in the charged sector specifically.
+- **The τ-mass prediction is protected iff the null is topological.** The cone fixes
+  m_τ = 1776.969 MeV (+0.91σ, the #102 table). If that null is a node-protected zero rather than a
+  coincidence, the value cannot drift without gapping the node — so the +0.91σ pull is the live
+  test: an m_τ landing off 1776.969 at ≲1.4 ppm kills the node reading. This is why "one node or
+  three branches" is the right next question — the difference between a protected zero and an
+  accident, answerable only from the basement, not the masses.
+
+**The phase is a HOLONOMY around the same cone, not a free angle (2026-07-20, JP).** The recorded
+relation 3·θ_B = Q (harness "holonomy: 3 × arg f1 = Q") reads, in the circle picture, as: the three
+√m sit 120° apart (the Z₃ democratic spacing) at radius √2 from the centroid (= A, the cone), twisted
+by θ_B off the democratic seat — and **the twist wound once around all three generations closes back
+onto Q**: 3·θ_B = Q, i.e. θ_B = Q/3 = 2/9. Tested for identity and it is **not** one: 3·twist = Q
+holds for the leptons to 2.8×10⁻⁵ but fails every non-lepton triple checked (random, geometric,
+tuned-μ; diffs 0.07–0.29). So it is a genuine **second** Koide condition, independent of Q = 2/3 and
+equally unexplained — but it couples the phase to the cone through the factor **3 = the Z₃ order = the
+generation count**. The phase per generation is Q/3; three of them are the holonomy.
+
+**Consequence — #79's two halves are one question.** The magnitude is the cone's *radius* (√2, the
+null); the phase is the cone's *winding* (3θ_B = Q, the holonomy around it). Both are the same node
+seen two ways, and both close **iff** the three generations are three branches of one node sharing its
+cone — the exact residual #101 names. So the sector no longer holds two separate holdouts (a radius
+and an angle); it holds **one**: a single node whose three branches are the generations delivers √2
+and 2/9 together, or neither is sourced. This does not derive 2/9 — it shows 2/9 is not an
+independent target: it is Q/3, the per-branch share of the same cone.
+
+**Grade: #79 magnitude — CLOSED into the cone (#101). #79 phase (2/9) — reduced to the holonomy
+3θ_B = Q, the SAME "one node, three branches" residual as the magnitude; not independently sourced.**
+
+### #102 — the Brannen phase, and what the lock can actually referee
+
+**The phase's deviation had the wrong sign, and the corpus already contained the contradiction.**
+P-2026-057 records θ_B = **+**0.222229 rad and calls its sign "not in doubt"; 2/9 = 0.222222, so
+δθ is positive. P-2026-051 recorded δθ = −7.0×10⁻⁶. Recomputed three independent ways — the direct
+circulant fit, and solving the phase from m_τ/m_e and from m_μ/m_e separately with A fixed by Q
+alone — **θ_B = 0.2222296315 rad and δθ = +7.409×10⁻⁶**, in every ring convention that puts θ_B
+near 2/9 at all.
+
+**Both recorded deviations were computed from rounded displays.** 1.414200 − √2 = −1.36×10⁻⁵ where
+the source A = 1.4142005 gives **−1.3057×10⁻⁵**; radians(132.7328 − 120) − 2/9 = 7.06×10⁻⁶ where
+the masses give **7.409×10⁻⁶**. A deviation is a difference of nearly equal numbers, so a display
+rounded at the 7th digit lands 4–5% of error in it. Both are now computed from the masses in the
+harness.
+
+**The correlation is exactly −1, and that changes what the lock is.** m_e and m_μ are known to
+3×10⁻¹⁰ and 2×10⁻⁸, so δA and δθ are both functions of m_τ alone: dA/dm_τ = +1.1977×10⁻⁴ /MeV,
+dθ_B/dm_τ = −6.9568×10⁻⁵ /MeV. The data point does not scatter in a plane; it slides along one
+curve. The residual off the closure line is +9.461×10⁻⁶ with σ = 1.061×10⁻⁵ taken on the residual
+itself — **+0.89σ**, where quoting either axis's own error gives 1.13σ.
+
+**The testable form: every statement in the sector is a prediction of m_τ.**
+
+| statement | m_τ required |
+|---|---|
+| Q = 2/3 (A = √2) | 1776.96903 MeV |
+| θ_B = 2/9 | 1776.96651 MeV |
+| the closure θ = (1 + A²/2)/9 | 1776.96705 MeV |
+| **measured** | **1776.86 ± 0.12 MeV** |
+
+All three sit +0.91σ above the measurement — one displacement, not three agreements. And they span
+**2.52 keV = 1.42 ppm**, against today's 68 ppm: **until m_τ improves fiftyfold, testing the closure
+and testing A = √2 are the same measurement.** P-2026-051's registered kill (i) — "improved lepton
+masses moving the pair off the line kills the closure" — is true but does not discriminate: at any
+precision that kills the closure, A = √2 dies with it. The separating test is stated in the
+registration now: an m_τ at ≲1.4 ppm landing between 1776.96651 and 1776.96903.
+
+**On the docket's own question — a source that carries Q rather than its value — the answer is
+still no, and one route was checked and is not it.** The three-group sort's step "Q = the
+charged-mode fraction" is not an identity: the charged-mode fraction is 2/3 for every ρ (two of
+three modes, always), while Q = ⅓ + (2/3)ρ² varies, so the two agree only *at* ρ² = ½. The step is
+an assumption that Q equals a count, and the log already says so ("nothing yet forces them equal").
+It is recorded here only so nobody re-reads it as the derivation. **Grade: unchanged — the phase is
+sourced from Q by the KMS twist, and Q's own source is #101.**
+
+## THE NULL'S NEXT AISLE — a virial reading, registered as a direction (2026-07-26)
+
+#101's re-aim says the null needs a source in the constraint / index / conservation-law
+class. One candidate in that class, registered BEFORE being worked: read the Z₃ ring's
+√m-Fourier components as normal-mode amplitudes — f₀ the breathing seat, f₁/f₂ the shape
+pair — and ask whether an equilibrium identity of virial type forces the sector balance
+f₀² = |f₁|² + |f₂|² regardless of mode counts. The shape is right twice over: virial
+identities balance sector SUMS, not per-mode shares — exactly the structure the
+charge-sector partition assumption needs, and exactly what per-mode equipartition cannot
+give (per-mode returns Q = 1, the recorded wrong answer). The check it must survive: the
+same identity must NOT hold for the neutrino triple (Q_ν = 0.458 — the cone is
+per-sector), so the virial structure must be specific to the string-bound charged ring
+(the forced combination's three-term balance is; the neutrino tower is not string-bound).
+**Status: DIRECTION ONLY — nothing computed.** If worked, the first computation is the
+virial identity for the recorded balance E(d) = √3σd − 3q̃²ln d − 3α_d/d at its minimum,
+mapped to the mode basis. No grade changes anywhere.
+
+## THE VIRIAL DIRECTION, WORKED SAME DAY — FAILS, and the ring's shape sector is soft (2026-07-26)
+
+The direction registered above was computed the same day
+(`scripts/koide_ring_shape_modes.py`, numerics verified against closed forms to
+5 decimals). For the recorded balance E = √3σd − 3q̃²ln d − 3α_d/d at its own
+equilibrium (√3σ = 3(q̃² − α_d)), the internal stiffness spectrum is
+
+> **k_A = 3q̃² − 6α_d  (breathing);  k_E = −(3/2)α_d  (shape pair, degenerate)**
+
+The sector balance needed k_E = 2k_A > 0. It is unreachable everywhere: the shape
+pair is exactly FLAT at α_d = 0 and destabilizing for any α_d > 0. **The direction
+is retired — ledger row filed 2026-07-26.** The sector-sum loophole (virial
+identities balance sums, not per-mode shares) closes because the shape sector
+turns out to carry no restoring force at all: there is no shape power to balance.
+
+**What the computation surfaced instead (adverse, held at note grade here; the
+formal row is the ledger's):** every recorded stability statement about the ring
+(the α_d ≲ 2.2 window) tested the breathing direction only. At quadratic order
+the equilateral configuration is marginal or unstable against shape distortion.
+Caveats: classical point faces, quadratic order, fully relaxed Y-junction. If it
+survives those, the equal-spacing premise under c₂ = 4/(3ln2) needs a stabilizer
+that is currently unwritten. Next bounded computation if pursued: (i) the quartic
+term along the flat direction (does anharmonicity stabilize, and at what scale?);
+(ii) whether the Y-junction's 120° Fermat-to-vertex transition stabilizes or
+deepens the distortion. A geometric-distortion reading of the mass hierarchy is
+NOT claimed — the kernel's non-democracy already lives at equal spacing, and a
+scalene ring would break the circulant structure rather than explain it.
+
+## THE THIRD-ORDER PASS, SAME DAY — the classical ring is not even metastable (2026-07-26)
+
+Follow-up to the retired virial direction (`scripts/koide_ring_quartic.py`). Two errors
+in the first run of the follow-up, both self-caught and fixed before anything was
+recorded: (i) the shape basis at α_d = 0 was extracted by eigenvalue sorting while the
+shape pair sits AT zero — degenerate with the exact zero modes — so translations leaked
+into the "shape" directions and broke the Z₃ periodicity of the cubic scan (the tell);
+rebuilt exactly from symmetry, periodicity now 2×10⁻¹⁰. (ii) The α_d > 0 branch was
+globally minimized, which is meaningless: point faces under −α_d/r vs −q̃²ln r collapse
+(E → −∞) — a regulator-free model limitation, not a landscape result.
+
+The corrected findings, all pure-limit unless stated:
+
+- **Cubic warping, large:** B₃ ≈ 6.0 q̃²/d³ on the clean basis — the flat direction was
+  the tangent of a warped slope. The equilateral point is not a local minimum at all.
+- **The classical ground state is the collinear chain**, spacing (√3/2)d: the string
+  length TIES the triangle (both √3·d at their equilibria — the Y-junction buys nothing
+  over the straight line here), so the log repulsion decides, and the chain wins by
+  exactly **ΔE = ln(4/(3√3))·q̃² = −0.2616 q̃²** (closed form; numerics to 8 decimals).
+  The chain is solidly stable: stiffness spectrum (2, 2, 4) in q̃²/d² — clean integers,
+  noted without a reading.
+- **Consequence for the chase:** the equilateral equal-spacing premise under the
+  combination node (q̃² = c₂/√3, the forced-combination support) is NOT delivered by the
+  classical three-term layer. The kernel algebra (circulant, Parseval, the null) is
+  untouched. A stabilizer is now REQUIRED, from one of three unwritten places:
+  **(a)** Y-junction core energetics (a junction-on-face penalty would punish the chain,
+  whose middle leg has zero length — the most bounded computation of the three);
+  **(b)** quantum zero-point of the soft shape pair (soft modes have large zero-point
+  excursions; the ring-vs-chain comparison changes at order ħω);
+  **(c)** color-structure rigidity (whether the ε^abc singlet's three-string junction
+  is dynamically forced off the degenerate collinear geometry).
+  Ledger row filed (same-day follow-up section). Until one of (a)–(c) is computed, the
+  ring premise carries an open stability debt and the forced-combination theorem
+  inherits it.
+
+## STABILIZER (a), JUNCTION CORE — TRIED, MECHANISM FAILS; the question escalates (2026-07-26)
+
+Priced same day (`scripts/koide_ring_junction_core.py`). One structural reduction made
+the test exact: with scale relaxed, the string energy is ALWAYS 3q̃² (virial identity of
+the log term), so the entire ring-vs-chain fight is the scale-invariant shape functional
+
+> **S(shape) = ln[ L_Steiner³ / (r₁₂·r₁₃·r₂₃) ]** — minimize Steiner-length-cubed over
+> the product of pair distances. Ring: 3√3 ≈ 5.196. Chain: 4. The chain wins on shape.
+
+The junction-core mechanism then fails on geometry, not size: the junction first touches
+the middle face at apex 120°, and the relaxed flattening path is already 0.117 q̃² below
+the ring BEFORE that contact (monotone descent, computed). Even an infinite
+junction-on-face wall leaves the minimum at the 120° isosceles, E = 3 + 3ln2 − 2ln3 =
+2.8822 q̃². The needed size (0.26 q̃² ≈ 0.29 m_e vs natural core ~√σ = m_e) was
+available; a contact term simply cannot cure an interior cubic instability. **Retired —
+ledger entry filed (third same-day).**
+
+**The escalation, and the consolidation it buys:** w/d = (w√σ)/c₂ = 0.42–0.57 — the
+faces sit ~2 string-widths apart, so the whole classical thin-string layer (the
+three-term balance included) is O(1)-uncontrolled at the operating point. Ring-vs-chain
+is undecidable classically. But the escalation lands somewhere useful: the three-source
+ground-state geometry (Y vs collinear) is a lattice observable, and it belongs to the
+SAME SU(2) N_f = 3 campaign that already referees T_c/√σ, F_π/√σ, w·√σ — the one
+campaign now carries FOUR verdicts, and one of them is "does the family ring exist as a
+ring at all." Standing stabilizer candidates: (b) zero-point of the soft pair
+(strengthened: soft modes at w/d ≈ 0.5 have O(1) quantum corrections — a semiclassical
+estimate is the next bounded desk computation); (c) ε^abc color rigidity (unwritten).
+
+## STABILIZERS (b) AND (c), RUN SAME DAY — one dies exactly, one survives (2026-07-26)
+
+**(c) color rigidity — DEAD, exactly** (`scripts/koide_ring_color_rigidity.py`, exact
+27-dimensional computation; ledger row filed, fourth same-day). The chain is fully
+color-allowed (same ε^abc vertex with the junction on the middle face), and every
+pairwise color operator is exactly equal across pairs — spread < 10⁻¹², forced by the
+antisymmetry of ε. Color is shape-blind at two-body order: there is nothing for
+geometry to couple to. Each pair sits in the adjoint channel, ⟨T_i·T_j⟩ = −1 exact.
+Byproduct exposure named for the adjoint branch: SU(2) adjoint strings screen (gluelump
+scale, not in corpus); if the breaking distance is below c₂ ≈ 1.92/√σ the adjoint
+branch's string-bound ring dissolves regardless of geometry. Fifth question for the one
+lattice campaign.
+
+**(b) zero-point — the FIRST SURVIVOR** (`scripts/koide_ring_zero_point.py`). Adiabatic
+effective potential along the flattening path: V_eff(θ; η) = E*(θ) + (η/2)·Σ√k⊥, with
+η ≡ ħ/(d·√(m_face·q̃²)). The chain carries three stiff internal modes (2, 2, 4 in
+q̃²/d²) against the ring's single breathing mode (3): zero-point taxes the chain harder
+at every point of the path (S⊥ > S⊥(60°) everywhere, peaking ≈3.5 vs 1.73). The
+restoration threshold is **η* = 0.311**, set at the chain end; locally the √u growth of
+the transverse zero-point beats the u³ classical descent for any η > 0, so the
+equilateral point becomes a genuine local minimum of V_eff for free. Physical
+quantumness: η = 0.4934/√(m_face/√σ) — constituent-scale faces (0.5–2)·√σ give
+η = 0.35–0.70, ABOVE threshold; the ring is restored for m_face ≲ 2.5·√σ.
+
+**The coherence point, noted:** η ≈ 0.5 and w/d ≈ 0.5 are the same marginality — the
+ring is a quantum object at its own scale, which is exactly why the classical
+instability was never going to be the last word, in either direction.
+
+**Fences:** harmonic-adiabatic estimate; semiclassics O(1)-marginal at η ≈ 0.5; the
+face-mass identification is open (m_face ≳ 3·√σ falls below threshold); the lattice
+three-source geometry remains the referee. **GRADE: the ring premise's stability debt
+now has a named, priced candidate payer at estimate grade — viability, not a
+derivation; the debt stays open until the lattice or a controlled computation speaks.**
+
+**Desk state of the stability question after the full day:** classical layer — ring
+loses to chain (exact); junction core — cannot fix it (mechanism); color — cannot fix
+it (exact); zero-point — CAN fix it at constituent-scale face masses (estimate). The
+question that decides it is now consolidated onto the one SU(2) N_f = 3 campaign:
+T_c/√σ, F_π/√σ, w·√σ, three-source geometry, adjoint string breaking — five verdicts,
+one campaign.
+
+## THE SURVIVOR, ONE RUNG UP — exact 2D shape-space quantum mechanics (2026-07-26)
+
+`scripts/koide_ring_shape_qm.py` (v2). The 1D-path adiabatic estimate is replaced by
+exact diagonalization on the full 2D shape plane: the warped landscape with the ring at
+the origin and the three chain valleys (all reproducing the closed forms to 4×10⁻¹⁶),
+tunneling included, no harmonic truncation.
+
+**Erratum, recorded:** v1's pre-written verdict claimed the exact treatment would lower
+the threshold. It does the opposite, and v2 prints only from computed values.
+
+**Results:**
+- η_c (exact 2D, classical V) = **0.3457** — the exact treatment RAISES the bar vs the
+  adiabatic 0.311: tunneling across the three valleys helps the CHAIN phase.
+- η_c (with breathing zero-point) = **0.3864** — higher still, for a reason that is now
+  an exact identity: **k_b(u) = 3q̃²/|x_rel(u)|²** (from the scale-relaxation virial
+  structure), so the chain's scale mode is softer (k_b = 2) than the ring's (k_b = 3)
+  and the breathing zero-point taxes the ring more. FD cross-checks at both anchors
+  agree to 4 decimals.
+- Ring-phase window: **m_face ≤ 2.0·√σ** (classical V), **m_face ≤ 1.6·√σ** (with ZP).
+  The constituent identification m_face ~ √σ (η = 0.49) sits in the RING phase in both
+  variants; m_face = 2·√σ is knife-edge; m_face ≥ 3·√σ is chain in both.
+
+**Standing:** the zero-point stabilizer SURVIVES an exact-in-2D test that could have
+killed it, with a narrowed window and a corrected direction of approach. Fences: 2D
+shape-plane reduction (rotational admixture ∝ |u|²); breathing treated at classical
+relaxation plus Born–Oppenheimer zero-point; semiclassics is itself O(1)-marginal at
+η ≈ 0.5. Estimate grade, not promoted. The referees are unchanged: the lattice
+three-source geometry and the face-mass identification.
+
+## THE FACE MASS PRICED — the stability program referees the carrier fork (2026-07-27)
+
+The zero-point survivor left one open identification: the face mass, with the ring
+phase holding only for m_face ≤ 1.63·√σ (breathing zero-point included; 2.04 without).
+`scripts/koide_ring_face_mass.py` prices every recorded candidate identity against
+that window:
+
+| face identity | m/√σ (class) | vs the window |
+|---|---|---|
+| Branch A: adjoint lump (gluelump class) | 2–4 | **chain** |
+| Branch A: constituent analog | 0.7–0.9 | ring — but the rep is excluded (no SU(2) 3-fundamental singlet) |
+| Branch B: vortex structure (q̃²-class) | 0.8–1.6 | **RING** |
+| portal dark states (~MeV band) | 2–6 | chain |
+
+**The result is a fork referee, not a verdict:** Branch A's honest mass class lands
+on the chain side — gluonic faces are too heavy for the zero-point stabilizer, and
+the ring premise would have no payer. Branch B's vortex-structure class (the
+sector's own q̃² = 1.11·√σ) is the ONLY identity that keeps the ring a ring. The
+forced-combination theorem said the ring must be a gauge–medium hybrid; the
+stability program adds: **the inertia had better be medium-dominated.** Fences:
+SU(3)-class transfers, scheme-dependent lump normalization, O(1) geometry factors —
+all stated in the script. Cross-check structure this creates for the one lattice
+campaign: a Y-shaped three-source ground state found WITH a heavy adjoint spectrum
+would break the zero-point account (demand another stabilizer); a collinear ground
+state kills the ring premise directly. Nothing promoted; the fork stays open with
+its referee now named.
+
+## THE NULL REDUCED TO A STIFFNESS RELATION — a = 3b (2026-07-27)
+
+> **Superseded 2026-07-28, and the correction is below rather than here.** This section's `a = 3b`
+> is the null's statement under the *thermal* delivery law, which is its classical limit: at the
+> corpus's own ω₁ the exact target is 2.9877b, and under the equal-quanta law it is **a = b**. Read
+> the reduction below as the correct algebra of a superseded premise. Nothing in this section's
+> arithmetic is wrong; what changed is which law it is written in.
+
+`scripts/koide_null_stiffness_reduction.py`, verified to machine precision. Put the √m
+profile on the ring as a fluctuation field frozen at the transition, quadratic theory
+H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²]. Fourier stiffnesses: ε₀ = a (neutral),
+ε± = a + 3b (charged). Sector powers ⟨|f_q|²⟩ = T/ε_q give ρ² = a/(a+3b), and
+
+> **Q = 2/3 ⟺ ε_charged = 2·ε_neutral ⟺ a = 3b.**
+
+**The "on-site = N × bond" gloss is an N = 3 accident and should not be built on (2026-07-28).**
+The structural form is ε_q = a + b·λ_q with λ_q = 2(1 − cos 2πq/N) the ring Laplacian's spectrum,
+so the null reads **a = b·λ₁**. At N = 3, λ₁ = 2(1 − cos 120°) = 3, which happens to equal the site
+count — and nowhere else: N = 4 gives λ₁ = 2 against 4, N = 6 gives 1 against 6, N = 12 gives 0.268
+against 12. **Any mechanism motivated by counting sites is reading a coincidence.**
+
+Read structurally the null says **a = b·λ_charged**, i.e. the on-site term contributes exactly as
+much to the charged mode's stiffness as the bonds do: ε_± = a + bλ₁ = 2a, its two halves equal.
+That is the honest target — an equality between the on-site and bond contributions at the charged
+mode — and it is a *balance*, which is the category the #101 exactness argument says cannot hold to
+6×10⁻⁶ unprotected. So the lock being hunted must protect that equality, not produce it.
+
+The modulus follows at once: ρ = 1/√2 ⟹ τ = −ln ρ = ½ln2. Dead ends checked so nobody
+revisits: per-mode democracy gives Q = 1 (the recorded wrong answer); sum-coupling
+gives Q = 3 (wrong direction); pure difference-coupling leaves the neutral mode
+unbound (no thermal ratio — that branch is the separate K1/attenuation reading).
+
+**What this buys and what it does not.** The charge-sector partition assumption is now
+a NAMED microphysical ratio — the object a lock, sum rule, or index must protect. The
+scatter fence stands in full force: an ensemble ratio cannot deliver the observed
+6×10⁻⁶ exactness (the #101 kill); the reduction renames the target, it does not close
+it. **Next bounded computations, named:** (i) compute the on-site/bond stiffness ratio
+the recorded string+log binding actually gives the faces; (ii) check whether a = N·b
+is the statement of a sum rule the medium already obeys — the f-sum rule (protected by
+the same Anderson commutator that quantizes the emergent metric) is the corpus's own
+precedent class for exactly this kind of protected relation.
+
+## THE TWO NAMED COMPUTATIONS, RUN — (i) negative and localizing, (ii) split with an advance (2026-07-27)
+
+**(i) The geometric proxy fails, bracketing the target**
+(`scripts/koide_ring_ab_from_binding.py`). Under the tempting identification
+δ√m ∝ δr (face mass tracks geometric depth), the recorded binding gives the sector
+stiffness ratio 0 at the classical layer (the shape pair is flat) and ∞ at the
+quantum-stabilized layer (the effective potential is a u^{3/2} cusp — divergent
+curvature at the ring point). The target is 2; the proxy brackets it without ever
+producing it. **Conclusion: a = 3b does not live in ring geometry. It must live in
+the mass-generation (kernel/hop) dynamics — the K1 screened-correlator sector.**
+
+**(ii) The sum-rule class protects the neutral seat — and only that**
+(`scripts/koide_null_sum_rule_check.py`, exact on the three-site ring). The first
+moment m₁(0) vanishes identically: the neutral mode is a CONSERVED quantity (total
+density commutes with any hopping Hamiltonian). That is conservation-law protection
+in exactly the aisle #101 demanded — and it **dissolves the scatter objection for
+the neutral half: f₀ does not scatter because it does not fluctuate; it is
+genesis-set, condensate-class.** What the sum rule does NOT do: fix the stiffness
+ratio — the on-site term moves ε₀ freely while every moment identity holds, so
+a = 3b is not itself a sum rule.
+
+**Desk state of the null after both:** the target is now ONE lock in ONE sector —
+the dynamics that pin the charged-mode power to f₀²/2 in the kernel/hop sector at
+freeze. The neutral half is conservation-protected; the geometric route is closed;
+the scatter objection now applies only to the charged half. Noted without weight:
+a = 3b ⟺ ω_charged/ω_neutral = √2, the cone radius A re-appearing as a frequency
+ratio. Task #1 carries this state.
+
+## THE GEOMETRIC ROUTE CLOSED BY A BRANCH, NOT A BRACKET (2026-07-28)
+
+`scripts/koide_frame_bridge.py`. Computation (i) above closed ring geometry by *bracketing* — the
+proxy returned 0 at the classical layer and ∞ at the quantum-stabilized one, straddling the target
+2 without producing it. That is a weak closure: a bracket invites the next person to look for the
+layer in between. The closure is stronger than that, and it is now a statement about which branch
+of the problem the target lives on.
+
+**Set-up the earlier sweep was missing: an equilibrium.** Bare pair kernels do not hold a ring at
+any radius — repulsion expands it, attraction collapses it — so stiffnesses read off the symmetric
+configuration are curvatures at a non-stationary point, not restoring frequencies. (The tell: the
+linear kernel gives U = Σr_ij = 3√3·R exactly, whose breathing curvature is identically zero, so
+its sector ratio is undefined rather than large.) Restore the κ-confinement the ring-on-ring frame
+already carries, and fix κ by demanding the symmetric ring be stationary: with s = √3·R the pair
+separation, 3√3·u′(s) + 3κR = 0 gives κ = −3u′/s. Then both sector stiffnesses close in form:
+
+> **ε_S = 3[u″ − u′/s]  ε_D = (¾)[u″ − 3u′/s]**
+
+and the entire geometry collapses onto one curve in the single dimensionless combination
+t ≡ u′/(s·u″):
+
+> **ε_D/ε_S = ¼·(1 − 3t)/(1 − t)**
+
+verified against a brute-force Hessian in every kernel tested. For a power law u = r^p one has
+t = 1/(p−1), so the curve becomes the exact rational function **ε_D/ε_S = (p − 4)/(4(p − 2))** —
+which reproduces the log at ½, Coulomb at 5/12, 1/r² at 3/8, 1/r³ at 7/20 and the linear
+attractive kernel at ¾.
+
+**The branch structure is the result.** Stability requires ε_S > 0 and ε_D > 0, i.e. u″(1 − t) > 0
+and u″(1 − 3t) > 0, which admits two disjoint windows:
+
+| branch | t window | ε_D/ε_S reachable |
+|---|---|---|
+| convex, u″ > 0 | t < ⅓ | [0, ¾) |
+| concave, u″ < 0 | t > 1 | (¾, ∞) |
+
+Every ordinary kernel sits on the convex branch — a power law has t = 1/(p−1) and the log has
+t = −1, all below ⅓ — so **the geometric ring's ceiling is ε_D/ε_S < ¾, and the thermal null needs
+2.** Short by a factor 2.7, and the shortfall is structural rather than numerical: the ceiling is a
+branch boundary, not a fitted maximum.
+
+**What it would take, stated so the door is not reopened by accident.** Solving ¼(1−3t)/(1−t) = 2
+gives t\* = 7/5, on the concave branch. That requires u′ < 0 *and* u″ < 0 — a repulsion that
+**strengthens** with separation. No power law can do it (u′ < 0 forces p < 0, which forces u″ > 0)
+and neither can the log; it is the signature of a confining string rather than of a medium's pair
+interaction, and even granted one, t must sit at 7/5 exactly — one tuned number, not a derivation.
+
+**Consequence for the desk.** The geometric route's closure is upgraded and the earlier bracket
+retired. The blank moves, and it moves to a place no kernel computation can reach: what must be
+fixed first is **the energy-delivery law at freeze**, since the same null converts into ε_D/ε_S ∈
+{2, √2, 1, ½} under the four laws the corpus uses in different rooms. Ungraded until that is
+settled: every stiffness result on both sides of the frame divide.
+
+## THE DELIVERY LAW, NARROWED BY EXACTNESS (2026-07-28)
+
+`scripts/koide_delivery_law_discriminator.py`. The bridge left the law unfixed, with four candidates
+spanning a factor 4. Exactness narrows it, because the null is not quoted as an approximation — it
+is quoted at 6×10⁻⁶, and that is a budget a delivery law can overrun.
+
+**The thermal law overruns it by 171×.** Equipartition, ⟨|f_q|²⟩ = T/ε_q, is the classical limit of
+
+> ⟨|f_q|²⟩ = (ħ/2Mω_q)·coth(ħω_q/2kT),
+
+and the two sectors sit at *different* frequencies — ε₁ = 2ε₀ means ω₁ = √2·ω₀ — so the quantum
+correction does not cancel from the ratio. Its size is governed by x ≡ ħω/kT, and the corpus fixes
+that number itself: ω₁ = (2/9)T_c, so x₁ = 2/9 and the charged mode's Bose occupancy is
+**n̄ = 4.02**, not ≫1. Holding ε₁ = 2ε₀ exactly then gives
+
+| | |
+|---|---|
+| ρ² = ½·g(x₁)/g(x₀), g(x) = (x/2)coth(x/2) | 0.501025 |
+| Q | 0.667350 |
+| miss from 2/3 | **1025 ppm** |
+| budget | 6 ppm |
+
+The distortion is one-signed and monotonic — the charged sector is always the more quantum of the
+two, so its power is always suppressed *less* than the classical formula says, and Q always rises
+above 2/3. There is no cancellation available. Staying inside 6 ppm requires **x₁ ≤ 0.0170**, a
+factor 13 below the recorded value, i.e. ω₁ ≤ 3.0 keV against 39.4 keV.
+
+**Consequence for a = 3b.** Holding Q = 2/3 exactly at the corpus's own x₁ requires
+ε_D/ε_S = 2.004110, i.e. **a = 2.9877·b**, not 3b. So the clean integer is an artifact of the
+classical limit. *a = 3b is the null's classical statement and must be carried as such* — which
+also means no mechanism should be graded on its ability to produce exactly 3.
+
+**The occupancy lock is a fifth law, and it is the right class.** It uses no equipartition at all:
+N₀ = Mωf₀²/ħ = 1 for the neutral mode, and the charged pair in its ground state at 2×½ħω, giving
+f₀² = R_c² with M and ω cancelling. An integer occupancy cannot drift, which is the one exactness
+class a 6×10⁻⁶ claim admits — the thermal ratio's inability to hold at 6 ppm is now a *positive*
+argument for the lock rather than only a filter score.
+
+**But the lock owes one named condition, and it was an unexamined step until now.** The
+cancellation requires a *single* ω in both lines, and the argument as recorded writes the same
+symbol twice. The null the lock is explaining says the sectors do **not** share a frequency. Written
+with the two frequencies kept distinct:
+
+> f₀² = ħ/(Mω₀), R_c² = ħ/(Mω₁), so R_c/M_c = (ω₀/ω₁)^½ = **2^(−¼) = 0.8409**, against the 1 the
+> null needs — a 15.9% miss.
+
+So the lock delivers the null only if the two sectors are **degenerate at the moment the quanta are
+counted** — a statement about the freeze, before the stiffnesses split. That is checkable and
+bounded, and it replaces an unexamined step with a specific debt. The lock's filter score (2 for 2
+against the retired list's 0 for 22) is untouched.
+
+**An exact identity linking the two live arcs.** In the Bose factor alone, n̄ = 1 ⟺ eˣ = 2 ⟺
+x = ln2. Since τ = ½ln2,
+
+> **n̄ = 1 ⟺ ħω/kT = 2τ.**
+
+The same number the corpus reaches from −ln ρ is the value of ħω/2kT at which a bosonic mode holds
+exactly one quantum — the occupancy lock's premise, arrived at from the opposite side of the
+theory. This does *not* derive τ. What it does is put the two arcs into contact on a number, and
+they presently disagree: unit occupancy needs ħω/kT_c = ln2 = 0.6931 (ω = 122.8 keV), the corpus
+records ω₁ = (2/9)T_c = 0.2222 (39.4 keV), a ratio of 9ln2/2 = 3.1192. *(That is not π — π is
+3.1416, off by 0.7%. Recorded so the near-miss is not chased.)* Either one of the two is wrong, or
+they refer to different modes. **First time the τ modulus and the occupancy lock have been made to
+contradict each other on a number, which makes it answerable.**
+
+## THE FORK COLLAPSES TO ONE QUESTION — EQUAL QUANTA OR EQUAL ENERGY (2026-07-28)
+
+`scripts/koide_quantum_law_null.py`. The delivery-law problem looked like a four-way ambiguity. It
+is not. Both candidate laws rest on the same single relation — for a harmonic degree of freedom of
+mass M and frequency ω holding n quanta (Fock, or coherent with n quanta, whose time-averaged
+second moment is identical),
+
+> ⟨x²⟩ = (2n + 1)·ħ/(2Mω),
+
+with the singlet one degree of freedom, the doublet two, and R_c² = |f₁|² + |f₂|² summing both. The
+laws differ in one thing only: **what is held equal across the two sectors.**
+
+| law | what is equal | ⟨x²⟩ scaling | R_c = M_c requires | in ring couplings |
+|---|---|---|---|---|
+| equal quanta per mode | (2n+1) | ∝ 1/ω | ε₁/ε₀ = **4** | **a = b** |
+| equal energy per mode (equipartition) | (2n+1)ω | ∝ 1/ω² | ε₁/ε₀ = **2** | **a = 3b** |
+
+Both rows verified by constructing the two moments and dividing, not by the algebra — each returns
+R_c/M_c = 1.000000000000 at its own stiffness ratio. The factor 2 between the targets is the
+doublet's degree-of-freedom count, entering once in each law for the same reason.
+
+**The equal-quanta branch does not require a cold ring.** Reading the (n₀, n₁) table down its
+diagonal, n₀ = n₁ = 0, 1, 2, 5, 17, 1000 all return ε₁/ε₀ = 4 exactly, because the occupancy factor
+(2n+1) is common to both sectors and cancels. So the result rests on *equal* occupancy, not on
+*unit* occupancy and not on the ground state — a far weaker and more natural condition than the
+lock's, and a democratic one, which is this ring's whole idiom.
+
+**Why this is the better target.** a = b is one constant appearing in both the on-site and the bond
+term — what a single microscopic coupling gives. a = 3b requires the on-site term tuned to three
+times the bond term with nothing setting the 3, and the 3 does not even survive exactly (it is
+2.9877 once the thermal law's own quantum correction is applied). The equal-quanta branch has no
+such correction: (2n+1) cancels identically, so **R_c = M_c is exact, scale-free, and
+temperature-free** — ħ and M verified to cancel across four decades of input values. That is the
+exactness class a 6×10⁻⁶ agreement needs, and the thermal branch cannot supply it.
+
+**What the lock contributed and where it was imprecise.** The lock reached the right *class* — cold,
+quantum, integer — and its filter score stands. Two corrections: (i) its N₀ = M ω f₀²/ħ = 1 is
+convention-dependent, reading n₀ = ½ under the RMS convention and n₀ = 0 under the peak-amplitude
+convention, and the corpus does not say which is meant, though only the second is consistent with
+the lock's own second line; (ii) its cancellation appeared to need ω₀ = ω₁, and the truth is the
+opposite — the null needs **ω₁ = 2ω₀** exactly. That is now a stated requirement rather than a
+silent assumption, and it is checkable.
+
+**Restated board object for task #1.** Not "why a = 3b" but **why a = b**, together with the
+occupancy condition that selects the branch. Both are sharper than what they replace.
+
+**Still owed, and the two now ride together.** The equal-quanta branch needs ω₁ = 2ω₀; the corpus
+records ω₁ = (2/9)T_c, whose ħω₁/kT_c = 0.22 sits at the classical end. Either that frequency is
+not the one the null cares about, or the freeze is not cold. Same fork the discriminator opened,
+now carrying a second dependency.
+
+## A STRUCTURAL SOURCE FOR a = b — THE MEDIUM AS THE FOURTH NODE (2026-07-28)
+
+`scripts/koide_democratic_graph_null.py`. Candidate grade, and the first mechanism in this arc that
+produces Q = 2/3 rather than being fitted to it. It is stated below as four premises (P1)–(P4); the
+two later sections reduce them, and the honest final count is **two independent claims** — one
+structural (the condensate is a node of the coupling graph whose couplings are fixed before it is
+pinned, which then *forces* the single coupling by edge-transitivity) and one dynamical (the ring is
+assembled medium-bond-first and splits adiabatically, which is what "equal quanta" means).
+
+**The observation that starts it.** In H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²] the two terms are not
+different in kind. The bond term penalises a face's amplitude against its *neighbour*; the on-site
+term penalises it against *zero* — that is, against the background. **The on-site term is already a
+bond: the bond to the medium.** Read that way, a = b says only: every bond has the same strength,
+and the medium is one of the nodes.
+
+**The structure.** Take the N faces plus the medium as one further node, couple every pair with a
+single constant g — a complete graph K_{N+1} — and pin the medium at the reference amplitude,
+because it is the condensate the faces are excitations of:
+
+> H = (g/2)·[ Σ_{i<j≤N} (f_i − f_j)² + Σ_{i≤N} (f_i − 0)² ]
+
+There is no free ratio in it. The Hessian is (N+1)·I − J, with eigenvalue 1 on the singlet and
+N+1 on every zero-sum mode, i.e. **a = b = g unconditionally** and ε_other/ε_singlet = N + 1.
+
+**The face count is not an input.** Under the equal-quanta law ⟨x²⟩ ∝ 1/ω, with N−1 non-singlet
+modes,
+
+> R²/f₀² = (N−1)·ω₀/ω_other = (N−1)/√(N+1),
+
+and the null R = f₀ requires (N−1)² = N+1, i.e. N² − 3N = 0 — **N = 3 and no other N.** Computed
+from the spectrum rather than from the closed form. Carrying it into Parseval, Q(N) =
+(1 + (N−1)/√(N+1))/N, and Q(3) = 2/3 to a difference of exactly 0.
+
+Two facts meet here and they are independent: the null forces Q = 2/N by Parseval alone at any N,
+and the democratic graph delivers the null only at N = 3. **Q = 2/3 is where the two agree, and
+they agree nowhere else.** Three faces and the value 2/3 are the same fact.
+
+The rest of the chain follows with nothing added: ρ² = ½, A = √2, τ = ½ln2 = 0.346573590280,
+T_c = 177.0987 keV — and the cold law's frequency condition ω_other/ω₀ = 2 comes out of the same
+spectrum rather than being imposed.
+
+**It passes the charge-coupled filter without being asked to.** Any mechanism for the charged null
+must say why the neutrino triple disobeys it. Here the face–medium bond is a coupling to the
+screening background, and screening weights carriers by q² — so a neutral face has *no* medium
+bond. Switching it off:
+
+| | ε_singlet | ε_other |
+|---|---|---|
+| charged faces (medium bond on) | 1 | 4 |
+| neutral faces (medium bond off) | **0 exactly** | 3 |
+
+The uniform mode becomes a zero mode — with no medium to measure against, shifting all three faces
+together costs nothing — so the mechanism makes **no prediction for Q_ν at all**, which is the
+observed situation. This is the reduction's own recorded dead end (*"a = 0: ε₀ = 0, the neutral mode
+is unbound"*) re-read as a feature. It was not put in by hand: the same q² weight the basement's
+species selection uses switches the mechanism off for neutral faces and on for charged ones, and
+the two constructions were built from different materials.
+
+**Status — what is derived and what is assumed.** From four premises and nothing else:
+
+- **(P1)** the three faces and the medium are nodes of one graph;
+- **(P2)** every pair couples with the same constant (democratic — no free ratio);
+- **(P3)** the medium is pinned at the reference amplitude;
+- **(P4)** the modes carry **equal quanta**, not equal energy.
+
+follow a = b, ε ratio 4, R_c = M_c, Q = 2/3, A = √2, τ = ½ln2, T_c = 177.099 keV — exact, with no
+temperature, no ensemble average, no tuned ratio, and no scatter, since (2n+1) cancels rather than
+being averaged. That last point answers #101's exactness objection *structurally* rather than by
+adding a lock on top of a thermal ratio.
+
+**The honest weaknesses.** (P4) is the live one: equal quanta is what makes the cancellation exact
+and nothing here derives it — it is the open branch of the delivery-law fork, now carrying the whole
+chain. (P2) is second: "democratic" is this ring's recorded idiom but is not free. Both are named
+rather than smuggled.
+
+**Against the occupancy lock.** This is strictly weaker and does the same work. The lock asserts a
+*specific* integer occupancy (N₀ = 1) for one mode, in a convention the corpus never fixes; this
+asserts only that the two sectors agree with each other, whatever the number. **Preferring the
+weaker premise that does the same job is the reason to carry this one forward.**
+
+## (P4) REDUCED — EQUAL QUANTA FROM ASSEMBLY ORDER AND ADIABATICITY (2026-07-28)
+
+`scripts/koide_equal_quanta_from_adiabaticity.py`. The democratic-graph mechanism named (P4) —
+equal quanta, not equal energy — as the premise carrying the whole chain. It is not a postulate
+about quantum numbers.
+
+**The observation.** Equal quanta is equal *action*: J_q = E_q/ω_q = (n_q + ½)ħ. Action is the
+adiabatic invariant of a harmonic degree of freedom. So equal quanta at freeze is equal quanta at
+the start, provided the spectrum splits slowly — and at the start the modes may be degenerate, in
+which case equal occupation is automatic rather than assumed.
+
+**The assembly order that supplies it — and its status, stated exactly.** The corpus identifies the
+family seats as *medium defects* (*"family = medium defects"*; *"the 120° = the three-defect
+equilibrium under the medium's own log coupling"*), which makes the medium logically prior: a defect
+is a configuration of the condensate and cannot precede it, and defect–defect interaction is what the
+medium *mediates*. **But the corpus nowhere states an assembly order**, so the step from "the medium
+is prior" to "the medium bond switches on first" is a premise here, not an inherited result. It is
+supported and it is not established. In that order: 
+
+| stage | couplings | spectrum |
+|---|---|---|
+| 1 | medium bond only | ε_q = a for **every** q — all three modes exactly degenerate |
+| 2 | face–face bonds ramp on | ε_q = a + b(t)·λ_q — the spectrum splits 1 : 4 |
+
+At stage 1 the medium bond is blind to which face it holds, so the three frequencies coincide and
+any equilibrium or common preparation gives one occupation number. Through stage 2 each mode
+conserves its own action.
+
+**Verified by integration, with a control.** Velocity-Verlet through the ramp, all modes started at
+a common action J = 1. Over a 400-period ramp the charged mode's frequency **doubles and its action
+moves by 0.0008%**. The control matters more than the result: a check that cannot fail is not a
+check, so the sudden limit must break it, and it does —
+
+| ramp (charged-mode periods) | 0.02 | 0.2 | 2 | 20 | 200 |
+|---|---|---|---|---|---|
+| action drift | 99.8% | 78.7% | 6.1% | 0.001% | 0.001% |
+
+— monotonic, breaking in the sudden limit and converging in the slow one. The invariance is doing
+real work. Carrying the integrated amplitudes into Parseval returns **Q = 0.66672** against 2/3, an
+81 ppm residual shown to be the integrator by a timestep sweep (302 → 162 → 81 → 41 ppm as the step
+halves, ratio ≈ 2). **The null comes out of the integrated dynamics rather than out of the premise
+it was introduced to justify.**
+
+**What (P4) has become.** Not one postulate about occupation numbers but two physical claims, both
+attackable:
+
+- **(P4a) assembly order** — the medium bond precedes the face–face bonds, because a face is an
+  excitation of the condensate. A claim about what the faces *are*.
+- **(P4b) adiabaticity** — the face–face bonds turn on slowly against the mode frequencies. A claim
+  about a *rate*.
+
+**Still owed, and it is now one number.** The corpus must supply the ramp rate at freeze and confirm
+it is slow against ω ≈ 39 keV. That is the same freeze-timescale fork the delivery-law discriminator
+opened, demanded from the other side — **one number closes both**, which makes it the sharpest
+single target the null arc has.
+
+## THE PINNED-SUDDEN POUR DOES NOT CONTRADICT THE ADIABATIC SPLIT — ORDER DECIDES (2026-07-28)
+
+`scripts/koide_pour_before_split.py`. (P4b) needs the split slow. Pass 4's pin 2 says the opposite
+about genesis — *"'THE SNAP / THE POUR (genesis, one instant)' ⟹ the sudden (1/ω²) transfer weight
+— impulsive by the books … the weight is pinned sudden."* On its face the corpus's own pin kills the
+premise. It does not, and working out why removes a larger problem than it solves.
+
+**The two pins are about different processes.** The *pour* injects energy into the modes at fixed
+Hamiltonian; the *split* is the Hamiltonian's stiffnesses separating. They are logically independent,
+and what matters is which comes first.
+
+**At degeneracy every delivery law is the same law.** In stage 1 the medium bond is blind to which
+face it holds, so ε_q = a for all q and there is only one ω. Any transfer weight is a function of ω
+alone, so it returns one number for all three modes — verified across the sudden 1/ω², flat-per-log,
+thermal, resonant 1/ω and an arbitrary f(ω). Equal energy at a common frequency **is** equal quanta.
+So a pour hands over a common occupation number *however impulsive it is*.
+
+**The two orders are 44% apart.**
+
+| order | Q | from 2/3 |
+|---|---|---|
+| **A** — pour while degenerate, then split adiabatically | 0.6666666667 | **0.000 ppm** |
+| **B** — split first, then the sudden pour | 0.3750000000 | 43.8% |
+
+Order B is not a near-miss to be repaired: with the pinned 1/ω² weight landing on an already-split
+spectrum, ⟨x²⟩ ∝ 1/ω⁴ and the ratio collapses to 1/8. (The stiffness ratio that *would* rescue order
+B is ε₁/ε₀ = √2 — neither the graph's 4, nor the thermal 2, nor the ring-on-ring ½, which is a
+fourth incompatible target and further evidence that the frames were never reconciled.)
+
+**What this buys.** The "fix the delivery law at freeze" debt does not need paying in the form it
+was posed. It only ever mattered because the sectors were tacitly assumed split when the energy
+arrived. Under order A the question collapses from *which weight* — a rate nobody has measured — to
+*which order*, which is answerable from structure. And the corpus's own words already describe order
+A: the pour is "genesis, one instant", an injection event, while the face–face couplings are what
+the medium *mediates between faces* and so cannot precede the faces' existence as excitations of
+that medium.
+
+**The kill condition, stated plainly.** If the corpus's freeze dynamics place the face–face coupling
+present from the first instant — the ring born already split — then order B applies, the mechanism
+predicts **Q = 0.375**, and it is dead. That is a clean structural kill, not a measurement one.
+
+**Reduced debt.** Adiabaticity is now required only of the *split*. The pour may be exactly as
+impulsive as pass 4 pins it.
+
+## THE PHASE IS A FLAT DIRECTION — THE TWO DEBTS ARE DIFFERENT IN KIND (2026-07-28)
+
+`scripts/koide_phase_is_a_flat_direction.py`. `PRTOE_koide_relation.md` states the sector's debt as
+*"one number and one relation: why Q = 2/3, and why the closure 3·arg f₁ = Q holds at all."* Those
+two are now cleanly separated, and their difficulty is not shared.
+
+**The graph leaves the phase exactly flat.** Its Hessian (N+1)I − J has a **twice-degenerate**
+non-singlet eigenvalue at N = 3, so the two charged modes span a plane and every rotation in that
+plane is a symmetry. The Koide phase φ is an angle in exactly that plane. Checked rather than
+asserted: sweeping φ over 0 → 2 at fixed M and R, the graph energy and Q are both constant to
+4×10⁻¹⁶ while the individual mass fractions swing from (0.971, 0.014, 0.014) to (0.028, 0.005,
+0.966).
+
+**So the mechanism's scope is exactly the φ-independent content.** Q depends only on |f₁|/f₀; the
+individual masses depend on φ strongly. The candidate determines Q and determines *nothing* about
+which masses realise it — which is not a gap in it but a statement of what it is.
+
+**A complex bond does not reach it either.** The tempting next move is a complex hopping: in
+circulant form the charged stiffnesses are a + 2|b|·cos(arg b ± 2π/3) and they do split once arg b
+is neither 0 nor π (at arg b = 2/9 the split is 0.764). But the splitting never reaches φ, because
+the ring field is **real**: f₂ = f₁\*, so |f₁| = |f₂| and only the *sum* enters,
+
+> E = ε₀·f₀² + (ε₁ + ε₂)·|f₁|², with ε₁ + ε₂ = 2a − 2·Re b,
+
+which carries no φ. Verified directly — E is φ-independent to 9×10⁻¹⁵ at every arg b tested.
+**Every Z₃-symmetric quadratic form leaves φ flat, complex bond or not.**
+
+**The cubic sees φ, and only through cos 3φ — which is the trap.** The lowest term that sees the
+phase has exactly one harmonic,
+
+> Σ_k f_k³ = 3M³ + (9/2)·M·R² + (¾)·R³·**cos 3φ**
+
+(verified against direct summation to 5×10⁻¹⁵). That is the 3φ object the closure is about, and a
+single cos 3φ is stationary only at 3φ = 0 and 3φ = π. A pure cubic therefore selects φ ∈ {0, ±2π/3}
+or {π/3, π, −π/3}, and the closure needs 3φ = Q = 0.6667 — missing the nearer by 0.667 rad.
+
+**Nor does any higher order help, absent tuning.** Z₃ makes the potential invariant under
+φ → φ + 2π/3 and reflection makes it even in φ, so *any* real symmetric ring potential is a function
+V = F(cos 3φ) alone. Its stationary points are sin 3φ = 0 — the same two — plus the roots of
+F′(cos 3φ), which sit wherever the couplings are tuned to put them. Landing one on
+cos Q = 0.785887 is fitting the answer.
+
+**So the phase requires an external phase reference carrying the angle Q itself**, which is exactly
+why the corpus's route for it is thermal rather than potential-based: the KMS construction supplies
+the Euclidean time circle as that reference and reads the angle as a twist per face. Whether that
+reference is legitimate is task #2's real question. **What is settled is that nothing internal to
+the ring can answer it — retiring every candidate built from the ring's own couplings, at every
+order.**
+
+**A convention trap, recorded because it has already cost this arc three cycles.** The circulant
+(a, b) in H = a·I + b·P + b*·P² is *not* T6's (a, b) in H = ½Σ[a·f_k² + b·(f_k − f_{k+1})²]. The
+democratic graph gives on-site = bond, i.e. **T6's a = b**; the same matrix in circulant form reads
+a = 3g, b = −g. Two letter-pairs for two decompositions of one operator. Quoting "a = b" across the
+two rooms without naming the convention is a live error of exactly the kind audit check 29 covers.
+
+## (P2) AUDITED — WHERE THE ONE-COUPLING PREMISE IS FREE AND WHERE IT IS NOT (2026-07-28)
+
+The same test applied to (P4a) is owed to (P2), and it changes what (P2) is claiming.
+
+**Most of it is forced, and that part is worth nothing.** Z₃ relates the three face–face bonds to
+each other, so they are equal by symmetry; the same relates the three face–medium bonds to each
+other. Neither equality is an assumption. **What (P2) actually asserts is the cross-type equality —
+that the face–face coupling equals the face–medium coupling** — and that is the whole content of
+a = b, because ε₀ = a is the medium bond and the ring Laplacian's b is the face–face bond.
+
+**The corpus carries a NO-GO pointed at exactly this kind of step.** In the c = 9/10 argument:
+*"a gauge-singlet scalar couples to every operator with an independent coefficient — the corpus's
+own recorded NO-GO — and independent coefficients are the opposite of a democracy."* That is about
+the dyad's couplings to different Standard-Model operators rather than about the ring's internal
+bonds, so it does not transfer directly. But it is the same *shape* of claim, and the corpus has
+already refused it once. Assuming cross-type equality without an argument would be taking, in the
+family sector, precisely what was denied in the census.
+
+**The argument that answers it is (P1), and it has to be stated in the right order.** If the
+condensate is genuinely a *node of the same graph* rather than a backdrop, then the structure is
+K₄ — and **K₄ is edge-transitive**: its automorphism group acts transitively on all six edges, so
+there is only one kind of bond and one coupling is forced, not chosen. The medium's distinguished
+role then enters as a property of the **state** (it is pinned at the reference amplitude), not of
+the couplings. Symmetric dynamics, symmetry-broken state.
+
+**So (P2) is not an independent premise — it is a consequence of (P1) plus that ordering.** That is
+a real strengthening and it also relocates the risk: everything now rests on whether the condensate
+is a node or a backdrop, and on the couplings being set before the pinning rather than after. If the
+medium is pinned *first*, the residual symmetry is only S₃, face–face and face–medium bonds fall
+into two orbits, and the cross-type equality goes back to being an assumption the recorded NO-GO
+argues against.
+
+**Net: the premise count drops from two to one, and the survivor is (P1).** Task #1's object is
+sharper for it — not "why a = b" but *is the condensate a node of the family graph, with its couplings
+fixed before its pinning?*
+
+**(P1) restated as a spectral property, 2026-07-28** (`scripts/koide_node_vs_backdrop.py`, 18
+checks). Write the graph Hessian for three faces plus the medium with two bond types, a = face–face
+and b = face–medium. Its spectrum is exactly
+
+  **{ 0, 3a+b, 3a+b, 4b }**
+
+with the zero mode the uniform shift, present either way and therefore not a discriminant. The
+nonzero triple is degenerate **iff 3a + b = 4b, i.e. iff a = b** — so the democratic case is
+precisely the degenerate case, and K₄'s edge-transitivity is not an assumption sitting alongside the
+degeneracy but the same statement read spectrally.
+
+Any backdrop reading splits the triple into 2+1 at first order in the mismatch: a 10% difference
+between the bond types already splits it by 6.8%, a 50% difference by 25%. So the two pictures are
+not two descriptions of one physics — they differ rigidly in the stiffness spectrum.
+
+**What this changes and what it does not.** (P1) is no longer "is the medium really part of the same
+structure", which is unanswerable as posed, but "**is the family stiffness matrix threefold
+degenerate before pinning**" — a property a constituent-level model either has or lacks. It remains
+**open**, and it is now visibly a *model-building* item rather than a desk one, belonging with the
+seat constant and the λ/τ gate. Note also that the degeneracy is a property of the couplings only:
+the physical charged-lepton masses are famously non-degenerate, so whatever degeneracy the stiffness
+matrix carries must be broken by the pinned state, which is the ordering half of (P1) and is
+untouched here. Not counted as progress toward Q = 2/3.
+
+## WHAT THE DEMOCRATIC MECHANISM PREDICTS THAT IS NOT Q — AND HOW TO KILL IT (2026-07-28)
+
+A candidate that only reproduces the number it was built to reproduce is worth little. Applying the
+over-determination check (audit 23) to the construction: what else does it fix, and does the corpus
+already carry an independent value for any of it?
+
+**Prediction 1 — the neutral mode's frequency.** The spectrum is ε₀ = a, ε_charged = 4a, so
+
+> **ω₀ = ω₁/2**, and with the recorded ω₁ = (2/9)·T_c = 39.355 keV, **ω₀ = (1/9)·T_c = 19.677 keV**.
+
+A search returns **no independent ω₀ anywhere in the corpus** — every occurrence traces to this
+session's own work. So this is not an over-determination that closes; it is an untested prediction,
+and it is the cheapest way to kill the mechanism. Any construction that fixes the uniform mode's
+frequency independently either lands on (1/9)T_c or refutes the democratic graph outright.
+
+**Prediction 2 — the uniform mode is BOUND, and by how much.** With the condensate bond present
+ε₀ = a ≠ 0; remove it and ε₀ = 0 exactly. That is a qualitative, checkable difference and it is what
+the neutrino exemption rests on. It also bears on residual L2 — *the deposit argument for f₀²'s
+value* — since the graph fixes f₀² = (2n+1)·ħ/(2Mω₀) once the occupancy and ω₀ are known, rather than
+leaving the ring's centre floating.
+
+**Prediction 3 — no null for any neutral triple, ever.** The condensate bond is weighted by q², so a
+neutral triple has ε_singlet = 0 and no Q is predicted at all. This is not a soft expectation: it
+forbids the mechanism from ever explaining a neutral sector's mass ratios, whatever they turn out
+to be.
+
+**Prediction 4 — the face count.** Given the construction, R = f₀ holds at N = 3 and at no other N,
+by (N−1)² = N+1. A fourth generation would not merely be unaccommodated; it would break the null.
+
+**What is NOT predicted, stated so the scope is not overread.** The individual masses. Q is
+phase-blind and the construction is a statement about moduli, so it fixes the ratio and says nothing
+about which spectrum realises it. Anyone reading the mechanism as a mass formula is reading more
+than it says.
+
+## THE K ∼ R², V ∼ M² IDENTIFICATION — SHARPENED, AND IT JOINS THE SAME FORK (2026-07-28)
+
+`scripts/koide_KV_identification.py`. Item 1's remaining debt is stated in two files as *one
+identification*: that the √m spectrum's background **is** the family field's potential energy and its
+Z₃ fluctuation **is** the kinetic energy. Under it, w = (K − V)/(K + V) = (A² − 1)/(A² + 1), so
+**A = √2 and w = 1/3 are the same statement** — verified, along with the recorded compression
+A² = (1 − w)/w = 2 and Q = 1 − w = 2/3.
+
+**What the democratic construction supplies: the two objects.** Its energy has exactly two terms and
+they are of exactly the two named kinds —
+
+> H = (g/2)·[ Σ_{i<j}(f_i − f_j)² + Σ_i (f_i − 0)² ]
+
+the first measuring how the generations differ from *each other*, the second measuring displacement
+against the *condensate*. Before this, "background" and "fluctuation" were two aspects of one unbuilt
+potential; they are now two bond types that exist. The split is clean in one direction: λ₀ = 0, so the
+uniform mode is held by the condensate bond **alone**, while the shape modes are held by both.
+
+**What it does not supply: the equal-coefficient clause — and the shortfall is exact.** Read on
+sector *energies*, the null gives E_shape/E_uniform = **4** and w = 0.6, not 1/3. What gives 1/3 is
+the identification as written, on raw *amplitudes* with a **common** constant: R² = 2M² ⟹ w = ⅓
+exactly. An energy carries its stiffness; an amplitude does not. So the identification quietly
+requires K and V to be read *before* the ring's stiffnesses are applied.
+
+**And that is the same fork the rest of this arc reduces to.** Task #1 asks when the stiffnesses
+split relative to when the energy arrives; this asks when the equation of state is read relative to
+the same split. **One ordering answers both** — and it answers them the same way: at the degenerate
+stage the two stiffnesses are *equal*, so the equal-coefficient clause holds exactly, for precisely
+the reason every delivery law agreed there. Pour while degenerate, read w there, then split.
+
+**Status: candidate, and deliberately not more.** The last step is checkable and would close the
+identification if it survives; it is written down so that it can be attacked rather than assumed.
+What has certainly changed is the shape of the debt — from an identification with an unbuilt
+Lagrangian to a question about reading order, which is the same question already on the board.
+
+## THE OCCUPANCY LOCK — the charged half's first exactness-compatible candidate (2026-07-27)
+
+`scripts/koide_null_occupancy_lock.py`, bookkeeping exact at every scale. The model
+already carries a quantization principle at argument grade: the ground state holds
+exactly ONE binding quantum per coherence cell (the vacuum-energy source). Applied —
+and this application is THE flagged new step — to the three-lepton bound state as one
+coherence cell whose binding quantum is the charged (family) mode:
+
+> the conserved zero-momentum amplitude carries exactly one charged-mode quantum of
+> action, N₀ ≡ M·ω₁·f₀²/ħ = 1, with the charged pair in its ground state.
+
+Then f₀² = |f₁|² + |f₂|² EXACTLY, at every M·ω₁ — Q = 2/3, τ = ½ln2 follow, and the
+a = 3b stiffness relation is recovered as the classical shadow (implied ε₁/ε₀ = 2).
+
+**Why this is the right exactness class:** an integer cannot drift. The observed
+|Q − 2/3| ≈ 6×10⁻⁶ is compatible with a quantized lock in a way no ensemble ratio
+could be. The complete null now reads: **conservation (neutral half, computed) +
+quantization (charged half, candidate)** — both in the aisle #101 demanded.
+
+**Survival tests, named and unpaid:** (1) why the charged mode's quantum is the unit
+(the "binding quantum" reading matches the vacuum argument's grammar; still the
+invented identification); (2) the neutrino tower must NOT satisfy an occupancy
+statement — it is not a bound cell of the confining sector — and indeed Q_ν = 0.458.
+**Upgraded to a proof 2026-07-28:** Q_ν falls monotonically from its m₁ → 0 value toward
+1/3, so its maximum over *all* lightest masses is **0.58531**, short of 2/3 by 12.2%.
+The neutrino triple cannot satisfy the lock for any m₁ whatever, so the test is passed
+outright rather than at one assumed mass;
+(3) the external judges unchanged: the lattice fork (P-2026-048), the deviation lock
+(P-2026-051), m_τ at ≲1.4 ppm. **Grade: candidate closure, registered, not promoted.**
+
+**Independent endorsement from outside the ring (2026-07-28).** A filter built this session
+without reference to this candidate — (A) *charge-coupled*, from the neutrino forward test and the
+basement's q²-weighted screening; (B) *exact rather than balanced*, from the 6×10⁻⁶ agreement —
+scores the eleven retired mechanisms **0 for 22** and this lock **2 for 2**. The lock is
+charge-coupled in its own A1 argument (the neutral mode is a Goldstone with no frequency, so the
+charged pair are the cell's only oscillators and the unit has one candidate) and exact because N₀
+is an integer. That is not a proof of the lock. It is independent agreement about *where* the
+answer must live, arrived at from the neutrino sector and the basement rather than from the ring.
+
+**And residual L2 does not block Q.** N₀ = 1 gives f₀² = ħ/Mω₁ and the ground-state charged pair
+gives |f₁|²+|f₂|² = ħ/Mω₁, so M and ω₁ cancel from the ratio: ρ² = 1/2, Q = 2/3, A = √2,
+τ = ½ln2, all independent of f₀²'s value. L2 sets the **ring's centre**, not the cone's radius —
+so the null's ratio is delivered at candidate grade and what L2 owes is the overall scale.
+
+## THE LOCK PRESSURE-TESTED — five survivals, one sharpening, one residual; the phase carrier identified (2026-07-27)
+
+`scripts/koide_lock_pressure_test.py`. Six attacks, run to ground:
+
+- **A1 (why the charged unit) converts to support:** the conserved uniform mode has no
+  restoring force (the overall mass scale is an external anchor — shift symmetry), so
+  it has no frequency and NO quantum of its own. The charged pair are the only
+  oscillators in the cell; "the cell's binding quantum" has exactly one candidate.
+  Conservation both protects f₀ and forces the unit.
+- **A2 (scatter, one level deeper) sharpens the lock:** the survivable form is not
+  "frozen variance = ground-state variance" (a draw — would scatter) but **the charged
+  sector freezes carrying exactly one quantum of energy as a definite classical
+  amplitude**: E_c = Mω₁²(|f₁|²+|f₂|²) = ħω₁ — same books, integer content, nothing
+  drawn. The phase stays free (it is the holonomy).
+- **A3 (what is M):** cancels — the lock is scale-free; only the integer matters.
+- **A4 (why one):** N = n gives Q = 1/3 + 1/(3n); the data select n = 1 alone, and the
+  vacuum-sector occupancy argument independently argues "exactly one."
+- **A5 (neutrinos):** no occupancy statement applies to an unbound tower; Q_ν = 0.458 ✓.
+  **Quantified 2026-07-28, and it is a much stronger pass than a spot-check.** A4's own
+  formula inverts to n = 1/[3(Q − 1/3)], so the neutrino tower's occupancy is a *measured*
+  quantity: **n_ν = 2.667 ± 0.018**, the error propagated from Δm²₂₁, Δm²₃₁ and m₁. Every
+  integer is excluded — n = 3 at **19σ**, n = 2 at 38σ, n = 4 at 75σ, n = 1 at 94σ. So the
+  tower does not merely fail to sit at the charged sector's value; it sits at **no integer
+  occupancy at all**, which is exactly and only what the lock forbids. The test passes on
+  its own terms rather than by coincidence of one number.
+  *(The non-integer value is near 8/3, but Q_ν's 1808 ppm input error cannot resolve 8/3 from
+  its neighbours — that lead is dead and filed, and nothing here rests on it.)*
+- **A6 (double-booking):** one counting law, two different cells, two different
+  binding quanta — not one number reused.
+
+**Residual L2, named:** the value of the conserved amplitude (f₀² = ħ/Mω₁) — one
+number, set once at the cycle start, conserved (cannot scatter); its value needs the
+deposit argument.
+
+**The task-2 coherence, computed:** if the one frozen charged quantum hops one face
+per thermal period (the standing winding identification), the closure 3θ_B = Q forces
+**ω₁ = (2/9)·T_c = 39.36 keV — numerically identical to the recorded
+per-face drift μ_face from the thermal-twist reading.**
+
+**Not an independent confirmation (corrected 2026-07-28).** μ_face is not independently
+recorded: the forced-combination file derives it from the same closure, μ_total = Q·T_c
+so μ_face = (Q/3)·T_c = (2/9)T_c. And ω₁ = θ_B·T_c = (Q/3)·T_c by the same closure and
+the same one-hop-per-thermal-period identification. **The two are one derivation run
+twice**, and their agreement is an identity by construction rather than a check. What the
+equality does express is the Josephson relation ω = μ — which is here *imposed* by the
+shared "one face per thermal period" step, not tested by it. The coherence claim stands
+as a statement of internal consistency and must not be cited as evidence. The lock's quantum and the
+phase chain's carrier are ONE OBJECT: amplitude integer-locked (the lock), phase
+accumulated by transport (the holonomy). The winding identification sharpens to a
+single-particle statement — "the one charged quantum's hop clock is the thermal
+clock" — with the pacing bound (ħ/T as the fastest thermal action) and the
+bath-limited saturation already recorded (2026-07-19). What remains for the phase is
+the saturation's microphysical derivation and the external judges.
+
+**The chaos-bound route is UNTESTED, not closed — and the object being compared must be kept
+straight (2026-07-28).** The obvious candidate for "why the clock saturates" is the
+Maldacena–Shenker–Stanford bound λ_L ≤ 2πk_BT/ħ, which the corpus carries cite-verified
+([PRTOE_INTERACTION_ATLAS.md](../exploratory/PRTOE_INTERACTION_ATLAS.md)). A first pass set ω₁ = (2/9)T_c
+against it and reported the route closed at 28×. **That comparison was a category error and the
+conclusion is withdrawn.**
+
+ω₁ = μ_face is a chemical potential — equivalently the charged mode's frequency, from
+E_c = ħω₁ — and **not a rate**. The rate in this chain is the hop rate 1/Δt_hop, and the
+saturation statement is Δt_hop = β, i.e. **hop rate = T_c exactly**. That is saturated *by
+construction* the moment "one face per thermal period" is assumed; there is no 4.5× shortfall
+against the pacing bound, because μ was never the quantity the bound constrains. And λ_L bounds a
+*scrambling* rate, so setting it against a mode frequency settles nothing in either direction.
+
+What survives is the real question, unchanged: the saturation is currently an **assumption**
+("the front locks one face per thermal period"), and whether a chaos-bound or Kibble–Zurek
+argument supplies it has not been tested — only mis-tested.
+
+---
+
+## ADDENDUM (2026-07-27) — the owed R₀ identification, argued from pin 1 + causality
+
+Pass 4's one remaining scale identification ("R₀ ~ horizon-class, the one
+identification still owed", pin 3's parenthesis) turns out to be an output of the
+corpus's own pins rather than an extra assumption:
+
+1. **Pin 1 already commits the cascade** to the Kraichnan dual form, and the
+   inverse-energy branch of that cascade has a known destination: in any finite
+   system, energy pumped upscale **condenses at the largest available scale** — the
+   large-scale condensate is Kraichnan's own prediction and a textbook-standard
+   result of 2D turbulence (Kraichnan 1967; the Boffetta–Ecke review's condensation
+   regime). The ring that forms IS the condensate; its scale is the box scale.
+2. **Causality names the box.** At the pour there is no larger causally coherent
+   scale than the horizon: no roll-up can organize across regions that have never
+   been in contact. So "largest available" = the causal horizon, R₀ → R_H — a cap
+   (rigorous) that is also the attractor (the inverse cascade drives to it).
+3. **The geometry checks.** With R₀ = R_H, injection sits at q_inj·R₀ = √n =
+   3.16–5.48 across the Widnall band (n ∈ [10, 30]) — sub-horizon by 3–5×, the
+   inject-small/condense-large ordering the cascade needs, and comfortably above
+   the ≥ 2.5 threshold where (h2) showed the verdict SATURATES (locked at 1.002
+   from 5.5 to 14+; entry at ≈ 2.5). Context anchor at the recorded pour scale
+   (T = 8×10¹⁶ GeV, roster g* = 143): H = 1.0×10¹⁶ GeV, R_H = 9.6×10⁻¹⁷ GeV⁻¹
+   (arithmetic verified in-session, 2026-07-27).
+
+**Standing of the identification after this addendum:** argued at the same grade as
+the pins themselves — pin 1 (Kraichnan) + causality ⟹ condensation at the causal
+maximum ⟹ R₀ ~ R_H, with the checked consequence that injection lands sub-horizon
+in (h2)'s saturated plateau. It is no longer a bare naming; what it is NOT is a
+dynamical derivation of condensate formation in the medium's own equations (the
+literature result is imported for the 2D incompressible cascade, and the medium's
+compressible corrections are unpriced — named residual). Pass 4's verdict was
+already asymptotically independent of the precise scale (only the ordering
+mattered); this addendum supplies the ordering's origin.
+
+**SCOPE CORRECTION (2026-07-27, same day — the consumer check this addendum skipped):**
+the identification's named consumer — pass 4's "LIFE at estimate grade" — was EXECUTED
+on 2026-07-18 by the ring-on-ring trial's verdict (pass 5, all three Widnall points in
+the death zone; "what dies with it: the cascade-delivery chain end to end… including
+the pass-4 LIFE"; the failures ledger carries the autopsy). This addendum therefore
+pays NO LIVE VERDICT: it stands as an argued input — the ring-scale identification any
+SUCCESSOR deliverer would need (the R_c = M_c blank is reopened by the same autopsy) —
+not as support for a standing result. The same scoping applies to the x_out crossing
+curve (pass 4's §: equality at x_out ≈ 0.85): with the delivery chain executed, x_out
+is MOOT as a verdict object and survives only as machinery for a successor. The live
+route to the complex is the LOCK arc (the a = 3b reduction, the occupancy lock, the
+2/9 closure — later in this file), which does not ride the cascade deliverer.
+
+---
+
+## OWNER IDEA (2026-07-28): three families because there are three creating objects
+
+**Raised by the owner in session**, recorded here because it bears on #1 (is the family stiffness
+matrix threefold degenerate?) and #2 (what sets arg b), and because an idea that is only in a chat
+log is not on the board.
+
+> **The proposal:** there are three families because the model has **three creating objects** — the
+> dCDF, the dyad, and the white-hole boundary event. Each seeds one family.
+
+**What is attractive about it, stated first because it is genuine.** The generation puzzle has two
+halves that are usually conflated: **why exactly three**, and **why identical**. The three families
+carry the same charges and couplings and differ only in mass, so a source of "threeness" that also
+made them different would be wrong. This proposal splits the halves cleanly:
+
+- **count** from the three seeds (external, distinct, and already in the model for other reasons);
+- **identity** from the ring — the 120° arrangement makes three defects equivalent *as defects*
+  whatever seeded them.
+
+It also lands on **#2's standing constraint** rather than against it. That docket already records
+that whatever sets the ring's orientation **must lie outside the ring's own potential**, since
+something internal cannot break a symmetry it helps define. Three external seeds are exactly the
+class of object that constraint is asking for, and no candidate had been named.
+
+**The problem it must solve, stated as sharply as possible.** The dCDF, the dyad and the boundary
+event are **not three copies of one thing** — different sectors, roles, scales. If each seeds a
+family, each family should inherit *something* of its parent. But the families are experimentally
+identical in every gauge coupling to high precision; their only differences are masses and mixings.
+
+> **So the question this idea lives or dies on: what does the ring KEEP from each seed, and what does
+> it ERASE?**
+>
+> - keeps **only the count** ⟹ the idea works, and is economical;
+> - keeps **anything else** ⟹ it predicts a family non-universality that precision data excludes.
+
+That is a well-posed question about the ring's own dynamics, and it is answerable without new data —
+which makes it a better-shaped debt than most of the model-building shelf.
+
+**A second thing the idea must reckon with, not fatal but changes its job.** The corpus **already**
+derives N_gen = 3, by an unrelated route: the finiteness condition str[k₁] = 16·N_gen − 48 = 0, pure
+heat-kernel species counting, rooting uniquely at three (and requiring right-handed neutrinos). So
+this proposal is not filling an empty slot — it would be a **second, independent route to the same
+integer**, and the two must be shown consistent rather than competing. Note also that the counting
+route's *conclusion* has published prior art (Navarro-Salas 2024), so a genuinely independent second
+route would be the more novel object of the two.
+
+**Not graded.** Recorded as an owner idea with its decisive question attached, per the rule that
+ideas enter the board with their kill condition rather than as free-floating suggestions.
+
+### The owner idea, developed against the ring's own normal modes — and the decisive question has a favourable answer
+
+Written the same session, because the ring's mode structure was already computed and it bears
+directly on "what does the ring keep from each seed, and what does it erase?"
+
+**The machinery already in hand.** The ring's defects interact **pair-harmonically** (settled
+separately), and for three defects on a ring the three degrees of freedom decompose under the 120°
+symmetry into **one singlet mode + two doublet modes**, with the recorded stiffnesses
+
+> **k_S = 6, k_D = 3 — ratio exactly 2.**
+
+**Apply that to three distinct seeds.** Three seed imprints are three numbers, so they decompose the
+same way:
+
+| what the seeds share | where it lands | what it looks like |
+|---|---|---|
+| the **common** part of the three | the **singlet** mode | a shift of all three families together — an overall **scale**, not a difference between them |
+| the **differences** between them | the **two doublet** modes | the families **splitting apart** |
+
+**That is the answer to the decisive question, and it is favourable.** The ring does not need to
+*erase* the seeds' differences. It **routes** them: differences go into the doublet modes, and the
+doublet modes are exactly the channel where the families are *observed* to differ — **mass**.
+
+**And the dangerous channel is protected for an independent reason.** Gauge charges in this
+construction are **topological** — winding numbers, integers. Integers cannot be moved by a
+continuous shape deformation, so a doublet-mode displacement **cannot** produce the family
+non-universality in gauge couplings that precision experiment excludes. Differences show up in
+masses, which are energetic and shape-sensitive; they cannot show up in charges, which are counted.
+
+> **So the idea's worst objection dissolves on structure already in the corpus:** three different
+> seeds are permitted precisely *because* the ring sorts their commonality into scale and their
+> differences into splitting, while topology fences the charges.
+
+**What this is, and is not.** It is a **coherent mechanism sketch built from pieces that already
+exist** — pair-harmonic kernel, C₃ mode decomposition, k_S/k_D = 2, topological charge assignment.
+It is **not** a derivation: nothing here computes the three seeds' imprints, so nothing here predicts
+the observed mass ratios. The claim is only that the idea survives the objection that killed the
+naive version, and does so without new machinery.
+
+**The sharp next question, now that it survives.** The doublet modes are **two-dimensional and
+degenerate**. Three seeds supply one singlet coordinate and a **two-vector** in the doublet space —
+so the seeds' differences enter as a magnitude *and an orientation*. **That orientation is arg b**,
+the object docket #2 says must be set from outside the ring's own potential. If the three seeds set
+it, #2's constraint is satisfied by construction and the two dockets close together. Whether they do
+is a computation on the seeds' couplings, not a matter of taste.
+
+### Chasing the three-seed candidate: it lands in the sector's empty second-equation slot, and its job is now exactly specified
+
+**The slot, and why it is empty.** This sector reduces to **one complex hopping b** — two real
+numbers, |b|/a and arg b. The corpus holds **one** relation between them, the holonomy closure
+3·arg f₁ = Q with Q = ⅓ + A²/6, A = 2|b|/a. **One equation cannot fix two numbers**, so a second is
+required. The standing candidate for it — criticality, A = A_max(φ) — was **killed at 3349σ the same
+day** this idea was raised. So the slot is not merely open; it was vacated hours earlier.
+
+**What the target is.** arg b is not free-floating: the corpus records **arg b = 2/9**, the Brannen
+phase, and the charged stiffnesses go as a + 2|b|·cos(arg b ± 2π/3), splitting 0.764 at that value.
+So the candidate has a **number to hit**, not a story to tell.
+
+**And the structure says precisely what the seeds must do — this is the useful part.** The sector's
+own analysis records two facts that together define the job:
+
+1. **arg b cannot enter at quadratic order at all.** The ring field is real (f₂ = f₁*), so only the
+   sum ε₁ + ε₂ = 2a − 2·Re b appears, which carries no φ. Verified to 9×10⁻¹⁵ at every arg b tested:
+   *"Every Z₃-symmetric quadratic form leaves φ flat, complex bond or not."*
+2. **The lowest term that sees φ is cubic, and it sees it only through cos 3φ** — recorded in-file as
+   "the trap", because **cos 3φ has period 2π/3 and therefore three equivalent minima**. Anything
+   respecting the full Z₃ can determine φ only *modulo* 2π/3 — it cannot pick which of the three.
+
+> **So the second equation must come from something that BREAKS the residual Z₃ — and three
+> *distinct* seeds are exactly such a thing.**
+
+That is the sharpest form of the idea so far, and it explains why the slot resisted filling: every
+previous candidate was itself Z₃-symmetric, so it inherited the same three-fold ambiguity it was
+meant to resolve. Three seeds that differ from one another do not.
+
+**What would make this a result rather than a fit.** The seeds' differences enter the doublet space
+as a two-vector; its orientation selects among the cos 3φ minima. To close:
+- write the three seeds' couplings to the ring;
+- form their doublet-space two-vector;
+- check that its orientation lands on **2/9** rather than on either of the other two minima.
+
+**Pre-committed reading, so this cannot be fitted after the fact:** the seeds' orientation is either
+2/9 **or** one of the two values 2/9 ± 2π/3. Landing on 2/9 is a hit; landing on a sibling minimum
+means the seeds break the degeneracy but in the wrong direction and the assignment of seeds to
+defects is wrong; landing anywhere else means the doublet routing is not how arg b is set.
+**Three outcomes, all distinguishable, none of them "close enough".**
+
+### What the three-seed candidate would BUY, and the theorem it has to satisfy
+
+**The theorem it must satisfy, quoted so the bar is not lowered later.**
+`PRTOE_koide_relation.md` establishes that **the phase is unreachable from the ring's own potential
+at every order**: φ → φ + 2π/3 symmetry together with evenness forces any real symmetric ring
+potential to be a function of **cos 3φ alone**, whose stationary points are 3φ = 0 and 3φ = π. The
+closure needs **3φ = Q = 0.6667**, which misses the nearer stationary point by 0.667 rad. The file's
+own conclusion: *"the closure requires an external phase reference that carries the angle Q itself,"*
+and *"the search space is now bounded, since no candidate built from the ring's own couplings can
+reach it at any order."*
+
+**So the bar is not "break the Z₃" — it is "carry the angle".** An external object that merely
+selects among cos 3φ's minima still only reaches 3φ = 0 or π. The seeds must supply the angle itself.
+Recording this because the earlier note in this file set the bar at degeneracy-breaking, which is
+necessary and **not sufficient**.
+
+**What clearing that bar would buy — and it is the largest prize on this sector's board.** The
+closure is one equation among two unknowns:
+
+> **3·arg(f₁) = Q, with Q = ⅓ + A²/6 and A = 2|b|/a**
+
+Read forwards it consumes Koide: A = √2 ⟹ Q = ⅓ + 2/6 = **2/3** ⟹ arg b = Q/3 = **2/9**, the Brannen
+phase. Read **backwards**, with the phase supplied externally:
+
+| given | follows |
+|---|---|
+| seeds deliver arg b = **2/9** | Q = 3·arg b = **2/3** |
+| | A² = 6(Q − ⅓) = **2** |
+| | **A = √2 — which is Koide** |
+
+> **Supplying the phase from outside turns Koide's A = √2 from an INPUT into an OUTPUT.**
+
+That is what the empty second-equation slot is worth. It is also why the slot has resisted: anything
+built from the ring is blocked by the theorem, and the one external route on the books (the
+thermal/KMS reference, reading Q as a twist per generation) is itself flagged as "whether that
+reference is legitimate is the open question".
+
+**The three-seed candidate's job, now stated exactly:**
+1. it is **external to the ring's potential** — satisfies the theorem's necessary condition ✔;
+2. it **breaks the residual Z₃** — three distinct seeds, so it can select rather than tie ✔;
+3. it must **carry the angle 2/9** (equivalently a total 2/3 shared over three generations) — **not
+   shown, and this is the whole remaining question.**
+
+Note the structural rhyme with the standing thermal route, which reads Q *"as a twist per
+generation"*: a total angle divided by three. Three seeds distributing a total twist across three
+defects has the same shape. Whether that is a real correspondence or a coincidence of arithmetic is
+exactly what a calculation would settle — and it is the first thing to try, because if the seeds
+reproduce the KMS route's per-generation structure they may be the same mechanism seen from the
+other side.
+
+### Where the chase stops, and exactly what is missing
+
+Pushed as far as the corpus allows tonight. The candidate is **well-posed, lands in a real empty
+slot, and has a large prize** — and it **cannot be computed**, for two specific and nameable reasons.
+
+**Missing input 1 — the three objects have no recorded coupling to the family ring.** A search for
+what the family ring couples to returns nothing: the ring's potential is discussed, its defect
+interaction is settled as pair-harmonic, its normal modes are computed — but **no coupling of the
+dCDF, the dyad, or the boundary event to it is written anywhere.** Without those, "the seeds'
+doublet-space two-vector" has no components to compute. This is the same gap that blocks #55 (the
+family-coupling Lagrangian is un-built); the two dockets want the same missing object.
+
+**Missing input 2 — there is no recorded genesis ordering of the three.** A tempting synthesis
+suggested itself: the standing thermal route reads the angle off the **Euclidean time circle** as "a
+twist per generation", and three seeds sitting at three points on that circle would be the same
+structure made concrete — which would make the two routes one mechanism rather than competitors.
+**That connection is speculation and is labelled as such**: no ordering or temporal spacing of the
+three objects is recorded, so nothing fixes where on the circle they would sit, and an angle cannot
+be read off an arrangement that has not been specified.
+
+**What the chase DID establish, which is not nothing:**
+
+1. the slot is real and currently empty — one equation, two unknowns, and the standing candidate for
+   the second equation died at 3349σ the same day;
+2. the bar is **carrying the angle**, not merely breaking the Z₃ — set by the theorem that no
+   candidate built from the ring's own couplings reaches the phase at any order;
+3. the target is exact: **arg b = 2/9**, with siblings at ±2π/3 pre-registered as distinguishable
+   wrong answers;
+4. the prize is exact: supplying the phase externally makes **Koide's A = √2 an output**, via
+   Q = 3·arg b = 2/3 ⟹ A² = 6(Q − ⅓) = 2;
+5. the idea satisfies two of the three requirements (external ✔, Z₃-breaking ✔) and the third is
+   open.
+
+**So the honest verdict: a well-posed candidate blocked on one un-built object**, and that object is
+already on the board as #55. Building the family-coupling Lagrangian would serve both — it is the
+single piece that would let this be computed rather than argued.
+
+### OWNER IDEA (2026-07-28, second): electron stability as a selection argument for the portal √σ_dark = m_e
+
+**Raised as a question about decay** — whether electrons outlive protons — and the answer inverts the
+usual intuition in a way that bears on this corpus.
+
+**The physics, settled.** The **electron is the lightest electrically charged particle**, so nothing
+lighter can carry its charge away: its stability follows from **charge conservation**, an exact gauge
+symmetry, not an accident. The **proton** is protected only by baryon number, which in the Standard
+Model is an *accidental* symmetry that most grand unified theories break — predicted lifetimes
+10³⁴–10³⁶ yr, experimental limit already past ~10³⁴ yr. **So the proton goes first if either does,
+and the electron is plausibly the last massive thing standing.**
+
+**The framing that FAILS, recorded because it was tried first.** The tempting argument is: this model
+claims **w = −1 exactly**, a constant Λ needs a permanent anchor, therefore the anchor must be a
+stable object, therefore the electron is *required* rather than chosen. **That does not work.**
+ρ_Λ = E_b⁴ counts one binding quantum per coherence cell **of the condensate**, and the electron
+enters only as the **scale parameter** m_e through τ = T_c/m_e. Mass parameters are properties of the
+theory and do not cease when particles decay, so w = −1 is untouched by electron stability. The
+argument has no force where it was first aimed.
+
+**Where it DOES land, and this is a named open item.** `PRTOE_cosmological_constant.md` states
+plainly: *"the portal **√σ_dark = m_e** — why the dark scale equals the electron mass — is the one
+irreducible input. The pinning is not derived and the file says so where it arises."*
+
+> **The observation supplies a candidate SELECTION argument for that pinning.** If the dark
+> confinement scale is locked to a Standard-Model mass, the electron is the **only** charged fermion
+> mass that is protected by an exact symmetry rather than an accidental one. The muon and tau decay
+> in microseconds and sub-picoseconds; the proton's protection is accidental and probably broken.
+> Among charged fermion scales, **only m_e is guaranteed permanent by a gauge symmetry.**
+
+**What this is worth, stated precisely.** It is **not** a derivation of the portal and does not
+pretend to be — it does not compute √σ_dark, and "the only permanent option" is a selection
+criterion, not a mechanism. But the pinning is currently carried as a bare input with **no stated
+reason for the electron over any other scale**, and this supplies one that is structural rather than
+numerical. **A reason to expect m_e specifically is worth more than nothing where nothing is what is
+currently recorded.**
+
+**The test that would give it force.** The selection argument predicts that any construction locking
+the dark scale to an *unstable* Standard-Model mass should fail for a reason internal to the model —
+not merely fit worse. If a variant pinned to m_μ or Λ_QCD can be built and is merely *disfavoured*
+rather than *inconsistent*, the argument is decoration. If it is genuinely obstructed, the argument
+has content. **Neither has been checked**, and that check is the whole of what would promote this
+from an observation to a result.
+
+### The arg b chase, pushed further: it reduces to the ENERGY-DELIVERY LAW, and the corpus already knew
+
+**What the second pass found.** Chasing the three-seed candidate further, a relation surfaced:
+**|f₁/f₀|² = k_D/k_S**, i.e. **A² = k_S/k_D**. With the pair-harmonic ratio k_S/k_D = 2 that gives
+A = √2 — **Koide** — and then Q = ⅓ + A²/6 = ⅔ and the closure hands back **arg b = 2/9**. The whole
+sector would close from the kernel, with no external phase reference needed at all.
+
+**It is not new, and the corpus is more careful about it than this pass was.** That relation is
+exactly **R_c = M_c** (equal canonical amplitudes), already recorded, and the kernel sweep's exact 2
+is already noted as *"a hit in the frame the ring-on-ring mechanism works in."* Rediscovering it is
+not a result.
+
+**And the step treated here as "the missing link" is the KNOWN open problem.** R_c = M_c constrains
+**amplitudes**; converting it into a statement about **stiffnesses** needs a rule for how energy sits
+in the modes — and the singlet is one degree of freedom against the doublet's two, so the rules
+disagree by mode-counting factors. Four are in use across the corpus, each already worked out:
+
+| delivery law | R_c = M_c becomes |
+|---|---|
+| thermal equipartition (½T per DOF) — T6's reduction | ε_D = **2**ε_S |
+| sudden quench, 1/ω² per mode | ε_D = **√2**ε_S |
+| equal sector delivery | ε_D = ε_S |
+| doublet receives half the singlet — ring-on-ring | ε_D = **½**ε_S |
+
+> *"The blank is not a missing conversion factor; it is that the corpus has never fixed **which law
+> governs the freeze**. Until it is fixed no stiffness computation can be graded, and the same
+> number will keep arriving with opposite signs."*
+
+**This pass silently assumed one law. The corpus explicitly refuses to, and is right.**
+
+**The reframing, which is the actual output of the chase.** "What sets arg b" is not primarily a
+question about external phase references, three seeds, or an un-built Lagrangian. **It reduces to a
+selection among four named alternatives**, each already carried to its consequence:
+
+- fix the delivery law ⟹ R_c = M_c becomes a stiffness statement ⟹ **A** ⟹ **Q** ⟹ **arg b**,
+  with the theorem respected throughout (the phase arrives via the *holonomy closure*, not from the
+  ring's potential, which is what the theorem forbids);
+- it also decides whether the pair-harmonic kernel's exact 2 is **the answer or a coincidence**;
+- and it is the same blank separating T6's frame from the ring-on-ring frame — **one unknown
+  blocking two sectors.**
+
+**Why this is better news than it sounds.** It is a **selection among four**, not a construction from
+nothing — unlike the family-coupling Lagrangian, which must be built. Each option's consequence is
+already computed, so fixing the law grades four existing results at once rather than starting a new
+line of work.
+
+**Where the three-seed idea now sits.** Still live, and unaffected by the above: if the delivery law
+is fixed and the resulting arg b comes out at 2/9, the seeds are not needed for the phase. If it does
+**not**, the external reference is back and the seeds remain the leading candidate for it. So the
+delivery law is also the test that tells you whether the seed idea is required or superfluous —
+which makes it the right thing to settle first either way.
+
+### #85 has a route, and it was already in the corpus: Kibble–Zurek, plus a bench measurement
+
+Chasing the delivery-law question one step further turns up two things the corpus already holds.
+
+**1. The freeze is not an unspecified process — it is Kibble–Zurek.** `PRTOE_laboratory_cousins.md`
+lists *"Kibble–Zurek quenches in BECs | **the first-genesis domain formation and winding
+generation** | textbook mechanism, measured in labs"*, and names KZ among the certificates the model
+leans on as lab-verified physics, alongside Landau, Onsager–Feynman, TRK/f-sum and Josephson. **So
+the delivery law may not be a free choice among four at all** — KZ carries its own freeze-out
+prescription (modes freeze when their relaxation time exceeds the time remaining to the transition,
+each at its own instantaneous amplitude), and a mode-dependent freeze is exactly what distinguishes
+the four candidates.
+
+**That is a route, not an answer.** KZ's prescription has to be worked through for *this* mode
+structure — one singlet against two doublet modes, with the stiffness ratio the kernel supplies —
+before it selects a row of the table. But it converts #85 from "choose among four conventions" into
+"apply a textbook mechanism the model already claims", which is a categorically better position.
+
+**2. The corpus's own forward program already proposes measuring it.** Item (i) of the bench
+program: *"release a ring BEC with a Z4-patterned tilt and **measure the radial/angular energy
+partition** and its TIME-DRIFT (the model's ramp, on a bench)."* An energy-partition measurement in
+a ring condensate is the right instrument class for a delivery law.
+
+**Caveat, stated so this is not over-read.** The bench proposal splits **radial versus angular**,
+while the delivery law splits **singlet versus doublet** — and the stiffness instrument computes both
+singlet *and* doublet **within** radial displacements (breathing (1,1,1) against shape (2,−1,−1)).
+The two splits are adjacent, not identical. **Matching the bench observable to the delivery law's
+observable is itself a piece of work**, and until it is done the bench proposal is a strong lead
+rather than a measurement of the needed quantity.
+
+**Net effect on #85.** It is no longer "pick one of four by taste". It has **two independent routes**:
+derive the freeze from the Kibble–Zurek mechanism the model already claims, or measure the partition
+on a bench the forward program already specifies. Either would grade four existing results at once.
+
+### OWNER QUESTION (2026-07-28): can a singlet and a doublet form a triplet? — it lands on #1 and on Branch A
+
+**The formal answer is no, and the structural answer is the interesting one.**
+
+*Formally:* C₃ (and S₃) have **no three-dimensional irreducible representation at all** — S₃ has only
+trivial, sign and the 2D standard. So singlet and doublet are not ingredients that combine; they are
+**what a three-object space decomposes into**. And combining does not help: singlet ⊗ doublet =
+doublet, since the singlet is the identity. Where triplets appear is SU(2), and there it is **two
+doublets** that make one (2 ⊗ 2 = 1 ⊕ 3), never singlet ⊗ doublet.
+
+*Structurally:* a genuine triplet needs a **larger symmetry than C₃**, and when such a symmetry
+breaks down to threefold the branching is exactly **3 → 1 ⊕ 2**. So the ring's singlet-plus-doublet
+structure is **precisely what a broken triplet looks like** — which makes the question identical to
+**#1: "is the family stiffness matrix threefold degenerate before pinning?"** Threefold degenerate
+*means* unbroken triplet.
+
+**The corpus already carries the breaking parameter explicitly.** `basement_build_program.md`:
+H = a·I + b·P + b*·P², with **"the node at b = 0 (threefold degenerate, Q = 1/3)"**. So:
+
+| | b | modes | Q |
+|---|---|---|---|
+| unbroken — the triplet | **0** | threefold degenerate | **⅓** (Parseval floor) |
+| broken — the physical ring | ≠ 0 | 1 singlet + 2 doublet, k_S/k_D = 2 | **⅔** (Koide) |
+
+**The hopping b IS the symmetry breaking**, and it is what carries Q from ⅓ to ⅔. #1 is asking
+whether b = 0 is where the construction starts.
+
+**And a real parent symmetry is already on the board — Branch A.** The SU(2) fork in this file
+records that **2⊗2⊗2 = 2⊕2⊕4 has no singlet**, so the three faces cannot be fundamentals; but
+**3⊗3⊗3 contains exactly one natural singlet, ε^abc**, the structure constant. The family ring would
+then be *"a bound state with the geometry of the theory's own three-gluon vertex."* **The adjoint of
+SU(2) is three-dimensional — it is a triplet**, and the three family members would be its components,
+degenerate until b breaks them. The owner's question therefore has a concrete candidate answer
+already in the corpus rather than needing a new structure.
+
+### Three routes to arg b, all now named, none run
+
+Tonight's chases converge on one number from three directions, and they are not variants of each
+other:
+
+| route | mechanism | status |
+|---|---|---|
+| **#85 — the delivery law** | fix which law governs the freeze ⟹ R_c = M_c becomes a stiffness statement ⟹ A ⟹ Q ⟹ arg b through the holonomy closure | selection among **four** named laws, each already carried to its consequence; two sub-routes (derive from Kibble–Zurek, or measure on the ring-BEC bench) |
+| **the three seeds** | an external phase reference carrying the angle, satisfying the theorem that no ring-internal potential can reach it | blocked on the un-built family-coupling Lagrangian (#55) |
+| **Branch A — the gauge holonomy** | the phase as a **Wilson-line electric holonomy** in the winding background; non-center, so it *can* be non-quantized, which is what 2/9 requires | described in-file as *"a bounded computation, next"* — the only one flagged as already tractable |
+
+**They are testably different.** #85 predicts arg b follows from the freeze with no external reference
+at all; the seeds predict it needs one; Branch A predicts it computes from the dark-gauge holonomy.
+**If #85 or Branch A delivers 2/9, the seed idea is superfluous for the phase** — which does not kill
+it, since it would still be a candidate for the generation count, but it would move it off this
+docket. Settling #85 or running Branch A's bounded computation is therefore the efficient next move
+either way, and Branch A is the one the file already calls tractable.
+
+**One collision to respect, flagged by the file itself:** dim(adj SU(2)) = 3 would compete with
+str[k₁] = 0 as the generation-count source. The standing rule is **adjudicate, never stack** — the
+redundant claimant loses. Branch A cannot be adopted for the phase while quietly also taking credit
+for the count.
+
+### The arg b chase, terminated: everything funnels into c_K, and the corpus already knew that too
+
+The three-route map written above is **superseded by a relation already recorded in this file**. All
+three routes are downstream of one object.
+
+**The one-equation collapse.** With the per-face drift ansatz μ = T_c/3, the cycle holonomy is
+θ_cycle = 3·(T_c/3)·(c_K/m_e) = **c_K·τ**, and the holonomy-equals-Q closure becomes
+
+> **c_K · τ = Q**
+
+verified exact tonight: 1.923593 × 0.346574 = 0.666666666… = 2/3.
+
+**So a derived c_K delivers the entire sector at once** — this is the file's own "keystone,
+re-crowned", and the arithmetic checks:
+
+| what follows from c_K | value |
+|---|---|
+| τ = Q/c_K | **0.346574 = ½ln2** — the lattice kernel point becomes a **prediction**, not an input |
+| arg b = Q/3 | **2/9** — the Brannen phase, i.e. **the whole arg b chase** |
+| A² = 6(Q − ⅓) | **2**, so A = √2 — **Koide** |
+| ρ_Λ¼ = (9/2)α⁴τ·m_e | the dark-energy flagship at +0.44% |
+
+**And the phase side already fixes c_K's value independently:** θ_hop = (c_K/3)·τ = 2/9 requires
+c_K = 4/(3ln2) = 1.9236 — verified exact — while the **modulus** side's screened-correlator locus,
+mapped hours earlier and independently, spans c_K ∈ [1.76, 1.97]. **The phase's demanded point lands
+inside the modulus's independently-measured band.** That is a genuine consistency, not a fit.
+
+**What this does to tonight's chase.** "What sets arg b" is not a question about external phase
+references, three seeds, delivery laws, or an un-built Lagrangian **in the first instance**. It is:
+
+> **derive c_K from first principles.**
+
+Everything else is either downstream of that or an alternative route to the same number. The file
+already names the candidate: **the adjoint Y-junction balance**, needing α_dark ≈ 3.2 —
+*"strong-natural at the string scale, **consistency-grade only**."* So a candidate derivation exists
+and is **not yet first-principles**; promoting it is the whole job.
+
+**The named residue, unchanged and now the sharpest single question in the sector:** *why is the
+drift the per-face share T_c/3?* The file flags "the per-3 grammar's third appearance" (Q/3, T_c/3,
+the three faces). The ansatz μ = T_c/3 is what converts the Y-junction geometry into the holonomy,
+and **it is an ansatz**. If it is derived, c_K is derived, and with it τ, Q, arg b, A, and the
+flagship.
+
+**Where the owner's three-seed idea now sits, honestly.** It remains a candidate for the *generation
+count* and for what breaks the triplet (b ≠ 0), which are real open questions. But **for the phase
+specifically it is superseded**: the phase is not owed an external reference if c_K·τ = Q holds and
+c_K is derivable internally. The seed idea should be graded on the count and the breaking, not on
+arg b. **That is a demotion of the idea's scope arrived at by chasing it properly, which is what
+chasing is for.**
+
+## The Y-junction step, built — and the recorded α_dark ≈ 3.2 does NOT reproduce (2026-07-29)
+
+`scripts/y_junction_ck_from_alpha.py` (10 controls, all pass, incl. an anti-control). This is the
+step K1 named and left unbuilt: *"the required dark coupling for c₂ ≈ 1.92 from the adjoint Y-balance
+is α_dark ≈ 3.2 — strong-natural at the string scale, **consistency-grade only**."*
+
+**The geometry, now explicit and auditable.** Three faces at the vertices of an equilateral triangle
+of side d, strings to the Fermat/Steiner point:
+
+> leg = d/√3 · total Y length = √3·d · Coulomb = 3q²/d
+> **E(d) = √3·σ·d + 3q²/d** ⟹ minimising, **c_K = d√σ = 3^(1/4)·q = 1.31607 q**
+
+The Steiner factor 3^(1/4) is the entire geometric content. So the c_K target converts *directly*
+into a charge: **q = 1.461615, q² = 2.136318.**
+
+**AND THAT IS WHERE IT BREAKS.** No standard convention turns q² = 2.136 into 3.2:
+
+| convention | value | vs recorded 3.2 |
+|---|---|---|
+| α = q²/(4π) | 0.170 | 19× low |
+| α = q²/2 | 1.068 | 3× low |
+| α = q² | 2.136 | 1.5× low |
+
+**So α_dark ≈ 3.2 does not follow from this setup in any convention**, and the corpus never says
+which convention it meant. Either the recorded number comes from a different geometry (not stated),
+or a convention that should be named, or it is simply wrong. **It cannot be confronted with a lattice
+measurement until that is fixed** — which is precisely what the route needs next.
+
+**A second thing that must not be buried.** The Y is an *assumption*, not a result: total string
+length is √3·d = 1.732 d for the Y against **1.5 d** for the Δ half-flux ansatz — **the Δ is
+shorter**. Which wins is dynamical, not geometric, and the anti-control shows the choice moves c_K by
+**7.5%** (Δ would give 2.067 against the Y's 1.924, putting it *outside* the recorded correlator locus
+[1.76, 1.97]). The entire c_K construction inherits that assumption and should say so wherever it is
+quoted.
+
+**What this changes.** "α_dark ≈ 3.2, consistency-grade" was an unfalsifiable gesture. It is now three
+concrete tasks: **(a)** fix the coupling convention; **(b)** get α_dark for SU(2), N_f = 3 at the
+string scale from the lattice; **(c)** compare against q² = 2.136318. None of the three was
+actionable before; all three are now. The debt is larger than it looked, and better posed.
+
+> **⚠ SELF-CORRECTION, same hour, before the above was relied on.** The paragraph above said the Δ
+> ansatz "would give 2.067, putting it *outside* the recorded correlator locus", and treated that as
+> the locus selecting Y. **That comparison was made at fixed q, and q is fixed by nothing.** Each
+> topology reaches the *same* c_K with its *own* charge:
+>
+> | topology | relation | q² demanded at c_K = 1.923593 |
+> |---|---|---|
+> | Y (Steiner) | c_K = 3^(1/4)·q | **2.136318** |
+> | Δ (half-flux) | c_K = √2·q | **1.850106** |
+>
+> ratio exactly **2/√3 = 1.1547**. Both land on the target, so **the correlator locus — which
+> constrains c_K — cannot discriminate between them at all.**
+>
+> **The topology ambiguity is therefore real but smaller than stated:** it does not threaten the c_K
+> agreement, it shifts the coupling that must be justified by 15.5%. Task (d) below is corrected
+> accordingly — the Y still needs a dynamical justification, but not because Δ breaks the locus.
+
+## THE DELIVERY LAW IS SETTLED, AND IT SETTLES INTO A CONTRADICTION (2026-07-29)
+
+`scripts/delivery_law_two_parameters.py`, 20 controls, two of them anti-control blocks. This replaces a
+result recorded earlier the same day and withdrawn — see the failures ledger and protocol 48. The
+withdrawn version read ε_D/ε_S as an *energy* ratio; it is a **stiffness** ratio, as this file's own
+`<|f_q|²> = T/ε_q` and `ω ~ √ε` both say.
+
+**The family, written out.** The null R_c = M_c equates the summed squared amplitude of the 2-dof
+doublet with the 1-dof singlet's. With energy per degree of freedom e ∝ ε^p and s recording how a
+sector's total is counted, X² ∝ g^s·ε^(p−1), and the null solves to
+
+> **ε₁/ε₀ = 2^( s / (1 − p) )**
+
+| delivery law | energy | s | p | ε₁/ε₀ |
+|---|---|---|---|---|
+| thermal equipartition | ½T per dof | 1 | 0 | **2** |
+| sudden quench, 1/ω² | ∝ 1/ε per dof | 1 | −1 | **√2** |
+| equal sector delivery | E per sector | 0 | — | **1** |
+| doublet gets half | E, E/2 per sector | −1 | 0 | **½** |
+| *zero-point, ½ħω* | ∝ √ε per dof | 1 | ½ | **4** |
+
+Two parameters, both load-bearing: √2 needs p ≠ 0, and 2 needs s ≠ 0. The recorded four were never
+exhaustive — the zero-point law lands on **4**. And *"equal amplitude"* is not a delivery law at all:
+at p = 1 the amplitude goes ε-independent, the null degenerates to 2 = 1, and it fixes nothing.
+
+**The debt "fix the delivery law at freeze" is now PAID, and the answer is unique.** Q = ⅔ needs
+ρ² = ½, hence ε₁/ε₀ = **2 exactly**, hence s = 1 − p. With s restricted to the two ways a sector total
+can actually be counted — per degree of freedom (s = 1) or per sector (s = 0) — s = 0 fails at every p
+and **s = 1 forces p = 0 uniquely**. The next-nearest law, √2, misses ⅔ by **207,107 ppm** against the
+6 ppm budget; 1 misses by 500,000; ½ by 1,500,000; 4 by 250,000. There is no near-miss to argue over.
+
+> ### And that is exactly the law the section above shows cannot be exact.
+>
+> The null selects thermal equipartition **uniquely**. `koide_delivery_law_discriminator.py` shows
+> thermal equipartition overruns the same 6 ppm budget by **171×** at this file's own x₁ = 2/9,
+> one-signed and with no cancellation available. Both results are solid and they contradict each
+> other. **The contradiction is inside the Koide derivation, not upstream of it** — which is a
+> materially worse position than the four-way freedom the withdrawn reading described, and the
+> withdrawn reading was concealing it.
+
+**So the occupancy lock is no longer one option among several — it is the only named escape.** Its
+status is upgraded accordingly, and so is the urgency of the condition it owes: the cancellation needs
+a *single* ω in both lines, while the null it explains says the sectors do **not** share a frequency.
+Kept distinct, R_c/M_c = (ω₀/ω₁)^½ = 2^(−¼) = 0.8409 against the 1 the null needs — a 15.9% miss. The
+lock therefore delivers the null **only if the two sectors are degenerate when the quanta are
+counted**, a statement about the freeze rather than about the split. This file already called that
+checkable. It is now the load-bearing open item, carried as docket **#86**.
+
+**One cheaper question falls out, and it extends C3 rather than answering it.** Which stiffness pair
+*is* (ε₀, ε₁)? The required ratio 2 is **neither** of the two this corpus already carries: the radial
+Hessian gives k_D/k_S = **½** — which is law 3, and yields Q = 5/3, not ⅔ — and the circulant
+amplitude stiffnesses at the Koide point give **0.1213** (the 8.2426 inverted). It is a **third** pair.
+Identifying it might settle the delivery law from the other end, independently of the freeze argument.
+
+## THE OCCUPANCY LOCK CANNOT DELIVER THE NULL — THE ESCAPE IS CLOSED (2026-07-29)
+
+`scripts/occupancy_lock_cannot_deliver.py`, 17 controls, three of them anti-control blocks. This is the
+direct successor to the section above, which named the lock as the only escape from the delivery-law
+contradiction and left it a checkable freeze condition. **The condition does not need checking, because
+no version of the lock can reach the target.**
+
+**Two lines.** For a harmonic degree of freedom, ⟨x²⟩ = (2n+1)ħ/(2Mω). Writing w_S = 2n_S + 1 and
+w_D = 2n_D + 1, the null equates the 2-dof doublet's summed squared amplitude with the singlet's:
+
+> w_S/ω₀ = 2·w_D/ω₁  ⟹  **ω₁/ω₀ = 2w_D/w_S — always RATIONAL**
+
+But ε ∝ ω², and Q = ⅔ needs ε₁/ε₀ = 2, hence
+
+> **ω₁/ω₀ = √2 — irrational.**
+
+A ratio of integers is never √2. **The lock fails at every occupancy, for every multiplicity.**
+Verified two ways: an exhaustive scan (90,601 pairs, best miss 8.75 ppm) and exact rational arithmetic
+over 4×10⁶ pairs confirming (ω₁/ω₀)² = 2 is never hit — p² = 2q² has no integer solution.
+
+> **And the property that kills it is the property it was praised for.** This file's argument for the
+> lock was that *"an integer occupancy cannot drift, which is the one exactness class a 6×10⁻⁶ claim
+> admits."* True — and fatal. Integers that cannot drift also cannot drift onto √2.
+
+**The earlier diagnosis was too kind.** The 15.9% miss (R_c/M_c = 2^(−¼)) was read as a condition on
+the freeze: the sectors must be degenerate when the quanta are counted. But the recorded occupancies
+(w_S, w_D) = (2, 1) force ω₁/ω₀ = **1 exactly** — so degeneracy is not a rescue condition, it is what
+the lock's own numbers already assert, and it gives ε₁/ε₀ = 1 and **Q = 1**, not ⅔.
+
+**Both freeze branches fail, for different reasons.** *Adiabatic* split: n is conserved, ⟨x²⟩ ∝ 1/ω,
+and the required ratio is √2 — unreachable. *Diabatic* split: the amplitudes stay frozen at their
+degenerate values, so R_c/M_c = 1 at **every** stiffness ratio (checked across 0.5 → 100 against the
+adiabatic branch's 1.189 → 0.316), the null becomes an identity, and it selects nothing — the same
+degeneracy that disqualified the "equal amplitude" row. A partially adiabatic split interpolates
+between two failures, so there is no third branch.
+
+**Nor is the approximate escape one.** √2 has rational approximations, so ask what 6 ppm costs. With
+both w odd the convergents are 7/5 (10,051 ppm), 41/29 (297 ppm), 239/169 (8.75 ppm) and
+**1393/985 (0.26 ppm)** — the first inside budget, requiring **696 quanta in the singlet and 492 in
+each doublet mode**. Those are not forced integers; they are a two-parameter fit, and the lock's entire
+claim was that its integers are forced.
+
+### What survives: the two classes divide, and nothing is in both
+
+| class | reaches ε₁/ε₀ = 2? | can be exact? |
+|---|---|---|
+| **occupancy laws** (integer counts) | **no** — only rational ω₁/ω₀ | yes, integers cannot drift |
+| **equipartition** (T per dof) | **yes** — the null reads 2/ε₁ = 1/ε₀ | **no** — 171× over budget at x₁ = 2/9 |
+
+Equipartition reaches the target because **ε ∝ ω² absorbs the irrationality**: the null becomes an
+integer statement about *stiffnesses*, and √2 never has to be produced by a count. That is the
+structural difference, and it is why the null selects precisely the law that cannot be exact.
+
+> **So #86 hardens the contradiction rather than resolving it, and re-points the debt.** What is owed
+> is no longer *"check the lock's freeze condition"* but: **exhibit a delivery law whose frequency
+> dependence enters through ε ∝ ω² rather than through a count, and which is also exact.** Whether a
+> third class exists is now the load-bearing question for Q = ⅔'s *derivation* — which is distinct
+> from Q = ⅔ itself, measured and untouched by any of this.
+
+## THE DELIVERY-LAW QUESTION REDUCES TO ONE CONDITION, AND A THIRD CLASS EXISTS (2026-07-29)
+
+`scripts/delivery_law_third_class.py`, 21 controls, three of them anti-control blocks. Third and last
+instalment of today's delivery-law arc, after the two-parameter family and the lock's closure.
+
+### The reduction
+
+For a harmonic mode of stiffness ε = Mω², ⟨x²⟩ = e/ε. The null equates the 2-dof doublet's summed
+amplitude with the 1-dof singlet's, 2·e(ε₁)/ε₁ = e(ε₀)/ε₀; Q = ⅔ requires ε₁/ε₀ = 2 exactly. Put them
+together and **the 2s cancel**:
+
+> ### e(2ε₀) = e(ε₀)
+
+**That is the entire requirement.** The delivery law must deposit the same energy per degree of freedom
+into a mode of stiffness ε₀ and one of stiffness 2ε₀ — it must be **flat across a factor √2 in
+frequency**. Everything recorded above is downstream of this one statement: among power laws e ∝ ε^p
+only p = 0 is flat, which re-derives the (s, p) family's uniqueness verdict from something simpler; and
+the occupancy lock fails because integer counts cannot be flattened.
+
+### Thermal equilibrium is not an arbitrary choice — it is the best flat law available
+
+The exact harmonic result expands as **e = kT + (ħω)²/(12kT) − …**, and the **linear term in ω is
+absent**: equilibrium cancels it. A driven law depositing E₀ per mode is equally flat *in its deposit*
+but still carries the mode's own zero point, e = E₀ + ½ħω, whose error is **first** order. The cost
+gap is large — 6 ppm needs ≈ **34,500** quanta per mode driven against thermal's ≈ **58**, a factor
+**591**.
+
+> That reframes the contradiction rather than softening it. Equilibrium was already the *best*
+> available answer, which is precisely why its being 171× over budget hurts.
+
+**But strictly increasing is strictly increasing.** g(x) rises monotonically, so g(√2·x) = g(x) has no
+finite-x solution: thermal is exact only in the limit. **An exact law must therefore be non-monotonic
+in ω** — and that, entirely, is what "a third class" means.
+
+### Two exact routes, each costing exactly one number
+
+**(1) A deposition spectrum symmetric in log ω, centred on the geometric mean.** If the spectrum is
+log-symmetric about ω_p, then e(ω₀) = e(ω₁) ⟺ ω_p = √(ω₀ω₁) = **2^(¼)·ω₀**. Exact — and exact **at
+any width**: the condition fixes *where* the spectrum sits, not *how broad* it is, so it is not
+fine-tuned in σ (checked at σ = 0.05 → 3.0, worst deviation 8×10⁻¹⁵). That is a symmetry statement
+rather than a numerical coincidence. Anti-controls confirm the centring is load-bearing — no other peak
+location is flat, and the required peak **moves with ω₀** while holding the ratio 2^(¼), so it genuinely
+ties the spectrum to the ring instead of being a free function.
+
+**(2) A two-temperature freeze**, the sectors decoupling at different times. With e_S = kT_S·g(x_S) and
+e_D = kT_D·g(x_D), the free ratio has an exact solution: **T_D/T_S = 0.997936**, a 0.206% split.
+
+### What this is, and what it is not
+
+It is a **classification**: the third class is non-empty, and is characterised *completely* by a single
+flatness condition, with two named realisations and their exact requirements. It is **not a mechanism**
+— neither the peak location nor the temperature ratio is derived here, and each is one number the
+corpus does not supply.
+
+> **The debt after this.** Not *"does a third class exist"* (yes) and not *"what must it satisfy"*
+> (e(2ε₀) = e(ε₀)), but: **does anything in the model put a deposition peak at 2^(¼)·ω₀, or split the
+> two sectors' freeze temperatures?** Route (1) is the more constrained and therefore the more
+> falsifiable — a spectrum peak is a physical object with its own consequences, while a temperature
+> ratio is a free parameter wearing a mechanism's clothes.
+
+### The peak's value, and a first search for it (2026-07-29, same hour)
+
+Route (1) names a number, so it is worth writing down and looking for. From τ = ½ln2 and
+ω₁ = (2/9)T_c:
+
+| | |
+|---|---|
+| T_c = τ·m_e | 177.099 keV |
+| ω₁ (doublet) | 39.355 keV |
+| ω₀ = ω₁/√2 (singlet) | 27.828 keV |
+| **ω_p = 2^(¼)·ω₀ = √(ω₀ω₁)** | **33.094 keV** |
+| ω_p/T_c | 0.186866 |
+
+**A number that will look like a coincidence and is not one.** ω_p/ω₁ = 2^(−¼) = **0.840896** — the
+same 0.8409 that appears above as the occupancy lock's 15.9% miss. It is the *same algebra*, not a
+second fact: both are 2^(−¼) because both descend from ω₁/ω₀ = √2. Recorded here so it is not chased
+as a discovery. Likewise ω_p/T_c = (2/9)·2^(−¼) carries nothing beyond its two factors, and its
+proximity to 3/16 = 0.1875 (0.6% away) is not close enough to be worth a second look.
+
+> **First search: nothing.** No object in the corpus sits at 33.1 keV — the nearby recorded scales are
+> 39.4 (ω₁ itself), 19.7 (ω₁/2), 9.46 and 2.52 keV. More decisively, **the corpus records no
+> deposition spectrum of any kind** for the ring or the freeze: a grep for a source, injection or
+> deposition spectrum returns only this section. So route (1) is not blocked on a *wrong* number — it
+> is blocked on an **absent object**, and supplying one is a construction rather than a lookup.
+
+That is the honest state of the arc. The delivery-law question is now completely characterised and its
+residue is a single unsupplied number with two candidate homes, neither of which the corpus currently
+contains. **Q = ⅔ itself is untouched throughout — it is measured.**
+
+### The Kibble–Zurek route, worked through — it buys the ratio's ORIGIN, not the ratio (2026-07-29)
+
+`scripts/kibble_zurek_delivery_law.py`, 15 controls, three of them anti-control blocks. This grades
+the section above ("#85 has a route, and it was already in the corpus"), which recorded KZ as *"a
+route, not an answer"* and left the prescription unapplied. Applied, it settles what KZ can buy.
+
+**The prescription.** The ring's modes carry fixed geometric coefficients c_S = 6, c_D = 3, so
+c_D/c_S = ½. Through the transition the overall stiffness ramps, ε_i(t) = c_i·λ(t) with λ ∝ t^m, and a
+mode's relaxation time goes as τ ∝ ε^(−a) — a = 1 overdamped, a = ½ underdamped. Freezing when
+τ_i(t) = t, and keeping the equilibrium amplitude at that instant:
+
+> t_i ∝ c_i^(−a/(1+am)),  ε_i(t_i) ∝ c_i^(1/(1+am)),  ⟨x²⟩_i = T/ε_i(t_i)
+
+both verified by **solving the freeze condition numerically**, not by quoting the algebra. The null
+2·T/ε_D(t_D) = T/ε_S(t_S) then reads **(c_D/c_S)^(1/(1+am)) = 2**.
+
+> ### And the sign is wrong for every ordering transition.
+>
+> c_D/c_S = ½ is **below** 1 while the target is **above** it, so the exponent must be negative:
+> 1 + am < 0, i.e. **m < 0** at any positive damping. Scanned over a ∈ [0.1, 10] and m ∈ [0.1, 100],
+> *every* stiffening quench lands below 1 and puts Q above 1. Exactly am = −2 gives 2 — overdamped
+> needs m = −2, underdamped m = −4. **Those are softening ramps.**
+
+**And the no-ramp limit is already in the table.** am = 0 returns exactly ½ — the recorded "doublet
+gets half the singlet" law, Q = 5/3. So KZ does not add a row so much as **parametrise the existing
+ones by a quench exponent**.
+
+**KZ does not touch exactness.** At am = −2 the sectors freeze at stiffnesses differing by 2, hence
+frequencies differing by √2, so g(x) still fails to cancel — reproducing **1025.4 ppm** against the
+same 6 ppm budget, the identical number the thermal reading gives. Whatever KZ buys, it is not the
+thing this arc is blocked on.
+
+**Grading the earlier claim.** T6 recorded that KZ *"converts #85 from 'choose among four conventions'
+into 'apply a textbook mechanism the model already claims', which is a categorically better position."*
+Half right, and the failing half is the important one: KZ does replace a convention with a mechanism,
+but the mechanism then **demands a softening quench with a tuned exponent** to reach the null at all,
+and leaves exactness exactly where it was. It is a *reparametrisation* of the choice, not a removal.
+
+**The one real gain, and it is structural.** Under KZ a mode's stiffness **at freeze** — which sets the
+frozen amplitude — differs from its stiffness **at observation**, which the mass formula reads. The
+(s, p) family assumed a single ε. So KZ naturally supplies **two** stiffness pairs, and a freeze-time
+pair is exactly the kind of object #85's unexplained *third pair* would have to be: neither the final
+radial Hessian (½) nor the circulant amplitudes (0.1213). Worth keeping even though the route fails.
+
+**Caveat, stated so this is not over-read.** The construction is predictive only because both sectors
+ride **one** λ(t). Allowed independent ramp rates the ratio spans 0.224 → 2.236, bracketing the target
+freely, and KZ predicts nothing. The shared ramp is the physical content — reasonable for two normal
+modes of a single ring, but an assumption.
+
+## The Y-junction entry above is WITHDRAWN — retracted input, superseded functional (2026-07-29)
+
+`scripts/y_junction_corrected_functional.py`, 17 controls, two anti-control blocks. This withdraws
+*"The Y-junction step, built — and the recorded α_dark ≈ 3.2 does NOT reproduce"* written earlier the
+same day. Both halves of it were wrong, and **this file already said so, eleven days earlier**.
+
+**(1) The number was already dead.** α_dark ≈ 3.2 was **retracted on 2026-07-18** — *"the
+repulsive-balance α_dark ≈ 3.2 consistency line is RETRACTED — wrong sign in the gauge channel"*. I
+graded a live docket against a withdrawn value, having checked the number and not its status. That is
+the re-grade rule's exact failure mode.
+
+**(2) The functional was the retracted one.** The colour algebra settles the sign: three SU(2)
+adjoints contracted into the ε^abc singlet satisfy Σᵢ Tᵢ = 0, so 3·C₂(adj) + 6(Tᵢ·Tⱼ) = 0 and with
+C₂ = 2, **Tᵢ·Tⱼ = −1 — attractive, exactly.** A repulsive gauge Coulomb term cannot appear. Verified
+downstream: a pure-gauge ring has a one-signed derivative (collapse, no equilibrium), a pure-medium
+ring has the opposite one-signed derivative (dispersal, no scale tie), so **only the hybrid
+equilibrates** — the forced-combination theorem. The live functional is
+
+> **E(d) = √3σd − 3q̃²ln d − 3α_d/d**
+
+with the repulsion supplied by the **medium** as a vortex log, not by the gauge sector.
+
+**And it is not a reparametrisation.** The three-term form demands q̃²/√σ = 1.110587 where the
+two-term form demands 2.136318 — a factor of **exactly c_K**, since c_K²/√3 ÷ c_K/√3 = c_K.
+
+> ⚠ **A number that will look like a coincidence and is not one.** This morning's q² = 2.136318 is
+> *the same expression* as the stability ceiling on α_d — both are **c_K²/√3**. Reached two ways from
+> the same target; recorded so it is not chased as a discovery.
+
+### The live chain reproduces end to end
+
+| quantity | computed | recorded |
+|---|---|---|
+| q̃²/√σ at α_d = 0 | 1.110587 | 1.1106 |
+| q̃²/√σ at α_d = 1 | 1.630448 | ~1.6 |
+| stability ceiling on α_d | **c_K²/√3 = 2.136318** | "≲ 2.2" (rounded) |
+| F_dark/√σ at t√σ = 1 | **0.420423** | 0.4204 |
+| band at w√σ ∈ [0.8, 1.1] | [0.4009, 0.4700] | 0.40–0.47 |
+
+The equilibrium is a genuine minimum at the target (E′ = −4×10⁻¹⁶, E″ = +0.900).
+
+> ### So #2 is not blocked on a convention.
+>
+> The convention is pinned, the demand is exact, and the referee is **one SU(2) N_f = 3 lattice
+> campaign refereeing three numbers together** — T_c/√σ, F_π/√σ, w√σ. That is **external compute**,
+> and the docket has been in that state since 2026-07-18. My morning's entry made it look like an
+> unresolved desk question. It is not one.
+
+**What survives of the morning's work.** The seed-route closure is untouched — it used the bijection
+between seed couplings and (G₀, b), not the junction functional, and it stands. Only the Y-junction
+arithmetic and the α_dark grading built on it are withdrawn.

@@ -35,3 +35,39 @@ if [ -n "$husk" ]; then
   echo "REFUSING TO COMMIT — adjudicate the ref (paid / gated / open + pointer), never the husk."
   exit 1
 fi
+
+# THE RETIREMENT→TASK JOIN (#172, 2026-07-20). A retirement kills content, and that
+# content usually belongs to a task. Commits already carry their task number; retirement
+# rows did not, which is how #59 sat marked complete straight across its own retraction —
+# nothing pointed from the kill back to the task whose object had just died.
+#
+# Enforced on NEWLY ADDED ledger rows only: the existing ledger is not retrofitted here.
+# A row satisfies the join by naming a task (#N) or, when it genuinely kills nothing on the
+# docket, by saying so explicitly with "(no docket)". Silence is the one thing disallowed.
+led=docs/PRTOE_FAILURES_LEDGER.md
+if git rev-parse --verify -q HEAD >/dev/null 2>&1 && [ -f "$led" ]; then
+  unjoined=$(git diff HEAD -- "$led" 2>/dev/null | python3 -c '
+import sys, re
+# Added lines only, in order. A retirement satisfies the join if a task ref (#N)
+# or an explicit "(no docket)" appears in the SAME added line or the next two --
+# prose wraps, and the reference often lands on the following line.
+added=[l[1:].rstrip("\n") for l in sys.stdin if l.startswith("+") and not l.startswith("+++")]
+bad=[]
+for i,l in enumerate(added):
+    if re.search(r"RETIRED|retired:", l):
+        window=" ".join(added[i:i+3])
+        if not re.search(r"#\d+|\(no docket\)", window, re.I):
+            bad.append(l)
+print("\n".join(bad))
+')
+  if [ -n "$unjoined" ]; then
+    echo
+    echo "RETIREMENT JOIN VIOLATION — new retirement row(s) name no task:"
+    printf "%s\n" "$unjoined" | cut -c1-120
+    echo
+    echo "REFUSING TO COMMIT — a retirement must say what it kills on the docket."
+    echo "  name the task:      ... (kills #N's object)"
+    echo "  or rule it clear:   ... (no docket)"
+    exit 1
+  fi
+fi

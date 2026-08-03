@@ -218,7 +218,7 @@ and the thermalizer are the same κ — the pincer holds there. (Concession 1 na
 beyond that; D6 replaces it.) Re-keying to T_dark prices as follows — exposure ∫w dlnT over the
 BBN window [70 keV, T_on], coded = 0.330:
 
-| clock | ramp on (T_γ) | w at 700 keV | w at 70 keV | exposure | Y_p scar class |
+| clock | ramp on (T_γ) | w at 700 keV | w at 70 keV | exposure | Y_p deuterium row class |
 |---|---|---|---|---|---|
 | coded T_γ (179 keV) | 179 keV | 0 | 0.61 | 0.330 (1.0×) | +1.09σ (booked) |
 | T_dark, ξ = 0.465 | 385 keV | 0 | 0.82 | 0.886 (2.7×) | ~3σ |
@@ -471,7 +471,7 @@ high-f branch, and cannot be billed against the branch alone.
 3. **Bare potential**: net one new free scale (f) plus the L−1 log choice the recorded model
    already spends; radial quartic λ = μ²/f² ≈ 3.5×10⁻³⁷, radiatively stable (electron-loop piece
    1%), house-mild against field 1's owned λ ~ 2×10⁻⁹¹.
-4. **The windowed books re-run** on the mean-field shape 1−(T/T_c)²: Y_p +1.09σ scar and the
+4. **The windowed books re-run** on the mean-field shape 1−(T/T_c)²: Y_p +1.09σ deuterium row and the
    D-fork re-price; direction adverse, class few-tenths σ.
 5. **Gate-conditionality made explicit**: the branch's laboratory life runs through the recorded
    S(x) gate; the Eöt-Wash fence (S_⊕ < 2–4×10⁻¹¹) books as the gate's deepest fence — 325×
@@ -601,7 +601,7 @@ PRICE it, not dismiss it by era-association. Three obligations, assigned:
    electron-CW driver gone (a below-bound per-quantum coupling cannot let the electron bath
    drive condensation), T_c re-keys to the dark sector's own clock. Under ξ ≤ 0.284 the ramp
    turns on at T_γ ≥ 630 keV — just below n/p freeze-out (~700 keV). Compute, order-of-magnitude,
-   where Y_p and D/H land under that profile (the coded books: ramped Y_p scar +1.09σ at the
+   where Y_p and D/H land under that profile (the coded books: ramped Y_p deuterium row +1.09σ at the
    179-keV window). Verdict classes available: fatal / adverse-but-survivable / neutral.
 3. **Sector drag under this branch (Rule 3 × Rule 2).** With the dyad's SM coupling below the
    bound, does ANY remaining channel thermalize the SU(2) sector? If none does, the remaining

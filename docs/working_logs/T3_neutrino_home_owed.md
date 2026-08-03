@@ -6,7 +6,12 @@
 
 Coupling-geometry status: medium-sector (the tenth channel) — untouched by the gate geometry.
 
-## PAID (2026-07-19 reconciliation): item 3 — v_L derived (the seesaw-scan task; the
-neutrino-sector file carries v_L = 4.18 MeV with the Majoron-mode consistency). In flight:
-item 1 (dyad_mnu chain running, R−1 ≈ 0.18 marginal today) and item 2 (conv_desi running).
-Item 4: standing watch.
+## PAID (2026-07-19 reconciliation): item 3 — v_L's VALUE derived within the MeV branch
+(the seesaw-scan task: the tie v_L = m₃/g₃₃ = 4.18 MeV, with the Majoron-mode consistency).
+SCOPE CORRECTION (2026-07-27, the inconsistency rule): the earlier "v_L derived" phrasing
+overstated — the sector file's verified pricing carries TWO viable parameter points (the
+MeV-scale point and the high-v_L point, GeV–2.4 TeV), and the BRANCH selection is not a desk
+item: the discriminators are the CMB-S4 Majoron search (probes the MeV point) and the
+leptogenesis resonance structure (non-resonant ⟹ v_L ≥ GeV). Board task #17 holds the corner.
+In flight: item 1 (dyad_mnu chain running, R−1 ≈ 0.18 marginal today) and item 2 (conv_desi
+running). Item 4: standing watch.

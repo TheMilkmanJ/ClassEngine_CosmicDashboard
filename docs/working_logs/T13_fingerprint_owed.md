@@ -24,7 +24,8 @@
 | recombination (z ~ 1100) | 1.232% (fit) / 1.254% (derived stack) | the production chain |
 | BBN window (LT era, inside) | ε_rec × [0.8–1.0] (mean-field ramp factor, internal review debt) | the windowed splice |
 | above z_high (~T_c epoch) | 0 (disordered) | the dyad window's high edge |
-Rows must cite THIS table, not "the" ε. Item 2 (the masters' calendar) still open.
+Rows must cite THIS table, not "the" ε. (Item 2's "still open" clause removed 2026-07-27 —
+its payment is recorded three lines below and predates the clause's survival.)
 
 ## PAID item 2: the masters' calendar — docs/PRTOE_REFEREE_CALENDAR.md.
 
@@ -69,16 +70,23 @@ w = 0. Each row predicts w_i·ε with w_i **known**. The lattice cannot re-weigh
    statistic must be reported in **two branches** (model sits +1.2–1.5σ from Aver, **+3.7–4.0σ from
    EMPRESS**) until the helium resolution lands. A property of the data, not of the model — but the
    branch spread is large enough that a single quoted number would be meaningless.
-2. **The D/H row's significance is irreproducible — the error budget is unstated. STANDS, OPEN
-   — and it is now owner-gated: this is exactly ForJustin/10's two-widths decision (0.0476
-   2-term vs 0.0563 3-term; the recommendation on file is 0.0563). One ruling closes this
-   obstruction, the red-team brief's D/H row, and the joint statistic's quotability at once.**
+2. **The D/H row's significance is irreproducible — the error budget is unstated. REDUCED
+   (2026-07-20): the budget is now stated term by term** — observational ±0.030 ⊕ PRIMAT
+   post-LUNA nuclear ±0.037 (⊕ the d(p,γ)³He rate ±0.0300 on the three-term folding) — **in
+   `PRTOE_deuterium_row.md` §1. CLOSED (2026-07-21, #157): the source check settled it — PRIMAT's
+   ±0.037 is a post-LUNA Monte-Carlo error that already varies d(p,γ)³He, so the three-term folding
+   counted the dominant rate twice. Standing width **±0.0476**, standing row **−2.94σ**; ±0.0563 is
+   retired. The ±0.0476 label is degenerate (observational ⊕ nuclear and nuclear ⊕ rate agree to
+   five figures), which is why no arithmetic check separated the two readings. One ruling still
+   closes this obstruction, the red-team brief's D/H row, and the joint statistic's quotability at
+   once.**
    At least three readings each reproduce a figure quoted somewhere in the corpus: the raw windowed
    2.477 against ±0.030 (−1.67σ); the net 2.41 against σ ≈ 0.067 (−1.75σ); the net 2.41 against
    σ ≈ 0.053 (−2.21σ, which is what P-2026-027 quotes). **Two live documents imply different widths
-   from each other.** Which is intended is not determinable from the corpus. **OWED: state the D/H
-   error budget** (observational versus the BBN theory error, chiefly the d(p,γ)³He rate). Until
-   then the row carries a central value and no σ.
+   from each other.** Which is intended is not determinable from the corpus. **The budget is now
+   stated** (observational versus the BBN theory error, chiefly the d(p,γ)³He rate — all three
+   terms valued in the deuterium row file). The row is quotable as a fork; a single σ waits on the
+   standardization.
 3. **The elasticities — RESOLVED (measured 2026-07-16; see below).** They were the single blocking
    item; they are no longer missing.
 

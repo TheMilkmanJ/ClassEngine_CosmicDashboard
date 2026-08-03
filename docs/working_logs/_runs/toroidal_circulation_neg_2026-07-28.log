@@ -1,0 +1,17 @@
+==========================================================================
+  TOROIDAL CIRCULATION, phase sampled OFF the core
+  R_PROBE = 1.5 healing lengths, 8 samples/bin, T_MAX = 1.5
+==========================================================================
+  [single-branch mode: n = -1]
+
+  --- n = -1 ---
+   [n=-1 t= 0.25] ----
+   [n=-1 t= 0.50] ring  helA +1  W -1.251  (phase pts 16/16)
+      FIRST RING at t = 0.50: helA +1, W_toroidal -1.251, excess -0.251
+   [n=-1 t= 0.75] ring  helA +1  W +nan  (phase pts 9/16)
+   [n=-1 t= 1.00] ring  helA +1  W -0.979  (phase pts 15/16)
+   [n=-1 t= 1.25] ring  helA -1  W +nan  (phase pts 5/16)
+   [n=-1 t= 1.50] ring  helA -1  W +nan  (phase pts 11/16)
+
+==========================================================================
+  NO RING on one or both branches — nothing graded.

@@ -152,7 +152,7 @@ construction. Gate 0 does **not** pass on theory.
  way it leans*: against.
 - The honest, consistent, action-faithful config is closer to the **catastrophe**
  reading (m_e shifted at BBN, per the local F(φ)R), which reinstates the
- deuterium scar OR requires a *separate* D/H healer (the doubling
+ deuterium row OR requires a *separate* D/H healer (the doubling
  debt). The provisional +6 χ² should be treated as **likely spurious**, not
  merely unbanked.
 - The two paths to actually *earn* the heal, now sharply defined:
@@ -166,8 +166,7 @@ construction. Gate 0 does **not** pass on theory.
 
 **Bottom line: run honestly, the QFT derivation does not rescue the heal — it
 leans catastrophe, and demotes the m_e=1@BBN choice from "plausibly derived" to
-"assumption leaning the wrong way." Standing unchanged-to-lower (~10% → shaded
-toward the gate-0-FAIL branch), pending the emergent-coherence build or the BBN
+"assumption leaning the wrong way," pending the emergent-coherence build or the BBN
 data.**
 
 ---

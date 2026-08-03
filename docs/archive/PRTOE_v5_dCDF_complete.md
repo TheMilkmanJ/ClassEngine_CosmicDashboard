@@ -60,12 +60,12 @@ parameter, with plik *better than the ΛCDM anchor's own* (586.5 vs
 S₈ ≈ 0.823). **Two riders belong in this headline, not in footnotes:**
 (i) the joint advantage is quoted as a band —
 its ΛCDM+BBN baseline was mid-refit when measured; (ii) the champion
-carries a **−2.0σ deuterium scar** (D/H = 2.468×10⁻⁵, χ² 3.85): the
+carries a **−2.0σ deuterium row** (D/H = 2.468×10⁻⁵, χ² 3.85): the
 model holds ω_b for the CMB and underfeeds deuterium — a residual it
 cannot relieve without paying the CMB back.
 **[SCAR REPRICED, 2026-07-07 — two-barrel attack; see §11
 addendum]:** (i) the −2.0σ used obs-only errors; with the post-LUNA
-nuclear-theory error (PRIMAT ±0.037, cite-verified) the scar is
+nuclear-theory error (PRIMAT ±0.037, cite-verified) the deuterium row is
 **−1.2σ**, and the inter-code controversy (PRIMAT 2.439 vs
 PArthENoPE ~2.51-2.54; ΛCDM itself at 1.85σ under PRIMAT —
 arXiv:2011.11320 vs 2011.11537) is LARGER than the model's marginal
@@ -80,7 +80,7 @@ a helium price (Y_p +1.4σ → +1.9σ), net Δχ²_BBN ≈ −1.75. §11's open
 item (Y_p/D/H vs entry redshift) is thereby CLOSED, with a healer's
 sign. (iii) Headline cascade: the dyad's honest-incl-BBN charge
 reprices 5.9 → 3.6 under σ_th, widening the dyad-vs-ΛCDM gap by
-~2 χ² (ΛCDM's own BBN charge barely moves). The scar's honest final
+~2 χ² (ΛCDM's own BBN charge barely moves). The deuterium row's honest final
 form: ~1σ-class inside the field's shared nuclear fog, with a
 model-owned bounded partial healer. And the §4.2 rider rides
 on: the −8 is m_e's; the fluid is degenerate through all of it — the
@@ -847,7 +847,7 @@ plausible fold-in.**
  confirmation remains open (§11). The §2 completion's a⁻⁶ stiff tail /
  pre-basin radiation phase is independently BBN-constrainable (§11).
 
- **A candidate healer for the deuterium scar (2026-07-06, candidate
+ **A candidate healer for the deuterium row (2026-07-06, candidate
  grade — coefficients approximate).** The headline's −2.0σ D/H
  residual has one interaction that heals it *with the correct sign
  structure across all three primordial abundances*: a binding-energy
@@ -861,8 +861,8 @@ plausible fold-in.**
  discipline as §9.4 — binding energies are QCD/nuclear-scale
  quantities, i.e. this is the strong-sector interaction the atlas
  flags as unwritten), and (c) a check that the healer leaves no new
- scar elsewhere. If all three clear, it becomes P-2026-006. Until
- then the headline scar stands unhealed and the rider stays.
+ deuterium row elsewhere. If all three clear, it becomes P-2026-006. Until
+ then the headline deuterium row stands unhealed and the rider stays.
 
  **UPGRADED TO LITERATURE GRADE (2026-07-06 night; (a) and (c)
  cleared, (b) narrowed to one lever).** The Dent–Stern–Wetterich
@@ -886,7 +886,7 @@ plausible fold-in.**
  What remains open is only (b): the medium-native coupling
  construction (why m̂ responds to the substrate, with the same §2
  early-shape wall as m_e). Registered as **P-2026-006 (conditional
- fingerprint)**: if the deuterium scar is healed by a substrate
+ fingerprint)**: if the deuterium row is healed by a substrate
  amendment, it is a quark-mass amendment of +0.14–0.21% at BBN,
  carrying a mandatory correlated signature — ⁷Li *reduced* by
  7–13% and Y_p *reduced* by ~0.5% relative to the unamended dyad. An
@@ -1063,10 +1063,10 @@ framework has a **structural** limit, not a numerical one:
  on convergence: extract the 95% upper limit, score against the
  registered [0.11, 0.17] eV window, and run the matched ΛCDM+Σm_ν
  control on the identical stack.
-- **Binding-sector coefficients (the scar-healer's admission ticket,
+- **Binding-sector coefficients (the deuterium row-healer's admission ticket,
  §9.3)** — replace memory-approximate B_D sensitivities with
  literature-grade ones (Dent–Stern–Wetterich 2007 class), construct
- the coupling, audit for new scars; on success, register P-2026-006.
+ the coupling, audit for new deuterium rows; on success, register P-2026-006.
 - **The tunneling signature (§9.4)** — derive the local-state door's
  coupling magnitude → predicted decay-rate contrast across host
  dark-density environments → compare to the SN Ia mass-step budget.

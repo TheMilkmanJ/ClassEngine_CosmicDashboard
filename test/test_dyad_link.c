@@ -18,6 +18,8 @@
  *   5) dcdf_dyad_link = no              -> feature stays off (string must contain 'y'/'Y')
  *   6) dcdf_dyad_link = yes forces varconst_dep = varconst_instant even though
  *      'varying_fundamental_constants' was never set
+ *   7) dcdf_dyad_link = yes enables density gate by default (model path)
+ *   8) density gate: voids keep bare m_e; clusters screen to lab; recomb plateau full
  */
 
 #include "class.h"
@@ -99,13 +101,14 @@ int main(void) {
   const char *ini_path = "test_dyad_link_tmp.ini";
 
   /* --- Case 1: dcdf_dyad_link not present at all -> defaults untouched --- */
-  if (run_input_init(ini_path, "# no dyad-link parameters set\n",
+  if (run_input_init(ini_path, "h = 0.67\n# no dyad-link parameters set\n",
                       &pr, &ba, &th, &pt, &tr, &pm, &hr, &fo, &le, &sd, &op, errmsg) == _FAILURE_) {
     fprintf(stderr, "input_init failed (case 1): %s\n", errmsg);
     n_failures++;
   } else {
     CHECK_EQ_INT("dyad absent: varconst_dep stays varconst_none", ba.varconst_dep, varconst_none);
     CHECK_CLOSE("dyad absent: varconst_me stays 1.0", ba.varconst_me, 1.0, 1e-12);
+    CHECK_EQ_INT("dyad absent: density_gate off", ba.varconst_density_gate, _FALSE_);
   }
 
   /* --- Case 2: dcdf_dyad_link = yes, no overrides -> def541 derived stack --- */
@@ -174,6 +177,87 @@ int main(void) {
   } else {
     CHECK_EQ_INT("dyad on (uppercase 'Y'): varconst_dep forced to varconst_instant",
                  ba.varconst_dep, varconst_instant);
+  }
+
+  /* --- Case 7: dcdf_dyad_link = yes enables the density gate by default --- */
+  if (run_input_init(ini_path, "dcdf_dyad_link = yes\n",
+                      &pr, &ba, &th, &pt, &tr, &pm, &hr, &fo, &le, &sd, &op, errmsg) == _FAILURE_) {
+    fprintf(stderr, "input_init failed (case 7): %s\n", errmsg);
+    n_failures++;
+  } else {
+    CHECK_EQ_INT("dyad on: density_gate auto-enabled", ba.varconst_density_gate, _TRUE_);
+    CHECK_EQ_INT("dyad on: dyad_link flag set", ba.dyad_link, _TRUE_);
+    CHECK_CLOSE("dyad on: C_ref default 2", ba.varconst_C_ref, 2.0, 1e-12);
+    CHECK_CLOSE("dyad on: gate_n default 4", ba.varconst_gate_n, 4.0, 1e-12);
+  }
+
+  /* --- Case 8: density gate physics via background_varconst_of_z[_delta] --- */
+  if (run_input_init(ini_path,
+                      "dcdf_dyad_link = yes\n"
+                      "varying_transition_redshift = 50\n",
+                      &pr, &ba, &th, &pt, &tr, &pm, &hr, &fo, &le, &sd, &op, errmsg) == _FAILURE_) {
+    fprintf(stderr, "input_init failed (case 8): %s\n", errmsg);
+    n_failures++;
+  } else {
+    double alpha, me;
+    double me0 = ba.varconst_me; /* 1+eps, full bare value */
+    double S;
+
+    /* Gate function: void load -> S=1; deep structure -> S~0 */
+    S = background_varconst_gate_S(&ba, 0.0);
+    CHECK_CLOSE("gate S(0) = 1 (void/smooth)", S, 1.0, 1e-12);
+    S = background_varconst_gate_S(&ba, 100.0);
+    CHECK_CLOSE("gate S(100) ~ 0 (cluster)", S, 0.0, 1e-6);
+
+    /* Homogeneous path: recombination plateau (z=1100) keeps nearly full eps */
+    if (background_varconst_of_z(&ba, 1100., &alpha, &me) == _FAILURE_) {
+      fprintf(stderr, "background_varconst_of_z failed at z=1100\n");
+      n_failures++;
+    } else {
+      CHECK_CLOSE("homogeneous z=1100: me ~ bare (1+eps)", me, me0, 1e-4);
+    }
+
+    /* Homogeneous path: today (z=0) screens to lab */
+    if (background_varconst_of_z(&ba, 0., &alpha, &me) == _FAILURE_) {
+      fprintf(stderr, "background_varconst_of_z failed at z=0\n");
+      n_failures++;
+    } else {
+      CHECK_CLOSE("homogeneous z=0: me ~ lab (1.0)", me, 1.0, 1e-6);
+    }
+
+    /* Local path: void at z=0 keeps bare value (P-2026-007 void m_e-step) */
+    if (background_varconst_of_z_delta(&ba, 0., -0.8, &alpha, &me) == _FAILURE_) {
+      fprintf(stderr, "background_varconst_of_z_delta failed (void)\n");
+      n_failures++;
+    } else {
+      CHECK_CLOSE("local void delta=-0.8 at z=0: me = bare (1+eps)", me, me0, 1e-9);
+    }
+
+    /* Local path: overdense cluster at z=0 screens to lab */
+    if (background_varconst_of_z_delta(&ba, 0., 50.0, &alpha, &me) == _FAILURE_) {
+      fprintf(stderr, "background_varconst_of_z_delta failed (cluster)\n");
+      n_failures++;
+    } else {
+      CHECK_CLOSE("local cluster delta=50 at z=0: me ~ lab (1.0)", me, 1.0, 1e-6);
+    }
+
+    /* Explicit density_gate=no recovers legacy step when width=0 */
+  }
+
+  if (run_input_init(ini_path,
+                      "dcdf_dyad_link = yes\n"
+                      "varconst_density_gate = no\n"
+                      "varying_transition_redshift = 50\n",
+                      &pr, &ba, &th, &pt, &tr, &pm, &hr, &fo, &le, &sd, &op, errmsg) == _FAILURE_) {
+    fprintf(stderr, "input_init failed (case 8b legacy): %s\n", errmsg);
+    n_failures++;
+  } else {
+    double alpha, me;
+    CHECK_EQ_INT("dyad + density_gate=no: gate off", ba.varconst_density_gate, _FALSE_);
+    background_varconst_of_z(&ba, 100., &alpha, &me);
+    CHECK_CLOSE("legacy step z=100: me = bare", me, ba.varconst_me, 1e-12);
+    background_varconst_of_z(&ba, 10., &alpha, &me);
+    CHECK_CLOSE("legacy step z=10: me = lab", me, 1.0, 1e-12);
   }
 
   remove(ini_path);

@@ -4,11 +4,14 @@
 
 
 *Addresses Boltzmann's question — why did the universe begin in a low-entropy state? Status:
-**the FIRST beginning is answered by uniqueness; OUR cycle's beginning is not.** The uniqueness
+**the first beginning is answered by uniqueness; our cycle's beginning is not.** The uniqueness
 argument of §1 is real and it disposes of Penrose's 1-in-10^(10¹²³) for the first genesis. But the
 model is cyclic and §2's item 5 accepts Tolman openly — entropy accumulates, cycles lengthen — so
 our cycle inherited rather than started clean, and the argument does not reach it. §2a states the
-gap rather than letting §1 cover for it.*
+gap rather than letting §1 cover for it. **2026-08-02 lock:** that our-cycle gap is still open —
+not a stale placeholder, not desk-closeable from existing numbers (no pinned cycle count, no
+entropy-per-cycle budget that would force "we are early"), and not to be papered over by
+re-reading §1 as if it reached the present cycle.*
 
 ## 0. The mystery, stated properly
 
@@ -17,7 +20,7 @@ there are more ways to be disordered. The real mystery (the **Past Hypothesis**)
 initial state was so absurdly special: Penrose priced the required fine-tuning at 1 in
 10^(10¹²³). Every "explanation" that starts from a generic early state fails before it begins.
 
-## 1. The answer: the initial state was not selected — it was FORCED, by uniqueness
+## 1. The answer: the initial state was not selected — it was forced, by uniqueness
 
 The first genesis starts in **the zero-point state** (graded: "the measure problem
 dissolves at the root — the initial condition is unique... NO initial draw"). The vacuum:
@@ -34,7 +37,7 @@ dissolves at the root — the initial condition is unique... NO initial draw"). 
 *One reconciliation, so the corpus reads coherently:* the genesis's winding integer n (the "one
 topological draw," Kibble) is **not an initial condition** — it is the stochastic outcome of the
 first *transition*, drawn at the symmetry-breaking event out of the unique initial state. The
-initial STATE carries no alternatives; the first EVENT has outcomes. "No initial draw" and "the
+initial state carries no alternatives; the first event has outcomes. "No initial draw" and "the
 one topological draw" are statements about two different objects, in that order.
 
 Penrose's 1-in-10^(10¹²³) presumes the initial state was drawn from a phase-space of
@@ -52,8 +55,9 @@ With the low start explained, the arrow itself is the model's graded free-energy
  inverts intuition: uniform = far from equilibrium = the full reservoir). This is
  the Penrose-standard reading.
 2. **The statement**: the Weyl tensor — gravitational entropy ~ C² (Penrose's hypothesis) —
- and the model's own dyad gate — the curvature-metered near-step, exp(−(C/C_ref)ⁿ) with n > 2.43 — **is the free-energy gauge**
- (a recorded formula acquires meaning). The medium literally meters the arrow.
+ and the model's own gate on the electron-coupled scalar — the curvature-metered near-step,
+ exp(−(C/C_ref)ⁿ) with n > 2.43 — **is the free-energy gauge** (a recorded formula acquires
+ meaning). The medium literally meters the arrow.
 3. **The flow**: dE = −p dV — the one exchange; internal exchanges conserve;
  only the matter–space exchange spends free energy.
 4. **The cost**: Landauer — every recorded event (decoherence event) pays its
@@ -88,9 +92,26 @@ chain's time, and geometrically under 4%. The one standard repair is anthropic �
 structure, structure needs low entropy — which §3 below explicitly rejects as a non-answer, and the
 file cannot both reject it and rely on it.
 
-**Grade: the first beginning, derived by uniqueness; our beginning, open.** Naming the gap costs
+**The first beginning is derived by uniqueness; our beginning is open.** Naming the gap costs
 the file nothing it had actually earned, and the uniqueness theorem stands undiminished for the
 question it does answer.
+
+### Status of the our-cycle gap (2026-08-02)
+
+| claim | status |
+|---|---|
+| first-genesis Past Hypothesis → vacuum by uniqueness | **derived** (§1); functional supplied (§4) |
+| running arrow = free-energy drawdown metered by C² | **derived-from-recorded** (§2) |
+| our cycle began low-entropy | **Open** — Tolman inheritance reopens the Past Hypothesis for the observed universe |
+| "we are early in the chain" as a repair | **blocked by the model's own lengthening** (time-weighted observer falls late; §2a) |
+| anthropic repair | **explicitly rejected** by this file (§3) |
+
+**What would close the gap (and is not on the desk):** a derived statement that our cycle is
+early enough that inherited entropy remains Past-Hypothesis-grade, *or* a non-anthropic selection
+mechanism that prefers low-entropy cycles without contradicting §3. Neither is supplied by a
+pinned cycle count (the terminus is finite, a count is not — §2 item 6), nor by bounce dynamics
+(open elsewhere), nor by inventing a measure. **Complete-conditional grade stands:** first half
+paid; second half named open, not papered.
 
 ## 3. Why this is different from the standard non-answers
 
@@ -119,9 +140,15 @@ question it does answer.
  subdominant: with the recorded healing length it reaches ~10³⁶ k_B today against ~10¹⁰⁴ in
  black holes. The functional supplies the theorem and the mechanism, not the universe's
  entropy budget, and is stated that way.
-- **What is owed:** (ii) the regulator's O(1) check on the entanglement side — the area law
- itself is derived and its coefficient closed, so what remains is half of one computation, and
- the same payment closes the Page curve ([PRTOE_entropy.md](PRTOE_entropy.md)); (iii) "whatever
+- **The area law's field content, since paid:** its coefficients 12π and 48π are those of
+ minimally coupled scalars, so the cancellation was derived for that content only. The extension to
+ the roster the model carries has since been made: spin-½ produces no contact term and preserves the
+ ratio exactly; gauge fields break it through the contact term, which is identified as the edge
+ modes' own entanglement entropy and restores the ratio once those are counted as horizon entropy;
+ and a conformally coupled scalar drops out of both sides identically, which the Higgs does under
+ the same ξ = 1/6 that induced-Newton finiteness already demands. Roughly two-thirds of the roster
+ carries the quarter unconditionally and the remainder under one named commitment
+ ([PRTOE_entropy.md](PRTOE_entropy.md) §3). **What is owed:** (iii) "whatever
  begins, begins in the choice-free state" is a metaphysical premise made physical by the
  model's structure — flagged as the load-bearing philosophical joint.
 - **Falsifiers inherited:** any confirmed pre-genesis relic (kills the finite-past structure);

@@ -46,6 +46,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       N_idr: 0.26            # THE BIRTH RAMP (locked by operator order 2026-07-14, hunt entries 166-167):
       idr_nature: fluid      # the pour's settle-in as fluid dark radiation; 0.26 = the theta_s-preserving

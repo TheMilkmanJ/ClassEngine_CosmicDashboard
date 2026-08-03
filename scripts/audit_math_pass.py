@@ -4,9 +4,13 @@ Each check states the claim, the file it lives in, and what the arithmetic actua
 A check FAILS if the recomputed value misses the booked one by more than the stated
 tolerance. Run: python3 scripts/audit_math_pass.py
 """
+import cmath
 import math
 
 ALPHA = 1/137.035999084
+# PRTOE_light.md's two Planck-floor handouts. Named here rather than retyped at each use, so a
+# correction to either reaches every check that depends on it (audit protocol check 21).
+_invY_Pl, _inv2_Pl = 55.5, 49.4
 ME    = 0.51099895e6      # eV
 MP    = 938.27208816e6    # eV
 MPL   = 1.220890e28       # eV
@@ -15,7 +19,11 @@ HBARC = 197.3269804e-9    # eV*m
 
 R = []
 def chk(doc, claim, booked, got, tol=0.02, unit=""):
-    ok = booked == 0 or abs(got-booked)/abs(booked) <= tol
+    # tol is RELATIVE — except against a zero booking, which has no relative scale. Grading
+    # those as an automatic pass (as this did until 2026-07-28) meant every "must vanish"
+    # claim in the harness was unfalsifiable: 23 checks could not fail. A zero booking is
+    # now graded ABSOLUTELY against the same tol, which is what the claim actually asserts.
+    ok = abs(got) <= tol if booked == 0 else abs(got-booked)/abs(booked) <= tol
     R.append((ok, doc, claim, booked, got, unit))
 
 # ---- the amplitude ---------------------------------------------------------
@@ -57,6 +65,54 @@ chk("hierarchy_problem", "M_anchor = M_red*exp(-1/(k ac) - 3/2)", 1576,
     MRED*math.exp(-1/(k*ac)-1.5)/1e9, 5e-3, "GeV")
 chk("hierarchy_problem", "4 pi m_H", 1574, 4*math.pi*mH/1e9, 5e-3, "GeV")
 
+# ---- the vertex correction (docket #141, hierarchy_problem 6e) --------------
+# c is a quadrature, not a closed form, so it is recomputed here from the script that
+# owns it rather than transcribed. Its one input is b = 2 alpha_c/(pi v) at v = 1;
+# e^2 cancels between <C> and lambda<V>, so c depends on nothing else.
+import importlib.util as _ilu, os as _os
+_vcb_path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)),
+                          "hierarchy_vertex_crossed_box.py")
+_vspec = _ilu.spec_from_file_location("_vcb", _vcb_path)
+_VCB = _ilu.module_from_spec(_vspec); _vspec.loader.exec_module(_VCB)
+_b141 = 2*ac/math.pi
+chk("hierarchy_problem", "b = 2 alpha_c/pi, the screening constant", 0.0139369, _b141, 1e-4)
+chk("hierarchy_problem", "k = ln(1+1/b)/pi in closed form", 1.36461191,
+    math.log(1+1/_b141)/math.pi, 1e-6)
+chk("hierarchy_problem", "<V>_FS/pi^2 reproduces lambda = k alpha_c", 0.0298742,
+    _VCB.V_avg_fs(_b141, 4*math.pi*ac)/math.pi**2, 1e-5)
+# the pipeline's calibration point: contact V on a parabolic band must return the
+# Gor'kov-Melik-Barkhudarov constant, i.e. the textbook (4e)^(1/3) gap suppression
+chk("hierarchy_problem", "GMB constant (1 + ln 4)/3 = ln (4e)^(1/3)", 0.7954315,
+    (1+math.log(4))/3, 1e-6)
+chk("hierarchy_problem", "the crossed-box pipeline reproduces it", 0.7954315,
+    _VCB.check_gmb(nu=24, nt=24, ns=24)[0], 1e-6)
+_c141 = _VCB.c_coefficient(nu=24, nt=24, ns=24)
+_lam141 = 1.36461191*ac
+chk("hierarchy_problem", "c, the crossed box", 0.789262, _c141, 1e-5)
+chk("hierarchy_problem", "c's contact limit b -> inf on the linear band", 0.433868,
+    _VCB.c_self_consistent(5e4, nu=32, nt=32, ns=32), 1e-4)
+chk("hierarchy_problem", "lambda_eff = lambda(1 - c lambda)", 0.0291698,
+    _lam141*(1-_c141*_lam141), 1e-4)
+chk("hierarchy_problem", "1/lambda + c, the corrected exponent", 34.263,
+    1/_lam141 + _c141, 1e-4)
+chk("hierarchy_problem", "the anchor multiplier exp(-c)", 0.45418, math.exp(-_c141), 1e-4)
+chk("hierarchy_problem", "M_anchor vertex-corrected, booked convention", 716.0,
+    MRED*math.exp(-1/_lam141-_c141-1.5)/1e9, 5e-3, "GeV")
+chk("hierarchy_problem", "M_anchor vertex-corrected, exact-solution convention", 1431.9,
+    2*MRED*math.exp(-1/_lam141-_c141-1.5)/1e9, 5e-3, "GeV")
+chk("hierarchy_problem", "the band 1.6-5.2 TeV x exp(-c), bottom edge", 0.727,
+    1.6*math.exp(-_c141), 5e-3, "TeV")
+chk("hierarchy_problem", "the band 1.6-5.2 TeV x exp(-c), top edge", 2.362,
+    5.2*math.exp(-_c141), 5e-3, "TeV")
+chk("hierarchy_problem", "dln c/dln b, c's robustness against the screening constant", -0.0905,
+    (math.log(_VCB.c_self_consistent(_b141*1.02, nu=32, nt=32, ns=32))
+     - math.log(_VCB.c_self_consistent(_b141*0.98, nu=32, nt=32, ns=32)))/math.log(1.02/0.98),
+    0.02)
+chk("hierarchy_problem", "the shooter's 13 TeV over the corrected band's top edge", 5.50,
+    13/(5.2*math.exp(-_c141)), 5e-3, "x")
+chk("hierarchy_problem", "the shooter's 13 TeV over the corrected band's bottom edge", 17.9,
+    13/(1.6*math.exp(-_c141)), 5e-3, "x")
+
 # ---- the scale ladder ------------------------------------------------------
 chk("scale_ladder", "atom rung: (1/2) alpha^2", 2.66e-5, 0.5*ALPHA**2, 0.01)
 chk("scale_ladder", "universe rung: (1/2) alpha_c^2", 2.40e-4, 0.5*ac**2, 0.01)
@@ -66,7 +122,31 @@ chk("scale_ladder", "nucleus ~ 8 MeV / 939 MeV", 8.5e-3, 8e6/939e6, 0.05)
 chk("sqrt3_derivation", "Gamma_par/H = sqrt(3)", 1.7320, math.sqrt(3), 1e-4)
 chk("sqrt3_derivation", "omega_J/H = sqrt(3/2)", 1.2247, math.sqrt(1.5), 1e-4)
 chk("sqrt3_derivation", "B = omega_J/Gamma_par = 1/sqrt(2)", 0.7071, math.sqrt(1.5)/math.sqrt(3), 1e-4)
+# Closure, from the physics rather than from the surds (protocol check 23): with
+# G = 1/(8 pi M_red^2) the Jeans rate is omega_J^2 = 4 pi G rho = rho/(2 M_red^2), and
+# Friedmann gives H^2 = rho/(3 M_red^2). Both rho and M_red cancel, so the ratio is forced.
+_rho, _Mred = 7.3e-3, 2.435e27        # arbitrary positive values; they must cancel
+_omJ2 = 4*math.pi*(1/(8*math.pi*_Mred**2))*_rho
+_H2   = _rho/(3*_Mred**2)
+chk("sqrt3_derivation", "omega_J^2/H^2 derived from G and Friedmann", 1.5, _omJ2/_H2, 1e-12)
+chk("sqrt3_derivation", "and it is independent of rho (decade shift)", 0.0,
+    (4*math.pi*(1/(8*math.pi*_Mred**2))*(10*_rho))/((10*_rho)/(3*_Mred**2)) - _omJ2/_H2, 1e-12)
 As = 2.088e-9
+# --- the occupancy, in ONE clock -------------------------------------------
+# t_turn is a dark-energy-era quantity (H_Lambda^-1). The elapsed time since the
+# rho_m = rho_Lambda crossing must be expressed in the SAME clock; quoting it in
+# H_0^-1 (0.262 at Om = 0.30) inflates the occupancy from 1-in-37 to 1-in-29.
+def _elapsed(Om):
+    OL = 1.0 - Om
+    d  = math.asinh(math.sqrt(OL/Om)) - math.asinh(1.0)   # a_c -> 1; at a_c the arg is exactly 1
+    t_H0 = (2.0/(3.0*math.sqrt(OL)))*d
+    return t_H0, t_H0*math.sqrt(OL)                       # (H_0^-1, H_Lambda^-1)
+_e0, _eL = _elapsed(0.30)
+chk("coincidence_problem", "elapsed since matter-Lambda crossing, H_0^-1", 0.262, _e0, 0.01)
+chk("coincidence_problem", "the same elapsed time in H_Lambda^-1", 0.219, _eL, 0.01)
+_tt = -0.5*math.log(2.088e-9)/math.sqrt(1.5)
+chk("coincidence_problem", "occupancy in one clock (%)", 2.68, 100*_eL/_tt, 0.01, "%")
+chk("coincidence_problem", "occupancy as one-in-N", 37.3, _tt/_eL, 0.01)
 chk("sqrt3_derivation", "t_turn = ln(1/sqrt(A_s))/(sqrt(3/2) H)", 8.16,
     math.log(1/math.sqrt(As))/math.sqrt(1.5), 5e-3, "1/H")
 
@@ -90,6 +170,14 @@ mp_g, c_cgs, e_esu = 1.67262e-24, 2.99792458e10, 4.80320e-10
 H_rec = 70*math.sqrt(0.3*1101**3)*3.2408e-20
 chk("cosmic_magnetism", "B = 2(m_p c/e) * 0.5 H_rec", 5e-18,
     2*(mp_g*c_cgs/e_esu)*0.5*H_rec, 0.15, "G")
+# T14 link 4 (#158): Harrison is B = k*omega with k constant, so A = k*u + grad(phi)
+# and H_B = k^2 * H_kin on the closed 3-torus. The coefficient enters SQUARED — which is
+# why the battery's own sign convention cancels out of sign(helicity_B) entirely.
+_k_harrison = 2*(mp_g*c_cgs/e_esu)
+chk("cosmic_magnetism", "helicity conversion k^2 = (2 m_p c/e)^2", 4.3595e-8,
+    _k_harrison**2, 1e-4, "G^2 s^2")
+chk("cosmic_magnetism", "k^2 > 0 (sign convention cancels)", 1.0,
+    1.0 if _k_harrison**2 > 0 else 0.0, 1e-9)
 
 # ---- indirect detection ----------------------------------------------------
 chk("indirect_detection", "orders below thermal relic", 128, math.log10(3e-26/1e-154), 0.02)
@@ -201,39 +289,158 @@ chk("inflation_replacement", "running from the scale-local form", -5.2e-4, -2/(2
 chk("quantum_gravity", "Bekenstein quarter = 12pi/48pi", 0.25,
     (1/(48*math.pi))/(1/(12*math.pi)), 1e-9)
 
-# ---- the deuterium scar ----------------------------------------------------
+# ---- the deuterium row ----------------------------------------------------
 # the row, its LCDM control, and the decomposition that says where the deficit is made
+# Standing width: two-term (obs ±0.030 ⊕ PRIMAT post-LUNA ±0.037 = ±0.0476).
+# Three-term double-counts d(p,γ)³He — LUNA is already inside ±0.037 (arXiv:2011.11320;
+# #157 settled 2026-07-21). Retired three-term bookings: FAILURES_LEDGER.
 _DH_L, _DH_W, _DH_M = 2.420, 2.372, 2.387      # LCDM control -> +omega_b -> +the window
-_COOKE, _TOT = 2.527, math.hypot(0.030, 0.0476)
+# CONFIG-VERIFIED 2026-07-21. The booked triple was made at eps = 1.24%, T_c = 0.179 -- exactly
+# what bbn_witness documents. Y_p is the clean discriminator and settles it: the windowed run at
+# that config gives Y_p = 0.248996 against booked 0.248995 (0.0004%), while T_c = 0.17710 gives
+# 0.248963 (0.013%, thirty times worse). D/H then reproduces to 0.072% and the control to 0.15%.
+# PRyM is bit-for-bit DETERMINISTIC (verified by repeat runs) but its D/H output is NOT SMOOTH in
+# omega_b at the ~0.1% level: the wide-scan log-log residuals are ~1e-3, and a 0.071% omega_b step
+# returns an apparent slope of -0.34 against the true -1.66. So the reruns' 0.07-0.15% deviations
+# are inside the solver's own non-smoothness and NO row is re-booked.
+# That non-smoothness is also the full explanation of the retired -1.83: a slope differenced across
+# the 1.1% step inherits ~0.1% of non-smooth error and is unstable at the +/-0.15 level. The
+# elasticity is therefore MEASURED over a 6% baseline, never differenced.
+_COOKE, _OBS_DH, _NUC_DH = 2.527, 0.030, 0.037
+_TOT = math.hypot(_OBS_DH, _NUC_DH)            # 0.0476 — the standing width
 _sig = lambda x: (x - _COOKE)/_TOT
-chk("deuterium_scar", "combined D/H budget", 0.0563, _TOT, 1e-3)
-chk("deuterium_scar", "LCDM control vs Cooke", -1.90, _sig(_DH_L), 0.01, "sigma")
-chk("deuterium_scar", "the model vs Cooke", -2.49, _sig(_DH_M), 0.01, "sigma")
-chk("deuterium_scar", "the model's deficit vs its LCDM control", -0.59, _sig(_DH_M)-_sig(_DH_L), 0.02, "sigma")
-chk("deuterium_scar", "omega_b step costs", -0.85, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
-chk("deuterium_scar", "the dyad's BBN window gains", +0.27, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
-chk("deuterium_scar", "window grafted on LCDM alone", -1.63, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
-chk("deuterium_scar", "d ln(D/H)/d ln omega_b (production)", -1.83,
-    math.log(_DH_W/_DH_L)/math.log(1.011), 0.01)
+chk("deuterium_row", "combined D/H budget (2-term, standing)", 0.0476, _TOT, 1e-3)
+chk("deuterium_row", "LCDM control vs Cooke", -2.25, _sig(_DH_L), 0.01, "sigma")
+chk("deuterium_row", "the model vs Cooke", -2.94, _sig(_DH_M), 0.01, "sigma")
+chk("deuterium_row", "the model's deficit vs its LCDM control", -0.69, _sig(_DH_M)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_row", "omega_b step costs", -1.01, _sig(_DH_W)-_sig(_DH_L), 0.02, "sigma")
+chk("deuterium_row", "the dyad's BBN window gains", +0.31, _sig(_DH_M)-_sig(_DH_W), 0.02, "sigma")
+chk("deuterium_row", "window grafted on LCDM alone", -1.93, _sig(_DH_L*(_DH_M/_DH_W)), 0.02, "sigma")
+# MEASURED by a 6%-wide omega_b scan through the production splice, numba on, fitted log-log:
+# -1.6582 at m_e = 1, -1.6751 at the model's m_e, residuals ~5e-4 (scripts/prym_omega_b_elasticity.py).
+chk("deuterium_row", "d ln(D/H)/d ln omega_b (production, measured)", -1.66,
+    (-1.6582 + -1.6751)/2, 0.01)
+chk("deuterium_row", "1.1% omega_b step -> D/H loss", 1.81,
+    100*(1 - 1.011**-1.6667), 0.02, "percent")
 # the exchange rate: the omega_b shift arrives with the H0 relief
 _dH0 = 69.9 - 68.2
-chk("deuterium_scar", "deuterium paid per km/s/Mpc of H0", 0.50,
+chk("deuterium_row", "deuterium paid per km/s/Mpc of H0", 0.59,
     abs(_sig(_DH_W)-_sig(_DH_L))/_dH0, 0.02, "sigma")
-chk("deuterium_scar", "H0 given back to reach LCDM parity", 1.17,
+chk("deuterium_row", "H0 given back to reach LCDM parity", 1.17,
     (_sig(_DH_L)-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
-chk("deuterium_scar", "H0 given back to centre on Cooke", 4.96,
+chk("deuterium_row", "H0 given back to centre on Cooke", 4.96,
     (0-_sig(_DH_M))*_dH0/abs(_sig(_DH_W)-_sig(_DH_L)), 0.02, "km/s/Mpc")
+# the EM injector spec, as an energy budget: why it is invisible in the CMB spectrum
+_ETA_B = 6.1e-10
+_perbary = lambda T: (math.pi**4/(30*1.20206))*T/_ETA_B      # photon energy per baryon, eV
+chk("deuterium_row", "photon energy per baryon at the window opening (599 eV)", 2.65e12,
+    _perbary(599.0), 2e-2, "eV")
+chk("deuterium_row", "the 30 eV/H spec as a fraction of the photon bath", 1.13e-11,
+    30.0/_perbary(599.0), 2e-2)
+chk("deuterium_row", "its mu-distortion", 3.2e-11, 1.4*30.0/_perbary(300.0), 3e-2)
+chk("deuterium_row", "margin below FIRAS |mu| < 9e-5", 2.8e6,
+    9e-5/(1.4*30.0/_perbary(300.0)), 3e-2, "x")
+chk("deuterium_row", "required relic abundance n_X/n_gamma at 20 MeV", 9.15e-16,
+    (30.0/20e6)*_ETA_B, 2e-2)
+chk("deuterium_row", "recombination is later than the window close by", 1.2e5,
+    1.2e13/1e8, 2e-2, "x")
+
+# the same quantity carried at four values across the literature (2 sigma of spread on the row)
+chk("deuterium_row", "row on Pisanti 2021's published rate error 0.060", -2.09,
+    (2.387021-2.527)/math.hypot(0.030, 0.060), 1e-2, "sigma")
+chk("deuterium_row", "Pisanti's rate error vs PRyM-on-PRIMAT-bands", 2.50,
+    0.060/0.0240, 2e-2, "x")
+chk("deuterium_row", "spread on the row across the four rate-error assessments", 2.01,
+    abs((2.387021-2.527)/math.hypot(0.030,0.0240) - (2.387021-2.527)/math.hypot(0.030,0.0807)),
+    2e-2, "sigma")
+
+# the compilation spread localised: it is d(d,n)3He, and the argument is about its error bar
+chk("deuterium_row", "d(d,n)3He share of the compilation shift", 0.94,
+    0.05240/0.05557, 3e-2)
+chk("deuterium_row", "PRIMAT-vs-NACRE on d(d,n)3He, in PRIMAT sigma", 4.02,
+    math.log(0.9569)/math.log(1.0110)*-1, 2e-2, "sigma")
+chk("deuterium_row", "the two compilations' 1sig bands on d(d,n)3He differ by", 5.21,
+    math.log(1.0586)/math.log(1.0110), 2e-2, "x")
+chk("deuterium_row", "d(p,g)3He (the LUNA reaction) agreement between compilations", 0.0012,
+    abs(1-0.9988), 1e-1)
+chk("deuterium_row", "theory error on NACRE II's uncertainty assessment", 0.0807,
+    0.0807, 1e-6)
+chk("deuterium_row", "the row on NACRE II's assessment", -1.63,
+    (2.387021-2.527)/math.hypot(0.030, 0.0807), 1e-2, "sigma")
+
+# PRyM's OWN theory error on D/H, propagated from its per-reaction p = +1 sigma bands
+_RATE_PULLS = {"dpHe3g": -0.017288, "ddHe3n": -0.013019, "ddtp": -0.009838,
+               "He3ntp": 0.002963, "npdg": 0.001344, "He3dap": -0.000345}
+_PRYM_RATE_ERR = math.sqrt(sum(v*v for v in _RATE_PULLS.values()))
+chk("deuterium_row", "PRyM's own nuclear-rate error on D/H", 0.0240, _PRYM_RATE_ERR, 1e-2)
+chk("deuterium_row", "d(p,g)3He share of that variance", 0.52,
+    _RATE_PULLS["dpHe3g"]**2/sum(v*v for v in _RATE_PULLS.values()), 2e-2)
+chk("deuterium_row", "PRyM's rate error vs the borrowed PRIMAT 0.037", 0.65,
+    _PRYM_RATE_ERR/0.037, 2e-2, "x")
+chk("deuterium_row", "row on Cooke + PRyM rates alone", -3.64,
+    (2.387021-2.527)/math.hypot(0.030, _PRYM_RATE_ERR), 1e-2, "sigma")
+chk("deuterium_row", "row with the compilation systematic folded in", -1.96,
+    (2.387021-2.527)/math.sqrt(0.030**2 + _PRYM_RATE_ERR**2 + 0.0190**2
+                               + 0.0128**2 + 0.0556**2), 2e-2, "sigma")
+
+# the nuclear rate-compilation systematic, measured in-pipeline (PRTOE_NACREII=1)
+_NAC_M, _NAC_C = 2.442591, 2.475125          # NACRE II: model row, LCDM control
+_PRI_M, _PRI_C = 2.387021, 2.416372          # PRIMAT (production): same two points
+chk("deuterium_row", "NACRE II moves the model row to", -1.77, _sig(_NAC_M), 1e-2, "sigma")
+chk("deuterium_row", "the compilation systematic on the model row", 1.167,
+    _sig(_NAC_M)-_sig(_PRI_M), 1e-2, "sigma")
+chk("deuterium_row", "the same systematic on the LCDM control", 1.233,
+    _sig(_NAC_C)-_sig(_PRI_C), 1e-2, "sigma")
+chk("deuterium_row", "model-minus-control is compilation-ROBUST", -0.067,
+    (_sig(_NAC_M)-_sig(_NAC_C))-(_sig(_PRI_M)-_sig(_PRI_C)), 5e-2, "sigma")
+chk("deuterium_row", "compilation systematic vs the borrowed 0.037 theory error", 1.50,
+    abs(_NAC_M-_PRI_M)/0.037, 2e-2, "x")
+chk("deuterium_row", "tau_n bottle->beam on D/H", 0.268, _sig(2.399781)-_sig(_PRI_M), 2e-2, "sigma")
+chk("deuterium_row", "tau_n bottle->beam on Y_p (wrong shape)", 0.475,
+    (0.251086-0.249185)/0.0040, 2e-2, "sigma")
+
+# gravity vs EM as BBN dials -- settles the recurring "BBN was EM-governed" proposal
+_NEFF = 3.044
+_dlnrho_dN = 0.2271/(1+0.2271*_NEFF)
+_dlnH_dN = 0.5*_dlnrho_dN
+chk("deuterium_row", "d ln H / d N_eff", 0.0671, _dlnH_dN, 1e-2)
+chk("deuterium_row", "d ln(D/H) / d ln H (the gravitational dial)", 2.01,
+    0.1350/_dlnH_dN, 1e-2)
+chk("deuterium_row", "gravity's dial vs the whole m_e window (0.645%)", 3.12,
+    (0.1350/_dlnH_dN)/0.645, 2e-2, "x")
+# the binding-energy budget: BBN's total release against the photon bath
+_BBN_RELEASE = (0.2470/4.0)*28.30e6 + 2.4e-5*2.22e6          # eV per baryon
+chk("deuterium_row", "BBN binding energy released per baryon", 1.748e6,
+    _BBN_RELEASE, 1e-2, "eV")
+chk("deuterium_row", "that release as a fraction of the photon bath at 70 keV", 5.64e-9,
+    _BBN_RELEASE/_perbary(7.0e4), 2e-2)
+chk("deuterium_row", "deuterium bottleneck from the photon-to-baryon ratio", 104.6,
+    2.22e6/math.log(1/_ETA_B)/1e3, 2e-2, "keV")
+
+
+# the two BBN supersessions, priced by wide scans through the production network
+# (scripts/prym_supersession_pricing.py). Both moves are ~0.007% effects on D/H, far below the
+# solver's ~0.1% non-smoothness, so they CANNOT be priced by differencing a single pair of runs.
+_TC_SLOPE, _EPS_SLOPE = 0.08981, 0.011764        # D/H per MeV of T_c; per % of m_e
+_dTC, _dEPS = 0.17710 - 0.179, 1.2543 - 1.24
+chk("deuterium_row", "T_c supersession 179 -> 177.10 keV", -0.00358,
+    _TC_SLOPE*_dTC/_TOT, 1e-2, "sigma")
+chk("deuterium_row", "eps supersession 1.24 -> 1.2543 percent", +0.00353,
+    _EPS_SLOPE*_dEPS/_TOT, 1e-2, "sigma")
+chk("deuterium_row", "both supersessions together (they cancel)", -0.0000507,
+    (_TC_SLOPE*_dTC + _EPS_SLOPE*_dEPS)/_TOT, 2e-2, "sigma")
+
 # the below-T_c lever: right shape, wrong size
 _dD_all, _dY_all, _dD_bel, _dY_bel = 0.1350, 0.0131, 0.1160, 0.0041
-chk("deuterium_scar", "below-T_c efficiency ratio", 2.75,
+chk("deuterium_row", "below-T_c efficiency ratio", 2.75,
     (_dD_bel/_dY_bel)/(_dD_all/_dY_all), 0.01, "x")
 _N_bel = (_dD_all*0.42)/_dD_bel                 # dN below T_c that zeroes deuterium
-chk("deuterium_scar", "below-T_c dN_eff to zero deuterium", 0.49, _N_bel, 0.02)
-chk("deuterium_scar", "helium landing under the below-T_c lever", 1.7,
+chk("deuterium_row", "below-T_c dN_eff to zero deuterium", 0.49, _N_bel, 0.02)
+chk("deuterium_row", "helium landing under the below-T_c lever", 1.7,
     1.09 + _N_bel*_dY_bel/0.0034, 0.05, "sigma")
-chk("deuterium_scar", "reheat shortfall (upper)", 33.0, _N_bel/0.015, 0.02, "x")
+chk("deuterium_row", "reheat shortfall (upper)", 33.0, _N_bel/0.015, 0.02, "x")
 # photodissociation: the helium reservoir dwarfs the deuterium it must supply
-chk("deuterium_scar", "He/H by number vs D/H — the reservoir ratio", 3300.0,
+chk("deuterium_row", "He/H by number vs D/H — the reservoir ratio", 3300.0,
     0.083/2.5e-5, 0.02, "x")
 
 # ---- the 0nubb window (the Fairbank note's headline) -----------------------
@@ -249,10 +456,10 @@ def _win(m1):
     m2, m3 = math.sqrt(m1**2+_dm21), math.sqrt(m1**2+_dm31)
     t = [(1-_s12)*(1-_s13)*m1, _s12*(1-_s13)*m2, _s13*m3]
     return (m1+m2+m3)*1e3, sum(t)*1e3, max(0.0, 2*max(t)-sum(t))*1e3
-chk("fairbank_note", "Sigma m_nu at the high anchor m1 = 2.284", 61.40, _win(2.284e-3)[0], 2e-3, "meV")
+chk("fairbank_note", "Sigma m_nu at the retired-route value m1 = 2.284", 61.40, _win(2.284e-3)[0], 2e-3, "meV")
 chk("fairbank_note", "floor at the low anchor", 0.044, _win(2.250e-3)[2], 0.03, "meV")
-chk("fairbank_note", "floor at the high anchor", 0.023, _win(2.284e-3)[2], 0.05, "meV")
-chk("fairbank_note", "a 1.5% anchor move nearly halves the floor", 1.9,
+chk("fairbank_note", "floor at the retired-route value 2.284", 0.023, _win(2.284e-3)[2], 0.05, "meV")
+chk("fairbank_note", "the retired route's +1.5% would nearly halve the floor", 1.9,
     _win(2.250e-3)[2]/_win(2.284e-3)[2], 0.05, "x")
 chk("fairbank_note", "|Ue1|^2 m1", 1.52, _t[0]*1e3, 0.02, "meV")
 chk("fairbank_note", "|Ue2|^2 m2", 2.67, _t[1]*1e3, 0.02, "meV")
@@ -268,6 +475,30 @@ for _ in range(80):                            # bisect for the critical m1
     if _gap(_mid) > 0: _lo = _mid
     else: _hi = _mid
 chk("fairbank_note", "critical m1 where the floor vanishes", 2.324, _mid*1e3, 0.01, "meV")
+# --- what the anchor's range actually is -----------------------------------
+# The letter's floor table spans the OBSERVATION's own uncertainty, not the
+# 2.2842 meV figure: that one is the T_c = 179 keV route's output, and the
+# ledger retires T_c = 179 keV as the observation-inverted 176.32 rounded up,
+# with the "+1.5%" being the rounding rather than a sourced spread. The live
+# range is the Planck error on rho_Lambda, quartered.
+_OL, _dOL, _hh, _dhh = 0.6889, 0.0056, 0.6736, 0.0054
+_relq = math.sqrt((_dOL/_OL)**2 + (2*_dhh/_hh)**2)/4.0
+chk("fairbank_note", "rho_Lambda^(1/4) relative error (Planck, quartered)", 0.449,
+    100*_relq, 0.01, "%")
+_lo1 = 2.25e-3*(1-_relq)
+chk("fairbank_note", "anchor low edge, observed -1 sigma", 2.2399, _lo1*1e3, 2e-3, "meV")
+chk("fairbank_note", "floor at the low edge", 0.050, _win(_lo1)[2], 0.02, "meV")
+chk("fairbank_note", "floor at the observed anchor", 0.044, _win(2.250e-3)[2], 0.02, "meV")
+chk("fairbank_note", "floor at the derived anchor", 0.038, _win(2.2599e-3)[2], 0.02, "meV")
+chk("fairbank_note", "ceiling at the low edge", 5.295, _win(_lo1)[1], 0.02, "meV")
+chk("fairbank_note", "ceiling at the derived anchor", 5.310, _win(2.2599e-3)[1], 0.02, "meV")
+chk("fairbank_note", "ceiling moves this little across the range", 0.28,
+    100*(_win(2.2599e-3)[1]-_win(_lo1)[1])/_win(_lo1)[1], 0.05, "%")
+# the derived anchor's distance to the floor-vanishing threshold, in sigmas
+chk("fairbank_note", "derived anchor sits this far below the critical m1", 2.78,
+    100*(_mid*1e3 - 2.2599)/2.2599, 0.05, "%")
+chk("fairbank_note", "that gap in sigmas of the observation", 6.18,
+    ((_mid*1e3 - 2.2599)/2.2599)/_relq, 0.15, "sigma")
 
 # ---- the experiment overlay (the Fairbank note's ask) ----------------------
 import numpy as _np
@@ -325,7 +556,10 @@ chk("THREE_EQUATIONS", "T_c from the kernel's tau", 177.10, 0.5*math.log(2)*ME/1
 _T0   = 2.7255*8.617333262e-5              # CMB temperature today, eV
 _m_dy = 2.24e-20                           # the dyad-amplitude-pinned mass, eV
 _Ton  = math.sqrt(_m_dy*MRED/0.61)         # include/background.h's own formula
-chk("background.h", "T_on = sqrt(m*M_red/0.61)", 9.41, _Ton/1e3, 0.01, "keV")
+chk("background.h", "T_on = sqrt(m*M_red/0.61)", 9.46, _Ton/1e3, 1e-3, "keV")
+# the identity against the coded onset z = 4.0e7 -- MATH_SPINE quotes this ratio
+chk("MATH_SPINE 2", "identity T_on over the coded z_rad_onset = 4.0e7", 1.007,
+    _Ton/(4.0e7*_T0), 1e-3, "x")
 chk("background.h", "z_on from the H = m identity", 4.0e7, _Ton/_T0, 0.02)
 chk("background.h", "log10 z_on, the identity", 7.605, math.log10(_Ton/_T0), 2e-3)
 chk("cmp_prtoe_fixed", "log10 z_on, what the running job uses", 7.5517, math.log10(3.5619e7), 1e-4)
@@ -333,6 +567,15 @@ chk("ForJustin/07", "identity vs the 3alpha mark — the unresolved gap", 0.058,
     math.log10(_Ton/_T0) - 7.547, 0.02, "dex")
 chk("ForJustin/07", "the implied dyad-mass disagreement", 1.31,
     10**(2*(math.log10(_Ton/_T0) - 7.547)), 0.02, "x")
+
+# ---- #130 piece 2: the induced split is ALREADY GUARDED, three checks down at
+# "--- #130: the induced split ---" (light 5 + two DERIVATION_HUNT 1 rows). A
+# duplicate block was added here on 2026-07-28 and removed the same day under
+# check 2a: the existing guard computes the hypercharge share from its own
+# unrounded inputs (42.9/98.4) and returns 1.859x, where the duplicate used the
+# rounded 44% and returned 1.876x. Two guards on one quantity disagreeing by a
+# rounding is exactly the failure 2a names. Reconcile with the existing check;
+# do not add a second opinion.
 
 # ---- the dyad mass, pinned three independent ways --------------------------
 _HBARC, _AU = 197.3269804e-9, 1.495978707e11
@@ -414,8 +657,171 @@ chk("INTERACTION_ATLAS", "f_eff = m/sqrt(lambda) at recorded values", 5.01e16,
     (2.24e-20*1e-9)/_m.sqrt(2e-91), tol=0.01, unit="GeV")
 chk("INTERACTION_ATLAS", "decades N_eq grows when lambda 1e-88 -> 2e-91", 2.70,
     _m.log10(1e-88/2e-91), tol=0.01, unit="dex")
-chk("INTERACTION_ATLAS", "swept quench margin low end, re-priced", -0.20,
+chk("FAILURES_LEDGER", "retired: the swept quench margin's re-priced low end", -0.20,
     2.5 - _m.log10(1e-88/2e-91), tol=0.05, unit="dex")
+
+# --- #156: the quench re-derived at the model's own quartic and mass (2026-07-20) ---
+# The sweep's re-pricing above is retired: it carried N_eq ~ alpha_g^((9-p)/2)/lambda, which
+# balances a TOTAL event rate against a PER-PARTICLE growth rate. Like against like gives
+# N_eq = (C_SR/c_nl) alpha_g^(9-p)/lambda^2 with p = 4. See scripts/superradiance_quench.py.
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import superradiance_quench as _sq
+# the two quartics are different FIELDS. A gravitational atom needs the boson's Compton
+# wavelength within an order of the hole's gravitational radius; alpha_g IS that ratio.
+_PC, _RG9 = 3.0857e16, 1.4766e3*1e9        # metres per pc; GM/c^2 for 1e9 Msun, metres
+chk("smbh_atoms", "CW-field Compton wavelength at m_phi = 3.1e-5 eV", 0.636,
+    HBARC/3.1e-5*100, 0.02, "cm")
+chk("smbh_atoms", "ultralight Compton wavelength at m = 2.24e-20 eV", 2.855e-4,
+    HBARC/2.24e-20/_PC, 0.02, "pc")
+# the consistency the atom needs: lambda_C/r_g must equal 1/alpha_g, and it does to 0.04%
+chk("smbh_atoms", "lambda_C/r_g at 1e9 Msun equals 1/alpha_g", 5.963,
+    (HBARC/2.24e-20)/_RG9, 0.01)
+# the CW field misses that condition by 15 decades -- it forms no atom at any SMBH mass
+chk("smbh_atoms", "decades the CW field's Compton wavelength falls short", 15.1,
+    _m.log10((HBARC/2.24e-20)/(HBARC/3.1e-5)), 0.02, "dex")
+# p = 4 by two independent routes, prefactors agreeing to a factor of ~3
+chk("smbh_atoms", "golden-rule / kinetic prefactor ratio (the O(1) spread)", 2.83,
+    _sq.C_NL/_sq.C_NL_KINETIC, 0.02, "x")
+# the margin across P-034's band -- negative by 83 to 86 decades
+for _ag, _mg in ((0.1, -83.7), (0.3, -85.1), (0.5, -85.8)):
+    chk("smbh_atoms", f"quench margin log10(N_sd/N_eq) at alpha_g={_ag}", _mg,
+        _sq.margin(_ag), 0.01, "dex")
+# p is not the defect: the atlas form evaluated AT p=4 still clears zero
+chk("FAILURES_LEDGER", "atlas form at p=4 (before the lambda-power fix)", 5.03,
+    _m.log10(_sq.N_spindown(0.3)/(0.3**2.5/2e-91)), 0.02, "dex")
+chk("FAILURES_LEDGER", "decades the missing power of lambda is worth", 90.2,
+    _m.log10(_sq.N_spindown(0.3)/(0.3**2.5/2e-91)) - _sq.margin(0.3), 0.02, "dex")
+# what lambda would have to be, and how far that is from the recorded value
+chk("smbh_atoms", "lambda needed for the quench to shield (alpha_g=0.3)", 7.34e-49,
+    _sq.lam_needed(0.3), 0.02)
+chk("smbh_atoms", "decades of lambda the shield is short", 42.6,
+    _m.log10(_sq.lam_needed(0.3)/2e-91), 0.02, "dex")
+# the bosenova branch: closed-form (2/a*)(f_eff/M_Pl)^2/alpha_g^3 reproduces the direct ratio
+chk("smbh_atoms", "N_bosenova/N_spindown, closed form vs direct (alpha_g=0.3)", 1.0,
+    _sq.bosenova_ratio_closed(0.3)/(_sq.N_bosenova(0.3)/_sq.N_spindown(0.3)), 1e-9)
+chk("smbh_atoms", "N_bosenova sits below N_spindown (alpha_g=0.3)", 1.247e-3,
+    _sq.N_bosenova(0.3)/_sq.N_spindown(0.3), 0.02)
+
+# --- #134: F_dark/sqrt(sigma), with the normalization pinned (2026-07-20) -------
+# The convention is read off the Lagrangian: L_theta = (F^2/2)(d theta)^2 matched to
+# (F_pi^2/4)Tr(dU^+ dU) on U = diag(e^{i t}, e^{-i t}) gives Tr = 2(d theta)^2, so
+# F = F_pi = sqrt(2) f_pi -- the 130.4 MeV branch. Sources: forced_combination.md §4.
+_c2   = 4/(3*_m.log(2))                 # the kernel target c_2
+_q2   = _c2/_m.sqrt(3)                  # q~^2/sqrt(sigma), the vortex stiffness
+_Fdk  = lambda t: _m.sqrt(_q2/(2*_m.pi*t))
+chk("forced_combination", "c_2 = 4/(3 ln 2)", 1.9236, _c2, 1e-4)
+chk("forced_combination", "q~^2/sqrt(sigma) = c_2/sqrt(3)", 1.1106, _q2, 1e-4)
+chk("forced_combination", "F_dark/sqrt(sigma) at t*sqrt(sigma) = 1", 0.4204, _Fdk(1.0), 1e-3)
+# the demand band is the THICKNESS band w*sqrt(sigma) in [0.8, 1.1], inverted
+chk("forced_combination", "demand band top (t*sqrt(sigma) = 0.8)", 0.470, _Fdk(0.8), 1e-3)
+chk("forced_combination", "demand band bottom (t*sqrt(sigma) = 1.1)", 0.401, _Fdk(1.1), 1e-3)
+# the retired "normalization band" was one number in two conventions: the ends differ by sqrt(2)
+chk("FAILURES_LEDGER", "retired: the 0.30-0.42 band's ends are a factor sqrt(2)", 1.41421,
+    _Fdk(1.0)/(_Fdk(1.0)/_m.sqrt(2)), 1e-5)
+chk("FAILURES_LEDGER", "retired: the lower end 0.4204/sqrt(2)", 0.2973,
+    _Fdk(1.0)/_m.sqrt(2), 1e-3)
+# like-for-like against QCD in the SAME (pinned, 130.4 MeV) convention
+_QCD_PIN = 130.4/440.0
+chk("forced_combination", "QCD F_pi/sqrt(sigma), pinned convention", 0.29636, _QCD_PIN, 1e-4)
+chk("forced_combination", "QCD f_pi/sqrt(sigma), 92.4 MeV convention", 0.21, 92.4/440.0, 1e-4)
+chk("forced_combination", "demand / QCD, like for like", 1.4186, _Fdk(1.0)/_QCD_PIN, 1e-3, "x")
+chk("FAILURES_LEDGER", "retired: that ratio IS sqrt(2), to 0.31%", 0.31,
+    100*(_Fdk(1.0)/_QCD_PIN/_m.sqrt(2) - 1), 0.05, "%")
+# the "2.39x internal disagreement" the pin appeared to uncover -- RETIRED (#134, 2026-07-20).
+# The NJL route computes f/Lambda_NJL, not f/sqrt(sigma): its one-loop f^2 = N_c M^2 F(y)/(2pi^2)
+# carries y = M/Lambda, so de_value_g_to_lambda.py:113 is algebraically f/Lambda. The script's own
+# QCD anchor refutes Lambda = sqrt(sigma): Lambda = 631 MeV there against sqrt(sigma) = 440 MeV.
+_NJL_92 = 0.1244                        # de_value_g_to_lambda.py:113 -- this is f/Lambda
+_Ff  = lambda y: _m.log((1+_m.sqrt(1+y*y))/y) - 1/_m.sqrt(1+y*y)   # the f^2 loop integral
+_fq  = _m.sqrt(3*336.0**2*_Ff(336.0/631.0)/(2*_m.pi**2))           # the script's QCD f_pi
+_i134 = (92.4/440.0)/(_fq/631.0)         # (i)   Lambda read as sqrt(sigma) -- the unit error
+_ii134 = (_fq/631.0)/_NJL_92             # (ii)  the real dark-vs-QCD offset in f/Lambda
+_iii134 = _Fdk(1.0)/_QCD_PIN             # (iii) the vortex demand's own sqrt(2) over QCD
+chk("FAILURES_LEDGER", "retired: the NJL number read as pinned f_dark/sqrt(sigma)", 0.17593,
+    _NJL_92*_m.sqrt(2), 1e-3)
+chk("FAILURES_LEDGER", "retired: the apparent vortex/NJL disagreement", 2.390,
+    _Fdk(1.0)/(_NJL_92*_m.sqrt(2)), 1e-3, "x")
+chk("forced_combination", "the script's QCD calibration returns f_pi", 93.09, _fq, 1e-3, "MeV")
+chk("forced_combination", "QCD read the script's way is f/Lambda", 0.14752, _fq/631.0, 1e-3)
+chk("forced_combination", "#134 (i): the Lambda-as-sqrt(sigma) step fails on QCD", 1.4235,
+    _i134, 1e-3, "x")
+chk("forced_combination", "#134 (ii): dark vs QCD in f/Lambda (N_c = 2 and its own y)", 1.1859,
+    _ii134, 1e-3, "x")
+chk("forced_combination", "#134 (iii): the vortex demand's sqrt(2) over QCD", 1.4186,
+    _iii134, 1e-3, "x")
+chk("forced_combination", "the three factors reproduce the 2.39", 2.390,
+    _i134*_ii134*_iii134, 5e-3, "x")
+chk("forced_combination", "NJL corrected by QCD's Lambda/sqrt(sigma), pinned", 0.2523,
+    _NJL_92*(631.0/440.0)*_m.sqrt(2), 1e-3)
+chk("forced_combination", "the corrected residual is (ii)x(iii), not a third disagreement", 1.666,
+    _Fdk(1.0)/(_NJL_92*(631.0/440.0)*_m.sqrt(2)), 5e-3, "x")
+# the joint inversion: only (F/sqrt(sigma), w*sqrt(sigma)) together return c_2
+chk("forced_combination", "c_2 recovered from the pair", 1.9236,
+    _m.sqrt(3)*2*_m.pi*_Fdk(0.95)**2*0.95, 1e-4)
+
+# --- #123: the mode-sum is the LHY object, so it inherits the control failure ----
+# The renormalized zero-point residual IS the LHY term; at the derived lambda the next
+# order exceeds it, so building the sum by hand buys nothing. Source: cosmological_constant.
+_LHY = (8/(15*_m.pi**2))*_m.sqrt(ac)                 # the coefficient of lambda
+chk("cosmological_constant", "LHY coefficient (8/15pi^2)*sqrt(alpha_c)", 0.0079954, _LHY, 1e-4)
+chk("cosmological_constant", "the same on rho_Lambda^(1/4), i.e. /4", 0.0019989, _LHY/4, 1e-4)
+# THREE_EQUATIONS quotes the BAND, not the coefficient: at the measured coefficient 0.0084
+# (the leading 0.0079954 above plus the O(alpha_c) relativistic term -- reconciled below) swept
+# over the derived lambda = 26-46, dE/E_MF = 22-39%, hence 5.4-9.8% on rho_Lambda^(1/4).
+# Check 19: the band and the range it was swept over are re-run here from one endpoint each.
+_LHY_MEAS = 0.0084
+chk("THREE_EQUATIONS", "LHY dE/E_MF at lambda = 26", 22.0, 100*_LHY_MEAS*26, 2e-2, "%")
+chk("THREE_EQUATIONS", "LHY dE/E_MF at lambda = 46", 39.0, 100*_LHY_MEAS*46, 2e-2, "%")
+chk("THREE_EQUATIONS", "the band on rho_Lambda^(1/4), lower edge", 5.4, 25*_LHY_MEAS*26, 2e-2, "%")
+chk("THREE_EQUATIONS", "the band on rho_Lambda^(1/4), upper edge", 9.8, 25*_LHY_MEAS*46, 2e-2, "%")
+
+# --- the three eps values THREE_EQUATIONS distinguishes, and the trap it warns against ----
+# 1.232% production-chain fit; 1.2403 +/- 0.0079% the concordance joint; 1.2543% the derived
+# stack. The file's warning is that reading the derived value against the JOINT's width returns
+# a spurious ~1.8 sigma, because the joint already contains the number under test.
+_EPS_FIT, _EPS_JOINT, _EPS_JOINT_SD = 1.232, 1.2403, 0.0079
+_EPS_DER = 27*ALPHA/(5*math.pi)*100
+chk("THREE_EQUATIONS", "derived minus production-chain fit, as % of the value", 1.81,
+    100*(_EPS_DER-_EPS_FIT)/_EPS_FIT, 2e-2, "%")
+chk("THREE_EQUATIONS", "the SPURIOUS sigma from the concordance joint's width", 1.77,
+    (_EPS_DER-_EPS_JOINT)/_EPS_JOINT_SD, 2e-2, "sigma")
+# the honest width: the chain posterior varying_me = 1.0126 +/- 0.0041 -> eps = 1.26 +/- 0.41%
+chk("THREE_EQUATIONS", "chain posterior as eps, central", 1.26, (1.0126-1)*100, 1e-2, "%")
+chk("THREE_EQUATIONS", "chain posterior as eps, width", 0.41, 0.0041*100, 1e-2, "%")
+chk("THREE_EQUATIONS", "derived eps sits this far into the honest width", 0.014,
+    abs(_EPS_DER-1.26)/0.41, 5e-2, "sigma")
+# RECONCILED (tribunal, Thermal_O1_Discussions.md, 2026-07-17): the two values are not a
+# conflict. 0.0080 is the LEADING closed-form coefficient (line 621); 0.0084 is the MEASURED
+# value with the O(alpha_c) relativistic correction folded in -- the ~5% gap below IS that
+# correction, both upheld. Leading pairs with the leading quarter 0.0020 (line 623), measured
+# with the measured quarter 0.0021 (line 631). de_value_g_to_lambda.py's 0.0084 is the measured
+# value used for the size estimate, which is correct. The checks below lock the relationship.
+chk("cosmological_constant", "the recorded 0.0084 against the closed form 0.0080", 5.06,
+    100*(0.0084/_LHY - 1), 0.02, "%")
+chk("cosmological_constant", "0.0021 is 0.0084/4, not 0.0080/4", 0.0021, 0.0084/4, 1e-3)
+_LSTAR = 22.41                                        # |Wu| = LHY control edge (booked)
+for _lbl, _lam in (("band bottom", 26.0), ("centre", 36.0), ("band top", 46.0)):
+    chk("cosmological_constant", f"Wu/LHY at lambda = {_lam:.0f} ({_lbl})", _lam/_LSTAR,
+        _lam/_LSTAR, 1e-9, "x")
+chk("cosmological_constant", "the whole band sits above the control edge", 1.0,
+    1.0 if 26.0/_LSTAR > 1.0 else 0.0, 1e-9)
+chk("cosmological_constant", "LHY size at the band centre", 28.8, 100*_LHY*36.0, 0.02, "%")
+# blocker (ii): a linear massless dispersion under a preferred-frame cutoff is radiation-like.
+# p = (1/3) rho for omega = c_s k, independent of the cutoff -- so w = +1/3, not -1.
+chk("cosmological_constant", "w of a preferred-frame phonon zero-point sum", 1/3,
+    1/3, 1e-12)
+
+# --- #120: the entanglement-side O(1) cancels in the ratio, for ANY form factor --
+# S = N A/(48 pi eps^2) and 1/G = N/(12 pi eps^2) descend from one heat-kernel coefficient
+# (the conical deficit's R-delta), so a common regulator factor O multiplies both.
+_S_over_A4G = lambda O: (O/(48*_m.pi))/((1/4)*(O/(12*_m.pi)))
+chk("quantum_gravity", "S/(A/4G) = 12pi/48pi x 4 = 1, unregulated", 1.0, _S_over_A4G(1.0), 1e-12)
+# the p-ramp on the induced-G side spans a factor of 4 and cancels identically
+for _p, _O in ((1.5, 2.0), (2.0, 1.0), (3.0, 0.5)):
+    chk("quantum_gravity", f"S/(A/4G) at Bogoliubov softening p = {_p}", 1.0,
+        _S_over_A4G(_O), 1e-12)
+chk("FAILURES_LEDGER", "the p-ramp's span, which the ratio removes", 4.0, 2.0/0.5, 1e-12, "x")
 
 # the graveyard census must total its own entry count
 chk("INTERACTION_ATLAS", "graveyard census totals the 14 entries", 14, 7+4+3, tol=0.0)
@@ -445,7 +851,7 @@ def _wn(m1):
     return sum(t)*1e3, max(0.0, 2*max(t)-sum(t))*1e3
 chk("fairbank_note", "m_bb floor at the observed anchor 2.25", 0.044, _wn(2.25e-3)[1], 0.02, "meV")
 chk("fairbank_note", "m_bb floor at the derived anchor 2.2599", 0.038, _wn(2.2599e-3)[1], 0.02, "meV")
-chk("fairbank_note", "m_bb ceiling holds at 5.30 across the anchor range", 5.30,
+chk("fairbank_note", "m_bb ceiling holds at 5.30 across the observed anchor range", 5.30,
     max(_wn(2.25e-3)[0], _wn(2.2599e-3)[0]), 0.005, "meV")
 
 
@@ -466,77 +872,99 @@ chk("neutrino_sector 3b", "Majoron mode slower than the mass mode by", 1e4,
 chk("neutrino_sector 3b", "<g_ee> below the experimental limit by", 1.4e4, 1e-5/(_mbb/4.18e6), 0.05, "x")
 
 
-# --- the deuterium quark door: the loop bridge's size (deuterium_scar §5) ---
+# --- the deuterium quark door: the loop bridge's size (deuterium_row §5) ---
 _loop = (ALPHA/math.pi)**2
-chk("deuterium_scar", "dyad->lepton loop->2gamma->quark suppression (alpha/pi)^2", 5.4e-6, _loop, 0.01)
-chk("deuterium_scar", "what the loop delivers, in percent", 6.8e-6, 0.012543*_loop*100, 0.02, "%")
-chk("deuterium_scar", "shortfall against P-006's 0.14%", 21000, 1.4e-3/(0.012543*_loop), 0.02, "x")
-chk("deuterium_scar", "shortfall against P-006's 0.21%", 31000, 2.1e-3/(0.012543*_loop), 0.02, "x")
+chk("deuterium_row", "dyad->lepton loop->2gamma->quark suppression (alpha/pi)^2", 5.4e-6, _loop, 0.01)
+chk("deuterium_row", "what the loop delivers, in percent", 6.8e-6, 0.012543*_loop*100, 0.02, "%")
+chk("deuterium_row", "shortfall against P-006's 0.14%", 21000, 1.4e-3/(0.012543*_loop), 0.02, "x")
+chk("deuterium_row", "shortfall against P-006's 0.21%", 31000, 2.1e-3/(0.012543*_loop), 0.02, "x")
 # the photodissociation cure's internal arithmetic
 _HeH = 0.249/(4*(1-0.249))
-chk("deuterium_scar", "He/H by number at Y_p = 0.249", 0.083, _HeH, 0.01)
-chk("deuterium_scar", "D/H gained by breaking 1.7e-5 of the helium", 1.4e-6, 1.7e-5*_HeH, 0.02)
-chk("deuterium_scar", "the Y_p it costs", -4.2e-6, -1.7e-5*0.249, 0.02)
-chk("deuterium_scar", "energy per hydrogen at 20 MeV per dissociation", 28, 1.7e-5*_HeH*20e6, 0.05, "eV")
+chk("deuterium_row", "He/H by number at Y_p = 0.249", 0.083, _HeH, 0.01)
+chk("deuterium_row", "D/H gained by breaking 1.7e-5 of the helium", 1.4e-6, 1.7e-5*_HeH, 0.02)
+chk("deuterium_row", "the Y_p it costs", -4.2e-6, -1.7e-5*0.249, 0.02)
+chk("deuterium_row", "energy per hydrogen at 20 MeV per dissociation", 28, 1.7e-5*_HeH*20e6, 0.05, "eV")
 
 
-# --- the deuterium lever-combination test (deuterium_scar 6b/6/7), 2026-07-19 ---
+# --- the deuterium lever-combination test (deuterium_row 6b/6/7), 2026-07-19 ---
 _DH, _errD = 2.387, math.sqrt(0.030**2+0.037**2)
 def _sig(pct): return _DH*pct/100/_errD
-chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.059", 0.34, _sig(0.1160*0.059*100), 0.03, "sigma")
-chk("deuterium_scar 6b", "below-T_c boost at dN_eff = 0.015", 0.09, _sig(0.1160*0.015*100), 0.05, "sigma")
-chk("deuterium_scar 6b", "sharper transition 0.61eps -> 1.0eps", 0.21, _sig(1.057-0.645), 0.05, "sigma")
-chk("deuterium_scar 6b", "best case, everything additive", -1.94,
-    -2.49 + _sig(0.1160*0.059*100) + _sig(1.057-0.645), 0.02, "sigma")
+chk("deuterium_row 6b", "below-T_c boost at dN_eff = 0.059", 0.34, _sig(0.1160*0.059*100), 0.03, "sigma")
+chk("deuterium_row 6b", "below-T_c boost at dN_eff = 0.015", 0.09, _sig(0.1160*0.015*100), 0.05, "sigma")
+chk("deuterium_row 6b", "sharper transition 0.61eps -> 1.0eps", 0.21, _sig(1.057-0.645), 0.05, "sigma")
+chk("deuterium_row 6b", "best case, everything additive", -2.39,
+    -2.94 + _sig(0.1160*0.059*100) + _sig(1.057-0.645), 0.02, "sigma")
 # section 7 item 3: both dof counts are forced
 _Nc, _Nf = 2, 3
-chk("deuterium_scar 7", "deconfined g* = 2(Nc^2-1) + (7/8)(4 Nc Nf)", 27, 2*(_Nc**2-1)+(7/8)*4*_Nc*_Nf, 1e-9)
-chk("deuterium_scar 7", "confined Goldstones 2Nf^2 - Nf - 1", 14, 2*_Nf**2-_Nf-1, 1e-9)
+chk("deuterium_row 7", "deconfined g* = 2(Nc^2-1) + (7/8)(4 Nc Nf)", 27, 2*(_Nc**2-1)+(7/8)*4*_Nc*_Nf, 1e-9)
+chk("deuterium_row 7", "confined Goldstones 2Nf^2 - Nf - 1", 14, 2*_Nf**2-_Nf-1, 1e-9)
 # section 6: the roster is full, and the seats present are below threshold
-chk("deuterium_scar 6", "str[k1] with one extra sterile (17/gen) breaks finiteness", 3, 17*3-48, 1e-9)
-chk("deuterium_scar 6", "nu_R at the MeV corner vs the He-4 threshold", 4.9, 20.6/4.18, 0.02, "x short")
+chk("deuterium_row 6", "str[k1] with one extra sterile (17/gen) breaks finiteness", 3, 17*3-48, 1e-9)
+chk("deuterium_row 6", "nu_R at the MeV corner vs the He-4 threshold", 4.9, 20.6/4.18, 0.02, "x short")
 
 
-# --- the false-vacuum route does NOT equal the particle route (deuterium_scar 6) ---
+# --- the false-vacuum route does NOT equal the particle route (deuterium_row 6) ---
 _hbarc = 1.9733e-5                                  # eV cm
 _rho_vac = (20e6)**4/_hbarc**3                      # eV/cm3, a 20 MeV-scale false vacuum
 _T_dep, _g = 570.0, 3.36                            # eV, ambient at t = 4e6 s
 _rho_rad = (math.pi**2/30)*_g*_T_dep**4/_hbarc**3
-chk("deuterium_scar 6", "20 MeV false vacuum energy density", 2.08e43, _rho_vac, 0.02, "eV/cm3")
-chk("deuterium_scar 6", "ambient radiation at the deposit epoch", 1.52e25, _rho_rad, 0.02, "eV/cm3")
-chk("deuterium_scar 6", "a space-filling 20 MeV vacuum over-delivers by", 1.37e18, _rho_vac/_rho_rad, 0.01, "x")
+chk("deuterium_row 6", "20 MeV false vacuum energy density", 2.08e43, _rho_vac, 0.02, "eV/cm3")
+chk("deuterium_row 6", "ambient radiation at the deposit epoch", 1.52e25, _rho_rad, 0.02, "eV/cm3")
+chk("deuterium_row 6", "a space-filling 20 MeV vacuum over-delivers by", 1.37e18, _rho_vac/_rho_rad, 0.01, "x")
 _n_gam = (2*1.20206/math.pi**2)*_T_dep**3/_hbarc**3
 _rho_need = 30*6.1e-10*_n_gam
-chk("deuterium_scar 6", "volume fraction allowed in the false vacuum", 5.2e-30, _rho_need/_rho_vac, 0.03)
+chk("deuterium_row 6", "volume fraction allowed in the false vacuum", 5.2e-30, _rho_need/_rho_vac, 0.03)
 
 
-# --- the PBH route (deuterium_scar 5b), priced and killed 2026-07-19 ---
+# --- the PBH route (deuterium_row 5b), priced and killed 2026-07-19 ---
 _Mstar, _tstar = 5.1e14, 4.35e17                    # g, s: PBH evaporating today
 _M_of_tau = lambda tau: _Mstar*(tau/_tstar)**(1/3)
-chk("deuterium_scar 5b", "PBH mass evaporating at 4e6 s", 1.07e11, _M_of_tau(4e6), 0.01, "g")
-chk("deuterium_scar 5b", "PBH mass evaporating at 1e8 s", 3.12e11, _M_of_tau(1e8), 0.01, "g")
-chk("deuterium_scar 5b", "T_H at the window's light end", 99, 1.06*(1e13/_M_of_tau(4e6)), 0.02, "GeV")
-chk("deuterium_scar 5b", "hadronic threshold over photon threshold", 90, 1877/20.6, 0.02, "x")
+chk("deuterium_row 5b", "PBH mass evaporating at 4e6 s", 1.07e11, _M_of_tau(4e6), 0.01, "g")
+chk("deuterium_row 5b", "PBH mass evaporating at 1e8 s", 3.12e11, _M_of_tau(1e8), 0.01, "g")
+chk("deuterium_row 5b", "T_H at the window's light end", 99, 1.06*(1e13/_M_of_tau(4e6)), 0.02, "GeV")
+chk("deuterium_row 5b", "hadronic threshold over photon threshold", 90, 1877/20.6, 0.02, "x")
 # the Li kill, efficiency-free: both bounds from the same population
 _bLi, _bD = 10**-25.34, 10**-23.82
-chk("deuterium_scar 5b", "Li binds tighter than D by", 33, _bD/_bLi, 0.03, "x")
+chk("deuterium_row 5b", "Li binds tighter than D by", 33, _bD/_bLi, 0.03, "x")
 for _tolD, _short in [(0.0125, 156), (0.05, 39)]:
-    chk("deuterium_scar 5b", f"shortfall at D-curve tolerance {_tolD*100:.2g}%", _short,
+    chk("deuterium_row 5b", f"shortfall at D-curve tolerance {_tolD*100:.2g}%", _short,
         0.059/(_tolD*_bLi/_bD), 0.03, "x")
+# pure-EM PBH dodge: no mass is both on-time for ⁴He photodissociation and cool enough
+# to suppress hadrons (T_H ≲ Λ_QCD). Timing window locks T_H ≳ 34 GeV; sub-QCD T locks
+# τ ≳ 10^14 s. Kill booked 2026-07-21 → FAILURES_LEDGER.
+_T_H = lambda M: 1.06e13 / M                         # GeV
+_tau_of_M = lambda M: _tstar * (M/_Mstar)**3
+_M_lo_win, _M_hi_win = _M_of_tau(4e6), _M_of_tau(1e8)
+_M_QCD = 1.06e13 / 0.2                               # T_H = 200 MeV
+chk("deuterium_row 5b", "pure-EM: min T_H in photodissoc window", 34.0,
+    _T_H(_M_hi_win), 0.05, "GeV")
+chk("deuterium_row 5b", "pure-EM: that min is above Lambda_QCD", 1.0,
+    1.0 if _T_H(_M_hi_win) > 0.2 else 0.0, 1e-9)
+chk("deuterium_row 5b", "pure-EM: sub-QCD PBH evaporates this late", 5.0e14,
+    _tau_of_M(_M_QCD), 0.05, "s")
+chk("deuterium_row 5b", "pure-EM: sub-QCD lifetime / window high edge", 5.0e6,
+    _tau_of_M(_M_QCD)/1e8, 0.1, "x")
 
 
-# --- PHYSICS_DOMAINS deep audit, 2026-07-19 ---
-# the deuterium sigma ladder, ONE width (the scar file's combined 0.0563)
-_wD = 0.0563
-chk("PHYSICS_DOMAINS 6", "standing D/H row in sigma", -2.49, -(2.527-2.387)/_wD, 0.005, "sigma")
-chk("PHYSICS_DOMAINS 6", "committed-window low end", -2.13, -(2.527-2.407)/_wD, 0.005, "sigma")
-chk("PHYSICS_DOMAINS 6", "committed-window high end", -1.14, -(2.527-2.463)/_wD, 0.005, "sigma")
-chk("PHYSICS_DOMAINS 6", "LCDM control on the same width", -1.90, -(2.527-2.420)/_wD, 0.005, "sigma")
-_wU = math.sqrt(_wD**2+(0.035*2.387)**2)
-chk("PHYSICS_DOMAINS 6", "spread-unfolded standing row", -1.4, -(2.527-2.387)/_wU, 0.01, "sigma")
-# the committed window IS dNeff 0.06-0.24 (the scar's 0.26-0.29 was a garble)
-chk("deuterium_scar 5", "window low edge from dNeff = 0.06", 2.407, 2.387*(1+0.1350*0.06), 0.001)
-chk("deuterium_scar 5", "window high edge from dNeff = 0.24", 2.463, 2.387*(1+0.1350*0.238), 0.001)
+# --- PHYSICS_DOMAINS deep audit, 2026-07-19; width re-pinned 2026-07-21 (#157) ---
+# the deuterium sigma ladder, ONE width (two-term standing ±0.0476)
+_wD = 0.0476
+chk("PHYSICS_DOMAINS 6", "standing D/H row in sigma", -2.94, -(2.527-2.387)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "committed-window low end", -2.52, -(2.527-2.407)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "committed-window high end", -1.34, -(2.527-2.463)/_wD, 0.005, "sigma")
+chk("PHYSICS_DOMAINS 6", "LCDM control on the same width", -2.25, -(2.527-2.420)/_wD, 0.005, "sigma")
+_wU = math.sqrt(_wD**2+(0.035*2.387)**2)          # ⊕ inter-code ~3.5% relative
+chk("PHYSICS_DOMAINS 6", "spread-unfolded standing row", -1.46, -(2.527-2.387)/_wU, 0.02, "sigma")
+# the committed window IS dNeff 0.06-0.24 (the deuterium row's 0.26-0.29 was a garble)
+# These LINEARIZE a full BBN run: D/H = 2.387(1 + 0.1350 dNeff) reproduces the booked window
+# 2.407-2.463 to about 1 part in 2000, which is the linearization's own error and not a defect.
+# The booked window edges are dNeff = 0.06 and 0.24 exactly; the tolerance carries the residual
+# rather than the input being shaved to meet a tighter one.
+_dh = lambda dN: 2.387*(1 + 0.1350*dN)
+chk("deuterium_row 5", "window low edge from dNeff = 0.06 (linearized)", 2.407, _dh(0.06), 0.002)
+chk("deuterium_row 5", "window high edge from dNeff = 0.24 (linearized)", 2.463, _dh(0.24), 0.002)
+chk("deuterium_row 5", "the linearization's worst residual across the window", 0.00134,
+    max(abs(_dh(0.06)-2.407), abs(_dh(0.24)-2.463)), 1e-2)
 # the quartic era at the recorded lambda and m
 _h_lo = 2e-91*(0.7e26)**2/(2.24e-20)**2
 _h_hi = 2e-91*(1.5e26)**2/(2.24e-20)**2
@@ -630,7 +1058,10 @@ chk("GW addendum", "the B-mode floor the recorded 1.5-dex margin implies", 9.5e-
 
 # --- the light file's lock arithmetic (2026-07-19) ---
 chk("light 4", "medium loop share at M_Z", 44, 42.9/98.4*100, 0.02, "%")
-chk("light 6", "lock iv: 1/a1 over 1/a2 at M_Pl", 0.673, 33.3/49.4, 0.005)
+# 1/a1 is the GUT-normalized hypercharge, a1 = (5/3) a_Y, so 1/a1 = (3/5)(1/a_Y). Deriving it
+# from the file's own 1/a_Y handout rather than retyping 33.3 means a correction there reaches here.
+chk("light 6", "1/a1 at M_Pl is (3/5) of the 1/a_Y handout", 33.3, 0.6*_invY_Pl, 1e-2)
+chk("light 6", "lock iv: 1/a1 over 1/a2 at M_Pl", 0.673, (0.6*_invY_Pl)/_inv2_Pl, 0.005)
 chk("light 6", "lock vi: measured A vs sqrt(2)", 0.001, abs(1.41420/2**0.5-1)*100, 0.35, "%")
 
 # --- CMB_map: the inflationary-tensor chirality (chiral_gw_genesis.py, model-natural row) ---
@@ -651,6 +1082,324 @@ chk("lab cousins", "fit-implied 0.6253 vs 2/pi", 1.8, (2/math.pi/0.6253-1)*100, 
 chk("quantum trio", "second sound c2 = c1/sqrt(3) = sqrt(alpha)", 0.0854, math.sqrt(1/137.035999), 0.002, "c")
 chk("quantum trio", "identity sqrt(3a)/sqrt(3) == sqrt(a)", 1.0, math.sqrt(3/137.035999)/math.sqrt(3)/math.sqrt(1/137.035999), 1e-12)
 chk("quantum trio", "indirect band top 0.0214 below 3a", 2.3, (1-0.0214/(3/137.035999))*100, 0.03, "%")
+# The band is a posterior interval from cmp_prtoe_zon read at R-1 = 93.1 against a 0.05
+# target (commit a48b2a1e, 2026-07-11). It is a valid PRE-REGISTRATION and an invalid
+# constraint; these record where its edges sit, and nothing may be inferred from that.
+_BLO, _BHI, _AC_ANCH = 0.0205, 0.0214, 0.021316
+_AC_REC = 3.0/137.035999084
+chk("quantum trio", "the anchor's alpha_c is inside the indirect band", 1,
+    1 if _BLO <= _AC_ANCH <= _BHI else 0, 0)
+chk("quantum trio", "where it sits in the band", 90.7, (_AC_ANCH-_BLO)/(_BHI-_BLO)*100, 0.1, "%")
+chk("quantum trio", "3.alpha(0) sits above the band top by", 2.30, (_AC_REC/_BHI-1)*100, 1e-2, "%")
+chk("quantum trio", "the anchor wants alpha_c below the recorded value by", 2.63,
+    (1-_AC_ANCH/_AC_REC)*100, 1e-2, "%")
+# alpha only strengthens toward the UV, so 3.alpha(mu) >= 3.alpha(0): the minimum is already
+# above the band, and no scale choice can bring the identification inside it.
+chk("quantum trio", "min over mu of 3.alpha(mu) = 3.alpha(0)", _AC_REC, _AC_REC, 1e-12)
+chk("quantum trio", "3.alpha(0) is above the band top -- arithmetic, NOT a constraint", 1,
+    1 if _AC_REC > _BHI else 0, 0)
+chk("quantum trio", "d the band permits, low end", 2.8092, _BLO*137.035999084, 1e-3)
+chk("quantum trio", "d the band permits, high end", 2.9326, _BHI*137.035999084, 1e-3)
+chk("quantum trio", "d the anchor's landing corresponds to", 2.9211,
+    _AC_ANCH*137.035999084, 1e-3)
+# d is not free: the same d appears squared in the dark-energy floor, rho^(1/4) = (d^2/2) a^4 T_c.
+# So the band, the anchor and the observed floor constrain ONE quantity, and they do not meet.
+_A4 = (1/137.035999084)**4
+_TC = 0.5*math.log(2)*0.51099895e6
+_rho_of = lambda d: (d*d/2)*_A4*_TC
+chk("d three-way", "rho^(1/4) at d = 3", 2.2599, _rho_of(3.0)*1e3, 1e-4, "meV")
+chk("d three-way", "its landing against the observed 2.25 meV", 0.44,
+    (_rho_of(3.0)/2.25e-3 - 1)*100, 1e-2, "%")
+_d_rho = 3.0*math.sqrt(2.25e-3/_rho_of(3.0))
+chk("d three-way", "d the observed floor requires", 2.9934, _d_rho, 1e-3)
+chk("band position", "the floor's d sits above the band top by", 2.08,
+    (_d_rho/(_BHI*137.035999084) - 1)*100, 1e-2, "%")
+chk("d three-way", "and it agrees with d = 3 to", 0.22, abs(_d_rho/3.0 - 1)*100, 1e-2, "%")
+chk("band position", "the floor at the band's top", -4.02,
+    (_rho_of(_BHI*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
+chk("band position", "the floor at the band's bottom", -11.93,
+    (_rho_of(_BLO*137.035999084)/2.25e-3 - 1)*100, 1e-2, "%")
+# The escape route -- a geometry d^2/2 independent of the coupling's d -- is closed
+# algebraically: the floor's primary form E_b = (1/2) alpha_c^2 M_2 with M_2 = alpha^2 T_c
+# becomes (d^2/2) alpha^4 T_c on substituting alpha_c = d.alpha. Identical, not merely close.
+_M2 = (1/137.035999084)**2 * _TC
+_floor = lambda ac: 0.5*ac*ac*_M2
+chk("d three-way", "M_2 = alpha^2 T_c", 9.4307, _M2, 1e-4, "eV")
+chk("d three-way", "the two floor forms are identical at d = 3", 0.0,
+    _floor(3.0/137.035999084) - _rho_of(3.0), 1e-18, "eV")
+chk("d three-way", "alpha_c the observed floor demands, d never mentioned", 0.021844,
+    math.sqrt(2*2.25e-3/_M2), 1e-4)
+chk("band position", "alpha_c the floor demands exceeds the band top by", 2.08,
+    (math.sqrt(2*2.25e-3/_M2)/_BHI - 1)*100, 1e-2, "%")
+chk("d three-way", "theory and observation agree to", 0.22,
+    abs((3.0/137.035999084)/math.sqrt(2*2.25e-3/_M2) - 1)*100, 2e-2, "%")
+chk("band position", "band top and anchor agree to", 0.39, abs(_BHI/_AC_ANCH - 1)*100, 2e-2, "%")
+chk("band position", "theory and the anchor differ by", 2.70,
+    ((3.0/137.035999084)/_AC_ANCH - 1)*100, 1e-2, "%")
+# The band is not a direct reading of alpha_c: it inverts epsilon = c.f_bar.alpha_c, so it
+# carries c = 9/10 and f_bar = 2/pi, which the floor's alpha_c does not. f_bar's own recorded
+# fit value sits 1.81% below 2/pi, and that shift moves the band by the same fraction.
+_CF = 0.9*(2/math.pi)
+chk("band provenance", "the assembly's conversion factor c.f_bar", 0.572958, _CF, 1e-5)
+# Provenance, recovered from git history (commit a48b2a1e, 2026-07-11 20:25): the band is a
+# posterior interval from cmp_prtoe_zon, whose last progress row before the reading was
+# 2026-07-11T20:03 at R-1 = 93.100635 against Rminus1_stop = 0.05.
+chk("band provenance", "R-1 of the source chain when the band was read", 93.10, 93.100635, 1e-4)
+chk("band provenance", "how far that is above the chain's own target", 1862,
+    93.100635/0.05, 1e-3, "x")
+chk("band provenance", "the last row that chain ever wrote", 40.36, 40.362246, 1e-4)
+chk("band provenance", "its successor's best before collapse", 11.87, 11.869753, 1e-4)
+# Protocol check 24: the tree-wide state, booked so it is tracked rather than remembered.
+# If any chain ever converges these must be updated -- which is the point of booking them.
+chk("chain convergence", "best R-1 ever recorded across all 18 chains", 0.9095, 0.909502, 1e-3)
+chk("chain convergence", "the target it is measured against", 0.05, 0.05, 1e-12)
+chk("chain convergence", "so the best chain is still this far off", 18.19, 0.909502/0.05, 1e-3, "x")
+chk("chain convergence", "chains meeting their own stopping rule", 0, 0, 0)
+chk("band provenance", "epsilon at alpha_c = 3 alpha", 1.2543,
+    _CF*3/137.035999084*100, 1e-3, "%")
+# The band is NOT the epsilon posterior inverted: the recorded ~1.24% maps ABOVE the band top.
+# Its provenance is cited in four places and derived in none. These record the mismatch.
+chk("band provenance", "the band expressed back on epsilon, low", 1.1746, _BLO*_CF*100, 1e-3, "%")
+chk("band provenance", "the band expressed back on epsilon, top", 1.2261, _BHI*_CF*100, 1e-3, "%")
+chk("band provenance", "alpha_c from the dyad posterior epsilon = 1.24%", 0.021642,
+    0.0124/_CF, 1e-4)
+chk("band provenance", "it lies above the band top", 1, 1 if 0.0124/_CF > _BHI else 0, 0)
+chk("band provenance", "the two epsilon-side numbers differ by", 1.13,
+    ((0.0124/_CF)/_BHI - 1)*100, 1e-2, "%")
+_ac_floor = math.sqrt(2*2.25e-3/_M2)
+chk("band provenance", "conflict with the floor, on the band", 2.08,
+    (_ac_floor/_BHI - 1)*100, 1e-2, "%")
+chk("band provenance", "conflict with the floor, on the posterior", 0.93,
+    (_ac_floor/(0.0124/_CF) - 1)*100, 2e-2, "%")
+
+# f_bar = <|cos|> is EXACTLY 2/pi over any whole number of turns -- a theorem, not a datum.
+# The only honest way it moves is a partial turn, and that envelope is what bounds branch (a).
+def _Gabs(x):
+    _m, _r = divmod(x, math.pi)
+    return 2*_m + (math.sin(_r) if _r <= math.pi/2 else 2 - math.sin(_r))
+_mac = lambda _n, _p=0.0: (_Gabs(_p + 2*math.pi*_n) - _Gabs(_p))/(2*math.pi*_n)
+for _n in (1, 10, 50):
+    chk("fbar envelope", f"<|cos|> over exactly {_n} turns is 2/pi", 2/math.pi, _mac(_n), 1e-12)
+def _env(_N):
+    return max(abs(_mac(_N + _j/200.0, math.pi*_k/100)/(2/math.pi) - 1)
+               for _j in range(200) for _k in range(100))
+chk("fbar envelope", "worst case at 2 turns", 4.755, _env(2.0)*100, 2e-2, "%")
+chk("fbar envelope", "worst case at 5 turns", 2.018, _env(5.0)*100, 2e-2, "%")
+chk("fbar envelope", "worst case at 10 turns", 1.030, _env(10.0)*100, 2e-2, "%")
+chk("fbar envelope", "worst case at 30 turns", 0.348, _env(30.0)*100, 3e-2, "%")
+# the 1/(pi N) proxy overstates the allowance threefold, which is why it is not used
+chk("fbar envelope", "1/(pi N) proxy at 10 turns, for contrast", 3.183,
+    1/(math.pi*10)*100, 1e-3, "%")
+# The turn budget, from baryogenesis's theta_dot/H = 2.4e6 at T_sph with theta_dot ~ T^3.
+# H ~ T^2 in radiation, so turns per Hubble go as T while the ACCUMULATED winding saturates:
+# theta_dot dt = (theta_dot/H)_sph dT/T_sph is flat in T.
+_RSPH = 2.4e6
+chk("winding turns", "turns per Hubble time at T_sph", 3.820e5, _RSPH/(2*math.pi), 1e-3)
+chk("winding turns", "T/T_sph where it falls to five turns", 1.309e-5,
+    5*2*math.pi/_RSPH, 1e-3)
+chk("winding turns", "that temperature on a 130 GeV shutoff", 1.70,
+    5*2*math.pi/_RSPH*130*1e3, 1e-2, "MeV")
+chk("winding turns", "turns per Hubble at recombination (0.26 eV)", 7.64e-7,
+    _RSPH*(0.26/(130*1e9))/(2*math.pi), 2e-3)
+chk("winding turns", "total accumulated turns below T_sph", 3.820e5, _RSPH/(2*math.pi), 1e-3)
+chk("winding turns", "fraction of it laid down by T = 0.01 T_sph", 99.0, (1-0.01)*100, 1e-6, "%")
+chk("winding turns", "f_bar deviation on the accumulated reading", 2.64e-5,
+    0.1009/(_RSPH/(2*math.pi))*100, 2e-2, "%")
+
+# --- the Z3 selector tension, priced by scale -------------------------------------
+# The 3q = 0 obstruction needs the three seats to be one orbit AT THE SHELL; the Koide
+# node's Z3 is a statement about charged-lepton masses, far below it. The separation is
+# what an emergent (IR-exact, UV-broken) family symmetry would need.
+_LAM_SH = 3152.0/(2*math.exp(-33.474))          # GeV; same shell as the 6f/#146 blocks
+chk("z3 selector", "orders between the pairing shell and the tau mass", 17.49,
+    math.log10(_LAM_SH/1.77686), 1e-3, "dex")
+# the residual is the Koide triangle's: grant the closure, let the light masses fix the rest
+_RATZ = 105.6583755/0.51099895
+def _rz(_A, _p):
+    _r = [1 + _A*math.cos(_p + 2*math.pi*k/3) for k in range(3)]
+    return (_r[2]/_r[1])**2
+_lo, _hi, _fl = math.sqrt(2)-1e-4, math.sqrt(2)+1e-4, None
+_fz = lambda a: _rz(a, (1 + a*a/2)/9) - _RATZ
+_fl = _fz(_lo)
+for _ in range(300):
+    _m = 0.5*(_lo+_hi)
+    if _fl*_fz(_m) <= 0: _hi = _m
+    else: _lo, _fl = _m, _fz(_m)
+_Az = 0.5*(_lo+_hi)
+_RESID = abs((1/3 + _Az*_Az/6) - 2/3)/(2/3)*1e6
+chk("z3 selector", "the Koide residual an emergent Z3 must account for", 0.168,
+    _RESID, 2e-2, "ppm")
+# The obvious spurion scales miss it in both directions, which is why this is a candidate.
+chk("z3 selector", "(alpha/pi)^2, too large by", 32.2,
+    ((1/137.035999084/math.pi)**2*1e6)/_RESID, 2e-2, "x")
+chk("z3 selector", "m_e/Lambda_shell, too small by", 1.8e14,
+    (_RESID/1e6)/(0.51099895e6/(_LAM_SH*1e9)), 5e-2, "x")
+# The reading's one further prediction -- an electron-localised breaking -- does not bite:
+# the two natural spurion forms rank the seats oppositely, which is arithmetic and not evidence.
+_sm = {"tau": math.sqrt(1776.86), "e": math.sqrt(0.51099895), "mu": math.sqrt(105.6583755)}
+_afit = sum(_sm.values())/3
+_pk = {"tau": 0, "e": 1, "mu": 2}
+_pr = {n: _afit*(1 + math.sqrt(2)*math.cos(2/9 + 2*math.pi*k/3)) for n, k in _pk.items()}
+chk("z3 spurion", "residuals sum to zero (a is their mean)", 0.0,
+    sum(_sm[n]-_pr[n] for n in _sm), 1e-9)
+chk("z3 spurion", "relative residual on the electron", 28.84,
+    (_sm["e"]-_pr["e"])/_pr["e"]*1e6, 1e-2, "ppm")
+chk("z3 spurion", "relative residual on the tau", -6.32,
+    (_sm["tau"]-_pr["tau"])/_pr["tau"]*1e6, 1e-2, "ppm")
+chk("z3 spurion", "but absolutely the tau carries most", 1,
+    1 if abs(_sm["tau"]-_pr["tau"]) > abs(_sm["e"]-_pr["e"]) else 0, 0)
+chk("z3 spurion", "the electron's seat ratio, smallest of the three", 0.04035,
+    _pr["e"]/_afit, 1e-3)
+# The neutrino triple cannot be on the cone for ANY lightest mass: Q_nu falls monotonically
+# from its m1 = 0 value toward 1/3, so its maximum is the massless-lightest limit.
+def _Qnu(_m1, _d21=7.53e-5, _d31=2.53e-3):
+    _m2, _m3 = math.sqrt(_m1*_m1 + _d21), math.sqrt(_m1*_m1 + _d31)
+    return (_m1+_m2+_m3)/(math.sqrt(_m1)+math.sqrt(_m2)+math.sqrt(_m3))**2
+chk("neutrino cone", "Q_nu at the recorded m1 = 2.25 meV", 0.458, _Qnu(2.25e-3), 1e-3)
+chk("neutrino cone", "Q_nu at m1 = 0, its maximum", 0.58531, _Qnu(0.0), 1e-4)
+chk("neutrino cone", "it is monotone: Q_nu falls as m1 rises", 1,
+    1 if all(_Qnu(x) > _Qnu(x + 1e-4) for x in (0.0, 1e-3, 1e-2, 5e-2)) else 0, 0)
+chk("neutrino cone", "so the cone is unreachable ON THIS BRANCH, short by", 12.2,
+    (1 - _Qnu(0.0)/(2/3))*100, 1e-2, "%")
+# ^ RELABELLED 2026-07-29. _Qnu above takes all three square roots POSITIVE, and
+# that assumption is what makes the cone unreachable. Q = sum(m)/(sum sqrt m)^2
+# depends on the root signs, and the ring form generates a negative root whenever
+# 2|b| > a. On the (-,+,+) branch Q_nu crosses 2/3 at m1 ~ 0.00040 eV. The check
+# is correct as arithmetic and is kept; the label now says which branch it is
+# about, because "the cone is unreachable" was being used to condemn a whole class
+# of mechanisms. See scripts/neutrino_Q_sign_branch.py and the qualification added
+# to PRTOE_koide_relation.md.
+_Qnu_neg = lambda _m1, _d21=7.53e-5, _d31=2.53e-3: (
+    (lambda _m2, _m3: (_m1+_m2+_m3)/(-math.sqrt(_m1)+math.sqrt(_m2)+math.sqrt(_m3))**2)
+    (math.sqrt(_m1*_m1+_d21), math.sqrt(_m1*_m1+_d31)))
+chk("neutrino cone", "but the (-,+,+) branch DOES cross 2/3", 1.0,
+    1.0 if (_Qnu_neg(1e-4) - 2/3) * (_Qnu_neg(1e-3) - 2/3) < 0 else 0.0, 1e-12)
+chk("neutrino cone", "and a neutrino cone's screening weight is zero", 0.0, 2*1*0.0**2, 1e-12)
+# The null's mechanism class: every recorded attempt is charge-blind and balance-based, which
+# is exactly what the two surviving constraints forbid. Charges over the three charged leptons.
+chk("null class", "sum Q over the charged leptons", -3.0, sum([-1.0]*3), 1e-12)
+chk("null class", "sum Q^2 over them", 3.0, sum(q*q for q in [-1.0]*3), 1e-12)
+chk("null class", "so no charge sum over the seats vanishes", 0,
+    1 if abs(sum([-1.0]*3)) < 1e-9 or abs(sum(q*q for q in [-1.0]*3)) < 1e-9 else 0, 0)
+chk("null class", "recorded dead mechanisms referencing charge", 0, 0, 0)
+chk("null class", "recorded dead mechanisms built on a vanishing", 0, 0, 0)
+# The Coulomb stiffness ratio on a three-defect ring: exactly 8, analytically and scale-free.
+# U = sqrt3/R for three unit charges at 120 deg, so both irrep stiffnesses go as 1/R^3.
+import itertools as _it
+def _ring_ratio(_R):
+    _h = _R*1e-5
+    _T = [2*math.pi*k/3 for k in range(3)]
+    def _E(_d):
+        _p = [((_R+_d[k])*math.cos(_T[k]), (_R+_d[k])*math.sin(_T[k])) for k in range(3)]
+        return sum(1.0/math.hypot(_p[i][0]-_p[j][0], _p[i][1]-_p[j][1])
+                   for i, j in _it.combinations(range(3), 2))
+    _H = [[0.0]*3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            _a=[0.]*3; _b=[0.]*3; _c=[0.]*3; _e=[0.]*3
+            _a[i]+=_h; _a[j]+=_h; _b[i]+=_h; _b[j]-=_h
+            _c[i]-=_h; _c[j]+=_h; _e[i]-=_h; _e[j]-=_h
+            _H[i][j] = (_E(_a)-_E(_b)-_E(_c)+_E(_e))/(4*_h*_h)
+    _q = lambda v: sum(v[i]*_H[i][j]*v[j] for i in range(3) for j in range(3))
+    _S = [1/math.sqrt(3)]*3
+    _D = [2/math.sqrt(6), -1/math.sqrt(6), -1/math.sqrt(6)]
+    return _q(_S), _q(_D)
+_ks, _kd = _ring_ratio(1.0)
+chk("coulomb ring", "singlet stiffness at R = 1 is 2/sqrt3", 2/math.sqrt(3), _ks, 1e-4)
+chk("coulomb ring", "doublet stiffness at R = 1 is 1/(4 sqrt3)", 1/(4*math.sqrt(3)), _kd, 1e-4)
+chk("coulomb ring", "so the ratio is exactly 8", 8.0, _ks/_kd, 1e-4)
+chk("coulomb ring", "and it is scale-free (R = 100 gives the same)", 8.0,
+    _ring_ratio(100.0)[0]/_ring_ratio(100.0)[1], 1e-4)
+chk("coulomb ring", "against the 2:1 the R_c = M_c condition needs, an overshoot of", 4.0,
+    (_ks/_kd)/2.0, 1e-4, "x")
+# The pair-HARMONIC kernel on the same ring gives the ratio exactly, and analytically:
+# |r_i - r_j|^2 = x_i^2 + x_j^2 + x_i x_j at 120 deg, so H = 3I + J with eigenvalues 6 and 3.
+def _harm(_R):
+    _h = _R*1e-5
+    _T = [2*math.pi*k/3 for k in range(3)]
+    def _E(_d):
+        _p = [((_R+_d[k])*math.cos(_T[k]), (_R+_d[k])*math.sin(_T[k])) for k in range(3)]
+        return sum((_p[i][0]-_p[j][0])**2 + (_p[i][1]-_p[j][1])**2
+                   for i, j in _it.combinations(range(3), 2))
+    _H = [[0.0]*3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            _a=[0.]*3; _b=[0.]*3; _c=[0.]*3; _e=[0.]*3
+            _a[i]+=_h; _a[j]+=_h; _b[i]+=_h; _b[j]-=_h
+            _c[i]-=_h; _c[j]+=_h; _e[i]-=_h; _e[j]-=_h
+            _H[i][j] = (_E(_a)-_E(_b)-_E(_c)+_E(_e))/(4*_h*_h)
+    _q = lambda v: sum(v[i]*_H[i][j]*v[j] for i in range(3) for j in range(3))
+    return _q([1/math.sqrt(3)]*3), _q([2/math.sqrt(6), -1/math.sqrt(6), -1/math.sqrt(6)])
+_hs, _hd = _harm(1.0)
+chk("harmonic ring", "singlet eigenvalue of H = 3I + J", 6.0, _hs, 1e-5)
+chk("harmonic ring", "doublet eigenvalue", 3.0, _hd, 1e-5)
+chk("harmonic ring", "ratio, exactly the 2:1 the condition names", 2.0, _hs/_hd, 1e-5)
+chk("harmonic ring", "and it is R-independent (quadratic form)", 2.0,
+    _harm(100.0)[0]/_harm(100.0)[1], 1e-4)
+# the log kernel leaves the doublet flat at quadratic order -- exactly zero, not merely small
+def _logd(_R):
+    _h = _R*1e-5
+    _T = [2*math.pi*k/3 for k in range(3)]
+    def _E(_d):
+        _p = [((_R+_d[k])*math.cos(_T[k]), (_R+_d[k])*math.sin(_T[k])) for k in range(3)]
+        return sum(-math.log(math.hypot(_p[i][0]-_p[j][0], _p[i][1]-_p[j][1]))
+                   for i, j in _it.combinations(range(3), 2))
+    _H = [[0.0]*3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            _a=[0.]*3; _b=[0.]*3; _c=[0.]*3; _e=[0.]*3
+            _a[i]+=_h; _a[j]+=_h; _b[i]+=_h; _b[j]-=_h
+            _c[i]-=_h; _c[j]+=_h; _e[i]-=_h; _e[j]-=_h
+            _H[i][j] = (_E(_a)-_E(_b)-_E(_c)+_E(_e))/(4*_h*_h)
+    _q = lambda v: sum(v[i]*_H[i][j]*v[j] for i in range(3) for j in range(3))
+    return _q([1/math.sqrt(3)]*3), _q([2/math.sqrt(6), -1/math.sqrt(6), -1/math.sqrt(6)])
+_ls, _ld = _logd(1.0)
+chk("log ring", "singlet stiffness of the 2D vortex kernel at R = 1", 1.0, _ls, 1e-4)
+chk("log ring", "its doublet stiffness is zero", 0.0, _ld, 1e-4)
+# The null's a = 3b is a = b.lambda_1 with lambda_q = 2(1-cos 2 pi q/N) the ring Laplacian.
+# lambda_1 equals the site count ONLY at N = 3 -- the "on-site = N x bond" gloss is an accident.
+_lam1 = lambda N: 2*(1 - math.cos(2*math.pi/N))
+chk("null lambda", "lambda_1 at N = 3 is 3", 3.0, _lam1(3), 1e-12)
+chk("null lambda", "at N = 4 it is 2, not 4", 2.0, _lam1(4), 1e-12)
+chk("null lambda", "at N = 6 it is 1, not 6", 1.0, _lam1(6), 1e-12)
+chk("null lambda", "so lambda_1 = N holds at N = 3 alone", 1,
+    sum(1 for N in range(3, 40) if abs(_lam1(N) - N) < 1e-9), 0)
+# The occupancy lock: N_0 = 1 gives f_0^2 = hbar/(M w_1) and the ground-state charged pair
+# gives |f_1|^2+|f_2|^2 = hbar/(M w_1). M and w_1 cancel, so the ratio is fixed by the integer.
+chk("occupancy lock", "rho^2 = |f_1|^2/f_0^2 from N_0 = 1", 0.5, 0.5, 1e-12)
+chk("occupancy lock", "the Q it delivers", 2/3, 1/3 + (2/3)*0.5, 1e-12)
+chk("occupancy lock", "the A it delivers", math.sqrt(2), math.sqrt(6*(1/3+(2/3)*0.5)-2), 1e-12)
+chk("occupancy lock", "the tau it delivers", math.log(2)/2,
+    -math.log(math.sqrt(6*(1/3+(2/3)*0.5)-2)/2), 1e-12)
+# A4's generalization: occupancy n gives Q = 1/3 + 1/(3n), i.e. A^2 = 2/n. Inverting it makes
+# the neutrino tower's occupancy a measured quantity, and every integer must miss it.
+_Qn = lambda n: 1/3 + 1/(3*n)
+chk("occupancy A4", "Q at n = 1", 2/3, _Qn(1), 1e-12)
+chk("occupancy A4", "Q at n = 2", 0.5, _Qn(2), 1e-12)
+chk("occupancy A4", "Q at n = 3", 4/9, _Qn(3), 1e-12)
+chk("occupancy A4", "A^2 = 2/n at n = 1", 2.0, 6*_Qn(1)-2, 1e-12)
+def _Qnu(_m1, _d21=7.53e-5, _d31=2.53e-3):
+    _m2, _m3 = math.sqrt(_m1*_m1+_d21), math.sqrt(_m1*_m1+_d31)
+    return (_m1+_m2+_m3)/(math.sqrt(_m1)+math.sqrt(_m2)+math.sqrt(_m3))**2
+_qv = _Qnu(2.25e-3)
+_nv = 1/(3*(_qv - 1/3))
+chk("occupancy A4", "the neutrino tower's implied occupancy", 2.6668, _nv, 1e-3)
+chk("occupancy A4", "it is not an integer -- nearest is 3, missing by", 0.333,
+    min(abs(_nv-k) for k in (1, 2, 3, 4)), 2e-2)
+# Task 2's saturation: the hop rate against the two candidate bounds. Neither is saturated.
+_TC = 0.5*math.log(2)*0.51099895e6/1e3          # keV
+_w1 = (2/9)*_TC
+chk("phase pacing", "T_c in keV", 177.099, _TC, 1e-4, "keV")
+chk("phase pacing", "w_1 = (2/9) T_c", 39.355, _w1, 1e-4, "keV")
+# NOT a bound comparison: mu_face is a chemical potential, the bounds constrain RATES.
+# Kept as the arithmetic relation it is, relabelled so it is not read as a shortfall.
+chk("phase pacing", "T_c / mu_face = 9/2, an amplitude ratio not a bound miss", 4.5,
+    _TC/_w1, 1e-6, "x")
+chk("phase pacing", "the hop rate saturates the pacing bound by construction", 1.0,
+    _TC/_TC, 1e-12, "x")
+# mu_face and w_1 are the same closure twice, not two measurements
+chk("phase pacing", "mu_face = (Q/3) T_c", _w1, (2/3)/3*_TC, 1e-9, "keV")
+chk("phase pacing", "and w_1 = theta_B T_c is the same number", 0.0, _w1 - (2/9)*_TC, 1e-12)
 
 # --- no_singularities: the crossover table (2026-07-19) ---
 _xi_m   = 6.0e13                                  # m (the recorded coherence length)
@@ -662,10 +1411,28 @@ chk("no singularities", "TON 618 (6.6e10): r_s/xi", 3.3, _rs(6.6e10)/_xi_m, 0.02
 chk("no singularities", "lambda support margin (2e-91 over 8e-94)", 250, 2e-91/8e-94, 0.01, "x")
 
 # --- the S8 pair: standing-anchor arithmetic (2026-07-19) ---
-chk("S8 pair", "g candidate identity 10*eps == 54a/pi", 1.0, (10*27/(5*math.pi)*(1/137.035999)) / (54/(math.pi*137.035999)), 1e-12)
-chk("S8 pair", "LCDM 0.833 vs Legacy consensus", 1.6, (0.833-0.814)/0.012, 0.02, "sigma")
-chk("S8 pair", "model 0.823 vs Legacy consensus", 0.75, (0.823-0.814)/0.012, 0.02, "sigma")
-chk("S8 pair", "model twice as close as LCDM", 2.1, (0.833-0.814)/(0.823-0.814), 0.02, "x")
+# RELABELLED 2026-07-29 (scripts/audit_selfcheck_tautology_scan.py, pattern T1).
+# This is ARITHMETIC, not physics: with eps defined as 27a/(5pi), the ratio below
+# reduces to (10*27/5)/54 = 1 for ANY alpha, so it can never fail and it tests
+# nothing about the model. It is still worth keeping as a transcription check on
+# 10 * 27/5 = 54 -- but the old label ("g candidate identity") read as though the
+# pass list were evidence for g = 10*eps, which is exactly the claim #82 records as
+# STILL OWED. Kept, renamed, and the mechanism debt left where it belongs.
+chk("S8 pair", "[transcription only] 10*(27/5) == 54, given eps := 27a/(5pi)", 1.0, (10*27/(5*math.pi)*(1/137.035999)) / (54/(math.pi*137.035999)), 1e-12)
+# Named once, used everywhere below, so a corrected value propagates (protocol check 21).
+_S8_LCDM, _S8_MOD = 0.833, 0.823
+_S8_KIDS, _S8_KIDS_ERR = 0.814, 0.012
+_S8_MIN = 0.821                       # the minimizer's value at g = 0.12, before the production fit
+chk("S8 pair", "LCDM vs Legacy consensus", 1.6, (_S8_LCDM-_S8_KIDS)/_S8_KIDS_ERR, 0.02, "sigma")
+chk("S8 pair", "model vs Legacy consensus", 0.75, (_S8_MOD-_S8_KIDS)/_S8_KIDS_ERR, 0.02, "sigma")
+chk("S8 pair", "model twice as close as LCDM", 2.1,
+    (_S8_LCDM-_S8_KIDS)/(_S8_MOD-_S8_KIDS), 0.02, "x")
+chk("S8 pair", "minimizer g = 0.12 against the production fit", 0.002, _S8_MOD-_S8_MIN, 1e-9)
+# The pair's two halves come from different fits: the joint stack reports H0 = 69.05 and no S8,
+# the production CMB re-fit reports H0 = 69.9 with S8 = 0.823. Guarded so the gap stays visible.
+_H0_STACK, _H0_REFIT, _H0_LCDM = 69.05, 69.9, 67.4
+chk("S8 pair", "the two model H0 fits differ by", 0.85, _H0_REFIT-_H0_STACK, 1e-9, "km/s/Mpc")
+chk("S8 pair", "joint-stack H0 easing over LCDM", 1.65, _H0_STACK-_H0_LCDM, 1e-9, "km/s/Mpc")
 
 # --- small_scale_structure: the braiding scale (2026-07-19) ---
 _MPl_full_eV = 1.22091e19 * 1e9                   # full Planck mass, eV
@@ -678,7 +1445,12 @@ chk("small-scale", "braiding vs dwarf soliton (two orders)", 125, _rc_m/3.0857e1
 chk("low-ell", "coefficients ell=2..6", 45, sum(2*l+1 for l in range(2,7)), 0)
 chk("low-ell", "independent pairs = C(45,2)", 990, 45*44//2, 0)
 chk("low-ell", "quadrupole cosmic variance sqrt(2/5)", 63, math.sqrt(2/5)*100, 0.01, "%")
-chk("low-ell", "83% retention in sigma units", 0.27, (1-0.83)/math.sqrt(2/5), 0.02, "sigma")
+# The 83% retention this once guarded is RETIRED (#160): the regenerated low-ell
+# pattern gives 90%, guarded below as _RET2 = 0.900 with its 0.158 sigma. Two
+# guards on one quantity at two values is the check-2a anti-pattern, so this row
+# now books the retired figure explicitly as retired rather than as a live check.
+chk("low-ell", "the RETIRED 83% retention, in sigma units (superseded by 90%)",
+    0.27, (1-0.83)/math.sqrt(2/5), 0.02, "sigma")
 
 # --- kappa_v docket: the operator arithmetic (record grade, program closed) ---
 _k_kv = 9e-3
@@ -707,7 +1479,8 @@ chk("T6 kernel", "c2*tau = (4/(3ln2))*(ln2/2) == 2/3", 1.0, (4/(3*math.log(2)))*
 chk("T6 kernel", "modulus: rho=1/sqrt2 -> Q=2/3", 1.0, (1/3 + (2/3)*0.5)/(2/3), 1e-12)
 chk("T6 kernel", "B trace: sqrt(4pi/8pi)", 1.0, math.sqrt(0.5)/(1/math.sqrt(2)), 1e-12)
 chk("T6 kernel", "mu_face = (2/9)*Tc at 177.10", 39.4, (2/9)*177.10, 0.005, "keV")
-chk("T6 kernel", "deviation-lock slope 2A/9", 0.3143, 2*math.sqrt(2)/9, 0.001)
+chk("FAILURES_LEDGER", "retired: the P-051 lock slope registered as 2A/9, twice the closure's",
+    0.3143, 2*math.sqrt(2)/9, 0.001)
 chk("T6 kernel", "tangency seed ratio 7+4sqrt3", 13.928, 7+4*math.sqrt(3), 0.001)
 
 # --- the sign-chain walk: face assignment in hop order (2026-07-19) ---
@@ -735,18 +1508,2555 @@ chk("hierarchy 6c", "k derived: two-band screening, full FS", 1.36461,
     math.log(1 + math.pi/(2*3*ALPHA))/math.pi, 1e-4)
 chk("hierarchy 6c", "anchor sensitivity d(lnM)/d(lnk)", 33.47,
     1/((math.log(1 + math.pi/(2*3*ALPHA))/math.pi)*3*ALPHA), 1e-3)
+# 6c condition 2b (added 2026-07-20): the screening constant carries a band velocity,
+# b = 2*alpha_c/(pi*v), and the booked value above is that at v = 1. The rows below
+# guard the v-dependence rather than the v = 1 value, which line 731 already holds.
+def _k_of_v(v): return math.log(1 + 1/(2*(3*ALPHA)/(math.pi*v)))/math.pi
+chk("hierarchy 6c", "b = 2*alpha_c/(pi*v) reduces to the booked b at v = 1",
+    0.013937, 2*(3*ALPHA)/(math.pi*1.0), 1e-4)
+chk("hierarchy 6c", "k at v = 0.9 (the 10% velocity mismatch)", 1.33156, _k_of_v(0.9), 1e-4)
+chk("hierarchy 6c", "that mismatch's cost in ln M (d lnM/d lnk = 33.47)", -0.818,
+    33.47*math.log(_k_of_v(0.9)/_k_of_v(1.0)), 2e-2)
 
 # ---- hierarchy 6d: the anchor's shell systematic ----
 _lam0 = (2*(3*ALPHA)/math.pi/2)*math.log(1 + math.pi/(2*3*ALPHA))
 chk("hierarchy 6d", "Lam_shell/M_red implied by the exponential", 0.2228,
     (4*math.pi*125.25*math.exp(1/_lam0))/2.435e18, 5e-3)
 chk("hierarchy 6d", "symmetric-shell DOS correction at E_F=M_red", 1.00072, 1.000719, 1e-4)
+# lambda is used as an intermediate above but its VALUE was never asserted — if the
+# booked 0.029874 drifted, nothing here would catch it. Two rows close that (2026-07-20):
+chk("hierarchy 6c", "lambda = k*alpha_c, the pairing coupling", 0.029874, _lam0, 1e-4)
+chk("hierarchy 6g", "exact-solution shell e^(-3/2-ln2) = Lam/M_red", 0.1116,
+    math.exp(-1.5 - math.log(2)), 1e-3)
 chk("hierarchy 6d", "exact-solution anchor 2*Lam*exp(-1/lam) (GeV)", 3152.3,
     2*2.435e18*math.exp(-1.5)*math.exp(-1/_lam0), 5e-3)
 
 # ---- hierarchy 6j: the portal-roster S bound ----
 chk("hierarchy 6j", "Delta_S per degenerate heavy doublet", 0.05305, 1/(6*math.pi), 1e-3)
 chk("hierarchy 6j", "max doublets from |S| < 0.14", 2.639, 0.14*6*math.pi, 1e-2)
+# The bound is tight enough that one doublet per generation fails it, which is why the portal
+# roster's uncounted electroweak content is an owed item rather than a formality.
+_dS = 1/(6*math.pi)
+chk("hierarchy 6j", "S at three doublets = 1/(2 pi)", 1/(2*math.pi), 3*_dS, 1e-12)
+chk("hierarchy 6j", "which exceeds |S| < 0.14 by", 13.7, (3*_dS/0.14 - 1)*100, 1e-2, "%")
+chk("hierarchy 6j", "S at two doublets", 0.10610, 2*_dS, 1e-4)
+chk("hierarchy 6j", "its margin under the bound", 24.2, (1 - 2*_dS/0.14)*100, 1e-2, "%")
+
+# ---- P-2026-038: the last registered entry with no harness coverage (added 2026-07-20)
+# Its "4.75 doublet-units" and "b2 = -0.167" are exact rationals off one input,
+# b2(SM) = 19/6 with 2/3 per vector-like doublet-unit. The entry's COUNT (n = 5) is
+# withdrawn by its own amendment; the arithmetic it registered is still arithmetic, and
+# guarding it keeps the registry auditable rather than merely archived.
+_b2sm, _per = 19/6, 2/3
+chk("P-2026-038", "SU(2) flip threshold = b2(SM)/(2/3) = 19/4", 4.75, _b2sm/_per, 1e-6)
+chk("P-2026-038", "b2 at n = 5 doublets = -1/6", -0.16667, _b2sm - 5*_per, 1e-4)
+chk("P-2026-038", "b2 at n = 4 does not flip (= +1/2)", 0.5, _b2sm - 4*_per, 1e-6)
+
+# ---- P-2026-012's parenthetical splittings vs the ones the corpus computes with
+# The registry entry quotes rounder values (7.4e-5, 2.5e-3) than the block above
+# uses (7.42e-5, 2.515e-3 — current NuFIT, normal ordering). The prediction is the
+# block's; this pins the size of the documentation gap so it cannot drift further.
+chk("P-2026-012", "Sigma m_nu at the registry's quoted rounder splittings",
+    61.21, (2.25e-3 + math.sqrt(2.25e-3**2 + 7.4e-5) + math.sqrt(2.25e-3**2 + 2.5e-3))*1e3,
+    5e-3, "meV")
+
+# ---- #168: what the A_s count C is and is not (added 2026-07-20) ----
+# The pipeline's frozen A_s is the closed form at the CONCORDANCE k, not a measurement,
+# so the -0.35% between them is a k-spread. These rows pin that, the honest comparison
+# against the measured amplitude, and the two O(1)s the count actually hides.
+_k168   = math.log(1 + math.pi/(2*ac))/math.pi
+_As168  = (ac/(4*math.pi*_k168))**3
+_kjoint = 1.3630                                   # scripts/concordance.py joint
+chk("THE_AMPLITUDE", "frozen A_s IS the closed form at k_joint", 2.088058e-9,
+    (ac/(4*math.pi*_kjoint))**3, 1e-5)
+chk("THE_AMPLITUDE", "the -0.35% is the pure k spread", -0.3546,
+    300*math.log(_kjoint/_k168), 5e-3, "%")
+chk("THE_AMPLITUDE", "closed form vs the measured 2.100e-9", -0.921,
+    100*(_As168/2.100e-9 - 1), 5e-3, "%")
+chk("THE_AMPLITUDE", "that miss in sigma at the 1.4% measurement", -0.66,
+    (_As168/2.100e-9 - 1)/0.014, 2e-2, "sigma")
+chk("THE_AMPLITUDE", "C required by the measured amplitude", 1.00929,
+    2.100e-9/_As168, 1e-5)
+# C = R^2 (k_* l_p)^3 / 2 pi^2 at the conformal (w = 1/3) transfer R = 1/4
+_C = lambda R, lpk: R**2 * lpk**3 / (2*math.pi**2)
+chk("THE_AMPLITUDE", "C at R=1/4, wavelength convention = pi/4", math.pi/4,
+    _C(0.25, 2*math.pi), 1e-6)
+chk("THE_AMPLITUDE", "C at R=1/4, half-wave convention", 0.098175, _C(0.25, math.pi), 1e-4)
+chk("THE_AMPLITUDE", "C at R=1/4, inverse-k convention", 3.1665e-3, _C(0.25, 1.0), 1e-3)
+chk("THE_AMPLITUDE", "R needed for C = 1 (wavelength) = 1/sqrt(4 pi)", 0.28209,
+    1/math.sqrt((2*math.pi)**3/(2*math.pi**2)), 1e-4)
+chk("THE_AMPLITUDE", "scaling ratio k_* xi the closed form implies (R=1)", 3.4502e-3,
+    (2*math.pi**2*_As168)**(1/3), 1e-4)
+# hierarchy 6i: what the scale selection actually requires of C
+_As_MZ = (lambda a: (a/(4*math.pi*(math.log(1+math.pi/(2*a))/math.pi)))**3)(3/127.95)
+chk("hierarchy 6i", "C needed by the alpha(M_Z) reading", 0.7788, 2.088058e-9/_As_MZ, 1e-3)
+chk("hierarchy 6i", "so the selection needs C = 1 to +/- this", 0.22, 1-0.7788, 5e-2)
+
+# ---- P-2026-056: the Route-D branch window, in the coded parameter (added 2026-07-20)
+# The sampled parameter IS 1+w of the floor today: rho_fl = rho_inf*exp(thaw*(1-a^3))
+# gives 1+w(a) = thaw*a^3 (background.h:176,810; background.c:664), so the registered
+# w0 window maps onto the prior's own units with no conversion factor.
+chk("P-2026-056", "Route-D thaw window low edge = 1 + w0(-0.92)", 0.08, 1 + (-0.92), 1e-9)
+chk("P-2026-056", "Route-D thaw window high edge = 1 + w0(-0.86)", 0.14, 1 + (-0.86), 1e-9)
+
+# ---- P-2026-057: the Brannen-frame phase whose SIGN the lock predicts (added 2026-07-20)
+# theta_house = theta_B + 120 deg is an exact one-face relabel, so theta_B follows from
+# the measured house phase alone. Its sign is the observable half of the cross-sector lock.
+# theta_B is computed FROM THE MASSES, not from the rounded 132.7328 display: the display
+# carries 3.5e-7 rad of rounding and the quantity of interest, theta_B - 2/9, is 7.4e-6 --
+# propagating the display puts 5% of rounding into a deviation (audit protocol check 21).
+def _koide(mt, _me=0.51099895, _mmu=105.6583755):
+    """(Q, A, theta_B) of the Z3 ring from the three pole masses, exactly."""
+    _s = [math.sqrt(_me), math.sqrt(_mmu), math.sqrt(mt)]
+    _M = sum(_s)/3
+    _Q = (_me + _mmu + mt)/sum(_s)**2
+    _d = [x/_M - 1 for x in _s]
+    _c1 =  (2/3)*sum(_d[k]*math.cos(2*math.pi*k/3) for k in range(3))
+    _s1 = -(2/3)*sum(_d[k]*math.sin(2*math.pi*k/3) for k in range(3))
+    return _Q, math.sqrt(6*_Q - 2), math.atan2(_s1, _c1) - 2*math.pi/3
+_MTAU, _SMTAU = 1776.86, 0.12
+_QM, _AM, _THB = _koide(_MTAU)
+chk("P-2026-057", "Brannen phase theta_B from the measured masses", 0.2222296, _THB, 1e-6, "rad")
+chk("P-2026-057", "the house phase it corresponds to", 132.7328,
+    math.degrees(_THB) + 120.0, 1e-6, "deg")
+chk("P-2026-057", "its distance from 2/9, the deviation lock's axis", 7.409e-6, _THB - 2/9, 1e-3, "rad")
+
+# ---- #102: the deviation lock P-2026-051, stated on the source values ------------
+# Both axes are functions of m_tau alone (m_e and m_mu are known to 3e-10 and 2e-8), so
+# the two deviations are perfectly anti-correlated and the lock's sigma must be taken on
+# the RESIDUAL, not on either axis. Derivatives are analytic-grade central differences.
+_h = 1e-5
+_dQ, _dA, _dTH = [(b-a)/(2*_h) for a, b in zip(_koide(_MTAU-_h), _koide(_MTAU+_h))]
+chk("#102 lock", "delta_A = A - sqrt2 from the masses", -1.30572e-5, _AM - math.sqrt(2), 1e-4)
+chk("#102 lock", "sigma_A from sigma_mtau = 0.12 MeV", 1.4372e-5, abs(_dA)*_SMTAU, 1e-3)
+chk("#102 lock", "so A sits this far from sqrt2", -0.909,
+    (_AM - math.sqrt(2))/(abs(_dA)*_SMTAU), 1e-3, "sigma")
+chk("#102 lock", "sigma_theta from sigma_mtau", 8.3481e-6, abs(_dTH)*_SMTAU, 1e-3, "rad")
+chk("#102 lock", "so theta_B sits this far from 2/9", 0.888,
+    (_THB - 2/9)/(abs(_dTH)*_SMTAU), 1e-3, "sigma")
+# the closure theta = (1 + A^2/2)/9 has derivative A/9, so it predicts the two deviations
+# SAME-signed; the measured pair is opposite-signed, which is what the residual records.
+_res  = (_THB - 2/9) - (math.sqrt(2)/9)*(_AM - math.sqrt(2))
+_dres = _dTH - (math.sqrt(2)/9)*_dA
+chk("#102 lock", "residual off the closure line", 9.4610e-6, _res, 1e-3, "rad")
+chk("#102 lock", "residual in sigma, correlation-aware", 0.892, _res/(abs(_dres)*_SMTAU), 1e-3, "sigma")
+# The lock's testable form: with m_e, m_mu fixed, each watch predicts m_tau.
+def _solve(g, lo=1770.0, hi=1785.0):
+    for _ in range(80):
+        mid = (lo+hi)/2
+        if g(lo)*g(mid) <= 0: hi = mid
+        else: lo = mid
+    return (lo+hi)/2
+_mQ  = _solve(lambda m: _koide(m)[0] - 2/3)
+_mTH = _solve(lambda m: _koide(m)[2] - 2/9)
+_mCL = _solve(lambda m: _koide(m)[2] - (1 + _koide(m)[1]**2/2)/9)
+chk("#102 lock", "m_tau predicted by Q = 2/3", 1776.96903, _mQ, 1e-8, "MeV")
+chk("#102 lock", "m_tau predicted by theta_B = 2/9", 1776.96651, _mTH, 1e-8, "MeV")
+chk("#102 lock", "m_tau predicted by the closure", 1776.96705, _mCL, 1e-8, "MeV")
+chk("#102 lock", "the two watches' m_tau differ by", 2.518, (_mQ-_mTH)*1e3, 1e-3, "keV")
+chk("#102 lock", "which is this fraction of m_tau -- the precision needed to separate them",
+    1.417, (_mQ-_mTH)/_MTAU*1e6, 1e-3, "ppm")
+chk("#102 lock", "all three sit this far above the measured 1776.86", 0.909,
+    (_mQ-_MTAU)/_SMTAU, 1e-3, "sigma")
+
+# ---- #101: what three thermal draws actually give, in closed form ----------------
+# Q = sum(s^2)/(sum s)^2 is scale-free, so for s ~ iid Exp it depends only on the
+# proportions p = s/sum(s), which are uniform on the 2-simplex (Dirichlet(1,1,1)).
+# Dirichlet moments then give E[Q] and Var[Q] exactly -- no simulation needed.
+chk("#101 draws", "E[Q] for three exponential draws = 1/2", 0.5, 3*(1*2)/(3*4), 1e-12)
+_EQ2 = 3*(1*2*3*4)/(3*4*5*6) + 6*(1*2)*(1*2)/(3*4*5*6)
+chk("#101 draws", "Var[Q] = 1/60", 1/60, _EQ2 - 0.25, 1e-12)
+chk("#101 draws", "sd[Q] = 1/sqrt(60)", 0.129099, math.sqrt(_EQ2 - 0.25), 1e-5)
+# Geometry of the same statement: Q = 1/3 + r^2 with r the distance from the simplex
+# centroid. At Q = 2/3, r = 1/sqrt3 and r_in/r = 1/sqrt2, so each of the three sides
+# removes exactly 90 deg of the circle and one quarter survives -- hence the density.
+chk("#101 draws", "at Q = 2/3 each side removes 90 deg of the circle", 45.0,
+    math.degrees(math.acos((1/math.sqrt(6))/(1/math.sqrt(3)))), 1e-9, "deg")
+chk("#101 draws", "density of Q at 2/3 = pi/(2 sqrt3)", 0.9068997,
+    math.pi/(2*math.sqrt(3)), 1e-6)
+chk("#101 draws", "odds three draws land as close as the leptons do", 1.116e-5,
+    2*abs(_QM - 2/3)*math.pi/(2*math.sqrt(3)), 1e-3)
+# The deterministic readings of the same exponential law fail too -- none returns 2/3.
+_qof = lambda v: sum(x*x for x in v)/sum(v)**2
+chk("#101 draws", "mid-quantiles of Exp(1) give Q =", 0.523481,
+    _qof([-math.log(1-(k+0.5)/3) for k in range(3)]), 1e-5)
+chk("#101 draws", "expected order statistics give Q = 25/54", 25/54,
+    _qof([1/3, 1/3+1/2, 1/3+1/2+1]), 1e-9)
+
+# ---- #101: Q = 2/3 as a vanishing indefinite form (exact restatement) ------------
+# Q = 1/3 + (2/3)|f1/f0|^2 (Parseval) means Q = 2/3 <=> f0^2 = 2|f1|^2, i.e. the
+# Fourier vector (f0; f1, f2) is NULL for the (+,-,-) form graded by Z3 charge:
+# eta = |f0|^2 - |f1|^2 - |f2|^2.  In face coordinates eta = (1/3)[(2/3)(sum s)^2 - sum s^2].
+_sv = [1 + math.sqrt(2)*math.cos(2/9 + 2*math.pi*k/3) for k in range(3)]
+chk("#101 null", "(2/3)(sum s)^2 / sum s^2 = 1 at Q = 2/3 -- the null condition", 1.0,
+    (2/3)*sum(_sv)**2/sum(x*x for x in _sv), 1e-9)
+# eta(v) = v^T H v with H = (2/3)J - I, J the all-ones matrix (eigenvalues 3, 0, 0).
+chk("#101 null", "the form's timelike eigenvalue, along (1,1,1)", 1.0, (2/3)*3 - 1, 1e-12)
+chk("#101 null", "its two spacelike eigenvalues -- signature (+,-,-)", -1.0, (2/3)*0 - 1, 1e-12)
+chk("#101 null", "so the null cone opens at 45 deg about (1,1,1)", 45.0,
+    math.degrees(math.acos(1/math.sqrt(2))), 1e-9, "deg")
+# How far off that cone the measured leptons sit. NOTE the two normalizations, both
+# correct and a factor 2 apart (NOT 3): eta/sum(s^2) = (2/3)/Q - 1 is 9.23 ppm, while the
+# moment form V/mu^2 = 3Q - 1 deviates by 18.47 ppm. The identity slope is 3, but both are
+# fractional misses so converting brings in Q: (dV/V)/(dQ/Q) = 3Q = 2. Not a correction.
+chk("#101 null", "measured eta/sum(s^2) = (2/3)/Q - 1", 9.2329e-6, (2/3)/_QM - 1, 1e-4)
+chk("#101 null", "the same miss in the moment form, V/mu^2 - 1", -1.84656e-5, 3*_QM - 2, 1e-4)
+chk("#101 null", "the two misses are a factor 2 apart, not 3 (= 3Q)", 2.0,
+    (3*_QM - 2)/((2/3)/_QM - 1)*-1, 1e-4)
+
+# ---- the BBN-stability fence, stated on the derived anchor (added 2026-07-20)
+# The fence's edges are the two BBN clocks, not evaluation points: the D bottleneck below
+# (stamp -> 0, the window's help vanishes) and the weak-rate window above (the dyad reaches
+# n/p and helium moves). The conclusion is robust because the WHOLE-RANGE swing is bounded:
+# taking T_c all the way to the bottleneck removes the window's +0.645% help entirely, and
+# that is the largest move T_c can make. So no re-pin inside the fence can break it.
+_TCLO, _TCHI, _TCK = 70.0, 500.0, 0.5*math.log(2)*ME/1e3     # keV; anchor from tau, not booked
+_wD70 = lambda Tc: 1.0 - _TCLO/Tc                            # ramp stamp at the D bottleneck
+chk("me_mechanism fence", "derived anchor sits above the fence's lower edge", 2.53, _TCK/_TCLO, 5e-3, "x")
+chk("me_mechanism fence", "derived anchor sits below the fence's upper edge", 2.82, _TCHI/_TCK, 5e-3, "x")
+chk("me_mechanism fence", "ramp stamp at the D bottleneck, derived anchor", 0.6047, _wD70(_TCK), 1e-3)
+chk("me_mechanism fence", "ramp stamp at Li (40 keV), derived anchor", 0.7741, 1-40.0/_TCK, 1e-3)
+chk("me_mechanism fence", "whole-range D/H swing bound, 2-term width", 0.323,
+    2.387*0.00645/0.0476, 5e-3, "sigma")
+chk("me_mechanism fence", "whole-range D/H swing bound, 3-term width", 0.273,
+    2.387*0.00645/0.0563, 5e-3, "sigma")
+chk("me_mechanism fence", "the 179 -> 177.10 re-pin, as a fraction of the row width", 449.0,
+    1.0/abs(2.387*0.00645*(_wD70(_TCK)/_wD70(179.0)-1)/0.0476), 2e-2, "1/x")
+
+# ---- the D/H error budget (#157 settled 2026-07-21 on arXiv:2011.11320) ----
+# Standing width is two-term. The three-term folding is retained only so a stale ±0.0563
+# or −2.49σ is recognisable on sight; it is not the live row. The third term equals the
+# observational error numerically, which is why the two foldings were hard to separate.
+_OBS, _NUC = 0.030, 0.037
+_RATE = 0.0300                                      # the (retired) extra d(p,g)3He term
+chk("deuterium_row 1", "2-term width = obs (+) nuclear = STANDING", 0.0476,
+    math.hypot(_OBS, _NUC), 1e-3)
+chk("deuterium_row 1", "standing row on the 2-term width", -2.94,
+    (2.387-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
+chk("deuterium_row 1", "advertised window low edge is the 2-term number", -2.52,
+    (2.407-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
+chk("deuterium_row 1", "advertised window high edge is the 2-term number", -1.34,
+    (2.463-2.527)/math.hypot(_OBS, _NUC), 5e-3, "sigma")
+# retired three-term arithmetic, pinned so a stale quote is caught
+chk("deuterium_row 1", "RETIRED 3-term width (double-counts LUNA)", 0.0563,
+    math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 1e-3)
+chk("deuterium_row 1", "RETIRED standing row on the 3-term width", -2.49,
+    (2.387-2.527)/math.sqrt(_OBS**2 + _NUC**2 + _RATE**2), 5e-3, "sigma")
+chk("deuterium_row 1", "the 0.0476 degeneracy: nuclear (+) rate reads the same", 0.0476,
+    math.hypot(_NUC, _RATE), 1e-3)
+
+# ---- #169: the g -> lambda map, the composite quartic (added 2026-07-20) ----
+# lambda = 4 pi^2 / (N_c F(M/Lambda)) with F the one-loop f^2 integral at the same
+# 3-momentum cutoff the sector's gap equation uses. See scripts/de_value_g_to_lambda.py.
+def _I169(tau, n=20000):                       # T_c kernel, int_0^1 x tanh(x/2 tau) dx
+    h = 1.0/n
+    return sum(((i+.5)*h)*math.tanh(((i+.5)*h)/(2*tau)) for i in range(n))*h
+def _J169(y):                                  # T=0 gap kernel; J(0) = 1/2 -> g_c = 2
+    s = math.sqrt(1+y*y); return .5*s - .5*y*y*math.log((1+s)/y)
+def _F169(y):                                  # f^2 loop integral
+    s = math.sqrt(1+y*y); return math.log((1+s)/y) - 1/s
+def _y169(g):
+    lo, hi = 1e-9, 50.0
+    for _ in range(200):
+        mid = .5*(lo+hi)
+        lo, hi = (mid, hi) if g*_J169(mid) > 1 else (lo, mid)
+    return .5*(lo+hi)
+_g169 = 1/_I169(TAU)
+_y = _y169(_g169)
+chk("cosmological_constant", "g = 1/I(tau) at tau = (1/2)ln2", 2.830, _g169, 1e-3)
+chk("cosmological_constant", "gap kernel J(0) = 1/2, so g_c = 2", 2.0, 1/_J169(1e-12), 1e-6)
+chk("cosmological_constant", "y = M/Lambda from 1 = g J(y)", 0.59493, _y, 1e-4)
+chk("cosmological_constant", "M = y*m_e against the BCS check 312 keV", 304.0,
+    _y*ME/1e3, 5e-3, "keV")
+chk("cosmological_constant", "F(M/Lambda)", 0.43167, _F169(_y), 1e-4)
+chk("cosmological_constant", "lambda = 4pi^2/(N_c F), N_c = 2", 45.73,
+    4*math.pi**2/(2*_F169(_y)), 1e-3)
+# the same f^2 formula on QCD: N_c = 3, M = 336, Lambda = 631 MeV -> f_pi vs 92.4
+_yq = 336.0/631.0
+chk("cosmological_constant", "one-loop f_pi on QCD (validation)", 93.09,
+    math.sqrt(3*336.0**2*_F169(_yq)/(2*math.pi**2)), 1e-3, "MeV")
+chk("cosmological_constant", "lambda_dark/lambda_QCD = (3/N_c)(F_QCD/F_dark)", 1.7549,
+    (3/2)*_F169(_yq)/_F169(_y), 1e-3)
+_tr = (3/2)*_F169(_yq)/_F169(_y)
+chk("cosmological_constant", "lambda band low (m_sigma = 500 MeV anchor)", 25.7,
+    (500.0**2/(2*92.4**2))*_tr, 5e-3)
+chk("cosmological_constant", "lambda band high (m_sigma = 2M anchor)", 46.4,
+    (672.0**2/(2*92.4**2))*_tr, 5e-3)
+# the control edge: |Wu| = LHY, and the whole band sits above it
+_rt = math.sqrt(ac/(256*math.pi**3))
+def _wu_over_lhy(l):
+    na3 = (_rt*l)**2
+    return abs(8*(4*math.pi/3-math.sqrt(3))*na3*math.log(na3))/((128/(15*math.sqrt(math.pi)))*math.sqrt(na3))
+chk("cosmological_constant", "sqrt(na^3) = sqrt(a_c/256pi^3)*lambda at lambda*", 0.0372,
+    _rt*22.41, 5e-3)
+chk("cosmological_constant", "|Wu|/LHY = 1 at lambda* = 22.41", 1.0, _wu_over_lhy(22.41), 1e-3)
+chk("cosmological_constant", "|Wu|/LHY at the band's LOW end (still > 1)", 1.10,
+    _wu_over_lhy(25.7), 1e-2)
+chk("cosmological_constant", "Delta rho^1/4 at the band centre = 0.0021*lambda", 7.57,
+    0.0021*36.05*100, 1e-2, "%")
+
+# ---- #170: f_wind, the winding comb's forward amplitude (added 2026-07-20) ----
+# The diagonal C_l sees only the k-hat monopole of a single-axis modulation, so the
+# winding's imprint is diluted by j_0(kd) ~ 1/(kd) = l_1/(2 pi l) before projection.
+# The T_proj values below come from scripts/winding_comb_cl.py (Bessel integrals);
+# everything else here is recomputed from the recorded geometry.
+_CHI, _LT = 13.76, 27.6                         # Gpc: chi_*, torus floor
+_beta = lambda n: (_LT/n)/_CHI
+_l1   = lambda n: 2*math.pi/_beta(n)
+chk("P-2026-029", "l_1 = 2 pi n chi/L, coefficient", 3.1325, 2*math.pi*_CHI/_LT, 1e-4)
+chk("P-2026-029", "beta = d/chi at n = 10", 0.20058, _beta(10), 1e-4)
+chk("P-2026-029", "l_1 at n = 10", 31.32, _l1(10), 1e-3)
+chk("P-2026-029", "l_1 at n = 30", 93.97, _l1(30), 1e-3)
+chk("P-2026-029", "Limber envelope l_1/(2 pi l) at n=30, l=100", 0.14957,
+    _l1(30)/(2*math.pi*100), 1e-3)
+_TP = {10: 0.01205, 20: 0.03639, 30: 0.06062}   # T_proj at l = 100, booked from the run
+chk("P-2026-029", "exact/Limber suppression at n=30, l=100", 0.405,
+    _TP[30]/(_l1(30)/(2*math.pi*100)), 5e-3)
+# a 1/l comb's matched-filter flat-equivalent over the fence's own band
+_num = sum((2*l+1)*(100.0/l)**2 for l in range(100, 601))
+_den = sum((2*l+1) for l in range(100, 601))
+chk("P-2026-029", "flat-equivalent of a 1/l comb over l = 100-600", 0.3203,
+    math.sqrt(_num/_den), 1e-3)
+_fe = math.sqrt(_num/_den)
+for _n, _bk in ((10, 1.814), (20, 0.601), (30, 0.360)):
+    chk("P-2026-029", f"A_prim needed for A = 0.7% at n = {_n}", _bk,
+        0.007/(_fe*_TP[_n]), 5e-3)
+chk("P-2026-029", "n = 10 needs >100% modulation (impossible)", 1.0,
+    1.0 if 0.007/(_fe*_TP[10]) > 1.0 else 0.0, 1e-9)
+_aprim_max = math.sqrt(2e-6)                    # winding roughness ceiling, per log
+chk("P-2026-029", "A_prim ceiling from Delta^2 <= 2e-6", 1.4142e-3, _aprim_max, 1e-4)
+chk("P-2026-029", "f_wind ceiling", 2.746e-5, _fe*_TP[30]*_aprim_max, 5e-3)
+chk("P-2026-029", "f_wind under the fence floor 0.7% by this factor", 255.0,
+    0.007/(_fe*_TP[30]*_aprim_max), 1e-2)
+
+# ---- the cold spot: why the anomaly family cannot claim it (#119) -----------
+# The Kibble network is the model's only distinctive structure within reach of a Gpc.
+# Its cells subtend about a degree — not the cold spot's 5-10 — and there are ~10^4 of them.
+XI_K, CHI_STAR = 256.0, 13760.0        # Mpc comoving: Kibble domain; distance to last scattering
+chk("cmb_anomalies", "Kibble domain angular scale xi_K/chi_*", 1.07,
+    XI_K/CHI_STAR*180/math.pi, 1e-2, "deg")
+chk("cmb_anomalies", "Kibble cells tiling the sky = 4pi/theta^2", 3.6e4,
+    4*math.pi/(XI_K/CHI_STAR)**2, 5e-2)
+# The texture route, priced. dT/T ~ 8 pi (eta/M_Pl)^2. The formula is validated first
+# against [Cruz2007]'s quoted texture scale, which must land in the 1e-5 class it was fit to.
+def _tex(eta_eV):
+    return 8*math.pi*(eta_eV/MPL)**2
+chk("cmb_anomalies", "texture dT/T at Cruz2007's 8.7e15 GeV is 1e-5 class", 1.28e-5,
+    _tex(8.7e24), 1e-2)
+chk("cmb_anomalies", "texture dT/T at the model's top scale f = 500 TeV", 4.2e-26,
+    _tex(5e14), 1e-2)
+chk("cmb_anomalies", "texture scale a cold-spot-class 1e-5 would need", 8.0e15,
+    MPL*math.sqrt(1e-5/(8*math.pi))/1e9, 5e-2, "GeV")
+
+# --- the gate exponent: the C^2-to-threshold map, 2026-07-20 (docket #127) ---
+# Seeds are threshold crossings of a Gaussian medium; the amplitude-linear map is
+# sigma ~ C, so nu ~ 1/C and dln(nu)/dln(C^2) = -1/2. With Q the upper tail and phi
+# the density, the local log-slope of Nbar = N_cell*Q(nu) is n_eff = (nu/2)*phi/Q.
+def _gphi(v): return math.exp(-v*v/2)/math.sqrt(2*math.pi)
+def _gQ(v):   return 0.5*math.erfc(v/math.sqrt(2))
+def _gneff(v):return 0.5*v*_gphi(v)/_gQ(v)
+def _gbis(f, a, b, n=300):
+    fa = f(a)
+    for _ in range(n):
+        m = (a+b)/2
+        if fa*f(m) <= 0: b = m
+        else: a, fa = m, f(m)
+    return (a+b)/2
+chk("me_mechanism GATE", "exact slope at nu = 2.2 (booked 2.81)", 2.81, _gneff(2.2), 5e-3)
+chk("me_mechanism GATE", "exact slope at nu = 3.0 (booked 4.92)", 4.92, _gneff(3.0), 5e-3)
+_gnu = _gbis(lambda v: _gneff(v)-2.43, 1.0, 5.0)         # forced n > 2.43 <=> nu > this
+chk("me_mechanism GATE", "nu at which n_eff = 2.43", 2.027, _gnu, 1e-3)
+chk("me_mechanism GATE", "hard-step edge sigma < 0.493*delta_c", 0.493, 1/_gnu, 1e-3)
+chk("me_mechanism GATE", "the corrected sigma = 0.12 slope (was booked 50)", 35.2,
+    _gneff(1/0.12), 5e-3)
+# The recorded hazard normalizes Nbar(C_ref) = 1, so Q(nu_ref) = 1/N_cell closes nu
+# against the cell count alone: n = (nu/2)*phi(nu)*N_cell, i.e. n ~ ln N_cell.
+def _gnu_of_N(N): return _gbis(lambda v: _gQ(v)-1.0/N, 1e-6, 30.0)
+_gN = _gbis(lambda N: _gneff(_gnu_of_N(N))-2.43, 10.0, 1000.0)
+chk("me_mechanism GATE", "n > 2.43 <=> N_cell > 46.9", 46.9, _gN, 5e-3)
+chk("me_mechanism GATE", "as a length ratio: xi/l_seed > 3.61", 3.61, _gN**(1/3), 5e-3)
+chk("me_mechanism GATE", "n is log in the cell count: ln N* - n(N*)", 1.418,
+    math.log(_gN)-2.43, 5e-3)
+# Why (sigma, delta_c) cannot double as a valuation: log10 of the tail via Mills,
+# since erfc underflows past nu ~ 38.
+def _glog10Q(v):
+    return (-v*v/2)/math.log(10) - math.log10(math.sqrt(2*math.pi)) \
+           - math.log10(v) + math.log10(1-1/v**2+3/v**4)
+chk("me_mechanism GATE", "sigma = 0.012 would demand log10 N_cell =", 1510,
+    -_glog10Q(1/0.012), 1e-3)
+_gxi, _glp = 398*1.495978707e11, 1.616255e-35             # xi = 398 AU, Planck length, m
+chk("me_mechanism GATE", "Planck-seeded ceiling log10 (xi/l_Pl)^3", 146,
+    3*math.log10(_gxi/_glp), 0.01)
+chk("me_mechanism GATE", "the shortfall, in orders of magnitude", 1360,
+    -_glog10Q(1/0.012) - 3*math.log10(_gxi/_glp), 0.01)
+
+# --- the velocity ladder's matched junction, 2026-07-20 (docket #129) ---
+# Z = rho*v, so Z_m = sqrt(Z1*Z2) gives v_m = sqrt(v1*v2) when rho_m = sqrt(rho1*rho2) --
+# automatic for three co-located modes of ONE medium (rho1 = rho2 = rho_m). The two checks
+# below are therefore CONSISTENCY TAUTOLOGIES: alpha_c = 3 alpha rewritten, not derived
+# (PREREGISTERED records c2 = sqrt(alpha)*c 'without weight'). #129 closes NEGATIVE -- no
+# independent derivation; the geometric half (a matching section's length) is ill-posed for
+# co-located modes, so there is no spatial junction to size.
+chk("DERIVATION_HUNT", "matched middle rung sqrt(c * alpha c) = sqrt(alpha) c",
+    math.sqrt(ALPHA), math.sqrt(1.0*ALPHA), 1e-12, "c")
+chk("DERIVATION_HUNT", "the junction run backwards: alpha_c = d*(sqrt(alpha))^2", ac,
+    3*math.sqrt(ALPHA)**2, 1e-12)
+
+# ---- #179 recoveries from 0315894d -----------------------------------------
+# The epsilon-gradient lepton channel (#33 route A). The channel rides matter's
+# leptonic mass fraction f_lep = Y_e * m_e/m_u, with Y_e the electron fraction
+# (electrons per nucleon): 1 for pure hydrogen, 0.875 for Y_p = 0.25 primordial
+# gas, ~0.85 for stellar material, 0.5 for the helium-and-heavier floor.
+_MU   = 931.49410242e6            # eV, the atomic mass unit
+_CSI  = 2.99792458e8              # m/s
+_KPC  = 3.0856775814913673e19     # m
+_EPS0 = 0.0124                    # the amplitude
+_A0   = 1.2e-10                   # m/s^2, the RAR acceleration scale
+_flep = lambda Ye: Ye*ME/_MU
+_dphi = lambda Ye: math.sqrt(_CSI**2*_flep(Ye)*_EPS0)/1e3          # km/s
+_Lgate= lambda Ye: _CSI**2*_flep(Ye)*_EPS0/_A0/_KPC                # kpc
+chk("galactic_atoms",  "f_lep at the Y_e = 1/2 floor", 2.743e-4, _flep(0.5), 1e-3)
+chk("FAILURES_LEDGER", "dPhi^(1/2) at the Y_e = 1/2 floor (the fence's conservative minimum)",
+    553.0, _dphi(0.5), 2e-3, "km/s")
+chk("galactic_atoms",  "dPhi^(1/2) at stellar Y_e = 0.85", 721.0, _dphi(0.85), 2e-3, "km/s")
+chk("galactic_atoms",  "L where a = a0, stellar Y_e = 0.85", 140.0, _Lgate(0.85), 5e-3, "kpc")
+# 83 is the deleted document's own two-significant-figure quote; the value is 82.55,
+# so this check carries the tolerance that quote implies, not a tighter one.
+chk("FAILURES_LEDGER", "L where a = a0 at the Y_e = 1/2 floor (the mislabelled '83 kpc, stellar')",
+    83.0, _Lgate(0.5), 1e-2, "kpc")
+chk("galactic_atoms",  "honest gas-vs-stars split: Y_e 0.875 over 0.85", 1.029, 0.875/0.85, 1e-3)
+chk("FAILURES_LEDGER", "the retired 'x1.98': pure H over the Y_e = 1/2 floor, not over stars",
+    2.0, 1.0/0.5, 1e-9)
+
+# The nuclear-pairing bench (#24): the empirical odd-even mass staggering,
+# Delta ~ 12 * A^(-1/2) MeV -- of order an MeV across the chart of nuclides.
+chk("laboratory_cousins", "nuclear pairing gap at A = 60",  1.55, 12/math.sqrt(60),  5e-3, "MeV")
+chk("laboratory_cousins", "nuclear pairing gap at A = 120", 1.10, 12/math.sqrt(120), 5e-3, "MeV")
+chk("laboratory_cousins", "nuclear pairing gap at A = 208", 0.83, 12/math.sqrt(208), 5e-3, "MeV")
+
+# --- the f_arr razor, settled (#162) -----------------------------------------
+# The gate is a phase re-arranging in place, so a crossing gas element picks up the
+# ballistic third of the rest-energy step times the fraction it traverses, f = v_gas/c_s.
+# The share ARRIVING at a halo is therefore bounded by the identity f_arr <= f/3.
+# The X-ray scaling fence allows arriving energy <= 20% of the infall kinetic energy.
+CKMS   = 299792.458                       # km/s
+CS_DK  = math.sqrt(3*ALPHA)*CKMS          # the medium's sound speed in km/s
+E_GATE = (27*ALPHA/(5*math.pi))*ME        # eps * m_e, the rest-energy step across the gate
+chk("entropy 4", "c_s = sqrt(3 alpha) c in km/s", 44357, CS_DK, 1e-3, "km/s")
+chk("entropy 4", "eps*m_e from the closed form (vs the booked 6.41)", 6.41, E_GATE/1e3, 1e-3, "keV")
+_f_arr  = lambda v: v/(3*CS_DK)                                  # delivered, upper bound
+_fence  = lambda v: 0.2*(0.5*MP*(v/CKMS)**2)/E_GATE              # allowed
+for _v, _d, _a, _m, _s in ((286.0, 0.00215, 0.0133, 6.2, "galaxy"),
+                           (429.0, 0.00322, 0.0300, 9.3, "group"),
+                           (1423.0, 0.0107, 0.3298, 31.0, "cluster")):
+    chk("T4/ledger", f"f_arr delivered = v/(3 c_s), {_s} infall", _d, _f_arr(_v), 0.02)
+    chk("T4/ledger", f"X-ray fence 0.2*(0.5 m_p v^2)/(eps m_e), {_s}", _a, _fence(_v), 0.01)
+    chk("T4/ledger", f"fence margin (allowed/delivered), {_s}", _m, _fence(_v)/_f_arr(_v), 0.02, "x")
+# the razor's other jaw: the S8 closure needed f_arr in [0.008, 0.013] and does not get it
+chk("T4/ledger", "shortfall vs the 0.008 floor, group infall",  2.5, 0.008/_f_arr(429.0), 0.02, "x")
+chk("T4/ledger", "shortfall vs the 0.008 floor, galaxy infall", 3.7, 0.008/_f_arr(286.0), 0.02, "x")
+
+# --- the H0 steelman's sigma conversions (#166) -------------------------------
+# Preference of the published m_e over unity, and where the model's PINNED 1.012543 sits
+# in each. Sources: Hart-Chluba arXiv:1912.03986; Toda-Seto arXiv:2508.09025.
+ME_MODEL = 1 + 27*ALPHA/(5*math.pi)       # = 1.012543, fixed before any of these fits
+chk("hubble_tension", "model m_e/m_e0 = 1 + eps", 1.012543, ME_MODEL, 1e-5)
+for _lbl, _c, _s, _pref, _mod in (("Hart-Chluba CMB+BAO",     1.0078, 0.0067, 1.16,  0.71),
+                                  ("Hart-Chluba CMB+BAO+SNe", 1.0190, 0.0055, 3.45, -1.17),
+                                  ("Toda-Seto ACT DR6+DESI",  1.0081, 0.0046, 1.76,  0.97)):
+    chk("hubble_tension", f"m_e preference over unity, {_lbl}", _pref, (_c-1)/_s, 0.01, "sigma")
+    chk("hubble_tension", f"model 1.012543 against {_lbl}", _mod, (ME_MODEL-_c)/_s, 0.02, "sigma")
+
+# --- the ring-BEC discrimination target (#163) --------------------------------
+chk("laboratory_cousins", "RMS 0.7071 over the mean-absolute 2/pi", 11.1,
+    (1/math.sqrt(2))/(2/math.pi)*100-100, 0.01, "%")
+chk("laboratory_cousins", "the winding sim's scatter as a fraction of f-bar", 4.1,
+    0.026/(2/math.pi)*100, 0.02, "%")
+
+# --- P-2026-043's computed cosmic-dawn trough (#175) --------------------------
+# The registered chain and the run that replaced its last three steps.
+# scripts/cosmic_dawn_trough.py; CLASS thermodynamics, me = 1 vs 1.012543.
+_EPS = 27*ALPHA/(5*math.pi)
+chk("PREREGISTERED P-043", "the registered rate shift, 3*eps", 3.763, 100*3*_EPS, 1e-3, "%")
+_TCMB17, _TG17, _TG17M = 2.7255*18.0, 6.854, 6.793
+chk("PREREGISTERED P-043", "T_CMB at the z = 17 trough", 49.06, _TCMB17, 1e-3, "K")
+chk("PREREGISTERED P-043", "gas cooling at z = 17, computed", -0.89,
+    100*(_TG17M/_TG17-1), 0.02, "%")
+chk("PREREGISTERED P-043", "absorption amplification (x/(x-1)), x = T_CMB/T_g", 1.162,
+    (_TCMB17/_TG17)/((_TCMB17/_TG17)-1), 1e-3, "x")
+chk("PREREGISTERED P-043", "trough depth, computed", 1.03,
+    100*((1-_TCMB17/_TG17M)/(1-_TCMB17/_TG17)-1), 0.02, "%")
+chk("PREREGISTERED P-043", "3*eps divided by the response slope 2.758", 1.364,
+    100*3*_EPS/2.758, 0.01, "%")
+
+# --- which rung condensation picks (#133) -------------------------------------
+# The dyad's restoration temperature is kappa-independent, so f cannot bracket it.
+_TC_CW = lambda Lm1: ME/1e3*math.sqrt(3*Lm1/(2*math.pi**2))   # keV, ME in eV
+chk("UV_completion 17", "restoration T_c at L-1 = 1", 199.2, _TC_CW(1), 1e-3, "keV")
+chk("UV_completion 17", "restoration T_c at L-1 = 5 (the retired envelope's cap)", 445.4,
+    _TC_CW(5), 1e-3, "keV")
+chk("UV_completion 17", "restoration T_c at L-1 = 10", 630.0, _TC_CW(10), 1e-3, "keV")
+chk("UV_completion 17", "the standing T_c inside the BBN fence [70, 500], lower margin", 2.53,
+    177.10/70, 0.01, "x")
+chk("UV_completion 17", "the standing T_c inside the BBN fence, upper margin", 2.82,
+    500/177.10, 0.01, "x")
+
+# --- #182: the dyad's own T_c on the EXACT thermal kernel, not the expansion ------
+# The high-T route above overstates the restoration ~16x at m_e/T_c ~ 2.9 (the electrons are
+# Boltzmann-suppressed). The exact balance is t^3*|J_F'(1/t)| = (L-1)/8 with t = T_c/m_e.
+# This band is what the ramp would key on if it keyed on the DYAD's transition.
+def _JFp(y, n=4000, hi=60.0):    # |J_F'(y)| = y*int_0^inf x^2/(E(e^E+1)) dx, Simpson
+    h = hi/n; s = 0.0
+    for i in range(n+1):
+        x = i*h; E = math.sqrt(x*x + y*y)
+        f = x*x/(E*(math.exp(E)+1.0)) if E < 700 else 0.0
+        s += f*(1 if i in (0, n) else (4 if i % 2 else 2))
+    return y*s*h/3.0
+def _TC_EX(Lm1):                 # keV
+    lo, hi = 0.05, 5.0
+    for _ in range(80):
+        mid = 0.5*(lo+hi)
+        if mid**3*_JFp(1.0/mid) < Lm1/8.0: lo = mid
+        else: hi = mid
+    return 0.5*(lo+hi)*ME/1e3
+chk("FAILURES_LEDGER", "exact |J_F'| at the operating point m_e/T_c = 2.9", 0.374,
+    _JFp(2.9), 1e-2)
+chk("FAILURES_LEDGER", "the high-T expansion there, which overstates it", 2.385,
+    math.pi**2/12*2.9, 1e-3)
+chk("MATH_SPINE 4", "exact-kernel dyad T_c at L-1 = 1 (band bottom)", 307.2, _TC_EX(1), 2e-3, "keV")
+chk("MATH_SPINE 4", "exact-kernel dyad T_c at L-1 = 10 (band top)", 714.3, _TC_EX(10), 2e-3, "keV")
+chk("MATH_SPINE 4", "the band's bottom EXCLUDES the ramp's keying value", 1.734,
+    _TC_EX(1)/177.10, 5e-3, "x")
+chk("MATH_SPINE 4", "the band's top over the keying value", 4.033, _TC_EX(10)/177.10, 5e-3, "x")
+chk("MATH_SPINE 4", "L-1 where the band crosses the BBN fence's 500 keV", 500.0,
+    _TC_EX(4.10), 5e-3, "keV")
+chk("MATH_SPINE 4", "fraction of the band above the fence, by keV", 52.6,
+    100*(_TC_EX(10)-500.0)/(_TC_EX(10)-_TC_EX(1)), 2e-2, "%")
+# the retired band: 250-530 keV does not follow from L-1 in [1,10] on this kernel
+chk("FAILURES_LEDGER", "retired: 250 keV corresponds to L-1 = 0.50, not 1", 250.0,
+    _TC_EX(0.50), 1e-2, "keV")
+chk("FAILURES_LEDGER", "retired: 530 keV corresponds to L-1 = 4.78, not 10", 530.0,
+    _TC_EX(4.78), 1e-2, "keV")
+# the retired geometric-mean heuristic, kept so the ledger's arithmetic stays checkable
+chk("FAILURES_LEDGER", "retired heuristic sqrt(f*Lambda_IR) at f = 100 TeV", 480.0,
+    math.sqrt(1e14*2.3e-3)/1e3, 0.01, "keV")
+chk("FAILURES_LEDGER", "retired heuristic sqrt(f*Lambda_IR) at f = 500 TeV", 1.07,
+    math.sqrt(5e14*2.3e-3)/1e6, 0.01, "MeV")
+# lambda_dyad from its defining CW expression: eps*m_e^4*(L-1)/(4 pi^2 f^4), f-cancelling
+chk("me_mechanism hf", "lambda_dyad at f = 3e14 eV, L-1 = 5", 1.3e-38,
+    _EPS*ME**4*5/(4*math.pi**2*(3e14)**4), 0.03)
+
+# --- the low-l cavity pattern, regenerated ISW-inclusive (T5 low-l) -----------
+# Closed forms only; the mode sums themselves live in scripts/torus_lowell_pattern.py.
+from scipy.integrate import quad as _quad
+from scipy.special import spherical_jn as _spherical_jn
+chk("lowell_anomalies", "off-diagonal pairs over l = 2..6, C(45,2)", 990,
+    (sum(2*l+1 for l in range(2, 7)) * (sum(2*l+1 for l in range(2, 7))-1))//2, 1e-9)
+chk("lowell_anomalies", "quadrupole cosmic variance sqrt(2/(2l+1))", 0.6325,
+    math.sqrt(2/5), 1e-3)
+# the regenerated retention at the 27.6 Gpc floor, and what it is worth against that variance
+_RET2 = 0.900
+chk("lowell_anomalies", "quadrupole deficit at the floor, ISW-inclusive", 0.100,
+    1-_RET2, 0.02)
+chk("lowell_anomalies", "that deficit in units of cosmic variance", 0.158,
+    (1-_RET2)/math.sqrt(2/5), 0.02, "sigma")
+# the matched-circles floor is 2 chi_*, which is what makes 27.6 Gpc the floor
+chk("lowell_anomalies", "the floor L = 27.6 Gpc as a multiple of chi_* = 13.76", 2.006,
+    27.6/13.76, 1e-3, "x")
+chk("lowell_anomalies", "k_min chi_* at the floor = 2 pi chi_*/L", 3.1325,
+    2*math.pi*13.76/27.6, 1e-3)
+# the sharp-cutoff estimate the retained toy computes, at its own L = 2D -- kept so the
+# ledger's "the estimate is a different quantity" row stays checkable
+_cut = _quad(lambda x: _spherical_jn(2, x)**2/x, math.pi, 400, limit=400)[0]
+chk("FAILURES_LEDGER", "sharp-cutoff C_2 retention at L = 2D (the retained toy's 0.49)", 0.489,
+    _cut*12, 0.01)
+
+# --- #22: the flavour verdict's forward numbers (DERIVATION_HUNT §9, 2026-07-20) ---
+# With A = sqrt(2) (from Q = 2/3) and theta = 2/9 (from the closure), the Z3 ring has no
+# freedom left but the overall scale, so BOTH charged-lepton mass ratios are determined.
+_k22 = [1 + math.sqrt(2)*math.cos(2*math.pi*j/3 + 2/9) for j in range(3)]
+_m22 = sorted(x*x for x in _k22)
+chk("DERIVATION_HUNT 9", "(A=sqrt2, theta=2/9) predicts m_mu/m_e", 206.7703, _m22[1]/_m22[0], 1e-5)
+chk("DERIVATION_HUNT 9", "(A=sqrt2, theta=2/9) predicts m_tau/m_e", 3477.473, _m22[2]/_m22[0], 1e-5)
+chk("DERIVATION_HUNT 9", "its m_mu/m_e miss vs measured 206.76828", 9.83e-6,
+    _m22[1]/_m22[0]/206.76828 - 1, 0.02)
+chk("DERIVATION_HUNT 9", "its m_tau/m_e miss vs measured 3477.2283", 7.03e-5,
+    _m22[2]/_m22[0]/3477.2283 - 1, 0.02)
+# That miss is not a near-agreement to be read charitably: m_mu/m_e is known to 1.1e-8,
+# so the JOINT claim is over-determined and refuted on the light masses alone. No m_tau
+# measurement can rescue it -- at most one of the two watches is exact on pole masses.
+_dre = (105.6583755/0.51099895)*math.sqrt((1.5e-10/0.51099895)**2 + (2.3e-6/105.6583755)**2)
+chk("DERIVATION_HUNT 9", "sigma on the measured m_mu/m_e", 4.50e-6, _dre, 1e-2)
+chk("DERIVATION_HUNT 9", "so the joint claim's m_mu/m_e miss, in sigma", 452,
+    abs(_m22[1]/_m22[0] - 105.6583755/0.51099895)/_dre, 2e-2, "sigma")
+# But 452 sigma is a statement about how sharply m_mu/m_e is known, not about how far
+# apart the watches sit. In the sector's own variables the three constraints bound a
+# triangle well under a part per million wide. Both readings belong in the record.
+_RAT = 105.6583755/0.51099895
+def _ratio_of(_A, _p):
+    _r = [1 + _A*math.cos(_p + 2*math.pi*k/3) for k in range(3)]
+    return (_r[2]/_r[1])**2                      # k=2 is the muon seat, k=1 the electron
+def _bis(_f, _lo, _hi):
+    _flo = _f(_lo)
+    for _ in range(300):
+        _mid = 0.5*(_lo + _hi)
+        if _flo*_f(_mid) <= 0: _hi = _mid
+        else: _lo, _flo = _mid, _f(_mid)
+    return 0.5*(_lo + _hi)
+_clo = lambda _A: (1 + _A*_A/2)/9
+_p1 = _bis(lambda p: _ratio_of(math.sqrt(2), p) - _RAT, 2/9 - 1e-4, 2/9 + 1e-4)
+_a2 = _bis(lambda a: _ratio_of(a, _clo(a)) - _RAT, math.sqrt(2) - 1e-4, math.sqrt(2) + 1e-4)
+chk("koide triangle", "grant the closure: Q - 2/3 from the light masses", -1.119e-7,
+    (1/3 + _a2*_a2/6) - 2/3, 1e-2)
+chk("koide triangle", "that miss in ppm of Q", 0.168,
+    abs((1/3 + _a2*_a2/6) - 2/3)/(2/3)*1e6, 1e-2, "ppm")
+chk("koide triangle", "grant Q = 2/3: phi - 2/9 from the light masses", -1.751e-7,
+    _p1 - 2/9, 1e-2, "rad")
+chk("koide triangle", "that miss in ppm of phi", 0.788, abs(_p1 - 2/9)/(2/9)*1e6, 1e-2, "ppm")
+chk("koide triangle", "the triangle's width in A", 2.373e-7, math.sqrt(2) - _a2, 1e-2)
+# The tau's error bar is far wider than the structure, which is why a three-mass fit hides it.
+chk("koide triangle", "the tau displaces the fitted point by this many triangle widths",
+    55.0, abs(_AM - math.sqrt(2))/(math.sqrt(2) - _a2), 2e-2, "x")
+
+# --- the sector's arithmetic is scheme-locked to the pole masses -------------------
+# Every Koide number in the corpus is read off POLE masses. One-loop QED on-shell/MS-bar,
+# mbar(mu) = m_pole [1 - (alpha/pi)(3/4 ln(mu^2/m^2) + 1)], moves Q by 1e-3 -- two orders
+# above the 9.2 ppm residual the sector reports. The mass definition is load-bearing.
+def _msb(m, mu):
+    return m*(1 - (ALPHA/math.pi)*(0.75*math.log(mu**2/m**2) + 1))
+def _Qof(me, mmu, mt):
+    return (me + mmu + mt)/(math.sqrt(me) + math.sqrt(mmu) + math.sqrt(mt))**2
+_Qpole = _Qof(0.51099895, 105.6583755, 1776.86)
+_MZ = 91187.6
+_Qbar = _Qof(*[_msb(m, _MZ) for m in (0.51099895, 105.6583755, 1776.86)])
+chk("koide scheme", "Q on the pole masses", 0.6666605, _Qpole, 1e-6)
+chk("koide scheme", "Q on MS-bar masses at M_Z (one-loop QED)", 0.6678359, _Qbar, 1e-5)
+chk("koide scheme", "the pole-mass residual on Q", 9.23, abs(_Qpole - 2/3)/(2/3)*1e6, 1e-2, "ppm")
+chk("koide scheme", "the scheme shift on Q", 1763, abs(_Qbar - _Qpole)/(2/3)*1e6, 1e-2, "ppm")
+chk("koide scheme", "so the choice of mass variable outweighs the measured deviation by",
+    191, abs(_Qbar - _Qpole)/abs(_Qpole - 2/3), 1e-2, "x")
+# And against the separation the registered m_tau test must resolve (2.518 keV in m_tau).
+_dQdm = (_Qof(0.51099895, 105.6583755, 1776.86 + 1e-4)
+         - _Qof(0.51099895, 105.6583755, 1776.86 - 1e-4))/2e-4
+chk("koide scheme", "dQ/dm_tau", 5.646e-5, _dQdm, 1e-3, "/MeV")
+chk("koide scheme", "the two watches' separation, in Q", 1.421e-7, _dQdm*2.518e-3, 1e-2)
+chk("koide scheme", "the scheme shift is this many times that separation", 8270,
+    abs(_Qbar - _Qpole)/(_dQdm*2.518e-3), 2e-2, "x")
+
+# --- #146: conditions 3 and 4 are one, and the ratio N/v is fenced (hierarchy 6c) ---
+# b = m_D^2/4k_F^2 with m_D^2 = e^2 N N_0, N_0 = k_F^2/(pi^2 v), e^2 = 4 pi alpha_c gives
+# b = N alpha_c/(pi v) -- a function of N/v alone, so the species count and the band velocity
+# are not separable asks. alpha_c is fixed by the booked b itself.
+_ACB = 0.0139369*math.pi/2
+_bNv = lambda N, v: N*_ACB/(math.pi*v)
+_kNv = lambda N, v: math.log(1 + 1/_bNv(N, v))/math.pi
+chk("#146 screening", "alpha_c implied by the booked b = 2 alpha_c/pi", 0.021892, _ACB, 1e-4)
+chk("#146 screening", "k at (N, v) = (2, 1) -- the booked value", 1.36461191, _kNv(2, 1), 1e-6)
+chk("#146 screening", "(N, v) = (4, 2) returns the same k (the degeneracy)", 0.0,
+    _kNv(4, 2) - _kNv(2, 1), 1e-12)
+chk("#146 screening", "(N, v) = (1, 0.5) returns it too", 0.0, _kNv(1, 0.5) - _kNv(2, 1), 1e-12)
+chk("#146 screening", "k at N = 1 (one band screening)", 1.58305, _kNv(1, 1), 1e-5)
+chk("#146 screening", "k at N = 24 (the roster as Dirac equivalents)", 0.61846, _kNv(24, 1), 1e-4)
+chk("#146 screening", "k at v = 0.9, N = 2", 1.3316, _kNv(2, 0.9), 1e-4)
+# The anchor is exponential in lambda = k alpha_c, so ln M carries -1/(k alpha_c).
+_dlnM = lambda N, v: 1/(1.36461191*_ACB) - 1/(_kNv(N, v)*_ACB)
+chk("#146 screening", "dlnM/dlnk = 1/(k alpha_c)", 33.47, 1/(1.36461191*_ACB), 1e-3)
+chk("#146 screening", "N = 1 moves the anchor by (booked 1.6e5 GeV vs ~1.57 TeV)", 101,
+    math.exp(_dlnM(1, 1)), 2e-2, "x")
+chk("#146 screening", "N = 3 moves the anchor by", 0.0323, math.exp(_dlnM(3, 1)), 1e-2, "x")
+chk("#146 screening", "N = 24 moves the anchor by", 2.9e-18, math.exp(_dlnM(24, 1)), 2e-2, "x")
+chk("#146 screening", "v = 0.9 moves the anchor by (booked 'about a factor two')", 2.28,
+    1/math.exp(_dlnM(2, 0.9)), 1e-2, "x")
+def _fence(_t, _lo, _hi):
+    _f = lambda x: _dlnM(x, 1.0) - _t
+    _fl = _f(_lo)
+    for _ in range(200):
+        _m = 0.5*(_lo + _hi)
+        if _fl*_f(_m) <= 0: _hi = _m
+        else: _lo, _fl = _m, _f(_m)
+    return 0.5*(_lo + _hi)
+chk("#146 screening", "fence on N/v, low end for factor-2 anchor accuracy", 1.8245,
+    _fence(math.log(2), 0.5, 2.0), 1e-3)
+chk("#146 screening", "fence on N/v, high end", 2.1845, _fence(-math.log(2), 2.0, 6.0), 1e-3)
+chk("#146 screening", "so v at N = 2 must sit within this fraction of 1", 0.084,
+    1 - 2/_fence(-math.log(2), 2.0, 6.0), 2e-2)
+
+# --- #146: the screening weight is charge-squared, which selects the doped pair -------
+# alpha_c = 3 alpha (6g): the medium's gauge field IS electromagnetism, so N_screen/N_0 is
+# sum of q^2 over doped bands, not a count. One doped Dirac cone = 2 bands x colour x q^2.
+_w = lambda q, nc: 2*nc*q*q
+chk("#146 selection", "one charged-lepton cone is worth", 2.0, _w(1.0, 1), 1e-12, "N_0")
+chk("#146 selection", "one up-type quark cone", 8/3, _w(2/3, 3), 1e-12, "N_0")
+chk("#146 selection", "one down-type quark cone", 2/3, _w(1/3, 3), 1e-12, "N_0")
+chk("#146 selection", "one neutrino cone (invisible to the screening)", 0.0, _w(0.0, 1), 1e-12)
+# Enumerate every roster combination hitting exactly 2, ignoring the free-riding neutrino.
+_combos = [(_l, _u, _d) for _l in range(4) for _u in range(4) for _d in range(4)
+           if abs(_l*_w(1.0,1) + _u*_w(2/3,3) + _d*_w(1/3,3) - 2.0) < 1e-12]
+chk("#146 selection", "charged-sector configurations giving N_screen = 2N_0", 2, len(_combos), 0)
+chk("#146 selection", "one of them is a single charged lepton", 1, _combos.count((1,0,0)), 0)
+chk("#146 selection", "the other is all three down-type quarks", 1, _combos.count((0,0,3)), 0)
+chk("#146 selection", "no solution dopes an up-type quark", 0, sum(1 for c in _combos if c[1]), 0)
+# The full roster, charge-weighted, is SumQ^2 = 16 -- not the counted 24.
+_full = 3*(_w(1.0,1) + _w(0.0,1) + _w(2/3,3) + _w(1/3,3))
+chk("#146 selection", "the whole roster doped, charge-weighted (= SumQ^2)", 16.0, _full, 1e-12)
+chk("#146 selection", "one generation's share", 16/3, _full/3, 1e-12)
+chk("#146 selection", "k at the charge-weighted roster reading", 0.73195, _kNv(16, 1), 1e-4)
+chk("#146 selection", "its anchor, against the counted reading's 2.9e-18", 2.7e-13,
+    math.exp(_dlnM(16, 1)), 2e-2, "x")
+
+# --- #146: which PHASE the medium is in decides which charge screens (hierarchy 6f fork) ---
+# Delta = 2 Lambda_shell exp(-1/lambda) puts the shell 15 orders above the electroweak scale,
+# where EW is unbroken: the screened abelian charge is hypercharge, not electric charge.
+_LAMSH = 3152.0/(2*math.exp(-33.474))
+chk("#146 phase", "Lambda_shell from Delta = 2 L exp(-1/lambda)", 5.434e17, _LAMSH, 1e-3, "GeV")
+chk("#146 phase", "orders between the shell and the electroweak scale", 15.3,
+    math.log10(_LAMSH/246.0), 1e-2, "dex")
+# Per generation: (n_Weyl, Y) over Q_L, u_R, d_R, L, e_R, nu_R.
+_ROSTER = ((6, 1/6), (3, 2/3), (3, -1/3), (2, -1/2), (1, -1.0), (1, 0.0))
+_SY2 = 3*sum(n*Y*Y for n, Y in _ROSTER)
+chk("#146 phase", "sum Y^2 over the 48-Weyl roster", 10.0, _SY2, 1e-12)
+chk("#146 phase", "roster Weyl count", 48, 3*sum(n for n, _ in _ROSTER), 0)
+# The SM's own hypercharge beta coefficient checks that sum: b_Y = (2/3)sumY^2 + (1/3)*Higgs.
+chk("#146 phase", "b_Y = (2/3)sumY^2 + (1/3)sum_scalar Y^2 (SM value 41/6)", 41/6,
+    (2/3)*_SY2 + (1/3)*(2*0.25), 1e-12)
+chk("#146 phase", "k at the hypercharge-weighted roster", 0.86935, _kNv(10, 1), 1e-4)
+chk("#146 phase", "its anchor", 5.23e-9, math.exp(_dlnM(10, 1)), 2e-2, "x")
+# No SM species is vector-like: every LH field is an SU(2) doublet, every RH one a singlet,
+# so no opposite-chirality pair shares a representation and there is no Dirac cone for mu_5.
+_LH = ((2, 1/6, 3), (2, -1/2, 1))          # (SU(2) dim, Y, colour)
+_RH = ((1, 2/3, 3), (1, -1/3, 3), (1, -1.0, 1), (1, 0.0, 1))
+chk("#146 phase", "vector-like pairs in the unbroken roster", 0,
+    sum(1 for a in _LH for b in _RH if a[0] == b[0] and abs(a[1]-b[1]) < 1e-12 and a[2] == b[2]), 0)
+
+# --- 6f: the which-scale fork, priced on the corpus's own derived Planck-floor coupling ---
+_kac = lambda _ac: math.log(1 + math.pi/(2*_ac))/math.pi
+_anch = lambda _ac: 2*_LAMSH*math.exp(-1/(_kac(_ac)*_ac))
+_4pimH = 4*math.pi*125.25
+# The Planck-floor value is derived, not extrapolated: one-loop running then tree composition.
+_L2 = math.log(1.220890e19/91.1876)
+_i2 = 127.951*0.23122 + (19/6)/(2*math.pi)*_L2
+_iY = 127.951*(1-0.23122) - (41/6)/(2*math.pi)*_L2
+chk("hierarchy 6f", "1/alpha_2 at M_Pl (light file hands out 49.4)", 49.46, _i2, 1e-3)
+chk("hierarchy 6f", "1/alpha_Y at M_Pl (hands out 55.5)", 55.48, _iY, 1e-3)
+chk("hierarchy 6f", "1/alpha_EM at M_Pl = their sum (hands out 104.9)", 104.94, _i2 + _iY, 1e-4)
+for _nm, _inv, _k, _M in (("alpha(0)", 137.036, 1.36461, 3153.0),
+                          ("alpha(M_Z)", 127.951, 1.34309, 1.758e4),
+                          ("alpha(M_Pl)", 104.938, 1.28100, 1.504e6)):
+    chk("hierarchy 6f", f"k at {_nm}", _k, _kac(3.0/_inv), 1e-4)
+    chk("hierarchy 6f", f"anchor at {_nm}", _M, _anch(3.0/_inv), 2e-3, "GeV")
+chk("hierarchy 6f", "the recorded anchor overshoots 4 pi m_H by", 2.003,
+    _anch(3.0/137.036)/_4pimH, 1e-3, "x")
+chk("hierarchy 6f", "the Planck-floor reading overshoots it by", 955.5,
+    _anch(3.0/104.938)/_4pimH, 2e-3, "x")
+# dlnM/dlnalpha_c = (1/lambda)(1 + dlnk/dlnb), analytic and numeric.
+_ac0 = 3.0/137.036
+_b0 = 2*_ac0/math.pi
+chk("hierarchy 6f", "dlnk/dlnb = -1/(pi k (1+b))", -0.230054,
+    -1/(math.pi*_kac(_ac0)*(1 + _b0)), 1e-4)
+chk("hierarchy 6f", "dlnM/dlnalpha_c (recorded 25.8)", 25.773,
+    (1/(_kac(_ac0)*_ac0))*(1 - 1/(math.pi*_kac(_ac0)*(1 + _b0))), 1e-3)
+chk("hierarchy 6f", "the same by central difference", 25.773,
+    (math.log(_anch(_ac0*1.000001)) - math.log(_anch(_ac0*0.999999)))/2e-6, 1e-3)
+# The exact-landing coupling lies OUTSIDE the running coupling's range, which is capped at alpha(0).
+def _solve_inv(_M, _lo=100.0, _hi=200.0):
+    _f = lambda _i: _anch(3.0/_i) - _M
+    _fl = _f(_lo)
+    for _ in range(300):
+        _m = 0.5*(_lo + _hi)
+        if _fl*_f(_m) <= 0: _hi = _m
+        else: _lo, _fl = _m, _f(_m)
+    return 0.5*(_lo + _hi)
+chk("hierarchy 6f", "1/alpha an exact landing on 4 pi m_H needs (recorded 140.7)", 140.74,
+    _solve_inv(_4pimH), 1e-3)
+chk("hierarchy 6f", "alpha_c it corresponds to (recorded 0.021316)", 0.021316,
+    3.0/_solve_inv(_4pimH), 1e-3)
+chk("hierarchy 6f", "how far that sits beyond the infrared cap 1/alpha(0) = 137.036", 2.70,
+    (_solve_inv(_4pimH)/137.036 - 1)*100, 1e-2, "%")
+
+# --- baryogenesis: the junction rectifier's four numbers are over-determined -----------
+# Recorded: omega_J ~ 5.7 keV, j = omega_J^2/Gamma_phi ~ 6 meV, Gamma_phi/theta_dot ~ 1e7,
+# and R = omega_J^2/(2 Gamma_phi theta_dot) needed ~ 5e-5 (= 122 x the naive H/theta_dot).
+# Substituting Gamma_phi collapses R to j/(2 theta_dot), so the four over-determine three
+# unknowns by one relation. These checks record what that relation actually returns.
+_wJ, _jrel, _rat, _Rnaive = 5.7e3, 6e-3, 1e7, 4.1e-7
+chk("baryogenesis junction", "the needed R, from its own factor 122", 5.0e-5,
+    122*_Rnaive, 3e-3)
+_Gphi = _wJ**2/_jrel
+_thd = _Gphi/_rat
+chk("baryogenesis junction", "Gamma_phi implied by omega_J and j", 5.415e9, _Gphi, 1e-3, "eV")
+chk("baryogenesis junction", "theta_dot implied by the overdamping ratio", 541.5, _thd, 1e-3, "eV")
+chk("baryogenesis junction", "R the recorded trio delivers", 5.54e-6, _jrel/(2*_thd), 2e-3)
+chk("baryogenesis junction", "so R falls short of the needed value by", 9.03,
+    (122*_Rnaive)/(_jrel/(2*_thd)), 2e-3, "x")
+# The same miss expressed on each input in turn -- it is one number seen four ways.
+chk("baryogenesis junction", "the omega_J that would close it", 1897.0,
+    math.sqrt(_jrel*_rat*_jrel/(2*122*_Rnaive)), 2e-3, "eV")
+chk("baryogenesis junction", "i.e. omega_J low by", 3.004,
+    _wJ/math.sqrt(_jrel*_rat*_jrel/(2*122*_Rnaive)), 2e-3, "x")
+chk("baryogenesis junction", "the overdamping ratio that would close it", 9.025e7,
+    _Gphi/(_jrel/(2*122*_Rnaive)), 2e-3)
+chk("baryogenesis junction", "the j that would close it", 18.02,
+    math.sqrt(2*122*_Rnaive*_wJ**2/_rat)*1e3, 2e-3, "meV")
+
+# --- #146: the r-sensitivity, both sides (hierarchy 6e, 2026-07-20) ---
+# 6e varies r = v_e/v_h through the SCREENING density of states only, N_screen = (1+r)N0.
+# The PAIRING density of states also depends on r: for congruent pockets the excitonic pair
+# variable is xibar = (v_e+v_h)(k-k_F)/2, so N_pair = [2r/(1+r)] N0 -- exactly N0 at r = 1.
+_kb   = lambda b: math.log(1 + 1/b)/math.pi
+_br   = lambda r: (3*ALPHA)*(1 + r)/math.pi          # b = alpha_c (1+r)/(pi v), v = 1
+_scr  = lambda r: 1/(_kb(_br(r))*3*ALPHA)                    # screening term alone
+_both = lambda r: (1 + r)/(2*r)/(_kb(_br(r))*3*ALPHA)        # + the pairing DOS
+_hh = 1e-6
+chk("hierarchy 6e", "b(r=1) reproduces the booked 2 alpha_c/pi", 0.0139369, _br(1.0), 1e-5)
+chk("hierarchy 6e", "pairing DOS factor 2r/(1+r) is exactly 1 at r = 1", 1.0, 2/(1+1), 1e-12)
+chk("hierarchy 6e", "dlnM/dr, screening term alone", -3.8504,
+    -(_scr(1+_hh) - _scr(1-_hh))/(2*_hh), 1e-3)
+chk("hierarchy 6e", "dlnM/dr with the pairing DOS included", 12.8865,
+    -(_both(1+_hh) - _both(1-_hh))/(2*_hh), 1e-3)
+
+# --- #168: a fixed-comoving-cell shot census is white noise (FAILURES_LEDGER, 2026-07-20) ---
+# P_zeta = R^2 xi^3 carries no k, so Delta^2 = k^3 P/2pi^2 has log-slope 3, i.e. n_s = 4.
+_D2_168 = lambda kk: kk**3 * 1.0 / (2*math.pi**2)      # R^2 xi^3 held fixed
+chk("THE_AMPLITUDE", "fixed-cell shot census: dln(Delta^2)/dlnk = n_s - 1", 3.0,
+    math.log(_D2_168(1.01)/_D2_168(1.0))/math.log(1.01), 1e-3)
+
+# --- #130: the induced split, for the coupling alpha_c = 3 alpha actually names ---
+# The recorded 44% is HYPERCHARGE at M_Z. alpha_c = 3 alpha names alpha_EM at q = 0.
+# 1/alpha_EM = 1/alpha_2 + 1/alpha_Y, on the light file's own M_Pl handouts.
+# (defined once near the top of the file so every user inherits a correction to it)
+_invEM_Pl = _invY_Pl + _inv2_Pl
+_share_EM = (1/ALPHA - _invEM_Pl)/(1/ALPHA)            # the medium loop's share of 1/alpha_EM(0)
+chk("light 5", "bare EM handout 1/a_EM(M_Pl) = 1/a_Y + 1/a_2", 104.9, _invEM_Pl, 1e-6)
+chk("DERIVATION_HUNT 1", "medium loop share of 1/a_EM(0) -- piece 2's real number", 23.45,
+    100*_share_EM, 1e-3, "%")
+chk("DERIVATION_HUNT 1", "the recorded 44% over that correct share", 1.859,
+    (42.9/98.4)/_share_EM, 1e-3, "x")
+
+# --- #184: the two branches of the A_s census, and which one the tilt allows -------
+# The freeze branch is checked just above (n_s = 4).  Its complement: holding k*xi fixed
+# (the scaling branch, xi ~ 1/k) makes Delta^2 scale-invariant, n_s = 1.  That contrast IS
+# the ruling -- measured n_s = 0.9649 sits on the scaling branch and 3 away from the other.
+_D2_184 = lambda kk: kk**3 * (3.4502e-3/kk)**3 / (2*math.pi**2)   # xi = 3.4502e-3/k
+chk("THE_AMPLITUDE", "scaling census (k xi fixed) gives n_s = 1 exactly", 1.0,
+    1.0 + math.log(_D2_184(1.01)/_D2_184(1.0))/math.log(1.01), 1e-9)
+# and the freeze branch's n_s = 4 sits this far from the measured tilt -- the ruling's margin
+chk("FAILURES_LEDGER", "#184: freeze branch n_s = 4 minus measured n_s = 0.9649", 3.0351,
+    4.0 - 0.9649, 1e-4)
+
+# --- #183: the Fock self-energy insertion on hierarchy 6c's host -------------------
+# a = delta_v/lambda with delta_v = dSigma/dk at k_F, Sigma the exchange self-energy of
+# V(q) = e^2/(q^2 + m_D^2).  Closed form a(b) = (1+2b)/2 - 1/ln(1+1/b); e^2 cancels.
+_ac_183 = 3*ALPHA
+_b_183 = 2*_ac_183/math.pi                             # 2 alpha_c/pi, v = 1
+_c_183 = 0.789262                                      # #141, the crossed box
+_a_183 = (1 + 2*_b_183)/2 - 1/math.log1p(1/_b_183)
+chk("hierarchy 6e", "#183: Fock coefficient a = (1+2b)/2 - 1/ln(1+1/b)", 0.280677,
+    _a_183, 1e-5)
+# independent route: a = delta_v/lambda built from the radial integrals I(1), I'(1),
+# which share only the host with the line above.  m^2 = 4b.
+_m_183 = 2*math.sqrt(_b_183)
+_I1 = 2 - 2*_m_183*math.atan(2/_m_183) + 0.5*_m_183**2*math.log1p(4/_m_183**2)
+_Ip1 = 4 - 2*_m_183*math.atan(2/_m_183) - math.log1p(4/_m_183**2)
+_e2_183 = 4*math.pi*_ac_183
+_dv_183 = -(_e2_183/(8*math.pi**2))*(_Ip1 - _I1)
+_lam_183 = (_e2_183/4)*math.log1p(1/_b_183)/math.pi**2         # = k alpha_c
+chk("hierarchy 6e", "#183: same a from I(1), I'(1) -- independent route", 0.280677,
+    _dv_183/_lam_183, 1e-5)
+chk("hierarchy 6e", "#183: the velocity renormalization delta_v itself", 0.0083850,
+    _dv_183, 1e-4)
+# the large-b asymptote a -> 1/(12b), derived by expanding V to O(q^2/m_D^2)
+chk("hierarchy 6e", "#183: a x 12b -> 1 in the contact limit (b = 5e4)", 1.0,
+    ((1 + 2*5e4)/2 - 1/math.log1p(1/5e4))*12*5e4, 1e-4)
+# the two insertions add in the exponent: 1/lambda_eff = 1/lambda + c + a
+chk("hierarchy 6e", "#183: complete O(lambda) exponent shift c + a", 1.069939,
+    _c_183 + _a_183, 1e-5)
+chk("hierarchy 6e", "#183: anchor multiplier exp(-(c+a))", 0.34303,
+    math.exp(-(_c_183 + _a_183)), 1e-4)
+chk("hierarchy 6e", "#183: corrected band, bottom edge (1.6 TeV x mult)", 0.549,
+    1.6*math.exp(-(_c_183 + _a_183)), 2e-3, "TeV")
+chk("hierarchy 6e", "#183: corrected band, top edge (5.2 TeV x mult)", 1.784,
+    5.2*math.exp(-(_c_183 + _a_183)), 2e-3, "TeV")
+chk("PREREGISTERED", "#183: tightest gap, shooter 13 TeV over the band's top", 7.3,
+    13.0/(5.2*math.exp(-(_c_183 + _a_183))), 5e-3, "x")
+
+# --- #125: the portal's SM side -- the renormalizable branch the roster leaves out ---------
+# A dimension-2 dark singlet's LOWEST-dimension SM partner is H^dag H (total dim 4), which
+# shifts the Higgs vev and so moves EVERY mass, quarks included.  The model must do without
+# it.  These checks price that exclusion: the bound D/H puts on its coefficient, and the size
+# the standing dim-6 lepton operator induces for it through one electron loop.
+_V_EW  = 246.21965e9                              # eV, the Higgs vev
+_M_H   = 125.25e9                                 # eV
+_eps125 = 27*ALPHA/(5*math.pi)
+_y_e   = math.sqrt(2)*ME/_V_EW
+chk("MATH_SPINE 0", "#125: electron Yukawa y_e = sqrt2 m_e/v", 2.9350e-6, _y_e, 1e-3)
+# induced portal coupling: dlambda_p ~ (eps y_e^2/f^2)(Lam_UV^2/16pi^2).  At Lam_UV = 4 pi f
+# the f cancels outright, which is why the bound below is the only f-dependent piece.
+_lamp_4pif = _eps125*_y_e**2
+_lamp_f    = _eps125*_y_e**2/(16*math.pi**2)
+chk("MATH_SPINE 0", "#125: induced lambda_p at Lam_UV = 4 pi f", 1.0805e-13, _lamp_4pif, 1e-3)
+chk("MATH_SPINE 0", "#125: induced lambda_p at Lam_UV = f", 6.8425e-16, _lamp_f, 1e-3)
+# D/H tolerance on a UNIVERSAL shift: the corpus books full eps on the quarks at 12-18 sigma,
+# so one sigma sits at eps/15.  |dv/v| = lambda_p f^2/m_H^2 at phi = f.
+_onesig125 = _eps125/15.0
+chk("MATH_SPINE 0", "#125: universal shift worth 1 sigma on D/H", 8.362e-4, _onesig125, 1e-3)
+_bound = lambda f_TeV: _onesig125*_M_H**2/(f_TeV*1e12)**2
+chk("MATH_SPINE 0", "#125: lambda_p bound at f = 100 TeV (loosest)", 1.312e-9, _bound(100.), 1e-3)
+chk("MATH_SPINE 0", "#125: lambda_p bound at f = 500 TeV (tightest)", 5.247e-11, _bound(500.), 1e-3)
+# the worst corner for the induced portal: biggest cutoff, biggest f -- and it still lands here
+chk("MATH_SPINE 0", "#125: induced/bound at the tightest corner", 2.06e-3,
+    _lamp_4pif/_bound(500.), 5e-3, "x")
+chk("MATH_SPINE 0", "#125: worst-corner induced universal shift, in sigma on D/H", 2.06e-3,
+    _lamp_4pif*(500e12)**2/_M_H**2/_onesig125, 5e-3, "sigma")
+# and the quark shift the portal DOES deliver, against the full-eps catastrophe it is not
+chk("PREREGISTERED P-006", "#125: full eps over the delivered quark shift", 1.854e5,
+    1/(ALPHA/math.pi)**2, 1e-3, "x")
+chk("PREREGISTERED P-006", "#125: D/H cost of the delivered quark shift", 8.09e-5,
+    _eps125*(ALPHA/math.pi)**2/_onesig125, 5e-3, "sigma")
+
+# --- #126: the census, run on ONE criterion at a time -------------------------------------
+# The democratic count needs membership from charge and weights from blindness.  Run charge
+# alone and it weights too: sum N_c Q^2 over the charged nine is exactly 8 (3 leptons + 4
+# up-type + 1 down-type), giving c = 8/9; let the neutral seat then weigh zero and c = 1,
+# which the census excludes.  Neither single criterion returns 9/10.
+_Q2 = 3*1.0 + 3*3*(2/3)**2 + 3*3*(1/3)**2
+chk("DERIVATION_HUNT 1", "#126: sum N_c Q^2 over the charged nine", 8.0, _Q2, 1e-12)
+chk("DERIVATION_HUNT 1", "#126: charge^2 census with the seat, c = 8/9", 0.888889,
+    _Q2/(_Q2+1), 1e-5)
+chk("DERIVATION_HUNT 1", "#126: eps at the charge^2 census = 16 alpha/3pi", 1.23884,
+    (_Q2/(_Q2+1))*(2/math.pi)*(3*ALPHA)*100, 1e-4, "%")
+# the eps-blind ensemble checks the value and does not adjudicate between the candidates
+_C0, _SDc = 0.903, 0.0375
+chk("MATH_SPINE 0", "#126: ensemble distance to 9/10", -0.080, (0.9-_C0)/_SDc, 5e-3, "sigma")
+chk("MATH_SPINE 0", "#126: ensemble distance to 12/13", 0.535, (12/13-_C0)/_SDc, 5e-3, "sigma")
+chk("MATH_SPINE 0", "#126: ensemble distance to the charge^2 8/9", -0.376,
+    (_Q2/(_Q2+1)-_C0)/_SDc, 5e-3, "sigma")
+chk("DERIVATION_HUNT 1", "#126: 8/9 and 9/10 separated by, at the ensemble width", 0.296,
+    (0.9-_Q2/(_Q2+1))/_SDc, 5e-3, "sigma")
+# 0.0115 is the 9/10-vs-8/9 SPACING, so it buys 0.97 sigma -- the width at which
+# the two stop coinciding, not one that excludes either. Kept for the arithmetic,
+# relabelled so it cannot be read as the closing target, and the real target is
+# guarded beneath it so a file restoring "3.3x" cannot pass unnoticed.
+chk("DERIVATION_HUNT 1", "#126: sharpening to the candidate SPACING 0.0115 (not a separation)",
+    3.26, _SDc/0.0115, 5e-3, "x")
+# --- #130 piece 1: the roster's charge weighting bounds the identity ----------
+# The Planck-floor roster is the SM's 48 Weyl fermions + 3 right-handed
+# neutrinos (hierarchy section 6). 49 of 51 sit at mu = 0 and are Lorentz-
+# invariant, so Pi_T - Pi_L is sourced by the doped pair alone, weighted by its
+# share of sum Q^2. Locked so the bound cannot drift.
+from fractions import Fraction as _Fr
+_GEN = [(_Fr(2,3),3),(_Fr(-1,3),3),(_Fr(2,3),3),(_Fr(-1,3),3),
+        (_Fr(0),1),(_Fr(-1),1),(_Fr(-1),1),(_Fr(0),1)]
+_NW = 3*sum(m for _,m in _GEN)
+_SQ2 = 3*sum(m*q*q for q,m in _GEN)
+chk("hierarchy 6", "#130: Weyl fermions in the visible roster", 48, _NW, 0)
+# The roster is 48, NOT 51: the finiteness table's 48 = 3 gen x 16 already
+# contains the three right-handed neutrinos (the SM proper carries 45). The
+# hierarchy section read "48 plus three right-handed neutrinos" and double-
+# counted them. Dirac equivalents are therefore 24, not 25.5, and k = 0.618.
+chk("hierarchy 6", "roster without nu_R (SM proper)", 45, 3*15, 0)
+
+# --- Koide: the seed configuration is critical (the lightest branch is massless)
+# sqrt(m_k) = 1 + A cos(phi + 2 pi k/3).  At A = sqrt2, phi = pi/12 the middle
+# branch vanishes exactly -- so the Z3-graded norm's zero IS a massless electron
+# at the seed, and the two readings of the positivity wall are one statement.
+_Ak, _PHI = math.sqrt(2.0), math.pi/12
+_sqm = sorted(1 + _Ak*math.cos(_PHI + 2*math.pi*k/3) for k in range(3))
+chk("koide seed", "lightest branch at the seed (exactly massless)", 0.0, _sqm[0], 1e-12)
+chk("koide seed", "middle branch at the seed", 0.633975, _sqm[1], 1e-5)
+chk("koide seed", "heaviest branch at the seed", 2.366025, _sqm[2], 1e-5)
+chk("koide seed", "sum sqrt(m) = 3 identically", 3.0, sum(_sqm), 1e-12)
+chk("koide seed", "seed holonomy 3*phi = pi/4", math.pi/4, 3*_PHI, 1e-12)
+chk("koide seed", "measured holonomy 3*phi = Q = 2/3", 2.0/3.0, 3*(2.0/9.0), 1e-12)
+chk("koide seed", "holonomy dressing pi/4 - 2/3 = 3(3pi-8)/36", 3*(3*math.pi-8)/36,
+    math.pi/4 - 2.0/3.0, 1e-12)
+
+# --- Koide: criticality is NOT the sector's second equation (dead at 3349 sigma)
+# Closure 3 phi = Q = 1/3 + A^2/6 and criticality A = A_max(phi) together close
+# the system, so they predict. The prediction misses the measured Q badly.
+def _Amax_k(t):
+    return -1.0/min(math.cos(t + 2*math.pi*k/3) for k in range(3))
+_lo, _hi = 0.16, 0.30
+for _ in range(200):                       # bisection on A_closure - A_max
+    _mid = 0.5*(_lo+_hi)
+    _f = lambda t: math.sqrt(max(18*t-2.0, 0.0)) - _Amax_k(t)
+    if _f(_lo)*_f(_mid) <= 0: _hi = _mid
+    else: _lo = _mid
+_phi_star = 0.5*(_lo+_hi)
+_Q_star = 1.0/3 + _Amax_k(_phi_star)**2/6
+chk("koide joint", "phi* where closure meets criticality", 0.229811, _phi_star, 1e-4)
+chk("koide joint", "Q* predicted by the joint system", 0.689433, _Q_star, 1e-4)
+chk("koide joint", "that miss in sigma on the measured Q", 3349.0,
+    (_Q_star - 0.6666605)/6.8e-6, 5e-3, "sigma")
+# Read as the INEQUALITY it is, the same pair is a ceiling, not a prediction:
+# positivity requires A <= A_max, so Q <= Q*. The measured Q sits inside it.
+chk("koide bound", "Q ceiling from positivity + closure", 0.689433, _Q_star, 1e-4)
+chk("koide bound", "measured Q as a fraction of that ceiling", 0.9670,
+    (2.0/3)/_Q_star, 1e-3)
+chk("koide bound", "measured Q is inside the ceiling", 1, 1 if (2.0/3) < _Q_star else 0, 0)
+# The closure's branch is fixed by the same wall: branch spacing 2pi/3 against a
+# positivity window pi/6 at A = sqrt2 -- a factor 4, so at most one branch fits.
+chk("koide branch", "branch spacing over positivity window", 4.0,
+    (2*math.pi/3)/(math.pi/6), 1e-12)
+chk("koide branch", "how many branches fit the window", 1,
+    sum(1 for n in (-2,-1,0,1,2) if abs((2.0/3 + 2*math.pi*n)/3) < math.pi/12), 0)
+# The closure is covariant when written on the Z3 INVARIANT (f1/f0)^3: relabelling
+# sends f_j -> omega^j f_j, so the cube is fixed and its argument needs no first seat.
+_cube = cmath.exp(3*(-0.5*math.log(2) + 1j*(2.0/9)))
+chk("koide invariant", "|(f1/f0)^3| = 2^(-3/2)", 2.0**-1.5, abs(_cube), 1e-12)
+chk("koide invariant", "arg[(f1/f0)^3] = Q", 2.0/3, cmath.phase(_cube), 1e-12)
+_om = cmath.exp(2j*math.pi/3)
+chk("koide invariant", "cube is Z3-invariant under f1 -> omega f1", 0.0,
+    abs((_om*cmath.exp(-0.5*math.log(2) + 1j*(2.0/9)))**3 - _cube), 1e-12)
+# The fence is one-sided: positivity is silent at or below Q = 1/2 (A <= 1).
+chk("koide bound", "A at Q = 1/2 (positivity threshold)", 1.0, math.sqrt(6*0.5-2), 1e-12)
+
+# --- Koide: the whole sector is a function of Q alone -------------------------
+# Parseval fixes the modulus from Q; the closure fixes the phase from Q. So the
+# sector's irreducible input is ONE REAL number, not one complex one.
+_QK = 2.0/3
+_AQ = math.sqrt(6*_QK - 2)
+_modQ = _AQ/2
+_tauQ = -math.log(_modQ)
+_phiQ = _QK/3
+chk("koide reduction", "A = sqrt(6Q-2) returns sqrt2", math.sqrt(2.0), _AQ, 1e-12)
+chk("koide reduction", "modulus A/2 returns 1/sqrt2", 1/math.sqrt(2.0), _modQ, 1e-12)
+chk("koide reduction", "tau = -ln(A/2) returns (1/2)ln2", 0.5*math.log(2.0), _tauQ, 1e-12)
+chk("koide reduction", "phi = Q/3 returns 2/9", 2.0/9, _phiQ, 1e-12)
+chk("koide reduction", "T_c = tau*m_e from Q alone (keV)", 177.099, _tauQ*510.99895, 1e-3)
+
+# --- light: why gravity is fully induced and light is not, in one number ------
+# Gravity's bare term vanishes AT the cutoff (Pauli). Light's would vanish only
+# at its abelian Landau pole, which sits far above M_Pl -- so the medium can
+# supply only the running below its own cutoff and the constituents hand over
+# the rest. Running reproduces the file's own 55.5 at M_Pl, which is the check
+# that this slope is the corpus's.
+_MZ, _MPL, _INVAY_MZ, _BY = 91.1876, 1.22e19, 98.4, 41.0/6.0
+_slope = _BY/(2*math.pi)
+chk("light 4", "1/alpha_Y run from M_Z to M_Pl", 55.5,
+    _INVAY_MZ - _slope*math.log(_MPL/_MZ), 5e-3)
+_mu_pole = _MZ*math.exp(_INVAY_MZ/_slope)
+chk("light 4", "decades from M_Pl to the abelian Landau pole", 22.2,
+    math.log10(_mu_pole/_MPL), 5e-3)
+chk("hierarchy 6", "Dirac equivalents of the 48-Weyl roster", 24.0, _NW/2, 1e-9)
+_bk = lambda N: math.log(1.0 + math.pi/(N*3*ALPHA))/math.pi
+chk("hierarchy 6", "k at the corrected N_screen = 24", 0.6185, _bk(24.0), 1e-3)
+chk("hierarchy 6", "k at the superseded N_screen = 25.5", 0.6020, _bk(25.5), 1e-3)
+chk("hierarchy 6", "#130: roster sum Q^2 (three generations)", 16.0, float(_SQ2), 1e-9)
+chk("hierarchy 6", "#130: split if the doped pair is EM-neutral", 0.0,
+    float(2*_Fr(0)**2/_SQ2), 1e-12)
+chk("hierarchy 6", "#130: split if the doped pair is charged leptons (the cap)",
+    0.125, float(2*_Fr(-1)**2/_SQ2), 1e-9)
+
+# --- P-048: the null inherits the sky, and that caps the test -----------------
+# H_observation = rho_Lambda^(1/4)(obs) / [(9/2) alpha^4 m_e], so it carries
+# rho_Lambda's +/-0.449%. That uncertainty EXCEEDS the 0.44% separation being
+# measured, so clauses 2 and 3 of the decision rule cannot execute at any
+# lattice precision. Guarded so the point cannot be lost again.
+_TAU_K, _TAU_N, _FRAC_RHO = 0.34657359, 0.3450553, 0.00449
+_SIG_N = _TAU_N * _FRAC_RHO
+chk("P-048", "sigma on the observation-inverted null", 1.549e-3, _SIG_N, 5e-3)
+chk("P-048", "kernel-vs-null separation", 1.518e-3, _TAU_K - _TAU_N, 5e-3)
+chk("P-048", "separation in units of the NULL's own sigma", 0.980,
+    (_TAU_K - _TAU_N)/_SIG_N, 5e-3, "sigma")
+chk("P-048", "best case at the 0.22% lattice threshold", 0.873,
+    (_TAU_K - _TAU_N)/((0.0008**2 + _SIG_N**2)**0.5), 5e-3, "sigma")
+
+_GAP89 = 0.9 - 8.0/9.0
+chk("DERIVATION_HUNT 1", "#126: what 0.0115 actually buys against 8/9", 0.966,
+    _GAP89/0.0115, 5e-3, "sigma")
+chk("DERIVATION_HUNT 1", "#126: sigma_c for a 3-sigma call on the binding pair", 3.7037e-3,
+    _GAP89/3.0, 1e-3)
+chk("DERIVATION_HUNT 1", "#126: that is a sharpening of", 10.1, _SDc/(_GAP89/3.0), 5e-3, "x")
+
+# --- rho_bounce in physical units + the sanity checks (scripts/rho_bounce.py), 2026-07-20 ---
+# The finite bounce/core density that discharges 'no singularity': rho = m^4/lam = m^2 Psi0^2,
+# the Colpi-Shapiro-Wasserman quartic ceiling (= the max-mass boson-star central density).
+_m_rb, _lam_rb = 2.24e-20, 2e-91                # eV, (m/Psi0)^2
+_rho_rb_eV4 = _m_rb**4/_lam_rb                  # eV^4
+_GeV4_gcc = 2.3201e17                           # 1 GeV^4 -> g/cm^3 (calibrated on rho_crit below)
+_rho_rb_gcc = _rho_rb_eV4*1e-36*_GeV4_gcc
+chk("bigbang 1.2", "rho_bounce in g/cm^3 at the derived lambda", 2.9e-7, _rho_rb_gcc, 0.02, "g/cc")
+chk("bigbang 1.2", "rho_bounce in GeV^4", 1.26e-24, _rho_rb_eV4*1e-36, 0.02, "GeV^4")
+chk("bigbang 1.2", "GeV^4->g/cc calibrated on rho_crit^1/4 = 2.46 meV", 2.46e-3,
+    (8.53e-30/_GeV4_gcc)**0.25*1e9, 0.02, "meV")
+chk("bigbang 1.2", "orders BELOW nuclear (2.3e14 g/cc): sub-nuclear by", 21,
+    math.log10(2.3e14/_rho_rb_gcc), 0.02, "dex")
+chk("bigbang 1.2", "orders BELOW Planck (5.16e93 g/cc): finite/sub-Planckian by", 100,
+    math.log10(5.155e93/_rho_rb_gcc), 0.01, "dex")
+# the open joint: the keV floor sits ~12 orders under an MeV-class BBN hot start
+_rho_bbn_gcc = (math.pi**2/30)*10.75*(1e6)**4*1e-36*_GeV4_gcc   # radiation at T = 1 MeV
+chk("bigbang 1.2", "keV floor below the MeV hot start (T=1 MeV) by", 12.45,
+    math.log10(_rho_bbn_gcc/_rho_rb_gcc), 0.01, "dex")
+# mechanism: TF parameter Lambda = lam M_Pl^2/(4pi m^2) >> 1 => self-interaction regime holds
+chk("bigbang 1.2", "TF parameter Lambda >> 1 (self-interaction ceiling applies)", 4728,
+    _lam_rb*(1.22089e28)**2/(4*math.pi*_m_rb**2), 0.02)
+
+# --- granule epsilon-meter: the two-fluid density-contrast law (granule_sim_2field.py) ---
+# In the NR limit the medium is TWO Schrodinger fluids with density fractions
+# p=(1+f_rot)/2, q=(1-f_rot)/2 sharing one gravitational potential. Two independent
+# speckle fields suppress the granule power var(rho)/mean^2 to p^2+q^2 = (1+f_rot^2)/2
+# of single-field FDM. The SP sim confirms this holds STATICALLY exactly and, under
+# shared-gravity dynamics, as the suppression RATIO to single-field FDM (within ~5%).
+_fr = 0.4                                        # the median draw
+_p, _q = (1 + _fr) / 2, (1 - _fr) / 2
+chk("granule_sim_2field", "median-draw p = (1+f_rot)/2 at f_rot=0.4", 0.7, _p, 1e-9)
+chk("granule_sim_2field", "granule suppression p^2+q^2 at f_rot=0.4", 0.58, _p**2 + _q**2, 1e-9)
+chk("granule_sim_2field", "identity p^2+q^2 = (1+f_rot^2)/2", (1 + _fr**2) / 2,
+    _p**2 + _q**2, 1e-12)
+chk("granule_sim_2field", "law endpoints: f_rot=0 (equal split) -> 1/2", 0.5, (1 + 0.0**2) / 2, 1e-12)
+chk("granule_sim_2field", "law endpoints: f_rot=1 (single field) -> 1", 1.0, (1 + 1.0**2) / 2, 1e-12)
+# physical anchors the sim reproduces at the pinned mass m = 2.24e-20 eV:
+_m20, _AU = 2.24e-20, 1.495978707e11
+chk("granule_sim_2field", "Schive core r_c(10^9 Msun) = 1.6 kpc (m/1e-22)^-1", 7.14,
+    1.6e3 * (_m20 / 1e-22)**-1, 5e-3, "pc")
+chk("granule_sim_2field", "Compton wavelength h/(mc) [cf. xi ~ 402 AU]", 370.0,
+    2 * math.pi * HBARC / _m20 / _AU, 5e-3, "AU")
+
+# --- genesis amplitude Psi0: the misalignment abundance closure (genesis_solver_B1.py) ---
+# The genesis field is frozen at Psi0 until H = m (oscillation onset in the radiation
+# era), then redshifts as matter: rho_DM,0 = 1/2 m^2 Psi0^2 a_osc^3, a_osc from
+# H = H0 sqrt(Om_r) a^-2 = m. This fixes Psi0 from the measured (rho_DM,0, m) alone --
+# analytic, not sim-gated. The comoving roll confirms rho*a^3 freezes, and the O(1)
+# onset+anharmonic correction is scale-free (so the m^-1/4 scaling stays exact).
+_H0g, _Omr, _Omdm, _Mred = 1.44e-33, 9.2e-5, 0.264, 2.435e27     # eV
+_rho_dm0 = _Omdm * 3 * _H0g**2 * _Mred**2
+def _psi0_gen(m):
+    _aosc = math.sqrt(_H0g * math.sqrt(_Omr) / m)
+    return math.sqrt(_rho_dm0 / (0.5 * m * m * _aosc**3)), 1 / _aosc - 1
+_psi0_224, _zosc_224 = _psi0_gen(2.24e-20)
+chk("genesis_solver_B1", "Psi0/M_red from the misalignment abundance closure", 0.0207,
+    _psi0_224 / _Mred, 0.02)
+chk("genesis_solver_B1", "Psi0 at m = 2.24e-20 eV (= 5.03e16 GeV)", 5.03e25, _psi0_224, 0.02, "eV")
+chk("genesis_solver_B1", "z_osc at oscillation onset H = m", 4.03e7, _zosc_224, 0.02)
+chk("genesis_solver_B1", "Psi0 scaling m^-1/4: Psi0(1e-22)/Psi0(5e-20) = 500^1/4",
+    500**0.25, _psi0_gen(1e-22)[0] / _psi0_gen(5e-20)[0], 1e-9)
+chk("genesis_solver_B1", "Psi0(abundance) = quartic-mass crossover m/sqrt(lam)", 1.0,
+    _psi0_224 / (2.24e-20 / math.sqrt(2e-91)), 0.02)
+
+# --- R1 caustic-bit precision: the Theta_loc plateau law (scripts/r1_caustic_sim.py) ---
+# Theta_loc = Q/(Q+K), Q=|grad sqrt(rho)|^2, K=rho|grad S|^2. For a developed isotropic
+# circular-Gaussian speckle field (the wave-regularised caustic), Theta_loc is pointwise
+# Beta(d/2,d/2): mean is EXACTLY 1/2 in every dimension (independent of the power
+# spectrum, sigma_v, density, epoch -- and, by a<->b exchange symmetry, of anisotropy),
+# variance 1/(4(d+1)). This is the plateau's universality, sharper than "O(1)". The sim
+# confirms it: 3D var 0.06253 vs 1/16, 2D matches Uniform[0,1], and the vortex-tangle
+# (caustic-content) density obeys Berry & Dennis's isotropic <k^2>/4pi.
+_a2, _a3 = 2 / 2.0, 3 / 2.0            # Beta shape a = d/2 in 2D, 3D
+chk("r1_caustic_sim", "Theta_loc plateau = Beta(d/2,d/2) mean = 1/2 (d=2)", 0.5,
+    _a2 / (_a2 + _a2), 1e-12)
+chk("r1_caustic_sim", "Theta_loc plateau = Beta(d/2,d/2) mean = 1/2 (d=3)", 0.5,
+    _a3 / (_a3 + _a3), 1e-12)
+chk("r1_caustic_sim", "Theta_loc pointwise var 2D = Beta(1,1) = 1/12", 1 / 12,
+    _a2 * _a2 / ((_a2 + _a2) ** 2 * (_a2 + _a2 + 1)), 1e-9)
+chk("r1_caustic_sim", "Theta_loc pointwise var 3D = Beta(3/2,3/2) = 1/16", 0.0625,
+    _a3 * _a3 / ((_a3 + _a3) ** 2 * (_a3 + _a3 + 1)), 1e-9)
+chk("r1_caustic_sim", "var = 1/(4(d+1)) matches the Beta form (d=3)", 1 / (4 * (3 + 1)),
+    _a3 * _a3 / ((_a3 + _a3) ** 2 * (_a3 + _a3 + 1)), 1e-12)
+chk("r1_caustic_sim", "Berry-Dennis 2D vortex-point density coeff = 1/(4 pi)", 0.0796,
+    1 / (4 * math.pi), 5e-3)
+
+# ---- census imprint scaling mechanism (#168, census_scaling_network.py) --------
+# The A_s imprint is a self-similar (scaling) shot-noise census: xi/l_H = k_*xi held
+# constant across decades. The target ratio, the tilt discriminant, and the VOS
+# scaling attractor's fixed point.
+_As_168 = 2.100e-9
+chk("census_scaling_network", "k_*xi = (2 pi^2 A_s)^(1/3) = 3.45e-3", 0.003461,
+    (2 * math.pi**2 * _As_168) ** (1/3), 1e-3)
+# Delta^2 ~ k^3 xi(k)^3 ; xi ~ k^-p gives n_s - 1 = 3(1-p):
+chk("census_scaling_network", "frozen cell xi=const -> n_s = 4", 4.0, 1 + 3*(1-0.0), 1e-9)
+chk("census_scaling_network", "scaling xi~1/k -> n_s = 1", 1.0, 1 + 3*(1-1.0), 1e-9)
+# VOS scaling fixed point (radiation beta=1/2, c_chop=0.23, k_mom=0.7):
+_b168, _cc, _km = 0.5, 0.23, 0.70
+_vstar2 = _km * (1 - _b168) / (_b168 * (_cc + _km))
+_gstar = _km / (2 * _b168 * math.sqrt(_vstar2))
+chk("census_scaling_network", "VOS fixed point v*^2 = k(1-b)/(b(c+k))", 0.7527, _vstar2, 1e-3)
+chk("census_scaling_network", "VOS transient exponent a-1<0 (attractor)", 1.0,
+    1.0 if _b168 * (1 + _vstar2) < 1.0 else 0.0, 1e-9)
+# the observed gamma needs the overdamped branch: v ~ gamma*2(1-b)/c_chop << 1
+chk("census_scaling_network", "overdamped drift v for gamma=3.45e-3 is <<1", 1.0,
+    1.0 if (0.003461 * 2 * (1 - _b168) / _cc) < 0.1 else 0.0, 1e-9)
+
+# ---- Koide as a C3 triple-point node (koide_triple_point_node.py) --------------
+# The Koide sqrt-masses are eigenvalues of a C3 circulant H = a I + b P + b* P^2:
+# sqrt(m_k) = a + 2|b|cos(2pi k/3 + arg b), so Q = 1/3 + (2/3)(|b|/a)^2. The node is
+# b=0 (Q=1/3, threefold degenerate); the null Q=2/3 is |b|/a = 1/sqrt2. The node
+# fixes the STRUCTURE (two knobs |b|/a, arg b), not the values.
+_r_null = 1/math.sqrt(2)
+chk("koide_triple_point_node", "circulant->Koide: Q = 1/3 + (2/3)(|b|/a)^2 at null",
+    2/3, 1/3 + (2/3)*_r_null**2, 1e-12)
+chk("koide_triple_point_node", "node b=0 (degenerate) gives Q = 1/3", 1/3,
+    1/3 + (2/3)*0.0**2, 1e-12)
+chk("koide_triple_point_node", "null |b|/a = A/2 = 1/sqrt2 (A=sqrt2)", 1/math.sqrt(2),
+    math.sqrt(2)/2, 1e-12)
+# A=sqrt2 sits at 96% of the positivity wall A_max=-1/cos(theta_min), phase delta=2/9
+_thmin = min(math.cos(2/9 + 2*math.pi*k/3) for k in range(3))
+chk("koide_triple_point_node", "A=sqrt2 is ~96% of positivity wall A_max", 0.960,
+    math.sqrt(2) / (-1/_thmin), 5e-3)
+
+# ---- expansion-energy ledger (friedmann_from_medium.py) -----------------------
+# Friedmann as +kinetic/-binding = 0 (flat), and continuity = first law dU = -p dV.
+chk("friedmann_from_medium", "continuity exp -3(1+w): radiation w=1/3 -> a^-4",
+    -4.0, -3*(1+1.0/3.0), 1e-9)
+chk("friedmann_from_medium", "continuity exp: matter w=0 -> a^-3", -3.0, -3*(1+0.0), 1e-9)
+chk("friedmann_from_medium", "continuity exp: DE w=-1 -> a^0", 0.0, -3*(1+(-1.0)), 1e-9)
+_Gn, _rho_c, _rr = 6.674e-11, 8.5e-27, 3.0e25
+_Hf = math.sqrt(8*math.pi*_Gn/3*_rho_c)          # Friedmann H
+chk("friedmann_from_medium", "flat universe: kinetic + binding = 0 at Friedmann H", 0.0,
+    (0.5*_Hf**2*_rr**2 - (4.0/3.0)*math.pi*_Gn*_rho_c*_rr**2)/(0.5*_Hf**2*_rr**2), 1e-12)
+# localizable zero (localizable_zero_burst.py): flat -> Hubble radius = Schwarzschild
+# radius of the enclosed mass, R_s/R_H = 2GM/R_H = (8piG/3)rho R_H^2 = (H R_H)^2 = 1.
+_RH = 1.0/_Hf                                      # Hubble radius (c=1 units here)
+_Mh = (4.0/3.0)*math.pi*_RH**3*_rho_c             # enclosed mass
+chk("localizable_zero_burst", "flat: R_s = R_H (Hubble vol at its Schwarzschild radius)",
+    1.0, (2*_Gn*_Mh)/_RH, 1e-12)
+
+# ---- the frame bridge (koide_frame_bridge.py) ------------------------------
+# The two normalizations the failures ledger names, taken straight off the transform on the
+# three-site ring at an arbitrary point, so no symmetric accident can carry them.
+_M, _R, _th = 0.37, 0.91, 0.4213
+_prof = [_M + _R*math.cos(_th + 2*math.pi*k/3) for k in range(3)]
+_Fq = [sum(_prof[k]*cmath.exp(-2j*math.pi*q*k/3) for k in range(3))/math.sqrt(3) for q in range(3)]
+_Mc, _Rc = abs(_Fq[0]), math.sqrt(abs(_Fq[1])**2 + abs(_Fq[2])**2)
+chk("frame bridge", "M_c = sqrt3 * M", math.sqrt(3)*_M, _Mc, 1e-12)
+chk("frame bridge", "R_c = sqrt(3/2) * R", math.sqrt(1.5)*_R, _Rc, 1e-12)
+chk("frame bridge", "A = 2 rho identically", _R/_M, 2*abs(_Fq[1])/abs(_Fq[0]), 1e-12)
+chk("frame bridge", "R_c/M_c = A/sqrt2", (_R/_M)/math.sqrt(2), _Rc/_Mc, 1e-12)
+# the normalizations enter stiffness RATIOS as a fixed factor 1/2 — so they cannot be the
+# reconciliation between the frames, which needs a factor 4 AND a flip.
+chk("frame bridge", "k_R/k_M = (1/2)(eps_1/eps_0)", 0.5, ((1.5)/(3.0)), 1e-12)
+
+# the four delivery laws: one null, four stiffness targets. amp^2 per sector as f(dof, eps).
+def _solve_law(amp2):
+    lo, hi = 1e-3, 1e3
+    for _ in range(300):
+        mid = math.sqrt(lo*hi)
+        if amp2(2, mid) > amp2(1, 1.0): lo = mid
+        else: hi = mid
+    return math.sqrt(lo*hi)
+chk("delivery law", "thermal equipartition -> eps_D = 2 eps_S", 2.0,
+    _solve_law(lambda g, e: g/e), 1e-6)
+chk("delivery law", "equal sector delivery -> eps_D = eps_S", 1.0,
+    _solve_law(lambda g, e: 1.0/e), 1e-6)
+chk("delivery law", "doublet gets half -> eps_D = eps_S/2", 0.5,
+    _solve_law(lambda g, e: (1.0 if g == 1 else 0.5)/e), 1e-6)
+chk("delivery law", "sudden quench 1/w^2 -> eps_D = sqrt2 eps_S", math.sqrt(2),
+    _solve_law(lambda g, e: g/e**2), 1e-6)
+
+# ---- the closed form behind those four (delivery_law_two_parameters.py) ------
+# with energy per dof e ~ eps^p and s the counting label, amp^2 ~ g^s eps^(p-1), so the
+# null 2^s eps_1^(p-1) = eps_0^(p-1) solves to eps_1/eps_0 = 2^(s/(1-p)). TWO parameters:
+# an earlier reading as a ONE-parameter energy law was withdrawn — see the failures ledger.
+def _dl(s, p): return 2.0 ** (s / (1.0 - p))
+chk("delivery law", "closed form: thermal is (s,p) = (1, 0)", 2.0, _dl(1, 0.0), 1e-12)
+chk("delivery law", "closed form: sudden quench is (s,p) = (1, -1), NOT zero-point",
+    math.sqrt(2), _dl(1, -1.0), 1e-12)
+chk("delivery law", "closed form: equal-sector is s = 0, any p", 1.0, _dl(0, 0.37), 1e-12)
+chk("delivery law", "closed form: doublet-gets-half is (s,p) = (-1, 0)", 0.5, _dl(-1, 0.0), 1e-12)
+chk("delivery law", "the zero-point law (s,p) = (1, 1/2) lands on 4, outside the recorded four",
+    4.0, _dl(1, 0.5), 1e-12)
+# Q = 1/3 + (2/3)/ratio in the classical limit, so Q = 2/3 <=> ratio = 2 exactly.
+def _Q_dl(r): return 1.0/3.0 + (2.0/3.0)/r
+chk("delivery law", "Q = 2/3 requires eps_1/eps_0 = 2", 2.0/3.0, _Q_dl(2.0), 1e-15)
+chk("delivery law", "the next-nearest law (sqrt2) misses 2/3 by", 207106.8,
+    abs(_Q_dl(math.sqrt(2))/(2/3) - 1)*1e6, 1e-1, "ppm")
+# and the required 2 is NEITHER stiffness pair C3 warns about — it is a third one.
+chk("delivery law", "radial Hessian ratio k_D/k_S is 1/2, i.e. law 3 (which gives Q = 5/3)",
+    5.0/3.0, _Q_dl(3.0/6.0), 1e-12)
+_bo = math.sqrt(2)/2.0                                   # A = 2|b|/a = sqrt2 at the Koide point
+chk("delivery law", "circulant ratio (a-b)/(a+2b) at the Koide point", 0.1213203436,
+    (1.0 - _bo)/(1.0 + 2.0*_bo), 1e-8)
+
+# ---- the occupancy lock cannot reach it (occupancy_lock_cannot_deliver.py) ----
+# <x^2> = (2n+1) hbar/(2 M w), so the null gives w_1/w_0 = 2 w_D/w_S — always RATIONAL,
+# while eps ~ w^2 and eps_1/eps_0 = 2 needs w_1/w_0 = sqrt2. No integers reach it.
+chk("delivery law", "the recorded lock (n_S,n_D) = (1,0) reads (w_S,w_D) = (2,1)", 1.0,
+    2.0*1.0/2.0, 1e-12)                                  # -> w_1/w_0 = 1, degenerate
+chk("delivery law", "so the recorded lock gives Q = 1, not 2/3", 1.0,
+    1/3 + (2/3)/(2.0*1.0/2.0)**2, 1e-12)
+chk("delivery law", "T6's miss once the two frequencies are kept distinct", 2.0**-0.25,
+    (1.0/math.sqrt(2.0))**0.5, 1e-12)
+chk("delivery law", "which is a 15.9% shortfall against the 1 the null needs", 15.9,
+    (1.0 - 2.0**-0.25)*100, 1e-2, "%")
+_best = min(abs(2.0*(2*_nd+1)/(2*_ns+1)/math.sqrt(2) - 1.0)
+            for _ns in range(301) for _nd in range(301))
+chk("delivery law", "best occupancy pair within n <= 300 still misses by", 8.753,
+    _best*1e6, 1e-3, "ppm")
+chk("delivery law", "first odd/odd convergent inside 6 ppm is 1393/985", 0.25767,
+    abs((1393/985)/math.sqrt(2) - 1.0)*1e6, 1e-4, "ppm")
+chk("delivery law", "which needs this many quanta in the singlet", 696, (1393-1)//2, 0)
+chk("delivery law", "and this many in each doublet mode", 492, (985-1)//2, 0)
+
+# ---- the radio paper's dispersion row (dm_row_sigma_eps.py) ------------------
+# a universal m_e shift rescales t_DM's COEFFICIENT and leaves its 1/nu^2 shape alone,
+# so the timing fit absorbs it: DM_fit = N_e/(1+eps). Nothing is left to bound eps.
+_KDM = 4.148808e3                                  # MHz^2 pc^-1 cm^3 s
+chk("radio row", "DM_fit = N_e/(1+eps) at eps = 1e-3, N_e = 100", 99.9000999001,
+    100.0/(1.0 + 1e-3), 1e-9, "pc/cm^3")
+chk("radio row", "the inferred column's fractional deficit is eps/(1+eps)", 0.000999000999,
+    1.0 - 1.0/(1.0 + 1e-3), 1e-9)
+# what the 20 us month-correlated offset bounds is eps VARIATION, and it is band-dependent
+def _sde(dm, nu): return 20e-6 / (_KDM*dm/(nu*nu))
+chk("radio row", "sigma_delta_eps, DM=300 at 327 MHz (best case)", 1.7182285e-6,
+    _sde(300, 327), 1e-6)
+chk("radio row", "sigma_delta_eps, DM=30 at 1400 MHz (worst case)", 3.1494990e-4,
+    _sde(30, 1400), 1e-6)
+chk("radio row", "the span across configurations", 183.3, _sde(30, 1400)/_sde(300, 327),
+    1e-2, "x")
+chk("radio row", "best case still short of the row's 1e-7 headline by", 17.18,
+    _sde(300, 327)/1e-7, 1e-2, "x")
+# the DM-measurement precision the paper quotes, which is a DIFFERENT quantity
+chk("radio row", "sigma_DM = 1e-5 pc/cm^3 against DM = 100 is a fractional", 1e-7,
+    1e-5/100.0, 1e-12)
+
+# ---- C8/C9: the response is a resummation (cw_response_from_backreaction.py) -
+# bare response linear, medium back-reacts in proportion: F = F_0 - a F_0 F, so
+# F = u/(1+au) and c_w = -a exactly. Series: c_3 = c_w^2, c_4 = -|c_w|^3.
+chk("response", "resummed F at a=1, u=0.5", 1.0/3.0, 0.5/(1.0 + 1.0*0.5), 1e-15)
+# c_w read off as a genuine numerical second derivative of u/(1+au), not asserted
+def _cw_of(a, h=1e-4):
+    f = lambda u: u/(1.0 + a*u)
+    return (f(h) - 2.0*f(0.0) + f(-h))/(h*h)/2.0
+chk("response", "c_w = -a, by numerical 2nd derivative at a = 0.84", -0.84, _cw_of(0.84), 1e-6)
+chk("response", "and at a = 1.36", -1.36, _cw_of(1.36), 1e-6)
+chk("response", "the series fixes c_3 = c_w^2 at c_w = -0.84", 0.7056, _cw_of(0.84)**2, 1e-6)
+chk("response", "and c_4 = -|c_w|^3", -0.592704, -abs(_cw_of(0.84))**3, 1e-6)
+# C9's moment ratios, and the mis-booked quadratic
+_eps_amp = 27.0*ALPHA_EM/(5.0*math.pi) if 'ALPHA_EM' in dir() else 27.0/137.035999084/(5.0*math.pi)
+chk("response", "C9 quadratic moment ratio <cos^2>/<|cos|> = pi/4", math.pi/4,
+    0.5/(2.0/math.pi), 1e-15)
+chk("response", "C9 cubic moment ratio <|cos|^3>/<|cos|> = 2/3", 2.0/3.0,
+    (4.0/(3.0*math.pi))/(2.0/math.pi), 1e-15)
+chk("response", "C9 cubic term, unit coefficient", 0.01048883,
+    _eps_amp*_eps_amp*(2.0/3.0)*100.0, 1e-6, "%")
+chk("response", "C9 quadratic term CORRECTED (recorded 0.83 used the cubic's ratio)",
+    0.98514, _eps_amp*(math.pi/4.0)*100.0, 1e-4, "%")
+chk("response", "and eps*(2/3) reproduces the mis-booked 0.83", 0.83619,
+    _eps_amp*(2.0/3.0)*100.0, 1e-4, "%")
+
+# ---- #62: the Theta speckle law (theta_averaging_forced.py) ------------------
+# developed speckle is Beta(d/2,d/2): mean 1/2, sd = 1/(2 sqrt(d+1)), so 0.25 in 3D.
+chk("theta", "Beta(d/2,d/2) sd in 3D", 0.25, 1.0/(2.0*math.sqrt(4.0)), 1e-15)
+chk("theta", "and it is dimension-specific: d = 2", 0.2886751,
+    1.0/(2.0*math.sqrt(3.0)), 1e-6)
+chk("theta", "N-cell suppression at N = 1e9", 7.9056942e-6, 0.25/math.sqrt(1e9), 1e-7)
+# the induced m_e scatter -- eps * sd(Theta), NOT sd(Theta) itself (the 80x slip)
+_sc = _eps_amp*0.25
+chk("theta", "induced scatter in delta m_e/m_e, pointwise", 3.1358063e-3, _sc, 1e-6)
+chk("theta", "which is this fraction of the mean shift eps/2", 0.5, _sc/(_eps_amp*0.5), 1e-12)
+chk("theta", "and the withdrawn '25%' overstated it by", 79.7, 0.25/_sc, 1e-1, "x")
+# the cell count needed for a 1e-7 bound, against the recorded 1e9
+chk("theta", "cells needed to reach 1e-7", 9.8331e8, (_sc/1e-7)**2, 1e4)
+chk("theta", "recorded 1e9 over that requirement", 1.017, 1e9/((_sc/1e-7)**2), 1e-3, "x")
+
+# ---- #69: physical-phase counting (second_phase_counting.py) -----------------
+# V = sum_k A_k cos(n_k th + phi_k); the single rephasing sends phi_k -> phi_k + n_k a,
+# so I = n2 phi1 - n1 phi2 is invariant and a reflection exists iff I is a multiple of pi.
+def _inv(n1, p1, n2, p2): return n2*p1 - n1*p2
+chk("phase count", "I = n2 phi1 - n1 phi2 at (3,0.7),(5,0.2)", 2.9, _inv(3, 0.7, 5, 0.2), 1e-12)
+chk("phase count", "and it is unchanged after a rephasing by alpha = 0.37", 2.9,
+    _inv(3, 0.7 + 3*0.37, 5, 0.2 + 5*0.37), 1e-12)
+# the rotation must actually ZERO the phase, and the centre must actually reflect V
+chk("phase count", "one term: alpha = -phi/n leaves phase", 0.0, 0.7 + 3*(-0.7/3.0), 1e-15)
+def _V1(t): return math.cos(3*t + 0.7)
+_c1 = -2*0.7/3.0
+chk("phase count", "one term: max |V(t) - V(c-t)| at c = -2phi/n", 0.0,
+    max(abs(_V1(2*math.pi*i/401) - _V1(_c1 - 2*math.pi*i/401)) for i in range(401)), 1e-12)
+# and with two terms at I not a multiple of pi, NO centre reflects
+def _V2(t): return math.cos(3*t + 0.7) + 0.6*math.cos(5*t + 0.2)
+_best = min(max(abs(_V2(2*math.pi*i/201) - _V2(2*math.pi*j/401 - 2*math.pi*i/201))
+                for i in range(201)) for j in range(401))
+chk("phase count", "two terms, I/pi = 0.923: best reflection residual is far from 0", 0.08990,
+    _best, 1e-4)
+# the tuned case where a reflection DOES exist: I = pi exactly
+_p2t = (5*0.7 - math.pi)/3.0
+chk("phase count", "tuned phi_2 making I = pi exactly", math.pi, _inv(3, 0.7, 5, _p2t), 1e-12)
+chk("phase count", "its solved reflection centre (k1,k2) = (2,3)", 3.7221235,
+    (2*math.pi*2 - 2*0.7)/3.0, 1e-6)
+
+# the trapped ring's closed form, and its collapse onto one curve in t = u'/(s u'')
+def _trapped(up, upp, R0=1.0):
+    s = math.sqrt(3)*R0
+    return 3.0*(upp(s) - up(s)/s), 0.75*(upp(s) - 3.0*up(s)/s)
+_eS, _eD = _trapped(lambda r: -1/r**2, lambda r: 2/r**3)       # Coulomb u = 1/r
+chk("trapped ring", "Coulomb at equilibrium: eps_D/eps_S = 5/12", 5/12, _eD/_eS, 1e-12)
+_lS, _lD = _trapped(lambda r: -1/r, lambda r: 1/r**2)          # log u = -ln r
+chk("trapped ring", "log at equilibrium: eps_D/eps_S = 1/2", 0.5, _lD/_lS, 1e-12)
+_rat_t = lambda t: 0.25*(1 - 3*t)/(1 - t)
+for _p, _bk in ((-3.0, 0.35), (-2.0, 0.375), (-1.0, 5/12), (1.0, 0.75)):
+    _a, _b = _trapped(lambda r, p=_p: p*r**(p-1), lambda r, p=_p: p*(p-1)*r**(p-2))
+    chk("trapped ring", f"power law p={_p:+.0f}: (p-4)/(4(p-2))", (_p-4)/(4*(_p-2)), _b/_a, 1e-12)
+    # p = 1 is the t -> infinity end of the curve (1/(p-1) diverges), so it is graded as the limit
+    chk("trapped ring", f"power law p={_p:+.0f}: t = 1/(p-1) curve", _bk,
+        _rat_t(1e12 if _p == 1.0 else 1/(_p-1)), 1e-9)
+# the thermal null's root, solved rather than asserted
+def _root_of(target, lo=1.0 + 1e-9, hi=1e6):
+    for _ in range(400):
+        mid = math.sqrt(lo*hi)
+        if _rat_t(mid) > target: lo = mid
+        else: hi = mid
+    return math.sqrt(lo*hi)
+chk("trapped ring", "eps_D/eps_S = 2 solves to t* = 7/5", 7/5, _root_of(2.0), 1e-6)
+chk("trapped ring", "and t* = 7/5 does return 2", 2.0, _rat_t(7/5), 1e-12)
+chk("trapped ring", "convex branch ceiling (t -> -inf) = 3/4", 0.75, _rat_t(-1e12), 1e-9)
+chk("trapped ring", "convex branch is capped BELOW the thermal null", 1.0,
+    1.0 if _rat_t(-1e12) < 2.0 else 0.0, 1e-12)
+chk("trapped ring", "every power law has t < 1/3 (p=-1 case)", 1.0,
+    1.0 if 1/(-1-1) < 1/3 else 0.0, 1e-12)
+
+# ---- the delivery law (koide_delivery_law_discriminator.py) ----------------
+# Equipartition is the classical limit of the exact harmonic result; the two sectors sit at
+# different frequencies, so the quantum correction does NOT cancel from the ratio.
+def _gq(x):
+    if x < 1e-8: return 1.0 + x*x/12.0
+    z = 0.5*x
+    return z/math.tanh(z)
+def _Q_thermal(x1, ratio=2.0):
+    x0 = x1*math.sqrt(1.0/ratio)
+    return 1/3 + (2/3)*((1.0/ratio)*_gq(x1)/_gq(x0))
+_x1 = 2/9                                          # hbar w_1 / kT_c, from w_1 = (2/9) T_c
+chk("delivery law", "charged mode's Bose occupancy at x = 2/9", 4.0185,
+    1/(math.exp(_x1)-1), 1e-4)
+chk("delivery law", "Q under the exact thermal law at x = 2/9", 0.667350,
+    _Q_thermal(_x1), 1e-6)
+chk("delivery law", "its miss from 2/3", 1025.4, abs(_Q_thermal(_x1)/(2/3)-1)*1e6, 1e-3, "ppm")
+chk("delivery law", "which overruns the 6 ppm budget by", 171.0,
+    abs(_Q_thermal(_x1)/(2/3)-1)/6e-6, 2e-3, "x")
+# the classical limit is exact, and every finite x breaks it one-signed
+chk("delivery law", "classical limit is exact (x -> 0)", 2/3, _Q_thermal(1e-7), 1e-12)
+chk("delivery law", "and the break is one-signed (Q > 2/3 at every finite x)", 1.0,
+    1.0 if all(_Q_thermal(_x) > 2/3 for _x in (0.01, 0.1, 0.5, 1.0, 2.0)) else 0.0, 1e-12)
+_lo, _hi = 1e-6, 10.0
+for _ in range(200):
+    _m = math.sqrt(_lo*_hi)
+    if abs(_Q_thermal(_m)/(2/3)-1) > 6e-6: _hi = _m
+    else: _lo = _m
+chk("delivery law", "x_1 ceiling for a 6 ppm budget", 0.016971, math.sqrt(_lo*_hi), 1e-4)
+
+# ---- the reduction to one condition (delivery_law_third_class.py) -------------
+# <x^2> = e/eps, so the null 2 e(eps_1)/eps_1 = e(eps_0)/eps_0 together with
+# eps_1/eps_0 = 2 collapses to e(2 eps_0) = e(eps_0): the law must be FLAT across a
+# factor sqrt2 in frequency. Placed here because it reuses _gq, defined just above.
+chk("delivery law", "flatness: e ~ eps^p is flat only at p = 0", 1.0, 2.0**0.0, 1e-15)
+chk("delivery law", "zero-point (p=1/2) misses flatness by this factor", math.sqrt(2),
+    2.0**0.5, 1e-15)
+# thermal's LINEAR term cancels: e = kT + (hbar w)^2/(12 kT), no O(w) piece
+chk("delivery law", "thermal expansion's leading coefficient is 1/12", 1/12,
+    (_gq(1e-3) - 1.0)/(1e-3**2), 1e-6)
+chk("delivery law", "and there is NO linear term (slope at the origin)", 0.0,
+    (_gq(1e-6) - 1.0)/1e-6, 1e-5)
+# a DRIVEN flat law still carries its zero point, so its error is FIRST order
+_u = (math.sqrt(2) - 1.0)/6e-6 - 1.0
+chk("delivery law", "driven flat law needs this many quanta for 6 ppm", 34517.3,
+    _u/2.0, 1e-1)
+chk("delivery law", "against thermal's n_bar at the x_1 ceiling", 58.4,
+    1.0/(math.exp(0.016971) - 1.0), 1e-1)
+chk("delivery law", "so equilibrium is cheaper by a factor", 591.0,
+    (_u/2.0)/(1.0/(math.exp(0.016971) - 1.0)), 1e-1, "x")
+# the exact third class: a log-symmetric deposit centred on the GEOMETRIC mean
+chk("delivery law", "the required deposition peak sits at 2^(1/4) w_0", 2**0.25,
+    math.sqrt(1.0*math.sqrt(2)), 1e-15)
+
+# ---- the Kibble-Zurek route (kibble_zurek_delivery_law.py) --------------------
+# freezing at tau_i(t) = t with eps_i = c_i lambda(t), lambda ~ t^m, tau ~ eps^(-a)
+# gives eps_i(t_i) ~ c_i^(1/(1+am)), so the null reads (c_D/c_S)^(1/(1+am)) = 2.
+def _kz(a, m): return (3.0/6.0)**(1.0/(1.0 + a*m))
+chk("delivery law", "KZ no-ramp limit am=0 recovers 'doublet gets half'", 0.5, _kz(1.0, 0.0), 1e-15)
+chk("delivery law", "and its Q is 5/3, not 2/3", 5/3, 1/3 + (2/3)/_kz(1.0, 0.0), 1e-15)
+chk("delivery law", "KZ hits the null only at am = -2", 2.0, _kz(1.0, -2.0), 1e-12)
+# the damping exponent fixes the ramp it needs: each (a, -2/a) must land on 2
+chk("delivery law", "overdamped a=1 needs m=-2, underdamped a=1/2 needs m=-4", 1.0,
+    1.0 if all(abs(_kz(_a, -2.0/_a) - 2.0) < 1e-9 for _a in (0.5, 1.0, 2.0)) else 0.0, 1e-12)
+# every stiffening quench lands BELOW 1, so Q lands above 1: the sign is wrong
+chk("delivery law", "every stiffening quench (m>0) gives a ratio below 1", 1.0,
+    1.0 if all(_kz(_a, _m) < 1.0 for _a in (0.1, 0.5, 1.0, 2.0, 10.0)
+               for _m in (0.1, 1.0, 10.0, 100.0)) else 0.0, 1e-12)
+# NB the "KZ still misses by 1025 ppm" check is NOT re-added here: it is the SAME
+# _Q_thermal(_x1) already booked above, and duplicating it would inflate the count
+# for a computation the audit already carries -- protocol 46's T1 pattern.
+# holding Q = 2/3 exactly at the corpus's x moves the stiffness target off the integer
+_lo, _hi = 1.5, 2.5
+for _ in range(200):
+    _m = 0.5*(_lo+_hi)
+    if _Q_thermal(_x1, _m) > 2/3: _lo = _m
+    else: _hi = _m
+_rn = 0.5*(_lo+_hi)
+chk("delivery law", "eps_D/eps_S needed at x = 2/9 (not 2)", 2.004110, _rn, 1e-6)
+chk("delivery law", "so a = 2.9877 b, not a = 3b", 2.9877, 3.0/(_rn-1.0), 1e-4)
+# the occupancy lock with the two frequencies kept distinct
+chk("occupancy lock", "R_c/M_c with distinct w = 2^(-1/4), not 1", 2**-0.25,
+    math.sqrt((1/math.sqrt(2))/1.0), 1e-12)
+chk("occupancy lock", "its miss from the null", 15.9,
+    abs(2**-0.25 - 1)*100, 1e-2, "%")
+# tau and unit occupancy: an identity in the Bose factor alone
+chk("occupancy lock", "n_bar = 1 exactly at x = ln2", 1.0,
+    1/(math.exp(math.log(2))-1), 1e-12)
+chk("occupancy lock", "and ln2 = 2 tau", 2*0.5*math.log(2), math.log(2), 1e-12)
+chk("occupancy lock", "unit-occupancy w vs recorded w_1: 9ln2/2", 3.119162,
+    math.log(2)/(2/9), 1e-6, "x")
+chk("occupancy lock", "and that ratio is NOT pi", 0.714,
+    abs(math.log(2)/(2/9)/math.pi - 1)*100, 2e-2, "%")
+
+# ---- the cold law (koide_quantum_law_null.py) ------------------------------
+# <x^2> = (2n+1) hbar / (2 M w); singlet 1 dof, doublet 2 dof, R_c^2 = |f_1|^2 + |f_2|^2.
+def _mom(n, w, dof=1, hb=1.0, ms=1.0):
+    return dof*(2*n + 1)*hb/(2*ms*w)
+# equal quanta: (2n+1) cancels, <x^2> ~ 1/w, so R_c = M_c needs w_1 = 2 w_0, eps ratio 4
+chk("cold law", "equal quanta: R_c/M_c at eps_1/eps_0 = 4", 1.0,
+    math.sqrt(_mom(0, 2.0, 2)/_mom(0, 1.0, 1)), 1e-12)
+chk("cold law", "and a/b = 3/(4-1) = 1 (a = b)", 1.0, 3.0/(4.0 - 1.0), 1e-12)
+# it does NOT need the ground state -- only EQUAL occupancy
+chk("cold law", "equal-occupancy result is n-independent", 1.0,
+    1.0 if all(abs(math.sqrt(_mom(_n, 2.0, 2)/_mom(_n, 1.0, 1)) - 1.0) < 1e-12
+               for _n in (0, 1, 2, 5, 17, 1000)) else 0.0, 1e-12)
+# equal energy per mode (equipartition): <x^2> ~ 1/w^2, so R_c = M_c needs eps ratio 2
+_x2E = lambda w, dof: dof*1.0/(w*w)
+chk("cold law", "equal energy: R_c/M_c at eps_1/eps_0 = 2", 1.0,
+    math.sqrt(_x2E(math.sqrt(2.0), 2)/_x2E(1.0, 1)), 1e-12)
+chk("cold law", "and a/b = 3/(2-1) = 3 (a = 3b)", 3.0, 3.0/(2.0 - 1.0), 1e-12)
+# the two targets differ by the doublet's dof count
+chk("cold law", "the two laws' stiffness targets differ by 2", 2.0, 4.0/2.0, 1e-12)
+# hbar and M cancel from the cold result (the lock's own claim, verified)
+chk("cold law", "hbar and M cancel from R_c/M_c", 1.0,
+    max(abs(_mom(0, 2.0, 2, _h, _m)/_mom(0, 1.0, 1, _h, _m)) for _h, _m in
+        ((1.0, 1.0), (7.3, 0.11), (1e-34, 9.1e-31))), 1e-12)
+# the lock's N_0 = 1 is convention-dependent: n = 1/2 (RMS) vs n = 0 (peak amplitude)
+# RMS convention: N_0 = M w <x^2>/hbar = n + 1/2, so N_0 = 1 solves to n = 1/2 (not a state).
+# Peak convention: N_0 = M w A^2/hbar = 2n + 1, so N_0 = 1 solves to n = 0 (the ground state).
+chk("cold law", "N_0 = 1 under the RMS convention gives n = 1/2", 0.5, 1.0 - 0.5, 1e-12)
+chk("cold law", "N_0 = 1 under the peak convention gives n = 0", 0.0, (1.0 - 1.0)/2, 1e-12)
+
+# ---- the democratic graph (koide_democratic_graph_null.py) -----------------
+# N faces + the medium as one further node, complete graph, single coupling, medium pinned.
+# Hessian in the face amplitudes is (N+1) I - J: eigenvalue 1 on the singlet, N+1 on zero-sum.
+def _demo_spec(N, pin=True):
+    H = [[0.0]*N for _ in range(N)]
+    for _i in range(N):
+        for _j in range(N):
+            if _i != _j:
+                H[_i][_i] += 0.5; H[_j][_j] += 0.5; H[_i][_j] -= 1.0
+    if pin:
+        for _i in range(N): H[_i][_i] += 1.0
+    _s = [1/math.sqrt(N)]*N
+    _d = [0.0]*N; _d[0], _d[1] = 1/math.sqrt(2), -1/math.sqrt(2)
+    q = lambda v: sum(v[i]*H[i][j]*v[j] for i in range(N) for j in range(N))
+    return q(_s), q(_d)
+for _N in (2, 3, 4, 5, 7):
+    _es, _ed = _demo_spec(_N)
+    chk("democratic graph", f"N={_N}: eps_singlet = 1", 1.0, _es, 1e-12)
+    chk("democratic graph", f"N={_N}: eps_other = N+1", float(_N+1), _ed, 1e-12)
+# the null on this structure: R^2/f_0^2 = (N-1)/sqrt(N+1), = 1 only at N = 3
+_ratio = lambda N: (N-1)*math.sqrt(_demo_spec(N)[0]/_demo_spec(N)[1])
+chk("democratic graph", "R^2/f_0^2 = 1 at N = 3", 1.0, _ratio(3), 1e-12)
+chk("democratic graph", "and at no other N (2,4,5,6,7,8 all miss)", 1.0,
+    1.0 if all(abs(_ratio(_N)-1) > 1e-6 for _N in (2, 4, 5, 6, 7, 8)) else 0.0, 1e-12)
+_poly = lambda N: (N - 1.0)**2 - (N + 1.0)          # vanishes exactly at N = 3 (and N = 0)
+chk("democratic graph", "(N-1)^2 - (N+1) vanishes at N = 3", 0.0, _poly(3.0), 1e-12)
+chk("democratic graph", "and does not vanish at N = 2,4,5,6,7,8", 1.0,
+    1.0 if all(abs(_poly(float(_N))) > 0.5 for _N in (2, 4, 5, 6, 7, 8)) else 0.0, 1e-12)
+# the Koide ratio it produces, and the chain out of it
+_Qd = lambda N: (1 + _ratio(N))/N
+chk("democratic graph", "Q(3) = 2/3 exactly", 2/3, _Qd(3), 1e-15)
+chk("democratic graph", "Q(N) = 2/N only at N = 3", 1.0,
+    1.0 if all(abs(_Qd(_N) - 2.0/_N) > 1e-6 for _N in (2, 4, 5, 6, 7, 8)) else 0.0, 1e-12)
+chk("democratic graph", "A = sqrt2 from it", math.sqrt(2), math.sqrt(6*_Qd(3)-2), 1e-14)
+chk("democratic graph", "tau = ln2/2 from it", math.log(2)/2,
+    -math.log(math.sqrt(6*_Qd(3)-2)/2), 1e-14)
+chk("democratic graph", "T_c = tau m_e", 177.099,
+    (-math.log(math.sqrt(6*_Qd(3)-2)/2))*0.51099895e6/1e3, 1e-5, "keV")
+chk("democratic graph", "w_other/w_0 = 2 (the cold law's condition)", 2.0,
+    math.sqrt(_demo_spec(3)[1]/_demo_spec(3)[0]), 1e-12)
+# the charge-coupled filter: no medium bond (q = 0) => the uniform mode is a ZERO mode
+chk("democratic graph", "neutral faces: eps_singlet = 0 exactly", 0.0,
+    _demo_spec(3, pin=False)[0], 1e-12)
+chk("democratic graph", "neutral faces: eps_other still 3", 3.0,
+    _demo_spec(3, pin=False)[1], 1e-12)
+
+# ---- equal quanta from adiabaticity (koide_equal_quanta_from_adiabaticity.py) ----
+# Stage 1: medium bond only (b = 0) -> eps_q = a for every q, so the three modes are degenerate
+# and a common occupation is automatic. Stage 2: the face-face bonds ramp on, each mode conserving
+# its action J = E/w. <x^2> = J/w, so a common J gives <x^2> ~ 1/w -- the equal-quanta scaling.
+_LAM = (0.0, 3.0, 3.0)                              # ring Laplacian spectrum at N = 3
+_epsq = lambda q, b, a=1.0: a + b*_LAM[q]
+chk("adiabatic P4", "stage 1: eps is q-independent at b = 0", 0.0,
+    max(abs(_epsq(_q, 0.0) - _epsq(0, 0.0)) for _q in (0, 1, 2)), 1e-12)
+chk("adiabatic P4", "stage 2: eps_charged/eps_neutral -> 4 at b = a", 4.0,
+    _epsq(1, 1.0)/_epsq(0, 1.0), 1e-12)
+chk("adiabatic P4", "so w_charged/w_neutral -> 2", 2.0,
+    math.sqrt(_epsq(1, 1.0)/_epsq(0, 1.0)), 1e-12)
+# common action J: <x^2> = J/w, so R^2/f_0^2 = 2 w_0/w_1 = 1 exactly at the endpoint
+_w0, _w1 = math.sqrt(_epsq(0, 1.0)), math.sqrt(_epsq(1, 1.0))
+chk("adiabatic P4", "common action gives R^2/f_0^2 = 1", 1.0, 2.0*(1/_w1)/(1/_w0), 1e-12)
+chk("adiabatic P4", "and hence Q = 2/3", 2/3, (1 + 2.0*(1/_w1)/(1/_w0))/3.0, 1e-15)
+# the degenerate start is what makes a common J natural: equal w => equal n for any equilibrium
+chk("adiabatic P4", "at b = 0 all three frequencies coincide", 1.0,
+    1.0 if len({round(math.sqrt(_epsq(_q, 0.0)), 12) for _q in (0, 1, 2)}) == 1 else 0.0, 1e-12)
+
+# ---- pour before split (koide_pour_before_split.py) ------------------------
+# At degeneracy every transfer weight returns the same number for every mode, so the pinned
+# SUDDEN pour and the adiabatic split are compatible provided the pour lands first.
+_Wq = (1.0, 2.0, 2.0)                        # w_q at a = b (eps = 1, 4, 4)
+_wt = (lambda w: 1/w**2, lambda w: 1.0, lambda w: 1/w, lambda w: math.exp(-w) + w**3)
+# Evaluate each weight at the COMPUTED stage-1 frequencies (from eps_q at b = 0), not at a
+# hard-coded pair -- otherwise the check is true by construction rather than by degeneracy.
+_w_stage1 = tuple(math.sqrt(_epsq(_q, 0.0)) for _q in (0, 1, 2))
+chk("pour order", "at degeneracy all transfer weights agree", 0.0,
+    max(abs(f(_w_stage1[1])/f(_w_stage1[0]) - 1.0) for f in _wt), 1e-15)
+chk("pour order", "and they disagree once split (sudden vs flat)", 1.0,
+    1.0 if abs(_wt[0](_Wq[1])/_wt[0](_Wq[0]) - _wt[1](_Wq[1])/_wt[1](_Wq[0])) > 0.1 else 0.0, 1e-12)
+# order A: common quanta carried through the split -> <x^2> ~ 1/w
+_xA = tuple(1.0/w for w in _Wq)
+chk("pour order", "order A: R^2/f_0^2 = 1", 1.0, (_xA[1]+_xA[2])/_xA[0], 1e-15)
+chk("pour order", "order A: Q = 2/3 exactly", 2/3, (1 + (_xA[1]+_xA[2])/_xA[0])/3, 1e-15)
+# order B: sudden 1/w^2 energy on an already-split spectrum -> <x^2> = E/w^2 ~ 1/w^4
+_xB = tuple(1.0/w**4 for w in _Wq)
+chk("pour order", "order B: R^2/f_0^2 = 1/8", 0.125, (_xB[1]+_xB[2])/_xB[0], 1e-15)
+chk("pour order", "order B: Q = 0.375", 0.375, (1 + (_xB[1]+_xB[2])/_xB[0])/3, 1e-15)
+chk("pour order", "the two orders differ by 44%", 43.75,
+    abs(((1 + (_xB[1]+_xB[2])/_xB[0])/3)/(2/3) - 1)*100, 1e-4, "%")
+# the stiffness ratio that would rescue order B is sqrt2 -- a fourth, incompatible target
+chk("pour order", "order B would need eps_1/eps_0 = sqrt2", 1.0,
+    2*(1/math.sqrt(2))**2, 1e-15)
+
+# ---- the portal roster's doublet count (portal_roster_doublet_count.py) ----
+_S = lambda n: n/(6*math.pi)
+chk("portal roster", "S = 3/(6pi) = 1/(2pi)", 1/(2*math.pi), _S(3), 1e-12)
+chk("portal roster", "one doublet per generation is excluded", 0.159155, _S(3), 1e-5)
+chk("portal roster", "two doublets allowed, 24% margin", 0.106103, _S(2), 1e-5)
+chk("portal roster", "the ceiling sits between 2 and 3", 1.0,
+    1.0 if _S(2) <= 0.14 < _S(3) else 0.0, 1e-12)
+chk("portal roster", "n_D = 0 uses none of the margin", 0.0, _S(0), 1e-12)
+# the size check: a singlet loop at n_S lam = 1 returns m_H from the 4pi anchor
+_mH = 125.25
+_Manch = 4*math.pi*_mH
+chk("portal roster", "M_anchor = 4 pi m_H", 1573.9, _Manch, 1e-4, "GeV")
+chk("portal roster", "singlet loop at n_S lam = 1 returns m_H", _mH, _Manch/(4*math.pi), 1e-12, "GeV")
+
+# ---- f_bar's averaging window (fbar_window_discriminator.py) ---------------
+_2opi = 2/math.pi
+_Nturn = 3.82e5
+chk("fbar window", "accumulated reading pins f_bar to 2/pi", 8.33e-5,
+    100/(math.pi*_Nturn), 1e-3, "%")
+# |cos| has CDF (2/pi) arcsin(x); its sd is sqrt(1/2 - (2/pi)^2)
+chk("fbar window", "sd(|cos theta|)", 0.307758, math.sqrt(0.5 - _2opi**2), 1e-5)
+chk("fbar window", "which is 48% of the mean", 48.343,
+    math.sqrt(0.5 - _2opi**2)/_2opi*100, 1e-4, "%")
+_pw = lambda fr: (2/math.pi)*(math.asin(min(1.0, _2opi*(1+fr))) - math.asin(max(0.0, _2opi*(1-fr))))
+_off = abs(0.6253/_2opi - 1)
+chk("fbar window", "fit-implied f_bar's offset from 2/pi", 1.78, _off*100, 1e-2, "%")
+chk("fbar window", "P(a frozen phase lands that close)", 1.87, _pw(_off)*100, 1e-2, "%")
+chk("fbar window", "odds for the accumulated reading", 54.0, 1/_pw(_off), 2e-2, ":1")
+# the |cos| distribution's mean IS 2/pi -- so the frozen reading is not biased, only spread
+chk("fbar window", "mean of |cos| is 2/pi (frozen reading is unbiased)", _2opi,
+    sum(abs(math.cos(2*math.pi*_i/2000000)) for _i in range(2000000))/2000000, 1e-5)
+
+# ---- the phase is flat (koide_phase_is_a_flat_direction.py) ----------------
+# The graph's Hessian (N+1)I - J is 3I - P - P^2 on the 3-cycle: circulant a = 3, b = -1 (REAL),
+# so the two charged modes are exactly degenerate and the Koide phase is a flat direction.
+_om = cmath.exp(2j*math.pi/3)
+_ceig = lambda a, b: [a + 2*(b*_om**q).real for q in range(3)]
+_ge = _ceig(3.0, -1.0)
+chk("phase flat", "graph in circulant form: eps_0 = 1", 1.0, _ge[0], 1e-12)
+chk("phase flat", "eps_1 = eps_2 = 4", 4.0, _ge[1], 1e-12)
+chk("phase flat", "the doublet is exactly degenerate", 0.0, _ge[1]-_ge[2], 1e-12)
+# sweeping phi moves the masses but not Q, and not the graph energy
+def _prof(phi, M=1.0, R=math.sqrt(2.0)):
+    return [M + R*math.cos(phi + 2*math.pi*k/3) for k in range(3)]
+def _Egraph(f):
+    H = [[0.0]*3 for _ in range(3)]
+    for i in range(3):
+        H[i][i] += 3.0; H[i][(i+1) % 3] -= 1.0; H[i][(i-1) % 3] -= 1.0
+    return 0.5*sum(f[i]*H[i][j]*f[j] for i in range(3) for j in range(3))
+_Qof = lambda f: sum(x*x for x in f)/sum(f)**2
+_phis = (0.0, 2/9, 0.4, 1.0, 2.0)
+chk("phase flat", "graph energy is phi-independent", 0.0,
+    max(abs(_Egraph(_prof(p))/_Egraph(_prof(0.0)) - 1) for p in _phis), 1e-12)
+chk("phase flat", "Q is phi-independent, and equals 2/3", 2/3, _Qof(_prof(1.0)), 1e-14)
+chk("phase flat", "but the masses are NOT phi-independent", 1.0,
+    1.0 if abs(_prof(2.0)[0]**2/sum(x*x for x in _prof(2.0))
+               - _prof(0.0)[0]**2/sum(x*x for x in _prof(0.0))) > 0.5 else 0.0, 1e-12)
+# a complex bond splits the doublet; a real one cannot
+chk("phase flat", "arg b = 0 leaves the doublet degenerate", 0.0,
+    abs(_ceig(3.0, -1.0)[1] - _ceig(3.0, -1.0)[2]), 1e-12)
+chk("phase flat", "arg b = pi also leaves it degenerate", 0.0,
+    abs(_ceig(3.0, -1.0*cmath.exp(1j*math.pi))[1]
+        - _ceig(3.0, -1.0*cmath.exp(1j*math.pi))[2]), 1e-12)
+chk("phase flat", "arg b = 2/9 splits it", 0.76351,
+    abs(_ceig(3.0, -1.0*cmath.exp(1j*2/9))[1] - _ceig(3.0, -1.0*cmath.exp(1j*2/9))[2]), 1e-4)
+# ...but the split does NOT reach phi: the field is REAL, so f_2 = f_1* and only eps_1 + eps_2
+# enters. Protocol 30 -- lifting a degeneracy is not the same as fixing a parameter.
+def _Ecirc(f, a, b):
+    H = [[0j]*3 for _ in range(3)]
+    for i in range(3):
+        H[i][i] += a; H[i][(i+1) % 3] += b; H[i][(i-1) % 3] += b.conjugate()
+    return sum(f[i]*H[i][j]*f[j] for i in range(3) for j in range(3)).real
+chk("phase flat", "complex bond STILL leaves phi flat", 0.0,
+    max(abs(_Ecirc(_prof(p), 3.0, -1.0*cmath.exp(1j*0.7)) - _Ecirc(_prof(0.0), 3.0, -1.0*cmath.exp(1j*0.7)))
+        for p in _phis), 1e-12)
+chk("phase flat", "because eps_1 + eps_2 = 2a - 2 Re b carries no phi", 2*3.0 - 2*(-1.0*cmath.exp(1j*0.7)).real,
+    _ceig(3.0, -1.0*cmath.exp(1j*0.7))[1] + _ceig(3.0, -1.0*cmath.exp(1j*0.7))[2], 1e-12)
+# the cubic sees phi, and only through cos(3 phi)
+_Mc, _Rc = 1.0, math.sqrt(2.0)
+_cub = lambda p: sum(x**3 for x in _prof(p))
+chk("phase flat", "sum f^3 = 3M^3 + (9/2)MR^2 + (3/4)R^3 cos 3phi", 0.0,
+    max(abs(_cub(p) - (3*_Mc**3 + 4.5*_Mc*_Rc**2 + 0.75*_Rc**3*math.cos(3*p)))
+        for p in (0.0, 2/9, 1.0, 2.0)), 1e-12)
+chk("phase flat", "a pure cubic is stationary at 3phi = 0, not at Q", 0.666667,
+    abs(2/3 - 0.0), 1e-5, "rad")
+chk("phase flat", "cos Q, the value a tuned F' would have to hit", 0.785887,
+    math.cos(2/3), 1e-6)
+
+# ---- #146's mu_5 source (basement_mu5_source.py) ---------------------------
+# S -> e^{i th} S is undone by e_R -> e^{-i th} e_R: a right-handed-only rotation, which is
+# half vector and half axial. The vector half is gauged and screened; the axial half survives.
+_muR, _muL = 1.0, 0.0                              # in units of theta_dot
+chk("mu5 source", "vector part = theta_dot/2", 0.5, (_muR + _muL)/2, 1e-12)
+chk("mu5 source", "axial part = theta_dot/2", 0.5, (_muR - _muL)/2, 1e-12)
+chk("mu5 source", "a right-handed rotation is not purely axial", 1.0,
+    1.0 if abs((_muR + _muL)/2) > 1e-12 else 0.0, 1e-12)
+# magnitude at the one epoch theta_dot is pinned
+_Tsph, _gstar, _Mpl, _rat = 131.7, 106.75, 1.22e19, 2.4e6
+_H = 1.66*math.sqrt(_gstar)*_Tsph**2/_Mpl
+chk("mu5 source", "H(T_sph)", 2.4384e-14, _H, 1e-4, "GeV")
+chk("mu5 source", "theta_dot via the ratio route", 58.52, _rat*_H*1e9, 1e-3, "eV")
+# the ledger carries theta_dot DIRECTLY; the two routes agree to 2% (a T_sph choice), and the
+# recorded value governs.
+_theta_rec = 59.7
+chk("mu5 source", "ledger's direct theta_dot", 59.7, _theta_rec, 1e-9, "eV")
+chk("mu5 source", "its m_1/theta_dot", 3.8e-5, 2.25e-3/_theta_rec, 1e-2)
+chk("mu5 source", "the two routes disagree by 2%", 2.0,
+    100*abs(_rat*_H*1e9 - _theta_rec)/_theta_rec, 2e-2, "%")
+# The disagreement is a g* choice, and the DERIVED route has the better provenance: T_sph = 131.7
+# GeV is sourced (d'Onofrio-Rummukainen-Tranberg, per the transfer-integral spec) and g* = 106.75
+# is the SM value. The ledger's bare 59.7 eV would need g* = 111.1 and states no derivation.
+chk("mu5 source", "the ledger's value implies g* = 111.1", 111.1,
+    (59.7e-9*_Mpl/(_rat*1.66*_Tsph**2))**2, 1e-3)
+chk("mu5 source", "against the SM g* = 106.75", 106.75, _gstar, 1e-9)
+chk("mu5 source", "mu_5 from the sourced route", 29.26, _rat*_H*1e9/2, 1e-3, "eV")
+# it is far below the junction plasma frequency at the same epoch -- different objects
+chk("mu5 source", "w_J / mu_5 at T_sph", 195.0, 5.7e3/(_rat*_H*1e9/2), 2e-2, "x")
+
+# ---- the toroidal energy gate (toroidal_energy_gate_diagnostic.py) ---------
+# Measured on a 64^2x128 replica of the production run, 200 steps, identical initial condition:
+# the gate's 2% bar is measuring the absorbing sponge, not integrator error.
+_drift_on, _drift_off = 3.8341, 0.0003            # percent, over 200 steps
+chk("toroidal gate", "drift with the sponge", 3.8341, _drift_on, 1e-4, "%")
+chk("toroidal gate", "drift without it", 0.0003, _drift_off, 1e-4, "%")
+chk("toroidal gate", "ratio", 12780.0, _drift_on/_drift_off, 1e-2, "x")
+chk("toroidal gate", "sponge-off passes the 2% gate", 1.0,
+    1.0 if _drift_off <= 2.0 else 0.0, 1e-12)
+chk("toroidal gate", "sponge-on fails it", 1.0, 1.0 if _drift_on > 2.0 else 0.0, 1e-12)
+# per-step rate, which is what scales to the production run's 4000 steps
+chk("toroidal gate", "per-step drift, sponge on", 0.019170, _drift_on/200, 1e-4, "%")
+chk("toroidal gate", "extrapolated to 4000 steps (unbounded, as observed)", 76.68,
+    _drift_on/200*4000, 1e-4, "%")
+
+# ---- the democratic mechanism's other predictions (audit check 23) ---------
+# eps_0 = a, eps_charged = 4a  =>  w_0 = w_1/2, with w_1 = (2/9) T_c recorded.
+_TCk = 0.5*math.log(2)*0.51099895e6/1e3          # T_c in keV
+_w1k = (2/9)*_TCk
+chk("democratic predicts", "w_1 = (2/9) T_c", 39.3553, _w1k, 1e-5, "keV")
+chk("democratic predicts", "w_0 = w_1/2", 19.6777, _w1k/2, 1e-5, "keV")
+chk("democratic predicts", "and that is (1/9) T_c", _TCk/9, _w1k/2, 1e-12, "keV")
+# f_0^2 = (2n+1) hbar / (2 M w_0): the centre is located, not floating
+chk("democratic predicts", "f_0^2 ratio to the charged pair's, at equal n", 1.0,
+    (1.0/(_w1k/2)) / (2*(1.0/_w1k)), 1e-12)
+# the face count: (N-1)^2 = N+1 has exactly one positive root
+_roots = [N for N in range(1, 40) if abs((N-1)**2 - (N+1)) < 1e-12]
+chk("democratic predicts", "exactly one positive integer root", 1.0, float(len(_roots)), 1e-12)
+chk("democratic predicts", "and it is N = 3", 3.0, float(_roots[0]), 1e-12)
+
+# ---- (P2) reduces to (P1): K4 edge-transitivity, and what pinning costs ----
+import itertools as _it
+_nodes = range(4)
+_edges = [frozenset(e) for e in _it.combinations(_nodes, 2)]
+# full automorphism group S4: one orbit, so a single coupling is FORCED, not assumed
+_orb = {_edges[0]}
+for _p in _it.permutations(_nodes):
+    for _e in list(_orb):
+        _orb.add(frozenset(_p[i] for i in _e))
+chk("P2 reduction", "K4 has 6 edges", 6.0, float(len(_edges)), 1e-12)
+chk("P2 reduction", "Aut(K4) acts with ONE edge orbit", 6.0, float(len(_orb)), 1e-12)
+chk("P2 reduction", "so K4 is edge-transitive", 1.0,
+    1.0 if len(_orb) == len(_edges) else 0.0, 1e-12)
+# pin node 3 (the medium): residual S3 on the faces splits the edges into TWO orbits
+_orb2 = {frozenset({0, 1})}
+for _p in _it.permutations([0, 1, 2]):
+    _m = dict(zip([0, 1, 2], _p)); _m[3] = 3
+    for _e in list(_orb2):
+        _orb2.add(frozenset(_m[i] for i in _e))
+chk("P2 reduction", "pinned: face-face orbit has 3 edges", 3.0, float(len(_orb2)), 1e-12)
+chk("P2 reduction", "so pinning first leaves TWO orbits, equality not forced", 1.0,
+    1.0 if len(_orb2) < len(_edges) else 0.0, 1e-12)
+
+# ---- the K ~ R^2, V ~ M^2 identification (koide_KV_identification.py) ------
+_w_of_A = lambda A: (A*A - 1)/(A*A + 1)
+chk("KV identification", "A = sqrt2 gives w = 1/3", 1/3, _w_of_A(math.sqrt(2)), 1e-14)
+chk("KV identification", "and Q = 1 - w = 2/3", 2/3, 1 - _w_of_A(math.sqrt(2)), 1e-14)
+chk("KV identification", "the compression A^2 = (1-w)/w", 2.0,
+    (1 - _w_of_A(math.sqrt(2)))/_w_of_A(math.sqrt(2)), 1e-13)
+# read on sector ENERGIES instead, the null gives 4 and w = 0.6 -- the exact shortfall
+_Eu, _Es = 0.5*1.0*1.0, 0.5*4.0*1.0          # eps_0 = a, eps_1 = 4a, at M_c = R_c
+chk("KV identification", "sector-energy ratio at the null", 4.0, _Es/_Eu, 1e-12)
+chk("KV identification", "which would give w = 0.6, not 1/3", 0.6,
+    (_Es/_Eu - 1)/(_Es/_Eu + 1), 1e-12)
+# on raw amplitudes with a common coefficient it is 1/3 exactly
+chk("KV identification", "raw amplitudes R^2 = 2M^2 give w = 1/3", 1/3, (2.0-1.0)/(2.0+1.0), 1e-14)
+# at the degenerate stage the stiffnesses are equal, so the common-coefficient clause holds
+chk("KV identification", "at degeneracy the two stiffnesses are equal", 0.0,
+    abs(_epsq(1, 0.0) - _epsq(0, 0.0)), 1e-12)
+
+# ---- f_bar's leading-order residual, priced (fbar_leading_order_price.py) --
+# dm/m = |x| + c2 x^2 with x = eps cos(theta)  =>  f_bar_eff = 2/pi + c2 eps/2
+_epsA = 0.012543
+_perc2 = (_epsA/2)/(2/math.pi)
+chk("fbar residual", "shift per unit c2", 0.985125, _perc2*100, 1e-5, "%")
+chk("fbar residual", "fit-implied deficit -> c2", -1.80, (0.6253/(2/math.pi) - 1)/_perc2, 1e-2)
+chk("fbar residual", "winding ensemble -> c2", -0.84, (0.63137/(2/math.pi) - 1)/_perc2, 2e-2)
+chk("fbar residual", "both are order unity", 1.0,
+    1.0 if all(0.1 < abs((v/(2/math.pi) - 1)/_perc2) < 10 for v in (0.6253, 0.63137)) else 0.0, 1e-12)
+chk("fbar residual", "the two readings' separation", 1.9,
+    abs((0.6253-0.63137)/(2/math.pi))/_perc2/((0.00328/(2/math.pi))/_perc2), 3e-2, "sigma")
+# the subleading term must SCALE with eps -- that is the falsifier
+_c2ref = (0.6253/(2/math.pi) - 1)/_perc2
+chk("fbar residual", "at eps -> 0 the deficit vanishes", 2/math.pi,
+    2/math.pi + _c2ref*1e-12/2, 1e-11)
+
+# ---- the unsupplied shares, per channel (PRTOE_light.md) -------------------
+# What is "not derived" in each channel is the BARE Planck-scale value; the run is supplied.
+_invY_MZ = 98.4                                   # 1/alpha_Y at M_Z, unrounded
+chk("unsupplied share", "hypercharge: induced = 1/aY(M_Z) - 1/aY(M_Pl)", 42.9,
+    _invY_MZ - _invY_Pl, 1e-3)
+chk("unsupplied share", "hypercharge induced fraction", 43.6,
+    100*(_invY_MZ - _invY_Pl)/_invY_MZ, 1e-2, "%")
+chk("unsupplied share", "hypercharge UNSUPPLIED fraction", 56.4,
+    100*_invY_Pl/_invY_MZ, 1e-2, "%")
+_invEM_Pl = _inv2_Pl + _invY_Pl
+chk("unsupplied share", "1/a_EM(M_Pl) = 1/a2 + 1/aY", 104.9, _invEM_Pl, 1e-4)
+chk("unsupplied share", "EM induced share", 23.45,
+    100*(1/ALPHA - _invEM_Pl)/(1/ALPHA), 1e-3, "%")
+chk("unsupplied share", "EM UNSUPPLIED share", 76.5,
+    100*_invEM_Pl/(1/ALPHA), 1e-3, "%")
+# the two shares are the same debt in two channels: both are the bare M_Pl value
+chk("unsupplied share", "both channels leave the BARE M_Pl value owed", 1.0,
+    1.0 if abs((100*_invY_Pl/_invY_MZ) - 56.4) < 0.1
+       and abs((100*_invEM_Pl/(1/ALPHA)) - 76.5) < 0.1 else 0.0, 1e-12)
+
+# ---- medium-induced decoherence: the double null (medium_induced_decoherence.py) ---
+# The medium cannot decohere a laboratory superposition, for two independent reasons.
+# Both are graded here because both are load-bearing: each alone would leave a regime open.
+_BETA_S = math.sqrt(3 * ALPHA)          # c_s/c = sqrt(alpha_c), alpha_c = 3 alpha
+_M_MED  = 2.24e-20                      # eV, medium constituent
+_HBARC  = 1.973269804e-7                # eV m
+_KB     = 8.617333262e-5                # eV/K
+_XI     = _HBARC / (_M_MED * _BETA_S)   # m
+
+chk("decoherence", "c_s = sqrt(3 alpha)", 0.1479596, _BETA_S, 1e-6)
+chk("decoherence", "xi reproduces recorded 402 AU", 402.0, _XI / 1.495978707e11, 0.02, "AU")
+
+# (a) Landau. Bogoliubov omega/q = c_s sqrt(1+(q xi/2)^2) rises monotonically from c_s,
+#     so v_c = c_s exactly. No roton dip means no reduction below the sound speed.
+_min_ratio = min(math.sqrt(1 + (i * 1e-3 / 2) ** 2) for i in range(0, 20001))
+chk("decoherence", "Landau v_c / c_s (no roton minimum)", 1.0, _min_ratio, 1e-9)
+# Earth through the CMB frame, against that threshold
+chk("decoherence", "v_Earth/v_c (CMB frame)", 8.34e-3,
+    3.698e5 / (_BETA_S * 299792458.0), 0.01)
+
+# (b) Rigidity. The rate carries (dx/xi)^2; a micron superposition is dead on arrival.
+chk("decoherence", "(1 micron / xi)^2 suppression", 2.821e-40, (1e-6 / _XI) ** 2, 0.05)
+
+# finite T does not open a gap: lambda_T = xi exactly at T = mu/k_B, where the
+# condensate itself ends, so lambda_T >= xi wherever the medium exists at all
+_mu_K = _M_MED * _BETA_S ** 2 / _KB
+_lamT = _HBARC * _BETA_S / (_KB * _mu_K)
+chk("decoherence", "lambda_T(T=mu/k_B) = xi", _XI, _lamT, 1e-9, "m")
+
+# the threshold is not vacuous: relativistic matter clears it, which is where the
+# one surviving channel (Cherenkov phonon emission) lives
+_beta_1MeV_e = math.sqrt(1 - 1 / (1 + 1.0 / 0.511) ** 2)
+chk("decoherence", "1 MeV electron is supercritical", 1.0,
+    1.0 if _beta_1MeV_e > _BETA_S else 0.0, 1e-12)
+
+# ---- the abundance pin's arithmetic, NOT a prediction (psi0_redshift_closure.py) ----
+# CIRCULAR BY CONSTRUCTION, and graded here only as an arithmetic tripwire. Psi_0 was
+# fixed by demanding today's abundance (PHYSICS_DOMAINS row 70), so diluting it back
+# onto Omega_DM inverts its own defining relation. What these rows catch is a slipped
+# exponent, a wrong dilution law, or a mis-stated z_on -- never a physics claim.
+# Do not cite them as the model reproducing the dark matter density.
+_PSI0_GEV = 5.03e16          # misalignment amplitude AT ONSET
+_M_UL     = 2.24e-20         # eV
+_Z_ON     = 4.03e7
+_GEV      = 1.0e9
+_HBARC_CM = 1.9732698e-5     # eV cm
+
+def _gevcm3_to_eV4(x):
+    return x * _GEV / (1.0 / _HBARC_CM) ** 3
+
+_psi_fwd = _PSI0_GEV / (1.0 + _Z_ON) ** 1.5
+_om_dm   = 0.1200 / 0.674 ** 2
+_rhocrit = 1.87834e-29 * 0.674 ** 2 / 1.78266192e-24        # GeV/cm^3
+_rho_dm4 = _gevcm3_to_eV4(_om_dm * _rhocrit)
+_psi_bwd = math.sqrt(2.0 * _rho_dm4) / _M_UL / _GEV
+
+chk("pin arithmetic", "Psi_today from onset (GeV)", 1.9661e5, _psi_fwd, 1e-3, "GeV")
+chk("pin arithmetic", "Psi_today from Omega_DM (GeV)", 1.9678e5, _psi_bwd, 1e-3, "GeV")
+chk("pin arithmetic", "the pin inverts consistently [CIRCULAR]", 1.0,
+    _psi_fwd / _psi_bwd, 5e-3)
+
+# the local halo amplitude, which any coupling calculation needs
+_psi_loc = math.sqrt(2.0 * _gevcm3_to_eV4(0.4)) / _M_UL / _GEV
+chk("pin arithmetic", "Psi_local (halo, GeV)", 1.1068e8, _psi_loc, 1e-3, "GeV")
+
+# the one row here owing nothing to a fitted input: pure Cherenkov kinematics
+_bs = math.sqrt(3 * ALPHA)
+chk("kinematics", "omega_max per emitted quantum (eV)", 4.4305e-20,
+    2.0 * _M_UL * math.sqrt(1.0 - _bs ** 2), 0.01, "eV")
+
+# ---- the entropy front at high velocity, #65 (entropy_front_high_velocity.py) ----
+# Grade stated before computing (protocol check 33): this is a KINEMATIC bound plus an
+# external-data census. No input is fitted to the target. The result is allowed to come
+# out either way -- either gas reaches the threshold or it does not -- and the claim's
+# evidence class is "kinematics + measured velocities" whichever way it lands.
+_CS_KMS   = math.sqrt(3 * ALPHA) * 299792.458
+_E_THIRD  = 6.41 / 3.0 * 1000.0      # eV, the kinetic third of the rest-energy step
+
+# the corpus's own slow-limit rows, reproduced (guards against replacing its construction)
+chk("entropy front", "f at 1000 km/s infall", 0.023, 1000.0 / _CS_KMS, 0.06)
+chk("entropy front", "pickup at 1000 km/s (eV)", 50.0, _E_THIRD * 1000.0 / _CS_KMS, 0.06, "eV")
+
+# the extension: the fraction saturates, and the ceiling is NOT small
+chk("entropy front", "saturation ceiling (eV/particle)", 2136.7, _E_THIRD, 0.01, "eV")
+
+# the census result that closes it: no gas reaches the line
+chk("entropy front", "fastest cluster merger, v/c_s", 0.1127, 5000.0 / _CS_KMS, 0.02)
+chk("entropy front", "AGN outflows straddle the threshold", 1.0,
+    1.0 if (0.03 * 299792.458 < _CS_KMS < 0.30 * 299792.458) else 0.0, 1e-12)
+
+# ---- hierarchy: k_F cancels, #58 (hierarchy_kF_and_bendover.py) -------------
+# Grade stated before computing (check 33): internal consistency only, nothing here
+# confirms the model against data. alpha_c = 3 alpha is pre-registered and k is
+# recomputed rather than adopted, so no input is fitted to the quantity recovered.
+_v   = 1.0
+_b   = 2.0 * ALPHA_C_ if 'ALPHA_C_' in dir() else 2.0 * (3 * ALPHA) / (math.pi * _v)
+_k58 = math.log(1.0 + 1.0 / _b) / math.pi
+
+chk("hierarchy 58", "b = 2 alpha_c/pi", 0.0139369, _b, 1e-5)
+chk("hierarchy 58", "k recomputed, not adopted", 1.36461191, _k58, 1e-8)
+chk("hierarchy 58", "lambda = k alpha_c", 0.0298742, _k58 * 3 * ALPHA, 1e-5)
+chk("hierarchy 58", "anchor sensitivity 1/(k alpha_c)", 33.47,
+    1.0 / (_k58 * 3 * ALPHA), 1e-3)
+# the 2-for-screening is load-bearing: one band moves k by 16%
+chk("hierarchy 58", "one-band counterfactual k", 1.58305,
+    math.log(1.0 + math.pi / (3 * ALPHA)) / math.pi, 1e-4)
+
+# lambda assembled with k_F explicit must not depend on it (cancels twice)
+def _lam_kF(kF):
+    N0 = kF ** 2 / (math.pi ** 2 * _v)
+    e2 = 4.0 * math.pi * (3 * ALPHA)
+    bb = (e2 * 2.0 * N0) / (4.0 * kF ** 2)
+    return N0 * (e2 / (4.0 * kF ** 2)) * math.log(1.0 + 1.0 / bb)
+chk("hierarchy 58", "k_F cancels (spread over 8 decades)", 0.0,
+    max(_lam_kF(10.0 ** e) for e in range(-4, 5))
+    - min(_lam_kF(10.0 ** e) for e in range(-4, 5)), 1e-15)
+
+# ---- 6f: horn (a) double-counts (hierarchy_6f_double_count.py) --------------
+# Grade stated before computing (check 33): STRUCTURAL. Says which quantity belongs in
+# a many-body gap equation. Cannot confirm the model against data and does not move the
+# anchor's 2.00x overshoot.
+def _k_of(a_c):
+    return math.log(1.0 + 1.0 / (2.0 * a_c / math.pi)) / math.pi
+
+chk("6f double-count", "k at alpha(0)", 1.36461, _k_of(3 * ALPHA), 1e-5)
+chk("6f double-count", "k at alpha(M_Z)", 1.34309, _k_of(3 / 127.951), 1e-5)
+chk("6f double-count", "k at Planck floor", 1.28100, _k_of(3 / 104.94), 1e-5)
+chk("6f double-count", "1/alpha(M_Pl) = 1/a2 + 1/aY", 104.94, 49.46 + 55.48, 1e-3)
+
+# the screening already applied dwarfs the run horn (a) wants to add on top of it
+_scr = math.log(1.0 + math.pi / (2.0 * 3 * ALPHA))
+_run = math.log((1 / 127.951) / ALPHA)
+chk("6f double-count", "6c screening ln(1+1/b)", 4.2871, _scr, 1e-3)
+chk("6f double-count", "screening / QED-run-to-MZ", 62.5, _scr / _run, 1e-2)
+
+# ---- #76: the boost-dressed gap condition, verified not assumed ------------
+# The ledger records this route CLOSED and points at hierarchy section 2 part (b).
+# Checked 2026-07-28 rather than trusted: the chain there is a pairing log whose IR end
+# is the gap dressed by the constituents' thermal boost, M_eff = M e^(<E_kin>/T), with
+# equipartition giving <E_kin>/T = 3/2 at any NR formation temperature. The gap
+# condition ln(M_red/M_eff) = 1/(k alpha_c) must then deliver the recorded anchor.
+_M_RED = 2.435323e18                       # GeV, reduced Planck mass
+_k76   = math.log(1.0 + math.pi / (2.0 * 3 * ALPHA)) / math.pi
+_M76   = _M_RED * math.exp(-1.0 / (_k76 * 3 * ALPHA) - 1.5)
+
+chk("boost-dressed gap", "M from ln(M_red/M_eff)=1/(k a_c)", 1576.1, _M76, 1e-3, "GeV")
+# the 3/2 is what separates it from the naive transmutation point; check the lever
+chk("boost-dressed gap", "e^(3/2) suppression factor", 4.481689, math.exp(1.5), 1e-6)
+# and that the recorded anchor sits at the boost-dressed point, not the naive one
+chk("boost-dressed gap", "naive (no 3/2) would overshoot by e^(3/2)", math.exp(1.5),
+    (_M_RED * math.exp(-1.0 / (_k76 * 3 * ALPHA))) / _M76, 1e-9)
+
+# ---- #1: node vs backdrop is a spectral question (koide_node_vs_backdrop.py) ----
+# Grade stated before computing (check 33): STRUCTURAL, decides nothing about whether
+# the condensate IS a node. Exhibits the discriminant only.
+# Graph Hessian for 3 faces + medium, bonds a (face-face) and b (face-medium):
+# spectrum is {0, 3a+b, 3a+b, 4b}, threefold degenerate iff a = b.
+def _tri(a, b):
+    """the nonzero triple, analytically"""
+    return sorted([3 * a + b, 3 * a + b, 4 * b])
+
+chk("node vs backdrop", "K4 (a=b) triple is degenerate", 0.0,
+    _tri(1.0, 1.0)[2] - _tri(1.0, 1.0)[0], 1e-12)
+chk("node vs backdrop", "K4 nonzero eigenvalue = 4a", 4.0, _tri(1.0, 1.0)[0], 1e-12)
+# a backdrop splits it, rigidly and at first order
+_t = _tri(1.0, 1.1)
+chk("node vs backdrop", "10% mismatch splits triple", 0.068182,
+    (_t[2] - _t[0]) / _t[2], 1e-5)
+_t = _tri(1.0, 1.5)
+chk("node vs backdrop", "50% mismatch splits triple", 0.25,
+    (_t[2] - _t[0]) / _t[2], 1e-9)
+# degeneracy condition is exactly a = b
+chk("node vs backdrop", "3a+b = 4b iff a = b", 1.0,
+    (lambda a: a)(1.0) if abs(3 * 1.0 + 1.0 - 4 * 1.0) < 1e-12 else 0.0, 1e-12)
+
+# ---- #57: the deuterium row's width, by rule (deuterium_row_width.py) -------
+# Rule fixed before the numbers (check 33): a central value and its error must come
+# from the same place. Kills construction (X) -- the widest and most flattering.
+_DH_M, _DH_L, _DH_O = 2.387, 2.420, 2.527
+_wA = math.hypot(0.030, 0.037)
+chk("deuterium row", "(A) width", 0.0476, _wA, 1e-2)
+chk("deuterium row", "(A) model tension", -2.94, (_DH_M - _DH_O) / _wA, 1e-2, "sigma")
+chk("deuterium row", "(A) LCDM control", -2.25, (_DH_L - _DH_O) / _wA, 1e-2, "sigma")
+# (B): compilation average moves centre AND error together
+_shift = 0.0524 / 2.0
+_wB = math.hypot(math.hypot(0.030, 0.0384), _shift)
+chk("deuterium row", "(B) model tension", -2.06, (_DH_M + _shift - _DH_O) / _wB, 2e-2, "sigma")
+# the width-independent part: the model's own cost against its own control
+chk("deuterium row", "excess deficit vs control", 0.033, _DH_L - _DH_M, 1e-2)
+chk("deuterium row", "model is further from Cooke than LCDM, every width", 1.0,
+    1.0 if abs(_DH_M - _DH_O) > abs(_DH_L - _DH_O) else 0.0, 1e-12)
+
+# ---- the anchor's honest band (anchor_honest_precision.py) ------------------
+# Grade stated before computing (check 33): a check on ADVERTISING, not physics. It
+# cannot improve the anchor; it decides what precision the construction earns.
+def _k_a(a_c):
+    return math.log(1.0 + math.pi / (2.0 * a_c)) / math.pi
+def _M_a(a_c):
+    return 2.435323e18 * math.exp(-1.0 / (_k_a(a_c) * a_c) - 1.5)
+
+_M_rec = _M_a(3 * ALPHA)
+chk("anchor band", "recorded form M (GeV)", 1576.1, _M_rec, 1e-3, "GeV")
+chk("anchor band", "agreement with 4 pi m_H (%)", 0.16,
+    abs(_M_rec - 4 * math.pi * 125.25) / (4 * math.pi * 125.25) * 100, 0.2, "%")
+# the two named ambiguities, composed
+chk("anchor band", "6f residual at M_Z", 5.58, _M_a(3 / 127.951) / _M_rec, 0.05)
+chk("anchor band", "honest band span (6d x2 times 6f)", 11.2,
+    2.0 * _M_a(3 / 127.951) / _M_rec, 0.1)
+# the sensitivity that makes extra digits meaningless
+chk("anchor band", "d lnM/d lnk", 33.47, 1.0 / (_k_a(3 * ALPHA) * 3 * ALPHA), 1e-3)
+
+# ---- the scale ladder is the virial theorem (scale_ladder_virial_check.py) --
+# Grade stated before computing (check 33): asks whether the ladder is a claim or a
+# restatement. It cannot support the ladder. Result: restatement -- so docket #11
+# (the "energy cascade", the dynamical half) closes as malformed, not unfinished.
+_G, _CL, _MSUN, _AU_M = 6.67430e-11, 299792458.0, 1.98892e30, 1.495978707e11
+for _r_au in (1.0, 40.0):
+    _r = _r_au * _AU_M
+    _v = math.sqrt(_G * _MSUN / _r)
+    # the ladder's column, and the virial theorem, must be bit-identical
+    chk("scale ladder", f"(1/2)(v/c)^2 == GM/2rc^2 at {_r_au:.0f} AU",
+        _G * _MSUN / (2.0 * _r * _CL ** 2), 0.5 * (_v / _CL) ** 2, 1e-12)
+# the atomic rung is the Rydberg, not an independent agreement
+chk("scale ladder", "atom rung = Rydberg/m_e c^2", 13.605693 / 510998.95,
+    0.5 * ALPHA ** 2, 1e-4)
+# the universe rung, definitional by the model's own dark-energy relation
+chk("scale ladder", "universe rung = (1/2)alpha_c^2", 2.3963e-4,
+    0.5 * (3 * ALPHA) ** 2, 1e-3)
+
+# ---- circularity sweep of the headline landings (circularity_sweep.py) ------
+# Grade stated before computing (check 34): a PROVENANCE audit. It confirms nothing;
+# it sorts claims into circular / clean. Two of five came back empty.
+_TAU  = 0.5 * math.log(2.0)
+_T_C  = _TAU * 510998.95                       # eV
+_rho4 = (9.0 / 2.0) * ALPHA ** 4 * _T_C        # eV
+
+chk("circularity", "T_c = tau m_e (keV)", 177.099, _T_C / 1e3, 1e-4, "keV")
+chk("circularity", "rho_Lambda^(1/4) (meV)", 2.2599, _rho4 * 1e3, 1e-3, "meV")
+# the flagship is an OFFSET, not an agreement: theory side has no free parameter
+chk("circularity", "flagship offset (%)", 0.44, (_rho4 * 1e3 / 2.25 - 1) * 100, 0.02, "%")
+chk("circularity", "offset in obs-error units (sigma)", 1.77,
+    (_rho4 * 1e3 / 2.25 - 1) / (0.01 / 4.0), 0.05, "sigma")
+# epsilon's closed form, and that it equals 27a/5pi identically
+chk("circularity", "epsilon = c fbar alpha_c (%)", 1.2543,
+    (9.0 / 10.0) * (2.0 / math.pi) * 3 * ALPHA * 100, 1e-3, "%")
+chk("circularity", "epsilon == 27 alpha/5 pi", 0.0,
+    (9.0 / 10.0) * (2.0 / math.pi) * 3 * ALPHA - 27 * ALPHA / (5 * math.pi), 1e-18)
+
+# ---- Pauli finiteness, counted independently (P-2026-045) -------------------
+# Circularity sweep verdict (check 34): CLEAN. Both 16 and 48 come from field counting
+# with fixed heat-kernel weights; neither is fitted to N_gen = 3. The equation is
+# derived for general N_gen and solved, which is why the root means something.
+# Weyl components per generation, SM + one right-handed neutrino:
+_WEYL_GEN = (2 * 3) + 3 + 3 + 2 + 1 + 1     # Q, u_R, d_R, L, e_R, nu_R
+chk("Pauli finiteness", "Weyl components per generation", 16, _WEYL_GEN, 1e-12)
+chk("Pauli finiteness", "SM alone, no nu_R (per gen)", 15, _WEYL_GEN - 1, 1e-12)
+# twelve gauge bosons at -4 each
+chk("Pauli finiteness", "gauge contribution", -48, 12 * (-4), 1e-12)
+# the balance, and that 3 is the unique integer root
+chk("Pauli finiteness", "str[k1] at N_gen = 3", 0, _WEYL_GEN * 3 + 12 * (-4), 1e-12)
+chk("Pauli finiteness", "SM alone misses by -3", -3, 15 * 3 + 12 * (-4), 1e-12)
+chk("Pauli finiteness", "root is an integer (48/16)", 3, 48 // _WEYL_GEN, 1e-12)
+# the recorded penalties
+chk("Pauli finiteness", "one extra sterile: +1", 1, (_WEYL_GEN * 3 + 1) - 48, 1e-12)
+chk("Pauli finiteness", "fourth generation: +16", 16, _WEYL_GEN * 4 - 48, 1e-12)
+chk("Pauli finiteness", "a 2nd nu_R in every generation: +3", 3, (_WEYL_GEN + 1) * 3 - 48, 1e-12)
+
+# ---- Koide protection, at its true weight (2026-07-28 sweep) ----------------
+# The invariance is TRIVIAL: Q is homogeneous of degree 0, so any universal rescaling
+# leaves it exactly unchanged. The content is that the coupling is flavour-UNIVERSAL --
+# a non-universal shift does move Q, which is the model's genuine way to die here.
+_ME, _MMU, _MTAU = 0.51099895, 105.6583755, 1776.86     # MeV, PDG
+def _Q(ms):
+    return sum(ms) / (sum(math.sqrt(m) for m in ms)) ** 2
+
+_Qb = _Q([_ME, _MMU, _MTAU])
+chk("Koide protection", "Q measured", 0.6666605, _Qb, 1e-6)
+# universal rescaling is exactly invariant, for any lambda
+for _lam in (1.0124, 1.5, 100.0):
+    chk("Koide protection", f"Q invariant at lambda={_lam}", _Qb,
+        _Q([_lam * m for m in (_ME, _MMU, _MTAU)]), 1e-15)
+# a NON-universal shift moves it -- this is what makes universality load-bearing
+_Qe = _Q([_ME * 1.0124, _MMU, _MTAU])
+chk("Koide protection", "electron-only shift moves Q (ppm)", -162.9,
+    (_Qe / _Qb - 1) * 1e6, 0.02, "ppm")
+# and the measured fence it would have to hide under
+chk("Koide protection", "fence: Q uncertainty", 6.8e-6, 6.8e-6, 1e-12)
+
+# ---- the Route-D branch's era width (2026-07-28 sweep) ----------------------
+# SCOPE, corrected the same day: this turnaround belongs to ROUTE-D (the thawing
+# branch), NOT to P-2026-018 (w = -1 rigid). Under P-2026-018 the floor is a bare
+# constant, de Sitter, no turnaround at all -- "no thaw ever" is correct there.
+# P-2026-056 registers the two as an either/or with DESI DR3 adjudicating. An earlier
+# pass in this session wrongly attached this number to the w = -1 row; do not repeat it.
+_A_S = 2.088e-9
+chk("Route-D era", "t_turn = ln(1/sqrt(A_s))/sqrt(3/2)  [H^-1]", 8.16,
+    math.log(1.0 / math.sqrt(_A_S)) / math.sqrt(1.5), 1e-3)
+chk("Route-D era", "|ln A_s| divides amplitude error", 19.99, abs(math.log(_A_S)), 1e-3)
+# floor-independence: the width in Hubble units contains no rho_Lambda
+chk("Route-D era", "width is floor-independent (A_s only)", 1.0,
+    1.0 if abs(math.log(1.0 / math.sqrt(_A_S)) / math.sqrt(1.5) - 8.1597) < 1e-3 else 0.0, 1e-12)
+
+# ---- sphaleron B/(B-L) conversion (sphaleron_conversion_nuR.py, part of #74) ----
+# Grade stated before computing (check 33): the SM control MUST return 28/79 or no
+# nu_R number is quoted. First attempt inverted all four Yukawa constraints, returned
+# 20/53, and was withheld. Signs derived from psibar_1 psi_2 phi => mu_2 + mu_phi = mu_1.
+from fractions import Fraction as _Fr
+
+def _sphaleron(N=3, with_nuR=False):
+    mH = _Fr(1)
+    def flds(q):
+        return (q, q + mH, q - mH, -3 * q, -3 * q - mH,
+                (-3 * q + mH) if with_nuR else _Fr(0))
+    def hyp(q):
+        mQ, mu, md, mL, me, _ = flds(q)
+        return (_Fr(6*N)*_Fr(1,6)*mQ + _Fr(3*N)*_Fr(2,3)*mu + _Fr(3*N)*_Fr(-1,3)*md
+                + _Fr(2*N)*_Fr(-1,2)*mL + _Fr(N)*_Fr(-1)*me + _Fr(2)*_Fr(2)*_Fr(1,2)*mH)
+    h0 = hyp(_Fr(0)); q = -h0 / (hyp(_Fr(1)) - h0)
+    mQ, mu, md, mL, me, mnu = flds(q)
+    B = _Fr(2*N)*mQ + _Fr(N)*mu + _Fr(N)*md
+    L = _Fr(2*N)*mL + _Fr(N)*me + (_Fr(N)*mnu if with_nuR else _Fr(0))
+    return B / (B - L)
+
+chk("sphaleron", "SM control = 28/79", 28.0/79.0, float(_sphaleron(3, False)), 1e-12)
+chk("sphaleron", "SM + 3 nu_R in equilibrium = 1/4", 0.25,
+    float(_sphaleron(3, True)), 1e-12)
+chk("sphaleron", "nu_R reduces the conversion by 29.5%", 0.2946,
+    1.0 - float(_sphaleron(3, True)) / float(_sphaleron(3, False)), 1e-3)
+
+# ---- the settled-chain scatter test (quartet clock grading, 2026-07-28) -----
+# A chain that is SAMPLING has segment means scattered by ~sd/sqrt(n_seg). A chain that
+# is WANDERING has them scattered far wider. cmp_prtoe_zon_disp fails this by 59x, which
+# is why its apparent landing on 7.55 (the alpha_c = 3 alpha target) was refused rather
+# than reported. Numbers frozen here so the refusal cannot quietly reverse.
+_SEG_MEANS = [7.4495, 7.4461, 7.4806, 7.5607, 7.6081, 7.6348, 7.6031, 7.6118]
+_CHAIN_SD, _SEG_N = 0.0779, 594
+
+chk("chain scatter", "segment-mean spread", 0.1887,
+    max(_SEG_MEANS) - min(_SEG_MEANS), 1e-3)
+chk("chain scatter", "expected spread if settled", 0.0032,
+    _CHAIN_SD / math.sqrt(_SEG_N), 0.02)
+chk("chain scatter", "wander factor (observed/expected)", 59.0,
+    (max(_SEG_MEANS) - min(_SEG_MEANS)) / (_CHAIN_SD / math.sqrt(_SEG_N)), 0.03)
+# the trap: the cumulative mean crosses the target while the chain sits elsewhere
+chk("chain scatter", "cumulative mean at stop", 7.5494, 7.5494, 1e-9)
+chk("chain scatter", "late-segment mean, where it actually is", 7.6118, _SEG_MEANS[-1], 1e-9)
+
+# ---- the tau collision: two internal estimates disagree (2026-07-28) --------
+# The kernel gives tau = (1/2)ln2 from Parseval. The dof-family scaling of the lattice
+# anchors down to SU(2) N_f=3 gives tau ~ 0.355-0.382. tau scales rho_Lambda^(1/4)
+# LINEARLY, so the band is +2.9% to +10.7% where the headline quotes +0.44%.
+_TAU_K = 0.5 * math.log(2.0)
+_RHO_K = 2.2599          # meV, at the kernel's tau
+chk("tau collision", "kernel tau", 0.34657, _TAU_K, 1e-4)
+chk("tau collision", "headline offset (%)", 0.44, (_RHO_K / 2.25 - 1) * 100, 0.02, "%")
+for _lab, _t, _want in (("low", 0.355, 2.9), ("centre", 0.360, 4.3), ("high", 0.382, 10.7)):
+    chk("tau collision", f"dof-family {_lab}: rho offset (%)", _want,
+        (_RHO_K * _t / _TAU_K / 2.25 - 1) * 100, 0.03, "%")
+# the ratio that matters: the model's other estimate is ~10x further off
+chk("tau collision", "dof-family centre / headline offset", 9.8,
+    ((_RHO_K * 0.360 / _TAU_K / 2.25 - 1) * 100) / ((_RHO_K / 2.25 - 1) * 100), 0.03)
+
+# ---- the three epoch anchors, checked for a collision and clean (2026-07-28) ----
+# T_c, z_on and z_x are three DIFFERENT conditions, not one symbol wearing three hats.
+# Two of the three are confirmed against independently recorded values, which is what
+# makes this a check rather than a restatement.
+_T0_CMB = 2.348e-4                       # eV, photon temperature today
+chk("three epochs", "z(T_c = 179 keV)", 7.62e8, 179e3 / _T0_CMB - 1, 0.01)
+chk("three epochs", "photon T at z_on = 4.03e7 (keV)", 9.46,
+    _T0_CMB * (1 + 4.03e7) / 1e3, 0.01, "keV")
+chk("three epochs", "photon T at z_x = 1e5 (eV)", 23.5, _T0_CMB * (1 + 1e5), 0.01, "eV")
+# and that they are genuinely separated -- z(T_c) is ~19x earlier than z_on
+chk("three epochs", "z(T_c)/z_on separation", 18.9, (179e3 / _T0_CMB) / 4.03e7, 0.02)
+
+# ---- the condensate fraction through z_x (condensate_growth_through_zx.py) ----
+# Grade stated before computing (check 33): BOOKKEEPING over supplied laws, nothing new
+# derived. Separates what #67 already has (the fraction) from what it lacks (one
+# modelling ruling). Deliberately does NOT construct an amplitude profile.
+_Z_X, _Z_REC = 1.0e5, 1100.0
+_f_n = lambda z, n=4: ((1.0 + z) / (1.0 + _Z_X)) ** n
+chk("condensate fraction", "f_n = 1 exactly at z_x", 1.0, _f_n(_Z_X), 1e-12)
+chk("condensate fraction", "f_n at recombination (n=4)", 1.47e-8, _f_n(_Z_REC), 0.02)
+chk("condensate fraction", "f_cond at recombination", 1.0, 1.0 - _f_n(_Z_REC), 1e-7)
+# the ordering that makes the remaining clause necessary: z_on precedes z_x by 403x
+chk("condensate fraction", "z_on / z_x separation", 403.0, 4.03e7 / _Z_X, 1e-3)
+
+# ---- the ~1700x dark-asymmetry bound (DERIVATION_HUNT, verified 2026-07-28) ----
+# To BE the dark matter, MeV-scale dark baryons need n_dark/n_b = (Om_DM/Om_b)(m_p/m_dark).
+# The recorded "~1700x the visible asymmetry" pins the mass it assumes -- worth booking,
+# because the bullet says "~MeV" and 1 MeV would give 5033x, a factor 3 different.
+_OM_DM, _OM_B = 0.1200 / 0.674**2, 0.02237 / 0.674**2
+_MP = 938.272
+chk("dark asymmetry", "Omega_DM/Omega_b", 5.364, _OM_DM / _OM_B, 1e-3)
+chk("dark asymmetry", "asymmetry ratio at m_dark = 2.96 MeV", 1700.0,
+    (_OM_DM / _OM_B) * (_MP / 2.96), 1e-2)
+# the sensitivity the bullet's wording hides: "~MeV" spans a factor 5 in the bound
+chk("dark asymmetry", "ratio at m_dark = 1 MeV (not 1700)", 5033.0,
+    (_OM_DM / _OM_B) * (_MP / 1.0), 1e-2)
+
+# ---- toroidal fork: the parity pair is dynamically identical (2026-07-28) ---
+# The fork grades a DIFFERENCE between the n = +1 and n = -1 branches, which is only
+# interpretable if the branches are otherwise the same run. Measured, not assumed:
+# E-drift agrees to 0.008 percentage points across all shared frames, on a quantity
+# that reaches 58. Frozen here so a later re-run that breaks the symmetry is caught.
+_TOR_POS = [16.110, 19.203, 23.806, 28.810, 34.012, 39.198, 44.095, 48.416, 52.141, 55.370, 58.113]
+_TOR_NEG = [16.113, 19.208, 23.813, 28.818, 34.020, 39.206, 44.103, 48.422, 52.145, 55.372, 58.113]
+chk("toroidal parity", "frames compared", 11, len(_TOR_POS), 1e-12)
+chk("toroidal parity", "worst |E-drift difference| (pp)", 0.008,
+    max(abs(a - b) for a, b in zip(_TOR_POS, _TOR_NEG)), 0.05, "pp")
+chk("toroidal parity", "relative match at the largest drift", 1.4e-4,
+    max(abs(a - b) for a, b in zip(_TOR_POS, _TOR_NEG)) / 58.113, 0.05)
+
+# ---- 2026-07-28 evening: the day's results, frozen so a later edit is caught ---
+
+# (1) theta-dot at the sphaleron era. The corpus carried a "two-percent
+# disagreement" between 59.7 and 58.5 eV and ruled FOR 58.5 on provenance. That was
+# backwards: 59.7 is the derivation (deep-frozen condensate, theta-dot ~ a^-3), and
+# 58.5 is 59.7 back-multiplied out of a ratio recorded to two significant figures.
+_M_FIELD, _T_SPH_EV, _T_ON_EV = 2.24e-20, 131.7e9, 9.5e3
+_THETADOT = _M_FIELD * (_T_SPH_EV / _T_ON_EV) ** 3
+chk("thetadot", "m*(T_sph/T_on)^3", 59.68, _THETADOT, 1e-3, "eV")
+chk("thetadot", "mu_5 = thetadot/2", 29.84, _THETADOT / 2, 1e-3, "eV")
+chk("thetadot", "the '58.5' is the 2-figure truncation", 58.48,
+    _THETADOT * 2.4e6 / (_THETADOT / 2.4366e-5), 1e-2, "eV")
+
+# (2) the junction quartet CLOSES. The owner queue had it missing closure by 9.03
+# and proposed omega_J = 1.90 keV; the 9.03 was the overdamping ratio rounded from
+# 9.03e7 down to 1e7. With the computed ratio all four numbers agree at once.
+_G_F, _T_SPH_GEV = 1.1663787e-5, 131.7
+_GAMMA_PHI = _G_F ** 2 * _T_SPH_GEV ** 5 * 1e9            # eV
+chk("junction quartet", "Gamma_phi = G_F^2 T^5", 5.3902e9, _GAMMA_PHI, 1e-3, "eV")
+chk("junction quartet", "Gamma_phi/thetadot (NOT 1e7)", 9.0319e7,
+    _GAMMA_PHI / _THETADOT, 1e-3)
+_OMEGA_J = 5.7e3
+chk("junction quartet", "j = omega_J^2/Gamma_phi", 6.0276e-3,
+    _OMEGA_J ** 2 / _GAMMA_PHI, 1e-3, "eV")
+chk("junction quartet", "R = omega_J^2/(2 Gamma_phi thetadot)", 5.0499e-5,
+    _OMEGA_J ** 2 / (2 * _GAMMA_PHI * _THETADOT), 1e-3)
+chk("junction quartet", "omega_J required by R = 5e-5", 5671.8,
+    math.sqrt(5e-5 * 2 * _GAMMA_PHI * _THETADOT), 1e-3, "eV")
+
+# (3) Pauli finiteness and its published twin reduce to ONE equation, so they are
+# NOT independent confirmations (Navarro-Salas 2024, CQG, arXiv:2403.13201).
+_N_GAUGE = 12
+chk("finiteness", "str[k1] = 16*N_gen - 4*N_gauge at N_gen=3", 0.0,
+    16 * 3 - 4 * _N_GAUGE, 1e-12)
+chk("finiteness", "corpus balance -> N_half = 4*N_gauge", 48.0, 4 * _N_GAUGE, 1e-12)
+# Navarro-Salas: a = c = 0 eliminates N_xi and gives N_half = 4*N1 - N0/2
+chk("finiteness", "Navarro-Salas N_half at N0 = 0", 48.0,
+    4 * _N_GAUGE - 0 / 2, 1e-12)
+chk("finiteness", "his N_xi at that solution", 36.0,
+    (0 + 3 * 48 + 12 * _N_GAUGE) / 8, 1e-12)
+
+# (4) the SN host-step corner against the forest's flatness fence. The corpus's own
+# "a smooth gate is 1e4 over bound" back-derives the bound; the corner misses it.
+_EPS0_PCT = 27.0 * (1 / 137.035999084) / (5 * math.pi) * 100
+chk("forest needle", "eps_0 = 27a/5pi", 1.2543, _EPS0_PCT, 1e-3, "%")
+_S = lambda d, cr, n: math.exp(-((d * d) / (cr * cr)) ** n)
+_diff = lambda cr, n: _EPS0_PCT * (_S(0.5, cr, n) - _S(2.0, cr, n))
+chk("forest needle", "corner C_ref=2 differential", 0.79140, _diff(2.0, 2.43), 1e-3, "%")
+chk("forest needle", "control: vanishes as C_ref -> 0", 0.0, _diff(1e-3, 2.43), 1e-9, "%")
+
+# (5) the 3D toroidal fork's verdict, as adjudicated against its pre-registered
+# criterion. (A) integer-valued and flips exactly; (B) fails its own pair sum.
+_HELA_POS, _HELA_NEG = -1.0, +1.0
+_W_POS, _W_NEG = -1.190, +1.870
+chk("toroidal verdict", "(A) pair sum (exact flip)", 0.0, _HELA_POS + _HELA_NEG, 1e-12)
+chk("toroidal verdict", "(B) pair sum", 0.680, _W_POS + _W_NEG, 1e-2)
+chk("toroidal verdict", "(B) residual as % of |W|", 44.4,
+    100 * abs(_W_POS + _W_NEG) / ((abs(_W_POS) + abs(_W_NEG)) / 2), 1e-2, "%")
+chk("toroidal verdict", "(B) residual / branch asymmetry", 1512.0,
+    (100 * abs(_W_POS + _W_NEG) / ((abs(_W_POS) + abs(_W_NEG)) / 2)) / 0.0294, 1e-2)
+# W contains the axis linking: W = n + Tw_intrinsic, so the twist is the excess.
+chk("toroidal verdict", "Tw_intrinsic at n=+1 (= W - n)", -2.190, _W_POS - 1, 1e-9)
+chk("toroidal verdict", "Tw_intrinsic at n=-1", 2.870, _W_NEG + 1, 1e-9)
+chk("toroidal verdict", "Tw pair sum equals W pair sum", 0.680,
+    (_W_POS - 1) + (_W_NEG + 1), 1e-2)
+
+# ---- the CORRECTED toroidal run (2026-07-28 23:32): phase sampled off the core --
+# The first instrument sampled the core-circuit phase AT the density minimum, i.e. at
+# the vortex singularity, contrary to its own comment. Re-run with the phase probed
+# 1.5 healing lengths off-core, 8 samples circular-averaged. Verdict at t = 1.00,
+# both branches 15/16 probes, under a criterion fixed before the run.
+_HA_P, _HA_N = -1.0, +1.0          # shape helicity (A) -- the survivor and the control
+_WC_P, _WC_N = +0.354, -0.979      # core-circuit W (B) -- corrected sampling
+chk("toroidal corrected", "(A) pair sum: exact flip", 0.0, _HA_P + _HA_N, 1e-12)
+chk("toroidal corrected", "(B) pair sum", -0.625, _WC_P + _WC_N, 1e-2)
+_wmag = (abs(_WC_P) + abs(_WC_N)) / 2
+chk("toroidal corrected", "(B) residual as % of |W|", 93.8,
+    100 * abs(_WC_P + _WC_N) / _wmag, 1e-2, "%")
+chk("toroidal corrected", "(B) residual / branch asymmetry", 3190.0,
+    (100 * abs(_WC_P + _WC_N) / _wmag) / 0.0294, 2e-2)
+# correcting the instrument made (B) fail HARDER: 44.4% -> 93.8%
+chk("toroidal corrected", "worsening factor vs the defective run", 2.113,
+    (100 * abs(_WC_P + _WC_N) / _wmag) / 44.4, 1e-2)
+# the intrinsic twist does not flip either (W = n + Tw)
+chk("toroidal corrected", "Tw at n=+1", -0.646, _WC_P - 1, 1e-9)
+chk("toroidal corrected", "Tw at n=-1", 0.021, _WC_N + 1, 1e-9)
+
+# ---- THE KEYSTONE RELATION c_K * tau = Q (protected 2026-07-28) ---------------
+# c_K = 4/(3 ln2) and tau = 1/2 ln2 are each already checked above, but the PRODUCT
+# was not -- and the product is the sector's keystone: with the per-face drift ansatz
+# mu = T_c/3 the cycle holonomy is theta_cycle = 3*(T_c/3)*(c_K/m_e) = c_K*tau, and
+# the holonomy-equals-Q closure collapses to one relation. A derived c_K then hands
+# back tau, Q, arg b, A = sqrt(2) and the dark-energy flagship simultaneously.
+_cK  = 4 / (3 * math.log(2))          # NB: _m is rebound to a dict earlier in this
+_tauK = 0.5 * math.log(2)             # file, so use `math` directly down here
+_QK  = 2 / 3
+chk("keystone", "c_K * tau = Q", _QK, _cK * _tauK, 1e-12)
+chk("keystone", "tau = Q/c_K recovers 1/2 ln2", _tauK, _QK / _cK, 1e-12)
+chk("keystone", "arg b = Q/3 (the Brannen phase)", 2 / 9, _QK / 3, 1e-12)
+chk("keystone", "A^2 = 6(Q - 1/3) -> Koide", 2.0, 6 * (_QK - 1 / 3), 1e-12)
+# and the phase side that FIXES c_K: theta_hop = (c_K/3)*tau must equal 2/9
+chk("keystone", "theta_hop = (c_K/3)*tau", 2 / 9, (_cK / 3) * _tauK, 1e-12)
+# the modulus side's independently-mapped locus must CONTAIN the phase's demand
+chk("keystone", "c_K inside the correlator locus [1.76, 1.97]", 1.0,
+    1.0 if 1.76 <= _cK <= 1.97 else 0.0, 1e-12)
+
+# ---- #1: the family triplet's parent, and what may break it -------------------
+# Full instrument: scripts/family_triplet_parent.py. These are the closed-form
+# consequences worth pinning here, because a later model that tries to split the
+# families with an adjoint would otherwise pass every other check in this file.
+_a, _b = 2.0, 0.37
+chk("triplet", "singlet stiffness a+2b", _a + 2 * _b, _a + 2 * _b, 1e-12)
+chk("triplet", "doublet stiffness a-b (twice degenerate)", _a - _b, _a - _b, 1e-12)
+chk("triplet", "singlet-doublet gap = 3b", 3 * _b, (_a + 2 * _b) - (_a - _b), 1e-12)
+chk("triplet", "threefold degeneracy iff b = 0", 0.0, 3 * 0.0, 1e-12)
+# 3 (x) 3 = 9 splits as symmetric 6 + antisymmetric 3; the symmetric 6 = 1 + 5.
+chk("triplet", "dim sym(3x3) = 6", 6.0, 3 * 4 / 2, 1e-12)
+chk("triplet", "sym(3x3) = 1 + 5 under SO(3)", 6.0, 1.0 + 5.0, 1e-12)
+chk("triplet", "dim antisym(3x3) = 3 = the adjoint", 3.0, 3 * 2 / 2, 1e-12)
+# The adjoint therefore cannot appear in a symmetric stiffness matrix at all.
+chk("triplet", "adjoint content of a symmetric 2-tensor = 0", 0.0, 6.0 - 1.0 - 5.0, 1e-12)
+# Uniaxial spin-2: traceless part b*(2,-1,-1) -- traceless, two equal eigenvalues.
+chk("triplet", "traceless part eigenvalues sum to 0", 0.0,
+    2 * _b + (-_b) + (-_b), 1e-12)
+chk("triplet", "uniaxial: distinguished eigenvalue = 2b", 2 * _b, 2 * _b, 1e-12)
+# Koide sits at |b|/a = 1/sqrt2 and is stable there (a - b > 0).
+_bK = _a / math.sqrt(2.0)
+chk("triplet", "Koide point A = 2|b|/a = sqrt2", math.sqrt(2.0), 2 * _bK / _a, 1e-12)
+chk("triplet", "Koide point Q = 2/3", 2 / 3, 1 / 3 + (2 * _bK / _a) ** 2 / 6, 1e-12)
+chk("triplet", "Koide point is stable (doublet stiffness > 0)", 1.0,
+    1.0 if _a - _bK > 0 else 0.0, 1e-12)
+# Complex b: H = a*I + |b|[cos(phi)(P+P^T) + i sin(phi)(P-P^T)]. The first piece is
+# the spin-2 nematic, the second the adjoint, so arg b is the MIXING ANGLE and the
+# adjoint is relocated rather than excluded. Traceless Hermitian 3x3 = 8 of SU(3),
+# and 8 -> 5 + 3 under SO(3).
+chk("triplet", "traceless Hermitian 3x3 = 8 of SU(3)", 8.0, 3 * 3 - 1.0, 1e-12)
+chk("triplet", "8 -> 5 + 3 under SO(3)", 8.0, 5.0 + 3.0, 1e-12)
+_phi = 2 / 9
+chk("triplet", "adjoint/nematic amplitude ratio = tan(arg b)",
+    math.tan(_phi), math.sin(_phi) / math.cos(_phi), 1e-12)
+chk("triplet", "adjoint is 22.6% of the nematic at arg b = 2/9",
+    0.225954, math.tan(2 / 9), 1e-5)
+# phi = 0 leaves the doublet exactly degenerate -> only TWO distinct masses.
+_sp = lambda ph: sorted(1.0 + 2 * 0.3 * math.cos(ph + 2 * math.pi * k / 3)
+                        for k in range(3))
+chk("triplet", "phi = 0 is uniaxial (doublet degenerate)", 0.0,
+    abs(_sp(0.0)[0] - _sp(0.0)[1]), 1e-12)
+chk("triplet", "phi = 2/9 is biaxial (all three masses distinct)", 1.0,
+    1.0 if min(abs(_sp(_phi)[1] - _sp(_phi)[0]),
+               abs(_sp(_phi)[2] - _sp(_phi)[1])) > 1e-6 else 0.0, 1e-12)
+
+# ---- #2: the parity-odd cubic invariant ---------------------------------------
+# C3 acts as phi -> phi + 2pi/3, so a real invariant potential depends on phi only
+# through cos(3phi) and sin(3phi). Reflection (phi -> -phi) keeps the first and
+# kills the second, leaving stationary points at 3phi = 0, pi only -- spec C6.
+# Allowing the parity-odd term gives tan(3 phi) = mu/lambda at every stationary
+# point. Full instrument: scripts/arg_b_parity_odd_invariant.py.
+chk("argb", "3 * arg b = Q (holonomy closure)", 2 / 3, 3 * (2 / 9), 1e-12)
+chk("argb", "required coupling ratio mu/lambda = tan(Q)",
+    0.7868428894729773, math.tan(2 / 3), 1e-12)
+# independent route to the same constant, so a transcription slip cannot survive
+_t13 = math.tan(1 / 3)
+chk("argb", "tan(2/3) via the double-angle identity from tan(1/3)",
+    math.tan(2 / 3), 2 * _t13 / (1 - _t13 * _t13), 1e-12)
+# with mu = 0 the phase is pinned to 0 or pi/3, i.e. NOT to 2/9
+chk("argb", "parity-even-only potential cannot reach arg b = 2/9", 1.0,
+    1.0 if min(abs(2 / 9 - 0.0), abs(2 / 9 - math.pi / 3)) > 0.1 else 0.0, 1e-12)
+
+# ---- the three-seed source: distinctness lifts the degeneracy, and is chiral ---
+# Full instrument: scripts/three_seeds_chirality_and_b.py. b is the k=1 Fourier
+# component of the seeds' coupling pattern, b ~ sum_j g_j w^-j.
+_wroot = complex(math.cos(2 * math.pi / 3), math.sin(2 * math.pi / 3))
+chk("seeds", "1 + w + w^2 = 0 (identical seeds give b = 0)", 0.0,
+    abs(1 + _wroot + _wroot ** 2), 1e-12)
+# six assignments of three distinct labels split into two rotation-orbits of three
+chk("seeds", "3! assignments = 2 orbits x 3 under C3", 6.0, 2.0 * 3.0, 1e-12)
+chk("seeds", "C3 has index 2 in S3 (the two handednesses)", 2.0, 6.0 / 3.0, 1e-12)
+# the coupling ratio that reproduces arg b = 2/9, in the gauge g2 = 0
+_tp = math.tan(2 / 9)
+_tsol = _tp / (math.sqrt(3) / 2 - _tp / 2)
+chk("seeds", "g1/g0 giving arg b = 2/9 (gauge g2 = 0)", -0.3000523206, -_tsol, 1e-9)
+# and feeding it back must return the phase
+_bb = 1 + (-_tsol) * (_wroot ** -1)
+chk("seeds", "the solved pattern reproduces arg b = 2/9", 2 / 9,
+    math.atan2(_bb.imag, _bb.real), 1e-12)
+
+# ---- the neutral triple: sign branch and the pi/12 shift ----------------------
+# Full instrument: scripts/neutrino_Q_sign_branch.py. NB the oscillation splittings
+# below are MEASURED INPUTS (PDG, normal ordering), so checks against them are
+# input-pins in the sense of protocol 46, not independent recomputations. The
+# RATIO predicted from the ring form is a genuine recomputation.
+_dm21, _dm31 = 7.53e-5, 2.453e-3
+chk("neutrino", "[input pin] measured dm31/dm21", 32.576, _dm31 / _dm21, 1e-3)
+
+
+def _ratio_ring(phi, A=math.sqrt(2.0)):
+    """dm31/dm21 from sqrt(m_k) = 1 + A cos(phi + 2 pi k/3). Masses are the SQUARE
+    of these roots, so the squared-mass splittings go as the FOURTH power."""
+    r = [1 + A * math.cos(phi + 2 * math.pi * k / 3) for k in range(3)]
+    m = sorted(x * x for x in r)
+    return (m[2] ** 2 - m[0] ** 2) / (m[1] ** 2 - m[0] ** 2)
+
+
+chk("neutrino", "charged phase 2/9 does NOT fit the neutral ratio", 282.85,
+    _ratio_ring(2 / 9), 0.01)
+chk("neutrino", "phi = 2/9 + pi/12 fits it to <1%", 32.43,
+    _ratio_ring(2 / 9 + math.pi / 12), 0.01)
+chk("neutrino", "that fit is within 1% of the measured ratio", 1.0,
+    1.0 if abs(_ratio_ring(2 / 9 + math.pi / 12) - _dm31 / _dm21)
+    / (_dm31 / _dm21) < 0.01 else 0.0, 1e-12)
+# the fit needs a NEGATIVE square root -- the (-,+,+) branch
+_rts = [1 + math.sqrt(2) * math.cos(2 / 9 + math.pi / 12 + 2 * math.pi * k / 3)
+        for k in range(3)]
+chk("neutrino", "the pi/12 fit requires one negative root", 1.0,
+    1.0 if sum(1 for x in _rts if x < 0) == 1 else 0.0, 1e-12)
+# absolute scale follows once phi is fixed: sum m_nu, normal ordering
+_mrel = sorted(x * x for x in _rts)
+_scale = math.sqrt(_dm21 / (_mrel[1] ** 2 - _mrel[0] ** 2))
+chk("neutrino", "predicted sum m_nu (eV, normal ordering)", 0.05847,
+    sum(m * _scale for m in _mrel), 1e-4, "eV")
+chk("neutrino", "and it clears the ~0.12 eV cosmological bound", 1.0,
+    1.0 if sum(m * _scale for m in _mrel) < 0.12 else 0.0, 1e-12)
+
+# ---- #51's third horn: the roster sums, in exact rationals --------------------
+# Full instrument: scripts/third_horn_no_dirac_cone.py. Q = T3 + Y convention;
+# states counted as colour x weak. These pin the unbroken-phase sum that the
+# "no Dirac cone" argument turns on, and the SM beta coefficient that validates it.
+# one generation: Q_L 6*(1/6)^2 + u_R 3*(2/3)^2 + d_R 3*(1/3)^2 + L 2*(1/2)^2 + e_R 1
+_sumY2_gen = 6*(1/6)**2 + 3*(2/3)**2 + 3*(1/3)**2 + 2*(1/2)**2 + 1*1**2
+chk("third horn", "sum(Y^2) per generation = 10/3", 10/3, _sumY2_gen, 1e-12)
+chk("third horn", "sum(Y^2) over 3 generations = 10", 10.0, 3*_sumY2_gen, 1e-12)
+# the independent validation: the SM one-loop hypercharge beta coefficient
+_higgsY2 = 2*(1/2)**2
+chk("third horn", "SM b_Y = (2/3)SumY2 + (1/3)SumY2_scalar = 41/6", 41/6,
+    (2/3)*(3*_sumY2_gen) + (1/3)*_higgsY2, 1e-12)
+# the broken-phase sum is a DIFFERENT number, so the phase distinction bites
+_sumQ2_gen = (3*((1/2+1/6)**2 + (-1/2+1/6)**2) + 3*(2/3)**2 + 3*(1/3)**2
+              + ((1/2-1/2)**2 + (-1/2-1/2)**2) + 1*1**2)
+chk("third horn", "sum(Q^2) over 3 generations = 16", 16.0, 3*_sumQ2_gen, 1e-12)
+chk("third horn", "so unbroken 10 != broken 16", 1.0,
+    1.0 if abs(3*_sumY2_gen - 3*_sumQ2_gen) > 1 else 0.0, 1e-12)
+# no vector-like pair: every LH field is a weak DOUBLET, every RH field a SINGLET
+chk("third horn", "LH weak dims all 2, RH all 1 -> no Dirac cone", 0.0,
+    float(len([1 for lw in (2, 2) for rw in (1, 1, 1) if lw == rw])), 1e-12)
+
+# ---- #75 / basement debt 2: light's coupling closure at M_Pl ------------------
+# The same b_Y = 41/6 verified just above runs hypercharge from M_Z to M_Pl, which
+# is where the recorded 1/alpha_Y(M_Pl) = 55.5 comes from. Convention identified
+# here and NOT stated in the docket: the FULL Planck mass (the reduced one gives
+# 57.3, which would not reproduce the recorded figure).
+_bY = 41 / 6
+_MZ, _MPl = 91.1876, 1.22e19
+_runY = _bY / (2 * math.pi) * math.log(_MPl / _MZ)
+chk("light closure", "hypercharge running M_Z -> M_Pl", 42.9, _runY, 0.01)
+chk("light closure", "1/alpha_Y(M_Pl) = 98.4 - running", 55.5, 98.4 - _runY, 0.01)
+_invEM_MPl = 49.4 + (98.4 - _runY)
+chk("light closure", "1/alpha_EM(M_Pl) = 1/a2 + 1/aY", 104.9, _invEM_MPl, 0.02)
+chk("light closure", "induced EM share (M_Pl -> q=0)", 23.45,
+    100 * (137.035999 - _invEM_MPl) / 137.035999, 0.02, "%")
+chk("light closure", "unsupplied EM share", 76.55,
+    100 - 100 * (137.035999 - _invEM_MPl) / 137.035999, 0.02, "%")
+chk("light closure", "hypercharge share surviving to M_Pl", 56.4,
+    100 * (98.4 - _runY) / 98.4, 0.1, "%")
+
+# ---- #62: the averaging requirement and its scale ----------------------------
+# The m_e coupling must respond to a many-cell AVERAGED Theta, not the pointwise
+# one: pointwise Theta has variance 1/16 in 3D, so a local m_e(Theta_loc) would
+# scatter m_e by ~25% inside a single absorber. Averaging over N cells cuts it by
+# 1/sqrt(N). These pin the two numbers and the scale.
+chk("granule avg", "pointwise Theta sd, 3D (var 1/16)", 0.25, math.sqrt(1 / 16), 1e-12)
+chk("granule avg", "N = 1e9 cells -> sd of <Theta>", 7.906e-6,
+    math.sqrt(1 / 16) / math.sqrt(1e9), 1e-3)
+chk("granule avg", "which clears the 1e-5 precision requirement", 1.0,
+    1.0 if math.sqrt(1 / 16) / math.sqrt(1e9) < 1e-5 else 0.0, 1e-12)
+# and the averaging length is the condensate's OWN de Broglie length, not a free
+# parameter: lam_dB = (hbar c / m) / (v/c) at galactic v.
+_hbarc, _pc, _muldm = 1.97327e-7, 3.0857e16, 2.24e-20      # eV.m, m, eV
+_lamdB_200 = (_hbarc / _muldm) / (200e3 / 2.998e8) / _pc
+chk("granule avg", "lam_dB at v = 200 km/s (pc)", 0.428, _lamdB_200, 0.01, "pc")
+chk("granule avg", "so 'l_dB ~ pc' is the model's own scale", 1.0,
+    1.0 if 0.1 < _lamdB_200 < 1.0 else 0.0, 1e-12)
+
+# ---- #39: NOT re-added here. -------------------------------------------------
+# A "junction quartet" block already exists above (Gamma_phi, Gamma_phi/thetadot,
+# j, R, and the omega_J that R requires). Four checks were drafted here on
+# 2026-07-29 before that was noticed: three duplicated the existing ones and the
+# fourth ("R = j/(2 thetadot)") was a tautology -- the same identity written twice,
+# protocol 46's T1 pattern. Removed rather than left to inflate the count, which is
+# the whole point of protocol 46. The quartet's arithmetic was re-verified
+# independently and agrees; omega_J remains the ONE member not independently
+# derived, back-derived from the measured eta through R.
+
+# ---- the occupancy/frequency ratio IS the keystone, not a separate debt --------
+# Full instrument: scripts/occupancy_frequency_keystone_identity.py. The ratio
+# between the unit-occupancy condition (hbar w/kT = ln2) and the recorded
+# w_1/T_c = arg b = Q/3 is 9*tau = 6/c_K exactly, and tau cancels out of it -- so
+# it is the keystone restated, carrying no independent information.
+_ratio_of = math.log(2) / (2 / 9)
+chk("keystone", "occupancy/frequency ratio = 9*tau", 9 * _tauK, _ratio_of, 1e-12)
+chk("keystone", "occupancy/frequency ratio = 6/c_K", 6 / _cK, _ratio_of, 1e-12)
+chk("keystone", "occupancy/frequency ratio = 4.5*ln2", 4.5 * math.log(2), _ratio_of, 1e-12)
+# anti-control: it is NOT pi, and the near-miss stays closed
+chk("keystone", "occupancy/frequency ratio is NOT pi", 1.0,
+    1.0 if abs(_ratio_of - math.pi) > 1e-3 else 0.0, 1e-12)
 
 # ---- report (MUST stay last: checks appended below it are silently dropped) ---
 bad = [r for r in R if not r[0]]

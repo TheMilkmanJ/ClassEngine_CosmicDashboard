@@ -23,6 +23,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       Omega_Lambda: 0.0
       fluid_equation_of_state: CLP
       cs2_fld: 1.0
@@ -86,7 +87,7 @@ params:
     ref: {dist: norm, loc: -0.40, scale: 0.15}
     proposal: 0.15
     latex: w_a
-  varying_me: 1.01232
+  varying_me: 1.012543
   A_planck:
     prior: {dist: norm, loc: 1.0, scale: 0.0025}
     ref: {dist: norm, loc: 1.0, scale: 0.002}

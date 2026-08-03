@@ -237,7 +237,7 @@ question now carries a computable, falsifiable bound.
 
 **E2.5 — The wound, visible.** λ ~ 10⁻⁸⁸: gravity-only-protected
 (technically standard for the FDM class) and aesthetically wild.
-Booked as the room's scar, kept in the open.
+Booked as the room's deuterium row, kept in the open.
 
 **Room 3's finish, stated plainly:** in the minimal completion the
 form-factor question is ANSWERED NO — Room 3 closes against the
@@ -254,7 +254,7 @@ Current published nulls (Porayko/PPTA PRD 98, 102002 (2018); EPTA DR2
 PRL 131, 171001 (2023) — cite-verified) cap f_amp only at ~O(1) at
 the light end (1×10⁻²² eV), nothing at 2×10⁻²¹: R1.6 is ALIVE,
 CEILING-ONLY, near-term testable iff f_amp ~ O(1). Expedition 2
-closed by the reviewer as NET STRENGTHENING with the D/H scar carried
+closed by the reviewer as NET STRENGTHENING with the D/H deuterium row carried
 in the open; the board is two-mover (the Σm_ν posterior; f_amp).
 
 **E2.7 — the identity's disappointment (found in the silences survey,
@@ -282,7 +282,7 @@ genesis); it is μ_eff relaxing adiabatically to m. Adiabaticity:
 gap/H(z ~ 1.3×10⁵) = 8×10² (m = 10⁻²²) to 2×10⁴ (2×10⁻²¹) —
 amplitude-mode production ~ e^(−gap/H): identically zero. **O2 is
 answered: condensation leaves no relic. Any relic is a birthmark,
-not a scar.** Kibble–Zurek belongs to the AD epoch, not basin entry.
+not a deuterium row.** Kibble–Zurek belongs to the AD epoch, not basin entry.
 
 **E3.2 — THE FROZEN-ELLIPTICITY THEOREM.** An AD birth generically
 produces an elliptical field-space orbit: rotation (the charge = the
@@ -500,7 +500,14 @@ Steep-zone density isocurvature at H_inf = 4×10¹² would be ~50× the
 Planck cap: **high tilt + high H_inf corners of the genesis space are
 now VETOED — clearing the gate at r_t ~ 0.9 steep zones needs
 H_inf ≲ 10¹⁰⁻¹¹ GeV** (smooth zones and low tilt keep the base-camp
-ceiling). The over-constrained mountain is doing what the internal review
+ceiling). **SCOPE (check 14, 2026-07-28): this conclusion is ERA-BOUND.**
+It rests on the 350/rad gradient, which is an h = 300 measurement. At the
+standing hierarchy the gradient is 5.43/rad, and the ceiling this
+paragraph derives lifts by that ratio to 6.5×10¹¹–6.5×10¹² GeV — which
+straddles the ordinary isocurvature bound instead of sitting two decades
+under it. The veto stops being separately binding; see the re-measured
+block below. The premise here died; this conclusion had to be re-scoped
+rather than left standing on it. The over-constrained mountain is doing what the internal review
 promised: the gates prune genesis space. The 86% is UNMOVED by the
 pruning — it is tilt-universal and H_inf-independent below the
 ceiling. And the SINGLE-DRAW picture is confirmed: patch-to-patch
@@ -528,6 +535,74 @@ rescaled integrator (the floor-rising trend is the thing to chase —
 if the quiet branch closes at h ~ 10⁸, P-2026-005 is not improbable
 but IMPOSSIBLE under minimal genesis, and the collision resolves
 outright); fine-gradient scan across tilts (Gate C ran at r_t = 0.9
+
+> **RE-SCOPED (2026-07-27,** `scripts/hscan_physical_target.py`**):** the
+> h ~ 10⁸ target was era-bound and the standing era moved it SIX decades
+> the other way. The release amplitude comes from the misalignment abundance closure
+> (`scripts/genesis_solver_B1.py`, release at H = m, which returns this corpus's own onset
+> 1 + z = 4.03×10⁷): Ψ₀ = 5.03×10¹⁶ GeV, hence
+> **h₀ = λΨ₀²/m² ≈ 1.0 at the standing m = 2.24×10⁻²⁰, λ = 2×10⁻⁹¹** — seven decades below
+> the era-bound "~10⁸" (the scaling h₀ ∝ λ/m^{5/2} carries the era-to-standing direction).
+> The physical regime is far BELOW the
+> scan's bottom, not above its top, so no rescaled integrator is needed (stiffness was the large-h
+> obstacle), and the owed question inverts to "does ANY ringing survive
+> at h₀ ~ 0.1?" — with the granule ε-meter's stakes (A4a/A5a: the only ε
+> readout) riding on it. Corollary recorded: at the standing era the
+> field never passes basin entry (ρ_rel < m⁴/λ), so A3a's z_x identity is
+> era-bound; every τ_Q verdict used the direct h_eff formula and stands.
+>
+> **ANSWERED (same day,** `scripts/lowh_dice.py`**):** the dice rebuilt to
+> this room's conventions (rotor/librator limits asserted — the assert
+> caught a missing complex-field ½ in v1's force before anything was
+> quoted) and validation-gated on the booked h = 300 row (P = 86%
+> reproduced exactly; median 0.68 vs 0.55, gate's edge — convention
+> caveat carried). The grid: **0 quiet draws in 168 universes across
+> h ∈ {0.03, 0.1, 0.3, 1.0}; at the physical h ≈ 1, P(f_amp > 0.2) = 71–100%
+> by tilt with medians 0.42–0.76**. The quiet branch does not exist at the physical
+> hierarchy; the ε-meter keeps a floor but not a pinned target (ε spread
+> 0.18–0.99); the tilt dial is live rather than erased (the dice
+> nearly deterministic, the tilt dial mildly re-emerging). Registered
+> consequences: prereg ANN thread UPDATE 4 (P-2026-005). The "still
+> owed" above is PAID in its re-scoped form.
+>
+> **And the second owed clause (same day,** `scripts/lowh_gradient_scan.py`**):**
+> the fine-gradient tilt scan — 56 angles, all tilts. Worst gradient
+> 3.2/rad (h = 0.3, r_t = 0.9) against Gate C's ~350/rad steep zones: a
+> factor ~110 down, and the 56-angle medians reproduce the 14-angle dice
+> to the third digit. **The θ-channel isocurvature amplification has no
+> lever arm at the physical hierarchy — Gate C's high-tilt + high-H_inf
+> veto retires at the standing parameters** (it stays true of the era
+> regime it was found in). Both clauses of this owed block are now paid.
+>
+> **RE-MEASURED AT THE STANDING HIERARCHY (2026-07-28), and the verdict
+> above does not survive.** The scan quoted here stopped at h = 0.3
+> because h₀ was then believed to be ≈ 0.1; the abundance closure puts it
+> at 1.01, so the rows it graded were never the physical point. Extended
+> to h = 1.0, the gradient rises monotonically in **both** h and tilt:
+>
+> | h | r_t = 0.3 | r_t = 0.6 | r_t = 0.9 |
+> |---|---|---|---|
+> | 0.1 | 0.44 | 0.88 | 1.33 |
+> | 0.3 | 1.13 | 2.23 | 3.19 |
+> | **1.0** | 2.38 | 3.54 | **5.43** |
+>
+> So the standing hierarchy is the worst case on the grid, at 5.43/rad —
+> not the 3.2/rad the retirement was written on. **And the verdict was
+> the wrong kind of statement to begin with:** "no lever arm" is a claim
+> about a threshold nobody derived. The physical question is where the
+> gradient puts the H_inf ceiling, and since the θ-channel isocurvature
+> amplitude goes as (df/dθ₀)·H_inf/(2πΨ₀), that ceiling scales as
+> 1/gradient. A lever arm 64.5× weaker than Gate C's lifts its
+> H_inf ≲ 10¹⁰–10¹¹ GeV to **6.5×10¹¹–6.5×10¹² GeV** — which straddles
+> the ordinary isocurvature bound of 2–4×10¹² GeV already in the books.
+>
+> **The correct verdict is neither of the two on offer.** The θ-channel
+> veto does not retire, and it does not keep its old bite: it stops being
+> a *separately* binding constraint and becomes one of two comparable
+> limits on H_inf. What fails is any claim that the θ-channel cuts
+> corners the standard bound leaves standing — at the standing parameters
+> it no longer does. What also fails is "the veto is gone," which
+> overstates a factor-64 relaxation into an infinity.
 only); t₀-prescription variation; denser angles; h-scan at the other
 tilts (r_t = 0.6 only, so far).
 
@@ -596,6 +671,18 @@ re-derived jointly against the model's actual m before the threshold
 is re-pinned; flagged so the correction cannot silently inflate the
 odds). Structure booked; normalization owed.
 
+> **POINTER (2026-07-27):** the deferred joint arithmetic was PERFORMED by
+> this file's own audit — A2's beat_needed = 0.1·(m/10⁻²²)² is exactly the
+> booked 0.2 threshold halved by this correction's stronger signal, then
+> gated by the 1/m² normalization: 10 at the audited band's bottom, 90 at
+> its top, against beat ≤ 1 identically — dead at every m ≥ 3.2×10⁻²², no
+> threshold left to re-pin. Re-verified 2026-07-27 (every number
+> reproduces; kill mass √10×10⁻²² = 3.16×10⁻²²) and extended to the
+> standing mass m = 2.24×10⁻²⁰ eV: beat_needed = 5018 — dead by 3.7
+> decades, the era note's "PTA deader still" now computed. The absolute
+> KR normalization is moot on a channel that needs 5000× the identical
+> ceiling.
+
 **THE SECOND ε-METER (prediction-shaped, sim-owed):** two independent
 speckle fields with fractions p, q reduce the granule density-contrast
 power to p² + q² of single-field FDM: the median draw (f_rot ~ 0.4)
@@ -608,6 +695,32 @@ the 86%-branch predicts (strong beat IF m light) AND (suppressed
 granules regardless); the 14%-branch predicts silence AND full
 granule contrast. A joint sky reading of the same single dice roll.
 Simulation-grade follow-up owed before any number is quotable.
+
+> **THE LAW, DERIVED AND VALIDATED (2026-07-27,**
+> `scripts/granule_contrast_meter.py`**):** C = p² + q² = (1 + f_rot²)/2,
+> derived from the counter-rotating decomposition (the 2m beat averages
+> away; equivalently the E7 particle/antiparticle split), then validated
+> statically and dynamically at instrument scale — worst deviation 0.6%,
+> free-FDM control exact (C = 1.000 at f_rot = 1), and free evolution
+> preserves the law through full granule churn. **At the physical
+> hierarchy h ≈ 1 the ensemble is wide — f_rot spans [0.02, 0.97] — so the
+> law gives C from ½ up to ~0.97: a floor, not a pinned target.** Heating
+> tracks C linearly, so the suppression relative to free FDM runs from
+> about ×2 at the floor down to nothing at the top; where it is strong it
+> also RELAXES free-FDM dwarf-heating
+> bounds as applied to this medium (the A6 family). *(The linearity is the
+> point: heating is
+> a random walk in the granule potential, so its diffusion coefficient
+> goes as the density-fluctuation VARIANCE — linear in C, as this
+> room's own granule-scoping record already books it at "S ≈ 0.58 →
+> heating suppressed ~40%", a value that sits inside the standing range
+> rather than beside it. The law itself was likewise already
+> verified there to <1% at 2×10⁶ cells; what the later run adds is the
+> dynamical check and the physical-hierarchy evaluation.)* The
+> "before any number is quotable" clause above is superseded for the LAW
+> and the instrument-scale number; the halo-scale sims (self-gravity,
+> the χ condensation lag) remain owed for the corrections around C ≈ ½
+> and keep the booking's make-or-break role.
 
 **E7b — THE SOLITON SECTOR OF THE TWO-FLUID (the granule
 meter's concrete observables, with one overclaim caught pre-booking):**
@@ -633,16 +746,31 @@ instrument.
 heating exclusions at fixed m RELAX by up to 2× in heating time for
 the mixed medium; the dice draw is a dial inside every FDM heating
 bound.
-(iv) **THE BAND AUDIT (flagged, owed, not yet resolved):** the
-booked m-band [10⁻²², 2×10⁻²¹] predates the two-fluid
-structure, and free-FDM literature bounds (Lyman-α, dwarf-heating
-claims reaching far above our band top for FDM-as-all-DM) transfer
-to the dyad only through model-specific factors (p²+q² in heating;
-the medium's own perturbation sector in P(k) — it is NOT free FDM at
-perturbation level). Whether the band survives the current
-literature WITH those factors is a dedicated morning audit — booked
-here so it cannot be quietly skipped; if the band dies, the PTA
-channel and the collision pricing inherit the wound.
+(iv) **THE BAND AUDIT — DISCHARGED, and not by running it (2026-07-20).**
+The audit asked whether the booked m-band [10⁻²², 2×10⁻²¹] survives
+free-FDM literature bounds once the model-specific factors (p²+q² in
+heating; the medium's own perturbation sector in P(k)) are applied. It
+is moot: **the band is no longer the model's claim.** m is now pinned to
+a single value, **2.24×10⁻²⁰ eV**, by the H = m onset identity and
+confirmed three independent ways (ξ = 402 AU, the Schive core radii, the
+superradiance window). That value sits an **order above the old band's
+top**, and `PRTOE_PHYSICS_DOMAINS.md` records the dependent rows at the
+pinned mass rather than the band — dwarf heating PASSING with the DK
+transfer factor computed, and the k = 0.2/Mpc comparison cleared by six
+decades already at 2×10⁻²² eV.
+
+**The direction matters and it is the favourable one.** Lyman-α and
+dwarf-heating bounds on ultralight dark matter are *lower* limits on m —
+too light means too much small-scale suppression — so a mass an order
+ABOVE the old band top clears them by more margin, not less. The wound
+this item feared (PTA channel and collision pricing inheriting a dead
+band) does not open.
+
+**The one exposure that runs the other way is superradiance**, which
+excludes a *band* of masses rather than bounding from below, and the
+pinned value sits inside the superradiant range α_g ∈ [0.1, 0.5]. That
+is a live exposure resting on the λ-quench shield, and it is tracked
+separately — not here.
 
 **No-cosmic-strings null (same burn):** the broken global U(1) would
 support a string network only if the symmetry was ever restored — it
@@ -857,6 +985,16 @@ detuning argument is derived at grade — the freeze is provisionally
 that prices its own theorem's fine print within the hour of being
 built is doing its job.
 
+> **POINTER (2026-07-27, added so no reader stops here):** this ruling was
+> LIFTED further down this same file — A3 reconciles the anchors (no
+> inconsistency existed: one formula h_eff = λρ/m⁴; anchor A is the local
+> halo at m = 10⁻²², anchor B the cosmic mean at m ~ 10⁻²¹ — 5.4 decades of
+> density plus 4 of m⁴), A3a derives the identity h_eff(mean) = (1+z_x)⁻³
+> checkably, and A4 re-prices τ_Q ≥ 10⁹ Gyr across the audited band,
+> restoring the theorem to EXACT. Re-verified 2026-07-27 at the era AND the
+> standing values (m = 2.24×10⁻²⁰ eV, λ = 2×10⁻⁹¹: τ_Q ~ 3×10²³ Gyr,
+> ×7×10¹⁴ more margin) — `scripts/heff_anchor_verification.py`.
+
 **ROOM 5 — THE ANTIPARTICLE ROOM (χ's separate life):** E7 split the
 medium into ψ and χ; the frozen ratio is mapped, but χ's own
 dynamics is not: (i) χ condenses ~1/q² SLOWER (E7b) — in the median
@@ -1022,3 +1160,49 @@ relation is ELEVATED from structure to CANDIDATE OBSERVABLE (fourth
 distinctiveness axis: FDM has no condensation lag; a redshift-dependent
 core-halo normalization is dyad-specific). Sims-owed, same family as
 (ii).
+
+> **THE HIERARCHY, SETTLED (2026-07-28): h₀ ≈ 1.0, not 0.1.** The authority is the
+> misalignment abundance closure in `scripts/genesis_solver_B1.py`, which releases at H = m
+> and returns 1 + z_osc = **4.03×10⁷ — this corpus's own canonical onset z_on** — with
+> Ψ₀ = 5.03×10¹⁶ GeV, hence h₀ = λΨ₀²/m² = **1.01**. The re-scope's 0.1 came from releasing
+> at 3H = m (which does not reproduce z_on) and from omitting the ½ that the standard
+> misalignment closure carries in ρ = ½m²Ψ². Reproducing z_on is the decisive check, and only
+> the H = m closure does it.
+>
+> **What that does to the dice, read off the grid already run.** The grid covered
+> h ∈ {0.03, 0.1, 0.3, 1.0}, so the physical point is IN it. At h = 1.0:
+> P(f_amp > 0.2) = **71–100% by tilt** (not 100% everywhere), medians 0.42–0.76, and **zero
+> quiet draws in 42 universes** — so the quiet branch still does not exist at the physical
+> hierarchy, and the medium rings. That conclusion stands.
+>
+> **What does not stand is the sharpness.** At h = 1.0 the ensemble is broad — f_amp reaching
+> down to 0.032, i.e. f_rot up to 0.97 — so the granule contrast is *not* pinned near ½; it
+> ranges up to ~0.97. The parameter-free contrast target belonged to the h ≤ 0.3 rows and does
+> not describe the physical point. The tilt dial also re-emerges here, where the h ≤ 0.3 rows
+> had erased it.
+>
+> **THE ABSENCE TESTED AT 4× RESOLUTION (2026-07-28,
+> `scripts/quiet_branch_fine_search.py`).** "Zero quiet draws in 42 universes" is a claim
+> fourteen angles per tilt cannot make safely: a narrow quiet window between samples would look
+> exactly like an absence, and this absence is load-bearing — it is what promoted the ringing
+> half of P-2026-005 from a probability to a regime fact and what lets the granule meter keep
+> its readout. Re-run at 56 angles per tilt at h = 1.0, with the reading pre-committed both ways:
+>
+> | r_t | min f_amp | at θ₀ | median | draws < 0.02 |
+> |---|---|---|---|---|
+> | 0.3 | 0.40772 | 0.3865 | 0.5453 | 0/56 |
+> | 0.6 | 0.11826 | 0.3366 | 0.3902 | 0/56 |
+> | 0.9 | **0.03134** | 0.2619 | 0.7261 | 0/56 |
+>
+> **The branch stays empty, and the minimum is converged.** The coarse grid's own minimum at
+> the worst tilt is 0.03165 at θ₀ = 0.2609 — quadrupling the resolution moved it by **1.0%**,
+> and moved the minimising angle by one coarse step. So fourteen angles happened to sample
+> essentially the minimising angle: the absence is a property of the map, not a gap between
+> samples. **#36's conclusion is not a sampling artifact.**
+>
+> **But the margin is thin, and "zero draws" conceals it.** The closest approach falls steeply
+> with tilt — 20.4× → 5.9× → **1.6×** the quiet threshold across r_t = 0.3, 0.6, 0.9. At the
+> steepest tilt the nearest draw sits at f_amp = 0.031 against a threshold of 0.02. The
+> defensible statement is *"no quiet draw, by a factor 1.6 at the worst tilt on the grid"* —
+> not *"the quiet branch does not exist"*, which reads as structural when what is in hand is a
+> measured margin, on a grid whose tilt is a free dial and whose worst row is its edge.

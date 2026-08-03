@@ -1,13 +1,11 @@
 # PRTOE — Laws & Rules (canonical home)
 
-*Single home for the model's constitutional layer, created 2026-07-08 because
-the laws were scattered across three docs (`PRTOE_v5_dCDF_complete.md` C1,
-`PRTOE_INTERACTION_ATLAS.md`, `PRTOE_me_trigger.md`) and their amendment history
-was tracked nowhere. This file collects them, sources each one, and — the part
-that was missing — keeps an **amendment record** so "how many times have we
-changed a law?" has a real answer going forward.*
+*Single home for the model's constitutional layer (2026-07-08). It collects the laws
+from `PRTOE_v5_dCDF_complete.md` C1, `PRTOE_INTERACTION_ATLAS.md` and
+`PRTOE_me_trigger.md`, sources each one, and keeps an **amendment record** so
+"how many times has a law changed?" has a real answer.*
 
-**Honesty key:**
+**Provenance key:**
 - `[CORPUS]` = quoted or paraphrased from an existing doc, with file:line.
 - `[AUTHOR-PHRASING — verify]` = the originator's plain-language memory, matched to the
   corpus; confirm it matches original intent.
@@ -53,26 +51,26 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
     dark-matter property the model needs.
   - **Census refinement — "couple to what you're made of" (2026-07-10, internal review).**
     The *gravity-only* phrasing was OVER-STATED relative to the model's own content: the
-    varying-m_e **dyad has always been a non-gravitational coupling** to matter, so
+    varying-m_e **electron-coupled scalar has always been a non-gravitational coupling** to matter, so
     "gravity is the medium's ONLY coupling" was never strictly true. Refinement (sharpening
     interface/substance into one line): the medium couples to **(a) all energy
     gravitationally** [L1, unchanged] and **(b) its own substance sector
     non-gravitationally** — it is a lepton-mass / neutrino-sector scalar, so it may couple
     *within that sector*; it is NOT a gauge/EM field, so it may NOT reach EM. This ONE line
-    **consolidates two clauses**: dyad-legality and the L1a birefringence-null become the
+    **consolidates two clauses**: the electron-coupled scalar's legality and the L1a birefringence-null become the
     two sides of "couple within your sector; open no new interface to a sector you are not
     part of."
     - *internal review adjudication (internal review):* **PRINCIPLED to forbid** — correctly bars dark
       photon, dark chemistry, EM birefringence, and quark/baryon fifth force (NOT a
       loophole); and **breaks no prior verdict** (birefringence-null, gate-0, EP, BBN all
       intact).
-    - *HONEST CAP (internal review):* the rule does **not derive the dyad it legalizes.** "What the
-      medium is made of" is the NEUTRINO-mass sector (δm_ν, Weinberg LLHH); the dyad is
+    - *HONEST CAP (internal review):* the rule does **not derive the electron-coupled scalar it legalizes.** "What the
+      medium is made of" is the NEUTRINO-mass sector (δm_ν, Weinberg LLHH); the electron-coupled scalar is
       **δm_e** (charged-lepton Higgs-Yukawa L̄He — *quark-structured*, the internal review no-go). Read
       strictly the rule yields δm_ν, not δm_e; broadening "made of" to reach the charged-
       lepton mass **is** the un-derived leptophilia postulate. So the rule **renames** the
       leptophilia gap "substance" — it does not close it. Explicit δm_e coupling from a
-      neutrino-sector medium: **[OBJECT-PENDING], prior unfavorable.**
+      neutrino-sector medium: **open, prior unfavorable.**
     - *Price paid:* **P-2026-012 promoted** from watched-whisper to falsifiable prediction —
       m_ν,lightest = ρ_inf^(1/4) = **2.3 meV** (normal ordering, Σm_ν ~ 61 meV; coarse
       near-term handle via ordering + Σ-scale, not the sub-meV value). **Standing Bet #3
@@ -120,8 +118,8 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
   keeps TOTALS, not local densities — gravitational field energy has no pointwise location. `[CORPUS: atlas:644]`
   Forced by the **gravitational-self-energy strain**: gravitational field energy
   has no local density (EP erases it pointwise), yet the global totals are exact.
-  The language required a genuine amendment rather than translating cleanly — "the
-  streak's first scar." **This is very likely the "4th law" you were sensing.**
+  This is the one place the language needs an added axiom rather than an exact
+  translation.
 
 ---
 
@@ -130,7 +128,7 @@ unitarity (`v5_dCDF:1178`). Plain-language forms shown in quotes.
 Law 3 makes the rules the amendable layer. Standard-physics precedent: the vacuum
 already runs α with probe scale (β = 2α²/3π). `[CORPUS: v5_dCDF:1188]`
 
-- **R1 — The m_e coupling (the dyad).** Masses ride the medium; recombination-era
+- **R1 — The m_e coupling (the electron-coupled scalar).** Masses ride the medium; recombination-era
   δm_e/m_e ≈ 1.24%. Corpus calls it literally **"one rules amendment (m_e)."**
   `[CORPUS: atlas:43]`
 - **R2 — Environmental screening.** The m_e shift is full in diffuse gas, screened
@@ -147,10 +145,10 @@ judgment in it, flagged per row.*
 
 | # | when | target | change | trigger | class |
 |---|------|--------|--------|---------|-------|
-| 1 | dyad era | **R1** added | ADD a rule: masses ride the medium (m_e coupling) | H₀ tension | clear amendment |
+| 1 | the era of the electron-coupled scalar | **R1** added | ADD a rule: masses ride the medium (m_e coupling) | H₀ tension | clear amendment |
 | 2 | §96 (2026-07-08) | **L1 / census** | BROADEN: coupling is gravity-only *after condensation*; a direct coupling is allowed while the medium is massless | the regime change | broaden (you called this the "broaden the other better") |
 | 3 | 2026-07-07 night | **L4** added | ADD an axiom: global conservation keeps totals, not local densities | gravitational self-energy strain | clear amendment |
-| 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav coupling + own-substance-sector); consolidates dyad-legality + L1a birefringence-null into one line | census-vs-dyad internal inconsistency (the dyad was always non-gravitational) | refine (internal review: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
+| 4 | 2026-07-10 | **L1 / census** | REFINE: "gravity-only" → "couple to what you're made of" (grav coupling + own-substance-sector); consolidates the electron-coupled scalar's legality + L1a birefringence-null into one line | an internal inconsistency between the census and the electron-coupled scalar (which was always non-gravitational) | refine (internal review: PRINCIPLED to forbid, breaks no verdict; does NOT derive δm_e — leptophilia renamed, not closed) |
 | 5 | 2026-07-13 | **THE DEPTH LAW — TOTAL** | STRENGTHEN: the ramp presumption becomes total. Steps are ILLEGAL as inputs, assumptions, computational entries, and methods — everywhere, at every depth. A step is legal ONLY as the *output* of an exemption-clause theorem (quantized / topological / protected-zero), and every exempt step must still exhibit its ramp of approach (the integer locks through an anneal; the exact zero is approached by a thaw). Plain-language form: "the model is a genuine ramp from start to finish — no epoch instantly transfers to the next; they blend. From here on out, we only trust the ramp." | five review catches in one night (process errors 22–24 + the ramp-origin corollary's receipts); the mid-ramp-entry hazard formalized | strengthen (the birefringence-bet constitution survives inside it: integers may still step, but must earn it with a theorem AND show the approach) |
 | 5a | 2026-07-13 | **THE SNAG PROTOCOL** (the depth law's operating procedure) | PROCEDURE: every snag — any result that says "nope, not happening" — is presumed to be a missing ramp-before. On snag: add the ramp before it. If the verdict improves but does not resolve: add the next ramp before. Recurse until termination at (A) the right answer (into-budget), or (B) the CONFIDENTLY wrong answer — every origin walked, the failure lawful and certified (the model genuinely fails there, and the failure is bookable). No snag may be accepted at first contact; no snag may be walked forever — the two terminations are the only exits. Proof-of-concept on record: the 89-series (four ramps to termination-A) and the matter-only sign chain (walked to exhaustion, termination-B, both doors stated). | six review catches in one night, each finding the step one level above the stop | procedure under amendment 5 |
 | 5b | 2026-07-13 | **THE TRIAGE LAW** (how to read any result) | PROCEDURE, plain-language form: *"Every wrong answer is a ramp check. Every poor fit is a ramp check. Every perfect fit is a validation RAMP."* Wrong answers and poor fits are never verdicts at first contact — they trigger 5a (walk the ramp before). **And a perfect fit is not a trophy and not a single confirming step: it gets its OWN ramp walked**, because a fit can be perfect FOR an unwalked reason (an artifact at the origin, a degenerate basis, a hidden O(1) doing the work). Validation is a ramp, never a step — the amendment-5 discipline binds the model's successes exactly as hard as its failures. Corollary, learned at full price: **a verdict is itself a result and inherits the triage** — obituaries (process error 27) and reprieves (process error 28) both. | the G-closure day: a death certificate AND its reprieve, both issued on unwalked steps, hours apart, on the same question | procedure under amendment 5 |
@@ -347,24 +345,25 @@ counts, because the anomaly is matched across all of them."**
 
 ## SCOPE — what this model IS and IS NOT
 
-**PRTOE is a "Theory of EXPANSION" (a TOE, not THE TOE)** -- a falsifiable theory of the
-**diffuse cosmic dark sector**: dark matter + dark energy (the dCDF fluid), the expansion, and
-their specific imprints (H₀ easing via varying-m_e at recombination, the void 21-cm step, the
-w=-1 floor, Σm_ν, the birefringence null). It **cedes local/bound physics to the Standard
-Model on purpose** -- atoms, chemistry, atmospheres, planets run on baryons + EM + thermo, which
-the census forbids the medium from touching significantly (screened to null in virialized
-structure; expansion ~68 orders too weak on atomic scales).
+**PRTOE is a Theory of Expansion** — a falsifiable theory of the **diffuse cosmic dark sector**:
+dark matter + dark energy (the dCDF fluid), the expansion, and their specific imprints (H₀ easing
+via varying-m_e at recombination, the void 21-cm step, the w=−1 floor, Σm_ν, the birefringence
+null). It is **not a theory of everything.** It **cedes local/bound physics to the Standard Model
+on purpose** — atoms, chemistry, atmospheres, planets run on baryons + EM + thermo, which the
+census forbids the medium from touching significantly (screened to null in virialized structure;
+expansion ~68 orders too weak on atomic scales).
 
-**NOT a theory of everything.** The instinct to tether it to local physics (medicine, planetary
-cascade, "familiar physics IS the medium", local new-functions) was stress-tested FOUR ways this
-session and fails every time -- the census STRUCTURALLY forbids the local connections. Bound
-matter has left the medium's domain (decoupled from the Hubble flow AND Theta-screened). The
-medium's domain is the diffuse/cosmic/void; it goes silent the moment matter clumps.
+The instinct to tether it to local physics (medicine, planetary cascade, "familiar physics IS the
+medium", local new-functions) was stress-tested and fails — the census structurally forbids those
+local connections. Bound matter has left the medium's domain (decoupled from the Hubble flow and
+Theta-screened). The medium's domain is the diffuse/cosmic/void; it goes silent the moment matter
+clumps.
 
-**The "does it connect further" question is PARKED** as a labeled, speculative, LOW-priority
-future research project -- to be looked at ONLY after the MCMCs/real tests decide the core, and
-with LOW expectations (the census restriction won't change). Legitimate as "someday, out of
-curiosity"; NOT a promising TOE. Border defended on purpose; that border is the model's strength.
+**The "does it connect further" question is PARKED** as a labeled, speculative, low-priority
+future research project — only after MCMCs/real tests decide the core, and with low expectations
+(the census restriction will not change). Related physics may be tied where the expansion medium
+forces a link; that is not a claim on all of physics. Border defended on purpose; that border is
+the model's strength.
 
 ## Guideline 6 — the three-door reading (2026-07-14; a GUIDELINE by the operator's explicit ruling, NOT a law)
 

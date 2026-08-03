@@ -611,10 +611,10 @@ int background_functions(
     dp_dloga += (a*dw_over_da-3*(1+w_fld)*w_fld)*pvecback[pba->index_bg_rho_fld];
   }
 
-  /* PRTOE v4 -- dCDF: single dark fluid unifying cdm+DE.
-   * See docs/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
-   * exactly barotropic: w and c_s^2 are functions of the fluid's own
-   * density (not of a directly), read from the integrated variable. */
+  /* PRTOE v4/v5 -- dCDF: single dark fluid unifying cdm+DE.
+   * See docs/exploratory/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
+   * exactly barotropic: w(rho) = -rho_inf/rho, c_s^2 ≡ 0 (beta removed 2026-07-05),
+   * both functions of the fluid's own density (not of a), from the integrated variable. */
   if (pba->has_dcdf == _TRUE_) {
     double rho_dcdf = pvecback_B[pba->index_bi_rho_dcdf];
     double w_dcdf_val = w_dcdf(pba, rho_dcdf);
@@ -884,21 +884,147 @@ int background_w_fld(
  * @return the error status
  */
 
-int background_varconst_of_z(
-                             struct background* pba,
-                             double z,
-                             double* alpha,
-                             double* me
-                             ){
+/**
+ * Survival-form environmental gate (PRTOE me_mechanism_math THE GATE).
+ * S = exp(-(max(load,0)/C_ref)^n). load is a structure proxy (local overdensity
+ * for of_z_delta; growth-calibrated load for the homogeneous path).
+ * Returns 1 when the density gate is off (caller should use the legacy window).
+ */
+double background_varconst_gate_S(
+                                  struct background* pba,
+                                  double load
+                                  ){
+  double x, S;
+  if (pba->varconst_density_gate == _FALSE_)
+    return 1.;
+  if ((pba->varconst_C_ref <= 0.) || (pba->varconst_gate_n <= 0.))
+    return 1.;
+  if (load <= 0.)
+    return 1.; /* voids / smooth: bare value */
+  x = load / pba->varconst_C_ref;
+  S = exp(-pow(x, pba->varconst_gate_n));
+  if (S < 0.) S = 0.;
+  if (S > 1.) S = 1.;
+  return S;
+}
+
+/**
+ * Order-parameter growth factor f_growth(z): 0 above T_c (z_high), rising as
+ * 1 - T/T_c below condensation. z_high<=0 => always 1 (growth ramp off).
+ */
+static double background_varconst_f_growth(
+                                           struct background* pba,
+                                           double z
+                                           ){
+  double f;
+  if (pba->varconst_z_high <= 0.)
+    return 1.;
+  if (z > pba->varconst_z_high)
+    return 0.;
+  f = 1. - (1.+z)/(1.+pba->varconst_z_high);
+  if (f < 0.) f = 0.;
+  if (f > 1.) f = 1.;
+  return f;
+}
+
+/**
+ * Homogeneous structure load for the density gate (no local delta on FRW).
+ *
+ * Preferred: the actual scale-invariant growth factor D(z) from the background
+ * table, normalized so D(today)=1, calibrated so load = C_ref at z_trans:
+ *   load(z) = C_ref * D(z) / D(z_trans)
+ * Early (D small): load small → S→1 (bare m_e, recombination plateau).
+ * Late  (D ~ 1):  load large → S→0 (lab value in mean structure).
+ *
+ * Fallback before the table is ready (during integration / ncdm pre-table):
+ * matter-era proxy D ∝ a = 1/(1+z), same calibration.
+ */
+/** Interpolate D(z) from the filled background table (no of_z recursion). */
+static double background_varconst_D_of_z_table(
+                                               struct background* pba,
+                                               double z
+                                               ){
+  int i;
+  double z0, z1, D0, D1, w;
+  if ((pba->bt_size <= 0) || (pba->background_table == NULL))
+    return 1./(1.+z); /* matter-era fallback */
+  if (z >= pba->z_table[0])
+    return pba->background_table[0*pba->bg_size + pba->index_bg_D];
+  if (z <= pba->z_table[pba->bt_size-1])
+    return pba->background_table[(pba->bt_size-1)*pba->bg_size + pba->index_bg_D];
+  i = 0;
+  while ((i < pba->bt_size-1) && (pba->z_table[i+1] > z)) i++;
+  z0 = pba->z_table[i];
+  z1 = pba->z_table[i+1];
+  D0 = pba->background_table[i*pba->bg_size + pba->index_bg_D];
+  D1 = pba->background_table[(i+1)*pba->bg_size + pba->index_bg_D];
+  w = (z0 - z) / (z0 - z1 + 1e-300);
+  if (w < 0.) w = 0.;
+  if (w > 1.) w = 1.;
+  return D0 + w*(D1 - D0);
+}
+
+static double background_varconst_load_homogeneous(
+                                                   struct background* pba,
+                                                   double z
+                                                   ){
+  double D_z, D_trans;
+
+  /* Real growth factor once background_init has normalized D and cached D_trans */
+  if ((pba->varconst_bg_table_ready == _TRUE_) && (pba->varconst_D_trans > 0.)) {
+    D_z = background_varconst_D_of_z_table(pba, z);
+    D_trans = pba->varconst_D_trans;
+    if (D_trans > 1e-300)
+      return pba->varconst_C_ref * D_z / D_trans;
+  }
+
+  /* Pre-table fallback: matter-era D ∝ a, calibrated at z_trans */
+  return pba->varconst_C_ref * (1.+pba->varconst_transition_redshift)/(1.+z);
+}
+
+/**
+ * Shared evaluator: f = f_growth(z) * S_screen.
+ * S_screen is either the density gate or the legacy redshift window.
+ * use_local_delta selects of_z_delta (local overdensity) vs of_z (homogeneous).
+ */
+static int background_varconst_evaluate(
+                                        struct background* pba,
+                                        double z,
+                                        double delta,
+                                        short use_local_delta,
+                                        double* alpha,
+                                        double* me
+                                        ){
+  double f_growth, f_screen, f;
 
   switch(pba->varconst_dep){
 
   case varconst_none:
     *alpha = 1.;
     *me = 1.;
-    break;
+    return _SUCCESS_;
 
   case varconst_instant:
+
+    f_growth = background_varconst_f_growth(pba, z);
+
+    if (pba->varconst_density_gate == _TRUE_) {
+      /* ---- MODEL PATH: density-dependent Theta / survival gate ----
+       * m_e/m_lab = 1 + eps * f_growth(z) * S(load)
+       * Local: load = max(delta, 0). Homogeneous: growth-proxy load. */
+      double load;
+      if (use_local_delta == _TRUE_)
+        load = (delta > 0.) ? delta : 0.;
+      else
+        load = background_varconst_load_homogeneous(pba, z);
+      f_screen = background_varconst_gate_S(pba, load);
+      f = f_growth * f_screen;
+      *alpha = 1. + (pba->varconst_alpha - 1.)*f;
+      *me = 1. + (pba->varconst_me - 1.)*f;
+      return _SUCCESS_;
+    }
+
+    /* ---- LEGACY PATH: pure-redshift window (backward compatible) ---- */
     if (pba->varconst_transition_width > 0.) {
       /* PRTOE ramped window (2026-07-12, the depth law: edges are fades, not steps).
          Both edges become tanh ramps in ln(1+z): the low edge = the screening fade
@@ -906,35 +1032,21 @@ int background_varconst_of_z(
          reproduces the original steps exactly (backward compatible). */
       double w = pba->varconst_transition_width;
       double f_low = 0.5*(1. + tanh(log((1.+z)/(1.+pba->varconst_transition_redshift))/w));
-      double f_high = 1.;
-      if (pba->varconst_z_high > 0.) {
-        /* PRTOE growth ramp (2026-07-14, hunt entry 164): below the condensation the
-           order parameter GROWS, v^2 propto (1 - T/T_c) with T propto (1+z) -- the
-           condensate is born as the pour's deposit cools, not switched on (mean-field
-           beta = 1/2; validity certified by Gi << 1 from the model's own couplings). */
-        f_high = 1. - (1.+z)/(1.+pba->varconst_z_high);
-        if (f_high < 0.) f_high = 0.;
-      }
-      double f = f_low*f_high;
+      f_screen = f_low; /* f_growth already carries the high-z edge when z_high>0 */
+      /* When z_high is off, f_growth=1 and the old code folded high edge into f_low
+         only; when width>0 and z_high>0 the old code used f_high inside the product.
+         Preserve: if z_high>0, f_growth already is that f_high. */
+      f = f_low * f_growth;
       *alpha = 1. + (pba->varconst_alpha - 1.)*f;
       *me = 1. + (pba->varconst_me - 1.)*f;
     }
-    else if (z>pba->varconst_transition_redshift){
-      /* PRTOE dyad high-z window (2026-07-10): above varconst_z_high the condensate is
-         thermally disordered (T > T_c, electron-CW) -> constants STANDARD -> quiet BBN.
-         varconst_z_high <= 0 disables (default): plain instantaneous step, unchanged. */
+    else if (z > pba->varconst_transition_redshift){
+      /* Step branch: full shift between transition and z_high (if any). */
       if ((pba->varconst_z_high > 0.) && (z > pba->varconst_z_high)) {
         *alpha = 1.;
         *me = 1.;
       }
       else {
-        /* PRTOE growth ramp (2026-07-14, hunt entry 164): same order-parameter birth
-           in the step branch -- full strength only well below T_c. */
-        double f_growth = 1.;
-        if (pba->varconst_z_high > 0.) {
-          f_growth = 1. - (1.+z)/(1.+pba->varconst_z_high);
-          if (f_growth < 0.) f_growth = 0.;
-        }
         *alpha = 1. + (pba->varconst_alpha - 1.)*f_growth;
         *me = 1. + (pba->varconst_me - 1.)*f_growth;
       }
@@ -943,11 +1055,34 @@ int background_varconst_of_z(
       *alpha = 1.;
       *me = 1.;
     }
-    break;
-
-    /* Implement here your arbitrary model of varying fundamental constants! */
+    return _SUCCESS_;
   }
+
+  /* Unreachable if enum is exhaustive; keep compiler quiet. */
+  *alpha = 1.;
+  *me = 1.;
   return _SUCCESS_;
+}
+
+int background_varconst_of_z(
+                             struct background* pba,
+                             double z,
+                             double* alpha,
+                             double* me
+                             ){
+  /* Homogeneous FRW path: structure proxy, no local overdensity. */
+  return background_varconst_evaluate(pba, z, 0., _FALSE_, alpha, me);
+}
+
+int background_varconst_of_z_delta(
+                                   struct background* pba,
+                                   double z,
+                                   double delta,
+                                   double* alpha,
+                                   double* me
+                                   ){
+  /* Local environment: voids (delta≤0) keep bare m_e; structure screens to lab. */
+  return background_varconst_evaluate(pba, z, delta, _TRUE_, alpha, me);
 }
 
 /**
@@ -1170,6 +1305,8 @@ int background_indices(
     pba->has_fld = _TRUE_;
 
   pba->has_dcdf = pba->use_dcdf;
+  /* Conversion DR multipoles only when the background conversion rate is on. */
+  pba->has_dcdf_conv = ((pba->has_dcdf == _TRUE_) && (pba->dcdf_conv_g > 0.)) ? _TRUE_ : _FALSE_;
 
   if (pba->Omega0_ur != 0.)
     pba->has_ur = _TRUE_;
@@ -2194,6 +2331,31 @@ int background_solve(
     pba->background_table[index_loga*pba->bg_size+pba->index_bg_lum_distance] = comoving_radius*(1.+pba->z_table[index_loga]);
   }
 
+  /** - PRTOE density gate: cache D(z_trans) and recompute varc_me/alpha with the
+   *    real growth factor (replaces the a^{-1} proxy used during integration). */
+  pba->varconst_D_trans = 0.;
+  pba->varconst_bg_table_ready = _FALSE_;
+  if ((pba->has_varconst == _TRUE_) && (pba->varconst_density_gate == _TRUE_)) {
+    double alpha_vc, me_vc;
+    pba->varconst_D_trans = background_varconst_D_of_z_table(pba, pba->varconst_transition_redshift);
+    if (pba->varconst_D_trans < 1e-300)
+      pba->varconst_D_trans = 1e-300;
+    pba->varconst_bg_table_ready = _TRUE_;
+    for (index_loga=0; index_loga < pba->bt_size; index_loga++) {
+      class_call(background_varconst_of_z(pba,
+                                          pba->z_table[index_loga],
+                                          &alpha_vc,
+                                          &me_vc),
+                 pba->error_message,
+                 pba->error_message);
+      pba->background_table[index_loga*pba->bg_size+pba->index_bg_varc_alpha] = alpha_vc;
+      pba->background_table[index_loga*pba->bg_size+pba->index_bg_varc_me] = me_vc;
+    }
+    if (pba->background_verbose > 0)
+      printf(" -> PRTOE density gate: D(z_trans=%g)=%g (D_today=1); varc table recomputed with growth factor\n",
+             pba->varconst_transition_redshift, pba->varconst_D_trans);
+  }
+
   /** - fill tables of second derivatives (in view of spline interpolation) */
   class_call(array_spline_table_lines(pba->z_table,
                                       pba->bt_size,
@@ -2879,10 +3041,10 @@ int background_derivs(
   }
 
   if (pba->has_dcdf == _TRUE_) {
-    /** - PRTOE v4 dCDF: d(rho)/dloga = -3(1+w(rho))*rho, autonomous ODE
+    /** - PRTOE v4/v5 dCDF: d(rho)/dloga = -3(1+w(rho))*rho, autonomous ODE
      *  (w depends only on rho, not explicitly on a). See
-     *  docs/PRTOE_v4_dCDF_derivation.md eq. (4),(9). Exact fixed point at
-     *  rho=rho_inf (w=-1 there), approached asymptotically, never crossed. */
+     *  docs/exploratory/PRTOE_v4_dCDF_derivation.md eq. (4); v5 has w=-rho_inf/rho.
+     *  Exact fixed point at rho=rho_inf (w=-1), approached asymptotically, never crossed. */
     /* PRTOE rotation-cancellation: the dcdf matter-part (1+w)rho = rho-rho_inf sheds to
        free-streaming dark radiation at rate Gamma/H = conv_rate(a). Energy-conserving
        sink/source pair; the floor (rho_inf, w=-1) is untouched. conv=0 recovers the

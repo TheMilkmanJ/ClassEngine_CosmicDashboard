@@ -10,3 +10,22 @@ That is not hypothetical. The genesis-residual BBN mis-price happened exactly th
 table here was internally correct as a *relative* comparison and carried an absolute headline,
 and the next computation that needed a starting point read the headline. Files whose results are
 frame-dependent now say so at the point of use.
+
+## `_ARXIV_READINESS.md`
+
+The submission tracker (task #54). One row per candidate document: the claim it would carry, its
+target arXiv category, what it still needs against a fixed ten-point checklist, and its status.
+**A file is marked READY here and nowhere else** — this is the single record, so a document's
+readiness can never be inferred from the document itself. Carries the strategic ruling that shapes
+everything downstream: submit one narrow falsifiable claim per paper rather than one manuscript
+spanning several famous problems, because breadth is what draws reclassification to `physics.gen-ph`
+and that is not appealable. Rows marked † have been read closely; the rest are placed by title and
+must be read before their row means anything.
+
+## `_OWNER_QUEUE.md`
+
+Decisions the desk cannot make for itself, kept in one place so they can be ruled in one pass
+rather than found by reading dated ledger entries. Each item names what is blocked, what the
+arithmetic says, and what a ruling would unblock; the workings stay in `_AUDIT_LEDGER.md` under
+the dated entry it cites. Items leave the queue when **ruled**, not when acted on — a ruling with
+its work still outstanding stays visible on the task board instead.

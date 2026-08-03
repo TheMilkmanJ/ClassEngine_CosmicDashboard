@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
-"""B2 — THE WINDING-GAS SPECIFIC HEAT (sweep 71). The medium's winding sector
+"""PARTLY SUPERSEDED — the area law and the activation ramp stand; the tilt leg (c) does not.
+
+  * nu = 2/3 (3D-XY) here is a STATIC exponent for the CONDENSATION ramp at T_c.  It is not a
+    quench criterion for the A_s census imprint, which is a separate link and a SCALING imprint
+    (xi(k) ~ 1/k), not a freeze-out — see #184.  The corpus's recorded claim that no critical
+    exponent appears anywhere was corrected against this line.
+  * Leg (c), "C_V ~ R^2 => Phi^2 scale-invariant (the thermodynamic road to the tilt)", is not
+    the surviving tilt route; the tilt is carried by the modulation map, n_s = 1 - 2/ln(T0/k).
+
+Autopsies: docs/PRTOE_FAILURES_LEDGER.md (#184).
+
+B2 — THE WINDING-GAS SPECIFIC HEAT (sweep 71). The medium's winding sector
 near T_c: each transverse coherence patch (xi^2) carries an independent winding
 integer n with E(n) = eps1(T) * n^2, where eps1 ~ rho_s(T) -> 0 at T_c (the
 3D-XY ramp, nu = 2/3). Tests: (a) the activation ramp (the Hagedorn-analog IS

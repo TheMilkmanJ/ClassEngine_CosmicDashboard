@@ -25,6 +25,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      varconst_density_gate: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0

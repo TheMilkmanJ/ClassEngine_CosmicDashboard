@@ -1,0 +1,535 @@
+\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,10pt]{revtex4-2}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{bm}
+
+\begin{document}
+
+\title{A ratio-locked radio signature of a universal shift in the electron mass}
+
+\author{Justin Pulford}
+\email{pulfordj420@gmail.com}
+\affiliation{Unaffiliated}
+
+\date{\today}
+
+\begin{abstract}
+A universal fractional shift $\varepsilon$ in the electron mass at high redshift imprints a
+correlated signature across radio observables. Because each observable depends on $m_e$ through a
+different power, the induced fractional shifts stand in fixed ratios that are set entirely by
+atomic physics and are independent of $\varepsilon$ itself: $+2\varepsilon$ for the hydrogen
+$21\,$cm hyperfine frequency, $+1\varepsilon$ for radio recombination lines, $-1\varepsilon$ for
+the electron column inferred from a dispersion measure, $-1\varepsilon$ for the synchrotron
+characteristic frequency at fixed magnetic field, and $-2\varepsilon$ for Faraday rotation. We
+derive each weight and state explicitly the one convention-dependent entry: the synchrotron row
+reads $-3\varepsilon$ if the emitting particle's energy rather than its Lorentz factor is held
+fixed, and the choice must be declared before the row is read. We show that the pattern separates a
+varying electron mass from a varying fine-structure constant arithmetically, since $\alpha$ enters
+the $21\,$cm frequency at fourth order but does not enter the dispersion delay at all. The
+hydrogen-to-deuterium hyperfine ratio furnishes an internal control: $\alpha$ and $m_e$ cancel from
+it identically, so it is preserved under any universal shift and broken only by species-dependent
+ones. We treat $\varepsilon$ as a free amplitude to be fitted, not predicted, so the ratio
+structure can be tested without committing to a mechanism for the shift. Read through the pattern,
+the tightest existing $21\,$cm comparison gives $|\varepsilon| < 1.4 \times 10^{-5}$ at $2\sigma$
+over $1.17 < z < 1.56$, limited by systematics rather than by precision; molecular lines bound it
+more tightly still. The pattern is a fingerprint of the shift, not a better measurement of its size.
+A single band deviating from its assigned weight falsifies the pattern.
+\end{abstract}
+
+\maketitle
+
+% ---------------------------------------------------------------------------
+\section{Introduction}\label{sec:intro}
+
+Whether the fundamental constants vary in space or time has a long observational
+literature~\cite{Uzan2003,Uzan2011}. Limits come from quasar absorption
+spectra~\cite{Webb1999,MurphyWebbFlambaum2003}, from the cosmic microwave
+background~\cite{PlanckVaryingConstants,HartChluba2018}, and from big-bang nucleosynthesis, the
+Oklo natural reactor, and laboratory clock comparisons. Most of this work has concentrated on the
+fine-structure constant.
+
+The electron mass has attracted more recent attention. A larger $m_e$ near recombination moves that
+epoch earlier and shrinks the sound horizon, which reduces the discrepancy between the Hubble
+constant inferred from the microwave background and from the local distance
+ladder~\cite{Sekiguchi2021,HartChluba2018}. Constraints on such models come mainly from the CMB
+itself, where the effect is partially degenerate with the standard cosmological parameters.
+
+Radio propagation has been used for this purpose before. Dispersion measures of localised fast
+radio bursts have been used to bound variation in $\alpha$ and in the proton-to-electron mass
+ratio~\cite{Kalita2024}, and the clustering of burst dispersion measures likewise~\cite{WangXia2025}.
+Those analyses treat a single observable at a time.
+
+The construction used below, in which a quantity reconstructed with laboratory constants is read
+against something that does not share its dependence, is not new and is not confined to the radio
+bands. The thermal Sunyaev--Zel'dovich effect carries the Thomson cross-section,
+$\sigma_T \propto \alpha^{2} m_e^{-2}$, so a Comptonization inferred from it inherits a weight in
+exactly the sense of Eq.~\eqref{eq:weight}. Compared against an independent X-ray determination of
+the same intracluster gas, that weight has been used to bound variation in $\alpha$ over 119
+clusters~\cite{LiuAlphaClusters2021}, and over 618 for spatial rather than temporal
+variation~\cite{deMartinoAlphaClusters2016}. What follows applies the same logic to a different set
+of observables, chosen so that the weights differ in sign as well as magnitude.
+
+Different radio observables depend on the electron mass through different powers, so a universal
+shift in $m_e$ does not move them together: it moves them by fixed, unequal, calculable amounts. The
+purpose of this paper is to set that structure out explicitly and to show that the pattern of
+relative shifts constitutes a test which does not require knowing the size of the shift.
+
+The argument is arranged as follows. Section~\ref{sec:setup} fixes notation and separates the two
+kinds of observable involved. Section~\ref{sec:weights} derives the five weights. Section
+\ref{sec:alpha} shows how the pattern separates a varying electron mass from a varying
+fine-structure constant, and examines an isotopic control that is easy to misread.
+Section~\ref{sec:assume} states what the argument assumes. Section~\ref{sec:sens} works out the
+sensitivity, which rows can be entered today, and where the resulting bound sits beside the best
+existing one.
+% ---------------------------------------------------------------------------
+
+\section{Setup}\label{sec:setup}
+
+We consider a universal, species-independent fractional shift in the electron mass,
+%
+\begin{equation}
+  m_e \;\longrightarrow\; m_e\,(1+\varepsilon), \qquad |\varepsilon| \ll 1 ,
+  \label{eq:shift}
+\end{equation}
+%
+holding all other constants fixed. We make no assumption about what produces
+Eq.~\eqref{eq:shift} and we do not predict $\varepsilon$; it is a single free amplitude. The
+content of this paper is the set of \emph{relative} responses, which do not depend on it.
+
+\subsection{What is held fixed, and why the statement is dimensionless}
+
+A shift in a dimensionful constant is not by itself physically meaningful: the magnitude and even
+the sign of an inferred effect can depend on the choice of units, an objection raised explicitly
+against earlier $21\,$cm work on varying constants~\cite{FlambaumPorsev2010,KhatriWandelt2007,
+KhatriWandelt2010}. Equation~\eqref{eq:shift} must therefore be read with its reference declared.
+
+We hold the fine-structure constant and the strong scale fixed, so that Eq.~\eqref{eq:shift} is a
+statement about the dimensionless mass ratio
+%
+\begin{equation}
+  \mu \equiv m_p/m_e, \qquad \delta\mu/\mu = -\varepsilon .
+  \label{eq:mu}
+\end{equation}
+%
+Every row below then restates without reference to a unit system. The two line frequencies become
+dimensionless when referred to the proton mass, $\nu_{\rm hf}/m_p \propto \alpha^{4}\mu^{-2}$ and
+$\nu_{\rm RRL}/m_p \propto \alpha^{2}\mu^{-1}$, and are observed as apparent redshift offsets, which
+are dimensionless in any case. The dispersion and rotation rows are ratios of a reconstructed
+quantity to the true one, with the same units above and below. The synchrotron row is dimensionless
+when referred to the proton cyclotron frequency, $\nu_c/\nu_{c,p} \propto \mu$.
+
+Recast this way the weight vector is unchanged, so nothing in Sec.~\ref{sec:weights} depends on the
+unit convention. We continue to write the weights against $m_e$ because it is the more familiar
+form, with Eq.~\eqref{eq:mu} understood throughout.
+
+For an observable $\mathcal{O}$ we write its weight as the logarithmic derivative
+%
+\begin{equation}
+  w_{\mathcal{O}} \;\equiv\; \frac{\partial \ln \mathcal{O}}{\partial \ln m_e},
+  \qquad\text{so}\qquad
+  \frac{\delta \mathcal{O}}{\mathcal{O}} = w_{\mathcal{O}}\,\varepsilon
+  \;+\; \mathcal{O}(\varepsilon^2).
+  \label{eq:weight}
+\end{equation}
+
+Two classes of observable respond differently, and the distinction matters for what is measurable.
+
+Line frequencies are one class. For a single line a shift in the rest frequency is absorbed into
+an apparent redshift: an observer measuring $\nu_{\rm obs}$ and assuming the laboratory
+$\nu_{\rm rest}$ infers $1+z_{\rm app} = (1+z)(1+w\varepsilon)$. One line alone therefore carries
+no information about $\varepsilon$. Two lines of different weight do, since their inferred
+redshifts differ by a known factor.
+
+Dispersion and rotation measures are the second class. These are not frequencies but quantities
+reconstructed from a measured delay or rotation angle using laboratory constants. A shift in $m_e$
+along the line of sight biases the reconstruction even when the physical column is unchanged.
+
+The pattern derived below spans both classes, so it is not degenerate with redshift.
+
+\section{The five weights}\label{sec:weights}
+
+\subsection{Hydrogen $21\,$cm hyperfine: $w = +2$}
+
+The ground-state hyperfine splitting is the Fermi contact interaction between the electron and
+nuclear moments~\cite{WolfeBrownRoberts1976,Tzanavaris2005}. Its scale is the Rydberg reduced by
+the ratio of the nuclear to the Bohr
+magneton and by one further factor $\alpha^2$,
+%
+\begin{equation}
+  \nu_{\rm hf} \;\propto\; \alpha^{2}\,
+  \underbrace{\frac{\mu_N}{\mu_B}}_{\textstyle \propto\, m_e/m_p}\;
+  \underbrace{\vphantom{\frac{\mu_N}{\mu_B}} R_\infty c}_{\textstyle \propto\, \alpha^{2} m_e}
+  \;\propto\; g_p\,\alpha^{4}\,\frac{m_e^{2}}{m_p},
+  \label{eq:hf}
+\end{equation}
+%
+giving $w = +2$.
+
+\subsection{Radio recombination lines: $w = +1$}
+
+Transitions between high principal quantum numbers are pure Rydberg~\cite{GordonSorochenko2009},
+$\nu = R_\infty c\,(n_1^{-2}-n_2^{-2})$ with $R_\infty \propto \alpha^{2} m_e$, so
+%
+\begin{equation}
+  \nu_{\rm RRL} \;\propto\; m_e, \qquad w = +1 .
+\end{equation}
+
+\subsection{Dispersion measure: $w = -1$}
+
+The group delay of a signal traversing a cold plasma is~\cite{LorimerKramer2004}
+%
+\begin{equation}
+  t_{\rm DM} \;=\; \frac{e^{2}}{2\pi m_e c}\,\frac{1}{\nu^{2}} \int n_e \, dl .
+  \label{eq:dm}
+\end{equation}
+%
+The measured quantity is $t_{\rm DM}$; the reported dispersion measure is obtained by dividing
+out~\cite{Kulkarni2020}
+the \emph{laboratory} constant $e^{2}/2\pi m_e^{\rm lab}c$. If the true electron mass along the path
+is $m_e^{\rm lab}(1+\varepsilon)$, the delay produced by a fixed physical column
+$\int n_e\,dl$ is smaller by $(1+\varepsilon)^{-1}$, and the inferred column inherits that factor:
+%
+\begin{equation}
+  \mathrm{DM}_{\rm inferred} = \left(\int n_e\,dl\right)(1-\varepsilon) + \mathcal{O}(\varepsilon^2),
+  \qquad w = -1 .
+\end{equation}
+%
+The bias is in the \emph{reconstruction}, not in the plasma. This row therefore tests the shift
+against any independent determination of the same electron column.
+
+\subsection{Synchrotron characteristic frequency: $w = -1$ \emph{at fixed field}}
+
+The characteristic frequency of synchrotron emission is~\cite{RybickiLightman1979}
+%
+\begin{equation}
+  \nu_c \;=\; \frac{3}{2}\,\gamma^{2}\,\frac{eB}{2\pi m_e c}.
+  \label{eq:sync}
+\end{equation}
+%
+This row depends on a convention, which must be fixed before it is used. Holding the magnetic field
+and the emitting particle's Lorentz factor fixed gives $w = -1$ from the explicit $m_e$ in
+Eq.~\eqref{eq:sync}. Holding the particle's energy fixed instead lets $\gamma = E/m_e c^{2}$ float,
+contributing a further $-2$, so that
+%
+\begin{equation}
+  w_{\rm sync} = \begin{cases}
+    -1, & \text{fixed } \gamma \text{ (fixed-field reading)},\\[2pt]
+    -3, & \text{fixed } E \text{ (fixed-energy reading)}.
+  \end{cases}
+\end{equation}
+%
+We adopt the fixed-$\gamma$ reading throughout and quote $-1$. Which reading is physically
+appropriate depends on how the emitting population is labelled, and a test that does not state its
+choice is not well posed. We return to this in Sec.~\ref{sec:assume}.
+
+\subsection{Faraday rotation: $w = -2$}
+
+The rotation measure of a magnetised plasma is~\cite{BrentjensDeBruyn2005}
+%
+\begin{equation}
+  \mathrm{RM} \;=\; \frac{e^{3}}{2\pi m_e^{2} c^{4}} \int n_e B_\parallel \, dl ,
+  \qquad w = -2 ,
+\end{equation}
+%
+again a bias in the reconstructed quantity rather than in the medium.
+
+\subsection{The pattern}
+
+Collecting Eqs.~\eqref{eq:hf}--\eqref{eq:sync}:
+%
+\begin{equation}
+  \boxed{\;
+  \begin{aligned}
+    w_{21} : w_{\rm RRL} &: w_{\rm DM} : w_{\rm sync} : w_{\rm RM} \\[2pt]
+    &=\; +2 : +1 : -1 : -1 : -2
+  \end{aligned}
+  \;}
+  \label{eq:pattern}
+\end{equation}
+%
+Every entry follows from a textbook scaling; none is adjustable. The amplitude $\varepsilon$ is
+common to all five and cancels from every ratio, so Eq.~\eqref{eq:pattern} is a prediction about
+\emph{correlations} that can be tested without knowing the size of the shift.
+
+\section{Separation from a varying fine-structure constant}\label{sec:alpha}
+
+The competing hypothesis is a shift in $\alpha$ rather than $m_e$. The two are separable because
+they produce different weight vectors across the same five bands. Working in Gaussian units, where
+$e^{2} = \alpha \hbar c$ and hence $e \propto \alpha^{1/2}$, the same derivations give the
+$\alpha$-weights in Table~\ref{tab:weights}.
+
+\begin{table}[t]
+\caption{Response of each observable to a fractional shift in the electron mass and in the
+fine-structure constant, $w \equiv \partial \ln \mathcal{O} / \partial \ln X$. The two columns are
+not proportional, so the hypotheses are distinguishable; the sign structure separates them without
+reference to precision.}
+\label{tab:weights}
+\begin{ruledtabular}
+\begin{tabular}{lcc}
+observable & $w$ for $m_e$ & $w$ for $\alpha$ \\
+\hline
+$21\,$cm hyperfine          & $+2$ & $+4$   \\
+radio recombination line    & $+1$ & $+2$   \\
+dispersion measure (inferred) & $-1$ & $+1$   \\
+synchrotron $\nu_c$ (fixed field) & $-1$ & $+1/2$ \\
+Faraday rotation measure    & $-2$ & $+3/2$ \\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+The distinction is qualitative before it is quantitative. Every $\alpha$-weight is positive: a
+shift in the fine-structure constant moves all five observables in the same direction. The
+$m_e$-weights change sign across the set, raising two observables and lowering three. Measuring any
+two bands of opposite $m_e$-weight therefore separates the hypotheses by the sign of the
+correlation alone.
+
+The reason is visible in the two reconstructed quantities. The dispersion delay of
+Eq.~\eqref{eq:dm} carries $e^{2}/m_e \propto \alpha/m_e$, so $\alpha$ and $m_e$ enter with opposite
+signs; the same holds for the rotation measure, where $e^{3}/m_e^{2} \propto \alpha^{3/2}/m_e^{2}$.
+The line frequencies, by contrast, carry both constants with positive powers. No overall rescaling
+maps one column of Table~\ref{tab:weights} onto the other: the ratios $w_\alpha / w_{m_e}$ across
+the five rows are $2$, $2$, $-1$, $-1/2$ and $-3/4$.
+
+\subsection{The hydrogen--deuterium control}
+
+The hyperfine frequencies of hydrogen and deuterium both take the form of Eq.~\eqref{eq:hf} with
+their own nuclear factors. Their ratio is therefore
+%
+\begin{equation}
+  \frac{\nu_{\rm hf}({\rm H})}{\nu_{\rm hf}({\rm D})}
+  \;=\; \frac{C_{\rm H}\, g_p / m_p}{C_{\rm D}\, g_d / m_d},
+\end{equation}
+%
+in which both $\alpha$ and $m_e$ cancel identically, the angular-momentum coefficients $C$
+depending only on the nuclear spins. Logarithmic differentiation confirms
+$\partial \ln(\text{ratio})/\partial \ln m_e = \partial \ln(\text{ratio})/\partial \ln \alpha = 0$.
+
+The ratio is therefore not a discriminant between a varying $m_e$ and a varying $\alpha$, since
+both preserve it. What it tests is universality: whether whatever shifts does so identically for
+the two isotopes. It excludes species-dependent variation, which is a useful null in its own right,
+and it is easily misread as evidence for one constant over the other.
+
+\section{What is assumed}\label{sec:assume}
+
+The weights in Eq.~\eqref{eq:pattern} follow from standard atomic and plasma physics, but the test
+built on them carries assumptions that should be stated.
+
+\emph{Universality.} The shift is taken to act identically on every electron. A species- or
+environment-dependent variation would break the pattern, and the hydrogen--deuterium ratio of
+Sec.~\ref{sec:alpha} is the control for this.
+
+\emph{Other constants fixed.} We vary $m_e$ alone. A simultaneous variation in $\alpha$ or in the
+proton mass adds its own weights to each row, and the observed pattern would then be a
+superposition. Because the weight vectors differ between $m_e$ and $\alpha$, a sufficiently
+well-measured set of bands can in principle separate the components; with few bands it cannot.
+
+\emph{Linearity.} Existing bounds on a varying electron mass from big-bang nucleosynthesis and
+the microwave background place $|\varepsilon|$ at the percent level or
+below~\cite{SetoToda2023,HartChluba2020}. We work to first order in $\varepsilon$. For
+$|\varepsilon| \lesssim 10^{-2}$ the quadratic terms enter at the $10^{-4}$ level, below the
+precision of any of the measurements considered here.
+
+\emph{Constancy along the path.} Each observable integrates along a line of sight or over an epoch.
+The weights apply cleanly if $\varepsilon$ is constant over the relevant interval. If it varies,
+each row picks up its own weighting of the variation and the ratios are modified in a
+row-dependent way. Comparisons at matched redshift are therefore preferable to comparisons across
+widely separated epochs.
+
+\emph{The synchrotron convention.} As noted in Sec.~\ref{sec:weights}, this row reads $-1$ or $-3$
+according to whether the emitting population is labelled by Lorentz factor or by energy. The
+choice must be fixed by the physical situation before the row is used, and we have adopted the
+former.
+
+\section{Sensitivity}\label{sec:sens}
+
+Suppose each band $i$ yields a measured fractional shift $d_i$ with Gaussian uncertainty
+$\sigma_i$, against the prediction $d_i = w_i \varepsilon$. The maximum-likelihood amplitude and
+its error are
+%
+\begin{equation}
+  \hat{\varepsilon} = \frac{\sum_i w_i d_i / \sigma_i^{2}}{\sum_i w_i^{2}/\sigma_i^{2}},
+  \qquad
+  \sigma_{\varepsilon} = \left( \sum_i \frac{w_i^{2}}{\sigma_i^{2}} \right)^{-1/2}.
+  \label{eq:ml}
+\end{equation}
+%
+The weights enter quadratically, so the high-$|w|$ rows dominate. For all five bands measured at a
+common fractional precision $\sigma$, $\sum_i w_i^{2} = 11$ and
+%
+\begin{equation}
+  \sigma_{\varepsilon} = \sigma / \sqrt{11} \simeq 0.30\,\sigma .
+\end{equation}
+
+In practice the bands will not be measured at comparable precision, and a two-band comparison is
+the realistic near-term test. Among pairs, the $21\,$cm and Faraday rows are the extremes of the
+set and give $\sigma_{\varepsilon} = \sigma/\sqrt{8} \simeq 0.35\,\sigma$; a pair involving one
+unit-weight row would give $\sigma_{\varepsilon} = \sigma/\sqrt{5} \simeq 0.45\,\sigma$, though for
+the reasons set out immediately below no unit-weight row is presently measurable, so that
+configuration is not currently available.
+
+A stronger caveat applies to three of the five rows, and it is not a matter of precision but of
+kind. Equation~\eqref{eq:ml} presumes each band supplies an independent Gaussian $\sigma_i$;
+the recombination-line, synchrotron and dispersion-measure rows do not. Radio recombination
+frequencies are
+\emph{computed} from the Rydberg formula and therefore already carry $m_e$, so an observed line
+compared against its own computed rest frequency returns a velocity rather than a constraint;
+that row enters only in differential comparison against a transition of different $m_e$
+dependence. Synchrotron carries a formal degeneracy between the field strength and the emitting
+population, broken in practice by assuming energy equipartition, so its uncertainty is dominated
+by a modelling choice that is itself degenerate with the quantity being weighed --- and the
+resulting normalisation correction does not have a fixed sign. The dispersion-measure row fails the
+same presumption, for the reason set out below: a constant $\varepsilon$ is absorbed exactly by the
+fitted dispersion measure, so the row reports the precision of an independent electron-column
+determination rather than a $\sigma_i$ of its own.
+
+We therefore treat only the two rows referred to a fixed laboratory rest frequency ($21\,$cm and
+Faraday rotation) as presently measurable, giving $\sigma_{\varepsilon} = \sigma/\sqrt{8} \simeq
+0.35\,\sigma$, and regard $\sigma_{\varepsilon} = \sigma/\sqrt{11}$ as an upper bound on what the
+method could reach were the remaining three rows made measurable, rather than as a forecast. The
+five-row pattern of Sec.~\ref{sec:weights} is unaffected: it is a statement about how a shift
+propagates, and all five rows carry it. What is reduced is the number of rows that can presently be
+turned into a measurement.
+
+Pairs of opposite $m_e$-weight are preferable for a reason independent of their statistical
+weight. A systematic common to both bands, entering as a shared multiplicative offset, contributes
+equally to $d_{21}$ and $d_{\rm RM}$ and therefore cancels in the difference that carries the
+signal, whereas it would be absorbed into $\hat{\varepsilon}$ by a same-sign pair. The sign
+structure of Table~\ref{tab:weights} is thus useful twice: it separates the $m_e$ and $\alpha$
+hypotheses, and it suppresses common-mode systematics.
+
+\subsection{Where the rows currently stand}
+
+The two presently measurable rows are quoted below with their statistical figures and, separately,
+the systematic that actually binds each; in both cases the systematic exceeds the statistical
+precision by roughly half an order of magnitude, and in each it arises from a different physical
+effect. The dispersion-measure row is set out between them, not as a third constraint but because
+its exclusion rests on a degeneracy the reader should be able to check rather than on an assertion.
+
+The $21\,$cm row is constrained by comparing hyperfine absorption against optical metal lines in
+the same absorber. The tightest such analysis reports $\Delta x / x = -(0.1 \pm 1.3) \times
+10^{-6}$ over four systems at $1.17 < z < 1.56$, where $x \equiv g_p \alpha^{2}/\mu$
+\citep{Rahmani2012}. Since $\mu = m_p/m_e$, holding $\alpha$ and the proton moment fixed gives
+$\delta \ln x = -\delta \ln \mu = \varepsilon$, so that measurement is a measurement of the
+amplitude itself:
+%
+\begin{equation}
+  \varepsilon = -(0.1 \pm 1.3) \times 10^{-6} \quad (1.17 < z < 1.56),
+  \label{eq:eps21}
+\end{equation}
+%
+statistical only. An earlier analysis of the same combination
+quotes a maximum systematic of $6.7 \times 10^{-6}$ \citep{Kanekar2010}, arising because the
+radio and optical absorption need not sample the same gas along a finite-width sightline --- which
+is why the tighter analysis restricts itself to milliarcsecond-unresolved background sources.
+Added in quadrature the two give $\varepsilon = -(0.1 \pm 6.8) \times 10^{-6}$, or
+$|\varepsilon| < 1.4 \times 10^{-5}$ at $2\sigma$. This is a reinterpretation of a published
+measurement under the assumptions of Sec.~\ref{sec:assume}, not a new one. The systematic exceeds
+the statistical error by a factor of five --- exactly the situation a ratio test across bands with
+independent systematics is meant to improve on.
+
+The dispersion-measure row has by far the best raw precision and, for the same reason as the
+recombination-line row, the least of it is usable. Median DM uncertainties reach
+$\sim\!10^{-5}\,\mathrm{pc\,cm^{-3}}$ in low-frequency monitoring, which against typical
+pulsar-timing-array dispersion measures of $10$--$100\,\mathrm{pc\,cm^{-3}}$ is a fractional
+precision of $10^{-7}$--$10^{-6}$. That precision does not transfer to $\varepsilon$. A pulsar
+timing model fits an infinite-frequency arrival time and a dispersion measure from
+$t(\nu) = t_{\infty} + K\,\mathrm{DM}/\nu^{2}$, and a universal shift $m_e \to m_e(1+\varepsilon)$
+rescales the delay's coefficient while leaving its $\nu^{-2}$ shape untouched. The fit therefore
+absorbs it exactly, returning $\mathrm{DM}_{\rm fit} = (\int n_e\,dl)/(1+\varepsilon)$ with
+$t_{\infty}$ unchanged and no timing residual at any frequency coverage. A constant $\varepsilon$
+is thus degenerate with the fitted dispersion measure, and improving the DM measurement improves
+$\mathrm{DM}_{\rm fit}$ while saying nothing about the shift. The row constrains $\varepsilon$ only
+in the sense already stated in Sec.~\ref{sec:weights}: against an independent determination of the
+same electron column, whose precision, not the DM precision, sets $\sigma_\varepsilon$.
+
+That route has been taken. The fast-radio-burst analyses cited in Sec.~\ref{sec:intro} compare the
+observed dispersion measure against the value predicted from $\Omega_b h^{2}$ and an assumed
+intergalactic baryon fraction, which is exactly the external column referred to above. Seventeen
+bursts with supernovae in a runaway-dilaton parametrization give $\Delta\alpha/\alpha$ at the
+$10^{-2}$ level~\cite{Lemos2025}; 50 bursts over $0.004 < z < 1.02$ tighten this to
+$\Delta\alpha/\alpha \simeq 2 \times 10^{-5}$~\cite{Kalita2024}. One caution about reading those
+results as mass constraints. The quoted $\Delta\mu/\mu \simeq -1 \times 10^{-5}$ is not independent
+of the $\alpha$ result but derived from it, through an assumed relation between mass and coupling
+variation, so it does not constrain $\varepsilon$ at fixed $\alpha$ --- the case considered here.
+The corresponding mass-only analysis has not to our knowledge been performed, and its limiting
+uncertainty would be the baryon fraction rather than the dispersion measures.
+
+What the timing literature does bound is the \emph{variation} of $\varepsilon$. Mis-estimated
+dispersion produces infinite-frequency arrival-time offsets of order $20\,\mu\mathrm{s}$ for
+high-DM pulsars, correlated on month timescales
+\citep{JonesNANOGrav2017,NANOGravDM2023}; read as a bound on epoch-to-epoch drift this gives
+$\sim\!2\times10^{-6}$ at high DM and low frequency, falling to $\sim\!3\times10^{-4}$ at
+$1400\,\mathrm{MHz}$ and low column. We therefore do not fold the $10^{-7}$ figure into any
+forecast, and we do not treat this row as carrying a constant-$\varepsilon$ constraint at all.
+
+The Faraday row is set by rotation-measure catalogue precision. The deepest current grid reports a
+median RM uncertainty of $0.06\,\mathrm{rad\,m^{-2}}$ across $2461$ extragalactic sources, with a
+possible residual systematic of up to $0.3\,\mathrm{rad\,m^{-2}}$ after ionospheric correction
+\citep{OSullivanLoTSS2023}.
+
+\subsection{Where the amplitude actually stands}
+
+The strongest existing bound on $\varepsilon$ comes from none of these rows. Methanol absorption in
+the $z = 0.88582$ lens toward PKS1830$-$211 gives
+$|\Delta\mu/\mu| \lesssim 4 \times 10^{-7}$ at $2\sigma$ over $0 < z \leq 0.886$
+\citep{KanekarMethanol2015}. The methanol transitions carry $\mu$ alone --- no $\alpha$, no proton
+moment --- so that limit constrains $\varepsilon$ under weaker assumptions than
+Eq.~\eqref{eq:eps21} requires, and it is some thirty-five times tighter. An independent analysis of the
+same source at three telescopes, using ten transitions, agrees:
+$\Delta\mu/\mu = (-1.0 \pm 0.8_{\rm stat} \pm 1.0_{\rm sys}) \times 10^{-7}$
+\citep{BagdonaiteMethanol2013}, which is $|\Delta\mu/\mu| < 3.6 \times 10^{-7}$ at $2\sigma$ and is
+likewise dominated by its systematic. The $21\,$cm and Faraday pair
+would need a fractional precision of $\sigma \simeq 1.1 \times 10^{-6}$ per band to match it. The
+two rows that can presently be entered therefore do not improve the limit on the amplitude, and we
+do not claim that they do.
+
+What they supply instead is something a single molecular comparison cannot. One transition returns
+one number against one free amplitude $\varepsilon$; the fit is exact and nothing is left over, so
+every hypothesis with a free amplitude accommodates the result equally well. Two rows of different
+weight return two numbers for the same amplitude, leaving one residual degree of freedom that the
+hypotheses do not share --- and it is that residual, not the amplitude, that Eq.~\eqref{eq:ml}
+calculates the sensitivity of. Because the count does not involve $\sigma$, a tighter bound on the
+amplitude does not diminish it. The methanol analyses already illustrate the same point that
+limits the $21\,$cm row: a tighter statistical limit from one line pair was set aside in favour of
+the weaker figure from three transitions whose profiles agree, on the grounds that only those
+demonstrably sample the same gas. Both of the best available constraints on $\varepsilon$ are
+limited by sightline structure rather than by photon noise.
+
+\section{Falsification}
+
+The pattern is falsified by any single band deviating from its assigned weight, once two or more
+bands are measured along the same sightline or at matched redshift.
+
+Two outcomes distinguish the hypothesis from the alternatives. A pattern consistent with
+$+2:+1:-1:-1:-2$ across the five bands supports a universal shift in $m_e$. A pattern with the
+same signs but different magnitudes is evidence for a mixed variation, or for a variation in
+$\alpha$, and the weight vectors separate the cases. Uncorrelated shifts, or a single anomalous
+band with the others null, are not evidence for this hypothesis and should be treated as
+instrumental or astrophysical in origin.
+
+\section{Conclusion}
+
+A universal fractional shift in the electron mass produces a correlated signature across radio
+observables whose relative sizes are fixed by atomic physics. The ratios
+$+2:+1:-1:-1:-2$ are independent of the amplitude of the shift, so the structure can be tested
+without a prediction for that amplitude and without commitment to any mechanism producing it. The
+pattern differs from that produced by a varying fine-structure constant, and the
+hydrogen--deuterium hyperfine ratio provides an internal control on universality that both
+hypotheses pass and a species-dependent variation fails.
+
+Two of the five rows can be entered at present. Read through the weights, the tightest published
+$21\,$cm comparison bounds the amplitude at $|\varepsilon| < 1.4 \times 10^{-5}$ over
+$1.17 < z < 1.56$, with the systematic five times the statistical error --- and methanol absorption
+bounds it some thirty-five times more tightly still. Neither figure is improved here. The case for
+the pattern is not that it measures $\varepsilon$ better, but that a limit on $\mu$ is a single
+number, which cannot say whether the shift lies in the electron mass or in the coupling, nor
+whether every species shares it. Five weights of two signs answer both questions, and the ordering
+of the errors points the same way: a ratio taken between bands whose systematics are unrelated is
+limited by neither alone.
+
+\bibliographystyle{apsrev4-2}
+\bibliography{refs}
+
+\end{document}

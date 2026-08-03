@@ -1,59 +1,42 @@
-# The Neutrino Home — the Tenth Channel (2026-07-11)
+# Neutrino home — the lightest-mass relation (2026-07-11)
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full sector: [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md). Letter to experiment: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md).
 
+Third thread of the atomic-constant survey; collects the neutrino-sector relation. One registered prediction rides it (P-2026-023). Relative to standard cosmology, the model shifts the *inferred* neutrino mass upward, not down.
 
-*Thread 3 of the atom-grammar survey; consolidates the recorded neutrino structure into its
-standalone. Status: STRUCTURAL with one REGISTERED prediction (P-2026-023) and live in-house
-numbers. The improvement over standard cosmology: it RESOLVES an emerging tension rather than
-suffering it.*
+**Status.** Lightest-mass relation and upward shift established in the model. Open: joint-fit consistency, exact v_L derivation, comparison with direct and oscillation bounds.
 
-## 0. The emerging problem in standard cosmology
+## 0. Standard-cosmology tension
 
-ΛCDM-conditional fits to current data keep pushing Σm_ν DOWN — the tightest combinations now
-squeeze below the oscillation-experiment floor (59 meV), flirting with "negative neutrino
-mass": an internal contradiction brewing between the sky and the lab.
+ΛCDM-conditional fits push Σm_ν down. Tightest combinations sit at or below the oscillation floor — tension between cosmology and the lab neutrino sector.
 
-## 1. The model's structure: neutrinos are the medium's own mass channel
+## 1. Model structure
 
-In this model the neutrino is unique among fermions: its mass is NOT Higgs-Yukawa'd — it is
-**medium-sourced** (the inverse-seesaw/Majoron assembly; μ = the L-breaking spurion tied to the
-condensate; the recorded meV-floor kinship ρ_inf^¼ ~ 2.25 meV vs m_ν-scale). The grouping
-made it structural: nine Higgs channels + ONE medium-owned line — the neutrino is "the tenth
-channel," the carrier's own.
+Neutrino mass is not an ordinary Higgs Yukawa. It is medium-sourced (inverse-seesaw / Majoron), with the lepton-number-breaking scale tied to the condensate and the recorded DE–lightest-mass relation. Structural claim: neutrino mass lives in the medium sector, not the electroweak Higgs sector.
 
-## 2. The improvement, with numbers (P-2026-023, registered)
+## 2. Fit numbers (P-2026-023)
 
-Fitting the SAME data, the dyad de-biases the inferred neutrino mass UPWARD:
-- in-house minima: ΛCDM pins m_ncdm = 0.000 eV (the collapse toward the impossible), the dyad
- prefers **0.0875 eV** (healthy, above the floor, in the lab-allowed band);
-- the omk run: the dyad's preference SURVIVES curvature being freed (m_ncdm = 0.071);
-- the mechanism: the m_e shift re-partitions the CMB constraints that ΛCDM spends on
- suppressing Σm_ν.
-**Test**: as data sharpen, ΛCDM-conditional bounds cross below 59 meV (contradiction) while
-dyad-conditional posteriors stay healthy. **Falsifier**: the dyad posterior collapsing too.
-This is a live, near-term discriminator — arguably the model's quietest real-time advantage.
+Same data; `m_ncdm` is the sampler’s neutrino-mass parameter (sampled Σm_ν):
 
-## 3. The forward structure (the seesaw corner, quantified)
+| setup | m_ncdm |
+|---|---|
+| ΛCDM fit | 0.000 eV |
+| model preference | 0.0875 eV |
+| model + free curvature | 0.071 eV |
 
-Benchmark A (v_L = 5 MeV, M = 10 TeV): near-resonant (μ/Γ = 0.46, benchmark-local),
-Majoron coupling g = 1.2×10⁻⁸ — INSIDE the CMB-S4 band (P-2026-025).
-The corner map: S4 tests v_L < 20 MeV ≈ one-third of the natural space. The η route
-(the baryogenesis route) rides this same sector: K = Γ_N/H = 9×10⁷ computed; one Boltzmann solve from the
-baryon abundance. The neutrino sector is where the model's laboratory future lives.
+Electron-mass shift reallocates part of the CMB constraint budget.
 
-## 4. Honest scope
+**Test.** As data sharpen: ΛCDM-conditional bound below 59 meV conflicts with the cosmological fit while the model posterior stays above the floor. Failure mode: model posterior collapses.
 
-- The de-biasing DIRECTION is generic to varying-m_e cosmologies (a caveat, kept); the
- model's specific numbers (0.07–0.09 eV) are its own.
-- v_L: duty-forced into a corner-conditional band (the seesaw scan executed) —
- MeV-class and S4-armed if the η route is resonant; ≥ GeV and S4-dark if the seesaw
- vertex is the junction's. The two corners exclude each other across an 8.6-decade
- bridge; CMB-S4's Majoron search is the corner-selector. A point value still awaits λ′.
-- KATRIN-class direct limits and the oscillation floor bracket the allowed window the model
- must keep hitting as both tighten.
+## 3. Forward structure (benchmark)
 
-*Standard cosmology is slowly arguing itself into a neutrino lighter than nothing. This model
-needs the neutrino heavy enough to notice — because the medium that runs the sky pays that
-mass from its own line. Watch the two posteriors diverge; one of them has to be wrong in
-public.*
+Benchmark A: v_L = 5 MeV, heavy-state mass M = 10 TeV — near-resonant; inverse-seesaw parameter μ/Γ = 0.46; Majoron coupling g = m₃/v_L = 1.0×10⁻⁸ inside CMB-S4 band (P-2026-025). CMB-S4 tests v_L < 20 MeV (~1/3 of natural parameter space). Same sector appears in baryogenesis (equilibrium ratio K = Γ_N/H = 9×10⁷ computed).
+
+## 4. Scope
+
+- Upward-shift direction is generic to varying-m_e cosmologies; specific numbers are this model’s.
+- Two viable v_L points: MeV-scale (CMB-S4 accessible) and high-v_L (not).
+- CMB-S4 is the cleanest discriminator between points.
+- KATRIN-class direct limits and the oscillation floor bracket the remaining window.
+
+Standard cosmology pushes neutrino mass down. This model keeps it heavy enough to stay visible because the medium that replaces DM+DE pays that mass from its own sector. Cosmological and laboratory posteriors should diverge if the model is right.

@@ -55,7 +55,7 @@ timing and passed identically.
 | Obstruction | Resolution in this framework | Grade |
 |---|---|---|
 | Non-renormalizability | Above the condensate's coherence scale there is no metric degree of freedom to renormalize; the problem relocates (explicitly, not evasively) to the substrate's microphysics | framework property |
-| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.2599 meV against the measured 2.25 meV, +0.44%. The chain's one order-one number, τ = T_c/m_e, is supplied by the Koide kernel at ½ln2, giving T_c = 177.10 keV; a lattice T_c/√σ for SU(2) with N_f = 3 is what confirms or kills it ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)). M₂ = α²·T_c and α_c = 3α under test | derived; the portal √σ_dark = m_e is the one input |
+| The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.2599 meV against the measured 2.25 meV, +0.44% — **an existence claim; the composite quartic sits above its control edge, so the agreement is not claimed to that precision**. The chain's one order-one number, τ = T_c/m_e, is supplied by the Koide kernel at ½ln2, giving T_c = 177.10 keV; a lattice T_c/√σ for SU(2) with N_f = 3 is what confirms or kills it, and the same treatment is what would restore the precision claim ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)). M₂ = α²·T_c and α_c = 3α under test | derived; the portal √σ_dark = m_e is the one input |
 | Weinberg–Witten (no composite gravitons) | Evaded by the preferred frame: Lorentz invariance is emergent/infrared, which is the recognized escape from the theorem's premises. The corresponding Lorentz-violation obligations are priced in a dedicated audit: matter carries no vector/tensor bridge to the frame (the dangerous operators are unwritable, not merely suppressed), leaving local physics Lorentz-invariant to the 10⁻¹²–10⁻³⁸ level demanded by clock-comparison and astrophysical bounds | paid [LV-pricing audit] |
 | Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property |
 | The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal. **The medium reproduces this independently**: counting horizon entanglement across its own coherence cells gives S ∝ N·A/ξ² while induced gravity gives 1/G ∝ N/ξ², so the species count and the cutoff cancel in the ratio — the universality is the medium's too. What the medium does not fix is the pure number: the Bekenstein quarter would need one specific bit-per-cell value ([PRTOE_entropy.md](PRTOE_entropy.md) §3) | **mechanism adopted; scaling and coefficient both now derived** — see §4a |
@@ -84,9 +84,39 @@ property of the condensate, and their regulated one-loop coefficient equals the 
 requires and precisely what a fundamental theory cannot guarantee. **In a medium the cutoff is not a
 choice, so the quarter is not a scheme artifact.**
 
-**Grade: derived, conditional on the Bogoliubov regulator's O(1) = 1.0000 result holding for the
-entanglement side as it does for the induced-G side** — the same computation, one side of it not yet
-run explicitly.
+**The entanglement-side check, paid (2026-07-20) — and it is a structural identity, not a second
+computation.** The two coefficients are not two independent one-loop results that happen to share a
+cutoff. A conical deficit puts a delta-function in the Ricci scalar on the entangling surface,
+R ⊃ 4π(1−n)δ_Σ, so the *area* term in the conical heat kernel **is** the *R* term of the same
+coefficient a₁ that generates 1/G — which is exactly the Frolov–Fursaev–Zelnikov universality
+recorded in §4. Both therefore carry the same proper-time integral ∫ds/s², and a regulator that
+reshapes that measure multiplies **both** by the same factor. So
+
+> **O(1)_entanglement = O(1)_induced-G identically, for any form factor** — and the quarter is
+> regulator-independent, not merely regulator-consistent.
+
+**What this costs the way the result was stated.** The p-ramp on the induced-G side — O(1) =
+2.0/1.0/0.5 at Bogoliubov softening p = 1.5/2/3 — cancels in the ratio, which is the good news;
+but it also means **"O(1) = 1.0000" is the p = 2 point of a ramp, not a prediction of the medium.**
+What earns the quarter is the shared-coefficient structure, and the flat 1.0000 should not be
+quoted as though the medium selected it.
+
+**Derived for the field content the coefficients assume** — minimally coupled scalars, which
+is what 12π and 48π are the coefficients *of* — and it does not extend to the model's roster
+automatically. For non-minimal coupling and for fields with spin the two divergences stop being one
+heat-kernel term (this is precisely where Frolov, Fursaev and Zelnikov require extra subtractions —
+[FrolovFursaevZelnikov1997]).
+
+**The extension has been made, class by class.** Spin-½ produces no contact term and preserves the
+ratio exactly, which settles the recorded fermion-sign hazard directly rather than arguing past it
+with a ratio. Gauge fields break the ratio through Kabat's contact term, which Donnelly and Wall
+identify as the edge modes' own entanglement entropy, restoring it once edge modes are counted as
+horizon entropy. A conformally coupled scalar drops out of both sides identically, as the Higgs does
+under the same ξ = 1/6 that the induced-Newton finiteness condition already requires. Over the
+model's roster, the Weyl fermions and minimal scalars carry the quarter unconditionally and the
+gauge bosons carry it under that one commitment. **The quarter survives the full roster at candidate
+grade, and rejecting edge-mode entropy is what would break it**
+([PRTOE_entropy.md](PRTOE_entropy.md) §3).
 
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
@@ -116,7 +146,7 @@ gauge bosons −4 each; real scalars (1/6 − ξ).
 | **dark** — fermions | dark quarks: N_f × N_c × 2 Weyl = 3 × 2 × 2 | **+12** *(candidate — P-2026-048)* |
 | **dark** — gauge | dark gluons: (N_c² − 1) = 3 bosons × (−4) | **−12** *(candidate — P-2026-048)* |
 | | *dark subtotal* | ***0 — exactly*** |
-| | **TOTAL** | **0** |
+| | **Total** | **0** |
 
 **The visible subtotal is the balance §5.3 is named for, but it is not by itself the
 finiteness condition** — "every field in the vacuum" includes the dark sector, and an
@@ -136,10 +166,55 @@ the one-loop contribution to Newton's constant is finite"* — and, as Visser no
 becomes independent of the renormalization scale. These are, in his words, *"very strong
 constraints on the particle content,"* not derivable from supersymmetry alone.
 
-**The Standard Model alone does not satisfy it (str[k₁] = −3). It is satisfied exactly —
-to zero — by the Standard Model plus three right-handed neutrinos: the content this
-framework independently requires for Majorana neutrino masses.** The framework's field
-content lands on a knife-edge condition the literature identifies as hard to meet.
+> **What imposing the zero costs, settled 2026-07-29.** Visser's Eq. 29 is
+> 1/G ≈ −(1/2π)·str[k₁]·κ², with str[k₁] ≈ −1 in his estimate. **Setting str[k₁] = 0 therefore
+> switches Sakharov induction off at leading order: the κ² term that would generate Newton's
+> constant vanishes.** Visser flags the tension himself — the finiteness assumption *"is completely
+> at odds with Sakharov's original version."*
+>
+> This is not a hole in the argument once stated correctly, and the correct statement is the
+> stronger one. **The claim is not that this field content induces gravity. It is that for Standard
+> Model content plus three right-handed neutrinos and a conformally coupled Higgs, the one-loop
+> matter correction to Newton's constant is finite — so G can be a genuine tree-level constant
+> rather than a quantity fine-tuned against a Planck-scale divergence.** That is a naturalness
+> statement about G, not an induction statement, and it is what any manuscript must say.
+
+**Prior art on the conclusion, recorded 2026-07-28.** The generation count reached here is not a
+new result. [Navarro-Salas 2024, arXiv:2403.13201, *Classical and Quantum Gravity*] requires
+**exact conformal symmetry** — both trace-anomaly coefficients vanishing — and concludes that the
+Standard Model gauge group *"requires precisely 48 Weyl fermions, i.e. three generations of
+standard model fermions, including right-handed neutrinos."* The two derivations sit at different
+orders of the same expansion (the induced-Newton-constant coefficient here; the Weyl-squared and
+Euler coefficients there) with entirely different weights, and it would be easy to present them as
+two independent gravitational arguments for three generations. **They are not, and the corpus
+should not.** Solved out, the published condition is N_½ = 4·N₁ − N₀/2 and this one is
+N_½ = 4·N₁ — the same equation once N₀ = 0, which is the conformally-coupled-scalar premise
+(ξ_H = 1/6) that Visser's Eq. 35 already forces on this balance. Two coefficients of one expansion
+over one roster, agreeing because the roster does the work. What is not known to be published is
+the route taken here — str[k₁] = 0 evaluated for Standard Model plus three right-handed
+neutrinos — and the search establishing that is a partial negative, not a clean one.
+
+**The Standard Model alone does not satisfy it. It is satisfied exactly — to zero — by the
+Standard Model plus three right-handed neutrinos: the content this framework independently
+requires for Majorana neutrino masses.** The framework's field content lands on a knife-edge
+condition the literature identifies as hard to meet.
+
+> **⚠ Units, corrected 2026-07-29 — verified, but state it two ways.** An earlier version of this
+> paragraph read "str[k₁] = −3" for the Standard Model alone. **In Visser's normalisation the value
+> is −1/2.** The −3 is the deficit counted in **Weyl spinors** (45 against the 48 required), and the
+> two are related by the +1/6 each Weyl contributes: (−3)/6 = −1/2. Both statements are true and the
+> Weyl deficit is the more legible one, but **a referee checking Visser's Table 1 will compute −1/2
+> and conclude the arithmetic is broken.** Any manuscript must give −1/2 as str[k₁] with the Weyl
+> deficit alongside it.
+>
+> The balance itself is confirmed by independent computation from Visser's published coefficients:
+> 48 Weyl × (+1/6) = +8 against 12 massless vectors × (−2/3) = −8, the integer identity
+> **N_½ = 4N₁, i.e. 48 = 4 × 12**, with no slack. The sign convention — the one thing that could
+> have destroyed the result — is settled by Visser's own table rather than assumed: his caption
+> folds the fermion minus in *only* for the supermultiplet rows, and his stated additivity for a
+> massive vector (−1/2 = −2/3 + 1/6) holds only if bosons carry their printed sign. Double-counting
+> that minus would give −16. Forward content survives: a sterile Weyl shifts the balance by +1/6, a
+> fourth generation by +8/3. Instrument: `scripts/supertrace_k1_verify.py`, 16 controls, all pass.
 
 *(The scalar sector.* The count above runs over fermions and gauge bosons,
 whose supertrace is zero for SM + 3ν_R. The Higgs is a complex SU(2) doublet — four real
@@ -185,7 +260,8 @@ replacing the one that died. It carries no free scale to absorb a miss.
 **Owns**: a quantum substrate; an emergent metric with functioning horizons; a computed
 vacuum-energy scale — ρ_Λ¼ = 2.2599 meV against the observed 2.25, **+0.44%**, with τ = ½ln2
 sourced by the Koide kernel, M₂ = α²·T_c at the kernel's T_c = 177.10 keV, and α_c = 3α under
-test ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md));
+test — **owned as an existence claim and not to that precision**, the composite quartic sitting
+past perturbative control ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md));
 singularity-free interiors; a closed one-loop expression for Newton's constant; and a
 single-measurement falsification condition (§5.3).
 
@@ -203,7 +279,7 @@ the medium was quantum before there was anything to hear it.*
 The G-closure — every attempt to *compute* Newton's constant from the model's roster — is
 retired, and the road there is worth the reader's time: three schemes in one day
 (Sakharov → Pauli → Volovik) computed G in none of them, and the closure is finally
-UNDECIDABLE by this model — it needs the Higgs' non-minimal coupling ξ_H, a Standard-Model
+undecidable by this model — it needs the Higgs' non-minimal coupling ξ_H, a Standard-Model
 input a dark-sector cosmology has no business deriving. What *survives* is the keeper this
 file rests on: Pauli finiteness (str[k₁] = 0) and its forward kills. The full obituary,
 including the premature-verdict process errors it generated, is in
@@ -222,3 +298,52 @@ structure and the scheme ambiguity §5 addresses).
 Volovik, *The Universe in a Helium Droplet*; Barceló–Liberati–Visser, *Analogue
 Gravity* — the framework's nearest ancestors.
 Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+---
+
+### The Navarro-Salas comparison, verified and sharpened (2026-07-29)
+
+The file records that the published condition and this one "collapse to N_½ = 4N₁ and are not
+independent." **That is correct, and it now has a proof.** Navarro-Salas's two conformal-anomaly
+conditions (CQG 2024, Eq. 3.10) are
+
+> a ∝ N₀ + (11/2)N_½ + 62N₁ − 28N^ξ = 0,  c ∝ N₀ + 3N_½ + 12N₁ − 8N^ξ = 0
+
+Eliminating N^ξ between them gives −(5/2)N₀ − 5N_½ + 20N₁ = 0, i.e. **N_½ = 4N₁ − N₀/2** — exactly
+as recorded, and equal to str[k₁] = 0's N_½ = 4N₁ when N₀ = 0. His stated solution (N₀ = 0,
+N^ξ = 36, N_½ = 48, N₁ = 12) makes both coefficients vanish identically, checked.
+
+**Also checked, and it matters for how this must be written:** his paper contains **no mention of
+Sakharov induced gravity, of the induced Newton constant, or of Visser** — zero hits across the full
+text. The route here is genuinely not his.
+
+### But the two theories are not the same theory, and the difference is the Higgs
+
+| | Navarro-Salas (conformal anomaly) | str[k₁] = 0 (induced-G finiteness) |
+|---|---|---|
+| relation | N_½ = 4N₁ − N₀/2 | N_½ = 4N₁ |
+| scalars | **N₀ = 0 forced** — *"the Higgs doublet … cannot be considered [a] fundamental [entity]"* | Higgs kept, N₀ = 4 at **ξ_H = 1/6** |
+| new fields | **N^ξ = 36 required** | **none** |
+| SM + 3ν_R at N₁ = 12 | needs N_½ = 48 ✓ (only because N₀ = 0) | needs N_½ = 48 ✓ |
+
+At N₀ = 4 his relation would demand N_½ = 46, which SM + 3ν_R misses by two. **He escapes that by
+banishing the Higgs; this route escapes it by making the Higgs conformal.** Same counting relation,
+incompatible field content.
+
+### What that makes the paper
+
+Not "a gravitational argument for three generations" — that is published. **A deflationary note, and
+a useful one:**
+
+> Two gravitational conditions that appear to give independent support for three generations plus
+> right-handed neutrinos reduce to the same counting relation, so they are not independent evidence.
+> They are nonetheless distinguishable, because they disagree about the Higgs: anomaly cancellation
+> forbids a fundamental Higgs doublet and requires 36 additional scalars, while finiteness of the
+> induced Newton constant admits the Higgs as a conformally coupled scalar and requires nothing new.
+
+That is honest, short, entirely textbook in its inputs, and it does something worth doing — it stops
+a double-count of evidence while identifying the observable that separates the two. **It is also the
+only version of this file that is publishable**, since the headline conclusion is Navarro-Salas's.
+
+*Debt 3 is therefore discharged in the only way it could be:* the positioning is not a paragraph
+acknowledging Visser 2018 and Navarro-Salas 2024, it is the paper's entire thesis.

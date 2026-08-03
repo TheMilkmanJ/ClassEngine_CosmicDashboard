@@ -27,6 +27,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0
@@ -89,7 +90,7 @@ params:
     ref: {dist: norm, loc: 0.701221, scale: 0.02}
     proposal: 0.02
     latex: \rho_\infty
-  varying_me: 1.01232
+  varying_me: 1.012543
   A_planck:
     prior: {dist: norm, loc: 1.0, scale: 0.0025}
     ref: {dist: norm, loc: 1.0, scale: 0.002}
@@ -140,7 +141,9 @@ sampler:
     burn_in: 40
     max_tries: 400
     learn_proposal: true
-    covmat: chains/dyad_mnu_seed.covmat
+    learn_proposal_Rminus1_max: 2.0
+    learn_proposal_Rminus1_max_early: 2.0
+    covmat: chains/zon_disp_seed.covmat
     Rminus1_stop: 0.05
     Rminus1_cl_stop: 0.2
     max_samples: 40000
