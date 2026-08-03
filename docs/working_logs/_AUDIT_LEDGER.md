@@ -6681,3 +6681,24 @@ mistaken for the measurement precision needed to resolve it. Both aligned to 0.2
 stated.
 
 Tally: 9 of 53 files read whole; the giants MATH_SPINE and hierarchy_problem are next, one per tick.
+
+### Batch 2, tick 2 (2026-08-02): MATH_SPINE read whole — five defects, three of them repeat instances
+
+**MATH_SPINE** (1,006 lines) is now read end to end. Every checkable number reproduces: the ε
+stack (27α/5π), the 9.46 keV onset clock and its 1.007× code match, the 307–714 keV corrected
+cross-check with its 1.73×/53% consequences, the a_turn closed form and its z ≈ −0.51…−0.65
+landing, the BKL tracking law w = (n−2)/(n+2) with its trans-Planckian freeze price, the
+(2/9)·T_c = 39.36 keV closure, N₁ = 4πk/α_c = 783, and the λ-ceiling 2×10⁻⁹¹.
+
+Five defects, and their shape is the lesson: **three were repeat instances of already-corrected
+claims living in the same file as their corrections.** (1) §2 and (2) §9 both still asserted the
+mass "pinned independently by ξ, the Schive core radii and the superradiance window" — the exact
+wording §0 of the same file withdraws at length (ξ circular, Schive unresolved); both rebuilt on
+the surviving committed-uses basis. (3) The §7 supersession note and (4) the §7 relaunch
+parenthetical and (5) §9's Standing paragraph all still described Route-D's two-rank 07-28/07-29
+state — two relaunches stale, including my own 07-29 correction block, which had itself gone dead
+(the deadlock it describes was fixed 07-30, and the run it describes was replaced 08-01). All
+three rewritten to the current state: fifth launch, three ranks, basin-narrowed covariance, in
+burn-in, predecessors archived. Residual sweep for both phrases corpus-wide: clean.
+
+Tally: 10 of 53 files read whole. hierarchy_problem (1,223 lines) is the remaining giant.

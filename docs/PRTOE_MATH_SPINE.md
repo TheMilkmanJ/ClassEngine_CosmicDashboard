@@ -212,8 +212,9 @@ Match 1.007×. The onset is field 1's H=m clock — textbook ULDM — NOT a cond
 Code: `dcdf_z_rad_onset` (background.h, with the derived-identity comment). *(Five production
 configs — `conv`, `conv_desi`, `dyad`, `lepton`, `nulink` — set this identity value. The `_fixed`
 family, including the running evidence job, is frozen at 3.5619×10⁷ instead: 0.053 dex low, which
-under this same clock corresponds to m = 1.75×10⁻²⁰ eV rather than 2.24×10⁻²⁰. The mass is pinned
-independently by ξ, the Schive core radii and the superradiance window, so the identity is the
+under this same clock corresponds to m = 1.75×10⁻²⁰ eV rather than 2.24×10⁻²⁰. The mass is
+committed across its three independent uses — the onset clock, the galactic cores, the
+superradiance band (§0's provenance walk) — so it cannot retreat, the identity is the
 model's value and the frozen setting is a profiled offset — see
 `ForJustin/07-zon-two-values.md`.)*
 
@@ -351,18 +352,16 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > sections below record the mechanism as it was worked out; the addendum records what happened to
 > it.
 >
-> **Superseded in part, 2026-07-29: Route-D is running again — but the "single decider" retraction
-> stands, for a reason that has nothing to do with whether a chain is on the box.** `cmp_prtoe_routeD`
-> was relaunched and is live as of 2026-07-29 22:00, now with **two** chains rather than one,
-> ~22 h in. Its R−1 reads 19331, which is a burn-in artefact and not a pathology — the two chains
-> sit only 2–7 proposal-σ apart, and the huge number comes from within-chain scatter being 8–70×
-> smaller than that separation while both chains are still descending rather than sampling. It is
-> nonetheless stuck in a configuration deadlock: `learn_proposal_Rminus1_max_early` is 1000, so the
-> proposal covariance cannot be relearned until R−1 falls, and R−1 falls slowly because it was never
-> relearned. Expect nothing before 2026-08-01 and plan for ~08-09. **What does not change:** the
-> clean Route-D prediction was killed by the full-cycle KP solve analytically, so no chain was ever
-> the single decider — see the addendum, where that phrase has now actually been removed from the
-> sentence carrying it.
+> **Current state (2026-08-02): Route-D runs on its fifth launch — and the "single decider"
+> retraction stands, for a reason that has nothing to do with whether a chain is on the box.**
+> The 2026-07-29 two-rank relaunch proved to be in a proposal deadlock (the learn gate at 100
+> against R−1 in the thousands); fixing the gate and rebuilding the covariance lifted acceptance
+> from 6% to 21–25%, but the ranks remained basin-split, so a further relaunch (2026-08-01)
+> narrowed the covariance to the winning chain's basin and went to **three MPI ranks**. It is in
+> burn-in; the two stopped runs are archived beside the chain with their diagnoses. **What does
+> not change:** the clean Route-D prediction was killed by the full-cycle KP solve analytically,
+> so no chain was ever the single decider — see the addendum, where that phrase has now actually
+> been removed from the sentence carrying it.
 >
 > **Correction, 2026-07-28 (the state that prompted the retraction, kept for the record): there was
 > no running Route-D chain, and the one that had run could not have
@@ -382,9 +381,10 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > confinement. A between-chain R−1 can, because independently seeded chains would have to agree. The
 > failure mode that actually matters here is precisely multi-modality, so a one-chain run supplies a
 > number that is *blind to the thing being tested.* Deciding this fork from the model's own chains
-> therefore still requires a multi-chain relaunch — **which has since been done** (2 ranks, launched
-> 2026-07-28 22:51, healthy at 21–24% acceptance, burning in). The external adjudicator (DESI DR3) is
-> unaffected and still decides the branch.
+> therefore still requires a multi-chain relaunch — **which has since been done, three times over**:
+> the current run (2026-08-01) carries **three MPI ranks** on a covariance narrowed to the winning
+> chain's basin, in burn-in, with the two stopped predecessors archived beside it. The external
+> adjudicator (DESI DR3) is unaffected and still decides the branch.
 
 **7a. The sequestered floor — a route that does not work.** A Kaloper–Padilla vacuum-sequestering
 attempt to fix the dark-energy value from the cosmic expansion history was checked and fails: it
@@ -705,7 +705,8 @@ the physics has none.**
 ## 9\. Ledger (what this spine rests on)
 
 **Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, the mass
-pinned independently by ξ, the Schive core radii and the superradiance window); **the
+committed across its three independent uses — the onset clock, the galactic cores, the
+superradiance band — per §0's provenance walk); **the
 electron-coupled scalar's onset is T_c = 177.10 keV from the lepton-mass relation's τ = ½ln2** —
 the value's source is the confining chiral ratio, not the electron loop, whose predecessor
 *configuration* (the CW VEV at ≈ 175 keV) §4 retires
@@ -743,10 +744,10 @@ fork with a signature moves an unmeasurable quantity. That is a permanent grade 
 and it belongs beside c on the list of things the model counts on rather than derives.
 
 **Standing:** open pending the named referees, DESI-capped; the branch is registered
-(P-2026-056) with its guards discharged. Its adjudicating chain was **not running** as of
-2026-07-28 (this sentence previously said it was); `cmp_prtoe_routeD` then held a single chain file,
-last written 2026-07-20. It has since been **relaunched with two ranks** (2026-07-28 22:51, healthy
-at 21–24% acceptance, still burning in). Note the earlier gloss here — that a one-chain run "cannot
+(P-2026-056) with its guards discharged. Its adjudicating chain runs on its **fifth launch**
+(2026-08-01: three MPI ranks on a covariance narrowed to the winning chain's basin, in burn-in;
+the stopped predecessors are archived beside it with their diagnoses — §7 carries the history).
+Note the earlier gloss here — that a one-chain run "cannot
 yield a convergence statistic at all" — was **wrong and is corrected in §7**: a single chain does
 yield a within-chain split-R̂; what it cannot do is detect confinement to one basin, which is the
 failure mode at issue. **DESI DR3 remains the adjudicator and is unaffected.**
