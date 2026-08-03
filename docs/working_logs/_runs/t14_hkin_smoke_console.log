@@ -1,0 +1,66 @@
+======================================================================
+  T14 single-instrument H_kin — protocol 2026-08-03
+  grid 64x64x128  T_MAX=1.5  SMOKE — not booking
+  out: docs/working_logs/_runs/t14_hkin_20260803_013035_smoke
+======================================================================
+
+======================================================================
+  BRANCH n+1_f+1
+======================================================================
+  [n+1_f+1 t= 0.25] ring helA=+1 W=+nan Tw=+nan Wr=-1.260 H=+nan bins=16/16 phase=4/16 drift_phys=14.395%
+  [n+1_f+1 t= 0.50] ring helA=+1 W=+0.817 Tw=-0.183 Wr=-4.910 H=-3.093 bins=16/16 phase=15/16 drift_phys=27.736%
+      candidate verdict @ t=0.50
+  [n+1_f+1 t= 0.75] ring helA=+1 W=+nan Tw=+nan Wr=+7.074 H=+nan bins=16/16 phase=11/16 drift_phys=39.908%
+  [n+1_f+1 t= 1.00] ring helA=-1 W=+nan Tw=+nan Wr=-3.526 H=+nan bins=16/16 phase=9/16 drift_phys=43.608%
+  [n+1_f+1 t= 1.25] ring helA=+1 W=+nan Tw=+nan Wr=-1.188 H=+nan bins=16/16 phase=3/16 drift_phys=37.141%
+  [n+1_f+1 t= 1.50] ring helA=-1 W=+nan Tw=+nan Wr=+4.310 H=+nan bins=16/16 phase=11/16 drift_phys=26.331%
+  VERDICT n+1_f+1: t=0.50 H=-3.0928 spread=1.4764 margin_ok=False drift_phys=27.736%
+
+======================================================================
+  BRANCH n+1_f-1
+======================================================================
+  [n+1_f-1 t= 0.25] ring helA=-1 W=+nan Tw=+nan Wr=+0.380 H=+nan bins=16/16 phase=1/16 drift_phys=14.395%
+  [n+1_f-1 t= 0.50] ring helA=-1 W=+nan Tw=+nan Wr=+8.692 H=+nan bins=16/16 phase=1/16 drift_phys=27.736%
+  [n+1_f-1 t= 0.75] ring helA=+1 W=+nan Tw=+nan Wr=-3.749 H=+nan bins=16/16 phase=0/16 drift_phys=39.908%
+  [n+1_f-1 t= 1.00] ring helA=-1 W=+nan Tw=+nan Wr=+2.466 H=+nan bins=16/16 phase=0/16 drift_phys=43.608%
+  [n+1_f-1 t= 1.25] ring helA=-1 W=+nan Tw=+nan Wr=+2.285 H=+nan bins=16/16 phase=0/16 drift_phys=37.141%
+  [n+1_f-1 t= 1.50] ring helA=+1 W=+nan Tw=+nan Wr=-6.983 H=+nan bins=16/16 phase=0/16 drift_phys=26.331%
+  NO VERDICT FRAME for n+1_f-1
+
+======================================================================
+  BRANCH n-1_f+1
+======================================================================
+  [n-1_f+1 t= 0.25] ring helA=+0 W=+nan Tw=+nan Wr=+1.269 H=+nan bins=16/16 phase=4/16 drift_phys=14.395%
+  [n-1_f+1 t= 0.50] ring helA=+1 W=-1.615 Tw=-0.615 Wr=+5.589 H=+2.974 bins=16/16 phase=15/16 drift_phys=27.736%
+      candidate verdict @ t=0.50
+  [n-1_f+1 t= 0.75] ring helA=-1 W=+nan Tw=+nan Wr=-1.276 H=+nan bins=16/16 phase=11/16 drift_phys=39.907%
+  [n-1_f+1 t= 1.00] ring helA=+1 W=+nan Tw=+nan Wr=+3.388 H=+nan bins=16/16 phase=8/16 drift_phys=43.609%
+  [n-1_f+1 t= 1.25] ring helA=-1 W=+nan Tw=+nan Wr=+1.194 H=+nan bins=16/16 phase=3/16 drift_phys=37.143%
+  [n-1_f+1 t= 1.50] ring helA=+1 W=+nan Tw=+nan Wr=-3.593 H=+nan bins=16/16 phase=11/16 drift_phys=26.325%
+  VERDICT n-1_f+1: t=0.50 H=+2.9743 spread=0.5047 margin_ok=True drift_phys=27.736%
+
+======================================================================
+  BRANCH n-1_f-1
+======================================================================
+  [n-1_f-1 t= 0.25] ring helA=+1 W=+nan Tw=+nan Wr=-0.380 H=+nan bins=16/16 phase=1/16 drift_phys=14.395%
+  [n-1_f-1 t= 0.50] ring helA=-1 W=+nan Tw=+nan Wr=-8.120 H=+nan bins=16/16 phase=1/16 drift_phys=27.736%
+  [n-1_f-1 t= 0.75] ring helA=+1 W=+nan Tw=+nan Wr=+0.115 H=+nan bins=16/16 phase=0/16 drift_phys=39.907%
+  [n-1_f-1 t= 1.00] ring helA=-1 W=+nan Tw=+nan Wr=+8.210 H=+nan bins=16/16 phase=0/16 drift_phys=43.609%
+  [n-1_f-1 t= 1.25] ring helA=+1 W=+nan Tw=+nan Wr=-3.332 H=+nan bins=16/16 phase=0/16 drift_phys=37.143%
+  [n-1_f-1 t= 1.50] ring helA=+1 W=+nan Tw=+nan Wr=-1.247 H=+nan bins=16/16 phase=0/16 drift_phys=26.325%
+  NO VERDICT FRAME for n-1_f-1
+
+======================================================================
+  OUTCOME TABLE (protocol 2026-08-03)
+======================================================================
+  True-mirror checks:
+    (1, 1)<->(-1, -1): missing
+    (1, -1)<->(-1, 1): missing
+  All four verdicts: False
+  All margins pass:  False
+
+  BOOKING: instrument to the bench — true-mirror antisymmetry violated
+  Unchanged: branch closure (A flips with n); link 5 NEG; Fermi unreadable.
+======================================================================
+
+  wrote docs/working_logs/_runs/t14_hkin_20260803_013035_smoke/summary.json  elapsed 928s
