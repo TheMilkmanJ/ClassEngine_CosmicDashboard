@@ -1,0 +1,33 @@
+==============================================================================
+The null as a stiffness relation: Q = 2/3  ⟺  a = 3b on the Z₃ ring
+==============================================================================
+
+1. The reduction, verified
+   a = 3, b = 1:  ε_q = [3. 6. 6.]   (expect [3, 6, 6])
+   ρ² = ε₀/ε₁ = 0.500000  →  Q = 0.666667   (the null)
+   and the modulus: |f₁/f₀| = ρ = 1/√2  ⟹  τ = −ln ρ = 0.346574 = ½ln2
+
+2. The dead ends, checked
+   equal per-mode (b = 0)            : ρ² = 1.000 → Q = 1.000
+   difference coupling only (a = 0)  : ε₀ = 0 — neutral mode unbound; no thermal ratio
+   sum coupling Σ(f_i + f_j)²        : ρ² = 4.000 → Q = 3.000
+
+3. General map a/b → Q (the target curve)
+   a/b =  1.0:  Q = 0.5000
+   a/b =  2.0:  Q = 0.6000
+   a/b =  3.0:  Q = 0.6667   ← the null
+   a/b =  4.0:  Q = 0.7143
+   a/b =  6.0:  Q = 0.7778
+
+READ
+  The charge-sector partition assumption is now a NAMED microphysical
+  ratio: on-site stiffness = 3 × bond stiffness (= N × bond, N = 3
+  sites) in the frozen fluctuation theory. That is the object a lock,
+  sum rule, or index must protect — a relation, not a temperature.
+  The scatter fence stands: an ensemble ratio cannot deliver 6×10⁻⁶
+  exactness by itself; the reduction renames the target, it does not
+  close it. Next bounded computations, named: (i) does the recorded
+  string+log binding give the faces an on-site/bond ratio, and what
+  is it; (ii) is a = N·b the statement of any sum rule the medium
+  already obeys (the f-sum rule is the corpus's own precedent class).
+==============================================================================

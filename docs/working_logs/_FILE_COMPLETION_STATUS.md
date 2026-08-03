@@ -193,6 +193,20 @@ Phrase re-grep of `docs/PRTOE_*.md` for dead premises (`currently running`, `liv
 S₈ companions' live-trio date stamp refreshed to 2026-08-02. Tags and evidence lines above still
 match reality; no OPEN-THEORY→COMPLETE.
 
+### Docs-not-packages pass (2026-08-02, evening)
+
+Owner clarified focus is the **live shelf under `docs/`**, not re-prep of arXiv-ready TeX packages.
+
+1. **`PRTOE_radio_lattice.md` §3** — BipoSH line said “owed”; estimator was built 2026-07-28.
+   Rewritten: instrument **built**; residue is **data application** (external). Tag stays
+   COMPLETE-CONDITIONAL.
+2. **MATH_SPINE §7 kination fragment** — extracted to `papers/kination-tracking-note/` (2 pp,
+   READY_PACKAGE). Source file remains COMPLETE-CONDITIONAL hub; no status change.
+3. **PAPER_CANDIDATE count on docs shelf is now 0** — see `_ARXIV_CANDIDACY.md`. Remaining
+   OPEN rows are MACHINE / THEORY / EXTERNAL, not desk packaging of COMPLETE files.
+4. De-AI phrase greps on `docs/PRTOE_*.md` (delve/tapestry/At its core/etc.) are clean;
+   remaining “robust” / “leverage” uses are scientific.
+
 ---
 
 ## What this inventory is not

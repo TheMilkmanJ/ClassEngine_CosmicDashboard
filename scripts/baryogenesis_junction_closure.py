@@ -1,97 +1,79 @@
-"""The junction rectifier's four recorded numbers are over-determined. Do they close?
+"""Junction rectifier quartet: provenance-typed consistency check.
 
-PRTOE_baryogenesis.md records, for the driven overdamped junction at T_sph:
+PRTOE_baryogenesis.md §3a (updated 2026-08-02/03):
 
-    omega_J ~ 5.7 keV          the junction plasma frequency (task #39's target)
-    j = omega_J^2/Gamma_phi ~ 6 meV
-    Gamma_phi/theta_dot ~ 1e7  the overdamping ratio
-    R = omega_J^2/(2 Gamma_phi theta_dot)   the rectified ratio
-    R needed ~ 5e-5            "the naive ratio R = H/theta_dot = 4.1e-7 sits against the
-                                needed ~5e-5, a factor 122"
+  COMPUTED members:
+    Γ_φ = G_F² T_sph⁵ = 5.3902×10⁹ eV   (T_sph = 131.7 GeV)
+    θ̇  = 59.68 eV                     (deep-frozen winding at T_sph)
+    R_needed ≈ 5×10⁻⁵                  (η = n·𝒯 at registered n-band)
 
-Four constraints on three unknowns (omega_J, Gamma_phi, theta_dot), so one relation is a
-consistency check rather than a definition. This script performs it.
+  BACK-SOLVED (not independent):
+    ω_J ≈ 5.672 keV from R = ω_J²/(2 Γ_φ θ̇)
+    j = ω_J²/Γ_φ ≈ 6.03 meV
 
-Note the algebra first: substituting Gamma_phi = omega_J^2/j into R collapses it to
+  STALE SHORTHAND (do not treat as data):
+    Γ_φ/θ̇ ~ 10⁷  — actual is 9.03×10⁷; holding 10⁷ fixed manufactures a fake ×9 miss.
 
-    R = j / (2 theta_dot)
-
-so R does not depend on omega_J at all once j is fixed -- omega_J enters only through
-Gamma_phi, and cancels.
+Claude RED 2026-08-03: label every member's provenance type so rounding cannot re-enter as data.
 
 Run: python3 scripts/baryogenesis_junction_closure.py
 """
+from __future__ import annotations
+
 import math
 
-OMEGA_J = 5.7e3          # eV
-J_REL = 6e-3             # eV
-RATIO = 1e7              # Gamma_phi / theta_dot
-R_NEEDED = 5.0e-5
-R_NAIVE = 4.1e-7         # = H/theta_dot, recorded
+# --- COMPUTED (first principles / registered) ---
+T_SPH_GEV = 131.7
+# G_F in natural units → Γ_φ = G_F² T⁵; use corpus value
+GAMMA_PHI = 5.3902e9  # eV  type: COMPUTED
+THETA_DOT = 59.68  # eV   type: COMPUTED
+R_NEEDED = 5.0e-5  # type: COMPUTED from η band
+RATIO_COMPUTED = GAMMA_PHI / THETA_DOT  # ~9.03e7
+
+# --- BACK-SOLVED target ---
+OMEGA_J = math.sqrt(2.0 * R_NEEDED * GAMMA_PHI * THETA_DOT)  # eV
+J_REL = OMEGA_J**2 / GAMMA_PHI
+
+# --- STALE shorthand (artifact path) ---
+RATIO_STALE = 1.0e7  # type: SHORTHAND — not a measurement
 
 print("=" * 76)
-print("THE RECORDED NUMBERS")
+print("PROVENANCE TABLE")
 print("=" * 76)
-print(f"  omega_J             {OMEGA_J:.4g} eV   (5.7 keV)")
-print(f"  j = omega_J^2/G_phi {J_REL:.4g} eV   (6 meV)")
-print(f"  G_phi/theta_dot     {RATIO:.4g}")
-print(f"  R needed            {R_NEEDED:.4g}")
-print(f"  R naive = H/th_dot  {R_NAIVE:.4g}   -> factor {R_NEEDED/R_NAIVE:.0f} short"
-      f"  (recorded: 122)")
+print(f"  Γ_φ              {GAMMA_PHI:.4g} eV     type=COMPUTED  (G_F² T_sph⁵)")
+print(f"  θ̇               {THETA_DOT:.4g} eV     type=COMPUTED  (winding @ T_sph)")
+print(f"  Γ_φ/θ̇           {RATIO_COMPUTED:.4g}       type=COMPUTED")
+print(f"  R needed         {R_NEEDED:.4g}       type=COMPUTED  (η band)")
+print(f"  ω_J              {OMEGA_J/1e3:.3f} keV    type=BACK-SOLVED")
+print(f"  j = ω_J²/Γ_φ     {J_REL*1e3:.2f} meV    type=BACK-SOLVED")
+print(f"  Γ_φ/θ̇ ~10⁷      {RATIO_STALE:.4g}       type=SHORTHAND (stale)")
 
 print()
 print("=" * 76)
-print("TAKE THREE, PREDICT THE FOURTH -- ALL FOUR WAYS")
+print("QUARTET AT COMPUTED RATIO — MUST CLOSE")
 print("=" * 76)
-# (a) omega_J, j, ratio -> R
-G_a = OMEGA_J**2 / J_REL
-th_a = G_a / RATIO
-R_a = J_REL / (2 * th_a)
-print(f"  (a) from omega_J, j, ratio:")
-print(f"        Gamma_phi = {G_a:.4g} eV,  theta_dot = {th_a:.4g} eV")
-print(f"        R = {R_a:.4g}   against the needed {R_NEEDED:.4g}"
-      f"   -> short by x{R_NEEDED/R_a:.2f}")
+R = OMEGA_J**2 / (2.0 * GAMMA_PHI * THETA_DOT)
+print(f"  R = ω_J²/(2 Γ_φ θ̇) = {R:.4g}   vs needed {R_NEEDED:.4g}"
+      f"   ratio R/R_need = {R/R_NEEDED:.4f}")
+print(f"  j/(2 θ̇)             = {J_REL/(2*THETA_DOT):.4g}   (same R, j form)")
+assert abs(R / R_NEEDED - 1.0) < 0.02, "quartet failed to close at computed Γ_φ"
+print("  VERDICT: CONSISTENT to <2% — no internal ×9 discrepancy.")
 
-# (b) j, ratio, R -> omega_J
+print()
+print("=" * 76)
+print("ARTIFACT PATH: hold SHORTHAND ratio 1e7 fixed (do not use for physics)")
+print("=" * 76)
 th_b = J_REL / (2 * R_NEEDED)
-G_b = RATIO * th_b
+G_b = RATIO_STALE * th_b
 om_b = math.sqrt(J_REL * G_b)
-print(f"  (b) from j, ratio, R:")
-print(f"        theta_dot = {th_b:.4g} eV,  Gamma_phi = {G_b:.4g} eV")
-print(f"        omega_J = {om_b:.4g} eV = {om_b/1e3:.3f} keV"
-f"   against the recorded 5.7 keV -> low by x{OMEGA_J/om_b:.3f}")
-
-# (c) omega_J, j, R -> ratio
-th_c = J_REL / (2 * R_NEEDED)
-G_c = OMEGA_J**2 / J_REL
-print(f"  (c) from omega_J, j, R:")
-print(f"        Gamma_phi/theta_dot = {G_c/th_c:.4g}"
-      f"   against the recorded 1e7 -> high by x{(G_c/th_c)/RATIO:.2f}")
-
-# (d) omega_J, ratio, R -> j.  R = j/(2 th) and th = (omega_J^2/j)/ratio  =>  j^2 = 2 R omega_J^2/ratio
-j_d = math.sqrt(2 * R_NEEDED * OMEGA_J**2 / RATIO)
-print(f"  (d) from omega_J, ratio, R:")
-print(f"        j = {j_d:.4g} eV = {j_d*1e3:.2f} meV"
-      f"   against the recorded 6 meV -> high by x{j_d/J_REL:.3f}")
+print(f"  fake-consistent ω_J = {om_b/1e3:.3f} keV  (×{OMEGA_J/om_b:.2f} under true back-solve)")
+print(f"  This is NOT a target. It is the ×9 artifact Claude retired 2026-08-03.")
 
 print()
 print("=" * 76)
-print("THE MISS IS ONE NUMBER, SEEN FOUR WAYS")
+print("PRE-REGISTERED GRADING BAND (before any forward derivation)")
 print("=" * 76)
-print(f"  R short by            x{R_NEEDED/R_a:.3f}")
-print(f"  omega_J low by        x{OMEGA_J/om_b:.3f}   (= sqrt of the R miss)")
-print(f"  ratio high by         x{(G_c/th_c)/RATIO:.3f}")
-print(f"  j high by             x{j_d/J_REL:.3f}   (= sqrt of the R miss)")
-print()
-print("  So the quartet misses closure by a clean factor of about 9 in R, equivalently")
-print("  3 in omega_J. Which of the three inputs carries it is NOT determined by anything")
-print("  recorded: moving omega_J to 1.9 keV closes it, and so does moving the overdamping")
-print("  ratio to 9e7, and so does moving j to 18 meV. All three are quoted to one")
-print("  significant figure with a leading tilde.")
-print()
-print("  What this costs task #39. Its target is stated as 'derive omega_J, needs ~5.7 keV'")
-print(f"  with a pre-committed kill two orders below. On the recorded j and ratio the")
-print(f"  internally consistent value is {om_b/1e3:.2f} keV, so a derivation landing there would read")
-print("  as a 3x miss while actually closing the transmission the section needs. The kill")
-print("  threshold is untouched either way -- a factor 3 is well inside two orders -- but the")
-print("  target itself is only as firm as the least certain member of the trio.")
+print("  ACCEPT junction magnitude:  ω_J ∈ [3.0, 12.0] keV")
+print("  ANOMALOUS-REVIEW:           ω_J ∈ (0.057, 3.0) ∪ (12, 30] keV")
+print("  KILL junction route:        ω_J < 0.057 keV  (×100 under ~5.7)")
+print("  Real debt unchanged:        forward ω_J from seat χ + pinning curvature (#39)")

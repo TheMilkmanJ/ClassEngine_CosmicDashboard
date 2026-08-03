@@ -63,3 +63,18 @@ parked with the Lorentz-violation literature.)*
 *The wall is real, and closed — to the particle picture. The medium was never asked to stop,
 and the particle was always the medium's ripple. We certify volts with this fact and call it
 mysterious in atoms.*
+
+---
+
+## 5. Claims ledger & shared-math hardening (2026-08-03)
+
+| # | Claim | Grade | Evidence | Residual |
+|---|---|---|---|---|
+| T1 | Thick-barrier WKB: $\ln T\sim -2\kappa L$ with $\kappa=\sqrt{2m(V-E)}/\hbar$ | **standard** | textbook | — |
+| T2 | Medium evanescent $\ln\|\psi\|=-\kappa x$ uses the **same** $\kappa$ | **shared-math hardened** | `scripts/quantum_wkb_medium_identity.py` (2×medium = WKB, all PASS) | Identification of formulas, not a derivation of $\hbar$ |
+| T3 | Josephson junction is the macroscopic cousin (SI volt) | **precision receipt** | laboratory metrology | Scale cousin, not cosmological proof |
+| T4 | Exact QM tunneling rates forever | **registered null** | §4 | Kill on confirmed deviation |
+| T5 | Preferred-frame imprint on tunneling *time* | **OPEN / research flag** | parked with LV | Not registered as a prediction |
+
+**What changed vs storygrade:** T2 is machine-checked identity, not metaphor.  
+**Report:** `docs/working_logs/_runs/quantum_null_hardening_20260803/WKB_MEDIUM_IDENTITY.md`.

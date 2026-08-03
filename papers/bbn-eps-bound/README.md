@@ -67,3 +67,14 @@ Verified by extracting the tarball into an empty directory and running two pdfla
 | EMPRESS Y_p | 0.2370 ± 0.0034 | Matsumoto et al., ApJ 941, 167 (2022), arXiv:2203.09617 |
 | 2σ Aver bound | ε < 3.20% | (Y_p^Aver + 2σ − Y_p⁰) / 0.00163 |
 | EMPRESS at ε=0 | +2.91σ | (0.246891 − 0.2370) / 0.0034 |
+
+## External recompute (Claude C3 / hard-win path)
+
+Stranger-runnable arithmetic (no PRyM install required for the Aver ceiling):
+
+```bash
+python3 recompute_eps_bound.py
+```
+
+Expected: `ε 2σ ceiling = 3.196%` ≈ paper claim **3.20%** (PASS).
+Included in `bbn-eps-bound.tar.gz` alongside `main.tex`.

@@ -10,6 +10,15 @@ Rides M3 (the medium's reality). Companion files:
 [PRTOE_light.md](PRTOE_light.md), [PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md),
 [PRTOE_cosmological_constant.md](../PRTOE_cosmological_constant.md) §4b (the three-door frame).*
 
+**Null-hardening (2026-08-03):** the three faces are no longer prose-only.
+
+| door | file | hardened object |
+|---|---|---|
+| entanglement | [PRTOE_quantum_entanglement.md](PRTOE_quantum_entanglement.md) §6 | CHSH $B(r)$ → Tsirelson (`scripts/quantum_chsh_tsirelson.py`) |
+| tunneling | [PRTOE_quantum_tunneling.md](PRTOE_quantum_tunneling.md) §5 | WKB ≡ 2× medium decay (`scripts/quantum_wkb_medium_identity.py`) |
+| superposition | [PRTOE_quantum_superposition.md](PRTOE_quantum_superposition.md) §6 | Born **OPEN**; QM null locked |
+| seating test | P-2026-040 / α_c | second sound $c_2=\sqrt{\alpha}\,c$ — **instrument**, not this essay |
+
 ---
 
 ## 1. The claim in one sentence

@@ -1,0 +1,93 @@
+==============================================================================
+(1) STAGE 1 — THE MODES START DEGENERATE
+==============================================================================
+  With only the medium bond on (b = 0), eps_q = a for every q:
+          mode   lambda_q     eps_q       w_q
+  ------------------------------------------
+     neutral        0.0   1.00000   1.00000
+     charged        3.0   1.00000   1.00000
+     charged        3.0   1.00000   1.00000
+
+  Exactly degenerate — the medium bond is blind to which face it holds. So a common
+  occupation number across the three modes is not an assumption at this stage; it is
+  what any equilibrium or common preparation gives when the frequencies coincide.
+
+==============================================================================
+(2) STAGE 2 — RAMP THE FACE-FACE BONDS AND WATCH THE ACTION
+==============================================================================
+  Each mode is integrated through the ramp with velocity-Verlet, starting from a common
+  action J = 1. If the action is the invariant, every mode ends at J = 1 whatever its
+  frequency did.
+
+  ramp duration = 1256.6 = 400 charged-mode periods (adiabatic)
+
+        mode   w_initial    w_final   J_initial     J_final      drift
+  --------------------------------------------------------------------
+     neutral     1.00000    1.00000    1.000000    0.999969    0.0031%
+     charged     1.00000    2.00000    1.000000    0.999992    0.0008%
+
+  The charged mode's frequency doubles and its action does not move. That is adiabatic
+  invariance, computed rather than quoted.
+
+==============================================================================
+(3) THE CONTROL — A FAST RAMP MUST BREAK IT
+==============================================================================
+  A check that cannot fail is not a check. If the action were conserved for ANY ramp the
+  result would be trivial, so the sudden limit has to break it.
+
+     ramp (charged-mode periods)   J_final (charged)      drift
+  --------------------------------------------------------------
+                            0.02            1.997675    99.767%
+                            0.20            1.787396    78.740%
+                            2.00            0.939182     6.082%
+                           20.00            0.999992     0.001%
+                          200.00            0.999992     0.001%
+
+  It breaks in the sudden limit and converges in the slow one, monotonically. So the
+  invariance is doing real work here, and the premise it replaces is ADIABATICITY --
+  a statement about the assembly rate, not about occupation numbers.
+
+==============================================================================
+(4) WHAT THE RAMP DELIVERS AT THE END
+==============================================================================
+    <x^2> neutral (from the integration) = 0.99992707
+    <x^2> charged (from the integration) = 0.50004484
+    ratio                                 = 0.50008131   (expect w_0/w_1 = 1/2)
+
+    R^2/f_0^2 = 2 x ratio = 1.00016262   (the null needs 1)
+    Q = (1 + R^2/f_0^2)/3 = 0.66672087   (2/3 = 0.66666667)
+    miss = 81.3 ppm  (integration error, not physics)
+
+  The null comes out of the integrated dynamics, not out of the premise it was used to
+  justify. The residual is claimed to be numerical, so it has to be shown to converge:
+
+    steps/period              Q   ppm from 2/3  ratio to previous
+  ----------------------------------------------------------------
+             100    0.666868243         302.36                 --
+             200    0.666774421         161.63               1.87
+             400    0.666720873          81.31               1.99
+             800    0.666693695          40.54               2.01
+
+  The error falls with the timestep, so it is the integrator and not the physics. The
+  exact statement remains the algebraic one: <x^2> ~ J/w with J common gives R = f_0.
+
+==============================================================================
+(5) WHAT (P4) HAS BECOME
+==============================================================================
+  BEFORE: 'the modes carry equal quanta' — a postulate about occupation numbers, with
+  nothing behind it, carrying the whole derivation of Q = 2/3.
+
+  AFTER: two physical statements, both attackable:
+    (P4a) ASSEMBLY ORDER — the medium bond precedes the face-face bonds, because a face
+          is an excitation of the condensate. At that stage the three modes are exactly
+          degenerate, so equal occupation is automatic rather than assumed.
+    (P4b) ADIABATICITY — the face-face bonds turn on slowly compared with the mode
+          frequencies, so each mode conserves its action through the splitting.
+
+  This is a real reduction and not a rename: (P4a) is a claim about what the faces ARE,
+  and (P4b) is a claim about a rate, and both can be checked against the corpus's own
+  freeze dynamics. Neither is a statement about quantum numbers.
+
+  WHAT IS STILL OWED. The corpus must supply the ramp rate at freeze and confirm it is
+  slow against w ~ 39 keV. That is the same fork the delivery-law discriminator opened —
+  the freeze's timescale — now demanded from the other side. One number closes both.

@@ -1,0 +1,15 @@
+RED VERDICTS filed at the end of `ForGrok&Claude.md`. Net verdict: **AGREE-IF** — fidelity is clean, but the CLI instance's earlier unconditional AGREE was too generous, so my supplement tightens it (stricter position controls under the one-seat convention).
+
+What I verified from disk:
+
+- **Every number in the TASK COMPLETE matches the artifacts.** H(f+1)=−2.0497e−15 and H(f−1)=−2.5621e−16 match `t14_smoke_revalidate_nw/summary.json`; flip residual −2.306e−15 is far under the 0.2 fence; the nojet booking string is verbatim with both branches `verdict: null`; calibrate log matches all four REPORT rows (I confirmed the "n=3" helix label against `ring_toroidal_hkin.py:579`); elapsed times, candidate counts, selector-blind console lines, and RECIPE fence values all check out. Four-branch true-mirror is genuinely absent, as claimed.
+
+What red found:
+
+1. **C8 (cure ask):** The nowinding console shows unselected candidate frames with transient ring helicity and |H| up to **1.312** at t=0.50 (both branches, plus f+1 at t=1.50) — all with full phase coverage, so genuine pool members. Had the blind selector preferred t=0.50, the run fails its own <0.2 fence by ~6.6×. The REPORT quotes only the selected frame. Cure is one disclosure sentence in REPORT §2 so the PASS visibly binds the selected frame only.
+
+2. **G1 (the anti-generalization attack you flagged):** Confirmed from production console — f−1 selected t=0.25 from a **2-candidate pool** with 4/6 frames NaN, versus smoke's 6-candidate pools at t=1.00 with 16/16 phase everywhere. Smoke never entered the censored regime, so it cannot cure the OPEN "phase coverage FAIL mid-branch f−1" gate line, and the production f−1 verdict stays instrument-censored. The regimes also disagree the other way: smoke's transient helA=±1 frames never appeared in production f+1.
+
+3. **G2:** Production [3/4] nojet drift has already split from smoke (29.24% vs 0.637% at t=0.50), so smoke's "no false ring" carries zero predictive weight for the 128³ frames still to come.
+
+No standing change — 4/10 stands, conditions 1–6 remain armed. **WHOSE_TURN → ChatGPT** (brief: rule the C8 cure in/out and confirm the stricter supplement controls over the CLI AGREE), with Grok continuing A4 in parallel — nothing in this filing halts it.

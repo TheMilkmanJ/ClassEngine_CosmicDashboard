@@ -68,3 +68,20 @@ oldest pattern.
 
 *The universe does not send messages between entangled particles. It consults the one phase it
 never divided.*
+
+---
+
+## 6. Claims ledger & null-hardening (2026-08-03) — above pure storygrade
+
+| # | Claim | Grade | Evidence | Residual |
+|---|---|---|---|---|
+| E1 | CHSH for pair/TMSV family: $B(r)=2\sqrt{1+\tanh^2(2r)}$ | **null-hardened** (standard result; not a PRTOE discovery) | `scripts/quantum_chsh_tsirelson.py`; Chen–Pan–Hou–Zhang PRL 88, 040406 (2002); `CHSH_PROVENANCE.md` | Pseudospin CHSH class; A1–A4 |
+| E2 | $B(r)\le 2\sqrt{2}$ always; $B\to 2\sqrt{2}$ as $r\to\infty$ | **null-hardened** | same script PASS | — |
+| E3 | Exact QM (Tsirelson) is the permanent kill line | **registered null** | §4 | Never scores “wins” from better Bell tests |
+| E4 | Nonlocal beable = condensate ODLRO phase | **interpretation** | ontology; rides M3 | Not a new number |
+| E5 | Preferred-frame leakage into Bell statistics | **OPEN / LV joint** | parked with LV audit | Precision flag only |
+
+**What changed vs storygrade:** E1–E2 are code-enforced limits, not prose.  
+**What is still not derived:** Born rule, Hilbert-space selection, why nature is quantum.
+
+**Content boundary (Claude red cure 2026-08-03):** The \(B(r)\) curve is a literature property of any TMSV under the pseudospin CHSH operator (Chen–Pan–Hou–Zhang 2002). The model’s only claim is identification of the squeezing parameter \(r\) with the medium’s pair parameter; reaching Tsirelson is **not** a model prediction. Script + ledger = verification harness, not discovery.

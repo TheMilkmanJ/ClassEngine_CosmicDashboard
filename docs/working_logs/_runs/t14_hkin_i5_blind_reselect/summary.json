@@ -1,0 +1,118 @@
+{
+  "selector_inputs": [
+    "nphase",
+    "ampA_helA_control",
+    "drift_phys",
+    "ampA",
+    "t_window_[0.75,1.0]"
+  ],
+  "selector_forbidden": [
+    "Tw",
+    "Wr",
+    "H",
+    "W",
+    "helA_sign",
+    "abs_Tw_plus_Wr"
+  ],
+  "source": "docs/working_logs/_runs/t14_hkin_resmoke_i4b",
+  "branches": {
+    "n+1_f+1": {
+      "n": 1,
+      "f": 1,
+      "blind_t": 0.75,
+      "series_H": 2.074333043153847,
+      "series_Tw": 0.07373442880780945,
+      "series_Wr": 0.0005986143460373606,
+      "series_W": 1.0737344288078094,
+      "series_nphase": 16,
+      "series_ampA": 1.3843641600537067,
+      "series_drift": 0.3996674712865469,
+      "reextract": {
+        "H": 2.0005986143460373,
+        "W": 0.9999999999999999,
+        "Tw": -1.1102230246251565e-16,
+        "Wr": 0.0005986143460373606,
+        "spread": 0.2733105498876006,
+        "nHs": 27,
+        "margin_ok": true,
+        "Hs_min": 1.4971682655001293,
+        "Hs_max": 2.1310645068992584
+      }
+    },
+    "n+1_f-1": {
+      "n": 1,
+      "f": -1,
+      "blind_t": 0.75,
+      "series_H": 2.0118364418622594,
+      "series_Tw": -0.02348915278334396,
+      "series_Wr": 0.035325594645603114,
+      "series_W": 0.976510847216656,
+      "series_nphase": 15,
+      "series_ampA": 1.1183402360938444,
+      "series_drift": 0.3996674712865469,
+      "reextract": {
+        "H": 2.035325594645603,
+        "W": 0.9999999999999997,
+        "Tw": -3.3306690738754696e-16,
+        "Wr": 0.035325594645603114,
+        "spread": 0.1777174998152231,
+        "nHs": 27,
+        "margin_ok": true,
+        "Hs_min": 1.6614471183755313,
+        "Hs_max": 2.0414846671428966
+      }
+    },
+    "n-1_f+1": {
+      "n": -1,
+      "f": 1,
+      "blind_t": 0.75,
+      "series_H": -1.9765628523348122,
+      "series_Tw": 0.2649539261361309,
+      "series_Wr": -0.24151677847094302,
+      "series_W": -0.7350460738638691,
+      "series_nphase": 16,
+      "series_ampA": 1.5213954582967593,
+      "series_drift": 0.39966593551553214,
+      "reextract": {
+        "H": -2.2415167784709435,
+        "W": -1.0000000000000004,
+        "Tw": -4.440892098500626e-16,
+        "Wr": -0.24151677847094302,
+        "spread": 0.1189940280113763,
+        "nHs": 27,
+        "margin_ok": true,
+        "Hs_min": -2.5170537420106247,
+        "Hs_max": -2.2415167784709427
+      }
+    },
+    "n-1_f-1": {
+      "n": -1,
+      "f": -1,
+      "blind_t": 0.75,
+      "series_H": -1.969519039605053,
+      "series_Tw": 0.15570492041132755,
+      "series_Wr": -0.1252239600163808,
+      "series_W": -0.8442950795886724,
+      "series_nphase": 15,
+      "series_ampA": 0.9476972905023487,
+      "series_drift": 0.39966593551553214,
+      "reextract": {
+        "H": -2.1252239600163807,
+        "W": -1.0,
+        "Tw": 0.0,
+        "Wr": -0.1252239600163808,
+        "spread": 0.2965435605804305,
+        "nHs": 27,
+        "margin_ok": true,
+        "Hs_min": -2.125223960016381,
+        "Hs_max": -1.4903563809807854
+      }
+    }
+  },
+  "mirror_ok": true,
+  "pattern_H_tracks_n": true,
+  "all_margin": true,
+  "booking": "smoke-grade: toroidal sign tracks the winding draw; mutual term dominates at this configuration",
+  "tw_sheet_fold_convention": "Tw folded into (-0.5,0.5] about n_wind after absolute closed-path W; documented in ring_toroidal_hkin.py before production (Claude i5 note ii).",
+  "mirror_reextract_note": "Re-extract pair (1,-1)<->(-1,+1) residual ~9.7% (inside 10% smoke fence); i6 production target <5% or investigate before booking."
+}

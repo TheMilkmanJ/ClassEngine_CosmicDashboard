@@ -32,6 +32,47 @@ last_activity_line() {
   grep -E '^### ' "$1" 2>/dev/null | tail -1 | cut -c1-160
 }
 
+last_relevant_line() {
+  local file="$1"
+  local wanted="$2"
+  local line to last=""
+  while IFS= read -r line; do
+    to=$(parse_to "$line")
+    case "$wanted" in
+      ALL)
+        last="$line"
+        ;;
+      GROK)
+        if [ "$to" = "GROK" ] || [ "$to" = "ALL" ]; then last="$line"; fi
+        ;;
+      CLAUDE)
+        if [ "$to" = "CLAUDE" ] || [ "$to" = "ALL" ]; then last="$line"; fi
+        ;;
+      CHATGPT)
+        if [ "$to" = "CHATGPT" ] || [ "$to" = "ALL" ] || [ "$to" = "REF_UNADDRESSED" ]; then last="$line"; fi
+        ;;
+    esac
+  done < <(grep -E '^### ' "$file" 2>/dev/null)
+  printf '%s' "${last:0:160}"
+}
+
+last_exact_line() {
+  local file="$1"
+  local wanted="$2"
+  local pattern=""
+  case "$wanted" in
+    GROK) pattern='@TO:GROK|>>BLUE' ;;
+    CLAUDE) pattern='@TO:CLAUDE|>>RED' ;;
+    CHATGPT) pattern='@TO:CHATGPT|>>REF' ;;
+    OWNER) pattern='@TO:OWNER' ;;
+    *) pattern='' ;;
+  esac
+  if [ -z "$pattern" ]; then
+    return 0
+  fi
+  grep -E '^### ' "$file" 2>/dev/null | grep -E "$pattern" | tail -1 | cut -c1-160
+}
+
 count_markers() {
   grep -cE '^### ' "$1" 2>/dev/null || echo 0
 }
@@ -79,6 +120,12 @@ parse_from() {
   echo UNKNOWN
 }
 
+emit_stdout() {
+  local text="$1"
+  echo "$text"
+  echo "$(date -Iseconds) $text" >>"$LOG"
+}
+
 should_emit() {
   local to="$1"
   case "$FILTER" in
@@ -111,6 +158,17 @@ fingerprint() {
 }
 
 prev=$(fingerprint "$FILE")
+# Startup snapshot so a late-starting watcher still notices existing referee mail / turn state.
+startup_turn=$(whose_turn "$FILE")
+startup_last=$(last_relevant_line "$FILE" "$FILTER")
+startup_exact=$(last_exact_line "$FILE" "$FILTER")
+if [ "$FILTER" != "ALL" ] && [ "$startup_turn" = "$FILTER" ]; then
+  emit_stdout "DONE TURN_${FILTER} current_board: ${startup_last:-$(last_activity_line "$FILE")}"
+elif [ -n "$startup_exact" ]; then
+  emit_stdout "DONE EXACT_${FILTER} current_mail: $startup_exact"
+elif [ -n "$startup_last" ]; then
+  emit_stdout "DONE SNAPSHOT_${FILTER} current_mail: $startup_last"
+fi
 while true; do
   sleep "$INTERVAL"
   [ -f "$FILE" ] || continue
@@ -129,6 +187,11 @@ while true; do
   # Log-only (never stdout) — Grok monitor tool wakes on every stdout line
   echo "$(date -Iseconds) $msg" >>"$LOG"
 
+  if [ "$FILTER" != "ALL" ] && [ "$turn" = "$FILTER" ]; then
+    emit_stdout "DONE TURN_${FILTER} from=$from: $last"
+    continue
+  fi
+
   if ! should_emit "$to"; then
     echo "$(date -Iseconds) SKIP filter=$FILTER (mail for $to)" >>"$LOG"
     continue
@@ -137,29 +200,23 @@ while true; do
   # ONLY DONE/FAILED/CANCELLED lines go to stdout (wake filter)
   case "$to" in
     GROK)
-      echo "DONE TO_GROK from=$from: $last"
-      echo "$(date -Iseconds) DONE TO_GROK from=$from: $last" >>"$LOG"
+      emit_stdout "DONE TO_GROK from=$from: $last"
       ;;
     CLAUDE)
-      echo "DONE TO_CLAUDE from=$from: $last"
-      echo "$(date -Iseconds) DONE TO_CLAUDE from=$from: $last" >>"$LOG"
+      emit_stdout "DONE TO_CLAUDE from=$from: $last"
       ;;
     CHATGPT)
-      echo "DONE TO_REF from=$from: $last"
-      echo "$(date -Iseconds) DONE TO_REF from=$from: $last" >>"$LOG"
+      emit_stdout "DONE TO_REF from=$from: $last"
       ;;
     ALL)
       # Broadcast wakes every filter that includes ALL
-      echo "DONE TO_ALL from=$from: $last"
-      echo "$(date -Iseconds) DONE TO_ALL from=$from: $last" >>"$LOG"
+      emit_stdout "DONE TO_ALL from=$from: $last"
       ;;
     REF_UNADDRESSED)
-      echo "DONE REF_NEEDS_TO_TAG from=$from: $last"
-      echo "$(date -Iseconds) DONE REF_NEEDS_TO_TAG from=$from: $last" >>"$LOG"
+      emit_stdout "DONE REF_NEEDS_TO_TAG from=$from: $last"
       ;;
     *)
-      echo "DONE tribunal change from=$from to=$to: $last"
-      echo "$(date -Iseconds) DONE tribunal change from=$from to=$to" >>"$LOG"
+      emit_stdout "DONE tribunal change from=$from to=$to: $last"
       ;;
   esac
 done

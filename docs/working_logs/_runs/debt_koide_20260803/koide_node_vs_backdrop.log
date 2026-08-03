@@ -1,0 +1,73 @@
+============================================================================
+NODE OR BACKDROP: IS THERE A DISCRIMINANT?
+============================================================================
+
+[1] The spectrum, both ways
+    Nodes: three faces + the medium. Two bond types:
+      a = face-face,  b = face-medium.  The democratic case is a = b (K_4).
+
+    Analytic result (derived below, verified numerically):
+      eigenvalues = { 0,  3a+b (x2),  4b (x1) }
+
+      case                     a      b        spectrum
+      democratic (K_4)          1.0   1.00      0.000    4.000    4.000    4.000
+      backdrop, weak bond       1.0   0.40     -0.000    1.600    3.400    3.400
+      backdrop, strong bond     1.0   2.50     -0.000    5.500    5.500   10.000
+      backdrop, b -> 0          1.0   0.00      0.000    0.000    3.000    3.000
+
+    The zero mode is the uniform shift and is present either way -- it is the
+    overall scale direction, not a discriminant.
+
+[2] The discriminant
+    The nonzero spectrum is {3a+b, 3a+b, 4b}. It is THREEFOLD DEGENERATE iff
+
+        3a + b = 4b   <=>   3a = 3b   <=>   a = b
+
+    So the democratic case is exactly the degenerate case, and any backdrop
+    reading (a != b) splits the triple into a 2+1. The degeneracy is not an
+    extra assumption riding alongside K_4 -- it IS K_4, read spectrally.
+      a=1.0 b=1.0:  nonzero ['4.000', '4.000', '4.000']   fractional split   0.0%
+      a=1.0 b=1.1:  nonzero ['4.100', '4.100', '4.400']   fractional split   6.8%
+      a=1.0 b=1.5:  nonzero ['4.500', '4.500', '6.000']   fractional split  25.0%
+
+[3] What this does and does not buy
+
+    It buys a sharp statement of the premise. (P1) is not a vague preference for one
+    picture over another: it is the claim that the family sector's stiffness matrix has
+    a threefold-degenerate nonzero spectrum. That is a definite structural property, it
+    is what edge-transitivity delivers, and any backdrop reading breaks it into 2+1 at
+    first order in the coupling mismatch -- a 10% mismatch already splits the triple by
+    6.8%, so the property is not fragile-in-principle and hard-to-check; it is rigid.
+
+    It does NOT buy a decision. Nothing here says the condensate IS a node. And the
+    degeneracy is a property of the COUPLINGS, which is exactly the ordering claim: the
+    physical charged-lepton masses are famously non-degenerate, so whatever degeneracy
+    the stiffness matrix has must be broken by the pinned state rather than by the
+    couplings. That ordering -- couplings set first, state pinned second -- is the
+    other half of (P1) and this script does not touch it either.
+
+    The honest position: (P1) is a single structural premise, now stated as a spectral
+    property rather than a picture, and it remains the one thing the Q = 2/3 mechanism
+    rests on.
+
+============================================================================
+VERDICT on #1
+============================================================================
+
+    A discriminant EXISTS and it is clean: nonzero spectrum {3a+b, 3a+b, 4b}, threefold
+    degenerate if and only if a = b. Node and backdrop are therefore not two ways of
+    describing the same physics -- they differ in the stiffness spectrum at first order
+    in the mismatch.
+
+    #1 stays OPEN. What changes is its shape: the premise is no longer "is the medium
+    really part of the same structure", which is unanswerable as posed, but "is the
+    family stiffness matrix threefold degenerate before pinning", which is a property
+    a constituent-level model either has or does not. That is a model-building question
+    and belongs in the same waiting room as the seat constant -- not a desk computation.
+
+    Filed accordingly: sharpened, not closed, and explicitly NOT counted as progress
+    toward Q = 2/3.
+
+============================================================================
+CHECKS: 18/18 passing
+============================================================================

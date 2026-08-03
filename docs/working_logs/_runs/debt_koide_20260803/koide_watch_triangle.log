@@ -1,0 +1,47 @@
+==============================================================================
+THE THREE CONSTRAINTS AS CURVES IN THE (A, phi) PLANE
+==============================================================================
+  measured m_mu/m_e      206.768282988 +- 4.50e-06   (21.8 ppb)
+  booked point (sqrt2, 2/9) gives  206.770315973
+  -> miss 9.83 ppm = 452 sigma  (cycle 8's headline)
+
+==============================================================================
+THE TRIANGLE: WHERE EACH PAIR OF CONSTRAINTS MEETS
+==============================================================================
+  vertex                                           A             phi
+  ------------------------------------------------------------------
+  data x (A = sqrt2)                    1.4142135624    0.2222220471
+  data x closure                        1.4142133251    0.2222221849
+  (A = sqrt2) x closure  [booked]       1.4142135624    0.2222222222
+
+  spread in A     2.373e-07   (0.168 ppm)
+  spread in phi   1.751e-07   (0.788 ppm)
+
+==============================================================================
+THE SAME DISAGREEMENT, ONE VARIABLE AT A TIME
+==============================================================================
+  Grant the closure exactly, and let the light masses fix everything else:
+    Q      = 0.666666554802      Q - 2/3 = -1.119e-07  (0.168 ppm)
+    A      = 1.414213325073      A - sqrt2 = -2.373e-07
+
+  Grant Q = 2/3 exactly instead, and do the same:
+    phi    = 0.222222047098      phi - 2/9 = -1.751e-07  (0.788 ppm)
+
+  So the conjunction fails, and this is the size of the failure. Whichever watch
+  is granted, the other misses by well under one part per million. The 452 sigma
+  measures how sharply m_mu/m_e is known, not how badly the sector is broken --
+  a 9.8 ppm discrepancy on a 22 ppb measurement is unavoidably hundreds of sigma.
+  Both readings are correct and neither alone is the whole statement.
+
+==============================================================================
+WHY THE TAU CANNOT SEE ANY OF THIS
+==============================================================================
+  the full three-mass point   A = 1.4142005052   phi = 0.2222296315
+  its distance from the triangle:  dA = -1.306e-05   dphi = +7.409e-06
+  the triangle's own size:         2.373e-07 in A, 1.751e-07 in phi
+
+  The tau's +-0.12 MeV displaces the fitted point by 55x the triangle's width
+  in A. That is the whole reason both watches sit under 1 sigma on a three-mass
+  fit while their conjunction is dead on two: the tau's error bar is far larger
+  than the structure being argued about, so it hides the disagreement rather
+  than resolving it. Only the light masses can see the triangle at all.

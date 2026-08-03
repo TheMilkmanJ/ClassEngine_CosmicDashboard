@@ -1,0 +1,16 @@
+==========================================================================
+bbnfix GetDist booking gate
+  pair: ('dyad_mnu_bbnfix', 'cmp_lcdm_mnu_bbnfix')
+  bar:  R−1 < 0.05 on BOTH (refuse if either R−1 >= 0.05 or missing)
+  out:  /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260803_162329
+==========================================================================
+  dyad_mnu_bbnfix: R−1 = 0.159888 >= 0.05 (N=17384.0, t=2026-08-03T09:32:30.354800) — NOT READY
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.053867 >= 0.05 (N=16075.0, t=2026-08-03T07:49:13.988426) — NOT READY
+
+  REFUSED — booking blocked.
+  Gate requires BOTH chains with R−1 < 0.05.
+  No GetDist booking; living docs unchanged.
+  Re-run: python3 scripts/book_bbnfix_when_ready.py
+==========================================================================
+  wrote refuse card: /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260803_162329/REPORT.md
+  wrote: /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260803_162329/booking.json

@@ -347,3 +347,23 @@ only version of this file that is publishable**, since the headline conclusion i
 
 *Debt 3 is therefore discharged in the only way it could be:* the positioning is not a paragraph
 acknowledging Visser 2018 and Navarro-Salas 2024, it is the paper's entire thesis.
+
+---
+
+## Claims ledger & residual freeze (2026-08-03) — above storygrade discipline
+
+| # | Claim | Grade | Code / artifact | Residual / kill |
+|---|---|---|---|---|
+| Q1 | Emergent metric from condensate (acoustic + Sakharov + Jacobson assembly) | **framework / derived-conditional** | this file §§2–5 | Rides medium reality (M3) |
+| Q2 | Area-law coefficient $S=A/4G$ as heat-kernel ratio $12\pi/48\pi$ | **paid** (minimal scalars) | `scripts/quantum_area_law_quarter.py` PASS | Roster extension candidate-grade (entropy.md §3) |
+| Q3 | Species + cutoff cancel in the ratio | **paid** | same | — |
+| Q4 | Visible str[k₁]=0 with SM+3 ν_R; dark balance → P-2026-048 | **derived + candidate dark** | supertrace-note SHIPPED | Lattice $T_c/\sqrt{\sigma}$ kills portal chain |
+| Q5 | “O(1)=1.0000” is p=2 ramp point, not medium selection | **honest constraint** | §4a | Do not quote as prediction |
+| Q6 | Dynamical Page curve (phonon Hawking / finite core) | **OPEN** | `scripts/quantum_page_curve_scaffold.py` (design only) | Forbidden to fake from Q2 alone |
+| Q7 | Tsirelson / no superquantum gravity-side mods | **null** | with quantum wing | CHSH > 2√2 kills |
+
+**Program to finish Q6 (hard work, not prose):** see  
+`docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`  
+and `docs/working_logs/_runs/debt_page_curve_20260803/REPORT.md`.
+
+**arXiv policy:** full QG hub stays **CORPUS_ONLY**. Independent algebra already public as **supertrace-note**.

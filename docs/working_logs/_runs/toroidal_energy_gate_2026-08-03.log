@@ -1,0 +1,35 @@
+==============================================================================
+THE SAME INITIAL CONDITION, SPONGE ON AND SPONGE OFF
+==============================================================================
+  grid 64x64x128 (production is 128x128x256), dt = 0.002, 200 steps -> t = 0.4
+
+  configuration                   E(0)        E(end)      drift     per step
+  --------------------------------------------------------------------------
+  sponge ON (as run)      108329.64685  104176.18834    3.8341%    0.019170%
+                         (61 s)
+  sponge OFF              108329.64685  108329.97375    0.0003%    0.000002%
+                         (60 s)
+
+==============================================================================
+VERDICT
+==============================================================================
+  drift with the sponge        3.8341%
+  drift without it             0.0003%
+  ratio                       12705.2x
+
+  CAUSE (b): DESIGNED DISSIPATION. With the absorbing term removed the integrator
+  conserves energy to within the gate, and switching it on reproduces the drift. The
+  2% bar is therefore measuring the sponge, not the numerics, and it cannot be met by
+  any run that uses an absorbing boundary -- which this instrument does by design,
+  because a periodic box without one reflects the fountain's radiation back onto the
+  ring it is trying to measure.
+
+  This is NOT the spherical rebound run's situation. There the energy error was the
+  integrator failing at 22-1817% with no dissipative term to blame, and burying the
+  result was correct. Here the same symptom has a different cause, and the
+  distinguishing measurement is the one above.
+
+  RECOMMENDATION unchanged and now evidenced: re-scope gate (iii) to the physical
+  region interior to the sponge, which is what it was written to protect. The parity
+  test across n = +-1 is a RELATIVE comparison and a common dissipation cancels from
+  it, so the fork's actual content survives either ruling.

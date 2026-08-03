@@ -1,0 +1,14 @@
+======================================================================
+  T14 single-instrument H_kin — protocol 2026-08-03
+  grid 64x64x128  T_MAX=1.5  SMOKE — not booking
+  out: docs/working_logs/_runs/t14_hkin_null_nowinding_v2
+======================================================================
+  NULL MODE: nowinding (jet only, n=0)
+
+======================================================================
+  BRANCH n+0_f+1
+======================================================================
+  [n+0_f+1 t= 0.25] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+2.494 H=+2.494 bins=16/16 phase=16/16 drift_phys=18.906%
+      candidate @ t=0.25 nphase=16 helA=+0
+  [n+0_f+1 t= 0.50] ring helA=+1 W=+0.000 Tw=+0.000 Wr=-3.796 H=-3.796 bins=16/16 phase=16/16 drift_phys=32.676%
+      candidate @ t=0.50 nphase=16 helA=+1

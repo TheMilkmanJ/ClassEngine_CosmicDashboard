@@ -145,9 +145,13 @@ coupling J). The corpus states **neither**. Declining to identify those with an 
 is recorded at [working_logs/PRTOE_session_2026-07-29b_findings.md](working_logs/PRTOE_session_2026-07-29b_findings.md)
 (#39).
 
-**Kill unchanged.** A *derived* ω_J more than two orders below ~5.7 keV, or failure of the
-overdamped-junction class premises, ends the junction route. The target itself remains the right
-grading number; the gap is that it is still a target, not a land.
+**Kill / band (pre-registered 2026-08-03 before any forward derivation).** A *derived* ω_J
+more than two orders below ~5.7 keV (**&lt; 0.057 keV**), or failure of the overdamped-junction
+class premises, ends the junction route. Intermediate disposition (neither accept nor kill):
+landing in **(0.057, 3) keV or (12, 30] keV** → anomalous-review, retune j/ratio before booking.
+Accept band for the junction magnitude reading: **[3, 12] keV**. The 5.7 keV figure remains the
+right *back-solve* grading center once Γ_φ/θ̇ is the **computed** 9.03×10⁷ (not the stale ~10⁷
+shorthand); the gap is that it is still a target, not a forward land.
 
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —

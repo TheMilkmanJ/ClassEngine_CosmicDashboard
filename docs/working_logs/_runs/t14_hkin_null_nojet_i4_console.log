@@ -1,0 +1,43 @@
+======================================================================
+  T14 single-instrument H_kin — protocol 2026-08-03
+  grid 64x64x128  T_MAX=1.5  SMOKE — not booking
+  out: docs/working_logs/_runs/t14_hkin_null_nojet_i4
+======================================================================
+  NULL MODE: nojet (background winding only)
+
+======================================================================
+  BRANCH n+1_f+1
+======================================================================
+  [n+1_f+1 t= 0.25] ----  drift_phys=0.137%
+  [n+1_f+1 t= 0.50] ----  drift_phys=0.637%
+  [n+1_f+1 t= 0.75] ----  drift_phys=4.490%
+  [n+1_f+1 t= 1.00] ----  drift_phys=19.405%
+  [n+1_f+1 t= 1.25] ----  drift_phys=48.688%
+  [n+1_f+1 t= 1.50] ----  drift_phys=76.529%
+  NO VERDICT FRAME for n+1_f+1
+
+======================================================================
+  BRANCH n-1_f+1
+======================================================================
+  [n-1_f+1 t= 0.25] ----  drift_phys=0.137%
+  [n-1_f+1 t= 0.50] ----  drift_phys=0.637%
+  [n-1_f+1 t= 0.75] ----  drift_phys=4.490%
+  [n-1_f+1 t= 1.00] ----  drift_phys=19.417%
+  [n-1_f+1 t= 1.25] ----  drift_phys=48.652%
+  [n-1_f+1 t= 1.50] ----  drift_phys=76.798%
+  NO VERDICT FRAME for n-1_f+1
+
+======================================================================
+  OUTCOME TABLE (protocol 2026-08-03)
+======================================================================
+  True-mirror checks:
+    (1, 1)<->(-1, -1): missing
+    (1, -1)<->(-1, 1): missing
+  All four verdicts: False
+  All margins pass:  True
+
+  BOOKING: nothing graded (no ring / no verdict frame)
+  Unchanged: branch closure (A flips with n); link 5 NEG; Fermi unreadable.
+======================================================================
+
+  wrote docs/working_logs/_runs/t14_hkin_null_nojet_i4/summary.json  elapsed 405s

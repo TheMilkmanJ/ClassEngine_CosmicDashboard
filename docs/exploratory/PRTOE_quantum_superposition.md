@@ -77,6 +77,23 @@ what completes it; and the completion DIRECTION is the condensate's own clock (t
 Explicitly labeled an interpretation: the model rides standard QM exactly and its
 abstention on the measurement problem stands — this adds ontology, zero modified numbers.
 
+---
+
+## 6. Claims ledger — honest OPEN (2026-08-03) — anti-storygrade discipline
+
+| # | Claim | Grade | Evidence | Residual |
+|---|---|---|---|---|
+| S1 | Superposition = one medium configuration with multi-term particle-basis decomposition | **interpretation** | §1; linearity of small excitations | Language, not a new formula |
+| S2 | Measurement = einselection / neighbor monitoring | **standard QM** | Zurek / quantum Darwinism | Not re-derived |
+| S3 | Linearity / interference match QM | **registered null** | §5 | Kill on GRW/Penrose-class collapse |
+| S4 | **Born rule *value*** | **OPEN — not re-derived** | §1 flag | Shared with every interpretation; **do not book as derived** |
+| S5 | Residual randomness → Kibble winding integer + sign | **interpretation / unbanked** | §4 | Beyond current test |
+| S6 | Global-phase selection of outcomes | **interpretation** | §3; same ODLRO as entanglement doc | Explicit nonlocality price |
+
+**What “above storygrade” means here:**  
+Not a fake Born derivation. It means **S4 is locked OPEN**, nulls S3 are explicit, and no packing of S1/S5 as results.  
+Any future Born program must register a kill band *before* computing — same discipline as ω_J.
+
 
 ## Addendum 2 — the selection law [interpretation-grade]
 How the superposition is chosen: (i) the terms — least energy cost subject

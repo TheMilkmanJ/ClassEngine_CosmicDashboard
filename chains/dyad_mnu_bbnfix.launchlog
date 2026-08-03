@@ -12740,3 +12740,656 @@ candl: clearing all internal priors.
 [0 : mcmc] Progress @ 2026-08-02 12:22:03 : 75384 steps taken, and 4818 accepted.
 [1 : mcmc] Progress @ 2026-08-02 12:22:53 : 73920 steps taken, and 4716 accepted.
 [0 : mcmc] Progress @ 2026-08-02 12:26:07 : 75404 steps taken, and 4820 accepted.
+[1 : mcmc] Progress @ 2026-08-02 12:27:23 : 73929 steps taken, and 4717 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:30:17 : 74860 steps taken, and 4782 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:30:23 : 75436 steps taken, and 4822 accepted.
+[1 : mcmc] Progress @ 2026-08-02 12:32:26 : 73966 steps taken, and 4719 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:34:08 : 75440 steps taken, and 4822 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:34:26 : 74927 steps taken, and 4786 accepted.
+[1 : mcmc] Progress @ 2026-08-02 12:36:36 : 73999 steps taken, and 4722 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:37:40 : 75472 steps taken, and 4824 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:39:32 : 74981 steps taken, and 4790 accepted.
+[1 : mcmc] Progress @ 2026-08-02 12:40:52 : 74101 steps taken, and 4728 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:41:12 : 75520 steps taken, and 4827 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:43:30 : 74989 steps taken, and 4790 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:44:40 : 75526 steps taken, and 4828 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:47:23 : 75013 steps taken, and 4791 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:48:08 : 75540 steps taken, and 4828 accepted.
+[1 : mcmc] Progress @ 2026-08-02 12:49:07 : 74113 steps taken, and 4729 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:51:08 : 75035 steps taken, and 4792 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:51:23 : 75551 steps taken, and 4830 accepted.
+[1 : mcmc] Progress @ 2026-08-02 12:52:36 : 74124 steps taken, and 4730 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:54:27 : 75552 steps taken, and 4830 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:54:42 : 75075 steps taken, and 4795 accepted.
+[1 : mcmc] Progress @ 2026-08-02 12:56:04 : 74157 steps taken, and 4732 accepted.
+[0 : mcmc] Progress @ 2026-08-02 12:58:00 : 75608 steps taken, and 4833 accepted.
+[2 : mcmc] Progress @ 2026-08-02 12:58:40 : 75096 steps taken, and 4796 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:00:59 : 74194 steps taken, and 4734 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:01:23 : 75621 steps taken, and 4834 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:02:21 : 75111 steps taken, and 4797 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:04:33 : 74226 steps taken, and 4737 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:04:58 : 75657 steps taken, and 4837 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:05:39 : 75115 steps taken, and 4798 accepted.
+[2 : mcmc] Learn + convergence test @ 4800 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2026-08-02 13:07:41 : 74259 steps taken, and 4739 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:07:59 : 75665 steps taken, and 4837 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:09:01 : 75145 steps taken, and 4800 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:10:36 : 74283 steps taken, and 4740 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:10:57 : 75697 steps taken, and 4839 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:12:11 : 75162 steps taken, and 4801 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:13:41 : 74344 steps taken, and 4745 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:13:55 : 75712 steps taken, and 4840 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:15:27 : 75186 steps taken, and 4802 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:16:48 : 75717 steps taken, and 4840 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:16:56 : 74347 steps taken, and 4745 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:18:35 : 75259 steps taken, and 4807 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:19:52 : 75720 steps taken, and 4841 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:20:26 : 74358 steps taken, and 4746 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:21:33 : 75269 steps taken, and 4808 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:22:52 : 75722 steps taken, and 4841 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:23:23 : 74365 steps taken, and 4746 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:24:24 : 75280 steps taken, and 4808 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:26:26 : 75828 steps taken, and 4848 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:27:59 : 75379 steps taken, and 4815 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:28:03 : 74433 steps taken, and 4750 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:29:46 : 75858 steps taken, and 4850 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:31:15 : 75402 steps taken, and 4817 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:31:40 : 74483 steps taken, and 4754 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:32:56 : 75877 steps taken, and 4851 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:34:19 : 75411 steps taken, and 4817 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:34:52 : 74489 steps taken, and 4754 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:35:58 : 75878 steps taken, and 4851 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:37:16 : 75444 steps taken, and 4819 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:38:02 : 74514 steps taken, and 4756 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:38:50 : 75894 steps taken, and 4852 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:40:40 : 75447 steps taken, and 4820 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:41:48 : 74519 steps taken, and 4756 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:43:10 : 75899 steps taken, and 4853 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:45:34 : 75469 steps taken, and 4821 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:47:23 : 74545 steps taken, and 4758 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:48:28 : 75942 steps taken, and 4856 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:50:55 : 75570 steps taken, and 4828 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:52:53 : 74628 steps taken, and 4764 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:53:49 : 75985 steps taken, and 4858 accepted.
+[2 : mcmc] Progress @ 2026-08-02 13:56:27 : 75571 steps taken, and 4828 accepted.
+[1 : mcmc] Progress @ 2026-08-02 13:58:38 : 74634 steps taken, and 4764 accepted.
+[0 : mcmc] Progress @ 2026-08-02 13:59:19 : 76014 steps taken, and 4860 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:02:13 : 75602 steps taken, and 4830 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:04:15 : 74651 steps taken, and 4765 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:04:47 : 76057 steps taken, and 4863 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:07:40 : 75604 steps taken, and 4830 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:09:25 : 74681 steps taken, and 4767 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:10:34 : 76111 steps taken, and 4867 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:13:05 : 75607 steps taken, and 4830 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:14:32 : 74715 steps taken, and 4769 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:15:17 : 76118 steps taken, and 4867 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:18:24 : 75628 steps taken, and 4832 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:20:17 : 74748 steps taken, and 4771 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:20:27 : 76134 steps taken, and 4868 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:24:41 : 75645 steps taken, and 4833 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:25:50 : 74749 steps taken, and 4772 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:26:02 : 76136 steps taken, and 4868 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:31:27 : 75704 steps taken, and 4837 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:31:33 : 74775 steps taken, and 4773 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:32:44 : 76200 steps taken, and 4872 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:36:31 : 75709 steps taken, and 4837 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:37:37 : 74800 steps taken, and 4775 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:37:48 : 76213 steps taken, and 4874 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:43:27 : 75748 steps taken, and 4840 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:43:58 : 74936 steps taken, and 4784 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:44:25 : 76230 steps taken, and 4875 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:50:13 : 76231 steps taken, and 4875 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:50:59 : 74980 steps taken, and 4787 accepted.
+[2 : mcmc] Progress @ 2026-08-02 14:52:06 : 75804 steps taken, and 4844 accepted.
+[0 : mcmc] Progress @ 2026-08-02 14:56:12 : 76242 steps taken, and 4876 accepted.
+[1 : mcmc] Progress @ 2026-08-02 14:56:30 : 74988 steps taken, and 4787 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:00:06 : 75821 steps taken, and 4845 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:02:21 : 76267 steps taken, and 4877 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:03:55 : 75024 steps taken, and 4790 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:07:48 : 75822 steps taken, and 4845 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:08:22 : 76333 steps taken, and 4882 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:10:57 : 75025 steps taken, and 4790 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:13:49 : 76370 steps taken, and 4884 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:15:06 : 75837 steps taken, and 4846 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:17:00 : 75096 steps taken, and 4794 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:19:24 : 76377 steps taken, and 4884 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:20:53 : 75874 steps taken, and 4848 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:22:48 : 75097 steps taken, and 4795 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:24:17 : 76393 steps taken, and 4886 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:28:03 : 75888 steps taken, and 4849 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:28:15 : 75133 steps taken, and 4797 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:29:58 : 76420 steps taken, and 4887 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:34:01 : 75135 steps taken, and 4797 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:34:46 : 75905 steps taken, and 4850 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:35:23 : 76448 steps taken, and 4889 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:39:30 : 75148 steps taken, and 4798 accepted.
+[1 : mcmc] Learn + convergence test @ 4800 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2026-08-02 15:41:01 : 76451 steps taken, and 4889 accepted.
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[2 : mcmc] Progress @ 2026-08-02 15:41:02 : 75954 steps taken, and 4853 accepted.
+[0 : mcmc]  - Acceptance rate: 0.996 = avg([0.9959, 0.9963, 0.9971])
+[0 : mcmc]  - Convergence of means: R-1 = 0.191848 after 14544 accepted steps = sum([4890, 4800, 4854])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2026-08-02 15:41:03 : 75171 steps taken, and 4800 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:46:58 : 76516 steps taken, and 4894 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:47:10 : 75209 steps taken, and 4802 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:47:36 : 75984 steps taken, and 4856 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:52:51 : 76522 steps taken, and 4894 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:53:18 : 75221 steps taken, and 4803 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:53:41 : 76018 steps taken, and 4858 accepted.
+[0 : mcmc] Progress @ 2026-08-02 15:57:57 : 76524 steps taken, and 4894 accepted.
+[1 : mcmc] Progress @ 2026-08-02 15:58:10 : 75296 steps taken, and 4808 accepted.
+[2 : mcmc] Progress @ 2026-08-02 15:58:59 : 76065 steps taken, and 4861 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:03:28 : 76564 steps taken, and 4897 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:04:27 : 75346 steps taken, and 4811 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:05:19 : 76072 steps taken, and 4861 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:10:02 : 76598 steps taken, and 4899 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:11:25 : 75356 steps taken, and 4812 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:13:08 : 76132 steps taken, and 4865 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:16:30 : 76663 steps taken, and 4903 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:17:39 : 75369 steps taken, and 4813 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:19:30 : 76140 steps taken, and 4866 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:22:30 : 76692 steps taken, and 4905 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:24:27 : 75371 steps taken, and 4813 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:26:28 : 76145 steps taken, and 4866 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:29:41 : 76696 steps taken, and 4906 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:30:11 : 75421 steps taken, and 4816 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:34:32 : 76153 steps taken, and 4867 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:36:45 : 76713 steps taken, and 4907 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:37:22 : 75436 steps taken, and 4817 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:42:30 : 76731 steps taken, and 4908 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:42:41 : 76154 steps taken, and 4867 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:43:13 : 75439 steps taken, and 4817 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:48:49 : 76740 steps taken, and 4909 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:48:54 : 76261 steps taken, and 4874 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:49:41 : 75457 steps taken, and 4819 accepted.
+[2 : mcmc] Progress @ 2026-08-02 16:55:55 : 76316 steps taken, and 4878 accepted.
+[0 : mcmc] Progress @ 2026-08-02 16:56:17 : 76782 steps taken, and 4911 accepted.
+[1 : mcmc] Progress @ 2026-08-02 16:56:59 : 75461 steps taken, and 4819 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:01:28 : 76799 steps taken, and 4911 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:02:05 : 76364 steps taken, and 4881 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:02:46 : 75478 steps taken, and 4820 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:07:05 : 76803 steps taken, and 4912 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:09:19 : 76389 steps taken, and 4882 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:09:24 : 75529 steps taken, and 4824 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:12:32 : 76833 steps taken, and 4914 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:14:38 : 75548 steps taken, and 4825 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:15:30 : 76393 steps taken, and 4883 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:17:39 : 76839 steps taken, and 4914 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:20:05 : 75550 steps taken, and 4825 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:21:34 : 76408 steps taken, and 4884 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:22:20 : 76867 steps taken, and 4916 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:24:17 : 75559 steps taken, and 4825 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:26:38 : 76510 steps taken, and 4891 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:27:05 : 76871 steps taken, and 4917 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:31:09 : 75621 steps taken, and 4830 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:32:04 : 76521 steps taken, and 4891 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:32:25 : 76874 steps taken, and 4917 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:35:48 : 75656 steps taken, and 4832 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:37:12 : 76875 steps taken, and 4917 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:37:25 : 76533 steps taken, and 4892 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:39:51 : 75664 steps taken, and 4833 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:41:18 : 76905 steps taken, and 4919 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:42:58 : 76568 steps taken, and 4895 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:44:36 : 75692 steps taken, and 4834 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:45:54 : 77035 steps taken, and 4927 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:48:23 : 76718 steps taken, and 4905 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:48:55 : 75693 steps taken, and 4834 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:50:16 : 77048 steps taken, and 4928 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:52:59 : 75730 steps taken, and 4837 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:53:08 : 76899 steps taken, and 4916 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:54:26 : 77050 steps taken, and 4928 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:56:21 : 75758 steps taken, and 4838 accepted.
+[0 : mcmc] Progress @ 2026-08-02 17:57:49 : 77055 steps taken, and 4928 accepted.
+[2 : mcmc] Progress @ 2026-08-02 17:57:56 : 76903 steps taken, and 4917 accepted.
+[1 : mcmc] Progress @ 2026-08-02 17:59:14 : 75766 steps taken, and 4839 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:00:40 : 77088 steps taken, and 4931 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:01:24 : 76926 steps taken, and 4918 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:02:02 : 75836 steps taken, and 4844 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:03:56 : 77123 steps taken, and 4933 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:05:27 : 76976 steps taken, and 4922 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:05:51 : 75846 steps taken, and 4845 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:07:36 : 77157 steps taken, and 4936 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:09:20 : 75869 steps taken, and 4846 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:10:06 : 76996 steps taken, and 4923 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:11:45 : 77164 steps taken, and 4936 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:12:48 : 75945 steps taken, and 4851 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:14:13 : 77027 steps taken, and 4925 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:15:35 : 77203 steps taken, and 4939 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:16:54 : 75966 steps taken, and 4853 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:17:45 : 77048 steps taken, and 4926 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:18:35 : 77249 steps taken, and 4941 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:20:35 : 76017 steps taken, and 4856 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:21:00 : 77137 steps taken, and 4932 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:21:57 : 77252 steps taken, and 4942 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:23:54 : 76038 steps taken, and 4857 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:24:19 : 77146 steps taken, and 4933 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:25:25 : 77280 steps taken, and 4944 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:27:18 : 76044 steps taken, and 4858 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:28:33 : 77163 steps taken, and 4934 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:29:03 : 77290 steps taken, and 4944 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:31:20 : 76073 steps taken, and 4860 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:32:42 : 77180 steps taken, and 4935 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:33:02 : 77325 steps taken, and 4947 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:35:46 : 76086 steps taken, and 4861 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:36:52 : 77374 steps taken, and 4950 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:37:02 : 77186 steps taken, and 4936 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:40:26 : 77379 steps taken, and 4950 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:41:01 : 76114 steps taken, and 4863 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:41:02 : 77187 steps taken, and 4936 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:44:15 : 77419 steps taken, and 4953 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:44:40 : 77241 steps taken, and 4939 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:45:23 : 76120 steps taken, and 4863 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:47:37 : 77447 steps taken, and 4955 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:48:11 : 77248 steps taken, and 4940 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:49:18 : 76171 steps taken, and 4866 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:51:00 : 77518 steps taken, and 4959 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:52:42 : 76228 steps taken, and 4870 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:53:44 : 77344 steps taken, and 4946 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:54:16 : 77533 steps taken, and 4961 accepted.
+[1 : mcmc] Progress @ 2026-08-02 18:56:50 : 76229 steps taken, and 4870 accepted.
+[0 : mcmc] Progress @ 2026-08-02 18:57:23 : 77544 steps taken, and 4961 accepted.
+[2 : mcmc] Progress @ 2026-08-02 18:57:27 : 77369 steps taken, and 4948 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:00:34 : 77552 steps taken, and 4962 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:01:06 : 76298 steps taken, and 4875 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:01:19 : 77386 steps taken, and 4949 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:03:35 : 77555 steps taken, and 4962 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:04:55 : 76321 steps taken, and 4876 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:06:34 : 77391 steps taken, and 4949 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:06:34 : 77570 steps taken, and 4963 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:08:38 : 76460 steps taken, and 4886 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:09:36 : 77629 steps taken, and 4967 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:09:45 : 77409 steps taken, and 4951 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:12:00 : 76483 steps taken, and 4887 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:12:47 : 77672 steps taken, and 4969 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:13:02 : 77438 steps taken, and 4952 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:15:40 : 77713 steps taken, and 4973 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:15:46 : 76495 steps taken, and 4888 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:16:34 : 77495 steps taken, and 4956 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:18:29 : 77721 steps taken, and 4973 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:19:28 : 76608 steps taken, and 4896 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:21:14 : 77722 steps taken, and 4973 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:21:30 : 77583 steps taken, and 4962 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:22:56 : 76690 steps taken, and 4901 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:23:53 : 77729 steps taken, and 4973 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:24:59 : 77636 steps taken, and 4966 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:25:42 : 76709 steps taken, and 4902 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:26:36 : 77739 steps taken, and 4974 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:28:13 : 77681 steps taken, and 4969 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:30:10 : 77793 steps taken, and 4978 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:30:29 : 76772 steps taken, and 4907 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:32:09 : 77835 steps taken, and 4979 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:34:05 : 77794 steps taken, and 4978 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:37:03 : 77865 steps taken, and 4981 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:37:06 : 76785 steps taken, and 4907 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:38:15 : 77828 steps taken, and 4980 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:41:07 : 76787 steps taken, and 4907 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:42:16 : 77832 steps taken, and 4981 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:46:43 : 76790 steps taken, and 4908 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:46:44 : 77870 steps taken, and 4981 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:46:50 : 77868 steps taken, and 4982 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:51:19 : 77903 steps taken, and 4985 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:52:20 : 76814 steps taken, and 4909 accepted.
+[0 : mcmc] Progress @ 2026-08-02 19:56:05 : 77928 steps taken, and 4987 accepted.
+[2 : mcmc] Progress @ 2026-08-02 19:56:46 : 77964 steps taken, and 4988 accepted.
+[1 : mcmc] Progress @ 2026-08-02 19:57:43 : 76863 steps taken, and 4912 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:00:01 : 77944 steps taken, and 4987 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:01:49 : 76871 steps taken, and 4913 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:01:56 : 78017 steps taken, and 4991 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:03:19 : 77957 steps taken, and 4988 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:05:33 : 78055 steps taken, and 4994 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:05:33 : 76882 steps taken, and 4914 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:06:35 : 77982 steps taken, and 4990 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:08:36 : 76888 steps taken, and 4914 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:08:41 : 78091 steps taken, and 4996 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:09:09 : 77989 steps taken, and 4990 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:11:55 : 78162 steps taken, and 5001 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:12:02 : 76929 steps taken, and 4917 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:12:06 : 77994 steps taken, and 4990 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:14:48 : 78013 steps taken, and 4991 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:15:00 : 78166 steps taken, and 5001 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:15:14 : 76965 steps taken, and 4919 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:17:33 : 78088 steps taken, and 4997 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:18:31 : 78185 steps taken, and 5002 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:18:39 : 77058 steps taken, and 4926 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:20:10 : 78130 steps taken, and 4999 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:21:07 : 77085 steps taken, and 4927 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:21:23 : 78230 steps taken, and 5005 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:22:52 : 78155 steps taken, and 5001 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:24:02 : 77101 steps taken, and 4928 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:24:27 : 78316 steps taken, and 5011 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:25:37 : 78173 steps taken, and 5002 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:26:47 : 77107 steps taken, and 4929 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:27:46 : 78317 steps taken, and 5011 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:28:21 : 78222 steps taken, and 5006 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:30:07 : 77118 steps taken, and 4930 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:30:20 : 78318 steps taken, and 5011 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:30:59 : 78260 steps taken, and 5008 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:32:57 : 77151 steps taken, and 4932 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:33:18 : 78319 steps taken, and 5011 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:33:50 : 78273 steps taken, and 5009 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:35:56 : 77162 steps taken, and 4932 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:36:15 : 78344 steps taken, and 5013 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:36:33 : 78295 steps taken, and 5010 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:39:00 : 78345 steps taken, and 5013 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:39:06 : 77167 steps taken, and 4933 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:40:08 : 78319 steps taken, and 5012 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:41:40 : 78347 steps taken, and 5013 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:41:54 : 77218 steps taken, and 4936 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:42:50 : 78328 steps taken, and 5013 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:44:18 : 78364 steps taken, and 5014 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:44:33 : 77250 steps taken, and 4938 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:45:45 : 78424 steps taken, and 5019 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:46:54 : 78391 steps taken, and 5016 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:48:33 : 78432 steps taken, and 5020 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:48:53 : 77345 steps taken, and 4944 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:51:17 : 78440 steps taken, and 5020 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:52:57 : 77356 steps taken, and 4945 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:53:02 : 78445 steps taken, and 5020 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:54:05 : 78447 steps taken, and 5021 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:55:49 : 77402 steps taken, and 4948 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:55:53 : 78544 steps taken, and 5026 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:56:55 : 78451 steps taken, and 5021 accepted.
+[2 : mcmc] Progress @ 2026-08-02 20:58:36 : 78568 steps taken, and 5028 accepted.
+[1 : mcmc] Progress @ 2026-08-02 20:58:43 : 77498 steps taken, and 4955 accepted.
+[0 : mcmc] Progress @ 2026-08-02 20:59:42 : 78481 steps taken, and 5023 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:01:32 : 78663 steps taken, and 5034 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:01:41 : 77515 steps taken, and 4956 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:02:38 : 78535 steps taken, and 5026 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:04:45 : 78685 steps taken, and 5035 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:05:32 : 78561 steps taken, and 5028 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:06:29 : 77524 steps taken, and 4957 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:07:56 : 78696 steps taken, and 5036 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:08:29 : 78576 steps taken, and 5029 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:11:05 : 78714 steps taken, and 5037 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:11:26 : 77602 steps taken, and 4962 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:11:58 : 78640 steps taken, and 5033 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:14:19 : 78724 steps taken, and 5038 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:15:13 : 78654 steps taken, and 5034 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:15:46 : 77627 steps taken, and 4963 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:17:33 : 78764 steps taken, and 5041 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:18:26 : 78655 steps taken, and 5034 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:19:44 : 77647 steps taken, and 4965 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:20:43 : 78775 steps taken, and 5042 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:21:45 : 78711 steps taken, and 5038 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:23:47 : 77696 steps taken, and 4968 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:23:51 : 78800 steps taken, and 5043 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:25:04 : 78806 steps taken, and 5045 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:27:34 : 78804 steps taken, and 5043 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:27:48 : 77711 steps taken, and 4969 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:28:51 : 78809 steps taken, and 5045 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:31:05 : 78879 steps taken, and 5048 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:32:21 : 77786 steps taken, and 4974 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:33:04 : 78819 steps taken, and 5045 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:35:10 : 78880 steps taken, and 5049 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:36:50 : 77790 steps taken, and 4974 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:37:02 : 78851 steps taken, and 5048 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:38:49 : 78910 steps taken, and 5051 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:40:30 : 78861 steps taken, and 5048 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:40:44 : 77817 steps taken, and 4976 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:42:29 : 78923 steps taken, and 5051 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:44:19 : 78863 steps taken, and 5048 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:45:16 : 77826 steps taken, and 4977 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:45:59 : 78989 steps taken, and 5056 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:47:28 : 78866 steps taken, and 5049 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:48:30 : 77845 steps taken, and 4978 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:48:49 : 78995 steps taken, and 5056 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:50:27 : 78975 steps taken, and 5055 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:51:38 : 78996 steps taken, and 5056 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:51:55 : 77903 steps taken, and 4982 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:53:34 : 79006 steps taken, and 5058 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:54:49 : 79025 steps taken, and 5058 accepted.
+[1 : mcmc] Progress @ 2026-08-02 21:56:13 : 77962 steps taken, and 4986 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:56:48 : 79009 steps taken, and 5058 accepted.
+[2 : mcmc] Progress @ 2026-08-02 21:57:56 : 79045 steps taken, and 5059 accepted.
+[0 : mcmc] Progress @ 2026-08-02 21:59:45 : 79027 steps taken, and 5059 accepted.
+[1 : mcmc] Progress @ 2026-08-02 22:00:16 : 78083 steps taken, and 4994 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:01:19 : 79063 steps taken, and 5061 accepted.
+[0 : mcmc] Progress @ 2026-08-02 22:04:09 : 79036 steps taken, and 5060 accepted.
+[1 : mcmc] Progress @ 2026-08-02 22:05:26 : 78107 steps taken, and 4995 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:06:24 : 79145 steps taken, and 5066 accepted.
+[0 : mcmc] Progress @ 2026-08-02 22:09:35 : 79071 steps taken, and 5062 accepted.
+[1 : mcmc] Progress @ 2026-08-02 22:10:49 : 78144 steps taken, and 4998 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:12:36 : 79187 steps taken, and 5069 accepted.
+[0 : mcmc] Progress @ 2026-08-02 22:15:11 : 79093 steps taken, and 5063 accepted.
+[1 : mcmc] Progress @ 2026-08-02 22:17:12 : 78153 steps taken, and 4999 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:18:39 : 79197 steps taken, and 5070 accepted.
+[0 : mcmc] Progress @ 2026-08-02 22:21:34 : 79096 steps taken, and 5064 accepted.
+[1 : mcmc] Progress @ 2026-08-02 22:23:34 : 78198 steps taken, and 5001 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:25:07 : 79213 steps taken, and 5071 accepted.
+[0 : mcmc] Progress @ 2026-08-02 22:27:47 : 79162 steps taken, and 5068 accepted.
+[1 : mcmc] Progress @ 2026-08-02 22:31:56 : 78235 steps taken, and 5004 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:32:38 : 79256 steps taken, and 5074 accepted.
+[0 : mcmc] Progress @ 2026-08-02 22:36:42 : 79172 steps taken, and 5069 accepted.
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[0 : output] Output to be read-from/written-into folder '.', with prefix 'dyad_mnu_bbnfix'
+[0 : output] Found existing info files with the requested output prefix: 'dyad_mnu_bbnfix'
+[0 : output] Let's try to resume/load.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[0 : output] Found an old sample. Resuming.
+[0 : prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[0 : classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[0 : planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[0 : planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+----
+clipy_0.15
+[0 : bao.sixdf_2011_bao] Initialized.
+[2 : bao.sixdf_2011_bao] Initialized.
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[1 : bao.sixdf_2011_bao] Initialized.
+[2 : bao.sdss_dr12_consensus_final] Initialized.
+[0 : bao.sdss_dr12_consensus_final] Initialized.
+[1 : bao.sdss_dr12_consensus_final] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[0 : mcmc] Resuming from previous sample!
+[2 : samplecollection] Loaded 5074 sample points from './dyad_mnu_bbnfix.3.txt'
+[1 : samplecollection] Loaded 5009 sample points from './dyad_mnu_bbnfix.2.txt'
+[0 : samplecollection] Loaded 5069 sample points from './dyad_mnu_bbnfix.1.txt'
+[2 : mcmc] Initial point: omega_b:0.02293113, H0:71.85408, logA:3.056499, n_s:0.9670003, z_reio:7.957347, dcdf_rho_inf:0.7147088, varying_me:1.022642, A_planck:1.001926, A_act:1.00029, P_act:1.00562, Tcal:0.9978754, Ecal:1.005457, m_ncdm:0.07644493
+[0 : mcmc] Initial point: omega_b:0.02284316, H0:70.05242, logA:3.045206, n_s:0.967621, z_reio:7.098655, dcdf_rho_inf:0.7007879, varying_me:1.014893, A_planck:1.003233, A_act:1.001908, P_act:1.006006, Tcal:0.997032, Ecal:1.001572, m_ncdm:0.0754626
+[1 : mcmc] Initial point: omega_b:0.02257235, H0:68.57261, logA:3.062665, n_s:0.9694729, z_reio:8.350034, dcdf_rho_inf:0.6949023, varying_me:1.004951, A_planck:1.002258, A_act:0.9987393, P_act:1.002463, Tcal:0.9983648, Ecal:1.0018, m_ncdm:0.04352791
+[0 : mcmc] *WARNING* Parameter blocking manually/previously fixed: speeds will not be measured.
+[0 : mcmc] Oversampling with factors:
+[0 : mcmc] *  1 : ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'varying_me', 'm_ncdm']
+[0 : mcmc] * 24 : ['A_planck']
+[0 : mcmc] * 31 : ['A_act', 'P_act']
+[0 : mcmc] * 49 : ['Tcal', 'Ecal']
+[0 : mcmc] Covariance matrix from previous sample.
+[0 : mcmc] Sampling!
+[0 : mcmc] Progress @ 2026-08-02 22:55:45 : 1 steps taken, and 5069 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:55:46 : 1 steps taken, and 5074 accepted.
+[1 : mcmc] Progress @ 2026-08-02 22:55:59 : 1 steps taken, and 5009 accepted.
+[0 : mcmc] Progress @ 2026-08-02 22:59:09 : 36 steps taken, and 5070 accepted.
+[2 : mcmc] Progress @ 2026-08-02 22:59:17 : 31 steps taken, and 5075 accepted.
+[2 : mcmc] Progress @ 2026-08-02 23:01:35 : 53 steps taken, and 5077 accepted.
+[1 : mcmc] Progress @ 2026-08-02 23:01:37 : 46 steps taken, and 5011 accepted.
+[0 : mcmc] Progress @ 2026-08-02 23:01:38 : 41 steps taken, and 5070 accepted.
+[1 : mcmc] Progress @ 2026-08-02 23:02:42 : 83 steps taken, and 5014 accepted.
+[0 : mcmc] Progress @ 2026-08-02 23:02:44 : 84 steps taken, and 5074 accepted.
+[2 : mcmc] Progress @ 2026-08-02 23:03:40 : 72 steps taken, and 5078 accepted.
+[1 : mcmc] Progress @ 2026-08-02 23:04:00 : 160 steps taken, and 5019 accepted.
+[0 : mcmc] Progress @ 2026-08-02 23:04:04 : 134 steps taken, and 5077 accepted.
+[2 : mcmc] Progress @ 2026-08-02 23:05:00 : 125 steps taken, and 5082 accepted.
+[1 : mcmc] Progress @ 2026-08-02 23:05:26 : 174 steps taken, and 5020 accepted.
+[0 : mcmc] Progress @ 2026-08-02 23:05:32 : 144 steps taken, and 5078 accepted.
+[2 : mcmc] Progress @ 2026-08-02 23:06:23 : 134 steps taken, and 5082 accepted.
+[1 : mcmc] Progress @ 2026-08-02 23:06:58 : 176 steps taken, and 5020 accepted.
+[0 : mcmc] Progress @ 2026-08-02 23:07:10 : 155 steps taken, and 5078 accepted.
+[2 : mcmc] Progress @ 2026-08-02 23:07:55 : 169 steps taken, and 5084 accepted.
+[1 : mcmc] Progress @ 2026-08-02 23:08:38 : 196 steps taken, and 5021 accepted.
+[0 : mcmc] Progress @ 2026-08-02 23:08:47 : 166 steps taken, and 5079 accepted.
+[2 : mcmc] Progress @ 2026-08-02 23:09:41 : 195 steps taken, and 5086 accepted.
+[1 : mcmc] Progress @ 2026-08-02 23:10:25 : 219 steps taken, and 5023 accepted.

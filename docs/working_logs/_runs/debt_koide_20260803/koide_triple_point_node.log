@@ -1,0 +1,48 @@
+========================================================================
+(1) THE NODE IS LITERAL: Koide masses ARE eigenvalues of a C3 hopping H
+========================================================================
+  a = mu (C3 singlet mean sqrt-mass) = 17.7156
+  Brannen amplitude A = 2|b|/a = 1.41420   (sqrt2 = 1.41421)
+  => |b|/a = A/2 = 0.70710   (1/sqrt2 = 0.70711)
+  best-fit hopping phase phi = 6.06095 rad  (Brannen 2/9 lands at a
+    C3 image of this; the seating is a set, so phi is mod the 120 deg relabel)
+  eigenvalues ['0.7148', '10.2791', '42.1528']  vs  sqrt-masses ['0.7148', '10.2790', '42.1528']  (sq-err 9.30e-09)
+  => the three generations sit on the three branches of ONE C3 node exactly.
+
+========================================================================
+(2) THE NODE (b=0) IS THE DEMOCRATIC POINT Q=1/3, NOT THE NULL Q=2/3
+========================================================================
+  |b|/a=0.0000 (A=0.0000): Q=0.3333, min eig=+17.7156 [all>0]  <- NODE (3-fold degenerate)
+  |b|/a=0.2500 (A=0.5000): Q=0.3750, min eig=+11.7048 [all>0]
+  |b|/a=0.5000 (A=1.0000): Q=0.5000, min eig=+5.6941 [all>0]
+  |b|/a=0.7071 (A=1.4142): Q=0.6667, min eig=+0.7146 [all>0]  <- the null, Q=2/3, A=sqrt2
+  |b|/a=0.9000 (A=1.8000): Q=nan, min eig=-3.9231 [NEGATIVE sqrt-m (unphysical)]
+  Q = 1/3 + (2/3)(|b|/a)^2 : b=0 gives 1/3, and the null Q=2/3 is a SPECIFIC
+  distance off the node, |b|/a = 1/sqrt2. The node permits it; it is not b=0.
+
+========================================================================
+(3) DOES THE NODE FORCE |b|/a = 1/sqrt2 ?  (the honest verdict)
+========================================================================
+  positivity wall: A_max = -1/cos(theta_min) = 1.4737  (A=sqrt2=1.4142 is 96.0% of it)
+  so A = sqrt2 sits JUST BELOW the wall where the lightest branch (electron,
+    sqrt-m = 0.7148) nears zero -- near-maximal splitting, not exact.
+
+  VERDICT: the C3 node delivers the STRUCTURE and the PARAMETER COUNT, not the
+  values. It forces: (i) three branches of one node (the circulant), (ii) that
+  the whole sector is ONE complex hopping b on an offset a -- exactly TWO
+  dimensionless numbers, |b|/a and arg(b). Koide's two facts then FIX them:
+    Q = 2/3   <=>  |b|/a = 1/sqrt2   (the amplitude/null)
+    phase 2/9 <=>  arg(b) = 2/9      (the holonomy)
+  The node explains why there are exactly these two knobs; it does NOT predict
+  their values. 'Why sqrt2' is now 'why |b| = a/sqrt2' (candidate: the electron
+  branch saturating the positivity wall); 'why 2/9' is 'why arg(b) = 2/9'.
+  Both need what sets the family hopping in the medium -- the basement, not the
+  node's symmetry alone.
+
+self-check:
+  [ok] null ratio |b|/a=1/sqrt2 gives Q=2/3: got 0.666667, expect 0.666667
+  [ok] Q = 1/3 + (2/3)(|b|/a)^2: got 0.440000, expect 0.440000
+  [ok] node b=0 gives Q=1/3: got 0.333333, expect 0.333333
+  [ok] circulant fits real sqrt-masses (sq-err): got 0.000000, expect 0.000000
+
+ALL CHECKS PASS

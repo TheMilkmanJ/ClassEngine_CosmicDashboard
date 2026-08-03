@@ -53,7 +53,7 @@ FRAME = 0.25
 R_JET, Z_JET = 4.0, 8.0
 V_JET_AMP = 6.0
 NBINS = 16
-NPROBE = 8
+NPROBE = 16                 # i5: more azimuthal phase samples → tighter dial
 R_PROBE_DEFAULT = 1.5
 ABS_REJECT_DEFAULT = 0.55
 
@@ -180,57 +180,82 @@ def sample_phase_off_core(G, psi, i, j, kk, r_probe, abs_reject):
     return np.nan
 
 
-def discrete_writhe(xyz: np.ndarray) -> float:
-    """Discrete closed-curve writhe via double sum of segment solid angles.
+def smooth_centerline(xyz, n_modes: int = 3):
+    """Low-order Fourier smooth of closed (N,3) centerline (R1-t14-i4)."""
+    pts = np.asarray(xyz, dtype=float)
+    N = len(pts)
+    if N < 6 or not np.isfinite(pts).all():
+        return pts
+    out = np.zeros_like(pts)
+    for dim in range(3):
+        c = np.fft.rfft(pts[:, dim])
+        keep = min(n_modes + 1, len(c))
+        c[keep:] = 0
+        out[:, dim] = np.fft.irfft(c, n=N)
+    return out
 
-    Klenin–Langowski-style segment–segment contribution.  xyz shape (N,3), closed.
-    Returns Wr (dimensionless).  Adjacent segments skipped.
+
+def fourier_resample(xyz, n_modes: int = 3, n_out: int = 64) -> np.ndarray:
+    """Band-limit to n_modes, then evaluate the same series on a denser closed grid.
+
+    Dense Gauss writhe of a band-limited curve needs more polyline samples than
+    the noisy 16-bin core ring; this keeps the smooth shape without reintroducing
+    bin noise.
     """
-    N = len(xyz)
-    if N < 4 or np.any(~np.isfinite(xyz)):
+    pts = np.asarray(xyz, dtype=float)
+    N = len(pts)
+    if N < 6 or not np.isfinite(pts).all():
+        return pts
+    n_out = max(int(n_out), N)
+    out = np.zeros((n_out, 3), dtype=float)
+    for dim in range(3):
+        c = np.fft.rfft(pts[:, dim])
+        keep = min(n_modes + 1, len(c))
+        c_pad = np.zeros(n_out // 2 + 1, dtype=complex)
+        ncopy = min(keep, len(c_pad))
+        # irfft length change: scale spectral coefficients by n_out/N
+        c_pad[:ncopy] = c[:ncopy] * (n_out / float(N))
+        out[:, dim] = np.fft.irfft(c_pad, n=n_out)
+    return out
+
+
+def gauss_writhe(xyz: np.ndarray) -> float:
+    """Gauss double-integral writhe for a closed polygon (vectorized)."""
+    pts = np.asarray(xyz, dtype=float)
+    N = len(pts)
+    if N < 4 or not np.isfinite(pts).all():
         return float("nan")
-    Wr = 0.0
-    for i in range(N):
-        a = xyz[i]
-        b = xyz[(i + 1) % N]
-        r12 = b - a
-        for j in range(N):
-            if j == i or j == (i + 1) % N or (j + 1) % N == i:
-                continue
-            c = xyz[j]
-            d = xyz[(j + 1) % N]
-            r34 = d - c
-            r13 = c - a
-            n1 = np.cross(r12, r13)
-            n2 = np.cross(r12, c + r34 - a)  # rough; use mid-segment form
-            # standard: Ω_ij from four points
-            r14 = d - a
-            r23 = c - b
-            r24 = d - b
-            n1 = np.cross(r13, r14)
-            n2 = np.cross(r14, r24)
-            n3 = np.cross(r24, r23)
-            n4 = np.cross(r23, r13)
-            norms = [np.linalg.norm(n) for n in (n1, n2, n3, n4)]
-            if min(norms) < 1e-14:
-                continue
-            n1, n2, n3, n4 = [n / nn for n, nn in zip((n1, n2, n3, n4), norms)]
-            # solid angle of spherical quad
-            def ang(u, v, w):
-                return math.atan2(np.dot(u, np.cross(v, w)),
-                                 1.0 + np.dot(u, v) + np.dot(v, w) + np.dot(w, u))
-            omega = ang(n1, n2, n3) + ang(n1, n3, n4)
-            # sign from scalar triple of midpoints
-            mid12 = 0.5 * (a + b)
-            mid34 = 0.5 * (c + d)
-            r = mid34 - mid12
-            sgn = np.sign(np.dot(r, np.cross(r12, r34)))
-            Wr += sgn * abs(omega)
-    return float(Wr / (4.0 * math.pi))
+    mids = 0.5 * (pts + np.roll(pts, -1, axis=0))
+    dlt = np.roll(pts, -1, axis=0) - pts
+    # pairwise midpoints difference and edge cross products
+    r = mids[:, None, :] - mids[None, :, :]           # (N,N,3)
+    dist = np.linalg.norm(r, axis=2)                   # (N,N)
+    cross = np.cross(dlt[:, None, :], dlt[None, :, :])  # (N,N,3)
+    num = np.einsum("ijk,ijk->ij", r, cross)
+    i = np.arange(N)
+    mask = np.ones((N, N), dtype=bool)
+    mask[i, i] = False
+    mask[i, (i + 1) % N] = False
+    mask[i, (i - 1) % N] = False
+    safe = mask & (dist > 1e-12)
+    contrib = np.zeros((N, N), dtype=float)
+    contrib[safe] = num[safe] / (dist[safe] ** 3)
+    return float(contrib.sum() / (4.0 * math.pi))
+
+
+def discrete_writhe(xyz: np.ndarray, n_modes: int = 4, n_dense: int = 128) -> float:
+    """Writhe: Fourier band-limit → dense resample → Gauss sum (R1-t14-i4).
+
+    Default n_modes=4 keeps torus-helix content through mode n+1 for mild
+    helices while still killing bin noise on near-planar rings.
+    """
+    dense = fourier_resample(xyz, n_modes=n_modes, n_out=n_dense)
+    return gauss_writhe(dense)
 
 
 def extract(G, psi, n_wind: int, fountain_sign: int,
-            r_probe=R_PROBE_DEFAULT, abs_reject=ABS_REJECT_DEFAULT):
+            r_probe=R_PROBE_DEFAULT, abs_reject=ABS_REJECT_DEFAULT,
+            n_modes: int = 4):
     """Locate ring + compute helA, W, Tw, Wr, H on this field."""
     dens = np.abs(psi) ** 2
     # ring half-space follows fountain
@@ -264,16 +289,39 @@ def extract(G, psi, n_wind: int, fountain_sign: int,
     r1 = np.nansum((rs - np.nanmean(rs)) * np.exp(-1j * phis) * good) / good.sum()
     z1 = np.nansum((zs - np.nanmean(zs)) * np.exp(-1j * phis) * good) / good.sum()
     amp = float(np.hypot(abs(r1), abs(z1)))
-    helA = float(np.sign(np.imag(z1 * np.conj(r1)))) if amp > 0.05 else 0.0
-    tw = np.array(ths)
+    # i4: noise floor from n=0 null (spurious helA at amp~0.05)
+    helA = float(np.sign(np.imag(z1 * np.conj(r1)))) if amp > 0.15 else 0.0
+    tw = np.array(ths, dtype=float)
     nphase = int(np.sum(~np.isnan(tw)))
+    # unwrap quality (outcome-blind): max |principal| step of raw phase around ring
+    phase_jump_max = float("nan")
     if nphase < NBINS - 4:
         W = float("nan")
+        Tw = float("nan")
     else:
-        valid = tw[~np.isnan(tw)]
-        unw = np.unwrap(valid)
-        W = (unw[-1] - unw[0]) / (2 * np.pi) * NBINS / max(len(valid) - 1, 1)
-    Tw = float(W - n_wind) if np.isfinite(W) else float("nan")
+        # Absolute closed-path winding + residual twist vs n_wind framing.
+        idx = np.where(~np.isnan(tw))[0]
+        order = np.argsort(idx)
+        idx = idx[order]
+        ph = tw[idx]
+        jumps = []
+        dsum = 0.0
+        for k in range(len(ph)):
+            d = ph[(k + 1) % len(ph)] - ph[k]
+            d = (d + math.pi) % (2.0 * math.pi) - math.pi
+            jumps.append(abs(d))
+            dsum += d
+        phase_jump_max = float(max(jumps)) if jumps else float("nan")
+        W = float(dsum / (2.0 * math.pi))
+        # CONVENTION (R1-t14-i5/i6, documented before production): absolute closed-path
+        # winding can hop an integer 2π sheet under phase-probe dial changes. Fold Tw
+        # into (-0.5, 0.5] about the imposed n_wind framing so dial_spread measures
+        # instrument jitter, not sheet choice. This is NOT a verdict-selection input
+        # (selector is outcome-blind per i5). Assumes physical |Tw| ≲ 0.5 on settled
+        # thin rings at this configuration — re-examine if production shows larger twist.
+        Tw_raw = W - float(n_wind)
+        Tw = float(Tw_raw - round(Tw_raw))
+        W = float(n_wind) + Tw
     # centreline in Cartesian for writhe
     xyz = []
     for b in range(NBINS):
@@ -282,22 +330,37 @@ def extract(G, psi, n_wind: int, fountain_sign: int,
         phi = phis[b]
         xyz.append([rs[b] * math.cos(phi), rs[b] * math.sin(phi), zs[b]])
     xyz = np.array(xyz, dtype=float)
-    Wr = discrete_writhe(xyz) if len(xyz) >= 4 else float("nan")
+    Wr = discrete_writhe(xyz, n_modes=n_modes) if len(xyz) >= 4 else float("nan")
     H = float(2 * n_wind + Wr + Tw) if np.isfinite(Wr) and np.isfinite(Tw) else float("nan")
     return dict(nbins=ok, nphase=nphase, helA=helA, ampA=amp,
                 W=float(W), Tw=Tw, Wr=Wr, H=H,
+                phase_jump_max=phase_jump_max,
                 mutual=float(2 * n_wind),
                 self_term=float(Wr + Tw) if np.isfinite(Wr) and np.isfinite(Tw) else float("nan"),
                 rbar=float(np.nanmean(rs)), zbar=float(np.nanmean(zs)))
 
 
 def dial_spread(G, psi, n_wind, fountain_sign):
-    """Re-extract H on saved field across pre-registered dials; return std and list."""
+    """Re-extract H across phase dials + Wr Fourier modes (R1-t14-i4).
+
+    Reject dials with pathologically large |Tw| (unwrap disasters) so the
+    spread measures instrument jitter, not bin-drop failures.
+    """
     Hs = []
     for rp in (1.0, 1.5, 2.0):
         for thr in (0.45, 0.55, 0.65):
-            r = extract(G, psi, n_wind, fountain_sign, r_probe=rp, abs_reject=thr)
-            if r and np.isfinite(r["H"]):
+            # nm=2 under-resolves helix cal; nm≥5 invents |Wr| on 16-bin noise
+            # (i6 prep residual: nm=5 moves Wr by ~0.5 on smoke ψ). Use {3,4}.
+            for nm in (3, 4):
+                r = extract(G, psi, n_wind, fountain_sign, r_probe=rp,
+                            abs_reject=thr, n_modes=nm)
+                if not (r and np.isfinite(r.get("H", np.nan))):
+                    continue
+                if r.get("nphase", 0) < NBINS - 4:
+                    continue
+                # |Tw| ≫ 1 on an n=±1 ring is dial failure, not physics
+                if np.isfinite(r.get("Tw", np.nan)) and abs(r["Tw"]) > 1.5:
+                    continue
                 Hs.append(r["H"])
     if len(Hs) < 2:
         return float("nan"), Hs
@@ -340,14 +403,32 @@ def run_branch(G, n_wind: int, fountain_sign: int, out_dir: Path, null_mode: str
             print(f"  [{tag} t={t:5.2f}] ----  drift_phys={100*drift:.3f}%", flush=True)
         series.append(row)
 
-    # Pick verdict: prefer settled t>=0.75 with best nphase; else best nphase overall
+    # Pick verdict (R1-t14-i5): OUTCOME-BLIND quality only.
+    # Allowed inputs: nphase, nbins, ampA (helA control), phase_jump_max (unwrap
+    # quality), drift_phys, t-window.  FORBIDDEN in the key: Tw, Wr, H, W, helA sign.
     if candidates:
-        settled = [(c, p) for c, p in candidates if c["t"] >= 0.75 - 1e-9]
-        pool = settled if settled else candidates
-        pool = sorted(pool, key=lambda cp: (cp[0]["nphase"], cp[0]["t"]), reverse=True)
+        settled = [(c, p) for c, p in candidates
+                   if 0.75 - 1e-9 <= c["t"] <= 1.0 + 1e-9]
+        early = [(c, p) for c, p in candidates if c["t"] <= 1.0 + 1e-9]
+        pool = settled if settled else (early if early else candidates)
+
+        def _verdict_key(cp):
+            c = cp[0]
+            amp = c.get("ampA", 0.0) or 0.0
+            hela_ok = 1 if amp > 0.15 else 0
+            jump = c.get("phase_jump_max", float("nan"))
+            # lower jump = cleaner unwrap; missing → treat as neutral mid
+            jump_score = -jump if np.isfinite(jump) else -1.0
+            # reverse=True: high nphase, hela_ok, low drift, low jump, high amp, earlier t
+            return (c["nphase"], hela_ok, -c["drift_phys"], jump_score, amp, -c["t"])
+
+        pool = sorted(pool, key=_verdict_key, reverse=True)
         verdict, psi_verdict = pool[0]
         print(f"  SELECTED verdict t={verdict['t']:.2f} nphase={verdict['nphase']} "
-              f"helA={verdict['helA']:+.0f} from {len(candidates)} candidates", flush=True)
+              f"ampA={verdict.get('ampA', float('nan')):.3f} "
+              f"drift={100*verdict['drift_phys']:.2f}% "
+              f"(blind key; Tw/Wr/H not used) "
+              f"from {len(candidates)} candidates", flush=True)
 
     result = dict(tag=tag, n_wind=n_wind, fountain_sign=fountain_sign,
                   series=series, verdict=verdict)
@@ -451,28 +532,75 @@ def print_outcome(results: dict):
 
 
 
-def run_calibration_targets():
-    """Synthetic geometry checks for Wr/Tw extractors (no GP evolution).
+def _torus_helix(R: float, a: float, n_hel: int, N: int) -> np.ndarray:
+    """Closed (1,n_hel) curve on a circular torus — standard helical ring."""
+    th = np.linspace(0, 2 * np.pi, N, endpoint=False)
+    x = (R + a * np.cos(n_hel * th)) * np.cos(th)
+    y = (R + a * np.cos(n_hel * th)) * np.sin(th)
+    z = a * np.sin(n_hel * th)
+    return np.stack([x, y, z], axis=1)
 
-    Known targets (stated tolerances):
-      * planar circle in xy: Wr ≈ 0  (|Wr| < 0.15)
-      * circular helix closed as torus knot approx: Wr order-1
+
+def run_calibration_targets(tol_planar: float = 0.05, tol_helix: float = 0.15):
+    """Synthetic geometry checks for Wr extractor (no GP evolution). R1-t14-i4.
+
+    Acceptance (Claude NEXT ISSUE i4):
+      (a) planar circle: |Wr| < tol_planar
+      (a') helical ring: |Wr_instrument − Wr_dense_truth| < tol_helix
+    Dense Gauss on N=128 samples of the same analytic curve is the truth oracle
+    (no closed-form torus-knot Wr used; oracle is geometric).
     """
     print("=" * 70)
     print("  CALIBRATION TARGETS (geometry only — not a flow measurement)")
+    print(f"  tol_planar={tol_planar}  tol_helix={tol_helix}")
     print("=" * 70)
-    # planar unit circle
-    ph = np.linspace(0, 2*np.pi, NBINS, endpoint=False)
-    xyz = np.stack([2*np.cos(ph), 2*np.sin(ph), np.zeros_like(ph)], axis=1)
-    Wr0 = discrete_writhe(xyz)
-    ok0 = abs(Wr0) < 0.25
-    print(f"  planar circle Wr={Wr0:+.4f}  target~0  {'PASS' if ok0 else 'FAIL'}")
-    # figure-eight / two-lobed: not exact; helix ring
-    xyz2 = np.stack([2*np.cos(ph), 2*np.sin(ph), 0.3*np.sin(2*ph)], axis=1)
-    Wr1 = discrete_writhe(xyz2)
-    print(f"  wavy ring   Wr={Wr1:+.4f}  (nonzero expected; diagnostic only)")
+    results = {}
+
+    # --- (1) planar circle ---
+    ph = np.linspace(0, 2 * np.pi, NBINS, endpoint=False)
+    xyz_pl = np.stack([2 * np.cos(ph), 2 * np.sin(ph), np.zeros_like(ph)], axis=1)
+    Wr0 = discrete_writhe(xyz_pl)
+    ok0 = abs(Wr0) < tol_planar
+    print(f"  planar circle Wr={Wr0:+.4f}  target=0±{tol_planar}  "
+          f"{'PASS' if ok0 else 'FAIL'}")
+    results["planar"] = dict(Wr=Wr0, target=0.0, ok=ok0)
+
+    # --- (1b) noisy planar (instrument must still be ~0) ---
+    rng = np.random.default_rng(42)
+    xyz_noisy = xyz_pl + 0.08 * rng.normal(size=xyz_pl.shape)
+    Wr_n = discrete_writhe(xyz_noisy)
+    ok_n = abs(Wr_n) < tol_planar
+    print(f"  noisy planar  Wr={Wr_n:+.4f}  target=0±{tol_planar}  "
+          f"{'PASS' if ok_n else 'FAIL'}")
+    results["noisy_planar"] = dict(Wr=Wr_n, target=0.0, ok=ok_n)
+
+    # --- (2) helical ring: dense-truth vs 16-bin instrument ---
+    # Cartesian torus-helix needs modes through n_hel+1 (product trig).
+    R, a, n_hel = 2.0, 0.5, 3
+    truth = gauss_writhe(_torus_helix(R, a, n_hel, 128))
+    low = _torus_helix(R, a, n_hel, NBINS)
+    Wr_h = discrete_writhe(low)  # default n_modes=4, n_dense=128
+    err_h = abs(Wr_h - truth)
+    ok_h = err_h < tol_helix
+    print(f"  helical ring  Wr_inst={Wr_h:+.4f}  Wr_truth={truth:+.4f}  "
+          f"|Δ|={err_h:.4f}  tol={tol_helix}  {'PASS' if ok_h else 'FAIL'}")
+    results["helix"] = dict(Wr=Wr_h, truth=truth, err=err_h, ok=ok_h)
+
+    # second helix (different amplitude / winding) for robustness
+    truth2 = gauss_writhe(_torus_helix(R, 0.5, 2, 128))
+    Wr_h2 = discrete_writhe(_torus_helix(R, 0.5, 2, NBINS))
+    err_h2 = abs(Wr_h2 - truth2)
+    ok_h2 = err_h2 < tol_helix
+    print(f"  helical n=2   Wr_inst={Wr_h2:+.4f}  Wr_truth={truth2:+.4f}  "
+          f"|Δ|={err_h2:.4f}  tol={tol_helix}  {'PASS' if ok_h2 else 'FAIL'}")
+    results["helix_n2"] = dict(Wr=Wr_h2, truth=truth2, err=err_h2, ok=ok_h2)
+
+    all_ok = ok0 and ok_n and ok_h and ok_h2
     print("=" * 70)
-    return ok0
+    print(f"  CALIBRATION OVERALL: {'PASS' if all_ok else 'FAIL'}")
+    print("=" * 70)
+    results["overall_pass"] = all_ok
+    return results
 
 def main():
     ap = argparse.ArgumentParser()

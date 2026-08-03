@@ -1,0 +1,38 @@
+# Page-curve dynamics — scaffold (2026-08-03)
+
+## Registered object (still OPEN)
+
+Compute $S_{\mathrm{rad}}(v)$ vs Page time for **phonon Hawking flux** off a **finite-density sonic-horizon core** (healing length $\xi$), with unitarity enforced by the core as a finite quantum system.
+
+Blocked on: nothing in the coefficient/roster layer (those are paid). Blocked on: **doing the dynamics**.
+
+## Design requirements (pre-registered)
+
+1. Horizon = sonic (analog), not fundamental causal knife.
+2. Core = single quantum system of size $\sim\xi$ (no shredder).
+3. Early radiation ≈ thermal; late radiation purifies (Page turn).
+4. Kill if: no Page turn under unitary core evolution; or firewall required against sonic-horizon leakage.
+5. Forbidden: drawing a Page curve from $S=A/4G$ alone without dynamics.
+
+## Toy bookkeeping (NOT a PRTOE result)
+
+Ansatz $S_{\mathrm{rad}}(v) = \tfrac12 S_{\mathrm{BH}}\cdot 4v(1-v)$ peaks at $S_{\mathrm{BH}}/2$ when $v=1/2$.
+
+| v | S_rad / S_BH |
+|---:|---:|
+| 0.00 | 0.0000 |
+| 0.10 | 0.1800 |
+| 0.25 | 0.3750 |
+| 0.50 | 0.5000 |
+| 0.75 | 0.3750 |
+| 0.90 | 0.1800 |
+| 1.00 | 0.0000 |
+
+## Status
+
+| item | grade |
+|---|---|
+| Coefficient 1/4 | paid (area_law script) |
+| Roster extension | candidate-grade (entropy.md) |
+| Toy Page shape | **illustration only** |
+| Condensate Page curve | **OPEN — not run** |

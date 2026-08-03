@@ -1,0 +1,58 @@
+======================================================================
+  T14 single-instrument H_kin — protocol 2026-08-03
+  grid 64x64x128  T_MAX=1.5  SMOKE — not booking
+  out: docs/working_logs/_runs/t14_smoke_revalidate_nw
+======================================================================
+  NULL MODE: nowinding (jet only, n=0)
+
+======================================================================
+  BRANCH n+0_f+1
+======================================================================
+  [n+0_f+1 t= 0.25] ring helA=+0 W=+0.000 Tw=+0.000 Wr=-0.000 H=-0.000 bins=16/16 phase=16/16 drift_phys=18.906%
+      candidate @ t=0.25 nphase=16 helA=+0
+  [n+0_f+1 t= 0.50] ring helA=+1 W=+0.000 Tw=+0.000 Wr=-1.312 H=-1.312 bins=16/16 phase=16/16 drift_phys=32.676%
+      candidate @ t=0.50 nphase=16 helA=+1
+  [n+0_f+1 t= 0.75] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+0.000 H=+0.000 bins=16/16 phase=16/16 drift_phys=54.487%
+      candidate @ t=0.75 nphase=16 helA=+0
+  [n+0_f+1 t= 1.00] ring helA=+0 W=-0.000 Tw=-0.000 Wr=-0.000 H=-0.000 bins=16/16 phase=16/16 drift_phys=45.320%
+      candidate @ t=1.00 nphase=16 helA=+0
+  [n+0_f+1 t= 1.25] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+0.000 H=+0.000 bins=16/16 phase=16/16 drift_phys=35.598%
+      candidate @ t=1.25 nphase=16 helA=+0
+  [n+0_f+1 t= 1.50] ring helA=-1 W=-0.000 Tw=-0.000 Wr=-0.295 H=-0.295 bins=16/16 phase=16/16 drift_phys=23.601%
+      candidate @ t=1.50 nphase=16 helA=-1
+  SELECTED verdict t=1.00 nphase=16 ampA=0.000 drift=45.32% (blind key; Tw/Wr/H not used) from 6 candidates
+  VERDICT n+0_f+1: t=1.00 H=-0.0000 spread=0.0000 margin_ok=False drift_phys=45.320%
+
+======================================================================
+  BRANCH n+0_f-1
+======================================================================
+  [n+0_f-1 t= 0.25] ring helA=+0 W=+0.000 Tw=+0.000 Wr=-0.000 H=-0.000 bins=16/16 phase=16/16 drift_phys=18.906%
+      candidate @ t=0.25 nphase=16 helA=+0
+  [n+0_f-1 t= 0.50] ring helA=+1 W=+0.000 Tw=+0.000 Wr=+1.163 H=+1.163 bins=16/16 phase=16/16 drift_phys=32.676%
+      candidate @ t=0.50 nphase=16 helA=+1
+  [n+0_f-1 t= 0.75] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+0.000 H=+0.000 bins=16/16 phase=16/16 drift_phys=54.487%
+      candidate @ t=0.75 nphase=16 helA=+0
+  [n+0_f-1 t= 1.00] ring helA=+0 W=+0.000 Tw=+0.000 Wr=-0.000 H=-0.000 bins=16/16 phase=16/16 drift_phys=45.320%
+      candidate @ t=1.00 nphase=16 helA=+0
+  [n+0_f-1 t= 1.25] ring helA=+0 W=-0.000 Tw=-0.000 Wr=+0.000 H=+0.000 bins=16/16 phase=16/16 drift_phys=35.598%
+      candidate @ t=1.25 nphase=16 helA=+0
+  [n+0_f-1 t= 1.50] ring helA=+0 W=+0.000 Tw=+0.000 Wr=-0.000 H=-0.000 bins=16/16 phase=16/16 drift_phys=23.601%
+      candidate @ t=1.50 nphase=16 helA=+0
+  SELECTED verdict t=1.00 nphase=16 ampA=0.000 drift=45.32% (blind key; Tw/Wr/H not used) from 6 candidates
+  VERDICT n+0_f-1: t=1.00 H=-0.0000 spread=0.0000 margin_ok=False drift_phys=45.320%
+
+======================================================================
+  OUTCOME TABLE (protocol 2026-08-03)
+======================================================================
+  True-mirror checks:
+    (1, 1)<->(-1, -1): missing
+    (1, -1)<->(-1, 1): missing
+  All four verdicts: False
+  All margins pass:  False
+
+  BOOKING: instrument to the bench — true-mirror checks missing/unmeasured (not a measured violation)
+  Unchanged: branch closure (A flips with n); link 5 NEG; Fermi unreadable.
+======================================================================
+
+  wrote docs/working_logs/_runs/t14_smoke_revalidate_nw/summary.json  elapsed 753s
+EXIT:0

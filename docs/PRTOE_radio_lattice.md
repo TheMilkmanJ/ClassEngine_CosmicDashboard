@@ -34,7 +34,7 @@ Below z = 50 the lattice predicts nulls (today’s constants are the lab’s) �
 
 ## 3. Scope
 
-- Signal sizes are hard: dark-ages radio is a lunar-farside program; the comb needs a dedicated trispectrum/BipoSH pass (the isotropy-estimator class must be checked, owed).
+- Signal sizes are hard: dark-ages radio is a lunar-farside program. The BipoSH/isotropy-estimator instrument is **built** (`scripts/biposh_estimator_pass.py`, 2026-07-28; shared with the low-ℓ thread); what remains is **data application** (pattern-frame \(a_{\ell m}\)), which is external, not a missing desk check.
 - The lattice’s weights assume the fundamental-mass-philia structure (graded) — a measured pattern **violating** the ratio table (e.g., +2ε in 21cm with an unshifted RRL row) kills the electron-coupled scalar’s universality outright: the lattice is its own executioner.
 - Four of the five rows are labeling-free: 21cm, RRL, dispersion and Faraday are line frequencies and path integrals, whose held-fixed inputs (n_e, B, the electron column) are non-atomic, so their weights read straight off the coefficients. The synchrotron row is the exception — its ν_c carries a γ² whose scaling depends on how the emitting population is labeled (fixed-field −1ε vs fixed-energy −3ε, table above). **The executioner clause therefore binds on the four labeling-free rows**; synchrotron enters the pattern only once an analysis states which labeling it used.
 
