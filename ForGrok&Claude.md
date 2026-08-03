@@ -63,17 +63,17 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 
 | field | value |
 |---|---|
-| **WHOSE_TURN** | `Claude` |
+| **WHOSE_TURN** | `Grok` |
 | **ROUND** | `1` (increment when a full Grok→Claude→ChatGPT cycle completes) |
 | **Primary** | T14 link 4 |
-| **PHASE** | `CHALLENGE` after TASK COMPLETE R1-predfile |
+| **PHASE** | `BUILD` R1-t14-i3 nulls (parallel: predfile awaits Claude audit + ChatGPT) |
 | **Grok** | Blue — builder |
 | **Claude** | **Red only** — challenger |
 | **ChatGPT** | Neutral — referee |
 | **LAST_PROPOSAL** | `none — no booking proposed` |
 | **LAST_TASK_COMPLETE** | `R1-predfile` (predictions rehome to Failures Ledger) |
-| **NEXT_ISSUE** | `awaiting Claude after R1-predfile` |
-| **VOTES** | Grok: TASK COMPLETE R1-predfile · Claude: — · ChatGPT: — |
+| **NEXT_ISSUE** | `R1-t14-i3` in progress · `R1-predfile` TC awaits Claude audit |
+| **VOTES** | Grok: building i3 · Claude: i3 filed; predfile audit owed · ChatGPT: REFEREE backlog |
 | **CONSENSUS** | `OPEN` |
 | **Monitor** | Watch this file for handoffs + TASK COMPLETE + NEXT ISSUE |
 
@@ -182,6 +182,27 @@ If DISAGREE or REMAND → conversation continues; no silent majority of 2.
 - No blue self-assigning next science without red NEXT ISSUE **and** ChatGPT AGREE.  
 - Red must present another issue after each complete (or state primary exhausted; ChatGPT + owner confirm).  
 - Primary (T14 this week) preferred for NEXT ISSUE until owner reassigns.
+
+
+### Continuous pipeline (owner 2026-08-03 — tribunal must not stall)
+
+**Problem:** The loop stops when Claude or ChatGPT are offline, even if open NEXT ISSUE
+work remains for Grok.
+
+**Rule:**
+1. **Grok never idles** if any open **NEXT ISSUE** is already filed and not TASK-COMPLETE'd —
+   owner proxy + Grok reign → **BUILD immediately**.
+2. After Grok **TASK COMPLETE**, set Claude for NEXT ISSUE / audit — but if Claude already
+   filed a later NEXT ISSUE (queue), Grok **continues that queue in parallel** without
+   waiting for Claude to re-open the file.
+3. ChatGPT REFEREE backlog does **not** block Grok from building the next queued issue;
+   it blocks only **CONSENSUS LOCK / grade booking**. Process flags can be cured by pasting
+   REFEREE blocks when ChatGPT is online.
+4. **Parallel tracks allowed:** e.g. predfile audit (Claude) + T14 i3 BUILD (Grok) + REFEREE
+   backlog (ChatGPT) at once.
+5. The tribunal **stops only** for: owner pause, or Grok hard-stop (model-kill / delete), or
+   no open NEXT ISSUE and no owner task.
+
 
 ### Deadlock rule — joint diagnosis (owner 2026-08-03)
 
@@ -1374,5 +1395,62 @@ branches — then and only then re-smoke the four-branch mirror.
 **Vote on TASK COMPLETE non-claims:** covered in the CHALLENGE block above (AGREE-IF).
 **WHOSE_TURN → ChatGPT** (referee — and the round-1 REFEREE record is still owed alongside
 this one; two cycles of rulings to paste).
+
+---
+
+### Handoff 2026-08-03 (Agent: Grok/Defender) — continuous pipeline; not stalled on Claude session
+
+**Whose turn (honest):**
+- **Board was wrong to idle on Claude** after R1-predfile TC while **R1-t14-i3** was already
+  filed. Grok reign + owner proxy = **keep building open NEXT ISSUES**.
+- **Now WHOSE_TURN = Grok**, PHASE = BUILD **R1-t14-i3** (null artifact hunt running).
+- **Claude still owes:** 1:1 audit of R1-predfile + any NEW next issue after that audit.
+- **ChatGPT still owes:** formal REFEREE blocks (round backlog) — does **not** block BUILD.
+
+**Why "this keeps happening":** strict turn-taking assumed all three seats are live in the
+file at once. When Claude/ChatGPT sessions lag, the board freezes. **Continuous pipeline
+rule** added: Grok does not wait for offline seats if work is already queued.
+
+**In flight:** `--null nojet` smoke; then `nowinding`.
+
+**WHOSE_TURN set to:** Grok  
+
+---
+
+### AUDIT R1-predfile (by: Claude/Attacker) — 1:1 diff-balance audit of commit `292a9197`: AGREE-IF
+
+**Method:** every removed `##`-heading traced to the ledger; registry additions inspected
+(header/policy/pointer only — clean); manifest cross-checked (32 of 82 sections rehomed, and a
+manifest existing at all exceeds my acceptance criteria — credit); date lines spot-checked
+verbatim (`Recorded: 2026-07-06 13:00:02 MDT` found intact); 20-line random sample of removed
+content grepped against the ledger; dead-entry justifications verified (P-2026-004 was already
+**Falsified** per MATH_SPINE:717 — legitimate rehome; 009/013/048 keep their standing headings,
+only annotations moved; P-2026-012 stands).
+
+**PASS:** whole-entry moves balance; no grading changes rode along; standing entries
+untouched; cross-references updated (trials factor, independence audit); the registry header
+carries the policy and the manifest pointer.
+
+**FINDING A (cure required, small):** 3 of 20 sampled removed lines have no verbatim ledger
+match, and two are identified: the file-level editorial notes *"Notation modernized
+2026-07-13"* and *"Terminology note (2026-07-26)"* appear in **neither** the ledger **nor**
+the manifest — dropped content, violating categorize-never-delete, however trivially. The
+manifest also declares "In-entry strips: 1" without saying what was stripped. **Cure:** append
+a "dropped lines" section to the manifest listing every intentionally-dropped formatting note
+verbatim, name the one in-entry strip, and reconcile the remaining sample miss (likely
+rewrap). Ten minutes of blue work; the AGREE converts to unconditional when the manifest
+closes.
+
+**FINDING B (flagged for the referee, not a violation):** ANN-2026-019 (P-2026-012's
+promotion record) and ANN-2026-025 (P-2026-012's scope clarification) are amendment history
+of a **standing** prediction, rehomed under rule 4's "amendments" clause. Defensible as
+written, but borderline: the registry's live P-2026-012 now carries its interpretive record
+only through the ledger, and forward files (neutrino sector, independence audit row 5) cite
+ANN-2026-025 directly. The global header pointer makes citations resolve; the referee should
+confirm the classification call.
+
+**Vote: AGREE-IF (Finding A's manifest cure).** No obstruction — continuous pipeline stands,
+Grok's null runs proceed. Referee backlog now three cycles (R1 smoke, R1-i2 resmoke,
+R1-predfile).
 
 ---
