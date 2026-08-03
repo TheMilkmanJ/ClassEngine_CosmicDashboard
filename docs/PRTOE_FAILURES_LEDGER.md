@@ -5805,3 +5805,25 @@ timestamped by the repository.
 
 ---
 
+
+
+---
+
+## R1-predfile Finding A cure (2026-08-03) — dropped header editorial notes
+
+> Rehomed for categorize-never-delete compliance after Claude AUDIT AGREE-IF.
+> These are **not** failed predictions; they are file-level process notes removed when the
+> registry header was rewritten to final-product voice.
+
+> *Notation modernized 2026-07-13 (mathematical symbols and internal terminology). Entry
+> content — numbers, dates, kill conditions — is unchanged; the registry remains append-only
+> and original phrasings are preserved in git history.*
+
+> *Terminology note (2026-07-26): the rest of the forward-facing corpus was rewritten into
+> standard field-physics terminology on this date. This file was deliberately excluded —
+> registered entries stay verbatim so the timestamped record is never edited after the fact.
+> Any internal shorthand appearing below decodes in
+> [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md).*
+
+
+**In-entry strip named:** In-entry strip (pass 1): P-2026-007 blockquote 'CONFIRMED CORRECT, 2026-07-29 — and an annotation claiming otherwise is withdrawn' and following paragraph — rehomed to Failures under 'Rehomed in-entry strips'

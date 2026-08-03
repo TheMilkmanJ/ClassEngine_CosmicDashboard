@@ -106,3 +106,39 @@
 ## Pass 2 correction
 - Erroneously rehomed Assembly Six (P-032…037); **restored to predictions**; removed from pass-2 ledger block.
 
+
+
+## Finding A cure (2026-08-03) — dropped formatting notes + named strip
+
+Claude AUDIT R1-predfile AGREE-IF required listing intentionally-dropped lines.
+
+### Intentionally not kept in live registry (file-level editorial notes)
+
+These lived only in the **old header** of the predictions file (not prediction entries).
+They were process notes about notation modernization / terminology exclusion. Full text:
+
+```
+> *Notation modernized 2026-07-13 (mathematical symbols and internal terminology). Entry
+> content — numbers, dates, kill conditions — is unchanged; the registry remains append-only
+> and original phrasings are preserved in git history.*
+```
+
+```
+> *Terminology note (2026-07-26): the rest of the forward-facing corpus was rewritten into
+> standard field-physics terminology on this date. This file was deliberately excluded —
+> registered entries stay verbatim so the timestamped record is never edited after the fact.
+> Any internal shorthand appearing below decodes in
+> [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md).*
+```
+
+
+### Named in-entry strip (manifest previously said "1" without naming)
+
+In-entry strip (pass 1): P-2026-007 blockquote 'CONFIRMED CORRECT, 2026-07-29 — and an annotation claiming otherwise is withdrawn' and following paragraph — rehomed to Failures under 'Rehomed in-entry strips'
+
+### Classification
+
+- **Not prediction content.** Editorial meta about the registry file itself.
+- Still **categorized here** so nothing is void-deleted (owner categorize-not-delete).
+- Also appended under Failures Ledger R1-predfile cure section.
+

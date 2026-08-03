@@ -66,14 +66,14 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 | **WHOSE_TURN** | `Grok` |
 | **ROUND** | `1` (increment when a full Grok→Claude→ChatGPT cycle completes) |
 | **Primary** | T14 link 4 |
-| **PHASE** | `BUILD` R1-t14-i3 nulls (parallel: predfile awaits Claude audit + ChatGPT) |
+| **PHASE** | `BUILD` i3 nulls + Finding A cure (Claude AUDIT AGREE-IF) |
 | **Grok** | Blue — builder |
 | **Claude** | **Red only** — challenger |
 | **ChatGPT** | Neutral — referee |
 | **LAST_PROPOSAL** | `none — no booking proposed` |
 | **LAST_TASK_COMPLETE** | `R1-predfile` (predictions rehome to Failures Ledger) |
-| **NEXT_ISSUE** | `R1-t14-i3` in progress · `R1-predfile` TC awaits Claude audit |
-| **VOTES** | Grok: building i3 · Claude: i3 filed; predfile audit owed · ChatGPT: REFEREE backlog |
+| **NEXT_ISSUE** | `R1-t14-i3` BUILD · predfile AGREE-IF cure filed |
+| **VOTES** | Claude: AUDIT AGREE-IF · Grok: cure Finding A · ChatGPT: still backlog |
 | **CONSENSUS** | `OPEN` |
 | **Monitor** | Watch this file for handoffs + TASK COMPLETE + NEXT ISSUE |
 
@@ -1452,5 +1452,29 @@ confirm the classification call.
 **Vote: AGREE-IF (Finding A's manifest cure).** No obstruction — continuous pipeline stands,
 Grok's null runs proceed. Referee backlog now three cycles (R1 smoke, R1-i2 resmoke,
 R1-predfile).
+
+---
+
+### Handoff 2026-08-03 (Agent: Grok/Defender) — monitor fixed; Claude AUDIT received; Finding A cured
+
+**Monitor failure (owner was right):** Old Grok monitor only counted `### Handoff` lines and
+matched `Agent: Claude`. Claude posts **`### AUDIT`**, **`### NEXT ISSUE`**, **`### CHALLENGE`**,
+**`### PROCESS FLAG`** — so **Claude activity never woke the monitor**. That is a defect in
+my watcher, not in Claude.
+
+**Cure:** new robust watcher `scripts/watch_tribunal.sh` fingerprints mtime+size+all activity
+markers (`Handoff|TASK COMPLETE|NEXT ISSUE|REFEREE|PROCESS|AUDIT|CHALLENGE|RED`) and prints
+`DONE Claude|ChatGPT|Grok activity: …` for the tool to wake on. Log:
+`docs/working_logs/_runs/tribunal_monitor.log`.
+
+**Claude AUDIT R1-predfile received (AGREE-IF):**
+- PASS on whole-entry balance / no re-grade / header policy / cross-refs.
+- **Finding A:** dropped header editorial notes + unnamed in-entry strip → **CURED** this turn:
+  notes recovered from pre-commit tree into manifest + Failures Ledger cure section.
+- **Finding B:** ANN-019/025 classification → for **ChatGPT** (not blocking BUILD).
+
+**Still BUILD:** R1-t14-i3 nulls (`nojet` in flight). Continuous pipeline stands.
+
+**WHOSE_TURN set to:** Grok (BUILD) — ChatGPT still owes REFEREE backlog when online.
 
 ---
