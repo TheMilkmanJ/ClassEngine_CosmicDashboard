@@ -24,16 +24,23 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 > §6j's electroweak-precision bound is a roster bound, not a scale bound. Every anchor
 > number quoted in §2 below carries that qualification.
 >
-> **And a second factor now rides alongside the first (2026-07-28,
-> `scripts/anchor_honest_precision.py`).** §6e settles the constituents as *compensated* rather
-> than uncharged — n_electron = n_hole, with charged carriers — so §6f's residual running is not
-> escapable and costs a further **×5.6** at the Z pole. Composed with §6d's factor two, the honest
-> band on the anchor runs **1576 → 17,580 GeV, a factor of 11**, with 4πm_H sitting at its very
-> bottom edge. Since ∂lnM/∂lnk = 33.5, quoting 1576.1 rather than 1576 would require k to eight
-> digits, which nothing in the physics supplies. **The supportable claim is that the anchor lands
-> at the electroweak scale within a factor of a few, every named residual adverse** — non-trivial
-> for a construction carrying no electroweak input, and not a sub-percent statement. The +0.14%
-> should be read as §6d already labels it: a coincidence of one convention inside that band. Other conditionality: the no-bare
+> **And a second exposure rides alongside the first — since resolved into a fork (2026-07-28,
+> `scripts/anchor_honest_precision.py`; §6f–§6i, examined 2026-07-29).** §6e settles the
+> constituents as *compensated* rather than uncharged — n_electron = n_hole, with charged
+> carriers — so the scale at which α_c is evaluated cannot be waved off. The answer turned out
+> to be ontological, not technical: if the medium sits *inside* a QED vacuum, genuine running
+> applies — **×5.6** at the Z pole, which composed with §6d's factor two runs the band to
+> 1576 → 17,580 GeV — but if the medium **is** the vacuum (light as its Goldstone), there is one
+> polarization function, α(0) is the only value with the right meaning, and the band stays where
+> §6e put it, **0.55–1.78 TeV**. A_s data-selects the second horn (§6i), at the price of riding
+> C = 1 to ±22% — one joint, not two claims — so the anchor is conditional on the Goldstone
+> identification and prices it: the wrong horn moves it an order of magnitude. Since
+> ∂lnM/∂lnk = 33.5, quoting 1576.1 rather than 1576 would require k to eight digits, which
+> nothing in the physics supplies. **The supportable claim is that the anchor lands at the
+> electroweak scale within a factor of a few, conditional on that identification and the shared
+> additivity** — non-trivial for a construction carrying no electroweak input, and not a
+> sub-percent statement. The +0.14% should be read as §6d already labels it: a coincidence of
+> one convention inside that band. Other conditionality: the no-bare
 > clause and P-2026-042's anchor identification. **The exponent's k is determined** — the
 > screened-interaction integral, three concordant readings
 > (1.360 / 1.36461 / 1.3602) inside the Eliashberg window. Its **kernel** is the live front: §6
@@ -200,8 +207,8 @@ census count it rode with, live in
 
 The anchor's identification with 4πm_H belongs to the induced-gravity constituent level, and
 **there is no choice about which vacuum:** the standing corpus has exactly one with a fermionic
-bath at the Planck floor (the str[k₁] = 0 roster: the Standard Model's 48
-Weyl fermions plus three right-handed neutrinos, the same content P-2026-045 registers and
+bath at the Planck floor (the str[k₁] = 0 roster: 48 Weyl fermions — the Standard Model's 45
+plus the three right-handed neutrinos — the same content P-2026-045 registers and
 the same floor the dark SU(2) sector's own balance joins). A BCS-class gap equation needs
 three things of its host, and the constituent level supplies all three:
 
@@ -209,7 +216,7 @@ three things of its host, and the constituent level supplies all three:
 |---|---|
 | **a fermionic bath at the cutoff** | **met, recorded** — the finiteness roster IS the Planck-floor fermion content; Fermi-point universality (the Volovik frame the quantum-gravity file already rides) is precisely the statement that such a vacuum's low-energy fermions are generic |
 | **the coupling kα_c reaching the constituent level** | **met, recorded** — k is the screened-interaction integral (independent of the constituent level by construction; the corpus's one shared k), and α_c is the medium's coupling, which reaches the Planck floor through the induced loop — the same loop that makes gravity itself (no new bridge is invented; the anchor uses the induced-G channel that no-bare-G already requires) |
-| **the attractive channel** (what pairs the census states) | **met — §6b.** The channel is particle-hole, not particle-particle: a charged Cooper condensate is excluded by thirty orders on the photon mass, and particle-hole Coulomb at α_c binds by construction. The residual is narrower than the requirement — showing the bend-over spectrum condenses in that channel at λ = 0.03 |
+| **the attractive channel** (what pairs the census states) | **met — §6b.** The channel is particle-hole, not particle-particle: a charged Cooper condensate is excluded by thirty orders on the photon mass, and particle-hole Coulomb at α_c binds by construction. The residual once named here — showing the bend-over spectrum condenses in that channel at λ = 0.03 — is discharged (§6a, 2026-07-28): condensation has a solution at every p; what that computation does not deliver is the anchor, since Δ drops out |
 
 The arithmetic is self-contained — measured m_H, the shared k, the derived 3/2, reproducing
 1576 GeV against 4πm_H = 1574 at +0.14%. *(That percentage is not the claim's precision: §6d's
@@ -310,7 +317,8 @@ census states gives m_H ~ M_anchor/4π" — with the vev remaining the Standard 
 condensate supplies the states whose loop induces m_H², not the electroweak order parameter. §6j
 records what follows from that distinction, and what does not. Both are computations inside the
 constituent theory rather than new assumptions, so the residual has changed from *find an
-attractive channel* to *show this one condenses*.
+attractive channel* to *show this one condenses* — a computation since done (§6a, 2026-07-28):
+it condenses at every p, though condensing does not source the exponent's constant.
 
 The selection rule is the corpus's own. What decides the channel here — *the condensate must
 carry no electric charge* — is the rule the neutrino sector already applies from the other side.

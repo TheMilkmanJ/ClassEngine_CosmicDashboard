@@ -217,8 +217,8 @@ forty-six species sit at nodes and one pair is doped.
 forty-nine at μ = 0 are Lorentz-invariant and contribute a single form factor, so Π_T − Π_L is
 sourced by the **doped pair alone**, weighted by that pair's share of Σ Q² over the roster.
 
-**And the roster's charges are not unknown — §6c names them.** The Planck-floor roster is *"the
-Standard Model's 48 Weyl fermions plus three right-handed neutrinos"*, so the weighting is the
+**And the roster's charges are not unknown — §6c names them.** The Planck-floor roster is *"48
+Weyl fermions — the Standard Model's 45 plus the three right-handed neutrinos"*, so the weighting is the
 Standard Model's own: Σ Q² = 16/3 per generation, **Σ Q² = 16** over the 48, with the three ν_R
 contributing zero. The split is therefore a **discrete choice over the roster**, not an open O(1):
 
