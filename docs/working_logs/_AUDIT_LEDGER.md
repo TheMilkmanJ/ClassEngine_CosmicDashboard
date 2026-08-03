@@ -6802,3 +6802,97 @@ sweep) is **paid for the forward-facing corpus on this failure mode**. Check 12 
 read of every remaining unread page* is a broader queue (shared with #94's tally: hierarchy giant
 still queued); that is not this tick's claim. Check 13's seven-section pass stands from 07-29.
 The 135 bare owed-class markers inside the two registries remain carved out.
+
+## 2026-08-02 — docket #149 check 12 batch continuation (dead premise: "running chain")
+
+**Scope.** Whole-file / whole-status reads on the next forward-facing batch after the morning
+residue sweep (which fixed nine files on owed/still-open wording). Target class this tick:
+headers and pull-quotes still selling **running / live / deciding chains** while owner queue,
+s8 companions, and the calendar already record the instrument as **stopped, unproduced, or
+parked**. Ground truth used: `_OWNER_QUEUE.md` (zon/zon_disp neither running; routeD fifth
+launch alive 2026-08-02; conv_desi unproduced), `PRTOE_s8_tension.md`, and the calendar's own
+"Sitting NOW" rows (already corrected for zon_disp / conv_desi before this tick).
+
+**Method.** Grep `docs/PRTOE_*.md` for owed/pending/running-chain class phrases; whole-file or
+whole-section read of each hit carrier; classify STALE vs REAL OPEN vs already-clean; edit
+wording only. No chains/, no papers/, no physics invent.
+
+### Files read (batch)
+
+| file | verdict |
+|---|---|
+| `PRTOE_quartet_clock.md` | **STALE** — whole file; zon_disp sold as "running" |
+| `PRTOE_THE_AMPLITUDE.md` | **STALE** — α_c "running chain" / "live" evidence wording |
+| `PRTOE_neutrino_sector.md` | **STALE** — running α_c chain ×4 sites |
+| `PRTOE_smbh_atoms.md` | **STALE** — "α_c chain is currently measuring" |
+| `PRTOE_READERS_GUIDE.md` | **STALE** — "running chains grade" the ε gap |
+| `PRTOE_READERS_RISK.md` | **STALE** (α_c running) + chronological basin narrative left |
+| `PRTOE_DERIVATION_HUNT.md` | **STALE** — "running α_c chain is the referee" |
+| `PRTOE_cosmological_constant.md` | **STALE** — kill line "running α_c measurement" |
+| `PRTOE_honest_status.md` | **STALE** — 07-20 "routeD and conv_desi are relaunched" |
+| `PRTOE_CHAIN_TABLES.md` | **STALE** — table of unconverged chains omitted live/offline |
+| `PRTOE_fingerprint_lattice.md` | **STALE** — α_c chain as master without offline note |
+| `PRTOE_THREE_EQUATIONS.md` | **STALE** — "running measurements / running bet / nested-sampling run now executing" |
+| `PRTOE_CODE_MANIFEST.md` | **STALE** — A_s/n_s "running in the live zero-parameter test" while that nested run is archived |
+| `PRTOE_fairbank_note_draft.md` | **STALE** — "honest position today" still the July three-basin wash |
+| `PRTOE_REFEREE_CALENDAR.md` | **OK** — Sitting NOW already: zon_disp NOT relaunched, conv_desi unproduced, routeD fifth launch |
+| `PRTOE_dyad_gas.md` | **OK / REAL OPEN** — open list is real (UV operator, T_c pin, crunch bridge) |
+| `PRTOE_cosmic_magnetism.md` | **OK** — #154 independent-draw update already present; void floor REAL OPEN |
+| `PRTOE_arrow_of_time.md` | **OK / REAL OPEN** — philosophical joint named; check-13 shape |
+| `PRTOE_no_singularities.md` | **OK / REAL OPEN** — bounce dynamics open; field-content paid |
+| `PRTOE_bigbang_no_singularity.md` | **OK / REAL OPEN** — turn open, ρ_bounce paid |
+| `PRTOE_white_holes.md` | **OK / REAL OPEN** — bounce profile still open |
+| `PRTOE_forced_combination.md` | **OK / REAL OPEN** — lattice precision-pending is real |
+| `PRTOE_radio_lattice.md` | **OK / REAL OPEN** — BipoSH/trispectrum owed if pursued |
+| `PRTOE_lss_parity.md` | **OK** — §4 Owed already adjudicated (systematics pass done) |
+| `PRTOE_coincidence_problem.md` | **OK / REAL OPEN** — occupancy not derived; width is |
+| `PRTOE_s8_tension.md` | **OK** — already corrected 07-29 (conv_desi unproduced) |
+| `PRTOE_DOMAIN_COVERAGE.md` | **OK** — provisional H₀ / live-now doors are current |
+| `PRTOE_H0_CEILING.md` | **OK / REAL OPEN** — candle likelihood not wired |
+| `PRTOE_inflation_replacement.md` | **OK** — "running" = spectral running α_s, not chains |
+
+### Defects fixed (STALE only)
+
+1. **`PRTOE_quartet_clock.md`** — header, §1 interim center, §3 chain state, §4a referee,
+   §4a live stakes, §4b live watch / "now carries", §5 timestamp: zon_disp → **instrument,
+   unconverged, not currently running**.
+2. **`PRTOE_THE_AMPLITUDE.md`** — §1 and §4: "running α_c chain" → zon_disp offline; "live"
+   evidence run → Laplace-from-MCMC / nested deferred.
+3. **`PRTOE_neutrino_sector.md`** — four "running α_c / running chains" sites → instrument offline
+   / production-chain posterior once quotable.
+4. **`PRTOE_smbh_atoms.md`** — "α_c chain is currently measuring" → onset clock + instrument meant
+   to referee.
+5. **`PRTOE_READERS_GUIDE.md`** — ε gap graded by production-chain posteriors once converged.
+6. **`PRTOE_READERS_RISK.md`** — α_c "decided by a running chain" and kill #3 wording.
+7. **`PRTOE_DERIVATION_HUNT.md`**, **`PRTOE_cosmological_constant.md`** — α_c referee/kill lines.
+8. **`PRTOE_honest_status.md`** — 07-20 repair snapshot → 2026-08-02 (routeD fifth launch;
+   conv_desi + zon_disp not running).
+9. **`PRTOE_CHAIN_TABLES.md`** — live? column on the four diagnostic rows.
+10. **`PRTOE_fingerprint_lattice.md`** — α_c master notes instrument offline.
+11. **`PRTOE_THREE_EQUATIONS.md`** — running measurements / running bet / running job /
+    **nested-sampling run now executing** (PolyChord ended 07-20) all corrected.
+12. **`PRTOE_CODE_MANIFEST.md`** — A_s/n_s no longer "running in the live zero-parameter test".
+13. **`PRTOE_fairbank_note_draft.md`** — July three-basin "honest position today" → past tense +
+    later basin-merged, converging-but-not-quotable.
+
+### REAL OPEN left open (representative)
+
+Bounce dynamics / MeV-over-keV hot start; zon_disp restart (owner); conv_desi restart (owner);
+Page *curve* computation; matched DES/KiDS lensing; dyad UV operator / T_c pin / crunch bridge;
+flavor distribution / μ value; lattice T_c/√σ SU(2) N_f=3; Koide K∼R² V∼M²; junction ω_J seat;
+Route-D convergence as referee (chain is live again, not yet at R−1 target); production-pair
+evidence still not quotable.
+
+### Counts
+
+| | |
+|---|---|
+| Files whole-read or status-read this batch | **~28** |
+| STALE defects fixed | **14 files, ~25 local edits** |
+| Already clean / REAL OPEN only | **14** |
+| Carved out | failures ledger, prediction registry (unchanged) |
+
+**Docket #149 after this tick.** Check-12 residue class now includes the **running-chain**
+failure mode on the forward corpus, not only owed/still-open. Still open on #149: full
+whole-file deep reads of remaining unread giants (hierarchy, MATH_SPINE already partly done;
+shared with #94), and the 135 bare owed-class markers in the two registries.

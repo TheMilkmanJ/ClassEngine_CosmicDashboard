@@ -48,8 +48,9 @@ Major moves since the 2026-07-08 baseline (below):
   days to a first checkpoint) and waits for cluster time, so the confirmer the +2.635 was explicitly
   awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
   input rather than side referees, and their convergence the critical path for the headline claim.
-  As of 07-20 that path is being repaired: routeD and conv_desi are relaunched on seeded
-  covariances, zon_disp is dead at R−1 = 23.3, and `cmp_prtoe_zon` is untouched since 07-12.*
+  As of 2026-08-02: routeD is on its fifth launch (three ranks, burn-in); conv_desi and
+  zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
+  `cmp_prtoe_zon` is untouched since 07-12.*
 
 ### What moved on 2026-07-18
 

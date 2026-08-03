@@ -22,7 +22,8 @@ number, ε, applied everywhere atomic physics appears.
   neutrino-inclusive 12/13 or the charge²-weighted 8/9);
   **f̄ = 2/π is derived** — the winding's many-turn equidistribution forces ⟨|cos|⟩, with the coupling
   form data-selected; the simulation's 0.635 ± 0.026 confirms it to +0.3% and is the check, not the
-  source. α_c = 3α is a registered bet, decided by a running chain, currently ~2% above where data
+  source. α_c = 3α is a registered bet, decided by the α_c instrument (zon_disp —
+  unconverged and not currently running), last interim center ~2% above where data
   points — **it is the weakest parent, and the stack stands or falls with it.**
 - **H₀ mechanism reaching ~69.9–71.3** (CMB re-fit; ladder-reach ceiling with the SN-standardization
   sign ς = −1). Closes roughly half the SH0ES gap, refuses the rest, and pre-registered the TRGB side
@@ -326,7 +327,7 @@ from this pair before R−1 reaches its target is quoting noise, in either direc
 1. DESI DR3 confirms w ≠ −1.
 2. The local distance ladder settles H₀ ≥ 72.0 with systematics convincingly excluded (no known
    repair exists in this model class).
-3. The running α_c chain lands > 2σ off 3α.
+3. The α_c instrument lands > 2σ off 3α.
 4. Any confirmed dark-sector non-gravitational signal — decay line, annihilation, scattering (the
    shift symmetry forbids all; one confirmed event kills the dCDF identification outright).
 5. A robustly measured Σm_ν incompatible with 61.4 meV / normal ordering, or inverted ordering.

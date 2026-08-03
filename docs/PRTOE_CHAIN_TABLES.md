@@ -4,18 +4,18 @@
 > Regenerated per run at its landing; the running pair and Route-D join
 > at convergence. Means with 68% limits, 30% burn-in.
 
-> ## ⚠ READ THIS BEFORE THE NUMBERS (added 2026-07-28)
+> ## ⚠ Read this before the numbers (added 2026-07-28)
 >
 > **None of the chains below has converged, and the 68% limits are therefore not posterior
 > intervals.** Their last recorded Gelman–Rubin statistics, against a stopping target of
 > **R−1 = 0.05**:
 >
-> | chain | last R−1 | over target |
-> |---|---|---|
-> | `cmp_prtoe_conv_desi` | **13.25** | 265× |
-> | `cmp_prtoe_zon_disp` | **17.81** | 356× |
-> | `cmp_prtoe_zon` | **40.36** | 807× |
-> | `dyad_mnu_mcmc` | **none recorded** | unknown — no `.progress` file exists |
+> | chain | last R−1 | over target | live? |
+> |---|---|---|---|
+> | `cmp_prtoe_conv_desi` | **13.25** | 265× | **no** — unproduced; last write 2026-07-22 |
+> | `cmp_prtoe_zon_disp` | **17.81** | 356× | **no** — collapsed; seed ready, owner restart |
+> | `cmp_prtoe_zon` | **40.36** | 807× | **no** — stopped since 07-12 |
+> | `dyad_mnu_mcmc` | **none recorded** | unknown — no `.progress` file exists | diagnostic archive only |
 >
 > The fourth row is the worst case: that chain has **no convergence statistic at all**, so its
 > interval cannot even be graded as too narrow. It is unknown.

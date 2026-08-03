@@ -42,11 +42,11 @@ submits to a correlation test of this width.
 
 ## 2. The lattice's masters (where its fate is decided)
 
-- **The α_c chain** (α_c → the fraction → whether ε is fully derived or carries one measured
- O(1)); **DESI DR3** (the w = −1 commitment underneath every row); **the evidence cap** (a Laplace
- estimate from the MCMC, so the chains' convergence is what moves it — nested sampling waits for
- cluster time); the **radio referee** (the D/H fork); the **BipoSH/isotropy pass** (the axis family,
- jointly).
+- **The α_c instrument** (α_c → the fraction → whether ε is fully derived or carries one measured
+ O(1); zon_disp not currently running); **DESI DR3** (the w = −1 commitment underneath every row);
+ **the evidence cap** (a Laplace estimate from the MCMC, so the chains' convergence is what moves
+ it — nested sampling waits for cluster time); the **radio referee** (the D/H fork); the
+ **BipoSH/isotropy pass** (the axis family, jointly).
 
 ## 3. Accounting
 

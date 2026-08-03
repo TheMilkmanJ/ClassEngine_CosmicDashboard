@@ -101,7 +101,7 @@ residual sits, which is a thing an experiment can go and fail to find. Homes:
 
 Priced rather than assumed absent: [PRTOE_LV_pricing.md](PRTOE_LV_pricing.md).
 
-## What is *not* certified here, stated so it is not mistaken for silence
+## What is not certified here
 
 - **λ_dyad's radiative stability** is a separate question from ghost/gradient stability — it asks
   whether the quartic survives quantum corrections, not whether the kinetic term is healthy. Tracked
@@ -110,5 +110,5 @@ Priced rather than assumed absent: [PRTOE_LV_pricing.md](PRTOE_LV_pricing.md).
   stability-adjacent gap the model genuinely carries. The dark fluid's own perturbation sector is
   built and integrated (see [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)); the channel that
   converts between sectors is what lacks a full treatment.
-- **The full-cycle behaviour past the turn** is STORY grade, not certified
+- **The full-cycle behaviour past the turn** is story grade, not certified
   ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7 and its addendum).

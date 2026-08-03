@@ -181,7 +181,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
 | Collapse unbounded | CSW equilibrium at any known mass: supporting the largest known black holes (2×10¹⁰ M☉) needs λ ≳ 8×10⁻⁹⁴ to 1.0×10⁻⁹², depending on the quartic's normalization convention — the derived λ ≈ 2×10⁻⁹¹ clears the requirement by **at least 20×** (and by ~250× in the looser convention) | computed; met with room in every convention |
 | Ring singularity (Kerr) | quantized vortex bundle, normal-phase threads | structural (§5) |
 | Penrose theorem | discharged at premises (no metric below ξ; SEC violated; phonon geodesics end, histories don't) | argued (§6) |
-| BH entropy | thermal core + Landauer accounting; area law derived, scaling and coefficient (S = A/4G from 12π/48π) | derived, one regulator residue |
+| BH entropy | thermal core + Landauer accounting; area law derived, scaling and coefficient (S = A/4G from 12π/48π); regulator O(1) structural + roster extension paid (2026-07-20/28) | derived-conditional at candidate grade (edge-mode commitment for the gauge share; see entropy §3) |
 
 *The medium does not permit infinities: the same Landau threshold that caps the vacuum budget
 and feeds the crunch dissolves the singularity. What falls in is not crushed to a point — it is

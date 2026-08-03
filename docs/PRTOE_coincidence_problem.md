@@ -3,7 +3,7 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*Status: the era's WIDTH is derived; its OCCUPANCY is not. "Why is Ω_Λ ~ Ω_m today?" is a
+*Status: the era's width is derived; its occupancy is not. "Why is Ω_Λ ~ Ω_m today?" is a
 genuine ΛCDM embarrassment, answered there by anthropics or silence. This model computes how long
 the dark-energy era lasts, from its own dynamics with no dial — which is more than ΛCDM can say —
 but a computed width does not place the observer inside it, and that placement is what "why now"
@@ -11,13 +11,13 @@ usually means. Both halves are stated below.*
 
 ## 0. The mystery
 
-Dark energy and matter dilute at different rates; their densities cross ONCE in cosmic
+Dark energy and matter dilute at different rates; their densities cross once in cosmic
 history — and we live within a factor-few of the crossing. In ΛCDM the value of Λ is free, so
 the timing is either luck (1-in-many) or anthropic. Nothing in ΛCDM could ever compute it.
 
 ## 1. The model's answer (recorded chain, real signs)
 
-The floor is not a constant that matter happens to dilute past — the late era is SELF-TIMED:
+The floor is not a constant that matter happens to dilute past — the late era is self-timed:
 
 1. **The instability rate is tied to the expansion rate**: the ghost-condensate/thaw analysis
  gave Γ_par/H_Λ = √3 for the IR/critical-k scale (single-scale fluid, M_GC = ρ_inf^¼).
@@ -29,7 +29,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  t_turn = ln(1/√A_s)/(√(3/2)·H) ≈ **8.16 H⁻¹** at A_s = 2.088×10⁻⁹.
  (was 5.77 H⁻¹ at the par-normalized B = 1; B picked from the dispersion,
  not left as a menu). The amplitude of primordial fluctuations (A_s, measured) enters as a
- LIFETIME parameter: the era's duration knows about the perturbations it must host.
+ lifetime parameter: the era's duration knows about the perturbations it must host.
  **How sharp that is, and why**: √3 and B = 1/√2 are exact, and the floor does not appear in
  the expression at all — *in Hubble units the era's width is floor-independent* — so A_s is
  the only input that can carry an error into it. The sensitivity is exact and it is the whole
@@ -62,7 +62,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  fraction, a band that straddles the anchor comparison's 2.2%. **So whether the floor is the
  limiting uncertainty in the timing depends on where in that band the one open
  scattering-amplitude question lands — a desk question, not the lattice's.**
- What this band does NOT carry is the cosmological input's own error — Ω_m enters the same ratio,
+ What this band does not carry is the cosmological input's own error — Ω_m enters the same ratio,
  and bounding that is a separate propagation.
  **The width is derived; the occupancy is not** — and "why now" in its
  usual sense is the occupancy question. Note the direction: a *longer* derived era makes the
@@ -76,9 +76,9 @@ The floor is not a constant that matter happens to dilute past — the late era 
 - This model: the timing follows from √3 (IR scale, derived), B = 1/√2 (Jeans growth rate,
  derived), A_s (measured), and ρ_inf (the occupancy binding
  ½α_c²M₂ = 2.2599 meV) — **no dial whose job is the coincidence**. The residual honesty: the
- floor VALUE rests on the kernel-sourced τ (lattice-refereed, P-2026-048), on the portal
+ floor value rests on the kernel-sourced τ (lattice-refereed, P-2026-048), on the portal
  √σ_dark = m_e, and on α_c = 3α; and the cyclic frame re-poses the question at the chain level
- (why THIS cycle?), **which this model does not answer**. The chain-level question is not settled by
+ (why this cycle?), **which this model does not answer**. The chain-level question is not settled by
  the era-level derivation: the model accepts Tolman accumulation, so cycles lengthen, and an
  observer-moment weighted by elapsed time falls preferentially late — under 7% of the chain's
  time sits in the first cycle for linear growth, under 4% for geometric. Being early is therefore
@@ -91,7 +91,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
 ## 3. Falsifiable content
 
 The same chain that times the era commits the model to w = −1 now (the mass-defect O(δ²)
-argument, recorded) — so the coincidence derivation and the DESI DR3 verdict are the SAME bet:
+argument, recorded) — so the coincidence derivation and the DESI DR3 verdict are the same bet:
 an evolving-DE detection kills the self-timed floor and reopens the coincidence with the
 model's blood on it.
 

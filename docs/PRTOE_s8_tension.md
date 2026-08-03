@@ -13,7 +13,7 @@
 ## 0. The tension
 The CMB predicts more late-time clustering (ΛCDM: S₈ ≈ 0.833) than weak lensing measures
 (KiDS-1000/DES-Y3 centrals 0.76–0.78; the KiDS-Legacy joint consensus 0.814 ± 0.012).
-Most H₀ solutions make S₈ WORSE — the two tensions pull opposite directions, and killing
+Most H₀ solutions make S₈ worse — the two tensions pull opposite directions, and killing
 both is the field's standing filter.
 
 ## 1. The model's mechanism (recorded, coded, fit)
@@ -26,8 +26,8 @@ particle, far too small to move small-scale power. The delivery therefore rests 
 the shed below, which is a pre-registered parameter rather than a derivation
 ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), [PRTOE_entropy.md](PRTOE_entropy.md)).*
 The rotation-cancellation conversion: as the medium's twist relaxes, part of the dcdf
-matter-component sheds into free-streaming dark radiation (dcdf_conv_g — a RAMP,
-x^n/(1+x^n), coded in background.h). The shed DEPLETES late-time ρ_m → suppresses
+matter-component sheds into free-streaming dark radiation (dcdf_conv_g — a ramp,
+x^n/(1+x^n), coded in background.h). The shed depletes late-time ρ_m → suppresses
 late growth → lowers S₈ — while the background expansion barely moves (the w-mirage
 checked and cleared at ~1%).
 
@@ -52,7 +52,7 @@ firewalled derivation candidate g = 10ε = 54α/π (the machines' table,
 ## 3. Kills
 (i) conv_desi's posterior excluding the S₈-fixing g region while lensing holds low;
 (ii) the shed violating N_eff bounds at CMB epochs (the ramp's timing is the protection —
-auditable); (iii) future lensing converging UP to the ΛCDM value (dissolves the tension and the
+auditable); (iii) future lensing converging up to the ΛCDM value (dissolves the tension and the
 mechanism's purpose — a null, not a kill; KiDS-Legacy's 0.814 is a half-step in that
 direction, and the model's 0.823 sits between the consensus and ΛCDM).
 

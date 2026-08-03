@@ -62,9 +62,9 @@ discretization that deforms it is not a neutral choice.
 finite lattice spacing, which is exactly what a chiral-crossover determination is trying to
 measure — and the two existing N_f = 2 Wilson determinations disagree at ~30%.
 
-We do not claim to know which way this should be settled. **We state it because the choice is part
-of the computation and not a detail beneath it**, and because a result whose discretization is not
-argued for will not settle anything at the precision discussed below.
+Neither discretization is claimed as settled here. **The choice is part of the computation, not a
+detail beneath it**, and a result whose discretization is not argued for will not settle anything
+at the precision discussed below.
 
 ## A pre-registered stake (stated for transparency)
 
@@ -72,7 +72,7 @@ An independent phenomenological program carries a **publicly pre-registered bet 
 placed before any dedicated computation existed: **T_c/√σ = 0.34657** for the chiral transition,
 with pre-committed kill conditions.
 
-**The precision matters more than the central value, and we would rather say so up front.** The bet
+**The precision matters more than the central value.** The bet
 distinguishes two hypotheses that sit **0.44% apart**:
 
 | | T_c/√σ | what a return here would mean |

@@ -34,7 +34,8 @@
 4. The exploratory closure is that an occupancy-corrected derivation of ρ_inf (the model's
  constant dark-energy floor density — the quantity that plays the role of ρ_Λ) reproduces the
  same sum by an independent route through the recorded relation chaining ρ_Λ, the derived scale
- M₂ = α²·T_c, and 3α; the running α_c chain checks that claim.
+ M₂ = α²·T_c, and 3α; the α_c instrument (zon_disp — unconverged, not currently running)
+checks that claim.
 
 ## 1. Why this block is the model's tightest constraint
 
@@ -47,8 +48,8 @@ descending through 61.4 meV, which is the direction the frontier is actually mov
 answer is that those limits are ΛCDM-conditional and the squeeze relaxes under its own
 recombination history — a testable claim, and the fastest route to grading this block. Inverted
 ordering from oscillation experiments also kills claims 2 and 3; (iii) an in-house tension:
-P-2026-023's de-biased band (0.07–0.09 eV) sits above this block's 0.061 — the running chains'
-own posterior arbitrates between the model's two
+P-2026-023's de-biased band (0.07–0.09 eV) sits above this block's 0.061 — the production-chain
+posterior (once quotable) arbitrates between the model's two
 neutrino numbers.
 
 ## 2. The mechanism's open items
@@ -57,7 +58,7 @@ The parameter μ that ties the dark-energy floor to the lightest neutrino mass i
 lepton-number-breaking parameter, distinct from the dimensionless varying-m_e amplitude.
 What remains un-derived is the *value* μ = 2.25 meV (the
 dark-energy-value problem). Remaining open items: the Majoron mechanism still needs a new falsifiable
-consequence, and the ρ_inf closure depends on the running α_c chain.
+consequence, and the ρ_inf closure depends on the α_c instrument (not currently running).
 
 ## 3. For 0νββ specifically
 
@@ -263,4 +264,4 @@ The remaining open pieces are:
 - the pure number b in ρ_inf = b·m₁⁴,
 - the detailed settling calculation that decides how the mass term is shared among the neutrino
   eigenstates,
-- and the running α_c chain that checks the occupancy-corrected ρ_inf closure.
+- and the α_c instrument that checks the occupancy-corrected ρ_inf closure (not currently running).

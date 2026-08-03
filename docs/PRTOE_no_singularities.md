@@ -68,7 +68,7 @@ Penrose and Hawking theorems then fail is not evasion — their premises (a Lore
 the full domain; the energy conditions on the relevant congruences) are exactly what the quantum
 core removes.
 
-## 5. What is genuinely owed
+## 5. What remains owed
 
 The structural claim — one cutoff, every GR pathology — is complete. What remains is one number
 and one optional observable, both pre-existing in the component files; this synthesis adds no new

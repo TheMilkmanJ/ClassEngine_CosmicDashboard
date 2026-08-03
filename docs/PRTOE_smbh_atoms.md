@@ -47,13 +47,18 @@ condition is mass-selective with ONE m for the whole sky); (ii) the strong-coupl
 (α_g > 1) where the perturbative cloud picture fails and the BH's near-zone is a nonlinear
 condensate problem (the same regime as the black-hole core — one physics, inside and out);
 (iii) the shared-m cross-link: any future superradiance detection anywhere on the mass ladder
-must fit the SAME m the α_c chain is currently measuring — a one-parameter sky.
+must fit the SAME m the onset clock fixes (and that the α_c instrument is meant to
+referee) — a one-parameter sky.
 
 ## 4. Scope
 
-OOM numbers; the spin-dependence and the interacting-λ corrections to superradiance rates are
-owed if pursued. No current-data conflict (that is P-005's standing clearance). The α_c MCMC
-posterior propagates to every α_g above.
+OOM numbers. **Desk residue on this thread is paid** (2026-07-20 quench; 2026-07-28 spin-mass
+assembly — residual-debt census T2 / task #31 both halves closed): the λ-self-interaction shield is
+absent by 85 decades, and the data plane is featured in the predicted direction but degenerate with
+chaotic accretion (NewAthena is the external referee for above-band recovery). **What remains is
+chain-gated, not desk-owed:** the α_c MCMC posterior propagates to every α_g above. No current-data
+conflict that is not already registered as P-2026-034's free-scalar exposure (that is P-005's
+standing clearance on the older framing).
 
 *The universe's heaviest objects are its most strongly-coupled atoms — and the one we managed
 to photograph first sits, by whatever humor the sky possesses, exactly on the line between

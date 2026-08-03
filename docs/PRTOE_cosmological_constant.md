@@ -439,7 +439,7 @@ near-coincidence, unclaimed.
 
 ## 5. Falsification conditions
 
-(i) the running α_c measurement lands > 2σ from 3α (the triangle loses a leg);
+(i) the α_c instrument lands > 2σ from 3α (the triangle loses a leg);
 (ii) DESI DR3 establishes w ≠ −1; (iii) the thaw chain's posterior excludes zero;
 (iv) Σm_ν measured robustly above ~70 meV, or inverted ordering; (v) the pairing-gap
 computation failing to sustain k ≈ 1.36 unravels the hierarchy leg.

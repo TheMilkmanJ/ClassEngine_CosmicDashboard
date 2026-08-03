@@ -92,7 +92,7 @@ $$\varepsilon = c \cdot \bar{f} \cdot \alpha_c = \tfrac{9}{10} \times \tfrac{2}{
 against the sky's fitted $\sim 1.24\%$ — zero free parameters end to end. (Three ε values appear in
 this repo and differ deliberately: **1.232%** = the production-chain fit; **≈1.24%** = the
 posterior-era rounding; **1.2543%** = the derived stack above. The gap between fit and
-derivation is ≈1.8% *of the value* — and the running measurements decide.)
+derivation is ≈1.8% *of the value* — and the α_c instrument (once converged) decides.)
 
 > **Which width that gap is "inside" is worth stating, because the wrong one is easy to reach for.**
 > The measurement's own width is the chain posterior, `varying_me` = 1.0126 ± 0.0041 — an ε of
@@ -132,20 +132,23 @@ derivation is ≈1.8% *of the value* — and the running measurements decide.)
  $\bar{f}$ — the high-statistics ensemble is the check, not the source.)* **Derived — not a
  parameter, and not a simulation output.**
 - $\alpha_c = 3\alpha$: a **pre-registered bet** (P-2026-040), on the record BEFORE the deciding
- measurement (the α_c chain) converges — and 2.3% ABOVE where current data points, so it is
- falsifiable within weeks, not retrofit ever.
+ measurement (the α_c instrument) converges — and 2.3% ABOVE where current data points, so it is
+ falsifiable once that instrument runs, not retrofit ever. The instrument is **not currently
+ running** (zon_disp collapsed; seed ready).
 
 IF the decomposition's referees sign (its factors are currently: one conditional derivation,
-one open closed-form, one running bet), the model becomes a **zero-extra-parameter rival to
-ΛCDM** in the committed fixed-$\varepsilon$ evidence run — no Occam penalty, pure
-goodness-of-fit, no retreat. The claim is CONDITIONAL until then.
+one open closed-form, one registered bet whose instrument is offline), the model becomes a
+**zero-extra-parameter rival to ΛCDM** in the committed fixed-$\varepsilon$ evidence
+configuration — no Occam penalty, pure goodness-of-fit, no retreat. The claim is CONDITIONAL
+until then.
 
 ---
 
 ## The stated stack (the object under live test)
 
 The three equations close into a cosmology whose every number is **stated before the
-data speaks** — the object the running evidence comparison actually grades:
+data speaks** — the object the evidence comparison (Laplace-from-MCMC; nested sampling
+deferred to cluster time) actually grades:
 
 | quantity | stated value | provenance | grade |
 |---|---|---|---|
@@ -157,11 +160,12 @@ data speaks** — the object the running evidence comparison actually grades:
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | 61.4 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits 2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |
 | T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
-| H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the standing `YHe` treatment; the running job carries it and the value may move |
+| H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the standing `YHe` treatment; a re-measurement is queued and the value may move |
 
 ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
 whatever the sky refuses, the model has nowhere to retreat. That totality, not any
-single row, is the claim under adjudication in the nested-sampling run now executing.
+single row, is the claim under adjudication — carried today by Laplace-from-MCMC; the
+nested-sampling confirmer ended on this hardware (2026-07-20) and waits for cluster time.
 
 ---
 

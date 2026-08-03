@@ -195,9 +195,11 @@ running minimum that favours the longer chain even when two models are identical
 converged: ΛCDM sits at R−1 ≈ 1.0 and ours has no convergence statistic yet, so both numbers are
 upper bounds that will keep falling. And a best fit is not an evidence comparison at all — it
 carries no penalty for parameters, which is the whole point at issue when one model has fewer of
-them. **The honest position today is that the live comparison is a wash and cannot be quoted in
-either direction**, and that the standing evidence number remains the marginal, SH0ES-conditional
-Laplace estimate described below.
+them. **The honest position after that July run was that the live comparison was a wash and could
+not be quoted in either direction.** A later matched relaunch merged the basins (every
+sampled parameter agrees across ranks to within ~0.6 within-chain s.d.) and is *converging
+but not yet quotable* (R−1 still above the 0.05 stop). The standing evidence number remains
+the marginal, SH0ES-conditional Laplace estimate described below.
 
 **The current test, with a caveat found while checking it.** The zero-parameter evidence
 comparison freezes amplitude, tilt, coupling and transition epoch in advance, against ΛCDM at full

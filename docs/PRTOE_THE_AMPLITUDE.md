@@ -18,7 +18,8 @@ the house convention; failures live in the failures ledger, not here.*
 | **the concordance joint** | **1.2403 ± 0.0079%** | the standing reference value |
 
 The fit-versus-stack spread (1.4σ) is the identity network's most-loaded joint; the
-running α_c chain owns the verdict. The decomposition's three factors, each separately
+α_c chain (zon_disp instrument — unconverged, not currently running) owns the verdict.
+The decomposition's three factors, each separately
 refereed: c = 9/10 (the census over the universal charged-fermion roster, not the electron-coupled
 scalar's leptophilic subset; selected over 12/13 by the dark-energy–neutrino tie — the meV coincidence is a lock
 only if the lightest neutrino mass is direct-Majorana, seating it on the medium's tenth channel → 9/10,
@@ -26,7 +27,8 @@ conditional on the tie being a lock **and on an equal share per channel, which t
 force** — the ε-blind ensemble confirms the value at −0.08σ but at its width excludes neither 12/13
 nor the charge²-weighted 8/9, which sits 0.30σ away), f̄ (the winding
 average; fit-implied 0.6253, simulation 0.635, closed-form claim 2/π = 0.6366 — a live
-triple), and α_c = 3α (a pre-registered bet, P-2026-040, decided by the running chain).
+triple), and α_c = 3α (a pre-registered bet, P-2026-040, decided by the α_c instrument
+once it converges).
 
 ## 2. The windows — one number, read across 13.8 Gyr
 
@@ -71,13 +73,14 @@ only form where ε is off).
 
 ## 4. The referees and the killers
 
-**Referees**: the running α_c chain (the stack's third factor); the zero-free-parameter
-evidence run (live; every number stated before the data spoke); DESI forest
-cross-calibration (the forest offset); the lunar-farside / cosmic-dawn 21-cm programs
-(the edges and the gate's shape); the radio deuterium-line referee (P-2026-027).
+**Referees**: the α_c chain (the stack's third factor; instrument not currently running);
+the zero-free-parameter evidence run (Laplace-from-MCMC; every number stated before the
+data spoke; nested sampling deferred to cluster time); DESI forest cross-calibration
+(the forest offset); the lunar-farside / cosmic-dawn 21-cm programs (the edges and the
+gate's shape); the radio deuterium-line referee (P-2026-027).
 
 **Killers on file**: a clean dark-ages detection at the *standard* rest frequency; the
-forest clean at the curve's own predicted offset; the α_c chain landing off 3α (the
+forest clean at the curve's own predicted offset; the α_c instrument landing off 3α (the
 derived stack dies; the fit value stands independently); the ratio-lock broken
 anywhere; the host mass step resolving fully into dust chemistry with no residual
 density trend.
