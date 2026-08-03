@@ -1,4 +1,8 @@
-# The Cosmological Constant from Vacuum Occupancy
+# Cosmological constant from vacuum occupancy
+
+**Audience grade (2026-07-30).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel (nothing cosmological in the chain) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 (0.34657 crowns; 0.34506 kills). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+
+---
 
 > The dark-energy scale follows the closed form
 > ρ_Λ¼ = (9/2)α⁴·τ·m_e, where the α⁴ is derived — the condensate's own binding α_c² times the
@@ -70,9 +74,9 @@ the question.
 
 ## 2. This model's answer
 
-In one sentence: gravity does not price the vacuum by loop integral; it prices it by
-*occupancy* — one binding quantum per coherence cell — and the binding quantum is
-exponentially small because it sits at the bottom of a pairing hierarchy.
+Gravity does not price the vacuum by loop integral; it prices it by occupancy — one binding
+quantum per coherence cell — and the binding quantum is exponentially small because it sits at
+the bottom of a pairing hierarchy.
 
 **(a) The value.** The condensate binds at its own hydrogen-like scale (the universal
 two-body form E_b = ½α²M, applied to the condensate's coupling α_c and its EFT mass
@@ -740,21 +744,13 @@ on **tree-level scattering theory at λ = 45.7** — a coupling where tree level
 trustworthy, and where the s-channel pole sits at s = 4m_σ² against an exchanged mass m_σ, i.e.
 right on top of the kinematics.
 
-So the debt has moved rather than closed, and it is worth saying exactly how:
+The remaining blocker is standard: **is tree-level σσ scattering reliable at λ = 45.7?**
+Chiral perturbation theory and unitarised amplitudes (including the f₀(500) literature already
+cited for the σ mass) are the tools; that calculation is not attempted here.
 
-| | blocker |
-|---|---|
-| this morning | uncontrolled radiative band, "one lattice job gates both" |
-| earlier today | which field normalisation? |
-| **now** | **is tree-level σσ scattering reliable at λ = 45.7?** |
-
-That is a sharper and more standard question than either of its predecessors — it is the sort of
-thing chiral perturbation theory and unitarised amplitude methods exist to answer, and the f₀(500)
-literature the file already cites for the σ mass is the same body of work. **Not attempted here.**
-
-*What is established:* the convention (LSM, m_σ² = 2λf², verified against the file's own λ), that
-σ-exchange contributes 5× the contact term, and that both readings land at or below 0.6% on ρ_Λ¼.
-*What is not:* which reading is right, and whether tree level suffices at this coupling.
+Established: LSM convention m_σ² = 2λf² (verified against the file's λ); σ-exchange contributes
+5× the contact term; both readings land at or below 0.6% on ρ_Λ¼. Open: which reading is right,
+and whether tree level suffices at this coupling.
 
 #### The amplitude question, reduced to a one-way bound
 
@@ -777,22 +773,15 @@ larger. The full tree amplitude puts the system at 13.8 — a factor of 4.5 clea
 the favourable side — and the contact-only truncation, which is the one that omits a term it has no
 right to omit, puts it just under.
 
-Three things make this a useful place to stop.
+The bound is one-way and the physics pushes the favourable direction: σ-exchange is attractive and
+increases a₀; strong coupling pushes toward resonance, which increases a₀ further. Corrections that
+are likely to matter move the system deeper into the safe region.
 
-**The bound is one-way and the physics pushes the right way.** σ-exchange is attractive and
-increases a₀; strong coupling pushes toward resonance, which increases a₀ further. Every correction
-to the tree estimate that is likely to matter moves the system deeper into the safe region, not out
-of it.
+Even the worst case is under 1%: if a₀ collapsed to the interaction range (hard-sphere-like, which
+λ = 45.7 makes implausible), the correction would be 0.90% on ρ_Λ¼ — a fifth of the band §4b
+originally quoted. Only a₀ falling below 3.06 × the range puts the correction above the gap, which
+requires largely cancelling σ-exchange rather than correcting it.
 
-**Even the worst case is under 1%.** If a₀ collapsed all the way to the interaction range —
-hard-sphere-like, which λ = 45.7 makes implausible — the correction would be 0.90% on ρ_Λ¼. That is
-the ceiling, and it is a fifth of the band §4b originally quoted.
-
-**What would overturn it is specific.** Only a₀ falling below 3.06 × the range puts the correction
-above the gap, and that requires the σ-exchange contribution to be largely cancelled rather than
-merely corrected. Nothing in the structure suggests that.
-
-*Still not done, and worth being exact about:* tree-level scattering at λ = 45.7 is not quantitatively
-reliable, so 13.8 is an estimate, not a measurement. What has been established is that the
-*conclusion* is insensitive to it over the whole plausible range — which is a different and more
-robust thing than pinning the number.
+Tree-level scattering at λ = 45.7 is not quantitatively reliable, so 13.8 is an estimate. The
+conclusion is that the *bound* is insensitive over the plausible range — not that the point value
+is measured.

@@ -611,10 +611,10 @@ int background_functions(
     dp_dloga += (a*dw_over_da-3*(1+w_fld)*w_fld)*pvecback[pba->index_bg_rho_fld];
   }
 
-  /* PRTOE v4 -- dCDF: single dark fluid unifying cdm+DE.
-   * See docs/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
-   * exactly barotropic: w and c_s^2 are functions of the fluid's own
-   * density (not of a directly), read from the integrated variable. */
+  /* PRTOE v4/v5 -- dCDF: single dark fluid unifying cdm+DE.
+   * See docs/exploratory/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
+   * exactly barotropic: w(rho) = -rho_inf/rho, c_s^2 ≡ 0 (beta removed 2026-07-05),
+   * both functions of the fluid's own density (not of a), from the integrated variable. */
   if (pba->has_dcdf == _TRUE_) {
     double rho_dcdf = pvecback_B[pba->index_bi_rho_dcdf];
     double w_dcdf_val = w_dcdf(pba, rho_dcdf);
@@ -1305,6 +1305,8 @@ int background_indices(
     pba->has_fld = _TRUE_;
 
   pba->has_dcdf = pba->use_dcdf;
+  /* Conversion DR multipoles only when the background conversion rate is on. */
+  pba->has_dcdf_conv = ((pba->has_dcdf == _TRUE_) && (pba->dcdf_conv_g > 0.)) ? _TRUE_ : _FALSE_;
 
   if (pba->Omega0_ur != 0.)
     pba->has_ur = _TRUE_;
@@ -3039,10 +3041,10 @@ int background_derivs(
   }
 
   if (pba->has_dcdf == _TRUE_) {
-    /** - PRTOE v4 dCDF: d(rho)/dloga = -3(1+w(rho))*rho, autonomous ODE
+    /** - PRTOE v4/v5 dCDF: d(rho)/dloga = -3(1+w(rho))*rho, autonomous ODE
      *  (w depends only on rho, not explicitly on a). See
-     *  docs/PRTOE_v4_dCDF_derivation.md eq. (4),(9). Exact fixed point at
-     *  rho=rho_inf (w=-1 there), approached asymptotically, never crossed. */
+     *  docs/exploratory/PRTOE_v4_dCDF_derivation.md eq. (4); v5 has w=-rho_inf/rho.
+     *  Exact fixed point at rho=rho_inf (w=-1), approached asymptotically, never crossed. */
     /* PRTOE rotation-cancellation: the dcdf matter-part (1+w)rho = rho-rho_inf sheds to
        free-streaming dark radiation at rate Gamma/H = conv_rate(a). Energy-conserving
        sink/source pair; the floor (rho_inf, w=-1) is untouched. conv=0 recovers the

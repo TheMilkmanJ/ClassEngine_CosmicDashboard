@@ -989,11 +989,15 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
   γ* = 3.45×10⁻³ requires the strongly **overdamped** branch (drift velocity ~10⁻², a dense tangle
   held by mutual friction), which is the model's own superfluid genesis medium rather than a
   relativistic string network; and γ*(β) is stationary at radiation, so the network delivers
-  n_s ≈ 1 **robustly**, with the red −0.035 a sub-leading residual. **Class exhibited; value and
-  medium-derivation open** — the attractor
-  is dynamically real, and what remains is the first-principles value γ* from the tangle's winding
-  energetics and mutual-friction coefficient (equivalently, the coefficients c̃ and k_v in the VOS
-  reduction), not the branch-selection argument, and the sub-leading tilt.
+  n_s ≈ 1 **robustly**, with the red −0.035 a sub-leading residual. **Class exhibited; value
+  candidate-closed 2026-07-31** — the attractor is dynamically real, and the first-principles
+  mutual-friction chain is now: **α_B = ε²** (portal second-order dissipation), **k_mom = ε⁴**
+  (overdamped friction suppression), **c_chop = d_⊥ = 2** (transverse plane of a line defect) →
+  **γ\* = ε²√2 = 2.225×10⁻⁴** at the revised (L\*-inclusive) target, +0.9% on f(r=1) and +1.7% on
+  measured A_s with no A_s fit
+  ([working_logs/census_alpha_B_first_principles.md](working_logs/census_alpha_B_first_principles.md)).
+  Named residual: defend d_⊥=2, or replace it by a computed reconnection coefficient. The
+  sub-leading tilt remains open.
   **One recorded absence was overstated and is corrected here:** ν is not absent from the corpus.
   `scripts/winding_gas_cv_v2.py:11` and `scripts/winding_gas_cv.py:5` carry **ν = 2/3, named 3D-XY**,
   applied to this very census (ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). What is genuinely absent is the

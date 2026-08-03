@@ -1,14 +1,26 @@
-# The m_e Mechanism: Consolidated Mathematical Formulation
+# The m_e mechanism — consolidated mathematical formulation
 
-> *The current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude grades: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Reasoning and dead ends: [PRTOE_me_trigger.md](exploratory/PRTOE_me_trigger.md).
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+Equations-only companion to the trigger doc. Every result is cross-referenced to its trigger-doc section. Assembled 2026-07-07; high-f operating point 2026-07-18.
 
+**Audience grade.**
 
-*Assembled 2026-07-07. This is the equations-only companion to
-`PRTOE_me_trigger.md` (which holds the reasoning and the dead ends).
-Every result here is cross-referenced to its trigger-doc
-section.*
+| item | grade |
+|---|---|
+| Form m_e(x) = m_e^lab [1 + ε S(x)], ε = 1.2543% | standing claim; ε stack **conditional** (see Amplitude) |
+| Environmental variable Θ / Weyl gate | **derived / forced** (conformal portal → C²) |
+| Transition sharpness | **forced** by MICROSCOPE + quasar (two-constraint) |
+| Weyl not Ricci | **derived** (three independent reasons) |
+| Amplitude ceiling ~1–2% (EM self-energy) | **derived** as bound; exact value from stack |
+| High-f operator (dim-6 lepton) | **assumed** (data-narrowed, not symmetry-selected) — docket #125 |
+| Electron-loop onset / low-f config | **dead** (BBN-fatal; failures ledger) |
+| Canonical T_c | **177.10 keV derived** (Koide τ); κ-independent formula survives; 179 pipeline; 193 cross-check |
+| ρ_Λ / CC residual | **existence not precision** where it lands |
+| Θ-averaging / developed-speckle compliance | **retired** as route; laminar Θ branch survives |
+| Conversion-channel linear perts | **implemented** when `dcdf_conv_g > 0` (CLASS; not this file) |
+
+Do not cite the retired electron-loop onset as current. Body below keeps equations and numbers; grades above police how to read them.
 
 ---
 
@@ -66,7 +78,7 @@ coupling, no quark coupling). This operator satisfies all three tests:
  the electron is singled out only by being the charged lepton present at
  recombination, not by hand. The identity-blindness rule polices couplings
  that pick species without a symmetry reason (the deleted per-species knobs
- were exactly that crime); a coupling that follows the lepton charge is not
+ were exactly that); a coupling that follows the lepton charge is not
  one of them.
 Prior verdicts stand with the clause (the birefringence null, gate-0, the
 EP posture, BBN). Sec 7's screening computation is a separate item from the
@@ -114,7 +126,8 @@ EM-binding environment. Split:
 So eps ≤ (EM self-energy fraction) ~ 1-2%. The standing 1.2543% sits at the
 ceiling. The size is derived here as a bound; the exact value comes from the standing
 stack eps = c*fbar*alpha_c = 27*alpha/(5*pi), which uses no cutoff at all --
-it, not this section's Lambda-and-modulation route, sets the value. [sec 28, 31]
+it, not this section's Lambda-and-modulation route, sets the value. **Stack grade: conditional**
+(f̄ derived, c assumed, α_c bet). [sec 28, 31]
 
 Why m_e and not α: varying-α killed by quasars (45-100x); m_e evades
 those bounds -- the surviving EM-binding knob, selected by data. [sec 7, 29]
@@ -244,15 +257,15 @@ Derived or forced:
  - the roof reduces to one question (census scope) [6]
  - the locked-correlation observable signature [8]
 
-Open:
+Open / graded:
  (census-scope legality: closed — the coupling law's consolidated clause; sec 2, 6)
- (the amplitude coefficient: derived by the standing stack 27*alpha/(5*pi), no cutoff [4])
+ (the amplitude coefficient: stack 27*alpha/(5*pi) — **conditional**: f̄ derived, c assumed, α_c bet [4])
  (the sec-7 screening computation: delivered — all four items, see sec 7)
  - the two-field sims (sim-gated): confirm S=(1+f_rot²)/2, ψ/χ layering [trigger-doc]
 
 The empirical fit (m_e = 1.012543, fits the CMB) is untouched by all of the
 above -- this document concerns the mechanism's legality/derivation, not
-the data.
+the data. H₀/ΔlnZ from that fit remain **provisional**.
 
 ## 10. The leptonic origin -- why m_e and not m_q (2026-07-09)
 

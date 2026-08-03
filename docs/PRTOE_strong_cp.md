@@ -1,5 +1,8 @@
 # Strong CP — the silence the model signs its name to
 
+**Audience grade.** Explicit **abstention**: the model has nothing to say about θ̄. Not a paper claim.
+
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 **Status (2026-08-02): complete as an abstention.** This file is not a derivation of θ̄ and is not a paper candidate. Its job is to register, permanently and falsifiably, that the model has nothing to say about the strong CP problem — and that needing one would kill the constitution.

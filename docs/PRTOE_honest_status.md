@@ -13,9 +13,47 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## Current (2026-07-20)
+## CURRENT (2026-07-31)
 
-Major moves since the 2026-07-08 baseline (below):
+**Scope name.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
+expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
+the Standard Model; the domain is the diffuse cosmic medium. (Same fence as
+[PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md) / laws_and_rules.)
+
+**End-to-end derivation board** (source of truth:
+[`working_logs/_E2E_DERIVATION_BOARD.md`](working_logs/_E2E_DERIVATION_BOARD.md)):
+
+| # | residue | grade |
+|---|---|---|
+| **A1** | A_s γ\*/f + c_chop | **CANDIDATE CLOSED** |
+| **A2** | n_s / r-triangle | **CANDIDATE CLOSED** |
+| **A3** | f̄ / c_w / LO | **CANDIDATE CLOSED** |
+| **A4** | α_c same-response | **Permanent bet (P-2026-040)** — factor 3=d derived; base α not derived; A_s referee only |
+| **A5** | B1 hydro crown | **PARTIAL (scoped)** — Ψ₀/f_amp done; intake candidate; pour→release / first-principles n open |
+| **A6** | Bounce (B7) | **RECONSTRUCTED CANDIDATE** (turn not derived) |
+
+**Bounce (A6 / B7).** Density floor ρ_bounce = m⁴/λ ~ (1.1 keV)⁴ is **derived**. Homogeneous FRW
+bounce engines are **DEAD**. RP-A is a **reconstructed candidate** with written scaffold
+(`scripts/bounce_rpA_scaffold.py`: F-A1…F-A3, knobs η/N_med/H-sign). The turn **H>0 forced by
+stress-energy** is still **not** derived. Audience: floor + reconstructed program yes; derived
+cosmological turn no. Verdict:
+[`working_logs/bounce_e2e_verdict_2026-07-31.md`](working_logs/bounce_e2e_verdict_2026-07-31.md),
+[`working_logs/bounce_promotion_2026-07-31.md`](working_logs/bounce_promotion_2026-07-31.md).
+
+**What this supersedes in older CURRENT text below.** (1) A_s / n_s are no longer open residue —
+candidate-closed via census microphysics (A1) and Route T (A2); residual κ≈1 and approach OOM noted
+on the board. (2) α_c is **not** “settled by data rather than choice” as a derivation — it is a
+**permanent value bet** with A_s as IR referee. (3) Any 07-18 phrasing that “the turn is computed”
+is **withdrawn** for a derived cosmological turn; A6 is **reconstructed candidate**, not DERIVED.
+(4) B2 winding-gas tilt stays **CLOSED DEAD** (#184); that path does not deliver A_s.
+
+Still standing from the 2026-07-20 snapshot (detail under the next heading): c = 9/10 counting
+input (democracy dead); ρ_Λ¼ existence claim +0.44% (not precision); DE self-tuning still fails
+(ohmic); Laplace ΔlnZ = +2.635 marginal / SH0ES-dependent; nested sampling deferred to cluster.
+
+### Snapshot held from CURRENT (2026-07-20)
+
+Major moves since the 2026-07-08 baseline (below); grades above supersede where they conflict:
 
 - c = 9/10 is a counting assumption the data confirms, and the step that would have derived it is
   withdrawn, not owed. The seating is sourced — the neutrino sits on the vacuum's seat because its
@@ -58,8 +96,10 @@ Major moves since the 2026-07-08 baseline (below):
 whole electron-mass mechanism rested — is closed by the constitution's own clause, and the
 screening computation that had been open since 7 July is delivered on all four of its items.
 The dark-energy sector's "un-built O(1) coefficient" turned out not to exist: the two readings
-stand in exactly the derived phase-space ratio, so nothing is owed there. The turn is computed,
-and the negative bare vacuum became load-bearing rather than decorative.
+stand in exactly the derived phase-space ratio, so nothing is owed there. *(Historical 07-18 note
+“the turn is computed” is **superseded 2026-07-31**: cosmological bounce turn = **STORY**; only
+the density floor is derived — see CURRENT header / bounce_e2e_verdict.)* The negative bare vacuum
+became load-bearing rather than decorative.
 
 **Adverse, and the sharper of the two directions.** Two independent constraints now bear
 directly on the ultralight mass, which is fixed by the onset clock and cannot float: the
@@ -84,8 +124,9 @@ the particle-hole channel, with the screening constant b = 2α_c/π falling out 
 no chosen ones. And the channel itself is decided **host-independently**: a particle-particle
 condensate of two charge-e fermions would give the photon an Anderson–Higgs mass of ~9.5×10¹¹ eV
 against a bound of 10⁻¹⁸ — excluded by thirty orders — so particle-hole is forced, not preferred.
-Separately, α_c's scale is settled by data rather than choice: A_s selects 3α(0) at −0.4%, against
-+28% at α(M_Z).
+Separately, α_c's *IR value* is **refereed** by data rather than derived: A_s selects 3α(0) near
+null (board: ~−0.4% to −0.9%), against +28% at α(M_Z). **A4 (2026-07-31):** factor 3 = d is
+derived; same-response base α is a **permanent bet (P-2026-040)** — not open derivation debt.
 
 **Adverse, and it is the same result read honestly.** That exact eight-digit reconstruction runs on a
 host **this corpus does not have** — finite chemical potential, Thomas–Fermi screening, two

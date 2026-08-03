@@ -494,6 +494,10 @@ struct perturbations_vector
   int index_pt_Gamma_fld;  /**< unique dark energy dynamical variable in PPF case */
   int index_pt_delta_dcdf; /**< PRTOE v4 dCDF fluid density perturbation */
   int index_pt_theta_dcdf; /**< PRTOE v4 dCDF fluid velocity divergence */
+  /** Free-streaming multipoles of dCDF conversion radiation (rho_dcdf_conv), same
+   *  Kaplinghat et al. F_l convention as index_pt_F0_dr. Active when pba->has_dcdf_conv. */
+  int index_pt_F0_dcdf_conv;
+  int l_max_dcdf_conv;
   int index_pt_phi_scf;  /**< scalar field density */
   int index_pt_phi_prime_scf;  /**< scalar field velocity */
 

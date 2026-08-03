@@ -72,7 +72,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 22 | Big-claim mining 4: the flavour puzzle | **verdict delivered** (DERIVATION_HUNT §9) — the count is derived, the mass ratios are staked on (A = √2, θ = 2/9) and gated, the mixing angles are constitutionally out of reach |
 | 23 | Big-claim mining 5: strong-CP, the constitutional silence | closed |
 | 24 | THE RAMP RE-GRADE: every [R]/null domain verdict re-audited for buried boundaries | closed — **unverified** |
-| 26 | B2+B3: the A_s clearance pair (winding-gas C_V; k-integral O(1) audit) | closed |
+| 26 | B2+B3: the A_s clearance pair (winding-gas C_V; k-integral O(1) audit) | closed — B3 complete; **B2 later DEAD** (#184: freeze + Gaussian tilt routes killed; A_s scaling is asserted, not a winding-gas derivation). Do not read this row as “A_s is cleared as a prediction” |
 | 27 | The ς appeal: real-SN-template synthetic photometry + the mass-step discriminants | closed |
 | 28 | Light B-queue: B4 comb rehearsal, B5 μ calculator, the Mb citation firm-up | closed |
 | 29 | The heavy queue: B1-comoving full, B6 BipoSH, B7 the turn, zon-grades-the-fudge | closed — **B1 and B6 did not land**; see #150, #151 |
