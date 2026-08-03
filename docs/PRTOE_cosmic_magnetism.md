@@ -1,8 +1,11 @@
 # Cosmic Magnetism — the Rotation Machine's Receipt (2026-07-11)
 
-*Derivation-from-banked-structure; the standalone document for P-2026-028. Status: STRUCTURAL
-(candidate) with one honestly-open gap (the void floor). Booked def415. The claim of uniqueness
-is stated precisely in §5 — the mechanism class is standard; the SOURCE and the SIGN are not.*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
+*Standalone document for P-2026-028, built from recorded structure. One gap remains open (the void
+floor). The claim of uniqueness is stated precisely in §5 — the mechanism class is standard; the
+source and the sign are not.*
 
 ---
 
@@ -27,13 +30,13 @@ The known escape attempts and their pathologies:
 ## 1. This model is a rotation machine — the vorticity is structural, not optional
 
 The founding identity is a charged **rotating** superfluid, and rotation in a superfluid is not
-a free profile — it is **quantized circulation** (Onsager–Feynman; t338-granted: "a rotating
-superfluid CANNOT have n = 0"). The banked sources of spin, each graded:
+a free profile — it is **quantized circulation** (Onsager–Feynman: a rotating
+superfluid cannot have n = 0). The recorded sources of spin:
 
-1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis, t340/t343;
-   topologically locked through every crunch, t338).
-2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc (t343's scale) thread
-   the medium with quantized vortex lines.
+1. **The winding** — the topological n ≠ 0 (Kibble-generated at the first genesis;
+ topologically locked through every crunch).
+2. **The vortex network** — Kibble domains of comoving size ξ ~ 256 Mpc thread
+ the medium with quantized vortex lines.
 3. **The genesis helicity** — the AD roll's self-generated rotation (the first-roll theorem).
 
 So the one ingredient Harrison lacked in ΛCDM — primordial vorticity — is here **by identity**:
@@ -44,69 +47,158 @@ removing it would contradict the model's own name.
 Harrison's battery: in the pre-recombination plasma, vorticity spins electrons and ions
 differently (photon drag couples to them unequally), separating charge into a current:
 
-    B_seed ≈ 2 (m_p c / e) · ω_vort  ≈  **5×10⁻¹⁸ G**  at ω_vort ~ 0.5 H(rec)   (t330-graded)
+ B_seed ≈ 2 (m_p c / e) · ω_vort ≈ **5×10⁻¹⁸ G** at ω_vort ~ 0.5 H(rec) (graded)
 
 That is precisely a viable **galactic** seed: compressed and dynamo-amplified over ~30 e-folds
-to the observed μG. **The model pays the galactic magnetism bill where ΛCDM cannot** — graded
-at t330 ("a genuine new explanatory front... credit"), registered as P-2026-028.
+to the observed μG. **The model accounts for the galactic magnetism where ΛCDM cannot** —
+a genuine new explanatory front, registered as P-2026-028.
 
 **Consistency, forced:** the seeding runs through the *plasma's* response to the medium's
 rotation — never through dark-charge currents, because the condensate's EM-neutrality is
-FORCED to 25–45 orders by the Meissner/photon-mass bound (t330-graded). The model is not
+forced to 37–47 orders below unit charge by the Meissner/photon-mass bound
+(q_EM < 4.7×10⁻³⁸…10⁻⁴⁷ — P-2026-028's constraint-closed-en-route). The model is not
 allowed to make fields directly; it is allowed to stir.
 
-## 3. The void floor — the honest open gap
+## 3. The void floor — the open gap
 
-The blazar bound constrains the field BETWEEN structures. Our first closure attempt (the
-vortex-network rms boost, ×3400) was caught by red-team (t402): it concentrates B on the
-**filaments/lines**, while the void floor constrains the **inter-line** field — which stays
-**~1.5 orders short** on the smooth estimate. The gap STANDS (task #5, reopened). Live
-candidates, none yet computed: (i) return-flux topology (field lines must close — the void
-threading is not zero, its floor is computable); (ii) post-recombination vorticity persistence;
-(iii) the blazar bound's own caveats (plasma-instability alternative would relax the floor).
-**If the void floor is confirmed AND the inter-line threading computes short, P-028 fails in
-the void column while the galactic column stands.** That is the registered risk.
+The blazar bound constrains the field between structures. The vortex-network rms boost
+(×3400) concentrates B on the **filaments/lines**, while the void floor constrains the
+**inter-line** field — which stays **~1.5 orders short** on the smooth estimate. Two
+candidate rescues fail on inspection: (i) return-flux topology falls to flux
+conservation — the return flux through the void cell equals the flux-average, i.e. the
+smooth estimate; concentrating B on lines cannot raise the inter-line floor. (ii)
+post-recombination vorticity persistence sources the same average and cannot beat the same
+theorem. Therefore the void column rides solely on (iii): the blazar bound's own
+robustness. The live external debate (plasma instabilities — beam-plasma energy loss may
+relax the ≥10⁻¹⁶ G floor entirely) is the referee: **if the blazar floor survives that
+debate, P-028's void column fails while the galactic column stands** — the registered risk,
+sharpened to a single external question.
 
-## 4. The signature no one else can write down: THE SIGN
+### 3a. Void-floor shortfall and RM coherence — priced vs open (2026-08-02)
+
+**The shortfall is arithmetic from recorded numbers; no internal formula closes it.**
+
+| quantity | value | source |
+|---|---|---|
+| B_seed (smooth Harrison, ω_vort ~ 0.5 H(rec)) | **5×10⁻¹⁸ G** | §2 / P-2026-028 |
+| B_void floor (blazar TeV-halo bound) | **≳ 10⁻¹⁶ G** | [NeronovVovk2010] |
+| ratio B_void / B_seed | **20** | = 10⁻¹⁶ / 5×10⁻¹⁸ |
+| shortfall in decades | **log₁₀(20) = 1.30 dex ≈ "1.5 orders"** | the registered gap |
+
+The inter-line floor equals the smooth estimate under flux conservation: if Φ_line is
+concentrated on the vortex network and the return flux through a void cell equals the
+cell-averaged flux, then B_inter-line ≲ B_seed regardless of the ×3400 rms boost on the
+lines. **No further desk pricing changes that identity** — the shortfall is not an uncomputed
+integral; it is a theorem against the two internal rescues already tried.
+
+**What would be needed to close the void column from inside the model (and is not on
+record):** a mechanism that raises the *inter-line* field above the flux-averaged seed —
+equivalently, a formula for B_void that is not bounded by B_seed under flux conservation.
+No such formula exists in the corpus. The open object is therefore either (a) an external
+relaxation of the blazar floor, or (b) a new internal seed mechanism — neither of which is
+desk-doable from existing numbers without inventing content.
+
+**RM coherence scale — open, formula missing.**
+
+§4 notes that the Kibble network sets ~100-Mpc-class comoving structure, "testable in
+principle in Faraday-rotation-measure correlation functions." The ledger marks that
+"un-priced in RM statistics (owed if pursued)." **Explicit open:** there is no recorded
+expression for ⟨RM(θ)·RM(0)⟩, no transfer of ξ_K = 256 Mpc into an angular multipole, and
+no comparison to existing RM surveys. The qualitative claim (coherence scale set by the
+Kibble network, not by a phase-transition horizon) stands; the quantitative RM prediction
+does not. Closing it would require writing and evaluating that correlation — not available
+as an existing corpus number.
+
+## 4. The signature no one else can write down: the sign
 
 Every other mechanism predicts a magnitude and (at best) a spectrum. This model's field
-inherits **magnetic helicity with a DETERMINED SIGN**: the vorticity that seeds B is the
-genome's own rotation, so
+inherits **magnetic helicity with a sign tied to the genesis flow**, because the Harrison step
+copies that flow's handedness across faithfully. Writing H_B = ∫A·B d³x (right-handed positive) and
+using B = k ω with k = 2 m_p c/e a constant, the vector potential A = k u + ∇φ gives
 
-    sign(helicity_B)  =  sign(n)  =  the SAME topological draw that set matter-over-antimatter
-                                     (the one quantum integer of t343; the three-way convergence
-                                     graded at t330/t340).
+ H_B = k² ∫u·(∇×u) d³x = k² H_kin  ⟹  **sign(helicity_B) = sign(H_kin)** — exactly, on
+ the closed 3-torus, with the battery's coefficient entering squared so no sign convention
+ survives to be argued over.
+
+The registered routing sign(helicity_B) = sign(n) is that identity plus one structural condition:
+that the genesis roll-up's handedness is itself carried by the winding's draw. **That condition is
+the sector's open sign question** — kinetic helicity is a linkage, and the two rotations the model
+records outright do not supply one. A rigid rotation has u·ω = 0 identically, and the winding
+current handed off as k₀ = 2πn/L is a uniform phase gradient, hence curl-free. The handedness lives
+instead in the helical vortex ring of §1's third source, whose helicity is bilinear in its poloidal
+and toroidal circulations — so the owed object is the sign of one relative to the other
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md), the seeding
+link). The sign chain's links 1–3 are laid; link 4 is this condition, and link 5 is the
+rectification below.
+
+**The third leg does not stand, and the file states that rather than assuming past it.** Reading the
+helicity back as *which* handedness means matter-over-antimatter needs one further link — the
+AD-direct rectification, sign(n) → matter-vs-antimatter. The three-way convergence of matter
+asymmetry, helicity and winding on a single draw is the *payoff* of that link, not a standing result:
+the asymmetry rides the temporal rotation θ̇, the helicity rides the spatial winding n, and the two
+are different components of ∂_μθ.
+
+**One of the two signs is now settled, and it settles as a coin.** The genesis tilt
+2 ε_A λ R⁴ cos 4θ is invariant under the reflection θ → π/2 − θ, as are release-at-rest, the
+isotropic Hubble friction and the uniform release prior — while the charge L = R² θ̇ is odd under it.
+Every release phase is exactly mirrored at equal magnitude and opposite rotation, so sign(θ̇) splits
+the prior evenly at any tilt strength, confirmed to machine precision
+([working_logs/T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md)). **The absolute
+handedness is therefore not something this sector can predict** — not pending a computation, but
+forbidden by a symmetry the model's own content does not break.
+
+**The correlation has since been computed, and it is negative.** Whether θ̇ and n are locked
+requires one draw carrying both; that joint draw was built and run (2026-07-20), and it finds the
+two signs **independent** — the joint correlation sits at −0.06 to +0.09 against a ±0.13 noise
+floor, a result forced by the same spatial parity that makes each sign separately a fair coin. So
+this sector predicts a helicity sign **relative to the winding**, cannot say which handedness the
+matter universe corresponds to, and now knows why: the relative lock does not exist, and its
+absence is a symmetry statement rather than a missing computation.
 
 Consequences:
 - **Parity-odd observables** (helical-field signatures in radio Faraday statistics and in
-  gamma-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
-  which is ALSO P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
-- A measured magnetic helicity of the WRONG sign relative to the baryon asymmetry's
-  genome-sign kills the linkage outright (a clean falsifier no dial can dodge).
+ γ-ray halo parity asymmetries) must correlate with a single axis — the winding axis —
+ which is also P-024's ε-dipole axis and P-029's comb axis. **Three predictions, one axis.**
+- The falsifier that once stood here — a measured magnetic helicity of the wrong sign
+ relative to the baryon asymmetry's own sign — is **void, and by the model's own
+ computation**: the two signs are drawn independently at genesis, so no measured
+ correlation between them can confirm or kill anything. What survives as testable is the
+ helicity's sign *relative to the winding*, which is a different and narrower claim.
 - The coherence scale is not microscopic: the Kibble network sets ~100-Mpc-class comoving
-  structure in the seed — distinctive against phase-transition mechanisms (which cannot reach
-  such scales causally) and testable in principle in Faraday-rotation-measure correlation
-  functions.
+ structure in the seed — distinctive against phase-transition mechanisms (which cannot reach
+ such scales causally) and testable in principle in Faraday-rotation-measure correlation
+ functions.
 
-## 5. What is and is not unique here (the precise boast)
+## 5. What is unique here, and what is not (the precise boast)
 
 - **Not unique:** the Harrison mechanism (standard, 1970); the seed magnitude class (~10⁻¹⁸ G).
 - **Unique to this model:** (i) a *structural* primordial vorticity source — rotation as
-  founding identity, quantized, crunch-proof — where every competitor must add a field or an
-  epoch by hand; (ii) the **signed-helicity linkage** to the baryon asymmetry through one
-  topological integer — no other framework ties the sky's magnetic parity to the existence of
-  matter; (iii) the shared-axis triple (ε-dipole, the ℓ≈126 comb, the helicity parity).
+ founding identity, quantized, crunch-proof — where every competitor must add a field or an
+ epoch by hand; (ii) the **helicity sign fixed relative to the winding**, sign(helicity_B) =
+ sign(n) — the sky's magnetic parity tied to the same topological integer that sets the comb
+ axis, though not to the matter–antimatter draw, which §4 shows is an independent sign;
+ (iii) the shared-axis triple (ε-dipole, the winding comb, the helicity parity).
 
 ## 6. Ledger summary
 
 | item | status |
 |---|---|
-| galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded (t330), P-028 |
-| EM-neutrality consistency (stir, don't charge) | forced (Meissner, t330) |
-| void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — 1.5 orders short; task #5** |
-| helicity sign = genome sign = baryon sign | registered prediction (the falsifier with no dial) |
-| coherence scale ~ Kibble ξ | distinctive, un-priced in RM statistics (owed if pursued) |
+| galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded, P-028 |
+| EM-neutrality consistency (stir, don't charge) | forced (Meissner) |
+| void floor (≥10⁻¹⁶ G inter-filament) | **Open — shortfall priced at ×20 = 1.30 dex vs B_seed = 5×10⁻¹⁸ G; no internal formula closes it (§3a)** |
+| helicity sign = the seeded flow's sign, sign(helicity_B) = sign(H_kin) | derived (the battery's coefficient squares out of it) |
+| helicity sign = winding sign, sign(helicity_B) = sign(n) | the surviving registered content — testable against the winding axis, not against the matter–antimatter draw (§4: the two signs are drawn independently, joint correlation −0.06 to +0.09 against a ±0.13 noise floor) |
+| helicity sign = baryon sign | **void** — no measured correlation between them can confirm or kill anything |
+| RM coherence ~ Kibble ξ | **Open — formula missing** (no ⟨RM·RM⟩ expression; qualitative ~100 Mpc claim only; §3a) |
+
+## Sources
+
+[Harrison1970] (the vorticity battery — the mechanism this file inherits), [NeronovVovk2010]
+(the blazar TeV-halo void floor, ≳10⁻¹⁶ G — this file's falsifier), [Onsager1949] +
+[Feynman1955] (quantized circulation), [Kibble1976] (the domain network), [Biermann1950],
+[Durrer2013] (the magnetogenesis review and its pathologies). Full list:
+[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
 
 *Everyone else must explain where the spin came from. This model cannot explain where it would
 have gone: a rotating superfluid universe magnetizes its plasma as surely as it swings its
-vortices — and it signs the work with the same integer that chose matter over antimatter.*
+vortices — and it signs the work with the winding integer that also fixes the comb axis.*

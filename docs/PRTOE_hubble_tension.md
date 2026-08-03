@@ -1,46 +1,73 @@
-# The Hubble Tension — the Model's Founding Fight (2026-07-11)
+# Hubble tension — mechanism, residual, calibration
 
-*Thread 11. Status: the model's CORE empirical claim, consolidated into its standalone. This is
-the one domain where the model was BUILT in contact with the data rather than extended to it —
-the improvement is measured, graded, and evidence-priced.*
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
 
-## 0. The tension
+**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Evidence number is **Laplace-from-MCMC** (ΔlnZ ≈ +2.6); nested sampling waits on cluster time. Chains must converge before the number is quotable as final. Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
 
-SH0ES-calibrated supernovae: H0 = 73.0 ± 1.0. ΛCDM fit to the CMB: 67–68.2. Five-plus sigma,
-years of scrutiny, no systematic found on either end. ΛCDM's position: one of the two
-measurements must be wrong.
+---
 
-## 1. The model's mechanism (banked end to end)
+## 1. The tension
 
-The dyad: a +1.24% shift of the electron mass above the transition epoch. m_e sets recombination's
-atomic physics → earlier decoupling → smaller sound horizon → the CMB re-fits at HIGHER H0
-without breaking the acoustic structure (the known varying-m_e degeneracy, here with an
-ontology: the condensate's order parameter, T_c = 193 keV, quiet at BBN at production grade —
-the gate-0 clearance).
+SH0ES (Cepheid-calibrated SNe): H₀ = 73.0 ± 1.0 km/s/Mpc. ΛCDM + CMB: ~67–68.2. Disagreement ≳ 5σ, durable under scrutiny on both ends.
 
-## 2. Where it lands, honestly
+## 2. Mechanism
 
-- **In-house, same data, same pipeline**: ΛCDM best fit H0 = 68.2; dyad = 69.9 with the
-  evidence FAVORING the dyad at ΔlnZ = +2.635 (Laplace; past the pre-registered win line;
-  marginal, SHOES-conditional, PolyChord-capped — the operator's 25% standing cap).
-- **The residual is OWNED**: 69.9 is not 73. The model eases ~half the tension and REFUSES the
-  rest (the omk run: offered curvature, the fit declined — the flat torus stands, def333).
-  The model's claim is not "SH0ES is fully explained": it is "the sky prefers a universe with
-  the dyad in it, and the remaining gap is real information" (P-2026-001's TRGB no-hedge bet
-  polices the ladder side).
-- **The instruments to move it**: an INDEPENDENT m_e-shift detection (P-2026-007's void/IGM
-  step; the P-024 dipole; the P-029 comb) would convert the fit into physics.
+One addition to known physics: early-universe electron-mass shift ε = 1.2543% (= 27α/5π when the stack holds), screened off late. Heavier early m_e → earlier recombination → smaller sound horizon → CMB fit prefers higher H₀ (varying-m_e degeneracy: Hart–Chluba 2020; Sekiguchi–Takahashi 2021). Origin here: condensate order parameter at T_c = 177.10 keV; inactive for early BBN stages at production grade.
 
-## 3. The improvement over the field's alternatives
+**Stack grade:** conditional (c counting assumption, f̄ derived, α_c = 3α bet). Fixed-ε configs test the hard case (no free m_e knob).
 
-Early-dark-energy and its cousins buy H0 with new components tuned for the job and generically
-worsen S8. The dyad: (i) ONE parameter with independent duties (the ε that runs the whole
-fingerprint lattice); (ii) an S8 story that goes the RIGHT direction (the conversion channel,
-thread 4); (iii) a BBN sector re-posed HONESTLY by the windowed run (D/H invisible to the direct shift;
-Y_p now a +1.3σ counter-lean per def449 — the witness stands rigid, not favorable); (iv) falsifiers it cannot dodge (DESI's w = −1, the radio lattice's locked ratios).
-Nothing else on the H0 market carries a comparable kill-list — which is a strength precisely
-because the model can afford it.
+## 3. Where it lands
 
-*The tension asked: which measurement is lying? The model answers: neither — the early universe
-was being read with the wrong electron. Half the gap closes, the other half is signed and
-owned, and the arbiters are named and scheduled.*
+| | value | note |
+|---|---|---|
+| ΛCDM (same pipeline) | H₀ ≈ 68.2 | baseline |
+| Model (fixed ε) | H₀ ≈ **69.9** | ~half the SH0ES gap |
+| Ladder reach ceiling (audit) | **~70.9–71.3** | cannot reach 73 |
+| Evidence | ΔlnZ ≈ **+2.6** (Laplace) | marginal; SH0ES-conditional; no nested confirmer |
+
+- Residual **owned**: model refuses the rest of the gap (curvature escape declined by fit).
+- Exhaustive lever audit (SN standardization 162 templates — sign **opposite** to tension; geometry leakage; reionization) → ladder account capped ~70.9–71.3.
+
+## 4. Calibration question
+
+If the model is right, Cepheid-calibrated 73 carries ~2–3 km/s/Mpc of systematics. Pre-registered band H₀ ∈ [69, 71] for TRGB; TRGB programs read ~69.8–70.4 [Freedman 2021] and later JWST mixes.
+
+**Crowding referee (JWST):** Riess et al. 2024 — HST–JWST Cepheid distance difference −0.01 ± 0.03 mag; rejects unrecognised distance-dependent crowding at 8.2σ. Photometry is not the 73. Ladders still disagree: CCHP JWST-only TRGB/JAGB near ΛCDM; SH0ES near 73. Model sits on the TRGB side of an open ladder dispute.
+
+**Model’s own SN candidate:** environmental screening → host-density standardization offset (~0.02 mag of observed 0.05–0.08 host-mass step at central values). Full-step corner fixes Lyman-α forest offset → DESI forest decides. No dataset dropped for disagreement; three evidence tiers (Cepheid / anchor-free / TRGB) declared before results.
+
+## 5. Field scoreboard (not flattering)
+
+Common-framework comparison [Schöneberg et al. 2026]: residual tension after early physics —
+
+| model | −ΔAIC | residual Δ_DMAP | note |
+|---|---|---|---|
+| early dark energy | 23.40 | **~2.5σ** (newer stacks ~2σ) | best residual relief |
+| **varying m_e** | 12.58 | **~4.25σ** | this mechanism class |
+| ΔN_eff | 3.18 | ~5σ | eliminated |
+
+**On residual tension, EDE is ahead.** A derived amplitude buys economy and falsifiability, not extra H₀ reach.
+
+| | lands | cost | beats this model how |
+|---|---|---|---|
+| EDE | H₀ toward 70–73 with freedom | +3 params | higher ceiling |
+| Free m_e literature | up to ~71+ with SNe / curvature | +1–2 | can re-fit amplitude |
+| Ladder systematics | H₀ ~68–70 if 73 wrong | 0 new physics | cheapest |
+| **This model** | 69.9 fixed ε; ceiling ~71 | **0** extra vs ΛCDM | — |
+
+**Where this model is stronger:** zero extra parameters (if stack holds), one ε on all messengers, pre-registered kills. **Cheaper and more falsifiable — not better-fitting.**
+
+**S₈:** EDE costs power spectrum; recombination-side m_e(z) also faces structural issues once DESI BAO is in (Lee–Zhou 2026). Neither side is clean.
+
+**Independent m_e support:** Hart–Chluba ~3.5σ; ACT+DESI ~1.8σ. Model’s 1.012543 sits inside those posteriors; preference has shrunk as data improved.
+
+## 6. Kill list (exposure, not fit quality)
+
+1. Same 1.2543% must work on BBN, CMB, 21 cm, neutrinos.  
+2. DESI w = −1 (or Route-D thaw) test.  
+3. Atomic-ratio locks in radio.  
+4. BBN helium remains **adverse** (+1.3 to +2.0σ vs Aver).  
+
+## References
+
+[Riess 2022]; [Freedman 2021, 2025]; [Planck 2018]; [Hart–Chluba 2020]; [Sekiguchi–Takahashi 2021]; [Schöneberg et al. 2026]; [Poulin et al. 2019, 2025]; [Hill et al. 2020]; [Toda–Seto]; [Lee–Zhou 2026]; [Riess et al. 2024]. Full: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Dead H₀ routes: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).

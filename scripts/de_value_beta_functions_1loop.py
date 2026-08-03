@@ -1,0 +1,28 @@
+import numpy as np
+alpha=1/137.035999; me=510998.95
+
+print("THE DYAD-ELECTRON LAGRANGIAN (from the corpus fragments):")
+print("  L = psibar(i d - e A - m_e0)psi - 1/4 F^2 + 1/2 (d phi)^2 - V(phi) - m_e0 kappa phi^2 psibar psi")
+print("  the coupling: g5 phi^2 psibar psi, g5 = m_e0 kappa (DIM-5 operator, [g5]=mass^-1, [kappa]=mass^-2)")
+print()
+print("1-LOOP beta-functions (rigorous):")
+print("  gamma_me   = 3 alpha/2pi = %.5f      (QED mass anomalous dim -- STANDARD)"%(3*alpha/(2*np.pi)))
+print("  beta_mphi2 = (kappa/pi^2) m_e0^4       (electron CW loop induces the dyad mass; LINEAR in kappa)")
+print("  beta_kappa ~ (3 alpha/2pi) kappa + O(kappa^2, lambda kappa)   (QED dressing of the phi^2(psibar psi) vertex)")
+print()
+print("WHY 1-LOOP CANNOT PIN T_c:")
+print("  T_c = m_e0 sqrt(3(L-1)/2pi^2), L-1 = ln(m_e0^2/mu^2) - 3/2. The overall kappa CANCELS")
+print("  (both m_phi^2(0) and the thermal Dm^2 ~ kappa). So T_c's mu-dependence is ENTIRELY the log bracket.")
+print("  1-loop running of the SOURCE S(mu)=kappa(mu) m_e0(mu)^4:")
+dlnS = (3*alpha/(2*np.pi)) + 4*(3*alpha/(2*np.pi))   # beta_kappa/kappa + 4 gamma_me, coeff ~O(1)+6
+print(f"    dlnS/dln_mu ~ beta_k/k + 4 gamma_me ~ {dlnS:.4f}  (O(alpha), TINY)")
+print("  A PMS stationary point (dT_c/dln_mu=0) from this curvature needs the linear log ~ 1/(dlnS/dlnmu):")
+print(f"    log* ~ 1/{dlnS:.4f} ~ {1/dlnS:.0f}  ->  mu*/m_e ~ e^-{1/dlnS:.0f} = {np.exp(-1/dlnS):.0e}  -- UNPHYSICAL")
+print("  => the O(alpha) coupling-running does NOT fix the leading-log. T_c stays ambiguous at 1-loop.")
+print()
+print("WHAT IS ACTUALLY NEEDED (the 2-loop, and the honest wall):")
+print("  The genuine closer is the 2-LOOP electron contribution to V_CW: the photon-dressed electron loop")
+print("  (O(alpha) correction to the CW determinant), which carries a log^2 term. THAT log^2 provides the")
+print("  physical curvature that pins mu. Its coefficient is a real 2-loop Feynman-diagram computation")
+print("  (2-loop effective potential of scalar-QED-Yukawa) -- KNOWN in principle, but I will NOT fabricate")
+print("  the number. Computing it rigorously = the build task. 1-loop is complete above; 2-loop is framed, not done.")

@@ -1,0 +1,98 @@
+<frozen runpy>:128: RuntimeWarning: 'cobaya.run' found in sys.modules after import of package 'cobaya', but prior to execution of 'cobaya.run'; this may result in unpredictable behaviour
+[output] Output to be read-from/written-into folder 'chains', with prefix 'cmp_prtoe_conv_desi'
+Failed to import `candl_data` (see instructions here for installation: https://github.com/Lbalkenhol/candl_data).
+You can still use likelihoods from other data libraries.
+[prior] *WARNING* External prior 'bbn' loaded. Mind that it might not be normalized!
+[classy] `classy` module loaded successfully from /home/themilkmanj/prtoe_class/python
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86245e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/themilkmanj/.local/lib/python3.12/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/themilkmanj/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.desi_2024_bao_all] Initialized.
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[mcmc] Getting initial point... (this may take a few seconds)
+[mcmc] Initial point: omega_b:0.02273253, H0:69.51664, logA:3.053248, n_s:0.9729607, z_reio:7.379456, dcdf_rho_inf:0.7216483, dcdf_conv_g:0.217685, A_planck:0.9972387, A_act:1.001308, P_act:0.9976689, Tcal:0.9946206, Ecal:1.001264, m_ncdm:0.08030324
+[model] Measuring speeds... (this may take a few seconds)
+[model] Setting measured speeds (per sec): {planck_2018_lowl.TT: 124.0, planck_2018_lowl.EE: 307.0, planck_2018_highl_plik.TTTEEE_lite: 206.0, planck_2018_lensing.clik: 401.0, bao.desi_2024_bao_all: 78.2, sn.pantheonplusshoes: 110.0, act_dr6: 81.9, spt3g_lite: 115.0, classy: 0.0061}
+[mcmc] Oversampling with factors:
+[mcmc] *  1 : ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'dcdf_conv_g', 'm_ncdm']
+[mcmc] * 27 : ['A_planck']
+[mcmc] * 35 : ['A_act', 'P_act']
+[mcmc] * 50 : ['Tcal', 'Ecal']
+[mcmc] Covariance matrix loaded for params ['omega_b', 'H0', 'logA', 'n_s', 'z_reio', 'dcdf_rho_inf', 'dcdf_conv_g', 'A_planck', 'A_act', 'P_act', 'Tcal', 'Ecal', 'm_ncdm']
+[mcmc] All parameters' covariance loaded from given covmat.
+[mcmc] Sampling! (NB: no accepted step will be saved until 100 burn-in samples have been obtained)
+[mcmc] Progress @ 2026-07-20 08:36:29 : 1 steps taken -- still burning in, 1601 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:39:11 : 61 steps taken -- still burning in, 1589 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:41:44 : 73 steps taken -- still burning in, 1585 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:44:29 : 81 steps taken -- still burning in, 1584 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:46:57 : 131 steps taken -- still burning in, 1572 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:49:28 : 133 steps taken -- still burning in, 1571 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:51:41 : 142 steps taken -- still burning in, 1569 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:53:51 : 164 steps taken -- still burning in, 1564 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:55:59 : 185 steps taken -- still burning in, 1559 accepted steps left.
+[mcmc] Progress @ 2026-07-20 08:58:08 : 223 steps taken -- still burning in, 1553 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:00:48 : 265 steps taken -- still burning in, 1541 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:03:41 : 312 steps taken -- still burning in, 1531 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:06:20 : 326 steps taken -- still burning in, 1528 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:09:03 : 330 steps taken -- still burning in, 1527 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:11:48 : 333 steps taken -- still burning in, 1527 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:14:24 : 378 steps taken -- still burning in, 1521 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:16:20 : 387 steps taken -- still burning in, 1520 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:18:04 : 457 steps taken -- still burning in, 1502 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:20:12 : 501 steps taken -- still burning in, 1496 accepted steps left.
+[mcmc] Progress @ 2026-07-20 09:22:09 : 503 steps taken -- still burning in, 1496 accepted steps left.
+Terminated

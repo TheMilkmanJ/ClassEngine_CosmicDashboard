@@ -1,63 +1,97 @@
 # The Big Bang Without a Singularity — the PRTOE Origin (2026-07-11)
 
-*Derivation-from-banked-structure; companion to PRTOE_blackholes_no_singularity.md (the same
-three pillars, applied to the cosmological case). Status: STRUCTURAL (candidate), booked
-def413. Owed items flagged inline.*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
+*Derivation-from-recorded-structure; companion to PRTOE_blackholes_no_singularity.md (the same
+three pillars, applied to the cosmological case). Status: **floor number** complete
+(`ρ_bounce` finite, sub-Planckian); **turn dynamics open** (see §6). λ's number for
+ρ_bounce is paid. Live derivation checklist:
+[working_logs/bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md).*
 
 ## 0. The claim
 
 The universe did not begin at a singular point. In this model the "Big Bang" is **a genesis —
-the release of the condensate from the vacuum state** — and every earlier cycle's "crunch"
+the release of the dark condensate from the vacuum state** — and every earlier cycle's "crunch"
 ends in a **finite-density bounce**, not a singularity. The chain of cycles is finite in the
 past, but its first moment is a *state*, not a point of infinite density.
 
 ## 1. Why the crunch cannot singularize (the same three pillars as the black-hole interior)
 
 1. **The metric ends before the density diverges.** The metric is emergent (the graded QG
-   frame, t366); it exists only for gradients longer than the healing length ξ = ħ/(m c_s).
-   A contracting universe approaching ξ-scale curvature radii exits the metric description
-   *before* any singularity theorem's conclusion can be located — the arena dissolves
-   (the same no-double-counting as def337/t366).
-2. **The quartic floor.** The condensate's self-repulsion resists compression: the crunch
-   stiffens into a maximum density of order ρ_bounce ~ m⁴/λ-class (the same Colpi–Shapiro–
-   Wasserman physics that supports every black hole at finite density, §3 of the BH document).
-   Contraction halts and reverses at finite ρ. *(λ_phys owed — same flag as the BH doc; every
-   value of λ keeps ρ_bounce finite.)*
+ frame); it exists only for gradients longer than the healing length ξ = ħ/(m c_s).
+ A contracting universe approaching ξ-scale curvature radii exits the metric description
+ *before* any singularity theorem's conclusion can be located — the arena dissolves
+ (the same no-double-counting move as the black-hole case).
+2. **The floor (number derived; turn open).** The condensate resists compression through
+ quantum pressure and a *repulsive* self-coupling: density is bounded by
+ ρ_bounce ~ m⁴/λ-class (the same Colpi–Shapiro–Wasserman physics that supports every black hole
+ at finite density, §3 of the BH document). *(Quantum pressure guarantees a floor on its own in
+ inhomogeneous cores; the repulsive amplitude quartic sets ρ_bounce's number — distinct from the
+ attractive axion/phase coupling.)*
+
+ - **Derived:** at λ ≈ 2×10⁻⁹¹, `ρ_bounce¼ ≈ 1.1 keV` — finite, ~100 orders sub-Planckian
+   (`scripts/rho_bounce.py`). No infinite-density singularity from this ceiling.
+ - **Open:** the classical turn that would make a homogeneous bounce, and the two-component
+   joint that must fund an MeV-class hot start over this keV-class floor. The resolution
+   *shape* is condensate floor plus Tolman-kept radiation; the dynamics are not yet written.
+   Live checklist: [working_logs/bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md).
+ - **Melt vs turn:** contraction can drive the bath through `T_c` (local melt / release-side
+   physics). That threshold is not by itself the geometry turn; the handover term remains open.
+
+If the bounce is also the first instant of the next time branch, the event is boundary-like
+rather than a local white-hole interior (no earlier exterior counterparty). That is causal
+structure, not a substitute for the missing handover equations.
 3. **The Landau ceiling eats the light first.** As density rises, the plasma frequency sweeps
-   up through the radiation bands ("the crunch's mouth," def331, banked): each band's photons
-   are massed, made trace-visible, and thermalized. The crunch is a *dissipative thermal
-   process* — Tolman's kept entropy — not a geometric implosion. What survives it is exactly
-   the genome: the topological winding, which the crunch **cannot** unwind without tearing the
-   torus (t338, granted — the genome's crunch-immunity is topological protection).
+ up through the radiation bands (the "crunch's mouth"): each band's photons
+ are massed, made trace-visible, and thermalized. The crunch is a *dissipative thermal
+ process* — Tolman's kept entropy — not a geometric implosion. What survives it is exactly
+ the genome: the topological winding, which the crunch **cannot** unwind without tearing the
+ torus (granted — the genome's crunch-immunity is topological protection).
 
 So each cycle ends: finite density, thermalized radiation, conserved topology — and reignites
-(the next genesis funded by the gravitational account, t349–355). No cycle contains a
+(the next genesis funded by the gravitational account). No cycle contains a
 singularity at either end.
 
 ## 2. The first genesis: the beginning is a state, not a point
 
 The chain is **not past-eternal**: Tolman's entropy accumulation, run backward, terminates at a
-FIRST cycle (banked, the before-genesis theorem). The classical intuition wants a singular
-t = 0 there. The model's answer (t343, graded "a cleaner re-founding"):
+first cycle (recorded, the before-genesis theorem). The classical intuition wants a singular
+t = 0 there. The model's answer (graded "a cleaner re-founding"):
 
 > **The first genesis starts in the zero-point state** — R = 0, θ undefined, n = 0: the vacuum,
 > the unique state that requires no choice. The tachyonic roll-out amplifies the vacuum's own
-> fluctuations; the Kibble mechanism generates and locks the winding (n ~ 10–30, computed);
-> the roll self-generates the helicity (the first-roll-at-rest theorem).
+> fluctuations; the Kibble mechanism generates and locks the winding (the *band* n ~ 10–30 is
+> estimated — the Widnall instability window; the *value* is the cycle's one topological draw,
+> read by the winding comb, not computed); the roll self-generates the helicity (the
+> first-roll-at-rest theorem).
 
 The "initial condition problem" dissolves at the root: there is no freely-specified initial
 data surface and no infinite-density point — the beginning is **the only state that carries no
 information** (see the companion arrow-of-time document: this is also why entropy started low).
 Time's beginning is the first roll's first tick — a dynamical onset, not a geometric edge.
 
+**Time is emergent — the field phase is the only clock (interpretive, provisional).**
+In a superfluid-field theory the clock is the phase: winding *is* ticking. Every
+time-reading in the corpus chains to field dynamics — the winding count runs f̄ and the
+n_s imprint, the arrow rides cycle uniqueness, the bounce rides the field's own quantum
+pressure. No condensate meeting the reheating event, no phase; no phase, no winding; no winding, no
+clock — "before" is not early, it is undefined (the before-genesis theorem's row above, read
+as ontology). The pre-genesis laws demand only three spatial dimensions, a superfluid
+condensate, and the reheating event that meets it; duration enters with the meeting, not before it.
+**Kill clause:** if any booked equation is ever shown to require a clock the medium does not
+provide — a rate, phase, or ordering that cannot be expressed in the medium's own variables —
+this reading dies. Nothing currently booked does.
+
 ## 3. The energy of creation: zero, exactly
 
 On the compact torus the total energy — matter plus gravity — is **identically zero** (the
-Hamiltonian constraint; t352-graded: "a real GR theorem... the banked torus does load-bearing
+Hamiltonian constraint; graded: "a real GR theorem... the recorded torus does load-bearing
 work"). Genesis therefore needs no deposit: the condensate's positive energy was issued
 exactly against gravitational debt — a **zero-sum loan, forced by compactness rather than
 assumed** (Tryon's free lunch, here a theorem). Nothing had to come from nothing; zero
-rearranged itself.
+rearranged itself. That compactness helps explain the loaded floor and the discrete cavity,
+but it is a structure term for the loaded floor and cavity, not by itself the handover engine.
 
 ## 4. What replaces the standard picture
 
@@ -65,19 +99,30 @@ rearranged itself.
 |---|---|---|
 | initial singularity (t = 0, ρ = ∞) | first genesis from the vacuum state; ρ ≤ ρ_bounce always | structural (§1–2) |
 | the singularity theorems | discharged at premises (emergent metric ends at ξ; SEC violated by quantum pressure) | argued (BH doc §6) |
-| "what banged?" | the zero-sum loan: condensate energy vs gravitational debt, total = 0 (theorem) | graded (t352) |
-| "what came before?" | earlier cycles back to a FIRST roll; before the first roll: no clock, no light, no question with a referent | banked (before-genesis theorem) |
-| initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded (t340/t343) |
-| the pre-genesis relic hunt | NULL: the crunch eats all light (τ_ff ≫ 1); any confirmed pre-genesis EM relic KILLS the model | banked falsifier |
+| "what banged?" | the zero-sum loan: condensate energy vs gravitational debt, total = 0 (theorem) | graded |
+| "what came before?" | earlier cycles back to a first roll; before the first roll: no clock, no light, no question with a referent | recorded (before-genesis theorem) |
+| initial-conditions fine-tuning | the vacuum is unique — no draw, no choice, no tuning | graded |
+| the pre-genesis relic hunt | null: the crunch eats all light (τ_ff ≫ 1); any confirmed pre-genesis EM relic kills the model | recorded falsifier |
 
-## 5. Honest owed items
+## 5. Owed items
 
-- λ_phys (sets ρ_bounce's number, not its finiteness).
+- λ — **paid**: derived at ≈ 2×10⁻⁹¹ (the CMB ceiling (m/Ψ₀)², clearing the black-hole core's
+ requirement by at least 20× in the tight convention). What this file still owes through it is
+ only the bounce profile below.
 - The bounce dynamics in detail (the reversal's field profile — the cosmological analogue of
-  the BH core; un-simulated).
-- The first-cycle Kibble numbers use the ambient-era estimates (t343's scale-check class).
-- This document *asserts no new observables*: its falsifiers are the banked ones (a confirmed
-  pre-genesis relic kills it; DESI DR3 and the cycle-structure predictions carry the live risk).
+ the BH core; un-simulated) — **now carrying a number it must hit**: the two-component split
+ (§1.2's joint constraint) must deliver an MeV-class hot start over a keV-class condensate floor.
+- The first-cycle Kibble numbers use the ambient-era estimates (order-of-magnitude scale checks).
+- This document *asserts no new observables*: its falsifiers are the recorded ones (a confirmed
+ pre-genesis relic kills it; DESI DR3 and the cycle-structure predictions carry the live risk).
+
+## 6. Status of the turn
+
+**Grade: open.**
+
+Finite `ρ_bounce` stands. The classical turn is not yet written. Live work:
+[working_logs/bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md).
 
 *The universe's biography in one line: zero split itself into a loan at the only moment that
-required no decision, and has been paying itself back, cycle by cycle, ever since.*
+required no decision, and has been paying itself back, cycle by cycle, ever since — with the
+deepest gear of the payment schedule still open.*

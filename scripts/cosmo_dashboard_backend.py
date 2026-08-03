@@ -1858,7 +1858,7 @@ def check_and_update_history():
                 if rt:
                     # Key params for PRTOE/LCDM etc; rounded for "noticeable"
                     key_means = []
-                    for k in ['h0', 's8', 'omega_m', 'xi_prtoe', 'delta_prtoe', 'zeta_prtoe', 'beta_prtoe', 'omega_b']:
+                    for k in ['h0', 's8', 'omega_m', 'omega_b', 'varying_me', 'log10_zon', 'dcdf_rho_inf', 'dcdf_conv_g', 'dcdf_floor_thaw', 'xi_prtoe', 'delta_prtoe', 'zeta_prtoe', 'beta_prtoe']:
                         if k in rt and 'mean' in rt[k]:
                             key_means.append(round(float(rt[k]['mean']), 5))
                     if key_means:
@@ -1975,8 +1975,11 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         c_params['A_s'] = 2.1e-9
 
     use_prtoe_flag = False
+    # LEGACY (v1-v3 scalar-tensor era, RETIRED 2026-07 -- kept for old-yaml compatibility):
     prtoe_keys = ['xi_prtoe', 'prtoe_xi', 'delta_prtoe', 'prtoe_delta', 'beta_prtoe', 'prtoe_beta', 'log_beta_prtoe', 'zeta_prtoe', 'V0_prtoe', 'm_prtoe', 'lambda_prtoe']
-    prtoe_param_keys = frozenset(prtoe_keys + ['use_prtoe'])
+    # CURRENT (the dyad + dCDF era, dispersion template 2026-07-12):
+    dcdf_keys = ['dcdf_rho_inf', 'dcdf_z_rad_onset', 'log10_zon', 'dcdf_conv_g', 'dcdf_conv_at', 'dcdf_floor_thaw', 'varying_me', 'varying_z_high']
+    prtoe_param_keys = frozenset(prtoe_keys + dcdf_keys + ['use_prtoe', 'use_dcdf'])
 
     # Safety: if no real best_fit_params yet, force plain LCDM (never merge PRTOE yaml extras).
     warm_lcdm_default = not best_fit_params or len(best_fit_params) < 5
@@ -1987,7 +1990,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
                 up_cfg = yaml.safe_load(f) or {}
             theory_classy = up_cfg.get('theory', {}).get('classy', {})
             extra = theory_classy.get('extra_args', {})
-            if extra.get('use_prtoe') == 'yes':
+            if extra.get('use_prtoe') == 'yes' or extra.get('use_dcdf') == 'yes':
                 use_prtoe_flag = True
             for k, v in extra.items():
                 if k not in c_params and k not in CLASS_DIRECT_CALL_STRIP_KEYS:
@@ -1995,7 +1998,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
         except Exception:
             pass
 
-    if any(k in best_fit_params for k in prtoe_keys):
+    if any(k in best_fit_params for k in prtoe_keys + dcdf_keys):
         use_prtoe_flag = True
 
     if warm_lcdm_default:
@@ -2012,7 +2015,7 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
                 up_cfg = yaml.safe_load(f)
             theory = up_cfg.get('theory', {}).get('classy', {}).get('extra_args', {})
             params = up_cfg.get('params', {})
-            if theory.get('use_prtoe') == 'yes' or any(k in params for k in prtoe_keys):
+            if theory.get('use_prtoe') == 'yes' or theory.get('use_dcdf') == 'yes' or any(k in params for k in prtoe_keys + dcdf_keys):
                 model_type = "prtoe"
             elif 'w0_fld' in params or 'wa_fld' in params:
                 model_type = "wcdm"
@@ -2023,46 +2026,66 @@ def compute_cosmo_curves(best_fit_params, engine: dict | None = None):
 
     if use_prtoe_flag:
         model_type = "prtoe"
-        c_params['use_prtoe'] = 'yes'
-        xi = best_fit_params.get('xi_prtoe', best_fit_params.get('prtoe_xi', 1e-7))
-        # Sanity guard: CLASS hard-rejects xi outside the DHOST wedge [1e-7, 1.2e-5]
+        # Era split: dcdf-era yamls must NOT get legacy use_prtoe/xi injection.
+        is_dcdf_era = ('use_dcdf' in c_params) or any(k in c_params or k in best_fit_params for k in dcdf_keys)
+        if is_dcdf_era:
+            c_params.pop('use_prtoe', None)
+            xi = None
+        else:
+            c_params['use_prtoe'] = 'yes'
+            xi = best_fit_params.get('xi_prtoe', best_fit_params.get('prtoe_xi', 1e-7))
+        # Sanity guard (LEGACY era only; skipped when xi is None): CLASS hard-rejects xi outside the DHOST wedge [1e-7, 1.2e-5]
         # (xi <= 1e-8 allowed as null limit). A wildly out-of-range xi here almost
         # always means the chain-column → parameter-name mapping was scrambled
         # (e.g. mapped via alphabetized .updated.yaml); fall back to the wedge
         # floor instead of hammering CLASS with a guaranteed-fatal value.
-        try:
-            xi = float(xi)
-        except (TypeError, ValueError):
-            xi = 1e-7
-        if not (0.0 <= xi <= 1.2e-5):
-            log_dashboard_error(
-                f"[CURVES] Implausible xi_prtoe={xi:.3e} from best-fit mapping "
-                f"(outside [0, 1.2e-5]); using 1e-7. Check chain column mapping.",
-                console=True)
-            xi = 1e-7
-        delta = best_fit_params.get('delta_prtoe', best_fit_params.get('prtoe_delta', 0.2))
-        zeta = best_fit_params.get('zeta_prtoe', best_fit_params.get('prtoe_zeta', 0.1))
-        v0 = best_fit_params.get('V0_prtoe', best_fit_params.get('prtoe_v0', 0.68))
-        m = best_fit_params.get('m_prtoe', best_fit_params.get('prtoe_mass', 1e-20))
-        lam = best_fit_params.get('lambda_prtoe', best_fit_params.get('prtoe_lambda', 0.1))
+        if not is_dcdf_era:
+            # ---- LEGACY (v1-v3) branch only: never inject these into dcdf-era calls ----
+            try:
+                xi = float(xi)
+            except (TypeError, ValueError):
+                xi = 1e-7
+            if not (0.0 <= xi <= 1.2e-5):
+                log_dashboard_error(
+                    f"[CURVES] Implausible xi_prtoe={xi:.3e} from best-fit mapping "
+                    f"(outside [0, 1.2e-5]); using 1e-7. Check chain column mapping.",
+                    console=True)
+                xi = 1e-7
+            delta = best_fit_params.get('delta_prtoe', best_fit_params.get('prtoe_delta', 0.2))
+            zeta = best_fit_params.get('zeta_prtoe', best_fit_params.get('prtoe_zeta', 0.1))
+            v0 = best_fit_params.get('V0_prtoe', best_fit_params.get('prtoe_v0', 0.68))
+            m = best_fit_params.get('m_prtoe', best_fit_params.get('prtoe_mass', 1e-20))
+            lam = best_fit_params.get('lambda_prtoe', best_fit_params.get('prtoe_lambda', 0.1))
 
-        if 'beta_prtoe' in best_fit_params:
-            beta = best_fit_params['beta_prtoe']
-        elif 'prtoe_beta' in best_fit_params:
-            beta = best_fit_params['prtoe_beta']
-        elif 'log_beta_prtoe' in best_fit_params:
-            beta = 10**best_fit_params['log_beta_prtoe']
+            if 'beta_prtoe' in best_fit_params:
+                beta = best_fit_params['beta_prtoe']
+            elif 'prtoe_beta' in best_fit_params:
+                beta = best_fit_params['prtoe_beta']
+            elif 'log_beta_prtoe' in best_fit_params:
+                beta = 10**best_fit_params['log_beta_prtoe']
+            else:
+                beta = 1e-6
+
+            c_params.update({
+                'xi_prtoe': xi,
+                'zeta_prtoe': zeta,
+                'V0_prtoe': v0,
+                'm_prtoe': m,
+                'lambda_prtoe': lam,
+                'beta_prtoe': beta
+            })
         else:
-            beta = 1e-6
-
-        c_params.update({
-            'xi_prtoe': xi,
-            'zeta_prtoe': zeta,
-            'V0_prtoe': v0,
-            'm_prtoe': m,
-            'lambda_prtoe': lam,
-            'beta_prtoe': beta
-        })
+            # ---- CURRENT (dyad + dCDF) era: pass through the best-fit dcdf params ----
+            for k in dcdf_keys:
+                if k in best_fit_params and k not in c_params:
+                    c_params[k] = best_fit_params[k]
+            c_params.setdefault('use_dcdf', 'yes')
+            # the shooting target is REQUIRED by use_dcdf; derive a rough one if absent
+            if 'Omega0_dcdf' not in c_params:
+                ob = float(c_params.get('omega_b', 0.0224)); h = float(c_params.get('H0', 69.9))/100.0
+                c_params['Omega0_dcdf'] = best_fit_params.get('Omega0_dcdf', 1.0 - ob/h**2)
+            if 'YHe' not in c_params and 'YHe' in best_fit_params:
+                c_params['YHe'] = best_fit_params['YHe']
     else:
         c_params['use_prtoe'] = 'no'
         for k in list(c_params.keys()):
@@ -3654,7 +3677,7 @@ async def supported_models():
     return {
         "status": "success",
         "supported": ["lcdm", "wcdm", "prtoe", "general"],
-        "notes": "Dashboard works for any Cobaya+CLASS yaml. PRTOE features (playground, mu plots) auto-detected via use_prtoe or prtoe_* params. Use extra_args in requests for custom extensions. Set non_linear in config for Pk models.",
+        "notes": "Dashboard works for any Cobaya+CLASS yaml. PRTOE features auto-detected via use_dcdf (current dyad+dCDF era) or use_prtoe/prtoe_* (legacy v1-v3, retired). Use extra_args in requests for custom extensions. Set non_linear in config for Pk models.",
         "general_tips": "For new models, add params to yaml; dashboard will treat as 'general' for curves. Use /validate_config first."
     }
 
@@ -10417,3 +10440,78 @@ if __name__ == "__main__":
         log_dashboard_error("Keyboard interrupt received - shutting down gracefully", console=True)
     finally:
         log_dashboard_error("Dashboard backend stopped", console=True)
+
+# ============ THE PRTOE CYCLE SCRUBBER (2026-07-12, operator-requested) ============
+# One cosmic cycle as a sliding scale: zero-point fluctuations -> genesis draw ->
+# torus expansion (the dyad window marked; the resident born at T_c) -> de Sitter ->
+# crunch (pairing glow) -> the twist-and-snap into the next torus, GENOME PERSISTING
+# (the winding's hue pattern survives the bounce -- watch the colors).
+# Entirely client-side canvas: the server serves ONE string; ~zero CPU.
+_CYCLE_HTML = """<!DOCTYPE html><html><head><title>PRTOE Cycle Scrubber</title><style>
+body{background:#0b0e14;color:#dce3f0;font-family:system-ui,sans-serif;margin:0;padding:18px;text-align:center}
+h2{margin:6px 0 2px;font-weight:600}#stage{color:#8fd3ff;min-height:44px;margin:4px auto;max-width:720px;font-size:14px}
+canvas{background:radial-gradient(ellipse at center,#101624 0%,#070a10 100%);border-radius:12px;margin-top:6px}
+input[type=range]{width:70%;max-width:640px;margin-top:10px}
+.era{color:#7f8ba3;font-size:12px}button{background:#1c2740;color:#dce3f0;border:1px solid #33415e;border-radius:8px;padding:6px 14px;margin:8px 4px;cursor:pointer}
+</style></head><body>
+<h2>The PRTOE Cycle</h2><div class="era">zero-point &rarr; genesis draw &rarr; torus &rarr; the window (the resident born at T<sub>c</sub>=193 keV) &rarr; de Sitter &rarr; crunch pairing &rarr; twist &amp; snap &rarr; next torus &mdash; the winding (colors) survives: the genome</div>
+<div id="stage"></div>
+<canvas id="cv" width="760" height="420"></canvas><br>
+<input type="range" id="tau" min="0" max="1000" value="0">
+<br><button onclick="autoplay()">&#9654; play the cycle</button><button onclick="stopplay()">&#9632; stop</button>
+<script>
+const cv=document.getElementById('cv'),cx=cv.getContext('2d'),W=cv.width,H=cv.height,CXc=W/2,CYc=H/2;
+const N_WIND=20; // the draw's winding integer (Kibble 10-30; the hue pattern = the genome)
+let seed=42; function rnd(){seed=(seed*1103515245+12345)&0x7fffffff;return seed/0x7fffffff}
+const stages=[[0.00,"THE ZERO-POINT: vacuum fluctuations -- no shape, no time, only jitter. The oldest customer waits."],
+[0.08,"THE DRAW (genesis): Kibble picks the winding n -- the phase locks around the torus. The genome is written."],
+[0.16,"RADIATION ERA: the torus inflates; the winding stretches but cannot unwind (topology). The twist energy redshifts a&#8315;&#8308;."],
+[0.30,"THE WINDOW OPENS (T_c = 193 keV, during BBN): the electron-midwife's loop condenses the medium -- THE RESIDENT (the twin-pair) IS BORN and pays the leptons their 1.25%."],
+[0.42,"MATTER ERA: the pairs bind the structure; dwarf cores at the kpc grain; the window closes at z&asymp;50."],
+[0.58,"DE SITTER: the vacuum's binding energy (one quantum per cell) is all that is left to pay -- the floor, w = -1 exactly."],
+[0.74,"CONTRACTION: density rises; degeneracy pairing becomes mandatory (neutron-star physics at cosmic scale). The twins hold."],
+[0.87,"THE CRUNCH: the pressure floor refuses the singularity; everything melts EXCEPT the winding -- watch the colors survive."],
+[0.95,"THE SNAP: the protected twist re-locks into the next torus. Same genome, new body. The cycle breathes again."]];
+function stageFor(t){let s=stages[0];for(const g of stages) if(t>=g[0]) s=g;return s[1]}
+function torus(t){
+ // cycle geometry: R grows to max at tau ~0.6 then contracts to the snap
+ let R,r,glow=0,jit=0,snap=0;
+ if(t<0.08){R=8+50*t;r=3;jit=1-t/0.08}
+ else if(t<0.66){const u=(t-0.08)/0.58;R=12+178*Math.pow(u,0.7);r=6+34*Math.pow(u,0.8)}
+ else if(t<0.95){const u=(t-0.66)/0.29;R=190-165*Math.pow(u,1.4);r=40-30*Math.pow(u,1.2);glow=Math.pow(u,2)}
+ else{const u=(t-0.95)/0.05;snap=1;R=25+40*u;r=10+6*u;glow=1-u}
+ return {R,r,glow,jit,snap}}
+function draw(){
+ const t=document.getElementById('tau').value/1000;
+ document.getElementById('stage').innerHTML=stageFor(t);
+ cx.clearRect(0,0,W,H);
+ const {R,r,glow,jit,snap}=torus(t);
+ seed=42;
+ if(jit>0){ // zero-point noise field
+   cx.globalAlpha=jit;for(let i=0;i<420;i++){const x=rnd()*W,y=rnd()*H,a=rnd();cx.fillStyle=`rgba(140,170,255,${0.15+0.5*a})`;cx.fillRect(x,y,1.6,1.6)}cx.globalAlpha=1}
+ // crunch glow (the pairing)
+ if(glow>0){const g=cx.createRadialGradient(CXc,CYc,2,CXc,CYc,R*2.4+40);g.addColorStop(0,`rgba(255,210,140,${0.55*glow})`);g.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=g;cx.fillRect(0,0,W,H)}
+ // the torus: ring of tube-circles, hue = winding phase theta(x)=2*pi*N*x/L (THE GENOME)
+ const twist=(t>0.66)?(t-0.66)*9:0; // the contraction twists the pattern
+ const M=140;
+ for(let i=0;i<M;i++){const a=2*Math.PI*i/M;
+  const ex=CXc+R*Math.cos(a),ey=CYc+R*0.42*Math.sin(a); // perspective squash
+  const hue=((N_WIND*(a/(2*Math.PI))+twist)%1)*360;
+  const depth=0.55+0.45*Math.sin(a); // fake 3D shading
+  cx.beginPath();cx.arc(ex,ey,Math.max(1.2,r*(0.7+0.3*Math.sin(a))),0,7);
+  cx.fillStyle=`hsla(${hue},85%,${38+22*depth}%,${0.75})`;cx.fill()}
+ // labels for the window + T_c marker on the slider track
+ cx.fillStyle='#7f8ba3';cx.font='11px system-ui';
+ cx.fillText('winding n = '+N_WIND+'  (the hue pattern = the genome; it survives the crunch)',W/2-170,H-10);
+ if(snap){cx.fillStyle='rgba(255,255,255,0.85)';cx.font='13px system-ui';cx.fillText('SAME COLORS. NEW UNIVERSE.',W/2-90,30)}
+}
+let timer=null;
+function autoplay(){stopplay();timer=setInterval(()=>{const s=document.getElementById('tau');s.value=(+s.value+2)%1001;draw()},33)}
+function stopplay(){if(timer){clearInterval(timer);timer=null}}
+document.getElementById('tau').addEventListener('input',draw);draw();
+</script></body></html>"""
+
+@app.get("/playground/cycle")
+async def prtoe_cycle_scrubber():
+    """The PRTOE cycle as a sliding scale (client-side canvas; ~zero server CPU)."""
+    return FastAPIResponse(content=_CYCLE_HTML, media_type="text/html")

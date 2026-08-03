@@ -21,6 +21,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0
@@ -36,7 +37,7 @@ theory:
       lensing: 'yes'
 params:
   YHe:
-    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236)'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
+    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
     derived: false
   omega_b:
     prior: {min: 0.0200, max: 0.0250}
@@ -74,7 +75,7 @@ params:
     ref: {dist: norm, loc: 0.701221, scale: 0.02}
     proposal: 0.02
     latex: \rho_\infty
-  varying_me: 1.01232
+  varying_me: 1.012543
   log10_z_rad:
     prior: {min: 3.0, max: 8.0}
     ref: {dist: norm, loc: 5.5, scale: 0.5}
@@ -128,7 +129,7 @@ params:
     latex: S_8
 
 prior:
-  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )"
+  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2 - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) + (0.01816831*((varying_me-1)*100) + (-0.00242341)*((varying_me-1)*100)**2)*1e-5 - 2.527e-5)/0.030e-5)**2 )"
 
 sampler:
   mcmc:

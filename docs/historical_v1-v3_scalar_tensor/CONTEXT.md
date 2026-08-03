@@ -59,7 +59,7 @@ else                        → de_mode = lambda_limit
 
 Do **not** mix `xi > 1e-8`, `xi >= 1e-7`, and `Omega0 > 0` as separate allocation gates.
 
-### Lambda routing
+### Λ routing
 
 ```
 Add Omega0_lambda to rho_tot only when NOT prtoe_is_physically_active OR de_mode == lambda_limit
@@ -95,7 +95,7 @@ Require Omega_cdm > 0 only when prtoe_has_separate_cdm() (null-limit / baryon-on
 δφ' = 0 at IC
 ```
 
-### Newtonian gauge constraint (before alpha/phi solve)
+### Newtonian gauge constraint (before α/φ solve)
 
 ```
 rho_plus_p_shear must include neutrino shear and PRTOE δF shear (via prtoe_accumulate_delta_F_shear) before prtoe_add_to_newtonian_constraint()

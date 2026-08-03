@@ -1,0 +1,1278 @@
+# The Open Derivations — the model's underived numbers and their current status
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+*This document tracks the numbers the model has not yet derived from first principles, and where each one
+currently stands. The finished derivations live in the topic documents (cited inline); this is the
+working front. Status labels: **derived** (forced from the framework), **candidate** (a closed form
+proposed, its referee pending), **estimate** (fixed at argument or profile grade), **input** (an
+irreducible assumption, named as such).*
+
+---
+
+## 1. The amplitude ε and its decomposition
+
+The single modification to known physics is a universal charged-lepton mass shift ε ≈ 1.24% (leptophilic
+— the quark channel is held off by loop order and by data, not by lepton number; the universality is
+across the lepton family, which is what the Koide protection rides), which decomposes as
+
+**ε = c · f̄ · α_c**
+
+| factor | value | status |
+|---|---|---|
+| **c** | 9/10 | **counting assumption, data-confirmed** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel), and independently landed on by the ε-blind ensemble at c = 0.903 [0.867, 0.942], −0.08σ from 9/10. The step that would have licensed a *democratic* count — routing the budget split through gravity's blindness — does not exist: no single criterion returns 9/10, and the ensemble's width does not separate the alternatives. See **the two-census marriage** below and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
+| **f̄** | 2/π ≈ 0.6366 | **strengthened candidate; the coupling form data-selected** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved by the data rather than forced by the framework — see below, where the residual "leading-order dominates" is named. The corpus's two independent measurements both land on 2/π: fit-implied f̄ = 0.6253 (+1.8%) and winding-sim 0.635 (+0.3%), rejecting the RMS reading 0.7071 at +13%. |
+
+**The two-census marriage — c's weakest joint, and what the routing step must show.** The
+decomposition runs two counts over two different, non-nested sets. **c = 9/10 counts
+recipients** — 9 charged fermions, quarks *in*. **The delivery is leptophilic** — not because
+lepton number forbids the quark coupling (the singlet |Ψ|² is L-neutral and screens nothing) but
+because that coupling is suppressed by loop order, (α/π)² = 5.4×10⁻⁶, and excluded by data at
++12–18σ on D/H. Either way the channel that actually delivers ε does not reach six of the nine it
+counts. Two censuses is lawful only if the budget-split genuinely
+routes through the **gravity terminal** (blindness ⟹ democratic) while the delivery rides the
+**scalar** channel. That two-stage routing is the step the census has never walked, and it is
+the softest link in the ε-decomposition's math.
+
+**What the audit finds when the step is walked.** The licensing premise is L1's blindness — the
+coupling of the medium (the dCDF superfluid) is identity-blind, reading only w. But *blind* is
+not *discrete*: a T_μν-blind coupling reads a continuous energy density, and nothing in the
+equivalence principle converts "does not read identity" into "one equal share per species, plus
+one for the vacuum."
+The corpus has in fact already run this argument elsewhere, and it did not return 9:
+the G-closure rebuild took the same blindness law — gravity reads energy, not identity — and
+concluded **the roster is every field in the vacuum**, catching "the medium's 9 fermions" as an
+error in that setting ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), the G-closure row).
+So the fork is closed on both sides: routed through gravity, the roster is not the charged nine
+and the count is not 9/10; not routed through gravity, the democratic rule has no warrant at all,
+because a gauge-singlet scalar couples to every operator with an independent coefficient — the
+corpus's own recorded NO-GO — and independent coefficients are the opposite of a democracy.
+
+**And the joint sits inside the c-derivation, not only beside it.** Membership on the roster is
+decided by *charge*: the seat argument seats the neutrino because "the ε-channel dresses the EM
+fraction of an electroweak mass, and it needs charge to grab"
+([PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md), the tenth-channel operator). The weights
+are then decided by *blindness*. One derivation using charge to choose who is counted and
+identity-blindness to choose how much each counts is the marriage in its sharpest form — and it
+is where the charge²-weighted reading lives, since an EM-fraction dressing channel is precisely
+where a Q² weight would be natural.
+
+**The two-stage argument does not exist, and the reason is structural rather than a missing
+calculation (docket item #126).** Run either criterion by itself and the count is not 9/10.
+
+| the criterion, run alone | what the roster becomes | what c becomes |
+|---|---|---|
+| **blindness** — the coupling reads energy, not identity | every field in the vacuum, which is the roster the G-closure rebuild returned under this same law | an energy-weighted share, not a species count |
+| **charge** — the ε-channel dresses an EM mass fraction and needs charge to grab | the charged nine, weighted by what selected them: Σ N_c Q² = 3 + 4 + 1 = **8** | **8/9 = 0.8889**, and ε = 16α/3π = 1.2388% |
+| **charge, carried all the way** — the neutral seat then weighs zero | the charged nine alone | **c = 1**, which the census excludes |
+
+The democratic count needs *membership* from the second row and *weights* from the first, and the
+two rows are the same coupling. That is the marriage, and it is not a gap to be filled — a coupling
+selective enough to build a charged roster is not blind, and a blind one does not stop at nine.
+**The gravity-routing licence is therefore unavailable, not merely unbuilt**, and c = 9/10 stands as
+what survives without it: a counting assumption the data confirms, not a count the framework forces.
+
+**What the data can and cannot do here.** The ε-blind ensemble lands at c = 0.903 [0.867, 0.942],
+−0.08σ from 9/10 — a genuine independent landing, and not an adjudication: at that width 12/13 sits
++0.53σ and the charge²-weighted 8/9 sits −0.38σ, **0.30σ from 9/10**, inside the ensemble's own
+error bar. The required width is set by the candidate spacing rather than by the current
+measurement: 9/10 and 8/9 differ by 0.0111. An ensemble whose width equals that spacing places the
+two one standard deviation apart, which is a marginal separation and not an exclusion. **A 3σ
+discrimination on that pair requires σ_c ≤ 0.0037 — a 10× sharpening, and since an ensemble's
+width falls as 1/√N, about 100× the data** (`scripts/c_census_discrimination_width.py`).
+The alternative the routing step was invoked to exclude is therefore not excluded by measurement
+either, and the required sample is not in hand; what remains against it is that the charge
+criterion, run to its end, returns the excluded c = 1. **Owed: nothing further that analysis alone
+can settle** — the closing move is an ensemble at σ_c ≤ 0.0037 or the α_c chain.
+
+**The velocity ladder — the interface named, and what the naming costs.** The base
+claim c₂ = √α·c places three of the model's speeds in exact geometric progression with ratio
+√α: light (c), the second sound (0.0854c), the Bohr velocity (αc) — the first sound sits √d
+above the middle rung. The one mechanism class that generically *produces* geometric-mean
+speeds is **matched-junction transfer** (a junction transmits without reflection when the
+intermediate impedance is the geometric mean of the two it joins), which reads the
+thermal mode as the reflection-free match between the radiative sector and the binding sector.
+
+**The interface, named — it is internal to the dCDF, and the impedance algebra is what names
+it.** A junction matches when Z_m = √(Z₁Z₂), and the specific impedance of a propagating
+channel is Z = ρ·v. So the *velocities* stand in geometric progression only if the *densities*
+do too, ρ_m = √(ρ₁ρ₂) — a condition one medium carrying three channels satisfies identically
+(ρ₁ = ρ₂ = ρ_m), and two media of unequal density do not. The ladder's three rungs are three
+responses of the single dCDF: its Goldstone propagating (light, c), its entropy wave (second
+sound, √α·c), and the binding its Goldstone's coupling sets (the Bohr velocity, αc). The
+junction is therefore the **Goldstone-channel ↔ binding-channel interface inside the one
+medium**, with the entropy wave as the matching section.
+
+**The apparent conflict dissolves, and the same algebra dissolves it.** The corpus's measured
+transfer — the baryon asymmetry's, η = n × transmission, at ~10⁻¹¹ — joins the dark medium to the
+visible one, densities many orders apart, where ρ_m = √(ρ₁ρ₂) has no occupant: that junction is
+unmatched by construction and *must* transmit far below unity. The internal mode-match shares
+one density and transmits at order unity. The impedance condition does not merely permit the
+two readings to name different interfaces; it separates them.
+
+**What the naming costs — it stays an identification, not a derivation (#129).** The premise
+the naming rides on — that the radiative and binding channels are responses of one medium — is
+not new debt: it is the **same-response identification** already owed by α_c below (one medium
+response setting both the photon's coupling and the condensate's compressibility). The ladder is
+refereed by that identification and adds no independent unknown — nor any independent
+*derivation*. The impedance algebra's amplitude half is an identity for one medium: ρ_m = √(ρ₁ρ₂)
+is automatic when ρ₁ = ρ₂ = ρ_m, so it certifies only that a single-medium junction *can* match
+without reflection, not that the second sound's speed *is* the geometric mean. What would force
+the speed is the *geometric* half — a matching section of definite length, the quarter-wave
+thickness or adiabatic taper — and that half has **no occupant** here: the three rungs are three
+co-located modes of one medium, and co-located modes share no spatial junction to size. A literal
+matched-junction *derivation* of c₂ = √(c·αc) needs two spatially separated media and a
+transition section, the very two-density configuration this single-medium reading rejects. So
+the middle rung is **α_c = d·α read forwards and rewritten** (c₁ = √α_c·c with Landau's
+c₂ = c₁/√d gives c₂ = √α·c *if* α_c = 3α), which
+[PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md) already records *without
+weight* — the claim rewritten, not evidence for it. **#129 closes negative:** supplying a section
+scale cannot upgrade the ladder to an independent derivation of the bet, because the section is
+ill-posed for one medium's co-modes; and any residual "matching length," were it well-posed,
+would inherit the constituent-level build (the constituents [PRTOE_light.md](exploratory/PRTOE_light.md) §6
+records as not yet specified), not further analysis here. The ladder's whole content is the
+consistency of α_c = 3α with Landau's √d and an impedance-matched internal junction; its weight
+is the same-response identification's (piece 1 below), and it carries none of its own.
+
+**The coupling form, resolved.** Once equidistribution is granted, the winding projection is
+cos θ with θ uniform on [0, 2π), and *which average* sets f̄ is the coupling's order. Four
+candidates, and the model's own data adjudicates: signed-linear ⟨cos⟩ = **0** (a signed
+projection averages to nothing — excluded outright by the observed ε > 0, so the coupling must
+be sign-insensitive); rectified-linear ⟨\|cos\|⟩ = **2/π = 0.6366**; RMS √⟨cos²⟩ = **0.7071**;
+variance ⟨cos²⟩ = **0.5**. A first-order Yukawa mass shift δm = g·A_eff is **linear** in the
+winding-projected condensate amplitude, and mass-positivity **rectifies** the sign — giving the
+mean-absolute, 2/π. The quadratic readings are the subleading (energy-density) coupling. And the
+corpus's two independent measurements — fit-implied f̄ = 0.6253, winding-sim = 0.635 — **both
+land on 2/π** (+1.8%, +0.3%) and **reject RMS at +13%** and variance further still. So the
+coupling form is not a free choice: mass-positivity rules out the signed average, leading-order
+dominance picks linear over quadratic, and the data confirms the selection over the RMS
+alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built
+family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form
+data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
+| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**: the induced loop's transverse trace gives d directly (geometry, independent of the coupling), and the phonon-gas second sound c₂ = c₁/√d (Landau) agrees — but that reading is the bet rewritten, not an independent arrival (the velocity ladder above). The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α is conditioned on the roster's induced fraction of α_EM — worked below). The α_c instrument (zon_disp — unconverged, not currently running) is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i). |
+
+**The base α's two owed pieces, worked (2026-07-20) — neither closes, and one of them names the
+wrong number.**
+
+*Piece 1 — the same-response identification.* The claim is that one medium response both induces
+the photon's coupling and sets the condensate's compressibility, entering each with unit
+coefficient. **The missing object is a two-channel polarization:** Π at zero momentum in the
+transverse channel (which is what induces the photon's coupling) and in the longitudinal/density
+channel (which is what fixes the compressibility), exhibited as one function with no relative O(1)
+between them. Neither is computed anywhere; the relation is only ever run backwards as a
+definition, since c_s = √α_c is a BEC sound-speed relation *adopted*, and once it is written
+"α_c sets the compressibility" is true by construction and carries no independent content.
+Computing the two channels needs the medium's constituents, which are recorded as not yet specified
+([PRTOE_light.md](exploratory/PRTOE_light.md) §6). **A posterior cannot substitute, and the reason is a type
+mismatch rather than a question of precision:** the α_c chain returns a scalar, and no scalar
+posterior separates *"α_c = 3α because one response sets both"* from *"α_c happens to equal
+0.0219"*. The owed object is an identity between two response functions, and an identity has no
+likelihood. (The chain does not even measure α_c directly — it fits log₁₀ z_on and converts through
+z_on ∝ α_c⁻² — so the value it returns is itself one inference removed.)
+
+**Symmetry constraint on the polarization tensor — most of the question is fixed without the
+constituents** (`scripts/two_channel_polarization_obstruction.py`). Gauge invariance forces Π^μν
+transverse. In a Lorentz-invariant vacuum the only available structure is (q²g^μν − q^μq^ν), so
+there is exactly **one** form factor and the two channels are the same function identically — the
+identification is automatic and carries no content. A medium supplies a second vector, its rest
+4-velocity, and then gauge invariance permits **two independent form factors**. Whether the
+single-form-factor structure survives is therefore a question about which symmetry the medium retains, not about its
+constituents. In normal degenerate matter the two channels are unequal in kind: Π_L(0, q→0) is the
+Debye mass and is finite, while Π_T(0, q→0) vanishes as q² — one channel is zero and the other is
+not, so no O(1) factor relates them. In a condensate both are finite and the unit-coefficient claim
+becomes the equality **n_s/m = ∂n/∂μ** — a stiffness against a phase twist set equal to a
+thermodynamic derivative. Those are tied only by a symmetry: Galilean invariance at T = 0 forces
+n_s = n exactly, and the relativistic analogue imposes the same constraint.
+
+**Conflict with the band structure the basement separately requires.** §6c requires a Fermi
+surface carrying a species-selective *chiral* chemical potential — a medium with both a preferred
+rest frame and a chirality, which is the structure that splits Π_T from Π_L and removes the
+relation between them. Piece 1 and the band-structure residue are therefore not independent debts
+sharing one object: they impose opposite requirements on the same tensor, and the structure that
+supplies one obstructs the other. **Still-open, and obstructed rather than uncomputed** — the
+sharpened question, answerable without specifying the constituents, is whether the medium retains
+an emergent Lorentz invariance at the scale the photon coupling is read.
+
+**That question is answered by recorded material, and the answer makes piece 1 empty rather than
+open.** [PRTOE_special_relativity.md](exploratory/PRTOE_special_relativity.md): *"Lorentz symmetry is exact in
+the IR limit and approximate fundamentally — the medium has a rest frame."* α_EM is read at q = 0,
+which is the IR limit. And [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6 records the
+standing basement as a **Fermi point, μ = 0** (the Volovik frame), noting that the finite-μ Fermi
+surface *"is what I introduced… It is not recorded anywhere else,"* with three routes to it walked
+and all three failing. At μ = 0 in the IR the medium supplies no rest-frame vector, gauge invariance
+leaves **one** form factor, Π_T = Π_L identically — and the unit-coefficient identity is true
+automatically, carrying no content.
+
+**So piece 1 is not a derivation waiting to be done.** It is a tautology on the recorded basement
+and false on the introduced one; either way there is nothing to derive. What the sector owes is a
+ruling on which basement stands.
+
+**There is no conflict, and the corpus already states the configuration that removes it.** §6c does
+not dope the medium; it requires **exactly two of the roster's forty-eight Weyl species to carry finite
+density, with the other forty-six sitting at μ = 0** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+§6). So the basement is not "a Fermi point" *or* "a Fermi surface" — it is a roster in which
+forty-six species sit at nodes and one pair is doped.
+
+**That makes the identity a computable correction rather than a tautology or a falsehood.** The
+forty-nine at μ = 0 are Lorentz-invariant and contribute a single form factor, so Π_T − Π_L is
+sourced by the **doped pair alone**, weighted by that pair's share of Σ Q² over the roster.
+
+**And the roster's charges are not unknown — §6c names them.** The Planck-floor roster is *"the
+Standard Model's 48 Weyl fermions plus three right-handed neutrinos"*, so the weighting is the
+Standard Model's own: Σ Q² = 16/3 per generation, **Σ Q² = 16** over the 48, with the three ν_R
+contributing zero. The split is therefore a **discrete choice over the roster**, not an open O(1):
+
+| doped pair | Q²(pair) | Π_T − Π_L as a fraction of Π |
+|---|---|---|
+| ν_L or ν_R | 0 | **0 — the identity is exact** |
+| d_L or d_R | 2/9 | 1.39% |
+| u_L or u_R | 8/9 | 5.56% |
+| e_L or e_R | 2 | 12.50% |
+
+So the unit-coefficient identification is **bounded in [0, 12.5%], and exact if the doped pair is
+electromagnetically neutral.** What piece 1 owes is not a calculation but an identification: *which*
+pair §6c dopes. That is a constituent-level choice, and the corpus already narrows it — the pair
+must form a compensated semimetal gapped by ⟨ψ̄_L ψ_R⟩.
+
+(The roster is **48** Weyl species, not 51: the finiteness table's 48 is 3 generations × 16 and the
+three right-handed neutrinos are already inside it — the Standard Model proper carries 45. Read as
+Dirac equivalents that is **N_screen = 24 N₀**, giving k = 0.618. The verdict is unchanged, since
+both that reading and N = 6 destroy the anchor.)
+
+*Piece 2 — the roster's induced split.* The claim conditions "base = α" on the recorded ~44%
+induced fraction. **That fraction belongs to a different coupling at a different scale.** The 44% is
+*hypercharge read at M_Z* (42.9 of 98.4). What α_c = 3α names is the *electromagnetic* α at zero
+momentum. Taking the corpus's own two Planck-scale boundary values — 1/α₂(M_Pl) = 49.4 and
+1/α_Y(M_Pl) = 55.5, with 1/α_EM = 1/α₂ + 1/α_Y — the bare electromagnetic value is
+**1/α_EM(M_Pl) = 104.9**, so the medium's loop supplies 137.036 − 104.9 = **32.14 of 1/α_EM(0),
+i.e. 23.5%** (±2 points on those values' own ±2 scheme band), and the constituent level supplies
+76.5%. The recorded figure is **1.86× too large for the quantity the identification actually
+uses**, and the direction is adverse: the coupling α_c is being tied to is *more* the constituent
+level's bare value and *less* the medium's own loop than the condition states. **A second
+inconsistency rides on the same number:** [PRTOE_light.md](exploratory/PRTOE_light.md) marks the 44%
+explicitly as *"an illustration tied to that reading scale, not an invariant"*, while this row and
+P-2026-040 make "base = α" stand or fall with it — and this same row commits α_c to being a
+**scale-independent** medium constant. A scale-independent claim cannot rest on a quantity its own
+source marks as scale-dependent. **A posterior helps even less here than for piece 1:** the split
+is a property of the roster, obtained by running measured couplings; it has now been computed for
+the right coupling and it disagrees with the recorded one, which is a fact about the roster that
+no fit to α_c can reach. **Still-open, and the condition's own number is replaced.**
+
+The three ε values in the corpus differ deliberately: 1.232% (production fit), ~1.24%
+(posterior), 1.2543% (the derived stack). The gap is inside the posterior width; the running
+measurements decide.
+
+---
+
+## 2. The dark-energy value
+
+The dark-energy scale is a closed form whose only dimensionful input is the electron mass:
+
+**ρ_Λ¼ = ½·α_c²·M₂ = (9/2)·α⁴·τ·m_e**, with **τ ≡ T_c/m_e**
+
+- **Chain:** m_e → T_c → M₂ = α²·T_c = 9.43 eV → ρ_Λ¼. Every factor is sourced: the α⁴ scaling and
+  M₂ = α²·T_c are structure, and **τ is fixed by the Koide kernel** — Parseval forces the kernel's
+  modulus to 1/√2 once Q = 2/3, so τ = ½ln2 = 0.34657, T_c = 177.10 keV, and
+  **ρ_Λ¼ = 2.2599 meV against the observed 2.25 — +0.44%**. Nothing cosmological enters that chain;
+  it descends from a lepton-mass fact measured to ten parts per million. **What that buys is
+  existence, not precision:** the composite quartic maps to λ = 26–46, and the radiative
+  correction on ρ_Λ¼ is bounded at 0.10–0.90% — comparable to the gap itself, with the residual
+  question one scattering amplitude, not the lattice. The chain lands on the scale; the two
+  decimal places are not claimed. See
+  [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge re-examination.
+- **τ = ½ln2 = 0.34657 — sourced, and what it must be told apart from.** The kernel gives τ directly;
+  the number to distinguish it from is **0.34506** = ρ_Λ¼(observed)/((9/2)α⁴m_e) = 2.25/6.5207, the
+  observed dark-energy density read backwards. If τ *were* that number the chain would run backwards
+  and return 2.25 by construction — a 0.0% match wearing a prediction's clothes. The kernel's value
+  sits **+0.44% above it**, and that gap is the entire dark-energy claim. **The gap is a statement
+  about τ, and it is exact arithmetic; the ρ_Λ¼ that τ predicts is not exact to the same order.**
+  The radiative correction on the composite quartic is uncontrolled (λ = 26–46 against λ\* = 22.41),
+  so the discrimination lives in a lattice measurement of τ itself rather than in the closeness of
+  the predicted meV to the observed one.
+
+  **What decides it, and the precision it needs.** A lattice T_c/√σ for SU(2) with N_f = 3. No such
+  determination exists: the published band 0.34–0.37 is an **SU(3)** value, the pure-glue anchors
+  disagree by ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71), and — decisively — that band is 8.5% wide while
+  the two hypotheses are 0.44% apart, so **it could not tell them apart even if it applied.**
+  Separating them takes σ ≲ 0.22% (P-2026-048's decision rule). The band does establish one thing:
+  it is a QCD-like confining sector, pure glue at 0.63 being excluded, which requires light dark
+  quarks (N_f ≥ 2) — consistent with N_f = 3.
+- **T_c = 177.10 keV — sourced by the kernel, and the routes that could not source it.** τ comes
+  from the Koide sector (Parseval on the circulant kernel), so T_c = τ·m_e is no longer circular:
+  τ is fixed elsewhere and T_c follows. Three routes were tried and none of them delivers it, which
+  is worth keeping because it says what the kernel is doing work for. **(i) Defining T_c as τ·m_e
+  while deriving τ from T_c** is circular, and was the original construction. **(ii) The
+  perturbative route** T_c = m_e0·√(3(L−1)/2π²) is scale-ambiguous through L, and with the exact
+  fermionic thermal kernel it reads **307–714 keV over L−1 ∈ [1, 10]** — a band that sits *above*
+  the adopted value rather than bracketing it, by 1.73× at its very bottom. (The 193 keV once
+  quoted from this route, and the wide envelope around it, both used the high-temperature
+  expansion, which at m_e/T_c ≈ 2.9 overstates the thermal restoration ~16-fold.) **(iii) The
+  published lattice band** T_c/√σ ≈ 0.34–0.37 is an **SU(3)** value where this sector is SU(2),
+  and no SU(2), N_f = 3 determination exists.
+
+  **What that band could deliver even if it applied:** with √σ = m_e it gives T_c ∈ [173.7, 189.1]
+  keV, so ρ_Λ¼ ∈ [2.217, 2.413] meV — **a ±4.2% window containing the observation, the kernel's
+  2.2599, and everything between.** Against a claim whose whole content is a 0.44% separation, a
+  ±4.2% band is an order of magnitude too coarse to say anything. **What would make this a test: a
+  lattice T_c/√σ for SU(2), N_f = 3 at σ ≲ 0.22%** — the number P-048 bets on, still uncomputed.
+  The perturbative Coleman–Weinberg route does not corroborate the adopted value at all: at
+  307–714 keV it **excludes** it, so the adopted value's source stays the confining chiral ratio,
+  not this route. This is the same scale BBN watches the ε-ramp switch at.
+- **The one input:** the portal **√σ_dark = m_e** — the dark confining sector's scale equals the
+  electron mass. This cannot be derived without abandoning τ ≈ 0.35 (a conformal sector that would
+  fix √σ_dark = m_e gives the wrong τ; the QCD-like sector that gives τ carries its own scale). It
+  is an **irreducible input** — the meV-scale dark-energy value, ρ_Λ ~ α⁴m_e — but a
+  **falsifiable** one (it predicts ~MeV dark states).
+- **Irreducible, and the total-input count.** No derivation exists — the τ-vs-scale obstruction
+  above is a genuine fork, not a gap to be
+  filled. The scope: √σ_dark = m_e is the one dimensionful input **of
+  this (dark-energy / confining) sector**, and it is *not* the theory's sole dimensionful anchor. The
+  ultralight quantum mass **m = 2.24×10⁻²⁰ eV** (the onset clock z_on, a separately *measured* input;
+  [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §Field 1) sets the DM / healing-length sector independently.
+  So the theory carries **exactly two dimensionful inputs** — m_e (confining/DE) and m (ultralight/onset) —
+  each falsifiable, each anchoring a different sector; every other scale (τ, T_c, M₂, ρ_Λ, Σm_ν, ξ) is one
+  of these two times pure numbers. Two anchors, not one: m_e is not the sole input, and the portal
+  is not a derivable quantity.
+
+---
+
+## 3. The dark sector
+
+The confining sector that binds the dark energy is a **3-flavour, lepton-partnered confining
+vacuum at the electron scale** (√σ_dark ≈ m_e). It sets the dark-energy binding scale only — the
+dark matter remains the medium's own ultralight excitations. Its condensates are the diquark and
+the chiral condensate; the electron-coupled scalar is neither of them, being the separate
+high-decay-constant field of §8 item 1b (§6).
+
+> **What supports the flavour count.** Not the '3' in α_c = 3α — that 3 is the spatial
+> dimension d (§1, MATH_SPINE §0), a different object — and not τ, which requires only
+> N_f ≥ 2 (§2). The candidate support is **Pauli finiteness
+> applied to this sector**, which forces **dark SU(2) with N_f = 3** as the unique integer solution
+> of str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 — see the note in §6, **including its live risk**
+> (τ's 0.34–0.37 band is an SU(3) value, and τ scales ρ_Λ¼ linearly). **Until that is settled the
+> flavour count is a candidate, not a derivation**, and the colour group N_c — never named anywhere
+> in this corpus — is an open slot this argument would fill.
+
+- **Cosmology (safe):** the ~MeV dark baryons cannot overclose. To be the dark matter they would need a
+  dark asymmetry ~1700× the visible one; at any natural asymmetry they are ≤10⁻³ of it, and symmetric
+  relics annihilate away (strong coupling). *(Verified 2026-07-28: n_dark/n_b = (Ω_DM/Ω_b)(m_p/m_dark)
+  with Ω_DM/Ω_b = 5.364 returns 1700× at **m_dark = 2.96 MeV**, so the recorded figure assumes the
+  few-MeV end of "~MeV". At 1 MeV the bound is **5033×**, a factor 3 stronger — the conclusion is
+  unaffected either way, but the number is mass-specific and should be quoted with its mass.)*
+- **Footprint (falsifiable).** A group-agnostic scan over g_dark = 2, 4, 8 gives
+  **ΔN_eff ≈ 0.05–0.3**. With the group fixed to SU(2) (§6), the count is determined — and
+  **pseudo-reality enlarges the chiral symmetry to SU(6) → Sp(6), giving 2N_f² − N_f − 1 = 14
+  Goldstones**, not the
+  N_f² − 1 = 8 an SU(3) sector gives. That is **1.75× that scan's ceiling**, and it puts
+  **ΔN_eff = 0.375 even at the earliest possible decoupling** — above Planck's ΔN_eff ≲ 0.3 (2σ), at *any*
+  T_dec (the largest g_dark Planck admits is 11.2). **The sector cannot escape by making the Goldstones
+  heavy:** a pseudo-Goldstone is lighter than its confinement scale (√σ_dark = m_e = 511 keV) by
+  construction, and **τ is spending exactly that lightness** — heavy dark quarks push T_c/√σ back toward
+  the pure-glue 0.69–0.71 and break §2's value. **And the freeze-out epoch is worse:** n/p freeze-out is at
+  T ≈ 700 keV while T_c = 177.10 keV, so **T/T_c ≈ 4.0 — the dark sector is deconfined at
+  freeze-out** and the Goldstones do not exist yet; the correct count there is dark quarks +
+  gluons = **27**, giving **ΔN_eff = 0.723** → ΔY_p ≈ +2.3σ *added to* the model's **+1.09σ
+  adverse Y_p deuterium row → ≈ +3.4σ**. **Consequence: the dark sector must have never
+  thermalised with the SM.** Registered as the fifth falsifier of **P-2026-048**.
+  (`scripts/dark_neff_su2.py`; predecessor `scripts/dark_neff.py`, `scripts/tau_deconfinement.py`.)
+- **The non-thermalization escape.** The falsifier is **confirmed on the recorded model** (the
+  v ≈ 175 keV electron-CW version of the electron-coupled scalar thermalizes; margins 10⁸–10¹⁷,
+  strengthened in trial: the U(1) seal, the 2-dof floor ΔN_eff = 1.14, the fluctuation nail);
+  **one branch survives — the zero-mode/high-f configuration of that scalar (v ≈ 100–500 TeV)**:
+  the constraints clear by 10⁸–10⁹, the ramp's synchronizer survives (first order in κ vs κ²
+  thermalization), the fifth-force wall closed by the corpus's own operator-level screening gate
+  (applied even-handedly: the recorded model needs the same gate ~10⁸-worse for electron g−2
+  before cosmology), residual **ΔN_eff ≈ 0.06–0.24 with the committed ζ window (§8 item 1b) — a
+  CMB-S4 (±0.03) detection target**. The branch's cost list (P1–P6: a new ~100-TeV input, the
+  identification of that scalar with the condensate drops, the electron-CW mechanism dies as
+  recorded, the BBN calculations re-run, the gate's owed checklist, a genesis-ζ commitment) is
+  recorded and settled; **the branch is the standing configuration (§8 item 1b)**.
+  √σ_dark = m_e and the headline result survive either way. Full record + verdict:
+  [Nontherm_Kill_Discussions.md](working_logs/Nontherm_Kill_Discussions.md) §6.
+  The rate check behind the recorded-model falsification:
+  Γ(dark–SM) < H at all T, run on the model's own recorded couplings: **(i)** gravity and the
+  census-closed portals pass (Γ/H ≈ 3×10⁻⁷ even at the bounce scale — the standard gravitational
+  escape holds *for those channels*). **(ii) The scalar–electron channel is fatal:** the
+  electron-CW mechanism needs κm_e² ~ 10⁻² active
+  in the SM bath to source the T_c = 177.10 keV ramp; that coupling (the post-SSB fluctuation vertex
+  g_ee = 2εm_e/v = 0.073 at v ≈ 175 keV — quadratic-canonical, see the fork resolution below) gives
+  **Γ/H ~ 10¹⁵–10¹⁹ from BBN to reheating** — full thermal equilibrium.
+  The bound is g_ee < 1.8×10⁻¹⁰ (equivalently v ≳ 3.6×10⁴ GeV): violated by 10⁸·⁶ in coupling. Under
+  the bound the mechanism's maximum deliverable amplitude is ε_max ≈ 2×10⁻¹⁶ vs the needed 1.25×10⁻²
+  — **the size-XOR-quiet wall (gate-0 §7.3) recurring: a scalar big enough to source ε
+  thermalises; one quiet enough not to cannot source ε.** **(iii)** The identification the corpus
+  then held (the electron-coupled scalar as the SU(2) sector's chiral condensate — since retired
+  in §6, which now keeps that scalar out of the sector's two condensates) drags the full 27 dof
+  in: ΔN_eff = 27/(7/4) = **15.4**; even a detached thermalised scalar alone gives 8/7 = **1.14**
+  (complex Ψ — the adversarial review's U(1) seal; the real-scalar half, 0.571, was the charitable
+  floor) > Planck's 0.3. **(iv) The timing pincer (normalization-independent):** the BBN engine
+  codes the ramp on T_γ with T_c ≈ 177–179 keV (the calculations are insensitive at this level);
+  synchrony requires ζ = T_dark/T_γ = 1 (⟹ ΔN_eff = 15.4); the quoted dilution ζ = 0.465 puts dark
+  confinement at T_γ = 385 keV and the escape's ζ ≤ 0.284 at ≥ 630 keV — desynchronising the coded
+  window ("off at n/p freeze-out, growing below T_c"). Every branch closes. **(v)** The only
+  recorded normalization that passes (f_L = 2.3×10¹¹ GeV, by 10⁵) is the single-field era ruled
+  out in §7.6 — it cannot produce the coded ramp; reviving it is a different model. **Net: the
+  ΔN_eff escape, the ε-ramp mechanism, and √σ_dark = m_e are pairwise-incompatible as recorded**
+  — the sharpest structural tension in the corpus, sharper than BBN D/H. *The normalization fork
+  surfaced here is resolved (2026-07-17): the operator is **quadratic-canonical** — dark-U(1)
+  forbids the linear coupling
+  ([PRTOE_gate0_qft_derivation.md](working_logs/PRTOE_gate0_qft_derivation.md) §1, which
+  pre-labels the linear amplitude formula as the quadratic operator's value); the "linear g_ee" is
+  only the post-SSB fluctuation vertex 2κv·m_e0. The recorded v ≈ 100 keV was a conflation (the
+  delivered shift ε inserted in the slot of the dimensionless coupling κm_e0²), with the
+  closed-form fix v = m_e0·[ε(L−1)/4π²]^(1/6) ≈ 175 keV, κm_e0² ≈ 0.108, g_ee ≈ 0.073 — **T_c, τ,
+  and ρ_Λ untouched (κ cancels in T_c)**, the gate-0 reduction survives at a more robust
+  1/6-power. All rate changes from the fix are ≤ 10² and adverse to the model — the
+  escape-failure finding is unaffected (marginally strengthened).* (Worked script: the
+  non-thermalization build, 2026-07-17; every crux number independently re-verified when it was
+  recorded.)
+- **The m_q squeeze — three constraints, one variable, and τ pulls against the other two.**
+  The dark quark mass is asked to be **light** by τ (**0.34657**; the rows here were computed at
+  0.345 — a 0.44% shift, immaterial to this squeeze) (§2 — heavy quarks drive T_c/√σ back toward
+  the pure-glue 0.69–0.71), and **heavy** by two independent others: (i) **ΔN_eff/Y_p**, which
+  needs Boltzmann suppression and gets none while τ keeps the quarks light; and (ii) **the depth
+  law + the coded BBN ramp**, because **N_f = 3 degenerate light quarks give a first-order
+  transition at any N_c** (the Columbia-plot corner — SU(3) included, so this predates and is
+  independent of §6's SU(2)), whereas the BBN engine's standing treatment is ε *"growing below
+  T_c — the order-parameter birth **ramp**"*
+  ([PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md)), and a first-order transition **jumps** the
+  order parameter rather than growing it. Amendment 5 (the depth law, total) forbids that step
+  outright: a dynamical discontinuity is not quantized, not topological, not a protected zero, so
+  it has **no exemption clause**.
+  [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5 already names this failure mode —
+  *"otherwise the transition boils, first-order"* — for a different sector, in the same grammar.
+  **Run — the window is not empty, and it pins m_q.** The framing that raised the alarm was
+  wrong: *"N_f = 3 light quarks → first order"* is the **chiral-limit** statement, and this sector
+  is not in the chiral limit ("light" means light *relative to Λ*, not massless). Against the QCD
+  anchors τ is quoted from (chiral T_c/√σ ≈ 0.300 at m_π/√σ = 0; physical ≈ 0.352 at 0.318),
+  **τ (0.345 as this row's input; the kernel's 0.34657) sits at m_π/√σ ≈ 0.274**, while the
+  Columbia first-order corner ends at **0.06–0.16** — the sector is **above it by 1.7–4.6×**.
+  **The transition is a crossover**, so τ and the depth law are compatible and the coded
+  order-parameter birth ramp is correct. What the squeeze buys instead of a falsification is a
+  number the model never had: **m_π,dark ≈ 140 keV**, and via GMOR **m_q,dark ≈ 38 keV**. ΔN_eff
+  is *not* rescued by it — at freeze-out the sector is deconfined and m_q/T = 0.055 is
+  unsuppressed — so P-048's non-thermalisation falsifier carries that constraint, not the mass.
+  **Two of three compatible; the third is a registered falsifier.**
+
+---
+
+## 4. The neutrino sector
+
+- **Σm_ν ≈ 61.4 meV, normal ordering — recorded prediction**, from the tie ρ_Λ¼ = m_ν,lightest (the DE
+  floor equals the lightest neutrino mass). Requires the Majorana mechanism. The tie now has a
+  **forward mechanism** (`scripts/kubo_freeze.py`): the dark condensate thermally settles into the
+  cosmic neutrino bath (its only tree-level partner) with Γ/H ≈ 5×10¹⁰ ≫ 1 — it tracks the bath — and
+  the settling freezes when the bath goes non-relativistic and decouples. The **lightest** neutrino is
+  the last relativistic friction partner (heavier species go NR earlier), so it sets the final freeze.
+  **The tie's arrow is re-homed:** the equality's *source* is the mass-generation identity read
+  forward (the tenth-channel seat term — operator exhibited, with its UV form; the floor sets m₁),
+  and the Kubo settling above is the *dynamics* that then freezes there by construction. See
+  [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md).
+- **The spurion μ = 2.25 meV** — a soft lepton-number-breaking dimension-1 scale that sets both
+  the dark-energy floor (ρ_inf = κ_V μ⁴) and the direct light neutrino mass (m_ν = κ_m μ), tie
+  exact to 2.2%. **Graded: μ is not an independent input.** It equals ρ_Λ¼ = m_ν,lightest = the
+  electron-mass-anchored meV-scale value of §2 (the headline chain (9/2)α⁴τ·m_e = **2.2599 meV**,
+  against the observed 2.25 — a **+0.44%** prediction), with κ_V, κ_m the O(1) ties. **What the tie
+  constrains is the combination, not either constant.** ρ_inf¼ = κ_V¼·μ against m_ν = κ_m·μ makes
+  ρ_Λ¼ = m_ν,lightest the condition **κ_m = κ_V¼** — so the seat constant is not "κ_m ≈ 1" but a
+  ratio, and neither factor is separately fixed by it. The fourth root also sets how tight the tie
+  is: a factor-f error on the dark-energy O(1) moves the neutrino side only as f¼, so the recorded
+  2.2% tolerance leaves κ_V free across a factor 1.09 and constrains κ_m and κ_V individually not at
+  all. Any attempt on "the seat constant" must therefore target the ratio; computing κ_m alone
+  closes nothing. It is
+  downstream of the *one* irreducible input, the portal √σ_dark = m_e (§6), not a separate knob.
+- **v_L (the seesaw scale)** — two mutually exclusive corners (resonant → MeV, within CMB-S4's
+  reach; junction double-duty → ≥ GeV, beyond it); the point value awaits the coupling λ′, and
+  CMB-S4 is the corner-selector.
+
+---
+
+## 5. Induced gravity (no bare G)
+
+Gravity is induced by the medium's one-loop content, with no fundamental Einstein–Hilbert term. See
+[PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md).
+
+- **The keystone, str[k₁] = 0 (Pauli finiteness):** the species sum (fermions +1 per Weyl, twelve gauge
+  bosons −4 each) is −3 for the Standard Model alone and **0 for the Standard Model plus three right-handed
+  neutrinos** — the content the model already needs for Majorana masses. Registered as **P-2026-045**
+  (exactly three right-handed neutrinos, three generations, no light steriles).
+- **Checked — the caveat is now named:** the count runs over fermions and gauge bosons only. The
+  Higgs scalars enter the same coefficient generically as (1/6 − ξ_H), so the exact-zero balance
+  is ξ-independent only if the induced-G scalar weight is zero — otherwise it requires ξ_H = 1/6,
+  the same input the G *value* needs. **Verified: Visser 2002, Eq. 35 assigns each real scalar the
+  weight (1/6 − ξ), confirming the ξ_H = 1/6 (conformal Higgs) requirement. The "hole" reduces to
+  one named assumption (§8 item 2).** P-045 carries this caveat.
+- **The number of generations is three,** forced by the finiteness condition. That is a
+  species count and nothing more — what it does *not* reach (the mass ratios, the mixing
+  angles) is §9.
+- **The G value is not computed** — it needs the Higgs ξ_H, a Standard-Model input the framework does not
+  fix. What stands is the finiteness condition and its forward tests.
+
+## 6. The constituent-level roster
+
+> **The "3" in α_c = 3α is the spatial dimension d, not the flavour
+> count.** §1 and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §0 hold (*"α_c = 3α = d·α"*, the
+> transverse-projector trace of the induced loop), so the dark sector's three flavours are no
+> warrant for it. One attribution pattern runs through this sector — chirality double-sourced
+> from the winding n *and* p-wave L; the generation count from str[k₁] = 0 *and* Weyl nodes; the
+> "3" from d *and* flavours — and in each of the three only one claimant survives.
+>
+> **What holds the dark flavour count.** Not α_c, and not τ, which requires only
+> N_f ≥ 2 (§2); the corpus never names the
+> dark colour group N_c at all. But [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2 states
+> the finiteness sum runs over **"every field in the vacuum — not the model's coupling roster"** —
+> and **the §5 table counts only the Standard Model's 48 Weyl fermions and 12 gauge bosons. The dark
+> sector is missing from the model's own sum.** That is a defect regardless of what follows.
+> Supplying it, and requiring the dark sector to self-cancel (the SM part already does, and the
+> Higgs contributes zero at ξ_H = 1/6):
+>
+> **str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0 ⟹ N_f = 2(N_c² − 1)/N_c**
+>
+> | N_c | 2 | 3 | 4 | 5 | 6 |
+> |---|---|---|---|---|---|
+> | N_f | **3 — integer** | 5.33 | 7.5 | 9.6 | 11.67 |
+>
+> **N_c = 2 is the unique colour group admitting an integer flavour count, and it gives N_f = 3
+> exactly** (quarks +12, gluons −12). The same condition that forces three generations would force
+> **dark SU(2) with three flavours** — a genuine warrant where the α_c one was false.
+>
+> **The uniqueness extends to all N_c, not only the five rows above**, because
+> the condition splits: **N_f = 2(N_c²−1)/N_c = 2N_c − 2/N_c**. The first term is an integer for
+> every N_c, so **N_f is an integer if and only if N_c divides 2** — leaving only N_c = 1, which has
+> no gluons and returns the empty theory (N_f = 0), and N_c = 2, which returns 3. The same
+> expression accounts for the larger groups: N_f falls 2/N_c below the even integer 2N_c, a
+> shortfall that decreases with N_c and is nonzero for every finite N_c
+> (`scripts/dark_colour_uniqueness_proof.py`).
+>
+> **The consilience — SU(2) independently delivers three things the model already
+> required, for reasons that have nothing to do with this counting.** Two-color QCD's fundamental
+> representation is **pseudo-real**, so a colour singlet needs an **even** number of quarks:
+> **its baryons are bosons — diquarks** [Kogut–Stephanov–Toublan; Hands et al.].
+> 1. **The BEC side, which §4 demands.** The occupancy argument's owned assumption is that it holds
+>    *"on the strong-coupling (BEC) side of the BCS–BEC crossover… verified to fail on the weak side."*
+>    Two-color QCD is the **canonical diquark-BEC system** and the textbook realization of the
+>    **BEC–BCS crossover**. §4 already wrote the punchline — *"the two sides of condensed matter's
+>    most famous crossover perform the two famous jobs in one vacuum"* — without naming the group
+>    that provides the crossover.
+> 2. **ℓ = 0, which the DE value selects.** The lightest SU(2) baryon is the **scalar diquark** —
+>    s-wave. That is the channel [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)
+>    §4c's table selects at +0.44% and excludes at −74.9% (p-wave) and −93.7% (f-wave).
+> 3. **"He-3-A missing its baryonic matter" — as group theory, not analogy.** He-3 pairs p-wave
+>    because its baryonic hard core suppresses ℓ = 0. In two-color QCD there **are no fermionic
+>    hard-core baryons**: the baryons are bosonic diquarks. The core that forces helium up to L = 1
+>    does not exist, so s-wave is unsuppressed — which is precisely the mechanism §4c invokes and
+>    precisely what the ℓ = 0 selection needs.
+>
+> **Registered as P-2026-048** — the dark colour group is SU(2), N_f = 3, and
+> **T_c/√σ = 0.34657** for SU(2) with three light flavours, to be told apart from the
+> observation-inverted 0.34506 (§2); see
+> [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md). The model's first
+> prediction addressed to a *lattice computation* rather than a telescope.
+>
+> **Candidate, not yet on the record — one number decides it, and it is not yet computed.**
+> *The τ collision:* τ is sourced by the Koide kernel — Parseval forces the kernel's modulus
+> to 1/√2 once Q = 2/3, giving τ = ½ln2 = 0.34657 (§2). The lattice band T_c/√σ ≈ 0.34–0.37 for a
+> **QCD-like (SU(3))** sector is the independent check on it, with SU(3) pure glue at 0.63
+> excluded — and τ scales ρ_Λ¼ **linearly**, so the headline result's +0.44% rides on it.
+> Lattice anchors are firm for pure glue (**SU(3): 0.63; SU(2): 0.69–0.71**, ~11% higher), but
+> **no published T_c/√σ for SU(2) with N_f = 3 light flavours was located** — the two-color
+> literature is dominated by N_f = 2 at finite *density*. An independent adversarial analysis
+> (defend-vs-challenge with a neutral referee — [Basement_Roster_Discussions.md](working_logs/Basement_Roster_Discussions.md))
+> sharpened this on two points, both sides self-correcting against their own interest. First, the
+> SU(3) √σ **cancels** in the transport: the glue→N_f=3 reduction is a pure temperature ratio
+> r₃ = 1 − T_c^phys/T_c^glue, so √σ divides out — the earlier naive **0.38–0.39** was partly a
+> mixed-convention artifact, not a real value. Second, the convention-clean unquenching reduction is
+> ~42% (not 45%), which puts the honest dof-family band at **τ ≈ 0.355–0.382, centre ~0.36**
+> (ρ_Λ¼ a few percent **above** the observation), pointing the right way on physics (N_f/N_c = 1.5 vs
+> SU(3)'s 1.0). A dedicated literature sweep (2026-07-17, every paper read in full — the addendum in
+> [Basement_Roster_Discussions.md](working_logs/Basement_Roster_Discussions.md)) then
+> anchored the question to measured neighbours: **no lattice determination of SU(2) N_f = 3 exists
+> anywhere**; the measured anchors are SU(2) N_f = 2 at **T_d/√σ = 0.483(23)** (deconfinement, heavy
+> quarks; Braguta school) and a chiral crossover pinned only to **0.36–0.48** (Iida–Itou–Lee, ~30%
+> internal systematic), with the SU(3) N_f-dependence (Karsch–Laermann–Peikert) showing the flavour
+> suppression **saturates** (−0.21 for two flavours, −0.03 for the third). The inference bracket:
+> **τ(SU(2), N_f = 3, chiral) ≈ 0.39 ± 0.05** (generous 0.34–0.45), every step past the measured
+> 0.483 an SU(3)-analog transfer, stated not hidden. **Verdict (standing): the kernel's
+> τ = 0.34657 sits at the bottom edge of the literature bracket — permitted, not favoured; the
+> centre (~0.40) is above the
+> model. Reaching it requires both (i) the transition being the chiral/condensation one, not
+> deconfinement (if the mechanism keys on deconfinement, the supported value is ~0.48 — real
+> tension), and (ii) near-maximal continuum/chiral-limit suppression. On fork (i) the model has a
+> genuine argument: the dCDF's T_c is a pairing/condensation transition — the chiral-condensate
+> analog, not the Polyakov-loop one — and in SU(2) the two transitions demonstrably decouple
+> (Kaczmarek et al.: the Polyakov susceptibility peak shrinks with lighter quarks, opposite of
+> SU(3)), so the chiral T_c legitimately sits below the deconfinement number (argument-grade). Fork
+> (ii) is not arguable from here — only a dedicated SU(2) N_f = 3 lattice run decides it, and this
+> sweep establishes nobody has run one.**
+> *Assumptions, named:* dark quarks Dirac and in the fundamental — adjoint or Weyl/Majorana content
+> changes the counting. *Both follow-ons are settled in §3:* the ΔN_eff footprint is recomputed at
+> N_c = 2 — and the answer changed sign (`scripts/dark_neff_su2.py`) — and the SU(2) chiral
+> transition, reported first order in the literature, is ruled a **crossover** here against the
+> settling-attractor requirement in [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) §5, so τ
+> and the depth law are compatible.
+
+**The two condensates, kept distinct.** The SU(2) sector carries two condensates: the **diquark**
+condensate ⟨qq⟩ — which *is* the dCDF, and which owns this section's consilience (the BEC side, the
+scalar-diquark ℓ = 0 selection, the no-hard-core grammar are all ⟨qq⟩ statements and stand) — and
+the sector's own **chiral** condensate ⟨q̄q⟩, an internal object with no SM coupling. **The
+electron-coupled scalar is neither**: it is the separate high-decay-constant field of §8 item 1b.
+The honest re-assessment of the former one-object reading, in three parts: (i) **the single T_c
+splits into two electron-anchored scales** — the SU(2) confinement scale τ·m_e = 177.10 keV (the
+headline result's, portal-anchored, lattice-gated) and the scalar's electron-loop restoration
+scale (the κ-independent formula, which at the exact thermal kernel reads 307–714 keV over
+L−1 ∈ [1, 10]; the BBN-stability bound, stated on the derived anchor, is **[70, 500] keV** — the
+deuterium bottleneck below it and the weak-rate window above it, the two clocks that actually
+bound T_c — and 177.10 keV sits interior, 2.5× above the lower edge and 2.8× below the upper.
+**Across that entire range the BBN verdict moves by at most 0.32σ on D/H**, so the bound cannot
+be broken by any re-pin inside it; the kernel's own 1.1% move costs 0.0022σ, one part in 449 of
+the row's width); they coincide at the electron scale for separate reasons (the portal vs the
+electron loop), not one object.
+
+> **What the split leaves open, stated out loud.** ε is the **electron-coupled scalar's** order
+> parameter, so the BBN ramp ε(T) = ε(1 − T/T_c) should key on **that scalar's** transition — and
+> the corpus keys it on 177.10 keV, which this paragraph has just assigned to the *other* scale.
+> That was harmless while the scalar's own band was the retired [40, 900] keV, which straddled it.
+> With the exact thermal kernel the band is **307–714 keV**, sitting **entirely above** 177.10 keV
+> — a factor **1.73 to 4.03** — and **53% of it lies above the BBN bound's 500 keV**, everything
+> past L−1 = 4.1. So "coinciding at the electron scale" is now a statement about the decade and
+> not about the number, and two things follow that this corpus has not said: the ramp is keyed on
+> a scale that belongs to a different field, and the argument for doing so is that the scalar's
+> own perturbative route is too scale-ambiguous to key on (MATH_SPINE §4), which is a reason to
+> distrust the alternative rather than a reason to believe the choice. **Either the two scales are
+> one object after all — which is what the headline result's ownership question also turns on — or
+> the ramp needs its keying justified on the scalar's own transition.** **And the debt is
+> numerical as well as structural.** The ≤ 0.32σ whole-range swing that would have made this safe
+> is stated *on* the range [70, 500] keV, and over half the scalar's band sits outside it, where
+> the scalar reaches n/p freeze-out and helium moves — an effect that bound does not cover. So the
+> BBN calculations are **not** established over the corrected band. Re-keying the ramp onto the
+> scalar's own transition, and recomputing BBN above 500 keV, is docket item **#182**; analysis
+> only, with no external input needed.
+
+(ii) **The Majoron scale, evaluated at all three corners (2026-07-18).** The prediction registry
+already carries v_L's two corners (resonant → MeV, within CMB-S4's reach; non-resonant → ≥ GeV,
+beyond it; CMB-S4 the corner-selector), and the ν-tie's recorded forward mechanism
+(`scripts/kubo_freeze.py`) rides the Majoron vertex: Γ/H ∝ (m₃/v_L)², = 5×10¹⁰ at the 4.2 MeV
+launch value, unity at **v_L ≈ 0.9 TeV**, 9.6×10⁻⁶ at 300 TeV. Against the thermalization floor
+f ≳ 40 TeV this gives a clean three-corner table — with one further constraint on the list: **ν
+free-streaming at recombination.** The Majoron's νν̄ ↔ φ channel re-couples the neutrino bath at
+Γ/H(z ≈ 1100) ∝ g²m₃²/(4πTH) — and the CMB is a free-streaming referee. The tested table
+(estimate grade — order-of-magnitude rates; the literature anchors and a proper Boltzmann pass
+are owed):
+
+| corner | tie tracking | ν free-streaming at z ≈ 1100 (computed) | standing |
+|---|---|---|---|
+| **A: f = v_L ≈ 100–500 TeV** | dead (ceiling 2.4 TeV vs floor 40 TeV — a factor 17) | Γ/H ~ 3×10⁻³⁸ — CMB-safe, beyond CMB-S4's reach, invisible in 0νββχ | tie-dead |
+| **B: v_L in the corridor (below)** | no channel — the corridor's bounds rode P-2026-052 | *(no bound: P-2026-052's channel is kinematically closed)* | not a corner |
+| **C: v_L ~ MeV** | alive (5×10¹⁰, condensate-friction) | *(no deep-recoupling stress: P-2026-052's channel is kinematically closed)* | **alive — clears every applied constraint** |
+
+**There is no corridor floor bound and no recoupling epoch**: the νν̄ ↔ φ channel is
+kinematically closed at the recorded Majoron mass m_J ~ (1–3)H₀ ≪ 2m₁ (P-2026-052's
+autopsy is in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); for an ultralight Majoron the
+free-streaming constraint returns no discriminator at any corner (g⁴ exchange only, Γ/H ≲ 10⁻⁵
+everywhere; the massless-mediator CMB bound g ≲ few×10⁻⁷ is passed by ≥ 20× at the MeV corner).
+**What stands on this fork (rates computed):** the free-streaming constraint
+is clean at every corner by six orders or more (Γ/H at recombination: 8×10⁻⁷ at the MeV corner,
+2×10⁻²⁸ at the TeV class, 3×10⁻³⁸ at one scale — the 2↔2 exchange rate Γ ≈ 7.3×10⁻³·g⁴·T
+against the epoch's H). The one-scale corner remains **tie-dead**: the condensate-friction
+channel is a coherent-mode damping rate (Γ ≈ g²T/8π, evaluated where the settling freezes —
+the lightest neutrino going non-relativistic at z ≈ 12.4), giving a ceiling **v_L ≲ 2.4 TeV**
+against the thermalization floor f ≥ 40 TeV — a factor 17, decisive. *(A cruder estimate of the
+same rate puts the ceiling ×2.6 lower, at 0.94 TeV, and changes no verdict.)*
+The TeV and MeV corners are **both alive**, and the corner-selector
+is the prediction registry's original referee — the CMB-S4 Majoron/ν-interaction search (a
+detection at g ~ 10⁻⁸–10⁻⁹ selects the MeV corner and its resonant-leptogenesis route; a null
+leans high-v_L). **The SN1987A constraint, verified against the literature: both
+corners clear.** The Majoron–ν channel is
+kinematically open in the supernova core and ungated, and the bounds are: the classic
+luminosity/trapping exclusion band **3×10⁻⁷ < g < 2×10⁻⁵** (Kachelriess et al. 2000; Farzan
+hep-ph/0211375, medium effects included), and the modern SN1987A likelihood analysis
+(arXiv:2410.11517, PRD) at **g₁₁ ≲ 10⁻⁷–10⁻⁶ for m₁ ~ 1–10 meV** — which applies to the
+mass-basis-diagonal singlet Majoron through matter-induced off-diagonal couplings. The MeV
+corner's largest coupling (g₃₃ = 1.2×10⁻⁸) clears the classic band by ~25× and the modern
+bound by ≥ 8×; the high-v_L corner clears everything by ≥ 5 orders. The remaining laboratory and
+astrophysical constraints clear: stellar cooling (the scalar's screening gate is closed in
+stars), μ→eJ (singlet Majoron — tree charged coupling absent), BBN thermalization (coalescence
+closed, 2↔2 is g⁴), long-range forces (matter coupling two-loop-suppressed; ν self-interaction below
+ultralight-mediator bounds). The two-scale structure (f ≠ v_L, three dark fields) stands on the
+one-scale corner's tie-death alone. Corner selection: **open — both corners clear every
+constraint the model can apply; CMB-S4 is the selector.**
+
+**What the test settles and what it leaves:** the TeV and MeV corners
+both survive every constraint applied so far and CMB-S4 is the sole selector (a g ~ 10⁻⁸–10⁻⁹
+detection selects MeV and its resonant-leptogenesis route; a null leans high-v_L); the one-scale
+corner stays tie-dead on the condensate-friction ceiling alone. **The un-merger's residue is
+paid:** the tie's mode is re-homed — the tenth-channel mass relation (the seat term, operator
+exhibited with its UV form; [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)); the seat
+constant b is the remaining number gated on the constituent level. *(The tie's numerical
+equality, and the c = 9/10 lock that seats on the equality, are untouched by the corner choice —
+what varies is the mechanism's grade.)* The corner selection is open. (iii) The
+one-object field economy is lost — an aesthetic price, stated as one.
+
+The medium's microscopic content remains the **paired lepton-sector vacuum** — leptophilic by loop
+order and by data, with three flavours (see the note above — the α_c warrant is retired; the
+finiteness candidate is live), neutrinos interior (c = 9/10), and a lepton-number-breaking
+Goldstone (the Majoron tie) — read as the §3 dark confining sector's own description: one
+3-flavour, lepton-partnered, electron-scale confining vacuum. It supplies the roster the §5
+str[k₁] balance runs over. **Status: hypothesis** — coherent, and the electron-scale portal (§2)
+is its one irreducible input.
+
+### The constituent level's band structure — what the pairing host actually requires (2026-07-20)
+
+[PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c derives k = ln(1 + π/2α_c)/π exactly,
+on a host it names four conditions for — a finite chemical potential, Thomas–Fermi screening, the
+cone velocity v = 1 (supplied by the Fermi point), and two compensated bands — with §6e adding the
+percent-level velocity match r = v_e/v_h = 1 and §6b leaving *"show this channel condenses at
+λ = 0.03"*. Worked through, **the list is shorter than it looks: two of the debts are entailed by
+others, one is supplied by a law the corpus already records, and the species count is the whole
+residue.**
+
+**(i) Thomas–Fermi screening is not an independent condition.** It is what a finite chemical
+potential *means* — real carriers at finite density screen — and §6c's own statement of it
+(*"at a Fermi point with μ = 0 there are none"*) is the observation that it stands or falls with
+condition 1. The two are one condition.
+
+**(ii) "Condenses at λ = 0.03" is not independent either — it collapses into the two-band
+requirement, which is what makes that requirement load-bearing rather than decorative.** The
+particle-*particle* channel condenses at arbitrarily weak coupling for **any** Fermi surface,
+because time reversal guarantees ξ₋ₖ = ξₖ and the Cooper log is automatic. **The particle-hole
+channel has no such theorem.** Its ladder logarithm needs the nesting condition ξ_e(k) = −ξ_h(k),
+which a single band meets only on a set of measure zero — the Lindhard function is finite, a
+threshold coupling appears, and λ = 0.03 is nowhere near it. Two *compensated* pockets are the
+exception that restores the log: neutrality fixes k_F(e) = k_F(h), so the pair energy
+ξ_e − ξ_h = (v_e + v_h)(k − k_F) vanishes on the whole Fermi sphere and the ladder integral is
+∫dξ/ξ again — the excitonic-insulator statement (congruent pockets ⟹ instability at arbitrarily
+weak coupling; non-congruent ⟹ a threshold). So §6b's residual answers **yes conditionally on the
+two-band condition, and no without it**: the object that supplies the factor 2 in the screening is
+the same object that supplies the instability. One debt, not two.
+
+**(iii) The velocity match r = 1 is supplied — by the constitution, not by the band structure.**
+§6e calls it a genuine structural requirement on the constituent level's band structure, and
+records that nothing supplies it. Something does. Two bands with different cone slopes are two different maximum
+attainable velocities, which *is* the dimension-4 Lorentz-violating coefficient c_μν — and
+[PRTOE_LV_pricing.md](PRTOE_LV_pricing.md) records that coefficient at zero with the no-bridge
+clause as its reason: the dangerous operators are not suppressed, they are **unwritable**, because
+matter's only account with the medium is one universal metric. §6c's own condition-3 paragraph
+had already seen the connection — it calls v = 1 and r = 1 *"the same physics seen twice"* — and
+then supplied one from the Fermi point while leaving the other open. They stand together: one
+emergent metric admits one cone slope, so r = 1 holds exactly rather than to the percent level
+the anchor's sensitivity demands. So this is **reduced, not derived** — the shield is stated for
+matter's coupling to the medium's frame and the roster is the medium's own Planck-floor content,
+so this is that clause read one layer down rather than cited.
+
+**(iv) The r-sensitivity is evaluated on one side only, and the missing side is the larger one.**
+§6e
+varies r through the screening density of states alone. The *pairing* density of states depends on
+r as well: for congruent pockets the excitonic pair variable is ξ̄ = (v_e + v_h)(k − k_F)/2, so
+N_pair = [2r/(1+r)]·N₀ — exactly N₀ at r = 1, falling away in either direction. Recomputed on §6c's
+own host, the screening term alone gives ∂lnM/∂r = **−3.85** (more screening, weaker coupling,
+*lower* anchor), and the two terms together give **+12.9**, the pairing side dominating and
+reversing the sign. The quoted +11.6 sits near the two-term value and does not follow from the
+one-term form stated beside it. The conclusion is unchanged and slightly strengthened: r must hold
+at the percent level, and (iii) is what holds it.
+
+**(v) What is left is the species count, and it is the whole residue.** The two-band condition
+requires exactly two of the roster's forty-eight Weyl species to carry finite density while the rest
+sit at μ = 0, and §6c's own arithmetic is what makes that unforgiving — the roster read as Dirac
+equivalents gives N_screen = 24 N₀, k = 0.618, and an anchor off by eighteen orders. **The missing
+object can now be named more precisely than "a chemical potential", and the sharpening explains why
+all three routes §6c walked failed: all three were *vector* chemical potentials, and a vector μ
+cannot build the configuration this channel needs.** Doping a Nielsen–Ninomiya node pair with a
+vector μ raises both nodes together and yields two *electron* pockets — no hole pocket, no nesting,
+no excitonic log. What yields one electron pocket and one hole pocket at exactly equal k_F with the
+vacuum's neutrality preserved identically is an **axial (chiral) chemical potential μ₅**:
+μ_R = +μ₅, μ_L = −μ₅ seats a particle pocket at one chirality and a hole pocket at the other,
+compensation is automatic rather than imposed, the two pockets are related by the discrete symmetry
+that pairs the nodes (so r = 1 is exact by symmetry as well as by (iii)), and the condensate that
+gaps them is ⟨ψ̄_L ψ_R⟩ — the neutral Dirac mass §6b already selects. **But μ₅ is chiral, so it
+couples to every Weyl species in the roster, which returns exactly the N ≈ 25.5 the file has
+already ruled out.** The axial route therefore supplies the *structure* and not the
+*selectivity*, and the residual reaches its sharpest form: **not "what gives the constituent level
+a Fermi surface" but "what gives one node pair a chiral chemical potential while the rest of the
+roster stays at μ₅ = 0."**
+
+**Candidate selector — the Z₃ family grading, structure the corpus already carries in another
+sector** (`scripts/mu5_selectivity_from_z3.py`, candidate grade). The Koide reduction forces a
+Z₃-graded family node and records its charges explicitly — on a 3-cycle the Fourier modes carry
+Z₃ charges **0, +1, −1**. A chemical potential conjugate to *that* charge is not democratic: it
+vanishes identically on the neutral mode and is equal-and-opposite on the remaining pair, which
+matches the residue's conditions — one particle pocket, one hole pocket, equal in magnitude, one node at zero.
+**It also evades the count objection that ruled out the ungraded version:** the Z₃ charges sum to
+zero, so a graded potential contributes nothing to any democratically summed quantity and cannot
+restore the ruled-out N ≈ 25.5. Neutrality is preserved identically rather than imposed, for the
+same reason. The graded form's (+,−,−) signature partitions the three modes
+exactly as the charge assignment does — the two express the same grading rather than coinciding.
+**The single remaining identification is whether the Z₃ family charge is the axial charge.** If it
+is, the selectivity is supplied by structure the model already carries for unrelated reasons.
+**Kill condition:** if the Z₃ charge is shown to commute with chirality — grading families rather
+than handedness — the identification fails and the residue stands as recorded.
+
+**The kill fires** (`scripts/z3_axial_identification_verdict.py`), on a requirement this sector
+imposes itself. The Z₃ must be a *genuine* symmetry making the three Fermi points one cone-sharing
+orbit — that is what the family node needs. A cyclic permutation is orientation-preserving, so nodes
+in one orbit carry the same Berry monopole charge q; Nielsen–Ninomiya sets the total over compact
+momentum space to zero, so 3q = 0 and **q = 0**. The three seats are topologically neutral, there is
+no chirality on them for a Z₃ charge to be identified with, and the Z₃ therefore grades the family
+index while chirality lives on the Dirac index — they commute. The identification is dead; §6c's
+residue stands as recorded.
+
+**The obstruction generalises, and that is what survives.** A symmetry that makes all three seats one
+orbit cannot also single out two of them: **any selector for the node pair must break the Z₃, and
+the family node needs the Z₃ exact.** So §6c's selector and the Koide node's symmetry pull against
+each other, and any future candidate supplying one must be checked against the other.
+
+**A selector now exists, and it is not the Z₃.** Thomas–Fermi screening weights carriers by charge
+squared, not by count, so N_screen = 2N₀ is a Diophantine condition on the roster with exactly two
+solutions — one charged lepton, or all three down-type quarks — and the second breaks the 1/q²
+Goldstone kernel by adding gluon Debye screening
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c). The selector is therefore *electric
+charge*, a property the family grading does not carry, and the portal names which lepton. It is a
+genuine selector and it duly breaks the Z₃, so it falls squarely under the obstruction above.
+
+**But the obstruction is scale-conditional, and the two requirements do not live at one scale.**
+The 3q = 0 argument needs the three seats to be one orbit *where the nodes are* — and that is the
+pairing shell, Λ_shell = 5.4×10¹⁷ GeV. The Koide node's Z₃ is a statement about charged-lepton
+masses, **17.5 orders below it.** Nothing forces the same symmetry to be realised identically at
+both, and only one direction lets both hold: **the family Z₃ is emergent — exact in the infrared
+where the Koide node lives, broken at the shell where the doping happens.** That is the standard
+direction for an emergent symmetry, which is an infrared accident violated by ultraviolet
+operators, and it is the reverse of the restoration pattern a fundamental symmetry would follow.
+
+The reading makes a commitment: **an emergent Z₃ cannot be exact, so the Koide relation must be
+approximate**, with a residual set by the ultraviolet breaking. It is — the two watches cannot
+both hold, and the light masses put the failure at **0.17 ppm in Q**
+([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). The sign of the argument is therefore right.
+
+**Candidate, not an account.** Nothing here sizes that residual: no spurion is exhibited, and the
+obvious scales miss it — (α/π)² = 5.4 ppm is thirty times too large, (m_e/Λ_shell) ~ 10⁻²¹
+hopelessly too small. **Kill condition:** exhibit the Z₃-breaking operator and show it cannot
+produce a residual of order 0.1 ppm, or show that an emergent family symmetry cannot survive to
+the precision the Koide relation already demonstrates.
+
+**And the reading makes no further prediction the sector can test.** If the breaking is the
+electron's doping it should be electron-localised, which sounds falsifiable and is not: fitting
+the zero-parameter node to the measured masses leaves residuals that rank the seats *oppositely*
+under the two natural spurion forms — additively the τ carries most (−2.7×10⁻⁴ in √m), relatively
+the electron does (+28.8 ppm). That is arithmetic, not evidence: the electron's seat ratio is
+0.0403 against the τ's 2.379, so any absolute perturbation looks largest there whatever its
+origin. Three masses with one fitted scale leave two residuals, which is exactly the freedom A and
+φ already consume, so nothing remains to test against.
+
+**What would give it a handle is a fourth measured mass governed by the same node — and there is
+none.** The charged leptons supply no fourth, and the neutrino triple cannot be on the node for
+*any* lightest mass: Q_ν falls monotonically from its m₁ = 0 value toward 1/3 as the spectrum
+degenerates, so its maximum is **0.585, short of 2/3 by 12.2%.** T6's "no m₁ brings it to 2/3" is
+a proof rather than an observation, and the margin is not marginal. **The reading therefore stays
+untestable inside the corpus's structure**, which is its status rather than a step toward one.
+
+> **⚠ Qualified 2026-07-29 — the "proof" is a proof about one sign branch.** Q = Σm ⁄ (Σ√m)² depends
+> on the signs chosen for the square roots, and the 0.585 ceiling assumes all three positive. The
+> ring form √m_k = a + 2|b|cos(φ + 2πk/3) generates a **negative** √m_k whenever 2|b| > a, and only
+> m = (√m)² is observable. On the **(−,+,+) branch Q_ν crosses 2/3 at m₁ ≈ 0.00040 eV**
+> (`scripts/neutrino_Q_sign_branch.py`, which reproduces the 0.585 ceiling exactly as a control).
+> So "no m₁ brings it to 2/3" is not a proof as stated — it is a proof given an assumption that was
+> never written down. Whether the negative branch is physically admissible is a separate and open
+> question. **Note the practical consequence runs the other way from the rhetoric here:** a fourth
+> measured mass governed by the same node may exist after all, since Brannen's φ = 2/9 + π/12 fit
+> reproduces the measured Δm²₃₁/Δm²₂₁ to 0.5% on exactly that branch and pins Σm_ν = 0.0585 eV —
+> which is a testable number, not an untestable reading.
+
+**The same result confirms the selector from a second direction, and that is the return.** T6
+concludes from the neutrino failure that "whatever pins the cone acts in the charged sector
+specifically". The basement arrives at the same place for an unrelated reason: Thomas–Fermi weights
+carriers by charge squared, so a neutrino cone is worth 2·N_c·q² = 0 and cannot be the doped pair.
+Two sectors, two arguments — one from a failed forward test on the mass triple, one from screening
+and the roster — and neither used the other. **Electric charge is the selector on both.**
+
+**What the pairing section would need to say.** That its four conditions are two: (1) *a
+species-selective chiral chemical potential on exactly one node pair* — which subsumes the old
+conditions 1, 2 and 4 and §6b's condensation residual, since screening, compensation and the
+excitonic log all follow from it; and (2) nothing further, condition 3 and §6e's r = 1 both being
+discharged by the one-metric clause. And that §6m's cold-versus-hot discriminator survives
+untouched: a chiral chemical potential is a **cold degenerate** structure, so the reading that
+reproduces k exactly is still the reading that contradicts the recorded hot Planck-era
+constituent level, and that fork is where the sector's real exposure sits.
+
+This is **reduced** — three unmet conditions plus one open residual go to one open residual, with
+the object named. **Still-open, and the missing object is the selection rule that dopes one node
+pair and not the roster.**
+
+Two scope notes attach to the named object, both from the shell's own scale. The conditions
+collapse further than stated — the screening constant depends on the species count and the band
+velocity only through their ratio, b = Nα_c/(πv), so conditions 3 and 4 were never separable and
+the ask is the single relation N = 2v, fenced at ±9% for factor-two accuracy on the anchor. But
+the object itself is unavailable there: **a chiral chemical potential needs a Dirac cone, and the
+unbroken phase has none** — every left-handed field is an SU(2) doublet and every right-handed
+one a singlet, so no opposite-chirality pair shares a representation. §6n's resolution is
+untouched, because it runs on a *vector* chemical potential, which a conserved charge can carry in
+either phase. What is lost is what μ₅ would have thrown in free: with two halves of one cone
+unavailable, the compensated pair must be two separately selected species and r = v_e/v_h = 1
+returns to being a matching requirement. The selection rule is therefore still the missing object,
+and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+§6c).
+
+---
+
+## 7. The genesis and structural numbers
+
+- **λ_phys ≈ (m/Ψ₀)² ≈ 2×10⁻⁹¹ — derived** (the ultralight field's axion quartic), pinned to a factor-~9
+  window by two independent bounds: black-hole support below (the quantum-pressure Kaup mass, ~4×10⁹ M☉,
+  is exceeded only with a repulsive amplitude quartic) and isocurvature above (P-2026-031). Two quartics
+  are involved: a repulsive *amplitude* quartic for the collapse floor, and an attractive *phase* quartic
+  for the isocurvature. P-031's amplitude (sub-%- to %-level) rests on an O(1) coefficient.
+- **n (the winding integer) — measured, not derived by design:** the one topological random draw at
+  the genesis transition (Kibble mechanism), n ~ 10–30, the shared source of the winding comb, the
+  isocurvature line, the matter asymmetry, and the magnetic helicity.
+- **η (the baryon asymmetry) — estimate:** η = n × junction transmission; the transfer integral
+  lands at the right order (~6×10⁻¹⁰) from recorded inputs. The thermal-leptogenesis route is dead
+  (×40–1000 under).
+- **A_s = (α_c/4πk)³ — derived at candidate grade (2026-07-28):** the closed form's three
+  vertices now carry a derivation by channel, count, and measure (the mathematical spine §23.5).
+  The per-vertex factor g_scr/4π is owned by pairwise screened de-excitation — every rival
+  channel ruled out by standard physics — with the partner count supplied by the occupancy
+  principle of the vacuum-energy sector applied at the cascade's marginal scale, and the count
+  is measured directly: it enters the amplitude cubed, and the measured amplitude against the
+  closed form pins it at 1.003 ± 0.005. **k = ln(1+π/2α_c)/π** reconstructs exactly as the
+  full-Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange in the particle-hole
+  channel (Monte-Carlo confirmed; re-verified to 9×10⁻¹² with its conventions printed), and its
+  host question is settled onto standard ground: the screening constant is doping-independent and
+  a ground-state kernel is the gap equation's own construction (hierarchy §6n), with the
+  formation-epoch bath against the band's doping **now computed there** (T/μ = 2–7×10⁻¹⁶). The
+  velocity-matching structure
+  (r = v_e/v_h free) is unchanged (hierarchy §6c, §6e). The **4π is the standard loop factor**;
+  the **cube is the three spatial dimensions**. Live referees: P-2026-048's crossover number, the
+  kernel-host formation-epoch condition (paid in hierarchy §6n), and the concordance k at the
+  chains' convergence. The exact O(1)
+  **normalization of the shot-noise count** (the "count C") is set by the physical erasure
+  channel: its occupancy-one partner count fixes the
+  per-vertex factor with nothing adjustable. The convention decomposition, which offers
+  C = π/4, 0.098, or 3.2×10⁻³, does not compete with it (its rivals ruled out, the
+  survivors' record in the working log). The closed form lands **−0.92% (−0.66σ)** against the
+  measured 2.100×10⁻⁹; the −0.35% quoted beside the pipeline's frozen input is the closed form
+  against its own value at the concordance k, a k-spread rather than a test of the count.
+  The referee is the zero-parameter comparison graded from Laplace-from-MCMC (the nested run ended
+  2026-07-20; nested sampling waits for cluster time) — the Eliashberg k-audit has run, placing k
+  in [1.35, 1.37] at three-way concordance.
+  **The forward target, typed, and the mechanism class ruled (#184, 2026-07-20).** As a ratio, the
+  closed form asserts **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and what kind of object that is
+  is now decided. **It is a scaling ratio, not a freeze-out ratio, and the decision is data's, not
+  taste's.** One frozen comoving cell size is a single Poisson census, whose spectrum is white at
+  every k by construction: P_ζ = R²ξ³ with ξ a constant makes Δ²_ζ = k³P_ζ/2π² ∝ k³, reproducing
+  A_s at the pivot and returning **n_s = 4** against a measured 0.9649 ± 0.0042. That branch is not
+  merely unmechanized, it is **excluded by the tilt**, and with it every freeze-out reading of this
+  stage. What stands is **ξ(k) ∝ 1/k** (up to the envelope's logs): each mode carries the coherence
+  length at *its own* imprint time, a fixed fraction of its own scale, across every decade the CMB
+  resolves — a *scaling* (self-similar) imprint, and the only class the tilt route below can be
+  built on, since that route takes *"the A_s mechanism's own scale-invariant shot imprint"* as its
+  input.
+  **What the ruling costs, stated exactly.** P_ζ = R²ξ³ is *not* struck — it is the power imprinted
+  at scale k, correct there, with ξ read at that mode's imprint time. Only the reading of ξ as one
+  global constant is struck. So the pivot-evaluated arithmetic survives intact:
+  C = R²(k_*ℓ_p)³/2π², the factor-250 convention spread, the C = 1.009 ± 0.014 data limit and the
+  §6i joint all sit at one scale and never see the k-dependence. What dies is the extrapolation of
+  a single ξ off the pivot, and the census's typing as an instant.
+  **A structural mark points the same way**: [PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md) keeps the
+  census imprint and the phase-slip quantization event as *separate adjacent stages*. The
+  quantization event **is** a freeze-out and keeps its criterion; the census imprint is not, and
+  borrowing across that boundary is what produced the collision.
+  **What the constituent level owes, correctly typed: a mechanism holding ξ/ℓ_H constant at a fixed
+  fraction across the observed decades — and C follows from it.** The measured scaling ratio is
+  k_*ξ = 3.45×10⁻³ (at R = 1); the *mechanism's* forward target is the revised 2.21×10⁻⁴ once the
+  pivot-volume factor L\*² is computed rather than absorbed (the tilt-envelope derivation's
+  normalization triangle; the two are one object under two decompositions of A_s, and the branch
+  selection below survives the revision ×245 deeper into the overdamped regime).
+  The mechanism is a **defect-network scaling attractor**
+  ([working_logs/census_scaling_mechanism.md](working_logs/census_scaling_mechanism.md),
+  `scripts/census_scaling_network.py`): a vortex tangle in an expanding background flows from
+  generic initial conditions to a self-similar regime in which the coherence length tracks the
+  horizon, ξ/ℓ_H → γ* — shown by integrating the velocity-dependent one-scale equations,
+  trajectories closing onto one ratio from both sides. Two readings follow: the smallness of
+  γ* = 3.45×10⁻³ requires the strongly **overdamped** branch (drift velocity ~10⁻², a dense tangle
+  held by mutual friction), which is the model's own superfluid genesis medium rather than a
+  relativistic string network; and γ*(β) is stationary at radiation, so the network delivers
+  n_s ≈ 1 **robustly**, with the red −0.035 a sub-leading residual. **Class exhibited; value
+  candidate-closed 2026-07-31** — the attractor is dynamically real, and the first-principles
+  mutual-friction chain is now: **α_B = ε²** (portal second-order dissipation), **k_mom = ε⁴**
+  (overdamped friction suppression), **c_chop = d_⊥ = 2** (transverse plane of a line defect) →
+  **γ\* = ε²√2 = 2.225×10⁻⁴** at the revised (L\*-inclusive) target, +0.9% on f(r=1) and +1.7% on
+  measured A_s with no A_s fit
+  ([working_logs/census_alpha_B_first_principles.md](working_logs/census_alpha_B_first_principles.md)).
+  Named residual: defend d_⊥=2, or replace it by a computed reconnection coefficient. The
+  sub-leading tilt remains open.
+  **One recorded absence was overstated and is corrected here:** ν is not absent from the corpus.
+  `scripts/winding_gas_cv_v2.py:11` and `scripts/winding_gas_cv.py:5` carry **ν = 2/3, named 3D-XY**,
+  applied to this very census (ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). What is genuinely absent is the
+  *dynamical* half — **z appears nowhere**, nor does a microscopic (ξ₀, τ₀) pair; ξ₀ appears only as
+  a unit, never a value. The correction does not change the ruling: a static exponent for the
+  condensation transition is not a quench criterion for the census imprint, and those two scripts
+  are keyed to the ramp at T_c, a different stage.
+- **n_s = 1 − 2/ln(T₀/k), k-local — mechanism candidate (exhibited): 0.9677 at the pivot,
+  predicted running −5.2×10⁻⁴** (the recorded k-independent 1 − 2/ln(M_Pl/T_on) = 0.9641 is
+  retired to consistency-check grade). **The 2D-Gaussian mechanism route, adjudicated by
+  computation (2026-07-17):** the candidate microphysics (winding field as a 2D transverse
+  log-correlated height model, δ ~ h²) had
+  its owed step — the exact χ²-field convolution P_δ(k) — computed, and **the direct reading
+  fails**: the exact spectrum is k²P_δ ∝ ln(k/k_IR) (numerics match the analytic 2·ln(k/k_IR)/π to
+  4 decimals), giving tilt **+1/ln(k/k_IR)** — wrong sign (blue), wrong coefficient (1 not 2), and
+  IR-anchored where the recorded form needs UV. The earlier σ⁴ argument conflated the one-point
+  variance with the per-mode spectrum. Autopsy in
+  [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). **What survives:** the scale identities are
+  real and verified (k_UV = a_on·T_on = T₀ exactly; ln(T_on/m) = ln(M_red/T_on) + 0.49, the
+  recorded argument to O(1) inside ~55). **The surviving route exhibited — the modulation map
+  (2026-07-18):** the mode laid down at scale k is an **envelope × shot** product,
+  ζ_k = A(k)·s_k — s_k the A_s mechanism's own scale-invariant shot imprint, A(k) the imprint
+  susceptibility at that scale's imprint time. The envelope **multiplies instead of convolving**
+  (it is deterministic in k — a function of imprint time, not a fluctuating field squared at the
+  same point), which is exactly how the route evades the χ² falsification; the ruled-out
+  convolution survives only as an additive residual,
+  subdominant provided the winding roughness obeys Δ² ≲ 2×10⁻⁶ per log (six decades of room below
+  O(1); accumulated σ² ≲ 10⁻⁴ — the weak-modulation regime, self-consistent). The envelope reads
+  the verified variance: A(k) ∝ σ²(k) = Δ²·ln(k_UV/k), UV-anchored at the verified k_UV = T₀. Then
+  k³P ∝ [ln(k_UV/k)]² and **n_s(k) = 1 − 2/ln(T₀/k)**: at the pivot, ln(T₀/k*) = 61.86 →
+  **n_s = 0.9677** (+0.66σ from Planck), with **predicted running α_s = −2/L² = −5.2×10⁻⁴**
+  (Planck −0.0045 ± 0.0067: consistent; a falsifiable edge — the map requires tiny *negative*
+  running). **The exponent is data-selected, f̄-grammar:** among the natural readings A ∝ σ
+  (n_s = 0.9838, +4.5σ, dead), A ∝ σ² (0.9677, +0.7σ), A ∝ σ⁴ (0.9353, −7σ, dead), only the
+  variance-linear map survives — and the linearity has its structural exhibit: for a
+  log-correlated field each log-shell contributes **equally** to the frozen-quanta count and to
+  the one-point variance, so accumulated population and σ²(k) are the same object up to the
+  per-shell constant; if the imprint susceptibility is additive over frozen quanta (one unit of
+  response per quantum — the identical additivity the A_s shot count already rides), then
+  A ∝ population ⟺ A ∝ σ² with no new assumption. The variance-linearity is the additivity
+  statement, inherited from the A_s mechanism rather than chosen. **The
+  argument fork resolves:** the map is k-local, so the pivot/running form 0.9677 is the
+  mechanism's number; the recorded k-independent ln(M_Pl/T_on) = 55.6 form (0.9641, −0.2σ) retires
+  to consistency-check status — same log-family within 10%, which is why the fork existed. Noted
+  plainly: the mechanism's number sits *farther* from Planck central than the retired form
+  (0.66σ vs 0.20σ) — the map is falsifiable on both n_s tightening and the running's sign.
+  **Mechanism candidate (exhibited)** — sign, anchor, and running structural; the
+  linearity exponent exhibited at additivity level (shared with A_s, one assumption not two)
+  and independently data-selected; the Δ² subdominance condition named.
+- **z_on = 4.03×10⁷ — a derived identity, not an estimate.** It is the H = m epoch of the fluid's
+  own mass, T_on = √(m·M_red/0.61) = 9.46 keV. **The "confirmed three independent ways" claim on the
+  mass carrying it (2.24×10⁻²⁰ eV) was withdrawn 2026-07-28** by the circularity sweep (check 34):
+  ξ = ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is computed from m too, so 398 against
+  402 is one computation compared with itself; the Schive comparison is unresolved (external 1/m vs
+  the model's own 1/m², which would pin m *if* the model's normalization is independent — not
+  established); and the superradiance band is priced elsewhere as an adverse exposure, so it cannot
+  also be support. The mass rests on the onset clock plus at most one unresolved check. *(The evidence run is frozen at a profiled 3.56×10⁷ instead — 0.053
+  dex low, which under the same clock implies a mass 28% off and misses all three checks. The run
+  grades a point beside the identity, not the identity.)*
+- **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude
+  quartic sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).
+
+---
+
+## 8. What remains owed
+
+1. **The portal √σ_dark = m_e** — the one irreducible input of the dark-energy / constituent-level
+   sector (§2, §6).
+1b. **The high-f electron-coupled scalar.** It is a high-decay-constant field:
+   **f ≈ 100–500 TeV**, a dimensionful **input** — un-derived, stated as such (the window:
+   fifth-force/g−2 set the floor ~10¹⁴ eV; tracking sets the ceiling ~10²⁵ eV; the quoted band is
+   where every constraint clears simultaneously). **The ramp-timing relation ties it:** the
+   thermal-restoration crossing
+   ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §4) makes (λ_dyad, f, T_c) a two-parameter
+   family — any two fix the third — so the sector carries one input fewer than the list once
+   showed; with the recorded λ_dyad, f sits at ≈145 TeV inside the window. With it the model
+   commits to **ONE genesis dilution ζ = T_dark/T_γ ∈ [0.25, 0.35]** used consistently everywhere
+   it appears (ΔN_eff, the BBN calculations, sector estimates — no per-window ζ), predicting
+   **ΔN_eff = (27/(7/4))·ζ⁴ = 0.06–0.24, centred ≈ 0.1 — CMB-S4 (±0.03) adjudicates directly**; a
+   confirmed ΔN_eff < 0.03 or > 0.3 rules out the committed window from either side. That scalar
+   is **not** the SU(2) sector's chiral condensate
+   (that sector keeps its own condensate and its own T_c/√σ story — the two-color consilience
+   points are sector-internal and stand); its condensation is driven by its own L-breaking
+   potential, with the electron loop's κ-independent T_c formula supplying the T_γ-keyed ramp
+   timing (the predecessor configuration's record:
+   [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)). **The windowed BBN calculations under
+   this configuration (2026-07-18; response-coefficient
+   propagation on the model's own prediction D/H = 2.387×10⁻⁵, Y_p = 0.24900 — the ramp profile is
+   unchanged, the branch adds only its ζ residual):** the residual ΔN_eff pushes deuterium toward
+   Cooke and makes helium pay, and **which verdict that produces still depends entirely on the
+   nuclear-code systematic**, exactly as it did before adoption:
+
+   | deuterium error budget | D/H vs Cooke (pre-ζ → across the ζ window) | joint p (2 dof) |
+   |---|---|---|
+   | observational ⊕ PRIMAT nuclear, ±0.0476 — **the quotable row** | −2.9σ → **−2.5 to −1.4σ** | **0.02–0.08** |
+   | + half the 3.5% inter-code spread, ±0.0643 | −2.2σ → −1.9 to −1.0σ | 0.07–0.11 |
+   | + the full inter-code spread, ±0.0987 | −1.4σ → −1.2 to −0.7σ | 0.12–0.21 |
+
+   Helium moves the other way: **+1.09σ → +1.3 to +2.0σ vs Aver** (the EMPRESS fork worsens to
+   **+3.8 to +4.4σ** — that fork remains the pivot). **The residual helps deuterium but does not
+   heal it:** at the top of the window D/H reaches 2.463×10⁻⁵ against Cooke's 2.527×10⁻⁵, still
+   0.064 low — it does not cross zero on any budget. The direction of the shift is
+   **anchor-independent** (a relative move) and **hostage to its own falsifier** (CMB-S4 must see
+   the same ΔN_eff). *Provenance note: the ζ window predates this propagation — the deuterium
+   improvement is a consequence, not a fit.* This is an estimate (linear responses,
+   dY_p/dN = 0.011–0.013, ∂ln(D/H)/∂N = 0.135); a full nuclear-code re-run is owed only if the
+   joint verdict becomes load-bearing. **Two closure conditions ride on this window, both
+   registered as P-2026-053:** the dark radiation raises H at the dCDF's H = m onset, putting that
+   onset 0.2–0.8% later than a dark-radiation-free universe and shifting the dCDF mass inferred
+   from it by the same fraction; and the window's value at nucleosynthesis is its value at
+   recombination, because the dark-matter budget permits only ΔN_eff ≈ 6×10⁻⁴ of it to become
+   matter and the FIRAS spectral limit forbids dumping it into photons. **The screening gate's
+   laboratory checklist (2026-07-18; estimate-grade, conditional on the recorded
+   curvature-gate form):** all three named checks clear, none closely. The gate is
+   **curvature-keyed, not density-keyed** — and that type distinction decides the hardest test:
+   atom-interferometry vacuum-chamber experiments rule out density-gated (chameleon-class) scalars
+   because a vacuum chamber removes the screen, but **curvature penetrates vacuum chambers** —
+   every terrestrial laboratory sits ~25 orders above a structure-class gate edge
+   (Earth-surface curvature 3.4×10⁻²³ m⁻² vs the galactic 8.4×10⁻⁴⁸), so the coupling is off in
+   any lab regardless of chamber contents. EP satellites (MICROSCOPE) are irrelevant by
+   kinematics alone: the force range is mm–cm and the source–test separation is ~700 km — the
+   Yukawa factor is e^(−2×10⁷). Casimir-band (μm) experiments constrain μm-range forces; the
+   scalar's mm–cm range lives in torsion-balance territory, already bounded (S_⊕ < 2.1×10⁻¹¹
+   required; the recorded exponential form delivers immeasurably more). **The price: the gate that
+   clears the laboratory closes the laboratory as a test** — the local-force
+   channel is unobservable by construction, and the configuration's falsifiable channels are
+   cosmological (the ΔN_eff window at CMB-S4, the BBN calculations, DESI). **The high-f
+   condensation mechanism is specified** — the bare potential, λ_dyad with its radiative-stability
+   check, the sequence, and the ramp with its exact thermal kernel — leaving three narrower
+   residuals in its place: λ_dyad's origin, the T_c re-pin, and the v_L fork. The gate form itself
+   is **derived at class level**
+   (an event-triggered gate is a survival probability — exponential-power class, not power-law;
+   [PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md) gate section), which
+   grounds the checklist's exponential-form reliance; the remaining form residual is the seed
+   exponent n.
+2. *(resolved) The induced-G scalar coefficient* — verified: Visser Eq. 35 assigns each
+   real scalar the weight (1/6 − ξ), not zero, so P-045's str[k₁] = 0 is **not** ξ-independent — it
+   requires ξ_H = 1/6 (conformal Higgs). Natural (the conformal value) and self-consistent with the
+   G-value's own need, but an input: induced-G finiteness is conditional on conformal Higgs coupling
+   (§5). The "hole" reduces to one named assumption.
+3. **f̄ and α_c referees** — the winding ensemble and the α_c instrument (zon_disp — unconverged,
+   not currently running; owner restart when cores free).
+4. *(derived at candidate grade, 2026-07-28) A_s's count* — the O(1)
+   normalization of the shot-noise count is supplied by the erasure channel's occupancy-one
+   partner count (the spine §23.5: channel + count + measure, the count measured directly at
+   1.003 ± 0.005 through the amplitude's cube). k remains the derived screened-interaction
+   integral on its standard host (hierarchy §6n); the live referees are P-2026-048, the
+   kernel-host formation-epoch condition (paid in hierarchy §6n), and the concordance k at the
+   chains' convergence.
+5. *(closed as owed) The spurion μ = 2.25 meV* — graded as **not** an independent input:
+   it is the electron-anchored meV-scale value (ρ_Λ¼ = m_ν = 9/2 α⁴ τ m_e), downstream of item 1.
+
+*Ruled-out approaches are recorded in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), not here.*
+
+---
+
+## 9. The flavour puzzle — the count, the ratios, the mixing angles
+
+*Does the model explain the lepton mass ratios, or the mixing angles, or neither? The three
+halves of the flavour question have three different answers, and only one of them is a silence.*
+
+**The count — derived, and it lives in §5 rather than here.** N_gen = 3 is forced by Pauli
+finiteness, str[k₁] = 16·N_gen − 48 = 0 (§5; **P-2026-045**), conditional on ξ_H = 1/6 (§8 item 2).
+It is a species-counting result of the induced-gravity sector, and that is the whole of its
+reach: it says how many families the vacuum admits and nothing whatever about what
+distinguishes one from another. The same condition read in the dark sector returns N_c = 2,
+N_f = 3 (§6). Neither statement is a flavour mechanism.
+
+**The mass ratios — claimed, at ten parts per million, and gated.** The model does not abstain
+here. The Koide sector's Z₃ parametrization √m_k = M(1 + A·cos(θ + 2πk/3)) carries three
+parameters for three masses and so fits any spectrum; all of its content sits in A and θ.
+**Q = 2/3 pins A = √2, and the kernel's closure 3·arg f₁ = Q pins θ = (1 + A²/2)/9 = 2/9** — and
+with both pinned the ring has no freedom left but the overall scale, so **both charged-lepton
+mass ratios are determined**:
+
+| ratio | from (A = √2, θ = 2/9) | measured | |
+|---|---|---|---|
+| m_μ/m_e | 206.7703 | 206.7683 | +9.8×10⁻⁶ |
+| m_τ/m_e | 3477.473 | 3477.228 | +7.0×10⁻⁵ |
+
+Both misses are real, and the first is decisive. m_μ/m_e is known to 22 parts per billion, so
++9.8×10⁻⁶ is a **452σ** statement rather than a near-agreement: **A = √2 and θ = 2/9 cannot both
+be exact on the pole masses**, and no τ-mass measurement bears on it, because the τ does not enter
+the ratio. Singly each watch is comfortable — Q = 2/3 sits 0.91σ from the data and the closure
+0.89σ — so it is the conjunction the light masses refuse, and the conjunction is what a finished
+account of the sector owes. The size matters as much as the significance: grant the closure and Q
+misses 2/3 by **0.17 ppm**; grant Q = 2/3 and θ misses 2/9 by **0.79 ppm**. The 452σ measures how
+sharply m_μ/m_e is known, not how far apart the two watches sit. The conjunction is refuted, and
+it is refuted by under one part per million ([PRTOE_koide_relation.md](PRTOE_koide_relation.md)).
+
+So the statement is not that the model is silent on the ratios — it is that the model
+**stakes** them on two numbers, neither of which is derived. A = √2 carries seven recorded
+mechanism attempts that failed ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)) and one that
+has not: the democratic construction, in which the condensate is one further node of the coupling
+graph rather than a backdrop
+([PRTOE_koide_relation.md](PRTOE_koide_relation.md)). It stands on two stated claims — one
+structural, that the condensate is a node of the coupling graph whose couplings are fixed before it
+is pinned; and one dynamical, that the modes carry equal quanta rather than equal energy. The
+single coupling is not a third assumption: it follows from the first, since the complete graph on
+four nodes is edge-transitive. Candidate, not a bank.
+
+**That construction also supplies the centre this paragraph used to record as missing.** The
+complaint was that *A = R/M is a ratio to a centre no term in that energy locates*: a pure
+inter-generation coupling leaves the uniform mode a flat direction, so M floats and the ratio has no
+denominator. The bond to the condensate is that term. It is a restoring force toward the reference
+amplitude, and removing it returns the uniform mode to an exact zero mode — which is also why the
+construction predicts nothing for a neutral triple, whose bond to the condensate is weighted away by
+q². The centre is the condensate, and it is located by the same coupling that fixes everything else.
+
+θ = 2/9 still rests on the closure, which is structure-clean, post-hoc-found, and carries the
+standing objection that it sets an angle equal to a pure number and so holds in radians and in no
+other unit. That half is now known to be *unreachable* from the ring's own potential at any order,
+so its source must be external to the ring. **Candidate, gated.** It is the first row of the open
+surface below, and its referee is the lattice triple plus the P-2026-051 lock — not a flavour
+argument.
+
+**The mixing angles — silent, and the silence is constitutional rather than a gap.** The corpus
+contains no derivation, prediction or constraint of any mixing angle. PMNS enters exactly once,
+as *measured input* (the NuFIT values feeding m_ββ,
+[PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md)); CKM does not enter at all; the Majorana
+phases are explicitly not predicted. That is not a gap the model could close by working harder,
+and three recorded clauses say why:
+
+- **The blindness clause.** The medium reads energy, not identity — matter holds no account with
+  it except the universal metric and a scalar mass channel
+  ([PRTOE_LV_pricing.md](PRTOE_LV_pricing.md) §0). A coupling that cannot see who it is talking
+  to has no organ with which to write a flavour structure.
+- **The Koide protection.** ε is multiplicative-universal across the charged leptons, which is
+  why Q does not move in the tenth digit under it (§1;
+  [PRTOE_koide_relation.md](PRTOE_koide_relation.md)). The single modification the model makes to
+  known physics is *constructed* to leave the flavour structure exactly where it found it; a
+  flavour-dependent ε would break the protection and take the amplitude sector with it.
+- **The scope theorem, already signed.** [PRTOE_strong_cp.md](PRTOE_strong_cp.md) registers this
+  abstention in the strong sector in precisely this form — the medium is EM-neutral and
+  universality-walled, so it **cannot distinguish quark flavours**, θ̄ is permanently outside
+  jurisdiction, and *needing* to distinguish flavours in order to fit data is a registered
+  falsification condition. The mixing angles sit inside that same wall: they are Yukawa-matrix
+  data, and this model keeps the Standard Model's Higgs and the Standard Model's Yukawas
+  ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6j).
+
+**So the silence carries a sign.** It is not *not yet computed* but *not writable*: the model
+would have to break the census axiom to acquire a mixing angle, and the census axiom is what pays
+for the universality, for the Lorentz shield, and for Koide's survival of ε. A future construction
+that derived PMNS from this medium would be evidence against the constitution rather than for it.
+The one route that could have carried flavour structure — three winding cycles read as three
+families —
+is parked without a mechanism, and it carries the mixing requirement as its own named test-fabric
+([_parked_register.md](working_logs/_parked_register.md)); the family-space-on-the-condensate
+reading such a construction would need is separately dead, family space being Z₃ and not the
+condensate's phase.
+
+**Verdict: the count is derived, the ratios are staked and gated, the mixing angles are out of
+reach by construction.** Only the middle one can be settled by analysis here, and what it needs is
+not a flavour argument — it is A = √2's mechanism, the sector's one remaining theoretical step.
+
+---
+
+## The open surface, consolidated (2026-07-18)
+
+After the seam campaign, the selector compression, and the chain-free closures, the model's
+entire remaining open surface is:
+
+| open object | what it decides | gated on |
+|---|---|---|
+| the Koide kernel chain's last stage (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the analytic steps are worked (the pacing-saturation step, the sign-chain walk); what stands between the chain and its grade is the first-roll sign run, then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
+| the additivity bottleneck — one assumption carrying three separate results (the anchor's −3/2, the A_s shot count, the n_s variance-linearity) | whether those three stand on one premise or need three | the ring-on-ring trial, which tests its Koide instance. *(The anchor's −3/2 itself is no longer open: it follows from a boost-dressed cutoff, a geometric mean and equipartition at additivity grade — hierarchy §2, part (b).)* |
+| the seat constant b | κ_m's exact value | the constituent-level build |
+| T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note approved for circulation) |
+| ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
+| the production referees (f̄ ensemble; α_c instrument offline; evidence pair converging) | the ε decomposition; the model vs ΛCDM | local compute time |
+| the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
+
+Conditions settled by analysis this cycle: the Koide aggregation supply (N ≈ 1.5×10¹⁸, nine
+orders of headroom), the screening gate's sharpness (n_eff ≥ 35, hard-step class, unconditional —
+the winding field's own ceiling carries it, no seed identity required), the n_s linearity (shot
+additivity, shared with A_s). Everything else in the corpus is derived, quantified, or dead with
+a documented autopsy.

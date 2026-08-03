@@ -1,31 +1,103 @@
-# THE PRTOE DOCUMENT INDEX — domains, files, relations (living; def499)
+# PRTOE document index
 
-*The master map: every covered domain/subdomain → its standalone → its relation class
-([O] ours / [R] ridden / [S] screened / [C] content / [I] inheritance / [P] parked). The tree:
-PRTOE_science_subdomain_tree.md. The genealogy: PRTOE_the_great_chain.md (+ Appendices A/B).*
+Map of the live shelf. Files under [`exploratory/`](exploratory/README.md) (moved 2026-07-28) are still there and still worked on; they are just not what an outside reader is pointed at first. Nothing was deleted.
 
-## The spine and constitution
-MATH_SPINE (§0–22) · laws_and_rules/ (L1, L1a) · TRANSACTION_ATLAS · transaction_map ·
-thread_inheritance · family_tree · scale_ladder · PREREGISTERED_PREDICTIONS (P-001→P-031)
+## Start here
 
-## Physics domains [C]/[O]
-hubble_tension · bbn_witness · neutrino_home · s8_growth · lowell_anomalies · radio_lattice ·
-fingerprint_lattice · plasma_physics · chaos_dynamics · cosmic_magnetism · igmf_helicity ·
-gravitational_waves · lss_parity · galactic_atoms · smbh_atoms · koide_relation ·
-coincidence_problem · direct_detection · indirect_detection · laboratory_cousins ·
-sqrt3_derivation · classical_gravity · special_relativity · quantum_gravity
+- [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — substrate, coupling, decomposition
+- [Reader’s risk summary](PRTOE_READERS_RISK.md) — strongest claims, weakest links, evidence class, kill conditions
+- [Audience prep board](working_logs/_AUDIENCE_PREP.md) — in-repo completion checklist (derivations, consistency, prose)
+- [Canonical values](working_logs/_CANONICAL_VALUES.md) — when two files disagree on a number
+- [Pre-registered predictions](PRTOE_PREREGISTERED_PREDICTIONS.md) — timestamped bets and kill conditions (P-001 → P-2026-060)
+- [Failures ledger](PRTOE_FAILURES_LEDGER.md) — ruled-out routes
+- [Bibliography](BIBLIOGRAPHY.md) — external sources
 
-## The mystery wing
-blackholes_no_singularity · bigbang_no_singularity · arrow_of_time · information_paradox ·
-cosmological_constant
+## Outward-facing
 
-## The quantum wing [R, §12-walled]
-quantum_entanglement · quantum_tunneling · quantum_superposition
+- [Lattice note](PRTOE_lattice_note.md) — T_c/√σ for SU(2), N_f = 3; field gap and pre-registered stake (approved for circulation)
+- [Fairbank note draft](PRTOE_fairbank_note_draft.md) — 0νββ target, checkable without the medium story
+- [Stability](PRTOE_stability.md) — ghost, gradient, c_T, equivalence principle
+- [Code manifest](PRTOE_CODE_MANIFEST.md) — pipeline: in, armed, or banned
+- [Strong CP](PRTOE_strong_cp.md) — COMPLETE-ABSTENTION: θ̄ is outside jurisdiction (not a paper; not the dark-confining/g_p notes)
+- [Papers packages](../papers/README.md) — **4+** TeX packages (supertrace-note shipped on Zenodo; neutrino-mbb, radio-lattice, lattice-tc-gap ready; staged copies under [arXivReady](arXivReady/README.md))
 
-## The sciences [S]/[I]
-sciences_inheritance · science_subdomain_tree · astrochemistry (+P-030) · the great chain's
-Appendix B (eleven master equations)
+## Core claim
 
-## The working folder
-threaded_physics_working/: T1–T16 owed-files · _cross_cutting · _master_computes (8→4 clusters)
-· _parked_register (+ the cross-comparison pass, the resurrection sweep)
+- [Hubble tension](PRTOE_hubble_tension.md) — mechanism the program is built on
+- [Dark condensate fluid](PRTOE_dcdf_superfluid.md) — superfluid piece; light as Goldstone
+- [Electron-coupled scalar](PRTOE_dyad_gas.md) — charge-free, couples the electron, binds hydrogen; leptophilic by data, not lepton number
+- [Amplitude](PRTOE_THE_AMPLITUDE.md) — ε decomposition and its three parents
+- [me mechanism math](PRTOE_me_mechanism_math.md) — gate and high-f operating spec
+
+## Cosmology and early universe
+
+[BBN witness](PRTOE_bbn_witness.md) · [deuterium row](PRTOE_deuterium_row.md) ·
+[neutrino sector](PRTOE_neutrino_sector.md) · [neutrino home](PRTOE_neutrino_home.md) ·
+[S₈ growth](PRTOE_s8_growth.md) · [S₈ tension](PRTOE_s8_tension.md) ·
+[H₀ ceiling](PRTOE_H0_CEILING.md) · [inflation replacement](PRTOE_inflation_replacement.md) ·
+[cyclic torus genesis](PRTOE_cyclic_torus_genesis.md) · [baryogenesis](PRTOE_baryogenesis.md) ·
+[CMB anomalies](PRTOE_cmb_anomalies.md) · [CMB map](PRTOE_CMB_map.md) ·
+[LSS parity](PRTOE_lss_parity.md) · [coincidence problem](PRTOE_coincidence_problem.md)
+
+## Observational programs
+
+[radio lattice](PRTOE_radio_lattice.md) · [fingerprint lattice](PRTOE_fingerprint_lattice.md) ·
+[cosmic magnetism](PRTOE_cosmic_magnetism.md) · [IGMF helicity](PRTOE_igmf_helicity.md) ·
+[gravitational waves](PRTOE_gravitational_waves.md) · [galactic atoms](PRTOE_galactic_atoms.md) ·
+[SMBH atoms](PRTOE_smbh_atoms.md) · [direct detection](PRTOE_direct_detection.md) ·
+[indirect detection](PRTOE_indirect_detection.md) · [laboratory cousins](PRTOE_laboratory_cousins.md) ·
+[lowell anomalies](PRTOE_lowell_anomalies.md) · [granule scoping](PRTOE_granule_scoping.md)
+
+## Structure and derivation
+
+- [Cosmological constant](PRTOE_cosmological_constant.md) — vacuum priced by species count; ρ_Λ¼ = (9/2)α⁴·T_c on the observed scale with no cosmology in the chain. Existence claim, not precision. Referee: lattice T_c/√σ for SU(2), N_f = 3
+- [Koide relation](PRTOE_koide_relation.md) — Q = 2/3, the null, candidate mechanism
+- [Hierarchy problem](PRTOE_hierarchy_problem.md) — electroweak scale as pairing gap (exploratory; §6f fork open)
+- [Forced combination](PRTOE_forced_combination.md) — family ring existence theorem
+- [Onset clock](PRTOE_quartet_clock.md) — whose mass the oscillating unit carries
+- [Quantum gravity](PRTOE_quantum_gravity.md) — induced gravity, area law, finiteness of field content
+- [LV pricing](PRTOE_LV_pricing.md) · [2-loop V_eff spec](PRTOE_build_2loop_Veff_spec.md)
+
+## Singularities and horizons
+
+These are **structural consequences** of the framework, not tests of it. Each asks: given a condensate with a finite floor, what happens to a singularity or horizon puzzle? Status is stamped inside each file (synthesis, candidate, graded). None is observationally constrained; none is evidence for the model. They show the framework does not blow up where GR does — nothing more.
+
+For whether the program is worth taking seriously, start with the [failures ledger](PRTOE_FAILURES_LEDGER.md), [risk page](PRTOE_READERS_RISK.md), and [predictions](PRTOE_PREREGISTERED_PREDICTIONS.md). This section is downstream of all three.
+
+[no singularities](PRTOE_no_singularities.md) (synthesis) ·
+[black holes](PRTOE_blackholes_no_singularity.md) · [big bang](PRTOE_bigbang_no_singularity.md) ·
+[white holes](PRTOE_white_holes.md) · [arrow of time](PRTOE_arrow_of_time.md) ·
+[information paradox](PRTOE_information_paradox.md) · [entropy](PRTOE_entropy.md)
+
+## Internal machinery
+
+Engineering and process, not results.
+
+[math spine](PRTOE_MATH_SPINE.md) · [dependency tree](PRTOE_DEPENDENCY_TREE.md) ·
+[derivation hunt](PRTOE_DERIVATION_HUNT.md) · [referee calendar](PRTOE_REFEREE_CALENDAR.md) ·
+[domain coverage map](PRTOE_DOMAIN_COVERAGE.md) · [reader’s guide](PRTOE_READERS_GUIDE.md) ·
+[laws and rules](laws_and_rules/) · [working logs](working_logs/)
+
+**`#N` task numbers.** [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) maps each number to what it is and open/closed/waiting status. Reasoning lives in [`working_logs/_AUDIT_LEDGER.md`](working_logs/_AUDIT_LEDGER.md); kills in [`PRTOE_FAILURES_LEDGER.md`](PRTOE_FAILURES_LEDGER.md). Each claim’s own file is authority if they disagree.
+
+## Exploratory
+
+[`exploratory/`](exploratory/README.md) holds 36 files moved off this shelf on 2026-07-28: domain censuses, quantum-foundations group, relativity framing, domain stubs, superseded lineage. Work continues there — the quantum group is an open line. The directory README states the sort test and what would turn the quantum files from interpretation into physics.
+
+## Archive — provenance only; do not cite as current
+
+A file here states the model as of its own date. Where a headline has moved, look for a banner; where there is none, trust [MATH_SPINE](PRTOE_MATH_SPINE.md) and [DERIVATION HUNT](PRTOE_DERIVATION_HUNT.md).
+
+- [amplitude_derivation](archive/PRTOE_amplitude_derivation.md) — **retired** (ε = c × f_amp × Ψ₀/M_red). Standing form: ε = c·f̄·α_c = 27α/5π. An external reviewer treated this file’s f_amp as live on 2026-07-16; that is why this section exists.
+- [dCDF v5 complete](archive/PRTOE_v5_dCDF_complete.md) — mechanics current, fit numbers historical
+- [Second-order action specification](archive/PRTOE_Second_Order_Action_Specification.md) — retired scalar-tensor formulation
+- [STATE_OF_MODEL](archive/PRTOE_STATE_OF_MODEL.md) · [SKELETON](archive/PRTOE_SKELETON.md) ·
+  [v5 SIDM scoping](archive/PRTOE_v5_SIDM_scoping.md) ·
+  [implementation summary](archive/PRTOE_IMPLEMENTATION_SUMMARY.md)
+- Lab logs (dead ends kept on purpose):
+  [room1 complex completion](working_logs/PRTOE_room1_complex_completion.md) ·
+  [gate0 QFT derivation](working_logs/PRTOE_gate0_qft_derivation.md) ·
+  [kill and patch](working_logs/PRTOE_kill_and_patch_2026-07-07.md) ·
+  [weakest joints + c-prep](working_logs/PRTOE_weakest_joints_and_cprep_2026-07-10.md) ·
+  [session 2026-07-29](working_logs/PRTOE_session_2026-07-29_findings.md) — five dockets advanced on symmetry; five earlier conclusions withdrawn or qualified ·
+  [session 2026-07-29b](working_logs/PRTOE_session_2026-07-29b_findings.md) — docket sweep; Koide delivery-law routes closed; four same-day corrections (protocols 48–50)

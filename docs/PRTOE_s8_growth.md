@@ -1,51 +1,68 @@
-# The S8 Tension and Growth — the Conversion Channel (2026-07-11)
+# The S₈ Tension and Growth — the Conversion Channel (2026-07-11)
 
-*Thread 4 of the atom-grammar sweep; the standalone for the banked DM→(DE/dark-radiation)
-conversion lead. Status: STRUCTURAL with a MECHANISM BUILT INTO CLASS (task #36, completed and
-banked) and live chains testing it NOW (conv_g sampled in routeD/conv_desi). The improvement:
-a one-parameter, physically-motivated easing of the growth tension that ΛCDM must treat as
-systematics.*
+**Audience grade.** Mechanism note only — no matched DES/KiDS lensing fit yet; do not quote S₈ as a measured win. Conversion perts now coded when `dcdf_conv_g>0` (routeD); headline chains have conversion off.
+
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
+*Thread 4 of the atom-grammar survey; the standalone for the recorded DM→(DE/dark-radiation)
+conversion lead — the consolidated production file is
+[PRTOE_s8_tension.md](PRTOE_s8_tension.md). The mechanism is built into CLASS; conv_g is a sampled
+parameter in the thaw and conv_desi *configurations*, but those posteriors are **unproduced** (the
+conv_desi chain died twice — see §4), not live tests: a one-parameter, physically motivated easing of
+the growth tension that ΛCDM must treat as systematics.*
 
 ## 0. The tension
 
-Weak-lensing surveys (DES/KiDS-class) persistently measure S8 ≡ σ8√(Ω_m/0.3) ~ 2–3σ BELOW the
-CMB's ΛCDM prediction: the late universe is smoother than the early universe says it should be.
-ΛCDM has no lever — the growth history is locked once the CMB is fit.
+Weak-lensing surveys measure S₈ ≡ σ₈√(Ω_m/0.3) below the CMB's ΛCDM prediction: 2–3σ in the
+KiDS-1000/DES-Y3 era (central values 0.76–0.78); the KiDS-Legacy joint consensus
+(0.814 ± 0.012) has since softened that to a ~1.6σ lean under ΛCDM's 0.833. The direction
+never flipped — the late universe reads smoother — and ΛCDM has no lever either way: the
+growth history is locked once the CMB is fit.
 
 ## 1. The model's lever is not a lever — it is the fluid's own thermodynamics
 
-The dCDF is ONE fluid whose phases exchange: the conversion channel (banked, coded:
+The dCDF is one fluid whose phases exchange: the conversion channel (recorded, coded:
 dcdf_conv_g/at/n) lets the DM component shed into the floor/dark-radiation at late times —
-**the same physics as the cycle's pdV ledger** (the fluid pays gravity's tax through its own
-equation of state; def349–353 graded the ledger this belongs to). Converting a percent-level
-fraction of DM after z ~ 1 suppresses late growth (lower S8) WITHOUT touching the CMB-era
+**the same physics as the cycle's pdV work** (the fluid does work against gravity through its own
+equation of state; graded). Converting a percent-level
+fraction of DM after z ~ 1 suppresses late growth (lower S₈) without touching the CMB-era
 history — exactly the shape of the observed tension.
 
 ## 2. Where it stands empirically (live)
 
-- The mechanism is built and banked (the #36 CLASS implementation; the damping-tail check #37
-  passed).
-- The omk minimum (def333): S8 = 0.807 at the dyad's best point — between the CMB-ΛCDM 0.83
-  and the lensing 0.76–0.78: the model already sits on the tension's easing side.
-- The chains NOW: conv_g is a sampled parameter in routeD/conv_desi (pre-registered at
-  g ≈ 0.10 ± 0.05, def325); their posteriors are the mechanism's live test. Interim routeD
-  explores conv_g ~ 0.2 — UNCONVERGED, watch-don't-grade.
-- MEANING-INVERSION NOTE (t280-class, kept): a conv_g pulled LARGE would ease S8 at the price
-  of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
+- The mechanism is built and recorded in the CLASS implementation, and it does not disturb the
+ damping tail.
+- The omk scan's minimum: S₈ = 0.807; the production joint fit: **S₈ = 0.823 — at the
+ KiDS-Legacy consensus, vs ΛCDM's 0.833, at zero χ² cost** (the standing claim). Both
+ readings sit on the tension's easing side.
+- conv_g is a sampled parameter in the thaw and conv_desi *configurations*, pre-registered at
+ g ≈ 0.10 ± 0.05. Their converged posteriors *would be* the mechanism's test once produced; none
+ exist yet (§4), and no interim value carries weight.
+- Meaning-inversion note (kept): a conv_g pulled large would ease S₈ at the price
+ of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 
-## 3. The improvement, honestly bounded
+## 3. The improvement, bounded
 
-ΛCDM: S8 tension = hope-it's-systematics. This model: a built, banked, pre-registered,
-one-parameter mechanism WITH ITS OWN POLICE (the w = −1 commitment) — falsifiable in both
+ΛCDM: S₈ tension = hope-it's-systematics. This model: a built, recorded, pre-registered,
+one-parameter mechanism with its own police (the w = −1 commitment) — falsifiable in both
 directions (conv_g posterior consistent with 0 ⇒ no help, the tension is not ours to ease;
 conv_g large but DESI kills the implied w(z) ⇒ the mechanism dies honorably). Either outcome
 is information; ΛCDM's position provides none.
 
 ## 4. Owed
 
-The chains' converged posteriors (running); a matched-lensing-likelihood fit (DES/KiDS proper,
-not just the S8 point) before any tension-easing CLAIM is banked; the conversion's
-perturbation-sector flag (task #8's deferred item).
+The chains' converged posteriors — **not running, corrected 2026-07-28.** `conv_desi` holds a
+single chain file last written **2026-07-22** at R−1 = 13.25. *(That figure is a within-chain
+split-R̂ — one chain cut into four segments — so it is a genuine number, but one that cannot detect
+confinement to a single basin; flagged 2026-07-29, since elsewhere the corpus wrongly stated a
+one-chain run yields no statistic at all.)* Three runs are live on the box as of 2026-08-02 (same
+trio since 2026-07-29) — the bbnfix pair and route-D — and none of them is this one. The chain has died twice (at initialisation on 07-16, then again on
+07-22), so **this posterior is unproduced rather than pending** and restarting it is an owner
+decision. Also owed: a matched-lensing-likelihood fit (DES/KiDS proper,
+not just the S₈ point) before any tension-easing claim is recorded; the conversion's
+perturbation-sector treatment.
 
-*The universe got smoother than the standard books allow. This model's dark sector pays a tax
-that does exactly that — and the receipts are being printed by three chains in the next room.*
+*The universe got smoother than the standard picture allows. This model's dark sector does extra
+work that does exactly that — and the chain that would test it has not yet been produced.*

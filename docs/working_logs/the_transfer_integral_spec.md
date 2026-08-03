@@ -1,0 +1,369 @@
+# THE SPHALERON-WEIGHTED TRANSFER INTEGRAL — spec (stage 1, 2026-07-19; #104 / M2's owed pass)
+
+*The one owed integral of the baryogenesis promotion: upgrade M2's estimate-grade run
+("reservoir 1.9×10⁴× the need; the sphaleron-weighted careful pass still owed") to a computed
+transfer fraction. This spec names the integrand's factors, sources each from the books, and
+isolates the un-recorded piece — so the computation session starts with inputs, not archaeology.*
+
+## The crux being computed
+
+The timing wall: **sphalerons process L → B only above T_sph ≈ 131.7 GeV** (the standard
+freeze-out; d'Onofrio–Rummukainen–Tranberg), while **the AD field is frozen until T_on ≈ 9.4 keV**
+(the coded onset clock). The dark asymmetry must therefore transfer into the visible lepton
+sector across the frozen era's START — while the carrier is a frozen condensate — or the
+asymmetry never becomes baryons. The recorded template (the parked register's cross-comparison
+find): **the DC Josephson form** — a frozen condensate with a phase gradient across a tunneling
+element drives a supercurrent I_L ∝ μ·sin(Δθ) with NO rolling required. The transfer is a
+junction current, not a decay.
+
+## The integral
+
+  η_B = (n_L→B conversion) × ∫_{T_reh}^{T_sph} dT/T · [I_L(T)/s(T)] · f_sph(T)
+
+with the three factors:
+
+1. **The junction current I_L(T) = I₀·sin(Δθ(T))** — the DC-Josephson transfer of dark lepton
+   charge through the portal.
+   - μ_dark (the drive): the dark chemical potential — RECORDED via the charge/abundance
+     identity (the AD deposit; Q = n_tot·f_rot with the standing f̄-era bookkeeping).
+   - The tunneling element (the junction's critical current I₀): the portal strength — the
+     candidate homes, in order: the census portal (13–20 TeV), the μ-term (the L-breaking
+     spurion class), the tenth-channel seat term (operator exhibited, UV form spec'd). **WHICH
+     of the three is the junction is the spec's fork #1** — each gives a different I₀ scaling,
+     and the reservoir headroom (1.9×10⁴) means the answer survives a wide I₀ band, but the
+     sphaleron WEIGHTING does not commute with the choice (different T-dependences).
+   - Δθ(T): the phase difference across the junction — sourced by the genesis winding's
+     gradient (the same object the sign-chain walk routes through sign(μ·n)).
+2. **The sphaleron efficiency f_sph(T)**: the standard electroweak conversion times the
+   shutoff profile at T_sph = 131.7 GeV (a RAMP — the sphaleron rate's exponential fall
+   through the crossover; amendment 5 applies, no step).
+
+   **The conversion coefficient is COMPUTED, 2026-07-28** (`scripts/sphaleron_conversion_nuR.py`,
+   3 harness rows; the SM control reproduces 28/79 exactly before either number is quoted):
+
+   | roster | B/(B−L) |
+   |---|---|
+   | Standard Model | **28/79** = 0.354430 |
+   | SM + 3ν_R, Dirac Yukawa **in equilibrium** at T_sph | **1/4** = 0.250000 |
+
+   A 29.5% reduction, and the mechanism is transparent: ν_R carries lepton number but no
+   hypercharge, so it stays out of the neutrality condition and leaves B untouched while
+   enlarging L.
+
+   **Which value applies is a physics ruling the corpus still owes — and the spec's own
+   phrasing invited a mistake here.** "P-2026-045's content changes the denominator"
+   conflates two different questions. That prediction counts ν_R as **Weyl fields in a
+   gravitational supertrace**; whether they are **thermally populated at 131.7 GeV** is
+   unrelated, and a field can be in the roster while absent from the plasma. Importing the
+   finiteness count into an equilibrium calculation would be exactly the scope error
+   protocol check 32 exists to prevent.
+
+   On the physics: equilibrating a Dirac Yukawa needs y ≳ 10⁻⁷ at 132 GeV, i.e. a Dirac
+   mass above the MeV scale, and the light neutrinos are sub-eV — so on a Dirac reading the
+   SM value stands untouched. But the corpus's neutrinos are seesaw Majorana, so the heavy
+   ν_R's presence in the plasma turns on the **v_L corner**, itself an open two-branch fork
+   (MeV vs ≥ GeV). **Use 28/79 unless v_L resolves to a thermalising regime; if it does, the
+   coefficient is 1/4 and this integral must be re-run with it.** Both values now exist, so
+   the remaining question is a ruling, not a missing number.
+3. **The entropy normalization s(T)** and any dilution between the transfer era and today —
+   RECORDED (standard; the genesis reheating entropy is already booked).
+
+## What is recorded vs owed
+
+| piece | status |
+|---|---|
+| the reservoir (dark charge vs η need) | RECORDED — 1.9×10⁴× headroom (M2's run) |
+| n (the winding integer) | RECORDED — n ~ 10–30, the one topological draw |
+| T_sph, 28/79-class conversion | literature-standard; the +3ν_R coefficient to check |
+| the Josephson FORM | RECORDED (the parked register's template; kubo_freeze's zero-mode precedent) |
+| **fork #1: which portal is the junction** | **DECIDED (stage 2)** — the **tenth-channel seat
+  term**: the junction must carry lepton number, the census portal is L-blind and disqualified,
+  and the μ-term is the seat term's own low-energy face. One candidate, no choice left. |
+| **Δθ(T) through the frozen era** | **COMPUTED (stage 5)** — the integral is self-clocking, as
+  this spec guessed. H/m_eff = 4.9×10¹⁴ at T_sph puts the field deep-frozen, so r = Ψ₀ and
+  charge conservation gives θ̇ ∝ a⁻³: θ̇(T_sph) = m·(T_sph/T_on)³ = 59.7 eV against
+  H = 2.44×10⁻⁵ eV, i.e. **θ̇/H = 2.4×10⁶** — rapid winding, junction AC, rectifier gating the
+  magnitude. |
+| the sin(Δθ) averaging | follows from Δθ(T): rapid winding ⟹ ⟨sin⟩ → the rectified average
+  (the f̄ = 2/π grammar's third appearance in a transfer role — watch, not assumed) |
+
+## Kill/acceptance conditions (fixed now, before the run)
+
+- ACCEPT as computed if η_B lands within the recorded order (~6×10⁻¹⁰) for a junction choice
+  made on structural grounds BEFORE the number is seen (fork #1 decided by which portal carries
+  lepton number at all — the μ-term/seat-term class does; the census portal is L-blind and
+  likely disqualified structurally: candidate resolution to state and check first).
+- FAIL honestly if every L-carrying junction misses by > 10² either way — then M2's "form
+  FIXED" survives but the transmission is NOT the junction current and the route needs a new
+  carrier.
+- The sphaleron ramp must be a ramp (rate profile through the crossover), never a step at
+  131.7 — amendment 5 binds the method.
+
+*Stage 2 (the computation session): decide fork #1 structurally, compute Δθ(T) via the
+AC-relation, run the weighted integral with the ramped shutoff, and grade against the
+acceptance conditions. Inputs above; nothing else should need archaeology.*
+
+## STAGE 2 (2026-07-19, same day) — fork #1 decided, the AC analysis run, and a three-way convergence
+
+**Fork #1 — decided structurally, before any number (per the acceptance protocol).** The
+junction must carry lepton number; the census portal is L-blind and DISQUALIFIED. Of the two
+L-carriers, the μ-term is the recorded low-energy face of the tenth channel (the hunt grades μ
+as downstream, not independent), so **the junction is the tenth-channel seat term** — the one
+L-carrying operator with an exhibited UV form above v_L. One candidate, no choice left.
+
+**The AC analysis — the frozen era's phase is self-clocking, and it forces a rectifier.**
+Charge conservation in comoving volume (θ̇·r²·a³ = const) means the frozen-amplitude condensate
+never stops rotating: θ̇ ∝ T³ through the frozen era, so θ̇/H ∝ T — FASTEST at the sphaleron
+era. The junction therefore sits in the rapid-winding (AC) regime at exactly the epoch that
+matters, and **a pure AC junction current transfers zero net charge**: the integral's net
+transfer rides entirely on the rectified component R(T) of the winding current. The
+transmission is not a coupling strength — it is a rectification efficiency.
+
+**The convergence — one object, now owed by three consumers.** The rectifier demanded here is
+verbatim T14's link 5 (the AD-direct rectification: which handedness means matter won) and the
+first-roll sign run's companion. After this pass, ONE mechanism carries: (i) η's magnitude
+weighting (this integral's R), (ii) η's sign (T14's map), and (iii) the θ_B ↔ helicity lock
+(the sign-chain walk's product sign(μ·n)). Three consumers, one owed computation — the debt
+sheet compresses again, in the direction the master-computes table predicted (M2's cluster).
+
+**The stage-3 check, named sharply (the falsifiable core):** the needed transmission is
+~5×10⁻⁵ (the reservoir's 1.9×10⁴ headroom against η ≈ 6×10⁻¹⁰), and the natural rapid-winding
+rectification scale is R ~ H/θ̇ at T_sph. **If recorded genesis inputs put H/θ̇(131.7 GeV) in
+the 10⁻⁴–10⁻⁵ decade, the whole baryon asymmetry lands with no new numbers** — magnitude from
+the winding-rate ratio, sign from the rectification's handedness. If they put it orders away,
+the junction current is not the carrier and the FAIL condition fires as pre-committed. That
+one ratio, from Ψ₀/m/Q's recorded values, is the computation session's opening move.
+
+*Grade: fork decided (structural), the AC/rectifier structure derived (charge conservation +
+junction grammar, no new assumptions), the convergence recorded, the decisive ratio named.
+Stage 3 = the session-scale run: H/θ̇ at T_sph from genesis inputs, then the weighted integral
+with the ramped shutoff.*
+
+## STAGE 3 OPENING (2026-07-19) — the era map, computed; stage 2's regime call CORRECTED
+
+> **Read stage 5 before acting on this section.** Stage 3's regime correction was itself
+> withdrawn: it mapped the era at h ≫ 1, and the standing λ = (m/Ψ₀)² makes the quartic era
+> one e-fold rather than long. The slow-winding conclusion below does not hold. Stage 3's
+> *other* content — the era map and the z_x ≈ z_on coincidence — survives, and the coincidence
+> is upgraded to an identity in stage 5.
+
+**Correction, filed against stage 2 (same day):** the rapid-winding (AC) claim assumed the
+frozen-amplitude scaling θ̇ ∝ T³. Wrong era: at T_sph the field is deep in the QUARTIC era,
+where r ∝ a⁻¹ (conformal — the recorded w = 1/3 radiation-youth, consistent) and charge
+conservation gives **θ̇ ∝ T**. Against H ∝ T², the winding is SLOW at high temperature:
+
+  θ̇(T_sph)/H(T_sph) = 1.0×10⁻⁸  (recorded inputs: m = 2.24×10⁻²⁰ eV, λ = 2×10⁻⁹¹,
+  θ̇(T_x) ≈ m at entry, T_sph = 131.7 GeV, g* = 106.75)
+
+**The junction at the sphaleron era is DC/adiabatic** — sin Δθ is effectively constant across
+the whole sphaleron window. Consequences: (i) NO rectifier is needed for the magnitude — the
+DC-Josephson transfer runs clean, and the stage-2 "transmission = rectification efficiency"
+claim is withdrawn as the magnitude's story; (ii) the three-way convergence SURVIVES for the
+SIGN — sign(Δθ) at the sphaleron era is the genesis draw, so η's sign still routes through the
+rectification/first-roll object with the other two consumers; (iii) the magnitude now reads
+η_B = conversion × I₀·sin(Δθ_gen)·Δt_window/s — with **I₀ (the tenth channel's junction
+strength at T_sph, from its exhibited UV form) the single remaining number.**
+
+**The bonus consistency, noted as a watch:** at the standing (m, λ) the basin entry
+(ρ_x = m⁴/λ ⟹ z_x = 5.1×10⁷, T_x = 12.0 keV) and the H = m onset (T_on = 9.5 keV) are the
+SAME event to ~25% — the quartic-to-mass handover and the Hubble release coincide. Either a
+consistency the standing pair (m, λ) was always carrying silently, or an identity
+(λ ~ m²H-class) waiting to be read — recorded to earn or kill, no mechanism claimed.
+
+*Stage 4 (the close): evaluate I₀ from the tenth channel's UV form at T_sph, run
+η_B = conversion × I₀·⟨sin Δθ⟩·window/s against the pre-committed acceptance band
+(~6×10⁻¹⁰ within 10²), and grade.*
+
+## STAGE 4, FIRST PASS (2026-07-19) — one branch killed by arithmetic, the live branch named
+
+**The seat-trickle branch is DEAD — 26 orders short, cleanly.** The spontaneous-leptogenesis
+structure through the broken-phase seat term (the Majorana insertion m₁ ≈ 2.25 meV biasing
+visible-L production against the rotating phase's effective chemical potential θ̇):
+
+  Γ_ΔL/H (T_sph) = m₁²M_Pl/(1.66√g*·T³) = 1.6×10⁻¹²
+  bias θ̇/T = 1.9×10⁻²⁴
+  η(seat trickle) ~ (Γ_ΔL/H)·(θ̇/T) ≈ 3×10⁻³⁶  vs needed 6×10⁻¹⁰
+
+The pre-committed FAIL condition fires for THIS carrier: the low-energy seat term alone cannot
+be the transfer. A real negative, cheap to have found before a session was spent on it.
+
+**The live branch — the UV form's coherent vertex, and it walks into a two-sided squeeze.**
+Above v_L the dim-5 operator (c_A/v_L)·Φ_med·σ_L·ν̄₁ᶜν₁ carries a (T/v_L)²-class enhancement,
+and at the MeV corner that factor is ~10¹⁰ at T_sph — but the SAME enhancement, run through
+thermal Φ, would equilibrate the medium–ν system and detonate the non-thermalization law. The
+branch survives only because the medium is a COLD CONDENSATE, not a bath participant: the
+vertex that transfers is the coherent one (⟨Φ_med⟩(T_sph) — the quartic-era amplitude, large),
+while the incoherent 2→2 must stay under the thermalization bound. **The same operator must
+trickle enough for η yet never equilibrate — the size-XOR-quiet grammar's return, now in the
+transfer sector.** Whether the coherent/incoherent split opens a window (the coherent rate
+∝ ⟨Φ⟩², the thermalizing rate ∝ T² occupations — DIFFERENT scalings, so a window is not
+excluded a priori) is the next computation: evaluate both rates at T_sph with the quartic-era
+⟨Φ⟩ from the recorded Ψ₀, against η's need on one side and the non-thermalization bound on
+the other. **The corner matters:** at the TeV corner (v_L > T_sph) the UV enhancement never
+turns on and the branch likely inherits the seat-trickle death — which would make the MeV
+corner (CMB-S4-armed) the transfer's ONLY home: a corner-selection consequence nobody
+registered, worth its own line if the window computation confirms it.
+
+*State: fork #1's carrier survives only in its UV/coherent configuration at the MeV-corner
+class; the two-sided window (coherent-enough vs quiet-enough) is the stage-5 computation, with
+both bounds already recorded in the corpus (η's need; the tribunal's thermalization rates).*
+
+## STAGE 5 (2026-07-19) — the era question settled definitively; the watch EARNED as an identity; the verdict lands at the boundary
+
+**The flip-flop, owned and closed.** Stage 2 said rapid-winding (assuming frozen r); stage 3
+"corrected" to slow-winding (assuming a long quartic era); stage 5 settles it with the
+criterion that admits no third flip: **H vs m_eff at T_sph.** With the standing values,
+h ≡ λΨ₀²/m² = 4.0 — the quartic era is O(one e-fold), because **the standing λ = 2×10⁻⁹¹ IS
+(m/Ψ₀)² by its own derivation** — so m_eff = √5·m = 5×10⁻²⁰ eV against H(T_sph) = 2.4×10⁻⁵ eV:
+H/m_eff ≈ 5×10¹⁴. **The field is deep-frozen at the sphaleron era**: r = Ψ₀, θ̇ ∝ a⁻³, and
+stage 2's AC structure is RESTORED — stage 3's regime correction is retracted (it used the
+h ≫ 1 old-era map; the era note in the room1 log already covers that λ moved).
+
+**The stage-3 watch is EARNED — it was never a coincidence.** z_x ≈ z_on (basin entry ≈ the
+H = m onset) is forced by h = O(1), which is the λ-ceiling's own content: λ ≈ (m/Ψ₀)² ⟹
+quartic-mass handover and Hubble release coincide by construction. The watch closes as an
+identity of the recorded λ derivation, not a new fact.
+
+**The numbers at T_sph (recorded inputs only):** θ̇ = m·(T_sph/T_on)³ = 59.7 eV;
+θ̇/H = 2.4×10⁶ — rapid winding, the junction is AC, **the rectifier is the magnitude's gate**
+(the three-consumer convergence stands in full: η's magnitude, η's sign, and the θ_B ↔
+helicity lock all ride the one rectification object).
+
+**THE VERDICT — at the pre-committed boundary, exactly.** The naive rectified transmission is
+R ~ H/θ̇ = 4.1×10⁻⁷ against the needed ~5×10⁻⁵: **a factor 122 — sitting AT the acceptance
+band's edge ("within 10²").** Neither the clean pass nor the clean fail fires: the sphaleron-
+window integration (∫dlnT over the active window) and the rectification mechanism's own O(1)s
+are exactly the size of the gap. **The integral's answer, honest: η lands within ~10² of the
+need on the naive rectification scale, from recorded inputs and zero new numbers — and the
+factor-10² residual is the rectification mechanism itself, the same single object T14 and the
+sign run already owe.** The estimate-grade pass is complete; the careful rectification
+computation is the one residual, now carrying four consumers (magnitude, sign, the lock, and
+the boundary factor).
+
+## STAGE 6 (2026-07-27) — the careful pass's first computation: the symmetric channel dies, the diode inherits everything
+
+**The run** (`scripts/rectification_ramp_integral.py`): the weighted oscillatory integral
+through the lattice-measured shutoff (dORT slope 0.83/GeV, e-width 1.2 GeV, δ = 0.91%),
+three envelope models, the genesis phase scanned. Two self-catches inside one instrument:
+v1's asymptotic "ramp enhancement H/(θ̇δ)" was a NORMALIZATION ERROR (per-ramp where the
+need is per-window), refused by the instrument's own numerics; and the numerical value that
+remained (~4.7×10⁻⁷ ≈ the naive H/θ̇) was then diagnosed as the integration window's own
+hard edge — demonstrated by moving the cutoff (the measured R tracks the edge prediction
+1/(Φ′·window) at every position) and by smoothing it (a 10-width taper collapses the
+transfer to 1.4×10⁻¹⁰).
+
+**The finding, stated exactly:** with the envelope smooth everywhere — and every physical
+feature is (the broken-phase ramp is analytic, the crossover matching is C¹-smooth on GeV
+widths, the genesis onset sits at enormous winding rate) — **the symmetric sinusoidal
+junction's net transfer is adiabatically null.** Stage 5's "factor 122 from the boundary"
+was itself a hard-boundary artifact; the pre-committed acceptance band's edge was never
+where the physics stood. The 2/π grammar did appear exactly as the spec watched
+(⟨|R|⟩/max|R| = 0.637 measured), but on a channel that is dead as the magnitude's carrier.
+
+**What inherits the magnitude: the junction's own symmetry breaker.** A monotonic winding
+across a symmetric junction moves nothing; net transfer requires the current–phase relation
+to break the θ → −θ symmetry — the diode (φ₀/anomalous-junction) structure that the seat
+term's Majorana insertion supplies. This is verbatim T14 link 5's rectifier: the four
+consumers (η's magnitude, η's sign, the θ_B ↔ helicity lock, and now the WHOLE transmission
+rather than a factor on it) converge on the one object, harder than stage 5 recorded.
+
+**The scale watch (flagged at coincidence grade, not asserted):** m₁/θ̇(T_sph) =
+2.25 meV / 59.7 eV = 3.8×10⁻⁵ against the needed ~5×10⁻⁵ — ratio 0.75. If the diode's
+efficiency derives as the Majorana beat against the winding rate, the whole baryon
+asymmetry lands from recorded inputs; the owning computation is the φ₀-junction response of
+the seat term, and it earns or kills the watch. The pre-committed FAIL condition has NOT
+fired — it now reads: if the derived diode efficiency misses 5×10⁻⁵ by >10², the junction
+current is not the carrier.
+
+## STAGE 7 (2026-07-27) — the rectifier's mechanism class selected by elimination; the watch earned
+
+**The method** (`scripts/diode_mechanism_pricing.py`): three known mechanism classes can make a
+wound junction transfer net charge; each has an efficiency scaling derivable from recorded
+inputs. All three priced; no winner declared by hope.
+
+| class | efficiency from recorded inputs | verdict |
+|---|---|---|
+| A. spontaneous-leptogenesis (dissipative bias) | (Γ_ΔL/H)·(θ̇/T) ~ 7×10⁻²² ·(θ̇/T-refresh) → ~10⁻³⁶-class (stage 4's numbers) | dead, 26 orders |
+| B. Kapitza-pinned junction (driven overdamped phase) | (m₁/θ̇)·F = 3.77×10⁻⁵·F, F an O(1) junction response | **THE SURVIVOR — F needed: 1.33** |
+| C. static φ₀-diode under uniform winding | ≤ H/θ̇ = 4.1×10⁻⁷ (stage 6's adiabatic theorem caps every zero-mean static relation) | dead, 2.1 orders |
+
+**The premise check, run:** class B requires the visible-side phase overdamped at the sphaleron
+era — ν interactions give Γ ~ G_F²T⁵ = 5.4×10⁹ eV against θ̇ = 59.7 eV: overdamped by 9×10⁷.
+Holds with astronomical margin.
+
+**What is earned and what is not.** The m₁/θ̇ watch is EARNED as class B's leading factor — the
+coincidence now has a mechanism class behind it, at candidate-mechanism grade: the rectifier is
+the Kapitza-rectified pinned phase (the Majorana term pins, the seat coupling shakes at the
+winding rate, the bath overdamps, and second-order averaging rectifies with the pinning-to-drive
+ratio in front). NOT claimed: F's derived value — the careful second-order averaging with the
+recorded seat coupling J and the ν damping is the one remaining object, now carrying all four
+consumers. Pre-committed kills: derived F < 10⁻² kills the junction carrier entirely; so does
+any failure of the class's own premises (the overdamping just verified; the pinning hierarchy
+m₁ ≪ θ̇ ✓ = 3.8×10⁻⁵).
+
+## STAGE 8 (2026-07-28) — the owed averaging performed; the leading factor is not m₁/θ̇
+
+**The object.** Stage 7 left one number owed: F, the O(1) junction response in
+R_B ~ (m₁/θ̇)·F, with F = 1.33 needed and four consumers riding on it. Stage 8 performs the
+averaging (`scripts/kapitza_junction_response.py`, `scripts/kapitza_drift_direction.py`).
+
+**The model, written out from stage 7's own words.** An overdamped phase in a potential obeys
+χΓ_φ·φ̇ = −U′(φ). Writing the pinning as U_pin = −χm₁²cos φ and the seat junction as
+U_J = −χω_J²cos(φ − θ̇t), the stiffness χ cancels and the equation of motion is a competition
+of three *rates*:
+
+> φ̇ = −p·sin φ − j·sin(φ − θ̇t),  p ≡ m₁²/Γ_φ,  j ≡ ω_J²/Γ_φ
+
+**This is the step that decides it.** For an overdamped coordinate the pinning does not enter
+as the frequency m₁ — it enters as the relaxation rate m₁²/Γ_φ. The same bath that makes the
+class work is what converts the Majorana energy scale into a rate and divides it by 5.4×10⁹ eV.
+Stage 7 compared m₁ to θ̇ directly, which is the comparison an *undamped* pinned phase would
+make; the class's own premise forbids it.
+
+**The averaging.** Expanding about the pinned minimum, solving the driven linear response and
+correlating it back against the drive:
+
+> R = ⟨sin(φ − θ̇t)⟩ = **−j·θ̇ / (2(p² + θ̇²))**
+
+verified against direct integration of the nonlinear equation to **0.06% worst-case** across
+p/θ̇ ∈ [0, 10], and separately for both the cos φ and the cos 2φ pinning harmonic (a ΔL = 2
+insertion has period π, so the harmonic was checked rather than assumed — the two columns
+agree to five digits).
+
+**The two limits, and which one is ours.** p ≫ θ̇ gives R → −jθ̇/2p², where the pinning
+matters. p ≪ θ̇ gives R → −j/2θ̇, where it is *absent*. The physical point is
+
+> p/θ̇ = m₁²/(Γ_φθ̇) = **1.57×10⁻¹⁷**
+
+— seventeen orders into the second limit. **The control settles it:** setting m₁ = 0 exactly
+changes the rectified transfer by 0.05%. The transfer survives the removal of the thing it
+was credited to.
+
+**Which way the pinning actually cuts (stage 8b).** The overdamped equation is a current
+balance — Γ_φ⟨φ̇⟩ = −p⟨sin φ⟩ − j⟨sin ψ⟩ — in which φ is conjugate to the visible lepton
+number, so the surviving asymmetry is the *accumulated drift of φ*, not the junction current
+alone. A free phase drifts at j²/2θ̇ and the drift is the asymmetry. A held phase cannot wind,
+so ⟨φ̇⟩ = 0 forces p⟨sin φ⟩ = −j⟨sin ψ⟩: the L-violating channel destroys precisely what the
+junction delivers. Measured, at j = 0.05, θ̇ = 1: drift/free = 1.04, 0.97, 0.45, 0.0033 as
+p runs 0 → 10⁻⁴ → 10⁻³ → 10⁻². The trapping threshold is p ≈ j²/2θ̇, and the standing
+parameters sit **3.1×10⁻⁹** of it. **The pinning is the mechanism's off switch, not its
+prefactor.** The transfer works here only because the Majorana term is far too weak to hold
+anything, and crediting the rectification to m₁ inverts the causality.
+
+**What this does to the watch.** m₁/θ̇ = 3.8×10⁻⁵ landing at 0.75 of the need is a numerical
+coincidence with nothing behind it: the quantity that governs the transfer never contained m₁.
+The stage-7 kill was written on F and does not fire as written, because F was never the free
+parameter. What replaces it is sharper and testable — the junction transfers what η needs
+**iff the seat term supplies ω_J ≈ 5.68 keV** at T_sph (equivalently j = ω_J²/Γ_φ ≈ 5.97 meV,
+a relaxation rate on the visible phase). Perturbative validity holds there: j/θ̇ = 10⁻⁴.
+
+**The honest boundary of this result.** What is derived is: *given* a sinusoidal seat junction,
+a static Majorana pinning in the same phase, and ν-sector damping, the rectified transfer is
+ω_J²/(2Γ_φθ̇) and carries no m₁. That mapping into the overdamped equation is the standard
+formalization of exactly the class stage 7 named, but it is a formalization. If the sector
+means something else by "the Majorana term pins", this result names what that something else
+must now supply — because in the class as written, it supplies nothing.
+
+**The four consumers are not paid, they are re-pointed.** η's magnitude, η's sign, the
+θ_B ↔ helicity lock and T14 link 5 still ride one object; that object is now the seat
+coupling's junction plasma frequency at the sphaleron era, not the neutrino mass.

@@ -1,0 +1,167 @@
+# Chain snapshot — preliminary, NONE booked (2026-07-17)
+
+*A convergence + posterior read of the standing MCMC chains, taken while the PolyChord evidence pair
+(cmp_prtoe_fixed + pc_lcdm) runs. **Everything here is PRELIMINARY: no chain except dyad_mnu is near
+R−1 < 0.05, so nothing is a result** — this file exists only so the two live flags aren't lost. The
+REFEREE_CALENDAR's R−1 < 0.05 bar must be met before any of these grades count.*
+
+| chain | R−1 (latest) | state | preliminary read |
+|---|---|---|---|
+| dyad_mnu_mcmc | 0.176 | MARGINAL | Σm_ν mean **59.6 meV** — lands on the 61.4 meV normal-ordering prediction; but inverted ordering **not yet excluded** (95% UL 155 meV). Encouraging, not final. |
+| cmp_prtoe_zon_disp | ~23 | NOT converged | log₁₀z_on ≈ 7.72, **drifting above** the 3α-compatible band [7.4, 7.7] toward the 7.8 failure line — unfavourable trend for P-040 (α_c = 3α), unconverged. |
+| cmp_prtoe_routeD | ~21 | NOT converged | dcdf_floor_thaw ≈ **0.129, ~16σ off 0** at face value → would be evidence *against* w = −1. But an unconverged chain piling up off a prior boundary is the classic false-exclusion trap — **a flag to re-run, not a conclusion.** |
+| cmp_prtoe_zon | ~40 | NOT converged | superseded by zon_disp. |
+| cmp_prtoe_conv_desi | — | NO DATA | died mid-restart; needs relaunch. |
+| cmp_prtoe_twist | ∞ | unstarted | w0waCDM extension (the separate twist-floor thread, not the main w = −1 claim). |
+| dyad_mnu_omk | ∞ | NO DATA | never produced accepted samples; needs relaunch. |
+
+**The two flags to re-check the moment a chain converges** (both currently untrustworthy from
+non-convergence, both would matter if they hold):
+1. **routeD's thaw floor ≠ 0** — if it survives convergence, it threatens the w = −1 prediction.
+2. **zon_disp's z_on above the 3α band** — if it survives, it's tension for α_c = 3α (P-040).
+
+**Also owed:** conv_desi and dyad_mnu_omk produced no usable samples — relaunch needed (not done; the
+cores are on the evidence pair).
+
+**Update 2026-07-19:** conv_desi WAS relaunched (2026-07-18, per T4's superseding banner) and is
+past burn-in — first progress row landed (N = 384, R−1 = NaN → numeric expected soon); its
+relaunch debt above is PAID. dyad_mnu_omk remains down. The two armed flags stand unchanged:
+routeD at R−1 = 16.80 today (improving from ~21, still far from the bar; the thaw-floor flag
+untestable until convergence), zon_disp at 23.31 (the z_on drift flag likewise). Nothing here
+is a result; the R−1 < 0.05 bar governs.
+
+## Why they are not converging — the acceptance rate, read across all five (2026-07-20)
+
+**The `.progress` columns are `N, timestamp, acceptance_rate, Rminus1, Rminus1_cl`.** Column 3 is the
+acceptance rate, not R−1; reading it as R−1 gives a spuriously converged-looking number and that
+mistake was made once in this session before the header was checked.
+
+Read correctly, the acceptance rate is the more informative column right now, and it says the same
+thing three independent ways.
+
+**Within each chain, acceptance climbs monotonically toward 1.** routeD has risen every single row of
+its history — 0.897 → 0.991 across thirteen rows and six days — while R−1 oscillated between 8 and 25
+with no downward trend after N ≈ 2900. conv_desi, only fifteen hours old, is already at 0.973 and
+climbing (0.937 → 0.954 → 0.973) with R−1 *rising*, 19.16 → 27.55.
+
+**Across chains, acceptance orders them by how badly they fail.**
+
+| chain | acceptance | R−1 | state |
+|---|---|---|---|
+| dyad_mnu | **0.921** | **0.176** | the only one near convergence |
+| zon_disp | 0.954 | 23.3 | parked, unconverged |
+| conv_desi | 0.973 | 27.6 (rising) | live |
+| zon | 0.988 | 40.4 | **died** |
+| routeD | **0.991** | 24.9 | live, six days |
+
+The single inversion is routeD against zon, and routeD has 5408 samples to zon's 832 — more grinding,
+not better health.
+
+**What that supports, and what it does not.** Optimal acceptance for a chain of this dimensionality is
+≈ 0.23; every chain here runs at three to four times that. Acceptance approaching 1 with R−1 flat or
+rising is the standard signature of **a proposal too small to explore** — the chain accepts nearly
+every step because every step is tiny. conv_desi's *first* recorded point is already 0.937, which
+points at the proposal being small from initialisation rather than only shrinking later under
+`learn_proposal: True`. **It does not establish the mechanism**: seeded covmat, proposal scaling, or
+block structure all remain candidates, and five chains with different data and parameters are not a
+controlled experiment.
+
+**The consequence for the two flags above is sharper than "unconverged".** A chain that never explores
+does not merely lack precision — its posterior is a record of where it started. **routeD's thaw floor
+at 0.129, ~16σ off zero, should be read as an artefact of a chain that has not moved**, not as a
+marginal result awaiting confirmation. The same caution applies to zon_disp's log₁₀z_on drift toward
+the 7.8 failure line. Neither is evidence against the model, and neither would become evidence by
+running longer under this configuration.
+
+**Owner's call, and it is a configuration decision rather than a wait.** Nothing here was touched.
+
+---
+
+## The BBN-fixed pair — running status, 2026-07-27 21:00
+
+Both chains of the nucleosynthesis-fixed pair have been running ~1 day 8 h and are converging
+steadily. Neither has reached the R−1 < 0.05 bar, so nothing below is booked.
+
+| chain | N | R−1 | acceptance | trend |
+|---|---|---|---|---|
+| `dyad_mnu_bbnfix` (the model) | 1536 | **0.9095** | 0.997 | 4.21 → 1.80 → 0.91, halving each 384 steps |
+| `cmp_lcdm_mnu_bbnfix` (the ΛCDM twin) | 1920 | **2.8686** | 0.998 | 9.03 → 6.83 → 2.87, factor 2.4 per 384 |
+
+**Projection to the gate, and why it is a floor not an estimate.** Extrapolating each chain's
+own recent contraction factor (1.97 and 2.38 per 384 steps, at 5.8 h and 4.7 h per checkpoint)
+puts both at R−1 = 0.05 in roughly **1600–1800 further steps, about 22–25 hours**. That is an
+optimistic floor: the Gelman–Rubin statistic contracts fastest while burn-in is still draining
+and slows as the chains approach stationarity, so the realistic arrival is longer than the
+naive extrapolation — consistent with the owner's standing ruling that the letter's H₀ waits
+days rather than hours.
+
+**What the gate releases when it is met:** the deuterium-inclusive joint fit grades (the model
+chain carries the production-faithful D/H term); the letter's replacement H₀ sentence becomes a
+five-minute edit via `scripts/finalize_h0_at_convergence.py`, which refuses to print until both
+chains are under the bar; and the third sampler slot opens for the onset-identity rerun and the
+relaunched thaw-branch chain, both of which are launch-ready and currently capacity-blocked.
+
+## The BBN-fixed pair — 2026-07-28 01:00, and the projection re-fitted to the data
+
+The N = 1920 checkpoints have landed for both chains, and they do not extend the contraction
+the projection above was fitted to.
+
+| chain | N | R−1 | history | last block |
+|---|---|---|---|---|
+| `dyad_mnu_bbnfix` (the model) | 1920 | **1.0550** | 4.21 → 1.80 → 0.91 → **1.06** | 6.5 h |
+| `cmp_lcdm_mnu_bbnfix` (the ΛCDM twin) | 1920 | **2.8686** | 9.03 → 6.83 → 2.87, then flat | 4.7 h |
+
+**The model chain's statistic rose**, 0.9095 → 1.0550, so "halving each 384 steps" describes a
+phase the chain has left; the ΛCDM twin repeated 2.8686 exactly rather than contracting again.
+Both behaviours are ordinary — Gelman–Rubin is a ratio of variance estimates and wanders while
+the between-chain variance is still being explored — but neither supports an extrapolation
+built on a fixed contraction factor.
+
+Re-fitting on the two bracketing models the statistic is known to follow gives, to the
+R−1 < 0.05 bar:
+
+| chain | geometric fit (last 3 blocks) | R−1 ∝ 1/N | wall-clock bracket |
+|---|---|---|---|
+| `cmp_lcdm_mnu_bbnfix` | 2,700 more steps | 108,000 more steps | **48 h … 1,900 h** |
+| `dyad_mnu_bbnfix` | 4,400 more steps | 39,000 more steps | **87 h … 770 h** |
+
+The honest reading is the bracket, not either end: the geometric branch assumes the fast
+burn-in drain resumes, and the 1/N branch assumes it has already stopped. What the data
+support today is that **the near end of the bracket is now days, not the ~22–25 h the
+projection above quoted**, and the owner's standing ruling — the letter's H₀ waits days rather
+than hours — is the one that survives contact with these checkpoints. The pair is left running;
+`finalize_h0_at_convergence.py` still refuses to print until both are under the bar, so nothing
+downstream can be released early by mistake.
+
+---
+
+## Snapshot 2026-08-02 (live read — still NONE booked)
+
+Sources: `chains/{dyad_mnu_bbnfix,cmp_lcdm_mnu_bbnfix,cmp_prtoe_routeD}.{progress,launchlog,checkpoint}`.
+Progress `acceptance_rate` near 0.99 is **oversampled**; raw accept = launchlog accepted/steps.
+
+| chain | ranks | N | R−1 | stop | raw accept | state |
+|---|---:|---:|---:|---:|---:|---|
+| `dyad_mnu_bbnfix` | 3 | 14544 | **0.192** | 0.05 | ~6.4% | LIVE, not converged (~3.8× stop) |
+| `cmp_lcdm_mnu_bbnfix` | 3 | 13193 | **0.141** | 0.05 | ~8.6% | LIVE, not converged (~2.8× stop; closest) |
+| `cmp_prtoe_routeD` | 3 | 1593 | **129.1** | 0.1 | ~5.1% | LIVE, early (first progress row) |
+
+**Not live:** PolyChord evidence pair (ended 07-20); zon_disp (parked); conv_desi (unproduced);
+`dyad_mnu_mcmc` archive only.
+
+**Still not bookable:** any H₀ / Σm_ν / thaw posterior. R−1 < stop is required. Do not kill the three live objects. Living docs synced: `PRTOE_CHAIN_TABLES.md`, `PRTOE_REFEREE_CALENDAR.md` Sitting NOW, `PRTOE_CODE_MANIFEST.md` §1.
+
+### Re-verify 2026-08-02 ~22:20 — R−1 **unchanged**
+
+Progress/checkpoint R−1 still **0.1918 / 0.1409 / 129.14** (no new progress rows yet). Launchlogs
+and rank chain files still advancing. Fresher raw accepts (launchlog Σ):
+
+| chain | raw accept Σ | ≈ accepted / steps per rank | notes |
+|---|---:|---|---|
+| `dyad_mnu_bbnfix` | **6.40%** (15132/236443) | ~5044 / ~78814 | 3 ranks alive |
+| `cmp_lcdm_mnu_bbnfix` | **8.59%** (13599/158247) | ~4533 / ~52749 | closest to gate |
+| `cmp_prtoe_routeD` | **5.15%** (1828/35479) | ~609 / ~11826 | rank H₀ post-50% means ≈ **68.55 / 68.66 / 69.83** (spread ~1.28) — ranks **partially disjoint**; first R−1 still 129 |
+
+Booking procedure when the pair hits R−1 ≤ 0.05:
+`docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`. RouteD surgery recommendation (do **not** kill
+while waiting for a second progress row unless owner decides): `_PROJECT_FINISH_ROADMAP.md`.

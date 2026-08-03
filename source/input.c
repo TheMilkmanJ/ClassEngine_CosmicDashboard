@@ -1262,7 +1262,7 @@ int input_get_guess(double *xguess,
        * exactly (beta=1e-7 correction is negligible) -- verified
        * numerically to match a direct ODE integration at the percent
        * level or better across Omega_ini in [0.5,100]. See
-       * docs/PRTOE_v4_dCDF_derivation.md. */
+       * docs/exploratory/PRTOE_v4_dCDF_derivation.md. */
       /* ba.dcdf_rho_inf is stored in absolute (H0^2-scaled) units by this
        * point (input_read_parameters_species scales it on read); target
        * and Omega_ini_dcdf are dimensionless Omega-like quantities, so
@@ -2358,37 +2358,75 @@ int input_read_parameters_general(struct file_content * pfc,
     class_read_double("varying_alpha",pba->varconst_alpha);
     class_read_double("varying_me",pba->varconst_me);
     class_read_double("varying_transition_redshift",pba->varconst_transition_redshift);
+    class_read_double("varying_transition_width",pba->varconst_transition_width);
     /* PRTOE dyad high-z window (2026-07-10): constants STANDARD above this z (dyad
      * disordered above T_c -> quiet BBN). <=0 disables (default, backward compat). */
     class_read_double("varying_z_high",pba->varconst_z_high);
     class_test((pba->varconst_z_high > 0.) && (pba->varconst_z_high <= pba->varconst_transition_redshift),
                errmsg, "varying_z_high must exceed varying_transition_redshift (the dyad window is transition < z < z_high).");
+    /* Optional density gate without dyad link (default off = legacy z-window). */
+    class_call(parser_read_string(pfc,"varconst_density_gate",&string1,&flag1,errmsg),errmsg,errmsg);
+    if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
+      pba->varconst_density_gate = _TRUE_;
+    }
+    class_read_double("varconst_C_ref",pba->varconst_C_ref);
+    class_read_double("varconst_gate_n",pba->varconst_gate_n);
     break;
   }
 
   /* --- PRTOE dyad link (R1): m_e is a CONSEQUENCE of the dark sector, not a free
-   * knob. When dcdf_dyad_link=yes, m_e is DERIVED from the #11 amplitude relation
-   * eps = c * f_amp * (Psi0 / M_red), so varying_me = 1 + eps is computed rather
-   * than read. This structurally enforces the dyad (the audit found m_e and the
-   * dcdf fluid were independent in the code). Defaults reproduce the derived
-   * +1.232% shift; off by default so existing configs are unaffected. */
+   * knob. When dcdf_dyad_link=yes:
+   *   (1) eps is DERIVED from the #11 amplitude stack
+   *         eps = c * f_amp * (Psi0 / M_red)  →  varying_me = 1 + eps
+   *   (2) the environmental switch uses the survival-form density gate
+   *         S = exp(-(max(Δ,0)/C_ref)^n)  (me_mechanism_math THE GATE)
+   *       so screening is density/structure-dependent, not a pure redshift step.
+   * Off by default so existing configs are unaffected. */
   class_call(parser_read_string(pfc,"dcdf_dyad_link",&string1,&flag1,errmsg),errmsg,errmsg);
   if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
-    double dyad_c = 1.0, dyad_f_amp = 0.6, dyad_Psi0 = 5.e16, dyad_Mred = 2.435e18, dyad_eps;
+    double dyad_c = 0.9, dyad_f_amp = 0.63661977, dyad_Psi0 = 5.33073e16, dyad_Mred = 2.435e18, dyad_eps; /* def541 derived stack: (9/10)*(2/pi)*3alpha -> eps = 1.2543% (P-040/P-041; freeze-gate def539) */
     class_read_double("dyad_c", dyad_c);
     class_read_double("dyad_f_amp", dyad_f_amp);
     class_read_double("dyad_Psi0_GeV", dyad_Psi0);
     dyad_eps = dyad_c * dyad_f_amp * dyad_Psi0 / dyad_Mred;
     pba->varconst_dep = varconst_instant;
     pba->varconst_me = 1.0 + dyad_eps;
+    pba->dyad_link = _TRUE_;
+    pba->dyad_c = dyad_c;
+    pba->dyad_f_amp = dyad_f_amp;
+    pba->dyad_Psi0_GeV = dyad_Psi0;
+    pba->dyad_eps = dyad_eps;
+    /* Model path: density-dependent Theta saturation, not pure-z screening.
+     * Allow explicit override varconst_density_gate=no to recover the legacy window. */
+    class_call(parser_read_string(pfc,"varconst_density_gate",&string1,&flag1,errmsg),errmsg,errmsg);
+    if (flag1 == _TRUE_ && (strstr(string1,"n") != NULL || strstr(string1,"N") != NULL
+                            || strstr(string1,"false") != NULL || strstr(string1,"False") != NULL)) {
+      pba->varconst_density_gate = _FALSE_;
+    }
+    else {
+      pba->varconst_density_gate = _TRUE_;
+    }
+    class_read_double("varconst_C_ref",pba->varconst_C_ref);
+    class_read_double("varconst_gate_n",pba->varconst_gate_n);
+    class_read_double("varying_transition_redshift",pba->varconst_transition_redshift);
+    class_read_double("varying_z_high",pba->varconst_z_high);
+    class_read_double("varying_alpha",pba->varconst_alpha);
+    class_test(pba->varconst_C_ref <= 0., errmsg, "varconst_C_ref must be > 0 (gate reference overdensity).");
+    class_test(pba->varconst_gate_n <= 0., errmsg, "varconst_gate_n must be > 0 (survival-form exponent; model requires n > 2.43).");
     if (pba->background_verbose > 0)
-      printf(" -> PRTOE dyad link ON: m_e DERIVED from amplitude (c=%g, f_amp=%g, Psi0=%g GeV) -> varying_me = %.6f\n",
-             dyad_c, dyad_f_amp, dyad_Psi0, pba->varconst_me);
+      printf(" -> PRTOE dyad link ON: m_e DERIVED from amplitude (c=%g, f_amp=%g, Psi0=%g GeV) -> varying_me = %.6f; density_gate=%s (C_ref=%g, n=%g)\n",
+             dyad_c, dyad_f_amp, dyad_Psi0, pba->varconst_me,
+             (pba->varconst_density_gate==_TRUE_ ? "yes" : "no"),
+             pba->varconst_C_ref, pba->varconst_gate_n);
   }
 
   if (pba->varconst_dep!=varconst_none){
     /* 10.b) Sensitivity of bbn to a variation of the fine structure constant */
     class_read_double("bbn_alpha_sensitivity",pth->bbn_alpha_sensitivity);
+    if (pba->varconst_density_gate == _TRUE_) {
+      class_test(pba->varconst_C_ref <= 0., errmsg, "varconst_C_ref must be > 0 when varconst_density_gate is on.");
+      class_test(pba->varconst_gate_n <= 0., errmsg, "varconst_gate_n must be > 0 when varconst_density_gate is on.");
+    }
   }
 
   return _SUCCESS_;
@@ -3260,7 +3298,7 @@ int input_read_parameters_species(struct file_content * pfc,
   /* PRTOE v4 dCDF: read the activation flag now (before the dark-energy
    * budget below) so it can force Omega0_cdm down to (near) 0 -- dCDF
    * replaces cdm+DE with a single fluid, see
-   * docs/PRTOE_v4_dCDF_derivation.md. Use ppr->Omega0_cdm_min_synchronous
+   * docs/exploratory/PRTOE_v4_dCDF_derivation.md. Use ppr->Omega0_cdm_min_synchronous
    * (1e-10), not a literal 0: the synchronous gauge is defined relative to
    * a CDM-comoving frame and CLASS fatal-errors with has_cdm==FALSE there
    * (perturbations_init). This floor is already how CLASS avoids the same
@@ -3372,14 +3410,26 @@ int input_read_parameters_species(struct file_content * pfc,
 
   /* ** END OF BUDGET EQUATION ** */
 
-  /** PRTOE v4 -- dCDF: unified dark fluid parameters. See
-   * docs/PRTOE_v4_dCDF_derivation.md. Omega0_dcdf is the shooting target
+  /** PRTOE v4/v5 -- dCDF: unified dark fluid parameters. See
+   * docs/exploratory/PRTOE_v4_dCDF_derivation.md. Omega0_dcdf is the shooting target
    * (density today); Omega_ini_dcdf is the shooting unknown (dust-era
    * amplitude), overwritten by the shooting driver when Omega0_dcdf is
    * given as a target -- read here exactly as Omega_ini_dcdm is read for
    * the analogous dcdm shooting pair. dcdf_rho_inf (de Sitter floor
    * density) is a direct input, not shot. (dcdf_beta was removed 2026-07-05:
    * the data drove it to its null limit; see background.h cs2_dcdf.) */
+  /* Fail loudly if a retired v4 knob is still in the input (docs claim this;
+   * CLASS would otherwise only WARN "input line not used"). */
+  {
+    double retired_beta;
+    class_call(parser_read_double(pfc,"dcdf_beta",&retired_beta,&flag1,errmsg),
+               errmsg, errmsg);
+    class_test(flag1 == _TRUE_, errmsg,
+               "dcdf_beta was removed 2026-07-05 (v5): MCMC drove beta -> 0 and any beta > 1e-6 "
+               "destroys sigma8. Equation of state is w=-rho_inf/rho with c_s^2 ≡ 0. "
+               "Remove dcdf_beta from the input. See docs/exploratory/PRTOE_v4_dCDF_derivation.md "
+               "and docs/PRTOE_FAILURES_LEDGER.md.");
+  }
   if (pba->use_dcdf == _TRUE_) {
     class_call(parser_read_double(pfc,"Omega0_dcdf",&param1,&flag1,errmsg),
                errmsg,
@@ -3419,7 +3469,7 @@ int input_read_parameters_species(struct file_content * pfc,
                  "dcdf_rho_inf (%e) must be strictly less than Omega0_dcdf (%e): "
                  "the de Sitter floor density cannot exceed the total dCDF density "
                  "today (Omega_ini_dcdf ~= Omega0_dcdf - dcdf_rho_inf would go negative). "
-                 "See docs/PRTOE_v4_dCDF_derivation.md.",
+                 "See docs/exploratory/PRTOE_v4_dCDF_derivation.md.",
                  pba->dcdf_rho_inf, pba->Omega0_dcdf);
     }
     /* Read in H0^2 (dimensionless Omega-like) units, scale to CLASS's
@@ -5996,6 +6046,17 @@ int input_default_params(struct background *pba,
   pth->bbn_alpha_sensitivity = 1.;
   pba->varconst_transition_redshift = 50.;
   pba->varconst_z_high = 0.; /* dyad high-z window off by default (backward compat) */
+  pba->varconst_transition_width = 0.; /* ramped edges off by default (backward compat) */
+  pba->varconst_density_gate = _FALSE_; /* legacy pure-z window unless dyad link / explicit on */
+  pba->varconst_C_ref = 2.0;            /* fence-window central value (candle/gate scripts) */
+  pba->varconst_gate_n = 4.0;           /* > 2.43 forced sharpness; near-step */
+  pba->dyad_link = _FALSE_;
+  pba->dyad_c = 0.9;
+  pba->dyad_f_amp = 0.63661977;
+  pba->dyad_Psi0_GeV = 5.33073e16;
+  pba->dyad_eps = 0.;
+  pba->varconst_D_trans = 0.;
+  pba->varconst_bg_table_ready = _FALSE_;
 
   /**
    * Default to input_read_parameters_species
@@ -6059,7 +6120,7 @@ int input_default_params(struct background *pba,
   pba->tau_dcdm = 0.0;
 
   /** 7.1.d) PRTOE v4 -- dCDF unified dark fluid (see
-   *  docs/PRTOE_v4_dCDF_derivation.md). Off by default. */
+   *  docs/exploratory/PRTOE_v4_dCDF_derivation.md). Off by default. */
   pba->use_dcdf = _FALSE_;
   pba->Omega0_dcdf = 0.0;
   pba->Omega_ini_dcdf = 0.0;
@@ -6069,6 +6130,7 @@ int input_default_params(struct background *pba,
                                 the smooth de Sitter floor is not matter. Mode 0 (full density)
                                 decided against 2026-07-05: BAO DR12 chi2 593 vs 8.2 for mode 1. */
   pba->dcdf_conv_g  = 0.0;   /* rotation-cancellation conversion off by default (backward compat) */
+  pba->has_dcdf_conv = _FALSE_;
   pba->dcdf_floor_thaw = 0.0; /* Route-D thawing floor off by default (constant floor, w=-1 exact) */
   pba->dcdf_conv_at = 0.6;   /* turn-on scale factor ~ z=0.67 */
   pba->dcdf_conv_n  = 4.0;   /* turn-on sharpness */

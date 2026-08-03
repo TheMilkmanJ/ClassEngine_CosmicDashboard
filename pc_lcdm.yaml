@@ -149,7 +149,16 @@ params:
       scale: 0.005
     proposal: 0.005
     latex: E_\mathrm{cal}
-  m_ncdm: 0.06
+  m_ncdm:              # marginalized to match the PRTOE twin (cmp_prtoe_fixed) for a valid ΔlnZ
+    prior:
+      min: 0.0
+      max: 0.6
+    ref:
+      dist: norm
+      loc: 0.0654
+      scale: 0.02
+    proposal: 0.02
+    latex: \Sigma m_\nu
   sigma8:
     latex: \sigma_8
   Omega_m:
@@ -157,10 +166,17 @@ params:
   S8:
     derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
     latex: S_8
+  YHe:
+    value: 'lambda omega_b: 0.2471 + 0.0096*np.log(omega_b/0.02236)'  # BBN-symmetric baseline (matches PRTOE at varying_me=1)
+    derived: false
+prior:
+  bbn: "lambda omega_b: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )"
+
 sampler:
   polychord:
     nlive: 400
+    nprior: 400              # explicit: the 10nlive default made the prior phase ~3 days for zero evidence gain
     num_repeats: 3d
     precision_criterion: 0.01
-    do_clustering: true
+    do_clustering: false     # unimodal posterior; avoids the clusters-dir crash, evidence unchanged
     measure_speeds: true

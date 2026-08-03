@@ -1,109 +1,147 @@
-# Note for Prof. W. Fairbank — Cosmological neutrino-mass room in a unified dark-fluid model
-*(DRAFT v0.1, 2026-07-07 — [PENDING] fields await the posterior; not for
-circulation until the citation gate (PRTOE_references.md) and the
-pending fields close.)*
+# Note for Prof. W. Fairbank — 0νββ in a unified dark-fluid cosmology
 
-## The result in three sentences
+*2026-07-19. Self-contained; plain physics.*
 
-In a unified dark-sector model that currently matches or modestly
-outperforms ΛCDM on the full joint CMB+BAO+SN stack, the cosmological
-squeeze on Σm_ν relaxes substantially: the χ² penalty for
-Σm_ν = 0.12 eV collapses from ~+12 (ΛCDM-like configuration) to
-**+2.8**, and the marginalized 95% upper limit comes out at
-**< ~0.15–0.17 eV (95%, PRELIMINARY, burn-in-sensitive and still drifting down; official convergence pending, R-1~1.06)** — versus
-the ~0.07–0.10 eV squeeze increasingly quoted in ΛCDM-conditional
-analyses. If this model class is right, **the inverted mass ordering —
-nEXO's natural target — remains cosmologically open.** The prediction
-was frozen (git-timestamped) before the posterior computed:
-registry entry P-2026-004.
+*Status: experimental note. The bridge to the neutrino sector is a registered model relation, not a first-principles derivation.*
 
-## Preliminary posterior (post-burn-in, 2026-07-07 — pending official convergence)
+## Result in three sentences
 
-*From the converged part of the adaptive MCMC (per-parameter Gelman-Rubin
-R−1 < 0.05 after dropping burn-in; the full-chain statistic is still burn-in-
-contaminated, so these are marked PRELIMINARY, not for circulation).*
+In a unified dark-sector cosmology — one superfluid scalar for dark matter and dark energy, plus a single early-universe electron-mass shift ε = 1.2543% (= 27α/5π, from one derived factor, one counting assumption, and one registered coupling) — the neutrino sector is an output: the dark-energy scale ties to the lightest neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**. The mass mechanism violates lepton number, so **neutrinos are Majorana and 0νββ is required**. With measured splittings and free Majorana phases,
 
-| quantity | value |
-|---|---|
-| Σm_ν (95% upper) | **< ~0.15–0.17 eV** (preliminary, drifting down; now landing INSIDE (P-2026-004 window [0.11,0.17]; landing at the top edge, ~0.006 eV above) |
-| m_e/m_e,0 | 1.0125 ± 0.0044 (2.9σ from ΛCDM's 1.0) |
-| H0 | 70.11 ± 0.66 |
-| S8 | 0.822 ± 0.009 (toward KiDS-Legacy) |
-| ρ_∞ | 0.705 ± 0.006 |
-| n_s | 0.971 ± 0.003 |
-| Savage–Dickey lnB (dyad/ΛCDM) | **+2.4** (strong, prior-width-dependent; nested via varying_me=1) |
+**m_ββ ∈ [0.04, 5.3] meV**, phase-averaged rms **3.3 meV** (rate ∝ m_ββ²; median over phases 3.05 meV).
 
-**Reading for the neutrino community:** the 95% limit (0.176 eV) sits well above
-the inverted-hierarchy floor (~0.10 eV), so **the inverted ordering — nEXO's
-target — remains cosmologically open in this model**, unlike the ~0.07–0.10 eV
-ΛCDM-conditional squeeze. P-2026-004 (window [0.11,0.17]) is landing marginally
-at/just-above its top edge; final convergence will confirm or move it. Caveats:
-preliminary (official R−1<0.05 pending), and the lnB is a nested Savage–Dickey
-Bayes factor (PolyChord still owed for the absolute evidence + non-nested checks).
+## Experimental reach
 
-## Why the squeeze relaxes (mechanism, not tuning)
+**Of the planned experiments below, only nEXO reaches this band, and only at the favourable matrix-element end.** Model ceiling m_ββ = 5.30 meV; nEXO projected reach at the favourable end is 4.7 meV — common band roughly **4.7–5.3 meV**. LEGEND-1000 (9–21 meV) and CUPID (12–34 meV) sit entirely above the ceiling. A confirmed detection outside the thin band falsifies the model.
 
-The model replaces CDM+Λ with one barotropic fluid (exactly
-ΛCDM-degenerate at the background and linear level — verified
-numerically to five decimals) plus a ~1% shift of m_e at recombination
-(Hart & Chluba's implementation; independently, varying-m_e is now
-preferred at 2–3.6σ by other groups on Planck+ACT+DESI stacks). In
-ΛCDM+N_eff extensions, extra radiation and Σm_ν compete for the same
-damping-tail budget; this model's joint fit *executed* the extra
-radiation entirely (ξ → 0.01), freeing that budget. The neutrino-mass
-room is a structural consequence of the fit, not a dial.
+**A null does not.** Phases can cancel. Dirac nature would kill the model (Majorana is required), but there is no practical way to prove Dirac: you cannot prove a process is absent. Experimentally: **this setup can refute the model; it cannot confirm it.**
 
-Corollary the data pays for free: at Σm_ν ≈ 0.12 eV the model's
-S8 → 0.807, i.e. *toward* the KiDS-Legacy weak-lensing consensus
-(0.815 ± 0.019) — the lensing data absent from our stack would reward,
-not tax, this mass range.
+**Near-term pressure is cosmological, from below.** DESI-era CMB+BAO limits reach Σm_ν ≲ 72 meV, some combinations lower. The model sits at 61.4 meV, just inside. The live risk is an upper limit descending through that value. The model’s reply is that those limits are ΛCDM-conditional and the squeeze relaxes under its recombination physics (section below) — a testable claim, not an escape.
 
-## The honest status card (what this is and isn't)
+**Σm_ν itself is not distinctive.** 61.4 meV is only **2.6 meV** above the normal-ordering floor (58.8 meV at m₁ = 0); planned cosmological resolution is ~20 meV. Nothing planned can separate this sum from the minimal-ordering case every squeezed model lands on.
 
-- Fit record: raw χ² 2798.4 on Planck 2018 + ACT DR6 + SPT-3G + BAO +
-  Pantheon+SHOES + BBN at H0 = 69.70 — [PENDING: final band vs the
-  refit ΛCDM twin]. The H0 value is sound-horizon-driven (it holds
-  with the SH0ES calibration included and pulling the other way).
-- Validation: exact ΛCDM null test (5-decimal reproduction), gauge
-  invariance, precision-stability battery, all committed.
-- Adversarial review: 27-turn red-team record (in-repo), including
-  registered negative results and one self-executed prediction. The
-  reviewer's standing line: "not proven — survived."
-- Evidence class: this model has, to date, **zero confirmed novel
-  numbers** — its pre-registered predictions (six, git-frozen,
-  each with a falsification condition) are pending. P-2026-004 is the
-  first to score. We say this plainly because the program's currency
-  is that every claim knows its grade.
-- Mainstream anchor: vacuum condensates setting matter's parameters is
-  not exotic — ~99% of ordinary mass is QCD-condensate binding. This
-  model adds one more condensate and asks whether it reads into the
-  remaining (Yukawa) percent at the 10⁻² level during one epoch.
+**m_ββ is distinctive** because it depends on m₁ itself. At m₁ = 0 the window is [1.48, 3.69] meV; at the model’s m₁ = 2.25 meV it is [0.04, 5.30] meV. Ceiling up 44%, floor nearly collapses. Minimal ordering puts the whole window below nEXO’s best reach; this model puts about **11%** of phase space above it. That is the difference an experiment can see.
 
-## Two smaller items that may interest you
+Provenance: registered before deciding data (2026-07-07, git-timestamped). Bridge is the same lightest-mass relation as in the neutrino sector. Ordering from a registered prediction-collision test (P-2026-004); P-2026-012 records the relation but does not select the branch (ANN-2026-025). See those entries for the full record.
 
-1. **A scale coincidence, flagged at coincidence grade:** the model's
-   dark-energy floor has ρ_∞^(1/4) = 2.25 meV — the expected mass
-   scale of the lightest neutrino (normal ordering). The known
-   attempts to mechanize the DE–ν coincidence (MaVaN) failed to
-   instabilities; we log the coincidence and claim nothing.
-2. **A framing you may enjoy:** in this model's bookkeeping language,
-   0νββ is the experiment that decides whether lepton number is a
-   *collateralized* charge (like electric charge, with a field
-   enforcing it) or an unenforced accounting identity — Majorana
-   neutrinos being the mechanism by which an unenforced identity
-   defaults. Your detector is, in our language, auditing whether L's
-   debt has a bank.
+## Cancellation floor
+
+Lightest mass m₁ = ρ_Λ¼. Observed 2.25 meV (0.45% — Planck 1.8% on ρ_Λ, quartered). Model chain: 2.2599 meV (+0.44%), inside 1σ of observation. Sum barely moves: Σm_ν = 61.34–61.37 meV → quoted 61.4. Effective mass is more sensitive at the floor.
+
+NuFIT-class mixings across the observation’s range:
+
+| term | m₁ = 2.2399 meV (−1σ) | m₁ = 2.25 meV (obs.) | m₁ = 2.2599 meV (derived) |
+|---|---|---|---|
+| \|U_e1\|² m₁ | 1.52 meV | 1.52 meV | 1.53 meV |
+| \|U_e2\|² m₂ | 2.67 meV | 2.67 meV | 2.67 meV |
+| \|U_e3\|² m₃ | 1.10 meV | 1.10 meV | 1.10 meV |
+| **floor** | **0.050 meV** | **0.044 meV** | **0.038 meV** |
+| ceiling | 5.295 meV | 5.302 meV | 5.310 meV |
+
+Floor moves ~25% across the range; ceiling moves 0.3%. Window quoted **[0.04, 5.3] meV**; conclusions below depend on the ceiling.
+
+A floor exists because the middle term exceeds the other two (2.67 vs 2.62). Margin 0.05 meV on O(2) terms — three phasors barely fail to close a triangle. Above m₁ = **2.324 meV** the floor is zero. Derived anchor is 2.8% below that (six times the measurement precision on the scale): floor thins but does not vanish inside the allowed range.
+
+Floor ~0.04 meV is a scale coincidence, not a protected feature; two orders below any planned reach. The useful consequence: near-cancellation makes **m_ββ a sharp probe of the dark-energy scale**.
+
+## Overlay on experiments
+
+Projected 10-year reaches (spans = nuclear matrix-element range), model window [0.04, 5.30] meV:
+
+| experiment | isotope | projected m_ββ reach | vs 5.30 meV ceiling |
+|---|---|---|---|
+| **nEXO** | ¹³⁶Xe | **4.7 – 20.3 meV** | **overlaps 4.7–5.3 meV** |
+| LEGEND-1000 | ⁷⁶Ge | 9 – 21 meV | entirely above |
+| CUPID | ¹⁰⁰Mo | 12 – 34 meV | entirely above |
+
+Only nEXO can touch the model, and only if the ¹³⁶Xe matrix element is favourable. Flat Majorana phases (convention, not a result): model exceeds 4.7 meV about **10.8%** of the time.
+
+If barium tagging delivers the projected factor-of-four half-life gain, reach improves by √4 = 2 in m_ββ → ~**2.35 meV**. Detection probability on this model: 10.8% → **69%**. Discrimination is weaker: minimal normal ordering [1.48, 3.69] meV exceeds 2.35 meV **63.7%** of the time.
+
+| reach | this model | minimal ordering | separates? |
+|---|---|---|---|
+| 4.7 meV (baseline nEXO) | 10.8% | **0%** | **yes** |
+| 2.35 meV (Ba tagging) | 69.1% | 63.7% | no |
+
+**Discriminating band: 3.69–5.30 meV** — above minimal ordering’s hard ceiling, below this model’s. Minimal ordering cannot produce a signal there; this model lands there **31.7%** of the time. All of baseline nEXO’s 10.8% falls in that band.
+
+**Barium tagging makes the test likely; baseline nEXO makes it decisive.** A tagged detection near 2 meV barely moves this model’s posterior. A baseline detection near 4.5 meV cannot be minimal ordering.
+
+## Why the cosmological squeeze relaxes
+
+ΛCDM-conditional analyses squeeze Σm_ν toward (and below) the ~59 meV oscillation floor. This model replaces CDM+Λ with one fluid (ΛCDM-degenerate at background and linear level, checked to five decimals) plus an electron-mass shift at recombination (Hart–Chluba). Varying-m_e support is real but not flattering: Hart & Chluba 2020 at **3.5σ**; recent ACT DR6 + DESI DR2 fit m_e/m_e₀ = 1.0081 ± 0.0046 (**1.8σ**); other work finds varying m_e does not fully resolve H₀ once DESI DR2 BAO is in. Common-framework scoreboard (Schöneberg et al. 2026, 14 models): early dark energy ΔIC 23.40, residual tension 2.51σ; varying m_e 12.58 and 4.25σ. This letter does not rest on being the best H₀ route.
+
+Shifted calibration frees damping-tail budget that ΛCDM spends against neutrino mass, so model-conditional fits leave Σm_ν near its physical value. If the class is right, the meV-scale m_ββ frontier is physically open rather than cosmologically foreclosed.
+
+## Status of the cosmological fits
+
+Fits match or modestly outperform ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES at H₀ ≈ 69.9 (sound-horizon driven; holds with SH0ES included though that calibration pulls the other way). **Not final:** chains are still being brought to convergence under a corrected sampler; the value may move.
+
+**As of 28 July the live matched pair looks better than it is.** Best fit 1377.89 (model) vs 1379.79 (ΛCDM) — 1.9 log units our way. **Do not quote that.** Three parallel chains sit at best fits **1377.9, 1610.6, 1440.6** with H₀ = 69.5, 64.0, 64.8 — three regions, not one posterior. The 1377.89 is one chain that found a good region. Reference ΛCDM chains are better behaved (spread 0.43) but not converged either. Acceptance was **5.3–6.2%** (model) and 8.5–8.9% (ΛCDM) vs a ~25% target; proposal poorly matched. Re-tuning is a collective checkpoint all ranks must reach; one rank lagged and the other two waited. **No convergence statistic was computed for that run** (empty progress file). Proposal reseeded from the good chain; acceptance moved to **31%**.
+
+*(Earlier draft blamed a re-tuning gate behind a convergence threshold. That gate is real and might have mattered next, but it was never reached; that claim is withdrawn. Fact remains: proposal was not re-tuned and the three chains never merged.)*
+**We do not claim the comparison as a result.** A later matched relaunch merged the basins (every sampled parameter agrees across ranks to within ~0.6 within-chain s.d.) and is *converging but not yet quotable* (R−1 still above the 0.05 stop). The standing evidence number remains the marginal, SH0ES-conditional Laplace estimate described below.
+
+**Further reasons not to claim the comparison:** our chain has 1.79× more samples (best-fit is a running minimum that favours the longer chain); neither chain has converged (ΛCDM R−1 ≈ 1.0; ours has no R−1 yet); best fit is not evidence (no parameter penalty — the whole point when one model has fewer parameters). **Live comparison is a wash, not quotable either way.** Standing evidence number remains the marginal, SH0ES-conditional Laplace estimate below.
+
+**Zero-parameter evidence test.** Amplitude, tilt, coupling, and transition epoch frozen in advance vs ΛCDM at full freedom. Nested sampling started then stood down on this hardware (hundreds of days to first checkpoint); waits for cluster time. Until then: Laplace-from-MCMC. Caveat: transition epoch frozen at a **profiled** value 0.053 dex from the model’s onset identity (~28% in dark-fluid mass). **The graded configuration is near the model, not the stated one.**
+
+Validation: exact ΛCDM null to five decimals, gauge invariance, precision-stability battery. Medium’s reality is carried as an open assumption. Entry points: THREE_EQUATIONS, DEPENDENCY_TREE, PREREGISTERED_PREDICTIONS (50+ bets), FAILURES_LEDGER.
+
+Context: ~99% of ordinary mass is QCD-condensate binding. This model adds one more condensate and asks whether it reads into the remaining Yukawa percent at the 10⁻² level for one epoch.
+
+### BBN (worst column)
+
+Deliberately absent from the fit list above. Electron-mass shift is on during nucleosynthesis; sector is rigid (inputs derived or measured) — model cannot coach its witness. Net adverse. Y_p +1.3 to +2.0σ above Aver, +3.8 to +4.4σ vs EMPRESS (helium civil war unresolved). D/H predicted 2.407–2.463×10⁻⁵ vs Cooke 2.527 ± 0.030 → −2.5 to −1.4σ on the full budget (obs. ±0.030 ⊕ PRIMAT post-LUNA ±0.037). Ranges span ζ = T_dark/T_γ ∈ [0.25, 0.35], used everywhere it appears; CMB-S4 measures it via ΔN_eff = 0.06–0.24.
+
+*(Next section uses ζ baseline before dark-radiation dilution; same calculation, earlier stage: 2.387×10⁻⁵.)*
+
+Joint decided by a nuclear-code systematic outside our control: PRIMAT D/H = 2.439 vs PArthENoPE 2.51–2.54 (3.5% = 2.3× quoted nuclear error). Carrying none of it: joint p = 0.02–0.08; half: 0.07–0.11; all: 0.12–0.21. Model on the low side of the deuterium fork — self-adverse, registered before referee (P-2026-027: dark-ages radio primordial D/H at 327 MHz).
+
+**Inside our pipeline the systematic is one reaction.** Switching PRIMAT ↔ NACRE II at fixed everything else: D/H +2.33%, row −2.94σ → −1.77σ; helium 0.02σ. **d(d,n)³He carries 94%.** Not a LUNA effect: compilations agree on d(p,γ)³He to 0.12%. They disagree on how well d(d,n)³He is known: PRIMAT 1.10% vs NACRE II 5.86% (factor 5.2); central values differ 4.31%.
+
+Pisanti et al. (JCAP 04 (2021) 020): D/H = (2.51 ± 0.06 ± 0.03)×10⁻⁵ — rate error **±0.06**, 2.5× the ±0.037 we use; 3% spread in d(d,n)³He from analysis choice alone. LUNA collaboration (EPJ Web Conf. 279, 01002 (2023)): D(d,n)³He and D(d,p)³H are the top remaining priority for primordial deuterium. Not done as of now.
+
+**Column magnitude is set by unsettled nuclear data.** Rate error carried at four values in the literature; baseline row (2.387 before dilution) reads **−3.6σ to −1.6σ** depending on error bar. (−2.5 to −1.4σ earlier is the ζ window at fixed error bar — a different object.) Our −2.94σ uses the tightest assessment (conservative). Registered as two-sided bet **P-2026-058**: closing onto Cooke needs true d(d,n)³He 5.0–9.6% below PRIMAT. If LUNA-precision confirms PRIMAT to ~1%, deuterium is wrong at −3.6σ with no model lever. Bet largely shared with ΛCDM (needs −8.9% on the same rate); discriminates only in a narrow band.
+
+## Where the deuterium deficit comes from
+
+At ζ baseline (before dark-radiation dilution that lifts 2.387 into 2.407–2.463), from an in-house ΛCDM control, same code and data:
+
+| step | D/H ×10⁻⁵ | vs Cooke (±0.0476) |
+|---|---|---|
+| ΛCDM control | 2.420 | −2.25σ |
+| model baryon density, +1.1% | 2.372 | −3.25σ |
+| electron-mass window at nucleosynthesis, +0.645% | 2.387 | −2.94σ |
+
+**Nucleosynthesis new physics helps.** ε ramp on at T_c = 177.10 keV raises D/H +0.645% (+0.31σ). On ΛCDM control alone that would be −1.93σ vs control’s −2.25σ — a decomposition only: window and baryon shift are the same ε at two epochs; the model cannot have one without the other. Conclusion: **deficit is not made in the nuclear sector.**
+
+**Deficit is imported from the CMB fit.** Varying m_e returns ω_b 1.1% above control; d ln(D/H)/d ln ω_b = −1.66 → 1.8% deuterium loss — three times the window’s help, opposite sign.
+
+**Same baryon shift buys the Hubble result.** Exchange rate **0.59σ deuterium per km/s/Mpc of H₀** (secant between model fit and control, 1.7 km/s/Mpc apart — trustworthy inside the interval, extrapolation outside). Parity with ΛCDM control costs 1.17 of 1.7 km/s/Mpc (**69% of H₀ relief**). Centring D/H on Cooke would take ~3× the measured interval (direction/scale only).
+
+Deuterium tension and Hubble result are one trade. A real cure must raise D/H at fixed ω_b and fixed m_e. Expansion-rate levers fail (wrong shape). Two survivors: boost confined below T_c (right shape, 8–33× too weak on dof counting); late ⁴He photodissociation (cheap on paper; needs ≳20 MeV state, lifetime 10⁶–10⁸ s, ~30 eV per H — not in the model’s field content).
+
+## Lightest mass and framing
+
+Oscillations fix two splittings, not the absolute floor. Here the floor is medium-sourced: **m₁ = κ_m · ρ_Λ¼ with κ_m ≈ 1** — the dark-energy scale **sets** the lightest mass; Σm_ν = 61.4 meV follows from measured splittings.
+
+Three qualifications:
+
+1. The model does **not** derive 2.25 meV (dark-energy-value problem). Claim is that one un-derived number does two jobs standard cosmology treats as unrelated. Predictive content is the relation.
+2. κ_m ≈ 1 is residual freedom: form from channel counting; O(1) coefficient not independently pinned.
+3. Not a MaVaN construction (those hit the Afshordi–Zaldarriaga–Kohri instability). m_ν is set by a frozen lepton-number-breaking VEV, not a rolling DE field.
+
+Framing: 0νββ decides whether lepton number is an enforced charge (field-backed) or an unenforced accounting identity that Majorana neutrinos default. The detector audits whether that debt has a bank.
 
 ## The ask
 
-The Σm_ν posterior lands [PENDING: date]. We'd value: (a) your read on
-whether the relaxed window is presented in the form most useful to the
-0νββ community; (b) a critical eye on the BBN sector (the model's
-D/H residual and its candidate resolution are documented); (c) any
-interest in the ΛCDM-vs-model comparison being run with nEXO's
-sensitivity band overlaid.
+**(a)** Is the meV-window prediction in the form most useful to the 0νββ community — especially the two-sided kill structure, and whether the floor’s thinness should be stated up front?
 
-*(All claims traceable: PRTOE_v5_dCDF_complete.md for the model;
-PRTOE_PREREGISTERED_PREDICTIONS.md for the frozen bets;
-PRTOE_references.md for verified citations; the full adversarial
-review in ForClaude.txt.)*
+**(b)** Critical eye on BBN (model’s weakest sector). Three questions: which rate-error assessment a referee expects (PRIMAT vs NACRE; difference is rejection at 5% vs comfort — we took the harshest); whether the deficit should be argued as a BBN problem or as a statement about the m_e–ω_b degeneracy; whether the dark-ages radio referee is a real path.
+
+**(c)** Two numbers you own: is **4.7 meV** the right baseline nEXO reach at favourable ¹³⁶Xe matrix element? Is the barium-tagging factor-of-four correctly read as half-life (→ 2× in m_ββ) or something else? Every probability above moves with those; the discriminating-band argument is only as good as the 3.69 meV minimal-ordering ceiling.
+
+---
+
+*Trace: [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md), [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md), [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*

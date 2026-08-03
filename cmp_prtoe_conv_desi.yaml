@@ -19,6 +19,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0
@@ -37,7 +38,7 @@ theory:
       lensing: 'yes'
 params:
   YHe:
-    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236)'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
+    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
     derived: false
   omega_b:
     prior: {min: 0.0200, max: 0.0250}
@@ -80,7 +81,7 @@ params:
     ref: {dist: norm, loc: 0.2, scale: 0.1}
     proposal: 0.1
     latex: g_\mathrm{conv}
-  varying_me: 1.01232
+  varying_me: 1.012543
   A_planck:
     prior: {dist: norm, loc: 1.0, scale: 0.0025}
     ref: {dist: norm, loc: 1.0, scale: 0.002}
@@ -124,7 +125,7 @@ params:
     latex: S_8
 
 prior:
-  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )"
+  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2 - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) + (0.01816831*((varying_me-1)*100) + (-0.00242341)*((varying_me-1)*100)**2)*1e-5 - 2.527e-5)/0.030e-5)**2 )"
 
 sampler:
   mcmc:
@@ -132,5 +133,16 @@ sampler:
     Rminus1_stop: 0.1
     Rminus1_cl_stop: 0.2
     learn_proposal: True
+    # 2026-07-20: same defect and same fix as routeD. Cobaya's default
+    # learn_proposal_Rminus1_max_early = 30 let this chain learn a proposal
+    # covariance while R-1 sat at 19-28 -- from a chain that had never
+    # converged -- and the learned widths collapsed, so acceptance climbed
+    # (0.937 -> 0.973 by N = 1152) while R-1 ROSE, 19.2 -> 27.6. The proven
+    # fix on routeD: seed the covariance at physical widths and only ever
+    # learn from a converged chain. routeD on this configuration measured
+    # acceptance 0.306 against the collapsed run's 0.99.
+    learn_proposal_Rminus1_max: 2.0
+    learn_proposal_Rminus1_max_early: 2.0
+    covmat: chains/conv_desi_seed.covmat
     burn_in: 100
 

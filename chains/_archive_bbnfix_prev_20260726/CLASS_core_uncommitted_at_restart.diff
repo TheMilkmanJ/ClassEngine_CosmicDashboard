@@ -1,0 +1,480 @@
+diff --git a/include/background.h b/include/background.h
+index eee2ffc2..f86283fa 100644
+--- a/include/background.h
++++ b/include/background.h
+@@ -18,6 +18,10 @@ enum equation_of_state {CLP,EDE};
+ /** list of possible parametrizations of the varying fundamental constants */
+ 
+ enum varconst_dependence {varconst_none,varconst_instant};
++/* varconst_instant covers both the legacy pure-redshift window and the PRTOE
++ * density-gate path (varconst_density_gate). The latter is the model path:
++ * eps is set by the dyad amplitude stack and the environmental switch is the
++ * survival-form gate S(Δ) of me_mechanism_math / THE_AMPLITUDE. */
+ 
+ /** list of formats for the vector of background quantities */
+ 
+@@ -119,14 +123,19 @@ struct background
+   double phi_prime_ini_scf;/**< \f$ d\phi(t_0)/d\tau \f$: scalar field initial derivative wrt conformal time */
+   int scf_parameters_size; /**< size of scf_parameters */
+   double varconst_alpha; /**< finestructure constant for varying fundamental constants */
+-  double varconst_me; /**< electron mass for varying fundamental constants */
++  double varconst_me; /**< electron mass for varying fundamental constants.
++                           With dcdf_dyad_link=yes this is DERIVED (1+eps) from the
++                           amplitude stack, not a free input. */
+   enum varconst_dependence varconst_dep; /**< dependence of the varying fundamental constants as a function of time */
+-  double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case*/
++  double varconst_transition_redshift; /**< redshift of transition between varied fundamental constants and normal fundamental constants in the 'varconst_instant' case.
++                              With varconst_density_gate=yes this calibrates the homogeneous
++                              structure proxy: the growth-proxy load equals C_ref at this z. */
+   double varconst_transition_width; /**< PRTOE (2026-07-12, the depth law): ramp width of
+                               the window edges in ln(1+z). 0 (default) = the original
+                               instantaneous steps (backward compatible); > 0 = both edges
+                               become tanh ramps — the banked screening-edge fade (z~30-60)
+-                              and the T_c condensation onset, at global-average level. */
++                              and the T_c condensation onset, at global-average level.
++                              Used only when varconst_density_gate is off. */
+   double varconst_z_high; /**< PRTOE dyad HIGH-z window edge (2026-07-10): above this
+                               redshift the constants return to STANDARD -- the dyad
+                               condensate is thermally DISORDERED above its T_c (electron-CW
+@@ -136,6 +145,28 @@ struct background
+                               window is varconst_transition_redshift < z < varconst_z_high.
+                               <=0 disables (default): plain varconst_instant step exactly. */
+ 
++  /* PRTOE density-dependent Theta / gate screening (2026-07-23).
++   * Model: m_e(x) = m_e^lab * [1 + eps * f_growth(z) * S(x)], with
++   *   S = exp(-(max(Δ,0)/C_ref)^n)   (survival form; me_mechanism_math THE GATE)
++   * Δ is a local matter overdensity (voids: Δ≤0 → S=1 bare; clusters: Δ≫C_ref → S=0 lab).
++   * Homogeneous FRW has no local Δ, so the background path uses a structure proxy
++   * Δ_proxy(z) = C_ref * (1+z_trans)/(1+z)  (matter-era growth D∝a, calibrated so the
++   * load equals C_ref at varconst_transition_redshift — the banked z~30–60 fade).
++   * Local environments call background_varconst_of_z_delta(...).
++   * Off by default (legacy pure-redshift window); auto-on with dcdf_dyad_link=yes. */
++  short varconst_density_gate; /**< _TRUE_ = survival-form density gate; _FALSE_ = legacy z-window */
++  double varconst_C_ref;       /**< gate reference load (overdensity units); default 2 (fence window) */
++  double varconst_gate_n;      /**< survival exponent n; must exceed 2.43 (forced sharpness); default 4 */
++  short dyad_link;             /**< _TRUE_ when dcdf_dyad_link derived the amplitude */
++  double dyad_c;               /**< amplitude stack factor c (default 9/10) */
++  double dyad_f_amp;           /**< amplitude stack factor f_amp (default 2/π) */
++  double dyad_Psi0_GeV;        /**< amplitude stack Psi0 in GeV */
++  double dyad_eps;             /**< derived eps = c * f_amp * Psi0 / M_red */
++  /** After background_init: D(z_trans)/D(today) for the density-gate load.
++   *  0 means "not yet available" — of_z falls back to the a^{-1} proxy. */
++  double varconst_D_trans;
++  short varconst_bg_table_ready; /**< _TRUE_ once D is normalized and varc recomputed */
++
+   /* ===== PRTOE v4 -- dCDF: single dark fluid unifying CDM+DE =====
+    * See docs/PRTOE_v4_dCDF_derivation.md. Purely-kinetic k-essence,
+    * exactly barotropic: w(rho) = -exp(-(s+beta*s^2)), s = ln(rho/rho_inf).
+@@ -501,6 +532,26 @@ extern "C" {
+                                double* me
+                                );
+ 
++  /**
++   * Local-environment varying constants: same as background_varconst_of_z but
++   * with an explicit matter overdensity delta = rho_m/rho_mean - 1.
++   * Voids (delta ≤ 0) keep the bare value; overdense structure screens to lab.
++   * When varconst_density_gate is off this ignores delta and matches of_z.
++   */
++  int background_varconst_of_z_delta(
++                                     struct background* pba,
++                                     double z,
++                                     double delta,
++                                     double* alpha,
++                                     double* me
++                                     );
++
++  /** Survival-form gate S(load) = exp(-(max(load,0)/C_ref)^n). Returns 1 if gate off. */
++  double background_varconst_gate_S(
++                                    struct background* pba,
++                                    double load
++                                    );
++
+   int background_init(
+                       struct precision *ppr,
+                       struct background *pba
+diff --git a/source/background.c b/source/background.c
+index 2175f3c3..0fdf6126 100644
+--- a/source/background.c
++++ b/source/background.c
+@@ -884,21 +884,147 @@ int background_w_fld(
+  * @return the error status
+  */
+ 
+-int background_varconst_of_z(
+-                             struct background* pba,
+-                             double z,
+-                             double* alpha,
+-                             double* me
+-                             ){
++/**
++ * Survival-form environmental gate (PRTOE me_mechanism_math THE GATE).
++ * S = exp(-(max(load,0)/C_ref)^n). load is a structure proxy (local overdensity
++ * for of_z_delta; growth-calibrated load for the homogeneous path).
++ * Returns 1 when the density gate is off (caller should use the legacy window).
++ */
++double background_varconst_gate_S(
++                                  struct background* pba,
++                                  double load
++                                  ){
++  double x, S;
++  if (pba->varconst_density_gate == _FALSE_)
++    return 1.;
++  if ((pba->varconst_C_ref <= 0.) || (pba->varconst_gate_n <= 0.))
++    return 1.;
++  if (load <= 0.)
++    return 1.; /* voids / smooth: bare value */
++  x = load / pba->varconst_C_ref;
++  S = exp(-pow(x, pba->varconst_gate_n));
++  if (S < 0.) S = 0.;
++  if (S > 1.) S = 1.;
++  return S;
++}
++
++/**
++ * Order-parameter growth factor f_growth(z): 0 above T_c (z_high), rising as
++ * 1 - T/T_c below condensation. z_high<=0 => always 1 (growth ramp off).
++ */
++static double background_varconst_f_growth(
++                                           struct background* pba,
++                                           double z
++                                           ){
++  double f;
++  if (pba->varconst_z_high <= 0.)
++    return 1.;
++  if (z > pba->varconst_z_high)
++    return 0.;
++  f = 1. - (1.+z)/(1.+pba->varconst_z_high);
++  if (f < 0.) f = 0.;
++  if (f > 1.) f = 1.;
++  return f;
++}
++
++/**
++ * Homogeneous structure load for the density gate (no local delta on FRW).
++ *
++ * Preferred: the actual scale-invariant growth factor D(z) from the background
++ * table, normalized so D(today)=1, calibrated so load = C_ref at z_trans:
++ *   load(z) = C_ref * D(z) / D(z_trans)
++ * Early (D small): load small → S→1 (bare m_e, recombination plateau).
++ * Late  (D ~ 1):  load large → S→0 (lab value in mean structure).
++ *
++ * Fallback before the table is ready (during integration / ncdm pre-table):
++ * matter-era proxy D ∝ a = 1/(1+z), same calibration.
++ */
++/** Interpolate D(z) from the filled background table (no of_z recursion). */
++static double background_varconst_D_of_z_table(
++                                               struct background* pba,
++                                               double z
++                                               ){
++  int i;
++  double z0, z1, D0, D1, w;
++  if ((pba->bt_size <= 0) || (pba->background_table == NULL))
++    return 1./(1.+z); /* matter-era fallback */
++  if (z >= pba->z_table[0])
++    return pba->background_table[0*pba->bg_size + pba->index_bg_D];
++  if (z <= pba->z_table[pba->bt_size-1])
++    return pba->background_table[(pba->bt_size-1)*pba->bg_size + pba->index_bg_D];
++  i = 0;
++  while ((i < pba->bt_size-1) && (pba->z_table[i+1] > z)) i++;
++  z0 = pba->z_table[i];
++  z1 = pba->z_table[i+1];
++  D0 = pba->background_table[i*pba->bg_size + pba->index_bg_D];
++  D1 = pba->background_table[(i+1)*pba->bg_size + pba->index_bg_D];
++  w = (z0 - z) / (z0 - z1 + 1e-300);
++  if (w < 0.) w = 0.;
++  if (w > 1.) w = 1.;
++  return D0 + w*(D1 - D0);
++}
++
++static double background_varconst_load_homogeneous(
++                                                   struct background* pba,
++                                                   double z
++                                                   ){
++  double D_z, D_trans;
++
++  /* Real growth factor once background_init has normalized D and cached D_trans */
++  if ((pba->varconst_bg_table_ready == _TRUE_) && (pba->varconst_D_trans > 0.)) {
++    D_z = background_varconst_D_of_z_table(pba, z);
++    D_trans = pba->varconst_D_trans;
++    if (D_trans > 1e-300)
++      return pba->varconst_C_ref * D_z / D_trans;
++  }
++
++  /* Pre-table fallback: matter-era D ∝ a, calibrated at z_trans */
++  return pba->varconst_C_ref * (1.+pba->varconst_transition_redshift)/(1.+z);
++}
++
++/**
++ * Shared evaluator: f = f_growth(z) * S_screen.
++ * S_screen is either the density gate or the legacy redshift window.
++ * use_local_delta selects of_z_delta (local overdensity) vs of_z (homogeneous).
++ */
++static int background_varconst_evaluate(
++                                        struct background* pba,
++                                        double z,
++                                        double delta,
++                                        short use_local_delta,
++                                        double* alpha,
++                                        double* me
++                                        ){
++  double f_growth, f_screen, f;
+ 
+   switch(pba->varconst_dep){
+ 
+   case varconst_none:
+     *alpha = 1.;
+     *me = 1.;
+-    break;
++    return _SUCCESS_;
+ 
+   case varconst_instant:
++
++    f_growth = background_varconst_f_growth(pba, z);
++
++    if (pba->varconst_density_gate == _TRUE_) {
++      /* ---- MODEL PATH: density-dependent Theta / survival gate ----
++       * m_e/m_lab = 1 + eps * f_growth(z) * S(load)
++       * Local: load = max(delta, 0). Homogeneous: growth-proxy load. */
++      double load;
++      if (use_local_delta == _TRUE_)
++        load = (delta > 0.) ? delta : 0.;
++      else
++        load = background_varconst_load_homogeneous(pba, z);
++      f_screen = background_varconst_gate_S(pba, load);
++      f = f_growth * f_screen;
++      *alpha = 1. + (pba->varconst_alpha - 1.)*f;
++      *me = 1. + (pba->varconst_me - 1.)*f;
++      return _SUCCESS_;
++    }
++
++    /* ---- LEGACY PATH: pure-redshift window (backward compatible) ---- */
+     if (pba->varconst_transition_width > 0.) {
+       /* PRTOE ramped window (2026-07-12, the depth law: edges are fades, not steps).
+          Both edges become tanh ramps in ln(1+z): the low edge = the screening fade
+@@ -906,35 +1032,21 @@ int background_varconst_of_z(
+          reproduces the original steps exactly (backward compatible). */
+       double w = pba->varconst_transition_width;
+       double f_low = 0.5*(1. + tanh(log((1.+z)/(1.+pba->varconst_transition_redshift))/w));
+-      double f_high = 1.;
+-      if (pba->varconst_z_high > 0.) {
+-        /* PRTOE growth ramp (2026-07-14, hunt entry 164): below the condensation the
+-           order parameter GROWS, v^2 propto (1 - T/T_c) with T propto (1+z) -- the
+-           condensate is born as the pour's deposit cools, not switched on (mean-field
+-           beta = 1/2; validity certified by Gi << 1 from the model's own couplings). */
+-        f_high = 1. - (1.+z)/(1.+pba->varconst_z_high);
+-        if (f_high < 0.) f_high = 0.;
+-      }
+-      double f = f_low*f_high;
++      f_screen = f_low; /* f_growth already carries the high-z edge when z_high>0 */
++      /* When z_high is off, f_growth=1 and the old code folded high edge into f_low
++         only; when width>0 and z_high>0 the old code used f_high inside the product.
++         Preserve: if z_high>0, f_growth already is that f_high. */
++      f = f_low * f_growth;
+       *alpha = 1. + (pba->varconst_alpha - 1.)*f;
+       *me = 1. + (pba->varconst_me - 1.)*f;
+     }
+-    else if (z>pba->varconst_transition_redshift){
+-      /* PRTOE dyad high-z window (2026-07-10): above varconst_z_high the condensate is
+-         thermally disordered (T > T_c, electron-CW) -> constants STANDARD -> quiet BBN.
+-         varconst_z_high <= 0 disables (default): plain instantaneous step, unchanged. */
++    else if (z > pba->varconst_transition_redshift){
++      /* Step branch: full shift between transition and z_high (if any). */
+       if ((pba->varconst_z_high > 0.) && (z > pba->varconst_z_high)) {
+         *alpha = 1.;
+         *me = 1.;
+       }
+       else {
+-        /* PRTOE growth ramp (2026-07-14, hunt entry 164): same order-parameter birth
+-           in the step branch -- full strength only well below T_c. */
+-        double f_growth = 1.;
+-        if (pba->varconst_z_high > 0.) {
+-          f_growth = 1. - (1.+z)/(1.+pba->varconst_z_high);
+-          if (f_growth < 0.) f_growth = 0.;
+-        }
+         *alpha = 1. + (pba->varconst_alpha - 1.)*f_growth;
+         *me = 1. + (pba->varconst_me - 1.)*f_growth;
+       }
+@@ -943,13 +1055,36 @@ int background_varconst_of_z(
+       *alpha = 1.;
+       *me = 1.;
+     }
+-    break;
+-
+-    /* Implement here your arbitrary model of varying fundamental constants! */
++    return _SUCCESS_;
+   }
++
++  /* Unreachable if enum is exhaustive; keep compiler quiet. */
++  *alpha = 1.;
++  *me = 1.;
+   return _SUCCESS_;
+ }
+ 
++int background_varconst_of_z(
++                             struct background* pba,
++                             double z,
++                             double* alpha,
++                             double* me
++                             ){
++  /* Homogeneous FRW path: structure proxy, no local overdensity. */
++  return background_varconst_evaluate(pba, z, 0., _FALSE_, alpha, me);
++}
++
++int background_varconst_of_z_delta(
++                                   struct background* pba,
++                                   double z,
++                                   double delta,
++                                   double* alpha,
++                                   double* me
++                                   ){
++  /* Local environment: voids (delta≤0) keep bare m_e; structure screens to lab. */
++  return background_varconst_evaluate(pba, z, delta, _TRUE_, alpha, me);
++}
++
+ /**
+  * Initialize the background structure, and in particular the
+  * background interpolation table.
+@@ -2194,6 +2329,31 @@ int background_solve(
+     pba->background_table[index_loga*pba->bg_size+pba->index_bg_lum_distance] = comoving_radius*(1.+pba->z_table[index_loga]);
+   }
+ 
++  /** - PRTOE density gate: cache D(z_trans) and recompute varc_me/alpha with the
++   *    real growth factor (replaces the a^{-1} proxy used during integration). */
++  pba->varconst_D_trans = 0.;
++  pba->varconst_bg_table_ready = _FALSE_;
++  if ((pba->has_varconst == _TRUE_) && (pba->varconst_density_gate == _TRUE_)) {
++    double alpha_vc, me_vc;
++    pba->varconst_D_trans = background_varconst_D_of_z_table(pba, pba->varconst_transition_redshift);
++    if (pba->varconst_D_trans < 1e-300)
++      pba->varconst_D_trans = 1e-300;
++    pba->varconst_bg_table_ready = _TRUE_;
++    for (index_loga=0; index_loga < pba->bt_size; index_loga++) {
++      class_call(background_varconst_of_z(pba,
++                                          pba->z_table[index_loga],
++                                          &alpha_vc,
++                                          &me_vc),
++                 pba->error_message,
++                 pba->error_message);
++      pba->background_table[index_loga*pba->bg_size+pba->index_bg_varc_alpha] = alpha_vc;
++      pba->background_table[index_loga*pba->bg_size+pba->index_bg_varc_me] = me_vc;
++    }
++    if (pba->background_verbose > 0)
++      printf(" -> PRTOE density gate: D(z_trans=%g)=%g (D_today=1); varc table recomputed with growth factor\n",
++             pba->varconst_transition_redshift, pba->varconst_D_trans);
++  }
++
+   /** - fill tables of second derivatives (in view of spline interpolation) */
+   class_call(array_spline_table_lines(pba->z_table,
+                                       pba->bt_size,
+diff --git a/source/input.c b/source/input.c
+index f6cc04a2..9b1bac87 100644
+--- a/source/input.c
++++ b/source/input.c
+@@ -2364,15 +2364,24 @@ int input_read_parameters_general(struct file_content * pfc,
+     class_read_double("varying_z_high",pba->varconst_z_high);
+     class_test((pba->varconst_z_high > 0.) && (pba->varconst_z_high <= pba->varconst_transition_redshift),
+                errmsg, "varying_z_high must exceed varying_transition_redshift (the dyad window is transition < z < z_high).");
++    /* Optional density gate without dyad link (default off = legacy z-window). */
++    class_call(parser_read_string(pfc,"varconst_density_gate",&string1,&flag1,errmsg),errmsg,errmsg);
++    if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
++      pba->varconst_density_gate = _TRUE_;
++    }
++    class_read_double("varconst_C_ref",pba->varconst_C_ref);
++    class_read_double("varconst_gate_n",pba->varconst_gate_n);
+     break;
+   }
+ 
+   /* --- PRTOE dyad link (R1): m_e is a CONSEQUENCE of the dark sector, not a free
+-   * knob. When dcdf_dyad_link=yes, m_e is DERIVED from the #11 amplitude relation
+-   * eps = c * f_amp * (Psi0 / M_red), so varying_me = 1 + eps is computed rather
+-   * than read. This structurally enforces the dyad (the audit found m_e and the
+-   * dcdf fluid were independent in the code). Defaults reproduce the derived
+-   * +1.232% shift; off by default so existing configs are unaffected. */
++   * knob. When dcdf_dyad_link=yes:
++   *   (1) eps is DERIVED from the #11 amplitude stack
++   *         eps = c * f_amp * (Psi0 / M_red)  →  varying_me = 1 + eps
++   *   (2) the environmental switch uses the survival-form density gate
++   *         S = exp(-(max(Δ,0)/C_ref)^n)  (me_mechanism_math THE GATE)
++   *       so screening is density/structure-dependent, not a pure redshift step.
++   * Off by default so existing configs are unaffected. */
+   class_call(parser_read_string(pfc,"dcdf_dyad_link",&string1,&flag1,errmsg),errmsg,errmsg);
+   if (flag1 == _TRUE_ && (strstr(string1,"y") != NULL || strstr(string1,"Y") != NULL)) {
+     double dyad_c = 0.9, dyad_f_amp = 0.63661977, dyad_Psi0 = 5.33073e16, dyad_Mred = 2.435e18, dyad_eps; /* def541 derived stack: (9/10)*(2/pi)*3alpha -> eps = 1.2543% (P-040/P-041; freeze-gate def539) */
+@@ -2382,14 +2391,42 @@ int input_read_parameters_general(struct file_content * pfc,
+     dyad_eps = dyad_c * dyad_f_amp * dyad_Psi0 / dyad_Mred;
+     pba->varconst_dep = varconst_instant;
+     pba->varconst_me = 1.0 + dyad_eps;
++    pba->dyad_link = _TRUE_;
++    pba->dyad_c = dyad_c;
++    pba->dyad_f_amp = dyad_f_amp;
++    pba->dyad_Psi0_GeV = dyad_Psi0;
++    pba->dyad_eps = dyad_eps;
++    /* Model path: density-dependent Theta saturation, not pure-z screening.
++     * Allow explicit override varconst_density_gate=no to recover the legacy window. */
++    class_call(parser_read_string(pfc,"varconst_density_gate",&string1,&flag1,errmsg),errmsg,errmsg);
++    if (flag1 == _TRUE_ && (strstr(string1,"n") != NULL || strstr(string1,"N") != NULL
++                            || strstr(string1,"false") != NULL || strstr(string1,"False") != NULL)) {
++      pba->varconst_density_gate = _FALSE_;
++    }
++    else {
++      pba->varconst_density_gate = _TRUE_;
++    }
++    class_read_double("varconst_C_ref",pba->varconst_C_ref);
++    class_read_double("varconst_gate_n",pba->varconst_gate_n);
++    class_read_double("varying_transition_redshift",pba->varconst_transition_redshift);
++    class_read_double("varying_z_high",pba->varconst_z_high);
++    class_read_double("varying_alpha",pba->varconst_alpha);
++    class_test(pba->varconst_C_ref <= 0., errmsg, "varconst_C_ref must be > 0 (gate reference overdensity).");
++    class_test(pba->varconst_gate_n <= 0., errmsg, "varconst_gate_n must be > 0 (survival-form exponent; model requires n > 2.43).");
+     if (pba->background_verbose > 0)
+-      printf(" -> PRTOE dyad link ON: m_e DERIVED from amplitude (c=%g, f_amp=%g, Psi0=%g GeV) -> varying_me = %.6f\n",
+-             dyad_c, dyad_f_amp, dyad_Psi0, pba->varconst_me);
++      printf(" -> PRTOE dyad link ON: m_e DERIVED from amplitude (c=%g, f_amp=%g, Psi0=%g GeV) -> varying_me = %.6f; density_gate=%s (C_ref=%g, n=%g)\n",
++             dyad_c, dyad_f_amp, dyad_Psi0, pba->varconst_me,
++             (pba->varconst_density_gate==_TRUE_ ? "yes" : "no"),
++             pba->varconst_C_ref, pba->varconst_gate_n);
+   }
+ 
+   if (pba->varconst_dep!=varconst_none){
+     /* 10.b) Sensitivity of bbn to a variation of the fine structure constant */
+     class_read_double("bbn_alpha_sensitivity",pth->bbn_alpha_sensitivity);
++    if (pba->varconst_density_gate == _TRUE_) {
++      class_test(pba->varconst_C_ref <= 0., errmsg, "varconst_C_ref must be > 0 when varconst_density_gate is on.");
++      class_test(pba->varconst_gate_n <= 0., errmsg, "varconst_gate_n must be > 0 when varconst_density_gate is on.");
++    }
+   }
+ 
+   return _SUCCESS_;
+@@ -5998,6 +6035,16 @@ int input_default_params(struct background *pba,
+   pba->varconst_transition_redshift = 50.;
+   pba->varconst_z_high = 0.; /* dyad high-z window off by default (backward compat) */
+   pba->varconst_transition_width = 0.; /* ramped edges off by default (backward compat) */
++  pba->varconst_density_gate = _FALSE_; /* legacy pure-z window unless dyad link / explicit on */
++  pba->varconst_C_ref = 2.0;            /* fence-window central value (candle/gate scripts) */
++  pba->varconst_gate_n = 4.0;           /* > 2.43 forced sharpness; near-step */
++  pba->dyad_link = _FALSE_;
++  pba->dyad_c = 0.9;
++  pba->dyad_f_amp = 0.63661977;
++  pba->dyad_Psi0_GeV = 5.33073e16;
++  pba->dyad_eps = 0.;
++  pba->varconst_D_trans = 0.;
++  pba->varconst_bg_table_ready = _FALSE_;
+ 
+   /**
+    * Default to input_read_parameters_species
+diff --git a/source/thermodynamics.c b/source/thermodynamics.c
+index b6d2ce24..56317912 100644
+--- a/source/thermodynamics.c
++++ b/source/thermodynamics.c
+@@ -70,7 +70,10 @@ int thermodynamics_at_z(
+   double x0;
+   /* Dark matter baryon scattering */
+   double Vrms_idm_b2, T_diff_idm_b, m_b, FHe;
+-  /* Varying fundamental constants */
++  /* Varying fundamental constants (1705.03925). PRTOE: this module consumes
++   * alpha(z), me(z) from background_varconst_of_z — it does not own the m_e
++   * model. With dcdf_dyad_link the background derives eps from the amplitude
++   * stack and applies the density gate; thermodynamics only rescales rates. */
+   double sigmaTrescale = 1., alpha = 1., me = 1.;
+ 
+   /* The fact that z is in the pre-computed range 0 <= z <= z_initial will be checked in the interpolation routines below. Before

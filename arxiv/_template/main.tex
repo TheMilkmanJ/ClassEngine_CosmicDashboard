@@ -1,0 +1,78 @@
+% ---------------------------------------------------------------------------
+% Template for a single-claim submission.
+%
+% revtex4-2 is the default because most of the target categories (hep-ph,
+% astro-ph.CO, gr-qc) read as APS-style. Swap to `article` for math-ph.
+%
+% BEFORE WRITING ANY PROSE, fill in the abstract. If the abstract cannot be
+% written without pointing at another document, the paper's boundary is wrong
+% and the scope needs cutting, not explaining.
+% ---------------------------------------------------------------------------
+\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,showpacs]{revtex4-2}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{bm}
+
+\begin{document}
+
+\title{TITLE --- state the one claim, not the programme}
+
+\author{Justin Pulford}
+\email{pulfordj420@gmail.com}
+\affiliation{Unaffiliated}
+
+\date{\today}
+
+% ---------------------------------------------------------------------------
+% ABSTRACT. Hard limit 1920 characters in arXiv metadata; aim well under.
+% A moderator reads this and nothing else. It must contain, in order:
+%   (1) the setting, in one sentence a non-specialist in the subfield follows;
+%   (2) the specific claim, with its number;
+%   (3) how it is obtained;
+%   (4) what would falsify it;
+%   (5) what is assumed and not derived --- stated here, not buried.
+% Point (5) is not a weakness to hide. A paper that names its own assumptions
+% in the abstract reads as competent; one that does not reads as overclaiming,
+% and overclaiming is what draws reclassification.
+% ---------------------------------------------------------------------------
+\begin{abstract}
+ABSTRACT.
+\end{abstract}
+
+\maketitle
+
+% ---------------------------------------------------------------------------
+\section{Introduction}
+% What is already known, with citations. Where this differs. Why the difference
+% is testable. Do not open with the framework --- open with the problem the
+% field already recognises.
+% ---------------------------------------------------------------------------
+
+\section{Setup}
+% Definitions and notation. Standard symbols only. Anything imported from other
+% work is stated with its own citation and its own uncertainty, never assumed
+% available to the reader.
+
+\section{Result}
+% The derivation. Every step reproducible from what is on the page.
+
+\section{What is assumed}
+% A short explicit section. Which inputs are derived, which are assumed, which
+% are selected by data, and which are fitted. This is the corpus's strongest
+% habit and it transfers directly --- but phrase it as ordinary scientific
+% hedging, not as an internal grading vocabulary.
+
+\section{Falsification}
+% The number or observation that kills the claim, and the precision needed.
+
+\section{Conclusion}
+
+\begin{acknowledgments}
+\end{acknowledgments}
+
+\bibliographystyle{apsrev4-2}
+\bibliography{refs}
+
+\end{document}

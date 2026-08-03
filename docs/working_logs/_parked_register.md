@@ -1,0 +1,38 @@
+# The Parked Register — snagged, analyzed, set aside (per the parking law)
+
+*Not dead, not alive, not forced. Each entry: the snag, the analysis, and the NAMED UNBLOCK
+that would reopen it. Nothing leaves the register except through its unblock or a kill.*
+
+| item | the snag | the named unblock |
+|---|---|---|
+| H-TOE (the maximal reading — the CONSTITUENT question only; the mass-sourcing fork resolved as the tenancy ramp) | Gates un-paid; internal review adverse census forecast (proper N ~ 8-11 vs the rigid 13) | Gate 2's careful signed count; the basement compute |
+| the hinge-zone prong (wide binaries at ξ) | no mechanism (the ξ-scale force died with m_amp) | any derived substrate edge-dynamics at ξ |
+| the double-ladder alignments (web/mesoscale) | loose coincidences, no mechanism | a derivation linking ξ_K or 1/M₂ to the matter transition |
+| the generations lane (3 cycles = 3 families) | a 3=3 match without a mechanism | the flavor-from-winding construction |
+| GEN 4's AD-direct transfer | the frozen-era timing crux (sphalerons at 130 GeV vs the field frozen till 9.4 keV) | the μ-term/phase-gradient transfer calculation |
+| JWST-IMF (cooling subdomain) | mid-ramp H2/HD cooling shifts the first-star IMF (top-heavy?) — NOT the halo abundance | the IMF-shift calc at z~10-30 |
+| the mass-top triple coincidence (α_g=1 / r_s=ξ / CSW-max) | m-correlated, noted-only | the α_c MCMC posterior + an SMBH mass-function mechanism |
+| the α_c ~ 3α couplings note | numerology-adjacent | any basement-spectrum derivation |
+| the seats=doors conjecture (the family's three = the three doors; Koide's 2/3 = "two on, one off" — its sharpest form: the mass spectrum reading its own sector anatomy) | category fence stands (readings ≠ families); three independent arrivals at w = 1/3 noted (hunt 143/174) | the basement paying lock 6 (√2), the 3-bridge (2ξ₁/ξ₂), AND emitting the door grammar from one structure — the anisotropic heat-kernel session |
+| the chiral-GW amplitude | REOPENED (hunt 181 — the operator's ramp catch): the 179 closure computed ONE corner (swirl θ̇, one propagation form, coefficient silently O(1)); the ramped family spans ~9 orders and flips the band ordering (the accumulating form gives 9×10⁻¹⁵ at LIGO); the null holds at the swirl corner under every form, but a µ-scale θ̇ with unsuppressed coefficient can break it | the θ·R·R̃ COEFFICIENT calc (the original unblock — still the decisive unknown) + the θ̇ band (the GC µ's magnitude) |
+| LSS-parity pricing (T16) | likely-short flag | the vorticity→4PCF amplitude computation — **DELIVERED, row retired through its unblock (2026-07-27 sync; the computation landed earlier):** the helical-vorticity channel yields parity-odd fractions ~(v/c)³ ~ 10⁻⁹, SHORT BY ~7 ORDERS (T16's PAID item 1, decisive); the bet against is registered as P-2026-055 and booked in the census |
+
+**Appendix-B self-audit under the no-forcing law (this pass):** all eleven rows classify
+relationships (ridden / owned / screened) — none claims an improvement it doesn't have. ONE
+SHARPENING booked: the Oklo fence is passed TRIVIALLY on its α-side (the model never touches
+α — EM-neutrality) and GATE-passed on the m_e-side (β-decay phase space; the settled era) —
+the row's honesty upgraded from "passed" to "passed-for-two-reasons, one trivial."
+
+## THE CROSS-COMPARISON PASS: each parked item vs all domains
+
+| item | the cross-domain find | effect |
+|---|---|---|
+| H-TOE Gate 2 | **the count is anchored by DATA, not convention**: the induced-α log integrates the same β as the MEASURED running of α (α(m_e)→α(M_Z)=1/128.9, precision-tested) — the "proper N" = the measured effective QED β-coefficient, not a chosen roster | GENUINE IMPROVEMENT: Gate 2 becomes a data-anchored computation |
+| GEN 4's frozen-era transfer | **the mechanism's shape exists in our recorded cousin**: a frozen condensate with a phase gradient coupled through a tunneling element = a JOSEPHSON JUNCTION — the DC-Josephson form I_L ∝ μ·sin(Δθ) gives the transfer current's structure without the field rolling | GENUINE IMPROVEMENT: the crux calculation now has a template (the medium↔lepton sector as a junction, μ = the tunneling element) |
+| the chiral-GW amplitude | **the formalism exists**: our θ·R·R̃ sector maps onto dynamical Chern-Simons gravity — the dCS literature supplies BOTH the amplitude machinery AND existing bounds (ringdown/frame-dragging) | GENUINE IMPROVEMENT: compute the dCS mapping; inherit its constraints |
+| generations 3=3 | the test-fabric named: flavor data — any cycles-construction must reproduce PMNS/CKM mixing as inter-cycle overlaps | fabric named; still parked (un-built) |
+| LSS parity | the cheaper intermediate: galaxy SPIN-ALIGNMENT statistics vs the winding axis (existing surveys) sit between the vorticity and the 4PCF | fabric named; a cheaper first test defined |
+| the hinge-zone prong | the lab-cousin domain answers: coherence lengths do NOT push on embedded bodies (ξ is internal structure) | REFINED TOWARD KILL |
+| double-ladder web/mesoscale | LSS statistics: the "web scale" is not a sharp observable (BAO 147 Mpc is; ξ_K isn't it) | stays loose; parked |
+| mass-top triple | SMBH demographics = the fabric; needs the α_c MCMC + a mechanism | parked unchanged |
+| α_c ~ 3α | the basement spectrum = the only fabric | parked unchanged |

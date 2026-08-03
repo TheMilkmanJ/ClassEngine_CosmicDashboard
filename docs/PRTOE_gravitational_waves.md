@@ -1,39 +1,46 @@
 # Gravitational Waves — the Medium's Ripples, Signed and Silent (2026-07-11)
 
-*Thread 10. Status: STRUCTURAL — one NEW computed null (tonight), one banked parity-odd
-channel with a genome signature, one flagged interior prong. The improvement: the model makes
-its GW sector's silences and signatures SPECIFIC where standard cosmology leaves them generic.*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
+*Thread 10. One computed null, one recorded parity-odd channel with a genome signature, one open
+interior prong. The model makes its GW sector's silences and signatures specific where standard
+cosmology leaves them generic.*
 
 ## 0. Three questions a medium-universe must answer about GWs
 
 Does the dark vortex network radiate (a PTA background)? Do the medium's defects distort
 propagation? And does the model mark the GW sky with anything no one else predicts?
 
-## 1. The vortex network is PTA-SILENT (computed tonight — a passed self-check turned prediction)
+## 1. The vortex network is PTA-silent (computed here — a passed self-check turned prediction)
 
 Cosmic-string networks radiate GWs; a universe threaded by dark vortex lines had to be
-checked (a potential self-kill). The dark vortex tension is set by the CONDENSATE's density,
+checked (a potential self-kill). The dark vortex tension is set by the condensate's density,
 not a GUT vev:
 
-    μ ~ πħ²ρ/m² · ln(R/ξ)  →  **Gμ ~ 3×10⁻²¹**  (local-density maximum; cosmic mean lower)
+ μ ~ πħ²ρ/m² · ln(R/ξ) → **Gμ ~ 3×10⁻²¹** (local-density maximum; cosmic mean lower)
 
 vs the CMB bound Gμ < 10⁻⁷ and PTA network sensitivities ~10⁻¹⁰: **safe by ten-plus orders —
-and therefore a PREDICTION: no vortex-network contribution to the NANOGrav-class background.**
+and therefore a prediction: no vortex-network contribution to the NANOGrav-class background.**
 The observed PTA common signal must be astrophysical (SMBH binaries) in this model; a
 demonstrated cosmic-string-network component with Gμ ≳ 10⁻¹¹ would be foreign blood — a kill.
 
-## 2. The parity-odd channel — the model's distinctive GW mark (banked, L1a's fine print)
+## 2. The parity-odd channel — the model's distinctive GW mark (recorded, L1a's fine print)
 
-The constitutional text (L1a, banked): the medium cannot reach the PHOTON with parity-odd
-couplings (the birefringence zero) — but it CAN carry a parity-odd GRAVITATIONAL coupling,
-θ·R·R̃ → gravitational waves. Consequence, joined to tonight's structures: **a circularly-
+The constitutional text (L1a, recorded): the medium cannot reach the photon with parity-odd
+couplings (the birefringence zero) — but it can carry a parity-odd gravitational coupling,
+θ·R·R̃ → gravitational waves. Consequence, joined to these structures: **a circularly-
 polarized (chiral) component of any primordial GW background, with handedness set by the
-genome's sign** — the SAME topological draw as the baryon asymmetry and the magnetic helicity
-(P-028). The chirality family now has three members on one integer: matter, magnetism,
-metric ripples. (Amplitude un-computed — flagged; the SIGN correlation is the falsifiable
-content whenever any two members are measured.)
+winding's sign** — the same topological integer that fixes the magnetic helicity's sign
+(P-028). The baryon asymmetry is **not** a member of this family: it rides the temporal
+rotation θ̇ while the helicity and the GW handedness ride the spatial winding n, and the joint
+draw finds those two signs independent (correlation −0.06 to +0.09 against a ±0.13 noise
+floor). The family is two members on one integer — magnetism and metric ripples — not three.
+(The amplitude is computed below and closes as a structural null: the carrier is absent, so
+the GW member may never be readable, and what remains testable is the helicity's sign relative
+to the winding axis.)
 
-## 3. Ringdowns, echoes, and the interior (def411's flag, kept at its size)
+## 3. Ringdowns, echoes, and the interior
 
 BH exteriors are standard to current precision (the null stance); the finite core replaces the
 singularity at depths current ringdown data cannot resolve. IF pursued: core-boundary
@@ -41,13 +48,60 @@ microstructure generically imprints late-time echoes — amplitude un-computed, 
 as the interior document's honest prong. LIGO/Virgo/ET constraints on echoes are, so far,
 consistent with silence — which costs the model nothing (the core sits deep).
 
-## 4. The banked collision retired honorably
+## 4. The recorded collision retired honorably
 
-ANN-2026-010 (the ε-collision with PTA reach) remains the bookkept boundary: the medium's
+ANN-2026-010 (the ε-collision with PTA reach) remains the boundary on the record: the medium's
 strain-scale sits below PTA sensitivity — the GW sector neither rescues nor threatens the
-dyad. The model's GW ledger: one computed silence, one signed chirality, one deep prong, zero
+model. The model's GW record: one computed silence, one signed chirality, one deep prong, zero
 current tensions.
+
+## 5. The lightswitch — the parity channel's biography and the split prediction
+
+The parity-odd coupling θR R̃ is a toggle by construction (parity-odd terms flip, they do not
+dial) and its action on a passing wave is helicity-selective — one circular polarization
+amplified, the other damped. The model's history throws that switch exactly once: the genesis
+pour turns it on (the active-θ̇ era); the settling fades it off across a decade-wide dimmer,
+z ≈ 32 → 4, centered on the freeze at z ≈ 12 — **the same event whose frozen residual is the
+cosmological constant: one clock, two jobs — dark energy on, birefringence off.** The
+residual θ̇ today (the swirl, 10⁻² H₀) leaves every band 12+ orders below instrument reach.
+
+**The split prediction (registered; the channel's falsifiable cash):**
+
+- **every resolved gravitational-wave event arrives with clean polarization** — all
+ resolvable sources (LIGO z ≲ 2, LISA z ≲ 10, PTA z ≲ 1) lie entirely on post-freeze
+ paths; **a confirmed chirality in any resolved binary kills the model**;
+- **parity violation, if it exists anywhere, is confined to the primordial stochastic
+ background** — the one channel whose paths cross the on era; chirality there, with
+ resolved events clean, is the settling story's fingerprint. Its amplitude is set by the
+ θR R̃ coefficient — the open computation, with the break-threshold priced
+ (coeff·θ̇ ~ 10¹⁰ H₀).
+
+## Where the dead ends live
+
+The failed attempts in this sector — the abandoned expectation that cosmic *photon* birefringence
+should be non-zero, and the timing-wall phrasing — are recorded in
+[PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) under **"Birefringence."** They are worth
+the reader's time: proving the photon channel is closed (the medium is EM-neutral → zero
+optical rotation) is exactly what forces the parity signal into gravity (θ·R·R̃ → GW
+chirality). The dead ends are how the model learned that the dark sector signs the metric,
+not the light.
 
 *The medium hums too quietly for the pulsars to hear, wears its one preferred handedness
 wherever parity is for sale, and keeps its strangest room — the inside of a black hole —
-below the depth where the ringing has yet reached. A specific silence is still a signature.*
+below the depth where the ringing has yet reached. A specific silence is still a signature —
+and this one comes with a biography: the universe flicked the parity switch once, at birth,
+and the dimming of that click is the dark energy that now carries every wave home clean.*
+
+
+## The chiral background's amplitude — computed, and it is a structural null (2026-07-18)
+
+The chirality family's missing number is now in hand, and it closes as a null. The recorded
+vortex tension (Gμ ≈ 3×10⁻²¹) puts the network's own gravitational-wave background at
+Ω_GW h² ≈ 3×10⁻¹⁸ — eight orders under pulsar timing, four under LISA and the ground-based
+third generation, and one and a half under the inflationary B-mode floor. **The polarization
+asymmetry may be order unity and remain unobservable, because the carrier is missing.**
+
+This is the same structure that protects the model elsewhere: the vortex null that keeps the
+network safely under every gravitational-wave constraint also denies it a gravitational-wave
+signature. Recorded as a formal prediction with no detection channel, rather than as a
+forecast.

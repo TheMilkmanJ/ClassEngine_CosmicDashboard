@@ -19,6 +19,7 @@ theory:
   classy:
     stop_at_error: false
     extra_args:
+      dcdf_dyad_link: 'yes'
       use_dcdf: 'yes'
       varying_fundamental_constants: instantaneous
       varying_alpha: 1.0
@@ -37,7 +38,7 @@ theory:
       lensing: 'yes'
 params:
   YHe:
-    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236)'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
+    value: 'lambda omega_b, varying_me: 0.2471 + 0.0096*np.log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2'  # m_e=1 at BBN (condensate not formed yet); recomb shift still applied by CLASS varconst
     derived: false
   omega_b:
     prior: {min: 0.0200, max: 0.0250}
@@ -85,7 +86,7 @@ params:
     ref: 0.12
     proposal: 0.03
     latex: (1+w_{\rm fl,0})
-  varying_me: 1.01232
+  varying_me: 1.012543
   A_planck:
     prior: {dist: norm, loc: 1.0, scale: 0.0025}
     ref: {dist: norm, loc: 1.0, scale: 0.002}
@@ -129,7 +130,7 @@ params:
     latex: S_8
 
 prior:
-  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.030e-5)**2 )"
+  bbn: "lambda omega_b, varying_me: -0.5*( ((0.2471 + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.00176009*((varying_me-1)*100) + (-5.105e-05)*((varying_me-1)*100)**2 - 0.2449)/0.0040)**2 + ((2.53e-5*__import__('numpy').exp(-1.6*__import__('numpy').log(omega_b/0.02236)) + (0.01816831*((varying_me-1)*100) + (-0.00242341)*((varying_me-1)*100)**2)*1e-5 - 2.527e-5)/0.030e-5)**2 )"
 
 sampler:
   mcmc:
@@ -137,5 +138,17 @@ sampler:
     Rminus1_stop: 0.1
     Rminus1_cl_stop: 0.2
     learn_proposal: True
+    # 2026-07-20: the first two launches collapsed. Cobaya's default
+    # learn_proposal_Rminus1_max_early = 30 let the chain learn a proposal
+    # covariance while R-1 sat at 8-27 -- i.e. from a chain that had not
+    # converged at all. The learned sigmas came back 10-45x SMALLER than the
+    # proposal widths below (n_s 0.00024 vs 0.005; m_ncdm 0.00044 vs 0.02),
+    # so the chain took ever-tinier steps and stopped exploring: 6936 samples
+    # covered only H0 68.20-69.45 out of a 14-wide prior, with R-1 = 24.9.
+    # Fix: seed the covariance at the physical widths, and only ever learn
+    # from a chain that has actually converged (both gates at 2).
+    learn_proposal_Rminus1_max: 2.0
+    learn_proposal_Rminus1_max_early: 2.0
+    covmat: chains/routeD_seed.covmat
     burn_in: 100
 

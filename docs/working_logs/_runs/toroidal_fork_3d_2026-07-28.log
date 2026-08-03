@@ -1,0 +1,174 @@
+==============================================================================
+Link 4's toroidal half — both fork readings, one experiment
+==============================================================================
+
+   --- starting n = +1 ---
+      [n=+1 t= 1.00  E-drift 16.110%  ring: yes]
+      [n=+1 FIRST RING at t = 1.00: helA -1, W -1.19]
+      [n=+1 t= 1.25  E-drift 19.203%  ring: yes]
+      [n=+1 t= 1.50  E-drift 23.806%  ring: yes]
+      [n=+1 t= 1.75  E-drift 28.810%  ring: yes]
+      [n=+1 t= 2.00  E-drift 34.012%  ring: yes]
+      [n=+1 t= 2.25  E-drift 39.198%  ring: yes]
+      [n=+1 t= 2.50  E-drift 44.095%  ring: yes]
+      [n=+1 t= 2.75  E-drift 48.416%  ring: yes]
+      [n=+1 t= 3.00  E-drift 52.141%  ring: yes]
+      [n=+1 t= 3.25  E-drift 55.370%  ring: yes]
+      [n=+1 t= 3.50  E-drift 58.113%  ring: yes]
+      [n=+1 t= 3.75  E-drift 60.450%  ring: yes]
+      [n=+1 t= 4.00  E-drift 62.482%  ring: yes]
+      [n=+1 t= 4.25  E-drift 64.278%  ring: yes]
+      [n=+1 t= 4.50  E-drift 65.904%  ring: yes]
+      [n=+1 t= 4.75  E-drift 67.435%  ring: yes]
+      [n=+1 t= 5.00  E-drift 68.925%  ring: yes]
+      [n=+1 t= 5.25  E-drift 70.428%  ring: yes]
+      [n=+1 t= 5.50  E-drift 71.958%  ring: yes]
+      [n=+1 t= 5.75  E-drift 73.485%  ring: yes]
+      [n=+1 t= 6.00  E-drift 74.946%  ring: yes]
+      [n=+1 t= 6.25  E-drift 76.314%  ring: yes]
+      [n=+1 t= 6.50  E-drift 77.591%  ring: yes]
+      [n=+1 t= 6.75  E-drift 78.757%  ring: yes]
+      [n=+1 t= 7.00  E-drift 79.821%  ring: yes]
+      [n=+1 t= 7.25  E-drift 80.786%  ring: yes]
+      [n=+1 t= 7.50  E-drift 81.669%  ring: yes]
+      [n=+1 t= 7.75  E-drift 82.489%  ring: yes]
+      [n=+1 t= 8.00  E-drift 83.262%  ring: yes]
+
+   n = +1: ring at t = 1.00, r̄ = 4.3, z̄ = 10.5, bins 16/16, drift 0.8326
+      (A) shape helicity: -1 (m₁ amp 0.36)
+      (B) core-circuit winding W = -1.19, excess = -2.19
+
+   --- starting n = -1 ---
+      [n=-1 t= 1.00  E-drift 16.113%  ring: yes]
+      [n=-1 FIRST RING at t = 1.00: helA +1, W +1.87]
+      [n=-1 t= 1.25  E-drift 19.208%  ring: yes]
+      [n=-1 t= 1.50  E-drift 23.813%  ring: yes]
+      [n=-1 t= 1.75  E-drift 28.818%  ring: yes]
+      [n=-1 t= 2.00  E-drift 34.020%  ring: yes]
+      [n=-1 t= 2.25  E-drift 39.206%  ring: yes]
+      [n=-1 t= 2.50  E-drift 44.103%  ring: yes]
+      [n=-1 t= 2.75  E-drift 48.422%  ring: yes]
+      [n=-1 t= 3.00  E-drift 52.145%  ring: yes]
+      [n=-1 t= 3.25  E-drift 55.372%  ring: yes]
+      [n=-1 t= 3.50  E-drift 58.113%  ring: yes]
+      [n=-1 t= 3.75  E-drift 60.448%  ring: yes]
+      [n=-1 t= 4.00  E-drift 62.479%  ring: yes]
+      [n=-1 t= 4.25  E-drift 64.274%  ring: yes]
+      [n=-1 t= 4.50  E-drift 65.900%  ring: yes]
+      [n=-1 t= 4.75  E-drift 67.430%  ring: yes]
+      [n=-1 t= 5.00  E-drift 68.920%  ring: yes]
+      [n=-1 t= 5.25  E-drift 70.424%  ring: yes]
+      [n=-1 t= 5.50  E-drift 71.954%  ring: yes]
+      [n=-1 t= 5.75  E-drift 73.481%  ring: yes]
+      [n=-1 t= 6.00  E-drift 74.943%  ring: yes]
+      [n=-1 t= 6.25  E-drift 76.311%  ring: yes]
+      [n=-1 t= 6.50  E-drift 77.587%  ring: yes]
+      [n=-1 t= 6.75  E-drift 78.754%  ring: yes]
+      [n=-1 t= 7.00  E-drift 79.818%  ring: yes]
+      [n=-1 t= 7.25  E-drift 80.784%  ring: yes]
+      [n=-1 t= 7.50  E-drift 81.667%  ring: yes]
+      [n=-1 t= 7.75  E-drift 82.486%  ring: yes]
+      [n=-1 t= 8.00  E-drift 83.260%  ring: yes]
+
+   n = -1: ring at t = 1.00, r̄ = 4.2, z̄ = 11.0, bins 16/16, drift 0.8326
+      (A) shape helicity: +1 (m₁ amp 0.63)
+      (B) core-circuit winding W = +1.87, excess = +2.87
+
+VERDICT (the fork resolves on the pair):
+   (A) shape helicity locked+flips: YES
+   (B) excess twist locked+flips:   NO
+   SURVIVOR: reading (A). Reading (B) to the ledger.
+==============================================================================
+g sign, so it is a systematic that
+subtracts out of a branch comparison while remaining fatal to any absolute
+energy claim. NO ABSOLUTE ENERGETIC QUANTITY FROM THIS RUN MAY BE QUOTED.
+
+WHAT THAT LICENSES, per reading:
+
+  (A) shape helicity -- -1 at n=+1, +1 at n=-1, pair sum 0.
+      INTEGER-VALUED. A 0.029% common-mode asymmetry cannot move a quantity that
+      changes only in discrete jumps. The exact flip is ROBUST to the drift, and
+      would remain so at a hundred times the asymmetry.
+
+  (B) core-circuit winding W -- -1.19 at n=+1, +1.87 at n=-1, pair sum +0.68.
+      CONTINUOUS, so in principle drift-sensitive. But the residual is 44.4% of
+      the typical magnitude (1.53), which exceeds the measured branch asymmetry
+      by a factor of ~1,530. B'S PAIR-SUM FAILURE IS THEREFORE A REAL FEATURE OF
+      THE CONFIGURATION, NOT A NUMERICAL ARTIFACT -- it cannot be explained away
+      by the drift, and equally it cannot be rescued by tightening the integrator.
+
+CONSEQUENCE, COMMITTED NOW: if the run completes with these values holding, then
+reading (A) is the surviving one and reading (B) is falsified on its own
+pair-sum, independently of whatever sign the completed run reports. If instead
+(A)'s flip fails to hold at completion, that is a genuine surprise and neither
+reading survives -- the failure would then be in the construction, not the
+arithmetic.
+
+WHAT IS NOT LICENSED: any statement about energy, action, or stability from this
+run; any comparison to a run with a different integrator setting; and any claim
+that (B) would pass with more resolution, since its residual is three orders
+above the noise that resolution controls.
+
+--- pre-registration re-checked at t = 6.75/8 (2026-07-28) ---
+Shared frames 22 -> 24. Worst relative branch asymmetry UNCHANGED at 0.0294%,
+and the two frames added since the note (t = 6.50, 6.75) differ by only -0.004
+and -0.003 pp -- smaller than the mid-run frames, not larger. Absolute drift
+meanwhile climbed 76.3% -> 78.8%.
+
+That is the common-mode signature the acceptance note assumed, now tested rather
+than asserted: the drift is a property of the integrator and is identical between
+the two winding signs, so it cancels in the branch comparison while remaining
+fatal to any absolute energetic claim. The criterion stands as written, and
+reading (A)'s integer flip remains robust by three orders against this asymmetry.
+
+================================================================================
+RESTORED NOTE + AN ADMISSION ABOUT THIS FILE (written 2026-07-28 22:10, after the
+run exited)
+================================================================================
+
+WHAT HAPPENED. The original "PRE-REGISTERED ACCEPTANCE NOTE", appended to this log
+at t = 6.25/8, IS GONE FROM THIS FILE. I appended it with >> while the run still
+held the file open through a > redirection. The run's own write offset was behind
+my append, so its subsequent frames overwrote my text. The later re-check note
+survived only by the timing of the next flush. This file is not tracked in git, so
+the original is unrecoverable.
+
+WHY THAT MATTERS MORE THAN A LOST PARAGRAPH. The note's entire value was that it
+fixed the acceptance criterion BEFORE the answer was visible. A pre-registration
+that cannot be shown to predate its result is worth very little, and destroying
+the primary record of one is a self-inflicted wound to exactly the discipline it
+was serving.
+
+WHAT THE ATTESTATION NOW RESTS ON, stated so a reader can weigh it:
+  * scripts/toroidal_fork_verdict.py carries the criterion verbatim in its
+    docstring and was written at 21:40:3x. The run reached t = 8.00 at ~22:07 and
+    the process exited 22:08 -- a 27-minute margin, on a file nobody edited after.
+  * The surviving re-check note above refers back to "the acceptance note" and
+    "the criterion stands as written", corroborating that the original existed and
+    said what is restored below.
+  * This is a WEAKER attestation than an untouched original. It is stated as such.
+
+THE CRITERION, restored verbatim in substance:
+
+  * the branch E-drift asymmetry is common-mode, measured at 0.029% worst case
+    over the shared frames -- the drift belongs to the integrator, not to the
+    winding sign, so it cancels in a branch comparison;
+  * (A) shape helicity is INTEGER-VALUED. A 0.029% common-mode asymmetry cannot
+    move an integer, so an exact pair sum of zero is ROBUST;
+  * (B) core-circuit winding is CONTINUOUS, hence drift-sensitive in principle.
+    Its pair-sum residual must be compared against the asymmetry: a residual far
+    above 0.029% of the typical magnitude is a real feature of the configuration,
+    not numerical noise, and equally cannot be rescued by a finer integrator;
+  * NO ABSOLUTE ENERGETIC QUANTITY may be quoted from this run at any point.
+
+  COMMITTED CONSEQUENCE: if (A) flips exactly and (B) fails its pair sum, then (A)
+  survives and (B) is falsified on its own pair sum. If (A)'s flip fails, neither
+  survives and the fault is in the construction rather than the arithmetic.
+
+THE RESULT, for the record: both branches completed with 29 frames (t = 1.00 ->
+8.00). (A) = -1 and +1, pair sum 0, exact flip. (B) = -1.190 and +1.870, pair sum
++0.680 = 44.4% of the typical magnitude, exceeding the 0.0294% asymmetry by 1512x.
+(A) SURVIVES; (B) FALSIFIED ON ITS OWN PAIR SUM -- the pre-committed outcome.
+
+RULE FOR NEXT TIME: never append to a log a running process holds open. Write
+notes to a SEPARATE file (<run>.notes.md) and reconcile afterwards.

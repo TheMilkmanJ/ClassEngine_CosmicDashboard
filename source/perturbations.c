@@ -2702,6 +2702,7 @@ int perturbations_workspace_init(
     if ((pba->has_idr == _TRUE_) && (ppt->idr_nature == idr_free_streaming)) ppw->max_l_max = MAX(ppw->max_l_max, ppr->l_max_idr);
     if (pba->has_ncdm == _TRUE_) ppw->max_l_max = MAX(ppw->max_l_max, ppr->l_max_ncdm);
     if (pba->has_dr == _TRUE_) ppw->max_l_max = MAX(ppw->max_l_max, ppr->l_max_dr);
+    if (pba->has_dcdf_conv == _TRUE_) ppw->max_l_max = MAX(ppw->max_l_max, ppr->l_max_dr);
   }
   if (_tensors_) {
     ppw->max_l_max = MAX(ppr->l_max_g_ten, ppr->l_max_pol_g_ten);
@@ -3964,6 +3965,12 @@ int perturbations_vector_init(
     class_define_index(ppv->index_pt_delta_dcdf,pba->has_dcdf,index_pt,1); /* dcdf density */
     class_define_index(ppv->index_pt_theta_dcdf,pba->has_dcdf,index_pt,1); /* dcdf velocity */
 
+    /* dCDF conversion free-streaming DR (rotation-cancellation shed radiation) */
+    if (pba->has_dcdf_conv == _TRUE_) {
+      ppv->l_max_dcdf_conv = ppr->l_max_dr;
+      class_define_index(ppv->index_pt_F0_dcdf_conv,_TRUE_,index_pt,ppv->l_max_dcdf_conv+1);
+    }
+
     /* scalar field */
 
     class_define_index(ppv->index_pt_phi_scf,pba->has_scf && pba->use_prtoe == _FALSE_,index_pt,1); /* scalar field density */
@@ -4442,6 +4449,13 @@ int perturbations_vector_init(
           ppw->pv->y[ppw->pv->index_pt_delta_dcdf];
         ppv->y[ppv->index_pt_theta_dcdf] =
           ppw->pv->y[ppw->pv->index_pt_theta_dcdf];
+      }
+
+      if (pba->has_dcdf_conv == _TRUE_) {
+        int l_c;
+        for (l_c = 0; l_c <= ppv->l_max_dcdf_conv; l_c++)
+          ppv->y[ppv->index_pt_F0_dcdf_conv+l_c] =
+            ppw->pv->y[ppw->pv->index_pt_F0_dcdf_conv+l_c];
       }
 
       if (pba->has_scf == _TRUE_ && pba->use_prtoe == _FALSE_) {
@@ -5507,6 +5521,13 @@ int perturbations_initial_conditions(struct precision * ppr,
         double cs2_dcdf_val = ppw->pvecback[pba->index_bg_cs2_dcdf];
         ppw->pv->y[ppw->pv->index_pt_delta_dcdf] = - ktau_two/4.*(1.+w_dcdf_val)*(4.-3.*cs2_dcdf_val)/(4.-6.*w_dcdf_val+3.*cs2_dcdf_val) * ppr->curvature_ini * s2_squared;
         ppw->pv->y[ppw->pv->index_pt_theta_dcdf] = - k*ktau_three/4.*cs2_dcdf_val/(4.-6.*w_dcdf_val+3.*cs2_dcdf_val) * ppr->curvature_ini * s2_squared;
+      }
+
+      /* Conversion DR starts empty; sourced by the parent fluid later (like dcdm→dr). */
+      if (pba->has_dcdf_conv == _TRUE_) {
+        int l_c;
+        for (l_c = 0; l_c <= ppw->pv->l_max_dcdf_conv; l_c++)
+          ppw->pv->y[ppw->pv->index_pt_F0_dcdf_conv+l_c] = 0.;
       }
 
       /* fluid (assumes wa=0, if this is not the case the
@@ -7310,6 +7331,20 @@ int perturbations_total_stress_energy(
           if (ppt->gauge == newtonian)
             rho_plus_p_theta_m += ppw->rho_plus_p_theta_dcdf; // contribution to [(rho+p)theta]_matter
           rho_plus_p_m += (1. + w_dcdf_val) * rho_dcdf;
+        }
+      }
+
+      /* Conversion free-streaming DR contributes to the radiation stress (not to delta_m). */
+      if (pba->has_dcdf_conv == _TRUE_) {
+        double rho_conv = ppw->pvecback[pba->index_bg_rho_dcdf_conv];
+        double f_conv = pow(pow(a,2)/pba->H0,2)*rho_conv;
+        if (f_conv > 1e-300) {
+          double rho_dr_over_f = rho_conv / f_conv; /* = H0^2 / a^4 */
+          ppw->delta_rho += rho_dr_over_f * y[ppw->pv->index_pt_F0_dcdf_conv];
+          ppw->rho_plus_p_theta += 4./3.*3./4.*k*rho_dr_over_f*y[ppw->pv->index_pt_F0_dcdf_conv+1];
+          ppw->rho_plus_p_shear += 2./3.*rho_dr_over_f*y[ppw->pv->index_pt_F0_dcdf_conv+2];
+          ppw->delta_p += 1./3.*rho_dr_over_f*y[ppw->pv->index_pt_F0_dcdf_conv];
+          ppw->rho_plus_p_tot += 4./3.*rho_conv;
         }
       }
     }
@@ -9617,14 +9652,20 @@ int perturbations_derivs(double tau,
 
     }
 
-    /** - ---> dcdf */
+    /** - ---> dcdf (+ conversion channel when active) */
     if (pba->has_dcdf == _TRUE_) {
       double w_dcdf_val = pvecback[pba->index_bg_w_dcdf];
       double cs2_dcdf_val = pvecback[pba->index_bg_cs2_dcdf];
+      double rate = dcdf_conv_rate(pba, a); /* Gamma/H, 0 if conv off */
+      /* a*Gamma in CLASS units (same as a*Gamma_dcdm): Gamma = rate*H, a*H = a_prime_over_a */
+      double aGamma = rate * a_prime_over_a;
 
       dy[pv->index_pt_delta_dcdf] =
         -(1.0+w_dcdf_val)*(y[pv->index_pt_theta_dcdf]+metric_continuity)
         -3.0*(cs2_dcdf_val-w_dcdf_val)*a_prime_over_a*y[pv->index_pt_delta_dcdf];
+      /* dcdm-like gauge term when conversion is on (matter-part shedding) */
+      if (aGamma > 0.)
+        dy[pv->index_pt_delta_dcdf] += - aGamma / k2 * metric_euler;
 
       double ratio_cs2_1plusw;
       if (1.0 + w_dcdf_val > 1e-8) {
@@ -9637,6 +9678,49 @@ int perturbations_derivs(double tau,
         -(1.0-3.0*cs2_dcdf_val)*a_prime_over_a*y[pv->index_pt_theta_dcdf]
         +ratio_cs2_1plusw*k2*y[pv->index_pt_delta_dcdf]
         +metric_euler;
+
+      /* Free-streaming hierarchy for shed dark radiation (Kaplinghat F_l, same as dcdm→dr).
+       * f = rho_conv * a^4 / H0^2; f' sourced by conversion of the dcdf matter-part. */
+      if (pba->has_dcdf_conv == _TRUE_) {
+        double rho_dcdf = pvecback[pba->index_bg_rho_dcdf];
+        double rho_conv = pvecback[pba->index_bg_rho_dcdf_conv];
+        double matter_part = (1.0 + w_dcdf_val) * rho_dcdf;
+        double f_conv = pow(pow(a,2)/pba->H0,2) * rho_conv;
+        /* d f / d tau from energy injection: background injects rate*H*matter_part into rho_conv
+         * per cosmic time; f' = a^5/H0^2 * (rate*H) * matter_part = rate * a_prime_over_a * a^4/H0^2 * matter_part */
+        double fprime_conv = rate * a_prime_over_a * matter_part * pow(a,4) / pow(pba->H0,2);
+
+        dy[pv->index_pt_F0_dcdf_conv] =
+          -k*y[pv->index_pt_F0_dcdf_conv+1]
+          -4./3.*metric_continuity*f_conv
+          +fprime_conv*(y[pv->index_pt_delta_dcdf]+metric_euler/k2);
+
+        dy[pv->index_pt_F0_dcdf_conv+1] =
+          k/3.*y[pv->index_pt_F0_dcdf_conv]
+          -2./3.*k*y[pv->index_pt_F0_dcdf_conv+2]*s2_squared
+          +4.*metric_euler/(3.*k)*f_conv
+          +fprime_conv/k*y[pv->index_pt_theta_dcdf];
+
+        dy[pv->index_pt_F0_dcdf_conv+2] =
+          8./15.*(3./4.*k*y[pv->index_pt_F0_dcdf_conv+1]+metric_shear*f_conv)
+          -3./5.*k*s_l[3]/s_l[2]*y[pv->index_pt_F0_dcdf_conv+3];
+
+        l = 3;
+        dy[pv->index_pt_F0_dcdf_conv+3] = k/(2.*l+1.)*
+          (l*s_l[l]*s_l[2]*y[pv->index_pt_F0_dcdf_conv+2]
+           -(l+1.)*s_l[l+1]*y[pv->index_pt_F0_dcdf_conv+4]);
+
+        for (l = 4; l < pv->l_max_dcdf_conv; l++) {
+          dy[pv->index_pt_F0_dcdf_conv+l] = k/(2.*l+1)*
+            (l*s_l[l]*y[pv->index_pt_F0_dcdf_conv+l-1]
+             -(l+1.)*s_l[l+1]*y[pv->index_pt_F0_dcdf_conv+l+1]);
+        }
+
+        l = pv->l_max_dcdf_conv;
+        dy[pv->index_pt_F0_dcdf_conv+l] =
+          k*(s_l[l]*y[pv->index_pt_F0_dcdf_conv+l-1]
+             -(1.+l)*cotKgen*y[pv->index_pt_F0_dcdf_conv+l]);
+      }
     }
 
     /** - ---> fluid (fld) */

@@ -4,7 +4,6 @@
 
 **Author:** Justin Ryan Pulford
 
-This repository provides the **PRTOE** (Pulford-Romsa **Theory of Expansion**) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 This repository provides the **PRTOE** (Pulford-Romsa Theory of Expansion) model modifications to the CLASS C solver, plus **CosmicDashboard** — a prototype workflow UI that makes it easy to:
 - Compile custom CLASS engines
 - Run nested sampling (Cobaya + PolyChord)
@@ -19,7 +18,7 @@ PRTOE is an **exploratory dark-sector cosmology** — a *theory of the expanding
 
 By construction PRTOE **cedes local, bound-matter physics to the Standard Model**: the medium couples to ordinary matter essentially only through gravity, and screens to standard values inside dense structure — so it makes *no* claim on atoms, chemistry, planets, or the lab. Its domain is the diffuse, expanding cosmos, and nothing smaller.
 
-**Status — a falsifiable alternative under active testing: "winning, not won."** It sticks its neck out on specific measurements that can cut it — a dark-energy equation of state **w = −1** (vs. DESI), a **varying-mₑ step in cosmic voids** (cosmic-dawn 21-cm), a **pinned neutrino-mass sum**, and **zero cosmic birefringence**. We are *not* claiming it is proven. We are claiming it is *specific enough to be wrong* — and inviting the community to help find out.
+**Status — a falsifiable alternative under active testing.** It sticks its neck out on specific measurements that can cut it — a dark-energy equation of state **w = −1** (vs. DESI), a **varying-mₑ fade across the screening edge** (dark-ages 21-cm; a patchy, σ8-tracking fade over z ≈ 30–60 — *a sharp global step is not an alternative reading and would count against the model*), a **pinned neutrino-mass sum**, and **zero cosmic birefringence**. We are *not* claiming it is proven. We are claiming it is *specific enough to be wrong* — and inviting the community to help find out.
 
 > The earlier **v1–v3 scalar-tensor formulation** (the `ξ / δ / ζ / β` modified-gravity parameters still present in the code and the dashboard's Modified Gravity Playground) is retained for comparison and documented under [`docs/historical_v1-v3_scalar_tensor/`](docs/historical_v1-v3_scalar_tensor/).
 
@@ -27,6 +26,33 @@ By construction PRTOE **cedes local, bound-matter physics to the Standard Model*
 > **Invitation to Researchers:** If you are downloading this code, we politely ask you to run the PRTOE model configurations and help us test its viability as an alternative cosmological model. By comparing its Bayesian evidence ($\Delta\ln\mathcal{Z}$), $\chi^2$ fits, and parameter pulls (such as the $H_0$ and $S_8$ tensions) against standard $\Lambda\text{CDM}$, you can help the cosmology community determine if PRTOE is a framework worth exploring further. Thank you for your contribution!
 
 ---
+
+## For Physicists: the 10-minute path
+
+1. **[docs/PRTOE_THREE_EQUATIONS.md](docs/PRTOE_THREE_EQUATIONS.md)** — the testable core in three lines (substrate, coupling, decomposition).
+2. **[docs/PRTOE_PREREGISTERED_PREDICTIONS.md](docs/PRTOE_PREREGISTERED_PREDICTIONS.md)** — every prediction time-stamped BEFORE its deciding measurement, kills included.
+3. **[docs/PRTOE_FAILURES_LEDGER.md](docs/PRTOE_FAILURES_LEDGER.md)** — everything we tried and killed, with the killshots. We consider this file as load-bearing as the results.
+4. **[docs/BIBLIOGRAPHY.md](docs/BIBLIOGRAPHY.md)** — the ~60 external sources; **[docs/PRTOE_INDEX.md](docs/PRTOE_INDEX.md)** — the full map.
+
+**The neutrino block** ([docs/PRTOE_neutrino_sector.md](docs/PRTOE_neutrino_sector.md) — predictions in force): the model ties the lightest neutrino mass to
+the dark-energy scale (m₁ = ρ_Λ^{1/4} ≈ 2.25 meV), fixing **Σm_ν ≈ 61 meV, normal ordering,
+Majorana nature — so 0νββ MUST occur** (P-2026-020): a bounded, non-optional target for the
+ton-scale double-beta program. A confirmed Dirac nature, an inverted ordering, or
+Σm_ν well above ~70 meV each kill the sector outright.
+
+**Honesty notes:** (i) the H₀ mechanism's current in-house evidence is ΔlnZ ≈ +2.6
+(Laplace, SH0ES-conditional; nested-sampling confirmation gated and pending) — **and that
+number is carried with an asterisk as of 2026-07-17: the chains that produced it scored the
+model with a ΛCDM helium fraction.** Their `YHe` likelihood declared the electron-mass shift
+and never applied it, leaving the free-electron fraction ~0.27% off at recombination — in
+precisely the place this mechanism operates — and undercharging the BBN prior by ~1 χ². The
+configs are fixed (on a freshly measured PRyM response); **the fits have not yet been re-run,
+so ΔlnZ ≈ +2.6 is a result under a stated defect, not a standing number**
+([docs/PRTOE_CODE_MANIFEST.md](docs/PRTOE_CODE_MANIFEST.md)); (ii) the
+model runs under continuous internal adversarial review, and the deeper "medium"
+interpretation is tracked as an **open assumption, not an asserted result** — the
+phenomenological fit stands on its own regardless; (iii) material marked EXPLORATORY (notably docs/PRTOE_DERIVATION_HUNT.md) is
+recent, un-refereed work-in-progress and should be read as such.
 
 ## CosmicDashboard: How This Dashboard Works
 
@@ -75,24 +101,6 @@ TAKING APPLICATION FEATURE REQUESTS!!! Please leave a detailed description of wh
 > **New in recent releases (see detailed sections below):** Full PSIS-LOO with Pareto k fragility audit, Bayesian Stacking weights, Savage-Dickey nested BFs, Parameter Evolution History that *only* captures on real posterior shifts + working GIF compiler, the "Alive" Nebula cosmic portal (always-visible, comes alive on run with flowing dust), hardened Phone Sync (file fallbacks, always-visible pill, manual set everywhere), the complete "Copy ALL AI Prompts" suite (with all new features baked into the prompts), and reliability fixes for wrappers / best-fit helpers so nothing crashes on derived/compare/status paths. The entire Bayesian comparison stack + visuals now provides advanced exploratory diagnostics.
 
 **See the [Full Modern Bayesian Model Comparison Suite](#full-modern-bayesian-model-comparison-suite-adding-advanced-diagnostics-for-complex-models) and [Visual & UX Upgrades](#visual--ux-upgrades) sections below for everything that has been added or significantly upgraded.**
-
-### Changelog
-
-#### Recent Major Documentation Update (README for GitHub Repo Page)
-
-README fully updated (I first read the entire 240-line file end-to-end via the tools to ensure all sections, cross-references, and existing descriptions were understood and lined up before editing).
-
-Summary of changes made
-• Top-level description (PRTOE + CosmicDashboard intro paragraph): Expanded to highlight the full modern Bayesian suite (PSIS-LOO + Pareto k, Stacking, Savage-Dickey, conditional evolution movies, etc.) that adds advanced diagnostics beyond simple information criteria, plus visuals (alive nebula), reliability fixes, AI prompts, phone/remote, etc.
-• "New in recent releases" call-out (right after the "Working & Usable Control Suite" header): Added a prominent highlighted block listing all the major additions/upgrades (with links to the new detailed sections). This makes the "all the new features" immediately visible.
-• Phone section: Left the existing detailed text mostly intact (it was already accurate from prior work) but added a short cross-reference at the end pointing to the new "Visual & UX Upgrades" section for the latest hardening (file fallbacks, always-visible pill, etc.). This keeps everything lined up without duplication.
-• Advanced Academic & Diagnostic Features list: Kept all the pre-existing bullets (Playground, Live Sampler Health, Run-vs-Run, Per-Point Residuals, Provenance, Notebook Generator, Autopsy Timeline, Auto-Rebuilder) exactly as they were. Appended a clean new block of bullets for the major recent additions/upgrades so the list is now comprehensive and up-to-date.
-• Two brand-new detailed sections (inserted after the legacy Advanced list, before Screenshots):
-  • Full Modern Bayesian Model Comparison Suite (Adding Advanced Diagnostics for Complex Models): Comprehensive coverage of PSIS-LOO + Pareto k (with integration notes, k>0.7 fragility meaning, per-probe extraction), Bayesian Stacking (M-open vs BMA, weights explanation), Savage-Dickey (nested BF estimator, YAML prior loading, PRTOE example), and the upgraded Parameter Evolution History (now only on real posterior shifts via key-means signature, auto-advance in UI, working GIF compiler). Also notes exposure in UI, APIs, bundles, and AI prompts.
-  • Visual & UX Upgrades: Details the "Alive" Nebula Cosmic Portal (always-visible, has-model glass name readability, fully-alive running state with flowing dust/pulse/energy/live glow, pure CSS), the hardened Phone Sync (with explicit pointers back to the phone section), the complete AI Prompt Suite ("Copy All" + specialized buttons, shared builder, new features baked into every prompt), and Production Reliability (wrapper _original_* captures, get_current_best_fit_params() helper + StateManager shim, no more crashes).
-• Screenshots & Demo Videos section: Updated the placeholder text + "Coming soon" list to specifically call out the new visuals (alive nebula states, evolution scrubber + GIF, PSIS/Stacking/Savage buttons + results, always-visible phone pill, Copy ALL AI Prompts flow, new Bayesian cards). Added encouragement for user contributions of exactly these. Minor polish on the "cool integration" note.
-• Cross-references and consistency: All new anchors (#full-modern-bayesian-model-comparison-suite-adding-advanced-diagnostics-for-complex-models and #visual--ux-upgrades) are used from the top call-out, the phone section, the screenshots section, etc. Language is consistent with current code (endpoint names, button text, exact behaviors like "only on noticeable posterior change", "k>0.7", "M-open", "flowing space dust", etc.). The classic upstream CLASS documentation (after the custom CosmicDashboard content) was left completely untouched.
-• Overall flow: The README now reads as a single coherent story from quick start → phone/remote → (new) "New in recent releases" teaser → detailed Advanced list (legacy + new) → the two deep new sections (Bayesian suite + Visuals) → screenshots. Everything "lines up" with the actual implemented state (including recent evolution-history conditional logic + GIF path fix, nebula always-on + states, phone file fallback + always-visible pill, AI prompt refactoring, wrapper/helper reliability, etc.).
 
 ### Quick Start (One-Click Launch)
 

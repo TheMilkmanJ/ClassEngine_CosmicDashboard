@@ -1,0 +1,319 @@
+\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,10pt]{revtex4-2}
+
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+\title{Primordial helium bounds on a leptonic electron-mass\\
+transition inside the nucleosynthesis window}
+
+\author{Justin Pulford}
+\email{pulfordj420@gmail.com}
+\affiliation{Unaffiliated}
+
+\date{\today}
+
+\begin{abstract}
+We treat the amplitude $\varepsilon$ of a universal fractional shift in the electron mass that
+turns on inside the big-bang nucleosynthesis (BBN) temperature window as a free parameter, and ask
+what the measured primordial helium mass fraction $Y_p$ implies for it. The shift is switched on
+below a critical temperature $T_c$ by a linear ramp,
+$\varepsilon_{\rm eff}(T)=\varepsilon\,\max(0,1-T/T_c)$, which deforms the weak rates in the
+nuclear network without changing the relativistic degrees of freedom. At the $T_c$ where the
+response was measured in a production BBN code ($T_c\simeq 179\,$keV), the helium response is
+linear, $dY_p/d\varepsilon = 0.00163$ per percent of $\varepsilon$, and reproduces a direct
+windowed run to a few percent of the window itself. Against the Aver \emph{et al.}\ determination
+$Y_p=0.2453\pm 0.0034$, that elasticity implies
+%
+\begin{equation*}
+  \varepsilon < 3.2\% \qquad (2\sigma).
+\end{equation*}
+%
+The EMPRESS determination cannot be used for the same purpose: standard BBN with $\varepsilon=0$
+already sits $2.9\sigma$ above it, so a measurement in tension with the null hypothesis does not
+constrain a deformation of that null. Deuterium is not used for a derivative bound, because its
+$\varepsilon$-response is a nonlinear bottleneck quantity. The result is a genuine upper limit on
+the amplitude of an electron-mass transition that switches on inside the nucleosynthesis window,
+with zero fitted parameters, and no dependence on any unconverged cosmological posterior.
+\end{abstract}
+
+\maketitle
+
+% ---------------------------------------------------------------------------
+\section{Introduction}\label{sec:intro}
+
+A fractional change in the electron mass at early times is a standard deformation of big-bang
+nucleosynthesis and of recombination. In the microwave background it is partly degenerate with
+the expansion history and has been studied as a possible contribution to the Hubble
+tension~\cite{HartChluba2018,HartChluba2020,SekiguchiTakahashi2021}. At nucleosynthesis the same
+deformation acts through the weak rates and the binding-sensitive nuclear network, and the
+response matrices for varying constants have long been tabulated~\cite{DentSternWetterich2007}.
+
+Most existing bounds assume a constant shift from some high temperature through the BBN window,
+or a power-law variation in redshift. The case of interest here is different: an electron-mass
+shift that is \emph{absent} above a critical temperature $T_c$ and turns on below it. That
+topology matters because neutron--proton freeze-out and the deuterium bottleneck sit at different
+temperatures ($\sim\!800\,$keV and $\sim\!70\,$keV, respectively). A transition that switches on
+between them deforms the two epochs unequally.
+
+We do not propose a mechanism for such a transition, and we do not fix $T_c$ or $\varepsilon$ to
+any particular model value. The question is purely kinematic: if an electron-mass shift of
+amplitude $\varepsilon$ turns on inside the BBN window, what does the measured helium mass fraction
+allow? The answer is a single number against one observational determination, and an explicit
+statement that the other common determination cannot be used for this purpose.
+
+Section~\ref{sec:setup} fixes the ramp and the free parameters. Section~\ref{sec:helium} reports
+the measured helium response. Section~\ref{sec:bound} derives the Aver bound.
+Section~\ref{sec:empress} explains why EMPRESS yields no bound.
+Section~\ref{sec:notused} states what is deliberately left out. Section~\ref{sec:conclude}
+summarises.
+
+% ---------------------------------------------------------------------------
+\section{Setup}\label{sec:setup}
+
+Let $m_e^{(0)}$ be the present electron mass. We write a temperature-dependent fractional shift
+%
+\begin{equation}
+  m_e(T) = m_e^{(0)}\,\bigl[1 + \varepsilon_{\rm eff}(T)\bigr],
+  \label{eq:me}
+\end{equation}
+%
+with a linear turn-on below a critical temperature $T_c$,
+%
+\begin{equation}
+  \varepsilon_{\rm eff}(T)
+  = \varepsilon \,\max\bigl(0,\, 1 - T/T_c\bigr).
+  \label{eq:ramp}
+\end{equation}
+%
+Above $T_c$ the shift is off; at $T\to 0$ it saturates at the constant amplitude $\varepsilon$.
+Both $\varepsilon$ and $T_c$ are free. The only structural commitment is the ramp shape of
+Eq.~\eqref{eq:ramp}, which is the minimal continuous switch-on that vanishes above $T_c$ and is
+linear in the order-parameter sense below it. Nothing below depends on why the switch-on has that
+form.
+
+The relevant temperature window for a transition that BBN can actually witness is bounded below
+by the deuterium bottleneck ($\sim\!70\,$keV) and above by the weak-rate window approaching
+neutron--proton freeze-out (of order a few hundred keV). We adopt the interval
+%
+\begin{equation}
+  T_c \in [70,\,500]\,\mathrm{keV}
+  \label{eq:window}
+\end{equation}
+%
+as the range over which $T_c$ is regarded as free for the present purpose. Outside that interval
+the transition either misses the bottleneck entirely (too low) or reaches freeze-out in full (too
+high); both extremes change the interpretation of a helium-only bound and are not the case
+studied here.
+
+The shift enters BBN through the electron mass in the weak rates. It does not add relativistic
+degrees of freedom: a network run with the ramp at fixed $\varepsilon$ returns $N_{\rm eff}$
+unchanged at the level of the code's output~\cite{PRyMordial2023}. The deformation is therefore a
+pure rate effect, not an expansion-rate lever.
+
+% ---------------------------------------------------------------------------
+\section{Measured helium response}\label{sec:helium}
+
+The bound is built from a production run of the PRyMordial nuclear
+network~\cite{PRyMordial2023}, with the ramp of Eq.~\eqref{eq:ramp} applied pointwise to the weak
+rates: at each temperature the standard and fully shifted rates are blended by the weight
+$w(T)=\max(0,1-T/T_c)$. The run that defines the response was performed at
+%
+\begin{equation}
+  T_c = 179\,\mathrm{keV},\qquad \varepsilon = 1.2543\%,
+  \label{eq:run}
+\end{equation}
+%
+on the code's default baryon density. The helium mass fraction moves from the $\varepsilon=0$
+baseline to the windowed value as
+%
+\begin{equation}
+  Y_p^{(0)} = 0.246891
+  \;\longrightarrow\;
+  Y_p^{(\varepsilon)} = 0.248995,
+  \label{eq:windowed}
+\end{equation}
+%
+a fractional change of $+0.852\%$.
+
+A four-point scan in $\varepsilon$ at the same $T_c$ establishes that the helium response is
+linear to a few percent over the range of interest, with elasticity
+%
+\begin{equation}
+  \frac{d Y_p}{d\varepsilon}
+  = 0.00163
+  \quad\text{per percent of $\varepsilon$}.
+  \label{eq:elast}
+\end{equation}
+%
+Multiplying Eq.~\eqref{eq:elast} by $\varepsilon=1.2543\%$ recovers the window of
+Eq.~\eqref{eq:windowed} to $2.8\%$ of the window itself. The linearity is what licenses a
+derivative bound; without it the translation from one windowed run into a limit on $\varepsilon$
+would not be legitimate.
+
+Helium is almost insensitive to the baryon density, $Y_p \propto \omega_b^{0.04}$. Shifting
+$\omega_b$ at the percent level therefore moves the baseline by far less than the observational
+error used below, so the bound is baseline-robust against the usual CMB--BBN $\omega_b$
+re-inference.
+
+% ---------------------------------------------------------------------------
+\section{The Aver bound}\label{sec:bound}
+
+Aver \emph{et al.} report~\cite{Aver2021}
+%
+\begin{equation}
+  Y_p^{\rm Aver} = 0.2453 \pm 0.0034.
+  \label{eq:aver}
+\end{equation}
+%
+Writing $Y_p(\varepsilon) = Y_p^{(0)} + 0.00163\,\varepsilon_{\%}$ with $\varepsilon_{\%}$ the
+amplitude in percent, and requiring $Y_p(\varepsilon)$ to lie within $n\sigma$ of
+Eq.~\eqref{eq:aver}, one finds
+%
+\begin{align}
+  \varepsilon &< 1.11\% \qquad (1\sigma), \label{eq:1sig}\\
+  \varepsilon &< 3.20\% \qquad (2\sigma). \label{eq:2sig}
+\end{align}
+%
+The $2\sigma$ statement is the result of this paper:
+%
+\begin{equation}
+  \boxed{\ \varepsilon < 3.2\%\ \ (2\sigma)\ }
+  \label{eq:result}
+\end{equation}
+%
+against Aver, at the $T_c$ of Eq.~\eqref{eq:run}, with no fitted parameters.
+
+For orientation: the $\varepsilon=0$ baseline already sits $+0.47\sigma$ above Aver, and the
+windowed point of Eq.~\eqref{eq:run} sits at $+1.09\sigma$. The transition is constrained but not
+excluded at the amplitude of Eq.~\eqref{eq:run}. The $1\sigma$ column of Eq.~\eqref{eq:1sig} is
+reported for completeness; the quotable bound is Eq.~\eqref{eq:result}.
+
+A dense map of the upper edge $\varepsilon_{\rm max}(T_c)$ over the full interval of
+Eq.~\eqref{eq:window} is the natural extension of Eq.~\eqref{eq:result}. It requires a grid of
+network runs in $T_c$ at fixed observational $Y_p$, which is not reported here. The number in
+Eq.~\eqref{eq:result} is the verified bound at the measured $T_c$; it is not a claim that the
+same numerical ceiling holds at every point of Eq.~\eqref{eq:window}.
+
+% ---------------------------------------------------------------------------
+\section{Why EMPRESS cannot be used}\label{sec:empress}
+
+The EMPRESS collaboration reports a lower helium abundance~\cite{EMPRESS2022},
+%
+\begin{equation}
+  Y_p^{\rm EMPRESS} = 0.2370 \pm 0.0034.
+  \label{eq:empress}
+\end{equation}
+%
+Against that determination the same baseline and windowed values read
+%
+\begin{equation}
+  \varepsilon=0:\ +2.91\sigma,
+  \qquad
+  \varepsilon=1.2543\%:\ +3.53\sigma.
+  \label{eq:empress_pull}
+\end{equation}
+%
+Standard BBN with no transition is already $2.9\sigma$ high. The window contributes only
+$0.62\sigma$ of the $3.53\sigma$. A measurement that is in tension with the null hypothesis
+cannot constrain a deformation of that null: removing the transition entirely leaves $2.9\sigma$
+standing. Quoting an EMPRESS-based upper limit on $\varepsilon$ would attribute to the transition
+a discrepancy that exists without it.
+
+The observational helium disagreement itself --- Aver and EMPRESS differ by about $1.7\sigma$ on
+the same quantity --- is a property of the data, not of the ramp. Until it is resolved, a
+helium-only bound on $\varepsilon$ must be reported against Aver and must state why EMPRESS is
+not used. That is the entire content of this section.
+
+% ---------------------------------------------------------------------------
+\section{What is not used}\label{sec:notused}
+
+\emph{Deuterium.} The deuterium abundance responds to $\varepsilon$, but as a bottleneck residue
+rather than an equilibrium abundance. A uniform-$\varepsilon$ derivative under-predicts the
+windowed effect, and a four-point scan does not yield a linear elasticity that can be inverted
+into a clean upper limit of the kind in Eq.~\eqref{eq:result}. No derivative-based deuterium bound
+is claimed. Absolute D/H comparisons that depend on a re-inferred baryon density from a
+cosmological fit are outside the scope of this note: they are not needed for
+Eq.~\eqref{eq:result}, and they are not used.
+
+\emph{Extra radiation.} An additional relativistic density $\Delta N_{\rm eff}$ moves $Y_p$ and
+D/H in the same direction. It is an expansion-rate lever, not a measurement of $\varepsilon$, and
+it is not floated here. The bound of Eq.~\eqref{eq:result} is the pure rate response at fixed
+standard $N_{\rm eff}$.
+
+\emph{Lithium.} The same windowed run moves $^7$Li/H by $+0.26\%$, a percent-level shift that
+neither causes nor cures the cosmological lithium problem. Lithium is recorded as unaffected at
+the level relevant to Eq.~\eqref{eq:result} and is not used in the bound.
+
+\emph{Model-fixed $T_c$ or $\varepsilon$.} No central value of $T_c$ or $\varepsilon$ is adopted
+as an input. The run of Eq.~\eqref{eq:run} fixes the elasticity; the bound is the upper edge that
+Aver allows.
+
+% ---------------------------------------------------------------------------
+\section{Conclusion}\label{sec:conclude}
+
+A universal electron-mass shift that turns on inside the BBN window, with free amplitude
+$\varepsilon$ and free critical temperature $T_c$ in the nucleosynthesis-relevant range, is
+bounded by primordial helium. Against Aver \emph{et al.}, and at the $T_c$ where the helium
+elasticity was measured,
+%
+\begin{equation*}
+  \varepsilon < 3.2\% \qquad (2\sigma),
+\end{equation*}
+%
+with zero fitted parameters. The EMPRESS determination cannot be used for this purpose, because
+standard BBN is already $2.9\sigma$ high against it before any transition is applied. Deuterium
+is excluded from the bound because its $\varepsilon$-response is nonlinear. The result is a
+chain-free, single-observable upper limit on the amplitude of a leptonic electron-mass transition
+inside the nucleosynthesis window.
+
+\begin{thebibliography}{99}
+
+\bibitem{HartChluba2018}
+L.~Hart and J.~Chluba,
+New constraints on time-varying fundamental constants from Planck,
+Mon.\ Not.\ R.\ Astron.\ Soc.\ \textbf{474}, 1850 (2018);
+arXiv:1705.03925.
+
+\bibitem{HartChluba2020}
+L.~Hart and J.~Chluba,
+Updated fundamental constant constraints from Planck 2018 data and possible relations to the
+Hubble tension,
+Mon.\ Not.\ R.\ Astron.\ Soc.\ \textbf{493}, 3255 (2020);
+arXiv:1912.03986.
+
+\bibitem{SekiguchiTakahashi2021}
+T.~Sekiguchi and T.~Takahashi,
+Early recombination as a solution to the $H_0$ tension,
+Phys.\ Rev.\ D \textbf{103}, 083507 (2021);
+arXiv:2007.03381.
+
+\bibitem{DentSternWetterich2007}
+T.~Dent, S.~Stern, and C.~Wetterich,
+Primordial nucleosynthesis as a probe of fundamental physics parameters,
+Phys.\ Rev.\ D \textbf{76}, 063513 (2007);
+arXiv:0705.0696.
+
+\bibitem{PRyMordial2023}
+A.-K.~Burns, T.~M.~P.~Tait, and M.~Valli,
+PRyMordial: the first three minutes, within and beyond the Standard Model,
+Eur.\ Phys.\ J.\ C \textbf{84}, 86 (2024);
+arXiv:2307.07061.
+
+\bibitem{Aver2021}
+E.~Aver, D.~A.~Berg, K.~A.~Olive, R.~W.~Pogge, J.~J.~Salzer, and E.~D.~Skillman,
+Improving helium abundance determinations with Leo P as a case study,
+JCAP \textbf{03}, 027 (2021);
+arXiv:2010.04180.
+
+\bibitem{EMPRESS2022}
+A.~Matsumoto \emph{et~al.} (EMPRESS Collaboration),
+EMPRESS. VIII. A new determination of primordial helium abundance with extremely metal-poor
+galaxies: a suggestion of the lepton asymmetry and implications for the Hubble tension,
+Astrophys.\ J.\ \textbf{941}, 167 (2022);
+arXiv:2203.09617.
+
+\end{thebibliography}
+
+\end{document}
