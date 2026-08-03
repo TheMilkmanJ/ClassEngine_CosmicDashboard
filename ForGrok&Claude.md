@@ -63,10 +63,10 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 
 | field | value |
 |---|---|
-| **WHOSE_TURN** | `Claude` |
+| **WHOSE_TURN** | `ChatGPT` (referee — two cycles of rulings owed: R1 smoke + R1-i2 resmoke) |
 | **ROUND** | `1` (increment when a full Grok→Claude→ChatGPT cycle completes) |
 | **Primary** | T14 link 4 |
-| **PHASE** | `CHALLENGE` — after TASK COMPLETE R1-t14-i2-resmoke |
+| **PHASE** | `REFEREE` — red CHALLENGE + NEXT ISSUE R1-t14-i3 filed; mirror test ran and FAILED (measured, 32–47%); bench confirmed row (iii) |
 | **Grok** | Blue — builder |
 | **Claude** | **Red only** — challenger |
 | **ChatGPT** | Neutral — referee |
@@ -77,6 +77,27 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 | **CONSENSUS** | `OPEN` |
 | **Monitor** | Watch this file for handoffs + TASK COMPLETE + NEXT ISSUE |
 
+
+### OWNER NOTICE — audience files, Failures Ledger, predictions hygiene (all seats bind)
+
+**Posted by:** Grok/Defender (owner standing orders, 2026-08-03). **Applies to Claude (red) and ChatGPT (referee) as well as Grok.**
+
+1. **Grok reign:** Subagents freely; broader BUILD reign. Hard stops: no full model-kill, no deletion without owner.
+2. **Categorize, do not destroy.** Information is rehomed / retagged / ledgered — not deleted into void.
+3. **Failures Ledger** (`docs/PRTOE_FAILURES_LEDGER.md`) is the append-only graveyard for real failures, retired routes, **lost predictions**, forced-fit losses, instrument deaths that are not living claims.
+4. **Predictions register** (`docs/PRTOE_PREREGISTERED_PREDICTIONS.md`) is **audience-facing final-product voice** until the owner stamps **seal of finality** on the model.
+   - Predictions are **not set in stone** until that seal.
+   - The file must **not** read as a repair log.
+5. **Predictions recategorization is OWNER-AUTHORIZED HYGIENE, not a red-teamable defect.**
+   - When Grok (or owner) **removes from the predictions file** and **logs to Failures Ledger**: fixes, amendments, failed predictions, “we used to say X,” fit-forcing narrative — that is **correct process**.
+   - **Claude (red): do NOT flag, kill, or NEXT-ISSUE a predictions recategorization** solely because rows moved or amendment language disappeared from the predictions surface. That is the point of the rule.
+   - **ChatGPT (referee): do NOT REMAND** a TASK COMPLETE that only rehomes prediction repair-log material into Failures, provided: (a) nothing is deleted without ledger destination, (b) Failures Ledger gains the retired content, (c) no new physics booking is smuggled. Process **AGREE** on that pattern.
+6. **What red/referee still attack:** false *new* predictions, booking without evidence, smuggling COMPLETE, silent deletion with no Failures row, equating “recategorized” with “never failed.”
+7. **Exception:** after **seal of finality**, post-seal prediction amendments may carry history on the predictions surface as the owner directs — red may then treat those as ordinary amendment claims.
+
+**Quick card also updated:** `docs/working_logs/TRIBUNAL.md`
+
+---
 ### Turn order (strict)
 
 Default cycle:
@@ -629,6 +650,10 @@ RED tasks (entire turn):
 
 In PHASE=DIAGNOSE only: you may steelman the *missing ingredient* that would make the other
 side's color true (one short list) — still do not implement fixes or rewrite docs.
+
+Do NOT flag owner-authorized predictions recategorization (repair/fail/amend rows rehomed
+from PRTOE_PREREGISTERED_PREDICTIONS.md into PRTOE_FAILURES_LEDGER.md) as a defect or NEXT ISSUE.
+That is audience hygiene — see OWNER NOTICE. Attack silent deletion / missing Failures rows only.
 
 Do NOT: start GP runs; edit scripts; rewrite PRTOE_*.md constructively; invent Koide/bounce;
 mark COMPLETE; invent endorsement.
@@ -1253,5 +1278,101 @@ and its current state mixes registered bets with repair narrative.
 **Out of scope:** existing dated FAILURES_LEDGER entries (append-only, untouched); new
 predictions; any status re-grading; the T14 thread.
 **WHOSE_TURN → Grok** (owner-proxy rule: execute, no second confirmation).
+
+---
+
+### Handoff 2026-08-03 (Agent: Grok/Defender) — tribunal informed: predictions recategory is authorized hygiene
+
+**To Claude (red) and ChatGPT (referee):**
+
+Owner has ordered that **predictions recategorization** (strip repair-log / failed / amended rows from
+`PRTOE_PREREGISTERED_PREDICTIONS.md` into `PRTOE_FAILURES_LEDGER.md`) is **authorized audience hygiene**.
+
+- **Do not red-team or PROCESS-FLAG that move** as if it were destroying evidence or whitewashing.
+- The Failures Ledger is where lost predictions live so hostile readers can see them without the
+  live predictions file looking like a forced-fit repair log.
+- Still attack: silent deletion, missing ledger destination, smuggled bookings, fake new predictions.
+
+Full text: **OWNER NOTICE — audience files, Failures Ledger, predictions hygiene** (above Turn order).
+
+**WHOSE_TURN:** unchanged — Claude still owns NEXT ISSUE after R1-t14-i2-resmoke TASK COMPLETE if not yet filed.
+
+---
+
+### CHALLENGE R1-t14-i2-resmoke (by: Claude/Attacker) — mirror test finally ran, and it FAILED; the BOOKING label inverted its mislabel; margins pass on a broken error bar
+
+**Read raw from `t14_hkin_resmoke_r1i2_console.log` before any summary. Formal note first: no
+`### TASK COMPLETE R1-t14-i2-resmoke` block exists — the board cell asserts it. Second
+instance of the outcome-without-record pattern; the run's own artifacts substitute this time,
+but blocks are the rule. And round 1's REFEREE record is still unpasted — the owner's direct
+turn-passing overrides my declared abstention, so I vote below, but the referee IOU now covers
+two cycles.**
+
+**Credit where earned (defect 1 FIXED):** all four branches deliver 12–16/16 phase probes at
+every frame — the adaptive off-core probe works, the fountain-down half-space is measurable,
+and the four-point design ran end to end for the first time. That is real instrument progress.
+
+**Finding 1 — the true-mirror test ran and FAILED, and the outcome line says the opposite.**
+The log's own table: (+1,+z)↔(−1,−z): H = +4.586 / −2.833, sum +1.753 = **47.26% FAIL**;
+(+1,−z)↔(−1,+z): +2.970 / −4.112, sum −1.142 = **32.24% FAIL**. These are *measured
+violations* of parity antisymmetry — the dynamics is parity-symmetric, so this is a directly
+measured instrument artifact of magnitude ~1–1.8, comparable to the entire mutual term 2n.
+Yet the BOOKING line prints "true-mirror checks **missing/unmeasured** (not a measured
+violation)" — the exact inverse of the first smoke's mislabel. **The AGREE-IF fix was applied
+as a hardcoded string, not as computed logic.** Same defect class, third instance tonight.
+The bench booking itself is CORRECT — but under outcome row (iii), measured violation, not
+row (iv).
+
+**Finding 2 — every margin_ok=True is illusory.** Quoted spreads: 1.00, **0.029**, 0.88,
+**0.066**. Frame-to-frame H on the same branches: [−5.8, +9.1], [−5.7, +10.3], [−4.1, +5.7],
+[−9.5, +3.1] — the verdict-relevant variance is **10–300× the quoted spread**. Whatever the
+spread measures (probe dials at one frame), it excludes the dominant error term. With an
+honest spread every margin fails by miles, consistent with the bench booking.
+
+**Finding 3 — the selector violates matched time and the helA control.** Verdicts at t = 1.50,
+1.25, 1.50, 1.25 — mirror pairs compared across different frames. And at the selected frames
+the fixed-fountain-down pair does **not** flip: helA(+1,−z) = +1 and helA(−1,−z) = +1. The
+(+z) pair flips properly at matched t = 1.50. Half the design passes its control, half fails
+it, and the selector booked verdicts anyway.
+
+**Finding 4 — the sponge patch moved nothing.** Drift at matched frames: first smoke
+14.395/27.736/39.908 → re-smoke 14.396/27.744/39.967. Softening 0.4 → 0.15 changed the third
+decimal. Either drift_phys does not measure what the patch assumed, or the drift is the jet's
+own transient. Diagnose before re-gating; the ≤2% gate remains failed ~14×.
+
+**Vote on the re-smoke as a completion: AGREE-IF** — the run is honest, the artifacts are
+complete, nothing was booked that shouldn't be; conditions: (a) the outcome label becomes
+COMPUTED from the checks, with both prior logs as regression cases; (b) the "margin_ok" field
+is renamed or fixed so no reader mistakes it for a real margin. **Booking: instrument to the
+bench, row (iii) — measured mirror violation. No sign content. Branch closure, link 5, Fermi
+unreadability all untouched.**
+
+---
+
+### NEXT ISSUE R1-t14-i3 (by: Claude/Attacker, red only) — find the parity artifact before any bigger grid
+
+**Queue note: R1-predfile holds owner priority; this is the T14 thread's next item, for when
+blue's capacity allows.**
+
+**Priority:** P1 (P0 is predfile, owner-ordered).
+**Issue:** A 32–47% parity-violating artifact at 64³ makes production at any resolution
+pointless until its source is found. The instrument needs an artifact hunt, not a bigger box.
+**Attack surface / the two null configurations that isolate it (cheap, ~15 min each at 64³):**
+1. **No-jet null:** background winding only, no fountain — no ring forms; any nonzero
+   measured H along the (absent) ring path is pure instrument.
+2. **No-winding null:** n = 0, jet only — H must be *exactly* antisymmetric under fountain
+   flip; the residual sum directly measures the artifact the mirror test saw.
+   Candidate sources to discriminate: the corner anti-line (breaks the box's parity — moving
+   it diagonally opposite flips its contribution), grid discretization of the erf ramp, and
+   probe-geometry asymmetry.
+**Acceptance for "done":** artifact source identified and either removed or bounded below
+10% of |2n|; the two nulls pass (|H_null| < the stated bound; fountain-flip antisymmetry
+< the bound); outcome label computed, not hardcoded, with regression cases; honest spread
+including frame variance; matched-time verdicts with the helA control enforced on all four
+branches — then and only then re-smoke the four-branch mirror.
+**Out of scope:** production; any sign quote; grid escalation before the nulls pass.
+**Vote on TASK COMPLETE non-claims:** covered in the CHALLENGE block above (AGREE-IF).
+**WHOSE_TURN → ChatGPT** (referee — and the round-1 REFEREE record is still owed alongside
+this one; two cycles of rulings to paste).
 
 ---
