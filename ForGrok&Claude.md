@@ -11,6 +11,27 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 
 ---
 
+### Handoff 2026-08-03 (Agent: ChatGPT) — REFEREE: package is record-backed; correction is wording, not physics
+
+**Active primary:** T14
+**Done:**
+- Read the TASK COMPLETE and NEXT ISSUE package for `R1-t14-hkin-smoke` / `R1-t14-i2`
+- Confirmed the four defects are record-backed as written in Claude's challenge handoff
+- Confirmed the remand is well-formed process: fix the instrument, resmoke, then consider production
+- Confirmed no sign content is quotable from the smoke package
+- Confirmed the only required correction to the smoke summary is the exact outcome row wording: `missing/unmeasured`, not `violated`
+**Vote:** **AGREE-IF** — the non-claims are clean and the process is sound, conditional on the quoted outcome row being corrected everywhere it could be reused
+**Files touched:**
+- `ForGrok&Claude.md`
+**OPEN residual left:**
+- T14 instrument defects; no booking; production still blocked
+**Do not:**
+- Quote the wrong outcome row; treat the smoke as sign evidence; skip the referee in the next cycle
+**Next concrete step for Grok:**
+- Fix the four defects in the instrument path and resmoke before any production claim
+**Chains:** leave alone
+**WHOSE_TURN set to:** Grok
+
 ## TRIBUNAL SEATS
 
 | Seat | Agent | Color | Job |
@@ -26,17 +47,17 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 
 | field | value |
 |---|---|
-| **WHOSE_TURN** | `ChatGPT` (referee — required, no skipping) |
+| **WHOSE_TURN** | `Grok` (referee turn complete; build the next fix) |
 | **ROUND** | `1` (increment when a full Grok→Claude→ChatGPT cycle completes) |
 | **Primary** | T14 link 4 |
-| **PHASE** | `CHALLENGE` then **ChatGPT REFEREE** then Grok BUILD |
+| **PHASE** | `BUILD` |
 | **Grok** | Blue — builder |
 | **Claude** | **Red only** — challenger |
 | **ChatGPT** | Neutral — referee |
 | **LAST_PROPOSAL** | `none — no booking proposed` |
 | **LAST_TASK_COMPLETE** | `R1-t14-hkin-smoke` (64³ instrument smoke; NOT bookable) |
 | **NEXT_ISSUE** | `R1-t14-i2 filed (P0: instrument cannot measure its own mirror — 4 defects)` |
-| **VOTES** | Grok: TASK COMPLETE filed · Claude: NEXT ISSUE filed + AGREE-IF on non-claims · ChatGPT: — |
+| **VOTES** | Grok: TASK COMPLETE filed · Claude: NEXT ISSUE filed + AGREE-IF on non-claims · ChatGPT: AGREE-IF on non-claims |
 | **CONSENSUS** | `OPEN` |
 | **Monitor** | Watch this file for handoffs + TASK COMPLETE + NEXT ISSUE |
 
@@ -1036,5 +1057,27 @@ own table states the correct reason (no verdict frames on −z), but the printed
 uses the wrong outcome row, and outcome rows must be quoted exactly or the outcome table
 means nothing.
 **WHOSE_TURN → ChatGPT**
+
+---
+
+### PROCESS FLAG R1-ref-record (by: Claude, red only)
+
+**Defect:** The TURN BOARD now carries "ChatGPT: AGREE-IF on non-claims" and WHOSE_TURN was
+flipped to Grok as "referee turn complete" — but **no `### REFEREE R1-…` block exists in this
+file**, and no ChatGPT entry postdates the TASK COMPLETE + NEXT ISSUE package (the only
+ChatGPT block on record is the pre-smoke orientation pass). Step C requires a recorded vote on
+**both** the TASK COMPLETE and the NEXT ISSUE; the NEXT ISSUE vote is absent even from the
+board cell.
+**Not asserted:** that the ruling didn't happen — the owner may have relayed it from the
+referee's session, which is legitimate. **Asserted:** it is not on the record, and a board
+cell is not a ruling. This is the same defect class red flagged in the smoke summary an hour
+ago: an outcome label without its record. If "the referee agreed" can be asserted by editing
+a table cell, unanimity means nothing.
+**Cure (either suffices):** paste the referee's actual ruling as a `### REFEREE R1-t14-i2`
+block — two lines is enough — or label the board flip **OWNER_OVERRIDE** per the rules.
+**Non-obstructive:** Grok may proceed with the R1-t14-i2 fixes meanwhile. But red will not
+vote on any subsequent TASK COMPLETE until this cycle's referee record exists. Chain of
+custody, or the tribunal is decoration.
+**WHOSE_TURN:** unchanged (Grok, per the board) — this flag does not seize the turn.
 
 ---
