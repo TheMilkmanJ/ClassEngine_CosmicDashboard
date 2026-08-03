@@ -119,6 +119,43 @@
   {volume} {103}},\ \bibinfo {pages} {083507} (\bibinfo {year} {2021})},\
   \Eprint {https://arxiv.org/abs/2007.03381} {arXiv:2007.03381} \BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Kanekar}\ \emph {et~al.}(2015)\citenamefont
+  {Kanekar}, \citenamefont {Ubachs}, \citenamefont {Menten}, \citenamefont
+  {Bagdonaite}, \citenamefont {Brunthaler}, \citenamefont {Henkel},
+  \citenamefont {Muller}, \citenamefont {Bethlem},\ and\ \citenamefont
+  {Dapr\`{a}}}]{KanekarMethanol2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Kanekar}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Ubachs}},
+  \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Menten}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Bagdonaite}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Brunthaler}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Henkel}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont {H.~L.}\
+  \bibnamefont {Bethlem}},\ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Dapr\`{a}}},\ }\href
+  {https://doi.org/10.1093/mnrasl/slu206} {\bibfield  {journal} {\bibinfo
+  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf {\bibinfo {volume}
+  {448}},\ \bibinfo {pages} {L104} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bagdonaite}\ \emph {et~al.}(2013)\citenamefont
+  {Bagdonaite}, \citenamefont {Dapr\`{a}}, \citenamefont {Jansen},
+  \citenamefont {Bethlem}, \citenamefont {Ubachs}, \citenamefont {Muller},
+  \citenamefont {Henkel},\ and\ \citenamefont
+  {Menten}}]{BagdonaiteMethanol2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Bagdonaite}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Dapr\`{a}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Jansen}},
+  \bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont {Bethlem}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Ubachs}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Henkel}},\ and\ \bibinfo {author} {\bibfnamefont {K.~M.}\
+  \bibnamefont {Menten}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.111.231101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\
+  \bibinfo {pages} {231101} (\bibinfo {year} {2013})},\ \Eprint
+  {https://arxiv.org/abs/1311.3438} {arXiv:1311.3438} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kalita}(2024)}]{Kalita2024}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
@@ -353,41 +390,4 @@
   {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume} {519}},\
   \bibinfo {pages} {5723} (\bibinfo {year} {2023})},\ \Eprint
   {https://arxiv.org/abs/2301.07697} {arXiv:2301.07697} \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kanekar}\ \emph {et~al.}(2015)\citenamefont
-  {Kanekar}, \citenamefont {Ubachs}, \citenamefont {Menten}, \citenamefont
-  {Bagdonaite}, \citenamefont {Brunthaler}, \citenamefont {Henkel},
-  \citenamefont {Muller}, \citenamefont {Bethlem},\ and\ \citenamefont
-  {Dapr\`{a}}}]{KanekarMethanol2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
-  {Kanekar}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Ubachs}},
-  \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Menten}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Bagdonaite}}, \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Brunthaler}}, \bibinfo {author}
-  {\bibfnamefont {C.}~\bibnamefont {Henkel}}, \bibinfo {author} {\bibfnamefont
-  {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont {H.~L.}\
-  \bibnamefont {Bethlem}},\ and\ \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Dapr\`{a}}},\ }\href
-  {https://doi.org/10.1093/mnrasl/slu206} {\bibfield  {journal} {\bibinfo
-  {journal} {Mon. Not. R. Astron. Soc. Lett.}\ }\textbf {\bibinfo {volume}
-  {448}},\ \bibinfo {pages} {L104} (\bibinfo {year} {2015})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Bagdonaite}\ \emph {et~al.}(2013)\citenamefont
-  {Bagdonaite}, \citenamefont {Dapr\`{a}}, \citenamefont {Jansen},
-  \citenamefont {Bethlem}, \citenamefont {Ubachs}, \citenamefont {Muller},
-  \citenamefont {Henkel},\ and\ \citenamefont
-  {Menten}}]{BagdonaiteMethanol2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Bagdonaite}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Dapr\`{a}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Jansen}},
-  \bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont {Bethlem}}, \bibinfo
-  {author} {\bibfnamefont {W.}~\bibnamefont {Ubachs}}, \bibinfo {author}
-  {\bibfnamefont {S.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont
-  {C.}~\bibnamefont {Henkel}},\ and\ \bibinfo {author} {\bibfnamefont {K.~M.}\
-  \bibnamefont {Menten}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.111.231101} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\
-  \bibinfo {pages} {231101} (\bibinfo {year} {2013})},\ \Eprint
-  {https://arxiv.org/abs/1311.3438} {arXiv:1311.3438} \BibitemShut {NoStop}%
 \end{thebibliography}%

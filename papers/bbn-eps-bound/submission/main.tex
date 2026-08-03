@@ -17,25 +17,28 @@ transition inside the nucleosynthesis window}
 \begin{abstract}
 We treat the amplitude $\varepsilon$ of a universal fractional shift in the electron mass that
 turns on inside the big-bang nucleosynthesis (BBN) temperature window as a free parameter, and ask
-what the measured primordial helium mass fraction $Y_p$ implies for it. The shift is switched on
+what the measured primordial helium mass fraction $Y_p$ implies for it. Bounds on constant or
+power-law variations of fundamental constants at BBN already exist in the literature; the narrow
+point here is only the temperature-dependent \emph{turn-on} topology. The shift is switched on
 below a critical temperature $T_c$ by a linear ramp,
 $\varepsilon_{\rm eff}(T)=\varepsilon\,\max(0,1-T/T_c)$, which deforms the weak rates in the
-nuclear network without changing the relativistic degrees of freedom. At the $T_c$ where the
-response was measured in a production BBN code ($T_c\simeq 179\,$keV), the helium response is
+nuclear network without changing the relativistic degrees of freedom. At the single $T_c$ where
+the helium response was measured in a production BBN code ($T_c=179\,$keV), that response is
 linear, $dY_p/d\varepsilon = 0.00163$ per percent of $\varepsilon$, and reproduces a direct
 windowed run to a few percent of the window itself. Against the Aver \emph{et al.}\ determination
 $Y_p=0.2453\pm 0.0034$, that elasticity implies
 %
 \begin{equation*}
-  \varepsilon < 3.2\% \qquad (2\sigma).
+  \varepsilon < 3.2\% \qquad (2\sigma)
 \end{equation*}
 %
-The EMPRESS determination cannot be used for the same purpose: standard BBN with $\varepsilon=0$
-already sits $2.9\sigma$ above it, so a measurement in tension with the null hypothesis does not
-constrain a deformation of that null. Deuterium is not used for a derivative bound, because its
-$\varepsilon$-response is a nonlinear bottleneck quantity. The result is a genuine upper limit on
-the amplitude of an electron-mass transition that switches on inside the nucleosynthesis window,
-with zero fitted parameters, and no dependence on any unconverged cosmological posterior.
+at that measured $T_c$ only. The EMPRESS determination cannot be used for the same purpose:
+standard BBN with $\varepsilon=0$ already sits $2.9\sigma$ above it, so a measurement in tension
+with the null hypothesis does not constrain a deformation of that null. Deuterium is not used for
+a derivative bound, because its $\varepsilon$-response is a nonlinear bottleneck quantity; no
+chain-dependent absolute D/H is quoted. The result is a single-observable, chain-free upper edge
+on $\varepsilon$ for one ramp point, with zero fitted parameters --- not a first bound on
+varying $m_e$, and not a scan over the full free-$T_c$ window.
 \end{abstract}
 
 \maketitle
@@ -49,24 +52,29 @@ the expansion history and has been studied as a possible contribution to the Hub
 tension~\cite{HartChluba2018,HartChluba2020,SekiguchiTakahashi2021}. At nucleosynthesis the same
 deformation acts through the weak rates and the binding-sensitive nuclear network, and the
 response matrices for varying constants have long been tabulated~\cite{DentSternWetterich2007}.
+That literature already supplies order-of-magnitude bounds on constant or power-law shifts in
+$m_e$ and related couplings; nothing below re-derives those bounds or claims priority over them.
 
-Most existing bounds assume a constant shift from some high temperature through the BBN window,
-or a power-law variation in redshift. The case of interest here is different: an electron-mass
-shift that is \emph{absent} above a critical temperature $T_c$ and turns on below it. That
-topology matters because neutron--proton freeze-out and the deuterium bottleneck sit at different
-temperatures ($\sim\!800\,$keV and $\sim\!70\,$keV, respectively). A transition that switches on
-between them deforms the two epochs unequally.
+Most existing BBN analyses assume a constant shift from some high temperature through the BBN
+window, or a power-law variation in redshift. The case of interest here is narrower: an
+electron-mass shift that is \emph{absent} above a critical temperature $T_c$ and turns on below
+it. That topology matters because neutron--proton freeze-out and the deuterium bottleneck sit at
+different temperatures ($\sim\!800\,$keV and $\sim\!70\,$keV, respectively). A transition that
+switches on between them deforms the two epochs unequally. The novelty claimed is only this
+topology applied to a production network at one measured $T_c$, not a first limit on varying
+$m_e$.
 
 We do not propose a mechanism for such a transition, and we do not fix $T_c$ or $\varepsilon$ to
 any particular model value. The question is purely kinematic: if an electron-mass shift of
 amplitude $\varepsilon$ turns on inside the BBN window, what does the measured helium mass fraction
-allow? The answer is a single number against one observational determination, and an explicit
-statement that the other common determination cannot be used for this purpose.
+allow? The answer is a single number against one observational determination (Aver \emph{et al.}),
+at the single $T_c$ where the helium elasticity was measured, together with an explicit statement
+that the other common determination (EMPRESS) cannot be used for this purpose.
 
 Section~\ref{sec:setup} fixes the ramp and the free parameters. Section~\ref{sec:helium} reports
-the measured helium response. Section~\ref{sec:bound} derives the Aver bound.
-Section~\ref{sec:empress} explains why EMPRESS yields no bound.
-Section~\ref{sec:notused} states what is deliberately left out. Section~\ref{sec:conclude}
+the measured helium response. Section~\ref{sec:bound} derives the Aver bound and states how a
+conservative $T_c$ scan would extend it. Section~\ref{sec:empress} explains why EMPRESS yields no
+bound. Section~\ref{sec:notused} states what is deliberately left out. Section~\ref{sec:conclude}
 summarises.
 
 % ---------------------------------------------------------------------------
@@ -183,18 +191,24 @@ The $2\sigma$ statement is the result of this paper:
   \label{eq:result}
 \end{equation}
 %
-against Aver, at the $T_c$ of Eq.~\eqref{eq:run}, with no fitted parameters.
+against Aver, at the single $T_c$ of Eq.~\eqref{eq:run}, with no fitted parameters.
 
 For orientation: the $\varepsilon=0$ baseline already sits $+0.47\sigma$ above Aver, and the
 windowed point of Eq.~\eqref{eq:run} sits at $+1.09\sigma$. The transition is constrained but not
 excluded at the amplitude of Eq.~\eqref{eq:run}. The $1\sigma$ column of Eq.~\eqref{eq:1sig} is
 reported for completeness; the quotable bound is Eq.~\eqref{eq:result}.
 
-A dense map of the upper edge $\varepsilon_{\rm max}(T_c)$ over the full interval of
-Eq.~\eqref{eq:window} is the natural extension of Eq.~\eqref{eq:result}. It requires a grid of
-network runs in $T_c$ at fixed observational $Y_p$, which is not reported here. The number in
-Eq.~\eqref{eq:result} is the verified bound at the measured $T_c$; it is not a claim that the
-same numerical ceiling holds at every point of Eq.~\eqref{eq:window}.
+\paragraph{Conservative $T_c$ scan (method only; not produced here).}
+The free-parameter statement of Sec.~\ref{sec:setup} treats $T_c$ as free on
+Eq.~\eqref{eq:window}, but the verified number of Eq.~\eqref{eq:result} uses the helium elasticity
+measured at one point only. A conservative extension would re-measure $dY_p/d\varepsilon$ on a
+grid of $T_c$ values spanning Eq.~\eqref{eq:window}, at fixed standard $N_{\rm eff}$ and fixed
+code baryon density, invert each elasticity against Aver as above, and report the upper envelope
+$\varepsilon_{\rm max}(T_c)$ --- quoting only the most permissive (largest) ceiling if a single
+number is required, never a tighter bound at an unmeasured $T_c$. That grid is not reported here.
+The number in Eq.~\eqref{eq:result} is therefore the verified bound at the measured $T_c$; it is
+not a claim that the same numerical ceiling holds at every point of Eq.~\eqref{eq:window}, and it
+is not a claim that $179\,$keV maximises or minimises the helium response.
 
 % ---------------------------------------------------------------------------
 \section{Why EMPRESS cannot be used}\label{sec:empress}
@@ -219,12 +233,17 @@ Standard BBN with no transition is already $2.9\sigma$ high. The window contribu
 $0.62\sigma$ of the $3.53\sigma$. A measurement that is in tension with the null hypothesis
 cannot constrain a deformation of that null: removing the transition entirely leaves $2.9\sigma$
 standing. Quoting an EMPRESS-based upper limit on $\varepsilon$ would attribute to the transition
-a discrepancy that exists without it.
+a discrepancy that exists without it. There is therefore \emph{no} EMPRESS-based $\varepsilon$
+bound in this note --- not an unquoted number, but a non-result: EMPRESS does not bound the
+ramp.
 
 The observational helium disagreement itself --- Aver and EMPRESS differ by about $1.7\sigma$ on
-the same quantity --- is a property of the data, not of the ramp. Until it is resolved, a
-helium-only bound on $\varepsilon$ must be reported against Aver and must state why EMPRESS is
-not used. That is the entire content of this section.
+the same quantity --- is a property of the data, not of the ramp (the well-known primordial-helium
+tension). Until it is resolved, a helium-only bound on $\varepsilon$ must be reported against
+Aver alone and must state why EMPRESS is not used. Aver is not selected because it is kinder to
+the ramp; it is selected because it is the determination against which the $\varepsilon=0$ null
+is still consistent at $\lesssim 0.5\sigma$, so an upper edge on a positive helium response is
+well posed.
 
 % ---------------------------------------------------------------------------
 \section{What is not used}\label{sec:notused}
@@ -234,8 +253,8 @@ rather than an equilibrium abundance. A uniform-$\varepsilon$ derivative under-p
 windowed effect, and a four-point scan does not yield a linear elasticity that can be inverted
 into a clean upper limit of the kind in Eq.~\eqref{eq:result}. No derivative-based deuterium bound
 is claimed. Absolute D/H comparisons that depend on a re-inferred baryon density from a
-cosmological fit are outside the scope of this note: they are not needed for
-Eq.~\eqref{eq:result}, and they are not used.
+cosmological fit (chain-dependent model predictions) are outside the scope of this note by
+design: they are not needed for Eq.~\eqref{eq:result}, and they are not used.
 
 \emph{Extra radiation.} An additional relativistic density $\Delta N_{\rm eff}$ moves $Y_p$ and
 D/H in the same direction. It is an expansion-rate lever, not a measurement of $\varepsilon$, and
@@ -255,18 +274,19 @@ Aver allows.
 
 A universal electron-mass shift that turns on inside the BBN window, with free amplitude
 $\varepsilon$ and free critical temperature $T_c$ in the nucleosynthesis-relevant range, is
-bounded by primordial helium. Against Aver \emph{et al.}, and at the $T_c$ where the helium
-elasticity was measured,
+bounded by primordial helium at the single $T_c$ where the helium elasticity was measured.
+Against Aver \emph{et al.},
 %
 \begin{equation*}
   \varepsilon < 3.2\% \qquad (2\sigma),
 \end{equation*}
 %
-with zero fitted parameters. The EMPRESS determination cannot be used for this purpose, because
-standard BBN is already $2.9\sigma$ high against it before any transition is applied. Deuterium
-is excluded from the bound because its $\varepsilon$-response is nonlinear. The result is a
-chain-free, single-observable upper limit on the amplitude of a leptonic electron-mass transition
-inside the nucleosynthesis window.
+with zero fitted parameters. That is a chain-free, single-observable upper edge for one ramp
+point --- not a first bound on varying $m_e$, and not a dense $\varepsilon_{\rm max}(T_c)$ map.
+The EMPRESS determination cannot be used for this purpose, because standard BBN is already
+$2.9\sigma$ high against it before any transition is applied. Deuterium is excluded from the
+bound because its $\varepsilon$-response is nonlinear, and no chain-dependent absolute D/H is
+quoted.
 
 \begin{thebibliography}{99}
 

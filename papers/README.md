@@ -11,8 +11,8 @@ directory holding exactly the files arXiv receives, a tarball of that directory,
 | [`supertrace-note/`](supertrace-note/) | gr-qc | 3 | **No.** Entirely about published literature. | **Published** on Zenodo ([DOI 10.5281/zenodo.21763188](https://zenodo.org/records/21763188)). arXiv still open if endorsement materialises. |
 | [`neutrino-mbb/`](neutrino-mbb/) | hep-ph | 3 | **No.** Its input is stated as a hypothesis. | TeX package ready. External gate: hep-ph endorsement. |
 | [`radio-lattice/`](radio-lattice/) | astro-ph.CO, astro-ph.IM | 6 | **Motivated by it, does not rest on it.** | TeX package ready. External gate: astro-ph endorsement. |
-| [`lattice-tc-gap/`](lattice-tc-gap/) | hep-lat | 2 | **No** as a gap note. Optional transparency stake is one paragraph. | TeX package ready. External gate: hep-lat endorsement. |
-| [`bbn-eps-bound/`](bbn-eps-bound/) | astro-ph.CO | 3 | **No.** ε and T_c free; Aver Y_p bound only. | TeX package ready. External gate: astro-ph endorsement. Dense ε_max(T_c) curve still UNVERIFIED. |
+| [`lattice-tc-gap/`](lattice-tc-gap/) | hep-lat | 2 | **No** as a gap note. Optional transparency stake demoted to end paragraph. | TeX package ready; **red-team pass 2026-08-02**. External gate: hep-lat endorsement. |
+| [`bbn-eps-bound/`](bbn-eps-bound/) | astro-ph.CO | 3 | **No.** ε and T_c free; Aver Y_p bound only. | TeX package ready; **red-team pass 2026-08-02**. External gate: astro-ph endorsement. Dense ε_max(T_c) curve still UNVERIFIED. |
 | [`fairbank-0nubb/`](fairbank-0nubb/) | — | — | — | **NOT_READY** — README only. Duplicate of neutrino-mbb; do not invent TeX. |
 
 All **TeX packages** are written so a reader who has never seen this corpus loses nothing.
@@ -45,8 +45,8 @@ present — which is what arXiv does — giving 0 errors in every case.
 | supertrace-note | **Yes** — `main.tex` only; 3 pp | None. Public on Zenodo 2026-08-02. | arXiv: gr-qc endorsement (optional) |
 | neutrino-mbb | **Yes** — `main.tex` + `main.bbl`; 3 pp | None blocking. | hep-ph endorsement |
 | radio-lattice | **Yes** — `main.tex` + `main.bbl`; 6 pp | None. DM demotion is in the text. | astro-ph endorsement |
-| lattice-tc-gap | **Yes** — `main.tex` only; 2 pp | None as a gap note (no lattice result claimed). | hep-lat endorsement |
-| bbn-eps-bound | **Yes** — `main.tex` only; 3 pp | Dense ε_max(T_c) curve over [70, 500] keV not produced (bound at measured T_c only). | astro-ph endorsement |
+| lattice-tc-gap | **Yes** — `main.tex` only; 2 pp | None as a gap note (no lattice result claimed). Red-team pass 2026-08-02. | hep-lat endorsement |
+| bbn-eps-bound | **Yes** — `main.tex` only; 3 pp | Dense ε_max(T_c) curve over [70, 500] keV not produced (bound at measured T_c only; scan method stated). Red-team pass 2026-08-02. | astro-ph endorsement |
 | fairbank-0nubb | **No** — intentionally no TeX | Would duplicate neutrino-mbb | n/a |
 
 **Do not invent endorsement.** No arXiv endorsement is claimed here. The remaining step for

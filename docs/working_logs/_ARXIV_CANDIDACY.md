@@ -80,6 +80,7 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 3 |
 | **Main claim** | Navarro-Salas anomaly cancellation and Pauli/Visser finiteness are the *same* constraint once conventional scalars drop out (N₀ = 0 or ξ = 1/6); they differ on the Higgs sector. |
 | **Blockers** | None for public record (Zenodo live). arXiv optional: gr-qc endorsement. |
+| **Red-team hardening (2026-08-02/03)** | Framed as literature *comment*, not discovery; ξ=1/6 called out as extra naturalness input; Pauli mass m^{2k} sum rules distinguished from curvature-weighted str[k₁]. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 #### 2. `papers/neutrino-mbb/` — **READY_PACKAGE**
 
@@ -90,6 +91,7 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 3 |
 | **Main claim** | Under the hypothesis m₁ = ρ_Λ¼ ≃ 2.25 meV + normal ordering + NuFIT mixings, m_ββ ∈ [0.04, 5.30] meV; useful statement is the upper edge vs minimal-ordering ceiling 3.69 meV. |
 | **Blockers** | **hep-ph endorsement only.** Optional owner note (not a hold): lower edge knife-edge under NuFIT 1σ — already stated in prose. |
+| **Red-team hardening (2026-08-02/03)** | Coincidence stated as hypothesis not evidence; lower edge fragile/unprotected; nEXO overlap probability ~10.8% explicit; cosmology graded first. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 #### 3. `papers/radio-lattice/` — **READY_PACKAGE**
 
@@ -100,6 +102,7 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 6 |
 | **Main claim** | A universal m_e shift imprints five radio observables at fixed weights +2:+1:−1:−1:−2; pattern discriminates from varying-α by sign arithmetic; only 21 cm + Faraday presently measurable (σ_ε = σ/√8). |
 | **Blockers** | **astro-ph endorsement only.** DM demotion written into text; methanol tighter amplitude bound stated; no novelty claim for SZ methods. |
+| **Red-team hardening (2026-08-02/03)** | Methanol ~35× tighter is front-loaded; two rows only; DM degeneracy; synchrotron −1/−3 convention; template not survey; ε free / no mechanism. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 #### 4. `papers/lattice-tc-gap/` — **READY_PACKAGE** *(promoted from PAPER_CANDIDATE 2026-08-02)*
 
@@ -110,6 +113,7 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 2 |
 | **Main claim** | No published T_c/√σ exists for SU(2), N_f=3 light fundamentals; the calculation is conventional and scientifically interesting independent of any dark-sector model; optional pre-registered stake is transparency only, not the result. |
 | **Blockers** | **hep-lat endorsement only.** No lattice result is claimed. Source note: `docs/PRTOE_lattice_note.md`. |
+| **Red-team hardening (2026-08-02/03)** | Knowledge-limit gap only; stake demoted to transparency; no lattice result claimed. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 #### 5. `papers/bbn-eps-bound/` — **READY_PACKAGE** *(promoted from PAPER_CANDIDATE 2026-08-02)*
 
@@ -120,6 +124,7 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 3 |
 | **Main claim** | With ε free, Aver Y_p implies ε < 3.2% (2σ) for a leptonic m_e transition inside the BBN window; EMPRESS cannot be used (standard BBN already +2.9σ). D/H model predictions stay out. |
 | **Blockers** | **astro-ph endorsement.** Optional content residual: dense ε_max(T_c) curve over [70, 500] keV not produced (bound at measured T_c only). Source note: `docs/PRTOE_bbn_witness.md`. |
+| **Red-team hardening (2026-08-02/03)** | Prior literature cited; Aver vs EMPRESS separation explicit; T_c scan residual stated (bound at measured T_c only). Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 ---
 
@@ -368,6 +373,10 @@ Package index refreshed same day for lattice-tc-gap, bbn-eps-bound, and fairbank
 Hygiene: `scripts/arxiv_package_audit.py` → `_PACKAGE_AUDIT.md`.
 Re-verify packages against build logs and greps; do not treat this file as an endorsement
 or submission authorization.*
+
+**Red-team hardening (2026-08-02/03):** nineteen paper-facing attacks audited against live
+`papers/*/main.tex`; all FIXED in prose (bbn dense ε_max(T_c) remains optional content residual).
+Ledger: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). Short notes added on each B1 card.
 
 ---
 
