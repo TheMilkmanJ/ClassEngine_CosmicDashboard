@@ -24,7 +24,9 @@ FILTER="${4:-ALL}"
 
 mkdir -p "$(dirname "$LOG")"
 echo "$$" > "${LOG%.log}.pid"
-echo "$(date -Iseconds) START tribunal monitor interval=${INTERVAL}s filter=${FILTER} file=$FILE" | tee -a "$LOG"
+echo "$(date -Iseconds) START tribunal monitor interval=${INTERVAL}s filter=${FILTER} file=$FILE" >>"$LOG"
+# one DONE so the tool knows the watcher is alive (not a tribunal mail)
+echo "DONE monitor_started filter=${FILTER}"
 
 last_activity_line() {
   grep -E '^### ' "$1" 2>/dev/null | tail -1 | cut -c1-160
@@ -124,33 +126,40 @@ while true; do
   n=$(count_markers "$FILE")
 
   msg="EVENT from=$from to=$to turn=$turn markers=$n last=${last:0:120}"
-  echo "$(date -Iseconds) $msg" | tee -a "$LOG"
+  # Log-only (never stdout) — Grok monitor tool wakes on every stdout line
+  echo "$(date -Iseconds) $msg" >>"$LOG"
 
   if ! should_emit "$to"; then
-    # Still log; do not DONE-wake this filter
     echo "$(date -Iseconds) SKIP filter=$FILTER (mail for $to)" >>"$LOG"
     continue
   fi
 
-  # DONE lines wake Grok monitor tool (and are filter-specific)
+  # ONLY DONE/FAILED/CANCELLED lines go to stdout (wake filter)
   case "$to" in
     GROK)
       echo "DONE TO_GROK from=$from: $last"
+      echo "$(date -Iseconds) DONE TO_GROK from=$from: $last" >>"$LOG"
       ;;
     CLAUDE)
       echo "DONE TO_CLAUDE from=$from: $last"
+      echo "$(date -Iseconds) DONE TO_CLAUDE from=$from: $last" >>"$LOG"
       ;;
     CHATGPT)
       echo "DONE TO_REF from=$from: $last"
+      echo "$(date -Iseconds) DONE TO_REF from=$from: $last" >>"$LOG"
       ;;
     ALL)
+      # Broadcast wakes every filter that includes ALL
       echo "DONE TO_ALL from=$from: $last"
+      echo "$(date -Iseconds) DONE TO_ALL from=$from: $last" >>"$LOG"
       ;;
     REF_UNADDRESSED)
       echo "DONE REF_NEEDS_TO_TAG from=$from: $last"
+      echo "$(date -Iseconds) DONE REF_NEEDS_TO_TAG from=$from: $last" >>"$LOG"
       ;;
     *)
       echo "DONE tribunal change from=$from to=$to: $last"
+      echo "$(date -Iseconds) DONE tribunal change from=$from to=$to" >>"$LOG"
       ;;
   esac
 done
