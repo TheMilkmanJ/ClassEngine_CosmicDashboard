@@ -6658,3 +6658,26 @@ named as outside that accounting).
 Batch 1 tally: 7 files read whole (koide_relation, coincidence_problem, DEPENDENCY_TREE, INDEX,
 baryogenesis, granule_scoping, READERS_RISK), 20+ defects fixed across 15 files including the
 LHY propagation thread. 46 files remain in #94's queue.
+
+### Batch 2, tick 1 (2026-08-02): cosmological_constant read whole; the precision convention aligned
+
+**cosmological_constant** — now read whole (the 456–792 re-examination chain was read during the
+LHY thread; this tick covered 1–462). Every number in the file reproduces: the headline chain
+three ways (E_b = ½α_c²M₂ = (9/2)α⁴τm_e = 2.2599 meV), the inverted τ = 0.34506, Φ = 16π²α_c^{3/2}
+= 0.5115 with the 2.672/+18.2% identity and f = 0.503 = Φ − (the +0.44%)⁴, the renormalised LHY
+coefficient 0.0080, the NJL map λ = 4π²/(N_c F) = 45.7 with its QCD calibration, the band 26–46,
+and the s-wave selection table. One further live instance of the refuted control-edge inference
+was found sandwiched between the two passages already fixed — "it is series control that fails …
+the LHY term is therefore the wrong order to quote" — replaced with the current statement (the
+overtaking is the next term's defect; LHY remains the right order; the surviving band 0.10–0.90%).
+That makes FOUR instances of the dead reading inside the CC file alone, which is the propagation
+lesson at its sharpest: the correction was appended to the file that contained the error and still
+missed three sibling passages in the same file.
+
+**The lattice-precision convention aligned to the registered rule.** The registered decision rule
+(σ ≤ 0.0008, i.e. 0.22% on T_c/√σ, with the rival excluded at ≥2σ) was quoted as "0.44% precision"
+in READERS_RISK item (j) and the referee calendar's lattice row — the gap between the two τ values
+mistaken for the measurement precision needed to resolve it. Both aligned to 0.22% with the rule
+stated.
+
+Tally: 9 of 53 files read whole; the giants MATH_SPINE and hierarchy_problem are next, one per tick.

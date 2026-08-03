@@ -231,7 +231,8 @@ number, ε, applied everywhere atomic physics appears.
   inside that window — but the prediction is only **+0.44%** above the observation-inverted value
   (0.34506), and the registered tolerance is **±5.7%, thirteen times wider**. A lattice landing
   anywhere in the window would score as confirmation, including the value meaning the model merely
-  read the observation back. Separating them needs 0.44% precision on T_c/√σ; published
+  read the observation back. Separating them needs 0.22% precision on T_c/√σ (the registered
+  decision rule: σ ≤ 0.0008 with the rival excluded at ≥2σ); published
   determinations typically carry 1–3%. **The test may not be performable at the precision the claim
   requires** (ANN-2026-026).
 

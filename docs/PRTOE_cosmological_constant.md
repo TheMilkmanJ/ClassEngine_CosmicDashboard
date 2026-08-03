@@ -384,10 +384,12 @@ dominant systematic — the NJL σ mass, put at 2M by leading order and well bel
 f₀(500) — is measured: **λ = 26–46, centre ≈ 36.** The colour count is what carries it off the QCD
 value: at N_c = 2 the dark quartic is 3/2 of the three-colour one at the same M/Λ.
 
-Where that lands. Every reading in the band sits **above** the control edge λ\* = 22.4 (1.1× to
-2.1×; √(na³) = 0.043–0.077, so it is series *control* that fails, not diluteness). The LHY term is
-therefore the wrong order to quote — its formal value would be ΔE/E_MF = 22–39%, hence
-Δρ_Λ¼/ρ_Λ¼ = 5.4–9.8%, while the next term of the same series is already larger.
+Where that lands. Every reading in the band sits **above** λ\* = 22.4 (1.1× to 2.1×;
+√(na³) = 0.043–0.077, dilute throughout), where the expansion's next term formally overtakes: its
+value would put ΔE/E_MF at 22–39%, i.e. 5.4–9.8% on ρ_Λ¼. **That overtaking is a defect of the
+next term, not of the truncation** — the Monte Carlo grades LHY as valid at exactly this gas
+parameter and the logarithmic term as the one that fails — so the LHY order remains the right one
+to quote, and the surviving radiative band is the 0.10–0.90% below.
 *(The bands use the measured coefficient **0.0084** — the leading closed form
 (8/15π²)·√α_c = 0.00800 plus the O(α_c) relativistic term the expression's own [1 + O(α_c)]
 carries — so 0.0084 × [26, 46] = 22–39%, quartered to 5.4–9.8%. The displayed closed form is
