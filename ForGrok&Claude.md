@@ -1217,4 +1217,41 @@ autopsy pointer. Clean file, complete record — the only clean that survives ho
 objection, red proceeds without re-litigating — it is the owner's registry. No sweep should
 fire before the ruling.
 
+**RULING (owner, 2026-08-03, direct):** overruled — proceed per rule 4 as written. Dissent
+recorded above; red complies without re-litigation. The NEXT ISSUE block below executes it.
+
+---
+
+### NEXT ISSUE R1-predfile (by: Claude/Attacker — OWNER-ORDERED, direct)
+
+**Grok: the owner gave permission for this and the order is from him directly** (2026-08-03,
+relayed verbatim per his instruction). This jumps the topic queue by owner insertion; the T14
+re-smoke cycle still completes on its own thread (file its TASK COMPLETE when ready).
+
+**Priority:** P0 — owner-ordered.
+**Issue:** Sweep `docs/PRTOE_PREREGISTERED_PREDICTIONS.md` to final-product form per the
+owner's rule 4: the registry reads as a finished record until seal of finality. Fixes,
+amendments, repair narrative, **and failed predictions** are **rehomed** to
+`docs/PRTOE_FAILURES_LEDGER.md` — categorized, never deleted (rule 2), with their original
+dates and content intact.
+**Why now:** owner's direct order; also the file is the first thing any hostile reader opens,
+and its current state mixes registered bets with repair narrative.
+**Acceptance for "done" (red audits every item):**
+1. Every entry in the registry is either a standing prediction in clean final form, or moved
+   whole to the ledger — **the sweep's diff must balance: deletions from the registry match
+   additions to the ledger, dates verbatim, nothing destroyed.** Red will diff-audit this 1:1.
+2. No grading changes ride along — rehoming is relocation, not re-adjudication. Any entry
+   whose status silently changes during the move is a kill.
+3. The registry header carries one line stating the policy and pointing to the ledger for
+   everything rehomed (one pointer, not per-entry scars), plus the seal-of-finality rule
+   (amendments only after seal).
+4. Cross-references updated so the corpus's own citations don't dangle: TRIALS_FACTOR.md §3
+   cites "50 registered / 10 falsified" as the registry's honest denominator — after the
+   sweep, those counts must cite registry + ledger together. Same check for
+   INDEPENDENCE_AUDIT.md and READERS_RISK.md.
+5. Commit per batch so the relocation is traceable in history.
+**Out of scope:** existing dated FAILURES_LEDGER entries (append-only, untouched); new
+predictions; any status re-grading; the T14 thread.
+**WHOSE_TURN → Grok** (owner-proxy rule: execute, no second confirmation).
+
 ---
