@@ -81,7 +81,9 @@ debt:
   value but the *ratio* of the two heat-kernel coefficients the same cutoff supplies: induced
   Newton at 1/G = N/(12πε²) against horizon entanglement at S = N·A/(48πε²), whose ratio is
   **12π/48π = 1/4 exactly**, giving S = A/4G ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md)
-  §4a). **The same payment closes the Page curve**, which was blocked on it. **What that
+  §4a). **The same payment removes the coefficient block on the Page curve** (the curve
+  *computation* itself remains open —
+  [PRTOE_information_paradox.md](PRTOE_information_paradox.md)). **What that
   derivation is conditional on, stated as its source states it:** 12π and 48π are the heat-kernel
   coefficients *of minimally coupled scalars*, and the cancellation is derived for that field
   content, so it does not extend to the model's roster automatically — for non-minimal coupling

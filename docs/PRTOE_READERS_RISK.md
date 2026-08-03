@@ -99,11 +99,11 @@ number, ε, applied everywhere atomic physics appears.
   the model does not win. The easing is shared by the whole varying-m_e model class — it adds no
   independent evidence for the superfluid ontology.
   **And it is no longer the only number on the table — added 2026-07-28 after an external reviewer
-  observed, correctly, that a stale Laplace estimate should not headline while live chains are
-  running.** The live comparison on the current pair is **a wash, and quotable in neither
-  direction.** Best −logpost stands at **1377.89 (model)** against **1379.79 (ΛCDM)** — nominally
-  1.9 log units the model's way. **That figure is worse than unconverged: it is one rank of three.**
-  Checked the same day (`scripts/rank_basin_diagnostic.py`), the model's three parallel chains sit at
+  observed, correctly, that a stale Laplace estimate should not headline while production chains are
+  still open.** The July matched-pair snapshot that followed was **a wash, and quotable in neither
+  direction.** Best −logpost stood at **1377.89 (model)** against **1379.79 (ΛCDM)** — nominally
+  1.9 log units the model's way — but that figure was worse than unconverged: **one rank of three.**
+  Checked the same day (`scripts/rank_basin_diagnostic.py`), the model's three parallel chains sat at
   best fits of **1377.9, 1610.6 and 1440.6**, with H₀ = 69.5 / 64.0 / 64.8 and dcdf_rho_inf =
   0.700 / 0.595 / 0.635 — **three different basins, separated by up to 317 standard errors on a
   single parameter (H₀).** *(Corrected 2026-07-29. This figure was published as 23,855 s.e. and that
@@ -113,29 +113,30 @@ number, ε, applied everywhere atomic physics appears.
   longest: matching them gives 2,102. Second and larger, the standard error divided by the raw sample
   count, treating autocorrelated Markov-chain samples as independent. The measured integrated
   autocorrelation time is τ ≈ 26–46, so the honest effective sample size is ~6–9 per rank-half, not
-  467, and the corrected separation is **317 s.e.** The direction of the conclusion is unchanged and
-  in fact sharpened — see the reference chain immediately below.)* The reference chains are **not
-  merely better behaved: on this corrected measure they are consistent with a single basin**, worst
-  separation **1.6 standard errors** (published as 12.6, same defect). They remain unconverged for a
-  different and now clearer reason — with τ ≈ 23–68 each rank-half carries only ~5–19 effective
-  samples, which is what R−1 = 1.011 is reporting. The cause is diagnosable: **acceptance is 5.3–6.2%
-  for the model chain and 8.5–8.9% for the reference, against a ~25% target** — the proposal is
-  poorly matched to the posterior, and the rank with the *most* samples (1663) sits 233 log units
-  *worse* than the rank with the fewest. *(A reader checking this should know which counter to read.
-  These are the sampler's own step counters — accepted steps divided by steps taken. The run's
-  `.progress` file carries a column also named `acceptance_rate`, and it reports ≈0.97. That column
-  is a different quantity: stored rows divided by the sum of their weights. Under fast-parameter
-  oversampling each accepted sub-step is written as its own row, so weights sit near 1 and the ratio
-  is pinned near unity by construction — for these runs it reads ≈0.97 whatever the proposal is
-  doing, and cannot diagnose proposal health. Verified against both counters on the live reference
-  chain: 2154 rows / 2221 total weight = 0.970, against 745 accepted / 8018 steps = 9.3%.)*
+  467, and the corrected separation is **317 s.e.** The direction of that July conclusion is
+  unchanged and in fact sharpened — see the reference chain immediately below.)* The reference
+  chains on that snapshot were **not merely better behaved: on this corrected measure they were
+  consistent with a single basin**, worst separation **1.6 standard errors** (published as 12.6,
+  same defect). They remained unconverged for a different and clearer reason — with τ ≈ 23–68 each
+  rank-half carried only ~5–19 effective samples, which is what R−1 = 1.011 was reporting. The cause
+  was diagnosable: **acceptance sat at 5.3–6.2% for the model chain and 8.5–8.9% for the reference,
+  against a ~25% target** — the proposal was poorly matched to the posterior, and the rank with the
+  *most* samples (1663) sat 233 log units *worse* than the rank with the fewest. *(A reader checking
+  this should know which counter to read. These are the sampler's own step counters — accepted steps
+  divided by steps taken. The run's `.progress` file carries a column also named `acceptance_rate`,
+  and it reports ≈0.97. That column is a different quantity: stored rows divided by the sum of their
+  weights. Under fast-parameter oversampling each accepted sub-step is written as its own row, so
+  weights sit near 1 and the ratio is pinned near unity by construction — for those runs it reads
+  ≈0.97 whatever the proposal is doing, and cannot diagnose proposal health. Verified against both
+  counters on the reference chain of that era: 2154 rows / 2221 total weight = 0.970, against 745
+  accepted / 8018 steps = 9.3%.)*
 
-  **The proposal was never re-learned — and the reason, corrected 2026-07-29, is not the one first
-  recorded here.** This page previously said the lock was cobaya's R−1 threshold: that it re-learns
-  only once R−1 falls below 2.0 (30 early), which the model chain never reached, so "the mechanism
-  that would fix the proposal is gated behind the problem it would fix." **That gate was never
-  reached.** Re-reading the archived run's log isolates the actual mechanism, and it is simpler and
-  more instructive:
+  **The proposal was never re-learned on that run — and the reason, corrected 2026-07-29, is not
+  the one first recorded here.** This page previously said the lock was cobaya's R−1 threshold:
+  that it re-learns only once R−1 falls below 2.0 (30 early), which the model chain never reached, so
+  "the mechanism that would fix the proposal is gated behind the problem it would fix." **That gate
+  was never reached.** Re-reading the archived run's log isolates the actual mechanism, and it is
+  simpler and more instructive:
 
   > Learning is a **collective MPI checkpoint**. Every rank must reach a multiple of `learn_every`
   > = 40·d accepted samples before any of them may proceed. With d = 13 that is **520 per rank**, and
@@ -148,21 +149,25 @@ number, ε, applied everywhere atomic physics appears.
   So the R−1 threshold is a real gate that would plausibly have bitten *next* — with three basins 233
   log units apart, R−1 would have far exceeded 30 — but it was never tested, and **the claim that
   "more wall-clock at these settings will not fix this" was not established.** Rank 0 needed 53 more
-  accepted samples to trigger the first collective learn. What is established, and unchanged, is that
+  accepted samples to trigger the first collective learn. What that July diagnosis established is that
   **the proposal was never re-learned and the three ranks never merged.** The remedy applied (reseed
   the covariance from the rank that found the good basin) was the right action under either mechanism,
   and it worked: acceptance moved 5.3–6.2% → 31.2–31.9%. *(The earlier "confirmed by file times"
   evidence — the model's covmat never changing — is consistent with this but proves less than claimed:
-  an unchanged covmat means nothing until `learn_every` has actually been reached.)* Three further reasons
-  forbid banking the number even if the basins merged: the model's chain has **1.79×
-  more samples**, and best-so-far is a running minimum that favours the longer chain even for
-  identical models; **neither chain is converged**, so both figures are upper bounds still falling;
-  and **best-fit is not evidence at all** —
-  it carries no parameter penalty, and Δln Z is what decides. A reading circulating externally has
-  the model ~41 log units *behind*; that is stale (it predates the model's best falling from 1421.6),
-  but correcting it buys nothing, because the honest current state is **no usable evidence
-  comparison from the live chains**, and the +2.635 remains what it was: marginal, conditional, and
-  the wrong kind of number to lead with. Verified: `scripts/live_evidence_honest_read.py`.
+  an unchanged covmat means nothing until `learn_every` has actually been reached.)* Three further
+  reasons forbade banking the number even if the basins had merged then: the model's chain had
+  **1.79× more samples**, and best-so-far is a running minimum that favours the longer chain even for
+  identical models; **neither chain was converged**, so both figures were upper bounds still falling;
+  and **best-fit is not evidence at all** — it carries no parameter penalty, and Δln Z is what decides.
+  A reading circulating externally had the model ~41 log units *behind*; that was already stale then
+  (it predated the model's best falling from 1421.6), and correcting it bought nothing.
+
+  **Present tense (2026-08-02), matching §4 below:** a later matched relaunch **merged the basins**
+  (every sampled parameter agrees across the three ranks to within ~0.6 within-chain s.d.) and is
+  *converging but not yet quotable* (R−1 ≈ 0.19–0.29, ESS-limited, stop target 0.05 still ahead). No
+  best-fit comparison from this pair is bankable yet. The standing evidence number remains the
+  marginal, SH0ES-conditional Laplace estimate +2.635 — the wrong kind of number to lead with.
+  Verified: `scripts/live_evidence_honest_read.py`.
 - **(d) The electron-coupled scalar's thermalisation problem — adjudicated (2026-07-18): the
   recorded configuration is BBN-fatal; one repair branch survives, at a named price.** The
   non-thermalisation escape was built and adversarially tried: **as recorded** (the electron-CW
@@ -206,9 +211,10 @@ number, ε, applied everywhere atomic physics appears.
   accounts for. (ii) It puts black holes between roughly **6×10⁸ and 3×10⁹** solar masses inside
   the superradiant band, where they should be spun down, while several black holes in that
   range carry high measured spins. Neither is a computed exclusion yet; both are real, both
-  are now named, and either could close the sector. *(The mass itself is firm: three independent
-  uses return it — ξ = 402 AU, the Schive core radii, and this same superradiance band — so the
-  exposures cannot be relieved by moving it.)*
+  are now named, and either could close the sector. *(The mass itself is firm on the onset clock —
+  the "pinned three independent ways" claim is withdrawn (ξ is defined from m; Schive unresolved;
+  superradiance is an exposure, not a pin). Three independent *uses* fix it so the exposures cannot
+  be relieved by moving it; see [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).)*
 - **(f) Code-vs-theory gap, narrowed but real:** the CLASS source does not compute the
   electron-coupled scalar's m_e shift *from* the dCDF, so the "one linked superfluid" is asserted
   rather than implemented — `thermodynamics.c` carries no dark-sector reference. What is no longer

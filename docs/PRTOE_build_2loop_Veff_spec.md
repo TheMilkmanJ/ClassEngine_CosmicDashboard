@@ -1,8 +1,8 @@
-# BUILD SPEC — The 2-loop RG-improved V_eff for T_c (the DE-value closer)
+# Build spec — the 2-loop RG-improved V_eff for T_c (the DE-value closer)
 
-> *Commissioned 2026-07-16, then EXECUTED (hunt 215).*
+> *Commissioned 2026-07-16, then executed (hunt 215).*
 
-> **RESULT (hunt 215 — DEFINITE NEGATIVE):** the 2-loop RG-improved V_eff does **NOT pin T_c** —
+> **Result (hunt 215 — definite negative):** the 2-loop RG-improved V_eff does **not pin T_c** —
 > and the answer is robust to the one uncomputed piece (the non-log 2-loop constant c₀). Two facts
 > settle it: (1) at the natural scale μ = m_e there is **no symmetry breaking** (SSB needs
 > μ < ~310 keV, a large log); (2) the scale-stationary PMS sits at L ~ 1/α ~ 200 → μ ~ e⁻¹⁰⁰ m_e,
@@ -13,15 +13,15 @@
 > survives resummation at all. The full 2-loop diagrammatic spec below stands as the record of what
 > was attempted; the negative verdict does not depend on completing it.
 >
-> **FOLLOW-ON (hunt 216 — the non-perturbative build, executed):** the NJL/BCS gap equation for the
-> composite scalar IS cutoff-regulated → **T_c = Λ·τ(g) is well-defined** (log-ambiguity resolved).
+> **Follow-on (hunt 216 — the non-perturbative build, executed):** the NJL/BCS gap equation for the
+> composite scalar is cutoff-regulated → **T_c = Λ·τ(g) is well-defined** (log-ambiguity resolved).
 > For natural inputs (Λ=m_e, g~2.8 above the critical g_c=2) ρ_Λ¼=(9/2)α⁴Λτ(g) lands **1.0–1.1×**.
 > The residual is now two physical medium-compositeness parameters (Λ, g). The next build —
 > deriving (Λ, g) from the medium's own dynamics — has since been executed
 > (`scripts/de_value_derive_Lambda_g.py`; the routes and residual live in the cosmological-constant
 > document).
 
-*This was a BUILD SPECIFICATION for a genuine multi-loop QFT computation. It states the objective,
+*This was a build specification for a genuine multi-loop QFT computation. It states the objective,
 the exact diagram, the method, the inputs, and the acceptance tests. The RG-improvement
 (leading-log, sufficient for the verdict above) was executed; the full diagrammatic 2-loop constant
 was not needed.*

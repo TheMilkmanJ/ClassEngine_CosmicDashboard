@@ -9,7 +9,7 @@ halos below σ ≈ 77 km/s (M_h ≈ 3×10¹¹ M☉) and not above, because a dom
 takes the core radius inside its own sphere of influence (P-2026-054). The Milky Way is on the
 far side of that line, which is what resolves the Galactic Centre's 3× tension. The improvement over standard
 CDM: a predicted, computable ground-state object in every halo — and an explanation, rather
-than an accident, for why this model SURVIVED the constraints that killed lighter fuzzy DM.*
+than an accident, for why this model survived the constraints that killed lighter fuzzy DM.*
 
 ## 0. The grammar
 
@@ -17,8 +17,7 @@ If the dark matter is a condensate of quanta with mass m, every galaxy is litera
 **gravitational atom**: a self-bound quantum system with a ground state (the central soliton —
 "the 1s orbital"), an excited spectrum (the granule/halo structure), and a binding scale set by
 the gravitational coupling. This is standard fuzzy-DM structure — the model's additions are
-(i) the mass is RECORDED, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV — carrying the roster-trial conditionality of its pin — the H=m onset value now being
-MEASURED by the α_c chain), and (ii) the grammar is the same one that derived the cosmic floor
+(i) the mass is recorded, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV — carrying the roster-trial conditionality of its pin — the H=m onset value the α_c instrument is meant to referee; zon_disp unconverged, not currently running), and (ii) the grammar is the same one that derived the cosmic floor
 (the Bohr×BEC skeleton).
 
 ## 1. The ground state, computed
@@ -97,9 +96,9 @@ cross-link no generic FDM has.
 ## 3. Scope
 
 - The soliton scalings are the standard Schive-class relations at OOM precision; the model's
- content is the FIXED m (one number for every galaxy — falsifiable in aggregate).
-- The α_c chain's mass posterior will TIGHTEN or MOVE every number in §1 — this document is
- m-parametric by design.
+ content is the fixed m (one number for every galaxy — falsifiable in aggregate).
+- The α_c instrument's mass posterior, once produced, will tighten or move every number in §1 —
+ this document is m-parametric by design.
 - No conflict with current data is known (that is the survival statement); the improvement is
  explanatory + one flagged predictive prong.
 

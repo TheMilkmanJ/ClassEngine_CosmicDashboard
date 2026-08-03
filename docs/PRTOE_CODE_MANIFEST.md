@@ -19,10 +19,14 @@ expression).*
 | THE RAMPED WINDOW EDGES: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The electron-coupled scalar (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
+| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **LIVE (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.19** at N ≈ 14544; stop 0.05; raw accept ~6.4% (progress accept ~0.996 is oversampled). Do not kill. See `PRTOE_CHAIN_TABLES.md` live table |
+| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **LIVE (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.14** at N ≈ 13193; stop 0.05; raw accept ~8.6%. Do not kill |
+| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **LIVE (2026-08-02)** — 3 MPI ranks; R−1 ≈ **129** at N ≈ 1593 (early); stop 0.1; raw accept ~5.1%. Do not kill |
 | **THE POLYCHORD EVIDENCE RUN — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all SAMPLED) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **NOT RUNNING** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
 | **THE ZERO-PARAMETER RUN — ε/A_s/n_s FIXED** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **NOT RUNNING — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
 | The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee KILLED mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
 | The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
+| **zon_disp / conv_desi production MCMC** | yaml: cmp_prtoe_zon_disp / cmp_prtoe_conv_desi | **NOT RUNNING** — zon_disp parked (seed ready); conv_desi unproduced after two deaths. Not live as of 2026-08-02 |
 
 ## 2. ARMED — enters on its named trigger
 

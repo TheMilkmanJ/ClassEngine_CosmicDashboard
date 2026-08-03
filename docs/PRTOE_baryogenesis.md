@@ -111,6 +111,44 @@ The transmission required by the recorded η therefore fixes one parameter of th
 Pre-committed kill: a derived ω_J more than two orders below that value, or failure of any of
 the class's premises, ends the junction route.
 
+## 3a. ω_J at 5.7 keV — what is closed vs still missing (2026-08-02)
+
+**Status of the owed number: BACK-TARGET, not a forward computation. Still OPEN as a
+derivation.** The 5.7 keV figure is *not* landable from existing corpus inputs as a first-principles
+result; it is the value the seat sector must supply if the overdamped rectifier is to return the
+recorded η.
+
+**What does close (desk-verified).** With sourced inputs Γ_φ = G_F² T_sph⁵ = 5.3902×10⁹ eV at
+T_sph = 131.7 GeV and θ̇ = 59.68 eV, the overdamping ratio is **Γ_φ/θ̇ = 9.0319×10⁷** (not the
+order-of-magnitude ~10⁷ shorthand). The rectified transfer R = ω_J²/(2Γ_φθ̇) then closes the
+quartet simultaneously:
+
+| member | value | status |
+|---|---|---|
+| Γ_φ | 5.39×10⁹ eV | derived (Fermi + T_sph) |
+| θ̇ | 59.68 eV | derived (deep-frozen winding at T_sph) |
+| R needed | ~5×10⁻⁵ | fixed by η = n·𝒯 at the registered n-band |
+| ω_J | **5.672 keV** (stated ~5.7) | **back-solved from the three above** |
+| j = ω_J²/Γ_φ | 6.03 meV (stated ~6) | follows from ω_J |
+
+Verified: `scripts/junction_quartet_closure.py`. The quartet has no internal factor-9 discrepancy
+once the ratio is computed rather than rounded; a derivation landing at the artifactual 1.90 keV
+(from the rounded ~10⁷) would be **8.9× short** of the needed transmission and must not be adopted.
+
+**What is still missing for a forward derivation of ω_J.** The rectifier formula gives
+R = ω_J²/(2Γ_φθ̇) with ω_J the *junction plasma frequency of the seat term*
+(U_J = −χ ω_J² cos(φ − θ̇t) in the overdamped formalization of stage 8). A forward price needs
+that stiffness from the seat sector's microscopic content — specifically the junction phase's
+**decay constant and pinning curvature** (or an equivalent micro definition of ω_J from the seat
+coupling J). The corpus states **neither**. Declining to identify those with an unstated object
+(e.g. v_L) is deliberate: that would manufacture a derivation. Session isolation of this residue
+is recorded at [working_logs/PRTOE_session_2026-07-29b_findings.md](working_logs/PRTOE_session_2026-07-29b_findings.md)
+(#39).
+
+**Kill unchanged.** A *derived* ω_J more than two orders below ~5.7 keV, or failure of the
+overdamped-junction class premises, ends the junction route. The target itself remains the right
+grading number; the gap is that it is still a target, not a land.
+
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —
 two measurements (η, n_comb) and one computation (𝒯) closing one consistency triangle

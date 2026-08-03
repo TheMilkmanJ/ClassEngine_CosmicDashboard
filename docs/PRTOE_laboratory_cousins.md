@@ -33,7 +33,7 @@ and falsified in dilute-gas BECs and superconducting circuits.**
 
 Standard cosmology cannot learn about the Big Bang from a BEC — its early universe is a
 different substance. This model's genesis, vacuum cap, horizon thermodynamics, and winding
-generation are all CONDENSATE phenomena with lab-measured counterparts: **each certificate the
+generation are all condensate phenomena with lab-measured counterparts: **each certificate the
 review has leaned on (Landau, Onsager-Feynman, TRK/f-sum, Kibble–Zurek, Josephson) is
 lab-verified physics** — the model's foundations are the best-tested in its class because they
 are borrowed from the most-tested systems in physics.
@@ -43,7 +43,7 @@ are borrowed from the most-tested systems in physics.
 Specific bench questions the model would pay to have answered: (i) **f̄-analog** measurements
 *(f̄ = 2/π = ⟨|cos|⟩, the standing object; "f_amp" was the retired decomposition's name)* —
 release a ring BEC with a Z4-patterned tilt and measure the radial/angular energy partition
-and its TIME-DRIFT (the model's ramp, on a bench); (ii) winding statistics in toroidal
+and its time-drift (the model's ramp, on a bench); (ii) winding statistics in toroidal
 quenches vs the Kibble √N law (the n-distribution); (iii) phase-slip statistics under the
 co-link question (the interpretation layer's one lab-adjacent corner). None registered;
 all possible with existing apparatus classes.

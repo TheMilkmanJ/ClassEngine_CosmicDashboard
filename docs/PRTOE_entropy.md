@@ -76,9 +76,9 @@ gauge sector's share, and that is the extension's kill.
 
 Located by the model, with the scaling derived and the coefficient derived for the full roster
 at candidate grade (one named commitment; the regulator's entanglement-side check is
-structural). The same structure gates the Page curve
-([PRTOE_information_paradox.md](PRTOE_information_paradox.md)), which it unblocks rather than
-delivers: the phonon-Hawking-flux computation is a separate object. Homes:
+structural). The same structure **unblocks** the Page curve
+([PRTOE_information_paradox.md](PRTOE_information_paradox.md)) — coefficient and roster paid;
+the dynamical curve is still a separate open computation, not an area-law residue. Homes:
 [PRTOE_blackholes_no_singularity.md](PRTOE_blackholes_no_singularity.md),
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md).
 

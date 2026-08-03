@@ -1,28 +1,43 @@
 # Production-chain parameter tables (GetDist)
 
 > ForJustin/12 item 5(b)'s instrument (`scripts/make_getdist_tables.py`).
-> Regenerated per run at its landing; the running pair and Route-D join
-> at convergence. Means with 68% limits, 30% burn-in.
+> Regenerated per run at its landing; the live pair and Route-D join
+> **at convergence only**. Means with 68% limits, 30% burn-in — and only then.
 
-> ## ⚠ Read this before the numbers (added 2026-07-28)
+> ## Live production status (read 2026-08-02 from `.progress`, launchlog tails, checkpoints)
 >
-> **None of the chains below has converged, and the 68% limits are therefore not posterior
-> intervals.** Their last recorded Gelman–Rubin statistics, against a stopping target of
-> **R−1 = 0.05**:
+> Three MPI production objects are **live** (do not kill). None has met its R−1 stop.
+> Cobaya `.progress` `acceptance_rate` is **oversampled** (`oversample_power = 0.4`) and
+> sits near ~0.99 even when the raw Metropolis accept rate is healthy; **use launchlog
+> accepted/steps** for the real accept rate.
 >
-> | chain | last R−1 | over target | live? |
+> | chain | ranks (`mpi_size`) | N (progress) | R−1 last | stop | raw accept (launchlog Σ) | progress accept | live? |
+> |---|---:|---:|---:|---:|---:|---:|---|
+> | `dyad_mnu_bbnfix` (model, BBN-fixed) | **3** | 14544 | **0.192** | 0.05 | **~6.4%** (≈5059/79027 per rank) | 0.996 ⚠ oversampled | **YES** — last progress 2026-08-02T15:41; launchlog still advancing |
+> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 13193 | **0.141** | 0.05 | **~8.6%** (≈4561/53139 per rank) | 0.984 ⚠ oversampled | **YES** — last progress 2026-08-02T19:00; launchlog still advancing |
+> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 1593 | **129.1** | 0.1 | **~5.1%** (≈588/11453 per rank) | 1.0 ⚠ oversampled | **YES** — first progress row 2026-08-02T19:24; early |
+>
+> **Stop targets (from yaml):** dyad / lcdm `Rminus1_stop = 0.05`; routeD `Rminus1_stop = 0.1`.
+> Checkpoints all report `converged: false`. Closest to gate: lcdm twin at ~2.8× stop; model at
+> ~3.8×; routeD is early and far (≈1290× its looser 0.1 stop).
+>
+> **No GetDist posterior table exists yet for the three live runs** — they join this file only
+> when R−1 hits stop. Any PRELIMINARY peek must be labeled as such and is not booked.
+>
+> ### Archive / dead chains still tabulated below (not live)
+>
+> | chain | last R−1 | over 0.05 | live? |
 > |---|---|---|---|
 > | `cmp_prtoe_conv_desi` | **13.25** | 265× | **no** — unproduced; last write 2026-07-22 |
 > | `cmp_prtoe_zon_disp` | **17.81** | 356× | **no** — collapsed; seed ready, owner restart |
 > | `cmp_prtoe_zon` | **40.36** | 807× | **no** — stopped since 07-12 |
-> | `dyad_mnu_mcmc` | **none recorded** | unknown — no `.progress` file exists | diagnostic archive only |
+> | `dyad_mnu_mcmc` | none recorded | unknown | diagnostic archive only |
 >
-> The fourth row is the worst case: that chain has **no convergence statistic at all**, so its
-> interval cannot even be graded as too narrow. It is unknown.
+> ## ⚠ Read this before any 68% numbers below
 >
-> The header's "at convergence" refers to when the *running* pair joins this table, not to the
-> rows already in it. That distinction is easy to miss, and the numbers below look like
-> posterior summaries because they are formatted as posterior summaries.
+> **None of the chains in the GetDist tables has converged, and the 68% limits are therefore
+> not posterior intervals.** The numbers look like posterior summaries because they are
+> formatted as posterior summaries — they are run diagnostics only.
 >
 > **The direction of the error is known and it is the dangerous one.** §6g withdrew the α_c band
 > for exactly this defect, in its own words: *"an interval read at R−1 = 93 is the spread of a
@@ -37,7 +52,7 @@
 > a coincidence that would have read as a 0.0006 hit. See `PRTOE_quartet_clock.md` §4b.
 >
 > **Nothing in these tables may be quoted as a constraint** until the chain supplying it reports
-> R−1 at target. They are recorded here as run diagnostics, which is what they currently are.
+> R−1 at target.
 
 ## cmp_prtoe_conv_desi — conversion channel vs DESI stack (3462 post-burn samples)
 

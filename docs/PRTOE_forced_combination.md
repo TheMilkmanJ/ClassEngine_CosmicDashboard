@@ -88,7 +88,7 @@ an agreement. **The demand is still the right neighborhood** (QCD-like theories 
 0.21–0.30 in the 92.4 convention, 0.30–0.42 pinned; the demand is 1.35–1.59× QCD's pinned
 value) — natural at factor-≲2, but outside the measured class rather than inside it.
 
-The closing state: the chain hangs on THREE observables of ONE lattice theory, but they are
+The closing state: the chain hangs on three observables of one lattice theory, but they are
 TWO tests. T_c/√σ (the P-048 fork: ½ln2 = 0.34657 vs the observation-inverted 0.34506) is
 one independent referee. F_dark/√σ and w·√σ are **not two** — the demand band below is derived
 from c_K *and* the thickness, so F_dark/√σ alone referees nothing; only the pair

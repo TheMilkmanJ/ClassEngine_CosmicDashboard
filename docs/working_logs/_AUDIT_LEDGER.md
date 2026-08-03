@@ -6896,3 +6896,97 @@ evidence still not quotable.
 failure mode on the forward corpus, not only owed/still-open. Still open on #149: full
 whole-file deep reads of remaining unread giants (hierarchy, MATH_SPINE already partly done;
 shared with #94), and the 135 bare owed-class markers in the two registries.
+
+## 2026-08-02 — docket #149 check 12 batch 3: residual dead premises + light humanize
+
+**Scope.** Continuation after the morning owed/still-open residue sweep (9 files) and the
+"running chain" batch (14 files / ~25 edits). Target this tick: (1) residual greps that still
+sold a *paid* conclusion as live under the same class (stale running / pending / withdrawn pin),
+without redoing batch-1/2 bodies already current unless a residual hit remained; (2) light
+shout-cap humanize on COMPLETE / COMPLETE-CONDITIONAL short–medium files. **Carved out:**
+`PRTOE_FAILURES_LEDGER.md`, `PRTOE_PREREGISTERED_PREDICTIONS.md`, and bulk rewrites of the
+huge MATH_SPINE / DERIVATION_HUNT bodies (only the single stale lines grepped below were
+touched in the hunt). Ground truth: `_OWNER_QUEUE.md`, calendar Sitting NOW, DEPENDENCY_TREE
+mass-pin withdrawal (check 34), READERS_RISK §4 present-tense (basins merged).
+
+**Method.** Residual phrase greps over `docs/PRTOE_*.md` for live-zero-param / both-running /
+MEASURED-by-α_c / three-basin-as-current / pinned-three-independent; whole-section or
+whole-file reads of hit carriers; STALE vs REAL OPEN vs already-clean; wording only. Separate
+pass: `[A-Z]{4,}` emphasis in COMPLETE short–medium prose (not acronyms, not table status
+tokens that are already lowercase-null-style verdicts where left alone).
+
+### Dead-premise defects fixed (STALE only) — 3 files, ~8 local edits
+
+1. **`PRTOE_READERS_RISK.md` — item (c) still sold the July three-basin wash as present.**
+   §4 already carries the paid present: basins merged, converging-but-not-quotable. The long
+   (c) block still opened with "the live comparison on the current pair is a wash" and closed
+   with "no usable evidence comparison from the live chains." Reframed the July diagnosis in
+   past tense and closed with the 2026-08-02 present matching §4 (and the fairbank note's
+   already-corrected shape). **Item (h)** still pinned the ultralight mass on ξ / Schive /
+   superradiance — the exact claim DEPENDENCY_TREE withdraws. Rebuilt on onset clock + three
+   independent *uses*, with the withdrawal named.
+
+2. **`PRTOE_DERIVATION_HUNT.md` — three residual "live / both running" lines** (not a full
+   re-read of the giant). "Referee remains the live zero-parameter run" → Laplace-from-MCMC
+   (nested ended 07-20). "f̄ and α_c referees… both running" → α_c instrument offline
+   (zon_disp). Open-surface table "running referees (f̄/α_c chains; the evidence pair)" →
+   production referees with α_c offline and evidence pair converging.
+
+3. **`PRTOE_galactic_atoms.md` — "mass… now being MEASURED by the α_c chain".** zon_disp is
+   not running. → onset value the α_c instrument is *meant to referee* (unconverged, not
+   currently running). Scope bullet "will TIGHTEN or MOVE" → once produced, will tighten or
+   move. (Also light humanize of SURVIVED / FIXED in the same file.)
+
+### Classified OK / REAL OPEN (not edited as dead premise)
+
+Indirect_detection §3 Owed already strike-through paid (check-13 shape). Arrow / no_sing /
+bigbang / white_holes / dyad / dcdf open lists real. s8 companions and calendar Sitting NOW
+already current from earlier ticks. CHAIN_TABLES live-status block already matches owner
+queue (three live MPI objects; zon_disp / conv_desi offline). Failures ledger + prediction
+registry carved out.
+
+### Light humanize (shout-caps → ordinary emphasis) — 12 files
+
+COMPLETE / COMPLETE-CONDITIONAL short–medium carriers only. Titles and prose emphasis
+lowercased where they were all-caps for force, not where they are standard acronyms (CMB,
+BBN, PTA, CLASS, SEC/NEC, etc.).
+
+| file | samples of what changed |
+|---|---|
+| `PRTOE_LV_pricing.md` | title; UNsuppressed / THE MODEL'S PROTECTION… / UNWRITABLE / EXACTLY / CONSTITUTIONAL / CLOSES |
+| `PRTOE_direct_detection.md` | table NULL → null; LOOK INSTEAD; UNHEDGEABLE |
+| `PRTOE_gravitational_waves.md` | PTA-SILENT; CONDENSATE; PREDICTION; PHOTON/GRAVITATIONAL; TOGGLE/ON/FADES; SPLIT PREDICTION; RESOLVED/PRIMORDIAL |
+| `PRTOE_H0_CEILING.md` | title; THE LAST SIGN; PER-OBJECT ENVIRONMENTAL; ARMED-OFF; IMPORTANCE-REWEIGHTED |
+| `PRTOE_laboratory_cousins.md` | CONDENSATE; TIME-DRIFT |
+| `PRTOE_build_2loop_Veff_spec.md` | BUILD SPEC / EXECUTED / DEFINITE NEGATIVE / NOT pin / FOLLOW-ON / IS cutoff / BUILD SPECIFICATION |
+| `PRTOE_forced_combination.md` | THREE / ONE |
+| `PRTOE_arrow_of_time.md` | FIRST / OUR / FORCED / STATE / EVENT |
+| `PRTOE_information_paradox.md` | Landauer PRICES |
+| `PRTOE_quantum_gravity.md` | UNDECIDABLE |
+| `PRTOE_blackholes_no_singularity.md` | FAILS / FAIL (theorem rows) |
+| `PRTOE_galactic_atoms.md` | SURVIVED / FIXED (paired with the α_c dead-premise fix) |
+
+Skipped as clean or out of scope: entropy, stability, strong_cp (no shout emphasis);
+FAILURES_LEDGER / PREDICTIONS; bulk MATH_SPINE / hierarchy.
+
+### Residual phrase sweep after edits
+
+`live zero-parameter run`, `both running`, `MEASURED by the α_c`, `live comparison on the
+current pair`, `pinned three independent ways` as a *live* pin (only withdrawal notes and
+the carved-out failures ledger remain) — **zero live assertions** under forward `docs/PRTOE_*.md`.
+
+### Counts
+
+| | |
+|---|---|
+| Dead-premise files fixed | **3** (`READERS_RISK`, `DERIVATION_HUNT`, `galactic_atoms`) |
+| Dead-premise local edits | **~8** |
+| Humanize files | **12** (one overlap with dead-premise set) |
+| Unique files touched this batch | **14** |
+| Already clean / REAL OPEN only on residual greps | many; representative listed above |
+| Carved out | failures ledger, prediction registry; bulk giants |
+
+**Docket #149 after this tick.** Check-12 residue class (owed / still-open / running-chain /
+withdrawn-pin-under-live-conclusion) is **cleaner on the residual greps**. Still open on #149:
+full whole-file deep reads of remaining unread giants (hierarchy foremost; shared with #94),
+and the 135 bare owed-class markers in the two registries.

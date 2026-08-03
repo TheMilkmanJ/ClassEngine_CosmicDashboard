@@ -949,8 +949,9 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
   survivors' record in the working log). The closed form lands **−0.92% (−0.66σ)** against the
   measured 2.100×10⁻⁹; the −0.35% quoted beside the pipeline's frozen input is the closed form
   against its own value at the concordance k, a k-spread rather than a test of the count.
-  The referee remains the live zero-parameter run — the Eliashberg k-audit has run, placing k in
-  [1.35, 1.37] at three-way concordance.
+  The referee is the zero-parameter comparison graded from Laplace-from-MCMC (the nested run ended
+  2026-07-20; nested sampling waits for cluster time) — the Eliashberg k-audit has run, placing k
+  in [1.35, 1.37] at three-way concordance.
   **The forward target, typed, and the mechanism class ruled (#184, 2026-07-20).** As a ratio, the
   closed form asserts **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and what kind of object that is
   is now decided. **It is a scaling ratio, not a freeze-out ratio, and the decision is data's, not
@@ -1133,7 +1134,8 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hie
    requires ξ_H = 1/6 (conformal Higgs). Natural (the conformal value) and self-consistent with the
    G-value's own need, but an input: induced-G finiteness is conditional on conformal Higgs coupling
    (§5). The "hole" reduces to one named assumption.
-3. **f̄ and α_c referees** — the winding ensemble and the α_c chain, both running (§1).
+3. **f̄ and α_c referees** — the winding ensemble and the α_c instrument (zon_disp — unconverged,
+   not currently running; owner restart when cores free).
 4. *(derived at candidate grade, 2026-07-28) A_s's count* — the O(1)
    normalization of the shot-noise count is supplied by the erasure channel's occupancy-one
    partner count (the spine §23.5: channel + count + measure, the count measured directly at
@@ -1262,7 +1264,7 @@ entire remaining open surface is:
 | the seat constant b | κ_m's exact value | the constituent-level build |
 | T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note APPROVED FOR CIRCULATION) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
-| the running referees (f̄/α_c chains; the evidence pair) | the ε decomposition; the model vs ΛCDM | local compute time |
+| the production referees (f̄ ensemble; α_c instrument offline; evidence pair converging) | the ε decomposition; the model vs ΛCDM | local compute time |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
 
 Conditions settled by analysis this cycle: the Koide aggregation supply (N ≈ 1.5×10¹⁸, nine

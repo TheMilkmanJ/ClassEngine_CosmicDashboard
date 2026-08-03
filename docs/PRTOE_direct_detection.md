@@ -18,10 +18,10 @@ was always adjustable. This model has no room to adjust:
 
 | channel | the model's verdict | forced by |
 |---|---|---|
-| axion haloscopes / LSW (dark matter ↔ photons) | **NULL, forever** | EM-neutrality forced to 37–47 orders below unit charge (Meissner/photon-mass, q_EM < 4.7×10⁻³⁸…10⁻⁴⁷); the birefringence anomaly-zero (L1a, recorded) |
-| nuclear recoil (dark matter ↔ quarks, contact) | **NULL at all reachable cross-sections** | the medium is a condensate of 2×10⁻²⁰ eV quanta — no particle-like recoils exist; the only matter coupling is the trace channel at gravitational-strength-class (c ~ 0.9) |
-| fifth-force / EP torsion balances | **NULL within current reach** | the EP/Vainshtein gate cleared with 5-order margin (recorded distinctive-standing) |
-| collider missing-energy production | **NULL within reach** | the electron-coupled scalar's decay constant sits at 100–500 TeV and the census portal at 13–20 TeV — both above collider energies; the vector-like leptons are collider-safe by construction. HL-LHC referees the visible branch |
+| axion haloscopes / LSW (dark matter ↔ photons) | **null, forever** | EM-neutrality forced to 37–47 orders below unit charge (Meissner/photon-mass, q_EM < 4.7×10⁻³⁸…10⁻⁴⁷); the birefringence anomaly-zero (L1a, recorded) |
+| nuclear recoil (dark matter ↔ quarks, contact) | **null at all reachable cross-sections** | the medium is a condensate of 2×10⁻²⁰ eV quanta — no particle-like recoils exist; the only matter coupling is the trace channel at gravitational-strength-class (c ~ 0.9) |
+| fifth-force / EP torsion balances | **null within current reach** | the EP/Vainshtein gate cleared with 5-order margin (recorded distinctive-standing) |
+| collider missing-energy production | **null within reach** | the electron-coupled scalar's decay constant sits at 100–500 TeV and the census portal at 13–20 TeV — both above collider energies; the vector-like leptons are collider-safe by construction. HL-LHC referees the visible branch |
 
 **The corners, checked rather than assumed.** The bound is quoted as a nine-order range because it
 is not one measurement: it comes from photon-mass limits through m_γ² = 2q²n/m, so the charge bound
@@ -39,7 +39,7 @@ should never be the number a null is stated against — and it is not. **The cla
 written against the weak end, 37 orders, not the strong end's 47.** So the null as stated survives
 every corner in the range, and would survive even if the strong end were dropped entirely.
 
-## 2. Where the model says LOOK INSTEAD (the redirect that makes this an improvement)
+## 2. Where the model says look instead (the redirect that makes this an improvement)
 
 The detection budget, per this model, belongs to: the **radio sub-lattice** (the ratio-lock,
 P-027's referee, P-029's comb), **CMB-S4's neutrino sector** (the Majoron corner, P-025 —
@@ -50,7 +50,7 @@ at the actual interfaces.
 
 ## 3. The exposure
 
-This stance is UNHEDGEABLE: **one confirmed direct-detection signal — one haloscope photon,
+This stance is unhedgeable: **one confirmed direct-detection signal — one haloscope photon,
 one WIMP recoil above coherent-neutrino floor attributable to the halo — kills the model
 outright.** No parameter absorbs it (that is what "forced by theorems" costs). Conversely the
 model earns nothing further from continued silence — the asymmetric bet it has already recorded

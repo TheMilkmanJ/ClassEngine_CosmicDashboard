@@ -1,4 +1,4 @@
-# THE H₀ CEILING — how high the model can reach, and why the pipeline can't carry it yet (2026-07-12)
+# The H₀ ceiling — how high the model can reach, and why the pipeline can't carry it yet (2026-07-12)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -6,7 +6,7 @@
 *The task: compute the maximum ladder-H₀ the model can account for, show the
 formula, and explain the pipeline gap honestly. Statuses per the house law.*
 
-## 1. The adopted symbol: ς (final σ) — THE LAST SIGN
+## 1. The adopted symbol: ς (final σ) — the last sign
 
 The candle channel's direction is the one number in this formula that took longest to
 pin down. It gets the Greek alphabet's famously unemployed letter: **ς ∈ {−1, 0, +1}**,
@@ -50,19 +50,19 @@ then. The model does not currently explain the full SH0ES reading — it predict
 ## 4. Why PolyChord/CLASS cannot carry these parameters today
 
 - **CLASS is an isotropic, global Boltzmann code**: it evolves one homogeneous
- background and linear perturbations. The candle term is a PER-OBJECT, ENVIRONMENTAL
+ background and linear perturbations. The candle term is a per-object, environmental
  correction (each supernova reads the gate curve at its host's clumping) — it lives in
  the SN standardization layer (the likelihood's data side), not in any background
  equation. No Boltzmann code hosts it; this is a category fact, not a missing feature.
 - **ς is signed but not wired in**: the candle-corrected SN likelihood is not yet part
  of the joint fit — the sign session establishes the direction only, from a template
  scan, not the real-SN-template synthetic photometry the appeal path needs.
- The module ships ARMED-OFF (scripts/candle_room_correction.py).
+ The module ships armed-off (scripts/candle_room_correction.py).
 - **The leakage and τ terms** are comparison-layer and reionization-history effects
  respectively — the first lives outside the likelihoods entirely; the second reduced by
  the chain's own structure and survives only through the edge's low tail
  ([PRTOE_THE_CHAIN.md](exploratory/PRTOE_THE_CHAIN.md), tether 7→8).
-- **Nothing is lost**: the evidence run's chains can be IMPORTANCE-REWEIGHTED with the
+- **Nothing is lost**: the evidence run's chains can be importance-reweighted with the
  candle-corrected SN likelihood retroactively — this run collects the data once;
  the ceiling cashes against it whenever the candle correction is wired in.
 

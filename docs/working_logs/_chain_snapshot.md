@@ -132,3 +132,21 @@ projection above quoted**, and the owner's standing ruling — the letter's H₀
 than hours — is the one that survives contact with these checkpoints. The pair is left running;
 `finalize_h0_at_convergence.py` still refuses to print until both are under the bar, so nothing
 downstream can be released early by mistake.
+
+---
+
+## Snapshot 2026-08-02 (live read — still NONE booked)
+
+Sources: `chains/{dyad_mnu_bbnfix,cmp_lcdm_mnu_bbnfix,cmp_prtoe_routeD}.{progress,launchlog,checkpoint}`.
+Progress `acceptance_rate` near 0.99 is **oversampled**; raw accept = launchlog accepted/steps.
+
+| chain | ranks | N | R−1 | stop | raw accept | state |
+|---|---:|---:|---:|---:|---:|---|
+| `dyad_mnu_bbnfix` | 3 | 14544 | **0.192** | 0.05 | ~6.4% | LIVE, not converged (~3.8× stop) |
+| `cmp_lcdm_mnu_bbnfix` | 3 | 13193 | **0.141** | 0.05 | ~8.6% | LIVE, not converged (~2.8× stop; closest) |
+| `cmp_prtoe_routeD` | 3 | 1593 | **129.1** | 0.1 | ~5.1% | LIVE, early (first progress row) |
+
+**Not live:** PolyChord evidence pair (ended 07-20); zon_disp (parked); conv_desi (unproduced);
+`dyad_mnu_mcmc` archive only.
+
+**Still not bookable:** any H₀ / Σm_ν / thaw posterior. R−1 < stop is required. Do not kill the three live objects. Living docs synced: `PRTOE_CHAIN_TABLES.md`, `PRTOE_REFEREE_CALENDAR.md` Sitting NOW, `PRTOE_CODE_MANIFEST.md` §1.

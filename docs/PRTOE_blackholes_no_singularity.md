@@ -142,9 +142,9 @@ unchanged at observational scales. Superradiance physics (P-2026-005) is untouch
 
 The theorem's premises, audited against this interior:
 
-1. **A Lorentzian metric on the full domain** — FAILS below ξ / inside the quantum core (§1–2):
+1. **A Lorentzian metric on the full domain** — fails below ξ / inside the quantum core (§1–2):
  the theorem's arena dissolves before its conclusion's locus.
-2. **Energy conditions (SEC/NEC on the relevant congruences)** — FAIL in the core: quantum
+2. **Energy conditions (SEC/NEC on the relevant congruences)** — fail in the core: quantum
  pressure and the quartic produce the effective-stress violations standard to every bounce
  and boson-star solution (and to this model's own thaw sector).
 3. **Trapped surfaces** — form (the sonic horizon is real); the theorem correctly predicts

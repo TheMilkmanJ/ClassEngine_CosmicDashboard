@@ -43,9 +43,9 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 | [`PRTOE_DOMAIN_COVERAGE.md`](../PRTOE_DOMAIN_COVERAGE.md) | LEDGER/HISTORY | Domain census receipt; one line per domain |
 | [`PRTOE_FAILURES_LEDGER.md`](../PRTOE_FAILURES_LEDGER.md) | LEDGER/HISTORY | Graveyard of killed routes; append-only discipline |
 | [`PRTOE_PREREGISTERED_PREDICTIONS.md`](../PRTOE_PREREGISTERED_PREDICTIONS.md) | LEDGER/HISTORY | Timestamped bets P-001→060; registry, not a derivation |
-| [`PRTOE_CODE_MANIFEST.md`](../PRTOE_CODE_MANIFEST.md) | LEDGER/HISTORY | Pipeline in/armed/banned truth table; PolyChord NOT RUNNING recorded |
-| [`PRTOE_CHAIN_TABLES.md`](../PRTOE_CHAIN_TABLES.md) | OPEN-MACHINE | GetDist tables with explicit non-convergence banner (R−1 ≫ 0.05) |
-| [`PRTOE_REFEREE_CALENDAR.md`](../PRTOE_REFEREE_CALENDAR.md) | LEDGER/HISTORY | Judges + decision rules; 2026-08-02 desk sync: zon_disp parked, conv_desi unproduced |
+| [`PRTOE_CODE_MANIFEST.md`](../PRTOE_CODE_MANIFEST.md) | LEDGER/HISTORY | Pipeline in/armed/banned; §1 lists live bbnfix pair + routeD and PolyChord NOT RUNNING (2026-08-02) |
+| [`PRTOE_CHAIN_TABLES.md`](../PRTOE_CHAIN_TABLES.md) | OPEN-MACHINE | Live triple tracked (bbnfix pair R−1~0.14–0.19; routeD~129); GetDist archive rows still unconverged; stays OPEN until R−1≤0.05 |
+| [`PRTOE_REFEREE_CALENDAR.md`](../PRTOE_REFEREE_CALENDAR.md) | LEDGER/HISTORY | Judges + decision rules; Sitting NOW refreshed 2026-08-02 (3 live MCMC, PolyChord off, zon_disp/conv_desi parked) |
 | [`PRTOE_honest_status.md`](../PRTOE_honest_status.md) | LEDGER/HISTORY | Private internal board; local #N scheme carved out of docket |
 | [`PRTOE_strong_cp.md`](../PRTOE_strong_cp.md) | COMPLETE-ABSTENTION | Status 2026-08-02: complete as abstention; jurisdiction silence is the finished form |
 | [`PRTOE_stability.md`](../PRTOE_stability.md) | COMPLETE | Ghost / gradient / c_T / EP answered for the running configuration |
@@ -79,7 +79,7 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 | [`PRTOE_CMB_map.md`](../PRTOE_CMB_map.md) | COMPLETE | Six spectra mechanism→verdict scorecard; no open desk residue |
 | [`PRTOE_lss_parity.md`](../PRTOE_lss_parity.md) | WATCH-EXTERNAL | Amplitude ~7 orders short; DESI 4PCF + conditional axis-correlation (T16) |
 | [`PRTOE_igmf_helicity.md`](../PRTOE_igmf_helicity.md) | OPEN-THEORY | Link 5 closed negative; sole sign debt link 4 (toroidal relative — 3D fork, not desk) (T14) |
-| [`PRTOE_cosmic_magnetism.md`](../PRTOE_cosmic_magnetism.md) | OPEN-THEORY | P-028 structure; seeding sign rides T14 link 4; void floor / RM coherence unpriced |
+| [`PRTOE_cosmic_magnetism.md`](../PRTOE_cosmic_magnetism.md) | OPEN-THEORY | P-028 structure; seeding sign rides T14 link 4; void shortfall priced ×20 (1.30 dex); RM ⟨RM·RM⟩ formula missing (§3a 2026-08-02) |
 | [`PRTOE_koide_relation.md`](../PRTOE_koide_relation.md) | OPEN-THEORY | Protection half paid; node physics #101/#102, pacing + sign-chain open (T6 / gated §6) |
 | [`PRTOE_forced_combination.md`](../PRTOE_forced_combination.md) | COMPLETE-CONDITIONAL | Existence theorem exact in setting; inherits candidate-grade Koide program |
 | [`PRTOE_quartet_clock.md`](../PRTOE_quartet_clock.md) | OPEN-MACHINE | Unit = pair resolved; live readout vs zon_disp (parked / unconverged) |
@@ -90,9 +90,9 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 | [`PRTOE_blackholes_no_singularity.md`](../PRTOE_blackholes_no_singularity.md) | COMPLETE-CONDITIONAL | Core/horizon/entropy land; regulator residue struck 2026-08-02 (paid); echoes optional |
 | [`PRTOE_bigbang_no_singularity.md`](../PRTOE_bigbang_no_singularity.md) | OPEN-THEORY | ρ_bounce finite paid; turn dynamics open (bounce workplan) |
 | [`PRTOE_white_holes.md`](../PRTOE_white_holes.md) | OPEN-THEORY | Local WH forbidden derived; global identification provisional; bounce equations open |
-| [`PRTOE_information_paradox.md`](../PRTOE_information_paradox.md) | COMPLETE-CONDITIONAL | Structural dissolution; Page *curve* still owed as computation (coefficient unblocked) |
-| [`PRTOE_arrow_of_time.md`](../PRTOE_arrow_of_time.md) | COMPLETE-CONDITIONAL | First-genesis uniqueness derived; our-cycle inheritance gap named (§2a) |
-| [`PRTOE_baryogenesis.md`](../PRTOE_baryogenesis.md) | COMPLETE-CONDITIONAL | AD-direct route + transmission class; ω_J ~ 5.7 keV the one owed number |
+| [`PRTOE_information_paradox.md`](../PRTOE_information_paradox.md) | COMPLETE-CONDITIONAL | Structural dissolution; coefficient + roster PAID; Page *curve* computation still OPEN (not area-law-blocked; 2026-08-02 lock) |
+| [`PRTOE_arrow_of_time.md`](../PRTOE_arrow_of_time.md) | COMPLETE-CONDITIONAL | First-genesis uniqueness derived; our-cycle gap OPEN and not desk-closeable (§2a 2026-08-02 lock) |
+| [`PRTOE_baryogenesis.md`](../PRTOE_baryogenesis.md) | COMPLETE-CONDITIONAL | AD-direct route + transmission class; ω_J ~ 5.7 keV BACK-TARGET (quartet closes; forward micro inputs missing; §3a 2026-08-02) |
 | [`PRTOE_inflation_replacement.md`](../PRTOE_inflation_replacement.md) | OPEN-THEORY | Per-problem answers mixed grade; bounce + tilt residual not closed |
 | [`PRTOE_cyclic_torus_genesis.md`](../PRTOE_cyclic_torus_genesis.md) | OPEN-THEORY | Self-graded story-grade arc; bounce/cyclic rungs face standing theorems |
 | [`PRTOE_granule_scoping.md`](../PRTOE_granule_scoping.md) | OPEN-MACHINE | Statistical core DONE; SP dynamics + χ-lag sim + data confrontation not started |
@@ -165,9 +165,23 @@ document.
    grade with pointer to entropy §3.
 3. **`PRTOE_smbh_atoms.md`** — §4 Scope still said λ corrections "owed if pursued" after T2/#31
    payment; rewritten to paid desk residue + chain-gated α_g remainder.
+4. **OPEN-THEORY / COMPLETE-CONDITIONAL residue pass (same day, later):**
+   - **`PRTOE_baryogenesis.md` §3a** — ω_J ~ 5.7 keV isolated as BACK-TARGET; quartet closure
+     reconfirmed (`junction_quartet_closure.py`); forward micro inputs named missing (decay
+     constant + pinning curvature of the seat junction). Still COMPLETE-CONDITIONAL.
+   - **`PRTOE_information_paradox.md`** — Page-curve status table: coefficient PAID, roster PAID,
+     curve OPEN; removed stale present-tense "blocked on area law / field content gates it"
+     language. Still COMPLETE-CONDITIONAL.
+   - **`PRTOE_cosmic_magnetism.md` §3a** — void shortfall priced ×20 = 1.30 dex from recorded
+     B_seed and blazar floor; RM ⟨RM·RM⟩ named formula-missing OPEN. Still OPEN-THEORY.
+   - **`PRTOE_arrow_of_time.md` §2a** — our-cycle gap status lock; not desk-closeable. Still
+     COMPLETE-CONDITIONAL.
+   - **me_mechanism_math / dyad_gas** — inspected; no small desk-numeric residual closable without
+     inventing (UV operator / C_ref / T_c pin remain named opens). Tags unchanged.
 
-No OPEN-THEORY items were marked COMPLETE. No Koide #101/#102, bounce, basement μ5, Page-curve
-dynamics, or lensing MCMC work was invented. Chain run state was not killed or edited.
+No OPEN-THEORY items were marked COMPLETE. No Koide #101/#102, bounce, basement μ5, T14
+sign(H_kin), Page-curve dynamics, or lensing MCMC work was invented. Chain run state was not
+killed or edited.
 
 ---
 

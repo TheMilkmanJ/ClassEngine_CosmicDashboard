@@ -74,6 +74,41 @@ relax the ≥10⁻¹⁶ G floor entirely) is the referee: **if the blazar floor 
 debate, P-028's void column FAILS while the galactic column stands** — the registered risk,
 sharpened to a single external question.
 
+### 3a. Void-floor shortfall and RM coherence — priced vs OPEN (2026-08-02)
+
+**The shortfall is arithmetic from recorded numbers; no internal formula closes it.**
+
+| quantity | value | source |
+|---|---|---|
+| B_seed (smooth Harrison, ω_vort ~ 0.5 H(rec)) | **5×10⁻¹⁸ G** | §2 / P-2026-028 |
+| B_void floor (blazar TeV-halo bound) | **≳ 10⁻¹⁶ G** | [NeronovVovk2010] |
+| ratio B_void / B_seed | **20** | = 10⁻¹⁶ / 5×10⁻¹⁸ |
+| shortfall in decades | **log₁₀(20) = 1.30 dex ≈ "1.5 orders"** | the registered gap |
+
+The inter-line floor equals the smooth estimate under flux conservation: if Φ_line is
+concentrated on the vortex network and the return flux through a void cell equals the
+cell-averaged flux, then B_inter-line ≲ B_seed regardless of the ×3400 rms boost on the
+lines. **No further desk pricing changes that identity** — the shortfall is not an uncomputed
+integral; it is a theorem against the two internal rescues already tried.
+
+**What would be needed to close the void column from inside the model (and is not on
+record):** a mechanism that raises the *inter-line* field above the flux-averaged seed —
+equivalently, a formula for B_void that is not bounded by B_seed under flux conservation.
+No such formula exists in the corpus. The open object is therefore either (a) an external
+relaxation of the blazar floor, or (b) a new internal seed mechanism — neither of which is
+desk-doable from existing numbers without inventing content.
+
+**RM coherence scale — OPEN, formula missing.**
+
+§4 notes that the Kibble network sets ~100-Mpc-class comoving structure, "testable in
+principle in Faraday-rotation-measure correlation functions." The ledger marks that
+"un-priced in RM statistics (owed if pursued)." **Explicit OPEN:** there is no recorded
+expression for ⟨RM(θ)·RM(0)⟩, no transfer of ξ_K = 256 Mpc into an angular multipole, and
+no comparison to existing RM surveys. The qualitative claim (coherence scale set by the
+Kibble network, not by a phase-transition horizon) stands; the quantitative RM prediction
+does not. Closing it would require writing and evaluating that correlation — not available
+as an existing corpus number.
+
 ## 4. The signature no one else can write down: THE SIGN
 
 Every other mechanism predicts a magnitude and (at best) a spectrum. This model's field
@@ -150,11 +185,11 @@ Consequences:
 |---|---|
 | galactic seed (~5×10⁻¹⁸ G, Harrison from structural vorticity) | computed, graded, P-028 |
 | EM-neutrality consistency (stir, don't charge) | forced (Meissner) |
-| void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — 1.5 orders short; the working docket** |
+| void floor (≥10⁻¹⁶ G inter-filament) | **OPEN — shortfall priced at ×20 = 1.30 dex vs B_seed = 5×10⁻¹⁸ G; no internal formula closes it (§3a)** |
 | helicity sign = the seeded flow's sign, sign(helicity_B) = sign(H_kin) | derived (the battery's coefficient squares out of it) |
 | helicity sign = winding sign, sign(helicity_B) = sign(n) | the surviving registered content — testable against the winding axis, not against the matter–antimatter draw (§4: the two signs are drawn independently, joint correlation −0.06 to +0.09 against a ±0.13 noise floor) |
 | helicity sign = baryon sign | **void** — no measured correlation between them can confirm or kill anything |
-| coherence scale ~ Kibble ξ | distinctive, un-priced in RM statistics (owed if pursued) |
+| RM coherence ~ Kibble ξ | **OPEN — formula missing** (no ⟨RM·RM⟩ expression; qualitative ~100 Mpc claim only; §3a) |
 
 ## Sources
 

@@ -12,23 +12,23 @@ cosmology leaves them generic.*
 Does the dark vortex network radiate (a PTA background)? Do the medium's defects distort
 propagation? And does the model mark the GW sky with anything no one else predicts?
 
-## 1. The vortex network is PTA-SILENT (computed here — a passed self-check turned prediction)
+## 1. The vortex network is PTA-silent (computed here — a passed self-check turned prediction)
 
 Cosmic-string networks radiate GWs; a universe threaded by dark vortex lines had to be
-checked (a potential self-kill). The dark vortex tension is set by the CONDENSATE's density,
+checked (a potential self-kill). The dark vortex tension is set by the condensate's density,
 not a GUT vev:
 
  μ ~ πħ²ρ/m² · ln(R/ξ) → **Gμ ~ 3×10⁻²¹** (local-density maximum; cosmic mean lower)
 
 vs the CMB bound Gμ < 10⁻⁷ and PTA network sensitivities ~10⁻¹⁰: **safe by ten-plus orders —
-and therefore a PREDICTION: no vortex-network contribution to the NANOGrav-class background.**
+and therefore a prediction: no vortex-network contribution to the NANOGrav-class background.**
 The observed PTA common signal must be astrophysical (SMBH binaries) in this model; a
 demonstrated cosmic-string-network component with Gμ ≳ 10⁻¹¹ would be foreign blood — a kill.
 
 ## 2. The parity-odd channel — the model's distinctive GW mark (recorded, L1a's fine print)
 
-The constitutional text (L1a, recorded): the medium cannot reach the PHOTON with parity-odd
-couplings (the birefringence zero) — but it CAN carry a parity-odd GRAVITATIONAL coupling,
+The constitutional text (L1a, recorded): the medium cannot reach the photon with parity-odd
+couplings (the birefringence zero) — but it can carry a parity-odd gravitational coupling,
 θ·R·R̃ → gravitational waves. Consequence, joined to these structures: **a circularly-
 polarized (chiral) component of any primordial GW background, with handedness set by the
 winding's sign** — the same topological integer that fixes the magnetic helicity's sign
@@ -55,23 +55,23 @@ strain-scale sits below PTA sensitivity — the GW sector neither rescues nor th
 model. The model's GW record: one computed silence, one signed chirality, one deep prong, zero
 current tensions.
 
-## 5. The lightswitch — the parity channel's biography and the SPLIT prediction
+## 5. The lightswitch — the parity channel's biography and the split prediction
 
-The parity-odd coupling θR R̃ is a TOGGLE by construction (parity-odd terms flip, they do not
+The parity-odd coupling θR R̃ is a toggle by construction (parity-odd terms flip, they do not
 dial) and its action on a passing wave is helicity-selective — one circular polarization
 amplified, the other damped. The model's history throws that switch exactly once: the genesis
-pour turns it ON (the active-θ̇ era); the settling FADES it off across a decade-wide dimmer,
+pour turns it on (the active-θ̇ era); the settling fades it off across a decade-wide dimmer,
 z ≈ 32 → 4, centered on the freeze at z ≈ 12 — **the same event whose frozen residual is the
 cosmological constant: one clock, two jobs — dark energy on, birefringence off.** The
 residual θ̇ today (the swirl, 10⁻² H₀) leaves every band 12+ orders below instrument reach.
 
-**THE SPLIT PREDICTION (registered; the channel's falsifiable cash):**
+**The split prediction (registered; the channel's falsifiable cash):**
 
-- **every RESOLVED gravitational-wave event arrives with clean polarization** — all
+- **every resolved gravitational-wave event arrives with clean polarization** — all
  resolvable sources (LIGO z ≲ 2, LISA z ≲ 10, PTA z ≲ 1) lie entirely on post-freeze
  paths; **a confirmed chirality in any resolved binary kills the model**;
-- **parity violation, if it exists anywhere, is confined to the PRIMORDIAL stochastic
- background** — the one channel whose paths cross the ON era; chirality there, with
+- **parity violation, if it exists anywhere, is confined to the primordial stochastic
+ background** — the one channel whose paths cross the on era; chirality there, with
  resolved events clean, is the settling story's fingerprint. Its amplitude is set by the
  θR R̃ coefficient — the open computation, with the break-threshold priced
  (coeff·θ̇ ~ 10¹⁰ H₀).

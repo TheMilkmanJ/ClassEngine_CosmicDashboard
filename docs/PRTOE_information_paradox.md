@@ -4,22 +4,19 @@
 
 
 *Short companion to PRTOE_blackholes_no_singularity.md. The paradox dissolves at the structural
-level in this model, and the quantitative capstone — the Page curve, which was blocked on the area
-law's coefficient — **has that block removed**: the coefficient is the ratio of the two heat-kernel
-coefficients the same cutoff supplies, 12π/48π = 1/4 exactly, giving S = A/4G
-([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a). *The curve itself is not thereby
-delivered* — the table below grades it "derived-conditional at the coefficient, owed at the curve",
-and the area law's field content gates it. **Status: structural dissolution plus a
-derived-conditional capstone** — conditional on the roster the model actually carries. The
-coefficients 12π and 48π are those of minimally coupled scalars, so with non-minimal coupling or
-spin the two divergences stop being one heat-kernel term and the cancellation is not automatic. That
-extension has since been made class by class: spin-½ produces no contact term and preserves the ratio
-exactly, which also disposes of the fermion-sign hazard rather than arguing past it; gauge fields
-break the ratio through the contact term, which is the edge modes' own entanglement entropy and
-restores it once edge modes count as horizon entropy; and a conformally coupled scalar drops out of
-both sides identically, as the Higgs does under the ξ = 1/6 that induced-Newton finiteness already
-demands. The quarter survives the full roster at candidate grade, on one named commitment
-([PRTOE_entropy.md](PRTOE_entropy.md) §3).*
+level in this model. **Status (2026-08-02), stated so it cannot be misread:**
+
+| Page-curve ingredient | status |
+|---|---|
+| area-law **coefficient** S = A/4G | **PAID** — ratio of the two heat-kernel coefficients the same cutoff supplies, 12π/48π = 1/4 exactly ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a) |
+| **field-content** extension beyond minimally coupled scalars | **PAID** class by class at candidate grade ([PRTOE_entropy.md](PRTOE_entropy.md) §3): spin-½ preserves the ratio exactly (and disposes of the fermion-sign hazard); gauge fields restore it once edge modes count as horizon entropy; a conformally coupled scalar drops out of both sides under the same ξ = 1/6 induced-Newton finiteness already demands |
+| the **curve itself** (S_rad(v) vs Page time for phonon Hawking flux off a finite core) | **OPEN — still un-run; do not fake it** |
+
+The coefficient *was* the historical block; that block is removed. Field content *was* the residual
+gate after the coefficient; that gate is also paid. **Neither payment delivers the Page curve as a
+computed object** — the table below grades the curve "derived-conditional at the coefficient, owed
+at the curve", and "owed" means a real dynamics computation, not a remaining coefficient or roster
+debt. **Status: structural dissolution plus coefficient-paid, curve-uncomputed.***
 
 ## 0. The paradox, and why it needs a singularity to bite
 
@@ -37,7 +34,7 @@ system**. Consequences, each from a graded object:
 
 1. **Nothing is destroyed** — the infallen state is *thermalized*, not terminated: unitary
  many-body evolution in the core (decoherence relocates information into correlations; it
- never deletes it — Landauer PRICES record-keeping: erasure always pays a fee, and the fee
+ never deletes it — Landauer prices record-keeping: erasure always pays a fee, and the fee
  is itself a record kept somewhere).
 2. **The record is kept by construction** — "the universe is not blind to its own
  interactions" (graded: the environment's record IS decoherence). A model whose
@@ -66,18 +63,27 @@ system**. Consequences, each from a graded object:
 | the singularity (the shredder) | required | absent |
 | unitarity | threatened | manifest (the interior is a quantum many-body system) |
 | "where is the information during evaporation?" | mysterious | in the core's correlations + outgoing-mode entanglement (ordinary) |
-| the Page curve | the quantitative test | **derived-conditional at the coefficient, owed at the curve** — the functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)), the scaling follows with species count and cutoff cancelling, and the coefficient is the ratio the same cutoff supplies (12π/48π = 1/4, [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); the regulator's entanglement-side O(1) is paid structurally (the conical δ-function in R makes both coefficients one heat-kernel term, so any form factor cancels in the ratio); the field-content extension beyond minimally coupled scalars is paid class by class (header above; [PRTOE_entropy.md](PRTOE_entropy.md) §3); **what remains is the curve itself** |
+| the Page curve | the quantitative test | **coefficient PAID; field content PAID; curve OPEN** — functional exists ([PRTOE_entropy.md](PRTOE_entropy.md)); scaling cancels species count and cutoff; coefficient = 12π/48π = 1/4 ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §4a); regulator O(1) paid structurally (conical δ in R); roster extension paid class by class (header; [PRTOE_entropy.md](PRTOE_entropy.md) §3); **what remains is the dynamical curve** (phonon Hawking flux off a finite core vs Page time) — not a remaining area-law block |
 | firewalls / remnants / ER=EPR | competing exotica | unnecessary: the interior is matter, not geometry |
 
 ## 3. Scope
 
 This is a **dissolution, not a calculation**: the paradox's premises fail in this model, so no
-paradox forms — the same logical shape as the Penrose-premise audit. What would elevate it to
-a *result*: (i) **paid 2026-07-20** — the regulator's entanglement-side O(1) equals the induced-G
-side identically, because the conical deficit's δ-function in R makes the horizon area term the same
-heat-kernel coefficient, so any form factor cancels in the ratio (for minimally coupled content,
-which is what the 12π and 48π are the coefficients of); (ii) a Page-curve computation for phonon
-Hawking flux off a finite core — still un-run, and it is the claim's remaining half.
+paradox forms — the same logical shape as the Penrose-premise audit. What would elevate the
+quantitative half to a *result*:
+
+| half | status |
+|---|---|
+| (i) regulator entanglement-side O(1) = induced-G side | **paid 2026-07-20** — conical δ in R makes both one heat-kernel coefficient; form factors cancel in the ratio (minimally coupled content) |
+| (i′) roster extension beyond that content | **paid** class by class ([PRTOE_entropy.md](PRTOE_entropy.md) §3) |
+| (ii) Page-curve computation for phonon Hawking flux off a finite core | **still un-run — the claim's remaining half; not blocked on the area law** |
+
+### Status lock (2026-08-02)
+
+Do not re-open (i) or (i′) as if they still gate the curve, and do not treat the coefficient
+payment as having delivered the curve. The open object is exclusively (ii): a dynamical Page
+curve for the sonic-horizon / finite-core setup of §1. That computation is not desk-algebra from
+existing numbers; faking a curve from the coefficient alone is forbidden.
 
 *A paradox needs an impossible room. Take away the shredder at the microphysical level and the black hole
 is just a very dark library with slow lending — everything checked in is still on a shelf,
