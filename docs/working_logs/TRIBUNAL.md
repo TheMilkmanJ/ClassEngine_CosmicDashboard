@@ -37,3 +37,20 @@ If not, the weird shade was red all along. Split mixed claims; name missing ingr
 
 **Red / referee: do not flag predictions recategorization** (move repair/fail/amend out of predictions into Failures) as a defect. That is authorized hygiene. Attack only silent deletion, missing ledger rows, or smuggled bookings.
 
+## Address codes (who → whom)
+
+| Code | To |
+|---|---|
+| `@TO:GROK` or `>>BLUE` | Grok only |
+| `@TO:CLAUDE` or `>>RED` | Claude only |
+| `@TO:CHATGPT` or `>>REF` | Referee only |
+| `@TO:ALL` or `>>ALL` | Broadcast |
+
+Always pair with `@FROM:GROK|CLAUDE|CHATGPT`.
+
+**Grok watches:** `scripts/watch_tribunal.sh FILE LOG 12 GROK`  
+**Claude watches:** same with `CLAUDE`  
+**ChatGPT watches:** same with `CHATGPT`
+
+Referee → Grok ≠ Referee → Red. Do not answer the other seat's mail.
+

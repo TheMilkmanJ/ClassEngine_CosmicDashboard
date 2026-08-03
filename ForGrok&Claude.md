@@ -98,6 +98,60 @@ Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Cont
 **Quick card also updated:** `docs/working_logs/TRIBUNAL.md`
 
 ---
+
+### Address codes (owner 2026-08-03) — who is talking to whom
+
+**Problem:** Generic `### Handoff` / `### AUDIT` / `### REFEREE` does not say whether the
+referee is speaking to **Grok** or to **red**. Monitors and seats were waking on the wrong mail.
+
+**Rule:** Every new tribunal block heading **must** include `@FROM:` and `@TO:` (and may add a short `>>` code).
+
+| Tag | Meaning |
+|---|---|
+| `@FROM:GROK` | Author is Grok/Defender (blue) |
+| `@FROM:CLAUDE` | Author is Claude (red) |
+| `@FROM:CHATGPT` | Author is ChatGPT (referee) |
+| `@FROM:OWNER` | Owner Justin |
+| `@TO:GROK` | **Mail for Grok only** — Grok must reply / BUILD |
+| `@TO:CLAUDE` | **Mail for Claude only** — red must reply / attack |
+| `@TO:CHATGPT` | **Mail for Referee only** |
+| `@TO:ALL` | Broadcast — everyone notes; only **WHOSE_TURN** acts |
+| `@TO:OWNER` | Owner-facing note |
+
+**Short channel codes (same heading line):**
+
+| Code | Equivalent |
+|---|---|
+| `>>BLUE` | `@TO:GROK` |
+| `>>RED` | `@TO:CLAUDE` |
+| `>>REF` | `@TO:CHATGPT` |
+| `>>ALL` | `@TO:ALL` |
+
+**Examples (copy these shapes):**
+
+```markdown
+### TASK COMPLETE R1-x @FROM:GROK @TO:CLAUDE >>RED
+### NEXT ISSUE R1-y @FROM:CLAUDE @TO:CHATGPT >>REF
+### REFEREE R1-y @FROM:CHATGPT @TO:GROK >>BLUE
+### REFEREE R1-y-red @FROM:CHATGPT @TO:CLAUDE >>RED
+### AUDIT R1-z @FROM:CLAUDE @TO:GROK >>BLUE
+### AUDIT R1-z-ref @FROM:CLAUDE @TO:CHATGPT >>REF
+```
+
+**Routing law:**
+- Referee speaking to **blue** → `@TO:GROK` / `>>BLUE` — Grok answers; **Claude does not treat as their turn**.
+- Referee speaking to **red** → `@TO:CLAUDE` / `>>RED` — Claude answers; **Grok does not treat as their turn**.
+- Unaddressed `### REFEREE` without `@TO:` is a **process defect** (monitor emits `REF_NEEDS_TO_TAG`).
+
+**Monitors:**
+- Grok: `scripts/watch_tribunal.sh FILE LOG 12 GROK` → wakes only on `>>BLUE` / `@TO:GROK` / `@TO:ALL`
+- Claude: `scripts/watch_tribunal.sh FILE LOG 12 CLAUDE` → wakes only on `>>RED` / `@TO:CLAUDE` / `@TO:ALL`
+- ChatGPT: `scripts/watch_tribunal.sh FILE LOG 12 CHATGPT` → wakes on `>>REF` / `@TO:CHATGPT` / `@TO:ALL`
+- Debug all: filter `ALL`
+
+Log default: `docs/working_logs/_runs/tribunal_monitor.log`
+
+---
 ### Turn order (strict)
 
 Default cycle:
@@ -706,6 +760,12 @@ Read first:
   Any open ### PROPOSAL R… block
   For T14 science context (do not re-litigate closed link 5): docs/working_logs/T14_igmf_helicity_owed.md
   RED-TEAM acceptance protocol section (2026-08-03)
+
+Address codes (required on every REFEREE heading):
+- Speaking to Grok/Defender only: @FROM:CHATGPT @TO:GROK >>BLUE
+- Speaking to Claude/red only: @FROM:CHATGPT @TO:CLAUDE >>RED
+- Broadcast: @TO:ALL >>ALL
+Grok must not treat >>RED as their mail; Claude must not treat >>BLUE as theirs.
 
 Your job each REFEREE turn:
 1. State PHASE check: was it Grok build → Claude challenge → you, or is order broken?
@@ -1481,5 +1541,22 @@ markers (`Handoff|TASK COMPLETE|NEXT ISSUE|REFEREE|PROCESS|AUDIT|CHALLENGE|RED`)
 **Still BUILD:** R1-t14-i3 nulls (`nojet` in flight). Continuous pipeline stands.
 
 **WHOSE_TURN set to:** Grok (BUILD) — ChatGPT still owes REFEREE backlog when online.
+
+---
+
+### Handoff 2026-08-03 @FROM:GROK @TO:ALL >>ALL — address codes for seat routing
+
+**Owner request:** distinct code-words so Grok and red know when the **referee is talking to them**
+vs the other seat.
+
+**Live rule:** every new block uses `@FROM:` + `@TO:` (or `>>BLUE` / `>>RED` / `>>REF` / `>>ALL`).
+See **Address codes** section above Turn order.
+
+**Monitors:**
+- Grok filter: `watch_tribunal.sh … GROK` → only `>>BLUE` / `@TO:GROK` / `@TO:ALL`
+- Claude filter: `… CLAUDE` → only `>>RED` / `@TO:CLAUDE` / `@TO:ALL`
+- ChatGPT filter: `… CHATGPT` → only `>>REF` / `@TO:CHATGPT` / `@TO:ALL`
+
+**WHOSE_TURN:** unchanged (see board). Continuous BUILD still applies for open NEXT ISSUES.
 
 ---
