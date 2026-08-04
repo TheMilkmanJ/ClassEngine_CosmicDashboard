@@ -69,7 +69,8 @@ With the low start explained, the arrow itself is the model's graded free-energy
  erasure cost; the environment's monitoring IS the recording (standard quantum Darwinism).
  Time's direction is the direction in which the records accumulate.
 5. **The compounding**: Tolman — the crunch keeps the heat; cycles lengthen; the un-crunchable
- Weyl is entropy that can never be undone. The arrow survives the bounce.
+ Weyl is entropy that can never be undone. **The arrow is restored after the bounce**
+ (not metered through a metric-off Phase II by C² — see §2b).
 6. **The terminus**: the free-energy threshold (graded: "the same budget from opposite
  sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
  the eternal ground state. The chain's *finiteness* is the recorded result; a pinned cycle
@@ -106,7 +107,7 @@ question it does answer.
 | claim | status |
 |---|---|
 | first-genesis Past Hypothesis → vacuum by uniqueness | **derived** (§1); functional supplied (§4) |
-| running arrow = free-energy drawdown metered by C² | **derived-from-recorded** (§2) |
+| running arrow = free-energy drawdown metered by C² | **derived-from-recorded in the metric-on regime only** (§2, §2b) |
 | our cycle began low-entropy | **Open** — Tolman inheritance reopens the Past Hypothesis for the observed universe |
 | "we are early in the chain" as a repair | **blocked by the model's own lengthening** (time-weighted observer falls late; §2a) |
 | anthropic repair | **explicitly rejected** by this file (§3) |
@@ -117,6 +118,23 @@ mechanism that prefers low-entropy cycles without contradicting §3. Neither is 
 pinned cycle count (the terminus is finite, a count is not — §2 item 6), nor by bounce dynamics
 (open elsewhere), nor by inventing a measure. **Complete-conditional grade stands:** first half
 paid; second half named open, not papered.
+
+### §2b. Domain of the C² meter
+
+The Weyl/C² construction requires a metric. Its domain is therefore the metric-on regime, and the arrow is metered by C² wherever exterior GR variables are defined.
+
+Across a metric-off interval — `fa3_metric_off` P1 (CANDIDATE), where the emergent Lorentzian metric ceases at the healing length — the arrow is **restored at re-entry** from the re-emergent entropy gradient. Whether a non-geometric carrier continues the arrow *through* such an interval, in medium/GPE variables, is an **open debt**; this file does not state one.
+
+Inhabitants of whichever branch emerges experience their own entropy direction as forward, so the square-root branch choice is not an inhabitant-observable (owner, ARGUMENT grade, not derivation). This bears on the branch declaration only. The magnitude lock is untouched: |H_kin|/H_door remains short by one to two orders, and H_re is not supplied.
+
+| item | grade |
+|---|---|
+| C² metering of the running arrow | **derived-from-recorded**, metric-on regime |
+| Arrow across a metric-off interval | **restored at re-entry**; carrier through the interval **OPEN** |
+| Bounce residual / H_re / MeV hot start | **OPEN-BLOCKED** (construction package) |
+| P1 / P2 | **CANDIDATE** premises |  
+
+Authority package: `docs/working_logs/_runs/theory_construction_20260804/bounce_arrow_collision_20260804/`
 
 ## 3. Why this is different from the standard non-answers
 
@@ -183,7 +201,7 @@ cross-link; the standing derivations in this file are unchanged.
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | First-genesis Past Hypothesis solved by uniqueness of vacuum (no alternatives to draw) | **derived** (conditional on uniqueness premise) | §1; functional in §4 | Philosophical joint flagged in corpus |
-| 2 | Running arrow = free-energy drawdown metered by C² / Weyl | **derived-from-recorded** | §2 | Rides medium reality (M3) |
+| 2 | Running arrow = free-energy drawdown metered by C² / Weyl | **derived-from-recorded (metric-on only)** | §2, §2b | Rides medium reality (M3); **not** defined across metric-off Phase II under fa3 P1 |
 | 3 | Our cycle began low-entropy | **OPEN-BLOCKED** | §2a status table | **OPEN-THEORY:** no pinned cycle count; Tolman inheritance reopens Past Hypothesis for observed universe |
 | 4 | “We are early” repair | **blocked** by model’s own lengthening | §2a | Time-weighted observer falls late |
 | 5 | Anthropic repair | **explicitly rejected** | §3 | File forbids using it |
