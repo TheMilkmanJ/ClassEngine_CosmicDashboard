@@ -2,7 +2,7 @@
 
 **Status:** PLAN ONLY. No curve is computed here.  
 **Registered object (still OPEN):** \(S_{\mathrm{rad}}(v)\) vs Page time for phonon Hawking flux off a finite-density sonic-horizon core (healing length \(\xi\)), with unitarity enforced by the core as a finite quantum system.  
-**Home claim:** [`docs/PRTOE_information_paradox.md`](../../../PRTOE_information_paradox.md)  
+**Home claim:** [`docs/PRTOE_information_paradox.md`](../../../exploratory/PRTOE_information_paradox.md)  
 **Scaffold (illustration only):** [`PAGE_CURVE_SCAFFOLD.md`](PAGE_CURVE_SCAFFOLD.md) · `scripts/quantum_page_curve_scaffold.py`  
 **Debt inventory:** [`docs/working_logs/_runs/debt_page_curve_20260803/REPORT.md`](../debt_page_curve_20260803/REPORT.md)  
 **QG ledger residual Q6:** [`docs/PRTOE_quantum_gravity.md`](../../../PRTOE_quantum_gravity.md) claims ledger  
@@ -382,3 +382,42 @@ python3 scripts/quantum_area_law_quarter.py
 ---
 
 *Plan grade: implementation specification. Not a Page-curve result. Not a fake curve.*
+
+---
+
+## Week1 progress (2026-08-03) — appended after first instrument run
+
+**Delivered:** `scripts/quantum_page_sonic_horizon_week1.py`  
+**Report:** [`PAGE_CURVE_WEEK1.md`](PAGE_CURVE_WEEK1.md)  
+**Data:** `page_curve/week1_sonic_horizon.json`
+
+| item | result |
+|---|---|
+| Prescribed 1D tanh sonic horizon | \(x_h=0\), \(\kappa=0.125\), \(T_H=\kappa/2\pi\approx 0.019894\) |
+| Grid \(\kappa\) vs analytic | error \(\ll 5\%\) (PASS) |
+| Subsonic null (no horizon) | PASS |
+| \(n_B(\omega)\) mid-band table | pure thermal *reference* at \(T_H\) (not mode-extracted) |
+| \(S_{\mathrm{rad}}(v)\) / Page turn | **NOT computed** (correct Week-1 fence) |
+
+**Honest grade:** Milestone A **partial** — horizon instrument + Unruh \(T_H\) bookkeeping PASS; full A still needs Bogoliubov / flux \(\langle n_\omega\rangle\) and \(T_{\mathrm{fit}}\) (Week 2). Curve dynamics remain OPEN.
+
+---
+
+## Week2 progress (2026-08-03) — appended after Bogoliubov / greybody run
+
+**Delivered:** `scripts/quantum_page_bogoliubov_week2.py`  
+**Report:** [`PAGE_CURVE_WEEK2.md`](PAGE_CURVE_WEEK2.md)  
+**Data:** `page_curve/week2_bogoliubov.json`
+
+| item | result |
+|---|---|
+| Week1 metric reused | \(x_h=0\), \(\kappa=0.125\), \(T_H\approx 0.019894\) |
+| Near-horizon \(\lvert\beta_\omega\rvert^2=n_B(\omega;T_H)\) | PASS (mode connection formula) |
+| Exterior numerical mode match (9 mid-band bins) | all ok; \(\Gamma\approx 0.752\) (nearly flat) |
+| \(n_{\mathrm{mode}}=\Gamma n_B\); \(T_{\mathrm{fit}}/T_H\) | \(0.967\) — **PASS** band \([0.7,1.3]\) |
+| Mid-band energy-flux proxy | computed (not full Stefan integral) |
+| Subsonic / \(\omega/\kappa\) nulls | PASS |
+| Finite-core Hilbert + early \(S_{\mathrm{rad}}(t)\) | **NOT done** (plan days 2–3 residual) |
+| \(S_{\mathrm{rad}}(v)\) / Page turn | **NOT computed** (correct Week-2 fence) |
+
+**Honest grade:** Milestone A **thermal-modes PASS** (horizon + Bogoliubov + greybody + \(T_{\mathrm{fit}}\)). Plan Week-2 finite-core / early entropy still open. Curve dynamics remain OPEN — **forbidden** to read this as a Page curve.

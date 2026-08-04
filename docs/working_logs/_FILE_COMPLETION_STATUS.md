@@ -1,4 +1,4 @@
-# Forward-facing file completion status (2026-08-02)
+# Forward-facing file completion status (2026-08-02; OPEN-MACHINE + Hubble freeze 2026-08-04)
 
 > **Purpose.** Honest completion status for every top-level `docs/PRTOE_*.md` — not
 > fake-finishing hard theory. Cross-checked against
@@ -28,7 +28,7 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 
 ---
 
-## Inventory (64 files)
+## Inventory (69 files)
 
 | file | status | one-line evidence |
 |---|---|---|
@@ -44,16 +44,16 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 | [`PRTOE_FAILURES_LEDGER.md`](../PRTOE_FAILURES_LEDGER.md) | LEDGER/HISTORY | Graveyard of killed routes; append-only discipline |
 | [`PRTOE_PREREGISTERED_PREDICTIONS.md`](../PRTOE_PREREGISTERED_PREDICTIONS.md) | LEDGER/HISTORY | Timestamped bets P-001→060; registry, not a derivation |
 | [`PRTOE_CODE_MANIFEST.md`](../PRTOE_CODE_MANIFEST.md) | LEDGER/HISTORY | Pipeline in/armed/banned; §1 lists live bbnfix pair + routeD and PolyChord NOT RUNNING (2026-08-02) |
-| [`PRTOE_CHAIN_TABLES.md`](../PRTOE_CHAIN_TABLES.md) | OPEN-MACHINE | Live triple tracked (bbnfix pair R−1~0.14–0.19; routeD~129); GetDist archive rows still unconverged; stays OPEN until R−1≤0.05 |
+| [`PRTOE_CHAIN_TABLES.md`](../PRTOE_CHAIN_TABLES.md) | OPEN-MACHINE | Residual freeze 2026-08-04: dyad R−1~0.189 / lcdm~0.059 / routeD~103; not self-stopped; book_bbnfix REFUSED; GetDist GR ~0.086/~0.07 diag only; **NOT bookable** |
 | [`PRTOE_REFEREE_CALENDAR.md`](../PRTOE_REFEREE_CALENDAR.md) | LEDGER/HISTORY | Judges + decision rules; Sitting NOW refreshed 2026-08-02 (3 live MCMC, PolyChord off, zon_disp/conv_desi parked) |
 | [`PRTOE_honest_status.md`](../PRTOE_honest_status.md) | LEDGER/HISTORY | Private internal board; local #N scheme carved out of docket |
 | [`PRTOE_strong_cp.md`](../PRTOE_strong_cp.md) | COMPLETE-ABSTENTION | Status 2026-08-02: complete as abstention; jurisdiction silence is the finished form |
-| [`PRTOE_stability.md`](../PRTOE_stability.md) | COMPLETE | Ghost / gradient / c_T / EP answered for the running configuration |
+| [`PRTOE_stability.md`](../PRTOE_stability.md) | COMPLETE-CONDITIONAL | Running-config certificates paid; **bounce/cycle stability OPEN-BLOCKED** (ledger row 9; 2026-08-03 C3) |
 | [`PRTOE_LV_pricing.md`](../PRTOE_LV_pricing.md) | COMPLETE | Sector→coefficient→bound→margin table; margins multi-order |
 | [`PRTOE_build_2loop_Veff_spec.md`](../PRTOE_build_2loop_Veff_spec.md) | COMPLETE | Hunt 215 definite negative + hunt 216 follow-on executed; record of a finished build |
 | [`PRTOE_lattice_note.md`](../PRTOE_lattice_note.md) | WATCH-EXTERNAL | Approved for circulation; waits on external SU(2) N_f=3 T_c/√σ campaign (#67) |
 | [`PRTOE_fairbank_note_draft.md`](../PRTOE_fairbank_note_draft.md) | COMPLETE-CONDITIONAL | Experimental 0νββ note; chain comparison explicitly not claimable |
-| [`PRTOE_hubble_tension.md`](../PRTOE_hubble_tension.md) | COMPLETE-CONDITIONAL | Core empirical claim written; Laplace evidence + residual owned; chains gate sharpening |
+| [`PRTOE_hubble_tension.md`](../PRTOE_hubble_tension.md) | COMPLETE-CONDITIONAL | Residual freeze 2026-08-04: letter **NOT bookable** until bbnfix gate; lcdm R−1~0.059 / dyad~0.189 both not self-stopped; pre-bbnfix ΔlnZ≈+2.6 standing (not peek); `book_bbnfix_when_ready.py` only |
 | [`PRTOE_H0_CEILING.md`](../PRTOE_H0_CEILING.md) | COMPLETE | Formula + ς = −1 signed; pipeline gap stated |
 | [`PRTOE_dcdf_superfluid.md`](../PRTOE_dcdf_superfluid.md) | COMPLETE-CONDITIONAL | Identity file; residual magnitude / bounce link named open |
 | [`PRTOE_dyad_gas.md`](../PRTOE_dyad_gas.md) | COMPLETE-CONDITIONAL | Identity file; UV operator / T_c pin / crunch bridge open |
@@ -64,60 +64,61 @@ WATCH-EXTERNAL) when both apply; the primary is what the inventory counts.
 | [`PRTOE_radio_lattice.md`](../PRTOE_radio_lattice.md) | COMPLETE-CONDITIONAL | Five-band ratios + dark-ages forecasts registered; BipoSH data external |
 | [`PRTOE_cosmological_constant.md`](../PRTOE_cosmological_constant.md) | COMPLETE-CONDITIONAL | Existence claim at +0.44% band; lattice τ referee (P-048); O(1) dissolved |
 | [`PRTOE_coincidence_problem.md`](../PRTOE_coincidence_problem.md) | COMPLETE-CONDITIONAL | Era WIDTH derived; OCCUPANCY explicitly not (honest split) |
-| [`PRTOE_s8_growth.md`](../PRTOE_s8_growth.md) | OPEN-MACHINE | Conversion channel stated; conv_desi unproduced; matched lensing OPEN (#161) |
-| [`PRTOE_s8_tension.md`](../PRTOE_s8_tension.md) | OPEN-MACHINE | Companion to growth; same unproduced posterior + lensing debt |
-| [`PRTOE_neutrino_home.md`](../PRTOE_neutrino_home.md) | OPEN-MACHINE | Relation established; Σm_ν joint (dyad_mnu) + double-duty still machine (T3) |
-| [`PRTOE_neutrino_sector.md`](../PRTOE_neutrino_sector.md) | COMPLETE-CONDITIONAL | Mass relation + 0νββ window written; flavor distribution / μ residual open |
+| [`PRTOE_s8_growth.md`](../PRTOE_s8_growth.md) | OPEN-MACHINE | Freeze 2026-08-04: conv_desi unproduced (R−1=13.25, dead); routeD live but R−1≈103; matched lensing OPEN; residual freeze banner + ledger |
+| [`PRTOE_s8_tension.md`](../PRTOE_s8_tension.md) | OPEN-MACHINE | Freeze 2026-08-04: companion to growth; same unproduced conv_desi + lensing debt; residual freeze banner + ledger |
+| [`PRTOE_neutrino_home.md`](../PRTOE_neutrino_home.md) | OPEN-MACHINE | FULL honesty freeze 2026-08-04: Σm_ν joint waits `dyad_mnu_bbnfix` book (dyad R−1=0.189 / lcdm 0.059; not self-stopped); Fairbank **HOLD**; m_ββ `neutrino-mbb` **READY not posted** — package `neutrino_full_honesty_20260804/` |
+| [`PRTOE_neutrino_sector.md`](../PRTOE_neutrino_sector.md) | COMPLETE-CONDITIONAL | Consistency stamp 2026-08-04: relation + m_ββ window; ship path READY under Fairbank HOLD; joint posterior not this file; μ / flavor open |
 | [`PRTOE_direct_detection.md`](../PRTOE_direct_detection.md) | COMPLETE | Forced nulls + haloscope edges paid (T9 census) |
 | [`PRTOE_indirect_detection.md`](../PRTOE_indirect_detection.md) | COMPLETE | Tree σv = 0 / ceiling priced (T15); GC excess → pulsar WATCH only |
-| [`PRTOE_laboratory_cousins.md`](../PRTOE_laboratory_cousins.md) | COMPLETE | Three proposals + mapping table; dataset Q answered 2026-07-28 (T7) |
+| [`PRTOE_laboratory_cousins.md`](../exploratory/PRTOE_laboratory_cousins.md) | COMPLETE | Three proposals + mapping table; dataset Q answered 2026-07-28 (T7) |
 | [`PRTOE_gravitational_waves.md`](../PRTOE_gravitational_waves.md) | COMPLETE | Vortex Gμ null + chiral amplitude structural null computed (T10) |
-| [`PRTOE_galactic_atoms.md`](../PRTOE_galactic_atoms.md) | OPEN-MACHINE | Soliton numbers + P-054 boundary; α_c → r_1s and GC budget are live tests (T1) |
-| [`PRTOE_smbh_atoms.md`](../PRTOE_smbh_atoms.md) | OPEN-MACHINE | Window + quench + data half paid; α_g chain-gated; NewAthena WATCH (T2) |
+| [`PRTOE_galactic_atoms.md`](../PRTOE_galactic_atoms.md) | OPEN-MACHINE | Freeze 2026-08-04: P-054 boundary priced; α_c→r_1s **OPEN-BLOCKED** (zon_disp not running R−1=17.81); residual freeze banner |
+| [`PRTOE_smbh_atoms.md`](../PRTOE_smbh_atoms.md) | OPEN-MACHINE | Freeze 2026-08-04: desk paid; α_g chain-gated on zon_disp (not running); NewAthena WATCH (T2); residual freeze banner |
 | [`PRTOE_lowell_anomalies.md`](../PRTOE_lowell_anomalies.md) | WATCH-EXTERNAL | Cavity spectrum graded; power-spectrum ungradeable; BipoSH data application calendar (T5) |
 | [`PRTOE_cmb_anomalies.md`](../PRTOE_cmb_anomalies.md) | WATCH-EXTERNAL | One-axis family claim; joint BipoSH referee external |
 | [`PRTOE_CMB_map.md`](../PRTOE_CMB_map.md) | COMPLETE | Six spectra mechanism→verdict scorecard; no open desk residue |
 | [`PRTOE_lss_parity.md`](../PRTOE_lss_parity.md) | WATCH-EXTERNAL | Amplitude ~7 orders short; DESI 4PCF + conditional axis-correlation (T16) |
 | [`PRTOE_igmf_helicity.md`](../PRTOE_igmf_helicity.md) | OPEN-THEORY | Link 5 closed NEG; link 4 branch closed (shape helicity flips w/ n; 2026-07-28 run + 2026-08-02 verdict reconfirm); sign(H_kin) prop. undetermined; (B) sampling defect open; full 3D re-run ~10 h not desk (T14) |
-| [`PRTOE_cosmic_magnetism.md`](../PRTOE_cosmic_magnetism.md) | OPEN-THEORY | P-028 structure; seeding sign rides T14 link 4; void shortfall priced ×20 (1.30 dex); RM ⟨RM·RM⟩ formula missing (§3a 2026-08-02) |
+| [`PRTOE_cosmic_magnetism.md`](../PRTOE_cosmic_magnetism.md) | OPEN-THEORY | P-028 structure; seeding sign rides T14 link 4; void shortfall priced ×20 (1.30 dex); **RM geometric scale paid** (`debt_rm_formula_20260803`, ℓ~25–60); **void floor OPEN**; RM amplitude n_e open |
 | [`PRTOE_koide_relation.md`](../PRTOE_koide_relation.md) | OPEN-THEORY | Protection + fence arithmetic paid; #101/#102 one node residual (exact null + holonomy); desk walks done — theory residual (T6_koide_desk_status 2026-08-02) |
-| [`PRTOE_forced_combination.md`](../PRTOE_forced_combination.md) | COMPLETE-CONDITIONAL | Existence theorem exact in setting; inherits candidate-grade Koide program |
-| [`PRTOE_quartet_clock.md`](../PRTOE_quartet_clock.md) | OPEN-MACHINE | Unit = pair resolved; live readout vs zon_disp (parked / unconverged) |
-| [`PRTOE_hierarchy_problem.md`](../PRTOE_hierarchy_problem.md) | OPEN-THEORY | Exponent derived; anchor band honest; §6f / basement μ5 residual live (gated #146) |
-| [`PRTOE_quantum_gravity.md`](../PRTOE_quantum_gravity.md) | COMPLETE-CONDITIONAL | Induced G closed form; area-law quarter at candidate grade (roster paid) |
-| [`PRTOE_entropy.md`](../PRTOE_entropy.md) | COMPLETE | Four statements consolidated; area-law regulator + roster extension paid |
-| [`PRTOE_no_singularities.md`](../PRTOE_no_singularities.md) | COMPLETE-CONDITIONAL | Structural synthesis complete; bounce dynamics + optional echoes remain in components |
+| [`PRTOE_forced_combination.md`](../exploratory/PRTOE_forced_combination.md) | COMPLETE-CONDITIONAL | Existence theorem exact in setting; inherits candidate-grade Koide program |
+| [`PRTOE_quartet_clock.md`](../PRTOE_quartet_clock.md) | OPEN-MACHINE | Freeze 2026-08-04: pair derived; zon_disp **not running** (R−1=17.81); no instrument verdict; residual freeze banner |
+| [`PRTOE_hierarchy_problem.md`](../exploratory/PRTOE_hierarchy_problem.md) | OPEN-THEORY | Exponent derived; anchor band honest; §6f / basement μ5 residual live (gated #146) |
+| [`PRTOE_quantum_gravity.md`](../PRTOE_quantum_gravity.md) | COMPLETE-CONDITIONAL (shelf Goal A 2026-08-03) | Induced G closed form; area-law quarter at candidate grade (roster paid); Page OPEN |
+| [`PRTOE_entropy.md`](../exploratory/PRTOE_entropy.md) | COMPLETE | Four statements consolidated; area-law regulator + roster extension paid |
+| [`PRTOE_no_singularities.md`](../exploratory/PRTOE_no_singularities.md) | COMPLETE-CONDITIONAL | Structural synthesis complete; bounce dynamics + optional echoes remain in components |
 | [`PRTOE_blackholes_no_singularity.md`](../PRTOE_blackholes_no_singularity.md) | COMPLETE-CONDITIONAL | Core/horizon/entropy land; regulator residue struck 2026-08-02 (paid); echoes optional |
 | [`PRTOE_bigbang_no_singularity.md`](../PRTOE_bigbang_no_singularity.md) | OPEN-THEORY | ρ_bounce^(1/4)=1.06 keV reconfirmed 2026-08-02; classical turn still open (bounce workplan remaining-open list) |
-| [`PRTOE_white_holes.md`](../PRTOE_white_holes.md) | OPEN-THEORY | Local WH forbidden derived; global ID provisional (causal half supported, dynamics toy); bounce turn open with bigbang workplan |
-| [`PRTOE_information_paradox.md`](../PRTOE_information_paradox.md) | COMPLETE-CONDITIONAL | Structural dissolution; coefficient + roster PAID; Page *curve* computation still OPEN (not area-law-blocked; 2026-08-02 lock) |
-| [`PRTOE_arrow_of_time.md`](../PRTOE_arrow_of_time.md) | COMPLETE-CONDITIONAL | First-genesis uniqueness derived; our-cycle gap OPEN and not desk-closeable (§2a 2026-08-02 lock) |
+| [`PRTOE_white_holes.md`](../exploratory/PRTOE_white_holes.md) | OPEN-THEORY | Local WH forbidden derived; global ID provisional (causal half supported, dynamics toy); bounce turn open with bigbang workplan |
+| [`PRTOE_information_paradox.md`](../exploratory/PRTOE_information_paradox.md) | COMPLETE-CONDITIONAL | Structural dissolution; coefficient + roster PAID; Page *curve* computation still OPEN (not area-law-blocked; 2026-08-02 lock) |
+| [`PRTOE_arrow_of_time.md`](../exploratory/PRTOE_arrow_of_time.md) | COMPLETE-CONDITIONAL | First-genesis uniqueness derived; our-cycle gap OPEN and not desk-closeable (§2a 2026-08-02 lock) |
 | [`PRTOE_baryogenesis.md`](../PRTOE_baryogenesis.md) | COMPLETE-CONDITIONAL | AD-direct route + transmission class; ω_J ~ 5.7 keV BACK-TARGET (quartet closes; forward micro inputs missing; §3a 2026-08-02) |
 | [`PRTOE_inflation_replacement.md`](../PRTOE_inflation_replacement.md) | OPEN-THEORY | Per-problem answers mixed grade; bounce + tilt residual not closed |
 | [`PRTOE_cyclic_torus_genesis.md`](../PRTOE_cyclic_torus_genesis.md) | OPEN-THEORY | Self-graded story-grade arc; bounce/cyclic rungs face standing theorems |
-| [`PRTOE_granule_scoping.md`](../PRTOE_granule_scoping.md) | OPEN-MACHINE | Statistical core DONE; SP dynamics + χ-lag sim + data confrontation not started |
+| [`PRTOE_granule_scoping.md`](../PRTOE_granule_scoping.md) | OPEN-MACHINE | Freeze 2026-08-04: S formula DONE; SP campaign + χ-lag dynamics + data confrontation **not started**; residual freeze banner |
+| [`PRTOE_INDEPENDENCE_AUDIT.md`](../PRTOE_INDEPENDENCE_AUDIT.md) | LEDGER/HISTORY | Independence/circularity audit record; living |
+| [`PRTOE_TRIALS_FACTOR.md`](../PRTOE_TRIALS_FACTOR.md) | LEDGER/HISTORY | Trials-factor bookkeeping; process |
+| [`PRTOE_v4_dCDF_derivation.md`](../PRTOE_v4_dCDF_derivation.md) | LEDGER/HISTORY | Shelf pointer only; body in exploratory (archive-adjacent) |
 
 ---
 
-## Counts (primary status)
+| [`PRTOE_induced_gravity.md`](../PRTOE_induced_gravity.md) | COMPLETE-CONDITIONAL | Goal A′ thin shelf (2026-08-03); supertrace slice SHIPPED; Page OPEN; expansion attach only |
+| [`PRTOE_small_scale_structure.md`](../PRTOE_small_scale_structure.md) | COMPLETE-CONDITIONAL | Assembly of galactic-atoms + GC; smoothness floor OPEN/external; nothing new beyond consolidation |
+
+## Counts (re-stamped 2026-08-03 C3)
 
 | status | n |
 |---|---:|
-| COMPLETE | 12 |
-| COMPLETE-ABSTENTION | 1 |
-| COMPLETE-CONDITIONAL | 20 |
-| OPEN-DESK | 0 *(after 2026-08-02 desk pass)* |
+| COMPLETE-CONDITIONAL | 24 |
+| LEDGER/HISTORY | 12 |
+| COMPLETE | 11 |
 | OPEN-MACHINE | 8 |
-| OPEN-THEORY | 10 |
+| OPEN-THEORY | 8 |
 | WATCH-EXTERNAL | 5 |
-| LEDGER/HISTORY | 8 |
-| **Total** | **64** |
+| COMPLETE-ABSTENTION | 1 |
 
-Secondary notes (not double-counted): many COMPLETE-CONDITIONAL rows also carry a WATCH or
-MACHINE referee (lattice, DESI, NewAthena, α_c chain). That is conditionality, not an unfinished
-document.
+**Total 69**
 
----
 
 ## Cross-check vs residual-debt census (2026-08-02 hygiene)
 
@@ -132,7 +133,7 @@ document.
 | T7 lab cousins — discharged | COMPLETE |
 | T9 direct detection — discharged | COMPLETE |
 | T10 GW — discharged | COMPLETE |
-| T11 Hubble — PolyChord ended; EDE fairness paid; Laplace MACHINE | COMPLETE-CONDITIONAL |
+| T11 Hubble — PolyChord ended; EDE fairness paid; live bbnfix **not bookable** (lcdm~0.059 / dyad~0.189; residual freeze 2026-08-04) | COMPLETE-CONDITIONAL |
 | T12 radio lattice — BipoSH built; data external | COMPLETE-CONDITIONAL |
 | T13 fingerprint — D/H reproducibility paid | COMPLETE-CONDITIONAL |
 | T14 IGMF — link 4 OPEN (toroidal sign) | OPEN-THEORY |
@@ -214,3 +215,70 @@ Owner clarified focus is the **live shelf under `docs/`**, not re-prep of arXiv-
 - Not a claim that COMPLETE files have no physics conditionals.
 - Not a substitute for the residual-debt census (T-file debts) or the gated shelf (external gates).
 - Not permission to promote OPEN-THEORY → COMPLETE without a real derivation landing in the file.
+
+---
+
+## Story-grade discipline pass (2026-08-03)
+
+Corpus files received **discipline** elevation (claims ledgers / triage footers) under
+[`STORY_GRADE_ELEVATION_RULE.md`](STORY_GRADE_ELEVATION_RULE.md). This does **not**
+auto-promote physics status tags above (COMPLETE remains job-based; OPEN-* remain).
+Recount + logs: [`_runs/story_grade_triage_20260803/SUMMARY.md`](_runs/story_grade_triage_20260803/SUMMARY.md).
+
+---
+
+## C3 stamp 2026-08-03 (Claude red R1-above-story-corpus)
+
+- `PRTOE_stability.md` → **COMPLETE-CONDITIONAL** (bounce OPEN-BLOCKED in ledger; not bare COMPLETE).
+- Inventory adds: INDEPENDENCE_AUDIT, TRIALS_FACTOR, v4_dCDF_derivation pointer.
+- Document job status ≠ physics ceiling (rule §2 smuggle ban).
+- Story-grade discipline pass does **not** auto-promote COMPLETE tags.
+
+**C3 count fix:** inventory restamped to **67** shelf rows (was 64).
+
+
+---
+
+## Gap fill 2026-08-03 (arXiv-ready pass red AGREE-IF)
+
+Added **`PRTOE_induced_gravity.md`** and **`PRTOE_small_scale_structure.md`** (live shelf; omitted from prior inventory).  
+Recount **69** (= 61 top-level disk + 8 exploratory inventory paths, matching pass table after cure).
+
+---
+
+## OPEN-MACHINE full honesty package (2026-08-04)
+
+Lane: residual freeze only. **No** chain kills, PolyChord, or fabricated posteriors.
+Package: [`_runs/open_machine_full_20260804/`](_runs/open_machine_full_20260804/).
+
+**Authority quote (bbnfix, not bookable):** lcdm R−1 **~0.059** (0.059055) / dyad **~0.189**
+(0.189201); both `converged: false`. Stale 2026-08-02 figures (~0.14 / ~0.19) and any
+“almost” / gate-sharpening language are **superseded**. GetDist GR ~0.07 / ~0.086 diagnostic only.
+
+| file | freeze stamp | bookable / unblock |
+|---|---|---|
+| `PRTOE_CHAIN_TABLES.md` | live banner rewritten 2026-08-04 | **NO** — both bbnfix R−1 below 0.05 **and** `converged:true` via `book_bbnfix_when_ready.py` |
+| `PRTOE_s8_growth.md` | residual freeze banner | conv_desi owner restart + matched lensing |
+| `PRTOE_s8_tension.md` | residual freeze banner | same as growth |
+| `PRTOE_neutrino_home.md` | residual freeze banner | bbnfix self-stop + booking script |
+| `PRTOE_galactic_atoms.md` | residual freeze banner | zon_disp restart → α_c → r_1s |
+| `PRTOE_smbh_atoms.md` | residual freeze banner | zon_disp → m → α_g |
+| `PRTOE_quartet_clock.md` | residual freeze banner | zon_disp → log10 z_on center |
+| `PRTOE_granule_scoping.md` | residual freeze banner | SP sim campaign (not MCMC) |
+
+**Counts unchanged:** OPEN-MACHINE still **8**. No status promotions.
+
+---
+
+## Hubble letter honesty package (2026-08-04)
+
+Lane: residual freeze on COMPLETE-CONDITIONAL H₀ letter only. **No** MCMC kill, PolyChord,
+or peek-as-result. Package:
+[`_runs/hubble_completion_full_20260804/`](_runs/hubble_completion_full_20260804/).
+
+| file | freeze stamp | bookable / unblock |
+|---|---|---|
+| `PRTOE_hubble_tension.md` | residual freeze 2026-08-04 | **NO** until bbnfix gate + `book_bbnfix_when_ready.py`; pre-bbnfix H₀≈69.9 / ΔlnZ≈+2.6 standing only |
+
+Inventory one-liner for hubble restamped (no “almost” / no stale 0.14/0.19). Status tag remains
+**COMPLETE-CONDITIONAL** (document job finished; live-pair evidence OPEN-BLOCKED).

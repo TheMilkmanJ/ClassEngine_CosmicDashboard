@@ -1,5 +1,12 @@
 # The radio lattice — five bands, one ε, locked ratios
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** weights **derived** (4/5 labeling-free); pattern **registered bet**; BipoSH data **OPEN-BLOCKED** / WATCH-EXTERNAL.
+> **Not claimed:** a detection in hand; dark-ages measurement completed; synchrotron weight without labeling.
+> **Authority:** claims ledger this file; [T12_radio_lattice_owed.md](working_logs/T12_radio_lattice_owed.md); arXivReady `radio-lattice`.
+> **Currency:** instrument built; pattern-frame a_ℓm application external.
+
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).
 
 Thread 12. Two registered predictions ride it (P-2026-022, P-2026-027) and one open candidate (P-029). Radio cosmology gains a correlated, ratio-locked multi-band fingerprint.
@@ -41,3 +48,20 @@ Below z = 50 the lattice predicts nulls (today’s constants are the lab’s) �
 ## Sources
 
 [Field1958] (the hyperfine line’s m_e dependence), [RybickiLightman1979] (the dispersion and Faraday coefficients), [Bowman2018] (the cosmic-dawn edge), [Cooke2018] (the deuterium pole). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Five-band ε-weights +2:+1:−1:−1:−2 from atomic/plasma coefficients | **derived** (four of five labeling-free) | §0 table | Synchrotron convention-bearing |
+| 2 | Pattern is registered bet until dark-ages data | **registered** | P-022/027; audience grade | Lunar-farside program |
+| 3 | D/H frequency ratio lock (universality test) | **registered** | P-027 | Does not alone separate α vs m_e |
+| 4 | Below z=50: nulls (today’s constants) | **registered null** | §2 | Quasar drift quiet (consistent) |
+| 5 | Ratio violation kills universality | **registered kill** | §3 executioner | Binds on four labeling-free rows |
+| 6 | BipoSH instrument built; data application external | **OPEN-BLOCKED** | biposh_estimator_pass.py | **WATCH-EXTERNAL:** pattern-frame a_ℓm |
+
+**Non-claims:** not a detection; not dark-ages measurement in hand.
+
+**Triage:** elevate-in-place. Physics ceiling: weights derived; data **OPEN-BLOCKED**.

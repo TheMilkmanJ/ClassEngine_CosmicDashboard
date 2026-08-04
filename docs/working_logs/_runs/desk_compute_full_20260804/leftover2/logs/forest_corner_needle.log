@@ -1,0 +1,43 @@
+==========================================================================
+  #28: the full-step corner against the forest's flatness fence
+==========================================================================
+  eps_0 = 27a/5pi = 1.2543%   forest contrast D = 0.5 -> 2.0
+  gate  S(D) = exp[-(D^2/C_ref^2)^n],  n_steep = 2.43 (forced)
+
+  CONTROL (stated before looking):
+    C_ref -> 0    differential = 0.000e+00 %   (gate off everywhere)
+    C_ref -> inf  differential = 9.567e-14 %   (gate on everywhere)
+    both vanish: PASS
+
+  BOUND, back-derived from the corpus's own statement
+  ("a smooth density-dependence gives absorber differentials 1e4 over bound"):
+    smooth gate (n=1) peak differential = 0.9775%  at C_ref = 1.163
+    => implied forest bound            = 9.775e-05%  = 0.977 x 1e-4 %
+
+  THE STEEP GATE'S FOREST DIFFERENTIAL vs the same bound:
+       C_ref    S(0.5)    S(2.0)   differential       /bound
+        0.20   0.00000   0.00000       0.00000%         0.0x
+        0.50   0.36788   0.00000       0.46144%      4720.7x
+        1.00   0.96615   0.00000       1.21187%     12397.9x
+        1.50   0.99521   0.01746       1.22641%     12546.7x
+        2.00   0.99881   0.36788       0.79140%      8096.3x   <-- the corner
+        3.00   0.99983   0.86990       0.16298%      1667.4x
+        5.00   0.99999   0.98843       0.01450%       148.3x
+       10.00   1.00000   0.99960       0.00050%         5.1x
+       30.00   1.00000   1.00000       0.00000%         0.0x
+
+  VERDICT AT THE CORNER (C_ref = 2):
+    predicted forest differential = 0.79140%
+    exceeds the back-derived bound by 8,096x
+
+  WHERE THE FOREST WOULD ACTUALLY BE FLAT (differential <= bound):
+    screened wing:   C_ref <= 0.3144   (whole forest screened, eps off)
+    unscreened wing: C_ref >= 14.0610   (whole forest unscreened, uniform offset)
+    the corner C_ref = 2.0 sits BETWEEN these wings -> forest is NOT flat there
+
+  Reading: the corner does not thread the needle on these numbers.  It is not
+  killed here either -- the forest contrast used is an assumption, and the SN
+  host large-scale density range is NOT stated anywhere in the corpus, so the
+  needle's other side cannot be checked.  THAT is the desk debt #28 is carrying:
+  the fence is invoked ('the SN host-density range') without its number.
+==========================================================================

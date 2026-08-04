@@ -1054,3 +1054,18 @@ corpse inside a passing one) ·
 10 others (§31 partial · §35 source-verified · §37 ruler · §50 derived · §52 live
 exposure · §§64, 65, 67 lab-verified · §69 conditional · §70 arithmetic). The census is
 not a trophy wall: a third of it can still move, and one row already is.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| PD1 | Document is a domain census / showcase of program touchpoints | **interpretation** (map assembly) | whole file; intro provenance list | exploratory-ok map assembly only — not a derivation surface |
+| PD2 | Domain-row numbers (H₀, S₈, χ², masses, bands) ride parent receipts | **complete-conditional** (assembly) | cited archive/v5, room1, atlas, predictions, failures | Status can stale vs live chains — check parent docs |
+| PD3 | Gravity-only coupling / census as theorem-grade counting | **interpretation** (cross-link) | Part I §11 / atlas | Parent kill conditions apply |
+| PD4 | Closed routes recorded with same care as live ones | **interpretation** (method seating) | Failures Ledger cross-link | Process honesty; not a kill of this file |
+
+**Non-claims:** not independent predictions; not machine recompute of MCMC; not proof that every domain row is current.  
+**Triage:** exploratory-ok map assembly only; stay exploratory; not Failures.  
+**Banner:** discipline above story; physics ceiling interpretation + parent-graded numbers.

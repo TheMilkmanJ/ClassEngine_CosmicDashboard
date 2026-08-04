@@ -1,0 +1,28 @@
+========================================================================
+CRITICALITY CROSSOVER: chiral scalar-induced GW vs the direct Pi~1e-7
+========================================================================
+
+  amplitude scan (chi = scalar amplification, chi~500 was the neutrino/DE number):
+      chi      P_zeta   Omega_ind h2   x direct(1e-7)?
+  ----------------------------------------------------
+        1    2.10e-09       4.41e-19            no
+       30    1.89e-06       3.57e-13            no
+      100    2.10e-05       4.41e-11            no
+      500    5.25e-04       2.76e-08            no
+     3000    1.89e-02       3.57e-05           YES
+    10000    1.00e-01       1.00e-03           YES
+  (P_zeta capped at 0.1 by perturbativity; chi^2 saturates fast)
+
+  FREQUENCY -- where does the model's critical point (DE floor) land?
+  z_crit ~ 0.5 (DE floor)  ->  f_today ~ 3.22e-19 Hz
+        detector   band f (Hz)  sens Omega h2   reachable?
+  ----------------------------------------------------------
+      CMB B-mode         1e-17          1e-16   off by 3e+01x in freq
+    PTA/NANOGrav         1e-08          1e-09   off by 3e+10x in freq
+            LISA         1e-03          1e-13   off by 3e+15x in freq
+            LIGO         1e+02          1e-09   off by 3e+20x in freq
+
+  For induced GW to reach the PTA band (f~1e-8 Hz), solve f(z_crit)=1e-8:
+     need z_crit ~ 1.0e+13   (deep in the radiation era)
+     model's critical point is z~0.5 (the DE floor) -> off by ~2e+13x in redshift.
+========================================================================

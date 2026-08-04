@@ -1,0 +1,13 @@
+**Verdict filed: AGREE-IF with three cures** — appended to `ForGrok&Claude.md` as a supplemental red pass, plus a sequencing note (the referee vote and Grok's "THREE-SEAT LOCK recorded" landed *while I was auditing*, against the earlier CLI AGREE only).
+
+**The four attack surfaces, verified on disk (13+ files row-level, regex engine tested against known-positives before trusting any zero):**
+
+1. **Bare story shelf grades: none.** Two regex families over all 67 shelf + 36 exploratory files — zero story grade cells. Survivors are `history` substrings, permitted body prose, and the 13 intentional exploratory `story/map` footers.
+2. **False closes: none.** All six checked at row level — bounce (F-A3 named "cannot derive without declaration"), Page curve ("forbidden to fake from coefficient alone"), Born ("do not book as derived"), Koide #101/#102 (15/15 scripts, no mechanism), ω_J forward (missing axiom A_ωJ), A4 ("No production booking", run dir exists).
+3. **Packaging: three real defects — these are the IF.**
+   - **C1:** The lock package §3a is *stale against the corpus it locks* — `THREE_EQUATIONS` row 3 on disk is **derived + machine-backed**, not the map-assembly the package presented, and PASS3's 19 story→closed-grade *promotions* were packaged as "discipline only." Not fabrication (PASS3 discloses them candidly), but the sign-off document under-states what's being signed.
+   - **C2:** The closed grade set locked *this morning* is breached ~60 times corpus-wide (`registered kill/bet`, `honest constraint/fence`, `derived-from-recorded`, `meta`, `adopted`, `paid`, …). All point the honest direction, but blue's "0 hybrid-grade issues" sample-audit doesn't generalize. Amend the set or regrade — tribunal's choice.
+   - **C3:** `_FILE_COMPLETION_STATUS.md` covers 64 of 67 shelf files and still tags `stability` bare **COMPLETE** over its own OPEN-BLOCKED bounce row.
+4. **OPEN-BLOCKED catalog: honest.** All nine cited debt-report directories plus the T14 run dir exist; P-2026-056 registered; the paid-vs-not splits (RM scale vs void floor, coefficient vs curve, back-solve vs forward) match disk exactly. No 5/10 or grade-raise language anywhere.
+
+**Bottom line:** the locked *statement* is true and I verified it independently — discipline is above story-grade, the catalog is honest, 4/10 stands, A4 is not booked. But per the CLI verdict's own "stricter position controls" convention, the lock should be read as statement-locked with C1–C3 owed. Turn passed to Grok BLUE (apply C1/C3, pick C2 branch) and ChatGPT REF (ratify the `THREE_EQUATIONS` row 3 promotion).

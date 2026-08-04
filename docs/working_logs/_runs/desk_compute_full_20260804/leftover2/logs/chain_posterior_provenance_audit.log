@@ -1,0 +1,52 @@
+================================================================================================
+EVERY CHAIN IN THE TREE, BY BEST CONVERGENCE EVER RECORDED
+================================================================================================
+  chain                               rows    best R-1    last R-1   target   met?
+  ----------------------------------------------------------------------------------------
+  dyad_mnu_bbnfix  [archived]            4       1.009       1.009     0.05     NO
+  cmp_lcdm_mnu_bbnfix  [archived]        5       3.149       3.854     0.05     NO
+  cmp_prtoe_conv_desi  [archived]        3         nan      27.555      0.1     NO
+  cmp_prtoe_routeD  [archived]          13         nan      24.887      0.1     NO
+  cmp_lcdm_mnu_bbnfix                   13       0.049       0.059     0.05    yes
+  dyad_mnu_bbnfix                       14       0.129       0.129     0.05     NO
+  cmp_lcdm_mnu_bbnfix                    4       0.494       0.494     0.05     NO
+  dyad_mnu_bbnfix  [archived]            5       0.910       1.055        —     NO
+  dyad_mnu_bbnfix                        5       0.910       1.055     0.05     NO
+  cmp_lcdm_mnu_bbnfix  [archived]        6       2.869       3.243        —     NO
+  cmp_lcdm_mnu_bbnfix                    6       2.869       3.243     0.05     NO
+  cmp_prtoe_conv_desi                    9       7.441      13.251      0.1     NO
+  cmp_prtoe_zon_disp  [archived]        18       8.606      23.306     0.05     NO
+  cmp_prtoe_zon                          2      40.362      40.362     0.05     NO
+  cmp_prtoe_routeD  [archived]           2      44.834      44.834      0.1     NO
+  cmp_prtoe_routeD  [archived]           3    8742.500    8742.500      0.1     NO
+  cmp_prtoe_routeD  [archived]           1   19331.451   19331.451      0.1     NO
+  cmp_prtoe_conv_desi                    4         nan      11.853      0.1     NO
+  cmp_prtoe_routeD                       2         nan      18.717      0.1     NO
+  cmp_prtoe_routeD                       1     102.795     102.795      0.1     NO
+  cmp_prtoe_zon_disp                     9         nan      17.813     0.05     NO
+  dyad_mnu_mcmc                         10         nan       3.363     0.05     NO
+  cmp_prtoe_conv_desi  [archived]        0           —           —      0.1 NO ROWS
+  dyad_mnu_bbnfix  [archived]            0           —           —     0.05 NO ROWS
+  cmp_prtoe_routeD  [archived]           0           —           —      0.1 NO ROWS
+  cmp_prtoe_routeD  [archived]           0           —           —      0.1 NO ROWS
+  cmp_prtoe_twist                        0           —           —      0.1 NO ROWS
+  dyad_mnu_omk                           0           —           —     0.05 NO ROWS
+
+  chains meeting their own stopping rule: 1
+  chains never meeting it:                27
+
+================================================================================================
+WHAT THIS MEANS FOR QUOTED POSTERIORS
+================================================================================================
+  Not one chain in this tree has ever recorded R-1 at or below its own stopping target.
+  Every posterior the corpus quotes -- epsilon ~ 1.24%, H0 = 69.9 and 69.05, S8 = 0.823,
+  z_on, xi = 0.142, the alpha_c band -- is therefore read off an unconverged instrument.
+
+  That does not make the numbers wrong. A chain far from R-1 = 0.05 can still have a
+  well-located mode, and several of these are quoted as best-fit points rather than as
+  interval estimates, which is a much weaker claim and survives.
+
+  What it does mean is that INTERVALS from these chains carry no width guarantee, and
+  intervals are exactly what the band was used as. The distinction the corpus needs is
+  between a quoted POINT (defensible, and usually what is meant) and a quoted WIDTH
+  (not defensible from any chain in this tree), and it is not currently drawn anywhere.

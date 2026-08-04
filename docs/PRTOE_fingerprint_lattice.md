@@ -66,3 +66,22 @@ The lattice is winning on breadth, not yet on any single decisive row. One lever
 | recombination | 1.232% (fit) / 1.254% (derived) | production chain / the derived stack |
 | BBN window | ε_rec × **[0, 0.61, 0.78]** — the model's own ramped stamps: **0** at n/p freeze-out (above T_c), **0.61ε** at the D bottleneck, **0.78ε** at Li (1 − T/T_c at the coded T_c = 179 keV; the kernel-sourced **T_c = 177.10 keV** reads them 0.60/0.77, a 0.002σ cost — [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) | the ramped splice. **Canonical T_c = 177.10 keV derived** (Koide τ = ½ln2); 179 pipeline; 193 cross-check only |
 | above z_high | 0 (disordered) | the window's high edge |
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | One ε across messengers at fixed window weights (grammar) | **complete-conditional** (grammar) | §0–1; ε stack | Weakest parent of c/f̄/α_c |
+| 2 | ε = 27α/5π stack: f̄ derived; c assumption; α_c bet | **complete-conditional** | factor table | zon_disp not running |
+| 3 | H₀ / ΔlnZ provisional (Laplace) | **machine-backed** provisional | THE_AMPLITUDE; hubble | Nested sampling deferred |
+| 4 | BBN D/H and Y_p owned-adverse | **machine-backed** | bbn_witness; deuterium_row | Nuclear + ζ residuals |
+| 5 | Quark-bleed excluded (loop floor short) | **derived** (exclusion) | §0 quark-bleed row | Retired; not a healer |
+| 6 | Radio chord / axis family / comb pending | **OPEN-BLOCKED** | §2 masters | Dark-ages data; BipoSH Tier 2 |
+| 7 | Underground nulls unhedgeable | **registered null** | direct_detection | — |
+| 8 | ε(epoch) table is canonical citation | **machine-backed** / policy | ε(epoch) table | T_c 177.10 vs 179 pipeline |
+
+**Non-claims:** not a win on any single decisive row; lattice is breadth, not a closed joint fit.
+
+**Triage:** elevate-in-place. Physics ceiling: grammar + mixed window grades; several **OPEN-BLOCKED**.

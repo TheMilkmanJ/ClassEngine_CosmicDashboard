@@ -1,0 +1,32 @@
+==================================================================
+#22 DE floor: ghost-condensate (delta K)^2 critical point
+==================================================================
+
+  P(X)=0.5*lam*(X-X0)^2 - V0 ;  X0=1.0, lam=1.0, V0(=Lambda)=0.7
+
+       X         w     c_s^2      rho  note
+  --------------------------------------------
+    0.50    -7.667    -1.000    0.075  
+    0.80    -1.889    -0.143    0.360  
+    0.95    -1.157    -0.027    0.604  
+    1.00    -1.000     0.000    0.700  <- FLOOR (P_X=0)
+    1.05    -0.869     0.023    0.804  
+    1.20    -0.586     0.077    1.160  
+    1.50    -0.277     0.143    2.075  
+
+  AT FLOOR X0=1.0: w=-1.0000  c_s^2=0.0000  rho=0.700(=V0) -> exact de Sitter (w=-1).
+
+  STABILITY at the c_s^2=0 point (what the toy got WRONG):
+    no higher-deriv term:  omega^2 = c_s^2 k^2 = 0  -> flat direction -> RUNAWAY (= the toy).
+    with (delta K)^2 -> +alpha/M^2 k^4:  omega^2 = (alpha/M^2) k^4 > 0 for alpha>0 -> STABLE.
+    ghost-condensate window (Arkani-Hamed+ 2004): P_XX>0 AND alpha>0. here P_XX=1.0>0 -> STABLE.
+
+------------------------------------------------------------------
+VERDICT (honest, both halves):
+  (1) STABILITY: PASS. The (delta K)^2 ghost-condensate gives a STABLE dynamical w=-1 floor;
+      the toy ran away ONLY because it dropped the k^4 term. With it, the floor holds.
+  (2) SELF-TUNING: FAIL. V0(=Lambda) is a FREE, TUNED parameter -- the mechanism does NOT
+      explain WHY Lambda is small (Weinberg's no-go stands).
+  => red-team fight-or-concede resolves to: KEEP the stable-w=-1 mechanism (a real dynamical
+     floor, better than a bare constant), CONCEDE the self-tuning / 'solves the CC problem' claim.
+==================================================================

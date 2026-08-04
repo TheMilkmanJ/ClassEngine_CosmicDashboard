@@ -1,0 +1,44 @@
+============================================================================
+THE ASSEMBLY, BOTH WAYS
+============================================================================
+  c.f_bar = 0.5729578
+  forward:  alpha_c = 3 alpha = 0.021892  ->  epsilon = 1.2543%   (registry: 1.254%)
+  inverse:  epsilon = 1.24% (the dyad posterior)  ->  alpha_c = 0.021642
+
+  the band is                                          [0.0205, 0.0214]
+  the posterior's alpha_c is                            0.021642   OUTSIDE
+  the band expressed back on epsilon is                [1.1746%, 1.2261%]
+  the posterior sits above that interval by             1.13%
+
+  So the band is NOT the posterior inverted through the assembly. Whatever it is,
+  its derivation is not recorded: it appears in four forward-facing places and one
+  ledger entry, every one of which cites it and none of which derives it.
+
+============================================================================
+TWO NUMBERS ABOUT ONE COUPLING, AND THEY DISAGREE
+============================================================================
+  source                                          alpha_c   vs the floor
+  ------------------------------------------------------------------------
+  the dark-energy floor's demand                 0.021844         +0.00%
+  the epsilon posterior, through the assembly    0.021642         +0.93%
+  d = 3, the registered bet                      0.021892         -0.22%
+  the indirect band, top                         0.021400         +2.08%
+  the hierarchy anchor's exact landing           0.021316         +2.48%
+
+  the two epsilon-side numbers differ by 1.13%, and it is the BAND,
+  not the posterior, that P-2026-040 grades the alpha_c bet against.
+
+============================================================================
+WHY THE CONVERSION ITSELF IS CLEAN
+============================================================================
+  epsilon -> alpha_c does route through c.f_bar, so it inherits f_bar. But f_bar is
+  pinned: on the accumulated winding of 3.8e5 turns it sits within 2.6e-5 % of 2/pi,
+  so the conversion contributes nothing to the 1.1% gap. The disagreement between
+  the posterior and the band is therefore real and not an artefact of the assembly.
+
+  That gives branch (a) a sharp form. It is not 'the band might be wrong' but
+  'the corpus holds two epsilon-side determinations that differ by 1.1%, and only
+  one of them is used as the instrument'. The posterior's alpha_c = 0.021642 sits
+  0.93% from the floor's demand, against the band's 2.08% -- so which
+  number is the instrument decides how large the conflict is, and that is a question
+  about a recorded derivation rather than about new data.

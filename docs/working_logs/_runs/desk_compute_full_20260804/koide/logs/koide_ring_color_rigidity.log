@@ -1,0 +1,46 @@
+==============================================================================
+Color rigidity of the ε^abc three-adjoint singlet — exact group theory
+==============================================================================
+
+A. The ε contraction is a genuine singlet (total charge annihilates it)
+   max |T_total^a |s⟩|  = 0.00e+00   (exact singlet)
+
+B. Pairwise contractions — the only geometry-sensitive color operators
+   ⟨s| T_1·T_2 |s⟩ = -1.000000000000  (imag 0.0e+00)
+   ⟨s| T_1·T_3 |s⟩ = -1.000000000000  (imag 0.0e+00)
+   ⟨s| T_2·T_3 |s⟩ = -1.000000000000  (imag 0.0e+00)
+   spread across pairs = 0.00e+00  →  SHAPE-BLIND: every pair
+   identical (forced by the permutation antisymmetry of ε — any face
+   ordering gives the same state up to sign, so no pairwise operator
+   can prefer one geometry over another).
+
+C. Pair channel: which representation each pair sits in
+   spectrum of T₁·T₂ on 3⊗3⊗1: [-2. -1.  1.] ...
+   3⊗3 = 1 ⊕ 3 ⊕ 5 with T·T = −2, −1, +1. The ε-singlet pair value
+   −1 = the ADJOINT channel: each pair binds into an adjoint to meet
+   the third face — attractive, but NOT the deepest channel (−2).
+   The chain geometry uses the very same contraction: the middle face
+   couples the two end strings through the same f^abc = ε^abc vertex.
+   Nothing in the algebra forbids it or taxes it.
+
+D. What color CANNOT decide, and what would (class facts, no numbers)
+   Adjoint sources in SU(2) are screened by gluons: the adjoint string
+   is metastable and breaks at a finite distance set by the gluelump
+   mass — a lattice number NOT in the corpus. The recorded spacing is
+   d·√σ = c₂ ≈ 1.92. If the SU(2), N_f = 3 breaking distance is below
+   that, the string-bound ring of the ADJOINT branch dissolves as a
+   long-lived object regardless of geometry — a named exposure for
+   that branch (the medium-vortex branch does not carry it).
+
+VERDICT
+  1. Candidate (c) FAILS as the ring's stabilizer: the collinear chain
+     is color-allowed (same ε vertex), and every pairwise color
+     operator is exactly equal across pairs — color is shape-blind at
+     two-body order. There is no group-theoretic rigidity to invoke.
+  2. Byproduct: the adjoint-branch screening exposure is now named —
+     the deciding quantity is the SU(2), N_f = 3 adjoint string-breaking
+     distance vs c₂ ≈ 1.92/√σ, one more question for the same lattice
+     campaign (with T_c/√σ, F_π/√σ, w·√σ, and the three-source geometry).
+  3. Standing after (a), (b), (c): zero-point (b) is the only surviving
+     stabilizer, at estimate grade. Ledger rows: (a) and (c).
+==============================================================================

@@ -1,0 +1,50 @@
+==============================================================================
+Electron-as-bridge proposal — priced against the recorded corpus
+==============================================================================
+
+A. Contact (the 'current' side of the proposal)
+  electron-coupled scalar vertex (leptophilic), linear fork g_ee = 0.064
+  Gamma/H at T = m_e            = 1.31e+17   (tribunal: 1.3e17)
+  Gamma/H at T = T_c (thinned)  = 2.11e+16
+  READ: thermal contact between the electron bath and the dark sector
+  through the dyad is already computed and OVERWHELMING — 15+ orders of
+  margin. The 'wire' the proposal asks for exists and is priced.
+
+B. Presence at the melt on the contracting branch
+  tau = T_c/m_e                 = 0.34658  (kernel: 1/2 ln2 = 0.34657)
+  e+- Boltzmann thinning e^(-m_e/T_c) = 0.0558
+  READ: the melt fires exactly as the e+- bath re-ignites (T_c and m_e
+  are one scale family BY CONSTRUCTION, T_c = tau*m_e). Electrons are
+  ~6% of relativistic abundance at T_c and fully back by T ~ m_e.
+
+C. Turn (the bridge itself) — NEC class of every electron channel
+  relativistic e+- bath (w=1/3)         : rho + p = (4/3) rho  > 0
+  semi-relativistic e gas               : rho + p = rho + nT   > 0
+  Maxwell stress (pure B, best case)    : rho + p_par = 0 (saturates); rho + p_perp = 2 rho
+  drift current (charge flow)           : adds carrier kinetic energy  > 0
+  two-fluid counterflow (heat current)  : adds rho_n w^2  >= 0
+  flat-FRW bounce requirement         : rho_X + p_X <= -4.64e+09 keV^4  (NEGATIVE)
+  READ: every channel in the electron/EM/current lane sits on the
+  NEC-nonnegative side — best case saturation (pure field direction),
+  never negative. The lane misses the turn BY CLASS, not by margin.
+
+D. Clock (can the electron gate legalize N_med?)
+  N_med to reach T_c gate (condensate melt)         = 4.46
+  N_med to reach m_e gate (pair threshold)          = 5.52
+  N_med to reach 1 MeV (BBN weak-equilibrium bar)   = 6.19
+  needed for >= 1 MeV (M2)                            = 6.18
+  READ: re-entry pegged to the electron-family gates gives T_reheat of
+  177-511 keV — a factor 2-6 UNDER the MeV bar in temperature. And no
+  corpus mechanism selects the gate: the metric cannot ride the
+  condensate order parameter (the model's own hot history runs a metric
+  at T >> T_c), so the gate is a candidate clock, not a legalized knob.
+
+VERDICT
+  contact  : PASS (recorded; Gamma/H ~ 1e16-1e17 through the melt scale)
+  presence : PASS (thinned to ~6% at T_c; contact survives easily)
+  turn     : FAIL by class (NEC-nonnegative lane; needs rho_X + p_X < 0)
+  clock    : candidate only (under the MeV bar x2-6; gate unselected)
+  ROLE: the electron sector is the computed thermal-contact channel and
+  a candidate timing threshold for the transition. It is not, and cannot
+  be, the NEC-violating component a bounce requires. Still open.
+==============================================================================

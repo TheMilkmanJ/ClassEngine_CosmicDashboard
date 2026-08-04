@@ -1,0 +1,9 @@
+========================================================================
+bbnfix Δ(min −logpost) proxy — NOT full Laplace
+========================================================================
+  dyad_mnu_bbnfix: R−1=0.128943  converged=False  (NOT READY)
+  cmp_lcdm_mnu_bbnfix: R−1=0.059055  converged=False  (NOT READY)
+
+  REFUSED — need both R−1 < 0.05 AND converged:true on both chains.
+  This proxy is not bookable as Laplace ΔlnZ. No PolyChord.
+========================================================================

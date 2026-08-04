@@ -1,5 +1,12 @@
 # Gravitational Waves — the Medium's Ripples, Signed and Silent (2026-07-11)
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** **machine-backed** vortex PTA-null + chiral-carrier structural null; chirality **registered**; echoes **OPEN**.
+> **Not claimed:** PTA cosmic-string signal; observable vortex-network chirality; ANN-2026-010 rescue.
+> **Authority:** claims ledger this file; [T10_gw_owed.md](working_logs/T10_gw_owed.md); [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
+> **Currency:** amplitude paid as formal null (Ω_GW h² ≈ 3×10⁻¹⁸); no detection channel.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
@@ -105,3 +112,20 @@ This is the same structure that protects the model elsewhere: the vortex null th
 network safely under every gravitational-wave constraint also denies it a gravitational-wave
 signature. Recorded as a formal prediction with no detection channel, rather than as a
 forecast.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Vortex network PTA-silent: Gμ ~ 3×10⁻²¹ | **machine-backed** / **registered null** | §1 | Cosmic-string Gμ ≳ 10⁻¹¹ kills |
+| 2 | Chiral primordial GW from θ·R·R̃; sign = winding n | **registered** (structural) | §2; L1a | Amplitude is structural null (§chirality) |
+| 3 | Chiral background Ω_GW h² ≈ 3×10⁻¹⁸ — unobservable carrier | **machine-backed** (structural null) | §chiral amplitude | No detection channel |
+| 4 | Resolved binaries arrive with clean polarization; chirality only in primordial stochastic | **registered** kill/split | §5 lightswitch | Confirmed chirality in resolved binary kills |
+| 5 | BH echoes / interior prong | **OPEN** (optional) | §3 | Amplitude un-computed |
+| 6 | Photon birefringence zero (forces parity into gravity) | **registered null** | Failures “Birefringence”; EM-neutral | — |
+
+**Non-claims:** not a PTA string signal; not observable GW chirality from vortex network; ANN-2026-010 retired.
+
+**Triage:** elevate-in-place. Physics ceiling: forced silence + registered split prediction.

@@ -1,0 +1,10 @@
+==============================================================================
+Spherical rebound v3 — split-step sine-transform (energy-clean scheme)
+==============================================================================
+
+   grid N = 8000, L = 200.0, φ_tol = 0.05; gates: energy ≤2%, pair ≤15%
+
+   A    v₀   n_init → n_peak (focus ×)   t_peak   E-drift    steps
+
+
+[TIMEOUT after 300s]

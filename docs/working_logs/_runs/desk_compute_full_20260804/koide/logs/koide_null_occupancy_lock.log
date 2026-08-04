@@ -1,0 +1,25 @@
+==============================================================================
+The occupancy lock: N₀ = 1 in the charged unit ⟹ the null, exactly
+==============================================================================
+
+   M·ω₁ scan (the lock is scale-free — the point of a quantization law):
+   M·ω₁      |f₁|²+|f₂|²    f₀² (N₀=1)     Q          τ
+      0.5       2.00000       2.00000   0.66666667  0.34657359
+      1.0       1.00000       1.00000   0.66666667  0.34657359
+      3.7       0.27027       0.27027   0.66666667  0.34657359
+    120.0       0.00833       0.00833   0.66666667  0.34657359
+
+   null: f₀² = |f₁|²+|f₂|² at EVERY scale;  Q = 0.6666666667 = 2/3 exact
+   τ = −ln ρ = 0.34657359 = ½ln2 = 0.34657359
+   classical shadow: implied ε₁/ε₀ = 2.0  (the a = 3b relation)
+
+   Exactness class: N₀ is an INTEGER — a quantized lock cannot scatter.
+   The full null = conservation (neutral half, computed) + quantization
+   (charged half, this candidate).
+
+VERDICT: candidate closure — the first exactness-compatible source the
+   null has had. The occupancy application to the ring cell is the ONE
+   flagged invented step; its named survival tests and the standing
+   external judges (lattice fork, deviation lock, m_τ) are in the
+   docstring. Registered, not promoted.
+==============================================================================

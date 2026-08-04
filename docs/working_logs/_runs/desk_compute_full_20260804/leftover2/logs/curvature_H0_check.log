@@ -1,0 +1,22 @@
+============================================================
+Does closing the universe raise or lower H0?
+============================================================
+
+  baseline (flat): H0 = 69.9, Om = 0.3, omega_m = 0.1466
+  held fixed: CMB D_M(z*) = 13700.9 Mpc  and  omega_m
+
+    Omega_k geometry    -> H0  vs SHOES(73)
+  ------------------------------------------
+      0.020     open    84.61      11.6 away
+      0.000     flat    69.90       3.1 away
+     -0.005   closed    67.46       5.5 away
+     -0.010   closed    65.29       7.7 away
+     -0.020   closed    61.61      11.4 away
+     -0.030   closed    58.56      14.4 away
+     -0.040   closed    55.97      17.0 away
+     -0.050   closed    53.74      19.3 away
+
+  ------------------------------------------
+  sanity: Ok=-0.044 -> H0=55.0  (Planck-alone lands ~54: MATCH)
+============================================================
+READ: sign of dH0/dOmega_k tells whose bet the geometry favors.

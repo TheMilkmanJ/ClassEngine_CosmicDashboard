@@ -1,0 +1,11 @@
+usage: test_legacy_st_null_limit.py [-h] [--fast] [--null-only]
+
+LEGACY_ST (use_prtoe) null-limit regression — NOT CURRENT_CORE. Current public
+core: use_dcdf + varying_me; see validate_dcdf.py.
+
+options:
+  -h, --help   show this help message and exit
+  --fast       Reduced-cost gate for CI (background-only; exact null
+               couplings)
+  --null-only  Run only the LEGACY_ST null comparison (skip active-parameters
+               smoke)

@@ -20,3 +20,17 @@ Chemistry off-Earth is chemistry plus the RAMP: below z~4 the sky must be (and i
 — our screen's kept promise; above z~10 every molecule is a thermometer of the transition.
 ASTROBIOLOGY SCOPE NOTE: the model licenses far-from-equilibrium chemistry wherever the account
 runs a gradient (the arrow doc) — it says nothing about life's occurrence, only its permission.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Domain seating of medium language in this subdomain | **interpretation** | this file | exploratory-ok map assembly only; pure seating; no independent killable number |
+| 2 | Any quantitative forecast unique to this subdomain | **OPEN-BLOCKED** | — | No registered prediction or script path yet |
+
+**Non-claims:** not a standalone derivation; not sky booking.
+**Triage:** exploratory-ok map assembly only (not Failures).
+**Banner:** discipline above story; physics ceiling interpretation / OPEN-BLOCKED.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

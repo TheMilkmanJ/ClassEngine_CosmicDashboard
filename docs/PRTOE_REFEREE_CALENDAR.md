@@ -8,19 +8,34 @@ No verdict may be argued after the fact — the rules below were set before the 
 
 ## Sitting now (in-house machines)
 
-> **Live read 2026-08-02** (from `chains/*.progress`, launchlog tails, checkpoints; do not kill).
-> Progress-file `acceptance_rate` is oversampled (`oversample_power = 0.4`) and near ~0.99 even
-> when raw Metropolis accept is healthy — **raw accept = accepted/steps from launchlog**.
+> **Live read 2026-08-04** (from `chains/*.progress`, checkpoints, chain `.txt` mtimes,
+> `python3 scripts/bbnfix_mcmc_watch_diag.py`, `python3 scripts/book_bbnfix_when_ready.py`;
+> do not kill). Progress-file `acceptance_rate` is oversampled (`oversample_power = 0.4`) and
+> near ~0.98–1.0 even when raw Metropolis accept is healthy — **raw accept = accepted/steps from
+> launchlog**. **bbnfix pair bookable: NO** — both legs R−1 ≥ 0.05 and `converged: false`
+> (`book_bbnfix_when_ready.py` → **REFUSED**). Same truth as
+> `PRTOE_CHAIN_TABLES.md` residual freeze and `PRTOE_CODE_MANIFEST.md` §1 live stamp.
+> lcdm **0.086466**@N=20409 (was 0.059@N=19013 — **receding**, **1.73×** stop);
+> dyad **0.128943**@N=20302 (~2.58×). Currency: `machine_r1_currency_20260804c`.
+>
+> | chain | N (progress) | R−1 | stop | converged | bookable |
+> |---|---:|---:|---:|---|---|
+> | `dyad_mnu_bbnfix` | 20302 | **0.128943** | 0.05 | false | **NO** |
+> | `cmp_lcdm_mnu_bbnfix` | 20409 | **0.086466** | 0.05 | false | **NO** |
+> | `cmp_prtoe_routeD` | 1609 | **102.79** | 0.1 | false | **NO** (early) |
+>
+> GetDist offline max GR (diagnostic only): dyad **~0.086**, lcdm **~0.07** — not the gate.
+> **PolyChord: off.**
 
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
-| **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks; do not kill) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | stop `Rminus1_stop = 0.05` | **Machine — live.** Last progress: **R−1 = 0.192 at N = 14544** (2026-08-02T15:41); history 91 → 2.86 → … → 0.19 (wandering, not monotone). Raw accept **~6.4%**; progress accept 0.996 is oversampled. Checkpoint `converged: false`. Closest production object after the twin |
-| **BBN-fixed ΛCDM twin — `cmp_lcdm_mnu_bbnfix`** (live, 3 ranks; do not kill) | matched denominator for the model chain | stop `Rminus1_stop = 0.05` | **Machine — live.** Last progress: **R−1 = 0.141 at N = 13193** (2026-08-02T19:00). Raw accept **~8.6%**; progress accept 0.984 oversampled. Currently the closest chain to any stop target (~2.8×) |
-| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks; do not kill) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live, early.** First progress row: **R−1 = 129.1 at N = 1593** (2026-08-02T19:24). Raw accept **~5.1%** (healthy for high-d Metropolis); progress accept 1.0 is oversampled. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1** |
-| The nested referee — ended 2026-07-20 by owner decision (#99). The evidence verdict returns to Laplace-from-MCMC until cluster time is bought. (was cmp_prtoe_fixed PolyChord) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless — **the thresholds stand as registered and are now graded against the Laplace estimate**, the nested number not being available. The configuration's own caveat is unchanged: it is frozen at z_on = 3.5619×10⁷ against the H = m identity's 4.03×10⁷, so it grades a point beside the stated one | **Not running** — not scheduled on this hardware. Cost: 534 slice steps × 66 s → **9.8 h per nested iteration**; 163 days to first checkpoint; 736 days for the reference run (+ ΛCDM twin doubles it). Archived at `chains/_archive_polychord_ended_20260720_0915/` |
+| **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks; do not kill) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | stop `Rminus1_stop = 0.05` **and** checkpoint `converged: true`; book only via `scripts/book_bbnfix_when_ready.py` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.128943 at N = 20302** (t=2026-08-04T03:25:56); was 0.189201@N=18837 — improved, still ~2.58× stop; checkpoint `converged: false`. History wandered (0.16 → 0.189 → 0.129). Progress accept ~0.996 is oversampled. Offline GetDist max GR ~0.086 (prior diag only) |
+| **BBN-fixed ΛCDM twin — `cmp_lcdm_mnu_bbnfix`** (live, 3 ranks; do not kill) | matched denominator for the model chain | stop `Rminus1_stop = 0.05` **and** `converged: true` (both legs of the pair) | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.086466 at N = 20409** (t=2026-08-04T05:21:52); was 0.059055@N=19013 — **receding**, now **1.73×** stop; checkpoint `converged: false`. Trajectory `0.053867 → 0.048827 → 0.059055 → 0.086466` — **three consecutive moves away from gate after the dip** (**nearest-and-receding**, not “~1.18× closest / nearly there”). Temporary R−1 < 0.05 without self-stop is **not** bookable. Progress accept ~0.984 oversampled. Offline GetDist max GR ~0.07 (diag only) |
+| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks; do not kill) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live, early; NOT bookable.** Last progress: **R−1 = 102.79 at N = 1609** (2026-08-03T20:53); checkpoint `converged: false`. Raw accept **~5.6%** from live launchlog (healthy for high-d Metropolis); progress accept 1.0 is oversampled. ~760–850 rows/rank as of 2026-08-04. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1.** Separate instrument — not part of the bbnfix pair gate |
+| The nested referee — ended 2026-07-20 by owner decision (#99). The evidence verdict returns to Laplace-from-MCMC until cluster time is bought. (was cmp_prtoe_fixed PolyChord) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless — **the thresholds stand as registered and are now graded against the Laplace estimate**, the nested number not being available. The configuration's own caveat is unchanged: it is frozen at z_on = 3.5619×10⁷ against the H = m identity's 4.03×10⁷, so it grades a point beside the stated one | **Not running — PolyChord off (2026-08-04 stamp).** Not scheduled on this hardware. Cost: 534 slice steps × 66 s → **9.8 h per nested iteration**; 163 days to first checkpoint; 736 days for the reference run (+ ΛCDM twin doubles it). Archived at `chains/_archive_polychord_ended_20260720_0915/` |
 | the ΛCDM twin (pc_lcdm) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | after the nested referee (also not scheduled) |
-| **zon_disp — not relaunched** (collapsed R−1 = 23.3 archived at `chains/_archive_zon_disp_collapsed_20260720_1528/`; seed for a correct restart is built as `chains/zon_disp_seed.covmat`) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, five freezes | converged (R−1 < 0.05) center inside 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; above ~7.8 = the named branches must pay | **Parked by decision** — gated shelf §2 / #13. The collapsed config's seed covers 12/13 parameters and knows nothing about `log10_zon`; relaunching on that seed would reproduce the failure. Restart is an owner act when cores free, on the from-samples seed only |
-| **conv_desi — not a live posterior** (collapsed 07-18 run archived; last chain file stamped **2026-07-22** at split-R̂ R−1 = 13.25) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | **Unproduced, not pending** — died twice (init 07-16; again 07-22). Restart is an owner decision. Companion S₈ files (`PRTOE_s8_growth.md`, `PRTOE_s8_tension.md`) carry the same correction. Matched lensing-likelihood fit (#161) remains open separately |
+| **zon_disp — not relaunched** (collapsed R−1 = 23.3 archived at `chains/_archive_zon_disp_collapsed_20260720_1528/`; seed for a correct restart is built as `chains/zon_disp_seed.covmat`) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, five freezes | converged (R−1 < 0.05) center inside 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; above ~7.8 = the named branches must pay | **Parked by decision (2026-08-04)** — last progress R−1 ≈ **17.81** (N=3456, 2026-07-22); not live. Gated shelf §2 / #13. The collapsed config's seed covers 12/13 parameters and knows nothing about `log10_zon`; relaunching on that seed would reproduce the failure. Restart is an owner act when cores free, on the from-samples seed only |
+| **conv_desi — not a live posterior** (collapsed 07-18 run archived; last chain file stamped **2026-07-22** at split-R̂ R−1 = 13.25) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | **Unproduced, not pending (2026-08-04)** — died twice (init 07-16; again 07-22). Restart is an owner decision. Companion S₈ files (`PRTOE_s8_growth.md`, `PRTOE_s8_tension.md`) carry the same correction. Matched lensing-likelihood fit (#161) remains open separately |
 | **dyad_mnu_mcmc — historical control case (archive; not the live bbnfix pair)** | (not a referee; recorded because it constrains how stuck-chain failures were read in July) | — | Archive diagnostic, not a live process. Once the healthiest object on the box at **R−1 = 0.176 at N = 8736** with progress accept **0.92** — showing that a high *progress* acceptance rate is *not* by itself pathology under `oversample_power = 0.4`. Flat-direction hypothesis **tested 2026-07-29** (`scripts/flat_direction_convergence_test.py`) and **unsupported though not refuted** (stuck chains narrow in every direction, not only named suspects). Live production health is now tracked on **`dyad_mnu_bbnfix` / `cmp_lcdm_mnu_bbnfix`** above, not here |
 
 > What zon_disp shows about the covariance fix, found 2026-07-20 while freeing cores. zon_disp
@@ -48,7 +63,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 > flags any parameter the learned covmat never updated and points at `--from-samples`. Validated by
 > reproducing routeD's working seed to 4.7×10⁻¹⁶. **`chains/zon_disp_seed.covmat` is built and
 > ready**; the chain was *not* relaunched then (load ≈ 5.9 on six cores; standing instruction to
-> leave two cores free) and remains **parked by decision** as of 2026-08-02 (Sitting NOW row above).
+> leave two cores free) and remains **parked by decision** as of 2026-08-04 (Sitting NOW row above).
 >
 > **Historical note (2026-07-20 13:10):** what routeD and conv_desi *were* running on that day
 > (verified from the configs and the seed files themselves). Both carried the
@@ -63,9 +78,9 @@ No verdict may be argued after the fact — the rules below were set before the 
 > First measurement that day, and it was the good outcome. Over 3.5 h of burn-in, acceptance was
 > **20.4%** (routeD) and **19.8%** (conv_desi), against the ~97%-and-never-move pathology those
 > relaunches were meant to escape. That is inside the optimal band for high-dimensional
-> Metropolis, measured from the launchlogs' step/accept counters. **Present (2026-08-02):**
-> routeD is live again on its fifth launch (Sitting NOW); conv_desi is **unproduced** after two
-> deaths (last chain file 2026-07-22) — not a live posterior.
+> Metropolis, measured from the launchlogs' step/accept counters. **Present (2026-08-04):**
+> routeD is live again (Sitting NOW: R−1 ≈ **102.79** at N = 1609, early, not bookable);
+> conv_desi is **unproduced** after two deaths (last chain file 2026-07-22) — not a live posterior.
 >
 > The 07-20 burn-in measurement settled the step: the proposal was the right size
 > *and* the right shape, and the sampler was exploring. It did not settle convergence — a
@@ -134,3 +149,13 @@ Continued nulls cost nothing, earn nothing — the model's permanent performance
 
 *Rule of the calendar: when a referee lands, its row gets the verdict stamped same-session
 and the failures ledger or the spine inherits accordingly. No row may be re-argued.*
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

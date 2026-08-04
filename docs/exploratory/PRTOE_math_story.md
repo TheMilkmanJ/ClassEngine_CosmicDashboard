@@ -122,3 +122,11 @@ H₀ = 69.9 (provisional), dark matter + dark energy from one fluid, and the voi
  band); the deuterium row itself, should its budget tighten. A confirmed 5σ isotropic
  birefringence would force a dark-photon portal — the census's priced surrender —
  while the model's own prediction stays exactly zero (P-2026-009, closed).
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

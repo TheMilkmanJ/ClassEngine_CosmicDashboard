@@ -1,0 +1,33 @@
+READY at Mon Aug  3 14:42:53 MDT 2026
+-rw-r--r-- 1 themilkmanj themilkmanj 4812 Aug  3 14:42 docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch/summary.json
+keys ['booking', 'smoke', 'elapsed_s', 'results']
+  [n-1_f-1 t= 0.25] ring helA=+0 W=-1.000 Tw=+0.000 Wr=+0.000 H=-2.000 bins=16/16 phase=16/16 drift_phys=7.616%
+      candidate @ t=0.25 nphase=16 helA=+0
+  [n-1_f-1 t= 0.50] ring helA=+0 W=-1.000 Tw=+0.000 Wr=+0.006 H=-1.994 bins=16/16 phase=12/16 drift_phys=15.636%
+      candidate @ t=0.50 nphase=12 helA=+0
+  [n-1_f-1 t= 0.75] ring helA=-1 W=+nan Tw=+nan Wr=-0.531 H=+nan bins=16/16 phase=10/16 drift_phys=16.940%
+  [n-1_f-1 t= 1.00] ring helA=+1 W=+nan Tw=+nan Wr=+0.042 H=+nan bins=16/16 phase=6/16 drift_phys=8.757%
+  [n-1_f-1 t= 1.25] ring helA=+1 W=+nan Tw=+nan Wr=-0.541 H=+nan bins=16/16 phase=7/16 drift_phys=11.548%
+  [n-1_f-1 t= 1.50] ring helA=-1 W=+nan Tw=+nan Wr=+0.342 H=+nan bins=16/16 phase=5/16 drift_phys=23.505%
+  SELECTED verdict t=0.25 nphase=16 ampA=0.001 drift=7.62% (blind key; Tw/Wr/H not used) from 2 candidates
+  VERDICT n-1_f-1: t=0.25 H=-2.0000 spread=0.0000 margin_ok=True drift_phys=7.616%
+
+======================================================================
+  OUTCOME TABLE (protocol 2026-08-03)
+======================================================================
+  True-mirror checks:
+    (1, 1)<->(-1, -1): H=+1.933,-2.000 sum=-0.067 rel=3.40% OK
+    (1, -1)<->(-1, 1): H=+2.000,-1.993 sum=+0.007 rel=0.36% OK
+  All four verdicts: True
+  All margins pass:  True
+  Per-branch sign(H) vs sign(n):
+    n=-1 f=-1: H=-2.0000  sign(H)/sign(n)=+1
+    n=-1 f=+1: H=-1.9929  sign(H)/sign(n)=+1
+    n=+1 f=-1: H=+2.0000  sign(H)/sign(n)=+1
+    n=+1 f=+1: H=+1.9331  sign(H)/sign(n)=+1
+
+  BOOKING: overall sign BOOKABLE at candidate grade (configuration-local only)
+  Unchanged: branch closure (A flips with n); link 5 NEG; Fermi unreadable.
+======================================================================
+
+  wrote docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch/summary.json  elapsed 9009s

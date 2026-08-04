@@ -1,0 +1,143 @@
+==============================================================================
+(1) THE DEMOCRATIC GRAPH'S STIFFNESS MATRIX
+==============================================================================
+  For N = 3 the matrix is, in units of g:
+     [  3.00   -1.00   -1.00]
+     [ -1.00    3.00   -1.00]
+     [ -1.00   -1.00    3.00]
+
+  i.e. (N+1) I - J, whose eigenvalues are (N+1) - N = 1 on the singlet and (N+1) on
+  every zero-sum mode. In the (a, b) language this is a = b = g exactly -- the on-site
+  term IS the bond to the pinned medium, carrying the same g.
+
+     N   eps_singlet   eps_other     ratio      a/b
+  --------------------------------------------------
+     2       1.00000     3.00000   3.00000   1.0000
+     3       1.00000     4.00000   4.00000   1.0000
+     4       1.00000     5.00000   5.00000   1.0000
+     5       1.00000     6.00000   6.00000   1.0000
+     6       1.00000     7.00000   7.00000   1.0000
+     7       1.00000     8.00000   8.00000   1.0000
+
+  The ratio is N+1 and the a/b is 1 at every N: the structure fixes the RATIO by the
+  face count and fixes a = b unconditionally.
+
+==============================================================================
+(2) THE NULL ON THIS STRUCTURE PICKS OUT A FACE COUNT
+==============================================================================
+  Under the equal-quanta law <x^2> ~ 1/w, and w ~ sqrt(eps), so with N-1 non-singlet
+  modes sharing the doublet-analogue role:
+
+      R^2 / f_0^2 = (N - 1) * w_0/w_other = (N - 1) / sqrt(N + 1)
+
+  and the null R = f_0 requires (N-1)^2 = N+1, i.e. N^2 - 3N = 0, i.e. N = 0 or N = 3.
+
+     N    (N-1)/sqrt(N+1)      R/f_0    null?
+  ----------------------------------------------
+     2       0.5773502692   0.759836         
+     3       1.0000000000   1.000000      YES
+     4       1.3416407865   1.158292         
+     5       1.6329931619   1.277886         
+     6       1.8898223650   1.374708         
+     7       2.1213203436   1.456475         
+     8       2.3333333333   1.527525         
+
+  Verified from the computed spectrum, not from the closed form. N = 3 alone, exactly.
+
+==============================================================================
+(3) AND THE KOIDE RATIO IT PRODUCES
+==============================================================================
+  Q = sum(m)/ (sum sqrt(m))^2 = sum f_k^2 / (sum f_k)^2. By Parseval with f_0 the
+  uniform component and R^2 the rest, sum f_k^2 = f_0^2 + R^2 and sum f_k = sqrt(N) f_0,
+  so
+
+      Q(N) = (1 + R^2/f_0^2) / N = (1 + (N-1)/sqrt(N+1)) / N
+
+     N           Q(N)          2/N    null (Q = 2/N)?
+  ----------------------------------------------------
+     2   0.7886751346   1.00000000                   
+     3   0.6666666667   0.66666667                YES
+     4   0.5854101966   0.50000000                   
+     5   0.5265986324   0.40000000                   
+     6   0.4816370608   0.33333333                   
+     7   0.4459029062   0.28571429                   
+     8   0.4166666667   0.25000000                   
+
+  At N = 3:  Q = 0.666666666666667
+             2/3 = 0.666666666666667
+             difference = 0.000e+00
+
+  Two facts meeting, and they are independent of each other:
+    * the null R = f_0 forces Q = 2/N, by Parseval alone, for any N;
+    * the democratic graph with equal quanta delivers R = f_0 only at N = 3.
+  So on this structure Q = 2/3 is not fitted -- it is the only place the two agree.
+
+==============================================================================
+(4) THE REST OF THE CHAIN, CARRIED THROUGH
+==============================================================================
+    rho^2 = 0.500000000000000   (1/2 = 0.500000000000000)
+    A     = sqrt(6Q - 2) = 1.414213562373095   (sqrt2 = 1.414213562373095)
+    tau   = -ln(A/2)     = 0.346573590279973   (ln2/2 = 0.346573590279973)
+    T_c   = tau * m_e    = 177.098741 keV   (177.099 keV)
+
+  and the frequency condition the cold law needs comes out of the same spectrum:
+    w_other/w_0 = sqrt(eps_other/eps_singlet) = 2.000000000000000   (needs 2)
+
+==============================================================================
+(6) THE CHARGE-COUPLED FILTER, PASSED WITHOUT BEING ASKED TO
+==============================================================================
+  A mechanism for the charged-lepton null has to say why the NEUTRINO triple does not
+  obey it -- Q_nu = 0.458, nowhere near 2/3. This structure answers that without a new
+  assumption, because the face-medium bond is a coupling to the screening background,
+  and screening weights carriers by q^2. A neutral face has NO medium bond.
+
+  Set the medium bond to zero (the neutral case) and keep the face-face bonds:
+    charged faces (medium bond on)     eps_singlet = 1.00000   eps_other = 4.00000
+    neutral faces (medium bond off)    eps_singlet = 0.00000   eps_other = 3.00000
+
+  The neutral case gives eps_singlet = 0.0 EXACTLY -- the uniform mode is unbound,
+  because with no medium to measure against, shifting all three faces together costs
+  nothing. That is a zero mode, not a small stiffness.
+
+  So for neutral faces the ratio eps_other/eps_singlet is not large, it is UNDEFINED,
+  and the mechanism makes no prediction for Q at all -- the uniform amplitude must be
+  set by something outside this Hamiltonian. Which is exactly the observed situation:
+  the null is a charged-sector statement, and Q_nu is free.
+
+  This matters because it was not put in by hand. The same q^2 screening weight that
+  the basement's species selection uses, applied here, switches the mechanism off for
+  neutral faces and on for charged ones. The charge-coupled filter and this structure
+  were built from different materials and agree.
+
+  It also predicts the sign of the effect on any OTHER neutral triple: no null, ever,
+  for a species with no medium bond. That is falsifiable in principle and it is the
+  cheapest way to attack this mechanism.
+
+==============================================================================
+(5) WHAT IS DERIVED, AND WHAT IS ASSUMED
+==============================================================================
+  ASSUMED — four premises, each stated so it can be attacked:
+    (P1) the three faces and the medium are the nodes of one graph;
+    (P2) every pair is coupled with the SAME constant (democratic, no free ratio);
+    (P3) the medium is pinned at the reference amplitude, being the condensate the
+         faces are excitations of;
+    (P4) the modes carry EQUAL QUANTA, not equal energy.
+
+  DERIVED — from those four and nothing else:
+    a = b, hence eps_charged/eps_neutral = 4, hence R_c = M_c, hence Q = 2/3,
+    hence A = sqrt2 and tau = ln2/2 and T_c = 177.099 keV. Exact, with no
+    temperature, no ensemble average, and no tuned ratio anywhere.
+
+  AND — the face count is not an input to the null. Given (P1)-(P4), R = f_0 holds at
+  N = 3 and at no other N. The three faces and the value 2/3 are the same fact.
+
+  THE HONEST WEAKNESS. (P4) is the live one. Equal quanta is what makes the (2n+1)
+  factor cancel and the result exact, and nothing here derives it -- it is the branch
+  the delivery-law fork left open, now carrying the whole chain. (P2) is the second:
+  'democratic' is the corpus's idiom for this ring and is not free. Neither is smuggled
+  in; both are named.
+
+  WHAT IT IS NOT. This is not the occupancy lock. The lock asserted a specific integer
+  occupancy (N_0 = 1) for one mode; this asserts only that the two sectors agree with
+  each other, whatever the number is. That is strictly weaker and does the same work,
+  which is the argument for preferring it.

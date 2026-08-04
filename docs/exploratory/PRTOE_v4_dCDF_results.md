@@ -133,3 +133,11 @@ moot: that section defended β's cs² guarantee and β no longer exists.
  per-command); clik imports only under system python3.12; after any
  rebuild verify BOTH classy .so files (conda cp313 + in-tree cp312) are
  newer than every source .c file.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation
+

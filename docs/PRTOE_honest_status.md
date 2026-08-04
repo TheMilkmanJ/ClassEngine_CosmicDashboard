@@ -13,7 +13,60 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-07-31)
+## CURRENT (2026-08-04)
+
+**Expansion fence.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
+expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
+the Standard Model; the domain is the diffuse cosmic medium. Same fence as
+[PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md) / laws_and_rules / quantum attach notes. No TOE claim.
+
+**bbnfix pair — NOT bookable.** Live production pair + Route-D (do not kill). Authority is cobaya
+progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagnostic only.
+`python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Surfaces
+`PRTOE_CHAIN_TABLES.md` / `PRTOE_CODE_MANIFEST.md` / `PRTOE_REFEREE_CALENDAR.md` all stamp the same
+gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm R−1 **0.086466** (N=20409,
+t=2026-08-04T05:21:52; was 0.059@N=19013 — **receding**, now **1.73×** stop). Dyad
+**0.128943**@N=20302 (~2.58×). Currency: `machine_r1_currency_20260804c`.
+
+| chain | N (progress) | R−1 | stop | converged | bookable |
+|---|---:|---:|---:|---|---|
+| `cmp_lcdm_mnu_bbnfix` | 20409 | **0.086466** | 0.05 | **false** | **NO** |
+| `dyad_mnu_bbnfix` | 20302 | **0.128943** | 0.05 | **false** | **NO** |
+| `cmp_prtoe_routeD` | 1609 | **102.79** | 0.1 | **false** | **NO** (early) |
+
+GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** — both
+still > 0.05; **not** the booking gate. lcdm trajectory
+`0.053867 → 0.048827 → 0.059055 → 0.086466` — **three consecutive moves away from gate after
+the dip** (**nearest-and-receding**, not “nearly there”); temporary R−1 < 0.05 without self-stop
+is **not** bookable.
+
+**BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
+`papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
++2.91σ (cannot bound ε) — honesty unchanged. **EXTERNAL WIN PENDING (no DOI)** — public record still owed; not re-booked.
+
+**Page near-miss freeze.** Q6 / dynamical Page stays **OPEN**. Champion `coevolve_v13`
+(schedule `v23_champion_locked`): T1–T6 PASS; **T8 FAIL** (early bin range/S* = 0.113 > 0.10).
+`page_curve_claimed: false`. `CANDIDATE_TURN_binding: false`. No CANDIDATE packet. D1–D3 exhausted;
+D4 freeze active — next unblock is **new microphysics**, not knob thrash. Package:
+`docs/working_logs/_runs/page_full_freeze_20260804/`.
+
+**Strong CP abstention.** `PRTOE_strong_cp.md` remains a complete **constitutional silence** — the
+model has nothing to say about θ̄; needing a strong-CP mechanism would kill the constitution. Not a
+derivation; not a paper candidate; not promoted.
+
+**PolyChord off.** Nested sampling not running and not scheduled on this hardware (9.8 h/iteration;
+163 days to first checkpoint). Evidence grades from Laplace-from-MCMC (standing ΔlnZ = +2.635 —
+marginal, SH0ES-conditional) until cluster time. Archived nested run:
+`chains/_archive_polychord_ended_20260720_0915/`.
+
+**What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-02**
+live R−1 numbers as if current (lcdm ~0.14 / dyad ~0.19 / routeD ~129) is stale; the 2026-08-04
+stamp above is the live gate. E2E derivation board grades (A1–A6) under the next heading remain
+valid as theory status; this section is the **machine + honesty** stamp.
+
+---
+
+## CURRENT (2026-07-31) — retained (E2E board detail)
 
 **Scope name.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
 expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
@@ -86,9 +139,11 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   days to a first checkpoint) and waits for cluster time, so the confirmer the +2.635 was explicitly
   awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
   input rather than side referees, and their convergence the critical path for the headline claim.
-  As of 2026-08-02: routeD is on its fifth launch (three ranks, burn-in); conv_desi and
-  zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
-  `cmp_prtoe_zon` is untouched since 07-12.*
+  As of 2026-08-04 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
+  (lcdm R−1 **0.086466**@N=20409 — was 0.059, **receding** 1.73× stop / dyad **0.128943**@N=20302
+  / routeD ~103; both bbnfix legs `converged: false`);
+  conv_desi and zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
+  `cmp_prtoe_zon` is untouched since 07-12; **PolyChord off**.*
 
 ### What moved on 2026-07-18
 
@@ -328,3 +383,13 @@ first is now unscheduled**, nested sampling having been priced off this hardware
 cluster time). Final label: "suggestive / SH0ES-dependent / Laplace-marginal / non-original-class
 win, no ontology evidence." Deciders from here: a nested ln Z when it can be afforded
 (marginal→robust or sinks it) and SH0ES-vs-TRGB (physical→holds, systematic→inverts to a loss).
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

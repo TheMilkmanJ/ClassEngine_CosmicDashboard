@@ -1,0 +1,11 @@
+Testing data loader...
+
+Traceback (most recent call last):
+  File "/home/themilkmanj/prtoe_class/scripts/data_loader.py", line 114, in <module>
+    cosmo.compute()
+  File "classy.pyx", line 578, in classy.Class.compute
+    raise CosmoSevereError(
+classy.CosmoSevereError: 
+
+Error in Class: Class did not read input parameter(s): use_prtoe, xi_prtoe, phi_0_prtoe, zeta_prtoe, phi_c_prtoe, delta_phi_prtoe, V0_prtoe, m_prtoe, lambda_prtoe
+

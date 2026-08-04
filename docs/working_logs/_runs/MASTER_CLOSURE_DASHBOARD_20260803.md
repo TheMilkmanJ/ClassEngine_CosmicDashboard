@@ -24,8 +24,8 @@ Statuses allowed: **COMPLETE** · **IN_FLIGHT** · **BLOCKED** · **OWNER_GATED*
 |---|---|---|---|---|---|
 | **A4** | T14 H_kin i6 production @128³ (sign TC + nulls + mirror &lt;5%) | **IN_FLIGHT** | Production incomplete: cal PASS; nowinding f+1 through t=1.50 selected; f−1 branch still running; nojet + four-branch + TC grade **not done** | **Blue** (leave running) | `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`; skeleton `…/t14_i6_TC_SKELETON.md` |
 | **HW1** | bbnfix posterior booking (dyad vs lcdm, both R−1&lt;0.05) | **BLOCKED** | Gate fail: lcdm R−1=**0.0539** (N=16075, just above 0.05); dyad R−1=**0.160** (N=17384). `both_ready: false`. Do **not** GetDist-book | **Blue** (watch only) | `docs/working_logs/_runs/hard_win1_bbnfix_booking_prep_20260803/`; chains `chains/{dyad_mnu_bbnfix,cmp_lcdm_mnu_bbnfix}.*` |
-| **HW3 / BBN ε** | Public ε&lt;3.2% (2σ) external recompute arithmetic | **COMPLETE** | None for arithmetic: ε 2σ ceiling **3.196%** ≈ paper 3.20% **PASS**. EMPRESS unusable (+2.91σ at ε=0) | **Blue** delivered | `docs/working_logs/_runs/hard_win3_bbn_eps_recompute_20260803/`; package `papers/bbn-eps-bound/` |
-| **HW3-ship** | BBN ε Zenodo DOI + one-command recompute entrypoint ship | **OWNER_GATED** | Public external *win* incomplete until DOI/recompute artifact lands (PDF READY is not the full external win) | **Owner** (+ Blue optional script polish) | `docs/arXivReady/bbn-eps-bound.{pdf,tar.gz}`; hard_wins plan Win 3 steps |
+| **HW3 / BBN ε** | ε&lt;3.2% (2σ) recompute arithmetic card | **ARITHMETIC VERIFIED (internal)** | ε 2σ ceiling **3.196%** ≈ paper 3.20% **PASS**. EMPRESS unusable (+2.91σ at ε=0). Not an external win without public record | **Blue** (arithmetic) | `docs/working_logs/_runs/hard_win3_bbn_eps_recompute_20260803/`; package `papers/bbn-eps-bound/` |
+| **HW3-ship** | BBN ε Zenodo DOI + one-command recompute entrypoint ship | **EXTERNAL WIN PENDING (no DOI)** / **OWNER_GATED** | Public external win incomplete until DOI lands (PDF READY is not the full external win) | **Owner** (+ Blue optional script polish) | `docs/arXivReady/bbn-eps-bound.{pdf,tar.gz}`; hard_wins plan Win 3 steps |
 | **ARX-1** | `supertrace-note` public package | **COMPLETE** | — | **Owner** already shipped | Zenodo DOI 10.5281/zenodo.21763188; staged `docs/arXivReady/supertrace-note.*` |
 | **ARX-2** | `neutrino-mbb` arXiv / Fairbank thread | **OWNER_GATED** | hep-ph endorsement; Fairbank correspondence; packaging paused (do not invent second Fairbank TeX) | **Owner** | `papers/neutrino-mbb/`; `docs/arXivReady/neutrino-mbb.*` |
 | **ARX-3** | `radio-lattice` arXiv | **OWNER_GATED** | astro-ph endorsement only (desk TeX READY) | **Owner** | `papers/radio-lattice/`; `docs/arXivReady/radio-lattice.*` |
@@ -95,7 +95,7 @@ Statuses allowed: **COMPLETE** · **IN_FLIGHT** · **BLOCKED** · **OWNER_GATED*
 | Rank (H1) | External win | Status this stamp |
 |---:|---|---|
 | 1 | arXiv / public postings (owner) | **OWNER_GATED** — packages READY; endorsement & DOI actions pending (except supertrace Zenodo) |
-| 2 | BBN ε recompute path | Arithmetic **COMPLETE**; public DOI ship **OWNER_GATED** |
+| 2 | BBN ε recompute path | **ARITHMETIC VERIFIED (internal)**; **EXTERNAL WIN PENDING (no DOI)** / public ship **OWNER_GATED** |
 | 3 | bbnfix booking R−1&lt;0.05 both | **BLOCKED** on dyad (and lcdm barely over) |
 | (thread) | T14 i6 TC recompute card | **IN_FLIGHT** — not bookable yet |
 

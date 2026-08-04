@@ -1,0 +1,51 @@
+============================================================================
+READING 1 -- TURNS PER HUBBLE TIME, WHICH FALLS WITH TEMPERATURE
+============================================================================
+  at T_sph:  theta_dot/H = 2.4e+06  ->  3.820e+05 turns per Hubble time
+
+     T/T_sph    T (with T_sph = 130 GeV)    turns per Hubble
+  ------------------------------------------------------------
+    1.00e+00                     130 GeV           3.820e+05
+    1.00e-03                     130 MeV           3.820e+02
+    1.31e-05                     1.7 MeV           5.004e+00
+    1.00e-08                     1.3 keV           3.820e-03
+    2.00e-12     0.26 eV (recombination)           7.639e-07
+
+  the five-turn threshold branch (a) needs is crossed at T/T_sph = 1.309e-05,
+  i.e. T = 1.70 MeV on a 130 GeV sphaleron shutoff.
+  Below that the instantaneous winding is too slow for equidistribution, and by
+  recombination it is 7.6e-07 turns per Hubble time -- entirely frozen.
+
+============================================================================
+READING 2 -- TOTAL ACCUMULATED TURNS, WHICH SATURATES
+============================================================================
+  theta_dot dt = (theta_dot/H)_sph . dT/T_sph, so the accumulated winding from T_sph
+  down to T is (theta_dot/H)_sph . (1 - T/T_sph) radians -- flat in T, hence dominated
+  by the earliest epoch and saturating almost immediately.
+
+   down to T/T_sph    accumulated turns   % of the total
+  --------------------------------------------------------
+             5e-01           1.9099e+05            50.0%
+             1e-01           3.4377e+05            90.0%
+             1e-02           3.7815e+05            99.0%
+             1e-04           3.8193e+05           100.0%
+             0e+00           3.8197e+05           100.0%
+
+  total accumulated winding below T_sph: 3.820e+05 turns
+
+============================================================================
+WHAT EACH READING DOES TO f_bar, AND SO TO BRANCH (a)
+============================================================================
+  on the ACCUMULATED reading, N = 3.82e+05 turns:
+    worst-case deviation of f_bar from 2/pi  ~ 2.64e-05%
+    against the 2.08% branch (a) needs  ->  the route is DEAD by six orders
+
+  on the INSTANTANEOUS reading the answer depends entirely on the epoch that sets
+  epsilon: above ~1.7 MeV the premise holds, below it the phase is frozen and
+  f_bar is not an average at all but whatever value the phase happens to sit at.
+
+  So the two readings do not merely differ in precision, they differ in kind, and
+  nothing recorded says which one the epsilon-assembly uses. That is the owed piece:
+  not 'is equidistribution granted' but 'over what window is the average taken'.
+  Under the accumulated reading -- the natural one for a phase that has been winding
+  since genesis -- f_bar is pinned and the alpha_c conflict stands at its full 2.08%.

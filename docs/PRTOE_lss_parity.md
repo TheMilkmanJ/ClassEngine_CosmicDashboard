@@ -1,13 +1,21 @@
 # Large-Scale-Structure Parity Violation — the Survey That Broke a Mirror (2026-07-11)
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** native channel **derived-from-recorded**; amplitude **machine-backed short** (~7 orders); BOSS claim **anti-anomaly bet**.
+> **Not claimed:** sourcing the claimed BOSS 4PCF amplitude; completed validation that “the claim is systematic.”
+> **Authority:** claims ledger this file; [T16_lss_parity_owed.md](working_logs/T16_lss_parity_owed.md); [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
+> **Currency:** DESI / independent 4PCF is **WATCH-EXTERNAL** (T16); axis protocol still data-gated.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-*The channel is computed, lands seven orders short of the claimed
-signal, and the resulting position — that the claim is systematic — has now been tested favorably by DESI.
-The anomaly is a claimed ~5–7σ effect for which almost no framework possesses native
-machinery, and this model owns an axis, a handedness, and a vorticity injection by
-construction, even though its amplitude cannot reach the claim.*
+*The channel is computed and lands **seven orders short** of the claimed BOSS signal — so the
+model cannot claim the reported parity anomaly as a win. DESI 4PCF is a **WATCH-EXTERNAL**
+referee (T16), not a completed validation that "the claim is systematic." The anomaly is a
+claimed ~5–7σ effect for which almost no framework possesses native machinery; this model owns
+an axis, a handedness, and a vorticity injection by construction, even though its amplitude
+cannot reach the claim.*
 
 ## 0. The claim in the data
 
@@ -91,3 +99,19 @@ states its own provenance, including that the mirroring happened after the DESI 
 *A galaxy survey looked in the mirror and the reflection didn't match. Almost every theory
 must call that impossible. This one built the asymmetry into its first turn — the question,
 as always here, is not whether the machinery exists but whether its number is big enough.*
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Model has native LSS parity channel (helical vorticity from n) | **derived-from-recorded** | §1 | Same chirality family as IGMF/GW |
+| 2 | Induced 4PCF amplitude ~(v/c)³ ~ 10⁻⁹ — seven orders short of BOSS claim | **machine-backed** | §2–3 pricing | Cannot source claimed signal |
+| 3 | Bet: claimed BOSS parity is systematic (P-2026-055) | **registered null** / anti-anomaly | §3; preregistered | Confirmed large signal kills channel monopoly |
+| 4 | DESI composite-field null; BOSS significance fell under blinding | **WATCH-EXTERNAL** favorable | §3a arXiv:2604.06021 | Not direct 4PCF replication |
+| 5 | Axis correlation protocol if signal real | **OPEN** (data-gated) | §4 owed | — |
+
+**Non-claims:** not a detection of LSS parity; not claim to source BOSS amplitude.
+
+**Triage:** elevate-in-place. Physics ceiling: short pricing + registered anti-anomaly.

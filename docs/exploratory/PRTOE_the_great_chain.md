@@ -189,3 +189,11 @@ and assay silently trusts). Science and physics were always the same thing; the 
 contribution is the PROOF OF CONSTANCY the sciences borrowed unexamined — now a registered,
 falsifiable, court-dated prediction. **Oklo (|Δα/α| < 10⁻⁸ over 2 Gyr) is a passed fence, and
 every radiometric date in every geology paper inherits it.**
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

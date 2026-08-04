@@ -1,0 +1,649 @@
+{
+  "stamp": "2026-08-04T10:30:48.646812+00:00",
+  "n_jobs": 80,
+  "n_exit0": 63,
+  "n_nonzero": 7,
+  "n_timeout": 10,
+  "results": [
+    {
+      "label": "__init__",
+      "exit": 0,
+      "elapsed_s": 0.176,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "additivity_counterfactual",
+      "exit": 0,
+      "elapsed_s": 0.204,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "anchor_honest_precision",
+      "exit": 0,
+      "elapsed_s": 0.086,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "area_law_roster_extension",
+      "exit": 0,
+      "elapsed_s": 0.12,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "arg_b_parity_odd_invariant",
+      "exit": 0,
+      "elapsed_s": 3.757,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": false
+    },
+    {
+      "label": "arrow_mu_pricing",
+      "exit": 0,
+      "elapsed_s": 0.084,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "audit_math_pass",
+      "exit": 0,
+      "elapsed_s": 33.625,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "audit_selfcheck_tautology_scan",
+      "exit": 0,
+      "elapsed_s": 0.836,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "b1_sixth_ambush_axisvoid",
+      "exit": -9,
+      "elapsed_s": 100.853,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "band_vs_epsilon_posterior",
+      "exit": 0,
+      "elapsed_s": 0.175,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "baryogenesis_junction_closure",
+      "exit": 0,
+      "elapsed_s": 0.219,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "bbn_abundances",
+      "exit": 0,
+      "elapsed_s": 6.499,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "bbn_at_cmb_point",
+      "exit": 0,
+      "elapsed_s": 0.677,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "bbn_prior_consistency_audit",
+      "exit": 0,
+      "elapsed_s": 1.092,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "bbn_prior_production_faithful",
+      "exit": 0,
+      "elapsed_s": 0.17,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "bbnfix_delta_chi2_proxy",
+      "exit": 2,
+      "elapsed_s": 4.298,
+      "status": "nonzero",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "bbnfix_mcmc_watch_diag",
+      "exit": 0,
+      "elapsed_s": 8.948,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "birefringence_window",
+      "exit": 0,
+      "elapsed_s": 0.476,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "c_census_discrimination_width",
+      "exit": 0,
+      "elapsed_s": 0.1,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "c_m_degeneracy",
+      "exit": 0,
+      "elapsed_s": 0.474,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "chain_convergence_forecast",
+      "exit": 0,
+      "elapsed_s": 0.297,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "chain_posterior_provenance_audit",
+      "exit": 0,
+      "elapsed_s": 0.141,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "check_classy_fresh",
+      "exit": 1,
+      "elapsed_s": 1.958,
+      "status": "nonzero",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "check_prtoe_env",
+      "exit": 1,
+      "elapsed_s": 2.364,
+      "status": "nonzero",
+      "token_PASS": false,
+      "token_FAIL": true
+    },
+    {
+      "label": "chiral_gw_genesis",
+      "exit": 0,
+      "elapsed_s": 0.541,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "chiral_induced_gw",
+      "exit": 0,
+      "elapsed_s": 0.544,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "circularity_sweep",
+      "exit": 0,
+      "elapsed_s": 0.099,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cmb_baseline",
+      "exit": 0,
+      "elapsed_s": 87.048,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cmb_baseline_plot",
+      "exit": 0,
+      "elapsed_s": 8.622,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cmb_chi2",
+      "exit": -9,
+      "elapsed_s": 97.329,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cmb_chi2_diagnose",
+      "exit": 0,
+      "elapsed_s": 6.937,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cmb_realign",
+      "exit": -9,
+      "elapsed_s": 97.285,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cmb_realign_4d",
+      "exit": -9,
+      "elapsed_s": 100.83,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cmb_realign_5d_neff",
+      "exit": -9,
+      "elapsed_s": 100.855,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "comb_rehearsal",
+      "exit": 0,
+      "elapsed_s": 0.73,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "concordance",
+      "exit": 0,
+      "elapsed_s": 0.554,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "condensate_growth_through_zx",
+      "exit": 0,
+      "elapsed_s": 0.088,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "control_count_sweep",
+      "exit": -9,
+      "elapsed_s": 100.85,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cosmic_dawn_trough",
+      "exit": 0,
+      "elapsed_s": 22.641,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cosmo_dashboard_backend",
+      "exit": -9,
+      "elapsed_s": 100.862,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "create_desktop_shortcut",
+      "exit": 0,
+      "elapsed_s": 6.208,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "crossval_hiclass",
+      "exit": 2,
+      "elapsed_s": 0.889,
+      "status": "nonzero",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "curvature_H0_check",
+      "exit": 0,
+      "elapsed_s": 7.508,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cw_response_bracket",
+      "exit": 0,
+      "elapsed_s": 0.101,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "cw_response_from_backreaction",
+      "exit": 0,
+      "elapsed_s": 9.911,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "d_escape_route_test",
+      "exit": 0,
+      "elapsed_s": 0.079,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "d_three_way_constraint",
+      "exit": 0,
+      "elapsed_s": 0.088,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "data_loader",
+      "exit": 1,
+      "elapsed_s": 2.043,
+      "status": "nonzero",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_dark_strong_sector",
+      "exit": 0,
+      "elapsed_s": 0.378,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_derive_Lambda_g",
+      "exit": 0,
+      "elapsed_s": 2.26,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_fundamental_gp",
+      "exit": 0,
+      "elapsed_s": 0.386,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_g_to_lambda",
+      "exit": 0,
+      "elapsed_s": 0.261,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_kp_ramp",
+      "exit": 1,
+      "elapsed_s": 3.498,
+      "status": "nonzero",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_pwave_gap",
+      "exit": 0,
+      "elapsed_s": 2.385,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_resolve_tension",
+      "exit": 0,
+      "elapsed_s": 0.538,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "de_value_veff_2loop",
+      "exit": 0,
+      "elapsed_s": 2.178,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "desk_compute_all_safe",
+      "exit": -9,
+      "elapsed_s": 100.772,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "deuterium_row_width",
+      "exit": 0,
+      "elapsed_s": 0.164,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "dm_row_sigma_eps",
+      "exit": 0,
+      "elapsed_s": 0.224,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "ede_diagnostic",
+      "exit": 1,
+      "elapsed_s": 0.632,
+      "status": "nonzero",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "edge_convention_verdict",
+      "exit": 0,
+      "elapsed_s": 0.111,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "entropy_front_high_velocity",
+      "exit": 0,
+      "elapsed_s": 0.188,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "epsilon_number_and_sz_pairing",
+      "exit": 0,
+      "elapsed_s": 0.235,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "escape_c_loop_magnitude",
+      "exit": 0,
+      "elapsed_s": 0.127,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": false
+    },
+    {
+      "label": "family_triplet_parent",
+      "exit": 0,
+      "elapsed_s": 0.22,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": false
+    },
+    {
+      "label": "file_access_safe",
+      "exit": 0,
+      "elapsed_s": 0.367,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "fill_t14_i6_tc_when_ready",
+      "exit": 0,
+      "elapsed_s": 0.315,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "finiteness_novelty_crosscheck",
+      "exit": 0,
+      "elapsed_s": 0.186,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": false
+    },
+    {
+      "label": "first_roll_sign_run",
+      "exit": -9,
+      "elapsed_s": 100.857,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "flat_direction_convergence_test",
+      "exit": 0,
+      "elapsed_s": 1.943,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "floor_ghost_condensate",
+      "exit": 0,
+      "elapsed_s": 0.484,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": true
+    },
+    {
+      "label": "flow_ladder_correction",
+      "exit": 0,
+      "elapsed_s": 0.424,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "forecast_scan",
+      "exit": 0,
+      "elapsed_s": 12.398,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "forest_corner_needle",
+      "exit": 0,
+      "elapsed_s": 0.148,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": false
+    },
+    {
+      "label": "formation_epoch_condition",
+      "exit": 0,
+      "elapsed_s": 0.116,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "friedmann_from_medium",
+      "exit": 0,
+      "elapsed_s": 0.116,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": false
+    },
+    {
+      "label": "funnel_edge_identity",
+      "exit": 0,
+      "elapsed_s": 6.104,
+      "status": "ok",
+      "token_PASS": true,
+      "token_FAIL": false
+    },
+    {
+      "label": "gate_halo_profile",
+      "exit": 0,
+      "elapsed_s": 0.452,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "genesis_cascade_assembly",
+      "exit": 0,
+      "elapsed_s": 0.077,
+      "status": "ok",
+      "token_PASS": false,
+      "token_FAIL": false
+    },
+    {
+      "label": "genesis_famp_Z4",
+      "exit": -9,
+      "elapsed_s": 97.302,
+      "status": "timeout",
+      "token_PASS": false,
+      "token_FAIL": false
+    }
+  ]
+}

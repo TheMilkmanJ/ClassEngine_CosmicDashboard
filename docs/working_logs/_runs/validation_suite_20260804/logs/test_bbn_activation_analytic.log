@@ -1,0 +1,6 @@
+CMD: python3 scripts/test_bbn_activation.py
+START: 2026-08-04T03:23:52-06:00
+=== BBN activation (analytic upper bound) ===
+  a=1.000e-06  rho_phi/rho_r=2.754e-20  threshold=1.000e-02  [PASS]
+END: 2026-08-04T03:23:52-06:00
+EXIT: 0

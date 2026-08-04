@@ -1,5 +1,12 @@
 # The Trials Factor — How Large the Search Space Was, Counted Against Ourselves
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** **meta / discipline** — hostile look-elsewhere density + quotation rules; not a physics derivation.
+> **Not claimed:** free pass for joint hits; physics COMPLETE from this file; absolution of closed-form matches.
+> **Authority:** claims ledger this file; [PRTOE_INDEPENDENCE_AUDIT.md](PRTOE_INDEPENDENCE_AUDIT.md); [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+> **Currency:** binds quotation practice only; re-run density if grammar widens.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -154,3 +161,19 @@ bounded grammar). Internal: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)
 [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md),
 [PRTOE_INDEPENDENCE_AUDIT.md](PRTOE_INDEPENDENCE_AUDIT.md),
 [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Lone ±0.5% closed-form match is *expected* under hostile grammar (~3.5 hits) | **derived** (look-elsewhere estimate) | §2 density table | Binding on quotation |
+| 2 | Failures ledger is honest denominator of search | **interpretation** / policy | §3 | Registry + ledger both count |
+| 3 | Joint constraints ≠ N independent confirmations | **interpretation** / policy | §4; independence audit | Cite audit row |
+| 4 | Adverse bookings stay at full strength | **honest constraint** | §6 | D/H, Y_p, concordance gap, etc. |
+| 5 | Quotation rules §7 binding | **meta** / discipline | §7 | Grammar widen → re-run density |
+
+**Non-claims:** not a physics derivation; not a free pass for joint hits.
+
+**Triage:** elevate-in-place (meta discipline). Physics ceiling: n/a (quotation hygiene).

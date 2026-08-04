@@ -1,0 +1,144 @@
+WARNING:root:auto bandwidth for omega_b very small or failed (h=0.00040719044278452095,N_eff=324.30639069104825). Using fallback (h=0.034815769683044555)
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.00043632497733330454,N_eff=325.86696037045385). Using fallback (h=0.06357102904535146)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.00039333409438696364,N_eff=348.3195217568033). Using fallback (h=0.05528694799905947)
+WARNING:root:auto bandwidth for n_s very small or failed (h=0.00044104825735619363,N_eff=300.0024538946606). Using fallback (h=0.045598363411359054)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.0004252635107352674,N_eff=332.3671655999572). Using fallback (h=0.05827193758275108)
+WARNING:root:auto bandwidth for dcdf_rho_inf very small or failed (h=0.00044325079421157537,N_eff=318.5681403363813). Using fallback (h=0.04760017082156679)
+WARNING:root:auto bandwidth for dcdf_conv_g very small or failed (h=0.00045162970748640886,N_eff=326.702605564433). Using fallback (h=0.059710726979996555)
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, H0
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, logA
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, dcdf_rho_inf
+WARNING:root:2D kernel density bandwidth optimizer failed for omega_b, dcdf_conv_g. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, logA
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, dcdf_conv_g
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, dcdf_conv_g
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, dcdf_conv_g
+WARNING:root:fine_bins_2D not large enough for optimal density: z_reio, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: z_reio, dcdf_conv_g
+WARNING:root:fine_bins_2D not large enough for optimal density: dcdf_rho_inf, dcdf_conv_g
+WARNING:root:auto bandwidth for omega_b very small or failed (h=0.00040719044278452095,N_eff=324.30639069104825). Using fallback (h=0.034815769683044555)
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.00043632497733330454,N_eff=325.86696037045385). Using fallback (h=0.06357102904535146)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.00039333409438696364,N_eff=348.3195217568033). Using fallback (h=0.05528694799905947)
+WARNING:root:auto bandwidth for n_s very small or failed (h=0.00044104825735619363,N_eff=300.0024538946606). Using fallback (h=0.045598363411359054)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.0004252635107352674,N_eff=332.3671655999572). Using fallback (h=0.05827193758275108)
+WARNING:root:auto bandwidth for dcdf_rho_inf very small or failed (h=0.00044325079421157537,N_eff=318.5681403363813). Using fallback (h=0.04760017082156679)
+WARNING:root:auto bandwidth for dcdf_conv_g very small or failed (h=0.00045162970748640886,N_eff=326.702605564433). Using fallback (h=0.059710726979996555)
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.00041407614164177745,N_eff=364.7274339258762). Using fallback (h=0.043093184856310196)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.0004029397437645846,N_eff=416.6343150728628). Using fallback (h=0.04116447509961014)
+WARNING:root:auto bandwidth for n_s very small or failed (h=0.0003959146326816763,N_eff=390.6906143881082). Using fallback (h=0.04511324403935627)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.0003741410728503165,N_eff=411.05415121927064). Using fallback (h=0.0377441522588473)
+WARNING:root:auto bandwidth for log10_zon very small or failed (h=0.00037881811905945306,N_eff=420.88492824556903). Using fallback (h=0.028364832719214517)
+WARNING:root:auto bandwidth for dcdf_rho_inf very small or failed (h=0.00039999526193186264,N_eff=376.8988174218483). Using fallback (h=0.041346287823987325)
+WARNING:root:2D kernel density bandwidth optimizer failed for omega_b, n_s. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:2D kernel density bandwidth optimizer failed for omega_b, dcdf_rho_inf. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:2D kernel density bandwidth optimizer failed for omega_b, A_planck. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, logA
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, log10_zon
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, log10_zon
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, log10_zon
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: z_reio, log10_zon
+WARNING:root:fine_bins_2D not large enough for optimal density: z_reio, dcdf_rho_inf
+WARNING:root:fine_bins_2D not large enough for optimal density: log10_zon, dcdf_rho_inf
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.00041407614164177745,N_eff=364.7274339258762). Using fallback (h=0.043093184856310196)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.0004029397437645846,N_eff=416.6343150728628). Using fallback (h=0.04116447509961014)
+WARNING:root:auto bandwidth for n_s very small or failed (h=0.0003959146326816763,N_eff=390.6906143881082). Using fallback (h=0.04511324403935627)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.0003741410728503165,N_eff=411.05415121927064). Using fallback (h=0.0377441522588473)
+WARNING:root:auto bandwidth for log10_zon very small or failed (h=0.00037881811905945306,N_eff=420.88492824556903). Using fallback (h=0.028364832719214517)
+WARNING:root:auto bandwidth for dcdf_rho_inf very small or failed (h=0.00039999526193186264,N_eff=376.8988174218483). Using fallback (h=0.041346287823987325)
+WARNING:root:auto bandwidth for omega_b very small or failed (h=0.0004079611051101167,N_eff=435.2099739048741). Using fallback (h=0.02569586921717939)
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.0004815847024714378,N_eff=440.6736249459123). Using fallback (h=0.013896539240085186)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.00042072169356004266,N_eff=478.1952394382295). Using fallback (h=0.023087582508471264)
+WARNING:root:auto bandwidth for n_s very small or failed (h=0.0004952386939124765,N_eff=454.0600266912835). Using fallback (h=0.04577533462504691)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.0004155284144269867,N_eff=484.9357516862694). Using fallback (h=0.020385762572892947)
+WARNING:root:auto bandwidth for varying_me very small or failed (h=0.0004543805258143773,N_eff=437.56705508409766). Using fallback (h=0.012118653699156379)
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, H0
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, logA
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, varying_me
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, logA
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, varying_me
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, varying_me
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, z_reio
+WARNING:root:2D kernel density bandwidth optimizer failed for n_s, dcdf_rho_inf. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, varying_me
+WARNING:root:fine_bins_2D not large enough for optimal density: z_reio, varying_me
+WARNING:root:auto bandwidth for omega_b very small or failed (h=0.0004079611051101167,N_eff=435.2099739048741). Using fallback (h=0.02569586921717939)
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.0004815847024714378,N_eff=440.6736249459123). Using fallback (h=0.013896539240085186)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.00042072169356004266,N_eff=478.1952394382295). Using fallback (h=0.023087582508471264)
+WARNING:root:auto bandwidth for n_s very small or failed (h=0.0004952386939124765,N_eff=454.0600266912835). Using fallback (h=0.04577533462504691)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.0004155284144269867,N_eff=484.9357516862694). Using fallback (h=0.020385762572892947)
+WARNING:root:auto bandwidth for varying_me very small or failed (h=0.0004543805258143773,N_eff=437.56705508409766). Using fallback (h=0.012118653699156379)
+WARNING:root:auto bandwidth for omega_b very small or failed (h=0.0003694298270524146,N_eff=90.38734271562558). Using fallback (h=0.03805985750455089)
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.0003588957689632734,N_eff=90.59377176518964). Using fallback (h=0.01997217502267016)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.0003540746507349262,N_eff=85.558085021027). Using fallback (h=0.03664859376413784)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.000367944967886008,N_eff=86.13722541462108). Using fallback (h=0.04026759659976759)
+WARNING:root:auto bandwidth for log10_zon very small or failed (h=0.000369935295640211,N_eff=85.74754942551247). Using fallback (h=0.021584853297997166)
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, H0
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, logA
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: omega_b, log10_zon
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, logA
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: H0, log10_zon
+WARNING:root:2D kernel density bandwidth optimizer failed for H0, dcdf_rho_inf. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:2D kernel density bandwidth optimizer failed for H0, A_planck. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, n_s
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: logA, log10_zon
+WARNING:root:2D kernel density bandwidth optimizer failed for logA, dcdf_rho_inf. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, z_reio
+WARNING:root:fine_bins_2D not large enough for optimal density: n_s, log10_zon
+WARNING:root:fine_bins_2D not large enough for optimal density: z_reio, log10_zon
+WARNING:root:2D kernel density bandwidth optimizer failed for log10_zon, dcdf_rho_inf. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:2D kernel density bandwidth optimizer failed for dcdf_rho_inf, A_planck. Using fallback width: f(a) and f(b) must have different signs
+WARNING:root:auto bandwidth for omega_b very small or failed (h=0.0003694298270524146,N_eff=90.38734271562558). Using fallback (h=0.03805985750455089)
+WARNING:root:auto bandwidth for H0 very small or failed (h=0.0003588957689632734,N_eff=90.59377176518964). Using fallback (h=0.01997217502267016)
+WARNING:root:auto bandwidth for logA very small or failed (h=0.0003540746507349262,N_eff=85.558085021027). Using fallback (h=0.03664859376413784)
+WARNING:root:auto bandwidth for z_reio very small or failed (h=0.000367944967886008,N_eff=86.13722541462108). Using fallback (h=0.04026759659976759)
+WARNING:root:auto bandwidth for log10_zon very small or failed (h=0.000369935295640211,N_eff=85.74754942551247). Using fallback (h=0.021584853297997166)
+========================================================================
+make_getdist_tables — bbnfix gate check
+   bbnfix R−1: cmp_lcdm_mnu_bbnfix=0.059055, dyad_mnu_bbnfix=0.189201
+   bbnfix converged: cmp_lcdm_mnu_bbnfix=False, dyad_mnu_bbnfix=False
+   WARNING: --force-bbnfix with gate incomplete — NOT bookable; will NOT write docs/PRTOE_CHAIN_TABLES.md
+   Writing UNBOOKABLE working_logs artifact with in-file banner instead.
+========================================================================
+Removed no burn in
+   cmp_prtoe_conv_desi: triangle → docs/plots/cmp_prtoe_conv_desi_triangle.png (3462 post-burn samples)
+Removed no burn in
+   cmp_prtoe_zon_disp: triangle → docs/plots/cmp_prtoe_zon_disp_triangle.png (3331 post-burn samples)
+Removed no burn in
+   dyad_mnu_mcmc: triangle → docs/plots/dyad_mnu_mcmc_triangle.png (3406 post-burn samples)
+Removed no burn in
+   cmp_prtoe_zon: triangle → docs/plots/cmp_prtoe_zon_triangle.png (818 post-burn samples)
+Removed no burn in
+   cmp_lcdm_mnu_bbnfix: triangle → docs/plots/cmp_lcdm_mnu_bbnfix_triangle.png (4711 post-burn samples)
+Removed no burn in
+   dyad_mnu_bbnfix: triangle → docs/plots/dyad_mnu_bbnfix_triangle.png (4737 post-burn samples)
+   tables → docs/working_logs/_runs/getdist_force_UNBOOKABLE_20260804_030942/CHAIN_TABLES_UNCONVERGED.md  (NOT docs/PRTOE_CHAIN_TABLES.md)
+   living shelf PRTOE_CHAIN_TABLES.md left UNTOUCHED

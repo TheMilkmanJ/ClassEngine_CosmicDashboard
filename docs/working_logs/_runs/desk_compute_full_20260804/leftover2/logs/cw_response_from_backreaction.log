@@ -1,0 +1,109 @@
+==============================================================================
+  #55 — WHAT GENERATES THE RESPONSE, AND A BOOKING ERROR IN C9
+==============================================================================
+
+  eps = 27 alpha / 5 pi = 0.012543225
+
+  W-A  the winding moments, integrated
+       <|cos|>   = 0.636619772   (2/pi     = 0.636619772)
+       <cos^2>   = 0.500000000   (1/2      = 0.500000000)
+       <|cos|^3> = 0.424413182   (4/3pi    = 0.424413182)
+  ok    W-A1 the three moments match their closed forms
+  ok    W-A2 quadratic moment ratio is pi/4   0.785398163
+  ok    W-A3 cubic moment ratio is 2/3   0.666666667
+
+  W-B  the CUBIC, at unit coefficient
+  ok    W-B1 reproduces the recorded 0.0105%   0.010489%
+
+  W-C  the QUADRATIC, at unit coefficient, from the same moments
+  ok    W-C1 it does NOT reproduce the recorded 0.83%   computed 0.9851% against a recorded 0.83% — off by 18.7%
+
+  W-D  what DOES give 0.83%?
+  ok    W-D1 2/3 * eps — the CUBIC's moment ratio used in the quadratic's place   0.8362% vs recorded 0.83%
+
+  W-E  does C9's conclusion survive either number?
+  ok    W-E1 both are far below 1, so leading-order dominance holds   quadratic 0.985% or 0.836%, cubic 0.01049% — a booking correction, not a retraction
+
+  W-F  the self-consistency relation  F = F_0 - a F_0 F,  F_0 = u
+
+         a      u       solved F       u/(1+au)    c_w = -a?
+      0.32   0.10    0.096899225    0.096899225            
+      0.32   0.50    0.431034483    0.431034483            
+      0.50   0.10    0.095238095    0.095238095            
+      0.50   0.50    0.400000000    0.400000000            
+      1.00   0.10    0.090909091    0.090909091            
+      1.00   0.50    0.333333333    0.333333333            
+      1.36   0.10    0.088028169    0.088028169            
+      1.36   0.50    0.297619048    0.297619048            
+  ok    W-F1 the solved fixed point IS u/(1+au)
+  ok    W-F2 and c_w = -a at every back-reaction strength tested   so c_w IS the back-reaction strength, not a free coefficient
+
+  W-G  the resummation fixes the WHOLE series from one number
+
+         a      c_w   c_3 (=c_w^2)   c_4 (=-|c_w|^3)
+      0.32  -0.3200       0.102400         -0.032768
+      0.84  -0.8400       0.705600         -0.592704
+      1.36  -1.3600       1.849600         -2.515456
+  ok    W-G1 c_3 = c_w^2 and c_4 = -|c_w|^3 exactly   a forward prediction: the corpus currently ASSUMES a unit cubic
+
+  W-H  ANTI-CONTROL: are the excluded odd forms of resummed type?
+  ok    W-H1 tanh u is NOT u/(1+au) for any a   a fitted at u=0.5 gives 33.01% error at u=1.5
+  ok    W-H1 u/sqrt(1+u^2) is NOT u/(1+au) for any a   a fitted at u=0.5 gives 33.13% error at u=1.5
+
+  W-I  ANTI-CONTROL: can the resummed form fit anything?
+  ok    W-I1 it cannot give c_w = 0 unless the back-reaction vanishes   c_w = 0 <=> a = 0 <=> no back-reaction — which is the excluded odd case
+  ok    W-I2 and it cannot give POSITIVE c_w for positive back-reaction   so the sign of c_w is a prediction, not a fit — and data says negative
+
+  W-J  at the fit-implied c_w = -1.80, does dominance survive?
+       quadratic = 1.7733%,  cubic = 0.03398%  (c_3 = a^2 = 3.24)
+  ok    W-J1 leading-order dominance intact even with the larger cubic   so the resummation does not break C9
+
+==============================================================================
+  RESULT — THE EVEN PART IS A RESUMMATION, NOT AN OPERATOR
+==============================================================================
+
+  PART 1. C8's admissible class is generated, not assumed. Take the bare response to
+  the winding projection as LINEAR -- which is all C8's leading term asserts -- and let
+  the medium back-react in proportion to the response it already carries. Self-
+  consistency, F = F_0 - a F_0 F, has the fixed point
+
+      F = F_0/(1 + a F_0) = u/(1 + a u),        c_w = -a exactly
+
+  solved here by bisection rather than quoted (W-F). So the even part C8 demands is NOT
+  a new operator to be added to the Lagrangian: it is what resumming the LINEAR
+  coupling against the medium's back-reaction produces, and c_w IS the back-reaction
+  strength. The ensemble band c_w in [-1.36, -0.32] becomes a band on that strength,
+  a in [0.32, 1.36] -- order unity, which is what a medium not weakly coupled to its
+  own response should give.
+
+  IT ALSO EXPLAINS THE ODD-RESPONSE FAILURE STRUCTURALLY. tanh u and u/sqrt(1+u^2) are
+  saturating forms imposed by hand, and neither is of resummed type -- fitting a at
+  u = 0.5 leaves a 33% error by u = 1.5 (W-H). A back-reaction on a linear bare
+  response always gives the rational form, so the c_w = 0 class was never a candidate
+  the mechanism could have produced.
+
+  AND IT PREDICTS RATHER THAN FITS. The geometric series fixes every higher coefficient
+  from one number: c_3 = c_w^2, c_4 = -|c_w|^3 (W-G). The corpus currently carries the
+  cubic with an ASSUMED unit coefficient, so nothing is being tuned to -- this is a
+  forward statement. At the fit-implied c_w = -1.80 the predicted cubic is 3.24x larger
+  than unit, and leading-order dominance still holds comfortably (W-J), so the
+  mechanism does not collide with C9.
+
+  WHAT IS STILL OWED. This supplies the FORM and the meaning of c_w; it does not supply
+  the VALUE. Deriving a -- the medium's back-reaction strength on its own winding
+  response -- is the remaining object, and it is now a single number in a named
+  mechanism rather than an unspecified "response with an even part".
+
+  PART 2 -- A BOOKING ERROR IN C9. Checking the numbers before using them (protocol 48)
+  turned one up. The audit ledger computes C9's percentages from the winding moments,
+  and the CUBIC reproduces exactly: eps^2 * <|cos|^3>/<|cos|> = eps^2 * (2/3) = 0.0105%
+  as recorded (W-B). The QUADRATIC does not: eps * <cos^2>/<|cos|> = eps * (pi/4) =
+  0.985%, against a recorded 0.83% -- an 18.7% discrepancy (W-C). The recorded figure is
+  what you get by using 2/3, the CUBIC's moment ratio, in the quadratic's place:
+  2/3 * eps = 0.836% (W-D).
+
+  C9'S CONCLUSION IS UNAFFECTED. Both 0.83% and 0.985% are far below 1, so leading-order
+  dominance holds either way (W-E). This is a booking correction, not a retraction --
+  but the spec and the audit ledger both quote 0.83% as a computed result, and it is
+  0.985%.
+

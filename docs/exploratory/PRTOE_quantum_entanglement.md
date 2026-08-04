@@ -8,6 +8,23 @@ a null-prediction stance: it REPRODUCES quantum entanglement EXACTLY — that re
 falsifiable content — and supplies an ontology for what entanglement IS. No deviation from QM is
 predicted; any observed deviation kills the model (the Tsirelson null).*
 
+> **Banner (EN-D1 + EN-D2/D3, 2026-08-03).**  
+> CHSH / Tsirelson material here is a **verification harness** for a **literature** TMSV
+> result (Chen–Pan–Hou–Zhang 2002), not a PRTOE discovery.  
+> Medium pair parameter \(r\): **not derived** on disk (script scans free \(r\)).  
+> Explicit pair Hamiltonian for first-principles \(B(r)\): **MISSING_INPUT**.  
+> **Not** a derivation of Hilbert space or Born. Medium–atom language = seating only (TR-D1).
+
+
+> **VERDICT (2026-08-03) — quantum four endpoint.**  
+> **arXiv ready as quantum-mechanics papers: NO.**  
+> **Does this model provide quantum mechanics? NO** — it does not derive QM, does not supply
+> new QM dynamics/Born/Hilbert/atomic Hamiltonian physics. It **seats** standard QM
+> (interpretation), **reproduces** it as permanent nulls, and (dark sector only) **forbids**
+> this ultralight medium as a tabletop collapse mechanism (`medium_induced_decoherence.py`).  
+> Medium–atom “transactions” remain **non-claims**. Full write-up:  
+> [`../working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md`](../working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md).
+
 ## 0. What everyone has, and what this model adds
 
 Standard QM gives perfect *rules* for entanglement and refuses to say what it is. Interpretive
@@ -73,15 +90,40 @@ never divided.*
 
 ## 6. Claims ledger & null-hardening (2026-08-03) — above pure storygrade
 
-| # | Claim | Grade | Evidence | Residual |
+| # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| E1 | CHSH for pair/TMSV family: $B(r)=2\sqrt{1+\tanh^2(2r)}$ | **null-hardened** (standard result; not a PRTOE discovery) | `scripts/quantum_chsh_tsirelson.py`; Chen–Pan–Hou–Zhang PRL 88, 040406 (2002); `CHSH_PROVENANCE.md` | Pseudospin CHSH class; A1–A4 |
-| E2 | $B(r)\le 2\sqrt{2}$ always; $B\to 2\sqrt{2}$ as $r\to\infty$ | **null-hardened** | same script PASS | — |
+| E1 | CHSH for pair/TMSV family: $B(r)=2\sqrt{1+\tanh^2(2r)}$ | **null-hardened** (standard result; not a PRTOE discovery) | `scripts/quantum_chsh_tsirelson.py`; Chen–Pan–Hou–Zhang PRL 88, 040406 (2002); [CHSH_PROVENANCE.md](../working_logs/_runs/quantum_null_hardening_20260803/CHSH_PROVENANCE.md) | Pseudospin CHSH class; A1–A4 |
+| E2 | $B(r)\le 2\sqrt{2}$ always; $B\to 2\sqrt{2}$ as $r\to\infty$ | **null-hardened** | same script PASS; [CHSH_TSIRELSON.md](../working_logs/_runs/quantum_null_hardening_20260803/CHSH_TSIRELSON.md) | — |
 | E3 | Exact QM (Tsirelson) is the permanent kill line | **registered null** | §4 | Never scores “wins” from better Bell tests |
 | E4 | Nonlocal beable = condensate ODLRO phase | **interpretation** | ontology; rides M3 | Not a new number |
-| E5 | Preferred-frame leakage into Bell statistics | **OPEN / LV joint** | parked with LV audit | Precision flag only |
+| E5 | Preferred-frame leakage into Bell statistics | **OPEN-BLOCKED** (**EN-D5**) | parked with LV audit / [PRTOE_LV_pricing.md](../PRTOE_LV_pricing.md) | Precision flag only; no new LV math here; OPEN-THEORY joint with LV |
+| E6 | Medium pair parameter \(r\) as derived number | **MISSING_INPUT** (**EN-D2**) | [EN_D2_D3_PAIR_R.md](../working_logs/_runs/quantum_arxiv_worklist_20260803/EN_D2_D3_PAIR_R.md) | No forced \(r=r(\mathrm{medium})\) on disk; free scan param in script |
+| E7 | First-principles \(B(r)\) from model pair Hamiltonian | **MISSING_INPUT** (**EN-D3**/EN-H1) | Textbook pair \(H=\omega(n_a+n_b)+\lambda(ab+\mathrm{h.c.})\) → \(r=\mathrm{artanh}(\lambda/\omega)\) → literature \(B(r)\) computed (`scripts/quantum_pair_hamiltonian_tmsv.py`, Tsirelson PASS); **medium \((\omega,\lambda)\) still unpinned** | Harness ≠ medium derivation; EN-D2/D3 unpaid |
 
 **What changed vs storygrade:** E1–E2 are code-enforced limits, not prose.  
-**What is still not derived:** Born rule, Hilbert-space selection, why nature is quantum.
+**What is still not derived:** Born rule, Hilbert-space selection, why nature is quantum, **medium \(r\)**, pair Hamiltonian.
 
-**Content boundary (Claude red cure 2026-08-03):** The \(B(r)\) curve is a literature property of any TMSV under the pseudospin CHSH operator (Chen–Pan–Hou–Zhang 2002). The model’s only claim is identification of the squeezing parameter \(r\) with the medium’s pair parameter; reaching Tsirelson is **not** a model prediction. Script + ledger = verification harness, not discovery.
+**Content boundary (Claude red cure 2026-08-03 + EN-D2/D3):** The \(B(r)\) curve is a literature property of any TMSV under the pseudospin CHSH operator (Chen–Pan–Hou–Zhang 2002). Reaching Tsirelson is **not** a model prediction. Script + ledger = **verification harness**, not discovery.  
+The older one-line claim “identify \(r\) with the medium’s pair parameter” is **aspirational only** until E6–E7 close — **do not book as paid identification**.
+
+**arXiv stance (worklist red 2026-08-03):** standalone entanglement note **KILLED** (EN-D4). Corpus only.
+
+**Cross-link:** [`docs/working_logs/_runs/quantum_null_hardening_20260803/`](../working_logs/_runs/quantum_null_hardening_20260803/); worklist [`quantum_arxiv_worklist_20260803/`](../working_logs/_runs/quantum_arxiv_worklist_20260803/).  
+**Non-claims:** not a derivation of Hilbert space or Born; not a CHSH discovery; not a derived medium-\(r\) map.  
+**Triage:** elevate-in-place (discipline); load-bearing rows are null-hardened / derived / interpretation / OPEN-BLOCKED / MISSING_INPUT / registered null — no bare story for physics.  
+**Elevation rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md` (discipline; physics OPEN rows stand).
+
+
+---
+
+## Research residual register (corpus continue; not paper path)
+
+| Residual | Status | Unblock |
+|---|---|---|
+| Born rule value | OPEN-BLOCKED | scored kill band *before* any claim (SP-D4 template) |
+| Medium pair \(r\) + pair Hamiltonian | MISSING_INPUT | explicit Hamiltonian + non-circular \(r\) (EN-D2/D3) |
+| Preferred-frame imprint (Bell / tunnel time / interference) | OPEN joint LV | LV audit / external precision |
+| α_c second-sound bench | OPEN parent | P-2026-040 / chain R−1 |
+| New arXiv note from this wing | **KILLED** until scored science | worklist red 2026-08-03 |
+
+*Seating language allowed. “Transactions proved” / derived atomic QM **forbidden**.*

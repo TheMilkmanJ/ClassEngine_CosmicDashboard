@@ -112,4 +112,21 @@ What does not fit in three lines is the chain *inside* the symbols: why 9/10 (co
 
 ## Sources
 
-Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file uses: [Gross1961]/[Pitaevskii1961] (Eq. 1), [Kibble1976]/[Zurek1985] (winding), [HartChluba2020],[SekiguchiTakahashi2021] (varying-m_e ↔ H₀), [CLASS2011],[cobaya2021],[Planck2018],[Riess2022] (pipeline and data), [Volovik2003],[BerezhianiKhoury2015] (nearest prior art).
+Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file uses: [Gross1961],[Pitaevskii1961] (Eq. 1), [Kibble1976],[Zurek1985] (winding), [HartChluba2020],[SekiguchiTakahashi2021] (varying-m_e ↔ H₀), [CLASS2011],[cobaya2021],[Planck2018],[Riess2022] (pipeline and data), [Volovik2003],[BerezhianiKhoury2015] (nearest prior art).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence claim | **complete-conditional** / existence | banner; CC file | Lattice τ; radiative band |
+| 2 | τ = ½ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
+| 3 | Eq1 dCDF substrate | **derived** (structural) + **machine-backed** (CLASS) | Equation 1; [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md); CLASS `use_dcdf` | Structural dCDF seating derived; residual magnitude / route forks in dcdf_superfluid + CC |
+| 4 | Eq2 ε → H₀≈69.9; ΔlnZ≈+2.6 Laplace | **machine-backed** provisional | Equation 2 | Nested offline |
+| 5 | Eq3 ε stack c·f̄·α_c | **complete-conditional** | Equation 3 | c assumed; α_c bet offline |
+| 6 | Evidence finality / chain convergence | **OPEN-BLOCKED** | status | **OPEN-MACHINE:** nested + R−1 |
+
+**Non-claims:** not precision DE; not nested-confirmed evidence.
+
+**Triage:** elevate-in-place (short map). Physics ceiling: existence + provisional.

@@ -1,0 +1,30 @@
+{
+  "identity": "Parseval Q=1/3+(2/3)rho^2; tau=-ln rho",
+  "exact_Q_2_3": {
+    "Q": 0.6666666666666666,
+    "rho": 0.7071067811865476,
+    "rho2": 0.5,
+    "tau": 0.3465735902799726,
+    "half_ln2": 0.34657359027997264,
+    "tau_minus_half_ln2": -5.551115123125783e-17,
+    "T_c_keV": 177.0987407307962
+  },
+  "measured_Q": {
+    "Q": 0.6666605,
+    "rho": 0.7071002404185703,
+    "rho2": 0.49999075000000004,
+    "tau": 0.3465828403655362,
+    "half_ln2": 0.34657359027997264,
+    "tau_minus_half_ln2": 9.25008556357243e-06,
+    "T_c_keV": 177.10346751480662
+  },
+  "conditions_R3": [
+    "measured Q=2/3",
+    "sqrt(sigma_dark)=m_e pin",
+    "e^(-tau) thermal-weight reading of kernel modulus"
+  ],
+  "thermal_delivery_used": false,
+  "locking_without_Q": "OPEN"
+}
+PASS exact tau=1/2 ln2 at Q=2/3
+EXIT:0

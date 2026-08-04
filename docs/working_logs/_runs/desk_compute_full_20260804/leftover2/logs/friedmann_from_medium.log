@@ -1,0 +1,60 @@
+======================================================================
+(1) FRIEDMANN AS AN ENERGY LEDGER:  +kinetic  -binding  = 0  (flat)
+======================================================================
+  rho = 8.50e-27 kg/m^3,  H = 2.180e-18 1/s  (= 67.3 km/s/Mpc)
+  kinetic  = +2.1386e+15
+  binding  = -2.1386e+15
+  E = K + U = +0.0000e+00   -> zero to machine precision = FLAT universe
+  So the Friedmann equation IS the statement 'expansion kinetic energy
+  exactly cancels gravitational binding' -- the flat universe carries zero
+  net energy. In the medium reading: the medium's spreading (kinetic) is
+  balanced by its own induced-gravity self-attraction (binding).
+  [ok] flat ledger K+U = 0 at Friedmann H: 0 vs 0
+
+======================================================================
+(2) LOCAL CONSERVATION:  the continuity eqn IS the first law dU = -p dV
+======================================================================
+  d(rho a^3) = -p d(a^3)  <=>  rho ~ a^(-3(1+w))   [w = p/rho]
+    radiation   w=+0.3333: rho ~ a^-4.00,  dU + p dV = +8.23e-11  (conserved (first law holds))
+  [ok] first law dU=-pdV for radiation: 8.22666e-11 vs 0
+    matter      w=+0.0000: rho ~ a^-3.00,  dU + p dV = +0.00e+00  (conserved (first law holds))
+  [ok] first law dU=-pdV for matter: 0 vs 0
+    dark energy w=-1.0000: rho ~ a^-0.00,  dU + p dV = -8.03e-11  (conserved (first law holds))
+  [ok] first law dU=-pdV for dark energy: -8.02665e-11 vs 0
+
+======================================================================
+(3) WHERE THE ENERGY GOES  (why 'expansion energy' is not a new substance)
+======================================================================
+  Track comoving energy U = rho a^3 from a=1 to a=2 for each component:
+    radiation  : U(a=1)=1.00 -> U(a=2)=0.50   LOSES energy -> does +p dV work pushing space out
+    matter     : U(a=1)=1.00 -> U(a=2)=1.00   constant U (does no work)
+    dark energy: U(a=1)=1.00 -> U(a=2)=8.00   GAINS energy <- its negative pressure is pulled ON by expansion
+  There is no separate 'expansion energy' reservoir: the content does p dV
+  work on the growing volume (radiation pays, DE is paid), and locally the
+  books close by the first law. The medium is the SAME thing doing the
+  spreading (kinetic), the binding (gravity), and the sinking (dilution) --
+  one flow, not a new substance.
+
+======================================================================
+GRADE (honest)
+======================================================================
+  SHOWN: the medium is CONSISTENT with Friedmann -- the flat-universe ledger
+  nets to zero (+kinetic/-binding), and local energy conservation is exactly the
+  first law dU = -p dV, component by component. This clears the minimum bar: the
+  medium reproduces the expansion without breaking known cosmology.
+
+  NOT a new result: the Newtonian energy-balance derivation is textbook and holds
+  for any G. Reproducing it proves consistency, not correctness.
+
+  PRTOE-specific, and UNBUILT: that the medium's GLOBAL total energy is constant --
+  a well-defined conserved total GR cannot provide. That is the actual payoff, and
+  it needs the medium's own dynamics (Friedmann derived FROM the medium's energy
+  functional, not just consistent with it). Not shown here.
+
+  THE COST, unavoidable: a localizable energy requires the medium's rest frame -- a
+  preferred frame, Lorentz violation, bounded to ~27 orders on the one live channel
+  (PRTOE_LV_pricing.md). Concreteness is bought with an exposure GR does not carry.
+
+  Net: consistent, concrete, and more falsifiable -- NOT shown correct.
+
+self-check:  ALL PASS  (4/4)

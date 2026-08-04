@@ -1,0 +1,53 @@
+==============================================================================
+M1 — shear / local curvature vs ξ vs Hubble (RP-A F-A4 clock)
+==============================================================================
+  ξ                = 402 AU
+  ρ_bounce^(1/4)   = 1.059e+03 eV
+  at floor: R_H/ξ  = 12.336  (Hubble exit NOT automatic at floor)
+  σ_local-exit     = 1/ξ = 3.2812e-21 eV
+  pure-rad Hubble exit: a=6.4282e-08, ρ^(1/4)=3.720e+03 eV, ρ/ρ_b=1.522e+02
+
+  Seed scan (Σ0 = σ0/H0 today; σ∝a^{-3} through turnaround):
+          Σ0        a_loc  ρ_loc^(1/4)      ρ/ρ_b      R_H/ξ   Σ_at_loc       a_Σ1    R_H(Σ1)/ξ  flags
+  --------------------------------------------------------------------------------------------------------------
+       1e-12   7.5803e-09   3.1548e+04  7.869e+05  1.391e-02  1.391e-02 1.0541e-10    2.689e-06  HUB>=LOC,OVER-FLOOR
+       1e-10   3.5185e-08   6.7969e+03  1.695e+03  2.996e-01  2.996e-01 1.0541e-08    2.689e-02  HUB>=LOC,OVER-FLOOR
+       1e-08   1.6331e-07   1.4643e+03  3.653e+00  6.454e+00  6.454e+00 1.0541e-06    2.689e+02  LOC>HUB,OVER-FLOOR,MIXMASTER-WINDOW
+       1e-06   7.5803e-07   3.1548e+02  7.869e-03  1.391e+02  1.391e+02 1.0541e-04    2.689e+06  LOC>HUB,SUB-FLOOR,MIXMASTER-WINDOW
+       1e-05   1.6331e-06   1.4643e+02  3.653e-04  6.454e+02  6.454e+02 1.0541e-03    2.689e+08  LOC>HUB,SUB-FLOOR,MIXMASTER-WINDOW
+       1e-04   3.5185e-06   6.7969e+01  1.695e-05  2.996e+03  2.996e+03 1.0541e-02    2.689e+10  LOC>HUB,SUB-FLOOR,MIXMASTER-WINDOW
+       1e-03   7.5803e-06   3.1548e+01  7.869e-07  1.391e+04  1.391e+04 1.0541e-01    2.689e+12  LOC>HUB,SUB-FLOOR,MIXMASTER-WINDOW
+       1e-02   1.6331e-05   1.4643e+01  3.653e-08  6.454e+04  6.454e+04 1.0541e+00    2.689e+14  LOC>HUB,SUB-FLOOR,MIXMASTER-WINDOW
+       1e-01   3.5185e-05   6.7969e+00  1.695e-09  2.996e+05  2.996e+05 1.0541e+01    2.689e+16  LOC>HUB,SUB-FLOOR,MIXMASTER-WINDOW
+       1e+00   7.5803e-05   3.1548e+00  7.869e-11  1.391e+06  1.391e+06 1.0541e+02    2.689e+18  LOC>HUB,SUB-FLOOR,MIXMASTER-WINDOW
+
+  Critical seed for local exit *exactly* at ρ_bounce (pure-rad clock):
+    a(ρ_bounce)     = 2.2577e-07
+    Σ0_crit         = 2.6422e-08
+    at floor if σ=1/ξ: Σ = R_H/ξ = 12.336 > 1 ⇒ local-first at floor
+
+  Interpretation:
+    • Larger Σ0 → earlier local exit (lower density), more local-before-Hubble.
+    • CMB-class Σ0 ~ 10^{-5} sits in LOC>HUB + SUB-FLOOR if the rad clock holds.
+    • Tiny Σ0 ≲ few×10^{-10} pushes exit over-floor or hub-first.
+    • Whenever LOC>HUB with room, Σ hits O(1) earlier with R_H/ξ ≫ 1:
+      a classical mixmaster / BKL *window* opens before the medium cutoff ξ.
+
+==============================================================================
+M1 VERDICT (honest)
+==============================================================================
+  Local-before-Hubble AND sub-floor window in Σ0: 1e-06 … 1e+00
+  ⇒ F-A4 is PASS-SHAPED on the scale clock: exit *can* precede Hubble exit
+    and can occur before the CSW floor for isotropy-to-structure seeds.
+
+  Caveats (load-bearing, not fine print):
+  1. Pure-radiation H(a) near exit is an approximation; full multi-fluid
+     contraction shifts a_loc by O(1) factors, not 30 orders.
+  2. Σ0 is a homogeneous Bianchi seed. Real collapse is inhomogeneous;
+     overdense patches can reach large local σ earlier (helps RP-A locally).
+  3. MIXMASTER-WINDOW: classical GR can go chaotic (Σ≳1, R_σ≫ξ) *before*
+     the medium cutoff. RP-A needs either to survive that window or to
+     redefine exit by a different curvature invariant. NOT computed here.
+  4. This does NOT write F-A1–F-A3 matching. M1 only prices the shear clock.
+  5. Grade: reconstructed milestone, not a derived bounce.
+==============================================================================

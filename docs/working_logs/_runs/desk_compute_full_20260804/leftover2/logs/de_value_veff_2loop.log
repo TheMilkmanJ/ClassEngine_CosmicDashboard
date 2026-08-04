@@ -1,0 +1,24 @@
+=== (1) SSB threshold: the 1-loop induced mass is tachyonic only for L > 3/2 ===
+   mu= 511.0 keV: L= 0.00  bracket(L-3/2)=-1.50  NO SSB
+   mu= 310.0 keV: L= 1.00  bracket(L-3/2)=-0.50  NO SSB
+   mu= 193.0 keV: L= 1.95  bracket(L-3/2)=+0.45  SSB
+   mu= 100.0 keV: L= 3.26  bracket(L-3/2)=+1.76  SSB
+   mu=  60.0 keV: L= 4.28  bracket(L-3/2)=+2.78  SSB
+   => at the natural scale mu=m_e (L=0): NO SSB. Breaking needs mu<~310 keV, i.e. a LARGE log.
+
+=== (2) The decisive test: does the 2-loop give a PHYSICAL PMS (scale where dT_c/dln_mu=0)? ===
+   PMS condition: L_PMS = -pi/(2 alpha c2), any O(1) 2-loop coeff c2:
+   c2=-3.0: L_PMS=   71.8  ->  mu_PMS/m_e = e^-36 = 2.6e-16  (mu_PMS=1.3e-10 eV)
+   c2=-1.0: L_PMS=  215.3  ->  mu_PMS/m_e = e^-108 = 1.8e-47  (mu_PMS=9.3e-42 eV)
+   c2=-0.3: L_PMS=  717.5  ->  mu_PMS/m_e = e^-359 = 1.6e-156  (mu_PMS=8.0e-151 eV)
+   => for ANY O(1) 2-loop coefficient, L_PMS ~ 1/alpha ~ 200 -> mu_PMS ~ e^-100 m_e -- UNPHYSICAL.
+
+=== VERDICT ===
+The 2-loop RG-improvement does NOT pin T_c. The QED coupling is too small (alpha~1/137): the 2-loop
+curvature is O(alpha), so the scale-stationary point sits at a log ~ 1/alpha, i.e. mu ~ e^-100 m_e --
+far below any physical scale. Independent of the (uncomputed) 2-loop constant c0. So T_c is NOT a
+perturbatively well-defined quantity: the dyad's electron-CW condensation is a LARGE-LOG / marginal
+effect (no SSB at mu=m_e; SSB only in the large-log regime where the expansion is unreliable).
+=> the seam DE route rho_L^1/4=(9/2)alpha^4 T_c rests on an ill-defined T_c. This is the honest, 
+   BUILT result -- a definite negative, not a handoff. The condensation needs a NON-perturbative
+   (gap-equation / lattice-class) treatment to define T_c, if it survives at all.

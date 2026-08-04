@@ -1,0 +1,93 @@
+==============================================================================
+  str[k1] FOR THE STANDARD MODEL, FROM VISSER'S PUBLISHED COEFFICIENTS
+==============================================================================
+
+  S-A  Visser internal check: Dirac = 2 x Weyl
+       Dirac -1/3   2 x Weyl -1/3
+  ok    S-A1 holds
+
+  S-B  Visser internal check: massive vector = massless vector + minimal scalar
+       (Visser states this in words: 'k1 for a massive vector is calculated by
+        adding k1 for a minimally coupled scalar to k1 for a massless vector')
+       -1/2 =?= -2/3 + 1/6 = -1/2
+  ok    S-B1 holds, so bosons enter with their PRINTED sign   this pins the convention and is not a free choice
+
+  S-C  Standard Model Weyl content
+       Q (3x2)      6
+       u^c (3)      3
+       d^c (3)      3
+       L (2)        2
+       e^c (1)      1
+       per generation = 15;  x 3 generations = 45
+  ok    S-C1 15 Weyl per generation
+  ok    S-C2 45 Weyl in the Standard Model
+  ok    S-C3 48 with three right-handed neutrinos
+
+  S-D  str[k1] for SM + 3 nu_R  (gauge bosons + fermions)
+       48 Weyl  x (+1/6) = 8
+       12 massless vectors x (-2/3) = -8
+       sum = 0
+  ok    S-D1 exactly zero   0
+
+  S-E  str[k1] for the Standard Model alone
+       45 Weyl x (+1/6) = 15/2;  vectors -8
+       sum = -1/2  in Visser's units
+       the corpus quotes -3, which is the WEYL DEFICIT: 45 - 48 = -3
+  ok    S-E1 str[k1] = -1/2 in Visser's units   -1/2
+  ok    S-E2 and the Weyl deficit is -3   same fact, different unit -- the paper must not conflate them
+  ok    S-E3 the two are related by 1/6   (-3)/6 = -1/2
+
+  S-F  the integer identity
+       N_(1/2) = 48,  4 x N_1 = 4 x 12 = 48
+  ok    S-F1 N_(1/2) = 4 N_1 exactly   an integer identity with no slack
+
+  S-G  the Higgs sector
+       xi_H = 0 (minimal  ): 4(1/6 - xi) = 2/3
+       xi_H = 1/6 (conformal): 4(1/6 - xi) = 0
+  ok    S-G1 vanishes iff xi_H = 1/6   so the zero is CONDITIONAL on conformal Higgs coupling
+
+  S-H  ANTI-CONTROL: do the forward exclusions actually break the balance?
+       one extra sterile Weyl : str[k1] -> 1/6  (was 0)
+       a fourth generation    : str[k1] -> 8/3  (was 0)
+  ok    S-H1 a light sterile neutrino breaks it   1/6
+  ok    S-H2 a fourth generation breaks it   8/3
+  ok    S-H3 so the paper has real forward content
+
+  S-I  ANTI-CONTROL: what if the fermion minus HAD been double-counted?
+       taking Weyl as -1/6 too: -16
+  ok    S-I1 it would give -16, nowhere near zero   -16
+  ok    S-I2 so the convention is load-bearing and S-B settles it
+
+==============================================================================
+  RESULT — THE CLAIM IS CONFIRMED, WITH ONE UNIT CORRECTION
+==============================================================================
+
+  str[k1] = 0 holds exactly for the Standard Model plus three right-handed neutrinos, with a
+  conformally coupled Higgs. The balance is the integer identity N_(1/2) = 4 N_1, i.e.
+  48 = 4 x 12, with no slack anywhere in it.
+
+  The sign convention -- the one thing that could have destroyed the result -- is settled by
+  Visser's own table rather than by assumption. His caption folds the fermion minus in only
+  for the supermultiplet rows, and his stated additivity for massive vectors
+  (-1/2 = -2/3 + 1/6) only works if bosons carry their printed sign. Had the minus been
+  double-counted the total would be -16, so the convention is load-bearing and it checks.
+
+  ONE CORRECTION THE PAPER MUST CARRY. The corpus writes "str[k1] = -3" for the Standard
+  Model alone. In Visser's normalisation it is **-1/2**; the -3 is the deficit counted in
+  Weyl spinors (45 - 48), related by the 1/6 per Weyl. Both are true and the -3 is the more
+  legible statement, but a referee checking Table 1 will get -1/2 and conclude the arithmetic
+  is wrong. Quote both, or quote -1/2 and give the Weyl deficit alongside.
+
+  The forward content survives: one extra sterile Weyl shifts the balance by +1/6 and a
+  fourth generation by +8/3, so both are genuinely excluded rather than merely disfavoured.
+
+EXIT 0
+
+---
+ANNOTATION (Claude red all-four-lanes cure, 2026-08-04) — ALREADY CURED
+The "ONE CORRECTION THE PAPER MUST CARRY" (str[k1]=-3 vs Visser -1/2) is STALE as an open defect.
+Both normalisations are paired on shelf so referees are not misled:
+  PRTOE_induced_gravity.md (~141), PRTOE_quantum_gravity.md, PRTOE_READERS_RISK.md,
+  PRTOE_dcdf_superfluid.md, PRTOE_PREREGISTERED_PREDICTIONS.md.
+Shipped supertrace-note does not make the ambiguous sole claim.
+Do not re-open. Exit 0 ≠ automatic PASS for desk audits.

@@ -1,0 +1,150 @@
+{
+  "stamp": "2026-08-04T09:43:56.739847+00:00",
+  "packs": [
+    "arithmetic"
+  ],
+  "timeout_s": 120,
+  "n_jobs": 9,
+  "n_exit0": 9,
+  "n_nonzero": 0,
+  "n_timeout": 0,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "bbn_eps",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/papers/bbn-eps-bound/recompute_eps_bound.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:42:59.379237+00:00",
+      "exit": 0,
+      "elapsed_s": 0.265,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/bbn_eps.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "supertrace_k1",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/supertrace_k1_verify.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:42:59.647218+00:00",
+      "exit": 0,
+      "elapsed_s": 0.566,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/supertrace_k1.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "area_law_quarter",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/quantum_area_law_quarter.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:43:00.215411+00:00",
+      "exit": 0,
+      "elapsed_s": 0.567,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/area_law_quarter.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "tau_parseval",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/tau_parseval_recompute.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:43:00.784471+00:00",
+      "exit": 0,
+      "elapsed_s": 1.904,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/tau_parseval.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "rho_bounce",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/rho_bounce.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:43:02.690281+00:00",
+      "exit": 0,
+      "elapsed_s": 0.354,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/rho_bounce.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "fbar_lo",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/fbar_leading_order_price.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:43:03.047245+00:00",
+      "exit": 0,
+      "elapsed_s": 1.187,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/fbar_lo.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "fbar_cw_lo",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/fbar_cw_lo_closure.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:43:04.339224+00:00",
+      "exit": 0,
+      "elapsed_s": 10.936,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/fbar_cw_lo.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "fbar_window",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/fbar_window_discriminator.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:43:15.288033+00:00",
+      "exit": 0,
+      "elapsed_s": 0.142,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/fbar_window.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "fbar_envelope",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/fbar_finite_turn_envelope.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:43:15.437105+00:00",
+      "exit": 0,
+      "elapsed_s": 41.298,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/arithmetic/logs/fbar_envelope.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

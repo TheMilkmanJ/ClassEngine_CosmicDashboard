@@ -1,0 +1,180 @@
+{
+  "stamp": "2026-08-04T09:48:54.998941+00:00",
+  "packs": [
+    "hierarchy"
+  ],
+  "timeout_s": 180,
+  "n_jobs": 11,
+  "n_exit0": 10,
+  "n_nonzero": 0,
+  "n_timeout": 1,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "hierarchy_6f_double_count",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/hierarchy_6f_double_count.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:42:59.823074+00:00",
+      "exit": 0,
+      "elapsed_s": 0.202,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/hierarchy_6f_double_count.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "hierarchy_alpha_scale_fork",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/hierarchy_alpha_scale_fork.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:00.028391+00:00",
+      "exit": 0,
+      "elapsed_s": 0.408,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/hierarchy_alpha_scale_fork.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "hierarchy_anchor_budget",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/hierarchy_anchor_budget.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:00.463650+00:00",
+      "exit": 0,
+      "elapsed_s": 1.165,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/hierarchy_anchor_budget.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "hierarchy_fock_self_energy",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/hierarchy_fock_self_energy.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:01.630192+00:00",
+      "exit": 0,
+      "elapsed_s": 153.286,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/hierarchy_fock_self_energy.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "hierarchy_kF_and_bendover",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/hierarchy_kF_and_bendover.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:45:34.924606+00:00",
+      "exit": 0,
+      "elapsed_s": 0.811,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/hierarchy_kF_and_bendover.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "hierarchy_vertex_crossed_box",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/hierarchy_vertex_crossed_box.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:45:35.742385+00:00",
+      "exit": -9,
+      "elapsed_s": 197.939,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/hierarchy_vertex_crossed_box.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "timeout"
+    },
+    {
+      "label": "basement_mass_spread",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/basement_mass_spread.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:48:53.684557+00:00",
+      "exit": 0,
+      "elapsed_s": 0.29,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/basement_mass_spread.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "basement_mu5_source",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/basement_mu5_source.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:48:53.976510+00:00",
+      "exit": 0,
+      "elapsed_s": 0.374,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/basement_mu5_source.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "basement_phase_check",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/basement_phase_check.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:48:54.404595+00:00",
+      "exit": 0,
+      "elapsed_s": 0.421,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/basement_phase_check.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "basement_screening_fence",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/basement_screening_fence.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:48:54.829457+00:00",
+      "exit": 0,
+      "elapsed_s": 0.082,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/basement_screening_fence.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "basement_species_selection",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/basement_species_selection.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:48:54.913990+00:00",
+      "exit": 0,
+      "elapsed_s": 0.084,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/hierarchy/logs/basement_species_selection.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

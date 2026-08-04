@@ -1,5 +1,12 @@
 # Direct Detection — the Predicted Silence of Every Underground Lab (2026-07-11)
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** forced **registered nulls** + one **machine-backed** σ (trace-channel); not OPEN-MACHINE.
+> **Not claimed:** positive detection; redirect-instrument wins; quoting silence as a scored validation win.
+> **Authority:** claims ledger this file; [T9_direct_detection_owed.md](working_logs/T9_direct_detection_owed.md); [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
+> **Currency:** null arithmetic paid (σ ≈ 8×10⁻¹⁵⁰ cm²); continued silence earns nothing further.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
@@ -67,3 +74,20 @@ it on the radio.*
 The trace-channel recoil cross-section, computed: **σ ≈ 8×10⁻¹⁵⁰ cm² — ~100 orders below
 the neutrino fog.** The underground silence is not a bet; it is arithmetic. Standing for
 every future exposure: continued nulls cost the model nothing and earn it nothing.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Haloscope / LSW null forever (EM-neutrality) | **registered null** (forced) | Meissner/photon-mass; L1a birefringence zero | Weak-end bound 37 orders |
+| 2 | Nuclear-recoil null at reachable cross-sections | **registered null** | Condensate quanta 2×10⁻²⁰ eV; trace channel | — |
+| 3 | Trace-channel σ ≈ 8×10⁻¹⁵⁰ cm² | **machine-backed** | §The number | ~100 orders under neutrino fog |
+| 4 | Fifth-force / EP null within reach | **registered null** | EP/Vainshtein clearance recorded | — |
+| 5 | Collider missing-E null within reach | **complete-conditional** | f ~100–500 TeV; census portal 13–20 TeV | HL-LHC visible branch |
+| 6 | One confirmed DD signal kills model unhedgeably | **registered kill** | §3 | Asymmetric bet (silence earns nothing) |
+
+**Non-claims:** not a positive detection claim; redirect instruments are not this file’s wins.
+
+**Triage:** elevate-in-place. Physics ceiling: forced nulls (structure).

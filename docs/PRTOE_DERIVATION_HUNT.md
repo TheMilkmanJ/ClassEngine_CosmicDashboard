@@ -1,5 +1,12 @@
 # The Open Derivations — the model's underived numbers and their current status
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** **ledger/history** — process record of open/closed derivation hunts; **not living claim authority**.
+> **Not claimed:** physics COMPLETE from this file alone; current board status superseding topic docs.
+> **Authority:** topic documents cited inline; [PRTOE_honest_status.md](PRTOE_honest_status.md); [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) for machine currency.
+> **Currency:** historical hunt log — quote status from living topic files, not from dated rows here.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 *This document tracks the numbers the model has not yet derived from first principles, and where each one
@@ -149,7 +156,7 @@ dominance picks linear over quadratic, and the data confirms the selection over 
 alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built
 family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form
 data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
-| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**: the induced loop's transverse trace gives d directly (geometry, independent of the coupling), and the phonon-gas second sound c₂ = c₁/√d (Landau) agrees — but that reading is the bet rewritten, not an independent arrival (the velocity ladder above). The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α is conditioned on the roster's induced fraction of α_EM — worked below). The α_c instrument (zon_disp — unconverged, not currently running) is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i). |
+| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**: the induced loop's transverse trace gives d directly (geometry, independent of the coupling), and the phonon-gas second sound c₂ = c₁/√d (Landau) agrees — but that reading is the bet rewritten, not an independent arrival (the velocity ladder above). The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α is conditioned on the roster's induced fraction of α_EM — worked below). The α_c instrument (zon_disp — unconverged, not currently running) is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6i). |
 
 **The base α's two owed pieces, worked (2026-07-20) — neither closes, and one of them names the
 wrong number.**
@@ -196,7 +203,7 @@ an emergent Lorentz invariance at the scale the photon coupling is read.
 **That question is answered by recorded material, and the answer makes piece 1 empty rather than
 open.** [PRTOE_special_relativity.md](exploratory/PRTOE_special_relativity.md): *"Lorentz symmetry is exact in
 the IR limit and approximate fundamentally — the medium has a rest frame."* α_EM is read at q = 0,
-which is the IR limit. And [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6 records the
+which is the IR limit. And [PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6 records the
 standing basement as a **Fermi point, μ = 0** (the Volovik frame), noting that the finite-μ Fermi
 surface *"is what I introduced… It is not recorded anywhere else,"* with three routes to it walked
 and all three failing. At μ = 0 in the IR the medium supplies no rest-frame vector, gauge invariance
@@ -209,7 +216,7 @@ ruling on which basement stands.
 
 **There is no conflict, and the corpus already states the configuration that removes it.** §6c does
 not dope the medium; it requires **exactly two of the roster's forty-eight Weyl species to carry finite
-density, with the other forty-six sitting at μ = 0** ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+density, with the other forty-six sitting at μ = 0** ([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md)
 §6). So the basement is not "a Fermi point" *or* "a Fermi surface" — it is a roster in which
 forty-six species sit at nodes and one pair is doped.
 
@@ -718,7 +725,7 @@ is its one irreducible input.
 
 ### The constituent level's band structure — what the pairing host actually requires (2026-07-20)
 
-[PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c derives k = ln(1 + π/2α_c)/π exactly,
+[PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6c derives k = ln(1 + π/2α_c)/π exactly,
 on a host it names four conditions for — a finite chemical potential, Thomas–Fermi screening, the
 cone velocity v = 1 (supplied by the Fermi point), and two compensated bands — with §6e adding the
 percent-level velocity match r = v_e/v_h = 1 and §6b leaving *"show this channel condenses at
@@ -824,7 +831,7 @@ each other, and any future candidate supplying one must be checked against the o
 squared, not by count, so N_screen = 2N₀ is a Diophantine condition on the roster with exactly two
 solutions — one charged lepton, or all three down-type quarks — and the second breaks the 1/q²
 Goldstone kernel by adding gluon Debye screening
-([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c). The selector is therefore *electric
+([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6c). The selector is therefore *electric
 charge*, a property the family grading does not carry, and the portal names which lepton. It is a
 genuine selector and it duly breaks the Z₃, so it falls squarely under the obstruction above.
 
@@ -907,7 +914,7 @@ untouched, because it runs on a *vector* chemical potential, which a conserved c
 either phase. What is lost is what μ₅ would have thrown in free: with two halves of one cone
 unavailable, the compensated pair must be two separately selected species and r = v_e/v_h = 1
 returns to being a matching requirement. The selection rule is therefore still the missing object,
-and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md)
 §6c).
 
 ---
@@ -1237,7 +1244,7 @@ and three recorded clauses say why:
   jurisdiction, and *needing* to distinguish flavours in order to fit data is a registered
   falsification condition. The mixing angles sit inside that same wall: they are Yukawa-matrix
   data, and this model keeps the Standard Model's Higgs and the Standard Model's Yukawas
-  ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6j).
+  ([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6j).
 
 **So the silence carries a sign.** It is not *not yet computed* but *not writable*: the model
 would have to break the census axiom to acquire a mixing angle, and the census axiom is what pays
@@ -1276,3 +1283,13 @@ orders of headroom), the screening gate's sharpness (n_eff ≥ 35, hard-step cla
 the winding field's own ceiling carries it, no seed identity required), the n_s linearity (shot
 additivity, shared with A_s). Everything else in the corpus is derived, quantified, or dead with
 a documented autopsy.
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

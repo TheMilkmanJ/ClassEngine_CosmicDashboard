@@ -1,0 +1,35 @@
+==============================================================================
+The amplitude closed form, priced: the declared-grammar scan
+==============================================================================
+
+   k = ln(1 + π/2α_c)/π = 1.36461;  recorded form value: 2.0807e-09
+
+   grammar size: 1008 forms;  hits within ±1%: 1
+   1·(α_c^1·k^-1/(4π)^1)^3 = 2.0807e-09   (-0.92%)
+
+   hit rate: 0.10% — the chance a random grammar member
+   lands this close. For comparison, landing anywhere within ±1% of a
+   nine-orders-deep target from O(1)–O(10) ingredients requires the
+   exponent structure to be right before the percent-level test begins.
+
+WHAT THE SCAN CANNOT CHEAPEN (the claim's real load)
+   * k is not a dial: three independent determinations agree —
+     gap equation 1.360, closed form 1.36461, amplitude-implied
+     1.3602 ± 0.0064. The concordance is 0.2–0.5%-level and predates
+     any scan; a lucky form does not explain a triple agreement.
+   * the cube is the spatial dimension and 4π the loop factor — the
+     exponents were structural claims before they were fits.
+
+THE NAMED PATHS (unchanged by the pricing)
+   promote: derive the shot-noise normalization C = 1 (the factor-250
+   convention spread is the obstacle) and resolve the host mismatch
+   (cold Fermi surface reconstruction vs hot Fermi point basement).
+   kill: the k-concordance breaking (any determination leaving the
+   Eliashberg window), or the C-derivation landing ≠ 1.
+
+VERDICT: neither promoted nor killed — PRICED AND HELD. The form's
+   grammar-mate hit rate is 0.10%; its load-bearing content is the
+   k triple-concordance and the structural exponents; its residual is
+   the C = 1 identification, owed by the basement. Candidate, exposed,
+   now with its coincidence cost on the record.
+==============================================================================

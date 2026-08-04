@@ -1,0 +1,71 @@
+============================================================================
+WHAT ONE DOPED NODE PAIR IS WORTH, SPECIES BY SPECIES
+============================================================================
+  species                |q|  colour   N_screen/N_0
+  --------------------------------------------------
+  charged lepton      1.0000       1         2.0000
+  neutrino            0.0000       1         0.0000
+  up-type quark       0.6667       3         2.6667
+  down-type quark     0.3333       3         0.6667
+
+  A chiral chemical potential on ONE Dirac cone dopes its two chiralities oppositely,
+  giving an electron pocket and a hole pocket at the same Fermi level. That is why a
+  single cone contributes TWO screening bands while the pair it forms has ONE density
+  of states -- section 6c's '2-for-screening, 1-for-pairing' asymmetry, delivered by
+  the mechanism rather than assumed. The pockets are the same cone's two halves, so
+  they share a velocity: r = v_e/v_h = 1 is automatic, not a further condition.
+
+============================================================================
+WHICH COMBINATIONS HIT N_screen = 2 N_0 EXACTLY?
+============================================================================
+  searching all species counts 0..3 per type (256 combinations)
+
+    3 x down-type quark
+    1 x neutrino + 3 x down-type quark
+    2 x neutrino + 3 x down-type quark
+    3 x neutrino + 3 x down-type quark
+    1 x charged lepton
+    1 x charged lepton + 1 x neutrino
+    1 x charged lepton + 2 x neutrino
+    1 x charged lepton + 3 x neutrino
+
+  8 solutions, but the neutrino is invisible to the screening (q = 0), so it
+  rides free: doped or not, it changes nothing. Collapsing that column leaves
+  2 distinct configurations of the CHARGED sector:
+
+    3 x down-type quark
+    1 x charged lepton
+
+  Up-type quarks are excluded outright: one costs 8/3, already past 2.
+
+============================================================================
+THE TWO SURVIVORS, WEIGHED
+============================================================================
+  (a) ONE charged lepton. A single cone, one coincidence, no colour.
+  (b) ALL THREE down-type quarks. Three cones doped to a common Fermi level -- three
+      coincidences rather than one -- and all three carry colour, so the medium would
+      acquire a gluon Debye mass alongside the photon's. The kernel section 6c uses is
+      the medium's own 1/q^2 Goldstone exchange and carries no colour screening, so (b)
+      is not merely less economical: it changes the exchange the derivation runs on.
+
+  So the charge weighting takes '2 of 48, nothing selects them' down to one viable
+  configuration: the doped node pair is a CHARGED LEPTON. Which of the three the
+  corpus already answers elsewhere -- the electron is the portal, sqrt(sigma_dark) = m_e.
+
+============================================================================
+AND IT CORRECTS THE FULL-ROSTER READING OF THE FAILED KILL
+============================================================================
+  Section 6c prices 'the whole roster doped' as N = 24, the 48 Weyl as Dirac
+  equivalents. Charge-weighted it is not 24 but  sum over the roster = 16.0000
+  which is the recorded sum of squared charges over the 48-Weyl roster, SumQ^2 = 16.
+  The screening count and that invariant are the same quantity, which is a check on
+  both: one generation contributes 16/3, three give 16.
+
+    k at N = 24 (the counted reading)          0.61846
+    k at N = 16 (the charge-weighted reading)  0.73195
+    k at N = 2  (the booked point)             1.36461229
+
+  anchor at N = 24  x2.9e-18      at N = 16  x2.7e-13
+  Both destroy the anchor, so the failed kill stays failed and the verdict is
+  unchanged -- but 16 is the right number for it, and it is one the corpus already
+  carries for another reason entirely.

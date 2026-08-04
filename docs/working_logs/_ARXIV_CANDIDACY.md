@@ -29,6 +29,13 @@
 
 ---
 
+
+> **2026-08-03 evening — derivation EXIT GATE.** Seats agree: **no desk-runnable derivations remain**
+> (`DERIVATION_EXHAUSTION_MAP.md`: 42 blocked / 28 paid). arXiv-ready pass P1–P2:
+> packages 6/6 clean; docs grade CORPUS_ONLY 43 / NOT_READY 24 / **new PAPER_CANDIDATE 0**.
+> Detail: `_runs/arxiv_ready_pass_20260803/`. No new short paper without new closed science.
+> Derivation hunting **stopped** unless a new missing derivation is discovered during file work.
+
 ## Status values
 
 | status | meaning |
@@ -296,7 +303,7 @@ inventory row `PRTOE_LV_pricing.md`.
 | `PRTOE_CMB_map.md` | CORPUS_ONLY | Six-spectra scorecard |
 | `PRTOE_lss_parity.md` | NOT_READY | Amplitude short; DESI 4PCF WATCH |
 | `PRTOE_igmf_helicity.md` | NOT_READY | OPEN-THEORY (sign link 4) |
-| `PRTOE_cosmic_magnetism.md` | NOT_READY | OPEN-THEORY; RM formula missing |
+| `PRTOE_cosmic_magnetism.md` | NOT_READY | OPEN-THEORY; void floor OPEN; RM geometric paid / amplitude open |
 | `PRTOE_koide_relation.md` | NOT_READY | OPEN-THEORY (#101/#102, pacing, sign-chain) |
 | `PRTOE_forced_combination.md` | NOT_READY | Inherits Koide program grade |
 | `PRTOE_quartet_clock.md` | NOT_READY | OPEN-MACHINE (zon_disp parked) |

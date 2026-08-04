@@ -1,0 +1,72 @@
+==============================================================================
+  #85 — THE FOUR DELIVERY LAWS ARE ONE EXPONENT
+==============================================================================
+
+  D-A  the recorded mode structure
+  ok    D-A1 k_S/k_D = 2 exactly   6.0/3.0
+  ok    D-A2 so omega_S/omega_D = sqrt2
+  ok    D-A3 multiplicities: singlet 1, doublet 2
+
+  D-B  every recorded law is eps_mode ~ k^p
+
+    law                                           predicted   recorded
+    p=0   classical equipartition (per DOF)        2.000000   2.000000
+  ok    D-B [p=0] reproduces 2.0000
+    p=1/2 zero-point, (1/2)hbar omega per mode     1.414214   1.414214
+  ok    D-B [p=1/2] reproduces 1.4142
+    p=1   equal amplitude, per sector              1.000000   1.000000
+  ok    D-B [p=1] reproduces 1.0000
+    p=1   equal amplitude, per MODE                0.500000   0.500000
+  ok    D-B [p=1 per-mode] reproduces 0.5000
+
+  D-C  the 1 and the 1/2 are the SAME law
+  ok    D-C1 they share p = 1   identical exponent
+  ok    D-C2 and differ by exactly the doublet multiplicity   1.000000 / 0.500000 = 2
+       -> so the fork has THREE branches, not four; carrying the 1/2 as a
+          separate mechanism overstates it.
+
+  D-D  ANTI-CONTROL: can the family fit arbitrary numbers?
+  ok    D-D1 none of {3, 1/3, 4, 0.75} is produced at p in {0, 1/2, 1}   stray hits: []
+       -> the family is constrained: it lands on the four recorded values
+          and not on nearby plausible ones, so the unification is not vacuous.
+          (ratio 3.0000 would need p = -0.5850 — not in the set)
+          (ratio 0.3333 would need p = +2.5850 — not in the set)
+
+  D-E  which sector is the delivery law a statement about?
+  ok    D-E1 the two sectors have genuinely different ratios   radial 2.000 vs amplitude 8.2426
+  ok    D-E2 the amplitude sector does NOT reproduce the recorded values   p=1/2 gives 0.6966 (recorded sqrt2), p=1 gives 0.2426 (recorded 1)
+  ok    D-E3 the radial sector DOES, exactly
+       -> so the recorded laws are RADIAL-sector statements. That is not an
+          assumption here; it is forced, because no other sector reproduces
+          the numbers the corpus already carries. (Note p = 0 cannot
+          discriminate — k^0 = 1 in any sector — so the discrimination rests
+          entirely on the p = 1/2 and p = 1 entries.)
+
+==============================================================================
+  RESULT
+==============================================================================
+
+  THE FORK IS SMALLER AND BETTER POSED THAN RECORDED.
+
+  All four "competing laws" are eps_mode ~ k^p on the ring's own mode structure,
+  at p = 0, 1/2, 1 — with the 1 and the 1/2 being the SAME p = 1 law quoted with
+  and without the doublet's multiplicity. So there are THREE mechanisms, not four,
+  and one entry on the list was a bookkeeping duplicate.
+
+  THE WHOLE QUESTION IS ONE EXPONENT: how does deposited energy scale with mode
+  stiffness?
+      p = 0    classical and thermal — equal energy per degree of freedom
+      p = 1/2  quantum and cold — equal QUANTA, (1/2) hbar omega per mode
+      p = 1    equal AMPLITUDE — every mode left with the same <|f|^2>
+
+  AND ONE BRANCH IS ALREADY UNDER PRESSURE. The delivery-law discriminator showed
+  the classical thermal reading distorts Q by 1025 ppm against a 6 ppm budget, and
+  concluded the classical equipartition reading is the one under pressure. That is
+  p = 0. The live fork is therefore p = 1/2 against p = 1, and the discriminator's
+  named survivor — the occupancy lock, a cold quantum law — sits at p = 1/2.
+
+  WHAT THIS DOES NOT DO. It does not derive p. Kibble–Zurek would fix it (the quench
+  determines which spectrum is frozen in) and so would the ring-BEC bench, and
+  neither is attempted here. But the target has changed shape: from "choose among
+  four numbers" to "determine one exponent, with one branch already disfavoured".
+

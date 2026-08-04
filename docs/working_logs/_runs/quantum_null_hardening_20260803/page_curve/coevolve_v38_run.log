@@ -1,0 +1,9 @@
+A) continuum field φ(x,t)
+   snaps=21 final_phi_std=4.275e+01
+B) pure-state unitary (co-evolution schedule)
+N1 g=0
+N2 thermal decohered rad
+N3 vacuum
+preT8_self=False CANDIDATE_TURN=False v_late=0.869 drop=0.0112 frac_rise_w_du=0.04530307968349011
+wrote docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/coevolve_v38.json (version 38; write-once)
+wrote docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_COEVOLVE.md and docs/working_logs/_runs/quantum_residual_task_20260803/PAGE_COEVOLVE_RESULT.md

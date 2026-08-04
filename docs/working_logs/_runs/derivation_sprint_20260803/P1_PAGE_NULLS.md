@@ -1,0 +1,85 @@
+# P1 — Page week3 null suite (instrument only)
+
+**Stamp:** 2026-08-03 23:13 UTC  
+**Status:** INSTRUMENT nulls on week3 finite-core skeleton.  
+**Page curve claimed:** **false** (hard lock).  
+**Sprint:** derivation_sprint_20260803 · track **P1**  
+**Script:** `scripts/quantum_page_week3_nulls.py`  
+**JSON:** `docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/week3_nulls.json`  
+**Parent instrument:** `scripts/quantum_page_core_skeleton_week3.py` · `PAGE_CURVE_WEEK3.md`
+
+---
+
+## 0. Standing locks
+
+| lock | value |
+|---|---|
+| `page_curve_claimed` | **false** |
+| Dynamical Page as PRTOE result | **OPEN / not claimed** |
+| Baseline `late_drop` (if true) | **instrument curiosity only** until nulls + hardening |
+| Q6 / information paradox close | **forbidden** from this package |
+
+---
+
+## 1. What was run
+
+Same Gaussian covariance instrument as week3 (N_c=4, N_r=8, dt=0.05, n_steps=80, week1 T_H=0.019894).
+
+| null | setup | expected instrument behavior |
+|---|---|---|
+| **A** | g=0, same initial seed as baseline | S_rad does **not** grow from coupling |
+| **B** | g=0.08, rad modes **re-thermalized** each step (infinite-bath proxy) | **no** purification-style late drop callable as Page |
+| **C** | pure vacuum core+rad, g=0.08 | near-zero initial S_rad; no fabricated thermal Page-scale curve from vacuum alone |
+
+---
+
+## 2. Null table (instrument PASS/FAIL)
+
+| null | grade | key numbers | criterion |
+|---|---|---|---|
+| **A g=0** | **PASS** | max\|ΔS_rad\|=0.000e+00; S0=8.117993e-03; late_drop=False | max|S_rad(t)-S_rad(0)| <= 1e-10 (no entropy growth from coupling when g=0) |
+| **B infinite bath** | **PASS** | S0=0.008118; peak=0.041183; late=0.041183; late_drop=False | no purification-style late_drop_after_peak when rad is re-thermalized each step (infinite-bath proxy) |
+| **C vacuum** | **PASS** | S0=2.863052e-11; peak=2.863052e-11; late_drop=False | S_rad(0) <= 1e-08 and peak S_rad not a fabricated thermal Page-scale rise from vacuum alone |
+| **suite** | **PASS** | — | all three instrument nulls |
+
+---
+
+## 3. Baseline reference (not a Page claim)
+
+Loaded from `week3_core_skeleton.json` if present:
+
+| quantity | value |
+|---|---|
+| available | True |
+| page_curve_claimed | False |
+| peak S_rad | 0.008117992816348979 |
+| late S_rad | 0.007932514846786923 |
+| late_drop_after_peak | True |
+| claim_grade | instrument_skeleton_only |
+
+If baseline `late_drop_after_peak` is true, that remains an **instrument curiosity**. Null B is the control that would have to fail (show the same purification-style drop under infinite bath) to *discredit* reading baseline late drop as finite-core purification — and Null B must **not** show that drop for the control to behave. **None of this books a Page turn.**
+
+---
+
+## 4. Explicit non-claims
+
+1. **Not** a derived Page curve.  
+2. **Not** continuum sonic-horizon modes (week2 separate).  
+3. **Not** self-consistent κ(E) evaporation.  
+4. **Not** DYNAMICS-PASS grade (week4 full hardening still open).  
+5. Toy bilinear coupling + Gaussian covariance only.
+
+---
+
+## 5. Recompute
+
+```bash
+python3 scripts/quantum_page_core_skeleton_week3.py
+python3 scripts/quantum_page_week3_nulls.py
+python3 scripts/quantum_page_sonic_horizon_week1.py
+python3 scripts/quantum_page_bogoliubov_week2.py
+```
+
+---
+
+*P1 instrument package. page_curve_claimed: false. No fabrications.*

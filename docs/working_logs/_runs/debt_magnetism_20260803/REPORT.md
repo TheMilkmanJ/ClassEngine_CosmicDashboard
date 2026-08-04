@@ -1,5 +1,12 @@
 # Debt report — Cosmic magnetism void floor + RM coherence formula
 
+> **SUPERSEDE NOTE (2026-08-03):** §3 “RM formula MISSING” is **stale**.  
+> Same-day paydown: `docs/working_logs/_runs/debt_rm_formula_20260803/REPORT.md` + `scripts/rm_coherence_kibble.py`  
+> — **RM geometric scale paid** (survey-plane ℓ~25–60).  
+> **Void floor residual still OPEN** (this report §§1–2 still govern).  
+> Do not read RM geometry as void-floor close. Audit: `DEBT_HONESTY_AUDIT_20260803.md`.
+
+
 **Run id:** `debt_magnetism_20260803`  
 **Date:** 2026-08-03  
 **Worker:** blue-team science (desk audit; no MCMC)  

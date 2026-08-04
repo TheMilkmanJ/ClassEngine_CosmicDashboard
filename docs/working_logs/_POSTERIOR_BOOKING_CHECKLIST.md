@@ -1,12 +1,36 @@
-# Posterior booking checklist — WHEN R−1 ≤ 0.05 (bbnfix pair)
+# Posterior booking checklist — WHEN R−1 < 0.05 (bbnfix pair) + self-stop
 
 **Do not run multi-hour re-analyses “to check.”** This file is the runbook for the
 moment the BBN-fixed production pair grades. Until then, `finalize_h0` will
 refuse and nothing below is bookable.
 
-Last gate smoke-test (2026-08-02 ~22:20): dyad R−1 = **0.192**, lcdm R−1 = **0.141**
-→ `NOT YET`. RouteD is a separate object (stop **0.1**); do not book its thaw
-posterior until its own R−1 hits stop.
+**Hard fences:** NO FABRICATIONS · do not book unconverged posteriors · leave live
+MCMCs alone · **booking ≠ publishing** (tables need `RED_AUDIT`) · never quote
+pre-bbnfix ΔlnZ ≈ +2.6 as final bbnfix evidence without fence · no PolyChord.
+
+Last gate smoke (2026-08-04): dyad R−1 = **0.189**, lcdm R−1 = **0.059**, both
+`converged: false` → `book_bbnfix_when_ready.py` **REFUSED** (exit 2). RouteD is a
+separate object (stop **0.1**); do not book its thaw posterior until its own R−1
+hits stop.
+
+Packages:
+- `docs/working_logs/_runs/laplace_booking_full_20260804/` — full RUNBOOK + PREFLIGHT  
+- `docs/working_logs/_runs/laplace_prep_harden_20260804/` — Stage A/B + kill-criteria harden  
+- `docs/working_logs/_runs/open_board_split_20260803/LAPLACE_PREP.md` — Laplace inventory  
+
+---
+
+## Publish split — Stage A vs Stage B
+
+| stage | meaning | command | forward shelf? |
+|-------|---------|---------|:--------------:|
+| **Stage A** (default) | book + finalize H₀ (stdout) + optional Δχ² proxy | `bash scripts/bbnfix_when_ready_all.sh` | **NO** |
+| **Red** | audit booking package | `bbnfix_booking_<id>/RED_AUDIT.md` with `red: AGREE` or `red: AGREE-IF` | no |
+| **Stage B** | write GetDist tables to living docs | `bash scripts/bbnfix_when_ready_all.sh --write-tables` | **YES** (needs red stamp) |
+
+`WRITE_TABLES` defaults to **0**. Without red stamp, `--write-tables` refuses.
+Owner emergency only: `--force-tables`. Force GetDist (`--force-bbnfix`) is
+**UNBOOKABLE-only** → `getdist_force_UNBOOKABLE_*`, never `PRTOE_CHAIN_TABLES.md`.
 
 ---
 
@@ -33,8 +57,9 @@ grep -E 'Rminus1_last|converged' chains/dyad_mnu_bbnfix.checkpoint \
 Optional one-shot refuse/grade:
 
 ```bash
+python3 scripts/book_bbnfix_when_ready.py   # preferred gate authority; exit 2 if refuse
 python3 scripts/finalize_h0_at_convergence.py
-# Unconverged: prints both R−1 and "NOT YET", exits cleanly.
+# Unconverged: prints both R−1 and "NOT YET", exits 2.
 # Graded: prints model/control H₀ ± σ and the letter replacement sentence (stdout only).
 ```
 
@@ -46,77 +71,95 @@ python3 scripts/finalize_h0_at_convergence.py
 
 ## Prerequisites (all must be true before booking)
 
+**Claude open-board-split R-D cure (2026-08-03): both required — no soft language.**
+
 1. **Both** `dyad_mnu_bbnfix` and `cmp_lcdm_mnu_bbnfix` have last-row R−1 **< 0.05**
-   (and preferably `converged: true` in `.checkpoint`).
-2. All three rank files exist per root: `chains/<root>.{1,2,3}.txt` (MPI size 3).
-3. Chains are **idle or finished** for the write pass (or you accept that GetDist
-   reads a moving file). Prefer waiting until cobaya has stopped or written a
-   final progress row under the bar.
-4. Working directory = repo root (`/home/themilkmanj/prtoe_class`).
-5. Env has `getdist`, `numpy`, and the same classy/cobaya stack used for the runs
+   (strict `<`, not `≤`).
+2. **Sampler self-terminated** on **both** chains: `converged: true` in `.checkpoint`
+   (or cobaya idle after writing a final progress row under the bar).  
+   **Both R−1 < 0.05 AND self-stop — both required.** No “prefer” / “preferably.”
+3. All three rank files exist per root: `chains/<root>.{1,2,3}.txt` (MPI size 3).
+4. Chains are **idle or finished** for the write pass. **Do not** run GetDist on a
+   still-writing chain (moving-file escape hatch **killed** by red).
+5. Working directory = repo root (`/home/themilkmanj/prtoe_class`).
+6. Env has `getdist`, `numpy`, and the same classy/cobaya stack used for the runs
    (no classy rebuild between last samples and booking if you plan a Laplace
    re-eval that re-calls CLASS).
-6. **Do not** promote any number that was peeks while R−1 > stop.
+7. **Do not** promote any number that was peeks while R−1 ≥ stop.
 
 ---
 
-## Step A — H₀ letter gate (seconds; edits nothing)
+## Stage A — book + H₀ letter (seconds–minutes; no forward shelf)
+
+Preferred one-shot (tables **OFF** by default):
 
 ```bash
 cd /home/themilkmanj/prtoe_class
+bash scripts/bbnfix_when_ready_all.sh
+```
+
+### A.1 — GetDist booking entrypoint (production authority)
+
+```bash
+python3 scripts/book_bbnfix_when_ready.py
+```
+
+| | |
+|---|---|
+| **Hard gate** | both R−1 < 0.05 **and** both `converged: true` |
+| **Reads** | three ranks via GetDist `loadMCSamples`, ignore_rows=0.3 |
+| **Writes** | private `_runs/bbnfix_booking_<stamp>/REPORT.md` + `booking.json` only |
+| **Refuse** | exit **2**; refuse card always written |
+
+### A.2 — H₀ letter gate (stdout only)
+
+```bash
 python3 scripts/finalize_h0_at_convergence.py
 ```
 
 | | |
 |---|---|
 | **Script** | `scripts/finalize_h0_at_convergence.py` |
-| **Hard gate** | both of `PAIR = ("cmp_lcdm_mnu_bbnfix", "dyad_mnu_bbnfix")` with R−1 < `RBAR = 0.05` |
-| **Reads** | `chains/<name>.progress` (last R−1); `chains/dyad_mnu_bbnfix.1.txt` and `cmp_lcdm_mnu_bbnfix.1.txt` (H₀ column, **50% burn on rank 1 only**) |
+| **Hard gate** | both of `PAIR = ("cmp_lcdm_mnu_bbnfix", "dyad_mnu_bbnfix")` with R−1 < `RBAR = 0.05` **and** self-stop |
+| **Reads** | progress R−1; rank-1 H₀ (**50% burn**) when graded |
 | **Writes** | **nothing** — stdout only (manual-edits rule) |
-| **Manual follow-up** | paste printed H₀ sentence into Fairbank letter Status; close HOLD item 1 with date + both R−1; delete provisional caveat |
+| **Manual follow-up** | paste printed H₀ sentence into Fairbank letter Status **after** red if publishing; close HOLD item 1 with date + both R−1 |
 
-**Limitation to fix at booking time if you want production-grade H₀:** the script
-currently stacks only rank `.1.txt`. For the booked number, prefer a GetDist
-marginal over all three ranks (Step B) and quote that mean ±68% rather than the
-rank-1 half-chain σ.
+**Limitation:** rank `.1.txt` only. Prefer three-rank book card for public σ.
 
 ---
 
-## Step B — GetDist tables + triangles (minutes, not hours)
+## Stage B — GetDist tables + triangles (publish; needs RED_AUDIT)
 
 Instrument: `scripts/make_getdist_tables.py` (ForJustin/12 item 5(b)).
 
-**As of 2026-08-02 the script’s `ROOTS` list still only has archive runs**
-(`cmp_prtoe_conv_desi`, `cmp_prtoe_zon_disp`, `dyad_mnu_mcmc`, `cmp_prtoe_zon`).
-Before booking the production pair, **extend `ROOTS`** (edit the list in the
-script, or add a one-off call) so it includes:
+BBN-fixed roots are already in `BBNFIX_ROOTS` and gated behind `--include-bbnfix`
+(both R−1 < 0.05 **and** self-stop). Do **not** hand-edit `ROOTS` for a peek.
 
-```python
-("dyad_mnu_bbnfix", "BBN-fixed model, Σm_ν free"),
-("cmp_lcdm_mnu_bbnfix", "BBN-fixed ΛCDM+mν twin"),
-# only when routeD itself is under its stop:
-# ("cmp_prtoe_routeD", "thaw / no-bare (dcdf_floor_thaw)"),
-```
-
-Then:
+Preferred publish path (Stage B after red):
 
 ```bash
-cd /home/themilkmanj/prtoe_class
-python3 scripts/make_getdist_tables.py
+# After Claude writes bbnfix_booking_<id>/RED_AUDIT.md with: red: AGREE
+bash scripts/bbnfix_when_ready_all.sh --write-tables
+```
+
+Direct instrument (still gate-hard; prefer shell Stage B for red stamp):
+
+```bash
+python3 scripts/make_getdist_tables.py --include-bbnfix
+# gate closed → exit 2, no write
+# --force-bbnfix → UNBOOKABLE working_logs only; living shelf untouched
 ```
 
 | | |
 |---|---|
-| **Reads** | `chains/<root>.1.txt` only (header + samples); 30% burn-in (`BURN = 0.30`); first ≤8 non-nuisance cosmological params |
-| **Writes** | `docs/plots/<root>_triangle.png` per root; **overwrites** `docs/PRTOE_CHAIN_TABLES.md` body tables |
-| **Preserve** | The live-status banner at the top of `PRTOE_CHAIN_TABLES.md` is **not** regenerated by the script’s current template in a smart merge — after a successful run, **re-attach / restore the live-status preface** (or stop the script from clobbering it: prefer writing tables under a dated section). Treat the live table as sacred until you intentionally rewrite status. |
-| **Booking rule** | Only then may means / 68% limits be quoted as posteriors. Remove or rewrite the “⚠ none of these chains has converged” banner for rows that have graded. |
+| **Reads** | `chains/<root>.1.txt` (30% burn); first ≤8 non-nuisance params |
+| **Writes (gate open)** | triangles + **overwrites** `docs/PRTOE_CHAIN_TABLES.md` body |
+| **Writes (force, gate incomplete)** | `docs/working_logs/_runs/getdist_force_UNBOOKABLE_<stamp>/` only |
+| **Preserve** | restore live-status banner on `PRTOE_CHAIN_TABLES.md` if clobbered |
+| **Publish rule** | means / 68% enter forward docs only after Stage B + red |
 
-**Recommended production upgrade (optional, still minutes):** load all three ranks
-via GetDist `loadMCSamples` / stacked `MCSamples` so tables are not rank-1-only.
-`plot_chains.py` is the dashboard monitor, not the booking instrument.
-
-Sync living docs after tables land:
+Sync living docs only after Stage B + intentional publish:
 
 - `docs/working_logs/_chain_snapshot.md` — mark pair **booked**, record final R−1 / N
 - `docs/PRTOE_REFEREE_CALENDAR.md` Sitting NOW
@@ -146,17 +189,9 @@ When both chains are under the bar:
    sampled best points):
 
    ```bash
-   # min -logpost column (cobaya col 2) ≈ -log L - log π; for equal priors compare carefully
-   python3 - <<'PY'
-   import numpy as np
-   for name in ("dyad_mnu_bbnfix", "cmp_lcdm_mnu_bbnfix"):
-       best = None
-       for i in (1, 2, 3):
-           d = np.loadtxt(f"chains/{name}.{i}.txt")
-           m = d[:, 1].min()
-           best = m if best is None else min(best, m)
-       print(name, "min_minuslogpost", best)
-   PY
+   # Gate-hard wrapper (refuses unless both R−1 < 0.05 AND self-stop):
+   python3 scripts/bbnfix_delta_chi2_proxy.py
+   # Optional peek while over bar (marks UNBOOKABLE): --force-peek
    ```
 
    Report **Δ(min −logpost)** only with the caveat that this is not a full
@@ -213,13 +248,30 @@ three-rank mean check).
 
 ---
 
+## Explicit kill criteria
+
+| # | kill if… |
+|---|----------|
+| K1 | Book while either R−1 ≥ 0.05 |
+| K2 | Book before both `converged: true` (self-stop) |
+| K3 | Quote peeks / `--force-bbnfix` / `--force-peek` as bookable results |
+| K4 | Living `PRTOE_CHAIN_TABLES.md` written from force path (must be UNBOOKABLE only) |
+| K5 | Stage B tables without `RED_AUDIT` (`red: AGREE` / `AGREE-IF`) except owner `--force-tables` |
+| K6 | PolyChord / nested sampling for this booking session |
+| K7 | Kill live MCMCs without owner order |
+| K8 | Promote pre-bbnfix ΔlnZ ≈ +2.6 as final bbnfix evidence without fence |
+| K9 | RouteD substitute for the letter H₀ pair |
+| K10 | Invent a Laplace number or invent `scripts/laplace_bbnfix.py` |
+
 ## Explicit non-actions
 
 - Do **not** kill `dyad_mnu_bbnfix`, `cmp_lcdm_mnu_bbnfix`, or `cmp_prtoe_routeD` for booking prep.
 - Do **not** quote 68% limits while R−1 > stop (they understate width).
 - Do **not** use progress `acceptance_rate` as R−1 or as raw Metropolis accept.
 - Do **not** overwrite `PRTOE_CHAIN_TABLES.md` live-status banner without restoring it.
-- Do **not** replace the standing pre-bbnfix ΔlnZ ≈ +2.6 with an unconverged peek.
+- Do **not** replace the standing pre-bbnfix ΔlnZ ≈ +2.6 with an unconverged peek **or** treat it as the BBN-fixed-pair result.
+- Do **not** run long GetDist force “for results.”
+- Do **not** treat Stage A book as authorization to publish tables (needs Stage B + red).
 
 ---
 
@@ -227,7 +279,8 @@ three-rank mean check).
 
 ```bash
 cd /home/themilkmanj/prtoe_class
-python3 scripts/finalize_h0_at_convergence.py
+python3 scripts/book_bbnfix_when_ready.py          # expect REFUSED / exit 2 until gate
+python3 scripts/finalize_h0_at_convergence.py       # expect NOT YET / exit 2 until gate
 tail -1 chains/dyad_mnu_bbnfix.progress chains/cmp_lcdm_mnu_bbnfix.progress \
   chains/cmp_prtoe_routeD.progress
 ```

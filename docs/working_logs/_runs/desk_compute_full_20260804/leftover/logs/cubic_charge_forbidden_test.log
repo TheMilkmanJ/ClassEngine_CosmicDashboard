@@ -1,0 +1,52 @@
+============================================================================
+(1) THE SELECTION RULE ON THE CUBIC
+============================================================================
+  sum(phi_i^3) carries 3q, where q is the charge of a family-field component.
+         q        3q    allowed by U(1)?
+  ------------------------------------------
+   -1.0000   -3.0000           FORBIDDEN   (charged lepton)
+    0.0000    0.0000                 YES   (neutrino)
+    0.3333    1.0000           FORBIDDEN   (Z3 charge only)
+
+  So the cubic is forbidden outright for an electrically charged family field, and
+  allowed for a neutral one. That is a genuine selection rule, it is charge-coupled,
+  and it removes the corpus's own fence from the charged sector -- the fence was
+  derived for a term the charged sector cannot have.
+
+============================================================================
+(2) BUT THE QUARTIC ALONE DOES NOT FIX THE RATIO
+============================================================================
+  With the cubic gone the natural potential is V = (lam/4)(sum phi^2 - v^2)^2, and in
+  canonical coordinates sum phi^2 = M_c^2 + R_c^2. Its minimum is the whole SPHERE
+  M_c^2 + R_c^2 = v^2 -- a flat direction, not a point.
+
+  R_c = M_c is one point on that circle and nothing in the quartic prefers it. So
+  forbidding the cubic removes the wrong attractor without supplying the right one:
+  A becomes undetermined rather than sqrt2.
+
+============================================================================
+(3) THE KILL — THE NEUTRINO SIDE IS WRONG
+============================================================================
+  The story predicts: charged sector has no cubic (A free of the A->2 pull), the
+  neutral sector has one (A driven to the cubic's minimum, A = 2).
+
+    cubic minimum, recorded          A = 2
+    observed neutrino ring           A = sqrt(6 Q_nu - 2) = 0.8660   (Q_nu = 0.4583)
+    miss                             56.7%
+
+  The neutrino triple is not at the cubic's minimum, so the neutral sector is not
+  behaving as the story requires. The prediction the mechanism makes on the side
+  where it is testable is wrong by a factor 2.3, and that is decisive.
+
+============================================================================
+WHAT SURVIVES
+============================================================================
+  One piece, and it is worth keeping: the recorded fence -- 'a natural Z3 cubic drives
+  A -> 2, do not cite Z3-invariant cubics as the landing mechanism' -- was derived
+  without asking whether the charged sector may carry that term at all. It may not:
+  3q = 0 fails for q = -1. The fence stands for a neutral family field and does not
+  bind a charged one.
+
+  That does not derive sqrt2. It removes one recorded obstacle from the charged
+  sector's path and leaves the flat direction unresolved, which is where the blank
+  now sits: what picks R_c = M_c on the quartic's circle.

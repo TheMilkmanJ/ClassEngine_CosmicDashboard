@@ -1,0 +1,54 @@
+==============================================================================
+M4 — causal character of the non-metric boundary (constraint pass)
+==============================================================================
+
+A. Spacelike condition at the shear door  (delta < 6 L / R_H, R_H = sqrt3 xi)
+   L =   0.1 xi   ->  door spacelike up to contrast delta* =     0.35
+   L =   0.5 xi   ->  door spacelike up to contrast delta* =     1.73
+   L =   1.0 xi   ->  door spacelike up to contrast delta* =     3.46
+   L =   3.0 xi   ->  door spacelike up to contrast delta* =    10.39
+   L =  10.0 xi   ->  door spacelike up to contrast delta* =    34.64
+   READ: on healing-length scales and above, the door stays spacelike up
+   to ORDER-UNITY contrasts. Sub-xi structure is inside the medium regime
+   anyway. Collapsed regions (delta >> 1 on L >~ xi) turn their door
+   segment TIMELIKE — an ingoing absorbing wall. Absorbing walls are
+   black-hole-class and allowed; the prohibition bites at RE-ENTRY only.
+
+B. The re-entry (arrow) constraint
+   A point may not re-enter the expanding metric phase while a causally
+   adjacent region is still on the contracting metric branch: the
+   interface would be a timelike boundary emitting into the contracting
+   exterior — exactly the white-hole-class local object the model
+   forbids. Absent a written re-synchronization mechanism inside the
+   medium interval (that would be a NEW fabricated part, F-A5), the
+   crossing-epoch offsets survive, so the interval must HOLD:
+
+   delta =  1.0e+00  (order-unity contrast at the door  ):  hold >=  4.27e-02 t_heal
+   delta =  1.0e+03  (deeply nonlinear pockets          ):  hold >=  4.27e+01 t_heal
+   delta =  5.0e+10  (M2b H3 concentration shortcut     ):  hold >=  2.14e+09 t_heal
+
+C. Collision with the concentration shortcut (H3)
+   hold(H3) / mixmaster window = 178
+   READ: using Delta-rho ~ 5e10 concentration to replace the assumed
+   compression e-folds would demand a hold ~178x LONGER than the
+   entire classical chaos window. The causal constraint and the
+   concentration shortcut are in tension: hot patches cannot double as
+   a cheap spacelike re-entry. H3 now carries a causal cost.
+
+D. Arrow through the interval
+   With the metric off, time orientation is carried by the medium's own
+   clock (the condensate phase drift <theta_dot> != 0 — the recorded
+   arrow sector). Switch-off and re-entry surfaces are ordered by that
+   clock; NO local time-reversed metric patch is needed anywhere in the
+   assembly: switch-off is an ending cap, re-entry a beginning cap.
+
+VERDICT (M4)
+   O8 (no white-hole engine): PASS-SHAPED in structure, at a price now
+   written as an equation: re-entry must be achronal, so the interval
+   holds >= delta_max * R_H / 6, or a re-synchronization mechanism must
+   be exhibited (new fabricated part F-A5, named).
+   Smooth doors (delta <~ 1): hold ~ 0.04 t_heal — causally cheap.
+   Concentration route (H3): hold ~ 2e9 t_heal — causally expensive.
+   The bounce is still NOT derived; M4 adds a hard boundary condition
+   that any future matching rule must satisfy.
+==============================================================================

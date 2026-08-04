@@ -1,0 +1,39 @@
+==============================================================================
+The dark colour group: uniqueness closed for every N_c
+==============================================================================
+
+(1) THE IDENTITY  2(N_c^2-1)/N_c = 2*N_c - 2/N_c
+    verified exactly (Fraction arithmetic) for N_c = 1..2000: identical throughout
+
+(2) THE RECORDED TABLE, reproduced
+    N_c :        2        3        4        5        6
+    N_f :        3    5.333      7.5      9.6    11.67
+
+(3) THE ARGUMENT: 2*N_c is always an integer, so N_f is an integer
+    exactly when N_c divides 2.
+    scan N_c = 1..100000 for integer N_f -> [1, 2]
+    (the scan CONFIRMS the argument; the argument is what proves it,
+     since a scan of any finite range never could)
+      N_c = 1 -> N_f = 0   [no gluons (N_c^2-1 = 0), no quarks: the empty theory]
+      N_c = 2 -> N_f = 3   [the standing assignment]
+
+(4) WHY THE NEAR-MISSES ARE NEAR
+    N_f = 2*N_c - 2/N_c sits just under the even integer 2*N_c, by
+    2/N_c, which shrinks as N_c grows:
+      N_c =   3: 2*N_c =   6, short by 0.6667
+      N_c =   6: 2*N_c =  12, short by 0.3333
+      N_c =  12: 2*N_c =  24, short by 0.1667
+      N_c = 100: 2*N_c = 200, short by 0.0200
+    so large-N_c values approach an integer without attaining one —
+    the deficit is never zero for N_c > 2.
+
+VERDICT:
+   THE UNIQUENESS IS PROVABLE, NOT MERELY TABULATED. N_f is an
+   integer iff N_c | 2, so the only candidates in the entire
+   infinite range are N_c = 1 (the empty theory, N_f = 0) and
+   N_c = 2 (N_f = 3). SU(2) with three light flavours is the unique
+   nontrivial solution of the self-cancellation condition, and the
+   five-row table can be replaced by one line of divisibility.
+   This STRENGTHENS the recorded claim rather than altering it: the
+   conclusion was right, the warrant behind it was a finite scan.
+==============================================================================

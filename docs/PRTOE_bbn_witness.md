@@ -94,3 +94,21 @@ No heal available to the electron-coupled scalar for quarks (leptophilic by data
 ## Sources
 
 PRyM pipeline scripts under `scripts/prym_*.py`. Predictions: P-2026-027, P-2026-053, P-2026-058. Risk summary: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Sector rigid (no free BBN knobs); T_c = 177.10 keV from Koide τ | **machine-backed / derived-conditional** | `scripts/prym_*.py`; τ = ½ln2 | Lattice P-2026-048 crowns τ |
+| 2 | Window effect: Y_p +0.852%, D/H +0.645%, Li +0.263% (relative) | **machine-backed** | PRyM window run §(i) | Licenses relative shifts only |
+| 3 | Model D/H = 2.387×10⁻⁵; worse than ΛCDM control by ~0.6–0.7σ | **machine-backed** (owned-adverse) | §(ii); deuterium_row | Nuclear systematic dominates absolute σ |
+| 4 | Absolute D/H row σ class −2.94σ standing; ζ residual eases D, worsens He | **machine-backed** + **OPEN** residual | ζ window; P-2026-053 | **WATCH-EXTERNAL:** LUNA d(d,n)³He (P-2026-058) |
+| 5 | Y_p +1.1σ Aver / +3.5σ EMPRESS (window; baseline-robust) | **machine-backed** (owned-adverse) | §Helium | EMPRESS fork open in literature |
+| 6 | Dark-radiation residual ζ ∈ [0.25,0.35] → ΔN_eff 0.06–0.24 | **OPEN** (ζ un-derived; Planck-located) | §Dark-radiation residual | CMB-S4 P-2026-053 falsifier |
+| 7 | No free heal for quarks; leptophilic forced by D/H | **derived** (data exclusion) | deuterium_row §5–6 | — |
+
+**Non-claims:** not a BBN win; not nuclear-rate free; ΔN_eff residual not derived from first principles.
+
+**Triage:** elevate-in-place. Physics ceiling: machine-backed adverse + **OPEN-BLOCKED** (LUNA / ζ).

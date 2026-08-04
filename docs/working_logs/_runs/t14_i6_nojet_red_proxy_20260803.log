@@ -1,0 +1,630 @@
+OpenAI Codex v0.114.0 (research preview)
+--------
+workdir: /home/themilkmanj/prtoe_class
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/themilkmanj/snap/codex/34/memories]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019fc8d7-da76-7e82-b2b2-2615dc9e8892
+--------
+user
+You are Claude RED TEAM PROXY for PRTOE (pure red, no builds). Claude CLI offline (rate limit).
+
+Read and attack A4 production nojet:
+- docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet/summary.json
+- docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log  
+- docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md
+
+Questions: (1) is nojet PASS overclaimed? (2) large drift_phys ~387% with ---- no ring — pathology or expected null? (3) any production booking smuggle?
+
+APPEND to ForGrok&Claude.md:
+
+### RED VERDICT R1-t14-i6-nojet (proxy Codex / Claude offline) @FROM:CLAUDE @TO:ALL >>BLUE >>REF
+
+Mark clearly that live Claude must re-confirm when session returns. NO FABRICATIONS. Four-branch IN FLIGHT — invent nothing about it.
+mcp startup: no servers
+codex
+I’m pulling the three run artifacts plus the target note file, then I’ll trace the evidence for PASS, drift behavior, and any booking-path contamination before I append a verdict.
+exec
+/bin/bash -lc "sed -n '1,260p' docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# R1-t14-i6 A4 production — grade update (2026-08-03 ~12:15 MDT)
+
+**NO FABRICATIONS.** Numbers from console / `summary.json` only.  
+**Run:** `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`
+
+## Pipeline
+
+| Step | Status | Evidence |
+|---|---|---|
+| [1/4] calibrate | **PASS** | `calibrate.log` |
+| [2/4] null nowinding | **DONE** | `null_nowinding/summary.json` elapsed **5684 s** |
+| [3/4] null nojet | **DONE** | `null_nojet/summary.json` elapsed **5622 s** |
+| [4/4] four-branch | **IN FLIGHT** | `four_branch/` BRANCH n+1_f+1 started |
+
+## Null nojet (production 128³) — COMPLETE
+
+| Branch | Verdict | Result |
+|---|---|---|
+| n+1_f+1 | **null** all t∈[0.25,1.50] `----` | no false ring |
+| n−1_f+1 | **null** all t∈[0.25,1.50] `----` | no false ring |
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet/summary.json" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+{
+  "booking": "nothing graded (no ring / no verdict frame)",
+  "smoke": false,
+  "elapsed_s": 5622.11589884758,
+  "results": {
+    "n+1_f+1": {
+      "tag": "n+1_f+1",
+      "n_wind": 1,
+      "fountain_sign": 1,
+      "verdict": null,
+      "margin_ok": false
+    },
+    "n-1_f+1": {
+      "tag": "n-1_f+1",
+      "n_wind": -1,
+      "fountain_sign": 1,
+      "verdict": null,
+      "margin_ok": false
+    }
+  }
+exec
+/bin/bash -lc "sed -n '1,260p' docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+======================================================================
+  T14 single-instrument H_kin — protocol 2026-08-03
+  grid 128x128x256  T_MAX=1.5  PRODUCTION
+  out: docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet
+======================================================================
+  NULL MODE: nojet (background winding only)
+
+======================================================================
+  BRANCH n+1_f+1
+======================================================================
+  [n+1_f+1 t= 0.25] ----  drift_phys=0.268%
+  [n+1_f+1 t= 0.50] ----  drift_phys=29.240%
+  [n+1_f+1 t= 0.75] ----  drift_phys=132.894%
+  [n+1_f+1 t= 1.00] ----  drift_phys=236.256%
+  [n+1_f+1 t= 1.25] ----  drift_phys=319.044%
+  [n+1_f+1 t= 1.50] ----  drift_phys=387.350%
+  NO VERDICT FRAME for n+1_f+1
+
+======================================================================
+  BRANCH n-1_f+1
+exec
+/bin/bash -lc "if [ -f ForGrok\\&Claude.md ]; then sed -n '1,240p' ForGrok\\&Claude.md; else echo '__MISSING__'; fi" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# For Grok, Claude & ChatGPT — tribunal coordination brief
+
+**Created:** 2026-08-03 (dual) · **Tribunal expansion:** 2026-08-03  
+**Audience:** Grok, Claude, and ChatGPT (owner’s three sessions).  
+**Owner:** Justin Pulford.  
+**Repo root:** `/home/themilkmanj/prtoe_class`  
+**Branch (typical):** `coderabbit-review-2` / `main` — check `git status` before editing.
+
+Filename stays `ForGrok&Claude.md` so existing sessions keep the same path. Content is now a
+**three-seat tribunal**.
+
+---
+
+### Handoff 2026-08-03 (Agent: ChatGPT) — REFEREE: package is record-backed; correction is wording, not physics
+
+**Active primary:** T14
+**Done:**
+- Read the TASK COMPLETE and NEXT ISSUE package for `R1-t14-hkin-smoke` / `R1-t14-i2`
+- Confirmed the four defects are record-backed as written in Claude's challenge handoff
+- Confirmed the remand is well-formed process: fix the instrument, resmoke, then consider production
+codex
+I have the core evidence. Next I’m checking the instrument semantics around `drift_phys`, verdict frames, and prior nojet wording so the verdict stays tied to what the pipeline actually grades.
+exec
+/bin/bash -lc "rg -n \"drift_phys|NO VERDICT FRAME|no false ring|null fence PASS|nothing graded|no ring / no verdict frame|verdict frame\" docs scripts -g '"'!**/.git/**'"'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+docs/PRTOE_igmf_helicity.md:281:   verdict frame exceeds three times the instrument spread (protocol threshold), where the
+docs/PRTOE_igmf_helicity.md:286:3. **The verdict frame is fixed in advance**: the first frame with at least 15 of 16 position
+docs/PRTOE_igmf_helicity.md:288:   series of both readings is reported alongside it. Energy drift at the verdict frame — not
+docs/PRTOE_igmf_helicity.md:292:   record. Fields at the verdict frame are saved so diagnostics can be re-run without
+docs/working_logs/T14_igmf_helicity_owed.md:652:gate: |H| at the verdict frame > 3× the measured spread (protocol threshold), where the spread
+docs/working_logs/T14_igmf_helicity_owed.md:655:well-resolved frames. **The run must save ψ at the verdict frame** so this costs no
+docs/working_logs/T14_igmf_helicity_owed.md:661:first ring (t ≈ 1.0). For the deciding run the gate binds **at the verdict frame**, reported
+docs/working_logs/T14_igmf_helicity_owed.md:681:| ring fails to nucleate on any branch | nothing graded (a test that didn't run grades nothing) |
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f-1.json:4:    "drift_phys": 0.14396172265679472,
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f-1.json:20:    "drift_phys": 0.2774353311697176,
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f-1.json:36:    "drift_phys": 0.3996674712865469,
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f-1.json:52:    "drift_phys": 0.4388599925818887,
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f-1.json:68:    "drift_phys": 0.3801594214926719,
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f-1.json:84:    "drift_phys": 0.27782289426475404,
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/summary.json:24:        "drift_phys": 0.27782289426475404
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/summary.json:59:        "drift_phys": 0.3801594214926719
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/summary.json:94:        "drift_phys": 0.2777861227639294
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/summary.json:129:        "drift_phys": 0.3801906876075501
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f+1.json:4:    "drift_phys": 0.14396172265679472,
+docs/working_logs/_runs/t14_hkin_resmoke_r1i2/series_n+1_f+1.json:20:    "drift_phys": 0.2774353311697176,
+exec
+/bin/bash -lc "rg -n \"null nojet|nojet\" docs/working_logs -g 'REPORT.md' -g '*.md' -g '*.json'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+docs/working_logs/_runs/MASTER_CLOSURE_DASHBOARD_20260803.md:25:| **A4** | T14 H_kin i6 production @128³ (sign TC + nulls + mirror &lt;5%) | **IN_FLIGHT** | Production incomplete: cal PASS; nowinding f+1 through t=1.50 selected; f−1 branch still running; nojet + four-branch + TC grade **not done** | **Blue** (leave running) | `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`; skeleton `…/t14_i6_TC_SKELETON.md` |
+docs/working_logs/_runs/t14_i6_TC_SKELETON.md:13:| nojet | no false ring | **PASS** both n=±1 no verdict (elapsed 5622s) |
+docs/working_logs/_runs/t14_i6_TC_SKELETON.md:25:## nojet
+docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md:18:nice -n 19 python3 scripts/ring_toroidal_hkin.py --smoke --null nojet \
+docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md:28:| nojet | `nojet_console.log` → `../t14_smoke_revalidate_nj/summary.json` |
+docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md:30:Elapsed wall (shared host with A4): nowinding ~753 s; nojet ~683 s.
+docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md:89:- Production [3/4] nojet early lines already differ: t=0.50 drift_phys **29.24%** vs smoke ~0.64%. Smoke "no false ring" has **zero predictive weight** for unfinished 128³ nojet frames.
+docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md:93:## 3. Null `nojet` (winding only, n=±1)
+docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md:104:| nojet | no false ring | **PASS** |
+docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md:114:| nojet | no false ring | both branches no verdict | **PASS** |
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:194:5. Nulls re-run once at 128³ (nowinding + nojet).
+docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md:12:| [3/4] null nojet | **DONE** | `null_nojet/summary.json` elapsed **5622 s** |
+docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md:15:## Null nojet (production 128³) — COMPLETE
+docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md:25:True-mirror N/A on nojet (no verdicts). Same as smoke nojet grade; **does not pre-credit four-branch**.
+docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md:42:| nojet no false ring | **PASS** |
+docs/working_logs/_runs/hard_win_t14_recompute_card/RECIPE.md:11:python3 scripts/ring_toroidal_hkin.py --smoke --null nojet --out /tmp/t14_null_nj
+docs/working_logs/_runs/hard_win_t14_recompute_card/RECIPE.md:23:| nojet | no false ring |
+exec
+/bin/bash -lc "rg -n \"ring_toroidal_hkin.py|margin_ok|verdict\" -g '*.py' -g '*.md' docs scripts ." in /home/themilkmanj/prtoe_class succeeded in 35ms:
+./scripts/s8_total_vs_average.py:155:    # ---- verdict ------------------------------------------------------------
+./scripts/winding_comb_cl.py:123:    print(f"  {'n':>4s} {'A_prim for 0.7%':>17s} {'A_prim for 1.4%':>17s}  verdict")
+./scripts/medium_induced_decoherence.py:183:# ---------------------------------------------------------------- verdict
+./scripts/koide_null_sum_rule_check.py:26:  A split verdict: the sum-rule class protects the neutral half (conservation);
+./scripts/r1_caustic_sim.py:7:    V5 (docs/PRTOE_v5_five_verdict_derivation.md) constructed the local caustic-bit
+./scripts/seesaw_scan_card6.py:15:corner checks, no point verdicts.
+./docs/PRTOE_radio_lattice.md:31:The shifted regime is z > 50: the dark ages (the D/H referee against the CMB backlight; the lunar-farside band, driven by the terrestrial RFI reality) and cosmic dawn’s edge structure (P-022’s three-verdict shape: the edge frequency mapping shifted +2.5%; its retired A/B edge-shape fork is recorded in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).
+./docs/PRTOE_igmf_helicity.md:281:   verdict frame exceeds three times the instrument spread (protocol threshold), where the
+./docs/PRTOE_igmf_helicity.md:284:   fails, the pre-registered verdict is *"sign unresolved at this configuration — the
+./docs/PRTOE_igmf_helicity.md:286:3. **The verdict frame is fixed in advance**: the first frame with at least 15 of 16 position
+./docs/PRTOE_igmf_helicity.md:288:   series of both readings is reported alongside it. Energy drift at the verdict frame — not
+./docs/PRTOE_igmf_helicity.md:292:   record. Fields at the verdict frame are saved so diagnostics can be re-run without
+./docs/PRTOE_DOMAIN_COVERAGE.md:8:through, with the verdict class and a pointer to where the work is
+./docs/PRTOE_DOMAIN_COVERAGE.md:21:| 1 | Cosmology (CMB/BAO/SN background) | mover | The model: H₀ ≈ 69.9 (provisional, being re-measured), S₈ eased, plik better than ΛCDM's own. **The live test carries ε pinned at the derived value, not floated** — zero extra parameters, not +1. Laplace ΔlnZ = +2.635, suggestive and SH0ES-dependent — **and the Laplace is where the verdict rests**; PolyChord nested sampling is offline (ended 2026-07-20; cluster re-run deferred); the evidence claim sharpens when the production bbnfix pair converges (R−1 still above stop) | the headline-result document (v5_dCDF_complete, archived) |
+./docs/PRTOE_DOMAIN_COVERAGE.md:25:| 5 | Structure formation / galactic dynamics | mover (awaiting simulation, the sole ε-meter) | Granule power p²+q² is now the only observable that reads ε (make-or-break for ε ever being measurable); Room 5's χ-lag (uncondensed today in dwarfs) = candidate 4th axis: redshift-dependent core–halo, specific to the electron-coupled scalar | Room 1 E7/E7b/Room 5; five-verdict V1–V3 |
+./docs/PRTOE_DOMAIN_COVERAGE.md:33:| 13 | Particle physics / constants | null (census) | Coupling census closed gravity-only (theorem grade); free-parameter family dead (α +433, Y_p pinned, Ω_k forbidden); m_e the one permitted modification | the headline-result document; five-verdict doc |
+./docs/PRTOE_DOMAIN_COVERAGE.md:70:The rule this file serves: a domain is "covered" only when its verdict is recorded with a
+./scripts/y_junction_corrected_functional.py:202:    # ---- verdict ------------------------------------------------------------
+./scripts/koide_node_vs_backdrop.py:150:# ---------------------------------------------------------------- verdict
+./docs/working_logs/PRTOE_session_2026-07-10_findings.md:178:- **New registrations:** P-022 (21cm three-verdict), P-023 (Σm_ν divergence), P-024 (the ε-dipole),
+codex
+The run-level claim is already narrower in the raw artifacts than in the partial report. I’m checking the protocol text and the instrument code now so I can separate “allowed null-pass wording” from an actual overclaim.
+exec
+/bin/bash -lc "sed -n '76,122p' docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md" in /home/themilkmanj/prtoe_class succeeded in 1ms:
+|---|---:|---:|---|
+| n+0_f+1 | 0.50 | **−1.312** | would fail &lt;0.2 fence by ~6.6× if selected |
+| n+0_f+1 | 1.50 | **−0.295** | also outside fence |
+| n+0_f−1 | 0.50 | **+1.163** | would fail fence if selected |
+
+Blind selector chose t=1.00 both branches (6 candidates each). The fence table
+above applies to **selected verdicts only**. Transient ring helicity and large
+|H| at other t are real instrument-readable frames, not buried.
+
+### Anti-generalization to A4 (Claude G1/G2)
+
+- **Smoke** nowinding: both branches selected t=1.00 from 6-cand pools, 16/16 phase everywhere.
+- **Production 128³** nowinding: f−1 selected t=0.25 from **2** candidates with mid-frames NaN (nphase&lt;12/16). Smoke never entered that censored regime and **cannot cure** the production OPEN phase-coverage defect.
+- Production [3/4] nojet early lines already differ: t=0.50 drift_phys **29.24%** vs smoke ~0.64%. Smoke "no false ring" has **zero predictive weight** for unfinished 128³ nojet frames.
+
+---
+
+## 3. Null `nojet` (winding only, n=±1)
+
+| Branch | Verdict frame | Result vs fence |
+exec
+/bin/bash -lc "sed -n '668,692p' docs/working_logs/T14_igmf_helicity_owed.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+verdict). **The deciding run uses `ring_toroidal_circulation.py` or a successor only.** Two
+cheap controls worth one run each if capacity allows: (i) move the compensating anti-line to
+the opposite corner and confirm W moves less than the quoted spread (contamination bound;
+the ring does not link the anti-line, but its ~1/d phase field perturbs the probe samples);
+(ii) one branch at halved DT to bound integrator sensitivity of Tw.
+
+**Outcome table (no post-hoc switching):**
+
+| result | booking |
+|---|---|
+| margin passes, true-mirror antisymmetry holds | overall sign booked, candidate grade, **configuration-local**; generalization owed; the Harrison-transfer condition (drag copies the flow's handedness) named alongside |
+| margin fails | near-cancellation booked as the finding; sign stays open — not a failure |
+| true-mirror antisymmetry violated beyond measured asymmetry | nothing booked; instrument to the bench; debug row here, not the ledger |
+| ring fails to nucleate on any branch | nothing graded (a test that didn't run grades nothing) |
+
+**Unchanged by any outcome:** the branch closure (toroidal structure flips with the winding
+draw; universal handedness excluded), link 5's negative, and the hint's unreadability through
+this chain.
+exec
+/bin/bash -lc "sed -n '250,360p' scripts/ring_toroidal_hkin.py" in /home/themilkmanj/prtoe_class succeeded in 9ms:
+    helices while still killing bin noise on near-planar rings.
+    """
+    dense = fourier_resample(xyz, n_modes=n_modes, n_out=n_dense)
+    return gauss_writhe(dense)
+
+
+def extract(G, psi, n_wind: int, fountain_sign: int,
+            r_probe=R_PROBE_DEFAULT, abs_reject=ABS_REJECT_DEFAULT,
+            n_modes: int = 4):
+    """Locate ring + compute helA, W, Tw, Wr, H on this field."""
+    dens = np.abs(psi) ** 2
+    # ring half-space follows fountain
+    z_ok = (G["Z"] * fountain_sign) > 0.5
+    mask = (G["RP"] > 2.2) & (G["RP"] < G["LX"] / 2 - 4.0) & \
+           (np.abs(G["Z"]) < G["LZ"] / 2 - 6.0) & z_ok
+    rs, zs, ths, ijk, ok = [], [], [], [], 0
+    for b in range(NBINS):
+        lo = -np.pi + 2 * np.pi * b / NBINS
+        hi = -np.pi + 2 * np.pi * (b + 1) / NBINS
+        sel = mask & (G["PHI"] >= lo) & (G["PHI"] < hi)
+exec
+/bin/bash -lc "sed -n '1,120p' docs/working_logs/_runs/t14_i6_TC_SKELETON.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# TASK COMPLETE R1-t14-i6 — skeleton (live fill)
+
+**Path:** `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`  
+**NO FABRICATIONS.** Fill four-branch only when `four_branch/summary.json` exists.
+
+## Gates
+
+| Gate | Target | Result |
+|---|---|---|
+| Calibrate planar+helix | PASS | **PASS** |
+| nowinding \|H\| selected | ≪0.2 | **PASS** (H≈0; f−1 instrument-censored 2-cand) |
+| nowinding mid-frame phase | clean | **OPEN** f−1 nphase&lt;12/16 mid-frames |
+| nojet | no false ring | **PASS** both n=±1 no verdict (elapsed 5622s) |
+| True-mirror residual | **&lt;5%** at 128³ | **TBD** four-branch |
+| Margins \|H\|&gt;3×spread | all four | **TBD** |
+| Blind selector | no Tw/Wr/H | held |
+
+## nowinding selected
+
+| branch | t | H | drift_phys | ampA | margin_ok | n_cand (console) |
+codex
+The protocol is explicit that “ring fails to nucleate” grades as “nothing graded.” I’m tracing whether the existing PASS language is still acceptable shorthand, or whether it crosses into booking an ungraded null as a production win.
+exec
+/bin/bash -lc "sed -n '360,520p' scripts/ring_toroidal_hkin.py" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+                    continue
+                # |Tw| ≫ 1 on an n=±1 ring is dial failure, not physics
+                if np.isfinite(r.get("Tw", np.nan)) and abs(r["Tw"]) > 1.5:
+                    continue
+                Hs.append(r["H"])
+    if len(Hs) < 2:
+        return float("nan"), Hs
+    return float(np.std(Hs)), Hs
+
+
+def run_branch(G, n_wind: int, fountain_sign: int, out_dir: Path, null_mode: str = ""):
+    tag = f"n{n_wind:+d}_f{fountain_sign:+d}"
+    print(f"\n{'='*70}\n  BRANCH {tag}\n{'='*70}", flush=True)
+    psi = initial(G, n_wind, fountain_sign, null_mode=null_mode)
+    e0 = energy_physical(G, psi)
+    steps = int(round(T_MAX / DT))
+    every = int(round(FRAME / DT))
+    series = []
+    candidates = []  # list of (cand_dict, psi_copy)
+    verdict = None
+exec
+/bin/bash -lc "rg -n \"drift_phys\" scripts/ring_toroidal_hkin.py docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317 -g '"'!**/.git/**'"'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+scripts/ring_toroidal_hkin.py:389:        row = dict(t=t, drift_phys=drift)
+scripts/ring_toroidal_hkin.py:395:                  f"drift_phys={100*drift:.3f}%", flush=True)
+scripts/ring_toroidal_hkin.py:398:                cand = dict(t=t, **r, drift_phys=drift)
+scripts/ring_toroidal_hkin.py:403:            print(f"  [{tag} t={t:5.2f}] ----  drift_phys={100*drift:.3f}%", flush=True)
+scripts/ring_toroidal_hkin.py:408:    # quality), drift_phys, t-window.  FORBIDDEN in the key: Tw, Wr, H, W, helA sign.
+scripts/ring_toroidal_hkin.py:423:            return (c["nphase"], hela_ok, -c["drift_phys"], jump_score, amp, -c["t"])
+scripts/ring_toroidal_hkin.py:429:              f"drift={100*verdict['drift_phys']:.2f}% "
+scripts/ring_toroidal_hkin.py:448:              f"drift_phys={100*verdict['drift_phys']:.3f}%", flush=True)
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:11:  [n+1_f+1 t= 0.25] ----  drift_phys=0.268%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:12:  [n+1_f+1 t= 0.50] ----  drift_phys=29.240%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:13:  [n+1_f+1 t= 0.75] ----  drift_phys=132.894%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:14:  [n+1_f+1 t= 1.00] ----  drift_phys=236.256%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:15:  [n+1_f+1 t= 1.25] ----  drift_phys=319.044%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:16:  [n+1_f+1 t= 1.50] ----  drift_phys=387.350%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:22:  [n-1_f+1 t= 0.25] ----  drift_phys=0.268%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:23:  [n-1_f+1 t= 0.50] ----  drift_phys=29.238%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:24:  [n-1_f+1 t= 0.75] ----  drift_phys=132.743%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:25:  [n-1_f+1 t= 1.00] ----  drift_phys=236.203%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:26:  [n-1_f+1 t= 1.25] ----  drift_phys=318.159%
+docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log:27:  [n-1_f+1 t= 1.50] ----  drift_phys=386.272%
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nowinding/summary.json" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+{
+  "booking": "instrument to the bench \u2014 true-mirror checks missing/unmeasured (not a measured violation)",
+  "smoke": false,
+  "elapsed_s": 5684.482588529587,
+  "results": {
+    "n+0_f+1": {
+      "tag": "n+0_f+1",
+      "n_wind": 0,
+      "fountain_sign": 1,
+      "verdict": {
+        "t": 1.0,
+        "nbins": 16,
+        "nphase": 16,
+        "helA": 0.0,
+        "ampA": 3.1333255206039075e-17,
+        "W": -1.4135798584282297e-16,
+        "Tw": -1.4135798584282297e-16,
+        "Wr": 2.0143512982602275e-15,
+        "H": 1.8729933124174046e-15,
+        "phase_jump_max": 3.089012945758016,
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch/summary.json 2>/dev/null || echo '__NO_FOUR_BRANCH_SUMMARY__'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+__NO_FOUR_BRANCH_SUMMARY__
+codex
+I still need one layer deeper on the 387% drift. I’m checking whether `nojet` structurally removes the ring source while leaving the same energy accounting, or whether the null mode itself changes the denominator in a way that makes giant drift a known non-event.
+exec
+/bin/bash -lc "sed -n '1,250p' scripts/ring_toroidal_hkin.py" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+#!/usr/bin/env python3
+"""
+Single-instrument H_kin diagnostic for T14 link 4 — deciding run sibling.
+
+Implements the acceptance protocol registered 2026-08-03 (Claude purple-team /
+T14_igmf_helicity_owed.md § RED-TEAM) BEFORE this script existed.
+
+DESIGN (pre-registered — do not change after seeing numbers):
+  * Four branches: {n = ±1} × {fountain ±z}.  True-mirror pairs
+    (n, +z) ↔ (−n, −z) must give H → −H (parity of the dynamics).
+  * T_MAX = 1.5; verdict frame = first frame with ≥15/16 position bins AND
+    ≥12/16 phase probes, then prefer t = 1.00 if that frame also qualifies
+    (matches July settled-ring convention); report full helA/W series.
+  * Phase sampled OFF the core (R_PROBE default 1.5), never at the singularity.
+  * Save ψ at the verdict frame per branch for dial re-extraction (no re-evolve).
+  * Report H = 2n + Wr + Tw with Tw = W − n, Wr = discrete writhe of the
+    reconstructed centreline; also report 2n / (Wr+Tw) split.
+  * Margin gate: |H| > 3 × dial-spread (R_PROBE ∈ {1.0,1.5,2.0}, |ψ| reject
+    threshold dial), measured on the SAVED field only.
+  * Energy gate at the VERDICT FRAME in the physical (interior) region only —
+exec
+/bin/bash -lc "sed -n '520,680p' scripts/ring_toroidal_hkin.py" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+        booking = "overall sign BOOKABLE at candidate grade (configuration-local only)"
+        print("  Per-branch sign(H) vs sign(n):")
+        for (n, f), r in sorted(results.items()):
+            if r.get("verdict"):
+                H = r["verdict"]["H"]
+                print(f"    n={n:+d} f={f:+d}: H={H:+.4f}  "
+                      f"sign(H)/sign(n)={np.sign(H)/np.sign(n) if n else float('nan'):+.0f}")
+
+    print(f"\n  BOOKING: {booking}")
+    print("  Unchanged: branch closure (A flips with n); link 5 NEG; Fermi unreadable.")
+    print("=" * 70)
+    return booking
+
+
+
+def _torus_helix(R: float, a: float, n_hel: int, N: int) -> np.ndarray:
+    """Closed (1,n_hel) curve on a circular torus — standard helical ring."""
+    th = np.linspace(0, 2 * np.pi, N, endpoint=False)
+    x = (R + a * np.cos(n_hel * th)) * np.cos(th)
+    y = (R + a * np.cos(n_hel * th)) * np.sin(th)
+exec
+/bin/bash -lc 'rg -n "def initial|def energy_physical|null_mode|nojet|nowinding|def step|gamma|dissip" scripts/ring_toroidal_hkin.py' in /home/themilkmanj/prtoe_class succeeded in 0ms:
+21:    not absolute full-box energy (sponge is designed dissipation).
+89:def initial(G, n_wind: int, fountain_sign: int, null_mode: str = "") -> np.ndarray:
+91:    null_mode: '' | 'nojet' (winding only) | 'nowinding' (n=0, jet only).
+93:    if null_mode == "nowinding":
+100:    if null_mode == "nojet":
+109:def step(G, psi, dt):
+119:def energy_physical(G, psi) -> float:
+370:def run_branch(G, n_wind: int, fountain_sign: int, out_dir: Path, null_mode: str = ""):
+373:    psi = initial(G, n_wind, fountain_sign, null_mode=null_mode)
+614:    ap.add_argument("--null", choices=("", "nojet", "nowinding"), default="",
+615:                    help="R1-t14-i3 artifact nulls: nojet | nowinding")
+636:    null_mode = getattr(args, "null", "") or ""
+637:    if null_mode == "nojet":
+640:        print("  NULL MODE: nojet (background winding only)", flush=True)
+641:    elif null_mode == "nowinding":
+644:        print("  NULL MODE: nowinding (jet only, n=0)", flush=True)
+655:        results[(n, f)] = run_branch(G, n, f, out_dir, null_mode=null_mode)
+exec
+/bin/bash -lc "sed -n '1,120p' docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet/series_n+1_f+1.json" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+[
+  {
+    "t": 0.25,
+    "drift_phys": 0.002680482991374542
+  },
+  {
+    "t": 0.5,
+    "drift_phys": 0.29239876514215746
+  },
+  {
+    "t": 0.75,
+    "drift_phys": 1.3289356317051413
+  },
+  {
+    "t": 1.0,
+    "drift_phys": 2.3625598208297705
+  },
+  {
+    "t": 1.25,
+    "drift_phys": 3.19043976043602
+codex
+The code shows `drift_phys` is a relative interior-energy monitor from the branch’s own `e0`, and `nojet` literally zeros the jet phase ramp. I’m checking whether the 387% comes from a tiny denominator or from real large interior-energy growth.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from scripts import ring_toroidal_hkin as r
+for cfg_name,cfg in [('PROD',r.PROD),('SMOKE',r.SMOKE)]:
+    G=r.build_grid(cfg)
+    for mode in ['nojet','nowinding','']:
+        for n,f in [(1,1),(-1,1),(0,1),(0,-1),(1,-1),(-1,-1)]:
+            if mode=='nojet' and (n,f) not in [(1,1),(-1,1)]:
+                continue
+            if mode=='nowinding' and n"'!=0:
+                continue
+            if mode=='"'':
+                if (n,f) not in [(1,1),(1,-1),(-1,1),(-1,-1)]:
+                    continue
+            psi=r.initial(G,n,f,null_mode=mode)
+            e0=r.energy_physical(G,psi)
+            print(cfg_name, mode or 'full', n, f, e0)
+PY" in /home/themilkmanj/prtoe_classexec
+/bin/bash -lc "python3 - <<'PY'
+import json, os
+from pathlib import Path
+base=Path('docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317')
+for rel in ['null_nojet/series_n+1_f+1.json','null_nowinding/series_n+0_f+1.json']:
+    data=json.load(open(base/rel))
+    print(rel)
+    for row in data:
+        print(row)
+PY" in /home/themilkmanj/prtoe_class succeeded in 1.71s:
+null_nojet/series_n+1_f+1.json
+{'t': 0.25, 'drift_phys': 0.002680482991374542}
+{'t': 0.5, 'drift_phys': 0.29239876514215746}
+{'t': 0.75, 'drift_phys': 1.3289356317051413}
+{'t': 1.0, 'drift_phys': 2.3625598208297705}
+{'t': 1.25, 'drift_phys': 3.19043976043602}
+{'t': 1.5, 'drift_phys': 3.873500829118265}
+null_nowinding/series_n+0_f+1.json
+{'t': 0.25, 'drift_phys': 0.07305134685187639}
+{'t': 0.5, 'drift_phys': 0.14739573318535712, 'nbins': 16, 'nphase': 16, 'helA': 0.0, 'ampA': 0.093753994073157, 'W': 0.0, 'Tw': 0.0, 'Wr': 0.004734380591563924, 'H': 0.004734380591563924, 'phase_jump_max': 0.2560905892475369, 'mutual': 0.0, 'self_term': 0.004734380591563924, 'rbar': 2.247360952666881, 'zbar': 19.78125}
+{'t': 0.75, 'drift_phys': 0.13928740066213297, 'nbins': 16, 'nphase': 16, 'helA': 0.0, 'ampA': 0.0007793065800139053, 'W': 0.0, 'Tw': 0.0, 'Wr': 0.0013218592985308802, 'H': 0.0013218592985308802, 'phase_jump_max': 2.864337380016364, 'mutual': 0.0, 'self_term': 0.0013218592985308802, 'rbar': 2.5038965329000695, 'zbar': 9.875}
+{'t': 1.0, 'drift_phys': 0.03983165160462968, 'nbins': 16, 'nphase': 16, 'helA': 0.0, 'ampA': 3.1333255206039075e-17, 'W': -1.4135798584282297e-16, 'Tw': -1.4135798584282297e-16, 'Wr': 2.0143512982602275e-15, 'H': 1.8729933124174046e-15, 'phase_jump_max': 3.089012945758016, 'mutual': 0.0, 'self_term': 1.8729933124174046e-15, 'rbar': 3.200318123669363, 'zbar': 18.25}
+{'t': 1.25, 'drift_phys': 0.17428348688804365, 'nbins': 16, 'nphase': 16, 'helA': 0.0, 'ampA': 0.0006000751625827846, 'W': -1.4135798584282297e-16, 'Tw': -1.4135798584282297e-16, 'Wr': 0.0032672593624693785, 'H': 0.003267259362469237, 'phase_jump_max': 2.0518712331595372, 'mutual': 0.0, 'self_term': 0.003267259362469237, 'rbar': 3.025542861750283, 'zbar': 6.5}
+{'t': 1.5, 'drift_phys': 0.31451078993117304, 'nbins': 16, 'nphase': 16, 'helA': 0.0, 'ampA': 6.230531714192234e-17, 'W': 0.0, 'Tw': 0.0, 'Wr': -3.3572521637670453e-16, 'H': -3.3572521637670453e-16, 'phase_jump_max': 2.674110673659376, 'mutual': 0.0, 'self_term': -3.3572521637670453e-16, 'rbar': 3.496872518544283, 'zbar': 5.125}
+ exited 1 in 1.76s:
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/themilkmanj/prtoe_class/scripts/ring_toroidal_hkin.py", line 44, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+codex
+I’m waiting on two quick numeric checks: initial-energy scale and the exact nojet vs nowinding series. That should tell us whether the huge relative drift is mostly denominator-driven or an actual branch pathology.
+codex
+I have enough to frame the red verdict: the raw run books “nothing graded,” while the partial report upgrades that to a gate-level PASS. I’m pulling exact line references now, then I’ll append the tribunal note with that distinction and the live-Claude re-confirmation caveat.
+exec
+/bin/bash -lc "nl -ba docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet/summary.json | sed -n '1,80p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+     1	{
+     2	  "booking": "nothing graded (no ring / no verdict frame)",
+     3	  "smoke": false,
+     4	  "elapsed_s": 5622.11589884758,
+     5	  "results": {
+     6	    "n+1_f+1": {
+     7	      "tag": "n+1_f+1",
+     8	      "n_wind": 1,
+     9	      "fountain_sign": 1,
+    10	      "verdict": null,
+    11	      "margin_ok": false
+    12	    },
+    13	    "n-1_f+1": {
+    14	      "tag": "n-1_f+1",
+    15	      "n_wind": -1,
+    16	      "fountain_sign": 1,
+    17	      "verdict": null,
+    18	      "margin_ok": false
+    19	    }
+    20	  }
+exec
+/bin/bash -lc "nl -ba docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md | sed -n '1,120p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+     1	# R1-t14-i6 A4 production — grade update (2026-08-03 ~12:15 MDT)
+     2	
+     3	**NO FABRICATIONS.** Numbers from console / `summary.json` only.  
+     4	**Run:** `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`
+     5	
+     6	## Pipeline
+     7	
+     8	| Step | Status | Evidence |
+     9	|---|---|---|
+    10	| [1/4] calibrate | **PASS** | `calibrate.log` |
+    11	| [2/4] null nowinding | **DONE** | `null_nowinding/summary.json` elapsed **5684 s** |
+    12	| [3/4] null nojet | **DONE** | `null_nojet/summary.json` elapsed **5622 s** |
+    13	| [4/4] four-branch | **IN FLIGHT** | `four_branch/` BRANCH n+1_f+1 started |
+    14	
+    15	## Null nojet (production 128³) — COMPLETE
+    16	
+    17	| Branch | Verdict | Result |
+    18	|---|---|---|
+    19	| n+1_f+1 | **null** all t∈[0.25,1.50] `----` | no false ring |
+    20	| n−1_f+1 | **null** all t∈[0.25,1.50] `----` | no false ring |
+exec
+/bin/bash -lc "nl -ba docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet_console.log | sed -n '1,80p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+     1	======================================================================
+     2	  T14 single-instrument H_kin — protocol 2026-08-03
+     3	  grid 128x128x256  T_MAX=1.5  PRODUCTION
+     4	  out: docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet
+     5	======================================================================
+     6	  NULL MODE: nojet (background winding only)
+     7	
+     8	======================================================================
+     9	  BRANCH n+1_f+1
+    10	======================================================================
+    11	  [n+1_f+1 t= 0.25] ----  drift_phys=0.268%
+    12	  [n+1_f+1 t= 0.50] ----  drift_phys=29.240%
+    13	  [n+1_f+1 t= 0.75] ----  drift_phys=132.894%
+    14	  [n+1_f+1 t= 1.00] ----  drift_phys=236.256%
+    15	  [n+1_f+1 t= 1.25] ----  drift_phys=319.044%
+    16	  [n+1_f+1 t= 1.50] ----  drift_phys=387.350%
+    17	  NO VERDICT FRAME for n+1_f+1
+    18	
+    19	======================================================================
+    20	  BRANCH n-1_f+1
+exec
+/bin/bash -lc "nl -ba docs/working_logs/T14_igmf_helicity_owed.md | sed -n '676,688p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+   676	| result | booking |
+   677	|---|---|
+   678	| margin passes, true-mirror antisymmetry holds | overall sign booked, candidate grade, **configuration-local**; generalization owed; the Harrison-transfer condition (drag copies the flow's handedness) named alongside |
+   679	| margin fails | near-cancellation booked as the finding; sign stays open — not a failure |
+   680	| true-mirror antisymmetry violated beyond measured asymmetry | nothing booked; instrument to the bench; debug row here, not the ledger |
+   681	| ring fails to nucleate on any branch | nothing graded (a test that didn't run grades nothing) |
+   682	
+   683	**Unchanged by any outcome:** the branch closure (toroidal structure flips with the winding
+   684	draw; universal handedness excluded), link 5's negative, and the hint's unreadability through
+   685	this chain.
+exec
+/bin/bash -lc "nl -ba docs/working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md | sed -n '88,118p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+    88	- **Production 128³** nowinding: f−1 selected t=0.25 from **2** candidates with mid-frames NaN (nphase&lt;12/16). Smoke never entered that censored regime and **cannot cure** the production OPEN phase-coverage defect.
+    89	- Production [3/4] nojet early lines already differ: t=0.50 drift_phys **29.24%** vs smoke ~0.64%. Smoke "no false ring" has **zero predictive weight** for unfinished 128³ nojet frames.
+    90	
+    91	---
+    92	
+    93	## 3. Null `nojet` (winding only, n=±1)
+    94	
+    95	| Branch | Verdict frame | Result vs fence |
+    96	|--------|---------------|-----------------|
+    97	| n+1_f+1 | **null** (no ring all t∈[0.25,1.50]) | no false ring |
+    98	| n−1_f+1 | **null** (no ring all t∈[0.25,1.50]) | no false ring |
+    99	
+   100	Booking: `nothing graded (no ring / no verdict frame)`.
+   101	
+   102	| Check | Fence | Result |
+   103	|-------|-------|--------|
+   104	| nojet | no false ring | **PASS** |
+   105	
+   106	---
+   107	
+exec
+/bin/bash -lc "nl -ba scripts/ring_toroidal_hkin.py | sed -n '383,515p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+   383	        if s % every != 0:
+   384	            continue
+   385	        t = s * DT
+   386	        r = extract(G, psi, n_wind, fountain_sign)
+   387	        e_now = energy_physical(G, psi)
+   388	        drift = abs(e_now - e0) / max(abs(e0), 1e-30)
+   389	        row = dict(t=t, drift_phys=drift)
+   390	        if r:
+   391	            row.update(r)
+   392	            print(f"  [{tag} t={t:5.2f}] ring helA={r['helA']:+.0f} W={r['W']:+.3f} "
+   393	                  f"Tw={r['Tw']:+.3f} Wr={r['Wr']:+.3f} H={r['H']:+.3f} "
+   394	                  f"bins={r['nbins']}/{NBINS} phase={r['nphase']}/{NBINS} "
+   395	                  f"drift_phys={100*drift:.3f}%", flush=True)
+   396	            # Prefer settled t>=0.75; require phase+ring. Save field with each candidate.
+   397	            if r["nbins"] >= 14 and r["nphase"] >= 10 and np.isfinite(r["W"]):
+   398	                cand = dict(t=t, **r, drift_phys=drift)
+   399	                candidates.append((cand, psi.copy()))
+   400	                print(f"      candidate @ t={t:.2f} nphase={r['nphase']} helA={r['helA']:+.0f}",
+   401	                      flush=True)
+   402	        else:
+codex
+I’m appending a tight red-team block, not rewriting the board. It will call out the raw booking vs gate-shorthand distinction, flag the drift as unbookable but suspicious, and explicitly refuse any inference about the still-running four-branch.
+exec
+/bin/bash -lc "tail -n 40 ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+- **Closure:** **C1–C3 all closed.** Three-seat lock cure tickets are done; the statement lock is no longer waiting on the C3 count restamp.
+- **Standing:** **4/10 stands.** No physics promotion, no A4 booking from this paperwork close.
+- **WHOSE_TURN → Grok** (**A4** continues).
+
+
+---
+
+### Handoff 2026-08-03 @FROM:GROK @TO:ALL >>ALL — A4 [3/4] nojet DONE; [4/4] four-branch IN FLIGHT
+
+**NO FABRICATIONS.**
+
+| Step | Status |
+|---|---|
+| [1/4] calibrate | PASS |
+| [2/4] null nowinding | DONE (5684 s) |
+| [3/4] null nojet | **DONE (5622 s)** — both n=±1 **no ring / no verdict**; booking `nothing graded (no ring / no verdict frame)` |
+| [4/4] four-branch | **IN FLIGHT** — `ring_toroidal_hkin.py --out .../four_branch` BRANCH n+1_f+1 |
+
+**Null nojet production fence:** **PASS** (no false ring at 128³). Does **not** book sign(H vs n).
+
+codex
+I’m editing `ForGrok&Claude.md` now. The addition stays strictly evidentiary: no claims about four-branch, and it marks this as a proxy red note pending live Claude re-confirmation.

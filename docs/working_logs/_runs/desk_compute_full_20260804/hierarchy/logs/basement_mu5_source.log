@@ -1,0 +1,110 @@
+==============================================================================
+(1) THE ROTATION THE OPERATOR FORCES
+==============================================================================
+  The #125 operator is   (S / Lambda) (Lbar H e_R) + h.c.
+  S is a total gauge singlet and is lepton-number-blind, so it carries no charge of its
+  own to rotate. Invariance under S -> e^{i th} S therefore has ONE compensator available
+  in the operator: e_R -> e^{-i th} e_R.
+
+  That is a rotation of the right-handed electron alone. Decomposed:
+
+    field        rotates?   chemical potential deposited
+    ------------------------------------------------------------
+    e_R          yes        mu_R = theta_dot
+    e_L          no         mu_L = 0
+
+    vector part  mu_V = (mu_R + mu_L)/2 = theta_dot / 2
+    axial  part  mu_5 = (mu_R - mu_L)/2 = theta_dot / 2
+
+  So a right-handed-only rotation is HALF VECTOR and half axial. It is not purely chiral,
+  and that matters, because DERIVATION_HUNT's requirement is explicit: the object that
+  keeps 'the vacuum's neutrality preserved identically' is the AXIAL one, mu_R = +mu_5,
+  mu_L = -mu_5. A vector piece charges the medium.
+
+==============================================================================
+(2) WHY ONLY THE AXIAL HALF SURVIVES
+==============================================================================
+  The two halves have different fates in a medium, and the difference is not a
+  convenience -- it is the distinction between a gauged and an ungauged charge:
+
+  piece          charge                 gauged?    fate in the medium
+  --------------------------------------------------------------------------
+  vector         electron number        YES (EM)   SCREENED -- the plasma compensates
+  axial          chirality              no         SURVIVES -- nothing screens it
+
+  A vector chemical potential for a gauged charge cannot be imposed on a neutral medium:
+  neutrality fixes it, and any attempt to shift it is Debye-screened. Chirality is not a
+  gauge charge, so nothing compensates it; it relaxes only through the mass term, at a
+  rate set by m_e, not by the plasma frequency.
+
+  NET: a winding portal phase deposits  mu_5 = theta_dot / 2  on the electron, and the
+  vector half it also deposits is screened away. What is left is precisely the
+  neutrality-preserving axial potential the residue names.
+
+==============================================================================
+(3) THE MAGNITUDE, AT THE ONE EPOCH THE CORPUS PINS theta_dot
+==============================================================================
+  The corpus fixes theta_dot at the sphaleron era twice, and the two agree to 2%:
+    (a) directly, in the ledger:  theta_dot = 59.7 eV
+        (its m_1/theta_dot = 2.25 meV / 59.7 eV = 3.77e-05, as recorded)
+    (b) via the recorded ratio theta_dot/H = 2.4e+06 at T_sph = 131.7 GeV,
+        g* = 106.75:  H = 2.4384e-14 GeV  ->  theta_dot = 58.52 eV
+    difference 2.0%, which is the T_sph choice: (a) implies T_sph = 133.0 GeV.
+
+    Quoting the ledger's direct value:  mu_5 = theta_dot/2 = 29.9 eV
+
+  Recorded for comparison, NOT as a match: the junction plasma frequency at the same
+  epoch is w_J ~ 5.7 keV, about 200x larger. These are different objects and the
+  comparison is offered only so the scale is not mistaken.
+
+  WHAT IS NOT ESTABLISHED: whether this mu_5 is the size #146's doping needs. The docket
+  fixes the doping through N_screen = 2 N_0 and the band structure, not through a stated
+  mu_5 in eV, so there is no recorded number to compare against. That comparison is owed
+  and it is a real way this candidate can die.
+
+==============================================================================
+(4) THE CONDITION IT INHERITS — AND IT IS NOT A NEW ONE
+==============================================================================
+  A chiral chemical potential needs a Dirac cone to sit on: two opposite-chirality states
+  in the same representation, so that mu_R = +mu_5 and mu_L = -mu_5 seat a particle
+  pocket against a hole pocket. #146's own third pass established that at the shell
+  (Lambda_shell = 5.4e17 GeV) NO species is vector-like -- every left-handed field is an
+  SU(2) doublet and every right-handed one a singlet -- so 'there is no Dirac cone for
+  mu_5 to sit on at all'.
+
+  The rotation above inherits exactly that condition, for the same reason: e_L and e_R
+  are only two halves of one object once the Higgs has paired them. In the unbroken phase
+  the compensator e_R -> e^{-i th} e_R still exists, but what it dopes is a chiral
+  singlet with no partner, not a cone.
+
+  phase                      cone exists?    charged-lepton selection   mu_5 source
+  ------------------------------------------------------------------------------
+  broken (below EW)          YES             holds (q^2 weighting)      AVAILABLE
+  unbroken (at the shell)    no              fails (Y^2, no cone)       unavailable
+
+  THE TWO LINE UP EXACTLY. The charged-lepton selection and the mu_5 source hold in the
+  same phase and fail in the same phase, for the same structural reason -- the pairing of
+  opposite chiralities into one Dirac object.
+
+==============================================================================
+VERDICT — THE RESIDUE IS NOT AN INDEPENDENT UNKNOWN
+==============================================================================
+  #146 was carrying two open items that looked separate: (a) does the charged-lepton
+  selection survive the shell's phase, and (b) what puts mu_5 there. They are one item.
+
+  The source for mu_5 exists and is built from objects the corpus already owns -- #125's
+  operator and baryogenesis's own mu = theta_dot -- with no new field, no new coupling
+  and no new assumption. It is species-selective because the operator names the electron,
+  and chiral because only e_R can absorb the phase. Its vector half is screened by the
+  same neutrality the residue's own statement demands.
+
+  And it is conditional on the broken phase, which is the condition the selection already
+  carries. So #146's open count drops from two to one, and the survivor is the fork
+  already registered as sec.6f's third horn: does the medium screen in the broken phase?
+
+  STILL OWED, and both are attackable:
+    * the size comparison -- mu_5 ~ 29 eV at T_sph against whatever doping the band
+      structure needs, a number the docket has not stated in those units;
+    * theta_dot at the epoch that actually matters. The 2.4e6 ratio is pinned at T_sph;
+      if the doping is needed elsewhere, theta_dot ~ T^3 must be carried there and the
+      turn budget says the winding is laid down early and saturates.

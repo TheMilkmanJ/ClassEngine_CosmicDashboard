@@ -76,3 +76,19 @@ claimed.
 ## Sources
 The derivation log; scripts/candle_room_correction.py, flow_ladder_correction.py;
 [Riess2022] (the ladder), [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ς = −1 (candle term pushes ladder down) | **machine-backed** | 162-template sign session | Real-SN+filter synthetic photometry appeal open |
+| 2 | Global H₀ = 69.9 from CMB | **machine-backed** provisional | production fit | Same caveats as hubble_tension |
+| 3 | Ladder account tops ~70.9 (leakage); ceiling 71.3 (τ room max) | **machine-backed** | §3 bracket | SH0ES 73 outside model reach |
+| 4 | Residual to 73 is owned tension, not claimed | **honest constraint** | §3–5 | — |
+| 5 | Candle correction not wired into PolyChord/CLASS joint | **OPEN-BLOCKED** | §4 | **OPEN-MACHINE:** SN likelihood layer; module armed-off |
+
+**Non-claims:** not full SH0ES explanation; candle term is data-side not Boltzmann.
+
+**Triage:** elevate-in-place. Physics ceiling: ceiling computed; full joint **OPEN-BLOCKED**.

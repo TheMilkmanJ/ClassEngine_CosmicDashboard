@@ -1,5 +1,15 @@
 # Galactic Atoms — Which Galaxies Have a Ground State (2026-07-11)
 
+> ## OPEN-MACHINE residual freeze — 2026-08-04
+>
+> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on α_c → m → r_1s propagation.
+>
+> **Machine residual waiting:** (1) α_c / onset posterior from zon_disp-class instrument — **not running** (last R−1≈17.81; collapsed; seed ready, owner restart). (2) Propagation of that m posterior to soliton r_1s / GC budget (T1 item 2). Live bbnfix pair does **not** sample α_c / zon for this pin; bookable **no** on unrelated H₀ gate either (`PRTOE_CHAIN_TABLES.md`).
+>
+> **What unblocks:** owner restart of `cmp_prtoe_zon_disp` (or successor onset instrument) → cobaya self-stop → GetDist α_c / log10 z_on → propagate m to r_1s; dwarf kinematics program for positive detection channel.
+>
+> **Forbidden claims:** “resolves GC tension” as closed; free improvement over CDM without α_c; quoting unconverged zon_disp center as measured m.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
@@ -7,9 +17,11 @@
 structural (candidate) with computed numbers — **and one boundary, priced**: the soliton exists in
 halos below σ ≈ 77 km/s (M_h ≈ 3×10¹¹ M☉) and not above, because a dominant nuclear black hole
 takes the core radius inside its own sphere of influence (P-2026-054). The Milky Way is on the
-far side of that line, which is what resolves the Galactic Centre's 3× tension. The improvement over standard
-CDM: a predicted, computable ground-state object in every halo — and an explanation, rather
-than an accident, for why this model survived the constraints that killed lighter fuzzy DM.*
+far side of that line, which is the **priced candidate route** to the Galactic Centre's 3× tension
+(P-054; α_c → r_1s and GC budget remain **OPEN-MACHINE** live tests — not a closed solve; freeze
+2026-08-04). Distinctive
+structure vs standard CDM: a predicted, computable ground-state object in every halo below the
+boundary — not a free "improvement" claim until α_c / data confrontation lands.*
 
 ## 0. The grammar
 
@@ -139,3 +151,21 @@ observable is gas-versus-galaxy kinematics at void walls and composition-structu
 *Galaxies are not piles of dark gravel. They are atoms too large to see whole — ground states
 buried under starlight, spectra spread across kiloparsecs, all sharing one electron mass
 written at genesis.*
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Galactic DM = gravitational atom with fixed m = 2.24×10⁻²⁰ eV | **complete-conditional** (candidate) | §0–1 | m roster-trial / α_c; zon_disp **not running** (R−1≈17.81) |
+| 2 | Soliton core scalings (Schive-class OOM) at recorded m | **machine-backed** OOM | §1 | **OPEN-MACHINE:** α_c posterior → r_1s (T1) |
+| 3 | Survives Lyman-α / RC constraints that killed lighter FDM | **interpretation** + scale arithmetic | §1 | Heavier m → sub-pc cores |
+| 4 | Soliton boundary: survives below σ≈77 km/s (P-2026-054); MW excluded by BH SoI | **complete-conditional** | §1 priced 2026-07-18 | GC 1 pc adverse if soliton formed |
+| 5 | Dwarf clean test (no central BH) | **OPEN** (prediction) | §1 | Needs kinematics program |
+| 6 | Gate/ε channel cannot operate on bound orbits | **derived** (fence) | closing gate section | Dynamics left to halo alone |
+| 7 | Granule spectrum inherits f_amp partition | **interpretation** | §2 | Standard heavy-FDM + model f_amp |
+
+**Non-claims / forbidden:** not “every nucleus hosts a soliton”; MW GC naive prediction excluded; not MOND; not “resolves GC tension” closed.
+
+**Triage:** elevate-in-place. Physics ceiling: candidate + priced boundary; m **OPEN-BLOCKED** (α_c; 2026-08-04).

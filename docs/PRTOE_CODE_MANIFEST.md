@@ -13,20 +13,44 @@ expression).*
 
 ## 1. IN — running now (the referee's own physics)
 
+> ### Live production stamp — **2026-08-04**
+>
+> Authority matches `docs/PRTOE_CHAIN_TABLES.md` residual freeze and
+> `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Progress-file
+> `acceptance_rate` is **oversampled** (`oversample_power = 0.4`); use launchlog
+> accepted/steps for raw Metropolis accept. **Bookable H₀ / Σm_ν: NO** until both
+> bbnfix legs self-stop with progress R−1 < 0.05. lcdm R−1 **0.086466**
+> (N=20409, t=2026-08-04T05:21:52; was 0.059@N=19013 — **receding**, **1.73×** stop);
+> dyad **0.128943**@N=20302 (~2.58×). **Do not kill** live MPI.
+> **PolyChord: off** (not launched this stamp). Currency:
+> [`machine_r1_currency_20260804c`](working_logs/_runs/machine_r1_currency_20260804c/).
+>
+> | chain | ranks | N (progress) | R−1 last | stop | `converged` | bookable? |
+> |---|---:|---:|---:|---:|---|---|
+> | `dyad_mnu_bbnfix` | 3 | 20302 | **0.128943** | 0.05 | **false** | **NO** |
+> | `cmp_lcdm_mnu_bbnfix` | 3 | 20409 | **0.086466** | 0.05 | **false** | **NO** |
+> | `cmp_prtoe_routeD` | 3 | 1609 | **102.79** | 0.1 | **false** | **NO** (early) |
+>
+> Offline GetDist max GR (`bbnfix_mcmc_watch_diag.py`, diagnostic only): dyad
+> **~0.086**, lcdm **~0.07** — both still > 0.05; **not** booking authority.
+> lcdm trajectory: `0.053867 → 0.048827 → 0.059055 → 0.086466` — **three consecutive
+> moves away from gate after the dip** (**nearest-and-receding**, not “nearly there”).
+> Temporary R−1 < 0.05 without self-stop is **not** bookable.
+
 | item | home | status |
 |---|---|---|
 | The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | CLASS source: background.c | IN — the live .so, direct-eval verified (2798.7) |
 | The ramped window edges: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The electron-coupled scalar (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
-| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.19** at N ≈ 14544; stop 0.05; raw accept ~6.4% (progress accept ~0.996 is oversampled). Do not kill. See `PRTOE_CHAIN_TABLES.md` live table |
-| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **0.14** at N ≈ 13193; stop 0.05; raw accept ~8.6%. Do not kill |
-| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-02)** — 3 MPI ranks; R−1 ≈ **129** at N ≈ 1593 (early); stop 0.1; raw accept ~5.1%. Do not kill |
-| **The PolyChord evidence run — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all sampled) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **not running** — killed mid-prior by decision; all its files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption |
+| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **Live (2026-08-04)** — 3 MPI ranks; progress R−1 = **0.128943** at N = 20302 (t=2026-08-04T03:25); was 0.189201@N=18837 — improved, still ~2.6× stop; checkpoint `converged: false`; progress accept ~0.996 ⚠ oversampled. **Bookable: NO.** Do not kill. Gate: `scripts/book_bbnfix_when_ready.py`. See `PRTOE_CHAIN_TABLES.md` residual freeze |
+| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **Live (2026-08-04)** — 3 MPI ranks; progress R−1 = **0.086466** at N = 20409 (t=2026-08-04T05:21:52); was 0.059055@N=19013 — **receding** (**1.73×** stop); stop 0.05; checkpoint `converged: false`; progress accept ~0.984 ⚠ oversampled. **Nearest-and-receding**, not “closest approaching.” **Bookable: NO.** Do not kill |
+| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-04)** — 3 MPI ranks; progress R−1 = **102.79** at N = 1609 (t=2026-08-03T20:53); stop 0.1; checkpoint `converged: false`; early burn-in (~760–850 rows/rank). Raw accept ~5.6% from live launchlog (healthy high-d Metropolis). **No thaw posterior is bookable at this R−1.** Do not kill |
+| **The PolyChord evidence run — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all sampled) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **not running — PolyChord off (2026-08-04 stamp)** — killed mid-prior by decision; files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption. Evidence grades from Laplace-from-MCMC until cluster time |
 | **The zero-parameter run — ε/A_s/n_s fixed** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **not running — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
 | The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee killed mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
 | The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
-| **zon_disp / conv_desi production MCMC** | yaml: cmp_prtoe_zon_disp / cmp_prtoe_conv_desi | **not running** — zon_disp parked (seed ready); conv_desi unproduced after two deaths. Not live as of 2026-08-02 |
+| **zon_disp / conv_desi production MCMC** | yaml: cmp_prtoe_zon_disp / cmp_prtoe_conv_desi | **not running (2026-08-04)** — zon_disp parked (seed ready; last R−1 ≈ 17.81); conv_desi unproduced after two deaths (last R−1 ≈ 13.25, chain write 2026-07-22). Owner restart only; not part of the bbnfix booking gate |
 
 ## 2. Armed — enters on its named trigger
 
@@ -213,3 +237,13 @@ git diff --stat -w --ignore-blank-lines --ignore-cr-at-eol upstream/master -- \
 
 Anyone auditing the modification surface without those flags will be looking at whitespace and will
 conclude the pipeline is forty times more modified than it is.
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

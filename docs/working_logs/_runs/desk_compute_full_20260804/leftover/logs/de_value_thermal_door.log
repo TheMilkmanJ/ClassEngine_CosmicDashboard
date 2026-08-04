@@ -1,0 +1,12 @@
+(1) Freeze at T_nu = m_nu:  z_freeze = 12.4   (matches the model's z~12 claim)
+(2) rho at freeze ~ m_nu^4 = (2.25 meV)^4  = rho_Lambda  -> rho_Lambda^1/4 = m_nu = TIE (structural)
+
+(3) THE COEFFICIENT f (rho_Lambda = f * m_nu^4) is the whole game, and it is EXACTLY hunt 189:
+    - ohmic  (s=1, the COMPUTED response): deviation dies as e^{-large} -> f ~ 10^-84 -> 21-dex MISS
+    - sub-ohmic (s~0.26, Model-B conserved density): f ~ O(1) -> tie holds -> rho_Lambda^1/4 = m_nu
+    The thermal-door residual REDUCES to the ohmic-vs-sub-ohmic response question. NOT independently closed.
+
+VERDICT: the thermal door gives rho_Lambda = f * m_nu^4 with the freeze at T=m_nu (z~12) — it re-derives
+the TIE (rho_L^1/4 = m_nu) structurally, but the VALUE rides (a) m_nu [= the underived spurion mu, hunt 207]
+and (b) the coefficient f [= the ohmic-vs-sub-ohmic response, hunt 189 — a 21-dex-sensitive open question].
+Circular for the absolute value; not a new closure.

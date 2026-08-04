@@ -1,0 +1,10 @@
+# production-faithful BBN prior -- paste into NEW chain configs.
+# Do NOT retrofit completed runs; their yamls are records.
+prior:
+  bbn: 'lambda omega_b, varying_me: -0.5*( ((0.24691 + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.1632*(varying_me-1.0) - 0.2449)/0.004)**2 + ((2.4467e-05*__import__('numpy').exp(-1.656*__import__('numpy').log(omega_b/0.02236) + 0.4761*(varying_me-1.0)) - 2.527e-05)/4.76e-07)**2 )'
+
+Sanity, at the standing point (omega_b = 0.022768, m_e = 1.012543):
+  D/H  new prior 2.3887e-5   (-2.90 sigma on the standing width)
+       as-run     2.4702e-5   (-1.89 sigma on its obs-only width)
+       production PRyM reports 2.387e-5 -- the new prior lands +0.07% from it, the as-run one +3.49%.
+  Y_p  new prior 0.24913    (+1.06 sigma vs Aver)

@@ -1,0 +1,35 @@
+==============================================================================
+The dark colour/flavour count: uniqueness exact, demand licensed
+==============================================================================
+
+1. Fundamental flavours: integer solutions of 2·N_f·N_c = 4(N_c²−1)
+   N_c = 2:  N_f = 3   (str = 0)
+   divisibility proof: N_f = 2N_c − 2/N_c ∈ ℤ ⟺ N_c | 2 — unique for
+   all N_c, not just the scan.
+
+2. The representation condition (named):
+   adjoint flavours give N_f = 2 for EVERY N_c — a degenerate family.
+   Uniqueness is conditional on fundamental flavours, supported by the
+   lepton-partnering of the flavours and the recorded diquark
+   consilience. A future adjoint-flavour reading would void the count.
+
+3. The demand licensed by the recorded vacuum cap:
+   an uncancelled quadratic supertrace contributes cutoff-scale
+   zero-point energy; the corpus's cosmological-constant accounting
+   caps the vacuum at the pairing gap by no-double-counting. The
+   finiteness condition is therefore required by recorded bookkeeping,
+   not wished for by naturalness.
+
+4. The consistency web (recorded, cross-checked):
+   τ needs N_f ≥ 2                      — satisfied (3)
+   SU(2) baryons are diquarks           — fundamental-rep consilience
+   ΔN_eff re-priced at N_c = 2          — recorded (sign changed)
+   ring stability favors medium-inertia — carrier fork, compatible
+   lattice referee                      — SU(2) N_f = 3 campaign, unchanged
+
+VERDICT: the count SU(2), N_f = 3 is now (i) exactly unique given the
+   named fundamental-rep condition, and (ii) demanded by the recorded
+   vacuum accounting rather than by taste. Grade: candidate → licensed
+   candidate with two named conditions (rep assignment; cap scope).
+   The lattice campaign remains the referee. Not derived.
+==============================================================================

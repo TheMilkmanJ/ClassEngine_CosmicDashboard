@@ -1,0 +1,139 @@
+==========================================================================
+MEDIUM-INDUCED DECOHERENCE: is there any?
+==========================================================================
+
+[1] The medium's own scales
+    alpha_c = 3*alpha        = 0.0218921
+    c_s     = sqrt(alpha_c)  = 0.1479596 c = 44,357 km/s
+    xi      = hbar/(m c_s)   = 5.9538e+13 m = 398.0 AU
+    mu      = m c_s^2        = 4.9038e-22 eV  ->  5.6906e-18 K
+
+[2] The dispersion, and where the Landau threshold sits
+    Bogoliubov:  omega(q) = c_s q sqrt(1 + (q xi / 2)^2)
+    The corpus's xi = hbar/(m c_s) IS the Bogoliubov healing length, so the
+    dispersion is fixed with no further input. Landau critical velocity is
+    v_c = min_q [omega(q)/q]. For this branch omega/q rises monotonically
+    from c_s, so the minimum is the q->0 limit:
+
+      q*xi      (omega/q)/c_s
+        0.00    1.000000
+        0.01    1.000012
+        0.10    1.001249
+        1.00    1.118034
+       10.00    5.099020
+
+    numerical min over q*xi in [0,20]: 1.000000000  (analytic: 1)
+    => v_c = c_s = 44,357 km/s = 0.1480 c
+    No roton minimum exists on a Bogoliubov branch, so v_c is not reduced.
+
+[3] Mechanism one: nothing in the lab can excite the medium
+    Landau threshold: 44,357 km/s
+
+      probe                          v (km/s)     v/v_c     excitable?
+      lab apparatus, thermal             1.0   2.25e-05   no
+      Earth's orbital motion            29.8   6.72e-04   no
+      Sun through the galaxy           220.0   4.96e-03   no
+      Earth through the CMB frame      369.8   8.34e-03   no
+      fast solar wind                  800.0   1.80e-02   no
+
+    Below v_c there is no final state conserving both energy and momentum,
+    so the medium cannot record which path was taken. No record, no decoherence.
+    This is exact at T = 0, and it is kinematics, not a small coupling.
+
+[4] Mechanism two: the order parameter cannot resolve a lab superposition
+    The condensate varies on scale xi. Two paths separated by dx perturb it by
+    a relative amount ~ (dx/xi)^2, which is the decoherence-rate suppression.
+
+    xi = 5.954e+13 m
+
+      superposition                 dx (m)       dx/xi        (dx/xi)^2
+      atom interferometer           1.00e-09   1.680e-23    2.821e-46
+      large-molecule fringe         1.00e-06   1.680e-20    2.821e-40
+      optomechanical mirror         1.00e-03   1.680e-17    2.821e-34
+      metre-scale, hypothetical     1.00e+00   1.680e-14    2.821e-28
+      Earth-Sun distance            1.50e+11   2.513e-03    6.313e-06
+
+    A micron superposition is suppressed by 3e-40 before any coupling constant
+    is applied. The two mechanisms are independent: one kills the rate on
+    velocity grounds, the other on length grounds. Both give zero.
+
+[5] The only loophole: finite temperature. It closes itself.
+    Thermal phonons are not Landau-forbidden, so a T > 0 medium has a normal
+    component that can scatter. The relevant length is the thermal phonon
+    wavelength lambda_T = hbar c_s / (k_B T), and the suppression becomes
+    (dx/lambda_T)^2 instead of (dx/xi)^2. So the question is whether lambda_T
+    can ever fall below xi.
+
+      at T = mu/k_B = 5.691e-18 K :  lambda_T = 5.9538e+13 m
+      xi                              =  5.9538e+13 m
+
+    lambda_T = xi exactly at T = mu/k_B. That is not a coincidence: it is the
+    same Bogoliubov relation read twice. And T > mu/k_B is the regime where the
+    phonon description fails and the condensate itself is destroyed -- the
+    medium would no longer be the superfluid the model requires.
+
+    So for any T at which the model's medium exists at all, lambda_T >= xi,
+    and the finite-T suppression is WEAKER than the T = 0 one is strong.
+    The loophole does not open.
+      T = 1.00e-20 K -> lambda_T = 3.388e+16 m  (569.06 xi)   condensed
+      T = 1.00e-18 K -> lambda_T = 3.388e+14 m  (  5.69 xi)   condensed
+      T = 5.69e-18 K -> lambda_T = 5.954e+13 m  (  1.00 xi)   condensed
+      T = 1.00e-16 K -> lambda_T = 3.388e+12 m  (  0.06 xi)   NOT condensed (phonons gone)
+
+[6] Where the threshold is NOT vacuous: relativistic matter
+    v_c = 0.1480 c is low. Anything with gamma above a few sits above it.
+
+      particle                       beta       above v_c?
+      beta = 0.148 (threshold)     0.147960   no
+      1 MeV electron               0.941079   YES
+      10 MeV electron              0.998818   YES
+      1 GeV proton (KE)            0.875066   YES
+      cosmic ray, 1 TeV proton     1.000000   YES
+
+    Every relativistic particle in the universe is supercritical and may emit
+    medium phonons by a Cherenkov process. That is a real channel, and it is
+    where a bound on the matter-medium coupling has to come from -- not from
+    tabletop decoherence, which this calculation has just shown is dead.
+
+==========================================================================
+VERDICT
+==========================================================================
+
+    The ULTRALIGHT DARK CONDENSATE induces no decoherence of its own on any
+    laboratory superposition. (Sector matters: the vacuum is a separate condensate
+    whose excitations ride the light cone, so its own Landau velocity is c and
+    nothing outruns it -- that is the zero-drag certificate behind inertia, a
+    different argument that must not be merged with this one.)
+
+    This is a null with a mechanism -- two mechanisms, independent of each other:
+
+      (a) Landau.    v_c = sqrt(3 alpha) c = 0.1479596 c = 44,357 km/s. Every terrestrial
+                     and solar-system velocity is below it by at least two orders of
+                     magnitude, so no excitation is kinematically allowed at all.
+
+      (b) Rigidity.  xi = 402 AU. The order parameter cannot resolve a separation
+                     smaller than that; a micron superposition is suppressed by
+                     (dx/xi)^2 = 3e-40 before any coupling is applied.
+
+    Finite temperature does not rescue the effect: lambda_T >= xi throughout the
+    entire range in which the medium remains condensed, with equality exactly at
+    T = mu/k_B where the condensate ends.
+
+    WHAT THIS COSTS THE MODEL. It forbids the model from ever claiming credit for
+    an anomalous decoherence signal. If a tabletop experiment reports collapse
+    beyond the environmental prediction, this medium cannot be its cause. The
+    prohibition is forced by the two numbers above and cannot be tuned away
+    without giving up either alpha_c = 3 alpha or m = 2.24e-20 eV.
+
+    WHAT IT BUYS. A dark-sector null with thresholds: this ultralight medium cannot
+    be blamed for anomalous tabletop decoherence. Foundations seating of QM remains
+    interpretation; Born stays open. Do not read this null as "the model provides QM."
+
+    WHERE THE LIVE PHYSICS MOVED. Upward in velocity. v_c = 0.148 c is low enough
+    that all relativistic matter is supercritical, so the medium's one open
+    decoherence-adjacent channel is Cherenkov phonon emission by fast particles.
+    That is the corner worth computing next.
+
+==========================================================================
+CHECKS: 10/10 passing
+==========================================================================

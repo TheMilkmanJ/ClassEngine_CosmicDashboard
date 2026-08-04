@@ -1,0 +1,50 @@
+============================================================================
+THE TWO FORMS ARE ONE FORM
+============================================================================
+  M_2 = alpha^2 T_c                       9.4307 eV   (recorded 9.43)
+  E_b = (1/2) alpha_c^2 M_2 at alpha_c=3a 2.259900 meV
+  (d^2/2) alpha^4 T_c at d = 3            2.259900 meV
+  difference                              0.00e+00 meV
+
+  Identical, because the second IS the first with alpha_c = d.alpha substituted.
+  The d^2 is alpha_c^2/alpha^2. There is no independent geometry factor to hold
+  fixed while the coupling moves — so the escape route is closed.
+
+============================================================================
+WHAT THE FLOOR DEMANDS OF alpha_c DIRECTLY, WITH d NEVER MENTIONED
+============================================================================
+  observed rho^(1/4) = 2.250 meV  ->  alpha_c = sqrt(2 rho / M_2) = 0.021844
+  the indirect band caps alpha_c at                                0.021400
+  the observation therefore exceeds the band by                     2.08%
+
+============================================================================
+THE FOUR VALUES OF alpha_c, IN TWO PAIRS
+============================================================================
+  source                                      alpha_c   rho^(1/4) [meV]
+  ----------------------------------------------------------------------
+  the spatial dimension, d = 3               0.021892            2.2599
+  the observed dark-energy density           0.021844            2.2500
+  the indirect band, top                     0.021400            2.1595
+  the hierarchy anchor's exact landing       0.021316            2.1425
+  the indirect band, bottom                  0.020500            1.9816
+
+  The first two agree to 0.22% — that agreement IS the floor's +0.44%,
+  since rho goes as alpha_c^2. The last two agree to 0.39%. The two PAIRS
+  differ by 2.70%, and no choice of d reconciles them, because d is not
+  a free label — it is the ratio alpha_c/alpha itself.
+
+============================================================================
+WHAT SURVIVES
+============================================================================
+  Of the three ways out, the middle one is now closed: the floor's d^2/2 and the
+  coupling's d are the same quantity by construction, not by a naming coincidence.
+  Two remain, and they are both empirical rather than algebraic:
+
+    (a) the indirect band [0.0205, 0.0214] is wrong, or applies to a different
+        quantity than the coupling the floor uses;
+    (c) the floor's agreement with observation is a coincidence — alpha_c really does
+        sit near 0.0213, and the floor's landing at 2.143 meV against 2.25 is
+        a 5% miss that the d = 3 arithmetic disguised.
+
+  Those are decidable by measurement, and they point in opposite directions, so the
+  conflict is now a live fork rather than an unexplained tension.

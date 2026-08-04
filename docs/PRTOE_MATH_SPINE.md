@@ -34,7 +34,7 @@
 > 0.34506 shows the model reading the sky back, and kills both.
 
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Residual freezes and ordered open work: [working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md](working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md), [working_logs/_runs/next_queue_20260804/](working_logs/_runs/next_queue_20260804/).*
 
 
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
@@ -404,7 +404,7 @@ Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_flo
 **7c. The branch [registered as P-2026-056, guards discharged]:**
 
 > **P-2026-018 (w = −1 exact) XOR Route-D (thaw-now, w₀ ∈ [−0.92,−0.86], wₐ < 0, no phantom).**
-> DESI DR3 adjudicates: thaw-side → Route-D (J1+why-now+DESI in one stroke, P-018 dies);
+> DESI DR3 adjudicates: thaw-side → Route-D (J1+era-width timing+DESI in one stroke, P-018 dies; **occupancy / ordinary why-now remains OPEN**);
 > rigid → P-018 (distinctive win; Route-D dies, J1 reverts to constitution);
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
 > (J1-derivation precedes DESI-convergence), A2+A3 net (answered) — each stated with its
@@ -797,7 +797,7 @@ the first lines); the census = the selection rules; the CMB = the recombination 
 Chemistry: the electron-coupled scalar = one universal lepton rescaling ε, C²-gated, one
 fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ_par/H = √3 (IR scale) and
 Γ_eff/H = √(3/2) with B = 1/√2 (Jeans growth rate, derived) = the linewidth
-(why-now); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
+(era-width clock; **not** occupancy / why-now closed — OPEN); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
 board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
 ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
 **Status: the grammar is coherence (graded throughout);
@@ -808,10 +808,10 @@ the empirical content lives in the children and the symptom chart. The method wa
 
 **The threading survey:** sixteen direct threads filed and graded (galactic/SMBH
 atoms, the neutrino home, S₈, low-ℓ, the lepton-mass relation's invariance, the laboratory
-analogues, the coincidence problem [why-now = √3·A_s·the floor — the √3 one-pager discharged: the
+analogues, the coincidence problem [era **width** = √3·A_s·the floor — the √3 one-pager discharged for width only: the
 Friedmann factor,
 value-independent; B = 1/√2 derived from Jeans dispersion, par-question closed
-for the thaw rate], the purchased silences [direct+indirect],
+for the thaw rate; **occupancy / ordinary why-now remains OPEN** — not a coincidence close], the purchased silences [direct+indirect],
 GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
 the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
 standing law): model every transition as smooth unless quantization protects a jump; adopt a
@@ -897,7 +897,7 @@ short-distance corrections (∝ k⁴ξ²) vanish for homogeneous cosmology, acti
 only at coherence-length gradients. **Consequence: the bounce proceeds through
 the end of the metric description or not at all**, and the restart event is a
 past boundary of the emergent spacetime by exhaustion
-([PRTOE_white_holes.md](PRTOE_white_holes.md) §10).
+([PRTOE_white_holes.md](exploratory/PRTOE_white_holes.md) §10).
 
 The boundary's causal structure is written: the exit surface is spacelike for
 order-unity density contrasts, collapsed regions bound it with absorbing
@@ -961,7 +961,7 @@ parameters. Grade: candidate; the surviving route is unique.
 
 The conditional in §23.1 — "the bounce proceeds through the end of the metric
 description or not at all" — is sharpened by the light-sector scale separation
-(recorded the same day; [PRTOE_white_holes.md](PRTOE_white_holes.md) §11): the
+(recorded the same day; [PRTOE_white_holes.md](exploratory/PRTOE_white_holes.md) §11): the
 closures exclude a homogeneous turning point, and the description that ends at
 the coherence scale is the *hydrodynamic description of the dominant component*,
 while the substrate carrying the geometry — and the Standard-Model fields, which
@@ -1009,3 +1009,22 @@ candidate grade. Live referees: the crossover number of P-2026-048, the
 kernel-host condition of the hierarchy sector (its formation-epoch number, paid
 in hierarchy §6n), and the concordance value of the screening factor at the
 chains' convergence.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence (headline) | **complete-conditional** / existence | banner; CC | Lattice + radiative band |
+| 2 | τ = ½ln2 from Koide; nothing cosmological in chain | **derived-conditional** | banner | P-048 |
+| 3 | m = 2.24×10⁻²⁰ eV “three ways” | **OPEN** / commitments | §0 circularity sweep | ξ circular; not three confirmations (independence audit #4) |
+| 4 | dCDF structural: w=−1, H=m onset, finite floor | **derived** (structural) | §0 Field 1 | Residual magnitude open |
+| 5 | Electron-coupled scalar / ε windows | **complete-conditional** | Field 2; THE_AMPLITUDE | Stack parents |
+| 6 | Bounce / cyclic rungs full dynamics | **OPEN-BLOCKED** | cyclic / bigbang files | **OPEN-THEORY:** bounce |
+| 7 | A_s closed form vertices candidate | **complete-conditional** | closing cascade | Referees: P-048, host, chains |
+| 8 | Full quantitative chain map | **interpretation** (document map) + mixed child grades | whole file; child files own physics | Not a single derivation; discipline map only — child rows carry physics grades |
+
+**Non-claims:** not “m pinned three independent ways”; not precision DE decimals.
+
+**Triage:** elevate-in-place (spine map). Physics ceiling: mixed; several OPEN-BLOCKED.

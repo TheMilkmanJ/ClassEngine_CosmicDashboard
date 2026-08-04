@@ -59,7 +59,7 @@ row below.
 
 The audit checks pairwise collapse among *recorded* agreements. It cannot rule out an
 unrecorded shared premise — an assumption two derivations both use without either naming it.
-The shared additivity (row 8) was itself carried silently for weeks before being named as one
+**R4-additivity-neck (2026-08-03):** confirmed underived axiom; hierarchy −3/2 re-graded derived-conditional (not “additivity grade” free derivation). Report: `working_logs/_runs/derivation_sprint_20260803/R4_ADDITIVITY_NECK.md`. The shared additivity (row 8) was itself carried silently for weeks before being named as one
 bottleneck; the velocity condition v = 1 in the hierarchy kernel was likewise carried
 silently until 2026-07-28. The honest statement is that this table is complete over *named*
 premises as of its date, and that both prior discoveries of silent sharing were made by
@@ -67,9 +67,26 @@ whole-file re-reads — which is the standing check-12 sweep, still in progress.
 
 ## Sources
 
-Internal: [PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) (§2, §6c, §6g),
+Internal: [PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) (§2, §6c, §6g),
 [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md), [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md),
 [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md) (standing; P-004 and other rehomed IDs also in [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); P-012,
 ANN-2026-025), [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md),
 [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) (NavarroSalas2024). External: Navarro-Salas, *Class.
 Quantum Grav.* (2024), arXiv:2403.13201.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Finiteness ↔ Navarro-Salas not independent | **derived** (algebra collapse) | row 1; N_½=4·N₁ | Never quote as two |
+| 2 | k “three ways” is one derivation + one measurement | **derived** | row 2 | Honest count: one confirmation |
+| 3 | m “three uses” = three commitments, zero confirmations today | **honest fence** | row 4; check 34 | Becomes confirmation when measured |
+| 4 | Exactly one fully independent external validation (ΣY²/b_Y) | **interpretation** / audit | §2 | Minor |
+| 5 | Silent shared premises possible; check-12 ongoing | **OPEN** | §3 | Table complete over *named* premises only |
+| 6 | File is quotation hygiene, not new physics | **meta** | whole | Bind forward “N independent” claims |
+
+**Non-claims:** not a free pass for joint constraints; not complete over unrecorded premises.
+
+**Triage:** elevate-in-place (meta audit). Physics ceiling: n/a (discipline).

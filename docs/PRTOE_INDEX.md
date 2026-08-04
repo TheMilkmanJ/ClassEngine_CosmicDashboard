@@ -2,6 +2,17 @@
 
 Map of the live shelf. Files under [`exploratory/`](exploratory/README.md) (moved 2026-07-28) are still there and still worked on; they are just not what an outside reader is pointed at first. Nothing was deleted.
 
+## Live status stamp (2026-08-04)
+
+Currency only — not a physics COMPLETE. Sources: `CHAIN_TABLES` freeze, `page_full_freeze_20260804`, `debts_hardwins_full_20260804`, `STRONG_CP_SEAT_HUNT`. Package: [`working_logs/_runs/shelf_map_currency_20260804/`](working_logs/_runs/shelf_map_currency_20260804/).
+
+| Object | Status 2026-08-04 | Must not claim |
+|---|---|---|
+| **Production chains (bbnfix pair)** | **NOT bookable.** Progress: lcdm R−1 **0.086466** (N=20409, t=2026-08-04T05:21:52; was 0.059@N=19013 — **receding**, **1.73×** stop), dyad R−1 **0.128943** (N=20302; ~2.58×); both `converged: false`. `book_bbnfix_when_ready.py` → **REFUSED**. GetDist GR ~0.086 / ~0.07 diagnostic only. Route-D live early (R−1 ~103). Full table: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) · currency [`machine_r1_currency_20260804c`](working_logs/_runs/machine_r1_currency_20260804c/) | Booked H₀ / Σm_ν / S₈; peek-book; GR-as-gate; “lcdm nearly there / ~1.18×” |
+| **BBN ε (2σ ceiling)** | **ARITHMETIC VERIFIED (internal)** — recompute **3.196%** ≈ paper **3.20%** PASS (`papers/bbn-eps-bound/`); **EXTERNAL WIN PENDING (no DOI)** | That this is a public external win, books posteriors, or closes bbnfix |
+| **Page curve / Q6** | **OPEN** — champion `coevolve_v13` joint near-miss; T8 range/S* = **0.113** (need ≤0.10); `page_curve_claimed: false`; no CANDIDATE. Freeze: [`page_full_freeze_20260804`](working_logs/_runs/page_full_freeze_20260804/REPORT.md) | Page closed; Q6 paid; CANDIDATE on v13 |
+| **Strong CP** | **COMPLETE-ABSTENTION** (θ̄ outside jurisdiction). Seat itch registered, not solved: [`STRONG_CP_SEAT_HUNT.md`](working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md) | θ̄ solution; reverse = Strong CP; axion replacement |
+
 ## Start here
 
 - [PRTOE in Three Equations](PRTOE_THREE_EQUATIONS.md) — substrate, coupling, decomposition
@@ -20,8 +31,8 @@ Map of the live shelf. Files under [`exploratory/`](exploratory/README.md) (move
 - [Fairbank note draft](PRTOE_fairbank_note_draft.md) — 0νββ target, checkable without the medium story
 - [Stability](PRTOE_stability.md) — ghost, gradient, c_T, equivalence principle
 - [Code manifest](PRTOE_CODE_MANIFEST.md) — pipeline: in, armed, or banned
-- [Strong CP](PRTOE_strong_cp.md) — COMPLETE-ABSTENTION: θ̄ is outside jurisdiction (not a paper; not the dark-confining/g_p notes)
-- [Papers packages](../papers/README.md) — **4+** TeX packages (supertrace-note shipped on Zenodo; neutrino-mbb, radio-lattice, lattice-tc-gap ready; staged copies under [arXivReady](arXivReady/README.md))
+- [Strong CP](PRTOE_strong_cp.md) — **COMPLETE-ABSTENTION** (2026-08-04 currency): θ̄ outside jurisdiction permanently; not a paper; not the dark-confining/g_p notes. Seat itch (parity / missing EM-anomalous mode only): [`STRONG_CP_SEAT_HUNT.md`](working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md)
+- [Papers packages](../papers/README.md) — **6** TeX packages (supertrace-note **SHIPPED** Zenodo; neutrino-mbb, radio-lattice, lattice-tc-gap, **bbn-eps-bound** arithmetic **VERIFIED (internal)** 3.20% 2σ / **EXTERNAL WIN PENDING (no DOI)**, kination-tracking-note all **READY_PACKAGE**; staged under [arXivReady](arXivReady/README.md)). External gate = endorsement / Fairbank for posts — not desk packaging.
 
 ## Core claim
 
@@ -47,29 +58,36 @@ Map of the live shelf. Files under [`exploratory/`](exploratory/README.md) (move
 [cosmic magnetism](PRTOE_cosmic_magnetism.md) · [IGMF helicity](PRTOE_igmf_helicity.md) ·
 [gravitational waves](PRTOE_gravitational_waves.md) · [galactic atoms](PRTOE_galactic_atoms.md) ·
 [SMBH atoms](PRTOE_smbh_atoms.md) · [direct detection](PRTOE_direct_detection.md) ·
-[indirect detection](PRTOE_indirect_detection.md) · [laboratory cousins](PRTOE_laboratory_cousins.md) ·
+[indirect detection](PRTOE_indirect_detection.md) · [laboratory cousins](exploratory/PRTOE_laboratory_cousins.md) ·
 [lowell anomalies](PRTOE_lowell_anomalies.md) · [granule scoping](PRTOE_granule_scoping.md)
 
 ## Structure and derivation
 
 - [Cosmological constant](PRTOE_cosmological_constant.md) — vacuum priced by species count; ρ_Λ¼ = (9/2)α⁴·T_c on the observed scale with no cosmology in the chain. Existence claim, not precision. Referee: lattice T_c/√σ for SU(2), N_f = 3
 - [Koide relation](PRTOE_koide_relation.md) — Q = 2/3, the null, candidate mechanism
-- [Hierarchy problem](PRTOE_hierarchy_problem.md) — electroweak scale as pairing gap (exploratory; §6f fork open)
-- [Forced combination](PRTOE_forced_combination.md) — family ring existence theorem
+- [Hierarchy problem](exploratory/PRTOE_hierarchy_problem.md) — electroweak scale as pairing gap (exploratory; §6f fork open)
+- [Forced combination](exploratory/PRTOE_forced_combination.md) — family ring existence theorem
 - [Onset clock](PRTOE_quartet_clock.md) — whose mass the oscillating unit carries
-- [Quantum gravity](PRTOE_quantum_gravity.md) — induced gravity, area law, finiteness of field content
+- [Induced gravity](PRTOE_induced_gravity.md) — **Goal A′ thin shelf** (expansion attach): finiteness of field content, area-law **coefficient**, medium seat (**Page OPEN** — v13 T8=0.113 near-miss, not closed; not TOE). *Primary expansion-facing gravity page.*
+- [Quantum gravity](PRTOE_quantum_gravity.md) — full hub (shelf-promoted 2026-08-03): induced gravity, area law, finiteness; **expansion attach / residuals OPEN** (**Page OPEN** / Q6 unpaid; Goal B OPEN; not TOE). Page freeze: [`page_full_freeze_20260804`](working_logs/_runs/page_full_freeze_20260804/REPORT.md)
+- [Small-scale structure](PRTOE_small_scale_structure.md) — galactic cores / satellites as expansion-structure imprint (shelf-promoted 2026-08-03; pairs with galactic_atoms)
 - [LV pricing](PRTOE_LV_pricing.md) · [2-loop V_eff spec](PRTOE_build_2loop_Veff_spec.md)
 
-## Singularities and horizons
+## Singularities and expansion floors (shelf)
 
-These are **structural consequences** of the framework, not tests of it. Each asks: given a condensate with a finite floor, what happens to a singularity or horizon puzzle? Status is stamped inside each file (synthesis, candidate, graded). None is observationally constrained; none is evidence for the model. They show the framework does not blow up where GR does — nothing more.
+**Shelf (expansion-attached):** condensate floor and early-universe bounce side only.
 
-For whether the program is worth taking seriously, start with the [failures ledger](PRTOE_FAILURES_LEDGER.md), [risk page](PRTOE_READERS_RISK.md), and [predictions](PRTOE_PREREGISTERED_PREDICTIONS.md). This section is downstream of all three.
+[black holes (medium core)](PRTOE_blackholes_no_singularity.md) · [big bang / bounce floor](PRTOE_bigbang_no_singularity.md)
 
-[no singularities](PRTOE_no_singularities.md) (synthesis) ·
-[black holes](PRTOE_blackholes_no_singularity.md) · [big bang](PRTOE_bigbang_no_singularity.md) ·
-[white holes](PRTOE_white_holes.md) · [arrow of time](PRTOE_arrow_of_time.md) ·
-[information paradox](PRTOE_information_paradox.md) · [entropy](PRTOE_entropy.md)
+**Exploratory (not expansion tests — ontology seating):**  
+[no singularities synthesis](exploratory/PRTOE_no_singularities.md) ·
+[white holes](exploratory/PRTOE_white_holes.md) · [arrow of time](exploratory/PRTOE_arrow_of_time.md) ·
+[information paradox](exploratory/PRTOE_information_paradox.md) · [entropy](exploratory/PRTOE_entropy.md)
+
+*(Quantum gravity hub and induced-gravity thin slice are on the **shelf** under Goal A attach + OPEN residuals — not in this exploratory list.)*
+
+These exploratory files may or may not merge into the Theory of Expansion later. They are **not** evidence for the expansion model.
+
 
 ## Internal machinery
 
@@ -77,14 +95,14 @@ Engineering and process, not results.
 
 [math spine](PRTOE_MATH_SPINE.md) · [dependency tree](PRTOE_DEPENDENCY_TREE.md) ·
 [derivation hunt](PRTOE_DERIVATION_HUNT.md) · [referee calendar](PRTOE_REFEREE_CALENDAR.md) ·
-[domain coverage map](PRTOE_DOMAIN_COVERAGE.md) · [reader’s guide](PRTOE_READERS_GUIDE.md) ·
-[laws and rules](laws_and_rules/) · [working logs](working_logs/)
+[domain coverage map](PRTOE_DOMAIN_COVERAGE.md) · [chain tables](PRTOE_CHAIN_TABLES.md) (live posteriors **NOT bookable** 2026-08-04) ·
+[reader’s guide](PRTOE_READERS_GUIDE.md) · [laws and rules](laws_and_rules/) · [working logs](working_logs/)
 
 **`#N` task numbers.** [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) maps each number to what it is and open/closed/waiting status. Reasoning lives in [`working_logs/_AUDIT_LEDGER.md`](working_logs/_AUDIT_LEDGER.md); kills in [`PRTOE_FAILURES_LEDGER.md`](PRTOE_FAILURES_LEDGER.md). Each claim’s own file is authority if they disagree.
 
 ## Exploratory
 
-[`exploratory/`](exploratory/README.md) holds 36 files moved off this shelf on 2026-07-28: domain censuses, quantum-foundations group, relativity framing, domain stubs, superseded lineage. Work continues there — the quantum group is an open line. The directory README states the sort test and what would turn the quantum files from interpretation into physics.
+[`exploratory/`](exploratory/README.md) holds the non-shelf working set (domain censuses, quantum-foundations group, relativity framing, domain stubs, superseded lineage, plus 2026-08-03 fence arrivals). Count drifts as fence/promote moves land — README is authority for the live list. Work continues there — the quantum group is an open line. The directory README states the sort test and what would turn the quantum files from interpretation into physics.
 
 ## Archive — provenance only; do not cite as current
 
@@ -103,3 +121,14 @@ A file here states the model as of its own date. Where a headline has moved, loo
   [weakest joints + c-prep](working_logs/PRTOE_weakest_joints_and_cprep_2026-07-10.md) ·
   [session 2026-07-29](working_logs/PRTOE_session_2026-07-29_findings.md) — five dockets advanced on symmetry; five earlier conclusions withdrawn or qualified ·
   [session 2026-07-29b](working_logs/PRTOE_session_2026-07-29b_findings.md) — docket sweep; Koide delivery-law routes closed; four same-day corrections (protocols 48–50)
+
+---
+
+## Discipline triage (2026-08-04 currency)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone; **not** H₀ win; **not** Page closed; **not** bbnfix bookable.
+**Currency package:** `docs/working_logs/_runs/shelf_map_currency_20260804/`
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

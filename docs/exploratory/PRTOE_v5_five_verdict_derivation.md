@@ -462,3 +462,10 @@ its own three certificates (α_T, foliation, α_B). Within the
 corroborated minimal model, the kill is final.** The turns-12/19
 premature credit and the un-locked scaling that misled both sides are
 corrected on the shared record: the math caught a shared error.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation

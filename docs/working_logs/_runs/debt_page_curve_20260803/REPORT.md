@@ -1,8 +1,8 @@
 # Debt report: Page *curve* dynamics residual (“coefficient paid”) — 2026-08-03
 
 **Board:** OPEN-THEORY (`docs/working_logs/_PROJECT_FINISH_ROADMAP.md` §OPEN-THEORY)  
-**Home claim file:** [`docs/PRTOE_information_paradox.md`](../../../PRTOE_information_paradox.md)  
-**Coefficient homes:** [`docs/PRTOE_quantum_gravity.md`](../../../PRTOE_quantum_gravity.md) §4a; [`docs/PRTOE_entropy.md`](../../../PRTOE_entropy.md) §3  
+**Home claim file:** [`docs/PRTOE_information_paradox.md`](../../../exploratory/PRTOE_information_paradox.md)  
+**Coefficient homes:** [`docs/PRTOE_quantum_gravity.md`](../../../PRTOE_quantum_gravity.md) §4a; [`docs/PRTOE_entropy.md`](../../../exploratory/PRTOE_entropy.md) §3  
 **Scope of this report:** inventory and grade only. **No Page-curve solution is invented.**
 
 ---
@@ -17,12 +17,12 @@ That parenthetical is a **status lock**, not a claim that the Page curve has bee
 
 ### 1.1 The three Page-curve ingredients (status table, 2026-08-02)
 
-From the header of [`PRTOE_information_paradox.md`](../../../PRTOE_information_paradox.md):
+From the header of [`PRTOE_information_paradox.md`](../../../exploratory/PRTOE_information_paradox.md):
 
 | Page-curve ingredient | status |
 |---|---|
 | area-law **coefficient** \(S = A/4G\) | **paid** — ratio of the two heat-kernel coefficients the same cutoff supplies, \(12\pi/48\pi = 1/4\) exactly ([`PRTOE_quantum_gravity.md`](../../../PRTOE_quantum_gravity.md) §4a) |
-| **field-content** extension beyond minimally coupled scalars | **paid** class by class at candidate grade ([`PRTOE_entropy.md`](../../../PRTOE_entropy.md) §3) |
+| **field-content** extension beyond minimally coupled scalars | **paid** class by class at candidate grade ([`PRTOE_entropy.md`](../../../exploratory/PRTOE_entropy.md) §3) |
 | the **curve itself** (\(S_\mathrm{rad}(v)\) vs Page time for phonon Hawking flux off a finite core) | **open — still un-run; do not fake it** |
 
 **“Coefficient paid”** therefore means only the first row (and, in the same lock, the second row as residual gate after the coefficient): the Bekenstein quarter and its roster extension. It does **not** mean ingredient three.
@@ -42,13 +42,13 @@ From the header of [`PRTOE_information_paradox.md`](../../../PRTOE_information_p
 
 Species count \(N\) and cutoff \(\varepsilon\) cancel in the ratio (universality). The model’s contribution is a **physical** regulator (Bogoliubov coherence factors of the medium) so both sides share one \(\varepsilon\). The entanglement-side O(1) check is paid **structurally** (2026-07-20): conical deficit \(R \supset 4\pi(1-n)\delta_\Sigma\) makes the area term and the induced-\(1/G\) term one heat-kernel coefficient \(a_1\); form factors cancel in the ratio.
 
-Roster extension ([`PRTOE_entropy.md`](../../../PRTOE_entropy.md) §3; `scripts/area_law_roster_extension.py`, 2026-07-28): spin-½ preserves the ratio; gauge sector restored with edge modes as horizon entropy (named commitment E); conformal scalar drops out under \(\xi=1/6\). Candidate grade: ~63% unconditional / ~37% on E.
+Roster extension ([`PRTOE_entropy.md`](../../../exploratory/PRTOE_entropy.md) §3; `scripts/area_law_roster_extension.py`, 2026-07-28): spin-½ preserves the ratio; gauge sector restored with edge modes as horizon entropy (named commitment E); conformal scalar drops out under \(\xi=1/6\). Candidate grade: ~63% unconditional / ~37% on E.
 
 ### 1.3 Why the roadmap says “coefficient paid” next to *curve* dynamics
 
-[`PRTOE_no_singularities.md`](../../../PRTOE_no_singularities.md) §5: **the same payment removes the coefficient block on the Page curve** while the curve *computation* itself remains open. Historical block (no \(1/4\) from the medium) is gone; dynamical residual is not.
+[`PRTOE_no_singularities.md`](../../../exploratory/PRTOE_no_singularities.md) §5: **the same payment removes the coefficient block on the Page curve** while the curve *computation* itself remains open. Historical block (no \(1/4\) from the medium) is gone; dynamical residual is not.
 
-Corpus wording to keep unscrambled ([`PRTOE_information_paradox.md`](../../../PRTOE_information_paradox.md)):
+Corpus wording to keep unscrambled ([`PRTOE_information_paradox.md`](../../../exploratory/PRTOE_information_paradox.md)):
 
 > Neither payment delivers the Page curve as a computed object… “owed” means a real dynamics computation, not a remaining coefficient or roster debt.  
 > **Status: structural dissolution plus coefficient-paid, curve-uncomputed.**
@@ -76,7 +76,7 @@ Corpus wording to keep unscrambled ([`PRTOE_information_paradox.md`](../../../PR
 | Island / replica-wormhole style quantitative construction | **not present** in this corpus as a PRTOE result | no island computation landed under `docs/PRTOE_*.md` or `scripts/` |
 | Desk-algebra fake of a curve from the coefficient alone | **forbidden** | information_paradox status lock 2026-08-02 |
 
-Entropy file explicit row ([`PRTOE_entropy.md`](../../../PRTOE_entropy.md) §3):
+Entropy file explicit row ([`PRTOE_entropy.md`](../../../exploratory/PRTOE_entropy.md) §3):
 
 > Page-curve *dynamics* (phonon flux off a finite core) | **open** — separate computation; *not* an area-law residue
 
@@ -93,7 +93,7 @@ Entropy file explicit row ([`PRTOE_entropy.md`](../../../PRTOE_entropy.md) §3):
 Reasons, all from corpus constraints:
 
 1. **Status lock (2026-08-02):** open object is exclusively half (ii) — dynamical Page curve for the sonic-horizon / finite-core setup. “That computation is not desk-algebra from existing numbers; faking a curve from the coefficient alone is forbidden.”  
-   ([`PRTOE_information_paradox.md`](../../../PRTOE_information_paradox.md) §3)
+   ([`PRTOE_information_paradox.md`](../../../exploratory/PRTOE_information_paradox.md) §3)
 
 2. **No instrument exists** for half (ii). Scripts search: only `scripts/area_law_roster_extension.py` (coefficient/roster bookkeeping). No `page_curve_*`, no \(S_\mathrm{rad}(v)\) pipeline, no finite-core phonon flux evaporative entropy run.
 

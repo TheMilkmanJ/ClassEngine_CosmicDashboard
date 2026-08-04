@@ -1,0 +1,15 @@
+SKIP run_validation_suite_1_9.sh
+Reason: suite requires ./class + use_prtoe LEGACY_ST inis (tests 2-9) and full CLASS binary runs;
+  active classy rejects use_prtoe as unread input (CURRENT_CORE build: use_dcdf live, use_prtoe struct dummy only).
+  Also risks CPU contention with live MCMCs (dyad/lcdm bbnfix + routeD). No PolyChord in suite but CLASS heavy.
+  Job fence: skip if needs CLASS/MCMC/long PolyChord — SKIP.
+
+SKIP run_prtoe_validation.py
+Reason: LEGACY_ST Numerical Validation Runner; requires classy use_prtoe compute path.
+  Same unread-parameter failure as test_legacy_st_null_limit / test_* --classy.
+  Not CURRENT_CORE (validate_dcdf.py). Not run to avoid CLASS load + false FAIL noise.
+
+CLASSY capability:
+  use_dcdf set accepted; use_prtoe set appears accepted but compute fails:
+  'Class did not read input parameter(s): use_prtoe, xi_prtoe, ...'
+  background.h: use_prtoe is LEGACY_ST dummy for compile, not public core.

@@ -1,0 +1,12 @@
+========================================================================
+make_getdist_tables — bbnfix gate check
+   bbnfix R−1: cmp_lcdm_mnu_bbnfix=0.059055, dyad_mnu_bbnfix=0.128943
+   bbnfix converged: cmp_lcdm_mnu_bbnfix=False, dyad_mnu_bbnfix=False
+   NOT READY — need both R−1 < 0.05 AND converged: true on both bbnfix legs.
+   REFUSED: will not write PRTOE_CHAIN_TABLES.md or bbnfix triangles while gate is closed.
+   booking ≠ publishing: even after gate opens, forward tables prefer Stage B after RED_AUDIT (bbnfix_when_ready_all.sh --write-tables).
+   Re-run after gate: python3 scripts/make_getdist_tables.py --include-bbnfix
+   Prefer production booking: python3 scripts/book_bbnfix_when_ready.py
+   --force-bbnfix is UNBOOKABLE-only (working_logs artifact; never living shelf).
+========================================================================
+tables_exit=2

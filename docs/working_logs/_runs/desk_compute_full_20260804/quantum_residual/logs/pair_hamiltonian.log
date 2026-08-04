@@ -1,0 +1,4 @@
+PAIR H → TMSV harness
+  rows=20 all_below_tsirelson=True
+  medium_r_derived=False EN-D2/D3 still MISSING_INPUT
+  wrote docs/working_logs/_runs/quantum_arxiv_worklist_20260803/pair_hamiltonian_tmsv.json

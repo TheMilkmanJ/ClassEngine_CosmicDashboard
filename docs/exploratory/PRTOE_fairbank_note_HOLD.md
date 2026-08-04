@@ -71,3 +71,10 @@ Letter is outward-facing; stale evidence claims are expensive. Live read of the 
 Edit *weakens* what the letter claims from numbers that currently favour the model — correct treatment if a lead cannot survive sampling asymmetry.
 
 **Status unchanged: shareable as a draft.** Letter still discloses the transition-epoch offset (0.053 dex / ~28% in fluid mass) on its own.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation

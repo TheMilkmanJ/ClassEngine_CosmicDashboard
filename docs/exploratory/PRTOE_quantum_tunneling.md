@@ -7,6 +7,23 @@
 tunneling rates is the falsifiable content. The model's addition is an ontology with a
 laboratory cousin so close it is already recorded as a precision receipt (Josephson).*
 
+> **Banner (TU-D1, 2026-08-03).**  
+> WKB ≡ medium evanescent decay is a **shared-math identity** under a stated map — **not**
+> a derivation of \(\hbar\), not a new tunneling rate, not proof that the cosmic medium
+> “is” a Josephson junction. Josephson = **laboratory cousin / same grammar**, scale differs.  
+> Medium–atom language = seating only (trio TR-D1).  
+> **arXiv:** standalone WKB note **KILLED** (TU-D2 red NO — textbook same-κ, no novel rate); corpus only.
+
+
+> **VERDICT (2026-08-03) — quantum four endpoint.**  
+> **arXiv ready as quantum-mechanics papers: NO.**  
+> **Does this model provide quantum mechanics? NO** — it does not derive QM, does not supply
+> new QM dynamics/Born/Hilbert/atomic Hamiltonian physics. It **seats** standard QM
+> (interpretation), **reproduces** it as permanent nulls, and (dark sector only) **forbids**
+> this ultralight medium as a tabletop collapse mechanism (`medium_induced_decoherence.py`).  
+> Medium–atom “transactions” remain **non-claims**. Full write-up:  
+> [`../working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md`](../working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md).
+
 ## 0. The mystery as usually told
 
 A particle crosses a barrier it classically cannot: "it borrows energy," "it takes all paths,"
@@ -32,13 +49,16 @@ proximity effect in a superconductor). Tunneling is not teleportation through a 
 
 ## 2. The recorded laboratory cousin: Josephson
 
-The model's own precision signature (recorded): the **Josephson junction** — a
+*(**TU-D4:** cousin / same grammar / scale differs — **not** “proves the cosmic medium is a junction.”)*
+
+The model's recorded laboratory cousin: the **Josephson junction** — a
 macroscopic condensate phase tunneling coherently through a barrier, so exactly understood that
-it DEFINES the SI volt. In this model that is not an analogy but the same object at laboratory
-scale: **a condensate's phase does not respect classical walls, and we calibrate voltmeters by
-that fact.** The universe-medium's tunneling and the junction's differ in scale, not kind.
-(Phase slips — the vortex-mediated version — are likewise recorded: the Landau-criterion
-instantiations in the trigger doc.)
+it DEFINES the SI volt. Under the shared grammar (condensate phase through a barrier), that is a
+**scale cousin, not a proof** that the cosmic medium *is* a junction: **a laboratory condensate's
+phase does not respect classical walls, and we calibrate voltmeters by that fact.** Cosmic-medium
+tunneling and the junction share the same mathematical class (evanescent / phase transport);
+they are not identified as one physical object. (Phase slips — the vortex-mediated version —
+are likewise recorded: the Landau-criterion instantiations in the trigger doc.)
 
 ## 3. Where this touches graded structure (beyond interpretation)
 
@@ -66,15 +86,34 @@ mysterious in atoms.*
 
 ---
 
-## 5. Claims ledger & shared-math hardening (2026-08-03)
+## 5. Claims ledger & null-hardening (2026-08-03)
 
-| # | Claim | Grade | Evidence | Residual |
+| # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| T1 | Thick-barrier WKB: $\ln T\sim -2\kappa L$ with $\kappa=\sqrt{2m(V-E)}/\hbar$ | **standard** | textbook | — |
-| T2 | Medium evanescent $\ln\|\psi\|=-\kappa x$ uses the **same** $\kappa$ | **shared-math hardened** | `scripts/quantum_wkb_medium_identity.py` (2×medium = WKB, all PASS) | Identification of formulas, not a derivation of $\hbar$ |
-| T3 | Josephson junction is the macroscopic cousin (SI volt) | **precision receipt** | laboratory metrology | Scale cousin, not cosmological proof |
+| T1 | Thick-barrier WKB: $\ln T\sim -2\kappa L$ with $\kappa=\sqrt{2m(V-E)}/\hbar$ | **derived (standard)** | textbook | — |
+| T2 | Medium evanescent $\ln\|\psi\|=-\kappa x$ uses the **same** $\kappa$ | **null-hardened** (shared math) | `scripts/quantum_wkb_medium_identity.py` (2×medium = WKB, all PASS); [WKB_MEDIUM_IDENTITY.md](../working_logs/_runs/quantum_null_hardening_20260803/WKB_MEDIUM_IDENTITY.md) | Identification of formulas, not a derivation of $\hbar$ |
+| T3 | Josephson junction is the macroscopic cousin (SI volt) | **derived (standard metrology)** | laboratory metrology / SI volt | Scale cousin, not cosmological proof |
 | T4 | Exact QM tunneling rates forever | **registered null** | §4 | Kill on confirmed deviation |
-| T5 | Preferred-frame imprint on tunneling *time* | **OPEN / research flag** | parked with LV | Not registered as a prediction |
+| T5 | Preferred-frame imprint on tunneling *time* | **OPEN-BLOCKED** (**TU-D5** park) | parked with LV audit | **Not** a registered prediction; OPEN-THEORY with LV joint |
 
-**What changed vs storygrade:** T2 is machine-checked identity, not metaphor.  
-**Report:** `docs/working_logs/_runs/quantum_null_hardening_20260803/WKB_MEDIUM_IDENTITY.md`.
+**What changed vs storygrade:** T2 promoted to **null-hardened** (shared-math identity enforced by script), not metaphor.  
+**Cross-link:** [`docs/working_logs/_runs/quantum_null_hardening_20260803/`](../working_logs/_runs/quantum_null_hardening_20260803/).  
+**Non-claims:** no derivation of $\hbar$; no novel tunneling-rate prediction; Josephson is
+**cousin / same grammar**, not proof the cosmic medium is a junction (TU-D4).  
+**Triage:** elevate-in-place (discipline); load-bearing rows are null-hardened / derived / interpretation / OPEN-BLOCKED / registered null — no bare story for physics.  
+**Elevation rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md` (discipline; physics OPEN rows stand).
+
+
+---
+
+## Research residual register (corpus continue; not paper path)
+
+| Residual | Status | Unblock |
+|---|---|---|
+| Born rule value | OPEN-BLOCKED | scored kill band *before* any claim (SP-D4 template) |
+| Medium pair \(r\) + pair Hamiltonian | MISSING_INPUT | explicit Hamiltonian + non-circular \(r\) (EN-D2/D3) |
+| Preferred-frame imprint (Bell / tunnel time / interference) | OPEN joint LV | LV audit / external precision |
+| α_c second-sound bench | OPEN parent | P-2026-040 / chain R−1 |
+| New arXiv note from this wing | **KILLED** until scored science | worklist red 2026-08-03 |
+
+*Seating language allowed. “Transactions proved” / derived atomic QM **forbidden**.*

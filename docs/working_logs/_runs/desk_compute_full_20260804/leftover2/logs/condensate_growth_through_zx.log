@@ -1,0 +1,94 @@
+============================================================================
+THE CONDENSATE-GROWTH SHAPE THROUGH z_x
+============================================================================
+
+[1] Supplied already: the two-fluid NORMAL fraction
+    Landau two-fluid with a phonon branch gives rho_n ~ T^4, so below condensation
+      f_n(z) = (T/T_c)^n = ((1+z)/(1+z_x))^n,  n = 4 for phonons
+    (P-2026-009's pricing; scripts/birefringence_window.py)
+
+               z      f_n (n=4)   f_cond = 1-f_n
+          100000     1.0000e+00       0.00000000
+           30000     8.1008e-03       0.99189924
+           10000     1.0004e-04       0.99989996
+            3400     1.3379e-06       0.99999866
+            1100     1.4694e-08       0.99999999
+
+    So the CONDENSATE FRACTION through z_x is fully determined:
+      f_cond(z) = 1 - ((1+z)/(1+z_x))^4,  z < z_x
+    It rises from 0 at z_x to 1 - 1.5e-8 by recombination. That is a shape,
+    it is derived from standard two-fluid physics, and it is already in use.
+
+[2] NOT supplied: the amplitude the docket actually asks for
+
+    The docket asks for Psi_0's PROFILE -- the field amplitude -- not the condensate
+    fraction. Those are different objects and the step between them is exactly the
+    clause that is missing.
+
+    The obstruction is an ordering the corpus records but does not reconcile:
+
+      z_on = 4.03e7   the field begins OSCILLATING (H = m), and thereafter dilutes
+                      as matter, Psi ~ a^(-3/2)
+      z_x  = 1.0e5    the medium enters the BASIN (mu = m) and the condensate turns
+                      on -- "nonexistent before z_x, alive at recombination"
+
+    z_on precedes z_x by a factor of 403 in redshift. So for that entire span the
+    field is described BOTH as a coherently oscillating amplitude AND as a medium
+    whose condensate does not yet exist. For an ordinary ultralight scalar those are
+    the same object, and the corpus's own two-fluid language says they are not.
+
+    THE MISSING CLAUSE, stated exactly: what is the relation between the oscillating
+    amplitude present from z_on and the condensate fraction that turns on at z_x?
+    Three readings are available and the corpus does not choose between them --
+
+      (a) they are the same object and "nonexistent before z_x" means thermally
+          disordered rather than absent, in which case Psi ~ sqrt(f_cond) * a^(-3/2)
+          and the profile follows immediately from section 1;
+      (b) they are different objects -- an oscillating zero-mode and a separate
+          condensed fraction of the quanta -- in which case two amplitudes exist and
+          the docket must say which one it wants;
+      (c) the two-fluid split applies to the EXCITATIONS on the oscillating
+          background, not to the background itself, in which case Psi is untouched by
+          z_x and the profile is just a^(-3/2) throughout.
+
+    Under (a) and (c) the answer is one line. Under (b) it is a modelling decision.
+    The arithmetic is not what is missing.
+
+[3] What each reading would give, for comparison only -- none is adopted
+
+               z    (a) sqrt(f_cond)*a^-3/2       (c) a^-3/2
+          100000                 0.0000e+00       3.1623e+07
+           10000                 1.0001e+06       1.0002e+06
+            1100                 3.6533e+04       3.6533e+04
+
+    They differ only near z_x, where sqrt(f_cond) departs from 1 --
+    at z = 50000 the two readings differ by 3.2%, and by recombination by 7.3e-07%.
+
+============================================================================
+VERDICT on #67
+============================================================================
+
+    NARROWED, NOT CLOSED -- as stated before computing.
+
+    The condensate FRACTION through z_x is supplied and derived: f_cond = 1 - (T/T_c)^4
+    from the phonon two-fluid, rising from 0 at z_x to within 1.5e-8 of unity by
+    recombination.
+
+    The AMPLITUDE profile the docket asks for needs one further clause, and the clause
+    is a modelling ruling rather than a calculation: how the oscillating field present
+    from z_on = 4.03e7 relates to the condensate that turns on at z_x = 1.0e5, given
+    that the corpus describes the medium as having no condensate for a factor of 403
+    in redshift during which the field is already oscillating.
+
+    Two of the three available readings make the profile a one-line consequence of
+    what is already supplied. The third makes it a modelling decision. So the honest
+    remaining debt is NOT "derive a shape" -- it is "say which of these the medium is",
+    and the docket should be reworded to that, since the shape follows in two cases out
+    of three.
+
+    Recorded rather than resolved, because choosing between (a), (b) and (c) is a
+    statement about the medium's structure and belongs to the owner, not to arithmetic.
+
+============================================================================
+CHECKS: 3/3 passing
+============================================================================

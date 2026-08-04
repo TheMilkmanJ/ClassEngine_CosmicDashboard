@@ -1,10 +1,10 @@
 # The CMB, mechanism by mechanism — a PRTOE map
 
-Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Live chains: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
 The cosmic microwave background carries three fields on the sky: temperature **T**, and two polarization patterns — **E** (gradient-like, parity-even) and **B** (curl-like, parity-odd). Correlating them gives six power spectra. This map states, for each: (1) the physical mechanism that sources it, (2) how PRTOE accounts for it, (3) the verdict.
 
-**Audience grade.** Parity-even spectra (TT/TE/EE/lensing BB): **reproduced or inherited** in the MCMC. Primordial BB: **free** (r free, like ΛCDM); chirality unobservable (Π ~ 10⁻⁷–10⁻⁸). TB/EB: **predicted zero** — kill-switch P-2026-009 (confirmed ≥5σ isotropic β kills the model as constituted). H₀/m_e shift: **provisional** (see [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md)). Do not inflate the m_e detection into a closed win.
+**Audience / status (2026-08-04).** Parity-even spectra (TT/TE/EE/lensing BB): **reproduced or inherited** in the pre-bbnfix MCMC / CosmicForge stack. Primordial BB: **free** (r free, like ΛCDM); chirality unobservable (Π ~ 10⁻⁷–10⁻⁸). TB/EB: **predicted zero** — kill-switch P-2026-009 (confirmed ≥5σ isotropic β kills the model as constituted). **m_e / H₀ shift: provisional pre-bbnfix** — the live bbnfix pair is **NOT bookable** (gate REFUSED; see CHAIN_TABLES). **~69.9 is a CosmicForge pre-bbnfix figure, not a chain-booked posterior.** Do not inflate the m_e detection into a closed win (see [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md); graded risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md)).
 
 The model does **not** re-derive acoustic physics from scratch — nobody does; it inherits the Boltzmann treatment (via CLASS) and adds its two ingredients: the **dCDF fluid** (the charged rotating superfluid acting as dark matter → dark energy) and the **varying electron mass m_e** (the electron-coupled scalar’s leptophilic coupling shifting recombination — quarks sit untouched, forced by the deuterium constraint rather than by a symmetry). For each spectrum the verdict is stated plainly: whether it is reproduced in the model’s MCMC fit, inherited from the standard physics the model shares, left free and inflation-dependent as in ΛCDM, or forced to zero as a falsifiable kill-switch.
 
@@ -18,7 +18,7 @@ The parity structure is the spine of the whole map:
 
 Before recombination, photons and baryons are one fluid. It falls into the gravitational potential wells set by the dark matter, compresses, pressure pushes back, it rarefies — **acoustic oscillations**. At recombination the pattern freezes. Compressions = hot spots, rarefactions = cold. Peak *positions* encode the geometry (sound horizon vs angular-diameter distance → Ω_total, H₀); peak *heights* encode baryon density (odd/even peak asymmetry) and dark-matter density. Add the Sachs–Wolfe redshift at last scattering, the late-time ISW from evolving potentials, and Silk (diffusion) damping at small scales.
 
-The dCDF fluid supplies the wells (it is matter-like, w≈0, at recombination). Baryons and photons are standard. The **varying m_e** shifts *when* recombination happens, which moves the damping tail and nudges peak positions/heights — this is the model’s specific fingerprint, and the MCMC detected it at **+1.2% in m_e (~2.7σ)**, easing H₀ to ~69.9 (**provisional** — Laplace evidence, chain convergence pending). TT is reproduced at ΛCDM quality; the m_e tweak is the live signal.
+The dCDF fluid supplies the wells (it is matter-like, w≈0, at recombination). Baryons and photons are standard. The **varying m_e** shifts *when* recombination happens, which moves the damping tail and nudges peak positions/heights — this is the model’s specific fingerprint, and the pre-bbnfix MCMC / CosmicForge stack detected it at **+1.2% in m_e (~2.7σ)**, easing H₀ to ~69.9 (**provisional pre-bbnfix** — Laplace evidence; live bbnfix pair **NOT bookable**; ~69.9 is **not** a chain-booked posterior). TT is reproduced at ΛCDM quality under that stack; the m_e tweak is the live signal, not a closed win.
 
 ## 2. TE — temperature × E-mode
 
@@ -80,3 +80,19 @@ This is P-2026-009 — a clean, falsifiable **kill-switch**: a confirmed ≥5σ 
 | **EB** | odd | E rotated into B by β | predicted zero (β = 0) — kill-switch |
 
 Everything parity-**even** — the bulk of the measured CMB — PRTOE accounts for: fit where the data is (TT/TE/EE), inherited where it follows (lensing BB), free where inflation rules (primordial BB, and there predicted non-chiral). Everything parity-**odd** — TB/EB — PRTOE predicts silent, because the medium banks only at the parity-even gravity window and holds no electric-charge account in any state. The odd modes are not a separate frontier: they are the even modes rotated by β, so the even spectra we already fit set the exact size of any birefringence for a given β. The model says β = 0; the data has not yet said otherwise.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | TT/TE/EE reproduced in MCMC (m_e shift provisional) | **machine-backed** provisional | scorecard; hubble_tension | Chain convergence |
+| 2 | Lensing BB inherited; primordial BB free (r free) | **interpretation** / standard | scorecard | Like ΛCDM on r |
+| 3 | Primordial chirality Π ~ 10⁻⁷–10⁻⁸ unobservable | **machine-backed** | §4 | Carrier missing for vortex GW |
+| 4 | TB/EB = 0 (β=0); P-2026-009 kill-switch | **registered null** | §5–6; EM-neutrality | ≥5σ isotropic β kills |
+| 5 | Map is mechanism-by-mechanism seating, not new derivation | **interpretation** / map | whole file | — |
+
+**Non-claims:** not closed m_e win; not primordial B-mode detection claim.
+
+**Triage:** elevate-in-place (map). Physics ceiling: even spectra provisional; odd null registered.

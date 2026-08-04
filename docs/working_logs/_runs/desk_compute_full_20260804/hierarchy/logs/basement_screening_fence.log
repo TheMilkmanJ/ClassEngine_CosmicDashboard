@@ -1,0 +1,65 @@
+============================================================================
+CALIBRATION -- reproduce what section 6c already records
+============================================================================
+  alpha_c from the booked b        0.021892
+  k at (N, v) = (2, 1)             1.36461229   booked 1.36461191
+  d lnM / d lnk = 1/(k alpha_c)    33.47        booked 33.47
+  k at N = 1 (one band screening)  1.58305      booked 1.58305
+    -> anchor moves by             x101.4       booked 1.6e5 GeV against a ~1.57 TeV anchor, i.e. x102
+  k at N = 24 (roster as Dirac)    0.61846      booked 0.618
+    -> anchor moves by             x2.9e-18     booked ~1e-18
+  v = 0.9 at N = 2                 k = 1.3316     booked 1.3316
+    -> anchor moves by             x0.44       booked 'about a factor two'
+
+============================================================================
+(1) THE TWO CONDITIONS ARE ONE: b DEPENDS ONLY ON N/v
+============================================================================
+       N      v     N/v |            b            k
+  --------------------------------------------------
+       2   1.00   2.000 |   0.01393690   1.36461229
+       4   2.00   2.000 |   0.01393690   1.36461229
+       1   0.50   2.000 |   0.01393690   1.36461229
+       6   3.00   2.000 |   0.01393690   1.36461229
+       3   1.50   2.000 |   0.01393690   1.36461229
+
+  Every row is the booked point. So 'exactly two species doped' and 'v = 1' are not
+  two facts about the host -- they are one relation, N = 2v, and supplying either
+  alone reduces the debt by nothing. Section 6c counts them separately (three unmet,
+  one supplied); on its own formulas the screening pair is a single condition.
+
+============================================================================
+(2) THE FENCE ON N/v
+============================================================================
+  anchor within a factor 2    N/v in [1.8245, 2.1845]   = 2 -8.8% / +9.2%
+  anchor within a factor 10   N/v in [1.4516, 2.6472]   = 2 -27.4% / +32.4%
+  anchor within a factor 100  N/v in [1.0024, 3.3910]   = 2 -49.9% / +69.6%
+
+  So the ratio is fenced at roughly +-9% for factor-2 accuracy on the anchor. Among
+  INTEGER species counts at v = 1 there is no room at all:
+
+     N |          k |   anchor vs booked
+  ----------------------------------------
+     1 |    1.58305 |               x101
+     2 |    1.36461 |                 x1
+     3 |    1.23773 |            x0.0323
+     4 |    1.14832 |           x0.00183
+     6 |    1.02355 |          x1.43e-05
+
+  N = 1 overshoots by two orders and N = 3 undershoots by one and a half, so the
+  count is not merely favoured, it is isolated. The tolerance the fence allows is
+  continuous room, and the only continuous variable in the ratio is v.
+
+============================================================================
+(3) WHAT THIS DOES TO THE DOCKET
+============================================================================
+  Hold N = 2 and the fence reads v in [0.9155, 1.0962] for factor-2 accuracy,
+  i.e. the band velocity must sit within 8.4% of the medium's gauge-field speed.
+  Section 6c argues that comes free -- a linear node IS a cone whose slope defines the
+  emergent light speed -- and on the degeneracy above that argument is doing more work
+  than it was credited with: it is what stops N and v trading off against each other.
+
+  So the residue is one number and not two. If the cone argument holds, v = 1 is fixed
+  and the whole of #146 is 'why exactly one node pair is doped'. If it ever weakens,
+  N and v move together exactly, and a host with N = 4 would need v = 2 -- fermions
+  outrunning the medium's own gauge field, which is its own refutation. That is worth
+  recording: the degeneracy is not a loophole, because its far end is unphysical.

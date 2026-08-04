@@ -1,0 +1,82 @@
+==============================================================================
+(1) WHAT EACH READING PREDICTS
+==============================================================================
+  ACCUMULATED:  N = 3.82e+05 turns  ->  f_bar = 2/pi to within 8.33e-05%
+                 2/pi is PREDICTED. No freedom, nothing to fit.
+
+  INSTANTANEOUS: f_bar = |cos theta_freeze|, drawn once from the |cos| distribution,
+                 whose density is 2/(pi sqrt(1-x^2)) on [0,1] and whose MEAN is 2/pi --
+                 so 2/pi is the typical value but carries the full spread.
+                 spread: sd(|cos|) = sqrt(1/2 - (2/pi)^2) = 0.3078  (48.3% of the mean)
+
+==============================================================================
+(2) THE CORPUS'S TWO MEASUREMENTS, AGAINST BOTH
+==============================================================================
+  measurement          value   offset from 2/pi   P(frozen lands this close)
+  ----------------------------------------------------------------------------
+  fit-implied         0.6253              1.78%                        1.87%
+  winding-sim         0.6350              0.25%                        0.27%
+
+  Under the accumulated reading each of these is a hit with probability ~1 (the
+  prediction is 2/pi and the measurements carry their own errors).
+  Under the instantaneous reading each is a coincidence at the quoted probability.
+
+==============================================================================
+(3) THE LIKELIHOOD RATIO
+==============================================================================
+  ONLY ONE of the two measurements may be used, and it is not the tighter one.
+  The winding-sim SIMULATES the winding premise, so it is guaranteed to land on 2/pi
+  whatever the physical window is -- it tests the arithmetic of the average, not the
+  choice of window. Quoting its 0.25% as evidence against the frozen reading would be
+  circular. The fit-implied value is the only number drawn from data rather than from
+  the premise under test.
+
+    fit-implied f_bar = 0.6253, offset 1.78%
+    P(a frozen phase lands this close to 2/pi) = 1.87%
+    odds favouring the accumulated reading      = 54 : 1
+
+  That is modest evidence, and it should be read as modest. A 1-in-53 coincidence is
+  not rare across a corpus with far more than 53 numbers in it, so the look-elsewhere
+  effect eats much of it. What it is NOT vulnerable to is fitting: the turn budget was
+  computed from theta_dot/H = 2.4e6 and theta_dot ~ T^3, both recorded for baryogenesis
+  and neither touched by the amplitude, so 3.82e5 turns was not chosen to make this work.
+
+==============================================================================
+(4) THE SENSITIVITY — HOW CLOSE WOULD IT HAVE TO BE TO SETTLE IT?
+==============================================================================
+    offset from 2/pi    P(frozen)         odds
+  ----------------------------------------------
+              10.00%      10.548%           9:1
+               5.00%       5.260%          19:1
+               2.00%       2.102%          48:1
+               1.81%       1.903%          53:1
+               1.00%       1.051%          95:1
+               0.30%       0.315%         317:1
+               0.10%       0.105%         951:1
+
+  The corpus's tightest reading sits at 1.81%. Halving the measurement error would
+  roughly double the odds; getting to 0.3% would put it past 300:1. So this is a
+  question the production chains can actually settle, and the quantity to watch is the
+  posterior width on epsilon, since f_bar is inferred through it.
+
+==============================================================================
+VERDICT
+==============================================================================
+  The window is the ACCUMULATED one, at evidence grade rather than by assertion. The
+  distinction matters beyond bookkeeping because the two readings differ in KIND:
+
+    * accumulated -> f_bar = 2/pi is a theorem given the turn budget, the alpha_c
+      conflict stands at its full 2.08%, and branch (a) of that conflict is dead by
+      six orders. Nothing about f_bar is available to relieve the tension.
+    * instantaneous -> f_bar is a free parameter that happens to sit near 2/pi, the
+      2.08% conflict can be absorbed into it, and the amplitude's decomposition loses
+      one of its three derived factors.
+
+  Recording which one is live therefore changes what the alpha_c conflict means, and
+  the evidence points at the reading that makes the conflict REAL. That is the
+  uncomfortable direction, which is the one worth trusting.
+
+  STILL OWED. The operator form -- whether the shift in m_e is laid down as an integral
+  over the winding epoch or read off the phase at recombination -- is a statement about
+  the coupling that the corpus has not written down. The likelihood ratio argues for the
+  first; it does not derive it.

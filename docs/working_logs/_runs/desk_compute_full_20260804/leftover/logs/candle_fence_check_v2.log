@@ -1,0 +1,20 @@
+configurations: 324  step evaluations: 1944
+predicted step: min 0.0002  median 0.0208  max 0.1030 mag
+fraction reaching the observed floor (>= 0.05): 0.104
+fraction inside the observed band [0.05, 0.08]: 0.092
+
+dilution <g>_lo - <g>_hi across the gate/population bands:
+  min 0.003  median 0.252  max 0.858
+  (v1's binary gave 0.09-0.35 over its scanned corner)
+
+the corners that reach the observed band (Cref, s, sigma, med_lo, med_hi, dil):
+  Cref= 2.0 s=2 sig=0.6 mlo=1.0 mhi= 5.0 <g>lo=0.75 <g>hi=0.19 dil=0.559
+  Cref= 2.0 s=2 sig=0.6 mlo=1.0 mhi=10.0 <g>lo=0.75 <g>hi=0.07 dil=0.682
+  Cref= 2.0 s=2 sig=0.9 mlo=1.0 mhi=10.0 <g>lo=0.71 <g>hi=0.10 dil=0.610
+  Cref= 2.0 s=4 sig=0.6 mlo=1.0 mhi= 5.0 <g>lo=0.83 <g>hi=0.11 dil=0.719
+  Cref= 2.0 s=4 sig=0.6 mlo=1.0 mhi=10.0 <g>lo=0.82 <g>hi=0.02 dil=0.806
+  Cref= 2.0 s=4 sig=0.6 mlo=1.5 mhi=10.0 <g>lo=0.65 <g>hi=0.02 dil=0.634
+  Cref= 2.0 s=4 sig=0.9 mlo=1.0 mhi= 5.0 <g>lo=0.75 <g>hi=0.18 dil=0.573
+  Cref= 2.0 s=4 sig=0.9 mlo=1.0 mhi=10.0 <g>lo=0.75 <g>hi=0.05 dil=0.699
+  Cref= 2.0 s=4 sig=0.9 mlo=1.5 mhi=10.0 <g>lo=0.61 <g>hi=0.06 dil=0.558
+  Cref= 2.0 s=4 sig=1.2 mlo=1.0 mhi=10.0 <g>lo=0.70 <g>hi=0.10 dil=0.600

@@ -21,3 +21,13 @@ retains full history.
 
 Current, active documentation lives in `docs/` at the top level;
 `docs/PRTOE_v5_dCDF_complete.md` is the present source-of-truth.
+
+## Validation lane (do not mix with CURRENT_CORE)
+
+| Label | Flags | Scripts |
+|-------|--------|---------|
+| **LEGACY_ST** (this era) | `use_prtoe` + ξ/ζ/β/… | `scripts/test_prtoe_null_limit.py`, `scripts/test_local_gravity.py`, `scripts/test_bbn_activation.py`, `scripts/run_validation_suite_1_9.sh` |
+| **CURRENT_CORE** (live) | `use_dcdf` + screened `varying_me` | `validate_dcdf.py`, production YAMLs with `use_dcdf: yes` |
+
+A “null limit” pass on `use_prtoe` is **comparison regression only**, not a claim
+that the public expansion core recovers ΛCDM.

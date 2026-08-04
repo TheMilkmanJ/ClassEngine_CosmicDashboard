@@ -1,0 +1,124 @@
+{
+  "milestone": "A_week1_sonic_horizon_thermal_bookkeeping",
+  "claim_grade": "instrument_partial",
+  "page_curve_claimed": false,
+  "S_rad_v_claimed": false,
+  "units": "healing (xi, t_heal), hbar=kB=1",
+  "profile": {
+    "type": "tanh_stationary_acoustic",
+    "ell": 4.0,
+    "v_in": -1.5,
+    "v_out": -0.5,
+    "n_inf": 1.0,
+    "L": 80.0
+  },
+  "analytic": {
+    "x_h": 0.0,
+    "kappa": 0.125,
+    "T_H": 0.019894367886486918
+  },
+  "grid_convergence": [
+    {
+      "N": 512,
+      "dx": 0.15625,
+      "found": true,
+      "x_h": 0.0,
+      "v_h": -1.0,
+      "c_s_h": 1.0,
+      "kappa": 0.12493646049339482,
+      "T_H": 0.019884255259929085,
+      "ell": 4.0,
+      "rel_err_kappa": 0.0005083160528414066
+    },
+    {
+      "N": 1024,
+      "dx": 0.078125,
+      "found": true,
+      "x_h": 0.0,
+      "v_h": -1.0,
+      "c_s_h": 1.0,
+      "kappa": 0.12498410785300465,
+      "T_H": 0.019891838572736263,
+      "ell": 4.0,
+      "rel_err_kappa": 0.00012713717596279928
+    },
+    {
+      "N": 2048,
+      "dx": 0.0390625,
+      "found": true,
+      "x_h": 0.0,
+      "v_h": -1.0,
+      "c_s_h": 1.0,
+      "kappa": 0.12499602650859173,
+      "T_H": 0.019893735485687958,
+      "ell": 4.0,
+      "rel_err_kappa": 3.1787931266125113e-05
+    },
+    {
+      "N": 4096,
+      "dx": 0.01953125,
+      "found": true,
+      "x_h": 0.0,
+      "v_h": -1.0,
+      "c_s_h": 1.0,
+      "kappa": 0.12499900659872765,
+      "T_H": 0.019894209781763948,
+      "ell": 4.0,
+      "rel_err_kappa": 7.947210178826936e-06
+    }
+  ],
+  "null_subsonic_horizon_found": false,
+  "thermal_table": [
+    {
+      "omega_over_kappa": 0.05,
+      "omega": 0.00625,
+      "omega_over_T_H": 0.3141592653589793,
+      "n_B": 2.7092358372925673
+    },
+    {
+      "omega_over_kappa": 0.1,
+      "omega": 0.0125,
+      "omega_over_T_H": 0.6283185307179586,
+      "n_B": 1.1435680009516886
+    },
+    {
+      "omega_over_kappa": 0.25,
+      "omega": 0.03125,
+      "omega_over_T_H": 1.5707963267948966,
+      "n_B": 0.262434309411032
+    },
+    {
+      "omega_over_kappa": 0.5,
+      "omega": 0.0625,
+      "omega_over_T_H": 3.141592653589793,
+      "n_B": 0.04516570536368412
+    },
+    {
+      "omega_over_kappa": 1.0,
+      "omega": 0.125,
+      "omega_over_T_H": 6.283185307179586,
+      "n_B": 0.0018709365986606446
+    },
+    {
+      "omega_over_kappa": 1.5,
+      "omega": 0.1875,
+      "omega_over_T_H": 9.42477796076938,
+      "n_B": 8.070603050803163e-05
+    },
+    {
+      "omega_over_kappa": 2.0,
+      "omega": 0.25,
+      "omega_over_T_H": 12.566370614359172,
+      "n_B": 3.487354517808118e-06
+    }
+  ],
+  "acceptance": {
+    "horizon_found": true,
+    "kappa_positive": true,
+    "kappa_vs_analytic_rel_err": 7.947210178826936e-06,
+    "kappa_refine_rel": 2.3840910556025222e-05,
+    "kappa_stable_lt_5pct": true,
+    "thermal_fit_from_modes": false,
+    "note": "T_H reported from \u03ba/2\u03c0; n_B(\u03c9) is the ideal Bose reference, not a fitted spectrum from Bogoliubov scattering (Week 2)."
+  }
+}

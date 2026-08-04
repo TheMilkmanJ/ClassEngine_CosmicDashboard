@@ -1,0 +1,20 @@
+==============================================================================
+M6 — 1D repulsive GPE rebound (verified split-step)
+==============================================================================
+  t_heal ≈ 15.7 days at recorded ξ, c_s
+     A   v0    n_i    n_pk     ×  t_turn     n_f     out  turn?    dE%
+     2  0.5    3.0    3.09  1.03     1.0    1.86   0.112    YES   0.35
+     5  1.0    6.0    6.29  1.05     0.8    3.18   0.047    YES   0.83
+    10  1.0   11.0   11.27  1.02     0.4    6.54  -0.093    YES   1.42
+     5  2.0    6.0    7.09  1.18     1.2    3.69   0.140    YES   0.96
+
+READ (computed toy; fences in docstring)
+  1. Density turn (n_final < n_peak): 4/4 cases — repulsive
+     interaction stops the compression without a hand-declared re-entry.
+  2. Late outward mean flow: 3/4 cases positive — sign of
+     expansion hand-back is preferred but not universal on this 1D probe.
+  3. Overshoot n_peak/n_init is O(1), not a free ~6 e-fold cosmological dial;
+     MeV budget remains a door-energy question, not solved by the turn alone.
+  4. Grade: medium-layer dynamic turn is real in the toy; cosmological O2/O6
+     matching still open. Spherical production script is separate/heavier.
+==============================================================================

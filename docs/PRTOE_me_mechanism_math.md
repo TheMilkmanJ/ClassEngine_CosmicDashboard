@@ -654,3 +654,23 @@ demand is **≳1.4×10⁵ granules per sampling volume** to fit inside 10 km/s (
 from the sightline cell count recorded earlier.
 
 `scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls. All pass.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Form m_e(x) = m_e^lab[1+ε S(x)]; ε = 1.2543% | **complete-conditional** | audience table; THE_AMPLITUDE | ε stack conditional |
+| 2 | Environmental Θ / Weyl gate forced (conformal portal → C²) | **derived / forced** | §1–2 | — |
+| 3 | Transition sharpness forced by MICROSCOPE + quasar | **derived** | audience table | Two-constraint |
+| 4 | Weyl not Ricci (three independent reasons) | **derived** | audience table | — |
+| 5 | High-f operator (dim-6 lepton) assumed, not symmetry-selected | **OPEN** / assumption | docket #125 | Data-narrowed |
+| 6 | T_c = 177.10 keV derived (Koide τ); κ-independent formula | **derived-conditional** | audience table | Lattice crowns τ |
+| 7 | Electron-loop onset / low-f config | **failed / retired** | Failures ledger | BBN-fatal |
+| 8 | Θ-averaging / developed-speckle route | **retired**; laminar Θ survives | closing; theta_coupling_resolved | Width demand on granules |
+| 9 | Conversion-channel linear perts | **implemented** when dcdf_conv_g>0 | CLASS; not this file | — |
+
+**Non-claims:** not free per-window ε; retired electron-loop onset not current.
+
+**Triage:** elevate-in-place. Physics ceiling: math form forced; operator/stack residual OPEN.

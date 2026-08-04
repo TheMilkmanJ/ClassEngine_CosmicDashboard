@@ -1,0 +1,23 @@
+==============================================================================
+The assembled crunch timeline: what the bath's own history delivers
+==============================================================================
+
+1. Anchors, recomputed:
+   door scale from ξ:  ρ^¼ = 3.72 keV   (recorded 3.7)
+   medium floor m⁴/λ:  ρ^¼ = 1.06 keV   (recorded 1.1)
+   bath at CMB-class door: 146 eV (recorded); a_door = 1.61e-06
+   a needed for 1 MeV: 2.35e-10 — the door opens 6,849× too early in T
+
+2. The bar (volume compression door→turn for a 1 MeV restart):
+   CMB-class door (bath 146 eV):        F ≥ 3.2e+11
+   deepest (floor-class) door (~1 keV): F ≥ 1.0e+09
+   perfect shear→heat at the door too:  F ≥ 4.6e+07
+   (1D verified rebounds overshoot by O(1); the sequencing race saw
+   peak compressions of 3–8 at Mach 2–3.)
+
+3. The measured focusing (spherical adaptive run):
+   PENDING — the run is in flight; verdict withheld until it lands.
+   Standing read: unless 3D focusing exceeds the bar above by
+   itself, the restart bath is sub-keV to keV-class and O6 is not
+   funded by compression. Nothing concluded before the number.
+==============================================================================

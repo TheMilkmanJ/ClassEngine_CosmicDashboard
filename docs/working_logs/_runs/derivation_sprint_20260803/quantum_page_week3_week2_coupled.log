@@ -1,0 +1,26 @@
+# P1b — Week3 skeleton seeded by week2 spectrum
+
+**page_curve_claimed: false**
+
+## Setup
+- Spectrum source: **mode_matching.n_mode**
+- Modes: 8 (ω from week2; n̄ clipped ≤20 for Gaussian stability)
+- Coupling: g=0.08 vs g=0 null
+
+## Results (instrument)
+
+| run | peak S_rad | late S_rad | late_drop |
+|---|---:|---:|---|
+| week2-seeded g=0.08 | 3.94754 | 3.91171 | True |
+| null g=0 | 3.94754 | 3.94754 | False |
+
+## Non-claims
+Not Q6. Not continuum Page. Not PRTOE result.
+
+## Recompute
+```bash
+python3 scripts/quantum_page_week3_week2_coupled.py
+```
+
+wrote docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/week3_week2_coupled.json
+EXIT:0

@@ -1,0 +1,40 @@
+==============================================================================
+The cell fraction reduced: the clock elimination and the held fraction
+==============================================================================
+
+1. Constant-ξ clocks, killed by scaling (computed):
+   k/k_eq    z_entry (RD)      f = H·ξ         d ln f/d ln k
+     2.0         6800      2.340e-07        — 
+     5.0        17000      1.306e-06      +2.48
+    10.0        34000      5.001e-06      +1.94
+    20.0        68000      1.954e-05      +1.97
+   at the pivot: f = 1.31e-06 — 169× under the
+   triangle window, AND f ∝ k² ⟹ shot power ∝ k⁶ ⟹ n_s ≈ 7:
+   wrong value and wrong scaling — dead twice over. The single-epoch
+   clock is the recorded n_s = 4 exclusion. Both constant-ξ clocks die.
+
+2. The sole survivor: horizon-tracking coherence
+   ξ_eff = β·(c_s/H) ⟹ at every mode's crossing, f = β — constant,
+   self-similar, scale-invariant: exactly the recorded scaling ruling
+   ('a length held at a constant fraction of the horizon while both
+   grow'). The clock is derived by elimination; the scale requirement
+   is the corpus's own recorded class.
+
+3. The target the basement owes:
+   β ∈ [1.0e-04, 2.6e-04]  (the triangle's window)
+   β = 2.21e-04  (the closed form's point at unit rate)
+   In causal language: the medium's early coherence saturates at
+   ~1/5000 of its own causal range — a small, scale-free ordering
+   fraction that standard coarsening laws cannot hold (they give a
+   falling ratio ∝ t^(−1/2)); the radiation-like era must be critical.
+
+4. Temptations recorded as temptations (weight zero, tested later):
+   α_c²/2 = 2.40e-04 (8% from the closed point);
+   α_c²   = 4.79e-04 (2.2× off). Neither is an answer;
+   either would need the derivation to produce it, not the reverse.
+
+VERDICT: f is REDUCED, not derived — to one number β with a derived
+   clock, a recorded scale class, a two-sided target window, and the
+   critical-era requirement named. β is now the program's sharpest
+   open number: it closes #15, gates #8, and referees #9 at once.
+==============================================================================

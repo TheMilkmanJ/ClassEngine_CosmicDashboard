@@ -113,3 +113,11 @@ counted above. Kinship rows +2 (lasers, topological matter — the cousins' benc
 inheritance, ridden or screened as the law requires. NOTHING FORCED: laser physics asked for a thread and received a kinship-note and
 an honest [R]; the one upgrade (critical phenomena) was not a stretch but an OVERSIGHT — the
 model literally runs on that subdomain's equations (Kibble-Zurek, T_c, the exponents).
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

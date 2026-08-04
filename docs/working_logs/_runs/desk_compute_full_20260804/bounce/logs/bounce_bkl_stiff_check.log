@@ -1,0 +1,83 @@
+
+#117 — can the model's own rotating condensate supply the stiff (w >= 1) phase
+that a BKL-safe contraction requires?
+
+MATH_SPINE records the objection as "the recorded regimes do not supply w >= 1".
+That is a survey statement. This is the calculation.
+
+The model's founding identity is a charged ROTATING superfluid: a complex scalar
+Psi = (r/sqrt2) e^{i theta} carrying a conserved charge Q = a^3 r^2 thetadot.
+Eliminating thetadot at fixed Q turns the rotation into a centrifugal term in an
+effective radial potential:
+
+    V_eff(r) = V(r) + Q^2 / (2 a^6 r^2)
+
+Two regimes are possible on approach:
+
+  (A) TRACKING - r sits at the minimum of V_eff and slides as a shrinks.
+  (B) FROZEN   - Hubble friction beats the restoring curvature, r stays put and
+                 rho_rot = Q^2/(2 a^6 r^2) goes as a^-6, i.e. exactly kination.
+
+(B) is the only way to get w = 1 out of this sector. So the question is entirely
+"which regime holds on approach to the bounce", and that is decided by comparing
+V_eff'' against H^2 at the tracking solution.
+
+Result, both analytic and integrated below:
+  * tracking in V ~ r^n gives  w = (n-2)/(n+2)  exactly -- strictly BELOW 1 for
+    every polynomial n, approaching 1 only as n -> infinity.
+  * the tracking solution is stable (so (B) never takes over) whenever the
+    amplitude is sub-Planckian: V_eff''/H^2 = O(10) * (M_Pl/r)^2.
+
+So the rotating sector cannot supply the stiff phase at any sub-Planckian
+amplitude, for any polynomial potential. The BKL objection is not merely
+unanswered by the recorded regimes -- it is unanswerable from this sector.
+
+==========================================================================
+TRACKING EQUATION OF STATE, V ~ r^n
+==========================================================================
+   n  w analytic  w sub-Planck  w trans-Planck   note
+   2    0.000000      0.000064          1.0000   OK  quadratic - the mass era
+   4    0.333333      0.333395          0.9998   OK  quartic - the recorded w=1/3 youth
+   6    0.500000      0.500067          0.9988   OK  
+
+  w = (n-2)/(n+2) -> 1 only as n -> infinity.
+  No polynomial potential reaches w = 1. Kination is out of reach
+  of the tracking rotating condensate, for every n.
+
+==========================================================================
+IS TRACKING ACTUALLY WHAT HAPPENS? (freeze would give w=1 instead)
+==========================================================================
+  Freezing needs Hubble friction to beat the restoring curvature,
+  i.e. V_eff'' < H^2 (a few). At the tracking minimum:
+
+     n         V_eff"/H^2   amplitude needed for r to freeze
+     2      12 (M_Pl/r)^2   r > 3.5 M_Pl
+     4      24 (M_Pl/r)^2   r > 4.9 M_Pl
+     6      36 (M_Pl/r)^2   r > 6.0 M_Pl
+    10      60 (M_Pl/r)^2   r > 7.7 M_Pl
+
+  The ratio is (M_Pl/r)^2 up to O(10). For any SUB-PLANCKIAN
+  amplitude the curvature dominates by orders of magnitude, the
+  field tracks, and w is pinned at (n-2)/(n+2) < 1.
+
+  VERDICT: the rotating sector cannot supply a BKL-safe stiff phase
+  below the Planck scale. The objection is unanswerable from here,
+  not merely unanswered.
+
+==========================================================================
+THE CONTRACTING BRANCH ON THE MODEL'S OWN (m, lambda) -- what eos it hits
+==========================================================================
+  Psi0 = m/sqrt(lambda) = 5.01e+25 eV = 4.1e-03 M_Pl (quartic=mass point)
+     R/Psi0  h=lam R^2/m^2  local n        w
+      1e+03       1.00e+06    4.000   0.3333
+      1e+01       1.00e+02    3.980   0.3311
+      1e+00       1.00e+00    3.000   0.2000
+      1e-01       1.00e-02    2.020   0.0049
+      1e-03       1.00e-06    2.000   0.0000
+
+  The contracting branch passes through w = 1/3 (quartic youth) into
+  w = 0 (mass era) -- the same sequence as expansion, reversed -- and
+  never stiffens: the quartic=mass point Psi0 is itself sub-Planckian,
+  and kination needs ~M_Pl amplitude that contraction does not reach
+  before the bounce. So solving the field equation in time returns the
+  SAME adverse BKL verdict; it does not rescue the bounce.

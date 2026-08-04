@@ -1,0 +1,29 @@
+==============================================================================
+The democratic count: licensed by blindness, refereed by precision
+==============================================================================
+
+   candidate counts and separations:
+   democratic (medium-sector share)  c = 9/10  = 0.9000
+   charge²-weighted (EM-sector)      c = 8/9   = 0.8889   (+1.25%)
+   roster-variant                    c = 12/13 = 0.9231   (+2.56%)
+
+   implied current ensemble width on c: ~4.2%
+
+   separation requirements (3σ), as precision on ε = c·f̄·α_c:
+   9/10 vs 8/9    : Δc/c = 1.23%  ⟹  σ_ε ≲ 0.41%
+   9/10 vs 12/13  : Δc/c = 2.56%  ⟹  σ_ε ≲ 0.85%
+
+READ
+  1. The equal-share step is now LICENSED, not bare: the recorded
+     blindness principle (the medium couples to energy content, not
+     identity) forces the democratic count, conditional on the share
+     being taken in the medium sector — where the amplitude chain
+     lives. The weighting is a SECTOR DIAGNOSTIC: 9/10 medium,
+     8/9 electromagnetic. The condition is named and falsifiable.
+  2. The referee is quantitative: separating 9/10 from 8/9 at 3σ
+     needs σ_ε ≈ 0.4% — the running α_c/ε chains are the instrument,
+     and their posterior width decides when the count stops being
+     conditional. 12/13 needs only ~0.9% and falls first.
+  3. Grade: assumption → licensed-with-named-condition. Not derived;
+     the license inherits the blindness principle's own grade.
+==============================================================================

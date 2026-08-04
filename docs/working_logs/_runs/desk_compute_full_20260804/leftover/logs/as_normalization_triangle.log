@@ -1,0 +1,36 @@
+==============================================================================
+The normalization triangle: two parameters, three observables
+==============================================================================
+
+1. The component-identity ruling (the four-order kill):
+   dark-subcomponent fraction pre-transition: (Ω_dm/Ω_r)/(1+z_on) = 7.18e-05
+   coefficient needed to meet the registered residual band: c ≥ 1.1e+04
+   DEAD by ~4 orders — the census is the SUBSTRATE's (fraction ≡ 1,
+   the same counting that prices the vacuum energy); the envelope
+   derivation's constant-fraction premise becomes EXACT.
+
+2. The residual band bounds the rate two-sided:
+   S/ζ = 1/(r·L*) ∈ [0.005, 0.02]  ⟹  r ∈ [0.81, 3.23]  — order one, as a conversion rate should be
+
+3. A_s pins the cell fraction given the rate:
+   r        f = k·ξ_imprint      S/ζ residual
+    0.81    2.550e-04          0.0200
+    1.00    2.213e-04          0.0162
+    2.00    1.394e-04          0.0081
+    3.23    1.012e-04          0.0050
+   the basement's forward target REVISED: f ~ 2×10⁻⁴ (was 3.45×10⁻³ in the one-shot bookkeeping — the L*² factor is the
+   difference, and it is computed, not chosen).
+
+4. The closed form as a testable point:
+   (α_c/4πk)³ = 2.0807e-09 = r²L*²f³/2π² demands, at r = 1:
+   f = 2.206e-04 — within the triangle's window: the closed
+   form is CONSISTENT with the mechanism at order-one rate, and
+   deriving f from the basement now decides both at once.
+
+VERDICT: C = 1 transformed, not derived. The opaque identification
+   became (r, f): r bounded two-sided by the registered residual band
+   [0.8, 3.2], f pinned to ~2×10⁻⁴ given r, the closed form a
+   consistent point, and the dark-subcomponent reading killed by four
+   orders. FINISH: derive f (the imprint cell fraction) from the
+   medium — one number closes #15, gates #8, and referees #9.
+==============================================================================

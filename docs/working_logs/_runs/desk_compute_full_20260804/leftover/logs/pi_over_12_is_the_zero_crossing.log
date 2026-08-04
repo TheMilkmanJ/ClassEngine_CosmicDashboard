@@ -1,0 +1,58 @@
+==============================================================================
+  #81 — pi/12 IS THE ROOT ZERO-CROSSING AT THE KOIDE AMPLITUDE
+==============================================================================
+
+  P-A  the crossing at A = sqrt2 is exactly pi/12
+  ok    P-A1 arccos(-1/sqrt2) - 2pi/3 = pi/12   0.261799387799150 vs 0.261799387799149   diff 1.67e-16
+  ok    P-A2 and it is 3pi/4 - 2pi/3 in closed form   9pi/12 - 8pi/12
+  ok    P-A3 the middle root is exactly zero there   root = 0.00e+00
+
+  P-B  the two sectors sit on opposite sides of the crossing
+  ok    P-B1 charged phase 2/9 is BELOW the crossing   0.222222 < 0.261799
+  ok    P-B2 ... so all three charged roots are positive   [2.379438, 0.04035, 0.580212]  (middle only +0.0403)
+  ok    P-B3 neutral phase 2/9 + pi/12 is ABOVE the crossing
+  ok    P-B4 ... so its middle root is NEGATIVE — the (-,+,+) branch   [2.251764, -0.195808, 0.944044]
+       -> the branch Brannen's neutral fit requires is not an extra
+          assumption: it follows from sitting past the crossing.
+
+  P-C  the crossing MOVES with A (so 'derived from A' has content)
+
+           A    phi_cross
+     1.00000   1.04719755
+     1.20000   0.46151201
+     1.41421   0.26179939   <- Koide, = pi/12
+     1.60000   0.15153276
+     2.00000   0.00000000
+  ok    P-C1 phi_cross varies appreciably over A   range 1.0472 rad
+
+  P-D  ANTI-CONTROL: is pi/12 special to A = sqrt2?
+  ok    P-D1 at A = 1 the crossing is NOT pi/12   A=1 gives 1.047198
+  ok    P-D2 the ONLY amplitude giving pi/12 is A = sqrt2   solved A = 1.414213562373 vs sqrt2 = 1.414213562373
+
+==============================================================================
+  RESULT — A RECORDED DEBT DISSOLVES
+==============================================================================
+
+  pi/12 IS NOT AN INDEPENDENT ANGLE. It is arccos(-1/A) - 2pi/3 evaluated at the
+  Koide amplitude A = sqrt2, i.e. the phase at which the middle root of the ring
+  spectrum crosses zero. Exact, to 1e-16, and A = sqrt2 is the UNIQUE amplitude
+  producing it (P-D2).
+
+  SO YESTERDAY'S FRAMING WAS WRONG AND IS WITHDRAWN. #81 recorded "pi/12 is a PURE
+  geometric angle carrying no Q, so whatever supplies it is a different KIND of
+  object from the one that supplies 2/9." It is the SAME object: A is fixed by
+  Koide through A^2 = 6(Q - 1/3), the same invariant that fixes 2/9 through the
+  holonomy closure. No second mechanism is required, and none should be sought.
+
+  AND IT EXPLAINS THE SIGN BRANCH RATHER THAN ASSUMING IT. The crossing partitions
+  the phase line: below it all three roots are positive (the charged sector, at
+  2/9, with its middle root only +0.040 — barely inside); above it the middle root
+  is negative (the neutral sector, at 2/9 + pi/12). The (-,+,+) branch that
+  Brannen's neutral fit needs is not an extra assumption — it is where you land by
+  sitting past the crossing.
+
+  WHAT REMAINS, AND IT IS NOW THE WHOLE OF #81's DEBT: why the neutral phase should
+  be phi_e + phi_cross rather than any other combination. That displacement rule is
+  still an input. But it is ONE relation between two quantities both already fixed
+  by Koide, not a new angle needing a new kind of object.
+

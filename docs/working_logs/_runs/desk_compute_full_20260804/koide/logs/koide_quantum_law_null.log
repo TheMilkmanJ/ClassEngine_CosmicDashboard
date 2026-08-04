@@ -1,0 +1,143 @@
+==============================================================================
+(1) THE LOCK'S RECORDED ARGUMENT, WITH ITS CONVENTION MADE EXPLICIT
+==============================================================================
+  As recorded:  N_0 = M w f_0^2 / hbar = 1,  and the charged pair in its ground state.
+  Read against <x^2> = (2n+1) hbar / (2 M w), the neutral line says
+
+      M w <x^2> / hbar = (2 n_0 + 1)/2 = n_0 + 1/2 = 1   ->   n_0 = 1/2
+
+  which is not a state. The lock's 'integer that cannot drift' is an integer only under
+  the PEAK-amplitude reading (x = A cos wt, <x^2> = A^2/2), where M w A^2 / hbar = 2n+1
+  and N_0 = 1 means n_0 = 0 -- the ground state. That is the reading the lock's second
+  line already uses for the charged pair, so it is the consistent one, and it is what is
+  used below. Recorded because the two readings differ by exactly the factor 2 that the
+  null is sensitive to, and the corpus does not say which is meant.
+
+==============================================================================
+(2) THE NULL UNDER THE COLD LAW — WHAT IT ACTUALLY REQUIRES
+==============================================================================
+  R_c = M_c  <=>  2 (2n_1 + 1) / w_1 = (2n_0 + 1) / w_0
+             <=>  w_1 / w_0 = 2 (2n_1 + 1) / (2n_0 + 1)
+  and since w ~ sqrt(eps), the stiffness ratio the null demands is
+
+      eps_1/eps_0 = 4 (2n_1 + 1)^2 / (2n_0 + 1)^2
+
+   n_0  n_1    w_1/w_0   eps_1/eps_0        a/b  reading
+  --------------------------------------------------------------------------
+     0    0    2.00000       4.00000    1.00000  both sectors in their GROUND STATE
+     0    1    6.00000      36.00000    0.08571  
+     0    2   10.00000     100.00000    0.03030  
+     1    0    0.66667       0.44444   -5.40000  
+     1    1    2.00000       4.00000    1.00000  
+     1    2    3.33333      11.11111    0.29670  
+     2    0    0.40000       0.16000   -3.57143  
+     2    1    1.20000       1.44000    6.81818  
+     2    2    2.00000       4.00000    1.00000  
+     3    0    0.28571       0.08163   -3.26667  
+     3    1    0.85714       0.73469  -11.30769  
+     3    2    1.42857       2.04082    2.88235  
+
+  Every row is verified by building the two moments and dividing, not by the algebra.
+
+==============================================================================
+(2b) THE GROUND STATE IS NOT NEEDED — ONLY EQUAL OCCUPANCY
+==============================================================================
+  Read the table down its diagonal: n_0 = n_1 = 0, 1, 2 all return eps_1/eps_0 = 4 and
+  a = b. That is not three coincidences. Setting n_0 = n_1 = n,
+
+      w_1/w_0 = 2 (2n + 1)/(2n + 1) = 2      for EVERY n,
+
+  because the occupancy factor (2n+1) is common to both sectors and cancels. So the
+  cold result does not rest on the sectors being cold at all — only on their holding
+  the SAME number of quanta.
+
+     n    w_1/w_0   eps_1/eps_0      a/b      R_c/M_c
+  ----------------------------------------------------
+     0   2.000000      4.000000   1.0000 1.0000000000
+     1   2.000000      4.000000   1.0000 1.0000000000
+     2   2.000000      4.000000   1.0000 1.0000000000
+     5   2.000000      4.000000   1.0000 1.0000000000
+    17   2.000000      4.000000   1.0000 1.0000000000
+  1000   2.000000      4.000000   1.0000 1.0000000000
+
+  THE WHOLE FORK COLLAPSES TO ONE PHYSICAL QUESTION. Both laws say <x^2> = (2n+1)/(2Mw)
+  hbar; they differ only in what is held equal across the two sectors:
+
+    law                                what is equal          <x^2> scaling    null gives
+    --------------------------------------------------------------------------
+    equal quanta per mode              (2n+1)                 ~ 1/w            eps_1/eps_0 = 4  -> a = b
+    equal energy per mode (thermal)    (2n+1) w               ~ 1/w^2          eps_1/eps_0 = 2  -> a = 3b
+
+    thermal check by construction: R_c^2/M_c^2 = 1.000000000000 at eps_1/eps_0 = 2
+    cold    check by construction: R_c^2/M_c^2 = 1.000000000000 at eps_1/eps_0 = 4
+
+  Equal energy is the equipartition theorem and needs a bath. Equal quanta is a
+  democratic occupancy statement and does not — and the corpus's whole idiom for this
+  ring is democratic. Neither is derived here; what is derived is that the corpus's two
+  incompatible stiffness targets are these two laws and nothing else.
+
+==============================================================================
+(3) THE GROUND-STATE ROW IS THE ONE THE LOCK MEANS
+==============================================================================
+  Both sectors cold, in their ground states — the cleanest cold statement there is,
+  and the one the lock's second line already assumes for the charged pair.
+
+    M_c^2 = hbar/(2 M w_0)          = 0.5000000000   (hbar = M = 1, w_0 = 1)
+    R_c^2 = 2 x hbar/(2 M w_1)      = 0.5000000000
+    R_c/M_c                          = 1.0000000000
+
+    requires  w_1/w_0 = 2.000000 exactly, i.e. eps_1/eps_0 = 4.000000
+
+  Pushed through the ring's own Fourier stiffnesses eps_0 = a, eps_1 = a + 3b:
+      a + 3b = 4 a    ->    3b = 3 a    ->    a = 1 b
+
+  ======================================================================
+      THE COLD NULL IS  a = b,  NOT  a = 3b.
+  ======================================================================
+
+  On-site coupling equal to bond coupling — ONE constant appearing in both places, which
+  is what a single microscopic coupling would give. Against a = 3b, which requires the
+  on-site term to be tuned to three times the bond term with nothing setting the 3.
+
+==============================================================================
+(4) CROSS-CHECKS
+==============================================================================
+    hbar = 1         M = 1          ->  R_c^2/M_c^2 = 1.000000000000
+    hbar = 7.3       M = 0.11       ->  R_c^2/M_c^2 = 1.000000000000
+    hbar = 1e-34     M = 9.1e-31    ->  R_c^2/M_c^2 = 1.000000000000
+    (so the result carries no hidden scale, which was the lock's whole claim)
+
+    rho^2 = (R_c^2/2)/M_c^2 = 0.500000000000
+    Q     = 1/3 + (2/3) rho^2 = 0.666666666667   (2/3 = 0.666666666667)
+    A     = sqrt(6Q - 2)      = 1.414213562373   (sqrt2 = 1.414213562373)
+    tau   = -ln(A/2)          = 0.346573590280   (ln2/2 = 0.346573590280)
+    Exact, with no limit taken and no temperature anywhere. This is the exactness class
+    the 6e-6 agreement needs: a ground state does not drift.
+
+    cold law needs   eps_1/eps_0 = 4.0000   ->  a = b
+    thermal law needs eps_1/eps_0 = 2.0000   ->  a = 3b
+    ratio between the two targets = 2.0000
+    The two laws differ by exactly 2 in the stiffness ratio, which is the doublet's
+    degree-of-freedom count -- the thermal law gives the doublet twice the energy for
+    having twice the modes, the cold law gives it twice the zero-point for the same
+    reason. That is where the whole disagreement lives.
+
+==============================================================================
+(5) WHAT THIS DOES AND DOES NOT SETTLE
+==============================================================================
+  SETTLED: under a cold law with both sectors in their ground states, R_c = M_c is exact,
+  scale-free, and equivalent to a = b. No tuning, no limit, no temperature. The frequency
+  degeneracy the lock's recorded argument silently assumed is NOT needed -- what is needed
+  is the opposite, w_1 = 2 w_0, and that is now a stated, checkable requirement rather
+  than an accident.
+
+  NOT SETTLED, and it is the next object: nothing here says WHY a = b. It is a far more
+  natural target than a = 3b -- one coupling rather than a tuned 3:1 -- but it is still
+  a relation to be sourced from the kernel/hop dynamics, and that is board task #1's
+  object, now restated.
+
+  ALSO OWED: the cold law needs the sectors cold at freeze. The corpus's w_1 = (2/9)T_c
+  puts hbar w_1 / kT_c = 0.22, which is the classical end, not the cold one. Either that
+  frequency is not the one the null cares about, or the freeze is not cold, and the two
+  cannot both stand. Same fork the discriminator opened, now with a second thing riding
+  on it.

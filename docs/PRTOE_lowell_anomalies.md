@@ -5,10 +5,10 @@
 
 *Thread 5 of the atom-grammar survey. Status: computed and graded — the cavity computation is in,
 it relocates the test from the power spectrum to the off-diagonal covariance, and it hands the
-BipoSH referee a specific pattern. The model gives the
-large-angle anomalies a home and, distinctively, one shared axis with two registered
-predictions. The improvement: standard cosmology must call these flukes (and pays a ~0.1%-class
-look-elsewhere embarrassment); the model expects them as a family.*
+BipoSH referee a specific pattern. **Family / one-axis claim is candidate/registered, not a
+closed win** (power-spectrum torus effect ungradeable as referee; BipoSH data application is
+**WATCH-EXTERNAL**). Distinctive structure: one shared axis with two registered predictions —
+not an unfenced "improvement" over ΛCDM until the external referee lands.*
 
 ## 0. The anomalies (real features, officially accidents)
 
@@ -142,3 +142,19 @@ model looks at the same sky and sees what an atom always shows when you finally 
 lines, and an axis. The cavity computation has now said where the resemblance can be checked —
 not in how much power each scale carries, which cosmic variance will never resolve, but in which
 scales are correlated with which, where a compact space leaves a pattern isotropy forbids.*
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Low-ℓ anomalies live in torus cavity + shared winding axis | **registered / candidate** | §1; P-013/024/029 | Family joint test |
+| 2 | Power-spectrum suppression S/N 0.16 — not gradeable | **machine-backed** | `torus_lowell_pattern.py` | Route closed for spectrum |
+| 3 | Off-diagonal covariance S/N 1.4 is relocated test | **machine-backed** | same script | **OPEN-MACHINE:** BipoSH on data |
+| 4 | Axis-of-evil must coincide with comb/ε-dipole axes | **registered** | §1 family | Misalignment kills family |
+| 5 | Cold spot not this family’s object | **derived** (exclusion) | cmb_anomalies cross-link | — |
+
+**Non-claims:** not that power spectrum proves torus; not cold-spot claim.
+
+**Triage:** elevate-in-place (companion to cmb_anomalies). Physics ceiling: machine spectrum null; joint **OPEN-BLOCKED**.

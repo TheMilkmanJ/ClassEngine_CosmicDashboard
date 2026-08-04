@@ -1,12 +1,22 @@
 # PRTOE — The Cyclic / Torus / Twist-Genesis Arc
 
-> This arc is story-grade — a coherent narrative assembled from real mechanisms, not a
+> This arc is **physics-grade story** — a coherent narrative assembled from real mechanisms, not a
 > derivation. Its own closing verdict says so, and that grade stands: the bounce and cyclic
 > rungs still face the standing theorems, and several scales here are chosen rather than
 > derived. One element has since become load-bearing: the negative bare vacuum named in
 > this arc is what makes the turn possible at all — the thawing floor alone approaches zero
 > from above and never reverses the expansion
 > ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d). Read the rest at story grade.
+>
+> **Discipline (2026-08-03):** claims ledger at end elevates *document discipline* above pure
+> story-voice (every load-bearing claim graded). Physics ceiling is **mixed OPEN-BLOCKED**
+> (no bare story physics row after PASS3). Rule: [working_logs/STORY_GRADE_ELEVATION_RULE.md](working_logs/STORY_GRADE_ELEVATION_RULE.md).
+>
+> **Non-claim (2026-08-04):** the **expansion reverse / bounce** is **not** Strong CP / θ̄.
+> Floor sign, rotation cancel, and bounce stress-energy are a different sector from QCD’s
+> vacuum angle. Constitutional silence on θ̄: [PRTOE_strong_cp.md](PRTOE_strong_cp.md).
+> Seat-hunt (why the itch exists without a solution):
+> [working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md](working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md).
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -126,7 +136,7 @@ twist_floor.py, c1_locus_twist.py.*
  white-hole-like handover — the time-reverse solution general relativity always carried, spent
  exactly once with no exterior counterparty. This is a causal-structure reading, not a
  derivation; for the identification, grades, and limits see
- [PRTOE_white_holes.md](PRTOE_white_holes.md).
+ [PRTOE_white_holes.md](exploratory/PRTOE_white_holes.md).
 - **Cross-bounce bookkeeping:** the rotation is dynamical (it resets to 0 at the crunch);
  **the topology is not** — the torus survives and carries the axis across the bounce, so the
  reheated radiation can re-seed the spin. Topology holds what dynamics loses.
@@ -161,7 +171,7 @@ supplies the slow evolution the fluid limit hides; (ii) the forced-thawing direc
 defusal); (iii) the theorem that a sphere gives zero twist and a torus the maximum, tying the
 genesis to P-2026-013. **What does not:** the bounce (BKL — the chain's named open problem), the
 cycle *as eternal* (Tolman — which the standing frame accepts rather than fights: a finite,
-lengthening chain, [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md) §2), and the
+lengthening chain, [PRTOE_arrow_of_time.md](exploratory/PRTOE_arrow_of_time.md) §2), and the
 cosmological-constant value.
 
 ---
@@ -221,3 +231,43 @@ corresponds to ~27 meV, in band, value not derived); and a null for the three-jo
 (the threshold has two jobs, not three — the Affleck–Dine charge is genesis-set, 29 orders above
 the meV floor, so "everything has three jobs" fails its own test; the *field* has three handles,
 and objects inherit only what they couple to).
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY honesty. Document is a **map assembly** (interpretation seating), not a derivation. Bounce / H_re **OPEN-BLOCKED**; DE branch **XOR OPEN-BLOCKED**; production helicity **OPEN-MACHINE**. No invented closes.  
+**Strong CP fence (header):** expansion reverse / bounce is **not** \(\bar\theta\) — **kept**; see [PRTOE_strong_cp.md](PRTOE_strong_cp.md).  
+**Bounce full freeze package (authoritative for bounce rungs):** [working_logs/_runs/bounce_full_freeze_20260804/](working_logs/_runs/bounce_full_freeze_20260804/).  
+**Prior inventory:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/).  
+**Parents:** [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); [debt_bounce_FA3_20260803](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md); [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d; [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md); [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Arc is a coherent cyclic-genesis *map* assembled from real mechanisms, not a derivation | **interpretation** (document seating) | header + Overall status | Physics grades live in rows 2–9 | Present arc as physics derivation / COMPLETE |
+| 2 | Hawking brake has correct sign; cosmologically negligible magnitude | **interpretation** + standard BH thermo | §1; L/M scaling | Not a reversal engine | Hawking as cosmic reverse |
+| 3 | Reversal needs ρ_bare < 0; thawing floor alone never reverses expansion | **derived-conditional** | [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d; §2, §4 | ρ_bare value not derived (Barrel B) | Derived ρ_bare value; reverse from positive floor alone |
+| 4 | DE branch: thawing floor (w₀ > −1) vs rigid w = −1 | **OPEN-BLOCKED** (XOR) | **P-2026-056** (P-018 XOR Route-D); as-built dCDF prefers w=−1; Route-D on `cmp_prtoe_routeD` | Standing branch data-adjudicated; not “complete-conditional thawing edge” | Cite P-2026-013 (topology) as DE evidence; claim both branches closed |
+| 5 | Bounce rung fails BKL without w>1 stiff sector; cycle fails Tolman entropy reset; exterior H_re | **OPEN-BLOCKED** | §5 J2–J3; [bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md); [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); [debt_bounce_FA3](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md); [bounce_full_freeze_20260804](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md) | **OPEN-THEORY:** classical turn / H_re (F-A3); BKL+Tolman stand; homogeneous engines DEAD | Book eternal cycles; desk-derive H_re; reopen nogo engines; bounce = Strong CP |
+| 6 | Sphere → H=0; torus Beltrami → maximal helicity class | **derived** (sphere H=0) + **OPEN-BLOCKED** (torus production) | §7–§9; `scripts/ring_toroidal_hkin.py`, `ring_rollup_poloidal_v3.py`; T14 A4 | **OPEN-MACHINE:** production sign(H_kin) + true-mirror; scratch timings not retained | Production booking of scratch-era twist timings as precision predictions |
+| 7 | Compact topology bet P-2026-013 | **registered** | predictions register | Not hardened to “flat 3-torus only” | Flat-torus-only as derived geometry |
+| 8 | White-hole-like causal reading of reheating handover | **interpretation** / provisional | §8 → [PRTOE_white_holes.md](exploratory/PRTOE_white_holes.md) | Not metric isometry; bounce open | Metric isometry to eternal white hole |
+| 9 | Birefringence as anomaly shadow of complex Ψ; observable amp inaccessible | **provisional** | birefringence gates; G2 fails at natural β | Escape paths open; fully-sourced m_e blocked | Birefringence 0.3° class without fully-sourced m_e |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| Bounce / H_re / BKL+Tolman | **OPEN-BLOCKED** | debt_bounce; F-A3; [bounce_full_freeze_20260804](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md); workplan | Licensed turn without inventing H_re; not desk re-try of nogo engines |
+| Homogeneous FRW bounce engines | **failed / retired** | freeze nogo reconfirms (floor/thermal/magnetic/handover/X/quartic/rotation) | New premises only |
+| DE thaw XOR rigid w=−1 | **OPEN-BLOCKED** (XOR) | P-2026-056; Route-D vs dCDF floor | Data adjudication / branch kill |
+| Production H_kin sign | **OPEN-BLOCKED** (OPEN-MACHINE) | T14 four-branch / igmf_helicity freeze | Production under pre-registered gates |
+| ρ_bare magnitude | **OPEN** (Barrel B) | MATH_SPINE §7d | Independent floor derivation |
+
+**Non-claims:** Derived bounce dynamics; exterior H_re; eternal-cycle closure; cosmological-constant value; production booking of scratch-era twist timings as precision predictions; birefringence at 0.3° class without fully-sourced m_e; map = derivation; bounce / reverse = Strong CP / \(\bar\theta\); inventing negative-energy stiff X.
+
+**Kill conditions (bounce rungs):** same as [bounce_full_freeze_20260804/REPORT.md](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md) §5 — H_re stays OPEN-BLOCKED until licensed matching; cyclic booking requires full closed-cycle derivation (not claimed).
+
+**Triage:** elevate-in-place (discipline only) — **blocked** on bounce (OPEN-THEORY / BKL+Tolman) and helicity production (OPEN-MACHINE). Shelf map with reader banner per rule §3; physics ceiling **mixed OPEN-BLOCKED**. **Not** Failures. **Not** forced exploratory while MATH_SPINE still cites negative bare vacuum as load-bearing.
+
+**Rule:** [working_logs/STORY_GRADE_ELEVATION_RULE.md](working_logs/STORY_GRADE_ELEVATION_RULE.md).

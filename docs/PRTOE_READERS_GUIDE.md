@@ -1,9 +1,17 @@
 # Reader’s guide — plain physics, no house dialect
 
-**Status (2026-08-02):** glossary and reading map for outsiders. For graded claims, evidence class
-(Laplace-marginal; nested sampling offline), and kill conditions, start with
-[PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Live chain status:
+**Status (2026-08-04 currency):** glossary and reading map for outsiders — not a graded-claims
+surface. For graded claims, evidence class (Laplace-marginal; nested sampling offline), kill
+conditions, and live risk posture, start with
+[PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Live chain bookkeeping:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
+
+> **Currency board (2026-08-04).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with
+> `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.086466** N=20409
+> t=2026-08-04T05:21:52 — was 0.059@N=19013, **receding** **1.73×** stop; dyad R−1 **0.128943**
+> @N=20302 ~2.58×; both `converged: false` → **REFUSED**). Do not peek-book H₀ / Σm_ν / S₈ from
+> live chains. BBN ε arithmetic is **verified internal**; **external win pending DOI**. Numbers
+> and gates live in RISK + CHAIN_TABLES; this guide does not book posteriors.
 
 *Written for the newcomer and the external reviewer. Working documents in this repository use a
 compact internal vocabulary for the model's recurring objects; you do not need that dialect to
@@ -85,9 +93,10 @@ Retired-era documents may use letters differently; those files carry banners.
 
 ## 4. What to be skeptical of
 
-- The statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and marginal.
-  Nested sampling is **not running** and waits for cluster time. Production MCMC is converging but
-  **not yet quotable** — see the risk summary.
+- The statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and marginal
+  (pre-bbnfix stack). Nested sampling is **not running** and waits for cluster time. Production
+  bbnfix MCMC is live but **NOT bookable** (gate: both R−1 < 0.05 and self-stop) — see RISK and
+  CHAIN_TABLES; do not treat interim R−1 as a booked product.
 - **A_s closed form** is a candidate (counting mechanism half-derived; frozen into the production
   configs by explicit decision, with the risk documented — not the output of a converged posterior).
   E2E Track A grades the imprint path separately; B2 tilt route is closed negative.
@@ -114,3 +123,19 @@ Retired-era documents may use letters differently; those files carry banners.
   preferred sense). Whether the relative lock exists is separate and open.
 - **Deepest claim** (medium’s reality) remains an open assumption; the corpus names it and tracks
   exposure.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | File is glossary / reading map, not a physics result | **meta** / complete as guide | banner | Claims live in RISK + sector files |
+| 2 | Five-sentence model summary accurate to corpus | **interpretation** | §1 | Condensed; grades elsewhere |
+| 3 | Glossary / symbol table matches standing usage | **complete-conditional** | §2–2b | Canonical values file arbitrates conflicts |
+| 4 | ε three values on purpose (1.2543 / 1.232 / ~1.24) | **honest fence** | glossary row | Chains not converged |
+| 5 | M3 medium reality is open assumption | **OPEN** | caveats list | Named exposure |
+
+**Non-claims:** not graded evidence; not kill list (see READERS_RISK).
+
+**Triage:** elevate-in-place (map). Physics ceiling: n/a (orientation).

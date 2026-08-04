@@ -1,0 +1,46 @@
+==========================================================================
+THE COULOMB HESSIAN IN RADIAL DISPLACEMENTS
+==========================================================================
+   [  0.48113    0.33679    0.33679]
+   [  0.33679    0.48113    0.33679]
+   [  0.33679    0.33679    0.48113]
+
+==========================================================================
+PROJECTED ONTO THE S3 IRREPS
+==========================================================================
+  singlet  (breathing, (1,1,1))      k_S  =   1.154701
+  doublet  (shape, (2,-1,-1))        k_D1 =   0.144339
+  doublet  (shape, (0,1,-1))         k_D2 =   0.144338
+  doublet degeneracy check           |k_D1 - k_D2| = 9.25e-07
+
+  RATIO  k_S / k_D = 7.999919
+
+==========================================================================
+AGAINST WHAT THE MECHANISM NEEDED
+==========================================================================
+  needed (the autopsy's condition)          2.000000
+  the torus host supplied (w_breath/w_shape) 0.990000
+  Coulomb on the ring supplies              7.999919
+
+  miss against the requirement: 300.00%
+
+  NOT the missing source at the required ratio. What Coulomb supplies is a genuine
+  pattern asymmetry -- unlike the geometric potential's 0.99 degeneracy -- but not
+  the 2:1 the condition names.
+
+  Recording the value rather than the hope. Three things are right and one is not:
+    * the ratio is EXACTLY 8, analytically -- U = sqrt3/R, so both stiffnesses go
+      as 1/R^3 and the ratio is R-independent (verified 0.5 <= R <= 100);
+    * it is scale-free: no a/R suppression, because Coulomb does not see the tube;
+    * it is a genuine pattern asymmetry, against the geometric host's 0.99.
+    * but it is 8, and the condition names 2 -- an overshoot by exactly 4x.
+
+  What this corrects is the autopsy's own wording. It recorded that the asymmetry
+  'has NO SOURCE on the Widnall-thin torus'. That was established for a NEUTRAL
+  host. A charged one has a source, it is exact, and it does not decouple. The
+  blank moves from 'no source exists' to 'a source exists and overshoots by four'.
+
+  A geometric+Coulomb mixture can hit 2:1 -- solving 0.99 d_g + 8 d_c = 2(d_g + d_c)
+  needs d_c/d_g = 0.1683, i.e. Coulomb supplying ~17% of the doublet stiffness.
+  Nothing fixes that fraction, so it is a tuning and not a derivation, and it is
+  recorded as such.

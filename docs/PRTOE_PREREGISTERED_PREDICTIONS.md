@@ -385,12 +385,11 @@ abstract response function. Method: (1) P(X) → c_s²(X) [c_s² ∝ (X-X0), 0 a
 solve the ghost-condensate cosmological ODE (field EOM + neutrino coupling + Hubble friction) for
 where the field sits (X) at the transition; (3) read c_s² → χ → check vs 500. Same species as
 the genesis ODEs.
-**SELF-TUNING WATCH (the beautiful outcome):** the needed c_s²~0.002 IS ρ_nu/ρ_Λ. Plausible
-self-consistency: neutrino force pushes field off the minimum; it settles where push balances
+**SELF-TUNING WATCH (historical; outcome FAILED — see CORRECTIONS below):** the needed c_s²~0.002 IS ρ_nu/ρ_Λ. Plausible
+self-consistency (then aspirational): neutrino force pushes field off the minimum; it settles where push balances
 restoring force (∝ c_s² ∝ distance) ⇒ c_s² ~ ρ_nu/ρ_Λ ⇒ χ ~ ρ_Λ/ρ_nu ⇒ amplified neutrino
-effect ~ ρ_Λ. IF the loop closes, the coupling self-parks at the criticality that makes it O(1) --
-an ATTRACTOR, not a tuning; the floor locks to the neutrino scale. P-012 then: not coincidence, not
-strong coupling, not tuned -- SELF-tuned.
+effect ~ ρ_Λ. IF the loop closed, the coupling would self-park at the criticality that makes it O(1) --
+an ATTRACTOR, not a tuning; the floor would lock to the neutrino scale. **Do not book as success:** toy ran away; DE self-tuning remains **OPEN / failed mechanism** (not SELF-tuned).
 **CAVEATS (self-tuning is a graveyard):** (1) scaling only -- O(1) coeffs (0.002 vs 0.02 vs 0.0002?)
 are what the ODE decides; (2) **Weinberg's no-go** looms over all self-tuning-vacuum-energy schemes
 -- this may evade it (floor at ρ_nu not zero) but must be checked; (3) ODE could give the attractor,
@@ -1094,7 +1093,7 @@ floor — and A_s is what selects between the readings, being primordial, measur
 mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to serve as a test: **−0.4% at 3α(0), +28% at
 α(M_Z), +158% extrapolated toward 10¹⁷ GeV.** The selection rides A_s's count C = 1, so that count
 and this entry's non-running now stand or fall together
-([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6i).
+([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6i).
 
 **Why the factor is 3 — the spatial dimension d.** The 3 is not a flavour count or a free integer;
 it is the dimension of space, and it enters through the second sound: the phonon-gas second sound
@@ -1163,8 +1162,10 @@ derivation (owed) producing a different closed form.
 > under the distance: neither kill (i) nor (ii) fires. The small-n members carry the tilt's
 > expected imprint (+1.5% at n = 1, −4.0% at n = 2), converging by n = 4 — the many-turns
 > limit behaving as claimed. Consistent with the interim 0.635 ± 0.026, and now the standing
-> check. Kill (iii) — the mechanism derivation — remains the open referee,
-> with the residual central deficit (−0.8%, unresolved at this precision) noted for it.
+> check. Kill (iii) — the mechanism derivation — remains the open referee.
+> The ~0.8% central shortfall is **not** an unresolved defect of the 2/π identification:
+> it is better read as the expansion's own next term (c_w·ε/2; see Honest flags below) —
+> evidence *for* leading-order dominance at this precision, with c_w itself still underived.
 
 **Honest flags:** the 2/π identification's coupling form is data-selected rather than derived —
 mass-positivity rectifies the signed projection to ⟨|cos|⟩, and the residual is that
@@ -1211,6 +1212,24 @@ bending the Ψ₀ ∝ m^(−1/4) quarter-power. OWED (before convergence, so the
 shape-corrected in advance): derive the model's true w(a) through the onset and calibrate
 the template offset — THEN the 7.55-vs-7.94 comparison becomes meaningful.
 
+> **PASS3 / D2 paydown (2026-08-03) — desk+script, no fake close.** Partial delivery of the
+> OWED template/w(a) item (not a re-registration of P-040):
+> 1. **True `(.)w_dcdf(a)`** bare/conv/thaw/both: delivered
+>    [`working_logs/_runs/w_a_onset_20260803/REPORT.md`](working_logs/_runs/w_a_onset_20260803/REPORT.md).
+> 2. **`(.)w_dcdf` is BLIND to thaw** (max|Δw|~2e−12 at thaw≤0.5) — thaw column in any w_dcdf
+>    truth table is **VOID as physics**, not “no effect”
+>    ([`debt_p042_d2_cures_20260803`](working_logs/_runs/debt_p042_d2_cures_20260803/REPORT.md)).
+>    Do **not** quote thaw physics from `(.)w_dcdf`; high-z budget is photons/ν (ΔN_eff), not
+>    w_dcdf alone.
+> 3. **Template R(x)=x²/(1+x²)** center conventions + live-bundle identity + analytic log10 bias
+>    table: delivered
+>    ([`debt_p042_template_20260803`](working_logs/_runs/debt_p042_template_20260803/REPORT.md)).
+>    Equipartition offset = **+0.2386 dex** (½log₁₀3); prereg “0.17 dex” = O(0.2) envelope.
+>    `(.)w_dcdf` is the barotropic dust→DE fluid only — **does not** carry the rad-onset w=⅓ ramp
+>    (#17 lives in ρ_tot / ρ_r). Onset template vs w_dcdf steepest: **~7.5 dex** separation.
+> 4. **Still OPEN-BLOCKED:** full onset-likelihood / MCMC template bias on free log10_zon;
+>    pre-onset microphysics ≠ dispersion bundle; Ψ₀∝m^(−1/4) under conversion (partial late-w only).
+
 ## P-2026-042: The TeV Anchor — Where the Zero-Point Becomes Non-Zero (registered 2026-07-12, quiet-mode)
 
 **The claim:** the medium's hierarchy anchors at M_anchor = M_red·e⁻³⁵ ≈ 1.54 TeV, identified
@@ -1228,7 +1247,7 @@ the occupancy+3α triangle); (ii) the census wall — the one-loop portal
 solutions landed AT x = 35.3–35.4 uninvited; (iii) 4π·m_H = 1574 GeV.
 
 **The exponent is derived, not adopted (2026-07-19).** The gap equation
-was written down and solved ([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md)
+was written down and solved ([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md)
 §6b–6g): the 35 is 1/(kα_c) + 3/2 = 33.47 + 1.50 = 34.97, with **k = 1.36461 reconstructed
 exactly**, not fitted — Thomas–Fermi screening at 2α_c/π from a *two-band* polarisation, averaged over
 the full Fermi surface, Monte-Carlo verified. **Conditional:** that host is a cold degenerate Fermi
@@ -1261,7 +1280,7 @@ induced; one loop of anchor-scale census states gives m_H ~ M_anchor/4π" — wi
 remaining the Standard Model's own, and its Yukawas the Standard Model's, so no
 extended-technicolor operators exist to constrain. **Arrow B, the identification
 M_anchor = 4πm_H = 1574 GeV, stands as registered**
-([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6j).
+([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6j).
 
 **VISIBILITY NOTE on the P-2026-009 family (2026-07-12):** the model's zero-birefringence
 prediction stands AGAINST the literature's claimed ~3σ isotropic EB rotation
@@ -1777,7 +1796,9 @@ Feeding the observed M–σ relation and the halo virial scaling into both sides
 σ = 20 km/s the core radius exceeds the influence radius by 250×. **Above it** — the Milky Way and
 everything larger — the black hole owns the centre and the core-halo soliton is not there to be
 found. The Milky Way sits at σ ≈ 100 km/s in its nuclear cluster, comfortably on the black-hole
-side, which is what resolves the parsec-scale tension.
+side — the **priced candidate route** to the Galactic Centre's 3× tension (**not** a closed solve;
+α_c → r_1s / GC budget remain **OPEN-MACHINE** — see [PRTOE_galactic_atoms.md](PRTOE_galactic_atoms.md);
+do not claim “resolves GC tension” closed).
 
 **Robustness.** Varying every input relation — σ/V_vir from 0.6 to 0.8, the M–σ normalisation by
 a factor of two either way, its slope from 4.4 to 5.8, the virial velocity scale from 140 to
@@ -1884,7 +1905,7 @@ thirty accepted samples an hour, so a converged posterior is not weeks away but 
 
 | DESI DR3 returns | verdict |
 |---|---|
-| **thaw-side** evolving DE (w₀ > −1, wₐ < 0, no phantom crossing) | **Route-D**; the dark-energy value, the why-now coincidence and the DESI pull resolve as one event — the cycle beginning to turn. **P-2026-018 dies, booked as falsified.** |
+| **thaw-side** evolving DE (w₀ > −1, wₐ < 0, no phantom crossing) | **Route-D**; the dark-energy value, the **era-width** timing package, and the DESI pull resolve as one event — the cycle beginning to turn. **Occupancy / ordinary why-now remains OPEN** (width ≠ placement; do not claim “solves coincidence”). **P-2026-018 dies, booked as falsified.** |
 | **w = −1 rigid** | **P-2026-018** — the distinctive win, since the model had no freedom to bend and did not. **Route-D dies**, and the dark-energy value reverts to constitution/boundary-datum. |
 | **True phantom in the data** (w < −1 demanded by the distances themselves, not by a CPL extrapolation) | **both branches die.** A clean kill with no patch available. |
 
@@ -2193,3 +2214,13 @@ not yet computed (`scripts/psi0_redshift_closure.py` §6).
 
 **Status: OPEN; referee any tabletop collapse experiment.** Detail:
 `docs/exploratory/README.md` (the quantum group's state).
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

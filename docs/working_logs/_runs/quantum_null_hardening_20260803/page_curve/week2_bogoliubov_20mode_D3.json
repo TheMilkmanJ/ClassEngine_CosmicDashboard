@@ -1,0 +1,404 @@
+{
+  "milestone": "A_week2_bogoliubov_greybody",
+  "claim_grade": "instrument_thermal_modes",
+  "page_curve_claimed": false,
+  "S_rad_v_claimed": false,
+  "units": "healing (xi, t_heal), hbar=kB=1",
+  "profile": {
+    "type": "tanh_stationary_acoustic",
+    "ell": 4.0,
+    "v_in": -1.5,
+    "v_out": -0.5,
+    "n_inf": 1.0,
+    "L": 80.0,
+    "x_h": 0.0
+  },
+  "analytic": {
+    "kappa": 0.125,
+    "T_H": 0.019894367886486918,
+    "method_beta2": "near_horizon_connection |\u03b2|\u00b2=1/(e^{2\u03c0\u03c9/\u03ba}-1)",
+    "mode_ode": "(1-v^2)\u03c8'' + 2(i\u03c9v - v v')\u03c8' + (\u03c9^2 + i\u03c9 v')\u03c8 = 0 on PG acoustic metric"
+  },
+  "near_horizon_beta": [
+    {
+      "omega_over_kappa": 0.05,
+      "omega": 0.00625,
+      "beta2_near_horizon": 2.7092358372925673,
+      "n_B": 2.7092358372925673
+    },
+    {
+      "omega_over_kappa": 0.075,
+      "omega": 0.009375,
+      "beta2_near_horizon": 1.661191238362024,
+      "n_B": 1.661191238362024
+    },
+    {
+      "omega_over_kappa": 0.1,
+      "omega": 0.0125,
+      "beta2_near_horizon": 1.1435680009516886,
+      "n_B": 1.1435680009516886
+    },
+    {
+      "omega_over_kappa": 0.15,
+      "omega": 0.01875,
+      "beta2_near_horizon": 0.6384340916776606,
+      "n_B": 0.6384340916776606
+    },
+    {
+      "omega_over_kappa": 0.2,
+      "omega": 0.025,
+      "beta2_near_horizon": 0.3978380486975304,
+      "n_B": 0.3978380486975304
+    },
+    {
+      "omega_over_kappa": 0.25,
+      "omega": 0.03125,
+      "beta2_near_horizon": 0.262434309411032,
+      "n_B": 0.262434309411032
+    },
+    {
+      "omega_over_kappa": 0.35,
+      "omega": 0.04375,
+      "beta2_near_horizon": 0.12473449310573066,
+      "n_B": 0.12473449310573066
+    },
+    {
+      "omega_over_kappa": 0.45,
+      "omega": 0.05625,
+      "beta2_near_horizon": 0.06288507608854738,
+      "n_B": 0.06288507608854738
+    },
+    {
+      "omega_over_kappa": 0.5,
+      "omega": 0.0625,
+      "beta2_near_horizon": 0.04516570536368412,
+      "n_B": 0.04516570536368412
+    },
+    {
+      "omega_over_kappa": 0.6,
+      "omega": 0.075,
+      "beta2_near_horizon": 0.02359814501201775,
+      "n_B": 0.02359814501201775
+    },
+    {
+      "omega_over_kappa": 0.75,
+      "omega": 0.09375,
+      "beta2_near_horizon": 0.009064722057396675,
+      "n_B": 0.009064722057396675
+    },
+    {
+      "omega_over_kappa": 0.9,
+      "omega": 0.1125,
+      "beta2_near_horizon": 0.003512735514451893,
+      "n_B": 0.003512735514451893
+    },
+    {
+      "omega_over_kappa": 1.0,
+      "omega": 0.125,
+      "beta2_near_horizon": 0.0018709365986606446,
+      "n_B": 0.0018709365986606446
+    },
+    {
+      "omega_over_kappa": 1.1,
+      "omega": 0.1375,
+      "beta2_near_horizon": 0.000997251978879727,
+      "n_B": 0.000997251978879727
+    },
+    {
+      "omega_over_kappa": 1.25,
+      "omega": 0.15625,
+      "beta2_near_horizon": 0.00038835396417991866,
+      "n_B": 0.00038835396417991866
+    },
+    {
+      "omega_over_kappa": 1.35,
+      "omega": 0.16875,
+      "beta2_near_horizon": 0.0002071446862528695,
+      "n_B": 0.0002071446862528695
+    },
+    {
+      "omega_over_kappa": 1.5,
+      "omega": 0.1875,
+      "beta2_near_horizon": 8.070603050803163e-05,
+      "n_B": 8.070603050803163e-05
+    },
+    {
+      "omega_over_kappa": 1.65,
+      "omega": 0.20625,
+      "beta2_near_horizon": 3.1446454650500994e-05,
+      "n_B": 3.1446454650500994e-05
+    },
+    {
+      "omega_over_kappa": 1.8,
+      "omega": 0.225,
+      "beta2_near_horizon": 1.2253226109449065e-05,
+      "n_B": 1.2253226109449065e-05
+    },
+    {
+      "omega_over_kappa": 2.0,
+      "omega": 0.25,
+      "beta2_near_horizon": 3.487354517808118e-06,
+      "n_B": 3.487354517808118e-06
+    }
+  ],
+  "mode_matching": [
+    {
+      "omega_over_kappa": 0.05,
+      "omega": 0.00625,
+      "Gamma": 0.751577754275999,
+      "R2_flux": 0.24842224572400093,
+      "n_mode": 2.036201386396404,
+      "n_B": 2.7092358372925673,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.075,
+      "omega": 0.009375,
+      "Gamma": 0.7515777123658091,
+      "R2_flux": 0.2484222876341909,
+      "n_mode": 1.2485143107302554,
+      "n_B": 1.661191238362024,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.1,
+      "omega": 0.0125,
+      "Gamma": 0.7515776605979583,
+      "R2_flux": 0.24842233940204178,
+      "n_mode": 0.8594801628899539,
+      "n_B": 1.1435680009516886,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.15,
+      "omega": 0.01875,
+      "Gamma": 0.7515775517176329,
+      "R2_flux": 0.24842244828236718,
+      "n_mode": 0.47983273155616696,
+      "n_B": 0.6384340916776606,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.2,
+      "omega": 0.025,
+      "Gamma": 0.751577476212743,
+      "R2_flux": 0.24842252378725702,
+      "n_mode": 0.29900611658149223,
+      "n_B": 0.3978380486975304,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.25,
+      "omega": 0.03125,
+      "Gamma": 0.7515774677705702,
+      "R2_flux": 0.24842253222942984,
+      "n_mode": 0.19723971372326177,
+      "n_B": 0.262434309411032,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.35,
+      "omega": 0.04375,
+      "Gamma": 0.7515776355413126,
+      "R2_flux": 0.24842236445868734,
+      "n_mode": 0.09374765539884922,
+      "n_B": 0.12473449310573066,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.45,
+      "omega": 0.05625,
+      "Gamma": 0.7515777890467957,
+      "R2_flux": 0.24842221095320427,
+      "n_mode": 0.04726302645066996,
+      "n_B": 0.06288507608854738,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.5,
+      "omega": 0.0625,
+      "Gamma": 0.7515777686865839,
+      "R2_flux": 0.24842223131341615,
+      "n_mode": 0.033945540058393384,
+      "n_B": 0.04516570536368412,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.6,
+      "omega": 0.075,
+      "Gamma": 0.7515775751422795,
+      "R2_flux": 0.24842242485772043,
+      "n_mode": 0.017735836605988178,
+      "n_B": 0.02359814501201775,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.75,
+      "omega": 0.09375,
+      "Gamma": 0.7515775109356391,
+      "R2_flux": 0.24842248906436093,
+      "n_mode": 0.006812841241221578,
+      "n_B": 0.009064722057396675,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 0.9,
+      "omega": 0.1125,
+      "Gamma": 0.751577783386865,
+      "R2_flux": 0.24842221661313502,
+      "n_mode": 0.0026400939715760727,
+      "n_B": 0.003512735514451893,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 1.0,
+      "omega": 0.125,
+      "Gamma": 0.7515777078753565,
+      "R2_flux": 0.24842229212464356,
+      "n_mode": 0.001406154240401483,
+      "n_B": 0.0018709365986606446,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 1.1,
+      "omega": 0.1375,
+      "Gamma": 0.7515775035899479,
+      "R2_flux": 0.2484224964100521,
+      "n_mode": 0.0007495121527365607,
+      "n_B": 0.000997251978879727,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 1.25,
+      "omega": 0.15625,
+      "Gamma": 0.7515775853137394,
+      "R2_flux": 0.24842241468626056,
+      "n_mode": 0.00029187813464536173,
+      "n_B": 0.00038835396417991866,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 1.35,
+      "omega": 0.16875,
+      "Gamma": 0.751577773668397,
+      "R2_flux": 0.24842222633160307,
+      "n_mode": 0.00015568534212117026,
+      "n_B": 0.0002071446862528695,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 1.5,
+      "omega": 0.1875,
+      "Gamma": 0.7515776246999191,
+      "R2_flux": 0.24842237530008093,
+      "n_mode": 6.065684670818562e-05,
+      "n_B": 8.070603050803163e-05,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 1.65,
+      "omega": 0.20625,
+      "Gamma": 0.7515774807159066,
+      "R2_flux": 0.24842251928409337,
+      "n_mode": 2.363444716367054e-05,
+      "n_B": 3.1446454650500994e-05,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 1.8,
+      "omega": 0.225,
+      "Gamma": 0.7515777605401959,
+      "R2_flux": 0.24842223945980416,
+      "n_mode": 9.209252238732386e-06,
+      "n_B": 1.2253226109449065e-05,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    },
+    {
+      "omega_over_kappa": 2.0,
+      "omega": 0.25,
+      "Gamma": 0.7515775422175992,
+      "R2_flux": 0.2484224577824008,
+      "n_mode": 2.621017337335666e-06,
+      "n_B": 3.487354517808118e-06,
+      "ok": true,
+      "x_eps": 0.05,
+      "x_out": 30.0
+    }
+  ],
+  "thermal_fit": {
+    "from_n_mode": {
+      "T_fit": 0.01921976459421604,
+      "n_points": 20,
+      "rms_log": 0.12165276104368153,
+      "ok": true
+    },
+    "from_pure_n_B": {
+      "T_fit": 0.019894367886486918,
+      "n_points": 20,
+      "rms_log": 2.7755575615628914e-17,
+      "ok": true
+    },
+    "T_H": 0.019894367886486918,
+    "ratio_T_fit_over_T_H": 0.9660907400466292
+  },
+  "flux_proxy_midband": {
+    "F_Gamma_nB": 4.860398475768137e-05,
+    "F_nB": 8.6044716995577e-05,
+    "note": "mid-band quadrature only; not full Stefan integral"
+  },
+  "acceptance": {
+    "horizon_reused_from_week1": true,
+    "kappa": 0.125,
+    "T_H": 0.019894367886486918,
+    "beta2_near_horizon_is_n_B": true,
+    "mode_match_bins_ok": 20,
+    "mean_Gamma": 0.7515776332150625,
+    "gamma_near_unity": true,
+    "T_fit": 0.01921976459421604,
+    "T_fit_over_T_H": 0.9660907400466292,
+    "thermal_band_pass_0p7_1p3": true,
+    "subsonic_null_pass": true,
+    "S_rad_v_claimed": false,
+    "page_curve_claimed": false,
+    "note": "Week2: near-horizon Bogoliubov |\u03b2|\u00b2 identified with n_B(T_H); exterior numerical mode matching supplies greybody \u0393(\u03c9); n_mode=\u0393 n_B compared to pure thermal. NOT S_rad(v). NOT Page turn."
+  },
+  "week2_pass": true
+}

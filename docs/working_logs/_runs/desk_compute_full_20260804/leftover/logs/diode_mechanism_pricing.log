@@ -1,0 +1,41 @@
+==============================================================================
+The rectifier's mechanism classes, priced — #104 stage 7 / board #39
+==============================================================================
+
+   need: R ≈ 5.0e-05
+
+   A. spontaneous-leptogenesis (dissipative): η_A ~ 7.3e-22 → dead by 17 orders
+   B. Kapitza-pinned junction: R_B ~ (m₁/θ̇)·F = 3.77e-05·F → F needed: 1.33 (an O(1))
+   C. static φ₀-diode under uniform winding: R_C ≤ 4.1e-07 → dead by 2.1 orders (stage 6's theorem)
+
+   the discrimination is clean: classes A and C are computed dead
+   (26 and 2.1 orders); class B is the ONLY survivor, and its
+   leading factor is exactly the recorded watch:
+      m₁/θ̇(T_sph) = 0.00225/59.7 = 3.77e-05  = 0.75 × need
+   with the remaining factor F an O(1) junction response that the
+   careful derivation owes (inputs: the ν-sector damping at T_sph —
+   deep equilibrium, overdamped ✓ — and the seat coupling J; both
+   recorded objects).
+
+VERDICT:
+   THE MECHANISM CLASS IS SELECTED BY ELIMINATION, at candidate-
+   mechanism grade: the rectifier is the driven overdamped
+   junction — the only class of the three that recorded inputs do
+   not kill.
+
+   THE m₁/θ̇ LEADING FACTOR SHOWN ABOVE IS SUPERSEDED (stage 8).
+   The owed averaging was performed in
+   scripts/kapitza_junction_response.py and returns
+      R_B = ω_J²/(2Γ_φθ̇)   — no m₁ in it.
+   An overdamped phase feels a pinning term as the rate m₁²/Γ_φ =
+   9.4e-16 eV, seventeen orders under θ̇, so m₁ vs θ̇ was never the
+   right comparison; and where such a term IS strong enough to
+   hold the phase it destroys the accumulated asymmetry instead of
+   supplying it. The m₁/θ̇ = 0.75×-need watch is therefore a
+   coincidence, not a mechanism.
+
+   What the sector owes is the seat coupling's junction plasma
+   frequency at T_sph: ω_J ≈ 5.7 keV (equivalently a ~6 meV
+   relaxation rate on the visible phase). Four consumers ride
+   that number; it is the owner-session's sharpest single target.
+==============================================================================

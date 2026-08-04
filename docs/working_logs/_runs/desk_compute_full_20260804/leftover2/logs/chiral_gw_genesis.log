@@ -1,0 +1,18 @@
+========================================================================
+CHIRAL-GW FINGERPRINT OF THE GENESIS TWIST  (charge-free, CS gravity)
+========================================================================
+
+  scenario                            Pi (chirality)   r (GW ampl)  verdict
+  ----------------------------------------------------------------------
+  Planckian genesis (extreme)               1.74e-01      1.68e+07  OBSERVABLE
+  GUT/high-inflation (r~max)                6.25e-10      6.05e-02  too faint
+  model-natural (Psi0~5e16 scale)           8.68e-08      1.68e-03  too faint
+  model-natural, alpha boosted 1e3          8.68e-05      1.68e-03  too faint
+  low-scale genesis                         1.74e-19      1.68e-13  no GW bkg
+
+  ----------------------------------------------------------------------
+  For Pi >= 1e-02 with theta_dot~H_gen, alpha=1:
+     need H_gen >= 2.40e+17 GeV  =  0.100 M_Pl
+  But inflation requires H_inf <~ 6e13 GeV (tensor bound r<0.03).
+  Gap: need genesis ~4e+03x ABOVE the observational ceiling on H_inf.
+========================================================================

@@ -1,5 +1,8 @@
 # Debt report — RM two-point / coherence formula (Kibble geometry)
 
+> **Status (live):** **Geometric scale PAID** (ℓ~25–60 survey-plane). Amplitude OPEN. Void floor separate.
+
+
 **Run id:** `debt_rm_formula_20260803`  
 **Date:** 2026-08-03  
 **Worker:** blue-team science (desk formula; no MCMC)  

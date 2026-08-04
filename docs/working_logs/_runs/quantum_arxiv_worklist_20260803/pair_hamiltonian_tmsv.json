@@ -1,0 +1,156 @@
+{
+  "hamiltonian": "H = \u03c9(a\u2020a+b\u2020b) + \u03bb(ab+a\u2020b\u2020)",
+  "hamiltonian_class": "standard_textbook_pair_quadratic",
+  "medium_omega_derived": false,
+  "medium_lambda_derived": false,
+  "medium_r_derived": false,
+  "EN_D2_D3_status": "MISSING_INPUT \u2014 H is literature form; medium (\u03c9,\u03bb) not pinned",
+  "all_B_below_tsirelson": true,
+  "rows": [
+    {
+      "lambda_over_omega": 0.0,
+      "r": 0.0,
+      "B_max": 2.0,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.049999999999999996,
+      "r": 0.05004172927849131,
+      "B_max": 2.0099255577030184,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.09999999999999999,
+      "r": 0.10033534773107562,
+      "B_max": 2.0388348064286883,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.15,
+      "r": 0.15114043593646675,
+      "B_max": 2.084305830890329,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.19999999999999998,
+      "r": 0.2027325540540821,
+      "B_max": 2.1428289657206334,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.24999999999999997,
+      "r": 0.25541281188299536,
+      "B_max": 2.2103875562418747,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.3,
+      "r": 0.3095196042031118,
+      "B_max": 2.2829847109220522,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.35,
+      "r": 0.3654437542713962,
+      "B_max": 2.3570209671414566,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.39999999999999997,
+      "r": 0.4236489301936017,
+      "B_max": 2.429505510870143,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.44999999999999996,
+      "r": 0.48470027859405174,
+      "B_max": 2.4981301438688477,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.49999999999999994,
+      "r": 0.5493061443340549,
+      "B_max": 2.5612496949731396,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.5499999999999999,
+      "r": 0.6183813135744634,
+      "B_max": 2.6178086251256425,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.6,
+      "r": 0.6931471805599453,
+      "B_max": 2.6672433055893254,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.6499999999999999,
+      "r": 0.7752987062055833,
+      "B_max": 2.709379248687776,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.7,
+      "r": 0.8673005276940532,
+      "B_max": 2.7443346116499656,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.7499999999999999,
+      "r": 0.9729550745276565,
+      "B_max": 2.772435752186153,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.7999999999999999,
+      "r": 1.0986122886681096,
+      "B_max": 2.7941470227550607,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.85,
+      "r": 1.2561528119880574,
+      "B_max": 2.8100148098960473,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.8999999999999999,
+      "r": 1.4722194895832197,
+      "B_max": 2.820624611919757,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    },
+    {
+      "lambda_over_omega": 0.95,
+      "r": 1.8317808230648227,
+      "B_max": 2.8265693735419246,
+      "tsirelson": 2.8284271247461903,
+      "below_tsirelson": true
+    }
+  ],
+  "non_claims": [
+    "not a PRTOE discovery of CHSH",
+    "not a derivation of medium r",
+    "does not close atomic QM"
+  ]
+}

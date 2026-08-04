@@ -4,35 +4,79 @@
 > Regenerated per run at its landing; the live pair and Route-D join
 > **at convergence only**. Means with 68% limits, 30% burn-in — and only then.
 
-> ## Live production status (re-read 2026-08-02 ~22:20 from `.progress`, launchlog tails, checkpoints)
+> ## OPEN-MACHINE residual freeze — 2026-08-04
 >
-> Three MPI production objects are **live** (do not kill). None has met its R−1 stop.
+> **Status:** OPEN-MACHINE (ledger for production posteriors). **Bookable: NO.**
+>
+> **Authority gate (bbnfix pair only):** both legs must show cobaya progress
+> **R−1 < 0.05** *and* checkpoint **`converged: true`** (self-stop). Booking script only:
+> `python3 scripts/book_bbnfix_when_ready.py`. Diagnostic peeks
+> (`scripts/bbnfix_mcmc_watch_diag.py`) are **UNBOOKABLE** even when GetDist GR looks low.
+>
+> ### Live production status (stamp 2026-08-04 currency refresh; progress / checkpoints)
+>
+> Three MPI production objects are **live** (do not kill). **None** has self-stopped.
 > Cobaya `.progress` `acceptance_rate` is **oversampled** (`oversample_power = 0.4`) and
-> sits near ~0.99 even when the raw Metropolis accept rate is healthy; **use launchlog
-> accepted/steps** for the real accept rate.
+> sits near ~0.98–1.0 even when the raw Metropolis accept rate is healthy; **use launchlog
+> accepted/steps** for the real accept rate when launchlog is current.
 >
-> **R−1 unchanged** since the last progress checkpoints (dyad 15:41 / lcdm 19:00 / routeD 19:24);
-> launchlogs and `*.{1,2,3}.txt` still advancing.
+> Progress/checkpoint files **lag** chain `.txt` growth by hours until cobaya’s next R−1
+> write — normal; **not** a license to book.
 >
-> | chain | ranks (`mpi_size`) | N (progress) | R−1 last | stop | raw accept (launchlog Σ) | progress accept | live? |
-> |---|---:|---:|---:|---:|---:|---:|---|
-> | `dyad_mnu_bbnfix` (model, BBN-fixed) | **3** | 14544 | **0.192** | 0.05 | **~6.40%** (Σ 15132/236443; ≈5044/78814 per rank) | 0.996 ⚠ oversampled | **YES** — progress 2026-08-02T15:41; launchlog ~22:18 |
-> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 13193 | **0.141** | 0.05 | **~8.59%** (Σ 13599/158247; ≈4533/52749 per rank) | 0.984 ⚠ oversampled | **YES** — progress 2026-08-02T19:00; launchlog ~22:18 |
-> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 1593 | **129.1** | 0.1 | **~5.15%** (Σ 1828/35479; ≈609/11826 per rank) | 1.0 ⚠ oversampled | **YES** — first progress row 2026-08-02T19:24; early; ranks partially disjoint (H₀ post-50% means ≈68.55 / 68.66 / 69.83) |
+> Authority reconfirm (read-only): `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**.
+> Quote: **lcdm R−1 0.086466** (N=20409, t=2026-08-04T05:21:52; was 0.059@N=19013 —
+> **receding**, now **1.73×** stop), **dyad R−1 0.128943** (N=20302; ~2.58× stop),
+> **not self-stopped**, **NOT bookable**. GetDist offline GR
+> **~0.07 / ~0.086** (lcdm / dyad; prior diag) is **diagnostic only**.
+> Currency: [`machine_r1_currency_20260804c`](working_logs/_runs/machine_r1_currency_20260804c/).
+>
+> | chain | ranks | N (progress) | R−1 last | stop | `converged` | progress accept | live? |
+> |---|---:|---:|---:|---:|---|---:|---|
+> | `dyad_mnu_bbnfix` (model, BBN-fixed) | **3** | 20302 | **0.128943** | 0.05 | **false** | 0.996 ⚠ oversampled | **YES** — t=2026-08-04T03:25:56; was 0.189201@N=18837 |
+> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 20409 | **0.086466** | 0.05 | **false** | 0.984 ⚠ oversampled | **YES** — t=2026-08-04T05:21:52; was 0.059055@N=19013 — **receding** (**1.73×** stop) |
+> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 1609 | **102.79** | 0.1 | **false** | 1.0 ⚠ oversampled | **YES** — early; leave alone |
+>
+> **Diagnostics only** (`bbnfix_mcmc_watch_diag.py`, 2026-08-04T02:40 — **not bookable**):
+>
+> | measure | dyad | lcdm twin |
+> |---|---:|---:|
+> | crude max-param R−1 (burn 50%) | 0.0344 | 0.0203 |
+> | GetDist max GR (`ignore_rows=0.3`) | 0.0857 | 0.0721 |
+>
+> Crude param R−1 is optimistically low; GetDist GR is a better offline proxy and both still
+> **> 0.05**. Neither measure replaces cobaya self-stop.
+>
+> **lcdm trajectory (progress authority):** `0.053867 → 0.048827 → 0.059055 → 0.086466` —
+> **three consecutive moves away from gate after the dip**. Framing: **nearest-and-receding**,
+> **not** “closest approaching / nearly there.” Temporary R−1 = 0.048827 at N=17458
+> (2026-08-03T14:21) without `converged: true` was **never** bookable; checkpoint remains
+> `converged: false`.
 >
 > **Stop targets (from yaml):** dyad / lcdm `Rminus1_stop = 0.05`; routeD `Rminus1_stop = 0.1`.
-> Checkpoints all report `converged: false`. Closest to gate: lcdm twin at ~2.8× stop; model at
-> ~3.8×; routeD is early and far (≈1290× its looser 0.1 stop).
+> Distances: lcdm twin **1.73×** stop (receding from a nearer stamp); model **~2.58×**;
+> routeD early (~1028× its 0.1 stop).
 >
-> **No GetDist posterior table exists yet for the three live runs** — they join this file only
-> when R−1 hits stop. Booking commands: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`.
-> Any preliminary peek must be labeled as such and is not booked.
+> **No GetDist posterior table exists for the three live runs** — they join this file only
+> after booking. Checklist: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`.
+>
+> ### What unblocks booking
+>
+> 1. Leave cobaya alone until **both** bbnfix legs self-stop (`converged: true`) with R−1 < 0.05.
+> 2. Run `python3 scripts/book_bbnfix_when_ready.py` (not the watch diagnostic).
+> 3. Route-D / zon_disp / conv_desi are separate instruments — not part of the bbnfix pair gate.
+>
+> ### Forbidden claims (until gate)
+>
+> - Booked H₀ / Σm_ν / Ω_b h² / S₈ posteriors from live chains
+> - Fake or interim GetDist H₀ tables inserted into this file
+> - Quoting the archive tables below as constraints
+> - Treating GetDist GR or crude param R−1 as the booking authority
 >
 > ### Archive / dead chains still tabulated below (not live)
 >
 > | chain | last R−1 | over 0.05 | live? |
 > |---|---|---|---|
-> | `cmp_prtoe_conv_desi` | **13.25** | 265× | **no** — unproduced; last write 2026-07-22 |
+> | `cmp_prtoe_conv_desi` | **13.25** | 265× | **no** — unproduced; last chain write 2026-07-22; owner restart |
 > | `cmp_prtoe_zon_disp` | **17.81** | 356× | **no** — collapsed; seed ready, owner restart |
 > | `cmp_prtoe_zon` | **40.36** | 807× | **no** — stopped since 07-12 |
 > | `dyad_mnu_mcmc` | none recorded | unknown | diagnostic archive only |
@@ -56,7 +100,7 @@
 > a coincidence that would have read as a 0.0006 hit. See `PRTOE_quartet_clock.md` §4b.
 >
 > **Nothing in these tables may be quoted as a constraint** until the chain supplying it reports
-> R−1 at target.
+> R−1 at target **and** (for the bbnfix pair) `converged: true` via the booking script.
 
 ## cmp_prtoe_conv_desi — conversion channel vs DESI stack (3462 post-burn samples)
 
@@ -110,3 +154,20 @@
 | dcdf_rho_inf | 0.7025 | [0.70128, 0.70358] |
 | A_planck | 1.0018 | [0.99909, 1.0053] |
 
+
+---
+
+## Claims ledger & residual freeze (2026-08-04)
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Archive GetDist tables are diagnostics only (not posteriors) | **honest fence** | banner ⚠ section | R−1 never hit stop on those runs |
+| 2 | Live bbnfix pair bookable H₀ / Σm_ν tables | **OPEN-BLOCKED** | progress: dyad R−1=0.128943@N=20302; lcdm R−1=**0.086466**@N=20409 (was 0.059@N=19013 — **receding**, 1.73× stop); both `converged:false` | **OPEN-MACHINE:** wait self-stop + `book_bbnfix_when_ready.py` |
+| 3 | Route-D thaw posterior | **OPEN-BLOCKED** | R−1≈103; early | **OPEN-MACHINE:** live but far from stop 0.1 |
+| 4 | conv_desi / zon_disp archive rows | **OPEN-BLOCKED** | dead instruments | Owner restart; not live |
+
+**Non-claims / forbidden:** no bookable posterior from this file; no invented H₀ table; no COMPLETE physics from tables alone.
+
+**Triage:** stay shelf as OPEN-MACHINE ledger. Physics ceiling: process record until booking gate fires.
+
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

@@ -1,0 +1,15 @@
+(9/2) alpha^4 * m_e (tau=1) = 6.521 meV
+tau needed for 2.25 meV     = 0.3451
+
+rho_Lambda^(1/4) vs the candidate T_c/scale ratios (sqrt(sigma_dark)=m_e):
+  pure glue (N_f=0)      T_c/sqrt(sigma)  tau=0.630 -> 4.108 meV (1.83x)
+  constituent quark      T_c/m_const     tau=0.470 -> 3.065 meV (1.36x)
+  full QCD  T_c/sqrt(sigma) [low]   tau=0.335 -> 2.184 meV (0.97x)
+  full QCD  T_c/sqrt(sigma) [mid]   tau=0.355 -> 2.315 meV (1.03x)
+  full QCD  T_c/sqrt(sigma) [hi]    tau=0.370 -> 2.413 meV (1.07x)
+  m_rho normalisation    T_c/m_rho   tau=0.200 -> 1.304 meV (0.58x)
+
+Internal consistency: adopted T_c = 193 keV through the QCD ratio ->
+  T_c/sqrt(sigma)=0.335 -> sqrt(sigma_dark) = 576 keV (m_e=511 keV, ratio 1.13)
+  T_c/sqrt(sigma)=0.355 -> sqrt(sigma_dark) = 544 keV (m_e=511 keV, ratio 1.06)
+  T_c/sqrt(sigma)=0.37 -> sqrt(sigma_dark) = 522 keV (m_e=511 keV, ratio 1.02)

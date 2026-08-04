@@ -9,13 +9,13 @@ Thread 6. One recorded explanation (why the relation survives a mass shift) plus
 | claim | grade |
 |---|---|
 | Protection: Q invariant under universal rescaling | **derived** (homogeneous of degree 0; content is flavour-universality of the portal) |
-| Why Q = 2/3 at all (A = √2) | **not derived** — candidate chain; cascade deliverer **dead** |
-| T_c = 177.10 keV from τ = ½ln2 | **derived** (from Q = 2/3 via Parseval); pipeline often 179; 193 is cross-check only |
+| Why Q = 2/3 at all (A = √2) | **not derived** — thermal/flat delivery-law path **contradicted** (1025 ppm miss ≈ 171× the 6 ppm exactness budget; `koide_delivery_law_discriminator`); cascade deliverer **dead**; **relation stands as unexplained regularity**. Residual research (freeze-time stiffness / Wilson bins) is not a restored "candidate mechanism" until scored |
+| T_c = 177.10 keV from τ = ½ln2 | **derived-conditional** on measured Q=2/3 + √σ_dark=m_e pin + e^(−τ) modulus reading (Parseval; **not** contradicted thermal delivery); lattice P-048 tests the composite; locking without Q still **OPEN** |
 | ρ_Λ¼ = 2.2599 meV (+0.44%) | **existence claim, not precision** (composite quartic uncontrolled at this order) |
 | Neutrino sum | **P-2026-012 stands** (Σm_ν ≈ 61.3 meV); Koide-neutrino branch **withdrawn** as prediction |
 | Medium-w inheritance of A = √2 | **dead** (failures ledger) |
 
-Do not present Koide as solved. Protection is real; the value is open.
+Do not present Koide as solved. Protection is real; the relation is a measured regularity; the thermal-flat mechanism path is **contradicted** at the required exactness; mechanism exactness remains **OPEN as unexplained regularity** pending a new scored mechanism (tribunal R2-koide-exactness three-seat).
 
 ---
 
@@ -88,7 +88,7 @@ the two mysteries one complex number — the nearest-neighbour amplitude, whose 
 carries its own deviation lock, P-2026-051). The remaining physical question is a single
 vertex computation inside the confining sector's own structure. Detail:
 [T6_koide_owed.md](working_logs/T6_koide_owed.md);
-[PRTOE_forced_combination.md](PRTOE_forced_combination.md) for the existence theorem the chase
+[PRTOE_forced_combination.md](exploratory/PRTOE_forced_combination.md) for the existence theorem the chase
 produced. All three original readings remain unbuilt. The structure parallel to
 the dark-energy freeze at neutrino decoupling
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b) survives only under (i): a
@@ -711,3 +711,37 @@ branch is not a mechanism for being there.
 triple on the cone, which would have to defeat both charge-selector arguments at once; or a corrected
 φ that passes the parameter-free ratio test. The second is checkable immediately against any proposed
 φ, and the script above is the check.
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY honesty. **Do not present Koide as solved.** Protection derived; Q=2/3 mechanism exactness **OPEN-BLOCKED** as unexplained regularity. Thermal/flat delivery remains **contradicted** (~171× exactness budget).  
+**Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) — `koide_lock.log` **PASS** (algebra only); `tau_parseval.log` **PASS** (τ=½ln2 at Q=2/3; locking_without_Q **OPEN**).  
+**Parent debts:** [debt_koide_20260803/REPORT.md](working_logs/_runs/debt_koide_20260803/REPORT.md); [debt_koide_wilson_20260803/REPORT.md](working_logs/_runs/debt_koide_wilson_20260803/REPORT.md); [T6_koide_owed.md](working_logs/T6_koide_owed.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Protection: Q invariant under universal mass rescaling (portal flavour-universal) | **derived** | §1; degree-0 arithmetic; non-universal e-only ~163 ppm vs fence 6.8×10⁻⁶ | Consistency of model portal, not mainstream improvement | Sell protection as “why Koide holds” |
+| 2 | Fence Q = 0.6666605 ± 6.8×10⁻⁶; A = R/M ≈ 1.41420 on pole masses | **machine-backed** | §Fence; body arithmetic | — | — |
+| 3 | Why Q = 2/3 (A = √2) / graded null f₀² − \|f₁\|² − \|f₂\|² = 0 | **OPEN-BLOCKED** (OPEN-THEORY); lane (c) three-seat **LOCKED** 2026-08-03 — thermal/flat **contradicted** (~171× budget); relation = unexplained regularity | §2; [T6_koide_owed.md](working_logs/T6_koide_owed.md); [debt_koide_20260803](working_logs/_runs/debt_koide_20260803/REPORT.md) | **#101 node residual** — no restored “candidate mechanism” without new scored path; residual research only (freeze-time / Wilson bins) | Fake Wilson close; restore thermal mechanism as candidate; claim A=√2 derived |
+| 4 | Holonomy / Brannen phase 2/9 (3·arg f₁ = Q) | **OPEN-BLOCKED** (same residual) | §kernel; #102; [debt_koide_wilson_20260803](working_logs/_runs/debt_koide_wilson_20260803/REPORT.md) | Closes with node or not at all; Wilson needs **dark-SU(2) inputs** (pre-registered bins) — not inventable | Invent dark-SU(2) holonomy inputs at desk |
+| 5 | Medium-w inheritance of A = √2 | **failed / retired** | [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); §2 | Do not reopen | Reopen medium-w inheritance |
+| 6 | Cascade / averaging-class deliverers for A = √2 | **failed / retired** (class) | Failures ledger; T6 kill table | Exactness forbids equilibrium scatter | Reopen cascade deliverers without new premises |
+| 7 | T_c = 177.10 keV and ρ_Λ¼ = 2.2599 meV *if* Q=2/3 via τ=½ln2 | **derived-conditional** (existence, not precision) | Parseval; `tau_parseval_recompute.py` reconfirm PASS 2026-08-04 | Conditions: **Q regularity**, **√σ_dark=m_e pin**, **e^(−τ) modulus reading** (P-048); not thermal delivery; locking without Q **OPEN** | Precision ρ_Λ from this chain alone; thermal delivery of τ |
+| 8 | Neutrino sum P-2026-012 stands; Koide-neutrino branch withdrawn | **registered** / withdrawn | §neutrino fork; `scripts/neutrino_fork_decide.py` | — | Quote Σ≈58.5 meV as model prediction |
+| 9 | Conjunction A=√2 *and* arg f₁=2/9 exact on pole masses | **failed** as joint exactness | §two watches; `scripts/koide_watch_triangle.py` | At most one exact; each alone ~0.9σ | Claim both exact jointly |
+| 10 | Desk algebra re-verified (lock, occupancy, delivery-law pressure) | **machine-backed** (algebra only) | debt_koide script table; `koide_lock_algebra_verification.py` reconfirm PASS 2026-08-04 | Does **not** pay #101/#102; L2 / survival test **OPEN** | Algebra PASS as mechanism close |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| #101 graded null / A=√2 | **OPEN-BLOCKED** | [debt_koide_20260803](working_logs/_runs/debt_koide_20260803/REPORT.md) §1 still-open; T6 owed | New scored mechanism forcing null to ~10⁻⁵ without equilibrium scatter |
+| #102 Brannen phase 2/9 | **OPEN-BLOCKED** | same residual; Wilson inventory | Closes with #101 or not at all; dark-SU(2) inputs pre-registered only |
+| locking_without_Q | **OPEN** | tau_parseval reconfirm | Independent lock of τ without assuming Q=2/3 |
+| Occupancy lock N₀=1 | **candidate** (algebra if applied) | koide_lock reconfirm | Application step remains invented |
+
+**Non-claims:** Koide solved; A=√2 derived; democratic-graph (P1–P4) as paid mechanism; occupancy lock N₀=1 as derived; ε_A=2/9 as independent witness of Koide; precision ρ_Λ from this chain alone; thermal/flat delivery restored.
+
+**Triage:** elevate-in-place; **blocked (OPEN-THEORY)** on #101/#102 — protection remains derived; recomputes reconfirm algebra only.

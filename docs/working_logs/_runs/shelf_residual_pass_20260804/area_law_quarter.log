@@ -1,0 +1,25 @@
+# Area-law quarter = heat-kernel ratio (2026-08-03)
+
+## Algebra
+
+$$\frac{1}{G} = \frac{N}{12\pi\varepsilon^2},\qquad S = \frac{N A}{48\pi\varepsilon^2}\quad\Rightarrow\quad \frac{S}{A/G} = \frac{12\pi}{48\pi} = \frac{1}{4}.$$
+
+12π/48π = **0.2500000000000000**  **PASS**
+
+Numerical cancel (N=48.0, ε=0.001, A=1.257e+05): S/(A/G) = **0.2500000000000000**  **PASS**
+
+## What this pays / does not pay
+
+| object | status |
+|---|---|
+| Coefficient 1/4 for minimal scalars | **paid** (ratio) |
+| Species + cutoff cancellation | **paid** |
+| Roster extension (spin-½, gauge+edges, ξ=1/6 scalar) | **candidate-grade** in entropy.md §3 |
+| Dynamical Page curve S_rad(v) | **OPEN** — not this script |
+
+## Kill
+
+Rejecting edge-mode restoration for gauge fields without a replacement that preserves the ratio (per QG §4a).
+
+wrote docs/working_logs/_runs/quantum_null_hardening_20260803/AREA_LAW_QUARTER.md
+EXIT 0

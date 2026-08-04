@@ -1,115 +1,75 @@
-# R1-t14-i6 A4 production — partial grade (logs as of ~2026-08-03 10:42 MDT)
+# R1-t14-i6 A4 production — grade update (2026-08-03 ~12:15 MDT)
 
-**Role:** blue team monitor / grade  
-**Run path:** `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`  
-**Console:** `docs/working_logs/_runs/t14_i6_production_console.log`  
-**Skeleton:** `docs/working_logs/_runs/t14_i6_TC_SKELETON.md`  
-**NO FABRICATIONS:** every number below is from console / `summary.json` on disk.  
-**Status at grade:** **IN FLIGHT** — step **[3/4] null nojet**, branch `n+1_f+1` started (no t-lines yet on prod console).  
-**Do not kill; do not start new 128³ runs.**
+**NO FABRICATIONS.** Numbers from console / `summary.json` only.  
+**Run:** `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`
 
----
-
-## Pipeline steps
+## Pipeline
 
 | Step | Status | Evidence |
 |---|---|---|
 | [1/4] calibrate | **PASS** | `calibrate.log` |
-| [2/4] null nowinding | **COMPLETE** | `null_nowinding/summary.json` elapsed **5684.48 s** |
-| [3/4] null nojet | **IN PROGRESS** | process alive; console header + BRANCH n+1_f+1 |
-| [4/4] four-branch | **NOT STARTED** | — |
+| [2/4] null nowinding | **DONE** | `null_nowinding/summary.json` elapsed **5684 s** |
+| [3/4] null nojet | **DONE** | `null_nojet/summary.json` elapsed **5622 s** |
+| [4/4] four-branch | **IN FLIGHT** | n+1_f+1 + n+1_f-1 VERDICT; n-1_f+1 running; no summary.json |
 
----
+## Null nojet (production 128³) — COMPLETE
 
-## 1. Calibration (complete)
-
-| Target | Result | Tol | Gate |
-|---|---:|---:|---|
-| planar circle Wr | +0.0000 | ±0.05 | PASS |
-| noisy planar Wr | +0.0049 | ±0.05 | PASS |
-| helical ring Wr | inst=truth −0.5722, \|Δ\|=0 | 0.15 | PASS |
-| helical n=2 Wr | inst=truth −0.1785, \|Δ\|=0 | 0.15 | PASS |
-
-**CALIBRATION OVERALL: PASS**
-
-Grid: **128×128×256**, `T_MAX=1.5`, protocol 2026-08-03, blind selector (Tw/Wr/H not used in key).
-
----
-
-## 2. nowinding — complete (from `summary.json`)
-
-### 2a. `n+0_f+1`
-
-| field | value |
-|---|---|
-| selected t | **1.0** |
-| H | **1.873e−15** (numerical zero) |
-| W / Tw / Wr | ~−1.4e−16 / ~−1.4e−16 / ~2.0e−15 |
-| ampA | 3.13e−17 |
-| nphase | 16 |
-| drift_phys | **0.03983** (3.983%) |
-| dial_spread | ~1.01e−15 |
-| margin_ok | **false** (expected for null: \|H\|≈0) |
-
-### 2b. `n+0_f-1`
-
-| field | value |
-|---|---|
-| selected t | **0.25** |
-| H | **0.0** |
-| W / Tw / Wr | 0 / 0 / 0 |
-| ampA | 8.65e−4 |
-| nphase | 16 |
-| drift_phys | **0.07305** (7.305%) |
-| dial_spread | ~5.55e−17 |
-| margin_ok | **false** |
-
-### 2c. Intermediate frames on `n+0_f-1` (console — not hidden)
-
-| t | phase | H / W / Tw | note |
-|---:|---|---|---|
-| 0.25 | 16/16 | finite H=0 | **selected** |
-| 0.50–1.00 | **0/16** | **NaN** | phase-blind |
-| 1.25 | **8/16** | **NaN** H | below gate (8 < 12) |
-| 1.50 | 16/16 | finite H≈0 | second candidate |
-
-Code path (`ring_toroidal_hkin.py:298`): **W/Tw/H go NaN when `nphase < NBINS−4` i.e. fewer than 12/16 phase bins** — not only when nphase=0. The t=1.25 frame (8/16) NaNs through that gate. (Claude red C1a wording cure 2026-08-03.)
-
-### 2d. Booking string written by runner (nowinding only)
-
-> instrument to the bench — true-mirror checks missing/unmeasured (not a measured violation)
-
-True-mirror pairs missing because this null only runs n=0 branches. Four-branch true-mirror is step [4/4].
-
----
-
-## 3. Gate table (partial — no fabrications)
-
-| Gate | Target | Result |
+| Branch | Verdict | Result |
 |---|---|---|
-| Calibrate planar+helix | PASS | **PASS** |
-| nowinding \|H\| ≪ 0.2 | yes | **PASS** at selected frames (H≈0) |
-| nowinding phase coverage all frames | clean | **FAIL mid-branch f−1** (NaN when nphase&lt;12/16; 4/6 frames instrument-blind; 2-candidate pool) — **OPEN** |
-| nojet | no false ring | **TBD** |
-| True-mirror residual | **&lt;5%** at 128³ | **TBD** (four-branch) |
-| Margins \|H\|&gt;3×spread | all four | **TBD** / nulls expect margin_ok=False |
-| Blind selector | no Tw/Wr/H | **held** on recorded SELECTED lines |
+| n+1_f+1 | **null** all t∈[0.25,1.50] `----` | no false ring |
+| n−1_f+1 | **null** all t∈[0.25,1.50] `----` | no false ring |
 
----
+Booking string: **`nothing graded (no ring / no verdict frame)`**  
+Drift at late times large (t=1.50 ~387%) but **no ring** → null fence **PASS** at production grid.
 
-## 4. What is NOT claimed
+True-mirror N/A on nojet (no verdicts). Same as smoke nojet grade; **does not pre-credit four-branch**.
 
-- Production booking of sign(H_kin vs n)
-- True-mirror residual measured
-- nojet clean
-- “almost bookable” on bbnfix (lcdm R−1≈0.054, dyad≈0.160 — both ≥ stop)
-- Cosmological / sky-facing sign
+## Null nowinding — COMPLETE (unchanged)
 
----
+| Branch | t | H | drift | notes |
+|---|---:|---:|---:|---|
+| n+0_f+1 | 1.0 | ~1.87e−15 | 3.98% | 5 candidates; margin_ok=false expected |
+| n+0_f−1 | 0.25 | 0.0 | 7.31% | **2 candidates**; mid-frames nphase&lt;12/16 NaN; instrument-censored |
 
-## 5. Red / referee ask (pre-TC)
+Gate: NaN when `nphase < 12/16` (`ring_toroidal_hkin.py:298`).
 
-**Claude C1 (partial):** attack (a) phase-blind NaNs on f−1 as instrument defect vs expected null pathology; (b) ampA≈0 on f+1 null interpretation; (c) do not allow blue to claim nowinding “fully clean” without stating mid-frame NaNs.  
-**ChatGPT:** process AGREE that partial grade is record-backed; REMAND any full A4 TC filed before [3/4]+[4/4] artifacts exist.
+## Gates vs i6 / Claude conditions 1–6
 
-**Next blue:** finish nojet + four-branch → fill `t14_i6_TC_SKELETON.md` only from files.
+| Gate / condition | Status |
+|---|---|
+| Calibrate | **PASS** |
+| nowinding H~0 selected | **PASS** (with f−1 instrument-censored disclosure) |
+| nojet no false ring | **PASS** |
+| True-mirror &lt;5% | **TBD** four-branch |
+| Margins four-branch | **TBD** |
+| Blind selector | held on recorded SELECTED lines |
+| Cond 1 NaN wording | cured in docs |
+| Cond 2 candidate-pool + instrument-censored | armed for full TC |
+| Cond 3–6 | armed for full TC |
+
+## Non-claims
+
+- **No production sign(H vs n) booking** until four-branch summary + gates.
+- Smoke revalidate does not substitute for this production four-branch.
+- **4/10 stands**; story-grade corpus lock is separate discipline work.
+
+## Next
+
+Fill `t14_i6_TC_SKELETON.md` + TASK COMPLETE R1-t14-i6 **only** from `four_branch/summary.json` when written. Claude C1 armed; ChatGPT REMAND production booking until then.
+
+## Continuous update (14:06)
+
+- n-1_f+1 advanced through t=1.25 (cand H≈−2.204); t=1.50 computing
+- n+1_f-1 remains **2-cand instrument-censored**
+- Booking stance prewrite: `../t14_i6_BOOKING_STANCE_PREWRITE.md`
+- No production booking
+
+## FULL TC COMPLETE (14:45)
+
+See `FULL_TC_REPORT.md` + `../t14_i6_TC_GATES.md`.
+
+- four_branch/summary.json elapsed 9009s
+- Mirrors 3.40% / 0.36% PASS
+- Both f−1 **2-cand censored**
+- Production sign **NOT booked**
+- Red C1 owed

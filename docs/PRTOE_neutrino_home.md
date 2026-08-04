@@ -1,10 +1,24 @@
 # Neutrino home — the lightest-mass relation (2026-07-11)
 
-Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full sector: [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md). Letter to experiment: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md).
+> ## Residual freeze — FULL honesty (neutrino home + Fairbank path) — 2026-08-04
+>
+> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on joint Σm_ν posterior · Fairbank path **HOLD** · m_ββ package **READY not posted**.
+>
+> **1. Σm_ν joint waits on `dyad_mnu_bbnfix` book.** Live pair: model `dyad_mnu_bbnfix` (Σm_ν free) vs twin `cmp_lcdm_mnu_bbnfix`. Progress: dyad N=20302 **R−1=0.128943** (t=2026-08-04T03:25:56; ~2.58× stop), lcdm N=20409 **R−1=0.086466** (t=2026-08-04T05:21:52; was 0.059055@N=19013 — **receding**, now **1.73×** stop); both checkpoints **`converged: false`**. Bookable **NO** — requires both progress R−1 < 0.05 **and** `converged: true`, then `scripts/book_bbnfix_when_ready.py`. Offline GetDist GR (~0.086 / ~0.07) is **diagnostic only**, never the gate. Double-duty conv_g (T3 item 2) rides unproduced `conv_desi` / early routeD, not desk. §2 minima table is **not** the joint posterior — **no invented posteriors**. Currency: [`machine_r1_currency_20260804c`](working_logs/_runs/machine_r1_currency_20260804c/).
+>
+> **2. Fairbank HOLD.** Experimental letter + hep-ph endorsement path paused at owner. Desk does **not** email Fairbank, invent endorsement, or invent a second Fairbank TeX. Companion: [exploratory/PRTOE_fairbank_note_HOLD.md](exploratory/PRTOE_fairbank_note_HOLD.md). Draft letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md). Owner branch table: [arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md](working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md).
+>
+> **3. m_ββ package READY not posted.** `papers/neutrino-mbb/` + staged [arXivReady/neutrino-mbb](arXivReady/README.md) PDF+tarball are **READY_PACKAGE** (audit-clean). Owner submitted to William Fairbank 2026-08-03; packaging **paused**. **No arXiv post** until Fairbank reply / hep-ph endorsement (or owner-chosen parallel archive path). Inventory: [arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md](working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md). Full honesty package: [neutrino_full_honesty_20260804/REPORT.md](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
+>
+> **What unblocks:** (machine) both bbnfix legs self-stop → `python3 scripts/book_bbnfix_when_ready.py` → bookable Σm_ν joint; conv_desi owner restart for double-duty. (owner) Fairbank reply → owner branch table → possible hep-ph post of **neutrino-mbb only**.
+>
+> **Forbidden claims:** booked Σm_ν / H₀ from live chains; GetDist GR or crude param R−1 as gate; §2 minima as joint posterior; “posted to arXiv” without ID; second Fairbank TeX; H₀ ≈ 69.9 / “outperform” as result.
+
+Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full sector: [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md). Letter to experiment: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md). Package path: [arXivReady README](arXivReady/README.md) · [arxiv owner prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md).
 
 Third thread of the atomic-constant survey; collects the neutrino-sector relation. One registered prediction rides it (P-2026-023). Relative to standard cosmology, the model shifts the *inferred* neutrino mass upward, not down.
 
-**Status.** Lightest-mass relation and upward shift established in the model. Open: joint-fit consistency, exact v_L derivation, comparison with direct and oscillation bounds.
+**Status.** Lightest-mass relation and upward shift established in the model. Open: joint-fit consistency (**OPEN-MACHINE**, `dyad_mnu_bbnfix` book not ready 2026-08-04), Fairbank HOLD + m_ββ READY not posted (owner/external), exact v_L branch selection, comparison with direct and oscillation bounds.
 
 ## 0. Standard-cosmology tension
 
@@ -40,3 +54,22 @@ Benchmark A: v_L = 5 MeV, heavy-state mass M = 10 TeV — near-resonant; inverse
 - KATRIN-class direct limits and the oscillation floor bracket the remaining window.
 
 Standard cosmology pushes neutrino mass down. This model keeps it heavy enough to stay visible because the medium that replaces DM+DE pays that mass from its own sector. Cosmological and laboratory posteriors should diverge if the model is right.
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze — FULL honesty) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Neutrino mass medium-sourced (not ordinary Higgs Yukawa) | **interpretation** / structural | §1 | Inverse-seesaw / Majoron seating |
+| 2 | Model fit prefers m_ncdm ~0.07–0.09 eV (upward vs ΛCDM 0) | **machine-backed** provisional | §2 table; P-2026-023 | **OPEN-MACHINE:** joint `dyad_mnu_bbnfix` book **NO** (lcdm R−1=**0.086466**@N=20409 — receding from 0.059; dyad 0.128943@N=20302; both not self-stopped) |
+| 3 | Upward shift direction generic to varying-m_e | **interpretation** | §4 | Specific numbers are model’s |
+| 4 | Exact v_L derivation / branch selection | **OPEN** | status; T3 | Benchmark A: 5 MeV candidate; MeV vs high-v_L is CMB-S4 / leptogenesis, not desk |
+| 5 | CMB-S4 tests MeV-scale v_L corner (P-2026-025) | **registered** | §3 | High-v_L corner not accessible |
+| 6 | conv_g double-duty (Σm_ν + S₈ in one fit) | **OPEN-BLOCKED** | T3/T4 | **OPEN-MACHINE:** conv_desi unproduced |
+| 7 | Fairbank experimental path | **WATCH-EXTERNAL** / **HOLD** | letter draft; arxiv_owner_prep | Owner-only; desk does not email / endorse / post |
+| 8 | m_ββ window package (`neutrino-mbb`) | **READY_PACKAGE** not posted | arXivReady; PACKAGE_INVENTORY | hep-ph endorsement; Fairbank thread live; **no invent arXiv ID** |
+
+**Non-claims / forbidden:** not a precision Σm_ν discriminator; full sector lives in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md); no booked joint posterior until gate; no “posted” without arXiv ID; no second Fairbank TeX.
+
+**Triage:** elevate-in-place. Physics ceiling: structural + provisional fit numbers; joint chain **OPEN-BLOCKED**; package **READY not posted** (2026-08-04).

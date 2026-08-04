@@ -1,0 +1,25 @@
+========================================================================
+bbnfix MCMC watch diagnostic — UNBOOKABLE
+stamp: 2026-08-04T02:40:09
+gate authority: progress R−1 < 0.05 AND checkpoint converged:true
+========================================================================
+
+--- dyad_mnu_bbnfix ---
+  progress: N=18837 R−1=0.189201 t=2026-08-03T17:57:59.890097 (file mtime 2026-08-03T17:57:59)
+  checkpoint: converged=False Rminus1_last=0.18920075919140164 (mtime 2026-08-03T17:57:59)
+  chains: ranks=3 rows=[6752, 6698, 6785] latest_mtime=2026-08-04T02:38:56
+  crude param R−1 (burn 50%, max over params): 0.0344 — NOT cobaya measure; NOT bookable
+  GetDist max GR (ignore_rows=0.3): 0.085714 — diagnostic only; booking still needs cobaya self-stop
+  bookable_leg: False (R−1_ok=False, stop_ok=False)
+
+--- cmp_lcdm_mnu_bbnfix ---
+  progress: N=19013 R−1=0.059055 t=2026-08-03T21:05:36.968557 (file mtime 2026-08-03T21:05:37)
+  checkpoint: converged=False Rminus1_last=0.05905511181721022 (mtime 2026-08-03T21:05:37)
+  chains: ranks=3 rows=[6718, 6707, 6576] latest_mtime=2026-08-04T02:37:12
+  crude param R−1 (burn 50%, max over params): 0.0203 — NOT cobaya measure; NOT bookable
+  GetDist max GR (ignore_rows=0.3): 0.072109 — diagnostic only; booking still needs cobaya self-stop
+  bookable_leg: False (R−1_ok=False, stop_ok=False)
+
+========================================================================
+REFUSE booking from this script. Use: python3 scripts/book_bbnfix_when_ready.py
+========================================================================

@@ -1,0 +1,129 @@
+==============================================================================
+KOIDE FREEZE-TIME STIFFNESS-PAIR SENSITIVITY (corpus-fixed; no A_μ)
+==============================================================================
+
+  Purpose: map sensitivity only. Do NOT land Q=2/3 by dialing free knobs.
+  Grade: residual research under lane (c) — no mechanism restore.
+
+==============================================================================
+(1) NAMED STIFFNESS PAIRS IN THE CORPUS — what is built vs unbuilt
+==============================================================================
+  pair                          eps_D/eps_S    Q_classical note
+  ------------------------------------------------------------------------
+  observation radial Hessian    0.500000000    1.666666667  law 3; Q→5/3
+  observation circulant Koide   0.121320344    5.828427125  (a−|b|)/(a+2|b|) at null
+  classical null TARGET         2.000000000    0.666666667  needed for equipartition null
+  inverse circulant (8.24…)     8.242640687    0.414213562  not a delivery law
+
+  FREEZE-TIME pair (third pair, T6 / KZ structural gain):  **UNBUILT**
+  Named as: stiffness at freeze that sets amplitude, distinct from
+  observation-time stiffness the mass formula reads. No corpus-fixed
+  numerical value without inventing m or independent freeze times.
+
+==============================================================================
+(2) THERMAL SENSITIVITY AT CORPUS x1 = 2/9 (re-confirm exclusion)
+==============================================================================
+  x1_corpus          = 0.222222222222
+  eps_D/eps_S        = 2.0 (classical null ratio held)
+  Q_thermal          = 0.667350286083
+  Q_target 2/3       = 0.666666666667
+  miss               = 1025.4 ppm  (budget 6 ppm)
+  over-budget factor = 171x
+  re-confirms delivery discriminator: thermal/flat CONTRADICTED.
+
+  Sensitivity (NOT a claim): at fixed x1=2/9, thermal Q=2/3 needs
+    eps_D/eps_S ≈ 2.004110  rather than 2 exactly
+    (delivery discriminator: a≈2.9877 b rather than a=3b class).
+  That is a dial, not a derivation — reported only as sensitivity.
+
+   eps_ratio      Q_class      Q_therm     ppm_th
+  ------------------------------------------------
+     0.50000  1.666666667  1.661237818  1491856.7
+     1.00000  1.000000000  1.000000000   500000.0
+     1.41421  0.804737854  0.805303606   207955.4
+     1.90000  0.684210526  0.684892164    27338.2
+     2.00000  0.666666667  0.667350286     1025.4
+     2.00411  0.665983071  0.666666691        0.0
+     2.10000  0.650793651  0.651475800    22786.3
+     8.24264  0.414213562  0.414505607   378241.6
+
+==============================================================================
+(3) KZ MAP: shared-ramp am → freeze ratio (closed form; fixed c_D/c_S)
+==============================================================================
+  c_S=6, c_D=3, c_D/c_S=0.5
+  formula: eps_D(t_D)/eps_S(t_S) = (c_D/c_S)^(1/(1+am))
+
+        am    eps_ratio      Q_class note
+  ------------------------------------------------------------
+     -4.00  1.259921050  0.862467017  
+     -2.00  2.000000000  0.666666667  required for ratio=2 (SOFTENING; tuned, not derived)
+     -1.50  4.000000000  0.500000000  
+     -1.00     singular            —  1+am=0 pole
+     -0.50  0.250000000  3.000000000  
+      0.00  0.500000000  1.666666667  no-ramp → law 3 (Q=5/3)
+      0.50  0.629960525  1.391600701  stiffening: ratio<1, Q>1 (sign wrong)
+      1.00  0.707106781  1.276142375  stiffening: ratio<1, Q>1 (sign wrong)
+      2.00  0.793700526  1.173280700  stiffening: ratio<1, Q>1 (sign wrong)
+      5.00  0.890898718  1.081641366  stiffening: ratio<1, Q>1 (sign wrong)
+
+  At am=-2 classical ratio hits 2, but thermal exactness still fails
+  at x1=2/9: miss = 1025.4 ppm
+  (KZ relocates origin of '2'; does not buy exactness — T6).
+
+  Independent ramps (anti-control class): if sectors have separate λ(t),
+  ratio is free → KZ predicts nothing. Shared ramp is the physical content.
+  This script does NOT invent independent freeze rates to land 2.
+
+==============================================================================
+(4) ADIABATICITY SENSITIVITY (dimensionless; equal-quanta reduction)
+==============================================================================
+  From koide_equal_quanta_from_adiabaticity.py / T6:
+  pour-then-adiabatic-split → Q=2/3 algebraically if equal action conserved;
+  sudden limit breaks action. Residual for (P4b): ramp rate vs ω~39 keV.
+
+  Dimensionless readout (no physical ramp invented):
+      ramp (charged periods)            class
+  ----------------------------------------------
+                        0.02 sudden — action broken ~100%
+                        0.20 fast — large drift
+                        2.00         marginal
+                       20.00   near-adiabatic
+                      200.00 adiabatic — null from dynamics
+                      400.00 adiabatic (script default)
+
+  MISSING: corpus freeze ramp in charged-mode periods (one number closes
+  (P4b) and the delivery-law timescale fork — still unsupplied).
+
+==============================================================================
+(5) MISSING_INPUTS — stop before inventing a freeze pair or A_μ
+==============================================================================
+  name                                 status     note
+  ------------------------------------------------------------------------
+  physical_quench_exponent_m           MISSING    KZ maps am → freeze eps ratio, but corpus does not fix m (or am) without dial
+  independent_freeze_times_tS_tD       MISSING    no measured/derived t_S, t_D on the ring without free ramps
+  deposition_spectrum_at_omega_p       MISSING    T6: no deposition spectrum object; ω_p = 2^{1/4} ω_0 is named, not found
+  two_temperature_split_TD_TS          MISSING    exact flatness needs T_D/T_S ≈ 0.997936; ratio not derived
+  ramp_rate_at_freeze_vs_w1            MISSING    adiabaticity (P4b) needs ramp slow vs ω~39 keV; rate unsupplied
+  dark_SU2_A_mu_for_Wilson             MISSING    out of scope here; see koide_wilson_holonomy_inventory.py — no invent A_μ
+
+  MISSING_INPUTS: 6/6 block a *physical*
+  freeze-time stiffness pair and any Wilson score.
+  No freeze-pair number invented. No θ_W. No Q=2/3 claimed derived.
+
+==============================================================================
+VERDICT
+==============================================================================
+
+  PAID (desk): observation pairs named; thermal exclusion re-confirmed at ~1025 ppm;
+  KZ closed-form map am→ratio with fixed c_D/c_S; sensitivity of thermal law to
+  eps_ratio documented as dial-not-derivation.
+
+  CONTRADICTED: thermal/flat delivery at corpus x1 (1025 ppm ≈ 171× 6 ppm budget).
+
+  UNBUILT: freeze-time third stiffness pair (no corpus-fixed m / t_i / spectrum).
+
+  OPEN: #101 null exactness, #102 Brannen phase source, OPEN-THEORY unchanged.
+
+  NON-CLAIMS: no candidate mechanism restored; occupancy lock already killed as
+  escape (rational ω ratio cannot be √2); Branch A Wilson not scored (no A_μ).
+

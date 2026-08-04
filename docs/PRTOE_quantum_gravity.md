@@ -2,23 +2,146 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
-*Status: an emergent-gravity framework at* ***derived-conditional*** *grade — a closed
-expression for Newton's constant with explicitly named residual conditions. All claims
-carry their grades inline; nothing on this page is asserted above its evidence.*
+*Status: **shelf-promoted 2026-08-03** for **Goal A expansion attach** — not a TOE.
+Emergent-gravity framework at* ***derived-conditional*** *grade — closed form /
+finiteness for induced G with named residuals; area-law **coefficient** paid.
+**Page curve OPEN** (Q6). **Goal B residuals OPEN** (absolute SI G, nonlinear
+Einstein continuum, Page dynamics). All claims carry grades inline; nothing on this
+page is asserted above its evidence.*
+
+> **Honesty audit (QG-D1, 2026-08-03).**  
+> (i) **CC / τ:** the +0.44% floor line is an **existence claim**, not precision; τ = ½ln2
+> is **conditional** on measured Q + portal pin + e^(−τ) reading (R3 three-condition
+> disclosure) — not an unconditional Koide lock. Lattice T_c/√σ remains the referee.  
+> (ii) **Q2 ≠ Q6:** area-law coefficient paid does **not** close the Page curve.  
+> (iii) **Supertrace** is the only public algebra slice; this hub stays **CORPUS_ONLY**.  
+> (iv) Quantum wing (trio) is **not** required for Goal A attach and does not inherit
+> “atomic QM derived” from this file.  
+> (v) **Out of quantum-four scope** (foundations package = trio + SP/EN/TU only). This hub is
+> **not** an arXiv path as a QM paper; **CORPUS_ONLY** as full QG narrative. Endpoint stamp:
+> [`working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md`](working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md)
+> — model contribution to independent QM theory: **NONE** (seating + exact-QM nulls + dark
+> decoherence S7 live on the quantum wing, not here).  
+> (vi) **Goal B honesty (2026-08-04):** absolute SI \(G\), nonlinear Einstein continuum, and
+> Page dynamics remain **OPEN**. Do not close them by packaging. Inventory:
+> [`working_logs/_runs/qg_goalB_honesty_20260804/REPORT.md`](working_logs/_runs/qg_goalB_honesty_20260804/REPORT.md).
+---
+
+## Expansion attach (Theory of Expansion — not TOE)
+
+**PRTOE = Theory of Expansion**, not a Theory of Everything. This file is on the
+**shelf** (`docs/PRTOE_quantum_gravity.md`) under Goal A: expansion-relevant attach
+of induced / analog gravity for the cosmic medium — **not** full QG completion and
+**not** a claim that Page or TOE are closed.
+
+**Thin expansion-only slice:** [PRTOE_induced_gravity.md](PRTOE_induced_gravity.md)
+(Goal A attach only). This file is the full hub (ontology, dead ends, Page program, Q1–Q7).
+
+### What this file contributes to Expansion
+
+The expansion medium is the **dark condensate** (dCDF superfluid). This file states the
+standard analog / induced-gravity reading of that medium:
+
+- Spacetime geometry at long wavelength is the **collective hydrodynamics** of the same
+  condensate that sources the cosmic floor and two-era dark fluid — not a separately
+  quantized metric program.
+- **Induced / analog gravity** (acoustic metric + Sakharov one-loop stiffness + Jacobson
+  thermodynamic route) is therefore the natural gravity seat for the expansion medium.
+- Two **paid, disk-checkable** pieces an outsider can use without accepting full QG
+  ontology: (i) the area-law **coefficient ratio** \(S = A/4G\) as \(12\pi/48\pi\) for
+  minimal scalars; (ii) Pauli finiteness / `str[k₁]=0` positioning (public algebra in the
+  shipped supertrace-note).
+
+### What this file does **not** claim (non-negotiable)
+
+| Non-claim | Status |
+|---|---|
+| Dynamical **Page curve** (Hawking radiation entropy dynamics) | **OPEN** — scaffold only; coefficient ratio ≠ Page dynamics |
+| Full **TOE** / local bound-matter completion | Out of scope — ceded to SM + open quantum wing |
+| That **ε / CLASS likelihoods** succeed | Expansion tests live elsewhere; this file does not certify them |
+| Absolute SI **G** from the medium mass spectrum | Residual (ρ\*/portal/lattice) — named, not closed |
+| Nonlinear continuum Einstein / continuum limit | OPEN-THEORY residual |
+
+**Do not read the area-law quarter as a Page-curve close.** Q2 paid ≠ Q6 paid (claims ledger
+at end of file).
+
+### Expansion parents only (attach graph)
+
+Cross-link the expansion-facing parents — **not** the quantum-trio / measurement-problem wing:
+
+| Parent | Role for attach |
+|---|---|
+| [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md) | The condensate that *is* the expansion medium |
+| [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) | Vacuum-energy floor / DE scale from medium occupancy |
+| [PRTOE_LV_pricing.md](PRTOE_LV_pricing.md) | Preferred-frame / Weinberg–Witten escape priced for matter |
+| [PRTOE_stability.md](PRTOE_stability.md) | Ghost / gradient / \(c_T=1\) certificates for the running medium |
+
+Related exploratory (not required for Goal A attach): [PRTOE_entropy.md](exploratory/PRTOE_entropy.md)
+(roster extension of the quarter), [PRTOE_information_paradox.md](exploratory/PRTOE_information_paradox.md)
+(structural unitarity reading; Page *curve* still OPEN).
+
+Public algebra (not this hub): `docs/arXivReady/supertrace-note.pdf` (Zenodo-shipped;
+this hub stays **CORPUS_ONLY** as a full QG narrative; algebra is the public piece).
+
+### Outsider recompute (one command + optional finiteness)
+
+From repo root:
+
+```bash
+OMP_NUM_THREADS=1 nice -n 19 python3 scripts/quantum_area_law_quarter.py
+```
+
+**Expected:** exit 0; stdout reports ratio arithmetic **PASS** with \(12\pi/48\pi = 1/4\)
+exactly (and a numerical cancel demo at the same quarter). Artifact rewrite:
+`docs/working_logs/_runs/quantum_null_hardening_20260803/AREA_LAW_QUARTER.md`.
+
+Optional finiteness algebra (not the area-law script; does **not** close absolute SI \(G\)):
+
+```bash
+OMP_NUM_THREADS=1 nice -n 19 python3 scripts/supertrace_k1_verify.py
+```
+
+**Expected:** exit 0; controls S-A…S-I pass; SM+3ν_R str[k₁]=0; SM alone −1/2 (Visser units).
+Public note: `docs/arXivReady/supertrace-note.pdf`.
+
+Full recipe: `docs/working_logs/_runs/qg_goalA_20260803/OUTSIDER_RECOMPUTE.md`.  
+Honesty recompute stamp (2026-08-04): `docs/working_logs/_runs/qg_goalB_honesty_20260804/REPORT.md`.
+### Section map (expansion-relevant vs QG residuals)
+
+| §§ | Expansion attach? | Notes |
+|---|---|---|
+| §§1–3 | **yes (framework)** | Emergent metric from condensate; quantum by inheritance |
+| §4 table (CC, LV, area law) | **partial** | CC → cosmological_constant; LV → LV_pricing; area law → Q2 paid |
+| §4a | **yes (coefficient)** | Quarter as ratio; outsider script |
+| §5 (str[k₁], Pauli scheme) | **yes (finiteness)** | Supertrace-note public path; residual lattice/portal named |
+| §6 owns / does-not | **yes (honesty)** | Non-claims bound Goal A |
+| Claims ledger Q6–Q7, Page scaffolding | **no — Goal B residual OPEN** | Do not block Goal A attach; Page not closed |
+
+Promotion record:
+`docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md`.
+Desk attach status: `docs/working_logs/_runs/qg_goalA_20260803/ATTACH_STATEMENT.md` and
+`docs/working_logs/QG_PROMOTION_CHECKLIST_20260803.md`.
 
 ---
 
 ## 1. The claim, stated precisely
 
-In this model there is no "quantize gravity" problem, because there is no fundamental
-metric to quantize. Spacetime geometry is the long-wavelength collective description of
+**Goal A fence (always quote with the slogan):** the following is an *expansion-attach*
+ontology seating for the cosmic medium — **not** a TOE close, **not** a Page-curve close,
+and **not** Goal B completion. Residuals (Page dynamics, absolute SI G, continuum Einstein)
+remain **OPEN**.
+
+In this model there is no "quantize gravity" problem **under that Goal A fence**, because there
+is no fundamental metric to quantize as a separate program from the expansion medium.
+Spacetime geometry is the long-wavelength collective description of
 a cosmological superfluid condensate, and the condensate is a quantum system from the
 outset. Gravity is therefore quantum *by inheritance* — in the same sense that the
 hydrodynamics of superfluid helium requires no independent quantization once the
 underlying atoms are quantum. This is the standard analog-gravity position (Volovik;
 Barceló–Liberati–Visser), here assembled with the model's own field content and pushed
 to a quantitative endpoint: **a closed one-loop expression for Newton's constant, with
-one measured coupling standing between the framework and verdict.**
+one measured coupling standing between the framework and verdict** — still under Goal A
+attach only; Page curve **OPEN**.
 
 ## 2. Three routes to the emergent metric
 
@@ -58,7 +181,7 @@ timing and passed identically.
 | The cosmological constant | The vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *computed* as the occupancy-binding energy ρ_Λ^{1/4} = ½α_c²M₂ = 2.2599 meV against the measured 2.25 meV, +0.44% — **an existence claim; the composite quartic sits above its control edge, so the agreement is not claimed to that precision**. The chain's one order-one number, τ = T_c/m_e, is supplied by the Koide kernel at ½ln2, giving T_c = 177.10 keV; a lattice T_c/√σ for SU(2) with N_f = 3 is what confirms or kills it, and the same treatment is what would restore the precision claim ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)). M₂ = α²·T_c and α_c = 3α under test | derived; the portal √σ_dark = m_e is the one input |
 | Weinberg–Witten (no composite gravitons) | Evaded by the preferred frame: Lorentz invariance is emergent/infrared, which is the recognized escape from the theorem's premises. The corresponding Lorentz-violation obligations are priced in a dedicated audit: matter carries no vector/tensor bridge to the frame (the dangerous operators are unwritable, not merely suppressed), leaving local physics Lorentz-invariant to the 10⁻¹²–10⁻³⁸ level demanded by clock-comparison and astrophysical bounds | paid [LV-pricing audit] |
 | Singularity theorems | Discharged at the premises: the effective geometric description ends at the coherence length; independently, the medium's equation of state forbids the divergence (no physical quantity in this framework attains an infinite value — the bounce replaces the singularity) | framework property |
-| The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal. **The medium reproduces this independently**: counting horizon entanglement across its own coherence cells gives S ∝ N·A/ξ² while induced gravity gives 1/G ∝ N/ξ², so the species count and the cutoff cancel in the ratio — the universality is the medium's too. What the medium does not fix is the pure number: the Bekenstein quarter would need one specific bit-per-cell value ([PRTOE_entropy.md](PRTOE_entropy.md) §3) | **mechanism adopted; scaling and coefficient both now derived** — see §4a |
+| The area law S = A/4 (Jacobson's key input) | The species-cancellation mechanism of Frolov–Fursaev renders S = A/4 self-consistent within induced gravity — the same one-loop content that generates 1/G generates the horizon entropy, and the ratio is universal. **The medium reproduces this independently**: counting horizon entanglement across its own coherence cells gives S ∝ N·A/ξ² while induced gravity gives 1/G ∝ N/ξ², so the species count and the cutoff cancel in the ratio — the universality is the medium's too. What the medium does not fix is the pure number: the Bekenstein quarter would need one specific bit-per-cell value ([PRTOE_entropy.md](exploratory/PRTOE_entropy.md) §3) | **mechanism adopted; scaling and coefficient both now derived** — see §4a |
 
 ### 4a. The Bekenstein quarter is a ratio, and the medium fixes both of its halves
 
@@ -116,7 +239,7 @@ under the same ξ = 1/6 that the induced-Newton finiteness condition already req
 model's roster, the Weyl fermions and minimal scalars carry the quarter unconditionally and the
 gauge bosons carry it under that one commitment. **The quarter survives the full roster at candidate
 grade, and rejecting edge-mode entropy is what would break it**
-([PRTOE_entropy.md](PRTOE_entropy.md) §3).
+([PRTOE_entropy.md](exploratory/PRTOE_entropy.md) §3).
 
 | Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
 
@@ -255,6 +378,11 @@ an O(1) — a *derived requirement*, not an assumption, and computable from the
 condensate's own parameters. That computation is the framework's live match-or-die test,
 replacing the one that died. It carries no free scale to absorb a miss.
 
+> **Goal B residual — absolute SI \(G\) is OPEN.** §5 pays a *closed form under Pauli
+> finiteness* (str[k₁]=0) and names the mass-spectrum residual. It does **not** deliver a
+> numerical SI value of Newton’s constant. Supertrace PASS ≠ absolute \(G\) paid. See
+> residual register (Goal B) and [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)
+> (“The G-closure”).
 ## 6. What this framework does and does not claim
 
 **Owns**: a quantum substrate; an emergent metric with functioning horizons; a computed
@@ -262,9 +390,9 @@ vacuum-energy scale — ρ_Λ¼ = 2.2599 meV against the observed 2.25, **+0.44%
 sourced by the Koide kernel, M₂ = α²·T_c at the kernel's T_c = 177.10 keV, and α_c = 3α under
 test — **owned as an existence claim and not to that precision**, the composite quartic sitting
 past perturbative control ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md));
-singularity-free interiors; a closed one-loop expression for Newton's constant; and a
+singularity-free interiors; a closed one-loop *form* for Newton’s constant under Pauli
+finiteness (str[k₁]=0) with **absolute SI value OPEN** (§5.6); and a
 single-measurement falsification condition (§5.3).
-
 **Does not claim**: a resolution of the quantum measurement problem (standard quantum
 mechanics is inherited exactly; any confirmed deviation from standard quantum
 statistics falsifies the framework); modifications to entanglement (the Tsirelson bound
@@ -355,15 +483,43 @@ acknowledging Visser 2018 and Navarro-Salas 2024, it is the paper's entire thesi
 | # | Claim | Grade | Code / artifact | Residual / kill |
 |---|---|---|---|---|
 | Q1 | Emergent metric from condensate (acoustic + Sakharov + Jacobson assembly) | **framework / derived-conditional** | this file §§2–5 | Rides medium reality (M3) |
-| Q2 | Area-law coefficient $S=A/4G$ as heat-kernel ratio $12\pi/48\pi$ | **paid** (minimal scalars) | `scripts/quantum_area_law_quarter.py` PASS | Roster extension candidate-grade (entropy.md §3) |
+| Q2 | Area-law coefficient $S=A/4G$ as heat-kernel ratio $12\pi/48\pi$ | **paid** (minimal scalars) | `scripts/quantum_area_law_quarter.py` PASS | Roster extension candidate-grade ([PRTOE_entropy.md](exploratory/PRTOE_entropy.md) §3) |
 | Q3 | Species + cutoff cancel in the ratio | **paid** | same | — |
 | Q4 | Visible str[k₁]=0 with SM+3 ν_R; dark balance → P-2026-048 | **derived + candidate dark** | supertrace-note SHIPPED | Lattice $T_c/\sqrt{\sigma}$ kills portal chain |
 | Q5 | “O(1)=1.0000” is p=2 ramp point, not medium selection | **honest constraint** | §4a | Do not quote as prediction |
-| Q6 | Dynamical Page curve (phonon Hawking / finite core) | **OPEN** | `scripts/quantum_page_curve_scaffold.py` (design only) | Forbidden to fake from Q2 alone |
+| Q6 | Dynamical Page curve (phonon Hawking / finite core) | **OPEN** — no standing CANDIDATE; **`page_curve_claimed: false`** | Instrument near-miss: `page_curve/coevolve_v13.json` (T1–T6+stall+DC3+T2 PASS; **T8 early bin 0.113** need ≤0.10); protocol T1–T8 ACTIVE/BINDING; D1–D3 deeper construction exhausted without joint clear (`open_board_split_20260803/B_A_D*_ATTEMPT.md`) | Q6 not claimed; no red packet; thrash stop (D4); needs new microphysics not header knobs |
 | Q7 | Tsirelson / no superquantum gravity-side mods | **null** | with quantum wing | CHSH > 2√2 kills |
 
 **Program to finish Q6 (hard work, not prose):** see  
-`docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`  
-and `docs/working_logs/_runs/debt_page_curve_20260803/REPORT.md`.
+`docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`,  
+`docs/working_logs/_runs/debt_page_curve_20260803/REPORT.md`,  
+and coevolve champion report `docs/working_logs/_runs/open_board_split_20260803/B_A_COEVOLVE_V13_BEST.md`  
+(D4 accept instrument near-miss until licensed new dump/coupling law).
 
-**arXiv policy:** full QG hub stays **CORPUS_ONLY**. Independent algebra already public as **supertrace-note**.
+**arXiv policy:** full QG hub stays **CORPUS_ONLY**. Independent algebra already public as **supertrace-note**.  
+Area-law thin note and induced unique extract: **KILLED** (QG-D3 / IG-D3, red 2026-08-03 — salami / no unique math).  
+Worklist (closed): [`docs/working_logs/_runs/quantum_arxiv_worklist_20260803/`](working_logs/_runs/quantum_arxiv_worklist_20260803/).  
+Quantum trio is **not** required for Goal A attach and does not inherit paper status from this hub.  
+**Quantum-four boundary:** this file is **out of** the foundations package; do not pad hub → READY or claim independent QM from QG prose.
+
+**Elevation rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md` (discipline; physics OPEN rows stand).
+
+---
+
+## Research residual register (QG Goal B; not paper path)
+
+**Goal B honesty fence (2026-08-04):** Goal A attach is **paid as desk/process**; Goal B is
+**not** complete. Do **not** promote any residual below by packaging. `page_curve_claimed`
+stays **false**. Q2 paid ≠ Q6 paid. PRTOE = Theory of Expansion, not TOE.
+
+| Residual | Grade | Evidence path | What remains | **Forbidden to claim** |
+|---|---|---|---|---|
+| Dynamical **Page curve** \(S_{\mathrm{rad}}(v)\) vs Page time | **OPEN** (Q6) | claims ledger Q6; coevolve_v13 near-miss (T8 early 0.113); `page_curve_claimed: false`; D1–D3 exhausted | new microphysics (not densify thrash) | curve closed; Q2/coefficient = Page; CANDIDATE without T1–T8+DC3+red |
+| Absolute SI **G** (value of Newton’s constant) | **OPEN** | §5.4–5.6 Pauli formula; failures ledger “The G-closure”; supertrace pays *finiteness*, not value | ρ*/portal/lattice mass-scale half match-or-die | absolute SI \(G\) derived; Sakharov quadratic closure revived; supertrace script “pays \(G\)” |
+| Nonlinear continuum Einstein / continuum limit | **OPEN-THEORY** | §4 “nonlinear exactness” priced only as \(R^2/M^2\) corrections; Jacobson route is EOS reading | continuum programme (order→metric / full nonlinear) | full nonlinear Einstein solved; analog hydro = exact GR continuum |
+| Area-law / induced thin notes as new arXiv TeX | **KILLED** | red QG-D3 / IG-D3 | — | salami extract as unique QG paper |
+| Supertrace algebra | **SHIPPED** (finiteness only) | `supertrace-note.pdf`; `scripts/supertrace_k1_verify.py` | optional endorsement | finiteness = absolute \(G\); dark P-2026-048 as paid lattice |
+
+**Does not block Goal A attach.** Blocks only full QG / Goal B glory.
+
+*Full hub = CORPUS_ONLY. Expansion attach only; not TOE.*

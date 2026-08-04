@@ -1,0 +1,40 @@
+==============================================================================
+The tilt mechanism: arithmetic, signature, licensing, referee
+==============================================================================
+
+1. Arithmetic from recorded constants (nothing tuned):
+   T₀ as a wavenumber: 3.673e+25 /Mpc;  ln(T₀/k*) = 61.861
+   n_s = 1 − 2/ln = 0.9677   (measured 0.9649 ± 0.0042: +0.66σ)
+
+2. The signature (algebraically forced, zero parameters):
+   α_s = −2/ln² = -5.226e-04
+   −(1−n_s)²/2 = -5.226e-04   (identical: the consistency relation)
+   measured running: -0.0045 ± 0.0067 — consistent at +0.59σ, but the width is ~13×
+   the prediction: today's data cannot test the signature.
+   Referee precision: σ(α_s) ≲ 5×10⁻⁴ distinguishes the relation
+   from generic slow-roll families (whose running at this n_s is
+   model-dependent at the same order) — beyond current surveys;
+   the relation is the mechanism's registered falsifier-in-waiting.
+
+3. Route elimination (data's own work; v1's running-coupling
+   reading is KILLED by sign — corrected in place):
+   amplitude ∝ 1/ln  →  tilt +2/L (blue)      — killed by sign
+   incoherent (√L)   →  n_s = 0.9838 (+4.5σ) — excluded by data
+   COHERENT (∝ ln)   →  n_s = 0.9677 — the sole survivor; the
+   derivation target: one equal in-phase increment per decade of
+   substructure between the mode and the anchor.
+
+4. Internal consistency: the envelope normalization at the pivot is
+   inside the amplitude's normalization identification (C = 1), so
+   the −0.92% amplitude landing and the tilt do not perturb each
+   other — one is a value, the other a derivative.
+
+5. The two recorded forms: pipeline-frozen 0.9641 (-0.19σ) vs k-local 0.9677 (+0.66σ);
+   the spread (+0.0036) is the k-local correction,
+   recorded as consistency-check grade.
+
+VERDICT: mechanism stays CANDIDATE (exhibited, not forced). On the
+   record now: the exact zero-parameter signature α_s = −(1−n_s)²/2,
+   the referee precision that would test it, the unique surviving
+   coherent-accumulation route, and the amplitude-tilt split.
+==============================================================================

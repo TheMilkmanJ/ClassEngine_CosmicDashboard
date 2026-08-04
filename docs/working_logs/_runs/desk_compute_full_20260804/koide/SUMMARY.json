@@ -1,0 +1,480 @@
+{
+  "stamp": "2026-08-04T09:49:30.205353+00:00",
+  "packs": [
+    "koide"
+  ],
+  "timeout_s": 240,
+  "n_jobs": 31,
+  "n_exit0": 29,
+  "n_nonzero": 1,
+  "n_timeout": 1,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "koide_3body_test",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_3body_test.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:42:59.345375+00:00",
+      "exit": 0,
+      "elapsed_s": 1.538,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_3body_test.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_KV_identification",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_KV_identification.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:00.886817+00:00",
+      "exit": 0,
+      "elapsed_s": 1.466,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_KV_identification.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_delivery_law_discriminator",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_delivery_law_discriminator.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:02.396944+00:00",
+      "exit": 0,
+      "elapsed_s": 0.495,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_delivery_law_discriminator.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_democratic_graph_null",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_democratic_graph_null.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:02.894922+00:00",
+      "exit": 0,
+      "elapsed_s": 0.959,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_democratic_graph_null.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_equal_quanta_from_adiabaticity",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_equal_quanta_from_adiabaticity.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:03.860930+00:00",
+      "exit": 0,
+      "elapsed_s": 10.944,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_equal_quanta_from_adiabaticity.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_frame_bridge",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_frame_bridge.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:14.807316+00:00",
+      "exit": 0,
+      "elapsed_s": 0.125,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_frame_bridge.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_freeze_time_sensitivity",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_freeze_time_sensitivity.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:14.948045+00:00",
+      "exit": 0,
+      "elapsed_s": 0.286,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_freeze_time_sensitivity.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_lock_algebra_verification",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_lock_algebra_verification.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:15.263009+00:00",
+      "exit": 0,
+      "elapsed_s": 0.404,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_lock_algebra_verification.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_lock_pressure_test",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_lock_pressure_test.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:15.669008+00:00",
+      "exit": 0,
+      "elapsed_s": 1.274,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_lock_pressure_test.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_node_vs_backdrop",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_node_vs_backdrop.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:16.950525+00:00",
+      "exit": 0,
+      "elapsed_s": 0.189,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_node_vs_backdrop.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_null_occupancy_lock",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_null_occupancy_lock.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:17.143730+00:00",
+      "exit": 0,
+      "elapsed_s": 0.678,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_null_occupancy_lock.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_null_stiffness_reduction",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_null_stiffness_reduction.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:17.823542+00:00",
+      "exit": 0,
+      "elapsed_s": 0.497,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_null_stiffness_reduction.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_null_sum_rule_check",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_null_sum_rule_check.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:18.323162+00:00",
+      "exit": 0,
+      "elapsed_s": 0.596,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_null_sum_rule_check.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_phase_is_a_flat_direction",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_phase_is_a_flat_direction.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:18.921219+00:00",
+      "exit": 0,
+      "elapsed_s": 0.082,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_phase_is_a_flat_direction.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_pour_before_split",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_pour_before_split.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:19.006192+00:00",
+      "exit": 0,
+      "elapsed_s": 0.089,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_pour_before_split.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_quantum_law_null",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_quantum_law_null.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:19.097971+00:00",
+      "exit": 0,
+      "elapsed_s": 0.135,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_quantum_law_null.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_ring_ab_from_binding",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_ab_from_binding.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:19.245623+00:00",
+      "exit": 0,
+      "elapsed_s": 1.086,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_ab_from_binding.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_ring_color_rigidity",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_color_rigidity.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:20.335070+00:00",
+      "exit": 0,
+      "elapsed_s": 0.616,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_color_rigidity.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_ring_face_mass",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_face_mass.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:20.958621+00:00",
+      "exit": 0,
+      "elapsed_s": 0.113,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_face_mass.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_ring_junction_core",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_junction_core.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:21.073953+00:00",
+      "exit": 0,
+      "elapsed_s": 2.482,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_junction_core.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_ring_quartic",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_quartic.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:23.557207+00:00",
+      "exit": 0,
+      "elapsed_s": 28.945,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_quartic.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_ring_shape_modes",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_shape_modes.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:52.504502+00:00",
+      "exit": 0,
+      "elapsed_s": 5.252,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_shape_modes.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_ring_shape_qm",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_shape_qm.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:43:57.757738+00:00",
+      "exit": -9,
+      "elapsed_s": 265.219,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_shape_qm.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "timeout"
+    },
+    {
+      "label": "koide_ring_zero_point",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_ring_zero_point.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:48:22.980832+00:00",
+      "exit": 0,
+      "elapsed_s": 54.788,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_ring_zero_point.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_scheme_dependence",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_scheme_dependence.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:49:17.771822+00:00",
+      "exit": 0,
+      "elapsed_s": 0.209,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_scheme_dependence.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_triple_point_node",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_triple_point_node.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:49:17.985286+00:00",
+      "exit": 0,
+      "elapsed_s": 10.684,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_triple_point_node.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_watch_triangle",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_watch_triangle.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:49:28.672729+00:00",
+      "exit": 0,
+      "elapsed_s": 0.128,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_watch_triangle.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "koide_wilson_holonomy_inventory",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/koide_wilson_holonomy_inventory.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:49:28.806245+00:00",
+      "exit": 2,
+      "elapsed_s": 0.424,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/koide_wilson_holonomy_inventory.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "nonzero"
+    },
+    {
+      "label": "delivery_law_is_one_exponent",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/delivery_law_is_one_exponent.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:49:29.260587+00:00",
+      "exit": 0,
+      "elapsed_s": 0.256,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/delivery_law_is_one_exponent.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "delivery_law_third_class",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/delivery_law_third_class.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:49:29.521150+00:00",
+      "exit": 0,
+      "elapsed_s": 0.194,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/delivery_law_third_class.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "delivery_law_two_parameters",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/delivery_law_two_parameters.py"
+      ],
+      "timeout_s": 240,
+      "started": "2026-08-04T09:49:29.720069+00:00",
+      "exit": 0,
+      "elapsed_s": 0.482,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/koide/logs/delivery_law_two_parameters.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

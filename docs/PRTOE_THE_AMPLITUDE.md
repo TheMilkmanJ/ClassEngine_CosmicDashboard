@@ -66,7 +66,7 @@ Gate fenced by forest flatness, SN host-density range, P-2026-022 fade profile, 
 as the Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange over the full sphere,
 with the screening constant 2α_c/π coming out of e²·(2N₀)/4k_F² — the factor 2 a *two-band*
 polarisation, which needs the two bands velocity-matched and not merely compensated
-([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). The host question is
+([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6c, §6e). The host question is
 settled onto standard ground: the screening constant is doping-independent — it holds at any
 nonzero band filling with the bath colder than the filling — and a ground-state kernel is the
 gap equation's own standard construction (hierarchy §6n), with the once-owed number — the
@@ -122,3 +122,22 @@ forbids. The census-legal coupling is a universal conformal rescaling, which is 
 ## 6. Implementation pointer
 
 CLASS: `dcdf_dyad_link` derives `varying_me = 1 + c·f_amp·Ψ₀/M_red` (defaults → 1.2543%); density gate optional. Production fixed-ε configs use both. Details: [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ε ≈ 1.24% is the one added number (windows at fixed weights) | **complete-conditional** | §1–2 | Grade = weakest parent |
+| 2 | f̄ = 2/π derived | **derived** | winding ⟨\|cos\|⟩; sim check | — |
+| 3 | c = 9/10 counting assumption | **OPEN** / assumption | §1 | 8/9, 12/13 not excluded at width |
+| 4 | α_c = 3α registered bet | **OPEN-BLOCKED** | P-2026-040 | **OPEN-MACHINE:** zon_disp not running |
+| 5 | H₀=69.9 / windows table | **machine-backed** provisional | §2 | Nested offline; BBN adverse |
+| 6 | A_s closed form (α_c/4πk)³ | **derived-conditional** | §3 gate math | Ontology/host riders |
+| 7 | SN candle sign opposite to tension | **machine-backed** | 162 templates | H₀-lever branch closed |
+| 8 | What page does not claim (§5) | **honest fence** | §5 | — |
+
+**Non-claims:** not zero free parameters until stack holds; not BBN win; not final H₀.
+
+**Triage:** elevate-in-place. Physics ceiling: f̄ derived; stack **OPEN-BLOCKED** (α_c/c).

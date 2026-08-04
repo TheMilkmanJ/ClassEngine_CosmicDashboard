@@ -94,3 +94,16 @@ stop being boring.
 bench a to-do list. A vacuum that is a condensate can be interrogated by its laboratory
 siblings — and the questions are already registered, with kills, upstairs in this repo.*
 
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Domain seating of medium language in this subdomain | **interpretation** | this file | exploratory-ok map assembly only; pure seating; no independent killable number |
+| 2 | Any quantitative forecast unique to this subdomain | **OPEN-BLOCKED** | — | No registered prediction or script path yet |
+
+**Non-claims:** not a standalone derivation; not sky booking.
+**Triage:** exploratory-ok map assembly only (not Failures).
+**Banner:** discipline above story; physics ceiling interpretation / OPEN-BLOCKED.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

@@ -1,0 +1,32 @@
+============================================================================
+PROVENANCE TABLE
+============================================================================
+  Γ_φ              5.39e+09 eV     type=COMPUTED  (G_F² T_sph⁵)
+  θ̇               59.68 eV     type=COMPUTED  (winding @ T_sph)
+  Γ_φ/θ̇           9.032e+07       type=COMPUTED
+  R needed         5e-05       type=COMPUTED  (η band)
+  ω_J              5.672 keV    type=BACK-SOLVED
+  j = ω_J²/Γ_φ     5.97 meV    type=BACK-SOLVED
+  Γ_φ/θ̇ ~10⁷      1e+07       type=SHORTHAND (stale)
+
+============================================================================
+QUARTET AT COMPUTED RATIO — MUST CLOSE
+============================================================================
+  R = ω_J²/(2 Γ_φ θ̇) = 5e-05   vs needed 5e-05   ratio R/R_need = 1.0000
+  j/(2 θ̇)             = 5e-05   (same R, j form)
+  VERDICT: CONSISTENT to <2% — no internal ×9 discrepancy.
+
+============================================================================
+ARTIFACT PATH: hold SHORTHAND ratio 1e7 fixed (do not use for physics)
+============================================================================
+  fake-consistent ω_J = 1.887 keV  (×3.01 under true back-solve)
+  This is NOT a target. It is the ×9 artifact Claude retired 2026-08-03.
+
+============================================================================
+PRE-REGISTERED GRADING BAND (before any forward derivation)
+============================================================================
+  ACCEPT junction magnitude:  ω_J ∈ [3.0, 12.0] keV
+  ANOMALOUS-REVIEW:           ω_J ∈ (0.057, 3.0) ∪ (12, 30] keV
+  KILL junction route:        ω_J < 0.057 keV  (×100 under ~5.7)
+  Real debt unchanged:        forward ω_J from seat χ + pinning curvature (#39)
+EXIT 0

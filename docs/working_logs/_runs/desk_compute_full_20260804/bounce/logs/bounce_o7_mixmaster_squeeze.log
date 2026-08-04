@@ -1,0 +1,37 @@
+==============================================================================
+O7 refined: the chaos window under the DIRECTIONAL door criterion
+==============================================================================
+   mean-door clock: ΔΩ = 18.9 volume-logs (6.3 mean e-folds); directional door = first axis to drop 6.3
+
+   launch θ₀   first directional crossing      squeezes   window cut
+               ΔΩ (vol-logs)   mean e-folds     before      (mean-clock
+                               elapsed          door        fraction)
+       7°        5.61           1.87               1         0.30
+      23°        5.19           1.73               1         0.27
+      41°        4.90           1.63               1         0.26
+      59°        4.73           1.58               0         0.25
+      77°        4.87           1.62               1         0.26
+      95°        5.15           1.72               1         0.27
+     113°        5.61           1.87               1         0.30
+     131°        5.49           1.83               1         0.29
+
+   across launches: first crossing at 0.25–0.30 of the
+   mean-clock window; squeezes before the door: 0–1
+
+READ
+  1. The door opens DIRECTION-FIRST, well before the mean clock: the
+     chaotic spread itself drives the fastest-contracting axis to the
+     coherence length at a fraction of the isotropic window. The
+     '~10⁷ healing times of chaos' figure was a mean-clock artifact.
+  2. The surviving chaos exposure is a COUNTABLE handful of
+     anisotropic squeezes — single digits, not a cascade.
+  3. Each squeeze is locally a quasi-one-dimensional compression
+     transverse to the surviving axes — and the medium's computed
+     answer to one-dimensional compression is the verified 1D rebound
+     (M6). The two results interlock: the chaos window delivers the
+     medium a few 1D-class squeezes, the first of which IS the door.
+  4. NOT claimed: a survival proof. The sequence handoff (squeeze →
+     door → interval) remains the open assembly; what changed is the
+     size of what must be survived — from ~10⁷ healing times of
+     cascade to a few countable squeezes ending at the door.
+==============================================================================

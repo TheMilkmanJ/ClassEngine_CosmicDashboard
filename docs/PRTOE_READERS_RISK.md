@@ -1,9 +1,13 @@
 # PRTOE — Reader’s risk summary
 
-**Status (2026-08-02):** evidence class is still **Laplace-marginal, not nested-sampling confirmed**.
-The production MCMC pair is live and *converging but not yet quotable*; PolyChord nested evidence
-is offline (waits for cluster time). No headline posterior is bankable yet. Full chain table:
-[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
+**Status (2026-08-04 currency):** evidence class is still **Laplace-marginal, not nested-sampling confirmed**.
+The production bbnfix MCMC pair is **live and NOT bookable** (lcdm R−1 **0.086466** N=20409
+t=2026-08-04T05:21:52 — was 0.059@N=19013, **receding** **1.73×** stop; dyad R−1 **0.128943**
+@N=20302 ~2.58×; both `converged: false`; `book_bbnfix_when_ready.py` → **REFUSED**). Offline
+GetDist GR is diagnostic only — **not** booking authority. **Do not peek-book H₀.** PolyChord
+nested evidence is offline (waits for cluster time). No headline posterior is bankable yet. Full
+chain table: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Currency package:
+[`working_logs/_runs/machine_r1_currency_20260804c/`](working_logs/_runs/machine_r1_currency_20260804c/).
 
 > *One page for an outside physicist. Falsify-first: nothing below is oversold. House terms decode
 > in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality in
@@ -157,12 +161,17 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   that put the model ~41 log units *behind* was already stale then (it predated the model's best
   falling from 1421.6).
 
-  **As of 2026-08-02 (§4):** a later matched relaunch **merged the basins** (every sampled parameter
-  agrees across the three ranks to within ~0.6 within-chain s.d.) and is *converging but not yet
-  quotable* (R−1 ≈ **0.14–0.19**, ESS-limited; stop target 0.05 still ahead). No best-fit comparison
-  from this pair is bankable. The standing evidence number remains the marginal, SH0ES-conditional
+  **As of 2026-08-04 (§4):** a later matched relaunch **merged the basins** (every sampled parameter
+  agrees across the three ranks to within ~0.6 within-chain s.d.) and remains *converging but not
+  bookable*. Progress stamp: lcdm twin R−1 **0.086466** (N=20409, t=2026-08-04T05:21:52; was
+  **0.059055**@N=19013 — **receding**, now **1.73×** stop), dyad R−1 **0.128943** (N=20302;
+  ~2.58×); both checkpoints `converged: false`; booking script **REFUSED**. Stop target 0.05 still
+  ahead on both legs (lcdm once briefly dipped below 0.05 without self-stop — **not** bookable;
+  trajectory after the dip has moved away three times). **No peek H₀.** No best-fit comparison from
+  this pair is bankable. The standing evidence number remains the marginal, SH0ES-conditional
   **Laplace** estimate +2.635 — the wrong kind of number to lead with. Nested sampling is still
-  offline. Verified: `scripts/live_evidence_honest_read.py`.
+  offline. Authority: `scripts/book_bbnfix_when_ready.py`; table freeze
+  [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 - **(d) The electron-coupled scalar's thermalisation problem — adjudicated (2026-07-18): the
   recorded configuration is BBN-fatal; one repair branch survives, at a named price.** The
   non-thermalisation escape was built and adversarially tried: **as recorded** (the electron-CW
@@ -312,26 +321,31 @@ closed-form search space was, counted from the failures ledger's own records) an
 [PRTOE_INDEPENDENCE_AUDIT.md](PRTOE_INDEPENDENCE_AUDIT.md) (which multi-way agreements are
 genuinely independent and which collapse).
 
-**That distance is measured.** No chain in this corpus has ever reached its own stopping target
-(R−1 = 0.05 for the production pair; 0.1 for Route-D). Status as of 2026-08-02
-([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md)):
+**That distance is measured.** No chain in this corpus has ever booked at its own stopping target
+(R−1 = 0.05 **and** `converged: true` for the production bbnfix pair; R−1 = 0.1 for Route-D).
+Status as of **2026-08-04** ([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md); booking gate
+**REFUSED**):
 
-| chain | last recorded R−1 | live? | note |
-|---|---|---|---|
-| `dyad_mnu_bbnfix` (model, 3 ranks) | **0.19**, falling | **yes** | ~3.8× stop (0.05); closest to gate among the model stack |
-| `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin, 3 ranks) | **0.14**, falling | **yes** | ~2.8× stop (0.05) |
-| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **~129** | **yes** | early; stop 0.1; far from gate |
-| `cmp_prtoe_conv_desi` | 13.25 | **no** | unproduced; last write 2026-07-22 |
-| `cmp_prtoe_zon_disp` | 17.81 | **no** | collapsed; seed ready, owner restart |
-| `cmp_prtoe_zon` | 40.36 | **no** | stopped since 07-12 |
-| `dyad_mnu_mcmc` | *none recorded* | **no** | diagnostic archive only |
-| PolyChord nested evidence (`cmp_prtoe_fixed` et al.) | — | **no** | ended 2026-07-20; waits for cluster time |
+| chain | last recorded R−1 | N (progress) | `converged` | live? | note |
+|---|---|---:|---|---|---|
+| `dyad_mnu_bbnfix` (model, 3 ranks) | **0.128943** | 20302 | **false** | **yes** | ~2.58× stop (0.05); was 0.189 earlier — still **NOT bookable** |
+| `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin, 3 ranks) | **0.086466** | 20409 | **false** | **yes** | **1.73×** stop; was 0.059@N=19013 — **receding** (not “~1.18× closest”); briefly &lt;0.05 without self-stop — still **NOT bookable** |
+| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **~102.79** | 1609 | **false** | **yes** | early; stop 0.1; far from gate |
+| `cmp_prtoe_conv_desi` | 13.25 | — | — | **no** | unproduced; last write 2026-07-22 |
+| `cmp_prtoe_zon_disp` | 17.81 | — | — | **no** | collapsed; seed ready, owner restart |
+| `cmp_prtoe_zon` | 40.36 | — | — | **no** | stopped since 07-12 |
+| `dyad_mnu_mcmc` | *none recorded* | — | — | **no** | diagnostic archive only |
+| PolyChord nested evidence (`cmp_prtoe_fixed` et al.) | — | — | — | **no** | ended 2026-07-20; waits for cluster time |
+
+**Booking gate (bbnfix only):** both legs R−1 &lt; 0.05 **and** checkpoint `converged: true`, then
+only `python3 scripts/book_bbnfix_when_ready.py`. Offline GetDist max GR (~0.086 dyad / ~0.07 lcdm)
+and crude param R−1 are **UNBOOKABLE** diagnostics. **No peek H₀** from live chains.
 
 Two consequences a reader should carry. **First**, the parameter tables in
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) that are formatted as posterior summaries are not
 posteriors for any unconverged run; their 68% limits are lower bounds on the true width, because a
 wandering chain has not visited the tails that would earn them. **No GetDist table exists yet for
-the three live runs** — they join only at stop.
+the three live runs** — they join only at stop via the booking script.
 
 **Second**, intermediate best-fit gaps are not verdicts. In July the model briefly sat ~41 log units
 *behind* ΛCDM+mν on an identical stack, then the leading rank descended to roughly even (−logpost
@@ -340,10 +354,11 @@ the three live runs** — they join only at stop.
 **The basin problem has since resolved.** Both production chains were relaunched with three ranks
 each and matched settings; burn-in cleared; every sampled parameter now agrees across ranks to
 within 0.6 within-chain standard deviations — one basin, genuinely mixing. What remains is
-statistics, not pathology: effective sample counts are still low (R−1 ≈ 0.14–0.19), and the 0.05
-stop needs roughly a few times more. Honest present state: *converging but not yet quotable*.
-Anyone quoting an evidence number from this pair before R−1 hits target is quoting noise, either
-way.
+statistics, not pathology: progress R−1 is still above stop on both legs (lcdm **0.086466** —
+was 0.059, now **1.73×** stop and **receding**; dyad **0.128943** ~2.58×), and neither
+checkpoint has self-stopped. Honest present state: *converging but
+**not bookable*** — leave the MCMCs alone until the gate fires. Anyone quoting H₀ or an evidence
+number from this pair before both legs self-stop at R−1 &lt; 0.05 is quoting noise, either way.
 
 ## 5. What would kill it (pre-registered)
 1. DESI DR3 confirms w ≠ −1.
@@ -361,3 +376,22 @@ is SH0ES-conditional and rests on a marginal Laplace estimate with no nested con
 prospect, whose headline dark-energy number is a sourced structural relation that lands on the
 observed scale without claiming the precision it lands to, and whose fate rides on chains that have
 yet to converge, a lattice number no one has computed at the precision required, and DESI.*
+
+---
+
+## Claims ledger & discipline (2026-08-04 currency) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Evidence class Laplace-marginal; not nested-confirmed | **honest constraint** | banner; §3c | **OPEN-MACHINE:** nested offline; bbnfix not at gate |
+| 2 | ε stack grade = weakest parent (f̄/c/α_c) | **complete-conditional** | §2 | α_c instrument offline |
+| 3 | H₀ 69.9–71.3; half gap; residual owned | **machine-backed** provisional | §2 | SH0ES-conditional; **not** from live bbnfix tables |
+| 4 | ρ_Λ existence not precision (+0.44% in τ-space) | **complete-conditional** | §3a | Lattice + quartic past control |
+| 5 | Production bbnfix pair one basin; lcdm R−1 **0.086466**@N=20409 (**receding** from 0.059, 1.73× stop) / dyad **0.128943**@N=20302; both `converged:false`; **NOT bookable** | **machine-backed** status | §4; CHAIN_TABLES freeze; book script REFUSED | Statistics, not pathology; **no peek H₀**; not “nearly there” |
+| 6 | Kill list §5 pre-registered | **registered** | §5 | DESI, ladder, α_c, DD, ν, BBN |
+| 7 | Page is audience risk summary | **meta** | whole file | Not a derivation |
+| 8 | BBN ε 2σ ceiling **ARITHMETIC VERIFIED (internal)** (3.196%≈3.20%); **EXTERNAL WIN PENDING (no DOI)** — not a chain booking | **internal arithmetic** | hard-wins table | Does **not** close bbnfix; not a public external win until DOI |
+
+**Non-claims:** not a bankable posterior; not nested evidence win; **not** bbnfix bookable; **not** H₀ from live chains; **not** Page closed.
+
+**Triage:** elevate-in-place. Physics ceiling: honest risk map; evidence **OPEN-BLOCKED** (bbnfix gate).

@@ -1,0 +1,63 @@
+========================================================================
+A4 — α_c same-response identity
+========================================================================
+
+(1) GEOMETRIC FACTOR — DERIVED
+  d = 3 (spatial dimension)
+  α_c = d · α = 2.189206e-02  (= 3α)
+  Sources: Landau c₂ = c₁/√d with c₁ = √α_c · c ⇒ α_c = d·α
+           when the middle rung is identified with √α·c.
+  The 3 is geometry.  It is not a free integer or flavour count.
+
+(2) TWO-CHANNEL POLARIZATION — SYMMETRY TABLE (no constituents needed)
+  Gauge invariance + Lorentz vacuum  →  one form factor: Π_T ≡ Π_L
+    ⇒ unit-coefficient identity is AUTOMATIC and EMPTY (tautology).
+  Medium rest frame u^μ              →  two form factors Π_T, Π_L
+    Normal Fermi surface: Π_L finite (Debye), Π_T(0)→0 — not related by O(1).
+    Condensate: both finite; unit coeff ⇔ n_s/m = ∂n/∂μ (Galilean/rel. tie).
+  Standing basement (Volovik μ=0 at IR where α_EM is read): single form
+    factor → identity empty.  Doped-pair configuration (hierarchy §6c):
+    Π_T − Π_L sourced by ONE pair's share of ΣQ² over the roster.
+
+  doped pair      Q²(pair)    |ΔΠ|/Π (share)
+  ν_L or ν_R        0.0000             0.00%
+  d_L or d_R        0.2222             1.39%
+  u_L or u_R        0.8889             5.56%
+  e_L or e_R        2.0000            12.50%
+  Bound: unit-coefficient identification holds up to [0, 12.5%], exact
+  if the doped pair is electromagnetically neutral.  Owed object is
+  *which* pair is doped — a constituent choice, not a free O(1) fit.
+
+(3) A_s REFEREE (consistency on the IR value, not a derivation)
+  A_s closed (α_c / 4πK)³ = 2.080667e-09
+  A_s measured            = 2.100000e-09
+  fractional offset       = -0.92%
+  A_s selects the IR reading of α_c = 3α(0) over UV/running alternatives;
+  it does not prove same-response.  Posterior scalar ≠ identity of two Π's.
+
+(4) ROSTER / BASE-α CONDITION (piece 2 — still open, not this identity)
+  'Base = α_EM' was conditioned on a ~44% induced fraction that belongs to
+  hypercharge@M_Z.  Electromagnetic q→0 induced share is ~23.5%.  That is
+  a separate debt from piece 1; it does not reopen the geometric 3.
+
+========================================================================
+VERDICT — PERMANENT BET P-2026-040 (A_s referee only for the value)
+========================================================================
+
+  Factor 3 = d:          DERIVED (geometry / second sound).
+  Same-response base α:  NOT DERIVED.  Either tautology (μ=0 IR) or doped-pair
+                         O(≤12.5%) correction — not a missing polarization calc
+                         that upgrades α_c = 3α to a theorem.
+  Standing grade:        PERMANENT BET  P-2026-040
+  Primary referee:       A_s (IR); secondary: any future *converged* α_c chain
+  Do not:                claim 'same-response derived' in audience text
+  Do not:                reopen as open derivation without new microphysics
+                         outside the symmetry table above
+
+SUMMARY
+  grade=PERMANENT_BET_P-2026-040
+  d_factor=DERIVED
+  same_response_identity=NOT_DERIVED
+  base_alpha=BET
+  As_frac_err=-0.009206
+  doped_pair_bound_pct=[0, 12.5]

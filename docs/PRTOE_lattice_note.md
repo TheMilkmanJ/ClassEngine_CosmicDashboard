@@ -1,5 +1,12 @@
 # A well-posed gap in the two-color lattice literature: T_c/√σ for SU(2) with N_f = 3 light fundamental flavours
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** **registered external bet** (P-2026-048); literature gap **interpretation** — not a lattice result.
+> **Not claimed:** computed T_c/√σ; DE digit precision; ordinary 1–3% lattice as a score either way.
+> **Authority:** claims ledger this file; arXivReady `lattice-tc-gap`; [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
+> **Currency:** **WATCH-EXTERNAL** lattice computation; discrimination needs σ ≲ 0.22%.
+
 *Approved for circulation (owner, 2026-07-18).*
 
 **Audience grade.** This note states a **pre-registered bet** (P-2026-048) on an external lattice measurement — not a result. Discrimination needs σ ≲ 0.22%; ordinary 1–3% determinations score neither way. The program’s T_c = 177.10 keV (τ = ½ln2) is the **derived** lepton-side anchor behind 0.34657; 0.34506 is the null that would show cosmology read back. ρ_Λ chain is an **existence claim, not precision**.
@@ -113,3 +120,20 @@ quoted above) · Astrakhantsev, Bornyakov, Braguta, Ilgenfritz, Kotov, Nikolaev,
 the SU(2) QCD by lattice field theory methods*, arXiv:2511.19789 (source of T_d(0) = 230(10) MeV
 and r₀T_d(0) = 0.55(4)) · Iida, Itou, Lee, arXiv:2008.06322; JHEP **10** (2024) 022 ·
 Karavirta et al., arXiv:1111.4104; arXiv:1511.01968.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Well-posed lattice gap: T_c/√σ for SU(2) N_f=3 light fundamentals | **interpretation** / literature | literature sweep 2026-07 | No published N_f=3 light result |
+| 2 | Pre-registered bet T_c/√σ = 0.34657 (½ln2) vs null 0.34506 | **registered null** / bet | P-2026-048 | Discrimination needs σ ≲ 0.22% |
+| 3 | Ordinary 1–3% lattice scores neither way | **honest constraint** | §precision | Expected outcome of standard precision |
+| 4 | Determination outside [0.330, 0.370] falsifies DE sector | **registered kill** | §clauses | Live risk: neighbor inference 0.39±0.05 |
+| 5 | Discretization choice (staggered rooting vs Wilson) is part of computation | **honest constraint** | §discretization | Not settled here |
+| 6 | This note is not a lattice result | **meta** | banner | External computation owed |
+
+**Non-claims:** not a computed T_c/√σ; not DE precision claim; ρ_Λ is existence grade elsewhere.
+
+**Triage:** elevate-in-place. Physics ceiling: registered external bet; **WATCH-EXTERNAL** lattice.

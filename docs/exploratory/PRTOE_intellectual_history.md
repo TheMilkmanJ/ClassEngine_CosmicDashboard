@@ -192,3 +192,11 @@ document's headline with turn attributions preserved. The reviewer's
 closing verdict: "a smaller, harder, more honest object than the one I
 opened fire on." The method — the file, the bets, the attributions —
 is as much a result of this project as any χ².
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

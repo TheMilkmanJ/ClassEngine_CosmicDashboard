@@ -1,0 +1,66 @@
+============================================================================
+  #79 second pass: two gravitational conditions, one generation count
+============================================================================
+
+  CONTROL (stated before solving):
+    SM without nu_R = 3 x 15 = 45 Weyl fermions
+    SM with    nu_R = 3 x 16 = 48 Weyl fermions
+    A condition that returns 45, or needs a fitted input to reach 48,
+    fails this comparison.
+
+  (1) CORPUS -- Pauli/Sakharov finiteness, str[k1] = 0  (heat-kernel a1)
+       N_gen   Weyl   gauge x -4   str[k1]
+           1     16          -48       -32
+           2     32          -48       -16
+           3     48          -48         0   <-- root
+           4     64          -48        16
+           5     80          -48        32
+      => N_gen = 3, i.e. 48 Weyl fermions
+      control: same condition on the 15-Weyl roster gives str[k1] = -3 (nonzero) -> nu_R required
+
+  (2) NAVARRO-SALAS 2024 -- exact conformal symmetry, a = c = 0  (heat-kernel a2)
+      with N1 = 12 (SM gauge bosons) and N0 = 0 (no NON-conformal scalars):
+        N_half = 48   N_xi = 36
+      verify:  a-bracket = 0   c-bracket = 0   both vanish: PASS
+      => 48 Weyl fermions = 3 generations of 16, i.e. 3 generations INCLUDING right-handed neutrinos
+
+      the general solution is N_half = 4*N1 - N0/2, so the 48 tracks the
+      gauge-boson count directly:
+          N1   N_half
+           8       32
+          10       40
+          12       48   <-- SM
+          14       56
+
+============================================================================
+  THE COMPARISON
+============================================================================
+
+  Both conditions land on 48 Weyl fermions = 3 generations WITH right-handed
+  neutrinos.  They are NOT the same condition:
+
+    corpus         heat-kernel a1 (the R-coefficient / induced Newton constant)
+                   weights  +1 per Weyl,  -4 per gauge boson
+                   balance  16*N_gen - 4*12 = 0
+
+    Navarro-Salas  heat-kernel a2 (Weyl^2 and Euler -- the trace anomaly)
+                   weights  11/2 and 3 per Weyl, 62 and 12 per gauge boson,
+                            -28 and -8 per zero-dimension scalar
+                   balance  N_half = 4*N1 - N0/2
+
+  Different orders of the heat-kernel expansion, different coefficients, same
+  root.  Note both land on 48 by balancing fermions against GAUGE BOSONS with
+  the gauge count fixed at 12 -- the corpus at -4 each, Navarro-Salas at 4 each
+  in the solved form.  That the two agree is a fact to record, not a proof that
+  either is right, and NOT evidence they are independent: they are two
+  coefficients of one expansion over one roster.
+
+  NOVELTY READING: the corpus's HEADLINE -- a gravitational finiteness/anomaly
+  requirement forcing exactly 3 generations and requiring right-handed
+  neutrinos, at 48 Weyl fermions -- is PUBLISHED (Navarro-Salas, CQG 2024).
+  The corpus's SPECIFIC condition (str[k1] = 0 at the a1 level) is a different
+  equation and its SM+3nu_R evaluation still did not surface.  The honest
+  statement is therefore weaker than 'novel' and stronger than the previous
+  'partial negative': the CONCLUSION has prior art; the ROUTE may not.
+
+============================================================================

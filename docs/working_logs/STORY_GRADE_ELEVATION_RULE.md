@@ -37,15 +37,37 @@ discipline* even when the *physics grade* remains story.
 | Grade | Meaning |
 |---|---|
 | **null-hardened** | Code or arithmetic enforces a registered formula; not a derivation of foundations |
-| **derived** | Follows from named premises already in the corpus |
-| **complete-conditional** | Job finished at stated grade; conditionals explicit |
+| **derived** | Follows from named premises already in the corpus (cite premise paths) |
+| **derived-conditional** | Derivation holds only under named conditionals (list them in Residual) |
+| **complete-conditional** | Document *job* finished for the claims it owns at the grades in its ledger; every conditional is a Residual cell — **not** a free “COMPLETE” sticker |
 | **registered null** | Model is forbidden from claiming credit if X appears |
-| **machine-backed** | Number from named chain/script/artifact path |
+| **machine-backed** | Number from named chain/script/artifact path on disk |
+| **estimate** | Order-of-magnitude or scaling argument; not exact derivation |
 | **interpretation** | Ontology / vocabulary seating; no new number |
-| **story** | Coherent narrative assembly; not a derivation |
+| **story** | Coherent narrative assembly; not a derivation — **forbidden as final physics grade on shelf** after PASS3; convert to OPEN-BLOCKED or map-assembly |
+| **map-assembly** | File is a map/spine assembling graded children; not itself a derivation |
+| **candidate** | Motivated identification; not closed |
 | **OPEN** | Not closed; residual named |
 | **OPEN-BLOCKED** | OPEN *and* the blocker is named (see §3) |
-| **failed / retired** | Route dead; must point at Failures Ledger |
+| **failed / retired** | Route or claim **dead**; Residual **must** cite a Failures Ledger row or docket kill |
+| **provisional** | Still pending named referees; **not** failed; must not use hybrid `failed/provisional-dead` |
+
+| **registered** | Umbrella for registered null / bet / kill / candidate on predictions surface — prefer specific subtype when known |
+| **registered kill** | Named kill condition on a registered object |
+| **registered bet** | Timestamped prediction bet (points at predictions register) |
+| **honest constraint / fence / scope-limit** | Explicit non-claim or jurisdiction fence (not a physics win) |
+| **derived-from-recorded** | Follows from another corpus file already graded derived (cite that file) |
+| **meta** | Document-about-documents (pointer, inventory, process) |
+| **adopted** | Standard literature / GR fact cited, not re-derived |
+| **paid** | Named residual paid by script/report this session (prefer machine-backed when path exists) |
+| **framework** | Structural seating of the medium framework (near interpretation) |
+| **awaiting** | Explicit wait on external/machine input (prefer OPEN-BLOCKED) |
+| **back-solved** | Arithmetic closes given a target; forward derivation still OPEN (cite both) |
+| **adverse-leaning candidate** | Candidate with known adverse tension (not a win) |
+
+**Closed grade set:** only the labels in this table (amended 2026-08-03 C2 cure — recurring honest families admitted with one-line defs). Inventing *new* hybrid grades outside this table is a process defect. Prefer the most specific label.
+
+**Smuggle ban:** A file may **never** mark physics-grade **COMPLETE** solely because discipline is above-story. `_FILE_COMPLETION_STATUS.md` updates **must** keep the split: document job status ≠ physics ceiling.
 
 ---
 
@@ -83,9 +105,21 @@ assembly only.
 | **`docs/exploratory/`** | Still useful as orientation, genealogy, or research brainstorm; **not retracted**; work may continue |
 | **`docs/PRTOE_FAILURES_LEDGER.md`** | Claim was tested and **failed**, route **retired**, prediction **lost**, or false statement that must not live as living claim |
 | **`docs/archive/`** | Superseded lineage already replaced; historical only |
-| **Stay shelf with story banner** | Rare: load-bearing *map* whose only honest grade is story (e.g. cyclic arc) **and** reader banner already forbids derivation reading — then discipline-elevate in place |
+| **Stay shelf with story banner** | Load-bearing *map* whose only honest grade is story **and** reader banner already forbids derivation reading — then discipline-elevate in place. (Example class: cyclic-genesis *assembly* — triage is decided by evidence, not hardcoded.) |
 
 **Never delete.** Categorize (owner tribunal rule).
+
+### Step 3b — Row-level Failures (Claude red 2026-08-03)
+
+A single **row** can be `failed/retired` while the file stays shelf or exploratory.
+That row’s Residual **must** name a Failures Ledger entry (or docket kill ID).
+Do **not** invent hybrid grades like `failed/provisional-dead`. Choose one:
+
+| Situation | Grade |
+|---|---|
+| Dead amplitude / killed route | **failed/retired** + Failures pointer |
+| Still pending referees / escape hatch open | **provisional** or **OPEN-BLOCKED** |
+| Structure real, amplitude inaccessible | **story** + provisional Residual — not “failed” |
 
 ### Step 4 — Mixed files
 

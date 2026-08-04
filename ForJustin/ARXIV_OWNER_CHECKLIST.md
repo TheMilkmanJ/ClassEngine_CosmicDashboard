@@ -1,11 +1,21 @@
 # arXiv / Fairbank — owner checklist (external win #1)
 
-**Date:** 2026-08-03  
+**Date:** 2026-08-03 (living) · **prep re-stamp: 2026-08-04**  
 **Role:** Owner-only actions. Blue cannot invent endorsement or post for you.  
 **Claude H1 rank #1:** public arXiv postings (neutrino-mbb + READY packages). Not a blue desk win.
 
 Living sources: `papers/<name>/`. Staged PDF+tarball: `docs/arXivReady/`. Hygiene: `scripts/arxiv_package_audit.py`.  
 **Do not invent endorsement.** Per-archive. Account default `physics.space-ph` is **not** a home for any of these.
+
+### Owner HOLD (2026-08-04)
+
+- Packages are **READY on disk** (6 TeX packages audit-clean; staged MD5 MATCH papers).  
+- **HOLD arXiv posts** until Fairbank replies on neutrino-mbb **or** you deliberately take a parallel archive path (astro-ph / Zenodo).  
+- Desk will **not** post, email Fairbank, invent endorsement, or invent a second Fairbank TeX.  
+- When he replies: follow  
+  [`docs/working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md`](../docs/working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md).  
+- Full inventory:  
+  [`docs/working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md`](../docs/working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md).
 
 ---
 
@@ -24,10 +34,11 @@ Living sources: `papers/<name>/`. Staged PDF+tarball: `docs/arXivReady/`. Hygien
 
 **Owner next buttons (Fairbank / hep-ph thread only):**
 
-1. Track Fairbank reply / feedback; do not rewrite package unless he requests a concrete change.
+1. Track Fairbank reply / feedback; do not rewrite package unless he requests a concrete change. **HOLD post until reply (or explicit parallel path).**
 2. If he (or another hep-ph author with recent posts) can endorse: generate arXiv endorsement request code for **hep-ph**, send finished PDF + tarball.
 3. After endorse → submit **primary hep-ph** from `docs/arXivReady/neutrino-mbb.{pdf,tar.gz}` (or rebuild from `papers/neutrino-mbb/`).
 4. Until then: optional public path without arXiv = Zenodo one record (PDF + tar.gz, CC BY 4.0) — same pattern as supertrace.
+5. Branch table (positive / content edit / decline / silence): `docs/working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md`.
 
 ---
 
@@ -77,13 +88,14 @@ Endorsement is **per archive**. Success on one does **not** open another. First 
 ## 4. What blue already did (do not redo)
 
 - Six TeX packages clean: no “PRTOE” in `main.tex`, no live BibTeX `note=` leakage, no empty acknowledgments, clean-room pdflatex 0/0/0 where claimed.
-- Full `submission/` + tarballs + staged `docs/arXivReady/` (all six PDF+tar.gz present 2026-08-03).
+- Full `submission/` + tarballs + staged `docs/arXivReady/` (all six PDF+tar.gz present 2026-08-03; neutrino-mbb stage refreshed MATCH papers evening).
 - Red-team pass on paper-facing claims (2026-08-02/03); content holds closed on READY set (bbn dense T_c curve optional residual only).
 - `fairbank-0nubb` deliberately **not** TeX’d; cross-check table vs neutrino-mbb filed.
 - neutrino-mbb: 8/8 numbers re-derived; packaging **paused** after owner Fairbank submit.
 - supertrace **published** Zenodo DOI 10.5281/zenodo.21763188.
 - Candidacy / readiness / package-audit living logs: `_ARXIV_CANDIDACY.md`, `_ARXIV_READINESS.md`, `_PACKAGE_AUDIT.md`.
 - Claude H1 ranking filed: arXiv postings = external win #1 (owner); T14 reclassified thread-closure.
+- **2026-08-03 evening process lock:** derivation exit gate **CLOSED** (Claude + Grok + ChatGPT); arXiv-ready P1–P2 **BOOKED** (69 rows; 0 new PAPER_CANDIDATE; exploratory 44/44 CORPUS_ONLY). Detail: `docs/working_logs/_runs/arxiv_ready_pass_20260803/`. **No further derivation hunting** unless a paper claim finds a *new* missing derivation.
 
 ---
 
@@ -98,10 +110,21 @@ Endorsement is **per archive**. Success on one does **not** open another. First 
 | bbnfix posterior booking / R−1 < 0.05 | Separate external win (blue machine); **not** needed for any READY note |
 | T14 / IGMF / H₀ / multi-claim overview | Thread-closure or NOT_READY; wrong shape for first posts |
 | Blue to “get endorsement” | Impossible from desk — human with recent archive posts + arXiv request code |
+| More derivation sprints | Exit gate closed; blocked register is finite and named; inventing is forbidden |
+| New short papers from docs shelf | arXiv pass: **0** PAPER_CANDIDATE after full grade + exploratory sweep |
 | Blue to choose primary category | Owner account + endorser; never force `physics.space-ph` |
 
-**Owner-only loop this week:** Fairbank follow-up **or** find one astro-ph endorser for radio-lattice (PDF in hand) **or** Zenodo the two highest-leverage unreadies (radio-lattice, bbn-eps-bound) while endorsements pend.
+**Owner-only loop this week:** Fairbank follow-up **or** find one astro-ph endorser for radio-lattice (PDF in hand) **or** Zenodo the two highest-leverage READY notes (radio-lattice, bbn-eps-bound) while endorsements pend. **Do not treat desk prep as a post.**
+
+### Prep verification (desk, 2026-08-04) — do not redo
+
+- Re-ran `scripts/arxiv_package_audit.py` → 6/6 clean; `_PACKAGE_AUDIT.md` refreshed.  
+- papers ↔ `docs/arXivReady/` tarball MD5 **MATCH** all six.  
+- BBN ε stranger recompute **ARITHMETIC VERIFIED (internal)** (ε 2σ 3.196% ≈ 3.20%); **EXTERNAL WIN PENDING (no DOI)** — package READY ≠ public external win.  
+- Fairbank letter: H₀ / “outperform” opener **surgically demoted** (still CORPUS_ONLY letter; not a package).  
+- No CLASS/MCMC/PolyChord in this lane.  
+- Artifacts: `_runs/arxiv_owner_prep_20260804/{PACKAGE_INVENTORY,OWNER_ACTION_WHEN_FAIRBANK_REPLIES,REPORT}.md`.
 
 ---
 
-*Sources: `papers/README.md`, `papers/*/README.md`, `docs/arXivReady/README.md`, `docs/working_logs/_ARXIV_CANDIDACY.md`, `_ARXIV_READINESS.md`, `_runs/hard_wins_90day_20260803/REPORT.md` (Claude H1).*
+*Sources: `papers/README.md`, `papers/*/README.md`, `docs/arXivReady/README.md`, `docs/working_logs/_ARXIV_CANDIDACY.md`, `_ARXIV_READINESS.md`, `_PACKAGE_AUDIT.md`, `_runs/hard_wins_90day_20260803/REPORT.md` (Claude H1), `_runs/arxiv_owner_prep_20260804/`.*

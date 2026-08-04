@@ -1,0 +1,85 @@
+==============================================================================
+  META-AUDIT — which checks cannot fail?
+==============================================================================
+
+  chk() call sites parsed: 1328
+
+  T1  RATIO-TO-ONE — reduces to an identity regardless of inputs
+      count: 8
+      line 232    [quantum_gravity] dark str[k1] = 2 N_f N_c - 4(N_c^2-1) at N_c=2,N_f=3
+      line 1421   [S8 pair] [transcription only] 10*(27/5) == 54, given eps := 27a/(5p
+      line 1479   [T6 kernel] modulus: rho=1/sqrt2 -> Q=2/3
+      line 2607   [granule_sim_2field] law endpoints: f_rot=1 (single field) -> 1
+      line 2704   [friedmann_from_medium] flat universe: kinetic + binding = 0 at Friedmann H
+      line 2772   [delivery law] the recorded lock (n_S,n_D) = (1,0) reads (w_S,w_D) = (2,1
+      line 3088   [adiabatic P4] common action gives R^2/f_0^2 = 1
+      line 3261   [democratic predicts] f_0^2 ratio to the charged pair's, at equal n
+
+  T2  LITERAL ECHO — booked value appears verbatim in the computed side
+      count: 21
+      line 156    [radio_lattice] nu_H/nu_D ratio-lock
+      line 366    [deuterium_row] theory error on NACRE II's uncertainty assessment
+      line 902    [deuterium_row 6] str[k1] with one extra sterile (17/gen) breaks finiteness
+      line 1155   [chain convergence] the target it is measured against
+      line 1281   [null class] sum Q^2 over them
+      line 1362   [null lambda] lambda_1 at N = 3 is 3
+      line 1369   [occupancy lock] rho^2 = |f_1|^2/f_0^2 from N_0 = 1
+      line 1380   [occupancy A4] A^2 = 2/n at n = 1
+      line 1704   [#101 null] the two misses are a factor 2 apart, not 3 (= 3Q)
+      line 2740   [delivery law] doublet gets half -> eps_D = eps_S/2
+      line 2845   [theta] which is this fraction of the mean shift eps/2
+      line 2965   [delivery law] KZ hits the null only at am = -2
+      line 3015   [cold law] and a/b = 3/(2-1) = 3 (a = 3b)
+      line 3017   [cold law] the two laws' stiffness targets differ by 2
+      ... and 7 more
+
+  T3  CONSTANT-FREE — pure literal arithmetic (transcription check only)
+      count: 163
+      line 119    [scale_ladder] nucleus ~ 8 MeV / 939 MeV
+      line 156    [radio_lattice] nu_H/nu_D ratio-lock
+      line 160    [bbn_witness] n(He)/n(H) at Y_p = 0.249
+      line 161    [bbn_witness] He-4 photodissoc. opens at m_e^2/(22*19.8 MeV)
+      line 163    [bbn_witness] dark confinement reheat (27/14)^(1/3)
+      line 164    [bbn_witness] SU(2) N_f=3 deconfined g*
+      line 165    [bbn_witness] SU(2) N_f=3 Goldstones 2Nf^2-Nf-1
+      line 166    [bbn_witness] Delta N_eff = (27/(7/4)) xi^4 at xi=0.35
+      line 195    [PREREGISTERED P-053] convertible dN_eff cap
+      line 211    [galactic_atoms] soliton M*r invariant is halo-independent
+      line 215    [entropy] eps*m_e, the rest-energy step across the gate
+      line 216    [entropy] ballistic 2 keV suppressed by the sound-speed ratio 1/40
+      line 232    [quantum_gravity] dark str[k1] = 2 N_f N_c - 4(N_c^2-1) at N_c=2,N_f=3
+      line 234    [quantum_gravity] str[k1] = 16 N_gen - 48 vanishes at N_gen = 3
+      ... and 149 more
+
+==============================================================================
+  177 of 1328 call sites flagged (13.3%)
+==============================================================================
+
+  HOW TO READ THIS -- AND THE ONE WAY TO MISREAD IT BADLY.
+
+  Flagged does NOT mean wrong, and the flagged fraction is an UPPER BOUND on the
+  soft checks, not an estimate of them. T3 conflates two different things:
+
+    (a) PINNING AN EXTERNAL INPUT -- a measured rate, a published uncertainty, a
+        literature band. You CANNOT recompute a measurement. Pinning is the
+        correct and necessary check here, and counting these as weak is simply
+        wrong. Spot-checking the deuterium_row block shows many of its 12
+        pure-literal checks are exactly this: "d ln(D/H)/d ln omega_b (production,
+        MEASURED)", "Pisanti's rate error", "tau_n bottle->beam".
+
+    (b) PINNING SOMETHING DERIVABLE -- where an independent route existed and was
+        not taken. This is the only case that is a missed opportunity.
+
+  This scanner CANNOT separate (a) from (b), because the distinction is about
+  PROVENANCE, not syntax: it lives in whether the number came from a measurement or
+  from the theory, which no amount of AST inspection can see. So do not quote the
+  flagged percentage as a defect rate. The honest phrasing is:
+
+      "N% are definition- or input-pins rather than independent recomputations,
+       most of them legitimately so."
+
+  WHAT IS ACTUALLY WORTH FIXING: anything in T1 or T2 whose LABEL implies a
+  physical identity. The fix is the label, not the check -- a reader scanning a
+  pass list credits what the label says, and a check that cannot fail should not
+  be wearing the name of a claim that is still owed.
+

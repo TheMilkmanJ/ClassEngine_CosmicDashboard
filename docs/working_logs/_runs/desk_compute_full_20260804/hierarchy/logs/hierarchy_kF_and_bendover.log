@@ -1,0 +1,128 @@
+============================================================================
+HIERARCHY: THE DENSITY OF STATES, k_F, AND THE BEND-OVER
+============================================================================
+
+[1] Does k_F actually enter the gap condition?
+    Assemble lambda = N_0 * <V>_FS from 6c's own pieces, keeping k_F symbolic.
+
+      N_0      = k_F^2 / (pi^2 v)                  [one band, both spins]
+      e^2      = 4 pi alpha_c                      [Heaviside-Lorentz]
+      V(q)     = e^2 / (q^2 + m_D^2)
+      u        = q^2/(4 k_F^2),  so <.>_FS = int_0^1 du
+      m_D^2    = e^2 * 2 N_0                       [2-for-screening]
+
+      b  = m_D^2/(4 k_F^2) = 4 pi alpha_c * 2 k_F^2/(pi^2 v) / (4 k_F^2)
+         = 2 alpha_c/(pi v)                        <-- k_F CANCELS
+
+      <V>_FS = int_0^1 du  e^2/(4 k_F^2 u + m_D^2)
+             = (e^2/4k_F^2) int_0^1 du/(u+b)
+             = (e^2/4k_F^2) ln(1 + 1/b)            <-- carries 1/k_F^2
+
+      lambda = N_0 <V>_FS = (k_F^2/pi^2 v)(e^2/4k_F^2) ln(1+1/b)
+             = (alpha_c/(pi v)) ln(1 + 1/b)        <-- k_F CANCELS AGAIN
+
+    Numerical check, k_F swept over eight decades:
+
+      k_F            lambda
+      1e-4         0.029874162784
+      1e-3         0.029874162784
+      1e-2         0.029874162784
+      1e-1         0.029874162784
+      1e+0         0.029874162784
+      1e+1         0.029874162784
+      1e+2         0.029874162784
+      1e+3         0.029874162784
+      1e+4         0.029874162784
+
+    spread across eight decades: 1.041e-17
+
+    k_F does not appear in the answer. It cancels twice -- once out of the
+    screening constant b, and once between N_0 and the Fermi-surface average.
+    The docket asks for a number that the construction does not contain.
+
+[2] What the construction does require of k_F
+    Not a value -- an inequality. Three conditions, all of them one-sided:
+
+      (i)   k_F > 0 strictly. At k_F = 0 the Fermi surface degenerates to the
+            node, N_0 -> 0, and 6a's own table records the consequence: J is
+            convergent, there is no log, and pairing needs lambda >= 2/3 rather
+            than 0.03. The node cannot pair. This is the condition that matters.
+      (ii)  E_F = v k_F below the bend-over, so the shell sits inside the linear
+            cone where rho ~ E^2 and the DOS formula used is the right one.
+      (iii) the shell locally flat, i.e. Delta << E_F, the usual BCS assumption.
+
+    So the honest statement is that the hierarchy construction is INDEPENDENT of
+    where the Fermi surface sits, provided it exists and lies inside the cone.
+    That is a stronger result than a fitted k_F would have been: a value would
+    have been one more thing to justify, and there is nothing to justify.
+
+[3] Recomputing k rather than adopting it
+
+    b        = 2 alpha_c/pi      = 0.0139369168   (corpus: 0.0139369)
+    k        = ln(1+1/b)/pi     = 1.36461191   (corpus: 1.36461191)
+    lambda   = k * alpha_c      = 0.02987416
+    d lnM/d lnk = 1/(k alpha_c) = 33.47   (corpus: 33.47)
+
+    counterfactual, one-band screening: k = 1.58305 (corpus: 1.58305)
+    The 2-for-screening is load-bearing, exactly as 6c says: dropping it moves k
+    by 16% and the anchor by two orders through the 33x amplification.
+
+[4] The bend-over spectrum: does it condense at lambda = 0.03?
+    Spectrum: rho ~ E^p below E_*, flat above. 6a records the shell integral as
+    J = 1/p + ln(Lambda/E_*), verified there at p = 1,2,3. Re-verify from the
+    integral itself rather than trusting the closed form:
+
+      p = 1:  numeric 5.605170   closed form 5.605170   diff 2.32e-12
+      p = 2:  numeric 5.105173   closed form 5.105170   diff 2.50e-06
+      p = 3:  numeric 4.938506   closed form 4.938504   diff 2.50e-06
+
+    Gap condition 1 = lambda * J  =>  ln(Lambda/E_*) = 1/lambda - 1/p.
+      p = 1:  ln(Lambda/E_*) =   32.474  =>  Lambda/E_* = e^32.47
+      p = 2:  ln(Lambda/E_*) =   32.974  =>  Lambda/E_* = e^32.97
+      p = 3:  ln(Lambda/E_*) =   33.140  =>  Lambda/E_* = e^33.14
+
+    A solution EXISTS for every p: the condition is satisfiable, so the
+    bend-over spectrum does condense at lambda = 0.03. That is the half of the
+    docket that asks whether it condenses, and the answer is yes.
+
+[5] Why 'it condenses' is not the same as 'it delivers the anchor'
+    The condition fixes Lambda/E_* -- the ratio of the cutoff to the BEND-OVER,
+    not a gap. Delta has dropped out of the equation entirely. So what the
+    bend-over spectrum determines is where the node emerges, not the scale the
+    hierarchy needs, and 6a already records the consequence: at p = 2 it lands
+    11.65 TeV against the anchor's 1576 GeV, over by e^2 = 7.4x, AND with the
+    wrong sign -- a deficit that raises the scale where suppression is needed.
+    That route is in the failures ledger and this script does not revive it.
+
+    The two results are compatible and both are needed: the spectrum condenses
+    (this file), and the condensate it forms is not what sets the anchor (ledger).
+
+============================================================================
+VERDICT on #58
+============================================================================
+
+    The density of states was already supplied: N_0 = k_F^2/(pi^2 v), 6a.
+
+    k_F cannot be supplied because the construction does not contain it. It cancels
+    twice -- out of the screening constant b, and between N_0 and the Fermi-surface
+    average -- leaving lambda = (alpha_c/pi v) ln(1 + 1/b) with no trace of it.
+    Verified numerically across eight decades of k_F to 1e-16.
+
+    What the construction requires instead is an inequality: k_F > 0 strictly, sitting
+    inside the linear cone. The strictness is the whole content -- at k_F = 0 the DOS
+    vanishes, there is no log, and pairing would need lambda >= 2/3 instead of 0.03.
+
+    The bend-over spectrum DOES condense at lambda = 0.03: the gap condition
+    ln(Lambda/E_*) = 1/lambda - 1/p has a solution for every p. But it fixes the
+    node-emergence scale rather than a gap, and the ledger already records that this
+    route misses the anchor by e^2 with the wrong sign. Condensing and delivering the
+    anchor are different claims; only the first is established here.
+
+    Net: the docket's first half is answered by showing the quantity does not exist,
+    which is a cleaner outcome than a value would have been -- a fitted k_F would have
+    been one more number needing justification. The second half is answered yes, with
+    the standing caveat that it does not source the exponent.
+
+============================================================================
+CHECKS: 9/9 passing
+============================================================================

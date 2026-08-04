@@ -1,0 +1,80 @@
+==============================================================================
+  #55 / C8 — WHICH RESPONSES LAND IN THE MEASURED c_w BAND?
+==============================================================================
+
+  C8 bracket      : [-2.0, 0.0]
+  ensemble        : -0.84 +- 0.52  ->  [-1.36, -0.32]
+  fit-implied     : -1.8
+
+  W-A  c_w read off as the u^2 Taylor coefficient
+
+    response F(u)                       c_w     C8   ensemble
+    tanh(u)                [ODD]    -0.0000    yes    outside
+  ok    W-A [tanh(u)] c_w = 0.0   got -0.000003
+    u/sqrt(1+u^2)          [ODD]    -0.0000    yes    outside
+  ok    W-A [u/sqrt(1+u^2)] c_w = 0.0   got -0.000005
+    ln(1+u)                         -0.5000    yes     inside
+  ok    W-A [ln(1+u)] c_w = -0.5   got -0.499996
+    1 - exp(-u)                     -0.5000    yes     inside
+  ok    W-A [1] c_w = -0.5   got -0.499998
+    u*exp(-u)                       -1.0000    yes     inside
+  ok    W-A [u*exp(-u)] c_w = -1.0   got -0.999995
+    u/(1+u)                         -1.0000    yes     inside
+  ok    W-A [u/(1+u)] c_w = -1.0   got -0.999990
+    u/(1+2u)                        -2.0000    yes    outside
+  ok    W-A [u/(1+2u)] c_w = -2.0   got -1.999960
+
+  W-B  the ODD forms give EXACTLY zero, structurally
+  ok    W-B [tanh] is odd, so ALL even coefficients vanish   not an unlucky choice -- structurally incapable of a c_w
+  ok    W-B [u/sqrt(1+u^2)] is odd, so ALL even coefficients vanish   not an unlucky choice -- structurally incapable of a c_w
+
+  W-C  the saturating family F(u) = u/(1+au) gives c_w = -a exactly
+  ok    W-C1 c_w = -a across a in [0.25, 3]   max deviation 9.00e-05
+       -> the ensemble band maps DIRECTLY to a saturation scale
+          a in [0.32, 1.36]
+
+  W-D  ANTI-CONTROL: does the ensemble band exclude anything?
+  ok    W-D1 c_w = 0 (the whole ODD family) is EXCLUDED   0 is outside [-1.36, -0.32]
+  ok    W-D2 c_w = -2 (a = 2, strong saturation) is EXCLUDED
+  ok    W-D3 so the band carries information   it admits -1/2 and -1 and rejects both endpoints of C8's wider bracket
+
+==============================================================================
+  RESULT
+==============================================================================
+
+  C8 IS SATISFIABLE, AND THE ADMISSIBLE RESPONSES ARE NOW NAMED.
+
+  Because u = |x| and u^2 = x^2, c_w is just the second Taylor coefficient of the
+  response at zero. That turns "find a response with an even part" into a
+  classification anyone can check:
+
+      ODD responses (tanh, u/sqrt(1+u^2))      c_w = 0        EXCLUDED by ensemble
+      ln(1+u),  1 - exp(-u)                    c_w = -1/2     inside
+      u*exp(-u),  u/(1+u)                      c_w = -1       inside
+      u/(1+2u)                                 c_w = -2       outside ensemble
+
+  THE ODD FAMILY'S FAILURE IS STRUCTURAL, not bad luck. An odd function has no even
+  Taylor terms at any order, so its u^2 coefficient vanishes identically. The two
+  forms the corpus tried could never have produced a c_w, and no other odd form can
+  either — that whole class is closed, permanently.
+
+  AND THE BAND BECOMES A BRACKET ON A PHYSICAL SCALE. For the one-parameter
+  saturating family F(u) = u/(1+au), c_w = -a exactly, so the ensemble
+  determination -0.84 +- 0.52 maps directly onto a saturation scale
+  **a in [0.32, 1.36]** — and the two most natural closed forms, a = 1/2 (ln(1+u),
+  1-exp(-u)) and a = 1 (u/(1+u), u exp(-u)), both sit inside it.
+
+  THE ANTI-CONTROL MATTERS (W-D): the band is not permissive. It rejects c_w = 0 and
+  c_w = -2, i.e. BOTH endpoints of C8's wider [-2, 0] bracket. So "land in the band"
+  is a real constraint, and the wider bracket was the weaker statement.
+
+  WHAT IS STILL OWED. This does not derive the response from the Lagrangian — it
+  says which functional forms are admissible and what saturation scale the data
+  demands. The Lagrangian must still GENERATE one of them. But C8's requirement is
+  now a target with a number attached rather than a property to be hoped for, and
+  the odd-response class is closed off for good.
+
+  NOTE the fit-implied -1.8 sits outside the ensemble band, so the two
+  determinations disagree; a = 1.8 would be needed for the former and at most
+  1.36 for the latter. That tension is recorded elsewhere and is not resolved here.
+

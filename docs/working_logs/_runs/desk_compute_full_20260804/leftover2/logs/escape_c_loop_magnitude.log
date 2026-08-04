@@ -1,0 +1,26 @@
+==============================================================================
+  ESCAPE (c): LOOP TRANSMISSION FROM THE NEUTRINO SECTOR TO m_e, PRICED
+==============================================================================
+
+  required epsilon = 0.012543   log(M_W^2/m_nu^2) = 62.4
+
+  E-A  weak channel eps = 3.95e-28  (25.5 orders short)
+  ok    E-A  3.9e-28, 25.5 orders
+  ok    E-B  single-insertion form is IDENTICALLY ZERO (P_R P_L = 0)   gamma^mu P_L m gamma^nu P_L = m gamma^mu gamma^nu P_R P_L = 0; Delta L forces pairs too
+
+  E-C  portal: y_See = 2.99e-20, eps = 1.32e-28  (26.0 orders short)
+  ok    E-C  1.3e-28, v_L cancelled   same at v_L = 4.18 MeV and 2.4 TeV: coupling saturates at c_A, shift capped at m_1
+
+  E-D  Higgs portal (lambda_p = 1): eps = 9.68e-28  (25.1 orders short)
+  ok    E-D  9.7e-28, and the assumption destroys the medium   back-reaction m_S = 174 GeV ~ 1e28 above meV; shift is universal (escape (a)'s cost)
+
+  E-E  forbidden linear form (upper bound): eps = 7.40e-10  (7.2 orders short)
+  ok    E-E  7.4e-10, still 7.2 orders short
+
+  E-F  delta(m_nu^2) needed for eps_req: (22.0 GeV)^2
+  ok    E-F  ~22 GeV, thirteen orders above the sector
+  ok    VERDICT: every channel >= 6 orders short -> ESCAPE (c) CLOSED DEAD   worst genuine channel is 25.1 orders short
+
+==============================================================================
+  ALL CONTROLS PASS -- all three escapes are now dead
+==============================================================================

@@ -1,0 +1,45 @@
+{
+  "stamp": "2026-08-04T09:43:03.516801+00:00",
+  "packs": [
+    "tests_analytic"
+  ],
+  "timeout_s": 60,
+  "n_jobs": 2,
+  "n_exit0": 2,
+  "n_nonzero": 0,
+  "n_timeout": 0,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "test_local_gravity",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/test_local_gravity.py"
+      ],
+      "timeout_s": 60,
+      "started": "2026-08-04T09:43:01.721169+00:00",
+      "exit": 0,
+      "elapsed_s": 1.152,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/tests_analytic/logs/test_local_gravity.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "test_bbn_activation",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/test_bbn_activation.py"
+      ],
+      "timeout_s": 60,
+      "started": "2026-08-04T09:43:02.877151+00:00",
+      "exit": 0,
+      "elapsed_s": 0.633,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/tests_analytic/logs/test_bbn_activation.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

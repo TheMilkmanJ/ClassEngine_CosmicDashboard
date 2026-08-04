@@ -10,7 +10,7 @@
 - [`docs/working_logs/_runs/debt_koide_20260803/REPORT.md`](../debt_koide_20260803/REPORT.md) §3 (named next compute)  
 - [`docs/working_logs/T6_koide_owed.md`](../../T6_koide_owed.md) Branch A / holonomy  
 - [`docs/working_logs/T6_koide_desk_status.md`](../../T6_koide_desk_status.md)  
-- [`docs/PRTOE_forced_combination.md`](../../../PRTOE_forced_combination.md)  
+- [`docs/PRTOE_forced_combination.md`](../../../exploratory/PRTOE_forced_combination.md)  
 - [`docs/working_logs/_CANONICAL_VALUES.md`](../../_CANONICAL_VALUES.md) (δθ, n bound)  
 - P-2026-051 deviation lock (σ on δθ)
 

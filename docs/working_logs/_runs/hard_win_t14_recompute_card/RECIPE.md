@@ -33,3 +33,26 @@ python3 scripts/ring_toroidal_hkin.py --smoke --out /tmp/t14_four
 ## Non-claim
 
 Config-local instrument result. Not a sky-facing IGMF magnitude claim. Not ChatGPT-ranked top external win (thread-closure).
+
+## Production A4 result (2026-08-03 14:44)
+
+**Run:** `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch/`  
+**elapsed_s:** 9009  
+
+| branch | t | H | n_cand |
+|---|---:|---:|---:|
+| n+1_f+1 | 1.00 | +1.9331 | 5 |
+| n+1_f-1 | 0.25 | +2.0000 | 2 censored |
+| n-1_f+1 | 1.00 | −1.9929 | 5 |
+| n-1_f-1 | 0.25 | −2.0000 | 2 censored |
+
+Mirrors: **3.40%** / **0.36%** (target &lt;5% PASS).  
+sign(H)/sign(n)=+1 all four.  
+
+**Booking:** instrument says candidate-grade config-local; **blue production sign NOT booked** (cond.2 both f−1). Red C1 owed.  
+**Non-claim:** not sky IGMF; not ChatGPT top external win (thread-closure).
+
+## RED fullTC disposition (2026-08-03 14:46)
+
+Production sign **KILLED**. Quote only restated candidate text in `CANDIDATE_BOOKING_RESTATED.md`.  
+Matched-t winding mirror 3.04% only. f−1 arms disclosure-only. Smoke i5 stands.

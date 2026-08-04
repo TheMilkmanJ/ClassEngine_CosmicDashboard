@@ -1,0 +1,43 @@
+========================================================================
+KOIDE BRANCH-A WILSON HOLONOMY — INPUT INVENTORY (no free knobs)
+========================================================================
+
+PRE-REGISTERED bins (do not change after scoring begins):
+  θ★_primary     = 2/9              = 0.222222222222 rad
+  θ★_sibling+    = 2/9 + 2π/3       = 2.316617324615 rad
+  θ★_sibling-    = 2/9 − 2π/3       = -1.872172880171 rad
+  σ_θ_mass       = 8.348000e-06 rad  (P-051 / T6 pole-mass)
+  half-millideg  = 8.726646e-06 rad  (T6 2/9 ±0.0005° bar)
+  W_hit          = 3·max(...)       = 2.617994e-05 rad
+  Bins: HIT_PRIMARY | HIT_SIBLING | ELSE  (mutually exclusive; W << π/3)
+
+FORBIDDEN as inputs (circular / elastic hit 2/9):
+  - μ_face = (2/9)·T_c  (assumes the answer)
+  - θ_hop = μ/T from KMS with μ chosen to land 2/9
+  - c₂ = 4/(3 ln 2) used as geometry input to test 2/9
+  - fit of A_μ or path to lepton masses / arg b
+
+REQUIRED INPUTS:
+  name                                 status   note
+  --------------------------------------------------------------------
+  dark_SU2_A_mu                        MISSING  no dark-SU(2) gauge-field archive in data/ or output/; T14 psi_n*.npy are condensate wavef
+                                                …unctions for H_kin, not dark SU(2) A_μ
+  family_cycle_path_C                  PARTIAL  topology equilateral asserted; bare Y-geometry c₂=1.73205 ≠ phase-derived c₂=1.92359; usin
+                                                …g phase-derived c₂ to test 2/9 is circular; spacing not independently fixed
+  winding_background_n                 MISSING  n is a lower bound (n ≳ 1.65), not a determination; L_gen unassigned; Widnall n~11–25 is a
+                                                … different object (genesis vortex azimuthal modes), not a dark-gauge A_μ background on the
+  alpha_d_or_electric_projection       PARTIAL  α_d only bounded (≲2.2 at target spacing), not fixed; pure-gauge ring collapses (forced-co
+                                                …mbination theorem) so hybrid connection needed and not constructed; adjoint ε^abc algebra 
+  holonomy_evaluator                   MISSING  no zero-knob Wilson-line evaluator for the family cycle exists; this inventory intentional
+                                                …ly does not invent one
+
+========================================================================
+VERDICT
+========================================================================
+  MISSING_INPUTS: 5 of 5 requirements block a
+  zero-free-knob Wilson holonomy. Refusing to invent gauge fields, fix n,
+  pick α_d, or use phase-derived c₂. No θ_W produced. No bin scored.
+
+  Pre-registration stands: bins and W_hit are filed for the day a
+  corpus-fixed A_μ + path + winding background exist without dials.
+  OPEN-THEORY / #102 phase source: UNCHANGED.

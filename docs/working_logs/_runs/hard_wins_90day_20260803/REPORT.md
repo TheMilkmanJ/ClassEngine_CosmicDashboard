@@ -18,6 +18,14 @@
 
 **Delivered this session:** Win 2 arithmetic **PASS** at `hard_win3_bbn_eps_recompute_20260803/` (ε 2σ = 3.196% ≈ 3.20%).
 
+**Promotion stamp (2026-08-03 night — improve path):**  
+- **Win 2 BBN ε** → **ARITHMETIC VERIFIED (internal)** (package READY + reverify PASS); **EXTERNAL WIN PENDING (no DOI / public record)**.  
+- **T14 / A4** → **CANDIDATE CLOSED (config-local)** three-seat; production KILLED (thread-closure, not top sky win).  
+- **Win 3 bbnfix booking** → infrastructure READY; **machine gate open** (do not book).  
+- **Win 1 arXiv** → owner HOLD (Fairbank).
+
+**Owner HOLD (2026-08-03):** Rank 1 arXiv/Fairbank **not chased** — Fairbank at CSU already contacted; wait further response before any further arXiv push. Blue executes ranks 2–3 readiness + promotions of locked grades (`../PROMOTION_BOARD_20260803_IMPROVE.md`).
+
 ---
 
 ## Referee bar this plan optimizes for
@@ -213,3 +221,61 @@ NOW ── leave dyad+lcdm+routeD alone; finish T14 i6 production; draft BBN rec
 ## Honest residual after all three wins
 
 Even at ~5/10 claim credibility the **unified** package remains candidate-grade: Koide, bounce, hierarchy residual, magnetism void shortfall, Page dynamics, and ω_J forward stay open. Wins 1–3 buy **external load-bearing surfaces**, not TOE closure. That is the correct ambition level for the referee grade.
+
+## Continuous stamp 2026-08-03 13:59
+
+- BBN ε recompute still **PASS** (numbers.json pass_2sig_matches_paper=true).
+- T14 A4 four-branch still IN FLIGHT (not yet win-eligible TC).
+- Owner arXiv checklist: `OWNER_ARXIV_CHECKLIST.md`.
+- 4/10 stands.
+
+## A2 gate stamp (2026-08-03 14:24)
+lcdm R−1 **0.048827** &lt; 0.05 (progress file). **Do not book** until chain self-stops. dyad still ~0.16 — hard-win #1 still needs both + clean stop.
+
+## T14 i6 A4 complete (2026-08-03 14:43)
+Production four-branch on disk (mirrors &lt;5%). **Thread-closure instrument** — not top external win. Production sign **not** booked (cond.2 both f−1 2-cand). Red C1 owed. See `t14_i6_partial_grade_20260803/FULL_TC_REPORT.md`.
+
+## T14 three-seat candidate (2026-08-03 15:32)
+Production **KILLED**. Candidate grade **three-seat locked** (text in CANDIDATE_BOOKING_RESTATED.md). Thread-closure not top external win. Smoke i5 stands.
+
+---
+
+## Status table — full refresh 2026-08-04 (~02:36 local)
+
+**Canonical package:** `docs/working_logs/_runs/debts_hardwins_full_20260804/`  
+**Gates live-checked:** progress + checkpoint + `book_bbnfix_when_ready.py` + `finalize_h0_at_convergence.py` + BBN ε recompute.
+
+| Rank / ID | Win | Status | Evidence @ 2026-08-04 |
+|---:|---|---|---|
+| **1** | arXiv / Fairbank public postings | **OWNER HOLD** | Packages READY (6/6 audit clean); no Fairbank reply action; no arXiv post |
+| **2** | BBN ε public recompute ε&lt;3.2% (2σ) | **ARITHMETIC VERIFIED (internal)**; **EXTERNAL WIN PENDING (no DOI)** | `recompute_eps_bound.py` → 2σ ceiling **3.196%** ≈ paper **3.20%** **PASS**; EMPRESS +2.91σ at ε=0 (cannot bound); reverify `BBN_EPS_REVERIFY_20260804.md` + shelf recompute PASS; public record (Zenodo DOI) still owed |
+| **3** | bbnfix posterior booking | **NOT YET** | lcdm R−1 **0.059** (N=19013); dyad R−1 **0.189** (N=18837); both `converged: false`; book **REFUSED**; finalize **NOT YET**; GetDist GR ~0.071/~0.086 UNBOOKABLE |
+| (thread) | T14 i6 H_kin | **CANDIDATE CLOSED (config-local)**; production **KILLED** | Three-seat restated text; 14/14 sign track; mirror 3.04%; f−1 UNMEASURED; **not** top sky win |
+
+### Explicit language locks (no contradiction)
+
+| Phrase allowed | Phrase forbidden |
+|---|---|
+| BBN ε **ARITHMETIC VERIFIED (internal)**; **EXTERNAL WIN PENDING (no DOI)** | BBN ε EXTERNAL WIN as delivered (no DOI); bbnfix **delivered** / booked / H₀ quoted |
+| T14 **candidate-closed config-local** | T14 production sign **delivered** / closed for sky |
+| bbnfix **NOT YET** / infrastructure READY | bbnfix **almost booked** as if product landed |
+| arXiv **HOLD** (owner) | arXiv **posted** without Fairbank |
+
+### Live machine (read-only; leave MCMCs alone)
+
+| Chain | progress R−1 | self-stop | bookable leg |
+|---|---:|---|---|
+| `cmp_lcdm_mnu_bbnfix` | 0.059055 | false | false |
+| `dyad_mnu_bbnfix` | 0.189201 | false | false |
+
+Refuse card stamp example: `bbnfix_booking_20260804_083546/` (both_ready: false).
+
+### Credibility path (unchanged honesty)
+
+- Win 2 arithmetic **landed** → thin external surface exists.  
+- Win 3 booking **not landed** → standard cosmology product still machine-gated.  
+- Win 1 arXiv **not landed** → owner external.  
+- Claim-credibility still **not** at referee ~5/10 bar (needs independent landings beyond one arithmetic card).  
+- **Do not** invent theory closes (Koide / bounce / ω_J / void / Page) to fake score.
+
+*NO FABRICATIONS. No PolyChord. No peek-book H₀.*

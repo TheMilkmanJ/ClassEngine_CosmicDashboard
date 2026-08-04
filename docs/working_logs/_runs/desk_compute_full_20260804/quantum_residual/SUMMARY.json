@@ -1,0 +1,90 @@
+{
+  "stamp": "2026-08-04T09:43:17.287417+00:00",
+  "packs": [
+    "quantum_residual"
+  ],
+  "timeout_s": 180,
+  "n_jobs": 5,
+  "n_exit0": 5,
+  "n_nonzero": 0,
+  "n_timeout": 0,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "medium_decoherence",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/medium_induced_decoherence.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:42:59.523071+00:00",
+      "exit": 0,
+      "elapsed_s": 0.534,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/quantum_residual/logs/medium_decoherence.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "chsh_tsirelson",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/quantum_chsh_tsirelson.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:00.069242+00:00",
+      "exit": 0,
+      "elapsed_s": 0.781,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/quantum_residual/logs/chsh_tsirelson.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "medium_r_inventory",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/quantum_medium_r_inventory.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:00.852551+00:00",
+      "exit": 0,
+      "elapsed_s": 14.383,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/quantum_residual/logs/medium_r_inventory.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "wkb_medium",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/quantum_wkb_medium_identity.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:15.237586+00:00",
+      "exit": 0,
+      "elapsed_s": 0.31,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/quantum_residual/logs/wkb_medium.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "pair_hamiltonian",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/quantum_pair_hamiltonian_tmsv.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:15.565137+00:00",
+      "exit": 0,
+      "elapsed_s": 1.721,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/quantum_residual/logs/pair_hamiltonian.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

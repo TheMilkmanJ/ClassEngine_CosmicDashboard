@@ -49,7 +49,8 @@ Cosmological superfluid unifying DM and DE. Ultralight mass **m ≈ 2.24×10⁻�
   [PRTOE_gravitational_waves.md](PRTOE_gravitational_waves.md).
 - **The generation count** — forced by **Pauli finiteness**: str[k₁] = 16·N_gen − 48 = 0 ⟹
   **N_gen = 3** uniquely, pure heat-kernel species counting with no nodes and no angular momentum
-  ([PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3; P-2026-045, conditional on
+  ([PRTOE_induced_gravity.md](PRTOE_induced_gravity.md) thin attach;
+  [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) §5.2–5.3 full hub; P-2026-045, conditional on
   ξ_H = 1/6). SM alone: **−1/2** (Visser) / **−3** (Weyl deficit).
 
 Literal He-3-as-medium: **retired** (failures ledger).
@@ -84,3 +85,26 @@ Light as massless Goldstone of the condensate (load-bearing for “α is the med
 ## Dead ends / sources
 
 Failures: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md). v4/v5 derivation docs; CC file; [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Two-era dark superfluid; exact w = −1 floor | **derived** (structural) | §0–1; CLASS use_dcdf | Route-D thaw is separate fork |
+| 2 | Onset clock H = m; radiation→dust crossover | **derived** | §1; background.h | m rides roster-trial / α_c |
+| 3 | s-wave channel selected by binding data (2.2599 meV) | **derived** (data selection) | §2; CC file | p/f-wave excluded by miss |
+| 4 | Residual DE magnitude from *this* sector’s FDT | **failed** (ohmic miss ~21 dex) | §5 | Magnitude supplied by Koide route instead |
+| 5 | Bounce junction / link to floor dynamics | **OPEN-BLOCKED** | §0 | **OPEN-THEORY:** bounce not derived |
+| 6 | Chirality from genesis n, not pairing channel | **interpretation** (reseat) | igmf_helicity; lss_parity | Joint draw: θ̇ ⊥ n (void lock) |
+| 7 | Light as massless Goldstone of condensate | **candidate** | §4; [exploratory/PRTOE_light.md](exploratory/PRTOE_light.md) | Load-bearing *identification* for α = medium coupling; bare α still OPEN-BLOCKED on light ledger |
+| 8 | AD absolute-handedness lock void (independent signs) | **machine-backed** | #154 joint draw | Correlation −0.06…+0.09 vs ±0.13 |
+| 9 | CLASS `(.)w_dcdf` history bare/conv/thaw/both through onset | **machine-backed** | [working_logs/_runs/w_a_onset_20260803/REPORT.md](working_logs/_runs/w_a_onset_20260803/REPORT.md); `scripts/w_a_onset_truth.py` | Barotropic dust→DE only; **not** the #17 rad-onset ramp |
+| 10 | `(.)w_dcdf` **blind to thaw** (instrument) | **machine-backed** | [working_logs/_runs/debt_p042_d2_cures_20260803/REPORT.md](working_logs/_runs/debt_p042_d2_cures_20260803/REPORT.md) | Thaw column in w_dcdf truth table **VOID**; do not quote thaw from w_dcdf |
+| 11 | Onset template R(x)=x²/(1+x²) centers + analytic log10 bias vs H=m | **machine-backed** / desk | [working_logs/_runs/debt_p042_template_20260803/REPORT.md](working_logs/_runs/debt_p042_template_20260803/REPORT.md) | Equipartition +0.2386 dex; full onset-likelihood bias **OPEN-BLOCKED** |
+| 12 | Pre-onset high-z budget is photons/ν not w_dcdf | **machine-backed** | debt_p042_d2_cures high-z table; P-053 ΔN_eff | P-042 pre-onset w=1/3 referee = dark-radiation budget |
+
+**Non-claims:** not DE precision from FDT; not chirality source; literal He-3 medium retired; not thaw physics from `(.)w_dcdf`; not onset-likelihood bias closed.
+
+**Triage:** elevate-in-place. Physics ceiling: structural derived; residual magnitude / bounce **OPEN-BLOCKED**; D2 instrument/template **partial paid**.

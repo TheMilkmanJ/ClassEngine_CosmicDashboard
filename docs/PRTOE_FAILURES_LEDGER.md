@@ -1919,7 +1919,7 @@ boost ratio — no density, hence no (mT)^(3/2) log-power — and the mean-field
 (a cutoff property is invisible to a density-weighted gap equation). The 3/2 re-grades:
 **sharp underived residual → derived at additivity grade** (conditions: the shared
 additivity neck; the NR formation window). Full statement:
-[PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §2, part (b) — *not* a heading
+[PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §2, part (b) — *not* a heading
 called §2b, which does not exist and cost a later reader two searches to establish.
 Verified numerically 2026-07-28: ln(M_red/M_eff) = 1/(kα_c) with M_eff = M·e^(3/2) returns
 **1576.4 GeV** against the recorded 1576.1, so the chain stated there does deliver the
@@ -5827,3 +5827,13 @@ timestamped by the repository.
 
 
 **In-entry strip named:** In-entry strip (pass 1): P-2026-007 blockquote 'CONFIRMED CORRECT, 2026-07-29 — and an annotation claiming otherwise is withdrawn' and following paragraph — rehomed to Failures under 'Rehomed in-entry strips'
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

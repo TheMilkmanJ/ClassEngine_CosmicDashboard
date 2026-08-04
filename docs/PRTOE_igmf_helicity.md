@@ -303,3 +303,33 @@ near-cancellation is the booked result and the sign stays open; (iii) the true-m
 antisymmetry fails beyond the measured asymmetry → nothing is booked and the instrument goes
 back to the bench. No post-hoc switching of frames, probe settings, or readings after any
 number is seen.
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY / OPEN-MACHINE honesty. **Production T14 overall sign is not bookable** from smoke or partial i6. Matter–helicity lock remains **void**. No invented sign(H_kin).  
+**Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (parent magnetism RM reconfirm; T14 machine not re-run this package).  
+**Owed / parent:** [T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md); [T14_blue_team_2026-08-03.md](working_logs/T14_blue_team_2026-08-03.md); [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Literature: ~2σ-class left-handed helical IGMF hints (Tashiro–Vachaspati / Fermi-LAT) | **adopted** (external, disputed) | §0; [T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md) | Systematics / non-detection debates | Treat ~2σ hint as completed model test |
+| 2 | sign(helicity_B) = sign(H_kin) via Harrison (k²; convention cancels) | **derived** | §"The seeding link"; [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md) §4 | — | Absolute sky sign without production overall bit |
+| 3 | sign(θ̇·n) independent — matter–helicity lock **void** | **machine-backed** | `scripts/genesis_joint_draw.py`; corr −0.06…+0.09 vs ±0.13; [T14_link5_joint_draw.md](working_logs/T14_link5_joint_draw.md) | Failures-ledger withdrawal of three-way lock | Restore three-way lock |
+| 4 | Temporal sign(θ̇) is a fair coin under single-harmonic tilt + uniform prior | **machine-backed** | §"The temporal half is a fair coin" | — | Claim temporal sign derived absolute |
+| 5 | Poloidal sense fixed by plume geometry (half of bilinear H) | **machine-backed** (candidate) | `scripts/ring_rollup_poloidal_v3.py` | Relative toroidal–poloidal bit still open | Treat poloidal alone as overall production sign |
+| 6 | Overall seeding sign sign(H_kin) / link-4 overall bit | **OPEN-BLOCKED** (OPEN-MACHINE) | Pre-registered four-branch criteria this file 2026-08-03; `scripts/ring_toroidal_3d.py` | **No production booking.** Smoke / partial i6 only: [t14_smoke_revalidate_20260803](working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md); [t14_i6_partial_grade_20260803](working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md); run dir `t14_hkin_i6_prod_20260803_090317/` | Book production sign from incomplete four-branch / smoke; invent sign |
+| 7 | P-2026-028 routing sign(helicity_B)=sign(n) conditional on seeding link | **registered** / conditional | predictions register; §1 | Rides claim 6 | Unconditional absolute handedness prediction |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| Overall sign(H_kin) / link-4 | **OPEN-BLOCKED** (OPEN-MACHINE) | Pre-registered four-branch + true-mirror + energy gate (this file §§ criteria; T14 blue-team) | Production run meeting **all** pre-registered gates — not smoke/partial |
+| Relative toroidal–poloidal bit | **OPEN** (candidate half paid) | poloidal instrument; toroidal 3D | Instrument completion under same booking rules |
+| Void B floor (parent) | **OPEN-BLOCKED** | [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md); debt_magnetism | External / new seed — not this file’s job |
+
+**Non-claims:** Booked overall sign from incomplete four-branch / i6 production; absolute handedness as a model prediction; matter–helicity correlation (void); reading the Tashiro–Vachaspati hint as a completed test without the seeding map; production T14 sign by invention.
+
+**Triage:** elevate-in-place; **blocked (OPEN-MACHINE)** on T14 four-branch production / overall sign — do not rehome to Failures.

@@ -1,0 +1,11 @@
+family                               joint     +/- strain(sig)  verdict
+k (the settlement coupling)         1.3630  0.0032         0.6  TIGHT
+f_bar (the winding average)         0.6366  0.0000         1.4  TIGHT
+eps (the dyad, %)                   1.2403  0.0079         1.4  TIGHT
+n_s (the tilt)                      0.9651  0.0008         1.2  TIGHT
+omega_0 (km/s/Mpc)                  0.7425  0.0681         0.7  TIGHT
+
+Notes: 2/pi entered as exact -> dominates f_bar's joint; remove it and the
+joint is 0.626+/-0.008 — the 2/pi test is then 1.3 sigma. The eps family is
+the network's largest strain (fit vs stack); zon's alpha_c verdict owns it.
+EXIT:0

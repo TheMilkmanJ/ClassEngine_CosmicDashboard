@@ -1,0 +1,12 @@
+Delta N_eff = (4/7) g_dark (T_dark/T_nu)^4  (assuming the sector thermalised):
+
+decoupling                       (Td/Tnu)^4     g=2     g=4     g=8
+T_dec > 200 GeV (all SM active)       0.047   0.054   0.107   0.214
+T_dec ~ 1 GeV (above QCD)             0.097   0.111   0.222   0.444
+T_dec ~ 150 MeV (QCD region)          0.543   0.620   1.241   2.481
+T_dec ~ 20 MeV (below QCD)            1.000   1.143   2.286   4.571
+
+Reading: early decoupling (T_dec >~ 1 GeV) or few light dof keeps Delta N_eff <~ 0.3.
+Late decoupling (T_dec <~ 150 MeV) with several light dof is EXCLUDED by Planck.
+The surviving window ~0.05-0.3 is a target for CMB-S4 (+/-0.03).
+If the portal never thermalises the sector, Delta N_eff -> 0 (also allowed).

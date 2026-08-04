@@ -1,0 +1,3 @@
+imported : /home/themilkmanj/prtoe_class/python/classy.cpython-312-x86_64-linux-gnu.so
+binary   : 1784858457  source newest: 1785821766 (background.h)
+STALE .so: binary is 963309s older than background.h -- rebuild + reinstall before trusting Python-side numbers

@@ -1,3 +1,8 @@
+> **SUPERSEDE / GRADE (2026-08-03):** Tribunal R2 — blue lane **(c)**.
+> Thermal delivery law excluded at **1025 ppm / ~171×** (`koide_delivery_law_discriminator.log`).
+> Do not forward-file "candidate mechanism" for the thermal/flat path. Relation Q=2/3 stands;
+> mechanism exactness **OPEN as unexplained regularity** pending freeze-time/Wilson residual only.
+
 # Debt attack: Koide #101 / #102 (node + Brannen phase)
 
 **Date:** 2026-08-03  

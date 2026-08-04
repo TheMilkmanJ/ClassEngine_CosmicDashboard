@@ -81,3 +81,123 @@
   [n+1_f+1 t= 0.25] ----  drift_phys=0.268%
   [n+1_f+1 t= 0.50] ----  drift_phys=29.240%
   [n+1_f+1 t= 0.75] ----  drift_phys=132.894%
+  [n+1_f+1 t= 1.00] ----  drift_phys=236.256%
+  [n+1_f+1 t= 1.25] ----  drift_phys=319.044%
+  [n+1_f+1 t= 1.50] ----  drift_phys=387.350%
+  NO VERDICT FRAME for n+1_f+1
+
+======================================================================
+  BRANCH n-1_f+1
+======================================================================
+  [n-1_f+1 t= 0.25] ----  drift_phys=0.268%
+  [n-1_f+1 t= 0.50] ----  drift_phys=29.238%
+  [n-1_f+1 t= 0.75] ----  drift_phys=132.743%
+  [n-1_f+1 t= 1.00] ----  drift_phys=236.203%
+  [n-1_f+1 t= 1.25] ----  drift_phys=318.159%
+  [n-1_f+1 t= 1.50] ----  drift_phys=386.272%
+  NO VERDICT FRAME for n-1_f+1
+
+======================================================================
+  OUTCOME TABLE (protocol 2026-08-03)
+======================================================================
+  True-mirror checks:
+    (1, 1)<->(-1, -1): missing
+    (1, -1)<->(-1, 1): missing
+  All four verdicts: False
+  All margins pass:  True
+
+  BOOKING: nothing graded (no ring / no verdict frame)
+  Unchanged: branch closure (A flips with n); link 5 NEG; Fermi unreadable.
+======================================================================
+
+  wrote docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nojet/summary.json  elapsed 5622s
+[4/4] four-branch production...
+======================================================================
+  T14 single-instrument H_kin — protocol 2026-08-03
+  grid 128x128x256  T_MAX=1.5  PRODUCTION
+  out: docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch
+======================================================================
+
+======================================================================
+  BRANCH n+1_f+1
+======================================================================
+  [n+1_f+1 t= 0.25] ----  drift_phys=7.616%
+  [n+1_f+1 t= 0.50] ring helA=+1 W=+1.000 Tw=+0.000 Wr=+0.008 H=+2.008 bins=16/16 phase=16/16 drift_phys=15.636%
+      candidate @ t=0.50 nphase=16 helA=+1
+  [n+1_f+1 t= 0.75] ring helA=-1 W=+1.000 Tw=+0.000 Wr=-0.236 H=+1.764 bins=16/16 phase=16/16 drift_phys=16.942%
+      candidate @ t=0.75 nphase=16 helA=-1
+  [n+1_f+1 t= 1.00] ring helA=-1 W=+1.000 Tw=+0.000 Wr=-0.067 H=+1.933 bins=16/16 phase=16/16 drift_phys=8.758%
+      candidate @ t=1.00 nphase=16 helA=-1
+  [n+1_f+1 t= 1.25] ring helA=-1 W=+1.000 Tw=+0.000 Wr=-0.041 H=+1.959 bins=16/16 phase=16/16 drift_phys=11.538%
+      candidate @ t=1.25 nphase=16 helA=-1
+  [n+1_f+1 t= 1.50] ring helA=-1 W=+1.000 Tw=+0.000 Wr=+0.662 H=+2.662 bins=16/16 phase=16/16 drift_phys=23.492%
+      candidate @ t=1.50 nphase=16 helA=-1
+  SELECTED verdict t=1.00 nphase=16 ampA=1.696 drift=8.76% (blind key; Tw/Wr/H not used) from 5 candidates
+  VERDICT n+1_f+1: t=1.00 H=+1.9331 spread=0.0538 margin_ok=True drift_phys=8.758%
+
+======================================================================
+  BRANCH n+1_f-1
+======================================================================
+  [n+1_f-1 t= 0.25] ring helA=+0 W=+1.000 Tw=+0.000 Wr=+0.000 H=+2.000 bins=16/16 phase=16/16 drift_phys=7.616%
+      candidate @ t=0.25 nphase=16 helA=+0
+  [n+1_f-1 t= 0.50] ring helA=+0 W=+nan Tw=+nan Wr=-0.005 H=+nan bins=16/16 phase=11/16 drift_phys=15.636%
+  [n+1_f-1 t= 0.75] ring helA=+1 W=+nan Tw=+nan Wr=+0.522 H=+nan bins=16/16 phase=10/16 drift_phys=16.942%
+  [n+1_f-1 t= 1.00] ring helA=+1 W=+nan Tw=+nan Wr=-0.229 H=+nan bins=16/16 phase=6/16 drift_phys=8.758%
+  [n+1_f-1 t= 1.25] ring helA=-1 W=+nan Tw=+nan Wr=+0.276 H=+nan bins=16/16 phase=6/16 drift_phys=11.538%
+  [n+1_f-1 t= 1.50] ring helA=+1 W=+1.000 Tw=+0.000 Wr=-0.181 H=+1.819 bins=16/16 phase=12/16 drift_phys=23.492%
+      candidate @ t=1.50 nphase=12 helA=+1
+  SELECTED verdict t=0.25 nphase=16 ampA=0.001 drift=7.62% (blind key; Tw/Wr/H not used) from 2 candidates
+  VERDICT n+1_f-1: t=0.25 H=+2.0000 spread=0.0000 margin_ok=True drift_phys=7.616%
+
+======================================================================
+  BRANCH n-1_f+1
+======================================================================
+  [n-1_f+1 t= 0.25] ----  drift_phys=7.616%
+  [n-1_f+1 t= 0.50] ring helA=+1 W=-1.000 Tw=+0.000 Wr=-0.015 H=-2.015 bins=16/16 phase=16/16 drift_phys=15.636%
+      candidate @ t=0.50 nphase=16 helA=+1
+  [n-1_f+1 t= 0.75] ring helA=+1 W=-1.000 Tw=-0.000 Wr=+0.281 H=-1.719 bins=16/16 phase=16/16 drift_phys=16.940%
+      candidate @ t=0.75 nphase=16 helA=+1
+  [n-1_f+1 t= 1.00] ring helA=+1 W=-1.000 Tw=-0.000 Wr=+0.007 H=-1.993 bins=16/16 phase=16/16 drift_phys=8.757%
+      candidate @ t=1.00 nphase=16 helA=+1
+  [n-1_f+1 t= 1.25] ring helA=-1 W=-1.000 Tw=+0.000 Wr=-0.204 H=-2.204 bins=16/16 phase=16/16 drift_phys=11.548%
+      candidate @ t=1.25 nphase=16 helA=-1
+  [n-1_f+1 t= 1.50] ring helA=+1 W=-1.000 Tw=+0.000 Wr=-0.354 H=-2.354 bins=16/16 phase=16/16 drift_phys=23.505%
+      candidate @ t=1.50 nphase=16 helA=+1
+  SELECTED verdict t=1.00 nphase=16 ampA=1.418 drift=8.76% (blind key; Tw/Wr/H not used) from 5 candidates
+  VERDICT n-1_f+1: t=1.00 H=-1.9929 spread=0.0592 margin_ok=True drift_phys=8.757%
+
+======================================================================
+  BRANCH n-1_f-1
+======================================================================
+  [n-1_f-1 t= 0.25] ring helA=+0 W=-1.000 Tw=+0.000 Wr=+0.000 H=-2.000 bins=16/16 phase=16/16 drift_phys=7.616%
+      candidate @ t=0.25 nphase=16 helA=+0
+  [n-1_f-1 t= 0.50] ring helA=+0 W=-1.000 Tw=+0.000 Wr=+0.006 H=-1.994 bins=16/16 phase=12/16 drift_phys=15.636%
+      candidate @ t=0.50 nphase=12 helA=+0
+  [n-1_f-1 t= 0.75] ring helA=-1 W=+nan Tw=+nan Wr=-0.531 H=+nan bins=16/16 phase=10/16 drift_phys=16.940%
+  [n-1_f-1 t= 1.00] ring helA=+1 W=+nan Tw=+nan Wr=+0.042 H=+nan bins=16/16 phase=6/16 drift_phys=8.757%
+  [n-1_f-1 t= 1.25] ring helA=+1 W=+nan Tw=+nan Wr=-0.541 H=+nan bins=16/16 phase=7/16 drift_phys=11.548%
+  [n-1_f-1 t= 1.50] ring helA=-1 W=+nan Tw=+nan Wr=+0.342 H=+nan bins=16/16 phase=5/16 drift_phys=23.505%
+  SELECTED verdict t=0.25 nphase=16 ampA=0.001 drift=7.62% (blind key; Tw/Wr/H not used) from 2 candidates
+  VERDICT n-1_f-1: t=0.25 H=-2.0000 spread=0.0000 margin_ok=True drift_phys=7.616%
+
+======================================================================
+  OUTCOME TABLE (protocol 2026-08-03)
+======================================================================
+  True-mirror checks:
+    (1, 1)<->(-1, -1): H=+1.933,-2.000 sum=-0.067 rel=3.40% OK
+    (1, -1)<->(-1, 1): H=+2.000,-1.993 sum=+0.007 rel=0.36% OK
+  All four verdicts: True
+  All margins pass:  True
+  Per-branch sign(H) vs sign(n):
+    n=-1 f=-1: H=-2.0000  sign(H)/sign(n)=+1
+    n=-1 f=+1: H=-1.9929  sign(H)/sign(n)=+1
+    n=+1 f=-1: H=+2.0000  sign(H)/sign(n)=+1
+    n=+1 f=+1: H=+1.9331  sign(H)/sign(n)=+1
+
+  BOOKING: overall sign BOOKABLE at candidate grade (configuration-local only)
+  Unchanged: branch closure (A flips with n); link 5 NEG; Fermi unreadable.
+======================================================================
+
+  wrote docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch/summary.json  elapsed 9009s
+DONE. Review docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch/summary.json for mirror residual (target <5%).
+Decomposition: 2n / Tw / Wr per branch in series + summary.

@@ -1,0 +1,46 @@
+============================================================================
+WHAT THE CHAIN WAS DOING WHEN THE BAND WAS READ
+============================================================================
+  band registered      2026-07-11 20:25  (commit a48b2a1e)
+  zon progress row     2026-07-11 20:03  R-1 = 93.10
+  the chains' target                     R-1 = 0.05
+  ratio                                  1862x
+
+  the next and final row that chain wrote, 2026-07-12 01:10: R-1 = 40.36
+  its successor cmp_prtoe_zon_disp reached R-1 = 11.87 at best, then stopped
+  and was archived as collapsed. Neither is running.
+
+  A posterior interval read at R-1 = 93 is not a measurement of anything. It is the
+  spread of a chain that has not found the distribution yet, and such a spread is
+  typically far too NARROW rather than too wide, since the chain has not yet explored.
+
+============================================================================
+WHAT THE BAND WAS TAKEN TO SHOW, AND WHAT SURVIVES
+============================================================================
+  the registry's reading: the band sits 2.2% below 3.alpha, so P-2026-040
+  is a bet against a running instrument rather than a fit. That framing is sound --
+  registering against an unconverged chain is legitimate PRE-REGISTRATION.
+
+  What is not sound is using the same band as a CONSTRAINT, which later work did:
+    - 'd = 3 is excluded at every scale' rested on the band's top being below 3.alpha;
+    - the three-way conflict on d counted the band as one of its three constraints.
+  Both inherit R-1 = 93 and neither survives it.
+
+============================================================================
+THE d PICTURE WITH THE BAND WITHDRAWN
+============================================================================
+  constraint                                       d
+  ----------------------------------------------------
+  the spatial dimension (theory)              3.0000
+  the observed dark-energy density            2.9934
+  the hierarchy anchor exact landing          2.9211
+  the indirect band                        WITHDRAWN
+
+  Theory and observation agree to 0.22% -- which is the floor's recorded
+  +0.44%, since rho goes as d^2. The anchor sits 2.63% below both.
+
+  So there is no three-way conflict. There is the single exposure section 6f already
+  named: the anchor's exact landing wants a coupling weaker than the infrared limit,
+  and cannot have it at any scale. Removing the band does not weaken the corpus --
+  it removes an apparent second constraint that was never entitled to the name, and
+  leaves the picture simpler and better than the three-way reading described.

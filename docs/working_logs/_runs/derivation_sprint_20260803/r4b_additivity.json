@@ -1,0 +1,39 @@
+{
+  "claim": "IF shared log-additivity AND NR equipartition THEN exponent = d/2",
+  "axiom_derived": false,
+  "equipartition_under_NR": true,
+  "rows": [
+    {
+      "additivity_weight_w": 1.0,
+      "exponent": 1.5,
+      "M_eff_over_M": 4.4816890703380645,
+      "note": "w=1 full shared additivity; w<1 incomplete co-addition"
+    },
+    {
+      "additivity_weight_w": 0.9,
+      "exponent": 1.35,
+      "M_eff_over_M": 3.8574255306969745,
+      "note": "w=1 full shared additivity; w<1 incomplete co-addition"
+    },
+    {
+      "additivity_weight_w": 0.5,
+      "exponent": 0.75,
+      "M_eff_over_M": 2.117000016612675,
+      "note": "w=1 full shared additivity; w<1 incomplete co-addition"
+    },
+    {
+      "additivity_weight_w": 0.0,
+      "exponent": 0.0,
+      "M_eff_over_M": 1.0,
+      "note": "w=1 full shared additivity; w<1 incomplete co-addition"
+    }
+  ],
+  "correlated_riders": [
+    "hierarchy -3/2",
+    "A_s shot count",
+    "n_s variance-linearity",
+    "Koide power reading"
+  ],
+  "source": "PRTOE_INDEPENDENCE_AUDIT.md row 8; R4-additivity-neck",
+  "page_curve_claimed": false
+}

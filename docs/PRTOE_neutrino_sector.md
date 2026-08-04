@@ -1,10 +1,18 @@
 # Neutrino sector — dark energy sets the lightest mass
 
-Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+> ## Residual freeze — consistency stamp (2026-08-04)
+>
+> **COMPLETE-CONDITIONAL** on the relation + m_ββ window. **Not** a booked Σm_ν joint posterior (that is [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md) / OPEN-MACHINE: waits on `dyad_mnu_bbnfix` book).
+>
+> **Fairbank HOLD** · **m_ββ package READY not posted:** `papers/neutrino-mbb/` + [arXivReady](arXivReady/README.md) are **READY_PACKAGE**; owner submitted to Fairbank 2026-08-03; **no arXiv post**. Owner prep: [arxiv_owner_prep_20260804](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md). Full honesty package: [neutrino_full_honesty_20260804](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
+>
+> **Forbidden:** invent joint posteriors; claim package “posted”; invent second Fairbank TeX; treat null 0νββ as confirmation.
+
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Home / joint-fit residual: [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md). Letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md).
 
 Consolidates the model’s most experiment-facing claim block. Components range from recorded (Majoron structure, P-2026-012/020) to exploratory (ρ_inf closure, on review hold). Relevant tests: ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
 
-**Status.** Mass relation and 0νββ window established. Open: exact μ value, flavor-distribution calculation, next falsifiable Majoron consequence, ρ_inf closure.
+**Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path: **neutrino-mbb READY not posted** under Fairbank HOLD. Open: exact μ value, flavor-distribution calculation, next falsifiable Majoron consequence, ρ_inf closure; joint Σm_ν booking lives on home / bbnfix.
 
 ## 0. Claims
 
@@ -148,3 +156,23 @@ Still open:
 - pure number b in ρ_inf = b·m₁⁴
 - settling calculation for mass sharing among eigenstates
 - α_c instrument for occupancy-corrected ρ_inf closure (zon_disp — unconverged, not currently running)
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Majorana → 0νββ required (P-2026-020) | **registered** | §0 claim 1 | Detection above ceiling kills; null does not |
+| 2 | m₁ = ρ_Λ¼ = 2.25 meV (one number, two jobs) | **complete-conditional** / existence | §0 claim 2 | Does not derive 2.25; μ un-derived |
+| 3 | Σm_ν = 61.4 meV normal ordering (relation) | **complete-conditional** | NuFIT + m₁; P-004 ordering | Not a discriminator vs floor (2.6 meV); **≠ booked joint posterior** (home / bbnfix) |
+| 4 | m_ββ ∈ [0.04, 5.3] meV | **machine-backed** | §3; phases free | Floor soft/coin-toss on θ₁₂; ceiling stable |
+| 5 | Funnel edge m₁* ≈ ρ_Λ¼ at centrals (~0.45%) | **machine-backed** arithmetic | `funnel_edge_identity.py` | ±0.24 meV θ₁₂ band → ~0.04σ; not precision coincidence |
+| 6 | Only nEXO overlaps ceiling; ~10.8% phase space | **machine-backed** / literature reach | experiment table | Ba tagging weakens discrimination |
+| 7 | Exact μ; flavor distribution; ρ_inf closure | **OPEN-BLOCKED** | §2 open | **OPEN-THEORY** + α_c instrument offline |
+| 8 | `neutrino-mbb` arXiv package | **READY_PACKAGE** not posted | papers/ · arXivReady · arxiv_owner_prep | Fairbank HOLD; hep-ph endorsement; desk does not post |
+| 9 | Fairbank correspondence / letter | **WATCH-EXTERNAL** / **HOLD** | fairbank_note_draft; HOLD companion | Owner-only; not a second TeX package |
+
+**Non-claims:** not derived DE value; not flavor structure; not confirmation via null; not booked Σm_ν joint; not “posted to arXiv.”
+
+**Triage:** elevate-in-place. Physics ceiling: registered experiment-facing; mechanism residual **OPEN-BLOCKED**; ship path READY under Fairbank HOLD (2026-08-04).

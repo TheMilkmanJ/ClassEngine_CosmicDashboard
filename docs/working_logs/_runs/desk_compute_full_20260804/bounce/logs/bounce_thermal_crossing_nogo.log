@@ -1,0 +1,36 @@
+==============================================================================
+bounce thermal-crossing no-go  (T = T_c vs H=0, Ḣ>0)
+==============================================================================
+  T_c            = 1.771e+05 eV = 177.10 keV
+  rho_bounce     = 1.259e+12 eV^4   (^(1/4) = 1.059e+03 eV)
+  rho_rad(T_c)   = 3.479e+21 eV^4   (^(1/4) = 2.429e+05 eV, g*=10.75)
+  rho_rad/rho_bounce = 2.764e+09   (9.44 dex)
+  rho_rad/rho_Lambda = 1.357e+32
+  |rho_bare|~rho_L / rho_rad(T_c) = 7.367e-33  (bare is invisible at T_c)
+
+  Canonical FRW at radiation-dominated T_c:
+    rho + p  ≈ (4/3) rho_rad = 4.639e+21 eV^4  > 0
+    => Ḣ = −4πG(ρ+p) < 0
+    => bounce condition Ḣ > 0 FAILS
+
+  Required noncanonical budget to flip the sign at T_c:
+    need  rho_X + p_X  <  −4.639e+21 eV^4
+    i.e. |rho_X + p_X| scale ≳ 2.610e+05 eV
+    vs rho_bounce scale          1.059e+03 eV
+    ratio need/rho_bounce      ≈ 3.685e+09
+
+  Flat H = 0 still requires rho_tot = 0 even in the historical
+  F-modified Friedmann form 3 F H² + 3 H Ḟ = ρ_tot (K=0):
+    setting H=0 forces ρ_tot = 0; Ḟ selects the branch, not the zero.
+
+  Hot-start gap (already in rho_bounce.py), restated:
+    T=1 MeV: rho_rad/rho_bounce = 2.809e+12 (12.4 dex)
+    T=2 MeV: rho_rad/rho_bounce = 4.495e+13 (13.7 dex)
+    T=4 MeV: rho_rad/rho_bounce = 7.192e+14 (14.9 dex)
+
+VERDICT:
+  Thermal crossing at T_c is a MELT THRESHOLD only.
+  It does not produce H=0 with Ḣ>0 in canonical FRW.
+  The missing crunch-sector X (or live modified branch) is still open.
+  Do not promote the thermal picture to a derived bounce.
+==============================================================================

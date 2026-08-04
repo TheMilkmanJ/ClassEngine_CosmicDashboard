@@ -1,0 +1,31 @@
+======================================================================
+#11 ANALYTIC BACKBONE -- amplitude from abundance-pinned Psi0
+======================================================================
+
+  target eps = 1.24% ;  eps = c*f_amp*(Psi0/M_red),  c=1.0, f_amp=0.6
+  => needs Psi0/M_red = eps/(c*f_amp) = 2.07%
+
+      m [eV]      z_osc   Psi0 [GeV]  Psi0/M_red  eps=cf(Psi0/M)
+  --------------------------------------------------------------
+       1e-22    2.7e+06     1.95e+17       8.00%           4.80%
+       1e-21    8.5e+06     1.10e+17       4.50%           2.70%
+       5e-21    1.9e+07     7.32e+16       3.01%           1.80%
+       1e-20    2.7e+07     6.16e+16       2.53%           1.52%
+       2e-20    3.8e+07     5.18e+16       2.13%           1.28%
+       5e-20    6.0e+07     4.12e+16       1.69%           1.01%
+
+----------------------------------------------------------------------
+INVERSION -- the amplitude PINS the mass (Psi0/M_red ~ m^-1/4):
+  eps=1.24% (with c=1, f_amp=0.6)  =>  m = 2.24e-20 eV
+  at that m:  Psi0 = 5.03e+16 GeV,  z_osc = 4.0e+07,  Psi0/M_red = 2.07%
+----------------------------------------------------------------------
+READS:
+ * Psi0 ~ 1e17 GeV and Psi0/M_red are DERIVED from the DM abundance
+   (leading-order misalignment; O(1) anharmonic/onset factors ~2x).
+ * The amplitude is in the RIGHT DECADE by itself -- but hitting 1.24%
+   exactly requires m ~ few x 1e-20 eV (heavier than the 1e-21 fuzzy-DM
+   fiducial by ~20x).  So #11 + abundance => a MASS PIN (links to #9).
+ * STILL OWED (needs WSL stiff ODE / loop): f_amp from the genesis orbit,
+   c from the effective-action loop (#14), and the O(1) misalignment
+   factors.  Those move the pinned m by factors, not orders.
+----------------------------------------------------------------------

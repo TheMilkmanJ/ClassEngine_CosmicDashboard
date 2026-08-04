@@ -1,0 +1,3 @@
+
+usage: crossval_hiclass.py [-h] --class_dir CLASS_DIR --model {prtoe,hi_class}
+crossval_hiclass.py: error: the following arguments are required: --class_dir, --model

@@ -1,0 +1,72 @@
+==============================================================================
+  #13 TASKS 4 & 5 — THE HANDOVER SIGN
+==============================================================================
+
+  H = 0  <=>  rho_total = 0      Hdot > 0  <=>  rho + p < 0
+
+  B-A  a w = -1 component contributes EXACTLY zero to rho + p
+  ok    B-A1 (1+w)rho = 0 for w = -1 at any rho, either sign   max |contribution| = 0.0
+       -> the vacuum's SIGN is irrelevant here: a negative Lambda is just
+          as inert in the Hdot equation as a positive one.
+
+  B-B  TASK 4: negative vacuum + Tolman radiation
+  ok    B-B1 rho + p > 0 for every combination scanned   9 combinations, 0 non-positive
+  ok    B-B2 so Hdot < 0 always -> NO BOUNCE from these two   rho+p = (4/3) rho_r, the vacuum drops out entirely
+
+  B-C  but H = 0 IS reachable — the failure is specifically in Hdot
+  ok    B-C1 rho_total = 0 at a finite scale factor   a = 1.0000, rho_total = 0.00e+00
+  ok    B-C2 and rho + p there is POSITIVE, so it is a turnaround not a bounce   rho+p = 1.3333 > 0
+
+  B-D  TASK 5: a NEGATIVE STIFF component supplies the sign
+  ok    B-D1 negative stiff (w=+1, rho<0) gives (1+w)rho = 2rho < 0   -2.0
+
+           a   rho_rad ~ a^-4   |rho_stiff| ~ a^-6  dominant
+       1.000                1                    1  radiation
+       0.100            1e+04                1e+06  stiff
+       0.010            1e+08                1e+12  stiff
+       0.001            1e+12                1e+18  stiff
+  ok    B-D2 stiff (a^-6) overtakes radiation (a^-4) under contraction   subdominant today, dominant at maximum compression — exactly where a bounce needs it
+
+  B-E  ANTI-CONTROL: is it specifically NEGATIVE and specifically STIFF?
+  ok    B-E1 POSITIVE stiff does NOT flip the sign   (1+w)rho = 2.0 > 0
+  ok    B-E2 negative MATTER (w=0) flips the sign too...   -1.0
+  ok    B-E3 ...but scales a^-3, so it never comes to dominate   a^-3 < a^-4 < a^-6 under contraction — matter loses to radiation
+       -> so 'stiff' is load-bearing, not decorative: the sign flip needs
+          NEGATIVE energy, and the domination needs w = +1 specifically.
+
+==============================================================================
+  RESULT — BOTH TASKS ANSWERED
+==============================================================================
+
+  TASK 4: NO, AND FOR A REASON THAT ADMITS NO TUNING. A w = -1 component contributes
+  EXACTLY zero to rho + p, because 1 + w vanishes identically. The vacuum's sign is
+  irrelevant -- a negative Lambda is as inert in the Hdot equation as a positive one.
+  So rho + p = (4/3) rho_r > 0 for every combination, Hdot < 0 always, and no bounce
+  can be built from these two components at any epoch or ratio. This is not a
+  near-miss to be closed by better numbers; the term is identically absent.
+
+  The pair does deliver H = 0 -- radiation's a^-4 growth crosses the constant vacuum
+  under contraction -- but crossing H = 0 with Hdot < 0 is a TURNAROUND, expansion to
+  contraction, the opposite of what is wanted. The two components supply the easy
+  condition and not the one that matters.
+
+  TASK 5: THE MISSING COMPONENT IS A NEGATIVE-ENERGY STIFF ONE, w = +1, rho < 0.
+  Hdot > 0 requires sum (1+w_i) rho_i < 0, so some component needs either phantom
+  behaviour (w < -1 at positive energy) or negative energy at w > -1. Negative stiff
+  takes the second route, giving (1+w)rho = 2 rho < 0, and its a^-6 scaling means it
+  is subdominant today and takes over precisely at maximum compression.
+
+  BOTH QUALIFIERS ARE LOAD-BEARING (B-E). Positive stiff does not flip the sign at
+  all. Negative MATTER does flip it but scales a^-3 and never comes to dominate. So
+  the workplan's phrase "stiff or effectively stiff" is doing real work: the sign
+  needs the negative energy, the domination needs w = +1.
+
+  WHAT REMAINS, AND IT IS NOW A SINGLE NAMED OBJECT. The load-bearing open variable
+  is a negative-energy stiff component in the crunch sector -- its existence, its
+  magnitude, and whether the model's own content supplies one. The workplan already
+  warned that "the reversal mechanism is not hidden in the white-hole label; it still
+  has to come from a sector-local rho_X(T) or branch-changing Fdot(T)." That warning
+  is now sharper: whatever supplies it must be negative-energy and stiff, which is a
+  much narrower target than "a source term".
+
+EXIT:0

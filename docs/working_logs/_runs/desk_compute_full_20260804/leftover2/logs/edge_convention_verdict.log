@@ -1,0 +1,29 @@
+==============================================================================
+Every admissible edge pairing, priced — docket #124's verdict arithmetic
+==============================================================================
+
+   O(λ) factor e^(−(c+a)) = 0.343029
+   shooter (as quoted, provenance NOT in repo): 13.0–20.0 TeV
+
+   convention                          band [TeV]     min gap   max gap
+   A booked (two-term × full O(λ))    0.549–1.784     7.29×   36.44×
+   B control-spread (bottom-point)    0.541–1.576     8.25×   36.99×
+   A × exact-solution (×2)            1.098–3.568     3.64×   18.22×
+   B × exact-solution (×2)            1.081–3.152     4.12×   18.50×
+
+   the most anchor-favorable pairing in the table: 3.64× — NO OVERLAP.
+
+   ratio-convention fix (the files' inconsistency): the honest range is
+   nearest-edges to farthest-edges: 7.3× to 36.4× under the booked convention
+   (the recorded '24×' was 13/bottom — a mixed pairing; the recorded
+   '5.4×' was display-propagated where the source gives 5.50).
+
+VERDICT: the 2026-07-20 conclusion is CONFIRMED BY COMPUTATION —
+   no anchor-edge convention closes the gap (minimum 3.6× under the
+   most favorable admissible pairing; the two band definitions agree
+   on the verdict within their 11%). The arrow fell, not the
+   convention. The one open item is the SHOOTER side: 13–20 TeV has
+   no recorded computation in this repository — the verdict's other
+   leg rests on an unreproduced number, recorded as the closure's
+   standing caveat.
+==============================================================================

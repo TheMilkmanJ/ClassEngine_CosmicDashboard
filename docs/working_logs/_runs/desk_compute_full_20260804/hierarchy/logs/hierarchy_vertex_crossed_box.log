@@ -1,0 +1,25 @@
+docket #141 — the crossed box on §6c's host
+
+  alpha_c = 0.02189206   k = 1.36461191   lambda = 0.02987416
+  b = 2 alpha_c/pi = 0.01393692   m_D/2k_F = sqrt(b) = 0.118055
+  <V>_FS = (e^2/4) ln(1+1/b) = 0.29484617
+  check lambda = <V>/pi^2 -> 0.02987416
+
+  geometry check — region-A volume vs analytic lens complement
+    Q = 0.30   got 0.9354092126   want 0.9354092126   rel 1.33e-15
+    Q = 0.90   got 2.6365816345   want 2.6365816345   rel 3.11e-15
+    Q = 1.40   got 3.6798521949   want 3.6798521949   rel 1.55e-15
+    Q = 1.90   got 4.1733440409   want 4.1733440409   rel 4.44e-16
+
+  GMB check (contact V, parabolic band): got 0.79543145  want (1+ln4)/3 = 0.79543145  rel 5.02e-11
+
+  brute-force cartesian C(u) vs the reduced (s,t) integral:
+    u = 0.05   brute 2.350872e-02   reduced 2.353470e-02   rel 1.10e-03
+    u = 0.30   brute 6.636478e-03   reduced 6.662828e-03   rel 3.95e-03
+    u = 0.70   brute 2.865277e-03   reduced 2.879602e-03   rel 4.97e-03
+
+  convergence in (nu, nt, ns):
+    n =  24   c = 0.7892624583
+
+
+[TIMEOUT after 180s]

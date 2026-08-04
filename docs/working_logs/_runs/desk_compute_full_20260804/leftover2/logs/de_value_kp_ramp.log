@@ -1,0 +1,34 @@
+r* = 0.3976
+RAMP-1  Omega_L/Omega_m vs phase a0 (rho_L=r*, rho_m(a0)=1/a0^3):
+   a0=0.20: OmL/Omm=0.0032
+   a0=0.30: OmL/Omm=0.0107
+   a0=0.40: OmL/Omm=0.0254
+   a0=0.50: OmL/Omm=0.0497
+   a0=0.60: OmL/Omm=0.0859
+   a0=0.70: OmL/Omm=0.1364
+   a0=0.80: OmL/Omm=0.2036
+   a0=0.90: OmL/Omm=0.2898
+   a0=1.00: OmL/Omm=0.3976
+   monotonic-increasing to turnaround? True;  MAX (at a0=1) = 0.398  << observed 2.2  -> cap CONFIRMED by sweep
+
+RAMP-2  sweep sequestering coefficient C -> self-consistent r*(C) and the ratio cap:
+   C=0.10: r*=0.176  (cap Omega_L/Omega_m=0.176)
+   C=0.25: r*=0.398  (cap Omega_L/Omega_m=0.398)
+   C=0.50: NO closed-universe root in valid range (C too large -> no turnaround)
+   C=0.75: NO closed-universe root in valid range (C too large -> no turnaround)
+   C=1.00: NO closed-universe root in valid range (C too large -> no turnaround)
+   C=2.00: NO closed-universe root in valid range (C too large -> no turnaround)
+   -> even C=2 (8x the KP 1/4) tops out ~O(1); reaching 2.2 needs C where no closed solution exists. Cap robust.
+
+RAMP-3  FLAT universe, matter+Lambda, 4-vol over [0, t_max]:  <rho_m> = int(rho_m a^3 dt)/int(a^3 dt)
+
+Traceback (most recent call last):
+  File "/home/themilkmanj/prtoe_class/scripts/de_value_kp_ramp.py", line 46, in <module>
+    avg,af=flat_avg(L,tmax)
+           ^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/prtoe_class/scripts/de_value_kp_ramp.py", line 42, in flat_avg
+    num=np.trapz(rho_m*a**3, ts); den=np.trapz(a**3, ts)
+        ^^^^^^^^
+  File "/home/themilkmanj/.local/lib/python3.12/site-packages/numpy/__init__.py", line 792, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {attr!r}")
+AttributeError: module 'numpy' has no attribute 'trapz'. Did you mean: 'trace'?

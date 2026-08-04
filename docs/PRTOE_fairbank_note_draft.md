@@ -2,7 +2,9 @@
 
 *2026-07-19. Self-contained; plain physics.*
 
-*Status: experimental note. The bridge to the neutrino sector is a registered model relation, not a first-principles derivation.*
+*Status: **experimental letter** · **CORPUS_ONLY** (not an arXiv package; ship path = `neutrino-mbb` only). The bridge to the neutrino sector is a registered model relation, not a first-principles derivation. **HOLD** — desk does not email Fairbank, invent endorsement, or invent a second Fairbank TeX.*
+
+> **Currency residual freeze — 2026-08-04.** Live bbnfix progress (quote R−1 **with N and timestamp**, not date alone): model `dyad_mnu_bbnfix` R−1 = **0.128943** (N=20302, t=2026-08-04T03:25:56; was **0.189201**@N=18837 — still ~2.58× stop), twin `cmp_lcdm_mnu_bbnfix` R−1 = **0.086466** (N=20409, t=2026-08-04T05:21:52; was **0.059055**@N=19013 — **receding**, now **1.73×** stop); both checkpoints `converged: false`. **NOT bookable.** Do **not** quote H₀ / joint posteriors as results until `scripts/book_bbnfix_when_ready.py` passes (requires both R−1 < 0.05 **and** self-stop). Supersedes any “as of 2 August R−1 = 0.19 / 0.14”, mid-day “0.189 / 0.059”, or “~1.18× closest” as-current language. Cross-links: [neutrino_full_honesty](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md) · [arxiv_owner_prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md) · [neutrino_home](PRTOE_neutrino_home.md) · [HOLD companion](exploratory/PRTOE_fairbank_note_HOLD.md) · [machine_r1_currency_20260804c](working_logs/_runs/machine_r1_currency_20260804c/REPORT.md).
 
 ## Result in three sentences
 
@@ -75,12 +77,12 @@ Shifted calibration frees damping-tail budget that ΛCDM spends against neutrino
 
 ## Status of the cosmological fits
 
-Fits match or modestly outperform ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES at H₀ ≈ 69.9 (sound-horizon driven; holds with SH0ES included though that calibration pulls the other way). **Not final:** chains are still being brought to convergence under a corrected sampler; the value may move.
+Provisional fit diagnostics (sound-horizon driven; SH0ES included though that calibration pulls the other way) have sat near H₀ ≈ 69.9 on Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES. **Do not quote H₀ ≈ 69.9, any “outperform ΛCDM” claim, or a best-fit comparison as a result.** Chains are still being brought to convergence under a corrected sampler; the value may move.
 
 **A stopped run from late July looked better than it was, and we stopped it rather than quote it.** Best fit 1377.89 (model) vs 1379.79 (ΛCDM) — 1.9 log units our way. **That number was never quotable.** Its three parallel chains sat at best fits **1377.9, 1610.6, 1440.6** with H₀ = 69.5, 64.0, 64.8 — three regions, not one posterior. The 1377.89 was one chain that found a good region. The reference ΛCDM chains were better behaved (spread 0.43) but not converged either. Acceptance was **5.3–6.2%** (model) and 8.5–8.9% (ΛCDM) vs a ~25% target; proposal poorly matched. Re-tuning is a collective checkpoint all ranks must reach; one rank lagged and the other two waited. **No convergence statistic was computed for that run** (empty progress file). Proposal reseeded from the good chain; acceptance moved to **31%**.
 
 *(Earlier draft blamed a re-tuning gate behind a convergence threshold. That gate is real and might have mattered next, but it was never reached; that claim is withdrawn. Fact remains: proposal was not re-tuned and the three chains never merged.)*
-**We do not claim the comparison as a result.** The matched relaunch that replaced that run has merged the basins (every sampled parameter agrees across ranks to within ~0.6 within-chain s.d.) and is *converging but not yet quotable*: as of 2 August, R−1 = 0.19 (model) and 0.14 (the ΛCDM+m_ν twin) against the 0.05 stop.
+**We do not claim the comparison as a result.** The matched relaunch that replaced that run has merged the basins (every sampled parameter agrees across ranks to within ~0.6 within-chain s.d.) and is *converging but not yet quotable*: progress R−1 = **0.128943** (model `dyad_mnu_bbnfix`, N=20302, t=2026-08-04T03:25:56; was 0.189 earlier — still ~2.58× stop) and **0.086466** (ΛCDM+m_ν twin, N=20409, t=2026-08-04T05:21:52; was 0.059@N=19013 — **receding**, now **1.73×** stop) against the 0.05 stop — both still not self-stopped; **NOT bookable**; do not quote H0/posteriors as results until `book_bbnfix_when_ready.py` passes.
 
 **Further reasons that stopped run could never have been claimed:** its model chain had 1.79× more samples (best-fit is a running minimum that favours the longer chain); neither side had converged (ΛCDM R−1 ≈ 1.0; the model run never produced an R−1 at all); and best fit is not evidence (no parameter penalty — the whole point when one model has fewer parameters). **The live comparison today is the relaunched pair above, and it is not quotable either way until R−1 reaches its stop.** Standing evidence number remains the marginal, SH0ES-conditional Laplace estimate below.
 
@@ -145,3 +147,20 @@ Framing: 0νββ decides whether lepton number is an enforced charge (field-back
 ---
 
 *Trace: [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md), [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md), [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Σm_ν = 61.4 meV NO; m_ββ ∈ [0.04, 5.3] meV | **complete-conditional** | neutrino_sector bridge | Relation registered, not first-principles; **≠** booked joint posterior |
+| 2 | Only nEXO overlaps; null does not confirm | **machine-backed** / literature | experiment tables | Phases can cancel |
+| 3 | Does not derive 2.25 meV | **honest fence** | qualifications | One number, two jobs |
+| 4 | Fit status / multi-basin stopped run not quotable; H₀ ≈ 69.9 and “outperform” demoted; live R−1 lcdm **0.086466**@N=20409 t=2026-08-04T05:21:52 (was 0.059 — **receding** 1.73×) / dyad **0.128943**@N=20302 | **honest constraint** | status section; progress | **NOT bookable**; no peek H₀ as result; joint waits `dyad_mnu_bbnfix` book via `book_bbnfix_when_ready.py` |
+| 5 | Experimental letter draft (Fairbank) · **CORPUS_ONLY** | **meta** / draft · **HOLD** | banner; HOLD companion | **WATCH-EXTERNAL:** correspondence not production booking; desk does not email |
+| 6 | Ship vehicle is `neutrino-mbb` only | **READY_PACKAGE** not posted | arXivReady; arxiv_owner_prep | **No** second Fairbank TeX; **no** arXiv post without endorsement/ID |
+
+**Non-claims:** not A4 production; not confirmation path via null; not MaVaN; not arXiv-posted; not invent endorsement; not invent posteriors; not peek H₀ as result.
+
+**Triage:** elevate-in-place (draft note · CORPUS_ONLY). Physics ceiling: registered relation packaging. Cross-links: [neutrino_home residual freeze](PRTOE_neutrino_home.md) · [arxiv_owner_prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md) · [neutrino_full_honesty](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md) · [fairbank currency package](working_logs/_runs/fairbank_currency_20260804/REPORT.md).

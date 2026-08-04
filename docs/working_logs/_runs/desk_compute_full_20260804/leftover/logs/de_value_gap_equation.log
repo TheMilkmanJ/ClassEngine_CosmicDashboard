@@ -1,0 +1,27 @@
+=== (A) The gap equation gives a WELL-DEFINED T_c (no log ambiguity). RAMP over coupling g ===
+  critical coupling g_c = 2 (I(0)=1/2). Above it, T_c/Lambda = tau(g):
+      g  tau=Tc/Lam
+   2.10      0.1205
+   2.50      0.2645
+   2.86      0.3534
+   3.50      0.4888
+   5.00      0.7706
+   8.00      1.2952
+  -> monotonic, finite, unique. The NJL gap equation RESOLVES the perturbative log-ambiguity.
+
+=== (B) Set the compositeness scale Lambda = m_e (electron-pair composite): what g gives the DE value? ===
+  DE-exact (176 keV): tau=0.344 -> g=2.821  -> DE=(9/2)a^4 T_c = 2.246 meV (1.00x)
+  model central (193 keV): tau=0.378 -> g=2.968  -> DE=(9/2)a^4 T_c = 2.463 meV (1.09x)
+
+=== (C) RAMP the compositeness scale Lambda (is m_e special?) at fixed strong g=3 ===
+  at g=3: tau=T_c/Lambda=0.385
+  Lambda= 100 keV -> T_c=  38.5 keV -> DE=0.22x
+  Lambda= 300 keV -> T_c= 115.4 keV -> DE=0.65x
+  Lambda= 511 keV -> T_c= 196.6 keV -> DE=1.11x
+  Lambda= 900 keV -> T_c= 346.2 keV -> DE=1.96x
+
+VERDICT: the gap equation gives a WELL-DEFINED T_c = Lambda*tau(g) -- the perturbative log-ambiguity
+is GONE. The DE value becomes rho_L^1/4 = (9/2)a^4 Lambda tau(g). For Lambda=m_e and g~2.6-2.9
+(moderately above the critical g_c=2), T_c ~ 176-193 keV -> DE ~ 1.0-1.1x. The residual is now TWO
+PHYSICAL medium-compositeness inputs (Lambda, g), not a scheme choice. Progress: ill-defined -> well-
+defined-given-(Lambda,g). NOT a closure: Lambda=m_e and g~2.8 are natural but not yet DERIVED.

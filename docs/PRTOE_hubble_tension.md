@@ -1,8 +1,44 @@
 # Hubble tension — mechanism, residual, calibration
 
-Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Chains: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
-**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Evidence number is **Laplace-from-MCMC** (ΔlnZ ≈ +2.6); nested sampling waits on cluster time. Chains must converge before the number is quotable as final. Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
+> ## Residual freeze — 2026-08-04 (H₀ letter **NOT bookable** until bbnfix gate)
+>
+> **Document job:** COMPLETE-CONDITIONAL — mechanism, owned residual, ladder ceiling, and
+> literature scoreboard are written. **Bookable H₀ / model−ΛCDM ΔlnZ from the live BBN-fixed
+> pair: NO.**
+>
+> **Live pair (progress authority; currency `machine_r1_currency_20260804c`):**
+>
+> | leg | N | R−1 | t | converged |
+> |---|---:|---:|---|---|
+> | `dyad_mnu_bbnfix` | 20302 | **0.128943** (~2.58× stop) | 2026-08-04T03:25:56 | **false** |
+> | `cmp_lcdm_mnu_bbnfix` | 20409 | **0.086466** (**1.73×** stop; was 0.059@N=19013 — **receding**) | 2026-08-04T05:21:52 | **false** |
+>
+> lcdm trajectory `0.053867 → 0.048827 → 0.059055 → 0.086466` — **three consecutive moves away
+> from gate after the dip** (**nearest-and-receding**, not “nearly there”). **NOT bookable**.
+>
+> **Gate:** both legs with progress R−1 **< 0.05** *and* checkpoint **`converged: true`**
+> (self-stop). Booking entrypoint only:
+> [`scripts/book_bbnfix_when_ready.py`](../scripts/book_bbnfix_when_ready.py)
+> (`python3 scripts/book_bbnfix_when_ready.py`). Gate reconfirm → **REFUSED**. Offline GetDist
+> GR / crude param R−1 peeks (`bbnfix_mcmc_watch_diag.py`) are **UNBOOKABLE** — never the
+> authority.
+>
+> **Standing numbers in this letter** (H₀ ≈ 69.9 fixed-ε; Laplace ΔlnZ ≈ +2.6,
+> SH0ES-conditional) are **pre-bbnfix** production claims. They are **not** results from the
+> live pair and must not be silently replaced by unconverged peeks. Nested sampling remains
+> offline (PolyChord not running; not started by residual freezes).
+>
+> **What unblocks a bookable H₀ sentence:** leave MCMCs alone until both bbnfix legs
+> self-stop under the bar → run `book_bbnfix_when_ready.py` only → then (manual) refresh
+> this letter from the booking card. Do **not** use `bbnfix_delta_chi2_proxy.py` peeks as
+> Laplace ΔlnZ.
+>
+> **Forbidden claims (until gate):** booked live-pair H₀ / Σm_ν / Δχ² / ΔlnZ; interim GetDist
+> tables as letter results; treating GR≈0.07/0.086 as the gate; leading with a win from peeks.
+
+**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Standing evidence number is **pre-bbnfix Laplace-from-MCMC** (ΔlnZ ≈ +2.6; SH0ES-conditional; **not** a live-pair result). Nested sampling waits on cluster time and is **not** running. Live bbnfix pair is **not bookable** (lcdm R−1 **0.086466**@N=20409 t=2026-08-04T05:21:52 — was 0.059, **receding** 1.73× stop; dyad **0.128943**@N=20302; both not self-stopped — residual freeze above). Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
 
 ---
 
@@ -18,15 +54,18 @@ One addition to known physics: early-universe electron-mass shift ε = 1.2543% (
 
 ## 3. Where it lands
 
+**Pre-bbnfix standing production claims** (not live-pair posteriors; see residual freeze):
+
 | | value | note |
 |---|---|---|
 | ΛCDM (same pipeline) | H₀ ≈ 68.2 | baseline |
-| Model (fixed ε) | H₀ ≈ **69.9** | ~half the SH0ES gap |
+| Model (fixed ε) | H₀ ≈ **69.9** | ~half the SH0ES gap; **pre-bbnfix** |
 | Ladder reach ceiling (audit) | **~70.9–71.3** | cannot reach 73 |
-| Evidence | ΔlnZ ≈ **+2.6** (Laplace) | marginal; SH0ES-conditional; no nested confirmer |
+| Evidence | ΔlnZ ≈ **+2.6** (Laplace) | **pre-bbnfix**; marginal; SH0ES-conditional; no nested confirmer; **not bookable** as the BBN-fixed pair result until gate |
 
 - Residual **owned**: model refuses the rest of the gap (curvature escape declined by fit).
 - Exhaustive lever audit (SN standardization 162 templates — sign **opposite** to tension; geometry leakage; reionization) → ladder account capped ~70.9–71.3.
+- **Live BBN-fixed pair:** do not quote H₀ / ΔlnZ from `dyad_mnu_bbnfix` / `cmp_lcdm_mnu_bbnfix` until both self-stop and [`book_bbnfix_when_ready.py`](../scripts/book_bbnfix_when_ready.py) books them.
 
 ## 4. Calibration question
 
@@ -53,7 +92,7 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 | EDE | H₀ toward 70–73 with freedom | +3 params | higher ceiling |
 | Free m_e literature | up to ~71+ with SNe / curvature | +1–2 | can re-fit amplitude |
 | Ladder systematics | H₀ ~68–70 if 73 wrong | 0 new physics | cheapest |
-| **This model** | 69.9 fixed ε; ceiling ~71 | **0** extra vs ΛCDM | — |
+| **This model** | 69.9 fixed ε; ceiling ~71 *(pre-bbnfix CosmicForge; not chain-booked)* | **0** extra vs ΛCDM | — |
 
 **Where this model is stronger:** zero extra parameters (if stack holds), one ε on all messengers, pre-registered kills. **Cheaper and more falsifiable — not better-fitting.**
 
@@ -71,3 +110,22 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 ## References
 
 [Riess 2022]; [Freedman 2021, 2025]; [Planck 2018]; [Hart–Chluba 2020]; [Sekiguchi–Takahashi 2021]; [Schöneberg et al. 2026]; [Poulin et al. 2019, 2025]; [Hill et al. 2020]; [Toda–Seto]; [Lee–Zhou 2026]; [Riess et al. 2024]. Full: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Dead H₀ routes: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ε at recombination → H₀ ≈ 69.9 (fixed-ε; ~half SH0ES gap) | **machine-backed** provisional **pre-bbnfix** | production fit; CLASS | Stack conditional; YHe re-measure pending; **live bbnfix H₀ NOT bookable** (lcdm R−1=**0.086466**@N=20409 — receding from 0.059; dyad 0.128943@N=20302; both not self-stopped) |
+| 2 | Ladder ceiling ~70.9–71.3; cannot reach 73 | **machine-backed** | H0_CEILING; ς = −1 | Residual tension owned |
+| 3 | ΔlnZ ≈ +2.6 Laplace evidence | **machine-backed** provisional **pre-bbnfix** | earlier MCMC Laplace | **OPEN-MACHINE:** **not** the live-pair result; nested offline; gate = both bbnfix R−1<0.05 **and** `converged:true` → `book_bbnfix_when_ready.py` only; peeks UNBOOKABLE |
+| 4 | ε stack c·f̄·α_c conditional | **complete-conditional** | THE_AMPLITUDE | α_c instrument not running |
+| 5 | EDE better residual tension (~2.5σ vs ~4.25σ class) | **interpretation** (literature scoreboard) | Schöneberg 2026 table | Model cheaper/falsifiable, not better-fitting; desk fairness paid (T11) |
+| 6 | SN candle term pushes ladder *down* (ς = −1) | **machine-backed** | 162-template scan | Real-SN synthetic photometry appeal open |
+| 7 | Kill: same ε on all messengers; DESI w; radio locks; He adverse | **registered** | §6 kill list | — |
+| 8 | Bookable BBN-fixed H₀ / model−ΛCDM ΔlnZ letter sentence | **OPEN-BLOCKED** | residual freeze 2026-08-04 | **OPEN-MACHINE:** wait self-stop; then `scripts/book_bbnfix_when_ready.py` |
+
+**Non-claims / forbidden:** not a closed H₀ win; not full SH0ES account; not nested-confirmed evidence; **no peek numbers as letter results**; pre-bbnfix ΔlnZ ≈ +2.6 is standing, not a live-pair booking.
+
+**Triage:** elevate-in-place. Physics ceiling: mechanism production-grade; live-pair evidence **OPEN-BLOCKED** (bbnfix gate: lcdm **0.086466**@N=20409 / dyad **0.128943**@N=20302 / **NOT bookable**).

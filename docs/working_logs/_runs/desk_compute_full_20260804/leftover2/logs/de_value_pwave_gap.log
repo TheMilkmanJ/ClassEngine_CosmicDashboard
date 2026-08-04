@@ -1,0 +1,26 @@
+=== KEY STRUCTURAL FACT: at T_c (Delta->0) the p-wave angular form factor FACTORS OUT ===
+   1 = g <(3/2)sin^2theta> * Radial, and <(3/2)sin^2theta>=1 (A-phase normalization).
+   => the p-wave T_c equation is IDENTICAL to s-wave: tau(g) is the SAME function. p-wave does NOT
+      change T_c/Lambda. RAMP over g (same as NJL): 
+      g=2.50: tau=T_c/Lambda=0.2645
+      g=2.77: tau=T_c/Lambda=0.3325
+      g=3.00: tau=T_c/Lambda=0.3847
+      g=4.00: tau=T_c/Lambda=0.5861
+   -> tau still = tau(g), COUPLING-DEPENDENT. The p-wave structure does not pin it at T_c.
+
+=== What p-wave DOES change: the T=0 gap (nodes) -> the T_c/Delta(0) ratio (A-phase vs s-wave) ===
+   s-wave BCS:  T_c/Delta_0 = 0.567;   p-wave A-phase (nodal): T_c/Delta_0 ~ 0.50 (weak-coupling).
+   -> refines the dyad-VEV consistency (hunt 218: v=Delta_0=T_c/ratio) but NOT tau=T_c/m_e.
+
+=== Is there ANY coupling-independent point? Check the mu=0 BEC-BCS crossover ===
+   s-wave unitarity: tau~0.167 (2x low, hunt 219). p-wave has NO analogous scale-free fixed point
+   (p-wave interactions are not scale-invariant; the p-wave 'unitary' point depends on the effective range).
+   -> no coupling-independent p-wave value near 0.34.
+
+=== VERDICT (honest) ===
+The p-wave gap does NOT pin tau. At T_c the chiral p-wave angular factor factors out -> tau(g) is the
+SAME coupling-dependent function as s-wave. The p-wave only refines the T=0 gap ratio (A-phase ~0.50).
+tau remains set by the medium's ACTUAL pairing coupling g_p, which is a strong-coupling O(1) NOT fixed
+by the pairing symmetry (s/p/f) -- it needs the microscopic interaction strength, not in the corpus.
+So the DE-value floor stands: rho_L^1/4=(9/2)a^4 m_e tau, tau~0.34 (whisper 1/d), DE=0.966x at 1/3.
+Building the p-wave gap CONFIRMS tau is irreducible without the medium's coupling -- not a new pin.

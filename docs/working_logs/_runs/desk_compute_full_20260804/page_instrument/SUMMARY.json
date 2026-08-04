@@ -1,0 +1,61 @@
+{
+  "stamp": "2026-08-04T09:43:03.369332+00:00",
+  "packs": [
+    "page_instrument"
+  ],
+  "timeout_s": 300,
+  "n_jobs": 3,
+  "n_exit0": 3,
+  "n_nonzero": 0,
+  "n_timeout": 0,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "page_scorecard_v13",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/page_protocol_scorecard.py",
+        "/home/themilkmanj/prtoe_class/docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/coevolve_v13.json"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:43:00.102439+00:00",
+      "exit": 0,
+      "elapsed_s": 1.967,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/page_instrument/logs/page_scorecard_v13.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "area_law_quarter",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/quantum_area_law_quarter.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:43:02.079139+00:00",
+      "exit": 0,
+      "elapsed_s": 0.269,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/page_instrument/logs/area_law_quarter.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "page_scaffold",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/quantum_page_curve_scaffold.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:43:02.363227+00:00",
+      "exit": 0,
+      "elapsed_s": 1.004,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/page_instrument/logs/page_scaffold.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

@@ -1,5 +1,15 @@
 # The Quartet Clock — Whose Mass Does the Onset Read? (2026-07-12)
 
+> ## OPEN-MACHINE residual freeze — 2026-08-04
+>
+> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on instrument verdict.
+>
+> **Machine residual waiting:** `cmp_prtoe_zon_disp` readout of registered pair call (lineup 7.55 / 7.70 / 7.85). Instrument **not running** — last progress R−1 = **17.81** (N=3456, 2026-07-22); checkpoint `converged: false`; seed ready, owner restart. Live bbnfix/routeD trio does **not** replace zon_disp.
+>
+> **What unblocks:** owner restart of `cmp_prtoe_zon_disp` → cobaya self-stop at R−1 stop → GetDist center for log10 z_on graded against §5 registered call.
+>
+> **Forbidden claims:** instrument confirmation of pair call; quoting cumulative mean ~7.55 at stop as a result; near-miss 7.5494 as measured hit.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
@@ -7,7 +17,7 @@
 > (§4a: the recorded repulsive λ forbids quartet binding; the Z4 term locks phases, not composites).
 > The §1 three-way lineup stands as the dated record only — its marks were retired by the two-clock
 > correction (§4b). The live object is §5's registered pair call (lineup 7.55 / 7.70 / 7.85), read
-> against the zon_disp instrument — unconverged (last R−1 ≈ 23) and **not currently
+> against the zon_disp instrument — unconverged (last R−1 = **17.81**, freeze 2026-08-04) and **not currently
 > running** (collapsed run archived; seed ready, owner restart). No verdict yet. Found during a
 > hygiene ritual. Conditional on: the roster hypothesis (the composite vacuum) and P-2026-040.
 
@@ -138,3 +148,20 @@ field's two real degrees of freedom, and the gap equation's independent first-pa
 (N = 2 channels, k = 1.36) — makes "2" the resident's natural count. The call is
 timestamped against the cmp_prtoe_zon_disp instrument (lineup 7.55 / 7.70 / 7.85; not
 currently running); whatever a future converged center selects, this line does not move.
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Oscillating unit is the **pair** (not quartet) | **derived** | §4a; λ>0 forbids quartet binding | Z4 locks phases not composites |
+| 2 | Registered pair call log10 z_on ≈ 7.70 (lineup 7.55/7.70/7.85) | **registered** | §5 | Quartet rung retired |
+| 3 | zon_disp instrument decides among rungs | **OPEN-BLOCKED** | freeze 2026-08-04; R−1=17.81 | **OPEN-MACHINE:** not running; no center to grade |
+| 4 | Quartet as Z4-locked molecule | **failed / retired** framing | §2 gap; §4a; Failures | — |
+| 5 | Cumulative mean ~7.55 at stop is meaningless | **honest constraint** | segment means 0.19 wide | Do not quote as confirmation |
+| 6 | Conditional on roster hypothesis + P-2026-040 | **complete-conditional** | banner | — |
+
+**Non-claims / forbidden:** no instrument verdict; near-miss 7.5494 not a result; no “confirmed by chain” language.
+
+**Triage:** elevate-in-place. Physics ceiling: pair derived; instrument **OPEN-BLOCKED** (2026-08-04).

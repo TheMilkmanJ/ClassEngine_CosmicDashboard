@@ -1,0 +1,96 @@
+========================================================================
+Phase 1 — census γ*/f from medium microphysics
+========================================================================
+
+(0) External referee only (not used as microphysics input):
+  closed-form A_s = (α_c/4πk)³ = 2.0807e-09
+  f(r=1) from closed A_s = 2.2058e-04
+  f(r=1) from measured A_s = 2.2126e-04
+  recorded medium: α_c=0.02189, c_s=0.14796, ε=0.01254,
+                   f̄=0.63662, c=0.90, k=1.36461
+
+(1) Overdamped VOS fixed point (algebra):
+  γ² = k_mom (k_mom + c_chop) / [4β(1-β)]
+  v² = k_mom (1-β) / [β (c_chop + k_mom)]
+  Radiation β=1/2 ⇒ γ = sqrt(k_mom(k_mom+c_chop)), v = sqrt(k/(c+k))
+
+(2) Curvature–friction force balance (why it is not enough alone):
+  κ = 2π/m, ξ_h = 1/(m c_s),  κ = 2π c_s ξ_h  (identity).
+  Tension μ ~ ρ_s κ² ln(ℓ/ξ_h)/(4π); friction γ_0 = ρ_s κ α_B.
+  Balance + Hubble: ξ H ~ sqrt( (κ H ln)/(4π α_B) ).
+  Problem: right-hand side still carries H (and m) → not a pure
+  constant γ* unless α_B or ln runs to cancel H. Scaling γ* = const
+  requires the dimensionless VOS reduction, not bare force balance.
+  ⇒ mutual friction must enter as dimensionless (c_chop, k_mom).
+
+(3) One-parameter overdamped maps → target f:
+  map                     α_B for γ=f     γ(α_B)         v*
+  A: k=α_B², c=1           2.2058e-04 2.2058e-04 2.2058e-04
+  B: k=α_B², c=α_B         3.6463e-03 2.2058e-04 6.0275e-02
+  C: k=c=α_B²              1.2489e-02 2.2058e-04 7.0711e-01
+  D: k=α_B, c=1            4.8657e-08 2.2058e-04 2.2058e-04
+
+(4) Do recorded PRTOE numbers force α_B or γ* without A_s?
+  candidate                   value   as γ*? ratio  as α_B mapA γ
+  α_c                    2.1892e-02         99.247     2.1897e-02
+  ε                      1.2543e-02         56.864     1.2544e-02
+  c_s                    1.4796e-01        670.768     1.4957e-01
+  α_c²                   4.7926e-04          2.173     4.7926e-04
+  α_c²/2                 2.3963e-04          1.086     2.3963e-04
+  ε²                     1.5733e-04          0.713     1.5733e-04
+  ε·α_c                  2.7460e-04          1.245     2.7460e-04
+  ε·α_c·f̄               1.7481e-04          0.793     1.7481e-04
+  α_c·f̄·c               1.2543e-02         56.864     1.2544e-02
+  α/(4π)                 5.8070e-04          2.633     5.8070e-04
+  (α_c/(4πk))            1.2766e-03          5.788     1.2766e-03
+  c_s⁴/2                 2.3963e-04          1.086     2.3963e-04
+
+(5) Near-misses if a candidate is *identified with γ* (not derived):
+  α_c²/2                2.3963e-04  vs f=2.2058e-04  (ratio 1.086)
+  c_s⁴/2                2.3963e-04  vs f=2.2058e-04  (ratio 1.086)
+  ε·α_c                 2.7460e-04  vs f=2.2058e-04  (ratio 1.245)
+  ε·α_c·f̄              1.7481e-04  vs f=2.2058e-04  (ratio 0.793)
+  ε²                    1.5733e-04  vs f=2.2058e-04  (ratio 0.713)
+  α_c²                  4.7926e-04  vs f=2.2058e-04  (ratio 2.173)
+
+(6) Structural results that DO land without A_s pin:
+  [ok] κ = 2π c_s ξ_h  (quantum of circulation ↔ healing length)
+  [ok] target γ~2.21e-04 selects overdamped branch under map A:
+       α_B~2.21e-04, v*~2.21e-04  (superfluid mutual-friction regime)
+  [ok] equal-coeff ansatz c=k=α_B does NOT overdamp (v*~0.71);
+       momentum parameter must be friction-suppressed vs chopping.
+  [ok] γ(β) near radiation under map A: 2.217e-04, 2.206e-04, 2.217e-04 (minimum at β=1/2 class)
+
+========================================================================
+GRADE
+========================================================================
+  NUMERICAL NEAR-MISS ONLY
+  α_c²/2 sits at ratio 1.086 to f(r=1), but no medium equation forces that identification — coincidence risk (α_c~0.022, target~2e-4 ⇒ many α_c/100-class combos look close).
+
+  DERIVED today:
+    - overdamped branch selection is forced by the smallness of f (v*≪1)
+    - equal-coeff VOS cannot produce that branch; k_mom must be
+      friction-suppressed relative to chopping (map structure)
+    - bare curvature–friction balance is insufficient (retains H)
+    - κ ↔ ξ_h identity holds on recorded (m, c_s)
+
+  NOT DERIVED today:
+    - the absolute value γ* = f ≈ 2.21×10⁻⁴ from medium constants alone
+    - α_B from first principles (phonon/normal-fluid content at imprint)
+    - any safe identification γ* = α_c²/2 or similar without a force law
+
+  RETYPED RESIDUE:
+    One dimensionless mutual-friction (or VOS pair) number for the genesis
+    tangle. Inversion from A_s gives α_B ~ 2×10⁻⁴ under map A — that is a
+    *measurement* of the tangle's dissipation, not a derivation of A_s.
+
+  KILL CONDITION for a future claim of derivation:
+    A papered identification γ* = f(α_c,ε,…) that only matches because both
+    sides were built from A_s, or a free α_B fitted to A_s and then declared
+    derived.
+
+SUMMARY
+  grade=NUMERICAL_NEAR-MISS_ONLY
+  f_target_closed=2.205824e-04
+  best_numerical=α_c²/2:2.396311e-04:ratio=1.0864
+  alpha_B_mapA_inverted=2.205824e-04

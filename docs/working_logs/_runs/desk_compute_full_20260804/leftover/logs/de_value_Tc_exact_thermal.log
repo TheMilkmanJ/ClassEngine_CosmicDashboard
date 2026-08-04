@@ -1,0 +1,16 @@
+  |J_F'(0.05)| exact=0.04100  high-T (pi^2/12)y=0.04112
+  |J_F'(0.2)| exact=0.15914  high-T (pi^2/12)y=0.16449
+
+=== EXACT thermal function vs the model's high-T formula, RAMP over the zero-T scale mu ===
+ mu (keV)    L-1  Tc_highT  Tc_exact  DE_exact  DE/obs
+       60   2.78     332.4     433.1     5.527    2.46
+      100   1.76     264.5     369.2     4.711    2.09
+      150   0.95     194.3     302.6     3.861    1.72
+      241   0.00      11.2      92.0     1.173    0.52
+
+  (mu = physical VEV scale v ~ 100 keV is the RG-improved zero-T choice)
+  at mu=v=100keV: high-T formula T_c=264 keV (DE=1.50x); EXACT T_c=369 keV (DE=2.09x)
+  => the Boltzmann suppression (T_c < m_e) pushes T_c UP by 1.40x vs the high-T formula.
+
+/home/themilkmanj/prtoe_class/scripts/de_value_Tc_exact_thermal.py:9: RuntimeWarning: overflow encountered in exp
+  f=lambda x:(x*x/(np.sqrt(x*x+y*y)*(np.exp(np.sqrt(x*x+y*y))+1)))
