@@ -13993,3 +13993,53 @@ Red did not sweep the other 28 sites. They span `READERS_RISK` / `hubble_tension
 **WHOSE_TURN → Owner** decide the currency convention (one card vs 30 copies) **∥ Blue/ChatGPT** 5 table escapes + the 28 dyad sites *after* the convention call **∥ Claude** continue #94 **∥ Machine** bbnfix **REFUSED** — lcdm **0.049324 · converged true**, dyad **0.060201 · false**.
 
 *NO FABRICATIONS. A number copied into 30 places goes stale in 30 places. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 05 — closed checks: links 1190/0 broken · one real numeric inconsistency in a REGISTERED prediction @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+## A. Internal links — exhaustive, 0 broken
+
+**107 files · 1,190 internal links · 0 broken.**
+
+Red states that flatly, having refused to say "clean" about repair-logs three hours ago, and the difference is the point: **a link check is a closed enumeration** — every `[text](target)` is found, every target is stat'd on disk. The property is *decidable*. A pattern sweep over an open-ended prose class is not. **Exhaustive over a closed set is a result; a pattern returning zero is not.** Includes every link red added this session.
+
+## B. Load-bearing numbers — cross-file agreement
+
+| quantity | verdict |
+|---|---|
+| T8 ratio **0.113** | **CONSISTENT** — 4 files |
+| D/H **2.387×10⁻⁵** | **CONSISTENT** — 10 files |
+| Laplace **ΔlnZ = +2.635** | **CONSISTENT** — 8 files |
+| ε 2σ ceiling **3.196%** | **CONSISTENT** — 3 files |
+| ρ_Λ¼ meV | flagged 7 variants → **NOT a contradiction** |
+| τ | flagged 2 variants → **NOT a contradiction** |
+| **Σm_ν** | flagged 3 variants → **ONE IS REAL** |
+
+**Two flags red investigated and threw out rather than banked:**
+
+- **ρ_Λ¼** — the instrument conflated three different objects. `cosmological_constant:257` shows 2.250 is the **observed** value (*"both sit at the observed 2.25"*), and `FAILURES_LEDGER:1121` labels 2.251 explicitly as a ***retired* claim** — sitting in the ledger, which is exactly where retired claims belong. Prediction, observation and graveyard are not a disagreement.
+- **τ** — 0.34657 is the sourced **crown**, 0.34506 the **null**. Two different objects; red established this itself on P-2026-048.
+
+## C. The real one — Σm_ν is quoted at two roundings of one range
+
+| where | value |
+|---|---|
+| `koide_relation:700` — **P-2026-012, the registered prediction** | **61.3 meV** |
+| `MATH_SPINE:382` · `cosmological_constant:157` · `neutrino_sector:23,:168` · `fairbank_note_draft:156` · `PHYSICS_DOMAINS:935` | **61.4 meV** |
+
+The cause is visible at `neutrino_sector:73`: *"Sum insensitive: Σm_ν = **61.34–61.37** meV → 61.4."*
+
+**The computed range straddles the rounding boundary.** 61.34 rounds to 61.3; 61.37 rounds to 61.4. So the corpus's own registered prediction is stated **61.3 in the registry and 61.4 in five other files**, both defensible from the same interval, neither wrong arithmetically.
+
+(`58.5` is the **withdrawn** Koide-neutrino branch and is correctly labelled withdrawn at `:704`. Not a defect.)
+
+**Why this is not cosmetic.** Σm_ν is a **pre-registered prediction** graded against a future measurement. A reader — or a referee — comparing the model to data must know whether the commitment is 61.3 or 61.4. One decimal is the whole content of a registered number.
+
+**Red is not fixing this.** Choosing which value the registry commits to is a decision about a **registered prediction**, and registered predictions are the owner's. The honest options: quote the **range** (61.34–61.37) everywhere, or fix a rounding convention and apply it once. **Red recommends the range** — it is what was actually computed, and it cannot re-drift.
+
+## D. Scope
+
+Two **closed** properties checked corpus-wide (link resolution, agreement of 7 named constants). This says nothing about stale numbers generally, dead premises, or claims outrunning evidence. **#94 stays OPEN.**
+
+**WHOSE_TURN → Owner** Σm_ν registry value (61.3 / 61.4 / range) · currency convention from CLAUDE 04 **∥ Blue/ChatGPT** 5 table escapes · 28 dyad sites **∥ Claude** continue #94 **∥ Machine** bbnfix **REFUSED**.
+
+*NO FABRICATIONS. Exhaustive over a closed set is a result; a pattern returning zero is not. COMPLETE physics 0.*
