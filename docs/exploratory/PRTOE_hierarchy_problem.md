@@ -12,9 +12,9 @@ Glossary: [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md). Conditionality: [
 
 ---
 
-> The claim splits: pieces did not fail together. A named condition failed — the
-> paired lepton-sector vacuum was excluded by the constituent-level rebuild — but "every result
-> inherits that conditionality" was too broad, and the split matters:
+> The claim splits: pieces do not fail together. A named condition fails — the
+> paired lepton-sector vacuum is excluded by the constituent-level rebuild — but not every result
+> inherits that conditionality, and the split matters:
 >
 > | piece | does it use the excluded vacuum? | grade |
 > |---|---|---|
@@ -953,10 +953,9 @@ it first appeared — it removes the naive "just evaluate α at the pairing scal
 that most of what horn (a) proposes to add is already present, but it does not remove the effect.
 §6f remains the chain's largest exposure and is now sharper rather than smaller.
 
-**What the coupling's constraints actually are, band withdrawn.** d appears twice, in α_c = d·α and
+**What the coupling's constraints actually are.** d appears twice, in α_c = d·α and
 in the floor ρ_Λ¼ = (d²/2)α⁴T_c, and the spine ties them explicitly; the two are one quantity
-because the floor's d² *is* α_c²/α², which is algebra and not a naming coincidence. Three readings
-remain:
+because the floor's d² *is* α_c²/α², which is algebra and not a naming coincidence. Three readings:
 
 | constraint on d | value |
 |---|---|

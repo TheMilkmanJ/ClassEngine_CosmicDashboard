@@ -2,6 +2,10 @@
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude grades: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).
 
+> **Paper path (2026-08-05).** This file is a **capstone shelf note**, not a ship artifact. It
+> consolidates many messenger rows on one epsilon grammar; the public slices, if any, should stay
+> narrow and window-specific rather than trying to ship the whole lattice.
+
 Thread 13. Rows are recorded individually; this file consolidates the correlation structure that makes them one test: one parameter, fixed weights, no per-row freedom.
 
 **Audience grade.** The lattice is a **grammar** claim (one lever, many windows). Individual windows carry their own grades. **ε stack is conditional** (f̄ derived, c assumed, α_c bet). **H₀ / ΔlnZ provisional** (Laplace estimate; nested sampling deferred). BBN rows **owned-adverse**. Do not present the lattice as a win on any single decisive row.
@@ -46,7 +50,8 @@ Standard cosmology’s anomalies are treated as independent. The lattice treats 
 - **DESI DR3** (the w = −1 commitment underneath every row)
 - **The evidence cap** (Laplace estimate from the MCMC — chain convergence moves it; nested sampling waits for cluster time)
 - **The radio referee** (the D/H fork)
-- **The BipoSH / isotropy pass** (the axis family, jointly)
+- **The BipoSH / isotropy pass** (the axis family, jointly; shared blocker authority:
+  `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md`)
 
 ## 3. Accounting
 
@@ -76,9 +81,9 @@ The lattice is winning on breadth, not yet on any single decisive row. One lever
 | 1 | One ε across messengers at fixed window weights (grammar) | **complete-conditional** (grammar) | §0–1; ε stack | Weakest parent of c/f̄/α_c |
 | 2 | ε = 27α/5π stack: f̄ derived; c assumption; α_c bet | **complete-conditional** | factor table | zon_disp not running |
 | 3 | H₀ / ΔlnZ provisional (Laplace) | **machine-backed** provisional | THE_AMPLITUDE; hubble | Nested sampling deferred |
-| 4 | BBN D/H and Y_p owned-adverse | **machine-backed** | bbn_witness; deuterium_row | Nuclear + ζ residuals |
+| 4 | BBN D/H and Y_p owned-adverse | **machine-backed** | bbn_witness; deuterium_row | Nuclear + ζ residuals; see `working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md` |
 | 5 | Quark-bleed excluded (loop floor short) | **derived** (exclusion) | §0 quark-bleed row | Retired; not a healer |
-| 6 | Radio chord / axis family / comb pending | **OPEN-BLOCKED** | §2 masters | Dark-ages data; BipoSH Tier 2 |
+| 6 | Radio chord / axis family / comb pending | **OPEN-BLOCKED** | §2 masters | Dark-ages data; BipoSH Tier 2; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |
 | 7 | Underground nulls unhedgeable | **registered null** | direct_detection | — |
 | 8 | ε(epoch) table is canonical citation | **machine-backed** / policy | ε(epoch) table | T_c 177.10 vs 179 pipeline |
 

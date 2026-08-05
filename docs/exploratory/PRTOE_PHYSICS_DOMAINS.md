@@ -91,7 +91,7 @@ the first honest single-point χ² against real Planck 2018 likelihoods
 (2026-07-05) exposed that the fluid had no perturbation sector at all —
 plik TTTEEE = 224,800 vs ΛCDM's 582.6 — and that a Thomson-opacity hack
 had been masking 99% of the failure. The sector was then actually built;
-every earlier number was declared void. *A model does not exist until its
+only perturbation-sector χ² counts. *A model does not exist until its
 perturbations do.* (ii) the gauge bug hunt (commit 7f0dc275): a 0.26%
 newtonian-gauge TT deviation at ℓ = 10–12 was chased through per-ℓ
 controls and per-contribution ratios to a wrong φ_ini — the initial
@@ -764,17 +764,16 @@ oldest receipt.*
 52. SMBH spin / EHT superradiance — predicts (the live-now test).
 At the recorded m = 2.24×10⁻²⁰ eV the superradiant range α_g ∈ [0.1, 0.5]
 falls on black holes of 6×10⁸–3×10⁹ M☉ (P-2026-034) — a populated band
-carrying high measured spins — and the mass, **formerly said to be pinned three
-independent ways, cannot retreat from it. That pinning was withdrawn 2026-07-28**
-(circularity sweep, check 34: ξ is defined from m so confirms nothing, the Schive
-comparison is unresolved, and this very band was the third leg — it cannot be both
-support and exposure). The mass rests on the onset clock, so the retreat is now
-*somewhat* available, which weakens this row's force rather than the model's. M87*'s (2.9–4.6)×10⁻²¹ exclusion sits *below* the
+carrying high measured spins. The mass is **not** three-way pinned: ξ is defined from m
+(circular, confirms nothing), the Schive comparison is unresolved, and this band cannot
+be both support and exposure (circularity sweep, check 34). The mass rests on the
+onset clock, so retreat is *somewhat* available — which weakens this row's force rather
+than the model's. M87*'s (2.9–4.6)×10⁻²¹ exclusion sits *below* the
 recorded mass (the window was passed, not evaded), and **the λ-quench that
-shielded the old band does not survive re-derivation at the recorded λ and m** —
+would shield the band does not survive re-derivation at the recorded λ and m** —
 the margin is −83.7 to −85.8 decades (§12). *Hook: the hook has closed on the
 model's side. High spins holding in the registered band now kill the recorded
-mass outright, because the defence that was owed has been computed and is
+mass outright, because the defence that is owed has been computed and is
 absent, and the mass has nowhere to go.*
 
 53. Pulsar timing arrays — exclusion, and it is recorded. The beat

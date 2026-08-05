@@ -38,6 +38,11 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Residual freezes and ordered open work: [working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md](working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md), [working_logs/_runs/next_queue_20260804/](working_logs/_runs/next_queue_20260804/).*
 
+> **Paper path (2026-08-05).** This file is a **corpus hub**, not a submission artifact. The
+> only live public-paper extraction from this spine is `papers/kination-tracking-note/` /
+> [arXivReady](arXivReady/README.md), which is **READY_PACKAGE**. Keep the spine as the wider
+> derivation record; ship only narrow extracts with self-contained claims.
+
 
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
 what is derived vs input vs phenomenological, and where it lives in the code. Cross-references:
@@ -354,8 +359,8 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > it.
 >
 > **Current state (2026-08-05):** `cmp_prtoe_routeD` runs on **three MPI ranks** (covariance
-> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.705291** at **N ≈ 6517**
-> (t=2026-08-05T04:07:15; ~**7.05×** its 0.1 stop; `converged: false`) — see
+> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.728432** at **N ≈ 8120**
+> (t=2026-08-05T12:54:11; ~**7.28×** its 0.1 stop; `converged: false`) — see
 > `PRTOE_CHAIN_TABLES.md`. Stopped predecessors are archived beside the chain with their diagnoses.
 > **What does not change:** the clean Route-D prediction was killed by the full-cycle KP solve
 > analytically; the chain adjudicates only whether the surviving imminent-turn corner lives
@@ -615,7 +620,9 @@ also a⁻⁶). **This model's recorded first regime is w = 1/3** — the phonon-
 (UV_completion §step 3) — which scales as a⁻⁴ and therefore **loses to shear by two powers of a**.
 Contracting through three decades of scale factor, the anisotropy-to-radiation ratio grows by 10⁶.
 The one place kination appears in the corpus is the ALP rotation's *redshifting*, not a phase the
-contracting branch is recorded to pass through. So the bounce sector does not merely owe a field
+contracting branch is recorded to pass through. The exportable negative result now lives separately
+as `papers/kination-tracking-note/` / [arXivReady](arXivReady/README.md) — **READY_PACKAGE** — while
+this spine remains the wider corpus derivation record. So the bounce sector does not merely owe a field
 equation solved in time: **it owes an equation of state at the approach that the recorded regimes do
 not currently supply**, and until one is named the BKL objection stands unopposed rather than open.
 Tolman is untouched by this and remains separately unresolved.
@@ -728,8 +735,8 @@ and it belongs beside c on the list of things the model counts on rather than de
 
 **Standing:** open pending the named referees, DESI-capped; the branch is registered
 (P-2026-056) with its guards discharged. Its adjudicating chain (`cmp_prtoe_routeD`) runs on
-**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.705291
-@ N ≈ 6517 (2026-08-05; see `PRTOE_CHAIN_TABLES.md`). A single chain does yield a within-chain
+**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.728432
+@ N ≈ 8120 (2026-08-05; see `PRTOE_CHAIN_TABLES.md`). A single chain does yield a within-chain
 split-R̂; what it cannot do is detect confinement to one basin, which is the failure mode at issue
 — that is why the multi-chain production setup is required (§7). **DESI DR3 remains the adjudicator
 and is unaffected.**

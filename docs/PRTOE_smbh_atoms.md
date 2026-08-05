@@ -9,6 +9,9 @@
 > **What unblocks:** owner restart of zon_disp (or successor) → self-stop → GetDist m/α_c → reprice α_g ladder; external NewAthena for spin-mass degeneracy break.
 >
 > **Forbidden claims:** proven SMBH mass cutoff from model alone; quoting unconverged onset center as measured α_g; treating OOM numbers as precision.
+>
+> **Blocked-lane audit:** shared `zon_disp` lane frozen in
+> [blocked_lane_zondisp_20260805/REPORT.md](working_logs/_runs/blocked_lane_zondisp_20260805/REPORT.md).
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

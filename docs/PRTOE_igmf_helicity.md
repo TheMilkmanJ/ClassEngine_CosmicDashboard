@@ -311,7 +311,8 @@ number is seen.
 **Stamp:** OPEN-THEORY / OPEN-MACHINE honesty. **Production T14 overall sign is not bookable** from smoke or partial i6. Matter–helicity lock remains **void**. No invented sign(H_kin).  
 **Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (parent magnetism RM reconfirm; T14 machine not re-run this package).  
 **Owed / parent:** [T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md); [T14_blue_team_2026-08-03.md](working_logs/T14_blue_team_2026-08-03.md); [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md).  
-**Currency (2026-08-05):** Production four-branch run complete; **overall sign NOT BOOKABLE** (red R3 DENIED: f=−1 amp below floor). n-antisymmetry at f=+1 is real two-branch evidence only. See `working_logs/_runs/t14_i6_prod_20260804_230225/BOOKING_RESTATED_R3.md`.
+**Currency (2026-08-05):** Production four-branch run complete; **overall sign NOT BOOKABLE**. The `f = −1` branches carry `ampA` of 0.00122 and 0.00087, below the instrument's own 0.15 helicity floor, so they are **NOT_MEASURED** — not zeros and not failures. `n`-antisymmetry at `f = +1` is real **two-branch** evidence only. Both instrument gates refuse: per-branch margins are `False` below the floor, and every mirror pair crosses a measured against an unmeasured branch, so `mirror_ok` is **False**.
+**Authority card (single source for this lane):** [`working_logs/_runs/blocked_lane_t14_igmf_sign_20260805/REPORT.md`](working_logs/_runs/blocked_lane_t14_igmf_sign_20260805/REPORT.md).
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

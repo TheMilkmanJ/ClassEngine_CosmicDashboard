@@ -16,6 +16,9 @@ Weakest measured row. Deficit is not made in the nuclear sector — the electron
 > on deuterium by 0.6–0.7σ; no nuclear measurement changes that.** Absolute row waits on LUNA;
 > comparison does not (§2b, §8).
 
+**Authority card (2026-08-05).** Shared D/H fork blocker is centralized in
+`working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md`.
+
 ---
 
 ## 1. The number
@@ -748,7 +751,7 @@ Every number in §1–§5 is recomputed by `scripts/audit_math_pass.py`.*
 | 1 | Model D/H = 2.387×10⁻⁵; standing −2.94σ vs Cooke on ±0.0476 width | **machine-backed** (owned-adverse) | §1; `audit_math_pass.py` | Absolute σ waits on nuclear rates |
 | 2 | Model worse than ΛCDM control by 0.6–0.7σ (compilation-robust) | **machine-backed** | §1–2b; gap changes 0.067σ | Not a nuclear heal |
 | 3 | Deficit from CMB ω_b +1.1% (−1.01σ), not from nuclear window (+0.31σ helps) | **machine-backed** | §2 decomposition; elasticity −1.66 | Same ε does both H₀ and D/H trade |
-| 4 | d(d,n)³He rate systematic; P-2026-058 two-sided bet | **OPEN-BLOCKED** | status banner | **WATCH-EXTERNAL:** LUNA measurement |
+| 4 | d(d,n)³He rate systematic; P-2026-058 two-sided bet | **OPEN-BLOCKED** | status banner | **WATCH-EXTERNAL:** LUNA measurement; see `working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md` |
 | 5 | Rate compilations move model and control together | **machine-backed** | PRIMAT vs NACRE II table | Absolute row not robust; gap is |
 | 6 | No field-content heal for late D production without selling H₀ | **OPEN** (missing injector) | closing narrative | Shape of missing piece known; not present |
 

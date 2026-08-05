@@ -9,6 +9,9 @@
 > **What unblocks:** owner restart of `cmp_prtoe_zon_disp` → cobaya self-stop at R−1 stop → GetDist center for log10 z_on graded against §5 registered call.
 >
 > **Forbidden claims:** instrument confirmation of pair call; quoting cumulative mean ~7.55 at stop as a result; near-miss 7.5494 as measured hit.
+>
+> **Blocked-lane audit:** shared `zon_disp` lane frozen in
+> [blocked_lane_zondisp_20260805/REPORT.md](working_logs/_runs/blocked_lane_zondisp_20260805/REPORT.md).
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

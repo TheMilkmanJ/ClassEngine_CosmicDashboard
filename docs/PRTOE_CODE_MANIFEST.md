@@ -19,19 +19,19 @@ expression).*
 > `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Progress-file
 > `acceptance_rate` is **oversampled** (`oversample_power = 0.4`); use launchlog
 > accepted/steps for raw Metropolis accept. **Bookable H₀ / Σm_ν: NO** until both
-> bbnfix legs self-stop with progress R−1 < 0.05. lcdm R−1 **0.047912**
-> (N=24858, t=2026-08-05T04:55:58 — **below** stop without self-stop, still **NOT bookable**);
-> dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×** stop).
-> routeD R−1 **0.705291**@N=6517 t=2026-08-05T04:07:15 (~**7.05×** stop 0.1) — not dual-gate.
+> bbnfix legs self-stop with progress R−1 < 0.05. lcdm R−1 **0.049324**
+> (N=26294, t=2026-08-05T11:52:10; checkpoint `converged: true` — control leg ready, pair still closed);
+> dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 (`converged: false`; **1.14×** stop).
+> routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11 (~**7.28×** stop 0.1) — not dual-gate.
 > Live MPI production objects remain running. **PolyChord: off** (not launched this stamp).
 > Currency: booking refuse card
-> [`bbnfix_booking_20260805_170213`](working_logs/_runs/bbnfix_booking_20260805_170213/).
+> [`bbnfix_booking_20260805_190348`](working_logs/_runs/bbnfix_booking_20260805_190348/).
 >
 > | chain | ranks | N (progress) | R−1 last | stop | `converged` | bookable? |
 > |---|---:|---:|---:|---:|---|---|
 > | `dyad_mnu_bbnfix` | 3 | 24677 | **0.056889** | 0.05 | **false** | **NO** |
-> | `cmp_lcdm_mnu_bbnfix` | 3 | 24858 | **0.047912** | 0.05 | **false** | **NO** (below stop, no self-stop) |
-> | `cmp_prtoe_routeD` | 3 | 6517 | **0.705291** | 0.1 | **false** | **NO** (~7.05× stop) |
+> | `cmp_lcdm_mnu_bbnfix` | 3 | 26294 | **0.049324** | 0.05 | **true** | **NO** (control leg ready; pair still closed) |
+> | `cmp_prtoe_routeD` | 3 | 8120 | **0.728432** | 0.1 | **false** | **NO** (~7.28× stop) |
 >
 > Offline GetDist max GR (`bbnfix_mcmc_watch_diag.py`, diagnostic only): dyad
 > **~0.086**, lcdm **~0.07** — **not** booking authority.
@@ -44,8 +44,8 @@ expression).*
 | The electron-coupled scalar (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
 | **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.056889** at N = 24677 (t=2026-08-05T07:54:30); **1.14×** stop; checkpoint `converged: false`; progress accept ~0.996 ⚠ oversampled. **Bookable: NO.** Gate: `scripts/book_bbnfix_when_ready.py`. See `PRTOE_CHAIN_TABLES.md` residual freeze |
-| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.047912** at N = 24858 (t=2026-08-05T04:55:58); **below** stop without self-stop; checkpoint `converged: false`; progress accept ~0.982 ⚠ oversampled. **Bookable: NO.** |
-| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.705291** at N = 6517 (t=2026-08-05T04:07:15); **not bookable** (~**7.05×** stop 0.1); checkpoint `converged: false`. Progress accept ~0.996 ⚠ oversampled. **No thaw posterior is bookable at this R−1.** Separate instrument — not dual-gate |
+| **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.049324** at N = 26294 (t=2026-08-05T11:52:10); checkpoint `converged: true`; progress accept ~0.981 ⚠ oversampled. **Control leg ready; Bookable: NO (pair still closed).** |
+| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.728432** at N = 8120 (t=2026-08-05T12:54:11); **not bookable** (~**7.28×** stop 0.1); checkpoint `converged: false`. Progress accept ~0.997 ⚠ oversampled. **No thaw posterior is bookable at this R−1.** Separate instrument — not dual-gate |
 | **The PolyChord evidence run — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all sampled) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **not running — PolyChord off (2026-08-04 stamp)** — killed mid-prior by decision; files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption. Evidence grades from Laplace-from-MCMC until cluster time |
 | **The zero-parameter run — ε/A_s/n_s fixed** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **not running — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
 | The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee killed mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |

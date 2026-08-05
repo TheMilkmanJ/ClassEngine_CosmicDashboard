@@ -3,8 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **Private — internal candid self-assessment, not the audience-facing record.** Unlinked
-> from the reader-facing shelf on purpose.
+> **Private — internal candid self-assessment, not the primary audience-facing record.**
+> This file is cited from a small number of shelf/process pages as a candid status source, so it is
+> no longer literally unlinked from the docs shelf; those links do not make it a paper-facing claim
+> surface.
 
 > **The `#N` numbers in this file are local and are not the docket's.** This page predates the
 > current numbering and carries two of its own: the **Q-series** of the 2026-07-08 review (Q1/#19,
@@ -24,21 +26,22 @@ the Standard Model; the domain is the diffuse cosmic medium. Same fence as
 progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagnostic only.
 `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Surfaces
 `PRTOE_CHAIN_TABLES.md` / `PRTOE_CODE_MANIFEST.md` / `PRTOE_REFEREE_CALENDAR.md` all stamp the same
-gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm R−1 **0.047912** (N=24858,
-t=2026-08-05T04:55:58 — **below** stop 0.05 without self-stop, still **NOT bookable**). Dyad
-**0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×** stop). routeD R−1 **0.705291**@N=6517
-t=2026-08-05T04:07:15 (~**7.05×** stop 0.1) — not dual-gate.
-Currency: booking refuse card `bbnfix_booking_20260805_170213`.
+gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm is now **self-stopped and individually
+ready** at R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10, `converged: true`), but the pair is
+still **NOT bookable** because dyad is **0.056889**@N=24677 t=2026-08-05T07:54:30
+(`converged: false`; **1.14×** stop). routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11
+(~**7.28×** stop 0.1) — not dual-gate. Currency: booking refuse card
+`bbnfix_booking_20260805_190348`.
 
 | chain | N (progress) | R−1 | stop | converged | bookable |
 |---|---:|---:|---:|---|---|
-| `cmp_lcdm_mnu_bbnfix` | 24858 | **0.047912** | 0.05 | **false** | **NO** (below stop, no self-stop) |
+| `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **NO** (control leg ready; pair gate still closed) |
 | `dyad_mnu_bbnfix` | 24677 | **0.056889** | 0.05 | **false** | **NO** |
-| `cmp_prtoe_routeD` | 6517 | **0.705291** | 0.1 | **false** | **NO** (~7.05× stop) |
+| `cmp_prtoe_routeD` | 8120 | **0.728432** | 0.1 | **false** | **NO** (~7.28× stop) |
 
 GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** —
 diagnostic only; **not** the booking gate. Quote R−1 with N and timestamp. Temporary R−1 < 0.05
-without self-stop is **not** bookable.
+without self-stop is **not** bookable, and one ready leg does **not** open the pair.
 
 **BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
 `papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
@@ -162,9 +165,9 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
   input rather than side referees, and their convergence the critical path for the headline claim.
   As of 2026-08-05 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
-  (lcdm R−1 **0.047912**@N=24858 t=2026-08-05T04:55:58 — below stop without self-stop / dyad
-  **0.056889**@N=24677 t=2026-08-05T07:54:30 — **1.14×** stop / routeD **0.705291**@N=6517 —
-  ~**7.05×** stop; both bbnfix legs `converged: false`);
+  (lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged: true` — control leg ready /
+  dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 — **1.14×** stop, `converged: false` /
+  routeD **0.728432**@N=8120 — ~**7.28×** stop; pair gate still closed);
   conv_desi and zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
   `cmp_prtoe_zon` is untouched since 07-12; **PolyChord off**.*
 

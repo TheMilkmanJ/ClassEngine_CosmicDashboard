@@ -5,13 +5,14 @@
 > **Grade honesty:** weights **derived** (4/5 labeling-free); pattern **registered bet**; BipoSH data **OPEN-BLOCKED** / WATCH-EXTERNAL.
 > **Not claimed:** a detection in hand; dark-ages measurement completed; synchrotron weight without labeling.
 > **Authority:** claims ledger this file; [T12_radio_lattice_owed.md](working_logs/T12_radio_lattice_owed.md); arXivReady `radio-lattice`.
+> **Paper path:** this file is the **source note** for `papers/radio-lattice/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE**. The package is the ship artifact; this shelf file is not. Remaining arXiv gate is **astro-ph endorsement only**.
 > **Currency:** instrument built; pattern-frame a_ℓm application external.
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).
 
 Thread 12. Two registered predictions ride it (P-2026-022, P-2026-027) and one open candidate (P-029). Radio cosmology gains a correlated, ratio-locked multi-band fingerprint.
 
-**Audience grade.** Weights are **derived** from atomic/plasma coefficients (four of five labeling-free). Pattern is a **registered bet** until dark-ages data exist. Synchrotron row is **convention-bearing** (fixed-field −1ε vs fixed-energy −3ε). Below z = 50: **nulls** (today’s constants). Do not claim a detection that does not exist.
+**Audience grade.** Weights are **derived** from atomic/plasma coefficients (four of five labeling-free). Pattern is a **registered bet** until dark-ages data exist. Synchrotron row is **convention-bearing** (fixed-field −1ε vs fixed-energy −3ε). Below z = 50: **nulls** (today’s constants). Do not claim a detection that does not exist. The public-paper version already exists as a narrow package; use this file as the source note and honesty ledger behind that package, not as the submission artifact itself.
 
 ---
 
@@ -61,6 +62,7 @@ Below z = 50 the lattice predicts nulls (today’s constants are the lab’s) �
 | 4 | Below z=50: nulls (today’s constants) | **registered null** | §2 | Quasar drift quiet (consistent) |
 | 5 | Ratio violation kills universality | **registered kill** | §3 executioner | Binds on four labeling-free rows |
 | 6 | BipoSH instrument built; data application external | **OPEN-BLOCKED** | biposh_estimator_pass.py | **WATCH-EXTERNAL:** pattern-frame a_ℓm |
+| 7 | `radio-lattice` paper package | **READY_PACKAGE** | `papers/radio-lattice/`; [arXivReady](arXivReady/README.md) | External gate only: astro-ph endorsement |
 
 **Non-claims:** not a detection; not dark-ages measurement in hand.
 

@@ -20,7 +20,7 @@ Equations-only companion to the trigger doc. Every result is cross-referenced to
 | Θ-averaging / developed-speckle compliance | **retired** as route; laminar Θ branch survives |
 | Conversion-channel linear perts | **implemented** when `dcdf_conv_g > 0` (CLASS; not this file) |
 
-Do not cite the retired electron-loop onset as current. Body below keeps equations and numbers; grades above police how to read them.
+Electron-loop onset / low-f config is **retired** (BBN-fatal; failures ledger) — not a current operating point. Body below keeps equations and numbers; grades above police how to read them.
 
 ---
 
@@ -350,13 +350,13 @@ delivers δm_e, which is assumed above (#125), and the CC value the loop reduces
 
 ## The electron-loop onset — the predecessor configuration
 
-> This section describes the retired operating point, in which the electron's
+> This section describes the **retired** operating point, in which the electron's
 > Coleman–Weinberg backreaction drove the electron-coupled scalar's condensation. That
-> configuration is BBN-fatal at its own numbers and no longer describes the model
+> configuration is BBN-fatal at its own numbers and is not the standing model
 > ([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)); the standing configuration is the
 > high-f operating point above. What survives from the work below is the κ-independent
-> transition-temperature formula, which still supplies the ramp's timing. The rest is kept for
-> the record and must not be cited as current.
+> transition-temperature formula, which still supplies the ramp's timing. The remainder is
+> historical record of the retired point only.
 
 On the charge-free scalar, the electron Coleman–Weinberg backreaction was taken to set the
 condensation scale, making the onset derived rather than a free input.
@@ -513,22 +513,18 @@ owed number; C_ref is an input.
 
 ## The Θ-averaging is forced, and by how much (2026-07-29)
 
-`scripts/theta_averaging_forced.py`, 10 controls including three anti-controls. This also **corrects a
-figure recorded earlier the same day**, which quoted Θ's scatter as m_e's.
+`scripts/theta_averaging_forced.py`, 10 controls including three anti-controls.
 
-**What was already held.** Developed speckle sits at **⟨Θ⟩ = ½ exactly by the Beta(d/2, d/2) law**
-(`PRTOE_me_trigger.md`), against Θ = 1.9×10⁻⁶ laminar. Re-derived here by integrating the density
-rather than quoting moment formulae: mean ½ and **sd = 1/(2√(d+1))** at every d, hence exactly
-**0.25 in three dimensions**. So ⟨Θ⟩ = ½ is a *distributional fact*, not something the model arranges,
-and the 0.25 is that law's own spread.
+**Distributional facts.** Developed speckle sits at **⟨Θ⟩ = ½ exactly by the Beta(d/2, d/2) law**
+(`PRTOE_me_trigger.md`), against Θ = 1.9×10⁻⁶ laminar. Mean ½ and **sd = 1/(2√(d+1))** at every d,
+hence exactly **0.25 in three dimensions**. So ⟨Θ⟩ = ½ is a *distributional fact*, not something the
+model arranges, and the 0.25 is that law's own spread.
 
-> **⚠ Correction.** An entry recorded earlier today read *"pointwise Θ (sd = 0.25 in 3D) would scatter
-> m_e by 25% within a single absorber."* That quotes **Θ's** scatter as **m_e's**. Θ is a 0-to-1
-> coherence indicator and the shift it drives is ε·Θ, so a Θ scatter of 0.25 induces an m_e scatter of
-> ε × 0.25 = **3.14×10⁻³ — 0.31% of m_e, not 25%.** Off by a factor 80. (It is 50% of the *mean shift*
-> ε⟨Θ⟩, which is the nearest true statement to what was written, and still not it.)
+Θ is a 0-to-1 coherence indicator; the shift it drives is ε·Θ. A Θ scatter of 0.25 therefore induces
+an m_e scatter of ε × 0.25 = **3.14×10⁻³ — 0.31% of m_e**, not 25% of m_e. (That 0.25 is 50% of the
+*mean shift* ε⟨Θ⟩ when Θ is scattered about its mean ½ — a different statement.)
 
-**The averaging is nonetheless forced, and now by a number rather than a feel.**
+**The averaging is forced by a number rather than a feel.**
 
 | | scatter in δm_e/m_e |
 |---|---|
@@ -545,10 +541,9 @@ not.
 > number that brings speckle scatter under spectroscopic bounds. The anti-control confirms this is
 > load-bearing: N = 1, 10², 10⁴ and 10⁶ all stay excluded, and only ~10⁹ clears.
 
-**So the debt is better stated and smaller than it was.** Not *"why does the coupling average"* as an
-open mechanism question — the observable **is** an average, because an absorption line forms across
-the whole column and each cell contributes its own m_e. What the model owes is a **check**, not a
-smoothing mechanism:
+**Debt as stated.** Not *"why does the coupling average"* as an open mechanism question — the
+observable **is** an average, because an absorption line forms across the whole column and each
+cell contributes its own m_e. What the model owes is a **check**, not a smoothing mechanism:
 
 > The same cell-to-cell scatter that averages away in the line **centroid** does not average away in
 > the line **width**. A 3.14×10⁻³ spread in m_e across cells implies an excess broadening, and whether
@@ -589,9 +584,8 @@ For the scattered branch to fit inside even a 10 km/s allowance, sd(Θ) would ha
 narrow — of order 1–50 km/s as a class. No specific measured width is sourced in-corpus, so the
 demand is quoted across the class rather than against one system.
 
-> **The N = 10⁹ coincidence is a red herring.** It was recorded hours earlier that the cell count
-> sits "within 2% of exactly the number that brings speckle scatter under spectroscopic bounds," and
-> called load-bearing. The 2% reproduces here exactly (ratio 1.017) — and it tunes the **centroid**
+> **The N = 10⁹ coincidence is a red herring.** The cell count sits within 2% of the number that
+> brings *centroid* scatter under spectroscopic bounds (ratio 1.017) — and it tunes the **centroid**
 > while the **width** fails by two orders of magnitude. **The averaging argument is retired as a route
 > to compliance.** The anti-control is decisive: scanning N across 24 decades never brings the width
 > under 50 km/s, because N is not in the expression.
@@ -615,17 +609,17 @@ invisible in the three it demoted. That is a falsifiable statement about where t
 
 ---
 
-## The width check corrected — the coupling is κ_Θ, not ε (2026-07-29, same day)
+## Width check with the recorded coupling κ_Θ (not ε alone)
 
-Everything above about the width used **ε·sd(Θ)** for the induced mass scatter. **Wrong.** The
-coupling recorded in `docs/exploratory/PRTOE_me_trigger.md` §5 is
+The induced mass scatter uses the coupling recorded in `docs/exploratory/PRTOE_me_trigger.md` §5:
 
 > m_e = m_bare(1 + κ_Θ·Θ),  **κ_Θ = −2ε/(1+ε) = −2.478%**
 
-so the per-cell scatter is **|κ_Θ|·sd(Θ) = 6.19×10⁻³**, not 3.14×10⁻³. Every width figure above is
-low by **2/(1+ε) = 1.975×**. The 21 cm broadening is **3714 km/s**, not 1880.
+so the per-cell scatter is **|κ_Θ|·sd(Θ) = 6.19×10⁻³** (not ε·sd(Θ) = 3.14×10⁻³). Width figures that
+used ε alone are low by **2/(1+ε) = 1.975×**. The 21 cm broadening is **3714 km/s** (not 1880 under
+the ε-only scaling).
 
-**And the endpoints are the reverse of what was assumed here.** Θ is multi-stream occupancy:
+**Endpoints (Θ as multi-stream occupancy):**
 
 | | Θ | m_e |
 |---|---|---|
@@ -637,9 +631,8 @@ own residual-laminar slope, 0.384%·f, reproduces from the same κ_Θ — two in
 
 ### What this does to the argument
 
-**The core claim survives untouched:** averaging divides a centroid error by √N and leaves a width
-alone, because N is absent from the width. Correcting the coupling makes the tension *worse*, not
-better.
+**The core claim holds:** averaging divides a centroid error by √N and leaves a width alone, because
+N is absent from the width. Using κ_Θ rather than ε alone makes the tension *worse*, not better.
 
 **But it relocates it, and that matters more than the size.** Developed speckle lives in
 **multi-stream** gas — halos and folded filaments — which is exactly where 21 cm and methanol
@@ -651,7 +644,7 @@ What protects the width is averaging *within each absorbing atom's own sampling 
 volume spans many granules, every atom sees the same effective Θ and the line stays narrow. The
 demand is **≳1.4×10⁵ granules per sampling volume** to fit inside 10 km/s (1.4×10⁷ for 1 km/s,
 5.5×10³ for 50 km/s). That is a concrete constraint on the granule scale, and a **different** one
-from the sightline cell count recorded earlier.
+from the sightline cell count.
 
 `scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls. All pass.
 

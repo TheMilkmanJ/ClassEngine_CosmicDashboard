@@ -4,7 +4,7 @@
 >
 > **COMPLETE-CONDITIONAL** on the relation + m_ββ window. **Not** a booked Σm_ν joint posterior (that is [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md) / OPEN-MACHINE: waits on `dyad_mnu_bbnfix` book).
 >
-> **Fairbank HOLD** · **m_ββ package READY not posted:** `papers/neutrino-mbb/` + [arXivReady](arXivReady/README.md) are **READY_PACKAGE**; owner submitted to Fairbank 2026-08-03; **no arXiv post**. Owner prep: [arxiv_owner_prep_20260804](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md). Full honesty package: [neutrino_full_honesty_20260804](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
+> **Paper path:** this file is the **source note** for `papers/neutrino-mbb/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** and is the only ship artifact for the m_ββ window. **Fairbank HOLD:** owner submitted that package to William Fairbank 2026-08-03; **no arXiv post** claimed. Owner prep: [arxiv_owner_prep_20260804](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md). Full honesty package: [neutrino_full_honesty_20260804](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
 >
 > **Forbidden:** invent joint posteriors; claim package “posted”; invent second Fairbank TeX; treat null 0νββ as confirmation.
 
@@ -12,7 +12,7 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 
 Consolidates the model’s most experiment-facing claim block. Components range from recorded (Majoron structure, P-2026-012/020) to exploratory (ρ_inf closure, on review hold). Relevant tests: ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
 
-**Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path: **neutrino-mbb READY not posted** under Fairbank HOLD. Open: exact μ value, flavor-distribution calculation, next falsifiable Majoron consequence, ρ_inf closure; joint Σm_ν booking lives on home / bbnfix.
+**Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path: **neutrino-mbb READY not posted** under Fairbank HOLD. Open: exact μ value, flavor-distribution calculation, next falsifiable Majoron consequence, ρ_inf closure; joint Σm_ν booking lives on home / bbnfix. This shelf file keeps the fuller mechanism and honesty context; the public short paper is the narrower `neutrino-mbb` package only.
 
 ## 0. Claims
 

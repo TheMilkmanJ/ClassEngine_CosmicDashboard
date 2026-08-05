@@ -2,6 +2,11 @@
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Risk page: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
 
+> **Paper path (2026-08-05).** This file is a **corpus hub**, not a submission artifact. It
+> collects the epsilon stack, its grades, and its multi-window obligations. If a narrow paper ever
+> leaves this area, it should be cut as a self-contained slice rather than promoted from the whole
+> hub.
+
 One number added to known physics: a universal fractional shift of lepton masses, ε ≈ +1.24%, controlled by one screening gate. Observable claims that route through ε live here. Grades are inline. Failures: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 ---

@@ -9,6 +9,9 @@ nonlinear Einstein continuum, Page dynamics). Honesty stamp 2026-08-04:
 [qg_goalB_honesty_20260804/REPORT.md](working_logs/_runs/qg_goalB_honesty_20260804/REPORT.md).
 **Absolute SI \(G\) remains OPEN** — str[k₁]=0 finiteness is paid separately and is **not** an SI-\(G\) value.
 Exhaust (T-X3): [`working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md`](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md).*
+**Paper path:** no standalone paper should be cut from this full attach file. The public algebra
+slice is `supertrace-note` (already shipped); this shelf file stays the broader expansion/QG
+attach record.
 **Full QG hub (ontology, dead ends, Page program, Q1–Q7):**  
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md)  
 *(shelf-promoted 2026-08-03 for Goal A expansion attach; Page curve OPEN; not TOE; Goal B residuals OPEN).*

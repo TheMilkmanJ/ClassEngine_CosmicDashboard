@@ -12,19 +12,21 @@ No verdict may be argued after the fact — the rules below were set before the 
 > `python3 scripts/bbnfix_mcmc_watch_diag.py`, `python3 scripts/book_bbnfix_when_ready.py`).
 > Progress-file `acceptance_rate` is oversampled (`oversample_power = 0.4`) and near ~0.98–1.0
 > even when raw Metropolis accept is healthy — **raw accept = accepted/steps from launchlog**.
-> **bbnfix pair bookable: NO** — dyad R−1 ≥ 0.05, lcdm R−1 below stop without self-stop, both
-> `converged: false` (`book_bbnfix_when_ready.py` → **REFUSED**). Same truth as
+> **bbnfix pair bookable: NO** — dyad R−1 ≥ 0.05 and `converged: false`; lcdm has crossed the bar
+> and self-stopped, but **one ready leg does not open the pair** (`book_bbnfix_when_ready.py` →
+> **REFUSED**). Same truth as
 > `PRTOE_CHAIN_TABLES.md` residual freeze and `PRTOE_CODE_MANIFEST.md` §1 live stamp.
-> lcdm **0.047912**@N=24858 t=2026-08-05T04:55:58 (below stop without self-stop — still **NOT bookable**);
-> dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×** stop). routeD R−1 **0.705291**@N=6517
-> t=2026-08-05T04:07:15 (~**7.05×** stop 0.1) — not dual-gate.
-> Currency: booking refuse card `bbnfix_booking_20260805_170213`.
+> lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged: true`; control leg ready, pair still
+> **NOT bookable**); dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×** stop; `converged:
+> false`). routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11 (~**7.28×** stop 0.1) — not
+> dual-gate.
+> Currency: booking refuse card `bbnfix_booking_20260805_190348`.
 >
 > | chain | N (progress) | R−1 | stop | converged | bookable |
 > |---|---:|---:|---:|---|---|
 > | `dyad_mnu_bbnfix` | 24677 | **0.056889** | 0.05 | false | **NO** |
-> | `cmp_lcdm_mnu_bbnfix` | 24858 | **0.047912** | 0.05 | false | **NO** (below stop, no self-stop) |
-> | `cmp_prtoe_routeD` | 6517 | **0.705291** | 0.1 | false | **NO** (~7.05× stop) |
+> | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | true | **NO** (control leg ready; pair still closed) |
+> | `cmp_prtoe_routeD` | 8120 | **0.728432** | 0.1 | false | **NO** (~7.28× stop) |
 >
 > GetDist offline max GR (diagnostic only): dyad **~0.086**, lcdm **~0.07** — not the gate.
 > **PolyChord: off.** Live MPI production objects remain running.
@@ -32,8 +34,8 @@ No verdict may be argued after the fact — the rules below were set before the 
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
 | **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | stop `Rminus1_stop = 0.05` **and** checkpoint `converged: true`; book only via `scripts/book_bbnfix_when_ready.py` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.056889 at N = 24677** (t=2026-08-05T07:54:30) — **1.14×** stop |
-| **BBN-fixed ΛCDM twin — `cmp_lcdm_mnu_bbnfix`** (live, 3 ranks) | matched denominator for the model chain | stop `Rminus1_stop = 0.05` **and** `converged: true` (both legs of the pair) | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.047912 at N = 24858** (t=2026-08-05T04:55:58) — **below** stop without self-stop; checkpoint `converged: false`. Temporary R−1 < 0.05 without self-stop is **not** bookable. Progress accept ~0.982 oversampled. Offline GetDist max GR ~0.07 (diag only) |
-| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.705291 at N = 6517** (t=2026-08-05T04:07:15); ~**7.05×** stop 0.1; checkpoint `converged: false`. Progress accept ~0.996 oversampled. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1.** Separate instrument — not part of the bbnfix pair dual gate |
+| **BBN-fixed ΛCDM twin — `cmp_lcdm_mnu_bbnfix`** (live, 3 ranks) | matched denominator for the model chain | stop `Rminus1_stop = 0.05` **and** `converged: true` (both legs of the pair) | **Machine — live; control leg ready, pair still NOT bookable.** Last progress: **R−1 = 0.049324 at N = 26294** (t=2026-08-05T11:52:10); checkpoint `converged: true`. This leg has met its own gate, but booking still waits on the model leg. Progress accept ~0.981 oversampled. Offline GetDist max GR ~0.07 (diag only) |
+| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.728432 at N = 8120** (t=2026-08-05T12:54:11); ~**7.28×** stop 0.1; checkpoint `converged: false`. Progress accept ~0.997 oversampled. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1.** Separate instrument — not part of the bbnfix pair dual gate |
 | The nested referee — ended 2026-07-20 by owner decision (#99). The evidence verdict returns to Laplace-from-MCMC until cluster time is bought. (was cmp_prtoe_fixed PolyChord) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless — **the thresholds stand as registered and are now graded against the Laplace estimate**, the nested number not being available. The configuration's own caveat is unchanged: it is frozen at z_on = 3.5619×10⁷ against the H = m identity's 4.03×10⁷, so it grades a point beside the stated one | **Not running — PolyChord off (2026-08-04 stamp).** Not scheduled on this hardware. Cost: 534 slice steps × 66 s → **9.8 h per nested iteration**; 163 days to first checkpoint; 736 days for the reference run (+ ΛCDM twin doubles it). Archived at `chains/_archive_polychord_ended_20260720_0915/` |
 | the ΛCDM twin (pc_lcdm) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | after the nested referee (also not scheduled) |
 | **zon_disp — not relaunched** (collapsed R−1 = 23.3 archived at `chains/_archive_zon_disp_collapsed_20260720_1528/`; seed for a correct restart is built as `chains/zon_disp_seed.covmat`) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, five freezes | converged (R−1 < 0.05) center inside 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; above ~7.8 = the named branches must pay | **Parked by decision (2026-08-04)** — last progress R−1 ≈ **17.81** (N=3456, 2026-07-22); not live. Gated shelf §2 / #13. The collapsed config's seed covers 12/13 parameters and knows nothing about `log10_zon`; relaunching on that seed would reproduce the failure. Restart is an owner act when cores free, on the from-samples seed only |
@@ -81,7 +83,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 > **20.4%** (routeD) and **19.8%** (conv_desi), against the ~97%-and-never-move pathology those
 > relaunches were meant to escape. That is inside the optimal band for high-dimensional
 > Metropolis, measured from the launchlogs' step/accept counters. **Present (2026-08-05):**
-> routeD is live again (Sitting NOW: R−1 = **0.705291** at N = 6517 — not bookable, ~**7.05×** stop);
+> routeD is live again (Sitting NOW: R−1 = **0.728432** at N = 8120 — not bookable, ~**7.28×** stop);
 > conv_desi is **unproduced** after two deaths (last chain file 2026-07-22) — not a live posterior.
 >
 > The 07-20 burn-in measurement settled the step: the proposal was the right size

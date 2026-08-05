@@ -9,6 +9,9 @@
 > **What unblocks:** owner restart of `cmp_prtoe_zon_disp` (or successor onset instrument) → cobaya self-stop → GetDist α_c / log10 z_on → propagate m to r_1s; dwarf kinematics program for positive detection channel.
 >
 > **Forbidden claims:** “resolves GC tension” as closed; free improvement over CDM without α_c; quoting unconverged zon_disp center as measured m.
+>
+> **Blocked-lane audit:** shared `zon_disp` lane frozen in
+> [blocked_lane_zondisp_20260805/REPORT.md](working_logs/_runs/blocked_lane_zondisp_20260805/REPORT.md).
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 

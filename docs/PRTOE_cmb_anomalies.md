@@ -6,6 +6,9 @@ Assembles recorded and registered material. The joint-policing test (BipoSH) is 
 
 **Audience grade.** Axis-family claim is **registered / candidate** (HPA fifth-member candidacy **adverse-leaning** at face value). Power-spectrum torus effect is **not a referee** (S/N 0.16). Off-diagonal correlation structure is the live path (S/N 1.4). Cold spot is **not a family member**. B2 tilt route **dead** (elsewhere). Do not treat low-ℓ curiosities as confirmed model wins.
 
+**Authority card (2026-08-05).** Shared BipoSH / axis-family blocker is centralized in
+`working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md`.
+
 ---
 
 ## 0. The field’s standing oddities
@@ -76,9 +79,9 @@ The family is silent here, and the silence is constitutional. The machinery that
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | Low-ℓ anomalies are one axis family’s signature (shared winding axis) | **registered / candidate** | §§1–2; P-024/029/031 | Joint BipoSH referee not run |
+| 1 | Low-ℓ anomalies are one axis family’s signature (shared winding axis) | **registered / candidate** | §§1–2; P-024/029/031 | Joint BipoSH referee not run; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |
 | 2 | Power-spectrum torus effect: S/N 0.16; ~0.9σ from data — not a referee | **machine-backed** (null for spectrum route) | torus_lowell_pattern; §torus grade | Power spectrum cannot grade model |
-| 3 | Off-diagonal covariance pattern S/N 1.4 is the live path | **machine-backed** arithmetic | §torus grade | **OPEN-MACHINE:** map-level BipoSH Tier 2 |
+| 3 | Off-diagonal covariance pattern S/N 1.4 is the live path | **machine-backed** arithmetic | §torus grade | **OPEN-BLOCKED:** BipoSH data application still owed; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |
 | 4 | HPA as fifth family member | **adverse-leaning** candidate | Tier-0 axes ~70–80° from cluster | BipoSH decides mapping; not settled kill |
 | 5 | Cold spot not a family member (topology + scale + Gaussianity) | **derived** (exclusion) | cold-spot section | Silence is constitutional |
 | 6 | Free cross-kill: α_c MCMC n = comb tooth count n | **OPEN-BLOCKED** | Tier free cross-kill | **OPEN-MACHINE:** zon_disp / α_c chain unconverged |

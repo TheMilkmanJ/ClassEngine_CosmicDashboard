@@ -15,7 +15,8 @@
 >
 > ### Live production status (stamp 2026-08-05; progress / checkpoints)
 >
-> Three MPI production objects are **live**. **None** has self-stopped.
+> Three MPI production objects are **live**. The lcdm control leg has self-stopped; the pair is
+> still **NOT bookable** because dyad has not.
 > Cobaya `.progress` `acceptance_rate` is **oversampled** (`oversample_power = 0.4`) and
 > sits near ~0.98–1.0 even when the raw Metropolis accept rate is healthy; **use launchlog
 > accepted/steps** for the real accept rate when launchlog is current.
@@ -24,19 +25,19 @@
 > write — normal; **not** a license to book.
 >
 > Authority reconfirm (read-only): `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**.
-> Quote: **lcdm R−1 0.047912** (N=24858, t=2026-08-05T04:55:58) — **below** stop without
-> self-stop, still **NOT bookable**; **dyad R−1 0.056889** (N=24677, t=2026-08-05T07:54:30 —
-> **1.14×** stop); both `converged: false`. routeD R−1 **0.705291**@N=6517
-> t=2026-08-05T04:07:15 (~**7.05×** its 0.1 stop) — **not** dual-gate. GetDist offline GR
+> Quote: **lcdm R−1 0.049324** (N=26294, t=2026-08-05T11:52:10) with checkpoint
+> `converged: true` — control leg ready, but **NOT bookable** by itself; **dyad R−1 0.056889**
+> (N=24677, t=2026-08-05T07:54:30 — **1.14×** stop; `converged: false`). routeD R−1
+> **0.728432**@N=8120 t=2026-08-05T12:54:11 (~**7.28×** its 0.1 stop) — **not** dual-gate. GetDist offline GR
 > **~0.07 / ~0.086** (lcdm / dyad; prior diag) is **diagnostic only**.
 > Currency: booking refuse card
-> [`bbnfix_booking_20260805_170213`](working_logs/_runs/bbnfix_booking_20260805_170213/).
+> [`bbnfix_booking_20260805_190348`](working_logs/_runs/bbnfix_booking_20260805_190348/).
 >
 > | chain | ranks | N (progress) | R−1 last | stop | `converged` | progress accept | live? |
 > |---|---:|---:|---:|---:|---|---:|---|
 > | `dyad_mnu_bbnfix` (model, BBN-fixed) | **3** | 24677 | **0.056889** | 0.05 | **false** | 0.996 ⚠ oversampled | **YES** — t=2026-08-05T07:54:30 (**1.14×** stop) |
-> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 24858 | **0.047912** | 0.05 | **false** | 0.982 ⚠ oversampled | **YES** — t=2026-08-05T04:55:58 (below stop, no self-stop) |
-> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 6517 | **0.705291** | 0.1 | **false** | 0.996 ⚠ oversampled | **YES** — t=2026-08-05T04:07:15 (~**7.05×** stop) |
+> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 26294 | **0.049324** | 0.05 | **true** | 0.981 ⚠ oversampled | **YES** — t=2026-08-05T11:52:10 (control leg ready; pair still closed) |
+> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 8120 | **0.728432** | 0.1 | **false** | 0.997 ⚠ oversampled | **YES** — t=2026-08-05T12:54:11 (~**7.28×** stop) |
 >
 > **Diagnostics only** (`bbnfix_mcmc_watch_diag.py`, prior 2026-08-04T02:40 — **not bookable**):
 >
@@ -49,11 +50,11 @@
 > Neither measure replaces cobaya self-stop.
 >
 > Quote R−1 with N and timestamp. Temporary R−1 < 0.05 without `converged: true` is
-> **not** bookable; checkpoint remains `converged: false`.
+> **not** bookable, and one ready leg does **not** open the pair.
 >
 > **Stop targets (from yaml):** dyad / lcdm `Rminus1_stop = 0.05`; routeD `Rminus1_stop = 0.1`.
-> Distances: lcdm twin **below** stop without self-stop; model **~1.14×**;
-> routeD ~**7.05×** its 0.1 stop.
+> Distances: lcdm twin **through** the stop and self-stopped; model **~1.14×**;
+> routeD ~**7.28×** its 0.1 stop.
 >
 > **No GetDist posterior table exists for the three live runs** — they join this file only
 > after booking. Checklist: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`.
@@ -161,8 +162,8 @@
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Archive GetDist tables are diagnostics only (not posteriors) | **honest fence** | banner ⚠ section | R−1 never hit stop on those runs |
-| 2 | Live bbnfix pair bookable H₀ / Σm_ν tables | **OPEN-BLOCKED** | progress: dyad R−1=**0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×**); lcdm R−1=**0.047912**@N=24858 t=2026-08-05T04:55:58 (below stop, no self-stop); both `converged:false` | **OPEN-MACHINE:** wait self-stop + `book_bbnfix_when_ready.py` |
-| 3 | Route-D thaw posterior | **OPEN-BLOCKED** | R−1=**0.705291**@N=6517 t=2026-08-05T04:07:15; ~**7.05×** stop 0.1 | **OPEN-MACHINE:** live, not bookable; not dual-gate |
+| 2 | Live bbnfix pair bookable H₀ / Σm_ν tables | **OPEN-BLOCKED** | progress: dyad R−1=**0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×**; `converged:false`); lcdm R−1=**0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged:true`; control leg ready) | **OPEN-MACHINE:** wait dyad self-stop + `book_bbnfix_when_ready.py` |
+| 3 | Route-D thaw posterior | **OPEN-BLOCKED** | R−1=**0.728432**@N=8120 t=2026-08-05T12:54:11; ~**7.28×** stop 0.1 | **OPEN-MACHINE:** live, not bookable; not dual-gate |
 | 4 | conv_desi / zon_disp archive rows | **OPEN-BLOCKED** | dead instruments | Owner restart; not live |
 
 **Non-claims / forbidden:** no bookable posterior from this file; no invented H₀ table; no COMPLETE physics from tables alone.

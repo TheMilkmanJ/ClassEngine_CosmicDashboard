@@ -10,6 +10,9 @@ closed win** (power-spectrum torus effect ungradeable as referee; BipoSH data ap
 **WATCH-EXTERNAL**). Distinctive structure: one shared axis with two registered predictions —
 not an unfenced "improvement" over ΛCDM until the external referee lands.*
 
+**Authority card (2026-08-05).** Shared BipoSH / axis-family blocker is centralized in
+`working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md`.
+
 ## 0. The anomalies (real features, officially accidents)
 
 At the largest angles the CMB persistently misbehaves: the low quadrupole (less power at ℓ=2
@@ -151,7 +154,7 @@ scales are correlated with which, where a compact space leaves a pattern isotrop
 |---|---|---|---|---|
 | 1 | Low-ℓ anomalies live in torus cavity + shared winding axis | **registered / candidate** | §1; P-013/024/029 | Family joint test |
 | 2 | Power-spectrum suppression S/N 0.16 — not gradeable | **machine-backed** | `torus_lowell_pattern.py` | Route closed for spectrum |
-| 3 | Off-diagonal covariance S/N 1.4 is relocated test | **machine-backed** | same script | **OPEN-MACHINE:** BipoSH on data |
+| 3 | Off-diagonal covariance S/N 1.4 is relocated test | **machine-backed** | same script | **OPEN-BLOCKED:** BipoSH data application still owed; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |
 | 4 | Axis-of-evil must coincide with comb/ε-dipole axes | **registered** | §1 family | Misalignment kills family |
 | 5 | Cold spot not this family’s object | **derived** (exclusion) | cmb_anomalies cross-link | — |
 

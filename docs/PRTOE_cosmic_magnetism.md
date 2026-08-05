@@ -234,7 +234,7 @@ vortices — and it signs the work with the winding integer that also fixes the 
 |---|---|---|---|
 | Void B floor ×20 shortfall | **OPEN-BLOCKED** | [debt_magnetism_20260803](working_logs/_runs/debt_magnetism_20260803/REPORT.md) §1–2; blazar ≳10⁻¹⁶ G vs B_seed 5×10⁻¹⁸ G | External floor revision **or** licensed new seed/amplification (not inventable at desk) |
 | RM absolute amplitude | **OPEN** | needs external n_e model | Survey n_e + transfer; scale already paid |
-| Overall sign(H_kin)/link-4 | **OPEN-BLOCKED** (OPEN-MACHINE) | T14 four-branch production criteria; [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md) | Production booking under pre-registered gates only |
+| Overall sign(H_kin)/link-4 | **OPEN-BLOCKED** (OPEN-MACHINE) | T14 four-branch production criteria; [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md); authority card [`blocked_lane_t14_igmf_sign_20260805`](working_logs/_runs/blocked_lane_t14_igmf_sign_20260805/REPORT.md) | Production booking under pre-registered gates only; `f = −1` branches are NOT_MEASURED, so no four-branch sign exists to book |
 
 **Non-claims:** Void column closed internally; absolute σ_RM without external n_e; matter–helicity lock; uniqueness of Harrison magnitude class; bounce from magnetism; treating last-scatter ℓ_π≈169 as the catalog RM prediction; production T14 sign from incomplete runs.
 

@@ -5,11 +5,12 @@
 > **Grade honesty:** **registered external bet** (P-2026-048); literature gap **interpretation** — not a lattice result.
 > **Not claimed:** computed T_c/√σ; DE digit precision; ordinary 1–3% lattice as a score either way.
 > **Authority:** claims ledger this file; arXivReady `lattice-tc-gap`; [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
+> **Paper path:** this file is the **source note** for `papers/lattice-tc-gap/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** as a literature-gap note. The package is the ship artifact; this file remains the fuller shelf record. Remaining arXiv gate is **hep-lat endorsement only**.
 > **Currency:** **WATCH-EXTERNAL** lattice computation. Live falsifier is **clause 4** (window kill / neighbour inference). Crown-vs-null discrimination (clauses 2/3) is **not executable** at present cosmological precision — the limit is the sky’s ρ_Λ error, not lattice effort (even σ=0 lattice ≈0.98σ; ordinary 1–3% scores neither way). P-2026-048.
 
 *Approved for circulation (owner, 2026-07-18).*
 
-**Audience grade.** This note states a **pre-registered bet** (P-2026-048) on an external lattice measurement — not a result. The program’s T_c = 177.10 keV (τ = ½ln2) is the **derived** lepton-side anchor behind 0.34657; 0.34506 is the null that would show cosmology read back. Those two sit only ~0.44% apart under ρ_Λ’s ±0.449% band, so even a σ=0 lattice separates them by only ~0.98σ — **clauses 2/3 are sky-limited, not lattice-limited**. Ordinary 1–3% determinations score neither way on the crown/null fork. **What remains fully executable is clause 4** (τ̂ outside the prediction window; neighbour inference 0.39±0.05 sits above). ρ_Λ chain is an **existence claim, not precision**.
+**Audience grade.** This note states a **pre-registered bet** (P-2026-048) on an external lattice measurement — not a result. The program’s T_c = 177.10 keV (τ = ½ln2) is the **derived** lepton-side anchor behind 0.34657; 0.34506 is the null that would show cosmology read back. Those two sit only ~0.44% apart under ρ_Λ’s ±0.449% band, so even a σ=0 lattice separates them by only ~0.98σ — **clauses 2/3 are sky-limited, not lattice-limited**. Ordinary 1–3% determinations score neither way on the crown/null fork. **What remains fully executable is clause 4** (τ̂ outside the prediction window; neighbour inference 0.39±0.05 sits above). ρ_Λ chain is an **existence claim, not precision**. The public-paper version is already packaged as a gap note; this file keeps the broader corpus context and registered-bet framing that the package deliberately trims.
 
 ## The computation
 
@@ -136,6 +137,7 @@ Karavirta et al., arXiv:1111.4104; arXiv:1511.01968.
 | 4 | Determination outside [0.330, 0.370] falsifies DE sector | **registered kill** · **live** | §clauses / clause 4 | Neighbor inference 0.39±0.05 above window |
 | 5 | Discretization choice (staggered rooting vs Wilson) is part of computation | **honest constraint** | §discretization | Not settled here |
 | 6 | This note is not a lattice result | **meta** | banner | External computation owed |
+| 7 | `lattice-tc-gap` paper package | **READY_PACKAGE** | `papers/lattice-tc-gap/`; [arXivReady](arXivReady/README.md) | External gate only: hep-lat endorsement |
 
 **Non-claims:** not a computed T_c/√σ; not DE precision claim; ρ_Λ is existence grade elsewhere.
 

@@ -18,6 +18,10 @@ The price is one hypothesis: charged-lepton √m are thermally populated (what Q
 
 Claim conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full derivation: [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). Map: [PRTOE_INDEX.md](PRTOE_INDEX.md).
 
+> **Paper path (2026-08-05).** This file is a short **overview note**, not a submission artifact.
+> It is the front door for the shelf, not a narrow public paper. Any export should be cut from one
+> checkable subclaim, not from this multi-claim overview.
+
 This note is the short form for a physicist who wants the math without the whole repo. The equations are short; the numbers inside them are not.
 
 ---

@@ -9,6 +9,9 @@
 > **What unblocks:** owner restart of conv_desi → cobaya self-stop → GetDist of conv_g; then matched lensing likelihood campaign.
 >
 > **Forbidden claims:** published tension-easing win; quoting R−1=13.25 archive as posterior; interim g as constraint.
+>
+> **Blocked-lane audit:** shared conversion lane frozen in
+> [blocked_lane_s8_conversion_20260805/REPORT.md](working_logs/_runs/blocked_lane_s8_conversion_20260805/REPORT.md).
 
 **Audience grade.** Companion to s8_growth. No published tension-easing claim until a matched lensing likelihood is run. Chains with conversion (routeD/conv_desi) are exploratory.
 

@@ -2,6 +2,10 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
+> **Paper path (2026-08-05).** No standalone paper should be cut from this file. It is a
+> framework-tied pricing certificate for the constitution, not an independent public claim. Keep it
+> as corpus-only support unless a new genuinely exportable object appears.
+
 
 *M3's bookkeeping half. The question: does the medium's preferred frame leak into any
 sector at a level the data forbid? The structural answer first, then the table. Sources:

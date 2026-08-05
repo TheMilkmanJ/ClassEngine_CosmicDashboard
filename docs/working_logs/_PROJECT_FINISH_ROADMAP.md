@@ -158,10 +158,11 @@ T14; not three deep theory sprints in parallel.
 
 ## Next recommended sessions
 
-1. Leave bbnfix pair alone unless dual gate opens (live: lcdm R−1 **0.047912**@N=24858 · dyad
-   **0.056889**@N=24677, both `converged:false` — below-stop without self-stop is **NOT bookable**);
+1. Leave bbnfix pair alone unless dual gate opens (live: lcdm R−1 **0.049324**@N=26294 with
+   `converged:true` · dyad **0.056889**@N=24677 with `converged:false` — one ready leg is **NOT**
+   bookable);
    book only via `_POSTERIOR_BOOKING_CHECKLIST.md` + dual R−1&lt;0.05 + self-stop
-2. RouteD: leave alone (live R−1 **0.705291**@N=6517, three ranks — early ~7× stop 0.1; **not**
+2. RouteD: leave alone (live R−1 **0.728432**@N=8120, three ranks — early ~7.28× stop 0.1; **not**
    the old ~129 one-row state). Do **not** archive-and-reseed a converging multi-rank chain from a
    stale headline; **owner kills only when applying a reseed**
 3. Theory sprints one at a time (Koide OR bounce OR T14 3D), never all three half-done —
@@ -171,4 +172,3 @@ T14; not three deep theory sprints in parallel.
 5. Check 12 on hierarchy / remaining giants only when editing them
 6. Residual dead-premise greps are clean as of 2026-08-02 residual pass; re-run only after
    large chain-status edits
-
