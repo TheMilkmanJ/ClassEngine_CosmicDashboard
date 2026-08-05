@@ -23,6 +23,7 @@
 | `docs/working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md` and dependent forward-facing docs | refreshed the shared bbnfix blocker to the current dyad stamp (`0.060201 @ N=26135`) and removed stale top-level shelf pointers to the old refuse card | DONE |
 | `docs/exploratory/PRTOE_hierarchy_problem.md`, `docs/exploratory/PRTOE_the_great_chain.md`, and `docs/PRTOE_FAILURES_LEDGER.md` | repaired the five Markdown table-overflow rows Claude isolated in PURPLE CLAUDE 03 using escapes or same-cell merges only | DONE |
 | `docs/working_logs/_runs/purple_desk_completion_20260805/CLAUDE_RETURN_SPLIT_50_50.md` | staged Claude's wake-up work as a finite 50/50 split instead of a loose review request | DONE |
+| `docs/PRTOE_quantum_gravity.md`, `docs/exploratory/PRTOE_hierarchy_problem.md`, `docs/PRTOE_neutrino_home.md`, and `docs/PRTOE_fairbank_note_draft.md` | converted the last remaining forward-facing writer/process phrasing into reader-facing ship-path language; verified zero remaining targeted phrase hits outside `working_logs/` and `historical_*` | DONE |
 
 See also:
 
@@ -40,5 +41,6 @@ See also:
 - `CHATGPT_PURPLE_SLICE_12.md`
 - `CHATGPT_PURPLE_SLICE_13.md`
 - `CHATGPT_PURPLE_SLICE_14.md`
+- `CHATGPT_PURPLE_SLICE_15.md`
 - `CLAUDE_RETURN_SPLIT_50_50.md`
 - `MAJOR_DOC_ARXIV_MATRIX.md`
