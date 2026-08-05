@@ -14043,3 +14043,63 @@ Two **closed** properties checked corpus-wide (link resolution, agreement of 7 n
 **WHOSE_TURN → Owner** Σm_ν registry value (61.3 / 61.4 / range) · currency convention from CLAUDE 04 **∥ Blue/ChatGPT** 5 table escapes · 28 dyad sites **∥ Claude** continue #94 **∥ Machine** bbnfix **REFUSED**.
 
 *NO FABRICATIONS. Exhaustive over a closed set is a result; a pattern returning zero is not. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 06 — script paths 212/0 missing · SIX prediction IDs cited but not in the registry @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+## A. Cited script paths — exhaustive, 0 missing
+
+**212 `scripts/*.py|sh` paths cited across 107 files. Every one exists on disk.** Closed enumeration; the property is decidable. Clean.
+
+## B. Prediction IDs — and red's instrument was wrong a third time before it was right
+
+First pass reported **8 dangling IDs**. Wrong. **The registry uses two ID formats** — `P-2026-034` *and* `P-034` — and red's check only knew the long one. `PREREGISTERED_PREDICTIONS.md:962` is `**P-034 — THE SMBH SPIN-DIP BAND**`.
+
+**Red's third false-positive class today.** The rule red adopted this morning — *print the patterns, call it a bound* — is necessary and is not sufficient. **The patterns must first be shown to match the thing they name.**
+
+## C. Two real findings after the correction
+
+### C1 — the registry speaks two dialects
+
+| | count |
+|---|---:|
+| written `P-2026-NNN` | 48 |
+| written `P-NNN` | 17 |
+| written **both ways inside the registry** | **13** |
+| **written ONLY short — invisible to a `P-2026-NNN` search** | **4** — `033 034 035 036` |
+
+`P-2026-034` is cited that way in **10 files** including `MATH_SPINE` and `DEPENDENCY_TREE`, and a reader searching the registry for it **finds nothing**. The registry is not searchable by the form the rest of the corpus uses — and it is what made red's own audit unreliable.
+
+### C2 — six IDs cited as authority with no registry entry
+
+`P-2026-` **004 · 006 · 011 · 026 · 046 · 052** — absent from the registry in *both* formats.
+
+Red then checked whether they are registered elsewhere, and the answers differ:
+
+| ID | status found by red |
+|---|---|
+| **004** | described at `fairbank_note_draft:27` (*"registered before deciding data, git-timestamped"*) and cited in **9 files**, incl. `INDEPENDENCE_AUDIT:36` pairing it with P-2026-012 as a **separate** Σm_ν referee, and `DOMAIN_COVERAGE:62` recording it **falsified**. Load-bearing and **not in the registry.** |
+| **006** | `INTERACTION_ATLAS:200` — *"Registered as P-2026-006"* — but the registry has no entry |
+| **046** | `FAILURES_LEDGER:380` — *"registered as P-2026-046, RETRACTED"* — correctly in the graveyard |
+| **052** | referenced in `DERIVATION_HUNT`; no registry entry |
+| **011 · 026** | **no definition-shaped line anywhere in `docs/`** |
+
+**Why this matters and is not bookkeeping.** A pre-registered prediction's whole value is that it was written down *before* the data. **P-2026-004 is cited in nine files, is described as git-timestamped before deciding data, and is recorded as falsified — and the registry does not contain it.** A referee auditing pre-registration discipline will look in the registry, not find it, and the falsification record loses the thing that made it credible.
+
+**046 is the good case**: retracted and living in the failures ledger, which is exactly right.
+
+## D. What red is and is not doing
+
+**Not fixing.** Adding, renaming or back-filling entries in the **pre-registration registry** is the one edit class where a wrong hand destroys the evidentiary value of the whole file. That is the owner's, and only the owner's.
+
+**Red's recommendation, in priority order:**
+1. **Resolve 004 first** — nine files, falsified, provenance claimed. Either restore its registry entry or state where it is registered.
+2. **006, 011, 026, 052** — restore, or record as never-registered.
+3. **Pick one ID format** and make the registry answer to it. Cheapest real fix in the corpus: it makes every future audit — human or automated — actually work.
+
+## E. Scope
+
+Four **closed** properties now checked corpus-wide: link resolution (1,190/0), script paths (212/0), constant agreement (7 quantities), prediction-ID resolution (52 defined / 6 dangling). **#94 stays OPEN** — closed checks do not touch stale numbers, dead premises, or claims outrunning evidence.
+
+**WHOSE_TURN → Owner** P-2026-004 and the five others · one ID format · Σm_ν 61.3/61.4 · currency convention **∥ Blue/ChatGPT** 5 table escapes · 28 dyad sites **∥ Claude** continue #94 **∥ Machine** bbnfix **REFUSED**.
+
+*NO FABRICATIONS. Printing the patterns is necessary; showing they match the named thing is what makes it a check. COMPLETE physics 0.*
