@@ -17,14 +17,14 @@ No verdict may be argued after the fact — the rules below were set before the 
 > **REFUSED**). Same truth as
 > `PRTOE_CHAIN_TABLES.md` residual freeze and `PRTOE_CODE_MANIFEST.md` §1 live stamp.
 > lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged: true`; control leg ready, pair still
-> **NOT bookable**); dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×** stop; `converged:
+> **NOT bookable**); dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 (**1.20×** stop; `converged:
 > false`). routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11 (~**7.28×** stop 0.1) — not
 > dual-gate.
-> Currency: booking refuse card `bbnfix_booking_20260805_190348`.
+> Currency: shared blocker card `blocked_lane_bbnfix_20260805/REPORT.md`.
 >
 > | chain | N (progress) | R−1 | stop | converged | bookable |
 > |---|---:|---:|---:|---|---|
-> | `dyad_mnu_bbnfix` | 24677 | **0.056889** | 0.05 | false | **NO** |
+> | `dyad_mnu_bbnfix` | 26135 | **0.060201** | 0.05 | false | **NO** |
 > | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | true | **NO** (control leg ready; pair still closed) |
 > | `cmp_prtoe_routeD` | 8120 | **0.728432** | 0.1 | false | **NO** (~7.28× stop) |
 >
@@ -33,7 +33,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
-| **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | stop `Rminus1_stop = 0.05` **and** checkpoint `converged: true`; book only via `scripts/book_bbnfix_when_ready.py` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.056889 at N = 24677** (t=2026-08-05T07:54:30) — **1.14×** stop |
+| **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | stop `Rminus1_stop = 0.05` **and** checkpoint `converged: true`; book only via `scripts/book_bbnfix_when_ready.py` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.060201 at N = 26135** (t=2026-08-05T15:50:02) — **1.20×** stop |
 | **BBN-fixed ΛCDM twin — `cmp_lcdm_mnu_bbnfix`** (live, 3 ranks) | matched denominator for the model chain | stop `Rminus1_stop = 0.05` **and** `converged: true` (both legs of the pair) | **Machine — live; control leg ready, pair still NOT bookable.** Last progress: **R−1 = 0.049324 at N = 26294** (t=2026-08-05T11:52:10); checkpoint `converged: true`. This leg has met its own gate, but booking still waits on the model leg. Progress accept ~0.981 oversampled. Offline GetDist max GR ~0.07 (diag only) |
 | **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.728432 at N = 8120** (t=2026-08-05T12:54:11); ~**7.28×** stop 0.1; checkpoint `converged: false`. Progress accept ~0.997 oversampled. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1.** Separate instrument — not part of the bbnfix pair dual gate |
 | The nested referee — ended 2026-07-20 by owner decision (#99). The evidence verdict returns to Laplace-from-MCMC until cluster time is bought. (was cmp_prtoe_fixed PolyChord) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless — **the thresholds stand as registered and are now graded against the Laplace estimate**, the nested number not being available. The configuration's own caveat is unchanged: it is frozen at z_on = 3.5619×10⁷ against the H = m identity's 4.03×10⁷, so it grades a point beside the stated one | **Not running — PolyChord off (2026-08-04 stamp).** Not scheduled on this hardware. Cost: 534 slice steps × 66 s → **9.8 h per nested iteration**; 163 days to first checkpoint; 736 days for the reference run (+ ΛCDM twin doubles it). Archived at `chains/_archive_polychord_ended_20260720_0915/` |

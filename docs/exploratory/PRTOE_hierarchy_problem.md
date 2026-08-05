@@ -1090,7 +1090,7 @@ for are each met by a gauge singlet, and met at the right size:
 
 | requirement | satisfied by |
 |---|---|
-| Higgs-coupled, to induce m_H² under the no-bare clause | λ|S|²|H|² for a gauge-singlet scalar S |
+| Higgs-coupled, to induce m_H² under the no-bare clause | λ\|S\|²\|H\|² for a gauge-singlet scalar S |
 | leptophilic | the dimension-5 operator S·(L̄ H e_R)/Λ — §5's own operator selection |
 | m_H ≈ M_anchor/4π from that loop | fixes λ × multiplicity ≈ 1, which is a coupling, not a representation |
 

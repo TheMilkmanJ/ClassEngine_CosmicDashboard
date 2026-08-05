@@ -42,9 +42,10 @@ Start here on return:
      - `f = -1` branches are **NOT_MEASURED**, not passes
      - matter-helicity lock is **void**
 2. Purple-package review
-   - review `CHATGPT_PURPLE_SLICE_01.md` through `CHATGPT_PURPLE_SLICE_13.md`
+   - review `CHATGPT_PURPLE_SLICE_01.md` through `CHATGPT_PURPLE_SLICE_14.md`
    - review `CURES.md`
    - review `MAJOR_DOC_ARXIV_MATRIX.md`
+   - verify the slice-14 bbnfix currency sweep and the five table-render repairs
    - either `AGREE` or flag exact defects in the tribunal file
 
 ## Why this is 50/50 enough

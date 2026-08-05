@@ -20,6 +20,8 @@
 | `docs/working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md` and dependent BBN docs | froze the shared helium benchmark state and corrected the stale pre-2026 Aver/EMPRESS pair | DONE |
 | `docs/working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` and dependent neutrino docs | froze the shared Fairbank owner-hold / posting state for `neutrino-mbb` | DONE |
 | `docs/working_logs/_runs/blocked_lane_lattice_tau_gate_20260805/REPORT.md` and dependent DE docs | froze the shared lattice tau-gate state so the gap note and blocked DE stack stop bleeding together | DONE |
+| `docs/working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md` and dependent forward-facing docs | refreshed the shared bbnfix blocker to the current dyad stamp (`0.060201 @ N=26135`) and removed stale top-level shelf pointers to the old refuse card | DONE |
+| `docs/exploratory/PRTOE_hierarchy_problem.md`, `docs/exploratory/PRTOE_the_great_chain.md`, and `docs/PRTOE_FAILURES_LEDGER.md` | repaired the five Markdown table-overflow rows Claude isolated in PURPLE CLAUDE 03 using escapes or same-cell merges only | DONE |
 | `docs/working_logs/_runs/purple_desk_completion_20260805/CLAUDE_RETURN_SPLIT_50_50.md` | staged Claude's wake-up work as a finite 50/50 split instead of a loose review request | DONE |
 
 See also:
@@ -37,5 +39,6 @@ See also:
 - `CHATGPT_PURPLE_SLICE_11.md`
 - `CHATGPT_PURPLE_SLICE_12.md`
 - `CHATGPT_PURPLE_SLICE_13.md`
+- `CHATGPT_PURPLE_SLICE_14.md`
 - `CLAUDE_RETURN_SPLIT_50_50.md`
 - `MAJOR_DOC_ARXIV_MATRIX.md`

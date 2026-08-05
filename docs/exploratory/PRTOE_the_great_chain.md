@@ -117,7 +117,7 @@ wears a debt tag. No prose without physics behind it. Updated continuously.*
 | 7 | f_gate = exp(−(C/C_ref)^p), with the gate's curvature exponent p > 2.43 (distinct from the winding integer n above) — a near-step, forced by the 8.2-decade suppression riding a 1.35-decade curvature window; r_1s ∝ 1/(m²M_halo^⅓) | solitons 10⁻³–10⁻² pc; gate zeroes today's ε | reading B; T1; the trigger doc §7 |
 | 8 | E_b/(mc²) = ½α_eff²; fusion terminus: Fe-56 at BE/A = 8.790 MeV (**Ni-62 at 8.794 is the BE/A maximum**; the Fe peak is set by Si-burning photodisintegration statistics, not by the BE/A max) | nuclear rung 8.5×10⁻³ — the ladder's champion | nuclear data |
 | 9 | gravity + chemistry inheritance (no new physics; the rungs' handoff) | — | the ladder |
-| 10 | |Δμ/μ|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | quasar μ-fence |
+| 10 | \|Δμ/μ\|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | quasar μ-fence |
 | 11 | life's license: ΔG from the reserve; the chain S_start=min → F_available > 0 | the biosphere = a Weyl-free-energy tap | the arrow doc, graded chain |
 | 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q_EM < 10⁻³⁸–10⁻⁴⁷ (photon-mass limits) | birefringence ≡ 0, proven; light untouchable | L1a |
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
@@ -169,7 +169,7 @@ relationship. No equation, no row.*
 
 | science | its master equation | physics parent | the medium's relationship |
 |---|---|---|---|
-| chemistry | Ĥ = Σᵢp²ᵢ/2m_e − Σᵢ,ₐZₐe²/rᵢₐ + Σᵢ<ⱼe²/rᵢⱼ + Pauli exclusion | QM (reproduced exactly) | m_e, α held constant BY THE GATE — uniformity is our prediction; the Oklo natural reactor: |Δα/α| < 10⁻⁸ over 2 Gyr — a passed fence, gate-consistent |
+| chemistry | Ĥ = Σᵢp²ᵢ/2m_e − Σᵢ,ₐZₐe²/rᵢₐ + Σᵢ<ⱼe²/rᵢⱼ + Pauli exclusion | QM (reproduced exactly) | m_e, α held constant BY THE GATE — uniformity is our prediction; the Oklo natural reactor: \|Δα/α\| < 10⁻⁸ over 2 Gyr — a passed fence, gate-consistent |
 | thermodynamics | dE = T dS − p dV; dS ≥ 0 | **natively OURS** | the free-energy budget IS the first law; the arrow IS the drawdown (graded chain) |
 | statistical mechanics | Z = Σ e^(−Eᵢ/kT); S = k ln Ω | QM + counting (reproduced) | Landauer citizenship: E_erase ≥ kT ln 2 is constitution-grade (the fees) |
 | bioenergetics / botany | ΔG_ATP ≈ −30.5 kJ/mol; photosynthesis ~8–10 γ per O₂; ΔG = −RT ln K | chemistry's child | the license: F_available > 0 traces to S_start = min (the arrow doc); plants = free-energy taps |
