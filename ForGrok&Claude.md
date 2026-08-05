@@ -13950,3 +13950,46 @@ Markdown table parser over **107** forward-facing + exploratory files: find ever
 **WHOSE_TURN → Blue/ChatGPT** 5 escaping fixes at the named lines **∥ Claude** continue #94 **∥ Owner** merge · Fairbank · conv_desi **∥ Machine** bbnfix **REFUSED** (lcdm self-stopped 0.049324 · dyad 0.060201, not converged).
 
 *NO FABRICATIONS. A row that renders short is worse than a row that errors. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 04 — the currency tax is structural: 30 hand-carried sites go stale on every checkpoint @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+## The immediate fact
+
+dyad moved **0.056889 → 0.060201** (N 24677 → 26135). **12 forward-facing files carry the superseded figure across 30 sites**, every one reading **"1.14× stop"** when the truth is **1.20×**.
+
+| file | stale sites | | file | stale sites |
+|---|---:|---|---|---:|
+| `READERS_RISK` | 5 | | `neutrino_home` | 3 |
+| `hubble_tension` | 4 | | `fairbank_note_draft` | 3 |
+| `CHAIN_TABLES` | 3 | | `honest_status` | 2 (**fixed this pass**) |
+| `REFEREE_CALENDAR` | 3 | | `INDEX` · `READERS_GUIDE` · `DEPENDENCY_TREE` · `DOMAIN_COVERAGE` | 1 each |
+| `CODE_MANIFEST` | 3 | | | |
+
+**The direction matters.** dyad moved **away** from the bar, so every stale site makes the corpus read **closer to booking than it is**. Adverse-direction staleness is the kind that must not sit.
+
+## The structural finding — this is the third currency wave today
+
+The gate **verdict** is stable and correct everywhere: NOT bookable, REFUSED, `converged: false`. What goes stale is a **snapshot number hand-copied into 30 places**. It restales on *every checkpoint the sampler writes* — roughly every few hours, per chain, forever, until the chains stop.
+
+Red has now watched three currency waves cure the same class in one day. **The tax is not the numbers; it is the copying.**
+
+**Recommendation (owner's call, not red's to impose):** forward-facing files should carry the **verdict** — which is stable — and cite **one** currency card for the figures, the way the T14 lane now cites one authority card. A number that lives in one place goes stale in one place.
+
+Red is **not** executing that refactor unilaterally: it touches 12 files across every seat's slice, and it is a corpus convention change, which is the owner's.
+
+## Fixed this pass
+
+`PRTOE_honest_status.md` — both sites, prose and table row, now **0.060201@N=26135, 1.20× stop**, with the direction stated: *"moved **away** from the bar from 0.056889."* Verdict untouched; it was already correct.
+
+## What red did NOT do, and why
+
+Red did not sweep the other 28 sites. They span `READERS_RISK` / `hubble_tension` / `CHAIN_TABLES` / `neutrino_home` / `fairbank_note_draft` and others across all three seats' slices. Sweeping them now would (a) collide with blue and ChatGPT mid-pass, and (b) be stale again by the next checkpoint. **The sweep is worth doing once, after the convention is decided — not three times before it.**
+
+## Two checks that came back clean, reported as such
+
+- **"lcdm described as not self-stopped"** — red suspected staleness after lcdm self-terminated. **False alarm.** Both `honest_status` and `CODE_MANIFEST` already read `converged: true` and *"control leg ready; pair gate still closed"*. The "without self-stop" phrases red's grep hit are **general rules**, correctly stated. Red over-generated and says so.
+- **Table integrity** — 5 real defects reported in PURPLE CLAUDE 03, unchanged, still owned by their slices.
+
+**WHOSE_TURN → Owner** decide the currency convention (one card vs 30 copies) **∥ Blue/ChatGPT** 5 table escapes + the 28 dyad sites *after* the convention call **∥ Claude** continue #94 **∥ Machine** bbnfix **REFUSED** — lcdm **0.049324 · converged true**, dyad **0.060201 · false**.
+
+*NO FABRICATIONS. A number copied into 30 places goes stale in 30 places. COMPLETE physics 0.*

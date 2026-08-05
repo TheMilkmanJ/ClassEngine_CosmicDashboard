@@ -28,15 +28,15 @@ progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagn
 `PRTOE_CHAIN_TABLES.md` / `PRTOE_CODE_MANIFEST.md` / `PRTOE_REFEREE_CALENDAR.md` all stamp the same
 gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm is now **self-stopped and individually
 ready** at R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10, `converged: true`), but the pair is
-still **NOT bookable** because dyad is **0.056889**@N=24677 t=2026-08-05T07:54:30
-(`converged: false`; **1.14×** stop). routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11
+still **NOT bookable** because dyad is **0.060201**@N=26135 t=2026-08-05T15:47
+(`converged: false`; **1.20×** stop — moved **away** from the bar from 0.056889). routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11
 (~**7.28×** stop 0.1) — not dual-gate. Currency: booking refuse card
 `bbnfix_booking_20260805_190348`.
 
 | chain | N (progress) | R−1 | stop | converged | bookable |
 |---|---:|---:|---:|---|---|
 | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **NO** (control leg ready; pair gate still closed) |
-| `dyad_mnu_bbnfix` | 24677 | **0.056889** | 0.05 | **false** | **NO** |
+| `dyad_mnu_bbnfix` | 26135 | **0.060201** | 0.05 | **false** | **NO** (1.20× stop; moved away from the bar) |
 | `cmp_prtoe_routeD` | 8120 | **0.728432** | 0.1 | **false** | **NO** (~7.28× stop) |
 
 GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** —

@@ -4980,3 +4980,7 @@ candl: clearing all internal priors.
 [1 : mcmc] Learn + convergence test @ 3120 samples accepted.
 [1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
 [2 : mcmc] Progress @ 2026-08-05 16:24:43 : 50672 steps taken, and 3073 accepted.
+[0 : mcmc] Progress @ 2026-08-05 16:25:17 : 47505 steps taken, and 2873 accepted.
+[1 : mcmc] Progress @ 2026-08-05 16:26:11 : 51398 steps taken, and 3123 accepted.
+[2 : mcmc] Progress @ 2026-08-05 16:26:26 : 50775 steps taken, and 3080 accepted.
+[0 : mcmc] Progress @ 2026-08-05 16:27:13 : 47518 steps taken, and 2874 accepted.
