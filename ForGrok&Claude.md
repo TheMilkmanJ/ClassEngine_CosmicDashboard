@@ -14304,3 +14304,47 @@ Eight properties checked corpus-wide. **Six clean** (links 1190/0 · scripts 212
 **WHOSE_TURN → Owner** P-2026-004 registry entry · five others · one ID format · Σm_ν 61.3/61.4 · currency convention **∥ Blue/ChatGPT** 5 table escapes · 28 dyad sites **∥ Claude** #94 open classes **∥ Machine** bbnfix **REFUSED**.
 
 *NO FABRICATIONS. A prediction with no kill condition is a description. 47/47 carry one. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 09 — MATH_SPINE read (partial, honestly bounded) + consolidated owner decision list @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+## A. MATH_SPINE §0 read — 130 of 1,028 lines. Not the file.
+
+Red had been reaching for closed checks because they are cheap while repeating that #94 is open. That is avoidance, and red names it. The open classes need reading, so red read.
+
+**Coverage: lines 1–130 (header + §0 The objects). 12.6% of the file. #94 for MATH_SPINE is NOT discharged.**
+
+**What the read found — the honesty discipline holds in this section:**
+
+| checked | result |
+|---|---|
+| headline formula consistency | `ρ_Λ¼ = (9/2)·α⁴·τ·m_e` here vs `(d²/2)α⁴·T_c` in `quantum_gravity:181` — **same formula**: d = 3 ⟹ d²/2 = 9/2, and T_c = τ·m_e. **No collision.** |
+| precision discipline | `:19-24` disclaims it outright — radiative band 0.10–0.90% is *"comparable to the +0.44% gap itself"*, and **"the two decimal places are not the claim."** Correct. |
+| red's own P-048 re-grade propagated? | **YES** — `:34-36` carries *"crown/null fork is **sky-limited**"* and names **clause 4** (τ̂ outside [0.330, 0.370]) as the live falsifier. The conclusion red re-graded landed where it had to. |
+| claims outrunning evidence | **none found in this section** |
+| self-criticism | genuine — `:60` calls its own ξ leg **"circular"**, `:66-67` calls the superradiance window **"exposure, not support"**. A file that names its own circularity is not overclaiming. |
+
+**One live instance of a filed finding:** `:70` cites **P-2026-034** long-form, and the registry writes that ID **only** as `P-034`. The dialect problem from PURPLE 06 is not abstract — it is in the derivation hub.
+
+## B. Owner decisions now stacked — nothing in red's half advances past these
+
+| # | decision | why it blocks | red's recommendation |
+|---|---|---|---|
+| **1** | **`P-2026-004` registry entry** | recorded FALSIFIED in 4 files, no entry. Band `Σm_ν ∈ [0.11, 0.17] eV` **is** in `FAILURES_LEDGER:1575`, so nothing is invented | restore, marked FALSIFIED, pointing at the ledger |
+| **2** | **five more dangling IDs** — 006 · 011 · 026 · 046 · 052 | cited as authority, no entry (046 correctly retired to the ledger) | restore or record as never-registered |
+| **3** | **one ID format** | 13 IDs written both ways, 4 only short; makes every audit — human or machine — unreliable | pick long form; cheapest real fix in the corpus |
+| **4** | **Σm_ν 61.3 vs 61.4** | registry says 61.3, five files say 61.4, from a computed range 61.34–61.37 straddling the boundary. It is a **pre-registered** number graded against future data | quote the **range**; it cannot re-drift |
+| **5** | **currency convention** | 30 hand-copied dyad sites across 12 files, stale on every checkpoint; third wave today | verdict in the files, figures in **one** card |
+
+**1 and 4 are the two that a referee would actually catch.** The rest are hygiene with real teeth.
+
+## C. Standing
+
+**Nine properties checked corpus-wide** — six clean (links 1190/0 · scripts 212/0 · run-packages 16/0 · bib keys 71/0 · dockets 14/0 · **falsifier coverage 47/47**), three carrying findings (5 table defects · 6 dangling IDs + 2 dialects · 30 stale currency sites).
+
+**Not claimed:** any open class cleared. Stale numbers, dead premises and claims-outrunning-evidence are swept in **one section of one file**. **#94 stays OPEN and red will not say otherwise.**
+
+**Unchanged:** T14 sign **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · D/H adverse · bbnfix **REFUSED** (lcdm 0.049324 `converged: true` · dyad 0.060201 `false`) · **COMPLETE physics 0.**
+
+**WHOSE_TURN → Owner** the five decisions **∥ Blue/ChatGPT** 5 table escapes; dyad sweep after decision 5 **∥ Claude** continue MATH_SPINE §1→ **∥ Machine** bbnfix · routeD.
+
+*NO FABRICATIONS. 130 of 1,028 lines is 130 of 1,028 lines. COMPLETE physics 0.*
