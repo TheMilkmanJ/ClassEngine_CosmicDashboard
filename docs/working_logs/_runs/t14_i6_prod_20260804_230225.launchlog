@@ -44,3 +44,5 @@
 ======================================================================
   [n+0_f-1 t= 0.25] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+0.000 H=+0.000 bins=16/16 phase=16/16 drift_phys=7.305%
       candidate @ t=0.25 nphase=16 helA=+0
+  [n+0_f-1 t= 0.50] ring helA=+0 W=+nan Tw=+nan Wr=+0.000 H=+nan bins=16/16 phase=0/16 drift_phys=14.740%
+  [n+0_f-1 t= 0.75] ring helA=+0 W=+nan Tw=+nan Wr=+0.000 H=+nan bins=16/16 phase=0/16 drift_phys=13.929%

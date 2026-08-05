@@ -3526,3 +3526,20 @@ candl: clearing all internal priors.
 [2 : mcmc] Progress @ 2026-08-05 00:36:42 : 32137 steps taken, and 1917 accepted.
 [0 : mcmc] Progress @ 2026-08-05 00:37:24 : 31318 steps taken, and 1866 accepted.
 [1 : mcmc] Progress @ 2026-08-05 00:38:20 : 34601 steps taken, and 2077 accepted.
+[2 : mcmc] Progress @ 2026-08-05 00:39:11 : 32237 steps taken, and 1923 accepted.
+[0 : mcmc] Progress @ 2026-08-05 00:39:38 : 31356 steps taken, and 1868 accepted.
+[1 : mcmc] Progress @ 2026-08-05 00:40:19 : 34604 steps taken, and 2077 accepted.
+[0 : mcmc] Progress @ 2026-08-05 00:41:35 : 31370 steps taken, and 1869 accepted.
+[2 : mcmc] Progress @ 2026-08-05 00:41:56 : 32238 steps taken, and 1923 accepted.
+[1 : mcmc] Progress @ 2026-08-05 00:42:21 : 34618 steps taken, and 2078 accepted.
+[1 : mcmc] Learn + convergence test @ 2080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2026-08-05 00:43:47 : 31459 steps taken, and 1875 accepted.
+[1 : mcmc] Progress @ 2026-08-05 00:44:20 : 34709 steps taken, and 2083 accepted.
+[2 : mcmc] Progress @ 2026-08-05 00:45:12 : 32240 steps taken, and 1923 accepted.
+[0 : mcmc] Progress @ 2026-08-05 00:45:50 : 31461 steps taken, and 1875 accepted.
+[1 : mcmc] Progress @ 2026-08-05 00:46:27 : 34722 steps taken, and 2084 accepted.
+[2 : mcmc] Progress @ 2026-08-05 00:48:28 : 32303 steps taken, and 1927 accepted.
+[0 : mcmc] Progress @ 2026-08-05 00:48:30 : 31466 steps taken, and 1875 accepted.
+[1 : mcmc] Progress @ 2026-08-05 00:49:51 : 34732 steps taken, and 2085 accepted.
+[0 : mcmc] Progress @ 2026-08-05 00:50:40 : 31472 steps taken, and 1875 accepted.
