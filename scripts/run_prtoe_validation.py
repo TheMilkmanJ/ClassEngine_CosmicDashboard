@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
-PRTOE Numerical Validation Runner
-=================================
-Runs critical numerical checks on real CLASS + PRTOE output.
+LEGACY_ST Numerical Validation Runner (use_prtoe scalar-tensor lane)
+====================================================================
+Historical comparison checks on CLASS + legacy use_prtoe output.
+
+NOT CURRENT_CORE validation. Current public expansion core is:
+  use_dcdf + screened/derived varying_me + dcdf_dyad_link
+See validate_dcdf.py and production YAMLs with use_dcdf. Historical ST:
+  docs/historical_v1-v3_scalar_tensor/
 """
 
 import numpy as np
@@ -21,9 +26,9 @@ from prtoe_dhost_checks_v2 import prtoe_dhost_consistency_check_v2
 from data_loader import load_class_background
 
 def run_true_null_limit_test(use_class=True):
-    """Task 2.1: TRUE Null limit test (ALL PRTOE parameters → 0)"""
+    """LEGACY_ST Task 2.1: true null (ALL use_prtoe ST parameters → 0). Not CURRENT_CORE."""
     print("\\n" + "="*60)
-    print(" TASK 2.1: TRUE NULL LIMIT TEST")
+    print(" TASK 2.1: LEGACY_ST TRUE NULL (use_prtoe) — NOT CURRENT_CORE")
     print("="*60)
     
     if use_class:
@@ -51,11 +56,11 @@ def run_true_null_limit_test(use_class=True):
                 cosmo.set(params)
                 cosmo.compute()
                 print("✅ Computation completed without tachyonic warnings!")
-                print("✅ TRUE NULL LIMIT TEST PASSED")
+                print("✅ LEGACY_ST TRUE NULL PASSED (comparison lane only)")
                 return True
             except Exception as e:
                 print(f"❌ Computation failed: {str(e)[:200]}...")
-                print("❌ TRUE NULL LIMIT TEST FAILED")
+                print("❌ LEGACY_ST TRUE NULL FAILED")
                 return False
             finally:
                 try:
@@ -72,16 +77,16 @@ def run_true_null_limit_test(use_class=True):
 
 
 def run_null_limit_test(use_class=True):
-    """Task 2.2: Null Limit Test"""
+    """LEGACY_ST Task 2.2: near-null use_prtoe boundary (xi=1e-7). Not CURRENT_CORE."""
     print("\\n" + "="*60)
-    print(" TASK 2.2: PRTOE NULL LIMIT TEST")
+    print(" TASK 2.2: LEGACY_ST NULL BOUNDARY (use_prtoe) — NOT CURRENT_CORE")
     print("="*60)
     
     background = None
     if use_class:
         try:
             import classy
-            print("Running full CLASS solver for null limit...")
+            print("Running full CLASS solver for LEGACY_ST null boundary...")
             cosmo = classy.Class()
             try:
                 cosmo.set({
@@ -143,17 +148,17 @@ def run_null_limit_test(use_class=True):
         verbose=True
     )
     if result.healthy and result.min_K > 0.99 and result.min_c_s2 > 0.99:
-        print("✅ NULL LIMIT TEST PASSED — Model recovers healthy DHOST behavior")
+        print("✅ LEGACY_ST null boundary PASSED — healthy DHOST-like behavior (comparison only)")
         return True
     else:
-        print("❌ NULL LIMIT TEST FAILED")
+        print("❌ LEGACY_ST null boundary FAILED")
         return False
 
 
 def run_stability_sweep(use_class=True):
-    """Task 2.3: Basic stability sweep over ξ and ζ"""
+    """LEGACY_ST Task 2.3: Basic stability sweep over ξ and ζ (use_prtoe era)."""
     print("\\n" + "="*60)
-    print(" TASK 2.3: STABILITY SWEEP")
+    print(" TASK 2.3: LEGACY_ST STABILITY SWEEP (use_prtoe) — NOT CURRENT_CORE")
     print("="*60)
 
     xi_values = [1e-7, 5e-6, 1.2e-5]
@@ -246,19 +251,21 @@ def run_stability_sweep(use_class=True):
 
 
 if __name__ == "__main__":
-    print("Starting PRTOE Numerical Validation Suite...")
+    print("Starting LEGACY_ST (use_prtoe) numerical suite — NOT CURRENT_CORE...")
+    print("CURRENT_CORE null/identity: validate_dcdf.py (use_dcdf).")
 
     true_null_ok = run_true_null_limit_test()
     null_ok = run_null_limit_test()
     sweep_results = run_stability_sweep()
 
     print("\\n" + "="*60)
-    print(" VALIDATION SUMMARY")
+    print(" LEGACY_ST VALIDATION SUMMARY (comparison lane)")
     print("="*60)
     
-    print(f"True Null Limit Test (ALL params=0): {'PASSED' if true_null_ok is True else 'FAILED' if true_null_ok is False else 'SKIPPED'}")
-    print(f"Null Limit Test (xi=1e-7 boundary): {'PASSED' if null_ok is True else 'FAILED' if null_ok is False else 'SKIPPED'}")
+    print(f"LEGACY_ST true null (ALL params=0): {'PASSED' if true_null_ok is True else 'FAILED' if true_null_ok is False else 'SKIPPED'}")
+    print(f"LEGACY_ST null boundary (xi=1e-7): {'PASSED' if null_ok is True else 'FAILED' if null_ok is False else 'SKIPPED'}")
     print(f"Stability Sweep completed with {len(sweep_results)} parameter combinations.")
     
     if true_null_ok is False or null_ok is False or any(not r['healthy'] for r in sweep_results):
         sys.exit(1)
+

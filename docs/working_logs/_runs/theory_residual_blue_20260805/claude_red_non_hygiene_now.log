@@ -1,0 +1,31 @@
+ExitPlanMode isn't available in this session, so here's the answer directly. Plan (with the exact append block) is at `/home/themilkmanj/.claude/plans/you-are-claude-red-binary-creek.md`.
+
+## Disk check first
+
+**T14 is IN FLIGHT — not complete.** PID 3626438 `ring_toroidal_hkin.py --null nowinding`, live since 23:07 (~50 min CPU, 107%), console at branch `n+0_f+1`, `t=1.00` of `T_MAX=1.5`. `calibrate.log` = PASS 4/4. `null_nowinding/` output dir is **empty**; there is **no `four_branch/`** and no `summary.json`. Sign stays OPEN-MACHINE.
+
+One correction to blue's handoff: **owner `--i-approve-a4` is already discharged** — it's on the live command line.
+
+Cores: load **13.22**, nine cobaya ranks at 108% (dyad ×3, lcdm ×3, routeD ×3) + T14. Blue's ε_max SKIP is verified correct, not an excuse. conv_desi last wrote **Aug 2 22:39** — dead.
+
+## A. Blue non-hygiene forceable today — **NONE**
+
+2/3/5/7/8 delivered; **4 is core-gated, not blue-gated**. Construction lanes stay OPEN-BLOCKED on NEW licensed content — re-mapping mapped walls is thrash and stays fenced. Void Door A ran today.
+
+## B. Red non-hygiene forceable today — **YES, 2 now + 1 armed**
+
+- **R1 — fence-check the three surfaces blue filed tonight** (`PAGE_T8_BIN_PHASE_QUALIFIER`, `N_LGEN_SHARED_UPSTREAM`, `void_door_A_lit/REPORT`). These are `red: none`, **first grade**, not AGREE-IF polish. The T8 qualifier attributes numbers to red (0.092909 / 0.096240 / worst ~0.125313) — verify against source and confirm it doesn't soften `T8_pass=False`. N_LGEN must stay bookkeeping, never a determination of *n*. Void: FAIL-not-fired against the pre-registered criteria, plus the dex arithmetic.
+- **R2 — T-X6 list audit.** RED_OWED unblocked when blue filed the board enumeration. Scope is the 13 named entries, not a sweep. Honest expected outcome: nothing fires today → likely "priority correct, 0 grade changes."
+- **R3 — T14 audit: ARMED, not forceable.** Fires only on `four_branch/summary.json`.
+
+## C. Owner / Machine / External
+
+**Owner:** Fairbank + arXiv (HOLD) · BBN-ε DOI · conv_desi disposition (relaunch needs cores now spoken for — displacing a live chain is your call). **Machine:** T14 four-branch · bbnfix dual gate (NOT_BOOKABLE, no peek-book) · routeD leave alone · ε_max when free · conv_desi · lensing · joint stack. **External:** lattice clause-4 · blazar-floor debate · PolyChord SKIP.
+
+## D. One sentence for owner
+
+> Blue's non-hygiene desk is empty and T14 is already running on your approval, so the only forceable work left today is red's — first-grading the three claim surfaces blue filed tonight and auditing the T-X6 list — with everything else waiting on the machine, the world, or new licensed physics content.
+
+**Board empty for desk? NO** — blue **yes**, red **no**. **WHOSE_TURN → RED.**
+
+Approve and I'll append the block to `ForGrok&Claude.md` (single Edit append, no other file touched, MCMCs untouched) — and if you want, run R1+R2 straight after.

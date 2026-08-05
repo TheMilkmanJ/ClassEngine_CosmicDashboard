@@ -4,7 +4,7 @@
 >
 > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on joint Σm_ν posterior · Fairbank path **HOLD** · m_ββ package **READY not posted**.
 >
-> **1. Σm_ν joint waits on `dyad_mnu_bbnfix` book.** Live pair: model `dyad_mnu_bbnfix` (Σm_ν free) vs twin `cmp_lcdm_mnu_bbnfix`. Progress: dyad N=20302 **R−1=0.128943** (t=2026-08-04T03:25:56; ~2.58× stop), lcdm N=20409 **R−1=0.086466** (t=2026-08-04T05:21:52; was 0.059055@N=19013 — **receding**, now **1.73×** stop); both checkpoints **`converged: false`**. Bookable **NO** — requires both progress R−1 < 0.05 **and** `converged: true`, then `scripts/book_bbnfix_when_ready.py`. Offline GetDist GR (~0.086 / ~0.07) is **diagnostic only**, never the gate. Double-duty conv_g (T3 item 2) rides unproduced `conv_desi` / early routeD, not desk. §2 minima table is **not** the joint posterior — **no invented posteriors**. Currency: [`machine_r1_currency_20260804c`](working_logs/_runs/machine_r1_currency_20260804c/).
+> **1. Σm_ν joint waits on `dyad_mnu_bbnfix` book.** Live pair: model `dyad_mnu_bbnfix` (Σm_ν free) vs twin `cmp_lcdm_mnu_bbnfix`. Progress: dyad N=21867 **R−1=0.072286** (t=2026-08-04T13:32:11; ~1.45× stop), lcdm N=21886 **R−1=0.071122** (t=2026-08-04T13:01:13 — **1.42×** stop); both checkpoints **`converged: false`**. Bookable **NO** — requires both progress R−1 < 0.05 **and** `converged: true`, then `scripts/book_bbnfix_when_ready.py`. Offline GetDist GR (~0.086 / ~0.07) is **diagnostic only**, never the gate. Double-duty conv_g (T3 item 2) rides unproduced `conv_desi` / early routeD, not desk. §2 minima table is **not** the joint posterior — **no invented posteriors**. Currency: [`machine_r1_currency_20260804e`](working_logs/_runs/machine_r1_currency_20260804e/).
 >
 > **2. Fairbank HOLD.** Experimental letter + hep-ph endorsement path paused at owner. Desk does **not** email Fairbank, invent endorsement, or invent a second Fairbank TeX. Companion: [exploratory/PRTOE_fairbank_note_HOLD.md](exploratory/PRTOE_fairbank_note_HOLD.md). Draft letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md). Owner branch table: [arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md](working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md).
 >
@@ -62,7 +62,7 @@ Standard cosmology pushes neutrino mass down. This model keeps it heavy enough t
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Neutrino mass medium-sourced (not ordinary Higgs Yukawa) | **interpretation** / structural | §1 | Inverse-seesaw / Majoron seating |
-| 2 | Model fit prefers m_ncdm ~0.07–0.09 eV (upward vs ΛCDM 0) | **machine-backed** provisional | §2 table; P-2026-023 | **OPEN-MACHINE:** joint `dyad_mnu_bbnfix` book **NO** (lcdm R−1=**0.086466**@N=20409 — receding from 0.059; dyad 0.128943@N=20302; both not self-stopped) |
+| 2 | Model fit prefers m_ncdm ~0.07–0.09 eV (upward vs ΛCDM 0) | **machine-backed** provisional | §2 table; P-2026-023 | **OPEN-MACHINE:** joint `dyad_mnu_bbnfix` book **NO** (lcdm R−1=**0.071122**@N=21886 t=2026-08-04T13:01:13 — **1.42×** stop; dyad 0.072286@N=21867; both not self-stopped) |
 | 3 | Upward shift direction generic to varying-m_e | **interpretation** | §4 | Specific numbers are model’s |
 | 4 | Exact v_L derivation / branch selection | **OPEN** | status; T3 | Benchmark A: 5 MeV candidate; MeV vs high-v_L is CMB-S4 / leptogenesis, not desk |
 | 5 | CMB-S4 tests MeV-scale v_L corner (P-2026-025) | **registered** | §3 | High-v_L corner not accessible |

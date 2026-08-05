@@ -28,9 +28,9 @@ Desk forceable queue clear after residual hygiene + soft-claim residual. Process
 
 ## Machine
 bbnfix **NOT bookable**  
-- lcdm R−1 = **0.086466** (N=**20409**, t=2026-08-04T05:21:52); `converged: false` — was **0.059055**@N=19013; **receding**, now **1.73×** stop  
-- dyad R−1 = **0.128943** (N=**20302**, t=2026-08-04T03:25:56); `converged: false` — still ~2.58× stop  
-All booking stamps **REFUSED**. force peek ≠ book. Currency: `machine_r1_currency_20260804c`.
+- lcdm R−1 = **0.071122** (N=**21886**, t=2026-08-04T13:01:13); `converged: false` — **1.42×** stop  
+- dyad R−1 = **0.072286** (N=**21867**, t=2026-08-04T13:32:11); `converged: false` — still ~1.45× stop  
+All booking stamps **REFUSED**. force peek ≠ book. Currency: `machine_r1_currency_20260804e`.
 
 ## BBN ε (do not overclaim)
 **ARITHMETIC VERIFIED (internal)** (3.196% ≈ 3.20%). **EXTERNAL WIN PENDING (no DOI)** — never “EXTERNAL WIN DELIVERED” until public record.

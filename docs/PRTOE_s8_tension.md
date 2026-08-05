@@ -56,8 +56,8 @@ before any tension-easing claim upgrades.) The conv_desi chain was to deliver th
 split-R̂ — a single chain is split into four segments — so it is a real number but blind to
 confinement in one basin; noted 2026-07-29 because elsewhere the corpus wrongly said a one-chain run
 yields no statistic at all.)* Three runs are live on the box as of 2026-08-04 — the bbnfix pair
-and route-D — and **none is conv_desi**. Live progress: lcdm R−1=**0.086466**@N=20409 (was 0.059 — **receding** 1.73× stop) / dyad R−1=**0.128943**@N=20302 /
-routeD R−1≈103; all `converged:false` (see `PRTOE_CHAIN_TABLES.md`). This chain has now died twice (it was found dead at initialisation on
+and route-D — and **none is conv_desi**. Live progress: lcdm R−1=**0.071122**@N=21886 (**1.42×** stop) / dyad R−1=**0.072286**@N=21867 t=2026-08-04T13:32:11 /
+routeD R−1=**4.941933**@N=3290 (still early ~**49.4×** stop); all `converged:false` (see `PRTOE_CHAIN_TABLES.md`). This chain has now died twice (it was found dead at initialisation on
 2026-07-16, relaunched, and stopped again), so **the S₈ posterior is not pending — it
 is unproduced**, and restarting it is an owner decision. The
 firewalled derivation candidate g = 10ε = 54α/π (the machines' table,

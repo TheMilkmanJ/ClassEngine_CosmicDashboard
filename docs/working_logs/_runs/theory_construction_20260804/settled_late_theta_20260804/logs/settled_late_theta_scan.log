@@ -1,0 +1,756 @@
+==============================================================================
+SETTLED LATE Θ SCAN — F5 deepen (FA3 0D form only)
+==============================================================================
+  package                       = settled_late_theta_20260804
+  prior                         = n3_gpe_late_theta_20260804
+  Θ_lock (d=3)                  = 11.706237653491  [= 1/√α]
+  c_s                           = 0.147959648423
+  |H_kin(Θ=1)|/H_door           = 0.085424542846
+  S1_settled                    = mean(last 20% of Θ hist after settle)
+  quality cut                   = settled_std < 0.2
+  dt                            = 0.001
+  script_sha256                 = 950d68ac22b76d2e1eb4ff57d4842e727af6455811c564820e1b184c271fe380
+
+  FORM:  dn/dt = −n Θ ;  dΘ/dt = −Θ² + κ(n−1) − γ Θ
+  NO invent H_re · no free dial · leave MCMCs · production_3d=false
+
+------------------------------------------------------------------------------
+[0] Analytic fixed point / ring-down (stocked form)
+------------------------------------------------------------------------------
+  unique physical FP            = (n,Θ) = (1, 0)
+  char poly                     = lambda^2 + gamma*lambda + kappa = 0
+  asymptotic claim              = Ring-down under stocked FA3 0D always drives settled_mean → 0 (hence O(0.1) or below after finite settle for legal γ>0). Finite-window residuals of O(0.1) are damped oscillations, not a stable positive late ⟨Θ⟩.
+    κ=1.50 γ=0.15  rate=γ/2=0.0750  underdamped  t_1%≈61.40
+    κ=3.00 γ=0.02  rate=γ/2=0.0100  underdamped  t_1%≈460.52
+    κ=1.50 γ=0.50  rate=γ/2=0.2500  underdamped  t_1%≈18.42
+    κ=5.00 γ=0.10  rate=γ/2=0.0500  underdamped  t_1%≈92.10
+
+------------------------------------------------------------------------------
+[1] Full stocked 0D scan  settle_extra=40  (S1_settled primary)
+------------------------------------------------------------------------------
+  n_rows / physical / quality   = 710 / 685 / 364
+  n_turned / blowups            = 678 / 25
+  max settled_mean (all phys)   = 0.10560011708111182
+  max settled_mean (quality)    = 0.04358232247341028
+  max positive settled (qual)   = 0.04358232247341028
+  max re-entry late_tail10      = 2.870069874888626
+  settled ≥ Θ_lock?             = False
+  quality settled ≥ Θ_lock?     = False
+  ARGMAX quality S1_settled     = (n0=3.0, Θ0=-1.0, κ=1.0, γ=0.05) → settled=+0.043582 std=0.184319 tail10=+0.7166 tail20=+0.6428
+  ARGMAX all-phys S1_settled    = (n0=6.0, Θ0=-2.0, κ=1.0, γ=0.02) → settled=+0.105600 std=0.471817
+  ARGMAX re-entry late_tail10   = (n0=80.0, Θ0=-8.0, κ=3.0, γ=0.02) → tail10=+2.8701 tail20=-0.1364 settled@40.0=-0.058221 std=1.099422
+
+------------------------------------------------------------------------------
+[2] Scan settle_extra=20  (prior phase-2 comparable)
+------------------------------------------------------------------------------
+  n_physical / quality          = 685 / 193
+  max settled (all / quality)   = 0.3187177948001347 / 0.04195224030801183
+  max positive settled (qual)   = 0.04195224030801183
+  ARGMAX quality S1_settled     = (n0=20.0, Θ0=-8.0, κ=2.0, γ=0.15) → settled=+0.041952 std=0.157441
+
+------------------------------------------------------------------------------
+[3] Ring-down ladders (settled_mean vs settle_extra)
+------------------------------------------------------------------------------
+  STOCKED DEFAULT (6, −2, 1.5, 0.15):
+    se=    0  t_end=   8.25  tail10=+0.06122  tail20=+0.28129  settled=+0.28129  std= 0.25371  q=0
+    se=   10  t_end=  18.25  tail10=+0.06122  tail20=+0.28129  settled=+0.07437  std= 0.23243  q=0
+    se=   20  t_end=  28.25  tail10=+0.06122  tail20=+0.28129  settled=+0.00203  std= 0.11382  q=1
+    se=   40  t_end=  48.25  tail10=+0.06122  tail20=+0.28129  settled=-0.00368  std= 0.03150  q=1
+    se=   80  t_end=  88.25  tail10=+0.06122  tail20=+0.28129  settled=-0.00017  std= 0.00248  q=1
+    se=  160  t_end= 168.25  tail10=+0.06122  tail20=+0.28129  settled=+0.00000  std= 0.00002  q=1
+  PRIOR F5 BEST-LATE (80, −8, 3, 0.02):
+    se=    0  t_end=   8.03  tail10=+2.87007  tail20=-0.13643  settled=-0.13643  std= 3.22589  q=0
+    se=   10  t_end=  18.03  tail10=+2.87007  tail20=-0.13643  settled=+0.05541  std= 1.71252  q=0
+    se=   20  t_end=  28.03  tail10=+2.87007  tail20=-0.13643  settled=+0.10855  std= 1.25009  q=0
+    se=   40  t_end=  48.03  tail10=+2.87007  tail20=-0.13643  settled=-0.05822  std= 1.09942  q=0
+    se=   80  t_end=  88.03  tail10=+2.87007  tail20=-0.13643  settled=-0.01991  std= 0.68986  q=0
+    se=  160  t_end= 168.03  tail10=+2.87007  tail20=-0.13643  settled=+0.01318  std= 0.34992  q=0
+
+------------------------------------------------------------------------------
+[4] Fixed-point stamp (stocked default + F5 row @ se=40)
+------------------------------------------------------------------------------
+  stocked se=0   tail10=+0.061225  tail20=+0.281291  settled=+0.281291  std=0.253707
+  stocked se=40  tail10=+0.061225  tail20=+0.281291  settled=-0.003680  std=0.031498  n_late=0.988111
+  F5best se=0    tail10=+2.870070  tail20=-0.136426  settled=-0.136426  std=3.225885
+  F5best se=40   tail10=+2.870070  tail20=-0.136426  settled=-0.058221  std=1.099422  n_late=1.078090
+
+------------------------------------------------------------------------------
+[5] Top quality positive S1_settled survivors (se=40, std<0.2)
+------------------------------------------------------------------------------
+      n0     Θ0     κ     γ     settled      std    tail10    tail20     peak
+     3.0   -1.0  1.00  0.05   +0.043582  0.18432   +0.7166   +0.6428    1.101
+     6.0   -2.0  1.00  0.08   +0.028122  0.11636   +0.7976   +0.7551    2.000
+    11.0   -3.0  1.00  0.10   +0.019701  0.08047   +0.7841   +0.7476    2.967
+    11.0   -2.0  1.00  0.10   +0.019106  0.07864   +0.7591   +0.7229    2.442
+     6.0   -2.0  1.00  0.10   +0.018700  0.07598   +0.7288   +0.6684    1.990
+     6.0   -1.0  1.00  0.10   +0.017474  0.07204   +0.6786   +0.6218    1.582
+     3.0   -1.0  1.00  0.10   +0.015516  0.06292   +0.5757   +0.4905    1.083
+     6.0   -2.0  0.50  0.05   +0.010426  0.16646   -0.8026   -0.6845    2.256
+    11.0   -3.0  1.00  0.15   +0.007301  0.02807   +0.6280   +0.5579    2.939
+    11.0   -2.0  1.00  0.15   +0.007093  0.02744   +0.6095   +0.5432    2.424
+     6.0   -2.0  1.00  0.15   +0.006928  0.02649   +0.5849   +0.5052    1.966
+     6.0   -1.0  1.00  0.15   +0.006497  0.02515   +0.5469   +0.4757    1.567
+     3.0   -1.0  1.00  0.15   +0.005757  0.02194   +0.4648   +0.3815    1.066
+    20.0   -8.0  4.00  0.10   +0.005356  0.17781   +0.4327   +1.0554    8.107
+    30.0   -8.0  4.00  0.10   +0.005156  0.17861   +0.4302   +1.0643    8.955
+
+------------------------------------------------------------------------------
+[6] Top all-physical S1_settled (se=40; may fail quality cut)
+------------------------------------------------------------------------------
+  (n0=6.0, Θ0=-2.0, κ=1.0, γ=0.02) settled=+0.105600 std=0.47182 q=0 tail10=+1.0558 tail20=+1.1755
+  (n0=11.0, Θ0=-3.0, κ=1.0, γ=0.05) settled=+0.055890 std=0.23852 q=0 tail10=+0.9875 tail20=+1.0626
+  (n0=11.0, Θ0=-2.0, κ=1.0, γ=0.05) settled=+0.053969 std=0.23257 q=0 tail10=+0.9526 tail20=+1.0130
+  (n0=6.0, Θ0=-2.0, κ=1.0, γ=0.05) settled=+0.052950 std=0.22452 q=0 tail10=+0.9154 tail20=+0.9239
+  (n0=6.0, Θ0=-1.0, κ=1.0, γ=0.05) settled=+0.049093 std=0.21193 q=0 tail10=+0.8468 tail20=+0.8401
+  (n0=3.0, Θ0=-1.0, κ=1.0, γ=0.05) settled=+0.043582 std=0.18432 q=1 tail10=+0.7166 tail20=+0.6428
+  (n0=6.0, Θ0=-2.0, κ=1.0, γ=0.08) settled=+0.028122 std=0.11636 q=1 tail10=+0.7976 tail20=+0.7551
+  (n0=20.0, Θ0=-8.0, κ=4.0, γ=0.02) settled=+0.027661 std=1.22310 q=0 tail10=+0.5213 tail20=+1.8394
+  (n0=30.0, Θ0=-8.0, κ=4.0, γ=0.02) settled=+0.026644 std=1.23288 q=0 tail10=+0.5194 tail20=+1.8618
+  (n0=20.0, Θ0=-6.0, κ=4.0, γ=0.02) settled=+0.026614 std=1.20466 q=0 tail10=+0.5160 tail20=+1.7786
+
+==============================================================================
+VERDICT — S1_settled vs Θ_lock
+==============================================================================
+  medium turn (stocked 0D)        = YES (if any turned>0)
+  MAX S1_settled (quality, se=40) = 0.04358232247341028
+  MAX S1_settled (all phys, se40) = 0.10560011708111182
+  MAX S1_settled (quality, se=20) = 0.04195224030801183
+  stocked default settled se=40   = -0.003680  std=0.031498
+  prior F5-row settled se=40      = -0.058221  std=1.099422
+  prior F5-row tail10@se0         = +2.870070  tail20=-0.136426
+  Θ_lock required                 = 11.706238
+  ratio S1_settled / Θ_lock       = 3.723000e-03
+  |H_kin(settled)|/H_door         = 3.723000e-03
+  S1_settled ≥ Θ_lock?            = False
+  S1 status                       = MISSING_INPUT
+  package grade                   = OPEN-BLOCKED
+  production 3D COMPLETE?         = False
+  COMPLETE count                  = 0
+  page_curve_claimed              = False
+  ring-down → O(0.1) or below?    = True  (ladders + analytic FP)
+
+  READ:
+  1. S1_settled = last-20% mean after settle_extra (not re-entry tail10).
+  2. Quality cut settled_std < 0.2 rejects residual ring-down noise.
+  3. Unique physical FP of stocked ODE is (n,Θ)=(1,0); γ>0 ⇒ Θ→0.
+  4. Prior +2.87 was re-entry tail10 window-choice; F5 residual closed as
+     documentation: no stable positive late ⟨Θ⟩ near lock under stocked form.
+  5. κ,γ remain toy reduced coeffs — not Derived cosmological dials.
+  6. No claim: bounce closed · H_re Derived · Θ_lock derived · page curve.
+  7. exit 0 ≠ PASS. production_3d false (0D instrument).
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "settled_late_theta_20260804",
+  "prior": "n3_gpe_late_theta_20260804",
+  "form": "FA3_0D_only",
+  "S1_definition": "settled_mean = mean(last 20% of \u0398 history after settle_extra)",
+  "quality_cut": "settled_std < 0.2",
+  "Theta_lock": 11.706237653490552,
+  "c_s": 0.14795964842319909,
+  "H_kin_over_H_door_at_Theta1": 0.08542454284633638,
+  "dt": 0.001,
+  "script_sha256": "950d68ac22b76d2e1eb4ff57d4842e727af6455811c564820e1b184c271fe380",
+  "headline_label": "max_positive_quality_settled_se40",
+  "max_S1_settled_quality_se40": 0.04358232247341028,
+  "max_S1_settled_all_physical_se40": 0.10560011708111182,
+  "max_S1_settled_quality_se20": 0.04195224030801183,
+  "argmax_quality_se40": {
+    "n0": 3.0,
+    "Theta0": -1.0,
+    "kappa": 1.0,
+    "gamma": 0.05,
+    "late_tail10": 0.7166129300599396,
+    "late_tail20": 0.6427636390666231,
+    "settled_mean": 0.04358232247341028,
+    "settled_std": 0.184318558127807,
+    "quality_ok": 1.0,
+    "Theta_max_pos": 1.1011027655284649,
+    "turned": 1.0,
+    "t_end": 48.45999999997776,
+    "settle_extra": 40.0,
+    "dt": 0.001,
+    "Hkin_Hdoor_settled": 0.0037229999734726855,
+    "Hkin_Hdoor_late": 0.061216331948143965
+  },
+  "argmax_quality_se20": {
+    "n0": 20.0,
+    "Theta0": -8.0,
+    "kappa": 2.0,
+    "gamma": 0.15,
+    "late_tail10": -0.6428653317604838,
+    "late_tail20": -0.35865924524536186,
+    "settled_mean": 0.04195224030801183,
+    "settled_std": 0.1574414263113921,
+    "quality_ok": 1.0,
+    "Theta_max_pos": 10.241236745657899,
+    "turned": 1.0,
+    "t_end": 28.204000000011487,
+    "settle_extra": 20.0,
+    "dt": 0.001,
+    "Hkin_Hdoor_settled": 0.003583750949691557,
+    "Hkin_Hdoor_late": 0.0549164770773977
+  },
+  "argmax_all_physical_se40": {
+    "n0": 6.0,
+    "Theta0": -2.0,
+    "kappa": 1.0,
+    "gamma": 0.02,
+    "late_tail10": 1.0558483667735075,
+    "late_tail20": 1.175521864494698,
+    "settled_mean": 0.10560011708111182,
+    "settled_std": 0.4718166308232392,
+    "quality_ok": 0.0,
+    "Theta_max_pos": 2.029698781108179,
+    "turned": 1.0,
+    "t_end": 48.380999999977945,
+    "settle_extra": 40.0,
+    "dt": 0.001,
+    "Hkin_Hdoor_settled": 0.009020841726173574,
+    "Hkin_Hdoor_late": 0.09019536404667777
+  },
+  "stocked_default_se0": {
+    "n0": 6.0,
+    "Theta0": -2.0,
+    "kappa": 1.5,
+    "gamma": 0.15,
+    "late_tail10": 0.061224852939294375,
+    "late_tail20": 0.2812908154331404,
+    "settled_mean": 0.2812908154331404,
+    "settled_std": 0.25370680976683724,
+    "quality_ok": 0.0,
+    "Theta_max_pos": 2.1780346563969393,
+    "turned": 1.0,
+    "t_end": 8.254000000000865,
+    "settle_extra": 0.0,
+    "dt": 0.001,
+    "Hkin_Hdoor_settled": 0.024029139315249203,
+    "Hkin_Hdoor_late": 0.005230105073173396
+  },
+  "stocked_default_se40": {
+    "n0": 6.0,
+    "Theta0": -2.0,
+    "kappa": 1.5,
+    "gamma": 0.15,
+    "late_tail10": 0.061224852939294375,
+    "late_tail20": 0.2812908154331404,
+    "settled_mean": -0.0036797908419654644,
+    "settled_std": 0.0314984096856832,
+    "quality_ok": 1.0,
+    "Theta_max_pos": 2.1780346563969393,
+    "turned": 1.0,
+    "t_end": 48.25499999997824,
+    "settle_extra": 40.0,
+    "dt": 0.001,
+    "Hkin_Hdoor_settled": 0.000314344450445035,
+    "Hkin_Hdoor_late": 0.005230105073173396
+  },
+  "prior_F5_best_late_se0": {
+    "n0": 80.0,
+    "Theta0": -8.0,
+    "kappa": 3.0,
+    "gamma": 0.02,
+    "late_tail10": 2.870069874888626,
+    "late_tail20": -0.13642625538239697,
+    "settled_mean": -0.13642625538239697,
+    "settled_std": 3.2258851549278735,
+    "quality_ok": 0.0,
+    "Theta_max_pos": 11.772807710856325,
+    "turned": 1.0,
+    "t_end": 8.034000000000987,
+    "settle_extra": 0.0,
+    "dt": 0.001,
+    "Hkin_Hdoor_settled": 0.0116541504982788,
+    "Hkin_Hdoor_late": 0.2451744069994027
+  },
+  "prior_F5_best_late_se40": {
+    "n0": 80.0,
+    "Theta0": -8.0,
+    "kappa": 3.0,
+    "gamma": 0.02,
+    "late_tail10": 2.870069874888626,
+    "late_tail20": -0.13642625538239697,
+    "settled_mean": -0.05822090318752115,
+    "settled_std": 1.0994221936908095,
+    "quality_ok": 0.0,
+    "Theta_max_pos": 11.772807710856325,
+    "turned": 1.0,
+    "t_end": 48.03499999997875,
+    "settle_extra": 40.0,
+    "dt": 0.001,
+    "Hkin_Hdoor_settled": 0.004973494038894802,
+    "Hkin_Hdoor_late": 0.2451744069994027
+  },
+  "ratio_S1_settled_over_lock": 0.003722999973472686,
+  "H_kin_over_H_door_at_max_settled": 0.0037229999734726855,
+  "Theta_lock_reached_S1_settled": false,
+  "S1_status": "MISSING_INPUT",
+  "grade": "OPEN-BLOCKED",
+  "COMPLETE": 0,
+  "production_3d": false,
+  "page_curve_claimed": false,
+  "ringdown_drives_settled_to_O0.1_or_below": true,
+  "analytic": {
+    "unique_physical_fixed_point": {
+      "n": 1.0,
+      "Theta": 0.0
+    },
+    "char_poly": "lambda^2 + gamma*lambda + kappa = 0",
+    "asymptotic": "For gamma>0 and kappa>0, FP is asymptotically stable with Re(lambda)=\u2212gamma/2. Therefore settled_mean \u2192 0 as t\u2192\u221e under the stocked form. No non-zero late attractor exists.",
+    "linear_cases": [
+      {
+        "kappa": 1.5,
+        "gamma": 0.15,
+        "ringdown_rate_gamma_over_2": 0.075,
+        "disc": -5.9775,
+        "regime": "underdamped",
+        "omega_osc": 1.222446317839765,
+        "t_amplitude_1pct": 61.40226914650789
+      },
+      {
+        "kappa": 3.0,
+        "gamma": 0.02,
+        "ringdown_rate_gamma_over_2": 0.01,
+        "disc": -11.9996,
+        "regime": "underdamped",
+        "omega_osc": 1.732021939814851,
+        "t_amplitude_1pct": 460.51701859880916
+      },
+      {
+        "kappa": 1.5,
+        "gamma": 0.5,
+        "ringdown_rate_gamma_over_2": 0.25,
+        "disc": -5.75,
+        "regime": "underdamped",
+        "omega_osc": 1.1989578808281798,
+        "t_amplitude_1pct": 18.420680743952367
+      },
+      {
+        "kappa": 5.0,
+        "gamma": 0.1,
+        "ringdown_rate_gamma_over_2": 0.05,
+        "disc": -19.99,
+        "regime": "underdamped",
+        "omega_osc": 2.2355088906108156,
+        "t_amplitude_1pct": 92.10340371976183
+      }
+    ],
+    "claim": "Ring-down under stocked FA3 0D always drives settled_mean \u2192 0 (hence O(0.1) or below after finite settle for legal \u03b3>0). Finite-window residuals of O(0.1) are damped oscillations, not a stable positive late \u27e8\u0398\u27e9."
+  },
+  "scan_se40": {
+    "n_rows": 710,
+    "n_physical": 685,
+    "n_quality": 364,
+    "n_turned": 678,
+    "max_settled_mean_all_physical": 0.10560011708111182,
+    "max_settled_mean_quality": 0.04358232247341028,
+    "max_positive_settled_quality": 0.04358232247341028,
+    "max_late_tail10_reentry": 2.870069874888626,
+    "settled_reaches_lock": false,
+    "best_positive_settled_quality": {
+      "n0": 3.0,
+      "Theta0": -1.0,
+      "kappa": 1.0,
+      "gamma": 0.05,
+      "late_tail10": 0.7166129300599396,
+      "late_tail20": 0.6427636390666231,
+      "settled_mean": 0.04358232247341028,
+      "settled_std": 0.184318558127807,
+      "quality_ok": 1.0,
+      "Theta_max_pos": 1.1011027655284649,
+      "turned": 1.0,
+      "t_end": 48.45999999997776,
+      "settle_extra": 40.0,
+      "dt": 0.001,
+      "Hkin_Hdoor_settled": 0.0037229999734726855,
+      "Hkin_Hdoor_late": 0.061216331948143965
+    },
+    "best_settled_all": {
+      "n0": 6.0,
+      "Theta0": -2.0,
+      "kappa": 1.0,
+      "gamma": 0.02,
+      "late_tail10": 1.0558483667735075,
+      "late_tail20": 1.175521864494698,
+      "settled_mean": 0.10560011708111182,
+      "settled_std": 0.4718166308232392,
+      "quality_ok": 0.0,
+      "Theta_max_pos": 2.029698781108179,
+      "turned": 1.0,
+      "t_end": 48.380999999977945,
+      "settle_extra": 40.0,
+      "dt": 0.001,
+      "Hkin_Hdoor_settled": 0.009020841726173574,
+      "Hkin_Hdoor_late": 0.09019536404667777
+    },
+    "best_late_reentry": {
+      "n0": 80.0,
+      "Theta0": -8.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_tail10": 2.870069874888626,
+      "late_tail20": -0.13642625538239697,
+      "settled_mean": -0.05822090318752115,
+      "settled_std": 1.0994221936908095,
+      "quality_ok": 0.0,
+      "Theta_max_pos": 11.772807710856325,
+      "turned": 1.0,
+      "t_end": 48.03499999997875,
+      "settle_extra": 40.0,
+      "dt": 0.001,
+      "Hkin_Hdoor_settled": 0.004973494038894802,
+      "Hkin_Hdoor_late": 0.2451744069994027
+    }
+  },
+  "scan_se20": {
+    "n_physical": 685,
+    "n_quality": 193,
+    "max_settled_mean_all_physical": 0.3187177948001347,
+    "max_settled_mean_quality": 0.04195224030801183,
+    "max_positive_settled_quality": 0.04195224030801183,
+    "best_positive_settled_quality": {
+      "n0": 20.0,
+      "Theta0": -8.0,
+      "kappa": 2.0,
+      "gamma": 0.15,
+      "late_tail10": -0.6428653317604838,
+      "late_tail20": -0.35865924524536186,
+      "settled_mean": 0.04195224030801183,
+      "settled_std": 0.1574414263113921,
+      "quality_ok": 1.0,
+      "Theta_max_pos": 10.241236745657899,
+      "turned": 1.0,
+      "t_end": 28.204000000011487,
+      "settle_extra": 20.0,
+      "dt": 0.001,
+      "Hkin_Hdoor_settled": 0.003583750949691557,
+      "Hkin_Hdoor_late": 0.0549164770773977
+    }
+  },
+  "ringdown_ladder_stocked_default": [
+    {
+      "settle_extra": 0.0,
+      "t_end": 8.254000000000865,
+      "late_tail10": 0.061224852939294375,
+      "late_tail20": 0.2812908154331404,
+      "settled_mean": 0.2812908154331404,
+      "settled_std": 0.25370680976683724,
+      "n_late": 0.6835604390052209,
+      "quality_ok": 0.0
+    },
+    {
+      "settle_extra": 10.0,
+      "t_end": 18.254999999999328,
+      "late_tail10": 0.061224852939294375,
+      "late_tail20": 0.2812908154331404,
+      "settled_mean": 0.07436775573186613,
+      "settled_std": 0.23243418217832068,
+      "n_late": 0.8128403450961988,
+      "quality_ok": 0.0
+    },
+    {
+      "settle_extra": 20.0,
+      "t_end": 28.254000000011548,
+      "late_tail10": 0.061224852939294375,
+      "late_tail20": 0.2812908154331404,
+      "settled_mean": 0.002028102741965996,
+      "settled_std": 0.1138235633777925,
+      "n_late": 0.9077009343188197,
+      "quality_ok": 1.0
+    },
+    {
+      "settle_extra": 40.0,
+      "t_end": 48.25499999997824,
+      "late_tail10": 0.061224852939294375,
+      "late_tail20": 0.2812908154331404,
+      "settled_mean": -0.0036797908419654644,
+      "settled_std": 0.0314984096856832,
+      "n_late": 0.9881110881810855,
+      "quality_ok": 1.0
+    },
+    {
+      "settle_extra": 80.0,
+      "t_end": 88.25400000005735,
+      "late_tail10": 0.061224852939294375,
+      "late_tail20": 0.2812908154331404,
+      "settled_mean": -0.0001697547046954743,
+      "settled_std": 0.0024809053278551955,
+      "n_late": 1.0009661458903112,
+      "quality_ok": 1.0
+    },
+    {
+      "settle_extra": 160.0,
+      "t_end": 168.25400000043933,
+      "late_tail10": 0.061224852939294375,
+      "late_tail20": 0.2812908154331404,
+      "settled_mean": 8.621604641146226e-07,
+      "settled_std": 1.6188568645054348e-05,
+      "n_late": 0.9999985542762829,
+      "quality_ok": 1.0
+    }
+  ],
+  "ringdown_ladder_prior_F5_best_late": [
+    {
+      "settle_extra": 0.0,
+      "t_end": 8.034000000000987,
+      "late_tail10": 2.870069874888626,
+      "late_tail20": -0.13642625538239697,
+      "settled_mean": -0.13642625538239697,
+      "settled_std": 3.2258851549278735,
+      "n_late": 1.3413812054906753,
+      "quality_ok": 0.0
+    },
+    {
+      "settle_extra": 10.0,
+      "t_end": 18.03499999999906,
+      "late_tail10": 2.870069874888626,
+      "late_tail20": -0.13642625538239697,
+      "settled_mean": 0.055411366857992445,
+      "settled_std": 1.7125184742556563,
+      "n_late": 5.7119518034699945,
+      "quality_ok": 0.0
+    },
+    {
+      "settle_extra": 20.0,
+      "t_end": 28.03400000001128,
+      "late_tail10": 2.870069874888626,
+      "late_tail20": -0.13642625538239697,
+      "settled_mean": 0.10854656128654341,
+      "settled_std": 1.2500898284797242,
+      "n_late": 0.8687769352907118,
+      "quality_ok": 0.0
+    },
+    {
+      "settle_extra": 40.0,
+      "t_end": 48.03499999997875,
+      "late_tail10": 2.870069874888626,
+      "late_tail20": -0.13642625538239697,
+      "settled_mean": -0.05822090318752115,
+      "settled_std": 1.0994221936908095,
+      "n_late": 1.0780896548636238,
+      "quality_ok": 0.0
+    },
+    {
+      "settle_extra": 80.0,
+      "t_end": 88.0340000000563,
+      "late_tail10": 2.870069874888626,
+      "late_tail20": -0.13642625538239697,
+      "settled_mean": -0.0199112073950703,
+      "settled_std": 0.689855263232266,
+      "n_late": 0.9750904256479477,
+      "quality_ok": 0.0
+    },
+    {
+      "settle_extra": 160.0,
+      "t_end": 168.03400000043828,
+      "late_tail10": 2.870069874888626,
+      "late_tail20": -0.13642625538239697,
+      "settled_mean": 0.013177775522641377,
+      "settled_std": 0.3499226188058701,
+      "n_late": 0.9177166053889452,
+      "quality_ok": 0.0
+    }
+  ],
+  "top_quality_positive_survivors_se40": [
+    {
+      "n0": 3.0,
+      "Theta0": -1.0,
+      "kappa": 1.0,
+      "gamma": 0.05,
+      "settled_mean": 0.04358232247341028,
+      "settled_std": 0.184318558127807,
+      "late_tail10": 0.7166129300599396,
+      "late_tail20": 0.6427636390666231,
+      "Theta_max_pos": 1.1011027655284649,
+      "Hkin_Hdoor_settled": 0.0037229999734726855,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 6.0,
+      "Theta0": -2.0,
+      "kappa": 1.0,
+      "gamma": 0.08,
+      "settled_mean": 0.028122129361398178,
+      "settled_std": 0.11636301242741942,
+      "late_tail10": 0.7975636324937176,
+      "late_tail20": 0.75510203970425,
+      "Theta_max_pos": 1.9999476272085377,
+      "Hkin_Hdoor_settled": 0.002402320044562973,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 11.0,
+      "Theta0": -3.0,
+      "kappa": 1.0,
+      "gamma": 0.1,
+      "settled_mean": 0.01970107421749853,
+      "settled_std": 0.08047226638397618,
+      "late_tail10": 0.7840939726977765,
+      "late_tail20": 0.7475547057898995,
+      "Theta_max_pos": 2.9666862374120435,
+      "Hkin_Hdoor_settled": 0.0016829552586115559,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 11.0,
+      "Theta0": -2.0,
+      "kappa": 1.0,
+      "gamma": 0.1,
+      "settled_mean": 0.019106479544151952,
+      "settled_std": 0.07864150064300496,
+      "late_tail10": 0.7591456378070957,
+      "late_tail20": 0.7229292583633722,
+      "Theta_max_pos": 2.4420628094565413,
+      "Hkin_Hdoor_settled": 0.0016321622804620578,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 6.0,
+      "Theta0": -2.0,
+      "kappa": 1.0,
+      "gamma": 0.1,
+      "settled_mean": 0.018699789851385838,
+      "settled_std": 0.07597672957709194,
+      "late_tail10": 0.7288352341175509,
+      "late_tail20": 0.6683835701567021,
+      "Theta_max_pos": 1.9902024679156918,
+      "Hkin_Hdoor_settled": 0.0015974209993771954,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 6.0,
+      "Theta0": -1.0,
+      "kappa": 1.0,
+      "gamma": 0.1,
+      "settled_mean": 0.017473682152243025,
+      "settled_std": 0.07204092010499026,
+      "late_tail10": 0.6785839522953493,
+      "late_tail20": 0.6218368547796332,
+      "Theta_max_pos": 1.5824954285448622,
+      "Hkin_Hdoor_settled": 0.0014926813096975474,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 3.0,
+      "Theta0": -1.0,
+      "kappa": 1.0,
+      "gamma": 0.1,
+      "settled_mean": 0.015515540570070652,
+      "settled_std": 0.06291794091021308,
+      "late_tail10": 0.5757247442649008,
+      "late_tail20": 0.49048751383234096,
+      "Theta_max_pos": 1.083130624137994,
+      "Hkin_Hdoor_settled": 0.001325407960212071,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 6.0,
+      "Theta0": -2.0,
+      "kappa": 0.5,
+      "gamma": 0.05,
+      "settled_mean": 0.0104263427503495,
+      "settled_std": 0.16646032495364235,
+      "late_tail10": -0.8025629730993868,
+      "late_tail20": -0.6845078987222861,
+      "Theta_max_pos": 2.2564576552405056,
+      "Hkin_Hdoor_settled": 0.0008906655630078194,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 11.0,
+      "Theta0": -3.0,
+      "kappa": 1.0,
+      "gamma": 0.15,
+      "settled_mean": 0.007300702065222421,
+      "settled_std": 0.02806538912326541,
+      "late_tail10": 0.6280410524111837,
+      "late_tail20": 0.5578710531476652,
+      "Theta_max_pos": 2.9392040657070146,
+      "Hkin_Hdoor_settled": 0.0006236591363789291,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 11.0,
+      "Theta0": -2.0,
+      "kappa": 1.0,
+      "gamma": 0.15,
+      "settled_mean": 0.007093481689754131,
+      "settled_std": 0.027442644502056916,
+      "late_tail10": 0.6094881892131063,
+      "late_tail20": 0.5431939505316241,
+      "Theta_max_pos": 2.424126859618562,
+      "Hkin_Hdoor_settled": 0.0006059574305361043,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 6.0,
+      "Theta0": -2.0,
+      "kappa": 1.0,
+      "gamma": 0.15,
+      "settled_mean": 0.0069282643719666415,
+      "settled_std": 0.026492120120224345,
+      "late_tail10": 0.5848652702752447,
+      "late_tail20": 0.5051874047490067,
+      "Theta_max_pos": 1.9662013374167042,
+      "Hkin_Hdoor_settled": 0.0005918438166938101,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 6.0,
+      "Theta0": -1.0,
+      "kappa": 1.0,
+      "gamma": 0.15,
+      "settled_mean": 0.006497328203823442,
+      "settled_std": 0.025152360244036148,
+      "late_tail10": 0.5469239999401481,
+      "late_tail20": 0.4756779725133692,
+      "Theta_max_pos": 1.5667787170878724,
+      "Hkin_Hdoor_settled": 0.0005550312915342254,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 3.0,
+      "Theta0": -1.0,
+      "kappa": 1.0,
+      "gamma": 0.15,
+      "settled_mean": 0.005756929410308949,
+      "settled_std": 0.021943628255811615,
+      "late_tail10": 0.46481465911455283,
+      "late_tail20": 0.381462173135455,
+      "Theta_max_pos": 1.0656065746742247,
+      "Hkin_Hdoor_settled": 0.0004917830630742708,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 20.0,
+      "Theta0": -8.0,
+      "kappa": 4.0,
+      "gamma": 0.1,
+      "settled_mean": 0.005356470437878037,
+      "settled_std": 0.17781494792470007,
+      "late_tail10": 0.4327164333166385,
+      "late_tail20": 1.0553730061617232,
+      "Theta_max_pos": 8.10711831551268,
+      "Hkin_Hdoor_settled": 0.0004575740384256465,
+      "quality_ok": 1.0
+    },
+    {
+      "n0": 30.0,
+      "Theta0": -8.0,
+      "kappa": 4.0,
+      "gamma": 0.1,
+      "settled_mean": 0.005155817558470286,
+      "settled_std": 0.17860756432212851,
+      "late_tail10": 0.43019755829883793,
+      "late_tail20": 1.0643341832020152,
+      "Theta_max_pos": 8.954924427677641,
+      "Hkin_Hdoor_settled": 0.0004404333579314383,
+      "quality_ok": 1.0
+    }
+  ],
+  "note": "S1_settled only. Re-entry late_tail10 is diagnostic (F5). Peak spikes and 0D caps are not lands. 0D \u2260 production 3D. COMPLETE=0. exit0\u2260PASS."
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — S1_settled ≪ Θ_lock; F5 residual documented; not 3D COMPLETE.
+==============================================================================

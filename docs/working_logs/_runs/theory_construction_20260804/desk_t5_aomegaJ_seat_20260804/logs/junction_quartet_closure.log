@@ -1,0 +1,53 @@
+============================================================================
+  Does the junction quartet actually miss closure?
+============================================================================
+
+  CONTROL: Gamma_phi = G_F^2 T^5 at T_sph
+    = (1.166379e-05)^2 * (131.7)^5 = 5.3902 GeV = 5.3902e+09 eV
+    recorded value 5.4e9 eV -> PASS
+
+  THE OVERDAMPING RATIO, COMPUTED FROM ITS OWN INPUTS:
+    Gamma_phi/thetadot = 5.3902e+09 / 59.68 = 9.0319e+07
+    the owner queue quotes this as ~1e+07
+    RATIO OF THE TWO: 9.032
+    -- and the queue's reported shortfall is 9.03.
+    The transfer-integral spec itself states 'overdamped by 9e7',
+    so the 9 was present in the source and dropped in the shorthand.
+
+  CLOSURE TEST, using the COMPUTED ratio:
+    j = omega_J^2/Gamma_phi = 5700^2 / 5.3902e+09 = 6.0276e-03 eV = 6.028 meV
+      recorded j ~ 6 meV -> MATCH
+    R = j/(2*thetadot) = 5.0499e-05
+    R = omega_J^2/(2*Gamma_phi*thetadot) = 5.0499e-05  (same, as it must be)
+      needed R ~ 5e-05 -> MATCH
+
+  WHAT omega_J DOES THE NEED REQUIRE?
+    omega_J = sqrt(R * 2 * Gamma_phi * thetadot) = 5671.8 eV = 5.672 keV
+    #39's stated target: 5.7 keV
+    agreement: 0.5% -- the target is RIGHT
+
+  THE QUEUE'S PROPOSED 'internally consistent' 1.90 keV:
+    would give R = 5.6110e-06, i.e. 8.91x SHORT of the need
+    -- that value is what you get by imposing the ROUNDED ratio 1e7;
+       it is an artifact of the shorthand, not a physical alternative.
+
+============================================================================
+  VERDICT: THE QUARTET CLOSES.  There is no factor-9 discrepancy.
+
+  Gamma_phi/thetadot is 9.03e7, NOT 1e7.  The transfer-integral spec records it
+  correctly ("overdamped by 9e7"); the owner-queue summary compressed it to an
+  order of magnitude, and the missing 9.03 is exactly that compression.  With the
+  computed ratio, all four numbers agree simultaneously:
+
+      omega_J = 5.7 keV  ->  j = 6.03 meV  ->  R = 5.050e-05  vs needed 5e-05
+
+  CONSEQUENCES:
+    * owner-queue item 4 dissolves -- nothing needs to move, no ruling required;
+    * #39's target of 5.7 keV is CORRECT and should be graded against;
+    * the 1.90 keV alternative is an artifact of the rounded ratio and should NOT
+      be adopted -- a derivation landing there would be 9x short of the need.
+
+  This is protocol 40's failure mode for the second time in one day: a factor
+  inferred from a quantity quoted to one figure, then attributed to physics.
+
+============================================================================

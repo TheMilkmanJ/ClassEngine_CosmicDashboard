@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
 """
-dCDF Pre-PolyChord Validation Suite
+CURRENT_CORE dCDF Pre-PolyChord Validation Suite (use_dcdf).
+
 Runs all Tier 1 (blocking) and Tier 2 (sanity) tests before MCMC submission.
+
+This is the public expansion-core null/identity path (use_dcdf + fluid params).
+It is NOT the legacy scalar-tensor lane (use_prtoe); that comparison regression
+lives in scripts/test_legacy_st_null_limit.py and must not be cited as CURRENT_CORE.
+
+v5 (2026-07-05+): dcdf_beta is RETIRED — CLASS hard-errors if present. Equation of
+state is w=-rho_inf/rho with c_s^2≡0. Null path = pure fluid (conv_g default off,
+floor_thaw default off). See source/input.c and PRTOE_FAILURES_LEDGER.
 """
 import numpy as np
 import time
@@ -13,27 +22,37 @@ WARN = "\033[93mWARN\033[0m"
 
 results = {}
 
-def make_dcdf(extra={}):
+# Budget seed (shooting target guess); must exceed dcdf_rho_inf.
+_OMEGA0_DCDF_SEED = 1.0 - 0.0224 / (0.674**2)  # ~0.951
+
+
+def make_dcdf(extra=None):
+    """CURRENT_CORE pure fluid (v5): no dcdf_beta, lensing-legal modes/output."""
     c = Class()
     params = {
         'use_dcdf': 'yes',
         'dcdf_rho_inf': 0.7,
-        'dcdf_beta': 1e-7,
-        'xi_Neff': 0.2,
+        'dcdf_deltam_mode': 1,  # clustering part (production default)
         'omega_b': 0.0224,
-        'Omega_cdm': 0.0,
         'Omega_Lambda': 0.0,
-        'Omega0_dcdf': 1.0 - 0.0224 / (0.674**2),
+        'Omega0_dcdf': _OMEGA0_DCDF_SEED,
         'H0': 67.4,
         'A_s': 2.1e-9,
         'n_s': 0.965,
-        'output': 'tCl,lCl,mPk',
+        'output': 'tCl,pCl,lCl,mPk',
+        'modes': 's',
         'P_k_max_1/Mpc': 1.0,
         'z_max_pk': 0.0,
         'l_max_scalars': 2500,
         'lensing': 'yes',
     }
-    params.update(extra)
+    if extra:
+        params.update(extra)
+    # Refuse retired knob even if a caller tries to inject it.
+    if 'dcdf_beta' in params:
+        raise ValueError(
+            "dcdf_beta was removed 2026-07-05 (v5); do not pass it to CURRENT_CORE"
+        )
     c.set(params)
     return c
 
@@ -45,7 +64,8 @@ def make_lcdm():
         'H0': 67.4,
         'A_s': 2.1e-9,
         'n_s': 0.965,
-        'output': 'tCl,lCl,mPk',
+        'output': 'tCl,pCl,lCl,mPk',
+        'modes': 's',
         'P_k_max_1/Mpc': 1.0,
         'z_max_pk': 0.0,
         'l_max_scalars': 2500,
@@ -54,10 +74,12 @@ def make_lcdm():
     return c
 
 # ─────────────────────────────────────────────────────────
-# TIER 1 TEST 1: Null Limit (beta -> 0 should recover LCDM-like)
+# TIER 1 TEST 1: CURRENT_CORE Null Path (pure fluid, no beta)
 # ─────────────────────────────────────────────────────────
 print("\n" + "="*60)
-print("TIER 1 TEST 1: NULL LIMIT (beta=0)")
+print("TIER 1 TEST 1: CURRENT_CORE NULL PATH (use_dcdf pure fluid)")
+print("  (Not LEGACY_ST use_prtoe — that is scripts/test_legacy_st_null_limit.py)")
+print("  dcdf_beta retired; conv/thaw default off ⇒ dust→de Sitter fluid")
 print("="*60)
 try:
     lcdm = make_lcdm()
@@ -66,9 +88,8 @@ try:
     pk_lcdm = lcdm.pk(0.1, 0.0)
     cl_lcdm = lcdm.raw_cl(2500)['tt']
 
-    # beta=0: w = -exp(-s), cs2 = 0 => behaves as pressureless cold fluid at early times
-    # Use tiny beta to approach limit
-    null = make_dcdf({'dcdf_beta': 1e-12})
+    # Pure fluid (defaults): comparable late-time clustering to ΛCDM dust+Λ budget
+    null = make_dcdf()
     null.compute()
     s8_null = null.sigma8()
     pk_null = null.pk(0.1, 0.0)
@@ -83,16 +104,17 @@ try:
     print(f"  P(k=0.1) LCDM: {pk_lcdm:.3e}   Null: {pk_null:.3e}   Frac diff: {dpk:.3e}")
     print(f"  C_l(TT,l=200) Frac diff: {dcl:.3e}")
 
-    # dCDF is fundamentally different from LCDM in background even at beta=0,
-    # so we expect O(few%) differences. The key test is it's NOT wildly wrong.
+    # Pure dCDF vs ΛCDM can differ at O(few%); gate is "not pathologically wrong"
     if ds8 < 0.10 and dpk < 0.10:
         status = PASS
         results['null_limit'] = 'PASS'
-        print(f"  Result: {PASS} — dCDF with beta~0 produces physically reasonable clustering")
+        print(f"  Result: {PASS} — pure dCDF produces physically reasonable clustering")
     else:
         status = FAIL
         results['null_limit'] = 'FAIL'
-        print(f"  Result: {FAIL} — dCDF null limit diverges too far from LCDM")
+        print(f"  Result: {FAIL} — dCDF null path diverges too far from LCDM")
+    null.struct_cleanup()
+    lcdm.struct_cleanup()
 except Exception as e:
     print(f"  Result: {FAIL} — Exception: {e}")
     results['null_limit'] = f'FAIL: {e}'
@@ -121,15 +143,16 @@ try:
     print(f"  Single CLASS call: {mean_t:.2f}s  (min={min(times):.2f}s, max={max(times):.2f}s)")
     print(f"  PolyChord estimate: {polychord_evals} evals × {mean_t:.1f}s = {total_hours:.1f} CPU-hours")
 
-    if mean_t < 10:
-        results['timing'] = f'PASS ({mean_t:.1f}s/eval, ~{total_hours:.0f} CPU-hrs for PolyChord)'
+    # PolyChord is explicit SKIP on this box; timing is advisory, not a CURRENT_CORE kill.
+    if mean_t < 15:
+        results['timing'] = f'PASS ({mean_t:.1f}s/eval, ~{total_hours:.0f} CPU-hrs if PolyChord)'
         print(f"  Result: {PASS}")
-    elif mean_t < 30:
-        results['timing'] = f'WARN ({mean_t:.1f}s/eval, ~{total_hours:.0f} CPU-hrs — slow but feasible)'
-        print(f"  Result: {WARN} — Slow. Consider reducing l_max or using evaluate sampler first.")
+    elif mean_t < 90:
+        results['timing'] = f'WARN ({mean_t:.1f}s/eval, ~{total_hours:.0f} CPU-hrs — slow; PolyChord skipped on this box)'
+        print(f"  Result: {WARN} — Slow for nested sampling; OK for Metropolis/evaluate (PolyChord deferred).")
     else:
-        results['timing'] = f'FAIL ({mean_t:.1f}s/eval — too slow for PolyChord)'
-        print(f"  Result: {FAIL} — Too slow for PolyChord run.")
+        results['timing'] = f'FAIL ({mean_t:.1f}s/eval — too slow for routine chains)'
+        print(f"  Result: {FAIL} — Too slow even for Metropolis-style campaigns.")
 except Exception as e:
     print(f"  Result: {FAIL} — Exception: {e}")
     results['timing'] = f'FAIL: {e}'
@@ -140,13 +163,16 @@ except Exception as e:
 print("\n" + "="*60)
 print("TIER 1 TEST 3: PARAMETER BOUNDARY SWEEP")
 print("="*60)
+# Boundaries use live v5 knobs only (no dcdf_beta).
+# dcdf_rho_inf must stay strictly < Omega0_dcdf seed.
 test_points = [
     ('rho_inf=0.01 (min)', {'dcdf_rho_inf': 0.01}),
-    ('rho_inf=0.95 (max)', {'dcdf_rho_inf': 0.95}),
-    ('beta=1e-10 (tiny)',  {'dcdf_beta': 1e-10}),
-    ('beta=0.5 (large)',   {'dcdf_beta': 0.5}),
-    ('xi_Neff=0.0 (min)',  {'xi_Neff': 0.0}),
-    ('xi_Neff=1.0 (max)',  {'xi_Neff': 1.0}),
+    ('rho_inf=0.90 (high)', {'dcdf_rho_inf': 0.90}),
+    ('deltam_mode=0 full', {'dcdf_deltam_mode': 0}),
+    ('deltam_mode=1 clust', {'dcdf_deltam_mode': 1}),
+    ('deltam_mode=2 bary', {'dcdf_deltam_mode': 2}),
+    ('xi_Neff=0.0', {'xi_Neff': 0.0}),
+    ('xi_Neff=0.5', {'xi_Neff': 0.5}),
 ]
 
 boundary_results = []
@@ -179,8 +205,23 @@ print("\n" + "="*60)
 print("TIER 2 TEST 4: BAO FEATURE")
 print("="*60)
 try:
-    c = make_dcdf({'output': 'mPk', 'z_max_pk': 0.0,
-                   'z_pk': '0.38 0.51 0.61', 'P_k_max_1/Mpc': 0.5})
+    # mPk-only: drop Cl/lensing keys so CLASS does not reject unused params
+    c = Class()
+    c.set({
+        'use_dcdf': 'yes',
+        'dcdf_rho_inf': 0.7,
+        'dcdf_deltam_mode': 1,
+        'omega_b': 0.0224,
+        'Omega_Lambda': 0.0,
+        'Omega0_dcdf': _OMEGA0_DCDF_SEED,
+        'H0': 67.4,
+        'A_s': 2.1e-9,
+        'n_s': 0.965,
+        'output': 'mPk',
+        'P_k_max_1/Mpc': 0.5,
+        'z_max_pk': 0.0,
+        'z_pk': '0.38 0.51 0.61',
+    })
     c.compute()
 
     # Check sound horizon (BAO scale)
@@ -287,17 +328,22 @@ except Exception as e:
 print("\n" + "="*60)
 print("VALIDATION SUMMARY")
 print("="*60)
+# Tier-1 blocking: null_limit + boundary must PASS. timing WARN is advisory
+# (PolyChord is deferred on this box; Metropolis MCMCs already run).
 blocking_pass = True
 for test, result in results.items():
     tier = "T1" if test in ('null_limit', 'timing', 'boundary') else "T2"
     status_char = "✓" if result.startswith('PASS') else ("⚠" if result.startswith('WARN') else "✗")
     print(f"  [{tier}] {status_char} {test:15s}: {result}")
-    if tier == "T1" and not result.startswith('PASS'):
+    if test in ('null_limit', 'boundary') and not result.startswith('PASS'):
+        blocking_pass = False
+    if test == 'timing' and result.startswith('FAIL'):
         blocking_pass = False
 
 print()
 if blocking_pass:
-    print("  ✓ ALL TIER 1 TESTS PASS — Ready to submit to PolyChord!")
+    print("  ✓ TIER 1 BLOCKING GATES PASS (null + boundary) — CURRENT_CORE instrument OK")
+    print("    (PolyChord nested evidence still deferred on this box; MCMC Metropolis separate)")
 else:
-    print("  ✗ TIER 1 FAILURES DETECTED — Fix before running PolyChord!")
+    print("  ✗ TIER 1 BLOCKING FAILURES — fix null/boundary (or timing FAIL) before production")
 print("="*60)

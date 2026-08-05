@@ -1,0 +1,110 @@
+==============================================================================
+Israel S_ab dimension / numeric atoms — no fake land
+==============================================================================
+  exit 0 = compute done; NOT physics PASS / NOT S_ab stocked / NOT N4
+
+[1] Stocked anchors
+  c_s                       = 0.147960
+  ξ                         = 3.047693e+20 eV^{-1}
+  H_door                    = 1.894392e-21 eV
+  H_shear                   = 1.894385e-21 eV
+  R_H/ξ                     = 1.7320
+  ρ_eff                     = 6.385192e+13 eV^4
+  ρ_rad                     = 4.598068e+08 eV^4
+  ρ_bounce                  = 1.258815e+12 eV^4
+  ρ_bounce^{1/4}            = 1.0592e+03 eV
+  m                         = 2.2400e-20 eV
+  M_Pl                      = 1.220890e+28 eV
+
+[2] Candidate σ_s atoms (eV^3) — numeric only, not Derived land
+  σ[C1_rho_eff_xi                       ] = 1.946010e+34 eV^3
+  σ[C1b_rho_rad_xi                      ] = 1.401350e+29 eV^3
+  σ[C2_rho_bounce_xi                    ] = 3.836483e+32 eV^3
+  σ[C3_quench_half_m_cs2_over_xi2       ] = 2.639747e-63 eV^3
+  σ[C6_Mpl2_H_door                      ] = 2.823728e+35 eV^3
+  σ[C6b_Mpl2_over_xi                    ] = 4.890822e+35 eV^3
+  σ[C7_Mpl2_Theta_phys_heal1            ] = 7.236444e+34 eV^3
+  σ[C7_Mpl2_Theta_phys_late             ] = 4.486595e+33 eV^3
+  σ[ref_Mpl2_Hkin_Theta1_d3             ] = 2.412148e+34 eV^3
+
+[3] Ratios to gravitational door scale σ_G = M_Pl^2 H_door
+  C1_rho_eff_xi                        / σ_G = 6.891636e-02
+  C1b_rho_rad_xi                       / σ_G = 4.962766e-07
+  C2_rho_bounce_xi                     / σ_G = 1.358659e-03
+  C3_quench_half_m_cs2_over_xi2        / σ_G = 9.348446e-99
+  C7_Mpl2_Theta_phys_heal1             / σ_G = 2.562727e-01
+  C7_Mpl2_Theta_phys_late              / σ_G = 1.588891e-02
+  ref_Mpl2_Hkin_Theta1_d3              / σ_G = 8.542424e-02
+
+[4] Dimension legality (all listed atoms constructed as eV^3)
+  Aρξ  ρ*ξ          OK
+  Amcξ m c_s^2/ξ^2  OK
+  AGH  M_Pl^2 H     OK
+  AΘ   M_Pl^2 Θ_phys OK
+  illegal M_Pl/ξ   = 4.005948e+07 eV^2  (NOT a σ_s)
+
+[5] Force-branch and land fences (documentation + real A check)
+  obstruction_A (H_kin=0, H_F>0 at ρ_eff) = True
+  n_candidates                      = 12
+  n_survivor_schemas                = 5
+  n_lands                           = 0  [VACUOUS stamp]
+  n4_force_from_any_candidate       = False  [VACUOUS; see CANDIDATE_SAB §3]
+  c4_tautology_killed               = True
+  free_dial_killed                  = True
+  israel_S_ab_stocked               = False  [VACUOUS; inventory still 0]
+  can_derive_H_re_w/o_declaration   = False  [VACUOUS stamp]
+  bounce_closed                     = False  [VACUOUS stamp]
+  N_MED_IS_DERIVED                  = False
+  NOTE: exit0 on vacuous stamps ≠ Israel physics PASS; package md is the product
+
+[6] Sanity
+  |H_kin(Θ=1,d=3)|/H_door = 0.085424 (= c_s/√3)
+  σ_C3/σ_G (quench/gravity) = 9.348446e-99  << 1  (expected)
+  ASSERT: quench surface ≪ gravitational door scale (not a hard GR jump)
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "israel_sab_construction_20260804",
+  "exit_means": "compute_done_not_physics_PASS",
+  "c_s": 0.14795964842319909,
+  "xi_eVinv": 3.047692711766647e+20,
+  "H_door_eV": 1.8943916024168856e-21,
+  "rho_eff_eV4": 63851923977138.4,
+  "rho_bounce_eV4": 1258815488000.0,
+  "sigma_atoms_eV3": {
+    "C1_rho_eff_xi": 1.9460104333740272e+34,
+    "C1b_rho_rad_xi": 1.4013499487955e+29,
+    "C2_rho_bounce_xi": 3.8364827882365755e+32,
+    "C3_quench_half_m_cs2_over_xi2": 2.6397466724278784e-63,
+    "C6_Mpl2_H_door": 2.8237278223886897e+35,
+    "C6b_Mpl2_over_xi": 4.890822445271933e+35,
+    "C7_Mpl2_Theta_phys_heal1": 7.2364436950272615e+34,
+    "C7_Mpl2_Theta_phys_late": 4.486595090916902e+33,
+    "ref_Mpl2_Hkin_Theta1_d3": 2.41214789834242e+34
+  },
+  "sigma_G_Mpl2_H_door_eV3": 2.8237278223886897e+35,
+  "sigma_C3_over_sigma_G": 9.348445878876615e-99,
+  "n_candidates": 12,
+  "n_survivor_schemas": 5,
+  "n_lands": 0,
+  "n4_force_from_any_candidate": false,
+  "c4_tautology_killed": true,
+  "free_dial_killed": true,
+  "obstruction_A_stands": true,
+  "israel_S_ab_stocked": false,
+  "can_derive_H_re_without_declaration": false,
+  "bounce_closed": false,
+  "N_med_is_Derived": false,
+  "grade": "CANDIDATE_maps_0_lands_N4_still_MISSING_INPUT",
+  "survivors": [
+    "C1",
+    "C3",
+    "C7",
+    "C8",
+    "C9"
+  ]
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — dims evaluated; fences held; 0 land; N4 not forced.
+==============================================================================

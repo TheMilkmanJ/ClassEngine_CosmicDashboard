@@ -626,10 +626,11 @@ three-mass fit seats both watches inside one σ while hiding the structure they 
 Only the two light masses resolve it, and they will not improve on their own; nothing about this
 question waits on the τ.
 
-### ⚠ The neutral triple: a fork, found 2026-07-29, and it touches a pre-registered prediction
+### ⚠ The neutral triple: a fork with a pre-registered prediction
 
-Adding Brannen's π/12 neutral fit to this file exposed a conflict with **P-2026-012**, which
-pre-registers **m₁,lightest = 2.3 meV** (and the Σ ≈ 61 meV that follows). The two cannot both hold.
+Brannen's π/12 neutral fit and **P-2026-012** are alternative hypotheses. P-2026-012
+pre-registers **m₁,lightest = 2.3 meV** (and the Σ ≈ 61 meV that follows). On the Koide cone the
+lightest mass is **0.374 meV** — the branches are mutually exclusive, not complements.
 
 Solving the Brannen form for *both* measured splittings **and** a target m₁ (three equations, three
 unknowns a, A, φ) gives:
@@ -718,7 +719,8 @@ triple on the cone, which would have to defeat both charge-selector arguments at
 
 **Stamp:** OPEN-THEORY honesty. **Do not present Koide as solved.** Protection derived; Q=2/3 mechanism exactness **OPEN-BLOCKED** as unexplained regularity. Thermal/flat delivery remains **contradicted** (~171× exactness budget).  
 **Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) — `koide_lock.log` **PASS** (algebra only); `tau_parseval.log` **PASS** (τ=½ln2 at Q=2/3; locking_without_Q **OPEN**).  
-**Parent debts:** [debt_koide_20260803/REPORT.md](working_logs/_runs/debt_koide_20260803/REPORT.md); [debt_koide_wilson_20260803/REPORT.md](working_logs/_runs/debt_koide_wilson_20260803/REPORT.md); [T6_koide_owed.md](working_logs/T6_koide_owed.md).
+**Parent debts:** [debt_koide_20260803/REPORT.md](working_logs/_runs/debt_koide_20260803/REPORT.md); [debt_koide_wilson_20260803/REPORT.md](working_logs/_runs/debt_koide_wilson_20260803/REPORT.md); [T6_koide_owed.md](working_logs/T6_koide_owed.md).  
+**Currency (2026-08-05):** Mechanism exactness **OPEN** as unexplained regularity; Wilson holonomy inputs **5/5 MISSING** (inventory); packaging locked; thermal delivery dead. `locking_without_Q` still **OPEN** (Parseval paid). Desk: [desk_t7_koide_wilson_20260804/](working_logs/_runs/theory_construction_20260804/desk_t7_koide_wilson_20260804/); exhaust [T-W5_Koide_Wilson.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W5_Koide_Wilson.md); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

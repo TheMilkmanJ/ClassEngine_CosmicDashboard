@@ -66,3 +66,5 @@ OMP_NUM_THREADS=1 nice -n 10 python3 scripts/page_protocol_scorecard.py \
 - T8 early residual **0.113** blocks binding
 
 *NO FABRICATIONS.*
+
+**Write-once evidence (2026-08-04 red AGREE cure):** `input_sha256` of `coevolve_v13.json` = `048de43e1bc766c8f420c54f565a33166c0792c23291ba567cdc6c772f92fca8` (scorecard tool now records this field).

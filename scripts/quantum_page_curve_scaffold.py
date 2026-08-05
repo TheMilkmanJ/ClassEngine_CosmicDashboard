@@ -9,6 +9,11 @@ This script:
 
 Real work still owed: phonon Hawking flux off a finite sonic-horizon core
 with healing-length cutoff (analog gravity), not this 0D cartoon.
+
+Week-1 honest instrument (NOT a Page curve; thermal bookkeeping only):
+  scripts/quantum_page_sonic_horizon_week1.py
+  docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md
+Do not call toy_page_S_rad except inside unit tests labeled NOT A RESULT.
 """
 from __future__ import annotations
 

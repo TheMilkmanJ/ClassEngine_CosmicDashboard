@@ -24,21 +24,20 @@ the Standard Model; the domain is the diffuse cosmic medium. Same fence as
 progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagnostic only.
 `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Surfaces
 `PRTOE_CHAIN_TABLES.md` / `PRTOE_CODE_MANIFEST.md` / `PRTOE_REFEREE_CALENDAR.md` all stamp the same
-gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm R−1 **0.086466** (N=20409,
-t=2026-08-04T05:21:52; was 0.059@N=19013 — **receding**, now **1.73×** stop). Dyad
-**0.128943**@N=20302 (~2.58×). Currency: `machine_r1_currency_20260804c`.
+gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm R−1 **0.071122** (N=21886,
+t=2026-08-04T13:01:13 — **1.42×** stop). Dyad
+**0.072286**@N=21867 t=2026-08-04T13:32:11 (~1.45×). routeD R−1 **4.941933**@N=3290 but still early (~**49.4×** stop 0.1) — not dual-gate.
+Currency: `machine_r1_currency_20260804e`.
 
 | chain | N (progress) | R−1 | stop | converged | bookable |
 |---|---:|---:|---:|---|---|
-| `cmp_lcdm_mnu_bbnfix` | 20409 | **0.086466** | 0.05 | **false** | **NO** |
-| `dyad_mnu_bbnfix` | 20302 | **0.128943** | 0.05 | **false** | **NO** |
-| `cmp_prtoe_routeD` | 1609 | **102.79** | 0.1 | **false** | **NO** (early) |
+| `cmp_lcdm_mnu_bbnfix` | 21886 | **0.071122** | 0.05 | **false** | **NO** |
+| `dyad_mnu_bbnfix` | 21867 | **0.072286** | 0.05 | **false** | **NO** |
+| `cmp_prtoe_routeD` | 3290 | **4.941933** | 0.1 | **false** | **NO** (early) |
 
 GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** — both
-still > 0.05; **not** the booking gate. lcdm trajectory
-`0.053867 → 0.048827 → 0.059055 → 0.086466` — **three consecutive moves away from gate after
-the dip** (**nearest-and-receding**, not “nearly there”); temporary R−1 < 0.05 without self-stop
-is **not** bookable.
+still > 0.05; **not** the booking gate. Quote R−1 with N and timestamp. Temporary R−1 < 0.05
+without self-stop is **not** bookable.
 
 **BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
 `papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
@@ -59,10 +58,32 @@ derivation; not a paper candidate; not promoted.
 marginal, SH0ES-conditional) until cluster time. Archived nested run:
 `chains/_archive_polychord_ended_20260720_0915/`.
 
+### Residual theory board (2026-08-05 exhaust currency)
+
+Present grades only. Stocked-desk thrash **exhausted**; open theory needs construction / MISSING_INPUT /
+machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
+[`working_logs/_runs/theory_exhaust_20260805/MASTER_REPORT.md`](working_logs/_runs/theory_exhaust_20260805/MASTER_REPORT.md) ·
+[`working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md`](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+
+| residual | grade |
+|---|---|
+| Bounce classical turn | **OPEN-BLOCKED** — stocked maps recorded; derived \(H_\mathrm{re}\) **not** paid |
+| Page Q6 | **OPEN** — T8 = **0.113**; `page_curve_claimed: false` |
+| Koide mechanism | **OPEN** — Wilson holonomy inputs **5/5 MISSING** |
+| Void IGMF ×20 | **OPEN** |
+| DE occupancy / “why now” | **OPEN** |
+| Forward \(A_{\omega_J}\) / seat | **EMPTY_CORPUS_SEAT** · Charge A holds |
+| Absolute SI \(G\) | **OPEN** — supertrace finiteness ≠ SI \(G\) |
+| Unitarized σσ (ρ_Λ precision) | **MISSING_INPUT** |
+| Machine bbnfix | **NOT bookable** |
+| PolyChord | **skip** (hardware) |
+| Strong CP | **COMPLETE-ABSTENTION** |
+
 **What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-02**
 live R−1 numbers as if current (lcdm ~0.14 / dyad ~0.19 / routeD ~129) is stale; the 2026-08-04
 stamp above is the live gate. E2E derivation board grades (A1–A6) under the next heading remain
-valid as theory status; this section is the **machine + honesty** stamp.
+valid as theory status; this section is the **machine + honesty** stamp. Theory residual grades
+above are the 2026-08-05 exhaust stamp.
 
 ---
 
@@ -140,8 +161,7 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
   input rather than side referees, and their convergence the critical path for the headline claim.
   As of 2026-08-04 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
-  (lcdm R−1 **0.086466**@N=20409 — was 0.059, **receding** 1.73× stop / dyad **0.128943**@N=20302
-  / routeD ~103; both bbnfix legs `converged: false`);
+  (lcdm R−1 **0.071122**@N=21886 t=2026-08-04T13:01:13 — **1.42×** stop / dyad **0.072286**@N=21867 t=2026-08-04T13:32:11 / routeD **4.941933**@N=3290 — still early ~49.4× stop; both bbnfix legs `converged: false`);
   conv_desi and zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
   `cmp_prtoe_zon` is untouched since 07-12; **PolyChord off**.*
 

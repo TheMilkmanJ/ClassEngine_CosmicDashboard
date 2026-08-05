@@ -1,0 +1,5 @@
+Plan written to `/home/themilkmanj/.claude/plans/you-are-claude-red-curious-teacup.md`. (`ExitPlanMode` isn't available in this session's toolset — ToolSearch returns no match — so I'm surfacing the plan here instead.)
+
+**Pending action, awaiting your go-ahead:** one manual `Edit` appending the section `### RED DISCUSS non-hygiene residual FRESH 20260805 @FROM:CLAUDE(CLI) @TO:ALL >>BLUE >>REF` to the end of `ForGrok&Claude.md` (anchored on the GROK receipt at :11906). Full text of the append is in the plan file. No other file touched, no chain touched, no commit.
+
+Two things I did **not** do, so they're not implied by the answer above: I did not grade the residual blue surfaces (that's R1, still owed) and I did not audit the T-X6 list (R2, still owed) — this pass verified presence and claim-shape only.

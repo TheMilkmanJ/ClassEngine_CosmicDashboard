@@ -18,10 +18,11 @@ The first cycle begins in the vacuum state: the one state that requires no choic
 coarse-grained **gravitational** entropy follows from uniqueness rather than from luck, which
 is what Boltzmann's question was actually asking about. The gravitational measure is the Weyl
 curvature (Penrose's hypothesis): identically zero in a smooth beginning, and monotonically
-accumulating as structure forms in the **metric-on** regime — an arrow that is **restored
-after the bounce** (see [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md) §2b). Weyl growth
-that cannot be undone by a contraction still compounds **across metric-on epochs**; it is
-not a claim that the C² meter is defined while the metric is off.
+accumulating as structure forms in the **metric-on** regime. C² meters the arrow only where exterior
+GR variables are defined (P1 / metric-on fence). Across a metric-off bounce interval, a **restored
+arrow at re-entry** is a **CANDIDATE** note only (P2), not a derived bounce-surviving arrow
+(see [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md) §2b). Weyl growth that cannot be undone by a
+contraction still compounds **across metric-on epochs**.
 
 **The functional.** S = −Tr(ρ̂₁ ln ρ̂₁), the von Neumann entropy of the medium's one-body
 density matrix — the Penrose–Onsager object whose largest eigenvalue defines condensation.

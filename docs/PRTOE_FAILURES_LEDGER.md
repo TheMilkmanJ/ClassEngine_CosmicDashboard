@@ -5809,6 +5809,18 @@ timestamped by the repository.
 
 ---
 
+### “Arrow survives the bounce” / C² metering through the bounce — RETIRED wording (2026-08-04)
+
+**What was said (forward / narrative):** the running arrow is metered by C² / Weyl, and the arrow “survives the bounce” — read as C² (or an equivalent geometric free-energy meter) remaining defined and continuous through the bounce interval.
+
+**Why it was retired:** under licensed premise **P1** (`fa3_metric_off`, CANDIDATE), the emergent Lorentzian metric ceases across Phase II, so C² is **undefined** on that interval. The geometric meter cannot be claimed through the bounce.
+
+**What stands instead (present physics):** C² / Weyl meters free-energy drawdown in the **metric-on** regime only; across metric-off the geometric meter is undefined; the arrow is **restored at re-entry**; non-geometric Phase II carrier remains an **open residual** (not invented); observer argument softens obstruction B severity only (not C; not H_re); bounce not closed; P1/P2 CANDIDATE.
+
+**Homes:** exploratory `PRTOE_arrow_of_time.md` §2b; `fa3_metric_off/ARROW_PHASE_II.md`; process history `theory_construction_20260804/bounce_arrow_collision_20260804/REPORT.md`.
+
+---
+
 ## R1-predfile Finding A cure (2026-08-03) — dropped header editorial notes
 
 > Rehomed for categorize-never-delete compliance after Claude AUDIT AGREE-IF.
@@ -5837,3 +5849,21 @@ timestamped by the repository.
 **Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
 **Non-claims:** no physics COMPLETE from this file alone.
 **Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`
+
+
+---
+
+## Final-product restatement — mass pin / θ̇ / ν / Koide fork (2026-08-04)
+
+**Grade:** history of a framing retirement, not a new physics death.
+
+**What was retired as wording (circularity sweep check 34, 2026-07-28):** the claim that the ultralight mass m = 2.24×10⁻²⁰ eV is "confirmed three independent ways."
+
+**What stands (present tense):** the mass rests on the **onset clock**, plus at most one unresolved consistency check (Schive r_c; provenance of the model's 1/m² normalization unestablished). ξ ≡ ħ/(m c_s) is definitionally circular against the "recorded 402 AU"; the superradiance band is an **exposure**, not support. Consequence for DOMAIN_COVERAGE: the superradiance confrontation is **somewhat** relievable by moving m — against the model's honesty position if a firmer pin were true.
+
+**Related present findings rehomed from repair narration:**
+- **ν** is present as a static 3D-XY exponent in the winding-gas scripts; **z** (dynamical half) is absent — a static exponent is not a quench criterion.
+- **θ̇ = 59.7 eV** is the derived deep-freeze value; 58.5 eV is a two-sig-fig back-multiply artifact of θ̇/H (no two-value disagreement to adjudicate).
+- **Koide neutral triple vs P-2026-012:** alternative hypotheses (cone m₁ = 0.374 meV vs registered m₁ = 2.3 meV) — mutually exclusive, not complements.
+
+**Where living text was restated (not deleted):** DEPENDENCY_TREE, MATH_SPINE, DOMAIN_COVERAGE, DERIVATION_HUNT, exploratory/hierarchy_problem, koide_relation. Package: `docs/working_logs/_runs/final_product_cleanup_20260804/WITHDRAWALS_RESTATED.md`.

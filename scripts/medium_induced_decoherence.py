@@ -211,9 +211,9 @@ print("""
     prohibition is forced by the two numbers above and cannot be tuned away
     without giving up either alpha_c = 3 alpha or m = 2.24e-20 eV.
 
-    WHAT IT BUYS. The quantum-foundations files stop being interpretation. The
-    statement "the medium hosts quantum mechanics without disturbing it" is now a
-    computed result with a threshold attached, rather than a reading.
+    WHAT IT BUYS. A dark-sector null with thresholds: this ultralight medium cannot
+    be blamed for anomalous tabletop decoherence. Foundations seating of QM remains
+    interpretation; Born stays open. Do not read this null as "the model provides QM."
 
     WHERE THE LIVE PHYSICS MOVED. Upward in velocity. v_c = 0.148 c is low enough
     that all relativistic matter is supercritical, so the medium's one open

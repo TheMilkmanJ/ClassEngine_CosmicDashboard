@@ -60,7 +60,7 @@ bash scripts/bbnfix_when_ready_all.sh --write-tables
 | `docs/working_logs/_runs/booking_pipeline_red_gate_20260804/REPORT.md` | red table gate |
 | `docs/working_logs/_runs/machine_watch_hygiene_20260804/REPORT.md` | watch hygiene lock |
 
-**Current disk (do not invent change):** lcdm R−1 **0.086466** (N=20409, t=2026-08-04T05:21:52; was 0.059@N=19013 — **receding**, 1.73× stop) / dyad **0.128943** (N=20302); both `converged: false`. Currency: `machine_r1_currency_20260804c`.
+**Current disk (do not invent change):** lcdm R−1 **0.071122** (N=21886, t=2026-08-04T13:01:13; was 0.086466@N=20409; earlier 0.059@N=19013 — **1.42×** stop) / dyad **0.128943** (N=20302); both `converged: false`. Currency: `machine_r1_currency_20260804e`.
 
 ---
 

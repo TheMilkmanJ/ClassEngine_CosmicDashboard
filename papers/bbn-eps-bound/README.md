@@ -4,6 +4,16 @@
 **arXiv category:** astro-ph.CO (optional hep-ph)
 **Status (2026-08-02):** TeX package ready. **Red-team pass 2026-08-02.** Constraint half only. Endorsement is the external gate — not claimed here.
 
+**Arithmetic reverify (2026-08-03; status cured 2026-08-04; reconfirm 2026-08-04T18:14Z):**
+hard-win card `docs/working_logs/_runs/hard_win3_bbn_eps_recompute_20260803/` +
+trigger re-run `docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/` —
+ε 2σ = **3.196% ≈ paper 3.20%** — **PASS** (disk-backed; MCMC untouched). Board grade:
+**ARITHMETIC VERIFIED (internal)**; **EXTERNAL WIN PENDING (no DOI)** — public record
+(Zenodo one record) still required for external-win done. Zenodo click-path checklist
+(no desk upload):
+`docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/ZENODO_BBN_EPS_BOUND_CHECKLIST.md`.
+Not an arXiv post; Fairbank/endorsement still owner gate.
+
 ## Relation to the framework
 
 **Framework-independent as a constraint paper.** The amplitude ε and the critical temperature
@@ -52,7 +62,7 @@ D/H is excluded).
 
 - `main.tex` / `submission/main.tex` — source (inline bibliography; no BibTeX).
 - `main.pdf` — clean-room build.
-- `bbn-eps-bound.tar.gz` — arXiv payload (`main.tex` only).
+- `bbn-eps-bound.tar.gz` — arXiv payload (`main.tex` + `recompute_eps_bound.py`).
 
 Verified by extracting the tarball into an empty directory and running two pdflatex passes.
 

@@ -213,7 +213,8 @@ vortices — and it signs the work with the winding integer that also fixes the 
 
 **Stamp:** OPEN-THEORY honesty. Galactic Harrison seed stays graded; **void floor remains OPEN-BLOCKED** (×20 / 1.30 dex short). RM geometric scale reconfirmed PASS; absolute σ_RM and void B not closed.  
 **Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (`rm_coherence.log` **PASS**).  
-**Parent debts:** [debt_magnetism_20260803/REPORT.md](working_logs/_runs/debt_magnetism_20260803/REPORT.md); [debt_rm_formula_20260803/REPORT.md](working_logs/_runs/debt_rm_formula_20260803/REPORT.md). Companion: [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md).
+**Parent debts:** [debt_magnetism_20260803/REPORT.md](working_logs/_runs/debt_magnetism_20260803/REPORT.md); [debt_rm_formula_20260803/REPORT.md](working_logs/_runs/debt_rm_formula_20260803/REPORT.md). Companion: [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md).  
+**Currency (2026-08-05):** Void floor ×20 residual **OPEN-BLOCKED** (1.30 dex classic). Door A external lit pass **done** — robust floors still ~1–3×10⁻¹⁷ G (> seed); dissolve **not** met; void **FAIL not fired**; still OPEN intermediate. Package: [void_door_A_lit_20260805/](working_logs/_runs/theory_residual_blue_20260805/void_door_A_lit_20260805/). RM \(n_e\) absolute amplitude **OPEN** (geometric scale paid). Exhaust: [T-W6_Void_IGMF.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W6_Void_IGMF.md); shelf RM reconfirm [desk/shelf_desk_exhaust/](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

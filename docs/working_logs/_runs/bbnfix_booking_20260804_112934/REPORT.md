@@ -56,3 +56,5 @@ See also: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`,
 `docs/working_logs/_runs/laplace_booking_full_20260804/`,
 `docs/working_logs/_runs/laplace_prep_harden_20260804/`.
 
+
+**Stamp basis:** directory `112934` = **UTC**; local wall ~**05:29:34** same day (not a six-hour gap).

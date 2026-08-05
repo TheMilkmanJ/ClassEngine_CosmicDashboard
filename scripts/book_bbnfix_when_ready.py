@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """book_bbnfix_when_ready — single entrypoint for BBN-fixed pair GetDist booking.
 
-Hard gate (corpus / checklist / hard-win1):
-  Both chains must have last-row R−1 < 0.05 from chains/<root>.progress
-  field 4 (Rminus1). If either is missing or R−1 >= 0.05 → refuse, exit 2.
+Hard gate (corpus / checklist / hard-win1 / Claude R-D cure):
+  Both chains must have:
+    (1) last-row R−1 < 0.05 from chains/<root>.progress field 4 (Rminus1)
+    (2) sampler self-stop: `converged: true` in chains/<root>.checkpoint
+  If either leg fails on either chain → refuse, exit 2.
+  Do not book on single-chain sub-bar R−1 or without self-stop.
 
 When both ready:
   loadMCSamples(..., ignore_rows=0.3) for all ranks; book marginals for
@@ -30,6 +33,41 @@ PAIR = ("dyad_mnu_bbnfix", "cmp_lcdm_mnu_bbnfix")
 RBAR = 0.05
 IGNORE_ROWS = 0.3
 PARAMS = ("H0", "m_ncdm", "omega_b", "S8")
+
+
+def checkpoint_meta(name: str) -> dict:
+    """Parse cobaya checkpoint for self-stop + last R−1 (informational).
+
+    Gate authority remains progress R−1 + converged:true. Checkpoint
+    Rminus1_last is reported for watch honesty when progress files lag.
+    """
+    p = CH / f"{name}.checkpoint"
+    out: dict = {
+        "path": str(p),
+        "present": p.is_file(),
+        "converged": None,
+        "Rminus1_last": None,
+    }
+    if not p.is_file():
+        return out
+    text = p.read_text()
+    if "converged: true" in text:
+        out["converged"] = True
+    elif "converged: false" in text:
+        out["converged"] = False
+    for line in text.splitlines():
+        s = line.strip()
+        if s.startswith("Rminus1_last:"):
+            try:
+                out["Rminus1_last"] = float(s.split(":", 1)[1].strip())
+            except ValueError:
+                pass
+    return out
+
+
+def checkpoint_converged(name: str) -> bool | None:
+    """True/False if checkpoint present; None if missing or unreadable."""
+    return checkpoint_meta(name).get("converged")
 
 
 def last_progress(name: str) -> dict:
@@ -102,7 +140,10 @@ def ranks_present(name: str) -> list[str]:
 
 
 def gate_status(progress: dict[str, dict]) -> tuple[bool, list[str]]:
-    """Return (both_ready, list of refuse reasons)."""
+    """Return (both_ready, list of refuse reasons).
+
+    Both legs required per chain (Claude R-D): R−1 < RBAR AND converged:true.
+    """
     reasons: list[str] = []
     for name in PAIR:
         p = progress[name]
@@ -116,10 +157,31 @@ def gate_status(progress: dict[str, dict]) -> tuple[bool, list[str]]:
             )
         else:
             reasons.append(
-                f"{name}: R−1 = {r:.6f} < {RBAR} (N={p.get('N')}) — GRADED"
+                f"{name}: R−1 = {r:.6f} < {RBAR} (N={p.get('N')}) — R−1 GRADED"
+            )
+        cmeta = checkpoint_meta(name)
+        conv = cmeta.get("converged")
+        p["converged"] = conv
+        p["checkpoint_Rminus1_last"] = cmeta.get("Rminus1_last")
+        if conv is True:
+            reasons.append(f"{name}: checkpoint converged: true — self-stop OK")
+        elif conv is False:
+            reasons.append(
+                f"{name}: checkpoint converged: false — NOT READY (self-stop required)"
+            )
+        else:
+            reasons.append(
+                f"{name}: checkpoint missing/unreadable — NOT READY (self-stop required)"
+            )
+        if cmeta.get("Rminus1_last") is not None:
+            reasons.append(
+                f"{name}: checkpoint Rminus1_last={cmeta['Rminus1_last']:.6f} "
+                f"(informational; gate uses progress R−1)"
             )
     both = all(
-        progress[n].get("present") and progress[n].get("Rminus1", 1.0) < RBAR
+        progress[n].get("present")
+        and progress[n].get("Rminus1", 1.0) < RBAR
+        and progress[n].get("converged") is True
         for n in PAIR
     )
     return both, reasons
@@ -192,7 +254,10 @@ def write_report(
         "stamp": stamp,
         "gate": {
             "Rbar": RBAR,
-            "rule": "refuse if either chain missing progress or R−1 >= Rbar",
+            "rule": (
+                "refuse unless BOTH chains have R−1 < Rbar AND "
+                "checkpoint converged: true (self-stop); both legs required"
+            ),
             "pair": list(PAIR),
             "both_ready": both_ready,
             "exit_code": exit_code,
@@ -213,26 +278,30 @@ def write_report(
         "",
         f"**Generated (UTC):** {payload['generated_utc']}",
         f"**Script:** `scripts/book_bbnfix_when_ready.py`",
-        f"**Gate:** both of {{{', '.join(PAIR)}}} with R−1 **< {RBAR}**",
+        f"**Gate:** both of {{{', '.join(PAIR)}}} with R−1 **< {RBAR}** "
+        f"**AND** `converged: true` (self-stop) — both legs required",
         f"**Result:** {'BOOKED' if both_ready and booking else 'REFUSED'}",
         f"**Exit code:** {exit_code}",
         "",
-        "## Progress gate",
+        "## Progress + self-stop gate",
         "",
-        "| chain | present | N | timestamp | R−1 | ready |",
-        "|---|---|---:|---|---:|---|",
+        "| chain | present | N | timestamp | R−1 | converged | ready |",
+        "|---|---|---:|---|---:|---|---|",
     ]
     for name in PAIR:
         p = progress[name]
         if not p.get("present"):
             lines.append(
-                f"| `{name}` | NO | — | — | — | NO — {p.get('error', '')} |"
+                f"| `{name}` | NO | — | — | — | — | NO — {p.get('error', '')} |"
             )
         else:
-            ready = "YES" if p.get("Rminus1", 1.0) < RBAR else "NO"
+            conv = p.get("converged")
+            conv_s = "true" if conv is True else ("false" if conv is False else "missing")
+            r_ok = p.get("Rminus1", 1.0) < RBAR
+            ready = "YES" if (r_ok and conv is True) else "NO"
             lines.append(
                 f"| `{name}` | YES | {p.get('N')} | {p.get('timestamp')} | "
-                f"{p['Rminus1']:.6f} | {ready} |"
+                f"{p['Rminus1']:.6f} | {conv_s} | {ready} |"
             )
     lines.extend(["", "### Gate messages", ""])
     for r in reasons:
@@ -252,17 +321,28 @@ def write_report(
                 "## Booking status",
                 "",
                 f"**REFUSED.** Do not quote H₀ / Σm_ν / Ω_b h² / S8 as bookable "
-                f"posteriors while either chain has R−1 ≥ {RBAR} or missing progress.",
+                f"posteriors while either chain has R−1 ≥ {RBAR}, missing progress, "
+                f"or has not self-stopped (`converged: true`).",
                 "",
-                "Re-run when both progress tails show R−1 < 0.05:",
+                "Also blocked while gate closed: living `PRTOE_CHAIN_TABLES.md` writes,",
+                "bookable Laplace ΔlnZ under the BBN-fixed stack, and promotion of",
+                "pre-bbnfix ΔlnZ ≈ +2.6 as if it were this pair's result.",
+                "",
+                "Publish split (when gate later opens): **Stage A** = book + finalize only;",
+                "**Stage B** = tables only after `RED_AUDIT.md` (`red: AGREE` / `AGREE-IF`).",
+                "",
+                "Re-run when both progress tails show R−1 < 0.05 **and** both "
+                "checkpoints have `converged: true`:",
                 "",
                 "```bash",
                 "python3 scripts/book_bbnfix_when_ready.py",
+                "# preferred one-shot Stage A: bash scripts/bbnfix_when_ready_all.sh",
                 "```",
                 "",
                 "See also: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`,",
                 "`scripts/finalize_h0_at_convergence.py`,",
-                "`docs/working_logs/_runs/hard_win1_bbnfix_booking_prep_20260803/`.",
+                "`docs/working_logs/_runs/laplace_booking_full_20260804/`,",
+                "`docs/working_logs/_runs/laplace_prep_harden_20260804/`.",
                 "",
             ]
         )
@@ -322,7 +402,10 @@ def write_report(
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Book bbnfix GetDist marginals only when both R−1 < 0.05."
+        description=(
+            "Book bbnfix GetDist marginals only when both R−1 < 0.05 "
+            "AND both checkpoints show converged: true (self-stop)."
+        )
     )
     parser.add_argument(
         "--outdir",
@@ -349,7 +432,8 @@ def main(argv: list[str] | None = None) -> int:
     print("=" * 74)
     print("bbnfix GetDist booking gate")
     print(f"  pair: {PAIR}")
-    print(f"  bar:  R−1 < {RBAR} on BOTH (refuse if either R−1 >= {RBAR} or missing)")
+    print(f"  bar:  R−1 < {RBAR} on BOTH + self-stop (converged: true) on BOTH")
+    print("  refuse if either R−1 >= bar, missing progress, or not self-stopped")
     print(f"  out:  {outdir}")
     print("=" * 74)
 
@@ -361,9 +445,11 @@ def main(argv: list[str] | None = None) -> int:
 
     if not both_ready:
         print()
-        print("  REFUSED — booking blocked.")
-        print(f"  Gate requires BOTH chains with R−1 < {RBAR}.")
-        print("  No GetDist booking; living docs unchanged.")
+        print("  REFUSED — booking blocked (gate closed).")
+        print(f"  Gate requires BOTH chains with R−1 < {RBAR} AND converged: true.")
+        print("  No GetDist booking; no H₀ / Σm_ν / S8 quote; living docs unchanged.")
+        print("  No PRTOE_CHAIN_TABLES.md write; no bookable Laplace ΔlnZ under this stack.")
+        print("  Do NOT promote pre-bbnfix ΔlnZ ≈ +2.6 as the bbnfix-pair result.")
         print("  Re-run: python3 scripts/book_bbnfix_when_ready.py")
         print("=" * 74)
         write_report(

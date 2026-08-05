@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-Unified dark-sector clustering gate.
+LEGACY_ST — unified dark-sector clustering gate (use_prtoe).
 
 Compares P(k) at z=0 for:
-  A) unify_dark_sector=yes  (CDM budget absorbed into PRTOE field)
+  A) unify_dark_sector=yes  (CDM budget absorbed into legacy PRTOE field)
   B) unify_dark_sector=no   (separate CDM + PRTOE DE, matched total budget)
+
+Comparison lane only (v1–v3 ST). Not CURRENT_CORE (use_dcdf) validation.
 
 Success: max relative P(k) difference < 5% on 0.01 <= k <= 1 h/Mpc.
 """

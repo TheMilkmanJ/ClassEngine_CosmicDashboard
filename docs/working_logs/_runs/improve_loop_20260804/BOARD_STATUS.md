@@ -67,7 +67,7 @@
 
 | Residual | Owner |
 |---|---|
-| bbnfix book (lcdm R−1 **0.086466**@N=20409 t=2026-08-04T05:21:52 — was 0.059, **receding** 1.73× / dyad **0.128943**@N=20302; both converged:false) | Machine |
+| bbnfix book (lcdm R−1 **0.071122**@N=21886 t=2026-08-04T13:01:13 — was 0.086466@N=20409; earlier 0.059 — **1.42×** / dyad **0.128943**@N=20302; both converged:false) | Machine |
 | Fairbank / arXiv / Zenodo DOI for BBN ε | Owner |
 | Page T8 joint / microphysics (D4 freeze; champion v13 T8 **0.113**) | OPEN-THEORY |
 | Bounce H_re, void floor, Koide residual, ω_J, DE occupancy, Born/atom | Theory walls |
@@ -96,3 +96,14 @@ bash scripts/bbnfix_when_ready_all.sh
 *NO FABRICATIONS. delivered ≠ graded. EXTERNAL win for BBN ε only with DOI. page_curve_claimed stays false.*
 
 | desk_compute_full_20260804 | DONE (~142+ jobs) | **AGREE** (Claude desk-compute wave) |
+
+| prior-rewriter plot_chains monitor | **RETIRED** PID 1380706; code fence production deny | **AGREE path** (Claude NEW FINDING) |
+
+| theory_construction_20260804 | DONE (5 lanes, 0 COMPLETE) | **none** — RED TASK filed for Claude |
+
+| _SUBSTITUTIONS.md | DONE empty registry (owner rule 2026-08-04) | **none** |
+
+| gate_fire_watch_20260804 | ARMED (Stage A on open) | **none** |
+| fairbank_arxiv_trigger_20260804 | DONE owner prep | **none** |
+| A_omegaJ_rule1 | DONE CANDIDATE no land | **none** (Claude optional) |
+| package_claim_protocol_20260804 | DONE | **none** |

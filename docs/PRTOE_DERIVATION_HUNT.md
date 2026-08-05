@@ -1005,11 +1005,11 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](explorato
   ([working_logs/census_alpha_B_first_principles.md](working_logs/census_alpha_B_first_principles.md)).
   Named residual: defend d_⊥=2, or replace it by a computed reconnection coefficient. The
   sub-leading tilt remains open.
-  **One recorded absence was overstated and is corrected here:** ν is not absent from the corpus.
+  **ν is present in the corpus as a static critical exponent; z is not.**
   `scripts/winding_gas_cv_v2.py:11` and `scripts/winding_gas_cv.py:5` carry **ν = 2/3, named 3D-XY**,
   applied to this very census (ξ = ξ₀(1−t)^(−ν), N = (R/ξ)²). What is genuinely absent is the
   *dynamical* half — **z appears nowhere**, nor does a microscopic (ξ₀, τ₀) pair; ξ₀ appears only as
-  a unit, never a value. The correction does not change the ruling: a static exponent for the
+  a unit, never a value. A static exponent for the
   condensation transition is not a quench criterion for the census imprint, and those two scripts
   are keyed to the ramp at T_c, a different stage.
 - **n_s = 1 − 2/ln(T₀/k), k-local — mechanism candidate (exhibited): 0.9677 at the pivot,
@@ -1055,14 +1055,14 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](explorato
   linearity exponent exhibited at additivity level (shared with A_s, one assumption not two)
   and independently data-selected; the Δ² subdominance condition named.
 - **z_on = 4.03×10⁷ — a derived identity, not an estimate.** It is the H = m epoch of the fluid's
-  own mass, T_on = √(m·M_red/0.61) = 9.46 keV. **The "confirmed three independent ways" claim on the
-  mass carrying it (2.24×10⁻²⁰ eV) was withdrawn 2026-07-28** by the circularity sweep (check 34):
+  own mass, T_on = √(m·M_red/0.61) = 9.46 keV. **The mass carrying it (2.24×10⁻²⁰ eV) rests on the
+  onset clock plus at most one unresolved consistency check:**
   ξ = ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is computed from m too, so 398 against
   402 is one computation compared with itself; the Schive comparison is unresolved (external 1/m vs
   the model's own 1/m², which would pin m *if* the model's normalization is independent — not
   established); and the superradiance band is priced elsewhere as an adverse exposure, so it cannot
-  also be support. The mass rests on the onset clock plus at most one unresolved check. *(The evidence run is frozen at a profiled 3.56×10⁷ instead — 0.053
-  dex low, which under the same clock implies a mass 28% off and misses all three checks. The run
+  also be support. *(The evidence run is frozen at a profiled 3.56×10⁷ instead — 0.053
+  dex low, which under the same clock implies a mass 28% off the onset-clock value. The run
   grades a point beside the identity, not the identity.)*
 - **The bounce:** ρ_bounce is finite (quantum pressure guarantees a floor; a repulsive amplitude
   quartic sets its value). See [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md).

@@ -240,7 +240,8 @@ and objects inherit only what they couple to).
 **Strong CP fence (header):** expansion reverse / bounce is **not** \(\bar\theta\) — **kept**; see [PRTOE_strong_cp.md](PRTOE_strong_cp.md).  
 **Bounce full freeze package (authoritative for bounce rungs):** [working_logs/_runs/bounce_full_freeze_20260804/](working_logs/_runs/bounce_full_freeze_20260804/).  
 **Prior inventory:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/).  
-**Parents:** [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); [debt_bounce_FA3_20260803](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md); [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d; [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md); [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md).
+**Parents:** [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); [debt_bounce_FA3_20260803](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md); [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d; [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md); [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md).  
+**Currency (2026-08-05):** Bounce/cyclic **OPEN-BLOCKED**; not booked OEM. Freeze: [bounce_full_freeze_20260804/](working_logs/_runs/bounce_full_freeze_20260804/); exhaust [bounce_cluster_exhaust/MASTER.md](working_logs/_runs/theory_exhaust_20260805/desk/bounce_cluster_exhaust/MASTER.md); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

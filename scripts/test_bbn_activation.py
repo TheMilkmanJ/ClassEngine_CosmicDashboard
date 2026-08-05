@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-BBN numerical regression for PRTOE covariant activation.
+LEGACY_ST — BBN numerical regression for use_prtoe covariant activation.
 
 Verifies rho_phi / rho_r < activation_threshold (0.01) during the BBN era
-(a ~ 1e-10 to 1e-2), so the scalar field does not alter primordial nucleosynthesis.
+(a ~ 1e-10 to 1e-2), so the legacy scalar field does not alter primordial
+nucleosynthesis. Comparison lane only (v1–v3 ST); not CURRENT_CORE (use_dcdf).
 
 Usage:
   python3 scripts/test_bbn_activation.py

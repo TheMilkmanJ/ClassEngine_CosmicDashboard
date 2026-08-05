@@ -1,0 +1,18 @@
+{
+  "S_need_late": 2.7986183162093432e-05,
+  "S_need_Theta1": 0.007297299971226275,
+  "H_kin_late_over_H_door": 0.005290196892563965,
+  "H_kin_Theta1_over_H_door": 0.08542423526860674,
+  "Theta_lock_door_d3": 11.706237653490552,
+  "late_Theta": 0.061928525036595815,
+  "N_mix_derived": 6.259626854388497,
+  "rho_rad_over_rho_eff": 7.201143039946681e-06,
+  "n_lands": 0,
+  "grade_S2": "OPEN-BLOCKED",
+  "obstruction_C": "stands",
+  "best_nonfab_S": 7.201143039980984e-06,
+  "best_nonfab_grade": "WRONG-OBJECT",
+  "strongest_stocked_S": 1.3979915398416102e-97,
+  "script": "scripts/bounce_s2_rho_suppression_hunt.py",
+  "note": "exit0\u2260PASS; reconfirm only"
+}

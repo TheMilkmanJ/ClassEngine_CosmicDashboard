@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Local gravity map for PRTOE (pre/post CLASS compile).
+LEGACY_ST — local gravity map for use_prtoe scalar-tensor (pre/post CLASS compile).
+
+Comparison lane (v1–v3). Classy smoke uses use_prtoe — not CURRENT_CORE use_dcdf.
 
 Mirrors C helpers in include/background.h:
   - prtoe_environmental_screening_at_rho_kg_m3

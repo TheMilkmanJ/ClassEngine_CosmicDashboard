@@ -105,7 +105,8 @@ numbers — a square root, an amplitude, and a floor — and the floor was deriv
 
 **Stamp:** OPEN honesty on occupancy. **Width is derived; occupancy (“why now”) is OPEN** — not a soft almost-close. Chain-level “why this cycle?” is **OPEN-BLOCKED**. Do **not** claim “solves coincidence.”  
 **Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/).  
-**Parents:** [T8_coincidence_owed.md](working_logs/T8_coincidence_owed.md); [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md); [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md). Soft-claim demote history: `open_board_split_20260803/SOFT_CLAIM_DEMOTE.md`.
+**Parents:** [T8_coincidence_owed.md](working_logs/T8_coincidence_owed.md); [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md); [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md). Soft-claim demote history: `open_board_split_20260803/SOFT_CLAIM_DEMOTE.md`.  
+**Currency (2026-08-05):** Width derived; occupancy **OPEN**. Construction: [void_de_seating/](working_logs/_runs/theory_construction_20260804/void_de_seating/); exhaust [T-W2_DE_occupancy.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W2_DE_occupancy.md); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

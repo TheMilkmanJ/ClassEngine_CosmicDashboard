@@ -1,6 +1,6 @@
 # arXiv / Fairbank — owner checklist (external win #1)
 
-**Date:** 2026-08-03 (living) · **prep re-stamp: 2026-08-04**  
+**Date:** 2026-08-03 (living) · **prep re-stamp: 2026-08-04** · **trigger re-stamp: 2026-08-04T18:14Z**  
 **Role:** Owner-only actions. Blue cannot invent endorsement or post for you.  
 **Claude H1 rank #1:** public arXiv postings (neutrino-mbb + READY packages). Not a blue desk win.
 
@@ -9,13 +9,17 @@ Living sources: `papers/<name>/`. Staged PDF+tarball: `docs/arXivReady/`. Hygien
 
 ### Owner HOLD (2026-08-04)
 
-- Packages are **READY on disk** (6 TeX packages audit-clean; staged MD5 MATCH papers).  
+- Packages are **READY on disk** (6 TeX packages audit-clean; staged MD5 MATCH papers — re-verified 2026-08-04T18:14Z).  
 - **HOLD arXiv posts** until Fairbank replies on neutrino-mbb **or** you deliberately take a parallel archive path (astro-ph / Zenodo).  
 - Desk will **not** post, email Fairbank, invent endorsement, or invent a second Fairbank TeX.  
-- When he replies: follow  
+- **Do this next (one page):**  
+  [`docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/OWNER_SHIP_NOW.md`](../docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/OWNER_SHIP_NOW.md).  
+- When he replies (branch detail):  
   [`docs/working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md`](../docs/working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md).  
 - Full inventory:  
-  [`docs/working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md`](../docs/working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md).
+  [`docs/working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md`](../docs/working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md).  
+- Trigger REPORT:  
+  [`docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/REPORT.md`](../docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/REPORT.md).
 
 ---
 
@@ -49,7 +53,7 @@ Living sources: `papers/<name>/`. Staged PDF+tarball: `docs/arXivReady/`. Hygien
 | **supertrace-note** | **SHIPPED** Zenodo [10.5281/zenodo.21763188](https://zenodo.org/records/21763188) | gr-qc (optional) | Optional only: gr-qc endorsement → arXiv mirror of existing Zenodo record. Corrections = Zenodo “New version.” |
 | **neutrino-mbb** | READY; **with Fairbank** | hep-ph | Fairbank thread + **hep-ph endorsement** → upload. Packaging paused on desk. |
 | **radio-lattice** | READY (7 pp; DM demotion in text) | astro-ph.CO (+ .IM) | Get **astro-ph endorsement** → upload. One endorsement covers .CO + .IM. Strong first *astro* post if Fairbank/hep-ph stalls. |
-| **bbn-eps-bound** | READY (3 pp; Aver only) | astro-ph.CO | Same **astro-ph endorsement** as radio-lattice → upload. Optional residual dense ε_max(T_c) is **not** a hold. |
+| **bbn-eps-bound** | READY (3 pp; Aver only) · **ARITHMETIC VERIFIED (internal)** 3.196%≈3.20% · **EXTERNAL WIN PENDING (no DOI)** | astro-ph.CO | Same **astro-ph endorsement** as radio-lattice → upload. Optional residual dense ε_max(T_c) is **not** a hold. Optional DOI without arXiv: [`ZENODO_BBN_EPS_BOUND_CHECKLIST.md`](../docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/ZENODO_BBN_EPS_BOUND_CHECKLIST.md) (checklist only; desk did not upload). |
 | **lattice-tc-gap** | READY (2 pp; gap note only) | hep-lat | Get **hep-lat endorsement** → upload. No lattice result claimed. |
 | **kination-tracking-note** | READY (2 pp) | gr-qc | Get **gr-qc endorsement** → upload (or after supertrace arXiv if same archive opens). |
 | **fairbank-0nubb** | NOT_READY | — | **Do nothing technical.** Keep README-only. Ship via neutrino-mbb. |
@@ -125,6 +129,15 @@ Endorsement is **per archive**. Success on one does **not** open another. First 
 - No CLASS/MCMC/PolyChord in this lane.  
 - Artifacts: `_runs/arxiv_owner_prep_20260804/{PACKAGE_INVENTORY,OWNER_ACTION_WHEN_FAIRBANK_REPLIES,REPORT}.md`.
 
+### Trigger re-stamp (desk, 2026-08-04T18:14Z) — do not redo
+
+- Re-ran `scripts/arxiv_package_audit.py` → **6/6** clean; log at `_runs/fairbank_arxiv_trigger_20260804/arxiv_package_audit.log`.  
+- papers ↔ staged **tar + PDF MD5 MATCH** all six; pages 3/3/7/2/3/2.  
+- BBN recompute (papers + staged) **PASS** 3.196% ≈ 3.20% — dual stamp unchanged.  
+- bbnfix **still NOT bookable:** lcdm R−1 **0.071122** N=21886 · dyad R−1 **0.072286** N=21867 · gate REFUSED.  
+- New owner one-pager: `OWNER_SHIP_NOW.md`; Zenodo bbn checklist only (no upload).  
+- **No** Fairbank contact · **no** arXiv post · **no** MCMC/PolyChord/H₀ peek.
+
 ---
 
-*Sources: `papers/README.md`, `papers/*/README.md`, `docs/arXivReady/README.md`, `docs/working_logs/_ARXIV_CANDIDACY.md`, `_ARXIV_READINESS.md`, `_PACKAGE_AUDIT.md`, `_runs/hard_wins_90day_20260803/REPORT.md` (Claude H1), `_runs/arxiv_owner_prep_20260804/`.*
+*Sources: `papers/README.md`, `papers/*/README.md`, `docs/arXivReady/README.md`, `docs/working_logs/_ARXIV_CANDIDACY.md`, `_ARXIV_READINESS.md`, `_PACKAGE_AUDIT.md`, `_runs/hard_wins_90day_20260803/REPORT.md` (Claude H1), `_runs/arxiv_owner_prep_20260804/`, `_runs/fairbank_arxiv_trigger_20260804/`.*

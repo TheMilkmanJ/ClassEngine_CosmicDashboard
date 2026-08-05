@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+"""CURRENT_CORE dCDF vs ΛCDM clustering smoke (v5: no dcdf_beta)."""
 from classy import Class
 import numpy as np
 
-print("Testing dCDF vs LCDM Clustering...")
+print("Testing dCDF vs LCDM Clustering (CURRENT_CORE v5)...")
 
 # 1. LCDM Baseline
 lcdm = Class()
@@ -17,17 +19,16 @@ lcdm.compute()
 pk_lcdm = lcdm.pk(0.1, 0.0)
 sigma8_lcdm = lcdm.sigma8()
 
-# 2. dCDF Model
+# 2. dCDF Model — v5 pure fluid (dcdf_beta retired 2026-07-05)
+omega0_dcdf = 1.0 - 0.0224 / (0.674**2)
 dcdf = Class()
 dcdf.set({
     'use_dcdf': 'yes',
     'dcdf_rho_inf': 0.7,
-    'dcdf_beta': 1e-7,
-    'xi_Neff': 0.2,
+    'dcdf_deltam_mode': 1,
     'omega_b': 0.0224,
-    'Omega_cdm': 0.0,
     'Omega_Lambda': 0.0,
-    'Omega0_dcdf': 1.0 - 0.0224 / (0.674**2), # Replace CDM + Lambda
+    'Omega0_dcdf': omega0_dcdf,
     'H0': 67.4,
     'output': 'mPk',
     'P_k_max_1/Mpc': 1.0,
@@ -41,7 +42,7 @@ print(f"\n--- LCDM Baseline ---")
 print(f"P(k=0.1): {pk_lcdm:.2e}")
 print(f"sigma8:   {sigma8_lcdm:.4f}")
 
-print(f"\n--- dCDF Model ---")
+print(f"\n--- dCDF Model (v5 pure fluid) ---")
 print(f"P(k=0.1): {pk_dcdf:.2e}")
 print(f"sigma8:   {sigma8_dcdf:.4f}")
 

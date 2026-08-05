@@ -1,0 +1,445 @@
+==============================================================================
+N3 deepen — GPE late-Θ production-class instrument
+package: n3_gpe_late_theta_20260804
+==============================================================================
+  c_s                       = 0.147960
+  Θ_lock (d=3)              = 11.7062  [= d/(c_s √3)]
+  |H_kin(Θ=1)/H_door|       = 0.085425  (= c_s/√3)
+  need late ⟨Θ_heal⟩ ≳ 11.71 for door-magnitude lock (S1)
+
+  LOCK METRIC: late / settled mass-weighted ⟨Θ⟩
+  NOT: peaks · 0D |Θ| caps · Madelung vacuum spikes
+  FENCES: stocked GPE/ODE only · no invent H_re · no bounce closed
+  exit 0 ≠ physics PASS · production 3D COMPLETE almost never
+
+------------------------------------------------------------------------------
+[A] 0D reduced stress-channel DEEP scan (stocked FA3/N1 ODE)
+------------------------------------------------------------------------------
+  scanned unique rows       = 710
+  physical (no cap/blow)    = 685  (rejected 25)
+  turned (Θ:−→0→+)          = 678
+  max late_Θ (S1 primary)   = +2.8701
+  max settled_mean          = +0.1143
+  max Θ_pos (physical peak) = +14.7609
+  peak≥lock hits            = 74
+  max late among peak-hits  = 2.870069874888626
+  best late: n0=80.0 Θ0=-8.0 κ=3.00 γ=0.02 → late=+2.8701 settled=+0.1085 peak=+11.7728 |H|/H_d=2.4517e-01
+  best settled: n0=20.0 Θ0=-8.0 κ=3.00 γ=0.02 → settled=+0.1143 late=+2.6503
+  best peak: n0=80.0 Θ0=-8.0 κ=5.00 γ=0.02 → peak=+14.7609 late=-1.7434  (peak≠S1)
+  late≥lock? False  settled≥lock? False  peak≥lock? True
+  stocked default (6,-2,1.5,0.15): late=+0.0612 settled=+0.2813 peak=+2.1780 |H|/H_d=5.2301e-03 turned=True
+
+  sample high-compression late table (physical only, top by late):
+      n0     Θ0     κ     γ     late  settled     peak     |H|/Hd     ×n
+    80.0   -8.0  3.00  0.02  +2.8701  +0.1085 +11.7728  2.452e-01   1.16
+    80.0   -6.0  3.00  0.02  +2.8670  +0.1079 +11.3742  2.449e-01   1.09
+    80.0   -5.0  3.00  0.02  +2.8636  +0.1074 +11.2274  2.446e-01   1.06
+    80.0   -3.0  3.00  0.02  +2.8602  +0.1070 +11.0216  2.443e-01   1.02
+    60.0   -8.0  3.00  0.02  +2.8235  +0.1090 +10.4463  2.412e-01   1.23
+    60.0   -5.0  3.00  0.02  +2.8079  +0.1075  +9.7813  2.399e-01   1.08
+    60.0   -6.0  3.00  0.02  +2.8064  +0.1083  +9.9569  2.397e-01   1.12
+    60.0   -3.0  3.00  0.02  +2.7992  +0.1071  +9.5397  2.391e-01   1.03
+    50.0   -8.0  3.00  0.02  +2.7873  +0.1096  +9.7392  2.381e-01   1.28
+    50.0   -6.0  3.00  0.02  +2.7638  +0.1086  +9.1740  2.361e-01   1.14
+    50.0   -5.0  3.00  0.02  +2.7629  +0.1078  +8.9757  2.360e-01   1.10
+    50.0   -3.0  3.00  0.02  +2.7513  +0.1069  +8.7066  2.350e-01   1.03
+
+------------------------------------------------------------------------------
+[B] 1D Cartesian GPE late ⟨Θ⟩ deep sweep (M6 stocked form)
+------------------------------------------------------------------------------
+  cases run                 = 14  (clean dE<5%: 9)
+  max ⟨Θ⟩_mean (any time)   = +0.7209
+  max ⟨Θ⟩_mean late         = +0.0265
+  max settled_mean          = +0.0015
+  max support-local Θ       = +2728.1960  (ρ>0.05)
+  max raw local Θ           = +3001.4902  (VACUUM SPIKE — not S1)
+  max overshoot             = 1.377
+  late≥lock? False  settled≥lock? False  mean-peak≥lock? False
+  best late 1D: A=20.0 v0=1.0 R=12.0 → late=+0.0265 settled=-0.0027 mean_max=+0.7209 |H|/Hd=2.2663e-03
+
+      A    v0     R     n_pk      ×   ⟨Θ⟩max  ⟨Θ⟩late  settled   raw max  turn    dE%
+    2.0   0.5   8.0     3.09   1.03  +0.0089  +0.0013  +0.0015      +3.4     Y   0.33
+    5.0   1.0   8.0     6.29   1.05  +0.1562  -0.0124  -0.0062    +144.4     Y   1.21
+   10.0   1.0   8.0    11.27   1.02  +0.2603  -0.0229  -0.0153    +521.1     Y   2.95
+    5.0   2.0   8.0     7.09   1.18  +0.2441  -0.0302  -0.0062   +3001.5     Y   1.72
+   20.0   1.0   8.0    21.26   1.01  +1.0447  -0.0735  -0.0336   +2072.0     Y   5.90
+    5.0   3.0   8.0     8.26   1.38  +0.2967  -0.0214  -0.0046   +1750.2     Y   2.10
+   30.0   1.0   8.0    31.24   1.01  +1.9476  +0.1333  +0.0401  +12745.2     Y   7.34
+   50.0   1.0   8.0    51.23   1.00  +4.0776  -1.0076  -0.3665   +2827.7     Y  11.37
+   20.0   3.0   8.0    23.24   1.11  +1.2367  +0.0852  +0.0215    +840.4     Y   6.30
+   10.0   2.0   8.0    12.05   1.10  +0.2860  -0.0077  -0.0139   +2728.2     Y   3.39
+   10.0   1.0   4.0    11.27   1.02  +0.3233  +0.0174  -0.0049   +2363.7     Y   4.18
+   20.0   1.0   4.0    21.26   1.01  +1.1128  -0.1115  -0.0332   +4209.9     Y   7.78
+   10.0   1.0  12.0    11.27   1.02  +0.1926  -0.0140  -0.0158    +834.8     Y   2.09
+   20.0   1.0  12.0    21.26   1.01  +0.7209  +0.0265  -0.0027   +1452.2     Y   4.37
+
+------------------------------------------------------------------------------
+[C] Spherical GPE late ⟨Θ_3d⟩ light probe (DST; not full-3D production)
+------------------------------------------------------------------------------
+  cases run                 = 2  (clean: 0)
+  max ⟨Θ⟩_mean late         = +0.0000
+  max ⟨Θ⟩_mean any          = +0.0000
+  late≥lock? False
+  production_3d             = False  (spherical (not full 3D))
+
+      A    v0       n_pk       ×   ⟨Θ⟩max  ⟨Θ⟩late  settled  turn     dE%    steps
+    5.0   1.0   1660.17  276.69  +0.0482  -0.0175  -0.0079     Y  850.28    20375
+   20.0   1.0   1263.26   60.16  +0.1054  -0.0132  -0.0094     Y   65.40    21649
+
+------------------------------------------------------------------------------
+[D] 2D pancake late ⟨Θ_xx⟩ / ⟨Θ_yy⟩ (stocked transverse class)
+------------------------------------------------------------------------------
+  ⟨Θ_xx⟩ max                = +1.0425e-01
+  ⟨Θ_xx⟩ late               = +3.4556e-02
+  ⟨Θ_xx⟩ settled            = +3.9101e-02
+  ⟨Θ_yy⟩ |max|              = +3.0139e-06
+  ⟨Θ_yy⟩ late               = +1.5610e-06
+  |H_kin|/H_door (Θ_xx late)= 2.9519e-03
+  dE_frac                   = 0.000%
+  note                      = 2D pancake; not isotropic 3D production
+
+------------------------------------------------------------------------------
+[E] Averaging stress channel (static + dynamic CG)
+------------------------------------------------------------------------------
+  static mean_Θ             = +1.7805e-02
+  static stress_drive       = +2.3125e-02
+  static net_rhs            = +1.9604e-02
+  static max |local Θ|      = 0.1250
+  dynamic CG ⟨Θ⟩ max        = +3.4510e-02
+  dynamic CG ⟨Θ⟩ late       = +3.2475e-02
+  dynamic CG settled        = +3.3434e-02
+  dynamic CG turned?        = True
+  dynamic |H|/H_d late      = 2.7742e-03
+  dynamic dE%               = 0.601
+
+==============================================================================
+VERDICT — late Θ vs Θ_lock / production grade
+==============================================================================
+  medium turn (toy/M6 class)      = YES
+  MAX LATE/SETTLED ⟨Θ⟩ (S1)       = +2.8701
+  max peak 0D / 1D-mean           = +14.7609
+  raw 1D local max (NOT S1)       = +3001.5
+  Θ_lock required                 = 11.7062
+  ratio late / Θ_lock             = 2.4517e-01
+  |H_kin(late)|/H_door (d=3)      = 2.4517e-01
+  |H_kin(Θ=1)|/H_door             = 8.5425e-02
+  late Θ_lock reached (S1)?       = False
+  S1 status                       = MISSING_INPUT
+  package grade                   = OPEN-BLOCKED
+  production 3D COMPLETE?         = False
+  COMPLETE count                  = 0
+
+  LAYER LATE Θ SUMMARY:
+    0D late max                   = +2.8701
+    0D settled max                = +0.1143
+    1D GPE late max               = +0.0265
+    spherical late max            = +0.0000
+    2D Θ_xx late                  = +3.4556e-02
+    avg CG late                   = +3.2475e-02
+
+  READ:
+  1. Stocked legal instruments still produce medium turn (toy/M6).
+  2. Late/settled ⟨Θ⟩ remains ≪ Θ_lock under deeper legal sweeps.
+  3. Peak can approach or hit lock in extreme 0D corners; late does not.
+  4. Madelung vacuum spikes and 0D caps are NOT S1 lands.
+  5. κ,γ remain toy reduced coeffs — not Derived cosmological dials.
+  6. Spherical/2D/1D are NOT production full-3D A_Θ-3D COMPLETE.
+  7. S1 stays MISSING_INPUT; N1 magnitude lock via Θ stays OPEN-BLOCKED.
+  8. No claim: bounce closed · H_re Derived · Θ_lock derived · page curve.
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "n3_gpe_late_theta_20260804",
+  "prior": "n3_theta_3d_20260804",
+  "Theta_lock": 11.706237653490552,
+  "c_s": 0.14795964842319909,
+  "H_kin_over_H_door_at_Theta1": 0.08542454284633638,
+  "max_late_Theta_S1": 2.870069874888626,
+  "max_peak_0d_or_1d_mean": 14.760909350837238,
+  "max_raw_local_NOT_S1": 3001.4902119904364,
+  "ratio_late_over_lock": 0.24517440699940274,
+  "H_kin_over_H_door_at_max_late": 0.2451744069994027,
+  "Theta_lock_reached_S1_late": false,
+  "turn_paid_toy": true,
+  "S1_status": "MISSING_INPUT",
+  "grade": "OPEN-BLOCKED",
+  "COMPLETE": 0,
+  "production_3d": false,
+  "page_curve_claimed": false,
+  "layer": {
+    "0d": {
+      "n_rows": 710,
+      "n_physical": 685,
+      "n_turned": 678,
+      "max_late_Theta": 2.870069874888626,
+      "max_settled_mean": 0.11427550669888384,
+      "max_Theta_pos_physical": 14.760909350837238,
+      "n_peak_ge_lock": 74,
+      "max_late_among_peak_hits": 2.870069874888626,
+      "late_reaches_lock": false,
+      "best_late": {
+        "n0": 80.0,
+        "Theta0": -8.0,
+        "kappa": 3.0,
+        "gamma": 0.02,
+        "turned": 1.0,
+        "t_cross": 0.03400000000000002,
+        "dTheta_dt_cross": 275.57869705647977,
+        "late_Theta": 2.870069874888626,
+        "late_tail10": 2.870069874888626,
+        "late_tail20": -0.13642625538239697,
+        "late_last": 2.067568179261229,
+        "settled_mean": 0.10854656128654341,
+        "settled_std": 1.2500898284797242,
+        "settled_last": -1.1523377794660479,
+        "overshoot": 1.1612291596613684,
+        "n_peak": 92.89833277290947,
+        "n_late": 1.3413812054906753,
+        "Theta_max_pos": 11.772807710856325,
+        "Theta_max_abs": 11.772807710856325,
+        "hit_cap": 0.0,
+        "t_end": 8.034000000000987,
+        "t_cut_reentry": 8.034000000000987,
+        "Hkin_Hdoor_late": 0.2451744069994027,
+        "Hkin_Hdoor_settled": 0.009272540375444805,
+        "Hkin_Hdoor_peak": 1.0056867167177252
+      }
+    },
+    "1d_gpe": {
+      "n_rows": 14,
+      "n_clean": 9,
+      "max_mean_Theta": 0.7209418658164151,
+      "max_late_mean_Theta": 0.026530049933894004,
+      "max_settled_mean": 0.001504193683249676,
+      "max_raw_local_Theta": 3001.4902119904364,
+      "late_mean_reaches_lock": false,
+      "best_late": {
+        "A": 20.0,
+        "v0": 1.0,
+        "R": 12.0,
+        "n_init": 21.0,
+        "n_peak": 21.260553410442977,
+        "overshoot": 1.0124073052591893,
+        "turned_density": 1.0,
+        "mean_Theta_turn": 1.0,
+        "mean_Theta_max": 0.7209418658164151,
+        "mean_Theta_min": -0.8973045011506948,
+        "mean_Theta_late": 0.026530049933894004,
+        "late_tail20": -0.0027450093506883287,
+        "settled_mean": -0.0027450093506883287,
+        "settled_std": 0.56327526581331,
+        "post_peak_late": -0.014771120980228574,
+        "support_Theta_max": 1452.2266714517039,
+        "support_Theta_late": 88.1526689784782,
+        "raw_local_Theta_max": 1452.2266714517039,
+        "dE_frac": 0.04368134494014967,
+        "Hkin_Hdoor_late": 0.0022663173872933717,
+        "Hkin_Hdoor_mean_max": 0.06158612930615204,
+        "T_MAX": 16.0
+      }
+    },
+    "spherical": {
+      "n_rows": 2,
+      "n_clean": 0,
+      "max_late_mean_Theta": 0.0,
+      "max_mean_Theta": 0.0,
+      "late_reaches_lock": false,
+      "production_3d": false
+    },
+    "2d_pancake": {
+      "mean_Theta_xx_max": 0.10424508290644625,
+      "mean_Theta_xx_min": -0.13274472968368278,
+      "mean_Theta_xx_late": 0.0345555812958953,
+      "settled_Theta_xx": 0.03910055126646838,
+      "mean_Theta_yy_max": 3.0138899574179108e-06,
+      "mean_Theta_yy_late": 1.560961115614405e-06,
+      "n_peak": 4.912234411507801,
+      "dE_frac": 5.246496932029548e-07,
+      "Hkin_Hdoor_xx_late": 0.002951894734991268,
+      "Nx": 384.0,
+      "Ny": 96.0,
+      "note": "2D pancake; not isotropic 3D production"
+    },
+    "averaging_static": {
+      "mean_Theta": 0.017805368560860596,
+      "var_Theta": 0.0032032519819679053,
+      "stress_drive": 0.02312450156567686,
+      "net_rhs": 0.019604218434120874,
+      "max_local_abs_Theta": 0.12497616041568205
+    },
+    "averaging_dynamic": {
+      "mean_Theta_max": 0.03451033988495619,
+      "mean_Theta_min": -0.07187484200773497,
+      "mean_Theta_late": 0.03247547247602951,
+      "settled_mean": 0.033434123349634644,
+      "settled_std": 0.0013712066406890778,
+      "n_peak": 4.910106610234856,
+      "dE_frac": 0.006010757240283288,
+      "Hkin_Hdoor_late": 0.002774202389983601,
+      "turned_mean": true
+    },
+    "default_0d": {
+      "late_Theta": 0.061224852939294375,
+      "settled_mean": 0.2812908154331404,
+      "Theta_max_pos": 2.1780346563969393,
+      "Hkin_Hdoor_late": 0.005230105073173396
+    }
+  },
+  "top_0d_late_survivors": [
+    {
+      "n0": 80.0,
+      "Theta0": -8.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.870069874888626,
+      "settled_mean": 0.10854656128654341,
+      "Theta_max_pos": 11.772807710856325,
+      "Hkin_Hdoor_late": 0.2451744069994027
+    },
+    {
+      "n0": 80.0,
+      "Theta0": -6.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.866961404106371,
+      "settled_mean": 0.10787581006415418,
+      "Theta_max_pos": 11.374187810033456,
+      "Hkin_Hdoor_late": 0.2449088673038774
+    },
+    {
+      "n0": 80.0,
+      "Theta0": -5.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.8635665801298296,
+      "settled_mean": 0.10737817927442282,
+      "Theta_max_pos": 11.227403081862319,
+      "Hkin_Hdoor_late": 0.24461886601763752
+    },
+    {
+      "n0": 80.0,
+      "Theta0": -3.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.8602061041671507,
+      "settled_mean": 0.1069656243334192,
+      "Theta_max_pos": 11.021642828424635,
+      "Hkin_Hdoor_late": 0.2443317988947796
+    },
+    {
+      "n0": 60.0,
+      "Theta0": -8.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.823536604638248,
+      "settled_mean": 0.1090155263865332,
+      "Theta_max_pos": 10.446300665878764,
+      "Hkin_Hdoor_late": 0.24119932366111915
+    },
+    {
+      "n0": 60.0,
+      "Theta0": -5.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.807905944485606,
+      "settled_mean": 0.10749096445804163,
+      "Theta_max_pos": 9.781326633412931,
+      "Hkin_Hdoor_late": 0.23986408166319326
+    },
+    {
+      "n0": 60.0,
+      "Theta0": -6.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.8063816579530183,
+      "settled_mean": 0.10825260798183797,
+      "Theta_max_pos": 9.956901585681477,
+      "Hkin_Hdoor_late": 0.23973387018298012
+    },
+    {
+      "n0": 60.0,
+      "Theta0": -3.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.7991979633644153,
+      "settled_mean": 0.10712252705849581,
+      "Theta_max_pos": 9.539680975872406,
+      "Hkin_Hdoor_late": 0.23912020635680098
+    },
+    {
+      "n0": 50.0,
+      "Theta0": -8.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.7872677327496502,
+      "settled_mean": 0.10962249765027028,
+      "Theta_max_pos": 9.73920939568283,
+      "Hkin_Hdoor_late": 0.23810107186048335
+    },
+    {
+      "n0": 50.0,
+      "Theta0": -6.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.7637519829254877,
+      "settled_mean": 0.10863427547021624,
+      "Theta_max_pos": 9.173969585172472,
+      "Hkin_Hdoor_late": 0.23609224968206544
+    },
+    {
+      "n0": 50.0,
+      "Theta0": -5.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.762876582082876,
+      "settled_mean": 0.10776567657228552,
+      "Theta_max_pos": 8.975742206134038,
+      "Hkin_Hdoor_late": 0.23601746896527806
+    },
+    {
+      "n0": 50.0,
+      "Theta0": -3.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.751275743159284,
+      "settled_mean": 0.1068545777588673,
+      "Theta_max_pos": 8.706638011374055,
+      "Hkin_Hdoor_late": 0.23502647260359621
+    },
+    {
+      "n0": 40.0,
+      "Theta0": -8.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.746243794341909,
+      "settled_mean": 0.10997216016509985,
+      "Theta_max_pos": 9.016361818355122,
+      "Hkin_Hdoor_late": 0.23459662067624576
+    },
+    {
+      "n0": 40.0,
+      "Theta0": -6.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.710998097304353,
+      "settled_mean": 0.10862275326562902,
+      "Theta_max_pos": 8.328795001758394,
+      "Hkin_Hdoor_late": 0.23158577311951212
+    },
+    {
+      "n0": 40.0,
+      "Theta0": -5.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "late_Theta": 2.698523517142312,
+      "settled_mean": 0.10808433552309316,
+      "Theta_max_pos": 8.09620477923281,
+      "Hkin_Hdoor_late": 0.23052013781196976
+    }
+  ],
+  "note": "S1 = late/settled mass-weighted \u27e8\u0398\u27e9 only. Peak spikes, Madelung vacuum local \u0398, and 0D integrator caps are not lands. Full-3D production A_\u0398-3D is not stocked; COMPLETE=0."
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — late Θ_lock not landed; S1 MISSING_INPUT; not 3D COMPLETE.
+==============================================================================

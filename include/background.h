@@ -378,9 +378,11 @@ struct background
   short has_ncdm;      /**< presence of non-cold dark matter? */
   short has_lambda;    /**< presence of cosmological constant? */
   short has_fld;       /**< presence of fluid with constant w and cs2? */
-  short has_dcdf;      /**< presence of the PRTOE v4 dCDF unified dark fluid? */
+  short has_dcdf;      /**< presence of the PRTOE v4 dCDF unified dark fluid? (CURRENT_CORE) */
   short has_ur;
-    /* DUMMIES to make perturbations.c compile */
+    /* LEGACY_ST dummies (v1–v3 use_prtoe scalar-tensor): kept so perturbations.c compiles.
+     * NOT the public expansion core. Current core = has_dcdf / use_dcdf + varying_me.
+     * Comparison null scripts: scripts/test_prtoe_null_limit.py (label LEGACY_ST only). */
     short use_prtoe;
     int index_bg_phi_prtoe;
     int index_bg_dphi_prtoe;

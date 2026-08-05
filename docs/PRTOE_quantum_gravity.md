@@ -487,7 +487,7 @@ acknowledging Visser 2018 and Navarro-Salas 2024, it is the paper's entire thesi
 | Q3 | Species + cutoff cancel in the ratio | **paid** | same | — |
 | Q4 | Visible str[k₁]=0 with SM+3 ν_R; dark balance → P-2026-048 | **derived + candidate dark** | supertrace-note SHIPPED | Lattice $T_c/\sqrt{\sigma}$ kills portal chain |
 | Q5 | “O(1)=1.0000” is p=2 ramp point, not medium selection | **honest constraint** | §4a | Do not quote as prediction |
-| Q6 | Dynamical Page curve (phonon Hawking / finite core) | **OPEN** — no standing CANDIDATE; **`page_curve_claimed: false`** | Instrument near-miss: `page_curve/coevolve_v13.json` (T1–T6+stall+DC3+T2 PASS; **T8 early bin 0.113** need ≤0.10); protocol T1–T8 ACTIVE/BINDING; D1–D3 deeper construction exhausted without joint clear (`open_board_split_20260803/B_A_D*_ATTEMPT.md`) | Q6 not claimed; no red packet; thrash stop (D4); needs new microphysics not header knobs |
+| Q6 | Dynamical Page curve (phonon Hawking / finite core) | **OPEN** — no standing CANDIDATE; **`page_curve_claimed: false`** | Instrument near-miss: `page_curve/coevolve_v13.json` (T1–T6+stall+DC3+T2 PASS; **T8 early bin 0.113** need ≤0.10); protocol T1–T8 ACTIVE/BINDING; D1–D3 deeper construction exhausted without joint clear (`open_board_split_20260803/B_A_D*_ATTEMPT.md`); exhaust reconfirm T8 **0.113** · claim false ([theory_exhaust_20260805](working_logs/_runs/theory_exhaust_20260805/MASTER_REPORT.md)) | Q6 not claimed; no red packet; thrash stop (D4); needs new microphysics not header knobs |
 | Q7 | Tsirelson / no superquantum gravity-side mods | **null** | with quantum wing | CHSH > 2√2 kills |
 
 **Program to finish Q6 (hard work, not prose):** see  
@@ -514,8 +514,8 @@ stays **false**. Q2 paid ≠ Q6 paid. PRTOE = Theory of Expansion, not TOE.
 
 | Residual | Grade | Evidence path | What remains | **Forbidden to claim** |
 |---|---|---|---|---|
-| Dynamical **Page curve** \(S_{\mathrm{rad}}(v)\) vs Page time | **OPEN** (Q6) | claims ledger Q6; coevolve_v13 near-miss (T8 early 0.113); `page_curve_claimed: false`; D1–D3 exhausted | new microphysics (not densify thrash) | curve closed; Q2/coefficient = Page; CANDIDATE without T1–T8+DC3+red |
-| Absolute SI **G** (value of Newton’s constant) | **OPEN** | §5.4–5.6 Pauli formula; failures ledger “The G-closure”; supertrace pays *finiteness*, not value | ρ*/portal/lattice mass-scale half match-or-die | absolute SI \(G\) derived; Sakharov quadratic closure revived; supertrace script “pays \(G\)” |
+| Dynamical **Page curve** \(S_{\mathrm{rad}}(v)\) vs Page time | **OPEN** (Q6) | claims ledger Q6; coevolve_v13 near-miss (T8 early 0.113); `page_curve_claimed: false`; D1–D3 exhausted; exhaust T8 reconfirm 0.113 | new microphysics (not densify thrash) | curve closed; Q2/coefficient = Page; CANDIDATE without T1–T8+DC3+red |
+| Absolute SI **G** (value of Newton’s constant) | **OPEN** | §5.4–5.6 Pauli formula; failures ledger “The G-closure”; supertrace pays *finiteness*, not value; exhaust T-X3 | ρ*/portal/lattice mass-scale half match-or-die | absolute SI \(G\) derived; Sakharov quadratic closure revived; supertrace script “pays \(G\)” |
 | Nonlinear continuum Einstein / continuum limit | **OPEN-THEORY** | §4 “nonlinear exactness” priced only as \(R^2/M^2\) corrections; Jacobson route is EOS reading | continuum programme (order→metric / full nonlinear) | full nonlinear Einstein solved; analog hydro = exact GR continuum |
 | Area-law / induced thin notes as new arXiv TeX | **KILLED** | red QG-D3 / IG-D3 | — | salami extract as unique QG paper |
 | Supertrace algebra | **SHIPPED** (finiteness only) | `supertrace-note.pdf`; `scripts/supertrace_k1_verify.py` | optional endorsement | finiteness = absolute \(G\); dark P-2026-048 as paid lattice |

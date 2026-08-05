@@ -1,0 +1,66 @@
+==============================================================================
+  THE CONTROL-EDGE ARGUMENT, CHECKED AGAINST THE MONTE CARLO
+==============================================================================
+
+  L-A  the file's LHY band
+       sqrt(na^3) = 0.043  ->  LHY = 20.7%
+       sqrt(na^3) = 0.077  ->  LHY = 37.1%
+  ok    L-A1 reproduces the stated 22-39%   20.7-37.1%
+  ok    L-A2 and quartering gives the stated 5.4-9.8% on rho^(1/4)   5.2-9.3%
+
+  L-B  the file's 'next term is larger' claim
+       na^3 = 0.00185: LHY   20.7%   next   -22.9%   |ratio| 1.10
+       na^3 = 0.00593: LHY   37.1%   next   -59.8%   |ratio| 1.61
+  ok    L-B1 the next term is indeed larger throughout   the file's arithmetic is correct -- it is the inference that fails
+
+  L-C  is the model's density inside the QMC grid?
+       model na^3 = 0.00185 to 0.00593
+       nearest QMC points: 5e-04 below, 1e-02 above
+  ok    L-C1 the range is bracketed by simulated points   so the literature applies directly rather than by extrapolation
+
+  L-D  is the quoted sentence on-target for this density?
+       log term stated to fail at na^3 ~ 1e-03
+       model sits at 0.00185-0.00593, i.e. 1.8x to 5.9x that
+  ok    L-D1 the model is at or above where the log term is known to fail   so the sentence applies to exactly this regime, not to a different one
+
+  L-E  ANTI-CONTROL: does the QMC distinguish the two terms?
+       LHY (2nd term): 'good approximation up to very high densities'
+       log (3rd term): 'goes wrong already at intermediate densities'
+  ok    L-E1 the two terms are graded separately and oppositely   so truncating at LHY is validated while keeping the 3rd term is not
+
+  L-F  ANTI-CONTROL: does the conclusion depend on where in the band we sit?
+       at the band's bottom: log term already failing? True
+       at the band's top:    log term already failing? True
+  ok    L-F1 the verdict holds at both ends   not an artefact of the lambda band's width
+
+==============================================================================
+  RESULT — THE DEMOTION'S STATED REASON DOES NOT SURVIVE
+==============================================================================
+
+  The file's arithmetic is right: at sqrt(na^3) = 0.043-0.077 the LHY term is
+  21-37% and the next term of the series is 1.1-1.6x larger. What does not
+  follow is the conclusion drawn from it.
+
+  Giorgini, Boronat & Casulleras grade the two terms **separately and oppositely** at
+  exactly this gas parameter: LHY truncation is "a good approximation of the equation of
+  state up to very high densities", while the logarithmic third term "goes wrong already at
+  intermediate densities (na^3 = 1E-3)" -- at or below where the model sits. A large third
+  term is therefore a known defect of that term, **not** a signal that LHY has lost control.
+  The correct error is the Monte Carlo minus LHY residual, not the size of a term the
+  literature already discards.
+
+  TWO CONSEQUENCES.
+
+  * The stated ground for demoting the +0.44% from a precision claim is refuted by the
+    source the file would have to cite for it.
+  * **The lambda gate does not need the lattice.** "One lattice job gates both open
+    numbers" is wrong on the lambda half: tau still needs the SU(2) N_f = 3 computation,
+    the radiative band does not.
+
+  WHAT IS STILL OWED, and is not claimed here. The numeric QMC-minus-LHY residual at
+  na^3 = 0.0018-0.0059, and the spread across the paper's four potentials at that density.
+  Both sit in its Tables I and II, which did not survive text extraction. Until they are
+  read off, this establishes that **the gate is openable at the desk -- not that it is
+  open.** The honest current status of the precision claim is "pending a table read",
+  which is a long way from "pending a lattice campaign nobody has run."
+

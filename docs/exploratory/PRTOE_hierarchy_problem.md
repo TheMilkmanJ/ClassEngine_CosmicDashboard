@@ -3,7 +3,8 @@
 > **EXPLORATORY — not OEM claim authority (2026-08-04).**  
 > Not living shelf / not closed theory. Particle-side hierarchy — **not** an expansion likelihood claim.  
 > No full living twin. Do not promote to OEM without expansion attach + honesty gates.  
-> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md), [`../PRTOE_READERS_RISK.md`](../PRTOE_READERS_RISK.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+> **Currency (2026-08-05):** host ontology **OPEN-BLOCKED** (exploratory; exhaust T-W8).  
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md), [`../PRTOE_READERS_RISK.md`](../PRTOE_READERS_RISK.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/). Exhaust: [`../working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W8_Hierarchy_host.md`](../working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W8_Hierarchy_host.md).
 
 Glossary: [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md). Risk: [PRTOE_READERS_RISK.md](../PRTOE_READERS_RISK.md).
 
@@ -504,15 +505,12 @@ is
 species-selective because the operator names the electron, and chiral because only e_R can absorb
 the phase. Both ingredients are already recorded elsewhere — the operator selection, and the
 identification μ = θ̇ that the baryogenesis chapter uses for lepton number. At the one epoch where
-θ̇ is pinned, **μ₅ ≈ 29.9 eV**. An earlier version of this paragraph named a "two-percent
-disagreement between two recorded values of θ̇" and ruled for 58.5 eV over 59.7 eV on provenance;
-**that ruling was backwards and is corrected here (2026-07-28).** There is no disagreement to
-adjudicate. θ̇ = 59.7 eV is the derived value — it follows from θ̇ ∝ a⁻³ for a deep-frozen
+θ̇ is pinned, **μ₅ ≈ 29.9 eV**. θ̇ = 59.7 eV is the derived value — it follows from θ̇ ∝ a⁻³ for a deep-frozen
 condensate, θ̇ = m·(T_sph/T_on)³, with the field mass, T_sph = 131.7 GeV (the standard freeze-out,
 d'Onofrio–Rummukainen–Tranberg) and the onset temperature all recorded. The 58.5 eV figure is an
 artifact: it is that same number back-multiplied out of the ratio θ̇/H, which was only ever carried
 to two significant figures. The exact ratio is 2.450×10⁶ and it is recorded as 2.4×10⁶, so
-back-multiplying loses **2.05%** — which is the whole of the supposed disagreement. The claim that
+back-multiplying loses **2.05%** — which is the whole of any apparent disagreement with 59.7 eV. The claim that
 59.7 eV "would require g\* = 111.1" is arithmetically right and inferentially void, since it holds a
 truncated ratio fixed and pushes the discrepancy into a parameter that never moved.
 

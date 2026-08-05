@@ -1,0 +1,29 @@
+======================================================================
+  T14 single-instrument H_kin — protocol 2026-08-03
+  grid 128x128x256  T_MAX=1.5  PRODUCTION
+  out: docs/working_logs/_runs/t14_i6_prod_20260804_230225/null_nowinding
+======================================================================
+  NULL MODE: nowinding (jet only, n=0)
+
+======================================================================
+  BRANCH n+0_f+1
+======================================================================
+  [n+0_f+1 t= 0.25] ----  drift_phys=7.305%
+  [n+0_f+1 t= 0.50] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+0.005 H=+0.005 bins=16/16 phase=16/16 drift_phys=14.740%
+      candidate @ t=0.50 nphase=16 helA=+0
+  [n+0_f+1 t= 0.75] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+0.001 H=+0.001 bins=16/16 phase=16/16 drift_phys=13.929%
+      candidate @ t=0.75 nphase=16 helA=+0
+  [n+0_f+1 t= 1.00] ring helA=+0 W=-0.000 Tw=-0.000 Wr=+0.000 H=+0.000 bins=16/16 phase=16/16 drift_phys=3.983%
+      candidate @ t=1.00 nphase=16 helA=+0
+  [n+0_f+1 t= 1.25] ring helA=+0 W=-0.000 Tw=-0.000 Wr=+0.003 H=+0.003 bins=16/16 phase=16/16 drift_phys=17.428%
+      candidate @ t=1.25 nphase=16 helA=+0
+  [n+0_f+1 t= 1.50] ring helA=+0 W=+0.000 Tw=+0.000 Wr=-0.000 H=-0.000 bins=16/16 phase=16/16 drift_phys=31.451%
+      candidate @ t=1.50 nphase=16 helA=+0
+  SELECTED verdict t=1.00 nphase=16 ampA=0.000 drift=3.98% (blind key; Tw/Wr/H not used) from 5 candidates
+  VERDICT n+0_f+1: t=1.00 H=+0.0000 spread=0.0000 margin_ok=False drift_phys=3.983%
+
+======================================================================
+  BRANCH n+0_f-1
+======================================================================
+  [n+0_f-1 t= 0.25] ring helA=+0 W=+0.000 Tw=+0.000 Wr=+0.000 H=+0.000 bins=16/16 phase=16/16 drift_phys=7.305%
+      candidate @ t=0.25 nphase=16 helA=+0

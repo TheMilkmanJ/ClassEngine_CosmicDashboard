@@ -69,8 +69,8 @@ With the low start explained, the arrow itself is the model's graded free-energy
  erasure cost; the environment's monitoring IS the recording (standard quantum Darwinism).
  Time's direction is the direction in which the records accumulate.
 5. **The compounding**: Tolman — the crunch keeps the heat; cycles lengthen; the un-crunchable
- Weyl is entropy that can never be undone. **The arrow is restored after the bounce**
- (not metered through a metric-off Phase II by C² — see §2b).
+ Weyl is entropy that can never be undone. **The arrow is restored at re-entry**
+ after a bounce interval (see §2b).
 6. **The terminus**: the free-energy threshold (graded: "the same budget from opposite
  sides") — the last cycle is the one that cannot fund the next genesis; the chain damps into
  the eternal ground state. The chain's *finiteness* is the recorded result; a pinned cycle
@@ -132,9 +132,10 @@ Inhabitants of whichever branch emerges experience their own entropy direction a
 | C² metering of the running arrow | **derived-from-recorded**, metric-on regime |
 | Arrow across a metric-off interval | **restored at re-entry**; carrier through the interval **OPEN** |
 | Bounce residual / H_re / MeV hot start | **OPEN-BLOCKED** (construction package) |
-| P1 / P2 | **CANDIDATE** premises |  
+| P1 / P2 | **CANDIDATE** premises only — not a derived bounce-surviving arrow |  
 
-Authority package: `docs/working_logs/_runs/theory_construction_20260804/bounce_arrow_collision_20260804/`
+Authority package: `docs/working_logs/_runs/theory_construction_20260804/bounce_arrow_collision_20260804/`.  
+Exhaust (T-W1g CANDIDATE note; classical turn OPEN-BLOCKED): `docs/working_logs/_runs/theory_exhaust_20260805/desk/bounce_cluster_exhaust/MASTER.md`.
 
 ## 3. Why this is different from the standard non-answers
 
@@ -201,7 +202,7 @@ cross-link; the standing derivations in this file are unchanged.
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | First-genesis Past Hypothesis solved by uniqueness of vacuum (no alternatives to draw) | **derived** (conditional on uniqueness premise) | §1; functional in §4 | Philosophical joint flagged in corpus |
-| 2 | Running arrow = free-energy drawdown metered by C² / Weyl | **derived-from-recorded (metric-on only)** | §2, §2b | Rides medium reality (M3); **not** defined across metric-off Phase II under fa3 P1 |
+| 2 | Running arrow = free-energy drawdown metered by C² / Weyl | **derived-from-recorded (metric-on only)** | §2, §2b | Rides medium reality (M3); Phase II non-geometric carrier OPEN (§2b) |
 | 3 | Our cycle began low-entropy | **OPEN-BLOCKED** | §2a status table | **OPEN-THEORY:** no pinned cycle count; Tolman inheritance reopens Past Hypothesis for observed universe |
 | 4 | “We are early” repair | **blocked** by model’s own lengthening | §2a | Time-weighted observer falls late |
 | 5 | Anthropic repair | **explicitly rejected** | §3 | File forbids using it |

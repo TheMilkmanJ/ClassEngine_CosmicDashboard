@@ -140,7 +140,8 @@ deepest gear of the payment schedule still open.*
 **Stamp:** OPEN-THEORY honesty pass. Floor number remains paid; classical turn stays **OPEN-BLOCKED**. No invented H_re.  
 **Full freeze package (authoritative):** [working_logs/_runs/bounce_full_freeze_20260804/](working_logs/_runs/bounce_full_freeze_20260804/) — paid vs OPEN table, forbidden claims, kill conditions, OMP=1 reconfirms.  
 **Prior inventory:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/).  
-**Parent debts:** [debt_bounce_20260803/REPORT.md](working_logs/_runs/debt_bounce_20260803/REPORT.md); [debt_bounce_FA3_20260803/REPORT.md](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md).
+**Parent debts:** [debt_bounce_20260803/REPORT.md](working_logs/_runs/debt_bounce_20260803/REPORT.md); [debt_bounce_FA3_20260803/REPORT.md](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md).  
+**Currency (2026-08-05):** Classical turn / exterior \(H_\mathrm{re}\) remains **OPEN-BLOCKED**; floor paid. Stocked bounce maps (F-A2 0 lands; settled Θ class-bound; match-book exhausted under stocked; Israel Stress paid / \(K^+\) missing one-sided; O6 schemas only; N6 not fired) are recorded under [theory_exhaust bounce cluster](working_logs/_runs/theory_exhaust_20260805/desk/bounce_cluster_exhaust/MASTER.md) — residual still needs **new** licensed content for Derived \(H_\mathrm{re}\). Bounce is not closed. Post-exhaust: [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

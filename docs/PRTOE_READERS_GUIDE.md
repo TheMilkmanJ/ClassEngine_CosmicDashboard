@@ -7,11 +7,11 @@ conditions, and live risk posture, start with
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
 > **Currency board (2026-08-04).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with
-> `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.086466** N=20409
-> t=2026-08-04T05:21:52 — was 0.059@N=19013, **receding** **1.73×** stop; dyad R−1 **0.128943**
-> @N=20302 ~2.58×; both `converged: false` → **REFUSED**). Do not peek-book H₀ / Σm_ν / S₈ from
-> live chains. BBN ε arithmetic is **verified internal**; **external win pending DOI**. Numbers
-> and gates live in RISK + CHAIN_TABLES; this guide does not book posteriors.
+> `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.071122** N=21886
+> t=2026-08-04T13:01:13 — **1.42×** stop; dyad R−1
+> **0.072286** @N=21867 ~1.45×; both `converged: false` → **REFUSED**). Do not peek-book H₀ /
+> Σm_ν / S₈ from live chains. BBN ε arithmetic is **verified internal**; **external win pending
+> DOI**. Numbers and gates live in RISK + CHAIN_TABLES; this guide does not book posteriors.
 
 *Written for the newcomer and the external reviewer. Working documents in this repository use a
 compact internal vocabulary for the model's recurring objects; you do not need that dialect to

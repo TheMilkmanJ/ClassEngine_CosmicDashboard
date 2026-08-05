@@ -1,7 +1,8 @@
 {
   "tool": "scripts/page_protocol_scorecard.py",
-  "tool_sha256": "1d02a1d4bdd11a88612f6db387a3a819425c3be362bc74a57122162cb90a14b7",
+  "tool_sha256": "06bd9661be39d1ffb0479898a2c0d6e444c45d7b0d127fcfc2abd903c460a390",
   "input_path": "/home/themilkmanj/prtoe_class/docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/coevolve_v13.json",
+  "input_sha256": "048de43e1bc766c8f420c54f565a33166c0792c23291ba567cdc6c772f92fca8",
   "input_milestone": "R_PAGE_coevolve_T8_era",
   "load_meta": {
     "loader": "page_protocol_scorecard",
@@ -155,5 +156,5 @@
     "week2_modes": "docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/week2_bogoliubov.json"
   },
   "resource": "OMP=1; no PolyChord; no MCMC; arrays-only recompute",
-  "claim_decoupling": "CANDIDATE packet only after: run complete \u2192 JSON on disk \u2192 scorecard from arrays \u2192 script sha256 \u2192 (git commit when owner allows). This scorecard is not itself a CANDIDATE filing."
+  "claim_decoupling": "CANDIDATE packet only after: run complete \u2192 JSON on disk \u2192 scorecard from arrays \u2192 input_sha256 + script sha256 \u2192 (git commit when owner allows). This scorecard is not itself a CANDIDATE filing."
 }

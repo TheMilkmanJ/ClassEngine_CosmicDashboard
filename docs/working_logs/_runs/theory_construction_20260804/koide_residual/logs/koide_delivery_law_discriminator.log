@@ -1,0 +1,147 @@
+==============================================================================
+(1) THE THERMAL LAW AT THE CORPUS'S OWN FREQUENCY
+==============================================================================
+  T_c = tau m_e            = 177.099 keV      (tau = ln2/2)
+  w_1 = (2/9) T_c          = 39.355 keV
+  x_1 = hbar w_1 / k T_c   = 0.222222
+  x_0 = x_1 / sqrt2        = 0.157135
+
+  Bose occupancy of the charged mode at that x:
+    n_bar = 1/(e^x - 1)    = 4.0185
+  Equipartition is the n_bar >> 1 limit. At n_bar ~ 4 the classical form is an
+  approximation, not an identity -- and the null is quoted as an identity.
+
+  Q under the exact thermal law, with eps_D = 2 eps_S held exactly:
+    rho^2 = (1/2) g(x_1)/g(x_0) = 0.501025429
+    Q     = 0.667350286
+    2/3   = 0.666666667
+    miss  = 1025.4 ppm, against a claimed exactness of 6 ppm
+    -> the correction is 171x LARGER than the agreement it must not disturb
+
+==============================================================================
+(2) HOW CLASSICAL WOULD THE MODES HAVE TO BE?
+==============================================================================
+  Q stays within 6 ppm of 2/3 only for x_1 <= 0.016971
+  the corpus's x_1 is                                  0.222222
+  so w_1 would have to be smaller by a factor          13.1
+  i.e. w_1 <= 3.005 keV against the recorded 39.355 keV
+
+         x_1      n_bar              Q   ppm from 2/3
+  ------------------------------------------------------
+    0.001000    999.500    0.666666681            0.0
+    0.010000     99.501    0.666668056            2.1
+    0.016971     58.426    0.666670667            6.0
+    0.050000     19.504    0.666701383           52.1
+    0.100000      9.508    0.666805463          208.2
+    0.222222      4.019    0.667350286         1025.4
+    0.500000      1.541    0.670081836         5122.8
+    0.693147      1.000    0.673131624         9697.4
+
+  The classical limit is EXACT and every finite x breaks it in the same direction --
+  Q rises above 2/3, monotonically. There is no cancellation to hope for: the charged
+  sector sits at the higher frequency, so it is always the more quantum of the two, and
+  its power is always suppressed less than the classical formula says.
+
+  Equivalently, holding Q = 2/3 exactly at the corpus's x_1 requires
+    eps_D/eps_S = 2.004110  rather than 2 exactly,
+    i.e. a = 2.9877 b  rather than a = 3b.
+  So 'a = 3b' is the CLASSICAL statement of the null, not its exact statement, and the
+  clean integer 3 is an artifact of the limit rather than a structural fact.
+
+==============================================================================
+(3) THE OCCUPANCY LOCK IS A FIFTH LAW -- AND IT IS NOT THERMAL
+==============================================================================
+  The lock does not use equipartition at all. Its argument is quantum and cold:
+    N_0 = M w f_0^2 / hbar = 1        (the neutral mode carries one quantum)
+    E_c = M w^2 R_c^2 = hbar w        (the charged PAIR sits in its ground state,
+                                       2 dof x (1/2) hbar w)
+  from which f_0^2 = R_c^2 = hbar/(M w) and the null follows with M and w cancelling.
+
+  That cancellation is the lock's whole strength -- and it needs ONE w. The argument
+  as recorded writes the same symbol in both lines. But the null it is explaining says
+  the two sectors do NOT share a frequency:
+
+    eps_1 = 2 eps_0   =>   w_1 = sqrt2 w_0
+
+    neutral, one quantum at w_0 :  f_0^2 = hbar/(M w_0)  -> 1.000000  (hbar/M = 1)
+    charged pair ground state    :  R_c^2 = hbar/(M w_1)  -> 0.707107
+    R_c / M_c = (w_0/w_1)^(1/2)  = 0.840896   = 2^(-1/4)
+    the null needs                 1.000000
+    miss                           15.9%
+
+  So the lock's derivation is frequency-degenerate: it delivers the null only if the
+  neutral and charged sectors share w, and the stiffness reduction it is supposed to
+  explain says they differ by sqrt2. Written with distinct frequencies the same three
+  lines give 2^(-1/4) = 0.841, not 1.
+
+  This is not fatal to the lock and it is not cosmetic. It is a NAMED condition the
+  lock now owes: either the two sectors are degenerate at the moment the quanta are
+  counted -- which is a statement about the freeze, before the stiffnesses split --
+  or the lock's cancellation does not happen. The lock's own filter score (2 for 2,
+  against 0 for 22 for the retired mechanisms) is untouched by this; what changes is
+  that it has a specific, checkable debt instead of an unexamined step.
+
+==============================================================================
+(4) tau AND UNIT OCCUPANCY — AN EXACT IDENTITY, AND THE FORK IT OPENS
+==============================================================================
+  Sitting in the table above, at the last row: n_bar = 1 falls at x = ln2 exactly.
+  The corpus's central constant is tau = ln2/2. So, as an identity in nothing but the
+  Bose factor:
+
+      n_bar = 1  <=>  e^x = 2  <=>  x = ln2  <=>  hbar w / kT = 2 tau
+
+    check: n_bar(ln2) = 1.000000000000
+           2 tau      = 0.693147180560      ln2 = 0.693147180560
+
+  This is worth stating precisely because it is easy to over-read. It does NOT derive
+  tau. It says that the SAME number the corpus reaches from -ln(rho) is the value of
+  hbar w / 2kT at which a bosonic mode holds exactly one quantum -- which is the
+  occupancy lock's premise, reached from the opposite side of the theory.
+
+  It also sharpens the fork, because the two cannot both hold:
+    unit occupancy needs   hbar w / kT_c = ln2      = 0.693147
+    the corpus records     w_1 = (2/9) T_c         = 0.222222
+    ratio                  (ln2)/(2/9) = 9 ln2 / 2 = 3.119162
+
+    (That ratio is 9ln2/2 = 3.119162. It is NOT pi -- pi = 3.141593, off by 0.7%. Recorded so
+     the near-miss is not chased later.)
+
+  In frequency: unit occupancy puts w at 122.76 keV, the recorded w_1 is 39.36 keV.
+  One of the two is wrong, or they refer to different modes. That is a bounded,
+  answerable question, and it is the first time the two live arcs -- the tau modulus
+  and the occupancy lock -- have been made to contradict each other on a number.
+
+  AMENDED 2026-07-29 -- the ratio is NOT an independent contradiction.
+  scripts/occupancy_frequency_keystone_identity.py shows 9ln2/2 = 9*tau = 6/c_K
+  exactly, and that the tau CANCELS out of it (verified over a wide range of tau,
+  max deviation 0.00e+00). So this ratio is the keystone c_K*tau = Q with the
+  modulus divided out -- it was already implied the moment w_1/T_c was identified
+  with arg b = Q/3, and it carries no information the keystone did not carry.
+  Carry it as an INSTANCE of the c_K debt, not as its own open question: it is
+  evidence against neither arc, and deriving c_K settles it automatically.
+  The asymmetry still stands, though -- 'hbar w/kT = ln2' is a thermodynamic
+  condition, while 'w_1/T_c = arg b' equates a frequency ratio with a phase, which
+  is an identification rather than a derivation and is the step to examine first.
+
+==============================================================================
+VERDICT — THE LAW IS NARROWED, NOT YET FIXED
+==============================================================================
+  The thermal law cannot carry the null at the claimed exactness at the corpus's own
+  frequency: it distorts Q by 1025 ppm against a 6 ppm budget. Two ways out,
+  and they are both real statements rather than escapes:
+
+    (a) the modes are far more classical than w_1 = (2/9) T_c implies (x_1 <=
+        0.0170, a factor 13 smaller). Note that w_1 = (2/9)T_c is
+        itself derived FROM Q = 2/3 via theta_B, so it is not an independent
+        measurement and this route is not circular to take -- but it does mean the
+        corpus currently has no independent handle on x_1 at all.
+
+    (b) the delivery law is not thermal. Occupancy lock was a *cold-law class*
+        candidate, but it is NOT a live escape: integer occupancy cannot produce
+        ω₁/ω₀ = √2 (killed 2026-07-29; see occupancy_lock_cannot_deliver / T6).
+        Residual exactness research is freeze-time stiffness / Wilson bins only —
+        not a restored 'candidate mechanism' (tribunal R2-koide lane (c)).
+
+  Either way the classical equipartition reading of the null is the one under pressure,
+  and 'a = 3b' should be carried as its classical limit rather than as an exact
+  structural relation.

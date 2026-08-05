@@ -1,12 +1,13 @@
 # Owner action when Fairbank replies (one-pager)
 
-**Date:** 2026-08-04  
+**Date:** 2026-08-04 · **re-stamp:** 2026-08-04T18:14Z (`fairbank_arxiv_trigger_20260804`)  
 **Status:** packages **READY on disk** · **HOLD** until you decide after his reply  
 **Desk will not:** post · email · invent endorsement · invent second Fairbank TeX
 
 Materials: `docs/arXivReady/<name>.{pdf,tar.gz}` · living `papers/<name>/`  
 Checklist: `ForJustin/ARXIV_OWNER_CHECKLIST.md`  
-Inventory: `PACKAGE_INVENTORY.md` (this run)
+Inventory: `PACKAGE_INVENTORY.md` (this run)  
+**Ship-now one-pager:** [`../fairbank_arxiv_trigger_20260804/OWNER_SHIP_NOW.md`](../fairbank_arxiv_trigger_20260804/OWNER_SHIP_NOW.md)
 
 ---
 
@@ -16,9 +17,12 @@ Inventory: `PACKAGE_INVENTORY.md` (this run)
 |---|---|
 | Track Fairbank reply | Post any package to arXiv “to get it out” |
 | Keep neutrino-mbb packaging **paused** unless he asks a concrete edit | Invent `papers/fairbank-0nubb/` TeX |
-| Optional: Zenodo PDF+tar (no endorsement) for non-neutrino packages | Quote H₀ ≈ 69.9 / outperform / unconverged chains as results |
+| Optional: Zenodo PDF+tar (no endorsement) for non-neutrino packages | Quote H₀ / outperform / unconverged chains as results |
 | | File under default `physics.space-ph` |
 | | Wait on bbnfix / R−1 / PolyChord for any READY note |
+
+**bbnfix still NOT bookable (2026-08-04T18:14):** lcdm R−1 **0.086466** N=20409 · dyad R−1 **0.128943** N=20302 · both `converged: false`.  
+**BBN ε:** **ARITHMETIC VERIFIED (internal)** 3.196%≈3.20% · **EXTERNAL WIN PENDING (no DOI)**.
 
 ---
 
@@ -103,6 +107,9 @@ Inventory: `PACKAGE_INVENTORY.md` (this run)
 One record per paper: PDF + matching `.tar.gz` · Resource type Preprint · CC BY 4.0 · Get DOI · Publish.  
 Never bundle multiple papers. Supertrace already done. Does **not** replace arXiv listing.
 
+**bbn-eps-bound click-path (checklist only, no desk upload):**  
+[`../fairbank_arxiv_trigger_20260804/ZENODO_BBN_EPS_BOUND_CHECKLIST.md`](../fairbank_arxiv_trigger_20260804/ZENODO_BBN_EPS_BOUND_CHECKLIST.md)
+
 ---
 
 ## 5. After first successful arXiv post
@@ -114,4 +121,5 @@ Never bundle multiple papers. Supertrace already done. Does **not** replace arXi
 
 ---
 
-*One-pager for owner only. Desk HOLD continues until you act on a real reply or a parallel endorsement path.*
+*One-pager for owner only. Desk HOLD continues until you act on a real reply or a parallel endorsement path.  
+Trigger re-audit 2026-08-04T18:14Z: 6/6 clean · staged MD5 MATCH · no post · no Fairbank contact.*

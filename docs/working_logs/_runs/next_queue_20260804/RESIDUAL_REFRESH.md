@@ -31,7 +31,7 @@ These do **not** clear machine books, owner posts, Page CANDIDATE, or theory wal
 
 | # | Residual | Disk truth | Gate / next |
 |---:|---|---|---|
-| **M1** | **bbnfix H₀ / pair posteriors** | lcdm R−1 **0.086466** (N=20409, t=2026-08-04T05:21:52; was 0.059 — **receding** 1.73×); dyad R−1 **0.128943** (N=20302); both `converged: false` | both R−1 **&lt; 0.05** **and** both `converged: true` → `bash scripts/bbnfix_when_ready_all.sh` (tables OFF by default) |
+| **M1** | **bbnfix H₀ / pair posteriors** | lcdm R−1 **0.071122** (N=21886, t=2026-08-04T13:01:13; was 0.086466@N=20409; earlier 0.059 — **1.42×**); dyad R−1 **0.128943** (N=20302); both `converged: false` | both R−1 **&lt; 0.05** **and** both `converged: true` → `bash scripts/bbnfix_when_ready_all.sh` (tables OFF by default) |
 | M2 | Laplace / ΔlnZ on bbnfix stack | prep only; gate closed | after M1 books — `laplace_booking_full_20260804/RUNBOOK.md` |
 | M3 | RouteD thaw (`cmp_prtoe_routeD`) | live early; R−1 ≈ 102.79 | leave alone; not bbnfix pair gate |
 | M4 | Σm_ν joint / neutrino_home | machine-gated with dyad | wait M1 |

@@ -1,0 +1,22 @@
+Done. Four subagents ran concurrently, then I re-verified every sharp finding at the CLI before certifying.
+
+**Verdict: 5/5 AGREE-IF, 0 DISAGREE, COMPLETE 0.**
+
+No physics overclaim survived four independent audits. Zero fabrications, zero free dials, zero CANDIDATE→COMPLETE promotions, zero Charge A violations. N6 not fired from absence, K⁻ not relabelled K⁺, S⋆ lever not re-entered, τ = ½ln2 correctly graded derived-*conditional* on Q=2/3. Blue self-grades 0 lands everywhere, and the top-level roll-up (which landed at 22:22, after every subagent closed — I read it separately) does **not** repeat the W1 double-count.
+
+**Eight defects stand, all documentation integrity.** The six I verified myself against the artifacts:
+
+- **A citation regression** — `wilson/FILL_ATTEMPT_family_cycle_path_C.md:16` cites `T6_koide_owed.md:500`; the claim is at `:1397-1400`, and the *prior* desk cited it correctly. The wave made a right citation wrong.
+- **Blue's two lanes contradict each other on one line, filed 100s apart** — wilson cites `baryogenesis.md:239` for the n-band (it's `:242`); aomegaJ cites `:239` correctly as the forward-ω_J row.
+- **Side drift lands on the wrong card** — `locking_without_Q` cited to `koide_relation.md:743`, which is *#102 Brannen phase* — a T-W5 object side's own L3 forbids conflating with T-S1. Correct line `:744`. Cause: currency edits at 21:57, 18 minutes before filing.
+- **Page's v23 citation doesn't resolve** — champion v13 is `v22_near_joint_polish`; `coevolve_v23.json` is a different artifact with G_TMS 0.355 ≠ 0.37.
+- **Wilson inventory instrument is weaker than its headline** — I read the script: slots 2/3/4 are literal strings that read nothing; only 7 hardcoded filenames touch disk, no content validation. "Re-run reconfirms 5/5" reconfirms its own source.
+- **Self-PAID row** — `bounce/SURVIVORS.md:70` puts blue's own prose into the paid-partials carry-forward table beside real artifacts. That's the W1 double-count seed again.
+
+One finding I explicitly did **not** re-derive and marked verify-before-quoting: the page bin-neighbour ratios suggesting the T8 residual is a contiguous region rather than one bad bin.
+
+**Structural note:** last wave's fix worked — the completeness sweep held, no missing objects. But the failure relocated from *finding* objects to *citing* them: 6 citation defects across 3 lanes, all mechanically detectable. Recommendation is the same in kind — generate/check citations by tool at file time, red audits the checker.
+
+**Residual:** desk thrash 0 (two lanes *proved* exhaustion rather than asserting it); construction 14 objects, unchanged, byte-for-byte the pre-wave shape. Net new physics content across 49 files: zero — which blue states itself. Two items surfaced for the owner: *n* is a shared upstream input to Wilson slot 3 and the A_ωJ band centre and neither package notices; and T-S4 — the only desk-class survivor left — got a 5-step work program and zero calculation, so two-decimal ρ_Λ precision language stays forbidden.
+
+Chains untouched, no PolyChord, nothing written outside `red/` and the mail file. I have not committed.

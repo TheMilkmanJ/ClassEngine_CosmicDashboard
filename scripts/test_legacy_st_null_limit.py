@@ -1,9 +1,23 @@
 #!/usr/bin/env python3
 """
-PRTOE Null Limit Test Script
+LEGACY_ST — scalar-tensor (use_prtoe) null-limit regression / comparison.
 
-Tests that PRTOE in null limit (all parameters = 0) recovers LambdaCDM.
-Success criteria:
+LANE DISTINCTION (path-3 cleanup; ChatGPT REFEREE NOTE 2026-08-03):
+  LEGACY_ST (this script):
+    Flag:  use_prtoe + xi/beta/zeta/… (v1–v3 scalar-tensor)
+    Role:  historical comparison / regression only
+    Docs:  docs/historical_v1-v3_scalar_tensor/
+
+  CURRENT_CORE (do NOT confuse with this script):
+    Flags: use_dcdf + screened/derived varying_me + dcdf_dyad_link
+    Null:  validate_dcdf.py (dCDF beta→0) and production YAMLs with use_dcdf
+    Docs:  README.md “What is PRTOE”; docs/PRTOE_* current notes
+
+A PASS here means: legacy use_prtoe with ST params≈0 recovers ΛCDM-like
+background/spectra within the gates below. It is NOT evidence that the
+current public PRTOE expansion core recovers ΛCDM.
+
+Success criteria (LEGACY_ST lane only):
 - Early Omega_r ≈ 1.0 (within 1e-3 or better)
 - Max P(k) relative difference < 2% (ideally < 1%)
 - Max C_ℓ^TT relative difference < 2%
@@ -23,7 +37,7 @@ import classy
 import argparse
 
 def _null_limit_settings(fast=False):
-    """Shared CLASS settings for LCDM vs PRTOE-null comparison."""
+    """Shared CLASS settings for LCDM vs LEGACY_ST null comparison."""
     if fast:
         # Suite gate: exact-null background only (perturbations are slow at beta=0).
         # Linear P(k)/C_l null recovery is covered by tests 4/7/8 + manual full run.
@@ -41,10 +55,12 @@ def _null_limit_settings(fast=False):
 
 
 def test_prtoe_null_limit(fast=False):
-    """Test that PRTOE in null limit recovers LambdaCDM."""
+    """LEGACY_ST null limit vs ΛCDM — NOT current-core (use_dcdf) validation."""
     
-    print("=== PRTOE Null Limit Test ===")
-    print("Testing that PRTOE with all parameters=0 recovers LambdaCDM...")
+    print("=== LEGACY_ST null limit (use_prtoe) — NOT current public core ===")
+    print("Lane: historical ξ/β/ζ/… comparison only.")
+    print("CURRENT_CORE = use_dcdf + varying_me (+ dcdf_dyad_link); see validate_dcdf.py.")
+    print("Testing that legacy use_prtoe with all ST params=0 recovers LambdaCDM...")
     
     try:
         # Test 1: Pure LambdaCDM
@@ -60,8 +76,8 @@ def test_prtoe_null_limit(fast=False):
         cosmo_lcdm.compute()
         print("✓ LambdaCDM computation successful")
 
-        # Test 2: PRTOE in Null Limit
-        print("\n2. Running PRTOE in null limit...")
+        # Test 2: LEGACY use_prtoe null (comparison lane only)
+        print("\n2. Running LEGACY_ST use_prtoe null (comparison baggage only)...")
         cosmo_null = classy.Class()
         cosmo_null.set({
             'use_prtoe': 'yes',
@@ -80,7 +96,8 @@ def test_prtoe_null_limit(fast=False):
             **_null_limit_settings(fast),
         })
         cosmo_null.compute()
-        print("✓ PRTOE null limit computation successful")
+        print("✓ LEGACY_ST use_prtoe null computation successful")
+        print("  (Label: LEGACY_ST_NULL — do not cite as CURRENT_CORE PRTOE validation)")
 
         # Comparisons
         print("\n3. Comparing results...")
@@ -192,23 +209,24 @@ def test_prtoe_null_limit(fast=False):
         print(f"Passed: {passed_criteria}/{total_criteria} criteria")
         
         if passed_criteria == total_criteria:
-            print("🎉 SUCCESS: PRTOE null limit test PASSED!")
+            print("SUCCESS: LEGACY_ST null limit (use_prtoe) PASSED — comparison lane only")
+            print("  (Not CURRENT_CORE; current core null lives on use_dcdf / validate_dcdf.py)")
             return True
         else:
-            print("❌ FAILURE: PRTOE null limit test FAILED!")
+            print("FAILURE: LEGACY_ST null limit (use_prtoe) FAILED")
             return False
             
     except Exception as e:
-        print(f"\n❌ ERROR: {e}")
+        print(f"\nERROR (LEGACY_ST): {e}")
         import traceback
         traceback.print_exc()
         return False
 
 def test_prtoe_active():
-    """Test that PRTOE with active parameters works."""
+    """LEGACY_ST smoke: use_prtoe with nonzero ST params still runs (comparison lane)."""
     
-    print("\n=== PRTOE Active Parameters Test ===")
-    print("Testing that PRTOE with active parameters runs without crashing...")
+    print("\n=== LEGACY_ST active parameters smoke (use_prtoe) — NOT current core ===")
+    print("Testing that legacy scalar-tensor with active params runs without crashing...")
     
     try:
         cosmo_active = classy.Class()
@@ -231,7 +249,7 @@ def test_prtoe_active():
             'start_sources_at_tau_c_over_tau_h': 1e4,
         })
         cosmo_active.compute()
-        print("✓ PRTOE active parameters computation successful")
+        print("✓ LEGACY_ST active parameters computation successful")
         
         # Check for basic output
         bg = cosmo_active.get_background()
@@ -243,26 +261,32 @@ def test_prtoe_active():
             return False
             
     except Exception as e:
-        print(f"❌ ERROR: {e}")
+        print(f"ERROR (LEGACY_ST active): {e}")
         import traceback
         traceback.print_exc()
         return False
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="PRTOE null-limit validation")
+    parser = argparse.ArgumentParser(
+        description=(
+            "LEGACY_ST (use_prtoe) null-limit regression — NOT CURRENT_CORE. "
+            "Current public core: use_dcdf + varying_me; see validate_dcdf.py."
+        )
+    )
     parser.add_argument(
         "--fast",
         action="store_true",
-        help="Reduced-cost gate for CI (l_max=250, unlensed tCl; exact null couplings)",
+        help="Reduced-cost gate for CI (background-only; exact null couplings)",
     )
     parser.add_argument(
         "--null-only",
         action="store_true",
-        help="Run only the null-limit comparison (skip active-parameters smoke)",
+        help="Run only the LEGACY_ST null comparison (skip active-parameters smoke)",
     )
     args = parser.parse_args()
 
-    print("Starting PRTOE validation tests...")
+    print("Starting LEGACY_ST (use_prtoe) comparison tests...")
+    print("CURRENT_CORE validation is use_dcdf / validate_dcdf.py — not this script.")
     if args.fast:
         print("Mode: --fast (suite/CI gate)")
 
@@ -273,14 +297,14 @@ if __name__ == "__main__":
     null_test_passed = test_prtoe_null_limit(fast=args.fast)
     
     # Overall result
-    print(f"\n=== FINAL SUMMARY ===")
+    print(f"\n=== FINAL SUMMARY (LEGACY_ST comparison lane) ===")
     if not args.null_only:
-        print(f"Active parameters test: {'PASSED' if active_test_passed else 'FAILED'}")
-    print(f"Null limit test: {'PASSED' if null_test_passed else 'FAILED'}")
+        print(f"LEGACY_ST active smoke: {'PASSED' if active_test_passed else 'FAILED'}")
+    print(f"LEGACY_ST null limit (use_prtoe): {'PASSED' if null_test_passed else 'FAILED'}")
     
     if active_test_passed and null_test_passed:
-        print("🎉 ALL TESTS PASSED!")
+        print("ALL LEGACY_ST COMPARISON TESTS PASSED (not CURRENT_CORE)")
         sys.exit(0)
     else:
-        print("❌ SOME TESTS FAILED!")
+        print("SOME LEGACY_ST TESTS FAILED")
         sys.exit(1)

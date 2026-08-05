@@ -1,6 +1,6 @@
 # Cosmological constant from vacuum occupancy
 
-**Audience grade (2026-07-30; R3-tau-lock 2026-08-03).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel under three conditions: **measured Q=2/3**, **√σ_dark=m_e pin**, and **e^(−τ) thermal-weight reading of the kernel modulus** (Parseval algebra; **not** the contradicted thermal *delivery* path — R2-koide (c); lattice P-048 tests the composite) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 (0.34657 crowns; 0.34506 kills). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+**Audience grade (2026-07-30; R3-tau-lock 2026-08-03; exhaust currency 2026-08-05).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel under three conditions: **measured Q=2/3**, **√σ_dark=m_e pin**, and **e^(−τ) thermal-weight reading of the kernel modulus** (Parseval algebra; **not** the contradicted thermal *delivery* path — R2-koide (c); lattice P-048 tests the composite) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 (0.34657 crowns; 0.34506 kills). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). **Precision residual:** unitarized σσ amplitude at λ ~ 45.7 is **MISSING_INPUT** (calculation not stocked; no invented amp). Existence claim stands. Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Exhaust T-S4: [`working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md`](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md).
 
 ---
 
@@ -747,6 +747,7 @@ right on top of the kinematics.
 The remaining blocker is standard: **is tree-level σσ scattering reliable at λ = 45.7?**
 Chiral perturbation theory and unitarised amplitudes (including the f₀(500) literature already
 cited for the σ mass) are the tools; that calculation is not attempted here.
+**Currency (2026-08-05):** unitarized σσ at λ ~ 45.7 = **MISSING_INPUT** — no stocked compute; do not invent an amplitude. Existence claim for ρ_Λ¼ stands; precision wait is this residual (exhaust T-S4).
 
 Established: LSM convention m_σ² = 2λf² (verified against the file's λ); σ-exchange contributes
 5× the contact term; both readings land at or below 0.6% on ρ_Λ¼. Open: which reading is right,
@@ -797,7 +798,7 @@ is measured.
 | 3 | α_c = 3α registered bet | **OPEN-BLOCKED** | MCMC | Instrument offline |
 | 4 | √σ_dark = m_e irreducible pin | **OPEN** (not derived) | banner | Named irreducible input |
 | 5 | Occupancy: one binding quantum per coherence cell | **interpretation** / argument-grade | §2 | — |
-| 6 | Radiative band 0.10–0.90% on ρ_Λ¼ (one-way) | **machine-backed** bound | control-edge; a₀ table | Point a₀ estimate not measured |
+| 6 | Radiative band 0.10–0.90% on ρ_Λ¼ (one-way) | **machine-backed** bound | control-edge; a₀ table | Point a₀ / unitarized σσ at λ~45.7 **MISSING_INPUT** (T-S4) |
 | 7 | dCDF FDT does not supply this number | **failed** (sector miss) | dcdf_superfluid | Koide route supplies |
 
 **Non-claims:** not precision two decimals; not back-solved τ=0.34506 as prediction.

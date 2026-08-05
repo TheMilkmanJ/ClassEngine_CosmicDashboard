@@ -85,4 +85,12 @@ No second Fairbank TeX created. No inventing of abstracts or arXiv IDs.
 
 ---
 
-*Report filed 2026-08-04. NO FABRICATIONS.*
+---
+
+## Trigger refresh pointer (2026-08-04T18:14Z)
+
+Full re-audit + owner ship-now one-pager + Zenodo bbn checklist (no upload):  
+[`../fairbank_arxiv_trigger_20260804/REPORT.md`](../fairbank_arxiv_trigger_20260804/REPORT.md)  
+bbnfix still NOT bookable: lcdm 0.086466 N=20409 · dyad 0.128943 N=20302.
+
+*Report filed 2026-08-04. NO FABRICATIONS. Trigger re-stamp did not post or contact Fairbank.*

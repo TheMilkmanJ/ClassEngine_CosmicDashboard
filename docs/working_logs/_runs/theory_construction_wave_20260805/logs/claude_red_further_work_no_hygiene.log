@@ -1,0 +1,29 @@
+ExitPlanMode isn't available in this session, so here's the plan directly — it's written to `/home/themilkmanj/.claude/plans/you-are-claude-red-floofy-squirrel.md`. Plan mode blocked the `ForGrok&Claude.md` append; say the word and I'll write it.
+
+## A. Stocked-desk forceable work done (non-hygiene): **AGREE** — unconditional
+
+First exhaustion claim today backed by a **mechanical negative** rather than a hand sweep: every `scripts/*` path referenced across the inventory and exhaust packages was stat'd — 13/13 exist, each with a run log. No case of "we couldn't run X" where X exists. T-S4 independently grepped (`unitariz|ChPT|sigma_sigma|45.7`) — only hit is a value check in `audit_math_pass.py:1772`; no amplitude code. Machine-blocked items do have stocked instruments but are graded OPEN-MACHINE/RUN-GATED, not closed. Correct grade, not over-closure.
+
+## B. Further blue work today, not hygiene, not invent: **YES — four items**
+
+## C. Ordered residual board
+
+1. **Owner — T-W7 T14 sign.** Sharpest item. The 128³ four-branch production already ran (2026-08-03, 4/4 verdicts True) but is *not auto-eligible*: branches `n±1_f-1` censored at `n_cand = 2`, Condition 3 member-t mismatched. Board reads "Three-seat KILLED; f−1 UNMEASURED." A re-run with an uncensored pool closes it — and `run_t14_i6_production.sh` refuses without `--i-approve-a4`. Owner-gated, not blue-gated.
+2. **Blue — clause-4 outbound fix.** Verified against primaries: the prereg itself (`PREREGISTERED_PREDICTIONS.md:1477–1484`) says clauses 2/3 are "**not executable at present cosmological precision, and no lattice campaign can make them so**" — σ=0 gives 0.98σ, the 0.22% threshold gives 0.87σ. I re-derived it: 0.34657−0.34506 = 0.00151, /0.00155 = 0.974 ✓. The T-D1 cure makes "0.22% lattice-only discrimination" a named **Kill**. It is still asserted in `PRTOE_lattice_note.md:8,:12` and — the part that matters — **`papers/lattice-tc-gap/main.tex:120–121`, inside a staged arXiv-READY package**. We are telling the lattice field what precision would settle our stake, and our own pre-registration says that precision settles nothing. Separately `READERS_RISK:243–248` still runs on the superseded 0.3503 ± 0.02 and claims "anywhere in the window would score as confirmation" — false under clause 1. `_AUDIT_LEDGER.md:341–342` already caught that pair and it's still live.
+3. **Blue — T-X6 enumeration.** Red is *forbidden* to write the list (`GATED_WAITING.md:57`; `AUDIT.md:120–123` "Ask blue for the list; red will work it"). T-X6 is blue-blocked, not red-blocked — I still own the audit, not the list.
+4. **Blue/Machine — dense ε_max(T_c) grid.** The only stocked instrument left that produces *new computed numbers*; plan, tool and acceptance criteria pre-written, ~35–45 min. Deferred solely on an old <15-min budget. Contention is your call: 12 cores at load 11.55 with 9 live MCMC ranks.
+5. **Blue — void floor Door A** literature status pass. Still "(not done)" on the dashboard; mapping is pre-committed, so it can flip a registered FAIL with zero new theory.
+6. **Machine — T-D4 conv_desi is dead, not gated.** No process, last row 2026-07-22 at R−1 13.25, single rank. Its Kill is "resume dead state" — so relaunch or retire; it's currently neither.
+7–8. Book the n/L_gen coupling (Wilson slot 3 ↔ baryogenesis row 9 — one input closes both, nobody books it); add the page binning-phase qualifier.
+9–10. Owner (Fairbank/endorsements/Zenodo DOI) and External (clause 4, void floor) — human and world's turn, no agent step.
+11. **Your call:** routeD is stamped 4.941933 (~49.4×) across 8 forward docs vs live 1.078971 (~10.8×) — wrong by 4.6× — and the near/far ordering has flipped. `PRTOE_fairbank_note_draft.md` carries a stale number and goes to a real person. I read your fence as barring citation/line/word work, so I'm flagging this rather than claiming it.
+
+**Construction (new content): not live.** 14 objects, byte-for-byte the pre-wave shape.
+
+**Red item discharged today:** I CLI-verified the page T8 binning phase I'd previously marked "verify before quoting." It reproduces — 0.113154 at offset 0, neighbours 0.092909 / 0.096240 under the bar, and 6 of 9 alternate phases fail 2 bins (one fails 3, worst 0.125313). Grade doesn't move; "sole fail" is offset-0-only and needs the qualifier. Also correcting my own earlier wording: n does *not* feed the A_ωJ band centre — that band is pre-registered. The real coupling is narrower than I said.
+
+## D. For the owner
+
+What's left is one owner flag (`--i-approve-a4` to close the T14 sign), one integrity fix in outbound lattice text where we ask the field for a precision our own pre-registration says settles nothing, four small blue items, and then it's the machine's and the world's turn — the physics walls are unchanged and still need new licensed content.
+
+Chains untouched: dyad 0.070277 (N=23186) · lcdm 0.076222 (N=23429) · routeD 1.078971 (N=5009), 3 ranks each, all `converged: false`.

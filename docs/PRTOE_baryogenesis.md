@@ -5,9 +5,14 @@
 
 > AD-direct route + transmission class stand at **COMPLETE-CONDITIONAL** document grade. Quartet
 > closure is **machine-backed** / back-solved (ω_J ~ 5.7 keV); **forward** ω_J from seat decay
-> constant + pinning curvature remains **OPEN-BLOCKED** (#39) — not a closed derivation. Full
-> record:
+> constant + pinning curvature remains **OPEN-BLOCKED** (#39) — not a closed derivation.
+> Forward seat content: **EMPTY_CORPUS_SEAT** (no independent χ / J_seat / ω_J^micro); **Charge A holds**;
+> back-solve is hygiene, **not a land**. Full record:
 > [working_logs/the_transfer_integral_spec.md](working_logs/the_transfer_integral_spec.md).
+> Construction map (required micro inputs + candidate roster + bands; no invented χ/J):
+> [working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md](working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md).
+> Exhaust T-W16 / desk_t5:
+> [working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W16_A_omegaJ.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W16_A_omegaJ.md).
 > Un-refereed portions from the review-hold are marked.
 
 ## 0. The problem
@@ -231,7 +236,7 @@ changes is that the ask is now specific enough to grade a candidate against, ins
 | 3 | Frozen-era junction conducts on θ̇ (persistent supercurrent); trickle branch dead | **derived** / priced | §3; transfer-integral stages | — |
 | 4 | Overdamped rectifier ⟨sin⟩ formula; R = ω_J²/(2Γ_φθ̇) in fast-drive limit | **machine-backed** | §3; `scripts/kapitza_junction_response.py` (0.06% vs integration); transfer-integral stage 8 | Formula verified; not a forward ω_J |
 | 5 | Quartet Γ_φ, θ̇, R_need, ω_J≈5.67 keV closes as **back-solve** | **machine-backed** (circular if used as derivation) | `scripts/junction_quartet_closure.py` (recompute 2026-08-03: Γ_φ/θ̇=9.0319×10⁷, ω_J=5.672 keV, R=5.050e−5); §3a; [working_logs/_runs/debt_baryo_omegaJ_20260803/REPORT.md](working_logs/_runs/debt_baryo_omegaJ_20260803/REPORT.md); [working_logs/_runs/debt_baryo_d3_provenance_20260803/REPORT.md](working_logs/_runs/debt_baryo_d3_provenance_20260803/REPORT.md) | 5.7 keV is target, not forward land; ×9 was stale ~10⁷ shorthand |
-| 6 | Forward ω_J from seat micro (χ + pinning curvature) | **OPEN-BLOCKED** (OPEN-THEORY) #39 | §3a; [working_logs/_runs/debt_omegaJ_forward_formulability_20260803/REPORT.md](working_logs/_runs/debt_omegaJ_forward_formulability_20260803/REPORT.md); debt_baryo_omegaJ REPORT | **Missing axiom A_ωJ:** seat decay constant + pinning curvature (or micro ω_J from J) — **do not invent** |
+| 6 | Forward ω_J from seat micro (χ + pinning curvature) | **OPEN-BLOCKED** · no independent seat content in corpus (#39) | §3a; [working_logs/_runs/debt_omegaJ_forward_formulability_20260803/REPORT.md](working_logs/_runs/debt_omegaJ_forward_formulability_20260803/REPORT.md); debt_baryo_omegaJ REPORT; [working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md](working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md); exhaust [T-W16](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W16_A_omegaJ.md) | No non-circular χ / J_seat / ω_J^micro in corpus; Charge A holds; back-solve ≠ land — **do not invent** |
 | 7 | Pre-registered ω_J bands: accept [3,12] keV; kill <0.057 keV | **registered null** | §3a (2026-08-03) | Before any forward derivation |
 | 8 | Second un-rotatable phase = two terms at different winding powers with I not multiple of π | **derived** (counting / symmetry) | §second phase; `scripts/second_phase_counting.py` | Does not supply the second term or compute I |
 | 9 | L_gen unpinned → n ≳ 1.65 at floor; n~10–30 is preferred band not fixed | **OPEN** (bookkeeping) | §3 #180 | Moves 𝒯 target; prerequisite for verdict reading |

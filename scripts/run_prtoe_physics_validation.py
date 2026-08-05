@@ -1,17 +1,24 @@
 #!/usr/bin/env python3
 """
-Master PRTOE physics/math validation gate.
+Master PRTOE physics/math validation gate (mixed lanes — labels matter).
 
-Runs analytic + CLASS-backed checks for the publication pipeline:
-  1. Local gravity map (Cassini, orbit PPN, EP torsion-balance)
-  2. BBN activation (rho_phi/rho_r during BBN era)
-  3. Null-limit recovery (PRTOE xi=0 vs LambdaCDM)
-  4. CLASS ini smoke tests (including unified dark sector)
-  5. Unified clustering P(k) gate (unified vs split CDM+DE)
+Runs analytic + CLASS-backed checks. Lanes:
+  LEGACY_ST  — use_prtoe + xi/zeta/… (v1–v3 scalar-tensor comparison)
+  CURRENT_CORE — use_dcdf + screened varying_me + dcdf_dyad_link (public expansion core)
+
+Steps in this runner:
+  1. Local gravity map (Cassini, orbit PPN, EP) — LEGACY_ST helpers / use_prtoe smoke
+  2. BBN activation (rho_phi/rho_r during BBN) — LEGACY_ST scalar activation
+  3. LEGACY_ST null recovery (use_prtoe ST params≈0 vs LambdaCDM) — NOT current-core null
+  4. CLASS ini smoke tests (including unified dark sector where present)
+  5. Unified clustering P(k) gate (unified vs split CDM+DE) — LEGACY_ST era scripts
+
+CURRENT_CORE null/identity for publication claims: validate_dcdf.py (use_dcdf),
+not scripts/test_prtoe_null_limit.py.
 
 Usage:
   python3 scripts/run_prtoe_physics_validation.py
-  python3 scripts/run_prtoe_physics_validation.py --quick   # skip slow null-limit mPk
+  python3 scripts/run_prtoe_physics_validation.py --quick   # skip slow LEGACY_ST null mPk
 """
 from __future__ import annotations
 
@@ -65,11 +72,24 @@ def run_class_ini(ini: str) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="PRTOE physics validation suite")
-    parser.add_argument("--quick", action="store_true", help="Skip slow full null-limit mPk test")
+    parser = argparse.ArgumentParser(
+        description=(
+            "PRTOE physics validation suite (mixed lanes). "
+            "test_prtoe_null_limit.py is LEGACY_ST only; CURRENT_CORE → validate_dcdf.py."
+        )
+    )
+    parser.add_argument(
+        "--quick",
+        action="store_true",
+        help="Skip slow full LEGACY_ST null-limit mPk (use_prtoe) test",
+    )
     args = parser.parse_args()
 
     failures: list[str] = []
+    print(
+        "Lane note: steps using use_prtoe / test_prtoe_null_limit are LEGACY_ST "
+        "(comparison). CURRENT_CORE public core is use_dcdf + varying_me."
+    )
 
     checks = [
         ("test_local_gravity.py", ["--classy"]),
@@ -90,10 +110,11 @@ def main() -> int:
             failures.append(ini)
 
     if not args.quick:
+        # LEGACY_ST only — do not quote as CURRENT_CORE null recovery
         if run_script("test_prtoe_null_limit.py") != 0:
-            failures.append("test_prtoe_null_limit.py")
+            failures.append("test_prtoe_null_limit.py [LEGACY_ST]")
         if run_script("test_prtoe_unified_clustering.py") != 0:
-            failures.append("test_prtoe_unified_clustering.py")
+            failures.append("test_prtoe_unified_clustering.py [LEGACY_ST era]")
 
     print(f"\n{'='*60}")
     if failures:
@@ -101,7 +122,8 @@ def main() -> int:
         for f in failures:
             print(f"  - {f}")
         return 1
-    print("ALL PRTOE PHYSICS VALIDATION CHECKS PASSED")
+    print("ALL CHECKS IN THIS RUNNER PASSED")
+    print("  (LEGACY_ST null pass ≠ CURRENT_CORE; CURRENT_CORE → validate_dcdf.py / use_dcdf)")
     return 0
 
 

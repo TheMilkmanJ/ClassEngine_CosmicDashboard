@@ -1,0 +1,321 @@
+========================================================================
+DESK T1 — CLASS bound: settled ⟨Θ⟩ vs Θ_lock under stocked continuity
+package: desk_t1_settled_theta_class_20260804
+priors:  settled_late_theta_20260804 · n3_gpe_late_theta_20260804
+========================================================================
+  α                      = 0.00729735252051
+  c_s = √(3α)            = 0.147959648423
+  Θ_lock (d=3)           = 11.7062376535  [= 1/√α]
+  |H_kin|/H_door (Θ=1)   = 0.0854245428463
+  script_sha256          = df1aa1ce0311430ff5cde225497ace10e9e2ebec0610605426dd3bd30757a530
+
+[A] CLASS n-drop bound: ⟨Θ⟩=Θ_lock over window Δt ⇒ n1/n2 = exp(Θ_lock Δt)
+        Δt          ΘΔt          n1/n2   log10(n1/n2)
+       1.0      11.7062     1.2133e+05         5.0840
+       5.0      58.5312     2.6289e+25        25.4198
+       8.0      93.6499     4.6950e+40        40.6716
+       9.7     113.5505     2.0623e+49        49.3144
+      10.0     117.0624     6.9111e+50        50.8395
+      20.0     234.1248    4.7763e+101       101.6791
+      40.0     468.2495    2.2813e+203       203.3582
+
+  HEADLINE bound @ Δt=10:  n1/n2 = 6.911052e+50  (~10^50.84)
+  RED window ~9.7:      n1/n2 = 2.062328e+49  (~10^49.31)
+  ⇒ settled ⟨Θ⟩ cannot reach Θ_lock without ~10^50 density drop in-window.
+
+[B] Numeric identity check on prior headline 0D rows (se=40, last 20%)
+  label                               ⟨Θ⟩  Θ_from_ln    rel_err       Δt      n1/n2 log10_need
+  argmax_quality_se40           +0.043582  +0.043620  8.728e-04   9.6910     1.5261      49.27
+  stocked_default_se40          -0.003680  -0.003682  6.806e-04   9.6500     0.9651      49.06
+  prior_F5_best_late_se40       -0.058221  -0.057748  8.121e-03   9.6060     0.5742      48.84
+  argmax_all_physical_se40      +0.105600  +0.105761  1.521e-03   9.6750     2.7822      49.19
+  max identity rel_err = 8.121e-03  (Euler dt=1e-3; assert < 1.5e-2; F5 largest)
+
+[C] Quality residual is density drift, not late attractor
+  argmax quality settled_mean = +0.043582
+  n1/n2 over settled window   = 1.526115
+  ≈ n falls by 34.5% across the 'settled' window
+  n-drop for lock on same Δt  = 10^49.27
+  prior package max quality   = +0.043582  (stamp; this run +0.043582)
+
+[D] Stocked GPE 1D / spherical — does class conclusion change for settled mean?
+  Continuity: ∂t n + ∇·(n v)=0 ⇒ mass-weighted ⟨Θ⟩ = −(1/M) d/dt ∫ n ln n
+  Prior stamps (n3_gpe_late_theta; not re-run):
+    1D clean late / settled   = +0.0265 / +0.0015  ≪ 11.71
+    2D Θ_xx late / settled    = +0.0346 / +0.0391  ≪ 11.71
+    spherical light           = unclean energy; late O(10^-2) negative; not S1-quotable
+    0D max late / settled     = +2.8701 / +0.1143
+  VERDICT: stocked GPE forms do NOT change the class conclusion for settled mean.
+  production_3d = false (still not stocked).
+
+[E] What NEW instrument would break the class (not free dial)
+  · Continuity-breaking medium source/sink (dn/dt ≠ -n Theta) with named legal form
+  · Lock metric redefinition (N2 match-book) so S1 is not window-mean expansion
+  · Named multi-component law where lock Θ is not the expanding medium's own expansion
+  · Production full-3D instrument only if it still obeys continuity: class bound survives; if it does not obey continuity, that non-conserving form must be stocked and named first
+  · NOT: free κ,γ dial (kappa,gamma rescaling does not break continuity identity)
+
+[F] Grade
+  CLASS 0D continuity bound     = CLASS-BOUND (formalized + numeric-checked)
+  S1_settled ≳ Θ_lock           = MISSING_INPUT (still)
+  package grade                 = OPEN-BLOCKED
+  COMPLETE                      = 0
+  production_3d                 = False
+  page_curve_claimed            = False
+  exit 0 ≠ PASS
+
+SUMMARY_JSON
+{
+  "package": "desk_t1_settled_theta_class_20260804",
+  "prior_settled": "settled_late_theta_20260804",
+  "prior_gpe": "n3_gpe_late_theta_20260804",
+  "Theta_lock": 11.706237653490552,
+  "c_s": 0.14795964842319909,
+  "alpha": 0.0072973525205055605,
+  "H_kin_over_H_door_at_Theta1": 0.08542454284633638,
+  "script_sha256": "df1aa1ce0311430ff5cde225497ace10e9e2ebec0610605426dd3bd30757a530",
+  "dt": 0.001,
+  "class_bound_table": [
+    {
+      "delta_t": 1.0,
+      "Theta_lock": 11.706237653490552,
+      "ln_n_drop": 11.706237653490552,
+      "n_ratio_n1_over_n2": 121326.1500714698,
+      "log10_n_ratio": 5.083954416759018
+    },
+    {
+      "delta_t": 5.0,
+      "Theta_lock": 11.706237653490552,
+      "ln_n_drop": 58.53118826745276,
+      "n_ratio_n1_over_n2": 2.628887998714661e+25,
+      "log10_n_ratio": 25.41977208379509
+    },
+    {
+      "delta_t": 8.0,
+      "Theta_lock": 11.706237653490552,
+      "ln_n_drop": 93.64990122792442,
+      "n_ratio_n1_over_n2": 4.694997161884454e+40,
+      "log10_n_ratio": 40.67163533407214
+    },
+    {
+      "delta_t": 9.7,
+      "Theta_lock": 11.706237653490552,
+      "ln_n_drop": 113.55050523885835,
+      "n_ratio_n1_over_n2": 2.0623284956605355e+49,
+      "log10_n_ratio": 49.31435784256247
+    },
+    {
+      "delta_t": 10.0,
+      "Theta_lock": 11.706237653490552,
+      "ln_n_drop": 117.06237653490552,
+      "n_ratio_n1_over_n2": 6.911052109785974e+50,
+      "log10_n_ratio": 50.83954416759018
+    },
+    {
+      "delta_t": 20.0,
+      "Theta_lock": 11.706237653490552,
+      "ln_n_drop": 234.12475306981105,
+      "n_ratio_n1_over_n2": 4.776264126417717e+101,
+      "log10_n_ratio": 101.67908833518035
+    },
+    {
+      "delta_t": 40.0,
+      "Theta_lock": 11.706237653490552,
+      "ln_n_drop": 468.2495061396221,
+      "n_ratio_n1_over_n2": 2.2812699005304796e+203,
+      "log10_n_ratio": 203.3581766703607
+    }
+  ],
+  "headline_bound_delta_t_10": {
+    "delta_t": 10.0,
+    "n_ratio_n1_over_n2": 6.911052109785974e+50,
+    "log10_n_ratio": 50.83954416759018,
+    "note": "~10^50 density drop required for settled mean = Theta_lock"
+  },
+  "headline_bound_delta_t_9_7": {
+    "delta_t": 9.7,
+    "n_ratio_n1_over_n2": 2.0623284956605355e+49,
+    "log10_n_ratio": 49.31435784256247
+  },
+  "identity_checks_se40": [
+    {
+      "ok": true,
+      "n0": 3.0,
+      "Theta0": -1.0,
+      "kappa": 1.0,
+      "gamma": 0.05,
+      "settle_extra": 40.0,
+      "dt": 0.001,
+      "t_end": 48.45999999997776,
+      "turned": 1.0,
+      "hit_cap": 0.0,
+      "window": "last_20pct_of_full_history",
+      "t1": 38.76900000000035,
+      "t2": 48.45999999997776,
+      "delta_t": 9.690999999977414,
+      "n1": 1.3232117308208422,
+      "n2": 0.8670459106508392,
+      "n_ratio_n1_over_n2": 1.5261149548904356,
+      "settled_mean_Theta": 0.04358232247341028,
+      "settled_std_Theta": 0.184318558127807,
+      "Theta_from_logn_identity": 0.04362039633523504,
+      "identity_rel_err": 0.0008728453893941864,
+      "late_tail10": 0.06741266892470117,
+      "late_tail20": 0.04358232247341028,
+      "n_ratio_required_for_lock": 1.8561037693371793e+49,
+      "log10_n_ratio_required_for_lock": 49.268602252696816,
+      "quality_ok": 1.0,
+      "Hkin_Hdoor_settled": 0.0037229999734726855,
+      "label": "argmax_quality_se40"
+    },
+    {
+      "ok": true,
+      "n0": 6.0,
+      "Theta0": -2.0,
+      "kappa": 1.5,
+      "gamma": 0.15,
+      "settle_extra": 40.0,
+      "dt": 0.001,
+      "t_end": 48.25499999997824,
+      "turned": 1.0,
+      "hit_cap": 0.0,
+      "window": "last_20pct_of_full_history",
+      "t1": 38.60500000000073,
+      "t2": 48.25499999997824,
+      "delta_t": 9.64999999997751,
+      "n1": 0.953615894013415,
+      "n2": 0.9881110881810855,
+      "n_ratio_n1_over_n2": 0.9650897610802351,
+      "settled_mean_Theta": -0.0036797908419654644,
+      "settled_std_Theta": 0.0314984096856832,
+      "Theta_from_logn_identity": -0.003682296922855901,
+      "identity_rel_err": 0.0006805754513932108,
+      "late_tail10": -0.0031683223357696264,
+      "late_tail20": -0.0036797908419654644,
+      "n_ratio_required_for_lock": 1.148577016473171e+49,
+      "log10_n_ratio_required_for_lock": 49.06016012161018,
+      "quality_ok": 1.0,
+      "Hkin_Hdoor_settled": 0.00031434445044503504,
+      "label": "stocked_default_se40"
+    },
+    {
+      "ok": true,
+      "n0": 80.0,
+      "Theta0": -8.0,
+      "kappa": 3.0,
+      "gamma": 0.02,
+      "settle_extra": 40.0,
+      "dt": 0.001,
+      "t_end": 48.03499999997875,
+      "turned": 1.0,
+      "hit_cap": 0.0,
+      "window": "last_20pct_of_full_history",
+      "t1": 38.42900000000114,
+      "t2": 48.03499999997875,
+      "delta_t": 9.605999999977612,
+      "n1": 0.6190695174272532,
+      "n2": 1.0780896548636238,
+      "n_ratio_n1_over_n2": 0.5742282329066262,
+      "settled_mean_Theta": -0.05822090318752115,
+      "settled_std_Theta": 1.0994221936908095,
+      "Theta_from_logn_identity": -0.05774810986767086,
+      "identity_rel_err": 0.008120679927061454,
+      "late_tail10": 0.16219794539181273,
+      "late_tail20": -0.05822090318752115,
+      "n_ratio_required_for_lock": 6.8622435436854e+48,
+      "log10_n_ratio_required_for_lock": 48.83646612727331,
+      "quality_ok": 0.0,
+      "Hkin_Hdoor_settled": 0.0049734940388948025,
+      "label": "prior_F5_best_late_se40"
+    },
+    {
+      "ok": true,
+      "n0": 6.0,
+      "Theta0": -2.0,
+      "kappa": 1.0,
+      "gamma": 0.02,
+      "settle_extra": 40.0,
+      "dt": 0.001,
+      "t_end": 48.380999999977945,
+      "turned": 1.0,
+      "hit_cap": 0.0,
+      "window": "last_20pct_of_full_history",
+      "t1": 38.70600000000049,
+      "t2": 48.380999999977945,
+      "delta_t": 9.674999999977452,
+      "n1": 2.0344167940576443,
+      "n2": 0.7312289587386888,
+      "n_ratio_n1_over_n2": 2.7821884920515867,
+      "settled_mean_Theta": 0.10560011708111182,
+      "settled_std_Theta": 0.4718166308232392,
+      "Theta_from_logn_identity": 0.10576101760833971,
+      "identity_rel_err": 0.0015213594844912322,
+      "late_tail10": 0.17110004778087953,
+      "late_tail20": 0.10560011708111182,
+      "n_ratio_required_for_lock": 1.5390721587718242e+49,
+      "log10_n_ratio_required_for_lock": 49.187258982028865,
+      "quality_ok": 0.0,
+      "Hkin_Hdoor_settled": 0.009020841726173574,
+      "label": "argmax_all_physical_se40"
+    }
+  ],
+  "max_identity_rel_err": 0.008120679927061454,
+  "prior_max_quality_settled": 0.04358232247341028,
+  "this_run_argmax_quality_settled": 0.04358232247341028,
+  "argmax_quality_n_ratio_window": 1.5261149548904356,
+  "argmax_quality_pct_n_drop": 34.47413664380262,
+  "analytic": {
+    "stocked_0d": {
+      "equations": [
+        "dn/dt = -n*Theta",
+        "dTheta/dt = -Theta^2 + kappa*(n-1) - gamma*Theta"
+      ],
+      "identity": "Theta = -d(ln n)/dt  (exact, any kappa,gamma,IC)",
+      "window_mean": "mean_Theta[t1,t2] = (ln n(t1) - ln n(t2)) / (t2-t1)",
+      "unique_physical_FP": {
+        "n": 1.0,
+        "Theta": 0.0
+      },
+      "local_stability": "gamma>0, kappa>0 \u21d2 Re(lambda)=-gamma/2 (underdamped branch of legal grid)",
+      "class_bound": "Any finite window with mean_Theta = Theta_lock requires n(t1)/n(t2) = exp(Theta_lock * Delta_t). For Delta_t~10 this is ~10^50. Free kappa,gamma and grid densification cannot evade the identity.",
+      "settled_attractor": "Under stocked form with gamma>0, trajectories approach (1,0); finite-window positive residuals are leftover density drift, not a nonzero late attractor."
+    },
+    "stocked_gpe": {
+      "continuity": "partial_t n + div(n v) = 0",
+      "Theta_definition": "Theta = div v  (Madelung / continuum expansion)",
+      "mass_weighted_identity": "On mass-conserving domains, d/dt \u222b n ln n = -\u222b n Theta \u21d2 mass-weighted <Theta>_n = -(1/M) d/dt \u222b n ln n. Window-mean mass-weighted expansion is a mass-weighted log-density drop.",
+      "does_gpe_change_class": "NO for settled mean under stocked 1D/2D/sph instruments: prior late/settled \u226a lock (1D late 0.0265, 2D late 0.035, sph unclean O(0.01)); continuity still prices any large positive window-mean expansion as huge mass-weighted log-n drop. production_3d remains false / not stocked.",
+      "prior_stamps": {
+        "1d_late": 0.0265,
+        "1d_settled": 0.0015,
+        "2d_late": 0.0346,
+        "2d_settled": 0.0391,
+        "0d_max_late": 2.870069874888626,
+        "0d_max_settled": 0.1143,
+        "spherical": "unclean energy; late O(10^-2) negative; not S1-quotable"
+      }
+    },
+    "what_breaks_class": {
+      "not_free_dial": "kappa,gamma rescaling does not break continuity identity",
+      "new_instruments": [
+        "Continuity-breaking medium source/sink (dn/dt \u2260 -n Theta) with named legal form",
+        "Lock metric redefinition (N2 match-book) so S1 is not window-mean expansion",
+        "Named multi-component law where lock \u0398 is not the expanding medium's own expansion",
+        "Production full-3D instrument only if it still obeys continuity: class bound survives; if it does not obey continuity, that non-conserving form must be stocked and named first"
+      ],
+      "not_claimed_here": "No new instrument invented in this package"
+    }
+  },
+  "gpe_class_conclusion_changed": false,
+  "gpe_note": "Stocked 1D/2D/sph mass-weighted late/settled remain \u226a lock; continuity prices large window-mean expansion as log-density drop. production_3d=false.",
+  "Theta_lock_reached_S1_settled": false,
+  "S1_status": "MISSING_INPUT",
+  "class_partial": "CLASS-BOUND",
+  "grade": "OPEN-BLOCKED",
+  "COMPLETE": 0,
+  "production_3d": false,
+  "page_curve_claimed": false,
+  "note": "CLASS-BOUND under stocked continuity (0D exact; GPE mass-weighted analog). Not S1 land. Not production 3D. exit0\u2260PASS. COMPLETE=0."
+}
+
+ASSERTS OK — CLASS n-drop bound formalized; S1 still MISSING_INPUT; COMPLETE=0.

@@ -5,11 +5,11 @@
 > **Grade honesty:** **registered external bet** (P-2026-048); literature gap **interpretation** — not a lattice result.
 > **Not claimed:** computed T_c/√σ; DE digit precision; ordinary 1–3% lattice as a score either way.
 > **Authority:** claims ledger this file; arXivReady `lattice-tc-gap`; [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
-> **Currency:** **WATCH-EXTERNAL** lattice computation; discrimination needs σ ≲ 0.22%.
+> **Currency:** **WATCH-EXTERNAL** lattice computation. Live falsifier is **clause 4** (window kill / neighbour inference). Crown-vs-null discrimination (clauses 2/3) is **not executable** at present cosmological precision — the limit is the sky’s ρ_Λ error, not lattice effort. **0.22% framing withdrawn** (P-2026-048).
 
 *Approved for circulation (owner, 2026-07-18).*
 
-**Audience grade.** This note states a **pre-registered bet** (P-2026-048) on an external lattice measurement — not a result. Discrimination needs σ ≲ 0.22%; ordinary 1–3% determinations score neither way. The program’s T_c = 177.10 keV (τ = ½ln2) is the **derived** lepton-side anchor behind 0.34657; 0.34506 is the null that would show cosmology read back. ρ_Λ chain is an **existence claim, not precision**.
+**Audience grade.** This note states a **pre-registered bet** (P-2026-048) on an external lattice measurement — not a result. The program’s T_c = 177.10 keV (τ = ½ln2) is the **derived** lepton-side anchor behind 0.34657; 0.34506 is the null that would show cosmology read back. Those two sit only ~0.44% apart under ρ_Λ’s ±0.449% band, so even a σ=0 lattice separates them by only ~0.98σ — **clauses 2/3 are sky-limited, not lattice-limited**. Ordinary 1–3% determinations score neither way on the crown/null fork. **What remains fully executable is clause 4** (τ̂ outside the prediction window; neighbour inference 0.39±0.05 sits above). ρ_Λ chain is an **existence claim, not precision**.
 
 ## The computation
 
@@ -89,18 +89,21 @@ distinguishes two hypotheses that sit **0.44% apart**:
 | **the program's prediction** | **0.34657** (= ½ln2, from an independent lepton-sector identity) | the prediction is sourced |
 | the null | 0.34506 | the program is reading a cosmological observation back, and predicts nothing |
 
-So a determination carrying **σ > 0.44% cannot distinguish them and is registered in advance as
-scoring neither way** — which, given that published T_c/√σ determinations typically carry 1–3%, is
-the expected outcome of a standard-precision calculation. **Discrimination needs σ ≲ 0.22%.**
+So a determination carrying **σ > 0.44% cannot distinguish crown from null** — and, more sharply,
+**even σ = 0 cannot** at present cosmological precision: the null inherits ρ_Λ’s error and
+contains the prediction at its upper edge (~0.98σ separation at σ_lattice=0). **Claiming that
+σ ≲ 0.22% lattice precision would settle the crown/null fork is withdrawn** (P-2026-048 registry
+text; sky limit, not lattice effort).
 
-Two clauses are executable at ordinary precision and remain live: a determination outside
-**[0.330, 0.370]** falsifies the program's dark-energy sector outright, and the best current
-inference from measured neighbours (the N_f = 2 anchors above plus the SU(3) flavour-dependence) is
-**0.39 ± 0.05**, centred *above* the bet — so the falsification clause is genuinely at risk.
+**What remains fully executable at ordinary precision is clause 4:** a determination outside
+**[0.330, 0.370]** falsifies the program's dark-energy sector outright without needing the
+observation-inverted null. The best current inference from measured neighbours (the N_f = 2
+anchors above plus the SU(3) flavour-dependence) is **0.39 ± 0.05**, centred *above* the bet —
+so the falsification clause is genuinely at risk.
 
 Whatever one thinks of the underlying model, the epistemic situation is unusual: a falsifiable,
-pre-committed number waiting on a computation the field can do with existing tools, with the
-precision it would take to settle it stated in advance rather than negotiated afterwards.
+pre-committed number waiting on a computation the field can do with existing tools, with
+**executable vs sky-gated clauses stated in advance** rather than negotiated afterwards.
 
 ## Contact / provenance
 
@@ -128,9 +131,9 @@ Karavirta et al., arXiv:1111.4104; arXiv:1511.01968.
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Well-posed lattice gap: T_c/√σ for SU(2) N_f=3 light fundamentals | **interpretation** / literature | literature sweep 2026-07 | No published N_f=3 light result |
-| 2 | Pre-registered bet T_c/√σ = 0.34657 (½ln2) vs null 0.34506 | **registered null** / bet | P-2026-048 | Discrimination needs σ ≲ 0.22% |
-| 3 | Ordinary 1–3% lattice scores neither way | **honest constraint** | §precision | Expected outcome of standard precision |
-| 4 | Determination outside [0.330, 0.370] falsifies DE sector | **registered kill** | §clauses | Live risk: neighbor inference 0.39±0.05 |
+| 2 | Pre-registered bet T_c/√σ = 0.34657 (½ln2) vs null 0.34506 | **registered null** / bet | P-2026-048 | Crown/null fork **sky-limited** (clauses 2/3 not executable); 0.22% framing withdrawn |
+| 3 | Ordinary 1–3% lattice scores neither way on crown/null | **honest constraint** | §precision | Expected; sky limit stronger than ordinary lattice error |
+| 4 | Determination outside [0.330, 0.370] falsifies DE sector | **registered kill** · **live** | §clauses / clause 4 | Neighbor inference 0.39±0.05 above window |
 | 5 | Discretization choice (staggered rooting vs Wilson) is part of computation | **honest constraint** | §discretization | Not settled here |
 | 6 | This note is not a lattice result | **meta** | banner | External computation owed |
 

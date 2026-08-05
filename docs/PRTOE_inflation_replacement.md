@@ -86,7 +86,8 @@ shot-noise O(1) resolving far from unity (the count itself has been computed and
 
 **Stamp:** OPEN-THEORY honesty. Model **addresses** inflation’s problem list; it does **not** claim those problems are solved. Horizon/seeds ride **OPEN-BLOCKED** bounce. Tilt = computed **candidate**, not closed derivation. Soft “answers / jewel” language already demoted (shelf residual pass).  
 **Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (bounce residual parent; no invented H_re).  
-**Parents:** [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md); [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).
+**Parents:** [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md); [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).  
+**Currency (2026-08-05):** Horizon/seeds **OPEN-BLOCKED** on bounce (ride classical turn). Not solved. Bounce exhaust: [bounce_cluster_exhaust/MASTER.md](working_logs/_runs/theory_exhaust_20260805/desk/bounce_cluster_exhaust/MASTER.md); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

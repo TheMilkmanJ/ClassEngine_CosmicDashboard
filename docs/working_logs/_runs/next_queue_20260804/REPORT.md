@@ -55,7 +55,7 @@
 
 | # | Residual | Who | Disk truth |
 |---:|---|---|---|
-| 1 | bbnfix H₀ / pair | **Machine** | lcdm R−1 **0.086466**@N=20409 (was 0.059 — **receding** 1.73×) / dyad **0.128943**@N=20302; both `converged: false`; **NOT bookable** |
+| 1 | bbnfix H₀ / pair | **Machine** | lcdm R−1 **0.071122**@N=21886 (was 0.086466@N=20409; earlier 0.059 — **1.42×**) / dyad **0.128943**@N=20302; both `converged: false`; **NOT bookable** |
 | 2 | Fairbank / arXiv / BBN ε DOI | **Owner** | 5 READY + 1 SHIPPED; HOLD; ε external **PENDING (no DOI)** |
 | 3 | Page Q6 / CANDIDATE | **Theory (D4)** | champion **coevolve_v13**; T8 early **0.113** (need ≤0.10); claim **false** |
 | 4 | Bounce \(H_\mathrm{re}>0\) | Theory | OPEN-BLOCKED |

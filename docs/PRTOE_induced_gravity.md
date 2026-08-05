@@ -6,7 +6,9 @@
 **PRTOE = Theory of Expansion**, not a Theory of Everything.
 **Page curve OPEN** (`page_curve_claimed: false`). **Goal B residuals OPEN** (absolute SI \(G\),
 nonlinear Einstein continuum, Page dynamics). Honesty stamp 2026-08-04:
-[qg_goalB_honesty_20260804/REPORT.md](working_logs/_runs/qg_goalB_honesty_20260804/REPORT.md).*
+[qg_goalB_honesty_20260804/REPORT.md](working_logs/_runs/qg_goalB_honesty_20260804/REPORT.md).
+**Absolute SI \(G\) remains OPEN** — str[k₁]=0 finiteness is paid separately and is **not** an SI-\(G\) value.
+Exhaust (T-X3): [`working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md`](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md).*
 **Full QG hub (ontology, dead ends, Page program, Q1–Q7):**  
 [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md)  
 *(shelf-promoted 2026-08-03 for Goal A expansion attach; Page curve OPEN; not TOE; Goal B residuals OPEN).*
@@ -109,7 +111,7 @@ Both sides carry \(N/\varepsilon^2\) identically, so species count and cutoff ca
 | Residual | Status on thin attach |
 |---|---|
 | Page dynamics (Q6) | **OPEN** — live only on full hub + Page instruments; `page_curve_claimed: false` |
-| Absolute SI \(G\) | **OPEN** — mass-scale half (ρ*/portal/lattice); closed-form \(1/G\) under str[k₁]=0 is finiteness, not SI prediction |
+| Absolute SI \(G\) | **OPEN** (permanent under stocked desk) — mass-scale half (ρ*/portal/lattice); closed-form \(1/G\) under str[k₁]=0 is finiteness, not SI prediction · exhaust T-X3 |
 | Nonlinear continuum Einstein | **OPEN-THEORY** — not claimed on expansion attach |
 
 Goal A outsider check (re-run 2026-08-04): `python3 scripts/quantum_area_law_quarter.py` → **PASS**.  
@@ -204,7 +206,7 @@ stays **false**.
 | Residual | Grade | Evidence path | Blocks Goal A? | **Forbidden to claim** |
 |---|---|---|---|---|
 | Dynamical Page curve (Q6) | **OPEN** | full hub Q6; scaffold only; `page_curve_claimed: false` | **No** | Page closed; coefficient = curve |
-| Absolute SI \(G\) | **OPEN** | §5.6; failures ledger G-closure; supertrace ≠ value | **No** | SI \(G\) derived from supertrace alone |
+| Absolute SI \(G\) | **OPEN** | §5.6; failures ledger G-closure; supertrace ≠ value; exhaust T-X3 | **No** | SI \(G\) derived from supertrace alone |
 | Nonlinear continuum Einstein | **OPEN-THEORY** | full hub §4 nonlinear row; not paid here | **No** | full nonlinear Einstein continuum closed |
 | Dark roster lattice (P-2026-048) | **candidate** | full hub §5.2; lattice \(T_c/\sqrt{\sigma}\) | Named | lattice paid without ensemble |
 | Conformal Higgs \(\xi_H=1/6\) | **named condition** | §5.3 | Finiteness conditional | finiteness unconditional |

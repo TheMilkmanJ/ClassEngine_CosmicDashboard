@@ -1,5 +1,11 @@
 # machine_r1_currency_20260804c — REPORT
 
+> **Currency note (routeD forward):** living forward routeD numbers superseded by
+> [`../machine_r1_currency_20260804d/`](../machine_r1_currency_20260804d/) —
+> routeD R−1 now **4.941933**@N=3290 (was 102.794555@N=1609 — **improving**, still early ~**49.4×** stop).
+> bbnfix pair stamps in this package (lcdm 0.086466 / dyad 0.128943) remain current as of 20260804d.
+> This package remains a valid historical stamp of routeD ~102.79 / N=1609 as then-current.
+
 **Worker:** Grok Build (RED EVENT A2-REVERSAL living-doc currency cure)  
 **Package:** `docs/working_logs/_runs/machine_r1_currency_20260804c/`  
 **Rules:** NO FABRICATIONS · leave live MCMCs alone · no kill · no restart · no PolyChord · no peek-book H₀ · no H₀ book · **Book still REFUSED**  

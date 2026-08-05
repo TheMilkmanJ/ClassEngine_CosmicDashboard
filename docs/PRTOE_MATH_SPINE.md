@@ -49,15 +49,15 @@ PRTOE_me_mechanism_math.md (electron-mass sector detail), PRTOE_cyclic_torus_gen
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dCDF fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[**measured** via the onset clock. **The "three independent ways" wording is withdrawn
-(2026-07-28, circularity sweep, check 34)** and the three legs now read: **(1) ξ is circular** —
+[**measured** via the onset clock. **Mass grade: the onset clock, plus at most one unresolved
+consistency check.** Candidate legs: **(1) ξ is circular** —
 ξ ≡ ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is itself computed from m, so 398
 against 402 compares two computations from the same input, differing by rounding. No measurement of
 the coherence length exists. **(2) the Schive core radius is unresolved but may be real** — the
 external relation goes as 1/m and the model's own as 1/m², so they intersect at one m only and
 agreement *would* pin it, provided the model's normalization was not set from this comparison
 (provenance not established). **(3) the superradiance window** returns 7.14 pc / its recorded
-6×10⁸–3×10⁹ M☉ — **and that third one is support and exposure in the same object**: the band is
+6×10⁸–3×10⁹ M☉ — **exposure, not support**: the band is
 populated and carries high measured spins,
 and the model brings no defence there, the λ-quench margin computed at its own quartic and mass
 being −83.7 to −85.8 decades across α_g = 0.1–0.5, so P-2026-034 stands or falls on the spin
@@ -65,8 +65,8 @@ measurements alone. Under the onset clock T_on = √(m·M_red/0.61) this mass si
 **z_on = 4.03×10⁷ (log₁₀ 7.605)**, which is the value `include/background.h` carries as the derived
 identity and which five of the six production configs set. *(The free-z_on optimizer lands at
 log₁₀ z = 7.5517, which implies m = 1.75×10⁻²⁰ — 22%
-**below**, a mass that misses all three checks above by ~28%. The grade stands on the three
-independent uses, not on that landing.)*
+**below** the onset-clock mass. The grade stands on the onset clock and the unresolved Schive
+check, not on that landing.)*
 The route "derived from ε via c(m) = (m/m₀)^{1/4} at c = 1" belongs to the
 f_amp decomposition, not this one — in the standing decomposition ε = c·f̄·α_c the mass never
 touches the census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through
@@ -213,9 +213,8 @@ Code: `dcdf_z_rad_onset` (background.h, with the derived-identity comment). *(Fi
 configs — `conv`, `conv_desi`, `dyad`, `lepton`, `nulink` — set this identity value. The `_fixed`
 family, including the running evidence job, is frozen at 3.5619×10⁷ instead: 0.053 dex low, which
 under this same clock corresponds to m = 1.75×10⁻²⁰ eV rather than 2.24×10⁻²⁰. The mass is
-committed across its three independent uses — the onset clock, the galactic cores, the
-superradiance band (§0's provenance walk) — so it cannot retreat, the identity is the
-model's value and the frozen setting is a profiled offset — see
+fixed by the onset clock (plus at most one unresolved Schive consistency check; §0's provenance
+walk), so the identity is the model's value and the frozen setting is a profiled offset — see
 `ForJustin/07-zon-two-values.md`.)*
 
 **Two jobs, one clock:** the ending regime reaches its floor (conformal
@@ -704,9 +703,8 @@ the physics has none.**
 
 ## 9\. Ledger (what this spine rests on)
 
-**Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, the mass
-committed across its three independent uses — the onset clock, the galactic cores, the
-superradiance band — per §0's provenance walk); **the
+**Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, mass fixed
+by the onset clock plus at most one unresolved consistency check — per §0's provenance walk); **the
 electron-coupled scalar's onset is T_c = 177.10 keV from the lepton-mass relation's τ = ½ln2** —
 the value's source is the confining chiral ratio, not the electron loop, whose predecessor
 *configuration* (the CW VEV at ≈ 175 keV) §4 retires

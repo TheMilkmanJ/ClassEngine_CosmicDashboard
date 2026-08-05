@@ -12,7 +12,7 @@ directory holding exactly the files arXiv receives, a tarball of that directory,
 | [`neutrino-mbb/`](neutrino-mbb/) | hep-ph | 3 | **No.** Its input is stated as a hypothesis. | TeX package ready. External gate: hep-ph endorsement. |
 | [`radio-lattice/`](radio-lattice/) | astro-ph.CO, astro-ph.IM | 7 | **Motivated by it, does not rest on it.** | TeX package ready. External gate: astro-ph endorsement. |
 | [`lattice-tc-gap/`](lattice-tc-gap/) | hep-lat | 2 | **No** as a gap note. Optional transparency stake demoted to end paragraph. | TeX package ready; **red-team pass 2026-08-02**. External gate: hep-lat endorsement. |
-| [`bbn-eps-bound/`](bbn-eps-bound/) | astro-ph.CO | 3 | **No.** ε and T_c free; Aver Y_p bound only. | TeX package ready; **red-team pass 2026-08-02**. External gate: astro-ph endorsement. Dense ε_max(T_c) curve still UNVERIFIED. |
+| [`bbn-eps-bound/`](bbn-eps-bound/) | astro-ph.CO | 3 | **No.** ε and T_c free; Aver Y_p bound only. | TeX package ready; **red-team pass 2026-08-02**. Dual stamp (reconfirm 2026-08-04T18:14Z): **ARITHMETIC VERIFIED (internal)** 3.196%≈3.20% · **EXTERNAL WIN PENDING (no DOI)**. External gate: astro-ph endorsement (or Zenodo). Dense ε_max(T_c) curve still UNVERIFIED. |
 | [`kination-tracking-note/`](kination-tracking-note/) | gr-qc | 2 | **No.** Classical charged scalar + conserved $Q$. | **Draft package 2026-08-02** from `docs/PRTOE_MATH_SPINE.md` §7. External gate: gr-qc endorsement. |
 | [`fairbank-0nubb/`](fairbank-0nubb/) | — | — | — | **NOT_READY** — README only. Duplicate of neutrino-mbb; do not invent TeX. |
 
