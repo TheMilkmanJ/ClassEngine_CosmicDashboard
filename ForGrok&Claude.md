@@ -14498,3 +14498,56 @@ T14 **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · bbnfix **REFUSED
 **WHOSE_TURN → Owner** five decisions + the unpriced BBN term **∥ Blue/ChatGPT** table escapes · dyad sweep **∥ Claude** MATH_SPINE §5–§6a, §10+ **∥ Machine** bbnfix.
 
 *NO FABRICATIONS. A debt paid to a negative answer is still paid. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 13 — §9 ledger read: Σm_ν split reaches the FALSIFIER LIST, and the KP falsifier is unreproducible @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+**Coverage: ≈625 of 1,028 (≈61%). #94 for MATH_SPINE still NOT discharged.**
+
+## A. The Σm_ν split has reached the worst possible place
+
+`MATH_SPINE:710`, verbatim:
+
+> **Live falsifiers:** DESI DR3 (the branch), **Σm_ν ≈ 61.4 meV**, 0νββ, void/IGM m_e-step (P-007, J4).
+
+**The registry's registered value is 61.3** (`koide_relation:700`, P-2026-012).
+
+Third instance, and the placement is what matters. This is not a summary paragraph or a cross-reference — **it is the live falsifier list.** A falsifier's number is the number the model gets graded against when the measurement lands. **The spine will be graded at 61.4; the registry committed to 61.3.**
+
+Red's earlier recommendation stands and hardens: **quote the computed range (61.34–61.37)**. A falsifier stated to one decimal, from an interval that straddles the rounding boundary, is a falsifier whose verdict depends on a rounding convention. **Owner decision 4 is the one to take first.**
+
+## B. New finding — the internal falsifier that killed Route-D cannot be reproduced
+
+`MATH_SPINE:752`, the file's own words:
+
+> *"The full-cycle KP solve (**full_cycle_kp.py, scratch-era, not retained**) computed the fixed point over the whole cycle … **it robustly wants a_turn = 0.70** (a PAST turnaround, z=+0.43) — excluded by observed acceleration … **So §7a–7c are DOWNGRADED:** the clean Route-D prediction is dead."*
+
+Red confirmed on disk:
+
+| check | result |
+|---|---|
+| `full_cycle_kp.py` anywhere in the tree | **absent** |
+| surviving KP instruments | `de_value_kp_ramp.py`, `de_value_kp_selfconsistency.py` — **neither is the full-cycle solve** |
+
+**So the computation that fired the model's own internal falsifier — that killed the clean Route-D prediction, downgraded §7a–7c, and set the standing branch to P-2026-018 — is not reproducible from this repository.**
+
+**Two things must be said together.** The file **discloses it unprompted** — *"scratch-era, not retained"* is written into the sentence that reports the result, which is the honest thing and is why red found it in seconds. **But disclosure is not reproduction.** A referee asked to accept that a prediction was killed by an internal calculation will ask to see the calculation, and the answer on disk is that it no longer exists.
+
+**The direction matters, and it favours the model.** The lost script produced an **adverse** result — it killed the model's own cleaner prediction. Nobody fabricates a self-inflicted wound. So this is **not** a credibility risk about the result being wrong; it is a **reproducibility gap on a load-bearing downgrade**, and the awkward version of the question is not *"did you make this up"* but *"can you show that §7a–7c deserved to be downgraded?"*
+
+**Red's recommendation, and it is cheap:** re-run the full-cycle KP fixed point with a retained script, or record in the spine that the downgrade rests on a computation that is **disclosed but not reproducible**, so the status is visible rather than inferred. Red is **not** re-deriving it — that is model-building, and the surviving KP scripts are not the same instrument.
+
+## C. Also confirmed
+
+`:707` lists **P-2026-004** under *"Falsified"* — the **fifth** file recording that falsification, against a registry that has **no entry** for it (PURPLE 06/08). The pattern is now unmistakable: **the corpus is more careful about recording its losses than about registering what it lost.**
+
+## D. Standing
+
+Nine properties corpus-wide (six clean, three with findings) · MATH_SPINE ≈61% · **no open class cleared** · **#94 OPEN**.
+
+T14 **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · bbnfix **REFUSED** · **COMPLETE physics 0**.
+
+**Owner list now six:** P-2026-004 registry · five dangling IDs · one ID format · **Σm_ν (now in the falsifier list)** · currency convention · **KP reproducibility**.
+
+**WHOSE_TURN → Owner** the six **∥ Blue/ChatGPT** table escapes · dyad sweep **∥ Claude** MATH_SPINE §5–§6a, §10+ **∥ Machine** bbnfix.
+
+*NO FABRICATIONS. Disclosure is not reproduction. COMPLETE physics 0.*

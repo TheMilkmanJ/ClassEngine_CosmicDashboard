@@ -19,17 +19,11 @@ This lane controls whether the desk may quote **booked** live-pair:
 
 ## Authority run
 
-Re-ran the only booking entrypoint on **Wednesday, August 5, 2026**:
+Latest booking artifact on disk from `python3 scripts/book_bbnfix_when_ready.py`:
 
-```bash
-python3 scripts/book_bbnfix_when_ready.py
-```
+- `docs/working_logs/_runs/bbnfix_booking_20260805_222942/REPORT.md`
 
-Output artifact written by the script:
-
-- `docs/working_logs/_runs/bbnfix_booking_20260805_213558/REPORT.md`
-
-The script result was:
+The script result there is:
 
 - `REFUSED — booking blocked (gate closed).`
 
@@ -45,13 +39,16 @@ The gate is:
 
 | leg | N | progress R−1 | timestamp | checkpoint `converged` | gate state |
 |---|---:|---:|---|---|---|
-| `dyad_mnu_bbnfix` | 24677 | `0.056889` | `2026-08-05T07:54:30.476447` | `false` | **FAIL** |
+| `dyad_mnu_bbnfix` | 26135 | `0.060201` | `2026-08-05T15:50:02.745947` | `false` | **FAIL** |
 | `cmp_lcdm_mnu_bbnfix` | 26294 | `0.049324` | `2026-08-05T11:52:10.194879` | `true` | PASS |
 
 `dyad_mnu_bbnfix` fails twice:
 
 1. `R−1` is still above the bar
 2. the sampler has not self-stopped
+
+`dyad_mnu_bbnfix` moved **away** from the bar from `0.056889 @ N=24677` earlier the same day to
+`0.060201 @ N=26135`.
 
 So the lane is blocked by the **dyad** leg alone.
 
