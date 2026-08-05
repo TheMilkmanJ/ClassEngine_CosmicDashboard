@@ -16,11 +16,9 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> The recorded T4 thread, consolidated. **The conv_desi chain is not running and its posterior is
-> unproduced** (corrected 2026-07-29; this line previously read "is refining the posterior now").
-> The chain died twice, at initialisation on 07-16 and again on 07-22, and nothing of it survives on
-> the box but a seed covariance — restarting it is an owner decision. The companion file had carried
-> this correction since 2026-07-28; this one had not. Residual freeze reconfirmed **2026-08-04**.
+> The recorded T4 thread, consolidated. **`conv_desi` is not running; its S₈ posterior is unproduced.**
+> On disk it holds a single chain file last written **2026-07-22** (seed covariance only); restarting
+> it is an owner decision. Residual freeze reconfirmed **2026-08-04**.
 > *Companion: the conversion-channel standalone, [PRTOE_s8_growth.md](PRTOE_s8_growth.md).*
 
 ## 0. The tension
@@ -50,16 +48,11 @@ The minimizer picks g = 0.12 → **S₈ = 0.821**, and the production joint fit 
 fit** — the rare right-sign pair. ΛCDM sits at S₈ ≈ 0.833 with H₀ = 68.2 — 1.6σ above the
 consensus and wrong on H₀ too; the model's value is twice as close to the consensus as
 ΛCDM's. (A matched lensing-likelihood fit — DES/KiDS proper, not the S₈ point — stays owed
-before any tension-easing claim upgrades.) The conv_desi chain was to deliver the posterior —
-**but it is not running, corrected 2026-07-28.** It holds a single chain file last written
-**2026-07-22**, at R−1 = 13.25, which is nowhere near converged. *(That R−1 is a within-chain
-split-R̂ — a single chain is split into four segments — so it is a real number but blind to
-confinement in one basin; noted 2026-07-29 because elsewhere the corpus wrongly said a one-chain run
-yields no statistic at all.)* Three runs are live on the box as of 2026-08-04 — the bbnfix pair
-and route-D — and **none is conv_desi**. Live progress: lcdm R−1=**0.071122**@N=21886 (**1.42×** stop) / dyad R−1=**0.072286**@N=21867 t=2026-08-04T13:32:11 /
-routeD R−1=**4.941933**@N=3290 (still early ~**49.4×** stop); all `converged:false` (see `PRTOE_CHAIN_TABLES.md`). This chain has now died twice (it was found dead at initialisation on
-2026-07-16, relaunched, and stopped again), so **the S₈ posterior is not pending — it
-is unproduced**, and restarting it is an owner decision. The
+before any tension-easing claim upgrades.) The `conv_desi` chain was to deliver the posterior — **it is not running.** It holds a single
+chain file last written **2026-07-22**, at within-chain split-R̂ R−1 = 13.25 (a real number, but
+blind to confinement in one basin). Live production on the box is the bbnfix pair and route-D —
+**none is conv_desi**. Live progress (see `PRTOE_CHAIN_TABLES.md` for currency): bookable **no**.
+**The S₈ posterior is unproduced**, and restarting `conv_desi` is an owner decision. The
 firewalled derivation candidate g = 10ε = 54α/π (the machines' table,
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)) awaits its mechanism.
 

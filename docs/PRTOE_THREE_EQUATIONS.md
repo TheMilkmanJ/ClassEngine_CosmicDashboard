@@ -14,7 +14,7 @@ and ρ_Λ¼ lands on the observed dark-energy scale. That path starts from Q, a 
 
 Treat this as an **existence** claim, not a precision one. The chain gives 2.2599 meV vs observed 2.25, but the composite quartic maps to λ = 26–46, and the radiative correction on ρ_Λ¼ is bounded at **0.10–0.90%** — comparable to the gap itself ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge re-examination).
 
-The price is one hypothesis: charged-lepton √m are thermally populated (what Q = 2/3 says — variance of √m equals mean squared, the Boltzmann second moment, holding to 18 ppm). The referee is one lattice number: T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative job the radiative band needs. **0.34657 crowns the kernel and the dark-energy prediction together; 0.34506 kills both.**
+The price is one hypothesis: charged-lepton √m are thermally populated (what Q = 2/3 says — variance of √m equals mean squared, the Boltzmann second moment, holding to 18 ppm). The referee is one lattice number: T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative job the radiative band needs. Ideal point-values: **0.34657 crowns; 0.34506 would kill** — but under living P-048 that crown/null fork is **sky-limited** (even σ=0 ~0.98σ under present ρ_Λ error); **live falsifier is clause 4** (τ̂ outside [0.330, 0.370]).
 
 Claim conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full derivation: [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). Map: [PRTOE_INDEX.md](PRTOE_INDEX.md).
 

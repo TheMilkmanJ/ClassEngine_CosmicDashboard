@@ -405,12 +405,11 @@ Weinberg check), same tier as c-threshold-matching. But now WELL-POSED: compute 
  coincidence** -- testable (Σm_ν), but with NO working causal mechanism (census blocks
  the direct coupling, the amplification rescue failed the toy, Weinberg looms, and it's
  m_ν-agnostic anyway). Keep P-012 as a falsifiable coincidence; drop all causal claims.
-- **c is DERIVED, and not by threshold matching.** **c = 9/10** — a counting fraction (N−1)/N over
- the universal charged-fermion roster: 9 charged species plus the vacuum's own seat
- ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)). *(This entry formerly demoted "c~1 derived" to "c~1
- NATURAL" and booked the exact value as owed via UV threshold matching. That debt does not exist:
- the census closed it, and the UV route's own c = 1 candidate is dead —
- [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).)*
+- **c is a counting fraction, data-checked.** **c = 9/10** — (N−1)/N over the universal
+ charged-fermion roster: 9 charged species plus the vacuum's own seat
+ ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md)). Standing grade: **counting assumption** the
+ ε-blind ensemble checks (not a UV-threshold-matching debt; the UV c = 1 candidate is dead —
+ [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md)).
 - **Floor mechanism:** ghost-condensate stability is a REAL risk (the toy showed the runaway),
  not a footnote.
 - **Meta:** the DE/neutrino superstructure is speculation-heavy; the honest state is
@@ -1486,23 +1485,32 @@ that computation lands.
 > **What remains fully executable is clause 4**, which needs no comparison to H_observation: it asks
 > only whether τ̂ lands in a window fixed by the prediction alone. The best inference from measured
 > neighbours, 0.39 ± 0.05, sits **above** that window, so the falsification clause is live and the
-> claim is genuinely at risk.
+> claim is genuinely at risk. **Living decision language (currency):** live falsifier = **clause 4**;
+> crown-vs-null clauses 2/3 are **sky-limited** (not lattice-limited) — even σ_lattice = 0 is only
+> ~0.98σ separation under present ρ_Λ error, so no lattice CONFIRM/KILL on the 0.44% gap alone
+> (see [PRTOE_lattice_note.md](PRTOE_lattice_note.md), READERS_RISK (j)).
 >
 > **The decision rule**, for a determination of T_c/√σ for SU(2), N_f = 3 reporting τ̂ ± σ:
 >
-> 1. **σ > 0.0015 (0.44%): INCONCLUSIVE — no score either way, whatever τ̂ is.** Published T_c/√σ
->    determinations typically carry 1–3%, so **this is the expected outcome**, declared in advance so
->    it cannot be argued around afterwards.
-> 2. **σ ≤ 0.0008 (0.22%) and τ̂ consistent with 0.34657 while excluding 0.34506 at ≥2σ: CONFIRMS.**
-> 3. **σ ≤ 0.0008 and τ̂ consistent with 0.34506 while excluding 0.34657 at ≥2σ:** the kernel τ is
->    not sourced; the flagship reverts to a structural relation with an un-derived input and the
->    +0.44% is withdrawn.
-> 4. **τ̂ outside [0.330, 0.370] at ≥3σ: the dark-energy sector is falsified**, regardless of
->    precision.
+> 1. **σ > 0.0015 (0.44%) — and ordinary published 1–3% determinations: INCONCLUSIVE** on the
+>    crown/null fork — no score either way, whatever τ̂ is. **This is the expected outcome**, declared
+>    in advance so it cannot be argued around afterwards.
+> 2. **Historical (sky-limited; not currently executable):** σ ≤ 0.0008 (0.22%) and τ̂ consistent with
+>    0.34657 while excluding 0.34506 at ≥2σ — would CONFIRM *if* the null were a point. **Living
+>    currency:** not executable at present cosmological precision; do **not** book a lattice CONFIRM
+>    on this clause alone.
+> 3. **Historical (sky-limited; not currently executable):** σ ≤ 0.0008 and τ̂ consistent with 0.34506
+>    while excluding 0.34657 at ≥2σ — would show the kernel τ un-sourced *if* the null were a point.
+>    **Living currency:** same sky limit; do **not** score a living crown/null kill on lattice
+>    precision alone. (Requires ρ_Λ measured several times better, or a restated null that does not
+>    inherit the observed dark-energy density.)
+> 4. **Live and fully executable:** τ̂ outside **[0.330, 0.370]** at ≥3σ: the dark-energy sector is
+>    falsified, regardless of precision and without H_observation. Neighbour inference 0.39 ± 0.05
+>    sits above that window — genuine risk.
 >
-> **The price, owned:** the likeliest outcome — a 1–3% determination — scores as **nothing at all**.
-> A test that cannot fail is not evidence, and an unrunnable test owned is worth more than a
-> confirmation the instrument could not deliver.
+> **The price, owned:** the likeliest outcome — a 1–3% determination — scores as **nothing at all** on
+> the crown/null fork. Clause 4 can still kill. A test that cannot fail is not evidence; an unrunnable
+> crown/null owned is worth more than a confirmation the sky could not deliver.
 
 **The claim.** The dark confining sector is **SU(2) with exactly three light Dirac flavours in
 the fundamental** — and its finite-temperature ratio of chiral/deconfinement temperature to
@@ -1626,12 +1634,12 @@ pure glue 0.63):
 
 | quantity | value |
 |---|---|
-| the sourced **τ = 0.34657** sits at | **m_π/√σ ≈ 0.308** (fraction 0.97 from chiral toward physical) *(recomputed 2026-07-17 on the row's own anchors — chiral 0.300 at m_π/√σ = 0, physical 0.352 at 0.318; the row previously read 0.274, computed at the retired τ = 0.345)* |
+| the sourced **τ = 0.34657** sits at | **m_π/√σ ≈ 0.308** (fraction 0.97 from chiral toward physical; anchors: chiral 0.300 at m_π/√σ = 0, physical 0.352 at 0.318) |
 | Columbia N_f = 3 first-order corner ends at | m_π/√σ ≈ **0.06–0.16** |
-| margin | **above it by 1.9–5.1×** (recomputed on the corrected m_π/√σ = 0.308 against the Columbia corner 0.06–0.16) |
+| margin | **above it by 1.9–5.1×** (on m_π/√σ = 0.308 against Columbia corner 0.06–0.16) |
 
 **The transition is a CROSSOVER, not first-order — τ and the depth law are compatible, and the
-coded order-parameter birth ramp is correct after all.** The value τ (0.345 as used in this row; **0.34657** sourced) *is* the
+coded order-parameter birth ramp is correct.** The sourced value **τ = 0.34657** *is* the
 physical-analog point, and physical QCD is a crossover; the first-order corner is a chiral-limit
 feature this sector does not sit in. **What the squeeze buys instead of a kill: it pins a number the
 model never had** — **m_π,dark ≈ 140 keV** and, via GMOR, **m_q,dark ≈ 38 keV**.
@@ -1647,13 +1655,15 @@ number (kill 1) remains the entry's decisive test.
 
 ## P-2026-050: The dark-ages 21-cm frequency offset (registered 2026-07-18)
 
-**The prediction:** in unvirialized gas (Θ = 1 — the bare value), every m_e-keyed rest frequency
-runs **+2.509% high** (dln ν_hf/dln m_e = 2, with ε = 1.2543%). The astrophysics-free channel is
-the **dark-ages absorption trough** (z ≈ 85–90 — pure linear physics, no stars): the standard
-trough at 15.8–16.5 MHz moves to 16.2–16.9 MHz — a **+0.40 MHz offset** that cannot be absorbed
-into astrophysics or star-formation timing. Instrument class: lunar farside (LuSEE-Night /
-FarView). The cosmic-dawn trough (78.0 → 79.96 MHz, +1.96 MHz) is the astrophysics-degenerate
-companion — a consistency channel only, stated as such.
+**The prediction:** in unvirialized gas (**Θ ≈ 0** — single-stream, bare m_e; multi-stream
+halos sit at Θ = ½ / laboratory value under m_e = m_bare(1 + κ_Θ·Θ) with
+κ_Θ = −2ε/(1+ε)), every m_e-keyed rest frequency runs **+2.509% high** (dln ν_hf/dln m_e = 2,
+with ε = 1.2543%). The astrophysics-free channel is the **dark-ages absorption trough**
+(z ≈ 85–90 — pure linear physics, no stars): the standard trough at 15.8–16.5 MHz moves to
+16.2–16.9 MHz — a **+0.40 MHz offset** that cannot be absorbed into astrophysics or
+star-formation timing. Instrument class: lunar farside (LuSEE-Night / FarView). The cosmic-dawn
+trough (78.0 → 79.96 MHz, +1.96 MHz) is the astrophysics-degenerate companion — a consistency
+channel only, stated as such.
 
 **Grades:** the offset — derived, chain-free (two exact factors: the hyperfine's m_e² scaling and
 the recorded ε); the standard trough position — literature (linear physics); the channel
@@ -1663,23 +1673,6 @@ separation (dark ages clean vs cosmic dawn degenerate) — standard.
 (±0.1 MHz-class precision makes the 0.40 MHz offset a 4σ-class discriminant) kills the ε
 mechanism's dark-ages arm outright; (ii) an offset at a value inconsistent with +2.5% (the
 mechanism's own arithmetic allows no other number); (iii) inherits every kill of ε itself.
-
-> **LABEL CORRECTION ONLY — the numbers stand, 2026-07-29.** The parenthetical above should read
-> **Θ ≈ 0**, not Θ = 1. Per `docs/exploratory/PRTOE_me_trigger.md` §3, *"Θ ≡ multi-stream
-> interference present ≡ granules on. Single-stream (voids, pre-collapse): no granules, m_e bare.
-> Multi-stream (halos, folded filaments): granules on, m_e lab."* The coupling is
-> m_e = m_bare(1 + κ_Θ·Θ) with **κ_Θ = −2ε/(1+ε) = −2.478%**, so **the bare value sits at Θ = 0 and
-> the laboratory value at Θ = ½** — the identity 1 + κ_Θ/2 = 1/(1+ε) holds to machine precision,
-> because κ_Θ was defined to make it hold. Unvirialized gas is single-stream, hence Θ ≈ 0, hence the
-> **full** ε. **+2.509%, +0.40 MHz and +1.96 MHz are all correct as registered.**
->
-> *Withdrawn the same day it was raised:* an annotation here claimed a factor-2 fork between Θ = 1
-> and ⟨Θ⟩ = ½ and escalated it as an owner decision. That was my error — it assumed the shift is
-> ε·Θ, when the coupling is κ_Θ·Θ with κ_Θ negative and calibrated to put developed speckle *on* the
-> lab value. Nothing halves; the uniqueness claim in kill (ii) is reinstated. Two independent checks
-> confirm the reading: the exact lab identity above, and the corpus's own residual-laminar slope
-> 0.384%·f, which reproduces from the same κ_Θ. Instrument:
-> `scripts/theta_coupling_resolved.py`, 13 controls including two anti-controls, all passing.
 
 
 ## P-2026-051: The Koide deviation lock (registered 2026-07-18)
@@ -1873,17 +1866,15 @@ the other side and the adjudication rule together, so that whichever branch the 
 losing one is on the record as having been at risk.
 
 **Timing, stated plainly.** The chain that decides this (`cmp_prtoe_routeD` — thaw free on the
-CMB+BAO+SN joint stack) was sampling as this was written and had produced no convergence
-statistic. Nothing below is informed by its posterior.
+CMB+BAO+SN joint stack) is the internal instrument; DESI DR3 is the external adjudicator.
+Nothing registered above is informed by a finished posterior.
 
-**Chain status (2026-07-28).** It still has not. The run stopped on 2026-07-20 at 21:39 with
-**363 accepted samples from 11,508 steps** — a 3.2% acceptance — and its progress file carries
-only a header, so no convergence statistic was ever computed. Two earlier attempts are archived
-beside it, one recorded as collapsed and one as a diagonal-seed retry, making this the third to
-stall. The entry's pre-hoc standing is unaffected: what is registered above was fixed before any
-posterior existed, and none exists now. What is affected is the timetable — **the adjudication is
-waiting on a chain that has failed three times**, and on the single-core host it runs at roughly
-thirty accepted samples an hour, so a converged posterior is not weeks away but months.
+**Chain status (live 2026-08-05).** `cmp_prtoe_routeD` is **running** on **three MPI ranks**
+(covariance narrowed to the winning basin). Progress: **R−1 ≈ 0.705291** at **N ≈ 6517**
+(t=2026-08-05T04:07:15; ~**7.05×** its 0.1 stop; `converged: false`; multi progress rows).
+Earlier stopped launches are archived beside the chain. The entry's pre-hoc standing is
+unaffected: what is registered above was fixed before any posterior existed. Live stamps:
+[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
 **The two branches, and they exhaust the model.**
 
@@ -1962,19 +1953,11 @@ solve, once by the data — and settles the branch without waiting for DR3.
 background, and the third outcome is fatal to both. Route-D's *window* is toy-grade in its O(1)
 factors and is stated as a band, not a point; P-2026-018's side carries no freedom at all. What is
 being registered is the adjudication, and it was registered **before** its adjudicator reported —
-which is the point of the timestamp and is unaffected by what follows. **Status of that adjudicator,
-added 2026-07-28, corrected 2026-07-29:** the internal one was not running. `cmp_prtoe_routeD` then
-held a single chain file last written 2026-07-20, so the model's own chains could not grade this
-branch. *(The reason first given here — that "a one-chain run yields no convergence statistic however
-long it runs" — is **false** and has been corrected in the math spine §7. A single chain is split
-into `Rminus1_single_split` segments, default 4, and does yield a within-chain split-R̂; two other
-single-chain runs on this box recorded one. The correct objection is that a split-R̂ compares
-segments of one trajectory and so **cannot detect confinement to a single basin**, which is exactly
-the failure mode at issue — it produces a number blind to the thing being tested.)* The chain has
-since been **relaunched with two ranks** (2026-07-28 22:51, healthy at 21–24% acceptance, burning
-in), so a genuine between-chain R−1 is now obtainable. **DESI DR3 is the external adjudicator and is
-unaffected** — the registration stands, and the pre-commitment is not weakened by the internal
-chain's state.
+which is the point of the timestamp and is unaffected by what follows. **Internal adjudicator status:**
+a one-chain split-R̂ cannot detect confinement to a single basin (see math spine §7); multi-chain
+Route-D production is the standing instrument for between-chain R−1 (see `PRTOE_CHAIN_TABLES.md`).
+**DESI DR3 is the external adjudicator and is unaffected** — the registration stands, and the
+pre-commitment is not weakened by the internal chain's state.
 
 ## P-2026-057: The cross-sector sign lock — the Koide phase and the magnetic helicity are one genesis draw (registered 2026-07-20, conditional)
 

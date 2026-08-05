@@ -47,14 +47,14 @@ Booking: `nothing graded (no ring / no verdict frame)` — no ring either branch
 | branch | t | H | Tw | Wr | ampA | n_cand | margin_ok |
 |---|---:|---:|---:|---:|---:|---:|---|
 | n+1_f+1 | 1 | 1.933 | 0 | -0.06686 | 1.696 | 5 | True |
-| n+1_f-1 | 0.25 | 2 | 0 | 0 | 0.001224 | **2 censored** | True |
+| n+1_f-1 | 0.25 | 2 | 0 | 0 | 0.001224 | **2 censored** | False |
 | n-1_f+1 | 1 | -1.993 | -4.441e-16 | 0.007137 | 1.418 | 5 | True |
-| n-1_f-1 | 0.25 | -2 | 0 | 0 | 0.0008654 | **2 censored** | True |
+| n-1_f-1 | 0.25 | -2 | 0 | 0 | 0.0008654 | **2 censored** | False |
 
-Mirror residual (1,1)↔(−1,−1): 3.4%
-Mirror residual (1,−1)↔(−1,1): 0.3575%
-mirror_ok: True
+Mirror residual (1,1)↔(−1,−1): —%
+Mirror residual (1,−1)↔(−1,1): —%
+mirror_ok: False
 any_instrument_censored: True
 production_auto_eligible: False
 
-*Auto-filled from `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/four_branch/summary.json` + console n_cand. Verify before booking.*
+*Auto-filled from `docs/working_logs/_runs/t14_i6_prod_20260804_230225/four_branch/summary.json` + console n_cand. Verify before booking.*

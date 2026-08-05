@@ -30,8 +30,10 @@
 > the control-edge re-examination in
 > [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)), waiting on one scattering
 > amplitude rather than on these ensembles.
-> A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
-> 0.34506 shows the model reading the sky back, and kills both.
+> Ideal point-values: 0.34657 crowns the kernel with the dark-energy prediction; 0.34506 would show
+> the model reading the sky back. **Living P-048 currency:** that crown/null fork is **sky-limited**
+> (even σ=0 lattice ~0.98σ under present ρ_Λ error). **Live falsifier is clause 4** — τ̂ outside
+> [0.330, 0.370] — not a lattice CONFIRM of the 0.44% gap alone.
 
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Residual freezes and ordered open work: [working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md](working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md), [working_logs/_runs/next_queue_20260804/](working_logs/_runs/next_queue_20260804/).*
@@ -153,7 +155,7 @@ running instrument:
 > product. Substituting α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical
 > to 4×10⁻¹⁹):
 >
-> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — a +0.44% OFFSET, i.e. ~1.8σ on the observational error** *(2026-07-28: the theory side carries no free parameter, so the 0.44% is a discrepancy rather than a tolerance; ρ_Λ¼ inherits ~0.25% from Ω_Λ's ~1%. The claim is that the chain lands on the right SCALE, not on the value — the quartic sits past perturbative control, so the digits are not a precision claim — head of this file)*
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — a +0.44% OFFSET** *(theory side carries no free parameter; the 0.44% is a scale-landing discrepancy, not a precision claim — the quartic sits past perturbative control. Observational error on ρ_Λ¼ is ~±0.449% when Ω_Λ and h² are combined — ~0.98σ separation from the observation-inverted null 0.34506 in τ-space; see REFEREE_CALENDAR / P-2026-048. Do not use ~0.25%/1.8σ from Ω_Λ alone.)*
 >
 > | factor | owner | why |
 > |---|---|---|
@@ -351,38 +353,21 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > sections below record the mechanism as it was worked out; the addendum records what happened to
 > it.
 >
-> **Current state (2026-08-02): Route-D runs on its fifth launch — and the "single decider"
-> retraction stands, for a reason that has nothing to do with whether a chain is on the box.**
-> The 2026-07-29 two-rank relaunch proved to be in a proposal deadlock (the learn gate at 100
-> against R−1 in the thousands); fixing the gate and rebuilding the covariance lifted acceptance
-> from 6% to 21–25%, but the ranks remained basin-split, so a further relaunch (2026-08-01)
-> narrowed the covariance to the winning chain's basin and went to **three MPI ranks**. It is in
-> burn-in; the two stopped runs are archived beside the chain with their diagnoses. **What does
-> not change:** the clean Route-D prediction was killed by the full-cycle KP solve analytically,
-> so no chain was ever the single decider — see the addendum, where that phrase has now actually
-> been removed from the sentence carrying it.
+> **Current state (2026-08-05):** `cmp_prtoe_routeD` runs on **three MPI ranks** (covariance
+> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.705291** at **N ≈ 6517**
+> (t=2026-08-05T04:07:15; ~**7.05×** its 0.1 stop; `converged: false`) — see
+> `PRTOE_CHAIN_TABLES.md`. Stopped predecessors are archived beside the chain with their diagnoses.
+> **What does not change:** the clean Route-D prediction was killed by the full-cycle KP solve
+> analytically; the chain adjudicates only whether the surviving imminent-turn corner lives
+> (addendum below). DESI DR3 remains the external adjudicator.
 >
-> **Correction, 2026-07-28 (the state that prompted the retraction, kept for the record): there was
-> no running Route-D chain, and the one that had run could not have
-> decided anything.** This passage previously named it "the single decider". On the box,
-> `cmp_prtoe_routeD` holds **exactly one** chain file — 11,508 steps, 363 accepted (3.2%
-> acceptance), **last written 2026-07-20**, with a header-only progress file. The blocker is
-> structural rather than temporal — *though not in the way this passage first stated it (corrected
-> 2026-07-29).* It previously read: "the Gelman–Rubin statistic is a between-chain quantity, so a
-> one-chain run yields no convergence diagnostic **however long it runs**." **That is false.** When
-> only one process is running, the sampler splits the single chain into `Rminus1_single_split`
-> segments (default 4) and computes R−1 *across those segments* — a within-chain split-R̂. Other
-> single-chain runs on this box did record one (R−1 = 13.25 at N = 3744; R−1 = 40.36 at N = 832), so
-> the statistic is produced, and is comparable across them.
->
-> **The real objection is sharper, and it survives.** A split-R̂ compares segments of *one*
-> trajectory, so it **cannot detect a chain confined to a single basin** — every segment shares the
-> confinement. A between-chain R−1 can, because independently seeded chains would have to agree. The
-> failure mode that actually matters here is precisely multi-modality, so a one-chain run supplies a
-> number that is *blind to the thing being tested.* Deciding this fork from the model's own chains
-> therefore still requires a multi-chain relaunch — **which has since been done, three times over**:
-> the current run (2026-08-01) carries **three MPI ranks** on a covariance narrowed to the winning
-> chain's basin, in burn-in, with the two stopped predecessors archived beside it. The external
+> **Route-D multi-chain requirement.** A within-chain split-R̂ (segments of one trajectory) **cannot
+> detect a chain confined to a single basin** — every segment shares the confinement. A
+> between-chain R−1 can, because independently seeded chains would have to agree. The failure mode
+> that matters for this fork is multi-modality, so a one-chain run supplies a number *blind to the
+> thing being tested.* Deciding this fork from the model's own chains therefore requires a
+> multi-chain run — **which is the standing production setup**: three MPI ranks on a covariance
+> narrowed to the winning chain's basin (see `PRTOE_CHAIN_TABLES.md` for live R−1 / N). The external
 > adjudicator (DESI DR3) is unaffected and still decides the branch.
 
 **7a. The sequestered floor — a route that does not work.** A Kaloper–Padilla vacuum-sequestering
@@ -742,13 +727,12 @@ fork with a signature moves an unmeasurable quantity. That is a permanent grade 
 and it belongs beside c on the list of things the model counts on rather than derives.
 
 **Standing:** open pending the named referees, DESI-capped; the branch is registered
-(P-2026-056) with its guards discharged. Its adjudicating chain runs on its **fifth launch**
-(2026-08-01: three MPI ranks on a covariance narrowed to the winning chain's basin, in burn-in;
-the stopped predecessors are archived beside it with their diagnoses — §7 carries the history).
-Note the earlier gloss here — that a one-chain run "cannot
-yield a convergence statistic at all" — was **wrong and is corrected in §7**: a single chain does
-yield a within-chain split-R̂; what it cannot do is detect confinement to one basin, which is the
-failure mode at issue. **DESI DR3 remains the adjudicator and is unaffected.**
+(P-2026-056) with its guards discharged. Its adjudicating chain (`cmp_prtoe_routeD`) runs on
+**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.705291
+@ N ≈ 6517 (2026-08-05; see `PRTOE_CHAIN_TABLES.md`). A single chain does yield a within-chain
+split-R̂; what it cannot do is detect confinement to one basin, which is the failure mode at issue
+— that is why the multi-chain production setup is required (§7). **DESI DR3 remains the adjudicator
+and is unaffected.**
 
 *(Every debt on this page names where it is closed or what it waits on. Bare "open" is not a
 status: [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) resolves task numbers, and
@@ -771,11 +755,8 @@ The two kill switches MERGE, and the Route-D MCMC (thaw free on the DESI joint s
 analytically by the full-cycle KP solve, with no chain involved. What the chain still settles is
 whether the surviving imminent-turn corner lives: thaw pulled hard → corner lives; thaw \~ 0 →
 Route-D dead twice over, **P-2026-018 (w = −1 rigid) stands as the distinctive branch, and J1
-reverts to constitution/boundary-datum.** *(This sentence read "is the single decider" until
-2026-07-29. The §7 header has carried a correction saying it "previously named it 'the single
-decider'" since 2026-07-28 — but the correction was written at the head of §7 and never applied
-to this line down in the addendum, so the retracted phrase stood for a day beneath its own
-retraction.)*
+reverts to constitution/boundary-datum.** The chain is **not** the sole decider of the fork —
+the clean Route-D prediction was already killed analytically.
 §7d (the melt/re-form cycle closure) is unaffected as a phenomenological cycle picture. Held
 open. *(The turn's
 own timing follows from the surviving structure — the thaw plus the sector's negative bare

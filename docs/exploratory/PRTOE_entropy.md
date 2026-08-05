@@ -176,7 +176,7 @@ entropy floor entirely.
 [Penrose1979] (the Weyl curvature hypothesis), [Landau1941] (two-fluid components),
 [Bekenstein1973],[Hawking1975] (horizon entropy), [FrolovFursaevZelnikov1997] (the
 species-cancellation ratio), [Tolman1934] (cyclic entropy accumulation). Full list:
-[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
 
 ---
 

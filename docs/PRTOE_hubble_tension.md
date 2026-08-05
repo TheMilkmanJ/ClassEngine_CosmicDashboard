@@ -2,18 +2,18 @@
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Chains: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
-> ## Residual freeze — 2026-08-04 (H₀ letter **NOT bookable** until bbnfix gate)
+> ## Residual freeze — 2026-08-05 (H₀ letter **NOT bookable** until bbnfix gate)
 >
 > **Document job:** COMPLETE-CONDITIONAL — mechanism, owned residual, ladder ceiling, and
 > literature scoreboard are written. **Bookable H₀ / model−ΛCDM ΔlnZ from the live BBN-fixed
 > pair: NO.**
 >
-> **Live pair (progress authority; currency `machine_r1_currency_20260804e`):**
+> **Live pair (progress authority; booking refuse card `bbnfix_booking_20260805_170213`):**
 >
 > | leg | N | R−1 | t | converged |
 > |---|---:|---:|---|---|
-> | `dyad_mnu_bbnfix` | 21867 | **0.072286** (~1.45× stop) | 2026-08-04T13:32:11 | **false** |
-> | `cmp_lcdm_mnu_bbnfix` | 21886 | **0.071122** (**1.42×** stop) | 2026-08-04T13:01:13 | **false** |
+> | `dyad_mnu_bbnfix` | 24677 | **0.056889** (**1.14×** stop) | 2026-08-05T07:54:30 | **false** |
+> | `cmp_lcdm_mnu_bbnfix` | 24858 | **0.047912** (below stop, no self-stop) | 2026-08-05T04:55:58 | **false** |
 >
 > Quote R−1 with N and timestamp. **NOT bookable**.
 >
@@ -29,15 +29,14 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 > live pair and must not be silently replaced by unconverged peeks. Nested sampling remains
 > offline (PolyChord not running; not started by residual freezes).
 >
-> **What unblocks a bookable H₀ sentence:** leave MCMCs alone until both bbnfix legs
-> self-stop under the bar → run `book_bbnfix_when_ready.py` only → then (manual) refresh
-> this letter from the booking card. Do **not** use `bbnfix_delta_chi2_proxy.py` peeks as
-> Laplace ΔlnZ.
+> **What unblocks a bookable H₀ sentence:** both bbnfix legs self-stop under the bar → run
+> `book_bbnfix_when_ready.py` only → then (manual) refresh this letter from the booking card.
+> Do **not** use `bbnfix_delta_chi2_proxy.py` peeks as Laplace ΔlnZ.
 >
 > **Forbidden claims (until gate):** booked live-pair H₀ / Σm_ν / Δχ² / ΔlnZ; interim GetDist
 > tables as letter results; treating GR≈0.07/0.086 as the gate; leading with a win from peeks.
 
-**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Standing evidence number is **pre-bbnfix Laplace-from-MCMC** (ΔlnZ ≈ +2.6; SH0ES-conditional; **not** a live-pair result). Nested sampling waits on cluster time and is **not** running. Live bbnfix pair is **not bookable** (lcdm R−1 **0.071122**@N=21886 t=2026-08-04T13:01:13 — **1.42×** stop; dyad **0.072286**@N=21867 t=2026-08-04T13:32:11; both not self-stopped — residual freeze above). Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
+**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Standing evidence number is **pre-bbnfix Laplace-from-MCMC** (ΔlnZ ≈ +2.6; SH0ES-conditional; **not** a live-pair result). Nested sampling waits on cluster time and is **not** running. Live bbnfix pair is **not bookable** (lcdm R−1 **0.047912**@N=24858 t=2026-08-05T04:55:58 — below stop without self-stop; dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 — **1.14×** stop; both not self-stopped — residual freeze above). Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
 
 ---
 
@@ -112,19 +111,19 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 
 ---
 
-## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+## Claims ledger & discipline (2026-08-05 residual freeze) — above story-grade discipline
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | ε at recombination → H₀ ≈ 69.9 (fixed-ε; ~half SH0ES gap) | **machine-backed** provisional **pre-bbnfix** | production fit; CLASS | Stack conditional; YHe re-measure pending; **live bbnfix H₀ NOT bookable** (lcdm R−1=**0.071122**@N=21886 — **1.42×** stop; dyad 0.072286@N=21867; both not self-stopped) |
+| 1 | ε at recombination → H₀ ≈ 69.9 (fixed-ε; ~half SH0ES gap) | **machine-backed** provisional **pre-bbnfix** | production fit; CLASS | Stack conditional; YHe re-measure pending; **live bbnfix H₀ NOT bookable** (lcdm R−1=**0.047912**@N=24858 — below stop, no self-stop; dyad **0.056889**@N=24677 — **1.14×**; both not self-stopped) |
 | 2 | Ladder ceiling ~70.9–71.3; cannot reach 73 | **machine-backed** | H0_CEILING; ς = −1 | Residual tension owned |
 | 3 | ΔlnZ ≈ +2.6 Laplace evidence | **machine-backed** provisional **pre-bbnfix** | earlier MCMC Laplace | **OPEN-MACHINE:** **not** the live-pair result; nested offline; gate = both bbnfix R−1<0.05 **and** `converged:true` → `book_bbnfix_when_ready.py` only; peeks UNBOOKABLE |
 | 4 | ε stack c·f̄·α_c conditional | **complete-conditional** | THE_AMPLITUDE | α_c instrument not running |
 | 5 | EDE better residual tension (~2.5σ vs ~4.25σ class) | **interpretation** (literature scoreboard) | Schöneberg 2026 table | Model cheaper/falsifiable, not better-fitting; desk fairness paid (T11) |
 | 6 | SN candle term pushes ladder *down* (ς = −1) | **machine-backed** | 162-template scan | Real-SN synthetic photometry appeal open |
 | 7 | Kill: same ε on all messengers; DESI w; radio locks; He adverse | **registered** | §6 kill list | — |
-| 8 | Bookable BBN-fixed H₀ / model−ΛCDM ΔlnZ letter sentence | **OPEN-BLOCKED** | residual freeze 2026-08-04 | **OPEN-MACHINE:** wait self-stop; then `scripts/book_bbnfix_when_ready.py` |
+| 8 | Bookable BBN-fixed H₀ / model−ΛCDM ΔlnZ letter sentence | **OPEN-BLOCKED** | residual freeze 2026-08-05 | **OPEN-MACHINE:** wait self-stop; then `scripts/book_bbnfix_when_ready.py` |
 
 **Non-claims / forbidden:** not a closed H₀ win; not full SH0ES account; not nested-confirmed evidence; **no peek numbers as letter results**; pre-bbnfix ΔlnZ ≈ +2.6 is standing, not a live-pair booking.
 
-**Triage:** elevate-in-place. Physics ceiling: mechanism production-grade; live-pair evidence **OPEN-BLOCKED** (bbnfix gate: lcdm **0.071122**@N=21886 / dyad **0.072286**@N=21867 t=2026-08-04T13:32:11 / **NOT bookable**).
+**Triage:** elevate-in-place. Physics ceiling: mechanism production-grade; live-pair evidence **OPEN-BLOCKED** (bbnfix gate: lcdm **0.047912**@N=24858 / dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 / **NOT bookable**).

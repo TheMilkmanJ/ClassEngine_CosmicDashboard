@@ -2,15 +2,15 @@
 
 Map of the live shelf. Files under [`exploratory/`](exploratory/README.md) (moved 2026-07-28) are still there and still worked on; they are just not what an outside reader is pointed at first. Nothing was deleted.
 
-## Live status stamp (2026-08-04)
+## Live status stamp (2026-08-05)
 
-Currency only — not a physics COMPLETE. Sources: `CHAIN_TABLES` freeze, `page_full_freeze_20260804`, `debts_hardwins_full_20260804`, `STRONG_CP_SEAT_HUNT`. Package: [`working_logs/_runs/shelf_map_currency_20260804/`](working_logs/_runs/shelf_map_currency_20260804/).
+Currency only — not a physics COMPLETE. Sources: `CHAIN_TABLES` freeze, booking refuse card `bbnfix_booking_20260805_170213`, `page_full_freeze_20260804`, `STRONG_CP_SEAT_HUNT`. Package: [`working_logs/_runs/docs_full_check12_20260805/`](working_logs/_runs/docs_full_check12_20260805/).
 
 **Theory residual currency (2026-08-05).** Re-running exhausted stocked hunts (amplitude maps, suppression maps, Θ densify, match-book under stocked forms, N6-from-absence, Wilson invent, page densify, supertrace-as-\(G\)) is **closed as work**. Open theory remains **construction / MISSING_INPUT** (or machine / owner / external gates). Physics COMPLETE promotions this wave: **0**. Desk residual documentation filed for BBN ramp two-object re-price (docket #182) and for the \(a\)/\(c_w\) band (no stocked narrowing). Audit: [`working_logs/_runs/theory_exhaust_20260805/MASTER_REPORT.md`](working_logs/_runs/theory_exhaust_20260805/MASTER_REPORT.md) · [`working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md`](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
 
-| Object | Status 2026-08-04 | Must not claim |
+| Object | Status 2026-08-05 | Must not claim |
 |---|---|---|
-| **Production chains (bbnfix pair)** | **NOT bookable.** Progress: lcdm R−1 **0.071122** (N=21886, t=2026-08-04T13:01:13; **1.42×** stop), dyad R−1 **0.072286** (N=21867, t=2026-08-04T13:32:11); both `converged: false`. `book_bbnfix_when_ready.py` → **REFUSED**. GetDist GR ~0.086 / ~0.07 diagnostic only. Route-D live R−1 **4.941933**@N=3290 (~**49.4×** stop 0.1) — early, not dual-gate. Full table: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) · currency [`machine_r1_currency_20260804e`](working_logs/_runs/machine_r1_currency_20260804e/) | Booked H₀ / Σm_ν / S₈; peek-book; GR-as-gate |
+| **Production chains (bbnfix pair)** | **NOT bookable.** Progress: lcdm R−1 **0.047912** (N=24858, t=2026-08-05T04:55:58; **below** stop without self-stop), dyad R−1 **0.056889** (N=24677, t=2026-08-05T07:54:30; **1.14×** stop); both `converged: false`. `book_bbnfix_when_ready.py` → **REFUSED**. GetDist GR diagnostic only. Route-D live R−1 **0.705291**@N=6517 t=2026-08-05T04:07:15 (~**7.05×** stop 0.1) — not dual-gate. Full table: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) · refuse card [`bbnfix_booking_20260805_170213`](working_logs/_runs/bbnfix_booking_20260805_170213/) | Booked H₀ / Σm_ν / S₈; peek-book; GR-as-gate |
 | **BBN ε (2σ ceiling)** | **ARITHMETIC VERIFIED (internal)** — recompute **3.196%** ≈ paper **3.20%** PASS (`papers/bbn-eps-bound/`); **EXTERNAL WIN PENDING (no DOI)** | That this is a public external win, books posteriors, or closes bbnfix |
 | **Page curve / Q6** | **OPEN** — champion `coevolve_v13` joint near-miss; T8 range/S* = **0.113** (need ≤0.10) on **default offset-0 binning** (alternate phases can fail 2–3 bins, worst ~0.125 — does not lift pass); `page_curve_claimed: false`; no CANDIDATE; F1 ON. Freeze: [`page_full_freeze_20260804`](working_logs/_runs/page_full_freeze_20260804/REPORT.md) · qualifier: [`theory_residual_blue_20260805/PAGE_T8_BIN_PHASE_QUALIFIER.md`](working_logs/_runs/theory_residual_blue_20260805/PAGE_T8_BIN_PHASE_QUALIFIER.md) | Page closed; Q6 paid; CANDIDATE on v13 |
 | **Strong CP** | **COMPLETE-ABSTENTION** (θ̄ outside jurisdiction). Seat itch registered, not solved: [`STRONG_CP_SEAT_HUNT.md`](working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md) | θ̄ solution; reverse = Strong CP; axion replacement |
@@ -97,7 +97,7 @@ Engineering and process, not results.
 
 [math spine](PRTOE_MATH_SPINE.md) · [dependency tree](PRTOE_DEPENDENCY_TREE.md) ·
 [derivation hunt](PRTOE_DERIVATION_HUNT.md) · [referee calendar](PRTOE_REFEREE_CALENDAR.md) ·
-[domain coverage map](PRTOE_DOMAIN_COVERAGE.md) · [chain tables](PRTOE_CHAIN_TABLES.md) (live posteriors **NOT bookable** 2026-08-04) ·
+[domain coverage map](PRTOE_DOMAIN_COVERAGE.md) · [chain tables](PRTOE_CHAIN_TABLES.md) (live posteriors **NOT bookable** 2026-08-05) ·
 [reader’s guide](PRTOE_READERS_GUIDE.md) · [laws and rules](laws_and_rules/) · [working logs](working_logs/)
 
 **`#N` task numbers.** [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) maps each number to what it is and open/closed/waiting status. Reasoning lives in [`working_logs/_AUDIT_LEDGER.md`](working_logs/_AUDIT_LEDGER.md); kills in [`PRTOE_FAILURES_LEDGER.md`](PRTOE_FAILURES_LEDGER.md). Each claim’s own file is authority if they disagree.
@@ -126,11 +126,11 @@ A file here states the model as of its own date. Where a headline has moved, loo
 
 ---
 
-## Discipline triage (2026-08-04 currency)
+## Discipline triage (2026-08-05 currency)
 
 **Grade:** ledger/history — process record, not a physics derivation.
 **Discipline:** above story-grade *as a record* (append-only / living map discipline).
 **Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
 **Non-claims:** no physics COMPLETE from this file alone; **not** H₀ win; **not** Page closed; **not** bbnfix bookable.
-**Currency package:** `docs/working_logs/_runs/shelf_map_currency_20260804/`
+**Currency package:** `docs/working_logs/_runs/docs_full_check12_20260805/`
 **Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

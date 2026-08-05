@@ -196,7 +196,7 @@ theorem's setting).
 ## Sources
 Standard color algebra; [Nambu1974]/[Mandelstam1976]/['tHooft1981] (the dual
 superconductor); the internal chain: T6 (the kernel chase), P-2026-048/051. Full list:
-[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
 
 ## Where the dead ends live
 The two pure branches and the chase's ruled-out readings are recorded in T6's log; the

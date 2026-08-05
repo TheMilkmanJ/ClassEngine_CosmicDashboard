@@ -1,0 +1,2 @@
+=== stale chain / direction adjectives ===
+docs/PRTOE_cyclic_torus_genesis.md:114: (a dumb hole)** — "stuck at c = 1." The confinement the genesis needs is real and well defined.

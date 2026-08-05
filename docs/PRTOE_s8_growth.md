@@ -4,7 +4,7 @@
 >
 > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on posteriors.
 >
-> **Machine residual waiting:** (1) `cmp_prtoe_conv_desi` **unproduced** (died twice; last chain write 2026-07-22; progress R−1 = 13.25; not live). (2) Matched DES/KiDS lensing likelihood before any tension-easing claim. (3) routeD thaw is **live** (progress N=3290, R−1=**4.941933**; still early ~**49.4×** stop 0.1, `converged:false`) — not a substitute for conv_desi; not dual-gate.
+> **Machine residual waiting:** (1) `cmp_prtoe_conv_desi` **unproduced** (died twice; last chain write 2026-07-22; progress R−1 = 13.25; not live). (2) Matched DES/KiDS lensing likelihood before any tension-easing claim. (3) routeD thaw is **live** (progress N=6517, R−1=**0.705291** t=2026-08-05T04:07:15; ~**7.05×** stop 0.1, `converged:false`) — not a substitute for conv_desi; not dual-gate.
 >
 > **What unblocks:** owner restart of `conv_desi` (config/seed decision) → cobaya self-stop at yaml R−1 stop → GetDist booking of conv_g; separate lensing-likelihood campaign for published easing claim.
 >
@@ -63,15 +63,10 @@ is information; ΛCDM's position provides none.
 
 ## 4. Owed
 
-The chains' converged posteriors — **not running, corrected 2026-07-28.** `conv_desi` holds a
-single chain file last written **2026-07-22** at R−1 = 13.25. *(That figure is a within-chain
-split-R̂ — one chain cut into four segments — so it is a genuine number, but one that cannot detect
-confinement to a single basin; flagged 2026-07-29, since elsewhere the corpus wrongly stated a
-one-chain run yields no statistic at all.)* Three runs are live on the box as of 2026-08-04 —
-the bbnfix pair and route-D — and **none of them is conv_desi**. Live stamp (progress tails):
-lcdm R−1=**0.071122**@N=21886 (**1.42×** stop) / dyad R−1=**0.072286**@N=21867 t=2026-08-04T13:32:11 / routeD R−1=**4.941933**@N=3290 (still early ~**49.4×** stop) — all `converged:false`; bookable **no**
-(see `PRTOE_CHAIN_TABLES.md`). The chain has died twice (at initialisation on 07-16, then again on
-07-22), so **this posterior is unproduced rather than pending** and restarting it is an owner
+**`conv_desi` is not running.** It holds a single chain file last written **2026-07-22** at
+within-chain split-R̂ R−1 = 13.25 (real number, blind to single-basin confinement). Live production
+is the bbnfix pair and route-D — **none is conv_desi** (see `PRTOE_CHAIN_TABLES.md` for currency;
+bookable **no**). **This S₈/conversion posterior is unproduced**, and restarting is an owner
 decision. Also owed: a matched-lensing-likelihood fit (DES/KiDS proper,
 not just the S₈ point) before any tension-easing claim is recorded; the conversion's
 perturbation-sector treatment.
@@ -87,7 +82,7 @@ work that does exactly that — and the chain that would test it has not yet bee
 |---|---|---|---|---|
 | 1 | Conversion channel can ease late growth (mechanism) | **derived-from-recorded** / coded | CLASS dcdf_conv_*; §1 | DESI polices w(z) |
 | 2 | Production joint S₈ ≈ 0.823 (point, not matched lensing) | **machine-backed** provisional | §2 | Not a published tension win |
-| 3 | conv_desi / thaw posteriors | **OPEN-BLOCKED** | §4; freeze 2026-08-04 | **OPEN-MACHINE:** conv_desi unproduced; routeD live R−1=**4.941933** but still early |
+| 3 | conv_desi / thaw posteriors | **OPEN-BLOCKED** | §4; freeze 2026-08-05 | **OPEN-MACHINE:** conv_desi unproduced; routeD live R−1=**0.705291**@N=6517 (~7.05× stop) |
 | 4 | Matched DES/KiDS lensing likelihood | **OPEN-BLOCKED** | §4 owed | Required before tension-easing claim |
 | 5 | conv_g pre-registered ~0.10±0.05 | **registered** | configs | No interim value carries weight |
 

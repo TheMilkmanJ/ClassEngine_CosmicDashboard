@@ -172,7 +172,7 @@ files already point to:
 * [docs/working_logs/expansion_energy_ledger.md](../working_logs/expansion_energy_ledger.md) gives a compact-torus
   zero-net-energy constraint, so the bounce should be derivable from the medium's own energy balance,
   not from an external counterparty.
-* [`scripts/bounce_bkl_stiff_check.py`](../scripts/bounce_bkl_stiff_check.py) rules out the rotating condensate
+* [`scripts/bounce_bkl_stiff_check.py`](../../scripts/bounce_bkl_stiff_check.py) rules out the rotating condensate
   alone as the bounce engine: on the tracked solution `w = (n - 2)/(n + 2) <= 1`, and the field only
   freezes into kination at trans-Planckian amplitude. That is the second real clue: the bounce cannot be
   sourced from the rotating sector by itself.
@@ -188,13 +188,13 @@ good the white-hole analogy is. The live checklist is in
 
 ## Sources
 
-[Eardley1974], [HaggardRovelli2015], [RovelliVidotto2018], [ArkaniHamed2004] - full entries in [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) section 11.
+[Eardley1974], [HaggardRovelli2015], [RovelliVidotto2018], [ArkaniHamed2004] - full entries in [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md) section 11.
 
 Internal support:
 
 * [PRTOE_bigbang_no_singularity.md](../PRTOE_bigbang_no_singularity.md)
 * [PRTOE_cyclic_torus_genesis.md](../PRTOE_cyclic_torus_genesis.md)
-* [PRTOE_wormholes.md](exploratory/PRTOE_wormholes.md)
+* [PRTOE_wormholes.md](PRTOE_wormholes.md)
 * [working_logs/expansion_energy_ledger.md](../working_logs/expansion_energy_ledger.md)
 
 ---

@@ -440,11 +440,20 @@ def run_branch(G, n_wind: int, fountain_sign: int, out_dir: Path, null_mode: str
         result["dial_spread"] = spread
         result["dial_Hs"] = Hs
         H = verdict["H"]
-        margin_ok = bool(np.isfinite(H) and np.isfinite(spread)
-                         and abs(H) > MARGIN_FACTOR * spread)
+        ampA = float(verdict.get("ampA") or 0.0)
+        # Red R3: below helA floor (0.15) is not a measured ring — never margin pass
+        measured = ampA > 0.15
+        margin_ok = bool(
+            measured
+            and np.isfinite(H)
+            and np.isfinite(spread)
+            and abs(H) > MARGIN_FACTOR * spread
+        )
         result["margin_ok"] = margin_ok
+        result["not_measured"] = not measured
         print(f"  VERDICT {tag}: t={verdict['t']:.2f} H={H:+.4f} "
               f"spread={spread:.4f} margin_ok={margin_ok} "
+              f"ampA={ampA:.4f} measured={measured} "
               f"drift_phys={100*verdict['drift_phys']:.3f}%", flush=True)
     else:
         print(f"  NO VERDICT FRAME for {tag}", flush=True)

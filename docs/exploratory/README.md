@@ -111,8 +111,10 @@ The move broke markdown links in both directions. All of them have been rewritte
 - **7** references from `working_logs/` were repaired separately
 
 Both direction counts came in above the 58/125 estimated from the first survey, which had missed
-reference-style definitions. Acceptance test: all **883** local markdown links under `docs/` were
-resolved against the filesystem relative to their containing file. **Zero unresolved.**
+reference-style definitions. Depth errors from the move (e.g. `](BIBLIOGRAPHY.md)` or
+`](exploratory/…)` resolved from *inside* `exploratory/`, and `](../scripts/…)` one level short)
+were re-checked and fixed where found; do **not** claim a corpus-wide zero-unresolved link audit
+from this note alone.
 
 ## Contents
 

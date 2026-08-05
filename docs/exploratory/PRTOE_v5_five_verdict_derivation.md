@@ -5,12 +5,17 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
-**Status: COMPLETE (2026-07-07) — all five verdicts STAMPED (§3), the V4 step-walk
+**Status: document-job COMPLETE (2026-07-07) — all five verdicts STAMPED (§3), the V4 step-walk
 run and CLEARED (§4, the reviewer's registration recorded verbatim).** Binding: five
 separately-worked sections sharing one framework, each verdict's chain visible from
 assumption to number — built so a cold read can convict one step without acquitting the
 other four. The header's original working rule (verdicts stamped only when their section
 completes) was honored: every stamp below carries its chain.
+
+> **Exploratory / historical working docket — not living OEM claim authority.**  
+> “COMPLETE” here means the five-verdict derivation walk was stamped as a document job on
+> 2026-07-07, **not** a living-shelf physics COMPLETE promotion. Quote living residual grades from
+> shelf topic files / INDEX / honest_status, not from this stamp alone.
 
 ## 0. What this calculation decides (the load)
 

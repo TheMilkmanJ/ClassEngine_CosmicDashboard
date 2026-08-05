@@ -237,10 +237,11 @@ arithmetic between two candidate values of τ.
 
 τ = T_c/m_e with √σ_dark = m_e as the portal, so a lattice determination of **T_c/√σ for SU(2)
 with N_f = 3** measures τ directly. The two candidates sit **0.44% apart**, and that gap *is* the
-dark-energy claim: **a return at 0.34657 crowns the kernel; one at 0.34506 shows the model reading
-the sky back, and kills it** (P-2026-048's decision rule, whose inconclusive band is declared in
-advance — separating the two takes 0.22% precision). The same number then decides whether the
-lepton sector and the dark-energy scale are reading one temperature or two.
+dark-energy claim: ideal point-values **0.34657 / 0.34506** are the crown/null fork (P-2026-048).
+**Living currency:** that fork is **sky-limited** at present ρ_Λ precision (clauses 2/3 not
+executable; ~0.98σ even at σ_lattice=0); **clause 4** is the live falsifier. The same lattice
+campaign still decides whether the lepton sector and the dark-energy scale are reading one
+temperature or two — under those executable rules.
 
 ## What Q = 2/3 actually says: a thermal moment condition
 

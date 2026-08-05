@@ -1,6 +1,6 @@
 # Cosmological constant from vacuum occupancy
 
-**Audience grade (2026-07-30; R3-tau-lock 2026-08-03; exhaust currency 2026-08-05).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel under three conditions: **measured Q=2/3**, **√σ_dark=m_e pin**, and **e^(−τ) thermal-weight reading of the kernel modulus** (Parseval algebra; **not** the contradicted thermal *delivery* path — R2-koide (c); lattice P-048 tests the composite) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 (0.34657 crowns; 0.34506 kills). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). **Precision residual:** unitarized σσ amplitude at λ ~ 45.7 is **MISSING_INPUT** (calculation not stocked; no invented amp). Existence claim stands. Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Exhaust T-S4: [`working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md`](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md).
+**Audience grade (2026-07-30; R3-tau-lock 2026-08-03; exhaust currency 2026-08-05; P-048 clause-4 currency 2026-08-05).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel under three conditions: **measured Q=2/3**, **√σ_dark=m_e pin**, and **e^(−τ) thermal-weight reading of the kernel modulus** (Parseval algebra; **not** the contradicted thermal *delivery* path — R2-koide (c); lattice P-048 tests the composite) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 — **live falsifier = clause 4** (window); crown/null (0.34657 / 0.34506) is **sky-limited** (clauses 2/3 not executable; ~0.98σ even at σ_lattice=0). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). **Precision residual:** unitarized σσ amplitude at λ ~ 45.7 is **MISSING_INPUT** (calculation not stocked; no invented amp). Existence claim stands. Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Exhaust T-S4: [`working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md`](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md).
 
 ---
 
@@ -18,8 +18,10 @@
 > the observation gives τ = 2.25/((9/2)α⁴m_e) = **0.34506**, which returns 2.25 by construction — a
 > perfect match that predicts nothing. The kernel's 0.34657 sits 0.44% above that value, so the gap
 > between them is precisely what distinguishes a derivation from a back-solve. **A lattice T_c/√σ
-> for SU(2) with N_f = 3 decides it** (P-2026-048), and it must reach 0.22% precision to tell the
-> two apart — a demanding number, and nobody has computed it yet.
+> for SU(2) with N_f = 3 is the referee** (P-2026-048). Crown vs null (0.34657 vs 0.34506) is
+> **sky-limited** at present ρ_Λ precision (~0.98σ even at σ_lattice=0); clauses 2/3 are not
+> executable. **Clause 4** (τ̂ outside the fixed window) remains the live falsifier — and nobody
+> has computed the SU(2) N_f=3 number yet.
 >
 > And the claim is existence, not precision — the distinction is load-bearing and is made in full
 > at §4b. The gap above is a statement about *τ*, where it is exact arithmetic between two
@@ -121,8 +123,8 @@ the chain descends from Q, a lepton-mass fact measured to ten parts per million.
 The distinction that matters: inverting the observation gives 2.25/((9/2)α⁴m_e) = **0.34506**, which
 would make the chain run backward and return 2.25 by construction — a 0.0% match dressed as a
 prediction. The kernel's 0.34657 sits **0.44% above** that, and the gap *is* the prediction. A
-lattice T_c/√σ for SU(2), N_f = 3 decides it (P-2026-048), and must reach 0.22% precision to tell
-the two apart.
+lattice T_c/√σ for SU(2), N_f = 3 is the referee (P-2026-048). Crown/null discrimination is
+sky-limited (~0.98σ even at σ_lattice=0); the live falsifier is clause 4 (window kill).
 
 What is derived, and what is not. τ is not a free parameter. In the proposed **dark confining
 sector** — a "dark colour" force whose condensation *is* the electron-coupled scalar, with its
@@ -552,20 +554,20 @@ hard-sphere versus soft-sphere is what the 1.33% is made of.
 `scripts/lhy_control_edge_refuted.py` (7 controls) established the refutation; the numbers here are
 read straight from the published tables.
 
-#### Correction to the line above, same day: the 1.33% was an underestimate
+#### Potential-shape spread at model density (not the Table-II 1.33% alone)
 
-The potential-shape spread was quoted at na³ = 10⁻³ because that is where Table II sits. **It grows
-steeply with density**, so evaluating it below the model's range understates it:
+The potential-shape spread evaluated at na³ = 10⁻³ (where Table II sits) is **1.33% on ρ_Λ¼**.
+**It grows steeply with density**, so that figure understates the model's own density band:
 
 | na³ | potentials compared | spread in E | on ρ_Λ¼ |
 |---|---|---|---|
 | 10⁻⁵ | 4 | 0.31% | 0.08% |
 | 10⁻⁴ | 4 | 0.84% | 0.21% |
-| 10⁻³ | 3 | 5.31% | **1.33%** ← what was quoted |
+| 10⁻³ | 3 | 5.31% | **1.33%** (Table II density) |
 
 A log–log fit over those points gives slope 0.61, which extrapolated across the model's own
 na³ = 0.0019–0.0059 gives **2.0% to 4.0% on ρ_Λ¼**, not 1.33%. Combined in quadrature with the
-0.82% truncation error, the total is **≈2–4%**, not the ≈1.6% recorded above.
+0.82% truncation error, the total is **≈2–4%**, not the ≈1.6% obtained from the Table-II density alone.
 
 Two honest weaknesses in that extrapolation, both of which cut against leaning on it: the 10⁻³ row
 compares only **three** potentials because Table I has no 10⁻³ entry for hard spheres, so it is not

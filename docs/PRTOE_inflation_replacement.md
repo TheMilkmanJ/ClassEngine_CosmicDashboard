@@ -16,17 +16,19 @@ does so at the price of: an inflaton field with a tuned potential, the measure p
 and eternal-inflation's multiverse.
 
 ## 1. The model's answers, one per problem
-- **Horizon**: the universe is cyclic with a bounce (the CSW pressure floor discharges
- the singularity) — causal contact is inherited from the previous cycle. No superluminal
- trick needed; the sky is one temperature because it has always been one system.
+- **Horizon**: *if* the cyclic bounce holds (**OPEN-BLOCKED** on classical turn / exterior H_re;
+ floor number paid), causal contact is inherited from the previous cycle (CSW pressure floor
+ discharges the singularity). No superluminal trick needed; the sky is one temperature because
+ it has always been one system.
 - **Flatness/geometry**: the compact flat torus is the model's standing geometry (the omk
  run: curvature offered, declined); geometry is inherited through the bounce,
  not driven flat.
 - **Relics**: no GUT phase transition is invoked → no monopole problem to dilute. The one
  topological object (the winding) is not a relic problem — it is the genome, and its
  observational signature is the axis family (a prediction, not a pollution).
-- **The seeds**: the zero-point start (§19) — fluctuations are the condensate's quantum
- noise, stretched through the conformal (w = 1/3) phase.
+- **The seeds**: *if* bounce + conformal package hold (**OPEN-BLOCKED** with horizon),
+ fluctuations are the condensate's zero-point noise stretched through the conformal (w = 1/3)
+ phase (§19).
 - **The tilt** (computed **candidate**, not a closed derivation): the amplitude rides a logarithmically growing
  variance and the spectrum squares it, giving a tilt with no new objects — the primordial
  sky's slope as the medium's own running, photographed. The mechanism is now exhibited as an

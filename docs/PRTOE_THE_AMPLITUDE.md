@@ -31,7 +31,7 @@ once it converges). **Do not say “zero free parameters” unless c, f̄, and �
 
 | factor | value | grade | note |
 |---|---|---|---|
-| **f̄** | 2/π = 0.6366 | **derived** | winding ⟨\|cos\|⟩; sim 0.635 ± 0.026 is the check |
+| **f̄** | 2/π = 0.6366 | **strengthened candidate** (not absolute closure) | winding ⟨\|cos\|⟩; sim 0.635 ± 0.026 is the check; residual: leading-order dominance unproved from un-built family-coupling Lagrangian |
 | **c** | 9/10 | **counting assumption** | not forced; 8/9 and 12/13 still open at current ensemble width |
 | **α_c** | 3α | **registered bet** (P-2026-040) | ~2% above current data point; stack fails if this fails |
 
@@ -130,7 +130,7 @@ CLASS: `dcdf_dyad_link` derives `varying_me = 1 + c·f_amp·Ψ₀/M_red` (defaul
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | ε ≈ 1.24% is the one added number (windows at fixed weights) | **complete-conditional** | §1–2 | Grade = weakest parent |
-| 2 | f̄ = 2/π derived | **derived** | winding ⟨\|cos\|⟩; sim check | — |
+| 2 | f̄ = 2/π | **strengthened candidate** (not absolute closure) | winding ⟨\|cos\|⟩; sim check | residual openness — see DERIVATION_HUNT |
 | 3 | c = 9/10 counting assumption | **OPEN** / assumption | §1 | 8/9, 12/13 not excluded at width |
 | 4 | α_c = 3α registered bet | **OPEN-BLOCKED** | P-2026-040 | **OPEN-MACHINE:** zon_disp not running |
 | 5 | H₀=69.9 / windows table | **machine-backed** provisional | §2 | Nested offline; BBN adverse |
@@ -140,4 +140,4 @@ CLASS: `dcdf_dyad_link` derives `varying_me = 1 + c·f_amp·Ψ₀/M_red` (defaul
 
 **Non-claims:** not zero free parameters until stack holds; not BBN win; not final H₀.
 
-**Triage:** elevate-in-place. Physics ceiling: f̄ derived; stack **OPEN-BLOCKED** (α_c/c).
+**Triage:** elevate-in-place. Physics ceiling: f̄ **strengthened candidate** (not absolute closure); stack **OPEN-BLOCKED** (α_c/c).

@@ -1,13 +1,15 @@
 # PRTOE — Reader’s risk summary
 
-**Status (2026-08-04 currency):** evidence class is still **Laplace-marginal, not nested-sampling confirmed**.
-The production bbnfix MCMC pair is **live and NOT bookable** (lcdm R−1 **0.071122** N=21886
-t=2026-08-04T13:01:13 — **1.42×** stop; dyad R−1
-**0.072286** @N=21867 ~1.45×; both `converged: false`; `book_bbnfix_when_ready.py` → **REFUSED**).
-Offline GetDist GR is diagnostic only — **not** booking authority. **Do not peek-book H₀.**
-PolyChord nested evidence is offline (waits for cluster time). No headline posterior is bankable
-yet. Full chain table: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Currency package:
-[`working_logs/_runs/machine_r1_currency_20260804e/`](working_logs/_runs/machine_r1_currency_20260804e/).
+**Status (2026-08-05 currency):** evidence class is still **Laplace-marginal, not nested-sampling confirmed**.
+The production bbnfix MCMC pair is **live and NOT bookable** (lcdm R−1 **0.047912** N=24858
+t=2026-08-05T04:55:58 — **below** stop 0.05 **without** self-stop, still **NOT bookable**; dyad R−1
+**0.056889** @N=24677 t=2026-08-05T07:54:30 — **1.14×** stop; both `converged: false`;
+`book_bbnfix_when_ready.py` → **REFUSED**). Route-D live R−1 **0.705291**@N=6517
+t=2026-08-05T04:07:15 (~**7.05×** stop 0.1) — not dual-gate. Offline GetDist GR is diagnostic only —
+**not** booking authority. **Do not peek-book H₀.** PolyChord nested evidence is offline (waits for
+cluster time). No headline posterior is bankable yet. Full chain table:
+[PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Booking refuse card:
+[`working_logs/_runs/bbnfix_booking_20260805_170213/`](working_logs/_runs/bbnfix_booking_20260805_170213/).
 
 > *One page for an outside physicist. Falsify-first: nothing below is oversold. House terms decode
 > in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality in
@@ -92,14 +94,15 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   observed scale; it does not claim the two decimal places it lands to. That rests on one
   hypothesis (the charged-lepton √m thermally populated, which is what Q = 2/3 asserts) and is
   candidate-grade. One uncomputed lattice number decides the kernel τ — T_c/√σ for an
-  SU(2), N_f = 3 dark sector, where **0.34657 crowns the kernel and 0.34506 kills it**. **No lattice
-  determination of that theory exists** (literature sweep, 2026-07-17; an outward-facing
-  specification note is approved for circulation — PRTOE_lattice_note.md); the best inference bracket
-  from measured neighbours (SU(2) N_f = 2: 0.483(23) deconfinement, 0.36–0.48 chiral; SU(3)
-  N_f-dependence) is **≈ 0.39 ± 0.05, centred above the model's 0.34657** — the model's value sits at
-  the bottom edge, needing both the chiral (not deconfinement) transition and near-maximal
-  suppression. One SU(2)-specific fact helps: the chiral and deconfining transitions decouple in
-  SU(2), so the chiral T_c can legitimately sit below the Polyakov number.
+  SU(2), N_f = 3 dark sector. Ideal point-values **0.34657 / 0.34506** are the crown/null fork —
+  **sky-limited** under living P-048 (even σ=0 ~0.98σ); **live falsifier is clause 4** (τ̂ outside
+  [0.330, 0.370]; see risk (j)). **No lattice determination of that theory exists** (literature
+  sweep, 2026-07-17; outward-facing note [PRTOE_lattice_note.md](PRTOE_lattice_note.md)); the best
+  inference bracket from measured neighbours (SU(2) N_f = 2: 0.483(23) deconfinement, 0.36–0.48
+  chiral; SU(3) N_f-dependence) is **≈ 0.39 ± 0.05, centred above the model's 0.34657** — the model's
+  value sits at the bottom edge, needing both the chiral (not deconfinement) transition and
+  near-maximal suppression. One SU(2)-specific fact helps: the chiral and deconfining transitions
+  decouple in SU(2), so the chiral T_c can legitimately sit below the Polyakov number.
 - **(b) BBN is adverse-leaning under the standing configuration, and worst in helium.** The
   committed genesis residual (the ζ window) eases deuterium without healing it — D/H reads
   **−2.5…−1.4σ** from Cooke on the quotable budget, up from −2.9σ before the residual — while Y_p
@@ -122,51 +125,36 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   Checked the same day (`scripts/rank_basin_diagnostic.py`), the model's three parallel chains sat at
   best fits of **1377.9, 1610.6 and 1440.6**, with H₀ = 69.5 / 64.0 / 64.8 and dcdf_rho_inf =
   0.700 / 0.595 / 0.635 — **three different basins, separated by up to 317 standard errors on a
-  single parameter (H₀).** *(Corrected 2026-07-29. An earlier figure of 23,855 s.e. was overstated
-  75× for two compounding reasons, both found by `scripts/rank_separation_ess.py`. First, the ranks
-  were compared at their own sample counts rather than truncated to the shortest, which shrinks the
-  error bar of whichever rank ran longest: matching them gives 2,102. Second and larger, the
-  standard error treated autocorrelated Markov samples as independent. With integrated
-  autocorrelation time τ ≈ 26–46, the honest effective sample size is ~6–9 per rank-half, not 467,
-  and the corrected separation is **317 s.e.** Direction unchanged; sharpened.)* The reference
-  chains on that snapshot were **consistent with a single basin** on the corrected measure (worst
-  separation **1.6 s.e.**, published as 12.6 by the same defect). They remained unconverged for a
-  clearer reason: with τ ≈ 23–68 each rank-half carried only ~5–19 effective samples, which is what
-  R−1 = 1.011 was reporting. The cause was diagnosable: **acceptance sat at 5.3–6.2% for the model
-  and 8.5–8.9% for the reference, against a ~25% target** — proposal poorly matched to the posterior;
-  the rank with the *most* samples (1663) sat 233 log units *worse* than the rank with the fewest.
-  *(Which counter to read: the sampler's own accepted/steps. The `.progress` column also named
-  `acceptance_rate` reports ≈0.97; that is stored rows over total weight, pinned near unity by
+  single parameter (H₀).** Honest rank separation on that snapshot, with ranks truncated to the
+  shortest and autocorrelation accounted for (`scripts/rank_separation_ess.py`; τ ≈ 26–46 → ESS
+  ~6–9 per rank-half), is **317 s.e.** The reference chains on that snapshot were **consistent with
+  a single basin** on the same measure (worst separation **1.6 s.e.**). They remained unconverged
+  for a clearer reason: with τ ≈ 23–68 each rank-half carried only ~5–19 effective samples, which is
+  what R−1 = 1.011 was reporting. The cause was diagnosable: **acceptance sat at 5.3–6.2% for the
+  model and 8.5–8.9% for the reference, against a ~25% target** — proposal poorly matched to the
+  posterior; the rank with the *most* samples (1663) sat 233 log units *worse* than the rank with
+  the fewest. *(Which counter to read: the sampler's own accepted/steps. The `.progress` column also
+  named `acceptance_rate` reports ≈0.97; that is stored rows over total weight, pinned near unity by
   oversampling, and does not diagnose proposal health. Verified on that era's reference chain:
   2154/2221 = 0.970 against 745/8018 = 9.3%.)*
 
-  **Why the proposal was never re-learned on that July run (corrected 2026-07-29).** This page first
-  blamed cobaya's R−1 gate (re-learn only once R−1 falls below 2.0). **That gate was never reached.**
-  The archived log isolates a simpler mechanism:
+  **Why the proposal was never re-learned on that July run.** Learning is a **collective MPI
+  checkpoint**: every rank must reach a multiple of `learn_every` = 40·d accepted samples before any
+  proceeds. With d = 13 that is **520 per rank**; the three ranks held **467 / 1684 / 658**. Ranks 1
+  and 2 announced ready; rank 0 never did. **"All chains are ready" never appears**, no convergence
+  statistic is computed, and that run's `.progress` file is empty. Two ranks waited indefinitely for
+  a third 53 samples short. July established: **the proposal was never re-learned and the three
+  ranks never merged.** Reseeding the covariance from the good basin worked: acceptance 5.3–6.2% →
+  31.2–31.9%. Three further reasons forbade banking even a merged best-fit then: the model had
+  **1.79× more samples** (best-so-far favours the longer chain); **neither chain was converged**; and
+  **best-fit is not evidence** — it carries no parameter penalty; Δln Z is what decides.
 
-  > Learning is a **collective MPI checkpoint**. Every rank must reach a multiple of `learn_every`
-  > = 40·d accepted samples before any proceeds. With d = 13 that is **520 per rank**; the three
-  > ranks held **467 / 1684 / 658**. Ranks 1 and 2 announced ready; rank 0 never did. **"All chains
-  > are ready" never appears**, no convergence statistic is computed, and that run's `.progress`
-  > file is empty. Two ranks waited indefinitely for a third 53 samples short.
-
-  The R−1 threshold would likely have bitten *next* — three basins 233 log units apart would have
-  pushed R−1 far past 30 — but it was never tested, so **the claim that "more wall-clock at these
-  settings will not fix this" was not established.** What July did establish: **the proposal was
-  never re-learned and the three ranks never merged.** Reseeding the covariance from the good basin
-  was the right remedy under either mechanism, and it worked: acceptance 5.3–6.2% → 31.2–31.9%.
-  Three further reasons forbade banking even a merged best-fit then: the model had **1.79× more
-  samples** (best-so-far favours the longer chain); **neither chain was converged**; and **best-fit
-  is not evidence** — it carries no parameter penalty; Δln Z is what decides. An external reading
-  that put the model ~41 log units *behind* was already stale then (it predated the model's best
-  falling from 1421.6).
-
-  **As of 2026-08-04 (§4):** a later matched relaunch **merged the basins** (every sampled parameter
+  **As of 2026-08-05 (§4):** a later matched relaunch **merged the basins** (every sampled parameter
   agrees across the three ranks to within ~0.6 within-chain s.d.) and remains *converging but not
-  bookable*. Progress stamp: lcdm twin R−1 **0.071122** (N=21886, t=2026-08-04T13:01:13 — **1.42×** stop), dyad R−1 **0.072286**
-  (N=21867; ~1.45×); both checkpoints `converged: false`; booking script **REFUSED**. Stop target
-  0.05 still ahead on both legs (lcdm once briefly dipped below 0.05 without self-stop — **not**
-  bookable).
+  bookable*. Progress stamp: lcdm twin R−1 **0.047912** (N=24858, t=2026-08-05T04:55:58 — **below**
+  stop 0.05 without self-stop, still **NOT bookable**), dyad R−1 **0.056889** (N=24677,
+  t=2026-08-05T07:54:30 — **1.14×** stop); both checkpoints `converged: false`; booking script
+  **REFUSED**. Temporary R−1 < 0.05 without self-stop is **not** bookable.
   **No peek H₀.** No best-fit comparison from this pair is bankable. The standing evidence number
   remains the marginal, SH0ES-conditional **Laplace** estimate +2.635 — the wrong kind of number to
   lead with. Nested sampling is still offline. Authority: `scripts/book_bbnfix_when_ready.py`;
@@ -217,9 +205,10 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   the superradiant band, where they should be spun down, while several black holes in that
   range carry high measured spins. Neither is a computed exclusion yet; both are real, both
   are now named, and either could close the sector. *(The mass itself is firm on the onset clock —
-  the "pinned three independent ways" claim is withdrawn (ξ is defined from m; Schive unresolved;
-  superradiance is an exposure, not a pin). Three independent *uses* fix it so the exposures cannot
-  be relieved by moving it; see [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).)*
+  mass grade = onset clock plus at most one unresolved consistency check: ξ is defined from m;
+  Schive unresolved; superradiance is an exposure, not a pin. Three independent *uses* fix it so
+  the exposures cannot be relieved by moving it; see
+  [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).)*
 - **(f) Code-vs-theory gap, narrowed (2026-07-23 / rechecked 2026-07-30).** `dcdf_dyad_link=yes`
   derives `varying_me` from the amplitude stack at input time; density-gate screening is coded;
   thermodynamics consumes varconst tables (no dark-sector equations *inside* thermo — by design).
@@ -243,15 +232,15 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
 - **(j) The lattice crown/null fork cannot currently resolve the headline precision claim.** P-2026-048’s
   standing prediction is the kernel’s **0.34657**; the observation-inverted null is **0.34506**
   (inherits ρ_Λ ±0.449%). They sit only **+0.44%** apart; even a σ=0 lattice separates them by only
-  **~0.98σ**, so clauses 2/3 are **sky-limited**, not lattice-limited — **0.22% lattice discrimination
-  framing withdrawn** (registry text). **What remains fully executable is clause 4** (τ̂ outside the
-  fixed prediction window without needing the null); neighbour inference **0.39 ± 0.05** sits above
-  that window, so the falsifier is live. Ordinary 1–3% lattice work scores neither way on the
-  crown/null fork. Do not quote superseded “0.3503 ± 0.02 as registered tolerance that confirms
-  anywhere in the window” as current decision rule.
+  **~0.98σ**, so clauses 2/3 are **sky-limited**, not lattice-limited — lattice precision alone does
+  not score CONFIRM/KILL on the 0.44% gap under present ρ_Λ error. **What remains fully executable is
+  clause 4** (τ̂ outside the fixed prediction window without needing the null); neighbour inference
+  **0.39 ± 0.05** sits above that window, so the falsifier is live. Ordinary 1–3% lattice work scores
+  neither way on the crown/null fork. Current decision rule is clause 4 + sky-limited crown/null,
+  not a ±0.02 tolerance window that would confirm anywhere inside it.
 
-  **And the model carries a second estimate of τ that disagrees with its own headline (surfaced
-  2026-07-28).** The kernel gives τ = ½ln2 = 0.34657 from Parseval once Q = 2/3. But scaling the
+  **And the model carries a second estimate of τ that disagrees with its own headline.** The
+  kernel gives τ = ½ln2 = 0.34657 from Parseval once Q = 2/3. But scaling the
   known lattice anchors down to SU(2) with N_f = 3 — the corpus's own "dof-family" reduction, ~42%
   convention-clean — gives **τ ≈ 0.355–0.382, centre ~0.36**. Since τ scales ρ_Λ¼ *linearly*, that
   band puts the dark-energy scale at **+2.9% to +10.7% above observation, centre +4.3%** — roughly
@@ -262,26 +251,23 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   (N_f/N_c = 1.5 against SU(3)'s 1.0). It is not evidence the kernel is wrong. **But it is the
   model's own independent handle on the same quantity, and it does not agree with the kernel to
   anything like the precision the headline advertises.** A reader comparing +0.44% against a
-  self-consistent chain should know the chain's other estimate of its key input says +4%. This was
-  recorded in the derivation hunt and had not reached either the dark-energy file or this page.
+  self-consistent chain should know the chain's other estimate of its key input says +4%.
 
-- **(k) The electroweak anchor is advertised far tighter than its own construction supports, and its
-  largest exposure was absent from this page until 2026-07-28.** The hierarchy chain quotes
-  M_anchor = 1576 GeV against 4πm_H = 1574, "+0.14%". Two ambiguities the file itself records make
-  that precision unearnable. §6d carries a **factor-2 convention** (the exact gap-equation solution
-  gives 3153 GeV; the recorded figure absorbs the two). And §6f is named in its own file as *"the
-  single largest exposure in the hierarchy chain"*: the gap equation's kernel is electromagnetic —
-  Coulomb exchange, Thomas–Fermi screening, e² = 4πα_c — while the coupling is evaluated at zero
-  momentum and not allowed to run, eighteen orders below the pairing scale. **Both readings cannot
-  be held at once, and the chain currently holds both.**
+- **(k) The electroweak anchor is advertised far tighter than its own construction supports.** The
+  hierarchy chain quotes M_anchor = 1576 GeV against 4πm_H = 1574, "+0.14%". Two ambiguities the
+  file itself records make that precision unearnable. §6d carries a **factor-2 convention** (the
+  exact gap-equation solution gives 3153 GeV; the recorded figure absorbs the two). And §6f is
+  named in its own file as *"the single largest exposure in the hierarchy chain"*: the gap
+  equation's kernel is electromagnetic — Coulomb exchange, Thomas–Fermi screening, e² = 4πα_c —
+  while the coupling is evaluated at zero momentum and not allowed to run, eighteen orders below
+  the pairing scale. **Both readings cannot be held at once, and the chain currently holds both.**
 
-  Two 2026-07-28 results sharpen this rather than relieving it. First, horn (a) of that fork
-  ("just evaluate α at the pairing scale") **double-counts** — §6c already carries the medium's
-  polarization explicitly as a Thomas–Fermi mass, and the screening it applies, ln(1+1/b) = 4.287,
-  is **62× the entire QED run to the Z pole**. But second, §6e settles the constituents as
-  *compensated* rather than uncharged (n_electron = n_hole, charged carriers), so a residual
-  Standard-Model run survives on top of the screening and costs a further **×5.6** — adverse.
-  The standing band, with the O(λ) pair since computed (the crossed box c = 0.789 and its Fock
+  Horn (a) of that fork ("just evaluate α at the pairing scale") **double-counts** — §6c already
+  carries the medium's polarization explicitly as a Thomas–Fermi mass, and the screening it applies,
+  ln(1+1/b) = 4.287, is **62× the entire QED run to the Z pole**. Separately, §6e settles the
+  constituents as *compensated* rather than uncharged (n_electron = n_hole, charged carriers), so a
+  residual Standard-Model run survives on top of the screening and costs a further **×5.6** —
+  adverse. The standing band, with the O(λ) pair computed (the crossed box c = 0.789 and its Fock
   companion a = 0.281, both acting downward), is **0.55–1.78 TeV** (the hierarchy file's own §6d
   table), with 4πm_H toward its top edge — and the §6f run question above remains the chain's
   largest single exposure, sitting outside that band's accounting. With ∂lnM/∂lnk = 33.5, quoting
@@ -322,14 +308,14 @@ genuinely independent and which collapse).
 
 **That distance is measured.** No chain in this corpus has ever booked at its own stopping target
 (R−1 = 0.05 **and** `converged: true` for the production bbnfix pair; R−1 = 0.1 for Route-D).
-Status as of **2026-08-04** ([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md); booking gate
+Status as of **2026-08-05** ([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md); booking gate
 **REFUSED**):
 
 | chain | last recorded R−1 | N (progress) | `converged` | live? | note |
-|---|---|---:|---|---|---|
-| `dyad_mnu_bbnfix` | 21867 | **0.072286** | 0.05 | **false** | **NO** |
-| `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin, 3 ranks) | **0.071122** | 21886 | **false** | **yes** | **1.42×** stop; briefly &lt;0.05 without self-stop — still **NOT bookable** |
-| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **4.941933** | 3290 | **false** | **yes** | still early; ~**49.4×** stop 0.1; not dual-gate |
+|---|---:|---:|---|---|---|
+| `dyad_mnu_bbnfix` | **0.056889** | 24677 | **false** | **yes** | **1.14×** stop; t=2026-08-05T07:54:30 |
+| `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin, 3 ranks) | **0.047912** | 24858 | **false** | **yes** | **below** stop 0.05 without self-stop — still **NOT bookable**; t=2026-08-05T04:55:58 |
+| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **0.705291** | 6517 | **false** | **yes** | ~**7.05×** stop 0.1; not dual-gate; t=2026-08-05T04:07:15 |
 | `cmp_prtoe_conv_desi` | 13.25 | — | — | **no** | unproduced; last write 2026-07-22 |
 | `cmp_prtoe_zon_disp` | 17.81 | — | — | **no** | collapsed; seed ready, owner restart |
 | `cmp_prtoe_zon` | 40.36 | — | — | **no** | stopped since 07-12 |
@@ -353,10 +339,10 @@ the three live runs** — they join only at stop via the booking script.
 **The basin problem has since resolved.** Both production chains were relaunched with three ranks
 each and matched settings; burn-in cleared; every sampled parameter now agrees across ranks to
 within 0.6 within-chain standard deviations — one basin, genuinely mixing. What remains is
-statistics, not pathology: progress R−1 is still above stop on both legs (lcdm **0.071122**@N=21886 — **1.42×** stop; dyad **0.072286** ~1.45×), and neither
-checkpoint has self-stopped. Honest present state: *converging but
-**not bookable*** — leave the MCMCs alone until the gate fires. Anyone quoting H₀ or an evidence
-number from this pair before both legs self-stop at R−1 &lt; 0.05 is quoting noise, either way.
+statistics, not pathology: progress R−1 (lcdm **0.047912**@N=24858 — below stop without self-stop;
+dyad **0.056889**@N=24677 — **1.14×** stop), and neither checkpoint has self-stopped. Honest present
+state: *converging but **not bookable***. Anyone quoting H₀ or an evidence number from this pair
+before both legs self-stop at R−1 &lt; 0.05 is quoting noise, either way.
 
 ## 5. What would kill it (pre-registered)
 1. DESI DR3 confirms w ≠ −1.
@@ -377,7 +363,7 @@ yet to converge, a lattice number no one has computed at the precision required,
 
 ---
 
-## Claims ledger & discipline (2026-08-04 currency) — above story-grade discipline
+## Claims ledger & discipline (2026-08-05 currency) — above story-grade discipline
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
@@ -385,7 +371,7 @@ yet to converge, a lattice number no one has computed at the precision required,
 | 2 | ε stack grade = weakest parent (f̄/c/α_c) | **complete-conditional** | §2 | α_c instrument offline |
 | 3 | H₀ 69.9–71.3; half gap; residual owned | **machine-backed** provisional | §2 | SH0ES-conditional; **not** from live bbnfix tables |
 | 4 | ρ_Λ existence not precision (+0.44% in τ-space) | **complete-conditional** | §3a | Lattice + quartic past control |
-| 5 | Production bbnfix pair one basin; lcdm R−1 **0.071122**@N=21886 t=2026-08-04T13:01:13 (**1.42×** stop) / dyad **0.072286**@N=21867 t=2026-08-04T13:32:11; both `converged:false`; **NOT bookable** | **machine-backed** status | §4; CHAIN_TABLES freeze; book script REFUSED | Statistics, not pathology; **no peek H₀** |
+| 5 | Production bbnfix pair one basin; lcdm R−1 **0.047912**@N=24858 t=2026-08-05T04:55:58 (below stop without self-stop) / dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×** stop); both `converged:false`; **NOT bookable** | **machine-backed** status | §4; CHAIN_TABLES freeze; book script REFUSED | Statistics, not pathology; **no peek H₀** |
 | 6 | Kill list §5 pre-registered | **registered** | §5 | DESI, ladder, α_c, DD, ν, BBN |
 | 7 | Page is audience risk summary | **meta** | whole file | Not a derivation |
 | 8 | BBN ε 2σ ceiling **ARITHMETIC VERIFIED (internal)** (3.196%≈3.20%); **EXTERNAL WIN PENDING (no DOI)** — not a chain booking | **internal arithmetic** | hard-wins table | Does **not** close bbnfix; not a public external win until DOI |

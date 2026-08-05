@@ -190,7 +190,7 @@ coupling); (iii) HL-LHC exhausting 1–2 TeV without the portal states (the visi
 ## Sources
 [BCS1957] (the gap form), [MachacekVaughn1983] (the loop structure), [Volovik2003],
 the internal chain (PRTOE_DERIVATION_HUNT.md), P-2026-042. Full list:
-[BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
 
 ## 5. Addendum (the stability audit)
 
@@ -296,7 +296,7 @@ fixes the channel, because the two ways to pair at electromagnetic strength do n
 Particle-particle is excluded, by thirty orders. A Cooper-style condensate of two charge-e
 fermions carries charge 2e, so it breaks U(1)_EM at the anchor scale and the photon takes an
 Anderson-Higgs mass m_γ ~ 2e·v ≈ 9.5×10¹¹ eV. The recorded bound is m_γ < 10⁻¹⁸ eV
-([PRTOE_light.md](exploratory/PRTOE_light.md)), a line the model's own Goldstone reading of light already
+([PRTOE_light.md](PRTOE_light.md)), a line the model's own Goldstone reading of light already
 treats as a kill. For a charged condensate to clear it the pairing scale would have to sit below
 1.65×10⁻¹⁸ eV, which nothing in the sector can do. The same-charge Cooper reading is not merely
 unsupported; it is dead.
@@ -633,15 +633,14 @@ now the constituent-level build's sharpest task.
 What the derivation rests on beyond that. N₀ = k_F²/π²v assumes linear dispersion at the pairing
 shell, and §6a puts that shell at a finite-μ Fermi surface *inside* the cone, not at the bend-over.
 
-**Corrected 2026-07-28 — this paragraph previously read "so the density of states is owed, as is
-whatever fixes k_F". Neither is owed.** The density of states was already supplied here,
-N₀ = k_F²/π²v, and **k_F is not an input the construction contains**: it cancels twice — out of the
-screening constant, since b = e²·2N₀/4k_F² = 2α_c/πv carries no k_F, and again between N₀ ∝ k_F² and
-the Fermi-surface average ⟨V⟩_FS ∝ 1/k_F². Verified numerically across eight decades of k_F, spread
-7×10⁻¹⁸ (§6a; `scripts/hierarchy_kF_and_bendover.py`). What the construction requires is an
-inequality rather than a value: **k_F > 0 strictly, inside the linear cone** — the strictness being
-the whole content, since at k_F = 0 the surface degenerates to the node, N₀ → 0, and pairing would
-need λ ≥ 2/3 instead of 0.03.
+The density of states is already supplied here, N₀ = k_F²/π²v, and **k_F is not an input the
+construction contains**: it cancels twice — out of the screening constant, since
+b = e²·2N₀/4k_F² = 2α_c/πv carries no k_F, and again between N₀ ∝ k_F² and the Fermi-surface average
+⟨V⟩_FS ∝ 1/k_F². Verified numerically across eight decades of k_F, spread 7×10⁻¹⁸ (§6a;
+`scripts/hierarchy_kF_and_bendover.py`). What the construction requires is an inequality rather than
+a value: **k_F > 0 strictly, inside the linear cone** — the strictness being the whole content,
+since at k_F = 0 the surface degenerates to the node, N₀ → 0, and pairing would need λ ≥ 2/3 instead
+of 0.03.
 
 So what remains on this list is **two items, not four**: the rainbow truncation and the equal-density
 assumption for the two bands. Each is a computation inside the constituent theory rather than a
@@ -727,7 +726,7 @@ Fermi surface's position within Λ_shell ≤ E_F ≤ M_red, worth ≈ 1.6; and p
 asymmetry, worth ≈ 1.1 per percent. The first was the largest and it is no longer free.
 
 The crossed box, integrated
-([scripts/hierarchy_vertex_crossed_box.py](../scripts/hierarchy_vertex_crossed_box.py)).
+([scripts/hierarchy_vertex_crossed_box.py](../../scripts/hierarchy_vertex_crossed_box.py)).
 It is the diagram the rainbow/ladder truncation omits, since the ladder rungs are already resummed
 by 1 = λ·ln(Λ/Δ) itself. Evaluated on §6c's own host and nothing else — V(q) = e²/(q² + m_D²),
 b = m_D²/4k_F² = 2α_c/πv, one band's Fermi surface inside the linear cone at v = 1, particle-hole
@@ -781,7 +780,7 @@ the screening constant moves c by under 1%, against ∂lnM/∂lnk = 33.47 for k 
 carries the quadrature to eleven digits; its real uncertainty is structural and named below.
 
 The self-energy companion, computed
-([scripts/hierarchy_fock_self_energy.py](../scripts/hierarchy_fock_self_energy.py)). c is the
+([scripts/hierarchy_fock_self_energy.py](../../scripts/hierarchy_fock_self_energy.py)). c is the
 crossed box and only the crossed box; one further object enters at the same relative order λ —
 the **fermion self-energy insertion** on the internal lines, the exchange (Fock) term of the same
 screened interaction. It is now evaluated on the same host, and it does **not** cancel the
@@ -864,7 +863,7 @@ The leverage is the same 33× compounded with k's own response: ∂lnM/∂lnα_c
 
 The last row is not an extrapolation to be discounted: 1/α(M_Pl) = 1/α₂ + 1/α_Y = 49.46 + 55.48 =
 **104.94** is the tree-level composition of two one-loop-run couplings, and it is the same figure
-[PRTOE_light.md](exploratory/PRTOE_light.md) hands out. The 7.1% between α(0) and α(M_Z) is already a factor
+[PRTOE_light.md](PRTOE_light.md) hands out. The 7.1% between α(0) and α(M_Z) is already a factor
 5.6 on the anchor; going to the pairing scale on the corpus's own Planck-floor value costs a
 factor **956**. **So the anchor's landing requires the zero-momentum value specifically, at a
 process eighteen orders above the scale that defines it.**

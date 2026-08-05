@@ -11,7 +11,7 @@ three pillars, applied to the cosmological case). Status: **floor number** compl
 
 ## 0. The claim
 
-> **§0/§1 prose fence (2026-08-04 AGREE-IF cure).** Floor number paid (`ρ_bounce` finite, sub-Planckian). **Classical turn / exterior H_re = OPEN-BLOCKED** (ledger row 3; F-A3). **Cyclic cosmology is not booked** — do not read cycle / reignite sentences below as OEM or DERIVED fact. Story language here is **interpretation / OPEN residual** until the turn is licensed; authoritative freeze: [working_logs/_runs/bounce_full_freeze_20260804/REPORT.md](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md).
+> **§0/§1 fence.** Floor number paid (`ρ_bounce` finite, sub-Planckian). **Classical turn / exterior H_re = OPEN-BLOCKED** (ledger row 3; F-A3). **Cyclic cosmology is not booked** — do not read cycle / reignite sentences below as OEM or DERIVED fact. Story language here is **interpretation / OPEN residual** until the turn is licensed; authoritative freeze: [working_logs/_runs/bounce_full_freeze_20260804/REPORT.md](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md).
 
 The universe did not begin at a singular point. In this model the "Big Bang" is **a genesis —
 the release of the dark condensate from the vacuum state** — and, *if* earlier contraction

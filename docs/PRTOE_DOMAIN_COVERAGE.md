@@ -18,7 +18,7 @@ falsifiable commitment) · mover (active evidence channel).
 
 | # | Domain | Verdict | One-line result | Recorded in |
 |---|--------|---------|-----------------|-----------|
-| 1 | Cosmology (CMB/BAO/SN background) | mover | The model: H₀ ≈ 69.9 (provisional, **not** from live tables), S₈ eased, plik better than ΛCDM's own. **The live test carries ε pinned at the derived value, not floated** — zero *extra* parameters vs ΛCDM **if stack holds** (c·f̄·α_c; not +1 floated m_e) — **do not say “zero free parameters” unless c, f̄, α_c all hold**. Laplace ΔlnZ = +2.635, suggestive and SH0ES-dependent — **and the Laplace is where the verdict rests**; PolyChord nested sampling is offline (ended 2026-07-20; cluster re-run deferred); production bbnfix pair **NOT bookable** as of 2026-08-04 (lcdm R−1 **0.071122** N=21886 t=2026-08-04T13:01:13 — **1.42×** stop; dyad R−1 **0.072286**@N=21867 t=2026-08-04T13:32:11 ~1.45×; both `converged: false`; **no peek H₀**) | the headline-result document (v5_dCDF_complete, archived); [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) |
+| 1 | Cosmology (CMB/BAO/SN background) | mover | The model: H₀ ≈ 69.9 (provisional, **not** from live tables), S₈ eased, plik better than ΛCDM's own. **The live test carries ε pinned at the derived value, not floated** — zero *extra* parameters vs ΛCDM **if stack holds** (c·f̄·α_c; not +1 floated m_e) — **do not say “zero free parameters” unless c, f̄, α_c all hold**. Laplace ΔlnZ = +2.635, suggestive and SH0ES-dependent — **and the Laplace is where the verdict rests**; PolyChord nested sampling is offline (ended 2026-07-20; cluster re-run deferred); production bbnfix pair **NOT bookable** as of 2026-08-05 (lcdm R−1 **0.047912** N=24858 t=2026-08-05T04:55:58 — below stop without self-stop; dyad R−1 **0.056889**@N=24677 t=2026-08-05T07:54:30 — **1.14×** stop; both `converged: false`; **no peek H₀**) | the headline-result document (v5_dCDF_complete, archived); [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) |
 | 2 | BBN / nuclear astrophysics | **awaiting measurement** | Deuterium row −2.5 to −1.4σ (2.407–2.463 across the genesis window, full budget: obs ±0.030 ⊕ post-LUNA theory ±0.037); helium pays at +1.3 to +2.0σ. **The absolute σ is set by d(d,n)³He, unmeasured** — the row spans −3.6σ to −1.6σ across the literature's four rate-error assessments (P-2026-058). The model's 0.62σ deficit against its own ΛCDM control is compilation-robust and does not wait | [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) + the headline-result document §11 |
 | 3 | Dark energy | bet | The floor is exactly Λ — no evolution, no phantom crossing; model votes against DESI DR2's 3.1σ preference (standing bet #3) | atlas: the biggest mystery |
 | 4 | Vacuum energy / cc problem | door (coherence) | Old half: zero-point = virtual fluctuations, never realized (＋Jacobson, ＋Jaffe); new half: kernel-sourced — ρ_Λ¼ = 2.2599 meV, +0.44% **as an existence claim, not a precision one** (the radiative correction is bounded at 0.10–0.90%, comparable to the gap; the control-edge re-examination in the dark-energy file), lattice-refereed on τ alone (P-2026-048), with the portal √σ_dark = m_e the one irreducible input | atlas: the biggest mystery + the headline-result document |
@@ -73,20 +73,19 @@ covered; add them only with a record.
 
 ## Outside the model's jurisdiction
 
-The three entries below were previously rows in the table above. They are recorded here
-instead, and the distinction is not cosmetic: a physics model that lists Medicine as a
-"covered domain" invites the reading that it claims jurisdiction there, whatever the row
-actually says. **None of these is a domain this model works in.** They are kept only because
-each states a boundary that someone might otherwise try to cross on the model's behalf.
+The three entries below sit outside the domain table by design. The distinction is not
+cosmetic: a physics model that lists Medicine as a "covered domain" invites the reading that
+it claims jurisdiction there, whatever the row actually says. **None of these is a domain this
+model works in.** They are kept only because each states a boundary that someone might
+otherwise try to cross on the model's behalf.
 
 - **Consciousness / quantum mind.** Neural decoherence sits 10–17 decades below signalling
   timescales; the brain is a classical system. Nothing in this program can be recruited for
   quantum-mind claims, and this entry exists to say so in advance.
 - **Quantum biology.** Credit-window arithmetic is marginal at exciton scales, and the
   coherence claims in that literature are contested and not endorsed here.
-- **Medicine.** An earlier pass reproduced known physiology-adjacent physics in the model's
-  own bookkeeping language. That produced no new content and constitutes no medical claim of
-  any kind.
+- **Medicine.** Restating known physiology-adjacent physics in the model's own bookkeeping
+  language produces no new content and constitutes no medical claim of any kind.
 
 Adding a fourth entry here would be a mistake. The correct response to "does the model say
 anything about X" for a non-physics X is silence, not a row.

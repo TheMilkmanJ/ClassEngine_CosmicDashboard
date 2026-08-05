@@ -18,15 +18,15 @@ Endorsement is per archive and is the owner's external task.
 | check | radio-lattice | neutrino-mbb | supertrace-note |
 |---|---|---|---|
 | `submission/` contents | `main.tex` + `main.bbl` | `main.tex` + `main.bbl` | `main.tex` alone |
-| PDF pages (from build log) | **6** (309217 bytes ≈ 302 KB) | **3** (254556 bytes ≈ 249 KB) | **3** (229842 bytes ≈ 225 KB) |
+| PDF pages (from build log / current artifact) | **7** (303368 bytes; `main.log` “7 pages”) | **3** (254556 bytes ≈ 249 KB) | **3** (229842 bytes ≈ 225 KB) |
 | Live BibTeX `note =` in `refs.bib` | **none** | **none** | n/a (inline bib) |
 | `\bibinfo{note}` in shipped `.bbl` | **none** | **none** | n/a |
 | "PRTOE" in `main.tex` / submission | **none** | **none** | **none** |
 | empty `acknowledgments` | **none** | **none** | **none** |
 | last clean-room claim in log | 0 / 0 / 0 | 0 / 0 / 0 | 0 / 0 / 0 |
 
-Page counts in the historical log that say 7 pp (radio) or 4 pp (neutrino) are **pre-note-strip**
-states; current PDFs are 6 and 3 after provenance was moved out of typeset `note` fields.
+Current `papers/radio-lattice/main.pdf` is **7 pages** (log: “Output written on main.pdf (7 pages,
+303368 bytes)” matches on-disk size). Neutrino package page counts: see per-paper desk status.
 
 ### Per-paper desk status
 
@@ -50,7 +50,7 @@ states; current PDFs are 6 and 3 after provenance was moved out of typeset `note
 
 | | |
 |---|---|
-| **1. TeX package ready?** | **Yes.** `submission/main.tex` + `main.bbl`. 6 pp. Notes stripped. Clean-room 0/0/0. 31/31 cites. |
+| **1. TeX package ready?** | **Yes.** `submission/main.tex` + `main.bbl`. **7 pp.** Notes stripped. Clean-room 0/0/0. 31/31 cites. |
 | **2. Content holds remaining?** | **None.** See reconciliation below. |
 | **3. External gate** | **astro-ph endorsement** covers primary astro-ph.CO and cross-list astro-ph.IM (same archive). No endorsement claimed here. |
 

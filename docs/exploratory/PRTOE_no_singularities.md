@@ -10,13 +10,13 @@
 
 *Status: structural synthesis, complete at the structural level. Zero new predictions of its own —
 it seats the model's already-recorded singularity results under one mechanism, the companion
-piece to [PRTOE_quantum_trio.md](exploratory/PRTOE_quantum_trio.md). Rides M3 (the medium's reality) and
+piece to [PRTOE_quantum_trio.md](PRTOE_quantum_trio.md). Rides M3 (the medium's reality) and
 the emergent-gravity frame. Component files:
 [PRTOE_blackholes_no_singularity.md](../PRTOE_blackholes_no_singularity.md),
 [PRTOE_bigbang_no_singularity.md](../PRTOE_bigbang_no_singularity.md),
 [PRTOE_white_holes.md](PRTOE_white_holes.md),
 [PRTOE_information_paradox.md](PRTOE_information_paradox.md),
-[PRTOE_wormholes.md](exploratory/PRTOE_wormholes.md).*
+[PRTOE_wormholes.md](PRTOE_wormholes.md).*
 
 ---
 
@@ -130,7 +130,7 @@ GR predicts all stand (the model changes only what replaces r = 0).
 [Penrose 1965], [Hawking–Penrose 1970] (the singularity theorems and their premises);
 [Eardley 1974] (local white-hole instability); [FordRoman1995] (NEC quantum inequalities);
 [Jacobson 1995], [Volovik 2003], [Barceló–Liberati–Visser] (the emergent/analog-gravity frame).
-Full entries: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Internal: the healing-length cutoff, the CSW
+Full entries: [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md). Internal: the healing-length cutoff, the CSW
 core equilibrium, the Landau-ceiling horizon, the Tolman bounce, the counterparty rule.
 
 *Five pathologies asked what happens at the bottom. The medium answered that there is no bottom

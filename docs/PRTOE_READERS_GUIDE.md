@@ -1,17 +1,18 @@
 # Reader’s guide — plain physics, no house dialect
 
-**Status (2026-08-04 currency):** glossary and reading map for outsiders — not a graded-claims
+**Status (2026-08-05 currency):** glossary and reading map for outsiders — not a graded-claims
 surface. For graded claims, evidence class (Laplace-marginal; nested sampling offline), kill
 conditions, and live risk posture, start with
 [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Live chain bookkeeping:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
-> **Currency board (2026-08-04).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with
-> `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.071122** N=21886
-> t=2026-08-04T13:01:13 — **1.42×** stop; dyad R−1
-> **0.072286** @N=21867 ~1.45×; both `converged: false` → **REFUSED**). Do not peek-book H₀ /
-> Σm_ν / S₈ from live chains. BBN ε arithmetic is **verified internal**; **external win pending
-> DOI**. Numbers and gates live in RISK + CHAIN_TABLES; this guide does not book posteriors.
+> **Currency board (2026-08-05).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with
+> `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.047912** N=24858
+> t=2026-08-05T04:55:58 — below stop without self-stop; dyad R−1
+> **0.056889** @N=24677 t=2026-08-05T07:54:30 — **1.14×** stop; both `converged: false` →
+> **REFUSED**). Do not peek-book H₀ / Σm_ν / S₈ from live chains. BBN ε arithmetic is **verified
+> internal**; **external win pending DOI**. Numbers and gates live in RISK + CHAIN_TABLES; this
+> guide does not book posteriors.
 
 *Written for the newcomer and the external reviewer. Working documents in this repository use a
 compact internal vocabulary for the model's recurring objects; you do not need that dialect to

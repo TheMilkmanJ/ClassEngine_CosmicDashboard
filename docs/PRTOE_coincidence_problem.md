@@ -27,8 +27,8 @@ The floor is not a constant that matter happens to dilute past — the late era 
  [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md).
 2. **The turnaround is a computed multiple of the Hubble time**:
  t_turn = ln(1/√A_s)/(√(3/2)·H) ≈ **8.16 H⁻¹** at A_s = 2.088×10⁻⁹.
- (was 5.77 H⁻¹ at the par-normalized B = 1; B picked from the dispersion,
- not left as a menu). The amplitude of primordial fluctuations (A_s, measured) enters as a
+ (B = 1/√2 from the dispersion, not a menu; par-normalized B = 1 would give 5.77 H⁻¹).
+ The amplitude of primordial fluctuations (A_s, measured) enters as a
  lifetime parameter: the era's duration knows about the perturbations it must host.
  **How sharp that is, and why**: √3 and B = 1/√2 are exact, and the floor does not appear in
  the expression at all — *in Hubble units the era's width is floor-independent* — so A_s is

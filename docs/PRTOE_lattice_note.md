@@ -5,7 +5,7 @@
 > **Grade honesty:** **registered external bet** (P-2026-048); literature gap **interpretation** — not a lattice result.
 > **Not claimed:** computed T_c/√σ; DE digit precision; ordinary 1–3% lattice as a score either way.
 > **Authority:** claims ledger this file; arXivReady `lattice-tc-gap`; [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
-> **Currency:** **WATCH-EXTERNAL** lattice computation. Live falsifier is **clause 4** (window kill / neighbour inference). Crown-vs-null discrimination (clauses 2/3) is **not executable** at present cosmological precision — the limit is the sky’s ρ_Λ error, not lattice effort. **0.22% framing withdrawn** (P-2026-048).
+> **Currency:** **WATCH-EXTERNAL** lattice computation. Live falsifier is **clause 4** (window kill / neighbour inference). Crown-vs-null discrimination (clauses 2/3) is **not executable** at present cosmological precision — the limit is the sky’s ρ_Λ error, not lattice effort (even σ=0 lattice ≈0.98σ; ordinary 1–3% scores neither way). P-2026-048.
 
 *Approved for circulation (owner, 2026-07-18).*
 
@@ -91,9 +91,9 @@ distinguishes two hypotheses that sit **0.44% apart**:
 
 So a determination carrying **σ > 0.44% cannot distinguish crown from null** — and, more sharply,
 **even σ = 0 cannot** at present cosmological precision: the null inherits ρ_Λ’s error and
-contains the prediction at its upper edge (~0.98σ separation at σ_lattice=0). **Claiming that
-σ ≲ 0.22% lattice precision would settle the crown/null fork is withdrawn** (P-2026-048 registry
-text; sky limit, not lattice effort).
+contains the prediction at its upper edge (~0.98σ separation at σ_lattice=0). **Clauses 2/3 are
+sky-limited, not lattice-limited** (P-2026-048); demanding σ ≲ 0.22% lattice precision does not
+make the fork executable while ρ_Λ’s error dominates.
 
 **What remains fully executable at ordinary precision is clause 4:** a determination outside
 **[0.330, 0.370]** falsifies the program's dark-energy sector outright without needing the
@@ -131,7 +131,7 @@ Karavirta et al., arXiv:1111.4104; arXiv:1511.01968.
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Well-posed lattice gap: T_c/√σ for SU(2) N_f=3 light fundamentals | **interpretation** / literature | literature sweep 2026-07 | No published N_f=3 light result |
-| 2 | Pre-registered bet T_c/√σ = 0.34657 (½ln2) vs null 0.34506 | **registered null** / bet | P-2026-048 | Crown/null fork **sky-limited** (clauses 2/3 not executable); 0.22% framing withdrawn |
+| 2 | Pre-registered bet T_c/√σ = 0.34657 (½ln2) vs null 0.34506 | **registered null** / bet | P-2026-048 | Crown/null fork **sky-limited** (clauses 2/3 not executable at present ρ_Λ precision) |
 | 3 | Ordinary 1–3% lattice scores neither way on crown/null | **honest constraint** | §precision | Expected; sky limit stronger than ordinary lattice error |
 | 4 | Determination outside [0.330, 0.370] falsifies DE sector | **registered kill** · **live** | §clauses / clause 4 | Neighbor inference 0.39±0.05 above window |
 | 5 | Discretization choice (staggered rooting vs Wilson) is part of computation | **honest constraint** | §discretization | Not settled here |

@@ -13,30 +13,31 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-08-04)
+## CURRENT (2026-08-05)
 
 **Expansion fence.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
 expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
 the Standard Model; the domain is the diffuse cosmic medium. Same fence as
 [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md) / laws_and_rules / quantum attach notes. No TOE claim.
 
-**bbnfix pair — NOT bookable.** Live production pair + Route-D (do not kill). Authority is cobaya
+**bbnfix pair — NOT bookable.** Live production pair + Route-D (MPI live). Authority is cobaya
 progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagnostic only.
 `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Surfaces
 `PRTOE_CHAIN_TABLES.md` / `PRTOE_CODE_MANIFEST.md` / `PRTOE_REFEREE_CALENDAR.md` all stamp the same
-gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm R−1 **0.071122** (N=21886,
-t=2026-08-04T13:01:13 — **1.42×** stop). Dyad
-**0.072286**@N=21867 t=2026-08-04T13:32:11 (~1.45×). routeD R−1 **4.941933**@N=3290 but still early (~**49.4×** stop 0.1) — not dual-gate.
-Currency: `machine_r1_currency_20260804e`.
+gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm R−1 **0.047912** (N=24858,
+t=2026-08-05T04:55:58 — **below** stop 0.05 without self-stop, still **NOT bookable**). Dyad
+**0.056889**@N=24677 t=2026-08-05T07:54:30 (**1.14×** stop). routeD R−1 **0.705291**@N=6517
+t=2026-08-05T04:07:15 (~**7.05×** stop 0.1) — not dual-gate.
+Currency: booking refuse card `bbnfix_booking_20260805_170213`.
 
 | chain | N (progress) | R−1 | stop | converged | bookable |
 |---|---:|---:|---:|---|---|
-| `cmp_lcdm_mnu_bbnfix` | 21886 | **0.071122** | 0.05 | **false** | **NO** |
-| `dyad_mnu_bbnfix` | 21867 | **0.072286** | 0.05 | **false** | **NO** |
-| `cmp_prtoe_routeD` | 3290 | **4.941933** | 0.1 | **false** | **NO** (early) |
+| `cmp_lcdm_mnu_bbnfix` | 24858 | **0.047912** | 0.05 | **false** | **NO** (below stop, no self-stop) |
+| `dyad_mnu_bbnfix` | 24677 | **0.056889** | 0.05 | **false** | **NO** |
+| `cmp_prtoe_routeD` | 6517 | **0.705291** | 0.1 | **false** | **NO** (~7.05× stop) |
 
-GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** — both
-still > 0.05; **not** the booking gate. Quote R−1 with N and timestamp. Temporary R−1 < 0.05
+GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** —
+diagnostic only; **not** the booking gate. Quote R−1 with N and timestamp. Temporary R−1 < 0.05
 without self-stop is **not** bookable.
 
 **BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
@@ -79,11 +80,11 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 | PolyChord | **skip** (hardware) |
 | Strong CP | **COMPLETE-ABSTENTION** |
 
-**What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-02**
-live R−1 numbers as if current (lcdm ~0.14 / dyad ~0.19 / routeD ~129) is stale; the 2026-08-04
-stamp above is the live gate. E2E derivation board grades (A1–A6) under the next heading remain
-valid as theory status; this section is the **machine + honesty** stamp. Theory residual grades
-above are the 2026-08-05 exhaust stamp.
+**What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-04**
+live R−1 numbers as if current (lcdm **0.071122** / dyad **0.072286** / routeD **4.941933**) is
+stale; the 2026-08-05 stamp above is the live gate. E2E derivation board grades (A1–A6) under the
+next heading remain valid as theory status; this section is the **machine + honesty** stamp. Theory
+residual grades above are the 2026-08-05 exhaust stamp.
 
 ---
 
@@ -160,8 +161,10 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   days to a first checkpoint) and waits for cluster time, so the confirmer the +2.635 was explicitly
   awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
   input rather than side referees, and their convergence the critical path for the headline claim.
-  As of 2026-08-04 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
-  (lcdm R−1 **0.071122**@N=21886 t=2026-08-04T13:01:13 — **1.42×** stop / dyad **0.072286**@N=21867 t=2026-08-04T13:32:11 / routeD **4.941933**@N=3290 — still early ~49.4× stop; both bbnfix legs `converged: false`);
+  As of 2026-08-05 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
+  (lcdm R−1 **0.047912**@N=24858 t=2026-08-05T04:55:58 — below stop without self-stop / dyad
+  **0.056889**@N=24677 t=2026-08-05T07:54:30 — **1.14×** stop / routeD **0.705291**@N=6517 —
+  ~**7.05×** stop; both bbnfix legs `converged: false`);
   conv_desi and zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
   `cmp_prtoe_zon` is untouched since 07-12; **PolyChord off**.*
 

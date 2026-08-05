@@ -158,11 +158,12 @@ T14; not three deep theory sprints in parallel.
 
 ## Next recommended sessions
 
-1. Leave bbnfix pair alone (dyad R−1 ~0.192, lcdm ~0.141; both mpirun alive); watch R−1;
-   book when ≤0.05 via `_POSTERIOR_BOOKING_CHECKLIST.md`
-2. RouteD: leave alone (R−1 ~129, one progress row; mpirun alive) — **surgery plan above** if
-   second progress still has R−1 ≫ 10 and ranks disjoint / raw accept still ~5%; **owner
-   kills only when applying the reseed**
+1. Leave bbnfix pair alone unless dual gate opens (live: lcdm R−1 **0.047912**@N=24858 · dyad
+   **0.056889**@N=24677, both `converged:false` — below-stop without self-stop is **NOT bookable**);
+   book only via `_POSTERIOR_BOOKING_CHECKLIST.md` + dual R−1&lt;0.05 + self-stop
+2. RouteD: leave alone (live R−1 **0.705291**@N=6517, three ranks — early ~7× stop 0.1; **not**
+   the old ~129 one-row state). Do **not** archive-and-reseed a converging multi-rank chain from a
+   stale headline; **owner kills only when applying a reseed**
 3. Theory sprints one at a time (Koide OR bounce OR T14 3D), never all three half-done —
    see `ForGrok&Claude.md` for dual-agent split
 4. Endorsement chase in parallel (radio-lattice, lattice-tc-gap, bbn-eps-bound, kination READY;

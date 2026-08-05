@@ -29,6 +29,7 @@ across the lepton family, which is what the Koide protection rides), which decom
 |---|---|---|
 | **c** | 9/10 | **counting assumption, data-confirmed** — the census over the universal charged-fermion roster, selected over 12/13 by the dark-energy–neutrino tie (a genuine lock requires a direct-Majorana light neutrino mass, which seats the neutrino on the medium's tenth channel), and independently landed on by the ε-blind ensemble at c = 0.903 [0.867, 0.942], −0.08σ from 9/10. The step that would have licensed a *democratic* count — routing the budget split through gravity's blindness — does not exist: no single criterion returns 9/10, and the ensemble's width does not separate the alternatives. See **the two-census marriage** below and [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). |
 | **f̄** | 2/π ≈ 0.6366 | **strengthened candidate; the coupling form data-selected** — the winding average, the mean-absolute-sinusoid ⟨\|cos\|⟩ in the many-turns limit. The equidistribution is granted; the one owed piece was *the coupling form* (which functional of the winding projection sets f̄), now resolved by the data rather than forced by the framework — see below, where the residual "leading-order dominates" is named. The corpus's two independent measurements both land on 2/π: fit-implied f̄ = 0.6253 (+1.8%) and winding-sim 0.635 (+0.3%), rejecting the RMS reading 0.7071 at +13%. |
+| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**: the induced loop's transverse trace gives d directly (geometry, independent of the coupling), and the phonon-gas second sound c₂ = c₁/√d (Landau) agrees — but that reading is the bet rewritten, not an independent arrival (the velocity ladder above). The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α is conditioned on the roster's induced fraction of α_EM — worked below). The α_c instrument (zon_disp — unconverged, not currently running) is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6i). |
 
 **The two-census marriage — c's weakest joint, and what the routing step must show.** The
 decomposition runs two counts over two different, non-nested sets. **c = 9/10 counts
@@ -156,7 +157,6 @@ dominance picks linear over quadratic, and the data confirms the selection over 
 alternative. **Residual:** "leading-order dominates" is generic but not proved from the un-built
 family-coupling Lagrangian — so f̄ = 2/π is *strengthened candidate, coupling form
 data-selected*, not an absolute closure. The running winding ensemble remains the value's referee.
-| **α_c** | 3α | **candidate (under test)** — a pre-registered value. The **3 is the spatial dimension**: the induced loop's transverse trace gives d directly (geometry, independent of the coupling), and the phonon-gas second sound c₂ = c₁/√d (Landau) agrees — but that reading is the bet rewritten, not an independent arrival (the velocity ladder above). The **base α** carries the two owed pieces: the same-response identification (one medium response setting both the photon's coupling and the condensate's compressibility, with unit coefficient) and the roster's induced split (base = α is conditioned on the roster's induced fraction of α_EM — worked below). The α_c instrument (zon_disp — unconverged, not currently running) is the referee. **The scale question, answered:** α_c = 3α is a relation between two couplings and so holds at a scale, and the corpus spends one number across eighteen orders — ε and ρ_Λ in the infrared, A_s and the hierarchy anchor in the ultraviolet. **A_s selects the infrared value**: it is primordial, measured to ~1.4%, and mildly enough sensitive (∂lnA_s/∂lnα_c = 3.69) to read as a test — landing −0.4% at 3α(0) against +28% at α(M_Z) and +158% extrapolated. So α_c is a **scale-independent medium constant**, data-selected. The cost: that argument rides the count C = 1 **to ±22%** (the α(M_Z) reading needs only C ≈ 0.779), so **C = 1 and 'α_c does not run' now stand or fall together** ([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6i). |
 
 **The base α's two owed pieces, worked (2026-07-20) — neither closes, and one of them names the
 wrong number.**
@@ -297,11 +297,13 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
   so the discrimination lives in a lattice measurement of τ itself rather than in the closeness of
   the predicted meV to the observed one.
 
-  **What decides it, and the precision it needs.** A lattice T_c/√σ for SU(2) with N_f = 3. No such
+  **What decides it (living P-048 currency).** A lattice T_c/√σ for SU(2) with N_f = 3. No such
   determination exists: the published band 0.34–0.37 is an **SU(3)** value, the pure-glue anchors
   disagree by ~11% (SU(3) 0.63 vs SU(2) 0.69–0.71), and — decisively — that band is 8.5% wide while
   the two hypotheses are 0.44% apart, so **it could not tell them apart even if it applied.**
-  Separating them takes σ ≲ 0.22% (P-2026-048's decision rule). The band does establish one thing:
+  **Crown-vs-null is sky-limited:** even σ_lattice = 0 separates the hypotheses by only ~0.98σ
+  because H_observation inherits ρ_Λ’s ±0.449%; live falsifier is **clause 4** (τ̂ outside
+  [0.330, 0.370]). The band does establish one thing:
   it is a QCD-like confining sector, pure glue at 0.63 being excluded, which requires light dark
   quarks (N_f ≥ 2) — consistent with N_f = 3.
 - **T_c = 177.10 keV — sourced by the kernel, and the routes that could not source it.** τ comes
@@ -320,8 +322,9 @@ The dark-energy scale is a closed form whose only dimensionful input is the elec
   **What that band could deliver even if it applied:** with √σ = m_e it gives T_c ∈ [173.7, 189.1]
   keV, so ρ_Λ¼ ∈ [2.217, 2.413] meV — **a ±4.2% window containing the observation, the kernel's
   2.2599, and everything between.** Against a claim whose whole content is a 0.44% separation, a
-  ±4.2% band is an order of magnitude too coarse to say anything. **What would make this a test: a
-  lattice T_c/√σ for SU(2), N_f = 3 at σ ≲ 0.22%** — the number P-048 bets on, still uncomputed.
+  ±4.2% band is an order of magnitude too coarse to say anything. **What remains a live test: a
+  lattice T_c/√σ for SU(2), N_f = 3 scored under P-048 clause 4** (window kill; neighbour inference
+  above) — crown/null still **sky-limited**, not a lattice CONFIRM of the 0.44% gap. Still uncomputed.
   The perturbative Coleman–Weinberg route does not corroborate the adopted value at all: at
   307–714 keV it **excludes** it, so the adopted value's source stays the confining chiral ratio,
   not this route. This is the same scale BBN watches the ε-ramp switch at.
@@ -1273,7 +1276,7 @@ entire remaining open surface is:
 | the Koide kernel chain's last stage (the 1:1 thermal-twist transfer) | A = √2 AND θ = 2/9 — the full charged-lepton spectrum | the analytic steps are worked (the pacing-saturation step, the sign-chain walk); what stands between the chain and its grade is the first-roll sign run, then the lattice triple (T_c/√σ + F_π/√σ + w·√σ, one campaign) + the P-2026-051 lock |
 | the additivity bottleneck — one assumption carrying three separate results (the anchor's −3/2, the A_s shot count, the n_s variance-linearity) | whether those three stand on one premise or need three | the ring-on-ring trial, which tests its Koide instance. *(The anchor's −3/2 itself is no longer open: it follows from a boost-dressed cutoff, a geometric mean and equipartition at additivity grade — hierarchy §2, part (b).)* |
 | the seat constant b | κ_m's exact value | the constituent-level build |
-| T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (the P-048 fork decided) | the lattice (external; the note approved for circulation) |
+| T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (**P-2026-048: crown/null sky-limited** at present ρ_Λ precision; live falsifier **clause 4**) | the lattice (external; the note approved for circulation) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
 | the production referees (f̄ ensemble; α_c instrument offline; evidence pair converging) | the ε decomposition; the model vs ΛCDM | local compute time |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
@@ -1281,8 +1284,7 @@ entire remaining open surface is:
 Conditions settled by analysis this cycle: the Koide aggregation supply (N ≈ 1.5×10¹⁸, nine
 orders of headroom), the screening gate's sharpness (n_eff ≥ 35, hard-step class, unconditional —
 the winding field's own ceiling carries it, no seed identity required), the n_s linearity (shot
-additivity, shared with A_s). Everything else in the corpus is derived, quantified, or dead with
-a documented autopsy.
+additivity, shared with A_s). The rest of the corpus is graded claim-by-claim (derived, quantified, registered, open, or dead with a documented autopsy) — open surface above is not a claim that nothing else is open.
 
 ---
 

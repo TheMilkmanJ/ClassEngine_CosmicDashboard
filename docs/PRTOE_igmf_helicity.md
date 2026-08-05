@@ -311,7 +311,7 @@ number is seen.
 **Stamp:** OPEN-THEORY / OPEN-MACHINE honesty. **Production T14 overall sign is not bookable** from smoke or partial i6. Matter–helicity lock remains **void**. No invented sign(H_kin).  
 **Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (parent magnetism RM reconfirm; T14 machine not re-run this package).  
 **Owed / parent:** [T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md); [T14_blue_team_2026-08-03.md](working_logs/T14_blue_team_2026-08-03.md); [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md).  
-**Currency (2026-08-05):** Production sign(\(H_\mathrm{kin}\)) overall **OPEN-MACHINE** (T14). Not signed / not bookable. [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+**Currency (2026-08-05):** Production four-branch run complete; **overall sign NOT BOOKABLE** (red R3 DENIED: f=−1 amp below floor). n-antisymmetry at f=+1 is real two-branch evidence only. See `working_logs/_runs/t14_i6_prod_20260804_230225/BOOKING_RESTATED_R3.md`.
 
 | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
 |---|---|---|---|---|---|

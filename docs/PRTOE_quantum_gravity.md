@@ -185,8 +185,8 @@ timing and passed identically.
 
 ### 4a. The Bekenstein quarter is a ratio, and the medium fixes both of its halves
 
-The coefficient was recorded as "one number short." It is not short — it is the ratio of two
-coefficients the same heat kernel supplies, with the same cutoff ε, per massless scalar:
+The Bekenstein coefficient is the ratio of two coefficients the same heat kernel supplies, with the
+same cutoff ε, per massless scalar:
 
 | quantity | coefficient |
 |---|---|
@@ -196,8 +196,7 @@ coefficients the same heat kernel supplies, with the same cutoff ε, per massles
 > **S / (A/G) = 12π/48π = 1/4 exactly ⟹ S = A/4G**
 
 Both sides carry N/ε² identically, so the species count and the cutoff cancel — which is why the
-ratio is universal, as recorded. **What was missing was not a number but the observation that the
-number is a ratio.**
+ratio is universal. **The pure number is a ratio**, not an independent free constant.
 
 **What the medium contributes, and what it does not.** The two coefficients are standard results,
 not this model's. What the model supplies is the thing that makes using them legitimate here: a
@@ -241,7 +240,9 @@ gauge bosons carry it under that one commitment. **The quarter survives the full
 grade, and rejecting edge-mode entropy is what would break it**
 ([PRTOE_entropy.md](exploratory/PRTOE_entropy.md) §3).
 
-| Nonlinear exactness (the "analog gravity is only linearized" objection) | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins | priced |
+| objection | status | note |
+|---|---|---|
+| Nonlinear exactness (the "analog gravity is only linearized" objection) | priced | Non-equilibrium corrections to the Clausius step generate curvature-squared terms suppressed by the substrate scale; R²/M² corrections at that size are permitted by all existing tests with large margins |
 
 ## 5. Newton's constant: the wrong scheme, the right condition, and a cutoff-free formula
 
@@ -272,9 +273,8 @@ gauge bosons −4 each; real scalars (1/6 − ξ).
 | | **Total** | **0** |
 
 **The visible subtotal is the balance §5.3 is named for, but it is not by itself the
-finiteness condition** — "every field in the vacuum" includes the dark sector, and an
-earlier form of this table counted only the visible rows. Requiring the dark sector to
-cancel *on its own* is what fixes its roster: str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0
+finiteness condition** — "every field in the vacuum" includes the dark sector. Requiring the dark
+sector to cancel *on its own* is what fixes its roster: str[k₁]_dark = 2·N_f·N_c − 4(N_c² − 1) = 0
 gives N_f = 2(N_c² − 1)/N_c, and **N_c = 2 is the only colour group admitting an integer
 flavour count — giving exactly three** (5.33 at N_c = 3, 7.5 at N_c = 4, …). That is
 registered as **P-2026-048** with its own kills and its one uncomputed lattice number;
@@ -322,13 +322,11 @@ Standard Model plus three right-handed neutrinos: the content this framework ind
 requires for Majorana neutrino masses.** The framework's field content lands on a knife-edge
 condition the literature identifies as hard to meet.
 
-> **⚠ Units, corrected 2026-07-29 — verified, but state it two ways.** An earlier version of this
-> paragraph read "str[k₁] = −3" for the Standard Model alone. **In Visser's normalisation the value
-> is −1/2.** The −3 is the deficit counted in **Weyl spinors** (45 against the 48 required), and the
-> two are related by the +1/6 each Weyl contributes: (−3)/6 = −1/2. Both statements are true and the
-> Weyl deficit is the more legible one, but **a referee checking Visser's Table 1 will compute −1/2
-> and conclude the arithmetic is broken.** Any manuscript must give −1/2 as str[k₁] with the Weyl
-> deficit alongside it.
+> **Units (state both ways).** In Visser's normalisation, str[k₁] for the Standard Model alone is
+> **−1/2**. The same deficit counted in **Weyl spinors** is −3 (45 against the 48 required); the two
+> are related by the +1/6 each Weyl contributes: (−3)/6 = −1/2. Both statements are true and the
+> Weyl deficit is the more legible one, but **a referee checking Visser's Table 1 will compute −1/2**.
+> Any manuscript must give −1/2 as str[k₁] with the Weyl deficit alongside it.
 >
 > The balance itself is confirmed by independent computation from Visser's published coefficients:
 > 48 Weyl × (+1/6) = +8 against 12 massless vectors × (−2/3) = −8, the integer identity

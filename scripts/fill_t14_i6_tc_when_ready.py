@@ -103,18 +103,23 @@ def flatten_branch(name: str, row: dict[str, Any] | None, n_cand: int | None) ->
             "censored": n_cand is not None and n_cand <= 2,
             "dial_spread": row.get("dial_spread"),
         }
+    amp = v.get("ampA")
+    # Red R3: amp at/below instrument helA floor (0.15) is NOT a measurement —
+    # helA is forced to 0 in ring_toroidal_hkin.py:292–293. Do not treat as pass.
+    below_floor = amp is None or (isinstance(amp, (int, float)) and float(amp) <= 0.15)
     return {
         "branch": name,
         "t": v.get("t"),
         "H": v.get("H"),
         "Tw": v.get("Tw"),
         "Wr": v.get("Wr"),
-        "ampA": v.get("ampA"),
+        "ampA": amp,
         "helA": v.get("helA"),
         "nphase": v.get("nphase"),
         "n_cand": n_cand,
-        "margin_ok": row.get("margin_ok"),
-        "verdict_null": False,
+        "margin_ok": False if below_floor else row.get("margin_ok"),
+        "verdict_null": bool(below_floor),
+        "not_measured": bool(below_floor),
         "censored": n_cand is not None and n_cand <= 2,
         "dial_spread": row.get("dial_spread"),
         "drift_phys": v.get("drift_phys"),
@@ -164,10 +169,34 @@ def main() -> int:
             f"{_fmt(r.get('Wr'))} | {_fmt(r.get('ampA'))} | {nc_s} | {_fmt(r.get('margin_ok'))} |"
         )
 
-    m11 = mirror_residual(by["n+1_f+1"].get("H"), by["n-1_f-1"].get("H"))
-    m1m = mirror_residual(by["n+1_f-1"].get("H"), by["n-1_f+1"].get("H"))
-    m11_pct = None if m11 is None else 100.0 * m11
-    m1m_pct = None if m1m is None else 100.0 * m1m
+    def _pair_measured(a: str, b: str) -> bool:
+        """Red R3-b: refuse mirror if either branch is not_measured / below floor."""
+        ra, rb = by[a], by[b]
+        if ra.get("not_measured") or ra.get("verdict_null"):
+            return False
+        if rb.get("not_measured") or rb.get("verdict_null"):
+            return False
+        amp_a = ra.get("ampA")
+        amp_b = rb.get("ampA")
+        if amp_a is None or amp_b is None:
+            return False
+        try:
+            return float(amp_a) > 0.15 and float(amp_b) > 0.15
+        except (TypeError, ValueError):
+            return False
+
+    def _mirror_pair(a: str, b: str) -> tuple[float | None, str]:
+        if not _pair_measured(a, b):
+            return None, "N/A — unmeasured branch in pair"
+        m = mirror_residual(by[a].get("H"), by[b].get("H"))
+        if m is None:
+            return None, "N/A — H unreadable"
+        pct = 100.0 * m
+        return pct, f"{pct:.4g}% (target <5%)"
+
+    m11_pct, m11_label = _mirror_pair("n+1_f+1", "n-1_f-1")
+    m1m_pct, m1m_label = _mirror_pair("n+1_f-1", "n-1_f+1")
+    # both pairs must be scoreable and <5% — refuse (False) if any pair unscoreable
     mirror_ok = (
         m11_pct is not None
         and m1m_pct is not None
@@ -190,14 +219,22 @@ def main() -> int:
             t_flags.append(f"{label}: matched t={ta}")
 
     any_censored = any(r.get("censored") for r in rows)
-    all_margin = all(r.get("margin_ok") is True for r in rows if not r.get("verdict_null"))
-    all_have_verdict = all(not r.get("verdict_null") for r in rows)
+    measured = [r for r in rows if not r.get("verdict_null") and not r.get("not_measured")]
+    not_measured = [r for r in rows if r.get("not_measured") or r.get("verdict_null")]
+    # Margins only on measured branches (ampA > 0.15 floor)
+    all_margin = (
+        len(measured) > 0
+        and all(r.get("margin_ok") is True for r in measured)
+    )
+    # Full four-branch production book requires all four measured
+    all_have_verdict = len(measured) == len(rows) and len(rows) >= 4
 
     eligible = (
         mirror_ok
         and all_have_verdict
         and all_margin
         and not any_censored  # cond 2: censored rows block clean production book
+        and len(not_measured) == 0
     )
 
     gate_md = [
@@ -209,9 +246,14 @@ def main() -> int:
         "\n## four-branch selected\n\n",
         "\n".join(table_lines),
         "\n\n## Mirror residuals\n\n",
-        f"- (n+1_f+1) ↔ (n-1_f-1): {_fmt(m11_pct, 4)}% (target <5%)\n",
-        f"- (n+1_f-1) ↔ (n-1_f+1): {_fmt(m1m_pct, 4)}% (target <5%)\n",
-        f"- **mirror_ok:** {mirror_ok}\n",
+        f"- (n+1_f+1) ↔ (n-1_f-1): {m11_label}\n",
+        f"- (n+1_f-1) ↔ (n-1_f+1): {m1m_label}\n",
+        f"- **mirror_ok:** {mirror_ok}"
+        + (
+            " (False: unmeasured branch in pair — red R3-b)\n"
+            if not mirror_ok and (m11_pct is None or m1m_pct is None)
+            else "\n"
+        ),
         "\n## Condition 3 — member t\n\n",
         *[f"- {x}\n" for x in t_flags],
         "\n## Condition 2 — candidate pools\n\n",
