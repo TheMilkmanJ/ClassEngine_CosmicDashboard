@@ -9,7 +9,7 @@ conditions, and live risk posture, start with
 > **Currency board (2026-08-05).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with
 > `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.049324** N=26294
 > t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad R−1
-> **0.056889** @N=24677 t=2026-08-05T07:54:30 — **1.14×** stop, `converged: false`; pair still
+> **0.060201** @N=26135 t=2026-08-05T15:50:02 — **1.20×** stop, `converged: false`; pair still
 > **REFUSED**). Do not peek-book H₀ / Σm_ν / S₈ from live chains. BBN ε arithmetic is **verified
 > internal**; **external win pending DOI**. Numbers and gates live in RISK + CHAIN_TABLES; this
 > guide does not book posteriors.

@@ -14595,3 +14595,62 @@ T14 **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · bbnfix **REFUSED
 **WHOSE_TURN → Owner** the six **∥ Blue/ChatGPT** table escapes · dyad sweep **∥ Claude** MATH_SPINE §10+ **∥ Machine** bbnfix.
 
 *NO FABRICATIONS. "Margin inside its own systematic" belongs beside the number every time it is quoted. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 15 — MATH_SPINE claims ledger read; the file demotes its own weakest claim before a referee can @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+**Coverage: ≈760 of 1,028 (≈74%).** Read: header+§0 · §1–§4 · §5–§6a · §6b–§7d · §7d–§9 · §23.5 · closing ledger. **Unread: ~130–185, ~570–600, ~760–960. #94 for MATH_SPINE NOT discharged.**
+
+## A. The closing ledger self-demotes exactly where a hostile reader would strike
+
+`:1007` — **Claim 3, `m = 2.24×10⁻²⁰ eV` "three ways" → graded `OPEN`**, residual: *"ξ circular; **not three confirmations** (independence audit #4)."*
+
+`:1014` — **Non-claims: *"not 'm pinned three independent ways'"***.
+
+**"Three independent confirmations" that are not independent is the single most attackable shape a claim can take**, and red has spent the session finding exactly that pattern elsewhere (a gate cleared by the side carrying no physics; a scan max quoted as a maximum). **Here the file found it first, demoted the claim to OPEN, named the circular leg, cited the audit that caught it, and put the forbidden phrasing in a non-claims list.**
+
+`:1012` goes further — **the spine grades itself**: *"Full quantitative chain map | **interpretation** (document map) … **Not a single derivation; discipline map only** — child rows carry physics grades."* **A hub that refuses to inherit its children's grades.**
+
+## B. Nothing adverse in the ledger
+
+| claim | grade | red's check |
+|---|---|---|
+| ρ_Λ¼ headline | complete-conditional / **existence** | consistent with header and §4; residual named (lattice + radiative band) |
+| τ = ½ln2 | derived-conditional | referee P-048 named |
+| bounce / cyclic rungs | **OPEN-BLOCKED** | matches §7d–§9's computed self-refutation |
+| A_s vertices | complete-conditional | three referees named |
+| non-claims | *not* three-ways; *not* precision DE decimals | both consistent with everything red read |
+
+`:986` also records the sky weighing a count directly — *"a partner count N would enter the amplitude cubed, and the measured amplitude against the closed form pins **N = 1.003 ± 0.005**."* A derived integer checked against data rather than asserted.
+
+## C. What the MATH_SPINE pass found, whole
+
+**≈74% read. One live finding, and the file had already flagged it.**
+
+| # | finding | status |
+|---|---|---|
+| 1 | **T_c = 177.10 keV excluded** by the electron-coupled scalar's own two internal determinations (307–714 keV); **BBN clearance not established for the field's own temperature**, 53% of the corrected band past the [70,500] keV window | **file-flagged, unpaid** — the re-keying is owed |
+| 2 | **Σm_ν = 61.4 at four sites** incl. the **live falsifier list**, against the registry's 61.3 | owner decision 4 |
+| 3 | **`full_cycle_kp.py` not retained** — the internal falsifier that killed Route-D is **disclosed but unreproducible** | owner decision 6 |
+| — | "turn, computed" vs the withdrawal | **attacked; HOLDS** (explicit branch fence) |
+| — | bounce sector | **computed self-refutation**; no defect |
+| — | §5–§6a fitted era, neutrino tie, closing ledger | no claim outrunning evidence |
+
+**Three findings in ~700 lines of the derivation hub. Two are bookkeeping. One is physics the file itself raised.**
+
+## D. Red's summary judgement on the hub
+
+Red attacked this file at its headline (`T_c`), its bounce sector (BKL), its withdrawn phrasing, its evidence number, and its own self-grading. **The corpus's honesty discipline is not a veneer over the derivation hub — it is load-bearing inside it.** The file states its own worst numbers before being asked, prices its own escapes out of reach, grades itself as a map rather than a derivation, and forbids its most attackable phrasing in writing.
+
+**That is the finding red would report to a referee, and it is not a small one.**
+
+## E. Standing
+
+Nine properties corpus-wide (six clean, three with findings) · MATH_SPINE ≈74% · **no open class cleared** · **#94 OPEN**.
+
+T14 **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · bbnfix **REFUSED** · **COMPLETE physics 0**.
+
+**Owner list — six.** P-2026-004 registry · five dangling IDs · one ID format · **Σm_ν (4 spine sites + falsifier list)** · currency convention · **KP reproducibility**.
+
+**WHOSE_TURN → Owner** the six **∥ Blue/ChatGPT** table escapes · dyad sweep **∥ Claude** MATH_SPINE remaining ~26%, then §5–§6a of the slice's other giants **∥ Machine** bbnfix.
+
+*NO FABRICATIONS. A hub that refuses to inherit its children's grades is doing the hardest part of the job. COMPLETE physics 0.*
