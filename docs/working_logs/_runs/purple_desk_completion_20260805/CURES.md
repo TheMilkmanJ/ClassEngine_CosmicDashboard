@@ -16,6 +16,7 @@
 | `docs/working_logs/_runs/blocked_lane_zondisp_20260805/REPORT.md` and dependent onset/alpha_c docs | froze the shared parked `zon_disp` lane as one authority lane for quartet clock and mass-propagation claims | DONE |
 | `docs/working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` and dependent anomaly docs | froze the shared BipoSH / axis-family blocker as one authority lane for the low-ell anomaly family | DONE |
 | `docs/working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md` and dependent BBN docs | froze the shared D/H fork as one authority lane for absolute deuterium-blocked shelf language | DONE |
+| `docs/working_logs/_runs/blocked_lane_lss_parity_20260805/REPORT.md` and dependent parity docs | froze the shared LSS parity lane and corrected the stale “no direct DESI 4PCF yet” shelf state | DONE |
 | `docs/working_logs/_runs/purple_desk_completion_20260805/CLAUDE_RETURN_SPLIT_50_50.md` | staged Claude's wake-up work as a finite 50/50 split instead of a loose review request | DONE |
 
 See also:
@@ -29,5 +30,6 @@ See also:
 - `CHATGPT_PURPLE_SLICE_07.md`
 - `CHATGPT_PURPLE_SLICE_08.md`
 - `CHATGPT_PURPLE_SLICE_09.md`
+- `CHATGPT_PURPLE_SLICE_10.md`
 - `CLAUDE_RETURN_SPLIT_50_50.md`
 - `MAJOR_DOC_ARXIV_MATRIX.md`

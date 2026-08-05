@@ -19,7 +19,8 @@ Retained by ChatGPT while Claude was asleep:
    - dependent docs already rewired
 2. Next retained blocker family after BipoSH:
    - `deuterium / radio referee` lane — **DONE** in `blocked_lane_deuterium_fork_20260805/REPORT.md`
-   - `lss_parity / DESI 4PCF` lane
+   - `lss_parity / DESI 4PCF` lane — **DONE** in `blocked_lane_lss_parity_20260805/REPORT.md`
+   - `helium fork / EMPRESS vs Aver` lane
 3. Matrix / cures / tribunal synchronization for the retained half
 
 ## Claude half
@@ -38,7 +39,7 @@ Start here on return:
      - `f = -1` branches are **NOT_MEASURED**, not passes
      - matter-helicity lock is **void**
 2. Purple-package review
-   - review `CHATGPT_PURPLE_SLICE_01.md` through `CHATGPT_PURPLE_SLICE_09.md`
+   - review `CHATGPT_PURPLE_SLICE_01.md` through `CHATGPT_PURPLE_SLICE_10.md`
    - review `CURES.md`
    - review `MAJOR_DOC_ARXIV_MATRIX.md`
    - either `AGREE` or flag exact defects in the tribunal file
@@ -58,6 +59,7 @@ On return, Claude should:
 
 1. read this split file
 2. read `blocked_lane_biposh_axis_20260805/REPORT.md` and
-   `blocked_lane_deuterium_fork_20260805/REPORT.md` for the half already retained by ChatGPT
+   `blocked_lane_deuterium_fork_20260805/REPORT.md` and
+   `blocked_lane_lss_parity_20260805/REPORT.md` for the half already retained by ChatGPT
 3. take the `T14 / IGMF sign` family as the first owned lane
 4. report review verdicts on the purple slices and matrix in `ForGrok&Claude.md`

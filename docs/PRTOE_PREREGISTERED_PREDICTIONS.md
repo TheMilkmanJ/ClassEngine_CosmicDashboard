@@ -1844,7 +1844,11 @@ the model has no channel that produces it.
 original statistic. That outcome leaves the model with no channel and either points to chirality
 that is not ours or ends its claim to being the framework that natively carries one.
 
-**Standing as of 2026-07-19 — favorable, not decisive:**
+**Standing as of 2026-08-05 — favorable, not decisive:**
+- arXiv:2512.20132 (2025-12-23), *Parity-odd Four-Point Correlation Function from DESI Data
+  Release 1 Luminous Red Galaxy Sample*: the direct DESI DR1 parity-odd 4PCF result is
+  **consistent with zero** overall; apparent excesses up to ~4σ arise only in one uncorrected
+  covariance treatment, and the paper flags low DR1 completeness as a likely sensitivity limit.
 - arXiv:2604.06021 (2026-04-07), *Testing parity with composite-field spectra of BOSS and DESI
   luminous red galaxies*: **no evidence for parity violation in either survey**, with DESI's scatter
   smaller than BOSS DR12's by about a factor of four.
@@ -1853,9 +1857,10 @@ that is not ours or ends its claim to being the framework that natively carries 
   2025); covariance estimation and whether the mocks reproduce the data's statistics are the
   acknowledged weak points of the original measurement.
 
-**What would settle it:** a direct 4PCF measurement on DESI, on the original statistic.
-arXiv:2604.06021 uses composite-field (kurto) spectra, so it denies the signal an independent
-confirmation at higher precision rather than refuting the original on its own terms.
+**What would settle it more sharply:** higher-completeness direct DESI 4PCF releases on the
+original statistic. arXiv:2512.20132 has already landed for DR1 and is favorable, but its own
+authors flag completeness-limited sensitivity; arXiv:2604.06021 is corroborating rather than the
+same statistic.
 
 ## P-2026-056: The dark-energy branch — P-2026-018 XOR Route-D, and DESI DR3 adjudicates (registered 2026-07-20, before the deciding chain reports)
 

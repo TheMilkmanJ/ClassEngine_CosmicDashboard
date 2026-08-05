@@ -82,7 +82,7 @@ Non-negotiable interpretations:
 | `PRTOE_koide_relation.md` | `BLOCKED` | open theory in pacing / sign-chain / #101/#102 lane | close the derivation debt first |
 | `PRTOE_lattice_note.md` | `ARXIV_READY` | source note for `papers/lattice-tc-gap/`; package is already narrow and clean | external gate only |
 | `PRTOE_lowell_anomalies.md` | `BLOCKED` | BipoSH data application is still external | wait for the shared BipoSH referee; see `../blocked_lane_biposh_axis_20260805/REPORT.md` |
-| `PRTOE_lss_parity.md` | `BLOCKED` | external DESI 4PCF referee still owed | wait for the external referee |
+| `PRTOE_lss_parity.md` | `BLOCKED` | external state is favorable but not fully closed | wait for `../blocked_lane_lss_parity_20260805/REPORT.md` |
 | `PRTOE_me_mechanism_math.md` | `EXPLORATORY` | mechanism companion; public radio / BBN slices already extracted elsewhere | keep as support math note |
 | `PRTOE_neutrino_home.md` | `BLOCKED` | joint `Sigma m_nu` story still machine-gated; Fairbank path on hold | wait for booked joint fit; see `blocked_lane_bbnfix_20260805/REPORT.md`; do not promote the home file |
 | `PRTOE_neutrino_sector.md` | `ARXIV_READY` | source note for `papers/neutrino-mbb/`; package exists already | external gate / owner Fairbank hold only |

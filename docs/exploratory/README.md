@@ -11,7 +11,8 @@ exploratory narrative as if it were the program’s standing public claim.
 
 | Where authority lives | Path |
 |---|---|
-| **Living expansion docs (shelf)** | [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md), [`../PRTOE_honest_status.md`](../PRTOE_honest_status.md), [`../PRTOE_READERS_RISK.md`](../PRTOE_READERS_RISK.md), and other `docs/PRTOE_*.md` outside this folder |
+| **Living expansion docs (shelf)** | [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md), [`../PRTOE_READERS_RISK.md`](../PRTOE_READERS_RISK.md), and other `docs/PRTOE_*.md` outside this folder |
+| **Internal board (not shelf)** | [`../PRTOE_honest_status.md`](../PRTOE_honest_status.md) — private candid self-assessment, deliberately off the reader-facing shelf; cite it as an internal authority, do not read it as audience-facing |
 | **Residual freezes / run packages** | [`../working_logs/_runs/`](../working_logs/_runs/) (Page, bbnfix, bounce, soft-claim, etc.) |
 | **Shelf fence rule** | [`../working_logs/TOE_EXPANSION_SHELF_FENCE_20260803.md`](../working_logs/TOE_EXPANSION_SHELF_FENCE_20260803.md) |
 
