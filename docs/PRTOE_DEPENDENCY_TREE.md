@@ -7,7 +7,7 @@
 >
 > | residual | stamp (2026-08-05) |
 > |---|---|
-> | Live cosmology product (bookable H₀ / Σm_ν / S₈ from the bbnfix pair) | **OPEN-MACHINE** — conditional on bbnfix book; CURRENT gate **REFUSED** (lcdm R−1 **0.049324** N=26294 t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 — **1.14×** stop, `converged: false`; pair still closed; routeD **0.728432**@N=8120 t=2026-08-05T12:54:11 — ~7.28× its 0.1 stop) |
+> | Live cosmology product (bookable H₀ / Σm_ν / S₈ from the bbnfix pair) | **OPEN-MACHINE** — conditional on bbnfix book; CURRENT gate **REFUSED** (lcdm R−1 **0.049324** N=26294 t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 — **1.20×** stop, `converged: false`; pair still closed; routeD **0.728432**@N=8120 t=2026-08-05T12:54:11 — ~7.28× its 0.1 stop) |
 > | Page Q6 | **OPEN**; `page_curve_claimed: false` (no invent close) |
 > | Bounce classical turn / exterior H_re | **OPEN-BLOCKED** |
 > | Strong CP | **COMPLETE-ABSTENTION** — not a solution lane |
