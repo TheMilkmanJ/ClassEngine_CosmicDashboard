@@ -1352,8 +1352,8 @@ width) each, partially repaid by their likelihood gains — the chain demonstrab
 z_on ≈ 6–8×10⁷ over the coded 4×10⁷) plus the new dispersion shape. Costs and gains
 roughly cancel: PolyChord should land NEAR the Laplace estimate, slightly reshuffled. The
 ≥+5 forecast requires the data to reward the freed sector well beyond the Laplace-era fit.
-GRADING: the number lands in exactly one interval (≥+5 = aggressive | +2–4 = conservative
-| 4–5 = both graze | <+2.5 = the bottom-out clause and neither).
+GRADING: the number lands in exactly one interval (≥+5 = aggressive; +2–4 = conservative;
+4–5 = both graze; <+2.5 = the bottom-out clause and neither).
 
 **The tide argument (filed pre-verdict):** freed parameters that do real work do not
 net-cancel — they pay up in tide: a parameter that actively relieves a CROSS-DATASET
