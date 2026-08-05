@@ -14654,3 +14654,55 @@ T14 **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · bbnfix **REFUSED
 **WHOSE_TURN → Owner** the six **∥ Blue/ChatGPT** table escapes · dyad sweep **∥ Claude** MATH_SPINE remaining ~26%, then §5–§6a of the slice's other giants **∥ Machine** bbnfix.
 
 *NO FABRICATIONS. A hub that refuses to inherit its children's grades is doing the hardest part of the job. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 16 — §10/§22 read (~80%); the corpus's own protocol names exactly what P-2026-004 broke @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+**Coverage: ≈820 of 1,028 (≈80%).** Remaining gaps: ~130–185, ~570–600, ~821–960. **#94 NOT discharged.**
+
+## A. The protocol at `:804-806` is the sharpest framing of red's own finding
+
+The file states its standing law:
+
+> *"when a claim dies, **record why** — which step failed, which coupling, and which downstream claims inherit the death — **rather than letting it lapse quietly**."*
+
+**P-2026-004 obeys the first half of that law and breaks the second.** The death is recorded in **five** files with its cause (DESI), its band (`Σm_ν ∈ [0.11, 0.17] eV`), and its inheritance. What is missing is the **registration** — the registry has no entry, so the thing that died cannot be shown to have been alive beforehand.
+
+**That reframes owner decision 1 correctly.** It is not a filing error against an external standard; it is a **gap against the corpus's own stated protocol**, in the half the corpus otherwise performs better than most published work. **Red would rather state it that way, because it is both more accurate and more useful.**
+
+## B. The capstone grades itself as grammar, not evidence
+
+`:789-790`, closing §10 — the "atom reading", the most rhetorically expansive section in the file:
+
+> *"**Status: the grammar is coherence** (graded throughout); **the empirical content lives in the children** and the symptom chart. **The method was the subject.**"*
+
+A capstone that declares its own content to be **coherence rather than evidence**, and pushes the empirical weight down to its children. `:786` marks the why-now leg **OPEN** inside the same section.
+
+`:797-800` does the same to the coincidence problem — the √3 one-pager is *"discharged **for width only**"*, and *"**occupancy / ordinary why-now remains OPEN** — **not a coincidence close**"*. **A result that would be trivially overclaimable as "we solved the coincidence problem", explicitly refusing that reading in its own sentence.**
+
+## C. Negative results recorded as results
+
+- `:815` — *"the thermal-leptogenesis surface is **EMPTY** (×40–1000 under everywhere)"*, driving a route change to the native AD-direct path with the sphaleron-timing crux named.
+- `:818` — *"the λ trial chain **failed its own bounce self-check** (informative)."*
+- `:820-821` — the winding-patch isocurvature would be *"CMB-dead ×5–7"*, forcing **λ ≤ 2×10⁻⁹¹**.
+
+**Three failures recorded, each with what it costs and what it forces. None of them lapsed quietly.**
+
+## D. Nothing adverse in this stretch
+
+No claim outrunning evidence. Red attacked the capstone — the section most likely to overreach — and found it grading itself down.
+
+## E. MATH_SPINE pass, final tally at ~80%
+
+**Three findings across ~820 lines of the derivation hub**, unchanged: T_c exclusion (file-flagged, unpaid) · Σm_ν 61.4 ×4 incl. falsifier list · `full_cycle_kp.py` unreproducible. **Two attacks failed and were reported as failures.**
+
+## F. Standing
+
+Nine properties corpus-wide (six clean, three with findings) · MATH_SPINE **≈80%** · **no open class cleared** · **#94 OPEN**.
+
+T14 **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · bbnfix **REFUSED** · **COMPLETE physics 0**.
+
+**Owner list — six, unchanged.** Decision 1 now best stated as: *P-2026-004's death was recorded per protocol; its registration was not.*
+
+**WHOSE_TURN → Owner** the six **∥ Blue/ChatGPT** table escapes · dyad sweep **∥ Claude** MATH_SPINE remaining ~20% **∥ Machine** bbnfix.
+
+*NO FABRICATIONS. The law says record why it died; the registry has to show it was alive. COMPLETE physics 0.*

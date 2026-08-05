@@ -4,7 +4,7 @@
 >
 > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on joint Σm_ν posterior · Fairbank path **HOLD** · m_ββ package **READY not posted**.
 >
-> **1. Σm_ν joint waits on `dyad_mnu_bbnfix` book.** Live pair: model `dyad_mnu_bbnfix` (Σm_ν free) vs twin `cmp_lcdm_mnu_bbnfix`. Progress: dyad N=24677 **R−1=0.056889** (t=2026-08-05T07:54:30; **1.14×** stop; `converged: false`), lcdm N=26294 **R−1=0.049324** (t=2026-08-05T11:52:10; control leg ready; `converged: true`). Bookable **NO** — requires both progress R−1 < 0.05 **and** `converged: true`, then `scripts/book_bbnfix_when_ready.py`. Offline GetDist GR (~0.086 / ~0.07) is **diagnostic only**, never the gate. Double-duty conv_g (T3 item 2) rides unproduced `conv_desi` / early routeD, not desk. §2 minima table is **not** the joint posterior — **no invented posteriors**. Live authority: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
+> **1. Σm_ν joint waits on `dyad_mnu_bbnfix` book.** Live pair: model `dyad_mnu_bbnfix` (Σm_ν free) vs twin `cmp_lcdm_mnu_bbnfix`. Progress: dyad N=26135 **R−1=0.060201** (t=2026-08-05T15:50:02; **1.20×** stop; `converged: false`), lcdm N=26294 **R−1=0.049324** (t=2026-08-05T11:52:10; control leg ready; `converged: true`). Bookable **NO** — requires both progress R−1 < 0.05 **and** `converged: true`, then `scripts/book_bbnfix_when_ready.py`. Offline GetDist GR (~0.086 / ~0.07) is **diagnostic only**, never the gate. Double-duty conv_g (T3 item 2) rides unproduced `conv_desi` / early routeD, not desk. §2 minima table is **not** the joint posterior — **no invented posteriors**. Live authority: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 >
 > **2. Fairbank HOLD.** Experimental letter + hep-ph endorsement path paused at owner. Desk does **not** email Fairbank, invent endorsement, or invent a second Fairbank TeX. Companion: [exploratory/PRTOE_fairbank_note_HOLD.md](exploratory/PRTOE_fairbank_note_HOLD.md). Draft letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md). Owner branch table: [arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md](working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md).
 >
@@ -24,7 +24,7 @@ Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full secto
 
 Third thread of the atomic-constant survey; collects the neutrino-sector relation. One registered prediction rides it (P-2026-023). Relative to standard cosmology, the model shifts the *inferred* neutrino mass upward, not down.
 
-**Status.** Lightest-mass relation and upward shift established in the model. Open: joint-fit consistency (**OPEN-MACHINE**, `dyad_mnu_bbnfix` book not ready 2026-08-05 — lcdm R−1 0.049324 with `converged:true`, dyad 0.056889 with `converged:false`, pair still refused), Fairbank HOLD + m_ββ READY not posted (owner/external), exact v_L branch selection, comparison with direct and oscillation bounds.
+**Status.** Lightest-mass relation and upward shift established in the model. Open: joint-fit consistency (**OPEN-MACHINE**, `dyad_mnu_bbnfix` book not ready 2026-08-05 — lcdm R−1 0.049324 with `converged:true`, dyad 0.060201 with `converged:false`, pair still refused), Fairbank HOLD + m_ββ READY not posted (owner/external), exact v_L branch selection, comparison with direct and oscillation bounds.
 
 ## 0. Standard-cosmology tension
 
@@ -68,7 +68,7 @@ Standard cosmology pushes neutrino mass down. This model keeps it heavy enough t
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Neutrino mass medium-sourced (not ordinary Higgs Yukawa) | **interpretation** / structural | §1 | Inverse-seesaw / Majoron seating |
-| 2 | Model fit prefers m_ncdm ~0.07–0.09 eV (upward vs ΛCDM 0) | **machine-backed** provisional | §2 table; P-2026-023 | **OPEN-MACHINE:** joint `dyad_mnu_bbnfix` book **NO** (lcdm R−1=**0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged:true`; dyad **0.056889**@N=24677 t=2026-08-05T07:54:30 with `converged:false`) |
+| 2 | Model fit prefers m_ncdm ~0.07–0.09 eV (upward vs ΛCDM 0) | **machine-backed** provisional | §2 table; P-2026-023 | **OPEN-MACHINE:** joint `dyad_mnu_bbnfix` book **NO** (lcdm R−1=**0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged:true`; dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 with `converged:false`) |
 | 3 | Upward shift direction generic to varying-m_e | **interpretation** | §4 | Specific numbers are model’s |
 | 4 | Exact v_L derivation / branch selection | **OPEN** | status; T3 | Benchmark A: 5 MeV candidate; MeV vs high-v_L is CMB-S4 / leptogenesis, not desk |
 | 5 | CMB-S4 tests MeV-scale v_L corner (P-2026-025) | **registered** | §3 | High-v_L corner not accessible |
