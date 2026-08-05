@@ -7,6 +7,8 @@
 > **Authority:** claims ledger this file; arXivReady `lattice-tc-gap`; [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
 > **Paper path:** this file is the **source note** for `papers/lattice-tc-gap/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** as a literature-gap note. The package is the ship artifact; this file remains the fuller shelf record. Remaining arXiv gate is **hep-lat endorsement only**.
 > **Currency:** **WATCH-EXTERNAL** lattice computation. Live falsifier is **clause 4** (window kill / neighbour inference). Crown-vs-null discrimination (clauses 2/3) is **not executable** at present cosmological precision — the limit is the sky’s ρ_Λ error, not lattice effort (even σ=0 lattice ≈0.98σ; ordinary 1–3% scores neither way). P-2026-048.
+> **Authority card (2026-08-05):** shared lattice tau-gate state is centralized in
+> [blocked_lane_lattice_tau_gate_20260805/REPORT.md](working_logs/_runs/blocked_lane_lattice_tau_gate_20260805/REPORT.md).
 
 *Approved for circulation (owner, 2026-07-18).*
 

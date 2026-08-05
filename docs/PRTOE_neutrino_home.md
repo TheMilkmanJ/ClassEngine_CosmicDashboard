@@ -16,6 +16,9 @@
 >
 > **Blocked-lane audit:** shared `bbnfix` booking gate is frozen in
 > [blocked_lane_bbnfix_20260805/REPORT.md](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
+>
+> **Fairbank hold card:** shared owner-hold posting state is frozen in
+> [blocked_lane_fairbank_hold_20260805/REPORT.md](working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md).
 
 Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full sector: [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md). Letter to experiment: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md). Package path: [arXivReady README](arXivReady/README.md) · [arxiv owner prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md).
 
@@ -70,8 +73,8 @@ Standard cosmology pushes neutrino mass down. This model keeps it heavy enough t
 | 4 | Exact v_L derivation / branch selection | **OPEN** | status; T3 | Benchmark A: 5 MeV candidate; MeV vs high-v_L is CMB-S4 / leptogenesis, not desk |
 | 5 | CMB-S4 tests MeV-scale v_L corner (P-2026-025) | **registered** | §3 | High-v_L corner not accessible |
 | 6 | conv_g double-duty (Σm_ν + S₈ in one fit) | **OPEN-BLOCKED** | T3/T4 | **OPEN-MACHINE:** conv_desi unproduced |
-| 7 | Fairbank experimental path | **WATCH-EXTERNAL** / **HOLD** | letter draft; arxiv_owner_prep | Owner-only; desk does not email / endorse / post |
-| 8 | m_ββ window package (`neutrino-mbb`) | **READY_PACKAGE** not posted | arXivReady; PACKAGE_INVENTORY | hep-ph endorsement; Fairbank thread live; **no invent arXiv ID** |
+| 7 | Fairbank experimental path | **WATCH-EXTERNAL** / **HOLD** | letter draft; arxiv_owner_prep | Owner-only; desk does not email / endorse / post; see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
+| 8 | m_ββ window package (`neutrino-mbb`) | **READY_PACKAGE** not posted | arXivReady; PACKAGE_INVENTORY | hep-ph endorsement; Fairbank thread live; **no invent arXiv ID**; see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
 
 **Non-claims / forbidden:** not a precision Σm_ν discriminator; full sector lives in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md); no booked joint posterior until gate; no “posted” without arXiv ID; no second Fairbank TeX.
 

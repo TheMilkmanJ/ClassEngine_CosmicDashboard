@@ -7,6 +7,9 @@
 > **Paper path:** this file is the **source note** for `papers/neutrino-mbb/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** and is the only ship artifact for the m_ββ window. **Fairbank HOLD:** owner submitted that package to William Fairbank 2026-08-03; **no arXiv post** claimed. Owner prep: [arxiv_owner_prep_20260804](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md). Full honesty package: [neutrino_full_honesty_20260804](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
 >
 > **Forbidden:** invent joint posteriors; claim package “posted”; invent second Fairbank TeX; treat null 0νββ as confirmation.
+>
+> **Authority card (2026-08-05):** Fairbank hold / posting state is centralized in
+> [blocked_lane_fairbank_hold_20260805/REPORT.md](working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md).
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Home / joint-fit residual: [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md). Letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md).
 
@@ -170,8 +173,8 @@ Still open:
 | 5 | Funnel edge m₁* ≈ ρ_Λ¼ at centrals (~0.45%) | **machine-backed** arithmetic | `funnel_edge_identity.py` | ±0.24 meV θ₁₂ band → ~0.04σ; not precision coincidence |
 | 6 | Only nEXO overlaps ceiling; ~10.8% phase space | **machine-backed** / literature reach | experiment table | Ba tagging weakens discrimination |
 | 7 | Exact μ; flavor distribution; ρ_inf closure | **OPEN-BLOCKED** | §2 open | **OPEN-THEORY** + α_c instrument offline |
-| 8 | `neutrino-mbb` arXiv package | **READY_PACKAGE** not posted | papers/ · arXivReady · arxiv_owner_prep | Fairbank HOLD; hep-ph endorsement; desk does not post |
-| 9 | Fairbank correspondence / letter | **WATCH-EXTERNAL** / **HOLD** | fairbank_note_draft; HOLD companion | Owner-only; not a second TeX package |
+| 8 | `neutrino-mbb` arXiv package | **READY_PACKAGE** not posted | papers/ · arXivReady · arxiv_owner_prep | Fairbank HOLD / posting state: see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
+| 9 | Fairbank correspondence / letter | **WATCH-EXTERNAL** / **HOLD** | fairbank_note_draft; HOLD companion | Owner-only; not a second TeX package; see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
 
 **Non-claims:** not derived DE value; not flavor structure; not confirmation via null; not booked Σm_ν joint; not “posted to arXiv.”
 

@@ -4,6 +4,10 @@
 
 *Status: **experimental letter** · **CORPUS_ONLY** (not an arXiv package; ship path = `neutrino-mbb` only). The bridge to the neutrino sector is a registered model relation, not a first-principles derivation. **HOLD** — desk does not email Fairbank, invent endorsement, or invent a second Fairbank TeX.*
 
+**Authority cards (2026-08-05).**
+- Fairbank hold / posting path: `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md`
+- live helium benchmark state: `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`
+
 > **Currency residual freeze — 2026-08-05.** Live bbnfix progress (quote R−1 **with N and timestamp**): model `dyad_mnu_bbnfix` R−1 = **0.056889** (N=24677, t=2026-08-05T07:54:30 — **1.14×** stop; `converged: false`), twin `cmp_lcdm_mnu_bbnfix` R−1 = **0.049324** (N=26294, t=2026-08-05T11:52:10 — control leg ready; `converged: true`). **NOT bookable.** Do **not** quote H₀ / joint posteriors as results until `scripts/book_bbnfix_when_ready.py` passes (requires both R−1 < 0.05 **and** self-stop). Cross-links: [neutrino_full_honesty](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md) · [arxiv_owner_prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md) · [neutrino_home](PRTOE_neutrino_home.md) · [HOLD companion](exploratory/PRTOE_fairbank_note_HOLD.md) · booking refuse card [bbnfix_booking_20260805_190348](working_logs/_runs/bbnfix_booking_20260805_190348/REPORT.md).
 
 ## Result in three sentences
@@ -93,7 +97,7 @@ Context: ~99% of ordinary mass is QCD-condensate binding. This model adds one mo
 
 ### BBN (worst column)
 
-Deliberately absent from the fit list above. Electron-mass shift is on during nucleosynthesis; sector is rigid (inputs derived or measured) — model cannot coach its witness. Net adverse. Y_p +1.3 to +2.0σ above Aver, +3.8 to +4.4σ vs EMPRESS (helium civil war unresolved). D/H predicted 2.407–2.463×10⁻⁵ vs Cooke 2.527 ± 0.030 → −2.5 to −1.4σ on the full budget (obs. ±0.030 ⊕ PRIMAT post-LUNA ±0.037). Ranges span ζ = T_dark/T_γ ∈ [0.25, 0.35], used everywhere it appears; CMB-S4 measures it via ΔN_eff = 0.06–0.24.
+Deliberately absent from the fit list above. Electron-mass shift is on during nucleosynthesis; sector is rigid (inputs derived or measured) — model cannot coach its witness. Net adverse. The live helium benchmark state moved in 2025-2026 and is now centralized in `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`; do not headline the older Aver/EMPRESS sigma pair as current literature currency. D/H predicted 2.407–2.463×10⁻⁵ vs Cooke 2.527 ± 0.030 → −2.5 to −1.4σ on the full budget (obs. ±0.030 ⊕ PRIMAT post-LUNA ±0.037). Ranges span ζ = T_dark/T_γ ∈ [0.25, 0.35], used everywhere it appears; CMB-S4 measures it via ΔN_eff = 0.06–0.24.
 
 *(Next section uses ζ baseline before dark-radiation dilution; same calculation, earlier stage: 2.387×10⁻⁵.)*
 

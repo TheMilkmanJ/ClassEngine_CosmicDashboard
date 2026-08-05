@@ -55,14 +55,14 @@ Non-negotiable interpretations:
 | `PRTOE_THREE_EQUATIONS.md` | `EXPLORATORY` | front-door multi-claim hub | keep as elevator / overview only |
 | `PRTOE_TRIALS_FACTOR.md` | `EXPLORATORY` | meta-discipline file | keep as audit |
 | `PRTOE_baryogenesis.md` | `EXPLORATORY` | fuller sector note; forward `omega_J` micro input still open | keep on shelf unless a narrow closed subclaim emerges |
-| `PRTOE_bbn_witness.md` | `ARXIV_READY` | source note for `papers/bbn-eps-bound/`; package is clean and narrow | external gate only; optional dense full-window scan remains non-blocking; full D/H fork stays on shelf in `../blocked_lane_deuterium_fork_20260805/REPORT.md` |
+| `PRTOE_bbn_witness.md` | `ARXIV_READY` | source note for `papers/bbn-eps-bound/`; package is clean and narrow | external gate only; optional dense full-window scan remains non-blocking; D/H fork stays on shelf in `../blocked_lane_deuterium_fork_20260805/REPORT.md`; live helium benchmark state in `../blocked_lane_helium_fork_20260805/REPORT.md` |
 | `PRTOE_bigbang_no_singularity.md` | `BLOCKED` | bounce dynamics still open theory | close bounce dynamics first or keep blocked |
 | `PRTOE_blackholes_no_singularity.md` | `EXPLORATORY` | structural synthesis / conditional hub | keep as shelf synthesis |
 | `PRTOE_build_2loop_Veff_spec.md` | `EXPLORATORY` | negative build record tied to framework `T_c` story | keep as corpus record |
 | `PRTOE_cmb_anomalies.md` | `BLOCKED` | BipoSH data application still owed | wait for the shared BipoSH referee; see `../blocked_lane_biposh_axis_20260805/REPORT.md`; do not promote now |
 | `PRTOE_coincidence_problem.md` | `EXPLORATORY` | width result paid, occupancy not | keep as honesty split, not a paper |
 | `PRTOE_cosmic_magnetism.md` | `BLOCKED` | real open theory debt remains in RM / amplitude lane | close the missing formula layer first |
-| `PRTOE_cosmological_constant.md` | `BLOCKED` | full stack still depends on lattice `tau` referee and wider chain | keep blocked until the stack closes honestly |
+| `PRTOE_cosmological_constant.md` | `BLOCKED` | full stack still depends on lattice `tau` referee and wider chain | keep blocked until the stack closes honestly; see `../blocked_lane_lattice_tau_gate_20260805/REPORT.md` |
 | `PRTOE_cyclic_torus_genesis.md` | `BLOCKED` | open theory / story-grade sector, not closed science | keep blocked until mechanism debts close |
 | `PRTOE_dcdf_superfluid.md` | `EXPLORATORY` | identity file with residuals named open | keep as identity note |
 | `PRTOE_deuterium_row.md` | `BLOCKED` | D/H fork still open externally | wait on `../blocked_lane_deuterium_fork_20260805/REPORT.md` |
@@ -84,8 +84,8 @@ Non-negotiable interpretations:
 | `PRTOE_lowell_anomalies.md` | `BLOCKED` | BipoSH data application is still external | wait for the shared BipoSH referee; see `../blocked_lane_biposh_axis_20260805/REPORT.md` |
 | `PRTOE_lss_parity.md` | `BLOCKED` | external state is favorable but not fully closed | wait for `../blocked_lane_lss_parity_20260805/REPORT.md` |
 | `PRTOE_me_mechanism_math.md` | `EXPLORATORY` | mechanism companion; public radio / BBN slices already extracted elsewhere | keep as support math note |
-| `PRTOE_neutrino_home.md` | `BLOCKED` | joint `Sigma m_nu` story still machine-gated; Fairbank path on hold | wait for booked joint fit; see `blocked_lane_bbnfix_20260805/REPORT.md`; do not promote the home file |
-| `PRTOE_neutrino_sector.md` | `ARXIV_READY` | source note for `papers/neutrino-mbb/`; package exists already | external gate / owner Fairbank hold only |
+| `PRTOE_neutrino_home.md` | `BLOCKED` | joint `Sigma m_nu` story still machine-gated; Fairbank path on hold | wait for booked joint fit; see `blocked_lane_bbnfix_20260805/REPORT.md` and `../blocked_lane_fairbank_hold_20260805/REPORT.md`; do not promote the home file |
+| `PRTOE_neutrino_sector.md` | `ARXIV_READY` | source note for `papers/neutrino-mbb/`; package exists already | external gate / owner Fairbank hold only; see `../blocked_lane_fairbank_hold_20260805/REPORT.md` |
 | `PRTOE_quantum_gravity.md` | `EXPLORATORY` | full QG hub is corpus-only; only supertrace algebra is shipped | keep as hub; do not paper the whole file |
 | `PRTOE_quartet_clock.md` | `BLOCKED` | machine debt remains with `zon_disp` parked | wait for machine closure; see `blocked_lane_zondisp_20260805/REPORT.md` |
 | `PRTOE_radio_lattice.md` | `ARXIV_READY` | source note for `papers/radio-lattice/`; package is already clean | external gate only |

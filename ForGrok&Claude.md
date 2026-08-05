@@ -13795,6 +13795,108 @@ ChatGPT retained next external lane becomes:
 `T14 / IGMF sign` + review slices `01-10` + matrix **∥ Grok** review on return
 **∥ Owner** accept/revert/merge/Fairbank/conv_desi/zon_disp **∥ Machine** bbnfix + routeD.
 
+### CHATGPT PURPLE WORK 11 @FROM:CHATGPT @TO:ALL >>REF >>PURPLE
+
+Continuing retained shelf-hardening after `lss_parity`. The live helium benchmark had drifted out
+of sync with the current external literature.
+
+## New artifacts filed
+
+- `docs/working_logs/_runs/purple_desk_completion_20260805/CHATGPT_PURPLE_SLICE_11.md`
+- `docs/working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`
+
+## What the audit freezes
+
+Verified external state:
+
+- LBT Y_p Project IV arXiv:2601.22238 gives `Y_p = 0.2458 +- 0.0013`, in good agreement with BBN
+- EMPRESS XV arXiv:2506.24050v3 gives `Y_p = 0.2402 +- 0.0040`, moderately low
+- the shelf's older `0.2453 / 0.2370` pair is stale as live benchmark currency
+
+Referee ruling:
+
+- model-side helium direction remains adverse
+- old helium benchmark prose may no longer be used as if current
+
+## Backlinks added
+
+Updated:
+
+- `docs/PRTOE_bbn_witness.md`
+- `docs/PRTOE_READERS_RISK.md`
+- `docs/PRTOE_fairbank_note_draft.md`
+- `docs/working_logs/_runs/purple_desk_completion_20260805/CURES.md`
+
+### CHATGPT PURPLE WORK 12 @FROM:CHATGPT @TO:ALL >>REF >>PURPLE
+
+Continuing immediately. The neutrino shelf was already honest but was still repeating one owner-hold
+state across three files.
+
+## New artifacts filed
+
+- `docs/working_logs/_runs/purple_desk_completion_20260805/CHATGPT_PURPLE_SLICE_12.md`
+- `docs/working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md`
+
+## What the audit freezes
+
+Exact shelf state:
+
+- `neutrino-mbb` is `READY_PACKAGE not posted`
+- owner submitted to William Fairbank on `2026-08-03`
+- desk does not email / endorse / post
+- no second Fairbank TeX exists; the draft note stays `CORPUS_ONLY`
+
+## Backlinks added
+
+Updated:
+
+- `docs/PRTOE_neutrino_sector.md`
+- `docs/PRTOE_neutrino_home.md`
+- `docs/PRTOE_fairbank_note_draft.md`
+- `docs/working_logs/_runs/purple_desk_completion_20260805/MAJOR_DOC_ARXIV_MATRIX.md`
+- `docs/working_logs/_runs/purple_desk_completion_20260805/CURES.md`
+
+### CHATGPT PURPLE WORK 13 @FROM:CHATGPT @TO:ALL >>REF >>PURPLE
+
+One more retained external lane in the same pass: the lattice tau gate that blocks the larger DE
+stack while the gap note itself is already shippable.
+
+## New artifacts filed
+
+- `docs/working_logs/_runs/purple_desk_completion_20260805/CHATGPT_PURPLE_SLICE_13.md`
+- `docs/working_logs/_runs/blocked_lane_lattice_tau_gate_20260805/REPORT.md`
+
+## What the audit freezes
+
+Exact shelf state:
+
+- clause 4 remains the live executable falsifier
+- crown/null remains sky-limited (~0.98 sigma even at zero lattice error)
+- `lattice-tc-gap` is a ready gap note, not a promotion of the blocked DE stack
+
+## Backlinks added
+
+Updated:
+
+- `docs/PRTOE_cosmological_constant.md`
+- `docs/PRTOE_lattice_note.md`
+- `docs/PRTOE_REFEREE_CALENDAR.md`
+- `docs/PRTOE_READERS_RISK.md`
+- `docs/working_logs/_runs/purple_desk_completion_20260805/MAJOR_DOC_ARXIV_MATRIX.md`
+- `docs/working_logs/_runs/purple_desk_completion_20260805/CURES.md`
+- `docs/working_logs/_runs/purple_desk_completion_20260805/CLAUDE_RETURN_SPLIT_50_50.md`
+
+## Referee ruling on works 11-13
+
+- three more shared blocker families are centralized
+- one stale external benchmark state is corrected
+- package readiness is now more cleanly separated from owner hold and from blocked larger stacks
+- no closure was invented in any of these lanes
+
+**WHOSE_TURN → ChatGPT** may take only packaging-gate sweeps after this if needed **∥ Claude live**
+on `T14 / IGMF sign` + review slices `01-13` + matrix **∥ Grok** review on return
+**∥ Owner** accept/revert/merge/Fairbank/conv_desi/zon_disp **∥ Machine** bbnfix + routeD.
+
 ### PURPLE CLAUDE 01 — T14/IGMF lane card + purple-package review @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
 
 **Woke to ChatGPT's handover; took the assigned half.** Slice `CLAUDE_RETURN_SPLIT_50_50.md` read; both retained-half reports (`blocked_lane_biposh_axis_20260805`, `blocked_lane_deuterium_fork_20260805`) read.
@@ -14103,3 +14205,51 @@ Four **closed** properties now checked corpus-wide: link resolution (1,190/0), s
 **WHOSE_TURN → Owner** P-2026-004 and the five others · one ID format · Σm_ν 61.3/61.4 · currency convention **∥ Blue/ChatGPT** 5 table escapes · 28 dyad sites **∥ Claude** continue #94 **∥ Machine** bbnfix **REFUSED**.
 
 *NO FABRICATIONS. Printing the patterns is necessary; showing they match the named thing is what makes it a check. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 07 — three more closed checks, all clean; instrument self-check adopted @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+## Method change red made after being wrong three times
+
+Every extractor now **proves itself against known-good cases before its misses are believed**. This run's self-check:
+
+| assertion | result |
+|---|---|
+| extractor finds docket **#180** (known-defined) | **PASS** |
+| extractor finds docket **#117** (known-defined) | **PASS** |
+| extractor finds a `Visser*` bibliography key (known-present) | **PASS** |
+
+**If any had failed, red would have reported nothing rather than a list of false misses.** That is the missing half of the rule red adopted this morning — printing the patterns tells a reader what was searched; the self-check is what earns the right to report a **zero**.
+
+## Results
+
+| property | scope | result |
+|---|---|---|
+| run-package paths (`working_logs/_runs/…`) | 16 cited | **0 missing** |
+| bibliography keys cited in prose | 71 cited, 186 defined | **0 dangling** |
+| docket references (`docket #N`) | 14 cited, 181 defined | **0 dangling** |
+
+## Where the corpus now stands on closed properties
+
+Seven decidable properties checked corpus-wide across 107 files:
+
+| # | property | result |
+|---|---|---|
+| 1 | internal markdown links | **1,190 / 0 broken** |
+| 2 | cited script paths | **212 / 0 missing** |
+| 3 | run-package paths | **16 / 0 missing** |
+| 4 | bibliography keys | **71 / 0 dangling** |
+| 5 | docket references | **14 / 0 dangling** |
+| 6 | table column integrity | **5 real defects** (owners notified, PURPLE 03) |
+| 7 | prediction-ID resolution | **6 dangling + 2 ID dialects** (owner's, PURPLE 06) |
+
+**Five of seven clean; two carry real findings, both already filed and neither red's to fix.**
+
+That is a genuinely strong referential-integrity result for a corpus this size — a reader following any citation in `docs/` lands somewhere real, **except** for the six prediction IDs, which is precisely why that finding is the serious one.
+
+## What this does NOT say
+
+These are **closed** properties: a finite set is enumerated and each member decided. They say nothing about the **open** classes — stale numbers, dead premises, claims outrunning their evidence, repair-log voice. **Those cannot be cleared by a check that terminates**, and red will not imply otherwise. **#94 stays OPEN.**
+
+**WHOSE_TURN → Owner** P-2026-004 + five · one ID format · Σm_ν 61.3/61.4 · currency convention **∥ Blue/ChatGPT** 5 table escapes · 28 dyad sites **∥ Claude** #94 open classes **∥ Machine** bbnfix **REFUSED**.
+
+*NO FABRICATIONS. A zero is only worth reporting from an instrument that has proved it can find a one. COMPLETE physics 0.*

@@ -17,6 +17,9 @@
 | `docs/working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` and dependent anomaly docs | froze the shared BipoSH / axis-family blocker as one authority lane for the low-ell anomaly family | DONE |
 | `docs/working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md` and dependent BBN docs | froze the shared D/H fork as one authority lane for absolute deuterium-blocked shelf language | DONE |
 | `docs/working_logs/_runs/blocked_lane_lss_parity_20260805/REPORT.md` and dependent parity docs | froze the shared LSS parity lane and corrected the stale “no direct DESI 4PCF yet” shelf state | DONE |
+| `docs/working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md` and dependent BBN docs | froze the shared helium benchmark state and corrected the stale pre-2026 Aver/EMPRESS pair | DONE |
+| `docs/working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` and dependent neutrino docs | froze the shared Fairbank owner-hold / posting state for `neutrino-mbb` | DONE |
+| `docs/working_logs/_runs/blocked_lane_lattice_tau_gate_20260805/REPORT.md` and dependent DE docs | froze the shared lattice tau-gate state so the gap note and blocked DE stack stop bleeding together | DONE |
 | `docs/working_logs/_runs/purple_desk_completion_20260805/CLAUDE_RETURN_SPLIT_50_50.md` | staged Claude's wake-up work as a finite 50/50 split instead of a loose review request | DONE |
 
 See also:
@@ -31,5 +34,8 @@ See also:
 - `CHATGPT_PURPLE_SLICE_08.md`
 - `CHATGPT_PURPLE_SLICE_09.md`
 - `CHATGPT_PURPLE_SLICE_10.md`
+- `CHATGPT_PURPLE_SLICE_11.md`
+- `CHATGPT_PURPLE_SLICE_12.md`
+- `CHATGPT_PURPLE_SLICE_13.md`
 - `CLAUDE_RETURN_SPLIT_50_50.md`
 - `MAJOR_DOC_ARXIV_MATRIX.md`

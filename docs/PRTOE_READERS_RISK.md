@@ -173,11 +173,13 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   re-priced), and the windowed BBN books re-run.
   The high-f configuration is the standing one. Its BBN books: the committed ΔN_eff residual
   moves D/H toward Cooke without reaching it (−2.9σ → **−2.5 to −1.4σ** on the quotable budget)
-  while Y_p pays (+1.1σ → **+1.3 to +2.0σ**) and the EMPRESS fork worsens to **+3.8 to +4.4σ**;
+  while helium remains adverse and the live external benchmark state is now split between the LBT
+  Y_p Project IV and EMPRESS XV values in
+  `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`;
   the joint p reads **0.02–0.08** (0.007 without the residual), or 0.12–0.21 if the full inter-code
   spread is folded. The shift is hostage to its own falsifier: CMB-S4 must see
   ΔN_eff ≈ 0.06–0.24. Remaining exposure: the gate's chameleon/Casimir/EP checklist, and the
-  helium Aver/EMPRESS fork.
+  live helium benchmark lane.
 - **(e) A_s, n_s, and the thermal O(1) coefficient are un-built or frozen candidates** — the A_s
   closed form is the corpus's boldest standing claim, frozen into the production configs by design
   (not by a converged posterior). E2E Track A grades the imprint path (γ\*/c_chop candidate-closed;
