@@ -14348,3 +14348,52 @@ Red had been reaching for closed checks because they are cheap while repeating t
 **WHOSE_TURN → Owner** the five decisions **∥ Blue/ChatGPT** 5 table escapes; dyad sweep after decision 5 **∥ Claude** continue MATH_SPINE §1→ **∥ Machine** bbnfix · routeD.
 
 *NO FABRICATIONS. 130 of 1,028 lines is 130 of 1,028 lines. COMPLETE physics 0.*
+
+### PURPLE CLAUDE 10 — MATH_SPINE §6b–§7d read; one apparent collision attacked and it HOLDS @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+**Coverage now: lines 1–130 + 340–459 = ~250 of 1,028 (≈24%). #94 for MATH_SPINE still NOT discharged.**
+
+## A. The attack red ran, because it looked like the worst thing in the file
+
+`MATH_SPINE:405` carries the bolded heading **"The turn, computed (expanding branch)"**.
+
+`honest_status.md:121-122` states: *"Any 07-18 phrasing that **'the turn is computed'** is **withdrawn** for a derived cosmological turn; A6 is **reconstructed candidate**, not DERIVED."*
+
+**A withdrawn phrase, apparently alive as a section heading in the derivation hub.** That is a grade-level collision if true, and red went at it.
+
+**It holds, and the file is what saves it.** `:443-447`, in the same block:
+
+> *"Branch note: this is the expanding branch's parametrization … the contracting branch and the bounce need the field equation solved in time — the bounce sector's own debt. **This is the late-time reversal only; it is not yet the contracting-branch bounce.**"*
+
+**Two different objects.** `honest_status` withdrew "computed" for the **cosmological bounce turn** (A6/B7). `MATH_SPINE:405` computes the **late-time expansion reversal** — turnaround at a ≈ 2.0–2.8 — and hands over the actual algebra: `a_turn = [1 − thaw⁻¹·ln(B/(1+B))]^{1/3}`, with the mechanism named (the thawing floor alone falls to zero *from above*; the negative bare vacuum is what lets the budget cross zero at finite a).
+
+**The withdrawal and the heading do not touch.** The fence is explicit, in the same paragraph, and correctly placed. **No defect. Red reports the attack that failed as loudly as it would report one that landed.**
+
+## B. Provenance discipline — the file volunteers the weak spot
+
+`:449-451`, unprompted:
+
+> *"The `16–26 Gyr` range is the registered solution range … **supported by the chain and the preregistered branch record, not by a fresh standalone simulation in this session.**"*
+
+A forward-facing file **naming its own number as not-recomputed-here** is the opposite of overclaiming. And `:441-443` states the bare depth **B is invisible in the expansion history** — the trade-off makes the trajectory B-independent to ~0.2% — so *"the turn itself is not a measurement; what the sky grades is w₀."* **The file distinguishes what it predicts from what can be measured, against its own interest.**
+
+## C. Two filed findings confirmed live in the hub
+
+| finding | live at |
+|---|---|
+| **Σm_ν 61.3 vs 61.4** (PURPLE 05) | `:382` — *"Σm_ν = 61.4 meV"*, against the registry's 61.3. **The derivation hub disagrees with the registry on a pre-registered number.** |
+| **currency** (PURPLE 04) | `:361-364` routeD **0.728432@N=8120, t=12:54:11, ~7.28×, `converged: false`** — red checked against `chains/`: **CURRENT.** No staleness here. |
+
+The routeD stamp being current while 30 dyad sites are stale is itself informative: **the copying is not uniformly maintained**, which is the argument for decision 5.
+
+## D. Standing — unchanged
+
+Nine properties corpus-wide (six clean, three with findings) + ~24% of MATH_SPINE read. **No open class cleared.**
+
+T14 **NOT BOOKABLE** · T8 **FAIL** · void **OPEN-BLOCKED** · bbnfix **REFUSED** · **COMPLETE physics 0**.
+
+**Five owner decisions still stacked** (PURPLE 09 §B) — **P-2026-004** and **Σm_ν** are the two a referee catches, and §C above shows the Σm_ν split reaching the derivation hub.
+
+**WHOSE_TURN → Owner** the five **∥ Blue/ChatGPT** 5 table escapes · dyad sweep after decision 5 **∥ Claude** MATH_SPINE §1–§6a **∥ Machine** bbnfix · routeD.
+
+*NO FABRICATIONS. An attack that fails gets reported like one that lands. COMPLETE physics 0.*
