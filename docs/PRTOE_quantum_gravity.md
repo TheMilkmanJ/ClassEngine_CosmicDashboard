@@ -300,7 +300,7 @@ constraints on the particle content,"* not derivable from supersymmetry alone.
 > Model content plus three right-handed neutrinos and a conformally coupled Higgs, the one-loop
 > matter correction to Newton's constant is finite — so G can be a genuine tree-level constant
 > rather than a quantity fine-tuned against a Planck-scale divergence.** That is a naturalness
-> statement about G, not an induction statement, and it is what any manuscript must say.
+> statement about G, not an induction statement, and it is the correct reader-facing formulation.
 
 **Prior art on the conclusion, recorded 2026-07-28.** The generation count reached here is not a
 new result. [Navarro-Salas 2024, arXiv:2403.13201, *Classical and Quantum Gravity*] requires
@@ -326,7 +326,7 @@ condition the literature identifies as hard to meet.
 > **−1/2**. The same deficit counted in **Weyl spinors** is −3 (45 against the 48 required); the two
 > are related by the +1/6 each Weyl contributes: (−3)/6 = −1/2. Both statements are true and the
 > Weyl deficit is the more legible one, but **a referee checking Visser's Table 1 will compute −1/2**.
-> Any manuscript must give −1/2 as str[k₁] with the Weyl deficit alongside it.
+> The reader-facing form should therefore give −1/2 as str[k₁] with the Weyl deficit alongside it.
 >
 > The balance itself is confirmed by independent computation from Visser's published coefficients:
 > 48 Weyl × (+1/6) = +8 against 12 massless vectors × (−2/3) = −8, the integer identity

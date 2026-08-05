@@ -1227,7 +1227,7 @@ moves the anchor by **5.6×**, because ∂lnM/∂lnα_c ≈ 25 compounds k's own
 
 So §6f cannot be closed by a better calculation of the vertex or the screening. **It is closed only
 by the framework's ontology, and it therefore inherits whatever confidence that ontology has —
-which is exactly why any manuscript must present the anchor as conditional on horn (b) rather than
+which is exactly why the anchor has to be presented as conditional on horn (b) rather than
 as a derived number.** Stated that way it is honest and still interesting: the hierarchy anchor
 becomes a *test* of the light-is-the-Goldstone identification, since horn (a) would put the anchor
 an order of magnitude off and thereby falsify the identification rather than merely shifting a

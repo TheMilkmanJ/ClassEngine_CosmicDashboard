@@ -2,7 +2,7 @@
 
 *2026-07-19. Self-contained; plain physics.*
 
-*Status: **experimental letter** · **CORPUS_ONLY** (not an arXiv package; ship path = `neutrino-mbb` only). The bridge to the neutrino sector is a registered model relation, not a first-principles derivation. **HOLD** — desk does not email Fairbank, invent endorsement, or invent a second Fairbank TeX.*
+*Status: **experimental letter** · **CORPUS_ONLY** (not an arXiv package; ship path = `neutrino-mbb` only). The bridge to the neutrino sector is a registered model relation, not a first-principles derivation. **HOLD** — owner-controlled correspondence path only; no endorsement is claimed and no second Fairbank TeX belongs to the ship path.*
 
 **Authority cards (2026-08-05).**
 - Fairbank hold / posting path: `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md`
@@ -161,7 +161,7 @@ Framing: 0νββ decides whether lepton number is an enforced charge (field-back
 | 2 | Only nEXO overlaps; null does not confirm | **machine-backed** / literature | experiment tables | Phases can cancel |
 | 3 | Does not derive 2.25 meV | **honest fence** | qualifications | One number, two jobs |
 | 4 | Fit status / multi-basin stopped run not quotable; H₀ ≈ 69.9 and “outperform” demoted; live R−1 lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged:true`; control leg ready) / dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 (**1.20×**, `converged:false`) | **honest constraint** | status section; progress | **NOT bookable**; no peek H₀ as result; joint waits `dyad_mnu_bbnfix` book via `book_bbnfix_when_ready.py` |
-| 5 | Experimental letter draft (Fairbank) · **CORPUS_ONLY** | **meta** / draft · **HOLD** | banner; HOLD companion | **WATCH-EXTERNAL:** correspondence not production booking; desk does not email |
+| 5 | Experimental letter draft (Fairbank) · **CORPUS_ONLY** | **meta** / draft · **HOLD** | banner; HOLD companion | **WATCH-EXTERNAL:** correspondence path only; not a production booking or independent posting path |
 | 6 | Ship vehicle is `neutrino-mbb` only | **READY_PACKAGE** not posted | arXivReady; arxiv_owner_prep | **No** second Fairbank TeX; **no** arXiv post without endorsement/ID |
 
 **Non-claims:** not A4 production; not confirmation path via null; not MaVaN; not arXiv-posted; not invent endorsement; not invent posteriors; not peek H₀ as result.
