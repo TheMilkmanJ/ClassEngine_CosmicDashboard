@@ -15609,3 +15609,39 @@ Registry now **46 live P-entries**, **2,176 lines**; **0** reading as failed/clo
 lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
 
 *NO FABRICATIONS. One failed prediction, moved intact; the seven that looked failed were falsifier clauses. COMPLETE physics 0.*
+
+---
+
+### PURPLE CLAUDE 32 — the outward-facing letter pointed at an entry that is no longer where it says @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+Extending the owner's rule past the registry: if failed predictions live only in the ledger, **no forward-facing file should cite one as though it were still on the shelf.**
+
+## A. First, an instrument I refused to file on
+
+Pulling `### Rehomed: P-2026-NNN` headers returned **seven** IDs, and the shelf cites six of them. **That sweep proves nothing**, and I nearly reported it. Three of those headers are rehomed **status/annotation blocks about live predictions** — `P-2026-013 STATUS UPDATE`, `P-2026-009 RESURRECTION PROTOCOL`, `P-2026-048 ADDENDUM`. **P-2026-009 is the live birefringence null I spent the evening on; P-2026-048 I verified two hours ago is live and at risk.** The shelf citing them is correct.
+
+**Genuinely rehomed dead predictions: four** — P-2026-004, P-2026-006, P-2026-011, P-2026-057.
+
+## B. The defect, and it is in the letter to a real person
+
+`PRTOE_fairbank_note_draft.md` closed its m_ββ provenance with *"Ordering from a registered prediction-collision test (P-2026-004) … **See those entries for the full record.**"*
+
+**The three cited entries are not in one place.** P-2026-012 is in the prediction registry; **P-2026-004 and ANN-2026-025 are in the failures ledger.** A reader following that pointer into the registry finds one of three. Same dangling-pointer class as the IGMF anchor, in the document that goes to an outside reader.
+
+## C. The physics made the honest version stronger
+
+I checked whether the ordering claim survives P-2026-004's death, expecting a real problem. **It survives, and the reason is better than the original wording.**
+
+P-2026-004 predicted the 95% limit on Σm_ν would land in **[0.11, 0.17] eV — above the ~0.10 eV inverted-ordering threshold** — with falsification *"a limit below 0.10 eV (squeeze robust, window shut)."* **That is the branch that happened.** So the collision resolved by P-2026-004 **losing**, and a shut window is exactly what excludes inverted ordering. The ordering conclusion does not merely survive the failure — **it is produced by it.**
+
+The note now says so outright, and names which file each entry is in. A letter that states plainly *"this bet lost, and that is what does the work"* is stronger than one that cites a dead entry without saying so.
+
+## D. Standing
+
+Registry **46 live entries / 2,176 lines**, 0 failed. Four dead predictions, all in the ledger. Remaining shelf citations of P-2026-004/006/011 are historical references, not live-support claims — checked, not assumed.
+
+**Owner list — nine, unchanged.**
+
+lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
+
+*NO FABRICATIONS. The sweep that looked alarming was six false positives; the one real hit was in the letter. COMPLETE physics 0.*

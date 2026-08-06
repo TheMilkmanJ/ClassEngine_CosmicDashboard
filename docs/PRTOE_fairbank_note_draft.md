@@ -28,7 +28,7 @@ In a unified dark-sector cosmology — one superfluid scalar for dark matter and
 
 **m_ββ is distinctive** because it depends on m₁ itself. At m₁ = 0 the window is [1.48, 3.69] meV; at the model’s m₁ = 2.25 meV it is [0.04, 5.30] meV. Ceiling up 44%, floor nearly collapses. Minimal ordering puts the whole window below nEXO’s best reach; this model puts about **11%** of phase space above it. That is the difference an experiment can see.
 
-Provenance: registered before deciding data (2026-07-07, git-timestamped). Bridge is the same lightest-mass relation as in the neutrino sector. Ordering from a registered prediction-collision test (P-2026-004); P-2026-012 records the relation but does not select the branch (ANN-2026-025). See those entries for the full record.
+Provenance: registered before deciding data (2026-07-07, git-timestamped). Bridge is the same lightest-mass relation as in the neutrino sector. Ordering comes from a registered prediction-collision test, and it is worth saying plainly which way it resolved: P-2026-004 bet the 95% limit on Σm_ν would land above the ~0.10 eV inverted-ordering threshold, and it lost — the window shut, and a shut window is what excludes inverted ordering. P-2026-012 records the lightest-mass relation but does not itself select the branch (ANN-2026-025). For the full record: P-2026-012 is in the prediction registry; P-2026-004 and ANN-2026-025 are in the failures ledger, where failed and superseded entries are kept rather than removed.
 
 ## Cancellation floor
 
