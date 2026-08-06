@@ -15391,3 +15391,54 @@ Registry **~615 of 2,214** (header · 001 · 002 · 003 · 005 · 007 · 008 · 
 lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
 
 *NO FABRICATIONS. The registry is stale in the conservative direction here — it bets more than the model does. COMPLETE physics 0.*
+
+---
+
+### PURPLE CLAUDE 27 — the birefringence conflict is older than the ledger closure: three entries registered against Version B before it was registered @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+PURPLE 26 dated the P-2026-049 conflict to the ledger's **2026-07-27** six-route closure. **That was the weakest available case.** Reading P-013 → P-017 shows the conflict is inside the registry itself, and it is **eighteen days older**.
+
+## A. Three entries, all before P-049, all on β = 0
+
+- **P-2026-009** (2026-07-07): the dark medium contributes **zero** birefringence; no parity-odd operator exists in the model.
+- **P-2026-014** (2026-07-08): *"the medium is a **condensate** … A charged condensate **Higgses any gauge boson it couples to** (Anderson–Meissner)."* Explicitly: *"the same charge-free structure that kills birefringence."*
+- **P-2026-015** (2026-07-08): *"PRTOE predicts **β = 0 exactly** from the dark sector (P-2026-009, **proven robust from every angle thrown at it**)."*
+
+**P-2026-049 registers 2026-07-09 — the day after — standing on β ~ 0.1–0.3°.**
+
+## B. Why P-015 is the sharp one
+
+P-015 is not a passing mention. It is an **interpretation lock**, and it says so: **"Pre-registered readings (locked in NOW so neither outcome can be spun later)."** Its locked readings:
+
+- β confirmed **nonzero at ≥5σ** → **"KILLS PRTOE as the source (P-2026-009 falsified)"** and supports axion dark energy.
+- β → **zero** → PRTOE's null stands and axion-DE loses its signature.
+
+**P-2026-049's Version B predicts β ~ 0.1–0.3°, which is the observed hint's magnitude.** Under P-015's own lock, that outcome consolidating at ≥5σ is **not a win for the model — it is the kill condition.** Two registered entries, one day apart, assign **opposite meanings to the same measurement.**
+
+P-049 does acknowledge P-009 as "Version A," so it is not unaware of the null. **But it never reckons with P-014's Higgsing mechanism or P-015's lock** — and P-015, registered the day before, had already called the null *"proven robust from every angle thrown at it."*
+
+## C. What this changes
+
+PURPLE 26 said the registry went stale when the ledger closed the six routes. **Correction: it was in conflict on arrival.** The ledger's 2026-07-27 closure did not create the problem, it **over-determined a null the registry had already locked three ways.**
+
+This makes the recommended cure easier, not harder, and it is now the owner's only real question: **P-2026-015's lock and P-2026-049's standing cannot both be live.** Either B is a genuine fork — in which case P-015's "neither outcome can be spun later" needs amending, because a ≥5σ β would then be simultaneously a kill and a confirmation — or B is the surrender the shelf already calls it, and P-049 says so.
+
+**I have not edited either.** Both are claims.
+
+## D. Clean result on a decidable check
+
+P-2026-012's addendum states a rule: *"Forward files must carry this framing, **never the bare 0.45%**."* Closed property, so I swept it. **Seven forward-facing hits, zero violations.** Two are false positives on different quantities (θ_s RMS; a void branch δv), `TRIALS_FACTOR` restates the rule and prices the trials factor, `neutrino_sector` carries "read that with its full error."
+
+**The Fairbank note passed on inspection and deserves the note**, since it is the one document that reaches a real person: its "0.45%" is *Planck's 1.8% on ρ_Λ, quartered* — the **measurement precision**, not the coincidence gap — and the model's offset is given as **+0.44%, "inside 1σ of observation."** Different quantity, correctly framed. **No cure needed.**
+
+## E. Coverage and standing
+
+Registry **~815 of 2,214** (adds 012 corrections · 013 · 014 · 015 · 016 · 017). Corpus **107 files / 32,320 lines**. **#94 OPEN.**
+
+**Owner list — still nine**, with item nine sharpened: **P-2026-015's interpretation lock vs P-2026-049's standing position.**
+
+Worth recording what the register keeps showing: **P-2026-012 books its own mechanism's failure inside the live entry** — the self-tuning toy *"RAN AWAY (unstable fixed point),"* so the entry reverts to *"a BARE pre-registered coincidence … **drop all causal claims**"* and *"**Do not book as success.**"*
+
+lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
+
+*NO FABRICATIONS. My own PURPLE 26 dating was the weakest case available; the conflict is eighteen days older and internal. COMPLETE physics 0.*
