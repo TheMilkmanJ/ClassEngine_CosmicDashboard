@@ -1684,11 +1684,19 @@ trade is the honest cost.
 `cmp_lcdm_ev`, PolyChord nested sampling on the same data, with no derived values anywhere in
 either config.
 
-**Why it died:** not stalled and not wrong — unaffordable. At **66 s per likelihood evaluation**
-against **534 slice steps per iteration**, one nested iteration costs **9.8 h**, so the first
-checkpoint at nlive = 400 sits **163 days** out and the 1 809-iteration reference run **736 days**
-out, with the ΛCDM twin doubling it. Forty-eight hours bought **4.1 iterations**. Ended and
-archived (`chains/_archive_polychord_ended_20260720_0915/`).
+**Why it died:** not stalled and not wrong — unaffordable **on the laptop it was running on**. At
+**66 s per likelihood evaluation** against **534 slice steps per iteration**, one nested iteration
+costs **9.8 h**, so the first checkpoint at nlive = 400 sits **163 days** out and the 1 809-iteration
+reference run **736 days** out, with the ΛCDM twin doubling it. Forty-eight hours bought **4.1
+iterations**. Ended and archived (`chains/_archive_polychord_ended_20260720_0915/`).
+
+**Annotation 2026-08-06 — the cost input was hardware-specific, and the hardware changed.** The same
+configuration measured on cluster-class hardware (AWS c7i, this entry's own yaml, `plik_lite`
+self-check passed) runs at **6.70 s per likelihood evaluation — 9.9× faster**. The reference run is
+then **≈1 800 core-hours**, ≈**19 wall-hours on 96 cores**, ≈**37** with the ΛCDM twin. **The
+retirement decision was correct for the machine it was taken on and is not withdrawn**; what is
+recorded here is that its deciding input does not transfer. Whether to reinstate the nested referee
+is an owner call, and it is a budget question of tens of dollars rather than a blocked lane.
 
 **What survives:** P-2026-044's forecasts, its intervals and its bottom-out clause stand exactly as
 registered; the number they grade is now the **Laplace-from-MCMC** estimate rather than a nested

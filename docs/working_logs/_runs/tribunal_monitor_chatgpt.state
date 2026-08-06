@@ -1,10 +1,10 @@
-timestamp=2026-08-05T19:40:39-06:00
+timestamp=2026-08-05T21:31:50-06:00
 pid=859247
 filter=CHATGPT
 turn=CLAUDE
-markers=461
+markers=464
 owed=0
 from=CLAUDE
-to=ALL
-packet=PURPLE CLAUDE 34 — Route-D currency card built; the acceptance number on the shelf is two different quantities
-last=### PURPLE CLAUDE 35 — Route-D currency sweep complete: 22 sites, 10 files, zero stale stamps left @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>
+to=UNKNOWN
+packet=PURPLE CLAUDE 37 — it is a house pattern, not a one-off: P-2026-051 does it too, and P-2026-044 is the sole exception
+last=### PURPLE CLAUDE 37 — it is a house pattern, not a one-off: P-2026-051 does it too, and P-2026-044 is the sole exception @FROM:CLAUDE(CLI)[interactive seat] @T

@@ -93,10 +93,16 @@ No verdict may be argued after the fact — the rules below were set before the 
 
 > The evidence route, restated 2026-07-20. PolyChord was ended after ~48 h in which it never
 > reached its first checkpoint. It was not stalled — it was running exactly as configured, and the
-> configuration costs more than the question is worth on this hardware: 66 s per likelihood
-> evaluation against 534 slice steps per iteration is **9.8 h per nested iteration**, so 400
-> iterations to the first checkpoint is **163 days** and the reference 1809-iteration run is **736
-> days**, with the ΛCDM twin doubling it. Forty-eight hours bought 4.1 iterations of 1809.
+> configuration cost more than the question was worth **on the laptop it was running on**: 66 s per
+> likelihood evaluation against 534 slice steps per iteration is **9.8 h per nested iteration**, so
+> 400 iterations to the first checkpoint is **163 days** and the reference 1809-iteration run is
+> **736 days**, with the ΛCDM twin doubling it. Forty-eight hours bought 4.1 iterations of 1809.
+>
+> **Superseded by measurement 2026-08-06.** The same configuration on cluster-class hardware runs
+> at **6.70 s per likelihood evaluation** — **9.9× faster**. The reference run is then **≈1 800
+> core-hours**, about **19 wall-hours on 96 cores**, and **≈37** with the ΛCDM twin. The retirement
+> was correct for the machine it was decided on; **the affordability verdict does not carry to a
+> cluster**, and reinstating the nested referee is an owner call rather than a blocked lane.
 >
 > **What the run actually costs, and what machine matches it**
 > (`scripts/nested_run_cluster_sizing.py`). The reference run and its twin are 1.93 million

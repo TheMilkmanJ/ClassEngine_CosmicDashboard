@@ -3795,3 +3795,234 @@
   REFUSED — booking blocked (gate closed).
   Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
 2026-08-05T19:35:16-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T19:40:42-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T19:46:12-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T19:51:40-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T19:57:06-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:02:33-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:08:00-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:13:29-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:18:57-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:24:24-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:29:50-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:35:20-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:40:45-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:46:14-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:51:43-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T20:57:08-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T21:02:37-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T21:08:05-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T21:13:32-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T21:18:58-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T21:24:25-06:00 poll exit=2
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  dyad_mnu_bbnfix: R−1 = 0.060201 >= 0.05 (N=26135.0, t=2026-08-05T15:50:02.745947) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.060201 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+2026-08-05T21:29:54-06:00 poll exit=2

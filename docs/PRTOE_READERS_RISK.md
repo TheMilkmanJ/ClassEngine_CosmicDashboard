@@ -286,10 +286,12 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
 **Flat / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
 crossed a pre-committed threshold but adds no independent evidence for the ontology. **It stands
 without its confirmer.** The zero-free-parameter nested-sampling comparison against ΛCDM — the only
-thing that can make this robust — costs 9.8 h per iteration on available hardware (163 days to a
-first checkpoint). That run has been **ended** and waits for cluster time; **it is not live.** A
-reader should take the evidence class as: one marginal Laplace estimate, whose margin over the win
-line is smaller than the estimator's own systematic, with **no nested number in prospect**. The
+thing that can make this robust — cost 9.8 h per iteration **on the laptop it was run on** (163 days
+to a first checkpoint), and that run was **ended**. A cluster measurement on 2026-08-06 puts the
+same configuration at **6.70 s per likelihood evaluation**, i.e. the reference run at **≈19
+wall-hours on 96 cores**. **It is still not live** — but a reader should take the evidence class as:
+one marginal Laplace estimate, whose margin over the win line is smaller than the estimator's own
+systematic, with **the nested number now affordable and awaiting a decision to run it**. The
 verdict now depends on the MCMC chains the Laplace is computed from — so their convergence, not a
 separate nested referee, stands between the model and its headline evidence claim.
 

@@ -57,9 +57,12 @@ D4 freeze active — next unblock is **new microphysics**, not knob thrash. Pack
 model has nothing to say about θ̄; needing a strong-CP mechanism would kill the constitution. Not a
 derivation; not a paper candidate; not promoted.
 
-**PolyChord off.** Nested sampling not running and not scheduled on this hardware (9.8 h/iteration;
-163 days to first checkpoint). Evidence grades from Laplace-from-MCMC (standing ΔlnZ = +2.635 —
-marginal, SH0ES-conditional) until cluster time. Archived nested run:
+**PolyChord off.** Nested sampling not running. It was retired on laptop economics (9.8 h/iteration;
+163 days to first checkpoint) — but a cluster measurement on 2026-08-06 gives **6.70 s per
+likelihood evaluation**, making the reference run **≈19 wall-hours on 96 cores** (≈37 with the ΛCDM
+twin). **The lane is affordable and awaits an owner decision, not cluster time.** Evidence currently
+grades from Laplace-from-MCMC (standing ΔlnZ = +2.635 — marginal, SH0ES-conditional). Archived
+nested run:
 `chains/_archive_polychord_ended_20260720_0915/`.
 
 ### Residual theory board (2026-08-05 exhaust currency)
@@ -256,9 +259,10 @@ over-claiming favourable results to over-claiming absences.
 
 **Operational.** The nested evidence run was **ended on 2026-07-20 and archived**
 (`chains/_archive_polychord_ended_20260720_0915/`). It was never stalled — it was running exactly as
-configured, and the configuration costs more than the question is worth on this box: `measure_speeds`
-built a 534-slice-step schedule, and at 66 s per likelihood evaluation that is **9.8 h per nested
-iteration**, putting the first checkpoint 163 days out and the full run 736 days, with the ΛCDM twin
+configured, and the configuration cost more than the question was worth **on the laptop**:
+`measure_speeds` built a 534-slice-step schedule, and at 66 s per likelihood evaluation that is
+**9.8 h per nested iteration**, putting the first checkpoint 163 days out and the full run 736 days,
+with the ΛCDM twin
 doubling it. Nested sampling waits for cluster time.
 
 **Deciders** (unchanged in kind, changed in instrument): the **evidence number** (still the Laplace,
