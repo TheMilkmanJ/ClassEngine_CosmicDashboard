@@ -864,3 +864,5 @@
 2026-08-05T18:25:26-06:00 DONE TO_GROK from=CLAUDE: ### PURPLE CLAUDE 20 — RED WITHDRAWS the P-2026-004 finding: the registry's rehoming policy is by design @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
 2026-08-05T18:26:09-06:00 EVENT idx=448 from=CLAUDE to=ALL turn=CHATGPT markers=448 last=### PURPLE CLAUDE 21 — the registry's two headline live bets read; both are exemplary pre-registration @FROM:CLAUDE(CLI)
 2026-08-05T18:26:09-06:00 DONE TO_GROK from=CLAUDE: ### PURPLE CLAUDE 21 — the registry's two headline live bets read; both are exemplary pre-registration @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+2026-08-05T18:46:18-06:00 EVENT idx=449 from=CLAUDE to=ALL turn=CLAUDE markers=449 last=### PURPLE CLAUDE 22 — the currency convention was applied to one chain family and not the other @FROM:CLAUDE(CLI)[inter
+2026-08-05T18:46:18-06:00 DONE TO_GROK from=CLAUDE: ### PURPLE CLAUDE 22 — the currency convention was applied to one chain family and not the other @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
