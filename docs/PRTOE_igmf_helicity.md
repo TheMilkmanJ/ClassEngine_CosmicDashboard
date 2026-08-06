@@ -251,14 +251,21 @@ velocity field. The build that would is **#150 / B1, the genesis solver** — th
 So the dependency runs #158 → #150, not #158 → #154, and #154 need not wait on this.
 
 P-2026-057's link table
-([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md):3154) carries link E —
+([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md):2046) carries link E —
 *"sign(helicity_B) = sign(n)"* — as **recorded (P-2026-028)**, and composes it with link D to reach
 *"every sign question in both sectors funnels through sign(μ·n)."* That composition inherits the
 unpaid condition above without carrying it: on the locked-circulation branch the sky's handedness is
 **universal** and does not track sign(n) at all, which breaks the funnel rather than narrowing it.
-P-2026-057 is conditional on one more link than it declares — its antecedent should read
-*sign(μ·n) **and** the poloidal sense being genesis-fixed*. The consequent and the arithmetic are
-untouched; only the gate is wider than written.
+The condition is on **link E itself** and survives independently of any entry that composes it: link
+E holds only if the poloidal sense is genesis-fixed, so it should be read as *sign(μ·n) **and** the
+poloidal sense being genesis-fixed*.
+
+**P-2026-057 no longer carries the composition.** Its kill (iv) fired on 2026-07-27
+(`scripts/genesis_joint_draw.py`): sign(θ̇) and sign(n) are drawn **independently** — joint
+correlation −0.06 to +0.09 against a ±0.13 noise floor, forced by spatial parity — so the entry
+closed with, in its own words, *"no product to fix; the conditional's antecedent is empty rather
+than merely unrun."* The gate cannot be widened on an empty antecedent, and nothing in this section
+depends on that entry: the unpaid condition on link E is what matters here, and it stands.
 
 ## What would close link 4's overall sign — acceptance criteria, registered before the deciding run (2026-08-03)
 
