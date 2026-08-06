@@ -1786,7 +1786,12 @@ becoming **P-2026-049**. Nothing about the bet, its content, its date, or its ki
 changed; only the label. Its registration timestamp remains **2026-07-09**.
 
 **Why it is recorded here:** any citation of "P-2026-010" written between 2026-07-09 and
-2026-07-17 may mean either bet, and that ambiguity is not readable from the entries themselves.
+2026-07-17 may mean either bet. Both entries now carry that fact on their face (2026-08-05):
+P-2026-010 names the window, and P-2026-049 records that it held the old number — with the
+consequence spelled out for date auditors, that a git search for *its heading* returns the
+2026-07-17 relabelling, while the registration itself is verifiable in the file from 2026-07-10
+(`79eea3f0`) under the old number. The ambiguity is now readable without this ledger; the entry
+stays because the collision is what forced the renumbering.
 
 ### Process error 42: a root-level rm glob hit two tracked launch configs (2026-07-18)
 

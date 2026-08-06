@@ -274,6 +274,11 @@ by Simons Observatory and LiteBIRD this decade.
 ## P-2026-010: The gravitational-wave standard sirens land on the model's cornered H₀ (independent-instrument companion to P-2026-001)
 
 **Registered:** 2026-07-07 19:37 MDT (git base: e5f9f455)
+
+**Note on the number.** Between 2026-07-09 and 2026-07-17 this number was also written on the
+cosmic-birefringence fork, so a citation of "P-2026-010" from that window may mean either bet. This
+entry holds the number, being the earlier registration; the fork is now P-2026-049.
+
 **The commitment:** the executed-lever audit of P-2026-001 corners the model
 at **H₀ = 69.7-70.1 km/s/Mpc** (joint optimum 69.70; free-Σ-m_ν
 posterior 70.11 ± 0.66) with NO lever left to reach 72+. P-2026-001 bets
@@ -580,6 +585,15 @@ particle-DM signal). SUPPORTED by continued direct-detection nulls at improving 
 **Status:** CONSISTENT (all direct-detection null to date). A clean, standing PRTOE-vs-WIMP referee.
 
 ## P-2026-049: Cosmic birefringence — the census fork (registered 2026-07-09, Version B)
+
+**Provenance of the identifier.** This bet was registered on **2026-07-09** under the number
+`P-2026-010`, which was already held by the standard-sirens bet registered 2026-07-07. The earlier
+registration keeps the number — the timestamp is the authority — and this one moved to
+`P-2026-049` on **2026-07-17**. Content, date, and kill conditions are unchanged; only the label
+moved. One consequence is worth stating for anyone auditing dates from the git history: searching
+that history for *this heading* returns 2026-07-17, the day the label changed. The entry itself is
+in the file from **2026-07-10** (`79eea3f0`) under the old number, and that is where the
+registration date is verifiable.
 
 **Context:** the original strict census (P-2026-009) predicted birefringence NULL as a
 kill-switch (dark sector EM-neutral). This registers the OPPOSITE, unification-motivated
