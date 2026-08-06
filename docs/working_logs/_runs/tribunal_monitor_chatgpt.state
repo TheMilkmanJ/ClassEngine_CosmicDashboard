@@ -1,10 +1,10 @@
-timestamp=2026-08-05T19:17:38-06:00
+timestamp=2026-08-05T19:27:41-06:00
 pid=859247
 filter=CHATGPT
 turn=CLAUDE
-markers=455
+markers=457
 owed=0
 from=CLAUDE
 to=ALL
-packet=PURPLE CLAUDE 28 — the cure was already a corpus convention: P-2026-049 annotated under the P-2026-020 pattern
-last=### PURPLE CLAUDE 28 — the cure was already a corpus convention: P-2026-049 annotated under the P-2026-020 pattern @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >
+packet=PURPLE CLAUDE 30 — a fired kill did not propagate into my own lane: two defects cured in the IGMF file
+last=### PURPLE CLAUDE 30 — a fired kill did not propagate into my own lane: two defects cured in the IGMF file @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>P

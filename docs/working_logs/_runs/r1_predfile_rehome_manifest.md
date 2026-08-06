@@ -91,7 +91,7 @@
 - `## P-2026-054: The soliton threshold — which galaxies carry a dark core and which cannot (registered 2026-07-19)`
 - `## P-2026-055: LSS parity — the BOSS 4PCF signal is systematic (placed 2026-07-11)`
 - `## P-2026-056: The dark-energy branch — P-2026-018 XOR Route-D, and DESI DR3 adjudicates (registered 2026-07-20, before the deciding chain reports)`
-- `## P-2026-057: The cross-sector sign lock — the Koide phase and the magnetic helicity are one genesis draw (registered 2026-07-20, conditional)`
+- ~~`## P-2026-057: The cross-sector sign lock — the Koide phase and the magnetic helicity are one genesis draw (registered 2026-07-20, conditional)`~~ — **SUPERSEDED 2026-08-05: rehomed to the Failures Ledger.** Kept on 2026-08-03 because its kill had not been read against it; kill (iv) FIRED 2026-07-27 (`scripts/genesis_joint_draw.py`), so it is a failed prediction and left the audience-facing registry.
 - `## P-2026-058: The deuterium row is a nuclear-data bet — d(d,n)³He lands below PRIMAT (registered 2026-07-21)`
 - `## P-2026-059: The genesis partition sits at the medium's coupling — ΔN_eff = 0.146 (registered 2026-07-28, conditional, before its derivation and before CMB-S4)`
 - `## P-2026-060: The dark condensate cannot decohere a laboratory superposition — a prohibition, not a signal (registered 2026-07-28)`

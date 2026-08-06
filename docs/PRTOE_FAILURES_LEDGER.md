@@ -5872,3 +5872,92 @@ timestamped by the repository.
 - **Koide neutral triple vs P-2026-012:** alternative hypotheses (cone m₁ = 0.374 meV vs registered m₁ = 2.3 meV) — mutually exclusive, not complements.
 
 **Where living text was restated (not deleted):** DEPENDENCY_TREE, MATH_SPINE, DOMAIN_COVERAGE, DERIVATION_HUNT, exploratory/hierarchy_problem, koide_relation. Package: `docs/working_logs/_runs/final_product_cleanup_20260804/WITHDRAWALS_RESTATED.md`.
+
+---
+
+### Rehomed: P-2026-057: The cross-sector sign lock — the Koide phase and the magnetic helicity are one genesis draw (registered 2026-07-20, conditional)
+
+**Rehome reason:** Batch1 dead/excluded/retracted P-entry — **kill (iv) FIRED 2026-07-27** (`scripts/genesis_joint_draw.py`). The conditional closed with an empty antecedent, so it is a failed prediction and does not belong in the audience-facing registry.
+**Source:** `docs/PRTOE_PREREGISTERED_PREDICTIONS.md` (rehomed 2026-08-05)
+**Note:** the entry below is reproduced verbatim, including its own closing annotation. Its surviving technical residue — the unpaid condition on link E, that `sign(helicity_B) = sign(n)` holds only if the poloidal sense is genesis-fixed — is carried forward in [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md), which does not depend on this entry.
+
+## P-2026-057: The cross-sector sign lock — the Koide phase and the magnetic helicity are one genesis draw (registered 2026-07-20, conditional)
+
+**The conditional, stated exactly.**
+
+> **IF** the first-roll-at-rest theorem, run for its sign, fixes **sign(μ·n) = s**,
+> **THEN sign(θ_B) = s · sign(helicity_B).**
+
+**The two observables, and they live in different sectors.** θ_B is the charged-lepton spectrum's
+Brannen-frame phase — the measured lepton masses read in the frame θ_house = θ_B + 120°, where the
+house phase is 132.7328° ± 0.0005°, so **θ_B = +12.7328° = +0.222229 rad** and its sign is not in
+doubt. helicity_B is the handedness of the primordial intergalactic magnetic field, whose recorded
+model statement is sign(helicity_B) = sign(n) (P-2026-028), and whose candidate datum is the
+parity-odd Fermi-LAT correlator's left-handed ~10⁻¹⁴ G field on ~10 Mpc scales. **One is a
+laboratory mass ratio and the other is a megaparsec-scale field.** Nothing in either sector's own
+physics relates them.
+
+**Why the conditional has zero remaining freedom.** Signs multiply to unity, so the statement
+inverts:
+
+> **s = sign(θ_B) · sign(helicity_B)**
+
+The sky supplies both factors on the right; the first-roll run computes s on the left,
+independently and from genesis alone. **The two must agree, and neither side can be adjusted to
+make them.** That is the whole content — a two-observable prediction on one integer.
+
+**The chain, link by link, each sign carried.**
+
+| link | carries | status |
+|---|---|---|
+| A. front sequence | sign(μ) → the lock-in order around the Z₃ ring: faces rotate at θ̇ = μ through the freeze front, so the sequence direction *is* the rotation direction | walked |
+| B. gradient | the sequence → the per-hop lag θ_hop = μ·Δt_hop, hence sign(θ_hop) = sign(μ) | walked |
+| C. mass-ordering parity P | the relabel converting the sequence phase into the mass-ordered θ_B | **computed from the measured configuration**: the faces in the +hop direction run e (−0.960) → μ (−0.420) → τ (+1.379), which is **ascending mass**, so **P = +1** — hop order and mass order coincide |
+| D. net | **sign(θ_B) = sign(μ)** | the dark chemical potential's sign is the one input |
+| E. the other sector | **sign(helicity_B) = sign(n)** | recorded (P-2026-028) |
+
+Composing D and E leaves exactly one undetermined object, **sign(μ·n)** — the product of the
+temporal rotation's draw and the spatial winding's draw. That product is the genesis statement in
+its own right: matter rides the temporal rotation, handedness rides the spatial winding, and what
+genesis sets is their product. **Every sign question in both sectors funnels through this one
+integer**, which is why the lock is registrable now and why it is registrable only in conditional
+form.
+
+**What the lock rests on, named exactly.** The circulant algebra of the three-face ring; the
+measured lepton spectrum (the deviation table above, from which the amplitude and phase are read);
+the KMS pacing that fixes one face per thermal period; and the recorded winding-to-helicity link.
+It does **not** take the delivery mechanism for the amplitude A = √2 as an input at any link — the
+amplitude enters link C only as a measured configuration, alongside the measured phase, which is
+how it enters the deviation table itself.
+
+**Its one convention, named as the fence it is.** The freeze front is taken to start at the
+wall-touching face — the electron, at 96% of the way to the positivity wall √m = 0, whose contact
+is what fires the freeze. A τ-first front would flip P and therefore flip the lock's sense.
+Nothing recorded selects the alternative and the tangency picture disfavours it, but this remains a
+convention until the front's nucleation is derived, and the conditional inherits it.
+
+**Kills:**
+(i) the first-roll run returning s, with the two measured signs multiplying to −s → the chain is
+broken and the cross-sector lock is false;
+(ii) the measured IGMF handedness firming while the run returns a value incompatible with the
+Koide phase's fixed positive sign → same kill, arriving from the sky's side;
+(iii) a derivation of the front's nucleation selecting the τ-first trigger → P flips, and the
+lock's stated sense is wrong even if its structure holds;
+(iv) any demonstration that sign(μ) and sign(n) are drawn independently at genesis → there is no
+product to fix, and the conditional's antecedent is empty rather than merely unrun.
+
+**Conditional, and honestly gated.** The consequent is derived; the antecedent is an
+un-run computation. The gating object is the first-roll-at-rest theorem run for its **sign** rather
+than for existence — a genesis draw carrying the winding and the rotation on one trajectory. The
+temporal half alone is known to be a fair coin (proven by the tilt's reflection symmetry); it is
+the *product* that has no instrument computing it yet. This entry graduates to a full registration
+the day that run lands, and until then it is a statement about what the run will decide, placed
+before it decides it.
+
+**ANNOTATION (2026-07-27 sync — the run landed 2026-07-20 and kill (iv) FIRED):** the joint
+genesis draw was computed (`scripts/genesis_joint_draw.py`; the joint-draw log): sign(θ̇) and
+sign(n) are drawn **independently** — the joint correlation sits at −0.06 to +0.09 against a
+±0.13 noise floor, forced by spatial parity. Kill (iv)'s condition is met exactly: **there is
+no product to fix; the conditional's antecedent is empty rather than merely unrun.** This entry
+does not graduate — it closes as a conditional whose antecedent the model's own dynamics
+refused, recorded with the same ink it was registered with.
