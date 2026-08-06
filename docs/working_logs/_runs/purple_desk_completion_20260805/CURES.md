@@ -24,6 +24,8 @@
 | `docs/exploratory/PRTOE_hierarchy_problem.md`, `docs/exploratory/PRTOE_the_great_chain.md`, and `docs/PRTOE_FAILURES_LEDGER.md` | repaired the five Markdown table-overflow rows Claude isolated in PURPLE CLAUDE 03 using escapes or same-cell merges only | DONE |
 | `docs/working_logs/_runs/purple_desk_completion_20260805/CLAUDE_RETURN_SPLIT_50_50.md` | staged Claude's wake-up work as a finite 50/50 split instead of a loose review request | DONE |
 | `docs/PRTOE_quantum_gravity.md`, `docs/exploratory/PRTOE_hierarchy_problem.md`, `docs/PRTOE_neutrino_home.md`, and `docs/PRTOE_fairbank_note_draft.md` | converted the last remaining forward-facing writer/process phrasing into reader-facing ship-path language; verified zero remaining targeted phrase hits outside `working_logs/` and `historical_*` | DONE |
+| `docs/working_logs/_runs/sigma_mnu_public_form_20260806/REPORT.md` and dependent top-level docs | froze the public Σm_ν surface form at `≈61.35 meV` / `61.34–61.37 meV` so forward-facing docs stop drifting between bare `61.3` and bare `61.4` for the same relation | DONE |
+| `scripts/bbnfix_mcmc_watch_diag.py` and `docs/working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md` | removed the script's hard `numpy` startup dependency, re-tested the live bbnfix gate in the base environment, and refreshed the shared blocker audit to the latest direct booking-script refuse card | DONE |
 
 See also:
 
@@ -42,5 +44,6 @@ See also:
 - `CHATGPT_PURPLE_SLICE_13.md`
 - `CHATGPT_PURPLE_SLICE_14.md`
 - `CHATGPT_PURPLE_SLICE_15.md`
+- `CHATGPT_PURPLE_SLICE_16.md`
 - `CLAUDE_RETURN_SPLIT_50_50.md`
 - `MAJOR_DOC_ARXIV_MATRIX.md`

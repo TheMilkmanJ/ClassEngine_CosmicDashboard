@@ -32,7 +32,7 @@ Couples to **leptons, not hadrons**, because a universal quark shift at ε moves
 
 **Lepton number does not force the charged-lepton Yukawa.** |Ψ|² is phase-blind; Majoron couples to phase/neutrinos. Standing choice **ψ̄ψ** is an **assumption** (docket #125). H†H only renormalizable partner — excluded; (LH)(LH) does δm_ν only. Induced H†H from electron loop is far under bounds (no tuning to exclude portal).
 
-**Majoron separate:** single-scale f = v_L dead. Neutrino tie / 0νββ live on Majoron sector: Σm_ν ≈ 61.4 meV NO; CMB-S4 selects v_L corner.
+**Majoron separate:** single-scale f = v_L dead. Neutrino tie / 0νββ live on Majoron sector: Σm_ν ≈ 61.35 meV NO; CMB-S4 selects v_L corner.
 
 ## 3. Effect: varying m_e
 

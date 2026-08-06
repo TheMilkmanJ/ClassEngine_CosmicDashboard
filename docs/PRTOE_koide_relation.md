@@ -12,7 +12,7 @@ Thread 6. One recorded explanation (why the relation survives a mass shift) plus
 | Why Q = 2/3 at all (A = √2) | **not derived** — thermal/flat delivery-law path **contradicted** (1025 ppm miss ≈ 171× the 6 ppm exactness budget; `koide_delivery_law_discriminator`); cascade deliverer **dead**; **relation stands as unexplained regularity**. Residual research (freeze-time stiffness / Wilson bins) is not a restored "candidate mechanism" until scored |
 | T_c = 177.10 keV from τ = ½ln2 | **derived-conditional** on measured Q=2/3 + √σ_dark=m_e pin + e^(−τ) modulus reading (Parseval; **not** contradicted thermal delivery); lattice P-048 tests the composite; locking without Q still **OPEN** |
 | ρ_Λ¼ = 2.2599 meV (+0.44%) | **existence claim, not precision** (composite quartic uncontrolled at this order) |
-| Neutrino sum | **P-2026-012 stands** (Σm_ν ≈ 61.3 meV); Koide-neutrino branch **withdrawn** as prediction |
+| Neutrino sum | **P-2026-012 stands** (Σm_ν ≈ 61.35 meV); Koide-neutrino branch **withdrawn** as prediction |
 | Medium-w inheritance of A = √2 | **dead** (failures ledger) |
 
 Koide is **not solved**. Protection is real; the relation is a measured regularity; the thermal-flat mechanism path is **contradicted** at the required exactness; mechanism exactness remains **OPEN as unexplained regularity** pending a new scored mechanism (tribunal R2-koide-exactness three-seat).
@@ -666,7 +666,7 @@ Waiting for data means waiting years.
 
 > **Like-for-like inputs.** The two branch sums use **different oscillation splittings** when quoted
 > raw — the Koide branch's 0.374 meV / 58.5 meV reproduces on NuFIT 7.53×10⁻⁵ / 2.455×10⁻³, while
-> P-2026-012's 61.3 meV uses 7.42×10⁻⁵ / 2.515×10⁻³. Compared on common splittings the gap is
+> P-2026-012's public form uses 7.42×10⁻⁵ / 2.515×10⁻³ and lands in the 61.34–61.37 meV band. Compared on common splittings the gap is
 > **2.21 meV** (not the ~2.8 meV raw-quote difference).
 
 ### The parameter-free test, which is the discriminator
@@ -697,7 +697,7 @@ branch is not a mechanism for being there.
 
 > ### Ruling
 >
-> **P-2026-012 stands as the model's neutrino prediction** — Σm_ν = 61.3 meV with
+> **P-2026-012 stands as the model's neutrino prediction** — Σm_ν ≈ 61.35 meV with
 > m_lightest = 2.24 meV, carried with its own stated conditional (the floor being neutrino-funded)
 > and its own void clause.
 >

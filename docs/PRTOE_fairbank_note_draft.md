@@ -12,7 +12,7 @@
 
 ## Result in three sentences
 
-In a unified dark-sector cosmology — one superfluid scalar for dark matter and dark energy, plus a single early-universe electron-mass shift ε = 1.2543% (= 27α/5π, from one derived factor, one counting assumption, and one registered coupling) — the neutrino sector is an output: the dark-energy scale ties to the lightest neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**. The mass mechanism violates lepton number, so **neutrinos are Majorana and 0νββ is required**. With measured splittings and free Majorana phases,
+In a unified dark-sector cosmology — one superfluid scalar for dark matter and dark energy, plus a single early-universe electron-mass shift ε = 1.2543% (= 27α/5π, from one derived factor, one counting assumption, and one registered coupling) — the neutrino sector is an output: the dark-energy scale ties to the lightest neutrino mass, giving **Σm_ν ≈ 61.35 meV with normal ordering**. The mass mechanism violates lepton number, so **neutrinos are Majorana and 0νββ is required**. With measured splittings and free Majorana phases,
 
 **m_ββ ∈ [0.04, 5.3] meV**, phase-averaged rms **3.3 meV** (rate ∝ m_ββ²; median over phases 3.05 meV).
 
@@ -22,9 +22,9 @@ In a unified dark-sector cosmology — one superfluid scalar for dark matter and
 
 **A null does not.** Phases can cancel. Dirac nature would kill the model (Majorana is required), but there is no practical way to prove Dirac: you cannot prove a process is absent. Experimentally: **this setup can refute the model; it cannot confirm it.**
 
-**Near-term pressure is cosmological, from below.** DESI-era CMB+BAO limits reach Σm_ν ≲ 72 meV, some combinations lower. The model sits at 61.4 meV, just inside. The live risk is an upper limit descending through that value. The model’s reply is that those limits are ΛCDM-conditional and the squeeze relaxes under its recombination physics (section below) — a testable claim, not an escape.
+**Near-term pressure is cosmological, from below.** DESI-era CMB+BAO limits reach Σm_ν ≲ 72 meV, some combinations lower. The model sits at ≈61.35 meV, just inside. The live risk is an upper limit descending through that value. The model’s reply is that those limits are ΛCDM-conditional and the squeeze relaxes under its recombination physics (section below) — a testable claim, not an escape.
 
-**Σm_ν itself is not distinctive.** 61.4 meV is only **2.6 meV** above the normal-ordering floor (58.8 meV at m₁ = 0); planned cosmological resolution is ~20 meV. Nothing planned can separate this sum from the minimal-ordering case every squeezed model lands on.
+**Σm_ν itself is not distinctive.** ≈61.35 meV is only **~2.6 meV** above the normal-ordering floor (58.8 meV at m₁ = 0); planned cosmological resolution is ~20 meV. Nothing planned can separate this sum from the minimal-ordering case every squeezed model lands on.
 
 **m_ββ is distinctive** because it depends on m₁ itself. At m₁ = 0 the window is [1.48, 3.69] meV; at the model’s m₁ = 2.25 meV it is [0.04, 5.30] meV. Ceiling up 44%, floor nearly collapses. Minimal ordering puts the whole window below nEXO’s best reach; this model puts about **11%** of phase space above it. That is the difference an experiment can see.
 
@@ -32,7 +32,7 @@ Provenance: registered before deciding data (2026-07-07, git-timestamped). Bridg
 
 ## Cancellation floor
 
-Lightest mass m₁ = ρ_Λ¼. Observed 2.25 meV (0.45% — Planck 1.8% on ρ_Λ, quartered). Model chain: 2.2599 meV (+0.44%), inside 1σ of observation. Sum barely moves: Σm_ν = 61.34–61.37 meV → quoted 61.4. Effective mass is more sensitive at the floor.
+Lightest mass m₁ = ρ_Λ¼. Observed 2.25 meV (0.45% — Planck 1.8% on ρ_Λ, quartered). Model chain: 2.2599 meV (+0.44%), inside 1σ of observation. Sum barely moves: Σm_ν = 61.34–61.37 meV (older shorthand: 61.4). Effective mass is more sensitive at the floor.
 
 NuFIT-class mixings across the observation’s range:
 
@@ -129,7 +129,7 @@ Deuterium tension and Hubble result are one trade. A real cure must raise D/H at
 
 ## Lightest mass and framing
 
-Oscillations fix two splittings, not the absolute floor. Here the floor is medium-sourced: **m₁ = κ_m · ρ_Λ¼ with κ_m ≈ 1** — the dark-energy scale **sets** the lightest mass; Σm_ν = 61.4 meV follows from measured splittings.
+Oscillations fix two splittings, not the absolute floor. Here the floor is medium-sourced: **m₁ = κ_m · ρ_Λ¼ with κ_m ≈ 1** — the dark-energy scale **sets** the lightest mass; Σm_ν ≈ 61.35 meV follows from measured splittings.
 
 Three qualifications:
 
@@ -157,7 +157,7 @@ Framing: 0νββ decides whether lepton number is an enforced charge (field-back
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | Σm_ν = 61.4 meV NO; m_ββ ∈ [0.04, 5.3] meV | **complete-conditional** | neutrino_sector bridge | Relation registered, not first-principles; **≠** booked joint posterior |
+| 1 | Σm_ν ≈ 61.35 meV NO; m_ββ ∈ [0.04, 5.3] meV | **complete-conditional** | neutrino_sector bridge | Relation registered, not first-principles; **≠** booked joint posterior |
 | 2 | Only nEXO overlaps; null does not confirm | **machine-backed** / literature | experiment tables | Phases can cancel |
 | 3 | Does not derive 2.25 meV | **honest fence** | qualifications | One number, two jobs |
 | 4 | Fit status / multi-basin stopped run not quotable; H₀ ≈ 69.9 and “outperform” demoted; live R−1 lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged:true`; control leg ready) / dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 (**1.20×**, `converged:false`) | **honest constraint** | status section; progress | **NOT bookable**; no peek H₀ as result; joint waits `dyad_mnu_bbnfix` book via `book_bbnfix_when_ready.py` |

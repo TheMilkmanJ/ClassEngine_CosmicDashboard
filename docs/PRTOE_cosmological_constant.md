@@ -154,7 +154,7 @@ hierarchy. The smallness is inherited twice, tuned zero times.
 ## 3. Consequences already in force
 
 - ρ_Λ¼ equals the lightest neutrino mass (the model's dark-energy–neutrino tie)
- ⟹ **Σm_ν = 61.4 meV, normal ordering, Majorana mechanism required** — the full
+ ⟹ **Σm_ν ≈ 61.35 meV, normal ordering, Majorana mechanism required** — the full
  statement with its caveats lives in the neutrino-sector document.
 - w = −1 exactly (a ground state, not a rolling field) — DESI's target.
 - The dark-energy floor cannot "thaw" into dynamics (a pre-registered zero, currently

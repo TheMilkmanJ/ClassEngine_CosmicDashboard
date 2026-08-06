@@ -1,4 +1,4 @@
-# Blocked lane audit — bbnfix booking gate (2026-08-05)
+# Blocked lane audit — bbnfix booking gate (2026-08-06)
 
 Purpose: freeze one shared blocked lane exactly, so `PRTOE_hubble_tension.md` and
 `PRTOE_neutrino_home.md` stop drifting into repeated prose variants of the same machine gate.
@@ -21,7 +21,7 @@ This lane controls whether the desk may quote **booked** live-pair:
 
 Latest booking artifact on disk from `python3 scripts/book_bbnfix_when_ready.py`:
 
-- `docs/working_logs/_runs/bbnfix_booking_20260805_222942/REPORT.md`
+- `docs/working_logs/_runs/bbnfix_booking_20260806_001856/REPORT.md`
 
 The script result there is:
 
@@ -76,6 +76,13 @@ There is only one honest closure path:
 2. let the sampler self-stop so checkpoint `converged: true`
 3. rerun `python3 scripts/book_bbnfix_when_ready.py`
 4. refresh dependent docs from the new booking card only
+
+## Tooling note
+
+The live diagnostic helper `scripts/bbnfix_mcmc_watch_diag.py` is now portable in the base Python
+environment: it no longer hard-fails on a missing `numpy` import before reporting progress,
+checkpoint, and chain-growth state. This changes observability only; it does **not** change the
+booking gate or any scientific verdict.
 
 No docs-only polish cures this lane.
 

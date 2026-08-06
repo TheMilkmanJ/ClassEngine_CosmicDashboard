@@ -331,7 +331,7 @@ survives (background ρ_m, not the w-mirage).
 ## 6\. The neutrino home
 
 Ψ = Majoron (L-breaking Goldstone): tree coupling σNN → Majorana m_ν → **0νββ must occur**
-(P-2026-020); **Σm_ν ≈ 61.4 meV, normal ordering** — the sum from the tie below, the *ordering*
+(P-2026-020); **Σm_ν ≈ 61.35 meV, normal ordering** — the sum from the tie below, the *ordering*
 selected by data through the P-2026-004 collision (ANN-2026-021), not by P-2026-012, which states
 it does not fix the hierarchy (ANN-2026-025). The sum is not a discriminator: it sits 2.6 meV above
 the m₁ = 0 floor against ~20 meV planned resolution. The tie:
@@ -379,7 +379,7 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 attempt to fix the dark-energy value from the cosmic expansion history was checked and fails: it
 predicts a dark-energy-to-matter ratio at least ~5× too small (and zero for an eternally expanding
 universe). So the value is not fixed this way. The model's standing dark-energy predictions remain
-**w = −1 exactly** and the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
+**w = −1 exactly** and the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν ≈ 61.35 meV).
 
 **7b. The thaw [the necessary consequence].** Observed Λ ⟹ turnaround within \~an e-fold ⟹
 **m_J \~ (1–3)H₀** ⟹ the floor is thawing NOW:
@@ -707,7 +707,7 @@ any decay constant; AZK-safety; leptonic allowed ≠ generated.
 **Falsified:** P-2026-004 (high Σm_ν); the sequestering route to the dark-energy value (§7a, and the
 full-cycle KP solve in the addendum — the internal falsifier fired).
 
-**Live falsifiers:** DESI DR3 (the branch), Σm_ν ≈ 61.4 meV, 0νββ, void/IGM m_e-step (P-007, J4).
+**Live falsifiers:** DESI DR3 (the branch), Σm_ν ≈ 61.35 meV, 0νββ, void/IGM m_e-step (P-007, J4).
 
 **Settled since this ledger was last written** — each was carried here as open and each is closed
 elsewhere in the corpus:

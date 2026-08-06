@@ -468,7 +468,7 @@ high-decay-constant field of §8 item 1b (§6).
 
 ## 4. The neutrino sector
 
-- **Σm_ν ≈ 61.4 meV, normal ordering — recorded prediction**, from the tie ρ_Λ¼ = m_ν,lightest (the DE
+- **Σm_ν ≈ 61.35 meV, normal ordering — recorded prediction**, from the tie ρ_Λ¼ = m_ν,lightest (the DE
   floor equals the lightest neutrino mass). Requires the Majorana mechanism. The tie now has a
   **forward mechanism** (`scripts/kubo_freeze.py`): the dark condensate thermally settles into the
   cosmic neutrino bath (its only tree-level partner) with Γ/H ≈ 5×10¹⁰ ≫ 1 — it tracks the bath — and

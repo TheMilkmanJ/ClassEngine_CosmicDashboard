@@ -298,7 +298,7 @@ already faces adverse data, it is losing: primordial deuterium at −2.9σ on th
 published error budget, defended by a registered nuclear-rate bet (P-2026-058) that ΛCDM
 largely shares. The headline fit comparison is unquotable by this corpus's own ruling (chain
 table below). And the nearest calendar events are likelier to wound than confirm:
-ΛCDM-conditional Σm_ν upper limits are descending through 61.4 meV from above. Pay dates for
+ΛCDM-conditional Σm_ν upper limits are descending through the model's ≈61.35 meV band from above. Pay dates for
 the bets that could genuinely confirm something: JUNO ~2031–32 (the funnel-edge inputs),
 ton-scale 0νββ in the 2030s, CMB-S4 (ΔN_eff, the Majoron coupling), HL-LHC (the anchor band),
 a LUNA-class d(d,n)³He measurement (the deuterium bet). Until one of those pays, every
@@ -353,7 +353,7 @@ before both legs self-stop at R−1 &lt; 0.05 is quoting noise, either way.
 3. The α_c instrument lands > 2σ off 3α.
 4. Any confirmed dark-sector non-gravitational signal — decay line, annihilation, scattering (the
    shift symmetry forbids all; one confirmed event kills the dCDF identification outright).
-5. A robustly measured Σm_ν incompatible with 61.4 meV / normal ordering, or inverted ordering.
+5. A robustly measured Σm_ν incompatible with the model's ≈61.35 meV / normal-ordering tie, or inverted ordering.
 6. The BBN joint tension crossing the decisive bar (D/H toward −3.3σ) once the inter-code systematic
    is resolved.
 

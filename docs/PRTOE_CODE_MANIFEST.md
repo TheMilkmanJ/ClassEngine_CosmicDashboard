@@ -60,7 +60,7 @@ expression).*
 | z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c instrument grades it when restarted** | yaml |
 | n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the fixed-ε configs execute; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the next config, no mid-run change) | **IN — frozen into the fixed-ε configs** | yaml |
 | ρ_inf stated | the occupancy value | the α_c instrument + the triangle confirmed | yaml |
-| m_ncdm stated | 61.4 meV | the spurion identification lifted (done — neutrino_sector §2) + P-023 resolved | yaml |
+| m_ncdm stated | ≈61.35 meV | the spurion identification lifted (done — neutrino_sector §2) + P-023 resolved | yaml |
 | The flow ladder correction | ω₀ = 0.77 km/s/Mpc; 73.0 → 72.2 at full coherence | genesis sizing fixes the coherent fraction | comparison layer: flow_ladder_correction.py (built) |
 
 ## 3. No pipeline expression — beneficial, lives in the theory (not code by nature)

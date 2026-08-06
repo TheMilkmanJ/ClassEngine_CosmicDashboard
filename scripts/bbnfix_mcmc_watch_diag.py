@@ -14,8 +14,6 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-import numpy as np
-
 REPO = Path(__file__).resolve().parent.parent
 CH = REPO / "chains"
 PAIR = ("dyad_mnu_bbnfix", "cmp_lcdm_mnu_bbnfix")
@@ -75,7 +73,7 @@ def chain_growth(name: str):
     return out
 
 
-def crude_r1(name: str, burn_frac: float = 0.5) -> float | None:
+def _tail_param_rows(name: str, burn_frac: float) -> list[list[list[float]]] | None:
     mats = []
     for i in (1, 2, 3):
         f = CH / f"{name}.{i}.txt"
@@ -85,20 +83,47 @@ def crude_r1(name: str, burn_frac: float = 0.5) -> float | None:
         for ln in f.open():
             if not ln.strip() or ln.startswith("#"):
                 continue
-            rows.append([float(x) for x in ln.split()])
-        a = np.asarray(rows)
-        s = int(len(a) * burn_frac)
-        mats.append(a[s:, 2:])  # skip weight, minuslogpost
+            rows.append([float(x) for x in ln.split()[2:]])  # skip weight, minuslogpost
+        s = int(len(rows) * burn_frac)
+        tail = rows[s:]
+        if not tail:
+            return None
+        mats.append(tail)
+    return mats
+
+
+def crude_r1(name: str, burn_frac: float = 0.5) -> float | None:
+    mats = _tail_param_rows(name, burn_frac)
+    if not mats:
+        return None
     m = min(len(x) for x in mats)
-    X = np.stack([x[-m:] for x in mats], axis=0)  # R,N,P
-    R, N, P = X.shape
-    mean_i = X.mean(axis=1)
-    mean = mean_i.mean(axis=0)
-    B = N * ((mean_i - mean) ** 2).sum(axis=0) / max(R - 1, 1)
-    W = ((X - mean_i[:, None, :]) ** 2).sum(axis=(0, 1)) / max(R * (N - 1), 1)
-    var = (N - 1) / N * W + B / N
-    rhat = np.sqrt(var / np.maximum(W, 1e-300))
-    return float(rhat.max() - 1.0)
+    tails = [x[-m:] for x in mats]
+    R = len(tails)
+    N = m
+    P = len(tails[0][0])
+    max_r1 = 0.0
+
+    for p in range(P):
+        means = []
+        variances = []
+        for chain in tails:
+            vals = [row[p] for row in chain]
+            mean = sum(vals) / N
+            means.append(mean)
+            if N > 1:
+                variances.append(sum((v - mean) ** 2 for v in vals) / (N - 1))
+            else:
+                variances.append(0.0)
+        grand = sum(means) / R
+        B = N * sum((mu - grand) ** 2 for mu in means) / max(R - 1, 1)
+        W = sum(variances) / R
+        denom = W if W > 1e-300 else 1e-300
+        var_hat = (N - 1) / N * W + B / N
+        r1 = (var_hat / denom) ** 0.5 - 1.0
+        if r1 > max_r1:
+            max_r1 = r1
+
+    return float(max_r1)
 
 
 def main() -> int:
