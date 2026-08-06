@@ -1,0 +1,22 @@
+2026-08-06T01:35:48-06:00 cutover_start target_type=c7i.24xlarge target_vcpu=96 mpi_ranks=96
+2026-08-06T01:42:01-06:00 cutover_start target_type=c7i.24xlarge target_vcpu=96 mpi_ranks=96
+2026-08-06T01:43:09-06:00 cutover_start target_type=c7i.24xlarge target_vcpu=96 mpi_ranks=96
+2026-08-06T01:43:17-06:00 remote_runs_killed host=13.219.235.54
+2026-08-06T01:43:23-06:00 quota_poll spot=32.0 ondemand=32.0
+2026-08-06T01:45:58-06:00 cutover_start target_type=c7i.24xlarge target_vcpu=96 mpi_ranks=96
+2026-08-06T01:46:05-06:00 remote_runs_killed host=13.219.235.54
+2026-08-06T01:46:09-06:00 quota_poll spot=32.0 ondemand=32.0
+2026-08-06T01:47:21-06:00 quota_poll spot=32.0 ondemand=32.0
+2026-08-06T01:48:31-06:00 quota_poll spot=32.0 ondemand=32.0
+2026-08-06T01:49:42-06:00 quota_poll spot=32.0 ondemand=32.0
+2026-08-06T01:50:54-06:00 quota_poll spot=96.0 ondemand=32.0
+2026-08-06T01:52:04-06:00 quota_poll spot=96.0 ondemand=32.0
+2026-08-06T01:53:14-06:00 quota_poll spot=96.0 ondemand=32.0
+2026-08-06T01:54:24-06:00 quota_poll spot=96.0 ondemand=32.0
+2026-08-06T01:55:34-06:00 quota_poll spot=96.0 ondemand=32.0
+2026-08-06T01:55:46-06:00 cutover_start target_type=c7i.24xlarge target_vcpu=96 mpi_ranks=96 quota_mode=spot-only
+2026-08-06T01:55:55-06:00 remote_runs_killed host=13.219.235.54
+2026-08-06T01:56:00-06:00 quota_poll spot=96.0 ondemand=32.0 quota_mode=spot-only
+2026-08-06T01:56:00-06:00 quota_ready spot=96.0 ondemand=32.0 quota_mode=spot-only
+2026-08-06T01:56:03-06:00 instance_stop_submitted
+2026-08-06T01:56:39-06:00 instance_stopped

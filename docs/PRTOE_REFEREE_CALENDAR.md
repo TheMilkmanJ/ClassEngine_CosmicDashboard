@@ -8,7 +8,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 
 ## Sitting now (in-house machines)
 
-> **Live read 2026-08-05** (from `chains/*.progress`, checkpoints, chain `.txt` mtimes,
+> **Live read 2026-08-06** (from `chains/*.progress`, checkpoints, chain `.txt` mtimes,
 > `python3 scripts/bbnfix_mcmc_watch_diag.py`, `python3 scripts/book_bbnfix_when_ready.py`).
 > Progress-file `acceptance_rate` is oversampled (`oversample_power = 0.4`) and near ~0.98–1.0
 > even when raw Metropolis accept is healthy — **raw accept = accepted/steps from launchlog**.
@@ -17,27 +17,27 @@ No verdict may be argued after the fact — the rules below were set before the 
 > **REFUSED**). Same truth as
 > `PRTOE_CHAIN_TABLES.md` residual freeze and `PRTOE_CODE_MANIFEST.md` §1 live stamp.
 > lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged: true`; control leg ready, pair still
-> **NOT bookable**); dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 (**1.20×** stop; `converged:
-> false`). routeD R−1 **0.536955**@N=9745 t=2026-08-05T18:43:45 (~**5.37×** stop 0.1; live — currency card `blocked_lane_routeD_20260805`) — not
+> **NOT bookable**); dyad **0.086073**@N=30417 t=2026-08-06T08:43:18 (**1.72×** stop; `converged:
+> false`). routeD R−1 **0.351167**@N=14625 t=2026-08-06T09:24:48 (~**3.51×** stop 0.1; live — currency card `blocked_lane_routeD_20260805`) — not
 > dual-gate.
 > Currency: shared blocker card `blocked_lane_bbnfix_20260805/REPORT.md`.
 >
 > | chain | N (progress) | R−1 | stop | converged | bookable |
 > |---|---:|---:|---:|---|---|
-> | `dyad_mnu_bbnfix` | 26135 | **0.060201** | 0.05 | false | **NO** |
+> | `dyad_mnu_bbnfix` | 30417 | **0.086073** | 0.05 | false | **NO** |
 > | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | true | **NO** (control leg ready; pair still closed) |
-> | `cmp_prtoe_routeD` | 9745 | **0.536955** | 0.1 | false | **NO** (~5.37× stop) |
+> | `cmp_prtoe_routeD` | 14625 | **0.351167** | 0.1 | false | **NO** (~3.51× stop) |
 >
 > GetDist offline max GR (diagnostic only): dyad **~0.086**, lcdm **~0.07** — not the gate.
-> **PolyChord: off.** Live MPI production objects remain running.
+> **PolyChord: last watcher-authoritative AWS dyad state was STALLED on the replacement `c7i.24xlarge` Spot box; current remote state is unknown because the watcher is now only reporting `EIC_KEY_FAIL`; no nested verdict yet.** Live MPI production objects remain running.
 
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
-| **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | stop `Rminus1_stop = 0.05` **and** checkpoint `converged: true`; book only via `scripts/book_bbnfix_when_ready.py` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.060201 at N = 26135** (t=2026-08-05T15:50:02) — **1.20×** stop |
+| **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | stop `Rminus1_stop = 0.05` **and** checkpoint `converged: true`; book only via `scripts/book_bbnfix_when_ready.py` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.086073 at N = 30417** (t=2026-08-06T08:43:18) — **1.72×** stop |
 | **BBN-fixed ΛCDM twin — `cmp_lcdm_mnu_bbnfix`** (live, 3 ranks) | matched denominator for the model chain | stop `Rminus1_stop = 0.05` **and** `converged: true` (both legs of the pair) | **Machine — live; control leg ready, pair still NOT bookable.** Last progress: **R−1 = 0.049324 at N = 26294** (t=2026-08-05T11:52:10); checkpoint `converged: true`. This leg has met its own gate, but booking still waits on the model leg. Progress accept ~0.981 oversampled. Offline GetDist max GR ~0.07 (diag only) |
-| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.536955 at N = 9745** (t=2026-08-05T18:43:45); ~**5.37×** stop 0.1; checkpoint `converged: false`. Progress accept ~0.997 oversampled. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1.** Separate instrument — not part of the bbnfix pair dual gate |
-| The nested referee — ended 2026-07-20 by owner decision (#99). The evidence verdict returns to Laplace-from-MCMC until cluster time is bought. (was cmp_prtoe_fixed PolyChord) | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless — **the thresholds stand as registered and are now graded against the Laplace estimate**, the nested number not being available. The configuration's own caveat is unchanged: it is frozen at z_on = 3.5619×10⁷ against the H = m identity's 4.03×10⁷, so it grades a point beside the stated one | **Not running — PolyChord off (2026-08-04 stamp).** Not scheduled on this hardware. Cost: 534 slice steps × 66 s → **9.8 h per nested iteration**; 163 days to first checkpoint; 736 days for the reference run (+ ΛCDM twin doubles it). Archived at `chains/_archive_polychord_ended_20260720_0915/` |
-| the ΛCDM twin (pc_lcdm) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | after the nested referee (also not scheduled) |
+| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.351167 at N = 14625** (t=2026-08-06T09:24:48); ~**3.51×** stop 0.1; checkpoint `converged: false`. Progress accept ~0.997 oversampled. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1.** Separate instrument — not part of the bbnfix pair dual gate |
+| The nested referee — laptop run ended 2026-07-20 by owner decision (#99); AWS dyad evidence leg up 2026-08-06 | P-2026-044 (ΔlnZ: model ≥+5, null-favoring +3±1) | ≥+5 the model wins; +2–4 the null-favoring range; <+2.5 = the bottom-out clause; autopsy protocol runs regardless — **the thresholds stand as registered and are still graded against the Laplace estimate until the nested pair finishes.** The configuration's own caveat is unchanged: it is frozen at z_on = 3.5619×10⁷ against the H = m identity's 4.03×10⁷, so it grades a point beside the stated one | **Partial live state.** Last watcher-authoritative AWS `cmp_prtoe_dyad_ev` state on the replacement `c7i.24xlarge` Spot box at `96` ranks was **STALLED** (no live-point growth since 2026-08-06 02:21 MDT). Since 2026-08-06 09:48 MDT the watcher has only `EIC_KEY_FAIL`, so current remote advancement is unknown. **No nested verdict yet.** The ΛCDM twin config bug is fixed and the remote autolaunch worker remains queued behind the dyad process, so the evidence ruling remains Laplace-only for now. Current note: `working_logs/_runs/polychord_owner_followup_20260806/REPORT.md` |
+| the ΛCDM twin (pc_lcdm) | the ΔlnZ denominator | same stack, same nlive — no comparison without it | remote autolaunch now armed behind the live AWS dyad leg; launch waits on dyad exit |
 | **zon_disp — not relaunched** (collapsed R−1 = 23.3 archived at `chains/_archive_zon_disp_collapsed_20260720_1528/`; seed for a correct restart is built as `chains/zon_disp_seed.covmat`) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, five freezes | converged (R−1 < 0.05) center inside 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; above ~7.8 = the named branches must pay | **Parked by decision (2026-08-04)** — last progress R−1 ≈ **17.81** (N=3456, 2026-07-22); not live. Gated shelf §2 / #13. The collapsed config's seed covers 12/13 parameters and knows nothing about `log10_zon`; relaunching on that seed would reproduce the failure. Restart is an owner act when cores free, on the from-samples seed only |
 | **conv_desi — not a live posterior** (collapsed 07-18 run archived; last chain file stamped **2026-07-22** at split-R̂ R−1 = 13.25) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | **Unproduced, not pending (2026-08-04)** — died twice (init 07-16; again 07-22). Restart is an owner decision. Companion S₈ files (`PRTOE_s8_growth.md`, `PRTOE_s8_tension.md`) carry the same correction. Matched lensing-likelihood fit (#161) remains open separately |
 | **dyad_mnu_mcmc — historical control case (archive; not the live bbnfix pair)** | (not a referee; recorded because it constrains how stuck-chain failures were read in July) | — | Archive diagnostic, not a live process. Once the healthiest object on the box at **R−1 = 0.176 at N = 8736** with progress accept **0.92** — showing that a high *progress* acceptance rate is *not* by itself pathology under `oversample_power = 0.4`. Flat-direction hypothesis **tested 2026-07-29** (`scripts/flat_direction_convergence_test.py`) and **unsupported though not refuted** (stuck chains narrow in every direction, not only named suspects). Live production health is now tracked on **`dyad_mnu_bbnfix` / `cmp_lcdm_mnu_bbnfix`** above, not here |
@@ -83,7 +83,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 > **20.4%** (routeD) and **19.8%** (conv_desi), against the ~97%-and-never-move pathology those
 > relaunches were meant to escape. That is inside the optimal band for high-dimensional
 > Metropolis, measured from the launchlogs' step/accept counters. **Present (2026-08-05):**
-> routeD is live again (Sitting NOW: R−1 = **0.536955** at N = 9745 — not bookable, ~**5.37×** stop);
+> routeD is live again (Sitting NOW: R−1 = **0.257073** at N = 11422 — not bookable, ~**2.57×** stop);
 > conv_desi is **unproduced** after two deaths (last chain file 2026-07-22) — not a live posterior.
 >
 > The 07-20 burn-in measurement settled the step: the proposal was the right size
@@ -92,17 +92,13 @@ No verdict may be argued after the fact — the rules below were set before the 
 > mix, and **R−1 remains the only test that grades it.**
 
 > The evidence route, restated 2026-07-20. PolyChord was ended after ~48 h in which it never
-> reached its first checkpoint. It was not stalled — it was running exactly as configured, and the
-> configuration cost more than the question was worth **on the laptop it was running on**: 66 s per
-> likelihood evaluation against 534 slice steps per iteration is **9.8 h per nested iteration**, so
-> 400 iterations to the first checkpoint is **163 days** and the reference 1809-iteration run is
-> **736 days**, with the ΛCDM twin doubling it. Forty-eight hours bought 4.1 iterations of 1809.
+> reached its first checkpoint. It was not stalled; it was simply the wrong machine for the job.
 >
-> **Superseded by measurement 2026-08-06.** The same configuration on cluster-class hardware runs
-> at **6.70 s per likelihood evaluation** — **9.9× faster**. The reference run is then **≈1 800
-> core-hours**, about **19 wall-hours on 96 cores**, and **≈37** with the ΛCDM twin. The retirement
-> was correct for the machine it was decided on; **the affordability verdict does not carry to a
-> cluster**, and reinstating the nested referee is an owner call rather than a blocked lane.
+> **Superseded by the 2026-08-06 AWS follow-up.** The current live state is: the dyad evidence leg
+> is running on the replacement `c7i.24xlarge` Spot box at `96` ranks, the repaired ΛCDM twin
+> worker is queued behind it, and there is still no nested verdict. Use
+> `working_logs/_runs/polychord_owner_followup_20260806/REPORT.md` for current cost / status rather
+> than the retired laptop economics.
 >
 > **What the run actually costs, and what machine matches it**
 > (`scripts/nested_run_cluster_sizing.py`). The reference run and its twin are 1.93 million
@@ -116,12 +112,10 @@ No verdict may be argued after the fact — the rules below were set before the 
 > slack.
 >
 > The verdict therefore rests on Laplace-from-MCMC, as it did before the nested run was
-> attempted, until cluster time makes nested sampling affordable. That changes what the MCMC chains
-> are for: they are no longer a side referee on individual parameters, they are the evidence
-> calculation's only input. **Chain convergence is now the critical path for P-2026-044 itself**, so
-> the sampler work tracked at #155 has been promoted from housekeeping to the gate on the model's
-> headline claim. The standing Laplace ΔlnZ = +2.635 remains what it was — marginal, SH0ES-
-> conditional, and explicitly awaiting a confirmer that will not now arrive on this hardware.
+> attempted, while the nested pair remains unfinished. The old laptop no longer sets affordability:
+> AWS nested sampling is now live for the sampled-ε dyad leg, but the pair is still incomplete, so
+> the MCMC chains remain the only graded input for now. **Chain convergence is therefore still on the
+> critical path for P-2026-044 itself**, while the nested confirmer is present but unfinished.
 
 ## The near sky (1–2 years)
 | referee | grades | rule |
@@ -130,7 +124,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 | DESI DR3 w(z) | w = −1 exactly (the peg) | robust thawing/w ≠ −1 kills the floor |
 | TRGB ladder (P-2026-001) | the no-hedge ladder bet | as registered |
 | the radio referee | the D/H fork (D/H = 2.387×10⁻⁵ → 2.407–2.463×10⁻⁵ with the genesis residual; a self-adverse owned bet; the registered pull −2.9σ eases to **−2.5…−1.4σ** on the quotable budget under the standing high-f books, and does not reach Cooke — hunt §8 1b) | as registered |
-| The zero-parameter evidence exposure — carried by Laplace-from-MCMC; nested sampling deferred to cluster time | ε, A_s and n_s stated vs ΛCDM free — **z_on excepted**, frozen 0.053 dex off the onset identity | ΔlnZ verdict; any stated number wrong collapses the model's evidence. The instrument is the constraint here: the standing ΔlnZ = +2.635 is a Laplace estimate whose margin over the +2.5 line is smaller than the estimator's own systematic, so the exposure is real but the reading is marginal until a nested number can be afforded |
+| The zero-parameter evidence exposure — currently carried by Laplace-from-MCMC while the different sampled-ε AWS dyad leg runs | ε, A_s and n_s stated vs ΛCDM free — **z_on excepted**, frozen 0.053 dex off the onset identity | ΔlnZ verdict; any stated number wrong collapses the model's evidence. The instrument is still the constraint: the standing ΔlnZ = +2.635 is a Laplace estimate whose margin over the +2.5 line is smaller than the estimator's own systematic, so the exposure is real but the reading remains marginal until a matching nested number exists |
 | the ς sign session — landed: ς = −1 | the candle room / the H₀ ceiling | the candle lever is dead; the ceiling reads 70.9–71.3 (estimate grade, robust) |
 | DESI forest-BAO (near-term data) | the gate curve at mean density | a clean forest at the curve's prediction kills the candle room |
 | the Eliashberg k-audit + winding-gas C_V (B2/B3 — **run: k audited into [1.35, 1.37], three-way concordance 1.360/1.36461/1.3602; and since reconstructed exactly from a two-band screened kernel, though on a host the basement does not record — hierarchy §6c, §6m**) | the A_s closed form | k outside the concordance band [1.360, 1.366] kills the k-locked prediction — currently inside |

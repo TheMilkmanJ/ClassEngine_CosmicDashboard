@@ -1,5 +1,9 @@
 # Chaos & Dynamical Systems — Natively Ours (standalone; the recorded One Mountain + this era's returns)
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Exploratory map assembly only. The f̄/winding machinery is real, but this file does not carry an independent ship artifact or a new booked quantitative subdomain result.
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 

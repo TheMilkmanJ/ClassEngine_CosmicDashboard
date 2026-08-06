@@ -1,7 +1,7 @@
 # Reader’s guide — plain physics, no house dialect
 
-**Status (2026-08-05 currency):** glossary and reading map for outsiders — not a graded-claims
-surface. For graded claims, evidence class (Laplace-marginal; nested sampling offline), kill
+**Status (2026-08-06 currency):** glossary and reading map for outsiders — not a graded-claims
+surface. For graded claims, evidence class (Laplace-marginal; nested sampling not yet decisive), kill
 conditions, and live risk posture, start with
 [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Live chain bookkeeping:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
@@ -9,7 +9,7 @@ conditions, and live risk posture, start with
 > **Currency board (2026-08-05).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with
 > `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.049324** N=26294
 > t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad R−1
-> **0.060201** @N=26135 t=2026-08-05T15:50:02 — **1.20×** stop, `converged: false`; pair still
+> **0.085619** @N=27525 t=2026-08-05T22:03:22 — **1.71×** stop, `converged: false`; pair still
 > **REFUSED**). Do not peek-book H₀ / Σm_ν / S₈ from live chains. BBN ε arithmetic is **verified
 > internal**; **external win pending DOI**. Numbers and gates live in RISK + CHAIN_TABLES; this
 > guide does not book posteriors.
@@ -95,7 +95,9 @@ Retired-era documents may use letters differently; those files carry banners.
 ## 4. What to be skeptical of
 
 - The statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and marginal
-  (pre-bbnfix stack). Nested sampling is **not running** and waits for cluster time. Production
+  (pre-bbnfix stack). AWS nested sampling is up for the dyad evidence leg, but the current watcher
+  marks it **STALLED**, there is still no nested verdict, and the repaired ΛCDM twin is only a
+  waiting worker behind dyad. Production
   bbnfix MCMC is live but **NOT bookable** (gate: both R−1 < 0.05 and self-stop) — see RISK and
   CHAIN_TABLES; do not treat interim R−1 as a booked product.
 - **A_s closed form** is a candidate (counting mechanism half-derived; frozen into the production

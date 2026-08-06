@@ -47,8 +47,9 @@ environment half, one interaction and one signature at a time.
 - **The electron-coupled scalar**: one modification to known physics (m_e) → H₀ ≈ 69.9
  from the CMB fit (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval,
  S₈ at the KiDS-Legacy consensus. The H₀ figure is provisional — its evidence
- number is a Laplace estimate from the MCMC chains, with the nested-sampling confirmer
- deferred to cluster time, so the chains' convergence is what sharpens it.
+ number is a Laplace estimate from the MCMC chains; the AWS nested dyad leg is now live,
+ but no nested verdict exists yet and the ΛCDM twin is still waiting behind it, so the
+ chains' convergence is what sharpens the currently graded number.
 - **The deuterium row-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
  (Approximate coefficients, literature-grade — pulled from source; see
@@ -1146,4 +1147,3 @@ atlas is falsified entry-by-entry, never defended as a whole.*
 **Triage:** exploratory-ok (ledger is story/map/assembly + parent-graded cross-links only).  
 **Banner:** discipline above story; physics map/story ceiling intentional.  
 **Not Failures:** orientation atlas, not a killed claim.
-

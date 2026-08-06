@@ -1,13 +1,13 @@
 # The dependency tree — what is conditional on what (2026-07-13)
 
-> ## Residual-currency banner — 2026-08-05
+> ## Residual-currency banner — 2026-08-06
 >
 > **Inheritance rule still holds:** a claim’s effective grade = its **weakest parent**. Body rows
 > below are the historical conditionality map; this banner does **not** regrade every cell.
 >
-> | residual | stamp (2026-08-05) |
+> | residual | stamp (2026-08-06) |
 > |---|---|
-> | Live cosmology product (bookable H₀ / Σm_ν / S₈ from the bbnfix pair) | **OPEN-MACHINE** — conditional on bbnfix book; CURRENT gate **REFUSED** (lcdm R−1 **0.049324** N=26294 t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 — **1.20×** stop, `converged: false`; pair still closed; routeD **0.536955**@N=9745 t=2026-08-05T18:43:45 — ~5.37× its 0.1 stop) |
+> | Live cosmology product (bookable H₀ / Σm_ν / S₈ from the bbnfix pair) | **OPEN-MACHINE** — conditional on bbnfix book; CURRENT gate **REFUSED** (lcdm R−1 **0.049324** N=26294 t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad **0.085619**@N=27525 t=2026-08-05T22:03:22 — **1.71×** stop, `converged: false`; pair still closed; routeD **0.257073**@N=11422 t=2026-08-06T01:51:33 — ~2.57× its 0.1 stop) |
 > | Page Q6 | **OPEN**; `page_curve_claimed: false` (no invent close) |
 > | Bounce classical turn / exterior H_re | **OPEN-BLOCKED** |
 > | Strong CP | **COMPLETE-ABSTENTION** — not a solution lane |

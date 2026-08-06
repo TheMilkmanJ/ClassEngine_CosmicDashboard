@@ -172,10 +172,11 @@ unconverged; Gaussian density approximation; prior-width dependent
 physical, from quasar/BBN-adjacent bounds, and must be defended as
 such when quoted). Nested sampling remains necessary for the NON-nested
 comparisons and as the S-D cross-check; it is no longer the only route
-to an evidence number — **and that matters more than it did.** [2026-07-20: nested
-sampling is deferred to cluster time, so Savage–Dickey on a converged chain is
-the evidence route in hand for the nested case, and its caveats above are the
-ones that must be defended rather than waited out.]
+to an evidence number — **and that matters more than it did.** [2026-07-20:
+the local nested route was being deferred to cluster time; current live nested
+status is the AWS dyad leg plus a waiting repaired ΛCDM twin on the same build,
+so Savage–Dickey on a converged chain remains the evidence route in hand while
+the nested denominator is still unfinished.]
 
 ## Granule-power formula confirmed (Tier-3 partial, 2026-07-07)
 

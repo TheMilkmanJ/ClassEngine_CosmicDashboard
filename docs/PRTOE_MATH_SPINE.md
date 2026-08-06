@@ -322,8 +322,10 @@ CONFIRMS, not decides.
 ## 5\. Recombination → today [the fitted era]
 
 m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SH0ES-conditional, and
-Laplace is where it stays — nested sampling waits for cluster time, so the estimate has no confirmer
-in prospect and its margin over the decision threshold is inside its own systematic);
+Laplace is where it stays — AWS nested sampling is live for the dyad evidence leg on the
+replacement `c7i.24xlarge` Spot box, but there is still no nested verdict; the repaired ΛCDM twin
+is only a waiting worker behind dyad, so the estimate still lacks its confirmer and its margin over
+the decision threshold is inside its own systematic);
 screening returns m_e → standard below z ≈ 50 [survival form S = exp[−(C²/C_ref²)^n_eff],
 n_eff ≥ 35]. Optional rotation-shed `dcdf_conv_g` — the matter component draining into dark
 radiation (S₈: minimizer picks g = 0.12, S₈ = 0.821 vs KiDS 0.814).
@@ -360,9 +362,9 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > sections below record the mechanism as it was worked out; the addendum records what happened to
 > it.
 >
-> **Current state (2026-08-05):** `cmp_prtoe_routeD` runs on **three MPI ranks** (covariance
-> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.536955** at **N ≈ 9745**
-> (t=2026-08-05T18:43:45; ~**5.37×** its 0.1 stop; `converged: false`) — see
+> **Current state (2026-08-06):** `cmp_prtoe_routeD` runs on **three MPI ranks** (covariance
+> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.257073** at **N ≈ 11422**
+> (t=2026-08-06T01:51:33; ~**2.57×** its 0.1 stop; `converged: false`) — see
 > `PRTOE_CHAIN_TABLES.md`. Stopped predecessors are archived beside the chain with their diagnoses.
 > **What does not change:** the clean Route-D prediction was killed by the full-cycle KP solve
 > analytically; the chain adjudicates only whether the surviving imminent-turn corner lives
@@ -737,8 +739,8 @@ and it belongs beside c on the list of things the model counts on rather than de
 
 **Standing:** open pending the named referees, DESI-capped; the branch is registered
 (P-2026-056) with its guards discharged. Its adjudicating chain (`cmp_prtoe_routeD`) runs on
-**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.536955
-@ N ≈ 8120 (2026-08-05; see `PRTOE_CHAIN_TABLES.md`). A single chain does yield a within-chain
+**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.257073
+@ N ≈ 11422 (2026-08-06; see `PRTOE_CHAIN_TABLES.md`). A single chain does yield a within-chain
 split-R̂; what it cannot do is detect confinement to one basin, which is the failure mode at issue
 — that is why the multi-chain production setup is required (§7). **DESI DR3 remains the adjudicator
 and is unaffected.**

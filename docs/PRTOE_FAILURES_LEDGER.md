@@ -1699,10 +1699,10 @@ recorded here is that its deciding input does not transfer. Whether to reinstate
 is an owner call, and it is a budget question of tens of dollars rather than a blocked lane.
 
 **What survives:** P-2026-044's forecasts, its intervals and its bottom-out clause stand exactly as
-registered; the number they grade is now the **Laplace-from-MCMC** estimate rather than a nested
-one, until cluster time is bought. The autopsy protocol survives in reduced form — the Δχ²
-decomposition runs on the chains, while the measured Occam costs it wanted are a nested-sampling
-output and wait with the rest.
+registered; the number they grade is now the **Laplace-from-MCMC** estimate rather than a finished
+nested one while the AWS nested pair is still incomplete. The autopsy protocol survives in reduced
+form — the Δχ² decomposition runs on the chains, while the measured Occam costs it wanted are a
+nested-sampling output and wait with the rest.
 
 **Why the substitution is adverse, and recorded as such:** the Laplace estimator's own systematic is
 larger than the **+0.135** by which the standing **+2.635** clears the win line, so the instrument

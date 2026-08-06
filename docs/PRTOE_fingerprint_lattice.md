@@ -30,7 +30,7 @@ One lever, many windows: every window must show the same lever at its own known 
 
 | window | the row | current standing |
 |---|---|---|
-| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | founding fit (thread 11). **\*Provisional / conditional:** +2.635 (Laplace) from chains scored with a ΛCDM helium fraction; configs now carry the measured PRyM response; zero-parameter comparison (cmp_prtoe_fixed) graded from the MCMC. Nested sampling deferred to cluster time — number awaits chain convergence ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
+| CMB/H₀ | +ε at recombination → H₀ = 69.9, ΔlnZ = +2.635 **\*** | founding fit (thread 11). **\*Provisional / conditional:** +2.635 (Laplace) from chains scored with a ΛCDM helium fraction; configs now carry the measured PRyM response; zero-parameter comparison (cmp_prtoe_fixed) is still graded from the MCMC. The live AWS nested run is the different sampled-ε dyad lane, not the fixed-ε one, so this number still awaits chain convergence plus the right nested comparison ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund + the genesis residual | signed self-adverse bet (2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window: **−2.5 to −1.4σ** on the full budget); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out) plus the genesis residual: **+1.3 to +2.0σ** COUNTER vs Aver | owned-adverse, zero fitted parameters |
 | BBN: quark-bleed | **EXCLUDED — row retired, by loop order and by data rather than by symmetry.** Old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4 — so the bleed is excluded by this row itself. What the electron-coupled scalar can actually deliver is set by loop order: its portal is the dark-neutral bilinear \(\lvert\Psi\rvert^2\), which reaches the quark bilinear only at two EW/EM loops, and the loop floor (scalar → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. *(Not symmetry: that scalar is a separate field from the Majoron, and \(\lvert\Psi\rvert^2\) is L-neutral, so U(1)_L screens the quark bilinear no more than the lepton one.)* | **no bleed, no blowout, and no healer: D/H carries −2.5 to −1.4σ** |
@@ -48,7 +48,7 @@ Standard cosmology’s anomalies are treated as independent. The lattice treats 
 
 - **The α_c instrument / chain** (α_c → the fraction → whether ε is fully derived or carries one measured O(1); zon_disp **not currently running**)
 - **DESI DR3** (the w = −1 commitment underneath every row)
-- **The evidence cap** (Laplace estimate from the MCMC — chain convergence moves it; nested sampling waits for cluster time)
+- **The evidence cap** (Laplace estimate from the MCMC — chain convergence moves it; AWS nested dyad evidence leg is live but unfinished and unmatched by the ΛCDM twin)
 - **The radio referee** (the D/H fork)
 - **The BipoSH / isotropy pass** (the axis family, jointly; shared blocker authority:
   `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md`)

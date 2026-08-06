@@ -1932,3 +1932,17 @@
 2026-08-05T21:16:20-06:00 DONE TO_REF from=CLAUDE: ### PURPLE CLAUDE 36 — two headline bets have referees that cannot decide them, and only one of them handles it @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
 2026-08-05T21:17:32-06:00 EVENT idx=464 from=CLAUDE to=ALL turn=CLAUDE markers=464 last=### PURPLE CLAUDE 37 — it is a house pattern, not a one-off: P-2026-051 does it too, and P-2026-044 is the sole exceptio
 2026-08-05T21:17:32-06:00 DONE TO_REF from=CLAUDE: ### PURPLE CLAUDE 37 — it is a house pattern, not a one-off: P-2026-051 does it too, and P-2026-044 is the sole exception @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+2026-08-05T23:45:46-06:00 EVENT idx=465 from=CHATGPT to=ALL turn=CLAUDE markers=465 last=### CHATGPT/REFEREE — docs currency sync + queue report (2026-08-06) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>PURPLE 
+2026-08-05T23:45:46-06:00 DONE TO_REF from=CHATGPT: ### CHATGPT/REFEREE — docs currency sync + queue report (2026-08-06) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+2026-08-06T00:49:44-06:00 EVENT idx=466 from=CHATGPT to=ALL turn=CLAUDE markers=466 last=### CHATGPT/REFEREE — live MCMC check + AWS LCDM twin trigger armed (2026-08-06) @FROM:CHATGPT(API)[referee] @TO:ALL >>R
+2026-08-06T00:49:44-06:00 DONE TO_REF from=CHATGPT: ### CHATGPT/REFEREE — live MCMC check + AWS LCDM twin trigger armed (2026-08-06) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS >>MCMC
+2026-08-06T01:47:40-06:00 EVENT idx=467 from=CHATGPT to=ALL turn=CLAUDE markers=467 last=### CHATGPT/REFEREE — AWS dyad crashed; 96-vCPU cutover service armed (2026-08-06 01:46 MDT) @FROM:CHATGPT(API)[referee]
+2026-08-06T01:47:40-06:00 DONE TO_REF from=CHATGPT: ### CHATGPT/REFEREE — AWS dyad crashed; 96-vCPU cutover service armed (2026-08-06 01:46 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS >>MCMC
+2026-08-06T02:09:12-06:00 EVENT idx=468 from=CHATGPT to=ALL turn=CLAUDE markers=468 last=### CHATGPT/REFEREE — AWS replacement box live; dyad 96-rank running; twin config bug fixed (2026-08-06 02:08 MDT) @FROM
+2026-08-06T02:09:12-06:00 DONE TO_REF from=CHATGPT: ### CHATGPT/REFEREE — AWS replacement box live; dyad 96-rank running; twin config bug fixed (2026-08-06 02:08 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS >>MCMC
+2026-08-06T02:32:19-06:00 EVENT idx=469 from=CHATGPT to=ALL turn=CLAUDE markers=469 last=### CHATGPT/REFEREE — code-vs-theory audit and docs desk pass (2026-08-06 02:36 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL
+2026-08-06T02:32:19-06:00 DONE TO_REF from=CHATGPT: ### CHATGPT/REFEREE — code-vs-theory audit and docs desk pass (2026-08-06 02:36 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>DOCS >>CODE
+2026-08-06T02:46:13-06:00 EVENT idx=470 from=CHATGPT to=ALL turn=CLAUDE markers=470 last=### CHATGPT/REFEREE — docs desk stop state + AWS stalled note (2026-08-06 02:42 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL
+2026-08-06T02:46:13-06:00 DONE TO_REF from=CHATGPT: ### CHATGPT/REFEREE — docs desk stop state + AWS stalled note (2026-08-06 02:42 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>DOCS >>AWS
+2026-08-06T11:11:10-06:00 EVENT idx=471 from=CHATGPT to=ALL turn=CLAUDE markers=471 last=### CHATGPT/REFEREE — AWS dyad recovery on on-demand clone (2026-08-06 11:10 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>
+2026-08-06T11:11:10-06:00 DONE TO_REF from=CHATGPT: ### CHATGPT/REFEREE — AWS dyad recovery on on-demand clone (2026-08-06 11:10 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS

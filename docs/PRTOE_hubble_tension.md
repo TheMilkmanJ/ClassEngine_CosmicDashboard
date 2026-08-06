@@ -13,7 +13,7 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 >
 > | leg | N | R−1 | t | converged |
 > |---|---:|---:|---|---|
-> | `dyad_mnu_bbnfix` | 26135 | **0.060201** (**1.20×** stop) | 2026-08-05T15:50:02 | **false** |
+> | `dyad_mnu_bbnfix` | 27525 | **0.085619** (**1.71×** stop) | 2026-08-05T22:03:22 | **false** |
 > | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** (control leg ready) | 2026-08-05T11:52:10 | **true** |
 >
 > Quote R−1 with N and timestamp. **NOT bookable**.
@@ -27,8 +27,9 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 >
 > **Standing numbers in this letter** (H₀ ≈ 69.9 fixed-ε; Laplace ΔlnZ ≈ +2.6,
 > SH0ES-conditional) are **pre-bbnfix** production claims. They are **not** results from the
-> live pair and must not be silently replaced by unconverged peeks. Nested sampling remains
-> offline (PolyChord not running; not started by residual freezes).
+> live pair and must not be silently replaced by unconverged peeks. AWS PolyChord nested sampling
+> is now up for the **sampled-ε** dyad evidence leg, but the current watcher marks it **STALLED**,
+> there is still **no nested verdict**, and the repaired ΛCDM twin is only a waiting worker behind dyad.
 >
 > **What unblocks a bookable H₀ sentence:** both bbnfix legs self-stop under the bar → run
 > `book_bbnfix_when_ready.py` only → then (manual) refresh this letter from the booking card.
@@ -40,7 +41,7 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 > **Blocked-lane audit:** shared `bbnfix` booking gate is frozen in
 > [blocked_lane_bbnfix_20260805/REPORT.md](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
 
-**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Standing evidence number is **pre-bbnfix Laplace-from-MCMC** (ΔlnZ ≈ +2.6; SH0ES-conditional; **not** a live-pair result). Nested sampling waits on cluster time and is **not** running. Live bbnfix pair is **not bookable** (lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 — **1.20×** stop, `converged: false`; pair still refused — residual freeze above). Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
+**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Standing evidence number is **pre-bbnfix Laplace-from-MCMC** (ΔlnZ ≈ +2.6; SH0ES-conditional; **not** a live-pair result). AWS nested sampling is up for the **sampled-ε** dyad evidence leg, but the current watcher marks it **STALLED**, there is still **no nested verdict**, and the repaired ΛCDM twin is only a waiting worker behind dyad. The harder fixed-ε zero-extra-parameter lane is a separate config, not the current live nested run. Live bbnfix pair is **not bookable** (lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad **0.085619**@N=27525 t=2026-08-05T22:03:22 — **1.71×** stop, `converged: false`; pair still refused — residual freeze above). Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
 
 ---
 
@@ -119,9 +120,9 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | ε at recombination → H₀ ≈ 69.9 (fixed-ε; ~half SH0ES gap) | **machine-backed** provisional **pre-bbnfix** | production fit; CLASS | Stack conditional; YHe re-measure pending; **live bbnfix H₀ NOT bookable** (lcdm R−1=**0.049324**@N=26294 with `converged:true`; dyad **0.060201**@N=26135 — **1.20×**, `converged:false`; pair still closed) |
+| 1 | ε at recombination → H₀ ≈ 69.9 (fixed-ε; ~half SH0ES gap) | **machine-backed** provisional **pre-bbnfix** | production fit; CLASS | Stack conditional; YHe re-measure pending; **live bbnfix H₀ NOT bookable** (lcdm R−1=**0.049324**@N=26294 with `converged:true`; dyad **0.085619**@N=27525 — **1.71×**, `converged:false`; pair still closed) |
 | 2 | Ladder ceiling ~70.9–71.3; cannot reach 73 | **machine-backed** | H0_CEILING; ς = −1 | Residual tension owned |
-| 3 | ΔlnZ ≈ +2.6 Laplace evidence | **machine-backed** provisional **pre-bbnfix** | earlier MCMC Laplace | **OPEN-MACHINE:** **not** the live-pair result; nested offline; gate = both bbnfix R−1<0.05 **and** `converged:true` → `book_bbnfix_when_ready.py` only; peeks UNBOOKABLE |
+| 3 | ΔlnZ ≈ +2.6 Laplace evidence | **machine-backed** provisional **pre-bbnfix** | earlier MCMC Laplace | **OPEN-MACHINE:** **not** the live-pair result; AWS nested dyad leg is up on the replacement `c7i.24xlarge` Spot box at `96` ranks but watcher-marked **STALLED**, with no verdict yet; the repaired ΛCDM twin is only a waiting worker behind dyad; gate = both bbnfix R−1<0.05 **and** `converged:true` → `book_bbnfix_when_ready.py` only; peeks UNBOOKABLE |
 | 4 | ε stack c·f̄·α_c conditional | **complete-conditional** | THE_AMPLITUDE | α_c instrument not running |
 | 5 | EDE better residual tension (~2.5σ vs ~4.25σ class) | **interpretation** (literature scoreboard) | Schöneberg 2026 table | Model cheaper/falsifiable, not better-fitting; desk fairness paid (T11) |
 | 6 | SN candle term pushes ladder *down* (ς = −1) | **machine-backed** | 162-template scan | Real-SN synthetic photometry appeal open |
@@ -130,4 +131,4 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 
 **Non-claims / forbidden:** not a closed H₀ win; not full SH0ES account; not nested-confirmed evidence; **no peek numbers as letter results**; pre-bbnfix ΔlnZ ≈ +2.6 is standing, not a live-pair booking.
 
-**Triage:** elevate-in-place. Physics ceiling: mechanism production-grade; live-pair evidence **OPEN-BLOCKED** (bbnfix gate: lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged:true` / dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 with `converged:false` / **NOT bookable**).
+**Triage:** elevate-in-place. Physics ceiling: mechanism production-grade; live-pair evidence **OPEN-BLOCKED** (bbnfix gate: lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged:true` / dyad **0.085619**@N=27525 t=2026-08-05T22:03:22 with `converged:false` / **NOT bookable**).

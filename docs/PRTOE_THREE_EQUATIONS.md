@@ -44,7 +44,7 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 177\
 
 - f is a **ramp**: ≈1 early, →0 after the transition (shape computed, not chosen; nothing here is a pure step).
 - ε ≈ 1.24% is the whole modification to known physics: heavier electron at recombination → earlier decoupling → smaller sound horizon → CMB re-fit at H₀ ≈ 69.9 instead of 68.2 (Hubble-tension path, thread 11).
-- Implemented in CLASS against full Planck likelihoods. Current Bayesian evidence vs ΛCDM: Δln Z ≈ +2.6 (Laplace; marginal and SH0ES-conditional). Nested sampling is unaffordable on current hardware and waits for cluster time.
+- Implemented in CLASS against full Planck likelihoods. Current Bayesian evidence vs ΛCDM: Δln Z ≈ +2.6 (Laplace; marginal and SH0ES-conditional). The **current live AWS nested run is the softer sampled-ε dyad lane**, not the fixed-ε zero-extra-parameter lane; it is currently up but watcher-marked **STALLED**, and the repaired ΛCDM twin worker is waiting behind it, so there is still no nested verdict.
 - The same ε (one amplitude, window-specific activation: OFF at BBN freeze-out, ON below T_c; see the ε-epoch table in the fingerprint file) is owed everywhere at its epoch weights: BBN, radio-band ratios, de-biased Σm_ν, Koide invariance, underground nulls — the fingerprint lattice (thread 13). One lever, many windows, no exits.
 
 ## Equation 3 — Decomposition
@@ -80,8 +80,8 @@ If the decomposition's referees sign (its factors are currently: one conditional
 ## Stated stack (under test)
 
 The three equations close into a cosmology whose every number is **stated before the
-data speaks** — the object the evidence comparison (Laplace-from-MCMC; nested sampling
-deferred to cluster time) actually grades:
+data speaks** — the object the evidence comparison (Laplace-from-MCMC; the separate sampled-ε
+AWS nested run is live but does not yet grade this harder lane) actually grades:
 
 | quantity | stated value | provenance | grade |
 |---|---|---|---|
@@ -103,8 +103,8 @@ commitments** instead: which census counting (9/10), which pairing channel, whic
 exactly 1 (C, κ_m, b), where each convention parks its factor of 2. Fewer dials than ΛCDM,
 strictly more discrete choices — that trade, stated whole, is the claim. Whatever the sky
 refuses, the model has nowhere to retreat; that totality, not any single row, is what is
-under adjudication — carried today by Laplace-from-MCMC; the nested-sampling confirmer ended
-on this hardware (2026-07-20) and waits for cluster time.
+under adjudication — carried today by Laplace-from-MCMC; the laptop nested attempt ended
+2026-07-20, and the current AWS nested state is a live dyad leg without the ΛCDM twin or a verdict.
 
 ---
 
@@ -112,7 +112,7 @@ on this hardware (2026-07-20) and waits for cluster time.
 
 What does not fit in three lines is the chain *inside* the symbols: why 9/10 (counting), why 2/π (winding history), why 177.10 keV (confining chiral ratio τ · m_e — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is never the keying value), why 3α (microphysics, bet-registered). Those are outputs of the field’s history, not axioms. Equations are three lines; receipts are the repository.
 
-**Status (2026-07-20).** Everything above is conditional on one root: the no-bare mechanism’s unconditionality (M3), named as an assumption. Deciders: α_c MCMC (grades 3α and the c-roster), f̄ ensemble, DESI DR3, and the zero-parameter evidence run with ε, A_s, n_s stated in advance. **z_on exception:** the evidence config freezes 0.053 dex off the model’s onset identity, so it grades a nearby point. **Evidence number is Laplace from MCMC**; nested sampling waits on cluster time (~9.8 h/iteration → ~163 days to first checkpoint). Chain convergence is what stands between the model and the headline evidence claim.
+**Status (2026-07-20, current note updated 2026-08-06).** Everything above is conditional on one root: the no-bare mechanism’s unconditionality (M3), named as an assumption. Deciders: α_c MCMC (grades 3α and the c-roster), f̄ ensemble, DESI DR3, and the zero-parameter evidence run with ε, A_s, n_s stated in advance. **z_on exception:** the evidence config freezes 0.053 dex off the model’s onset identity, so it grades a nearby point. **Evidence number is Laplace from MCMC**; the current nested state is an AWS dyad evidence leg running without the ΛCDM twin or a verdict. Chain convergence and completion of the nested pair are what stand between the model and the headline evidence claim.
 
 ## Sources
 

@@ -74,7 +74,7 @@ recombination the electron is the whole story:
  to the number, and the standing stack replaced it: THREE_EQUATIONS Eq. 3)*
  enters CLASS via **σ_T ∝ α²/m_e²** and binding ∝ m_e → shifts recombination
  → eases H₀ to 69.9 (provisional; the zero-parameter comparison is graded from the MCMC,
- nested sampling being deferred to cluster time).
+ with AWS nested sampling now live only for the sampled-ε dyad leg and no finished nested pair yet).
 
 ## ACT 6 — Structure formation: the screening
 The shift is ENVIRONMENTAL: full in smooth/diffuse gas (voids, IGM, the early

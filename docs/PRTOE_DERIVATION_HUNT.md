@@ -960,8 +960,9 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](explorato
   survivors' record in the working log). The closed form lands **−0.92% (−0.66σ)** against the
   measured 2.100×10⁻⁹; the −0.35% quoted beside the pipeline's frozen input is the closed form
   against its own value at the concordance k, a k-spread rather than a test of the count.
-  The referee is the zero-parameter comparison graded from Laplace-from-MCMC (the nested run ended
-  2026-07-20; nested sampling waits for cluster time) — the Eliashberg k-audit has run, placing k
+  The referee is the zero-parameter comparison graded from Laplace-from-MCMC (the laptop nested run
+  ended 2026-07-20; the current AWS nested state is a live dyad evidence leg without the ΛCDM twin
+  or a verdict) — the Eliashberg k-audit has run, placing k
   in [1.35, 1.37] at three-way concordance.
   **The forward target, typed, and the mechanism class ruled (#184, 2026-07-20).** As a ratio, the
   closed form asserts **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and what kind of object that is

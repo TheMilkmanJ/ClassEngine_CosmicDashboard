@@ -1,13 +1,16 @@
 # PRTOE — Reader’s risk summary
 
-**Status (2026-08-05 currency):** evidence class is still **Laplace-marginal, not nested-sampling confirmed**.
+**Status (2026-08-06 currency):** evidence class is still **Laplace-marginal, not nested-sampling confirmed**.
 The production bbnfix MCMC pair is **live and NOT bookable** (lcdm R−1 **0.049324** N=26294
 t=2026-08-05T11:52:10 with **self-stop** / `converged: true`, so the control leg is ready; dyad R−1
-**0.060201** @N=26135 t=2026-08-05T15:50:02 — **1.20×** stop / `converged: false`;
-`book_bbnfix_when_ready.py` → **REFUSED** because one ready leg does **not** open the pair). Route-D live R−1 **0.536955**@N=9745
-t=2026-08-05T18:43:45 (~**5.37×** stop 0.1; currency card `blocked_lane_routeD_20260805`) — not dual-gate. Offline GetDist GR is diagnostic only —
-**not** booking authority. **Do not peek-book H₀.** PolyChord nested evidence is offline (waits for
-cluster time). No headline posterior is bankable yet. Full chain table:
+**0.085619** @N=27525 t=2026-08-05T22:03:22 — **1.71×** stop / `converged: false`;
+`book_bbnfix_when_ready.py` → **REFUSED** because one ready leg does **not** open the pair). Route-D live R−1 **0.257073**@N=11422
+t=2026-08-06T01:51:33 (~**2.57×** stop 0.1; currency card `blocked_lane_routeD_20260805`) — not dual-gate. Offline GetDist GR is diagnostic only —
+**not** booking authority. **Do not peek-book H₀.** AWS PolyChord dyad evidence process is still up
+on the replacement `c7i.24xlarge` Spot box at `96` ranks, but the watcher currently marks it
+**STALLED** rather than actively growing; the ΛCDM twin config bug is fixed, and the remote twin
+worker remains queued behind the dyad process. **No nested verdict is bookable yet.**
+No headline posterior is bankable yet. Full chain table:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Shared blocker card:
 [`working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md`](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
 
@@ -49,8 +52,8 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
 
 - **H₀ ~ 69.9–71.3** (CMB re-fit; ladder ceiling with SN sign ς = −1). ~Half the SH0ES gap; refuses
   the rest; pre-registered the TRGB side of the calibration dispute. *Mechanism at production grade,
-  SH0ES-conditional. The statistical win ΔlnZ = +2.635 is a separate Laplace estimate — nested
-  sampling is not live (§3c, §4).*
+  SH0ES-conditional. The statistical win ΔlnZ = +2.635 is a separate Laplace estimate — the AWS
+  nested dyad leg is live, but the pair is still incomplete and there is no nested verdict yet (§3c, §4).*
 
 - **w = −1** as protected ground state — **one branch of a live fork**, not the only position:
   - **P-2026-018:** bare constant floor, w = −1 forever.
@@ -115,7 +118,8 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   are the verdict's two hinges — the residual shifts every column without changing which one decides.
 - **(c) The H₀ evidence is SH0ES-conditional and marginal.** ΔlnZ = +2.635 is a **Laplace** estimate
   (Hessian-from-MCMC). Nested sampling — the confirmer that would make this robust — is
-  **unaffordable on this hardware and not running**; it waits for cluster time. The +2.635 crosses
+  **not yet decisive**: the AWS dyad evidence leg is live, but the ΛCDM twin is still only a waiting worker and there is no
+  nested verdict. The +2.635 crosses
   the pre-registered win line only slightly, inside the estimator's own systematic error; without
   SH0ES the model does not win. The easing is shared by the whole varying-m_e model class — it adds
   no independent evidence for the superfluid ontology.
@@ -154,12 +158,13 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   **As of 2026-08-05 (§4):** a later matched relaunch **merged the basins** (every sampled parameter
   agrees across the three ranks to within ~0.6 within-chain s.d.) and remains *not bookable*.
   Progress stamp: lcdm twin R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10, checkpoint
-  `converged: true` — control leg ready), dyad R−1 **0.060201** (N=26135,
-  t=2026-08-05T15:50:02 — **1.20×** stop, checkpoint `converged: false`); booking script
+  `converged: true` — control leg ready), dyad R−1 **0.085619** (N=27525,
+  t=2026-08-05T22:03:22 — **1.71×** stop, checkpoint `converged: false`); booking script
   **REFUSED**. One ready leg does **not** open the pair.
   **No peek H₀.** No best-fit comparison from this pair is bankable. The standing evidence number
   remains the marginal, SH0ES-conditional **Laplace** estimate +2.635 — the wrong kind of number to
-  lead with. Nested sampling is still offline. Authority: `scripts/book_bbnfix_when_ready.py`;
+  lead with. AWS nested sampling is live for the dyad evidence leg only; there is still no nested
+  verdict. Authority: `scripts/book_bbnfix_when_ready.py`;
   table freeze [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 - **(d) The electron-coupled scalar's thermalisation problem — adjudicated (2026-07-18): the
   recorded configuration is BBN-fatal; one repair branch survives, at a named price.** The
@@ -285,15 +290,12 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
 ## 4. Current evidence class
 **Flat / suggestive, SH0ES-conditional, Laplace-marginal.** One positive result (ΔlnZ = +2.635) that
 crossed a pre-committed threshold but adds no independent evidence for the ontology. **It stands
-without its confirmer.** The zero-free-parameter nested-sampling comparison against ΛCDM — the only
-thing that can make this robust — cost 9.8 h per iteration **on the laptop it was run on** (163 days
-to a first checkpoint), and that run was **ended**. A cluster measurement on 2026-08-06 puts the
-same configuration at **6.70 s per likelihood evaluation**, i.e. the reference run at **≈19
-wall-hours on 96 cores**. **It is still not live** — but a reader should take the evidence class as:
-one marginal Laplace estimate, whose margin over the win line is smaller than the estimator's own
-systematic, with **the nested number now affordable and awaiting a decision to run it**. The
-verdict now depends on the MCMC chains the Laplace is computed from — so their convergence, not a
-separate nested referee, stands between the model and its headline evidence claim.
+without its confirmer.** The zero-free-parameter nested-sampling comparison against ΛCDM was
+economically impossible on the laptop it was first attempted on, but the AWS dyad evidence follow-up
+is now live and times at **3.68 s/call**. That changes affordability; it does **not** create a
+verdict. The current state is: one marginal Laplace estimate, one live AWS nested dyad leg, a repaired
+ΛCDM twin worker waiting behind it, and therefore still **no nested evidence number**. The verdict still depends on the MCMC
+chains that feed the Laplace **and** on finishing the nested pair.
 
 **The scoreboard, stated bluntly (2026-08-02).** Zero preregistered predictions have been
 confirmed by data that postdates their registration — every "confirmed" grading in the registry
@@ -319,14 +321,14 @@ Status as of **2026-08-05** ([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md); boo
 
 | chain | last recorded R−1 | N (progress) | `converged` | live? | note |
 |---|---:|---:|---|---|---|
-| `dyad_mnu_bbnfix` | **0.060201** | 26135 | **false** | **yes** | **1.20×** stop; t=2026-08-05T15:50:02 |
+| `dyad_mnu_bbnfix` | **0.085619** | 27525 | **false** | **yes** | **1.71×** stop; t=2026-08-05T22:03:22 |
 | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin, 3 ranks) | **0.049324** | 26294 | **true** | **yes** | control leg ready; pair still **NOT bookable**; t=2026-08-05T11:52:10 |
-| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **0.536955** | 9745 | **false** | **yes** | ~**5.37×** stop 0.1; not dual-gate; t=2026-08-05T18:43:45 |
+| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **0.257073** | 11422 | **false** | **yes** | ~**2.57×** stop 0.1; not dual-gate; t=2026-08-06T01:51:33 |
 | `cmp_prtoe_conv_desi` | 13.25 | — | — | **no** | unproduced; last write 2026-07-22 |
 | `cmp_prtoe_zon_disp` | 17.81 | — | — | **no** | collapsed; seed ready, owner restart |
 | `cmp_prtoe_zon` | 40.36 | — | — | **no** | stopped since 07-12 |
 | `dyad_mnu_mcmc` | *none recorded* | — | — | **no** | diagnostic archive only |
-| PolyChord nested evidence (`cmp_prtoe_fixed` et al.) | — | — | — | **no** | ended 2026-07-20; waits for cluster time |
+| PolyChord nested evidence | — | — | — | **partial** | AWS `cmp_prtoe_dyad_ev` leg live; no nested verdict; repaired ΛCDM twin worker waiting behind dyad |
 
 **Booking gate (bbnfix only):** both legs R−1 &lt; 0.05 **and** checkpoint `converged: true`, then
 only `python3 scripts/book_bbnfix_when_ready.py`. Offline GetDist max GR (~0.086 dyad / ~0.07 lcdm)
@@ -346,7 +348,7 @@ the three live runs** — they join only at stop via the booking script.
 each and matched settings; burn-in cleared; every sampled parameter now agrees across ranks to
 within 0.6 within-chain standard deviations — one basin, genuinely mixing. What remains is
 statistics, not pathology: progress R−1 (lcdm **0.049324**@N=26294 with self-stop / dyad
-**0.060201**@N=26135 — **1.20×** stop), and the pair gate is still shut because dyad has not
+**0.085619**@N=27525 — **1.71×** stop), and the pair gate is still shut because dyad has not
 self-stopped under the bar. Honest present state: *mixed-ready but **not bookable***. Anyone quoting H₀ or an evidence number from this pair
 before both legs self-stop at R−1 &lt; 0.05 is quoting noise, either way.
 
@@ -373,11 +375,11 @@ yet to converge, a lattice number no one has computed at the precision required,
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | Evidence class Laplace-marginal; not nested-confirmed | **honest constraint** | banner; §3c | **OPEN-MACHINE:** nested offline; bbnfix not at gate |
+| 1 | Evidence class Laplace-marginal; not nested-confirmed | **honest constraint** | banner; §3c | **OPEN-MACHINE:** AWS nested dyad leg live but incomplete / unmatched; bbnfix not at gate |
 | 2 | ε stack grade = weakest parent (f̄/c/α_c) | **complete-conditional** | §2 | α_c instrument offline |
 | 3 | H₀ 69.9–71.3; half gap; residual owned | **machine-backed** provisional | §2 | SH0ES-conditional; **not** from live bbnfix tables |
 | 4 | ρ_Λ existence not precision (+0.44% in τ-space) | **complete-conditional** | §3a | Lattice + quartic past control |
-| 5 | Production bbnfix pair one basin; lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged:true` (control leg ready) / dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 (**1.20×** stop, `converged:false`); pair still **NOT bookable** | **machine-backed** status | §4; CHAIN_TABLES freeze; book script REFUSED | Statistics, not pathology; **no peek H₀** |
+| 5 | Production bbnfix pair one basin; lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged:true` (control leg ready) / dyad **0.085619**@N=27525 t=2026-08-05T22:03:22 (**1.71×** stop, `converged:false`); pair still **NOT bookable** | **machine-backed** status | §4; CHAIN_TABLES freeze; book script REFUSED | Statistics, not pathology; **no peek H₀** |
 | 6 | Kill list §5 pre-registered | **registered** | §5 | DESI, ladder, α_c, DD, ν, BBN |
 | 7 | Page is audience risk summary | **meta** | whole file | Not a derivation |
 | 8 | BBN ε 2σ ceiling **ARITHMETIC VERIFIED (internal)** (3.196%≈3.20%); **EXTERNAL WIN PENDING (no DOI)** — not a chain booking | **internal arithmetic** | hard-wins table | Does **not** close bbnfix; not a public external win until DOI |

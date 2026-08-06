@@ -1,5 +1,9 @@
 # Astrochemistry — the Epoch-Stamped Sky (standalone; P-030's home + the astrobiology scope note)
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Exploratory map assembly only. No registered script path, no independent ship artifact, no desk-closed quantitative subdomain result.
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 

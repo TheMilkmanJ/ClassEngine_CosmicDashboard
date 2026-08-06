@@ -1,5 +1,11 @@
 # Light — The Medium's Record
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Not living shelf / not closed theory. Constituent-side EM closure is still **OPEN-BLOCKED**.
+> This file is not a ship artifact and not a standalone paper path.
+> Nearest living: [`../PRTOE_dcdf_superfluid.md`](../PRTOE_dcdf_superfluid.md), [`../PRTOE_quantum_gravity.md`](../PRTOE_quantum_gravity.md).
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 

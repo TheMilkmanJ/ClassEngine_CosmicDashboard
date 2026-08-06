@@ -15837,3 +15837,509 @@ Registry **~1,570 of 2,176** (adds 050 · 051 · 053 · 054 head). **#94 OPEN.**
 lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
 
 *NO FABRICATIONS. Two of three name the window that would separate; the third does not. COMPLETE physics 0.*
+
+---
+
+### CHATGPT/REFEREE — docs currency sync + queue report (2026-08-06) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+I closed the live docs-side currency leaks and wrote the remaining work down as a queue instead of
+leaving it implicit.
+
+## A. Machine truth stamped first
+
+**Local chains checked again at 2026-08-05 23:35 MDT.**
+
+- `dyad_mnu_bbnfix` is **still running** and its rank files are still writing.
+- `cmp_prtoe_routeD` is **still running** and its rank files are still writing.
+- `cmp_lcdm_mnu_bbnfix` is **finished** and is not expected to be alive.
+
+Current local gate truth:
+
+- lcdm: **R−1 = 0.049324 @ N = 26294**, `converged: true`
+- dyad: **R−1 = 0.085619 @ N = 27525**, `converged: false`
+- routeD: **R−1 = 0.536955 @ N = 9745**, `converged: false`
+
+That means dyad has moved the wrong way again: **1.20× stop → 1.71× stop**. The shared blocker
+card is updated and the booking script still writes **REFUSED**:
+
+- `docs/working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md`
+- `docs/working_logs/_runs/bbnfix_booking_20260806_053434/REPORT.md`
+
+## B. Nested evidence truth stamped too
+
+AWS PolyChord is **not** “waiting on cluster time” anymore in the simple sense.
+
+- the **dyad evidence leg** `cmp_prtoe_dyad_ev` is **live on AWS**
+- raw output dir exists
+- resume file exists
+- live-point file exists
+- the run has reached real PolyChord sampling
+
+But:
+
+- there is **no nested verdict**
+- there is **no ΛCDM twin yet**
+- Laplace remains the only graded evidence number for now
+
+Authority note:
+
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`
+
+## C. What I actually changed on the shelf
+
+I patched the forward-facing docs that were still carrying stale `dyad` gate numbers and/or stale
+“PolyChord offline / cluster time” language where current machine truth now differs.
+
+Key shelf surfaces updated:
+
+- `PRTOE_CHAIN_TABLES`
+- `PRTOE_CODE_MANIFEST`
+- `PRTOE_READERS_RISK`
+- `PRTOE_READERS_GUIDE`
+- `PRTOE_honest_status`
+- `PRTOE_hubble_tension`
+- `PRTOE_neutrino_home`
+- `PRTOE_REFEREE_CALENDAR`
+- `PRTOE_INDEX`
+- `PRTOE_DOMAIN_COVERAGE`
+- `PRTOE_fairbank_note_draft`
+- dependency / math / prereg / three-equations support surfaces where the old nested status was still leaking
+
+No grades were promoted. No blocked science was papered over.
+
+## D. Queue report for the work still genuinely left
+
+I also wrote the consolidated report for the user’s requested set of blocked docs, hidden theory
+docs, and exploratory fronts:
+
+- `docs/working_logs/_runs/docs_queue_20260806/REPORT.md`
+
+It records:
+
+- blocked top-level docs and their **real** closure paths
+- hidden theory work still sitting inside top-level docs
+- exploratory fronts that are still active theory work
+- lower-priority exploratory map/stub files
+- what `#94` actually is: the unfinished deep-audit queue, not one physics claim
+
+## E. Standing after the patch
+
+- **#94 remains OPEN**
+- blocked-lane docs are more accurate than they were
+- many of the listed hidden/exploratory docs were already honest, so I did **not** fake closure by
+  rewriting them into confidence
+- remaining work is now mostly **machine / owner / theory / external**, not prose polish
+
+*NO FABRICATIONS. Docs currency synced, queue written, AWS nested leg acknowledged as live but ungraded, and the real blockers remain the real blockers.*
+
+---
+
+### CHATGPT/REFEREE — live MCMC check + AWS LCDM twin trigger armed (2026-08-06) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS >>MCMC
+
+I checked the live local chains again and then armed the AWS LCDM twin so the evidence pair can
+continue without another manual wake-up once the dyad leg exits.
+
+## A. Local MCMC truth, current not stale
+
+Checked just after **00:45 MDT on Thursday, August 6, 2026**.
+
+- `dyad_mnu_bbnfix` is **still writing**:
+  - rank file mtimes `00:44:40` to `00:45:17 MDT`
+  - latest stored referee-grade state still `R−1 = 0.085619 @ N = 27525`, `converged: false`
+- `cmp_prtoe_routeD` is **still writing**:
+  - rank file mtimes `00:45:07` to `00:45:24 MDT`
+  - launchlog progress is live through `00:45:24 MDT`
+  - latest stored referee-grade state still `R−1 = 0.536955 @ N = 9745`, `converged: false`
+- `cmp_lcdm_mnu_bbnfix` remains the finished control leg:
+  - `R−1 = 0.049324 @ N = 26294`, `converged: true`
+
+So the MCMCs are genuinely alive, not zombie processes. The booking gate is still blocked by the
+dyad leg; routeD is still far from stop.
+
+## B. AWS dyad evidence leg, current
+
+The AWS dyad PolyChord leg is still live and the watcher is healthy now.
+
+- watcher script: `scripts/watch_aws_dyad_polychord.sh`
+- local watcher PID: `2832976`
+- watcher state file:
+  `docs/working_logs/_runs/polychord_owner_followup_20260806/aws_dyad_watch.state`
+
+Watcher sample at **2026-08-06 00:47:37 MDT**:
+
+- `status=OK`
+- `proc=18`
+- `launcher=1`
+- `phase=generating_live_points`
+- `live_size=708963`
+
+Direct AWS read matched the watcher: the dyad live-point file is still growing.
+
+## C. LCDM twin trigger, armed
+
+The former twin blocker was real:
+
+- AWS was missing `cmp_lcdm_ev.yaml`
+
+That blocker is now cured. I deployed the AWS-correct config and armed the autolaunch worker.
+
+Remote armed state:
+
+- remote YAML: `/home/ubuntu/prtoe_class/cmp_lcdm_ev.yaml`
+- remote trigger script: `/home/ubuntu/prtoe_class/aws_autolaunch_lcdm_twin.sh`
+- remote trigger PID file: `/home/ubuntu/prtoe_class/cmp_lcdm_ev.autolaunch.pid`
+- remote trigger PID: `59984`
+- remote trigger log: `/home/ubuntu/prtoe_class/cmp_lcdm_ev.autolaunch.log`
+
+Observed worker log:
+
+- `2026-08-06T06:47:54+00:00 armed; waiting for dyad evidence leg to exit`
+- `2026-08-06T06:47:54+00:00 dyad still active; sleeping 60s`
+- `2026-08-06T06:48:54+00:00 dyad still active; sleeping 60s`
+
+So the AWS twin is not merely “planned.” It is **armed** and waiting on the dyad leg under the
+solo-PolyChord rule.
+
+Authority note:
+
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/AWS_MCMC_AND_TWIN_STATUS_20260806.md`
+
+*NO FABRICATIONS. Local chains are alive, AWS dyad is alive, and the AWS LCDM twin is armed rather than hand-waved.*
+
+---
+
+### CHATGPT/REFEREE — AWS dyad crashed; 96-vCPU cutover service armed (2026-08-06 01:46 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS >>MCMC
+
+The earlier AWS note that said the dyad evidence leg was alive is now stale.
+
+## A. What actually happened on AWS
+
+- the `cmp_prtoe_dyad_ev` PolyChord leg on the current `c7i.8xlarge` box is **dead**
+- it got through `all live points generated`
+- it then crashed in the write path with:
+  - `Fortran runtime error: Missing comma between descriptors`
+  - file: `read_write.F90`
+- concrete artifact path:
+  - `/home/ubuntu/prtoe_class/chains/cmp_prtoe_dyad_ev_polychord_raw/cmp_prtoe_dyad_ev.stats`
+
+So there is no live AWS dyad process right now, and the old “dyad alive / twin waiting” note is no
+longer authoritative.
+
+## B. Current AWS control state
+
+- instance is still `i-0f8141ef06ae32fa4`
+- region/AZ still `us-east-1 / us-east-1a`
+- instance type is still `c7i.8xlarge`
+- Spot quota `L-34B43A08` still reads `32.0`
+- On-Demand quota `L-1216C47A` still reads `32.0`
+
+So the 96-vCPU quota email has **not** taken effect at the API level yet.
+
+## C. Corrective action in force now
+
+The 32-vCPU branch has been deliberately retired for evidence fairness, because the owner wants
+**both** evidence legs rerun on `96` vCPUs.
+
+A persistent local user-systemd unit is now armed:
+
+- `aws-96-cutover.service`
+
+What it is doing:
+
+- remote cleanup on the current box
+- quota polling until both EC2 standard-vCPU quotas reach `96`
+- then:
+  - stop the instance
+  - modify to `c7i.24xlarge`
+  - restart dyad fresh at `96` MPI ranks
+  - re-arm the LCDM twin at `96` MPI ranks
+
+Authority files:
+
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/aws_96vcpu_cutover.log`
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/aws_96vcpu_cutover.state`
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/aws_96vcpu_cutover.stdout`
+
+Current cutover state at stamp time:
+
+- `remote_runs_killed host=13.219.235.54`
+- `quota_poll spot=32.0 ondemand=32.0`
+
+## D. Local chains
+
+No change to the local truth:
+
+- local `dyad_mnu_bbnfix`: still alive, still unconverged
+- local `cmp_prtoe_routeD`: still alive, still unconverged
+- local `cmp_lcdm_mnu_bbnfix`: finished control leg
+
+*NO FABRICATIONS. AWS dyad is not alive anymore, the 96-vCPU rerun has not started yet, and the
+cutover service is waiting on the real quota state rather than pretending the email already changed
+the API truth.*
+
+---
+
+### CHATGPT/REFEREE — AWS replacement box live; dyad 96-rank running; twin config bug fixed (2026-08-06 02:08 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS >>MCMC
+
+The earlier “wait for in-place resize” state is now stale.
+
+## A. What actually happened
+
+- the stopped `c7i.8xlarge` Spot instance could **not** be resized in place
+- AWS returned:
+  - `UnsupportedOperation: Modifying 'instanceType' is not supported for spot instances`
+- so the valid path became: launch a fresh Spot replacement from the same AMI
+
+## B. Current AWS box
+
+- new instance id: `i-0cb294312a23c4fe6`
+- type: `c7i.24xlarge`
+- AZ: `us-east-1a`
+- lifecycle: `spot`
+
+The old stopped Spot instance is no longer the active evidence machine.
+
+## C. Dyad leg
+
+First 96-rank attempt failed on MPI slot accounting.
+
+Real cause:
+
+- needed hardware-thread slots on this box, not the default core-slot count
+
+Fix applied:
+
+- relaunch uses:
+  - `mpirun --use-hwthread-cpus -n 96 --bind-to none`
+
+Current dyad truth:
+
+- `cmp_prtoe_dyad_ev.yaml` is live on the new box
+- process tree shows the launcher plus `96` python ranks
+- log has reached:
+  - `Writing a resume file ...`
+  - `generating live points`
+
+So the 96-vCPU rerun is now genuinely alive.
+
+## D. LCDM twin
+
+There was also a hidden config bug:
+
+- `cmp_lcdm_ev.yaml` on disk ended with `sampler: evaluate: null`
+- it was missing the BBN-symmetric `YHe` / `bbn` pieces
+
+That file is now repaired from on-disk LCDM PolyChord authority and re-synced to AWS.
+
+Current twin truth:
+
+- remote autolaunch worker is alive
+- it is waiting behind the live dyad process
+- latest worker stamps are:
+  - `dyad still active; sleeping 60s`
+
+## E. Watch / authority
+
+- local watcher service: `aws-dyad-watch.service`
+- detailed state note:
+  - `docs/working_logs/_runs/polychord_owner_followup_20260806/AWS_MCMC_AND_TWIN_STATUS_20260806.md`
+
+*NO FABRICATIONS. The old Spot instance was not resized, the replacement box is the active one, the
+dyad rerun is live at 96 ranks, and the LCDM twin now has a real PolyChord config instead of the
+broken `evaluate` stub.*
+
+---
+
+### CHATGPT/REFEREE — code-vs-theory audit and docs desk pass (2026-08-06 02:36 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>DOCS >>CODE
+
+Desk ruling:
+
+- **C code matches the theory lanes on disk.**
+- **No restart is required** for the live AWS `cmp_prtoe_dyad_ev` PolyChord leg on code-vs-theory grounds.
+
+Why:
+
+- the public hard lane is still
+  - `use_dcdf + dcdf_dyad_link + screened/derived varying_me`
+- the live AWS evidence lane is a different, softer lane:
+  - sampled-ε `cmp_prtoe_dyad_ev`
+  - `use_dcdf + varconst_density_gate=yes + sampled varying_me`
+- `source/input.c`, `source/background.c`, `source/thermodynamics.c`, and `include/background.h`
+  implement both lanes explicitly
+- `use_prtoe` remains legacy scalar-tensor baggage only, not the public expansion core
+
+So the problem found was **docs drift**, not implementation drift:
+
+- some shelf surfaces had started speaking as if the live AWS nested run were the fixed/derived-ε
+  zero-extra-parameter lane
+- it is not; it is the documented sampled-ε evidence dyad
+
+Docs desk work landed:
+
+- wrote the explicit audit note:
+  - `docs/working_logs/_runs/docs_queue_20260806/C_CODE_THEORY_AUDIT.md`
+- refreshed living surfaces so sampled-ε vs fixed-ε is explicit:
+  - `docs/PRTOE_DOMAIN_COVERAGE.md`
+  - `docs/PRTOE_READERS_RISK.md`
+  - `docs/PRTOE_THREE_EQUATIONS.md`
+  - `docs/PRTOE_hubble_tension.md`
+  - `docs/PRTOE_PREREGISTERED_PREDICTIONS.md`
+  - `docs/working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`
+  - `docs/working_logs/_runs/docs_queue_20260806/REPORT.md`
+- refreshed live routeD currency in living docs to:
+  - `R−1 = 0.257073`
+  - `N = 11422`
+  - `t = 2026-08-06T01:51:33`
+  across:
+  - `docs/PRTOE_CHAIN_TABLES.md`
+  - `docs/PRTOE_REFEREE_CALENDAR.md`
+  - `docs/PRTOE_honest_status.md`
+  - `docs/PRTOE_s8_growth.md`
+  - `docs/working_logs/_runs/polychord_owner_followup_20260806/AWS_MCMC_AND_TWIN_STATUS_20260806.md`
+- added explicit exploratory top-fences where shelf overread risk was still too high:
+  - `docs/exploratory/PRTOE_light.md`
+  - `docs/exploratory/PRTOE_astrochemistry.md`
+  - `docs/exploratory/PRTOE_chaos_dynamics.md`
+  - `docs/exploratory/PRTOE_laser_physics.md`
+
+Current referee read:
+
+- AWS dyad PolyChord stays live and valid
+- repaired LCDM twin still waits behind dyad
+- local bbnfix pair still not bookable
+- routeD improved materially but is still not bookable
+
+*NO FABRICATIONS. No code-path contradiction was found, only shelf wording drift. The correct remedy
+was documentary separation of the sampled-ε evidence lane from the fixed/derived-ε public-hard lane.*
+
+---
+
+### CHATGPT/REFEREE — docs desk stop state + AWS stalled note (2026-08-06 02:42 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>DOCS >>AWS
+
+Follow-up to the 02:36 code-vs-theory note.
+
+## A. Code ruling stands
+
+- **C code still matches the theory lanes on disk.**
+- **No restart is required** on code-vs-theory grounds.
+
+That ruling did **not** change after the final sweep.
+
+## B. Live machine truth moved while the docs pass was running
+
+Local MCMCs:
+
+- `dyad_mnu_bbnfix` still last-stamped **R−1 = 0.085619 @ N = 27525**, `converged: false`
+- `cmp_prtoe_routeD` still last-stamped **R−1 = 0.257073 @ N = 11422**, `converged: false`
+- `cmp_lcdm_mnu_bbnfix` remains the finished control leg
+
+AWS nested lane:
+
+- the replacement-box dyad PolyChord process is still **up**
+- but the watcher is now **STALLED**, not actively growing
+- latest watcher state at **2026-08-06 02:41 MDT**:
+  - `status=STALLED`
+  - `stalled_intervals=17`
+  - `proc=97`
+  - `launcher=1`
+  - `phase=generating_live_points`
+  - no live-point growth since **2026-08-06 02:21 MDT**
+- the repaired ΛCDM twin worker remains queued behind the dyad process
+
+Authority:
+
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/AWS_MCMC_AND_TWIN_STATUS_20260806.md`
+
+## C. What I patched after that move
+
+I pushed the stalled-state wording into the **current-status authorities** instead of leaving
+“actively growing” on the shelf:
+
+- `docs/PRTOE_honest_status.md`
+- `docs/PRTOE_CODE_MANIFEST.md`
+- `docs/PRTOE_READERS_RISK.md`
+- `docs/PRTOE_READERS_GUIDE.md`
+- `docs/PRTOE_REFEREE_CALENDAR.md`
+- `docs/PRTOE_hubble_tension.md`
+- `docs/PRTOE_DOMAIN_COVERAGE.md`
+- `docs/PRTOE_THREE_EQUATIONS.md`
+- `docs/PRTOE_fairbank_note_draft.md`
+- the two AWS status reports above
+
+## D. Desk stop ruling
+
+The docs desk is at a safe stop for the **currency / wording / shelf-honesty** class.
+
+What remains is **not** another prose sweep. It is one of:
+
+1. real machine progress
+2. real theory closure
+3. `#94` deep-audit reading
+
+So for the user’s “keep doing docs work” instruction, the desk class is now effectively
+exhausted unless new machine/theory/external facts land or the `#94` audit is resumed in force.
+
+*NO FABRICATIONS. Code/theory still match; no restart owed; AWS dyad is up but stalled; the shelf
+now says that plainly.*
+
+---
+
+### CHATGPT/REFEREE — AWS dyad recovery on on-demand clone (2026-08-06 11:10 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS
+
+Current AWS recovery truth:
+
+- all three earlier EC2 boxes were confirmed **stopped**
+- the stopped `96`-vCPU Spot box `i-0cb294312a23c4fe6` could not simply be relied on as a live
+  machine state
+- I refreshed AWS login, confirmed the fleet state, then cloned the stopped `96`-vCPU Spot box to
+  a new AMI and launched an **on-demand** `c7i.24xlarge` replacement:
+  - new instance id: `i-0fca634f317aaf4bc`
+  - AZ: `us-east-1d`
+  - public IP: `34.207.247.94`
+
+Concrete fixes applied:
+
+1. `cmp_lcdm_ev.yaml` had a real local syntax/config defect:
+   - `num_repeats: 2d`
+   - fixed to `num_repeats: 24`
+2. The PolyChord failure was diagnosed exactly on the cloned host:
+   - dyad had reached `all live points generated`
+   - then died on a Fortran format bug in
+     `cobaya_packages_clean/code/PolyChordLite/src/polychord/read_write.F90`
+   - missing comma before `" (Still Active)"`
+3. I patched that source locally and on the cloned AWS host, rebuilt PolyChord on the AWS host,
+   and resumed dyad with:
+   - `mpirun --use-hwthread-cpus -n 96 --bind-to none python -m cobaya.run -r cmp_prtoe_dyad_ev.yaml`
+4. I patched the LCDM autolaunch matcher so it recognizes resumed dyad commands, then re-armed the
+   twin on the new host.
+5. I patched the local watcher script so it:
+   - checks EC2 instance state before EIC
+   - no longer treats a stopped box as `EIC_KEY_FAIL`
+   - matches resumed dyad commands instead of only the old `-f` launch shape
+
+Current machine truth:
+
+- direct remote authority is **better than the watcher right now**
+- direct SSH reads show the resumed dyad process tree is still **alive** on
+  `i-0fca634f317aaf4bc`
+- log state has advanced to:
+  - `Resuming from previous run`
+  - `started sampling`
+- the LCDM twin worker is again correctly **waiting behind dyad**
+- but the dyad live file has **not yet shown new growth** since the resumed run was submitted, so
+  the honest current phrase is:
+  - **alive / resumed / not yet re-growing on disk**
+
+Ruling:
+
+- the original PolyChord crash cause is now concretely repaired
+- no nested evidence verdict is bookable
+- dyad is not dead, but it is also not yet revalidated as actively advancing after the repaired
+  resume
+- twin remains queued behind dyad under the solo-PolyChord rule
+
+Authority:
+
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/AWS_MCMC_AND_TWIN_STATUS_20260806.md`
+- `docs/working_logs/_runs/polychord_owner_followup_20260806/aws_dyad_watch.log`

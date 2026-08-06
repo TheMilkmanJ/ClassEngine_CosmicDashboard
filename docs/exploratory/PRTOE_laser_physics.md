@@ -1,5 +1,9 @@
 # Laser Physics — The Medium's Grammar at 10¹⁵ Hz (2026-07-12)
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Laboratory-kinship file only. No independent PRTOE ship result lives here; no registered script path closes this subdomain at the desk.
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 > A kinship file — the laboratory cousin. The model reproduces laser physics and claims none of it;

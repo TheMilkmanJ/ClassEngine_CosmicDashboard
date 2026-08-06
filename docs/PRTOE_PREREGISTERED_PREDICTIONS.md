@@ -1379,12 +1379,11 @@ bottom-out line, stated honestly: if the model is only marginally better (ΔlnZ 
 **Kills/grades:** ΔlnZ < +2.5 → the cap holds and the bottom-out clause fires; +2.5 to +5
 → the Laplace estimate confirmed, the aggressive forecast missed; ≥ +5 → the aggressive
 forecast lands in full and the model's standing is re-graded upward. **The referee:** **nested sampling on the full data stack**, with no derived values anywhere in
-either config. **The cost was measured on cluster-class hardware 2026-08-06: 6.70 s per likelihood
-evaluation** (mean of five calls at this entry's own configuration — l_max 9000, halofit, one
-massive neutrino, the full eight-likelihood stack; `plik_lite` self-check passed at −292.286).
-Against the reference run's 1 809 iterations × 534 slice steps ≈ **9.7×10⁵ evaluations**, that is
-**≈1 800 core-hours for the dyad and the same again for the ΛCDM twin** — about **37 wall-hours on
-96 cores**. The run is affordable and is the instrument of record.
+either config. **Owner follow-up on AWS (2026-08-06)** now has the dyad evidence leg live and timed
+at **3.68 s/call** for the 14-parameter dyad configuration. That means the run is affordable; it
+does **not** mean the verdict exists. At this stamp there is still no nested `Delta ln Z` because
+the sampled-ε dyad leg is live and the repaired ΛCDM twin is only a waiting worker behind it. Current run note:
+`working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`.
 
 **The Laplace-from-MCMC estimate is retained only as a cross-check, and it cannot decide this
 registration:** its own systematic is larger than the +0.135 by which the standing +2.635 clears
@@ -1921,9 +1920,9 @@ losing one is on the record as having been at risk.
 CMB+BAO+SN joint stack) is the internal instrument; DESI DR3 is the external adjudicator.
 Nothing registered above is informed by a finished posterior.
 
-**Chain status (live 2026-08-05).** `cmp_prtoe_routeD` is **running** on **three MPI ranks**
-(covariance narrowed to the winning basin). Progress: **R−1 ≈ 0.536955** at **N ≈ 9745**
-(t=2026-08-05T18:43:45; ~**5.37×** its 0.1 stop; `converged: false`; multi progress rows).
+**Chain status (live 2026-08-06).** `cmp_prtoe_routeD` is **running** on **three MPI ranks**
+(covariance narrowed to the winning basin). Progress: **R−1 ≈ 0.257073** at **N ≈ 11422**
+(t=2026-08-06T01:51:33; ~**2.57×** its 0.1 stop; `converged: false`; multi progress rows).
 Earlier stopped launches are archived beside the chain. The entry's pre-hoc standing is
 unaffected: what is registered above was fixed before any posterior existed. Live stamps:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).

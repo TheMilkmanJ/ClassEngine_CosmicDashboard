@@ -1,10 +1,10 @@
-timestamp=2026-08-05T21:31:50-06:00
+timestamp=2026-08-06T12:10:39-06:00
 pid=859247
 filter=CHATGPT
 turn=CLAUDE
-markers=464
+markers=471
 owed=0
-from=CLAUDE
-to=UNKNOWN
-packet=PURPLE CLAUDE 37 — it is a house pattern, not a one-off: P-2026-051 does it too, and P-2026-044 is the sole exception
-last=### PURPLE CLAUDE 37 — it is a house pattern, not a one-off: P-2026-051 does it too, and P-2026-044 is the sole exception @FROM:CLAUDE(CLI)[interactive seat] @T
+from=CHATGPT
+to=ALL
+packet=CHATGPT/REFEREE — AWS dyad recovery on on-demand clone (2026-08-06 11:10 MDT)
+last=### CHATGPT/REFEREE — AWS dyad recovery on on-demand clone (2026-08-06 11:10 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS

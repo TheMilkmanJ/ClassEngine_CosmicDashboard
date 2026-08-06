@@ -15,7 +15,7 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-08-05)
+## CURRENT (2026-08-06)
 
 **Expansion fence.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
 expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
@@ -28,16 +28,16 @@ progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagn
 `PRTOE_CHAIN_TABLES.md` / `PRTOE_CODE_MANIFEST.md` / `PRTOE_REFEREE_CALENDAR.md` all stamp the same
 gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm is now **self-stopped and individually
 ready** at R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10, `converged: true`), but the pair is
-still **NOT bookable** because dyad is **0.060201**@N=26135 t=2026-08-05T15:50:02
-(`converged: false`; **1.20×** stop — moved **away** from the bar from 0.056889). routeD R−1 **0.536955**@N=9745 t=2026-08-05T18:43:45
-(~**5.37×** stop 0.1) — not dual-gate. Currency: shared blocker card
+still **NOT bookable** because dyad is **0.086073**@N=30417 t=2026-08-06T08:43:18
+(`converged: false`; **1.72×** stop — still moving the wrong way). routeD R−1 **0.351167**@N=14625 t=2026-08-06T09:24:48
+(~**3.51×** stop 0.1) — not dual-gate. Currency: shared blocker card
 `blocked_lane_bbnfix_20260805/REPORT.md`.
 
 | chain | N (progress) | R−1 | stop | converged | bookable |
 |---|---:|---:|---:|---|---|
 | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **NO** (control leg ready; pair gate still closed) |
-| `dyad_mnu_bbnfix` | 26135 | **0.060201** | 0.05 | **false** | **NO** (1.20× stop; moved away from the bar) |
-| `cmp_prtoe_routeD` | 9745 | **0.536955** | 0.1 | **false** | **NO** (~5.37× stop) |
+| `dyad_mnu_bbnfix` | 30417 | **0.086073** | 0.05 | **false** | **NO** (1.72× stop; still moving the wrong way) |
+| `cmp_prtoe_routeD` | 14625 | **0.351167** | 0.1 | **false** | **NO** (~3.51× stop) |
 
 GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** —
 diagnostic only; **not** the booking gate. Quote R−1 with N and timestamp. Temporary R−1 < 0.05
@@ -57,12 +57,18 @@ D4 freeze active — next unblock is **new microphysics**, not knob thrash. Pack
 model has nothing to say about θ̄; needing a strong-CP mechanism would kill the constitution. Not a
 derivation; not a paper candidate; not promoted.
 
-**PolyChord off.** Nested sampling not running. It was retired on laptop economics (9.8 h/iteration;
-163 days to first checkpoint) — but a cluster measurement on 2026-08-06 gives **6.70 s per
-likelihood evaluation**, making the reference run **≈19 wall-hours on 96 cores** (≈37 with the ΛCDM
-twin). **The lane is affordable and awaits an owner decision, not cluster time.** Evidence currently
-grades from Laplace-from-MCMC (standing ΔlnZ = +2.635 — marginal, SH0ES-conditional). Archived
-nested run:
+**PolyChord partial thaw.** Last watcher-authoritative AWS nested state had the dyad evidence leg
+(`cmp_prtoe_dyad_ev`) still **up** on the replacement `c7i.24xlarge` Spot box at `96` ranks but
+**STALLED** (no new live-point growth after **2026-08-06 02:21 MDT**). Since **2026-08-06 09:48 MDT**
+the watcher has only `EIC_KEY_FAIL`, and the local AWS CLI session is expired, so **current remote
+advancement is unknown** rather than confirmed dead. **No nested verdict is bookable yet.** The
+ΛCDM twin is no longer absent as a config path: `cmp_lcdm_ev.yaml` was repaired after a discovered
+`sampler: evaluate: null` drift and resynced to AWS, and the remote worker remains queued behind
+the dyad process. Owner timing on the AWS run is **3.68 s/call** for the dyad configuration.
+Evidence currently still grades from Laplace-from-MCMC (standing ΔlnZ = +2.635 — marginal,
+SH0ES-conditional) until the AWS dyad leg finishes and the ΛCDM twin runs on the same build.
+Current AWS note:
+`working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`. Archived laptop nested run:
 `chains/_archive_polychord_ended_20260720_0915/`.
 
 ### Residual theory board (2026-08-05 exhaust currency)
@@ -83,7 +89,7 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 | Absolute SI \(G\) | **OPEN** — supertrace finiteness ≠ SI \(G\) |
 | Unitarized σσ (ρ_Λ precision) | **MISSING_INPUT** |
 | Machine bbnfix | **NOT bookable** |
-| PolyChord | **skip** (hardware) |
+| PolyChord | **OPEN-MACHINE** — last good AWS dyad read = **STALLED**; watcher currently `EIC_KEY_FAIL`; no bookable nested verdict yet |
 | Strong CP | **COMPLETE-ABSTENTION** |
 
 **What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-04**
@@ -163,16 +169,17 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
 - Evidence: the +2.635 Laplace win landed (below, unchanged) — and the Laplace is what the
-  verdict rests on. Nested sampling is unaffordable on this hardware (9.8 h per iteration, 163
-  days to a first checkpoint) and waits for cluster time, so the confirmer the +2.635 was explicitly
-  awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
-  input rather than side referees, and their convergence the critical path for the headline claim.
+  verdict rests on. The original laptop nested attempt ended for machine-economics reasons; that
+  no longer settles the lane, because the current AWS follow-up has a live dyad evidence leg.
+  *That makes the MCMC chains the evidence calculation's only current graded input, while the nested
+  confirmer remains unfinished rather than absent.
   As of 2026-08-05 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
   (lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged: true` — control leg ready /
-  dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 — **1.20×** stop, `converged: false` /
-  routeD **0.536955**@N=9745 — ~**5.37×** stop; pair gate still closed);
+  dyad **0.085619**@N=27525 t=2026-08-05T22:03:22 — **1.71×** stop, `converged: false` /
+  routeD **0.257073**@N=11422 — ~**2.57×** stop; pair gate still closed);
   conv_desi and zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
-  `cmp_prtoe_zon` is untouched since 07-12; **PolyChord off**.*
+  `cmp_prtoe_zon` is untouched since 07-12; AWS `cmp_prtoe_dyad_ev` PolyChord leg is **live** but
+  unfinished and unmatched by the ΛCDM twin.*
 
 ### What moved on 2026-07-18
 
@@ -257,13 +264,10 @@ misreading of the model's own §2(c) and had to be reversed by a second amendmen
 error-counting are filed at `ForJustin/13`, and the failure mode inverted between them: from
 over-claiming favourable results to over-claiming absences.
 
-**Operational.** The nested evidence run was **ended on 2026-07-20 and archived**
-(`chains/_archive_polychord_ended_20260720_0915/`). It was never stalled — it was running exactly as
-configured, and the configuration cost more than the question was worth **on the laptop**:
-`measure_speeds` built a 534-slice-step schedule, and at 66 s per likelihood evaluation that is
-**9.8 h per nested iteration**, putting the first checkpoint 163 days out and the full run 736 days,
-with the ΛCDM twin
-doubling it. Nested sampling waits for cluster time.
+**Operational.** The laptop nested evidence run was **ended on 2026-07-20 and archived**
+(`chains/_archive_polychord_ended_20260720_0915/`). That retirement was a machine-specific decision,
+not a proof that the evidence lane is permanently out of reach. Current live nested status is now
+tracked in `working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`.
 
 **Deciders** (unchanged in kind, changed in instrument): the **evidence number** (still the Laplace,
 now without a confirmer in prospect — it can be sharpened by better-converged chains but not made
@@ -310,17 +314,19 @@ In order of arrival / actionability:
 
 internal review rule: lock what counts as a win before the number comes back, or we rationalize whatever
 we get. For the PRTOE-vs-ΛCDM full-data comparison (the evidence run — Laplace landed 2026-07-09,
-and the Laplace is what the thresholds are graded against, nested sampling being deferred to
-cluster time), verdict thresholds committed now:
+and the Laplace is what the thresholds are graded against; at this historical point nested sampling
+was being deferred to cluster time, while current live nested status is tracked separately in
+`working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`), verdict thresholds committed now:
   - PRTOE wins:   Δ lnZ ≥ +2.5 in PRTOE's favor (moderate+) AND Δ BIC ≤ -2
                   (BIC/AIC already penalize PRTOE's ~2 extra physical params: varying_me, m_ncdm).
   - ΛCDM wins:    Δ lnZ ≤ -2.5  OR  Δ BIC ≥ +2.
   - inconclusive: anything in between -- and this is the honestly-expected outcome, since PRTOE is
                   ΛCDM-like + the m_e signature; a decisive win would be a genuine surprise.
 No moving these after the optimizers finish. (Optimizer gives a Laplace ln Z + bestfit χ² for
-BIC/AIC. A gold-standard nested ln Z would be the publication number, and it is not in reach on
-this hardware — that number waits on cluster time and the thresholds are graded on the Laplace
-meanwhile, with its systematic stated wherever the verdict is quoted.)
+BIC/AIC. A gold-standard nested ln Z would be the publication number. At the time of this lock it
+was not in reach on that hardware; current live nested status is now tracked separately, and the
+thresholds here remain the Laplace grading rule meanwhile, with its systematic stated wherever the
+verdict is quoted.)
 
 ## #22 DE-floor — the one serious calculation, resolved (2026-07-08)
 
@@ -377,11 +383,11 @@ likelihoods) converged. Result graded cold against the pre-committed gate:
   - Δ χ² = -9.52 (scalar better) ; **Δ lnZ = +2.635 (Laplace, scalar favored)** ; Δ BIC ~ -9.5.
 
 **Verdict: the +2.5 win threshold is crossed (+2.635) — the first time — but heavily qualified:**
-  1. Laplace, and the Laplace is where it stays: margin over the line (+0.135) < the estimator's own
-     systematic uncertainty ⇒ a marginal crossing on the approximate number. Only nested sampling
-     makes it robust, and nested sampling is unaffordable on this hardware (9.8 h per iteration) —
-     so the crossing stands as marginal, without the confirmer it was explicitly awaiting, until
-     cluster time is bought. Better-converged chains sharpen this number; they cannot promote it.
+  1. Laplace, and the Laplace is where it stays until the nested pair finishes: margin over the line
+     (+0.135) < the estimator's own systematic uncertainty ⇒ a marginal crossing on the approximate
+     number. Only nested sampling makes it robust. At the time of this entry that was unaffordable
+     on this hardware (9.8 h per iteration); the current AWS nested pair is live separately, but no
+     nested verdict exists yet. Better-converged chains sharpen this number; they cannot promote it.
   2. SH0ES-conditional: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
      68.18→69.82) + ACT (~-3.8, high-l m_e). So the win rides on the H₀ tension being physical
      (Stage 0). SH0ES-as-systematic sinks it. The win and the single window are the same brick.
@@ -393,10 +399,11 @@ likelihoods) converged. Result graded cold against the pre-committed gate:
 **Label: suggestive / SH0ES-conditional / Laplace-marginal win.** Best realistic outcome on the
 table, landed exactly at the line. Not decisive, not robust, not prediction-confirmed.
 
-The one lever that would move the evidence class hard is still a nested confirmation of the +2.6
-on a paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready) — **and that lever is now out of
-reach until the cluster time is bought**, the attempt on this hardware having been ended on
-2026-07-20 at 9.8 h per iteration. The two things that still sink it: SH0ES-as-systematic
+The one lever that would move the evidence class hard is still a nested confirmation of the +2.6.
+At the time this section was written that lever was out of reach on the local hardware and the
+attempt there had been ended on 2026-07-20 at 9.8 h per iteration; current live nested status is
+the AWS dyad leg plus a waiting repaired ΛCDM twin on the same build, with no verdict yet. The two
+things that still sink it: SH0ES-as-systematic
 (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
 grading in the private internal review record (defender "the number" turn).
 

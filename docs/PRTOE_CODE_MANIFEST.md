@@ -13,7 +13,7 @@ expression).*
 
 ## 1. IN — running now (the referee's own physics)
 
-> ### Live production stamp — **2026-08-05**
+> ### Live production stamp — **2026-08-06**
 >
 > Authority matches `docs/PRTOE_CHAIN_TABLES.md` residual freeze and
 > `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Progress-file
@@ -21,17 +21,20 @@ expression).*
 > accepted/steps for raw Metropolis accept. **Bookable H₀ / Σm_ν: NO** until both
 > bbnfix legs self-stop with progress R−1 < 0.05. lcdm R−1 **0.049324**
 > (N=26294, t=2026-08-05T11:52:10; checkpoint `converged: true` — control leg ready, pair still closed);
-> dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 (`converged: false`; **1.20×** stop).
-> routeD R−1 **0.536955**@N=9745 t=2026-08-05T18:43:45 (~**5.37×** stop 0.1; live — currency card `blocked_lane_routeD_20260805`) — not dual-gate.
-> Live MPI production objects remain running. **PolyChord: off** (not launched this stamp).
+> dyad **0.086073**@N=30417 t=2026-08-06T08:43:18 (`converged: false`; **1.72×** stop).
+> routeD R−1 **0.351167**@N=14625 t=2026-08-06T09:24:48 (~**3.51×** stop 0.1; live — currency card `blocked_lane_routeD_20260805`) — not dual-gate.
+> Live MPI production objects remain running. **PolyChord: last watcher-authoritative AWS dyad state
+> was STALLED on the replacement `c7i.24xlarge` Spot box; since 2026-08-06 09:48 MDT the watcher
+> has only `EIC_KEY_FAIL`, so current remote advancement is unknown. ΛCDM twin autolaunch remains
+> queued behind dyad.** No bookable nested verdict yet.
 > Currency: shared blocked-lane audit
 > [`blocked_lane_bbnfix_20260805/REPORT.md`](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
 >
 > | chain | ranks | N (progress) | R−1 last | stop | `converged` | bookable? |
 > |---|---:|---:|---:|---:|---|---|
-> | `dyad_mnu_bbnfix` | 3 | 26135 | **0.060201** | 0.05 | **false** | **NO** |
+> | `dyad_mnu_bbnfix` | 3 | 30417 | **0.086073** | 0.05 | **false** | **NO** |
 > | `cmp_lcdm_mnu_bbnfix` | 3 | 26294 | **0.049324** | 0.05 | **true** | **NO** (control leg ready; pair still closed) |
-> | `cmp_prtoe_routeD` | 3 | 9745 | **0.536955** | 0.1 | **false** | **NO** (~5.37× stop) |
+> | `cmp_prtoe_routeD` | 3 | 14625 | **0.351167** | 0.1 | **false** | **NO** (~3.51× stop) |
 >
 > Offline GetDist max GR (`bbnfix_mcmc_watch_diag.py`, diagnostic only): dyad
 > **~0.086**, lcdm **~0.07** — **not** booking authority.
@@ -43,12 +46,12 @@ expression).*
 | The ramped window edges: varying_transition_width (tanh fades in ln(1+z); 0 = legacy step) | CLASS source: background.c/input.c/background.h | IN — pipeline .so rebuilt clean-PATH, width=0 backward-compat verified |
 | The electron-coupled scalar (varying m_e, the ramp through T_c) | CLASS source | IN |
 | The dcdf unified sector (rad→CDM crossover at z_on) | CLASS source | IN |
-| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.060201** at N = 26135 (t=2026-08-05T15:50:02); **1.20×** stop; checkpoint `converged: false`; progress accept ~0.996 ⚠ oversampled. **Bookable: NO.** Gate: `scripts/book_bbnfix_when_ready.py`. See `PRTOE_CHAIN_TABLES.md` residual freeze |
+| **BBN-fixed production pair — model** | yaml: `dyad_mnu_bbnfix.yaml` → `chains/dyad_mnu_bbnfix.*` | **Live (2026-08-06 currency)** — 3 MPI ranks; progress R−1 = **0.086073** at N = 30417 (t=2026-08-06T08:43:18); **1.72×** stop; checkpoint `converged: false`; progress accept ~0.996 ⚠ oversampled. **Bookable: NO.** Gate: `scripts/book_bbnfix_when_ready.py`. See `PRTOE_CHAIN_TABLES.md` residual freeze |
 | **BBN-fixed production pair — ΛCDM+mν twin** | yaml: `cmp_lcdm_mnu_bbnfix.yaml` → `chains/cmp_lcdm_mnu_bbnfix.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.049324** at N = 26294 (t=2026-08-05T11:52:10); checkpoint `converged: true`; progress accept ~0.981 ⚠ oversampled. **Control leg ready; Bookable: NO (pair still closed).** |
-| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-05)** — 3 MPI ranks; progress R−1 = **0.536955** at N = 9745 (t=2026-08-05T18:43:45); **not bookable** (~**5.37×** stop 0.1); checkpoint `converged: false`. Progress `acceptance_rate` column ~0.997 ⚠ oversampled; launchlog acceptance ≈6.1% — different quantities, see the currency card. **No thaw posterior is bookable at this R−1.** Separate instrument — not dual-gate. Currency card: `working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md` |
-| **The PolyChord evidence run — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all sampled) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **not running — PolyChord off (2026-08-04 stamp)** — killed mid-prior by decision; files stamped 2026-07-17, no live process. Relaunch is a deliberate future act, not a resumption. Evidence grades from Laplace-from-MCMC until cluster time |
-| **The zero-parameter run — ε/A_s/n_s fixed** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **not running — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Not a failure of the config: **on the laptop** it ran on, at 66 s per likelihood evaluation against the 534 slice steps `measure_speeds` scheduled, a nested iteration costs 9.8 h, putting the first checkpoint 163 days out and the full run 736 days. The headline evidence test is graded from Laplace-from-MCMC until cluster time makes nested sampling affordable |
-| The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | not queued — the sampled referee killed mid-prior by decision, and with nested sampling deferred to cluster time neither it nor the ΛCDM twin has a slot to await |
+| **Route-D thaw chain** | yaml: `cmp_prtoe_routeD.yaml` → `chains/cmp_prtoe_routeD.*` | **Live (2026-08-06)** — 3 MPI ranks; progress R−1 = **0.351167** at N = 14625 (t=2026-08-06T09:24:48); **not bookable** (~**3.51×** stop 0.1); checkpoint `converged: false`. Progress `acceptance_rate` column ~0.997 ⚠ oversampled; launchlog acceptance ≈6.1% — different quantities, see the currency card. **No thaw posterior is bookable at this R−1.** Separate instrument — not dual-gate. Currency card: `working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md` |
+| **The PolyChord evidence run — sampled-ε** (varying_me, A_s via logA, n_s, dcdf_rho_inf, m_ncdm all sampled) — tests whether the data prefers varying-m_e at all (Occam-penalized) and whether the ε-posterior lands on the derived 1.2543% | yaml: pc_prtoe.yaml (PolyChord) | **not running** — this specific sampled-ε config is still off; the live AWS nested run is the evidence dyad leg `cmp_prtoe_dyad_ev`, not `pc_prtoe.yaml`. Evidence grades remain Laplace-from-MCMC until the nested pair finishes |
+| **The zero-parameter run — ε/A_s/n_s fixed** (varying_me = 1.012543, A_s = 2.088058×10⁻⁹, n_s = 0.9641; only dcdf_rho_inf, z_reio, m_ncdm + nuisances sampled) — the actual *zero-extra-parameter rival to ΛCDM* test | yaml: cmp_prtoe_fixed.yaml | **not running — ended 2026-07-20 by owner decision, archived to `chains/_archive_polychord_ended_20260720_0915/`.** Laptop economics no longer govern the lane by themselves; the current blocker is completion of the AWS dyad evidence leg plus launch of the ΛCDM twin on the same build |
+| The evidence pair (sampled-ε scalar + ΛCDM twin) | yaml: cmp_prtoe_dyad_ev / cmp_lcdm_ev | **partial live state** — last watcher-authoritative AWS `cmp_prtoe_dyad_ev` state on the replacement `c7i.24xlarge` Spot box was **STALLED** rather than actively growing; since 2026-08-06 09:48 MDT the watcher has only `EIC_KEY_FAIL`, so current remote advancement is unknown. `cmp_lcdm_ev` has the repaired PolyChord config and the remote autolaunch worker is still queued behind the dyad process. **No nested verdict is bookable until both exist and finish on the same build** |
 | The freeze-sentinel launch guards | comparison layer: both wrappers | IN — verified quoted+unquoted |
 | **zon_disp / conv_desi production MCMC** | yaml: cmp_prtoe_zon_disp / cmp_prtoe_conv_desi | **not running (2026-08-04)** — zon_disp parked (seed ready; last R−1 ≈ 17.81); conv_desi unproduced after two deaths (last R−1 ≈ 13.25, chain write 2026-07-22). Owner restart only; not part of the bbnfix booking gate |
 
@@ -56,7 +59,7 @@ expression).*
 
 | item | value | trigger | lands in |
 |---|---|---|---|
-| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — executed in the fixed-ε configs** (nested zero-parameter run itself is not live; Laplace grades until cluster time) | yaml |
+| A_s frozen | 2.088058×10⁻⁹ = (α_c/4πk)³, concordance joint k | **IN — executed in the fixed-ε configs** (nested zero-parameter run itself is not live; current AWS nested run is the different sampled-ε lane, so Laplace still grades the fixed-ε exposure) | yaml |
 | z_on frozen | 3.5619×10⁷ (log 7.5517 — the BOBYQA frozen-stack profile; the 3α mark hit to 0.005 dex) | **IN — fast-profiled estimate; the α_c instrument grades it when restarted** | yaml |
 | n_s stated | 0.9641 = 1 − 2/ln(M_Pl/T_on) at the profiled z_on (the value the fixed-ε configs execute; the exhibited mechanism's k-local number is 0.9677 — the delta is 0.86σ at Planck width, noted for the next config, no mid-run change) | **IN — frozen into the fixed-ε configs** | yaml |
 | ρ_inf stated | the occupancy value | the α_c instrument + the triangle confirmed | yaml |
