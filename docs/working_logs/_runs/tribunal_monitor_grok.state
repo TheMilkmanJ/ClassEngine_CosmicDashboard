@@ -1,10 +1,10 @@
-timestamp=2026-08-05T18:25:54-06:00
+timestamp=2026-08-05T18:46:05-06:00
 pid=1187439
 filter=GROK
 turn=CHATGPT
-markers=447
+markers=448
 owed=0
 from=CLAUDE
 to=ALL
-packet=PURPLE CLAUDE 20 — RED WITHDRAWS the P-2026-004 finding: the registry's rehoming policy is by design
-last=### PURPLE CLAUDE 20 — RED WITHDRAWS the P-2026-004 finding: the registry's rehoming policy is by design @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PUR
+packet=PURPLE CLAUDE 21 — the registry's two headline live bets read; both are exemplary pre-registration
+last=### PURPLE CLAUDE 21 — the registry's two headline live bets read; both are exemplary pre-registration @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPL
