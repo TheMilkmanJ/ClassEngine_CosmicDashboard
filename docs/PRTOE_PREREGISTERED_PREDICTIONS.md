@@ -1378,18 +1378,19 @@ bottom-out line, stated honestly: if the model is only marginally better (ΔlnZ 
 
 **Kills/grades:** ΔlnZ < +2.5 → the cap holds and the bottom-out clause fires; +2.5 to +5
 → the Laplace estimate confirmed, the aggressive forecast missed; ≥ +5 → the aggressive
-forecast lands in full and the model's standing is re-graded upward. **The referee:** the
-**Laplace-from-MCMC** estimate on the full data stack, with no derived values anywhere in
-either config — nested sampling is unaffordable at this likelihood cost (66 s per likelihood
-evaluation against 534 slice steps per iteration is 9.8 h per nested iteration, so a first
-checkpoint at nlive = 400 sits 163 days out and the 1 809-iteration reference run 736 days
-out, with the ΛCDM twin doubling it), and cluster time would have to be bought to change that.
-**That instrument is adverse to this prediction and is recorded as such:** the Laplace
-estimator's own systematic is larger than the +0.135 by which the standing +2.635 clears the
-win line, so the instrument now in hand cannot resolve the interval this registration was
-written to decide. The consequence for the model is that **chain convergence is the critical
-path for P-2026-044 itself** rather than a side referee on individual parameters — the MCMC is
-not supporting evidence, it is the evidence calculation's only input.
+forecast lands in full and the model's standing is re-graded upward. **The referee:** **nested sampling on the full data stack**, with no derived values anywhere in
+either config. **The cost was measured on cluster-class hardware 2026-08-06: 6.70 s per likelihood
+evaluation** (mean of five calls at this entry's own configuration — l_max 9000, halofit, one
+massive neutrino, the full eight-likelihood stack; `plik_lite` self-check passed at −292.286).
+Against the reference run's 1 809 iterations × 534 slice steps ≈ **9.7×10⁵ evaluations**, that is
+**≈1 800 core-hours for the dyad and the same again for the ΛCDM twin** — about **37 wall-hours on
+96 cores**. The run is affordable and is the instrument of record.
+
+**The Laplace-from-MCMC estimate is retained only as a cross-check, and it cannot decide this
+registration:** its own systematic is larger than the +0.135 by which the standing +2.635 clears
+the win line, so it cannot resolve the interval this entry was written to decide. That is a
+statement about the Laplace estimator, not about the availability of a referee — the nested run
+supplies the deciding number, and chain convergence feeds it rather than substituting for it.
 
 **The conservative forecast (registered alongside, same timestamp class):** **ΔlnZ = +3.0
 ± 1.0 (interval +2 to +4).** Reasoning: the Laplace +2.635 was computed for the OLD setup
