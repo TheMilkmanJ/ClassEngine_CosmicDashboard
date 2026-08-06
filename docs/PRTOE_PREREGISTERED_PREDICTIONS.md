@@ -611,6 +611,38 @@ is the special case").
 error within ~years. β → 0 confirms Version A (census holds); β firmed at ~0.1–0.3°
 confirms Version B (dark sector GUT-unified with the SM, size predicted from α/4π).
 
+> **⚠ ANNOTATION 2026-08-05 — the corpus has since closed Version B's mechanism, and this entry's
+> standing line predates that.** The pre-registration below and above is left exactly as written;
+> this is an annotation, not an edit to a registered claim.
+>
+> **Three entries registered before this one already stand on β = 0.** P-2026-009 (2026-07-07): the
+> medium contributes zero birefringence. P-2026-014 (2026-07-08): a charged condensate Higgses any
+> gauge boson it couples to — *"the same charge-free structure that kills birefringence."*
+> P-2026-015 (2026-07-08): *"PRTOE predicts β = 0 exactly … proven robust from every angle thrown at
+> it,"* and it is an **interpretation lock** — *"locked in NOW so neither outcome can be spun
+> later"* — whose registered reading is that a confirmed **≥5σ** isotropic β **kills PRTOE as the
+> source**. Version B's β ~ 0.1–0.3° is that magnitude, so under P-015's lock a consolidating
+> Version B is the **kill condition**, not a confirmation.
+>
+> **The six production routes are closed** (failures ledger, back-filled 2026-07-27) on two
+> conditions: the coupling-open and light-remembers windows never overlap
+> (`scripts/birefringence_window.py`), and an EB rotation **requires the parity-odd anomalous mode
+> the census forbids** (ANN-2026-012). The second is what closes Version B — **not** the Meissner
+> route, which item (ii) below correctly anticipates would not apply to an axion coupling. The
+> ledger's verdict: the zero *"is untouched, and is now **over-determined**."* The forward-facing
+> shelf reads the same way — [PRTOE_CMB_map.md](PRTOE_CMB_map.md) calls β = 0 a **kill-switch**,
+> states *"the model's own prediction stays exactly zero,"* and names Version B's route **a
+> surrender whose price is named in the atlas**.
+>
+> **One reopening condition survives, and it is why this is not struck:** a genesis calculation
+> pinning the condensation redshift near matter–radiation equality (a few ×10³) would make a small,
+> suppressed, isotropic signal census-legal through the residual coupling. That calculation is
+> unbuilt. **Version B is closed by six routes with one unbuilt door, not dead by fiat.**
+>
+> **Whether the standing line below ("Standing on B unchanged") should be amended, and whether
+> P-2026-015's lock or this entry gives way, is an owner call** — I have not rewritten a
+> pre-registration.
+
 **Owed before B is a clean prediction (not recorded):** (i) the real θ-rolling history
 (does θ evolve by ~f along the photon path at the right epoch?) and the specific GUT
 c_γ; (ii) Meissner check — does the condensate screen θ·F·F̃ as it screens the

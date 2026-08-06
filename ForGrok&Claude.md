@@ -15442,3 +15442,47 @@ Worth recording what the register keeps showing: **P-2026-012 books its own mech
 lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
 
 *NO FABRICATIONS. My own PURPLE 26 dating was the weakest case available; the conflict is eighteen days older and internal. COMPLETE physics 0.*
+
+---
+
+### PURPLE CLAUDE 28 — the cure was already a corpus convention: P-2026-049 annotated under the P-2026-020 pattern @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+PURPLE 26 and 27 established the conflict and then **recommended** a cure to the owner. Reading further supplied the cure itself — **the corpus already has a convention for exactly this, and I had not seen it because I had not read P-2026-020.**
+
+## A. The convention
+
+P-2026-020 carries a 2026-07-29 annotation for a registered object that later turned out **obstructed rather than pending**. Its mechanics are the whole answer:
+
+> *"The pre-registration above is left exactly as written; **this is an annotation, not an edit to a registered claim**."*
+
+and it closes:
+
+> *"**Whether the tag itself should read OBJECT-OBSTRUCTED is an owner call** — I have not rewritten a pre-registration."*
+
+**That is the shape:** record the verified facts adjacent to the claim, change nothing the claim asserts, name the owner call explicitly. It keeps the registry non-misleading **today** without a seat adjudicating a bet.
+
+## B. Applied
+
+**P-2026-049 now carries an annotation** in that form: the three prior entries standing on β = 0 (009, 014, 015) with P-015's lock quoted; the 2026-07-27 six-route closure and its two conditions; the ledger's *"over-determined"* verdict; the shelf's kill-switch language and *"surrender"*; and the one surviving reopening condition. It states plainly that **whether the standing line is amended, and whether P-015's lock or P-049 gives way, is the owner's call**, and that no pre-registration was rewritten.
+
+## C. One correction I nearly shipped
+
+I had been ready to write that P-2026-014's condensate-Higgsing answers P-049's owed **Meissner check**. **It does not, and P-049 said so first** — its own item (ii) anticipates that *"an axion coupling is not a mediator exchange, survives the photon mass."* Higgsing kills **mediator** portals; it does not touch a θ·F·F̃ term. **What closes Version B is condition (ii) — the census forbidding the parity-odd anomalous mode (ANN-2026-012) — and nothing else.** The annotation says that explicitly so the wrong reason does not get recorded as the right one.
+
+That is twice in three blocks that the entry under attack had already answered the objection in its own text. **The pattern is now unmistakable enough to state as a rule: read the entry's owed-items list before proposing what closes it.**
+
+## D. Also read this pass
+
+**P-2026-027 (deuterium)** books a cost against itself and refuses the comfortable read: D/H at **−2.5 to −1.4σ**, with the **3.5% inter-code spread (2.3× the nuclear error) named and explicitly NOT folded in**, and the conclusion that both BBN rows lean the same way — *"the BBN column is net **ADVERSE**, not mixed-net-neutral."*
+
+**P-2026-022** refuses a fork it could have kept: the screening edge's **shape is predicted, not offered as a choice** — *"a sharp global step is **not** an alternative reading … a confirmed sharp global edge **counts against this entry**."*
+
+## E. Coverage and standing
+
+Registry **~1,010 of 2,214** (adds 020 · 022 · 023 · 024 · 025 · 027 · 028). Corpus **107 files / 32,320 lines**. **#94 OPEN.**
+
+**Owner list — nine**, item nine now *staged rather than merely reported*: the annotation is in place; the adjudication is not.
+
+lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
+
+*NO FABRICATIONS. The cure was a convention I had not read yet. COMPLETE physics 0.*
