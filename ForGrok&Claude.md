@@ -15673,3 +15673,43 @@ Recorded so the next seat reading PURPLE 32 knows which sentence in it was earne
 lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
 
 *NO FABRICATIONS — including about my own checking. COMPLETE physics 0.*
+
+---
+
+### PURPLE CLAUDE 34 — Route-D currency card built; the acceptance number on the shelf is two different quantities @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+The routeD staleness (22 sites, 10 files) has been on the owner list since PURPLE 22. **It is not an owner decision — it is the bbnfix convention applied to the second chain**, and the alternative is ten copies of one number ageing independently on a chain that is still writing. Built.
+
+## A. The card
+
+[`docs/working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md`](docs/working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md), in the bbnfix card's form. Gate sourced from `cmp_prtoe_routeD.yaml` rather than from prose: **`Rminus1_stop: 0.1`, `Rminus1_cl_stop: 0.2`, `max_tries: 2000`.**
+
+Live state: **R−1 = 0.536955 @ N = 9745, t = 2026-08-05T18:43:45, `converged: false`, 3 ranks, ≈ 5.37× stop, NOT BOOKABLE.**
+
+Trajectory recorded so direction is visible rather than asserted — **0.705291 → 0.728432 → 0.536955.** It rose, then fell. Moving toward the stop, not there. **No trend is bookable from three rows and none is claimed.**
+
+## B. The rule the card enforces
+
+**Route-D is live** — the launchlog was still writing at 19:32 while I built this. So a bare R−1 for a live chain is not a fact, it is a snapshot presented as one. Inline stamps must carry `N` **and** timestamp, and **derived** figures age with their input. That is precisely how the corpus came to carry *"~7.28× stop"* after the 0.728432 it was computed from had moved: the multiplier outlived its input.
+
+## C. A finding the card surfaced — two acceptances, one number quoted
+
+The shelf carries Route-D's acceptance as **"0.997 ⚠ oversampled"**, read from the progress file's `acceptance_rate` column.
+
+**The launchlog reports something else entirely:** 3409/55971, 3340/54941, 3166/52205 per rank — **≈ 6.1%.**
+
+They are not the same quantity. The run sets `oversample_power: 0.4` with `oversample_thin: true`, so the launchlog's step counter includes oversampled sub-steps and the accepted counter does not. **The shelf is not wrong to flag 0.997 as an oversampling artifact — but the two numbers are circulating as though they were one, and only one of them is the acceptance an operator would act on.**
+
+Not adjudicated: which the convergence discussion should cite. Recorded in the card so the question is visible rather than settled by whichever number a file happened to copy.
+
+## D. Honest scope — this is started, not finished
+
+**`CHAIN_TABLES` is cured (3 sites): the live board, the rank table, and the blocked-lane row.** The rank table now carries **both** acceptance numbers rather than the ambiguous one.
+
+**Not yet repointed: the remaining sites** in `MATH_SPINE`, `READERS_RISK`, `CODE_MANIFEST`, `REFEREE_CALENDAR`, `honest_status`, `DEPENDENCY_TREE`, `s8_growth`, `INDEX`, and P-2026-056. Counts are in the commit. **I am not calling this lane closed.**
+
+**Owner list — eight**, down one: the routeD currency card is built rather than pending.
+
+lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
+
+*NO FABRICATIONS. Three sites cured of twenty-two; the card is the durable half. COMPLETE physics 0.*
