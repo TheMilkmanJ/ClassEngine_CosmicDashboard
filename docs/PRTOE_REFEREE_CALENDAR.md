@@ -18,7 +18,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 > `PRTOE_CHAIN_TABLES.md` residual freeze and `PRTOE_CODE_MANIFEST.md` §1 live stamp.
 > lcdm **0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged: true`; control leg ready, pair still
 > **NOT bookable**); dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 (**1.20×** stop; `converged:
-> false`). routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11 (~**7.28×** stop 0.1) — not
+> false`). routeD R−1 **0.536955**@N=9745 t=2026-08-05T18:43:45 (~**5.37×** stop 0.1; live — currency card `blocked_lane_routeD_20260805`) — not
 > dual-gate.
 > Currency: shared blocker card `blocked_lane_bbnfix_20260805/REPORT.md`.
 >
@@ -26,7 +26,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 > |---|---:|---:|---:|---|---|
 > | `dyad_mnu_bbnfix` | 26135 | **0.060201** | 0.05 | false | **NO** |
 > | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | true | **NO** (control leg ready; pair still closed) |
-> | `cmp_prtoe_routeD` | 8120 | **0.728432** | 0.1 | false | **NO** (~7.28× stop) |
+> | `cmp_prtoe_routeD` | 9745 | **0.536955** | 0.1 | false | **NO** (~5.37× stop) |
 >
 > GetDist offline max GR (diagnostic only): dyad **~0.086**, lcdm **~0.07** — not the gate.
 > **PolyChord: off.** Live MPI production objects remain running.
@@ -83,7 +83,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 > **20.4%** (routeD) and **19.8%** (conv_desi), against the ~97%-and-never-move pathology those
 > relaunches were meant to escape. That is inside the optimal band for high-dimensional
 > Metropolis, measured from the launchlogs' step/accept counters. **Present (2026-08-05):**
-> routeD is live again (Sitting NOW: R−1 = **0.728432** at N = 8120 — not bookable, ~**7.28×** stop);
+> routeD is live again (Sitting NOW: R−1 = **0.536955** at N = 9745 — not bookable, ~**5.37×** stop);
 > conv_desi is **unproduced** after two deaths (last chain file 2026-07-22) — not a live posterior.
 >
 > The 07-20 burn-in measurement settled the step: the proposal was the right size

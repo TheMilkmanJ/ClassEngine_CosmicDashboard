@@ -29,7 +29,7 @@ progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagn
 gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm is now **self-stopped and individually
 ready** at R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10, `converged: true`), but the pair is
 still **NOT bookable** because dyad is **0.060201**@N=26135 t=2026-08-05T15:50:02
-(`converged: false`; **1.20×** stop — moved **away** from the bar from 0.056889). routeD R−1 **0.728432**@N=8120 t=2026-08-05T12:54:11
+(`converged: false`; **1.20×** stop — moved **away** from the bar from 0.056889). routeD R−1 **0.536955**@N=9745 t=2026-08-05T18:43:45
 (~**7.28×** stop 0.1) — not dual-gate. Currency: shared blocker card
 `blocked_lane_bbnfix_20260805/REPORT.md`.
 
@@ -37,7 +37,7 @@ still **NOT bookable** because dyad is **0.060201**@N=26135 t=2026-08-05T15:50:0
 |---|---:|---:|---:|---|---|
 | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **NO** (control leg ready; pair gate still closed) |
 | `dyad_mnu_bbnfix` | 26135 | **0.060201** | 0.05 | **false** | **NO** (1.20× stop; moved away from the bar) |
-| `cmp_prtoe_routeD` | 8120 | **0.728432** | 0.1 | **false** | **NO** (~7.28× stop) |
+| `cmp_prtoe_routeD` | 9745 | **0.536955** | 0.1 | **false** | **NO** (~5.37× stop) |
 
 GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** —
 diagnostic only; **not** the booking gate. Quote R−1 with N and timestamp. Temporary R−1 < 0.05
@@ -167,7 +167,7 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   As of 2026-08-05 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
   (lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged: true` — control leg ready /
   dyad **0.060201**@N=26135 t=2026-08-05T15:50:02 — **1.20×** stop, `converged: false` /
-  routeD **0.728432**@N=8120 — ~**7.28×** stop; pair gate still closed);
+  routeD **0.536955**@N=9745 — ~**5.37×** stop; pair gate still closed);
   conv_desi and zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
   `cmp_prtoe_zon` is untouched since 07-12; **PolyChord off**.*
 
