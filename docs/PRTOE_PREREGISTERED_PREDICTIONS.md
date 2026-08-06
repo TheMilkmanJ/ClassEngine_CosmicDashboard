@@ -1921,8 +1921,8 @@ CMB+BAO+SN joint stack) is the internal instrument; DESI DR3 is the external adj
 Nothing registered above is informed by a finished posterior.
 
 **Chain status (live 2026-08-05).** `cmp_prtoe_routeD` is **running** on **three MPI ranks**
-(covariance narrowed to the winning basin). Progress: **R−1 ≈ 0.728432** at **N ≈ 8120**
-(t=2026-08-05T12:54:11; ~**7.28×** its 0.1 stop; `converged: false`; multi progress rows).
+(covariance narrowed to the winning basin). Progress: **R−1 ≈ 0.536955** at **N ≈ 9745**
+(t=2026-08-05T18:43:45; ~**5.37×** its 0.1 stop; `converged: false`; multi progress rows).
 Earlier stopped launches are archived beside the chain. The entry's pre-hoc standing is
 unaffected: what is registered above was fixed before any posterior existed. Live stamps:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).

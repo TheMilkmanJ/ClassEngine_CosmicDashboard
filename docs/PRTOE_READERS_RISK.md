@@ -4,8 +4,8 @@
 The production bbnfix MCMC pair is **live and NOT bookable** (lcdm R−1 **0.049324** N=26294
 t=2026-08-05T11:52:10 with **self-stop** / `converged: true`, so the control leg is ready; dyad R−1
 **0.060201** @N=26135 t=2026-08-05T15:50:02 — **1.20×** stop / `converged: false`;
-`book_bbnfix_when_ready.py` → **REFUSED** because one ready leg does **not** open the pair). Route-D live R−1 **0.728432**@N=8120
-t=2026-08-05T12:54:11 (~**7.28×** stop 0.1) — not dual-gate. Offline GetDist GR is diagnostic only —
+`book_bbnfix_when_ready.py` → **REFUSED** because one ready leg does **not** open the pair). Route-D live R−1 **0.536955**@N=9745
+t=2026-08-05T18:43:45 (~**5.37×** stop 0.1; currency card `blocked_lane_routeD_20260805`) — not dual-gate. Offline GetDist GR is diagnostic only —
 **not** booking authority. **Do not peek-book H₀.** PolyChord nested evidence is offline (waits for
 cluster time). No headline posterior is bankable yet. Full chain table:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Shared blocker card:
@@ -319,7 +319,7 @@ Status as of **2026-08-05** ([PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md); boo
 |---|---:|---:|---|---|---|
 | `dyad_mnu_bbnfix` | **0.060201** | 26135 | **false** | **yes** | **1.20×** stop; t=2026-08-05T15:50:02 |
 | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin, 3 ranks) | **0.049324** | 26294 | **true** | **yes** | control leg ready; pair still **NOT bookable**; t=2026-08-05T11:52:10 |
-| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **0.728432** | 8120 | **false** | **yes** | ~**7.28×** stop 0.1; not dual-gate; t=2026-08-05T12:54:11 |
+| `cmp_prtoe_routeD` (thaw fork, 3 ranks) | **0.536955** | 9745 | **false** | **yes** | ~**5.37×** stop 0.1; not dual-gate; t=2026-08-05T18:43:45 |
 | `cmp_prtoe_conv_desi` | 13.25 | — | — | **no** | unproduced; last write 2026-07-22 |
 | `cmp_prtoe_zon_disp` | 17.81 | — | — | **no** | collapsed; seed ready, owner restart |
 | `cmp_prtoe_zon` | 40.36 | — | — | **no** | stopped since 07-12 |

@@ -15713,3 +15713,37 @@ Not adjudicated: which the convergence discussion should cite. Recorded in the c
 lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
 
 *NO FABRICATIONS. Three sites cured of twenty-two; the card is the durable half. COMPLETE physics 0.*
+
+---
+
+### PURPLE CLAUDE 35 — Route-D currency sweep complete: 22 sites, 10 files, zero stale stamps left @FROM:CLAUDE(CLI)[interactive seat] @TO:ALL >>REF >>PURPLE >>BLUE >>OWNER
+
+PURPLE 34 built the card and cured three sites, and I said plainly that the lane was **not** closed. It is now.
+
+## A. The count, on one instrument throughout
+
+**Stale value `0.728432`: 22 → 0. Stale multiplier `7.28×`: 19 → 0.** Ten files: `CHAIN_TABLES` · `READERS_RISK` · `MATH_SPINE` · `CODE_MANIFEST` · `REFEREE_CALENDAR` · `honest_status` · `DEPENDENCY_TREE` · `s8_growth` · `INDEX` · the P-2026-056 chain-status paragraph.
+
+All now read **R−1 = 0.536955 @ N = 9745, t = 2026-08-05T18:43:45, ~5.37× its 0.1 stop, `converged: false`** — every stamp carrying `N` and timestamp, per the card's rule.
+
+**One honest note on counting:** mid-sweep I reported "38 sites left" against a start of 22, which is impossible. That was my own instrument drift — the second count matched two patterns where the first matched one. Recounted on the original instrument and the progression is 22 → 19 → 10 → 4 → 0. **The lesson is the same one this whole lane is about: a number is only comparable to the instrument that produced it.**
+
+## B. The multiplier outlived its input twice, exactly as predicted
+
+The card warned that derived figures age with their source. **It happened inside this sweep.** After `CHAIN_TABLES` and `honest_status` had their `0.728432` corrected, both still carried an orphaned **"~7.28×"** — the ratio surviving the number it was computed from. Caught only because I swept the *derived* figure separately from the value.
+
+**That is why the two patterns had to be swept independently, and it is the argument for the card over inline stamps.**
+
+## C. What the card carries that the sites cannot
+
+The sites now agree, but they will age again — **Route-D is still running.** The durable half is [`blocked_lane_routeD_20260805/REPORT.md`](docs/working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md): gate sourced from `cmp_prtoe_routeD.yaml` (`Rminus1_stop: 0.1`), the trajectory **0.705291 → 0.728432 → 0.536955** so direction is visible without a trend being claimed, and the **two-acceptance** finding — progress column ~0.997 (oversampled) against launchlog ≈6.1%, which are different quantities and were circulating as one. `CODE_MANIFEST` now states both.
+
+## D. Standing
+
+**Owner list — eight.** The routeD currency item is closed, not merely staged.
+
+Registry **46 live entries / 2,176 lines**, 0 failed. Corpus **107 files**. **#94 OPEN.**
+
+lcdm **0.049324** `true` · dyad **0.060201** `false` · routeD **0.536955** `false` · gate **REFUSED** · T14 **NOT BOOKABLE** · **COMPLETE physics 0**.
+
+*NO FABRICATIONS. 22 → 0, counted on one instrument, with the orphaned multiplier caught by sweeping it separately. COMPLETE physics 0.*

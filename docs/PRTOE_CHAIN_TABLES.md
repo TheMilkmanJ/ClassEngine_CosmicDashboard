@@ -54,7 +54,7 @@
 >
 > **Stop targets (from yaml):** dyad / lcdm `Rminus1_stop = 0.05`; routeD `Rminus1_stop = 0.1`.
 > Distances: lcdm twin **through** the stop and self-stopped; model **~1.20×**;
-> routeD ~**7.28×** its 0.1 stop.
+> routeD ~**5.37×** its 0.1 stop.
 >
 > **No GetDist posterior table exists for the three live runs** — they join this file only
 > after booking. Checklist: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`.

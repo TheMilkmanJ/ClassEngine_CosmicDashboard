@@ -30,7 +30,7 @@ gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm is now **self-st
 ready** at R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10, `converged: true`), but the pair is
 still **NOT bookable** because dyad is **0.060201**@N=26135 t=2026-08-05T15:50:02
 (`converged: false`; **1.20×** stop — moved **away** from the bar from 0.056889). routeD R−1 **0.536955**@N=9745 t=2026-08-05T18:43:45
-(~**7.28×** stop 0.1) — not dual-gate. Currency: shared blocker card
+(~**5.37×** stop 0.1) — not dual-gate. Currency: shared blocker card
 `blocked_lane_bbnfix_20260805/REPORT.md`.
 
 | chain | N (progress) | R−1 | stop | converged | bookable |

@@ -361,8 +361,8 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > it.
 >
 > **Current state (2026-08-05):** `cmp_prtoe_routeD` runs on **three MPI ranks** (covariance
-> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.728432** at **N ≈ 8120**
-> (t=2026-08-05T12:54:11; ~**7.28×** its 0.1 stop; `converged: false`) — see
+> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.536955** at **N ≈ 9745**
+> (t=2026-08-05T18:43:45; ~**5.37×** its 0.1 stop; `converged: false`) — see
 > `PRTOE_CHAIN_TABLES.md`. Stopped predecessors are archived beside the chain with their diagnoses.
 > **What does not change:** the clean Route-D prediction was killed by the full-cycle KP solve
 > analytically; the chain adjudicates only whether the surviving imminent-turn corner lives
@@ -737,7 +737,7 @@ and it belongs beside c on the list of things the model counts on rather than de
 
 **Standing:** open pending the named referees, DESI-capped; the branch is registered
 (P-2026-056) with its guards discharged. Its adjudicating chain (`cmp_prtoe_routeD`) runs on
-**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.728432
+**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.536955
 @ N ≈ 8120 (2026-08-05; see `PRTOE_CHAIN_TABLES.md`). A single chain does yield a within-chain
 split-R̂; what it cannot do is detect confinement to one basin, which is the failure mode at issue
 — that is why the multi-chain production setup is required (§7). **DESI DR3 remains the adjudicator
