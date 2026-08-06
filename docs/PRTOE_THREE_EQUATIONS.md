@@ -69,7 +69,7 @@ Gap between fit and derivation ≈1.8% of the value; the α_c instrument (once c
 
   Equal weights are **not** forced by gravity’s blindness: an energy-reading coupling weights by energy over every field, not one share per charged species. Charge both selects and weights: Σ N_c Q² over the charged nine is **8**, so c = 8/9 = 0.889; if the neutral seat then weighs zero, c = 1, which the counting argument forbids. **No single criterion forces 9/10** — it is a counting assumption the data can confirm ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1). The ε-blind ensemble does not pick: 8/9 is 0.30σ from 9/10 at its width. Standing position for the DE prediction: **9/10, conditional on the tie as lock and equal weights**; independent check is the f̄ ensemble / α_c chain (P-2026-040).
 
-- **f̄ = 2/π = 0.63662** — derived: winding time-average ⟨|cos|⟩ from many-turn equidistribution; coupling form data-selected (P-2026-041). The winding sim’s 0.635 ± 0.026 confirms it (+0.3%); it is not the source of f̄. **Derived — not a parameter, and not a simulation output.**
+- **f̄ = 2/π = 0.63662** — derived: winding time-average ⟨|cos|⟩ from many-turn equidistribution; coupling form data-selected (P-2026-041). The standing winding ensemble, 0.63137 ± 0.00328, sits **1.6σ** from it (−0.8%, the shortfall read as the expansion’s next term c_w·ε/2) — consistent, not a clean confirmation; and it is not the source of f̄. **Derived — not a parameter, and not a simulation output.**
 
 - **α_c = 3α** — pre-registered bet (P-2026-040), on the record before the α_c chain converges; ~2.3% above where current data point. Falsifiable; not retrofit. The instrument is **not currently running** (zon_disp collapsed; seed ready).
 

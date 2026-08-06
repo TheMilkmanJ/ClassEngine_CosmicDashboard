@@ -28,7 +28,7 @@ only if the lightest neutrino mass is direct-Majorana, seating it on the medium'
 conditional on the tie being a lock **and on an equal share per channel, which the framework does not
 force** — the ε-blind ensemble confirms the value at −0.08σ but at its width excludes neither 12/13
 nor the charge²-weighted 8/9, which sits 0.30σ away), f̄ (the winding
-average; fit-implied 0.6253, simulation 0.635, closed-form claim 2/π = 0.6366 — a live
+average; fit-implied 0.6253, standing winding ensemble 0.63137 ± 0.00328 (1.6σ), closed-form claim 2/π = 0.6366 — a live
 triple), and α_c = 3α (a pre-registered bet, P-2026-040, decided by the α_c instrument
 once it converges). **Do not say “zero free parameters” unless c, f̄, and α_c all hold.** Effective grade = weakest parent.
 
@@ -36,7 +36,7 @@ once it converges). **Do not say “zero free parameters” unless c, f̄, and �
 
 | factor | value | grade | note |
 |---|---|---|---|
-| **f̄** | 2/π = 0.6366 | **strengthened candidate** (not absolute closure) | winding ⟨\|cos\|⟩; sim 0.635 ± 0.026 is the check; residual: leading-order dominance unproved from un-built family-coupling Lagrangian |
+| **f̄** | 2/π = 0.6366 | **strengthened candidate** (not absolute closure) | winding ⟨\|cos\|⟩; the standing check is 0.63137 ± 0.00328, **1.6σ** from 2/π (~0.8% shortfall, read as the expansion's next term c_w·ε/2); residual: leading-order dominance unproved from un-built family-coupling Lagrangian, and c_w underived |
 | **c** | 9/10 | **counting assumption** | not forced; 8/9 and 12/13 still open at current ensemble width |
 | **α_c** | 3α | **registered bet** (P-2026-040) | ~2% above current data point; stack fails if this fails |
 

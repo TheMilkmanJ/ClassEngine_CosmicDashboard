@@ -149,8 +149,10 @@ running instrument:
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, set by the
 > winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):
 > mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
-> mean-absolute over the quadratic/RMS readings, and the fit (0.625) + sim (0.635) confirm 2/π,
-> rejecting RMS (0.707) at +13% — residual only "leading-order dominates";
+> mean-absolute over the quadratic/RMS readings, and the fit (0.625) + the standing winding
+> ensemble (0.63137 ± 0.00328, **1.6σ** from 2/π) sit consistent with 2/π while
+> rejecting RMS (0.707) at +13% — the ~0.8% shortfall reading as the expansion's next term
+> (c_w·ε/2), so the residual is "leading-order dominates" plus c_w itself;
 > - **α_c = 3α = d·α** — **the dark condensate fluid's** condensate coupling (α is its
 > Goldstone's — light *is* that Goldstone), the 3 being the spatial dimension d (second sound,
 > geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.

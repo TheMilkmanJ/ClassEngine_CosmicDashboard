@@ -36,8 +36,10 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
 
 - **ε = c · f̄ · α_c = (9/10)×(2/π)×3α = 27α/5π = 1.2543%** vs fitted ~1.24%. **Not “zero free
   parameters” until all three factors hold.** Grade = **weakest parent**:
-  - **f̄ = 2/π** — derived (winding ⟨|cos|⟩); sim 0.635 ± 0.026 confirms (+0.3%). The simulation is
-    the check, not the source.
+  - **f̄ = 2/π** — derived (winding ⟨|cos|⟩); the standing check is the high-statistics winding
+    ensemble, **0.63137 ± 0.00328 — 1.6σ from 2/π**, a ~0.8% shortfall read as the expansion's
+    own next term (c_w·ε/2, c_w of order unity but underived). Consistent, not a clean
+    confirmation. The simulation is the check, not the source.
   - **c = 9/10** — counting assumption (not framework-forced). Conditional on ρ_Λ¼ = m_ν as a lock
     and equal channel weights. ε-blind ensemble 0.903 (−0.08σ) does not exclude 12/13 or
     charge-weighted 8/9 (0.30σ away).
