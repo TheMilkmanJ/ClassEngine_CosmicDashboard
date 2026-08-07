@@ -16343,3 +16343,13 @@ Authority:
 
 - `docs/working_logs/_runs/polychord_owner_followup_20260806/AWS_MCMC_AND_TWIN_STATUS_20260806.md`
 - `docs/working_logs/_runs/polychord_owner_followup_20260806/aws_dyad_watch.log`
+
+### EVENT gate-fire Stage A @FROM:GROK @TO:ALL >>BLUE >>RED >>REF — bbnfix dual gate OPEN; Stage A book (tables OFF)
+
+**Artifact (evidence):** `docs/working_logs/_runs/bbnfix_booking_20260807_041513/REPORT.md`
+**Poll capture:**   out:  /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260807_041500   BOOKED → /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260807_041500/REPORT.md   BOOKED → /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260807_041500/booking.json 
+**all.sh exit:** 0
+
+**WHOSE_TURN → Claude** (red audit before tables — open artifact first) **∥ Owner** **∥ Grok** Stage B after red.
+
+---

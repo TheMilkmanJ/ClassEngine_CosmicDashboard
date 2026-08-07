@@ -1,0 +1,33 @@
+==========================================================================
+bbnfix GetDist booking gate
+  pair: ('dyad_mnu_bbnfix', 'cmp_lcdm_mnu_bbnfix')
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  out:  /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260807_041500
+==========================================================================
+  dyad_mnu_bbnfix: R−1 = 0.048118 < 0.05 (N=37605.0) — R−1 GRADED
+  dyad_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.048118 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+
+  Both graded. Running GetDist (ignore_rows=0.3) …
+  loading dyad_mnu_bbnfix …
+/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.1.txt
+/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.2.txt
+/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.3.txt
+Removed 0.3 as burn in
+    H0: 70.052 ± 0.716053  68% [69.35, 70.77]
+    m_ncdm: 0.0671427 ± 0.0582684  68% [0, 0.08204]
+    omega_b: 0.0227637 ± 0.000125527  68% [0.02264, 0.02288]
+    S8: 0.821363 ± 0.00965247  68% [0.8126, 0.8318]
+  loading cmp_lcdm_mnu_bbnfix …
+    H0: 68.3453 ± 0.343404  68% [67.99, 68.68]
+    m_ncdm: 0.0192058 ± 0.0173502  68% [0, 0.0231]
+    omega_b: 0.0224995 ± 8.64196e-05  68% [0.02242, 0.02259]
+    S8: 0.823628 ± 0.0081253  68% [0.8157, 0.8314]
+
+  BOOKED → /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260807_041500/REPORT.md
+  BOOKED → /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260807_041500/booking.json
+==========================================================================

@@ -1,0 +1,23 @@
+==========================================================================
+bbnfix GetDist booking gate
+  pair: ('dyad_mnu_bbnfix', 'cmp_lcdm_mnu_bbnfix')
+  bar:  R−1 < 0.05 on BOTH + self-stop (converged: true) on BOTH
+  refuse if either R−1 >= bar, missing progress, or not self-stopped
+  out:  /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260806_195254
+==========================================================================
+  dyad_mnu_bbnfix: R−1 = 0.086073 >= 0.05 (N=30417.0, t=2026-08-06T08:43:18.844629) — NOT READY
+  dyad_mnu_bbnfix: checkpoint converged: false — NOT READY (self-stop required)
+  dyad_mnu_bbnfix: checkpoint Rminus1_last=0.086073 (informational; gate uses progress R−1)
+  cmp_lcdm_mnu_bbnfix: R−1 = 0.049324 < 0.05 (N=26294.0) — R−1 GRADED
+  cmp_lcdm_mnu_bbnfix: checkpoint converged: true — self-stop OK
+  cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R−1)
+
+  REFUSED — booking blocked (gate closed).
+  Gate requires BOTH chains with R−1 < 0.05 AND converged: true.
+  No GetDist booking; no H₀ / Σm_ν / S8 quote; living docs unchanged.
+  No PRTOE_CHAIN_TABLES.md write; no bookable Laplace ΔlnZ under this stack.
+  Do NOT promote pre-bbnfix ΔlnZ ≈ +2.6 as the bbnfix-pair result.
+  Re-run: python3 scripts/book_bbnfix_when_ready.py
+==========================================================================
+  wrote refuse card: /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260806_195254/REPORT.md
+  wrote: /home/themilkmanj/prtoe_class/docs/working_logs/_runs/bbnfix_booking_20260806_195254/booking.json
