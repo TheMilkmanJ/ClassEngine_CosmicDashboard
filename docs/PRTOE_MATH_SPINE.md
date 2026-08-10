@@ -321,11 +321,11 @@ CONFIRMS, not decides.
 
 ## 5\. Recombination → today [the fitted era]
 
-m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SH0ES-conditional, and
-Laplace is where it stays — AWS nested sampling is live for the dyad evidence leg on the
-replacement `c7i.24xlarge` Spot box, but there is still no nested verdict; the repaired ΛCDM twin
-is only a waiting worker behind dyad, so the estimate still lacks its confirmer and its margin over
-the decision threshold is inside its own systematic);
+m_e shifted by ε = 1.24% inside the window (H₀ fix; the historical pre-bbnfix Laplace line is
+ΔlnZ = +2.635, SH0ES-conditional, while the **current booked old-BAO pair** is weaker at
+sample-covariance **ΔlnZ ≈ +0.21**; the gold DESI-DR2 four-leg nested referee is designed but not
+launched, so the estimate still lacks a nested confirmer and its margin over any decision threshold
+remains inside its own systematic);
 screening returns m_e → standard below z ≈ 50 [survival form S = exp[−(C²/C_ref²)^n_eff],
 n_eff ≥ 35]. Optional rotation-shed `dcdf_conv_g` — the matter component draining into dark
 radiation (S₈: minimizer picks g = 0.12, S₈ = 0.821 vs KiDS 0.814).

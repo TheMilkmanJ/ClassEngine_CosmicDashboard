@@ -2,7 +2,10 @@
 
 > ## Residual freeze — consistency stamp (2026-08-04)
 >
-> **COMPLETE-CONDITIONAL** on the relation + m_ββ window. **Not** a booked Σm_ν joint posterior (that is [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md) / OPEN-MACHINE: waits on `dyad_mnu_bbnfix` book).
+> **COMPLETE-CONDITIONAL** on the relation + m_ββ window. The booked old-BAO Σm_ν joint posterior
+> now lives at [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md) via the
+> `bbnfix_booking_20260808_005626` receipt; this file is still **not** the joint-posterior
+> authority.
 >
 > **Paper path:** this file is the **source note** for `papers/neutrino-mbb/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** and is the only ship artifact for the m_ββ window. **Fairbank HOLD:** owner submitted that package to William Fairbank 2026-08-03; **no arXiv post** claimed. Owner prep: [arxiv_owner_prep_20260804](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md). Full honesty package: [neutrino_full_honesty_20260804](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
 >
@@ -15,7 +18,12 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 
 Consolidates the model’s most experiment-facing claim block. Components range from recorded (Majoron structure, P-2026-012/020) to exploratory (ρ_inf closure, on review hold). Relevant tests: ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
 
-**Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path: **neutrino-mbb READY not posted** under Fairbank HOLD. Open: exact μ value, flavor-distribution calculation, next falsifiable Majoron consequence, ρ_inf closure; joint Σm_ν booking lives on home / bbnfix. This shelf file keeps the fuller mechanism and honesty context; the public short paper is the narrower `neutrino-mbb` package only.
+**Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path:
+**neutrino-mbb READY not posted** under Fairbank HOLD. Open: exact μ value, flavor-distribution
+calculation, next falsifiable Majoron consequence, ρ_inf closure; the booked old-BAO Σm_ν receipt
+lives on the home page, while DESI-DR2 remains the open machine lane. This shelf file keeps the
+fuller mechanism and honesty context; the public short paper is the narrower `neutrino-mbb`
+package only.
 
 ## 0. Claims
 
@@ -168,7 +176,7 @@ Still open:
 |---|---|---|---|---|
 | 1 | Majorana → 0νββ required (P-2026-020) | **registered** | §0 claim 1 | Detection above ceiling kills; null does not |
 | 2 | m₁ = ρ_Λ¼ = 2.25 meV (one number, two jobs) | **complete-conditional** / existence | §0 claim 2 | Does not derive 2.25; μ un-derived |
-| 3 | Σm_ν ≈ 61.35 meV normal ordering (relation) | **complete-conditional** | NuFIT + m₁; P-004 ordering | Not a discriminator vs floor (~2.6 meV); **≠ booked joint posterior** (home / bbnfix) |
+| 3 | Σm_ν ≈ 61.35 meV normal ordering (relation) | **complete-conditional** | NuFIT + m₁; P-004 ordering | Not a discriminator vs floor (~2.6 meV); booked old-BAO joint posterior lives on home / bbnfix, DESI-DR2 still open |
 | 4 | m_ββ ∈ [0.04, 5.3] meV | **machine-backed** | §3; phases free | Floor soft/coin-toss on θ₁₂; ceiling stable |
 | 5 | Funnel edge m₁* ≈ ρ_Λ¼ at centrals (~0.45%) | **machine-backed** arithmetic | `funnel_edge_identity.py` | ±0.24 meV θ₁₂ band → ~0.04σ; not precision coincidence |
 | 6 | Only nEXO overlaps ceiling; ~10.8% phase space | **machine-backed** / literature reach | experiment table | Ba tagging weakens discrimination |

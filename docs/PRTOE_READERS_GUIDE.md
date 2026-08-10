@@ -1,18 +1,18 @@
 # Reader’s guide — plain physics, no house dialect
 
-**Status (2026-08-06 currency):** glossary and reading map for outsiders — not a graded-claims
+**Status (2026-08-08 currency):** glossary and reading map for outsiders — not a graded-claims
 surface. For graded claims, evidence class (Laplace-marginal; nested sampling not yet decisive), kill
 conditions, and live risk posture, start with
 [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Live chain bookkeeping:
 [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
-> **Currency board (2026-08-05).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with
-> `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.049324** N=26294
-> t=2026-08-05T11:52:10 — control leg ready, `converged: true`; dyad R−1
-> **0.085619** @N=27525 t=2026-08-05T22:03:22 — **1.71×** stop, `converged: false`; pair still
-> **REFUSED**). Do not peek-book H₀ / Σm_ν / S₈ from live chains. BBN ε arithmetic is **verified
-> internal**; **external win pending DOI**. Numbers and gates live in RISK + CHAIN_TABLES; this
-> guide does not book posteriors.
+> **Currency board (2026-08-08).** The old-BAO production `bbnfix` pair is now **BOOKED** on the
+> dual-gate receipt, with SH0ES-conditional GetDist values recorded in
+> [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Evidence honesty on that booked pair is still
+> weak: sample-covariance Laplace **ΔlnZ ≈ +0.21**, not a nested-quality win. The **current live**
+> MCMC lane is DESI-DR2, and it is **not bookable** yet; the gold DESI-DR2 PolyChord program is a
+> four-leg design and is **not launched**. BBN ε arithmetic remains **verified internal**;
+> **external win pending DOI**.
 
 *Written for the newcomer and the external reviewer. Working documents in this repository use a
 compact internal vocabulary for the model's recurring objects; you do not need that dialect to
@@ -39,7 +39,7 @@ gives a reading order.*
 | house term | plain physics |
 |---|---|
 | the medium / the fluid | the superfluid scalar field (unified dark sector) |
-| the amplitude / ε | fractional electron-mass shift. Three numbers on purpose: **1.2543%** derived stack (c·f̄·α_c = 27α/5π), **1.232%** production-chain fit, **~1.24%** posterior summary. The 1.8% gap between derived stack and production fit sits inside the posterior width; production-chain posteriors will grade it **once those chains converge** (they have not yet) |
+| the amplitude / ε | fractional electron-mass shift. Three numbers on purpose: **1.2543%** derived stack (c·f̄·α_c = 27α/5π), **1.232%** production-chain fit, **~1.24%** posterior summary. The 1.8% gap between derived stack and production fit sits inside the posterior width; the old-BAO production pair is now booked, while the **current live DESI-DR2 pair** remains unconverged |
 | the dyad — **prefer “electron-coupled scalar”** (rename 2026-07-28; audience-facing files use the new name) | high-decay-constant pseudo-Goldstone that shifts m_e. One of three dark fields (dCDF superfluid, electron-coupled scalar, Majoron). Not the Majoron: merging them at f = v_L dies on the neutrino tie. Older docs used “dyad” for the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | quantized phase winding, set stochastically (Kibble) at condensation |
 | f_amp | medium’s **librating fraction**, 1 − f_rot (dice output, granule-contrast p²+q², beat √(f_amp(2−f_amp))). Older docs also used f_amp in ε = c·f_amp·Ψ₀/M_red; standing decomposition is ε = c·f̄·α_c with f̄ = 2/π |
@@ -94,12 +94,11 @@ Retired-era documents may use letters differently; those files carry banners.
 
 ## 4. What to be skeptical of
 
-- The statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and marginal
-  (pre-bbnfix stack). AWS nested sampling is up for the dyad evidence leg, but the current watcher
-  marks it **STALLED**, there is still no nested verdict, and the repaired ΛCDM twin is only a
-  waiting worker behind dyad. Production
-  bbnfix MCMC is live but **NOT bookable** (gate: both R−1 < 0.05 and self-stop) — see RISK and
-  CHAIN_TABLES; do not treat interim R−1 as a booked product.
+- The historical statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and
+  marginal (pre-bbnfix stack). The **current booked old-BAO pair** is weaker: sample-covariance
+  Laplace only **ΔlnZ ≈ +0.21** with soft modes. The **current live** DESI-DR2 MCMCs are **not
+  bookable**, and the gold DESI-DR2 four-leg nested program is **not launched**. Do not treat the
+  live DESI-DR2 R−1 values as booked products.
 - **A_s closed form** is a candidate (counting mechanism half-derived; frozen into the production
   configs by explicit decision, with the risk documented — not the output of a converged posterior).
   E2E Track A grades the imprint path separately; B2 tilt route is closed negative.

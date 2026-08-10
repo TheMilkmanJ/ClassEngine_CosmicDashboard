@@ -72,9 +72,10 @@ recombination the electron is the whole story:
  α_c = 3α (the registered bet, under MCMC test)
  *(the narrative decomposition this story once carried — c·f_amp·Ψ₀/M_red — was the road
  to the number, and the standing stack replaced it: THREE_EQUATIONS Eq. 3)*
- enters CLASS via **σ_T ∝ α²/m_e²** and binding ∝ m_e → shifts recombination
- → eases H₀ to 69.9 (provisional; the zero-parameter comparison is graded from the MCMC,
- with AWS nested sampling now live only for the sampled-ε dyad leg and no finished nested pair yet).
+enters CLASS via **σ_T ∝ α²/m_e²** and binding ∝ m_e → shifts recombination
+→ eases H₀ to 69.9 (historical fixed-ε figure; the booked old-BAO dyad later lands at
+ 70.052 ± 0.716, while the zero-parameter comparison is still graded from the MCMC and the gold
+ DESI-DR2 nested referee is not launched yet).
 
 ## ACT 6 — Structure formation: the screening
 The shift is ENVIRONMENTAL: full in smooth/diffuse gas (voids, IGM, the early

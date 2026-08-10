@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-08-10T03:49:55.407453+00:00",
+  "results": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "map_minuslogpost_chain": 1375.815,
+      "map_minuslogpost_model": 1375.6907961456125,
+      "d": 13,
+      "partial_hessian": false,
+      "regularized": false,
+      "min_eval": 4.702930000469898,
+      "max_eval": 554874001.301649,
+      "cond": 117984745.94480635,
+      "logdet_H": 145.52111902389908,
+      "logZ_hessian_laplace": -1436.5051547259013,
+      "formula": "logZ = -mlp + (d/2)ln(2\u03c0) - (1/2)ln det(H), H=\u2207\u2207 mlp"
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "map_minuslogpost_chain": 1378.7777,
+      "map_minuslogpost_model": 1378.6689867492346,
+      "d": 12,
+      "partial_hessian": false,
+      "regularized": false,
+      "min_eval": NaN,
+      "max_eval": NaN,
+      "cond": NaN,
+      "logdet_H": Infinity,
+      "logZ_hessian_laplace": -Infinity,
+      "formula": "logZ = -mlp + (d/2)ln(2\u03c0) - (1/2)ln det(H), H=\u2207\u2207 mlp"
+    }
+  },
+  "not_nested": true,
+  "delta_lnZ": Infinity
+}

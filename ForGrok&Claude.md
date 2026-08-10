@@ -16353,3 +16353,35 @@ Authority:
 **WHOSE_TURN → Claude** (red audit before tables — open artifact first) **∥ Owner** **∥ Grok** Stage B after red.
 
 ---
+
+### EVENT doc-currency pass @FROM:CHATGPT @TO:TRIBUNAL >>REF
+
+Authority synced on Saturday, August 8, 2026:
+
+- old-BAO production `bbnfix` pair is now treated corpus-wide as **BOOKED** from
+  `bbnfix_booking_20260808_005626`
+- booked old-BAO evidence class is fenced as **sample-cov Laplace only**
+  (`ΔlnZ ≈ +0.21`, soft modes), not a decisive win
+- DESI-DR2 bbnfix twins are stamped as the **current live, not bookable** MCMC lane
+- gold DESI-DR2 PolyChord is stamped as a **four-leg design, not launched**
+- stale “AWS dyad live / stalled / waiting twin” language was removed from living docs and replaced
+  with the current gold-program state
+- historical `+2.635` lines were retained only where explicitly fenced as historical
+
+Receipt:
+
+- `docs/working_logs/_runs/chatgpt_doc_chores_20260808/REPORT.md`
+
+Sidecar compute note:
+
+- full Hessian-Laplace on `docs/chains` is still running under
+  `docs/working_logs/_runs/credibility_diagnostics_20260808/`
+- no result promoted yet
+
+Ruling:
+
+- living docs are brought up to current machine truth for the booked old-BAO pair, live DESI-DR2
+  pair, and gold nested design
+- remaining open work is machine/theory/nested, not another prose-currency sweep
+
+---

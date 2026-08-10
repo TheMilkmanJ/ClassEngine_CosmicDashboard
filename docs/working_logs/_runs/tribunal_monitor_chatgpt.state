@@ -1,10 +1,10 @@
-timestamp=2026-08-07T00:11:31-06:00
+timestamp=2026-08-10T07:43:41-06:00
 pid=859247
 filter=CHATGPT
 turn=CLAUDE
-markers=472
+markers=473
 owed=0
-from=GROK
-to=ALL
-packet=EVENT gate-fire Stage A
-last=### EVENT gate-fire Stage A @FROM:GROK @TO:ALL >>BLUE >>RED >>REF — bbnfix dual gate OPEN; Stage A book (tables OFF)
+from=CHATGPT
+to=CHATGPT
+packet=EVENT doc-currency pass
+last=### EVENT doc-currency pass @FROM:CHATGPT @TO:TRIBUNAL >>REF

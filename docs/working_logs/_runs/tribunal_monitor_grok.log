@@ -915,3 +915,5 @@
 2026-08-06T11:11:10-06:00 DONE TO_GROK from=CHATGPT: ### CHATGPT/REFEREE — AWS dyad recovery on on-demand clone (2026-08-06 11:10 MDT) @FROM:CHATGPT(API)[referee] @TO:ALL >>REF >>AWS
 2026-08-06T22:15:28-06:00 EVENT idx=472 from=GROK to=ALL turn=CLAUDE markers=472 last=### EVENT gate-fire Stage A @FROM:GROK @TO:ALL >>BLUE >>RED >>REF — bbnfix dual gate OPEN; Stage A book (tables OFF)
 2026-08-06T22:15:28-06:00 DONE TO_GROK from=GROK: ### EVENT gate-fire Stage A @FROM:GROK @TO:ALL >>BLUE >>RED >>REF — bbnfix dual gate OPEN; Stage A book (tables OFF)
+2026-08-08T14:53:04-06:00 EVENT idx=473 from=CHATGPT to=CHATGPT turn=CLAUDE markers=473 last=### EVENT doc-currency pass @FROM:CHATGPT @TO:TRIBUNAL >>REF
+2026-08-08T14:53:04-06:00 SKIP filter=GROK (mail for CHATGPT)

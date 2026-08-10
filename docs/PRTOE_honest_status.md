@@ -15,33 +15,47 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-08-06)
+## CURRENT (2026-08-10)
 
 **Expansion fence.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
 expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
 the Standard Model; the domain is the diffuse cosmic medium. Same fence as
 [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md) / laws_and_rules / quantum attach notes. No TOE claim.
 
-**bbnfix pair — NOT bookable.** Live production pair + Route-D (MPI live). Authority is cobaya
-progress R−1 **and** checkpoint `converged: true`; offline GetDist GR is diagnostic only.
-`python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Surfaces
-`PRTOE_CHAIN_TABLES.md` / `PRTOE_CODE_MANIFEST.md` / `PRTOE_REFEREE_CALENDAR.md` all stamp the same
-gate. **No letter H₀ / Σm_ν / S₈ from live chains.** lcdm is now **self-stopped and individually
-ready** at R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10, `converged: true`), but the pair is
-still **NOT bookable** because dyad is **0.086073**@N=30417 t=2026-08-06T08:43:18
-(`converged: false`; **1.72×** stop — still moving the wrong way). routeD R−1 **0.351167**@N=14625 t=2026-08-06T09:24:48
-(~**3.51×** stop 0.1) — not dual-gate. Currency: shared blocker card
-`blocked_lane_bbnfix_20260805/REPORT.md`.
+**Old-BAO production bbnfix pair — BOOKED.** Authority is the dual-gate receipt
+[`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md):
+both legs hit cobaya progress **R−1 < 0.05** **and** checkpoint `converged: true`, then
+`python3 scripts/book_bbnfix_when_ready.py` booked the pair. Booked three-rank GetDist
+(`ignore_rows=0.3`, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**, `m_ncdm = 0.0671 ± 0.0583`,
+**S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**, `m_ncdm = 0.0192 ± 0.0174`,
+**S₈ = 0.824 ± 0.0081**.
 
-| chain | N (progress) | R−1 | stop | converged | bookable |
+| chain | N (receipt) | R−1 | stop | converged | bookable |
 |---|---:|---:|---:|---|---|
-| `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **NO** (control leg ready; pair gate still closed) |
-| `dyad_mnu_bbnfix` | 30417 | **0.086073** | 0.05 | **false** | **NO** (1.72× stop; still moving the wrong way) |
-| `cmp_prtoe_routeD` | 14625 | **0.351167** | 0.1 | **false** | **NO** (~3.51× stop) |
+| `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **YES** |
+| `dyad_mnu_bbnfix` | 37605 | **0.048118** | 0.05 | **true** | **YES** |
 
-GetDist offline max GR (`bbnfix_mcmc_watch_diag.py`): lcdm **~0.07**, dyad **~0.086** —
-diagnostic only; **not** the booking gate. Quote R−1 with N and timestamp. Temporary R−1 < 0.05
-without self-stop is **not** bookable, and one ready leg does **not** open the pair.
+**Evidence honesty on that booked pair:** the current old-BAO volume-aware sample-covariance
+Laplace is only **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸** on both legs. Better MAP by
+**Δ(min −logpost) ≈ −2.96** is *not* evidence. The old pre-bbnfix **ΔlnZ = +2.635** line is now
+historical, not the current booked-pair authority. FD Hessian Laplace **v1 failed**
+(`logZ=-inf` / singular Hessian —
+[HESSIAN_FD_20260810_REPORT](working_logs/_runs/credibility_diagnostics_20260808/HESSIAN_FD_20260810_REPORT.md));
+**v2 finished finite** both legs
+([`hessian_laplace_v2.json`](working_logs/_runs/credibility_diagnostics_20260808/hessian_laplace_v2.json):
+ΔlnZ_H ≈ **−1.18**, samplecov cross-check ≈ **+0.22**, huge condition numbers / regularized).
+**Diagnostic only — not nested, not a gold Bayes factor.**
+
+**DESI-DR2 bbnfix twins — BOOKED Stage A (separate instrument).** Authority:
+[`desidr2_bbnfix_booking_20260810_053127`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPORT.md):
+dyad R−1 **0.03321** @ N=53482 `converged:true`; lcdm R−1 **0.041377** @ N=52031 `converged:true`.
+GetDist (30% burn, SH0ES-conditional DESI stack): dyad **H₀ = 70.299 ± 0.541**,
+lcdm **H₀ = 68.729 ± 0.250**. **Do not mix with old-BAO BOOKED pair.** DESI FD Hessian Laplace
+launched on the idle 48-vCPU box (process receipt, not nested). routeD remains
+**OPEN-MACHINE** at **0.351167**@N=14625. On-demand EC2 quota is **300** vCPU (approved). Gold
+SH0ES PolyChord (2×96) is **live as process** (resume after Fortran stats-write fix)
+(`i-04ead482af737e7bf` dyad / `i-0e353f38544397a6d` lcdm); intermediate log(Z) **not bookable**.
+TRGB legs later when free vCPU ≥ 96. **No nested ΔlnZ yet.**
 
 **BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
 `papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
@@ -57,19 +71,10 @@ D4 freeze active — next unblock is **new microphysics**, not knob thrash. Pack
 model has nothing to say about θ̄; needing a strong-CP mechanism would kill the constitution. Not a
 derivation; not a paper candidate; not promoted.
 
-**PolyChord partial thaw.** Last watcher-authoritative AWS nested state had the dyad evidence leg
-(`cmp_prtoe_dyad_ev`) still **up** on the replacement `c7i.24xlarge` Spot box at `96` ranks but
-**STALLED** (no new live-point growth after **2026-08-06 02:21 MDT**). Since **2026-08-06 09:48 MDT**
-the watcher has only `EIC_KEY_FAIL`, and the local AWS CLI session is expired, so **current remote
-advancement is unknown** rather than confirmed dead. **No nested verdict is bookable yet.** The
-ΛCDM twin is no longer absent as a config path: `cmp_lcdm_ev.yaml` was repaired after a discovered
-`sampler: evaluate: null` drift and resynced to AWS, and the remote worker remains queued behind
-the dyad process. Owner timing on the AWS run is **3.68 s/call** for the dyad configuration.
-Evidence currently still grades from Laplace-from-MCMC (standing ΔlnZ = +2.635 — marginal,
-SH0ES-conditional) until the AWS dyad leg finishes and the ΛCDM twin runs on the same build.
-Current AWS note:
-`working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`. Archived laptop nested run:
-`chains/_archive_polychord_ended_20260720_0915/`.
+**PolyChord current state.** The practical nested path is the **gold DESI-DR2** program
+(SH0ES dyad/lcdm first; TRGB dyad/lcdm second). Quota is **300** on-demand vCPU (approved).
+SH0ES legs are **launching** as process; TRGB not yet. **No nested verdict is bookable yet.**
+Design notes: `working_logs/_runs/gold_desidr2_polychord_20260808/REPORT.md`.
 
 ### Residual theory board (2026-08-05 exhaust currency)
 
@@ -88,8 +93,8 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 | Forward \(A_{\omega_J}\) / seat | **EMPTY_CORPUS_SEAT** · Charge A holds |
 | Absolute SI \(G\) | **OPEN** — supertrace finiteness ≠ SI \(G\) |
 | Unitarized σσ (ρ_Λ precision) | **MISSING_INPUT** |
-| Machine bbnfix | **NOT bookable** |
-| PolyChord | **OPEN-MACHINE** — last good AWS dyad read = **STALLED**; watcher currently `EIC_KEY_FAIL`; no bookable nested verdict yet |
+| Machine bbnfix | **BOOKED** old-BAO Stage A · **BOOKED** DESI-DR2 Stage A (separate; do not mix) |
+| PolyChord | **OPEN-MACHINE / RUNNING** — SH0ES gold both legs live (resume); TRGB not launched; no bookable nested verdict yet |
 | Strong CP | **COMPLETE-ABSTENTION** |
 
 **What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-04**
@@ -168,18 +173,12 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
-- Evidence: the +2.635 Laplace win landed (below, unchanged) — and the Laplace is what the
-  verdict rests on. The original laptop nested attempt ended for machine-economics reasons; that
-  no longer settles the lane, because the current AWS follow-up has a live dyad evidence leg.
-  *That makes the MCMC chains the evidence calculation's only current graded input, while the nested
-  confirmer remains unfinished rather than absent.
-  As of 2026-08-05 (see CURRENT header above): bbnfix pair + routeD **live, NOT bookable**
-  (lcdm R−1 **0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged: true` — control leg ready /
-  dyad **0.085619**@N=27525 t=2026-08-05T22:03:22 — **1.71×** stop, `converged: false` /
-  routeD **0.257073**@N=11422 — ~**2.57×** stop; pair gate still closed);
-  conv_desi and zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
-  `cmp_prtoe_zon` is untouched since 07-12; AWS `cmp_prtoe_dyad_ev` PolyChord leg is **live** but
-  unfinished and unmatched by the ΛCDM twin.*
+- Evidence: the **historical** pre-bbnfix **ΔlnZ = +2.635** Laplace line landed, but the current
+  booked old-BAO pair is weaker: sample-covariance Laplace **ΔlnZ ≈ +0.21** with soft-mode
+  sensitivity. The original laptop nested attempt ended for machine-economics reasons; the current
+  practical nested path is the DESI-DR2 gold four-leg program, which is on disk but not launched.
+  *That makes the booked old-BAO pair the only current graded posterior receipt, while the current
+  DESI-DR2 MCMC stack and its intended nested confirmer remain unfinished.*
 
 ### What moved on 2026-07-18
 
@@ -382,12 +381,16 @@ likelihoods) converged. Result graded cold against the pre-committed gate:
   - scalar:  χ² = 2799.654 | Laplace lnZ = -1471.931 | H₀ = 69.82  (m_e fixed at 1.01232)
   - Δ χ² = -9.52 (scalar better) ; **Δ lnZ = +2.635 (Laplace, scalar favored)** ; Δ BIC ~ -9.5.
 
-**Verdict: the +2.5 win threshold is crossed (+2.635) — the first time — but heavily qualified:**
+**Verdict in that historical 2026-07-09 entry:** the +2.5 win threshold was crossed (+2.635) — the
+first time — but heavily qualified:
   1. Laplace, and the Laplace is where it stays until the nested pair finishes: margin over the line
      (+0.135) < the estimator's own systematic uncertainty ⇒ a marginal crossing on the approximate
      number. Only nested sampling makes it robust. At the time of this entry that was unaffordable
-     on this hardware (9.8 h per iteration); the current AWS nested pair is live separately, but no
-     nested verdict exists yet. Better-converged chains sharpen this number; they cannot promote it.
+     on this hardware (9.8 h per iteration). Current 2026-08-08 status is stricter than this
+     historical entry: the booked old-BAO pair's sample-covariance Laplace is only ≈+0.21, and the
+     practical nested referee is the DESI-DR2 gold four-leg program, still not launched. Better-
+     converged chains can sharpen the bookkeeping; they cannot promote this historical line into
+     the current evidence authority.
   2. SH0ES-conditional: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
      68.18→69.82) + ACT (~-3.8, high-l m_e). So the win rides on the H₀ tension being physical
      (Stage 0). SH0ES-as-systematic sinks it. The win and the single window are the same brick.
@@ -396,14 +399,17 @@ likelihoods) converged. Result graded cold against the pre-committed gate:
   4. Gate B caps it suggestive (f_amp partial-mover, Psi0 OOM-fixed); shot 1 survives (amplitude
      ontology un-derived). w=1/3 phase confirmed neutral (onset never moved) → kept, free.
 
-**Label: suggestive / SH0ES-conditional / Laplace-marginal win.** Best realistic outcome on the
-table, landed exactly at the line. Not decisive, not robust, not prediction-confirmed.
+**Historical label for that entry only:** suggestive / SH0ES-conditional / Laplace-marginal win.
+Best realistic outcome on the table, landed exactly at the line. Not decisive, not robust, not
+prediction-confirmed.
 
-The one lever that would move the evidence class hard is still a nested confirmation of the +2.6.
+The one lever that would move the evidence class hard is still a matching nested comparison; the
+current live design path is no longer a confirmation of +2.6 specifically, because the booked
+old-BAO pair now reads weaker than that historical line.
 At the time this section was written that lever was out of reach on the local hardware and the
-attempt there had been ended on 2026-07-20 at 9.8 h per iteration; current live nested status is
-the AWS dyad leg plus a waiting repaired ΛCDM twin on the same build, with no verdict yet. The two
-things that still sink it: SH0ES-as-systematic
+attempt there had been ended on 2026-07-20 at 9.8 h per iteration; the current 2026-08-08 nested
+status is different: the gold DESI-DR2 four-leg program exists on disk but is not launched, so
+there is still no nested verdict. The two things that still sink it: SH0ES-as-systematic
 (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
 grading in the private internal review record (defender "the number" turn).
 

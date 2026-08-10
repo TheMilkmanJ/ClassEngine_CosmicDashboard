@@ -47,9 +47,10 @@ environment half, one interaction and one signature at a time.
 - **The electron-coupled scalar**: one modification to known physics (m_e) → H₀ ≈ 69.9
  from the CMB fit (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval,
  S₈ at the KiDS-Legacy consensus. The H₀ figure is provisional — its evidence
- number is a Laplace estimate from the MCMC chains; the AWS nested dyad leg is now live,
- but no nested verdict exists yet and the ΛCDM twin is still waiting behind it, so the
- chains' convergence is what sharpens the currently graded number.
+ number is a Laplace estimate from the MCMC chains; the booked old-BAO pair now reads only
+ **ΔlnZ ≈ +0.21**, and the current nested referee is the gold DESI-DR2 four-leg design, not
+ launched, so the live DESI-DR2 chains remain the machine lane that can sharpen the currently
+ graded number.
 - **The deuterium row-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
  (Approximate coefficients, literature-grade — pulled from source; see

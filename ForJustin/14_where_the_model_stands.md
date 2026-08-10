@@ -73,11 +73,11 @@ earlier "≥ 6 days" was an inference from the schedule and one benchmark, and i
 factor of ~25. Archived to `chains/_archive_polychord_ended_20260720_0915/`; nested sampling returns
 when cluster time is bought.
 
-**What that does to the verdict.** It rests on Laplace-from-MCMC, as it did before the nested run was
-attempted. The standing ΔlnZ = +2.635 is unchanged and so are its qualifications — marginal,
-SH0ES-conditional — with one subtraction: it is no longer awaiting a confirmer. The consequence for
-the work is that the MCMC chains are the evidence calculation's only input rather than side referees,
-so **their convergence is the critical path for the headline claim**.
+**What that does to the verdict.** The historical +2.635 Laplace line is no longer the live
+authority. The old-BAO production pair later booked, and its current sample-covariance Laplace is
+only **ΔlnZ ≈ +0.21** — weaker, still SH0ES-conditional, still not nested-quality. The consequence
+for the work is that the **current** live DESI-DR2 MCMCs and the still-unlaunched four-leg gold
+PolyChord program are now the critical path for any headline evidence claim.
 
 One thing worth knowing separately: the `.stats` files sitting in `chains/` for these models are
 **minimizer** outputs (`nlive: 1`), not nested evidence. That is the correct provenance for a Laplace

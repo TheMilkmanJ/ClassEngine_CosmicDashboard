@@ -2,7 +2,7 @@
 
 Map of the live shelf. Files under [`exploratory/`](exploratory/README.md) (moved 2026-07-28) are still there and still worked on; they are just not what an outside reader is pointed at first. Nothing was deleted.
 
-## Live status stamp (2026-08-06)
+## Live status stamp (2026-08-08)
 
 Currency only — not a physics COMPLETE. Sources: `CHAIN_TABLES` freeze, shared blocker card `blocked_lane_bbnfix_20260805/REPORT.md`, `page_full_freeze_20260804`, `STRONG_CP_SEAT_HUNT`. Package: [`working_logs/_runs/docs_full_check12_20260805/`](working_logs/_runs/docs_full_check12_20260805/).
 
@@ -10,7 +10,7 @@ Currency only — not a physics COMPLETE. Sources: `CHAIN_TABLES` freeze, shared
 
 | Object | Status 2026-08-06 | Must not claim |
 |---|---|---|
-| **Production chains (bbnfix pair)** | **NOT bookable.** Progress: lcdm R−1 **0.049324** (N=26294, t=2026-08-05T11:52:10; `converged: true`; control leg ready), dyad R−1 **0.086073** (N=30417, t=2026-08-06T08:43:18; **1.72×** stop; `converged: false`); one ready leg does **not** open the pair, so `book_bbnfix_when_ready.py` still → **REFUSED**. GetDist GR diagnostic only. Route-D live R−1 **0.351167**@N=14625 t=2026-08-06T09:24:48 (~**3.51×** stop 0.1) — not dual-gate. Full table: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) · blocker card [`blocked_lane_bbnfix_20260805/REPORT.md`](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md) | Booked H₀ / Σm_ν / S₈; peek-book; GR-as-gate |
+| **Production chains (bbnfix old-BAO pair)** | **BOOKED.** Receipt: dyad **R−1 0.048118**@N=37605 `converged:true`, lcdm **0.049324**@N=26294 `converged:true`; three-rank GetDist is now on receipt for H₀ / `m_ncdm` / S₈. Evidence honesty: sample-cov Laplace only **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸**. Separate open lanes remain: DESI-DR2 bbnfix twins live and not bookable; Route-D live and not bookable. Full table: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) | A decisive evidence win; mixing booked old-BAO posteriors with live DESI-DR2 chains |
 | **BBN ε (2σ ceiling)** | **ARITHMETIC VERIFIED (internal)** — recompute **3.196%** ≈ paper **3.20%** PASS (`papers/bbn-eps-bound/`); **EXTERNAL WIN PENDING (no DOI)** | That this is a public external win, books posteriors, or closes bbnfix |
 | **Page curve / Q6** | **OPEN** — champion `coevolve_v13` joint near-miss; T8 range/S* = **0.113** (need ≤0.10) on **default offset-0 binning** (alternate phases can fail 2–3 bins, scan ratios **≥ 0.1330** over 400 phases — a scan bound, not a family maximum; does not lift pass); `page_curve_claimed: false`; no CANDIDATE; F1 ON. Freeze: [`page_full_freeze_20260804`](working_logs/_runs/page_full_freeze_20260804/REPORT.md) · qualifier: [`theory_residual_blue_20260805/PAGE_T8_BIN_PHASE_QUALIFIER.md`](working_logs/_runs/theory_residual_blue_20260805/PAGE_T8_BIN_PHASE_QUALIFIER.md) | Page closed; Q6 paid; CANDIDATE on v13 |
 | **Strong CP** | **COMPLETE-ABSTENTION** (θ̄ outside jurisdiction). Seat itch registered, not solved: [`STRONG_CP_SEAT_HUNT.md`](working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md) | θ̄ solution; reverse = Strong CP; axion replacement |
@@ -97,7 +97,7 @@ Engineering and process, not results.
 
 [math spine](PRTOE_MATH_SPINE.md) · [dependency tree](PRTOE_DEPENDENCY_TREE.md) ·
 [derivation hunt](PRTOE_DERIVATION_HUNT.md) · [referee calendar](PRTOE_REFEREE_CALENDAR.md) ·
-[domain coverage map](PRTOE_DOMAIN_COVERAGE.md) · [chain tables](PRTOE_CHAIN_TABLES.md) (live posteriors **NOT bookable** 2026-08-05) ·
+[domain coverage map](PRTOE_DOMAIN_COVERAGE.md) · [chain tables](PRTOE_CHAIN_TABLES.md) (old-BAO pair **BOOKED** 2026-08-08; DESI-DR2 lane still open) ·
 [reader’s guide](PRTOE_READERS_GUIDE.md) · [laws and rules](laws_and_rules/) · [working logs](working_logs/)
 
 **`#N` task numbers.** [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) maps each number to what it is and open/closed/waiting status. Reasoning lives in [`working_logs/_AUDIT_LEDGER.md`](working_logs/_AUDIT_LEDGER.md); kills in [`PRTOE_FAILURES_LEDGER.md`](PRTOE_FAILURES_LEDGER.md). Each claim’s own file is authority if they disagree.

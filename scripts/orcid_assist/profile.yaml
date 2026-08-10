@@ -1,0 +1,25 @@
+# Profile fields written via ORCID API after OAuth authorize.
+# No affiliation / no DOIs yet (2026-08-10). Park publications until arXiv/journal.
+# Optional keywords/other_names only when you run --apply.
+
+orcid_id: "0009-0003-8018-9869"
+
+# Optional display variants (safe; not an affiliation claim)
+other_names:
+  - "J. Pulford"
+  - "Justin Pulford"
+
+keywords:
+  - cosmology
+  - BAO
+  - Hubble tension
+  - neutrino mass
+  - BBN
+  - CMB
+
+# No employment until you have a real org (or choose to state independent)
+employment: {}
+
+educations: []
+
+urls: []

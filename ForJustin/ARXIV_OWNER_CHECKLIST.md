@@ -11,6 +11,7 @@ Living sources: `papers/<name>/`. Staged PDF+tarball: `docs/arXivReady/`. Hygien
 
 - Packages are **READY on disk** (6 TeX packages audit-clean; staged MD5 MATCH papers — re-verified 2026-08-04T18:14Z).  
 - **HOLD arXiv posts** until Fairbank replies on neutrino-mbb **or** you deliberately take a parallel archive path (astro-ph / Zenodo).  
+- **Current machine note (2026-08-08):** old-BAO production `bbnfix` pair later **BOOKED**; DESI-DR2 MCMCs and gold nested evidence remain open. This does **not** change the owner arXiv actions below.  
 - Desk will **not** post, email Fairbank, invent endorsement, or invent a second Fairbank TeX.  
 - **Do this next (one page):**  
   [`docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/OWNER_SHIP_NOW.md`](../docs/working_logs/_runs/fairbank_arxiv_trigger_20260804/OWNER_SHIP_NOW.md).  
@@ -134,7 +135,7 @@ Endorsement is **per archive**. Success on one does **not** open another. First 
 - Re-ran `scripts/arxiv_package_audit.py` → **6/6** clean; log at `_runs/fairbank_arxiv_trigger_20260804/arxiv_package_audit.log`.  
 - papers ↔ staged **tar + PDF MD5 MATCH** all six; pages 3/3/7/2/3/2.  
 - BBN recompute (papers + staged) **PASS** 3.196% ≈ 3.20% — dual stamp unchanged.  
-- bbnfix **still NOT bookable:** lcdm R−1 **0.071122** N=21886 · dyad R−1 **0.072286** N=21867 · gate REFUSED.  
+- At that **2026-08-04** trigger stamp, bbnfix was **still NOT bookable:** lcdm R−1 **0.071122** N=21886 · dyad R−1 **0.072286** N=21867 · gate REFUSED. This line is historical and is superseded by the 2026-08-08 booking note above.  
 - New owner one-pager: `OWNER_SHIP_NOW.md`; Zenodo bbn checklist only (no upload).  
 - **No** Fairbank contact · **no** arXiv post · **no** MCMC/PolyChord/H₀ peek.
 

@@ -85,3 +85,9 @@ scratch/SPARC_data_repo/
 python/external/
 tools/PRyMordial/
 ForClaude.txt
+
+# ORCID OAuth assist (secrets — never commit)
+scripts/orcid_assist/.env
+scripts/orcid_assist/token.json
+scripts/orcid_assist/.token_cache/
+scripts/orcid_assist/last_run_report.json

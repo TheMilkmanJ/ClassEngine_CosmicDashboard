@@ -4,73 +4,53 @@
 > Regenerated per run at its landing; the live pair and Route-D join
 > **at convergence only**. Means with 68% limits, 30% burn-in — and only then.
 
-> ## OPEN-MACHINE residual freeze — 2026-08-06
+> ## BOOKED old-BAO pair + open machine residuals — currency 2026-08-10
 >
-> **Status:** OPEN-MACHINE (ledger for production posteriors). **Bookable: NO.**
+> **Status:** the old-BAO production `bbnfix` pair is **BOOKED** under the dual gate. Authority:
+> [`bbnfix_booking_20260808_005626/REPORT.md`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md).
+> This is a Stage A receipt, not a substitute for any separate red-audited Stage B forward-table
+> publication path.
 >
 > **Authority gate (bbnfix pair only):** both legs must show cobaya progress
 > **R−1 < 0.05** *and* checkpoint **`converged: true`** (self-stop). Booking script only:
-> `python3 scripts/book_bbnfix_when_ready.py`. Diagnostic peeks
-> (`scripts/bbnfix_mcmc_watch_diag.py`) are **UNBOOKABLE** even when GetDist GR looks low.
+> `python3 scripts/book_bbnfix_when_ready.py`. Diagnostic peeks remain **UNBOOKABLE**.
 >
-> ### Live production status (stamp 2026-08-06; progress / checkpoints)
+> **Booked old-BAO pair (`ignore_rows=0.3`; SH0ES-conditional):**
 >
-> Three MPI production objects are **live**. The lcdm control leg has self-stopped; the pair is
-> still **NOT bookable** because dyad has not.
-> Cobaya `.progress` `acceptance_rate` is **oversampled** (`oversample_power = 0.4`) and
-> sits near ~0.98–1.0 even when the raw Metropolis accept rate is healthy; **use launchlog
-> accepted/steps** for the real accept rate when launchlog is current.
+> | chain | N | timestamp | R−1 | `converged` | H₀ | `m_ncdm` | S₈ |
+> |---|---:|---|---:|---|---|---|---|
+> | `dyad_mnu_bbnfix` | 37605 | 2026-08-07T04:08:52.190063 | **0.048118** | **true** | **70.052 ± 0.716** | **0.0671 ± 0.0583** | **0.821 ± 0.0097** |
+> | `cmp_lcdm_mnu_bbnfix` | 26294 | 2026-08-05T11:52:10.194879 | **0.049324** | **true** | **68.345 ± 0.343** | **0.0192 ± 0.0174** | **0.824 ± 0.0081** |
 >
-> Progress/checkpoint files **lag** chain `.txt` growth by hours until cobaya’s next R−1
-> write — normal; **not** a license to book.
+> **Evidence honesty on the booked old-BAO pair:** the volume-aware sample-covariance Laplace on
+> the exported `docs/chains/` bundle is **ΔlnZ ≈ +0.21**, not a headline win, with
+> **cond(Σ) ~ 10⁸** on both legs; the better MAP by **Δ(min −logpost) ≈ −2.96** is *not* evidence.
+> Authority: [`laplace_docs_chains_bbnfix_20260808/REPORT.md`](working_logs/_runs/laplace_docs_chains_bbnfix_20260808/REPORT.md)
+> and [LAPLACE_bbnfix_full.md](chains/LAPLACE_bbnfix_full.md). FD Hessian Laplace: **v1 failed**
+> (`logZ=-inf` — `credibility_diagnostics_20260808/HESSIAN_FD_20260810_REPORT.md`); **v2 finished
+> finite** both legs (`hessian_laplace_v2.json`, ΔlnZ_H ≈ **−1.18**, samplecov cross-check ≈ **+0.22**,
+> huge cond / regularized). **Diagnostic only — not nested, not gold evidence.** Sample-cov +0.21
+> remains the soft-mode-honest volume-aware label on this pair.
 >
-> Authority reconfirm (read-only): `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**.
-> Quote: **lcdm R−1 0.049324** (N=26294, t=2026-08-05T11:52:10) with checkpoint
-> `converged: true` — control leg ready, but **NOT bookable** by itself; **dyad R−1 0.086073**
-> (N=30417, t=2026-08-06T08:43:18 — **1.72×** stop; `converged: false`). routeD R−1
-> **0.351167**@N=14625 t=2026-08-06T09:24:48 (~**3.51×** its 0.1 stop; live chain — currency card: [`blocked_lane_routeD_20260805`](working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md)) — **not** dual-gate. GetDist offline GR
-> **~0.07 / ~0.086** (lcdm / dyad; prior diag) is **diagnostic only**.
-> Currency: booking refuse card
-> [`blocked_lane_bbnfix_20260805/REPORT.md`](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
+> **Separate open machine residuals (do not mix with the booked old-BAO pair):**
 >
-> | chain | ranks | N (progress) | R−1 last | stop | `converged` | progress accept | live? |
-> |---|---:|---:|---:|---:|---|---:|---|
-> | `dyad_mnu_bbnfix` (model, BBN-fixed) | **3** | 30417 | **0.086073** | 0.05 | **false** | 0.996 ⚠ oversampled | **YES** — t=2026-08-06T08:43:18 (**1.72×** stop) |
-> | `cmp_lcdm_mnu_bbnfix` (ΛCDM+mν twin) | **3** | 26294 | **0.049324** | 0.05 | **true** | 0.981 ⚠ oversampled | **YES** — t=2026-08-05T11:52:10 (control leg ready; pair still closed) |
-> | `cmp_prtoe_routeD` (thaw / no-bare) | **3** | 14625 | **0.351167** | 0.1 | **false** | progress col 0.997 ⚠ oversampled | **YES** — t=2026-08-06T09:24:48 (~**3.51×** stop) |
+> | lane | state | authority |
+> |---|---|---|
+> | `cmp_prtoe_routeD` (thaw / no-bare) | **OPEN-MACHINE** — R−1 **0.351167**@N=14625 t=2026-08-06T09:24:48; `converged:false`; ~**3.51×** its 0.1 stop | [`blocked_lane_routeD_20260805`](working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md) |
+> | DESI-DR2 bbnfix twins | **BOOKED (Stage A)** — dual-gate met: dyad R−1 **0.03321** @ N=53482 `converged:true`; lcdm R−1 **0.041377** @ N=52031 `converged:true`. GetDist (30% burn, SH0ES-conditional DESI stack): dyad **H₀ = 70.30 ± 0.54**, lcdm **H₀ = 68.73 ± 0.25**. Authority: [`desidr2_bbnfix_booking_20260810_053127`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPORT.md). **Do not mix with old-BAO BOOKED pair.** | AWS `i-096d08d2dc9d8f42c` |
+> | Gold nested evidence | **RUNNING (both SH0ES legs)** — resume after Fortran `read_write.F90` “Still Active” fix; intermediate log(Z) **not bookable**. TRGB not launched (quota: PC pair holds 192 of 300). | [`gold_desidr2_polychord_launch_20260810/`](working_logs/_runs/gold_desidr2_polychord_launch_20260810/) |
 >
-> **Diagnostics only** (`bbnfix_mcmc_watch_diag.py`, prior 2026-08-04T02:40 — **not bookable**):
+> **Do not mix instruments.** The booked old-BAO GetDist posteriors above are one stack. The
+> DESI-DR2 MCMCs are a separate live stack. The gold PolyChord program is the intended nested
+> referee for DESI-DR2 and has **no** result until both legs of a ladder pair finish.
 >
-> | measure | dyad | lcdm twin |
-> |---|---:|---:|
-> | crude max-param R−1 (burn 50%) | 0.0344 | 0.0203 |
-> | GetDist max GR (`ignore_rows=0.3`) | 0.0857 | 0.0721 |
+> ### Forbidden claims
 >
-> Crude param R−1 is optimistically low; GetDist GR is a better offline proxy.
-> Neither measure replaces cobaya self-stop.
->
-> Quote R−1 with N and timestamp. Temporary R−1 < 0.05 without `converged: true` is
-> **not** bookable, and one ready leg does **not** open the pair.
->
-> **Stop targets (from yaml):** dyad / lcdm `Rminus1_stop = 0.05`; routeD `Rminus1_stop = 0.1`.
-> Distances: lcdm twin **through** the stop and self-stopped; model **~1.72×**;
-> routeD ~**3.51×** its 0.1 stop.
->
-> **No GetDist posterior table exists for the three live runs** — they join this file only
-> after booking. Checklist: `docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md`.
->
-> ### What unblocks booking
->
-> 1. Both bbnfix legs self-stop (`converged: true`) with R−1 < 0.05.
-> 2. Run `python3 scripts/book_bbnfix_when_ready.py` (not the watch diagnostic).
-> 3. Route-D / zon_disp / conv_desi are separate instruments — not part of the bbnfix pair gate.
->
-> ### Forbidden claims (until gate)
->
-> - Booked H₀ / Σm_ν / Ω_b h² / S₈ posteriors from live chains
-> - Fake or interim GetDist H₀ tables inserted into this file
-> - Quoting the archive tables below as constraints
-> - Treating GetDist GR or crude param R−1 as the booking authority
+> - Treating historical archive tables below as current constraints
+> - Replacing the booked old-BAO pair with the live DESI-DR2 pair
+> - Quoting the booked pair’s better MAP as a win on evidence
+> - Inventing a nested verdict from the gold DESI-DR2 design files
+> - Treating GetDist GR or crude param R−1 as booking authority
 >
 > ### Archive / dead chains still tabulated below (not live)
 >
@@ -83,7 +63,7 @@
 >
 > ## ⚠ Read this before any 68% numbers below
 >
-> **None of the chains in the GetDist tables has converged, and the 68% limits are therefore
+> **None of the archive chains in the GetDist tables below has converged, and the 68% limits are therefore
 > not posterior intervals.** The numbers look like posterior summaries because they are
 > formatted as posterior summaries — they are run diagnostics only.
 >
@@ -157,17 +137,20 @@
 
 ---
 
-## Claims ledger & residual freeze (2026-08-05)
+## Claims ledger & residual freeze (2026-08-10 currency)
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Archive GetDist tables are diagnostics only (not posteriors) | **honest fence** | banner ⚠ section | R−1 never hit stop on those runs |
-| 2 | Live bbnfix pair bookable H₀ / Σm_ν tables | **OPEN-BLOCKED** | progress: dyad R−1=**0.086073**@N=30417 t=2026-08-06T08:43:18 (**1.72×**; `converged:false`); lcdm R−1=**0.049324**@N=26294 t=2026-08-05T11:52:10 (`converged:true`; control leg ready) | **OPEN-MACHINE:** wait dyad self-stop + `book_bbnfix_when_ready.py` |
-| 3 | Route-D thaw posterior | **OPEN-BLOCKED** | R−1=**0.351167**@N=14625 t=2026-08-06T09:24:48; ~**3.51×** stop 0.1 (currency card: `blocked_lane_routeD_20260805`) | **OPEN-MACHINE:** live, not bookable; not dual-gate |
-| 4 | conv_desi / zon_disp archive rows | **OPEN-BLOCKED** | dead instruments | Owner restart; not live |
+| 2 | Old-BAO production bbnfix pair booked under the dual gate | **machine-backed** | booking receipt `bbnfix_booking_20260808_005626`; three-rank GetDist H₀ / `m_ncdm` / S₈ values above | **OPEN-EVIDENCE:** sample-cov Laplace only; Stage B forward-table publication still needs red audit |
+| 3 | Sample-cov Laplace on booked old-BAO pair is inconclusive | **machine-backed** | ΔlnZ_Laplace **+0.211493**; cond(Σ) ~10⁸ both legs | **OPEN-NESTED:** not PolyChord; soft-mode sensitive; FD Hessian v2 finite but diagnostic only |
+| 4 | DESI-DR2 bbnfix pair Stage A booked (separate instrument) | **machine-backed** | `desidr2_bbnfix_booking_20260810_053127`: dyad R−1 **0.03321** / lcdm **0.041377**, both `converged:true`; GetDist H₀ **70.30±0.54** / **68.73±0.25**; sample-cov Laplace **ΔlnZ ≈ +1.38** (soft modes) | **Do not mix** with old-BAO; not nested; Stage B red still open; DESI FD Hessian in flight |
+| 5 | Route-D thaw posterior | **OPEN-BLOCKED** | R−1=**0.351167**@N=14625 t=2026-08-06T09:24:48; ~**3.51×** stop 0.1 | **OPEN-MACHINE:** not dual-gate |
+| 6 | conv_desi / zon_disp archive rows | **OPEN-BLOCKED** | dead instruments | Owner restart; not live |
+| 7 | Gold nested DESI-DR2 SH0ES PolyChord | **OPEN-MACHINE** | both 96-vCPU legs running (resume); intermediate log(Z) not bookable | No ΔlnZ until both legs finish cleanly; TRGB not launched |
 
-**Non-claims / forbidden:** no bookable posterior from this file; no invented H₀ table; no COMPLETE physics from tables alone.
+**Non-claims / forbidden:** no invented nested ΔlnZ; no mixing DESI-DR2 with old-BAO booked posteriors; no COMPLETE physics from Laplace alone; Stage A booking ≠ Stage B red-published tables.
 
-**Triage:** stay shelf as OPEN-MACHINE ledger. Physics ceiling: process record until booking gate fires.
+**Triage:** two Stage A GetDist receipts (old-BAO + DESI-DR2) are machine-backed; nested and Stage B red remain open.
 
 **Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

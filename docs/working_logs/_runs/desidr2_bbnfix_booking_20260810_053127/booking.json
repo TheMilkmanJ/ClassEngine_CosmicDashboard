@@ -1,0 +1,143 @@
+{
+  "stamp": "20260810_053127",
+  "pair": [
+    "dyad_mnu_bbnfix_desidr2",
+    "cmp_lcdm_mnu_bbnfix_desidr2"
+  ],
+  "instrument": "DESI-DR2 bbnfix",
+  "gate": {
+    "Rbar": 0.05,
+    "both_ready": true,
+    "reasons": [
+      "dyad_mnu_bbnfix_desidr2: R-1=0.03321 < 0.05",
+      "dyad_mnu_bbnfix_desidr2: converged true",
+      "cmp_lcdm_mnu_bbnfix_desidr2: R-1=0.041377 < 0.05",
+      "cmp_lcdm_mnu_bbnfix_desidr2: converged true"
+    ],
+    "legs": {
+      "dyad_mnu_bbnfix_desidr2": {
+        "progress": {
+          "N": 53482.0,
+          "timestamp": "2026-08-10T04:55:47.607730",
+          "acceptance": 0.993979,
+          "Rminus1": 0.03321,
+          "Rminus1_cl": "0.104213",
+          "raw": "53482.000000 2026-08-10T04:55:47.607730  0.993979  0.03321  0.104213"
+        },
+        "checkpoint": {
+          "converged": true,
+          "Rminus1_last": 0.03321047912419917
+        },
+        "ready": true
+      },
+      "cmp_lcdm_mnu_bbnfix_desidr2": {
+        "progress": {
+          "N": 52031.0,
+          "timestamp": "2026-08-09T01:19:08.800013",
+          "acceptance": 0.9948,
+          "Rminus1": 0.041377,
+          "Rminus1_cl": "0.142254",
+          "raw": "52031.000000 2026-08-09T01:19:08.800013  0.9948  0.041377  0.142254"
+        },
+        "checkpoint": {
+          "converged": true,
+          "Rminus1_last": 0.04137718644760448
+        },
+        "ready": true
+      }
+    }
+  },
+  "not_old_bao": true,
+  "booking": {
+    "dyad_mnu_bbnfix_desidr2": {
+      "n_samples_after_burn": 37438,
+      "marginals": {
+        "H0": {
+          "present": true,
+          "mean": 70.29862685206425,
+          "std": 0.5406195633632506,
+          "mean_pm_std": "70.2986 \u00b1 0.54062",
+          "limit68": [
+            69.72951581118168,
+            70.79398016938771
+          ]
+        },
+        "m_ncdm": {
+          "present": true,
+          "mean": 0.05077596676809632,
+          "std": 0.04726648487896854,
+          "mean_pm_std": "0.050776 \u00b1 0.0472665",
+          "limit68": [
+            0.0,
+            0.059837309
+          ]
+        },
+        "omega_b": {
+          "present": true,
+          "mean": 0.02277220973412984,
+          "std": 0.00011698777686858716,
+          "mean_pm_std": "0.0227722 \u00b1 0.000116988",
+          "limit68": [
+            0.0226480524326295,
+            0.022879125168680375
+          ]
+        },
+        "S8": {
+          "present": true,
+          "mean": 0.8232095136373291,
+          "std": 0.009393766092063256,
+          "mean_pm_std": "0.82321 \u00b1 0.00939377",
+          "limit68": [
+            0.81407688,
+            0.8324824
+          ]
+        }
+      }
+    },
+    "cmp_lcdm_mnu_bbnfix_desidr2": {
+      "n_samples_after_burn": 36422,
+      "marginals": {
+        "H0": {
+          "present": true,
+          "mean": 68.72895837221813,
+          "std": 0.249672533136954,
+          "mean_pm_std": "68.729 \u00b1 0.249673",
+          "limit68": [
+            68.479814,
+            68.97779
+          ]
+        },
+        "m_ncdm": {
+          "present": true,
+          "mean": 0.013831393310376007,
+          "std": 0.012770043668589756,
+          "mean_pm_std": "0.0138314 \u00b1 0.01277",
+          "limit68": [
+            0.0,
+            0.016272672
+          ]
+        },
+        "omega_b": {
+          "present": true,
+          "mean": 0.022521540820157834,
+          "std": 8.504728357627978e-05,
+          "mean_pm_std": "0.0225215 \u00b1 8.50473e-05",
+          "limit68": [
+            0.022437696,
+            0.022606772
+          ]
+        },
+        "S8": {
+          "present": true,
+          "mean": 0.8171967442721392,
+          "std": 0.007311608646638786,
+          "mean_pm_std": "0.817197 \u00b1 0.00731161",
+          "limit68": [
+            0.8102985583447496,
+            0.8248304216483487
+          ]
+        }
+      }
+    }
+  }
+}

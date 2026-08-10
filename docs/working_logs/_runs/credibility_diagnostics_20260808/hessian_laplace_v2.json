@@ -1,0 +1,87 @@
+{
+  "timestamp_utc": "2026-08-10T05:17:36.848700+00:00",
+  "method": "FD Hessian Laplace hardened (chain-std steps, adaptive shrink, boundary one-sided)",
+  "results": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "map_minuslogpost_chain": 1375.815,
+      "map_minuslogpost_model": 1375.6907961456125,
+      "d": 13,
+      "partial_hessian": false,
+      "regularized": true,
+      "ok_finite": true,
+      "min_eval": 0.4184759169640895,
+      "max_eval": 4184759169.640895,
+      "cond": 10000000000.0,
+      "logdet_H": 149.11781303866005,
+      "logZ_hessian_laplace": -1438.3035017332818,
+      "steps_used": {
+        "omega_b": 6.276248708837775e-06,
+        "H0": 0.03578501945769211,
+        "logA": 0.000704929659674341,
+        "n_s": 0.00015156630156179808,
+        "z_reio": 0.03660075505457068,
+        "dcdf_rho_inf": 0.0002714036847196051,
+        "varying_me": 0.0002512485527593761,
+        "A_planck": 9.191414553173361e-05,
+        "A_act": 9.94819217049067e-05,
+        "P_act": 0.00012868472957107104,
+        "Tcal": 0.00013369946685395608,
+        "Ecal": 0.0001674927599551474,
+        "m_ncdm": 0.00291295745990025
+      },
+      "step_frac": 0.05,
+      "formula": "logZ = -mlp + (d/2)ln(2\u03c0) - (1/2)ln det(H), H=\u2207\u2207 mlp (FD, stabilized)",
+      "samplecov_crosscheck": {
+        "logZ_samplecov_laplace": -1434.4796275021747,
+        "logdet_Sigma": -141.47006457644622,
+        "min_eval_Sigma": 1.793930105950582e-09,
+        "max_eval_Sigma": 0.5450329765314914,
+        "cond_Sigma": 303820630.8727312,
+        "regularized_Sigma": true
+      }
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "map_minuslogpost_chain": 1378.7777,
+      "map_minuslogpost_model": 1378.6689867492346,
+      "d": 12,
+      "partial_hessian": false,
+      "regularized": true,
+      "ok_finite": true,
+      "min_eval": 0.4982059049135251,
+      "max_eval": 4982059049.135251,
+      "cond": 10000000000.0,
+      "logdet_H": 138.97143944312967,
+      "logZ_hessian_laplace": -1437.1274440723435,
+      "steps_used": {
+        "omega_b": 4.322359881873533e-06,
+        "H0": 0.017184605752898957,
+        "logA": 0.0006835313606446467,
+        "omega_cdm": 3.8046457832422494e-05,
+        "n_s": 0.00015807237783131182,
+        "z_reio": 0.03506369410737969,
+        "A_planck": 9.440634746080959e-05,
+        "A_act": 0.0001004864720618479,
+        "P_act": 0.00012959818959702133,
+        "Tcal": 0.00013616965655104368,
+        "Ecal": 0.0001680505175299002,
+        "m_ncdm": 0.0008684977237396483
+      },
+      "step_frac": 0.05,
+      "formula": "logZ = -mlp + (d/2)ln(2\u03c0) - (1/2)ln det(H), H=\u2207\u2207 mlp (FD, stabilized)",
+      "samplecov_crosscheck": {
+        "logZ_samplecov_laplace": -1434.695995649598,
+        "logdet_Sigma": -134.1085425976387,
+        "min_eval_Sigma": 2.532523499201146e-09,
+        "max_eval_Sigma": 0.5050880815059156,
+        "cond_Sigma": 199440629.73758763,
+        "regularized_Sigma": true
+      }
+    }
+  },
+  "not_nested": true,
+  "delta_lnZ_hessian": -1.1760576609383406,
+  "delta_lnZ_samplecov": 0.2163681474232817,
+  "both_ok": true
+}

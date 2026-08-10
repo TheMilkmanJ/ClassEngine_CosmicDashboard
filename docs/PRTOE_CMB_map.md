@@ -4,7 +4,15 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 
 The cosmic microwave background carries three fields on the sky: temperature **T**, and two polarization patterns — **E** (gradient-like, parity-even) and **B** (curl-like, parity-odd). Correlating them gives six power spectra. This map states, for each: (1) the physical mechanism that sources it, (2) how PRTOE accounts for it, (3) the verdict.
 
-**Audience / status (2026-08-04).** Parity-even spectra (TT/TE/EE/lensing BB): **reproduced or inherited** in the pre-bbnfix MCMC / CosmicForge stack. Primordial BB: **free** (r free, like ΛCDM); chirality unobservable (Π ~ 10⁻⁷–10⁻⁸). TB/EB: **predicted zero** — kill-switch P-2026-009 (confirmed ≥5σ isotropic β kills the model as constituted). **m_e / H₀ shift: provisional pre-bbnfix** — the live bbnfix pair is **NOT bookable** (gate REFUSED; see CHAIN_TABLES). **~69.9 is a CosmicForge pre-bbnfix figure, not a chain-booked posterior.** Do not inflate the m_e detection into a closed win (see [PRTOE_hubble_tension.md](PRTOE_hubble_tension.md); graded risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md)).
+**Audience / status (2026-08-08).** Parity-even spectra (TT/TE/EE/lensing BB): **reproduced or
+inherited** in the pre-bbnfix MCMC / CosmicForge stack. Primordial BB: **free** (r free, like
+ΛCDM); chirality unobservable (Π ~ 10⁻⁷–10⁻⁸). TB/EB: **predicted zero** — kill-switch P-2026-009
+(confirmed ≥5σ isotropic β kills the model as constituted). The old-BAO production `bbnfix` pair
+is now **BOOKED**, but its evidence class is still only sample-covariance Laplace
+**ΔlnZ ≈ +0.21**, not a decisive win. The **current live** cosmology lane is DESI-DR2 and is
+**not bookable**. Do not inflate the m_e detection into a closed win (see
+[PRTOE_hubble_tension.md](PRTOE_hubble_tension.md); graded risk:
+[PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md)).
 
 The model does **not** re-derive acoustic physics from scratch — nobody does; it inherits the Boltzmann treatment (via CLASS) and adds its two ingredients: the **dCDF fluid** (the charged rotating superfluid acting as dark matter → dark energy) and the **varying electron mass m_e** (the electron-coupled scalar’s leptophilic coupling shifting recombination — quarks sit untouched, forced by the deuterium constraint rather than by a symmetry). For each spectrum the verdict is stated plainly: whether it is reproduced in the model’s MCMC fit, inherited from the standard physics the model shares, left free and inflation-dependent as in ΛCDM, or forced to zero as a falsifiable kill-switch.
 
@@ -18,7 +26,14 @@ The parity structure is the spine of the whole map:
 
 Before recombination, photons and baryons are one fluid. It falls into the gravitational potential wells set by the dark matter, compresses, pressure pushes back, it rarefies — **acoustic oscillations**. At recombination the pattern freezes. Compressions = hot spots, rarefactions = cold. Peak *positions* encode the geometry (sound horizon vs angular-diameter distance → Ω_total, H₀); peak *heights* encode baryon density (odd/even peak asymmetry) and dark-matter density. Add the Sachs–Wolfe redshift at last scattering, the late-time ISW from evolving potentials, and Silk (diffusion) damping at small scales.
 
-The dCDF fluid supplies the wells (it is matter-like, w≈0, at recombination). Baryons and photons are standard. The **varying m_e** shifts *when* recombination happens, which moves the damping tail and nudges peak positions/heights — this is the model’s specific fingerprint, and the pre-bbnfix MCMC / CosmicForge stack detected it at **+1.2% in m_e (~2.7σ)**, easing H₀ to ~69.9 (**provisional pre-bbnfix** — Laplace evidence; live bbnfix pair **NOT bookable**; ~69.9 is **not** a chain-booked posterior). TT is reproduced at ΛCDM quality under that stack; the m_e tweak is the live signal, not a closed win.
+The dCDF fluid supplies the wells (it is matter-like, w≈0, at recombination). Baryons and photons
+are standard. The **varying m_e** shifts *when* recombination happens, which moves the damping tail
+and nudges peak positions/heights — this is the model’s specific fingerprint, and the pre-bbnfix
+MCMC / CosmicForge stack detected it at **+1.2% in m_e (~2.7σ)**, easing H₀ to ~69.9
+(**provisional pre-bbnfix**). The newer old-BAO booked pair gives a SH0ES-conditional dyad
+posterior **H₀ = 70.052 ± 0.716**, but the evidence class is still only
+**ΔlnZ ≈ +0.21** and the **current live** DESI-DR2 stack is not bookable. TT is reproduced at
+ΛCDM quality under that stack; the m_e tweak is the live signal, not a closed win.
 
 ## 2. TE — temperature × E-mode
 

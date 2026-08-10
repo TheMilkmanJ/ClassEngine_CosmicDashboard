@@ -1,18 +1,30 @@
 # Neutrino home — the lightest-mass relation (2026-07-11)
 
-> ## Residual freeze — FULL honesty (neutrino home + Fairbank path) — 2026-08-05
+> ## Residual freeze — FULL honesty (neutrino home + Fairbank path) — 2026-08-08
 >
-> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on joint Σm_ν posterior · Fairbank path **HOLD** · m_ββ package **READY not posted**.
+> **Status:** old-BAO joint Σm_ν posterior **BOOKED** · DESI-DR2 joint Σm_ν posterior **OPEN-MACHINE** · Fairbank path **HOLD** · m_ββ package **READY not posted**.
 >
-> **1. Σm_ν joint waits on `dyad_mnu_bbnfix` book.** Live pair: model `dyad_mnu_bbnfix` (Σm_ν free) vs twin `cmp_lcdm_mnu_bbnfix`. Progress: dyad N=27525 **R−1=0.085619** (t=2026-08-05T22:03:22; **1.71×** stop; `converged: false`), lcdm N=26294 **R−1=0.049324** (t=2026-08-05T11:52:10; control leg ready; `converged: true`). Bookable **NO** — requires both progress R−1 < 0.05 **and** `converged: true`, then `scripts/book_bbnfix_when_ready.py`. Offline GetDist GR (~0.086 / ~0.07) is **diagnostic only**, never the gate. Double-duty conv_g (T3 item 2) rides unproduced `conv_desi` / early routeD, not desk. §2 minima table is **not** the joint posterior — **no invented posteriors**. Live authority: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
+> **1. Old-BAO joint Σm_ν is booked.** Authority:
+> [`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md).
+> Three-rank GetDist (`ignore_rows=0.3`, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**,
+> `m_ncdm = 0.0671 ± 0.0583`, **S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**,
+> `m_ncdm = 0.0192 ± 0.0174`, **S₈ = 0.824 ± 0.0081**. Evidence honesty: the booked old-BAO
+> sample-covariance Laplace is only **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸**.
 >
-> **2. Fairbank HOLD.** Experimental letter + hep-ph endorsement path paused at owner. This is an owner-controlled correspondence / endorsement path only; no second Fairbank TeX belongs to the ship path. Companion: [exploratory/PRTOE_fairbank_note_HOLD.md](exploratory/PRTOE_fairbank_note_HOLD.md). Draft letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md). Owner branch table: [arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md](working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md).
+> **2. DESI-DR2 joint Σm_ν is a separate live lane and is not bookable.** Current status
+> (2026-08-08 18:56 UTC): `dyad_mnu_bbnfix_desidr2` **R−1 = 0.108745**@N=21827,
+> `cmp_lcdm_mnu_bbnfix_desidr2` **0.140148**@N=22848, both `converged:false`. Gold nested evidence
+> is a **four-leg** DESI-DR2 PolyChord design (SH0ES dyad/lcdm + TRGB dyad/lcdm), **designed not
+> launched** while quota waits. Do **not** mix this lane’s future evidence with the booked old-BAO
+> posterior.
 >
-> **3. m_ββ package READY not posted.** `papers/neutrino-mbb/` + staged [arXivReady/neutrino-mbb](arXivReady/README.md) PDF+tarball are **READY_PACKAGE** (audit-clean). Owner submitted to William Fairbank 2026-08-03; packaging **paused**. **No arXiv post** until Fairbank reply / hep-ph endorsement (or owner-chosen parallel archive path). Inventory: [arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md](working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md). Full honesty package: [neutrino_full_honesty_20260804/REPORT.md](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
+> **3. Fairbank HOLD.** Experimental letter + hep-ph endorsement path paused at owner. This is an owner-controlled correspondence / endorsement path only; no second Fairbank TeX belongs to the ship path. Companion: [exploratory/PRTOE_fairbank_note_HOLD.md](exploratory/PRTOE_fairbank_note_HOLD.md). Draft letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md). Owner branch table: [arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md](working_logs/_runs/arxiv_owner_prep_20260804/OWNER_ACTION_WHEN_FAIRBANK_REPLIES.md).
 >
-> **What unblocks:** (machine) both bbnfix legs self-stop → `python3 scripts/book_bbnfix_when_ready.py` → bookable Σm_ν joint; conv_desi owner restart for double-duty. (owner) Fairbank reply → owner branch table → possible hep-ph post of **neutrino-mbb only**.
+> **4. m_ββ package READY not posted.** `papers/neutrino-mbb/` + staged [arXivReady/neutrino-mbb](arXivReady/README.md) PDF+tarball are **READY_PACKAGE** (audit-clean). Owner submitted to William Fairbank 2026-08-03; packaging **paused**. **No arXiv post** until Fairbank reply / hep-ph endorsement (or owner-chosen parallel archive path). Inventory: [arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md](working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md). Full honesty package: [neutrino_full_honesty_20260804/REPORT.md](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
 >
-> **Forbidden claims:** booked Σm_ν / H₀ from live chains; GetDist GR or crude param R−1 as gate; §2 minima as joint posterior; “posted to arXiv” without ID; second Fairbank TeX; H₀ ≈ 69.9 / “outperform” as result.
+> **What unblocks next:** (machine) DESI-DR2 twin dual gate, plus the four-leg gold nested launch when quota opens; conv_desi owner restart for double-duty. (owner) Fairbank reply → owner branch table → possible hep-ph post of **neutrino-mbb only**.
+>
+> **Forbidden claims:** mixing booked old-BAO posteriors with live DESI-DR2 chains; GetDist GR or crude param R−1 as gate; §2 minima as joint posterior; “posted to arXiv” without ID; second Fairbank TeX; H₀ ≈ 69.9 / “outperform” as result.
 >
 > **Blocked-lane audit:** shared `bbnfix` booking gate is frozen in
 > [blocked_lane_bbnfix_20260805/REPORT.md](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
@@ -24,7 +36,11 @@ Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full secto
 
 Third thread of the atomic-constant survey; collects the neutrino-sector relation. One registered prediction rides it (P-2026-023). Relative to standard cosmology, the model shifts the *inferred* neutrino mass upward, not down.
 
-**Status.** Lightest-mass relation and upward shift established in the model. Open: joint-fit consistency (**OPEN-MACHINE**, `dyad_mnu_bbnfix` book not ready 2026-08-06 — lcdm R−1 0.049324 with `converged:true`, dyad 0.085619 with `converged:false`, pair still refused), Fairbank HOLD + m_ββ READY not posted (owner/external), exact v_L branch selection, comparison with direct and oscillation bounds.
+**Status.** Lightest-mass relation and upward shift established in the model. Old-BAO joint-fit
+consistency is now **BOOKED** on the receipt above; the **current open machine lane** is DESI-DR2,
+not the old-BAO pair. Fairbank HOLD + m_ββ READY not posted remain owner/external, and exact
+`v_L` branch selection plus comparison with direct and oscillation bounds remain open theory/data
+questions.
 
 ## 0. Standard-cosmology tension
 
@@ -68,7 +84,7 @@ Standard cosmology pushes neutrino mass down. This model keeps it heavy enough t
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Neutrino mass medium-sourced (not ordinary Higgs Yukawa) | **interpretation** / structural | §1 | Inverse-seesaw / Majoron seating |
-| 2 | Model fit prefers m_ncdm ~0.07–0.09 eV (upward vs ΛCDM 0) | **machine-backed** provisional | §2 table; P-2026-023 | **OPEN-MACHINE:** joint `dyad_mnu_bbnfix` book **NO** (lcdm R−1=**0.049324**@N=26294 t=2026-08-05T11:52:10 with `converged:true`; dyad **0.085619**@N=27525 t=2026-08-05T22:03:22 with `converged:false`) |
+| 2 | Old-BAO joint posterior books an upward-shifted `m_ncdm` relative to ΛCDM | **machine-backed** | booking receipt; §2 table; P-2026-023 | **OPEN-MACHINE:** DESI-DR2 pair still live and not bookable |
 | 3 | Upward shift direction generic to varying-m_e | **interpretation** | §4 | Specific numbers are model’s |
 | 4 | Exact v_L derivation / branch selection | **OPEN** | status; T3 | Benchmark A: 5 MeV candidate; MeV vs high-v_L is CMB-S4 / leptogenesis, not desk |
 | 5 | CMB-S4 tests MeV-scale v_L corner (P-2026-025) | **registered** | §3 | High-v_L corner not accessible |
