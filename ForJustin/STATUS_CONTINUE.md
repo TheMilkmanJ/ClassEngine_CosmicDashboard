@@ -52,10 +52,10 @@ Authority: `docs/working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPOR
 - DESI sample-cov Laplace: **ΔlnZ ≈ +1.38** (`laplace_desi.json`) — soft modes (cond~10⁸); **not nested**; do not mix with old-BAO +0.21.  
 - DESI FD Hessian Laplace: **DONE** (15:57Z) — both finite; ΔlnZ_H ≈ **−24.8** vs samplecov **+1.46** (soft-mode fail). Prefer samplecov. JSON peeled: `hessian_laplace_desi.json`. **Stop 48-box to save cost when ready.**
 
-### Nested / quota
-- On-demand standard quota: **300** vCPU (approved); ~**240** in use (2×96 gold PC + 48 DESI Hessian).  
-- Gold SH0ES PolyChord (dyad+lcdm) **running** (resume after Fortran stats-write fix); intermediate log(Z) **not bookable**. TRGB legs **not launched** (need free ≥96 after PC pair holds 192).  
-- routeD still OPEN-MACHINE (not dual-gate pair).
+### Nested / quota / routeD
+- On-demand standard quota: **300** vCPU (approved). routeD 96 **stopped** after dual-gate. Gold PC 2×96 still allocated.  
+- **routeD BOOKED Stage A** (2026-08-10): N=39332, R−1=**0.0542**, `converged:true` (gate R−1&lt;0.1). H₀ **69.63±0.57**, thaw **0.048±0.033**. Receipts: `routed_booking_20260810` · `routed_peel_20260810`. **Not** bbnfix evidence.  
+- Gold SH0ES PolyChord: **stall confirmed** (dead=4595 frozen ~11h despite CPU load ~97); clean **re-resume** issued both legs. Intermediate log(Z) **not bookable**. TRGB **not launched**.
 
 ### Stage B / red (Claude offline — Grok carried red)
 - Old-BAO: **Stage B published** — `bbnfix_booking_20260808_005626/RED_AUDIT.md` (`red: AGREE`, auditor Grok) → living `PRTOE_CHAIN_TABLES.md` updated with three-rank tables.  
@@ -77,7 +77,7 @@ Prints letter sentence; **does not edit**. Prefer three-rank GetDist from bookin
 `page_curve_claimed: false`. Champion **coevolve_v13** — T1–T6 pass; **T8 fail** early worst-bin **0.113** (need ≤0.10) → **no CANDIDATE**. Theory walls still construction-only (no invent).
 
 ## Waiting on
-- **Machine:** gold nested finish; DESI Hessian JSON land; (optional) TRGB PC when vCPU free  
+- **Machine:** gold nested **after re-resume** — dead count must advance; if frozen 2h post re-resume, stop both PC boxes  
 - **Owner:** Fairbank / arXiv / Web of Science profile / BBN ε DOI  
 - **Theory:** Page T8 joint (new microphysics), bounce \(H_\mathrm{re}\), void, Koide residual, ω_J, DE occupancy — **not forced**  
 
@@ -85,6 +85,6 @@ Prints letter sentence; **does not edit**. Prefer three-rank GetDist from bookin
 
 ---
 
-## Receipt — 2026-08-10 currency (refresh)
+## Receipt — 2026-08-10 currency (refresh 2)
 
-STATUS: old-BAO **Stage A+B published** (Grok red); DESI-DR2 **Stage A + Grok red citation**; Hessian v2 done; DESI Hessian process; gold PC both legs live. No nested invent.
+STATUS: old-BAO Stage A+B; DESI Stage A; **routeD Stage A BOOKED**; Hessians done/stopped; gold PC stall→re-resume. No nested invent.

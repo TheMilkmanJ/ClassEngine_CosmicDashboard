@@ -1,0 +1,35 @@
+{
+  "result": "BOOKED",
+  "root": "cmp_prtoe_routeD",
+  "gate": "R-1 < 0.1 AND converged:true (routeD stop)",
+  "N": 39332.0,
+  "timestamp": "2026-08-10T17:59:45.393807",
+  "Rminus1": 0.054201,
+  "Rminus1_bounds": "0.178571",
+  "converged": true,
+  "mpi_size": 3,
+  "getdist_burn": 0.3,
+  "n_postburn": 27534,
+  "H0": {
+    "mean": 69.6258343393413,
+    "std": 0.5742564141839439
+  },
+  "dcdf_floor_thaw": {
+    "mean": 0.04755439454642488,
+    "std": 0.03273013272609164
+  },
+  "m_ncdm": {
+    "mean": 0.025138849140706476,
+    "std": 0.023132413876127005
+  },
+  "S8": {
+    "mean": 0.8182802426728197,
+    "std": 0.009753321271701025
+  },
+  "instance": "i-0c65cc61a575bdfa7",
+  "fences": [
+    "Route-D thaw fork \u2014 not dual-gate bbnfix evidence",
+    "Not nested PolyChord",
+    "Do not mix with old-BAO or DESI-DR2 bbnfix pairs"
+  ]
+}
