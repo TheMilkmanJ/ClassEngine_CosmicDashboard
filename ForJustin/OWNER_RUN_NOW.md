@@ -40,14 +40,16 @@ Still **not nested**. **Stop the 48-box** when convenient (MCMC booked + Hessian
 
 ---
 
-## 3) Still running (leave alone)
+## 3) Still running / machine
 
 | Job | Instance | Notes |
 |---|---|---|
-| Gold PC SH0ES dyad | `i-04ead482af737e7bf` 96 | nested sampling (resume) — leave alone |
-| Gold PC SH0ES lcdm | `i-0e353f38544397a6d` 96 | nested sampling (resume) — leave alone |
+| Gold PC SH0ES dyad | `i-04ead482af737e7bf` 96 | **re-resumed** after stall (dead was frozen 4595) — watch dead count |
+| Gold PC SH0ES lcdm | `i-0e353f38544397a6d` 96 | same |
+| Route-D | `i-0c65cc61a575bdfa7` 96 | **STOPPED** — dual-gate met; Stage A booked |
 
-Quota 300; ~192 in use if DESI 48 stopped (PC pair only). TRGB needs free ≥96.
+Quota 300; ~192 if only PC pair running. TRGB needs free ≥96.  
+Stall diag: `docs/working_logs/_runs/gold_pc_stall_diag_20260810/REPORT.md`.
 
 ### MCMC dual-gates (done)
 
@@ -55,6 +57,7 @@ Quota 300; ~192 in use if DESI 48 stopped (PC pair only). TRGB needs free ≥96.
 |---|---|
 | Old-BAO bbnfix | Stage A+B `bbnfix_booking_20260808_005626` |
 | DESI-DR2 bbnfix | Stage A `desidr2_bbnfix_booking_20260810_053127` + peel |
+| **Route-D thaw** | **Stage A** `routed_booking_20260810` + peel `routed_peel_20260810` (R−1&lt;0.1 gate) |
 
 Stage B old-BAO published (Grok red). Nested still open.
 

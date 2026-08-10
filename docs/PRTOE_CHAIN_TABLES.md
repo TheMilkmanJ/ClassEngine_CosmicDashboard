@@ -31,8 +31,8 @@
 >
 > | other lane | state |
 > |---|---|
-> | routeD | OPEN-MACHINE R−1 **0.351167**@N=14625 — not bookable |
-> | Gold SH0ES PolyChord | both legs **running**; intermediate log(Z) not bookable; TRGB not launched |
+> | **routeD** | **BOOKED Stage A** — N=39332, R−1=**0.0542**, converged — authority [`routed_booking_20260810`](working_logs/_runs/routed_booking_20260810/REPORT.md) · peel [`routed_peel_20260810`](working_logs/_runs/routed_peel_20260810/REPORT.md). H₀ **69.63±0.57**, `dcdf_floor_thaw` **0.048±0.033**. Gate was R−1&lt;0.1 (not 0.05). **Not** bbnfix evidence. Instance stopped. |
+> | Gold SH0ES PolyChord | **STALL CONFIRMED** then **clean re-resume** 2026-08-10 — dead frozen at 4595 ~11h; see [`gold_pc_stall_diag_20260810`](working_logs/_runs/gold_pc_stall_diag_20260810/REPORT.md). Intermediate log(Z) **not bookable**. TRGB not launched. |
 >
 > ### Forbidden claims
 >
