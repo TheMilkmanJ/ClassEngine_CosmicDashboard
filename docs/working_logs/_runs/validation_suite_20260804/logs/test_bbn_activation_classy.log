@@ -1,0 +1,25 @@
+CMD: python3 scripts/test_bbn_activation.py --classy
+START: 2026-08-04T03:24:16-06:00
+=== BBN activation (analytic upper bound) ===
+  a=1.000e-06  rho_phi/rho_r=2.754e-20  threshold=1.000e-02  [PASS]
+=== BBN activation (CLASS background table) ===
+Traceback (most recent call last):
+  File "/home/themilkmanj/prtoe_class/scripts/test_bbn_activation.py", line 138, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/themilkmanj/prtoe_class/scripts/test_bbn_activation.py", line 133, in main
+    rc = max(rc, test_with_classy())
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/prtoe_class/scripts/test_bbn_activation.py", line 85, in test_with_classy
+    bg = cosmo.get_background()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "classy.pyx", line 3186, in classy.Class.get_background
+    self.compute(["background"])
+  File "classy.pyx", line 578, in classy.Class.compute
+    raise CosmoSevereError(
+classy.CosmoSevereError: 
+
+Error in Class: Class did not read input parameter(s): use_prtoe, xi_prtoe, zeta_prtoe, sigma_prtoe, rho0_prtoe, gamma_prtoe, phi_c_prtoe, delta_phi_prtoe, V0_prtoe, lambda_prtoe, m_prtoe
+
+END: 2026-08-04T03:24:21-06:00
+EXIT: 1

@@ -1,0 +1,36 @@
+=== PROPOSAL: dark confining sector (dark-color), dark leptons paired at Lambda_dark ~ m_e ===
+
+TEST 1 -- does dark confinement SOURCE strong g_p? (dimensional transmutation)
+  A confining force has g(mu) -> O(1) at its scale Lambda_dark by construction (like QCD: alpha_s(Lambda)~1).
+  So g_p ~ g_c (condensation onsets just as g crosses critical) is NATURAL, not tuned. YES -- sources g_p~O(1).
+
+TEST 2 -- can the scale stay at m_e WITHOUT electron compositeness? (the clean-form requirement)
+  electron compositeness EXCLUDED below ~10 TeV (electron pointlike to ~1e-18 m).
+  a composite ELECTRON at Lambda~m_e is excluded by 7 orders -> electron must stay elementary.
+  RESOLUTION: the constituent is a DARK lepton (m_dark ~ m_e by a lepton-dark symmetry, the dyad link),
+  NOT the electron. Lambda_dark ~ m_dark ~ m_e is then forced by degeneracy; the electron stays pointlike.
+  -> the clean form rho_L^1/4 = (9/2)a^4 * Lambda_dark * tau = (9/2)a^4 m_e tau is PRESERVED. YES.
+
+TEST 3 -- is tau_dark ~ 0.34 natural for a confining sector?
+  QCD-like ratios: T_c(chiral)/Lambda ~ 0.1-0.2; T_deconf/Lambda ~ 0.3-0.7 depending on N_c,N_f.
+    QCD T_c/f_pi~              0.15
+    SU(N) deconf T_c/Lambda~   0.3-0.5
+    conjecture 1/d=            0.333
+  tau_needed = 0.345. It sits INSIDE the QCD-like strong-coupling band. Natural, not pinned.
+
+TEST 4 -- FALSIFIABLE consequences (the price of new physics):
+  dark leptons/hadrons at m_dark~m_e~511 keV: at BBN (T~1 MeV > m_dark) they are RELATIVISTIC
+  -> contribute to N_eff. Dark-color d.o.f. add Delta_N_eff ~ O(1) unless the dark sector is COLDER
+     (decoupled early, T_dark < T_gamma). Constraint: Delta_N_eff < ~0.3 (CMB+BBN).
+  => REQUIRES the dark sector to be significantly colder than the photon bath (T_dark/T_gamma < ~0.5).
+     This is a SHARP, testable condition -- CMB-S4 N_eff and BBN directly probe it. Falsifiable.
+  Also: dark hadrons ~ m_e-scale = a dark-matter candidate; dark-photon/dark-color signatures.
+
+=== VERDICT (honest) ===
+The dark-confining-lepton proposal WORKS as a hypothesis: (1) dark confinement SOURCES strong g_p
+by transmutation (fills the gap hunt 221 found); (2) a dark lepton degenerate with the electron keeps
+Lambda_dark~m_e WITHOUT electron compositeness -> PRESERVES the clean (d/2)a^4 m_e form; (3) tau_dark
+~0.34 sits in the natural QCD-like band. It is NEW PHYSICS (not derived) but COHERENT and FALSIFIABLE
+(N_eff demands a cold dark sector; dark hadrons/leptons at ~m_e). The residuals: tau_dark (a
+strong-coupling ratio, ~natural) and the lepton-dark degeneracy mechanism (why m_dark~m_e).
+This converts 'unsourced strong coupling' into a concrete, testable dark-sector proposal.

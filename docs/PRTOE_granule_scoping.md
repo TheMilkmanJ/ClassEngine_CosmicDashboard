@@ -1,5 +1,15 @@
 # The Granule-Meter Scoping Study & The Mass Pin (2026-07-07)
 
+> ## OPEN-MACHINE residual freeze — 2026-08-04
+>
+> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on SP dynamics campaign + data confrontation.
+>
+> **Machine residual waiting:** (1) real Schrödinger–Poisson sim campaign (PyUltraLight/UltraDark-class) for dynamical χ-lag and core-halo scatter — minimal SP attempt **failed to condense**; not started as production. (2) Dwarf/stream data confrontation of core-halo pattern. Statistical core (S formula) is **DONE**; this is infrastructure debt, not desk invention. No MCMC dependency for the S formula itself.
+>
+> **What unblocks:** owner-scoped SP sim campaign with careful ICs + convergence → dynamical χ-lag demo → core-halo scatter prediction → population data confrontation (N≳30 dwarfs / Rubin-era).
+>
+> **Forbidden claims:** mass pin from this dated scan; dressing failed minimal sim as a null result against the theory; quoting era-band masses as the recorded pin (m now 2.24×10⁻²⁰ eV elsewhere).
+
 > *The current conditionality of every claim is tracked in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
@@ -162,10 +172,11 @@ unconverged; Gaussian density approximation; prior-width dependent
 physical, from quasar/BBN-adjacent bounds, and must be defended as
 such when quoted). Nested sampling remains necessary for the NON-nested
 comparisons and as the S-D cross-check; it is no longer the only route
-to an evidence number — **and that matters more than it did.** [2026-07-20: nested
-sampling is deferred to cluster time, so Savage–Dickey on a converged chain is
-the evidence route in hand for the nested case, and its caveats above are the
-ones that must be defended rather than waited out.]
+to an evidence number — **and that matters more than it did.** [2026-07-20:
+the local nested route was being deferred to cluster time; current live nested
+status is the AWS dyad leg plus a waiting repaired ΛCDM twin on the same build,
+so Savage–Dickey on a converged chain remains the evidence route in hand while
+the nested denominator is still unfinished.]
 
 ## Granule-power formula confirmed (Tier-3 partial, 2026-07-07)
 
@@ -211,3 +222,20 @@ Tier-3 honest state:
  confrontation: not done, needs a real SP sim campaign
  (PyUltraLight/UltraDark-class, careful ICs, convergence) = genuine
  infrastructure beyond a single working session.
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Granule power S = (1+f_rot²)/2 | **machine-backed** / null-hardened | numerical <1% | Meter structure survives mass re-pin |
+| 2 | Mass band in this file is dated; m now 2.24×10⁻²⁰ eV | **honest fence** | reading rule banner | Numbers are era’s; structure survives |
+| 3 | Meter is population statistic (N≳30 dwarfs) | **estimate** | §2 feasibility | Rubin-era program |
+| 4 | Minimal SP sim failed to condense | **failed** (minimal attempt) | Tier-3 | Real campaign owed |
+| 5 | χ-lag scaling (p²/q²)² analytic | **derived** (Levkov) | Tier-3 | Not dynamically demonstrated |
+| 6 | Core-halo scatter + data confrontation | **OPEN-BLOCKED** | Tier-3; freeze 2026-08-04 | **OPEN-MACHINE:** SP sim campaign not started |
+
+**Non-claims / forbidden:** not a mass pin from this scan; not dressed-up failed sim; not “sim proves null.”
+
+**Triage:** elevate-in-place (dated scoping). Physics ceiling: S formula; campaign **OPEN-BLOCKED** (2026-08-04).

@@ -75,6 +75,6 @@ cost is deferred not paid.*
 ## Sources
 
 Standard: the Newtonian energy-balance derivation of Friedmann (Milne–McCrea); the continuity
-equation as the first law. Internal: induced gravity ([PRTOE_quantum_gravity.md](../PRTOE_quantum_gravity.md)),
+equation as the first law. Internal: induced gravity ([PRTOE_induced_gravity.md](../PRTOE_induced_gravity.md); [PRTOE_quantum_gravity.md](../PRTOE_quantum_gravity.md)),
 the preferred-frame cost ([PRTOE_LV_pricing.md](../PRTOE_LV_pricing.md)), the DE floor it does *not*
 change ([PRTOE_cosmological_constant.md](../PRTOE_cosmological_constant.md)).

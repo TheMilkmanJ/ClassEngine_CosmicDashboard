@@ -366,3 +366,10 @@ that clears the BBN fence clears the escape window several times over.
 What stays conditional is the *value* of T_c — the standing 177.10 keV is gated on a lattice
 T_c/√σ for SU(2) with N_f = 3, and the perturbative route is scale-ambiguous by its own admission
 — not its decade. The escape needs only the decade.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation

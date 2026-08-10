@@ -1,0 +1,28 @@
+==============================================================================
+The anchor band's error budget — who actually drives it
+==============================================================================
+
+   amplification: ∂lnM/∂lnk = ∂lnM/∂lnα_c = 1/(kα_c) = 33.47
+   bare anchor (no O(λ)): 1.576 TeV;  fully corrected: 0.541 TeV
+
+   input                    spread in          effect on M        share
+   shared k (measured)      ±0.47%             ±16%              minor
+   α_c = 3α (under test)    exact if identity   ±33·δlnα_c        zero if exact
+   the −3/2 (derived)       exact               none               zero
+   m_H (measured, via 4π)   ±0.1%              ±0.1%              negligible
+   O(λ) correction scheme   e^0 … e^−(c+a)      ×3.2 full band     DOMINANT
+
+READ
+  1. The band (0.55–1.78 TeV, ×3.2) is NOT an unpinned-O(1) vibe —
+     the O(1)s are evaluated. The band is the honest spread between the
+     uncorrected and fully-corrected first-order treatments: a
+     perturbative-control statement, the same class as the dark-energy
+     quartic's control edge.
+  2. The measured k contributes only ±16% — the triple determination
+     already did its job. Nothing on the desk tightens the band further:
+     what would is the next perturbative order or a nonperturbative
+     treatment of the pairing (named, not owed to any current thread).
+  3. α_c = 3α is the live-bet input: the running chains test it, and a
+     confirmed shift δ would move the anchor by 33·δ — the anchor is
+     downstream of the chains, another reason they matter.
+==============================================================================

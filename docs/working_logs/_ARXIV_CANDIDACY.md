@@ -15,7 +15,26 @@
 > Prefer claims a referee can check without the full framework. Multi-problem hub documents
 > and ledger/history objects never ship.
 
+> **2026-08-03 re-audit.** New **PAPER_CANDIDATE** count from top-level `docs/` = **0**.
+> All borderline COMPLETE files rechecked and **REJECTED** (LV, H0 ceiling, stability, GW
+> nulls, direct/indirect detection, lab cousins, coincidence, 2loop Veff, CMB map, entropy,
+> strong_cp, forced_combination, Fairbank, QG remainder, fingerprint, baryogenesis,
+> information, arrow, no-singularities, exploratory). No new short papers invented.
+> **neutrino-mbb:** owner submitted to William Fairbank — packaging work paused; do **not**
+> invent a second Fairbank TeX (`papers/fairbank-0nubb/` stays README-only).
+> Package hygiene (same day): supertrace **SHIPPED**; radio-lattice (7 pp), lattice-tc-gap,
+> bbn-eps-bound (optional dense ε_max(T_c) residual), kination-tracking-note (2 pp) all
+> **READY_PACKAGE**. Staging shelf `docs/arXivReady/` refreshing to include the three newer
+> packages alongside the original three.
+
 ---
+
+
+> **2026-08-03 evening — derivation EXIT GATE.** Seats agree: **no desk-runnable derivations remain**
+> (`DERIVATION_EXHAUSTION_MAP.md`: 42 blocked / 28 paid). arXiv-ready pass P1–P2:
+> packages 6/6 clean; docs grade CORPUS_ONLY 43 / NOT_READY 24 / **new PAPER_CANDIDATE 0**.
+> Detail: `_runs/arxiv_ready_pass_20260803/`. No new short paper without new closed science.
+> Derivation hunting **stopped** unless a new missing derivation is discovered during file work.
 
 ## Status values
 
@@ -40,7 +59,7 @@ re-audited by `scripts/arxiv_package_audit.py` → [`_PACKAGE_AUDIT.md`](_PACKAG
 | **Status** | **SHIPPED** | **READY_PACKAGE** | **READY_PACKAGE** | **READY_PACKAGE** | **READY_PACKAGE** |
 | **Title** | Two gravitational counting conditions for three generations are the same condition | If the lightest neutrino mass is the dark-energy scale: a narrow window for neutrinoless double-beta decay | A ratio-locked radio signature of a universal shift in the electron mass | A well-posed gap in the two-color lattice literature: T_c/√σ for SU(2) with N_f=3 light fundamental flavours | Primordial helium bounds on a leptonic electron-mass transition inside the BBN window |
 | **Category** | gr-qc | hep-ph | astro-ph.CO (+ .IM) | hep-lat (optional hep-ph) | astro-ph.CO |
-| **Pages / PDF** | **3** pp | **3** pp | **6** pp | **2** pp | **3** pp |
+| **Pages / PDF** | **3** pp | **3** pp | **7** pp | **2** pp | **3** pp |
 | **`submission/` contents** | `main.tex` alone | `main.tex` + `main.bbl` | `main.tex` + `main.bbl` | `main.tex` alone | `main.tex` alone |
 | **Tarball** | `supertrace-note.tar.gz` | `neutrino-mbb.tar.gz` | `radio-lattice.tar.gz` | `lattice-tc-gap.tar.gz` | `bbn-eps-bound.tar.gz` |
 | **Live BibTeX `note =`** | n/a (inline) | **none** | **none** | n/a (inline) | n/a (inline) |
@@ -60,8 +79,8 @@ re-audited by `scripts/arxiv_package_audit.py` → [`_PACKAGE_AUDIT.md`](_PACKAG
 **Verdict on TeX packages:** all five with `main.tex` are technically clean (PRTOE / note-field
 greps clean; tarballs present). Content holds closed except optional dense ε_max(T_c) curve on
 bbn-eps-bound (bound currently at measured T_c). Remaining blockers are endorsement-only.
-Staged copies under `docs/arXivReady/` mirror the original three; newer packages live under
-`papers/` until staged.
+Staged copies under `docs/arXivReady/` are being refreshed (2026-08-03) to cover all six
+packages with `main.tex` (original three + lattice-tc-gap, bbn-eps-bound, kination-tracking-note).
 
 ---
 
@@ -80,8 +99,9 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 3 |
 | **Main claim** | Navarro-Salas anomaly cancellation and Pauli/Visser finiteness are the *same* constraint once conventional scalars drop out (N₀ = 0 or ξ = 1/6); they differ on the Higgs sector. |
 | **Blockers** | None for public record (Zenodo live). arXiv optional: gr-qc endorsement. |
+| **Red-team hardening (2026-08-02/03)** | Framed as literature *comment*, not discovery; ξ=1/6 called out as extra naturalness input; Pauli mass m^{2k} sum rules distinguished from curvature-weighted str[k₁]. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
-#### 2. `papers/neutrino-mbb/` — **READY_PACKAGE**
+#### 2. `papers/neutrino-mbb/` — **READY_PACKAGE** *(owner → Fairbank 2026-08-03)*
 
 | | |
 |---|---|
@@ -89,7 +109,8 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Category** | hep-ph |
 | **Pages** | 3 |
 | **Main claim** | Under the hypothesis m₁ = ρ_Λ¼ ≃ 2.25 meV + normal ordering + NuFIT mixings, m_ββ ∈ [0.04, 5.30] meV; useful statement is the upper edge vs minimal-ordering ceiling 3.69 meV. |
-| **Blockers** | **hep-ph endorsement only.** Optional owner note (not a hold): lower edge knife-edge under NuFIT 1σ — already stated in prose. |
+| **Blockers** | **hep-ph endorsement** still the arXiv gate. **Owner submitted package to William Fairbank (2026-08-03)** — further packaging work **paused** pending that thread. Do not invent a second Fairbank TeX. Optional residual (not a hold): lower edge knife-edge under NuFIT 1σ — already stated in prose. |
+| **Red-team hardening (2026-08-02/03)** | Coincidence stated as hypothesis not evidence; lower edge fragile/unprotected; nEXO overlap probability ~10.8% explicit; cosmology graded first. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 #### 3. `papers/radio-lattice/` — **READY_PACKAGE**
 
@@ -97,9 +118,10 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 |---|---|
 | **Proposed title** | A ratio-locked radio signature of a universal shift in the electron mass *(final)* |
 | **Category** | astro-ph.CO primary, astro-ph.IM cross-list |
-| **Pages** | 6 |
+| **Pages** | 7 |
 | **Main claim** | A universal m_e shift imprints five radio observables at fixed weights +2:+1:−1:−1:−2; pattern discriminates from varying-α by sign arithmetic; only 21 cm + Faraday presently measurable (σ_ε = σ/√8). |
 | **Blockers** | **astro-ph endorsement only.** DM demotion written into text; methanol tighter amplitude bound stated; no novelty claim for SZ methods. |
+| **Red-team hardening (2026-08-02/03)** | Methanol ~35× tighter is front-loaded; two rows only; DM degeneracy; synchrotron −1/−3 convention; template not survey; ε free / no mechanism. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 #### 4. `papers/lattice-tc-gap/` — **READY_PACKAGE** *(promoted from PAPER_CANDIDATE 2026-08-02)*
 
@@ -110,6 +132,7 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 2 |
 | **Main claim** | No published T_c/√σ exists for SU(2), N_f=3 light fundamentals; the calculation is conventional and scientifically interesting independent of any dark-sector model; optional pre-registered stake is transparency only, not the result. |
 | **Blockers** | **hep-lat endorsement only.** No lattice result is claimed. Source note: `docs/PRTOE_lattice_note.md`. |
+| **Red-team hardening (2026-08-02/03)** | Knowledge-limit gap only; stake demoted to transparency; no lattice result claimed. Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 #### 5. `papers/bbn-eps-bound/` — **READY_PACKAGE** *(promoted from PAPER_CANDIDATE 2026-08-02)*
 
@@ -120,6 +143,7 @@ Only rows in these two status buckets get proposed titles / categories / pages /
 | **Pages** | 3 |
 | **Main claim** | With ε free, Aver Y_p implies ε < 3.2% (2σ) for a leptonic m_e transition inside the BBN window; EMPRESS cannot be used (standard BBN already +2.9σ). D/H model predictions stay out. |
 | **Blockers** | **astro-ph endorsement.** Optional content residual: dense ε_max(T_c) curve over [70, 500] keV not produced (bound at measured T_c only). Source note: `docs/PRTOE_bbn_witness.md`. |
+| **Red-team hardening (2026-08-02/03)** | Prior literature cited; Aver vs EMPRESS separation explicit; T_c scan residual stated (bound at measured T_c only). Detail: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). |
 
 ---
 
@@ -129,22 +153,25 @@ Only **one** corpus object still clears the bar for a *new* paper with a sharp, 
 claim that can be framed without the full framework (lattice gap + BBN ε bound now packaged).
 Everything else that is COMPLETE is still **CORPUS_ONLY**.
 
-#### 6. `docs/PRTOE_MATH_SPINE.md` §7 fragment only — **PAPER_CANDIDATE** *(thin but real)*
+#### 6. `papers/kination-tracking-note/` — **READY_PACKAGE** *(promoted from PAPER_CANDIDATE 2026-08-02)*
 
 | | |
 |---|---|
-| **Proposed title** | A rotating condensate tracking V ∝ rⁿ cannot reach kination: exact equation of state w = (n−2)/(n+2) |
-| **Category** | gr-qc / hep-th |
-| **Pages** | ~2–3 |
-| **Main claim** | For a rotating condensate tracking the minimum of V_eff with V ∝ rⁿ, the EOS is exactly w = (n−2)/(n+2); no polynomial n reaches the stiff (kination) limit, and freeze-out requires a trans-Planckian amplitude. |
-| **Blockers** | Extract §7 into a self-contained note; cut all framework genesis/bounce narrative; cite classical BKL / stiff-fluid literature; re-derive tracking result in the paper’s own appendix or cite the integration script; must not claim to solve the bounce problem — it is a *negative* sector result. |
-| **Independence** | High (textbook field equation + conserved charge). |
+| **Proposed title** | A rotating condensate tracking $V\propto r^{n}$ cannot reach kination: exact equation of state $w=(n-2)/(n+2)$ *(draft packaged)* |
+| **Category** | gr-qc (optional hep-th) |
+| **Pages** | **2** |
+| **Main claim** | For a rotating condensate tracking the minimum of $V_{\mathrm{eff}}$ with $V\propto r^{n}$, the EOS is exactly $w=(n-2)/(n+2)$; no polynomial $n$ reaches the stiff (kination) limit, and freeze-out requires a trans-Planckian amplitude. |
+| **Blockers** | **gr-qc endorsement only.** Optional residual: deeper literature engagement on charged Q-ball / complex-scalar cosmology (not required for the claim). |
+| **Independence** | High (textbook field equation + conserved charge). Source: `docs/PRTOE_MATH_SPINE.md` §7 BKL block + `scripts/bounce_bkl_stiff_check.py`. Framework genesis/bounce narrative cut; negative sector only. |
+| **Package** | `papers/kination-tracking-note/` — `main.tex` only; tarball present; PRTOE-name clean. |
 
 #### Fairbank addendum (2026-08-02/03) — **NOT_READY** as a separate package
 
 `docs/PRTOE_fairbank_note_draft.md` / `papers/fairbank-0nubb/`: personal experimental letter
 whose checkable arithmetic is already packaged as `papers/neutrino-mbb/`. Remaining layers
 are model-tied or chain-dependent. **Do not invent a second TeX package.**
+**2026-08-03:** owner submitted `neutrino-mbb` to William Fairbank; Fairbank-folder packaging
+stays paused (README only).
 
 ### Explicitly rejected as PAPER_CANDIDATE despite COMPLETE status
 
@@ -233,7 +260,7 @@ inventory row `PRTOE_LV_pricing.md`.
 | `PRTOE_READERS_GUIDE.md` | CORPUS_ONLY | Orientation |
 | `PRTOE_READERS_RISK.md` | CORPUS_ONLY | Internal risk page |
 | `PRTOE_THREE_EQUATIONS.md` | CORPUS_ONLY | Elevator / multi-claim hub — §0 anti-pattern |
-| `PRTOE_MATH_SPINE.md` | CORPUS_ONLY *(§7 fragment → PAPER_CANDIDATE #6)* | Hub; only kination negative exports |
+| `PRTOE_MATH_SPINE.md` | CORPUS_ONLY *(§7 kination → READY_PACKAGE via `papers/kination-tracking-note/`)* | Hub; kination negative extracted 2026-08-02 |
 | `PRTOE_THE_AMPLITUDE.md` | CORPUS_ONLY | Conditional stack; production fit provisional |
 | `PRTOE_DEPENDENCY_TREE.md` | CORPUS_ONLY | Living map |
 | `PRTOE_DERIVATION_HUNT.md` | CORPUS_ONLY | Open numbers registry |
@@ -276,7 +303,7 @@ inventory row `PRTOE_LV_pricing.md`.
 | `PRTOE_CMB_map.md` | CORPUS_ONLY | Six-spectra scorecard |
 | `PRTOE_lss_parity.md` | NOT_READY | Amplitude short; DESI 4PCF WATCH |
 | `PRTOE_igmf_helicity.md` | NOT_READY | OPEN-THEORY (sign link 4) |
-| `PRTOE_cosmic_magnetism.md` | NOT_READY | OPEN-THEORY; RM formula missing |
+| `PRTOE_cosmic_magnetism.md` | NOT_READY | OPEN-THEORY; void floor OPEN; RM geometric paid / amplitude open |
 | `PRTOE_koide_relation.md` | NOT_READY | OPEN-THEORY (#101/#102, pacing, sign-chain) |
 | `PRTOE_forced_combination.md` | NOT_READY | Inherits Koide program grade |
 | `PRTOE_quartet_clock.md` | NOT_READY | OPEN-MACHINE (zon_disp parked) |
@@ -299,14 +326,14 @@ inventory row `PRTOE_LV_pricing.md`.
 | status | n | notes |
 |---|---:|---|
 | SHIPPED | 0 | SHIPPED lives under `papers/`, not as a bare `.md` |
-| READY_PACKAGE | 4 | radio_lattice, neutrino_sector, lattice_note, bbn_witness (via packages) |
-| PAPER_CANDIDATE | 1 | MATH_SPINE §7 only |
+| READY_PACKAGE | 5 | radio_lattice, neutrino_sector, lattice_note, bbn_witness, MATH_SPINE §7 (via packages) |
+| PAPER_CANDIDATE | **0** | kination extracted 2026-08-02; no further docs export without new closed science |
 | CORPUS_ONLY | ~41 | majority of COMPLETE / COMPLETE-CONDITIONAL / LEDGER |
 | NOT_READY | ~18 | OPEN-THEORY + OPEN-MACHINE + WATCH that cannot paper yet |
 | **Total** | **64** | |
 
-*(READY_PACKAGE on source notes is bookkeeping; the shippable objects are the five TeX
-folders under `papers/`.)*
+*(READY_PACKAGE on source notes is bookkeeping; the shippable objects are the six TeX
+folders under `papers/` with `main.tex`.)*
 
 ---
 
@@ -315,11 +342,12 @@ folders under `papers/`.)*
 | package | candidacy | public? | next step |
 |---|---|---|---|
 | `papers/supertrace-note/` | **SHIPPED** | Zenodo 10.5281/zenodo.21763188 | Optional arXiv gr-qc if endorsed |
-| `papers/neutrino-mbb/` | **READY_PACKAGE** | no | hep-ph endorsement → upload |
-| `papers/radio-lattice/` | **READY_PACKAGE** | no | astro-ph endorsement → upload |
+| `papers/neutrino-mbb/` | **READY_PACKAGE** | no | Owner → Fairbank (2026-08-03); packaging paused; hep-ph endorsement still for arXiv |
+| `papers/radio-lattice/` | **READY_PACKAGE** | no | astro-ph endorsement → upload (7 pp READY) |
 | `papers/lattice-tc-gap/` | **READY_PACKAGE** | no | hep-lat endorsement → upload |
 | `papers/bbn-eps-bound/` | **READY_PACKAGE** | no | astro-ph endorsement → upload; optional dense T_c curve |
-| `papers/fairbank-0nubb/` | **NOT_READY** | no | Keep README only; ship via neutrino-mbb |
+| `papers/kination-tracking-note/` | **READY_PACKAGE** | no | gr-qc endorsement → upload; 2 pp READY |
+| `papers/fairbank-0nubb/` | **NOT_READY** | no | Keep README only; do not invent TeX; ship claim via neutrino-mbb |
 
 Hygiene table: [`_PACKAGE_AUDIT.md`](_PACKAGE_AUDIT.md) (`scripts/arxiv_package_audit.py`).
 
@@ -328,9 +356,9 @@ Hygiene table: [`_PACKAGE_AUDIT.md`](_PACKAGE_AUDIT.md) (`scripts/arxiv_package_
 ## E. Ruthless summary judgment
 
 1. **Most COMPLETE files are not papers.** Completion means the *document finished its internal job*. Papers need one sharp claim, external literature engagement, self-contained notation, and no chain asterisks.
-2. **Five objects can leave the desk as manuscripts today** (supertrace public; four endorsement-gated TeX packages).
-3. **At most one *new* short paper** remains worth drafting before a first model-paper programme: kination negative (MATH_SPINE §7). Everything else is either open, multi-claim, framework-only, or already packaged.
-4. **Do not paper:** Koide mechanism, hierarchy anchor, IGMF sign, S₈ conversion, galactic/SMBH atoms, bounce/cyclic sector, cosmological constant precision, Hubble evidence number, Fairbank as a second neutrino note — until their named debts close (or never, for duplicates).
+2. **Six objects can leave the desk as manuscripts today** (supertrace public; five endorsement-gated TeX packages including kination-tracking-note). Hygiene 2026-08-03 confirms READY/SHIPPED as above.
+3. **No further *new* short paper** remains on the docs shelf without new closed science. Kination negative (MATH_SPINE §7) was extracted 2026-08-02. **2026-08-03 re-audit:** new PAPER_CANDIDATEs from `docs/` still **0** — borderline COMPLETE list rechecked and rejected (LV, H0 ceiling, stability, GW nulls, direct/indirect, lab cousins, coincidence, 2loop Veff, CMB map, entropy, strong_cp, forced_combination, Fairbank, QG remainder, fingerprint, baryogenesis, information, arrow, no-singularities, exploratory). Everything else is either open, multi-claim, framework-only, or already packaged.
+4. **Do not paper:** Koide mechanism, hierarchy anchor, IGMF sign, S₈ conversion, galactic/SMBH atoms, bounce/cyclic sector, cosmological constant precision, Hubble evidence number, Fairbank as a second neutrino note — until their named debts close (or never, for duplicates). **neutrino-mbb is with Fairbank (owner submission 2026-08-03); do not invent second Fairbank TeX.**
 5. **Do not invent endorsement.** Endorsement is per archive and is the owner’s external task.
 6. **LV pricing is not a candidate.** Ruthless recheck 2026-08-02 (§B3): bounds-only is review; margins require model coefficients; shield is constitutional. **CORPUS_ONLY — no `papers/lv-pricing-note/`.**
 
@@ -345,8 +373,7 @@ Hygiene table: [`_PACKAGE_AUDIT.md`](_PACKAGE_AUDIT.md) (`scripts/arxiv_package_
 | **3** | `papers/radio-lattice/` | **READY_PACKAGE** | Atomic-physics ratio pattern; ε free; content hold closed; astro-ph endorsement only. |
 | **4** | `papers/lattice-tc-gap/` | **READY_PACKAGE** | Literature gap; independent; 2 pp TeX clean; hep-lat endorsement only. |
 | **5** | `papers/bbn-eps-bound/` | **READY_PACKAGE** | Chain-free ε bound from Aver Y_p; 3 pp; optional dense T_c curve residual. |
-
-**Honorable mention / only remaining PAPER_CANDIDATE:** MATH_SPINE §7 kination negative — publishable gr-qc note after extraction.
+| **6** | `papers/kination-tracking-note/` | **READY_PACKAGE** | Negative sector EOS; 2 pp; gr-qc; extracted from MATH_SPINE §7 2026-08-02. |
 
 **Explicit non-ranking of hub “big results”:** Hubble tension, cosmological constant, full quantum gravity, fingerprint lattice — too conditional, too wide, or already partially shipped in narrower form.
 
@@ -354,12 +381,12 @@ Hygiene table: [`_PACKAGE_AUDIT.md`](_PACKAGE_AUDIT.md) (`scripts/arxiv_package_
 
 ## G. Recommended action order
 
-1. **Owner:** pursue endorsements (astro-ph for radio-lattice + bbn-eps-bound; hep-ph for neutrino-mbb; hep-lat for lattice-tc-gap; optional gr-qc for supertrace).
-2. **Desk (if drafting new work):** MATH_SPINE §7 kination negative only; optional dense ε_max(T_c) curve for bbn-eps-bound.
-3. **Do not** invent TeX for Fairbank — neutrino-mbb already owns that claim.
+1. **Owner:** pursue endorsements (astro-ph for radio-lattice + bbn-eps-bound; hep-lat for lattice-tc-gap; gr-qc for supertrace and/or kination-tracking-note). **neutrino-mbb / hep-ph:** packaging paused — owner submitted to William Fairbank (2026-08-03).
+2. **Desk (optional):** dense ε_max(T_c) curve for bbn-eps-bound; deepen kination literature citations if desired. **No further docs→paper extractions** until OPEN-THEORY/MACHINE close. (2026-08-03 re-audit: PAPER_CANDIDATE still 0.)
+3. **Do not** invent TeX for Fairbank — neutrino-mbb already owns that claim; Fairbank packaging stays paused.
 4. **Do not** start a multi-claim “PRTOE overview” paper.
 5. **Do not** promote OPEN-THEORY / OPEN-MACHINE files on completion status alone.
-6. **Hygiene:** re-run `python3 scripts/arxiv_package_audit.py` after any package add/edit.
+6. **Hygiene:** re-run `python3 scripts/arxiv_package_audit.py` after any package add/edit. Stage/refresh `docs/arXivReady/` for all six packages.
 
 ---
 
@@ -368,6 +395,14 @@ Package index refreshed same day for lattice-tc-gap, bbn-eps-bound, and fairbank
 Hygiene: `scripts/arxiv_package_audit.py` → `_PACKAGE_AUDIT.md`.
 Re-verify packages against build logs and greps; do not treat this file as an endorsement
 or submission authorization.*
+
+**Red-team hardening (2026-08-02/03):** nineteen paper-facing attacks audited against live
+`papers/*/main.tex`; all FIXED in prose (bbn dense ε_max(T_c) remains optional content residual).
+Ledger: [`_PAPER_REDTEAM_FIXES.md`](_PAPER_REDTEAM_FIXES.md). Short notes added on each B1 card.
+
+**2026-08-03 re-audit:** PAPER_CANDIDATE still **0** (full borderline COMPLETE reject list in
+header note). neutrino-mbb with Fairbank; no second Fairbank TeX. Package READY/SHIPPED
+hygiene confirmed; `docs/arXivReady/` expansion in progress.
 
 ---
 

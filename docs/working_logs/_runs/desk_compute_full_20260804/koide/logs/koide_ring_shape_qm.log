@@ -1,0 +1,12 @@
+==============================================================================
+Exact 2D shape-space quantum mechanics of the ring — v2 (honest verdict)
+==============================================================================
+
+A. The landscape
+   V(origin) = +3.000000 (closed form 3);  valley = +2.738376 at |u| = 1.0003 (chain closed form +2.738376)
+   three valleys agree to 0.00e+00
+   exact k_b: ring 3.0000 (identity 3), valley 2.0000 (chain identity 2)
+   FD cross-check: ring 3.0000, valley 2.0000
+
+
+[TIMEOUT after 240s]

@@ -3,10 +3,16 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> The framework's one true calculation stands, and the rectification mechanism it turns on —
-> which four separate results depend on — now has a selected class and one owed number. Full
-> record:
+> AD-direct route + transmission class stand at **COMPLETE-CONDITIONAL** document grade. Quartet
+> closure is **machine-backed** / back-solved (ω_J ~ 5.7 keV); **forward** ω_J from seat decay
+> constant + pinning curvature remains **OPEN-BLOCKED** (#39) — not a closed derivation.
+> Forward seat content: **EMPTY_CORPUS_SEAT** (no independent χ / J_seat / ω_J^micro); **Charge A holds**;
+> back-solve is hygiene, **not a land**. Full record:
 > [working_logs/the_transfer_integral_spec.md](working_logs/the_transfer_integral_spec.md).
+> Construction map (required micro inputs + candidate roster + bands; no invented χ/J):
+> [working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md](working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md).
+> Exhaust T-W16 / desk_t5:
+> [working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W16_A_omegaJ.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W16_A_omegaJ.md).
 > Un-refereed portions from the review-hold are marked.
 
 ## 0. The problem
@@ -145,9 +151,13 @@ coupling J). The corpus states **neither**. Declining to identify those with an 
 is recorded at [working_logs/PRTOE_session_2026-07-29b_findings.md](working_logs/PRTOE_session_2026-07-29b_findings.md)
 (#39).
 
-**Kill unchanged.** A *derived* ω_J more than two orders below ~5.7 keV, or failure of the
-overdamped-junction class premises, ends the junction route. The target itself remains the right
-grading number; the gap is that it is still a target, not a land.
+**Kill / band (pre-registered 2026-08-03 before any forward derivation).** A *derived* ω_J
+more than two orders below ~5.7 keV (**&lt; 0.057 keV**), or failure of the overdamped-junction
+class premises, ends the junction route. Intermediate disposition (neither accept nor kill):
+landing in **(0.057, 3) keV or (12, 30] keV** → anomalous-review, retune j/ratio before booking.
+Accept band for the junction magnitude reading: **[3, 12] keV**. The 5.7 keV figure remains the
+right *back-solve* grading center once Γ_φ/θ̇ is the **computed** 9.03×10⁷ (not the stale ~10⁷
+shorthand); the gap is that it is still a target, not a forward land.
 
 ## 4. What confirmation looks like
 The transmission integral computed → η/n matched → the comb's n read off the CMB —
@@ -214,3 +224,23 @@ rephasing and both phases are removable — so the invariant genuinely requires 
 sector's arg b remains excluded as the source on the separate ground already recorded — the spectrum
 is real for every arg b, so it is a shape parameter rather than a phase reaching observables. What
 changes is that the ask is now specific enough to grade a candidate against, instead of a category.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Thermal leptogenesis empty on model’s η (×40–1000 under) | **failed / retired** (route) | [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md) “Baryogenesis”; §1 | Forced AD-direct / junction route |
+| 2 | AD-direct: η = n × 𝒯 structure; shared-integer cross-falsifier with comb | **derived** (form) | §2–§3; [working_logs/the_transfer_integral_spec.md](working_logs/the_transfer_integral_spec.md) | n is a bound/band, not a determination (#180) |
+| 3 | Frozen-era junction conducts on θ̇ (persistent supercurrent); trickle branch dead | **derived** / priced | §3; transfer-integral stages | — |
+| 4 | Overdamped rectifier ⟨sin⟩ formula; R = ω_J²/(2Γ_φθ̇) in fast-drive limit | **machine-backed** | §3; `scripts/kapitza_junction_response.py` (0.06% vs integration); transfer-integral stage 8 | Formula verified; not a forward ω_J |
+| 5 | Quartet Γ_φ, θ̇, R_need, ω_J≈5.67 keV closes as **back-solve** | **machine-backed** (circular if used as derivation) | `scripts/junction_quartet_closure.py` (recompute 2026-08-03: Γ_φ/θ̇=9.0319×10⁷, ω_J=5.672 keV, R=5.050e−5); §3a; [working_logs/_runs/debt_baryo_omegaJ_20260803/REPORT.md](working_logs/_runs/debt_baryo_omegaJ_20260803/REPORT.md); [working_logs/_runs/debt_baryo_d3_provenance_20260803/REPORT.md](working_logs/_runs/debt_baryo_d3_provenance_20260803/REPORT.md) | 5.7 keV is target, not forward land; ×9 was stale ~10⁷ shorthand |
+| 6 | Forward ω_J from seat micro (χ + pinning curvature) | **OPEN-BLOCKED** · no independent seat content in corpus (#39) | §3a; [working_logs/_runs/debt_omegaJ_forward_formulability_20260803/REPORT.md](working_logs/_runs/debt_omegaJ_forward_formulability_20260803/REPORT.md); debt_baryo_omegaJ REPORT; [working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md](working_logs/_runs/theory_construction_20260804/omegaJ_forward/REPORT.md); exhaust [T-W16](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W16_A_omegaJ.md) | No non-circular χ / J_seat / ω_J^micro in corpus; Charge A holds; back-solve ≠ land — **do not invent** |
+| 7 | Pre-registered ω_J bands: accept [3,12] keV; kill <0.057 keV | **registered null** | §3a (2026-08-03) | Before any forward derivation |
+| 8 | Second un-rotatable phase = two terms at different winding powers with I not multiple of π | **derived** (counting / symmetry) | §second phase; `scripts/second_phase_counting.py` | Does not supply the second term or compute I |
+| 9 | L_gen unpinned → n ≳ 1.65 at floor; n~10–30 is preferred band not fixed | **OPEN** (bookkeeping) | §3 #180 | Moves 𝒯 target; prerequisite for verdict reading |
+
+**Non-claims:** Forward derivation of ω_J; thermal leptogenesis rescue; η closed numerically without n pin + forward 𝒯; matter–helicity lock riding this residual (void on T14).
+
+**Triage:** elevate-in-place; **blocked (OPEN-THEORY)** on ω_J forward micro — quartet arithmetic stays paid as back-solve only.

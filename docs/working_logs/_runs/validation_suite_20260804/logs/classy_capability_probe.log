@@ -1,0 +1,65 @@
+python3: /usr/bin/python3 Python 3.12.3
+python: /home/themilkmanj/miniconda3/envs/prtoe_gold/bin/python; Python 3.13.5
+classy file: /home/themilkmanj/prtoe_class/python/classy.cpython-312-x86_64-linux-gnu.so
+classy dir: ['CallableFloat', 'Class', 'CosmoComputationError', 'CosmoError', 'CosmoSevereError', 'CubicSpline', 'UnivariateSpline', '__builtins__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__pyx_unpickle_Enum', '__reduce_cython__', '__setstate_cython__', '__spec__', '__test__', '__version__', 'abspath', 'dirname', 'exp', 'interp1d', 'log', 'np', 'sys', 'viewdictitems']
+  set use_dcdf: accepted (will compute later)
+  set use_prtoe: accepted (will compute later)
+  set dcdf_dyad_link: accepted (will compute later)
+  set varying_me: accepted (will compute later)
+---
+-rwxr-xr-x 1 themilkmanj themilkmanj 15352752 Jul 12 21:44 _classy.cpython-312-x86_64-linux-gnu.so
+-rwxr-xr-x 1 themilkmanj themilkmanj 10940336 Jul 23 18:57 classy.cpython-313-x86_64-linux-gnu.so
+-rw-r--r-- 1 themilkmanj themilkmanj  3931181 Jul 23 19:58 python/classy.cpp
+-rwxr-xr-x 1 themilkmanj themilkmanj 15545968 Jul 23 20:00 python/classy.cpython-312-x86_64-linux-gnu.so
+-rwxr-xr-x 1 themilkmanj themilkmanj 10940336 Jul 23 18:49 python/classy.cpython-313-x86_64-linux-gnu.so
+-rw-r--r-- 1 themilkmanj themilkmanj   180491 Jul  9 00:43 python/classy.pyx
+
+python/classy.egg-info:
+total 24
+drwxr-xr-x 2 themilkmanj themilkmanj 4096 Jul 23 18:58 .
+drwxr-xr-x 5 themilkmanj themilkmanj 4096 Jul 23 20:00 ..
+-rw-r--r-- 1 themilkmanj themilkmanj  154 Jul 23 18:58 PKG-INFO
+-rw-r--r-- 1 themilkmanj themilkmanj  251 Jul 23 18:58 SOURCES.txt
+-rw-r--r-- 1 themilkmanj themilkmanj    1 Jul 23 18:58 dependency_links.txt
+-rw-r--r-- 1 themilkmanj themilkmanj    7 Jul 23 18:58 top_level.txt
+-rwxr-xr-x 1 themilkmanj themilkmanj 15545968 Jul 23 20:00 python/classy.cpython-312-x86_64-linux-gnu.so
+-rwxr-xr-x 1 themilkmanj themilkmanj 10940336 Jul 23 18:49 python/classy.cpython-313-x86_64-linux-gnu.so
+--- run_prtoe_validation skip probe ---
+#!/usr/bin/env python3
+"""
+LEGACY_ST Numerical Validation Runner (use_prtoe scalar-tensor lane)
+====================================================================
+Historical comparison checks on CLASS + legacy use_prtoe output.
+
+NOT CURRENT_CORE validation. Current public expansion core is:
+  use_dcdf + screened/derived varying_me + dcdf_dyad_link
+See validate_dcdf.py and production YAMLs with use_dcdf. Historical ST:
+  docs/historical_v1-v3_scalar_tensor/
+"""
+
+import numpy as np
+import sys
+import os
+
+# === Robust path handling ===
+try:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+except NameError:
+    script_dir = os.getcwd()
+
+sys.path.append(os.path.join(script_dir, '..', 'cosmic_dashboard', 'templates'))
+
+from prtoe_dhost_checks_v2 import prtoe_dhost_consistency_check_v2
+from data_loader import load_class_background
+
+def run_true_null_limit_test(use_class=True):
+    """LEGACY_ST Task 2.1: true null (ALL use_prtoe ST parameters → 0). Not CURRENT_CORE."""
+    print("\\n" + "="*60)
+...
+include/background.h
+source/perturbations.c
+include/background.h:174:  short use_dcdf;         /**< flag: replace cdm+lambda with the dCDF fluid */
+include/background.h:200:  short has_dcdf_conv;  /**< TRUE when use_dcdf and dcdf_conv_g > 0: evolve conv DR multipoles */
+include/background.h:383:    /* LEGACY_ST dummies (v1–v3 use_prtoe scalar-tensor): kept so perturbations.c compiles.
+include/background.h:384:     * NOT the public expansion core. Current core = has_dcdf / use_dcdf + varying_me.
+include/background.h:386:    short use_prtoe;

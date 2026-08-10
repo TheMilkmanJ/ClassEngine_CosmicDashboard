@@ -1,0 +1,271 @@
+files=94 paras=4258 candidates=1413
+
+docs/PRTOE_FAILURES_LEDGER.md: candidates=530/1083 {'date_2026': 365, 'self_reference': 34, 'soft_complete': 4, 'revision_verb': 221, 'repair_log': 13, 'editor_instr': 12, 'stale_chain': 5, '022_voice': 1}
+docs/PRTOE_deuterium_row.md: candidates=30/152 {'date_2026': 15, 'self_reference': 5, 'revision_verb': 8, 'editor_instr': 2, 'stale_chain': 1}
+docs/PRTOE_quantum_gravity.md: candidates=28/101 {'date_2026': 17, 'self_reference': 11, 'revision_verb': 3, 'editor_instr': 3, 'soft_complete': 3}
+docs/exploratory/PRTOE_UV_completion.md: candidates=23/68 {'self_reference': 2, 'date_2026': 9, 'editor_instr': 1, 'revision_verb': 11, 'stale_chain': 1}
+docs/PRTOE_induced_gravity.md: candidates=23/86 {'date_2026': 13, 'soft_complete': 6, 'self_reference': 7, 'revision_verb': 3, 'editor_instr': 2}
+docs/PRTOE_igmf_helicity.md: candidates=23/59 {'date_2026': 13, 'revision_verb': 12, 'self_reference': 4, 'repair_log': 1, 'soft_complete': 1, 'editor_instr': 1}
+docs/exploratory/PRTOE_v5_five_verdict_derivation.md: candidates=22/74 {'date_2026': 17, 'soft_complete': 3, 'revision_verb': 6, 'self_reference': 1}
+docs/exploratory/PRTOE_v4_dCDF_derivation.md: candidates=21/89 {'date_2026': 6, 'revision_verb': 16, 'repair_log': 1, 'soft_complete': 2, 'self_reference': 2}
+docs/BIBLIOGRAPHY.md: candidates=19/49 {'date_2026': 14, 'self_reference': 3, 'revision_verb': 3, 'soft_complete': 1, 'editor_instr': 1}
+docs/PRTOE_cosmic_magnetism.md: candidates=17/52 {'date_2026': 14, 'editor_instr': 2, 'revision_verb': 2, 'self_reference': 1}
+docs/PRTOE_neutrino_sector.md: candidates=16/65 {'date_2026': 11, 'soft_complete': 3, 'editor_instr': 1, 'revision_verb': 4}
+docs/exploratory/PRTOE_quantum_trio.md: candidates=15/39 {'self_reference': 3, 'date_2026': 13, 'editor_instr': 2, 'stale_chain': 3}
+docs/exploratory/PRTOE_entropy.md: candidates=15/38 {'date_2026': 8, 'self_reference': 3, 'revision_verb': 5, 'soft_complete': 4}
+docs/exploratory/PRTOE_arrow_of_time.md: candidates=15/40 {'date_2026': 6, 'self_reference': 4, 'revision_verb': 6, 'soft_complete': 2}
+docs/PRTOE_quartet_clock.md: candidates=15/33 {'date_2026': 11, 'stale_chain': 6, 'editor_instr': 2, 'revision_verb': 2, 'soft_complete': 1}
+docs/exploratory/PRTOE_white_holes.md: candidates=14/87 {'date_2026': 9, 'self_reference': 2, 'editor_instr': 4}
+docs/exploratory/PRTOE_forced_combination.md: candidates=14/40 {'date_2026': 8, 'revision_verb': 5, 'fork_decided': 2, 'self_reference': 2}
+docs/exploratory/PRTOE_fairbank_note_HOLD.md: candidates=14/33 {'date_2026': 9, 'revision_verb': 5, 'self_reference': 1, 'stale_chain': 1}
+docs/PRTOE_smbh_atoms.md: candidates=14/39 {'date_2026': 11, 'self_reference': 1, 'stale_chain': 1, 'editor_instr': 2, 'revision_verb': 2, 'soft_complete': 1}
+docs/PRTOE_granule_scoping.md: candidates=14/43 {'date_2026': 9, 'editor_instr': 2, 'revision_verb': 3, 'self_reference': 3, 'stale_chain': 1}
+docs/PRTOE_fairbank_note_draft.md: candidates=14/70 {'date_2026': 9, 'stale_chain': 4, 'revision_verb': 5, 'soft_complete': 1}
+docs/PRTOE_THREE_EQUATIONS.md: candidates=14/48 {'revision_verb': 3, 'self_reference': 4, 'stale_chain': 2, 'date_2026': 7, 'soft_complete': 1}
+docs/exploratory/PRTOE_v4_dCDF_results.md: candidates=13/27 {'date_2026': 5, 'revision_verb': 10}
+docs/exploratory/PRTOE_intellectual_history.md: candidates=13/36 {'date_2026': 10, 'revision_verb': 2, 'self_reference': 1}
+docs/PRTOE_baryogenesis.md: candidates=13/47 {'date_2026': 8, 'soft_complete': 1, 'revision_verb': 3, 'self_reference': 3, 'stale_chain': 1, 'editor_instr': 1}
+docs/PRTOE_neutrino_home.md: candidates=12/24 {'date_2026': 10, 'stale_chain': 4, 'editor_instr': 2}
+docs/PRTOE_galactic_atoms.md: candidates=12/32 {'date_2026': 9, 'stale_chain': 2, 'editor_instr': 2, 'revision_verb': 4, 'self_reference': 1, 'soft_complete': 1}
+docs/PRTOE_cyclic_torus_genesis.md: candidates=12/37 {'date_2026': 11, 'self_reference': 1, 'revision_verb': 1, 'soft_complete': 1, 'editor_instr': 1}
+docs/PRTOE_THE_AMPLITUDE.md: candidates=12/36 {'date_2026': 10, 'revision_verb': 3, 'self_reference': 2, 'soft_complete': 1}
+docs/PRTOE_CODE_MANIFEST.md: candidates=12/47 {'date_2026': 8, 'stale_chain': 3, 'revision_verb': 3, 'soft_complete': 2, 'self_reference': 2, 'editor_instr': 1}
+docs/exploratory/PRTOE_quantum_entanglement.md: candidates=11/30 {'date_2026': 9, 'revision_verb': 1, 'stale_chain': 1, 'editor_instr': 1}
+docs/exploratory/PRTOE_information_paradox.md: candidates=10/24 {'date_2026': 7, 'soft_complete': 2, 'revision_verb': 1, 'editor_instr': 2, 'self_reference': 1}
+docs/PRTOE_hubble_tension.md: candidates=10/35 {'revision_verb': 6, 'date_2026': 5, 'stale_chain': 3, 'soft_complete': 2, 'editor_instr': 2}
+docs/PRTOE_blackholes_no_singularity.md: candidates=10/44 {'date_2026': 7, 'self_reference': 3, 'soft_complete': 3, 'revision_verb': 1}
+docs/PRTOE_INDEPENDENCE_AUDIT.md: candidates=10/19 {'self_reference': 5, 'date_2026': 5, 'revision_verb': 1, '022_voice': 1, 'repair_log': 1, 'soft_complete': 3}
+docs/exploratory/PRTOE_references.md: candidates=9/15 {'self_reference': 1, 'date_2026': 8}
+docs/exploratory/PRTOE_quantum_tunneling.md: candidates=9/26 {'date_2026': 7, 'editor_instr': 2, 'stale_chain': 1}
+docs/exploratory/PRTOE_me_trigger.md: candidates=9/57 {'self_reference': 1, 'revision_verb': 5, 'date_2026': 5}
+docs/exploratory/PRTOE_math_story.md: candidates=9/18 {'date_2026': 8, 'self_reference': 1, 'revision_verb': 1}
+docs/exploratory/PRTOE_light.md: candidates=9/47 {'self_reference': 4, 'date_2026': 2, 'editor_instr': 3, 'revision_verb': 2, 'soft_complete': 1}
+docs/exploratory/PRTOE_kappa_v_derivation.md: candidates=9/30 {'self_reference': 2, 'date_2026': 8, 'revision_verb': 2}
+docs/PRTOE_s8_tension.md: candidates=9/25 {'date_2026': 8, 'stale_chain': 3, 'editor_instr': 2}
+docs/PRTOE_bigbang_no_singularity.md: candidates=9/35 {'date_2026': 7, 'soft_complete': 1, 'self_reference': 2, 'editor_instr': 2}
+docs/PRTOE_TRIALS_FACTOR.md: candidates=9/36 {'self_reference': 4, 'date_2026': 4, 'soft_complete': 1, 'revision_verb': 5, 'editor_instr': 1}
+docs/PRTOE_REFEREE_CALENDAR.md: candidates=9/15 {'date_2026': 8, 'stale_chain': 3, 'revision_verb': 4, 'self_reference': 1, 'soft_complete': 1}
+docs/PRTOE_READERS_GUIDE.md: candidates=9/21 {'date_2026': 7, 'stale_chain': 2, 'self_reference': 1, 'soft_complete': 1}
+docs/PRTOE_DOMAIN_COVERAGE.md: candidates=9/16 {'self_reference': 5, 'revision_verb': 1, 'date_2026': 5, 'stale_chain': 1, 'soft_complete': 3, 'editor_instr': 1, 'repair_log': 1}
+docs/PRTOE_DEPENDENCY_TREE.md: candidates=9/26 {'date_2026': 8, 'stale_chain': 1, 'soft_complete': 2, 'revision_verb': 2, 'self_reference': 2}
+docs/exploratory/PRTOE_quantum_superposition.md: candidates=8/30 {'date_2026': 6, 'self_reference': 2, 'stale_chain': 1, 'editor_instr': 1}
+docs/exploratory/PRTOE_inertia.md: candidates=8/33 {'date_2026': 5, 'self_reference': 4, 'soft_complete': 2}
+docs/PRTOE_strong_cp.md: candidates=8/36 {'self_reference': 4, 'date_2026': 5, 'soft_complete': 3, 'editor_instr': 2}
+docs/PRTOE_lattice_note.md: candidates=8/30 {'self_reference': 3, 'date_2026': 8, '022_voice': 1, 'fork_decided': 1}
+docs/PRTOE_coincidence_problem.md: candidates=8/21 {'date_2026': 5, 'revision_verb': 3, 'soft_complete': 1, 'editor_instr': 1, 'self_reference': 1}
+docs/exploratory/PRTOE_laser_physics.md: candidates=7/27 {'date_2026': 4, 'self_reference': 3}
+docs/exploratory/PRTOE_laboratory_cousins.md: candidates=7/32 {'date_2026': 6, 'self_reference': 1}
+docs/PRTOE_stability.md: candidates=7/27 {'revision_verb': 4, 'self_reference': 2, 'date_2026': 4, 'soft_complete': 3}
+docs/PRTOE_s8_growth.md: candidates=7/21 {'date_2026': 6, 'stale_chain': 3, 'editor_instr': 2}
+docs/PRTOE_radio_lattice.md: candidates=7/24 {'self_reference': 1, 'date_2026': 4, 'revision_verb': 4}
+docs/PRTOE_lss_parity.md: candidates=7/26 {'date_2026': 7, 'self_reference': 1}
+docs/PRTOE_inflation_replacement.md: candidates=7/20 {'date_2026': 5, 'self_reference': 3, 'editor_instr': 1}
+docs/PRTOE_cmb_anomalies.md: candidates=7/37 {'revision_verb': 3, 'date_2026': 3, 'editor_instr': 1}
+docs/PRTOE_build_2loop_Veff_spec.md: candidates=7/33 {'self_reference': 1, 'date_2026': 3, 'soft_complete': 2, 'revision_verb': 3}
+docs/exploratory/PRTOE_wormholes.md: candidates=6/20 {'date_2026': 3, 'editor_instr': 3}
+docs/exploratory/PRTOE_no_singularities.md: candidates=6/27 {'date_2026': 3, 'soft_complete': 3, 'editor_instr': 2, 'revision_verb': 1}
+docs/PRTOE_small_scale_structure.md: candidates=6/13 {'date_2026': 3, 'self_reference': 2, 'soft_complete': 3, 'revision_verb': 1}
+docs/PRTOE_gravitational_waves.md: candidates=6/31 {'date_2026': 6, 'self_reference': 1}
+docs/PRTOE_dcdf_superfluid.md: candidates=6/32 {'date_2026': 6}
+docs/exploratory/PRTOE_sqrt3_derivation.md: candidates=5/37 {'date_2026': 3, 'revision_verb': 2, 'self_reference': 2}
+docs/exploratory/PRTOE_THE_CHAIN.md: candidates=5/28 {'date_2026': 3, 'revision_verb': 3}
+docs/PRTOE_indirect_detection.md: candidates=5/20 {'date_2026': 3, 'self_reference': 1, 'revision_verb': 1, 'soft_complete': 1}
+docs/PRTOE_fingerprint_lattice.md: candidates=5/26 {'revision_verb': 3, 'self_reference': 1, 'date_2026': 2, 'soft_complete': 1}
+docs/PRTOE_direct_detection.md: candidates=5/21 {'date_2026': 3, 'self_reference': 2, 'soft_complete': 1}
+docs/PRTOE_bbn_witness.md: candidates=5/44 {'date_2026': 5}
+docs/PRTOE_CHAIN_TABLES.md: candidates=5/17 {'revision_verb': 1, 'self_reference': 2, 'date_2026': 3, 'stale_chain': 3, 'editor_instr': 2, 'soft_complete': 1}
+docs/exploratory/PRTOE_the_great_chain.md: candidates=4/34 {'date_2026': 2, 'revision_verb': 2}
+docs/exploratory/PRTOE_special_relativity.md: candidates=4/20 {'date_2026': 2, 'self_reference': 2}
+docs/exploratory/PRTOE_science_subdomain_tree.md: candidates=4/24 {'date_2026': 2, 'revision_verb': 1, 'soft_complete': 1}
+docs/exploratory/PRTOE_scale_ladder.md: candidates=4/21 {'date_2026': 4, 'revision_verb': 1}
+docs/exploratory/PRTOE_philosophy_the_auditor.md: candidates=4/12 {'self_reference': 3, 'date_2026': 2}
+docs/exploratory/PRTOE_classical_gravity.md: candidates=4/19 {'date_2026': 2, 'soft_complete': 1, 'self_reference': 1}
+docs/PRTOE_lowell_anomalies.md: candidates=4/28 {'date_2026': 3, 'revision_verb': 1}
+docs/PRTOE_dyad_gas.md: candidates=4/26 {'date_2026': 3, 'soft_complete': 1}
+docs/PRTOE_LV_pricing.md: candidates=4/15 {'date_2026': 2, 'soft_complete': 2}
+docs/PRTOE_H0_CEILING.md: candidates=4/22 {'date_2026': 2, 'revision_verb': 2}
+docs/PRTOE_CMB_map.md: candidates=4/37 {'date_2026': 4}
+docs/exploratory/PRTOE_thread_inheritance.md: candidates=3/17 {'date_2026': 2, 'revision_verb': 1}
+docs/exploratory/PRTOE_sciences_inheritance.md: candidates=3/15 {'date_2026': 3}
+docs/exploratory/PRTOE_quantum_gravity.md: candidates=3/7 {'date_2026': 3, 'soft_complete': 1}
+docs/exploratory/PRTOE_plasma_physics.md: candidates=3/8 {'date_2026': 1, 'soft_complete': 2}
+docs/exploratory/PRTOE_interaction_map.md: candidates=3/17 {'date_2026': 3}
+docs/exploratory/PRTOE_astrochemistry.md: candidates=3/8 {'date_2026': 2, 'soft_complete': 1, 'self_reference': 1}
+docs/exploratory/PRTOE_family_tree.md: candidates=2/8 {'date_2026': 2}
+docs/exploratory/PRTOE_chaos_dynamics.md: candidates=2/8 {'date_2026': 1, 'self_reference': 1}
+docs/PRTOE_v4_dCDF_derivation.md: candidates=2/6 {'date_2026': 1, 'revision_verb': 1}
+
+=== HIGH SIGNAL DETAIL ===
+
+## editor_instr (75)
+  docs/PRTOE_CHAIN_TABLES.md:7: > ## OPEN-MACHINE residual freeze — 2026-08-05 > > **Status:** OPEN-MACHINE (ledger for production posteriors). **Bookable: NO.** > > **Authority gate (bbnfix pair only):** both legs must show cobaya 
+  docs/PRTOE_CHAIN_TABLES.md:167: **Non-claims / forbidden:** no bookable posterior from this file; no invented H₀ table; no COMPLETE physics from tables alone.
+  docs/PRTOE_CODE_MANIFEST.md:220: *A separate thing that travels under the same word, and must not be merged with it:* the m_e coupling itself is background-only by construction — `background_varconst_of_z` (`background.c:891`) is a p
+  docs/PRTOE_DOMAIN_COVERAGE.md:18: | # | Domain | Verdict | One-line result | Recorded in | |---|--------|---------|-----------------|-----------| | 1 | Cosmology (CMB/BAO/SN background) | mover | The model: H₀ ≈ 69.9 (provisional, **n
+  docs/PRTOE_FAILURES_LEDGER.md:1037: | branch | outcome | |---|---| | ratio ≈ 1 (no suppression) | **DEAD — forbidden by L.** The +12…+18σ D/H catastrophe was never available. | | ratio ∈ [0.112, 0.167] (heal) | **UNREACHABLE.** No mecha
+  docs/PRTOE_FAILURES_LEDGER.md:2040: **Containment checked — the registry entry was already correct and must not be "fixed".** P-2026-027 states the lock as *"ν_H/ν_D = 4.338649 at every z, exactly preserved (both lines ∝ m_e²) — generic
+  docs/PRTOE_FAILURES_LEDGER.md:2333: **None of it follows from its own stated inputs.** The propagation started from D/H = 2.47034×10⁻⁵ measured against Cooke's **observational error alone (±0.030)** — giving the −1.89σ that seeds χ² = 1
+  docs/PRTOE_FAILURES_LEDGER.md:2704: **What it claimed** (Room 4's first wall, the corpus's only forcing argument for the tilt's four-foldness): *"At dimension 4, the only U(1)-breaking operators are Ψ⁴ + h.c. (preserves Z4) and Ψ³Ψ* + h
+  docs/PRTOE_FAILURES_LEDGER.md:2713: | operator | dim | fields | parity Ψ → −Ψ | breaks U(1) to | |---|---|---|---|---| | Ψ² + h.c. | **2** | 2 | **even — allowed** | **Z2** | | Ψ³ + h.c. | 3 | 3 | odd — forbidden | Z3 | | Ψ²Ψ* + h.c. | 
+  docs/PRTOE_FAILURES_LEDGER.md:2721: The parity kills exactly the two odd-field operators, both dimension three. Ψ³Ψ* — the one the argument names as forbidden — survives it, and so does Ψ² + h.c., which is the **lowest-dimension U(1)-br
+  docs/PRTOE_FAILURES_LEDGER.md:3008: | file | what it said | fixed to | |---|---|---| | `PRTOE_dyad_gas.md` §2 | *"Its identity is the **Majoron**… **This is why the medium's coupling is leptophilic: the broken symmetry it carries is lep
+  docs/PRTOE_FAILURES_LEDGER.md:3576: **Why they died — one pair of conditions closed all six:** (i) **The epochs are disjoint.** Any source must be alive at last scattering (z ~ 1100), which would need the condensation redshift near matt
+  docs/PRTOE_FAILURES_LEDGER.md:3791: **The idea**, under the charge-coupled/vanishing filter. The null's sharpest form is R_c = M_c (T6): the canonically normalized singlet amplitude equal to the doublet's, equivalently the field vector 
+  docs/PRTOE_FAILURES_LEDGER.md:4135: **ESCAPE (c) CLOSED DEAD (2026-08-02, `scripts/escape_c_loop_magnitude.py`, 7 controls; adversarial verifier re-derived every number: 6/6 confirmed).** "Suppressed" is now a number: every loop channel
+  docs/PRTOE_FAILURES_LEDGER.md:4990: 1. **GRAVITY (parity-even, universal, ON):** photons trace the medium's  gravitational potentials — lensing, ISW. Always present, already in the  model. Real coupling. 2. **LOOP-INDUCED VARYING-α (par
+  docs/PRTOE_FAILURES_LEDGER.md:5430: **(3) P-012 does not select the ordering, and audience-facing text must not say it does.** The entry states plainly: "Does not by itself fix the hierarchy (both work at m_lightest = 2.24 meV)" — it gi
+  docs/PRTOE_TRIALS_FACTOR.md:127: The sharpest recent case. The smallest lightest-neutrino mass at which m_ββ can cancel exactly computes to m₁\* = 2.2496 meV; the dark-energy scale is 2.2395 ± 0.0108 meV; central values agree to 0.45
+  docs/PRTOE_baryogenesis.md:139: Verified: `scripts/junction_quartet_closure.py`. The quartet has no internal factor-9 discrepancy once the ratio is computed rather than rounded; a derivation landing at the artifactual 1.90 keV (from
+  docs/PRTOE_bigbang_no_singularity.md:139: **Stamp:** OPEN-THEORY honesty pass. Floor number remains paid; classical turn stays **OPEN-BLOCKED**. No invented H_re.   **Full freeze package (authoritative):** [working_logs/_runs/bounce_full_free
+  docs/PRTOE_bigbang_no_singularity.md:145: | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** | |---|---|---|---|---|---| | 1 | Finite density ceiling ρ_bounce ~ m⁴/λ class (CSW); number paid | **machine-backed** | `scripts/rh
+  docs/PRTOE_cmb_anomalies.md:71: The family is silent here, and the silence is constitutional. The machinery that generates this family is anisotropic and Gaussian — axes, spectra, covariances — while a cold spot is localized, sign-d
+  docs/PRTOE_coincidence_problem.md:110: | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** | |---|---|---|---|---|---| | 1 | DE-era width t_turn ≈ 8.16 H⁻¹ from √3, B=1/√2, A_s | **derived** (era-level) | §1; [PRTOE_sqrt3_d
+  docs/PRTOE_cosmic_magnetism.md:144: **One of the two signs is now settled, and it settles as a coin.** The genesis tilt 2 ε_A λ R⁴ cos 4θ is invariant under the reflection θ → π/2 − θ, as are release-at-rest, the isotropic Hubble fricti
+  docs/PRTOE_cosmic_magnetism.md:218: | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** | |---|---|---|---|---|---| | 1 | Structural primordial vorticity supplies Harrison’s missing spin | **interpretation** / structural
+  docs/PRTOE_cyclic_torus_genesis.md:245: | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** | |---|---|---|---|---|---| | 1 | Arc is a coherent cyclic-genesis *map* assembled from real mechanisms, not a derivation | **interp
+  docs/PRTOE_deuterium_row.md:115: **It is not a heal, and must not be quoted as one.** The compilation moves the ΛCDM control by +1.23σ, essentially the same amount. **The model-versus-control gap changes by 0.067σ** — from −0.616σ to
+  docs/PRTOE_deuterium_row.md:426: **Two walls, not one, and they bind at different times.** A relic from before the medium condensed is worth separating into its two steps, because only one of them is forbidden. **Production is legal*
+  docs/PRTOE_galactic_atoms.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on α_c → m → r_1s propagation. > > **Machine residual waiting:** (1) α_c / onset posterior from zon_disp-
+  docs/PRTOE_galactic_atoms.md:167: **Non-claims / forbidden:** not “every nucleus hosts a soliton”; MW GC naive prediction excluded; not MOND; not “resolves GC tension” closed.
+  docs/PRTOE_granule_scoping.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on SP dynamics campaign + data confrontation. > > **Machine residual waiting:** (1) real Schrödinger–Pois
+  docs/PRTOE_granule_scoping.md:237: **Non-claims / forbidden:** not a mass pin from this scan; not dressed-up failed sim; not “sim proves null.”
+  docs/PRTOE_hubble_tension.md:5: > ## Residual freeze — 2026-08-05 (H₀ letter **NOT bookable** until bbnfix gate) > > **Document job:** COMPLETE-CONDITIONAL — mechanism, owned residual, ladder ceiling, and > literature scoreboard are
+  docs/PRTOE_hubble_tension.md:127: **Non-claims / forbidden:** not a closed H₀ win; not full SH0ES account; not nested-confirmed evidence; **no peek numbers as letter results**; pre-bbnfix ΔlnZ ≈ +2.6 is standing, not a live-pair booki
+  docs/PRTOE_igmf_helicity.md:314: | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** | |---|---|---|---|---|---| | 1 | Literature: ~2σ-class left-handed helical IGMF hints (Tashiro–Vachaspati / Fermi-LAT) | **adopted*
+  docs/PRTOE_induced_gravity.md:185: | # | Claim | Grade | Code / artifact | Residual / kill | |---|---|---|---|---| | Q2 | Area-law coefficient \(S=A/4G\) as heat-kernel ratio \(12\pi/48\pi\) | **paid** (minimal scalars) | `scripts/quan
+  docs/PRTOE_induced_gravity.md:206: | Residual | Grade | Evidence path | Blocks Goal A? | **Forbidden to claim** | |---|---|---|---|---| | Dynamical Page curve (Q6) | **OPEN** | full hub Q6; scaffold only; `page_curve_claimed: false` | 
+  docs/PRTOE_inflation_replacement.md:93: | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** | |---|---|---|---|---|---| | 1 | Horizon problem *addressed* by causal contact through cyclic bounce | **OPEN-BLOCKED** (conditiona
+  docs/PRTOE_neutrino_home.md:3: > ## Residual freeze — FULL honesty (neutrino home + Fairbank path) — 2026-08-05 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on joint Σm_ν posterior · Fairbank path **HOLD** · m_ββ package **READY
+  docs/PRTOE_neutrino_home.md:73: **Non-claims / forbidden:** not a precision Σm_ν discriminator; full sector lives in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md); no booked joint posterior until gate; no “posted” without arX
+  docs/PRTOE_neutrino_sector.md:3: > ## Residual freeze — consistency stamp (2026-08-04) > > **COMPLETE-CONDITIONAL** on the relation + m_ββ window. **Not** a booked Σm_ν joint posterior (that is [PRTOE_neutrino_home.md](PRTOE_neutrino
+  docs/PRTOE_quantum_gravity.md:292: > **What imposing the zero costs, settled 2026-07-29.** Visser's Eq. 29 is > 1/G ≈ −(1/2π)·str[k₁]·κ², with str[k₁] ≈ −1 in his estimate. **Setting str[k₁] = 0 therefore > switches Sakharov induction 
+  docs/PRTOE_quantum_gravity.md:325: > **Units (state both ways).** In Visser's normalisation, str[k₁] for the Standard Model alone is > **−1/2**. The same deficit counted in **Weyl spinors** is −3 (45 against the 48 required); the two >
+  docs/PRTOE_quantum_gravity.md:512: | Residual | Grade | Evidence path | What remains | **Forbidden to claim** | |---|---|---|---|---| | Dynamical **Page curve** \(S_{\mathrm{rad}}(v)\) vs Page time | **OPEN** (Q6) | claims ledger Q6; c
+  docs/PRTOE_quartet_clock.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on instrument verdict. > > **Machine residual waiting:** `cmp_prtoe_zon_disp` readout of registered pair 
+  docs/PRTOE_quartet_clock.md:164: **Non-claims / forbidden:** no instrument verdict; near-miss 7.5494 not a result; no “confirmed by chain” language.
+  docs/PRTOE_s8_growth.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on posteriors. > > **Machine residual waiting:** (1) `cmp_prtoe_conv_desi` **unproduced** (died twice; la
+  docs/PRTOE_s8_growth.md:87: **Non-claims / forbidden:** not a measured S₈ win; conversion off in headline chains; no archive-row posterior quotes.
+  docs/PRTOE_s8_tension.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on conversion posterior + matched lensing. > > **Machine residual waiting:** `cmp_prtoe_conv_desi` unprod
+  docs/PRTOE_s8_tension.md:121: **Non-claims / forbidden:** not published tension-easing; routeD/conv_desi exploratory; no archive posterior quotes.
+  docs/PRTOE_smbh_atoms.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE (desk residue paid; α_g **chain-gated**). > > **Machine residual waiting:** α_g = GMm/ħc and the α_g=1 mass scale ride the r
+  docs/PRTOE_smbh_atoms.md:172: **Non-claims / forbidden:** not a proof that SMBH cutoff is model’s; OOM numbers; no precision α_g from unconverged chains.
+  docs/PRTOE_strong_cp.md:37: **Not the medium's confining / g_p proposals.** Elsewhere the corpus explores whether a *dark* confining sector can source quantities such as the proton magnetic moment factor g_p. That is a different
+  docs/PRTOE_strong_cp.md:59: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Model has nothing to say about θ̄ (constitutional abstention) | **complete** as abstention | §2 scope theorem | Not a 
+  docs/exploratory/PRTOE_UV_completion.md:56: **What this changes vs #14:** #14 had c as a soft dial that *happens* to be ~1. Step 1 explains *why* ~1: a ~50× coupling jammed against the gravitational cap. So c~1 is not luck — it's the ceiling, s
+  docs/exploratory/PRTOE_information_paradox.md:87: Do not re-open (i) or (i′) as if they still gate the curve, and do not treat the coefficient payment as having delivered the curve. The open object is exclusively (ii): a dynamical Page curve for the 
+  docs/exploratory/PRTOE_information_paradox.md:100: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Paradox premises fail: no singularity shredder; finite unitary core; sonic horizon leaks at healing length | **interpr
+  docs/exploratory/PRTOE_light.md:65: - **A non-abelian coupling grows on descent.** Where it turns strong it confines, and the  confinement scale is *manufactured out of a pure number* by dimensional transmutation:  Λ = M_Pl·exp(−2π/(b·α
+  docs/exploratory/PRTOE_light.md:159: - light's existence and masslessness — Goldstone mode of the medium (theorem); - light's speed — the medium's own signal speed; massless dispersion forbids any other  (theorem); - light's role as the 
+  docs/exploratory/PRTOE_light.md:220: *The photon spent a century as physics' most familiar stranger: the particle every instrument is made of and no theory explains. Here it is the one excitation the medium cannot help but have — the rip
+  docs/exploratory/PRTOE_no_singularities.md:54: | pathology | GR's version | this model | mechanism | grade | |---|---|---|---|---| | **black-hole core** | curvature → ∞ at r = 0 | finite-density condensate/normal-phase core | metric ends at ξ; qua
+  docs/exploratory/PRTOE_no_singularities.md:143: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | One cutoff ξ removes all GR pathologies (synthesis) | **interpretation** (structural synthesis) | §1; component files 
+  docs/exploratory/PRTOE_quantum_entanglement.md:126: *Seating language allowed. “Transactions proved” / derived atomic QM **forbidden**.* 
+  docs/exploratory/PRTOE_quantum_superposition.md:141: *Seating language allowed. “Transactions proved” / derived atomic QM **forbidden**.* 
+  docs/exploratory/PRTOE_quantum_trio.md:13: > **Language fence (TR-D1, 2026-08-03) — owner conviction vs claim grade.**   > It is legitimate to *read* the three faces as the medium’s relations to how atomic / > laboratory structures show up in 
+  docs/exploratory/PRTOE_quantum_trio.md:204: *Seating language allowed. “Transactions proved” / derived atomic QM **forbidden**.* 
+  docs/exploratory/PRTOE_quantum_tunneling.md:33: In this ontology a "particle" is an excitation of the medium — and **the medium does not stop at the barrier**. The excitation's amplitude in the medium extends into the classically forbidden region a
+  docs/exploratory/PRTOE_quantum_tunneling.md:116: *Seating language allowed. “Transactions proved” / derived atomic QM **forbidden**.* 
+  docs/exploratory/PRTOE_white_holes.md:19: ## 1. Local white holes are forbidden by the model's time-orientation background
+  docs/exploratory/PRTOE_white_holes.md:130: * Promotable: the first genesis is a vacuum-state beginning rather than a singular point; the local white-hole picture is forbidden by the time-oriented medium; the Eardley instability requires an ext
+  docs/exploratory/PRTOE_white_holes.md:151: * **derived:** local white holes are forbidden in a globally time-oriented medium. * **derived support:** the compact-torus zero-net-energy cancellation on the Hamiltonian constraint. * **provisional:
+  docs/exploratory/PRTOE_white_holes.md:293: | # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** | |---|---|---|---|---|---| | 1 | GR: white hole = time-reverse of BH; Eardley instability; equations time-symmetric | **adopted** |
+  docs/exploratory/PRTOE_wormholes.md:17: ## 1. Traversable wormholes — forbidden by solvency
+  docs/exploratory/PRTOE_wormholes.md:30: **THE FLOOR LAW:** a throat doesn't just need extra negative energy — it needs the zero-point itself to go negative. The vacuum is the FLOOR (occupancy pinned at exactly one per cell — the pinch); dra
+  docs/exploratory/PRTOE_wormholes.md:76: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | W1 | Traversable wormhole needs sustained NEC violation / exotic matter | derived (literature) | Morris–Thorne 1988; Ford–
+  docs/BIBLIOGRAPHY.md:138: - **[MachacekVaughn1983]** M. E. Machacek, M. T. Vaughn, "Two-loop renormalization group equations in a general quantum field theory (I). Wave function renormalization," Nucl. Phys. B 222, 83 (1983). 
+
+## stale_chain (57)
+  docs/PRTOE_CHAIN_TABLES.md:7: > ## OPEN-MACHINE residual freeze — 2026-08-05 > > **Status:** OPEN-MACHINE (ledger for production posteriors). **Bookable: NO.** > > **Authority gate (bbnfix pair only):** both legs must show cobaya 
+  docs/PRTOE_CHAIN_TABLES.md:145: | parameter | mean | 68% limits | |---|---|---| | omega_b | 0.0228 | [0.022769, 0.022832] | | H0 | 69.983 | [69.833, 70.071] | | logA | 3.0407 | [3.0336, 3.0421] | | n_s | 0.96648 | [0.96348, 0.96765]
+  docs/PRTOE_CHAIN_TABLES.md:160: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Archive GetDist tables are diagnostics only (not posteriors) | **honest fence** | banner ⚠ section | R−1 never hit sto
+  docs/PRTOE_CODE_MANIFEST.md:16: > ### Live production stamp — **2026-08-05** > > Authority matches `docs/PRTOE_CHAIN_TABLES.md` residual freeze and > `python3 scripts/book_bbnfix_when_ready.py` → **REFUSED**. Progress-file > `accept
+  docs/PRTOE_CODE_MANIFEST.md:40: | item | home | status | |---|---|---| | The dispersion shape: ρ_rad = dust·(√(1+x²)−1), exact p and dp/dloga | CLASS source: background.c | IN — the live .so, direct-eval verified (2798.7) | | The ra
+  docs/PRTOE_CODE_MANIFEST.md:99: | # | build | what it computes | feeds | size | |---|---|---|---|---| | B1 | **the genesis solver** (the inverse problem) | ring dynamics from the four-line card (Γ, impulse, E, α(T/T_c)): R(t), core,
+  docs/PRTOE_DEPENDENCY_TREE.md:3: > ## Residual-currency banner — 2026-08-05 > > **Inheritance rule still holds:** a claim’s effective grade = its **weakest parent**. Body rows > below are the historical conditionality map; this banne
+  docs/PRTOE_DOMAIN_COVERAGE.md:18: | # | Domain | Verdict | One-line result | Recorded in | |---|--------|---------|-----------------|-----------| | 1 | Cosmology (CMB/BAO/SN background) | mover | The model: H₀ ≈ 69.9 (provisional, **n
+  docs/PRTOE_FAILURES_LEDGER.md:3316: **Why that is unsound.** PRyM is bit-for-bit deterministic — repeat runs agree to every digit — but its D/H output is **not smooth** in ω_b at the ~0.1% level. The wide-scan log-log residuals are ~10⁻
+  docs/PRTOE_FAILURES_LEDGER.md:3888: **What it claimed.** That the model chain's proposal was never re-learned because cobaya refuses to re-learn while R−1 exceeds `learn_proposal_Rminus1_max` (2.0, or 30.0 early), and a chain whose rank
+  docs/PRTOE_FAILURES_LEDGER.md:3904: Rank 0 never announces it. **"All chains are ready" never appears, and no convergence statistic is ever computed** — hence that run's empty `.progress` file. Proposal learning is a **collective MPI ch
+  docs/PRTOE_FAILURES_LEDGER.md:3911: **Why it survived as long as it did.** It explained every symptom: the proposal never adapted, the covmat mtime never advanced, R−1 never appeared to fall. And it named a real code path. But the evide
+  docs/PRTOE_FAILURES_LEDGER.md:3921: **What was lost.** The prognosis. "R−1 is locked out" implies more running time cannot help; "one rank is 53 samples short" implies it very nearly could. **A published claim about what will not work i
+  docs/PRTOE_READERS_GUIDE.md:9: > **Currency board (2026-08-05).** Production bbnfix MCMC pair is **NOT bookable** — re-verify with > `python3 scripts/book_bbnfix_when_ready.py` (CURRENT: lcdm R−1 **0.047912** N=24858 > t=2026-08-05
+  docs/PRTOE_READERS_GUIDE.md:97: - The statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and marginal   (pre-bbnfix stack). Nested sampling is **not running** and waits for cluster time. Production   bbnfix
+  docs/PRTOE_REFEREE_CALENDAR.md:10: > **Live read 2026-08-05** (from `chains/*.progress`, checkpoints, chain `.txt` mtimes, > `python3 scripts/bbnfix_mcmc_watch_diag.py`, `python3 scripts/book_bbnfix_when_ready.py`). > Progress-file `ac
+  docs/PRTOE_REFEREE_CALENDAR.md:31: | referee | grades | decision rule | ETA | |---|---|---|---| | **BBN-fixed model — `dyad_mnu_bbnfix`** (live, 3 MPI ranks) | Σm_ν joint + production-faithful D/H; gates letter H₀ + Laplace input | sto
+  docs/PRTOE_REFEREE_CALENDAR.md:42: > What zon_disp shows about the covariance fix, found 2026-07-20 while freeing cores. zon_disp > did **not** lack a seeded covariance — its config feeds `chains/dyad_mnu_seed.covmat` — and it > failed
+  docs/PRTOE_THREE_EQUATIONS.md:62: **How not to grade that gap.** Use the chain posterior, `varying_me` = 1.0126 ± 0.0041 (ε = 1.26 ± 0.41%), which puts 1.2543% near the centre. Do **not** use ±0.0079% from the concordance joint in the
+  docs/PRTOE_THREE_EQUATIONS.md:121: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence claim | **complete-conditional** / existence | banner; CC file | Lattice τ; radiative b
+  docs/PRTOE_baryogenesis.md:60:   **The n this rides on is a bound, not a determination, and the target moves with it.** The   first link in the derivation chain — the Kibble expression n_rms = √(L_gen/ξ_K)/2π — has no   input on re
+  docs/PRTOE_deuterium_row.md:163: | width built from | width | the row reads | |---|---|---| | Cooke ⊕ borrowed PRIMAT 0.037 (standing) | 0.0476 | **−2.94σ** | | Cooke ⊕ PRyM's own rates | 0.0384 | **−3.64σ** | | Cooke ⊕ PRyM rates ⊕ 
+  docs/PRTOE_fairbank_note_draft.md:7: > **Currency residual freeze — 2026-08-05.** Live bbnfix progress (quote R−1 **with N and timestamp**): model `dyad_mnu_bbnfix` R−1 = **0.056889** (N=24677, t=2026-08-05T07:54:30 — **1.14×** stop), tw
+  docs/PRTOE_fairbank_note_draft.md:84: **We do not claim the comparison as a result.** The matched relaunch that replaced that run has merged the basins (every sampled parameter agrees across ranks to within ~0.6 within-chain s.d.) and is 
+  docs/PRTOE_fairbank_note_draft.md:86: **Further reasons that stopped run could never have been claimed:** its model chain had 1.79× more samples (best-fit is a running minimum that favours the longer chain); neither side had converged (ΛC
+  docs/PRTOE_fairbank_note_draft.md:154: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Σm_ν = 61.4 meV NO; m_ββ ∈ [0.04, 5.3] meV | **complete-conditional** | neutrino_sector bridge | Relation registered, 
+  docs/PRTOE_galactic_atoms.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on α_c → m → r_1s propagation. > > **Machine residual waiting:** (1) α_c / onset posterior from zon_disp-
+  docs/PRTOE_galactic_atoms.md:157: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Galactic DM = gravitational atom with fixed m = 2.24×10⁻²⁰ eV | **complete-conditional** (candidate) | §0–1 | m roster
+  docs/PRTOE_granule_scoping.md:162: ΛCDM is nested in the model at varying_me = 1 (the fluid background is ΛCDM-identical by proof; ξ executed). Therefore the running Fairbank posterior yields a real Bayes factor without PolyChord via S
+  docs/PRTOE_hubble_tension.md:5: > ## Residual freeze — 2026-08-05 (H₀ letter **NOT bookable** until bbnfix gate) > > **Document job:** COMPLETE-CONDITIONAL — mechanism, owned residual, ladder ceiling, and > literature scoreboard are
+  docs/PRTOE_hubble_tension.md:39: **Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Standing evidence number is **pre-bbnfix Laplace-from-MCMC** (ΔlnZ ≈ +2.6; SH0ES-conditional; *
+  docs/PRTOE_hubble_tension.md:116: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | ε at recombination → H₀ ≈ 69.9 (fixed-ε; ~half SH0ES gap) | **machine-backed** provisional **pre-bbnfix** | production
+  docs/PRTOE_neutrino_home.md:3: > ## Residual freeze — FULL honesty (neutrino home + Fairbank path) — 2026-08-05 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on joint Σm_ν posterior · Fairbank path **HOLD** · m_ββ package **READY
+  docs/PRTOE_neutrino_home.md:21: **Status.** Lightest-mass relation and upward shift established in the model. Open: joint-fit consistency (**OPEN-MACHINE**, `dyad_mnu_bbnfix` book not ready 2026-08-05 — lcdm R−1 0.047912 below stop 
+  docs/PRTOE_neutrino_home.md:35: | setup | m_ncdm | |---|---| | ΛCDM fit | 0.000 eV | | model preference | 0.0875 eV | | model + free curvature | 0.071 eV |
+  docs/PRTOE_neutrino_home.md:62: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Neutrino mass medium-sourced (not ordinary Higgs Yukawa) | **interpretation** / structural | §1 | Inverse-seesaw / Maj
+  docs/PRTOE_quartet_clock.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on instrument verdict. > > **Machine residual waiting:** `cmp_prtoe_zon_disp` readout of registered pair 
+  docs/PRTOE_quartet_clock.md:15: > As of 2026-07-19 the unit question is resolved: the oscillating unit is the pair, derived > (§4a: the recorded repulsive λ forbids quartet binding; the Z4 term locks phases, not composites). > The §
+  docs/PRTOE_quartet_clock.md:107: ## 4b. Why the §1 marks do not grade a center The two-clock structure (two components — the zero-mode's H = m and the winding mode's k/a = m coexist, sharing one m; their ratio measures n) means the §
+  docs/PRTOE_quartet_clock.md:125: a spread of **0.1887** where a settled chain of this length and variance would scatter by **0.0032** — **59× too wide**. The recorded convergence statistic agrees and is worse than that: R−1 runs 11.3
+  docs/PRTOE_quartet_clock.md:136: This is the same defect the α_c band was withdrawn for (§6g: "an interval read at R−1 = 93 is the spread of a chain that has not found the distribution"). **The trajectory call remains ungraded and mu
+  docs/PRTOE_quartet_clock.md:155: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Oscillating unit is the **pair** (not quartet) | **derived** | §4a; λ>0 forbids quartet binding | Z4 locks phases not 
+  docs/PRTOE_s8_growth.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on posteriors. > > **Machine residual waiting:** (1) `cmp_prtoe_conv_desi` **unproduced** (died twice; la
+  docs/PRTOE_s8_growth.md:64: **`conv_desi` is not running.** It holds a single chain file last written **2026-07-22** at within-chain split-R̂ R−1 = 13.25 (real number, blind to single-basin confinement). Live production is the b
+  docs/PRTOE_s8_growth.md:79: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Conversion channel can ease late growth (mechanism) | **derived-from-recorded** / coded | CLASS dcdf_conv_*; §1 | DESI
+  docs/PRTOE_s8_tension.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on conversion posterior + matched lensing. > > **Machine residual waiting:** `cmp_prtoe_conv_desi` unprod
+  docs/PRTOE_s8_tension.md:43: ## 2. Where it lands (production numbers) The minimizer picks g = 0.12 → **S₈ = 0.821**, and the production joint fit records **0.823 — within 1σ of the KiDS-Legacy consensus (0.814 ± 0.012), holding 
+  docs/PRTOE_s8_tension.md:112: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | 1 | Right-sign S₈+H₀ pair: S₈≈0.823 with H₀=69.9 (point) | **machine-backed** provisional | §2 production numbers | Matche
+  docs/PRTOE_smbh_atoms.md:3: > ## OPEN-MACHINE residual freeze — 2026-08-04 > > **Status:** OPEN-MACHINE (desk residue paid; α_g **chain-gated**). > > **Machine residual waiting:** α_g = GMm/ħc and the α_g=1 mass scale ride the r
+  docs/exploratory/PRTOE_UV_completion.md:240: Preliminary read of the running dyad_mnu chain (~9200 rows, R-1~0.2, STALLED/plateaued): - **Σm_ν = UPPER LIMIT** — mean~0.055 eV, ~24% weight piled below 0.02 eV, min=0,  rough 95% upper ~0.13 eV (co
+  docs/exploratory/PRTOE_fairbank_note_HOLD.md:67: - Best fit 1377.89 (model) vs 1379.79 (ΛCDM) — nominally 1.9 log units the model’s way - **Not claimed as a result:** 1.79× more samples on our chain; neither converged (ΛCDM R−1 ≈ 1.0; ours no R−1); 
+  docs/exploratory/PRTOE_quantum_entanglement.md:118: | Residual | Status | Unblock | |---|---|---| | Born rule value | OPEN-BLOCKED | scored kill band *before* any claim (SP-D4 template) | | Medium pair \(r\) + pair Hamiltonian | MISSING_INPUT | explici
+  docs/exploratory/PRTOE_quantum_superposition.md:133: | Residual | Status | Unblock | |---|---|---| | Born rule value | OPEN-BLOCKED | scored kill band *before* any claim (SP-D4 template) | | Medium pair \(r\) + pair Hamiltonian | MISSING_INPUT | explici
+  docs/exploratory/PRTOE_quantum_trio.md:112: The trio's thermodynamic door is the thermal program's jurisdiction, so any result on the medium's rate side speaks to both floors at once. The standing example: in the deep sub-T_c phonon-gas limit, 
+  docs/exploratory/PRTOE_quantum_trio.md:176: | # | Claim | Grade | Evidence | Residual / blocker | |---|---|---|---|---| | T1 | QM trio = three readout doors of one condensate (seating) | **interpretation** | §2; three-door frame in `docs/PRTOE_
+  docs/exploratory/PRTOE_quantum_trio.md:196: | Residual | Status | Unblock | |---|---|---| | Born rule value | OPEN-BLOCKED | scored kill band *before* any claim (SP-D4 template) | | Medium pair \(r\) + pair Hamiltonian | MISSING_INPUT | explici
+  docs/exploratory/PRTOE_quantum_tunneling.md:108: | Residual | Status | Unblock | |---|---|---| | Born rule value | OPEN-BLOCKED | scored kill band *before* any claim (SP-D4 template) | | Medium pair \(r\) + pair Hamiltonian | MISSING_INPUT | explici
+
+## repair_log (17)
+  docs/PRTOE_DOMAIN_COVERAGE.md:89: Adding a fourth entry here would be a mistake. The correct response to "does the model say anything about X" for a non-physics X is silence, not a row.
+  docs/PRTOE_FAILURES_LEDGER.md:325: *One near-miss worth recording, because it is check 21's direction — a correct number nearly overwritten with a wrong one and filed as a fix.* This pass read `bbn_witness` and `me_mechanism_math` carr
+  docs/PRTOE_FAILURES_LEDGER.md:422: | what went wrong | the correction | provenance | |---|---|---| | **Process error 35: FIVE claims-from-a-label in one day** — (a) "don't concede the code-theory crux", defended from `varying_me: 1.012
+  docs/PRTOE_FAILURES_LEDGER.md:586: **What stands:** the C-code growth-ramp fix (it aligns the CMB-side pipeline with the BBN engine's standing treatment; late-time effect 10⁻⁶ — harmless and correct); the relaunched evidence run (unaff
+  docs/PRTOE_FAILURES_LEDGER.md:916: **What was wrong.** [PRTOE_bbn_witness.md](PRTOE_bbn_witness.md) presented **one** D/H chain built out of **two different PRyM runs on two different baryon densities**, bridged by an η-flow that canno
+  docs/PRTOE_FAILURES_LEDGER.md:1733: **What happened:** the high-statistics check owed to P-2026-041 (f̄ = 2/π) was first run as a measurement of a **friction-damped orbit's polar angle** — not the winding average the entry registers. Wr
+  docs/PRTOE_FAILURES_LEDGER.md:2131: **A second correction, to the correction (2026-07-20, #182).** The **250–530 keV** first recorded here does not follow from the exact kernel over the stated L−1 ∈ [1, 10]: recomputed from the same ker
+  docs/PRTOE_FAILURES_LEDGER.md:2292: **And the pricing's own first verdict was wrong, corrected the same hour.** "Clears by ~900×" was computed inside S2's orbit — three decades inside the soliton's core, where almost none of its mass si
+  docs/PRTOE_FAILURES_LEDGER.md:2433: **What it costs, and what survives.** The verdict is unchanged in kind: on the corrected slope the current data sits **−0.54σ** from the line rather than −0.31σ — still comfortably consistent, so noth
+  docs/PRTOE_FAILURES_LEDGER.md:2825: **The lesson (process).** *A rate is not a rate until you say per what.* The sweep's two rates were both written as "Γ ~ … m" and looked commensurable; one was per particle and one was per cloud. Swee
+  docs/PRTOE_FAILURES_LEDGER.md:2848: **The failure mode, named.** A convention factor was mistaken for a physical uncertainty, and then the *same* factor was spent a second time buying an agreement. Because 0.4204 happens to be √2 × QCD'
+  docs/PRTOE_FAILURES_LEDGER.md:3334: **Consequences.** A 1.1% baryon shift costs **1.8%** of deuterium, not 2.0%. The chains' BBN prior, which codes −1.6, is low by 4% — inside the numerics floor, so **the sampler was right on this axis 
+  docs/PRTOE_FAILURES_LEDGER.md:4193: **Why it was wrong.** I assumed the shift is ε·Θ. It is not. `PRTOE_me_trigger.md` §5 gives **m_e = m_bare(1 + κ_Θ·Θ) with κ_Θ = −2ε/(1+ε) = −2.478%** — negative, and calibrated so that **Θ = ½ lands 
+  docs/PRTOE_FAILURES_LEDGER.md:4220: > **What this section is.** Material moved **whole** from `PRTOE_PREREGISTERED_PREDICTIONS.md` under owner policy (audience-facing registry = final-product voice; Failures Ledger holds repair logs, am
+  docs/PRTOE_INDEPENDENCE_AUDIT.md:60: The audit checks pairwise collapse among *recorded* agreements. It cannot rule out an unrecorded shared premise — an assumption two derivations both use without either naming it. **R4-additivity-neck 
+  docs/PRTOE_igmf_helicity.md:232: The missing object cannot be mistaken for a number. Helicity is **bilinear** — H = 2·Lk·Φ_tor·Φ_pol — so sign(H_kin) = sign(Φ_pol)·sign(Φ_tor). The genome already supplies one factor: the toroidal cir
+  docs/exploratory/PRTOE_v4_dCDF_derivation.md:23: **Status: derived, implemented, and first successfully run end-to-end (2026-07-04)** — background+perturbations+Cl/Pk all complete with sane (non-NaN, smoothly-varying) output; classy import confirmed
+
+## revision_verb (3)
+  docs/PRTOE_FAILURES_LEDGER.md:3127: **What survives.** The arithmetic is untouched: k_*ξ = (2π²A_s)^⅓ = 3.4502×10⁻³ at R = 1 is an exact restatement of the closed form, and the factor-250 convention spread, the C = 1.009 ± 0.014 data li
+  docs/PRTOE_indirect_detection.md:18: Indirect detection hunts dark matter's self-annihilation or decay: the Galactic-center GeV excess, the 511 keV positron line, the AMS positron fraction, (formerly) the 3.5 keV X-ray line. Each has spa
+  docs/BIBLIOGRAPHY.md:68: - **[HartChluba2018]** L. Hart, J. Chluba, "New constraints on time-varying fundamental constants from Planck," MNRAS 474, 1850 (2018), arXiv:1705.03925. - **[HartChluba2020]** L. Hart, J. Chluba, "Up
+
+## 022_voice (3)
+  docs/PRTOE_FAILURES_LEDGER.md:5472: They sit **0.44% apart**, and that gap *is* the dark-energy prediction — there is nothing else in this test to measure. A width of ±0.02 on T_c/√σ is ±5.7%, thirteen times wider than the gap, so a det
+  docs/PRTOE_INDEPENDENCE_AUDIT.md:30: | # | claimed agreement | data-side | assumption-side | verdict | |---|---|---|---|---| | 1 | Finiteness count ↔ Navarro-Salas 2024 conformal condition | — | **collapses**: both are N_½ = 4·N₁ (at N₀ 
+  docs/PRTOE_lattice_note.md:92: So a determination carrying **σ > 0.44% cannot distinguish crown from null** — and, more sharply, **even σ = 0 cannot** at present cosmological precision: the null inherits ρ_Λ’s error and contains th
+
+## fork_decided (3)
+  docs/PRTOE_lattice_note.md:92: So a determination carrying **σ > 0.44% cannot distinguish crown from null** — and, more sharply, **even σ = 0 cannot** at present cosmological precision: the null inherits ρ_Λ’s error and contains th
+  docs/exploratory/PRTOE_forced_combination.md:63: The equilibrium spacing in string units is fixed by one coefficient: **q̃²/√σ — the medium's vortex stiffness in string units** (pure limit: the kernel target c_K = 4/(3·ln 2) demands q̃² = c_K/√3 = 1
+  docs/exploratory/PRTOE_forced_combination.md:96: The closing state: the chain hangs on three observables of one lattice theory, but they are two tests. T_c/√σ (the P-048 fork: ½ln2 = 0.34657 vs the observation-inverted 0.34506) is one independent re
+
+## date_2026 (1)
+  docs/BIBLIOGRAPHY.md:68: - **[HartChluba2018]** L. Hart, J. Chluba, "New constraints on time-varying fundamental constants from Planck," MNRAS 474, 1850 (2018), arXiv:1705.03925. - **[HartChluba2020]** L. Hart, J. Chluba, "Up

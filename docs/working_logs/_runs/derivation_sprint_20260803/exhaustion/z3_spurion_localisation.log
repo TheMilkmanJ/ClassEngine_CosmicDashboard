@@ -1,0 +1,44 @@
+============================================================================
+THE ZERO-PARAMETER NODE AGAINST THE MEASURED SEATS
+============================================================================
+  a (the only fitted quantity) = 17.715561710 MeV^1/2
+
+  seat     sqrt(m) measured        predicted       residual     relative
+  ------------------------------------------------------------------------
+  tau          42.152817225     42.153083765     -2.665e-04       -6.32 ppm
+  e             0.714841906      0.714821289     +2.062e-05      +28.84 ppm
+  mu           10.279026000     10.278780076     +2.459e-04      +23.93 ppm
+
+  residuals sum to +2.44e-15 -- identically zero, since a is their mean,
+  so only two of the three are independent and no seat can be off on its own.
+
+============================================================================
+WHERE THE BREAKING SITS, ON EACH READING
+============================================================================
+  ADDITIVE on sqrt(m) -- largest first:   tau (-2.67e-04), mu (+2.46e-04), e (+2.06e-05)
+  MULTIPLICATIVE      -- largest first:   e (+28.8 ppm), mu (+23.9 ppm), tau (-6.3 ppm)
+
+  The two orderings disagree: absolutely the tau carries most, relatively the electron
+  does, by 1.2x over the muon and 5x over the tau. That is not evidence
+  either way -- it is arithmetic. The electron's seat ratio is the smallest of the three
+  (0.0403 against 2.3794), so any absolute perturbation looks largest there
+  in relative terms whatever its origin.
+
+============================================================================
+SO THE TEST DOES NOT BITE, AND THIS IS WHAT WOULD MAKE IT
+============================================================================
+  The prediction 'the breaking is electron-localised' is only testable once the spurion's
+  form is fixed, because the two natural forms rank the seats oppositely. What the emergent
+  reading owes is therefore not a size but a FORM: does the doping perturb sqrt(m)
+  additively (a shift of the seat) or multiplicatively (a rescaling of the hopping)?
+
+  Those are distinguishable. An additive spurion breaks the circulant structure itself and
+  would show up as a departure from the Parseval identity Q = 1/3 + A^2/6; a multiplicative
+  one preserves the circulant and moves only A and phi. The Parseval identity is exact on
+  the measured masses by construction, so it cannot discriminate either -- but a FOURTH
+  measured mass would, and the sector has none.
+
+  Recording the negative result: the emergent-Z3 reading makes no further prediction that
+  the three charged-lepton masses can test. It stands or falls on the spurion, and three
+  numbers with one fitted scale leave two residuals, which is exactly the freedom two
+  unknowns (A and phi) already use up.

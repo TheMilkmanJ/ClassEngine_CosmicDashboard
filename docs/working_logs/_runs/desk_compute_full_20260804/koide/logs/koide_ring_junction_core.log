@@ -1,0 +1,58 @@
+==============================================================================
+Junction-core candidate: can a junction-on-face penalty restore the ring?
+==============================================================================
+
+A. Scale-relaxed identity and anchors (closed forms in q̃² units)
+   E*(equilateral)          = +3.000000   (closed form: 3)
+   E*(chain)                = +2.738376   (closed form: +2.738376)
+   E*(120° isosceles)       = +2.882217   (closed form: 3 + 3ln2 − 2ln3 = +2.882217)
+
+B. The relaxed flattening path (junction interior until 120°)
+   apex θ     E*(θ)      junction
+     60.0°  +3.000000   interior
+     70.0°  +2.999111   interior
+     80.0°  +2.993709   interior
+     90.0°  +2.980945   interior
+    100.0°  +2.958965   interior
+    110.0°  +2.926424   interior
+    119.9°  +2.882720   interior
+    120.0°  +2.882217   ON middle face
+    140.0°  +2.800578   ON middle face
+    160.0°  +2.753685   ON middle face
+    180.0°  +2.738376   ON middle face
+   monotone decreasing along the path: True
+
+C. The mechanism test
+   energy drop BEFORE the junction ever touches a face:
+     E*(60°) − E*(→120°) = +0.117280 q̃²
+   A junction-contact penalty δ acts only at θ ≥ 120°. Even δ → ∞
+   (an impenetrable wall at contact) leaves the minimum at the 120°
+   isosceles, +0.1178 q̃² BELOW the equilateral ring.
+   The equilateral point is a one-sided cubic inflection along this
+   path — it is never the minimum for ANY δ ∈ [0, ∞].
+
+D. Size vs mechanism, and the layer's own expansion parameter
+   penalty size needed to beat the chain: 0.2616 q̃² = 0.291 m_e  (natural core ~ √σ = m_e: available)
+   BUT mechanism fails regardless of size (part C).
+   thin-string expansion parameter at the operating point:
+     w/d = (w·√σ)/c₂ = 0.8–1.1 / 1.9236 = 0.42–0.57
+   The faces sit ~2 string-widths apart: the classical thin-string
+   layer — the three-term balance AND this instability analysis —
+   is uncontrolled at O(1) here.
+
+VERDICT
+  1. Candidate (a), junction-core energetics: FAILS at the thin-string
+     layer. The needed size is natural, but the mechanism cannot work:
+     a contact effect cannot cure an interior instability, and the
+     energy is already 0.118 q̃² below the ring before contact.
+  2. The stability debt escalates: at w/d ≈ 0.5 the ring-vs-chain
+     question is genuinely undecidable at the classical layer. It is
+     a beyond-thin-string question — the geometry of the three-source
+     ground state (Y-junction-like vs collinear) is lattice-computable
+     in the same SU(2) N_f = 3 campaign that referees T_c/√σ, F_π/√σ,
+     and w·√σ.
+  3. Candidates (b) zero-point of the soft pair and (c) color-structure
+     rigidity remain open — and (b) is strengthened: soft modes at
+     w/d ≈ 0.5 have O(1) quantum corrections.
+  4. Nothing promoted; ledger follow-up owed on (a).
+==============================================================================

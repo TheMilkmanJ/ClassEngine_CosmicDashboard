@@ -1,0 +1,28 @@
+==============================================================================
+(i) The on-site/bond ratio from the recorded binding — the proxy fails
+==============================================================================
+
+   target: ε_charged/ε_neutral = 2  (⟺ a = 3b ⟺ Q = 2/3)
+
+   classical layer (positional Hessian, recorded):
+     α_d = 0.0:  ε_n = +3.00, ε_c = -0.00  →  ratio -0.000   (need +2.000)
+     α_d = 0.3:  ε_n = +1.20, ε_c = -0.45  →  ratio -0.375   (need +2.000)
+     The charged (shape) sector has NO restoring force classically —
+     ratio 0 or negative, never 2. Thermal charged power would be
+     unbounded: Q → 1, the recorded wrong answer.
+
+   quantum-stabilized layer (the zero-point survivor's landscape):
+     V_eff rises as u^(3/2) near the ring point (transverse stiffness
+     grows ∝ √u — the shape-QM result), so the effective charged
+     stiffness AT the ring is divergent: a cusp. Ratio → ∞, thermal
+     charged power quenched: Q → 1/3. Also never 2.
+
+VERDICT (i): NEGATIVE, and localizing. Under the geometric proxy the
+   recorded binding gives ratio 0 (classical) or ∞ (quantum) — it
+   brackets 2 without ever producing it. Conclusion: the a = 3b
+   relation, if real, does NOT live in ring geometry. It must live in
+   the mass-generation (kernel) dynamics — the hop/attenuation sector
+   that sets √m, where the K1 screened-correlator reading already
+   operates. Fences: the δ√m ∝ δr proxy is the thing tested; its
+   failure is the result.
+==============================================================================

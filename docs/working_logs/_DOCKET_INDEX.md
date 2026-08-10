@@ -137,7 +137,7 @@ lives. Cite a number for what its file says, never for what its title promises.
 | 89 | The T1–T16 residual-debt census | closed |
 | 90 | THE GATE'S ENERGY BOOKKEEPING | closed |
 | 91 | λ tension check: derived 2×10⁻⁹¹ vs the black-hole core's ≳10⁻⁹⁰ | closed |
-| 92 | THE AREA LAW FROM THE MEDIUM (closes the Page curve) | closed — **mis-graded once** |
+| 92 | THE AREA LAW FROM THE MEDIUM (closes the Page curve) | closed — **ON THE COEFFICIENT ONLY** (scope annotation 2026-08-03, Claude red C7): the paid object is the 1/4 area-law *coefficient* / heat-kernel ratio; the dynamical **Page curve remains D9 OPEN** (phonon Hawking dynamics un-run). Title phrase "(closes the Page curve)" is historical mis-grade language, not a curve booking. |
 | 93 | THE DARK-ENERGY O(1) COEFFICIENT (the partial Gibbs–Duhem object) | closed — **mis-graded**; the real object is #123 |
 | 94 | T5: the cavity C_ℓ computation | closed |
 | 95 | T14: the rectification link | closed — **mis-graded**; the rectification was never computed, see #147 and #154 |

@@ -1,0 +1,6 @@
+# Single-point timing probe 2026-08-03 (nice -n 19)
+# Command: python3 scripts/prym_ramped_splice.py 1.012543 0.179
+RAMPED 1.012543 1.2543 0.1790 wb=1.0000 3.044389 0.247685 0.249019 2.473818 1.043397 5.449412
+ELAPSED_SEC 244.84
+# Host: nproc=1, ~23 GiB RAM, numba 0.66.0 + numpy 2.4.6 present
+# Note: YPBBN=0.249019 vs booked windowed 0.248995 (numba/path difference; not used as a new book)

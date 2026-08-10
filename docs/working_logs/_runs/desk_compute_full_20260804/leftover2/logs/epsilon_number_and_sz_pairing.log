@@ -1,0 +1,93 @@
+==============================================================================
+  PART 1 — A NUMBER FROM DATA THE PAPER ALREADY CITES
+==============================================================================
+
+  E-A  x = g_p alpha^2 / mu,  mu = m_p/m_e — differentiate
+       d ln x = 1 d ln g_p + 2 d ln alpha + (-1) d ln mu
+       g_p, alpha fixed  =>  d ln x = 1 * (-d ln mu) ... and d ln mu = -eps
+  ok    E-A1 the conversion gives d ln x = +eps   so a measurement of Delta x/x IS a measurement of eps, one-to-one
+
+  E-B  the number
+       Rahmani 2012:  Delta x/x = (-0.1 +/- 1.3) e-6
+       therefore      eps       = (-0.1 +/- 1.3) e-6  (stat)
+  ok    E-B1 the statistical precision is the paper's own quoted 1.3e-6   1.30e-06
+
+  E-C  combining with the systematic
+       systematic (Kanekar 2010): 6.7 e-6
+       combined:                  6.8 e-6
+       => eps = (-0.1 +/- 6.8) e-6
+       => |eps| < 13.6 e-6  at 2 sigma
+  ok    E-C1 the systematic dominates the statistical   5.2x larger — which is why the paper stresses systematics
+  ok    E-C2 and the result is consistent with no shift   central value well inside the combined error
+
+==============================================================================
+  PART 2 — THE SZ PAIRING
+==============================================================================
+
+  E-D  three reconstructions, three weights
+
+    probe                  integrand                   w(m_e)  w(alpha)
+    dispersion measure     INT n_e dl                      -1         1
+    kinetic SZ             INT n_e v dl                    -2         2
+    thermal SZ             INT n_e kT dl                   -3         2
+  ok    E-D1 the weights are -1, -2, -3
+  ok    E-D2 sigma_T's -2 follows from r_e ~ alpha/m_e squared
+  ok    E-D3 and tSZ picks up one more power from 1/(m_e c^2)
+
+  E-E  do the pairwise ratios carry signal?
+       dispersion measure   / kinetic SZ         net w(m_e) =    1,  net w(alpha) =   -1
+       dispersion measure   / thermal SZ         net w(m_e) =    2,  net w(alpha) =   -1
+       kinetic SZ           / thermal SZ         net w(m_e) =    1,  net w(alpha) =    0
+  ok    E-E1 every pair carries nonzero net m_e weight   so any two of the three probes constrain eps
+
+  E-F  ANTI-CONTROL: does the column cancel, as it would for one integral?
+       DM   integrates n_e
+       kSZ  integrates n_e * v      (velocity-weighted)
+       tSZ  integrates n_e * kT     (temperature-weighted)
+  ok    E-F1 the three integrands are DIFFERENT moments, so no exact cancellation   the astrophysical weighting must be modelled -- which is precisely what the published cross-correlation analysis does, and why this is a pairing rather than a clean division
+  ok    E-F2 exact cancellation requires the SAME integral, which only DM-vs-DM gives   recorded so the derivation's clean case is not confused with the observational one
+
+  E-G  ANTI-CONTROL: does alpha move these differently from m_e?
+  ok    E-G1 the net alpha and m_e weights differ on every pair   so the SZ pairings inherit the paper's alpha/m_e discrimination
+
+==============================================================================
+  RESULT — THE PAPER CAN QUOTE A NUMBER, AND THE PAIRING IS REAL
+==============================================================================
+
+  PART 1. The constraint was already inside the paper's own citations. Because
+  x = g_p alpha^2/mu and the paper already holds g_p and alpha fixed, d ln x = +eps
+  exactly, so Rahmani et al.'s Delta x/x IS a measurement of eps:
+
+      eps = (-0.1 +/- 1.3) e-6  (stat)
+              +/- 6.7 e-6  (sys, Kanekar et al.)
+          = (-0.1 +/- 6.8) e-6  combined,   |eps| < 13.6 e-6 at 2 sigma
+                       at 1.17 < z < 1.56
+
+  The paper states the PRECISION and stops. Stating the RESULT costs one sentence and
+  removes the "constrains nothing" objection outright. Note this is a REINTERPRETATION of
+  someone else's measurement under the paper's stated assumptions, not a new measurement,
+  and it must be written that way.
+
+  The systematic exceeds the statistical error by 5x, which is not a weakness of the
+  presentation but the actual state of the field, and it is exactly why a ratio test
+  across bands with different systematics is worth building.
+
+  PART 2. The Thomson route is not hypothetical. sigma_T ~ alpha^2/m_e^2 gives the kSZ
+  column weight -2, and the tSZ pressure column -3 because Compton-y carries an extra
+  1/(m_e c^2). Against the dispersion row's -1, every pairing has nonzero net weight, and
+  the net alpha and m_e weights differ on every pair, so the pairings inherit the paper's
+  own sign-based discrimination.
+
+  AND THE CROSS-CORRELATION HAS BEEN MEASURED. Takahashi, Ioka, Shirasaki & Osato
+  (arXiv:2511.02155) report the angular cross-correlation of dispersion measures from 133
+  localized FRBs with Planck and ACT Compton-y maps over 1'-1000': amplitude
+  A = 2.01 +/- 0.50 (4.0 sigma) with Planck, 1.23 +/- 0.82 (1.5 sigma) with ACT.
+
+  THE CAVEAT THAT MUST SURVIVE INTO ANY TEXT. These are three different MOMENTS of the
+  same gas -- density, velocity-weighted, temperature-weighted -- so the unknown does not
+  divide out the way it does between two probes of one identical integral. The clean
+  cancellation belongs to the derivation; the observational version needs the
+  astrophysical weighting modelled, which is what that analysis already does and which is
+  where its 4 sigma is spent. Writing this up as though the column simply cancels would
+  be false, and would be caught.
+

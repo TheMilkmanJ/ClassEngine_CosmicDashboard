@@ -1,0 +1,57 @@
+============================================================================
+THE CHAIN, AT d = 3
+============================================================================
+  tau = ln2/2                0.3465736
+  T_c = tau.m_e              177.099 keV
+  rho_Lambda^(1/4) at d = 3  2.2599 meV
+  observed                   2.2500 meV   ->  +0.44%   (recorded +0.44%)
+
+============================================================================
+WHAT EACH CONSTRAINT DEMANDS OF d
+============================================================================
+  constraint                                            d    in band?
+  --------------------------------------------------------------------
+  the indirect band on alpha_c                 [2.8092, 2.9326]
+  the hierarchy anchor's exact landing             2.9211         yes
+  the observed dark-energy density 2.25 meV        2.9934          NO
+  the spatial dimension (theory)                   3.0000          NO
+
+============================================================================
+SO THE SET DOES NOT CLOSE
+============================================================================
+  band top                                   2.9326
+  d the observed dark energy requires        2.9934   -> +2.08% above the band
+  d the theory supplies (spatial dimension)  3.0000   -> +2.30% above the band
+  d the hierarchy anchor wants               2.9211   -> inside, at 91% of its height
+
+  The band agrees with the hierarchy anchor and disagrees with BOTH the geometric
+  d = 3 and the d the observed dark-energy density requires — and those two agree with
+  each other to 0.22%, which is what the floor's +0.44% landing means.
+
+============================================================================
+WHAT MOVING d INTO THE BAND COSTS THE DARK-ENERGY FLOOR
+============================================================================
+         d    rho^(1/4) [meV]   vs observed
+  ------------------------------------------
+            3 (theory)        2.2599        +0.44%
+          2.9934 (obs)        2.2500        -0.00%
+     2.9326 (band top)        2.1595        -4.02%
+       2.9211 (anchor)        2.1425        -4.78%
+  2.8092 (band bottom)        1.9816       -11.93%
+
+============================================================================
+READING
+============================================================================
+  The convergence found earlier -- the anchor and the band both wanting alpha_c below
+  3.alpha(0) -- reads as evidence for a free medium constant only while d is free.
+  It is not: the spine ties the same d to the dark-energy floor through d^2/2, and
+  there d = 3 is what buys the +0.44% landing. Letting alpha_c drift down to satisfy
+  the band drags the floor with it, to -4.0% at the band's top and -11.9% at its bottom.
+
+  So the three constraints are mutually exclusive at about the 2% level, and the
+  choice is between them rather than between the fork's two horns. Either the
+  indirect band is wrong, or the dark-energy floor's d^2/2 does not carry the same d
+  as the coupling, or the +0.44% landing is a coincidence that a corrected d spoils.
+  Nothing recorded decides which, and the second option is the cheapest to test:
+  it asks only whether the geometry factor and the coupling factor were ever one
+  quantity, which is a statement about the derivation rather than about any datum.

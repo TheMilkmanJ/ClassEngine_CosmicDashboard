@@ -1,0 +1,69 @@
+============================================================================
+THE ANCHOR'S HONEST PRECISION
+============================================================================
+
+  k                = 1.36461191
+  M (recorded form)= 1576.4 GeV      [M_red e^(-1/(k a_c) - 3/2)]
+  M (gap eq. exact)= 3152.7 GeV      [factor 2 NOT absorbed]
+  4*pi*m_H         = 1573.9 +/- 2.1 GeV
+  quoted agreement = 0.15%
+
+[1] The sensitivities the file itself records
+    d lnM/d lnk       = 33.47   (corpus: 33.47)
+    d lnk/d lnalpha_c = -0.2301
+    d lnM/d lnalpha_c = 25.77   (corpus: 25.8)
+
+    So a 1% error anywhere in alpha_c becomes a 26% error in the anchor, and a
+    1% error in k becomes 33%. The construction amplifies; it does not average.
+
+[2] The ambiguities the file names, priced
+
+    (i) The convention factor. 6d records two available conventions differing
+        by exactly two: 1576 GeV against 3153 GeV. The recorded headline uses
+        one of them. That is a factor 2 with no argument in the number itself.
+
+    (ii) The 6f residual. Section 6e establishes the constituents are charged
+         (compensated, not neutral), so some Standard Model running survives on
+         top of Thomas-Fermi screening. Sizing it at the pairing scale:
+           alpha(M_Z)     -> anchor x  5.58
+           alpha ~ 3 TeV  -> anchor x  8.89
+
+[3] The honest band
+
+    lower edge (convention value, residual off) :    1576.4 GeV
+    upper edge (exact convention x residual at M_Z):   17576.5 GeV
+    span                                        : x11.2
+
+    4*pi*m_H = 1573.9 GeV sits at the very BOTTOM of that band.
+    Expressed as a fraction of the span, the target sits at -0.0% of the way up.
+
+============================================================================
+VERDICT
+============================================================================
+
+    THE CRITICISM IS CORRECT, and the corpus already contains its own correction --
+    it simply is not propagated to the headline.
+
+    The anchor is advertised as landing within 0.14% of 4*pi*m_H. But the file itself
+    records a factor-2 convention ambiguity (6d) and, once 6e's charged constituents
+    are taken seriously, a residual running worth a further x5.6 at the Z pole (6f).
+    Composed, the honest band spans a factor of 11, from 1576 GeV to 17577 GeV.
+
+    A quoted agreement of 0.14% against a band spanning a factor of 11 is not a
+    precision result. It is the bottom edge of an order-of-magnitude range, and the
+    two extra digits carry no information: with d lnM/d lnk = 33.5, reproducing
+    1576.1 rather than 1576 requires k to eight digits, which no part of the physics
+    supplies.
+
+    WHAT SHOULD BE QUOTED: the anchor lands at the electroweak scale, within a factor
+    of a few, with the direction of every named residual being adverse. That is a real
+    and non-trivial statement -- a construction with no electroweak input landing
+    within an order of magnitude of 4*pi*m_H is worth reporting. It is simply not a
+    0.14% statement, and 6d's own words ("factor-of-a-few band") already say so.
+
+    This does not change the physics. It changes what may honestly be claimed about it,
+    which is the only thing this script was asked to decide.
+
+============================================================================
+CHECKS: 6/6 passing
+============================================================================

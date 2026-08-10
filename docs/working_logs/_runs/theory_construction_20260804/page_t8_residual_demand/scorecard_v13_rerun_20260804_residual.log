@@ -1,0 +1,42 @@
+============================================================
+R-PAGE protocol scorecard (arrays-only recompute)
+============================================================
+input: /home/themilkmanj/prtoe_class/docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/coevolve_v13.json
+milestone: R_PAGE_coevolve_T8_era
+input_sha256: 048de43e1bc766c8…
+tool_sha256: 06bd9661be39d1ff…
+page_curve_claimed: False  (never set true by this tool)
+
+--- BINDING T1–T7 ---
+  T1 interior max:     True  (u*=0.2670)
+  T2 reach u>=0.9:     True  (u_late=0.9021)
+  T2 frac/noise:       True/True  → T2_all=True
+  T3 early rise:       True
+  T4 nulls:            True  (N1=True N2=True N3=True N4=True)
+  T5 continuum:        True
+  T6 artifacts:        True
+  T7 claim flag:       False
+  T1–T6 machine:       True
+  drop=0.010546  S*=0.016688  sigma_jit=1.000e-08
+
+--- BINDING T8 (ACTIVE_BINDING; binding=True) ---
+  T8_pass:             False
+  S_star:              0.016688
+  threshold 0.1*S*:    0.001669
+  occupied bins:       83
+  worst bin:           [0.1, 0.11)  range=0.0018883423986319587  range/S*=0.11315435176934464  n=12  pass=False
+  failing bins:        1
+
+--- DC3 weight-invariant reach (Claude) ---
+  status:              PASS
+  computable:          True
+  v_frozen env/raw:    0.9021 / 0.9021  (dyn env=0.9021)
+  method:              e_c_raw_stored
+  weight_invariant_ok: True
+  structural_tag:      STRUCTURAL_PURE_ENERGY_FRACTION
+
+CANDIDATE_TURN_T1_T6_only:        True
+CANDIDATE_TURN_binding (T1–T8+DC3): False  (DC3 gates when computable=True)
+page_curve_claimed remains false — this is not a CANDIDATE filing.
+============================================================
+wrote docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/coevolve_v13_scorecard_recompute.json

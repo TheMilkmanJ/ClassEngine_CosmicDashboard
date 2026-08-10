@@ -1,0 +1,40 @@
+==============================================================================
+The genesis cascade, assembled — every step priced
+==============================================================================
+
+1. equilibration at the top (vertex κm_e0 = 7.15e-26 eV⁻¹):
+   T = 1.0e+27 eV:  Γ/H (minimal vertex) = 2.5e+03
+   T = 1.2e+28 eV:  Γ/H (minimal vertex) = 3.0e+04
+   file's fuller channel count: gates 1e+08–1e+09 — either way ≫ 1: ONE BATH AT GENESIS
+
+2. decoupling from the portal's own freeze-out:
+   T_dec (minimal vertex) = 4.02e+23 eV = 4.0e+14 GeV
+   (fuller rates push lower, ~10¹⁰–10¹³ GeV — band carried; EFT
+   caveat: T_dec > f = 3e+14 eV, the UV completion's regime)
+   → the legal window (gravitational-only below) is DERIVED, not
+   postulated: it is the portal's freeze-out
+
+3. the hot start: standard bath from T_dec down — MeV passed
+   trivially; O6 funded by genesis equilibration + adiabatics
+
+4. the ζ bookkeeping (dark reheat (27/14)^⅓ = 1.245):
+   g*_SM(dec)   ζ predicted
+     106.75     0.579
+     150.00     0.517
+     250.00     0.436
+     484.00     0.350 ← committed window
+    1327.00     0.250
+   committed ζ ∈ [0.25, 0.35] ⟺ g*(dec) ∈ [484, 1327]
+   roster-class estimate ~150–250 → ζ ≈ 0.42–0.47: the first pass
+   OVERSHOOTS the committed window by ×1.2–1.9. Gap owners, named,
+   none chosen: (a) larger genesis-era roster; (b) partial
+   equilibration (freeze-in-class heating); (c) a different
+   dark-side reheat chain.
+
+VERDICT: the cascade HAS a mechanism at candidate grade —
+   equilibration at the top (over-determined), decoupling derived
+   from the portal itself (the legal window falls out), the hot
+   start genesis-funded (O6's mover satisfied) — and one computed
+   gap: the full-equilibrium ζ lands ×1.2–1.9 above the committed
+   window, with three named candidate owners. Reported exactly.
+==============================================================================

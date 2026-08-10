@@ -1,0 +1,26 @@
+Koide ring, straight from the leptons
+==============================================================
+  M = <√m>            = 17.7156 √MeV
+  √m/M                = [0.0404, 0.5802, 2.3794]
+  A = √(2·Var(√m/M))  = 1.41420      (√2 = 1.41421)
+  Q = (1 + A²/2)/3    = 0.66666      (target 2/3 = 0.66667)
+  ==> A=√2  <=>  Var(√m/M) = 1  <=>  sigma(√m) = <√m>   (CV = 0.99999)
+
+  electron phase  φ_e      = 132.73°
+  massless point (√m=0) at φ = 135.00°
+  ==> electron sits 2.27° from massless: NEAR, not AT.
+
+  IF one lepton were EXACTLY massless (A=√2, φ=135°):
+     √m/M = [0.000, 0.634, 2.366]  ->  heavy ratio = 13.93
+     actual m_tau/m_mu = 16.82   ->  off by 17%
+
+VERDICT
+--------------------------------------------------------------
+  A=√2 is real and to 5 digits, and it has a clean meaning: the spread of
+  √m equals its mean (CV=1, a 'critical' spread). The family IS 2 heavy + 1
+  near-massless -- the electron is 2.3° off the massless point, so JP's picture
+  is right. BUT √2 is the ring's CV=1 eccentricity, a SEPARATE fact from the
+  phase θ that places the electron near-massless; imposing EXACT masslessness
+  misses m_tau/m_mu by ~20%. So the 3-body reading REFRAMES √2 (as σ=μ) and
+  confirms the near-massless electron, but does not yet DERIVE √2 or locate M.
+  The sharpened target: what forces the spread of √m to equal its mean?

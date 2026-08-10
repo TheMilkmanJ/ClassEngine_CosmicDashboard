@@ -1,0 +1,49 @@
+==============================================================================
+M2b / M3 — mixmaster duration, N_med origin test, hypotheses
+==============================================================================
+
+A. Mixmaster window vs medium time (CMB-class Σ0=1e-5)
+  N_mix                 = 6.26 e-folds
+  curvature decades     = 8.16
+  Δt_mix / ξ            = 8.260e+07  (light-crossings of ξ)
+  Δt_mix / t_heal       = 1.222e+07  (t_heal = ξ/c_s)
+  Δt_mix / t_H(exit)    = 4.769e+07
+  READ: classical window lasts ~10^7 healing times — the medium is
+  *fast* compared to the window if it can act at ξ, but GR also has
+  enormous room to chaos before the homogeneous shear hits ξ.
+
+B. Is N_med ≳ 6 a legal-scale identity?
+  N_med (exit→1 MeV, η=1) = 6.184
+  1/c_s                   = 6.759
+  ξ·m                     = 6.827
+  N_med / (1/c_s)         = 0.915
+  c_s scan (xi = 1/(m c_s)): N_med/(1/c_s) runs ~0.3→5 — NOT constant.
+  T_reheat scan at fixed ξ: N_med tracks ln(T_reheat), not a medium constant.
+  VERDICT: N_med ≈ 6 is a **numerical near-coincidence** at the recorded
+  (ξ, MeV, M_Pl) point, not a derived identity. Knob stays fabricated.
+
+C. Hypothesis scorecard (reconstruction only)
+  H1 shear damping at ξ:
+    If damping were instant at R_σ=ξ, mixmaster still runs the full
+    N_mix=6.3 before the door — damping at the door does not
+    erase the prior chaos window. To *shorten* the window, damping must
+    engage at R_σ ≫ ξ (no legal trigger written). → OPEN / not helped.
+  H2 tighter Kasner axis hits ξ first:
+    Earlier exit ⇒ lower T_eff ⇒ **worse** O6 (larger N_med).
+    Helps 'door opens' ; hurts MeV. → mixed, not a free win.
+  H3 inhomogeneous concentration replacing N_med:
+    need Δρ ~ 5.539e+10  (length compression ~ 3.812e+03)
+    Stellar/BH collapse can exceed this locally, but then the *hot start
+    is patchy*, not a clean global T_reheat — Tolman/BBN bookkeeping
+    becomes a new fabricated problem. → possible shape, not closed.
+  H4 use ρ_bounce as heat bath:
+    T_eff at exit ~ 2826.8 eV  already ≳ ρ_bounce^(1/4) ~ 1059.2 eV
+    Exit gravitational energy is above the condensate floor number;
+    the floor does not supply extra heat budget. → no help.
+
+D. Combined outer-spec status after M2b/M3
+  O2 dynamical H→+     : still fail (hand re-entry)
+  O6 MeV from legal    : still fail (N_med fabricated; not 1/c_s)
+  O7 mixmaster         : window ~10^7 t_heal; survival unwritten
+  RP-A                 : reconstructed; blueprint tighter; still not OEM
+==============================================================================

@@ -1,0 +1,46 @@
+========================================================================
+#170  f_wind — the winding comb's forward amplitude
+========================================================================
+     n  d = L/n [Gpc]  beta = d/chi  l_1 = 2pi/beta
+    10          2.760       0.20058           31.32
+    20          1.380       0.10029           62.65
+    30          0.920       0.06686           93.97
+  (l_1 = 2 pi n chi/L = 3.1325 n — the registered 3.1n)
+
+(1) THE TRANSFER  A_obs(l) = T_proj(l) * A_prim
+     n      l     T_proj   Limber l_1/(2 pi l)  exact/Limber
+    10    100    0.01205               0.04986         0.242
+    10    300    0.00262               0.01662         0.158
+    10    600    0.00091               0.00831         0.110
+    20    100    0.03639               0.09971         0.365
+    20    300    0.00680               0.03324         0.205
+    20    600    0.00259               0.01662         0.156
+    30    100    0.06062               0.14957         0.405
+    30    300    0.01279               0.04986         0.257
+    30    600    0.00464               0.02493         0.186
+  -> the single-axis monopole dilution 1/(kd) is the dominant cost;
+     the radial projection costs a further 2.5-9x.
+
+(2) THE SHAPE — the comb is NOT flat across the band
+  n=10: A(600)/A(100) = 0.0755   (a fall of 13x)
+  n=20: A(600)/A(100) = 0.0712   (a fall of 14x)
+  n=30: A(600)/A(100) = 0.0765   (a fall of 13x)
+  matched-filter flat-equivalent of a 1/l comb: A_eff = 0.3203 * A(100)
+  (the fence was inverted for a FLAT A over l = 100-600; this template is not)
+
+(3) INVERTING THE FENCE — what A_prim the comb would need
+     n   A_prim for 0.7%   A_prim for 1.4%  verdict
+    10            181.4%            362.7%  IMPOSSIBLE (>100% modulation)
+    20             60.1%            120.1%  reachable
+    30             36.0%             72.1%  reachable
+
+(4) THE MODEL'S OWN CEILING
+  winding roughness Delta^2 <= 2e-06 per log  ->  A_prim <= 0.141%
+  best transfer in the band (n=30, l~100): 0.06062
+  ****  f_wind <= 2.75e-05  =  0.0027%  ****
+  against the fence floor 0.7%: low by 255x
+
+  VERDICT: OUTSIDE the fence, on the low side. The comb picture breaks
+  unless the winding's primordial imprint is an O(1) single-axis modulation,
+  which the model's own weak-modulation regime forbids.
+========================================================================

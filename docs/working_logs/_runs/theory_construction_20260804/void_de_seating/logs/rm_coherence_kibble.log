@@ -1,0 +1,63 @@
+========================================================================
+RM coherence from Kibble geometry (corpus-only scale formula)
+========================================================================
+
+RECORDED INPUTS
+  ξ_K     = 256 Mpc comoving
+  χ_*     = 13.76 Gpc = 13760 Mpc
+  B_seed  = 5.0e-18 G  (smooth Harrison; inter-line CAP)
+  B_blazar= 1.0e-16 G  (external floor; model does NOT reach it)
+  void shortfall B_blazar/B_seed = 20  (1.30 dex)
+  → this script does NOT close that gap.
+
+LAST-SCATTERING REFERENCE (recorded χ_*)
+  θ_ξ(χ_*) = ξ_K/χ_* = 0.018605 rad = 1.0660 deg
+  ℓ_geo    = χ_*/ξ_K = 53.750
+  ℓ_π      = π χ_*/ξ_K = 168.861
+  sky cells ~ 4π/θ_ξ² = 3.631e+04  (network tiling, not one spot)
+
+TWO-POINT FORMULA (derived structure; see REPORT.md)
+  RM(n̂) = K ∫_0^{χ_s} n_e(χ) B_∥(χ n̂) dχ
+  ⟨RM(n̂₁) RM(n̂₂)⟩ = K² ∬ n_e n_e ⟨B_∥ B_∥⟩ dχ₁ dχ₂
+  with ⟨B_i B_j⟩ structured on comoving scale ξ_K (corpus).
+  Thin-shell unit shape: w(θ)/w(0) = exp(−½ (θ/θ_ξ)²),  θ_ξ = ξ_K/χ
+  Characteristic multipoles: ℓ_geo = χ/ξ_K,  ℓ_π = π χ/ξ_K
+
+  DERIVED: geometric transfer ξ_K → (θ_ξ, ℓ) for any source-plane χ.
+  ASSUMED (not free model knobs): Gaussian radial shape of ξ_B;
+    thin-shell / Limber projection; external n_e for amplitude.
+  BOUNDED: B_rms ≲ B_seed under return-flux theorem (not raised to blazar).
+
+UNIT-NORMALIZED SHELL TWO-POINT  w(θ)/w(0)
+     θ/θ_ξ          w/w0
+      0.00      1.000000
+      0.50      0.882497
+      1.00      0.606531
+      1.50      0.324652
+      2.00      0.135335
+      3.00      0.011109
+
+CHARACTERISTIC SCALES AT FIXED SOURCE-PLANE χ
+     χ [Mpc]     θ_ξ [deg]    θ_ξ [arcmin]       ℓ_geo         ℓ_π
+         500       29.3354         1760.13        1.95        6.14
+        1000       14.6677          880.06        3.91       12.27
+        2000        7.3339          440.03        7.81       24.54
+        3000        4.8892          293.35       11.72       36.82
+        5000        2.9335          176.01       19.53       61.36
+       13760        1.0660           63.96       53.75      168.86
+
+CHECKABLE OUTSIDER TARGETS (scale only)
+  • At χ = χ_*: θ_ξ ≈ 1.07°, ℓ_π ≈ 169  (matches CMB-anomaly audit).
+  • At χ ~ 1–3 Gpc (typical extragalactic RM depth class):
+      θ_ξ ~ 5–15°,  ℓ_π ~ 12–37  → large-angle RM correlation feature.
+  • Coherence is ~100 Mpc-class comoving, NOT micro (EW/QCD horizon).
+
+NON-CLAIMS
+  - No claim that model B_void ≥ 1e-16 G.
+  - No absolute σ_RM without an external n_e model.
+  - No new free parameter introduced to fit RM surveys.
+========================================================================
+EXIT:0
+# recompute: 2026-08-04 theory_construction_20260804/void_de_seating
+# command: OMP_NUM_THREADS=1 nice -n 19 python3 scripts/rm_coherence_kibble.py
+# verdict: desk audit exit 0 — geometric scale reconfirmed; void floor NOT closed

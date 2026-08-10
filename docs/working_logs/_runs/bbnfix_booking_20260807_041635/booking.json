@@ -1,0 +1,234 @@
+{
+  "stamp": "20260807_041635",
+  "gate": {
+    "Rbar": 0.05,
+    "rule": "refuse unless BOTH chains have R\u22121 < Rbar AND checkpoint converged: true (self-stop); both legs required",
+    "pair": [
+      "dyad_mnu_bbnfix",
+      "cmp_lcdm_mnu_bbnfix"
+    ],
+    "both_ready": true,
+    "exit_code": 0
+  },
+  "progress": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "path": "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.progress",
+      "present": true,
+      "N": 37605.0,
+      "timestamp": "2026-08-07T04:08:52.190063",
+      "acceptance_rate": 0.996291,
+      "Rminus1": 0.048118,
+      "Rminus1_cl": "0.130141",
+      "ready": true,
+      "last_row": "37605.000000 2026-08-07T04:08:52.190063  0.996291  0.048118  0.130141",
+      "converged": true,
+      "checkpoint_Rminus1_last": 0.04811827221942349
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "path": "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.progress",
+      "present": true,
+      "N": 26294.0,
+      "timestamp": "2026-08-05T11:52:10.194879",
+      "acceptance_rate": 0.981488,
+      "Rminus1": 0.049324,
+      "Rminus1_cl": "0.136134",
+      "ready": true,
+      "last_row": "26294.000000 2026-08-05T11:52:10.194879  0.981488  0.049324  0.136134",
+      "converged": true,
+      "checkpoint_Rminus1_last": 0.04932400670601858
+    }
+  },
+  "reasons": [
+    "dyad_mnu_bbnfix: R\u22121 = 0.048118 < 0.05 (N=37605.0) \u2014 R\u22121 GRADED",
+    "dyad_mnu_bbnfix: checkpoint converged: true \u2014 self-stop OK",
+    "dyad_mnu_bbnfix: checkpoint Rminus1_last=0.048118 (informational; gate uses progress R\u22121)",
+    "cmp_lcdm_mnu_bbnfix: R\u22121 = 0.049324 < 0.05 (N=26294.0) \u2014 R\u22121 GRADED",
+    "cmp_lcdm_mnu_bbnfix: checkpoint converged: true \u2014 self-stop OK",
+    "cmp_lcdm_mnu_bbnfix: checkpoint Rminus1_last=0.049324 (informational; gate uses progress R\u22121)"
+  ],
+  "ranks": {
+    "dyad_mnu_bbnfix": [
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.1.txt",
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.2.txt",
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.3.txt"
+    ],
+    "cmp_lcdm_mnu_bbnfix": [
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.1.txt",
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.2.txt",
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.3.txt"
+    ]
+  },
+  "booking": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "prefix": "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix",
+      "ignore_rows": 0.3,
+      "param_names_available": [
+        "omega_b",
+        "H0",
+        "logA",
+        "n_s",
+        "z_reio",
+        "dcdf_rho_inf",
+        "varying_me",
+        "A_planck",
+        "A_act",
+        "P_act",
+        "Tcal",
+        "Ecal",
+        "m_ncdm",
+        "A_s",
+        "Omega0_dcdf",
+        "sigma8",
+        "Omega_m",
+        "S8",
+        "chi2__BAO",
+        "chi2__CMB",
+        "chi2__SN",
+        "minuslogprior",
+        "minuslogprior__0",
+        "minuslogprior__bbn",
+        "chi2",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lensing.clik",
+        "chi2__bao.sixdf_2011_bao",
+        "chi2__bao.sdss_dr7_mgs",
+        "chi2__bao.sdss_dr12_consensus_final",
+        "chi2__sn.pantheonplusshoes",
+        "chi2__act_dr6",
+        "chi2__spt3g_lite"
+      ],
+      "n_samples_after_burn": 26324,
+      "marginals": {
+        "H0": {
+          "present": true,
+          "mean": 70.05198409681327,
+          "std": 0.7160525731593058,
+          "mean_pm_std": "70.052 \u00b1 0.716053",
+          "limit68_lower": 69.352279,
+          "limit68_upper": 70.76728,
+          "mean_pm_68": "70.052  [69.3523, 70.7673]"
+        },
+        "m_ncdm": {
+          "present": true,
+          "mean": 0.06714272202407977,
+          "std": 0.058268381913883276,
+          "mean_pm_std": "0.0671427 \u00b1 0.0582684",
+          "limit68_lower": 0.0,
+          "limit68_upper": 0.082036063,
+          "mean_pm_68": "0.0671427  [0, 0.0820361]"
+        },
+        "omega_b": {
+          "present": true,
+          "mean": 0.02276368705075316,
+          "std": 0.0001255270738558513,
+          "mean_pm_std": "0.0227637 \u00b1 0.000125527",
+          "limit68_lower": 0.022635346397308406,
+          "limit68_upper": 0.022884790077092463,
+          "mean_pm_68": "0.0227637  [0.0226353, 0.0228848]"
+        },
+        "S8": {
+          "present": true,
+          "mean": 0.8213625686503674,
+          "std": 0.009652472069568884,
+          "mean_pm_std": "0.821363 \u00b1 0.00965247",
+          "limit68_lower": 0.8125625630152414,
+          "limit68_upper": 0.8317710762736393,
+          "mean_pm_68": "0.821363  [0.812563, 0.831771]"
+        }
+      }
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "prefix": "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix",
+      "ignore_rows": 0.3,
+      "param_names_available": [
+        "omega_b",
+        "H0",
+        "logA",
+        "omega_cdm",
+        "n_s",
+        "z_reio",
+        "A_planck",
+        "A_act",
+        "P_act",
+        "Tcal",
+        "Ecal",
+        "m_ncdm",
+        "A_s",
+        "sigma8",
+        "Omega_m",
+        "S8",
+        "chi2__BAO",
+        "chi2__CMB",
+        "chi2__SN",
+        "minuslogprior",
+        "minuslogprior__0",
+        "minuslogprior__bbn",
+        "chi2",
+        "chi2__planck_2018_lowl.TT",
+        "chi2__planck_2018_lowl.EE",
+        "chi2__planck_2018_highl_plik.TTTEEE_lite",
+        "chi2__planck_2018_lensing.clik",
+        "chi2__bao.sixdf_2011_bao",
+        "chi2__bao.sdss_dr7_mgs",
+        "chi2__bao.sdss_dr12_consensus_final",
+        "chi2__sn.pantheonplusshoes",
+        "chi2__act_dr6",
+        "chi2__spt3g_lite"
+      ],
+      "n_samples_after_burn": 18406,
+      "marginals": {
+        "H0": {
+          "present": true,
+          "mean": 68.34533004031184,
+          "std": 0.3434041925090803,
+          "mean_pm_std": "68.3453 \u00b1 0.343404",
+          "limit68_lower": 67.991536,
+          "limit68_upper": 68.683638,
+          "mean_pm_68": "68.3453  [67.9915, 68.6836]"
+        },
+        "m_ncdm": {
+          "present": true,
+          "mean": 0.019205773648870616,
+          "std": 0.01735020035933745,
+          "mean_pm_std": "0.0192058 \u00b1 0.0173502",
+          "limit68_lower": 0.0,
+          "limit68_upper": 0.023101249,
+          "mean_pm_68": "0.0192058  [0, 0.0231012]"
+        },
+        "omega_b": {
+          "present": true,
+          "mean": 0.022499477036040366,
+          "std": 8.641962973243695e-05,
+          "mean_pm_std": "0.0224995 \u00b1 8.64196e-05",
+          "limit68_lower": 0.022417247,
+          "limit68_upper": 0.022585617,
+          "mean_pm_68": "0.0224995  [0.0224172, 0.0225856]"
+        },
+        "S8": {
+          "present": true,
+          "mean": 0.823628227008383,
+          "std": 0.008125304673544914,
+          "mean_pm_std": "0.823628 \u00b1 0.0081253",
+          "limit68_lower": 0.81567821,
+          "limit68_upper": 0.83139012,
+          "mean_pm_68": "0.823628  [0.815678, 0.83139]"
+        }
+      }
+    }
+  },
+  "ignore_rows": 0.3,
+  "params_requested": [
+    "H0",
+    "m_ncdm",
+    "omega_b",
+    "S8"
+  ],
+  "generated_utc": "2026-08-07T04:16:54.483401+00:00",
+  "script": "scripts/book_bbnfix_when_ready.py"
+}

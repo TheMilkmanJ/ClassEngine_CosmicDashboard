@@ -1,0 +1,43 @@
+==============================================================================
+CHAIN CONVERGENCE FORECAST
+  target Rminus1_stop = 0.05   cap max_samples = 40000
+==============================================================================
+
+  cmp_lcdm_mnu_bbnfix
+    last progress row      N = 19013   R-1 = 0.0591
+    accepted samples       4475
+    wall clock             291.0 h  (12.13 days)
+    throughput             15.38 accepted/hour
+    fitted log-log slope   -1.575   (stationary chains give -0.5)
+
+    fitted      exponent 1.575 -> needs N =    2.113e+04   reaches R-1 target
+                                  ~45.1 days at the current rate
+    asymptotic  exponent 0.500 -> needs N =    2.652e+04   reaches R-1 target
+                                  ~59.7 days at the current rate
+    reaching the 40000 cap alone: 96.3 days from now
+
+  dyad_mnu_bbnfix
+    last progress row      N = 20302   R-1 = 0.1289
+    accepted samples       5023
+    wall clock             291.0 h  (12.13 days)
+    throughput             17.26 accepted/hour
+    fitted log-log slope   -2.091   (stationary chains give -0.5)
+
+    fitted      exponent 2.091 -> needs N =    3.194e+04   reaches R-1 target
+                                  ~65.0 days at the current rate
+    asymptotic  exponent 0.500 -> needs N =     1.35e+05   MAX_SAMPLES binds first
+    reaching the 40000 cap alone: 84.4 days from now
+
+==============================================================================
+READING
+==============================================================================
+  Both runs are serial single-chain (one .1.txt each, no MPI), so the R-1 reported
+  is a within-chain split statistic rather than the between-chain Gelman-Rubin the
+  0.05 target is normally calibrated for. That makes the forecast optimistic, not
+  pessimistic: a split-chain diagnostic understates the disagreement a second,
+  independently seeded chain would expose.
+
+  The fitted exponents are steeper than -0.5 because both runs are still in the
+  transient where the proposal is being learned -- eleven 'Learn + convergence test'
+  events so far. That rate is not sustainable; the asymptotic column is the one to
+  plan against, and on it neither run reaches 0.05 before the cap.

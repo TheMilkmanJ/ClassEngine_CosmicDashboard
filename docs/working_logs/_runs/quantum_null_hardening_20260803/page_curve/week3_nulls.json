@@ -1,0 +1,188 @@
+{
+  "milestone": "C_week3_null_suite_P1",
+  "claim_grade": "instrument_nulls_only",
+  "page_curve_claimed": false,
+  "S_rad_v_is_physical_page": false,
+  "stamp_utc": "2026-08-03 23:13 UTC",
+  "parent_instrument": "scripts/quantum_page_core_skeleton_week3.py",
+  "week1_T_H_used": 0.019894367886486918,
+  "week1_kappa_used": 0.125,
+  "N_c": 4,
+  "N_r": 8,
+  "g_couple_baseline": 0.08,
+  "thresholds": {
+    "null_A_max_delta_S_rad": 1e-10,
+    "null_B_drop_tol": 1e-06,
+    "null_C_S_floor": 1e-08
+  },
+  "baseline_ref": {
+    "available": true,
+    "page_curve_claimed": false,
+    "S_rad_peak": 0.008117992816348979,
+    "S_rad_late": 0.007932514846786923,
+    "late_drop_after_peak": true,
+    "v_at_peak": 0.9999999999902521,
+    "claim_grade": "instrument_skeleton_only"
+  },
+  "nulls": {
+    "null_A_g0": {
+      "g_couple": 0.0,
+      "vacuum": false,
+      "rethermalize_rad": false,
+      "n_steps": 80,
+      "dt": 0.05,
+      "S_rad_0": 0.008117992816348979,
+      "S_rad_peak": 0.008117992816348979,
+      "S_rad_late": 0.008117992816348979,
+      "peak_index": 0,
+      "max_abs_delta_S_rad": 0.0,
+      "late_drop_after_peak": false,
+      "history_len": 81,
+      "history_endpoints": {
+        "first": {
+          "t": 0.0,
+          "S_core": 2.8630520892271027e-11,
+          "S_rad": 0.008117992816348979,
+          "S_sum": 0.0081179928449795,
+          "E_core": 0.0,
+          "E_rad": 0.00010258607653711865,
+          "v": 0.9999999999902521
+        },
+        "mid": {
+          "t": 2.0,
+          "S_core": 2.8630520892271027e-11,
+          "S_rad": 0.008117992816348979,
+          "S_sum": 0.0081179928449795,
+          "E_core": 0.0,
+          "E_rad": 0.00010258607653711865,
+          "v": 0.9999999999902521
+        },
+        "last": {
+          "t": 4.0,
+          "S_core": 2.8630520892271027e-11,
+          "S_rad": 0.008117992816348979,
+          "S_sum": 0.0081179928449795,
+          "E_core": 0.0,
+          "E_rad": 0.00010258607653711865,
+          "v": 0.9999999999902521
+        }
+      }
+    },
+    "null_B_infinite_bath": {
+      "g_couple": 0.08,
+      "vacuum": false,
+      "rethermalize_rad": true,
+      "n_steps": 80,
+      "dt": 0.05,
+      "S_rad_0": 0.008117992816348979,
+      "S_rad_peak": 0.04118333929005649,
+      "S_rad_late": 0.04118333929005649,
+      "peak_index": 1,
+      "max_abs_delta_S_rad": 0.03306534647370751,
+      "late_drop_after_peak": false,
+      "history_len": 81,
+      "history_endpoints": {
+        "first": {
+          "t": 0.0,
+          "S_core": 2.8630520892271027e-11,
+          "S_rad": 0.008117992816348979,
+          "S_sum": 0.0081179928449795,
+          "E_core": 0.0,
+          "E_rad": 0.00010258607653711865,
+          "v": 0.9999999999902521
+        },
+        "mid": {
+          "t": 2.0,
+          "S_core": 5.711330571914258e-05,
+          "S_rad": 0.04118333929005649,
+          "S_sum": 0.041240452595775634,
+          "E_core": 4.273997994075351e-06,
+          "E_rad": 0.000683907176914425,
+          "v": 0.9937894290763805
+        },
+        "last": {
+          "t": 4.0,
+          "S_core": 0.00010928734966511045,
+          "S_rad": 0.04118333929005649,
+          "S_sum": 0.0412926266397216,
+          "E_core": 8.632503210592724e-06,
+          "E_rad": 0.000683907176914425,
+          "v": 0.9875350056331474
+        }
+      }
+    },
+    "null_C_vacuum": {
+      "g_couple": 0.08,
+      "vacuum": true,
+      "rethermalize_rad": false,
+      "n_steps": 80,
+      "dt": 0.05,
+      "S_rad_0": 2.8630520892271027e-11,
+      "S_rad_peak": 2.8630520892271027e-11,
+      "S_rad_late": 2.8630520892271027e-11,
+      "peak_index": 0,
+      "max_abs_delta_S_rad": 0.0,
+      "late_drop_after_peak": false,
+      "history_len": 81,
+      "history_endpoints": {
+        "first": {
+          "t": 0.0,
+          "S_core": 2.8630520892271027e-11,
+          "S_rad": 2.8630520892271027e-11,
+          "S_sum": 5.7261041784542054e-11,
+          "E_core": 0.0,
+          "E_rad": 0.0,
+          "v": 0.0
+        },
+        "mid": {
+          "t": 2.0,
+          "S_core": 2.8630520892271027e-11,
+          "S_rad": 2.8630520892271027e-11,
+          "S_sum": 5.7261041784542054e-11,
+          "E_core": 0.0,
+          "E_rad": 0.0,
+          "v": 0.0
+        },
+        "last": {
+          "t": 4.0,
+          "S_core": 2.8630520892271027e-11,
+          "S_rad": 2.8630520892271027e-11,
+          "S_sum": 5.7261041784542054e-11,
+          "E_core": 0.0,
+          "E_rad": 0.0,
+          "v": 0.0
+        }
+      }
+    }
+  },
+  "grades": {
+    "null_A_g0": {
+      "pass": true,
+      "criterion": "max|S_rad(t)-S_rad(0)| <= 1e-10 (no entropy growth from coupling when g=0)",
+      "observed_max_abs_delta_S_rad": 0.0,
+      "late_drop_after_peak": false
+    },
+    "null_B_infinite_bath": {
+      "pass": true,
+      "criterion": "no purification-style late_drop_after_peak when rad is re-thermalized each step (infinite-bath proxy)",
+      "observed_late_drop_after_peak": false,
+      "S_rad_0": 0.008117992816348979,
+      "S_rad_peak": 0.04118333929005649,
+      "S_rad_late": 0.04118333929005649
+    },
+    "null_C_vacuum": {
+      "pass": true,
+      "criterion": "S_rad(0) <= 1e-08 and peak S_rad not a fabricated thermal Page-scale rise from vacuum alone",
+      "observed_S_rad_0": 2.8630520892271027e-11,
+      "observed_S_rad_peak": 2.8630520892271027e-11,
+      "late_drop_after_peak": false
+    }
+  },
+  "suite_pass": true,
+  "non_claims": [
+    "NOT a PRTOE Page-curve result",
+    "NOT DYNAMICS-PASS / week4 full hardening",
+    "Baseline late_drop is curiosity until nulls+hardening \u2014 still not a Page claim",
+    "Null PASS/FAIL is instrument behavior only"
+  ]
+}

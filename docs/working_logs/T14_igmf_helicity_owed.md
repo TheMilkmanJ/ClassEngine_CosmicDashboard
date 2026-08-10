@@ -625,3 +625,61 @@ exist. **MACHINE remains:** honest toroidal circulation / Tw in one 3D instrumen
 numerical self-vs-mutual comparison that decides sign(H_kin) at this configuration. Link 5
 stays closed negative; the measured left-handed IGMF hint stays unreadable through this chain
 regardless of how link 4's overall sign lands.
+
+## RED-TEAM: acceptance protocol for the deciding run, registered before it fires (2026-08-03, Claude)
+
+Purple-team pass over the whole T14 surface (live file, this file, both instruments) before
+the deciding measurement launches. Four findings and a protocol. The prose version is in the
+live file; this is the operational one with the record's own numbers.
+
+**Finding 1 — the n = ±1 pair at fixed +z fountain is NOT a parity pair of the configuration,
+and the record already shows the consequence.** A true mirror flips both the winding and the
+fountain; the completed runs flip only n. Under the corrected instrument the intrinsic twist
+came out Tw(n=+1) = −0.646 against Tw(n=−1) = +0.021 — **not odd under the winding flip** —
+which is exactly what an n-even, plume-sourced twist component would produce. If Tw carries an
+even part, then H ≈ 2n + Wr + Tw is not odd under n → −n alone, |H| differs between branches
+(the defective-run scale check showed it: −0.19 vs +0.87, a 4.6× magnitude mismatch), and
+"sign(H_kin) vs sign(n)" is not one bit until the even part is measured or excluded.
+**Consequence: the deciding design is four runs, {n = ±1} × {fountain ±z}**, at T_MAX = 1.5
+each (~40 min per; cheap). The true-mirror pairs (n,up) ↔ (−n,down) must give H → −H — GP
+dynamics is parity-symmetric, so any violation is instrument and its size fences the sign. The
+single-flip comparisons decompose the odd-in-n from the odd-in-plume content, which is the
+assembly rule's own split (mutual ∝ n; writhe locked to the plume per #19; twist to be
+measured).
+
+**Finding 2 — the margin gate, with the dials named.** sign(H) sits near a cancellation
+(mutual 2n opposed by comparable Tw; a ~10% Tw error flips the n = +1 sum). The quotable-sign
+gate: |H| at the verdict frame > 3× the measured spread (protocol threshold), where the spread
+comes from re-running the twist extraction on the **saved field** across the instrument's
+hidden dials — R_PROBE ∈ {1.0, 1.5, 2.0}, the probe-rejection threshold (|ψ| < 0.55), and the
+well-resolved frames. **The run must save ψ at the verdict frame** so this costs no
+re-evolution. If the gate fails, the bookable verdict is "sign unresolved at this
+configuration; near-cancellation confirmed" — pre-registered as a legitimate outcome.
+
+**Finding 3 — drift discipline.** The completed 10 h run's absolute drift climbed to **83%**
+by run end against a stated ≤2% gate; the readings survived only because they were taken at
+first ring (t ≈ 1.0). For the deciding run the gate binds **at the verdict frame**, reported
+per branch, not at run end. Verdict frame pre-stated: first frame with ≥15/16 position bins
+AND ≥12/16 phase probes, matched time across branches; full helA/W series reported (the
+2026-07-28 23:26 caveat showed helA wanders on poorly-resolved frames).
+
+**Finding 4 — instrument hygiene.** `ring_toroidal_3d.py` on disk still samples the phase AT
+the singularity (its trace_ring is unmodified — deliberately, for reproducibility of the July
+verdict). **The deciding run uses `ring_toroidal_circulation.py` or a successor only.** Two
+cheap controls worth one run each if capacity allows: (i) move the compensating anti-line to
+the opposite corner and confirm W moves less than the quoted spread (contamination bound;
+the ring does not link the anti-line, but its ~1/d phase field perturbs the probe samples);
+(ii) one branch at halved DT to bound integrator sensitivity of Tw.
+
+**Outcome table (no post-hoc switching):**
+
+| result | booking |
+|---|---|
+| margin passes, true-mirror antisymmetry holds | overall sign booked, candidate grade, **configuration-local**; generalization owed; the Harrison-transfer condition (drag copies the flow's handedness) named alongside |
+| margin fails | near-cancellation booked as the finding; sign stays open — not a failure |
+| true-mirror antisymmetry violated beyond measured asymmetry | nothing booked; instrument to the bench; debug row here, not the ledger |
+| ring fails to nucleate on any branch | nothing graded (a test that didn't run grades nothing) |
+
+**Unchanged by any outcome:** the branch closure (toroidal structure flips with the winding
+draw; universal handedness excluded), link 5's negative, and the hint's unreadability through
+this chain.

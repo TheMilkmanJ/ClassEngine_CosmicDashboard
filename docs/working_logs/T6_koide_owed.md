@@ -1,3 +1,9 @@
+> **2026-08-03 tribunal R2-koide-exactness:** blue lane **(c)** — thermal/flat delivery-law
+> path **contradicted** (1025 ppm ≈ 171× exactness budget). Mechanism grade is **not** "candidate"
+> for that path; Q=2/3 relation stands as **unexplained regularity**. Residual research
+> (freeze-time stiffness / Wilson) allowed without grade restore until scored.
+> See `ForGrok&Claude.md` LANE CHOICE R2-koide-exactness.
+
 # T6 Koide — OWED
 1. The 2/3 DERIVATION lane — STATE REBUILT 2026-07-14: the floor is no longer "the Z4 torus" (family space is Z₃, not the condensate phase). Standing structure: the Z₃ family scaffold derived (Pauli's 3 → family Z₃; the 120° = the three-defect equilibrium under the medium's own log coupling); THE RELATION lives in the amplitude A = √2 (lock 6, 0.0009%) with the linkage 3δ = Q at 0.9σ from exact and the one-parameter compression w = 1/3 (Q = 1−w, A² = (1−w)/w, δ = w(1−w); consistency quadratic roots 1/3, 1/2). OPEN DEBT: the mechanism forcing amplitude = √2 / phase = variance — behind the basement door as lock 6.
 2. PRICE THE Q-DRIFT FALSIFIER: current μ/e and τ/e mass-ratio precisions → what Q-drift bound exists today; where could it improve (muonic atoms, τ factories)?
@@ -1304,12 +1310,12 @@ the phase, and the lattice fork's kernel point — all from one sector identity.
 **The dual/stiffness tie, run (2026-07-18 evening):** q̃² = 2πF²t converts the keystone to
 F_dark/√σ = 0.30–0.42 (convention band; t√σ = 1) vs the QCD-like known class 0.2–0.35 —
 **CLASS-YES, PRECISION-PENDING** (full statement + fences:
-[PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4). The chain's final state:
+[PRTOE_forced_combination.md](../exploratory/PRTOE_forced_combination.md) §4). The chain's final state:
 everything hangs on T_c/√σ AND F_π/√σ of the same SU(2) N_f = 3 lattice theory — one
 campaign, two verdicts. Desk pin remaining: the sector-normalized vortex-pair computation.
 
 **Both desk pins paid (2026-07-18 evening; full statement in
-[PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4):** (a) the vortex convention
+[PRTOE_forced_combination.md](../exploratory/PRTOE_forced_combination.md) §4):** (a) the vortex convention
 COMPUTED — q̃² = 2πF²t exact, F² ≡ 2v², numerically verified; freedom collapsed to t alone;
 the exact demand F_dark/√σ = 0.4204 (pinned convention, comparison instruction stated);
 (b) the T_c/3 origin NAMED — the synchronization reading, 3μ = T_c (the ring's collective
@@ -1325,7 +1331,7 @@ corrections live). The door's final desk question: why one thermal correlation t
 collective rotation imprints at freeze. And t is confirmed at class — the flux-tube width,
 w·√σ ≈ 0.8–1.1, thin-film consistent — giving the demand band F_dark/√σ = 0.40–0.47. The one
 lattice campaign now referees three numbers: T_c/√σ, F_π/√σ, w·√σ. Current forward statement:
-[PRTOE_forced_combination.md](../PRTOE_forced_combination.md) §4.
+[PRTOE_forced_combination.md](../exploratory/PRTOE_forced_combination.md) §4.
 
 **#134 — THE NORMALIZATION FIXED, AND WHAT IT UNCOVERED (2026-07-20).** Three results, the
 third adverse. (a) **The convention is derivable, not a band.** Matching L_θ = (F²/2)(∂θ)²

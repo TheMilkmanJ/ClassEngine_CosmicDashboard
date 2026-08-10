@@ -1,0 +1,95 @@
+==============================================================================
+Track A2 closure: Route T f into the normalization triangle
+==============================================================================
+
+(0) Route T f (from A1, independent of A_s):
+  ε = c·f̄·α_c = 1.254323e-02
+  α_B = ε² = 1.573325e-04,  k_mom = ε⁴ = 2.475351e-08
+  c_chop = d_⊥ = 2
+  f = γ* = ε²√2 = 2.225017e-04   (exact VOS: 2.225017e-04)
+  v* = 1.112509e-04
+
+(1) Wire f into A_s = r² L*² f³ / 2π²  — is r determined?
+  former iso band:  r ∈ [0.808, 3.233]
+  triangle pin at r=1: f_meas = 2.212635e-04, f_closed = 2.205824e-04
+  Route T f / f(r=1,meas)   = 1.0056
+  Route T f / f(r=1,closed) = 1.0087
+  → r(A_s meas,  f_T) = 0.9917
+  → r(A_s closed, f_T) = 0.9871
+  A_s(r=1, f_T) = 2.135455e-09  (1.0169× meas, 1.0263× closed)
+  r determined? YES — point value ≈ 0.992 (not a band); inside former band: True
+  self-consistency: A1 graded Route T against the r=1 triangle;
+  solved r = 0.992 ≈ 1, so the r=1 referee was not a cheat.
+
+(2) Built-in isocurvature residual S/ζ = 1/(r L*) vs P-2026-031:
+  registered band (triangle): [0.005, 0.020] = [0.5%, 2.0%]
+  broader class (envelope doc): [0.002, 0.020]
+  S/ζ (r_meas  = 0.9917) = 0.01630 = 1.630%
+  S/ζ (r_closed= 0.9871) = 0.01638 = 1.638%
+  S/ζ (r = 1 fiducial)         = 0.01617 = 1.617%
+  inside triangle band? True
+  inside broader class? True
+  READ: residual is the percent-class registered line — one object
+  read twice (mechanism residual ≡ P-2026-031 amplitude class).
+
+(3) n_s − 1 ≈ −0.035: envelope + approach-to-scaling?
+  envelope (coherent conversion): n_s = 1 − 2/L* = 0.96767
+    n_s − 1 = -0.03233
+  measured:  n_s = 0.9649 ± 0.0042
+    n_s − 1 = -0.03510
+  envelope vs data: Δn_s = +0.00277 = +0.66σ  (PASS at <1σ)
+  residual after envelope: -0.00277  (≈ 7.9% of measured tilt)
+  approach-to-scaling (Route T VOS):
+    v* = 1.112509e-04  ⇒  a = β(1+v*²) = 0.5000000062
+    a − 1 = -5.000000e-01  (red transient; exponent only)
+  OOM (not a derivation): n_s−1|_approach ≈ 3 δ_pivot
+    to supply full −0.035 alone would need |δ| ~ 0.0117
+    to close the post-envelope gap -0.00277 need |δ| ~ 0.00092
+  NEITHER |δ| is derived from formation epoch + initial mismatch.
+  Approach-to-scaling remains OOM-OPEN; it is not required for
+  data consistency (envelope already +0.66σ) and does not claim
+  to finish the exact −0.035 from first principles alone.
+  envelope fraction of measured |n_s−1|: 92.1%
+
+==============================================================================
+GRADE
+==============================================================================
+  CANDIDATE_CLOSED
+  Route T f determines r ≈ 0.99 (point, not band); S/ζ ≈ 1.63% inside P-2026-031; envelope n_s = 0.9677 within 1σ of data. Named residual: approach-to-scaling amplitude uncomputed (post-envelope gap -0.0028, sub-σ); A1's d_⊥=2 remains.
+
+  DETERMINED (were open / banded):
+    - f = γ*_T = 2.225017e-04           (from A1 Route T)
+    - r = 0.9917                 (from A_s meas + f_T; closed-form: 0.9871)
+    - S/ζ = 1.630%                 (was band 0.7–2.0% over r∈[0.8,2.3])
+
+  CONSISTENT (data / registration):
+    - r ∈ former iso band [0.81, 3.23]
+    - S/ζ ∈ P-2026-031 triangle band [0.5%, 2.0%]
+    - n_s envelope = 0.9677  (+0.66σ vs 0.9649 ± 0.0042)
+
+  STILL OPEN (named, not hidden):
+    - approach-to-scaling |δ| at pivot (needs formation epoch + IC mismatch)
+    - A1 residual: defend d_⊥ = 2 (or replace with computed c_chop)
+    - P-2026-031 external CMB referee at ℓ ≈ 170 (bound, not model-internal)
+
+  NOT CLAIMED:
+    - Derived grade (d_⊥ and approach |δ| remain)
+    - n_s − 1 = −0.035 exact from approach transient alone
+    - zero free parameters of the whole model (Track B inputs remain)
+
+  KILL CONDITIONS:
+    - medium reconnection returns c_chop far from 2 with no replacement O(1)
+    - CMB bound on correlated isocurvature tightens below ~1% at the residual's
+      scale class while r held at ~1
+    - envelope form 1 − 2/L* excluded by future running (α_s) precision
+
+SUMMARY
+  grade=CANDIDATE_CLOSED
+  f_T=2.225017e-04
+  r_meas=0.991664
+  r_closed=0.987089
+  S_over_zeta=0.016301
+  ns_envelope=0.967669
+  ns_sigma=0.659
+  tilt_gap_after_envelope=-0.002769
+  a_minus_1=-5.000000e-01

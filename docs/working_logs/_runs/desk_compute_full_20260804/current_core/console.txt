@@ -1,0 +1,6 @@
+desk_compute_all_safe: 2 jobs → /home/themilkmanj/prtoe_class/docs/working_logs/_runs/desk_compute_full_20260804/current_core
+[1/2] validate_dcdf ...
+    exit=0 status=ok t=548.53s
+[2/2] test_dcdf_clustering ...
+    exit=0 status=ok t=6.448s
+wrote /home/themilkmanj/prtoe_class/docs/working_logs/_runs/desk_compute_full_20260804/current_core/SUMMARY.md

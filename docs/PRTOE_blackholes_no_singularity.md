@@ -118,7 +118,7 @@ break it through the contact term, which is identified as the edge modes' entang
 restores the ratio once those are counted as horizon entropy; and a conformally coupled scalar drops
 out of both sides identically, as the Higgs does under the same ξ = 1/6 that induced-Newton
 finiteness already requires. The quarter survives at candidate grade on that single commitment
-([PRTOE_entropy.md](PRTOE_entropy.md) §3).
+([PRTOE_entropy.md](exploratory/PRTOE_entropy.md) §3).
 
 Hawking radiation survives: phonon Hawking emission from sonic horizons is standard
 analog-gravity physics (Unruh) — the exterior thermodynamics is inherited, not lost.
@@ -164,7 +164,7 @@ analog-gravity system where sonic horizons demonstrably form and nothing singula
  boundary could imprint late-time ringdown echoes — generic to horizon-scale-structure models,
  amplitude un-computed here (owed if pursued); (iii) the entropy-in-core reading ties BH
  thermodynamics to the medium's Landauer accounting
- ([PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md)); (iv) the boson
+ ([PRTOE_arrow_of_time.md](exploratory/PRTOE_arrow_of_time.md)); (iv) the boson
  mass puts the ℓ = m = 1 superradiance window at M ≈ 6×10⁸–3×10⁹ M☉ — **registered as
  P-2026-034, and a live exposure**: the band is populated and carries high measured spins, the
  self-interaction shield is absent — at the recorded λ the quench misses by 85 decades, so the
@@ -189,4 +189,23 @@ caught, thermalized, and conserved, at four hundred astronomical units of cohere
 
 ## Sources
 
-[Penrose1965] (the theorem discharged), [Bekenstein1973]/[Hawking1975] (the entropy/temperature the frame must earn), [Unruh1981]/[BLV2005] (acoustic horizons), [Detweiler1980] (the superradiance rate). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+[Penrose1965] (the theorem discharged), [Bekenstein1973]/[Hawking1975] (the entropy/temperature the frame must earn), [Unruh1981],[BLV2005] (acoustic horizons), [Detweiler1980] (the superradiance rate). Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | BH has horizon, no singularity; finite-density condensate/normal core | **derived-from-recorded** (conditional on emergent metric) | §§1–4 | Rides M3 + acoustic/Sakharov/Jacobson assembly |
+| 2 | Ambient ξ ≈ 400 AU; r_s < ξ for nearly all known BHs; crossover M ≈ 2×10¹⁰ M☉ | **machine-backed** (ξ rides open m, α_c) | §2 table | m and α_c open; dense-core ξ shorter |
+| 3 | Quantum pressure + repulsive λ clear largest known holes (λ ≈ 2×10⁻⁹¹) | **derived-conditional** | CSW §3; `scripts/rho_bounce.py` | Normalization convention factor ~4π |
+| 4 | Horizon = sonic/Landau breakdown; energy stored as core heat | **derived-from-recorded** | §4; cert-1/F3 | — |
+| 5 | Area law S = A/4G scaling + coefficient (12π/48π) | **complete-conditional** (candidate roster) | QG §4a; entropy §3 | Edge-mode commitment for gauge share |
+| 6 | Page-curve dynamics (phonon flux off finite core) | **OPEN-BLOCKED** | quantum_gravity Q6; scaffold only | **OPEN-MACHINE:** Page-curve dynamics not computed |
+| 7 | Exteriors null (shadows/ringdowns); echoes un-computed | **registered null** / **OPEN** prong | §7 | Echo amplitude owed if pursued |
+| 8 | Superradiance window P-2026-034 live exposure | **OPEN** (registered) | smbh_atoms; λ shield absent 85 decades | Free-scalar spin data |
+
+**Non-claims:** not a dynamical Page curve; not a precision m pin; not exotic exterior phenomenology at current data.
+
+**Triage:** elevate-in-place. Physics ceiling: structural complete-conditional; dynamics **OPEN-BLOCKED**.

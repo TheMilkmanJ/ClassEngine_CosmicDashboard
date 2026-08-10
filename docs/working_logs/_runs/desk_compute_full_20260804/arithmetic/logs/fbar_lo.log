@@ -1,0 +1,75 @@
+==============================================================================
+(1) HOW BIG IS THE NEXT ORDER?
+==============================================================================
+  f_bar_eff = 2/pi + c2 eps / 2, so the fractional shift per unit c2 is
+
+      (eps/2) / (2/pi) = 0.985% per unit c2      (eps = 1.2543%)
+
+  So an O(1) subleading coefficient moves f_bar by about one percent, and only about one
+  percent. That is the whole content of 'leading-order dominates', now with a number on
+  it: the expansion parameter is eps itself, and eps is small because the amplitude is.
+
+==============================================================================
+(2) THE OBSERVED DEFICITS, CONVERTED TO c2
+==============================================================================
+  measurement                     f_bar    vs 2/pi   implied c2
+  --------------------------------------------------------------
+  fit-implied                   0.62530     -1.78%        -1.80
+  winding ensemble (n>=4)       0.63137     -0.82%        -0.84
+
+  Both land at |c2| of order one. That is the test: a subleading coefficient of order
+  unity is what an un-tuned expansion produces, and it is what the residuals imply. Had
+  they implied c2 ~ 100, the expansion would be failing and 2/pi would be an accident of
+  truncation; had they implied c2 ~ 0.001, the deficit would need some other source.
+
+==============================================================================
+(3) WHAT WOULD BREAK IT
+==============================================================================
+  The argument is falsifiable in a specific direction: the deficit must SCALE WITH eps.
+  A subleading term shifts f_bar by c2 eps/2, so a measurement at a different amplitude
+  must move proportionally. Tabulating what the same c2 predicts elsewhere:
+
+  taking c2 = -1.80 from the fit-implied reading:
+         eps    predicted f_bar    shift from 2/pi
+  --------------------------------------------------
+      0.200%            0.63481             -0.28%
+      0.500%            0.63211             -0.71%
+      1.254%            0.62530             -1.78%
+      2.000%            0.61857             -2.84%
+      5.000%            0.59150             -7.09%
+
+  A deficit that does NOT scale with eps is not a subleading term and this reading dies.
+  That is a real handle, because eps is a fitted quantity and its posterior width is
+  already tracked.
+
+==============================================================================
+(4) THE TENSION BETWEEN THE TWO MEASUREMENTS IS THE HONEST WEAKNESS
+==============================================================================
+    fit-implied      -> c2 =  -1.80
+    winding ensemble -> c2 =  -0.84 +- 0.52
+    they differ by 1.9 sigma of the ensemble's own error
+
+  So the data does not pin c2; it only bounds it to order unity. Both readings are
+  consistent with an un-tuned subleading term and they are not consistent with each
+  other at the ensemble's quoted precision. Recording that rather than averaging them:
+  an average of two numbers that disagree is a third number nobody measured.
+
+==============================================================================
+VERDICT
+==============================================================================
+  'Leading-order dominates' is no longer generic. The expansion parameter is eps itself,
+  so the subleading term can move f_bar by only about 1.0% per unit c2, and
+  the observed deficits (-1.8%, -0.8%) imply |c2| of order one -- exactly what an
+  un-tuned expansion gives. **The residual deficit is therefore evidence FOR the
+  leading-order reading, not against it**, which inverts how the flag currently reads.
+
+  WHAT IS STILL NOT DERIVED, stated so the flag can be narrowed rather than dropped:
+  c2 itself. It needs the family-coupling Lagrangian that the corpus records as unbuilt,
+  and nothing here supplies it. What has changed is that its ABSENCE no longer threatens
+  2/pi -- any O(1) value leaves the identification standing, and only a value two orders
+  larger would not, which would be a broken expansion rather than a competing mechanism.
+
+  AND THE FLAG'S WORDING IS NOW WRONG IN ONE PLACE. The registry calls the residual
+  deficit 'unresolved at this precision', which reads as a problem awaiting a fix. It is
+  better described as the expansion's own next term, of the predicted size and sign-free
+  -- unresolved only in the sense that c2 is not independently known.

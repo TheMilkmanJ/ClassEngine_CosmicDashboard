@@ -1,0 +1,33 @@
+{
+  "tool": "scripts/bbnfix_delta_chi2_proxy.py",
+  "timestamp_utc": "2026-08-04T06:32:59.789449+00:00",
+  "gate_ok": false,
+  "bookable_as_laplace": false,
+  "method": "min_minuslogpost_proxy_only",
+  "pair": [
+    "dyad_mnu_bbnfix",
+    "cmp_lcdm_mnu_bbnfix"
+  ],
+  "gate": {
+    "dyad_mnu_bbnfix": {
+      "Rminus1": 0.189201,
+      "converged": false
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "Rminus1": 0.059055,
+      "converged": false
+    }
+  },
+  "min_minuslogpost": {
+    "dyad_mnu_bbnfix": 1376.083,
+    "cmp_lcdm_mnu_bbnfix": 1378.7777
+  },
+  "delta_min_minuslogpost_model_minus_control": -2.6947000000000116,
+  "caveats": [
+    "Not full Laplace evidence",
+    "Missing Hessian volume and prior measure",
+    "BBN-fixed stack only when gate_ok",
+    "No PolyChord"
+  ],
+  "page_curve_claimed": false
+}

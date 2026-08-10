@@ -1,0 +1,87 @@
+==============================================================================
+  #13 — THE SECOND ROUTE, WHICH MY TASK-5 ANSWER MISSED
+==============================================================================
+
+  R-A  this morning's results, reproduced (not contradicted)
+  ok    R-A1 a w = -1 component contributes exactly 0 to rho + p   so the vacuum's sign is irrelevant — unchanged
+  ok    R-A2 negative stiff (w=+1, rho<0) does flip the sign   -2.0
+  ok    R-A3 and negative vacuum + radiation still cannot bounce   route 1 stands; what follows is a SECOND route, not a correction to it
+
+  R-B  the modified branch:  H^2 = (8 pi G/3) rho (1 - rho/rho_c)
+  ok    R-B1 H = 0 exactly at rho = rho_c   H^2 = 0.0
+  ok    R-B2 Hdot > 0 at the bounce for matter (w = 0.000), with rho+p > 0   Hdot = +1.5000, rho+p = 1.0000
+  ok    R-B2 Hdot > 0 at the bounce for radiation (w = 0.333), with rho+p > 0   Hdot = +2.0000, rho+p = 1.3333
+  ok    R-B2 Hdot > 0 at the bounce for stiff (w = 1.000), with rho+p > 0   Hdot = +3.0000, rho+p = 2.0000
+       -> a bounce with rho + p > 0 THROUGHOUT. No negative energy, no NEC
+          violation, no ghost. The sign flip lives in the bracket.
+
+  R-C  integrate it — does a(t) actually turn around?
+  ok    R-C1 the corrected branch bounces   a_min = 0.215443
+  ok    R-C2 at the predicted scale factor a = (rho_0/rho_c)^(1/3)   integrated 0.215443 vs predicted 0.215443
+
+  R-D  the correction as its own component:  rho_X = -rho^2/rho_c
+
+      background w    rho ~ a^n   rho_X ~ a^n   w_X = 2w+1  reading
+            0.0000       -3.000        -6.000       1.0000  stiff
+            0.3333       -4.000        -8.000       1.6667  beyond stiff
+            1.0000       -6.000       -12.000       3.0000  beyond stiff
+  ok    R-D1 w_X = 2w + 1 at every background tested
+  ok    R-D2 so 'stiff' is the MATTER special case, not the general answer   matter -> w_X = 1 (stiff); radiation -> 5/3. My task-5 label was the w=0 case
+
+  R-E  does the correction always overtake its own background?
+  ok    R-E1 6(1+w) > 3(1+w) for every w > -1   so domination at maximum compression is automatic, not a tuning
+
+  R-F  ANTI-CONTROL: shear also scales a^-6 — does IT bounce?
+  ok    R-F1 positive stiff shear gives (1+w)rho > 0, so Hdot < 0   it deepens the collapse — this is the BKL problem
+  ok    R-F2 so a^-6 is NOT what does the work; the SIGN is   same scaling, opposite outcome
+
+  R-G  ANTI-CONTROL: negative curvature — bounce or turnaround?
+  ok    R-G1 curvature has w = -1/3, so (1+w)rho = (2/3)rho — never zero   0.666667
+  ok    R-G2 so it gives a TURNAROUND, not a bounce — task 4's trap   H = 0 is the easy condition; Hdot > 0 is the one that matters
+
+  R-H  ANTI-CONTROL: switch the correction OFF and re-integrate
+  ok    R-H1 the UNcorrected branch does not bounce   a_min reached 1.34e-04 and still contracting
+  ok    R-H2 so the bounce is the correction's doing, not the integrator's
+
+==============================================================================
+  RESULT — TASK 5's ANSWER WAS ONE OF TWO ROUTES, AND THE CLOSED ONE
+==============================================================================
+
+  WHAT STANDS. Everything in this morning's task-4 result is unchanged (R-A): a w = -1
+  component contributes exactly zero to rho + p, so negative vacuum plus Tolman
+  radiation cannot bounce at any epoch or ratio. That is not revised.
+
+  WHAT WAS INCOMPLETE. Task 5 concluded "the missing component is a NEGATIVE-ENERGY
+  STIFF one". That develops only the first of the two routes the workplan itself
+  names -- "rho + p < 0 transiently, OR a modified gravitational branch that changes
+  the hand-over condition itself" -- and it is the route the corpus has already priced
+  as unavailable, since the only NEC-flexible sector is the ghost-condensate branch and
+  the wormhole audit calls its negative-energy budget tiny.
+
+  ROUTE 2 NEEDS NO EXOTIC MATTER AT ALL. With H^2 = (8 pi G/3) rho (1 - rho/rho_c),
+  H = 0 at rho = rho_c and Hdot = -4 pi G (rho+p)(1 - 2 rho/rho_c) = +4 pi G (rho+p)
+  there -- positive for ordinary matter, radiation and stiff alike (R-B). An explicit
+  RK4 integration from the contracting branch turns around at the predicted
+  a = (rho_0/rho_c)^(1/3), and switching the correction off removes the bounce (R-C,
+  R-H). rho + p > 0 throughout. No ghost, no NEC violation.
+
+  AND THE EFFECTIVE-FLUID READING CORRECTS MY OWN LABEL. Written as a component,
+  rho_X = -rho^2/rho_c has w_X = 2w + 1 (R-D). It is STIFF only against a MATTER
+  background; against radiation it is 5/3. So "negative-energy stiff" was the w = 0
+  special case quoted as the general answer. The general statement is better and
+  simpler: THE MISSING COMPONENT IS THE SQUARE OF WHATEVER DOMINATES, NEGATIVE -- and
+  it outgrows its own source automatically, since 6(1+w) > 3(1+w) for every w > -1
+  (R-E). No tuning selects the epoch; the correction takes over at maximum compression
+  by construction.
+
+  THE ANTI-CONTROLS EARN THEIR KEEP. Shear scales as a^-6 too and does NOT bounce -- it
+  deepens the collapse, which is the BKL problem (R-F). So the a^-6 scaling is not what
+  does the work; the SIGN is. And negative curvature reaches H = 0 with Hdot < 0, a
+  turnaround, which is precisely the trap task 4 identified (R-G).
+
+  WHAT IS NOW OWED, AND IT IS A DIFFERENT QUESTION FROM THIS MORNING'S. Not "does the
+  model contain a negative-energy stiff component" -- the corpus has already answered
+  that, no. It is: DOES THE MODEL'S GRAVITATIONAL SECTOR CARRY A rho^2 CORRECTION, and
+  what sets rho_c? That is a question about the induced-gravity construction rather
+  than about the matter roster, and it is where #13 should be pointed next.
+

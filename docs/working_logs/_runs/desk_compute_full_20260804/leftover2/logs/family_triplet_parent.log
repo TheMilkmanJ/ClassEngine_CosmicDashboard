@@ -1,0 +1,107 @@
+==============================================================================
+  #1 — THE FAMILY TRIPLET'S PARENT, AND WHAT BREAKS IT
+==============================================================================
+
+  C-A  spectrum of M(a,b) = {a+2b, a-b, a-b}
+  ok    C-A1 eigenvector equations M.v = lambda.v hold exactly   max residual 0.00e+00
+  ok    C-A2 the three eigenvectors span R^3   det = 6
+  ok    C-A3 the doublet is orthogonal to the singlet
+
+  C-B  threefold degeneracy occurs at b = 0 and nowhere else
+  ok    C-B1 b = 0 is threefold degenerate   spectrum [2.0, 2.0, 2.0]
+  ok    C-B2 no other b gives threefold degeneracy
+  ok    C-B3 singlet-doublet gap is exactly 3b   gap 1.860000 vs 3b 1.860000
+
+  C-C  the order parameter is a uniaxial spin-2 (nematic), not a vector
+  ok    C-C1 traceless part is traceless
+  ok    C-C2 traceless part has eigenvalues b*(2,-1,-1)   [-0.37, -0.37, 0.74]
+  ok    C-C3 uniaxial: exactly two eigenvalues coincide
+  ok    C-C4 the distinguished axis is (1,1,1)   eigenvalue on (1,1,1) = 0.740000000 = 2b
+
+  C-D  3 (x) 3 |sym = 1 + 5 — the adjoint (3) has nowhere to sit
+  ok    C-D1 dimension count 6 = 1 + 5   sym part of 3x3 is 6-dim
+  ok    C-D2 symmetric subspace is 6-dimensional
+  ok    C-D3 antisymmetric subspace is 3-dimensional (this IS the adjoint)
+  ok    C-D4 adjoint is ORTHOGONAL to every symmetric matrix   max overlap 0.00e+00  -> an adjoint VEV cannot split a stiffness matrix
+
+  C-E  rotations about (1,1,1) commute with M for every b
+  ok    C-E1 [R(theta about 111), M] = 0 for all tested b, theta   max |commutator| 0.00e+00
+  ok    C-E2 so the residual group is CONTINUOUS O(2), not merely C3   the doublet degeneracy is protected, not accidental
+
+  C-F  Q = 1/3 + A^2/6 at the node and at the Koide point
+  ok    C-F1 Q(b=0) = 1/3
+  ok    C-F2 Q(|b|/a = 1/sqrt2) = 2/3   A = 1.414213562 = sqrt2
+  ok    C-F3 the Koide point is dynamically stable (all stiffnesses > 0)   spectrum [0.585786, 0.585786, 4.828427]
+
+  C-G  complex b: arg b is the spin-2 / adjoint mixing angle
+  ok    C-G1 P + P^T = J - I (the real symmetric / spin-2 piece)
+  ok    C-G2 P - P^T is antisymmetric (so i(P-P^T) is Hermitian: the adjoint)
+  ok    C-G3 the spin-2 and adjoint pieces are orthogonal   overlap 0  -> arg b mixes two independent components
+  ok    C-G4 spectrum = a + 2|b|cos(phi + 2pi k/3) from the two pieces   max dev 8.88e-16
+  ok    C-G5 phi = 0 is UNIAXIAL: two eigenvalues coincide   [1.7, 1.7, 2.6]
+  ok    C-G6 phi = 2/9 (the Brannen phase) is BIAXIAL: all three distinct   [1.592855, 1.821899, 2.585246]
+  ok    C-G7 adjoint/spin-2 amplitude ratio = tan(arg b)   tan(2/9) = 0.225954  -> the adjoint piece is 22.6% of the spin-2 piece
+  ok    C-G8 uniaxial only at phi = 0 mod pi/3 (a measure-zero set)   generic phi is biaxial; the physical point is not fine-tuned to uniaxial
+
+==============================================================================
+  ALL CONTROLS PASS — the docket answer for #1
+==============================================================================
+
+  THE DEGENERACY IS REAL BUT NOT PROTECTED BY THE RING. C3 and S3 have no
+  three-dimensional irrep (C3 is abelian; S3 has 1, 1', 2). So the threefold
+  degeneracy at b = 0 is not an irreducible multiplet of the ring's own symmetry
+  -- it is the accidental degeneracy of a*I.
+
+  A GENUINE TRIPLET NEEDS SO(3) ~ SU(2)/Z2, AND THAT IS AVAILABLE. The ring's C3
+  is the 2*pi/3 rotation about the democratic axis (1,1,1), a subgroup of SO(3)
+  (C-E). So "three families = one SO(3) triplet, with the ring's C3 the residue
+  after the configuration picks the (1,1,1) axis" is consistent.
+
+  FOR REAL b THE BREAKING IS PURELY SPIN-2, AND AN ADJOINT CANNOT DO IT. A real
+  stiffness matrix is a SYMMETRIC 2-tensor, and 3 (x) 3 |sym = 1 + 5 exactly
+  (C-D). The adjoint is the 3, which lives entirely in the ANTISYMMETRIC part and
+  is orthogonal to every symmetric matrix. The traceless part is b*(J - I),
+  eigenvalues b*(2, -1, -1), axis (1,1,1) (C-C) -- a textbook UNIAXIAL NEMATIC.
+  It breaks SO(3) -> O(2) about that axis, so 3 -> 1 + 2 with the DOUBLET
+  PROTECTED by the residual continuous O(2) (C-E), which is why the two shape
+  modes are exactly degenerate rather than approximately so.
+
+  BUT THE PHYSICAL POINT HAS arg b = 2/9, AND THERE THE ADJOINT IS BACK. With b
+  complex the family Hamiltonian H = a*I + b*P + conj(b)*P^T is complex HERMITIAN,
+  not real symmetric, and traceless Hermitian 3x3 matrices are the 8 of SU(3),
+  which under SO(3) decomposes 8 -> 5 + 3. Writing it out (C-G):
+
+      H = a*I + |b| * [ cos(phi) * (P + P^T)  +  i sin(phi) * (P - P^T) ]
+                        \_____ 5, nematic ____/    \____ 3, ADJOINT ____/
+
+  The two pieces are linearly independent and orthogonal (C-G3). So arg b IS THE
+  MIXING ANGLE between the spin-2 and adjoint components of the family order
+  parameter, and their amplitude ratio is exactly tan(arg b) -- at the Brannen
+  phase, the adjoint piece is 22.6% of the nematic piece (C-G7).
+
+  phi = 0 is uniaxial (doublet degenerate); any other phi is BIAXIAL, with three
+  distinct masses (C-G5, C-G6, C-G8). The physical spectrum is three distinct
+  charged-lepton masses, so the physical point is necessarily biaxial -- and
+  biaxiality is generic, not fine-tuned, since uniaxiality needs phi = 0 mod pi/3.
+  Koide sits at |b|/a = 1/sqrt2 and is stable (C-F3).
+
+  NET EFFECT ON THE DOCKET. "Branch A's SU(2) ADJOINT is a candidate parent" is
+  not excluded -- it is RELOCATED, and the relocation is the useful part:
+
+    * the families being an SU(2)/SO(3) TRIPLET stands (the 3 is the multiplet);
+    * the adjoint is NOT the parent of that multiplet, and it is NOT what makes
+      the masses split at leading order -- the spin-2 nematic is;
+    * the adjoint IS the second component of the same order parameter, and its
+      weight relative to the nematic is tan(arg b).
+
+  SO #2 SHARPENS. "What sets arg b" is now literally "what sets the ratio of the
+  ADJOINT to the NEMATIC component of the family order parameter" -- a question
+  about the relative strength of two representations in one condensate, which is
+  a far more constrained object than an unexplained angle. It also explains why
+  the ring's own potential cannot supply it (spec C6): a C3-symmetric real
+  potential builds only the symmetric piece, and the adjoint component is
+  imaginary-antisymmetric, so it is invisible to that potential at every order.
+
+
+/home/themilkmanj/prtoe_class/scripts/family_triplet_parent.py:362: SyntaxWarning: invalid escape sequence '\_'
+  print("""

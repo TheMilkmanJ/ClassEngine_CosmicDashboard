@@ -1,0 +1,69 @@
+==============================================================================
+  WHERE THE AMPLITUDE STANDS
+==============================================================================
+
+  A-A  precision needed per band to match the molecular bound
+       sigma_eps = sigma / sqrt(sum w^2) = sigma / sqrt(8)
+       to reach sigma_eps = 4.0e-07:  sigma = 1.131e-06
+  ok    A-A1 the pair needs sigma ~ 1.1e-6 per band   1.131e-06
+
+  A-B  how far the paper's own figure sits from it
+       1.4e-05 / 4.0e-07 = 35.0
+  ok    A-B1 the molecular bound is 35x tighter   35.0x
+
+  A-C  direction of the inequality
+  ok    A-C1 molecular really is the tighter of the two   so the paper cannot claim to improve the amplitude
+
+  A-D  ANTI-CONTROL: does the conclusion depend on WHICH methanol number?
+       with the superseded 1.1e-07:  sigma = 3.111e-07
+  ok    A-D1 the superseded number would demand MORE precision, not less   so quoting the robust figure is the CONSERVATIVE choice against our own case
+  ok    A-D2 the paper is beaten on either reading   the framing change is forced, not a judgement call
+
+  A-D'  independent check: Bagdonaite et al. 2013, three telescopes, ten lines
+       (-1.0 +/- 0.8_stat +/- 1.0_sys) e-7   combined 1 sigma = 1.281e-07
+       worst 2-sigma excursion |dmu/mu| < 3.56e-07
+  ok    A-D'1 the two independent analyses agree at the 4e-7 level   3.56e-07 vs 4.0e-07
+  ok    A-D'2 so 4e-7 is not an underquote of the methanol constraint   two teams, two line sets, same answer
+  ok    A-D'3 and it too is systematics-dominated, as the 21 cm row is   sys 1.0e-07 > stat 8.0e-08
+
+  A-E  the assumption chains, counted
+       21 cm  -> eps  needs: alpha fixed, proton g-factor fixed, m_p fixed
+       CH3OH  -> eps  needs: m_p fixed
+  ok    A-E1 the methanol chain is strictly shorter   1 assumption vs 3
+  ok    A-E2 and strictly contained, so it is weaker and not merely different
+
+  A-F  ANTI-CONTROL: is the paper's answer to all this actually non-empty?
+       one row:  1 number - 1 fitted amplitude  =>  0 degree(s) of freedom left to test with
+       two rows: 2 numbers - 1 fitted amplitude  =>  1 degree(s) of freedom left to test with
+  ok    A-F1 a single-row bound tests NOTHING once the amplitude is fitted   any hypothesis absorbs it
+  ok    A-F2 the pair leaves one testable degree of freedom   and that is the paper's actual contribution
+  ok    A-F3 the discriminating power does NOT scale with the amplitude bound   it is a counting statement, independent of sigma -- so Finding 1 does not empty it
+
+==============================================================================
+  RESULT — THE FRAMING WAS WRONG AND IS NOW CORRECTED
+==============================================================================
+
+  The paper quoted |eps| < 1.4e-5 from the 21 cm row without knowing that methanol
+  absorption toward PKS1830-211 already bounds the same quantity at 4e-7, under a
+  STRICTLY CONTAINED set of assumptions -- methanol carries mu alone, where 21 cm
+  carries g_p alpha^2 / mu and needs two more constants held still. The molecular limit
+  is 35x tighter, and the 21 cm and Faraday pair would need 1.1e-6 fractional precision
+  per band merely to match it.
+
+  So the paper cannot claim to improve the amplitude, and the text no longer does. The
+  abstract, the sensitivity section and the conclusion all now say so outright.
+
+  THE ANSWER IS NOT EMPTY, and A-F is why. Once the amplitude is fitted, a single-row
+  bound has zero degrees of freedom left -- every hypothesis absorbs it, so it tests
+  nothing about WHERE the shift sits. Two rows of different weight leave one. That is a
+  counting statement and does not scale with sigma, so a 35x better amplitude bound does
+  not touch it. A tight mu limit and a weak pattern test answer different questions.
+
+  Separately, the dispersion-measure row had a varying-constants literature the paper
+  cited nowhere -- Lemos et al. 2025 (JCAP 01, 059) and Kalita 2024 (MNRASL 533, L57),
+  both comparing observed DM against Omega_b h^2 with an assumed baryon fraction. That
+  is precisely the external electron column the paper's own demotion argument named, so
+  it CONFIRMS the reasoning. But Kalita's dmu/mu = -1e-5 is derived from his alpha
+  result through an assumed unification relation, not measured independently, and so
+  constrains nothing at fixed alpha. Both are now cited, with that distinction stated.
+

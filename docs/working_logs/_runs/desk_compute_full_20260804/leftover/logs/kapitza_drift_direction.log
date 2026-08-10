@@ -1,0 +1,32 @@
+==============================================================================
+Which way the pinning cuts — the accumulated asymmetry vs p/w
+==============================================================================
+
+   w = 1.0, j = 0.05;  free-phase prediction <phidot> = j^2/(2w) = 1.2500e-03
+
+     p/w        <phidot>      / free-phase      state
+    0.0e+00   +1.3033e-03       1.0427       FREE — asymmetry accumulates
+    1.0e-04   +1.2167e-03       0.9733       FREE — asymmetry accumulates
+    1.0e-03   +5.6777e-04       0.4542       TRAPPED — nothing accumulates
+    1.0e-02   +4.1235e-06       0.0033       TRAPPED — nothing accumulates
+    1.0e-01   -2.0157e-15      -0.0000       TRAPPED — nothing accumulates
+    1.0e+00   +4.9883e-17       0.0000       TRAPPED — nothing accumulates
+
+   the physical point:
+     pinning rate        p = m1^2/Gamma_phi = 9.375e-16 eV
+     junction rate       j (set by the need) = 5.970e-03 eV
+     trapping threshold  j^2/(2*thetadot)    = 2.985e-07 eV
+     p / threshold = 3.14e-09
+   -- the pinning sits NINE orders below the level at which it
+      would begin destroying the asymmetry. Free, with margin.
+
+VERDICT:
+   THE PINNING IS THE OFF SWITCH, NOT THE PREFACTOR. Where the
+   Majorana term is strong enough to hold the phase, the
+   accumulated asymmetry collapses to zero: the junction still
+   passes current, but the L-violating channel destroys exactly
+   what arrives, which is what a trapped phase means. The
+   transfer survives in this model only because the pinning is
+   seventeen orders too weak to hold anything. Crediting the
+   rectification to m1 has the causality backwards.
+==============================================================================

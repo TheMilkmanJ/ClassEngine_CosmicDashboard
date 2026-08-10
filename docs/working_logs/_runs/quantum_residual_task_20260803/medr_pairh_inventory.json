@@ -1,0 +1,244 @@
+{
+  "files_scanned": 490,
+  "medium_r_derived": false,
+  "medium_pair_H_licensed": false,
+  "textbook_harness_exists": true,
+  "path_harness": "scripts/quantum_pair_hamiltonian_tmsv.py",
+  "medium_pin_found": false,
+  "has_pair_h_phrase": true,
+  "has_lambda_omega_phrase": true,
+  "hit_counts": {
+    "pair_Hamiltonian_phrase": 12,
+    "latex_pair_H": 0,
+    "tmsv_phrase": 8,
+    "squeeze_param": 2,
+    "lambda_over_omega": 1,
+    "bogoliubov_coherence": 4,
+    "pairing_gap": 12,
+    "cooper": 2
+  },
+  "hits": {
+    "pair_Hamiltonian_phrase": [
+      {
+        "file": "docs/exploratory/PRTOE_quantum_tunneling.md",
+        "line": 114,
+        "snippet": "SP-D4 template) | | Medium pair \\(r\\) + pair Hamiltonian | MISSING_INPUT | explicit Hamiltonian + non-circular \\(r\\)"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_trio.md",
+        "line": 103,
+        "snippet": "n harness** (E1\u2013E2); medium \\(r\\) and   pair Hamiltonian **MISSING** (E6\u2013E7) \u2014 not a paid medium derivation of Bell."
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_trio.md",
+        "line": 181,
+        "snippet": "/) | Literature harness; medium \\(r\\) / pair Hamiltonian **MISSING** (E6\u2013E7) | | T3 | Tunneling face: WKB \u2261 2\u00d7 mediu"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_trio.md",
+        "line": 202,
+        "snippet": "SP-D4 template) | | Medium pair \\(r\\) + pair Hamiltonian | MISSING_INPUT | explicit Hamiltonian + non-circular \\(r\\)"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_entanglement.md",
+        "line": 15,
+        "snippet": "(script scans free \\(r\\)).   > Explicit pair Hamiltonian for first-principles \\(B(r)\\): **MISSING_INPUT**.   > **Not"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_entanglement.md",
+        "line": 101,
+        "snippet": " | First-principles \\(B(r)\\) from model pair Hamiltonian | **MISSING_INPUT** (**EN-D3**/EN-H1) | Textbook pair \\(H=\\"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_entanglement.md",
+        "line": 104,
+        "snippet": "hy nature is quantum, **medium \\(r\\)**, pair Hamiltonian.  **Content boundary (Claude red cure 2026-08-03 + EN-D2/D3"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_entanglement.md",
+        "line": 124,
+        "snippet": "SP-D4 template) | | Medium pair \\(r\\) + pair Hamiltonian | MISSING_INPUT | explicit Hamiltonian + non-circular \\(r\\)"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_superposition.md",
+        "line": 140,
+        "snippet": "SP-D4 template) | | Medium pair \\(r\\) + pair Hamiltonian | MISSING_INPUT | explicit Hamiltonian + non-circular \\(r\\)"
+      },
+      {
+        "file": "scripts/quantum_pair_hamiltonian_tmsv.py",
+        "line": 2,
+        "snippet": "#!/usr/bin/env python3 \"\"\"Pair Hamiltonian \u2192 TMSV squeeze r \u2192 CHSH B(r) harness.  Resource: single-thr"
+      },
+      {
+        "file": "scripts/quantum_pair_hamiltonian_tmsv.py",
+        "line": 7,
+        "snippet": "s DOES:   - Standard two-mode quadratic pair Hamiltonian       H = \u03c9 (a\u2020a + b\u2020b) + \u03bb (ab + a\u2020b\u2020)     (textbook gener"
+      },
+      {
+        "file": "scripts/quantum_pair_hamiltonian_tmsv.py",
+        "line": 95,
+        "snippet": "mps(payload, indent=2))      md = f\"\"\"# Pair Hamiltonian \u2192 TMSV \u2192 CHSH harness  **Script:** `scripts/quantum_pair_ha"
+      }
+    ],
+    "latex_pair_H": [],
+    "tmsv_phrase": [
+      {
+        "file": "scripts/quantum_page_purestate_continuum.py",
+        "line": 93,
+        "snippet": "     iq_r, ip_r = qp(n_c + j)         # two-mode squeezing generator structure         A[iq_c, ip_r] += g         A"
+      },
+      {
+        "file": "scripts/quantum_chsh_tsirelson.py",
+        "line": 2,
+        "snippet": "/bin/env python3 \"\"\"CHSH correlator for two-mode squeezed / pair states \u2014 Tsirelson null.  Referenced by docs/explo"
+      },
+      {
+        "file": "scripts/quantum_chsh_tsirelson.py",
+        "line": 30,
+        "snippet": "ptions (explicit):   (A1) Pair state is two-mode squeezed vacuum (or equivalent Bell family        parameterized by"
+      },
+      {
+        "file": "scripts/quantum_chsh_tsirelson.py",
+        "line": 50,
+        "snippet": "-> float:     \"\"\"Optimal CHSH value for two-mode squeeze parameter r \u2265 0.\"\"\"     if r < 0:         raise ValueError"
+      },
+      {
+        "file": "scripts/quantum_page_candidate_rebuild.py",
+        "line": 15,
+        "snippet": "d \u03c9 from week2, \u0393 weights      - Early: two-mode squeezing (entangling emission)      - Late: beam-splitter core\u2192ra"
+      },
+      {
+        "file": "scripts/quantum_page_candidate_rebuild.py",
+        "line": 186,
+        "snippet": "      g1 = g_tms * w_tms * gw         # two-mode squeezing         A[iq_c, ip_r] += g1         A[ip_r, iq_c] += g1 "
+      },
+      {
+        "file": "scripts/quantum_pair_hamiltonian_tmsv.py",
+        "line": 9,
+        "snippet": " (ab + a\u2020b\u2020)     (textbook generator of two-mode squeezing)   - Diagonalize / use closed form: effective squeeze r "
+      },
+      {
+        "file": "scripts/quantum_pair_hamiltonian_tmsv.py",
+        "line": 43,
+        "snippet": ").     (Standard parametric amplifier / two-mode squeezing map.)     \"\"\"     x = float(np.clip(x, -0.999999, 0.9999"
+      }
+    ],
+    "squeeze_param": [
+      {
+        "file": "scripts/quantum_chsh_tsirelson.py",
+        "line": 17,
+        "snippet": "l's only claim is identification of the squeezing   parameter r with the medium's pair parameter; reaching Tsirelson is n"
+      },
+      {
+        "file": "scripts/quantum_chsh_tsirelson.py",
+        "line": 50,
+        "snippet": "     \"\"\"Optimal CHSH value for two-mode squeeze parameter r \u2265 0.\"\"\"     if r < 0:         raise ValueError(\"r must be"
+      }
+    ],
+    "lambda_over_omega": [
+      {
+        "file": "docs/exploratory/PRTOE_quantum_entanglement.md",
+        "line": 101,
+        "snippet": "+\\mathrm{h.c.})\\) \u2192 \\(r=\\mathrm{artanh}(\\lambda/\\omega)\\) \u2192 literature \\(B(r)\\) computed (`scripts/quantum_pair_ha"
+      }
+    ],
+    "bogoliubov_coherence": [
+      {
+        "file": "docs/PRTOE_induced_gravity.md",
+        "line": 97,
+        "snippet": "is a **physical** regulator (condensate Bogoliubov coherence factors) rather than a bookkeeping one, so the same \\(\\vare"
+      },
+      {
+        "file": "docs/PRTOE_induced_gravity.md",
+        "line": 122,
+        "snippet": "ium. Mode contributions are weighted by Bogoliubov coherence factors; the regulated one-loop coefficient equals the naiv"
+      },
+      {
+        "file": "docs/PRTOE_quantum_gravity.md",
+        "line": 204,
+        "snippet": "r rather than a bookkeeping one. \u00a75.1's Bogoliubov coherence factors are a property of the condensate, and their regulat"
+      },
+      {
+        "file": "docs/PRTOE_quantum_gravity.md",
+        "line": 253,
+        "snippet": "utions are weighted by the condensate's Bogoliubov coherence factors \u2014 a derived form factor whose regulated one-loop co"
+      }
+    ],
+    "pairing_gap": [
+      {
+        "file": "docs/PRTOE_FAILURES_LEDGER.md",
+        "line": 1657,
+        "snippet": " died:** paying kill (d) killed it. The gap equation was written down and solved rather than adopted, deriving t"
+      },
+      {
+        "file": "docs/PRTOE_FAILURES_LEDGER.md",
+        "line": 1824,
+        "snippet": "\u00b2) \u2212 3/2] | 3/4 | | 3. sharp-cutoff BCS gap equation | native single-log | ln 2 = 0.693 | | 4. scheme/threshold "
+      },
+      {
+        "file": "docs/PRTOE_FAILURES_LEDGER.md",
+        "line": 1864,
+        "snippet": "osite \u03c3-pole, tadpole eliminated by the gap equation) **cancels its \u03bc-logs exactly** \u2014 the textbook m_\u03c3 = 2M sta"
+      },
+      {
+        "file": "docs/PRTOE_FAILURES_LEDGER.md",
+        "line": 1895,
+        "snippet": "y, normalization-robust):** the thermal gap equation's constant shift h(T/M) is exponentially negligible in the "
+      },
+      {
+        "file": "docs/PRTOE_FAILURES_LEDGER.md",
+        "line": 1919,
+        "snippet": "erty is invisible to a density-weighted gap equation). The 3/2 re-grades: **sharp underived residual \u2192 derived a"
+      },
+      {
+        "file": "docs/PRTOE_FAILURES_LEDGER.md",
+        "line": 3437,
+        "snippet": "te kernel is the standard host of every gap equation. The mismatch lands on standard ground with one owed number"
+      },
+      {
+        "file": "docs/PRTOE_FAILURES_LEDGER.md",
+        "line": 3583,
+        "snippet": "t reading two unrelated lines (a solved gap equation and existing precision data) both pointed above \u2248 2.3 TeV a"
+      },
+      {
+        "file": "docs/PRTOE_READERS_RISK.md",
+        "line": 273,
+        "snippet": " exposure in the hierarchy chain\"*: the gap equation's kernel is electromagnetic \u2014   Coulomb exchange, Thomas\u2013Fe"
+      },
+      {
+        "file": "docs/PRTOE_quartet_clock.md",
+        "line": 147,
+        "snippet": "'s two real degrees of freedom, and the gap equation's independent first-pass hint (N = 2 channels, k = 1.36) \u2014 "
+      },
+      {
+        "file": "docs/PRTOE_honest_status.md",
+        "line": 174,
+        "snippet": "d on 2026-07-19/20  **Favourable.** The gap equation is no longer a gap: k = ln(1 + \u03c0/2\u03b1_c)/\u03c0 reconstructs **exa"
+      },
+      {
+        "file": "docs/PRTOE_DEPENDENCY_TREE.md",
+        "line": 65,
+        "snippet": "h T \u226a \u03bc \u2014 the ground-state kernel every gap equation uses); and the formation-epoch condition is satisfied by th"
+      },
+      {
+        "file": "docs/PRTOE_quantum_gravity.md",
+        "line": 181,
+        "snippet": "e vacuum energy budget is capped at the pairing gap by a no-double-counting constraint; the floor value is *com"
+      }
+    ],
+    "cooper": [
+      {
+        "file": "docs/PRTOE_READERS_GUIDE.md",
+        "line": 49,
+        "snippet": ". Pairing is **particle-hole** (charged Cooper pair would mass the photon). \u22123/2: pairing shell cutoff is Planc"
+      },
+      {
+        "file": "docs/exploratory/PRTOE_quantum_trio.md",
+        "line": 80,
+        "snippet": "T** | the (k\u2191, \u2212k\u2193) twin correlation: a Cooper pair is an entangled state by construction; ODLRO is that entang"
+      }
+    ]
+  },
+  "EN_D2_D3": "MISSING_INPUT",
+  "next": "If medium_pin_found, hand-derive formula into script; else stay blocked"
+}

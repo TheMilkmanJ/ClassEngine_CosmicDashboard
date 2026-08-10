@@ -1,0 +1,224 @@
+\documentclass[aps,prd,twocolumn,superscriptaddress,nofootinbib,10pt]{revtex4-2}
+
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+\title{A rotating condensate tracking $V\propto r^{n}$ cannot reach kination:\\
+exact equation of state $w=(n-2)/(n+2)$}
+
+\author{Justin Pulford}
+\email{pulfordj420@gmail.com}
+\affiliation{Unaffiliated}
+
+\date{\today}
+
+\begin{abstract}
+A complex scalar with a conserved charge $Q$, written in polar form as a rotating condensate of
+amplitude $r$, has rotational energy density that would scale as $a^{-6}$ (kination, $w=1$) if $r$
+were held fixed. On a polynomial potential $V\propto r^{n}$ the amplitude does not stay fixed: it
+tracks the minimum of the effective radial potential formed by $V$ plus the centrifugal barrier.
+Tracking yields the exact equation of state
+\begin{equation*}
+  w = \frac{n-2}{n+2}\,,
+\end{equation*}
+strictly below unity for every finite polynomial degree $n$, and equal to the kination limit only
+as $n\to\infty$. Freeze-out of $r$ (the only escape to $w=1$) requires a trans-Planckian amplitude,
+$r\gtrsim\mathcal{O}(1)\,M_{\mathrm{Pl}}$. Numerical integration of the radial field equation through a
+contracting background reproduces the analytic $w$ to a few parts in $10^{5}$ at $n=2,4,6$. The
+result is classical field theory with a conserved charge; it is independent of any particular
+dark-sector model. It is a negative sector result: a rotating condensate of this class cannot
+supply the stiff phase often invoked to survive a BKL approach to a crunch.
+\end{abstract}
+
+\maketitle
+
+% ---------------------------------------------------------------------------
+\section{Motivation}\label{sec:motivation}
+
+In a contracting cosmology the shear energy density of anisotropic modes scales as $a^{-6}$.
+Radiation ($w=1/3$) scales as $a^{-4}$, so the anisotropy-to-radiation ratio grows as $a^{-2}$
+and becomes catastrophic over even a few decades of contraction. The standard route past a
+Belinski--Khalatnikov--Lifshitz (BKL) approach~\cite{BKL1970,BKL1982} is a stiff phase with
+$w\geq 1$ (kination), which scales as $a^{-6}$ and keeps the relative anisotropy from growing.
+
+A rotating complex scalar looks like a natural supplier of that phase. Written
+$\Psi=(r/\sqrt{2})\,e^{i\theta}$ with conserved charge
+\begin{equation}
+  Q = a^{3} r^{2}\dot\theta\,,
+\end{equation}
+elimination of $\dot\theta$ at fixed $Q$ produces a centrifugal term in the effective radial
+potential,
+\begin{equation}
+  V_{\mathrm{eff}}(r)
+  = V(r) + \frac{Q^{2}}{2 a^{6} r^{2}}\,.
+  \label{eq:Veff}
+\end{equation}
+If the amplitude $r$ were held fixed, the rotational energy density
+$\rho_{\mathrm{rot}}=Q^{2}/(2a^{6}r^{2})$ would fall exactly as $a^{-6}$ --- pure kination.
+The question is whether $r$ holds fixed on approach. That is decidable from the field equation
+alone.
+
+This note answers that question for polynomial potentials $V\propto r^{n}$. The answer is
+negative at every sub-Planckian amplitude. No claim is made about bounce mechanisms, dark energy,
+or any model beyond the classical charged scalar.
+
+% ---------------------------------------------------------------------------
+\section{Tracking equation of state}\label{sec:tracking}
+
+At the minimum of~\eqref{eq:Veff},
+\begin{equation}
+  V'(r) = \frac{Q^{2}}{a^{6} r^{3}}\,.
+  \label{eq:min}
+\end{equation}
+For $V=c\,r^{n}$ this integrates immediately to
+\begin{equation}
+  r \propto a^{-6/(n+2)}\,.
+  \label{eq:rtrack}
+\end{equation}
+The rotational kinetic energy is then related to the potential by
+\begin{equation}
+  \rho_{\mathrm{rot}}
+  = \frac{Q^{2}}{2 a^{6} r^{2}}
+  = \frac{n}{2}\,V\,,
+\end{equation}
+so the total density and pressure at tracking are
+\begin{align}
+  \rho &= V + \rho_{\mathrm{rot}} = V\bigl(1+n/2\bigr)
+       = V\,(n+2)/2\,, \\
+  p    &= \rho_{\mathrm{rot}} - V = V\bigl(n/2-1\bigr)
+       = V\,(n-2)/2\,.
+\end{align}
+Hence
+\begin{equation}
+  \boxed{\,w = \frac{p}{\rho} = \frac{n-2}{n+2}\,}\,.
+  \label{eq:w}
+\end{equation}
+Equivalently, from~\eqref{eq:rtrack},
+$\rho\propto a^{-6n/(n+2)}=a^{-3(1+w)}$, which recovers the same $w$.
+
+Special cases reproduce textbook regimes rather than inventing new ones:
+\begin{itemize}
+\item $n=2$ (quadratic / mass era): $w=0$ (cold dust / oscillating massive scalar).
+\item $n=4$ (quartic): $w=1/3$ (radiation-like).
+\item $n\to\infty$: $w\to 1$ (kination approached only at infinite degree).
+\end{itemize}
+For every finite polynomial $n$, $w<1$. No polynomial potential reaches the stiff condition by
+tracking.
+
+The algebraic relation~\eqref{eq:w} is not new in cosmology: it is the standard effective
+equation of state of a coherently oscillating scalar in a monomial potential~\cite{Turner1983}
+(the cold-dark-matter reading of a massive scalar is the $n=2$ case). Kination itself is the
+$w=1$ end-member of kinetic domination~\cite{Spokoiny1993}. What is stated here is the
+consequence for a \emph{rotating} condensate whose centrifugal barrier might have been hoped to
+supply kination without freezing $r$.
+
+% ---------------------------------------------------------------------------
+\section{Why the field tracks rather than freezes}\label{sec:freeze}
+
+Freeze-out of $r$ would leave $\rho_{\mathrm{rot}}\propto a^{-6}$ and restore $w=1$. Freeze-out
+requires Hubble friction to beat the restoring curvature of $V_{\mathrm{eff}}$ at the tracking
+minimum, i.e.\ $V_{\mathrm{eff}}''\lesssim H^{2}$.
+
+At the minimum~\eqref{eq:min}, for $V=c\,r^{n}$,
+\begin{equation}
+  V_{\mathrm{eff}}''
+  = n(n+2)\,\frac{V}{r^{2}}\,,
+  \qquad
+  H^{2}
+  = \frac{\rho}{3M_{\mathrm{Pl}}^{2}}
+  = \frac{V(n+2)}{6M_{\mathrm{Pl}}^{2}}\,,
+\end{equation}
+so
+\begin{equation}
+  \frac{V_{\mathrm{eff}}''}{H^{2}}
+  = 6n\,\Bigl(\frac{M_{\mathrm{Pl}}}{r}\Bigr)^{2}\,.
+  \label{eq:curv}
+\end{equation}
+The ratio is $\mathcal{O}(10)\,(M_{\mathrm{Pl}}/r)^{2}$. Freezing needs $V_{\mathrm{eff}}''/H^{2}\sim 1$,
+hence
+\begin{equation}
+  r \gtrsim \sqrt{6n}\,M_{\mathrm{Pl}}\,.
+\end{equation}
+Numerically this is $r\gtrsim 3.5\,M_{\mathrm{Pl}}$ at $n=2$ and
+$r\gtrsim 4.9\,M_{\mathrm{Pl}}$ at $n=4$.
+For any \emph{sub-Planckian} amplitude the curvature dominates by orders of magnitude, the field
+tracks, and $w$ is pinned at~\eqref{eq:w}. Kination from freeze-out is available only at
+trans-Planckian amplitude.
+
+% ---------------------------------------------------------------------------
+\section{Numerical check}\label{sec:numerics}
+
+The analytic result can be confirmed by integrating the radial field equation through a
+contracting FLRW background and measuring $w$ from the slope of $\ln\rho$ against $\ln a$. In
+e-fold time $N=\ln a$ with $u=\mathrm{d}r/\mathrm{d}N$,
+\begin{equation}
+  r'' + \bigl(3 + H'/H\bigr)r'
+  + \frac{1}{H^{2}}\Bigl[V'(r)-\frac{Q^{2}}{a^{6}r^{3}}\Bigr] = 0\,,
+\end{equation}
+with $H^{2}$ recomputed each step from the Friedmann constraint. Starting on the tracking
+solution and contracting over several decades of $a$, one finds (sub-Planckian window):
+
+\begin{center}
+\begin{tabular}{c c c}
+\hline
+$n$ & $w$ analytic & $w$ integrated \\
+\hline
+2 & $0$ & $0.000064$ \\
+4 & $1/3$ & $0.333395$ \\
+6 & $1/2$ & $0.500067$ \\
+\hline
+\end{tabular}
+\end{center}
+
+Agreement is at the level of a few parts in $10^{5}$. The same integrations cross the
+trans-Planckian freeze threshold when $r$ grows as $a$ falls; above that threshold the measured
+$w$ turns to $1.000$ (to four figures), confirming that freeze-out does produce kination and that
+the price is the amplitude~\eqref{eq:curv} already prices.
+
+% ---------------------------------------------------------------------------
+\section{What this does and does not claim}\label{sec:scope}
+
+\textbf{Does claim.} For a rotating complex scalar with conserved $Q$ tracking
+$V_{\mathrm{eff}}$ on $V\propto r^{n}$, the equation of state is exactly~\eqref{eq:w}. No finite
+polynomial $n$ reaches kination. Freeze-out to $w=1$ requires $r\sim\mathcal{O}(M_{\mathrm{Pl}})$.
+
+\textbf{Does not claim.} That no stiff component can exist in a contracting universe; only that
+\emph{this} sector, at sub-Planckian amplitude, cannot supply one. Other fields, non-polynomial
+potentials, non-canonical kinetics, or a bounce mechanism that introduces a stiff component of its
+own are outside the argument. The note does not solve the BKL problem and does not construct a
+bounce.
+
+The result is therefore a negative sector statement of the kind useful in model-building
+bookkeeping: if a construction relies on a rotating condensate of this class to protect a
+contracting phase against BKL growth, that reliance fails at every sub-Planckian amplitude for
+every polynomial potential.
+
+% ---------------------------------------------------------------------------
+\begin{acknowledgments}
+Independent numerical integration of the radial equation was used only to cross-check the analytic
+tracking law; the law itself follows from~\eqref{eq:min}--\eqref{eq:w} without numerics.
+\end{acknowledgments}
+
+\begin{thebibliography}{9}
+
+\bibitem{BKL1970}
+V.~A. Belinskii, I.~M. Khalatnikov, and E.~M. Lifshitz,
+Adv.\ Phys.\ \textbf{19}, 525 (1970).
+
+\bibitem{BKL1982}
+V.~A. Belinskii, I.~M. Khalatnikov, and E.~M. Lifshitz,
+Adv.\ Phys.\ \textbf{31}, 639 (1982).
+
+\bibitem{Turner1983}
+M.~S. Turner,
+Phys.\ Rev.\ D \textbf{28}, 1243 (1983).
+
+\bibitem{Spokoiny1993}
+B.~Spokoiny,
+Phys.\ Lett.\ B \textbf{315}, 40 (1993).
+
+\end{thebibliography}
+
+\end{document}

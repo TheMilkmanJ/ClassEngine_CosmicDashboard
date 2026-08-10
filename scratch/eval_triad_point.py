@@ -18,7 +18,7 @@ try:
         'dcdf_rho_inf': 0.7,
         'xi_Neff': 0.3,
         'varying_alpha': 1.05,
-        'dcdf_beta': 5.0e-5
+        # dcdf_beta retired 2026-07-05 (v5) — do not pass to CURRENT_CORE
     }
     
     logpost, derived = model.logposterior(point)

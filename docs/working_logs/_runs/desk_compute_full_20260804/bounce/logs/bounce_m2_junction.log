@@ -1,0 +1,63 @@
+==============================================================================
+M2 — corrected shear clock, mixmaster window, toy junction
+==============================================================================
+
+A. Corrected exit (H² = 8πGρ/3 + σ²/3), seed scan
+        Σ0    N_mix      dec    R_H/ξ    Σ_loc      T_rad      T_eff   N_med*
+  ------------------------------------------------------------------------------
+     1e-10      nan      nan    0.295    0.295  6.797e+03  6.847e+03     5.30
+     1e-08     1.66     2.17    1.673    1.673  1.464e+03  2.876e+03     6.17
+     1e-06     4.73     6.16    1.732    1.732  3.155e+02  2.827e+03     6.18
+     1e-05     6.27     8.16    1.732    1.732  1.464e+02  2.827e+03     6.18
+     1e-04     7.80    10.16    1.732    1.732  6.797e+01  2.827e+03     6.18
+     1e-03     9.34    12.16    1.732    1.732  3.155e+01  2.827e+03     6.18
+     1e-02    10.87    14.16    1.732    1.732  1.464e+01  2.827e+03     6.18
+
+  M1 correction:
+    Once shear dominates, R_H/ξ → √3 ≈ 1.73 at local exit — NOT hundreds.
+    Local and Hubble cutoffs are nearly simultaneous in the Kasner-like regime.
+    M1's radiation-only R_H/ξ ~ 650 was an inconsistent late-time clock.
+
+  Mixmaster window (CMB-class Σ0 = 1e-5):
+    N_mix ≈ 6.27 e-folds of contraction with Σ ≥ 1 before ξ
+    curvature dynamic range ≈ 8.2 decades down to ξ
+    R_H/ξ at Σ=1 ≈ 1.456e+08 (classical chaos room)
+
+B. Energy at door vs MeV hot start
+  At CMB-class exit: T_rad ≈ 146.4 eV, T_eff(total) ≈ 2826.8 eV
+  Density gap to 1 MeV thermal: factor 1.566e+10 in ρ
+  ⇒ fabricated medium compression N_med ≥ 6.18
+    if ρ scales as radiation through Phase II (η=1).
+
+C. Toy junction — fabricated (N_med, η) grid for Σ0=1e-5
+     N_med      η    T_reh/MeV    ≥1 MeV?    ≥0.1 MeV?
+  ----------------------------------------------------
+      0.00   0.10   1.1592e-03         no           no
+      0.00   1.00   2.0613e-03         no           no
+      2.00   0.10   8.5652e-03         no           no
+      2.00   1.00   1.5231e-02         no           no
+      4.00   0.10   6.3288e-02         no           no
+      4.00   1.00   1.1254e-01         no          YES
+      5.90   0.10   4.2314e-01         no          YES
+      5.90   1.00   7.5246e-01         no          YES
+      6.00   0.10   4.6764e-01         no          YES
+      6.00   1.00   8.3160e-01         no          YES
+      8.00   0.10   3.4554e+00        YES          YES
+      8.00   1.00   6.1447e+00        YES          YES
+
+==============================================================================
+M2 VERDICT (honest)
+==============================================================================
+  1. Shear-dom correction: local ξ-exit and Hubble ξ-exit are O(1) apart
+     (R_H/ξ ≈ √3), not hierarchical. 'Local first' is only barely true.
+  2. Mixmaster window is REAL and finite: ~6 e-folds / ~8 curvature decades
+     at CMB-class seed — classical GR can chaos before the medium door.
+  3. Exit energy budget (even converting all shear+rad) is keV-class,
+     not MeV. O6 fails without fabricated Phase-II compression
+     N_med ≳ 6.2 (or equivalent inhomogeneous concentration).
+  4. Toy junction can *match* outer MeV by dialing (N_med, η) — that is
+     Racing Point aero, not a derivation. Knobs remain fabricated.
+  5. O2 (H→+): re-entry still declared by hand when metric returns;
+     no dynamical Ḣ>0 from legal parts.
+  Grade: M2 computed; RP-A still reconstructed candidate; bounce not derived.
+==============================================================================

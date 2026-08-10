@@ -32,7 +32,7 @@ Couples to **leptons, not hadrons**, because a universal quark shift at ε moves
 
 **Lepton number does not force the charged-lepton Yukawa.** |Ψ|² is phase-blind; Majoron couples to phase/neutrinos. Standing choice **ψ̄ψ** is an **assumption** (docket #125). H†H only renormalizable partner — excluded; (LH)(LH) does δm_ν only. Induced H†H from electron loop is far under bounds (no tuning to exclude portal).
 
-**Majoron separate:** single-scale f = v_L dead. Neutrino tie / 0νββ live on Majoron sector: Σm_ν ≈ 61.4 meV NO; CMB-S4 selects v_L corner.
+**Majoron separate:** single-scale f = v_L dead. Neutrino tie / 0νββ live on Majoron sector: Σm_ν ≈ 61.35 meV NO; CMB-S4 selects v_L corner.
 
 ## 3. Effect: varying m_e
 
@@ -51,3 +51,22 @@ Complementarity is candidate framing; field assignments above are established.
 ## Dead ends
 
 Lepton/hadron hierarchy P-2026-011 closed. Failures ledger. Census “universal charged roster” is the **c = 9/10 counting measure**, not this field’s flavour reach.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Electron-coupled scalar; leptophilic (quark shift excluded by D/H) | **derived** (data) | §2; +12–18σ D/H if quarks | Standing ψ̄ψ operator assumed (#125) |
+| 2 | ε = c·f̄·α_c = 27α/5π = 1.2543% when stack holds | **complete-conditional** | THE_AMPLITUDE | c assumed; α_c bet; f̄ derived |
+| 3 | Ramp keyed T_c = 177.10 keV (kernel); 179 pipeline | **machine-backed** / **derived-conditional** | BBN pricing ~0.002σ | Thermal band 307–714 keV ≠ confining key |
+| 4 | H₀ ≈ 69.9; ΔlnZ ≈ +2.6 Laplace | **machine-backed** provisional | hubble_tension | Nested sampling offline; SH0ES-conditional |
+| 5 | UV operator above f | **OPEN** | §0 | Which SM operator multiplies singlet |
+| 6 | Exact T_c pin (scalar thermal vs confining key) | **OPEN** | DERIVATION_HUNT §6 | Two objects, not one |
+| 7 | Crunch-sector / bounce bridge | **OPEN-BLOCKED** | §0 | Bounce underived |
+| 8 | Majoron is separate field (three dark fields) | **derived** (exclusion of single-scale) | §2; neutrino sector | f = v_L dead |
+
+**Non-claims:** not free m_e knob; not quark coupler; Majoron ≠ this field.
+
+**Triage:** elevate-in-place. Physics ceiling: identity + data leptophily; stack conditional; bounce **OPEN-BLOCKED**.

@@ -1,5 +1,9 @@
 # Astrochemistry — the Epoch-Stamped Sky (standalone; P-030's home + the astrobiology scope note)
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Exploratory map assembly only. No registered script path, no independent ship artifact, no desk-closed quantitative subdomain result.
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
@@ -20,3 +24,17 @@ Chemistry off-Earth is chemistry plus the RAMP: below z~4 the sky must be (and i
 — our screen's kept promise; above z~10 every molecule is a thermometer of the transition.
 ASTROBIOLOGY SCOPE NOTE: the model licenses far-from-equilibrium chemistry wherever the account
 runs a gradient (the arrow doc) — it says nothing about life's occurrence, only its permission.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Domain seating of medium language in this subdomain | **interpretation** | this file | exploratory-ok map assembly only; pure seating; no independent killable number |
+| 2 | Any quantitative forecast unique to this subdomain | **OPEN-BLOCKED** | — | No registered prediction or script path yet |
+
+**Non-claims:** not a standalone derivation; not sky booking.
+**Triage:** exploratory-ok map assembly only (not Failures).
+**Banner:** discipline above story; physics ceiling interpretation / OPEN-BLOCKED.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

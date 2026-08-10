@@ -1,16 +1,27 @@
 # The S₈ Tension — the Second Fight, Fought With the Right Sign (2026-07-12)
 
+> ## OPEN-MACHINE residual freeze — 2026-08-04
+>
+> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on conversion posterior + matched lensing.
+>
+> **Machine residual waiting:** `cmp_prtoe_conv_desi` unproduced (last write 2026-07-22; R−1=13.25; not live). Live trio (bbnfix pair + routeD) is **not** this instrument — stamp in `PRTOE_CHAIN_TABLES.md` (bookable **no**). Matched DES/KiDS lensing likelihood still owed before any tension-easing upgrade.
+>
+> **What unblocks:** owner restart of conv_desi → cobaya self-stop → GetDist of conv_g; then matched lensing likelihood campaign.
+>
+> **Forbidden claims:** published tension-easing win; quoting R−1=13.25 archive as posterior; interim g as constraint.
+>
+> **Blocked-lane audit:** shared conversion lane frozen in
+> [blocked_lane_s8_conversion_20260805/REPORT.md](working_logs/_runs/blocked_lane_s8_conversion_20260805/REPORT.md).
+
 **Audience grade.** Companion to s8_growth. No published tension-easing claim until a matched lensing likelihood is run. Chains with conversion (routeD/conv_desi) are exploratory.
 
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> The recorded T4 thread, consolidated. **The conv_desi chain is not running and its posterior is
-> unproduced** (corrected 2026-07-29; this line previously read "is refining the posterior now").
-> The chain died twice, at initialisation on 07-16 and again on 07-22, and nothing of it survives on
-> the box but a seed covariance — restarting it is an owner decision. The companion file had carried
-> this correction since 2026-07-28; this one had not.
+> The recorded T4 thread, consolidated. **`conv_desi` is not running; its S₈ posterior is unproduced.**
+> On disk it holds a single chain file last written **2026-07-22** (seed covariance only); restarting
+> it is an owner decision. Residual freeze reconfirmed **2026-08-04**.
 > *Companion: the conversion-channel standalone, [PRTOE_s8_growth.md](PRTOE_s8_growth.md).*
 
 ## 0. The tension
@@ -27,7 +38,7 @@ floor is an order of magnitude above what groups show; in the limit where the me
 around the gas — the physical one — the deposition is a few tens of electron-volts per
 particle, far too small to move small-scale power. The delivery therefore rests entirely on
 the shed below, which is a pre-registered parameter rather than a derivation
-([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), [PRTOE_entropy.md](PRTOE_entropy.md)).*
+([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), [PRTOE_entropy.md](exploratory/PRTOE_entropy.md)).*
 The rotation-cancellation conversion: as the medium's twist relaxes, part of the dcdf
 matter-component sheds into free-streaming dark radiation (dcdf_conv_g — a ramp,
 x^n/(1+x^n), coded in background.h). The shed depletes late-time ρ_m → suppresses
@@ -40,15 +51,11 @@ The minimizer picks g = 0.12 → **S₈ = 0.821**, and the production joint fit 
 fit** — the rare right-sign pair. ΛCDM sits at S₈ ≈ 0.833 with H₀ = 68.2 — 1.6σ above the
 consensus and wrong on H₀ too; the model's value is twice as close to the consensus as
 ΛCDM's. (A matched lensing-likelihood fit — DES/KiDS proper, not the S₈ point — stays owed
-before any tension-easing claim upgrades.) The conv_desi chain was to deliver the posterior —
-**but it is not running, corrected 2026-07-28.** It holds a single chain file last written
-**2026-07-22**, at R−1 = 13.25, which is nowhere near converged. *(That R−1 is a within-chain
-split-R̂ — a single chain is split into four segments — so it is a real number but blind to
-confinement in one basin; noted 2026-07-29 because elsewhere the corpus wrongly said a one-chain run
-yields no statistic at all.)* Three runs are live on the box as of 2026-08-02 (same trio since
-2026-07-29) — the bbnfix pair and route-D — and none is this one. This chain has now died twice (it was found dead at initialisation on
-2026-07-16, relaunched, and stopped again six days ago), so **the S₈ posterior is not pending — it
-is unproduced**, and restarting it is an owner decision. The
+before any tension-easing claim upgrades.) The `conv_desi` chain was to deliver the posterior — **it is not running.** It holds a single
+chain file last written **2026-07-22**, at within-chain split-R̂ R−1 = 13.25 (a real number, but
+blind to confinement in one basin). Live production on the box is the bbnfix pair and route-D —
+**none is conv_desi**. Live progress (see `PRTOE_CHAIN_TABLES.md` for currency): bookable **no**.
+**The S₈ posterior is unproduced**, and restarting `conv_desi` is an owner decision. The
 firewalled derivation candidate g = 10ε = 54α/π (the machines' table,
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)) awaits its mechanism.
 
@@ -102,3 +109,20 @@ settled. The unclosed item is the one the docket carried from the start: g = 54�
 *candidate*, firewalled from the fit and agreeing with the minimiser's g ≈ 0.12 at 4.53%. This
 explains the **factor** relating it to ε; it does not promote the closed form, which still awaits its
 mechanism through ε.
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Right-sign S₈+H₀ pair: S₈≈0.823 with H₀=69.9 (point) | **machine-backed** provisional | §2 production numbers | Matched lensing owed |
+| 2 | Screening-gate energy deposition cannot supply S₈ suppression | **failed** (route closed) | §1; Failures; entropy | Delivery rests on shed |
+| 3 | g = 10ε = 54α/π is firewalled derivation *candidate* | **OPEN** / candidate | §2; s8_total_vs_average | Factor settled; mechanism through ε open |
+| 4 | Total-vs-average (g extensive, ε intensive) at N=10 | **machine-backed** | `s8_total_vs_average.py` | Does not promote closed form |
+| 5 | conv_desi posterior unproduced | **OPEN-BLOCKED** | freeze 2026-08-04; R−1=13.25 | **OPEN-MACHINE:** owner restart; not live |
+| 6 | Kills: conv excludes easing g; N_eff violation; lensing rises to ΛCDM | **registered** | §3 | Null if tension dissolves |
+
+**Non-claims / forbidden:** not published tension-easing; routeD/conv_desi exploratory; no archive posterior quotes.
+
+**Triage:** elevate-in-place. Physics ceiling: right-sign point + factor math; posterior **OPEN-BLOCKED** (2026-08-04).

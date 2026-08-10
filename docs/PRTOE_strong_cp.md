@@ -52,3 +52,32 @@ Deep audits (2026-07-18/19) passed this page as a clean constitutional silence. 
 ## Sources
 
 Internal: the scope theorem (the constitution's complement); the LV shield as the other face of EM-neutrality. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Cross-links: [PRTOE_INDEX.md](PRTOE_INDEX.md), [PRTOE_DOMAIN_COVERAGE.md](PRTOE_DOMAIN_COVERAGE.md) (row: silence / structural), [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) (scope theorem entry).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Model has nothing to say about θ̄ (constitutional abstention) | **complete** as abstention | §2 scope theorem | Not a derivation of θ̄ |
+| 2 | Needing θ̄ or quark-flavour distinction kills constitution | **registered kill** | §2 falsifier | Load-bearing silence |
+| 3 | Not a solution of strong CP; not axion replacement | **honest constraint** | §3 | — |
+| 4 | Dark confining / g_p notes are different objects | **honest fence** | §3 | Must not be read as θ̄ solution |
+
+**Non-claims:** not an arXiv result about nature; not unfinished; **not** the cyclic reverse / bounce mechanism (that residual lives in bounce / cyclic floor physics — see seat hunt).
+
+**Triage:** elevate-in-place. Physics ceiling: finished abstention (not physics win).
+
+---
+
+## Seat itch (2026-08-04) — registered, not solved
+
+It is legitimate to *feel* Strong CP “should” sit deeper in a universal medium model. The only
+**licensed** kinship already in the corpus is with **parity / EM-neutrality / missing
+EM-anomalous angular mode** (birefringence null; Failures Ledger atlas language) — **not**
+with the expansion reverse.
+
+Full map of candidate seats and NO-smuggle verdicts:  
+[`working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md`](working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md).
+
+Do **not** expand this abstention into a θ̄ mechanism without a constitutional process.

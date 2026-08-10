@@ -1,0 +1,52 @@
+{
+  "timestamp_utc": "2026-08-10T15:49:50.376480+00:00",
+  "chain_dir": "chains",
+  "which": "desi",
+  "pair": [
+    "dyad_mnu_bbnfix_desidr2",
+    "cmp_lcdm_mnu_bbnfix_desidr2"
+  ],
+  "legs": {
+    "dyad_mnu_bbnfix_desidr2": {
+      "root": "dyad_mnu_bbnfix_desidr2",
+      "gate": {
+        "Rminus1": 0.03321,
+        "N": 53482.0,
+        "timestamp": "2026-08-10T04:55:47.607730",
+        "converged": true,
+        "ready": true
+      },
+      "d_sampled": 13,
+      "map_minuslogpost": 1375.803,
+      "logdet_cov": -142.5788279563645,
+      "cov_cond": 314920588.3388727,
+      "n_eff_weights": 37214.45463130558,
+      "n_rows_postburn": 37438,
+      "logZ_laplace": -1435.1462130465216,
+      "ignore_rows": 0.3,
+      "method": "Laplace (MAP + weighted sample covariance)"
+    },
+    "cmp_lcdm_mnu_bbnfix_desidr2": {
+      "root": "cmp_lcdm_mnu_bbnfix_desidr2",
+      "gate": {
+        "Rminus1": 0.041377,
+        "N": 52031.0,
+        "timestamp": "2026-08-09T01:19:08.800013",
+        "converged": true,
+        "ready": true
+      },
+      "d_sampled": 12,
+      "map_minuslogpost": 1379.7506,
+      "logdet_cov": -135.61278619759142,
+      "cov_cond": 175383466.63325337,
+      "n_eff_weights": 36223.36496232071,
+      "n_rows_postburn": 36422,
+      "logZ_laplace": -1436.5297307003398,
+      "ignore_rows": 0.3,
+      "method": "Laplace (MAP + weighted sample covariance)"
+    }
+  },
+  "delta_lnZ_laplace_model_minus_control": 1.3835176538182168,
+  "delta_min_minuslogpost_model_minus_control": -3.947599999999966,
+  "not_nested": true
+}

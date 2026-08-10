@@ -7100,3 +7100,77 @@ Already matched live triple + OPEN-MACHINE/THEORY lists. Added residual check-12
 **Hygiene:** 5/5 TeX packages clean for PRTOE / note-field greps and tarball presence.
 **Physics / chains:** untouched.
 
+
+---
+
+## 2026-08-02 — Red-team hardening wave (owner-directed: "Run all 6 of them")
+
+Owner requested a red-team review of the whole project, then ordered all six hardening items
+executed. Delivered:
+
+1. **Zero-free-parameters contradiction fixed** — THREE_EQUATIONS' unconditional "meets it
+   with zero" replaced with THE_AMPLITUDE's own gate (conditional on c, f̄, α_c) plus the
+   discrete-commitments sentence (fewer dials than ΛCDM, strictly more discrete choices).
+2. **Funnel edge re-framed with its full error budget** — and the red team's own 0.94σ figure
+   was itself corrected in the process: it used only the DE-side error (0.0108 meV), but the
+   registry books σ(m₁\*) ≈ 0.24 meV (θ₁₂-dominated), which dominates — full-budget framing is
+   **~0.04σ, deep consistency, central-values-only**. neutrino_sector §3 edited; dated
+   ADDENDUM appended to the P-2026-012 annotation (record discipline: appended, not
+   rewritten). Becomes a ~3%-level test at JUNO (~2031–32).
+3. **New: docs/PRTOE_TRIALS_FACTOR.md** — hostile grammar density (~9,450 expressions,
+   ~800/decade → ≈3.5 expected matches per target at ±0.5%); denominator from the ledger's own
+   records (162 entries, 64 failure-class headings, 50 registered predictions, 10 falsified,
+   4 failed 3/2 attachments + 1 closed identification, 3 dead Koide routes, the withdrawn
+   Koide-neutrino branch); three surviving classes (registered future-refereed bets, joint
+   multi-role fits, structural results); binding quotation rules. Lone percent-class matches
+   declared zero-weight when quoted alone.
+4. **New: docs/PRTOE_INDEPENDENCE_AUDIT.md** — Navarro-Salas-style collapse check run
+   deliberately over all ten recorded multi-way agreements, with data-side vs assumption-side
+   columns. Net finding: exactly one fully independent external validation exists today
+   (ΣY² = 10 via b_Y = 41/6, minor); everything else is joint constraint, commitment, or
+   overcount — each row now carries its honest label.
+5. **READERS_RISK §4: blunt scoreboard added** — zero post-registration confirmations; the
+   one adverse column (D/H −2.9σ) named; headline fits unquotable by the corpus's own ruling;
+   nearest calendar events likelier to wound; pay dates listed; both new documents linked.
+6. **Fairbank endorsement packet staged** — working_logs/fairbank_endorsement_packet_2026-08-02.md
+   (sequence, email draft, eligibility caveat + fallback ask, rules of engagement, status
+   checklist). The conversion itself is the owner's act.
+
+INDEX updated with both new documents. Tasks #97–#102 completed.
+
+---
+
+## 2026-08-02 — Check-12 tick: hierarchy_problem landed (11 of 53); Fairbank note re-tensed
+
+**PRTOE_hierarchy_problem.md read whole (1,224 lines), arithmetic re-derived en route** (fence
+table, weighted-count kills, §6e correction chain 1576→716→541, §6f scale table, §6i A_s
+selection, §6j S-counting, §6n T/μ — all reproduce). Four defects, all fixed on the defect:
+
+1. **Header carried the superseded §6f state** — "residual running is not escapable, ×5.6,
+   band ×11" written 07-28, contradicted by the file's own §6i (A_s data-selects the
+   non-running horn) and the 07-29 examination (ontological fork; band 0.55–1.78 TeV
+   conditional on the Goldstone identification). Header rewritten to the fork.
+2. **Roster arithmetic contradiction** — §6 said "the Standard Model's 48 Weyl fermions plus
+   three right-handed neutrinos" (= 51) while §6c correctly carries 48 = 45 + 3. Fixed at §6;
+   the same wrong phrasing quoted verbatim in DERIVATION_HUNT (~line 220) fixed to match.
+   (ΣQ² = 16 and ΣY² = 10 arithmetic unaffected — checked.)
+3. **§6 requirements table row 3 still booked "show it condenses" as owed** — discharged
+   2026-07-28 by §6a per the header. Row updated: discharged, with the caveat that
+   condensation does not deliver the anchor (Δ drops out).
+4. **§6b closing carried the same stale residual** — same fix, same caveat.
+
+**PRTOE_fairbank_note_draft.md (task #24's desk half, reopened and re-closed):** the
+compressed note mixed tenses across two runs — the stopped July-28 pair described as "the
+live matched pair" present-tense, and "ours has no R−1 yet" contradicting the relaunch
+paragraph one line below. Three edits: stopped run re-tensed as history, relaunch paragraph
+now carries the 2026-08-02 numbers (R−1 = 0.19 model / 0.14 twin vs 0.05 stop, one basin),
+"further reasons" scoped to the stopped run. #24 returns to chain-gated: only the H₀ figure
+awaits convergence.
+
+**#55 parenthetical verified propagated** — C9's 0.985% correction present in
+family_coupling_lagrangian_spec.md (strikethrough + dated warning block) and
+fbar_cw_lo_closure.md. Nothing owed there; the remaining substance (value of a) is
+model-building.
+
+Score: 11 of 53 files read whole; 35+ defects fixed. Next giant in queue: none remaining at
+1,000+ lines; sweep continues in batches.

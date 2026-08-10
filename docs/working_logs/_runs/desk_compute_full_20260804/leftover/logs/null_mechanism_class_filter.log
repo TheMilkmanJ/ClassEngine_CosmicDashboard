@@ -1,0 +1,50 @@
+==================================================================================
+THE RECORDED DEAD LIST, AGAINST THE TWO SURVIVING CONSTRAINTS
+==================================================================================
+  mechanism                                   charge?                       kind
+  ------------------------------------------------------------------------------
+  wide-seam / 2D-Potts                             NO               regime width
+  SOC attractor                                    NO        dynamical attractor
+  medium-w inheritance (w = 1/3 => K = 2V)         NO             energy balance
+  quartic virial                                   NO             energy balance
+  harmonic equipartition                           NO             energy balance
+  CS midpoint                                      NO             energy balance
+  GBM / 1D log gas                                 NO                statistical
+  hand-built (R^2 - 2M^2)^2                        NO                constructed
+  Komar active-mass balance                        NO             energy balance
+  topology / lock-6                                NO invariant (none equals sqrt2)
+  natural Z3 cubic -g sum(phi^3)                   NO          potential minimum
+
+  11 recorded mechanisms.
+  referencing electric charge:              0
+  built on a vanishing rather than a balance: 0
+
+==================================================================================
+SO THE LIST IS DEAD AS A CLASS, AND THE CLASS IS NAMEABLE
+==================================================================================
+  Not one of the eleven references electric charge, and not one rests on a quantity that
+  vanishes identically. Every single failure was a charge-blind balance -- which is
+  exactly the conjunction constraints (A) and (B) forbid.
+
+  That is worth more than eleven separate autopsies. The failures were not eleven bad
+  ideas; they were one bad class explored eleven ways, and the corpus's own later work
+  -- the neutrino forward test and the screening weight -- says why the class cannot work.
+
+  What the constraints demand together: a CHARGE-COUPLED quantity that VANISHES
+  IDENTICALLY. That is the shape of an anomaly-cancellation or index condition, and the
+  corpus already carries two objects of exactly that shape for unrelated reasons --
+  str[k1] = 0 (Pauli finiteness) and sum Q^2 = 16 over the roster.
+
+  Not a mechanism. A named class with two members already in the building, which is what
+  the sector has lacked since 2026-07-17: every attempt since then has drawn from the
+  class the evidence excludes.
+
+==================================================================================
+THE HONEST LIMIT
+==================================================================================
+  The three charged leptons all carry Q = -1, so no charge-weighted sum over them
+  vanishes on its own -- sum Q = -3, sum Q^2 = 3. A working mechanism must therefore
+  couple charge to something else that distinguishes the seats, and the family grading
+  is not available for that (its Z3 charge commutes with chirality; the identification
+  died on Nielsen-Ninomiya). So the class is named and its first obstacle is already
+  visible, which is the honest state: a direction, not a derivation.

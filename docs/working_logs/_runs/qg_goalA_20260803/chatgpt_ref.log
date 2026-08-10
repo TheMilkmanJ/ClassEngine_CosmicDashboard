@@ -1,0 +1,377 @@
+OpenAI Codex v0.114.0 (research preview)
+--------
+workdir: /home/themilkmanj/prtoe_class
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/themilkmanj/snap/codex/34/memories]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019fc90a-f91f-7163-8ed3-43f253dd2bbd
+--------
+user
+You are ChatGPT NEUTRAL REFEREE. 4/10 stands. NO FABRICATIONS.
+Read docs/PRTOE_induced_gravity.md header, docs/PRTOE_quantum_gravity.md banner, docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md, PAGE_CURVE_WEEK1.md.
+APPEND ### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
+AGREE if: promotion is Goal A only, Page still OPEN, week1 not sold as Page curve, not TOE.
+REMAND packaging inflation.
+WHOSE_TURN Grok.
+mcp startup: no servers
+codex
+I’m reading the cited docs first to verify the exact framing before I append the referee entry. After that I’ll patch the target record with a minimal, format-consistent note.
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# Promotion record — QG Goal A shelf attach (2026-08-03)
+
+**NO FABRICATIONS.** This record is process/location only. **Page curve remains OPEN.**
+Not a TOE. Goal B residuals remain OPEN.
+
+---
+
+## What moved / landed
+
+| Artifact | Path | Role |
+|---|---|---|
+| **Full QG hub** | `docs/PRTOE_quantum_gravity.md` | Shelf-promoted from `docs/exploratory/PRTOE_quantum_gravity.md` under Goal A expansion attach + OPEN residuals banner |
+| **Thin expansion slice** | `docs/PRTOE_induced_gravity.md` | Goal A only: finiteness, area-law *coefficient*, medium seat; points to full hub |
+| **Exploratory stub** | `docs/exploratory/PRTOE_quantum_gravity.md` | Redirect only (old-link safety); not content |
+
+---
+
+## Status at promotion (frozen honesty)
+
+| Item | Status |
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/qg_goalA_20260803/PAGE_CURVE_WEEK1.md" in /home/themilkmanj/prtoe_class exited 2 in 0ms:
+sed: can't read docs/working_logs/_runs/qg_goalA_20260803/PAGE_CURVE_WEEK1.md: No such file or directory
+exec
+/bin/bash -lc "sed -n '1,80p' docs/PRTOE_induced_gravity.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# Induced gravity of the cosmic medium (expansion attach)
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+*Status: **derived-conditional** — str[k₁]=0 finiteness + area-law ratio; residuals named; not a TOE.
+**PRTOE = Theory of Expansion**, not a Theory of Everything.*
+
+**Full QG hub (ontology, dead ends, Page program, Q1–Q7):**  
+[PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md)  
+*(shelf-promoted 2026-08-03 for Goal A expansion attach; Page curve OPEN; not TOE; Goal B residuals OPEN).*
+
+---
+
+## 1. Expansion attach (Theory of Expansion — not TOE)
+
+**Fence.** This shelf file attaches only what the expansion medium needs: induced / analog gravity as the seating of the **dark condensate** (dCDF), plus two disk-checkable pieces (area-law *coefficient* as ratio; Pauli finiteness under str[k₁]=0). It is **not** a quantize-the-metric program, not a Page-curve close, and not a certificate that ε / CLASS likelihoods succeed.
+
+### What this file contributes to Expansion
+
+The expansion medium is the **dark condensate** (dCDF superfluid). This file states the standard analog / induced-gravity reading of that medium:
+exec
+/bin/bash -lc "sed -n '1,80p' docs/PRTOE_quantum_gravity.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# Quantum Gravity as Emergent Hydrodynamics of a Quantum Condensate
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+*Status: **shelf-promoted 2026-08-03** for **Goal A expansion attach** — not a TOE.
+Emergent-gravity framework at* ***derived-conditional*** *grade — closed form /
+finiteness for induced G with named residuals; area-law **coefficient** paid.
+**Page curve OPEN** (Q6). **Goal B residuals OPEN** (absolute SI G, nonlinear
+Einstein continuum, Page dynamics). All claims carry grades inline; nothing on this
+page is asserted above its evidence.*
+
+---
+
+## Expansion attach (Theory of Expansion — not TOE)
+
+**PRTOE = Theory of Expansion**, not a Theory of Everything. This file is on the
+**shelf** (`docs/PRTOE_quantum_gravity.md`) under Goal A: expansion-relevant attach
+of induced / analog gravity for the cosmic medium — **not** full QG completion and
+**not** a claim that Page or TOE are closed.
+
+codex
+The three cited promotion docs are consistent on the key fences: Goal A only, Page OPEN, not TOE. The week-1 file path was off, so I’m locating the actual file before I patch the record.
+exec
+/bin/bash -lc "rg -n \"REFEREE|WHOSE_TURN|>>REF\" docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md docs/working_logs -g '*.md'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+docs/working_logs/Nontherm_Kill_Discussions.md:22:find the model's genuine outs, not to deny arithmetic. The REFEREE is neutral, holds the token,
+docs/working_logs/Nontherm_Kill_Discussions.md:490:## §5. REFEREE'S FLOOR — interjections and the VERDICT
+docs/working_logs/Nontherm_Kill_Discussions.md:496:**[REFEREE — 2026-07-17 — OPENING PROTOCOL STATEMENT]**
+docs/working_logs/Nontherm_Kill_Discussions.md:508:**[REFEREE — 2026-07-17 — INDEPENDENT CROSS-CHECKS, filed BEFORE argument]**
+docs/working_logs/Nontherm_Kill_Discussions.md:567:**REFEREE'S PRE-FILED ANCHOR FOR RULE 2 (the massive-dyad branch — scales both sides must use).**
+docs/working_logs/Nontherm_Kill_Discussions.md:585:**[REFEREE — 2026-07-17 — INTERJECTION: PRINCIPAL-PROPOSED LANE, entered as a NAMED attack]**
+docs/working_logs/Nontherm_Kill_Discussions.md:617:**[REFEREE — 2026-07-18 — RULE-6 AMENDMENT: the fork is RESOLVED; corrected anchors, independently
+docs/working_logs/Nontherm_Kill_Discussions.md:662:**[REFEREE — 2026-07-18 — INTERJECTION AFTER §3: verifications, two corrections, points ruled
+docs/working_logs/Nontherm_Kill_Discussions.md:773:**[REFEREE — 2026-07-18 — INTERJECTION AFTER §4: citation audit, number verification, the
+docs/working_logs/Thermal_O1_Discussions.md:506:## §5. REFEREE'S FLOOR — interjections and the VERDICT
+docs/working_logs/Thermal_O1_Discussions.md:513:**[REFEREE — 2026-07-17 — OPENING PROTOCOL STATEMENT]**
+docs/working_logs/Thermal_O1_Discussions.md:548:**[REFEREE — 2026-07-17 — INDEPENDENT CROSS-CHECKS, filed before any argument is heard]**
+docs/working_logs/Thermal_O1_Discussions.md:577:**[REFEREE — 2026-07-17 — ROUND-2 CROSS-CHECKS on the Challenger's landed claims, and scope
+docs/working_logs/Thermal_O1_Discussions.md:617:**[REFEREE — 2026-07-17 — RULING AFTER THE DEFENDER'S REPLY; token to the Challenger, limited]**
+docs/working_logs/Thermal_O1_Discussions.md:652:**[REFEREE — 2026-07-17 — CLOSURE RULING AND FINAL CROSS-CHECKS]**
+docs/working_logs/Thermal_O1_Discussions.md:671:**[REFEREE — 2026-07-17 — VERDICT, judged strictly against §1]**
+docs/working_logs/_FILE_COMPLETION_STATUS.md:48:| [`PRTOE_REFEREE_CALENDAR.md`](../PRTOE_REFEREE_CALENDAR.md) | LEDGER/HISTORY | Judges + decision rules; Sitting NOW refreshed 2026-08-02 (3 live MCMC, PolyChord off, zon_disp/conv_desi parked) |
+docs/working_logs/_FILE_COMPLETION_STATUS.md:157:1. **`PRTOE_REFEREE_CALENDAR.md`** — "Sitting NOW" table: zon_disp was labeled "relaunched and
+docs/working_logs/_FILE_COMPLETION_STATUS.md:190:`PRTOE_REFEREE_CALENDAR.md` (07-20 diagnostic still said routeD+conv_desi "are actually running");
+docs/working_logs/_POSTERIOR_BOOKING_CHECKLIST.md:122:- `docs/PRTOE_REFEREE_CALENDAR.md` Sitting NOW
+exec
+/bin/bash -lc "rg --files | rg 'PAGE_CURVE_WEEK1\\.md"'$'"'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md
+codex
+I found the week-1 note under the quantum-null hardening run, not the Goal A folder. I’m reading that now and then I’ll append the ruling into the promotion record, since that’s the natural docket for this promotion-specific referee note.
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# Page-curve Week 1 — sonic horizon + thermal bookkeeping (2026-08-03)
+
+**Status:** WEEK1 ONLY — honest instrument progress.  
+**Page curve:** **NOT computed.**  
+**\(S_{\mathrm{rad}}(v)\):** **NOT claimed.**  
+**Script:** [`scripts/quantum_page_sonic_horizon_week1.py`](../../../../scripts/quantum_page_sonic_horizon_week1.py)  
+**JSON artifact:** [`page_curve/week1_sonic_horizon.json`](page_curve/week1_sonic_horizon.json)  
+**Plan:** [`PAGE_CURVE_IMPLEMENTATION_PLAN.md`](PAGE_CURVE_IMPLEMENTATION_PLAN.md)  
+**Scaffold (toy only):** [`PAGE_CURVE_SCAFFOLD.md`](PAGE_CURVE_SCAFFOLD.md)
+
+---
+
+## 1. What was done
+
+Milestone A first half: place a **prescribed stationary 1D acoustic** black-hole profile, locate the sonic horizon, measure surface gravity \(\kappa\), report Unruh/analog-Hawking temperature \(T_H=\kappa/(2\pi)\), and tabulate the ideal Bose occupation \(n_B(\omega)=1/(e^{\omega/T_H}-1)\) on the plan mid-band \(\omega\in[0.05,2]\,\kappa\).
+
+This is **thermal bookkeeping**, not a Page curve and not a dynamical \(S_{\mathrm{rad}}(v)\).
+
+### Profile (healing units)
+
+exec
+/bin/bash -lc "sed -n '1,120p' docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# ChatGPT referee drafts — 2026-08-03
+
+**Purpose:** Ready-to-paste `### REFEREE` blocks for ChatGPT (neutral seat) into `ForGrok&Claude.md`.  
+**Tone:** process + record fairness only; no side; no new theory; no grade inflation.  
+**Standing frame:** overall **4/10** (honesty ~6/10, unified-claim credibility ~3/10) remains the yardstick.
+
+**How to use:** copy each block under the matching matter; edit IDs/timestamps if the live file has advanced; keep `@FROM` / `@TO` / `>>` tags intact.
+
+---
+
+## 0. Paste order (suggested one sitting)
+
+1. `REFEREE R1-t14-i5` — smoke-grade AGREE (closes Claude AGREE)  
+2. `REFEREE R1-4-10-standing` — 4/10 still standing + hard-win reorder  
+3. `REFEREE R1-c-code-verify` — limited as-built claim  
+4. `REFEREE R1-bbn-eps-recompute` — thin external win  
+5. `REFEREE R1-d3-omegaJ-superseding` — superseding AGREE  
+6. `REFEREE R1-a4-pending` — A4 holds PENDING until TC  
+
+Optional backlog (if still unmarked in the live file): i2 / i2-resmoke / i3 / i4 — short forms in §7.
+codex
+I have enough context now. I’m appending a short referee ruling to the promotion record, keeping it strictly inside what the cited files actually say and flagging packaging inflation as the only remand.
+file update
+M /home/themilkmanj/prtoe_class/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+@@ -74 +74,17 @@
+ - Page program (still OPEN): `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`
++
++---
++
++### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE.** The promotion is honestly fenced as **Goal A expansion attach only**.
++
++- `docs/PRTOE_quantum_gravity.md` banner says shelf-promoted **2026-08-03** for **Goal A expansion attach**, **not a TOE**, with **Page curve OPEN** and **Goal B residuals OPEN**.
++- `docs/PRTOE_induced_gravity.md` header says the thin shelf is **not a TOE** and was shelf-promoted for **Goal A expansion attach** with **Page curve OPEN**.
++- This promotion record itself states **Page curve remains OPEN**, **not a TOE**, and warns that **Q2 paid != Q6 paid**.
++- `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md` is explicit: **WEEK1 ONLY**, **Page curve: NOT computed**, **S_rad(v): NOT claimed**, and **No fake Page turn**.
++
++**REMAND:** packaging inflation.
++Do not let shelf language, cross-links, or week-1 thermal bookkeeping read as a Page-curve close, a Goal B close, or anything above a Goal A attach.
++
++**WHOSE_TURN ->** Grok.
+apply_patch(auto_approved=true) exited 0 in 37ms:
+Success. Updated the following files:
+M /home/themilkmanj/prtoe_class/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+file update:
+diff --git a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+index c4798615698a492437974cfed2858d2e03c513fe..29ada07aa0b84e5b31fe665be9156409d6bcd38f
+--- a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
++++ b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+@@ -72,3 +72,19 @@
+ - Thin proposal (historical A′ design): `docs/working_logs/_runs/qg_goalA_20260803/THIN_SHELF_PROPOSAL.md`
+ - Induced write note (if present): `docs/working_logs/_runs/qg_goalA_20260803/INDUCED_GRAVITY_WRITTEN.md`
+ - Page program (still OPEN): `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`
++
++---
++
++### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE.** The promotion is honestly fenced as **Goal A expansion attach only**.
++
++- `docs/PRTOE_quantum_gravity.md` banner says shelf-promoted **2026-08-03** for **Goal A expansion attach**, **not a TOE**, with **Page curve OPEN** and **Goal B residuals OPEN**.
++- `docs/PRTOE_induced_gravity.md` header says the thin shelf is **not a TOE** and was shelf-promoted for **Goal A expansion attach** with **Page curve OPEN**.
++- This promotion record itself states **Page curve remains OPEN**, **not a TOE**, and warns that **Q2 paid != Q6 paid**.
++- `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md` is explicit: **WEEK1 ONLY**, **Page curve: NOT computed**, **S_rad(v): NOT claimed**, and **No fake Page turn**.
++
++**REMAND:** packaging inflation.
++Do not let shelf language, cross-links, or week-1 thermal bookkeeping read as a Page-curve close, a Goal B close, or anything above a Goal A attach.
++
++**WHOSE_TURN ->** Grok.
+
+file update:
+diff --git a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+index c4798615698a492437974cfed2858d2e03c513fe..29ada07aa0b84e5b31fe665be9156409d6bcd38f
+--- a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
++++ b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+@@ -72,3 +72,19 @@
+ - Thin proposal (historical A′ design): `docs/working_logs/_runs/qg_goalA_20260803/THIN_SHELF_PROPOSAL.md`
+ - Induced write note (if present): `docs/working_logs/_runs/qg_goalA_20260803/INDUCED_GRAVITY_WRITTEN.md`
+ - Page program (still OPEN): `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`
++
++---
++
++### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE.** The promotion is honestly fenced as **Goal A expansion attach only**.
++
++- `docs/PRTOE_quantum_gravity.md` banner says shelf-promoted **2026-08-03** for **Goal A expansion attach**, **not a TOE**, with **Page curve OPEN** and **Goal B residuals OPEN**.
++- `docs/PRTOE_induced_gravity.md` header says the thin shelf is **not a TOE** and was shelf-promoted for **Goal A expansion attach** with **Page curve OPEN**.
++- This promotion record itself states **Page curve remains OPEN**, **not a TOE**, and warns that **Q2 paid != Q6 paid**.
++- `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md` is explicit: **WEEK1 ONLY**, **Page curve: NOT computed**, **S_rad(v): NOT claimed**, and **No fake Page turn**.
++
++**REMAND:** packaging inflation.
++Do not let shelf language, cross-links, or week-1 thermal bookkeeping read as a Page-curve close, a Goal B close, or anything above a Goal A attach.
++
++**WHOSE_TURN ->** Grok.
+
+codex
+The ruling is patched in. I’m doing one quick readback of the appended block to make sure the wording stayed tight and the file path references are correct.
+exec
+/bin/bash -lc 'tail -n 40 docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md' in /home/themilkmanj/prtoe_class succeeded in 0ms:
+```
+
+Expected: exit 0; ratio arithmetic PASS \(12\pi/48\pi = 1/4\).  
+Recipe: `docs/working_logs/_runs/qg_goalA_20260803/OUTSIDER_RECOMPUTE.md`.
+
+---
+
+## Explicit non-claims of this promotion
+
+1. **Page curve is not closed.**
+2. **Not a Theory of Everything.**
+3. **Goal B residuals remain OPEN** (Page dynamics, absolute G, continuum Einstein).
+4. Promotion is **Goal A attach packaging**, not a new physics result.
+5. A7 tribunal AGREE may still be owed as process hygiene; packaging honesty is stated in file banners (Page OPEN, not TOE).
+
+---
+
+## Related artifacts
+
+- Checklist: `docs/working_logs/QG_PROMOTION_CHECKLIST_20260803.md`
+file update:
+diff --git a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+index c4798615698a492437974cfed2858d2e03c513fe..29ada07aa0b84e5b31fe665be9156409d6bcd38f
+--- a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
++++ b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+@@ -72,3 +72,19 @@
+ - Thin proposal (historical A′ design): `docs/working_logs/_runs/qg_goalA_20260803/THIN_SHELF_PROPOSAL.md`
+ - Induced write note (if present): `docs/working_logs/_runs/qg_goalA_20260803/INDUCED_GRAVITY_WRITTEN.md`
+ - Page program (still OPEN): `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`
++
++---
++
++### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE.** The promotion is honestly fenced as **Goal A expansion attach only**.
++
++- `docs/PRTOE_quantum_gravity.md` banner says shelf-promoted **2026-08-03** for **Goal A expansion attach**, **not a TOE**, with **Page curve OPEN** and **Goal B residuals OPEN**.
++- `docs/PRTOE_induced_gravity.md` header says the thin shelf is **not a TOE** and was shelf-promoted for **Goal A expansion attach** with **Page curve OPEN**.
++- This promotion record itself states **Page curve remains OPEN**, **not a TOE**, and warns that **Q2 paid != Q6 paid**.
++- `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md` is explicit: **WEEK1 ONLY**, **Page curve: NOT computed**, **S_rad(v): NOT claimed**, and **No fake Page turn**.
++
++**REMAND:** packaging inflation.
++Do not let shelf language, cross-links, or week-1 thermal bookkeeping read as a Page-curve close, a Goal B close, or anything above a Goal A attach.
++
++**WHOSE_TURN ->** Grok.
+
+exec
+/bin/bash -lc 'nl -ba docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md | tail -n 30' in /home/themilkmanj/prtoe_class succeeded in 0ms:
+    61	2. **Not a Theory of Everything.**
+    62	3. **Goal B residuals remain OPEN** (Page dynamics, absolute G, continuum Einstein).
+    63	4. Promotion is **Goal A attach packaging**, not a new physics result.
+    64	5. A7 tribunal AGREE may still be owed as process hygiene; packaging honesty is stated in file banners (Page OPEN, not TOE).
+    65	
+    66	---
+    67	
+    68	## Related artifacts
+    69	
+    70	- Checklist: `docs/working_logs/QG_PROMOTION_CHECKLIST_20260803.md`
+    71	- Attach statement: `docs/working_logs/_runs/qg_goalA_20260803/ATTACH_STATEMENT.md`
+    72	- Thin proposal (historical A′ design): `docs/working_logs/_runs/qg_goalA_20260803/THIN_SHELF_PROPOSAL.md`
+    73	- Induced write note (if present): `docs/working_logs/_runs/qg_goalA_20260803/INDUCED_GRAVITY_WRITTEN.md`
+    74	- Page program (still OPEN): `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`
+    75	
+    76	---
+    77	
+    78	### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
+    79	
+    80	**Ruling:** **AGREE.** The promotion is honestly fenced as **Goal A expansion attach only**.
+file update:
+diff --git a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+index c4798615698a492437974cfed2858d2e03c513fe..29ada07aa0b84e5b31fe665be9156409d6bcd38f
+--- a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
++++ b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+@@ -72,3 +72,19 @@
+ - Thin proposal (historical A′ design): `docs/working_logs/_runs/qg_goalA_20260803/THIN_SHELF_PROPOSAL.md`
+ - Induced write note (if present): `docs/working_logs/_runs/qg_goalA_20260803/INDUCED_GRAVITY_WRITTEN.md`
+ - Page program (still OPEN): `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`
++
++---
++
++### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE.** The promotion is honestly fenced as **Goal A expansion attach only**.
++
++- `docs/PRTOE_quantum_gravity.md` banner says shelf-promoted **2026-08-03** for **Goal A expansion attach**, **not a TOE**, with **Page curve OPEN** and **Goal B residuals OPEN**.
++- `docs/PRTOE_induced_gravity.md` header says the thin shelf is **not a TOE** and was shelf-promoted for **Goal A expansion attach** with **Page curve OPEN**.
++- This promotion record itself states **Page curve remains OPEN**, **not a TOE**, and warns that **Q2 paid != Q6 paid**.
++- `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md` is explicit: **WEEK1 ONLY**, **Page curve: NOT computed**, **S_rad(v): NOT claimed**, and **No fake Page turn**.
++
++**REMAND:** packaging inflation.
++Do not let shelf language, cross-links, or week-1 thermal bookkeeping read as a Page-curve close, a Goal B close, or anything above a Goal A attach.
++
++**WHOSE_TURN ->** Grok.
+
+codex
+Appended the referee block to [PROMOTION_RECORD.md](/home/themilkmanj/prtoe_class/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md:78).
+
+It rules `AGREE` on the current fencing: Goal A only, Page still OPEN, week-1 not sold as a Page curve, not TOE; and it remands packaging inflation with `WHOSE_TURN -> Grok`.
+
+I verified the week-1 source from the actual file at `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md`, since that was the live path in the repo.
+file update:
+diff --git a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+index c4798615698a492437974cfed2858d2e03c513fe..29ada07aa0b84e5b31fe665be9156409d6bcd38f
+--- a/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
++++ b/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md
+@@ -72,3 +72,19 @@
+ - Thin proposal (historical A′ design): `docs/working_logs/_runs/qg_goalA_20260803/THIN_SHELF_PROPOSAL.md`
+ - Induced write note (if present): `docs/working_logs/_runs/qg_goalA_20260803/INDUCED_GRAVITY_WRITTEN.md`
+ - Page program (still OPEN): `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_SCAFFOLD.md`
++
++---
++
++### REFEREE R1-qg-goalA-promote @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE.** The promotion is honestly fenced as **Goal A expansion attach only**.
++
++- `docs/PRTOE_quantum_gravity.md` banner says shelf-promoted **2026-08-03** for **Goal A expansion attach**, **not a TOE**, with **Page curve OPEN** and **Goal B residuals OPEN**.
++- `docs/PRTOE_induced_gravity.md` header says the thin shelf is **not a TOE** and was shelf-promoted for **Goal A expansion attach** with **Page curve OPEN**.
++- This promotion record itself states **Page curve remains OPEN**, **not a TOE**, and warns that **Q2 paid != Q6 paid**.
++- `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md` is explicit: **WEEK1 ONLY**, **Page curve: NOT computed**, **S_rad(v): NOT claimed**, and **No fake Page turn**.
++
++**REMAND:** packaging inflation.
++Do not let shelf language, cross-links, or week-1 thermal bookkeeping read as a Page-curve close, a Goal B close, or anything above a Goal A attach.
++
++**WHOSE_TURN ->** Grok.
+
+tokens used
+21,665
+Appended the referee block to [PROMOTION_RECORD.md](/home/themilkmanj/prtoe_class/docs/working_logs/_runs/qg_goalA_20260803/PROMOTION_RECORD.md:78).
+
+It rules `AGREE` on the current fencing: Goal A only, Page still OPEN, week-1 not sold as a Page curve, not TOE; and it remands packaging inflation with `WHOSE_TURN -> Grok`.
+
+I verified the week-1 source from the actual file at `docs/working_logs/_runs/quantum_null_hardening_20260803/PAGE_CURVE_WEEK1.md`, since that was the live path in the repo.

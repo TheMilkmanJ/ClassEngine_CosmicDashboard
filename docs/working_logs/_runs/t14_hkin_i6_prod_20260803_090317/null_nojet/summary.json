@@ -1,0 +1,21 @@
+{
+  "booking": "nothing graded (no ring / no verdict frame)",
+  "smoke": false,
+  "elapsed_s": 5622.11589884758,
+  "results": {
+    "n+1_f+1": {
+      "tag": "n+1_f+1",
+      "n_wind": 1,
+      "fountain_sign": 1,
+      "verdict": null,
+      "margin_ok": false
+    },
+    "n-1_f+1": {
+      "tag": "n-1_f+1",
+      "n_wind": -1,
+      "fountain_sign": 1,
+      "verdict": null,
+      "margin_ok": false
+    }
+  }
+}

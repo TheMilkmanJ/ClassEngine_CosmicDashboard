@@ -1,0 +1,22 @@
+==============================================================================
+The formation-epoch condition, closed by the hierarchy itself
+==============================================================================
+
+   the recorded exponent: 1/(kα_c) + 3/2 = 34.97  ⟹  e^(−34.97) = 6.47e-16
+   anchor check: M_red·e^(−exponent) = 1.58 TeV   (recorded band 0.55–1.78 TeV — inside ✓)
+
+   T/μ at formation (bath at the anchor, sea at the prefactor):
+     T_anchor = 0.55 TeV:  T/μ = 2.3e-16   ⟹  μ/T = 4.4e+15  (bar: ≥ 18 — cleared by ×2e+14)
+     T_anchor = 1.78 TeV:  T/μ = 7.3e-16   ⟹  μ/T = 1.4e+15  (bar: ≥ 18 — cleared by ×8e+13)
+
+   the bar is cleared by the hierarchy factor itself: a gap
+   exponentially below its Fermi scale forms in a bath cold relative
+   to that scale by exactly the exponential. The cold kernel is
+   self-consistently the correct host for the formula it computes.
+
+VERDICT: the host mismatch is RESOLVED — dichotomy dissolved,
+   constant doping-independent, formation condition satisfied by
+   fourteen orders. Re-homed (not smuggled): why the sea fills at
+   the reduced-Planck scale is the basement program's own scale-
+   selection question (§6a/§6i), not a screening-host question.
+==============================================================================

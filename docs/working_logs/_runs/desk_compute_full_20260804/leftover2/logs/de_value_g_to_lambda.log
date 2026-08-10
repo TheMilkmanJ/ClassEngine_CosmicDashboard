@@ -1,0 +1,48 @@
+========================================================================
+#169  the g -> lambda map: the composite quartic from the NJL sector
+========================================================================
+
+(0) VALIDATION — the same one-loop f^2 on QCD
+  N_c=3, M=336 MeV, Lambda=631 MeV -> y=0.5325, F=0.50503
+  f_pi predicted = 93.09 MeV   vs physical 92.4 MeV (+0.7%)
+  lambda_QCD = 4pi^2/(3 F) = 26.06   [corpus quotes 'QCD calibration 22.8'; M=312 MeV gives 23.6]
+
+(1) THE DARK CHAIN — every input already booked
+  tau = T_c/Lambda = (1/2)ln2       = 0.346574
+  I(tau)                            = 0.353310
+  g = 1/I(tau)                      = 2.8304   (g_c = 2; corpus quotes ~2.8)
+  y = M/Lambda   from 1 = g J(y)    = 0.59493
+  M = y * m_e                       = 304.0 keV   [de_value_derive_Lambda_g.py's BCS check: 312 keV]
+  M/T_c                             = 1.717   (BCS weak-coupling 1.764)
+  F(y)                              = 0.43167
+  f/sqrt(sigma) predicted           = 0.1244   [corpus's QCD-transfer band 0.19-0.25]
+
+  ****  lambda = 4 pi^2 / (N_c F) = 45.73   (N_c = 2)  ****
+  the naive identification lambda <- g = 2.8 is low by 16x — it equates a four-fermion coupling with a bosonic quartic
+
+(2) SYSTEMATICS — the scheme cancels in the QCD-calibrated ratio
+  lambda_dark/lambda_QCD = (3/N_c)(F_QCD/F_dark) = 1.7549
+  QCD anchor for m_sigma              lambda_QCD  -> lambda_dark
+  physical f_0(500), 500 MeV                14.6            25.7
+  600 MeV                                   21.1            37.0
+  NJL leading order 2M = 672 MeV            26.4            46.4
+
+  ****  lambda_dark = 26 - 46, central 36  ****
+  (the direct 3D-cutoff evaluation, 45.7, sits at the band's top —
+   it is the m_sigma = 2M reading, the same one QCD says runs high)
+
+(3) AGAINST THE CONTROL EDGE lambda* (Thermal_O1_Discussions.md:487-498)
+  lambda* (|Wu| = LHY) = 22.41   [booked 22.41]
+      lambda   sqrt(na^3)   |Wu|/LHY  verdict
+        25.7       0.0427       1.10  UNCONTROLLED
+        36.1       0.0599       1.38  UNCONTROLLED
+        46.4       0.0771       1.61  UNCONTROLLED
+  -> the WHOLE band is above lambda* = 22.4 (1.1x to 2.1x). No reading lands controlled.
+
+(4) THE SIZE THE SERIES WOULD GIVE (formal — the series is past control)
+  lambda =   25.7:  Delta E/E_MF =  21.58 %   Delta rho^1/4/rho^1/4 =  5.40 %
+  lambda =   36.1:  Delta E/E_MF =  30.28 %   Delta rho^1/4/rho^1/4 =  7.57 %
+  lambda =   46.4:  Delta E/E_MF =  38.99 %   Delta rho^1/4/rho^1/4 =  9.75 %
+  (the flagship's own gap over the observation is +0.44%, so a band this
+   wide swamps it — the precision claim, not the existence claim, is what dies)
+========================================================================

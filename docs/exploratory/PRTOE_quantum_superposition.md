@@ -8,6 +8,25 @@ reproduction of QM is the falsifiable claim; the addition is ontology. This docu
 the boundary of the whole quantum wing: what is textbook (links 1–2), what is the
 model's one legal move (link 3), and where the last randomness lives (one integer).*
 
+> **Banner (SP-D1 + SP-D4, 2026-08-03).**  
+> **Not a Born-rule derivation.** **Not a solution of the measurement problem.**  
+> Falsifiable content = exact QM nulls (interference, decoherence class).  
+> Claim S4 (Born *value*) is **OPEN-BLOCKED** — do not book as derived; do not soft-close
+> via addenda. Kill-band **template only** (no computation):  
+> [`SP_D4_BORN_TEMPLATE.md`](../working_logs/_runs/quantum_arxiv_worklist_20260803/SP_D4_BORN_TEMPLATE.md).  
+> Medium–atom language = seating / interpretation only (trio TR-D1).  
+> **arXiv:** standalone decoherence/superposition notes **KILLED** (SP-D3 / TR-D4); corpus only.
+
+
+> **VERDICT (2026-08-03) — quantum four endpoint.**  
+> **arXiv ready as quantum-mechanics papers: NO.**  
+> **Does this model provide quantum mechanics? NO** — it does not derive QM, does not supply
+> new QM dynamics/Born/Hilbert/atomic Hamiltonian physics. It **seats** standard QM
+> (interpretation), **reproduces** it as permanent nulls, and (dark sector only) **forbids**
+> this ultralight medium as a tabletop collapse mechanism (`medium_induced_decoherence.py`).  
+> Medium–atom “transactions” remain **non-claims**. Full write-up:  
+> [`../working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md`](../working_logs/_runs/quantum_arxiv_worklist_20260803/VERDICT_QUANTUM_FOUR.md).
+
 ## 0. The mystery as usually told
 
 "The particle is in two places at once, until looked at." Neither clause survives inspection:
@@ -77,10 +96,50 @@ what completes it; and the completion DIRECTION is the condensate's own clock (t
 Explicitly labeled an interpretation: the model rides standard QM exactly and its
 abstention on the measurement problem stands — this adds ontology, zero modified numbers.
 
+---
 
-## Addendum 2 — the selection law [interpretation-grade]
+## 6. Claims ledger — honest OPEN (2026-08-03) — anti-storygrade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| S1 | Superposition = one medium configuration with multi-term particle-basis decomposition | **interpretation** | §1; linearity of small excitations | Language, not a new formula |
+| S2 | Measurement = einselection / neighbor monitoring | **derived (standard QM)** | Zurek / quantum Darwinism | Not re-derived; seating only |
+| S3 | Linearity / interference match QM | **registered null** | §5 | Kill on GRW/Penrose-class collapse |
+| S4 | **Born rule *value*** | **OPEN-BLOCKED** | §1 flag; PROGRAM P2 | Shared with every interpretation; **do not book as derived**; OPEN-THEORY until registered kill band exists |
+| S5 | Residual randomness → Kibble winding integer + sign | **interpretation** | §4 | Beyond current test; unbanked as prediction |
+| S6 | Global-phase selection of outcomes | **interpretation** | §3; same ODLRO as entanglement doc | Explicit nonlocality price |
+| S7 | Ultralight *dark* condensate induces no tabletop medium decoherence | **null-hardened** (registered null with mechanism) | `scripts/medium_induced_decoherence.py`; [exploratory README](README.md) | Dark sector only; vacuum \(v_c=c\) is separate (inertia); kill if anomalous lab decoherence claimed as this medium |
+
+**What “above storygrade” means here:**  
+Not a fake Born derivation. It means **S4 is locked OPEN-BLOCKED**, nulls S3/S7 are explicit, and no packing of S1/S5 as results.  
+Any future Born program must register a kill band *before* computing — same discipline as ω_J.
+
+**Cross-link:** [`docs/working_logs/_runs/quantum_null_hardening_20260803/`](../working_logs/_runs/quantum_null_hardening_20260803/) (Born stays OPEN; CHSH/WKB siblings hardened there); worklist [`quantum_arxiv_worklist_20260803/`](../working_logs/_runs/quantum_arxiv_worklist_20260803/).  
+**Non-claims:** not a solution of the measurement problem; not a Born derivation; **S7 does not**
+make this file stop being interpretation — S7 is a **dark-sector null** only, not independent QM
+or a foundations close (VERDICT §4).  
+**Triage:** elevate-in-place (discipline); load-bearing rows are null-hardened / derived / interpretation / OPEN-BLOCKED / registered null — no bare story for physics.
+
+## Addendum 2 — the selection law [interpretation-grade; **SP-D2:** does **not** close S4 Born OPEN-BLOCKED]
 How the superposition is chosen: (i) the terms — least energy cost subject
 to the conservation constraints (the variational principle; exact for the vacuum: the gap equation);
 (ii) the probabilities — amplitude-squared by twin-swap symmetry (Zurek envariance
 [Zurek2003], with the swap partners being the twins). The abstention narrows to collapse
-DYNAMICS only — still constitutionally silent.
+DYNAMICS only — still constitutionally silent. **(SP-D2 fence):** envariance/variational *readings* are interpretation-grade; they do **not** book Born as derived.
+
+**Elevation rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md` (discipline; physics OPEN rows stand).
+
+
+---
+
+## Research residual register (corpus continue; not paper path)
+
+| Residual | Status | Unblock |
+|---|---|---|
+| Born rule value | OPEN-BLOCKED | scored kill band *before* any claim (SP-D4 template) |
+| Medium pair \(r\) + pair Hamiltonian | MISSING_INPUT | explicit Hamiltonian + non-circular \(r\) (EN-D2/D3) |
+| Preferred-frame imprint (Bell / tunnel time / interference) | OPEN joint LV | LV audit / external precision |
+| α_c second-sound bench | OPEN parent | P-2026-040 / chain R−1 |
+| New arXiv note from this wing | **KILLED** until scored science | worklist red 2026-08-03 |
+
+*Seating language allowed. “Transactions proved” / derived atomic QM **forbidden**.*

@@ -1,0 +1,98 @@
+==============================================================================
+N4 FORCE-BRANCH ATTEMPT — kill-seek + FA3 reconfirm
+  FORCE_BRANCH_DERIVED default false unless real theorem stocked
+  exit 0 = compute done; NOT physics PASS; NOT N4 land
+==============================================================================
+
+[1] FA3 reconfirm (can_derive_H_re_without_declaration)
+  can_derive_H_re_without_declaration = False
+  grade_O2                           = PARTIAL
+  obstruction                        = A_friedmann_at_H0_finite_rho + B_metric_off_branch_declaration + C_magnitude_lock
+  c_s                                = 0.14795964842319909
+  |H_kin(Θ=1,d=3)|/H_door            = 0.08542454284633638
+  ASSERT OK: FA3 can_derive remains false
+
+[2] Obstruction A algebraic stamp (metric-ON continuous path)
+  obstruction_A_stands = True
+  continuous_metric_ON_H_cross_legal = False
+  H_kin_at_cross = 0.0
+  rho_finite_at_cross = True
+  ASSERT OK: continuous exterior path illegal at H=0 finite ρ
+
+[3] Argument kill-seek table (FB1–FB20)
+  FB1   KILLED                continuous H_kin as exterior H (path A)
+  FB2   P2_RESTATEMENT        metric-off then H_re = sign(Θ)|H_F(ρ)|
+  FB3   MISSING_INPUT         Israel thin shell at re-entry (S-B)
+  FB4   KILLED_AS_THEOREM     M4 achronality forces expanding root
+  FB5   KILLED                FA1 quench / acoustic stress as S_ab
+  FB6   FORBIDDEN             M2 junction N_med/η dials
+  FB7   CATEGORY_ERROR        medium ⟨Θ⟩ turn alone forces exterior root
+  FB8   KILLED                H_kin∝Θ selects root in Phase II
+  FB9   NON_DERIVATION        observer / arrow softener (P2_SETS_ARROW)
+  FB10  USES_P2               match-book Phase III dictionary
+  FB11  MEDIUM_ONLY           averaging bulk stress drive
+  FB12  DEAD                  modified homogeneous constraint (H=0 finite ρ)
+  FB13  KILLED_AS_THEOREM     S-A two-map bookkeeping forces root
+  FB14  P2_RESTATEMENT        linguistic ⟨Θ⟩>0 ⇒ expanding exterior
+  FB15  NOT_STOCKED           NEC / energy conditions force H_re>0
+  FB16  INSUFFICIENT          Darmois induced-metric continuity alone
+  FB17  NON_DERIVATION        entropy / C² restoration forces H>0
+  FB18  CANDIDATE_REFRAME     H_kin matching target at re-entry = force
+  FB19  ILL_POSED             single-shell Israel across Phase II
+  FB20  CONSTRAINT_ONLY       M4 white-hole / hold-time joint
+  ASSERT OK: 20 arguments, 0 force H_re without P2
+
+[4] N4 honesty stamps
+  FORCE_BRANCH_DERIVED              = False
+  NAMED_THEOREM_STOCKED             = False
+  P2_is_declaration                 = True
+  bounce_closed                     = False
+  cyclic_cosmology                  = False
+  c_s / √3 (mag-lock factor d=3)    = 0.085425
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "n4_force_branch_20260804",
+  "exit_means": "compute_done_not_physics_PASS",
+  "FORCE_BRANCH_DERIVED": false,
+  "NAMED_THEOREM_STOCKED": false,
+  "can_derive_H_re_without_declaration": false,
+  "P2_is_declaration": true,
+  "obstruction_A_stands": true,
+  "arguments_examined": 20,
+  "arguments_forcing_H_re_without_P2": 0,
+  "argument_ids": [
+    "FB1",
+    "FB2",
+    "FB3",
+    "FB4",
+    "FB5",
+    "FB6",
+    "FB7",
+    "FB8",
+    "FB9",
+    "FB10",
+    "FB11",
+    "FB12",
+    "FB13",
+    "FB14",
+    "FB15",
+    "FB16",
+    "FB17",
+    "FB18",
+    "FB19",
+    "FB20"
+  ],
+  "fa3_grade_O2": "PARTIAL",
+  "c_s": 0.14795964842319909,
+  "H_kin_over_H_door_Theta1_d3": 0.08542454284633638,
+  "bounce_closed": false,
+  "cyclic_cosmology": false,
+  "lands": 0,
+  "grade": "OPEN_MISSING_INPUT_N4_FORCE_BRANCH_false",
+  "promotion_requires": "named_proof_form: legal_gate + (S_ab,K_ab or acoustic axioms) => unique H_re>0; contracting root inconsistent"
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — FORCE_BRANCH_DERIVED false; FA3 can_derive false; 0 lands.
+NO FABRICATIONS. exit 0 ≠ PASS.

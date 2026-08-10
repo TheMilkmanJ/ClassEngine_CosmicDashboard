@@ -1,0 +1,1376 @@
+MATH AUDIT — 1374 closed-form checks, 1374 pass, 0 fail
+
+  ok   THE_AMPLITUDE            eps = c*fbar*alpha_c                           booked 1.2543       got 1.25432      %
+  ok   THE_AMPLITUDE            eps = 27*alpha/(5*pi)                          booked 1.2543       got 1.25432      %
+  ok   MATH_SPINE               fbar = 2/pi                                    booked 0.63662      got 0.63662      
+  ok   MATH_SPINE               alpha_c = 3*alpha                              booked 0.021892     got 0.0218921    
+  ok   cosmological_constant    tau = (1/2) ln 2, forced by Q = 2/3 via Parseval booked 0.34657      got 0.346574     
+  ok   cosmological_constant    T_c = tau * m_e                                booked 177.1        got 177.099      keV
+  ok   MATH_SPINE               M_2 = alpha^2*T_c                              booked 9.43         got 9.43075      eV
+  ok   cosmological_constant    rho_Lambda^(1/4) = (9/2)*alpha^4*T_c           booked 2.2599       got 2.2599       meV
+  ok   MATH_SPINE               rho_Lambda^(1/4) = (1/2)*alpha_c^2*M_2         booked 2.2599       got 2.2599       meV
+  ok   cosmological_constant    the floor's excess over the observed 2.25      booked 0.44         got 0.440019     %
+  ok   family_tree              1/M_2 as a length                              booked 20.9         got 20.9238      nm
+  ok   FAILURES_LEDGER          retired: T_c = 179 keV inverted from the observation booked 0.3503       got 0.350294     
+  ok   FAILURES_LEDGER          retired: that T_c gives M_2 = 9.53 eV and a +1.5% floor booked 2.2842       got 2.28416      meV
+  ok   hierarchy_problem        ln(M_red/(4 pi m_H))                           booked 34.98        got 34.9753      
+  ok   hierarchy_problem        1/(k*alpha_c)                                  booked 33.474       got 33.4738      
+  ok   hierarchy_problem        the residual = 3/2                             booked 1.5014       got 1.50149      
+  ok   hierarchy_problem        M_anchor = M_red*exp(-1/(k ac) - 3/2)          booked 1576         got 1576.28      GeV
+  ok   hierarchy_problem        4 pi m_H                                       booked 1574         got 1573.94      GeV
+  ok   hierarchy_problem        b = 2 alpha_c/pi, the screening constant       booked 0.0139369    got 0.0139369    
+  ok   hierarchy_problem        k = ln(1+1/b)/pi in closed form                booked 1.36461      got 1.36461      
+  ok   hierarchy_problem        <V>_FS/pi^2 reproduces lambda = k alpha_c      booked 0.0298742    got 0.0298742    
+  ok   hierarchy_problem        GMB constant (1 + ln 4)/3 = ln (4e)^(1/3)      booked 0.795431     got 0.795431     
+  ok   hierarchy_problem        the crossed-box pipeline reproduces it         booked 0.795431     got 0.795431     
+  ok   hierarchy_problem        c, the crossed box                             booked 0.789262     got 0.789262     
+  ok   hierarchy_problem        c's contact limit b -> inf on the linear band  booked 0.433868     got 0.433868     
+  ok   hierarchy_problem        lambda_eff = lambda(1 - c lambda)              booked 0.0291698    got 0.0291698    
+  ok   hierarchy_problem        1/lambda + c, the corrected exponent           booked 34.263       got 34.263       
+  ok   hierarchy_problem        the anchor multiplier exp(-c)                  booked 0.45418      got 0.45418      
+  ok   hierarchy_problem        M_anchor vertex-corrected, booked convention   booked 716          got 715.948      GeV
+  ok   hierarchy_problem        M_anchor vertex-corrected, exact-solution convention booked 1431.9       got 1431.9       GeV
+  ok   hierarchy_problem        the band 1.6-5.2 TeV x exp(-c), bottom edge    booked 0.727        got 0.726687     TeV
+  ok   hierarchy_problem        the band 1.6-5.2 TeV x exp(-c), top edge       booked 2.362        got 2.36173      TeV
+  ok   hierarchy_problem        dln c/dln b, c's robustness against the screening constant booked -0.0905      got -0.0905041   
+  ok   hierarchy_problem        the shooter's 13 TeV over the corrected band's top edge booked 5.5          got 5.50443      x
+  ok   hierarchy_problem        the shooter's 13 TeV over the corrected band's bottom edge booked 17.9         got 17.8894      x
+  ok   scale_ladder             atom rung: (1/2) alpha^2                       booked 2.66e-05     got 2.66257e-05  
+  ok   scale_ladder             universe rung: (1/2) alpha_c^2                 booked 0.00024      got 0.000239631  
+  ok   scale_ladder             nucleus ~ 8 MeV / 939 MeV                      booked 0.0085       got 0.0085197    
+  ok   sqrt3_derivation         Gamma_par/H = sqrt(3)                          booked 1.732        got 1.73205      
+  ok   sqrt3_derivation         omega_J/H = sqrt(3/2)                          booked 1.2247       got 1.22474      
+  ok   sqrt3_derivation         B = omega_J/Gamma_par = 1/sqrt(2)              booked 0.7071       got 0.707107     
+  ok   sqrt3_derivation         omega_J^2/H^2 derived from G and Friedmann     booked 1.5          got 1.5          
+  ok   sqrt3_derivation         and it is independent of rho (decade shift)    booked 0            got 0            
+  ok   coincidence_problem      elapsed since matter-Lambda crossing, H_0^-1   booked 0.262        got 0.261804     
+  ok   coincidence_problem      the same elapsed time in H_Lambda^-1           booked 0.219        got 0.219041     
+  ok   coincidence_problem      occupancy in one clock (%)                     booked 2.68         got 2.68443      %
+  ok   coincidence_problem      occupancy as one-in-N                          booked 37.3         got 37.2518      
+  ok   sqrt3_derivation         t_turn = ln(1/sqrt(A_s))/(sqrt(3/2) H)         booked 8.16         got 8.15968      1/H
+  ok   plasma_physics           nu_p at n_e = 1e10 cm^-3                       booked 900          got 898          MHz
+  ok   plasma_physics           electron share of 1/m weighting                booked 0.9995       got 0.999456     
+  ok   radio_lattice            nu_H/nu_D ratio-lock                           booked 4.33865      got 4.33865      
+  ok   bbn_witness              deuterium bottleneck B_D/ln(1/eta)             booked 105000       got 104630       eV
+  ok   bbn_witness              n(He)/n(H) at Y_p = 0.249                      booked 0.0829       got 0.0828895    
+  ok   bbn_witness              He-4 photodissoc. opens at m_e^2/(22*19.8 MeV) booked 600          got 599.451      eV
+  ok   bbn_witness              dark confinement reheat (27/14)^(1/3)          booked 1.245        got 1.24474      
+  ok   bbn_witness              SU(2) N_f=3 deconfined g*                      booked 27           got 27           
+  ok   bbn_witness              SU(2) N_f=3 Goldstones 2Nf^2-Nf-1              booked 14           got 14           
+  ok   bbn_witness              Delta N_eff = (27/(7/4)) xi^4 at xi=0.35       booked 0.2315       got 0.231525     
+  ok   cosmic_magnetism         B = 2(m_p c/e) * 0.5 H_rec                     booked 5e-18        got 4.73892e-18  G
+  ok   cosmic_magnetism         helicity conversion k^2 = (2 m_p c/e)^2        booked 4.3595e-08   got 4.35948e-08  G^2 s^2
+  ok   cosmic_magnetism         k^2 > 0 (sign convention cancels)              booked 1            got 1            
+  ok   indirect_detection       orders below thermal relic                     booked 128          got 128.477      
+  ok   PREREGISTERED P-029      comb unit 2 pi chi_*/L                         booked 3.13         got 3.13249      
+  ok   PREREGISTERED P-029      fundamental at n=10                            booked 31.3         got 31.3249      
+  ok   PREREGISTERED P-029      fundamental at n=30                            booked 94           got 93.9746      
+  ok   PREREGISTERED P-053      onset shift at dN=0.24                         booked 0.0079       got 0.00789603   
+  ok   PREREGISTERED P-053      convertible dN_eff cap                         booked 0.00061      got 0.000608326  
+  ok   neutrino_sector          m_3 from m_1 + NuFIT Delta m^2_31              booked 50           got 50.2002      meV
+  ok   neutrino_sector          Sigma m_nu = m1+m2+m3, normal ordering         booked 61.4         got 61.3532      meV
+  ok   galactic_atoms           dwarf core radius (Schive, 1e9 M_sun)          booked 7            got 7.14286      pc
+  ok   galactic_atoms           MW-class core radius (1e12 M_sun)              booked 0.7          got 0.714286     pc
+  ok   galactic_atoms           soliton M*r invariant is halo-independent      booked 4.2e+06      got 4.2e+06      M_sun pc
+  ok   galactic_atoms           the soliton constant M r G m^2/hbar^2 is O(1)  booked 2.5          got 2.46654      
+  ok   entropy                  eps*m_e, the rest-energy step across the gate  booked 6.41         got 6.40947      keV
+  ok   entropy                  ballistic 2 keV suppressed by the sound-speed ratio 1/40 booked 50           got 50           eV
+  ok   koide_relation           Q from the measured pole masses                booked 0.66666      got 0.666661     
+  ok   koide_relation           Q = 1/3 + A^2/6 at A = sqrt(2)                 booked 0.666667     got 0.666667     
+  ok   koide_relation           the closure theta = (1+A^2/2)/9 returns 2/9    booked 0.222222     got 0.222222     
+  ok   PREREGISTERED P-051      the lock slope is the closure's derivative A/9 booked 0.1571       got 0.157135     
+  ok   koide_relation           theta = 2/9 reproduces m_tau/m_e               booked 3477.2       got 3477.47      
+  ok   koide_relation           theta = 2/9 reproduces m_mu/m_e                booked 206.768      got 206.77       
+  ok   quantum_gravity          dark str[k1] = 2 N_f N_c - 4(N_c^2-1) at N_c=2,N_f=3 booked 0            got 0            
+  ok   quantum_gravity          str[k1] = 16 N_gen - 48 vanishes at N_gen = 3  booked 0            got 0            
+  ok   quantum_gravity          16 Weyl fermions per generation (with nu^c)    booked 16           got 16           
+  ok   quantum_gravity          SM alone (15 per generation) gives -3          booked -3           got -3           
+  ok   me_mechanism_math        EP margin, weak end (Delta a/a = 8e-19)        booked 3            got 3.21085      orders
+  ok   me_mechanism_math        EP margin, strong end (Delta a/a = 8e-21)      booked 5            got 5.21085      orders
+  ok   baryogenesis             eta from omega_b h^2 = 0.0224                  booked 6.1e-10      got 6.13536e-10  
+  ok   THE_AMPLITUDE            A_s = (alpha_c/4 pi k)^3 at the closed-form k  booked 2.088e-09    got 2.08068e-09  
+  ok   THE_AMPLITUDE            the k reproducing the measured A_s sits in [1.360, 1.366] booked 1.363        got 1.36301      
+  ok   scale_ladder             second sound = sqrt(alpha) c                   booked 0.0854       got 0.0854245    c
+  ok   scale_ladder             the ladder is geometric: (sqrt alpha)^2 = alpha booked 0.00729735   got 0.00729735   
+  ok   dcdf_superfluid          c_s = sqrt(3 alpha) c                          booked 0.148        got 0.14796      c
+  ok   dcdf_superfluid          c_s sits sqrt(d) above the second sound        booked 0.14796      got 0.14796      
+  ok   MATH_SPINE               the turn: z from a = 2.04 (booked z = -0.51)   booked -0.51        got -0.509804    
+  ok   MATH_SPINE               the turn: z from a = 2.86 (booked z = -0.65)   booked -0.65        got -0.65035     
+  ok   cosmological_constant    KP cap 0.40 vs the observed 2.2                booked 5.5          got 5.5          x below
+  ok   galactic_atoms           soliton total mass = the recorded M_c          booked 6.25e+06     got 6.14485e+06  M_sun
+  ok   galactic_atoms           soliton M(<1 pc) at the Galactic Centre        booked 2.9e+06      got 2.8926e+06   M_sun
+  ok   galactic_atoms           Sgr A* influence radius exceeds the core radius booked 2.6          got 2.59018      core radii
+  ok   koide_relation           Parseval: |f1/f0| from Q = 2/3                 booked 0.707107     got 0.707107     
+  ok   koide_relation           the kernel's tau = -ln|f1/f0| = (1/2)ln2       booked 0.346574     got 0.346574     
+  ok   koide_relation           holonomy: 3 x arg f1 = Q                       booked 0.666667     got 0.666667     
+  ok   koide_relation           T_c implied by the kernel's tau                booked 177.1        got 177.099      keV
+  ok   koide_relation           rho_Lambda from the kernel's tau               booked 2.2599       got 2.2599       meV
+  ok   inflation_replacement    ln(M_Pl/T_on)                                  booked 55.52        got 55.5224      
+  ok   inflation_replacement    n_s = 1 - 2/ln(M_Pl/T_on)                      booked 0.964        got 0.963979     
+  ok   inflation_replacement    running from the scale-local form              booked -0.00052     got -0.000521645 
+  ok   quantum_gravity          Bekenstein quarter = 12pi/48pi                 booked 0.25         got 0.25         
+  ok   deuterium_row            combined D/H budget (2-term, standing)         booked 0.0476       got 0.047634     
+  ok   deuterium_row            LCDM control vs Cooke                          booked -2.25        got -2.24629     sigma
+  ok   deuterium_row            the model vs Cooke                             booked -2.94        got -2.93908     sigma
+  ok   deuterium_row            the model's deficit vs its LCDM control        booked -0.69        got -0.692782    sigma
+  ok   deuterium_row            omega_b step costs                             booked -1.01        got -1.00768     sigma
+  ok   deuterium_row            the dyad's BBN window gains                    booked 0.31         got 0.314901     sigma
+  ok   deuterium_row            window grafted on LCDM alone                   booked -1.93        got -1.92502     sigma
+  ok   deuterium_row            d ln(D/H)/d ln omega_b (production, measured)  booked -1.66        got -1.66665     
+  ok   deuterium_row            1.1% omega_b step -> D/H loss                  booked 1.81         got 1.80684      percent
+  ok   deuterium_row            deuterium paid per km/s/Mpc of H0              booked 0.59         got 0.592755     sigma
+  ok   deuterium_row            H0 given back to reach LCDM parity             booked 1.17         got 1.16875      km/s/Mpc
+  ok   deuterium_row            H0 given back to centre on Cooke               booked 4.96         got 4.95833      km/s/Mpc
+  ok   deuterium_row            photon energy per baryon at the window opening (599 eV) booked 2.65e+12     got 2.65246e+12  eV
+  ok   deuterium_row            the 30 eV/H spec as a fraction of the photon bath booked 1.13e-11     got 1.13102e-11  
+  ok   deuterium_row            its mu-distortion                              booked 3.2e-11      got 3.16159e-11  
+  ok   deuterium_row            margin below FIRAS |mu| < 9e-5                 booked 2.8e+06      got 2.84667e+06  x
+  ok   deuterium_row            required relic abundance n_X/n_gamma at 20 MeV booked 9.15e-16     got 9.15e-16     
+  ok   deuterium_row            recombination is later than the window close by booked 120000       got 120000       x
+  ok   deuterium_row            row on Pisanti 2021's published rate error 0.060 booked -2.09        got -2.08668     sigma
+  ok   deuterium_row            Pisanti's rate error vs PRyM-on-PRIMAT-bands   booked 2.5          got 2.5          x
+  ok   deuterium_row            spread on the row across the four rate-error assessments booked 2.01         got 2.01766      sigma
+  ok   deuterium_row            d(d,n)3He share of the compilation shift       booked 0.94         got 0.942955     
+  ok   deuterium_row            PRIMAT-vs-NACRE on d(d,n)3He, in PRIMAT sigma  booked 4.02         got 4.02711      sigma
+  ok   deuterium_row            the two compilations' 1sig bands on d(d,n)3He differ by booked 5.21         got 5.20545      x
+  ok   deuterium_row            d(p,g)3He (the LUNA reaction) agreement between compilations booked 0.0012       got 0.0012       
+  ok   deuterium_row            theory error on NACRE II's uncertainty assessment booked 0.0807       got 0.0807       
+  ok   deuterium_row            the row on NACRE II's assessment               booked -1.63        got -1.62585     sigma
+  ok   deuterium_row            PRyM's own nuclear-rate error on D/H           booked 0.024        got 0.0239971    
+  ok   deuterium_row            d(p,g)3He share of that variance               booked 0.52         got 0.519006     
+  ok   deuterium_row            PRyM's rate error vs the borrowed PRIMAT 0.037 booked 0.65         got 0.64857      x
+  ok   deuterium_row            row on Cooke + PRyM rates alone                booked -3.64        got -3.64368     sigma
+  ok   deuterium_row            row with the compilation systematic folded in  booked -1.96        got -1.96163     sigma
+  ok   deuterium_row            NACRE II moves the model row to                booked -1.77        got -1.77203     sigma
+  ok   deuterium_row            the compilation systematic on the model row    booked 1.167        got 1.1666       sigma
+  ok   deuterium_row            the same systematic on the LCDM control        booked 1.233        got 1.23343      sigma
+  ok   deuterium_row            model-minus-control is compilation-ROBUST      booked -0.067       got -0.066822    sigma
+  ok   deuterium_row            compilation systematic vs the borrowed 0.037 theory error booked 1.5          got 1.50189      x
+  ok   deuterium_row            tau_n bottle->beam on D/H                      booked 0.268        got 0.267876     sigma
+  ok   deuterium_row            tau_n bottle->beam on Y_p (wrong shape)        booked 0.475        got 0.47525      sigma
+  ok   deuterium_row            d ln H / d N_eff                               booked 0.0671       got 0.067138     
+  ok   deuterium_row            d ln(D/H) / d ln H (the gravitational dial)    booked 2.01         got 2.01078      
+  ok   deuterium_row            gravity's dial vs the whole m_e window (0.645%) booked 3.12         got 3.11749      x
+  ok   deuterium_row            BBN binding energy released per baryon         booked 1.748e+06    got 1.74758e+06  eV
+  ok   deuterium_row            that release as a fraction of the photon bath at 70 keV booked 5.64e-09     got 5.63789e-09  
+  ok   deuterium_row            deuterium bottleneck from the photon-to-baryon ratio booked 104.6        got 104.63       keV
+  ok   deuterium_row            T_c supersession 179 -> 177.10 keV             booked -0.00358     got -0.00358229  sigma
+  ok   deuterium_row            eps supersession 1.24 -> 1.2543 percent        booked 0.00353      got 0.00353162   sigma
+  ok   deuterium_row            both supersessions together (they cancel)      booked -5.07e-05    got -5.06739e-05 sigma
+  ok   deuterium_row            below-T_c efficiency ratio                     booked 2.75         got 2.74544      x
+  ok   deuterium_row            below-T_c dN_eff to zero deuterium             booked 0.49         got 0.488793     
+  ok   deuterium_row            helium landing under the below-T_c lever       booked 1.7          got 1.67943      sigma
+  ok   deuterium_row            reheat shortfall (upper)                       booked 33           got 32.5862      x
+  ok   deuterium_row            He/H by number vs D/H — the reservoir ratio    booked 3300         got 3320         x
+  ok   fairbank_note            Sigma m_nu at the low anchor m1 = 2.25         booked 61.35        got 61.3532      meV
+  ok   fairbank_note            Sigma m_nu at the retired-route value m1 = 2.284 booked 61.4         got 61.3974      meV
+  ok   fairbank_note            floor at the low anchor                        booked 0.044        got 0.0437234    meV
+  ok   fairbank_note            floor at the retired-route value 2.284         booked 0.023        got 0.0232441    meV
+  ok   fairbank_note            the retired route's +1.5% would nearly halve the floor booked 1.9          got 1.88105      x
+  ok   fairbank_note            |Ue1|^2 m1                                     booked 1.52         got 1.52495      meV
+  ok   fairbank_note            |Ue2|^2 m2                                     booked 2.67         got 2.67307      meV
+  ok   fairbank_note            |Ue3|^2 m3                                     booked 1.1          got 1.1044       meV
+  ok   fairbank_note            m_bb upper edge (phases aligned)               booked 5.3          got 5.30243      meV
+  ok   fairbank_note            critical m1 where the floor vanishes           booked 2.324        got 2.32266      meV
+  ok   fairbank_note            rho_Lambda^(1/4) relative error (Planck, quartered) booked 0.449        got 0.449405     %
+  ok   fairbank_note            anchor low edge, observed -1 sigma             booked 2.2399       got 2.23989      meV
+  ok   fairbank_note            floor at the low edge                          booked 0.05         got 0.0498209    meV
+  ok   fairbank_note            floor at the observed anchor                   booked 0.044        got 0.0437234    meV
+  ok   fairbank_note            floor at the derived anchor                    booked 0.038        got 0.0377566    meV
+  ok   fairbank_note            ceiling at the low edge                        booked 5.295        got 5.2948       meV
+  ok   fairbank_note            ceiling at the derived anchor                  booked 5.31         got 5.3099       meV
+  ok   fairbank_note            ceiling moves this little across the range     booked 0.28         got 0.285206     %
+  ok   fairbank_note            derived anchor sits this far below the critical m1 booked 2.78         got 2.77723      %
+  ok   fairbank_note            that gap in sigmas of the observation          booked 6.18         got 6.17979      sigma
+  ok   fairbank_note            m_bb rms over flat phases (rate-relevant)      booked 3.3          got 3.27051      meV
+  ok   fairbank_note            m_bb median over flat phases                   booked 3.05         got 3.04799      meV
+  ok   fairbank_note            P(m_bb > 4.7 meV) — nEXO favourable NME        booked 10.8         got 10.858       %
+  ok   fairbank_note            P(m_bb > 9.0 meV) — LEGEND-1000 best           booked 0            got 0            %
+  ok   fairbank_note            nEXO overlap band width                        booked 0.6          got 0.602426     meV
+  ok   fairbank_note            NH minimum Sigma m_nu at m1 = 0                booked 58.76        got 58.7637      meV
+  ok   fairbank_note            model's separation from the NH floor           booked 2.59         got 2.58946      meV
+  ok   fairbank_note            m_bb ceiling at m1 = 0 (minimal NH)            booked 3.69         got 3.6896       meV
+  ok   fairbank_note            m_bb floor at m1 = 0 (minimal NH)              booked 1.48         got 1.48301      meV
+  ok   fairbank_note            minimal-NH ceiling sits BELOW nEXO's 4.7 reach booked 1            got 1            
+  ok   fairbank_note            Ba-tagged reach = 4.7/sqrt(4)                  booked 2.35         got 2.35         meV
+  ok   fairbank_note            P(detect) at the Ba-tagged 2.35 meV            booked 69.1         got 69.1058      %
+  ok   fairbank_note            minimal-NO P(>2.35) — why tagging cannot separate booked 63.7         got 63.75        %
+  ok   fairbank_note            minimal-NO ceiling = the band's lower edge     booked 3.69         got 3.6896       meV
+  ok   fairbank_note            P(model in the discriminating band)            booked 31.7         got 31.7631      %
+  ok   fairbank_note            minimal-NO in that band — must be zero         booked 0            got 0            %
+  ok   THREE_EQUATIONS          A_s closed form vs the frozen value            booked -0.34        got -0.335249    %
+  ok   THREE_EQUATIONS          the superseded 179 keV rounding gap            booked 1.52         got 1.51996      %
+  ok   THREE_EQUATIONS          T_c from the kernel's tau                      booked 177.1        got 177.099      keV
+  ok   background.h             T_on = sqrt(m*M_red/0.61)                      booked 9.46         got 9.45665      keV
+  ok   MATH_SPINE 2             identity T_on over the coded z_rad_onset = 4.0e7 booked 1.007        got 1.0066       x
+  ok   background.h             z_on from the H = m identity                   booked 4e+07        got 4.02641e+07  
+  ok   background.h             log10 z_on, the identity                       booked 7.605        got 7.60492      
+  ok   cmp_prtoe_fixed          log10 z_on, what the running job uses          booked 7.5517       got 7.55168      
+  ok   ForJustin/07             identity vs the 3alpha mark — the unresolved gap booked 0.058        got 0.0579183    dex
+  ok   ForJustin/07             the implied dyad-mass disagreement             booked 1.31         got 1.30568      x
+  ok   MATH_SPINE               xi = hbar/(m c_s) at m = 2.24e-20              booked 402          got 397.988      AU
+  ok   MATH_SPINE               the mass that xi = 402 AU implies              booked 2.24e-20     got 2.21764e-20  eV
+  ok   MATH_SPINE               Schive core radius at m = 2.24e-20             booked 7            got 7.14286      pc
+  ok   ForJustin/07             mass implied by the run's z_on                 booked 1.753e-20    got 1.75297e-20  eV
+  ok   ForJustin/07             that mass misses xi = 402 AU by                booked 27           got 26.5077      %
+  ok   blackholes               superradiance band, lower edge (alpha_g = 0.1) booked 6e+08        got 5.96426e+08  M_sun
+  ok   blackholes               superradiance band, upper edge (alpha_g = 0.5) booked 3e+09        got 2.98213e+09  M_sun
+  ok   honest_status            (d/2)a^4 m_e — the tau=1/3 approximation       booked 2.174        got 2.17356      meV
+  ok   THE_AMPLITUDE            k = ln(1+pi/2a_c)/pi                           booked 1.36461      got 1.36461      
+  ok   THE_AMPLITUDE            k inside the Eliashberg window [1.35,1.37]     booked 1            got 1            
+  ok   THE_AMPLITUDE            A_s = (a_c/4pi k)^3                            booked 2.0807e-09   got 2.08067e-09  
+  ok   THE_AMPLITUDE            A_s vs the frozen 2.088e-9                     booked -0.35        got -0.351173    %
+  ok   ANN-026                  kernel tau vs the observation-inverted value   booked 0.44         got 0.438646     %
+  ok   ANN-026                  P-048's registered tolerance                   booked 5.7          got 5.70939      %
+  ok   ANN-026                  tolerance / the gap it must resolve            booked 13           got 13.016       x
+  ok   ANN-026                  kernel tau sits inside P-048's window          booked 1            got 1            
+  ok   P-048                    the separation the lattice must resolve        booked 0.00151      got 0.00151359   
+  ok   P-048                    inconclusive band (1-sigma separation)         booked 0.0015       got 0.00151359   
+  ok   P-048                    the 2-sigma discrimination requirement         booked 0.00076      got 0.000756795  
+  ok   P-048                    the retired tolerance separated them at        booked 0.0755       got 0.0756795    sigma
+  ok   INTERACTION_ATLAS        M2 = alpha^2 * T_c at T_c=177.10 keV           booked 9.43         got 9.43081      eV
+  ok   cosmological_constant    E_b = 1/2 ac^2 M2 -> the standing rho_L^1/4    booked 2.2599       got 2.25992      meV
+  ok   cosmological_constant    the retired T_c=179 keV reproduces the retired 2.284 booked 2.2842       got 2.28416      meV
+  ok   INTERACTION_ATLAS        alpha_g at 6e8 Msun (P-034 lower edge)         booked 0.1          got 0.100599     
+  ok   INTERACTION_ATLAS        alpha_g at 3e9 Msun (P-034 upper edge)         booked 0.5          got 0.502996     
+  ok   INTERACTION_ATLAS        alpha_g at M87* (6.5e9) -- past the window     booked 1.09         got 1.08982      
+  ok   INTERACTION_ATLAS        retired shield: alpha_g at 1e11 Msun, m=1e-22 eV booked 0.075        got 0.0748506    
+  ok   INTERACTION_ATLAS        decades of 2.24e-20 eV above the M87* band top (4.6e-21) booked 0.69         got 0.68749      dex
+  ok   INTERACTION_ATLAS        f_eff = m/sqrt(lambda) at recorded values      booked 5.01e+16     got 5.00879e+16  GeV
+  ok   INTERACTION_ATLAS        decades N_eq grows when lambda 1e-88 -> 2e-91  booked 2.7          got 2.69897      dex
+  ok   FAILURES_LEDGER          retired: the swept quench margin's re-priced low end booked -0.2         got -0.19897     dex
+  ok   smbh_atoms               CW-field Compton wavelength at m_phi = 3.1e-5 eV booked 0.636        got 0.636539     cm
+  ok   smbh_atoms               ultralight Compton wavelength at m = 2.24e-20 eV booked 0.0002855    got 0.000285486  pc
+  ok   smbh_atoms               lambda_C/r_g at 1e9 Msun equals 1/alpha_g      booked 5.963        got 5.96589      
+  ok   smbh_atoms               decades the CW field's Compton wavelength falls short booked 15.1         got 15.1411      dex
+  ok   smbh_atoms               golden-rule / kinetic prefactor ratio (the O(1) spread) booked 2.83         got 2.82843      x
+  ok   smbh_atoms               quench margin log10(N_sd/N_eq) at alpha_g=0.1  booked -83.7        got -83.6977     dex
+  ok   smbh_atoms               quench margin log10(N_sd/N_eq) at alpha_g=0.3  booked -85.1        got -85.1291     dex
+  ok   smbh_atoms               quench margin log10(N_sd/N_eq) at alpha_g=0.5  booked -85.8        got -85.7946     dex
+  ok   FAILURES_LEDGER          atlas form at p=4 (before the lambda-power fix) booked 5.03         got 5.03533      dex
+  ok   FAILURES_LEDGER          decades the missing power of lambda is worth   booked 90.2         got 90.1644      dex
+  ok   smbh_atoms               lambda needed for the quench to shield (alpha_g=0.3) booked 7.34e-49     got 7.33762e-49  
+  ok   smbh_atoms               decades of lambda the shield is short          booked 42.6         got 42.5645      dex
+  ok   smbh_atoms               N_bosenova/N_spindown, closed form vs direct (alpha_g=0.3) booked 1            got 1            
+  ok   smbh_atoms               N_bosenova sits below N_spindown (alpha_g=0.3) booked 0.001247     got 0.00124675   
+  ok   forced_combination       c_2 = 4/(3 ln 2)                               booked 1.9236       got 1.92359      
+  ok   forced_combination       q~^2/sqrt(sigma) = c_2/sqrt(3)                 booked 1.1106       got 1.11059      
+  ok   forced_combination       F_dark/sqrt(sigma) at t*sqrt(sigma) = 1        booked 0.4204       got 0.420423     
+  ok   forced_combination       demand band top (t*sqrt(sigma) = 0.8)          booked 0.47         got 0.470047     
+  ok   forced_combination       demand band bottom (t*sqrt(sigma) = 1.1)       booked 0.401        got 0.400858     
+  ok   FAILURES_LEDGER          retired: the 0.30-0.42 band's ends are a factor sqrt(2) booked 1.41421      got 1.41421      
+  ok   FAILURES_LEDGER          retired: the lower end 0.4204/sqrt(2)          booked 0.2973       got 0.297284     
+  ok   forced_combination       QCD F_pi/sqrt(sigma), pinned convention        booked 0.29636      got 0.296364     
+  ok   forced_combination       QCD f_pi/sqrt(sigma), 92.4 MeV convention      booked 0.21         got 0.21         
+  ok   forced_combination       demand / QCD, like for like                    booked 1.4186       got 1.4186       x
+  ok   FAILURES_LEDGER          retired: that ratio IS sqrt(2), to 0.31%       booked 0.31         got 0.310519     %
+  ok   FAILURES_LEDGER          retired: the NJL number read as pinned f_dark/sqrt(sigma) booked 0.17593      got 0.175928     
+  ok   FAILURES_LEDGER          retired: the apparent vortex/NJL disagreement  booked 2.39         got 2.38974      x
+  ok   forced_combination       the script's QCD calibration returns f_pi      booked 93.09        got 93.0881      MeV
+  ok   forced_combination       QCD read the script's way is f/Lambda          booked 0.14752      got 0.147525     
+  ok   forced_combination       #134 (i): the Lambda-as-sqrt(sigma) step fails on QCD booked 1.4235       got 1.42349      x
+  ok   forced_combination       #134 (ii): dark vs QCD in f/Lambda (N_c = 2 and its own y) booked 1.1859       got 1.18589      x
+  ok   forced_combination       #134 (iii): the vortex demand's sqrt(2) over QCD booked 1.4186       got 1.4186       x
+  ok   forced_combination       the three factors reproduce the 2.39           booked 2.39         got 2.39475      x
+  ok   forced_combination       NJL corrected by QCD's Lambda/sqrt(sigma), pinned booked 0.2523       got 0.252297     
+  ok   forced_combination       the corrected residual is (ii)x(iii), not a third disagreement booked 1.666        got 1.66638      x
+  ok   forced_combination       c_2 recovered from the pair                    booked 1.9236       got 1.92359      
+  ok   cosmological_constant    LHY coefficient (8/15pi^2)*sqrt(alpha_c)       booked 0.0079954    got 0.00799544   
+  ok   cosmological_constant    the same on rho_Lambda^(1/4), i.e. /4          booked 0.0019989    got 0.00199886   
+  ok   THREE_EQUATIONS          LHY dE/E_MF at lambda = 26                     booked 22           got 21.84        %
+  ok   THREE_EQUATIONS          LHY dE/E_MF at lambda = 46                     booked 39           got 38.64        %
+  ok   THREE_EQUATIONS          the band on rho_Lambda^(1/4), lower edge       booked 5.4          got 5.46         %
+  ok   THREE_EQUATIONS          the band on rho_Lambda^(1/4), upper edge       booked 9.8          got 9.66         %
+  ok   THREE_EQUATIONS          derived minus production-chain fit, as % of the value booked 1.81         got 1.81189      %
+  ok   THREE_EQUATIONS          the SPURIOUS sigma from the concordance joint's width booked 1.77         got 1.775        sigma
+  ok   THREE_EQUATIONS          chain posterior as eps, central                booked 1.26         got 1.26         %
+  ok   THREE_EQUATIONS          chain posterior as eps, width                  booked 0.41         got 0.41         %
+  ok   THREE_EQUATIONS          derived eps sits this far into the honest width booked 0.014        got 0.0138475    sigma
+  ok   cosmological_constant    the recorded 0.0084 against the closed form 0.0080 booked 5.06         got 5.05991      %
+  ok   cosmological_constant    0.0021 is 0.0084/4, not 0.0080/4               booked 0.0021       got 0.0021       
+  ok   cosmological_constant    Wu/LHY at lambda = 26 (band bottom)            booked 1.1602       got 1.1602       x
+  ok   cosmological_constant    Wu/LHY at lambda = 36 (centre)                 booked 1.60643      got 1.60643      x
+  ok   cosmological_constant    Wu/LHY at lambda = 46 (band top)               booked 2.05266      got 2.05266      x
+  ok   cosmological_constant    the whole band sits above the control edge     booked 1            got 1            
+  ok   cosmological_constant    LHY size at the band centre                    booked 28.8         got 28.7836      %
+  ok   cosmological_constant    w of a preferred-frame phonon zero-point sum   booked 0.333333     got 0.333333     
+  ok   quantum_gravity          S/(A/4G) = 12pi/48pi x 4 = 1, unregulated      booked 1            got 1            
+  ok   quantum_gravity          S/(A/4G) at Bogoliubov softening p = 1.5       booked 1            got 1            
+  ok   quantum_gravity          S/(A/4G) at Bogoliubov softening p = 2.0       booked 1            got 1            
+  ok   quantum_gravity          S/(A/4G) at Bogoliubov softening p = 3.0       booked 1            got 1            
+  ok   FAILURES_LEDGER          the p-ramp's span, which the ratio removes     booked 4            got 4            x
+  ok   INTERACTION_ATLAS        graveyard census totals the 14 entries         booked 14           got 14           
+  ok   fairbank_note            nEXO baseline reach in m_bb, favourable NME    booked 4.7          got 4.69894      meV
+  ok   fairbank_note            nEXO baseline reach in m_bb, unfavourable NME  booked 20.3         got 20.3621      meV
+  ok   fairbank_note            barium-tagged reach (4x in T-half)             booked 2.35         got 2.34947      meV
+  ok   CODE_MANIFEST            D-bottleneck ramp stamp at the standing T_c    booked 0.6047       got 0.604704     
+  ok   CODE_MANIFEST            Li ramp stamp at the standing T_c              booked 0.7741       got 0.774102     
+  ok   CODE_MANIFEST            D/H window shift from the T_c move, in sigma   booked 0.0023       got 0.00225731   sigma
+  ok   fairbank_note            m_bb floor at the observed anchor 2.25         booked 0.044        got 0.0437234    meV
+  ok   fairbank_note            m_bb floor at the derived anchor 2.2599        booked 0.038        got 0.0377566    meV
+  ok   fairbank_note            m_bb ceiling holds at 5.30 across the observed anchor range booked 5.3          got 5.3099       meV
+  ok   neutrino_sector 3b       v_L from the recorded g_33 = 1.2e-8            booked 4.18e+06     got 4.18333e+06  eV
+  ok   neutrino_sector 3b       <g_ee> = m_bb/v_L at the MeV corner            booked 7.3e-10      got 7.29665e-10  
+  ok   neutrino_sector 3b       <g_ee> = m_bb/v_L at the GeV end               booked 3.05e-12     got 3.05e-12     
+  ok   neutrino_sector 3b       <g_ee> = m_bb/v_L at the 2.4 TeV ceiling       booked 1.27e-15     got 1.27083e-15  
+  ok   neutrino_sector 3b       T_half at the MeV corner, favourable NME       booked 3.1e+32      got 3.1254e+32   yr
+  ok   neutrino_sector 3b       Majoron mode slower than the mass mode by      booked 10000        got 9753.78      x
+  ok   neutrino_sector 3b       <g_ee> below the experimental limit by         booked 14000        got 13704.9      x
+  ok   deuterium_row            dyad->lepton loop->2gamma->quark suppression (alpha/pi)^2 booked 5.4e-06      got 5.39549e-06  
+  ok   deuterium_row            what the loop delivers, in percent             booked 6.8e-06      got 6.76756e-06  %
+  ok   deuterium_row            shortfall against P-006's 0.14%                booked 21000        got 20686.9      x
+  ok   deuterium_row            shortfall against P-006's 0.21%                booked 31000        got 31030.4      x
+  ok   deuterium_row            He/H by number at Y_p = 0.249                  booked 0.083        got 0.0828895    
+  ok   deuterium_row            D/H gained by breaking 1.7e-5 of the helium    booked 1.4e-06      got 1.40912e-06  
+  ok   deuterium_row            the Y_p it costs                               booked -4.2e-06     got -4.233e-06   
+  ok   deuterium_row            energy per hydrogen at 20 MeV per dissociation booked 28           got 28.1824      eV
+  ok   deuterium_row 6b         below-T_c boost at dN_eff = 0.059              booked 0.34         got 0.342961     sigma
+  ok   deuterium_row 6b         below-T_c boost at dN_eff = 0.015              booked 0.09         got 0.0871936    sigma
+  ok   deuterium_row 6b         sharper transition 0.61eps -> 1.0eps           booked 0.21         got 0.206458     sigma
+  ok   deuterium_row 6b         best case, everything additive                 booked -2.39        got -2.39058     sigma
+  ok   deuterium_row 7          deconfined g* = 2(Nc^2-1) + (7/8)(4 Nc Nf)     booked 27           got 27           
+  ok   deuterium_row 7          confined Goldstones 2Nf^2 - Nf - 1             booked 14           got 14           
+  ok   deuterium_row 6          str[k1] with one extra sterile (17/gen) breaks finiteness booked 3            got 3            
+  ok   deuterium_row 6          nu_R at the MeV corner vs the He-4 threshold   booked 4.9          got 4.92823      x short
+  ok   deuterium_row 6          20 MeV false vacuum energy density             booked 2.08e+43     got 2.08229e+43  eV/cm3
+  ok   deuterium_row 6          ambient radiation at the deposit epoch         booked 1.52e+25     got 1.51858e+25  eV/cm3
+  ok   deuterium_row 6          a space-filling 20 MeV vacuum over-delivers by booked 1.37e+18     got 1.37121e+18  x
+  ok   deuterium_row 6          volume fraction allowed in the false vacuum    booked 5.2e-30      got 5.15955e-30  
+  ok   deuterium_row 5b         PBH mass evaporating at 4e6 s                  booked 1.07e+11     got 1.06847e+11  g
+  ok   deuterium_row 5b         PBH mass evaporating at 1e8 s                  booked 3.12e+11     got 3.12421e+11  g
+  ok   deuterium_row 5b         T_H at the window's light end                  booked 99           got 99.2077      GeV
+  ok   deuterium_row 5b         hadronic threshold over photon threshold       booked 90           got 91.1165      x
+  ok   deuterium_row 5b         Li binds tighter than D by                     booked 33           got 33.1131      x
+  ok   deuterium_row 5b         shortfall at D-curve tolerance 1.2%            booked 156          got 156.294      x
+  ok   deuterium_row 5b         shortfall at D-curve tolerance 5%              booked 39           got 39.0735      x
+  ok   deuterium_row 5b         pure-EM: min T_H in photodissoc window         booked 34           got 33.9286      GeV
+  ok   deuterium_row 5b         pure-EM: that min is above Lambda_QCD          booked 1            got 1            
+  ok   deuterium_row 5b         pure-EM: sub-QCD PBH evaporates this late      booked 5e+14        got 4.8821e+14   s
+  ok   deuterium_row 5b         pure-EM: sub-QCD lifetime / window high edge   booked 5e+06        got 4.8821e+06   x
+  ok   PHYSICS_DOMAINS 6        standing D/H row in sigma                      booked -2.94        got -2.94118     sigma
+  ok   PHYSICS_DOMAINS 6        committed-window low end                       booked -2.52        got -2.52101     sigma
+  ok   PHYSICS_DOMAINS 6        committed-window high end                      booked -1.34        got -1.34454     sigma
+  ok   PHYSICS_DOMAINS 6        LCDM control on the same width                 booked -2.25        got -2.2479      sigma
+  ok   PHYSICS_DOMAINS 6        spread-unfolded standing row                   booked -1.46        got -1.456       sigma
+  ok   deuterium_row 5          window low edge from dNeff = 0.06 (linearized) booked 2.407        got 2.40633      
+  ok   deuterium_row 5          window high edge from dNeff = 0.24 (linearized) booked 2.463        got 2.46434      
+  ok   deuterium_row 5          the linearization's worst residual across the window booked 0.00134      got 0.0013388    
+  ok   PHYSICS_DOMAINS 15       h at the abundance pin's low end               booked 2            got 1.95312      
+  ok   PHYSICS_DOMAINS 15       h at the abundance pin's high end              booked 9            got 8.96843      
+  ok   PHYSICS_DOMAINS 74       21-cm rest-frequency shift = 2*eps             booked 2.51         got 2.5086       %
+  ok   PHYSICS_DOMAINS 74       shift at 68 MHz                                booked 1.71         got 1.70585      MHz
+  ok   PHYSICS_DOMAINS 74       shift at 89 MHz                                booked 2.23         got 2.23265      MHz
+  ok   PHYSICS_DOMAINS 11       Y_Q over eta_B in decades                      booked 30.2         got 30.2218      dex
+  ok   PHYSICS_DOMAINS II       type tally totals the 52 entries               booked 52           got 52           
+  ok   PHYSICS_DOMAINS II       status tally totals the 52 entries             booked 52           got 52           
+  ok   THE_CHAIN 3              z(T_c) at the standing 177.10 keV              booked 7.54e+08     got 7.53912e+08  
+  ok   THE_CHAIN 5              census-lock cells at the frozen A_s            booked 782          got 782.383      
+  ok   THE_CHAIN 5              the older 781 was the Planck-anchored count    booked 781          got 780.897      
+  ok   THE_CHAIN 10             turn window in z: a = 2.0                      booked -0.5         got -0.5         
+  ok   THE_CHAIN 10             turn window in z: a = 2.8                      booked -0.643       got -0.642857    
+  ok   great_chain 6            the coded dyad amplitude is 1 + eps            booked 1.01254      got 1.01254      
+  ok   great_chain 8            the nuclear rung                               booked 0.0085       got 0.0085197    
+  ok   math_story 7             S = (1+f_rot^2)/2 at the median draw           booked 0.58         got 0.58         
+  ok   math_story 7             S equals the granule p2+q2 factor ~0.6         booked 0.6          got 0.58         
+  ok   math_story 3             ramp stamp at the D bottleneck (177.10 keV)    booked 0.6          got 0.604704     
+  ok   math_story 3             ramp stamp at lithium (177.10 keV)             booked 0.77         got 0.774102     
+  ok   me_mechanism 10          dm_nu = 2 dm_e at the standing eps             booked 2.51         got 2.5086       %
+  ok   me_mechanism 10          dm_nu on Sigma = 61.4 meV                      booked 1.54         got 1.54028      meV
+  ok   me_mechanism 10          f_L = Psi_rec/(2 eps)                          booked 2.3e+20      got 2.31205e+20  eV
+  ok   me_mechanism hf          kappa = eps/f^2 at f = 3e14 eV                 booked 1.4e-31      got 1.39367e-31  eV^-2
+  ok   me_mechanism hf          ramp half-amplitude at 0.86 T_c                booked 152          got 152.306      keV
+  ok   me_mechanism hf          ramp 90% at 0.64 T_c                           booked 113          got 113.344      keV
+  ok   me_mechanism 8           dark-ages trough offset at +2.51%              booked 0.4          got 0.401376     MHz
+  ok   me_mechanism 8           cosmic-dawn trough 78 MHz shifted              booked 79.96        got 79.9567      MHz
+  ok   bbn_witness              below-T_c zero point dN_eff                    booked 0.49         got 0.49134      
+  ok   bbn_witness              zero point over the CMB-S4 fence               booked 1.63         got 1.6378       x
+  ok   bbn_witness              shortfall range low                            booked 8.3          got 8.3278       x
+  ok   bbn_witness              shortfall range high                           booked 33           got 32.756       x
+  ok   bbn_witness              eps-rescale price on the window                booked 0.004        got 0.00373009   sigma
+  ok   bbn_witness              PRIMAT's own LCDM vs Cooke at the 2-term width booked 1.85         got 1.84874      sigma
+  ok   bbn_witness              Y_p window vs Aver                             booked 1.09         got 1.08676      sigma
+  ok   bbn_witness              Y_p window vs EMPRESS                          booked 3.53         got 3.52794      sigma
+  ok   bbn_witness              He-4 window opens (days)                       booked 42           got 42.4769      d
+  ok   entropy 4                ballistic share = eps m_e / 3                  booked 2.14         got 2.13667      keV
+  ok   entropy 4                pickup at ordinary infall (f = 0.023)          booked 50           got 49.1433      eV
+  ok   entropy 4                pickup at merger shocks (f = 0.07)             booked 150          got 149.567      eV
+  ok   blackholes 3             lam_min at 3e10 Msun, tight convention         booked 2.2e-92      got 2.21677e-92  
+  ok   blackholes 8             lam_min at 2e10 Msun, loose convention         booked 8e-94        got 7.82485e-94  
+  ok   blackholes 8             conservative clearance at 2e10                 booked 20           got 20.2998      x
+  ok   blackholes 8             loose-convention clearance at 2e10             booked 256          got 255.596      x
+  ok   blackholes 3             Kaup cap M_Pl^2/m x 0.633                      booked 3.7e+09      got 3.77437e+09  Msun
+  ok   bigbang 1.2              rho_bounce^1/4 at the derived lambda           booked 1060         got 1059.23      eV
+  ok   baryogenesis             T target at n = 30                             booked 2e-11        got 2.04667e-11  
+  ok   baryogenesis             T target at n = 10                             booked 6e-11        got 6.14e-11     
+  ok   GW addendum              orders under PTA (1e-10)                       booked 8            got 7.52288      dex
+  ok   GW addendum              orders under LISA-class (3e-14)                booked 4            got 4            dex
+  ok   GW addendum              the B-mode floor the recorded 1.5-dex margin implies booked 9.5e-17      got 9.48683e-17  
+  ok   light 4                  medium loop share at M_Z                       booked 44           got 43.5976      %
+  ok   light 6                  1/a1 at M_Pl is (3/5) of the 1/a_Y handout     booked 33.3         got 33.3         
+  ok   light 6                  lock iv: 1/a1 over 1/a2 at M_Pl                booked 0.673        got 0.674089     
+  ok   light 6                  lock vi: measured A vs sqrt(2)                 booked 0.001        got 0.000959005  %
+  ok   CMB_map                  model-natural chirality Pi                     booked 8.68e-08     got 8.68056e-08  
+  ok   CMB_map                  observable-Pi genesis gap (2.4e17/6e13)        booked 4000         got 4000         x
+  ok   lab cousins              medium sound speed c_s = sqrt(3*alpha)         booked 0.148        got 0.14796      
+  ok   lab cousins              the bench target <|cos|> = 2/pi                booked 0.6366       got 0.63662      
+  ok   lab cousins              rival RMS average sqrt(<cos^2>)                booked 0.7071       got 0.707107     
+  ok   lab cousins              ring circumference 2*pi*20 um                  booked 126          got 125.664      um
+  ok   lab cousins              fit-implied 0.6253 vs 2/pi                     booked 1.8          got 1.81029      %
+  ok   quantum trio             second sound c2 = c1/sqrt(3) = sqrt(alpha)     booked 0.0854       got 0.0854245    c
+  ok   quantum trio             identity sqrt(3a)/sqrt(3) == sqrt(a)           booked 1            got 1            
+  ok   quantum trio             indirect band top 0.0214 below 3a              booked 2.3          got 2.24765      %
+  ok   quantum trio             the anchor's alpha_c is inside the indirect band booked 1            got 1            
+  ok   quantum trio             where it sits in the band                      booked 90.7         got 90.6667      %
+  ok   quantum trio             3.alpha(0) sits above the band top by          booked 2.3          got 2.29934      %
+  ok   quantum trio             the anchor wants alpha_c below the recorded value by booked 2.63         got 2.63135      %
+  ok   quantum trio             min over mu of 3.alpha(mu) = 3.alpha(0)        booked 0.0218921    got 0.0218921    
+  ok   quantum trio             3.alpha(0) is above the band top -- arithmetic, NOT a constraint booked 1            got 1            
+  ok   quantum trio             d the band permits, low end                    booked 2.8092       got 2.80924      
+  ok   quantum trio             d the band permits, high end                   booked 2.9326       got 2.93257      
+  ok   quantum trio             d the anchor's landing corresponds to          booked 2.9211       got 2.92106      
+  ok   d three-way              rho^(1/4) at d = 3                             booked 2.2599       got 2.2599       meV
+  ok   d three-way              its landing against the observed 2.25 meV      booked 0.44         got 0.440019     %
+  ok   d three-way              d the observed floor requires                  booked 2.9934       got 2.99342      
+  ok   band position            the floor's d sits above the band top by       booked 2.08         got 2.07501      %
+  ok   d three-way              and it agrees with d = 3 to                    booked 0.22         got 0.219286     %
+  ok   band position            the floor at the band's top                    booked -4.02        got -4.02433     %
+  ok   band position            the floor at the band's bottom                 booked -11.93       got -11.9273     %
+  ok   d three-way              M_2 = alpha^2 T_c                              booked 9.4307       got 9.43075      eV
+  ok   d three-way              the two floor forms are identical at d = 3     booked 0            got -8.67362e-19 eV
+  ok   d three-way              alpha_c the observed floor demands, d never mentioned booked 0.021844     got 0.0218441    
+  ok   band position            alpha_c the floor demands exceeds the band top by booked 2.08         got 2.07501      %
+  ok   d three-way              theory and observation agree to                booked 0.22         got 0.219768     %
+  ok   band position            band top and anchor agree to                   booked 0.39         got 0.39407      %
+  ok   band position            theory and the anchor differ by                booked 2.7          got 2.70247      %
+  ok   band provenance          the assembly's conversion factor c.f_bar       booked 0.572958     got 0.572958     
+  ok   band provenance          R-1 of the source chain when the band was read booked 93.1         got 93.1006      
+  ok   band provenance          how far that is above the chain's own target   booked 1862         got 1862.01      x
+  ok   band provenance          the last row that chain ever wrote             booked 40.36        got 40.3622      
+  ok   band provenance          its successor's best before collapse           booked 11.87        got 11.8698      
+  ok   chain convergence        best R-1 ever recorded across all 18 chains    booked 0.9095       got 0.909502     
+  ok   chain convergence        the target it is measured against              booked 0.05         got 0.05         
+  ok   chain convergence        so the best chain is still this far off        booked 18.19        got 18.19        x
+  ok   chain convergence        chains meeting their own stopping rule         booked 0            got 0            
+  ok   band provenance          epsilon at alpha_c = 3 alpha                   booked 1.2543       got 1.25432      %
+  ok   band provenance          the band expressed back on epsilon, low        booked 1.1746       got 1.17456      %
+  ok   band provenance          the band expressed back on epsilon, top        booked 1.2261       got 1.22613      %
+  ok   band provenance          alpha_c from the dyad posterior epsilon = 1.24% booked 0.021642     got 0.0216421    
+  ok   band provenance          it lies above the band top                     booked 1            got 1            
+  ok   band provenance          the two epsilon-side numbers differ by         booked 1.13         got 1.13123      %
+  ok   band provenance          conflict with the floor, on the band           booked 2.08         got 2.07501      %
+  ok   band provenance          conflict with the floor, on the posterior      booked 0.93         got 0.933222     %
+  ok   fbar envelope            <|cos|> over exactly 1 turns is 2/pi           booked 0.63662      got 0.63662      
+  ok   fbar envelope            <|cos|> over exactly 10 turns is 2/pi          booked 0.63662      got 0.63662      
+  ok   fbar envelope            <|cos|> over exactly 50 turns is 2/pi          booked 0.63662      got 0.63662      
+  ok   fbar envelope            worst case at 2 turns                          booked 4.755        got 4.75464      %
+  ok   fbar envelope            worst case at 5 turns                          booked 2.018        got 2.01684      %
+  ok   fbar envelope            worst case at 10 turns                         booked 1.03         got 1.02991      %
+  ok   fbar envelope            worst case at 30 turns                         booked 0.348        got 0.348301     %
+  ok   fbar envelope            1/(pi N) proxy at 10 turns, for contrast       booked 3.183        got 3.1831       %
+  ok   winding turns            turns per Hubble time at T_sph                 booked 382000       got 381972       
+  ok   winding turns            T/T_sph where it falls to five turns           booked 1.309e-05    got 1.309e-05    
+  ok   winding turns            that temperature on a 130 GeV shutoff          booked 1.7          got 1.7017       MeV
+  ok   winding turns            turns per Hubble at recombination (0.26 eV)    booked 7.64e-07     got 7.63944e-07  
+  ok   winding turns            total accumulated turns below T_sph            booked 382000       got 381972       
+  ok   winding turns            fraction of it laid down by T = 0.01 T_sph     booked 99           got 99           %
+  ok   winding turns            f_bar deviation on the accumulated reading     booked 2.64e-05     got 2.64156e-05  %
+  ok   z3 selector              orders between the pairing shell and the tau mass booked 17.49        got 17.4855      dex
+  ok   z3 selector              the Koide residual an emergent Z3 must account for booked 0.168        got 0.167796     ppm
+  ok   z3 selector              (alpha/pi)^2, too large by                     booked 32.2         got 32.155       x
+  ok   z3 selector              m_e/Lambda_shell, too small by                 booked 1.8e+14      got 1.7844e+14   x
+  ok   z3 spurion               residuals sum to zero (a is their mean)        booked 0            got 2.44249e-15  
+  ok   z3 spurion               relative residual on the electron              booked 28.84        got 28.8415      ppm
+  ok   z3 spurion               relative residual on the tau                   booked -6.32        got -6.32314     ppm
+  ok   z3 spurion               but absolutely the tau carries most            booked 1            got 1            
+  ok   z3 spurion               the electron's seat ratio, smallest of the three booked 0.04035      got 0.0403499    
+  ok   neutrino cone            Q_nu at the recorded m1 = 2.25 meV             booked 0.458        got 0.458325     
+  ok   neutrino cone            Q_nu at m1 = 0, its maximum                    booked 0.58531      got 0.585315     
+  ok   neutrino cone            it is monotone: Q_nu falls as m1 rises         booked 1            got 1            
+  ok   neutrino cone            so the cone is unreachable ON THIS BRANCH, short by booked 12.2         got 12.2028      %
+  ok   neutrino cone            but the (-,+,+) branch DOES cross 2/3          booked 1            got 1            
+  ok   neutrino cone            and a neutrino cone's screening weight is zero booked 0            got 0            
+  ok   null class               sum Q over the charged leptons                 booked -3           got -3           
+  ok   null class               sum Q^2 over them                              booked 3            got 3            
+  ok   null class               so no charge sum over the seats vanishes       booked 0            got 0            
+  ok   null class               recorded dead mechanisms referencing charge    booked 0            got 0            
+  ok   null class               recorded dead mechanisms built on a vanishing  booked 0            got 0            
+  ok   coulomb ring             singlet stiffness at R = 1 is 2/sqrt3          booked 1.1547       got 1.1547       
+  ok   coulomb ring             doublet stiffness at R = 1 is 1/(4 sqrt3)      booked 0.144338     got 0.144339     
+  ok   coulomb ring             so the ratio is exactly 8                      booked 8            got 7.99992      
+  ok   coulomb ring             and it is scale-free (R = 100 gives the same)  booked 8            got 8.00004      
+  ok   coulomb ring             against the 2:1 the R_c = M_c condition needs, an overshoot of booked 4            got 3.99996      x
+  ok   harmonic ring            singlet eigenvalue of H = 3I + J               booked 6            got 6            
+  ok   harmonic ring            doublet eigenvalue                             booked 3            got 3            
+  ok   harmonic ring            ratio, exactly the 2:1 the condition names     booked 2            got 2            
+  ok   harmonic ring            and it is R-independent (quadratic form)       booked 2            got 2            
+  ok   log ring                 singlet stiffness of the 2D vortex kernel at R = 1 booked 1            got 1            
+  ok   log ring                 its doublet stiffness is zero                  booked 0            got 1.66533e-06  
+  ok   null lambda              lambda_1 at N = 3 is 3                         booked 3            got 3            
+  ok   null lambda              at N = 4 it is 2, not 4                        booked 2            got 2            
+  ok   null lambda              at N = 6 it is 1, not 6                        booked 1            got 1            
+  ok   null lambda              so lambda_1 = N holds at N = 3 alone           booked 1            got 1            
+  ok   occupancy lock           rho^2 = |f_1|^2/f_0^2 from N_0 = 1             booked 0.5          got 0.5          
+  ok   occupancy lock           the Q it delivers                              booked 0.666667     got 0.666667     
+  ok   occupancy lock           the A it delivers                              booked 1.41421      got 1.41421      
+  ok   occupancy lock           the tau it delivers                            booked 0.346574     got 0.346574     
+  ok   occupancy A4             Q at n = 1                                     booked 0.666667     got 0.666667     
+  ok   occupancy A4             Q at n = 2                                     booked 0.5          got 0.5          
+  ok   occupancy A4             Q at n = 3                                     booked 0.444444     got 0.444444     
+  ok   occupancy A4             A^2 = 2/n at n = 1                             booked 2            got 2            
+  ok   occupancy A4             the neutrino tower's implied occupancy         booked 2.6668       got 2.66684      
+  ok   occupancy A4             it is not an integer -- nearest is 3, missing by booked 0.333        got 0.333155     
+  ok   phase pacing             T_c in keV                                     booked 177.099      got 177.099      keV
+  ok   phase pacing             w_1 = (2/9) T_c                                booked 39.355       got 39.3553      keV
+  ok   phase pacing             T_c / mu_face = 9/2, an amplitude ratio not a bound miss booked 4.5          got 4.5          x
+  ok   phase pacing             the hop rate saturates the pacing bound by construction booked 1            got 1            x
+  ok   phase pacing             mu_face = (Q/3) T_c                            booked 39.3553      got 39.3553      keV
+  ok   phase pacing             and w_1 = theta_B T_c is the same number       booked 0            got 0            
+  ok   no singularities         crossover mass r_s = xi                        booked 2e+10        got 2.03114e+10  Msun
+  ok   no singularities         10 Msun: r_s/xi                                booked 5e-10        got 4.92335e-10  
+  ok   no singularities         TON 618 (6.6e10): r_s/xi                       booked 3.3          got 3.24941      
+  ok   no singularities         lambda support margin (2e-91 over 8e-94)       booked 250          got 250          x
+  ok   S8 pair                  [transcription only] 10*(27/5) == 54, given eps := 27a/(5pi) booked 1            got 1            
+  ok   S8 pair                  LCDM vs Legacy consensus                       booked 1.6          got 1.58333      sigma
+  ok   S8 pair                  model vs Legacy consensus                      booked 0.75         got 0.75         sigma
+  ok   S8 pair                  model twice as close as LCDM                   booked 2.1          got 2.11111      x
+  ok   S8 pair                  minimizer g = 0.12 against the production fit  booked 0.002        got 0.002        
+  ok   S8 pair                  the two model H0 fits differ by                booked 0.85         got 0.85         km/s/Mpc
+  ok   S8 pair                  joint-stack H0 easing over LCDM                booked 1.65         got 1.65         km/s/Mpc
+  ok   small-scale              braiding scale M_Pl/M2^2                       booked 0.87         got 0.877997     kpc
+  ok   small-scale              braiding vs dwarf soliton (two orders)         booked 125          got 125.428      x
+  ok   low-ell                  coefficients ell=2..6                          booked 45           got 45           
+  ok   low-ell                  independent pairs = C(45,2)                    booked 990          got 990          
+  ok   low-ell                  quadrupole cosmic variance sqrt(2/5)           booked 63           got 63.2456      %
+  ok   low-ell                  the RETIRED 83% retention, in sigma units (superseded by 90%) booked 0.27         got 0.268794     sigma
+  ok   kappa_v record           amplitude k*w/2 at w=1/3                       booked 0.15         got 0.15         %
+  ok   kappa_v record           radiative bill k/32pi^2                        booked 2.8e-05      got 2.84966e-05  
+  ok   kappa_v record           BBN drift 4/(3y) at y=2.8e7                    booked 5e-08        got 4.7619e-08   
+  ok   kappa_v record           g at recomb y=8.4e-7 (~y/4)                    booked 2.1e-07      got 2.1e-07      
+  ok   v4 record                peak c_s^2 coefficient 2/e                     booked 0.74         got 0.735759     
+  ok   v5 verdicts              nu at M_eff=2e-21 (alpha=2)                    booked 1.1e-10      got 1.09699e-10  
+  ok   v5 verdicts              nu at M_eff=8.8e-23                            booked 5.6e-08      got 5.66627e-08  
+  ok   v5 verdicts              m2bar at M_eff=2e-21 (GUT band)                booked 4.4e+13      got 4.418e+13    GeV
+  ok   T6 kernel                Q from PDG masses                              booked 0.66666      got 0.666661     
+  ok   T6 kernel                M^2 = mean(sqrt m)^2                           booked 313.84       got 313.841      MeV
+  ok   T6 kernel                c2*tau = (4/(3ln2))*(ln2/2) == 2/3             booked 1            got 1            
+  ok   T6 kernel                modulus: rho=1/sqrt2 -> Q=2/3                  booked 1            got 1            
+  ok   T6 kernel                B trace: sqrt(4pi/8pi)                         booked 1            got 1            
+  ok   T6 kernel                mu_face = (2/9)*Tc at 177.10                   booked 39.4         got 39.3556      keV
+  ok   FAILURES_LEDGER          retired: the P-051 lock slope registered as 2A/9, twice the closure's booked 0.3143       got 0.31427      
+  ok   T6 kernel                tangency seed ratio 7+4sqrt3                   booked 13.928       got 13.9282      
+  ok   sign walk                e face dev at k=0                              booked -0.96        got -0.959657    
+  ok   sign walk                mu face dev at k=1                             booked -0.42        got -0.419779    
+  ok   sign walk                tau face dev at k=2                            booked 1.379        got 1.37944      
+  ok   hierarchy 6b             m_gamma from a charge-2e anchor condensate     booked 9.54e+11     got 9.54495e+11  eV
+  ok   hierarchy 6b             orders above the m_gamma bound 1e-18 eV        booked 30           got 29.9798      
+  ok   hierarchy 6b             max condensate scale clearing the bound        booked 1.65e-18     got 1.65113e-18  eV
+  ok   hierarchy 6b             Coulomb screening length 2*alpha_c/pi          booked 0.01394      got 0.0139369    
+  ok   hierarchy 6b             M_anchor/m_H against 4*pi                      booked 12.5664      got 12.5828      
+  ok   hierarchy 6c             Thomas-Fermi screening a = 2*alpha_c/pi        booked 0.013937     got 0.0139369    
+  ok   hierarchy 6c             k if ONE band screened (wrong): ln(1+pi/a_c)/pi booked 1.58305      got 1.58305      
+  ok   hierarchy 6c             k derived: two-band screening, full FS         booked 1.36461      got 1.36461      
+  ok   hierarchy 6c             anchor sensitivity d(lnM)/d(lnk)               booked 33.47        got 33.4737      
+  ok   hierarchy 6c             b = 2*alpha_c/(pi*v) reduces to the booked b at v = 1 booked 0.013937     got 0.0139369    
+  ok   hierarchy 6c             k at v = 0.9 (the 10% velocity mismatch)       booked 1.33156      got 1.33156      
+  ok   hierarchy 6c             that mismatch's cost in ln M (d lnM/d lnk = 33.47) booked -0.818       got -0.820637    
+  ok   hierarchy 6d             Lam_shell/M_red implied by the exponential     booked 0.2228       got 0.222818     
+  ok   hierarchy 6d             symmetric-shell DOS correction at E_F=M_red    booked 1.00072      got 1.00072      
+  ok   hierarchy 6c             lambda = k*alpha_c, the pairing coupling       booked 0.029874     got 0.0298742    
+  ok   hierarchy 6g             exact-solution shell e^(-3/2-ln2) = Lam/M_red  booked 0.1116       got 0.111565     
+  ok   hierarchy 6d             exact-solution anchor 2*Lam*exp(-1/lam) (GeV)  booked 3152.3       got 3152.29      
+  ok   hierarchy 6j             Delta_S per degenerate heavy doublet           booked 0.05305      got 0.0530516    
+  ok   hierarchy 6j             max doublets from |S| < 0.14                   booked 2.639        got 2.63894      
+  ok   hierarchy 6j             S at three doublets = 1/(2 pi)                 booked 0.159155     got 0.159155     
+  ok   hierarchy 6j             which exceeds |S| < 0.14 by                    booked 13.7         got 13.6821      %
+  ok   hierarchy 6j             S at two doublets                              booked 0.1061       got 0.106103     
+  ok   hierarchy 6j             its margin under the bound                     booked 24.2         got 24.2119      %
+  ok   P-2026-038               SU(2) flip threshold = b2(SM)/(2/3) = 19/4     booked 4.75         got 4.75         
+  ok   P-2026-038               b2 at n = 5 doublets = -1/6                    booked -0.16667     got -0.166667    
+  ok   P-2026-038               b2 at n = 4 does not flip (= +1/2)             booked 0.5          got 0.5          
+  ok   P-2026-012               Sigma m_nu at the registry's quoted rounder splittings booked 61.21        got 61.1923      meV
+  ok   THE_AMPLITUDE            frozen A_s IS the closed form at k_joint       booked 2.08806e-09  got 2.08806e-09  
+  ok   THE_AMPLITUDE            the -0.35% is the pure k spread                booked -0.3546      got -0.354577    %
+  ok   THE_AMPLITUDE            closed form vs the measured 2.100e-9           booked -0.921       got -0.920595    %
+  ok   THE_AMPLITUDE            that miss in sigma at the 1.4% measurement     booked -0.66        got -0.657568    sigma
+  ok   THE_AMPLITUDE            C required by the measured amplitude           booked 1.00929      got 1.00929      
+  ok   THE_AMPLITUDE            C at R=1/4, wavelength convention = pi/4       booked 0.785398     got 0.785398     
+  ok   THE_AMPLITUDE            C at R=1/4, half-wave convention               booked 0.098175     got 0.0981748    
+  ok   THE_AMPLITUDE            C at R=1/4, inverse-k convention               booked 0.0031665    got 0.00316629   
+  ok   THE_AMPLITUDE            R needed for C = 1 (wavelength) = 1/sqrt(4 pi) booked 0.28209      got 0.282095     
+  ok   THE_AMPLITUDE            scaling ratio k_* xi the closed form implies (R=1) booked 0.0034502    got 0.0034502    
+  ok   hierarchy 6i             C needed by the alpha(M_Z) reading             booked 0.7788       got 0.778825     
+  ok   hierarchy 6i             so the selection needs C = 1 to +/- this       booked 0.22         got 0.2212       
+  ok   P-2026-056               Route-D thaw window low edge = 1 + w0(-0.92)   booked 0.08         got 0.08         
+  ok   P-2026-056               Route-D thaw window high edge = 1 + w0(-0.86)  booked 0.14         got 0.14         
+  ok   P-2026-057               Brannen phase theta_B from the measured masses booked 0.22223      got 0.22223      rad
+  ok   P-2026-057               the house phase it corresponds to              booked 132.733      got 132.733      deg
+  ok   P-2026-057               its distance from 2/9, the deviation lock's axis booked 7.409e-06    got 7.40927e-06  rad
+  ok   #102 lock                delta_A = A - sqrt2 from the masses            booked -1.30572e-05 got -1.30572e-05 
+  ok   #102 lock                sigma_A from sigma_mtau = 0.12 MeV             booked 1.4372e-05   got 1.43718e-05  
+  ok   #102 lock                so A sits this far from sqrt2                  booked -0.909       got -0.908526    sigma
+  ok   #102 lock                sigma_theta from sigma_mtau                    booked 8.3481e-06   got 8.34812e-06  rad
+  ok   #102 lock                so theta_B sits this far from 2/9              booked 0.888        got 0.887537     sigma
+  ok   #102 lock                residual off the closure line                  booked 9.461e-06    got 9.46101e-06  rad
+  ok   #102 lock                residual in sigma, correlation-aware           booked 0.892        got 0.892006     sigma
+  ok   #102 lock                m_tau predicted by Q = 2/3                     booked 1776.97      got 1776.97      MeV
+  ok   #102 lock                m_tau predicted by theta_B = 2/9               booked 1776.97      got 1776.97      MeV
+  ok   #102 lock                m_tau predicted by the closure                 booked 1776.97      got 1776.97      MeV
+  ok   #102 lock                the two watches' m_tau differ by               booked 2.518        got 2.51757      keV
+  ok   #102 lock                which is this fraction of m_tau -- the precision needed to separate them booked 1.417        got 1.41686      ppm
+  ok   #102 lock                all three sit this far above the measured 1776.86 booked 0.909        got 0.908559     sigma
+  ok   #101 draws               E[Q] for three exponential draws = 1/2         booked 0.5          got 0.5          
+  ok   #101 draws               Var[Q] = 1/60                                  booked 0.0166667    got 0.0166667    
+  ok   #101 draws               sd[Q] = 1/sqrt(60)                             booked 0.129099     got 0.129099     
+  ok   #101 draws               at Q = 2/3 each side removes 90 deg of the circle booked 45           got 45           deg
+  ok   #101 draws               density of Q at 2/3 = pi/(2 sqrt3)             booked 0.9069       got 0.9069       
+  ok   #101 draws               odds three draws land as close as the leptons do booked 1.116e-05    got 1.11643e-05  
+  ok   #101 draws               mid-quantiles of Exp(1) give Q =               booked 0.523481     got 0.523481     
+  ok   #101 draws               expected order statistics give Q = 25/54       booked 0.462963     got 0.462963     
+  ok   #101 null                (2/3)(sum s)^2 / sum s^2 = 1 at Q = 2/3 -- the null condition booked 1            got 1            
+  ok   #101 null                the form's timelike eigenvalue, along (1,1,1)  booked 1            got 1            
+  ok   #101 null                its two spacelike eigenvalues -- signature (+,-,-) booked -1           got -1           
+  ok   #101 null                so the null cone opens at 45 deg about (1,1,1) booked 45           got 45           deg
+  ok   #101 null                measured eta/sum(s^2) = (2/3)/Q - 1            booked 9.2329e-06   got 9.23287e-06  
+  ok   #101 null                the same miss in the moment form, V/mu^2 - 1   booked -1.84656e-05 got -1.84656e-05 
+  ok   #101 null                the two misses are a factor 2 apart, not 3 (= 3Q) booked 2            got 1.99998      
+  ok   me_mechanism fence       derived anchor sits above the fence's lower edge booked 2.53         got 2.52998      x
+  ok   me_mechanism fence       derived anchor sits below the fence's upper edge booked 2.82         got 2.82328      x
+  ok   me_mechanism fence       ramp stamp at the D bottleneck, derived anchor booked 0.6047       got 0.60474      
+  ok   me_mechanism fence       ramp stamp at Li (40 keV), derived anchor      booked 0.7741       got 0.774137     
+  ok   me_mechanism fence       whole-range D/H swing bound, 2-term width      booked 0.323        got 0.323449     sigma
+  ok   me_mechanism fence       whole-range D/H swing bound, 3-term width      booked 0.273        got 0.273466     sigma
+  ok   me_mechanism fence       the 179 -> 177.10 re-pin, as a fraction of the row width booked 449          got 448.433      1/x
+  ok   deuterium_row 1          2-term width = obs (+) nuclear = STANDING      booked 0.0476       got 0.047634     
+  ok   deuterium_row 1          standing row on the 2-term width               booked -2.94        got -2.93908     sigma
+  ok   deuterium_row 1          advertised window low edge is the 2-term number booked -2.52        got -2.51921     sigma
+  ok   deuterium_row 1          advertised window high edge is the 2-term number booked -1.34        got -1.34358     sigma
+  ok   deuterium_row 1          RETIRED 3-term width (double-counts LUNA)      booked 0.0563       got 0.0562939    
+  ok   deuterium_row 1          RETIRED standing row on the 3-term width       booked -2.49        got -2.48695     sigma
+  ok   deuterium_row 1          the 0.0476 degeneracy: nuclear (+) rate reads the same booked 0.0476       got 0.047634     
+  ok   cosmological_constant    g = 1/I(tau) at tau = (1/2)ln2                 booked 2.83         got 2.83037      
+  ok   cosmological_constant    gap kernel J(0) = 1/2, so g_c = 2              booked 2            got 2            
+  ok   cosmological_constant    y = M/Lambda from 1 = g J(y)                   booked 0.59493      got 0.594935     
+  ok   cosmological_constant    M = y*m_e against the BCS check 312 keV        booked 304          got 304.011      keV
+  ok   cosmological_constant    F(M/Lambda)                                    booked 0.43167      got 0.431666     
+  ok   cosmological_constant    lambda = 4pi^2/(N_c F), N_c = 2                booked 45.73        got 45.728       
+  ok   cosmological_constant    one-loop f_pi on QCD (validation)              booked 93.09        got 93.0881      MeV
+  ok   cosmological_constant    lambda_dark/lambda_QCD = (3/N_c)(F_QCD/F_dark) booked 1.7549       got 1.75494      
+  ok   cosmological_constant    lambda band low (m_sigma = 500 MeV anchor)     booked 25.7         got 25.6938      
+  ok   cosmological_constant    lambda band high (m_sigma = 2M anchor)         booked 46.4         got 46.4116      
+  ok   cosmological_constant    sqrt(na^3) = sqrt(a_c/256pi^3)*lambda at lambda* booked 0.0372       got 0.0372169    
+  ok   cosmological_constant    |Wu|/LHY = 1 at lambda* = 22.41                booked 1            got 1.00001      
+  ok   cosmological_constant    |Wu|/LHY at the band's LOW end (still > 1)     booked 1.1          got 1.09908      
+  ok   cosmological_constant    Delta rho^1/4 at the band centre = 0.0021*lambda booked 7.57         got 7.5705       %
+  ok   P-2026-029               l_1 = 2 pi n chi/L, coefficient                booked 3.1325       got 3.13249      
+  ok   P-2026-029               beta = d/chi at n = 10                         booked 0.20058      got 0.200581     
+  ok   P-2026-029               l_1 at n = 10                                  booked 31.32        got 31.3249      
+  ok   P-2026-029               l_1 at n = 30                                  booked 93.97        got 93.9746      
+  ok   P-2026-029               Limber envelope l_1/(2 pi l) at n=30, l=100    booked 0.14957      got 0.149565     
+  ok   P-2026-029               exact/Limber suppression at n=30, l=100        booked 0.405        got 0.405308     
+  ok   P-2026-029               flat-equivalent of a 1/l comb over l = 100-600 booked 0.3203       got 0.320324     
+  ok   P-2026-029               A_prim needed for A = 0.7% at n = 10           booked 1.814        got 1.81352      
+  ok   P-2026-029               A_prim needed for A = 0.7% at n = 20           booked 0.601        got 0.600518     
+  ok   P-2026-029               A_prim needed for A = 0.7% at n = 30           booked 0.36         got 0.360489     
+  ok   P-2026-029               n = 10 needs >100% modulation (impossible)     booked 1            got 1            
+  ok   P-2026-029               A_prim ceiling from Delta^2 <= 2e-6            booked 0.0014142    got 0.00141421   
+  ok   P-2026-029               f_wind ceiling                                 booked 2.746e-05    got 2.74613e-05  
+  ok   P-2026-029               f_wind under the fence floor 0.7% by this factor booked 255          got 254.904      
+  ok   cmb_anomalies            Kibble domain angular scale xi_K/chi_*         booked 1.07         got 1.06597      deg
+  ok   cmb_anomalies            Kibble cells tiling the sky = 4pi/theta^2      booked 36000        got 36305        
+  ok   cmb_anomalies            texture dT/T at Cruz2007's 8.7e15 GeV is 1e-5 class booked 1.28e-05     got 1.27622e-05  
+  ok   cmb_anomalies            texture dT/T at the model's top scale f = 500 TeV booked 4.2e-26      got 4.21528e-26  
+  ok   cmb_anomalies            texture scale a cold-spot-class 1e-5 would need booked 8e+15        got 7.70117e+15  GeV
+  ok   me_mechanism GATE        exact slope at nu = 2.2 (booked 2.81)          booked 2.81         got 2.80665      
+  ok   me_mechanism GATE        exact slope at nu = 3.0 (booked 4.92)          booked 4.92         got 4.92465      
+  ok   me_mechanism GATE        nu at which n_eff = 2.43                       booked 2.027        got 2.02723      
+  ok   me_mechanism GATE        hard-step edge sigma < 0.493*delta_c           booked 0.493        got 0.493283     
+  ok   me_mechanism GATE        the corrected sigma = 0.12 slope (was booked 50) booked 35.2         got 35.2088      
+  ok   me_mechanism GATE        n > 2.43 <=> N_cell > 46.9                     booked 46.9         got 46.9058      
+  ok   me_mechanism GATE        as a length ratio: xi/l_seed > 3.61            booked 3.61         got 3.60641      
+  ok   me_mechanism GATE        n is log in the cell count: ln N* - n(N*)      booked 1.418        got 1.41814      
+  ok   me_mechanism GATE        sigma = 0.012 would demand log10 N_cell =      booked 1510         got 1510.29      
+  ok   me_mechanism GATE        Planck-seeded ceiling log10 (xi/l_Pl)^3        booked 146          got 145.699      
+  ok   me_mechanism GATE        the shortfall, in orders of magnitude          booked 1360         got 1364.59      
+  ok   DERIVATION_HUNT          matched middle rung sqrt(c * alpha c) = sqrt(alpha) c booked 0.0854245    got 0.0854245    c
+  ok   DERIVATION_HUNT          the junction run backwards: alpha_c = d*(sqrt(alpha))^2 booked 0.0218921    got 0.0218921    
+  ok   galactic_atoms           f_lep at the Y_e = 1/2 floor                   booked 0.0002743    got 0.00027429   
+  ok   FAILURES_LEDGER          dPhi^(1/2) at the Y_e = 1/2 floor (the fence's conservative minimum) booked 553          got 552.887      km/s
+  ok   galactic_atoms           dPhi^(1/2) at stellar Y_e = 0.85               booked 721          got 720.877      km/s
+  ok   galactic_atoms           L where a = a0, stellar Y_e = 0.85             booked 140          got 140.343      kpc
+  ok   FAILURES_LEDGER          L where a = a0 at the Y_e = 1/2 floor (the mislabelled '83 kpc, stellar') booked 83           got 82.5546      kpc
+  ok   galactic_atoms           honest gas-vs-stars split: Y_e 0.875 over 0.85 booked 1.029        got 1.02941      
+  ok   FAILURES_LEDGER          the retired 'x1.98': pure H over the Y_e = 1/2 floor, not over stars booked 2            got 2            
+  ok   laboratory_cousins       nuclear pairing gap at A = 60                  booked 1.55         got 1.54919      MeV
+  ok   laboratory_cousins       nuclear pairing gap at A = 120                 booked 1.1          got 1.09545      MeV
+  ok   laboratory_cousins       nuclear pairing gap at A = 208                 booked 0.83         got 0.83205      MeV
+  ok   entropy 4                c_s = sqrt(3 alpha) c in km/s                  booked 44357        got 44357.2      km/s
+  ok   entropy 4                eps*m_e from the closed form (vs the booked 6.41) booked 6.41         got 6.40957      keV
+  ok   T4/ledger                f_arr delivered = v/(3 c_s), galaxy infall     booked 0.00215      got 0.00214922   
+  ok   T4/ledger                X-ray fence 0.2*(0.5 m_p v^2)/(eps m_e), galaxy booked 0.0133       got 0.0133226    
+  ok   T4/ledger                fence margin (allowed/delivered), galaxy       booked 6.2          got 6.19883      x
+  ok   T4/ledger                f_arr delivered = v/(3 c_s), group infall      booked 0.00322      got 0.00322383   
+  ok   T4/ledger                X-ray fence 0.2*(0.5 m_p v^2)/(eps m_e), group booked 0.03         got 0.0299759    
+  ok   T4/ledger                fence margin (allowed/delivered), group        booked 9.3          got 9.29824      x
+  ok   T4/ledger                f_arr delivered = v/(3 c_s), cluster infall    booked 0.0107       got 0.0106935    
+  ok   T4/ledger                X-ray fence 0.2*(0.5 m_p v^2)/(eps m_e), cluster booked 0.3298       got 0.329813     
+  ok   T4/ledger                fence margin (allowed/delivered), cluster      booked 31           got 30.8424      x
+  ok   T4/ledger                shortfall vs the 0.008 floor, group infall     booked 2.5          got 2.48152      x
+  ok   T4/ledger                shortfall vs the 0.008 floor, galaxy infall    booked 3.7          got 3.72228      x
+  ok   hubble_tension           model m_e/m_e0 = 1 + eps                       booked 1.01254      got 1.01254      
+  ok   hubble_tension           m_e preference over unity, Hart-Chluba CMB+BAO booked 1.16         got 1.16418      sigma
+  ok   hubble_tension           model 1.012543 against Hart-Chluba CMB+BAO     booked 0.71         got 0.707944     sigma
+  ok   hubble_tension           m_e preference over unity, Hart-Chluba CMB+BAO+SNe booked 3.45         got 3.45455      sigma
+  ok   hubble_tension           model 1.012543 against Hart-Chluba CMB+BAO+SNe booked -1.17        got -1.17396     sigma
+  ok   hubble_tension           m_e preference over unity, Toda-Seto ACT DR6+DESI booked 1.76         got 1.76087      sigma
+  ok   hubble_tension           model 1.012543 against Toda-Seto ACT DR6+DESI  booked 0.97         got 0.965919     sigma
+  ok   laboratory_cousins       RMS 0.7071 over the mean-absolute 2/pi         booked 11.1         got 11.0721      %
+  ok   laboratory_cousins       the winding sim's scatter as a fraction of f-bar booked 4.1          got 4.08407      %
+  ok   PREREGISTERED P-043      the registered rate shift, 3*eps               booked 3.763        got 3.76297      %
+  ok   PREREGISTERED P-043      T_CMB at the z = 17 trough                     booked 49.06        got 49.059       K
+  ok   PREREGISTERED P-043      gas cooling at z = 17, computed                booked -0.89        got -0.889991    %
+  ok   PREREGISTERED P-043      absorption amplification (x/(x-1)), x = T_CMB/T_g booked 1.162        got 1.1624       x
+  ok   PREREGISTERED P-043      trough depth, computed                         booked 1.03         got 1.04381      %
+  ok   PREREGISTERED P-043      3*eps divided by the response slope 2.758      booked 1.364        got 1.36438      %
+  ok   UV_completion 17         restoration T_c at L-1 = 1                     booked 199.2        got 199.212      keV
+  ok   UV_completion 17         restoration T_c at L-1 = 5 (the retired envelope's cap) booked 445.4        got 445.452      keV
+  ok   UV_completion 17         restoration T_c at L-1 = 10                    booked 630          got 629.964      keV
+  ok   UV_completion 17         the standing T_c inside the BBN fence [70, 500], lower margin booked 2.53         got 2.53         x
+  ok   UV_completion 17         the standing T_c inside the BBN fence, upper margin booked 2.82         got 2.82326      x
+  ok   FAILURES_LEDGER          exact |J_F'| at the operating point m_e/T_c = 2.9 booked 0.374        got 0.374025     
+  ok   FAILURES_LEDGER          the high-T expansion there, which overstates it booked 2.385        got 2.38515      
+  ok   MATH_SPINE 4             exact-kernel dyad T_c at L-1 = 1 (band bottom) booked 307.2        got 307.244      keV
+  ok   MATH_SPINE 4             exact-kernel dyad T_c at L-1 = 10 (band top)   booked 714.3        got 714.343      keV
+  ok   MATH_SPINE 4             the band's bottom EXCLUDES the ramp's keying value booked 1.734        got 1.73486      x
+  ok   MATH_SPINE 4             the band's top over the keying value           booked 4.033        got 4.03356      x
+  ok   MATH_SPINE 4             L-1 where the band crosses the BBN fence's 500 keV booked 500          got 499.908      keV
+  ok   MATH_SPINE 4             fraction of the band above the fence, by keV   booked 52.6         got 52.6513      %
+  ok   FAILURES_LEDGER          retired: 250 keV corresponds to L-1 = 0.50, not 1 booked 250          got 250.551      keV
+  ok   FAILURES_LEDGER          retired: 530 keV corresponds to L-1 = 4.78, not 10 booked 530          got 530.204      keV
+  ok   FAILURES_LEDGER          retired heuristic sqrt(f*Lambda_IR) at f = 100 TeV booked 480          got 479.583      keV
+  ok   FAILURES_LEDGER          retired heuristic sqrt(f*Lambda_IR) at f = 500 TeV booked 1.07         got 1.07238      MeV
+  ok   me_mechanism hf          lambda_dyad at f = 3e14 eV, L-1 = 5            booked 1.3e-38      got 1.33726e-38  
+  ok   lowell_anomalies         off-diagonal pairs over l = 2..6, C(45,2)      booked 990          got 990          
+  ok   lowell_anomalies         quadrupole cosmic variance sqrt(2/(2l+1))      booked 0.6325       got 0.632456     
+  ok   lowell_anomalies         quadrupole deficit at the floor, ISW-inclusive booked 0.1          got 0.1          
+  ok   lowell_anomalies         that deficit in units of cosmic variance       booked 0.158        got 0.158114     sigma
+  ok   lowell_anomalies         the floor L = 27.6 Gpc as a multiple of chi_* = 13.76 booked 2.006        got 2.00581      x
+  ok   lowell_anomalies         k_min chi_* at the floor = 2 pi chi_*/L        booked 3.1325       got 3.13249      
+  ok   FAILURES_LEDGER          sharp-cutoff C_2 retention at L = 2D (the retained toy's 0.49) booked 0.489        got 0.488732     
+  ok   DERIVATION_HUNT 9        (A=sqrt2, theta=2/9) predicts m_mu/m_e         booked 206.77       got 206.77       
+  ok   DERIVATION_HUNT 9        (A=sqrt2, theta=2/9) predicts m_tau/m_e        booked 3477.47      got 3477.47      
+  ok   DERIVATION_HUNT 9        its m_mu/m_e miss vs measured 206.76828        booked 9.83e-06     got 9.84664e-06  
+  ok   DERIVATION_HUNT 9        its m_tau/m_e miss vs measured 3477.2283       booked 7.03e-05     got 7.03253e-05  
+  ok   DERIVATION_HUNT 9        sigma on the measured m_mu/m_e                 booked 4.5e-06      got 4.5014e-06   
+  ok   DERIVATION_HUNT 9        so the joint claim's m_mu/m_e miss, in sigma   booked 452          got 451.634      sigma
+  ok   koide triangle           grant the closure: Q - 2/3 from the light masses booked -1.119e-07   got -1.11864e-07 
+  ok   koide triangle           that miss in ppm of Q                          booked 0.168        got 0.167796     ppm
+  ok   koide triangle           grant Q = 2/3: phi - 2/9 from the light masses booked -1.751e-07   got -1.75124e-07 rad
+  ok   koide triangle           that miss in ppm of phi                        booked 0.788        got 0.78806      ppm
+  ok   koide triangle           the triangle's width in A                      booked 2.373e-07    got 2.373e-07    
+  ok   koide triangle           the tau displaces the fitted point by this many triangle widths booked 55           got 55.024       x
+  ok   koide scheme             Q on the pole masses                           booked 0.66666      got 0.666661     
+  ok   koide scheme             Q on MS-bar masses at M_Z (one-loop QED)       booked 0.667836     got 0.667836     
+  ok   koide scheme             the pole-mass residual on Q                    booked 9.23         got 9.23278      ppm
+  ok   koide scheme             the scheme shift on Q                          booked 1763         got 1763.14      ppm
+  ok   koide scheme             so the choice of mass variable outweighs the measured deviation by booked 191          got 190.965      x
+  ok   koide scheme             dQ/dm_tau                                      booked 5.646e-05    got 5.64574e-05  /MeV
+  ok   koide scheme             the two watches' separation, in Q              booked 1.421e-07    got 1.4216e-07   
+  ok   koide scheme             the scheme shift is this many times that separation booked 8270         got 8268.34      x
+  ok   #146 screening           alpha_c implied by the booked b = 2 alpha_c/pi booked 0.021892     got 0.021892     
+  ok   #146 screening           k at (N, v) = (2, 1) -- the booked value       booked 1.36461      got 1.36461      
+  ok   #146 screening           (N, v) = (4, 2) returns the same k (the degeneracy) booked 0            got 0            
+  ok   #146 screening           (N, v) = (1, 0.5) returns it too               booked 0            got 0            
+  ok   #146 screening           k at N = 1 (one band screening)                booked 1.58305      got 1.58305      
+  ok   #146 screening           k at N = 24 (the roster as Dirac equivalents)  booked 0.61846      got 0.618461     
+  ok   #146 screening           k at v = 0.9, N = 2                            booked 1.3316       got 1.33156      
+  ok   #146 screening           dlnM/dlnk = 1/(k alpha_c)                      booked 33.47        got 33.4738      
+  ok   #146 screening           N = 1 moves the anchor by (booked 1.6e5 GeV vs ~1.57 TeV) booked 101          got 101.387      x
+  ok   #146 screening           N = 3 moves the anchor by                      booked 0.0323       got 0.0323387    x
+  ok   #146 screening           N = 24 moves the anchor by                     booked 2.9e-18      got 2.8911e-18   x
+  ok   #146 screening           v = 0.9 moves the anchor by (booked 'about a factor two') booked 2.28         got 2.2953       x
+  ok   #146 screening           fence on N/v, low end for factor-2 anchor accuracy booked 1.8245       got 1.82447      
+  ok   #146 screening           fence on N/v, high end                         booked 2.1845       got 2.1845       
+  ok   #146 screening           so v at N = 2 must sit within this fraction of 1 booked 0.084        got 0.0844591    
+  ok   #146 selection           one charged-lepton cone is worth               booked 2            got 2            N_0
+  ok   #146 selection           one up-type quark cone                         booked 2.66667      got 2.66667      N_0
+  ok   #146 selection           one down-type quark cone                       booked 0.666667     got 0.666667     N_0
+  ok   #146 selection           one neutrino cone (invisible to the screening) booked 0            got 0            
+  ok   #146 selection           charged-sector configurations giving N_screen = 2N_0 booked 2            got 2            
+  ok   #146 selection           one of them is a single charged lepton         booked 1            got 1            
+  ok   #146 selection           the other is all three down-type quarks        booked 1            got 1            
+  ok   #146 selection           no solution dopes an up-type quark             booked 0            got 0            
+  ok   #146 selection           the whole roster doped, charge-weighted (= SumQ^2) booked 16           got 16           
+  ok   #146 selection           one generation's share                         booked 5.33333      got 5.33333      
+  ok   #146 selection           k at the charge-weighted roster reading        booked 0.73195      got 0.731947     
+  ok   #146 selection           its anchor, against the counted reading's 2.9e-18 booked 2.7e-13      got 2.71899e-13  x
+  ok   #146 phase               Lambda_shell from Delta = 2 L exp(-1/lambda)   booked 5.434e+17    got 5.43413e+17  GeV
+  ok   #146 phase               orders between the shell and the electroweak scale booked 15.3         got 15.3442      dex
+  ok   #146 phase               sum Y^2 over the 48-Weyl roster                booked 10           got 10           
+  ok   #146 phase               roster Weyl count                              booked 48           got 48           
+  ok   #146 phase               b_Y = (2/3)sumY^2 + (1/3)sum_scalar Y^2 (SM value 41/6) booked 6.83333      got 6.83333      
+  ok   #146 phase               k at the hypercharge-weighted roster           booked 0.86935      got 0.869349     
+  ok   #146 phase               its anchor                                     booked 5.23e-09     got 5.22506e-09  x
+  ok   #146 phase               vector-like pairs in the unbroken roster       booked 0            got 0            
+  ok   hierarchy 6f             1/alpha_2 at M_Pl (light file hands out 49.4)  booked 49.46        got 49.4601      
+  ok   hierarchy 6f             1/alpha_Y at M_Pl (hands out 55.5)             booked 55.48        got 55.4774      
+  ok   hierarchy 6f             1/alpha_EM at M_Pl = their sum (hands out 104.9) booked 104.94       got 104.938      
+  ok   hierarchy 6f             k at alpha(0)                                  booked 1.36461      got 1.36461      
+  ok   hierarchy 6f             anchor at alpha(0)                             booked 3153         got 3152.81      GeV
+  ok   hierarchy 6f             k at alpha(M_Z)                                booked 1.34309      got 1.34309      
+  ok   hierarchy 6f             anchor at alpha(M_Z)                           booked 17580        got 17577.1      GeV
+  ok   hierarchy 6f             k at alpha(M_Pl)                               booked 1.281        got 1.281        
+  ok   hierarchy 6f             anchor at alpha(M_Pl)                          booked 1.504e+06    got 1.50378e+06  GeV
+  ok   hierarchy 6f             the recorded anchor overshoots 4 pi m_H by     booked 2.003        got 2.00314      x
+  ok   hierarchy 6f             the Planck-floor reading overshoots it by      booked 955.5        got 955.428      x
+  ok   hierarchy 6f             dlnk/dlnb = -1/(pi k (1+b))                    booked -0.230054    got -0.230054    
+  ok   hierarchy 6f             dlnM/dlnalpha_c (recorded 25.8)                booked 25.773       got 25.773       
+  ok   hierarchy 6f             the same by central difference                 booked 25.773       got 25.773       
+  ok   hierarchy 6f             1/alpha an exact landing on 4 pi m_H needs (recorded 140.7) booked 140.74       got 140.738      
+  ok   hierarchy 6f             alpha_c it corresponds to (recorded 0.021316)  booked 0.021316     got 0.0213162    
+  ok   hierarchy 6f             how far that sits beyond the infrared cap 1/alpha(0) = 137.036 booked 2.7          got 2.70148      %
+  ok   baryogenesis junction    the needed R, from its own factor 122          booked 5e-05        got 5.002e-05    
+  ok   baryogenesis junction    Gamma_phi implied by omega_J and j             booked 5.415e+09    got 5.415e+09    eV
+  ok   baryogenesis junction    theta_dot implied by the overdamping ratio     booked 541.5        got 541.5        eV
+  ok   baryogenesis junction    R the recorded trio delivers                   booked 5.54e-06     got 5.54017e-06  
+  ok   baryogenesis junction    so R falls short of the needed value by        booked 9.03         got 9.02861      x
+  ok   baryogenesis junction    the omega_J that would close it                booked 1897         got 1896.99      eV
+  ok   baryogenesis junction    i.e. omega_J low by                            booked 3.004        got 3.00476      x
+  ok   baryogenesis junction    the overdamping ratio that would close it      booked 9.025e+07    got 9.02861e+07  
+  ok   baryogenesis junction    the j that would close it                      booked 18.02        got 18.0286      meV
+  ok   hierarchy 6e             b(r=1) reproduces the booked 2 alpha_c/pi      booked 0.0139369    got 0.0139369    
+  ok   hierarchy 6e             pairing DOS factor 2r/(1+r) is exactly 1 at r = 1 booked 1            got 1            
+  ok   hierarchy 6e             dlnM/dr, screening term alone                  booked -3.8504      got -3.85039     
+  ok   hierarchy 6e             dlnM/dr with the pairing DOS included          booked 12.8865      got 12.8865      
+  ok   THE_AMPLITUDE            fixed-cell shot census: dln(Delta^2)/dlnk = n_s - 1 booked 3            got 3            
+  ok   light 5                  bare EM handout 1/a_EM(M_Pl) = 1/a_Y + 1/a_2   booked 104.9        got 104.9        
+  ok   DERIVATION_HUNT 1        medium loop share of 1/a_EM(0) -- piece 2's real number booked 23.45        got 23.4508      %
+  ok   DERIVATION_HUNT 1        the recorded 44% over that correct share       booked 1.859        got 1.85911      x
+  ok   THE_AMPLITUDE            scaling census (k xi fixed) gives n_s = 1 exactly booked 1            got 1            
+  ok   FAILURES_LEDGER          #184: freeze branch n_s = 4 minus measured n_s = 0.9649 booked 3.0351       got 3.0351       
+  ok   hierarchy 6e             #183: Fock coefficient a = (1+2b)/2 - 1/ln(1+1/b) booked 0.280677     got 0.280677     
+  ok   hierarchy 6e             #183: same a from I(1), I'(1) -- independent route booked 0.280677     got 0.280677     
+  ok   hierarchy 6e             #183: the velocity renormalization delta_v itself booked 0.008385     got 0.00838498   
+  ok   hierarchy 6e             #183: a x 12b -> 1 in the contact limit (b = 5e4) booked 1            got 0.999992     
+  ok   hierarchy 6e             #183: complete O(lambda) exponent shift c + a  booked 1.06994      got 1.06994      
+  ok   hierarchy 6e             #183: anchor multiplier exp(-(c+a))            booked 0.34303      got 0.34303      
+  ok   hierarchy 6e             #183: corrected band, bottom edge (1.6 TeV x mult) booked 0.549        got 0.548847     TeV
+  ok   hierarchy 6e             #183: corrected band, top edge (5.2 TeV x mult) booked 1.784        got 1.78375      TeV
+  ok   PREREGISTERED            #183: tightest gap, shooter 13 TeV over the band's top booked 7.3          got 7.288        x
+  ok   MATH_SPINE 0             #125: electron Yukawa y_e = sqrt2 m_e/v        booked 2.935e-06    got 2.93503e-06  
+  ok   MATH_SPINE 0             #125: induced lambda_p at Lam_UV = 4 pi f      booked 1.0805e-13   got 1.08052e-13  
+  ok   MATH_SPINE 0             #125: induced lambda_p at Lam_UV = f           booked 6.8425e-16   got 6.84249e-16  
+  ok   MATH_SPINE 0             #125: universal shift worth 1 sigma on D/H     booked 0.0008362    got 0.000836215  
+  ok   MATH_SPINE 0             #125: lambda_p bound at f = 100 TeV (loosest)  booked 1.312e-09    got 1.31182e-09  
+  ok   MATH_SPINE 0             #125: lambda_p bound at f = 500 TeV (tightest) booked 5.247e-11    got 5.24727e-11  
+  ok   MATH_SPINE 0             #125: induced/bound at the tightest corner     booked 0.00206      got 0.00205921   x
+  ok   MATH_SPINE 0             #125: worst-corner induced universal shift, in sigma on D/H booked 0.00206      got 0.00205921   sigma
+  ok   PREREGISTERED P-006      #125: full eps over the delivered quark shift  booked 185400       got 185340       x
+  ok   PREREGISTERED P-006      #125: D/H cost of the delivered quark shift    booked 8.09e-05     got 8.09324e-05  sigma
+  ok   DERIVATION_HUNT 1        #126: sum N_c Q^2 over the charged nine        booked 8            got 8            
+  ok   DERIVATION_HUNT 1        #126: charge^2 census with the seat, c = 8/9   booked 0.888889     got 0.888889     
+  ok   DERIVATION_HUNT 1        #126: eps at the charge^2 census = 16 alpha/3pi booked 1.23884      got 1.23884      %
+  ok   MATH_SPINE 0             #126: ensemble distance to 9/10                booked -0.08        got -0.08        sigma
+  ok   MATH_SPINE 0             #126: ensemble distance to 12/13               booked 0.535        got 0.535385     sigma
+  ok   MATH_SPINE 0             #126: ensemble distance to the charge^2 8/9    booked -0.376       got -0.376296    sigma
+  ok   DERIVATION_HUNT 1        #126: 8/9 and 9/10 separated by, at the ensemble width booked 0.296        got 0.296296     sigma
+  ok   DERIVATION_HUNT 1        #126: sharpening to the candidate SPACING 0.0115 (not a separation) booked 3.26         got 3.26087      x
+  ok   hierarchy 6              #130: Weyl fermions in the visible roster      booked 48           got 48           
+  ok   hierarchy 6              roster without nu_R (SM proper)                booked 45           got 45           
+  ok   koide seed               lightest branch at the seed (exactly massless) booked 0            got 0            
+  ok   koide seed               middle branch at the seed                      booked 0.633975     got 0.633975     
+  ok   koide seed               heaviest branch at the seed                    booked 2.36603      got 2.36603      
+  ok   koide seed               sum sqrt(m) = 3 identically                    booked 3            got 3            
+  ok   koide seed               seed holonomy 3*phi = pi/4                     booked 0.785398     got 0.785398     
+  ok   koide seed               measured holonomy 3*phi = Q = 2/3              booked 0.666667     got 0.666667     
+  ok   koide seed               holonomy dressing pi/4 - 2/3 = 3(3pi-8)/36     booked 0.118731     got 0.118731     
+  ok   koide joint              phi* where closure meets criticality           booked 0.229811     got 0.229811     
+  ok   koide joint              Q* predicted by the joint system               booked 0.689433     got 0.689433     
+  ok   koide joint              that miss in sigma on the measured Q           booked 3349         got 3348.93      sigma
+  ok   koide bound              Q ceiling from positivity + closure            booked 0.689433     got 0.689433     
+  ok   koide bound              measured Q as a fraction of that ceiling       booked 0.967        got 0.966978     
+  ok   koide bound              measured Q is inside the ceiling               booked 1            got 1            
+  ok   koide branch             branch spacing over positivity window          booked 4            got 4            
+  ok   koide branch             how many branches fit the window               booked 1            got 1            
+  ok   koide invariant          |(f1/f0)^3| = 2^(-3/2)                         booked 0.353553     got 0.353553     
+  ok   koide invariant          arg[(f1/f0)^3] = Q                             booked 0.666667     got 0.666667     
+  ok   koide invariant          cube is Z3-invariant under f1 -> omega f1      booked 0            got 2.02064e-16  
+  ok   koide bound              A at Q = 1/2 (positivity threshold)            booked 1            got 1            
+  ok   koide reduction          A = sqrt(6Q-2) returns sqrt2                   booked 1.41421      got 1.41421      
+  ok   koide reduction          modulus A/2 returns 1/sqrt2                    booked 0.707107     got 0.707107     
+  ok   koide reduction          tau = -ln(A/2) returns (1/2)ln2                booked 0.346574     got 0.346574     
+  ok   koide reduction          phi = Q/3 returns 2/9                          booked 0.222222     got 0.222222     
+  ok   koide reduction          T_c = tau*m_e from Q alone (keV)               booked 177.099      got 177.099      
+  ok   light 4                  1/alpha_Y run from M_Z to M_Pl                 booked 55.5         got 55.5121      
+  ok   light 4                  decades from M_Pl to the abelian Landau pole   booked 22.2         got 22.1676      
+  ok   hierarchy 6              Dirac equivalents of the 48-Weyl roster        booked 24           got 24           
+  ok   hierarchy 6              k at the corrected N_screen = 24               booked 0.6185       got 0.618461     
+  ok   hierarchy 6              k at the superseded N_screen = 25.5            booked 0.602        got 0.602001     
+  ok   hierarchy 6              #130: roster sum Q^2 (three generations)       booked 16           got 16           
+  ok   hierarchy 6              #130: split if the doped pair is EM-neutral    booked 0            got 0            
+  ok   hierarchy 6              #130: split if the doped pair is charged leptons (the cap) booked 0.125        got 0.125        
+  ok   P-048                    sigma on the observation-inverted null         booked 0.001549     got 0.0015493    
+  ok   P-048                    kernel-vs-null separation                      booked 0.001518     got 0.00151829   
+  ok   P-048                    separation in units of the NULL's own sigma    booked 0.98         got 0.979986     sigma
+  ok   P-048                    best case at the 0.22% lattice threshold       booked 0.873        got 0.870752     sigma
+  ok   DERIVATION_HUNT 1        #126: what 0.0115 actually buys against 8/9    booked 0.966        got 0.966184     sigma
+  ok   DERIVATION_HUNT 1        #126: sigma_c for a 3-sigma call on the binding pair booked 0.0037037    got 0.0037037    
+  ok   DERIVATION_HUNT 1        #126: that is a sharpening of                  booked 10.1         got 10.125       x
+  ok   bigbang 1.2              rho_bounce in g/cm^3 at the derived lambda     booked 2.9e-07      got 2.92058e-07  g/cc
+  ok   bigbang 1.2              rho_bounce in GeV^4                            booked 1.26e-24     got 1.25882e-24  GeV^4
+  ok   bigbang 1.2              GeV^4->g/cc calibrated on rho_crit^1/4 = 2.46 meV booked 0.00246      got 0.00246241   meV
+  ok   bigbang 1.2              orders BELOW nuclear (2.3e14 g/cc): sub-nuclear by booked 21           got 20.8963      dex
+  ok   bigbang 1.2              orders BELOW Planck (5.16e93 g/cc): finite/sub-Planckian by booked 100          got 100.247      dex
+  ok   bigbang 1.2              keV floor below the MeV hot start (T=1 MeV) by booked 12.45        got 12.4486      dex
+  ok   bigbang 1.2              TF parameter Lambda >> 1 (self-interaction ceiling applies) booked 4728         got 4728         
+  ok   granule_sim_2field       median-draw p = (1+f_rot)/2 at f_rot=0.4       booked 0.7          got 0.7          
+  ok   granule_sim_2field       granule suppression p^2+q^2 at f_rot=0.4       booked 0.58         got 0.58         
+  ok   granule_sim_2field       identity p^2+q^2 = (1+f_rot^2)/2               booked 0.58         got 0.58         
+  ok   granule_sim_2field       law endpoints: f_rot=0 (equal split) -> 1/2    booked 0.5          got 0.5          
+  ok   granule_sim_2field       law endpoints: f_rot=1 (single field) -> 1     booked 1            got 1            
+  ok   granule_sim_2field       Schive core r_c(10^9 Msun) = 1.6 kpc (m/1e-22)^-1 booked 7.14         got 7.14286      pc
+  ok   granule_sim_2field       Compton wavelength h/(mc) [cf. xi ~ 402 AU]    booked 370          got 369.992      AU
+  ok   genesis_solver_B1        Psi0/M_red from the misalignment abundance closure booked 0.0207       got 0.0206769    
+  ok   genesis_solver_B1        Psi0 at m = 2.24e-20 eV (= 5.03e16 GeV)        booked 5.03e+25     got 5.03483e+25  eV
+  ok   genesis_solver_B1        z_osc at oscillation onset H = m               booked 4.03e+07     got 4.02713e+07  
+  ok   genesis_solver_B1        Psi0 scaling m^-1/4: Psi0(1e-22)/Psi0(5e-20) = 500^1/4 booked 4.72871      got 4.72871      
+  ok   genesis_solver_B1        Psi0(abundance) = quartic-mass crossover m/sqrt(lam) booked 1            got 1.0052       
+  ok   r1_caustic_sim           Theta_loc plateau = Beta(d/2,d/2) mean = 1/2 (d=2) booked 0.5          got 0.5          
+  ok   r1_caustic_sim           Theta_loc plateau = Beta(d/2,d/2) mean = 1/2 (d=3) booked 0.5          got 0.5          
+  ok   r1_caustic_sim           Theta_loc pointwise var 2D = Beta(1,1) = 1/12  booked 0.0833333    got 0.0833333    
+  ok   r1_caustic_sim           Theta_loc pointwise var 3D = Beta(3/2,3/2) = 1/16 booked 0.0625       got 0.0625       
+  ok   r1_caustic_sim           var = 1/(4(d+1)) matches the Beta form (d=3)   booked 0.0625       got 0.0625       
+  ok   r1_caustic_sim           Berry-Dennis 2D vortex-point density coeff = 1/(4 pi) booked 0.0796       got 0.0795775    
+  ok   census_scaling_network   k_*xi = (2 pi^2 A_s)^(1/3) = 3.45e-3           booked 0.003461     got 0.00346085   
+  ok   census_scaling_network   frozen cell xi=const -> n_s = 4                booked 4            got 4            
+  ok   census_scaling_network   scaling xi~1/k -> n_s = 1                      booked 1            got 1            
+  ok   census_scaling_network   VOS fixed point v*^2 = k(1-b)/(b(c+k))         booked 0.7527       got 0.752688     
+  ok   census_scaling_network   VOS transient exponent a-1<0 (attractor)       booked 1            got 1            
+  ok   census_scaling_network   overdamped drift v for gamma=3.45e-3 is <<1    booked 1            got 1            
+  ok   koide_triple_point_node  circulant->Koide: Q = 1/3 + (2/3)(|b|/a)^2 at null booked 0.666667     got 0.666667     
+  ok   koide_triple_point_node  node b=0 (degenerate) gives Q = 1/3            booked 0.333333     got 0.333333     
+  ok   koide_triple_point_node  null |b|/a = A/2 = 1/sqrt2 (A=sqrt2)           booked 0.707107     got 0.707107     
+  ok   koide_triple_point_node  A=sqrt2 is ~96% of positivity wall A_max       booked 0.96         got 0.95965      
+  ok   friedmann_from_medium    continuity exp -3(1+w): radiation w=1/3 -> a^-4 booked -4           got -4           
+  ok   friedmann_from_medium    continuity exp: matter w=0 -> a^-3             booked -3           got -3           
+  ok   friedmann_from_medium    continuity exp: DE w=-1 -> a^0                 booked 0            got -0           
+  ok   friedmann_from_medium    flat universe: kinetic + binding = 0 at Friedmann H booked 0            got 0            
+  ok   localizable_zero_burst   flat: R_s = R_H (Hubble vol at its Schwarzschild radius) booked 1            got 1            
+  ok   frame bridge             M_c = sqrt3 * M                                booked 0.640859     got 0.640859     
+  ok   frame bridge             R_c = sqrt(3/2) * R                            booked 1.11452      got 1.11452      
+  ok   frame bridge             A = 2 rho identically                          booked 2.45946      got 2.45946      
+  ok   frame bridge             R_c/M_c = A/sqrt2                              booked 1.7391       got 1.7391       
+  ok   frame bridge             k_R/k_M = (1/2)(eps_1/eps_0)                   booked 0.5          got 0.5          
+  ok   delivery law             thermal equipartition -> eps_D = 2 eps_S       booked 2            got 2            
+  ok   delivery law             equal sector delivery -> eps_D = eps_S         booked 1            got 1            
+  ok   delivery law             doublet gets half -> eps_D = eps_S/2           booked 0.5          got 0.5          
+  ok   delivery law             sudden quench 1/w^2 -> eps_D = sqrt2 eps_S     booked 1.41421      got 1.41421      
+  ok   delivery law             closed form: thermal is (s,p) = (1, 0)         booked 2            got 2            
+  ok   delivery law             closed form: sudden quench is (s,p) = (1, -1), NOT zero-point booked 1.41421      got 1.41421      
+  ok   delivery law             closed form: equal-sector is s = 0, any p      booked 1            got 1            
+  ok   delivery law             closed form: doublet-gets-half is (s,p) = (-1, 0) booked 0.5          got 0.5          
+  ok   delivery law             the zero-point law (s,p) = (1, 1/2) lands on 4, outside the recorded four booked 4            got 4            
+  ok   delivery law             Q = 2/3 requires eps_1/eps_0 = 2               booked 0.666667     got 0.666667     
+  ok   delivery law             the next-nearest law (sqrt2) misses 2/3 by     booked 207107       got 207107       ppm
+  ok   delivery law             radial Hessian ratio k_D/k_S is 1/2, i.e. law 3 (which gives Q = 5/3) booked 1.66667      got 1.66667      
+  ok   delivery law             circulant ratio (a-b)/(a+2b) at the Koide point booked 0.12132      got 0.12132      
+  ok   delivery law             the recorded lock (n_S,n_D) = (1,0) reads (w_S,w_D) = (2,1) booked 1            got 1            
+  ok   delivery law             so the recorded lock gives Q = 1, not 2/3      booked 1            got 1            
+  ok   delivery law             T6's miss once the two frequencies are kept distinct booked 0.840896     got 0.840896     
+  ok   delivery law             which is a 15.9% shortfall against the 1 the null needs booked 15.9         got 15.9104      %
+  ok   delivery law             best occupancy pair within n <= 300 still misses by booked 8.753        got 8.75331      ppm
+  ok   delivery law             first odd/odd convergent inside 6 ppm is 1393/985 booked 0.25767      got 0.257672     ppm
+  ok   delivery law             which needs this many quanta in the singlet    booked 696          got 696          
+  ok   delivery law             and this many in each doublet mode             booked 492          got 492          
+  ok   radio row                DM_fit = N_e/(1+eps) at eps = 1e-3, N_e = 100  booked 99.9001      got 99.9001      pc/cm^3
+  ok   radio row                the inferred column's fractional deficit is eps/(1+eps) booked 0.000999001  got 0.000999001  
+  ok   radio row                sigma_delta_eps, DM=300 at 327 MHz (best case) booked 1.71823e-06  got 1.71823e-06  
+  ok   radio row                sigma_delta_eps, DM=30 at 1400 MHz (worst case) booked 0.00031495   got 0.00031495   
+  ok   radio row                the span across configurations                 booked 183.3        got 183.299      x
+  ok   radio row                best case still short of the row's 1e-7 headline by booked 17.18        got 17.1823      x
+  ok   radio row                sigma_DM = 1e-5 pc/cm^3 against DM = 100 is a fractional booked 1e-07        got 1e-07        
+  ok   response                 resummed F at a=1, u=0.5                       booked 0.333333     got 0.333333     
+  ok   response                 c_w = -a, by numerical 2nd derivative at a = 0.84 booked -0.84        got -0.84        
+  ok   response                 and at a = 1.36                                booked -1.36        got -1.36        
+  ok   response                 the series fixes c_3 = c_w^2 at c_w = -0.84    booked 0.7056       got 0.7056       
+  ok   response                 and c_4 = -|c_w|^3                             booked -0.592704    got -0.592704    
+  ok   response                 C9 quadratic moment ratio <cos^2>/<|cos|> = pi/4 booked 0.785398     got 0.785398     
+  ok   response                 C9 cubic moment ratio <|cos|^3>/<|cos|> = 2/3  booked 0.666667     got 0.666667     
+  ok   response                 C9 cubic term, unit coefficient                booked 0.0104888    got 0.0104888    %
+  ok   response                 C9 quadratic term CORRECTED (recorded 0.83 used the cubic's ratio) booked 0.98514      got 0.985143     %
+  ok   response                 and eps*(2/3) reproduces the mis-booked 0.83   booked 0.83619      got 0.836215     %
+  ok   theta                    Beta(d/2,d/2) sd in 3D                         booked 0.25         got 0.25         
+  ok   theta                    and it is dimension-specific: d = 2            booked 0.288675     got 0.288675     
+  ok   theta                    N-cell suppression at N = 1e9                  booked 7.90569e-06  got 7.90569e-06  
+  ok   theta                    induced scatter in delta m_e/m_e, pointwise    booked 0.00313581   got 0.00313581   
+  ok   theta                    which is this fraction of the mean shift eps/2 booked 0.5          got 0.5          
+  ok   theta                    and the withdrawn '25%' overstated it by       booked 79.7         got 79.7243      x
+  ok   theta                    cells needed to reach 1e-7                     booked 9.8331e+08   got 9.83328e+08  
+  ok   theta                    recorded 1e9 over that requirement             booked 1.017        got 1.01695      x
+  ok   phase count              I = n2 phi1 - n1 phi2 at (3,0.7),(5,0.2)       booked 2.9          got 2.9          
+  ok   phase count              and it is unchanged after a rephasing by alpha = 0.37 booked 2.9          got 2.9          
+  ok   phase count              one term: alpha = -phi/n leaves phase          booked 0            got 0            
+  ok   phase count              one term: max |V(t) - V(c-t)| at c = -2phi/n   booked 0            got 3.55271e-15  
+  ok   phase count              two terms, I/pi = 0.923: best reflection residual is far from 0 booked 0.0899       got 0.0898982    
+  ok   phase count              tuned phi_2 making I = pi exactly              booked 3.14159      got 3.14159      
+  ok   phase count              its solved reflection centre (k1,k2) = (2,3)   booked 3.72212      got 3.72212      
+  ok   trapped ring             Coulomb at equilibrium: eps_D/eps_S = 5/12     booked 0.416667     got 0.416667     
+  ok   trapped ring             log at equilibrium: eps_D/eps_S = 1/2          booked 0.5          got 0.5          
+  ok   trapped ring             power law p=-3: (p-4)/(4(p-2))                 booked 0.35         got 0.35         
+  ok   trapped ring             power law p=-3: t = 1/(p-1) curve              booked 0.35         got 0.35         
+  ok   trapped ring             power law p=-2: (p-4)/(4(p-2))                 booked 0.375        got 0.375        
+  ok   trapped ring             power law p=-2: t = 1/(p-1) curve              booked 0.375        got 0.375        
+  ok   trapped ring             power law p=-1: (p-4)/(4(p-2))                 booked 0.416667     got 0.416667     
+  ok   trapped ring             power law p=-1: t = 1/(p-1) curve              booked 0.416667     got 0.416667     
+  ok   trapped ring             power law p=+1: (p-4)/(4(p-2))                 booked 0.75         got 0.75         
+  ok   trapped ring             power law p=+1: t = 1/(p-1) curve              booked 0.75         got 0.75         
+  ok   trapped ring             eps_D/eps_S = 2 solves to t* = 7/5             booked 1.4          got 1.4          
+  ok   trapped ring             and t* = 7/5 does return 2                     booked 2            got 2            
+  ok   trapped ring             convex branch ceiling (t -> -inf) = 3/4        booked 0.75         got 0.75         
+  ok   trapped ring             convex branch is capped BELOW the thermal null booked 1            got 1            
+  ok   trapped ring             every power law has t < 1/3 (p=-1 case)        booked 1            got 1            
+  ok   delivery law             charged mode's Bose occupancy at x = 2/9       booked 4.0185       got 4.0185       
+  ok   delivery law             Q under the exact thermal law at x = 2/9       booked 0.66735      got 0.66735      
+  ok   delivery law             its miss from 2/3                              booked 1025.4       got 1025.43      ppm
+  ok   delivery law             which overruns the 6 ppm budget by             booked 171          got 170.905      x
+  ok   delivery law             classical limit is exact (x -> 0)              booked 0.666667     got 0.666667     
+  ok   delivery law             and the break is one-signed (Q > 2/3 at every finite x) booked 1            got 1            
+  ok   delivery law             x_1 ceiling for a 6 ppm budget                 booked 0.016971     got 0.0169707    
+  ok   delivery law             flatness: e ~ eps^p is flat only at p = 0      booked 1            got 1            
+  ok   delivery law             zero-point (p=1/2) misses flatness by this factor booked 1.41421      got 1.41421      
+  ok   delivery law             thermal expansion's leading coefficient is 1/12 booked 0.0833333    got 0.0833333    
+  ok   delivery law             and there is NO linear term (slope at the origin) booked 0            got 8.32667e-08  
+  ok   delivery law             driven flat law needs this many quanta for 6 ppm booked 34517.3      got 34517.3      
+  ok   delivery law             against thermal's n_bar at the x_1 ceiling     booked 58.4         got 58.4255      
+  ok   delivery law             so equilibrium is cheaper by a factor          booked 591          got 590.792      x
+  ok   delivery law             the required deposition peak sits at 2^(1/4) w_0 booked 1.18921      got 1.18921      
+  ok   delivery law             KZ no-ramp limit am=0 recovers 'doublet gets half' booked 0.5          got 0.5          
+  ok   delivery law             and its Q is 5/3, not 2/3                      booked 1.66667      got 1.66667      
+  ok   delivery law             KZ hits the null only at am = -2               booked 2            got 2            
+  ok   delivery law             overdamped a=1 needs m=-2, underdamped a=1/2 needs m=-4 booked 1            got 1            
+  ok   delivery law             every stiffening quench (m>0) gives a ratio below 1 booked 1            got 1            
+  ok   delivery law             eps_D/eps_S needed at x = 2/9 (not 2)          booked 2.00411      got 2.00411      
+  ok   delivery law             so a = 2.9877 b, not a = 3b                    booked 2.9877       got 2.98772      
+  ok   occupancy lock           R_c/M_c with distinct w = 2^(-1/4), not 1      booked 0.840896     got 0.840896     
+  ok   occupancy lock           its miss from the null                         booked 15.9         got 15.9104      %
+  ok   occupancy lock           n_bar = 1 exactly at x = ln2                   booked 1            got 1            
+  ok   occupancy lock           and ln2 = 2 tau                                booked 0.693147     got 0.693147     
+  ok   occupancy lock           unit-occupancy w vs recorded w_1: 9ln2/2       booked 3.11916      got 3.11916      x
+  ok   occupancy lock           and that ratio is NOT pi                       booked 0.714        got 0.71398      %
+  ok   cold law                 equal quanta: R_c/M_c at eps_1/eps_0 = 4       booked 1            got 1            
+  ok   cold law                 and a/b = 3/(4-1) = 1 (a = b)                  booked 1            got 1            
+  ok   cold law                 equal-occupancy result is n-independent        booked 1            got 1            
+  ok   cold law                 equal energy: R_c/M_c at eps_1/eps_0 = 2       booked 1            got 1            
+  ok   cold law                 and a/b = 3/(2-1) = 3 (a = 3b)                 booked 3            got 3            
+  ok   cold law                 the two laws' stiffness targets differ by 2    booked 2            got 2            
+  ok   cold law                 hbar and M cancel from R_c/M_c                 booked 1            got 1            
+  ok   cold law                 N_0 = 1 under the RMS convention gives n = 1/2 booked 0.5          got 0.5          
+  ok   cold law                 N_0 = 1 under the peak convention gives n = 0  booked 0            got 0            
+  ok   democratic graph         N=2: eps_singlet = 1                           booked 1            got 1            
+  ok   democratic graph         N=2: eps_other = N+1                           booked 3            got 3            
+  ok   democratic graph         N=3: eps_singlet = 1                           booked 1            got 1            
+  ok   democratic graph         N=3: eps_other = N+1                           booked 4            got 4            
+  ok   democratic graph         N=4: eps_singlet = 1                           booked 1            got 1            
+  ok   democratic graph         N=4: eps_other = N+1                           booked 5            got 5            
+  ok   democratic graph         N=5: eps_singlet = 1                           booked 1            got 1            
+  ok   democratic graph         N=5: eps_other = N+1                           booked 6            got 6            
+  ok   democratic graph         N=7: eps_singlet = 1                           booked 1            got 1            
+  ok   democratic graph         N=7: eps_other = N+1                           booked 8            got 8            
+  ok   democratic graph         R^2/f_0^2 = 1 at N = 3                         booked 1            got 1            
+  ok   democratic graph         and at no other N (2,4,5,6,7,8 all miss)       booked 1            got 1            
+  ok   democratic graph         (N-1)^2 - (N+1) vanishes at N = 3              booked 0            got 0            
+  ok   democratic graph         and does not vanish at N = 2,4,5,6,7,8         booked 1            got 1            
+  ok   democratic graph         Q(3) = 2/3 exactly                             booked 0.666667     got 0.666667     
+  ok   democratic graph         Q(N) = 2/N only at N = 3                       booked 1            got 1            
+  ok   democratic graph         A = sqrt2 from it                              booked 1.41421      got 1.41421      
+  ok   democratic graph         tau = ln2/2 from it                            booked 0.346574     got 0.346574     
+  ok   democratic graph         T_c = tau m_e                                  booked 177.099      got 177.099      keV
+  ok   democratic graph         w_other/w_0 = 2 (the cold law's condition)     booked 2            got 2            
+  ok   democratic graph         neutral faces: eps_singlet = 0 exactly         booked 0            got 0            
+  ok   democratic graph         neutral faces: eps_other still 3               booked 3            got 3            
+  ok   adiabatic P4             stage 1: eps is q-independent at b = 0         booked 0            got 0            
+  ok   adiabatic P4             stage 2: eps_charged/eps_neutral -> 4 at b = a booked 4            got 4            
+  ok   adiabatic P4             so w_charged/w_neutral -> 2                    booked 2            got 2            
+  ok   adiabatic P4             common action gives R^2/f_0^2 = 1              booked 1            got 1            
+  ok   adiabatic P4             and hence Q = 2/3                              booked 0.666667     got 0.666667     
+  ok   adiabatic P4             at b = 0 all three frequencies coincide        booked 1            got 1            
+  ok   pour order               at degeneracy all transfer weights agree       booked 0            got 0            
+  ok   pour order               and they disagree once split (sudden vs flat)  booked 1            got 1            
+  ok   pour order               order A: R^2/f_0^2 = 1                         booked 1            got 1            
+  ok   pour order               order A: Q = 2/3 exactly                       booked 0.666667     got 0.666667     
+  ok   pour order               order B: R^2/f_0^2 = 1/8                       booked 0.125        got 0.125        
+  ok   pour order               order B: Q = 0.375                             booked 0.375        got 0.375        
+  ok   pour order               the two orders differ by 44%                   booked 43.75        got 43.75        %
+  ok   pour order               order B would need eps_1/eps_0 = sqrt2         booked 1            got 1            
+  ok   portal roster            S = 3/(6pi) = 1/(2pi)                          booked 0.159155     got 0.159155     
+  ok   portal roster            one doublet per generation is excluded         booked 0.159155     got 0.159155     
+  ok   portal roster            two doublets allowed, 24% margin               booked 0.106103     got 0.106103     
+  ok   portal roster            the ceiling sits between 2 and 3               booked 1            got 1            
+  ok   portal roster            n_D = 0 uses none of the margin                booked 0            got 0            
+  ok   portal roster            M_anchor = 4 pi m_H                            booked 1573.9       got 1573.94      GeV
+  ok   portal roster            singlet loop at n_S lam = 1 returns m_H        booked 125.25       got 125.25       GeV
+  ok   fbar window              accumulated reading pins f_bar to 2/pi         booked 8.33e-05     got 8.33272e-05  %
+  ok   fbar window              sd(|cos theta|)                                booked 0.307758     got 0.307758     
+  ok   fbar window              which is 48% of the mean                       booked 48.343       got 48.3426      %
+  ok   fbar window              fit-implied f_bar's offset from 2/pi           booked 1.78         got 1.77811      %
+  ok   fbar window              P(a frozen phase lands that close)             booked 1.87         got 1.86914      %
+  ok   fbar window              odds for the accumulated reading               booked 54           got 53.5007      :1
+  ok   fbar window              mean of |cos| is 2/pi (frozen reading is unbiased) booked 0.63662      got 0.63662      
+  ok   phase flat               graph in circulant form: eps_0 = 1             booked 1            got 1            
+  ok   phase flat               eps_1 = eps_2 = 4                              booked 4            got 4            
+  ok   phase flat               the doublet is exactly degenerate              booked 0            got -1.33227e-15 
+  ok   phase flat               graph energy is phi-independent                booked 0            got 4.44089e-16  
+  ok   phase flat               Q is phi-independent, and equals 2/3           booked 0.666667     got 0.666667     
+  ok   phase flat               but the masses are NOT phi-independent         booked 1            got 1            
+  ok   phase flat               arg b = 0 leaves the doublet degenerate        booked 0            got 1.33227e-15  
+  ok   phase flat               arg b = pi also leaves it degenerate           booked 0            got 1.77636e-15  
+  ok   phase flat               arg b = 2/9 splits it                          booked 0.76351      got 0.76348      
+  ok   phase flat               complex bond STILL leaves phi flat             booked 0            got 7.10543e-15  
+  ok   phase flat               because eps_1 + eps_2 = 2a - 2 Re b carries no phi booked 7.52968      got 7.52968      
+  ok   phase flat               sum f^3 = 3M^3 + (9/2)MR^2 + (3/4)R^3 cos 3phi booked 0            got 5.32907e-15  
+  ok   phase flat               a pure cubic is stationary at 3phi = 0, not at Q booked 0.666667     got 0.666667     rad
+  ok   phase flat               cos Q, the value a tuned F' would have to hit  booked 0.785887     got 0.785887     
+  ok   mu5 source               vector part = theta_dot/2                      booked 0.5          got 0.5          
+  ok   mu5 source               axial part = theta_dot/2                       booked 0.5          got 0.5          
+  ok   mu5 source               a right-handed rotation is not purely axial    booked 1            got 1            
+  ok   mu5 source               H(T_sph)                                       booked 2.4384e-14   got 2.43839e-14  GeV
+  ok   mu5 source               theta_dot via the ratio route                  booked 58.52        got 58.5214      eV
+  ok   mu5 source               ledger's direct theta_dot                      booked 59.7         got 59.7         eV
+  ok   mu5 source               its m_1/theta_dot                              booked 3.8e-05      got 3.76884e-05  
+  ok   mu5 source               the two routes disagree by 2%                  booked 2            got 1.97414      %
+  ok   mu5 source               the ledger's value implies g* = 111.1          booked 111.1        got 111.093      
+  ok   mu5 source               against the SM g* = 106.75                     booked 106.75       got 106.75       
+  ok   mu5 source               mu_5 from the sourced route                    booked 29.26        got 29.2607      eV
+  ok   mu5 source               w_J / mu_5 at T_sph                            booked 195          got 194.8        x
+  ok   toroidal gate            drift with the sponge                          booked 3.8341       got 3.8341       %
+  ok   toroidal gate            drift without it                               booked 0.0003       got 0.0003       %
+  ok   toroidal gate            ratio                                          booked 12780        got 12780.3      x
+  ok   toroidal gate            sponge-off passes the 2% gate                  booked 1            got 1            
+  ok   toroidal gate            sponge-on fails it                             booked 1            got 1            
+  ok   toroidal gate            per-step drift, sponge on                      booked 0.01917      got 0.0191705    %
+  ok   toroidal gate            extrapolated to 4000 steps (unbounded, as observed) booked 76.68        got 76.682       %
+  ok   democratic predicts      w_1 = (2/9) T_c                                booked 39.3553      got 39.3553      keV
+  ok   democratic predicts      w_0 = w_1/2                                    booked 19.6777      got 19.6776      keV
+  ok   democratic predicts      and that is (1/9) T_c                          booked 19.6776      got 19.6776      keV
+  ok   democratic predicts      f_0^2 ratio to the charged pair's, at equal n  booked 1            got 1            
+  ok   democratic predicts      exactly one positive integer root              booked 1            got 1            
+  ok   democratic predicts      and it is N = 3                                booked 3            got 3            
+  ok   P2 reduction             K4 has 6 edges                                 booked 6            got 6            
+  ok   P2 reduction             Aut(K4) acts with ONE edge orbit               booked 6            got 6            
+  ok   P2 reduction             so K4 is edge-transitive                       booked 1            got 1            
+  ok   P2 reduction             pinned: face-face orbit has 3 edges            booked 3            got 3            
+  ok   P2 reduction             so pinning first leaves TWO orbits, equality not forced booked 1            got 1            
+  ok   KV identification        A = sqrt2 gives w = 1/3                        booked 0.333333     got 0.333333     
+  ok   KV identification        and Q = 1 - w = 2/3                            booked 0.666667     got 0.666667     
+  ok   KV identification        the compression A^2 = (1-w)/w                  booked 2            got 2            
+  ok   KV identification        sector-energy ratio at the null                booked 4            got 4            
+  ok   KV identification        which would give w = 0.6, not 1/3              booked 0.6          got 0.6          
+  ok   KV identification        raw amplitudes R^2 = 2M^2 give w = 1/3         booked 0.333333     got 0.333333     
+  ok   KV identification        at degeneracy the two stiffnesses are equal    booked 0            got 0            
+  ok   fbar residual            shift per unit c2                              booked 0.985125     got 0.985125     %
+  ok   fbar residual            fit-implied deficit -> c2                      booked -1.8         got -1.80495     
+  ok   fbar residual            winding ensemble -> c2                         booked -0.84        got -0.837084    
+  ok   fbar residual            both are order unity                           booked 1            got 1            
+  ok   fbar residual            the two readings' separation                   booked 1.9          got 1.85061      sigma
+  ok   fbar residual            at eps -> 0 the deficit vanishes               booked 0.63662      got 0.63662      
+  ok   unsupplied share         hypercharge: induced = 1/aY(M_Z) - 1/aY(M_Pl)  booked 42.9         got 42.9         
+  ok   unsupplied share         hypercharge induced fraction                   booked 43.6         got 43.5976      %
+  ok   unsupplied share         hypercharge UNSUPPLIED fraction                booked 56.4         got 56.4024      %
+  ok   unsupplied share         1/a_EM(M_Pl) = 1/a2 + 1/aY                     booked 104.9        got 104.9        
+  ok   unsupplied share         EM induced share                               booked 23.45        got 23.4508      %
+  ok   unsupplied share         EM UNSUPPLIED share                            booked 76.5         got 76.5492      %
+  ok   unsupplied share         both channels leave the BARE M_Pl value owed   booked 1            got 1            
+  ok   decoherence              c_s = sqrt(3 alpha)                            booked 0.14796      got 0.14796      
+  ok   decoherence              xi reproduces recorded 402 AU                  booked 402          got 397.988      AU
+  ok   decoherence              Landau v_c / c_s (no roton minimum)            booked 1            got 1            
+  ok   decoherence              v_Earth/v_c (CMB frame)                        booked 0.00834      got 0.00833687   
+  ok   decoherence              (1 micron / xi)^2 suppression                  booked 2.821e-40    got 2.82104e-40  
+  ok   decoherence              lambda_T(T=mu/k_B) = xi                        booked 5.95381e+13  got 5.95381e+13  m
+  ok   decoherence              1 MeV electron is supercritical                booked 1            got 1            
+  ok   pin arithmetic           Psi_today from onset (GeV)                     booked 196610       got 196612       GeV
+  ok   pin arithmetic           Psi_today from Omega_DM (GeV)                  booked 196780       got 196784       GeV
+  ok   pin arithmetic           the pin inverts consistently [CIRCULAR]        booked 1            got 0.999127     
+  ok   pin arithmetic           Psi_local (halo, GeV)                          booked 1.1068e+08   got 1.10682e+08  GeV
+  ok   kinematics               omega_max per emitted quantum (eV)             booked 4.4305e-20   got 4.43069e-20  eV
+  ok   entropy front            f at 1000 km/s infall                          booked 0.023        got 0.0225443    
+  ok   entropy front            pickup at 1000 km/s (eV)                       booked 50           got 48.1696      eV
+  ok   entropy front            saturation ceiling (eV/particle)               booked 2136.7       got 2136.67      eV
+  ok   entropy front            fastest cluster merger, v/c_s                  booked 0.1127       got 0.112721     
+  ok   entropy front            AGN outflows straddle the threshold            booked 1            got 1            
+  ok   hierarchy 58             b = 2 alpha_c/pi                               booked 0.0139369    got 0.0139369    
+  ok   hierarchy 58             k recomputed, not adopted                      booked 1.36461      got 1.36461      
+  ok   hierarchy 58             lambda = k alpha_c                             booked 0.0298742    got 0.0298742    
+  ok   hierarchy 58             anchor sensitivity 1/(k alpha_c)               booked 33.47        got 33.4737      
+  ok   hierarchy 58             one-band counterfactual k                      booked 1.58305      got 1.58305      
+  ok   hierarchy 58             k_F cancels (spread over 8 decades)            booked 0            got 6.93889e-18  
+  ok   6f double-count          k at alpha(0)                                  booked 1.36461      got 1.36461      
+  ok   6f double-count          k at alpha(M_Z)                                booked 1.34309      got 1.34309      
+  ok   6f double-count          k at Planck floor                              booked 1.281        got 1.281        
+  ok   6f double-count          1/alpha(M_Pl) = 1/a2 + 1/aY                    booked 104.94       got 104.94       
+  ok   6f double-count          6c screening ln(1+1/b)                         booked 4.2871       got 4.28705      
+  ok   6f double-count          screening / QED-run-to-MZ                      booked 62.5         got 62.4969      
+  ok   boost-dressed gap        M from ln(M_red/M_eff)=1/(k a_c)               booked 1576.1       got 1576.35      GeV
+  ok   boost-dressed gap        e^(3/2) suppression factor                     booked 4.48169      got 4.48169      
+  ok   boost-dressed gap        naive (no 3/2) would overshoot by e^(3/2)      booked 4.48169      got 4.48169      
+  ok   node vs backdrop         K4 (a=b) triple is degenerate                  booked 0            got 0            
+  ok   node vs backdrop         K4 nonzero eigenvalue = 4a                     booked 4            got 4            
+  ok   node vs backdrop         10% mismatch splits triple                     booked 0.068182     got 0.0681818    
+  ok   node vs backdrop         50% mismatch splits triple                     booked 0.25         got 0.25         
+  ok   node vs backdrop         3a+b = 4b iff a = b                            booked 1            got 1            
+  ok   deuterium row            (A) width                                      booked 0.0476       got 0.047634     
+  ok   deuterium row            (A) model tension                              booked -2.94        got -2.93908     sigma
+  ok   deuterium row            (A) LCDM control                               booked -2.25        got -2.24629     sigma
+  ok   deuterium row            (B) model tension                              booked -2.06        got -2.05689     sigma
+  ok   deuterium row            excess deficit vs control                      booked 0.033        got 0.033        
+  ok   deuterium row            model is further from Cooke than LCDM, every width booked 1            got 1            
+  ok   anchor band              recorded form M (GeV)                          booked 1576.1       got 1576.35      GeV
+  ok   anchor band              agreement with 4 pi m_H (%)                    booked 0.16         got 0.153485     %
+  ok   anchor band              6f residual at M_Z                             booked 5.58         got 5.57506      
+  ok   anchor band              honest band span (6d x2 times 6f)              booked 11.2         got 11.1501      
+  ok   anchor band              d lnM/d lnk                                    booked 33.47        got 33.4737      
+  ok   scale ladder             (1/2)(v/c)^2 == GM/2rc^2 at 1 AU               booked 4.93658e-09  got 4.93658e-09  
+  ok   scale ladder             (1/2)(v/c)^2 == GM/2rc^2 at 40 AU              booked 1.23415e-10  got 1.23415e-10  
+  ok   scale ladder             atom rung = Rydberg/m_e c^2                    booked 2.66257e-05  got 2.66257e-05  
+  ok   scale ladder             universe rung = (1/2)alpha_c^2                 booked 0.00023963   got 0.000239631  
+  ok   circularity              T_c = tau m_e (keV)                            booked 177.099      got 177.099      keV
+  ok   circularity              rho_Lambda^(1/4) (meV)                         booked 2.2599       got 2.2599       meV
+  ok   circularity              flagship offset (%)                            booked 0.44         got 0.440019     %
+  ok   circularity              offset in obs-error units (sigma)              booked 1.77         got 1.76008      sigma
+  ok   circularity              epsilon = c fbar alpha_c (%)                   booked 1.2543       got 1.25432      %
+  ok   circularity              epsilon == 27 alpha/5 pi                       booked 0            got 0            
+  ok   Pauli finiteness         Weyl components per generation                 booked 16           got 16           
+  ok   Pauli finiteness         SM alone, no nu_R (per gen)                    booked 15           got 15           
+  ok   Pauli finiteness         gauge contribution                             booked -48          got -48          
+  ok   Pauli finiteness         str[k1] at N_gen = 3                           booked 0            got 0            
+  ok   Pauli finiteness         SM alone misses by -3                          booked -3           got -3           
+  ok   Pauli finiteness         root is an integer (48/16)                     booked 3            got 3            
+  ok   Pauli finiteness         one extra sterile: +1                          booked 1            got 1            
+  ok   Pauli finiteness         fourth generation: +16                         booked 16           got 16           
+  ok   Pauli finiteness         a 2nd nu_R in every generation: +3             booked 3            got 3            
+  ok   Koide protection         Q measured                                     booked 0.66666      got 0.666661     
+  ok   Koide protection         Q invariant at lambda=1.0124                   booked 0.666661     got 0.666661     
+  ok   Koide protection         Q invariant at lambda=1.5                      booked 0.666661     got 0.666661     
+  ok   Koide protection         Q invariant at lambda=100.0                    booked 0.666661     got 0.666661     
+  ok   Koide protection         electron-only shift moves Q (ppm)              booked -162.9       got -162.885     ppm
+  ok   Koide protection         fence: Q uncertainty                           booked 6.8e-06      got 6.8e-06      
+  ok   Route-D era              t_turn = ln(1/sqrt(A_s))/sqrt(3/2)  [H^-1]     booked 8.16         got 8.15968      
+  ok   Route-D era              |ln A_s| divides amplitude error               booked 19.99        got 19.9871      
+  ok   Route-D era              width is floor-independent (A_s only)          booked 1            got 1            
+  ok   sphaleron                SM control = 28/79                             booked 0.35443      got 0.35443      
+  ok   sphaleron                SM + 3 nu_R in equilibrium = 1/4               booked 0.25         got 0.25         
+  ok   sphaleron                nu_R reduces the conversion by 29.5%           booked 0.2946       got 0.294643     
+  ok   chain scatter            segment-mean spread                            booked 0.1887       got 0.1887       
+  ok   chain scatter            expected spread if settled                     booked 0.0032       got 0.00319628   
+  ok   chain scatter            wander factor (observed/expected)              booked 59           got 59.0375      
+  ok   chain scatter            cumulative mean at stop                        booked 7.5494       got 7.5494       
+  ok   chain scatter            late-segment mean, where it actually is        booked 7.6118       got 7.6118       
+  ok   tau collision            kernel tau                                     booked 0.34657      got 0.346574     
+  ok   tau collision            headline offset (%)                            booked 0.44         got 0.44         %
+  ok   tau collision            dof-family low: rho offset (%)                 booked 2.9          got 2.88205      %
+  ok   tau collision            dof-family centre: rho offset (%)              booked 4.3          got 4.33109      %
+  ok   tau collision            dof-family high: rho offset (%)                booked 10.7         got 10.7069      %
+  ok   tau collision            dof-family centre / headline offset            booked 9.8          got 9.84338      
+  ok   three epochs             z(T_c = 179 keV)                               booked 7.62e+08     got 7.62351e+08  
+  ok   three epochs             photon T at z_on = 4.03e7 (keV)                booked 9.46         got 9.46244      keV
+  ok   three epochs             photon T at z_x = 1e5 (eV)                     booked 23.5         got 23.4802      eV
+  ok   three epochs             z(T_c)/z_on separation                         booked 18.9         got 18.9169      
+  ok   condensate fraction      f_n = 1 exactly at z_x                         booked 1            got 1            
+  ok   condensate fraction      f_n at recombination (n=4)                     booked 1.47e-08     got 1.46937e-08  
+  ok   condensate fraction      f_cond at recombination                        booked 1            got 1            
+  ok   condensate fraction      z_on / z_x separation                          booked 403          got 403          
+  ok   dark asymmetry           Omega_DM/Omega_b                               booked 5.364        got 5.36433      
+  ok   dark asymmetry           asymmetry ratio at m_dark = 2.96 MeV           booked 1700         got 1700.4       
+  ok   dark asymmetry           ratio at m_dark = 1 MeV (not 1700)             booked 5033         got 5033.2       
+  ok   toroidal parity          frames compared                                booked 11           got 11           
+  ok   toroidal parity          worst |E-drift difference| (pp)                booked 0.008        got 0.008        pp
+  ok   toroidal parity          relative match at the largest drift            booked 0.00014      got 0.000137663  
+  ok   thetadot                 m*(T_sph/T_on)^3                               booked 59.68        got 59.6808      eV
+  ok   thetadot                 mu_5 = thetadot/2                              booked 29.84        got 29.8404      eV
+  ok   thetadot                 the '58.5' is the 2-figure truncation          booked 58.48        got 58.4784      eV
+  ok   junction quartet         Gamma_phi = G_F^2 T^5                          booked 5.3902e+09   got 5.39024e+09  eV
+  ok   junction quartet         Gamma_phi/thetadot (NOT 1e7)                   booked 9.0319e+07   got 9.03178e+07  
+  ok   junction quartet         j = omega_J^2/Gamma_phi                        booked 0.0060276    got 0.00602756   eV
+  ok   junction quartet         R = omega_J^2/(2 Gamma_phi thetadot)           booked 5.0499e-05   got 5.04983e-05  
+  ok   junction quartet         omega_J required by R = 5e-5                   booked 5671.8       got 5671.8       eV
+  ok   finiteness               str[k1] = 16*N_gen - 4*N_gauge at N_gen=3      booked 0            got 0            
+  ok   finiteness               corpus balance -> N_half = 4*N_gauge           booked 48           got 48           
+  ok   finiteness               Navarro-Salas N_half at N0 = 0                 booked 48           got 48           
+  ok   finiteness               his N_xi at that solution                      booked 36           got 36           
+  ok   forest needle            eps_0 = 27a/5pi                                booked 1.2543       got 1.25432      %
+  ok   forest needle            corner C_ref=2 differential                    booked 0.7914       got 0.791397     %
+  ok   forest needle            control: vanishes as C_ref -> 0                booked 0            got 0            %
+  ok   toroidal verdict         (A) pair sum (exact flip)                      booked 0            got 0            
+  ok   toroidal verdict         (B) pair sum                                   booked 0.68         got 0.68         
+  ok   toroidal verdict         (B) residual as % of |W|                       booked 44.4         got 44.4444      %
+  ok   toroidal verdict         (B) residual / branch asymmetry                booked 1512         got 1511.72      
+  ok   toroidal verdict         Tw_intrinsic at n=+1 (= W - n)                 booked -2.19        got -2.19        
+  ok   toroidal verdict         Tw_intrinsic at n=-1                           booked 2.87         got 2.87         
+  ok   toroidal verdict         Tw pair sum equals W pair sum                  booked 0.68         got 0.68         
+  ok   toroidal corrected       (A) pair sum: exact flip                       booked 0            got 0            
+  ok   toroidal corrected       (B) pair sum                                   booked -0.625       got -0.625       
+  ok   toroidal corrected       (B) residual as % of |W|                       booked 93.8         got 93.7734      %
+  ok   toroidal corrected       (B) residual / branch asymmetry                booked 3190         got 3189.57      
+  ok   toroidal corrected       worsening factor vs the defective run          booked 2.113        got 2.11201      
+  ok   toroidal corrected       Tw at n=+1                                     booked -0.646       got -0.646       
+  ok   toroidal corrected       Tw at n=-1                                     booked 0.021        got 0.021        
+  ok   keystone                 c_K * tau = Q                                  booked 0.666667     got 0.666667     
+  ok   keystone                 tau = Q/c_K recovers 1/2 ln2                   booked 0.346574     got 0.346574     
+  ok   keystone                 arg b = Q/3 (the Brannen phase)                booked 0.222222     got 0.222222     
+  ok   keystone                 A^2 = 6(Q - 1/3) -> Koide                      booked 2            got 2            
+  ok   keystone                 theta_hop = (c_K/3)*tau                        booked 0.222222     got 0.222222     
+  ok   keystone                 c_K inside the correlator locus [1.76, 1.97]   booked 1            got 1            
+  ok   triplet                  singlet stiffness a+2b                         booked 2.74         got 2.74         
+  ok   triplet                  doublet stiffness a-b (twice degenerate)       booked 1.63         got 1.63         
+  ok   triplet                  singlet-doublet gap = 3b                       booked 1.11         got 1.11         
+  ok   triplet                  threefold degeneracy iff b = 0                 booked 0            got 0            
+  ok   triplet                  dim sym(3x3) = 6                               booked 6            got 6            
+  ok   triplet                  sym(3x3) = 1 + 5 under SO(3)                   booked 6            got 6            
+  ok   triplet                  dim antisym(3x3) = 3 = the adjoint             booked 3            got 3            
+  ok   triplet                  adjoint content of a symmetric 2-tensor = 0    booked 0            got 0            
+  ok   triplet                  traceless part eigenvalues sum to 0            booked 0            got 0            
+  ok   triplet                  uniaxial: distinguished eigenvalue = 2b        booked 0.74         got 0.74         
+  ok   triplet                  Koide point A = 2|b|/a = sqrt2                 booked 1.41421      got 1.41421      
+  ok   triplet                  Koide point Q = 2/3                            booked 0.666667     got 0.666667     
+  ok   triplet                  Koide point is stable (doublet stiffness > 0)  booked 1            got 1            
+  ok   triplet                  traceless Hermitian 3x3 = 8 of SU(3)           booked 8            got 8            
+  ok   triplet                  8 -> 5 + 3 under SO(3)                         booked 8            got 8            
+  ok   triplet                  adjoint/nematic amplitude ratio = tan(arg b)   booked 0.225954     got 0.225954     
+  ok   triplet                  adjoint is 22.6% of the nematic at arg b = 2/9 booked 0.225954     got 0.225954     
+  ok   triplet                  phi = 0 is uniaxial (doublet degenerate)       booked 0            got 4.44089e-16  
+  ok   triplet                  phi = 2/9 is biaxial (all three masses distinct) booked 1            got 1            
+  ok   argb                     3 * arg b = Q (holonomy closure)               booked 0.666667     got 0.666667     
+  ok   argb                     required coupling ratio mu/lambda = tan(Q)     booked 0.786843     got 0.786843     
+  ok   argb                     tan(2/3) via the double-angle identity from tan(1/3) booked 0.786843     got 0.786843     
+  ok   argb                     parity-even-only potential cannot reach arg b = 2/9 booked 1            got 1            
+  ok   seeds                    1 + w + w^2 = 0 (identical seeds give b = 0)   booked 0            got 3.51083e-16  
+  ok   seeds                    3! assignments = 2 orbits x 3 under C3         booked 6            got 6            
+  ok   seeds                    C3 has index 2 in S3 (the two handednesses)    booked 2            got 2            
+  ok   seeds                    g1/g0 giving arg b = 2/9 (gauge g2 = 0)        booked -0.300052    got -0.300052    
+  ok   seeds                    the solved pattern reproduces arg b = 2/9      booked 0.222222     got 0.222222     
+  ok   neutrino                 [input pin] measured dm31/dm21                 booked 32.576       got 32.5764      
+  ok   neutrino                 charged phase 2/9 does NOT fit the neutral ratio booked 282.85       got 282.853      
+  ok   neutrino                 phi = 2/9 + pi/12 fits it to <1%               booked 32.43        got 32.4266      
+  ok   neutrino                 that fit is within 1% of the measured ratio    booked 1            got 1            
+  ok   neutrino                 the pi/12 fit requires one negative root       booked 1            got 1            
+  ok   neutrino                 predicted sum m_nu (eV, normal ordering)       booked 0.05847      got 0.0584745    eV
+  ok   neutrino                 and it clears the ~0.12 eV cosmological bound  booked 1            got 1            
+  ok   third horn               sum(Y^2) per generation = 10/3                 booked 3.33333      got 3.33333      
+  ok   third horn               sum(Y^2) over 3 generations = 10               booked 10           got 10           
+  ok   third horn               SM b_Y = (2/3)SumY2 + (1/3)SumY2_scalar = 41/6 booked 6.83333      got 6.83333      
+  ok   third horn               sum(Q^2) over 3 generations = 16               booked 16           got 16           
+  ok   third horn               so unbroken 10 != broken 16                    booked 1            got 1            
+  ok   third horn               LH weak dims all 2, RH all 1 -> no Dirac cone  booked 0            got 0            
+  ok   light closure            hypercharge running M_Z -> M_Pl                booked 42.9         got 42.8879      
+  ok   light closure            1/alpha_Y(M_Pl) = 98.4 - running               booked 55.5         got 55.5121      
+  ok   light closure            1/alpha_EM(M_Pl) = 1/a2 + 1/aY                 booked 104.9        got 104.912      
+  ok   light closure            induced EM share (M_Pl -> q=0)                 booked 23.45        got 23.442       %
+  ok   light closure            unsupplied EM share                            booked 76.55        got 76.558       %
+  ok   light closure            hypercharge share surviving to M_Pl            booked 56.4         got 56.4147      %
+  ok   granule avg              pointwise Theta sd, 3D (var 1/16)              booked 0.25         got 0.25         
+  ok   granule avg              N = 1e9 cells -> sd of <Theta>                 booked 7.906e-06    got 7.90569e-06  
+  ok   granule avg              which clears the 1e-5 precision requirement    booked 1            got 1            
+  ok   granule avg              lam_dB at v = 200 km/s (pc)                    booked 0.428        got 0.427943     pc
+  ok   granule avg              so 'l_dB ~ pc' is the model's own scale        booked 1            got 1            
+  ok   keystone                 occupancy/frequency ratio = 9*tau              booked 3.11916      got 3.11916      
+  ok   keystone                 occupancy/frequency ratio = 6/c_K              booked 3.11916      got 3.11916      
+  ok   keystone                 occupancy/frequency ratio = 4.5*ln2            booked 3.11916      got 3.11916      
+  ok   keystone                 occupancy/frequency ratio is NOT pi            booked 1            got 1            

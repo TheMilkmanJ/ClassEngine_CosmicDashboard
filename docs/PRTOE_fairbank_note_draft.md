@@ -2,11 +2,28 @@
 
 *2026-07-19. Self-contained; plain physics.*
 
-*Status: experimental note. The bridge to the neutrino sector is a registered model relation, not a first-principles derivation.*
+*Status: **experimental letter** · **CORPUS_ONLY** (not an arXiv package; ship path = `neutrino-mbb` only). The bridge to the neutrino sector is a registered model relation, not a first-principles derivation. **HOLD** — owner-controlled correspondence path only; no endorsement is claimed and no second Fairbank TeX belongs to the ship path.*
+
+**Authority cards (2026-08-05).**
+- Fairbank hold / posting path: `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md`
+- live helium benchmark state: `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`
+
+> **Currency residual freeze — 2026-08-08.** The old-BAO production `bbnfix` pair is now
+> **BOOKED** under the dual gate. Authority receipt:
+> [`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md).
+> Booked three-rank GetDist (`ignore_rows=0.3`, SH0ES-conditional): model `dyad_mnu_bbnfix`
+> **H₀ = 70.052 ± 0.716**, `m_ncdm = 0.0671 ± 0.0583`, **S₈ = 0.821 ± 0.0097**; twin
+> `cmp_lcdm_mnu_bbnfix` **H₀ = 68.345 ± 0.343**, `m_ncdm = 0.0192 ± 0.0174`,
+> **S₈ = 0.824 ± 0.0081**. Evidence honesty: the booked old-BAO sample-covariance Laplace is only
+> **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸**, so **do not** upgrade this letter into an evidence-win
+> claim. DESI-DR2 bbnfix twins remain a separate **live, not bookable** stack. Cross-links:
+> [neutrino_full_honesty](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md) ·
+> [arxiv_owner_prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md) ·
+> [neutrino_home](PRTOE_neutrino_home.md) · [HOLD companion](exploratory/PRTOE_fairbank_note_HOLD.md).
 
 ## Result in three sentences
 
-In a unified dark-sector cosmology — one superfluid scalar for dark matter and dark energy, plus a single early-universe electron-mass shift ε = 1.2543% (= 27α/5π, from one derived factor, one counting assumption, and one registered coupling) — the neutrino sector is an output: the dark-energy scale ties to the lightest neutrino mass, giving **Σm_ν = 61.4 meV with normal ordering**. The mass mechanism violates lepton number, so **neutrinos are Majorana and 0νββ is required**. With measured splittings and free Majorana phases,
+In a unified dark-sector cosmology — one superfluid scalar for dark matter and dark energy, plus a single early-universe electron-mass shift ε = 1.2543% (= 27α/5π, from one derived factor, one counting assumption, and one registered coupling) — the neutrino sector is an output: the dark-energy scale ties to the lightest neutrino mass, giving **Σm_ν ≈ 61.35 meV with normal ordering**. The mass mechanism violates lepton number, so **neutrinos are Majorana and 0νββ is required**. With measured splittings and free Majorana phases,
 
 **m_ββ ∈ [0.04, 5.3] meV**, phase-averaged rms **3.3 meV** (rate ∝ m_ββ²; median over phases 3.05 meV).
 
@@ -16,17 +33,17 @@ In a unified dark-sector cosmology — one superfluid scalar for dark matter and
 
 **A null does not.** Phases can cancel. Dirac nature would kill the model (Majorana is required), but there is no practical way to prove Dirac: you cannot prove a process is absent. Experimentally: **this setup can refute the model; it cannot confirm it.**
 
-**Near-term pressure is cosmological, from below.** DESI-era CMB+BAO limits reach Σm_ν ≲ 72 meV, some combinations lower. The model sits at 61.4 meV, just inside. The live risk is an upper limit descending through that value. The model’s reply is that those limits are ΛCDM-conditional and the squeeze relaxes under its recombination physics (section below) — a testable claim, not an escape.
+**Near-term pressure is cosmological, from below.** DESI-era CMB+BAO limits reach Σm_ν ≲ 72 meV, some combinations lower. The model sits at ≈61.35 meV, just inside. The live risk is an upper limit descending through that value. The model’s reply is that those limits are ΛCDM-conditional and the squeeze relaxes under its recombination physics (section below) — a testable claim, not an escape.
 
-**Σm_ν itself is not distinctive.** 61.4 meV is only **2.6 meV** above the normal-ordering floor (58.8 meV at m₁ = 0); planned cosmological resolution is ~20 meV. Nothing planned can separate this sum from the minimal-ordering case every squeezed model lands on.
+**Σm_ν itself is not distinctive.** ≈61.35 meV is only **~2.6 meV** above the normal-ordering floor (58.8 meV at m₁ = 0); planned cosmological resolution is ~20 meV. Nothing planned can separate this sum from the minimal-ordering case every squeezed model lands on.
 
 **m_ββ is distinctive** because it depends on m₁ itself. At m₁ = 0 the window is [1.48, 3.69] meV; at the model’s m₁ = 2.25 meV it is [0.04, 5.30] meV. Ceiling up 44%, floor nearly collapses. Minimal ordering puts the whole window below nEXO’s best reach; this model puts about **11%** of phase space above it. That is the difference an experiment can see.
 
-Provenance: registered before deciding data (2026-07-07, git-timestamped). Bridge is the same lightest-mass relation as in the neutrino sector. Ordering from a registered prediction-collision test (P-2026-004); P-2026-012 records the relation but does not select the branch (ANN-2026-025). See those entries for the full record.
+Provenance: registered before deciding data (2026-07-07, git-timestamped). Bridge is the same lightest-mass relation as in the neutrino sector. Ordering comes from a registered prediction-collision test, and it is worth saying plainly which way it resolved: P-2026-004 bet the 95% limit on Σm_ν would land above the ~0.10 eV inverted-ordering threshold, and it lost — the window shut, and a shut window is what excludes inverted ordering. P-2026-012 records the lightest-mass relation but does not itself select the branch (ANN-2026-025). For the full record: P-2026-012 is in the prediction registry; P-2026-004 and ANN-2026-025 are in the failures ledger, where failed and superseded entries are kept rather than removed.
 
 ## Cancellation floor
 
-Lightest mass m₁ = ρ_Λ¼. Observed 2.25 meV (0.45% — Planck 1.8% on ρ_Λ, quartered). Model chain: 2.2599 meV (+0.44%), inside 1σ of observation. Sum barely moves: Σm_ν = 61.34–61.37 meV → quoted 61.4. Effective mass is more sensitive at the floor.
+Lightest mass m₁ = ρ_Λ¼. Observed 2.25 meV (0.45% — Planck 1.8% on ρ_Λ, quartered). Model chain: 2.2599 meV (+0.44%), inside 1σ of observation. Sum barely moves: Σm_ν = 61.34–61.37 meV (older shorthand: 61.4). Effective mass is more sensitive at the floor.
 
 NuFIT-class mixings across the observation’s range:
 
@@ -75,16 +92,32 @@ Shifted calibration frees damping-tail budget that ΛCDM spends against neutrino
 
 ## Status of the cosmological fits
 
-Fits match or modestly outperform ΛCDM on Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES at H₀ ≈ 69.9 (sound-horizon driven; holds with SH0ES included though that calibration pulls the other way). **Not final:** chains are still being brought to convergence under a corrected sampler; the value may move.
+Provisional fit diagnostics (sound-horizon driven; SH0ES included though that calibration pulls the other way) have sat near H₀ ≈ 69.9 on Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES. **Do not quote H₀ ≈ 69.9, any “outperform ΛCDM” claim, or a best-fit comparison as a result.** Chains are still being brought to convergence under a corrected sampler; the value may move.
 
-**As of 28 July the live matched pair looks better than it is.** Best fit 1377.89 (model) vs 1379.79 (ΛCDM) — 1.9 log units our way. **Do not quote that.** Three parallel chains sit at best fits **1377.9, 1610.6, 1440.6** with H₀ = 69.5, 64.0, 64.8 — three regions, not one posterior. The 1377.89 is one chain that found a good region. Reference ΛCDM chains are better behaved (spread 0.43) but not converged either. Acceptance was **5.3–6.2%** (model) and 8.5–8.9% (ΛCDM) vs a ~25% target; proposal poorly matched. Re-tuning is a collective checkpoint all ranks must reach; one rank lagged and the other two waited. **No convergence statistic was computed for that run** (empty progress file). Proposal reseeded from the good chain; acceptance moved to **31%**.
+**A stopped run from late July looked better than it was, and we stopped it rather than quote it.** Best fit 1377.89 (model) vs 1379.79 (ΛCDM) — 1.9 log units our way. **That number was never quotable.** Its three parallel chains sat at best fits **1377.9, 1610.6, 1440.6** with H₀ = 69.5, 64.0, 64.8 — three regions, not one posterior. The 1377.89 was one chain that found a good region. The reference ΛCDM chains were better behaved (spread 0.43) but not converged either. Acceptance was **5.3–6.2%** (model) and 8.5–8.9% (ΛCDM) vs a ~25% target; proposal poorly matched. Re-tuning is a collective checkpoint all ranks must reach; one rank lagged and the other two waited. **No convergence statistic was computed for that run** (empty progress file). Proposal reseeded from the good chain; acceptance moved to **31%**.
 
-*(Earlier draft blamed a re-tuning gate behind a convergence threshold. That gate is real and might have mattered next, but it was never reached; that claim is withdrawn. Fact remains: proposal was not re-tuned and the three chains never merged.)*
-**We do not claim the comparison as a result.** A later matched relaunch merged the basins (every sampled parameter agrees across ranks to within ~0.6 within-chain s.d.) and is *converging but not yet quotable* (R−1 still above the 0.05 stop). The standing evidence number remains the marginal, SH0ES-conditional Laplace estimate described below.
+**We do not claim the comparison as a result.** The later matched relaunch has now **booked** the
+old-BAO production pair under the dual gate, but that does **not** produce a strong evidence win.
+Authority receipt: old-BAO dyad **R−1 = 0.048118**@N=37605, lcdm **0.049324**@N=26294, both
+`converged:true`; booked GetDist values are in the receipt cited above. The evidence readout on
+that booked pair is only the sample-covariance Laplace **ΔlnZ ≈ +0.21** with soft modes, so do
+not quote H₀ or any “outperform” line from this letter as if the model has decisively won.
 
-**Further reasons not to claim the comparison:** our chain has 1.79× more samples (best-fit is a running minimum that favours the longer chain); neither chain has converged (ΛCDM R−1 ≈ 1.0; ours has no R−1 yet); best fit is not evidence (no parameter penalty — the whole point when one model has fewer parameters). **Live comparison is a wash, not quotable either way.** Standing evidence number remains the marginal, SH0ES-conditional Laplace estimate below.
+**Further reasons that stopped run could never have been claimed:** its model chain had 1.79× more
+samples (best-fit is a running minimum that favours the longer chain); neither side had converged
+(ΛCDM R−1 ≈ 1.0; the model run never produced an R−1 at all); and best fit is not evidence (no
+parameter penalty — the whole point when one model has fewer parameters). **The old-BAO comparison
+today is booked but still not a decisive evidence result.** Standing evidence number for this
+letter remains the historical, SH0ES-conditional Laplace estimate only as history; the booked
+old-BAO pair’s current volume-aware Laplace is ≈+0.21.
 
-**Zero-parameter evidence test.** Amplitude, tilt, coupling, and transition epoch frozen in advance vs ΛCDM at full freedom. Nested sampling started then stood down on this hardware (hundreds of days to first checkpoint); waits for cluster time. Until then: Laplace-from-MCMC. Caveat: transition epoch frozen at a **profiled** value 0.053 dex from the model’s onset identity (~28% in dark-fluid mass). **The graded configuration is near the model, not the stated one.**
+**Zero-parameter evidence test.** Amplitude, tilt, coupling, and transition epoch frozen in advance
+vs ΛCDM at full freedom. Nested sampling on the current stack is now a **four-leg DESI-DR2 gold
+program** (SH0ES dyad/lcdm + TRGB dyad/lcdm) that is **designed not launched** while the 512-vCPU
+quota request remains CASE_OPENED. Until a nested pair actually runs and finishes:
+Laplace-from-MCMC. Caveat: transition epoch frozen at a **profiled** value 0.053 dex from the
+model’s onset identity (~28% in dark-fluid mass). **The graded configuration is near the model, not
+the stated one.**
 
 Validation: exact ΛCDM null to five decimals, gauge invariance, precision-stability battery. Medium’s reality is carried as an open assumption. Entry points: THREE_EQUATIONS, DEPENDENCY_TREE, PREREGISTERED_PREDICTIONS (50+ bets), FAILURES_LEDGER.
 
@@ -92,7 +125,7 @@ Context: ~99% of ordinary mass is QCD-condensate binding. This model adds one mo
 
 ### BBN (worst column)
 
-Deliberately absent from the fit list above. Electron-mass shift is on during nucleosynthesis; sector is rigid (inputs derived or measured) — model cannot coach its witness. Net adverse. Y_p +1.3 to +2.0σ above Aver, +3.8 to +4.4σ vs EMPRESS (helium civil war unresolved). D/H predicted 2.407–2.463×10⁻⁵ vs Cooke 2.527 ± 0.030 → −2.5 to −1.4σ on the full budget (obs. ±0.030 ⊕ PRIMAT post-LUNA ±0.037). Ranges span ζ = T_dark/T_γ ∈ [0.25, 0.35], used everywhere it appears; CMB-S4 measures it via ΔN_eff = 0.06–0.24.
+Deliberately absent from the fit list above. Electron-mass shift is on during nucleosynthesis; sector is rigid (inputs derived or measured) — model cannot coach its witness. Net adverse. The live helium benchmark state moved in 2025-2026 and is now centralized in `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`; do not headline the older Aver/EMPRESS sigma pair as current literature currency. D/H predicted 2.407–2.463×10⁻⁵ vs Cooke 2.527 ± 0.030 → −2.5 to −1.4σ on the full budget (obs. ±0.030 ⊕ PRIMAT post-LUNA ±0.037). Ranges span ζ = T_dark/T_γ ∈ [0.25, 0.35], used everywhere it appears; CMB-S4 measures it via ΔN_eff = 0.06–0.24.
 
 *(Next section uses ζ baseline before dark-radiation dilution; same calculation, earlier stage: 2.387×10⁻⁵.)*
 
@@ -124,7 +157,7 @@ Deuterium tension and Hubble result are one trade. A real cure must raise D/H at
 
 ## Lightest mass and framing
 
-Oscillations fix two splittings, not the absolute floor. Here the floor is medium-sourced: **m₁ = κ_m · ρ_Λ¼ with κ_m ≈ 1** — the dark-energy scale **sets** the lightest mass; Σm_ν = 61.4 meV follows from measured splittings.
+Oscillations fix two splittings, not the absolute floor. Here the floor is medium-sourced: **m₁ = κ_m · ρ_Λ¼ with κ_m ≈ 1** — the dark-energy scale **sets** the lightest mass; Σm_ν ≈ 61.35 meV follows from measured splittings.
 
 Three qualifications:
 
@@ -145,3 +178,20 @@ Framing: 0νββ decides whether lepton number is an enforced charge (field-back
 ---
 
 *Trace: [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md), [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md), [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md), [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).*
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Σm_ν ≈ 61.35 meV NO; m_ββ ∈ [0.04, 5.3] meV | **complete-conditional** | neutrino_sector bridge | Relation registered, not first-principles; **≠** booked joint posterior |
+| 2 | Only nEXO overlaps; null does not confirm | **machine-backed** / literature | experiment tables | Phases can cancel |
+| 3 | Does not derive 2.25 meV | **honest fence** | qualifications | One number, two jobs |
+| 4 | Fit status / multi-basin stopped run not quotable; old-BAO pair later booked but does **not** yield a strong evidence win | **honest constraint** | status section; booking receipt | **OPEN-EVIDENCE:** booked old-BAO sample-cov Laplace only ≈ +0.21; DESI-DR2 pair still open |
+| 5 | Experimental letter draft (Fairbank) · **CORPUS_ONLY** | **meta** / draft · **HOLD** | banner; HOLD companion | **WATCH-EXTERNAL:** correspondence path only; not a production booking or independent posting path |
+| 6 | Ship vehicle is `neutrino-mbb` only | **READY_PACKAGE** not posted | arXivReady; arxiv_owner_prep | **No** second Fairbank TeX; **no** arXiv post without endorsement/ID |
+
+**Non-claims:** not A4 production; not confirmation path via null; not MaVaN; not arXiv-posted; not invent endorsement; not invent posteriors; not peek H₀ as result.
+
+**Triage:** elevate-in-place (draft note · CORPUS_ONLY). Physics ceiling: registered relation packaging. Cross-links: [neutrino_home residual freeze](PRTOE_neutrino_home.md) · [arxiv_owner_prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md) · [neutrino_full_honesty](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md) · [fairbank currency package](working_logs/_runs/fairbank_currency_20260804/REPORT.md).

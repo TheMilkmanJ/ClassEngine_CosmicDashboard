@@ -1,0 +1,6 @@
+desk_compute_all_safe: 2 jobs → /home/themilkmanj/prtoe_class/docs/working_logs/_runs/desk_compute_full_20260804/tests_analytic
+[1/2] test_local_gravity ...
+    exit=0 status=ok t=1.152s
+[2/2] test_bbn_activation ...
+    exit=0 status=ok t=0.633s
+wrote /home/themilkmanj/prtoe_class/docs/working_logs/_runs/desk_compute_full_20260804/tests_analytic/SUMMARY.md

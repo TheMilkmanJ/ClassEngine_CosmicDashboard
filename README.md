@@ -16,11 +16,21 @@ It is built on top of the excellent upstream [CLASS code](http://class-code.net)
 
 PRTOE is an **exploratory dark-sector cosmology** — a *theory of the expanding cosmos, not a theory of everything.* Its core idea: treat **dark matter and dark energy as one medium** (a dark condensate whose effective equation of state runs from radiation-like → matter → a dark-energy floor), and add a small, **environment-screened shift in the electron mass at recombination**, aimed at the **H₀ and S₈ tensions**. Whether that shift *actually* eases those tensions is exactly what these tools are for testing — **it is a hypothesis under evaluation, not a claimed result.**
 
-By construction PRTOE **cedes local, bound-matter physics to the Standard Model**: the medium couples to ordinary matter essentially only through gravity, and screens to standard values inside dense structure — so it makes *no* claim on atoms, chemistry, planets, or the lab. Its domain is the diffuse, expanding cosmos, and nothing smaller.
+By construction PRTOE **cedes local, bound-matter physics to the Standard Model**. Files under `docs/exploratory/` explore possible medium ties that are **not** the public expansion core until they attach (`docs/working_logs/TOE_EXPANSION_SHELF_FENCE_20260803.md`): the medium couples to ordinary matter essentially only through gravity, and screens to standard values inside dense structure — so it makes *no* claim on atoms, chemistry, planets, or the lab. Its domain is the diffuse, expanding cosmos, and nothing smaller.
 
 **Status — a falsifiable alternative under active testing.** It sticks its neck out on specific measurements that can cut it — a dark-energy equation of state **w = −1** (vs. DESI), a **varying-mₑ fade across the screening edge** (dark-ages 21-cm; a patchy, σ8-tracking fade over z ≈ 30–60 — *a sharp global step is not an alternative reading and would count against the model*), a **pinned neutrino-mass sum**, and **zero cosmic birefringence**. We are *not* claiming it is proven. We are claiming it is *specific enough to be wrong* — and inviting the community to help find out.
 
-> The earlier **v1–v3 scalar-tensor formulation** (the `ξ / δ / ζ / β` modified-gravity parameters still present in the code and the dashboard's Modified Gravity Playground) is retained for comparison and documented under [`docs/historical_v1-v3_scalar_tensor/`](docs/historical_v1-v3_scalar_tensor/).
+> The earlier **v1–v3 scalar-tensor formulation** (the `ξ / δ / ζ / β` modified-gravity parameters and the legacy CLASS flag `use_prtoe`) is retained **only for comparison** and documented under [`docs/historical_v1-v3_scalar_tensor/`](docs/historical_v1-v3_scalar_tensor/).
+>
+> **Current public expansion core (do not confuse with the legacy lane):** `use_dcdf` + screened/derived `varying_me` + `dcdf_dyad_link`. Validation scripts must label `use_prtoe` tests as **LEGACY_ST**, not as “PRTOE null recovers ΛCDM” for the live model. See `scripts/test_prtoe_null_limit.py` header (2026-08-03 cleanup).
+
+> **Two CLASS lanes — do not mix validation labels**
+> | Lane | Input flags | Role |
+> |------|-------------|------|
+> | **CURRENT_CORE** (public expansion) | `use_dcdf` + screened/derived `varying_me` (+ `dcdf_dyad_link`) | Production cosmology; null/identity → `validate_dcdf.py` |
+> | **LEGACY_ST** (comparison only) | `use_prtoe` + `xi`/`zeta`/`beta`/… | Historical scalar-tensor; null regression → `scripts/test_prtoe_null_limit.py` — **not** a current-core “PRTOE null” claim |
+>
+> `include/background.h` keeps some `use_prtoe` fields as **dummies** so older perturbation paths compile. A pass of the legacy null script is **not** evidence that the public core recovers ΛCDM.
 
 > [!IMPORTANT]
 > **Invitation to Researchers:** If you are downloading this code, we politely ask you to run the PRTOE model configurations and help us test its viability as an alternative cosmological model. By comparing its Bayesian evidence ($\Delta\ln\mathcal{Z}$), $\chi^2$ fits, and parameter pulls (such as the $H_0$ and $S_8$ tensions) against standard $\Lambda\text{CDM}$, you can help the cosmology community determine if PRTOE is a framework worth exploring further. Thank you for your contribution!

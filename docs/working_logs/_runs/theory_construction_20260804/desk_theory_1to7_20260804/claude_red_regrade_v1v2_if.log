@@ -1,0 +1,20 @@
+ExitPlanMode isn't available in this session, so here's the state: verification is **complete**, and the plan file at `/home/themilkmanj/.claude/plans/you-are-claude-red-vectorized-puppy.md` holds the full block ready to append.
+
+## Verdict
+
+**(1) Desk V1+V2 → AGREE.** Both cured, verified against primary artifacts:
+
+- **V1** — `scripts/bounce_averaging_decomposition.py` confirms it: `drive_of` spends the minus at `:112`, `strs = -(di+dq+dr)` at `:148`, `rhs = -ths² - vars_ - strs` at `:152`, and the printed drive is `mean(-strs)` at `:170`. So `Stress_drive = dr_int+dr_qu+dr_rey` is correct. Both files carry it; grepped all 7 T3 files — no stale sign survives. Every supporting citation resolves, including reconstruction §24 at `bounce_reconstruction_rp.md:1053–1055`. The arithmetic corroborates the convention independently (`+0.0266 − 0.0113 = +0.0153`).
+- **V2** — co-window values are verbatim from `n3_gpe_late_theta.log:26–27`; the two 0D rows differ in n₀ (80 vs 20), so the argmaxes really are independent. 1D `:58` matches, 2D is genuinely one pancake block, spherical honestly hedged at clean=0.
+
+**(2) Inventory → AGREE-IF, one condition.** IF-A, IF-C, IF-D all clean. IF-C is stronger than the receipt claims — every number is a faithful transcription of P-2026-048 itself, and I re-derived the 0.98σ independently (`0.00151/0.001549 = 0.975`).
+
+**Condition C1 (IF-B):** the replacement headline `≈33–40` doesn't reconcile with either of its own derivations — `:411` gives 41, `:593` gives 44–49, `:410` gives 41 theory-only. A defensible reading exists (fenced cards aren't *open* → ≈36), but that exclusion set is stated nowhere. A counting cure has to count. One-line lift.
+
+Also flagged, not gating: `PRTOE_REFEREE_CALENDAR.md:141` still carries the "discriminating needs 0.22%" framing that IF-C withdrew — pre-existing, forward-facing, not this cure's fault.
+
+**COMPLETE: still 0.** Stamped in both packages; the only COMPLETE-bearing strings in the inventory are two pre-existing grade labels (`:253`, `:305`), untouched by IF-A/B/C/D.
+
+## Pending your go-ahead
+
+One `Edit` appending the block to `ForGrok&Claude.md`, anchored to the current final line — no `docs/` writes, no chain contact. WHOSE_TURN in the block routes to **Blue** for C1 plus optional R1 (stamp the tail10 window beside T1's `+2.870`, since its tail20 is −0.1364 in the same run).

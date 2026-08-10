@@ -1,0 +1,22 @@
+==============================================================================
+The averaging bookkeeping: d⟨Θ⟩/dt decomposed in the medium's own run
+==============================================================================
+
+(a) identity check over t ∈ [2, 16]: RMS residual / RMS scale = 0.000  (PASS ≤ 0.10)
+
+(b) at the turn (⟨Θ_c⟩ crosses zero, t = 9.75), the terms of d⟨Θ_c⟩/dt (window mean):
+    total stress drive           = +0.0266   (POSITIVE — the driver)
+      · interaction pressure     = +0.0261
+      · quantum (gradient) part  = +0.0006
+      · sub-kernel Reynolds part = -0.0002
+    variance      −Var(Θ_c)      = -0.0113   (opposes)
+    mean-square   −⟨Θ_c⟩²        = -0.0000   (opposes)
+    net d⟨Θ_c⟩/dt                = +0.0153   (rising through zero ✓)
+
+VERDICT:
+   GATE (c) CLOSES at candidate grade: the identity verifies, and
+   the averaged turn is funded by the gradient-stress term — the
+   channel that vanishes identically under homogeneous averaging,
+   exactly as the reconciliation claimed. The bookkeeping the
+   fixed box could not perform is performed.
+==============================================================================

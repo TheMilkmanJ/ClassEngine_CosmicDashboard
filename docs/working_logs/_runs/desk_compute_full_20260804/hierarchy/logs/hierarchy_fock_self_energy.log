@@ -1,0 +1,58 @@
+docket #183 — the Fock self-energy insertion on §6c's host
+
+  alpha_c = 0.02189206   k = 1.36461191   lambda = 0.02987416
+  b = 2 alpha_c/pi = 0.01393692   m_D/2k_F = sqrt(b) = 0.118055
+  <V>_FS = 0.29484617   lambda = <V>/pi^2 = 0.02987416
+
+  [1] m -> 0 must reproduce the textbook (Slater) HF exchange self-energy:
+      k = 0.3   got -0.0135109615   want -0.0135109777   rel 1.20e-06
+      k = 0.7   got -0.0113717441   want -0.0113717603   rel 1.42e-06
+      k = 1.3   got -0.0032016085   want -0.0032016085   rel 7.64e-14
+      k = 2.0   got -0.0012267329   want -0.0012267329   rel 2.81e-14
+
+  [3] mpmath unavailable — skipped
+
+  [6] differentiate-first vs integrate-first:  T1 +0.973323616955   -I'(1) +0.973323616955   rel 6.66e-16
+
+  [4] closed-form delta_v vs central finite difference of Sigma(k):
+      h = 1e-02   fd +0.0083832430   closed +0.0083849767   rel 2.07e-04
+      h = 1e-03   fd +0.0083849594   closed +0.0083849767   rel 2.07e-06
+      h = 1e-04   fd +0.0083849765   closed +0.0083849767   rel 2.07e-08
+
+  [5] brute-force cartesian delta_v (independent of the angular reduction):
+      n =  300   brute +0.00838477   closed +0.00838498   rel 2.47e-05
+      n =  600   brute +0.00838503   closed +0.00838498   rel 6.00e-06   delta 2.58e-07
+      n =  900   brute +0.00838493   closed +0.00838498   rel 5.44e-06   delta 9.59e-08
+
+  [2] a(b) against the independently derived large-b asymptote 1/(12b):
+      b = 0.013937   a = 0.2806765423   1/(12b) = 5.9793234444   ratio 0.046941
+      b = 0.05       a = 0.2215412612   1/(12b) = 1.6666666667   ratio 0.132925
+      b = 0.2        a = 0.1418893734   1/(12b) = 0.4166666667   ratio 0.340534
+      b = 1          a = 0.0573049591   1/(12b) = 0.0833333333   ratio 0.687660
+      b = 5          a = 0.0151850523   1/(12b) = 0.0166666667   ratio 0.911103
+      b = 50         a = 0.0016502082   1/(12b) = 0.0016666667   ratio 0.990125
+      b = 5000       a = 0.0000166650   1/(12b) = 0.0000166667   ratio 0.999900
+      b = 5e+05      a = 0.0000001667   1/(12b) = 0.0000001667   ratio 1.000240
+
+  [7] e^2-independence (a must be a function of b alone):
+      e^2 = 0.2751    delta_v/lambda(e2) = 0.280676542344
+      e^2 = 1.0000    delta_v/lambda(e2) = 0.280676542344
+      e^2 = 10.0000   delta_v/lambda(e2) = 0.280676542344
+
+  ==> delta_v = 0.00838498  (v* = 1.008385, the band stiffens by 0.838%)
+      a = delta_v/lambda = 0.280677   (POSITIVE — no cancellation)
+      c (#141) = 0.789262
+      c + a    = 1.069939
+      screening fed back (residual, not primary): a = 0.216106  ->  c + a = 1.005368
+
+      1/lambda = 33.4737
+        booked       exponent  33.4737   M_anchor (exact-solution conv.)   3152.7 GeV
+        +c (#141)    exponent  34.2630   M_anchor (exact-solution conv.)   1431.9 GeV
+        +c+a (#183)  exponent  34.5437   M_anchor (exact-solution conv.)   1081.5 GeV
+
+      anchor multiplier exp(-c)     = 0.45418
+      anchor multiplier exp(-(c+a)) = 0.34303   (a further x0.75527)
+      §6d band 1.6-5.2 TeV x exp(-c)     -> 0.727-2.362 TeV   [#141, currently booked]
+      §6d band 1.6-5.2 TeV x exp(-(c+a)) -> 0.549-1.784 TeV   [#183, complete O(lambda)]
+      with the screening residual        -> 0.585-1.903 TeV
+      4 pi m_H = 1573.9 GeV; complete-O(lambda) anchor is 0.6871 x it

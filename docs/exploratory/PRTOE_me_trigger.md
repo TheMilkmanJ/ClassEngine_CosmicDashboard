@@ -276,3 +276,10 @@ The onset-clock and Compton-gate identities (include/background.h; standard Thom
 binding); MICROSCOPE η(Ti,Pt) bound; Dent-Stern-Wetterich BBN response coefficients; internal:
 ANN-2026-005 (the D/H healer), the granule scoping doc, PRTOE_DEPENDENCY_TREE.md. Full list:
 [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation

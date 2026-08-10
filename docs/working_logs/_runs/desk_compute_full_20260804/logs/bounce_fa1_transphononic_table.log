@@ -1,0 +1,34 @@
+==============================================================================
+The trans-phononic translation table (medium sector, recorded numbers)
+==============================================================================
+   c_s = √(3α) = 0.1480;  door rate H = 1/(√3·ξ);  x = k·ξ
+
+   x=kξ    ε/(mc_s²)   v_g/c_s    v² (pairs)   u²        ω/H_door   crossing
+     0.1      0.100     1.004      4.5187     5.519      0.026   QUENCH
+     0.3      0.303     1.033      1.2224     2.222      0.078   QUENCH
+     1.0      1.118     1.342      0.1708     1.171      0.287   QUENCH
+     2.0      2.828     2.121      0.0303     1.030      0.725   QUENCH
+     2.5      4.002     2.577      0.0154     1.015      1.026   adiabatic
+     3.0      5.408     3.051      0.0085     1.008      1.386   adiabatic
+     5.0     13.463     5.014      0.0014     1.001      3.450   adiabatic
+    10.0     50.990    10.002      0.0001     1.000     13.067   adiabatic
+
+   the adiabatic/quench split: x* = 2.46
+
+READ
+  1. WHY THE METRIC ENDS, quantified: v_g/c_s = 1.34 at x = 2 and
+     grows without bound — ξ-scale excitations outrun the acoustic
+     cone, so the emergent causal structure cannot describe them.
+  2. WHAT AN EXCITATION BECOMES: the coherence factors give the
+     particle content continuously — collective phonon (v² ≫ 1) to
+     bare medium quantum (v² → 0) — with quasiparticle number
+     conserved. The 'radiation-like energy conserved in the medium'
+     leg of the reconstruction now has its microscopic form.
+  3. THE DOOR IS A QUENCH for modes x ≲ 2.5: their frequencies
+     are slower than the door's own rate, so they cross suddenly and
+     get squeezed — the door CREATES quanta in the long-wavelength
+     medium bath. A computed (modest) energy-injection channel at the
+     boundary, relevant to the reheat ledger.
+  4. SCOPE: medium sector only. The Standard-Model sector's crossing
+     (photons at the boundary) is the remaining corner — its own task.
+==============================================================================

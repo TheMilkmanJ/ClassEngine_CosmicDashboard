@@ -1,0 +1,26 @@
+==============================================================================
+Pressure test: six attacks on the occupancy lock
+==============================================================================
+
+A4 — the integer scan (only n = 1 fits):
+   N = 1:  Q = 0.666667   τ = 0.34657   ← measured (0.6666605)
+   N = 2:  Q = 0.500000   τ = 0.69315
+   N = 3:  Q = 0.444444   τ = 0.89588
+   N = 4:  Q = 0.416667   τ = 1.03972
+
+A2 — the energy-quantum reformulation (same books, no draw):
+   E_charged = M·ω₁²·(|f₁|²+|f₂|²) = 1.000000·ħω₁  (exactly one quantum)
+   definite classical amplitude + integer energy content: nothing drawn.
+
+Coherence with the phase chain:
+   closure 3θ_B = Q + one-hop-per-thermal-period  ⟹  ω₁ = (2/9)·T_c = 39.36 keV
+   recorded per-face drift (thermal-twist reading): μ_face = (2/9)·T_c ≈ 39.36 keV — identical.
+   The lock's frozen quantum IS the phase chain's carrier: amplitude
+   integer-locked (this lock), phase accumulated by transport (the
+   holonomy). One object, two exact numbers.
+
+SCORE: A1 converts to support; A2 sharpens the lock (energy-quantum
+   form); A3–A6 survive. Residual L2 named: the value of the conserved
+   amplitude (one number, set once — cannot scatter; needs the deposit
+   argument). External judges unchanged.
+==============================================================================

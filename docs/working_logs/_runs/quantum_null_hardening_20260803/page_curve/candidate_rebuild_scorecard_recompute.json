@@ -1,0 +1,217 @@
+{
+  "tool": "scripts/page_protocol_scorecard.py",
+  "tool_sha256": "00caa83bcf964214a3b227a52caa135c5220b332793d66a29c4e91809b765053",
+  "input_path": "/home/themilkmanj/prtoe_class/docs/working_logs/_runs/quantum_null_hardening_20260803/page_curve/candidate_rebuild.json",
+  "input_milestone": "R_PAGE_candidate_rebuild_batch9_hygiene",
+  "load_meta": {
+    "loader": "page_protocol_scorecard",
+    "hist_key": "history_full"
+  },
+  "page_curve_claimed": false,
+  "protocol_binding_T1_T7": {
+    "T1_interior_max": true,
+    "T2_reach_v_ge_0.9": true,
+    "T2_frac_drop": true,
+    "T2_noise_floor": true,
+    "T2_all": true,
+    "T3_early_rise": true,
+    "T4_nulls": true,
+    "N1": true,
+    "N2_thermal_no_turn": true,
+    "N2_drop": 0.0,
+    "N3": true,
+    "N4_unitarity": true,
+    "T5_strict_dynamical_continuum": true,
+    "T5_caveat": "arrays-only recompute: T5 not re-proven from S/v series; inherits structural True as in candidate_rebuild.eval_protocol (field + continuum modes must be present in producing run)",
+    "T6_artifacts": true,
+    "T7_claim_flag": false,
+    "CANDIDATE_TURN": true,
+    "page_curve_claimed": false,
+    "v_star": 0.09513540572861429,
+    "v_late": 0.9829816800951939,
+    "v_raw_at_peak": 0.08170244457823864,
+    "v_raw_late": 0.9756263743747808,
+    "v_definition": "pure E_rad/(E_rad+E_core) or stored v; scorecard uses monotone envelope u=max_{s<=t} v(s) per protocol \u00a74.2",
+    "S_peak": 4.1889835230699815,
+    "S_late": 2.1527014281215915,
+    "drop": 2.03628209494839,
+    "sigma_jit": 1e-08,
+    "i_peak": 244,
+    "n_frames": 561,
+    "max_abs_S_total": 7.0986584611474715e-12,
+    "scorecard_source": "page_protocol_scorecard.eval_protocol_t1_t7(full history arrays only)"
+  },
+  "protocol_proposed_T8": {
+    "T8_status": "PROPOSED_INACTIVE",
+    "T8_binding": false,
+    "T8_definition": "for bins of u=max-envelope v with width 0.01, S range within bin <= 0.1 * S_star; report worst bin",
+    "T8_bin_width": 0.01,
+    "T8_range_frac": 0.1,
+    "S_star": 4.1889835230699815,
+    "threshold": 0.4188983523069982,
+    "n_occupied_bins": 55,
+    "T8_pass": false,
+    "worst_bin": {
+      "bin_lo": 0.09,
+      "bin_hi": 0.1,
+      "n_points": 287,
+      "S_min": 6.447847809376622e-11,
+      "S_max": 4.1889835230699815,
+      "S_range": 4.188983523005503,
+      "S_range_over_S_star": 0.9999999999846076,
+      "pass": false
+    },
+    "failing_bins": [
+      {
+        "bin_lo": 0.09,
+        "bin_hi": 0.1,
+        "n_points": 287,
+        "S_min": 6.447847809376622e-11,
+        "S_max": 4.1889835230699815,
+        "S_range": 4.188983523005503,
+        "S_range_over_S_star": 0.9999999999846076,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.45,
+        "bin_hi": 0.46,
+        "n_points": 9,
+        "S_min": 2.319264450623535,
+        "S_max": 2.7833105242157923,
+        "S_range": 0.46404607359225736,
+        "S_range_over_S_star": 0.11077772711127108,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.56,
+        "bin_hi": 0.5700000000000001,
+        "n_points": 7,
+        "S_min": 2.065776347028409,
+        "S_max": 2.505689555166544,
+        "S_range": 0.43991320813813495,
+        "S_range_over_S_star": 0.10501669574859909,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.78,
+        "bin_hi": 0.79,
+        "n_points": 4,
+        "S_min": 1.82712380619045,
+        "S_max": 2.389419064745685,
+        "S_range": 0.562295258555235,
+        "S_range_over_S_star": 0.13423190983170674,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.81,
+        "bin_hi": 0.8200000000000001,
+        "n_points": 3,
+        "S_min": 1.9326478263209699,
+        "S_max": 2.527733537888879,
+        "S_range": 0.5950857115679089,
+        "S_range_over_S_star": 0.14205969259382245,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.8200000000000001,
+        "bin_hi": 0.8300000000000001,
+        "n_points": 3,
+        "S_min": 1.8052786051453757,
+        "S_max": 2.349920627293239,
+        "S_range": 0.5446420221478634,
+        "S_range_over_S_star": 0.13001770456922482,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.8300000000000001,
+        "bin_hi": 0.84,
+        "n_points": 3,
+        "S_min": 1.7780596808343307,
+        "S_max": 2.3594870489909074,
+        "S_range": 0.5814273681565767,
+        "S_range_over_S_star": 0.13879915376952018,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.89,
+        "bin_hi": 0.9,
+        "n_points": 7,
+        "S_min": 1.7807396726301326,
+        "S_max": 2.5044877228295928,
+        "S_range": 0.7237480501994602,
+        "S_range_over_S_star": 0.17277414585508963,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.9,
+        "bin_hi": 0.91,
+        "n_points": 5,
+        "S_min": 1.885868782848544,
+        "S_max": 2.3686502825141833,
+        "S_range": 0.4827814996656392,
+        "S_range_over_S_star": 0.115250274202994,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.93,
+        "bin_hi": 0.9400000000000001,
+        "n_points": 5,
+        "S_min": 1.7928467491414317,
+        "S_max": 2.4664207077773606,
+        "S_range": 0.6735739586359288,
+        "S_range_over_S_star": 0.16079651660751496,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.9400000000000001,
+        "bin_hi": 0.9500000000000001,
+        "n_points": 7,
+        "S_min": 1.822857272368013,
+        "S_max": 2.436229658050034,
+        "S_range": 0.613372385682021,
+        "S_range_over_S_star": 0.146425112990776,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.9500000000000001,
+        "bin_hi": 0.96,
+        "n_points": 5,
+        "S_min": 2.0024914308081083,
+        "S_max": 2.443620095576667,
+        "S_range": 0.44112866476855883,
+        "S_range_over_S_star": 0.1053068512538022,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.96,
+        "bin_hi": 0.97,
+        "n_points": 13,
+        "S_min": 1.8026605772475488,
+        "S_max": 2.5374817159635272,
+        "S_range": 0.7348211387159784,
+        "S_range_over_S_star": 0.1754175290184598,
+        "pass": false
+      },
+      {
+        "bin_lo": 0.98,
+        "bin_hi": 0.99,
+        "n_points": 118,
+        "S_min": 1.7848230233307825,
+        "S_max": 2.5447687678528905,
+        "S_range": 0.7599457445221081,
+        "S_range_over_S_star": 0.18141531002374686,
+        "pass": false
+      }
+    ],
+    "note": "PROPOSED only \u2014 ChatGPT has not ratified. Do not gate CANDIDATE_TURN on T8 until binding."
+  },
+  "CANDIDATE_TURN_binding": true,
+  "CANDIDATE_TURN_if_T8_were_binding": false,
+  "run_provenance": {
+    "script": "/home/themilkmanj/prtoe_class/scripts/quantum_page_candidate_rebuild.py",
+    "script_sha256": "e7ef3815915a10311b6472c8219fc530ae061674438eff3a1fc5f1449237dd9d",
+    "note": "T6: content hash if git untracked; commit when owner allows"
+  },
+  "resource": "OMP=1; no PolyChord; no MCMC; arrays-only recompute",
+  "claim_decoupling": "CANDIDATE packet only after: run complete \u2192 JSON on disk \u2192 scorecard from arrays \u2192 script sha256 \u2192 (git commit when owner allows)"
+}

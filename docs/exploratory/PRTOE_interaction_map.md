@@ -77,3 +77,11 @@ decimal places are the same debts already recorded.
 whisper the quiet places keep, and one identity every atom swims in — the map of what
 survives each screen is not a complication of the model; it is the model's signature,
 written at every scale it touches, which is all of them.*
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

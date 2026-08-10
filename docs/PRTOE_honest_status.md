@@ -3,8 +3,10 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> **Private — internal candid self-assessment, not the audience-facing record.** Unlinked
-> from the reader-facing shelf on purpose.
+> **Private — internal candid self-assessment, not the primary audience-facing record.**
+> This file is cited from a small number of shelf/process pages as a candid status source, so it is
+> no longer literally unlinked from the docs shelf; those links do not make it a paper-facing claim
+> surface.
 
 > **The `#N` numbers in this file are local and are not the docket's.** This page predates the
 > current numbering and carries two of its own: the **Q-series** of the 2026-07-08 review (Q1/#19,
@@ -13,7 +15,97 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-07-31)
+## CURRENT (2026-08-10)
+
+**Expansion fence.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
+expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
+the Standard Model; the domain is the diffuse cosmic medium. Same fence as
+[PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md) / laws_and_rules / quantum attach notes. No TOE claim.
+
+**Old-BAO production bbnfix pair — BOOKED.** Authority is the dual-gate receipt
+[`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md):
+both legs hit cobaya progress **R−1 < 0.05** **and** checkpoint `converged: true`, then
+`python3 scripts/book_bbnfix_when_ready.py` booked the pair. Booked three-rank GetDist
+(`ignore_rows=0.3`, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**, `m_ncdm = 0.0671 ± 0.0583`,
+**S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**, `m_ncdm = 0.0192 ± 0.0174`,
+**S₈ = 0.824 ± 0.0081**.
+
+| chain | N (receipt) | R−1 | stop | converged | bookable |
+|---|---:|---:|---:|---|---|
+| `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **YES** |
+| `dyad_mnu_bbnfix` | 37605 | **0.048118** | 0.05 | **true** | **YES** |
+
+**Evidence honesty on that booked pair:** the current old-BAO volume-aware sample-covariance
+Laplace is only **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸** on both legs. Better MAP by
+**Δ(min −logpost) ≈ −2.96** is *not* evidence. The old pre-bbnfix **ΔlnZ = +2.635** line is now
+historical, not the current booked-pair authority. FD Hessian Laplace **v1 failed**
+(`logZ=-inf` / singular Hessian —
+[HESSIAN_FD_20260810_REPORT](working_logs/_runs/credibility_diagnostics_20260808/HESSIAN_FD_20260810_REPORT.md));
+**v2 finished finite** both legs
+([`hessian_laplace_v2.json`](working_logs/_runs/credibility_diagnostics_20260808/hessian_laplace_v2.json):
+ΔlnZ_H ≈ **−1.18**, samplecov cross-check ≈ **+0.22**, huge condition numbers / regularized).
+**Diagnostic only — not nested, not a gold Bayes factor.**
+
+**DESI-DR2 bbnfix twins — BOOKED Stage A (separate instrument).** Authority:
+[`desidr2_bbnfix_booking_20260810_053127`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPORT.md):
+dyad R−1 **0.03321** @ N=53482 `converged:true`; lcdm R−1 **0.041377** @ N=52031 `converged:true`.
+GetDist (30% burn, SH0ES-conditional DESI stack): dyad **H₀ = 70.299 ± 0.541**,
+lcdm **H₀ = 68.729 ± 0.250**. **Do not mix with old-BAO BOOKED pair.** DESI FD Hessian Laplace
+launched on the idle 48-vCPU box (process receipt, not nested). routeD remains
+**OPEN-MACHINE** at **0.351167**@N=14625. On-demand EC2 quota is **300** vCPU (approved). Gold
+SH0ES PolyChord (2×96) is **live as process** (resume after Fortran stats-write fix)
+(`i-04ead482af737e7bf` dyad / `i-0e353f38544397a6d` lcdm); intermediate log(Z) **not bookable**.
+TRGB legs later when free vCPU ≥ 96. **No nested ΔlnZ yet.**
+
+**BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
+`papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
++2.91σ (cannot bound ε) — honesty unchanged. **EXTERNAL WIN PENDING (no DOI)** — public record still owed; not re-booked.
+
+**Page near-miss freeze.** Q6 / dynamical Page stays **OPEN**. Champion `coevolve_v13`
+(schedule `v23_champion_locked`): T1–T6 PASS; **T8 FAIL** (early bin range/S* = 0.113 > 0.10).
+`page_curve_claimed: false`. `CANDIDATE_TURN_binding: false`. No CANDIDATE packet. D1–D3 exhausted;
+D4 freeze active — next unblock is **new microphysics**, not knob thrash. Package:
+`docs/working_logs/_runs/page_full_freeze_20260804/`.
+
+**Strong CP abstention.** `PRTOE_strong_cp.md` remains a complete **constitutional silence** — the
+model has nothing to say about θ̄; needing a strong-CP mechanism would kill the constitution. Not a
+derivation; not a paper candidate; not promoted.
+
+**PolyChord current state.** The practical nested path is the **gold DESI-DR2** program
+(SH0ES dyad/lcdm first; TRGB dyad/lcdm second). Quota is **300** on-demand vCPU (approved).
+SH0ES legs are **launching** as process; TRGB not yet. **No nested verdict is bookable yet.**
+Design notes: `working_logs/_runs/gold_desidr2_polychord_20260808/REPORT.md`.
+
+### Residual theory board (2026-08-05 exhaust currency)
+
+Present grades only. Stocked-desk thrash **exhausted**; open theory needs construction / MISSING_INPUT /
+machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
+[`working_logs/_runs/theory_exhaust_20260805/MASTER_REPORT.md`](working_logs/_runs/theory_exhaust_20260805/MASTER_REPORT.md) ·
+[`working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md`](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+
+| residual | grade |
+|---|---|
+| Bounce classical turn | **OPEN-BLOCKED** — stocked maps recorded; derived \(H_\mathrm{re}\) **not** paid |
+| Page Q6 | **OPEN** — T8 = **0.113**; `page_curve_claimed: false` |
+| Koide mechanism | **OPEN** — Wilson holonomy inputs **5/5 MISSING** |
+| Void IGMF ×20 | **OPEN** |
+| DE occupancy / “why now” | **OPEN** |
+| Forward \(A_{\omega_J}\) / seat | **EMPTY_CORPUS_SEAT** · Charge A holds |
+| Absolute SI \(G\) | **OPEN** — supertrace finiteness ≠ SI \(G\) |
+| Unitarized σσ (ρ_Λ precision) | **MISSING_INPUT** |
+| Machine bbnfix | **BOOKED** old-BAO Stage A · **BOOKED** DESI-DR2 Stage A (separate; do not mix) |
+| PolyChord | **OPEN-MACHINE / RUNNING** — SH0ES gold both legs live (resume); TRGB not launched; no bookable nested verdict yet |
+| Strong CP | **COMPLETE-ABSTENTION** |
+
+**What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-04**
+live R−1 numbers as if current (lcdm **0.071122** / dyad **0.072286** / routeD **4.941933**) is
+stale; the 2026-08-05 stamp above is the live gate. E2E derivation board grades (A1–A6) under the
+next heading remain valid as theory status; this section is the **machine + honesty** stamp. Theory
+residual grades above are the 2026-08-05 exhaust stamp.
+
+---
+
+## CURRENT (2026-07-31) — retained (E2E board detail)
 
 **Scope name.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
 expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
@@ -81,14 +173,12 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
-- Evidence: the +2.635 Laplace win landed (below, unchanged) — and the Laplace is what the
-  verdict rests on. Nested sampling is unaffordable on this hardware (9.8 h per iteration, 163
-  days to a first checkpoint) and waits for cluster time, so the confirmer the +2.635 was explicitly
-  awaiting is not coming from this box. *That makes the MCMC chains the evidence calculation's only
-  input rather than side referees, and their convergence the critical path for the headline claim.
-  As of 2026-08-02: routeD is on its fifth launch (three ranks, burn-in); conv_desi and
-  zon_disp are **not running** (posteriors unproduced; seeds ready; owner restart);
-  `cmp_prtoe_zon` is untouched since 07-12.*
+- Evidence: the **historical** pre-bbnfix **ΔlnZ = +2.635** Laplace line landed, but the current
+  booked old-BAO pair is weaker: sample-covariance Laplace **ΔlnZ ≈ +0.21** with soft-mode
+  sensitivity. The original laptop nested attempt ended for machine-economics reasons; the current
+  practical nested path is the DESI-DR2 gold four-leg program, which is on disk but not launched.
+  *That makes the booked old-BAO pair the only current graded posterior receipt, while the current
+  DESI-DR2 MCMC stack and its intended nested confirmer remain unfinished.*
 
 ### What moved on 2026-07-18
 
@@ -173,12 +263,10 @@ misreading of the model's own §2(c) and had to be reversed by a second amendmen
 error-counting are filed at `ForJustin/13`, and the failure mode inverted between them: from
 over-claiming favourable results to over-claiming absences.
 
-**Operational.** The nested evidence run was **ended on 2026-07-20 and archived**
-(`chains/_archive_polychord_ended_20260720_0915/`). It was never stalled — it was running exactly as
-configured, and the configuration costs more than the question is worth on this box: `measure_speeds`
-built a 534-slice-step schedule, and at 66 s per likelihood evaluation that is **9.8 h per nested
-iteration**, putting the first checkpoint 163 days out and the full run 736 days, with the ΛCDM twin
-doubling it. Nested sampling waits for cluster time.
+**Operational.** The laptop nested evidence run was **ended on 2026-07-20 and archived**
+(`chains/_archive_polychord_ended_20260720_0915/`). That retirement was a machine-specific decision,
+not a proof that the evidence lane is permanently out of reach. Current live nested status is now
+tracked in `working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`.
 
 **Deciders** (unchanged in kind, changed in instrument): the **evidence number** (still the Laplace,
 now without a confirmer in prospect — it can be sharpened by better-converged chains but not made
@@ -225,17 +313,19 @@ In order of arrival / actionability:
 
 internal review rule: lock what counts as a win before the number comes back, or we rationalize whatever
 we get. For the PRTOE-vs-ΛCDM full-data comparison (the evidence run — Laplace landed 2026-07-09,
-and the Laplace is what the thresholds are graded against, nested sampling being deferred to
-cluster time), verdict thresholds committed now:
+and the Laplace is what the thresholds are graded against; at this historical point nested sampling
+was being deferred to cluster time, while current live nested status is tracked separately in
+`working_logs/_runs/polychord_owner_followup_20260806/REPORT.md`), verdict thresholds committed now:
   - PRTOE wins:   Δ lnZ ≥ +2.5 in PRTOE's favor (moderate+) AND Δ BIC ≤ -2
                   (BIC/AIC already penalize PRTOE's ~2 extra physical params: varying_me, m_ncdm).
   - ΛCDM wins:    Δ lnZ ≤ -2.5  OR  Δ BIC ≥ +2.
   - inconclusive: anything in between -- and this is the honestly-expected outcome, since PRTOE is
                   ΛCDM-like + the m_e signature; a decisive win would be a genuine surprise.
 No moving these after the optimizers finish. (Optimizer gives a Laplace ln Z + bestfit χ² for
-BIC/AIC. A gold-standard nested ln Z would be the publication number, and it is not in reach on
-this hardware — that number waits on cluster time and the thresholds are graded on the Laplace
-meanwhile, with its systematic stated wherever the verdict is quoted.)
+BIC/AIC. A gold-standard nested ln Z would be the publication number. At the time of this lock it
+was not in reach on that hardware; current live nested status is now tracked separately, and the
+thresholds here remain the Laplace grading rule meanwhile, with its systematic stated wherever the
+verdict is quoted.)
 
 ## #22 DE-floor — the one serious calculation, resolved (2026-07-08)
 
@@ -291,12 +381,16 @@ likelihoods) converged. Result graded cold against the pre-committed gate:
   - scalar:  χ² = 2799.654 | Laplace lnZ = -1471.931 | H₀ = 69.82  (m_e fixed at 1.01232)
   - Δ χ² = -9.52 (scalar better) ; **Δ lnZ = +2.635 (Laplace, scalar favored)** ; Δ BIC ~ -9.5.
 
-**Verdict: the +2.5 win threshold is crossed (+2.635) — the first time — but heavily qualified:**
-  1. Laplace, and the Laplace is where it stays: margin over the line (+0.135) < the estimator's own
-     systematic uncertainty ⇒ a marginal crossing on the approximate number. Only nested sampling
-     makes it robust, and nested sampling is unaffordable on this hardware (9.8 h per iteration) —
-     so the crossing stands as marginal, without the confirmer it was explicitly awaiting, until
-     cluster time is bought. Better-converged chains sharpen this number; they cannot promote it.
+**Verdict in that historical 2026-07-09 entry:** the +2.5 win threshold was crossed (+2.635) — the
+first time — but heavily qualified:
+  1. Laplace, and the Laplace is where it stays until the nested pair finishes: margin over the line
+     (+0.135) < the estimator's own systematic uncertainty ⇒ a marginal crossing on the approximate
+     number. Only nested sampling makes it robust. At the time of this entry that was unaffordable
+     on this hardware (9.8 h per iteration). Current 2026-08-08 status is stricter than this
+     historical entry: the booked old-BAO pair's sample-covariance Laplace is only ≈+0.21, and the
+     practical nested referee is the DESI-DR2 gold four-leg program, still not launched. Better-
+     converged chains can sharpen the bookkeeping; they cannot promote this historical line into
+     the current evidence authority.
   2. SH0ES-conditional: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
      68.18→69.82) + ACT (~-3.8, high-l m_e). So the win rides on the H₀ tension being physical
      (Stage 0). SH0ES-as-systematic sinks it. The win and the single window are the same brick.
@@ -305,13 +399,17 @@ likelihoods) converged. Result graded cold against the pre-committed gate:
   4. Gate B caps it suggestive (f_amp partial-mover, Psi0 OOM-fixed); shot 1 survives (amplitude
      ontology un-derived). w=1/3 phase confirmed neutral (onset never moved) → kept, free.
 
-**Label: suggestive / SH0ES-conditional / Laplace-marginal win.** Best realistic outcome on the
-table, landed exactly at the line. Not decisive, not robust, not prediction-confirmed.
+**Historical label for that entry only:** suggestive / SH0ES-conditional / Laplace-marginal win.
+Best realistic outcome on the table, landed exactly at the line. Not decisive, not robust, not
+prediction-confirmed.
 
-The one lever that would move the evidence class hard is still a nested confirmation of the +2.6
-on a paid cluster (configs pc_prtoe.yaml / pc_lcdm.yaml ready) — **and that lever is now out of
-reach until the cluster time is bought**, the attempt on this hardware having been ended on
-2026-07-20 at 9.8 h per iteration. The two things that still sink it: SH0ES-as-systematic
+The one lever that would move the evidence class hard is still a matching nested comparison; the
+current live design path is no longer a confirmation of +2.6 specifically, because the booked
+old-BAO pair now reads weaker than that historical line.
+At the time this section was written that lever was out of reach on the local hardware and the
+attempt there had been ended on 2026-07-20 at 9.8 h per iteration; the current 2026-08-08 nested
+status is different: the gold DESI-DR2 four-leg program exists on disk but is not launched, so
+there is still no nested verdict. The two things that still sink it: SH0ES-as-systematic
 (Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
 grading in the private internal review record (defender "the number" turn).
 
@@ -328,3 +426,13 @@ first is now unscheduled**, nested sampling having been priced off this hardware
 cluster time). Final label: "suggestive / SH0ES-dependent / Laplace-marginal / non-original-class
 win, no ontology evidence." Deciders from here: a nested ln Z when it can be afforded
 (marginal→robust or sinks it) and SH0ES-vs-TRGB (physical→holds, systematic→inverts to a loss).
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

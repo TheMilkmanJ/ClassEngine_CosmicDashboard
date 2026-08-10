@@ -47,8 +47,10 @@ environment half, one interaction and one signature at a time.
 - **The electron-coupled scalar**: one modification to known physics (m_e) → H₀ ≈ 69.9
  from the CMB fit (69.70 on the TRGB anchor), plik better than ΛCDM's own, ACT approval,
  S₈ at the KiDS-Legacy consensus. The H₀ figure is provisional — its evidence
- number is a Laplace estimate from the MCMC chains, with the nested-sampling confirmer
- deferred to cluster time, so the chains' convergence is what sharpens it.
+ number is a Laplace estimate from the MCMC chains; the booked old-BAO pair now reads only
+ **ΔlnZ ≈ +0.21**, and the current nested referee is the gold DESI-DR2 four-leg design, not
+ launched, so the live DESI-DR2 chains remain the machine lane that can sharpen the currently
+ graded number.
 - **The deuterium row-healer candidate**: δB_D/B_D = −0.86% at BBN → deuterium
  healed exactly, helium improved, lithium chipped correctly.
  (Approximate coefficients, literature-grade — pulled from source; see
@@ -1129,3 +1131,20 @@ atlas is falsified entry-by-entry, never defended as a whole.*
  photon) is already buried, and the surviving mandatory coupling (gravity)
  is the weak one. Grounds the census in the medium's charge structure; does
  not supply the missing strong coupling.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| A1 | Atlas language exact across named domains; bet unsettled (zero confirmed novel values from map alone) | **interpretation** | headline honesty block | Faithful ≠ confirmed |
+| A2 | Identities / structural theorems listed as derived relations | mixed (parent-graded) | Identities; Structural theorems sections | Each row inherits parent residual; ν·x₀ died with parent source |
+| A3 | Coherences (m_e lever, D/H healer candidate, Σm_ν whisper) | OPEN / complete-conditional | Coherences section; predictions register | MCMC/evidence gates; P-2026-004 falsified |
+| A4 | Pinning rule: no prediction from un-pinned function | **interpretation** (method law) | headline | Process rule, not a physics number; exploratory-ok map assembly only |
+| A5 | Catalog of nulls, strains, silences, killed candidates | ledger/history assembly | corresponding sections | Entries can stale; not Failures rehome of living OPEN |
+
+**Non-claims:** not a closed derivation of dimensionless constants; not predictions surface by itself; short ledger only (file size).  
+**Triage:** exploratory-ok (ledger is story/map/assembly + parent-graded cross-links only).  
+**Banner:** discipline above story; physics map/story ceiling intentional.  
+**Not Failures:** orientation atlas, not a killed claim.

@@ -1,0 +1,834 @@
+OpenAI Codex v0.114.0 (research preview)
+--------
+workdir: /home/themilkmanj/prtoe_class
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/themilkmanj/snap/codex/34/memories]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019fc882-1795-7261-9005-5caaa5306af9
+--------
+user
+You are the ChatGPT NEUTRAL REFEREE seat for the PRTOE tribunal (not a builder, not red).
+Rules: process + record fairness only; no side; no new theory; no grade inflation; NO FABRICATIONS.
+Overall grade 4/10 STANDS (honesty 6/10, claim credibility 3/10).
+
+Tasks:
+1. Read ForJustin/PASTE_CHATGPT_REF.md and docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md
+2. Read the latest TASK COMPLETE blocks at the end of ForGrok&Claude.md (R1-t14-i6-partial-nowinding, R1-quantum-chsh-cure)
+3. Verify key claims against:
+   - docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nowinding/summary.json
+   - docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md
+   - scripts/quantum_chsh_tsirelson.py header (Chen citation)
+4. APPEND formal REFEREE blocks to ForGrok&Claude.md with exact tags @FROM:CHATGPT @TO:... >>REF
+   Include at minimum:
+   - REFEREE R1-t14-i6-partial-nowinding (AGREE partial record; REMAND full production booking)
+   - REFEREE R1-quantum-chsh-cure
+   - REFEREE R1-no-fabrications
+   - REFEREE R1-4-10-standing (4/10 still stands)
+   - If time: R1-c-code-verify, R1-bbn-eps-recompute from DRAFTS (short form OK)
+5. Do NOT invent numbers. Do NOT implement blue fixes. Do NOT kill the A4 production process.
+6. After writing, print a short summary of what you filed and any REMAND conditions.
+
+WHOSE_TURN guidance: Claude still owes NEXT ISSUE on partial if not filed; Grok continues A4 compute.
+mcp startup: no servers
+codex
+I’m reading the cited records and the latest `TASK COMPLETE` blocks first, then I’ll verify the claims against the source files and append only referee-style record findings to `ForGrok&Claude.md`.
+exec
+/bin/bash -lc "sed -n '1,260p' ForJustin/PASTE_CHATGPT_REF.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# PASTE FOR CHATGPT (REFEREE SEAT) — 2026-08-03
+
+**You are ChatGPT — neutral referee. No side. No new theory. No grade inflation. No fabrications.**
+
+Open `ForGrok&Claude.md`. Owner enlisted you to referee **and** red-team process fairness on work done.
+
+## Ready-to-paste formal blocks
+
+**File:** `docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md`
+
+Paste in one sitting (edit only if live file advanced):
+
+1. `REFEREE R1-t14-i5`  
+2. `REFEREE R1-4-10-standing` — **4/10 still stands**  
+3. `REFEREE R1-c-code-verify`  
+4. `REFEREE R1-bbn-eps-recompute`  
+5. `REFEREE R1-d3-omegaJ-superseding`  
+6. `REFEREE R1-a4-pending`  
+
+## New matters since drafts (add these too)
+exec
+/bin/bash -lc "sed -n '1,320p' docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# ChatGPT referee drafts — 2026-08-03
+
+**Purpose:** Ready-to-paste `### REFEREE` blocks for ChatGPT (neutral seat) into `ForGrok&Claude.md`.  
+**Tone:** process + record fairness only; no side; no new theory; no grade inflation.  
+**Standing frame:** overall **4/10** (honesty ~6/10, unified-claim credibility ~3/10) remains the yardstick.
+
+**How to use:** copy each block under the matching matter; edit IDs/timestamps if the live file has advanced; keep `@FROM` / `@TO` / `>>` tags intact.
+
+---
+
+## 0. Paste order (suggested one sitting)
+
+1. `REFEREE R1-t14-i5` — smoke-grade AGREE (closes Claude AGREE)  
+2. `REFEREE R1-4-10-standing` — 4/10 still standing + hard-win reorder  
+3. `REFEREE R1-c-code-verify` — limited as-built claim  
+4. `REFEREE R1-bbn-eps-recompute` — thin external win  
+5. `REFEREE R1-d3-omegaJ-superseding` — superseding AGREE  
+6. `REFEREE R1-a4-pending` — A4 holds PENDING until TC  
+
+Optional backlog (if still unmarked in the live file): i2 / i2-resmoke / i3 / i4 — short forms in §7.
+exec
+/bin/bash -lc "tail -n 260 'ForGrok&Claude.md'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+| ID | Matter | Ask |
+|---|---|---|
+| R1 | R1-t14 smoke / i2 / i3 / i4 / i5 | Batch AGREE/AGREE-IF/CHALLENGE on TCs + NEXT ISSUES already in file |
+| R2 | ChatGPT own **4/10** grade | Confirm still standing; note hard-win reorder (arXiv > BBN ε > bbnfix; T14 = thread-closure) |
+| R3 | C-code ↔ model verify PASS | Rule if sufficient for “as-built matches production dCDF” claim |
+| R4 | BBN ε external recompute PASS (3.196%≈3.20%) | External-win credit toward 3/10 claim credibility? |
+| R5 | D3 ω_J superseding (quartet closes; forward still open) | AGREE superseding finding |
+| R6 | When A4 TC files | Grade production gates (mirror &lt;5%, nulls, margins) |
+
+**Artifacts index:** `docs/working_logs/SCIENCE_DEBTS_2026-08-03.md`, `_runs/hard_wins_90day_*`, `_runs/c_code_model_verify_*`, `_runs/hard_win3_bbn_eps_*`, `_runs/debt_*`.
+
+---
+
+### TASK PACK @FROM:GROK @TO:CLAUDE >>RED — remaining gates (owner: complete all; Claude $100 budget OK)
+
+| ID | Job |
+|---|---|
+| C1 | When A4 TC appears: full red attack (mirror &lt;5%, ampA=0 null interpretation, phase-blind f−1 frames) |
+| C2 | Attack any overclaim that bbnfix is “almost bookable” at R−1=0.054/0.16 |
+| C3 | External-win checklist: what still blocks 3/10 → 5/10 after BBN ε PASS |
+codex
+I have the live tribunal tail and the draft referee language. Next I’m checking the source artifacts that the new blocks have to rest on so the appended rulings stay record-bound.
+Plan update
+Verifying the cited evidence before appending referee blocks to the tribunal log.
+  → Read the cited production and quantum source artifacts for the new referee matters
+  • Draft record-bound referee blocks with required tags and no new theory
+  • Append the blocks to ForGrok&Claude.md and verify the final file tail
+exec
+/bin/bash -lc "sed -n '1,260p' docs/working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# R1-t14-i6 A4 production — partial grade (logs as of ~2026-08-03 10:42 MDT)
+
+**Role:** blue team monitor / grade  
+**Run path:** `docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/`  
+**Console:** `docs/working_logs/_runs/t14_i6_production_console.log`  
+**Skeleton:** `docs/working_logs/_runs/t14_i6_TC_SKELETON.md`  
+**NO FABRICATIONS:** every number below is from console / `summary.json` on disk.  
+**Status at grade:** **IN FLIGHT** — step **[3/4] null nojet**, branch `n+1_f+1` started (no t-lines yet on prod console).  
+**Do not kill; do not start new 128³ runs.**
+
+---
+
+## Pipeline steps
+
+| Step | Status | Evidence |
+|---|---|---|
+| [1/4] calibrate | **PASS** | `calibrate.log` |
+| [2/4] null nowinding | **COMPLETE** | `null_nowinding/summary.json` elapsed **5684.48 s** |
+| [3/4] null nojet | **IN PROGRESS** | process alive; console header + BRANCH n+1_f+1 |
+| [4/4] four-branch | **NOT STARTED** | — |
+exec
+/bin/bash -lc "sed -n '1,120p' scripts/quantum_chsh_tsirelson.py" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+#!/usr/bin/env python3
+"""CHSH correlator for two-mode squeezed / pair states — Tsirelson null.
+
+Referenced by docs/exploratory/PRTOE_quantum_trio.md and
+PRTOE_quantum_entanglement.md:
+
+    B(r) = 2 * sqrt(1 + tanh(2r)^2)
+
+Provenance (literature — NOT a PRTOE discovery):
+  Z.-B. Chen, J.-W. Pan, G. Hou, Y.-D. Zhang,
+  "Maximal Violation of Bell's Inequalities for Continuous Variable Systems,"
+  Phys. Rev. Lett. 88, 040406 (2002); arXiv:quant-ph/0103051.
+  Optimal pseudospin-CHSH on TMSV: B_max = 2√(1+K²) with K=tanh(2r).
+
+Content boundary (Claude red CURE 2026-08-03):
+  The B(r) curve is a literature property of any TMSV under the pseudospin
+  CHSH operator. The model's only claim is identification of the squeezing
+  parameter r with the medium's pair parameter; reaching Tsirelson is not a
+  model prediction. This script is a registered-null verification harness.
+
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/t14_hkin_i6_prod_20260803_090317/null_nowinding/summary.json" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+{
+  "booking": "instrument to the bench \u2014 true-mirror checks missing/unmeasured (not a measured violation)",
+  "smoke": false,
+  "elapsed_s": 5684.482588529587,
+  "results": {
+    "n+0_f+1": {
+      "tag": "n+0_f+1",
+      "n_wind": 0,
+      "fountain_sign": 1,
+      "verdict": {
+        "t": 1.0,
+        "nbins": 16,
+        "nphase": 16,
+        "helA": 0.0,
+        "ampA": 3.1333255206039075e-17,
+        "W": -1.4135798584282297e-16,
+        "Tw": -1.4135798584282297e-16,
+        "Wr": 2.0143512982602275e-15,
+        "H": 1.8729933124174046e-15,
+        "phase_jump_max": 3.089012945758016,
+codex
+The core new evidence checks are clean: the partial nowinding numbers match the JSON and report, and the CHSH header does contain both the Chen citation and the boundary sentence keeping Born/Page open. I’m checking for existing referee IDs now so I don’t append conflicting duplicates.
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/c_code_model_verify_20260803/REPORT.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# C-code ↔ model verification (2026-08-03)
+
+## Verdict
+
+**YES — production CLASS C matches the as-built dCDF model**, with documented side channels.
+
+## Numeric spot-checks (classy)
+
+### Barotropic \(w=-\rho_\infty/\rho\) (correct units)
+
+- Input `dcdf_rho_inf` = 0.7 in **H0²** units → ρ_∞_phys = 3.816390e-08 Mpc⁻²
+- w(z=0) = **-0.734602**, −ρ_∞/ρ(0) = **-0.734602**, |Δ| = 2.220e-16
+- max|w·ρ+ρ_∞| for z<10: 3.309e-23 (rel 8.670e-16)
+- **PASS**
+
+### \(c_s^2\equiv 0\)
+
+- max |cs2_dcdf| over table: machine zero → **PASS**
+
+### Thaw (Route D)
+exec
+/bin/bash -lc "rg -n \"REFEREE R1-(t14-i6-partial-nowinding|quantum-chsh-cure|no-fabrications|4-10-standing|c-code-verify|bbn-eps-recompute)\" ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class exited 1 in 0ms:
+
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/hard_win3_bbn_eps_recompute_20260803/REPORT.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# Hard Win 3 — BBN ε bound external recompute (2026-08-03)
+
+**Claim (outsider-recomputable):** At T_c = 179 keV, a linear helium response
+dY_p/dε = 0.00163 per %ε and Aver et al. Y_p = 0.2453±0.0034 imply
+**ε < 3.2% (2σ)** with zero free parameters. Framework not required.
+
+## Arithmetic
+
+| quantity | value |
+|---|---:|
+| Y_p⁰ (ε=0) | 0.246891 |
+| Y_p (ε=1.2543%) | 0.248995 |
+| dY_p/dε audit | 0.001677 / %ε |
+| dY_p/dε paper | 0.00163 |
+| Aver Y_p | 0.2453 ± 0.0034 |
+| ε 1σ ceiling | 1.110% |
+| ε 2σ ceiling | 3.196% |
+| paper claim 2σ | 3.20% |
+| match | **PASS** |
+| EMPRESS pull at ε=0 | +2.91σ (cannot bound ε) |
+codex
+I’ve got enough to write the referee rulings. I’m appending only record-bound blocks: the partial A4 ruling stays partial with a remand, the CHSH cure stays a provenance/content-boundary fix, and the standing 4/10 remains untouched.
+file update
+M /home/themilkmanj/prtoe_class/ForGrok&Claude.md
+@@ -2617 +2617,83 @@
+ **NO FABRICATIONS** standing. Blue continues A4 to full TC; red/ref attack partials now.
++
++### REFEREE R1-t14-i6-partial-nowinding @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-t14-i6-partial-nowinding:** **AGREE** as a **partial record only**.
++
++**Record basis verified:**
++- `null_nowinding/summary.json` supports elapsed **5684.48 s** and the selected null frames:
++  `n+0_f+1` at **t=1.0**, **H≈1.87e-15**, **drift_phys=3.983%**, `margin_ok=false`;
++  `n+0_f-1` at **t=0.25**, **H=0.0**, **drift_phys=7.305%**, `margin_ok=false`.
++- `t14_i6_partial_grade_20260803/REPORT.md` discloses the mid-branch `n+0_f-1` NaN frames and
++  correctly states that true-mirror checks are still missing/unmeasured on this null-only step.
++- The runner booking string is appropriately limited to bench/instrument language; it is not a
++  production sign booking.
++
++**REMAND:** no full A4 production booking, no “nowinding fully clean” claim, and no “all gates PASS”
++language before `null_nojet/summary.json` and the four-branch production artifacts exist on disk.
++This remand does **not** halt the live A4 run; it only bars premature booking.
++
++**WHOSE_TURN →** Claude for NEXT ISSUE on this partial if not yet filed; otherwise Grok continues A4 compute.
++
++### REFEREE R1-quantum-chsh-cure @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-quantum-chsh-cure:** **AGREE** as a process cure.
++
++**Record basis verified:**
++- `scripts/quantum_chsh_tsirelson.py` header now cites **Chen, Pan, Hou & Zhang, Phys. Rev. Lett. 88, 040406 (2002)** and `arXiv:quant-ph/0103051`.
++- The same header includes the required content boundary: the CHSH curve is a literature property
++  of TMSV, the model claim is only the `r` identification, and Tsirelson saturation is **not**
++  presented as a model prediction.
++- The script still states that it does **not** derive QM; Born rule, Page curve, and Hilbert-space
++  selection remain open.
++
++**Ruling:** cure accepted for attribution and boundary discipline only. This is **not** a grade bump
++and **not** a closure of the open quantum residuals.
++
++**WHOSE_TURN →** Grok continues A4 + Page-plan work only; Claude may still attack any later overclaim.
++
++### REFEREE R1-no-fabrications @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the owner’s **NO FABRICATIONS** order is binding on all three seats.
++
++**Record basis:** `docs/working_logs/_runs/quantum_null_hardening_20260803/NO_FABRICATION.md`
++and the live tribunal rule text now on file. Source-backed numbers, honest OPEN residuals, and
++non-inflated packaging are mandatory. Born, Page, forward `ω_J`, Koide node, and bounce `H_re`
++remain open until actually closed in record.
++
++**Process consequence:** honesty/process strength stays usable only if no seat invents numbers,
++smuggles literature as discovery, or promotes scaffolds/partials into booked results.
++
++### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the overall grade **4/10 still stands**.
++
++| Axis | Score | Status |
++|---|---:|---|
++| Overall | **4/10** | **Standing** |
++| Honesty / process | **6/10** | preserve |
++| Claim credibility | **3/10** | still the gap |
++
++Neither the partial A4 record nor the CHSH attribution cure raises this standing. Thread-closure,
++instrument verification, and null-hardening are not automatic external validation. No packaging
++theater is permitted against this scorecard.
++
++### REFEREE R1-c-code-verify @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** the limited claim in `c_code_model_verify_20260803/REPORT.md`:
++production CLASS C matches the **as-built dCDF model**, with documented side channels.
++
++**Scope fence:** this is a code/model conformance ruling, not a full-theory confirmation. The report’s
++spot checks for barotropic `w`, `c_s^2 ≡ 0`, thaw blindness of the `w_dcdf` column, and conversion
++path are enough for that limited claim and no more.
++
++### REFEREE R1-bbn-eps-recompute @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** as a **thin external recompute win**, not as a theory proof.
++
++**Record basis:** `hard_win3_bbn_eps_recompute_20260803/REPORT.md` supports the outsider-recomputable
++arithmetic claim that the **2σ** ceiling is **3.196%**, matching the paper’s **3.20%** statement.
++The same report correctly keeps EMPRESS out of the upper-bound claim.
++
++**Standing effect:** useful toward external credibility discipline, but by itself it does **not**
++raise the tribunal’s **4/10** overall standing.
+apply_patch(auto_approved=true) exited 0 in 179ms:
+Success. Updated the following files:
+M ForGrok&Claude.md
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index f71c02167e3b4ce6472a86eaa86974b1aed8d5b7..b4b8edd7c2be71556fc02c40637858d7be1783b2
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -2615,3 +2615,85 @@
+ | Bookings | **none** this cycle |
+ 
+ **NO FABRICATIONS** standing. Blue continues A4 to full TC; red/ref attack partials now.
++
++### REFEREE R1-t14-i6-partial-nowinding @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-t14-i6-partial-nowinding:** **AGREE** as a **partial record only**.
++
++**Record basis verified:**
++- `null_nowinding/summary.json` supports elapsed **5684.48 s** and the selected null frames:
++  `n+0_f+1` at **t=1.0**, **H≈1.87e-15**, **drift_phys=3.983%**, `margin_ok=false`;
++  `n+0_f-1` at **t=0.25**, **H=0.0**, **drift_phys=7.305%**, `margin_ok=false`.
++- `t14_i6_partial_grade_20260803/REPORT.md` discloses the mid-branch `n+0_f-1` NaN frames and
++  correctly states that true-mirror checks are still missing/unmeasured on this null-only step.
++- The runner booking string is appropriately limited to bench/instrument language; it is not a
++  production sign booking.
++
++**REMAND:** no full A4 production booking, no “nowinding fully clean” claim, and no “all gates PASS”
++language before `null_nojet/summary.json` and the four-branch production artifacts exist on disk.
++This remand does **not** halt the live A4 run; it only bars premature booking.
++
++**WHOSE_TURN →** Claude for NEXT ISSUE on this partial if not yet filed; otherwise Grok continues A4 compute.
++
++### REFEREE R1-quantum-chsh-cure @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-quantum-chsh-cure:** **AGREE** as a process cure.
++
++**Record basis verified:**
++- `scripts/quantum_chsh_tsirelson.py` header now cites **Chen, Pan, Hou & Zhang, Phys. Rev. Lett. 88, 040406 (2002)** and `arXiv:quant-ph/0103051`.
++- The same header includes the required content boundary: the CHSH curve is a literature property
++  of TMSV, the model claim is only the `r` identification, and Tsirelson saturation is **not**
++  presented as a model prediction.
++- The script still states that it does **not** derive QM; Born rule, Page curve, and Hilbert-space
++  selection remain open.
++
++**Ruling:** cure accepted for attribution and boundary discipline only. This is **not** a grade bump
++and **not** a closure of the open quantum residuals.
++
++**WHOSE_TURN →** Grok continues A4 + Page-plan work only; Claude may still attack any later overclaim.
++
++### REFEREE R1-no-fabrications @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the owner’s **NO FABRICATIONS** order is binding on all three seats.
++
++**Record basis:** `docs/working_logs/_runs/quantum_null_hardening_20260803/NO_FABRICATION.md`
++and the live tribunal rule text now on file. Source-backed numbers, honest OPEN residuals, and
++non-inflated packaging are mandatory. Born, Page, forward `ω_J`, Koide node, and bounce `H_re`
++remain open until actually closed in record.
++
++**Process consequence:** honesty/process strength stays usable only if no seat invents numbers,
++smuggles literature as discovery, or promotes scaffolds/partials into booked results.
++
++### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the overall grade **4/10 still stands**.
++
++| Axis | Score | Status |
++|---|---:|---|
++| Overall | **4/10** | **Standing** |
++| Honesty / process | **6/10** | preserve |
++| Claim credibility | **3/10** | still the gap |
++
++Neither the partial A4 record nor the CHSH attribution cure raises this standing. Thread-closure,
++instrument verification, and null-hardening are not automatic external validation. No packaging
++theater is permitted against this scorecard.
++
++### REFEREE R1-c-code-verify @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** the limited claim in `c_code_model_verify_20260803/REPORT.md`:
++production CLASS C matches the **as-built dCDF model**, with documented side channels.
++
++**Scope fence:** this is a code/model conformance ruling, not a full-theory confirmation. The report’s
++spot checks for barotropic `w`, `c_s^2 ≡ 0`, thaw blindness of the `w_dcdf` column, and conversion
++path are enough for that limited claim and no more.
++
++### REFEREE R1-bbn-eps-recompute @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** as a **thin external recompute win**, not as a theory proof.
++
++**Record basis:** `hard_win3_bbn_eps_recompute_20260803/REPORT.md` supports the outsider-recomputable
++arithmetic claim that the **2σ** ceiling is **3.196%**, matching the paper’s **3.20%** statement.
++The same report correctly keeps EMPRESS out of the upper-bound claim.
++
++**Standing effect:** useful toward external credibility discipline, but by itself it does **not**
++raise the tribunal’s **4/10** overall standing.
+
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index f71c02167e3b4ce6472a86eaa86974b1aed8d5b7..b4b8edd7c2be71556fc02c40637858d7be1783b2
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -2615,3 +2615,85 @@
+ | Bookings | **none** this cycle |
+ 
+ **NO FABRICATIONS** standing. Blue continues A4 to full TC; red/ref attack partials now.
++
++### REFEREE R1-t14-i6-partial-nowinding @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-t14-i6-partial-nowinding:** **AGREE** as a **partial record only**.
++
++**Record basis verified:**
++- `null_nowinding/summary.json` supports elapsed **5684.48 s** and the selected null frames:
++  `n+0_f+1` at **t=1.0**, **H≈1.87e-15**, **drift_phys=3.983%**, `margin_ok=false`;
++  `n+0_f-1` at **t=0.25**, **H=0.0**, **drift_phys=7.305%**, `margin_ok=false`.
++- `t14_i6_partial_grade_20260803/REPORT.md` discloses the mid-branch `n+0_f-1` NaN frames and
++  correctly states that true-mirror checks are still missing/unmeasured on this null-only step.
++- The runner booking string is appropriately limited to bench/instrument language; it is not a
++  production sign booking.
++
++**REMAND:** no full A4 production booking, no “nowinding fully clean” claim, and no “all gates PASS”
++language before `null_nojet/summary.json` and the four-branch production artifacts exist on disk.
++This remand does **not** halt the live A4 run; it only bars premature booking.
++
++**WHOSE_TURN →** Claude for NEXT ISSUE on this partial if not yet filed; otherwise Grok continues A4 compute.
++
++### REFEREE R1-quantum-chsh-cure @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-quantum-chsh-cure:** **AGREE** as a process cure.
++
++**Record basis verified:**
++- `scripts/quantum_chsh_tsirelson.py` header now cites **Chen, Pan, Hou & Zhang, Phys. Rev. Lett. 88, 040406 (2002)** and `arXiv:quant-ph/0103051`.
++- The same header includes the required content boundary: the CHSH curve is a literature property
++  of TMSV, the model claim is only the `r` identification, and Tsirelson saturation is **not**
++  presented as a model prediction.
++- The script still states that it does **not** derive QM; Born rule, Page curve, and Hilbert-space
++  selection remain open.
++
++**Ruling:** cure accepted for attribution and boundary discipline only. This is **not** a grade bump
++and **not** a closure of the open quantum residuals.
++
++**WHOSE_TURN →** Grok continues A4 + Page-plan work only; Claude may still attack any later overclaim.
++
++### REFEREE R1-no-fabrications @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the owner’s **NO FABRICATIONS** order is binding on all three seats.
++
++**Record basis:** `docs/working_logs/_runs/quantum_null_hardening_20260803/NO_FABRICATION.md`
++and the live tribunal rule text now on file. Source-backed numbers, honest OPEN residuals, and
++non-inflated packaging are mandatory. Born, Page, forward `ω_J`, Koide node, and bounce `H_re`
++remain open until actually closed in record.
++
++**Process consequence:** honesty/process strength stays usable only if no seat invents numbers,
++smuggles literature as discovery, or promotes scaffolds/partials into booked results.
++
++### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the overall grade **4/10 still stands**.
++
++| Axis | Score | Status |
++|---|---:|---|
++| Overall | **4/10** | **Standing** |
++| Honesty / process | **6/10** | preserve |
++| Claim credibility | **3/10** | still the gap |
++
++Neither the partial A4 record nor the CHSH attribution cure raises this standing. Thread-closure,
++instrument verification, and null-hardening are not automatic external validation. No packaging
++theater is permitted against this scorecard.
++
++### REFEREE R1-c-code-verify @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** the limited claim in `c_code_model_verify_20260803/REPORT.md`:
++production CLASS C matches the **as-built dCDF model**, with documented side channels.
++
++**Scope fence:** this is a code/model conformance ruling, not a full-theory confirmation. The report’s
++spot checks for barotropic `w`, `c_s^2 ≡ 0`, thaw blindness of the `w_dcdf` column, and conversion
++path are enough for that limited claim and no more.
++
++### REFEREE R1-bbn-eps-recompute @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** as a **thin external recompute win**, not as a theory proof.
++
++**Record basis:** `hard_win3_bbn_eps_recompute_20260803/REPORT.md` supports the outsider-recomputable
++arithmetic claim that the **2σ** ceiling is **3.196%**, matching the paper’s **3.20%** statement.
++The same report correctly keeps EMPRESS out of the upper-bound claim.
++
++**Standing effect:** useful toward external credibility discipline, but by itself it does **not**
++raise the tribunal’s **4/10** overall standing.
+
+codex
+The blocks are in. I’m doing a final tail check now to make sure the tags, remand language, and standing grade landed exactly as intended in the live file.
+exec
+/bin/bash -lc "tail -n 220 'ForGrok&Claude.md'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+quantum wing for other uncited "standard" formulas — this is a class, not an instance.
+
+**(2) Born — PASS.** The one closure-adjacent line found is itself the honest flag ("VALUE
+reproduced, not re-derived — flagged plainly"). OPEN status intact everywhere checked.
+
+**(3) Page scaffold — PASS.** "NOT a result" in the docstring, "OPEN — not run" in the
+output, design-only in the program table, and P1 carries a pre-registered kill ("kill if no
+Page turn"). Exactly how a scaffold should be labeled.
+
+**WHOSE_TURN → Grok** (CHSH cure + Page path + A4). `>>REF`: batch.
+
+---
+
+### Note @FROM:GROK @TO:CHATGPT >>REF — quantum null-hardening available for batch
+
+When filing the REF batch: quantum wing now has code-backed CHSH/WKB/quarter checks.
+Still **interpretation + nulls**, not claim-credibility 8/10. Aligns with 4/10 honesty:
+discipline up; no fake measurement-problem solution.
+
+---
+exec
+/bin/bash -lc "rg -n \"REFEREE R1-(t14-i6-partial-nowinding|quantum-chsh-cure|no-fabrications|4-10-standing|c-code-verify|bbn-eps-recompute)\" 'ForGrok&Claude.md'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+2619:### REFEREE R1-t14-i6-partial-nowinding @FROM:CHATGPT @TO:ALL >>REF
+2638:### REFEREE R1-quantum-chsh-cure @FROM:CHATGPT @TO:ALL >>REF
+2655:### REFEREE R1-no-fabrications @FROM:CHATGPT @TO:ALL >>REF
+2667:### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF
+2681:### REFEREE R1-c-code-verify @FROM:CHATGPT @TO:ALL >>REF
+2690:### REFEREE R1-bbn-eps-recompute @FROM:CHATGPT @TO:ALL >>REF
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index f71c02167e3b4ce6472a86eaa86974b1aed8d5b7..b4b8edd7c2be71556fc02c40637858d7be1783b2
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -2615,3 +2615,85 @@
+ | Bookings | **none** this cycle |
+ 
+ **NO FABRICATIONS** standing. Blue continues A4 to full TC; red/ref attack partials now.
++
++### REFEREE R1-t14-i6-partial-nowinding @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-t14-i6-partial-nowinding:** **AGREE** as a **partial record only**.
++
++**Record basis verified:**
++- `null_nowinding/summary.json` supports elapsed **5684.48 s** and the selected null frames:
++  `n+0_f+1` at **t=1.0**, **H≈1.87e-15**, **drift_phys=3.983%**, `margin_ok=false`;
++  `n+0_f-1` at **t=0.25**, **H=0.0**, **drift_phys=7.305%**, `margin_ok=false`.
++- `t14_i6_partial_grade_20260803/REPORT.md` discloses the mid-branch `n+0_f-1` NaN frames and
++  correctly states that true-mirror checks are still missing/unmeasured on this null-only step.
++- The runner booking string is appropriately limited to bench/instrument language; it is not a
++  production sign booking.
++
++**REMAND:** no full A4 production booking, no “nowinding fully clean” claim, and no “all gates PASS”
++language before `null_nojet/summary.json` and the four-branch production artifacts exist on disk.
++This remand does **not** halt the live A4 run; it only bars premature booking.
++
++**WHOSE_TURN →** Claude for NEXT ISSUE on this partial if not yet filed; otherwise Grok continues A4 compute.
++
++### REFEREE R1-quantum-chsh-cure @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-quantum-chsh-cure:** **AGREE** as a process cure.
++
++**Record basis verified:**
++- `scripts/quantum_chsh_tsirelson.py` header now cites **Chen, Pan, Hou & Zhang, Phys. Rev. Lett. 88, 040406 (2002)** and `arXiv:quant-ph/0103051`.
++- The same header includes the required content boundary: the CHSH curve is a literature property
++  of TMSV, the model claim is only the `r` identification, and Tsirelson saturation is **not**
++  presented as a model prediction.
++- The script still states that it does **not** derive QM; Born rule, Page curve, and Hilbert-space
++  selection remain open.
++
++**Ruling:** cure accepted for attribution and boundary discipline only. This is **not** a grade bump
++and **not** a closure of the open quantum residuals.
++
++**WHOSE_TURN →** Grok continues A4 + Page-plan work only; Claude may still attack any later overclaim.
++
++### REFEREE R1-no-fabrications @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the owner’s **NO FABRICATIONS** order is binding on all three seats.
++
++**Record basis:** `docs/working_logs/_runs/quantum_null_hardening_20260803/NO_FABRICATION.md`
++and the live tribunal rule text now on file. Source-backed numbers, honest OPEN residuals, and
++non-inflated packaging are mandatory. Born, Page, forward `ω_J`, Koide node, and bounce `H_re`
++remain open until actually closed in record.
++
++**Process consequence:** honesty/process strength stays usable only if no seat invents numbers,
++smuggles literature as discovery, or promotes scaffolds/partials into booked results.
++
++### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the overall grade **4/10 still stands**.
++
++| Axis | Score | Status |
++|---|---:|---|
++| Overall | **4/10** | **Standing** |
++| Honesty / process | **6/10** | preserve |
++| Claim credibility | **3/10** | still the gap |
++
++Neither the partial A4 record nor the CHSH attribution cure raises this standing. Thread-closure,
++instrument verification, and null-hardening are not automatic external validation. No packaging
++theater is permitted against this scorecard.
++
++### REFEREE R1-c-code-verify @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** the limited claim in `c_code_model_verify_20260803/REPORT.md`:
++production CLASS C matches the **as-built dCDF model**, with documented side channels.
++
++**Scope fence:** this is a code/model conformance ruling, not a full-theory confirmation. The report’s
++spot checks for barotropic `w`, `c_s^2 ≡ 0`, thaw blindness of the `w_dcdf` column, and conversion
++path are enough for that limited claim and no more.
++
++### REFEREE R1-bbn-eps-recompute @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** as a **thin external recompute win**, not as a theory proof.
++
++**Record basis:** `hard_win3_bbn_eps_recompute_20260803/REPORT.md` supports the outsider-recomputable
++arithmetic claim that the **2σ** ceiling is **3.196%**, matching the paper’s **3.20%** statement.
++The same report correctly keeps EMPRESS out of the upper-bound claim.
++
++**Standing effect:** useful toward external credibility discipline, but by itself it does **not**
++raise the tribunal’s **4/10** overall standing.
+
+Plan update
+Evidence checks matched the live artifacts and the referee blocks were appended and verified in the tribunal log.
+  ✓ Read the cited production and quantum source artifacts for the new referee matters
+  ✓ Draft record-bound referee blocks with required tags and no new theory
+  ✓ Append the blocks to ForGrok&Claude.md and verify the final file tail
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index f71c02167e3b4ce6472a86eaa86974b1aed8d5b7..b4b8edd7c2be71556fc02c40637858d7be1783b2
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -2615,3 +2615,85 @@
+ | Bookings | **none** this cycle |
+ 
+ **NO FABRICATIONS** standing. Blue continues A4 to full TC; red/ref attack partials now.
++
++### REFEREE R1-t14-i6-partial-nowinding @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-t14-i6-partial-nowinding:** **AGREE** as a **partial record only**.
++
++**Record basis verified:**
++- `null_nowinding/summary.json` supports elapsed **5684.48 s** and the selected null frames:
++  `n+0_f+1` at **t=1.0**, **H≈1.87e-15**, **drift_phys=3.983%**, `margin_ok=false`;
++  `n+0_f-1` at **t=0.25**, **H=0.0**, **drift_phys=7.305%**, `margin_ok=false`.
++- `t14_i6_partial_grade_20260803/REPORT.md` discloses the mid-branch `n+0_f-1` NaN frames and
++  correctly states that true-mirror checks are still missing/unmeasured on this null-only step.
++- The runner booking string is appropriately limited to bench/instrument language; it is not a
++  production sign booking.
++
++**REMAND:** no full A4 production booking, no “nowinding fully clean” claim, and no “all gates PASS”
++language before `null_nojet/summary.json` and the four-branch production artifacts exist on disk.
++This remand does **not** halt the live A4 run; it only bars premature booking.
++
++**WHOSE_TURN →** Claude for NEXT ISSUE on this partial if not yet filed; otherwise Grok continues A4 compute.
++
++### REFEREE R1-quantum-chsh-cure @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-quantum-chsh-cure:** **AGREE** as a process cure.
++
++**Record basis verified:**
++- `scripts/quantum_chsh_tsirelson.py` header now cites **Chen, Pan, Hou & Zhang, Phys. Rev. Lett. 88, 040406 (2002)** and `arXiv:quant-ph/0103051`.
++- The same header includes the required content boundary: the CHSH curve is a literature property
++  of TMSV, the model claim is only the `r` identification, and Tsirelson saturation is **not**
++  presented as a model prediction.
++- The script still states that it does **not** derive QM; Born rule, Page curve, and Hilbert-space
++  selection remain open.
++
++**Ruling:** cure accepted for attribution and boundary discipline only. This is **not** a grade bump
++and **not** a closure of the open quantum residuals.
++
++**WHOSE_TURN →** Grok continues A4 + Page-plan work only; Claude may still attack any later overclaim.
++
++### REFEREE R1-no-fabrications @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the owner’s **NO FABRICATIONS** order is binding on all three seats.
++
++**Record basis:** `docs/working_logs/_runs/quantum_null_hardening_20260803/NO_FABRICATION.md`
++and the live tribunal rule text now on file. Source-backed numbers, honest OPEN residuals, and
++non-inflated packaging are mandatory. Born, Page, forward `ω_J`, Koide node, and bounce `H_re`
++remain open until actually closed in record.
++
++**Process consequence:** honesty/process strength stays usable only if no seat invents numbers,
++smuggles literature as discovery, or promotes scaffolds/partials into booked results.
++
++### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the overall grade **4/10 still stands**.
++
++| Axis | Score | Status |
++|---|---:|---|
++| Overall | **4/10** | **Standing** |
++| Honesty / process | **6/10** | preserve |
++| Claim credibility | **3/10** | still the gap |
++
++Neither the partial A4 record nor the CHSH attribution cure raises this standing. Thread-closure,
++instrument verification, and null-hardening are not automatic external validation. No packaging
++theater is permitted against this scorecard.
++
++### REFEREE R1-c-code-verify @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** the limited claim in `c_code_model_verify_20260803/REPORT.md`:
++production CLASS C matches the **as-built dCDF model**, with documented side channels.
++
++**Scope fence:** this is a code/model conformance ruling, not a full-theory confirmation. The report’s
++spot checks for barotropic `w`, `c_s^2 ≡ 0`, thaw blindness of the `w_dcdf` column, and conversion
++path are enough for that limited claim and no more.
++
++### REFEREE R1-bbn-eps-recompute @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** as a **thin external recompute win**, not as a theory proof.
++
++**Record basis:** `hard_win3_bbn_eps_recompute_20260803/REPORT.md` supports the outsider-recomputable
++arithmetic claim that the **2σ** ceiling is **3.196%**, matching the paper’s **3.20%** statement.
++The same report correctly keeps EMPRESS out of the upper-bound claim.
++
++**Standing effect:** useful toward external credibility discipline, but by itself it does **not**
++raise the tribunal’s **4/10** overall standing.
+
+codex
+Appended the referee blocks to [ForGrok&Claude.md](/home/themilkmanj/prtoe_class/ForGrok&Claude.md:2619) after verifying the cited records. Filed: `R1-t14-i6-partial-nowinding`, `R1-quantum-chsh-cure`, `R1-no-fabrications`, `R1-4-10-standing`, plus short-form `R1-c-code-verify` and `R1-bbn-eps-recompute`.
+
+REMAND conditions on the partial A4 matter:
+- No full A4 production booking before `null_nojet/summary.json` exists and the four-branch production artifacts are on disk.
+- No “nowinding fully clean” claim while the mid-branch `n+0_f-1` NaN frames remain part of the disclosed record.
+- No “all gates PASS” language from the partial record.
+- The remand does not halt A4; it only bars premature booking.
+
+Standing filed as unchanged: overall `4/10`, honesty/process `6/10`, claim credibility `3/10`. WHOSE_TURN filed as: Claude owes NEXT ISSUE on the partial if not yet filed; otherwise Grok continues A4 compute.
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index f71c02167e3b4ce6472a86eaa86974b1aed8d5b7..b4b8edd7c2be71556fc02c40637858d7be1783b2
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -2615,3 +2615,85 @@
+ | Bookings | **none** this cycle |
+ 
+ **NO FABRICATIONS** standing. Blue continues A4 to full TC; red/ref attack partials now.
++
++### REFEREE R1-t14-i6-partial-nowinding @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-t14-i6-partial-nowinding:** **AGREE** as a **partial record only**.
++
++**Record basis verified:**
++- `null_nowinding/summary.json` supports elapsed **5684.48 s** and the selected null frames:
++  `n+0_f+1` at **t=1.0**, **H≈1.87e-15**, **drift_phys=3.983%**, `margin_ok=false`;
++  `n+0_f-1` at **t=0.25**, **H=0.0**, **drift_phys=7.305%**, `margin_ok=false`.
++- `t14_i6_partial_grade_20260803/REPORT.md` discloses the mid-branch `n+0_f-1` NaN frames and
++  correctly states that true-mirror checks are still missing/unmeasured on this null-only step.
++- The runner booking string is appropriately limited to bench/instrument language; it is not a
++  production sign booking.
++
++**REMAND:** no full A4 production booking, no “nowinding fully clean” claim, and no “all gates PASS”
++language before `null_nojet/summary.json` and the four-branch production artifacts exist on disk.
++This remand does **not** halt the live A4 run; it only bars premature booking.
++
++**WHOSE_TURN →** Claude for NEXT ISSUE on this partial if not yet filed; otherwise Grok continues A4 compute.
++
++### REFEREE R1-quantum-chsh-cure @FROM:CHATGPT @TO:ALL >>REF
++
++**TASK COMPLETE R1-quantum-chsh-cure:** **AGREE** as a process cure.
++
++**Record basis verified:**
++- `scripts/quantum_chsh_tsirelson.py` header now cites **Chen, Pan, Hou & Zhang, Phys. Rev. Lett. 88, 040406 (2002)** and `arXiv:quant-ph/0103051`.
++- The same header includes the required content boundary: the CHSH curve is a literature property
++  of TMSV, the model claim is only the `r` identification, and Tsirelson saturation is **not**
++  presented as a model prediction.
++- The script still states that it does **not** derive QM; Born rule, Page curve, and Hilbert-space
++  selection remain open.
++
++**Ruling:** cure accepted for attribution and boundary discipline only. This is **not** a grade bump
++and **not** a closure of the open quantum residuals.
++
++**WHOSE_TURN →** Grok continues A4 + Page-plan work only; Claude may still attack any later overclaim.
++
++### REFEREE R1-no-fabrications @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the owner’s **NO FABRICATIONS** order is binding on all three seats.
++
++**Record basis:** `docs/working_logs/_runs/quantum_null_hardening_20260803/NO_FABRICATION.md`
++and the live tribunal rule text now on file. Source-backed numbers, honest OPEN residuals, and
++non-inflated packaging are mandatory. Born, Page, forward `ω_J`, Koide node, and bounce `H_re`
++remain open until actually closed in record.
++
++**Process consequence:** honesty/process strength stays usable only if no seat invents numbers,
++smuggles literature as discovery, or promotes scaffolds/partials into booked results.
++
++### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** the overall grade **4/10 still stands**.
++
++| Axis | Score | Status |
++|---|---:|---|
++| Overall | **4/10** | **Standing** |
++| Honesty / process | **6/10** | preserve |
++| Claim credibility | **3/10** | still the gap |
++
++Neither the partial A4 record nor the CHSH attribution cure raises this standing. Thread-closure,
++instrument verification, and null-hardening are not automatic external validation. No packaging
++theater is permitted against this scorecard.
++
++### REFEREE R1-c-code-verify @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** the limited claim in `c_code_model_verify_20260803/REPORT.md`:
++production CLASS C matches the **as-built dCDF model**, with documented side channels.
++
++**Scope fence:** this is a code/model conformance ruling, not a full-theory confirmation. The report’s
++spot checks for barotropic `w`, `c_s^2 ≡ 0`, thaw blindness of the `w_dcdf` column, and conversion
++path are enough for that limited claim and no more.
++
++### REFEREE R1-bbn-eps-recompute @FROM:CHATGPT @TO:ALL >>REF
++
++**Ruling:** **AGREE** as a **thin external recompute win**, not as a theory proof.
++
++**Record basis:** `hard_win3_bbn_eps_recompute_20260803/REPORT.md` supports the outsider-recomputable
++arithmetic claim that the **2σ** ceiling is **3.196%**, matching the paper’s **3.20%** statement.
++The same report correctly keeps EMPRESS out of the upper-bound claim.
++
++**Standing effect:** useful toward external credibility discipline, but by itself it does **not**
++raise the tribunal’s **4/10** overall standing.
+
+tokens used
+30,660
+Appended the referee blocks to [ForGrok&Claude.md](/home/themilkmanj/prtoe_class/ForGrok&Claude.md:2619) after verifying the cited records. Filed: `R1-t14-i6-partial-nowinding`, `R1-quantum-chsh-cure`, `R1-no-fabrications`, `R1-4-10-standing`, plus short-form `R1-c-code-verify` and `R1-bbn-eps-recompute`.
+
+REMAND conditions on the partial A4 matter:
+- No full A4 production booking before `null_nojet/summary.json` exists and the four-branch production artifacts are on disk.
+- No “nowinding fully clean” claim while the mid-branch `n+0_f-1` NaN frames remain part of the disclosed record.
+- No “all gates PASS” language from the partial record.
+- The remand does not halt A4; it only bars premature booking.
+
+Standing filed as unchanged: overall `4/10`, honesty/process `6/10`, claim credibility `3/10`. WHOSE_TURN filed as: Claude owes NEXT ISSUE on the partial if not yet filed; otherwise Grok continues A4 compute.

@@ -1,0 +1,96 @@
+==============================================================================
+(1) THE IDENTIFICATION MAKES A = sqrt2 AND w = 1/3 ONE STATEMENT
+==============================================================================
+  With K ~ R^2 and V ~ M^2 (raw amplitudes), w = (K - V)/(K + V) = (A^2 - 1)/(A^2 + 1).
+
+           A      A^2            w    Q = 1 - w   A^2 vs (1-w)/w
+  --------------------------------------------------------------
+    1.000000   1.0000   0.00000000   1.00000000              inf
+    1.200000   1.4400   0.18032787   0.81967213       4.54545455
+    1.414214   2.0000   0.33333333   0.66666667       2.00000000
+    1.500000   2.2500   0.38461538   0.61538462       1.60000000
+    2.000000   4.0000   0.60000000   0.40000000       0.66666667
+
+  At A = sqrt2 exactly:  w = 0.333333333333 = 1/3,  Q = 1 - w = 0.666666666667 = 2/3
+  and the recorded compression A^2 = (1-w)/w returns 2.000000000000 = 2.
+
+  So the identification is a two-way bridge: derive A = sqrt2 and w = 1/3 follows;
+  derive w = 1/3 and A = sqrt2 follows. The corpus has recorded this; it is restated
+  here only to fix what the debt is actually buying.
+
+==============================================================================
+(2) THE GRAPH HAS EXACTLY TWO ENERGY TERMS, AND THEY ARE OF THE TWO NAMED KINDS
+==============================================================================
+  The democratic construction's energy is
+
+      H = (g/2) [ sum_{i<j} (f_i - f_j)^2   +   sum_i (f_i - 0)^2 ]
+                   ^^^^^^^^^^^^^^^^^^^^         ^^^^^^^^^^^^^^^^^
+                   generations differ           displacement from
+                   from EACH OTHER              the CONDENSATE
+
+  Those are not two arbitrary terms. One measures internal relative structure; the other
+  measures displacement against the background the generations are excitations of. That
+  is precisely the kinetic/potential split the identification names -- 'fluctuation' and
+  'background' are the graph's two bond types, not labels imposed on one expression.
+
+  And the two terms are diagonal in exactly the two sectors:
+    the CONDENSATE bond contributes to BOTH modes (it is a diagonal a on every site);
+    the INTER-GENERATION bonds contribute ONLY to the non-uniform modes (lambda_0 = 0).
+      uniform (M)    eps_q = a + b*lambda_0 = a + 0b   -> at a = b:  1 a
+      shape (R)      eps_q = a + b*lambda_1 = a + 3b   -> at a = b:  4 a
+
+  So the uniform mode is held ONLY by the condensate bond, and the shape modes are held
+  by the condensate bond plus three times the inter-generation bond. The split is clean
+  in one direction and not in the other, and that asymmetry is the whole content below.
+
+==============================================================================
+(3) WHERE IT FALLS SHORT — AND THE SHORTFALL IS EXACT
+==============================================================================
+  If the identification were simply 'condensate bond = V, inter-generation bonds = K',
+  then at a = b the two energies at the null (M_c = R_c, i.e. equal canonical amplitudes)
+  would stand in the ratio:
+
+    E(uniform sector) = (1/2) eps_0 M_c^2 = 0.500000   (eps_0 = a)
+    E(shape sector)   = (1/2) eps_1 R_c^2 = 2.000000   (eps_1 = 4a)
+    ratio K/V would be 4.000000
+    -> w = 0.600000, not 1/3
+
+  So the sector ENERGIES do not give w = 1/3. What does is the identification as the
+  corpus actually writes it -- on the raw AMPLITUDES, K ~ R^2 and V ~ M^2, not on the
+  sector energies. In raw amplitudes the null is R^2 = 2 M^2 and w = 1/3 immediately:
+    R^2/M^2 = 2.0000  ->  w = (R^2 - M^2)/(R^2 + M^2) = 0.333333333333
+
+  The distinction is not pedantic. An energy carries its stiffness; an amplitude does
+  not. The identification asserts that the field's kinetic and potential energies are
+  proportional to R^2 and M^2 WITH THE SAME COEFFICIENT -- and the graph says the two
+  sectors have stiffnesses differing by exactly 4. Those cannot both be true unless the
+  cosmological K and V are read off the amplitudes before the ring's stiffnesses are
+  applied, i.e. at the moment the amplitudes are set rather than in the settled ring.
+
+==============================================================================
+VERDICT — THE DEBT IS SHARPENED, NOT PAID
+==============================================================================
+  WHAT THE GRAPH SUPPLIES: the two objects the identification names. Before this, 'the
+  background' and 'the fluctuation' were two aspects of one unbuilt potential; the
+  construction exhibits them as two BOND TYPES -- displacement against the condensate,
+  and generations differing from each other -- with the uniform mode held by the first
+  alone. The identification is no longer between a spectrum and an unbuilt Lagrangian;
+  it is between a spectrum and two terms that exist.
+
+  WHAT IT DOES NOT SUPPLY: the equal-coefficient clause. K ~ R^2 and V ~ M^2 with a
+  COMMON constant is what delivers w = 1/3, and the graph's two sectors carry stiffnesses
+  in the ratio 4. Reading K and V off the amplitudes rather than the
+  energies is therefore a real additional claim, and it is a claim about WHEN the
+  equation of state is read -- at the pour, when amplitudes are set, or later in the
+  settled ring.
+
+  THAT IS THE SAME FORK AS EVERYTHING ELSE IN THIS ARC. The assembly-order question
+  (task #1) asks when the stiffnesses split relative to when the energy arrives. This
+  asks when the equation of state is read relative to the same split. **One ordering
+  answers both**, which is worth more than either answer alone: pour while degenerate,
+  read w there, then split -- and at degeneracy the stiffnesses are equal, so the
+  equal-coefficient clause the identification needs holds exactly, for the same reason
+  every delivery law agreed there.
+
+  That last sentence is a candidate, not a result. It is written down because it is
+  checkable and because it would close the identification if it survives.

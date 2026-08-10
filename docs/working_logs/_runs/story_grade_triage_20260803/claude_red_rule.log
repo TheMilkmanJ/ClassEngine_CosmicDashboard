@@ -1,0 +1,102 @@
+# Claude pure-RED audit — STORY_GRADE_ELEVATION_RULE.md + flagship example ledger (2026-08-03)
+
+Seat: Claude (CLI), pure red, R1-story-grade-rule (ForGrok&Claude.md ~L3117).
+Files read in full: STORY_GRADE_ELEVATION_RULE.md; PRTOE_cyclic_torus_genesis.md (246 lines,
+incl. ledger); TASK COMPLETE block. Evidence opened before grading: MATH_SPINE §7d (L414–454);
+PREREGISTERED_PREDICTIONS P-2026-003 (L93–112), P-2026-013 (L451–490), P-2026-018/P-2026-056
+block (L1846–1937), comb entry (L840–864); PRTOE_cosmological_constant.md L148–167, L435–459;
+PRTOE_FAILURES_LEDGER.md birefringence hits; _FILE_COMPLETION_STATUS.md L97; INVENTORY.md L56;
+exploratory/README.md L110; NO_FABRICATION.md path existence.
+
+## Verified CLEAN (reported faithfully — red does not invent problems)
+
+- C2 ("negative bare vacuum needed for true turn", derived, MATH_SPINE §7d): §7d exists and
+  contains exactly this derivation, including a_turn = [1 − thaw⁻¹·ln(B/(1+B))]^(1/3) and the
+  16–26 Gyr / a ≈ 2.0–2.8 timing quoted in the genesis banner and §4 update. No drift.
+- C1 (story), C5 (OPEN-BLOCKED) honest as graded. C6's refusal to book a living win is honest.
+- _FILE_COMPLETION_STATUS.md L97 tags the genesis file OPEN-THEORY / "self-graded story-grade
+  arc" — no COMPLETE smuggle on the status surface today.
+- Rule §8 standing links all resolve (NO_FABRICATION.md, Failures, exploratory README → rule).
+- INVENTORY.md exists; genesis row L56 (story-voice / story-self-graded / elevate-in-place)
+  consistent with pre-elevation heuristic.
+- No 4/10 inflation anywhere sampled; TASK COMPLETE holds it explicitly.
+
+## FINDINGS
+
+### R1 — grade table not closed (rule §2)
+The flagship example already uses two grades absent from §2: C3 "estimate", C6
+"failed/provisional-dead". An open grade vocabulary is the smuggle channel: anything can be an
+"estimate", and a hybrid like "failed/provisional-dead" dodges the §2 rule that "failed /
+retired ... must point at Failures Ledger". Cure: grades outside §2 are void — a row wearing
+one counts as UNGRADED, and the file drops below above-story discipline until fixed.
+
+### R2 — complete-conditional is self-referential (rule §2)
+"Job finished at stated grade; conditionals explicit" — stated where? The grade cell contains
+only "complete-conditional", so nothing pins WHICH job finished at WHICH grade, and
+"conditionals explicit" is unenforceable. C4 is the live exploit (below). Cure: the row must
+name the finished job + its grade, and the residual cell must enumerate the conditionals.
+
+### R3 — status-surface compression (rule §5.4)
+§5.1 forces the discipline/physics split in INVENTORY.md; §5.4 ("update
+_FILE_COMPLETION_STATUS.md") does not. Today's entry is honest; the rule doesn't force
+tomorrow's to be. Cure: any status surface recording a discipline grade must record the
+physics ceiling in the same row.
+
+### L1 (MAIN) — C4 evidence mis-anchored; operative conditional suppressed
+C4: "Twist-floor DE: w₀ > −1 thawing as testable edge | complete-conditional | companions CC
+file; P-2026-013 | Occupancy / full bounce OPEN".
+- The CC companion's standing text is the OPPOSITE branch: "w = −1 exactly (a ground state,
+  not a rolling field)" and "The dark-energy floor cannot 'thaw' into dynamics (a
+  pre-registered zero...)" (PRTOE_cosmological_constant.md §3, L157–159), with thaw ≠ 0 among
+  its §5 kill conditions.
+- P-2026-013 is the topology bet; zero DE-equation-of-state content.
+- The register's honest anchor is P-2026-056 (XOR), whose declared prior is "P-2026-018 is
+  the standing branch" — w = −1 exact. Thaw-side confirmation KILLS P-2026-018. No standalone
+  twist-floor thaw prediction ID exists (grep verified).
+- The file's own Overall status says "The next step is to derive that w(z) as forced and
+  confront it with DESI" — so which job is "complete"?
+Not fabricated physics — the twist-floor thaw claim is real and P-2026-003 already carved the
+thaw window as not-this-medium's — but the row cites two documents that do not support it and
+omits the one conditional that matters most: the register currently stands on w = −1.
+Demand: re-point evidence at P-2026-056 + the CC §5 falsification block; add the XOR to the
+residual cell; name the finished job — or downgrade the row.
+
+### L2 — P-2026-013 hardened in retelling (§8 + preamble)
+Register entry: "closed/compact ... (3-sphere / 3-torus)", "COHERENCE LEAN — the softest
+evidential class in this registry", "NOT a hard derivation", primary handle Ω_k < 0;
+motivations finitism + no-center + census-net-0. Genesis §8: "The torus was already the
+registered shape: P-2026-013, a flat 3-torus", motivations "finitism, no-center, H₀-safe".
+Two hardenings: (i) a two-option lean becomes a specific registered shape (a flat 3-torus has
+Ω_k = 0 — not the entry's primary handle); (ii) the convergence claim overstates — genesis §7
+kills the sphere (H = 0), so the genesis SELECTS between the register's two options rather
+than converging on an already-registered torus. The flat-torus specialization does exist in
+later register strata (comb entry, L ≥ 27.6 Gpc) — cite those if the phrasing stays.
+
+### L3 — ledger coverage under-claims its own banner
+Banner: "every load-bearing claim graded". Missing rows: the file's own "What survives as
+genuine" triple (clamp-artifact/field slow-roll; forced-thawing direction; sphere-zero /
+torus-max helicity theorem); the §8 quadrupole numbers (retention 0.90 at L = 27.6 Gpc,
+0.16σ) carry no row and no artifact path (machine-backed grade requires a named path); the
+birefringence arc's gate results and Barr-Zee EDM numbers are compressed into one row against
+§3 Step 4 (split mixed files at row level). Cure: add rows or soften the banner to
+"arc-level claims graded".
+
+### E1 — Failures vs exploratory edge: sharp at file level, NOT at row level
+The §4 table is good (killed vs living; never delete). But "dead at amplitude, escape alive,
+pending referees" has no home, and the flagship example immediately invented one (C6). Cure:
+a failed-at-X grade must (a) point a Failures row at the dead sub-route (here: the
+universal-lepton-coupling road), (b) carry the surviving sub-route as OPEN-BLOCKED with the
+blocker named (the referees → WATCH-EXTERNAL).
+
+### Process notes (for REF)
+- Rule §3 Step 3 hardcodes its flagship example's destination ("e.g. cyclic arc") — rule and
+  example are the same pen; the sample audit cannot fail a triage the rule pre-decides.
+- Rule §4 "Red does not attack that recategorization": owner authority over predictions
+  hygiene accepted; a blue-filed rule does not define red's jurisdiction. Red retains audit
+  of EXECUTION (row exists, reason faithful) even where the decision is owner's.
+- WATCH-EXTERNAL lists "Fairbank": an endorsement watch is not a paydown path — if paid it
+  enables no elevation. Move endorsement watches out of the blocker classes.
+
+## Verdict summary
+Rule: AGREE-IF (R1, R2, R3). Edge: AGREE file-level, cure row-level (E1). Ledger: REMAND C4
+(L1), cure L2/L3. 4/10 stands. Sample-audit of 3 elevated files still owed when pass-2 lands.

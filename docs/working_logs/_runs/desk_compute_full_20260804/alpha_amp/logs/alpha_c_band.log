@@ -1,0 +1,54 @@
+============================================================================
+THE THREE VALUES
+============================================================================
+  alpha_c recorded  = d.alpha(0), d = 3      0.021892
+  alpha_c the anchor's exact landing needs   0.021316
+  the indirect band                          [0.0205, 0.0214]
+
+============================================================================
+WHERE EACH FALLS AGAINST THE BAND
+============================================================================
+  the anchor's value is INSIDE the band, at 90.7% of its height
+  the recorded value is OUTSIDE the band, 2.30% above its top   (registry records 2.3%)
+
+  so the two constraints agree with each other and disagree with d.alpha(0) in the
+  same direction: the anchor wants alpha_c 2.63% below the recorded value,
+  and the band's top is 2.25% below it.
+
+============================================================================
+THE BAND EXCLUDES d = 3 AT EVERY SCALE, NOT JUST AT alpha(0)
+============================================================================
+  alpha strengthens toward the ultraviolet, so alpha(mu) >= alpha(0) for all mu, and
+  3.alpha(mu) >= 3.alpha(0) with equality only in the infrared limit. The smallest
+  value the identification can ever take is therefore the one it already takes:
+
+    min over mu of 3.alpha(mu) = 3.alpha(0) = 0.021892
+    band top                                = 0.021400
+    the minimum exceeds the band top by       2.30%
+
+  No choice of scale brings 3.alpha inside the band. The exclusion is of the
+  IDENTIFICATION, not of a particular evaluation of it -- which is the same shape as
+  the anchor's own bound, where 1/alpha = 140.74 lies past the infrared cap 137.036.
+
+============================================================================
+WHAT d THE BAND PERMITS
+============================================================================
+  writing alpha_c = d.alpha(0), the band maps to   d in [2.8092, 2.9326]
+  the anchor's exact landing corresponds to        d  = 2.9211
+  the recorded value                               d  = 3.0000   EXCLUDED
+
+  d = 3 misses the permitted interval by 2.30%. Nothing simple sits inside
+  it: the interval's centre is 2.8709, with e = 2.7183 below it and 3 above.
+
+============================================================================
+READING
+============================================================================
+  This does not touch alpha_c's VALUE, which both constraints put near 0.0213 -- within
+  2.6% of the recorded number and comfortably inside the band. What it bears on is the
+  IDENTIFICATION alpha_c = 3.alpha, which is section 6f's horn (a): the coupling being
+  genuinely electromagnetic. Two independent constraints now push the same way and
+  neither can be satisfied by choosing a different scale for alpha.
+
+  Horn (b) -- alpha_c a medium constant that merely sits near 3.alpha(0) -- absorbs both
+  without strain, since a medium constant is free to be 0.0213. The convergence is
+  therefore evidence on the fork, and it points at (b).

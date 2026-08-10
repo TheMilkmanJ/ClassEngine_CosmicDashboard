@@ -18,7 +18,7 @@ falsifiable commitment) · mover (active evidence channel).
 
 | # | Domain | Verdict | One-line result | Recorded in |
 |---|--------|---------|-----------------|-----------|
-| 1 | Cosmology (CMB/BAO/SN background) | mover | The model: H₀ ≈ 69.9 (provisional, being re-measured), S₈ eased, plik better than ΛCDM's own. **The live test carries ε pinned at the derived value, not floated** — zero extra parameters, not +1. Laplace ΔlnZ = +2.635, suggestive and SH0ES-dependent — **and the Laplace is where the verdict rests**; PolyChord nested sampling is offline (ended 2026-07-20; cluster re-run deferred); the evidence claim sharpens when the production bbnfix pair converges (R−1 still above stop) | the headline-result document (v5_dCDF_complete, archived) |
+| 1 | Cosmology (CMB/BAO/SN background) | mover | The old-BAO production `bbnfix` pair is now **BOOKED** (three-rank GetDist, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**, `m_ncdm = 0.0671 ± 0.0583`, **S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**, `m_ncdm = 0.0192 ± 0.0174`, **S₈ = 0.824 ± 0.0081**. But the evidence class is still weak: the booked old-BAO sample-covariance Laplace is only **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸**, so the older **+2.635** line is historical rather than the current booked-pair authority. The **current** live MCMC stack is DESI-DR2 (`bao.desi_dr2.desi_bao_all`): dyad/lcdm twins are still **not bookable**. The intended nested referee is a **four-leg** DESI-DR2 PolyChord program (SH0ES dyad/lcdm + TRGB dyad/lcdm), **designed not launched** while quota waits. No nested verdict. | the headline-result document (v5_dCDF_complete, archived); [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md) |
 | 2 | BBN / nuclear astrophysics | **awaiting measurement** | Deuterium row −2.5 to −1.4σ (2.407–2.463 across the genesis window, full budget: obs ±0.030 ⊕ post-LUNA theory ±0.037); helium pays at +1.3 to +2.0σ. **The absolute σ is set by d(d,n)³He, unmeasured** — the row spans −3.6σ to −1.6σ across the literature's four rate-error assessments (P-2026-058). The model's 0.62σ deficit against its own ΛCDM control is compilation-robust and does not wait | [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md) + the headline-result document §11 |
 | 3 | Dark energy | bet | The floor is exactly Λ — no evolution, no phantom crossing; model votes against DESI DR2's 3.1σ preference (standing bet #3) | atlas: the biggest mystery |
 | 4 | Vacuum energy / cc problem | door (coherence) | Old half: zero-point = virtual fluctuations, never realized (＋Jacobson, ＋Jaffe); new half: kernel-sourced — ρ_Λ¼ = 2.2599 meV, +0.44% **as an existence claim, not a precision one** (the radiative correction is bounded at 0.10–0.90%, comparable to the gap; the control-edge re-examination in the dark-energy file), lattice-refereed on τ alone (P-2026-048), with the portal √σ_dark = m_e the one irreducible input | atlas: the biggest mystery + the headline-result document |
@@ -29,7 +29,7 @@ falsifiable commitment) · mover (active evidence channel).
 | 9 | BH superradiance / spin archaeology | door (live now) | The model faces this test as a free scalar. At λ ≈ 2×10⁻⁹¹ the quartic is 85 decades too weak to quench a growing cloud (`scripts/superradiance_quench.py`), so there is no self-interaction shield and no free-vs-condensate discriminator — whatever a spin measurement does to free FDM in this band, it does to the model. **At the recorded ultralight mass the test has moved**: that mass sits an order above the earlier [1,3]×10⁻²¹ band, so M87*-class holes are past the superradiant window rather than inside it, and the live confrontation is with black holes between **6×10⁸ and 3×10⁹ M☉** — inside the window, and carrying high measured spins ([PRTOE_smbh_atoms.md](PRTOE_smbh_atoms.md)). Still the model's most immediate dark-sector test, now aimed at a different mass decade | atlas + Room 1 A6a |
 | 10 | Gravitational waves / PTA | dead (honest headstone) | Channel killed by mass at the audited band: the medium rings (97.6% of the scanned range) but pulsar timing cannot hear it — the silence is instrumental, not a property of the amplitude | Room 1 audit + ANN-2026-011 |
 | 11 | Inflation / genesis | door | AD genesis: chaos in release angle, ε is set by the stochastic genesis draw; the Z4 tilt is an input (parity + renormalizability leave Z2 operators standing, so four-foldness is not selected); scrambler = depositor; recursion wall kept visible | Room 1 E3–E8, Room 4 |
-| 12 | Neutrino physics | mover (healthy post-surgery) | Posterior relaunched with seeded covmat (quasi-static chain caught and fixed; acceptance 0.92→0.21); collision resolved (ANN-2026-021): P-2026-004 falsified, meV whisper (Σm_ν≈61.4 meV, NO) stands — posterior now tests it | predictions doc; atlas whisper trial |
+| 12 | Neutrino physics | mover (healthy post-surgery) | Posterior relaunched with seeded covmat (quasi-static chain caught and fixed; acceptance 0.92→0.21); collision resolved (ANN-2026-021): P-2026-004 falsified, meV whisper (Σm_ν≈61.35 meV, NO) stands — posterior now tests it | predictions doc; atlas whisper trial |
 | 13 | Particle physics / constants | null (census) | Coupling census closed gravity-only (theorem grade); free-parameter family dead (α +433, Y_p pinned, Ω_k forbidden); m_e the one permitted modification | the headline-result document; five-verdict doc |
 | 14 | Antimatter physics | door | 30% of DM (a quarter of all matter) is never-annihilating dark antimatter; the antimatter question splits between sectors | atlas: burn set 3 |
 | 15 | Indirect detection / astroparticle | bet | No dark-sector signal ever — model votes astrophysics on GC excess, positrons, 3.5 keV (standing bet #2, kill-only) | atlas: burn set 3 |
@@ -46,22 +46,22 @@ falsifiable commitment) · mover (active evidence channel).
 | 26 | Cosmic strings / topological defects | null | Born condensed — U(1) never restored, δθ ~ 10⁻⁵ seeds no windings; no string network | Room 1 E7 |
 | 29 | Mathematics / golden ratio | null (mechanism-grade) | φ absent from the model's derived numbers; its two honest employers (anti-resonance, self-reference) use machinery the medium lacks | atlas nulls |
 | 30 | Time / emergence | calibration | Time, motion, and inertia emergent in the C1 census; Page–Wootters receipt (Moreva) | the headline-result document C1; references |
-| 32 | Strong CP | silence (COMPLETE-ABSTENTION) | Jurisdiction silence finished as abstention — θ̄ outside the model permanently; not a paper candidate | [PRTOE_strong_cp.md](PRTOE_strong_cp.md) |
+| 32 | Strong CP | silence (**COMPLETE-ABSTENTION**) | Jurisdiction silence finished as abstention — θ̄ outside the model permanently; not a paper candidate. **Seat itch registered 2026-08-04** (parity / missing EM-anomalous angular mode kinship only — **not** cyclic reverse; **not** a θ̄ solution) | [PRTOE_strong_cp.md](PRTOE_strong_cp.md); seat hunt: [`working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md`](working_logs/_runs/physics_improve_full_20260804/STRONG_CP_SEAT_HUNT.md) |
 | 33 | Colliders | silence | Gravity-only trivially passes collider nulls; no content claimed | atlas walls |
-| 33a | Hierarchy problem | **exploratory — content is claimed** | A pairing-gap anchor M ≈ 4π·m_H, with an electroweak-precision bound limiting the portal to at most two new doublets. Exploratory, not silent: §6f's three-horn fork is open and the α_c band is unconverged. This row previously read "untouched, no content claimed", which was wrong against one of the corpus's longest files | `PRTOE_hierarchy_problem.md` |
+| 33a | Hierarchy problem | **exploratory — content is claimed** | A pairing-gap anchor M ≈ 4π·m_H, with an electroweak-precision bound limiting the portal to at most two new doublets. Exploratory, not silent: §6f's three-horn fork is open and the α_c band is unconverged | `PRTOE_hierarchy_problem.md` |
 | 34 | Baryogenesis | door (named class) | Dark asymmetry-genesis = AD spiral (charge = abundance); visible baryogenesis untouched; the 5:1 ratio an honest input (ADM numerology null) | Room 1 R1.2/R1.8; atlas |
 | 35 | Quantum gravity phenomenology | calibration | Smooth-not-foamy (C3a); GRB 090510 linear LV > 1.2 E_Planck receipt | the headline-result document C3a; references |
+| 36 | Page curve / information (dynamical Q6) | **OPEN** | Dynamical Page curve **not closed**. Champion instrument `coevolve_v13` joint near-miss (T1–T6 PASS; T8 range/S* = **0.113**, need ≤0.10); `page_curve_claimed: false`; no standing CANDIDATE. Next unblock = licensed new microphysics only (D4 freeze stance). Not the Page–Wootters row (30) | [PRTOE_quantum_gravity.md](PRTOE_quantum_gravity.md) Q6; freeze: [`working_logs/_runs/page_full_freeze_20260804/REPORT.md`](working_logs/_runs/page_full_freeze_20260804/REPORT.md) |
 
-Reading the map (33 rows): 3 standing bets (labs, telescopes, Λ) · 1 live-now test
-(superradiance — **this row is weakened, 2026-07-28**: the "pinned three independent ways" claim was
-withdrawn by the circularity sweep, since the ξ leg is definitionally circular and the third leg is
-this very exposure. The mass now rests on the onset clock plus one unresolved consistency check, so
-the confrontation is **somewhat** relievable by moving m — and this cuts *against* the model's
-honesty position, not for it: a firmer pin made the adverse constraint bind harder) · 2 simulation-gated axes (granule ε-meter, sole; Room 5 χ-lag) · 1 dead
+Reading the map (34 rows; row 36 added 2026-08-04 as **OPEN** residual, **not** COMPLETE): 3 standing bets (labs, telescopes, Λ) · 1 live-now test
+(superradiance — the mass rests on the onset clock plus one unresolved consistency check: the ξ leg
+is definitionally circular and the third leg is this very exposure, so the confrontation is
+**somewhat** relievable by moving m — and this cuts *against* the model's honesty position, not for
+it: a firmer pin would make the adverse constraint bind harder) · 2 simulation-gated axes (granule ε-meter, sole; Room 5 χ-lag) · 1 dead
 arm with an honest headstone (PTA, killed by mass, pre-called) · 1 healthy converging judge
 (Σm_ν → P-2026-004 falsified, now testing the surviving meV whisper) · 5 clean nulls with
-numbers · 3 structural silences · 1 honest strain (deuterium, repriced) · 1 identity · 1
-exploratory row that claims content (the hierarchy anchor).
+numbers · 3 structural silences (Strong CP remains **COMPLETE-ABSTENTION**) · 1 honest strain (deuterium, repriced) · 1 identity · 1
+exploratory row that claims content (the hierarchy anchor) · **1 OPEN dynamical Page residual** (row 36 — not closed).
 
 Row numbers 27, 28 and 31 are absent by design: those entries moved to the jurisdiction section
 below and are not domains this model works in. The gaps are left rather than renumbered so the
@@ -73,22 +73,32 @@ covered; add them only with a record.
 
 ## Outside the model's jurisdiction
 
-The three entries below were previously rows in the table above. They are recorded here
-instead, and the distinction is not cosmetic: a physics model that lists Medicine as a
-"covered domain" invites the reading that it claims jurisdiction there, whatever the row
-actually says. **None of these is a domain this model works in.** They are kept only because
-each states a boundary that someone might otherwise try to cross on the model's behalf.
+The three entries below sit outside the domain table by design. The distinction is not
+cosmetic: a physics model that lists Medicine as a "covered domain" invites the reading that
+it claims jurisdiction there, whatever the row actually says. **None of these is a domain this
+model works in.** They are kept only because each states a boundary that someone might
+otherwise try to cross on the model's behalf.
 
 - **Consciousness / quantum mind.** Neural decoherence sits 10–17 decades below signalling
   timescales; the brain is a classical system. Nothing in this program can be recruited for
   quantum-mind claims, and this entry exists to say so in advance.
 - **Quantum biology.** Credit-window arithmetic is marginal at exciton scales, and the
   coherence claims in that literature are contested and not endorsed here.
-- **Medicine.** An earlier pass reproduced known physiology-adjacent physics in the model's
-  own bookkeeping language. That produced no new content and constitutes no medical claim of
-  any kind.
+- **Medicine.** Restating known physiology-adjacent physics in the model's own bookkeeping
+  language produces no new content and constitutes no medical claim of any kind.
 
 Adding a fourth entry here would be a mistake. The correct response to "does the model say
 anything about X" for a non-physics X is silence, not a row.
 
 *Created 2026-07-07. Maintained alongside the atlas.*
+
+---
+
+## Discipline triage (2026-08-04 currency)
+
+**Grade:** ledger/history — process record, not a physics derivation.
+**Discipline:** above story-grade *as a record* (append-only / living map discipline).
+**Triage:** stay shelf as LEDGER/HISTORY; not Failures; not exploratory.
+**Non-claims:** no physics COMPLETE from this file alone; **not** Page closed; **not** bbnfix bookable; Strong CP remains **COMPLETE-ABSTENTION** (seat hunt ≠ solution).
+**Currency package:** `docs/working_logs/_runs/shelf_map_currency_20260804/`
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

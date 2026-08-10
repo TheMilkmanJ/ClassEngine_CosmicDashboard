@@ -1,0 +1,72 @@
+======================================================================
+N2 match-book check — domain fences + alternate rules
+======================================================================
+  I_metric_on: {'exterior_H_defined': True, 'H_kin_map_to_exterior_allowed': True, 'domain': 'near-homog acoustic'}
+  II_metric_off_P1: {'exterior_H_defined': False, 'H_kin_map_to_exterior_allowed': False, 'domain': 'medium n,v,Θ only'}
+  III_reentry_P2: {'exterior_H_defined': True, 'H_kin_map_to_exterior_allowed': True, 'expanding_root': 'declared P2', 'magnitude': 'needs ρ_re OPEN'}
+
+  obstruction A: H=0 at finite ρ forbidden metric-ON
+
+  alternate rules:
+    R0 STOCKED-DEFAULT      H_kin = H_F(ρ)
+    R1 CANDIDATE-REFRAME    H_re = H_kin as target only not constraint
+    R2 STOCKED-SHEAR        H^2 = 8πGρ/3 + σ^2/3 match both pieces
+    R3 MISSING_INPUT        Israel surface stress across Phase II
+    R4 DEAD                 continuous H through 0 metric-ON
+    R5 FORBIDDEN            H_re free dial
+
+  c_s/√3 = 0.085425  (Θ=1 kinematic ratio)
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "n2_match_book_20260804",
+  "dictionary_written": true,
+  "phase_II_exterior_H": false,
+  "obstruction_A_reopened": false,
+  "alternate_rules_that_close_C": 0,
+  "grade_N2": "RECONSTRUCTED-PARTIAL",
+  "COMPLETE_matching_land": false,
+  "bounce_closed": false,
+  "alts": [
+    {
+      "id": "R0",
+      "rule": "H_kin = H_F(\u03c1)",
+      "grade": "STOCKED-DEFAULT",
+      "closes_C": false
+    },
+    {
+      "id": "R1",
+      "rule": "H_re = H_kin as target only not constraint",
+      "grade": "CANDIDATE-REFRAME",
+      "closes_C": false,
+      "note": "renames mismatch; still needs amplitude"
+    },
+    {
+      "id": "R2",
+      "rule": "H^2 = 8\u03c0G\u03c1/3 + \u03c3^2/3 match both pieces",
+      "grade": "STOCKED-SHEAR",
+      "closes_C": false
+    },
+    {
+      "id": "R3",
+      "rule": "Israel surface stress across Phase II",
+      "grade": "MISSING_INPUT",
+      "closes_C": false
+    },
+    {
+      "id": "R4",
+      "rule": "continuous H through 0 metric-ON",
+      "grade": "DEAD",
+      "closes_C": false
+    },
+    {
+      "id": "R5",
+      "rule": "H_re free dial",
+      "grade": "FORBIDDEN",
+      "closes_C": false
+    }
+  ]
+}
+SUMMARY_JSON_END
+
+ASSERTS OK

@@ -1,0 +1,117 @@
+==============================================================================
+(1) THE DEMOCRATIC GRAPH IN CIRCULANT FORM
+==============================================================================
+  The graph's Hessian is (N+1) I - J. On the 3-cycle J = I + P + P^2, so
+      H = 4I - (I + P + P^2) = 3I - P - P^2,   i.e.  a = 3, b = -1  (REAL).
+
+    mode q      eps_q
+  --------------------
+         0   1.000000
+         1   4.000000
+         2   4.000000
+
+  eps_1 - eps_2 = -1.332e-15   -- the doublet is EXACTLY degenerate
+
+  NOTE THE CONVENTION TRAP. This (a, b) is the CIRCULANT pair and is not T6's (a, b),
+  which is (on-site, bond) in H = (1/2) sum [a f_k^2 + b (f_k - f_{k+1})^2]. The graph
+  gives on-site = bond = g, i.e. T6's a = b; in circulant form the same operator reads
+  a = 3g, b = -g. Two different pairs of letters for two different decompositions of one
+  matrix. Quoting 'a = b' across the two rooms without saying which is a live error.
+
+==============================================================================
+(2) THE PHASE IS A FLAT DIRECTION — CHECKED, NOT ASSERTED
+==============================================================================
+  Build the ring profile f_k = M + R cos(phi + 2 pi k/3) at several phi, all with the
+  same M and R, and evaluate the graph energy E = (1/2) f^T H f. If phi is flat, E does
+  not move; and Q, which is what the mechanism predicts, must not move either.
+
+         phi         masses (f_k^2), normalised            E            Q
+  --------------------------------------------------------------------------
+     0.00000             0.9714  0.0143  0.0143     7.500000  0.666666667
+     0.22222             0.9436  0.0003  0.0561     7.500000  0.666666667
+     0.40000             0.8836  0.0027  0.1136     7.500000  0.666666667
+     0.26180             0.9330  0.0000  0.0670     7.500000  0.666666667
+     1.00000             0.5187  0.0284  0.4529     7.500000  0.666666667
+     2.00000             0.0282  0.0054  0.9663     7.500000  0.666666667
+
+  E is constant to 4.44e-16 and Q to 4.44e-16 across the whole range,
+  while the individual mass fractions swing over the full spectrum. So the mechanism
+  determines Q and determines NOTHING about which masses realise it.
+
+==============================================================================
+(3) A COMPLEX BOND DOES NOT FIX IT EITHER
+==============================================================================
+  The tempting next move is a complex hopping: in circulant form the charged stiffnesses
+  are a + 2|b| cos(arg b +- 2 pi/3), which do split once arg b is neither 0 nor pi.
+
+       arg b       eps_1       eps_2        split
+  ------------------------------------------------
+     0.00000    4.000000    4.000000    1.332e-15
+     0.22222    4.357150    3.593670    7.635e-01
+     0.52360    4.732051    3.000000    1.732e+00
+     3.14159    2.000000    2.000000    1.776e-15
+
+  But the splitting does NOT reach phi, because the ring field is REAL: f_2 = f_1*, so
+  |f_1| = |f_2| and only the SUM of the two stiffnesses enters the energy,
+
+      E = eps_0 f_0^2 + (eps_1 + eps_2) |f_1|^2,   eps_1 + eps_2 = 2a - 2 Re b,
+
+  which carries no phi at all. Checked directly:
+
+       arg b      E(phi=0)    E(phi=2/9)      E(phi=1)      spread
+  ----------------------------------------------------------------
+     0.00000     15.000000     15.000000     15.000000    8.88e-15
+     0.22222     15.073770     15.073770     15.073770    8.88e-15
+     0.52360     15.401924     15.401924     15.401924    8.88e-15
+     1.30000     17.197504     17.197504     17.197504    3.55e-15
+
+  So EVERY Z3-symmetric quadratic form leaves phi flat, complex bond or not. The phase
+  cannot be reached at quadratic order by anything.
+
+==============================================================================
+(4) THE CUBIC SEES phi — BUT ONLY THROUGH cos(3 phi)
+==============================================================================
+  The lowest term that sees phi is the Z3-invariant cubic, and its phi-dependence is
+  exactly one harmonic:
+
+      sum_k f_k^3 = 3 M^3 + (9/2) M R^2 + (3/4) R^3 cos(3 phi)
+
+        phi           direct      closed form       diff
+  ------------------------------------------------------
+     0.0000     14.121320344     14.121320344    5.3e-15
+     0.2222     13.667118634     13.667118634    1.8e-15
+     1.0000      9.899908777      9.899908777    3.6e-15
+     2.0000     14.036828762     14.036828762    1.8e-15
+
+  That is the 3-phi object the closure is about -- and it is also the trap. A single
+  cos(3 phi) is stationary only at 3 phi = 0 and 3 phi = pi, so a pure cubic selects
+  phi in {0, +-2pi/3} or {pi/3, pi, -pi/3}. The closure needs 3 phi = Q = 0.666667,
+  which misses the nearer of the two by 0.6667 rad. A cubic CANNOT deliver it.
+
+  Nor can any higher order, without tuning. Z3 symmetry makes the potential invariant
+  under phi -> phi + 2pi/3, and reflection makes it even in phi, so ANY real symmetric
+  ring potential is a function V = F(cos 3 phi) alone. Its stationary points are
+  sin 3 phi = 0 -- the same two -- plus the roots of F'(cos 3 phi) = 0, which sit at
+  whatever the couplings are tuned to put them. Landing one on cos Q = 0.785887
+  is fitting the answer, not deriving it.
+
+==============================================================================
+VERDICT — THE TWO DEBTS ARE DIFFERENT IN KIND
+==============================================================================
+  The koide_relation file states the debt as 'one number and one relation'. They are now
+  cleanly separated, and their difficulty is not shared:
+
+    THE NUMBER (why Q = 2/3): a statement about a RATIO OF MODULI. The democratic graph
+      supplies a candidate, and Q is phase-blind, so that candidate is complete on its
+      own terms -- it does not owe the phase as a missing piece.
+
+    THE RELATION (why 3 arg f_1 = Q): unreachable from the ring's own real potential at
+      ANY order. Quadratic terms leave phi exactly flat; cubic and higher see it only
+      through cos(3 phi), whose natural stationary points are 0 and pi. Producing
+      3 phi = Q requires an EXTERNAL PHASE REFERENCE that carries the angle Q itself.
+
+  That is why the corpus's route for it is thermal rather than potential-based: the KMS
+  construction supplies exactly such a reference, the Euclidean time circle, and reads
+  the angle as a twist per face. Whether that reference is legitimate is task #2's real
+  question. What is settled here is that nothing internal to the ring can answer it --
+  which retires every candidate built from the ring's own couplings, at every order.

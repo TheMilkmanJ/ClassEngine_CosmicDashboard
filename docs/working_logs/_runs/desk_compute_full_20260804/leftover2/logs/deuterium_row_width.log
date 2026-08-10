@@ -1,0 +1,91 @@
+============================================================================
+THE DEUTERIUM ROW: PICKING THE WIDTH BY RULE, NOT BY ACCIDENT
+============================================================================
+
+  model prediction   D/H = 2.387 e-5
+  LCDM control       D/H = 2.420 e-5
+  Cooke observation  D/H = 2.527 +/- 0.030 e-5
+
+[1] The standing row, reproduced
+    width  = sqrt(0.030^2 + 0.037^2) = 0.0476
+    tension= (2.387 - 2.527)/0.0476 = -2.94 sigma
+    LCDM control on the same width          = -2.25 sigma
+
+[2] Option (A): stand on PRIMAT, centre and error both
+    This IS the standing row. Its defence is that PRIMAT's central value and
+    PRIMAT's 1.10% band on d(d,n)3He are one self-consistent package. Its cost
+    is that it ignores a compilation disagreement that is real and measured.
+    -> -2.94 sigma
+
+[3] Option (B): treat the compilation spread as a systematic -- BOTH ends
+    If the PRIMAT/NACRE disagreement is uncertainty, then the best estimate of
+    the rate is the compilation average, and the central D/H must move with it.
+    Half the full PRIMAT->NACRE shift, applied to both model and control:
+
+    d(d,n)3He NACRE/PRIMAT = 0.9569, full D/H shift = +0.0524
+    half-shift to the average          = +0.0262
+    model  D/H 2.387 -> 2.413
+    LCDM   D/H 2.420 -> 2.446
+
+    width = sqrt(0.030^2 + 0.0384^2 + 0.0262^2) = 0.0553
+    model tension  = -2.06 sigma
+    LCDM  tension  = -1.46 sigma
+
+[4] Option (X): the one that must be rejected
+    PRIMAT's central value with the spread folded into the error:
+      width 0.0713 -> -1.96 sigma
+    This is the widest and most flattering construction available, and it is
+    the one the rule excludes: it counts the compilation disagreement as
+    uncertainty while still standing on one compilation's centre. Taking the
+    disagreement seriously means moving the centre too, which is option (B).
+
+[5] What the rule selects
+
+      construction                                    model     LCDM    self-consistent
+      (A) PRIMAT centre + PRIMAT error                -2.94    -2.25      yes
+      (B) compilation average, centre and error       -2.06    -1.46      yes
+      (X) PRIMAT centre + compilation-spread error    -1.96      n/a      NO
+
+    (A) and (B) differ by 0.88 sigma. Both are legitimate; they answer
+    different questions. (A) asks how the model does against the best single
+    compilation. (B) asks how it does given that the compilations disagree.
+    (X) answers neither and is the only one the rule kills outright.
+
+[6] The part that does not move
+    The excess deficit -- model minus control -- is width-independent:
+
+      D/H(LCDM) - D/H(model) = 2.420 - 2.387 = 0.033
+      in (A) units: 0.69 sigma
+      in (B) units: 0.60 sigma
+      in (X) units: 0.46 sigma
+
+    The model burns 0.033e-5 more deuterium than the control on identical data,
+    and no width choice touches that. Every construction above agrees the model
+    sits FURTHER from Cooke than LCDM does. The width debate changes how bad the
+    row looks; it does not change the sign or the size of the model's own cost.
+
+============================================================================
+VERDICT on #57
+============================================================================
+
+    The booking is replaced by a rule: a central value and its error must come from
+    the same place. That rule was written before the numbers and it kills exactly one
+    construction -- (X), the widest and most flattering, at -1.96 sigma -- because it
+    inflates the error with a disagreement whose implication for the centre it then
+    ignores.
+
+    Two self-consistent options survive and the corpus should quote BOTH, because they
+    answer different questions:
+      (A) against the best single compilation:   -2.94 sigma
+      (B) allowing that compilations disagree:   -2.06 sigma
+
+    The standing row is (A). It should keep standing, now for a reason rather than by
+    the accident of a borrowed error bar, with (B) quoted beside it.
+
+    THE ROW REMAINS ADVERSE EITHER WAY. And the quantity that is width-independent --
+    the model burning 0.033e-5 more deuterium than its own control on identical data
+    -- is untouched by any of this. Re-booking an error bar does not improve a fit.
+
+============================================================================
+CHECKS: 6/6 passing
+============================================================================

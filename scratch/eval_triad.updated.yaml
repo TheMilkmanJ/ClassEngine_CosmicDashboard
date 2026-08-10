@@ -52,7 +52,7 @@ theory:
     - xi_Neff
     - m_ncdm
     - varying_alpha
-    - dcdf_beta
+    # - dcdf_beta  # RETIRED 2026-07-05 (v5); CLASS hard-errors if present
     output_params: []
 likelihood:
   planck_2018_lowl.TT:
@@ -228,8 +228,10 @@ params:
     value: 0.06
   varying_alpha:
     value: 1.05
-  dcdf_beta:
-    value: 3.3e-05
+  # dcdf_beta RETIRED 2026-07-05 (v5): CLASS hard-errors if present.
+  # Equation of state is w=-rho_inf/rho with c_s^2≡0; pure fluid defaults.
+  # dcdf_beta:
+  #   value: 3.3e-05
   chi2__BAO:
     latex: \chi^2_\mathrm{BAO}
     derived: true

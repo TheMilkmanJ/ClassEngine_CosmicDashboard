@@ -2,6 +2,10 @@
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
+> **Paper path (2026-08-05).** No standalone paper should be cut from this file. It is a
+> framework-tied pricing certificate for the constitution, not an independent public claim. Keep it
+> as corpus-only support unless a new genuinely exportable object appears.
+
 
 *M3's bookkeeping half. The question: does the medium's preferred frame leak into any
 sector at a level the data forbid? The structural answer first, then the table. Sources:
@@ -47,3 +51,18 @@ the bare-handout asymmetry 1/α_Y(M_Pl) = 55.5
 
 *The medium hides from every experiment for the same reason it pays every species alike:
 it cannot see who it is talking to, and they cannot see it — except by weight.*
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Structural LV shield: no vector/tensor bridge to non-grav sectors | **derived-from-recorded** (constitutional) | §0 blindness clause | Conditional on constitution |
+| 2 | Sector margins 12–29 orders; photon tree & c_T exact zero | **machine-backed** / estimate table | §1 table | Literature bounds |
+| 3 | M3 bookkeeping half closes (frame priced) | **complete-conditional** | §2 | Does not compute G_N |
+| 4 | G_N numerical value not computed | **honest scope limit** | §2 | Finiteness str[k₁]=0 condition held |
+
+**Non-claims:** not a measurement of LV coefficients; not G_N derivation.
+
+**Triage:** elevate-in-place. Physics ceiling: constitutional pricing complete-conditional.

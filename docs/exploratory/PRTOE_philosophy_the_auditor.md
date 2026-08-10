@@ -67,3 +67,11 @@ culture, or choice violates census blindness and is void on arrival — by this 
 own standard, "crankery jackery" (phrasing preserved verbatim as the standard of review).
 A model that explained everything could be embarrassed by nothing; this one keeps its
 falsifiers by keeping its borders.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

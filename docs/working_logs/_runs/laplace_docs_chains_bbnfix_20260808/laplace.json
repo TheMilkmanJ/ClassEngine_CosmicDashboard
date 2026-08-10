@@ -1,0 +1,138 @@
+{
+  "stamp": "20260808",
+  "timestamp_utc": "2026-08-08T01:28:43.875549+00:00",
+  "chain_dir": "/home/themilkmanj/prtoe_class/docs/chains",
+  "pair": [
+    "dyad_mnu_bbnfix",
+    "cmp_lcdm_mnu_bbnfix"
+  ],
+  "both_gate_ready": true,
+  "method": "Laplace MAP + weighted sample covariance from docs/chains",
+  "not_nested": true,
+  "not_cosmicforge_reoptimize": true,
+  "legs": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "gate": {
+        "Rminus1": 0.048118,
+        "N": 37605.0,
+        "timestamp": "2026-08-07T04:08:52.190063",
+        "converged": true,
+        "ready": true
+      },
+      "d_sampled": 13,
+      "sampled_params": [
+        "omega_b",
+        "H0",
+        "logA",
+        "n_s",
+        "z_reio",
+        "dcdf_rho_inf",
+        "varying_me",
+        "A_planck",
+        "A_act",
+        "P_act",
+        "Tcal",
+        "Ecal",
+        "m_ncdm"
+      ],
+      "n_rows_total": 37605,
+      "n_rows_postburn": 26324,
+      "n_eff_weights": 26227.443233901864,
+      "ignore_rows": 0.3,
+      "map_minuslogpost": 1375.815,
+      "map_location": {
+        "rank": 3,
+        "row": 12152,
+        "params": {
+          "omega_b": 0.022687882,
+          "H0": 69.907972,
+          "logA": 3.0449484,
+          "n_s": 0.9700362,
+          "z_reio": 7.5249205,
+          "dcdf_rho_inf": 0.7034012,
+          "varying_me": 1.0112056,
+          "A_planck": 1.000718,
+          "A_act": 0.99971514,
+          "P_act": 1.0021943,
+          "Tcal": 0.99757817,
+          "Ecal": 1.0019458,
+          "m_ncdm": 0.017765713
+        }
+      },
+      "logdet_cov": -141.47291359034176,
+      "cov_cond": 303767498.53952307,
+      "logZ_laplace": -1434.6052558635101,
+      "formula": "logZ = -min(minuslogpost) + (d/2)*ln(2\u03c0) + (1/2)*ln det(\u03a3_postburn)",
+      "method": "Laplace (MAP from chains + weighted sample covariance)"
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "gate": {
+        "Rminus1": 0.049324,
+        "N": 26294.0,
+        "timestamp": "2026-08-05T11:52:10.194879",
+        "converged": true,
+        "ready": true
+      },
+      "d_sampled": 12,
+      "sampled_params": [
+        "omega_b",
+        "H0",
+        "logA",
+        "omega_cdm",
+        "n_s",
+        "z_reio",
+        "A_planck",
+        "A_act",
+        "P_act",
+        "Tcal",
+        "Ecal",
+        "m_ncdm"
+      ],
+      "n_rows_total": 26294,
+      "n_rows_postburn": 18406,
+      "n_eff_weights": 18093.332697168207,
+      "ignore_rows": 0.3,
+      "map_minuslogpost": 1378.7777,
+      "map_location": {
+        "rank": 1,
+        "row": 510,
+        "params": {
+          "omega_b": 0.022551952,
+          "H0": 68.570063,
+          "logA": 3.0436998,
+          "omega_cdm": 0.11862565,
+          "n_s": 0.97088844,
+          "z_reio": 7.6836218,
+          "A_planck": 1.0003392,
+          "A_act": 1.0002415,
+          "P_act": 1.0020545,
+          "Tcal": 0.99917474,
+          "Ecal": 1.0015738,
+          "m_ncdm": 0.001485683
+        }
+      },
+      "logdet_cov": -134.13262186313705,
+      "cov_cond": 199227053.9281576,
+      "logZ_laplace": -1434.8167485331126,
+      "formula": "logZ = -min(minuslogpost) + (d/2)*ln(2\u03c0) + (1/2)*ln det(\u03a3_postburn)",
+      "method": "Laplace (MAP from chains + weighted sample covariance)"
+    }
+  },
+  "delta_lnZ_laplace_model_minus_control": 0.2114926696024213,
+  "delta_min_minuslogpost_model_minus_control": -2.9627000000000407,
+  "interpretation": {
+    "delta_lnZ_positive_favors": "model (dyad)",
+    "Jeffreys_rough": " inconclusive |\u0394|<1; weak 1\u20132.5; moderate 2.5\u20135; strong >5 \u2014 rough only"
+  },
+  "caveats": [
+    "Gaussian approximation; multimodal posteriors undercount volume",
+    "Sample cov after ignore_rows=0.3; MAP from full ranks",
+    "Different d (13 vs 12) is correct model comparison",
+    "Not PolyChord / nested",
+    "Old-BAO bbnfix stack only (docs/chains); desidr2 pair is separate and not ready",
+    "Do not rebrand pre-bbnfix \u0394lnZ \u2248 +2.6"
+  ],
+  "page_curve_claimed": false
+}

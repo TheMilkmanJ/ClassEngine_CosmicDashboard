@@ -1,5 +1,12 @@
 # Build spec — the 2-loop RG-improved V_eff for T_c (the DE-value closer)
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** **executed negative build** (hunt 215 failed/retired); NJL follow-on complete-conditional; living **spec record**, not an open DE pin.
+> **Not claimed:** successful perturbative T_c pin; DE absolute-value close from this route.
+> **Authority:** claims ledger this file; [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md); [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md).
+> **Currency:** freeze as historical executed negative; residual DE blockers live elsewhere.
+
 > *Commissioned 2026-07-16, then executed (hunt 215).*
 
 > **Result (hunt 215 — definite negative):** the 2-loop RG-improved V_eff does **not pin T_c** —
@@ -120,3 +127,19 @@ T_c leg of the seam scaling ρ_Λ¼ = (9/2)α⁴T_c.
 See [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); the CC value routes
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §2c); the T_c mechanism
 ([PRTOE_me_mechanism_math.md](PRTOE_me_mechanism_math.md)).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | 2-loop RG-improved V_eff does **not** pin T_c | **failed / retired** route (definite negative) | hunt 215 banner | T_c not perturbatively well-defined |
+| 2 | Negative verdict robust to uncomputed c₀ | **machine-backed** / derived | PMS unphysical for any O(1) | — |
+| 3 | NJL/BCS gap: T_c = Λ·τ(g) well-defined non-perturbatively | **complete-conditional** | hunt 216 | Residual (Λ,g) medium parameters |
+| 4 | Full diagrammatic 2-loop constant not needed for verdict | **honest fence** | banner | Spec stands as record of attempt |
+| 5 | Other DE blockers (ohmic response, spurion μ) separate | **OPEN** | §8 | Not closed by this spec |
+
+**Non-claims:** not a successful T_c pin; not DE absolute value close.
+
+**Triage:** elevate-in-place (executed negative build). Physics ceiling: route failed honestly.

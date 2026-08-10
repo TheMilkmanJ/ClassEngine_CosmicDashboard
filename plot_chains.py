@@ -47,8 +47,44 @@ def send_dashboard_log(message):
     except Exception:
         pass # Fail silently if dashboard isn't running
 
-def update_yaml_priors(proposed_new_bounds, config_path):
-    """Updates the YAML config file with the proposed new bounds for the parameters."""
+# Production / booking-gate chains — NEVER auto-rewrite priors or proposals under a live run.
+# Claude red NEW FINDING 2026-08-04: --monitor-and-stop + update_yaml_priors was a loaded gun
+# on dyad_mnu_bbnfix (guarded only by a wrong config path). Report-only is the default.
+# Tokens compared case-insensitively (Claude red AGREE-IF 2026-08-04: capital-D
+# "cmp_prtoe_routeD" never matched lowercased basenames — routeD fell through).
+PRODUCTION_PRIOR_REWRITE_DENY = (
+    "dyad_mnu_bbnfix",
+    "cmp_lcdm_mnu_bbnfix",
+    "cmp_prtoe_routed",  # matches routeD / route_d / RouteD after .lower()
+    "bbnfix",
+)
+
+
+def _config_is_production_protected(config_path: str) -> bool:
+    base = os.path.basename(config_path or "")
+    low = base.lower()
+    # Always lower tokens at compare time so list case cannot re-break the fence
+    return any(tok.lower() in low for tok in PRODUCTION_PRIOR_REWRITE_DENY)
+
+
+def update_yaml_priors(proposed_new_bounds, config_path, *, allow_rewrite: bool = False):
+    """Updates the YAML config file with the proposed new bounds for the parameters.
+
+    Hard fence (2026-08-04): refuses production bbnfix/routeD configs unless explicitly
+    overridden (and even then prints a loud refuse — production still blocked).
+    """
+    if _config_is_production_protected(config_path):
+        print(
+            f"REFUSED: will not auto-update priors/proposal on production-protected config "
+            f"{config_path}. Report-only. (Claude red prior-rewriter fence 2026-08-04)"
+        )
+        return False
+    if not allow_rewrite:
+        print(
+            f"REFUSED: prior rewrite disabled (need --allow-prior-rewrite). "
+            f"Would have touched {config_path}. Report-only."
+        )
+        return False
     try:
         with open(config_path, 'r') as f:
             config = yaml.safe_load(f)
@@ -67,8 +103,10 @@ def update_yaml_priors(proposed_new_bounds, config_path):
         with open(config_path, 'w') as f:
             yaml.dump(config, f, default_flow_style=False, sort_keys=False)
         print(f"Successfully auto-updated YAML priors in {config_path}")
+        return True
     except Exception as e:
         print(f"Error auto-updating YAML priors: {e}")
+        return False
 
 def get_best_fit_from_log(log_path):
     """Parses the log file to extract real-time evaluations and find the best fit chi2 and parameters."""
@@ -618,16 +656,26 @@ def main(args, first_run=False):
         # --------------------------
 
         if args.monitor_and_stop and has_warnings:
-            # Query backend to check if automated watchdog actions are enabled
+            # 2026-08-04 fence: report-only by default. Never auto-rewrite production chains.
+            # Dashboard default auto_apply_watchdog was True — that is no longer trusted alone.
+            allow_rewrite = bool(getattr(args, "allow_prior_rewrite", False))
+            protected = _config_is_production_protected(args.config)
             auto_apply = False
-            try:
-                r = requests.get('http://localhost:8000/api/status', timeout=5)
-                if r.status_code == 200:
-                    auto_apply = r.json().get("auto_apply_watchdog", True)
-            except Exception as e:
-                print(f"[MONITOR] Warning checking watchdog settings: {e}")
+            if allow_rewrite and not protected:
+                try:
+                    r = requests.get('http://localhost:8000/api/status', timeout=5)
+                    if r.status_code == 200:
+                        # Default False: dashboard must opt in AND CLI flag must be set
+                        auto_apply = bool(r.json().get("auto_apply_watchdog", False))
+                except Exception as e:
+                    print(f"[MONITOR] Warning checking watchdog settings: {e}")
+            elif protected:
+                print(
+                    f"[MONITOR] Production-protected config {args.config}: "
+                    "prior-edge report only — will NOT rewrite YAML / restart sampler."
+                )
 
-            if auto_apply:
+            if auto_apply and not protected:
                 warning_msg = (
                     "\n" + "!"*85 + "\n"
                     "! WATCHDOG ALERT: Good-fit samples are piling up against prior boundaries.\n"
@@ -644,7 +692,9 @@ def main(args, first_run=False):
                 dash_msg = "Prior hit! Auto-updating YAML and restarting. Issues: " + ", ".join(dash_warnings)
                 send_dashboard_log(dash_msg)
                 
-                update_yaml_priors(proposed_new_bounds, args.config)
+                update_yaml_priors(
+                    proposed_new_bounds, args.config, allow_rewrite=True
+                )
                 
                 print("\nTriggering Dashboard Backend to handle clean restart sequence...")
                 restart_handed_off = False
@@ -669,7 +719,8 @@ def main(args, first_run=False):
                 warning_msg = (
                     "\n" + "!"*85 + "\n"
                     "! WATCHDOG ALERT: Prior boundary hit detected!\n"
-                    "! Automated actions disabled by user. Review alerts and use recovery tools to widen manually.\n"
+                    "! Report-only (no YAML rewrite / no auto-restart). "
+                    "Production chains are hard-fenced; non-production needs --allow-prior-rewrite.\n"
                     + "!"*85 + "\n"
                 )
                 print(warning_msg, end="")
@@ -746,7 +797,18 @@ def main(args, first_run=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Plot chains and/or monitor for prior boundary issues.")
     parser.add_argument('--config', type=str, default='uploaded_config.yaml', help='The YAML configuration file to monitor.')
-    parser.add_argument('--monitor-and-stop', action='store_true', help='Run in a loop to monitor prior boundaries and auto-stop the run if they are hit.')
+    parser.add_argument(
+        '--monitor-and-stop',
+        action='store_true',
+        help='Loop: report prior-boundary crowding. Does NOT rewrite production bbnfix YAMLs. '
+             'YAML rewrite requires --allow-prior-rewrite and is still denied for production chains.',
+    )
+    parser.add_argument(
+        '--allow-prior-rewrite',
+        action='store_true',
+        help='Opt-in: allow update_yaml_priors + restart handoff for NON-production configs only. '
+             'Still REFUSED for dyad/lcdm bbnfix and routeD. Default OFF (Claude red 2026-08-04).',
+    )
     parser.add_argument('--interval', type=int, default=300, help='Check interval in seconds for monitoring mode (default: 300s / 5min).')
     parser.add_argument('--optimizer', action='store_true', help='Set if monitoring a Cosmo Optimizer run.')
     
@@ -755,6 +817,10 @@ if __name__ == "__main__":
     if args.monitor_and_stop:
         print("Starting in MONITOR mode. The script will now periodically check for prior boundary issues.")
         print(f"Check interval is set to {args.interval} seconds.")
+        print(
+            "FENCE: report-only by default; production bbnfix/routeD prior rewrite DENIED "
+            f"(allow_prior_rewrite={bool(args.allow_prior_rewrite)})."
+        )
         first_run = True
         while True:
             main(args, first_run=first_run)

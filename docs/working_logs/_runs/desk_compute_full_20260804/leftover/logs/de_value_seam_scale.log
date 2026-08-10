@@ -1,0 +1,20 @@
+If M2 = (base scale) directly:  E_b = 1/2 a_c^2 * base
+   base=electron rest mass m_e          : M2=5.110e+05 eV -> E_b=1.22e+05 meV   (5.4e+04x)  [TOO BIG]
+   base=dyad VEV v (~100 keV)           : M2=1.000e+05 eV -> E_b=2.40e+04 meV   (1.1e+04x)  [TOO BIG]
+   base=dyad condensation T_c (193keV)  : M2=1.930e+05 eV -> E_b=4.62e+04 meV   (2.1e+04x)  [TOO BIG]
+
+=> all bases give E_b ~10-100 eV, ~4-5 orders TOO BIG. M2 needs an EXTRA suppression ~alpha^2.
+   The dyad's coupling to matter is ELECTROMAGNETIC/atomic -> the natural extra factor is alpha^2.
+
+If M2 = alpha^2 * (base scale)  [the dyad brings an EM/atomic alpha^2 to the seam]:
+   base=electron rest mass m_e          : M2=27.21 eV -> E_b=6.521 meV   (2.898x obs)
+   base=dyad VEV v (~100 keV)           : M2=5.33 eV -> E_b=1.276 meV   (0.567x obs)
+   base=dyad condensation T_c (193keV)  : M2=10.28 eV -> E_b=2.463 meV   (1.095x obs)
+
+=> E_b = (9/2) alpha^4 * S.  Exact 2.25 meV needs base S = 176.3 keV
+   T_c band is [40,900] keV, central 193 -> S=176 keV sits INSIDE, near central.
+   M2 = alpha^2 * T_c(193keV) = 10.28 eV  vs model's selected 9.39 eV (ratio 1.09)
+
+SEAM VERDICT: base scale = the DYAD condensation scale T_c; suppression = alpha^4 (=a_c^2 binding x a^2 atomic).
+   E_b(T_c=193keV) = 2.46 meV (1.09x); exact at T_c=176 keV (in band).
+   Confirms cosmo_const 2e DOUBLE suppression. Soft: the a^2 factor is plausible-not-derived; T_c has a log-band.

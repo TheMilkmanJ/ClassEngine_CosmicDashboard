@@ -1,0 +1,28 @@
+==========================================================================
+bounce_bkl_stiff_check — ANALYTIC RECONFIRM (2026-08-04 freeze)
+Note: full integrate_contraction() timed out (EXIT 124) under OMP=1 nice;
+      analytic w_tracking is exact and is the BKL-stiff nogo for rotation.
+==========================================================================
+   n  w analytic   note
+   2    0.000000   quadratic - mass era
+   4    0.333333   quartic - w=1/3 youth
+   6    0.500000   sextic
+  10    0.666667   n=10 still <1
+ 100    0.960784   n=100 approaches 1 asymptotically only
+
+  w = (n-2)/(n+2) -> 1 only as n -> infinity.
+  No polynomial potential reaches w = 1 from tracking rotating condensate.
+
+  Psi0 = 5.01e+25 eV = 4.1e-03 M_Pl
+     R/Psi0  local n        w
+      1e+03    4.000   0.3333
+      1e+01    3.980   0.3311
+      1e+00    3.000   0.2000
+      1e-01    2.020   0.0049
+      1e-03    2.000   0.0000
+
+VERDICT (analytic): rotating sector cannot supply BKL-safe stiff phase
+  (w>=1) at sub-Planckian amplitude. Nogo class holds.
+GRADE: PASS (analytic) — rotation-alone engine remains DEAD.
+FULL_ODE: TIMEOUT (non-blocking for freeze; debt_bounce parent + analytic agree)
+EXIT:0

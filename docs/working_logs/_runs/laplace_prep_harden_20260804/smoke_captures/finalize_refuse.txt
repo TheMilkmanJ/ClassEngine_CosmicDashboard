@@ -1,0 +1,15 @@
+==========================================================================
+H₀ finalization gate (letter item 1)
+==========================================================================
+   cmp_lcdm_mnu_bbnfix: R−1 = 0.059  (converging)  [not-stopped]
+   dyad_mnu_bbnfix: R−1 = 0.129  (converging)  [not-stopped]
+
+   NOT YET — need R−1 < 0.05 on both chains AND sampler self-stop
+   (converged: true). Both required (Claude R-D cure).
+   Nothing extracted; the letter's provisional caveat stands.
+   Gate closed → no H₀ sentence, no tables, no bookable Laplace ΔlnZ.
+   Do NOT promote pre-bbnfix ΔlnZ ≈ +2.6 as the bbnfix-pair result.
+   Re-run when both progress R−1 < 0.05 AND both checkpoints converged: true:
+     python3 scripts/finalize_h0_at_convergence.py
+==========================================================================
+finalize_exit=2

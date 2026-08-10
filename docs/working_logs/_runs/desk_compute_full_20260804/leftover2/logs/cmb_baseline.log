@@ -1,0 +1,32 @@
+computing the model's CMB spectrum (modified CLASS, dcdf dark sector)...
+
+================================================================
+THE MODEL'S CMB TT SPECTRUM — acoustic peak structure
+================================================================
+  Planck reference peaks (TT, D_l muK^2): l~220 (~5750), l~540 (~2500),
+  l~810 (~2500), l~1130 (~1200)
+  model l_max computed: 3000
+  model TT peaks (l, D_l):
+    l =  221,  D_l =  5631.5 muK^2
+    l =  537,  D_l =  2536.2 muK^2
+    l =  814,  D_l =  2485.6 muK^2
+    l = 1128,  D_l =  1211.6 muK^2
+    l = 1424,  D_l =   798.3 muK^2
+
+  saved model C_l -> chains/cmb_model_baseline.dat  (2999 multipoles)
+  model sigma8 = 0.8180, Omega_m = 0.2987, S8 = 0.8163
+
+computing a LCDM reference (Planck 2018) for comparison...
+
+================================================================
+MODEL vs LCDM  (both from CLASS; LCDM fits Planck, so agreement is transitive)
+================================================================
+  TT fractional residual (model-LCDM)/LCDM over l=30-2500:
+    mean |dD/D| = 1.93%,  max = 2.86%
+    at the first peak (l~220): -1.65%
+  saved LCDM reference -> chains/cmb_lcdm_reference.dat
+
+  => baseline established: the model reproduces the acoustic peaks and tracks
+     LCDM to a few % across the peaks. The 'from first principles' gap that
+     remains is (a) A_s/n_s DERIVED not fit, (b) the dark-sector perturbation
+     conversion channel, (c) a real Planck-likelihood chi2 -- not the peaks.

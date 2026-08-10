@@ -1,0 +1,59 @@
+==============================================================================
+M5 — native exotic-fluid candidates for the metric-on crunch, priced
+==============================================================================
+
+1. Bare vacuum (ρ < 0, constant)
+   |ρ_bare| ~ ρ_Λ vs ρ_rad(T_c): 7.5e-33 — invisible at the deep
+   crunch (recorded). Constant vs blueshifting positives: its only
+   zero-crossing is the LOW-density one — the turnaround, not the
+   bounce. Window: FAIL (w = −1 < 1/3 there anyway).
+
+2. Conformal negative energy (torus Casimir class, n = 4)
+   |ρ_Cas|(L =  1.0 Gpc) ≈ 1.83e-130 eV⁴  →  |ρ_Cas|/ρ_rad,0 = 5.6e-116
+   |ρ_Cas|(L = 14.0 Gpc) ≈ 4.77e-135 eV⁴  →  |ρ_Cas|/ρ_rad,0 = 1.5e-120
+   Same a⁻⁴ scaling as radiation ⟹ the ratio is FROZEN at today's
+   value forever. A future crossing needs the radiation sector
+   net-negative NOW — excluded by N_eff ≈ 3. Dead twice over:
+   measured sign, and ~119 orders of magnitude.
+
+3. Ghost-condensate transient (negative stiff excursion, n = 6)
+   The recorded arrow sector sits on its stable attractor at the
+   dark-energy scale. The exotic-fluid target needs |ρ_X| at the
+   handover budget — `scripts/bounce_rp_required_X.py` prices the
+   shortfall at 10¹⁹–10³² depending on the handover variant, and the
+   wormhole audit already prices sustained exotic stress ~17 orders
+   under engineering need. No frozen negative a⁻⁶ track exists
+   natively (σ² ≥ 0 geometrically; the ghost excursion is transient
+   and amplitude-capped). Window: FAIL by budget.
+
+4. Trace-anomaly / quantum-curvature terms (ρ ~ N·H⁴)
+   shear door (M2)   : N·H⁴ ≈ 1.29e-81 eV⁴ vs needed 6.15e+13 eV⁴  →  short 4.8e+94
+   condensate floor  : N·H⁴ ≈ 5.01e-85 eV⁴ vs needed 1.26e+12 eV⁴  →  short 2.5e+96
+   The metric-on curvature never comes within ~95 orders of the
+   handover budget. Window: FAIL by budget, everywhere.
+
+5. Attractive interaction energy at high density
+   The recorded medium quartic is repulsive (λ > 0, c_s² > 0 — the
+   floor exists because of it); the portal couplings are perturbative
+   and tiny. No recorded channel turns the interaction energy
+   negative at crunch density. Window: FAIL — no candidate exists.
+
+VERDICT — M5 CLOSES NEGATIVE
+  No component of the recorded theory can be the exotic fluid: every
+  negative-energy corner fails on measured sign (frozen ratio), on
+  budget (19–119 orders), or on nonexistence. The exotic-fluid branch
+  is UNBUILDABLE from native parts.
+
+  Consequences for the reconstruction:
+  * The hybrid policy collapses: the metric-exit build is the only
+    reconstruction left. It alone carries the bounce, with its two
+    assumed matching rules and the achronal-re-entry price (M4).
+  * The sharpened conditional, now exhaustively priced at the fluid
+    level: IF the metric stays on through the crunch, the recorded
+    theory does not turn. The bounce REQUIRES the metric exit.
+  * The one adjacent unwritten alternative is a modified Friedmann
+    CONSTRAINT (−ρ²/ρ_c class, as in bounded-density cosmologies) —
+    not a fluid; it would need a derivation from medium discreteness
+    near the density ceiling that is not in the corpus. Named, not
+    fabricated.
+==============================================================================

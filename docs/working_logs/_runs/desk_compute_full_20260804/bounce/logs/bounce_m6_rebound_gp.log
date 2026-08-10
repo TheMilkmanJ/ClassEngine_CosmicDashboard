@@ -1,0 +1,9 @@
+==============================================================================
+M6 v2 — spherical rebound with the adaptive integrator
+==============================================================================
+   φ_tol = 0.05, dt adaptive from 0.002 downward; t_heal ≈ 15.7 days
+
+   A    v₀   n_init→n_peak (focus ×)   t_peak[t_heal|days]  E-cons   steps    outflux
+
+
+[TIMEOUT after 300s]

@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "/home/themilkmanj/prtoe_class/scripts/test_legacy_st_null_limit.py", line 251, in test_prtoe_active
+    cosmo_active.compute()
+  File "classy.pyx", line 578, in classy.Class.compute
+classy.CosmoSevereError: 
+
+Error in Class: Class did not read input parameter(s): use_prtoe, xi_prtoe, V0_prtoe, m_prtoe, lambda_prtoe, zeta_prtoe, phi_c_prtoe, delta_phi_prtoe
+
+Traceback (most recent call last):
+  File "/home/themilkmanj/prtoe_class/scripts/test_legacy_st_null_limit.py", line 98, in test_prtoe_null_limit
+    cosmo_null.compute()
+  File "classy.pyx", line 578, in classy.Class.compute
+classy.CosmoSevereError: 
+
+Error in Class: Class did not read input parameter(s): use_prtoe, xi_prtoe, beta_prtoe, V0_prtoe, m_prtoe, lambda_prtoe, zeta_prtoe, phi_c_prtoe, delta_phi_prtoe, Omega0_prtoe
+
+Starting LEGACY_ST (use_prtoe) comparison tests...
+CURRENT_CORE validation is use_dcdf / validate_dcdf.py — not this script.
+Mode: --fast (suite/CI gate)
+
+=== LEGACY_ST active parameters smoke (use_prtoe) — NOT current core ===
+Testing that legacy scalar-tensor with active params runs without crashing...
+ERROR (LEGACY_ST active): 
+
+Error in Class: Class did not read input parameter(s): use_prtoe, xi_prtoe, V0_prtoe, m_prtoe, lambda_prtoe, zeta_prtoe, phi_c_prtoe, delta_phi_prtoe
+
+=== LEGACY_ST null limit (use_prtoe) — NOT current public core ===
+Lane: historical ξ/β/ζ/… comparison only.
+CURRENT_CORE = use_dcdf + varying_me (+ dcdf_dyad_link); see validate_dcdf.py.
+Testing that legacy use_prtoe with all ST params=0 recovers LambdaCDM...
+
+1. Running pure LambdaCDM...
+✓ LambdaCDM computation successful
+
+2. Running LEGACY_ST use_prtoe null (comparison baggage only)...
+
+ERROR (LEGACY_ST): 
+
+Error in Class: Class did not read input parameter(s): use_prtoe, xi_prtoe, beta_prtoe, V0_prtoe, m_prtoe, lambda_prtoe, zeta_prtoe, phi_c_prtoe, delta_phi_prtoe, Omega0_prtoe
+
+
+=== FINAL SUMMARY (LEGACY_ST comparison lane) ===
+LEGACY_ST active smoke: FAILED
+LEGACY_ST null limit (use_prtoe): FAILED
+SOME LEGACY_ST TESTS FAILED

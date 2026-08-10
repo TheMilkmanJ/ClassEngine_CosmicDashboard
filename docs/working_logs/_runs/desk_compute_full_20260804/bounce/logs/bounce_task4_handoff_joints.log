@@ -1,0 +1,43 @@
+==============================================================================
+Task 4 — the squeeze-to-interval handoff: three joints, computed
+==============================================================================
+
+J1+J3 per launch angle: delivery Mach and planarity at first crossing
+   θ₀      H_fast/H_mean   Mach = v/c_s   axis ratios ℓ_mid/ℓ_fast, ℓ_slow/ℓ_fast
+      7°        3.68          14.4             752.3,      783.2
+     23°        3.84          15.0             594.6,     1511.1
+     41°        3.96          15.4             417.6,     2898.2
+     59°        4.00          15.6            1114.9,     1286.1
+     77°        3.97          15.5             399.9,     3102.4
+     95°        3.86          15.1             574.0,     1631.0
+    113°        3.68          14.4             752.3,      783.2
+    131°        3.73          14.6             716.3,      931.0
+
+J1 verdict: delivered inflow Mach 14.4–15.6.  The rebound toy's tested
+   envelope reaches Mach 3 — the delivery EXCEEDS the tested range by
+   ~5×. The toy's mechanism (repulsive-interaction rebound) has no
+   known velocity ceiling, but the honest statement is: the verified
+   response covers the low end of the delivered window; the high end
+   needs the toy extended. NOT covered ≠ contradicted — a gap, named.
+
+J2 verdict: rebound duration ~1 t_heal vs required hold
+   0.0427·δ t_heal ⟹ causally self-consistent for door contrasts
+   δ ≲ 23. Smooth-door contrasts (order unity to tens) fit inside;
+   collapsed-core contrasts are the separate absorbing-boundary ledger.
+
+J3 verdict: transverse axes are 400–3102× larger than the fast axis at
+   crossing — the compression is planar to 2.5–3.5 orders of magnitude.
+   The quasi-1D geometry of the rebound toy is justified at the door.
+
+OPEN, NAMED (the joints do not cover):
+   * transverse dynamics during the rebound (the toy holds them static);
+   * the wall between a rebounding pocket and a still-contracting
+     metric-on exterior (M4's boundary problem, unresolved);
+   * whether one pocket's outflow re-steepens its neighbors (cascade
+     sequencing — unwritten);
+   * the Standard-Model sector's crossing (task #14).
+
+GRADE: the handoff is now three computed joints + four named opens.
+   Consistent where tested; one delivery-envelope gap to close in the
+   toy. Nothing promoted.
+==============================================================================

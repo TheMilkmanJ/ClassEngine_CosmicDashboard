@@ -221,3 +221,13 @@ is not yet a claim in this model.*
 Internal: the white-holes shelf, the derivation hunt, the windowed BBN
 run, the two-clock frame, the fingerprint lattice, the cycle/torus genesis file.
 External record per stage: [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** story/map — exploratory-ok (genealogy/map chain)
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

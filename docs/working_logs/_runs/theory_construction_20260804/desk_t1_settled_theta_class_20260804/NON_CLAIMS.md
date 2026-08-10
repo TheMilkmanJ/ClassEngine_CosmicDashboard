@@ -1,0 +1,23 @@
+# Desk T1 settled-Θ class — non-claims
+
+- Bounce **not** closed  
+- Exterior \(H_\mathrm{re}\) **not** Derived  
+- \(\Theta_\mathrm{lock}\approx 11.7\) **not** derived from stress (target = 1/√α at d=3)  
+- Production **A_Θ-3D** **not** COMPLETE (`production_3d=false`)  
+- 0D reduced ODE **not** sold as full-3D production  
+- CLASS-BOUND **≠** S1 land · **≠** COMPLETE  
+- Peak \(\Theta\ge\Theta_\mathrm{lock}\) **≠** S1  
+- Settled \(\Theta\sim 0.04\) **≠** lock  
+- Free κ, γ dial **not** a class-breaker and **not** Derived cosmology  
+- Continuity-breaking source/sink **not** invented here  
+- Multi-component lock law **not** invented here  
+- N2 match-book **not** closed by this package  
+- GPE unclean spherical light **not** production 3D  
+- Stocked GPE 1D/2D **not** claimed to exhaust all possible 3D dynamics  
+- Analytic FP (1,0) stability is **local** under linearization; class n-drop bound is the **exact** identity and does not need global uniqueness of attractors  
+- Class bound **not** claimed for media that violate \(\dot n=-n\Theta\) / continuity without naming that form  
+- O6 MeV **not** closed  
+- Cyclic cosmology **not** booked  
+- Page curve **not** claimed (`page_curve_claimed=false`)  
+- No PolyChord · leave MCMCs · no Strong CP · no ownership  
+- `exit 0` of instrument script **≠** physics PASS  

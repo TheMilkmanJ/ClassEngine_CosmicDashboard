@@ -6,6 +6,9 @@ Assembles recorded and registered material. The joint-policing test (BipoSH) is 
 
 **Audience grade.** Axis-family claim is **registered / candidate** (HPA fifth-member candidacy **adverse-leaning** at face value). Power-spectrum torus effect is **not a referee** (S/N 0.16). Off-diagonal correlation structure is the live path (S/N 1.4). Cold spot is **not a family member**. B2 tilt route **dead** (elsewhere). Do not treat low-ℓ curiosities as confirmed model wins.
 
+**Authority card (2026-08-05).** Shared BipoSH / axis-family blocker is centralized in
+`working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md`.
+
 ---
 
 ## 0. The field’s standing oddities
@@ -69,3 +72,20 @@ The one structure near the right distance is the wrong angular size. The Kibble 
 What remains is inherited. The supervoid route runs through the late-time ISW and Rees–Sciama effect of an evolving potential at z ≲ 1 — chain links 9–10 — where the fluid’s linear sector is ΛCDM-identical and its distinctive scales are sub-parsec (the P-035 floor at 10⁻³ pc). Whatever a supervoid does to the microwave sky in ΛCDM it does here, identically and for the same reasons. The cold spot therefore does have a chain address; it simply is not ours at that address.
 
 The family is silent here, and the silence is constitutional. The machinery that generates this family is anisotropic and Gaussian — axes, spectra, covariances — while a cold spot is localized, sign-definite and phase-coherent. There is no handle here to turn, and the one mechanism that would have supplied one is forbidden by the order parameter’s topology and buried by its scale. This is not an unpaid debt; it is a question the model’s structure has nothing to say about. The family stands at its recorded membership, and a confirmed cold-spot explanation — texture or void — costs it nothing either way.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Low-ℓ anomalies are one axis family’s signature (shared winding axis) | **registered / candidate** | §§1–2; P-024/029/031 | Joint BipoSH referee not run; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |
+| 2 | Power-spectrum torus effect: S/N 0.16; ~0.9σ from data — not a referee | **machine-backed** (null for spectrum route) | torus_lowell_pattern; §torus grade | Power spectrum cannot grade model |
+| 3 | Off-diagonal covariance pattern S/N 1.4 is the live path | **machine-backed** arithmetic | §torus grade | **OPEN-BLOCKED:** BipoSH data application still owed; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |
+| 4 | HPA as fifth family member | **adverse-leaning** candidate | Tier-0 axes ~70–80° from cluster | BipoSH decides mapping; not settled kill |
+| 5 | Cold spot not a family member (topology + scale + Gaussianity) | **derived** (exclusion) | cold-spot section | Silence is constitutional |
+| 6 | Free cross-kill: α_c MCMC n = comb tooth count n | **OPEN-BLOCKED** | Tier free cross-kill | **OPEN-MACHINE:** zon_disp / α_c chain unconverged |
+
+**Non-claims:** not confirmed anomaly wins; cold spot not claimed; B2 tilt route dead elsewhere.
+
+**Triage:** elevate-in-place. Physics ceiling: registered + machine-backed spectrum null; joint referee **OPEN-BLOCKED**.

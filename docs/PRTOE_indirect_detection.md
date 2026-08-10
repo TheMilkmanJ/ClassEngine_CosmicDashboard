@@ -1,5 +1,12 @@
 # Indirect Detection — the Second Purchased Silence (2026-07-11)
 
+> ## Residual freeze — 2026-08-04
+>
+> **Grade honesty:** forced **registered null** (conserved charge) + **machine-backed** σv ceiling; not OPEN-MACHINE.
+> **Not claimed:** positive excess identification; pulsar science debt; any DM-annihilation win.
+> **Authority:** claims ledger this file; [T15_indirect_detection_owed.md](working_logs/T15_indirect_detection_owed.md); [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md).
+> **Currency:** tree σv = 0; grav ceiling ~10⁻¹⁵⁴ cm³/s paid; one confirmed DM annihilation kills.
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
@@ -61,3 +68,19 @@ Tree-level σv = 0 exactly (the conserved dark charge); the gravitational ceilin
 ~10⁻¹⁵⁴ cm³/s — ~128 orders below thermal-relic. **Every indirect excess (GC GeV,
 511 keV, positrons) is predicted astrophysical.** The kill stands: one confirmed
 DM-annihilation signal executes the conserved-charge structure.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | No DM annihilation channel (conserved dark charge) | **registered null** (forced) | §1 clause 1; AD structure | — |
+| 2 | No SM decay signals (portal 100–500 TeV / 13–20 TeV) | **complete-conditional** | §1 clause 2 | Lifetimes cosmological+ |
+| 3 | Tree-level σv = 0; grav ceiling ~10⁻¹⁵⁴ cm³/s | **machine-backed** | §The ceiling | ~128 orders under thermal relic |
+| 4 | GC GeV / 511 keV / AMS → astrophysical | **registered null** / interpretation | §1 verdict | Model has no stake in which astrophysics |
+| 5 | One confirmed DM annihilation/decay kills charge structure | **registered kill** | §2 | Unhedgeable |
+
+**Non-claims:** not a positive excess claim; not pulsar-identification science debt.
+
+**Triage:** elevate-in-place. Physics ceiling: forced silence.

@@ -1,0 +1,135 @@
+==============================================================================
+F-A3 / O2 attempt: derive exterior H-cross from medium stress+junction
+==============================================================================
+
+[0] Anchors
+  c_s = √(3α)           = 0.147960
+  ξ                     = 3.047693e+20 eV^{-1}  (402.0 AU)
+  H_door (shear clock)  = 1.894392e-21 eV
+  R_H/ξ                 = 1.7320  (√3 target)
+  ρ_eff^{1/4} (door)     = 2.8268e+03 eV
+  ρ_bounce^{1/4}         = 1.0592e+03 eV
+  |H_F(ρ_eff)|          = 1.894392e-21 eV
+  |H_F(ρ_bounce)|       = 2.659891e-22 eV
+  |H_F(ρ_rad door)|     = 5.083590e-24 eV
+  H_door / H_F(ρ_eff)   = 1.0000  (expect ~1 if ρ_eff from total H)
+
+[1] Kinematic map prefactor  H_kin = Θ_heal · c_s / (d · ξ)
+  d=1:  H_kin/Θ_heal = 4.854809e-22 eV   |H_kin(Θ=1)|/H_door = 2.5627e-01
+  d=3:  H_kin/Θ_heal = 1.618270e-22 eV   |H_kin(Θ=1)|/H_door = 8.5424e-02
+
+[2] Medium ⟨Θ⟩ turn (0D toy stand-in for M6)
+  n0=  3.0 Θ0= -1.0 → turn=YES  n_cross=3.553  dΘ/dt|cross=+3.8298  late_Θ=+0.0552  overshoot×1.18
+  n0=  6.0 Θ0= -2.0 → turn=YES  n_cross=8.043  dΘ/dt|cross=+10.5641  late_Θ=+0.0619  overshoot×1.34
+  n0= 11.0 Θ0= -2.0 → turn=YES  n_cross=12.662  dΘ/dt|cross=+17.4935  late_Θ=+0.0610  overshoot×1.15
+  synthetic stress_drive=+2.3125e-02  net_rhs=+1.9604e-02  (need stress>0 channel for turn under averaging identity)
+
+[3] Continuous kinematic cross (medium layer only)
+  Candidate: H_kin(t) := Θ_heal(t) · c_s / (d · ξ)
+  At medium Θ: − → 0 → + with dΘ/dt>0:
+    ⇒ H_kin crosses 0 with Ḣ_kin = (c_s/(d ξ))·dΘ/dt > 0  (by algebra)
+  This is NOT yet exterior FRW H — only fluid/acoustic expansion.
+
+[4] Friedmann consistency at the kinematic zero-cross
+  at Θ_cross≈0: n_cross=8.0426 (finite)
+  H_kin(cross) = 0  exactly (by map)
+  |H_F(ρ_eff·n)| = 5.372386e-21 eV  ≠ 0
+  |H_F(ρ_b·n)|   = 7.543298e-22 eV  ≠ 0
+  OBSTRUCTION A (metric-ON continuous cross):
+    H_kin=0 ∧ ρ>0  violates  H² = 8πGρ/3  (and shear-corrected form).
+    Exterior FRW cannot pass through H=0 at finite density without
+    either ρ_tot→0, modified constraint, or surface stress / metric-off.
+
+[5] Magnitude lock at late medium (re-entry candidate epoch)
+  d=1  H_kin(lateΘ=+0.062)=+3.0065e-23  vs H_F(ρ_eff·n_late)=1.5647e-21  |H_kin|/H_F=1.9215e-02
+  d=1  H_kin(lateΘ=+0.062)=+3.0065e-23  vs H_F(ρ_eff (door))=1.8944e-21  |H_kin|/H_F=1.5871e-02
+  d=1  H_kin(lateΘ=+0.062)=+3.0065e-23  vs H_F(ρ_bounce·n)=2.1969e-22  |H_kin|/H_F=1.3685e-01
+  d=1  H_kin(lateΘ=+0.062)=+3.0065e-23  vs H_F(ρ_bounce)=2.6599e-22  |H_kin|/H_F=1.1303e-01
+  d=1  H_kin(lateΘ=+0.062)=+3.0065e-23  vs H_F(ρ_rad door)=5.0836e-24  |H_kin|/H_F=5.9142e+00
+  d=3  H_kin(lateΘ=+0.062)=+1.0022e-23  vs H_F(ρ_eff·n_late)=1.5647e-21  |H_kin|/H_F=6.4050e-03
+  d=3  H_kin(lateΘ=+0.062)=+1.0022e-23  vs H_F(ρ_eff (door))=1.8944e-21  |H_kin|/H_F=5.2902e-03
+  d=3  H_kin(lateΘ=+0.062)=+1.0022e-23  vs H_F(ρ_bounce·n)=2.1969e-22  |H_kin|/H_F=4.5617e-02
+  d=3  H_kin(lateΘ=+0.062)=+1.0022e-23  vs H_F(ρ_bounce)=2.6599e-22  |H_kin|/H_F=3.7677e-02
+  d=3  H_kin(lateΘ=+0.062)=+1.0022e-23  vs H_F(ρ_rad door)=5.0836e-24  |H_kin|/H_F=1.9714e+00
+
+[6] ρ required to match |H_kin(late)| under Friedmann
+  d=1: |H_kin|=3.0065e-23 ⇒ ρ_need^{1/4}=3.5611e+02 eV   ρ_need/ρ_eff=2.5188e-04   ρ_need/ρ_b=1.2776e-02
+  d=3: |H_kin|=1.0022e-23 ⇒ ρ_need^{1/4}=2.0560e+02 eV   ρ_need/ρ_eff=2.7986e-05   ρ_need/ρ_b=1.4196e-03
+
+[7] Door entry: invert H_door → Θ_heal implied by kinematic map
+  d=1: Θ_heal(door) implied = -3.9021e+00   (0D toys use O(1); ratio toy/implied ~ 5.1255e-01)
+  d=3: Θ_heal(door) implied = -1.1706e+01   (0D toys use O(1); ratio toy/implied ~ 1.7085e-01)
+
+  analytic shear-dom H = 1/(√3 ξ) = 1.894385e-21  (vs door 1.894392e-21)
+
+[8] Θ that would match H_door magnitude under H_kin (entry bookkeeping)
+  d=1: |Θ_heal| = H_door·d·ξ/c_s = 3.902093e+00
+  d=3: |Θ_heal| = H_door·d·ξ/c_s = 1.170628e+01
+
+[9] Order-of-magnitude: |H_kin(Θ=O(1))| / H_door
+  d=1: 2.562727e-01  = c_s/(d) * √3   if H=1/(√3ξ) → 2.562736e-01
+  d=3: 8.542424e-02  = c_s/(d) * √3   if H=1/(√3ξ) → 8.542454e-02
+
+[10] Verdict assembly
+  medium_turn (0D cases)     = True
+  dΘ/dt>0 at cross           = True
+  |H_kin(late,d=3)|/H_door   = 5.2902e-03
+  |H_kin(late,d=3)|/H_F(ρeff)= 5.2902e-03
+  Friedmann OK at H_kin=0?   = False (ρ finite)
+  can_derive H_re w/o decl.? = False
+
+==============================================================================
+EXACT OBSTRUCTION (F-A3 cannot close from stocked parts)
+==============================================================================
+
+  Two stacked obstructions; either alone blocks derived exterior H-cross:
+
+  (A) CONSTRAINT CONFLICT AT THE ZERO
+      Identifying exterior H with fluid expansion (H = ⟨Θ⟩_phys/d) makes the
+      medium turn into a continuous H:−→0→+ with Ḣ>0 algebraically.
+      But at the zero-cross, density remains finite (n_cross ~ O(1–10) in
+      healing units; door ρ_eff or ρ_bounce scale). Flat FRW
+          H² = 8πG ρ/3   (+ σ²/3)
+      then requires H≠0. Metric-ON continuous exterior H-cross at finite ρ
+      is inconsistent without a modified constraint or a surface layer.
+
+  (B) METRIC-OFF RE-ENTRY IS BRANCH CHOICE, NOT DERIVATION
+      RP-A escapes (A) by dissolving the metric at ξ (Phase II). During the
+      non-metric interval Friedmann does not apply, so Θ may cross freely.
+      Re-attaching exterior FRW only *after* ⟨Θ⟩>0 selects the expanding
+      square-root branch:
+          H_re = +√(8πG ρ_re/3)
+      That is exactly F-A3's declaration. The medium stress derives the
+      *fluid* turn; it does not compute the *exterior* H(t) trajectory
+      through zero, because exterior H does not exist in Phase II.
+
+  (C) MAGNITUDE LOCK (secondary, even if sign were granted)
+      H_kin(Θ_heal=O(1), d=3) / H_door ≈ c_s/√3 ≈ 0.085
+      Late 0D Θ after damping is ≪1, so |H_kin| ≪ H_F(ρ_eff).
+      Matching |H_kin|=H_F(ρ) would force either huge Θ_heal ≳ d/(c_s√3)≈12
+      (not produced by verified 1D O(1) overshoot) or ρ_re suppressed by
+      ~10²–many relative to door ρ_eff — no legal junction fixes this
+      without new amplitude law (F-A2 open).
+
+  PASS path not reached. O2 stays PARTIAL. No cyclic cosmology.
+
+SUMMARY_JSON_BEGIN
+{
+  "can_derive_H_re_without_declaration": false,
+  "medium_Theta_turn": true,
+  "dTheta_dt_at_cross": 10.564131557117962,
+  "n_cross": 8.042571894229967,
+  "c_s": 0.14795964842319909,
+  "H_door_eV": 1.8943916024168856e-21,
+  "H_F_rho_eff_eV": 1.8943916024168852e-21,
+  "H_kin_over_H_door_Theta1_d3": 0.08542454284633638,
+  "H_kin_late_d3_over_H_door": 0.005290196892563965,
+  "H_kin_late_d3_over_HF_eff": 0.005290196892563966,
+  "obstruction": "A_friedmann_at_H0_finite_rho + B_metric_off_branch_declaration + C_magnitude_lock",
+  "grade_O2": "PARTIAL",
+  "cyclic_cosmology": false
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — obstruction stands; no false F-A3 closure.
+EXIT:0

@@ -1,0 +1,36 @@
+CMD: python3 scripts/test_local_gravity.py --classy
+START: 2026-08-04T03:24:10-06:00
+=== PRTOE Local Gravity Map (analytic) ===
+Cassini limit: |dG/G| < 1.0e-05
+xi=1.000e-06 zeta=1.000 sigma=0.100 rho0=1.000e+03 gamma=0.050
+
+  Cosmic mean (approx)   rho=1.000e-26 kg/m^3  phi=-0.0000  |dG/G|=0.000e+00  [PASS]
+  Galaxy cluster         rho=1.000e-23 kg/m^3  phi=-0.0000  |dG/G|=0.000e+00  [PASS]
+  Solar interior         rho=1.000e+03 kg/m^3  phi=+0.0000  |dG/G|=0.000e+00  [PASS]
+  Earth crust            rho=5.500e+03 kg/m^3  phi=+0.0000  |dG/G|=0.000e+00  [PASS]
+
+=== Solar-system orbit (PPN γ−1) ===
+  |γ−1|=0.000e+00  precession_excess=0.000e+00 rad/orbit  [PASS]
+=== EP / torsion-balance (η_EP at lab density) ===
+  η_EP=0.000e+00  G_eff/G=1.000000  [PASS]
+
+OVERALL: PASS
+=== CLASS post-integration local-gravity gate ===
+(C code runs prtoe_passes_local_gravity_bounds + background_prtoe_local_gravity_post_integration)
+Traceback (most recent call last):
+  File "/home/themilkmanj/prtoe_class/scripts/test_local_gravity.py", line 238, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/themilkmanj/prtoe_class/scripts/test_local_gravity.py", line 233, in main
+    rc = max(rc, test_with_classy(params))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/themilkmanj/prtoe_class/scripts/test_local_gravity.py", line 206, in test_with_classy
+    cosmo.compute(["background"])
+  File "classy.pyx", line 578, in classy.Class.compute
+    raise CosmoSevereError(
+classy.CosmoSevereError: 
+
+Error in Class: Class did not read input parameter(s): use_prtoe, xi_prtoe, zeta_prtoe, sigma_prtoe, rho0_prtoe, gamma_prtoe, phi_c_prtoe, delta_phi_prtoe, V0_prtoe, lambda_prtoe, m_prtoe
+
+END: 2026-08-04T03:24:16-06:00
+EXIT: 1

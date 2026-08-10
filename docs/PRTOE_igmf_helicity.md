@@ -251,11 +251,94 @@ velocity field. The build that would is **#150 / B1, the genesis solver** — th
 So the dependency runs #158 → #150, not #158 → #154, and #154 need not wait on this.
 
 P-2026-057's link table
-([PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md):3154) carries link E —
+([PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md), rehomed 2026-08-05) carries link E —
 *"sign(helicity_B) = sign(n)"* — as **recorded (P-2026-028)**, and composes it with link D to reach
 *"every sign question in both sectors funnels through sign(μ·n)."* That composition inherits the
 unpaid condition above without carrying it: on the locked-circulation branch the sky's handedness is
 **universal** and does not track sign(n) at all, which breaks the funnel rather than narrowing it.
-P-2026-057 is conditional on one more link than it declares — its antecedent should read
-*sign(μ·n) **and** the poloidal sense being genesis-fixed*. The consequent and the arithmetic are
-untouched; only the gate is wider than written.
+The condition is on **link E itself** and survives independently of any entry that composes it: link
+E holds only if the poloidal sense is genesis-fixed, so it should be read as *sign(μ·n) **and** the
+poloidal sense being genesis-fixed*.
+
+**P-2026-057 no longer carries the composition.** Its kill (iv) fired on 2026-07-27
+(`scripts/genesis_joint_draw.py`): sign(θ̇) and sign(n) are drawn **independently** — joint
+correlation −0.06 to +0.09 against a ±0.13 noise floor, forced by spatial parity — so the entry
+closed with, in its own words, *"no product to fix; the conditional's antecedent is empty rather
+than merely unrun."* The gate cannot be widened on an empty antecedent, and nothing in this section
+depends on that entry: the unpaid condition on link E is what matters here, and it stands.
+
+## What would close link 4's overall sign — acceptance criteria, registered before the deciding run (2026-08-03)
+
+State of play: the branch is closed (the ring's toroidal structure flips with the winding draw;
+a universal handedness is excluded) and the overall sign is open. At the simulated configuration
+the kinetic helicity decomposes as H ≈ 2n + Wr + Tw, with the mutual term (2n, exact) and the
+intrinsic twist comparable and opposed — so the sign sits near a cancellation and is decided by
+a quantity the instrument must measure well. These criteria are registered before that
+measurement so the result is read by rules fixed in advance.
+
+1. **The full mirror is four runs, not two.** Flipping n at a fixed upward fountain is not a
+   parity transformation of the configuration — the recorded twist values already show an
+   n-even component, which the fixed fountain direction can source. The deciding design is
+   {n = ±1} × {fountain up, fountain down}. The true-mirror pairs — (n, up) against (−n, down)
+   — must return H → −H within the measured run-to-run asymmetry: the equations of motion are
+   parity-symmetric, so **any violation of that antisymmetry is instrument, not physics, and
+   its size fences the quotable sign.** The two single-flip comparisons then separate what is
+   carried by the winding from what is carried by the plume.
+2. **A margin gate against the measured spread.** The sign is quotable only if |H| at the
+   verdict frame exceeds three times the instrument spread (protocol threshold), where the
+   spread is measured, not assumed: the twist extraction repeated across probe radii and probe
+   thresholds on the same saved field, and across the well-resolved frames. If the margin
+   fails, the pre-registered verdict is *"sign unresolved at this configuration — the
+   near-cancellation is confirmed as the finding"* — a bookable outcome, not a failure.
+3. **The verdict frame is fixed in advance**: the first frame with at least 15 of 16 position
+   bins and at least 12 of 16 phase probes, at matched time across branches; the full time
+   series of both readings is reported alongside it. Energy drift at the verdict frame — not
+   at run end — must be within the 2% gate, and is reported per branch.
+4. **Only the corrected instrument counts.** The original harness samples the phase at the
+   vortex singularity its own comment warns against; the off-core probe is the instrument of
+   record. Fields at the verdict frame are saved so diagnostics can be re-run without
+   re-evolution.
+5. **Any booked sign is configuration-local.** It is a statement about this ring-on-line
+   geometry at this amplitude, at candidate grade; the bridge from the simulated condensate
+   flow to the recombination-era plasma flow that the battery mechanism actually converts
+   rides one named condition — that the drag copies the flow's handedness faithfully — which
+   is stated here as a condition, not silently assumed.
+
+Outcomes, pre-registered: (i) margin passes and the mirror holds → the overall sign is booked
+at candidate grade, configuration-local, with the generalization owed; (ii) margin fails → the
+near-cancellation is the booked result and the sign stays open; (iii) the true-mirror
+antisymmetry fails beyond the measured asymmetry → nothing is booked and the instrument goes
+back to the bench. No post-hoc switching of frames, probe settings, or readings after any
+number is seen.
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY / OPEN-MACHINE honesty. **Production T14 overall sign is not bookable** from smoke or partial i6. Matter–helicity lock remains **void**. No invented sign(H_kin).  
+**Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (parent magnetism RM reconfirm; T14 machine not re-run this package).  
+**Owed / parent:** [T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md); [T14_blue_team_2026-08-03.md](working_logs/T14_blue_team_2026-08-03.md); [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md).  
+**Currency (2026-08-05):** Production four-branch run complete; **overall sign NOT BOOKABLE**. The `f = −1` branches carry `ampA` of 0.00122 and 0.00087, below the instrument's own 0.15 helicity floor, so they are **NOT_MEASURED** — not zeros and not failures. `n`-antisymmetry at `f = +1` is real **two-branch** evidence only. Both instrument gates refuse: per-branch margins are `False` below the floor, and every mirror pair crosses a measured against an unmeasured branch, so `mirror_ok` is **False**.
+**Authority card (single source for this lane):** [`working_logs/_runs/blocked_lane_t14_igmf_sign_20260805/REPORT.md`](working_logs/_runs/blocked_lane_t14_igmf_sign_20260805/REPORT.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Literature: ~2σ-class left-handed helical IGMF hints (Tashiro–Vachaspati / Fermi-LAT) | **adopted** (external, disputed) | §0; [T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md) | Systematics / non-detection debates | Treat ~2σ hint as completed model test |
+| 2 | sign(helicity_B) = sign(H_kin) via Harrison (k²; convention cancels) | **derived** | §"The seeding link"; [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md) §4 | — | Absolute sky sign without production overall bit |
+| 3 | sign(θ̇·n) independent — matter–helicity lock **void** | **machine-backed** | `scripts/genesis_joint_draw.py`; corr −0.06…+0.09 vs ±0.13; [T14_link5_joint_draw.md](working_logs/T14_link5_joint_draw.md) | Failures-ledger withdrawal of three-way lock | Restore three-way lock |
+| 4 | Temporal sign(θ̇) is a fair coin under single-harmonic tilt + uniform prior | **machine-backed** | §"The temporal half is a fair coin" | — | Claim temporal sign derived absolute |
+| 5 | Poloidal sense fixed by plume geometry (half of bilinear H) | **machine-backed** (candidate) | `scripts/ring_rollup_poloidal_v3.py` | Relative toroidal–poloidal bit still open | Treat poloidal alone as overall production sign |
+| 6 | Overall seeding sign sign(H_kin) / link-4 overall bit | **OPEN-BLOCKED** (OPEN-MACHINE) | Pre-registered four-branch criteria this file 2026-08-03; `scripts/ring_toroidal_3d.py` | **No production booking.** Smoke / partial i6 only: [t14_smoke_revalidate_20260803](working_logs/_runs/t14_smoke_revalidate_20260803/REPORT.md); [t14_i6_partial_grade_20260803](working_logs/_runs/t14_i6_partial_grade_20260803/REPORT.md); run dir `t14_hkin_i6_prod_20260803_090317/` | Book production sign from incomplete four-branch / smoke; invent sign |
+| 7 | P-2026-028 routing sign(helicity_B)=sign(n) conditional on seeding link | **registered** / conditional | predictions register; §1 | Rides claim 6 | Unconditional absolute handedness prediction |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| Overall sign(H_kin) / link-4 | **OPEN-BLOCKED** (OPEN-MACHINE) | Pre-registered four-branch + true-mirror + energy gate (this file §§ criteria; T14 blue-team) | Production run meeting **all** pre-registered gates — not smoke/partial |
+| Relative toroidal–poloidal bit | **OPEN** (candidate half paid) | poloidal instrument; toroidal 3D | Instrument completion under same booking rules |
+| Void B floor (parent) | **OPEN-BLOCKED** | [PRTOE_cosmic_magnetism.md](PRTOE_cosmic_magnetism.md); debt_magnetism | External / new seed — not this file’s job |
+
+**Non-claims:** Booked overall sign from incomplete four-branch / i6 production; absolute handedness as a model prediction; matter–helicity correlation (void); reading the Tashiro–Vachaspati hint as a completed test without the seeding map; production T14 sign by invention.
+
+**Triage:** elevate-in-place; **blocked (OPEN-MACHINE)** on T14 four-branch production / overall sign — do not rehome to Failures.

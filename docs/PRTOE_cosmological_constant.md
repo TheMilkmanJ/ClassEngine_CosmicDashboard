@@ -1,6 +1,6 @@
 # Cosmological constant from vacuum occupancy
 
-**Audience grade (2026-07-30).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel (nothing cosmological in the chain) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 (0.34657 crowns; 0.34506 kills). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+**Audience grade (2026-07-30; R3-tau-lock 2026-08-03; exhaust currency 2026-08-05; P-048 clause-4 currency 2026-08-05).** **Existence claim, not precision.** ρ_Λ¼ = (9/2)α⁴·τ·m_e with τ = ½ln2 from the Koide kernel under three conditions: **measured Q=2/3**, **√σ_dark=m_e pin**, and **e^(−τ) thermal-weight reading of the kernel modulus** (Parseval algebra; **not** the contradicted thermal *delivery* path — R2-koide (c); lattice P-048 tests the composite) → **2.2599 meV** vs observed **2.25** (+0.44% in τ-space). Composite quartic past control (λ = 26–46 vs λ\* = 22.41) → uncontrolled LHY ~5–10% on ρ_Λ¼. Referee: lattice **T_c/√σ** for SU(2), N_f = 3 — **live falsifier = clause 4** (window); crown/null (0.34657 / 0.34506) is **sky-limited** (clauses 2/3 not executable; ~0.98σ even at σ_lattice=0). α_c = 3α is a bet; √σ_dark = m_e is an irreducible pin (not derived). dCDF’s own FDT does **not** supply this number (ohmic miss). **Precision residual:** unitarized σσ amplitude at λ ~ 45.7 is **MISSING_INPUT** (calculation not stocked; no invented amp). Existence claim stands. External tau-gate state is centralized in [`working_logs/_runs/blocked_lane_lattice_tau_gate_20260805/REPORT.md`](working_logs/_runs/blocked_lane_lattice_tau_gate_20260805/REPORT.md). Full risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Exhaust T-S4: [`working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md`](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/MASTER.md).
 
 ---
 
@@ -18,8 +18,10 @@
 > the observation gives τ = 2.25/((9/2)α⁴m_e) = **0.34506**, which returns 2.25 by construction — a
 > perfect match that predicts nothing. The kernel's 0.34657 sits 0.44% above that value, so the gap
 > between them is precisely what distinguishes a derivation from a back-solve. **A lattice T_c/√σ
-> for SU(2) with N_f = 3 decides it** (P-2026-048), and it must reach 0.22% precision to tell the
-> two apart — a demanding number, and nobody has computed it yet.
+> for SU(2) with N_f = 3 is the referee** (P-2026-048). Crown vs null (0.34657 vs 0.34506) is
+> **sky-limited** at present ρ_Λ precision (~0.98σ even at σ_lattice=0); clauses 2/3 are not
+> executable. **Clause 4** (τ̂ outside the fixed window) remains the live falsifier — and nobody
+> has computed the SU(2) N_f=3 number yet.
 >
 > And the claim is existence, not precision — the distinction is load-bearing and is made in full
 > at §4b. The gap above is a statement about *τ*, where it is exact arithmetic between two
@@ -121,8 +123,8 @@ the chain descends from Q, a lepton-mass fact measured to ten parts per million.
 The distinction that matters: inverting the observation gives 2.25/((9/2)α⁴m_e) = **0.34506**, which
 would make the chain run backward and return 2.25 by construction — a 0.0% match dressed as a
 prediction. The kernel's 0.34657 sits **0.44% above** that, and the gap *is* the prediction. A
-lattice T_c/√σ for SU(2), N_f = 3 decides it (P-2026-048), and must reach 0.22% precision to tell
-the two apart.
+lattice T_c/√σ for SU(2), N_f = 3 is the referee (P-2026-048). Crown/null discrimination is
+sky-limited (~0.98σ even at σ_lattice=0); the live falsifier is clause 4 (window kill).
 
 What is derived, and what is not. τ is not a free parameter. In the proposed **dark confining
 sector** — a "dark colour" force whose condensation *is* the electron-coupled scalar, with its
@@ -152,7 +154,7 @@ hierarchy. The smallness is inherited twice, tuned zero times.
 ## 3. Consequences already in force
 
 - ρ_Λ¼ equals the lightest neutrino mass (the model's dark-energy–neutrino tie)
- ⟹ **Σm_ν = 61.4 meV, normal ordering, Majorana mechanism required** — the full
+ ⟹ **Σm_ν ≈ 61.35 meV, normal ordering, Majorana mechanism required** — the full
  statement with its caveats lives in the neutrino-sector document.
 - w = −1 exactly (a ground state, not a rolling field) — DESI's target.
 - The dark-energy floor cannot "thaw" into dynamics (a pre-registered zero, currently
@@ -469,13 +471,11 @@ log; the thermal reading's arc.
 
 ---
 
-## The control-edge demotion, re-examined against the Monte Carlo (2026-07-29)
+## Control edge and Monte Carlo residual (LHY vs log term)
 
-§4b originally demoted the +0.44% from a precision claim because *"the next term of the same
-series is already larger"*, and concluded that the λ gate and the τ gate merge, one lattice job
-gating both open numbers. The arithmetic there was correct. **The inference was not, and the λ half
-of that merge was wrong** — §4b now carries the corrected statement, and this section is the chain
-that produced it.
+The +0.44% gap is an **existence** statement about τ, not a precision claim on the predicted meV.
+A large third (logarithmic) term in the dilute expansion does **not** force the λ gate and the τ
+gate to merge into one lattice job: the literature grades the LHY and log terms separately.
 
 Giorgini, Boronat & Casulleras (*Phys. Rev. A* **60**, 5129, 1999; arXiv:cond-mat/9902185) grade
 the two terms **separately and oppositely**, at exactly the gas parameter in play:
@@ -495,20 +495,21 @@ simulated points either side, so no extrapolation is needed. And it runs four po
 sphere; soft sphere at R = 5a and R = 10a, described there as *"two extreme cases for a repulsive
 potential"*; hard-core square well) expressly to test how far universality survives.
 
-### What this changes, and what it does not
+### Gate split (λ desk / τ lattice)
 
-**Changes:** the stated ground for the demotion is refuted by the source that ground would have to
-rest on, and **the λ gate no longer needs the lattice.** τ still does. The two gates do not merge.
+**λ gate:** does **not** need the SU(2) lattice. Truncating at LHY is the validated procedure; the
+error is the Monte-Carlo-minus-LHY residual and potential-shape spread, both desk-grade once
+read from the literature.
 
-**Does not change:** the numeric residual is not yet in hand. The QMC-minus-LHY difference at
-na³ = 0.0019–0.0059, and the spread across those four potentials, live in the paper's Tables I and
-II, which did not survive text extraction. **This establishes that the gate is openable at the desk
-— not that it is open.** The honest status of the precision claim is now *"pending a table read"*
-rather than *"pending a lattice campaign nobody has run"*, which is a materially different debt.
+**τ gate:** still needs lattice T_c/√σ (P-2026-048; clause 4 live). The two gates do not merge.
+
+**Precision residual status:** QMC-minus-LHY at na³ = 0.0019–0.0059 and the four-potential spread
+are read from the paper's Tables I and II below. The gate is openable at the desk; the precision
+claim remains pending those systematics and the σσ amplitude, not a lattice campaign for λ.
 
 `scripts/lhy_control_edge_refuted.py`, 7 controls including two anti-controls. All pass.
 
-### The residual, now measured (2026-07-29) — the reason was wrong, the conclusion survives
+### Measured residual (Giorgini et al. tables)
 
 Tables I and II of Giorgini, Boronat & Casulleras read off directly. Energies in ħ²/2ma²,
 hard-sphere potential, against the three truncations:
@@ -522,50 +523,47 @@ hard-sphere potential, against the three truncations:
 
 The 5×10⁻³ row sits inside the model's na³ = 0.0019–0.0059. Three things follow.
 
-**The log term is not a warning, it is a wreck.** At the model's own density it takes a +3.3% error
+**The log term fails at this density.** At the model's own density it takes a +3.3% error
 to −36.8%. Keeping it is strictly worse than dropping it, which is what the paper says in words and
-what the table shows in numbers. §4b's inference — that a large third term means the second cannot
-be trusted — is refuted outright.
+what the table shows in numbers. A large third term is a known defect of that term, not evidence that
+LHY has lost control.
 
 **LHY truncation is accurate to 3.3% in the energy**, hence **0.82% on ρ_Λ¼** (which goes as E¼).
-Against the quoted uncontrolled band of 5.4–9.8%, that is a **6.6× to 11.9× reduction**.
 
-**But the error does not vanish, it relocates.** Table II gives three potentials at na³ = 10⁻³:
+**The residual relocates to interaction shape.** Table II gives three potentials at na³ = 10⁻³:
 SS(R=5a) 1.395×10⁻², SS(R=10a) 1.356×10⁻², HCSW 1.430×10⁻² — a **5.31% spread**, i.e. **1.33% on
 ρ_Λ¼**, and that is measured *below* the model's range, so it is a lower bound. Combined in
-quadrature with the truncation error: **≈1.6% on ρ_Λ¼**.
+quadrature with the truncation error: **≈1.6% on ρ_Λ¼** at Table-II density (model band higher —
+see below).
 
-### Verdict
+### Present status of the precision claim
 
-| | before | after |
-|---|---|---|
-| stated uncertainty on ρ_Λ¼ | 5.4–9.8%, *uncontrolled* | **≈1.6%, quantified** |
-| what would close it | "one lattice job" | the dark sector's **interaction shape** |
-| the +0.44% gap | inside an unknown error | inside a **known** error, 3.5× wider |
+| quantity | status |
+|---|---|
+| uncertainty on ρ_Λ¼ (Table-II density) | **≈1.6%, quantified** (truncation ⊕ shape; model density → **≈2–4%**, below) |
+| what closes the dominant term | the dark sector's **interaction shape** (desk / Bose-gas MC), not the SU(2) lattice |
+| the +0.44% gap | inside a **known** error bar — precision claim **not** restored |
 
-**The demotion's reason was wrong; its conclusion stands on a different footing.** The gap is still
-inside the error bar, so the precision claim is not restored — but the error is now a measured
-number dominated by a *named* systematic rather than an admission that the expansion failed. And
-the closing move is not the lattice: it is pinning the dark sector's potential shape, since
-hard-sphere versus soft-sphere is what the 1.33% is made of.
+The gap remains inside the error bar. The error is a measured number dominated by a *named*
+systematic (hard-sphere vs soft-sphere shape) rather than an uncontrolled expansion failure.
+Closing it is pinning the dark-sector potential shape, not a lattice determination of τ.
 
-`scripts/lhy_control_edge_refuted.py` (7 controls) established the refutation; the numbers here are
-read straight from the published tables.
+`scripts/lhy_control_edge_refuted.py` (7 controls); numbers read from the published tables.
 
-#### Correction to the line above, same day: the 1.33% was an underestimate
+#### Potential-shape spread at model density (not the Table-II 1.33% alone)
 
-The potential-shape spread was quoted at na³ = 10⁻³ because that is where Table II sits. **It grows
-steeply with density**, so evaluating it below the model's range understates it:
+The potential-shape spread evaluated at na³ = 10⁻³ (where Table II sits) is **1.33% on ρ_Λ¼**.
+**It grows steeply with density**, so that figure understates the model's own density band:
 
 | na³ | potentials compared | spread in E | on ρ_Λ¼ |
 |---|---|---|---|
 | 10⁻⁵ | 4 | 0.31% | 0.08% |
 | 10⁻⁴ | 4 | 0.84% | 0.21% |
-| 10⁻³ | 3 | 5.31% | **1.33%** ← what was quoted |
+| 10⁻³ | 3 | 5.31% | **1.33%** (Table II density) |
 
 A log–log fit over those points gives slope 0.61, which extrapolated across the model's own
 na³ = 0.0019–0.0059 gives **2.0% to 4.0% on ρ_Λ¼**, not 1.33%. Combined in quadrature with the
-0.82% truncation error, the total is **≈2–4%**, not the ≈1.6% recorded above.
+0.82% truncation error, the total is **≈2–4%**, not the ≈1.6% obtained from the Table-II density alone.
 
 Two honest weaknesses in that extrapolation, both of which cut against leaning on it: the 10⁻³ row
 compares only **three** potentials because Table I has no 10⁻³ entry for hard spheres, so it is not
@@ -576,12 +574,11 @@ strictly commensurate with the four-potential rows below it; and it is a two-poi
 model lives above it. Closing it needs Monte Carlo for several potentials at na³ ≈ 5×10⁻³, which
 this reference does not contain.
 
-**Revised verdict.** The uncertainty on ρ_Λ¼ falls from the file's 5.4–9.8% to roughly **2–4%** —
-a real improvement of order 2–3×, not the 6–12× the truncation error alone suggested. The gap being
-claimed is +0.44%, so it remains comfortably inside the error bar. What has genuinely changed is
-that the dominant term is now a *named, measurable* systematic (interaction shape) rather than a
-failed expansion, and the instrument that would close it is Bose-gas Monte Carlo at the right
-density — still not the SU(2) lattice.
+**Present verdict.** Uncertainty on ρ_Λ¼ at model density is roughly **2–4%** (truncation plus
+extrapolated shape), not the uncontrolled 5.4–9.8% band and not the 6–12× improvement truncation
+error alone would suggest. The gap claimed is +0.44%, so it remains comfortably inside the error
+bar. The dominant term is a *named, measurable* systematic (interaction shape); the instrument that
+closes it is Bose-gas Monte Carlo at the right density — still not the SU(2) lattice.
 
 #### And the shape systematic is not irreducible either — it collapses to one number
 
@@ -747,6 +744,7 @@ right on top of the kinematics.
 The remaining blocker is standard: **is tree-level σσ scattering reliable at λ = 45.7?**
 Chiral perturbation theory and unitarised amplitudes (including the f₀(500) literature already
 cited for the σ mass) are the tools; that calculation is not attempted here.
+**Currency (2026-08-05):** unitarized σσ at λ ~ 45.7 = **MISSING_INPUT** — no stocked compute; amplitude not filled by invention. Existence claim for ρ_Λ¼ stands; precision wait is this residual (exhaust T-S4).
 
 Established: LSM convention m_σ² = 2λf² (verified against the file's λ); σ-exchange contributes
 5× the contact term; both readings land at or below 0.6% on ρ_Λ¼. Open: which reading is right,
@@ -785,3 +783,21 @@ requires largely cancelling σ-exchange rather than correcting it.
 Tree-level scattering at λ = 45.7 is not quantitatively reliable, so 13.8 is an estimate. The
 conclusion is that the *bound* is insensitive over the plausible range — not that the point value
 is measured.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e = 2.2599 meV vs 2.25 (+0.44% τ-space) | **complete-conditional** / **existence not precision** | banner; closed form | Quartic past control λ=26–46 |
+| 2 | τ = ½ln2 from Koide kernel | **derived-conditional** on **(i)** measured Q=2/3, **(ii)** √σ_dark=m_e pin, **(iii)** e^(−τ) thermal-weight reading of kernel modulus \|f₁/f₀\| (Parseval structure; **not** contradicted thermal/flat *delivery* path — R2-koide (c)); composite is what lattice **P-048** tests | Parseval; R3 audit + red AGREE-IF | **WATCH-EXTERNAL:** lattice T_c/√σ P-048; see `working_logs/_runs/blocked_lane_lattice_tau_gate_20260805/REPORT.md`; locking τ *without* input Q still **OPEN** (#101) |
+| 3 | α_c = 3α registered bet | **OPEN-BLOCKED** | MCMC | Instrument offline |
+| 4 | √σ_dark = m_e irreducible pin | **OPEN** (not derived) | banner | Named irreducible input |
+| 5 | Occupancy: one binding quantum per coherence cell | **interpretation** / argument-grade | §2 | — |
+| 6 | Radiative band 0.10–0.90% on ρ_Λ¼ (one-way) | **machine-backed** bound | control-edge; a₀ table | Point a₀ / unitarized σσ at λ~45.7 **MISSING_INPUT** (T-S4) |
+| 7 | dCDF FDT does not supply this number | **failed** (sector miss) | dcdf_superfluid | Koide route supplies |
+
+**Non-claims:** not precision two decimals; not back-solved τ=0.34506 as prediction.
+
+**Triage:** elevate-in-place. Physics ceiling: existence claim; lattice **OPEN-BLOCKED**.

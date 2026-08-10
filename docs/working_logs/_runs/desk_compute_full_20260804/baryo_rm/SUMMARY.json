@@ -1,0 +1,75 @@
+{
+  "stamp": "2026-08-04T09:42:59.862477+00:00",
+  "packs": [
+    "baryo_rm"
+  ],
+  "timeout_s": 120,
+  "n_jobs": 4,
+  "n_exit0": 4,
+  "n_nonzero": 0,
+  "n_timeout": 0,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "baryo_junction",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/baryogenesis_junction_closure.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:42:58.753733+00:00",
+      "exit": 0,
+      "elapsed_s": 0.29,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/baryo_rm/logs/baryo_junction.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "junction_quartet",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/junction_quartet_closure.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:42:59.050697+00:00",
+      "exit": 0,
+      "elapsed_s": 0.23,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/baryo_rm/logs/junction_quartet.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "rm_coherence",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/rm_coherence_kibble.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:42:59.284634+00:00",
+      "exit": 0,
+      "elapsed_s": 0.288,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/baryo_rm/logs/rm_coherence.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "winding_turn",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/winding_turn_budget.py"
+      ],
+      "timeout_s": 120,
+      "started": "2026-08-04T09:42:59.576217+00:00",
+      "exit": 0,
+      "elapsed_s": 0.285,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/baryo_rm/logs/winding_turn.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

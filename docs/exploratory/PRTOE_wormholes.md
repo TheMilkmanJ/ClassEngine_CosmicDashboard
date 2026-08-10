@@ -1,11 +1,16 @@
 # PRTOE and Wormholes — the No-Overdraft Law (2026-07-12)
 
+> **EXPLORATORY — not OEM claim authority (2026-08-04).**  
+> Not living shelf / not closed theory. Do not cite as OEM expansion claim.  
+> No full living twin. Companion: [`PRTOE_white_holes.md`](PRTOE_white_holes.md).  
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
 *Wormholes, warp drives, and closed timelike curves in the model's own terms. Impossibility
 claims are claims: each cites the record it inherits (nothing here is claimed as novel where the
-literature owns it) and names its killer. Companion: [PRTOE_white_holes.md](../PRTOE_white_holes.md)
+literature owns it) and names its killer. Companion: [PRTOE_white_holes.md](PRTOE_white_holes.md)
 (the arrow ban and the one exception). Sources in [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md) §11.*
 
 ---
@@ -64,3 +69,20 @@ beyond the pricing; the model grades the physics, not the dream.*
 ## Sources
 [MorrisThorne1988], [FordRoman1995], [Alcubierre1994], [Hawking1992], [ArkaniHamed2004]
 — full entries in [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md) §11.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| W1 | Traversable wormhole needs sustained NEC violation / exotic matter | derived (literature) | Morris–Thorne 1988; Ford–Roman 1995; §1 | Standard GR result; not PRTOE invention |
+| W2 | Medium forbids permanent negative-energy throat (floor / no-overdraft) | interpretation | §1 least-cost relaxation; λ > 0 from \(c_s=\sqrt{\alpha_c}\) | Rides M3; no new engineering number |
+| W3 | Only NEC-flexible stock (ghost condensate) ~10⁻¹⁷ of engineering need | machine-backed (reuse) | branch-DOS pass cited in §1 | Falls if ghost-branch DOS overturned |
+| W4 | CTCs forbidden: acoustic spacetime admits global time function | derived (analog-gravity structure) | §2; fluid foliation by lab/CMB time | Strongest native ban under one medium rest frame |
+| W5 | Warp / Alcubierre faces same empty exotic shelf as W3 | interpretation | Alcubierre 1994 + §1 pricing | Same residual as W3 |
+| W6 | Macro sustained NEC beyond QI bounds reopens file | registered null | §3 killer | Laboratory / astrophysical demonstration |
+
+**Non-claims:** no travel-engineering green light or novel warp design; not a derivation of quantum inequalities themselves.  
+**Triage:** elevate-in-place (discipline); exploratory; not Failures.  
+**Load-bearing grade fence:** every physics row is derived / interpretation / machine-backed / registered null — no bare story.

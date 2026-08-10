@@ -138,6 +138,24 @@ condensate program); [Barceló–Liberati–Visser 2005] (analog gravity); [Herr
 (modern Michelson–Morley, cited for the *other* objection); the Pioneer-anomaly
 resolution [Turyshev 2012] (the drag null's case study). Full entries:
 [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md). Internal: the Landau certificate cert-1/F3
-([PRTOE_laboratory_cousins.md](../PRTOE_laboratory_cousins.md), records 337/411), the
+([PRTOE_laboratory_cousins.md](PRTOE_laboratory_cousins.md), records 337/411), the
 census null P-2026-008, the Lorentz-violation pricing pass
 ([PRTOE_LV_pricing.md](../PRTOE_LV_pricing.md)).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| I1 | Landau criterion: sub-critical motion dissipation-free in superfluid | derived (standard) | Landau 1941; lab ⁴He/³He/BEC; §2 | Literature fact; not PRTOE invention |
+| I2 | Vacuum critical velocity = c under founding condensate + one-metric | interpretation / complete-conditional | §2; rides M3 + [PRTOE_special_relativity.md](PRTOE_special_relativity.md) | Dies with M3 or one-metric fail |
+| I3 | Newton’s first law = zero-drag certificate of the medium | interpretation | §2–3 | Ontology seating of standard result |
+| I4 | Matter couples gravitationally only (no non-grav drag channel) | complete-conditional (cross-link) | P-2026-008 census null cited §3 | Shared with coupling census |
+| I5 | Vacuum Cherenkov / drag below c would kill linear cone | registered null | §4–6; Coleman–Glashow class; UHECR | Roton-class dip would lower \(v_c\) |
+| I6 | Shortcuts priced closed (wormholes / warp / CTC) | interpretation (cross-link) | [PRTOE_wormholes.md](PRTOE_wormholes.md) | Same residuals as wormhole ledger |
+
+**Non-claims:** no propulsion technology; no claim that Pioneer-class anomalies are vacuum drag (resolved thermally).  
+**Triage:** elevate-in-place (discipline); exploratory; not Failures.  
+**Load-bearing grade fence:** every physics row is derived / interpretation / complete-conditional / registered null — no bare story.  
+**Sector fence:** vacuum \(v_c=c\) (this file) ≠ dark-condensate Landau null (`scripts/medium_induced_decoherence.py` / quantum superposition S7) — do not merge.

@@ -1,12 +1,25 @@
 # SMBH Gravitational Atoms — Strong Coupling at the Top of the Mass Function (2026-07-11)
 
+> ## OPEN-MACHINE residual freeze — 2026-08-04
+>
+> **Status:** OPEN-MACHINE (desk residue paid; α_g **chain-gated**).
+>
+> **Machine residual waiting:** α_g = GMm/ħc and the α_g=1 mass scale ride the recorded m from the α_c / onset instrument. That instrument (`cmp_prtoe_zon_disp`) is **not running** (last R−1≈17.81; collapsed). NewAthena spin-mass plane remains **WATCH-EXTERNAL**. Live bbnfix pair does not pin m for this file.
+>
+> **What unblocks:** owner restart of zon_disp (or successor) → self-stop → GetDist m/α_c → reprice α_g ladder; external NewAthena for spin-mass degeneracy break.
+>
+> **Forbidden claims:** proven SMBH mass cutoff from model alone; quoting unconverged onset center as measured α_g; treating OOM numbers as precision.
+>
+> **Blocked-lane audit:** shared `zon_disp` lane frozen in
+> [blocked_lane_zondisp_20260805/REPORT.md](working_logs/_runs/blocked_lane_zondisp_20260805/REPORT.md).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
 *Thread 2 of the atom-grammar survey — a structural candidate with computed numbers.
 The superradiance physics recorded at P-2026-005 acquires a
 level structure and a characteristic mass scale, and two independent routes land on the same
-number.*
+number. Desk halves paid (T2/#31); α_g remains chain-gated (**OPEN-MACHINE** freeze 2026-08-04).*
 
 ## 0. The grammar
 
@@ -148,3 +161,19 @@ self-coupling is invisible to every superradiance process. The free-vs-condensat
 therefore gone: there is nothing for a spin measurement to separate, and whatever high in-band
 spins do to free ultralight scalars, they do to this model. The exposure is unchanged in size and
 now has no defence in reserve.
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | α_g = GMm/ħc at m=2.24×10⁻²⁰ eV; α_g=1 at M≈6×10⁹ M☉ | **machine-backed** OOM | §1 | **OPEN-MACHINE:** m rides α_c / zon_disp (not running) |
+| 2 | Two-route coincidence with r_s=ξ crossover ~2×10¹⁰ M☉ | **interpretation** / candidate | §2 | Not recorded as proven; astrophysical cutoffs exist |
+| 3 | Superradiance window on SMBH mass ladder (P-005 structure) | **complete-conditional** | §3; desk residue paid | Chain-gated via α_c MCMC |
+| 4 | λ shield absent ~85 decades; free-scalar exposure | **machine-backed** adverse | closing quench calc | P-2026-034 has no defence in reserve |
+| 5 | Spin-mass data plane featured but degenerate with chaotic accretion | **WATCH-EXTERNAL** | NewAthena referee | — |
+
+**Non-claims / forbidden:** not a proof that SMBH cutoff is model’s; OOM numbers; no precision α_g from unconverged chains.
+
+**Triage:** elevate-in-place. Physics ceiling: OOM + paid desk; α_g **OPEN-BLOCKED** (2026-08-04).

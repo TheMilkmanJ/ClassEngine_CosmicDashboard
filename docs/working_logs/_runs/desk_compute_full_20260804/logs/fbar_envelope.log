@@ -1,0 +1,44 @@
+============================================================================
+THE PREMISE, CHECKED
+============================================================================
+  2/pi                                0.636619772
+  <|cos|> over exactly   1 turns      0.636619772   (deviation 0.00e+00%)
+  <|cos|> over exactly   2 turns      0.636619772   (deviation 0.00e+00%)
+  <|cos|> over exactly  10 turns      0.636619772   (deviation 0.00e+00%)
+  <|cos|> over exactly  50 turns      0.636619772   (deviation 0.00e+00%)
+
+  Over any whole number of turns the average is 2/pi to numerical precision. The
+  booked value is therefore exact under the stated premise, and the fit's 0.6253 is
+  an estimate of it rather than a competing determination.
+
+============================================================================
+THE ONLY WAY IT MOVES: A PARTIAL TURN
+============================================================================
+    turns N   worst-case deviation   1/(pi N) for comparison
+  ------------------------------------------------------------
+        1.0                 8.709%                   31.831%
+        2.0                 4.755%                   15.915%
+        5.0                 2.018%                    6.366%
+       10.0                 1.030%                    3.183%
+       18.0                 0.578%                    1.768%
+       30.0                 0.348%                    1.061%
+      100.0                 0.105%                    0.318%
+
+============================================================================
+WHAT THAT DOES TO THE PREVIOUS PASS
+============================================================================
+  The 1.81% shift the earlier pass borrowed from the fit is real ONLY if the winding
+  is short enough for a partial turn to matter. The envelope above puts that at
+  roughly N < 20 turns; past a few tens of turns f_bar is pinned to 2/pi far tighter
+  than the 2.08% conflict, and the escape closes.
+
+  So branch (a) does not rest on 'the fit disagrees with 2/pi' -- that is noise around
+  a theorem. It rests on whether the winding completes enough turns, which is a
+  physical question with a recorded answer elsewhere in the corpus, and a different
+  question from the one the fit's scatter answers.
+
+  Stated as a requirement: closing the alpha_c conflict through f_bar needs the
+  winding to be short. Solving the envelope for a 2.08% worst case gives
+  N = 4.8 turns -- and note the 1/(pi N) proxy would have said 15, overstating
+  the allowance by a factor of three. Anything longer than a handful of turns
+  leaves the conflict standing at close to its full 2.08%.

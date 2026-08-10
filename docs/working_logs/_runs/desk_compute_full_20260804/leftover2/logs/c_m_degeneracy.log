@@ -1,0 +1,28 @@
+==================================================================
+#16: c-m degeneracy -- does the fuzzy-DM mass keep c natural?
+==================================================================
+
+  degeneracy line:  c(m) = 0.974 * (m / 2e-20 eV)^(1/4)
+
+  landmark                          m (eV)    -> c   naturalness
+  ----------------------------------------------------------
+  model pin (amp+abundance)        2.0e-20    0.97   comfortable
+  Lyman-alpha lower bound          2.0e-20    0.97   comfortable
+  UFD Dalal-Kravtsov bound         3.0e-19    1.92   edge of O(1)
+  if pushed to CDM-like            1.0e-18    2.59   strained
+
+  c reaches 2 at  m = 3.6e-19 eV
+
+  c reaches 3 at  m = 1.8e-18 eV
+
+  c reaches 4 at  m = 5.7e-18 eV
+
+------------------------------------------------------------------
+VERDICT ON THE UFD TENSION:
+  If UFD wins (m~3e-19), the model ABSORBS it by setting c = 1.92.
+  That is still O(1) and 'natural' -- so the UFD tension is SURVIVABLE, NOT a kill.
+  Cost: it spends c's naturalness margin (0.97 -> 1.9, toward the edge).
+  And c is pinned only as tightly as m is measured: m in [2e-20, 3e-19]
+  => c in [0.97, 1.92]. A RANGE, consistent w/ natural,
+  not yet a sharp value. #16 gives c to a factor ~2, bounded by the mass data.
+==================================================================

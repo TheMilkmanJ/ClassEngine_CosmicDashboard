@@ -1,0 +1,36 @@
+==============================================================================
+bounce floor / live-dCDF / metric-exit  no-go checks
+==============================================================================
+
+(A) CSW ceiling in homogeneous FRW
+  rho_bounce^(1/4)     = 1.059e+03 eV
+  polytrope p/rho      = 1.250e-01  (p=K rho^2)
+  rho+p (polytrope)    > 0  for all rho>0
+  rho+p (p~rho ceil.)  = 2 rho > 0
+  rho_bounce/|rho_L|   = 4.912e+22  (bare cannot cancel)
+  homogeneous QP        = 0  (no gradients)
+  VERDICT A: CSW floor ≠ FRW bounce (core/hydrostatic ≠ homogeneous)
+
+(B) Live barotropic dCDF  w = -rho_inf/rho
+  rho/rho_inf=1.000e+00  w=-1.000000  (rho+p)/rho_inf=0.000000e+00
+  rho/rho_inf=1.010e+00  w=-0.990099  (rho+p)/rho_inf=1.000000e-02
+  rho/rho_inf=1.000e+01  w=-0.100000  (rho+p)/rho_inf=9.000000e+00
+  rho/rho_inf=1.000e+06  w=-0.000001  (rho+p)/rho_inf=9.999990e+05
+  rho/rho_inf=1.000e+12  w=-0.000000  (rho+p)/rho_inf=1.000000e+12
+  VERDICT B: NEC combination never negative; floor gives Ḣ=0 not Ḣ>0
+
+(C) Metric exit at xi vs recorded floor
+  xi                   = 402 AU
+  H^-1/xi at floor  = 12.34
+  rho_exit^(1/4)       = 3.720e+03 eV  (where H^-1=xi)
+  rho_exit/rho_bounce  = 1.522e+02
+  VERDICT C: homogeneous metric still valid at the recorded floor;
+             Hubble-scale metric exit is above the CSW ceiling.
+             Local BKL curvature >> H is uncomputed, not a free pass.
+
+OVERALL:
+  Finite rho_bounce is real and sub-Planckian (no-singularity number).
+  Homogeneous FRW bounce dynamics are still missing.
+  Do not promote the floor, the live dCDF, or Hubble-scale metric exit
+  to a derived bounce.
+==============================================================================

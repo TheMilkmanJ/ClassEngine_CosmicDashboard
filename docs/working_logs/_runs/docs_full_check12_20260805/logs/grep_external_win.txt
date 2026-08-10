@@ -1,0 +1,5 @@
+=== EXTERNAL WIN ===
+docs/PRTOE_INDEX.md:14:| **BBN ε (2σ ceiling)** | **ARITHMETIC VERIFIED (internal)** — recompute **3.196%** ≈ paper **3.20%** PASS (`papers/bbn-eps-bound/`); **EXTERNAL WIN PENDING (no DOI)** | That this is a public external win, books posteriors, or closes bbnfix |
+docs/PRTOE_INDEX.md:37:- [Papers packages](../papers/README.md) — **6** TeX packages (supertrace-note **SHIPPED** Zenodo; neutrino-mbb, radio-lattice, lattice-tc-gap, **bbn-eps-bound** arithmetic **VERIFIED (internal)** 3.20% 2σ / **EXTERNAL WIN PENDING (no DOI)**, kination-tracking-note all **READY_PACKAGE**; staged under [arXivReady](arXivReady/README.md)). External gate = endorsement / Fairbank for posts — not desk packaging.
+docs/PRTOE_READERS_RISK.md:378:| 8 | BBN ε 2σ ceiling **ARITHMETIC VERIFIED (internal)** (3.196%≈3.20%); **EXTERNAL WIN PENDING (no DOI)** — not a chain booking | **internal arithmetic** | hard-wins table | Does **not** close bbnfix; not a public external win until DOI |
+docs/PRTOE_honest_status.md:45:+2.91σ (cannot bound ε) — honesty unchanged. **EXTERNAL WIN PENDING (no DOI)** — public record still owed; not re-booked.

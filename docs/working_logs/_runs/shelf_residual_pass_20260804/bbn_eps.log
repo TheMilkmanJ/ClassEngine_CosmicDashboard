@@ -1,0 +1,9 @@
+Yp0=0.246891
+dY_per_pct=0.00163
+Aver=0.2453+/-0.0034
+eps_1sig_ceiling_pct=1.109816
+eps_2sig_ceiling_pct=3.195706
+paper_claim=3.20
+match_PASS=True
+VERDICT: PASS
+EXIT 0

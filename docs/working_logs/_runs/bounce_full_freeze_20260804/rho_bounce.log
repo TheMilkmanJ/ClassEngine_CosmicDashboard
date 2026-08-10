@@ -1,0 +1,30 @@
+==============================================================================
+rho_bounce  =  m^4/lambda  =  m^2 Psi0^2   (Colpi-Shapiro-Wasserman quartic ceiling)
+==============================================================================
+  inputs : m = 2.240e-20 eV,  lambda = 2.0e-91 = (m/Psi0)^2
+  Psi0 = f_eff = m/sqrt(lambda) = 5.009e+25 eV = 5.01e+16 GeV = 4.1e-03 M_Pl
+
+  rho_bounce = 1.259e+12 eV^4
+             = 1.259e-24 GeV^4
+             = 2.921e-07 g/cm^3
+  rho_bounce^(1/4) = 1059 eV = 1.06 keV
+
+  SANITY (must be finite and sub-Planckian for 'no singularity' to mean anything):
+    vs Planck  5.16e+93 g/cc :   100 orders BELOW  -> finite, sub-Planckian  [OK]
+    vs nuclear 2.30e+14 g/cc :    21 orders BELOW nuclear
+    vs BBN hot-start T=1 MeV (8.2e+05 g/cc):   12 orders BELOW  <- the open joint
+    vs BBN hot-start T=2 MeV (1.3e+07 g/cc):   14 orders BELOW  <- the open joint
+    vs BBN hot-start T=4 MeV (2.1e+08 g/cc):   15 orders BELOW  <- the open joint
+
+  MECHANISM CROSS-CHECK (m^4/lambda IS the CSW max-mass central density, not a halo core):
+    TF parameter Lambda = lam M_Pl^2/(4pi m^2) = 4728  (>>1 => self-interaction/TF regime)
+    relativistic ceiling 8 m^4/lam           : rho^(1/4) = 1781 eV
+    Newtonian polytrope at M = 2e10 M_sun     : rho^(1/4) = 629 eV   (core radius 3.0e+14 m)
+    corpus value m^4/lam                      : rho^(1/4) = 1059 eV   -> bracketed, CONSISTENT
+    (rho_c scales as M in the TF regime; only the M ~ 2e10 M_sun anchor reaches the ceiling)
+
+  GRADE: number computed & finite; the OPEN item is the two-component bounce dynamics
+         (keV condensate floor vs MeV hot start), un-simulated.  See PRTOE_bigbang_no_singularity.md.
+
+  all cross-validation asserts pass.
+EXIT:0

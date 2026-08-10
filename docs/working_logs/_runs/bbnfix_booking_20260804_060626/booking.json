@@ -1,0 +1,69 @@
+{
+  "stamp": "20260804_060626",
+  "gate": {
+    "Rbar": 0.05,
+    "rule": "refuse unless BOTH chains have R\u22121 < Rbar AND checkpoint converged: true (self-stop); both legs required",
+    "pair": [
+      "dyad_mnu_bbnfix",
+      "cmp_lcdm_mnu_bbnfix"
+    ],
+    "both_ready": false,
+    "exit_code": 2
+  },
+  "progress": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "path": "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.progress",
+      "present": true,
+      "N": 18837.0,
+      "timestamp": "2026-08-03T17:57:59.890097",
+      "acceptance_rate": 0.99672,
+      "Rminus1": 0.189201,
+      "Rminus1_cl": "NaN",
+      "ready": false,
+      "last_row": "18837.000000 2026-08-03T17:57:59.890097  0.99672  0.189201 NaN",
+      "converged": false
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "path": "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.progress",
+      "present": true,
+      "N": 19013.0,
+      "timestamp": "2026-08-03T21:05:36.968557",
+      "acceptance_rate": 0.983857,
+      "Rminus1": 0.059055,
+      "Rminus1_cl": "NaN",
+      "ready": false,
+      "last_row": "19013.000000 2026-08-03T21:05:36.968557  0.983857  0.059055 NaN",
+      "converged": false
+    }
+  },
+  "reasons": [
+    "dyad_mnu_bbnfix: R\u22121 = 0.189201 >= 0.05 (N=18837.0, t=2026-08-03T17:57:59.890097) \u2014 NOT READY",
+    "dyad_mnu_bbnfix: checkpoint converged: false \u2014 NOT READY (self-stop required)",
+    "cmp_lcdm_mnu_bbnfix: R\u22121 = 0.059055 >= 0.05 (N=19013.0, t=2026-08-03T21:05:36.968557) \u2014 NOT READY",
+    "cmp_lcdm_mnu_bbnfix: checkpoint converged: false \u2014 NOT READY (self-stop required)"
+  ],
+  "ranks": {
+    "dyad_mnu_bbnfix": [
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.1.txt",
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.2.txt",
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.3.txt"
+    ],
+    "cmp_lcdm_mnu_bbnfix": [
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.1.txt",
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.2.txt",
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.3.txt"
+    ]
+  },
+  "booking": null,
+  "ignore_rows": 0.3,
+  "params_requested": [
+    "H0",
+    "m_ncdm",
+    "omega_b",
+    "S8"
+  ],
+  "generated_utc": "2026-08-04T06:06:26.820167+00:00",
+  "script": "scripts/book_bbnfix_when_ready.py"
+}

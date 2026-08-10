@@ -1,5 +1,11 @@
 # Light — The Medium's Record
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Not living shelf / not closed theory. Constituent-side EM closure is still **OPEN-BLOCKED**.
+> This file is not a ship artifact and not a standalone paper path.
+> Nearest living: [`../PRTOE_dcdf_superfluid.md`](../PRTOE_dcdf_superfluid.md), [`../PRTOE_quantum_gravity.md`](../PRTOE_quantum_gravity.md).
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim
 > conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
@@ -209,7 +215,7 @@ scoreboard closes.
 identification and the record theorem's premise. That bound now carries a second load:
 it is what excludes a charged Cooper condensate at the hierarchy anchor, and thereby
 selects the particle-hole channel
-([PRTOE_hierarchy_problem.md](../PRTOE_hierarchy_problem.md) §6b).
+([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6b).
 (ii) **Any confirmed vacuum dispersion
 of light** beyond the Planck-suppressed envelope (energy-dependent photon arrival from
 GRBs is the standing null): kills the collective-mode identification. (iii) **A specified
@@ -244,3 +250,22 @@ near-miss); [Wilczek 1999] (mass from dimensional transmutation; "mass without m
 ([PRTOE_INTERACTION_ATLAS.md](PRTOE_INTERACTION_ATLAS.md)), the derivation-hunt entries
 127, 128, 134, 136, 137
 ([PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md)).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| L1 | Photon = gapless collective (Goldstone) mode of the medium | interpretation / complete-conditional | §2; Goldstone 1961 under medium identity | Rides M3; any m_γ > 0 kills |
+| L2 | c = medium signal speed for massless mode | interpretation | §2; SR trunk | Shared with special-relativity file |
+| L3 | Abelian β-sign forbids scale-building (record role); non-abelian builds | derived (standard RG) | §3; textbook β signs | Division of labour is seating, not new RG |
+| L4 | ~23.5% of 1/α_EM(0) from medium loop above M_Pl bare (scheme ±) | machine-backed (computed, one-loop SM) | §4–6 arithmetic from M_Z couplings | Scheme band 20.5–26.4%; not a discovery of α itself |
+| L5 | Bare 1/α_EM(M_Pl) ≈ 104.9 / α_Y(M_Pl)=0.0180 owed to constituents | OPEN-BLOCKED | §6 six constraints | Constituent theory unspecified |
+| L6 | Non-abelian near-meeting at M_Pl (gap ~2.9) | **OPEN-BLOCKED** (suggestive only) | §5 one-loop + ±2 scheme | Exact unification not held; OPEN-THEORY / scheme residual |
+| L7 | Confirmed vacuum photon dispersion beyond envelope kills collective-mode ID | **registered null** | §7 GRB/Coleman–Glashow class | Shared LV envelope |
+
+**Non-claims:** does not derive the remaining ~76.5% of α; near-meeting is not booked as unification.  
+**Triage:** elevate-in-place (discipline); exploratory; not Failures.  
+**Load-bearing grade fence:** every physics row is interpretation / derived / machine-backed / OPEN-BLOCKED / registered null — no bare story.  
+**Dead ends:** near-meeting forced-fit routes in Failures Ledger (census/roster).

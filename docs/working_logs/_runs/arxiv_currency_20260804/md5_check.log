@@ -1,0 +1,17 @@
+# MD5 papers/ vs docs/arXivReady/ (2026-08-04 currency hygiene)
+
+## Tarballs
+bbn-eps-bound.tar.gz  papers=9bf2d2758963cd5efbc0dd1574c32867  arXivReady=9bf2d2758963cd5efbc0dd1574c32867  MATCH
+kination-tracking-note.tar.gz  papers=13ed46c4190bda4a1f6396b3ed7826d8  arXivReady=13ed46c4190bda4a1f6396b3ed7826d8  MATCH
+lattice-tc-gap.tar.gz  papers=604a0f345b57e7dcbb18cb61b3661ae8  arXivReady=604a0f345b57e7dcbb18cb61b3661ae8  MATCH
+neutrino-mbb.tar.gz  papers=190c8352eb49b34ae1c372e676080662  arXivReady=190c8352eb49b34ae1c372e676080662  MATCH
+radio-lattice.tar.gz  papers=358377c5f986263b626d35bdc81bc526  arXivReady=358377c5f986263b626d35bdc81bc526  MATCH
+supertrace-note.tar.gz  papers=3ed9593be547a8b06f93b9ee497c1ddf  arXivReady=3ed9593be547a8b06f93b9ee497c1ddf  MATCH
+
+## PDFs (papers/*/main.pdf vs docs/arXivReady/*.pdf)
+bbn-eps-bound.pdf  papers=825f90315ee0dc46e64726cca2c06d9c  arXivReady=825f90315ee0dc46e64726cca2c06d9c  MATCH
+kination-tracking-note.pdf  papers=6435b88ac67188ea090d03271765dfd8  arXivReady=6435b88ac67188ea090d03271765dfd8  MATCH
+lattice-tc-gap.pdf  papers=674e249c06a253f2b56acf25f3115b9d  arXivReady=674e249c06a253f2b56acf25f3115b9d  MATCH
+neutrino-mbb.pdf  papers=890da38656625117d7c47496bad29fc4  arXivReady=890da38656625117d7c47496bad29fc4  MATCH
+radio-lattice.pdf  papers=a493b8c375d8baf2cea2c011e7bf27be  arXivReady=a493b8c375d8baf2cea2c011e7bf27be  MATCH
+supertrace-note.pdf  papers=6285e02b0d3a3fa93b8bc10eb0e0a2a8  arXivReady=6285e02b0d3a3fa93b8bc10eb0e0a2a8  MATCH

@@ -1,0 +1,24 @@
+THE DYAD-ELECTRON LAGRANGIAN (from the corpus fragments):
+  L = psibar(i d - e A - m_e0)psi - 1/4 F^2 + 1/2 (d phi)^2 - V(phi) - m_e0 kappa phi^2 psibar psi
+  the coupling: g5 phi^2 psibar psi, g5 = m_e0 kappa (DIM-5 operator, [g5]=mass^-1, [kappa]=mass^-2)
+
+1-LOOP beta-functions (rigorous):
+  gamma_me   = 3 alpha/2pi = 0.00348      (QED mass anomalous dim -- STANDARD)
+  beta_mphi2 = (kappa/pi^2) m_e0^4       (electron CW loop induces the dyad mass; LINEAR in kappa)
+  beta_kappa ~ (3 alpha/2pi) kappa + O(kappa^2, lambda kappa)   (QED dressing of the phi^2(psibar psi) vertex)
+
+WHY 1-LOOP CANNOT PIN T_c:
+  T_c = m_e0 sqrt(3(L-1)/2pi^2), L-1 = ln(m_e0^2/mu^2) - 3/2. The overall kappa CANCELS
+  (both m_phi^2(0) and the thermal Dm^2 ~ kappa). So T_c's mu-dependence is ENTIRELY the log bracket.
+  1-loop running of the SOURCE S(mu)=kappa(mu) m_e0(mu)^4:
+    dlnS/dln_mu ~ beta_k/k + 4 gamma_me ~ 0.0174  (O(alpha), TINY)
+  A PMS stationary point (dT_c/dln_mu=0) from this curvature needs the linear log ~ 1/(dlnS/dlnmu):
+    log* ~ 1/0.0174 ~ 57  ->  mu*/m_e ~ e^-57 = 1e-25  -- UNPHYSICAL
+  => the O(alpha) coupling-running does NOT fix the leading-log. T_c stays ambiguous at 1-loop.
+
+WHAT IS ACTUALLY NEEDED (the 2-loop, and the honest wall):
+  The genuine closer is the 2-LOOP electron contribution to V_CW: the photon-dressed electron loop
+  (O(alpha) correction to the CW determinant), which carries a log^2 term. THAT log^2 provides the
+  physical curvature that pins mu. Its coefficient is a real 2-loop Feynman-diagram computation
+  (2-loop effective potential of scalar-QED-Yukawa) -- KNOWN in principle, but I will NOT fabricate
+  the number. Computing it rigorously = the build task. 1-loop is complete above; 2-loop is framed, not done.

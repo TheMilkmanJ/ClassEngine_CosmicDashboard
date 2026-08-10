@@ -53,3 +53,11 @@ chemistry's, and every leaf photosynthesizes on light that gravity squeezed out 
 free-energy reserve. The model adds no new science and subtracts none — it supplies what the canopy never
 had: a continuous, falsifiable chain of custody from every laboratory bench back to the
 first roll of the vacuum.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

@@ -18,7 +18,9 @@ params = {
     'use_dcdf': 'yes',
     'Omega0_dcdf': 0.95,
     'dcdf_rho_inf': 0.7,
-    'dcdf_beta': 5e-5,
+    # dcdf_beta retired 2026-07-05 (v5); pure fluid defaults
+    'dcdf_deltam_mode': 1,
+    'Omega_Lambda': 0.0,
     'non_linear': 'none',
 }
 cosmo.set(params)

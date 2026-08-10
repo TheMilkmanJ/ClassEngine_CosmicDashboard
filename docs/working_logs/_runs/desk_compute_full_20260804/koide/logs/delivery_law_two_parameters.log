@@ -1,0 +1,124 @@
+==============================================================================
+  #85 CORRECTED — THE DELIVERY LAWS ARE A TWO-PARAMETER FAMILY
+==============================================================================
+
+  E-A  the four ratios, solved from the BRIDGE'S OWN amplitude^2 functions
+
+    law                              solved eps_1/eps_0   recorded
+    thermal equipartition                   2.000000000   2.000000  
+    equal sector delivery                   1.000000000   1.000000  
+    doublet gets half the singlet           0.500000000   0.500000  
+    sudden quench, 1/w^2 per mode           1.414213562   1.414214  
+  ok    E-A1 all four bridge laws reproduce their recorded ratios
+
+  E-B  the closed form  eps_1/eps_0 = 2^(s/(1-p))
+
+    law                                s      p    2^(s/(1-p))   recorded
+    thermal equipartition              1    0.0    2.000000000   2.000000  
+    equal sector delivery              0    0.0    1.000000000   1.000000  
+    doublet gets half the singlet     -1    0.0    0.500000000   0.500000  
+    sudden quench, 1/w^2 per mode      1   -1.0    1.414213562   1.414214  
+  ok    E-B1 closed form reproduces all four exactly
+
+  E-C  is it genuinely two-parameter?
+  ok    E-C1 no single s reaches all four (s=0 reaches only 1)   s=0 can only ever give 2^0 = 1, whatever p is
+  ok    E-C2 fixing p = 0 and varying the counting s gives {1/2, 1, 2} but not sqrt2   [0.5, 1.0, 2.0]
+  ok    E-C3 so sqrt2 requires p != 0 AND 2 requires s != 0 — both parameters load-bearing
+
+  E-D  the earlier construction vs this one — where do they part?
+       earlier: ratio = 2*(k_D/k_S)^p = 2^(1-p)   [an ENERGY ratio]
+       correct: ratio = 2^(s/(1-p)) at s = 1      [a STIFFNESS ratio]
+
+         p  earlier 2^(1-p)   correct 2^(1/(1-p))   agree?
+     -1.00      4.000000000           1.414213562   NO
+     -0.50      2.828427125           1.587401052   NO
+      0.00      2.000000000           2.000000000   yes
+      0.50      1.414213562           4.000000000   NO
+      0.75      1.189207115          16.000000000   NO
+  ok    E-D1 the two constructions agree ONLY at p = 0   agree at [0.0], differ at [-1.0, -0.5, 0.5, 0.75]
+  ok    E-D2 so the earlier p = 1/2 -> sqrt2 identification was a coincidence   earlier gives sqrt2 at p=1/2; the corpus's algebra gives 4 there
+  ok    E-D3 and the corpus's sqrt2 is the SUDDEN QUENCH, p = -1, not zero-point
+
+  E-E  where does the zero-point law actually land?
+       e per dof = (1/2) hbar w ~ eps^(1/2)  =>  s = 1, p = 1/2
+       eps_1/eps_0 = 4.000000000
+  ok    E-E1 zero-point delivery gives 4
+  ok    E-E2 which is NOT in the recorded set {2, sqrt2, 1, 1/2}   so the recorded four were never exhaustive — T6 already calls the lock 'a fifth law'
+
+  E-F  which ratio does Q = 2/3 actually require?
+
+           ratio    Q (classical)     ppm from 2/3
+               2      0.666666667              0.0
+           sqrt2      0.804737854         207106.8
+               1      1.000000000         500000.0
+             1/2      1.666666667        1500000.0
+               4      0.500000000         250000.0
+  ok    E-F1 exactly one recorded ratio gives Q = 2/3, and it is 2   ['2']
+  ok    E-F2 the Koide condition is the LINE s = 1 - p   e.g. (s,p) = (1/2,1/2) also gives 2 — but s is a counting label, not a free real
+  ok    E-F3 with s in {0,1}: s=0 impossible at any p, s=1 forces p=0 uniquely   -> thermal equipartition is the unique admissible law yielding Koide
+
+  E-G  ANTI-CONTROL: is p = 1 excluded structurally, or just disfavoured?
+  ok    E-G1 at p = 1 the doublet's amplitude^2 is eps-INDEPENDENT   X^2(eps=1e-3) = 2.0, X^2(eps=1e3) = 2.0
+  ok    E-G2 so the null degenerates to 2 = 1 and fixes NO stiffness ratio   the equation is inconsistent, not solvable
+  ok    E-G3 and the closed form diverges there, as it must   log2(ratio) = 10, 100, 1000, 10000 as p -> 1: a singularity, not a fourth data point
+       -> 'equal amplitude' is the NULL ITSELF, not a delivery law. A law that
+          leaves every mode at the same amplitude satisfies R_c = M_c for any
+          stiffness whatever, so it carries no information. The earlier script's
+          'p = 1 <-> equal amplitude <-> ratio 1' row was three errors in one.
+
+  E-H  ANTI-CONTROL: does the family fit arbitrary targets?
+  ok    E-H1 3, 1/3, 5 are NOT produced at the four recorded (s,p)   produced = [0.5, 1.0, 1.414213562, 2.0]
+
+  E-I  which stiffness pair IS eps_0, eps_1? (C3's question, re-asked correctly)
+       radial Hessian     k_D/k_S             = 0.500000
+       circulant at Koide (a-b)/(a+2b)        = 0.121320   [inverse 8.2426]
+       what the null REQUIRES for Q = 2/3     = 2.000000
+  ok    E-I1 the required 2 is NOT the radial ratio   radial gives 0.500000 — that is law 3, which yields Q = 5/3
+  ok    E-I2 nor the circulant ratio at the Koide point   circulant gives 0.121320
+  ok    E-I3 and the two differ from each other, as C3 says   0.500000 vs 0.121320
+       -> so the delivery law's eps is a THIRD stiffness pair, distinct from both.
+          C3's warning is EXTENDED, not resolved. The earlier claim that the law
+          'is a radial-sector statement' is withdrawn: identifying eps with the
+          radial pair forces eps_D/eps_S = 1/2, i.e. law 3, i.e. Q = 5/3.
+
+==============================================================================
+  RESULT — THE EARLIER #85 FINDING IS WITHDRAWN AND REPLACED
+==============================================================================
+
+  WITHDRAWN. "The four delivery laws are one exponent p in {0, 1/2, 1}, with the 1/2
+  a bookkeeping duplicate." That read eps_D/eps_S as an energy ratio; the corpus's
+  eps is a stiffness, fixed by <f^2> ~ 1/eps and w ~ sqrt(eps) in two separate
+  scripts. The two constructions agree at p = 0 and nowhere else (E-D), so the match
+  at sqrt2 and 1 was a coincidence of small powers of 2. Protocol 42.
+
+  ALSO WITHDRAWN: the three labels. sqrt2 is the SUDDEN QUENCH (e ~ 1/eps, p = -1),
+  not the zero-point law; the zero-point law gives 4 and is absent from the recorded
+  four. And "equal amplitude" is not a delivery law at all -- it is the null itself,
+  and imposes nothing (E-G).
+
+  REPLACED BY, and this is stronger than what it replaces:
+
+    eps_1/eps_0 = 2^( s / (1 - p) ),   e ~ eps^p per dof,  s the counting label
+
+  a TWO-parameter family holding all four recorded laws at four distinct (s, p), plus
+  the zero-point law at (1, 1/2) -> 4. Both parameters are load-bearing: sqrt2 needs
+  p != 0, and 2 needs s != 0 (E-C).
+
+  AND THE DOCKET'S QUESTION IS ANSWERED, NOT NARROWED. Q = 2/3 needs rho^2 = 1/2,
+  hence eps_1/eps_0 = 2 EXACTLY, hence s = 1 - p. Of the five laws on the table only
+  thermal equipartition lies on that line, and the next-nearest, sqrt2, misses 2/3 by
+  2.07e5 ppm against a 6 ppm budget (E-F). With s restricted to the two ways a sector
+  total can be counted, s = 0 fails at every p and s = 1 forces p = 0 alone.
+
+  SO THE FORK WAS NEVER FOUR-WAY. The null selects thermal equipartition uniquely --
+  and koide_delivery_law_discriminator.py has already shown thermal equipartition
+  overruns the 6 ppm budget by 171x at the corpus's own x_1 = 2/9. Those two results
+  are in DIRECT tension, and the tension sits inside the Koide derivation rather than
+  upstream of it. The occupancy lock is not one option among four; it is the only
+  named escape from a contradiction.
+
+  WHAT THIS COSTS AND WHAT IT DOES NOT. It does not touch Q = 2/3 itself, which is
+  measured. It does not touch the ring's mode structure. It does mean the docket's
+  "highest-leverage, four laws in different rooms" framing overstated the freedom:
+  four of the five were already excluded by the null, and nobody had checked.
+

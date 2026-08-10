@@ -1,0 +1,51 @@
+==============================================================================
+Stabilizer (b): zero-point of the transverse stiff modes, ring vs chain
+==============================================================================
+
+   ring anchor: E* = +3.000000, transverse k = (-0.0000, +3.0000), S⊥ = 1.7321  (expected √3 + 0)
+
+   apex θ     E*(θ)      k⊥₁       k⊥₂      S⊥(θ)    η*(θ)
+     60.0°  +3.000000   -0.0000   +3.0000   1.7321       —  
+     62.0°  +2.999992   +0.1198   +2.9999   2.0782    0.0000
+     65.0°  +2.999881   +0.2964   +2.9986   2.2761    0.0004
+     70.0°  +2.999111   +0.5864   +2.9893   2.4947    0.0023
+     80.0°  +2.993709   +1.1663   +2.9251   2.7903    0.0119
+     90.0°  +2.980945   +1.7560   +2.7767   2.9915    0.0303
+    100.0°  +2.958965   +2.3473   +2.5321   3.1233    0.0590
+    110.0°  +2.926424   +2.1941   +2.9191   3.1898    0.1009
+    119.0°  +2.887192   +1.8223   +3.3948   3.1924    0.1545
+    121.0°  +2.877229   +2.7588   +3.4633   3.5219    0.1372
+    130.0°  +2.836752   +2.5891   +3.6169   3.5109    0.1835
+    145.0°  +2.785764   +2.3248   +3.8132   3.4774    0.2455
+    160.0°  +2.753685   +2.1160   +3.9391   3.4394    0.2885
+    175.0°  +2.739328   +2.0076   +3.9962   3.4159    0.3096
+    180.0°  +2.738376   +2.0000   +4.0000   3.4142    0.3111
+
+   binding point: θ = 180°,  η* = 0.3111
+   any point with lower E* but no extra zero-point (fatal if so): none
+
+   physical quantumness η = 0.4934/√(m_face/√σ) vs the threshold:
+   m_face/√σ     η       ring restored (η ≥ η*)?
+        0.5    0.6976   YES
+        1.0    0.4933   YES
+        2.0    0.3488   YES
+        3.0    0.2848   no
+        4.0    0.2466   no
+        8.0    0.1744   no
+
+VERDICT
+  1. Zero-point taxes the chain harder everywhere on the path
+     S⊥ exceeds the ring value 1.732 at every θ > 60° (peaking ≈3.5,
+     ending 3.414 at the chain — not monotone, but never below).
+     Restoration threshold: η* = 0.311, set at the chain end θ = 180°.
+  2. At the natural constituent identification m_face ~ (0.5–2)·√σ the
+     physical η is 0.35–0.70: ABOVE threshold — the ring is restored as
+     the path's global minimum, and locally the √u growth of the
+     transverse zero-point beats the u³ classical descent for any η.
+  3. Fences, stated: harmonic-adiabatic estimate; semiclassics is
+     itself O(1)-marginal at η ≈ 0.5; m_face is an open identification
+     (heavier faces, m_face ≳ 3√σ, fall back below threshold); the
+     lattice three-source geometry remains the referee.
+  4. GRADE: candidate (b) SURVIVES at estimate grade — the first
+     stabilizer that does. Viability, not a derivation. Not promoted.
+==============================================================================

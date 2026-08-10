@@ -1,5 +1,9 @@
 # Chaos & Dynamical Systems — Natively Ours (standalone; the recorded One Mountain + this era's returns)
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Exploratory map assembly only. The f̄/winding machinery is real, but this file does not carry an independent ship artifact or a new booked quantitative subdomain result.
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 
@@ -18,3 +22,17 @@
 Chaos is not decoration here — it is the model's account of WHY individual draws are lawless
 (the zero-mode never settles) and WHY observables are lawful anyway (topological averaging).
 The dice and the measure are the same machine viewed pointwise vs integrally.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Domain seating of medium language in this subdomain | **interpretation** | this file | exploratory-ok map assembly only; pure seating; no independent killable number |
+| 2 | Any quantitative forecast unique to this subdomain | **OPEN-BLOCKED** | — | No registered prediction or script path yet |
+
+**Non-claims:** not a standalone derivation; not sky booking.
+**Triage:** exploratory-ok map assembly only (not Failures).
+**Banner:** discipline above story; physics ceiling interpretation / OPEN-BLOCKED.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

@@ -1,0 +1,38 @@
+# CHSH / Tsirelson null hardening (2026-08-03)
+
+## Formula
+
+$$B(r) = 2\sqrt{1 + \tanh^2(2r)}$$
+
+Tsirelson bound $2\sqrt{2}$ = **2.8284271247**
+Classical CHSH bound = **2.0**
+
+## Table
+
+| r | B(r) | B / Tsirelson | B − 2 |
+|---:|---:|---:|---:|
+| 0.00 | 2.00000000 | 0.707107 | +0.000000 |
+| 0.10 | 2.03858482 | 0.720749 | +0.038585 |
+| 0.25 | 2.20322697 | 0.778958 | +0.203227 |
+| 0.50 | 2.51398143 | 0.888827 | +0.513981 |
+| 0.75 | 2.69762367 | 0.953754 | +0.697624 |
+| 1.00 | 2.77802028 | 0.982178 | +0.778020 |
+| 1.50 | 2.82144216 | 0.997530 | +0.821442 |
+| 2.00 | 2.82747877 | 0.999665 | +0.827479 |
+| 3.00 | 2.82840975 | 0.999994 | +0.828410 |
+| 5.00 | 2.82842712 | 1.000000 | +0.828427 |
+| 10.00 | 2.82842712 | 1.000000 | +0.828427 |
+
+## Limit checks
+
+- B(0) = 2.000000000000  classical=2.0  **PASS**
+- B(r→∞) ≈ 2.828427124746  Tsirelson=2.828427124746  **PASS**
+- max B in table ≤ Tsirelson  **PASS**
+
+## Grade
+
+**Null-hardened:** the registered CHSH family saturates Tsirelson from below and never exceeds it.
+**Not derived:** why nature uses this Hilbert space / Born rule.
+**Kill:** any confirmed CHSH > 2√2 (superquantum) or a preferred-frame leak that spoils Bell statistics at current precision.
+
+wrote docs/working_logs/_runs/quantum_null_hardening_20260803/CHSH_TSIRELSON.md

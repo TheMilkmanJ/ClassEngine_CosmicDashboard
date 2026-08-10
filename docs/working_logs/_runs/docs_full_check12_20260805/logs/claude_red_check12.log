@@ -1,0 +1,24 @@
+All three deliverables are filed. Summary:
+
+## The correction I owe first
+
+**My own prior commit `d6b6e664` — "repair-log class now clean corpus-wide" — is false.** Three seats independently found survivors (6 on the shelf, 15 across exploratory). The sweeps missed them because the phrases **wrap across lines**. I re-ran a "clean" on that same class again this morning and was wrong the same way. I've stated this at the top of MASTER_RED rather than filing it quietly.
+
+## Votes on Blue's five batches
+
+**AGREE** on chain currency (Blue's stamps match my independent `chains/` ground truth digit-for-digit), the READERS_RISK repair-log strip and table repair, "Do not kill" removal, `_CANONICAL_VALUES`, and `v5_five_verdict`. **AGREE-IF** on `BIBLIOGRAPHY:257`. **DISAGREE** on `THE_AMPLITUDE` = LEAVE, and **disagree-on-the-file** for `MATH_SPINE` / `DERIVATION_HUNT` / `DEPENDENCY_TREE` — each cure correct where made, each file keeping a worse defect elsewhere. One cure was **self-orphaning**: `MATH_SPINE:762` now cites a §7 block that `git diff` shows was deleted this pass.
+
+## The finding that could have moved a verdict — resolved, not punted
+
+`MATH_SPINE:158` says ρ_Λ¼ inherits ~0.25% → **1.8σ**; every other surface uses ±0.449% → **0.98σ**, and P-048's whole sky-limited ruling rests on that 0.98σ. Since ρ_Λ ∝ h²Ω_Λ, quartering Ω_Λ's ~1% **drops h²**. Planck: 0.81% ⊕ 1.60% = **1.80%**, reproducing the corpus figure. So `MATH_SPINE:158` is the wrong line, and **±0.449%, 0.98σ and the withdrawal all stand — no physics verdict changes.**
+
+## Highest-value residuals
+
+- **8 broken tables, proven at render.** `fingerprint_lattice:32` renders its *current standing* column as the single character **"Ψ"** and drops the row's verdict; `DERIVATION_HUNT:159` is the ε-table's third factor stranded 127 lines from its header.
+- **`_PROJECT_FINISH_ROADMAP:161-165`** — a **183×-stale** routeD surgery trigger. The doc's own criterion says leave alone and an owner-guard exists, but a skimming reader could reseed a converging chain. Worth your eye before any routeD action.
+- **`exploratory/README:114-115`** — "883 links … Zero unresolved" is false; 13 broken, verified by `ls`.
+- **`_ARXIV_READINESS:28-29`** — "current PDFs are 6"; the artifact is **7 pages** (303368 bytes, matching on disk).
+
+**Verified genuinely clean** (three independent confirmations): EXTERNAL WIN, false page COMPLETE, marker-class editor instructions. Blue's grep staging, though, cannot certify anything — `grep_external_win` matched `doi` inside the word *doing*. Blue's cures landed because Blue read line-aware; I've recorded that in its favour.
+
+Two caveats on my own work: I did not take the agents at face value and corrected one (agent 4 wrongly dismissed the `|Ψ|²` breaks as escaped — they aren't). And coverage is **not** complete — ledger lines 381–2699 and 3040–5499 are unaudited by line-read, 25/45 exploratory and 17/95 working-log files were sweep-only. **#94 stays OPEN.** I committed nothing; chains untouched.

@@ -1,0 +1,28 @@
+==============================================================================
+BBN-PRIOR CONSISTENCY AUDIT — sampler's deuterium law vs the corpus's
+==============================================================================
+chain: /home/themilkmanj/prtoe_class/chains/dyad_mnu_mcmc.1.txt
+samples after burn: 3244  (sum w = 3435, ESS = 3047)
+
+variant                                     omega_b   %vsLCDM       H0   m_e-1 %     ESS
+------------------------------------------------------------------------------
+as-run (exp -1.60, sig 0.030)              0.022762    +1.088   69.740     1.274    3047
+measured exponent (-1.667, sig 0.030)      0.022738    +0.983   69.646     1.171    2936
+settled width (exp -1.60, sig 0.0476)      0.023018    +2.227   70.751     2.400     475
+both corrections (-1.667, sig 0.0476)      0.022995    +2.122   70.656     2.294     602
++ production norm (PRyM-consistent)        0.022788    +1.204   69.847     1.400    2833
+D/H term removed (CMB+BAO+SNe+Y_p only)    0.023184    +2.963   71.367     3.085      79
+
+READING THE D/H CONSEQUENCE (production-law exponent -1.667, normalised to the
+standing prediction 2.387e-5 at the as-run posterior omega_b):
+  as-run (exp -1.60, sig 0.030)            D/H = 2.387e-5   -2.94 sigma (width 0.0476)
+  measured exponent (-1.667, sig 0.030)    D/H = 2.391e-5   -2.85 sigma (width 0.0476)
+  settled width (exp -1.60, sig 0.0476)    D/H = 2.343e-5   -3.87 sigma (width 0.0476)
+  both corrections (-1.667, sig 0.0476)    D/H = 2.347e-5   -3.78 sigma (width 0.0476)
+  + production norm (PRyM-consistent)      D/H = 2.382e-5   -3.04 sigma (width 0.0476)
+  D/H term removed (CMB+BAO+SNe+Y_p only)  D/H = 2.315e-5   -4.45 sigma (width 0.0476)
+
+NOTE: the prior's own normalisation (2.53e-5 at the pivot) predicts
+  D/H = 2.471e-5 at the as-run posterior, against the production PRyM value 2.387e-5
+  — a ~3% inter-code offset between the sampler's BBN law and the production run.
+==============================================================================

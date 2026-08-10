@@ -113,3 +113,11 @@ fence). Full list: [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
 *From the whole sky to a hydrogen atom is six rungs and one boundary. Above the line the
 universe is a mosaic; below it, one quiet cell — and every rung, top to bottom, pays the same
 binding formula to the same framework. The map was always one map.*
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

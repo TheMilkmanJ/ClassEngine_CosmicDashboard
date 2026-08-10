@@ -9,7 +9,9 @@ with open("triad_config.yaml", "r") as f:
 # Fix parameters to the matched point
 info['params']['H0']['ref'] = 74.8
 info['params']['varying_alpha']['ref'] = 1.05
-info['params']['dcdf_beta']['ref'] = 3.3e-5
+# dcdf_beta retired 2026-07-05 (v5); drop if present in legacy triad yaml
+info['params'].pop('dcdf_beta', None)
+info['params'].pop('log10beta', None)
 info['params']['xi_Neff']['ref'] = 0.3
 info['params']['dcdf_rho_inf']['ref'] = 0.7
 

@@ -2,9 +2,23 @@
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full D/H decomposition: [PRTOE_deuterium_row.md](PRTOE_deuterium_row.md).
 
+> **Paper path (2026-08-05).** This file is the **source note** for `papers/bbn-eps-bound/` /
+> [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** as a chain-free helium-bound note.
+> The package is the ship artifact; this shelf file is the fuller witness record. Remaining arXiv
+> gate is **astro-ph endorsement only**. Optional dense `epsilon_max(T_c)` scan over the full
+> `[70, 500] keV` window is still **not blocking** the measured-`T_c` package.
+
 Nucleosynthesis is the only “lab” that watches the electron-coupled scalar’s phase transition live: **T_c = 177.10 keV** sits inside the BBN temperature window. Three abundances are three views of the same ramp.
 
-**Audience grade.** Sector is **rigid** (no free BBN knobs) and **net adverse** under the standing high-f configuration. Nuclear systematics (d(d,n)³He) dominate the absolute D/H σ; model still trails its own ΛCDM control by ~0.6–0.7σ. Do not present BBN as a win.
+**Audience grade.** Sector is **rigid** (no free BBN knobs) and **net adverse** under the standing high-f configuration. Nuclear systematics (d(d,n)³He) dominate the absolute D/H σ; model still trails its own ΛCDM control by ~0.6–0.7σ. Do not present BBN as a win. The public-paper version is narrower on purpose: free `epsilon` + Aver `Y_p` bound only, with D/H model predictions kept out.
+
+**Authority card (2026-08-05).** Shared D/H fork blocker is centralized in
+`working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md`. That fork stays on the shelf;
+it is not a blocker for the narrow `bbn-eps-bound` package.
+
+**Helium benchmark card (2026-08-05).** Live helium literature state is centralized in
+`working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`. Do not use the older
+`0.2453 / 0.2370` pair as current benchmark currency.
 
 ---
 
@@ -59,7 +73,9 @@ Decomposition: ω_b step −1.01σ; window **+0.31σ** (nuclear physics helps). 
 
 ## Helium and widths
 
-- Window alone: Y_p **+1.09σ** vs Aver 0.2453 ± 0.0034; **+3.5σ** vs EMPRESS 0.2370 ± 0.0034. Baseline-robust (Y_p ∝ ω_b^0.04 → +1.12σ at model ω_b).
+- Window alone: `Y_p = 0.248995`. Legacy shelf sigma comparisons were built against older
+  Aver/EMPRESS benchmark values; live benchmark state is now in
+  `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`.
 - Standing D/H width: Cooke ±0.030 ⊕ PRIMAT post-LUNA ±0.037 = **±0.0476** → 2.387 at **−2.94σ** before dark-radiation residual. Do **not** triple-count LUNA d(p,γ).
 - Inter-code spread PRIMAT 2.439 vs PArthENoPE 2.51–2.54 (~3.5%) **not** folded above; half/full fold → −2.2σ / −1.4σ. Model runs **PRyM**. ΛCDM itself ~1.85σ under PRIMAT.
 
@@ -94,3 +110,22 @@ No heal available to the electron-coupled scalar for quarks (leptophilic by data
 ## Sources
 
 PRyM pipeline scripts under `scripts/prym_*.py`. Predictions: P-2026-027, P-2026-053, P-2026-058. Risk summary: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Sector rigid (no free BBN knobs); T_c = 177.10 keV from Koide τ | **machine-backed / derived-conditional** | `scripts/prym_*.py`; τ = ½ln2 | Lattice P-2026-048 crowns τ |
+| 2 | Window effect: Y_p +0.852%, D/H +0.645%, Li +0.263% (relative) | **machine-backed** | PRyM window run §(i) | Licenses relative shifts only |
+| 3 | Model D/H = 2.387×10⁻⁵; worse than ΛCDM control by ~0.6–0.7σ | **machine-backed** (owned-adverse) | §(ii); deuterium_row | Nuclear systematic dominates absolute σ |
+| 4 | Absolute D/H row σ class −2.94σ standing; ζ residual eases D, worsens He | **machine-backed** + **OPEN** residual | ζ window; P-2026-053 | **WATCH-EXTERNAL:** D/H fork still open; see `working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md` |
+| 5 | Y_p window output adverse to the live helium literature range | **machine-backed** (owned-adverse) | §Helium | Live benchmark state centralized in `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md` |
+| 6 | Dark-radiation residual ζ ∈ [0.25,0.35] → ΔN_eff 0.06–0.24 | **OPEN** (ζ un-derived; Planck-located) | §Dark-radiation residual | CMB-S4 P-2026-053 falsifier |
+| 7 | No free heal for quarks; leptophilic forced by D/H | **derived** (data exclusion) | deuterium_row §5–6 | — |
+| 8 | `bbn-eps-bound` paper package | **READY_PACKAGE** | `papers/bbn-eps-bound/`; [arXivReady](arXivReady/README.md) | External gate only: astro-ph endorsement; dense full-window scan optional |
+
+**Non-claims:** not a BBN win; not nuclear-rate free; ΔN_eff residual not derived from first principles.
+
+**Triage:** elevate-in-place. Physics ceiling: machine-backed adverse + **OPEN-BLOCKED** (LUNA / ζ).

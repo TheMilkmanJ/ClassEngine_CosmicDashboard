@@ -37,13 +37,13 @@ the horizon thermodynamics (Jacobson's route), the singularity discharges, the
 Sakharov stiffness. GIVEN the area law, Jacobson delivers Einstein's equations — and the area law is now
 part-paid: the medium reproduces its *scaling* independently, with the species count and the
 cutoff cancelling in the ratio, which is the universality the literature reports
-([PRTOE_entropy.md](../PRTOE_entropy.md) §3) — and the coefficient is supplied conditionally by
+([PRTOE_entropy.md](PRTOE_entropy.md) §3) — and the coefficient is supplied conditionally by
 the same structure (the heat-kernel ratio 12π/48π = 1/4). The field content those coefficients
 assume is minimally coupled scalars, so the cancellation does not extend to the model's roster
 automatically, where non-minimal coupling and spin break the single-heat-kernel-term structure the
 ratio relies on. That extension has been made per class and the quarter survives at candidate grade,
 on the single commitment that edge-mode entropy is physical horizon entropy
-([PRTOE_entropy.md](../PRTOE_entropy.md) §3). The flag stands:
+([PRTOE_entropy.md](PRTOE_entropy.md) §3). The flag stands:
 analog frames generically deliver linearized-plus, and the FULL nonlinear Einstein dynamics
 (graviton self-interaction to all orders) rests on the same address. **Thread: CONDITIONAL —
 perfect IF the keystone holds; the M3/basement compute is the cost.**
@@ -59,3 +59,19 @@ medium, reading the same account, blind to everything but size.**
 ## Sources
 
 [Will2014] (the PPN tests), [Vainshtein1972] + [HNS2009] (the EP gate's margin), [Jacobson1995] (the GR route), [Banik2024]/[Chae2023] (the wide-binary dispute P-036 bets on). Full list: [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| CG1 | Newton laws = weak-field / low-v limit of emergent metric | derived (standard analog) | §1; Will 2014 PPN context | Frame-dependent IR shadow only |
+| CG2 | G universality + EP from size-blind vertex / screens | interpretation; EP gate recorded | §1 table; Vainshtein margin cited | Composition tests stay external |
+| CG3 | Inertia = mode energy on one metric (N1/N2) | interpretation | §1; [PRTOE_inertia.md](PRTOE_inertia.md) | Shared residual with inertia file |
+| CG4 | SR threads as one-metric IR symmetry | interpretation (cross-link) | §2; [PRTOE_special_relativity.md](PRTOE_special_relativity.md); LV pricing | LV bill lives on trunk file |
+| CG5 | Full nonlinear Einstein dynamics via Jacobson + area law | OPEN-BLOCKED / complete-conditional | §3; Jacobson 1995; [PRTOE_entropy.md](PRTOE_entropy.md) §3 | Area-law coefficient / roster heat-kernel extension; graviton self-interaction to all orders |
+
+**Non-claims:** not a re-derivation of Einstein equations from scratch in this file; not PPN recompute; wide-binary P-036 only cited as external dispute.  
+**Triage:** elevate-in-place (discipline); exploratory; not Failures.  
+**Load-bearing grade fence:** every physics row is derived / interpretation / OPEN-BLOCKED — no bare story. CG5 stays OPEN-BLOCKED on area-law / full nonlinear Einstein residual.

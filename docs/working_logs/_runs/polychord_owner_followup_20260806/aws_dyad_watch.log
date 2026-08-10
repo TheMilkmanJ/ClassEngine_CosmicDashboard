@@ -1,0 +1,499 @@
+2026-08-06T00:36:13-06:00 status=DOWN stalled_intervals=0 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T00:37:22-06:00 status=DOWN stalled_intervals=0 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T00:38:31-06:00 status=DOWN stalled_intervals=0 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T00:38:38-06:00 status=DOWN stalled_intervals=0 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T00:39:16-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=326308 live_mtime=1785998362 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:39:44-06:00 status=DOWN stalled_intervals=0 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T00:39:53-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=353220 live_mtime=1785998399 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:40:23-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=376768 live_mtime=1785998428 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:41:36-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=433956 live_mtime=1785998504 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:42:49-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=486939 live_mtime=1785998576 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:44:01-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=543286 live_mtime=1785998648 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:45:12-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=596269 live_mtime=1785998719 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:46:25-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=652616 live_mtime=1785998793 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:47:37-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=708963 live_mtime=1785998865 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:48:50-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=763628 live_mtime=1785998937 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:50:01-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=818293 live_mtime=1785999010 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:51:14-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=872958 live_mtime=1785999081 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:52:25-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=927623 live_mtime=1785999154 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:53:40-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=981447 live_mtime=1785999228 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:54:52-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1032748 live_mtime=1785999297 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:56:04-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1085731 live_mtime=1785999370 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:57:16-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1137032 live_mtime=1785999442 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:58:29-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1193379 live_mtime=1785999516 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T00:59:41-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1248044 live_mtime=1785999586 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:00:52-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1301027 live_mtime=1785999656 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:02:03-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1352328 live_mtime=1785999729 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:03:11-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1405311 live_mtime=1785999798 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:04:24-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1459976 live_mtime=1785999871 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:05:35-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1512959 live_mtime=1785999942 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:06:47-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1565101 live_mtime=1786000013 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:07:54-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1618084 live_mtime=1786000084 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:09:09-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1670226 live_mtime=1786000155 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:10:20-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1724050 live_mtime=1786000227 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:11:32-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1776192 live_mtime=1786000299 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:12:44-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1831698 live_mtime=1786000371 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:13:55-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1882158 live_mtime=1786000442 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:15:07-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1937664 live_mtime=1786000514 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:16:18-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=1988965 live_mtime=1786000585 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:17:29-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=2041948 live_mtime=1786000654 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:18:41-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=2096613 live_mtime=1786000727 log_size=69123 log_mtime=1785997927 resume=no phase=generating_live_points
+2026-08-06T01:19:53-06:00 status=OK stalled_intervals=0 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:21:05-06:00 status=OK stalled_intervals=1 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:22:16-06:00 status=OK stalled_intervals=2 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:23:27-06:00 status=STALLED stalled_intervals=3 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:24:38-06:00 status=STALLED stalled_intervals=4 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:25:51-06:00 status=STALLED stalled_intervals=5 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:27:03-06:00 status=STALLED stalled_intervals=6 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:28:14-06:00 status=STALLED stalled_intervals=7 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:29:25-06:00 status=STALLED stalled_intervals=8 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:30:39-06:00 status=STALLED stalled_intervals=9 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:31:52-06:00 status=STALLED stalled_intervals=10 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:33:04-06:00 status=STALLED stalled_intervals=11 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:34:16-06:00 status=STALLED stalled_intervals=12 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:35:27-06:00 status=STALLED stalled_intervals=13 proc=18 launcher=1 live_size=2114274 live_mtime=1786000755 log_size=69237 log_mtime=1786000755 resume=yes phase=generating_live_points
+2026-08-06T01:36:40-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:37:53-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:39:05-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:40:16-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:41:27-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:42:39-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:43:49-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:44:59-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:46:11-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:47:21-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:48:32-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:49:42-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:50:52-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:52:03-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:53:13-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:54:23-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:55:33-06:00 status=DOWN stalled_intervals=13 proc=0 launcher=0 live_size=210250 live_mtime=1786001793 log_size=70003 log_mtime=1786001793 resume=yes phase=NA
+2026-08-06T01:56:43-06:00 status=EIC_KEY_FAIL
+2026-08-06T01:57:53-06:00 status=EIC_KEY_FAIL
+2026-08-06T01:59:02-06:00 status=EIC_KEY_FAIL
+2026-08-06T02:00:13-06:00 status=EIC_KEY_FAIL
+2026-08-06T02:01:21-06:00 status=EIC_KEY_FAIL
+2026-08-06T02:02:30-06:00 status=EIC_KEY_FAIL
+2026-08-06T02:02:37-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=1 launcher=1 live_size=NA live_mtime=NA log_size=0 log_mtime=1786003361 resume=no phase=NA
+2026-08-06T02:03:49-06:00 status=DOWN stalled_intervals=0 host=44.200.18.165 proc=0 launcher=0 live_size=NA live_mtime=NA log_size=470 log_mtime=1786003364 resume=no phase=NA
+2026-08-06T02:04:57-06:00 status=DOWN stalled_intervals=0 host=44.200.18.165 proc=0 launcher=0 live_size=NA live_mtime=NA log_size=470 log_mtime=1786003364 resume=no phase=NA
+2026-08-06T02:06:08-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=NA live_mtime=NA log_size=393673 log_mtime=1786003547 resume=no phase=[0_:_model]_Measuring_speeds..._(this_may_take_a_few_seconds)
+2026-08-06T02:07:19-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=0 live_mtime=1786003635 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:08:31-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=158108 live_mtime=1786003717 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:09:42-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=373404 live_mtime=1786003789 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:10:54-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=553378 live_mtime=1786003860 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:12:05-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=757741 live_mtime=1786003931 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:13:16-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=947807 live_mtime=1786004002 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:14:27-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=1140396 live_mtime=1786004073 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:15:36-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=1333826 live_mtime=1786004145 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:16:48-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=1525574 live_mtime=1786004215 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:17:59-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=1725732 live_mtime=1786004287 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:19:12-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=1915798 live_mtime=1786004358 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:20:22-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=2109228 live_mtime=1786004430 log_size=402554 log_mtime=1786003635 resume=no phase=generating_live_points
+2026-08-06T02:21:35-06:00 status=OK stalled_intervals=0 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:22:48-06:00 status=OK stalled_intervals=1 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:23:57-06:00 status=OK stalled_intervals=2 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:25:12-06:00 status=STALLED stalled_intervals=3 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:26:23-06:00 status=STALLED stalled_intervals=4 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:27:34-06:00 status=STALLED stalled_intervals=5 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:28:45-06:00 status=STALLED stalled_intervals=6 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:29:53-06:00 status=STALLED stalled_intervals=7 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:31:05-06:00 status=STALLED stalled_intervals=8 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:32:15-06:00 status=STALLED stalled_intervals=9 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:33:27-06:00 status=STALLED stalled_intervals=10 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:34:37-06:00 status=STALLED stalled_intervals=11 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:35:48-06:00 status=STALLED stalled_intervals=12 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:37:00-06:00 status=STALLED stalled_intervals=13 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:38:11-06:00 status=STALLED stalled_intervals=14 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:39:23-06:00 status=STALLED stalled_intervals=15 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:40:34-06:00 status=STALLED stalled_intervals=16 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:41:45-06:00 status=STALLED stalled_intervals=17 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:42:56-06:00 status=STALLED stalled_intervals=18 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:44:07-06:00 status=STALLED stalled_intervals=19 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:45:18-06:00 status=STALLED stalled_intervals=20 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:46:29-06:00 status=STALLED stalled_intervals=21 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:47:39-06:00 status=STALLED stalled_intervals=22 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:48:50-06:00 status=STALLED stalled_intervals=23 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:50:01-06:00 status=STALLED stalled_intervals=24 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:51:12-06:00 status=STALLED stalled_intervals=25 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:52:22-06:00 status=STALLED stalled_intervals=26 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:53:33-06:00 status=STALLED stalled_intervals=27 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:54:45-06:00 status=STALLED stalled_intervals=28 host=44.200.18.165 proc=97 launcher=1 live_size=2181554 live_mtime=1786004468 log_size=402668 log_mtime=1786004469 resume=yes phase=generating_live_points
+2026-08-06T02:55:56-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T02:57:04-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T02:58:15-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T02:59:26-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:00:37-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:01:48-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:02:59-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:04:10-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:05:23-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:06:34-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:07:48-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:08:59-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:10:09-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:11:20-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:12:31-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:13:42-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:14:53-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:16:04-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:17:15-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:18:26-06:00 status=DOWN stalled_intervals=28 host=44.200.18.165 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=403434 log_mtime=1786006497 resume=yes phase=NA
+2026-08-06T03:19:37-06:00 status=EIC_KEY_FAIL
+2026-08-06T03:20:45-06:00 status=EIC_KEY_FAIL
+2026-08-06T03:21:53-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:23:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:24:53-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:26:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:27:53-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:29:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:30:53-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:32:23-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:33:55-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:35:24-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:36:55-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:38:26-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:39:55-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:41:26-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:42:55-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:44:28-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:45:57-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:47:27-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:48:58-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:50:27-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:51:58-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:53:30-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:55:00-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:56:29-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:58:01-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T03:59:29-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:00:38-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:01:46-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:02:56-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:04:04-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:05:12-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:06:41-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:08:11-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:09:20-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:10:28-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:11:36-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:13:07-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:14:36-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:16:07-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:17:38-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:19:06-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:20:38-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:22:09-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:23:38-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:25:10-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:26:40-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:28:08-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:29:41-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:31:12-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:32:41-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:34:13-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:35:43-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:37:13-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:38:41-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:40:15-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:41:43-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:43:15-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:44:43-06:00 status=EIC_KEY_FAIL
+2026-08-06T04:45:51-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:47:23-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:48:51-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:50:23-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:51:52-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:53:23-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:54:55-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:56:23-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:57:54-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T04:59:23-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:00:55-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:02:24-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:03:56-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:05:24-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:06:55-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:08:26-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:09:57-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:11:28-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:12:57-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:14:26-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:15:57-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:17:29-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:18:57-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:20:29-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:21:57-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:23:26-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:24:59-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:26:28-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:27:57-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:29:30-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:30:59-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:32:31-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:33:59-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:35:31-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:37:00-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:38:31-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:40:00-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:41:31-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:43:00-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:44:32-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:46:00-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:47:32-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:49:01-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:50:33-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:52:01-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:53:34-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:55:03-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:56:34-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:58:04-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T05:59:32-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:01:04-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:02:36-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:04:05-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:05:36-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:07:04-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:08:36-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:10:04-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:11:36-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:13:07-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:14:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:16:03-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:17:36-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:19:04-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:20:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:22:03-06:00 status=EIC_KEY_FAIL
+2026-08-06T06:23:11-06:00 status=EIC_KEY_FAIL
+2026-08-06T06:24:20-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:25:52-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:27:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:28:51-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:30:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:31:54-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:33:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:34:54-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:36:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:37:54-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:39:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:40:53-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:42:22-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:43:53-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:45:25-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:46:56-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:48:26-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:49:59-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:51:26-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:52:58-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:54:31-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:56:03-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:57:33-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T06:59:02-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:00:33-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:02:02-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:03:30-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:05:03-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:06:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:08:04-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:09:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:11:03-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:12:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:14:05-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:15:34-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:17:05-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:18:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:20:07-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:21:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:23:07-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:24:35-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:26:07-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:27:38-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:29:07-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:30:38-06:00 status=DOWN stalled_intervals=28 proc=ERR launcher=ERR live_size=NA live_mtime=NA log_size=NA log_mtime=NA resume=no phase=SSH_FAIL
+2026-08-06T07:32:06-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:33:15-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:34:23-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:35:32-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:36:40-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:37:48-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:38:57-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:40:05-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:41:13-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:42:21-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:43:29-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:44:34-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:45:43-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:46:51-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:47:59-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:49:07-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:50:15-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:51:24-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:52:32-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:53:38-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:54:48-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:55:56-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:57:04-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:58:13-06:00 status=EIC_KEY_FAIL
+2026-08-06T07:59:19-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:00:27-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:01:36-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:02:44-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:03:52-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:04:59-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:06:09-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:07:17-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:08:23-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:09:32-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:10:40-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:11:49-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:12:57-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:14:05-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:15:13-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:16:21-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:17:29-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:18:38-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:19:46-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:20:52-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:22:01-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:23:10-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:24:18-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:25:26-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:26:34-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:27:43-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:28:51-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:29:59-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:31:05-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:32:13-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:33:21-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:34:29-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:35:38-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:36:46-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:37:54-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:39:02-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:40:08-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:41:17-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:42:27-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:43:35-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:44:43-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:45:52-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:47:57-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:49:05-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:50:15-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:51:23-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:52:31-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:53:36-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:54:45-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:55:53-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:57:01-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:58:10-06:00 status=EIC_KEY_FAIL
+2026-08-06T08:59:18-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:00:27-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:01:35-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:02:44-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:03:52-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:05:00-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:06:08-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:07:16-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:08:24-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:09:31-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:10:39-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:11:47-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:12:55-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:14:04-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:15:13-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:16:21-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:17:30-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:18:44-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:19:50-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:20:59-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:22:08-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:23:16-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:24:24-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:25:32-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:26:40-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:27:49-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:28:57-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:30:05-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:31:14-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:32:22-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:33:31-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:34:37-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:35:45-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:36:54-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:38:02-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:39:10-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:40:19-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:41:28-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:42:36-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:43:45-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:44:54-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:46:02-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:47:11-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:48:19-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:49:28-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:50:35-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:51:44-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:52:52-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:54:01-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:55:09-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:56:18-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:57:27-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:58:35-06:00 status=EIC_KEY_FAIL
+2026-08-06T09:59:44-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:00:52-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:02:01-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:03:10-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:04:19-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:05:27-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:06:33-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:07:41-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:08:50-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:09:59-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:11:07-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:12:16-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:13:25-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:14:33-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:15:42-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:16:50-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:17:59-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:19:07-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:20:16-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:21:24-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:22:33-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:23:41-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:24:50-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:25:55-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:27:04-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:28:13-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:29:21-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:30:30-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:31:38-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:32:47-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:33:56-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:35:07-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:36:16-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:37:24-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:38:33-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:39:42-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:40:51-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:41:58-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:43:09-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:44:19-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:45:30-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:46:39-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:47:48-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:48:57-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:50:07-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:51:16-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:52:27-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:53:38-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:54:49-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:56:00-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:57:10-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:58:23-06:00 status=EIC_KEY_FAIL
+2026-08-06T10:59:34-06:00 status=EIC_KEY_FAIL
+2026-08-06T11:03:25-06:00 status=INSTANCE_34.207.247.94
+2026-08-06T11:06:50-06:00 status=DOWN stalled_intervals=0 host=34.207.247.94 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=402409 log_mtime=1786035688 resume=yes phase=Writing_a_resume_file_to_chains/cmp_prtoe_dyad_ev_polychord_raw/cmp_prtoe_dyad_ev.resume
+2026-08-06T11:07:34-06:00 status=DOWN stalled_intervals=0 host=34.207.247.94 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=402409 log_mtime=1786035688 resume=yes phase=Writing_a_resume_file_to_chains/cmp_prtoe_dyad_ev_polychord_raw/cmp_prtoe_dyad_ev.resume
+2026-08-06T11:08:22-06:00 status=DOWN stalled_intervals=0 host=34.207.247.94 proc=0 launcher=0 live_size=210250 live_mtime=1786006495 log_size=402409 log_mtime=1786035688 resume=yes phase=Writing_a_resume_file_to_chains/cmp_prtoe_dyad_ev_polychord_raw/cmp_prtoe_dyad_ev.resume

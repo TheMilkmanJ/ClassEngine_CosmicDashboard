@@ -98,16 +98,20 @@ No such formula exists in the corpus. The open object is therefore either (a) an
 relaxation of the blazar floor, or (b) a new internal seed mechanism — neither of which is
 desk-doable from existing numbers without inventing content.
 
-**RM coherence scale — open, formula missing.**
+**RM coherence scale — geometric formula paid; amplitude / survey comparison open (2026-08-03).**
 
 §4 notes that the Kibble network sets ~100-Mpc-class comoving structure, "testable in
-principle in Faraday-rotation-measure correlation functions." The ledger marks that
-"un-priced in RM statistics (owed if pursued)." **Explicit open:** there is no recorded
-expression for ⟨RM(θ)·RM(0)⟩, no transfer of ξ_K = 256 Mpc into an angular multipole, and
-no comparison to existing RM surveys. The qualitative claim (coherence scale set by the
-Kibble network, not by a phase-transition horizon) stands; the quantitative RM prediction
-does not. Closing it would require writing and evaluating that correlation — not available
-as an existing corpus number.
+principle in Faraday-rotation-measure correlation functions." That geometric content is now
+on record ([`working_logs/_runs/debt_rm_formula_20260803/REPORT.md`](working_logs/_runs/debt_rm_formula_20260803/REPORT.md);
+`scripts/rm_coherence_kibble.py`):
+
+- ⟨RM(n̂₁) RM(n̂₂)⟩ = K² ∬ n_e n_e ⟨B_∥ B_∥⟩ dχ₁ dχ₂ with ⟨B B⟩ structured on ξ_K;
+- θ_ξ(χ)=ξ_K/χ, ℓ_geo=χ/ξ_K, ℓ_π=π χ/ξ_K (parameter-free transfer of recorded ξ_K);
+- unit-normalized thin-shell shape w(θ)/w(0)=exp(−½(θ/θ_ξ)²);
+- **Survey-plane prediction:** at χ ~ 2–5 Gpc, **ℓ ~ 25–60** (do **not** quote ℓ_π≈169 = last-scatter χ_* as “the” RM prediction).
+
+**Still open:** absolute C_ℓ amplitude / catalog comparison (external n_e; galactic RM cleaning);
+void floor (below) is **not** touched by this formula.
 
 ## 4. The signature no one else can write down: the sign
 
@@ -189,7 +193,7 @@ Consequences:
 | helicity sign = the seeded flow's sign, sign(helicity_B) = sign(H_kin) | derived (the battery's coefficient squares out of it) |
 | helicity sign = winding sign, sign(helicity_B) = sign(n) | the surviving registered content — testable against the winding axis, not against the matter–antimatter draw (§4: the two signs are drawn independently, joint correlation −0.06 to +0.09 against a ±0.13 noise floor) |
 | helicity sign = baryon sign | **void** — no measured correlation between them can confirm or kill anything |
-| RM coherence ~ Kibble ξ | **Open — formula missing** (no ⟨RM·RM⟩ expression; qualitative ~100 Mpc claim only; §3a) |
+| RM coherence ~ Kibble ξ | **Geometric two-point + multipole transfer paid** (`rm_coherence_kibble.py`; survey ℓ~25–60); absolute amplitude / survey fit **open**; void floor **unchanged open** (§3a) |
 
 ## Sources
 
@@ -202,3 +206,38 @@ Consequences:
 *Everyone else must explain where the spin came from. This model cannot explain where it would
 have gone: a rotating superfluid universe magnetizes its plasma as surely as it swings its
 vortices — and it signs the work with the winding integer that also fixes the comb axis.*
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY honesty. Galactic Harrison seed stays graded; **void floor remains OPEN-BLOCKED** (×20 / 1.30 dex short). RM geometric scale reconfirmed PASS; absolute σ_RM and void B not closed.  
+**Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (`rm_coherence.log` **PASS**).  
+**Parent debts:** [debt_magnetism_20260803/REPORT.md](working_logs/_runs/debt_magnetism_20260803/REPORT.md); [debt_rm_formula_20260803/REPORT.md](working_logs/_runs/debt_rm_formula_20260803/REPORT.md). Companion: [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md).  
+**Currency (2026-08-05):** Void floor ×20 residual **OPEN-BLOCKED** (1.30 dex classic). Door A external lit pass **done** — robust floors still ~1–3×10⁻¹⁷ G (> seed); dissolve **not** met; void **FAIL not fired**; still OPEN intermediate. Package: [void_door_A_lit_20260805/](working_logs/_runs/theory_residual_blue_20260805/void_door_A_lit_20260805/). RM \(n_e\) absolute amplitude **OPEN** (geometric scale paid). Exhaust: [T-W6_Void_IGMF.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W6_Void_IGMF.md); shelf RM reconfirm [desk/shelf_desk_exhaust/](working_logs/_runs/theory_exhaust_20260805/desk/shelf_desk_exhaust/); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Structural primordial vorticity supplies Harrison’s missing spin | **interpretation** / structural | §1; Onsager–Feynman / Kibble seating | Mechanism class (Harrison) is standard | Uniqueness of magnitude class without dynamo |
+| 2 | Galactic seed B ≈ 5×10⁻¹⁸ G at ω_vort ~ 0.5 H(rec) | **machine-backed** / graded | §2; P-2026-028 | Viable seed class, not observed μG without dynamo | Quote as observed void field |
+| 3 | EM-neutrality: stir plasma, do not dark-charge magnetize | **derived** / forced | §2; Meissner/photon-mass bound | — | Dark-charge magnetogenesis as model path |
+| 4 | sign(helicity_B) = sign(H_kin) (Harrison k²) | **derived** | §4 | — | Absolute sky sign without link-4 production |
+| 5 | sign(helicity_B) = sign(n) conditional on poloidal–toroidal relative | **OPEN-BLOCKED** (OPEN-MACHINE) | §4; [T14_igmf_helicity_owed.md](working_logs/T14_igmf_helicity_owed.md); [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md) | Overall seeding sign; no production booking | Production T14 overall sign from smoke/partial i6 |
+| 6 | Helicity sign = baryon sign | **failed / void** | §4; `scripts/genesis_joint_draw.py` | Independent draws | Matter–helicity three-way lock |
+| 7 | Void floor ≥10⁻¹⁶ G inter-filament vs model inter-line ≲ B_seed | **OPEN-BLOCKED** | §3a: shortfall log₁₀(20)≈**1.30 dex**; [debt_magnetism_20260803](working_logs/_runs/debt_magnetism_20260803/REPORT.md) | **WATCH-EXTERNAL** (blazar floor debate) **or** new internal seed axiom — no desk close | Close void column from RM formula or Harrison seed alone; invent B_void boost |
+| 8 | RM geometric two-point / multipole transfer from ξ_K | **machine-backed** / derived-conditional (scale) | [debt_rm_formula_20260803](working_logs/_runs/debt_rm_formula_20260803/REPORT.md); `scripts/rm_coherence_kibble.py` (reconfirm PASS 2026-08-04) | Survey ℓ~**25–60** (χ 2–5 Gpc); not ℓ~169 as RM catalog. Amplitude / n_e **OPEN** | Quote ℓ_π≈169 as survey RM prediction; absolute σ_RM without n_e |
+| 9 | Magnetic polarity / ρ_B as bounce *turn* engine | **failed / retired** | `scripts/bounce_magnetic_flip_nogo.py` | Orthogonal to void-floor gap | Bounce-from-magnetism reopen |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| Void B floor ×20 shortfall | **OPEN-BLOCKED** | [debt_magnetism_20260803](working_logs/_runs/debt_magnetism_20260803/REPORT.md) §1–2; blazar ≳10⁻¹⁶ G vs B_seed 5×10⁻¹⁸ G | External floor revision **or** licensed new seed/amplification (not inventable at desk) |
+| RM absolute amplitude | **OPEN** | needs external n_e model | Survey n_e + transfer; scale already paid |
+| Overall sign(H_kin)/link-4 | **OPEN-BLOCKED** (OPEN-MACHINE) | T14 four-branch production criteria; [PRTOE_igmf_helicity.md](PRTOE_igmf_helicity.md); authority card [`blocked_lane_t14_igmf_sign_20260805`](working_logs/_runs/blocked_lane_t14_igmf_sign_20260805/REPORT.md) | Production booking under pre-registered gates only; `f = −1` branches are NOT_MEASURED, so no four-branch sign exists to book |
+
+**Non-claims:** Void column closed internally; absolute σ_RM without external n_e; matter–helicity lock; uniqueness of Harrison magnitude class; bounce from magnetism; treating last-scatter ℓ_π≈169 as the catalog RM prediction; production T14 sign from incomplete runs.
+
+**Triage:** elevate-in-place; **blocked** on void floor (WATCH-EXTERNAL / missing internal seed); RM *scale* paid, amplitude/survey still open; galactic column stays graded.
+
+**Debt wire (2026-08-04):** RM scale reconfirmed in `open_theory_full_20260804/rm_coherence.log`; void floor still OPEN-BLOCKED (×20 short).

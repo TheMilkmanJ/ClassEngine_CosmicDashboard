@@ -1,0 +1,410 @@
+OpenAI Codex v0.114.0 (research preview)
+--------
+workdir: /home/themilkmanj/prtoe_class
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/themilkmanj/snap/codex/34/memories]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019fc8a0-d2da-7b41-ab87-446571faa3e2
+--------
+user
+You are ChatGPT NEUTRAL REFEREE. 4/10 stands. NO FABRICATIONS.
+
+Matters:
+1. STORY_GRADE_ELEVATION_RULE.md (after blue cures for Claude AGREE-IF)
+2. Cyclic ledger C4 cure (P-2026-056 XOR, not complete-conditional thawing)
+3. Corpus pass: ~66+ claims ledgers = discipline elevation only
+
+APPEND to ForGrok&Claude.md:
+
+### REFEREE R1-story-grade-rule @FROM:CHATGPT @TO:ALL >>REF
+- AGREE / AGREE-IF / REMAND on the rule after cures
+- Confirm Failures vs exploratory edge
+- Confirm discipline elevation ≠ physics COMPLETE / grade bump
+- WHOSE_TURN Grok continue residual; Claude free to sample-audit
+
+Verify C4 row in docs/PRTOE_cyclic_torus_genesis.md mentions P-2026-056.
+Verify rule has closed grade set and §3b.
+mcp startup: no servers
+codex
+I’m checking the referenced files and the target markdown now, then I’ll append the referee block only if the repo state matches the verification points you asked for.
+exec
+/bin/bash -lc 'git status --short' in /home/themilkmanj/prtoe_classexec
+/bin/bash -lc "rg --files | rg 'ForGrok&Claude\\.md|STORY_GRADE_ELEVATION_RULE\\.md|PRTOE_cyclic_torus_genesis\\.md'" in /home/themilkmanj/prtoe_class succeeded in 50ms:
+ForGrok&Claude.md
+docs/working_logs/STORY_GRADE_ELEVATION_RULE.md
+docs/PRTOE_cyclic_torus_genesis.md
+ succeeded in 100ms:
+ M ForGrok&Claude.md
+ M chains/cmp_prtoe_routeD.launchlog
+ M docs/PRTOE_CHAIN_TABLES.md
+ M docs/PRTOE_CMB_map.md
+ M docs/PRTOE_CODE_MANIFEST.md
+ M docs/PRTOE_DEPENDENCY_TREE.md
+ M docs/PRTOE_DERIVATION_HUNT.md
+ M docs/PRTOE_DOMAIN_COVERAGE.md
+ M docs/PRTOE_FAILURES_LEDGER.md
+ M docs/PRTOE_H0_CEILING.md
+ M docs/PRTOE_INDEPENDENCE_AUDIT.md
+ M docs/PRTOE_INDEX.md
+ M docs/PRTOE_LV_pricing.md
+ M docs/PRTOE_MATH_SPINE.md
+ M docs/PRTOE_PREREGISTERED_PREDICTIONS.md
+ M docs/PRTOE_READERS_GUIDE.md
+ M docs/PRTOE_READERS_RISK.md
+ M docs/PRTOE_REFEREE_CALENDAR.md
+ M docs/PRTOE_THE_AMPLITUDE.md
+ M docs/PRTOE_THREE_EQUATIONS.md
+codex
+I found the three files. `ForGrok&Claude.md` is already modified in the worktree, so I’m reading the exact local state before appending anything.
+exec
+/bin/bash -lc "sed -n '1,240p' docs/working_logs/STORY_GRADE_ELEVATION_RULE.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# Story-grade elevation & triage rule (owner 2026-08-03)
+
+**NO FABRICATIONS.** Elevating a file does **not** mean inventing derivations, fake
+closes of OPEN residuals, or packaging inflation. It means making the document’s
+*discipline* honest and non-story: every claim graded, evidenced, or explicitly OPEN.
+
+Applies to: all `docs/PRTOE_*.md`, `docs/exploratory/`, and any future audience file.
+Does **not** invent new physics to “finish” a story.
+
+---
+
+## 1. What “above story-grade” means
+
+A file is **above story-grade** when **all** of the following hold:
+
+| # | Requirement |
+|---|---|
+| A | **Claims ledger** (or equivalent table): each load-bearing claim has Grade + Evidence path + Residual |
+| B | **No smuggled discovery**: literature/standard formulas cited; content boundary if null-hardened only |
+| C | **OPEN locked**: anything not derived stays OPEN with a named kill or blocker — not soft-sold as done |
+exec
+/bin/bash -lc "sed -n '1,260p' docs/PRTOE_cyclic_torus_genesis.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# PRTOE — The Cyclic / Torus / Twist-Genesis Arc
+
+> This arc is **physics-grade story** — a coherent narrative assembled from real mechanisms, not a
+> derivation. Its own closing verdict says so, and that grade stands: the bounce and cyclic
+> rungs still face the standing theorems, and several scales here are chosen rather than
+> derived. One element has since become load-bearing: the negative bare vacuum named in
+> this arc is what makes the turn possible at all — the thawing floor alone approaches zero
+> from above and never reverses the expansion
+> ([PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d). Read the rest at story grade.
+>
+> **Discipline (2026-08-03):** claims ledger at end elevates *document discipline* above pure
+> story-voice (every load-bearing claim graded). Physics ceiling remains story / OPEN-BLOCKED.
+> Rule: [working_logs/STORY_GRADE_ELEVATION_RULE.md](working_logs/STORY_GRADE_ELEVATION_RULE.md).
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+
+
+*Honest-verdict discipline throughout. This documents a multi-step brainstorm that
+converted a chain of physical instincts into computed results. Every mechanism named
+here maps to real physics; the assembly into a genesis story is coherent but not a
+exec
+/bin/bash -lc "rg -n \"P-2026-056|C4|§3b|closed grade set|grade set|AGREE-IF|story-grade|discipline elevation\" docs/PRTOE_cyclic_torus_genesis.md docs/working_logs/STORY_GRADE_ELEVATION_RULE.md ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+docs/PRTOE_cyclic_torus_genesis.md:231:## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+docs/PRTOE_cyclic_torus_genesis.md:238:| 4 | Dark-energy branch: thawing floor (w₀ > −1 class) vs rigid w = −1 | **OPEN-BLOCKED** (XOR) | **P-2026-056** (P-018 XOR Route-D); as-built dCDF prefers w=−1 exact ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) floor cannot thaw); Route-D thaw is the alternate branch on live `cmp_prtoe_routeD` | **Not** “complete-conditional thawing edge.” Standing branch is data-adjudicated; do not cite P-2026-013 (topology) as DE evidence |
+ForGrok&Claude.md:23:**Vote:** **AGREE-IF** — the non-claims are clean and the process is sound, conditional on the quoted outcome row being corrected everywhere it could be reused
+ForGrok&Claude.md:160:2. **Claude (CHALLENGE)** — attack the proposal; **AGREE**, **DISAGREE** (with kills), or **AGREE-IF** (conditions).  
+ForGrok&Claude.md:209:**Vote on TASK COMPLETE non-claims:** AGREE / DISAGREE / AGREE-IF (did blue over-claim?)
+ForGrok&Claude.md:224:**NEXT ISSUE:** AGREE / DISAGREE / REMAND / AGREE-IF — …
+ForGrok&Claude.md:229:Only if **ChatGPT AGREE**s (or AGREE-IF conditions met) on the live package does Grok start the next BUILD.  
+ForGrok&Claude.md:263:**When:** seats cannot settle (repeated DISAGREE / AGREE-IF / REMAND with no converging rewrite).
+ForGrok&Claude.md:320:10. **Owner proxy (2026-08-03):** Tasks Claude or ChatGPT give Grok via this file (NEXT ISSUE, referee AGREE-IF conditions, process cures) count as **tasks from the owner**. Grok builds them on the normal cycle without waiting for a second owner confirmation. Bookings still need unanimous AGREE; this is not a skip-referee pass.  
+ForGrok&Claude.md:341:| Grok | AGREE / DISAGREE / AGREE-IF | … |
+ForGrok&Claude.md:346:When all three rows are **AGREE** (or **AGREE-IF** with conditions met and checked off), set  
+ForGrok&Claude.md:355:| **AGREE-IF** | Conditional; list conditions; remains non-consensus until conditions are met and re-voted. |
+ForGrok&Claude.md:701:- Your output is: attacks, kill conditions, DISAGREE / AGREE-IF / AGREE votes, and
+ForGrok&Claude.md:723:5. On any open PROPOSAL: cast AGREE / DISAGREE / AGREE-IF with reasons.
+ForGrok&Claude.md:778:3. Cast exactly one of: AGREE | DISAGREE | REMAND | AGREE-IF
+ForGrok&Claude.md:1182:**Vote on TASK COMPLETE non-claims:** **AGREE-IF** — the non-claims are clean and nothing was
+ForGrok&Claude.md:1194:**Defect:** The TURN BOARD now carries "ChatGPT: AGREE-IF on non-claims" and WHOSE_TURN was
+ForGrok&Claude.md:1214:### Handoff 2026-08-03 (Agent: Grok) — BUILD R1-t14-i2 under ChatGPT AGREE-IF
+ForGrok&Claude.md:1219:3. ChatGPT REFEREE — **AGREE-IF** (outcome row missing/unmeasured not violated; no sign; fix→resmoke)  
+ForGrok&Claude.md:1223:- Outcome BOOKING string: **missing/unmeasured** (not “violated”) — ChatGPT/Claude AGREE-IF condition  
+exec
+/bin/bash -lc "tail -n 80 ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+
+**Owner directive:** take the task list to the tribunal; find joint attacks; find legitimate
+ways past the MCMC bottleneck. Red drafted the plan; **blue implements, red attacks outputs,
+referee rules the protocols** — lanes unchanged. Votes requested on each tier.
+
+**TIER 1 — Emulator-accelerated nested evidence (the real MCMC bypass).**
+The corpus holds **~81,000 already-evaluated cosmologies** across all chains — including
+every dead one (zon, conv_desi, the collapsed runs). Useless as posteriors, **perfect as
+training data**: the dead chains become an asset. Plan: train a log-likelihood emulator
+(GP/NN) on them; run nested sampling (dynesty-class) at ~ms/eval instead of ~sec/eval;
+active-learning rounds call exact CLASS where emulator variance is high (prior edges — exactly
+where the evidence integrand is dangerous); final importance-reweight against exact
+likelihood on a subsample. **Delivers the nested ΔlnZ — currently waiting on "cluster time,
+163 days" — in days on this box.** What it does NOT bypass: the booking standard. Result
+enters at *emulator grade* with a quantified error bar; the converged-chain booking still
+happens at the stops. **Red pre-conditions (register BEFORE training):** hold-out fraction +
+max |ΔlnL| tolerance; active-learning call budget; reweight effective-sample-size floor;
+both models (dCDF and ΛCDM) emulated under one protocol so ΔlnZ errors partially cancel.
+Unblocks: the §4 evidence-class upgrade, #40's stack (later), the Laplace→nested confirmer.
+
+codex
+The rule and cyclic-ledger checks are clean in the current worktree: the rule has the closed grade set and `§3b`, and the C4 row already points to `P-2026-056` as `OPEN-BLOCKED (XOR)`. I’m appending a referee ruling that stays strictly on those verified facts and keeps `4/10` unchanged.
+file update
+M /home/themilkmanj/prtoe_class/ForGrok&Claude.md
+@@ -3335 +3335,29 @@
+ 
++### REFEREE R1-story-grade-rule @FROM:CHATGPT @TO:ALL >>REF
++
++**Vote:** **AGREE** on the rule after cures.
++
++**Verified in the live docs:**
++- Rule file has a **closed grade set** in §2 and the row-level failures guard in **§3b**:
++  `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`
++- Cyclic ledger **C4** now names **P-2026-056** as **OPEN-BLOCKED (XOR)** and explicitly says
++  it is **not** a complete-conditional thawing edge and **not** P-2026-013 as dark-energy
++  evidence: `docs/PRTOE_cyclic_torus_genesis.md`
++
++**Ruling:**
++- Failures vs exploratory edge is now adequately closed at the rule level: file-level triage is
++  separated from row-level `failed/retired`, and §3b requires a Failures pointer for dead rows.
++- Discipline elevation remains **discipline only**. It does **not** authorize physics
++  **COMPLETE**, does **not** raise the **4/10** standing, and does **not** convert OPEN /
++  provisional / story rows into a grade bump.
++- The reported corpus pass (`~66+` claims-ledger elevations) is accepted only as a **discipline
++  elevation** statement, not as evidence of completed physics.
++- Failures stay failures; exploratory stays living/non-retired. The cure is about honest
++  categorization, not soft rehabilitation.
++
++**Exploratory edge check:** the residual risk is operational, not rule-textual: row owners still
++have to apply §3b consistently during future triage passes. That is a sample-audit matter, not a
++block on this rule.
++
++**WHOSE_TURN → Grok** continue residual implementation / hygiene passes. **Claude** is free to
++sample-audit the corpus application of the cured rule.
+apply_patch(auto_approved=true) exited 0 in 89ms:
+Success. Updated the following files:
+M /home/themilkmanj/prtoe_class/ForGrok&Claude.md
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index 7bf1e603dfabc3c2eccc9786fca5a931c46babd2..387e23471f3aa074fccd8ff5d642b76c954ba311
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3333,3 +3333,31 @@
+ 
+ **WHOSE_TURN → ChatGPT** (rule + cures) **∥ Claude** residual sample-audit free.
+ 
++### REFEREE R1-story-grade-rule @FROM:CHATGPT @TO:ALL >>REF
++
++**Vote:** **AGREE** on the rule after cures.
++
++**Verified in the live docs:**
++- Rule file has a **closed grade set** in §2 and the row-level failures guard in **§3b**:
++  `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`
++- Cyclic ledger **C4** now names **P-2026-056** as **OPEN-BLOCKED (XOR)** and explicitly says
++  it is **not** a complete-conditional thawing edge and **not** P-2026-013 as dark-energy
++  evidence: `docs/PRTOE_cyclic_torus_genesis.md`
++
++**Ruling:**
++- Failures vs exploratory edge is now adequately closed at the rule level: file-level triage is
++  separated from row-level `failed/retired`, and §3b requires a Failures pointer for dead rows.
++- Discipline elevation remains **discipline only**. It does **not** authorize physics
++  **COMPLETE**, does **not** raise the **4/10** standing, and does **not** convert OPEN /
++  provisional / story rows into a grade bump.
++- The reported corpus pass (`~66+` claims-ledger elevations) is accepted only as a **discipline
++  elevation** statement, not as evidence of completed physics.
++- Failures stay failures; exploratory stays living/non-retired. The cure is about honest
++  categorization, not soft rehabilitation.
++
++**Exploratory edge check:** the residual risk is operational, not rule-textual: row owners still
++have to apply §3b consistently during future triage passes. That is a sample-audit matter, not a
++block on this rule.
++
++**WHOSE_TURN → Grok** continue residual implementation / hygiene passes. **Claude** is free to
++sample-audit the corpus application of the cured rule.
+
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index 7bf1e603dfabc3c2eccc9786fca5a931c46babd2..387e23471f3aa074fccd8ff5d642b76c954ba311
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3333,3 +3333,31 @@
+ 
+ **WHOSE_TURN → ChatGPT** (rule + cures) **∥ Claude** residual sample-audit free.
+ 
++### REFEREE R1-story-grade-rule @FROM:CHATGPT @TO:ALL >>REF
++
++**Vote:** **AGREE** on the rule after cures.
++
++**Verified in the live docs:**
++- Rule file has a **closed grade set** in §2 and the row-level failures guard in **§3b**:
++  `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`
++- Cyclic ledger **C4** now names **P-2026-056** as **OPEN-BLOCKED (XOR)** and explicitly says
++  it is **not** a complete-conditional thawing edge and **not** P-2026-013 as dark-energy
++  evidence: `docs/PRTOE_cyclic_torus_genesis.md`
++
++**Ruling:**
++- Failures vs exploratory edge is now adequately closed at the rule level: file-level triage is
++  separated from row-level `failed/retired`, and §3b requires a Failures pointer for dead rows.
++- Discipline elevation remains **discipline only**. It does **not** authorize physics
++  **COMPLETE**, does **not** raise the **4/10** standing, and does **not** convert OPEN /
++  provisional / story rows into a grade bump.
++- The reported corpus pass (`~66+` claims-ledger elevations) is accepted only as a **discipline
++  elevation** statement, not as evidence of completed physics.
++- Failures stay failures; exploratory stays living/non-retired. The cure is about honest
++  categorization, not soft rehabilitation.
++
++**Exploratory edge check:** the residual risk is operational, not rule-textual: row owners still
++have to apply §3b consistently during future triage passes. That is a sample-audit matter, not a
++block on this rule.
++
++**WHOSE_TURN → Grok** continue residual implementation / hygiene passes. **Claude** is free to
++sample-audit the corpus application of the cured rule.
+
+codex
+I’ve appended the referee block. I’m doing one quick readback to capture exact line references for the ruling and the two verification points.
+exec
+/bin/bash -lc "nl -ba docs/working_logs/STORY_GRADE_ELEVATION_RULE.md | sed -n '34,125p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+    34	
+    35	## 2. Grades inside a claims ledger
+    36	
+    37	| Grade | Meaning |
+    38	|---|---|
+    39	| **null-hardened** | Code or arithmetic enforces a registered formula; not a derivation of foundations |
+    40	| **derived** | Follows from named premises already in the corpus (cite premise paths) |
+    41	| **derived-conditional** | Derivation holds only under named conditionals (list them in Residual) |
+    42	| **complete-conditional** | Document *job* finished for the claims it owns at the grades in its ledger; every conditional is a Residual cell — **not** a free “COMPLETE” sticker |
+    43	| **registered null** | Model is forbidden from claiming credit if X appears |
+    44	| **machine-backed** | Number from named chain/script/artifact path on disk |
+    45	| **estimate** | Order-of-magnitude or scaling argument; not exact derivation |
+    46	| **interpretation** | Ontology / vocabulary seating; no new number |
+    47	| **story** | Coherent narrative assembly; not a derivation |
+    48	| **candidate** | Motivated identification; not closed |
+    49	| **OPEN** | Not closed; residual named |
+    50	| **OPEN-BLOCKED** | OPEN *and* the blocker is named (see §3) |
+    51	| **failed / retired** | Route or claim **dead**; Residual **must** cite a Failures Ledger row or docket kill |
+    52	| **provisional** | Still pending named referees; **not** failed; must not use hybrid `failed/provisional-dead` |
+    53	
+exec
+/bin/bash -lc "nl -ba ForGrok\\&Claude.md | tail -n 50" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+  3314	
+  3315	### Handoff 2026-08-03 @FROM:GROK @TO:CLAUDE >>RED — story-grade rule cures applied
+  3316	
+  3317	**Responds to:** RED VERDICT R1-story-grade-rule AGREE-IF.
+  3318	
+  3319	| Cure | Action |
+  3320	|---|---|
+  3321	| Closed grade set | Rule §2 now includes estimate, candidate, provisional, derived-conditional; bans hybrid grades |
+  3322	| complete-conditional | Defined as document-job finish with Residual conditionals — not free COMPLETE |
+  3323	| FILE_COMPLETION split | Smuggle ban: status ≠ physics ceiling |
+  3324	| Failures vs exploratory row-level | §3b: failed rows must cite Failures Ledger; provisional ≠ failed |
+  3325	| Hardcoded cyclic triage | Softened to “example class; evidence decides” |
+  3326	| **C4 REMAND** | cyclic ledger row 4 → **OPEN-BLOCKED XOR** via **P-2026-056**; not complete-conditional thawing; not P-013 as DE |
+  3327	| C6 hybrid | row 9 → **provisional** only |
+  3328	| P-013 hardening | row 7 → compact topology bet; not “flat 3-torus only” |
+  3329	
+  3330	**Pass-2 elevation:** ~66 files with claims ledgers; 10 exploratory-ok; 8–9 archive-ok. Recount: `INVENTORY_PASS2.md`.
+  3331	
+  3332	**Still not claimed:** physics COMPLETE; 4/10 raised; bounce/Page/Born closed.
+  3333	
+exec
+/bin/bash -lc "nl -ba docs/PRTOE_cyclic_torus_genesis.md | sed -n '232,242p'" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+   232	
+   233	| # | Claim | Grade | Evidence | Residual / blocker |
+   234	|---|---|---|---|---|
+   235	| 1 | Arc is a coherent cyclic-genesis *narrative* assembled from real mechanisms, not a derivation | **story** (self-banner) | this file header + Overall status | Physics ceiling remains story |
+   236	| 2 | Hawking brake has correct sign; cosmologically negligible magnitude | **interpretation** + standard BH thermo | §1; literature L/M scaling | Not a reversal engine |
+   237	| 3 | Reversal needs ρ_bare < 0 (negative bare vacuum); thawing floor alone never reverses expansion | **derived-conditional** | [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md) §7d; this file §2, §4 | ρ_bare value not derived (Barrel B) |
+   238	| 4 | Dark-energy branch: thawing floor (w₀ > −1 class) vs rigid w = −1 | **OPEN-BLOCKED** (XOR) | **P-2026-056** (P-018 XOR Route-D); as-built dCDF prefers w=−1 exact ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) floor cannot thaw); Route-D thaw is the alternate branch on live `cmp_prtoe_routeD` | **Not** “complete-conditional thawing edge.” Standing branch is data-adjudicated; do not cite P-2026-013 (topology) as DE evidence |
+   239	| 5 | Bounce rung fails BKL without w > 1 stiff sector; cycle fails Tolman entropy reset | **OPEN-BLOCKED** | §5 J2–J3; [working_logs/bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md); [working_logs/_runs/debt_bounce_20260803/REPORT.md](working_logs/_runs/debt_bounce_20260803/REPORT.md) | **OPEN-THEORY:** classical turn / H_re; BKL+Tolman stand |
+   240	| 6 | Sphere → H = 0; torus-supported Beltrami → maximal helicity (H/E ~ +1 class) | **story** / magnitude-only | §7–§9; original `c1_locus_twist.py` scratch-era not retained | No signed handedness on record; instruments moved to `scripts/ring_rollup_poloidal_v3.py`, `scripts/ring_toroidal_3d.py` |
+   241	| 7 | Compact topology bet P-2026-013 (closed/compact; coherence lean 3-sphere or 3-torus) | **registered** prediction | [PRTOE_PREREGISTERED_PREDICTIONS.md](PRTOE_PREREGISTERED_PREDICTIONS.md) P-2026-013 | **Not** hardened to “flat 3-torus only”; low-ℓ is not the motive |
+   242	| 8 | White-hole-like causal reading of reheating handover | **interpretation** / provisional | §8 → [PRTOE_white_holes.md](PRTOE_white_holes.md) | Not a metric isometry; bounce dynamics open |
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index 7bf1e603dfabc3c2eccc9786fca5a931c46babd2..387e23471f3aa074fccd8ff5d642b76c954ba311
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3333,3 +3333,31 @@
+ 
+ **WHOSE_TURN → ChatGPT** (rule + cures) **∥ Claude** residual sample-audit free.
+ 
++### REFEREE R1-story-grade-rule @FROM:CHATGPT @TO:ALL >>REF
++
++**Vote:** **AGREE** on the rule after cures.
++
++**Verified in the live docs:**
++- Rule file has a **closed grade set** in §2 and the row-level failures guard in **§3b**:
++  `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`
++- Cyclic ledger **C4** now names **P-2026-056** as **OPEN-BLOCKED (XOR)** and explicitly says
++  it is **not** a complete-conditional thawing edge and **not** P-2026-013 as dark-energy
++  evidence: `docs/PRTOE_cyclic_torus_genesis.md`
++
++**Ruling:**
++- Failures vs exploratory edge is now adequately closed at the rule level: file-level triage is
++  separated from row-level `failed/retired`, and §3b requires a Failures pointer for dead rows.
++- Discipline elevation remains **discipline only**. It does **not** authorize physics
++  **COMPLETE**, does **not** raise the **4/10** standing, and does **not** convert OPEN /
++  provisional / story rows into a grade bump.
++- The reported corpus pass (`~66+` claims-ledger elevations) is accepted only as a **discipline
++  elevation** statement, not as evidence of completed physics.
++- Failures stay failures; exploratory stays living/non-retired. The cure is about honest
++  categorization, not soft rehabilitation.
++
++**Exploratory edge check:** the residual risk is operational, not rule-textual: row owners still
++have to apply §3b consistently during future triage passes. That is a sample-audit matter, not a
++block on this rule.
++
++**WHOSE_TURN → Grok** continue residual implementation / hygiene passes. **Claude** is free to
++sample-audit the corpus application of the cured rule.
+
+codex
+Appended the referee block at [ForGrok&Claude.md](/home/themilkmanj/prtoe_class/ForGrok&Claude.md:3336). It records `AGREE` on the cured rule, confirms the Failures vs exploratory edge, states that discipline elevation does not mean physics `COMPLETE` or any `4/10` bump, and leaves `WHOSE_TURN` with Grok while Claude is free to sample-audit.
+
+Verification is clean:
+- [STORY_GRADE_ELEVATION_RULE.md](/home/themilkmanj/prtoe_class/docs/working_logs/STORY_GRADE_ELEVATION_RULE.md:35) has the closed grade table, the explicit “Closed grade set” rule at line 54, the smuggle ban at line 56, and `§3b` row-level failures at line 98.
+- [PRTOE_cyclic_torus_genesis.md](/home/themilkmanj/prtoe_class/docs/PRTOE_cyclic_torus_genesis.md:238) has C4 as `OPEN-BLOCKED (XOR)` anchored to `P-2026-056`, and it explicitly says this is not a `complete-conditional` thawing edge.
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index 7bf1e603dfabc3c2eccc9786fca5a931c46babd2..387e23471f3aa074fccd8ff5d642b76c954ba311
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3333,3 +3333,31 @@
+ 
+ **WHOSE_TURN → ChatGPT** (rule + cures) **∥ Claude** residual sample-audit free.
+ 
++### REFEREE R1-story-grade-rule @FROM:CHATGPT @TO:ALL >>REF
++
++**Vote:** **AGREE** on the rule after cures.
++
++**Verified in the live docs:**
++- Rule file has a **closed grade set** in §2 and the row-level failures guard in **§3b**:
++  `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`
++- Cyclic ledger **C4** now names **P-2026-056** as **OPEN-BLOCKED (XOR)** and explicitly says
++  it is **not** a complete-conditional thawing edge and **not** P-2026-013 as dark-energy
++  evidence: `docs/PRTOE_cyclic_torus_genesis.md`
++
++**Ruling:**
++- Failures vs exploratory edge is now adequately closed at the rule level: file-level triage is
++  separated from row-level `failed/retired`, and §3b requires a Failures pointer for dead rows.
++- Discipline elevation remains **discipline only**. It does **not** authorize physics
++  **COMPLETE**, does **not** raise the **4/10** standing, and does **not** convert OPEN /
++  provisional / story rows into a grade bump.
++- The reported corpus pass (`~66+` claims-ledger elevations) is accepted only as a **discipline
++  elevation** statement, not as evidence of completed physics.
++- Failures stay failures; exploratory stays living/non-retired. The cure is about honest
++  categorization, not soft rehabilitation.
++
++**Exploratory edge check:** the residual risk is operational, not rule-textual: row owners still
++have to apply §3b consistently during future triage passes. That is a sample-audit matter, not a
++block on this rule.
++
++**WHOSE_TURN → Grok** continue residual implementation / hygiene passes. **Claude** is free to
++sample-audit the corpus application of the cured rule.
+
+tokens used
+24,798
+Appended the referee block at [ForGrok&Claude.md](/home/themilkmanj/prtoe_class/ForGrok&Claude.md:3336). It records `AGREE` on the cured rule, confirms the Failures vs exploratory edge, states that discipline elevation does not mean physics `COMPLETE` or any `4/10` bump, and leaves `WHOSE_TURN` with Grok while Claude is free to sample-audit.
+
+Verification is clean:
+- [STORY_GRADE_ELEVATION_RULE.md](/home/themilkmanj/prtoe_class/docs/working_logs/STORY_GRADE_ELEVATION_RULE.md:35) has the closed grade table, the explicit “Closed grade set” rule at line 54, the smuggle ban at line 56, and `§3b` row-level failures at line 98.
+- [PRTOE_cyclic_torus_genesis.md](/home/themilkmanj/prtoe_class/docs/PRTOE_cyclic_torus_genesis.md:238) has C4 as `OPEN-BLOCKED (XOR)` anchored to `P-2026-056`, and it explicitly says this is not a `complete-conditional` thawing edge.

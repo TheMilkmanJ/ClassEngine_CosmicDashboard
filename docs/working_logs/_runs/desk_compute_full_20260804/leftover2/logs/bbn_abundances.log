@@ -1,0 +1,9 @@
+saved chains/bbn_abundances.png
+  Planck / D-optimal omega_b = 0.02237:  Y_p = 0.2471 (+0.6 sigma),  D/H = 2.528e-5 (+0.0 sigma)
+  model CMB-fit omega_b = 0.02280:  Y_p = 0.2473 (+0.6 sigma),  D/H = 2.452e-5 (-2.5 sigma)
+  The varying-me theta_s realignment prefers omega_b ~ 0.0228, where D/H is ~ -2.5
+  sigma; the BBN prior pulls back toward 0.0224, so the joint fit compromises at a
+  mild D/H tension. It is a genuine cost of the H0 mechanism, not a dyad effect --
+  the dyad is L-neutral and reaches the deuteron only at two loops (~2e4x too weak).
+  Li-7 is a separate sector (the lithium problem: standard BBN over-predicts
+  Li-7/H ~5e-10 vs observed ~1.6e-10; the model's Li row handles it apart).

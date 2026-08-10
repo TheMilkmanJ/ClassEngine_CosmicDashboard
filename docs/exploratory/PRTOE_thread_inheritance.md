@@ -60,3 +60,11 @@ bench — where the parent law can be checked in a laboratory rather than a sky.
 *The model threads sixteen roots and the universe hands it the rest on inheritance. Nothing is
 outside — some things are just downstream, and the account collects from everyone.*
 
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)
+

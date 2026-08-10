@@ -1,5 +1,9 @@
 # Laser Physics — The Medium's Grammar at 10¹⁵ Hz (2026-07-12)
 
+> **EXPLORATORY — not OEM claim authority (2026-08-06).**
+> Laboratory-kinship file only. No independent PRTOE ship result lives here; no registered script path closes this subdomain at the desk.
+> Living maps: [`../PRTOE_INDEX.md`](../PRTOE_INDEX.md). Residual freezes: [`../working_logs/_runs/`](../working_logs/_runs/).
+
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](../PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](../PRTOE_DEPENDENCY_TREE.md).*
 
 > A kinship file — the laboratory cousin. The model reproduces laser physics and claims none of it;
@@ -94,3 +98,16 @@ stop being boring.
 bench a to-do list. A vacuum that is a condensate can be interrogated by its laboratory
 siblings — and the questions are already registered, with kills, upstairs in this repo.*
 
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Domain seating of medium language in this subdomain | **interpretation** | this file | exploratory-ok map assembly only; pure seating; no independent killable number |
+| 2 | Any quantitative forecast unique to this subdomain | **OPEN-BLOCKED** | — | No registered prediction or script path yet |
+
+**Non-claims:** not a standalone derivation; not sky booking.
+**Triage:** exploratory-ok map assembly only (not Failures).
+**Banner:** discipline above story; physics ceiling interpretation / OPEN-BLOCKED.
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

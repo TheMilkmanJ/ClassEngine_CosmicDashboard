@@ -113,11 +113,11 @@ wears a debt tag. No prose without physics behind it. Updated continuously.*
 | 3 | H_total ≡ 0 (compact torus); dE = −p dV | balance: exactly zero | model derivation |
 | 4 | η via AD-direct: n_L(winding)/s × transfer — debt: the frozen-era transfer fraction | target 6.1×10⁻¹⁰; the thermal route is retired, with its record in [PRTOE_FAILURES_LEDGER.md](../PRTOE_FAILURES_LEDGER.md) | AD-direct |
 | 5 | ε(T) = ε(1−T/T_c); elasticities: ∂lnY_p/∂lnm_e ≈ 0 above T_c, windowed Y_p +0.85% | under the standing configuration's committed genesis window: joint p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), deuterium eased to −2.5 to −1.4σ from Cooke, helium +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ) | PRyM (BBN), ramped splice |
-| 6 | 1+z* ∝ m_e (recombination's atomic physics); the electron-coupled scalar: m_e(z>50) = 1.012543·m_e | H₀: 68.2 → 69.9; ΔlnZ = +2.635 (capped) **\*conditional** — the chains that scored it fed CLASS a ΛCDM helium fraction, and the configs now carry the measured PRyM response; the number remains a Laplace estimate, nested sampling having been priced off this hardware and deferred to cluster time, so the corrected zero-parameter comparison is graded from the MCMC and its chains have yet to converge ([PRTOE_CODE_MANIFEST.md](../PRTOE_CODE_MANIFEST.md)) | the founding fit |
+| 6 | 1+z* ∝ m_e (recombination's atomic physics); the electron-coupled scalar: m_e(z>50) = 1.012543·m_e | historical fixed-ε H₀: 68.2 → 69.9; booked old-BAO dyad **H₀ = 70.052 ± 0.716**; current booked-pair sample-cov Laplace **ΔlnZ ≈ +0.21** (capped) **\*conditional** — the older +2.635 line came from pre-bbnfix chains scored with a ΛCDM helium fraction; configs now carry the measured PRyM response; the current nested referee is the gold DESI-DR2 four-leg program, designed not launched, so the corrected zero-parameter comparison is still graded from Laplace rather than nested evidence ([PRTOE_CODE_MANIFEST.md](../PRTOE_CODE_MANIFEST.md)) | the founding fit + booked receipt |
 | 7 | f_gate = exp(−(C/C_ref)^p), with the gate's curvature exponent p > 2.43 (distinct from the winding integer n above) — a near-step, forced by the 8.2-decade suppression riding a 1.35-decade curvature window; r_1s ∝ 1/(m²M_halo^⅓) | solitons 10⁻³–10⁻² pc; gate zeroes today's ε | reading B; T1; the trigger doc §7 |
 | 8 | E_b/(mc²) = ½α_eff²; fusion terminus: Fe-56 at BE/A = 8.790 MeV (**Ni-62 at 8.794 is the BE/A maximum**; the Fe peak is set by Si-burning photodisintegration statistics, not by the BE/A max) | nuclear rung 8.5×10⁻³ — the ladder's champion | nuclear data |
 | 9 | gravity + chemistry inheritance (no new physics; the rungs' handoff) | — | the ladder |
-| 10 | |Δμ/μ|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | quasar μ-fence |
+| 10 | \|Δμ/μ\|(z≤4) < 10⁻⁶ (quasar fence); today: gate-zeroed | chemistry uniform to ppm since z=4 | quasar μ-fence |
 | 11 | life's license: ΔG from the reserve; the chain S_start=min → F_available > 0 | the biosphere = a Weyl-free-energy tap | the arrow doc, graded chain |
 | 12 | Σ_f q_dark(f)·Q_EM(f)² = 0 (the anomaly, exactly); Meissner: q_EM < 10⁻³⁸–10⁻⁴⁷ (photon-mass limits) | birefringence ≡ 0, proven; light untouchable | L1a |
 | 13 | the volt: V = (h/2e)·f_J (Josephson — the cousin defines the unit); CMB in static: T_CMB/T_sys ~ 1% | GEN 6 in the living room | recorded receipt; standard radio |
@@ -169,7 +169,7 @@ relationship. No equation, no row.*
 
 | science | its master equation | physics parent | the medium's relationship |
 |---|---|---|---|
-| chemistry | Ĥ = Σᵢp²ᵢ/2m_e − Σᵢ,ₐZₐe²/rᵢₐ + Σᵢ<ⱼe²/rᵢⱼ + Pauli exclusion | QM (reproduced exactly) | m_e, α held constant BY THE GATE — uniformity is our prediction; the Oklo natural reactor: |Δα/α| < 10⁻⁸ over 2 Gyr — a passed fence, gate-consistent |
+| chemistry | Ĥ = Σᵢp²ᵢ/2m_e − Σᵢ,ₐZₐe²/rᵢₐ + Σᵢ<ⱼe²/rᵢⱼ + Pauli exclusion | QM (reproduced exactly) | m_e, α held constant BY THE GATE — uniformity is our prediction; the Oklo natural reactor: \|Δα/α\| < 10⁻⁸ over 2 Gyr — a passed fence, gate-consistent |
 | thermodynamics | dE = T dS − p dV; dS ≥ 0 | **natively OURS** | the free-energy budget IS the first law; the arrow IS the drawdown (graded chain) |
 | statistical mechanics | Z = Σ e^(−Eᵢ/kT); S = k ln Ω | QM + counting (reproduced) | Landauer citizenship: E_erase ≥ kT ln 2 is constitution-grade (the fees) |
 | bioenergetics / botany | ΔG_ATP ≈ −30.5 kJ/mol; photosynthesis ~8–10 γ per O₂; ΔG = −RT ln K | chemistry's child | the license: F_available > 0 traces to S_start = min (the arrow doc); plants = free-energy taps |
@@ -189,3 +189,11 @@ and assay silently trusts). Science and physics were always the same thing; the 
 contribution is the PROOF OF CONSTANCY the sciences borrowed unexamined — now a registered,
 falsifiable, court-dated prediction. **Oklo (|Δα/α| < 10⁻⁸ over 2 Gyr) is a passed fence, and
 every radiometric date in every geology paper inherits it.**
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

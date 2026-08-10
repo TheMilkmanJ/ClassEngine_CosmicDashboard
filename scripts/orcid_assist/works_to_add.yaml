@@ -1,0 +1,9 @@
+# Works to add to ORCID after OAuth.
+# PARKED: no DOIs / arXiv yet for PRTOE. Add entries after first public preprint or journal DOI.
+#
+# DOI = permanent journal ID like 10.1103/.... (you get one when a journal publishes you).
+# arXiv preprints use arxiv: "YYMM.NNNNN" instead.
+#
+# After works exist on ORCID: Web of Science → ORCID Syncing → Manual sync.
+
+works: []

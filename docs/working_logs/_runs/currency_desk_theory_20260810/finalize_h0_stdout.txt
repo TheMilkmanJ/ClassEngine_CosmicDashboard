@@ -1,0 +1,18 @@
+==========================================================================
+H₀ finalization gate (letter item 1)
+==========================================================================
+   cmp_lcdm_mnu_bbnfix: R−1 = 0.049  (GRADED)  [self-stop]
+   dyad_mnu_bbnfix: R−1 = 0.048  (GRADED)  [self-stop]
+
+   model H₀   = 70.01 ± 0.69  (N = 12535)
+   control H₀ = 68.42 ± 0.34  (N = 8864)
+   ΔH₀ (model − control) = +1.59
+
+   LETTER REPLACEMENT (Status section, manual edit):
+   'Pantheon+SH0ES, at H₀ = 70.0 ± 0.7 — sound-horizon-driven, and holding with the SH0ES calibration
+   included even though that calibration pulls the other way.'
+   (Delete the not-yet-final caveat sentence; close HOLD item 1
+   with this run's date and both R−1 values.)
+   Prefer three-rank GetDist for production quote
+   (scripts/book_bbnfix_when_ready.py + make_getdist_tables.py --include-bbnfix).
+==========================================================================

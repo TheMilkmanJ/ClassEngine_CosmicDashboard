@@ -1,0 +1,154 @@
+=== fbar_cw_lo ===
+==============================================================================
+  Track A3 — f̄ LO / c_w residual / leading-order dominance
+==============================================================================
+
+  ε = 27α/(5π) = 0.012543225  (1.2543%)
+  2/π           = 0.636619772
+  ensemble c_w  = -0.84 ± 0.52  →  a ∈ [0.32, 1.36]
+  fit-implied   = -1.8                 →  a = 1.80
+
+  A  winding moments (integrated, not quoted)
+       ⟨|cos|⟩   = 0.636619772   (2/π  = 0.636619772)
+       ⟨cos²⟩    = 0.500000000   (1/2  = 0.500000000)
+       ⟨|cos|³⟩  = 0.424413182   (4/3π = 0.424413182)
+  ok    A1 moments match closed forms
+  ok    A2 quadratic moment ratio = π/4   0.785398163
+  ok    A3 cubic moment ratio = 2/3   0.666666667
+
+  B  f̄_eff = 2/π + c_w·ε/2  (per-unit price)
+  ok    B1 per-unit fractional shift ≈ 0.985%   0.9851% per unit c_w
+  ok    B2 fit-implied f̄ recovers c_w ≈ −1.80   got -1.805
+  ok    B3 ensemble f̄ recovers c_w ≈ −0.84   got -0.837
+
+  C  C9 quadratic / leading at unit |c_w|
+  ok    C1 unit-|c_w| quadratic fraction = 0.985% (not the slipped 0.83%)   0.9851%
+  ok    C2 the old 0.83% is 2/3·ε — cubic's ratio in quadratic's place   0.8362%
+
+  D  leading-order dominance across the data band on |c_w|
+
+    source                    |c_w|    quad/lead   pointwise |c_w|ε
+    ----------------------------------------------------------------
+    ensemble lo                0.32       0.315%             0.401%
+    ensemble centre            0.84       0.828%             1.054%
+    ensemble hi                1.36       1.340%             1.706%
+    fit-implied                1.80       1.773%             2.258%
+    C8 wide floor              2.00       1.970%             2.509%
+    natural a=1/2              0.50       0.493%             0.627%
+    natural a=1                1.00       0.985%             1.254%
+  ok    D1 averaged quadratic/leading < 5% across entire data band   worst = 1.970% (fit-implied / C8 floor)
+  ok    D2 at fit-implied |c_w|=1.80, quad/lead still < 2%   1.773%
+  ok    D3 pointwise worst |c_w|·ε at fit-implied < 3%   2.258%
+
+       ⇒ LO dominance is a BOUND from ε and the data band on a,
+         not a generic hope. The expansion parameter is ε itself.
+
+  E  cubic remains negligible (resummation c₃ = a² = c_w²)
+
+       |c_w|    c₃=c_w²     cub/lead     cub/quad
+    ----------------------------------------------
+        0.32     0.1024      0.0011%      0.0034
+        0.84     0.7056      0.0074%      0.0089
+        1.00     1.0000      0.0105%      0.0106
+        1.36     1.8496      0.0194%      0.0145
+        1.80     3.2400      0.0340%      0.0192
+        2.00     4.0000      0.0420%      0.0213
+  ok    E1 cubic/leading < 0.5% and cubic < quadratic across band
+
+  F  form: medium back-reaction generates c_w = −a (C16)
+  ok    F1 fixed point of F = u − a u F is u/(1+a u)
+  ok    F2 c_w = −a at every back-reaction strength tested   max |c_w + a| = 3.24e-06; c_w IS the back-reaction strength
+  ok    F3 resummation predicts c₃ = c_w², c₄ = −|c_w|³
+
+  G  can recorded couplings force a unique a?  (honest residual)
+
+    candidate from recorded objects           value   in ens band?
+    ----------------------------------------------------------------
+    α_c = 3α                                0.02189             no
+    ε                                       0.01254             no
+    1 (unit back-reaction)                  1.00000            yes
+    1/2 (ln/exp family)                     0.50000            yes
+    π/4 (moment ratio)                      0.78540            yes
+    2/π (f̄ itself)                         0.63662            yes
+    √2 − 1                                  0.41421            yes
+  ok    G1 α_c and ε are NOT the back-reaction scale (≪ O(1))
+  ok    G2 natural a=1 and a=1/2 sit inside ensemble band (admissible, not forced)
+  ok    G3 no unique a is forced — residual is the VALUE of a   5 natural O(1)s inside band: residual, not derivation
+  ok    G4 fit vs ensemble tension is real (~1.9σ) — do not average them   1.85σ
+
+       NAMED RESIDUAL: a (= −c_w), the medium's back-reaction strength
+       on its own winding response. Form and LO dominance do not need it;
+       only the precise sub-percent f̄ correction does. Data-refereed:
+         ensemble a ∈ [0.32, 1.36]
+         fit-implied a ≈ 1.80  (1.9σ tension — recorded, not resolved)
+
+  H  ANTI-CONTROL: LO dominance is falsifiable
+  ok    H1 |c_w|~100 would make quad/lead ~100% — expansion broken   quad/lead = 98.5%
+  ok    H2 data |c_w| is O(1), so the kill does not fire
+
+  I  ANTI-CONTROL: odd responses give c_w = 0, excluded by ensemble
+  ok    I1 c_w = 0 (odd family) is outside ensemble band
+  ok    I2 tanh u has no u² term (odd) — structurally c_w = 0
+
+  J  grade self-check against board key
+  ok    J1 form closed (c_w = −a from medium back-reaction)
+  ok    J2 LO dominance proved as bound from ε and data band
+  ok    J3 value of a is a single named residual (data-refereed)
+  ok    J4 grade is CANDIDATE CLOSED (not Derived, not inflated)   CANDIDATE CLOSED
+
+==============================================================================
+  RESULT — Track A3 CANDIDATE CLOSED
+==============================================================================
+
+  LEADING-ORDER DOMINANCE (proved, not assumed)
+  ---------------------------------------------
+  Write δm/m = |x| + c_w x² + O(x³), x = ε cos θ. After equidistributed θ-average:
+
+      f̄_eff = 2/π + c_w · ε / 2
+      quadratic / leading = |c_w| · ε · (π/4)
+
+  At unit |c_w|:  0.985%   (C9's corrected figure; the old 0.83% was a booking slip).
+  Across the whole data band on |c_w| (ensemble 0.32–1.36 and fit-implied 1.80):
+
+      worst averaged quad/lead = 1.970%   (still ≪ 1)
+      pointwise |c_w|ε at fit   = 2.258%
+
+  The expansion parameter is ε itself (~1.25%). LO dominance is therefore a bound
+  forced by the smallness of the amplitude and the O(1) character of the data on
+  c_w — not a hope about an un-built Lagrangian.
+
+  FORM OF c_w (mechanism exhibited)
+  ---------------------------------
+  Bare response linear in the rectified amplitude, F₀ = u = |x|. Medium back-reacts
+  in proportion to the response it already carries, strength a:
+
+      F = F₀ − a F₀ F   ⇒   F = u/(1 + a u)   ⇒   c_w = −a exactly
+
+  (C16; solved by bisection, not quoted). The even part C8 demanded is a resummation,
+  not a new operator. Sign of c_w is predicted negative; data agrees. Series fixed:
+  c₃ = c_w², c₄ = −|c_w|³.
+
+  VALUE OF a (named residual)
+  ---------------------------
+  Recorded couplings (α_c, ε, 2/π, π/4, …) do NOT force a unique a. Natural O(1)
+  closed forms a = 1/2 and a = 1 both sit inside the ensemble band; α_c and ε are
+  far too small to be the back-reaction scale. Data-refereed:
+
+      ensemble:    a ∈ [0.32, 1.36]   (c_w = −0.84 ± 0.52)
+      fit-implied: a ≈ 1.80               (c_w = −1.80; 1.9σ tension — not averaged)
+
+  This residual does not threaten f̄ = 2/π: any O(1) a leaves the identification
+  standing to ~1%, and only |c_w| ~ 100 would break the expansion (anti-control H).
+
+  GRADE: CANDIDATE CLOSED
+  --------------
+  Same shape as A1 (α_B→γ*): mechanism exhibited; one named residual (here: value
+  of a / c_w); LO arithmetic self-checked; kill conditions sharp.
+
+  Kill if:
+    (i)  a measurement of f̄ at a different ε shows a deficit that does NOT scale
+         as c_w·ε/2 (not a subleading term);
+    (ii) medium calculation returns |a| ≫ 10 (expansion broken);
+    (iii) ensemble and fit-implied reconcile only at |c_w| that breaks D2/D3.
+
+EXIT:0

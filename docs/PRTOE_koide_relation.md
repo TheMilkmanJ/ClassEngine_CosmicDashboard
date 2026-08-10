@@ -9,13 +9,13 @@ Thread 6. One recorded explanation (why the relation survives a mass shift) plus
 | claim | grade |
 |---|---|
 | Protection: Q invariant under universal rescaling | **derived** (homogeneous of degree 0; content is flavour-universality of the portal) |
-| Why Q = 2/3 at all (A = √2) | **not derived** — candidate chain; cascade deliverer **dead** |
-| T_c = 177.10 keV from τ = ½ln2 | **derived** (from Q = 2/3 via Parseval); pipeline often 179; 193 is cross-check only |
+| Why Q = 2/3 at all (A = √2) | **not derived** — thermal/flat delivery-law path **contradicted** (1025 ppm miss ≈ 171× the 6 ppm exactness budget; `koide_delivery_law_discriminator`); cascade deliverer **dead**; **relation stands as unexplained regularity**. Residual research (freeze-time stiffness / Wilson bins) is not a restored "candidate mechanism" until scored |
+| T_c = 177.10 keV from τ = ½ln2 | **derived-conditional** on measured Q=2/3 + √σ_dark=m_e pin + e^(−τ) modulus reading (Parseval; **not** contradicted thermal delivery); lattice P-048 tests the composite; locking without Q still **OPEN** |
 | ρ_Λ¼ = 2.2599 meV (+0.44%) | **existence claim, not precision** (composite quartic uncontrolled at this order) |
-| Neutrino sum | **P-2026-012 stands** (Σm_ν ≈ 61.3 meV); Koide-neutrino branch **withdrawn** as prediction |
+| Neutrino sum | **P-2026-012 stands** (Σm_ν ≈ 61.35 meV); Koide-neutrino branch **withdrawn** as prediction |
 | Medium-w inheritance of A = √2 | **dead** (failures ledger) |
 
-Do not present Koide as solved. Protection is real; the value is open.
+Koide is **not solved**. Protection is real; the relation is a measured regularity; the thermal-flat mechanism path is **contradicted** at the required exactness; mechanism exactness remains **OPEN as unexplained regularity** pending a new scored mechanism (tribunal R2-koide-exactness three-seat).
 
 ---
 
@@ -88,7 +88,7 @@ the two mysteries one complex number — the nearest-neighbour amplitude, whose 
 carries its own deviation lock, P-2026-051). The remaining physical question is a single
 vertex computation inside the confining sector's own structure. Detail:
 [T6_koide_owed.md](working_logs/T6_koide_owed.md);
-[PRTOE_forced_combination.md](PRTOE_forced_combination.md) for the existence theorem the chase
+[PRTOE_forced_combination.md](exploratory/PRTOE_forced_combination.md) for the existence theorem the chase
 produced. All three original readings remain unbuilt. The structure parallel to
 the dark-energy freeze at neutrino decoupling
 ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md) §4b) survives only under (i): a
@@ -237,10 +237,11 @@ arithmetic between two candidate values of τ.
 
 τ = T_c/m_e with √σ_dark = m_e as the portal, so a lattice determination of **T_c/√σ for SU(2)
 with N_f = 3** measures τ directly. The two candidates sit **0.44% apart**, and that gap *is* the
-dark-energy claim: **a return at 0.34657 crowns the kernel; one at 0.34506 shows the model reading
-the sky back, and kills it** (P-2026-048's decision rule, whose inconclusive band is declared in
-advance — separating the two takes 0.22% precision). The same number then decides whether the
-lepton sector and the dark-energy scale are reading one temperature or two.
+dark-energy claim: ideal point-values **0.34657 / 0.34506** are the crown/null fork (P-2026-048).
+**Living currency:** that fork is **sky-limited** at present ρ_Λ precision (clauses 2/3 not
+executable; ~0.98σ even at σ_lattice=0); **clause 4** is the live falsifier. The same lattice
+campaign still decides whether the lepton sector and the dark-energy scale are reading one
+temperature or two — under those executable rules.
 
 ## What Q = 2/3 actually says: a thermal moment condition
 
@@ -336,7 +337,7 @@ whatever pins the cone acts in the charged sector specifically.
 > ring. Note π/12 is a *pure geometric angle carrying no Q*, so whatever supplies it is a different
 > kind of object from whatever supplies 2/9.~~
 >
-> **↑ Withdrawn the same day — π/12 is not an independent angle**
+> **π/12 is not an independent angle**
 > (`scripts/pi_over_12_is_the_zero_crossing.py`, 10 controls incl. anti-control). With
 > √m_k = a[1 + A·cos(φ + 2πk/3)], the middle root vanishes when cos(φ + 2π/3) = −1/A. At the Koide
 > amplitude A = √2 that reads cos = −1/√2, so φ + 2π/3 = 3π/4 and
@@ -349,11 +350,11 @@ whatever pins the cone acts in the charged sector specifically.
 > it** (solved 1.414213562373; at A = 1 the crossing is π/3, and φ_cross ranges over 1.05 rad across
 > A ∈ [1, 2], so the dependence is real rather than a coincidence of one value).
 >
-> **And this explains the sign branch instead of assuming it.** The crossing partitions the phase
-> line: *below* it all three roots are positive — the charged sector at 2/9, its middle root only
-> **+0.040**, barely inside; *above* it the middle root is negative — the neutral sector at
-> 2/9 + π/12, middle root **−0.196**. The (−,+,+) branch the neutral fit requires is simply where one
-> lands by sitting past the crossing, which also ties this paragraph to the branch qualification above.
+> **The crossing explains the sign branch.** It partitions the phase line: *below* it all three roots
+> are positive — the charged sector at 2/9, its middle root only **+0.040**, barely inside; *above*
+> it the middle root is negative — the neutral sector at 2/9 + π/12, middle root **−0.196**. The
+> (−,+,+) branch the neutral fit requires is simply where one lands by sitting past the crossing,
+> which also ties this paragraph to the branch qualification above.
 >
 > **What remains is one relation, not one angle:** why the neutral phase is φ_e + φ_cross rather than
 > some other combination. That displacement rule is still an input — but it relates two quantities
@@ -626,10 +627,11 @@ three-mass fit seats both watches inside one σ while hiding the structure they 
 Only the two light masses resolve it, and they will not improve on their own; nothing about this
 question waits on the τ.
 
-### ⚠ The neutral triple: a fork, found 2026-07-29, and it touches a pre-registered prediction
+### ⚠ The neutral triple: a fork with a pre-registered prediction
 
-Adding Brannen's π/12 neutral fit to this file exposed a conflict with **P-2026-012**, which
-pre-registers **m₁,lightest = 2.3 meV** (and the Σ ≈ 61 meV that follows). The two cannot both hold.
+Brannen's π/12 neutral fit and **P-2026-012** are alternative hypotheses. P-2026-012
+pre-registers **m₁,lightest = 2.3 meV** (and the Σ ≈ 61 meV that follows). On the Koide cone the
+lightest mass is **0.374 meV** — the branches are mutually exclusive, not complements.
 
 Solving the Brannen form for *both* measured splittings **and** a target m₁ (three equations, three
 unknowns a, A, φ) gives:
@@ -646,10 +648,8 @@ The second requires **A = 1.735, i.e. 22.7% off √2**, and hence Q_ν = 0.835 �
 > Σ = 58.5 meV — OR P-2026-012's m₁ = 2.3 meV holds and the neutral triple is off the cone entirely,
 > with the π/12 fit not applying to this model.** They are alternative hypotheses, not complements.
 
-**Correction to the entry above.** The Σm_ν = 0.0585 eV figure recorded there as "a prediction the
-model can be held to" was stated without noticing this conflict. It is **conditional on the Koide
-branch**, and it contradicts a standing pre-registered prediction. It should not be quoted as *the*
-model's neutrino-mass prediction while P-2026-012 stands.
+Σm_ν = 0.0585 eV on the Koide branch is **conditional on that branch**, and it conflicts with
+standing P-2026-012. It is not *the* model's neutrino-mass prediction while P-2026-012 stands.
 
 **Which resolves it is an owner call**, and it is a good fork to have: the two branches differ by a
 factor 6 in m₁ and 3.8% in Σm_ν — the latter within reach of near-term cosmology, the former
@@ -664,11 +664,10 @@ of Σm_ν were both being carried as the model's prediction. This settles which 
 **61.34 meV** (P-2026-012) — a gap of 2.21 meV, far inside every current cosmological upper limit.
 Waiting for data means waiting years.
 
-> **⚠ First, a bookkeeping error the comparison exposed.** The two numbers were quoted on
-> **different oscillation splittings** — the Koide branch's 0.374 meV / 58.5 meV reproduces on
-> NuFIT 7.53×10⁻⁵ / 2.455×10⁻³, while P-2026-012's 61.3 meV uses 7.42×10⁻⁵ / 2.515×10⁻³. Compared
-> like for like the gap is **2.21 meV, not the 2.8 meV** the raw quotes imply. Part of the apparent
-> disagreement was an input mismatch.
+> **Like-for-like inputs.** The two branch sums use **different oscillation splittings** when quoted
+> raw — the Koide branch's 0.374 meV / 58.5 meV reproduces on NuFIT 7.53×10⁻⁵ / 2.455×10⁻³, while
+> P-2026-012's public form uses 7.42×10⁻⁵ / 2.515×10⁻³ and lands in the 61.34–61.37 meV band. Compared on common splittings the gap is
+> **2.21 meV** (not the ~2.8 meV raw-quote difference).
 
 ### The parameter-free test, which is the discriminator
 
@@ -698,12 +697,12 @@ branch is not a mechanism for being there.
 
 > ### Ruling
 >
-> **P-2026-012 stands as the model's neutrino prediction** — Σm_ν = 61.3 meV with
+> **P-2026-012 stands as the model's neutrino prediction** — Σm_ν ≈ 61.35 meV with
 > m_lightest = 2.24 meV, carried with its own stated conditional (the floor being neutrino-funded)
 > and its own void clause.
 >
-> **The Koide-neutrino branch is withdrawn as a prediction.** Σm_ν = 58.5 meV must not be quoted as
-> the model's number. It survives only as an observation: *if* the neutral triple were on the cone
+> **The Koide-neutrino branch is withdrawn as a prediction.** Σm_ν = 58.5 meV is not the model's
+> neutrino-mass number. It survives only as an observation: *if* the neutral triple were on the cone
 > the sum would be ≈59 meV — and the charge-selector argument says it is not, while the
 > parameter-free test that would have supported it misses by 4.3%.
 
@@ -711,3 +710,38 @@ branch is not a mechanism for being there.
 triple on the cone, which would have to defeat both charge-selector arguments at once; or a corrected
 φ that passes the parameter-free ratio test. The second is checkable immediately against any proposed
 φ, and the script above is the check.
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY honesty. **Koide is not solved.** Protection derived; Q=2/3 mechanism exactness **OPEN-BLOCKED** as unexplained regularity. Thermal/flat delivery remains **contradicted** (~171× exactness budget).  
+**Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) — `koide_lock.log` **PASS** (algebra only); `tau_parseval.log` **PASS** (τ=½ln2 at Q=2/3; locking_without_Q **OPEN**).  
+**Parent debts:** [debt_koide_20260803/REPORT.md](working_logs/_runs/debt_koide_20260803/REPORT.md); [debt_koide_wilson_20260803/REPORT.md](working_logs/_runs/debt_koide_wilson_20260803/REPORT.md); [T6_koide_owed.md](working_logs/T6_koide_owed.md).  
+**Currency (2026-08-05):** Mechanism exactness **OPEN** as unexplained regularity; Wilson holonomy inputs **5/5 MISSING** (inventory); packaging locked; thermal delivery dead. `locking_without_Q` still **OPEN** (Parseval paid). Desk: [desk_t7_koide_wilson_20260804/](working_logs/_runs/theory_construction_20260804/desk_t7_koide_wilson_20260804/); exhaust [T-W5_Koide_Wilson.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W5_Koide_Wilson.md); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Protection: Q invariant under universal mass rescaling (portal flavour-universal) | **derived** | §1; degree-0 arithmetic; non-universal e-only ~163 ppm vs fence 6.8×10⁻⁶ | Consistency of model portal, not mainstream improvement | Sell protection as “why Koide holds” |
+| 2 | Fence Q = 0.6666605 ± 6.8×10⁻⁶; A = R/M ≈ 1.41420 on pole masses | **machine-backed** | §Fence; body arithmetic | — | — |
+| 3 | Why Q = 2/3 (A = √2) / graded null f₀² − \|f₁\|² − \|f₂\|² = 0 | **OPEN-BLOCKED** (OPEN-THEORY); lane (c) three-seat **LOCKED** 2026-08-03 — thermal/flat **contradicted** (~171× budget); relation = unexplained regularity | §2; [T6_koide_owed.md](working_logs/T6_koide_owed.md); [debt_koide_20260803](working_logs/_runs/debt_koide_20260803/REPORT.md) | **#101 node residual** — no restored “candidate mechanism” without new scored path; residual research only (freeze-time / Wilson bins) | Fake Wilson close; restore thermal mechanism as candidate; claim A=√2 derived |
+| 4 | Holonomy / Brannen phase 2/9 (3·arg f₁ = Q) | **OPEN-BLOCKED** (same residual) | §kernel; #102; [debt_koide_wilson_20260803](working_logs/_runs/debt_koide_wilson_20260803/REPORT.md) | Closes with node or not at all; Wilson needs **dark-SU(2) inputs** (pre-registered bins) — not inventable | Invent dark-SU(2) holonomy inputs at desk |
+| 5 | Medium-w inheritance of A = √2 | **failed / retired** | [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md); §2 | Closed; not reopened | Reopen medium-w inheritance |
+| 6 | Cascade / averaging-class deliverers for A = √2 | **failed / retired** (class) | Failures ledger; T6 kill table | Exactness forbids equilibrium scatter | Reopen cascade deliverers without new premises |
+| 7 | T_c = 177.10 keV and ρ_Λ¼ = 2.2599 meV *if* Q=2/3 via τ=½ln2 | **derived-conditional** (existence, not precision) | Parseval; `tau_parseval_recompute.py` reconfirm PASS 2026-08-04 | Conditions: **Q regularity**, **√σ_dark=m_e pin**, **e^(−τ) modulus reading** (P-048); not thermal delivery; locking without Q **OPEN** | Precision ρ_Λ from this chain alone; thermal delivery of τ |
+| 8 | Neutrino sum P-2026-012 stands; Koide-neutrino branch withdrawn | **registered** / withdrawn | §neutrino fork; `scripts/neutrino_fork_decide.py` | — | Quote Σ≈58.5 meV as model prediction |
+| 9 | Conjunction A=√2 *and* arg f₁=2/9 exact on pole masses | **failed** as joint exactness | §two watches; `scripts/koide_watch_triangle.py` | At most one exact; each alone ~0.9σ | Claim both exact jointly |
+| 10 | Desk algebra re-verified (lock, occupancy, delivery-law pressure) | **machine-backed** (algebra only) | debt_koide script table; `koide_lock_algebra_verification.py` reconfirm PASS 2026-08-04 | Does **not** pay #101/#102; L2 / survival test **OPEN** | Algebra PASS as mechanism close |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| #101 graded null / A=√2 | **OPEN-BLOCKED** | [debt_koide_20260803](working_logs/_runs/debt_koide_20260803/REPORT.md) §1 still-open; T6 owed | New scored mechanism forcing null to ~10⁻⁵ without equilibrium scatter |
+| #102 Brannen phase 2/9 | **OPEN-BLOCKED** | same residual; Wilson inventory | Closes with #101 or not at all; dark-SU(2) inputs pre-registered only |
+| locking_without_Q | **OPEN** | tau_parseval reconfirm | Independent lock of τ without assuming Q=2/3 |
+| Occupancy lock N₀=1 | **candidate** (algebra if applied) | koide_lock reconfirm | Application step remains invented |
+
+**Non-claims:** Koide solved; A=√2 derived; democratic-graph (P1–P4) as paid mechanism; occupancy lock N₀=1 as derived; ε_A=2/9 as independent witness of Koide; precision ρ_Λ from this chain alone; thermal/flat delivery restored.
+
+**Triage:** elevate-in-place; **blocked (OPEN-THEORY)** on #101/#102 — protection remains derived; recomputes reconfirm algebra only.

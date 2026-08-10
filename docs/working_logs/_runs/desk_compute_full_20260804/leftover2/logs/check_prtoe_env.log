@@ -1,0 +1,5 @@
+=== PRTOE environment check ===
+Python: 3.12.3 (/usr/bin/python3)
+CLASS binary: OK (/home/themilkmanj/prtoe_class/class)
+classy extension: OK (/home/themilkmanj/prtoe_class/python/classy.cpython-312-x86_64-linux-gnu.so)
+test_prtoe_bg_only.ini: FAIL (exit 1)

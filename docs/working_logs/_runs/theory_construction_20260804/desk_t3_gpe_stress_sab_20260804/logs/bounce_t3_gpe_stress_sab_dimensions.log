@@ -1,0 +1,82 @@
+==============================================================================
+Desk T3 — GPE Stress / one-sided S_ab dimensions — no fake land
+==============================================================================
+  exit 0 = compute done; NOT physics PASS / NOT S_ab stocked / NOT N4
+  P1: K^- undefined — this script never computes K^-
+
+[1] Stocked anchors (door)
+  c_s              = 0.147960
+  ξ                = 3.047693e+20 eV^{-1}
+  H_door           = 1.894392e-21 eV
+  ρ_eff            = 6.385192e+13 eV^4
+  σ_G = M_Pl² H    = 2.823728e+35 eV³  [wrong-object gravity atom]
+
+[2] Stocked Stress channels on synthetic config (healing units)
+  mean_Theta                   = +1.780537e-02
+  var_Theta                    = +3.203252e-03
+  stress_int                   = +2.312450e-02
+  stress_qu                    = +4.665885e-04
+  stress_rey                   = +1.119362e-04
+  stress_drive_total           = +2.370303e-02
+  net_rhs                      = +2.018274e-02
+  Pi_int_mass_weighted         = +1.619099e+00
+  DeltaPi_layer_heal_sketch    = +1.619099e+00
+  NOTE: healing-unit fluid OOM only — not exterior Israel σ_s, not Derived H_re
+
+[3] Homogeneous kill check (Stress channel must vanish)
+  stress_homogeneous = -0.000e+00
+  |stress| < 1e-12?  = True
+
+[4] Honesty fences [VACUOUS stamps where noted]
+  n_lands                            = 0  [VACUOUS stamp]
+  israel_S_ab_stocked                = False  [VACUOUS; inventory still 0]
+  K_minus_defined_under_P1           = False  [VACUOUS; P1 domain]
+  n4_force_from_stress_map           = False  [VACUOUS; CANDIDATE map]
+  sign_Theta_smuggle_killed          = True  [VACUOUS stamp]
+  free_dial_killed                   = True  [VACUOUS stamp]
+  two_sided_K_killed                 = True  [VACUOUS stamp]
+  obstruction_A_stands               = True  [VACUOUS stamp]
+  can_derive_H_re_without_declaration= False  [VACUOUS stamp]
+  bounce_closed                      = False  [VACUOUS stamp]
+  Stress_1d_written                  = True  [construction; not exterior land]
+  multiD_Stress_production_measured  = False
+
+  exit0 on vacuous stamps ≠ Israel physics PASS; package md is the product.
+
+[5] JSON summary
+{
+  "H_door": 1.8943916024168856e-21,
+  "K_minus_defined_under_P1": false,
+  "Stress_1d_written": true,
+  "bounce_closed": false,
+  "c_s": 0.14795964842319909,
+  "can_derive_H_re_without_declaration": false,
+  "channels": {
+    "DeltaPi_layer_heal_sketch": 1.619099494156286,
+    "Pi_int_mass_weighted": 1.619099494156286,
+    "max_local_abs_Theta": 0.12497616041568205,
+    "mean_Theta": 0.017805368560860596,
+    "net_rhs": 0.02018274317996741,
+    "stress_drive_total": 0.023703026311523396,
+    "stress_int": 0.02312450156567686,
+    "stress_qu": 0.0004665884995621984,
+    "stress_rey": 0.00011193624628433562,
+    "var_Theta": 0.0032032519819679053
+  },
+  "homogeneous": {
+    "abs_stress": 0.0,
+    "stress_homogeneous": -0.0
+  },
+  "israel_S_ab_stocked": false,
+  "multiD_Stress_production_measured": false,
+  "n4_force_from_stress_map": false,
+  "n_lands": 0,
+  "note": "exit0\u2260PASS; medium OOM only; exterior Israel empty",
+  "package": "desk_t3_gpe_stress_sab_20260804",
+  "sigma_G": 2.8237278223886897e+35,
+  "xi_eVinv": 3.047692711766647e+20
+}
+
+==============================================================================
+DONE — fences held. Medium Stress OOM only. 0 lands. K^- undefined.
+==============================================================================

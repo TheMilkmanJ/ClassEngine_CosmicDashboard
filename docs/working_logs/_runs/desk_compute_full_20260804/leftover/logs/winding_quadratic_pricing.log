@@ -1,0 +1,78 @@
+============================================================================
+  #55: pricing c_w without the Lagrangian that would derive it
+============================================================================
+
+  CONTROL (stated before anything else):
+    exactly-linear response -> c_w = 0 -> f_bar_eff = 0.636620
+    2/pi                                        = 0.636620
+    identical: PASS
+
+  (1) IS THE EXPANSION TRUSTWORTHY AT THESE VALUES?
+      the series is in |c_w x|, and |x| <= eps, so the worst-case ratio of
+      the quadratic term to the linear one is |c_w| * eps:
+           c_w    |c_w|*eps        verdict
+         -0.84       0.0105           safe
+         -1.80       0.0226           safe
+         -3.00       0.0376           safe
+        -10.00       0.1254       marginal
+        -80.00       1.0034  SERIES BREAKS
+      -> at both recorded values the quadratic term is a few percent of the
+         linear one.  The expansion is not the weak point.
+
+  (2) DO THE TWO RECORDED VALUES CONFLICT?
+      fit-implied      c_w = -1.80   (no stated uncertainty)
+      winding ensemble c_w = -0.84 +/- 0.52
+      separation = 1.85 sigma  (corpus records 1.9)
+      -> a real tension but not a contradiction, and it CANNOT be resolved
+         by more precision on the ensemble alone: the fit-implied value
+         carries no error bar, so the gap has only one measured side.
+
+  (3) WHAT c_w DO THE NATURAL SATURATING FORMS GIVE?
+      PRICING ONLY -- these are candidate response shapes, not derivations.
+      Each is expanded about |x| = 0 and its x^2 coefficient read off.
+      response dm/m                   c_w     cubic   vs ensemble
+      ------------------------------------------------------------
+      |x|                  (linear)    0.000     0.000        1.62s
+      1 - exp(-|x|)                -0.500     0.167        0.65s
+      ln(1 + |x|)                  -0.500     0.333        0.65s
+      |x| / (1 + |x|)              -1.000     1.000        0.31s
+      tanh(|x|)                     0.000    -0.333        1.62s
+      |x| / sqrt(1 + x^2)           0.000    -0.500        1.62s
+      |x| / (1 + 2|x|)             -2.000     4.000        2.23s
+      -> the simple one-scale saturating forms cluster on c_w in [-1, -1/2],
+         which sits inside the ensemble's band and BELOW the fit-implied
+         -1.80.  Forms reaching -1.80 need a saturation scale ~2x sharper
+         than the amplitude itself.  Recorded as a shape constraint, not a value.
+
+  (4) HOW BIG IS THE TERM BEING NEGLECTED?
+      moments: <|cos|> = 0.636620, <cos^2> = 0.5000, <|cos|^3> = 0.424413
+      term             contribution to <dm/m>/eps    rel. to leading
+      linear                           0.63661977                  1
+      quadratic                       -0.00526806           8.28e-03
+      cubic (c=1)                      0.00006677           1.05e-04
+      -> 'leading-order dominates' is worth 0.83% at the
+         quadratic order and 0.01049% at the cubic.  The cubic is
+         irrelevant; the whole residual is the x^2 term, as the docket assumes.
+
+============================================================================
+  VERDICT ON #55
+
+  The derivation asked for is NOT AVAILABLE and this script does not fake one.
+  The corpus states plainly that the family-coupling Lagrangian is un-built, and
+  c_w is a property of that Lagrangian.  #55 is therefore model-building, not
+  desk work, and belongs with the other un-built-mechanism dockets.
+
+  What the desk can hand the eventual derivation, so it starts with a target:
+
+    * the expansion is safe -- |c_w|*eps is a few percent at every value in play,
+      so no result here is threatened by the series itself;
+    * the two determinations sit 1.8 sigma apart and the gap has only ONE
+      measured side, so sharpening the ensemble cannot close it;
+    * simple one-scale saturating responses give c_w in [-1, -1/2]; reaching the
+      fit-implied -1.80 requires a saturation scale about twice as sharp as the
+      amplitude.  A derived Lagrangian landing outside [-2, 0] would be in
+      tension with BOTH determinations at once, which is a usable kill;
+    * the cubic term is 0.01049% -- the residual is the x^2 term and
+      nothing else, so the derivation only has to produce one number.
+
+============================================================================

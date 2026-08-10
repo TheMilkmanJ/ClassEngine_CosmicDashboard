@@ -1,0 +1,36 @@
+==============================================================================
+Face-mass pricing: the zero-point survivor as a carrier-fork referee
+==============================================================================
+
+   ring window: m_face ≤ 2.04·√σ (classical V), ≤ 1.63·√σ (with breathing ZP)
+
+   candidate face identity                  m/√σ        vs window (ZP)
+   A: adjoint lump (gluelump class)         2.0–4.0       chain
+      fence: SU(3)-class transfer; scheme-dependent normalization; robust: well above √σ
+   A: constituent analog (excluded rep)     0.7–0.9       RING
+      fence: three SU(2) fundamentals admit no singlet — priced for contrast only
+   B: vortex structure (q̃²-class)          0.8–1.6       RING
+      fence: q̃²/√σ = 1.11 recorded; O(1) geometry factor either side
+   portal dark states (~MeV band)           2.0–6.0       chain
+      fence: the recorded falsifiable band of √σ_dark = m_e
+
+READ — the stability question discriminates the carrier fork:
+  * Branch A's honest mass class (adjoint lumps, 2–4·√σ) lands in the
+    CHAIN phase: if the faces are gluonic lumps, the zero-point
+    stabilizer fails and the equal-spacing ring premise has no payer.
+  * Branch B's mass class (vortex structures, q̃²-class ≈ 0.8–1.6·√σ)
+    lands INSIDE the ring window — the only identity that keeps the
+    ring a ring with the recorded stabilizer.
+  * The forced-combination theorem already said the ring must be a
+    gauge–medium HYBRID (pure-gauge collapses, pure-medium has no
+    scale). The stability program now adds: the INERTIA had better be
+    medium-dominated — a hybrid whose mass is gluonic-dominated sits
+    on the chain side of the window.
+
+  Falsification structure this creates (recorded, not promoted):
+  the SU(2) N_f = 3 lattice campaign's three-source geometry verdict
+  and its adjoint-sector spectrum now cross-check each other — a
+  Y-shaped ground state found WITH heavy gluonic faces would break
+  the zero-point account and demand a different stabilizer; a
+  collinear ground state would kill the ring premise directly.
+==============================================================================

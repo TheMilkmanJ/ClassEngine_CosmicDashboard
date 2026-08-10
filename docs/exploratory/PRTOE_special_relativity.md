@@ -60,3 +60,20 @@ explain, someday soon, why the accompaniment never bleeds through.*
 
 ## Sources
 [Herrmann2009] (modern Michelson-Morley), [Mattingly2005]/[Liberati2013] (the LV literature), [GW170817] (one metric), [Bailey1977] (muon dilation), [Ashby2003] (GPS), [BLV2005]/[Volovik2003] (emergent-Lorentz precedent), [WeinbergWitten1980] (the no-go evaded). Full list: [BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| SR1 | Lorentz symmetry = IR universality of one emergent mode-metric | interpretation | §0–1; analog-gravity precedent | Rides M3 (medium real) |
+| SR2 | Preferred frame exists fundamentally (medium rest = CMB frame) | interpretation | §1 | Consistency freebie under medium identity; not a new LV detection |
+| SR3 | Sector LV residuals priced; margins clear Planck envelope | machine-backed (cross-link) | [PRTOE_LV_pricing.md](../PRTOE_LV_pricing.md); §2 | Quantitative pass lives there — not re-run here |
+| SR4 | GW speed = c (one metric) | registered null / check | GW170817; §2 | Violation kills one-metric structure |
+| SR5 | Confirmed LV above Planck-suppressed envelope kills implementation | registered null | §4 | No retreat to lower Λ_micro (basement forced) |
+
+**Non-claims:** does not re-derive SR postulates as numbers; does not close induced-G forward calc (separate M3 item).  
+**Triage:** elevate-in-place (discipline); exploratory; not Failures.  
+**Load-bearing grade fence:** every physics row is interpretation / machine-backed / registered null — no bare story.
+

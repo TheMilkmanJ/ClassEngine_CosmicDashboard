@@ -1,0 +1,13 @@
+Testing dCDF vs LCDM Clustering (CURRENT_CORE v5)...
+
+--- LCDM Baseline ---
+P(k=0.1): 1.08e+04
+sigma8:   0.8232
+
+--- dCDF Model (v5 pure fluid) ---
+P(k=0.1): 9.99e+03
+sigma8:   0.7962
+
+Power Spectrum Ratio (dCDF / LCDM) at k=0.1: 0.9289
+SUCCESS: dCDF is clustering like dark matter!
+EXIT:0

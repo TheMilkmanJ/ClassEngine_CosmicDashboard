@@ -139,3 +139,13 @@ V = verified, exactly as used in our documents):
  note this IS the dCDF's density form).
 - STILL TAIL (feed nothing numbered; verify if ever promoted):
  Super-K proton-lifetime bound; KATRIN/oscillation mass scales.
+
+---
+
+## Discipline triage (2026-08-03)
+
+**Grade:** story/map — exploratory-ok (bibliography companion)
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)
+**Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

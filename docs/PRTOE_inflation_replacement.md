@@ -3,10 +3,11 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> The model answers each problem inflation was invented for without an inflaton, but the answers
-> are not of one kind: two are consequences of structure the model already has, one is a
-> *measurement* rather than a derivation, and the tilt is a computed candidate. See the table in §3
-> rather than the headline alone.
+> The model **addresses** each problem inflation was invented for without an inflaton — it does
+> **not** claim those problems are solved. Answers are mixed grade: two ride structure the model
+> already has (**OPEN-BLOCKED** on bounce for horizon/seeds), one is a *measurement* rather than a
+> derivation, and the tilt is a **computed candidate**. See the table in §3 rather than the
+> headline alone.
 
 ## 0. What inflation was hired to do
 Solve the horizon problem (why the sky is one temperature), the flatness problem, dilute
@@ -15,18 +16,20 @@ does so at the price of: an inflaton field with a tuned potential, the measure p
 and eternal-inflation's multiverse.
 
 ## 1. The model's answers, one per problem
-- **Horizon**: the universe is cyclic with a bounce (the CSW pressure floor discharges
- the singularity) — causal contact is inherited from the previous cycle. No superluminal
- trick needed; the sky is one temperature because it has always been one system.
+- **Horizon**: *if* the cyclic bounce holds (**OPEN-BLOCKED** on classical turn / exterior H_re;
+ floor number paid), causal contact is inherited from the previous cycle (CSW pressure floor
+ discharges the singularity). No superluminal trick needed; the sky is one temperature because
+ it has always been one system.
 - **Flatness/geometry**: the compact flat torus is the model's standing geometry (the omk
  run: curvature offered, declined); geometry is inherited through the bounce,
  not driven flat.
 - **Relics**: no GUT phase transition is invoked → no monopole problem to dilute. The one
  topological object (the winding) is not a relic problem — it is the genome, and its
  observational signature is the axis family (a prediction, not a pollution).
-- **The seeds**: the zero-point start (§19) — fluctuations are the condensate's quantum
- noise, stretched through the conformal (w = 1/3) phase.
-- **The tilt** (the quantitative jewel): the amplitude rides a logarithmically growing
+- **The seeds**: *if* bounce + conformal package hold (**OPEN-BLOCKED** with horizon),
+ fluctuations are the condensate's zero-point noise stretched through the conformal (w = 1/3)
+ phase (§19).
+- **The tilt** (computed **candidate**, not a closed derivation): the amplitude rides a logarithmically growing
  variance and the spectrum squares it, giving a tilt with no new objects — the primordial
  sky's slope as the medium's own running, photographed. The mechanism is now exhibited as an
  envelope-times-shot structure anchored at the verified ultraviolet scale, which makes the
@@ -78,3 +81,37 @@ shot-noise O(1) resolving far from unity (the count itself has been computed and
 ## Sources
 [Planck2018] (n_s, r bounds), [PlanckIso2019], internal: §19–22, the bounce file
 (PRTOE_bigbang_no_singularity.md), P-031. Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY honesty. Model **addresses** inflation’s problem list; it does **not** claim those problems are solved. Horizon/seeds ride **OPEN-BLOCKED** bounce. Tilt = computed **candidate**, not closed derivation. Soft “answers / jewel” language already demoted (shelf residual pass).  
+**Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/) (bounce residual parent; no invented H_re).  
+**Parents:** [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md); [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md).  
+**Currency (2026-08-05):** Horizon/seeds **OPEN-BLOCKED** on bounce (ride classical turn). Not solved. Bounce exhaust: [bounce_cluster_exhaust/MASTER.md](working_logs/_runs/theory_exhaust_20260805/desk/bounce_cluster_exhaust/MASTER.md); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Horizon problem *addressed* by causal contact through cyclic bounce | **OPEN-BLOCKED** (conditional on bounce) | §1, §3; [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md); [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md) | **OPEN-THEORY:** bounce turn / H_re; horizon answer not independent of bounce close | “Horizon solved”; claim independent of bounce |
+| 2 | Flatness: compact flat torus is standing geometry (curvature offered, declined) | **machine-backed** (fit / measured, not derived) | §3; omk chain | Model does not *predict* flatness | Flatness as first-principles prediction |
+| 3 | No GUT monopole problem (no GUT transition invoked) | **derived** (negative / structural) | §1, §3 | — | Invent monopole dilution epoch |
+| 4 | Seeds = condensate zero-point noise stretched in w=1/3 phase | **OPEN-BLOCKED** (structural-conditional) | §1, §3; A_s seating | Rides bounce + conformal package; tilt/A_s independent at candidate/machine-backed | Seeds closed without bounce |
+| 5 | Tilt n_s(k)−1 = −2/ln(T₀/k); scale-local ≈0.9677; check ≈0.964 | **candidate** (computed) | §1, §3; [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §7 | Candidate grade; α_s edge untestable today | “Quantitative jewel” / closed derivation of n_s |
+| 6 | Running α_s ≈ −5×10⁻⁴ (scale-local) | **candidate** | §3 | Far below Planck sensitivity | Claim current data tests α_s edge |
+| 7 | A_s census count lands near frozen value | **machine-backed** (conditional) | [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md) | Shot-noise O(1) residual | A_s closed without residual |
+| 8 | Isocurvature %-level line at ℓ~170 | **registered null** / prediction | P-2026-031 | Not a derivation of the tilt package | Treat P-031 as tilt close |
+| 9 | Bounce / cyclic machinery that funds horizon answer | **OPEN-BLOCKED** | bigbang file; debt_bounce | **OPEN-THEORY:** classical turn; derived bounce = **No** | Derived bounce; book cyclic cosmology |
+| 10 | No inflaton / no measure problem as package framing | **interpretation** | §2 | Price is open bounce, not free lunch | Free lunch / inflation killed by this file alone |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| Horizon / seeds package | **OPEN-BLOCKED** | Bounce turn F-A3 / debt_bounce; [PRTOE_bigbang_no_singularity.md](PRTOE_bigbang_no_singularity.md) residual freeze | Licensed H_re / turn — not desk invent |
+| Tilt exactness | **candidate** | DERIVATION_HUNT §7 | Further referee / α_c instrument; stays candidate until then |
+| A_s shot-noise O(1) | **OPEN** residual | THE_AMPLITUDE | Census completion |
+
+**Non-claims:** Derived bounce; inflation killed by this file alone; flatness as a first-principles prediction; A_s as closed without residual; r=0 as a measured result (bound-class only); “answers each problem inflation was hired for” as a physics win.
+
+**Triage:** elevate-in-place (mixed grades); **blocked** on bounce for the horizon leg; tilt/A_s rows stay candidate/machine-backed independently of bounce close.

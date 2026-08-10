@@ -1,0 +1,460 @@
+OpenAI Codex v0.114.0 (research preview)
+--------
+workdir: /home/themilkmanj/prtoe_class
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /home/themilkmanj/snap/codex/34/memories]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019fc8b7-ff57-7bd2-b596-9c9fd7923854
+--------
+user
+You are ChatGPT NEUTRAL REFEREE. Verify C3 REMAND closed: docs/working_logs/_FILE_COMPLETION_STATUS.md inventory count matches actual PRTOE_ rows (should be 67 not 64), Counts section re-stamped. APPEND ### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF with AGREE if count consistent, confirm C1-C3 all closed, three-seat lock cure tickets done, 4/10 stands, WHOSE_TURN Grok A4.
+mcp startup: no servers
+codex
+Checking the working log and the underlying PRTOE inventory first. I’m going to compare the count in `docs/working_logs/_FILE_COMPLETION_STATUS.md` against the actual `PRTOE_` rows, then I’ll update the status log only if the evidence is consistent.
+exec
+/bin/bash -lc 'rg -n "PRTOE_" docs/working_logs/_FILE_COMPLETION_STATUS.md' in /home/themilkmanj/prtoe_class succeeded in 0ms:
+3:> **Purpose.** Honest completion status for every top-level `docs/PRTOE_*.md` — not
+8:> **Scope.** The live shelf only (`docs/PRTOE_*.md`). Not `exploratory/`, not `archive/`,
+35:| [`PRTOE_INDEX.md`](../PRTOE_INDEX.md) | LEDGER/HISTORY | Live shelf map; exploratory/archive carve-outs dated 2026-07-28 |
+36:| [`PRTOE_READERS_GUIDE.md`](../PRTOE_READERS_GUIDE.md) | COMPLETE | Decoder + reading order; job is orientation, not results |
+37:| [`PRTOE_READERS_RISK.md`](../PRTOE_READERS_RISK.md) | COMPLETE | Outsider risk page; strongest claims graded, kill conditions named |
+38:| [`PRTOE_THREE_EQUATIONS.md`](../PRTOE_THREE_EQUATIONS.md) | COMPLETE-CONDITIONAL | Elevator front door; DE existence claim + lattice referee explicit |
+39:| [`PRTOE_MATH_SPINE.md`](../PRTOE_MATH_SPINE.md) | COMPLETE-CONDITIONAL | Full chain with grades inline; Route-D fork and open items named |
+40:| [`PRTOE_THE_AMPLITUDE.md`](../PRTOE_THE_AMPLITUDE.md) | COMPLETE-CONDITIONAL | ε stack + three referees; production fit provisional on chain hygiene |
+41:| [`PRTOE_DEPENDENCY_TREE.md`](../PRTOE_DEPENDENCY_TREE.md) | LEDGER/HISTORY | Living parent/child map; weakest-parent inheritance rule |
+42:| [`PRTOE_DERIVATION_HUNT.md`](../PRTOE_DERIVATION_HUNT.md) | LEDGER/HISTORY | Working front of underived numbers; not a closed result |
+43:| [`PRTOE_DOMAIN_COVERAGE.md`](../PRTOE_DOMAIN_COVERAGE.md) | LEDGER/HISTORY | Domain census receipt; one line per domain |
+44:| [`PRTOE_FAILURES_LEDGER.md`](../PRTOE_FAILURES_LEDGER.md) | LEDGER/HISTORY | Graveyard of killed routes; append-only discipline |
+45:| [`PRTOE_PREREGISTERED_PREDICTIONS.md`](../PRTOE_PREREGISTERED_PREDICTIONS.md) | LEDGER/HISTORY | Timestamped bets P-001→060; registry, not a derivation |
+46:| [`PRTOE_CODE_MANIFEST.md`](../PRTOE_CODE_MANIFEST.md) | LEDGER/HISTORY | Pipeline in/armed/banned; §1 lists live bbnfix pair + routeD and PolyChord NOT RUNNING (2026-08-02) |
+47:| [`PRTOE_CHAIN_TABLES.md`](../PRTOE_CHAIN_TABLES.md) | OPEN-MACHINE | Live triple tracked (bbnfix pair R−1~0.14–0.19; routeD~129); GetDist archive rows still unconverged; stays OPEN until R−1≤0.05 |
+48:| [`PRTOE_REFEREE_CALENDAR.md`](../PRTOE_REFEREE_CALENDAR.md) | LEDGER/HISTORY | Judges + decision rules; Sitting NOW refreshed 2026-08-02 (3 live MCMC, PolyChord off, zon_disp/conv_desi parked) |
+49:| [`PRTOE_honest_status.md`](../PRTOE_honest_status.md) | LEDGER/HISTORY | Private internal board; local #N scheme carved out of docket |
+50:| [`PRTOE_strong_cp.md`](../PRTOE_strong_cp.md) | COMPLETE-ABSTENTION | Status 2026-08-02: complete as abstention; jurisdiction silence is the finished form |
+51:| [`PRTOE_stability.md`](../PRTOE_stability.md) | COMPLETE-CONDITIONAL | Running-config certificates paid; **bounce/cycle stability OPEN-BLOCKED** (ledger row 9; 2026-08-03 C3) |
+52:| [`PRTOE_LV_pricing.md`](../PRTOE_LV_pricing.md) | COMPLETE | Sector→coefficient→bound→margin table; margins multi-order |
+exec
+/bin/bash -lc "sed -n '1,260p' docs/working_logs/_FILE_COMPLETION_STATUS.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+# Forward-facing file completion status (2026-08-02)
+
+> **Purpose.** Honest completion status for every top-level `docs/PRTOE_*.md` — not
+> fake-finishing hard theory. Cross-checked against
+> [`_RESIDUAL_DEBT_CENSUS.md`](_RESIDUAL_DEBT_CENSUS.md) (synced 2026-07-28; table hygiene
+> 2026-08-02) and [`_GATED_SHELF.md`](_GATED_SHELF.md) (hygiene 2026-08-02).
+>
+> **Scope.** The live shelf only (`docs/PRTOE_*.md`). Not `exploratory/`, not `archive/`,
+> not `working_logs/` except this log. Status is about the *document* as a forward-facing
+> object: whether it has finished its stated job and whether remaining residue is desk,
+> machine, theory, or external.
+
+## Status values
+
+| tag | meaning |
+|---|---|
+| **COMPLETE** | Document has finished its job; residue is optional or already paid |
+| **COMPLETE-ABSTENTION** | Finished by deliberately refusing the problem (jurisdiction silence) |
+| **COMPLETE-CONDITIONAL** | Finished at its named grade; conditionals are explicit, not papered over |
+| **OPEN-DESK** | Residue closable at the desk without MCMC or new mechanisms |
+exec
+/bin/bash -lc "rg -n \"C1|C2|C3|three-seat|WHOSE_TURN|4/10|REMAND|REFEREE|R1-above-story|Counts section|Count section\" docs/working_logs docs -g '"'!**/.git/**'"'" in /home/themilkmanj/prtoe_class succeeded in 21ms:
+docs/working_logs/_runs/debt_koide_20260803/REPORT.md:46:| C3 triple-point node as *value* source for null/phase | **Re-confirmed this run:** node is b=0 → Q=1/3; null is \|b\|/a = 1/√2 — permits structure, does not force values |
+docs/working_logs/_runs/debt_koide_20260803/REPORT.md:111:3. That the **C3 triple-point node derives Q=2/3 or 2/9.** It derives the Brannen parameter count only.  
+docs/working_logs/_runs/debt_koide_20260803/koide_triple_point_node.log:2:(1) THE NODE IS LITERAL: Koide masses ARE eigenvalues of a C3 hopping H
+docs/working_logs/_runs/debt_koide_20260803/koide_triple_point_node.log:4:  a = mu (C3 singlet mean sqrt-mass) = 17.7156
+docs/working_logs/_runs/debt_koide_20260803/koide_triple_point_node.log:8:    C3 image of this; the seating is a set, so phi is mod the 120 deg relabel)
+docs/working_logs/_runs/debt_koide_20260803/koide_triple_point_node.log:10:  => the three generations sit on the three branches of ONE C3 node exactly.
+docs/working_logs/_runs/debt_koide_20260803/koide_triple_point_node.log:30:  VERDICT: the C3 node delivers the STRUCTURE and the PARAMETER COUNT, not the
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:3:**Purpose:** Ready-to-paste `### REFEREE` blocks for ChatGPT (neutral seat) into `ForGrok&Claude.md`.  
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:5:**Standing frame:** overall **4/10** (honesty ~6/10, unified-claim credibility ~3/10) remains the yardstick.
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:13:1. `REFEREE R1-t14-i5` — smoke-grade AGREE (closes Claude AGREE)  
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:14:2. `REFEREE R1-4-10-standing` — 4/10 still standing + hard-win reorder  
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:15:3. `REFEREE R1-c-code-verify` — limited as-built claim  
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:16:4. `REFEREE R1-bbn-eps-recompute` — thin external win  
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:17:5. `REFEREE R1-d3-omegaJ-superseding` — superseding AGREE  
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:18:6. `REFEREE R1-a4-pending` — A4 holds PENDING until TC  
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:27:### REFEREE R1-t14-i5 @FROM:CHATGPT @TO:ALL >>REF
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:46:**Consensus status on smoke booking:** Grok non-claims + Claude AGREE + this AGREE → **three-seat lock at smoke grade**. Production remains open until A4 TC + red + referee.
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:48:**WHOSE_TURN →** unchanged on production: Grok → A4 to TC; Claude armed for D1 when TC files.
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:53:## 2. ChatGPT 4/10 still standing + hard-win reorder acknowledgment
+docs/working_logs/_runs/chatgpt_ref_drafts_20260803/DRAFTS.md:56:### REFEREE R1-4-10-standing @FROM:CHATGPT @TO:ALL >>REF >>BLUE >>RED
+codex
+The inventory table already claims `67` rows and the visible table does contain 67 `PRTOE_` entries. I’m tracing the turn-board/referee convention now so the appended ruling lands in the right file and uses the same lock language already used elsewhere.
+exec
+/bin/bash -lc "rg -n \"REFEREE R1-above-story|R1-above-story-C3|WHOSE_TURN|TURN BOARD|three-seat|lock cure|C1|C2|C3\" ForGrok\\&Claude.md docs/working_logs -g '"'!**/.git/**'"'" in /home/themilkmanj/prtoe_class succeeded in 1ms:
+ForGrok&Claude.md:10:**three-seat tribunal**.
+ForGrok&Claude.md:33:**WHOSE_TURN set to:** Grok
+ForGrok&Claude.md:62:## TURN BOARD (live — edit every turn)
+ForGrok&Claude.md:66:| **WHOSE_TURN** | `Grok` |
+ForGrok&Claude.md:118:| `@TO:ALL` | Broadcast — everyone notes; only **WHOSE_TURN** acts |
+ForGrok&Claude.md:163:5. If **any DISAGREE or REMAND** once → conversation continues in the normal cycle; **WHOSE_TURN** goes to who must fix or answer. Increment **ROUND** when the cycle restarts from Grok.  
+ForGrok&Claude.md:184:When a task finishes, append a **TASK COMPLETE** block and set **WHOSE_TURN = Claude**:
+ForGrok&Claude.md:193:**WHOSE_TURN → Claude**
+ForGrok&Claude.md:198:Claude **must** post **NEXT ISSUE** (no fix), then set **WHOSE_TURN = ChatGPT** (not Grok):
+ForGrok&Claude.md:210:**WHOSE_TURN → ChatGPT**
+ForGrok&Claude.md:226:**WHOSE_TURN →** Grok (if both AGREE) | Claude (if NEXT ISSUE bad) | Grok (if COMPLETE over-claimed, to rewrite)
+ForGrok&Claude.md:310:1. Only **WHOSE_TURN** may make material progress (code runs, long edits, formal votes) — except **DIAGNOSE**, where all three may contribute to one joint block under ChatGPT chair.  
+ForGrok&Claude.md:311:2. End every turn by: (a) appending a **Handoff** block, (b) setting **WHOSE_TURN** + **PHASE**, (c) one concrete next step for the next seat.  
+ForGrok&Claude.md:318:8. Owner can force **WHOSE_TURN** or pause the tribunal.  
+ForGrok&Claude.md:347:**CONSENSUS = LOCKED: R<round>-<id>** on the TURN BOARD.
+ForGrok&Claude.md:360:This file is the **shared briefing**. Every agent should read the TURN BOARD + latest handoffs
+ForGrok&Claude.md:692:You are RED TEAM ONLY (challenger) in a three-seat TRIBUNAL on the PRTOE repo
+ForGrok&Claude.md:704:Read ForGrok&Claude.md TURN BOARD + tribunal rules + §11 first, then:
+ForGrok&Claude.md:736:After NEXT ISSUE: always set WHOSE_TURN → ChatGPT (referee). Never skip the referee.
+ForGrok&Claude.md:745:You are the NEUTRAL REFEREE in a three-seat TRIBUNAL for the PRTOE research repo
+exec
+/bin/bash -lc "sed -n '3310,3385p' ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+---
+
+
+---
+
+### Handoff 2026-08-03 @FROM:GROK @TO:CLAUDE >>RED — story-grade rule cures applied
+
+**Responds to:** RED VERDICT R1-story-grade-rule AGREE-IF.
+
+| Cure | Action |
+|---|---|
+| Closed grade set | Rule §2 now includes estimate, candidate, provisional, derived-conditional; bans hybrid grades |
+| complete-conditional | Defined as document-job finish with Residual conditionals — not free COMPLETE |
+| FILE_COMPLETION split | Smuggle ban: status ≠ physics ceiling |
+| Failures vs exploratory row-level | §3b: failed rows must cite Failures Ledger; provisional ≠ failed |
+| Hardcoded cyclic triage | Softened to “example class; evidence decides” |
+| **C4 REMAND** | cyclic ledger row 4 → **OPEN-BLOCKED XOR** via **P-2026-056**; not complete-conditional thawing; not P-013 as DE |
+| C6 hybrid | row 9 → **provisional** only |
+| P-013 hardening | row 7 → compact topology bet; not “flat 3-torus only” |
+
+exec
+/bin/bash -lc "sed -n '1,220p' docs/working_logs/_runs/story_grade_triage_20260803/THREE_SEAT_LOCK_PACKAGE.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+<!-- STALE PRE-C1 residual table may list map-assembly; authoritative grades are C1 sync + disk ledgers -->
+# THREE-SEAT LOCK PACKAGE — above story-grade corpus
+
+**Stamp:** 2026-08-03  
+**Seat author:** Grok (blue)  
+**Rule:** [`docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`](../../../STORY_GRADE_ELEVATION_RULE.md)  
+**NO FABRICATIONS.** Discipline elevation ≠ physics COMPLETE. **4/10 stands.** Do not book A4. Do not invent physics.
+
+**Ask of Claude (RED) and ChatGPT (REF):**  
+**AGREE** that (1) document *discipline* is above story-grade across the scanned corpus, and (2) the honest residual physics catalog is complete as **OPEN-BLOCKED** with named blockers (not soft story).
+
+---
+
+## 1. Definition of done (DoD)
+
+| # | Criterion | Status |
+|---|---|---|
+| D1 | Every `docs/PRTOE_*.md` and `docs/exploratory/PRTOE_*.md` has a **claims ledger** *or* a **discipline triage footer** (2026-08-03) | **MET** — 100% of shelf + exploratory PRTOE files |
+| D2 | No shelf **bare-story** physics rows as final grade after PASS3 (rule §2: convert to OPEN-BLOCKED / map-assembly ~~(stale if pre-C1; see C1 sync)~~ / interpretation with evidence) | **MET** for load-bearing ledger rows (see §3 residual scan) |
+| D3 | Remaining physics OPEN items are **OPEN-BLOCKED** (or explicit OPEN with named residual) with named blocker class + path | **MET** — catalog in §4 |
+codex
+I have the append target: the tribunal bus file `ForGrok&Claude.md`, immediately after the Grok handoff that asks for `C3 AGREE`. I’m doing one last mechanical check against the live shelf and the inventory statuses so the ruling is evidence-based, not just text-consistent.
+exec
+/bin/bash -lc "python - <<'PY'
+from pathlib import Path
+import re
+p = Path('docs/working_logs/_FILE_COMPLETION_STATUS.md')
+text = p.read_text()
+rows = re.findall(r'"'^'"\\| \\["'`PRTOE_[''^'"\\n]+"'$'"', text, flags=re.M)
+print('inventory_rows', len(rows))
+from collections import Counter
+statuses = []
+for line in rows:
+    parts = [x.strip() for x in line.strip('|').split('|')]
+    if len(parts) >= 3:
+        statuses.append(parts[1])
+print('status_counts', Counter(statuses))
+print('status_total', len(statuses))
+PY" in /home/themilkmanj/prtoe_class exited 127 in 0ms:
+/bin/bash: line 1: python: command not found
+exec
+/bin/bash -lc "sed -n '3628,3665p' ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+**WHOSE_TURN → ChatGPT** (ratify) **∥ Claude** (spot C1–C3) **∥ Grok** (A4).
+
+---
+
+### REFEREE R1-above-story-cures-C1C3 @FROM:CHATGPT @TO:ALL >>REF
+
+- **C1:** **AGREE.** `THREE_SEAT_LOCK_PACKAGE.md` now has `## C1 sync 2026-08-03`, and that sync section states `PRTOE_THREE_EQUATIONS.md` row 3 is **derived (structural) + machine-backed (CLASS)**. Note: earlier package §3a still shows the stale `map-assembly` row; the later C1 sync section is the superseding cure on disk.
+- **C2:** **AGREE.** `STORY_GRADE_ELEVATION_RULE.md` §2 is amended on disk and now includes the added grade families (`registered`, `meta`, `adopted`, `paid`, `framework`, `awaiting`, `back-solved`, etc.).
+- **C3:** **REMAND.** `_FILE_COMPLETION_STATUS.md` does now show `PRTOE_stability.md` as **COMPLETE-CONDITIONAL** and carries the `C3 stamp 2026-08-03`, but the cure is not fully closed: the inventory now lists **67** shelf rows while `## Counts` still totals **64**. The re-stamp-count part of C3 remains open.
+- **Ratification:** `PRTOE_THREE_EQUATIONS.md` row 3 is ratified as **derived (structural) + machine-backed (CLASS)**.
+- **Lock status:** the three-seat statement lock still stands on the statement itself, but the cures are **not** fully closed because C3 remains open.
+- **Standing:** **4/10 stands.** **WHOSE_TURN → Grok** (A4).
+
+
+---
+
+### Handoff 2026-08-03 @FROM:GROK @TO:CHATGPT >>REF — C3 REMAND closed (count restamp)
+
+**Responds to:** REFEREE R1-above-story-cures-C1C3 C3 REMAND.
+
+exec
+/bin/bash -lc "find docs -maxdepth 1 -type f -name 'PRTOE_*.md' | sort | wc -l" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+67
+codex
+The shelf itself is `67` files. I’m recomputing the inventory rows and status buckets from the markdown table with plain shell tools so the appended referee note can explicitly say the table matches both the filesystem and its own counts.
+exec
+/bin/bash -lc "awk 'BEGIN{n=0} /"'^'"\\| \\["'`PRTOE_.*'"\\]\\(\\.\\.\\// {n++} END{print n}' docs/working_logs/_FILE_COMPLETION_STATUS.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+67
+exec
+/bin/bash -lc "awk '/## Counts \\(re-stamped 2026-08-03 C3\\)/, /\\*\\*Total 67\\*\\*/ {print}' docs/working_logs/_FILE_COMPLETION_STATUS.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+## Counts (re-stamped 2026-08-03 C3)
+
+| status | n |
+|---|---:|
+| COMPLETE-CONDITIONAL | 22 |
+| LEDGER/HISTORY | 12 |
+| COMPLETE | 11 |
+| OPEN-MACHINE | 8 |
+| OPEN-THEORY | 8 |
+| WATCH-EXTERNAL | 5 |
+| COMPLETE-ABSTENTION | 1 |
+
+**Total 67**
+exec
+/bin/bash -lc "awk -F'|' '/"'^'"\\| \\["'`PRTOE_.*'"\\]\\(\\.\\.\\// {gsub(/"'^ +| +$/,"",$3); c[$3]++} END {for (k in c) print k, c[k]}'"' docs/working_logs/_FILE_COMPLETION_STATUS.md | sort" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+COMPLETE 11
+COMPLETE-ABSTENTION 1
+COMPLETE-CONDITIONAL 22
+LEDGER/HISTORY 12
+OPEN-MACHINE 8
+OPEN-THEORY 8
+WATCH-EXTERNAL 5
+codex
+The evidence is clean now: filesystem shelf count, inventory row count, and the `Counts` bucket total all land on `67`. I’m appending the referee closeout to the tribunal file now, with the ruling staying narrow: C3 closed, C1–C3 done, `4/10` unchanged, `WHOSE_TURN -> Grok (A4)`.
+exec
+/bin/bash -lc "sed -n '62,85p' ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+## TURN BOARD (live — edit every turn)
+
+| field | value |
+|---|---|
+| **WHOSE_TURN** | `Grok` |
+| **ROUND** | `1` |
+| **Primary** | T14 link 4 / A4 i6 production |
+| **PHASE** | `BUILD` — A4 nojet continues; smoke revalidate ruled |
+| **Grok** | Blue — builder (A4 still running) |
+| **Claude** | **Red only** — challenger |
+| **ChatGPT** | Neutral — referee |
+| **LAST_PROPOSAL** | `none — no production booking proposed` |
+| **LAST_TASK_COMPLETE** | `R1-t14-i6-partial-nowinding` (nowinding DONE; nojet IN FLIGHT) |
+| **NEXT_ISSUE** | `A4 [3/4] nojet in flight; no smoke-to-production generalization` |
+| **VOTES** | Grok: C8 cure applied · Claude: supplement controls · ChatGPT: smoke revalidate ruled |
+| **CONSENSUS** | `OPEN` — no production booking |
+| **Monitor** | Watch this file for handoffs + TASK COMPLETE + NEXT ISSUE |
+
+
+### OWNER NOTICE — audience files, Failures Ledger, predictions hygiene (all seats bind)
+exec
+/bin/bash -lc "tail -n 30 ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+**A4:** nojet n+1_f+1 **NO VERDICT**; n−1_f+1 in flight.
+
+**WHOSE_TURN → ChatGPT** (ratify) **∥ Claude** (spot C1–C3) **∥ Grok** (A4).
+
+---
+
+### REFEREE R1-above-story-cures-C1C3 @FROM:CHATGPT @TO:ALL >>REF
+
+- **C1:** **AGREE.** `THREE_SEAT_LOCK_PACKAGE.md` now has `## C1 sync 2026-08-03`, and that sync section states `PRTOE_THREE_EQUATIONS.md` row 3 is **derived (structural) + machine-backed (CLASS)**. Note: earlier package §3a still shows the stale `map-assembly` row; the later C1 sync section is the superseding cure on disk.
+- **C2:** **AGREE.** `STORY_GRADE_ELEVATION_RULE.md` §2 is amended on disk and now includes the added grade families (`registered`, `meta`, `adopted`, `paid`, `framework`, `awaiting`, `back-solved`, etc.).
+- **C3:** **REMAND.** `_FILE_COMPLETION_STATUS.md` does now show `PRTOE_stability.md` as **COMPLETE-CONDITIONAL** and carries the `C3 stamp 2026-08-03`, but the cure is not fully closed: the inventory now lists **67** shelf rows while `## Counts` still totals **64**. The re-stamp-count part of C3 remains open.
+- **Ratification:** `PRTOE_THREE_EQUATIONS.md` row 3 is ratified as **derived (structural) + machine-backed (CLASS)**.
+- **Lock status:** the three-seat statement lock still stands on the statement itself, but the cures are **not** fully closed because C3 remains open.
+- **Standing:** **4/10 stands.** **WHOSE_TURN → Grok** (A4).
+
+
+---
+
+### Handoff 2026-08-03 @FROM:GROK @TO:CHATGPT >>REF — C3 REMAND closed (count restamp)
+
+file update
+M /home/themilkmanj/prtoe_class/ForGrok&Claude.md
+@@ -3655 +3655,12 @@
+ 
++---
++
++### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
++
++- **Vote:** **AGREE.**
++- **Count check:** live shelf `docs/PRTOE_*.md` = **67** files; `_FILE_COMPLETION_STATUS.md` inventory = **67** `PRTOE_` rows; `## Counts (re-stamped 2026-08-03 C3)` sums to **67** (`22 + 12 + 11 + 8 + 8 + 5 + 1`).
++- **C3:** **AGREE.** The remand is cured on disk: inventory count now matches the actual shelf and the re-stamped counts section.
++- **C1–C2:** prior cures remain present on disk and unchanged from `REFEREE R1-above-story-cures-C1C3`.
++- **Closure:** **C1–C3 all closed.** Three-seat lock cure tickets are done; the statement lock is no longer waiting on the C3 count restamp.
++- **Standing:** **4/10 stands.** No physics promotion, no A4 booking from this paperwork close.
++- **WHOSE_TURN → Grok** (**A4** continues).
+apply_patch(auto_approved=true) exited 0 in 68ms:
+Success. Updated the following files:
+M /home/themilkmanj/prtoe_class/ForGrok&Claude.md
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index cb809a07c82d4ed2bce79884e4b100c055f4d889..8a4109357a6192fa071fc092077586794a72d620
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3653,3 +3653,14 @@
+ 
+ **4/10 stands.** A4 continues.
+ 
++---
++
++### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
++
++- **Vote:** **AGREE.**
++- **Count check:** live shelf `docs/PRTOE_*.md` = **67** files; `_FILE_COMPLETION_STATUS.md` inventory = **67** `PRTOE_` rows; `## Counts (re-stamped 2026-08-03 C3)` sums to **67** (`22 + 12 + 11 + 8 + 8 + 5 + 1`).
++- **C3:** **AGREE.** The remand is cured on disk: inventory count now matches the actual shelf and the re-stamped counts section.
++- **C1–C2:** prior cures remain present on disk and unchanged from `REFEREE R1-above-story-cures-C1C3`.
++- **Closure:** **C1–C3 all closed.** Three-seat lock cure tickets are done; the statement lock is no longer waiting on the C3 count restamp.
++- **Standing:** **4/10 stands.** No physics promotion, no A4 booking from this paperwork close.
++- **WHOSE_TURN → Grok** (**A4** continues).
+
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index cb809a07c82d4ed2bce79884e4b100c055f4d889..8a4109357a6192fa071fc092077586794a72d620
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3653,3 +3653,14 @@
+ 
+ **4/10 stands.** A4 continues.
+ 
++---
++
++### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
++
++- **Vote:** **AGREE.**
++- **Count check:** live shelf `docs/PRTOE_*.md` = **67** files; `_FILE_COMPLETION_STATUS.md` inventory = **67** `PRTOE_` rows; `## Counts (re-stamped 2026-08-03 C3)` sums to **67** (`22 + 12 + 11 + 8 + 8 + 5 + 1`).
++- **C3:** **AGREE.** The remand is cured on disk: inventory count now matches the actual shelf and the re-stamped counts section.
++- **C1–C2:** prior cures remain present on disk and unchanged from `REFEREE R1-above-story-cures-C1C3`.
++- **Closure:** **C1–C3 all closed.** Three-seat lock cure tickets are done; the statement lock is no longer waiting on the C3 count restamp.
++- **Standing:** **4/10 stands.** No physics promotion, no A4 booking from this paperwork close.
++- **WHOSE_TURN → Grok** (**A4** continues).
+
+codex
+The ruling is appended. I’m checking the final block in place so the closeout I report back includes the exact verified outcome rather than just the intended edit.
+exec
+/bin/bash -lc "tail -n 25 ForGrok\\&Claude.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+---
+
+### Handoff 2026-08-03 @FROM:GROK @TO:CHATGPT >>REF — C3 REMAND closed (count restamp)
+
+**Responds to:** REFEREE R1-above-story-cures-C1C3 C3 REMAND.
+
+**Cure:** `_FILE_COMPLETION_STATUS.md` inventory/counts restamped to **67** shelf rows (was 64). Status breakdown rewritten under “Counts (re-stamped 2026-08-03 C3)”.
+
+**Also:** package stale pre-C1 map-assembly wording marked; C1 sync remains authoritative.
+
+**Ask:** C3 **AGREE**; cures C1–C3 fully closed; three-seat statement lock unconditional on cure tickets.
+
+**4/10 stands.** A4 continues.
+
+---
+
+### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
+
+- **Vote:** **AGREE.**
+- **Count check:** live shelf `docs/PRTOE_*.md` = **67** files; `_FILE_COMPLETION_STATUS.md` inventory = **67** `PRTOE_` rows; `## Counts (re-stamped 2026-08-03 C3)` sums to **67** (`22 + 12 + 11 + 8 + 8 + 5 + 1`).
+exec
+/bin/bash -lc "git diff -- ForGrok\\&Claude.md docs/working_logs/_FILE_COMPLETION_STATUS.md" in /home/themilkmanj/prtoe_class succeeded in 24ms:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index 7fb7b7d1..8a410935 100644
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3603,3 +3603,64 @@ row-by-row (referee: THREE_EQUATIONS row 3 first). CLI method note: presence swe
+ necessary, conformance sweeps are the audit — adopted henceforth.
+ 
+ ---
++
++
++---
++
++### Handoff 2026-08-03 @FROM:GROK @TO:CHATGPT >>REF — C1–C3 cures applied (Claude supplemental AGREE-IF)
++
++**Responds to:** RED Note (sequencing) + supplemental AGREE-IF C1–C3.
++
++| Cure | Action on disk |
++|---|---|
++| **C1** | `THREE_SEAT_LOCK_PACKAGE.md` §C1 sync: THREE_EQUATIONS r3 = **derived+machine-backed (CLASS)**; no_singularities r1 = **interpretation**; pass = discipline + **19 promotions** disclosed |
++| **C2** | Rule §2 closed grade set **amended** with registered/meta/adopted/paid/framework/awaiting/back-solved/… one-line defs |
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index cb809a07c82d4ed2bce79884e4b100c055f4d889..8a4109357a6192fa071fc092077586794a72d620
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3653,3 +3653,14 @@
+ 
+ **4/10 stands.** A4 continues.
+ 
++---
++
++### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
++
++- **Vote:** **AGREE.**
++- **Count check:** live shelf `docs/PRTOE_*.md` = **67** files; `_FILE_COMPLETION_STATUS.md` inventory = **67** `PRTOE_` rows; `## Counts (re-stamped 2026-08-03 C3)` sums to **67** (`22 + 12 + 11 + 8 + 8 + 5 + 1`).
++- **C3:** **AGREE.** The remand is cured on disk: inventory count now matches the actual shelf and the re-stamped counts section.
++- **C1–C2:** prior cures remain present on disk and unchanged from `REFEREE R1-above-story-cures-C1C3`.
++- **Closure:** **C1–C3 all closed.** Three-seat lock cure tickets are done; the statement lock is no longer waiting on the C3 count restamp.
++- **Standing:** **4/10 stands.** No physics promotion, no A4 booking from this paperwork close.
++- **WHOSE_TURN → Grok** (**A4** continues).
+
+codex
+I’ve got the closeout verified and appended. I’m pulling exact line anchors now so the final note can point straight to the new referee block and the restamped counts section.
+exec
+/bin/bash -lc "git status --short -- ForGrok\\&Claude.md docs/working_logs/_FILE_COMPLETION_STATUS.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+ M ForGrok&Claude.md
+ M docs/working_logs/_FILE_COMPLETION_STATUS.md
+exec
+/bin/bash -lc 'rg -n "''^### REFEREE R1-above-story-C3-closed|''^## Counts '"\\(re-stamped 2026-08-03 C3\\)|"'^## Inventory '"\\(67 files\\)|"'^'"\\*\\*Total 67\\*\\*\" ForGrok\\&Claude.md docs/working_logs/_FILE_COMPLETION_STATUS.md" in /home/themilkmanj/prtoe_class succeeded in 0ms:
+docs/working_logs/_FILE_COMPLETION_STATUS.md:31:## Inventory (67 files)
+docs/working_logs/_FILE_COMPLETION_STATUS.md:105:## Counts (re-stamped 2026-08-03 C3)
+docs/working_logs/_FILE_COMPLETION_STATUS.md:117:**Total 67**
+ForGrok&Claude.md:3658:### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index cb809a07c82d4ed2bce79884e4b100c055f4d889..8a4109357a6192fa071fc092077586794a72d620
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3653,3 +3653,14 @@
+ 
+ **4/10 stands.** A4 continues.
+ 
++---
++
++### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
++
++- **Vote:** **AGREE.**
++- **Count check:** live shelf `docs/PRTOE_*.md` = **67** files; `_FILE_COMPLETION_STATUS.md` inventory = **67** `PRTOE_` rows; `## Counts (re-stamped 2026-08-03 C3)` sums to **67** (`22 + 12 + 11 + 8 + 8 + 5 + 1`).
++- **C3:** **AGREE.** The remand is cured on disk: inventory count now matches the actual shelf and the re-stamped counts section.
++- **C1–C2:** prior cures remain present on disk and unchanged from `REFEREE R1-above-story-cures-C1C3`.
++- **Closure:** **C1–C3 all closed.** Three-seat lock cure tickets are done; the statement lock is no longer waiting on the C3 count restamp.
++- **Standing:** **4/10 stands.** No physics promotion, no A4 booking from this paperwork close.
++- **WHOSE_TURN → Grok** (**A4** continues).
+
+codex
+Verified C3 REMAND is closed. In [docs/working_logs/_FILE_COMPLETION_STATUS.md](/home/themilkmanj/prtoe_class/docs/working_logs/_FILE_COMPLETION_STATUS.md:31) the inventory is `67`, the re-stamped [Counts section](/home/themilkmanj/prtoe_class/docs/working_logs/_FILE_COMPLETION_STATUS.md:105) sums to `67`, and the live top-level `docs/PRTOE_*.md` shelf also counts `67` files. The printed bucket totals are consistent: `22 + 12 + 11 + 8 + 8 + 5 + 1 = 67`.
+
+Appended the referee closeout at [ForGrok&Claude.md](/home/themilkmanj/prtoe_class/ForGrok&Claude.md:3658) with `### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF`, voting `AGREE`, confirming `C1–C3` all closed, three-seat lock cure tickets done, `4/10` stands, and `WHOSE_TURN -> Grok` for `A4`.
+file update:
+diff --git a/ForGrok&Claude.md b/ForGrok&Claude.md
+index cb809a07c82d4ed2bce79884e4b100c055f4d889..8a4109357a6192fa071fc092077586794a72d620
+--- a/ForGrok&Claude.md
++++ b/ForGrok&Claude.md
+@@ -3653,3 +3653,14 @@
+ 
+ **4/10 stands.** A4 continues.
+ 
++---
++
++### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF
++
++- **Vote:** **AGREE.**
++- **Count check:** live shelf `docs/PRTOE_*.md` = **67** files; `_FILE_COMPLETION_STATUS.md` inventory = **67** `PRTOE_` rows; `## Counts (re-stamped 2026-08-03 C3)` sums to **67** (`22 + 12 + 11 + 8 + 8 + 5 + 1`).
++- **C3:** **AGREE.** The remand is cured on disk: inventory count now matches the actual shelf and the re-stamped counts section.
++- **C1–C2:** prior cures remain present on disk and unchanged from `REFEREE R1-above-story-cures-C1C3`.
++- **Closure:** **C1–C3 all closed.** Three-seat lock cure tickets are done; the statement lock is no longer waiting on the C3 count restamp.
++- **Standing:** **4/10 stands.** No physics promotion, no A4 booking from this paperwork close.
++- **WHOSE_TURN → Grok** (**A4** continues).
+
+tokens used
+59,443
+Verified C3 REMAND is closed. In [docs/working_logs/_FILE_COMPLETION_STATUS.md](/home/themilkmanj/prtoe_class/docs/working_logs/_FILE_COMPLETION_STATUS.md:31) the inventory is `67`, the re-stamped [Counts section](/home/themilkmanj/prtoe_class/docs/working_logs/_FILE_COMPLETION_STATUS.md:105) sums to `67`, and the live top-level `docs/PRTOE_*.md` shelf also counts `67` files. The printed bucket totals are consistent: `22 + 12 + 11 + 8 + 8 + 5 + 1 = 67`.
+
+Appended the referee closeout at [ForGrok&Claude.md](/home/themilkmanj/prtoe_class/ForGrok&Claude.md:3658) with `### REFEREE R1-above-story-C3-closed @FROM:CHATGPT @TO:ALL >>REF`, voting `AGREE`, confirming `C1–C3` all closed, three-seat lock cure tickets done, `4/10` stands, and `WHOSE_TURN -> Grok` for `A4`.

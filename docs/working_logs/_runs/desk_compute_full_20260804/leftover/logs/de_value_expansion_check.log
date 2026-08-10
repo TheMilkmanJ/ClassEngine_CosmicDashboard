@@ -1,0 +1,17 @@
+=== (1) Is the dyad transition ADIABATIC vs Hubble? (supercooling test) ===
+  T=200 keV: H = 1.78e-17 eV
+      m_phi=   1 keV -> m_phi/H = 5.6e+19  (ADIABATIC)
+      m_phi= 100 keV -> m_phi/H = 5.6e+21  (ADIABATIC)
+  T=370 keV: H = 6.10e-17 eV
+      m_phi=   1 keV -> m_phi/H = 1.6e+19  (ADIABATIC)
+      m_phi= 100 keV -> m_phi/H = 1.6e+21  (ADIABATIC)
+  => m_phi/H ~ 1e19-1e22: the field tracks the instantaneous minimum PERFECTLY. NO supercooling.
+
+=== (2) Is the electron bath in equilibrium at T_c? (does Boltzmann suppression = expanding-universe density?) ===
+  T=370 keV: n_e^eq/n_gamma~2.5e-01  ann.rate/H ~ 2.6e+16  (in equilib)
+  T=200 keV: n_e^eq/n_gamma~7.8e-02  ann.rate/H ~ 1.1e+16  (in equilib)
+  T=100 keV: n_e^eq/n_gamma~6.0e-03  ann.rate/H ~ 1.2e+15  (in equilib)
+  T= 50 keV: n_e^eq/n_gamma~3.6e-05  ann.rate/H ~ 1.0e+13  (in equilib)
+  T= 25 keV: n_e^eq/n_gamma~1.3e-09  ann.rate/H ~ 5.4e+08  (in equilib)
+  => at T_c ~200-370 keV, e+e- annihilation rate >> H: bath IS in equilibrium, so J_F's Boltzmann
+     suppression is the CORRECT expanding-universe density. (Freeze-out only near ~20-30 keV, far below T_c.)

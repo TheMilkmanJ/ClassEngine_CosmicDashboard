@@ -1,4 +1,9 @@
-# The democratic count, licensed — and the weighting becomes a sector diagnostic (2026-07-27)
+# The democratic count — working note (2026-07-27)
+
+> **Banner (2026-08-05):** The “licensed by the blindness principle” grade below is **withdrawn**
+> (docket **#126** / `PRTOE_honest_status.md`). **No single criterion returns 9/10.** Present
+> standing: c = 9/10 is a **counting assumption the data checks**, not a derived licence. This file
+> is a **historical working note**, not a living derivation of c.
 
 Task #6 working note; companion script `scripts/census_democratic_license.py`.
 

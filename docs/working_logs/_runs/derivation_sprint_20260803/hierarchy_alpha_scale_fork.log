@@ -1,0 +1,51 @@
+==============================================================================
+STEP 1 -- IS THE PLANCK-FLOOR COUPLING A DERIVED NUMBER OR AN EXTRAPOLATION?
+==============================================================================
+  at M_Z:   1/alpha_2 = 29.585   1/alpha_Y = 98.366   sum = 127.951  (= 1/alpha(M_Z))
+  ln(M_Pl/M_Z) = 39.436
+  at M_Pl:  1/alpha_2 = 49.46    1/alpha_Y = 55.48    sum = 104.94
+  the corpus's handouts:   49.4              55.5              104.9
+
+  So the Planck-floor value is not an extrapolation to be apologised for -- it is the
+  tree-level composition of two one-loop-run couplings, and it reproduces both handouts.
+
+==============================================================================
+STEP 2 -- THE FORK, PRICED
+==============================================================================
+  alpha used                               1/alpha   alpha_c         k     M_anchor
+  ----------------------------------------------------------------------------------
+  alpha(0) -- as recorded                  137.036  0.021892   1.36461         3153 GeV
+  alpha(M_Z)                               127.951  0.023446   1.34309    1.758e+04 GeV
+  alpha at the Planck floor (derived)      104.938  0.028588   1.28100    1.504e+06 GeV
+
+  the target the chain aims at, 4 pi m_H = 1573.9 GeV
+    alpha(0) -- as recorded                overshoots by x2.003
+    alpha(M_Z)                             overshoots by x11.17
+    alpha at the Planck floor (derived)    overshoots by x955.5
+
+==============================================================================
+STEP 3 -- THE SENSITIVITY, DERIVED RATHER THAN QUOTED
+==============================================================================
+  1/lambda = 1/(k alpha_c) = 33.474
+  dlnk/dlnb = -1/(pi k (1+b)) = -0.230054   (and dlnb/dlnalpha_c = 1)
+  dlnM/dlnalpha_c = (1/lambda)(1 + dlnk/dlnalpha_c) = 25.773
+  recorded: 25.8
+  numerical check: 25.773
+
+==============================================================================
+STEP 4 -- THE COUPLING THE EXACT LANDING NEEDS IS OUTSIDE QED'S RANGE
+==============================================================================
+  landing the anchor exactly on 4 pi m_H needs   1/alpha = 140.74   (alpha_c = 0.021316)
+  the corpus records this as 140.7 / 0.021316
+
+  but the running coupling is bounded ABOVE by its zero-momentum value:
+    1/alpha(0)  = 137.036   <- the largest 1/alpha QED ever takes
+    1/alpha needed = 140.74
+    gap = 3.70 in 1/alpha, i.e. 2.70% weaker than the infrared limit
+
+  Running takes alpha the other way -- stronger in the ultraviolet, so 1/alpha only
+  falls as the scale rises. The value the exact landing wants is therefore attained at
+  NO scale whatever, which is a stronger statement than 'the wrong scale was chosen'.
+  The best case available anywhere is the infrared endpoint, and there the anchor
+  overshoots 4 pi m_H by x2.003 -- which is the factor the chain is actually carrying.
+EXIT:0

@@ -1,0 +1,188 @@
+==============================================================================
+N3 / S1 — Θ_lock hunt under legal 0D + 1D GPE instruments
+==============================================================================
+  c_s              = 0.147960
+  Θ_lock (d=3)     = 11.7062   [= d/(c_s √3)]
+  |H_kin(Θ=1)/H_d| = 0.085425  (= c_s/√3)
+  need late ⟨Θ_heal⟩ ≳ 11.71 for door-magnitude lock (N1 S1)
+
+  LOCK METRIC: late / mass-weighted ⟨Θ⟩ (re-entry candidate)
+  NOT: 0D |Θ| integrator caps · Madelung vacuum local spikes
+  FENCES: no invent force laws · no free H_re · no bounce closed
+  exit 0 ≠ physics PASS · toy turn ≠ 3D production COMPLETE
+
+------------------------------------------------------------------------------
+[A] 0D reduced stress-channel scan (FA3/N1 ODE)
+------------------------------------------------------------------------------
+  scanned unique rows     = 83
+  physical (no cap/blow)  = 78  (rejected 5)
+  turned (Θ:−→0→+)        = 76
+  max late_Θ (physical)   = +1.8005
+  max Θ_pos (physical)    = +11.3367
+  max overshoot physical  = 6.781
+  best late: n0=50.0 Θ0=-5.0 κ=3.00 γ=0.05 → late_Θ=+1.8005 ×n=1.09
+  best peak: n0=50.0 Θ0=-5.0 κ=5.00 γ=0.05 → Θ_max_pos=+11.3367 late_Θ=-1.4804
+  late ≥ Θ_lock? False   peak(phys) ≥ Θ_lock? False
+  stocked default (6,-2,1.5,0.15): late_Θ=+0.0619  Θ_max_pos=+2.1757  overshoot=1.34  turned=True
+
+  sample (κ=1.5, γ=0.15) n0 × Θ0  [* = rejected blowup]:
+      n0     Θ0  turn    lateΘ    Θmax+       ×n   ok
+     3.0   -1.0     Y  +0.0552  +1.2240     1.18    Y
+     3.0   -2.0     Y  +0.0681  +1.9409     2.24    Y
+     3.0   -5.0     Y  +0.0670 +80.0000  2957.19    *
+     6.0   -1.0     Y  +0.0575  +1.8849     1.07    Y
+     6.0   -2.0     Y  +0.0619  +2.1757     1.34    Y
+     6.0   -5.0     Y  +0.0676 +80.0000  1478.01    *
+    11.0   -1.0     Y  +0.0587  +2.6797     1.03    Y
+    11.0   -2.0     Y  +0.0610  +2.8506     1.15    Y
+    11.0   -5.0     Y  +0.0681  +5.9689     4.51    Y
+    20.0   -1.0     Y  +0.0596  +3.7176     1.02    Y
+    20.0   -2.0     Y  +0.0605  +3.8302     1.08    Y
+    20.0   -5.0     Y  +0.0640  +4.9659     1.75    Y
+    50.0   -1.0     Y  +0.0597  +6.0136     1.01    Y
+    50.0   -2.0     Y  +0.0602  +6.0795     1.03    Y
+    50.0   -5.0     Y  +0.0613  +6.5990     1.20    Y
+
+  κ–γ sensitivity at (n0=6, Θ0=-2):
+      κ     γ  turn    lateΘ    Θmax+     ×n   ok
+   0.50  0.05     Y  -0.8007  +2.2528   3.68    Y
+   0.50  0.15     Y  -0.4149  +2.0900   3.29    Y
+   0.50  0.50     Y  -0.0996  +1.7009   2.53    Y
+   1.50  0.05     Y  +0.0696  +2.2143   1.35    Y
+   1.50  0.15     Y  +0.0619  +2.1757   1.34    Y
+   1.50  0.50     Y  +0.0481  +2.0483   1.32    Y
+   3.00  0.05     Y  +1.2527  +2.8456   1.15    Y
+   3.00  0.15     Y  +0.6330  +2.8125   1.15    Y
+   3.00  0.50     Y  +0.0960  +2.7013   1.15    Y
+   5.00  0.05     Y  -1.2577  +3.5455   1.09    Y
+   5.00  0.15     Y  -0.8400  +3.5138   1.09    Y
+   5.00  0.50     Y  -0.2189  +3.4061   1.08    Y
+
+------------------------------------------------------------------------------
+[B] 1D GPE Θ probe (M6-legal; mass-weighted ⟨Θ⟩ is lock metric)
+------------------------------------------------------------------------------
+  cases run               = 6  (clean dE<5%: 6)
+  max ⟨Θ⟩_mean (any time) = +1.0621
+  max ⟨Θ⟩_mean late       = +0.0013
+  max support-local Θ     = +2909.3043  (ρ>0.05)
+  max raw local Θ         = +2909.3043  (VACUUM SPIKE — not S1)
+  max overshoot n_pk/n_i  = 1.377
+  mean≥lock? False  late_mean≥lock? False  (support/raw local ignored for S1)
+
+      A    v0     n_pk      ×   ⟨Θ⟩max  ⟨Θ⟩late  Θsup max   raw max  turn    dE%
+    2.0   0.5     3.09   1.03  +0.0089  +0.0013   +3.5307      +3.5     Y   0.19
+    5.0   1.0     6.29   1.05  +0.1532  -0.0128  +59.7157    +177.4     Y   0.70
+   10.0   1.0    11.27   1.02  +0.2403  -0.0226 +2077.4485   +2077.4     Y   1.69
+    5.0   2.0     7.09   1.18  +0.2420  -0.0244 +294.0600    +679.6     Y   0.97
+   20.0   1.0    21.26   1.01  +1.0621  -0.0834 +1180.0463   +1180.0     Y   3.40
+    5.0   3.0     8.26   1.38  +0.2936  -0.0148 +2909.3043   +2909.3     Y   1.20
+
+------------------------------------------------------------------------------
+[C] Synthetic averaging stress channel (FA3 stand-in)
+------------------------------------------------------------------------------
+  mean_Θ           = +1.7805e-02
+  var_Θ            = +3.2033e-03
+  stress_drive     = +2.3125e-02
+  net_rhs          = +1.9604e-02
+  max |local Θ|    = 0.1250
+  (static snapshot — stress can fund turn; not Θ_lock)
+
+------------------------------------------------------------------------------
+[D] Corpus priors (not re-run; inventory)
+------------------------------------------------------------------------------
+  M6 1D: density turn YES; overshoot O(1); no late Θ≳12
+  M6 hypersonic: turn YES at Mach~15; O(1) amplification
+  M6 spherical (gp/dst): focusing measured; short of MeV F≥1e9
+  transverse 2D: ⟨Θ_xx⟩ ~0.03–0.08; Θ_yy ≪ 1e-4
+  averaging decomp: identity holds; stress funds turn; Θ O(1)
+  NO production full-3D GPE instrument stocked for Θ_lock
+
+==============================================================================
+VERDICT — S1 / N3 Θ_lock
+==============================================================================
+  medium turn (0D/1D toys)        = YES
+  max late ⟨Θ⟩ (S1 lock metric)   = +1.8005
+  max peak 0D-phys / 1D-mean      = +11.3367
+  raw/support local max (NOT S1)  = +2909.3
+  Θ_lock required                 = 11.7062
+  ratio late / Θ_lock             = 1.5381e-01
+  ratio peak_mean / Θ_lock        = 9.6843e-01
+  late Θ_lock reached (S1)?       = False
+  0D-peak or 1D-mean ≥ lock?      = False
+  S1 status                       = MISSING_INPUT
+  package grade                   = OPEN-BLOCKED
+  production 3D COMPLETE?         = False
+
+  READ:
+  1. Legal stress (0D reduced + 1D GPE) DOES produce ⟨Θ⟩ turn
+     under stocked repulsive GPE form — toy layer PAID.
+  2. Late healing ⟨Θ⟩ remains ≪ Θ_lock across legal physical
+     scans: stocked default late_Θ~0.062; best late O(1) only.
+  3. 0D physical peak can approach ~11 in extreme κ/γ/n0 corners
+     but late_Θ there is O(1) or negative — peak ≠ re-entry lock.
+  4. Madelung vacuum/support local spikes (Θ ≫ 1) are harness
+     singularities (averaging decomp v1); not Derived lock.
+  5. 0D |Θ| cap hits / overshoot≫100 are numerical blowups;
+     rejected — not GPE-legal re-entry amplitudes.
+  6. κ,γ are toy reduced coeffs, not Derived cosmological dials.
+  7. Production 3D A_Θ-3D instrument is NOT stocked.
+  8. S1 stays MISSING_INPUT / OPEN-BLOCKED for magnitude lock.
+  9. No claim: Θ_lock derived · bounce closed · H_re Derived.
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "n3_theta_3d_20260804",
+  "Theta_lock": 11.706237653490552,
+  "c_s": 0.14795964842319909,
+  "max_late_Theta_lock_metric": 1.8004818642857212,
+  "max_peak_0d_phys_or_1d_mean": 11.336722517814625,
+  "max_raw_local_NOT_S1": 2909.3042667734026,
+  "ratio_late_over_lock": 0.15380534015972722,
+  "ratio_peak_mean_over_lock": 0.968434338460082,
+  "Theta_lock_reached_S1_late": false,
+  "peak_0d_or_mean_ge_lock": false,
+  "turn_paid_toy": true,
+  "S1_status": "MISSING_INPUT",
+  "grade": "OPEN-BLOCKED",
+  "scan_0d": {
+    "n_rows": 83,
+    "n_physical": 78,
+    "n_blowup_rejected": 5,
+    "n_turned": 76,
+    "max_late_Theta": 1.8004818642857212,
+    "max_Theta_pos_physical": 11.336722517814625,
+    "max_overshoot_physical": 6.780547090274234,
+    "late_reaches_lock": false,
+    "peak_reaches_lock": false
+  },
+  "scan_1d": {
+    "n_rows": 6,
+    "n_clean": 6,
+    "max_mean_Theta": 1.0621209918369527,
+    "max_late_mean_Theta": 0.0013227006129197406,
+    "max_support_Theta": 2909.3042667734026,
+    "max_raw_local_Theta": 2909.3042667734026,
+    "max_overshoot": 1.3772169149565345,
+    "mean_reaches_lock": false,
+    "late_mean_reaches_lock": false
+  },
+  "averaging_synthetic": {
+    "mean_Theta": 0.017805368560860596,
+    "var_Theta": 0.0032032519819679053,
+    "stress_drive": 0.02312450156567686,
+    "net_rhs": 0.019604218434120874,
+    "max_local_abs_Theta": 0.12497616041568205
+  },
+  "default_0d": {
+    "late_Theta": 0.061928525036595815,
+    "Theta_max_pos": 2.175675770477981,
+    "overshoot": 1.340428649038328
+  },
+  "COMPLETE": 0,
+  "production_3d": false,
+  "note": "S1 lock metric = late/mean \u27e8\u0398\u27e9; vacuum spikes and 0D caps are not lands. N3 production 3D not stocked."
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — no late Θ_lock land; S1 MISSING_INPUT; not 3D COMPLETE.
+==============================================================================

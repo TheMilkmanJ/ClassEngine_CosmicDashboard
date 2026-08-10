@@ -1,0 +1,117 @@
+{
+  "timestamp_utc": "2026-08-10T03:49:55.407453+00:00",
+  "results": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "map_minuslogpost_chain": 1375.815,
+      "map_minuslogpost_model": 1375.6907961456125,
+      "d": 13,
+      "partial_hessian": false,
+      "regularized": false,
+      "min_eval": 4.702930000469898,
+      "max_eval": 554874001.301649,
+      "cond": 117984745.94480635,
+      "logdet_H": 145.52111902389908,
+      "logZ_hessian_laplace": -1436.5051547259013,
+      "formula": "logZ = -mlp + (d/2)ln(2\u03c0) - (1/2)ln det(H), H=\u2207\u2207 mlp"
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "map_minuslogpost_chain": 1378.7777,
+      "map_minuslogpost_model": 1378.6689867492346,
+      "d": 12,
+      "partial_hessian": false,
+      "regularized": false,
+      "min_eval": NaN,
+      "max_eval": NaN,
+      "cond": NaN,
+      "logdet_H": Infinity,
+      "logZ_hessian_laplace": -Infinity,
+      "formula": "logZ = -mlp + (d/2)ln(2\u03c0) - (1/2)ln det(H), H=\u2207\u2207 mlp"
+    }
+  },
+  "not_nested": true,
+  "delta_lnZ": Infinity
+}
+---LOG---
+[planck_2018_highl_plik.ttteee_lite] `clipy` module loaded successfully from /home/ubuntu/venv/lib/python3.14/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/ubuntu/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+before crop : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+after crop  : TT 30 -> 2508, TE 30 -> 1996, EE 30 -> 1996
+[planck_2018_lensing.clik] `clipy` module loaded successfully from /home/ubuntu/venv/lib/python3.14/site-packages/clipy
+----
+clipy_0.15
+Checking likelihood '/home/ubuntu/cobaya_packages_clean/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[bao.sixdf_2011_bao] Initialized.
+[bao.sdss_dr12_consensus_final] Initialized.
+/home/ubuntu/prtoe_class/scripts/bbnfix_hessian_laplace.py:97: RuntimeWarning: overflow encountered in scalar divide
+  H[i, i] = (fp - 2 * f0 + fm) / (h * h)
+Successfully initialised candl likelihood 'ACT DR6 TT/TE/EE CMB only likelihood (Naess et al. 2025, Louis et al. 2025, Calabrese et al. 2025)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/ubuntu/candl_data/candl_data/ACT_DR6_CMB_only_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+TE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+EE lxl       (45 bins, bin centres spanning ell = 600.5 - 6125.5)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Overall Calibration
+    Type: <class 'candl.transformations.common.CalibrationSingleScalarSquared'>
+(2) Name: Polarisation Calibration
+    Type: <class 'candl.transformations.common.PolarisationCalibrationDivision'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+Successfully initialised candl likelihood 'SPT-3G 2018 TT/TE/EE (lite)' (type: <class 'candl.likelihood.Like'>).
+Data loaded from '/home/ubuntu/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/'.
+Functional likelihood form: gaussian
+--------------------------------------------------------------------------------
+It will analyse the following spectra:
+
+TT lxl       (35 bins, bin centres spanning ell = 774.5 - 2946.8)
+TE lxl       (44 bins, bin centres spanning ell = 325.2 - 2946.2)
+EE lxl       (44 bins, bin centres spanning ell = 324.8 - 2945.9)
+--------------------------------------------------------------------------------
+A data model consisting of 2 transformations has been initialised.
+The following transformations will be applied to the theory spectra in this order:
+
+(1) Name: Aberration
+    Type: <class 'candl.transformations.common.AberrationCorrection'>
+(2) Name: Absolute Calibration
+    Type: <class 'candl.transformations.common.CalibrationCross'>
+--------------------------------------------------------------------------------
+By default, a total of 2 Gaussian priors will be added to the likelihood in candl internally.
+If you are loading the likelihood in sampler wrapper these default priors below will overwritten or replaced according to your selection after initialisation.
+--------------------------------------------------------------------------------
+candl: clearing all internal priors.
+--------------------------------------------------------------------------------
+[cmp_lcdm_mnu_bbnfix] MAP chain mlp=1378.777700; FD Hessian d=12 max_fd=False
+{
+  "root": "cmp_lcdm_mnu_bbnfix",
+  "map_minuslogpost_chain": 1378.7777,
+  "map_minuslogpost_model": 1378.6689867492346,
+  "d": 12,
+  "partial_hessian": false,
+  "regularized": false,
+  "min_eval": NaN,
+  "max_eval": NaN,
+  "cond": NaN,
+  "logdet_H": Infinity,
+  "logZ_hessian_laplace": -Infinity,
+  "formula": "logZ = -mlp + (d/2)ln(2\u03c0) - (1/2)ln det(H), H=\u2207\u2207 mlp"
+}
+
+ΔlnZ_hessian_Laplace (dyad-lcdm) = +inf
+wrote docs/working_logs/_runs/credibility_diagnostics_20260808/hessian_laplace.json
+

@@ -1,4 +1,4 @@
-# The Coincidence Problem — Why Now, Derived (2026-07-11)
+# The Coincidence Problem — Why Now: Width Derived; Occupancy OPEN (2026-07-11)
 
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
@@ -27,8 +27,8 @@ The floor is not a constant that matter happens to dilute past — the late era 
  [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md).
 2. **The turnaround is a computed multiple of the Hubble time**:
  t_turn = ln(1/√A_s)/(√(3/2)·H) ≈ **8.16 H⁻¹** at A_s = 2.088×10⁻⁹.
- (was 5.77 H⁻¹ at the par-normalized B = 1; B picked from the dispersion,
- not left as a menu). The amplitude of primordial fluctuations (A_s, measured) enters as a
+ (B = 1/√2 from the dispersion, not a menu; par-normalized B = 1 would give 5.77 H⁻¹).
+ The amplitude of primordial fluctuations (A_s, measured) enters as a
  lifetime parameter: the era's duration knows about the perturbations it must host.
  **How sharp that is, and why**: √3 and B = 1/√2 are exact, and the floor does not appear in
  the expression at all — *in Hubble units the era's width is floor-independent* — so A_s is
@@ -83,7 +83,7 @@ The floor is not a constant that matter happens to dilute past — the late era 
  observer-moment weighted by elapsed time falls preferentially late — under 7% of the chain's
  time sits in the first cycle for linear growth, under 4% for geometric. Being early is therefore
  disfavoured by the model's own bookkeeping, and the one standard repair is
- anthropic, which [PRTOE_arrow_of_time.md](PRTOE_arrow_of_time.md) §3 rejects on its own terms. The
+ anthropic, which [PRTOE_arrow_of_time.md](exploratory/PRTOE_arrow_of_time.md) §3 rejects on its own terms. The
  era-level derivation below stands on its own; it does not reach the chain, and the chain-level
  bookkeeping is carried as an open item (T8's owed list, item 4). See
  [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md).
@@ -91,9 +91,39 @@ The floor is not a constant that matter happens to dilute past — the late era 
 ## 3. Falsifiable content
 
 The same chain that times the era commits the model to w = −1 now (the mass-defect O(δ²)
-argument, recorded) — so the coincidence derivation and the DESI DR3 verdict are the same bet:
-an evolving-DE detection kills the self-timed floor and reopens the coincidence with the
-model's blood on it.
+argument, recorded) — so the **era-width** derivation and the DESI DR3 verdict are the same bet:
+an evolving-DE detection kills the self-timed floor and reopens the timing/coincidence package with the
+model's blood on it. **Occupancy (“why now”) stays OPEN either way.**
 
-*"Why now?" was never a question the standard model could ask out loud. Here it is three
+*"Why now?" was never a question the standard model could ask out loud. Here the era's width is three
 numbers — a square root, an amplitude, and a floor — and the floor was derived by breakfast.*
+**Residual (soft-claim demote 2026-08-03):** that sentence is **width**, not occupancy; “why now” in the ordinary sense remains **OPEN** (ledger row 2).
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN honesty on occupancy. **Width is derived; occupancy (“why now”) is OPEN** — not a soft almost-close. Chain-level “why this cycle?” is **OPEN-BLOCKED**. Do **not** claim “solves coincidence.”  
+**Reconfirm package:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/).  
+**Parents:** [T8_coincidence_owed.md](working_logs/T8_coincidence_owed.md); [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md); [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md). Soft-claim demote history: `open_board_split_20260803/SOFT_CLAIM_DEMOTE.md`.  
+**Currency (2026-08-05):** Width derived; occupancy **OPEN**. Construction: [void_de_seating/](working_logs/_runs/theory_construction_20260804/void_de_seating/); exhaust [T-W2_DE_occupancy.md](working_logs/_runs/theory_exhaust_20260805/mb/mb_walls_exhaust/T-W2_DE_occupancy.md); [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | DE-era width t_turn ≈ 8.16 H⁻¹ from √3, B=1/√2, A_s | **derived** (era-level) | §1; [PRTOE_sqrt3_derivation.md](exploratory/PRTOE_sqrt3_derivation.md); T8 items 1–2 paid | Floor-independent in H⁻¹ units; A_s only input in H units | Sell width as occupancy close |
+| 2 | Occupancy (“why now” / early in era ~1 in 37) | **OPEN** (not derived) | §1–2; residual demote note above | Width does **not** place the observer; ~2.7% of era elapsed is a number, not a derivation of selection | “Solves coincidence”; “why now answered”; anthropic free lunch |
+| 3 | Chain-level “why this cycle?” | **OPEN-BLOCKED** | §2; [T8_coincidence_owed.md](working_logs/T8_coincidence_owed.md) item 4 | Tolman lengthening disfavours early; anthropic rejected on arrow-of-time terms | Claim chain selection closed; invent anthropic repair |
+| 4 | Radiative band on floor limits absolute timing precision | **complete-conditional** | CC file 0.10–0.90% on ρ_Λ¼ | Desk scattering amplitude; occupancy fraction band ±~2% class | Quote occupancy as exact fixed odds |
+| 5 | w = −1 now; DESI evolving-DE kills self-timed floor | **registered null / kill** | §3 | Same bet as DESI DR3 / P-018 vs Route-D XOR | Claim both thawing and rigid w=−1 closed as the standing floor |
+
+### Residual freeze (named OPEN)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| Occupancy / “why now” | **OPEN** | this file §1–2; T8 item 3 paid as *band*, not placement | Observer-selection mechanism **without** inventing anthropics the model rejects — or permanent demote of “why now” as unanswerable |
+| Chain-level cycle selection | **OPEN-BLOCKED** | T8 item 4; Tolman + arrow seating | Licensed cycle accounting / selection law — not invent |
+| DE self-tune / ohmic channel | **OPEN** (least-trusted joint class) | THEORY_WALLS_QUEUE; CC / Route-D | Mechanism requirements only; no fake solve |
+
+**Non-claims:** does not close anthropic “why now”; does not answer chain-level cycle selection; does not “solve the coincidence problem”; width ≠ occupancy.
+
+**Triage:** elevate-in-place. Physics ceiling: era width **derived**; occupancy **OPEN**; chain **OPEN-BLOCKED**.

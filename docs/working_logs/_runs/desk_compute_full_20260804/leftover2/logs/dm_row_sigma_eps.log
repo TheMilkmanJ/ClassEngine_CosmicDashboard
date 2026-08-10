@@ -1,0 +1,88 @@
+==============================================================================
+  #78 — THE DISPERSION ROW'S sigma_eps
+==============================================================================
+
+  P-A  fit synthetic shifted-m_e TOAs with the standard timing model
+
+           eps           DM_fit      N_e/(1+eps)    max resid (s)
+         0e+00    100.000000000    100.000000000        3.411e-13  
+         1e-09     99.999999900     99.999999900        2.274e-13  
+         1e-06     99.999900000     99.999900000        2.274e-13  
+         1e-03     99.900099900     99.900099900        2.274e-13  
+  ok    P-A1 the fit absorbs eps entirely: DM_fit = N_e/(1+eps), residuals ~ 0   and t_inf comes back unchanged, so nothing leaks into the arrival time
+
+  P-B  does any frequency coverage break the degeneracy?
+       two bands, close       max residual = 2.387e-12  absorbed
+       two bands, wide        max residual = 1.137e-13  absorbed
+       five bands             max residual = 2.274e-13  absorbed
+       wideband, 40 chans     max residual = 2.274e-13  absorbed
+  ok    P-B1 absorbed at every coverage tested   the perturbation has the SAME 1/nu^2 shape as the fitted term — no lever exists
+
+  P-C  ANTI-CONTROL: is anything NOT absorbed?
+  ok    P-C1 a 1/nu^4 perturbation is NOT absorbed   max residual 1.340e-02 s — the fit cannot hide a different shape
+  ok    P-C2 while a constant offset IS absorbed, by t_inf   max residual 2.274e-13 s — as expected; the degeneracy is per-shape
+
+  P-D  ANTI-CONTROL: are the LINE rows degenerate too?
+  ok    P-D1 a shifted 21 cm rest frequency shows up as an apparent redshift offset   delta z = 2.000e-06 at eps = 1e-06 — irreducible, the lab value is fixed
+  ok    P-D2 and the RRL row likewise, at half the 21 cm offset (weight +1 vs +2)   delta z = 1.000e-06, ratio to the 21 cm row = 2.000000
+
+  P-E  what the 20 us DOES bound: eps VARIATION at fixed DM
+       delta_t = delta_eps * K DM / nu^2,  K = 4148.8080 MHz^2 pc^-1 cm^3 s
+
+          DM   nu (MHz)     t_DM (s)    sigma_delta_eps
+          30        327       1.1640          1.718e-05
+          30        820       0.1851          1.080e-04
+          30       1400       0.0635          3.149e-04
+         100        327       3.8800          5.155e-06
+         100        820       0.6170          3.241e-05
+         100       1400       0.2117          9.448e-05
+         300        327      11.6399          1.718e-06
+         300        820       1.8510          1.080e-05
+         300       1400       0.6350          3.149e-05
+  ok    P-E1 the bound spans orders of magnitude across configurations   1.72e-06 to 3.15e-04 — a single number would be misleading
+  ok    P-E2 and the best case is far short of the DM row's 1e-7 headline   best 1.72e-06 vs the quoted DM fractional precision 1e-7
+
+  P-F  reproduce the paper's DM-measurement precision, for contrast
+       sigma_DM = 1e-5 pc/cm^3 against DM = 10  ->  fractional 1.0e-06
+       sigma_DM = 1e-5 pc/cm^3 against DM = 100  ->  fractional 1.0e-07
+  ok    P-F1 the paper's 1e-7 to 1e-6 range is reproduced   so both numbers exist — they just measure different things
+
+==============================================================================
+  RESULT — FOR A CONSTANT SHIFT THE CONVERSION DOES NOT EXIST
+==============================================================================
+
+  THE DEGENERACY IS EXACT. A universal constant eps rescales the dispersion delay's
+  COEFFICIENT and leaves its 1/nu^2 shape untouched, so a timing model fitting
+  (t_inf, DM) absorbs it completely: DM_fit = N_e/(1+eps), t_inf unchanged, residuals
+  at machine precision (P-A). No frequency coverage breaks it -- two bands, five bands
+  or forty channels all absorb it identically (P-B), because the perturbation has the
+  same shape as the fitted term and there is no lever. The anti-control confirms the
+  statement is not vacuous: a 1/nu^4 perturbation is NOT absorbed (P-C).
+
+  SO THE OWED ITEM IS NOT OWED. "sigma_eps in physical units ... needs the full timing
+  model" understates the situation: it is not that the conversion is hard, it is that
+  for a constant eps there is nothing to convert. That closes the item, and closes it
+  more firmly than supplying a number would have.
+
+  WHAT THE 20 us ACTUALLY BOUNDS is eps VARIATION between epochs at fixed DM, and the
+  bound is strongly configuration-dependent -- 1.7e-6 for a high-DM pulsar at 327 MHz
+  out to 3.1e-4 at 1400 MHz and low DM (P-E), a span of 183x. Quoting one number here
+  would be misleading by more than two orders of magnitude, and the best case is still
+  a factor 17 short of the 1e-7 the DM row's headline suggests.
+
+  THE PAPER IS ALREADY RIGHT WHERE IT MATTERS. One sentence after the derivation it
+  says: "This row therefore tests the shift against any independent determination of
+  the same electron column." That is exactly the correct statement, and it is where a
+  sigma_eps for this row has to come from -- the precision of the independent column,
+  not the precision of the DM. The paper is also careful not to fold the 1e-7 into any
+  forecast.
+
+  ONE SENTENCE IS WORTH THE OWNER'S ATTENTION, OFFERED AS A FINDING AND NOT EDITED.
+  "The dispersion-measure row is statistically the strongest." Both numbers in that
+  paragraph are correct (P-F reproduces them), but they describe the precision of the
+  DM MEASUREMENT, and by the degeneracy that precision does not transfer to eps.
+  A referee who follows the degeneracy will arrive at this sentence. The safest repair
+  is one clause -- that the row's strength is in DM precision, while its sensitivity to
+  eps is set by the independent column determination -- but that is an authorship call,
+  not a correction to make silently in someone's paper.
+

@@ -1,0 +1,28 @@
+==============================================================================
+The β-holders elimination: who can hold a constant fraction, and at what value
+==============================================================================
+
+   mechanism                      β(t) scaling        holds?   value class
+   thermal coherence (1/T)        ∝ T/M_Pl (falls)     no       —
+   coarsening (ξ ∝ t^½)           ∝ t^(−½) (falls)     no       —
+   critical-riding (ν = 2/3)      ∝ H^(1/(1+ν)) = H^0.60  no       —
+   scaling defect network         constant (attractor) YES      0.1–0.3
+
+   the window the triangle demands: β ∈ [1.0e-04, 2.6e-04]
+   the one holder overshoots by ×385–×3000 — three orders.
+
+   critical-riding detail (the on-file exponent, run to its end):
+   relaxation ξ₀ε^(−ν)/c_s = sliding ε/H  ⟹  ε = (Hξ₀/c_s)^(1/(1+ν))
+   ⟹ β = (Hξ₀/c_s)^(1/(1+ν)) ∝ H^0.60 — falls ~0.6 e-folds per
+   e-fold of expansion; across the 60-e-fold window it moves by ~16
+   orders. Not a holder by a spectacular margin.
+
+VERDICT: structured negative. The named tension: no standard class
+   delivers a HELD fraction at 2×10⁻⁴ — the falling mechanisms die as
+   holders and the network attractor lands at 0.1–0.3. Survivor space,
+   named not asserted: (a) dissipation-suppressed dense network (~10³
+   shift, mechanism unwritten); (b) two-scale network+subcell structure
+   (~500× hierarchy unexplained); (c) upstream clock revision. The
+   sharpened kill: no non-standard holder ⟹ the β link fails ⟹ the
+   envelope mechanism loses its promotion path. On the record.
+==============================================================================

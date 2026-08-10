@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  29 JUL 2026 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.28)  2 AUG 2026 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,12 +433,12 @@ Package hyperref Info: Link coloring ON on input line 8.
 Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 8.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -446,27 +446,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 41.
+(hyperref)                removing `\\' on input line 38.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1365) in paragraph at lines 179--184
+Underfull \hbox (badness 1365) in paragraph at lines 180--185
 \OT1/cmr/m/n/10 so min-i-mal nor-mal or-der-ing has a hard ceil-ing at
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 195--199
+Underfull \hbox (badness 1515) in paragraph at lines 196--200
 []\OT1/cmr/m/n/10 Projected ten-year reaches for the ton-scale pro-
  []
 
 [2]
-Underfull \hbox (badness 1147) in paragraph at lines 253--256
+Underfull \hbox (badness 1147) in paragraph at lines 259--262
 \OT1/cmr/m/n/10 change dom-i-nates the am-pli-tude. If other lepton-
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 270--274
-\OT1/cmr/m/n/10 energy scale, with nor-mal or-der-ing, gives $\OML/cmm/m/it/10 
-m[] \OMS/cmsy/m/n/10 2
  []
 
 (./main.bbl
@@ -490,13 +484,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FC25F05DB580FC1B33B3DE0E8BEC8E03;2772.
+(rerunfilecheck)             Checksum: 183D3086813CB4B93B21DE1B7410276D;2767.
  ) 
 Here is how much of TeX's memory you used:
- 11772 strings out of 476182
- 174143 string characters out of 5795595
- 1957975 words of memory out of 5000000
- 33583 multiletter control sequences out of 15000+600000
+ 11771 strings out of 476182
+ 174135 string characters out of 5795595
+ 1958975 words of memory out of 5000000
+ 33582 multiletter control sequences out of 15000+600000
  571236 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,79p,659b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -519,10 +513,10 @@ onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb>
-Output written on main.pdf (3 pages, 254556 bytes).
+Output written on main.pdf (3 pages, 253095 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
+ 278 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
  37 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

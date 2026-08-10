@@ -1,0 +1,32 @@
+==========================================================================
+BBN abundances at the CMB-preferred points (does the CMB point heal D?)
+==========================================================================
+
+baseline / fiducial (xi off)      :  omega_b=0.02276, xi_Neff=0.0000
+  [operational (yaml, all-epochs)]  D/H=2.387e-5 (-4.7s meas / -2.9s budget)   Y_p=0.2490 (+1.0s)   joint chi2=9.70
+  [below-T_c (physically split)  ]  D/H=2.387e-5 (-4.7s meas / -2.9s budget)   Y_p=0.2490 (+1.0s)   joint chi2=9.70
+
+4D min, xi pinned OFF             :  omega_b=0.02290, xi_Neff=0.0000
+  [operational (yaml, all-epochs)]  D/H=2.362e-5 (-5.5s meas / -3.5s budget)   Y_p=0.2491 (+1.0s)   joint chi2=13.07
+  [below-T_c (physically split)  ]  D/H=2.362e-5 (-5.5s meas / -3.5s budget)   Y_p=0.2491 (+1.0s)   joint chi2=13.07
+
+test(a) transient (eval 77)       :  omega_b=0.02220, xi_Neff=0.1247
+  [operational (yaml, all-epochs)]  D/H=2.519e-5 (-0.3s meas / -0.2s budget)   Y_p=0.2503 (+1.4s)   joint chi2=1.88
+  [below-T_c (physically split)  ]  D/H=2.524e-5 (-0.1s meas / -0.1s budget)   Y_p=0.2501 (+1.3s)   joint chi2=1.68
+
+test(a) CONVERGED (chi2=1021 floor):  omega_b=0.02269, xi_Neff=0.1422
+  [operational (yaml, all-epochs)]  D/H=2.433e-5 (-3.1s meas / -2.0s budget)   Y_p=0.2508 (+1.5s)   joint chi2=6.05
+  [below-T_c (physically split)  ]  D/H=2.439e-5 (-2.9s meas / -1.9s budget)   Y_p=0.2505 (+1.4s)   joint chi2=5.38
+
+==========================================================================
+Deuterium-centering locus: (omega_b, xi) that put D/H exactly on Cooke 2.527
+(operational k_D=0.10; shows whether the CMB-preferred point sits near it)
+==========================================================================
+  xi=0.00:  omega_b*=0.02196  ->  Y_p=0.2487 (+0.9s vs Aver)
+  xi=0.06:  omega_b*=0.02204  ->  Y_p=0.2495 (+1.1s vs Aver)
+  xi=0.12:  omega_b*=0.02213  ->  Y_p=0.2503 (+1.3s vs Aver)
+  xi=0.18:  omega_b*=0.02221  ->  Y_p=0.2511 (+1.5s vs Aver)
+  xi=0.24:  omega_b*=0.02229  ->  Y_p=0.2519 (+1.7s vs Aver)
+
+  Read: if test(a) converges near one of these (omega_b*, xi) pairs, the CMB
+  and deuterium want the SAME point -- the link is closed on both ends.

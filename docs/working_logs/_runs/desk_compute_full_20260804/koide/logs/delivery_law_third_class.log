@@ -1,0 +1,126 @@
+==============================================================================
+  #87 — DOES A THIRD CLASS EXIST? THE QUESTION REDUCES TO ONE CONDITION
+==============================================================================
+
+  G-A  the reduction:  null + (Q = 2/3)  <=>  e(2 eps_0) = e(eps_0)
+  ok    G-A1 a FLAT e gives eps_1/eps_0 = 2   2.000000000
+  ok    G-A2 which is exactly what Q = 2/3 needs   Q = 0.666666667
+
+         p   e(2eps)/e(eps)   eps_1/eps_0            Q
+      -1.0      0.500000000   1.414213562  0.804737854
+      -0.5      0.707106781   1.587401052  0.753307017
+       0.0      1.000000000   2.000000000  0.666666667
+       0.5      1.414213562   4.000000000  0.500000000
+       1.0      2.000000000 1000000.000000000  0.333334000
+  ok    G-A3 among power laws e ~ eps^p, ONLY p = 0 is flat   flat at p in [0.0] — re-derives the (s,p) family's uniqueness verdict
+       NB the p = 1 row's 1e6 is the solver's upper BOUND, not a value: at
+          p = 1 the amplitude is eps-independent and the null has no solution
+          at all (#85's E-G). Read that row as a singularity — see G-I.
+
+  G-B  the thermal law is strictly increasing, so never exactly flat
+  ok    G-B1 g(x) is strictly increasing   g: 1.0000, 1.0008, 1.0207, 1.0820, 1.3130, 2.5339
+  ok    G-B2 so g(sqrt2 x) = g(x) has no solution at finite x   thermal equipartition is exact only in the limit x -> 0
+  ok    G-B3 at the corpus's x_1 = 2/9 the miss is the recorded 1025 ppm   1025.4 ppm
+  ok    G-B4 and the 6 ppm ceiling is the recorded x_1 <= 0.0170   x_1 <= 0.016971, i.e. n_bar >= 58.4
+
+  G-C  why thermal is the BEST flat law: its linear term cancels
+  ok    G-C1 dg/dx -> 0 as x -> 0, so there is no O(x) term   slope at origin = 8.327e-08
+  ok    G-C2 and the leading term is x^2/12   coefficient 0.083333332 vs 1/12 = 0.083333333
+
+  G-D  a DRIVEN flat law still carries the mode's zero point — O(x)
+       e = E_0 + hbar w/2, so e(w_1)/e(w_0) = (u + sqrt2)/(u + 1), u = E_0/(hbar w_0/2)
+  ok    G-D1 6 ppm needs u = (sqrt2-1)/delta - 1   u = 69034.6
+  ok    G-D2 i.e. about 34,500 quanta per mode   n = E_0/(hbar w_0) = 34517.3
+  ok    G-D3 against thermal's ~58 for the same budget — a factor ~591   driven 34517 vs thermal 58.4, ratio 591x
+       -> equilibrium is not one flat law among many. It is the one whose
+          leading frequency correction cancels, and it is ~591x cheaper.
+
+  G-E  an EXACT third class: a log-symmetric deposition spectrum
+       w_0 = 1.0, w_1 = sqrt2 = 1.414214, geometric mean = 1.189207115 = 2^(1/4) = 1.189207115
+  ok    G-E1 the geometric mean is 2^(1/4) w_0
+
+       sigma         e(w_0)         e(w_1)    |ratio-1|
+        0.05    0.002464755    0.002464755    7.883e-15
+        0.20    0.687046078    0.687046078    4.441e-16
+        0.50    0.941711206    0.941711206    1.110e-16
+        1.00    0.985097994    0.985097994    1.110e-16
+        3.00    0.998333151    0.998333151    0.000e+00
+  ok    G-E2 flat EXACTLY at every width tested   worst deviation 7.883e-15 — the condition fixes WHERE, not HOW BROAD
+  ok    G-E3 and it delivers eps_1/eps_0 = 2 through the null solver   2.000000000
+
+  G-F  a second exact route: a TWO-TEMPERATURE freeze
+  ok    G-F1 an exact solution exists for T_D/T_S   T_D/T_S = 0.997936
+  ok    G-F2 and it is not 1 — the sectors must be at different temperatures   a 0.206% temperature split
+
+  G-G  ANTI-CONTROL: does the geometric-mean centring do any work?
+       w_p = 1.000000:  |e(w_1)/e(w_0) - 1| = 3.129539e-01
+       w_p = 1.100000:  |e(w_1)/e(w_0) - 1| = 1.554100e-01
+       w_p = 1.189207:  |e(w_1)/e(w_0) - 1| = 1.110223e-16
+       w_p = 1.300000:  |e(w_1)/e(w_0) - 1| = 2.128214e-01
+       w_p = 1.414214:  |e(w_1)/e(w_0) - 1| = 4.555065e-01
+  ok    G-G1 ONLY the geometric mean is flat   flat at ['1.189207']
+
+  G-H  ANTI-CONTROL: width-independent, but frequency-DEPENDENT?
+  ok    G-H1 the required peak moves with w_0   peaks 0.5946, 1.1892, 2.3784, 8.6812 for w_0 = 0.5, 1, 2, 7.3
+  ok    G-H2 always at the same RATIO 2^(1/4) to w_0   so it is one condition tying the spectrum to the ring, not a free function
+
+  G-I  ANTI-CONTROL: is the reduction vacuous?
+       zero-point, e ~ sqrt(eps)    flat? no   eps_1/eps_0 = 4.000000 (recorded 4.000000) ok
+       sudden quench, e ~ 1/eps     flat? no   eps_1/eps_0 = 1.414214 (recorded 1.414214) ok
+       equal amplitude, e ~ eps     flat? no   (degenerate: no solution, see #85)
+  ok    G-I1 laws known to fail DO fail the flatness test, and reproduce their recorded ratios
+
+==============================================================================
+  RESULT — A THIRD CLASS EXISTS, AND IT IS EXACTLY CHARACTERISED
+==============================================================================
+
+  THE WHOLE DOCKET REDUCES TO ONE CONDITION. Combining the null (2 e(eps_1)/eps_1 =
+  e(eps_0)/eps_0) with Q = 2/3's requirement eps_1/eps_0 = 2, the 2s cancel and what
+  remains is
+
+      e(2 eps_0) = e(eps_0)
+
+  -- the delivery law must be FLAT across a factor sqrt2 in frequency. Every earlier
+  result is downstream: among power laws only p = 0 is flat (G-A3), which re-derives
+  the (s,p) family's uniqueness verdict from something simpler; and the occupancy lock
+  fails because integer counts cannot be flattened (#86).
+
+  THERMAL EQUILIBRIUM IS NOT AN ARBITRARY CHOICE. It is the flat law whose LINEAR
+  frequency correction cancels: e = kT + (hbar w)^2/(12 kT), no O(w) term (G-C). A
+  driven law that deposits E_0 per mode is equally "flat" in its deposit but still
+  carries the mode's own zero point, giving a FIRST-order error -- and needing ~34,500
+  quanta per mode against thermal's ~58 for the same 6 ppm (G-D). Thermal is roughly
+  591x cheaper. That reframes the contradiction: equilibrium was already the best
+  available answer, which is why it being 171x over budget hurts.
+
+  BUT STRICTLY INCREASING IS STRICTLY INCREASING (G-B). g(x) rises monotonically, so
+  g(sqrt2 x) = g(x) has no finite-x solution. Thermal is exact only in the limit. AN
+  EXACT LAW MUST THEREFORE BE NON-MONOTONIC IN w -- and that is the whole content of
+  "a third class".
+
+  TWO EXACT ROUTES, AND BOTH COST EXACTLY ONE NUMBER.
+
+  (1) A DEPOSITION SPECTRUM SYMMETRIC IN log w, centred on the GEOMETRIC MEAN of the
+      two sector frequencies: w_p = sqrt(w_0 w_1) = 2^(1/4) w_0. This is exact, and
+      exact AT ANY WIDTH (G-E) -- the condition fixes where the spectrum sits, not how
+      broad it is, so it is not fine-tuned in sigma. It is a symmetry statement, not a
+      numerical coincidence. The anti-control confirms the centring is load-bearing:
+      no other peak location is flat (G-G), and the required peak moves with w_0 while
+      holding the ratio 2^(1/4), so it genuinely ties the spectrum to the ring (G-H).
+
+  (2) A TWO-TEMPERATURE FREEZE, the sectors decoupling at different times. The free
+      ratio T_D/T_S has an exact solution (G-F). Also one condition.
+
+  WHAT THIS IS, AND WHAT IT IS NOT. It is a CLASSIFICATION: the third class exists, is
+  non-empty, and is characterised completely by a single flatness condition, with two
+  named realisations and their exact requirements. It is NOT a mechanism -- neither
+  the peak location nor the temperature ratio is derived here, and each is one number
+  the corpus does not currently supply.
+
+  THE DEBT AFTER THIS. Not "does a third class exist" (yes) and not "what must it
+  satisfy" (e(2 eps_0) = e(eps_0)), but: does anything in the model put a deposition
+  peak at 2^(1/4) w_0, or split the two sectors' freeze temperatures? Route (1) is the
+  more constrained of the two and therefore the more falsifiable -- a spectrum peak is
+  a physical object with its own consequences, while a temperature ratio is a free
+  parameter wearing a mechanism's clothes.
+

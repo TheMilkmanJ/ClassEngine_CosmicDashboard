@@ -14,9 +14,13 @@ and ρ_Λ¼ lands on the observed dark-energy scale. That path starts from Q, a 
 
 Treat this as an **existence** claim, not a precision one. The chain gives 2.2599 meV vs observed 2.25, but the composite quartic maps to λ = 26–46, and the radiative correction on ρ_Λ¼ is bounded at **0.10–0.90%** — comparable to the gap itself ([PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md), the control-edge re-examination).
 
-The price is one hypothesis: charged-lepton √m are thermally populated (what Q = 2/3 says — variance of √m equals mean squared, the Boltzmann second moment, holding to 18 ppm). The referee is one lattice number: T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative job the radiative band needs. **0.34657 crowns the kernel and the dark-energy prediction together; 0.34506 kills both.**
+The price is one hypothesis: charged-lepton √m are thermally populated (what Q = 2/3 says — variance of √m equals mean squared, the Boltzmann second moment, holding to 18 ppm). The referee is one lattice number: T_c/√σ for SU(2) with N_f = 3 — the same non-perturbative job the radiative band needs. Ideal point-values: **0.34657 crowns; 0.34506 would kill** — but under living P-048 that crown/null fork is **sky-limited** (even σ=0 ~0.98σ under present ρ_Λ error); **live falsifier is clause 4** (τ̂ outside [0.330, 0.370]).
 
 Claim conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Full derivation: [PRTOE_MATH_SPINE.md](PRTOE_MATH_SPINE.md). Map: [PRTOE_INDEX.md](PRTOE_INDEX.md).
+
+> **Paper path (2026-08-05).** This file is a short **overview note**, not a submission artifact.
+> It is the front door for the shelf, not a narrow public paper. Any export should be cut from one
+> checkable subclaim, not from this multi-claim overview.
 
 This note is the short form for a physicist who wants the math without the whole repo. The equations are short; the numbers inside them are not.
 
@@ -40,7 +44,11 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 177\
 
 - f is a **ramp**: ≈1 early, →0 after the transition (shape computed, not chosen; nothing here is a pure step).
 - ε ≈ 1.24% is the whole modification to known physics: heavier electron at recombination → earlier decoupling → smaller sound horizon → CMB re-fit at H₀ ≈ 69.9 instead of 68.2 (Hubble-tension path, thread 11).
-- Implemented in CLASS against full Planck likelihoods. Current Bayesian evidence vs ΛCDM: Δln Z ≈ +2.6 (Laplace; marginal and SH0ES-conditional). Nested sampling is unaffordable on current hardware and waits for cluster time.
+- Implemented in CLASS against full Planck likelihoods. The **current booked old-BAO pair** is
+  SH0ES-conditional and still only Laplace-marginal: volume-aware sample-covariance
+  **ΔlnZ ≈ +0.21** with soft modes, while the older **ΔlnZ ≈ +2.6** line is a historical
+  pre-bbnfix Laplace estimate. The practical nested referee path is now the **gold DESI-DR2
+  four-leg** program; it is **not launched**, so there is still no nested verdict.
 - The same ε (one amplitude, window-specific activation: OFF at BBN freeze-out, ON below T_c; see the ε-epoch table in the fingerprint file) is owed everywhere at its epoch weights: BBN, radio-band ratios, de-biased Σm_ν, Koide invariance, underground nulls — the fingerprint lattice (thread 13). One lever, many windows, no exits.
 
 ## Equation 3 — Decomposition
@@ -65,7 +73,7 @@ Gap between fit and derivation ≈1.8% of the value; the α_c instrument (once c
 
   Equal weights are **not** forced by gravity’s blindness: an energy-reading coupling weights by energy over every field, not one share per charged species. Charge both selects and weights: Σ N_c Q² over the charged nine is **8**, so c = 8/9 = 0.889; if the neutral seat then weighs zero, c = 1, which the counting argument forbids. **No single criterion forces 9/10** — it is a counting assumption the data can confirm ([PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md) §1). The ε-blind ensemble does not pick: 8/9 is 0.30σ from 9/10 at its width. Standing position for the DE prediction: **9/10, conditional on the tie as lock and equal weights**; independent check is the f̄ ensemble / α_c chain (P-2026-040).
 
-- **f̄ = 2/π = 0.63662** — derived: winding time-average ⟨|cos|⟩ from many-turn equidistribution; coupling form data-selected (P-2026-041). The winding sim’s 0.635 ± 0.026 confirms it (+0.3%); it is not the source of f̄. **Derived — not a parameter, and not a simulation output.**
+- **f̄ = 2/π = 0.63662** — derived: winding time-average ⟨|cos|⟩ from many-turn equidistribution; coupling form data-selected (P-2026-041). The standing winding ensemble, 0.63137 ± 0.00328, sits **1.6σ** from it (−0.8%, the shortfall read as the expansion’s next term c_w·ε/2) — consistent, not a clean confirmation; and it is not the source of f̄. **Derived — not a parameter, and not a simulation output.**
 
 - **α_c = 3α** — pre-registered bet (P-2026-040), on the record before the α_c chain converges; ~2.3% above where current data point. Falsifiable; not retrofit. The instrument is **not currently running** (zon_disp collapsed; seed ready).
 
@@ -76,8 +84,8 @@ If the decomposition's referees sign (its factors are currently: one conditional
 ## Stated stack (under test)
 
 The three equations close into a cosmology whose every number is **stated before the
-data speaks** — the object the evidence comparison (Laplace-from-MCMC; nested sampling
-deferred to cluster time) actually grades:
+data speaks** — the object the evidence comparison (Laplace-from-MCMC; the separate gold DESI-DR2
+nested program is designed but not launched, so it does not yet grade this harder lane) actually grades:
 
 | quantity | stated value | provenance | grade |
 |---|---|---|---|
@@ -87,14 +95,21 @@ deferred to cluster time) actually grades:
 | z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass resting on that clock alone — **the "confirmed independently" wording was withdrawn 2026-07-28** (circularity sweep, check 34: ξ ≡ ħ/(m c_s) is *defined* from m so it confirms nothing; the Schive comparison is unresolved; the superradiance band is an exposure) — and the superradiance window, which the mass **clears** (M87\*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
 | *(the evidence run's setting)* | 3.5619×10⁷ | a profiled freeze, 0.053 dex below the identity — it implies m = 1.75×10⁻²⁰, which misses all three mass checks by ≈28% | **inconsistent with the model's own mass; the run tests this point, not the identity** |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
-| Σm_ν | 61.4 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits 2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |
+| Σm_ν | ≈61.35 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits ~2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |
 | T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the standing `YHe` treatment; a re-measurement is queued and the value may move |
 
-ΛCDM meets the same data with six free parameters; this stack meets it with **zero** —
-whatever the sky refuses, the model has nowhere to retreat. That totality, not any
-single row, is the claim under adjudication — carried today by Laplace-from-MCMC; the
-nested-sampling confirmer ended on this hardware (2026-07-20) and waits for cluster time.
+ΛCDM meets the same data with six free parameters; this stack fits with **zero continuous
+dials — a count that is conditional, not absolute: it holds only while c, f̄, and α_c all
+hold** (the amplitude file's own gate — any one of the three failing turns its slot back into
+a fitted parameter). And the zero counts continuous freedom only. The stack spends **discrete
+commitments** instead: which census counting (9/10), which pairing channel, which O(1) is
+exactly 1 (C, κ_m, b), where each convention parks its factor of 2. Fewer dials than ΛCDM,
+strictly more discrete choices — that trade, stated whole, is the claim. Whatever the sky
+refuses, the model has nowhere to retreat; that totality, not any single row, is what is
+under adjudication — carried today by the booked old-BAO Laplace receipt and the open DESI-DR2
+machine lane; the laptop nested attempt ended 2026-07-20, and the current nested design path is a
+gold DESI-DR2 four-leg program that is not launched yet.
 
 ---
 
@@ -102,8 +117,31 @@ nested-sampling confirmer ended on this hardware (2026-07-20) and waits for clus
 
 What does not fit in three lines is the chain *inside* the symbols: why 9/10 (counting), why 2/π (winding history), why 177.10 keV (confining chiral ratio τ · m_e — [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md); 193 keV is never the keying value), why 3α (microphysics, bet-registered). Those are outputs of the field’s history, not axioms. Equations are three lines; receipts are the repository.
 
-**Status (2026-07-20).** Everything above is conditional on one root: the no-bare mechanism’s unconditionality (M3), named as an assumption. Deciders: α_c MCMC (grades 3α and the c-roster), f̄ ensemble, DESI DR3, and the zero-parameter evidence run with ε, A_s, n_s stated in advance. **z_on exception:** the evidence config freezes 0.053 dex off the model’s onset identity, so it grades a nearby point. **Evidence number is Laplace from MCMC**; nested sampling waits on cluster time (~9.8 h/iteration → ~163 days to first checkpoint). Chain convergence is what stands between the model and the headline evidence claim.
+**Status (2026-07-20, current note updated 2026-08-08).** Everything above is conditional on one
+root: the no-bare mechanism’s unconditionality (M3), named as an assumption. Deciders: α_c MCMC
+(grades 3α and the c-roster), f̄ ensemble, DESI DR3, and the zero-parameter evidence run with ε,
+A_s, n_s stated in advance. **z_on exception:** the evidence config freezes 0.053 dex off the
+model’s onset identity, so it grades a nearby point. **Evidence number is still Laplace from MCMC**
+on the booked old-BAO pair; the current live machine lane is DESI-DR2, and the current nested path
+is the gold DESI-DR2 four-leg design, not launched yet.
 
 ## Sources
 
-Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file uses: [Gross1961]/[Pitaevskii1961] (Eq. 1), [Kibble1976]/[Zurek1985] (winding), [HartChluba2020],[SekiguchiTakahashi2021] (varying-m_e ↔ H₀), [CLASS2011],[cobaya2021],[Planck2018],[Riess2022] (pipeline and data), [Volovik2003],[BerezhianiKhoury2015] (nearest prior art).
+Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file uses: [Gross1961],[Pitaevskii1961] (Eq. 1), [Kibble1976],[Zurek1985] (winding), [HartChluba2020],[SekiguchiTakahashi2021] (varying-m_e ↔ H₀), [CLASS2011],[cobaya2021],[Planck2018],[Riess2022] (pipeline and data), [Volovik2003],[BerezhianiKhoury2015] (nearest prior art).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence claim | **complete-conditional** / existence | banner; CC file | Lattice τ; radiative band |
+| 2 | τ = ½ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
+| 3 | Eq1 dCDF substrate | **derived** (structural) + **machine-backed** (CLASS) | Equation 1; [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md); CLASS `use_dcdf` | Structural dCDF seating derived; residual magnitude / route forks in dcdf_superfluid + CC |
+| 4 | Eq2 ε → H₀≈69.9; ΔlnZ≈+2.6 Laplace | **machine-backed** provisional | Equation 2 | Nested offline |
+| 5 | Eq3 ε stack c·f̄·α_c | **complete-conditional** | Equation 3 | c assumed; α_c bet offline |
+| 6 | Evidence finality / chain convergence | **OPEN-BLOCKED** | status | **OPEN-MACHINE:** nested + R−1 |
+
+**Non-claims:** not precision DE; not nested-confirmed evidence.
+
+**Triage:** elevate-in-place (short map). Physics ceiling: existence + provisional.

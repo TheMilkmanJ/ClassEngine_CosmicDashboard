@@ -1,0 +1,125 @@
+================================================================================
+  FLAT-DIRECTION TEST — do the stuck chains sample unconstrained directions?
+================================================================================
+
+  'flat' means posterior sd / prior sd > 0.7
+
+--------------------------------------------------------------------------------
+  dyad_mnu  (CONVERGED)   recorded R-1 = 0.176   (4865 rows, using 3406)
+    A_planck         r = 0.677  ####################
+    A_act            r = 0.646  ###################
+    Tcal             r = 0.596  #################
+    m_ncdm           r = 0.539  ################
+    Ecal             r = 0.460  #############
+    varying_me       r = 0.443  #############
+    z_reio           r = 0.205  ######
+    H0               r = 0.186  #####
+    n_s              r = 0.121  ###
+    omega_b          r = 0.110  ###
+    logA             r = 0.085  ##
+    P_act            r = 0.044  #
+    dcdf_rho_inf     r = 0.041  #
+    flat directions: 0 of 13
+--------------------------------------------------------------------------------
+  conv_desi (stuck)   recorded R-1 = 13.25   (4945 rows, using 3462)
+    A_act            r = 0.574  #################
+    Tcal             r = 0.567  #################
+    A_planck         r = 0.474  ##############
+    Ecal             r = 0.428  ############
+    z_reio           r = 0.091  ##
+    dcdf_conv_g      r = 0.079  ##
+    H0               r = 0.062  #
+    n_s              r = 0.050  #
+    P_act            r = 0.044  #
+    omega_b          r = 0.039  #
+    m_ncdm           r = 0.033  
+    logA             r = 0.031  
+    dcdf_rho_inf     r = 0.010  
+    flat directions: 0 of 13
+--------------------------------------------------------------------------------
+  zon_disp  (stuck)   recorded R-1 = 23.3   (4758 rows, using 3331)
+    Tcal             r = 0.546  ################
+    A_act            r = 0.527  ###############
+    Ecal             r = 0.426  ############
+    A_planck         r = 0.402  ############
+    z_reio           r = 0.089  ##
+    n_s              r = 0.070  ##
+    log10_zon        r = 0.069  ##
+    m_ncdm           r = 0.051  #
+    logA             r = 0.046  #
+    P_act            r = 0.044  #
+    omega_b          r = 0.033  #
+    H0               r = 0.017  
+    dcdf_rho_inf     r = 0.012  
+    flat directions: 0 of 13
+--------------------------------------------------------------------------------
+  zon       (stuck)   recorded R-1 = 40.36   (1168 rows, using 818)
+    A_planck         r = 0.884  ##########################  <-- FLAT
+    A_act            r = 0.760  ######################  <-- FLAT
+    Tcal             r = 0.597  #################
+    Ecal             r = 0.474  ##############
+    m_ncdm           r = 0.138  ####
+    z_reio           r = 0.117  ###
+    log10_zon        r = 0.111  ###
+    n_s              r = 0.100  ##
+    logA             r = 0.064  #
+    P_act            r = 0.044  #
+    H0               r = 0.026  
+    omega_b          r = 0.018  
+    dcdf_rho_inf     r = 0.012  
+    flat directions: 0 of 13
+
+================================================================================
+  CONTROLS
+================================================================================
+  ok    F-A [dyad_mnu] physics params measured == declared   9 vs 9
+  ok    F-A [conv_desi] physics params measured == declared   9 vs 9
+  ok    F-A [zon_disp] physics params measured == declared   9 vs 9
+  ok    F-A [zon] physics params measured == declared   9 vs 9
+
+  F-D  understatement bias, measured: converged mean r = 0.197, stuck mean r = 0.056  (3.5x)
+  ok    F-B nuisances are prior-dominated (higher r than physics params)   mean r: nuisances 0.565 vs physics 0.091
+  ok    F-C no posterior wider than 1.3x its prior
+
+================================================================================
+  RESULT
+================================================================================
+
+  chain                           R-1   flat  total   fraction
+  dyad_mnu  (CONVERGED)         0.176      0      9        0%
+  conv_desi (stuck)             13.25      0      9        0%
+  zon_disp  (stuck)              23.3      0      9        0%
+  zon       (stuck)             40.36      0      9        0%
+
+  converged control : 0% of directions barely constrained
+  stuck chains      : 0%
+
+  DIRECTION: no separation. Weak evidence against, with the same caveat.
+
+  THE SHARPER READING, from the per-chain rankings above.
+
+  The hypothesis names its suspects: 'the zon and dCDF parameters'. They are
+  not merely un-flat -- dcdf_rho_inf is the NARROWEST direction in every one
+  of the three stuck chains (r = 0.010, 0.012, 0.012), and log10_zon sits
+  mid-pack. The named suspects behave OPPOSITE to the prediction.
+
+  And the shape is wrong in a second way. A chain crawling along a genuine flat
+  valley should be WIDE in that direction and narrow elsewhere -- it moves
+  freely where the likelihood is level. What the stuck chains actually show is
+  narrow in EVERY direction, uniformly ~3.5x narrower than the converged
+  control. That is the signature of a chain not moving at all, not of one
+  wandering a flat valley.
+
+  WHAT THIS STILL CANNOT DO, and why it is not a refutation. It compares
+  widths, not mixing, and the understatement bias (F-D) is 3.5x -- larger than
+  any plausible signal. A chain stuck badly enough would fail to explore even a
+  genuinely flat direction, which would produce exactly this picture. So the
+  hypothesis is UNSUPPORTED and its named suspects are excluded, but the
+  general claim survives as untested.
+
+  WHAT WOULD SETTLE IT. Not a re-read of finished chains -- the bias is
+  intrinsic to them. Either (a) the likelihood's curvature at the best fit,
+  which is a property of the posterior rather than of any chain's wandering,
+  or (b) a short well-tuned run on the same parameter set. Both are real work
+  and neither is attempted here.
+================================================================================

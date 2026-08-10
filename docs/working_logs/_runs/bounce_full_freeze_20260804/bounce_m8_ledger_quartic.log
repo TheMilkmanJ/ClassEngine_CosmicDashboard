@@ -1,0 +1,38 @@
+==============================================================================
+M8 — the expansion-energy ledger at quartic order
+==============================================================================
+
+A. The shell books: constraint form (analytic, stated in docstring)
+   Interaction energy adds to inertia and to the gravitational source
+   identically ⟹ E = ½ṙ² − G·M_tot/r = 0 ⟹ H² = (8πG/3)·ρ_tot.
+   FORM unchanged; no −ρ²/ρ_c term can arise from the books themselves.
+
+B. The history the quartic does change (computed)
+   ln a      ρ_tot/ρ_b      w = p/ρ      1+w        H² zero?
+     0.00    1.000e-04     0.0000    1.0000     —
+    -1.00    2.012e-03     0.0010    1.0010     —
+    -2.00    4.122e-02     0.0198    1.0198     —
+    -3.00    1.142e+00     0.2888    1.2888     —
+    -4.00    1.487e+02     0.8906    1.8906     —
+   ρ + p > 0 at every density; H² is monotone in the contraction and
+   never crosses zero. The quartic steepens the crunch; it cannot turn
+   it. (The ledger-side restatement of the recorded ceiling no-go.)
+
+C. The discreteness analog (exact statement)
+   Quasiparticle dispersion: ω² = c_s²k²·(1 + k²ξ²/4). The correction
+   is ∝ k⁴ξ²: identically ZERO at k = 0. The medium's UV structure
+   contributes nothing to the homogeneous constraint — it activates at
+   gradient scale ξ, which is the metric-exit door. The two 'adjacent
+   lanes' are one lane, and it is the one the reconstruction already
+   has.
+
+VERDICT — M8 CLOSES NEGATIVE, and the closure is unifying
+   No bounded-density (−ρ²/ρ_c) correction is native to the recorded
+   theory at the hydrodynamic layer: not from the books (A), not from
+   the quartic history (B), and the discreteness analog lives at the
+   door, not in the homogeneous equations (C). The metric-on turn is
+   now closed at BOTH the fluid level (M5) and the constraint level
+   (M8): within the recorded theory, the bounce goes through the
+   metric exit or it does not happen. Ledger row owed.
+==============================================================================
+EXIT:0

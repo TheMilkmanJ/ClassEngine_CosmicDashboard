@@ -1,0 +1,5 @@
+LEGACY_ST use_prtoe: UNAVAILABLE or FAIL — EXPECTED if CLASS not built with flag
+  exception: CosmoSevereError: 
+
+Error in Class: Class did not read input parameter(s): use_prtoe
+

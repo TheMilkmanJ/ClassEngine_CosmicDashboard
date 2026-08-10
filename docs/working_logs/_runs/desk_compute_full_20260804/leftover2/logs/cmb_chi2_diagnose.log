@@ -1,0 +1,38 @@
+==================================================================
+PEAK POSITIONS — model vs LCDM (does the acoustic scale drift?)
+==================================================================
+  peak  model l   LCDM l  drift dl   dl/l %
+     1      221      220        +1    +0.45
+     2      537      536        +1    +0.19
+     3      814      813        +1    +0.12
+     4     1128     1126        +2    +0.18
+     5     1424     1422        +2    +0.14
+     6     1728     1726        +2    +0.12
+     7     2013     2010        +3    +0.15
+
+  mean fractional drift dl/l = +0.19%
+  -> peaks drift by a ~CONSTANT FRACTION: this is an ACOUSTIC-SCALE (theta_s)
+     mismatch. The peaks are in the wrong PLACE, not the wrong height.
+     theta_s ~ shifts all peaks by l -> n*pi/theta_s, so a fixed % drift
+     = a fixed % theta_s error. That is FIXABLE by moving H0 (or the
+     recombination via varying_me) to restore theta_s.
+
+==================================================================
+RESIDUAL SHAPE (200 < l < 2000)
+==================================================================
+  RMS fractional residual = 0.45%
+  corr(residual, dD/dl)   = -0.66
+  a large |corr| means the residual tracks the peak SLOPE = a horizontal
+  (l) SHIFT of the peaks = theta_s misalignment (fixable), not a vertical
+  height error (which would not correlate with the slope).
+
+==================================================================
+100*theta_s from CLASS (Planck pins it to 1.04109, ~0.03%)
+==================================================================
+  PRTOE (derived stack)      100*theta_s = 1.04047
+  LCDM (Planck)              100*theta_s = 1.04194
+
+  difference: -0.14%  (Planck's error on theta_s is ~0.03%)
+  -> theta_s is off by MORE than Planck's precision: this is the high-l
+     killer, and it is a background-parameter fix (H0/varying_me), not a
+     shape failure. Refit those and the high-l chi2 should collapse.

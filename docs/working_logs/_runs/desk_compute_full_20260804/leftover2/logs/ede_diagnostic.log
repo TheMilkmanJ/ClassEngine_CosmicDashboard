@@ -1,0 +1,4 @@
+
+f_EDE(z) diagnostic from a CLASS background.dat: reports the PRTOE energy
+fraction through the z_eq -> recombination window and where it peaks.
+Usage: python scripts/ede_diagnostic.py output/v3_x03_g1.0_00_background.dat

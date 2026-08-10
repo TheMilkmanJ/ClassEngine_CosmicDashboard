@@ -1,0 +1,112 @@
+{
+  "timestamp_utc": "2026-08-08T18:52:36.180006+00:00",
+  "chain_dir": "docs/chains",
+  "pair": [
+    "dyad_mnu_bbnfix",
+    "cmp_lcdm_mnu_bbnfix"
+  ],
+  "results": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "gate": {
+        "Rminus1_progress": 0.048118,
+        "N": 37605.0,
+        "timestamp": "2026-08-07T04:08:52.190063",
+        "converged": true
+      },
+      "ignore_rows": 0.3,
+      "n_samples_after_burn": 26324,
+      "gelman_rubin": 0.03917064913434462,
+      "gelman_rubin_eigenmax": null,
+      "ess_total": 492.03487221959347,
+      "params": {
+        "H0": {
+          "present": true,
+          "mean": 70.05198409681313,
+          "std": 0.7160525731593058,
+          "ess_gauss_te": 492.03487221959347
+        },
+        "m_ncdm": {
+          "present": true,
+          "mean": 0.06714272202407967,
+          "std": 0.058268381913883276,
+          "ess_gauss_te": 492.03487221959347
+        },
+        "omega_b": {
+          "present": true,
+          "mean": 0.02276368705075318,
+          "std": 0.0001255270738558513,
+          "ess_gauss_te": 492.03487221959347
+        },
+        "S8": {
+          "present": true,
+          "mean": 0.8213625686503668,
+          "std": 0.009652472069568884,
+          "ess_gauss_te": 492.03487221959347
+        },
+        "dcdf_rho_inf": {
+          "present": true,
+          "mean": 0.7040541093520548,
+          "std": 0.00543127249440545,
+          "ess_gauss_te": 492.03487221959347
+        },
+        "varying_me": {
+          "present": true,
+          "mean": 1.012832950893574,
+          "std": 0.005026411134673468,
+          "ess_gauss_te": 492.03487221959347
+        }
+      }
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "gate": {
+        "Rminus1_progress": 0.049324,
+        "N": 26294.0,
+        "timestamp": "2026-08-05T11:52:10.194879",
+        "converged": true
+      },
+      "ignore_rows": 0.3,
+      "n_samples_after_burn": 18406,
+      "gelman_rubin": 0.05529959986451299,
+      "gelman_rubin_eigenmax": null,
+      "ess_total": 288.4748921251151,
+      "params": {
+        "H0": {
+          "present": true,
+          "mean": 68.34533004031184,
+          "std": 0.3434041925090803,
+          "ess_gauss_te": 288.4748921251151
+        },
+        "m_ncdm": {
+          "present": true,
+          "mean": 0.019205773648870644,
+          "std": 0.01735020035933745,
+          "ess_gauss_te": 288.4748921251151
+        },
+        "omega_b": {
+          "present": true,
+          "mean": 0.02249947703604035,
+          "std": 8.641962973243695e-05,
+          "ess_gauss_te": 288.4748921251151
+        },
+        "S8": {
+          "present": true,
+          "mean": 0.8236282270083842,
+          "std": 0.008125304673544914,
+          "ess_gauss_te": 288.4748921251151
+        },
+        "omega_cdm": {
+          "present": true,
+          "mean": 0.11867364658657702,
+          "std": 0.0007604999984390554,
+          "ess_gauss_te": 288.4748921251151
+        }
+      }
+    }
+  },
+  "pass_hints": {
+    "ESS_prefer": ">=200 (prefer >=500) on H0, m_ncdm, model params",
+    "GR": "should be near progress R-1; not a second booking authority"
+  }
+}

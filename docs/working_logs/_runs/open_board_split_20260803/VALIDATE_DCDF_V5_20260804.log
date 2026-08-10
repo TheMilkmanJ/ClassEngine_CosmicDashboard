@@ -1,0 +1,72 @@
+
+============================================================
+TIER 1 TEST 1: CURRENT_CORE NULL PATH (use_dcdf pure fluid)
+  (Not LEGACY_ST use_prtoe — that is scripts/test_legacy_st_null_limit.py)
+  dcdf_beta retired; conv/thaw default off ⇒ dust→de Sitter fluid
+============================================================
+  sigma8 LCDM: 0.8229   Null: 0.7959   Frac diff: 3.276e-02
+  P(k=0.1) LCDM: 1.074e+04   Null: 9.979e+03   Frac diff: 7.110e-02
+  C_l(TT,l=200) Frac diff: 2.265e-02
+  Result: [92mPASS[0m — pure dCDF produces physically reasonable clustering
+
+============================================================
+TIER 1 TEST 2: TIMING BENCHMARK
+============================================================
+  Single CLASS call: 41.31s  (min=33.99s, max=46.31s)
+  PolyChord estimate: 15000 evals × 41.3s = 172.1 CPU-hours
+  Result: [91mFAIL[0m — Too slow for PolyChord run.
+
+============================================================
+TIER 1 TEST 3: PARAMETER BOUNDARY SWEEP
+============================================================
+  rho_inf=0.01 (min)            : sigma8=1.4211  [92mPASS[0m
+  rho_inf=0.90 (high)           : sigma8=0.2272  [92mPASS[0m
+  deltam_mode=0 full            : sigma8=0.2387  [92mPASS[0m
+  deltam_mode=1 clust           : sigma8=0.7959  [92mPASS[0m
+  deltam_mode=2 bary            : sigma8=0.7925  [92mPASS[0m
+  xi_Neff=0.0                   : sigma8=0.7959  [92mPASS[0m
+  xi_Neff=0.5                   : sigma8=0.7668  [92mPASS[0m
+  Result: [92mPASS[0m — All boundary points stable
+
+============================================================
+TIER 2 TEST 4: BAO FEATURE
+============================================================
+  Result: [91mFAIL[0m — Exception: 
+
+Error in Class: input_read_from_file(L:428) :error in input_read_parameters(pfc,ppr,pba,pth,ppt,ptr,ppm,phr,pfo,ple,psd,pop, errmsg);
+=>input_read_parameters(L:1751) :error in input_read_parameters_lensing(pfc,ppr,ppt,ptr,ple, errmsg);
+=>input_read_parameters_lensing(L:5298) :error; you asked for lensed CMB Cls, but this requires a minimal number of options: 'modes' should include 's', 'output' should include 'tCl' and/or 'pCl', and also, importantly, 'lCl', the CMB lensing potential spectrum.
+
+============================================================
+TIER 2 TEST 5: CMB ACOUSTIC PEAKS
+============================================================
+  First CMB peak: dCDF l=222, LCDM l=221, shift=1
+  Result: [92mPASS[0m — First acoustic peak matches LCDM position to within Δl=1
+
+============================================================
+TIER 2 TEST 6: GROWTH RATE f*sigma8
+============================================================
+  z=0.38: f=0.705, sigma8(z)=0.8430, f*sigma8=0.5942
+  z=0.51: f=0.752, sigma8(z)=0.7895, f*sigma8=0.5939
+  z=0.61: f=0.784, sigma8(z)=0.7515, f*sigma8=0.5888
+    vs BOSS: 0.497  frac diff: 0.20  OK
+    vs BOSS: 0.458  frac diff: 0.30  LARGE
+    vs BOSS: 0.436  frac diff: 0.35  LARGE
+  Result: [93mWARN[0m — f*sigma8 deviates >20% from BOSS (not fatal, PolyChord will handle)
+
+============================================================
+VALIDATION SUMMARY
+============================================================
+  [T1] ✓ null_limit     : PASS
+  [T1] ✗ timing         : FAIL (41.3s/eval — too slow for PolyChord)
+  [T1] ✓ boundary       : PASS
+  [T2] ✗ bao            : FAIL: 
+
+Error in Class: input_read_from_file(L:428) :error in input_read_parameters(pfc,ppr,pba,pth,ppt,ptr,ppm,phr,pfo,ple,psd,pop, errmsg);
+=>input_read_parameters(L:1751) :error in input_read_parameters_lensing(pfc,ppr,ppt,ptr,ple, errmsg);
+=>input_read_parameters_lensing(L:5298) :error; you asked for lensed CMB Cls, but this requires a minimal number of options: 'modes' should include 's', 'output' should include 'tCl' and/or 'pCl', and also, importantly, 'lCl', the CMB lensing potential spectrum.
+  [T2] ✓ cmb_peaks      : PASS (l1_dcdf=222, Δl=1)
+  [T2] ⚠ fsigma8        : WARN
+
+  ✗ TIER 1 FAILURES DETECTED — Fix before running PolyChord!
+============================================================

@@ -19,7 +19,7 @@ try:
         'dcdf_rho_inf': 0.7,
         'xi_Neff': 0.3,
         'varying_alpha': 1.05,
-        'dcdf_beta': 3.3e-5
+        # dcdf_beta retired 2026-07-05 (v5) — do not pass to CURRENT_CORE
     }
     
     print("Evaluating Triad Matched Point...")

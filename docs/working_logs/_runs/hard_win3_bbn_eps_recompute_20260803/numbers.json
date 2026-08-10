@@ -1,0 +1,14 @@
+{
+  "Yp0": 0.246891,
+  "Yp_window": 0.248995,
+  "eps_ref_pct": 1.2543,
+  "dYp_deps_audit": 0.0016774296420314079,
+  "dYp_deps_paper": 0.00163,
+  "Aver_Yp": 0.2453,
+  "Aver_sig": 0.0034,
+  "eps_1sig_pct": 1.1098159509202314,
+  "eps_2sig_pct": 3.1957055214723873,
+  "paper_claims_2sig": 3.2,
+  "EMPRESS_pull_at_eps0": 2.9091176470588267,
+  "pass_2sig_matches_paper": true
+}

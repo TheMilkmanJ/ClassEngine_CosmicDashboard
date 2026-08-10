@@ -1,0 +1,56 @@
+==============================================================================
+Cubic/quartic structure of the flat shape direction — corrected pass
+==============================================================================
+
+A. Pure limit (α_d = 0): cubic warping on the clean symmetry basis
+   φ =  0.000:  D3 =  +5.94194   D4 =   +0.0231
+   φ =  0.262:  D3 =  +3.61281   D4 =   -0.0066
+   φ =  0.524:  D3 =  -0.83266   D4 =   -0.0231
+   φ =  0.785:  D3 =  -4.79037   D4 =   +0.0066
+   φ =  1.047:  D3 =  -5.94194   D4 =   +0.0231
+   φ =  1.309:  D3 =  -3.61281   D4 =   -0.0066
+   φ =  1.571:  D3 =  +0.83266   D4 =   -0.0231
+   φ =  1.833:  D3 =  +4.79037   D4 =   +0.0066
+   φ =  2.094:  D3 =  +5.94194   D4 =   +0.0231
+   warping amplitude B₃ ≈ 5.94194;  periodicity check |ΔD3| = 2.78e-11
+
+B. Pure limit: the true minimum vs the analytic collinear chain
+   equilateral E₀            = +3.00000000
+   best found minimum        = +2.73837593
+   analytic collinear chain  = +2.73837593   (3 + ln(4/(3√3)))
+   sides at minimum          = 0.86603, 0.86603, 1.73205
+   analytic chain sides      = 0.86603, 0.86603, 1.73205
+   ΔE(chain − ring)          = -0.26162 q̃²  (chain is LOWER)
+
+C. Pure limit: is the collinear chain a genuine local minimum?
+   chain Hessian eigenvalues = [-2.0560e-09 -8.2239e-10  1.2089e-07  2.0000e+00  2.0000e+00  4.0000e+00]
+   nonzero spectrum positive: True  (3 zero modes: 2 translations + 1 rotation)
+
+D. Coulomb branch (α_d > 0): unbounded below — model limitation
+   E along the pair-collapse path (faces 1,2 approach; face 3 fixed):
+     r₁₂ scaled × 1.00:  E =     +1.200
+     r₁₂ scaled × 0.30:  E =     +1.144
+     r₁₂ scaled × 0.10:  E =     +0.050
+     r₁₂ scaled × 0.03:  E =     -5.817
+     r₁₂ scaled × 0.01:  E =    -24.739
+   READ: −α_d/r beats −q̃²·ln r as r → 0 — point faces collapse. The
+   physical short-distance structure (face size / string width) is the
+   missing regulator; the α_d > 0 landscape cannot be scored classically
+   beyond the local statement already made (k_E < 0: saddle).
+
+VERDICT
+  1. The virial route stays dead (quadratic pass; ledger row filed).
+  2. The pure-limit equilateral ring is NOT the classical ground state
+     of the recorded three-term energy: the collinear chain, spacing
+     √3/2·d, ties the string length (both √3·d) and wins on the log
+     term by exactly ln(4/(3√3)) = −0.2616 q̃² — verified numerically
+     to 8 decimals, and the chain is a genuine local minimum.
+  3. The equilateral point carries a nonzero cubic warping B₃ (clean
+     basis) — the flat direction tilts; flatness was the tangent of a
+     warped slope, not a protected plateau.
+  4. Consequence, stated carefully: if the equal-spacing ring premise
+     under c₂ = 4/(3ln2) is to survive, its stabilizer must come from
+     physics OUTSIDE this classical layer (junction-core energetics,
+     quantum zero-point of the soft pair, or color-structure rigidity).
+     A stabilizer is now REQUIRED, not optional. Ledger follow-up owed.
+==============================================================================

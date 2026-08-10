@@ -1,0 +1,62 @@
+==============================================================================
+The sequencing race: staggered doors in one contracting medium
+==============================================================================
+
+SYM — the translation twin (V₂ = 0): A and B must match exactly
+   sup|ρ_A(t) − ρ_B(t)| = 1.88e-11   (energy drift 3.88e-07)
+
+── §16-MATCHED stagger:  V = 2.0, V₂ = 0.6   (energy drift 3.89e-07)
+   turns: t_A =   6.9 (peak ρ  4.91),  t_B =   8.1 (peak ρ  3.21);  measured stagger 0.16 (linear-rate ratio 1.35)
+   survival, exposure window t ≤ t_B: A SURVIVES (largest later re-compression  3.32 at t =  57.1, first peak  4.91);
+   B SURVIVES ( 3.04 at t =  38.1, first peak  3.21)
+   post-turn transients (joint collisions): A end ρ 2.52 → declining, no runaway; B end ρ 2.11 → declining, no runaway
+   race: A's outflow front seeded x<80 at t = 24.1, reached B's flank at t = 28.5 (front speed ≈ 5.00 c_s) — B's door opened at 8.1: CLOCK-FIRST
+   averaging: Θ crosses to sustained expansion at t = 10.6 (doors at 6.9, 8.1); post-turn mean Θ = +0.0213
+   min density in run: 0.000  (floor 0.02)
+
+── STRESSED stagger:  V = 2.0, V₂ = 1.0   (energy drift 5.62e-07)
+   turns: t_A =   6.5 (peak ρ  5.60),  t_B =   8.5 (peak ρ  2.76);  measured stagger 0.27 (linear-rate ratio 1.67)
+   survival, exposure window t ≤ t_B: A SURVIVES (largest later re-compression  3.60 at t =  58.9, first peak  5.60);
+   B SURVIVES ( 3.30 at t =  34.7, first peak  2.76)
+   post-turn transients (joint collisions): A end ρ 2.69 → declining, no runaway; B end ρ 2.53 → declining, no runaway
+   race: A's outflow front seeded x<80 at t = 14.8, reached B's flank at t = 25.0 (front speed ≈ 2.16 c_s) — B's door opened at 8.5: CLOCK-FIRST
+   averaging: Θ crosses to sustained expansion at t = 10.4 (doors at 6.5, 8.5); post-turn mean Θ = +0.0207
+   min density in run: 0.000  (floor 0.02)
+
+── MACH-SCALED (same rate ratio):  V = 3.0, V₂ = 0.9   (energy drift 3.55e-07)
+   turns: t_A =   5.0 (peak ρ  7.98),  t_B =   6.1 (peak ρ  4.79);  measured stagger 0.20 (linear-rate ratio 1.35)
+   survival, exposure window t ≤ t_B: A SURVIVES (largest later re-compression  4.32 at t =  50.8, first peak  7.98);
+   B SURVIVES ( 4.81 at t =  60.4, first peak  4.79)
+   post-turn transients (joint collisions): A end ρ 2.78 → declining, no runaway; B end ρ 3.59 → declining, no runaway
+   race: A's outflow front seeded x<80 at t = 10.6, reached B's flank at t = 18.9 (front speed ≈ 2.65 c_s) — B's door opened at 6.1: CLOCK-FIRST
+   averaging: Θ crosses to sustained expansion at t = 7.4 (doors at 5.0, 6.1); post-turn mean Θ = +0.0227
+   min density in run: 0.000  (floor 0.02)
+
+REF — refinement pair on the §16-matched configuration (dt/2):
+
+── refined dt/2:  V = 2.0, V₂ = 0.6   (energy drift 9.73e-08)
+   turns: t_A =   6.9 (peak ρ  4.91),  t_B =   8.1 (peak ρ  3.21);  measured stagger 0.16 (linear-rate ratio 1.35)
+   survival, exposure window t ≤ t_B: A SURVIVES (largest later re-compression  3.32 at t =  57.1, first peak  4.91);
+   B SURVIVES ( 3.04 at t =  38.1, first peak  3.21)
+   post-turn transients (joint collisions): A end ρ 2.52 → declining, no runaway; B end ρ 2.11 → declining, no runaway
+   race: A's outflow front seeded x<80 at t = 24.1, reached B's flank at t = 28.5 (front speed ≈ 5.00 c_s) — B's door opened at 8.1: CLOCK-FIRST
+   averaging: Θ crosses to sustained expansion at t = 10.6 (doors at 6.9, 8.1); post-turn mean Θ = +0.0213
+   min density in run: 0.000  (floor 0.02)
+   refinement: turn times < 3%, peaks < 5% — CONFIRMED
+
+VERDICT (computed from the table above)
+   (i)  survival:        HOLDS — no pocket re-crushed while a neighbor still contracts
+   collision transients: all bounded and declining (no re-collapse)
+   (ii) sequencing:      CLOCK-FIRST throughout
+   (iv) averaged turn:   Θ crosses and stays positive
+   The reconciled wall problem COMPUTES: doors open on their own
+   clocks before any neighbor's outflow arrives, no pocket is
+   re-crushed during exposure to a contracting neighbor, the
+   later joint-collision transients are bounded and declining
+   with no re-collapse (§17 physics; full dilution belongs to
+   the re-expanding background the fixed box cannot feed back),
+   and the mass-weighted expansion rate crosses from contraction
+   to expansion as the doors open in sequence. Open (iii)
+   (transverse) stays named; 1D + flow-modeled contraction is
+   the scope. Candidate grade, reconstruction convention.
+==============================================================================

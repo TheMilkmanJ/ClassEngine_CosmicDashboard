@@ -166,3 +166,10 @@ this side of the §2 wall.**
 invariant-attribute search → w unique → operator written → profile
 computed → κ_v window reproduced unforced. Scripts were job-scratch,
 not retained.*
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation

@@ -30,11 +30,18 @@
 > the control-edge re-examination in
 > [PRTOE_cosmological_constant.md](PRTOE_cosmological_constant.md)), waiting on one scattering
 > amplitude rather than on these ensembles.
-> A lattice return at 0.34657 crowns the kernel and the dark-energy prediction together; one at
-> 0.34506 shows the model reading the sky back, and kills both.
+> Ideal point-values: 0.34657 crowns the kernel with the dark-energy prediction; 0.34506 would show
+> the model reading the sky back. **Living P-048 currency:** that crown/null fork is **sky-limited**
+> (even σ=0 lattice ~0.98σ under present ρ_Λ error). **Live falsifier is clause 4** — τ̂ outside
+> [0.330, 0.370] — not a lattice CONFIRM of the 0.44% gap alone.
 
 
-> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Residual freezes and ordered open work: [working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md](working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md), [working_logs/_runs/next_queue_20260804/](working_logs/_runs/next_queue_20260804/).*
+
+> **Paper path (2026-08-05).** This file is a **corpus hub**, not a submission artifact. The
+> only live public-paper extraction from this spine is `papers/kination-tracking-note/` /
+> [arXivReady](arXivReady/README.md), which is **READY_PACKAGE**. Keep the spine as the wider
+> derivation record; ship only narrow extracts with self-contained claims.
 
 
 *2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
@@ -49,15 +56,15 @@ PRTOE_me_mechanism_math.md (electron-mass sector detail), PRTOE_cyclic_torus_gen
 One dark superfluid, two components (the two-field split):
 
 * **Field 1** — the dCDF fluid: charge/abundance carrier, DM+DE unified. Mass m = 2.24×10⁻²⁰ eV
-[**measured** via the onset clock. **The "three independent ways" wording is withdrawn
-(2026-07-28, circularity sweep, check 34)** and the three legs now read: **(1) ξ is circular** —
+[**measured** via the onset clock. **Mass grade: the onset clock, plus at most one unresolved
+consistency check.** Candidate legs: **(1) ξ is circular** —
 ξ ≡ ħ/(m c_s) is *defined* from m and the "recorded 402 AU" is itself computed from m, so 398
 against 402 compares two computations from the same input, differing by rounding. No measurement of
 the coherence length exists. **(2) the Schive core radius is unresolved but may be real** — the
 external relation goes as 1/m and the model's own as 1/m², so they intersect at one m only and
 agreement *would* pin it, provided the model's normalization was not set from this comparison
 (provenance not established). **(3) the superradiance window** returns 7.14 pc / its recorded
-6×10⁸–3×10⁹ M☉ — **and that third one is support and exposure in the same object**: the band is
+6×10⁸–3×10⁹ M☉ — **exposure, not support**: the band is
 populated and carries high measured spins,
 and the model brings no defence there, the λ-quench margin computed at its own quartic and mass
 being −83.7 to −85.8 decades across α_g = 0.1–0.5, so P-2026-034 stands or falls on the spin
@@ -65,8 +72,8 @@ measurements alone. Under the onset clock T_on = √(m·M_red/0.61) this mass si
 **z_on = 4.03×10⁷ (log₁₀ 7.605)**, which is the value `include/background.h` carries as the derived
 identity and which five of the six production configs set. *(The free-z_on optimizer lands at
 log₁₀ z = 7.5517, which implies m = 1.75×10⁻²⁰ — 22%
-**below**, a mass that misses all three checks above by ~28%. The grade stands on the three
-independent uses, not on that landing.)*
+**below** the onset-clock mass. The grade stands on the onset clock and the unresolved Schive
+check, not on that landing.)*
 The route "derived from ε via c(m) = (m/m₀)^{1/4} at c = 1" belongs to the
 f_amp decomposition, not this one — in the standing decomposition ε = c·f̄·α_c the mass never
 touches the census c, so **no roster-trial re-pricing propagates to m, z_on, or the hinge through
@@ -142,8 +149,10 @@ running instrument:
 > - **f̄ = 2/π** — the winding time-average, the mean-absolute-sinusoid ⟨|cos|⟩, set by the
 > winding's many-turn equidistribution; the coupling form is now data-selected (2026-07-16):
 > mass-positivity kills the signed average (⟨cos⟩=0), leading-order (Yukawa, linear) picks
-> mean-absolute over the quadratic/RMS readings, and the fit (0.625) + sim (0.635) confirm 2/π,
-> rejecting RMS (0.707) at +13% — residual only "leading-order dominates";
+> mean-absolute over the quadratic/RMS readings, and the fit (0.625) + the standing winding
+> ensemble (0.63137 ± 0.00328, **1.6σ** from 2/π) sit consistent with 2/π while
+> rejecting RMS (0.707) at +13% — the ~0.8% shortfall reading as the expansion's next term
+> (c_w·ε/2), so the residual is "leading-order dominates" plus c_w itself;
 > - **α_c = 3α = d·α** — **the dark condensate fluid's** condensate coupling (α is its
 > Goldstone's — light *is* that Goldstone), the 3 being the spatial dimension d (second sound,
 > geometry, and the induced loop-trace agree); the value a bet graded by the α_c MCMC.
@@ -153,7 +162,7 @@ running instrument:
 > product. Substituting α_c = d·α and M₂ = α²·T_c collapses it to a closed form (verified identical
 > to 4×10⁻¹⁹):
 >
-> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — a +0.44% OFFSET, i.e. ~1.8σ on the observational error** *(2026-07-28: the theory side carries no free parameter, so the 0.44% is a discrepancy rather than a tolerance; ρ_Λ¼ inherits ~0.25% from Ω_Λ's ~1%. The claim is that the chain lands on the right SCALE, not on the value — the quartic sits past perturbative control, so the digits are not a precision claim — head of this file)*
+> > **ρ_Λ¼ = (d²/2)·α⁴·T_c = (9/2)·α⁴·T_c**, which on the kernel's τ gives **2.2599 meV against the observed 2.25 — a +0.44% OFFSET** *(theory side carries no free parameter; the 0.44% is a scale-landing discrepancy, not a precision claim — the quartic sits past perturbative control. Observational error on ρ_Λ¼ is ~±0.449% when Ω_Λ and h² are combined — ~0.98σ separation from the observation-inverted null 0.34506 in τ-space; see REFEREE_CALENDAR / P-2026-048. Do not use ~0.25%/1.8σ from Ω_Λ alone.)*
 >
 > | factor | owner | why |
 > |---|---|---|
@@ -213,9 +222,8 @@ Code: `dcdf_z_rad_onset` (background.h, with the derived-identity comment). *(Fi
 configs — `conv`, `conv_desi`, `dyad`, `lepton`, `nulink` — set this identity value. The `_fixed`
 family, including the running evidence job, is frozen at 3.5619×10⁷ instead: 0.053 dex low, which
 under this same clock corresponds to m = 1.75×10⁻²⁰ eV rather than 2.24×10⁻²⁰. The mass is
-committed across its three independent uses — the onset clock, the galactic cores, the
-superradiance band (§0's provenance walk) — so it cannot retreat, the identity is the
-model's value and the frozen setting is a profiled offset — see
+fixed by the onset clock (plus at most one unresolved Schive consistency check; §0's provenance
+walk), so the identity is the model's value and the frozen setting is a profiled offset — see
 `ForJustin/07-zon-two-values.md`.)*
 
 **Two jobs, one clock:** the ending regime reaches its floor (conformal
@@ -313,9 +321,11 @@ CONFIRMS, not decides.
 
 ## 5\. Recombination → today [the fitted era]
 
-m_e shifted by ε = 1.24% inside the window (H₀ fix; ΔlnZ = +2.635 Laplace, SH0ES-conditional, and
-Laplace is where it stays — nested sampling waits for cluster time, so the estimate has no confirmer
-in prospect and its margin over the decision threshold is inside its own systematic);
+m_e shifted by ε = 1.24% inside the window (H₀ fix; the historical pre-bbnfix Laplace line is
+ΔlnZ = +2.635, SH0ES-conditional, while the **current booked old-BAO pair** is weaker at
+sample-covariance **ΔlnZ ≈ +0.21**; the gold DESI-DR2 four-leg nested referee is designed but not
+launched, so the estimate still lacks a nested confirmer and its margin over any decision threshold
+remains inside its own systematic);
 screening returns m_e → standard below z ≈ 50 [survival form S = exp[−(C²/C_ref²)^n_eff],
 n_eff ≥ 35]. Optional rotation-shed `dcdf_conv_g` — the matter component draining into dark
 radiation (S₈: minimizer picks g = 0.12, S₈ = 0.821 vs KiDS 0.814).
@@ -325,7 +335,7 @@ survives (background ρ_m, not the w-mirage).
 ## 6\. The neutrino home
 
 Ψ = Majoron (L-breaking Goldstone): tree coupling σNN → Majorana m_ν → **0νββ must occur**
-(P-2026-020); **Σm_ν ≈ 61.4 meV, normal ordering** — the sum from the tie below, the *ordering*
+(P-2026-020); **Σm_ν ≈ 61.35 meV, normal ordering** — the sum from the tie below, the *ordering*
 selected by data through the P-2026-004 collision (ANN-2026-021), not by P-2026-012, which states
 it does not fix the hierarchy (ANN-2026-025). The sum is not a discriminator: it sits 2.6 meV above
 the m₁ = 0 floor against ~20 meV planned resolution. The tie:
@@ -352,45 +362,28 @@ tie's operator is now exhibited** (the tenth-channel seat term, with its UV form
 > sections below record the mechanism as it was worked out; the addendum records what happened to
 > it.
 >
-> **Current state (2026-08-02): Route-D runs on its fifth launch — and the "single decider"
-> retraction stands, for a reason that has nothing to do with whether a chain is on the box.**
-> The 2026-07-29 two-rank relaunch proved to be in a proposal deadlock (the learn gate at 100
-> against R−1 in the thousands); fixing the gate and rebuilding the covariance lifted acceptance
-> from 6% to 21–25%, but the ranks remained basin-split, so a further relaunch (2026-08-01)
-> narrowed the covariance to the winning chain's basin and went to **three MPI ranks**. It is in
-> burn-in; the two stopped runs are archived beside the chain with their diagnoses. **What does
-> not change:** the clean Route-D prediction was killed by the full-cycle KP solve analytically,
-> so no chain was ever the single decider — see the addendum, where that phrase has now actually
-> been removed from the sentence carrying it.
+> **Current state (2026-08-06):** `cmp_prtoe_routeD` runs on **three MPI ranks** (covariance
+> narrowed to the winning chain's basin). Live progress stamp: **R−1 ≈ 0.257073** at **N ≈ 11422**
+> (t=2026-08-06T01:51:33; ~**2.57×** its 0.1 stop; `converged: false`) — see
+> `PRTOE_CHAIN_TABLES.md`. Stopped predecessors are archived beside the chain with their diagnoses.
+> **What does not change:** the clean Route-D prediction was killed by the full-cycle KP solve
+> analytically; the chain adjudicates only whether the surviving imminent-turn corner lives
+> (addendum below). DESI DR3 remains the external adjudicator.
 >
-> **Correction, 2026-07-28 (the state that prompted the retraction, kept for the record): there was
-> no running Route-D chain, and the one that had run could not have
-> decided anything.** This passage previously named it "the single decider". On the box,
-> `cmp_prtoe_routeD` holds **exactly one** chain file — 11,508 steps, 363 accepted (3.2%
-> acceptance), **last written 2026-07-20**, with a header-only progress file. The blocker is
-> structural rather than temporal — *though not in the way this passage first stated it (corrected
-> 2026-07-29).* It previously read: "the Gelman–Rubin statistic is a between-chain quantity, so a
-> one-chain run yields no convergence diagnostic **however long it runs**." **That is false.** When
-> only one process is running, the sampler splits the single chain into `Rminus1_single_split`
-> segments (default 4) and computes R−1 *across those segments* — a within-chain split-R̂. Other
-> single-chain runs on this box did record one (R−1 = 13.25 at N = 3744; R−1 = 40.36 at N = 832), so
-> the statistic is produced, and is comparable across them.
->
-> **The real objection is sharper, and it survives.** A split-R̂ compares segments of *one*
-> trajectory, so it **cannot detect a chain confined to a single basin** — every segment shares the
-> confinement. A between-chain R−1 can, because independently seeded chains would have to agree. The
-> failure mode that actually matters here is precisely multi-modality, so a one-chain run supplies a
-> number that is *blind to the thing being tested.* Deciding this fork from the model's own chains
-> therefore still requires a multi-chain relaunch — **which has since been done, three times over**:
-> the current run (2026-08-01) carries **three MPI ranks** on a covariance narrowed to the winning
-> chain's basin, in burn-in, with the two stopped predecessors archived beside it. The external
+> **Route-D multi-chain requirement.** A within-chain split-R̂ (segments of one trajectory) **cannot
+> detect a chain confined to a single basin** — every segment shares the confinement. A
+> between-chain R−1 can, because independently seeded chains would have to agree. The failure mode
+> that matters for this fork is multi-modality, so a one-chain run supplies a number *blind to the
+> thing being tested.* Deciding this fork from the model's own chains therefore requires a
+> multi-chain run — **which is the standing production setup**: three MPI ranks on a covariance
+> narrowed to the winning chain's basin (see `PRTOE_CHAIN_TABLES.md` for live R−1 / N). The external
 > adjudicator (DESI DR3) is unaffected and still decides the branch.
 
 **7a. The sequestered floor — a route that does not work.** A Kaloper–Padilla vacuum-sequestering
 attempt to fix the dark-energy value from the cosmic expansion history was checked and fails: it
 predicts a dark-energy-to-matter ratio at least ~5× too small (and zero for an eternally expanding
 universe). So the value is not fixed this way. The model's standing dark-energy predictions remain
-**w = −1 exactly** and the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν = 61.4 meV).
+**w = −1 exactly** and the neutrino tie (ρ_Λ¼ = m_ν,lightest ⟹ Σm_ν ≈ 61.35 meV).
 
 **7b. The thaw [the necessary consequence].** Observed Λ ⟹ turnaround within \~an e-fold ⟹
 **m_J \~ (1–3)H₀** ⟹ the floor is thawing NOW:
@@ -404,7 +397,7 @@ Code: `dcdf_floor_thaw` (new 2026-07-10; ≤0 recovers w = −1 exactly). ρ_flo
 **7c. The branch [registered as P-2026-056, guards discharged]:**
 
 > **P-2026-018 (w = −1 exact) XOR Route-D (thaw-now, w₀ ∈ [−0.92,−0.86], wₐ < 0, no phantom).**
-> DESI DR3 adjudicates: thaw-side → Route-D (J1+why-now+DESI in one stroke, P-018 dies);
+> DESI DR3 adjudicates: thaw-side → Route-D (J1+era-width timing+DESI in one stroke, P-018 dies; **occupancy / ordinary why-now remains OPEN**);
 > rigid → P-018 (distinctive win; Route-D dies, J1 reverts to constitution);
 > TRUE phantom in the DATA → both die. Guards: distance-space phrasing, KP solve, timestamp
 > (J1-derivation precedes DESI-convergence), A2+A3 net (answered) — each stated with its
@@ -631,7 +624,9 @@ also a⁻⁶). **This model's recorded first regime is w = 1/3** — the phonon-
 (UV_completion §step 3) — which scales as a⁻⁴ and therefore **loses to shear by two powers of a**.
 Contracting through three decades of scale factor, the anisotropy-to-radiation ratio grows by 10⁶.
 The one place kination appears in the corpus is the ALP rotation's *redshifting*, not a phase the
-contracting branch is recorded to pass through. So the bounce sector does not merely owe a field
+contracting branch is recorded to pass through. The exportable negative result now lives separately
+as `papers/kination-tracking-note/` / [arXivReady](arXivReady/README.md) — **READY_PACKAGE** — while
+this spine remains the wider corpus derivation record. So the bounce sector does not merely owe a field
 equation solved in time: **it owes an equation of state at the approach that the recorded regimes do
 not currently supply**, and until one is named the BKL objection stands unopposed rather than open.
 Tolman is untouched by this and remains separately unresolved.
@@ -704,9 +699,8 @@ the physics has none.**
 
 ## 9\. Ledger (what this spine rests on)
 
-**Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, the mass
-committed across its three independent uses — the onset clock, the galactic cores, the
-superradiance band — per §0's provenance walk); **the
+**Recorded:** DM+DE unification (2→1); ε derived; onset = H=m identity (z = 4.03×10⁷, mass fixed
+by the onset clock plus at most one unresolved consistency check — per §0's provenance walk); **the
 electron-coupled scalar's onset is T_c = 177.10 keV from the lepton-mass relation's τ = ½ln2** —
 the value's source is the confining chiral ratio, not the electron loop, whose predecessor
 *configuration* (the CW VEV at ≈ 175 keV) §4 retires
@@ -717,7 +711,7 @@ any decay constant; AZK-safety; leptonic allowed ≠ generated.
 **Falsified:** P-2026-004 (high Σm_ν); the sequestering route to the dark-energy value (§7a, and the
 full-cycle KP solve in the addendum — the internal falsifier fired).
 
-**Live falsifiers:** DESI DR3 (the branch), Σm_ν ≈ 61.4 meV, 0νββ, void/IGM m_e-step (P-007, J4).
+**Live falsifiers:** DESI DR3 (the branch), Σm_ν ≈ 61.35 meV, 0νββ, void/IGM m_e-step (P-007, J4).
 
 **Settled since this ledger was last written** — each was carried here as open and each is closed
 elsewhere in the corpus:
@@ -744,13 +738,12 @@ fork with a signature moves an unmeasurable quantity. That is a permanent grade 
 and it belongs beside c on the list of things the model counts on rather than derives.
 
 **Standing:** open pending the named referees, DESI-capped; the branch is registered
-(P-2026-056) with its guards discharged. Its adjudicating chain runs on its **fifth launch**
-(2026-08-01: three MPI ranks on a covariance narrowed to the winning chain's basin, in burn-in;
-the stopped predecessors are archived beside it with their diagnoses — §7 carries the history).
-Note the earlier gloss here — that a one-chain run "cannot
-yield a convergence statistic at all" — was **wrong and is corrected in §7**: a single chain does
-yield a within-chain split-R̂; what it cannot do is detect confinement to one basin, which is the
-failure mode at issue. **DESI DR3 remains the adjudicator and is unaffected.**
+(P-2026-056) with its guards discharged. Its adjudicating chain (`cmp_prtoe_routeD`) runs on
+**three MPI ranks** (covariance narrowed to the winning chain's basin); live stamp R−1 ≈ 0.257073
+@ N ≈ 11422 (2026-08-06; see `PRTOE_CHAIN_TABLES.md`). A single chain does yield a within-chain
+split-R̂; what it cannot do is detect confinement to one basin, which is the failure mode at issue
+— that is why the multi-chain production setup is required (§7). **DESI DR3 remains the adjudicator
+and is unaffected.**
 
 *(Every debt on this page names where it is closed or what it waits on. Bare "open" is not a
 status: [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md) resolves task numbers, and
@@ -773,11 +766,8 @@ The two kill switches MERGE, and the Route-D MCMC (thaw free on the DESI joint s
 analytically by the full-cycle KP solve, with no chain involved. What the chain still settles is
 whether the surviving imminent-turn corner lives: thaw pulled hard → corner lives; thaw \~ 0 →
 Route-D dead twice over, **P-2026-018 (w = −1 rigid) stands as the distinctive branch, and J1
-reverts to constitution/boundary-datum.** *(This sentence read "is the single decider" until
-2026-07-29. The §7 header has carried a correction saying it "previously named it 'the single
-decider'" since 2026-07-28 — but the correction was written at the head of §7 and never applied
-to this line down in the addendum, so the retracted phrase stood for a day beneath its own
-retraction.)*
+reverts to constitution/boundary-datum.** The chain is **not** the sole decider of the fork —
+the clean Route-D prediction was already killed analytically.
 §7d (the melt/re-form cycle closure) is unaffected as a phenomenological cycle picture. Held
 open. *(The turn's
 own timing follows from the surviving structure — the thaw plus the sector's negative bare
@@ -797,7 +787,7 @@ the first lines); the census = the selection rules; the CMB = the recombination 
 Chemistry: the electron-coupled scalar = one universal lepton rescaling ε, C²-gated, one
 fingerprint across H₀/D-H/ν/21cm/radio. Present: mid-emission — Γ_par/H = √3 (IR scale) and
 Γ_eff/H = √(3/2) with B = 1/√2 (Jeans growth rate, derived) = the linewidth
-(why-now); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
+(era-width clock; **not** occupancy / why-now closed — OPEN); symptoms {coupling dipole, mass defect = the thaw, recoil = the axis} = the falsifier
 board. Biography: first excitation (Tolman arrow, finite past) → lengthening cascades → possible
 ionization (binding energy un-computed). J1 = the ground-state eigenvalue: constitutional, at home.
 **Status: the grammar is coherence (graded throughout);
@@ -808,10 +798,10 @@ the empirical content lives in the children and the symptom chart. The method wa
 
 **The threading survey:** sixteen direct threads filed and graded (galactic/SMBH
 atoms, the neutrino home, S₈, low-ℓ, the lepton-mass relation's invariance, the laboratory
-analogues, the coincidence problem [why-now = √3·A_s·the floor — the √3 one-pager discharged: the
+analogues, the coincidence problem [era **width** = √3·A_s·the floor — the √3 one-pager discharged for width only: the
 Friedmann factor,
 value-independent; B = 1/√2 derived from Jeans dispersion, par-question closed
-for the thaw rate], the purchased silences [direct+indirect],
+for the thaw rate; **occupancy / ordinary why-now remains OPEN** — not a coincidence close], the purchased silences [direct+indirect],
 GW [the vortex null Gμ ~ 3×10⁻²¹; the chirality family's third member], the Hubble standalone,
 the radio lattice, the fingerprint capstone, IGMF helicity, LSS parity). **The protocol** (now
 standing law): model every transition as smooth unless quantization protects a jump; adopt a
@@ -897,7 +887,7 @@ short-distance corrections (∝ k⁴ξ²) vanish for homogeneous cosmology, acti
 only at coherence-length gradients. **Consequence: the bounce proceeds through
 the end of the metric description or not at all**, and the restart event is a
 past boundary of the emergent spacetime by exhaustion
-([PRTOE_white_holes.md](PRTOE_white_holes.md) §10).
+([PRTOE_white_holes.md](exploratory/PRTOE_white_holes.md) §10).
 
 The boundary's causal structure is written: the exit surface is spacelike for
 order-unity density contrasts, collapsed regions bound it with absorbing
@@ -961,7 +951,7 @@ parameters. Grade: candidate; the surviving route is unique.
 
 The conditional in §23.1 — "the bounce proceeds through the end of the metric
 description or not at all" — is sharpened by the light-sector scale separation
-(recorded the same day; [PRTOE_white_holes.md](PRTOE_white_holes.md) §11): the
+(recorded the same day; [PRTOE_white_holes.md](exploratory/PRTOE_white_holes.md) §11): the
 closures exclude a homogeneous turning point, and the description that ends at
 the coherence scale is the *hydrodynamic description of the dominant component*,
 while the substrate carrying the geometry — and the Standard-Model fields, which
@@ -1009,3 +999,22 @@ candidate grade. Live referees: the crossover number of P-2026-048, the
 kernel-host condition of the hierarchy sector (its formation-epoch number, paid
 in hierarchy §6n), and the concordance value of the screening factor at the
 chains' convergence.
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence (headline) | **complete-conditional** / existence | banner; CC | Lattice + radiative band |
+| 2 | τ = ½ln2 from Koide; nothing cosmological in chain | **derived-conditional** | banner | P-048 |
+| 3 | m = 2.24×10⁻²⁰ eV “three ways” | **OPEN** / commitments | §0 circularity sweep | ξ circular; not three confirmations (independence audit #4) |
+| 4 | dCDF structural: w=−1, H=m onset, finite floor | **derived** (structural) | §0 Field 1 | Residual magnitude open |
+| 5 | Electron-coupled scalar / ε windows | **complete-conditional** | Field 2; THE_AMPLITUDE | Stack parents |
+| 6 | Bounce / cyclic rungs full dynamics | **OPEN-BLOCKED** | cyclic / bigbang files | **OPEN-THEORY:** bounce |
+| 7 | A_s closed form vertices candidate | **complete-conditional** | closing cascade | Referees: P-048, host, chains |
+| 8 | Full quantitative chain map | **interpretation** (document map) + mixed child grades | whole file; child files own physics | Not a single derivation; discipline map only — child rows carry physics grades |
+
+**Non-claims:** not “m pinned three independent ways”; not precision DE decimals.
+
+**Triage:** elevate-in-place (spine map). Physics ceiling: mixed; several OPEN-BLOCKED.

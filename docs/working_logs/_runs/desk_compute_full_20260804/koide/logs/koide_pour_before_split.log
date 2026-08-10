@@ -1,0 +1,83 @@
+==============================================================================
+(1) AT DEGENERACY EVERY DELIVERY LAW AGREES — THAT IS THE WHOLE POINT
+==============================================================================
+  Stage 1 has eps_q = a for every q, so w_q = w for every q. Any transfer weight is a
+  function of w alone, so it returns the SAME number for all three modes:
+
+  transfer weight                                E_neutral   E_charged   equal?
+  ------------------------------------------------------------------------------
+  sudden, 1/w^2 per mode   (the corpus's pin)     1.000000    1.000000      YES
+  flat per log                                    1.000000    1.000000      YES
+  thermal / equipartition                         1.000000    1.000000      YES
+  resonant, 1/w                                   1.000000    1.000000      YES
+  anything else f(w)                              1.367879    1.367879      YES
+
+  Trivially true and load-bearing: the delivery-law ambiguity that has cost this arc
+  three cycles simply does not exist while the modes are degenerate. Equal energy at a
+  common frequency is equal quanta, so the pour hands over a common occupation number
+  no matter how impulsive it is.
+
+==============================================================================
+(2) ORDER A — POUR FIRST, THEN SPLIT ADIABATICALLY
+==============================================================================
+  The pour lands on degenerate modes (common n), then the face-face bonds ramp on and
+  each mode conserves its action, so n is carried through unchanged. At the end
+  <x^2> = (2n+1) hbar / (2 M w) with a COMMON n:
+
+    <x^2>_neutral ~ 1/w_0 = 1.00000000
+    <x^2>_charged ~ 1/w_1 = 0.50000000
+    R^2/f_0^2 = 1.00000000      (the null needs 1)
+    Q = 0.6666666667      (2/3 = 0.6666666667)
+    miss = 0.000 ppm
+
+==============================================================================
+(3) ORDER B — SPLIT FIRST, THEN THE SUDDEN POUR
+==============================================================================
+  Now the pour arrives on an already-split spectrum and its w-dependence bites. With the
+  pinned sudden weight E_q ~ 1/w_q^2, and <x^2> = E/(M w^2), the amplitude goes as 1/w^4:
+
+    <x^2>_neutral ~ 1/w_0^4 = 1.00000000
+    <x^2>_charged ~ 1/w_1^4 = 0.06250000
+    R^2/f_0^2 = 0.12500000      (the null needs 1)
+    Q = 0.3750000000      (2/3 = 0.6666666667)
+    miss = 43.8%
+
+  and the stiffness ratio that WOULD make order B work is not 4:
+    R^2/f_0^2 = 2 (w_0/w_1)^4 = 2 (eps_0/eps_1)^2 = 1  ->  eps_1/eps_0 = sqrt2
+    check: 2*(1/math.sqrt(2))**2 = 1.0000000000
+  which is neither the graph's 4 nor the thermal 2 nor the ring-on-ring 1/2.
+
+==============================================================================
+(4) THE TWO ORDERS ARE NOT CLOSE, SO THIS IS A REAL PREDICTION
+==============================================================================
+  order                                           Q       from 2/3
+  ------------------------------------------------------------------
+  A: pour while degenerate, then split   0.6666666667       0.000 ppm
+  B: split first, then sudden pour     0.3750000000         43.8 %
+
+  Order B misses by 44% -- it is not a near-miss to be fixed by a
+  correction. The mechanism therefore does not merely tolerate an ordering, it REQUIRES
+  one, and says which.
+
+==============================================================================
+(5) IS ORDER A THE ONE THE CORPUS ALREADY PINS?
+==============================================================================
+  It is what the corpus's own words describe, though the corpus has not drawn the
+  consequence. Pin 2 calls the pour 'genesis, one instant' -- an injection event. The
+  face-face couplings are what the medium MEDIATES between faces, so they cannot precede
+  the faces' existence as excitations of that medium (P4a). Injection into the newborn,
+  still-degenerate ring, followed by the ring's own structure developing, is order A.
+
+  WHAT WOULD REFUTE IT. If the corpus's freeze dynamics place the face-face coupling as
+  present from the first instant -- i.e. the ring is born already split -- then order B
+  applies, the mechanism predicts Q = 0.375, and it is dead. That is a clean kill
+  condition on a structural question, not on a measurement.
+
+  WHAT IS NO LONGER OWED. The 'delivery law at freeze' fork does not need settling in
+  the form it was posed. It only mattered because the sectors were assumed split when
+  the energy arrived. Under order A every law gives the same answer, so the question
+  collapses from 'which weight' to 'which order' -- and the second is answerable from
+  structure rather than from a rate nobody has measured.
+
+  STILL OWED, and smaller than before: (P4b)'s adiabaticity is now needed only for the
+  SPLIT, not for the pour. The pour may be as impulsive as the corpus pins it.

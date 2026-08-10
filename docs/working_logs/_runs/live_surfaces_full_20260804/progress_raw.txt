@@ -1,0 +1,58 @@
+=== progress tails (last 3 rows each live chain) ===
+--- chains/dyad_mnu_bbnfix.progress ---
+15969.000000 2026-08-03T02:35:30.101631  0.99663  0.19103 NaN
+17384.000000 2026-08-03T09:32:30.354800  0.996446  0.159888 NaN
+18837.000000 2026-08-03T17:57:59.890097  0.99672  0.189201 NaN
+--- chains/cmp_lcdm_mnu_bbnfix.progress ---
+16075.000000 2026-08-03T07:49:13.988426  0.985174  0.053867 NaN
+17458.000000 2026-08-03T14:21:54.839631  0.984884  0.048827 NaN
+19013.000000 2026-08-03T21:05:36.968557  0.983857  0.059055 NaN
+--- chains/cmp_prtoe_routeD.progress ---
+#       N                  timestamp acceptance_rate         Rminus1      Rminus1_cl
+1609.000000 2026-08-03T20:53:57.575011  1.0  102.794555 NaN
+
+=== checkpoints ===
+--- chains/dyad_mnu_bbnfix.checkpoint ---
+sampler:
+  mcmc:
+    converged: false
+    Rminus1_last: 0.18920075919140164
+    burn_in: 0
+    mpi_size: 3
+--- chains/cmp_lcdm_mnu_bbnfix.checkpoint ---
+sampler:
+  mcmc:
+    converged: false
+    Rminus1_last: 0.05905511181721022
+    burn_in: 0
+    mpi_size: 3
+--- chains/cmp_prtoe_routeD.checkpoint ---
+sampler:
+  mcmc:
+    converged: false
+    Rminus1_last: 102.79455471855752
+    burn_in: 0
+    mpi_size: 3
+
+=== chain row counts + mtime ===
+-rw-r--r-- 1 themilkmanj themilkmanj 4515840 2026-08-04 02:41 chains/cmp_lcdm_mnu_bbnfix.1.txt
+-rw-r--r-- 1 themilkmanj themilkmanj 4509792 2026-08-04 02:44 chains/cmp_lcdm_mnu_bbnfix.2.txt
+-rw-r--r-- 1 themilkmanj themilkmanj 4421088 2026-08-04 02:42 chains/cmp_lcdm_mnu_bbnfix.3.txt
+-rw-r--r-- 1 themilkmanj themilkmanj  504640 2026-08-04 02:40 chains/cmp_prtoe_routeD.1.txt
+-rw-r--r-- 1 themilkmanj themilkmanj  564400 2026-08-04 02:41 chains/cmp_prtoe_routeD.2.txt
+-rw-r--r-- 1 themilkmanj themilkmanj  540496 2026-08-04 02:41 chains/cmp_prtoe_routeD.3.txt
+-rw-r--r-- 1 themilkmanj themilkmanj 4756224 2026-08-04 02:43 chains/dyad_mnu_bbnfix.1.txt
+-rw-r--r-- 1 themilkmanj themilkmanj 4716800 2026-08-04 02:42 chains/dyad_mnu_bbnfix.2.txt
+-rw-r--r-- 1 themilkmanj themilkmanj 4778752 2026-08-04 02:41 chains/dyad_mnu_bbnfix.3.txt
+    6756 chains/dyad_mnu_bbnfix.1.txt
+    6700 chains/dyad_mnu_bbnfix.2.txt
+    6788 chains/dyad_mnu_bbnfix.3.txt
+    6720 chains/cmp_lcdm_mnu_bbnfix.1.txt
+    6711 chains/cmp_lcdm_mnu_bbnfix.2.txt
+    6579 chains/cmp_lcdm_mnu_bbnfix.3.txt
+     760 chains/cmp_prtoe_routeD.1.txt
+     850 chains/cmp_prtoe_routeD.2.txt
+     814 chains/cmp_prtoe_routeD.3.txt
+   42678 total
+
+stamp: 2026-08-04T02:45:34-06:00

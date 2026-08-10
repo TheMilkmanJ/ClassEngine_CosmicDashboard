@@ -76,3 +76,11 @@ INHERITED VERDICTS (the lawful deaths — every leaf cites its parent's law):
 DESI w≠−1 · Tsirelson deviation · frequency-flat birefringence confirmed · a haloscope photon ·
 a DM recoil · Q-drift · an orphan physics · a pre-genesis relic · wrong-sign helicity ·
 a comb detected at a spacing no n in the band allows · the radio chord's ratios broken.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** story/map — exploratory-ok
+**Triage:** exploratory-ok
+**Banner:** discipline above story; physics map/story ceiling intentional
+**Non-claims:** not a derivation; not predictions surface; not Failures (not a killed claim)

@@ -1,0 +1,108 @@
+============================================================================
+THE ENTROPY FRONT AT HIGH RELATIVE VELOCITY
+============================================================================
+
+  c_s   = sqrt(3 alpha) c = 0.1479596 c = 44,357 km/s
+  step  = 6.41 keV, of which a traversing element takes the kinetic
+          third = 2137 eV at full traversal
+
+[1] The recorded slow-limit numbers, reproduced
+    ordinary infall, 1000 km/s     f = 0.0225 (booked 0.023)   dE =  48.2 eV (booked 50.0)
+    merger shocks, ~3000 km/s      f = 0.0676 (booked 0.07)   dE = 144.5 eV (booked 150.0)
+
+    The slow-limit law is reproduced, so the extension below is an extension
+    of the corpus's own construction and not a substitute for it.
+
+[2] Where the linear law dies
+    f = v/c_s is a TRAVERSED FRACTION. A fraction cannot exceed one, so the
+    law is only meaningful while v < c_s, and the correct statement is
+
+        f = min(1, v/c_s),      dE = (E_step/3) * f
+
+    Saturation at v = c_s = 44,357 km/s gives the ceiling
+        dE_max = E_step/3 = 2137 eV per particle
+    which in the file's own units is ~2137 keV cm^2 --
+    above the 100-300 keV cm^2 floors that groups actually show.
+
+    So the ceiling is NOT small. The reason the channel stays sub-dominant is
+    entirely that nothing gets near the ceiling, which is the next section.
+
+[3] Why the saturation velocity and the dissipation threshold are the same
+    Two independent statements both land on c_s:
+      (a) f = v/c_s reaches 1 at v = c_s   -- the element traverses the whole front
+      (b) Landau's criterion on the Bogoliubov branch gives v_c = c_s exactly
+          (no roton minimum; see medium_induced_decoherence.py)
+
+    They are the same number because both are the speed at which the medium
+    re-phases. Below it the medium keeps ahead of the element, the pickup is
+    adiabatic, and Landau forbids any excitation -- the entropy gained is
+    reversible work, not dissipation. At and above it the medium can no longer
+    keep ahead, and the same crossing that saturates the fraction also opens
+    the excitation channel. The slow-limit treatment is therefore not merely
+    an approximation that degrades; it describes a qualitatively different
+    regime from the one above threshold, and there is a sharp line between.
+
+[4] What actually reaches it
+    Threshold: 44,357 km/s = 0.1480 c
+
+      system                          v (km/s)     v/c_s     regime
+      cool-core infall                      800     0.018   subcritical
+      cluster infall, typical             1,000     0.023   subcritical
+      merger shock, typical               3,000     0.068   subcritical
+      Bullet Cluster shock                4,700     0.106   subcritical
+      fastest known cluster merger        5,000     0.113   subcritical
+      AGN outflow, slow end (0.03c)       8,994     0.203   subcritical
+      AGN ultra-fast outflow (0.1c)      29,979     0.676   subcritical
+      AGN ultra-fast outflow (0.3c)      89,938     2.028   SUPERCRITICAL
+      relativistic jet (Gamma ~ 10)     298,293     6.725   SUPERCRITICAL
+
+    Every thermal-gas system in the universe is subcritical, and by a wide
+    margin: the fastest cluster merger known reaches v/c_s = 0.113.
+    Its pickup is 241 eV, i.e. ~241 keV cm^2 -- inside the
+    observed 100-300 floor range, but still a few per cent of what the shock
+    itself supplies, exactly as the file already argues.
+
+[5] The one place the threshold is crossed by bulk matter
+    The threshold, 0.148 c, sits INSIDE the observed range of AGN
+    ultra-fast outflow velocities, which run from about 0.03 c to 0.3 c.
+    So the model divides a single observed population in two: outflows below
+    0.148 c move through the medium without exciting it, and outflows above
+    that velocity can. Relativistic jets are far above and always supercritical.
+
+    This is a sharp, model-specific velocity applied to a population that is
+    already measured and already binned by velocity. Whether the crossing is
+    OBSERVABLE is a separate question and needs the matter-medium coupling,
+    which is not yet fixed -- so no detectability claim is made here.
+    What is fixed is where the line falls.
+
+============================================================================
+VERDICT on #65
+============================================================================
+
+    The owed treatment is supplied, and the answer is that the regime the file was
+    worried about is never reached by the gas the file is about.
+
+      * The linear law f = v/c_s is a traversed fraction and saturates at f = 1.
+        Its ceiling is E_step/3 = 2137 eV per particle, which is ABOVE the observed
+        100-300 keV cm^2 floors. The channel is bounded by the ceiling, not by the
+        law being small.
+
+      * Saturation and the Landau threshold are the same velocity, c_s, because both
+        measure how fast the medium re-phases. Below it the pickup is adiabatic and
+        Landau forbids excitation; above it the pickup saturates and dissipation opens.
+
+      * Every thermal-gas system is subcritical. The fastest cluster merger known
+        reaches v/c_s = 0.113, so the slow-limit treatment is valid everywhere the
+        corpus applies it. The high-velocity correction to cluster entropy is nil.
+
+      * The threshold IS crossed by AGN ultra-fast outflows, whose measured velocities
+        straddle 0.148 c, and by relativistic jets. That is where any high-velocity
+        physics lives, and it is a different observational programme from the entropy
+        floor entirely.
+
+    Net: #65 closes for clusters by showing the correction vanishes there, and hands
+    the surviving question to a population the entropy file never considered.
+
+============================================================================
+CHECKS: 7/7 passing
+============================================================================

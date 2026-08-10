@@ -1,10 +1,29 @@
 # Neutrino sector — dark energy sets the lightest mass
 
-Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).
+> ## Residual freeze — consistency stamp (2026-08-04)
+>
+> **COMPLETE-CONDITIONAL** on the relation + m_ββ window. The booked old-BAO Σm_ν joint posterior
+> now lives at [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md) via the
+> `bbnfix_booking_20260808_005626` receipt; this file is still **not** the joint-posterior
+> authority.
+>
+> **Paper path:** this file is the **source note** for `papers/neutrino-mbb/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** and is the only ship artifact for the m_ββ window. **Fairbank HOLD:** owner submitted that package to William Fairbank 2026-08-03; **no arXiv post** claimed. Owner prep: [arxiv_owner_prep_20260804](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md). Full honesty package: [neutrino_full_honesty_20260804](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
+>
+> **Forbidden:** invent joint posteriors; claim package “posted”; invent second Fairbank TeX; treat null 0νββ as confirmation.
+>
+> **Authority card (2026-08-05):** Fairbank hold / posting state is centralized in
+> [blocked_lane_fairbank_hold_20260805/REPORT.md](working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md).
+
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Home / joint-fit residual: [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md). Letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md).
 
 Consolidates the model’s most experiment-facing claim block. Components range from recorded (Majoron structure, P-2026-012/020) to exploratory (ρ_inf closure, on review hold). Relevant tests: ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
 
-**Status.** Mass relation and 0νββ window established. Open: exact μ value, flavor-distribution calculation, next falsifiable Majoron consequence, ρ_inf closure.
+**Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path:
+**neutrino-mbb READY not posted** under Fairbank HOLD. Open: exact μ value, flavor-distribution
+calculation, next falsifiable Majoron consequence, ρ_inf closure; the booked old-BAO Σm_ν receipt
+lives on the home page, while DESI-DR2 remains the open machine lane. This shelf file keeps the
+fuller mechanism and honesty context; the public short paper is the narrower `neutrino-mbb`
+package only.
 
 ## 0. Claims
 
@@ -12,7 +31,7 @@ Consolidates the model’s most experiment-facing claim block. Components range 
 
 2. **Lightest mass = dark-energy scale:** m₁ = ρ_Λ¼ = 2.25 meV (lepton-number-breaking scale in the Majoron sector; Majoron = Goldstone of spontaneously broken L — MATH_SPINE §6). Relation form: m₁ = κ_m · ρ_inf¼ with κ_m ≈ 1 (see addendum). Model does **not** derive 2.25 meV (dark-energy-value problem). Claim: one un-derived number does two jobs standard cosmology treats as unrelated.
 
-3. **Sum:** measured splittings → Σm_ν = 61.4 meV, **normal ordering** (favoured by P-2026-004 collision test, not by P-2026-012 alone — ANN-2026-025). **Not a discriminator:** 2.6 meV above the m₁ = 0 floor (58.8 meV) vs ~20 meV planned resolution. Distinctive content is m_ββ (§3).
+3. **Sum:** measured splittings → Σm_ν ≈ 61.35 meV, **normal ordering** (favoured by P-2026-004 collision test, not by P-2026-012 alone — ANN-2026-025). **Not a discriminator:** ~2.6 meV above the m₁ = 0 floor (58.8 meV) vs ~20 meV planned resolution. Distinctive content is m_ββ (§3).
 
 4. **Exploratory:** occupancy-corrected ρ_inf derivation reproduces the same sum via ρ_Λ, M₂ = α²·T_c, and 3α; the α_c instrument (zon_disp — unconverged, not currently running) checks that claim.
 
@@ -21,7 +40,7 @@ Consolidates the model’s most experiment-facing claim block. Components range 
 Every claim is measurable this decade; none is free:
 
 - Ton-scale 0νββ near the normal-ordering floor; confirmed Dirac (full-sensitivity nulls + other Majorana channels closed) kills claim 1.
-- Cosmology’s Σm_ν (DESI+CMB) already brushes 60–80 meV. Two kills here; likelier from below: robust Σ > 70 meV kills 2–3, as does a ΛCDM-conditional upper limit through 61.4 meV (frontier direction). Model: limits are ΛCDM-conditional; squeeze relaxes under its recombination history (testable). Inverted ordering also kills 2–3.
+- Cosmology’s Σm_ν (DESI+CMB) already brushes 60–80 meV. Two kills here; likelier from below: robust Σ > 70 meV kills 2–3, as does a ΛCDM-conditional upper limit through the ≈61.35 meV tie (frontier direction). Model: limits are ΛCDM-conditional; squeeze relaxes under its recombination history (testable). Inverted ordering also kills 2–3.
 - In-house: P-2026-023 de-biased band (0.07–0.09 eV) sits above this block’s 0.061; the production-chain posterior (once quotable) arbitrates the two neutrino numbers.
 
 ## 2. Open mechanism items
@@ -45,8 +64,11 @@ is decided by which side of the closure threshold m₁ sits on, and the 1σ band
 ±0.24 meV, is dominated by θ₁₂ and makes the sign a 50/50 draw. The threshold itself — the smallest
 m₁ at which exact cancellation first becomes possible, the lower edge of the well-known
 normal-ordering "funnel" — computes to **m₁\* = 2.2496 meV at current centrals, against
-ρ_Λ^{1/4} = 2.2395 ± 0.0108 meV: agreement to 0.45%, i.e. the registered m₁ sits on the closure
-threshold**, a coincidence found stated nowhere in the funnel literature (three searches, null).
+ρ_Λ^{1/4} = 2.2395 ± 0.0108 meV: central values agreeing to 0.45%. Read that with its full error
+budget: the threshold itself carries ±0.24 meV (±11%, θ₁₂-dominated) today, so the agreement is a
+~0.04σ consistency — a statement about central values that current data cannot resolve, not a
+precision coincidence** — though one found stated nowhere in the funnel literature (three
+searches, null).
 Exact cancellation at the threshold occurs at exactly one phase point, and it is CP-conserving:
 (α₂₁, α₃₁) = (π, 0). JUNO (θ₁₂ and Δm²₂₁ below 0.5% by ~2031–32) tightens the threshold's error
 to 0.06 meV, after which θ₁₃ — frozen at Daya Bay's final precision, with no successor planned —
@@ -59,7 +81,7 @@ into a falsifier, since it predicts m_ββ = |margin| ≲ 0.05 meV, no observabl
 
 Derived DE scale 0.44% from observed: 2.2599 meV vs 2.25. **Not a formal error bar** — composite quartic above control edge; higher-order correction 5.4–9.8% uncontrolled. Treat 2.2599 as anchor comparison, not fully converged prediction.
 
-Sum insensitive: Σm_ν = 61.34–61.37 meV → 61.4. Floor more sensitive (0.050 → 0.038 meV); ceiling stable ~5.30 meV. Window **[0.04, 5.3] meV**. Derived anchor 2.8% below the 2.324 meV threshold where floor vanishes.
+Sum insensitive: Σm_ν = 61.34–61.37 meV (older shelf shorthand: 61.4). Floor more sensitive (0.050 → 0.038 meV); ceiling stable ~5.30 meV. Window **[0.04, 5.3] meV**. Derived anchor 2.8% below the 2.324 meV threshold where floor vanishes.
 
 Floor is soft; nothing observable rides on it. Conclusions use the ceiling. Near-cancellation → **m_ββ is a sharp probe of the DE scale**.
 
@@ -75,7 +97,7 @@ Flat phases: exceeds 4.7 meV **~10.8%** of the time (~1/9 chance of signal, cond
 
 Barium tagging (projected ×4 half-life): √4 = 2 in m_ββ → ~2.35 meV; detection probability 10.8% → **69%**. No discrimination: minimal ordering [1.48, 3.69] exceeds 2.35 meV **63.7%** of the time. **Discriminating band 3.69–5.30 meV** — minimal ordering impossible; this model **31.7%**. All of baseline nEXO’s 10.8% sits there. Tagging → likely; baseline → decisive.
 
-0νββ never observed; Heidelberg–Moscow claim refuted by KamLAND-Zen/GERDA. Current limits m_ββ ≲ 28–180 meV (ME-dependent), 5–30× above this band. Cosmology may grade sooner; ton-scale grades cleaner. DESI-era Σm_ν ≲ 72 meV already; model at 61.4 just inside. Sector may be graded in 1–2 years by that number.
+0νββ never observed; Heidelberg–Moscow claim refuted by KamLAND-Zen/GERDA. Current limits m_ββ ≲ 28–180 meV (ME-dependent), 5–30× above this band. Cosmology may grade sooner; ton-scale grades cleaner. DESI-era Σm_ν ≲ 72 meV already; model at ≈61.35 just inside. Sector may be graded in 1–2 years by that number.
 
 ## 3b. Majoron mode 0νββχ (wrong instrument)
 
@@ -145,3 +167,23 @@ Still open:
 - pure number b in ρ_inf = b·m₁⁴
 - settling calculation for mass sharing among eigenstates
 - α_c instrument for occupancy-corrected ρ_inf closure (zon_disp — unconverged, not currently running)
+
+---
+
+## Claims ledger & discipline (2026-08-04 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | Majorana → 0νββ required (P-2026-020) | **registered** | §0 claim 1 | Detection above ceiling kills; null does not |
+| 2 | m₁ = ρ_Λ¼ = 2.25 meV (one number, two jobs) | **complete-conditional** / existence | §0 claim 2 | Does not derive 2.25; μ un-derived |
+| 3 | Σm_ν ≈ 61.35 meV normal ordering (relation) | **complete-conditional** | NuFIT + m₁; P-004 ordering | Not a discriminator vs floor (~2.6 meV); booked old-BAO joint posterior lives on home / bbnfix, DESI-DR2 still open |
+| 4 | m_ββ ∈ [0.04, 5.3] meV | **machine-backed** | §3; phases free | Floor soft/coin-toss on θ₁₂; ceiling stable |
+| 5 | Funnel edge m₁* ≈ ρ_Λ¼ at centrals (~0.45%) | **machine-backed** arithmetic | `funnel_edge_identity.py` | ±0.24 meV θ₁₂ band → ~0.04σ; not precision coincidence |
+| 6 | Only nEXO overlaps ceiling; ~10.8% phase space | **machine-backed** / literature reach | experiment table | Ba tagging weakens discrimination |
+| 7 | Exact μ; flavor distribution; ρ_inf closure | **OPEN-BLOCKED** | §2 open | **OPEN-THEORY** + α_c instrument offline |
+| 8 | `neutrino-mbb` arXiv package | **READY_PACKAGE** not posted | papers/ · arXivReady · arxiv_owner_prep | Fairbank HOLD / posting state: see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
+| 9 | Fairbank correspondence / letter | **WATCH-EXTERNAL** / **HOLD** | fairbank_note_draft; HOLD companion | Owner-only; not a second TeX package; see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
+
+**Non-claims:** not derived DE value; not flavor structure; not confirmation via null; not booked Σm_ν joint; not “posted to arXiv.”
+
+**Triage:** elevate-in-place. Physics ceiling: registered experiment-facing; mechanism residual **OPEN-BLOCKED**; ship path READY under Fairbank HOLD (2026-08-04).

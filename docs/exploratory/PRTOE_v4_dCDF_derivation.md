@@ -442,3 +442,10 @@ output (this section's $c_s^2(s)$ formulas are algebra-level, not yet checked
 against a real perturbation run), since v4.0's code pattern (background ODE +
 `has_fld`-mirrored perturbation sector) is a well-defined mechanical port and
 Gemini has the larger usage budget for the build/test/MCMC-integration cycle.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation

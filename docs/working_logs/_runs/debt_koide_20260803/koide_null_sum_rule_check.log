@@ -1,0 +1,28 @@
+==============================================================================
+(ii) The sum-rule check: what the f-sum-rule class does and does not force
+==============================================================================
+
+   first moments m₁(q), varying the ON-SITE landscape at fixed hopping:
+   on-site pattern          m₁(0)      m₁(1)      m₁(2)
+   flat  [0,0,0]           +0.0000   +6.0000   +6.0000
+   tilted [0.5,0,−0.5]     +0.0000   +5.8379   +5.8379
+   strong [3,0,0]          +0.0000   +5.1742   +5.1742
+
+   READ: m₁(0) = 0 identically (the neutral mode is a CONSERVED
+   quantity — total density commutes with any hopping H). The charged
+   moments shift only through the ground state (the double-commutator
+   identity itself is potential-free); nothing in any of them fixes
+   the stiffness ratio ε₁/ε₀ — hence a/b stays completely free.
+
+VERDICT (ii): SPLIT.
+   * The sum-rule class PROTECTS THE NEUTRAL SEAT: the q = 0 mode is
+     conserved — its power is set by the conserved total (genesis-set,
+     condensate-class), not by a temperature. That is a conservation-
+     law protection in exactly the aisle #101 demanded, and it
+     dissolves the scatter objection for the NEUTRAL half: f₀ does
+     not scatter because it does not fluctuate.
+   * The RATIO is not a sum rule: a = 3b must come from the dynamics
+     that pins the CHARGED power to f₀²/2. The remaining target is
+     that single lock — one number, one sector, sharper than before.
+   * Noted without weight: a = 3b ⟺ ω_c/ω_n = √2, the cone radius.
+==============================================================================

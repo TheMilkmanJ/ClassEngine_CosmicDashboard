@@ -1,0 +1,11 @@
+START baryo_rm timeout=120
+START quantum_residual timeout=180
+START alpha_amp timeout=180
+START current_core timeout=600
+START tests_analytic timeout=60
+START bounce timeout=300
+START page_instrument timeout=300
+START arithmetic timeout=120
+START koide timeout=240
+START hierarchy timeout=180
+DONE baryo_rm exit=0

@@ -1,0 +1,25 @@
+========================================================================
+RP required X window (homogeneous FRW bounce aero target)
+========================================================================
+  At radiation-dominated handover:
+    rho_X = -rho_rad
+    p_X   < -rho_rad/3
+    w_X   > 1/3   (with rho_X < 0)
+
+  At T_c = 177.10 keV:
+    |rho_X| = 3.479e+21 eV^4
+    |rho_X|/rho_Lambda  = 1.357e+32
+    |rho_X|/rho_bounce  = 2.764e+09
+
+  At residual radiation f * rho_bounce:
+    f=1e-06: |rho_X|=1.259e+06 eV^4  |rho_X|/rho_L=4.912e+16
+    f=1e-03: |rho_X|=1.259e+09 eV^4  |rho_X|/rho_L=4.912e+19
+    f=1e-02: |rho_X|=1.259e+10 eV^4  |rho_X|/rho_L=4.912e+20
+    f=1e-01: |rho_X|=1.259e+11 eV^4  |rho_X|/rho_L=4.912e+21
+    f=1e+00: |rho_X|=1.259e+12 eV^4  |rho_X|/rho_L=4.912e+22
+
+VERDICT:
+  DE-scale legal parts cannot fill this window (orders short).
+  Homogeneous fluid bounce needs crunch-scale negative energy with w>1/3,
+  or the reconstruction must leave homogeneous FRW (Build RP-A).
+========================================================================

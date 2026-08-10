@@ -1,0 +1,44 @@
+==============================================================================
+  THE FUNNEL-EDGE IDENTITY
+==============================================================================
+
+  margin M(2.25 meV): paper +0.0448 meV   NuFIT -0.00022 meV
+  ok    F-A  paper margin +0.0448
+  ok    F-B  NuFIT margin -0.00022, sign flipped
+  funnel edge m1*:    paper 2.3245 meV    NuFIT 2.2496 meV
+  ok    F-C  edges 2.3245 / 2.2496
+  sigma(m1*) today = 0.2455 meV   parts: s12sq 0.2320, s13sq 0.0550, dm21 0.0574, dm31 0.0098
+  ok    F-D  0.239 meV, s12sq dominant
+
+  rho_Lambda^(1/4) = 2.2395 +/- 0.0108 meV
+  ok    F-E  2.2395 +/- 0.0108
+  IDENTITY GAP m1* - rho_L^(1/4) = +0.0102 meV = 0.45% = 0.041 sigma
+  ok    F-F  +0.0102 meV, 0.04 sigma
+
+  JUNO-era sigma(m1*) = 0.0618 meV   parts: s12sq 0.0274, s13sq 0.0550, dm21 0.0061, dm31 0.0018
+  ok    F-G  0.063 meV, theta13 bottleneck
+
+  phase-grid minimum at (a21, a31) = (180.0, 360.0) deg,  m_bb = 1.23e-10 meV
+  ok    F-H  minimum exactly at (180, 0), CP-conserving, m_bb = 0
+  ok    F-I  ANTI-CONTROL: paper-parameter edge sits well off rho_L^(1/4)   gap +0.0850 meV -- the identity lives at measured centrals only
+
+==============================================================================
+  ALL CONTROLS PASS
+==============================================================================
+
+  WHAT THIS ESTABLISHES. The coin toss on the m_bb floor's existence is the question
+  "does m_1 sit above or below the funnel edge m1*?", and the registered m_1 lands ON
+  the edge: m1* = 2.2496 meV against rho_Lambda^(1/4) = 2.2395 meV -- 0.45%, with no
+  published statement of the coincidence found. Three ways the coin stops:
+    1. DATA -- JUNO (<0.5% on theta12/dm21 by ~2031-32) shrinks sigma(m1*) to
+       0.062 meV, but theta13 then gates it and nothing improves theta13 this
+       decade; if the true |M| < ~0.04 meV the coin stays uncalled.
+    2. CLOSURE MECHANISM (m_ee = 0: FGM texture classes A1/A2, symmetry-protected,
+       normal-ordering-only, m_lightest pinned to the funnel) -- marries the corpus's
+       "the floor SETS m_1" operator to make the identity exact, pins BOTH Majorana
+       phases CP-conserving at (pi, 0), and predicts m_bb = |M| <~ 0.05 meV: NO
+       observable signal, INVERTING the paper's discriminating band into a falsifier.
+       Cost: the corpus's own constitution calls flavor structure "not writable".
+    3. FLOOR MECHANISM (minimal seesaw m1 = 0; most mass sum rules) -- protects the
+       floor but requires m1 = 0, contradicting P-2026-012 outright.
+

@@ -1,8 +1,50 @@
 # Hubble tension — mechanism, residual, calibration
 
-Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Chains: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
-**Status.** Core empirical claim of the program — built against data, not extended to it after the fact. Evidence number is **Laplace-from-MCMC** (ΔlnZ ≈ +2.6); nested sampling waits on cluster time. Chains must converge before the number is quotable as final. Live matched pairs have been a **wash** when multi-basin (see Risk §3c). **Do not lead with a win.**
+> ## Residual freeze — 2026-08-08 (booked old-BAO pair; live DESI-DR2 lane still open)
+>
+> **Document job:** COMPLETE-CONDITIONAL — mechanism, owned residual, ladder ceiling, and
+> literature scoreboard are written. **Booked old-BAO H₀ exists; decisive evidence does not.**
+>
+> **Booked old-BAO pair (authority receipt
+> `bbnfix_booking_20260808_005626/REPORT.md`):**
+>
+> | leg | N | R−1 | t | converged |
+> |---|---:|---:|---|---|
+> | `dyad_mnu_bbnfix` | 37605 | **0.048118** | 2026-08-07T04:08:52 | **true** |
+> | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 2026-08-05T11:52:10 | **true** |
+>
+> Booked three-rank GetDist (`ignore_rows=0.3`, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**,
+> `m_ncdm = 0.0671 ± 0.0583`, **S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**,
+> `m_ncdm = 0.0192 ± 0.0174`, **S₈ = 0.824 ± 0.0081**.
+>
+> **Evidence honesty:** the booked old-BAO pair’s sample-covariance Laplace is only
+> **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸**. The older **ΔlnZ ≈ +2.6** line is historical
+> pre-bbnfix Laplace, not the current booked-pair authority.
+>
+> **Separate live lane:** DESI-DR2 bbnfix twins remain **not bookable** at 2026-08-08 18:56 UTC:
+> dyad **0.108745**@N=21827, lcdm **0.140148**@N=22848, both `converged:false`. The current nested
+> referee path is the **four-leg** DESI-DR2 gold PolyChord program and it is **not launched** while
+> the 512-vCPU quota request is CASE_OPENED.
+>
+> **What remains open for this letter:** a nested-quality comparison on the current DESI-DR2 stack.
+> Do **not** use proxy best-fit peeks as evidence.
+>
+> **Forbidden claims:** promoting the booked old-BAO pair into a decisive evidence win; mixing it
+> with the live DESI-DR2 chain state; treating historical +2.6 as the current booked verdict.
+>
+> **Blocked-lane audit:** shared `bbnfix` booking gate is frozen in
+> [blocked_lane_bbnfix_20260805/REPORT.md](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
+
+**Status.** Core empirical claim of the program — built against data, not extended to it after the
+fact. The old-BAO production pair is now **BOOKED**, with SH0ES-conditional GetDist
+**H₀ = 70.052 ± 0.716** (dyad) against **68.345 ± 0.343** (lcdm), but the booked pair’s current
+evidence readout is only **ΔlnZ ≈ +0.21**, not a decisive win. The historical **ΔlnZ ≈ +2.6**
+line remains pre-bbnfix Laplace history. The harder fixed-ε zero-extra-parameter lane is still a
+separate config, and the current nested referee path is the **four-leg** DESI-DR2 gold program,
+which is **not launched**. The **current live** MCMC lane is DESI-DR2 and is **not bookable**.
+**Do not lead with a win.**
 
 ---
 
@@ -18,15 +60,18 @@ One addition to known physics: early-universe electron-mass shift ε = 1.2543% (
 
 ## 3. Where it lands
 
+**Pre-bbnfix standing production claims** (not live-pair posteriors; see residual freeze):
+
 | | value | note |
 |---|---|---|
 | ΛCDM (same pipeline) | H₀ ≈ 68.2 | baseline |
-| Model (fixed ε) | H₀ ≈ **69.9** | ~half the SH0ES gap |
+| Model (fixed ε) | H₀ ≈ **69.9** | ~half the SH0ES gap; **pre-bbnfix** |
 | Ladder reach ceiling (audit) | **~70.9–71.3** | cannot reach 73 |
-| Evidence | ΔlnZ ≈ **+2.6** (Laplace) | marginal; SH0ES-conditional; no nested confirmer |
+| Evidence | ΔlnZ ≈ **+2.6** (Laplace) | **pre-bbnfix**; marginal; SH0ES-conditional; no nested confirmer; **not bookable** as the BBN-fixed pair result until gate |
 
 - Residual **owned**: model refuses the rest of the gap (curvature escape declined by fit).
 - Exhaustive lever audit (SN standardization 162 templates — sign **opposite** to tension; geometry leakage; reionization) → ladder account capped ~70.9–71.3.
+- **Live BBN-fixed pair:** do not quote H₀ / ΔlnZ from `dyad_mnu_bbnfix` / `cmp_lcdm_mnu_bbnfix` until both self-stop and [`book_bbnfix_when_ready.py`](../scripts/book_bbnfix_when_ready.py) books them.
 
 ## 4. Calibration question
 
@@ -53,7 +98,7 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 | EDE | H₀ toward 70–73 with freedom | +3 params | higher ceiling |
 | Free m_e literature | up to ~71+ with SNe / curvature | +1–2 | can re-fit amplitude |
 | Ladder systematics | H₀ ~68–70 if 73 wrong | 0 new physics | cheapest |
-| **This model** | 69.9 fixed ε; ceiling ~71 | **0** extra vs ΛCDM | — |
+| **This model** | 69.9 fixed ε; ceiling ~71 *(pre-bbnfix CosmicForge; not chain-booked)* | **0** extra vs ΛCDM | — |
 
 **Where this model is stronger:** zero extra parameters (if stack holds), one ε on all messengers, pre-registered kills. **Cheaper and more falsifiable — not better-fitting.**
 
@@ -71,3 +116,25 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 ## References
 
 [Riess 2022]; [Freedman 2021, 2025]; [Planck 2018]; [Hart–Chluba 2020]; [Sekiguchi–Takahashi 2021]; [Schöneberg et al. 2026]; [Poulin et al. 2019, 2025]; [Hill et al. 2020]; [Toda–Seto]; [Lee–Zhou 2026]; [Riess et al. 2024]. Full: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). Dead H₀ routes: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
+
+---
+
+## Claims ledger & discipline (2026-08-05 residual freeze) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ε at recombination lifts H₀ relative to ΛCDM | **machine-backed** | production fit; old-BAO booking receipt; CLASS | Historical fixed-ε ~69.9 line remains pre-bbnfix; current booked old-BAO dyad is **70.052 ± 0.716**; live DESI-DR2 lane still open |
+| 2 | Ladder ceiling ~70.9–71.3; cannot reach 73 | **machine-backed** | H0_CEILING; ς = −1 | Residual tension owned |
+| 3 | Evidence remains marginal | **machine-backed** current + historical | booked old-BAO sample-cov Laplace; earlier MCMC Laplace | **OPEN-NESTED:** current booked pair is only **ΔlnZ ≈ +0.21**; historical **+2.6** remains pre-bbnfix; gold DESI-DR2 nested not launched |
+| 4 | ε stack c·f̄·α_c conditional | **complete-conditional** | THE_AMPLITUDE | α_c instrument not running |
+| 5 | EDE better residual tension (~2.5σ vs ~4.25σ class) | **interpretation** (literature scoreboard) | Schöneberg 2026 table | Model cheaper/falsifiable, not better-fitting; desk fairness paid (T11) |
+| 6 | SN candle term pushes ladder *down* (ς = −1) | **machine-backed** | 162-template scan | Real-SN synthetic photometry appeal open |
+| 7 | Kill: same ε on all messengers; DESI w; radio locks; He adverse | **registered** | §6 kill list | — |
+| 8 | Current-stack nested-quality H₀ / model−ΛCDM evidence sentence | **OPEN-BLOCKED** | residual freeze 2026-08-08 | **OPEN-NESTED / OPEN-MACHINE:** DESI-DR2 pair still live; four-leg gold nested program not launched |
+
+**Non-claims / forbidden:** not a closed H₀ win; not full SH0ES account; not nested-confirmed
+evidence; no live DESI-DR2 peek numbers as letter results; historical **+2.6** is not the current
+booked verdict.
+
+**Triage:** elevate-in-place. Physics ceiling: mechanism production-grade; booked old-BAO receipt in
+hand, but current-stack evidence still **OPEN-NESTED** and DESI-DR2 **OPEN-MACHINE**.

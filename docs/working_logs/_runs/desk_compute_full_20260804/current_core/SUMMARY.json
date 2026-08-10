@@ -1,0 +1,45 @@
+{
+  "stamp": "2026-08-04T09:52:15.538345+00:00",
+  "packs": [
+    "current_core"
+  ],
+  "timeout_s": 600,
+  "n_jobs": 2,
+  "n_exit0": 2,
+  "n_nonzero": 0,
+  "n_timeout": 0,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "validate_dcdf",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/validate_dcdf.py"
+      ],
+      "timeout_s": 600,
+      "started": "2026-08-04T09:43:00.553924+00:00",
+      "exit": 0,
+      "elapsed_s": 548.53,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/current_core/logs/validate_dcdf.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "test_dcdf_clustering",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/test_dcdf_clustering.py"
+      ],
+      "timeout_s": 600,
+      "started": "2026-08-04T09:52:09.088913+00:00",
+      "exit": 0,
+      "elapsed_s": 6.448,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/current_core/logs/test_dcdf_clustering.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

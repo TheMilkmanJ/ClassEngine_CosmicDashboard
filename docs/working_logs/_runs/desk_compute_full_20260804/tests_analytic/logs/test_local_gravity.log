@@ -1,0 +1,15 @@
+=== PRTOE Local Gravity Map (analytic) ===
+Cassini limit: |dG/G| < 1.0e-05
+xi=1.000e-06 zeta=1.000 sigma=0.100 rho0=1.000e+03 gamma=0.050
+
+  Cosmic mean (approx)   rho=1.000e-26 kg/m^3  phi=-0.0000  |dG/G|=0.000e+00  [PASS]
+  Galaxy cluster         rho=1.000e-23 kg/m^3  phi=-0.0000  |dG/G|=0.000e+00  [PASS]
+  Solar interior         rho=1.000e+03 kg/m^3  phi=+0.0000  |dG/G|=0.000e+00  [PASS]
+  Earth crust            rho=5.500e+03 kg/m^3  phi=+0.0000  |dG/G|=0.000e+00  [PASS]
+
+=== Solar-system orbit (PPN γ−1) ===
+  |γ−1|=0.000e+00  precession_excess=0.000e+00 rad/orbit  [PASS]
+=== EP / torsion-balance (η_EP at lab density) ===
+  η_EP=0.000e+00  G_eff/G=1.000000  [PASS]
+
+OVERALL: PASS

@@ -1,0 +1,63 @@
+============================================================================
+PART 1 -- THE JOINT CLAIM IS OVER-DETERMINED, AND m_mu/m_e ALONE TESTS IT
+============================================================================
+  A = sqrt2 fixes the amplitude and says nothing about the phase; the closure
+  fixes the phase and says nothing about Q. Neither alone constrains m_mu/m_e.
+  Together they leave only an overall scale, so BOTH mass ratios are predicted.
+
+    predicted m_mu/m_e   206.770316
+    measured  m_mu/m_e   206.768283 +- 4.50e-06   (21.8 ppb)
+    miss                 9.8 ppm  = 452 sigma on the measurement
+
+  So on pole masses AT MOST ONE of the two watches can be exact. This does not
+  need m_tau and no future m_tau measurement can change it.
+
+============================================================================
+PART 2 -- HOW MUCH OF THAT IS THE CHOICE OF MASS DEFINITION?
+============================================================================
+  pole masses:   Q = 0.666660511   A - sqrt2 = -1.306e-05   theta_B - 2/9 = +7.409e-06
+
+      scale mu |            Q |     Q - 2/3 |   A - sqrt2 |  th_B - 2/9
+  ----------------------------------------------------------------------
+         m_tau |  0.667819675 |  +1.153e-03 |  +2.444e-03 |  -1.082e-03
+         2 GeV |  0.667820157 |  +1.153e-03 |  +2.445e-03 |  -1.082e-03
+           m_W |  0.667835408 |  +1.169e-03 |  +2.477e-03 |  -1.097e-03
+           M_Z |  0.667835936 |  +1.169e-03 |  +2.478e-03 |  -1.097e-03
+
+  Q moves by 1.175e-03 between the pole masses and MS-bar at M_Z,
+  i.e. 1763 ppm, against a pole-mass residual of 9.2 ppm.
+  The scheme choice is worth 191 times the deviation being measured.
+
+============================================================================
+PART 3 -- WHAT THIS DOES TO THE PREREGISTERED m_tau DISCRIMINATION
+============================================================================
+  m_tau demanded by Q = 2/3        1776.96903 MeV
+  m_tau demanded by theta_B = 2/9  1776.96651 MeV
+  separation                       2.518 keV = 1.417 ppm
+
+  the separation in Q:            1.421e-07
+  the scheme shift in Q:          1.175e-03   (pole -> MS-bar at M_Z)
+  ratio                           8270x
+
+  dQ/dm_tau = 5.646e-05 /MeV, so the scheme shift is worth
+    20.8 MeV of m_tau  --  against a separation of 2.52 keV.
+
+  What this does NOT show: that the registered test fails to execute. Both watches
+  are stated on pole masses and the pole m_tau is measurable, so a 1.4 ppm
+  determination does separate them exactly as the calendar says. The test is sound.
+
+  What it does show is a limit on what a win would buy. The two watches differ by
+  1.42e-07 in Q while the choice of mass variable moves Q by 1.18e-03 -- 8270 times more.
+  A framework that does not say why the pole masses are its variables cannot claim
+  its mechanism resolves structure at the smaller scale while the larger one is
+  unaccounted. So the m_tau measurement can decide WHICH watch matches the data;
+  it cannot, on its own, promote the winner's mechanism, because the same framework
+  silently fixes a much larger number by convention. Closing that is the same debt
+  that leaves Koide's relation unexplained, and it is now stated in the sector's
+  own units rather than left as a general worry about radiative corrections.
+
+  Note which way this cuts on the sector's headline. It does not weaken the
+  pole-mass agreement, which stands at 9.2 ppm on Q and is the whole reason the
+  relation is interesting. It says the sector's claim is 'the POLE masses satisfy
+  this', that the mass definition is load-bearing at the 1e-3 level, and that it
+  therefore belongs in the statement of every watch rather than in a footnote.

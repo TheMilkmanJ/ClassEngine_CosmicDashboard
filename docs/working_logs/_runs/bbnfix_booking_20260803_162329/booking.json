@@ -1,0 +1,65 @@
+{
+  "stamp": "20260803_162329",
+  "gate": {
+    "Rbar": 0.05,
+    "rule": "refuse if either chain missing progress or R\u22121 >= Rbar",
+    "pair": [
+      "dyad_mnu_bbnfix",
+      "cmp_lcdm_mnu_bbnfix"
+    ],
+    "both_ready": false,
+    "exit_code": 2
+  },
+  "progress": {
+    "dyad_mnu_bbnfix": {
+      "root": "dyad_mnu_bbnfix",
+      "path": "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.progress",
+      "present": true,
+      "N": 17384.0,
+      "timestamp": "2026-08-03T09:32:30.354800",
+      "acceptance_rate": 0.996446,
+      "Rminus1": 0.159888,
+      "Rminus1_cl": "NaN",
+      "ready": false,
+      "last_row": "17384.000000 2026-08-03T09:32:30.354800  0.996446  0.159888 NaN"
+    },
+    "cmp_lcdm_mnu_bbnfix": {
+      "root": "cmp_lcdm_mnu_bbnfix",
+      "path": "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.progress",
+      "present": true,
+      "N": 16075.0,
+      "timestamp": "2026-08-03T07:49:13.988426",
+      "acceptance_rate": 0.985174,
+      "Rminus1": 0.053867,
+      "Rminus1_cl": "NaN",
+      "ready": false,
+      "last_row": "16075.000000 2026-08-03T07:49:13.988426  0.985174  0.053867 NaN"
+    }
+  },
+  "reasons": [
+    "dyad_mnu_bbnfix: R\u22121 = 0.159888 >= 0.05 (N=17384.0, t=2026-08-03T09:32:30.354800) \u2014 NOT READY",
+    "cmp_lcdm_mnu_bbnfix: R\u22121 = 0.053867 >= 0.05 (N=16075.0, t=2026-08-03T07:49:13.988426) \u2014 NOT READY"
+  ],
+  "ranks": {
+    "dyad_mnu_bbnfix": [
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.1.txt",
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.2.txt",
+      "/home/themilkmanj/prtoe_class/chains/dyad_mnu_bbnfix.3.txt"
+    ],
+    "cmp_lcdm_mnu_bbnfix": [
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.1.txt",
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.2.txt",
+      "/home/themilkmanj/prtoe_class/chains/cmp_lcdm_mnu_bbnfix.3.txt"
+    ]
+  },
+  "booking": null,
+  "ignore_rows": 0.3,
+  "params_requested": [
+    "H0",
+    "m_ncdm",
+    "omega_b",
+    "S8"
+  ],
+  "generated_utc": "2026-08-03T16:23:29.840807+00:00",
+  "script": "scripts/book_bbnfix_when_ready.py"
+}

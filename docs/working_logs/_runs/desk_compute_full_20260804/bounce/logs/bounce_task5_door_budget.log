@@ -1,0 +1,31 @@
+==============================================================================
+The MeV door budget — one ledger (task #5)
+==============================================================================
+
+   the bar: ρ(1 MeV) = 1.00e+24 eV⁴;  the door: ρ_exit = 6.15e+13 eV⁴  (deficit ×1.6e+10)
+
+   channel                          size            verdict
+   door budget (computed, M2)       T_eff = 2.8 keV   ×1.6e10 under in density
+   electron-family gates (recorded) 177–511 keV       ×2–5.6 under in T; candidate clock only
+   quench injection (NEW, priced)   8.9e-84 eV⁴   ×7e+96 under the DOOR itself — closed
+   compression free param (retired) N_med ≳ 6.2       fabricated; replaced by measured overshoot
+   1D rebound overshoot (verified)  ×~1 (order unity)  does not fund MeV
+   spherical focusing               PENDING            the adaptive run (in flight)
+   SM-sector crossing (task #14)    UNWRITTEN          the bath's photons ARE most of the
+                                                       energy; its physics could dominate
+
+READ
+  1. The quench channel closes immediately: creating long-wavelength
+     medium quanta at the door injects ~9e-84 eV⁴ — about 97
+     orders below even the door's own keV budget. Honest and dead.
+  2. Every computed channel is keV-class or below. The MeV question
+     now rests on exactly TWO live levers, both named, neither
+     prejudged: the spherical focusing amplification (a number the
+     adaptive run is computing right now), and the Standard-Model
+     sector's crossing (task #14 — where most of the bath's energy
+     actually lives, and the only channel big enough to matter if
+     focusing falls short).
+  3. If both levers fail, the honest endpoint is: the reconstruction
+     under-funds BBN and says so — that becomes an outer-spec tension
+     for the whole build, not a knob to turn.
+==============================================================================

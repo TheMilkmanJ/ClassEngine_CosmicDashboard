@@ -1,0 +1,35 @@
+==============================================================================
+The μ source priced; the host condition lands on standard ground
+==============================================================================
+
+A. μ/T scaling under the validated tracking law (exponents of a):
+   n    r-exponent   μ-exponent   (μ/T)-exponent   toward the floor
+      2     -1.500      -0.000        +1.000       ratio dies
+      4     -1.000      -1.000        +0.000       ratio frozen
+      6     -0.750      -1.500        -0.500       ratio grows
+      ∞     -0.006      -2.988        -1.988       ratio grows
+   the quartic youth (n = 4) FREEZES μ/T on approach; harmonic kills
+   it. No polynomial regime grows it faster than a⁻².
+
+B. the ceiling identity: θ̇ = √(ρ_ceiling)/Ψ₀ = 2.240e-20 eV
+   vs m = 2.240e-20 eV — identical: the arrow rotates at the mass
+   frequency at the floor. Pricing μ = m against the floor baths:
+     door bath (keV):    μ/T = 2.2e-23  (needs ≥ 18: short by 8e+23)
+     Planck bath:        μ/T = 1.8e-48  (short by 1e+49)
+   THE ARROW CANDIDATE IS PRICED OUT at recorded parameters — no
+   charge assignment rescues 23–48 orders. Ledger row filed.
+
+C. doping independence: b at k_F = 1: 0.013937; at k_F = 10⁻³⁰: 0.013937
+   — identical: the booked constant holds at ANY nonzero doping with
+   T ≪ μ. A T → 0 kernel at the ground state is the standard host of
+   every gap equation; the bath decides WHEN condensation happens,
+   not the kernel's screening constant. The mismatch lands: the cold
+   host is the gap equation's own construction. RESIDUAL, named: at
+   gap formation the bath must satisfy T ≪ μ for the frozen kernel to
+   apply — a formation-epoch number, owed, not a contradiction.
+
+VERDICT: the dichotomy stays dissolved (§6n's algebra stands); the
+   arrow μ-source dies at recorded parameters (ledger); the surviving
+   reading is standard-host doping-independence with one owed number
+   (T/μ at gap formation). Task #16's gate narrows accordingly.
+==============================================================================

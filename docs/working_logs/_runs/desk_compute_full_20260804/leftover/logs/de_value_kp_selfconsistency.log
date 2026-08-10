@@ -1,0 +1,18 @@
+scan:
+  r=0.05: T/V=1.8117  1/4 T/V=0.4529  resid=-0.4029
+  r=0.10: T/V=1.7930  1/4 T/V=0.4482  resid=-0.3482
+  r=0.20: T/V=1.7476  1/4 T/V=0.4369  resid=-0.2369
+  r=0.30: T/V=1.6855  1/4 T/V=0.4214  resid=-0.1214
+  r=0.40: T/V=1.5872  1/4 T/V=0.3968  resid=+0.0032
+  r=0.45: T/V=1.5016  1/4 T/V=0.3754  resid=+0.0746
+
+SELF-CONSISTENT: r* = rho_L/rho_m,turnaround = 0.3976  (<rho_m>/rho_ta=1.5904)
+KP coefficient Lambda/rho_m,ta = 1/4 <rho_m>/rho_ta = 0.3976  (cf toy 3/4=0.75 in cosmo_const 7a)
+
+*** Omega_L/Omega_m is CAPPED at r* = 0.398 during the whole expansion (max at turnaround) ***
+    OBSERVED Omega_L/Omega_m = 2.2  ->  KP under-predicts the ratio by 5.5x
+
+value if turnaround~now: rho_m0^1/4=1.86 meV -> Lambda^1/4=1.48 meV  (0.66x obs 2.25)
+(cosmo_const 7a quoted 1.71 meV=0.76x using the toy 3/4 coeff; the PROPER coeff 0.46 gives ~1.5 meV=0.68x)
+
+=> BUT the value is moot: the RATIO cap (0.46 vs 2.2) means the mechanism can't seat DE where observed.

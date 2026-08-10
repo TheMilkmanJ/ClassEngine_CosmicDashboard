@@ -112,3 +112,10 @@ A one-scale sector coupling at gravitational strength through the only channel h
 Γ_par/H = √3 (Friedmann factor, exact) and unstable-mode growth Γ_eff/H = √(3/2) (Jeans, exact).
 **B = 1/√2 is derived.** The universe's linewidth is √(3/2) because the budget and the mode's
 growth rate are the same ρ_inf read through 4πG rather than through the critical-k combination.
+
+---
+
+## Discipline triage (2026-08-03)
+**Grade:** superseded lineage
+**Triage:** archive-ok / exploratory historical; not Failures unless a specific false claim needs ledgering
+**Non-claims:** do not use as live derivation

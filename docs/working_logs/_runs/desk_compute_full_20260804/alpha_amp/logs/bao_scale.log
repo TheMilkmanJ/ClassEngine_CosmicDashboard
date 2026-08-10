@@ -1,0 +1,4 @@
+computing model and LCDM BAO distances (background only)...
+  r_drag: model 145.25 Mpc, LCDM 147.06 Mpc
+saved chains/bao_scale.png
+  BAO chi2 (data vs model curve, 6 points) = 8.8

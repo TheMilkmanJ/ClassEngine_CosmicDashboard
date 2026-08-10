@@ -1,0 +1,120 @@
+{
+  "stamp": "2026-08-04T09:44:25.544700+00:00",
+  "packs": [
+    "alpha_amp"
+  ],
+  "timeout_s": 180,
+  "n_jobs": 7,
+  "n_exit0": 7,
+  "n_nonzero": 0,
+  "n_timeout": 0,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "alpha_c_band",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/alpha_c_band_convergence.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:42:59.978692+00:00",
+      "exit": 0,
+      "elapsed_s": 0.529,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/alpha_amp/logs/alpha_c_band.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "alpha_c_same",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/alpha_c_same_response.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:00.513775+00:00",
+      "exit": 0,
+      "elapsed_s": 0.308,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/alpha_amp/logs/alpha_c_same.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "amplitude_standing",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/amplitude_standing.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:00.894207+00:00",
+      "exit": 0,
+      "elapsed_s": 0.692,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/alpha_amp/logs/amplitude_standing.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "amplitude_11_analytic",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/amplitude_11_analytic.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:01.589136+00:00",
+      "exit": 0,
+      "elapsed_s": 2.059,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/alpha_amp/logs/amplitude_11_analytic.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bao_scale",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bao_scale.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:03.650445+00:00",
+      "exit": 0,
+      "elapsed_s": 19.028,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/alpha_amp/logs/bao_scale.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "birefringence",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/birefringence_window.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:22.702718+00:00",
+      "exit": 0,
+      "elapsed_s": 0.647,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/alpha_amp/logs/birefringence.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "audit_math",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/audit_math_pass.py"
+      ],
+      "timeout_s": 180,
+      "started": "2026-08-04T09:43:23.351816+00:00",
+      "exit": 0,
+      "elapsed_s": 62.142,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/alpha_amp/logs/audit_math.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

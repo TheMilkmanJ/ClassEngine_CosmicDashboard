@@ -1,0 +1,26 @@
+=== Lambda: DERIVED = m_e (the dyad is a psibar-psi electron bilinear -> compositeness = electron scale) ===
+   The dyad IS the field that shifts m_e (varying-m_e). A charge-free scalar bilinear of electrons
+   has its compositeness cutoff at the electron mass. Lambda = m_e = 511 keV.  [natural/forced]
+
+=== g: is the medium's coupling strong enough? ===
+   (a) alpha_c-strength binding: g = 4 alpha_c/pi^2 = 0.0089  << g_c=2  -> NO condensation (300x too weak)
+   => the binding is NOT the weak medium coupling alpha_c. It must be STRONG (non-perturbative).
+   (b) DERIVED constraint: the dyad DOES condense -> g > g_c = 2 (supercritical). Automatic for a
+       CONDENSATE (a condensate is strongly coupled by definition). So g>2 is forced.
+
+=== what the DE value needs, and the residual O(1) ===
+   T_c=176 keV: tau=T_c/m_e=0.344, g=2.821 (=1.41x critical) -> DE=1.00x
+   T_c=193 keV: tau=T_c/m_e=0.378, g=2.968 (=1.48x critical) -> DE=1.09x
+   => the ONE undERIVED number is tau = T_c/m_e ~ 0.34 (equivalently g~2.8, 'just above critical').
+      rho_L^1/4 = (9/2) alpha^4 * m_e * tau  -- everything but the O(1) strong-coupling tau is derived.
+
+=== RAMP + consistency check: does the NJL T=0 gap match the model's dyad VEV? ===
+   T_c=176 keV -> BCS T=0 gap Delta(0)~310 keV  vs dyad VEV~100 keV (factor 3.1 tension); vs dm_e=eps*m_e=6.3 keV
+   T_c=193 keV -> BCS T=0 gap Delta(0)~340 keV  vs dyad VEV~100 keV (factor 3.4 tension); vs dm_e=eps*m_e=6.3 keV
+   => TENSION: the NJL T=0 gap (~325 keV) does not match the dyad VEV (100 keV) or the m_e-shift (6.3 keV).
+      The simple electron-NJL picture does not fully cohere with the dyad's other scales -- an honest flag.
+
+VERDICT: Lambda=m_e DERIVED; g>g_c=2 DERIVED (condensation=supercritical; alpha_c too weak by 300x, so
+the binding is genuinely strong/non-perturbative). The residual is ONE O(1) strong-coupling number
+tau=T_c/m_e~0.34, NOT derivable perturbatively. DE = (9/2)alpha^4 m_e tau. Plus a factor-3 internal
+tension (NJL gap vs dyad VEV). Progress: (Lambda,g) -> (m_e, supercritical) + one O(1) tau + a flag.

@@ -1,0 +1,435 @@
+{
+  "stamp": "2026-08-04T10:16:11.501175+00:00",
+  "packs": [
+    "bounce"
+  ],
+  "timeout_s": 300,
+  "n_jobs": 28,
+  "n_exit0": 24,
+  "n_nonzero": 0,
+  "n_timeout": 4,
+  "n_missing": 0,
+  "results": [
+    {
+      "label": "bounce_averaging_decomposition",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_averaging_decomposition.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:42:59.326337+00:00",
+      "exit": 0,
+      "elapsed_s": 29.005,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_averaging_decomposition.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_bkl_stiff_check",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_bkl_stiff_check.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:43:28.332909+00:00",
+      "exit": 0,
+      "elapsed_s": 107.409,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_bkl_stiff_check.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_electron_contact",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_electron_contact.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:15.767467+00:00",
+      "exit": 0,
+      "elapsed_s": 0.18,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_electron_contact.log",
+      "token_PASS": true,
+      "token_FAIL": true,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_fa1_transphononic_table",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_fa1_transphononic_table.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:15.949442+00:00",
+      "exit": 0,
+      "elapsed_s": 0.255,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_fa1_transphononic_table.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_fa3_hcross_attempt",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_fa3_hcross_attempt.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:16.208535+00:00",
+      "exit": 0,
+      "elapsed_s": 1.047,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_fa3_hcross_attempt.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_floor_frw_nogo",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_floor_frw_nogo.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:17.259929+00:00",
+      "exit": 0,
+      "elapsed_s": 0.151,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_floor_frw_nogo.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_handover_sign",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_handover_sign.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:17.413929+00:00",
+      "exit": 0,
+      "elapsed_s": 0.153,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_handover_sign.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_m1_shear_xi",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m1_shear_xi.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:17.572215+00:00",
+      "exit": 0,
+      "elapsed_s": 0.575,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m1_shear_xi.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_m2_junction",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m2_junction.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:18.148878+00:00",
+      "exit": 0,
+      "elapsed_s": 1.822,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m2_junction.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_m2b_mixmaster_nmed",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m2b_mixmaster_nmed.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:19.977982+00:00",
+      "exit": 0,
+      "elapsed_s": 0.822,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m2b_mixmaster_nmed.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_m4_arrow_boundary",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m4_arrow_boundary.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:20.801468+00:00",
+      "exit": 0,
+      "elapsed_s": 0.723,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m4_arrow_boundary.log",
+      "token_PASS": true,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_m5_exotic_fluid",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m5_exotic_fluid.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:21.537844+00:00",
+      "exit": 0,
+      "elapsed_s": 0.148,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m5_exotic_fluid.log",
+      "token_PASS": false,
+      "token_FAIL": true,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_m6_rebound_1d",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m6_rebound_1d.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:45:21.696337+00:00",
+      "exit": 0,
+      "elapsed_s": 279.617,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m6_rebound_1d.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_m6_rebound_1d_hypersonic",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m6_rebound_1d_hypersonic.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:50:01.315541+00:00",
+      "exit": -9,
+      "elapsed_s": 332.316,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m6_rebound_1d_hypersonic.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "timeout"
+    },
+    {
+      "label": "bounce_m6_rebound_dst",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m6_rebound_dst.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T09:55:33.632629+00:00",
+      "exit": -9,
+      "elapsed_s": 335.948,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m6_rebound_dst.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "timeout"
+    },
+    {
+      "label": "bounce_m6_rebound_gp",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m6_rebound_gp.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:01:09.585991+00:00",
+      "exit": -9,
+      "elapsed_s": 332.372,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m6_rebound_gp.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "timeout"
+    },
+    {
+      "label": "bounce_m8_ledger_quartic",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_m8_ledger_quartic.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:06:41.960293+00:00",
+      "exit": 0,
+      "elapsed_s": 0.605,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_m8_ledger_quartic.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_magnetic_flip_nogo",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_magnetic_flip_nogo.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:06:42.567374+00:00",
+      "exit": 0,
+      "elapsed_s": 0.556,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_magnetic_flip_nogo.log",
+      "token_PASS": false,
+      "token_FAIL": true,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_o7_mixmaster_squeeze",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_o7_mixmaster_squeeze.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:06:43.124932+00:00",
+      "exit": 0,
+      "elapsed_s": 5.247,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_o7_mixmaster_squeeze.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_rpA_scaffold",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_rpA_scaffold.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:06:48.374353+00:00",
+      "exit": 0,
+      "elapsed_s": 0.555,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_rpA_scaffold.log",
+      "token_PASS": true,
+      "token_FAIL": true,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_rp_required_X",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_rp_required_X.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:06:48.932019+00:00",
+      "exit": 0,
+      "elapsed_s": 0.12,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_rp_required_X.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_task20_sequencing_race",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_task20_sequencing_race.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:06:49.054490+00:00",
+      "exit": 0,
+      "elapsed_s": 220.661,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_task20_sequencing_race.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_task4_handoff_joints",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_task4_handoff_joints.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:10:29.723251+00:00",
+      "exit": 0,
+      "elapsed_s": 4.357,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_task4_handoff_joints.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_task5_assembled_timeline",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_task5_assembled_timeline.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:10:34.084300+00:00",
+      "exit": 0,
+      "elapsed_s": 3.837,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_task5_assembled_timeline.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_task5_door_budget",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_task5_door_budget.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:10:37.924753+00:00",
+      "exit": 0,
+      "elapsed_s": 0.184,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_task5_door_budget.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_thermal_crossing_nogo",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_thermal_crossing_nogo.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:10:38.111838+00:00",
+      "exit": 0,
+      "elapsed_s": 0.131,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_thermal_crossing_nogo.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    },
+    {
+      "label": "bounce_transverse_2d",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_transverse_2d.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:10:38.246286+00:00",
+      "exit": -9,
+      "elapsed_s": 332.374,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_transverse_2d.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "timeout"
+    },
+    {
+      "label": "bounce_two_routes",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/themilkmanj/prtoe_class/scripts/bounce_two_routes.py"
+      ],
+      "timeout_s": 300,
+      "started": "2026-08-04T10:16:10.622855+00:00",
+      "exit": 0,
+      "elapsed_s": 0.873,
+      "log": "docs/working_logs/_runs/desk_compute_full_20260804/bounce/logs/bounce_two_routes.log",
+      "token_PASS": false,
+      "token_FAIL": false,
+      "status": "ok"
+    }
+  ],
+  "rule": "exit0_neq_PASS; no MCMC; no PolyChord; no book"
+}

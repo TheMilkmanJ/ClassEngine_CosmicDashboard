@@ -1,11 +1,12 @@
-# Project finish roadmap (2026-08-02)
+# Project finish roadmap (2026-08-02; packaging refresh 2026-08-03)
 
 Honest path from “desk clean” to “science closed.” Desk OPEN is at zero; the rest is
 machine, theory, external, or packaging.
 
 ## Already done (recent)
 
-- Five arXiv TeX packages on desk (supertrace, neutrino-mbb, radio-lattice, lattice-tc-gap, bbn-eps-bound); readiness + candidacy notes current; package audit script
+- Six arXiv TeX packages on desk (supertrace, neutrino-mbb, radio-lattice, lattice-tc-gap, bbn-eps-bound, kination-tracking-note); readiness + candidacy notes current; package audit script
+- **2026-08-03 re-audit:** PAPER_CANDIDATE from docs still 0; neutrino-mbb submitted to Fairbank (packaging paused); arXivReady expanded toward all six packages
 - Tracker hygiene + file completion inventory (64 PRTOE files classified)
 - Strong CP complete as abstention
 - Check 12 batches 1–3 (stale “owed” / “running chain” residues)
@@ -108,26 +109,66 @@ from the current disjoint ranks.
 
 ## Packaging / public
 
+Hygiene reconfirmed **2026-08-03** (`scripts/arxiv_package_audit.py` → `_PACKAGE_AUDIT.md`).
+Staging shelf `docs/arXivReady/` is being refreshed to include lattice-tc-gap, bbn-eps-bound,
+and kination-tracking-note in addition to the original three.
+
 | deliverable | status |
 |---|---|
-| supertrace-note | Zenodo; arXiv optional (gr-qc) |
-| neutrino-mbb | TeX ready; **hep-ph endorsement** |
-| radio-lattice | TeX ready; **astro-ph endorsement** |
-| lattice-tc-gap | TeX ready (2 pp); **hep-lat endorsement** |
-| fairbank-0nubb | **NOT_READY** — README only; do not invent TeX (duplicate of neutrino-mbb) |
-| bbn-eps-bound | TeX ready (3 pp); **astro-ph endorsement**; dense ε_max(T_c) curve still UNVERIFIED (bound at measured T_c) |
+| supertrace-note | **SHIPPED** (Zenodo); arXiv optional (gr-qc) |
+| neutrino-mbb | TeX ready; **owner submitted to William Fairbank (2026-08-03)** — packaging paused; hep-ph endorsement still the arXiv gate |
+| radio-lattice | **READY** 7 pp; **astro-ph endorsement** |
+| lattice-tc-gap | **READY** 2 pp; **hep-lat endorsement** |
+| fairbank-0nubb | **NOT_READY** — README only; do not invent TeX (duplicate of neutrino-mbb; Fairbank thread owns neutrino-mbb) |
+| bbn-eps-bound | **READY** 3 pp; **astro-ph endorsement**; optional dense ε_max(T_c) residual (bound at measured T_c) |
+| kination-tracking-note | **READY** 2 pp; **gr-qc endorsement**; extracted from MATH_SPINE §7 2026-08-02 |
 
 Hygiene: `scripts/arxiv_package_audit.py` → `docs/working_logs/_PACKAGE_AUDIT.md`.
 
+### Docs shelf remainder (not package sources)
+
+After kination extraction, **PAPER_CANDIDATE count on top-level `docs/PRTOE_*.md` is zero.**
+**2026-08-03 re-audit:** still **0** new candidates — all borderline COMPLETE rechecked and
+rejected (see `_ARXIV_CANDIDACY.md` header / §E). Remaining work on the live shelf is not
+“make more short papers from COMPLETE files”:
+
+| bucket | n (approx) | what to do |
+|---|---:|---|
+| COMPLETE / COMPLETE-CONDITIONAL / LEDGER | ~41 | **CORPUS_ONLY** — keep as identity/scorecard/registry; de-AI residual greps clean |
+| OPEN-MACHINE | 8 | Wait on chains/sims (bbnfix, routeD, conv_desi, lensing, α_c/α_g, granule) |
+| OPEN-THEORY | 10 | Real mechanism debt — do not fake-complete (Koide, bounce, T14 sign, hierarchy, …) |
+| WATCH-EXTERNAL | 5 | Lattice, DESI 4PCF, NewAthena, BipoSH data, helium fork |
+| exploratory/ | 37 | Unlinked breadth; work continues there, not on the public shelf |
+
+Desk OPEN remains **0**. Residual “owed” language in COMPLETE files is mostly honest open residue, not stale premise (one BipoSH line in `PRTOE_radio_lattice.md` corrected 2026-08-02).
+
+## Tribunal coordination (Grok + Claude + ChatGPT)
+
+Live handoff brief: **[`ForGrok&Claude.md`](../../ForGrok&Claude.md)** (repo root; now a
+**three-seat tribunal**). Quick card: [`TRIBUNAL.md`](TRIBUNAL.md).
+
+| Seat | Role |
+|---|---|
+| Grok | Blue builder |
+| Claude | **Red team only** (pure attack; no blue) |
+| ChatGPT | **Neutral referee — no side** |
+
+**Law:** unanimous AGREE or the conversation continues (no majority booking). Primary science:
+T14; not three deep theory sprints in parallel.
+
 ## Next recommended sessions
 
-1. Leave bbnfix pair alone; watch R−1; book when ≤0.05 via `_POSTERIOR_BOOKING_CHECKLIST.md`
-2. RouteD: **surgery plan above** if second progress still has R−1 ≫ 10 and ranks disjoint /
-   raw accept still ~5% — config surgery, not open-ended waiting; **owner kills only when
-   applying the reseed**
-3. Theory sprints one at a time (Koide OR bounce OR T14 3D), never all three half-done
-4. Endorsement chase in parallel (five TeX packages ready; Fairbank NOT_READY)
+1. Leave bbnfix pair alone unless dual gate opens (live: lcdm R−1 **0.049324**@N=26294 with
+   `converged:true` · dyad **0.056889**@N=24677 with `converged:false` — one ready leg is **NOT**
+   bookable);
+   book only via `_POSTERIOR_BOOKING_CHECKLIST.md` + dual R−1&lt;0.05 + self-stop
+2. RouteD: leave alone (live R−1 **0.728432**@N=8120, three ranks — early ~7.28× stop 0.1; **not**
+   the old ~129 one-row state). Do **not** archive-and-reseed a converging multi-rank chain from a
+   stale headline; **owner kills only when applying a reseed**
+3. Theory sprints one at a time (Koide OR bounce OR T14 3D), never all three half-done —
+   see `ForGrok&Claude.md` for dual-agent split
+4. Endorsement chase in parallel (radio-lattice, lattice-tc-gap, bbn-eps-bound, kination READY;
+   supertrace SHIPPED; **neutrino-mbb with Fairbank** — packaging paused; Fairbank-0nubb NOT_READY)
 5. Check 12 on hierarchy / remaining giants only when editing them
 6. Residual dead-premise greps are clean as of 2026-08-02 residual pass; re-run only after
    large chain-status edits
-

@@ -1,0 +1,13 @@
+========================================================================
+bbnfix Δ(min −logpost) proxy — NOT full Laplace
+========================================================================
+  dyad_mnu_bbnfix: R−1=0.048118  converged=True  (OK)
+  cmp_lcdm_mnu_bbnfix: R−1=0.049324  converged=True  (OK)
+  dyad_mnu_bbnfix: min_minuslogpost = 1375.815  ranks={1: 1376.0433, 2: 1376.083, 3: 1375.815}
+  cmp_lcdm_mnu_bbnfix: min_minuslogpost = 1378.7777  ranks={1: 1378.7777, 2: 1378.8237, 3: 1379.0701}
+
+  Δ(min −logpost) = model − control = -2.962700
+  Caveat: NOT full Laplace (no Hessian volume / prior measure).
+  Prefer CosmicForge Hessian Laplace for bookable ΔlnZ after gate.
+  Do NOT substitute pre-bbnfix ΔlnZ ≈ +2.6.
+========================================================================

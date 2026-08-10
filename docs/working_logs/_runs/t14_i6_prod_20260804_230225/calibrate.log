@@ -1,0 +1,11 @@
+======================================================================
+  CALIBRATION TARGETS (geometry only — not a flow measurement)
+  tol_planar=0.05  tol_helix=0.15
+======================================================================
+  planar circle Wr=+0.0000  target=0±0.05  PASS
+  noisy planar  Wr=+0.0049  target=0±0.05  PASS
+  helical ring  Wr_inst=-0.5722  Wr_truth=-0.5722  |Δ|=0.0000  tol=0.15  PASS
+  helical n=2   Wr_inst=-0.1785  Wr_truth=-0.1785  |Δ|=0.0000  tol=0.15  PASS
+======================================================================
+  CALIBRATION OVERALL: PASS
+======================================================================

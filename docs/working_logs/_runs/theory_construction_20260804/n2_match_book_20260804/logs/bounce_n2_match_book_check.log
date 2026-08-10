@@ -1,0 +1,71 @@
+==============================================================================
+N2 match-book check: FA1 reconfirm + domain fences
+==============================================================================
+  exit 0 = compute done; NOT physics PASS / NOT bounce closed
+
+[1] Anchors (FA1 / FA3 class)
+  c_s = √(3α)              = 0.147960
+  ξ                        = 3.047693e+20 eV^{-1}
+  H_door                   = 1.894392e-21 eV
+  H_shear = 1/(√3 ξ)       = 1.894385e-21 eV
+  R_H/ξ                    = 1.7320
+  ρ_eff^{1/4}              = 2.8268e+03 eV
+  ρ_bounce^{1/4}           = 1.0592e+03 eV
+  |H_kin(Θ=1,d=3)|/H_door  = 0.085424
+  c_s/√3                   = 0.085425
+  Θ_lock (d=3)             = 11.7063
+  |H_kin(Θ_late=0.062,d=3)|/H_door = 5.296303e-03
+  ρ_need/ρ_eff (late inverse)      = 2.805082e-05
+
+[2] Domain fence — Phase II exterior H
+  PHASE_II_EXTERIOR_H_DEFINED        = False
+  PHASE_II_APPLY_H_EQ_THETA_OVER_D   = False
+  ASSERT: Phase II has no exterior H; do not apply H=⟨Θ⟩/d to exterior
+
+[3] Obstruction A — metric-ON continuous cross forbidden
+  H_kin(Θ=0)     = 0.0
+  H_F(ρ_eff·1)   = 1.894392e-21 eV  ≠ 0
+  obstruction_A (H_kin=0 ∧ ρ>0 under metric-ON) = True
+  ASSERT: continuous metric-ON exterior H through 0 at finite ρ is DEAD
+
+[4] Obstruction C residual — magnitude lock not closed
+  |H_kin(Θ=1)|/H_door ≈ 1?   False  (value 0.0854)
+  |H_kin(late)|/H_door ≈ 1?  False  (value 5.2963e-03)
+  ASSERT: default H_kin = H_F(ρ_door) not locked for stocked Θ
+
+[5] FA1 trans-phononic table reconfirm
+  v_g/c_s (x=2) = 2.1213  (expect > 1.3)
+  x* (ω/H=1)    = 2.46  (expect ~2.5)
+  ASSERT: metric-end quantitative (v_g>c_s); quench/adiabatic split stocked
+  SCOPE: medium sector only; SM photon inverse not claimed
+
+[6] Phase III re-entry gate (P2 form — not Derived)
+  gate: ⟨Θ⟩>0 ∧ ℓ_grad ≳ ξ  ⇒  H_re = +√(8πG ρ_re/3 + σ_re²/3)
+  ρ_re law: OPEN / F-A2 (N1: 0 lands)
+  expanding root: P2 CANDIDATE declaration, not NEC derivation
+  ASSERT: can_derive_H_re_without_declaration = false
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "n2_match_book_20260804",
+  "exit_means": "compute_done_not_physics_PASS",
+  "c_s": 0.14795964842319909,
+  "H_door_eV": 1.8943916024168856e-21,
+  "H_kin_over_H_door_Theta1_d3": 0.08542423526860674,
+  "H_kin_over_H_door_late_d3": 0.005296302586653618,
+  "Theta_lock_d3": 11.706279802864074,
+  "rho_need_over_rho_eff_late": 2.8050821089393807e-05,
+  "xstar": 2.460966689788809,
+  "v_g_over_cs_x2": 2.1213203435596424,
+  "phase_II_exterior_H_defined": false,
+  "obstruction_A_stands": true,
+  "obstruction_C_stands": true,
+  "can_derive_H_re_without_declaration": false,
+  "bounce_closed": false,
+  "grade": "PARTIAL_OPEN_residual_dictionary_RECONSTRUCTED",
+  "lands": 0
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — FA1 numbers reconfirmed; domain fences held; 0 land.
+==============================================================================

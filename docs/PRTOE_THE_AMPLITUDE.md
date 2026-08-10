@@ -2,6 +2,11 @@
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Risk page: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
 
+> **Paper path (2026-08-05).** This file is a **corpus hub**, not a submission artifact. It
+> collects the epsilon stack, its grades, and its multi-window obligations. If a narrow paper ever
+> leaves this area, it should be cut as a self-contained slice rather than promoted from the whole
+> hub.
+
 One number added to known physics: a universal fractional shift of lepton masses, ε ≈ +1.24%, controlled by one screening gate. Observable claims that route through ε live here. Grades are inline. Failures: [PRTOE_FAILURES_LEDGER.md](PRTOE_FAILURES_LEDGER.md).
 
 ---
@@ -23,7 +28,7 @@ only if the lightest neutrino mass is direct-Majorana, seating it on the medium'
 conditional on the tie being a lock **and on an equal share per channel, which the framework does not
 force** — the ε-blind ensemble confirms the value at −0.08σ but at its width excludes neither 12/13
 nor the charge²-weighted 8/9, which sits 0.30σ away), f̄ (the winding
-average; fit-implied 0.6253, simulation 0.635, closed-form claim 2/π = 0.6366 — a live
+average; fit-implied 0.6253, standing winding ensemble 0.63137 ± 0.00328 (1.6σ), closed-form claim 2/π = 0.6366 — a live
 triple), and α_c = 3α (a pre-registered bet, P-2026-040, decided by the α_c instrument
 once it converges). **Do not say “zero free parameters” unless c, f̄, and α_c all hold.** Effective grade = weakest parent.
 
@@ -31,7 +36,7 @@ once it converges). **Do not say “zero free parameters” unless c, f̄, and �
 
 | factor | value | grade | note |
 |---|---|---|---|
-| **f̄** | 2/π = 0.6366 | **derived** | winding ⟨\|cos\|⟩; sim 0.635 ± 0.026 is the check |
+| **f̄** | 2/π = 0.6366 | **strengthened candidate** (not absolute closure) | winding ⟨\|cos\|⟩; the standing check is 0.63137 ± 0.00328, **1.6σ** from 2/π (~0.8% shortfall, read as the expansion's next term c_w·ε/2); residual: leading-order dominance unproved from un-built family-coupling Lagrangian, and c_w underived |
 | **c** | 9/10 | **counting assumption** | not forced; 8/9 and 12/13 still open at current ensemble width |
 | **α_c** | 3α | **registered bet** (P-2026-040) | ~2% above current data point; stack fails if this fails |
 
@@ -43,11 +48,11 @@ Rule: ε is owed at epoch and environment weights; no free per-window exits. Wav
 
 | window | epoch | what ε does | grade |
 |---|---|---|---|
-| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → **H₀ = 69.9** (the Hubble-tension mechanism) — *provisional: measured under an earlier `YHe` treatment, re-measurement pending* | production fit; the evidence exposure stands with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity; the identity-configuration rerun is prepared and queued behind the production chains), and is priced from the MCMC — nested sampling deferred to cluster time |
+| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → historical fixed-ε **H₀ = 69.9**; booked old-BAO dyad **H₀ = 70.052 ± 0.716** — *current evidence still only Laplace-marginal* | production fit plus booked old-BAO receipt; the evidence exposure still stands with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity; the identity-configuration rerun is prepared and queued behind the production chains), and is still priced from Laplace while the gold DESI-DR2 nested referee remains designed not launched |
 | **windowed BBN** | T ≈ 0.7 MeV–70 keV | off at n/p freeze-out, growing below T_c (the order-parameter birth ramp — the BBN engine's standing treatment) → the abundance pattern. Under the standing configuration's committed genesis window the joint reads p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), with deuterium eased to −2.5 to −1.4σ from Cooke and helium paying at +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ); the helium fork, the nuclear-code systematic, and the radio referee are the judges | production (PRyM pipeline) |
 | **21-cm lines** | z ≈ 30–150 | rest frequencies shifted +2.5% (the (1+ε)² identity), with the exact ratio-lock ν_H/ν_D; the screening edge's *shape* reads the gate | registered (P-2026-022/027) |
 | **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 4×10⁻⁷, axis-correlated (sized by the Jeans rate √(3/2)) | registered (P-2026-024); consistent null today |
-| **Σm_ν de-bias** | parameter fits | model-conditional neutrino masses stay physical (61.4 meV vs DESI's ≲ 72 meV squeeze). The de-bias is the claim; the sum itself is not a discriminator — 2.6 meV above the m₁ = 0 floor against ~20 meV planned resolution | recorded; referee near |
+| **Σm_ν de-bias** | parameter fits | model-conditional neutrino masses stay physical (≈61.35 meV vs DESI's ≲ 72 meV squeeze). The de-bias is the claim; the sum itself is not a discriminator — ~2.6 meV above the m₁ = 0 floor against ~20 meV planned resolution | recorded; referee near |
 | **the supernova channel** | z < 0.15, unscreened hosts | **verdict signed: the sign is opposite to the Hubble tension** — SN standardization *cannot* supply the remaining H₀ gap (162/162 template configurations, robust). The channel survives inverted: a screening-dependent standardization offset matching the observed **host mass step's** class — a discriminable rival to dust explanations (host-*density* trend vs color-dependent step) — **subdominant at central values (~0.02 mag, environment-tagged), but the full step survives as a corner claim at C_ref ≈ 2 — the gate's own fence window; the DESI forest cross-calibration adjudicates the fork; the cluster-SN null stays the clean test** | computed; the H₀-lever branch closed, the candidacy forked on the forest |
 | **the Lyman-α forest** | z ≈ 2–3, near-mean density | absorption offset ε × gate(Δ ≈ 1); the differential null forces the steep gate; DESI's forest cross-calibration is the executioner | live test, named |
 
@@ -66,7 +71,7 @@ Gate fenced by forest flatness, SN host-density range, P-2026-022 fade profile, 
 as the Fermi-surface average of a Thomas–Fermi-screened Coulomb exchange over the full sphere,
 with the screening constant 2α_c/π coming out of e²·(2N₀)/4k_F² — the factor 2 a *two-band*
 polarisation, which needs the two bands velocity-matched and not merely compensated
-([PRTOE_hierarchy_problem.md](PRTOE_hierarchy_problem.md) §6c, §6e). The host question is
+([PRTOE_hierarchy_problem.md](exploratory/PRTOE_hierarchy_problem.md) §6c, §6e). The host question is
 settled onto standard ground: the screening constant is doping-independent — it holds at any
 nonzero band filling with the bath colder than the filling — and a ground-state kernel is the
 gap equation's own standard construction (hierarchy §6n), with the once-owed number — the
@@ -122,3 +127,22 @@ forbids. The census-legal coupling is a universal conformal rescaling, which is 
 ## 6. Implementation pointer
 
 CLASS: `dcdf_dyad_link` derives `varying_me = 1 + c·f_amp·Ψ₀/M_red` (defaults → 1.2543%); density gate optional. Production fixed-ε configs use both. Details: [PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md).
+
+---
+
+## Claims ledger & discipline (2026-08-03) — above story-grade discipline
+
+| # | Claim | Grade | Evidence | Residual / blocker |
+|---|---|---|---|---|
+| 1 | ε ≈ 1.24% is the one added number (windows at fixed weights) | **complete-conditional** | §1–2 | Grade = weakest parent |
+| 2 | f̄ = 2/π | **strengthened candidate** (not absolute closure) | winding ⟨\|cos\|⟩; sim check | residual openness — see DERIVATION_HUNT |
+| 3 | c = 9/10 counting assumption | **OPEN** / assumption | §1 | 8/9, 12/13 not excluded at width |
+| 4 | α_c = 3α registered bet | **OPEN-BLOCKED** | P-2026-040 | **OPEN-MACHINE:** zon_disp not running |
+| 5 | H₀=69.9 / windows table | **machine-backed** provisional | §2 | Nested offline; BBN adverse |
+| 6 | A_s closed form (α_c/4πk)³ | **derived-conditional** | §3 gate math | Ontology/host riders |
+| 7 | SN candle sign opposite to tension | **machine-backed** | 162 templates | H₀-lever branch closed |
+| 8 | What page does not claim (§5) | **honest fence** | §5 | — |
+
+**Non-claims:** not zero free parameters until stack holds; not BBN win; not final H₀.
+
+**Triage:** elevate-in-place. Physics ceiling: f̄ **strengthened candidate** (not absolute closure); stack **OPEN-BLOCKED** (α_c/c).

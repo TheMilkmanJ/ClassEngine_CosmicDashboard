@@ -1,0 +1,22 @@
+==============================================================================
+The tilt's residual against the registered isocurvature line
+==============================================================================
+
+   L = 2/(1−n_s) = 61.9 e-folds at the pivot
+   r      S/ζ = 1/(rL)
+    0.8    2.02%
+    1.0    1.61%
+    1.5    1.08%
+    2.3    0.70%
+
+   over the surviving band: S/ζ ∈ [0.70%, 2.02%] — the
+   percent class, which is P-2026-031's registered amplitude class.
+   The mechanism's residual and the registered line are one object
+   read twice; no tension anywhere inside the surviving band (the
+   r ≲ 0.1 tension zone lies outside it).
+
+VERDICT: gate (2) PASSES — consistency, not promotion. The tilt's
+   remaining gate is the rate normalization (task #15's weight-zero
+   exhibit); P-2026-031's own referee (a future CMB bound at ℓ ≈ 170)
+   is unchanged and external.
+==============================================================================

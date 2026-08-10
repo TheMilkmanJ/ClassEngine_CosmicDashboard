@@ -1,0 +1,46 @@
+==============================================================================
+Room 1's anchor reconciliation, re-verified — then the standing values
+==============================================================================
+
+(1) THE ERA NUMBERS (A3/A3a re-derived):
+
+   era corner (anchor A's home)  (λ = 1.0e-88, m = 1e-22 eV)
+   basin entry: ρ_x = m⁴/λ = 1 eV⁴ → z_x = 4.64e+03
+   h_eff(mean):  direct λρ/m⁴ = 1e-11   identity (1+z_x)⁻³ = 9.99e-12   (agree to 0.1%)
+   h_eff(halo, 0.3 GeV/cm³) = 2.33e-06
+   τ_Q(halo, r_t = 1) = 38.4 Gyr
+
+   era band   (anchor B's home)  (λ = 1.0e-88, m = 1e-21 eV)
+   basin entry: ρ_x = m⁴/λ = 1e+04 eV⁴ → z_x = 1e+05
+   h_eff(mean):  direct λρ/m⁴ = 1e-15   identity (1+z_x)⁻³ = 1e-15   (agree to 0.0%)
+   h_eff(halo, 0.3 GeV/cm³) = 2.33e-10
+   τ_Q(halo, r_t = 1) = 3.84e+08 Gyr
+
+   anchor A reproduced: 2.3e-06 (booked 3×10⁻⁶)   anchor B reproduced: 1e-15 (booked ~10⁻¹⁵)
+   the decomposed gap: 5.4 decades of density + 4.0 decades of m⁴ = 9.4 ≈ the '9 decades'
+   → A3 verified: two correct answers to two different questions.
+
+(2) A4's RE-PRICING AT THE AUDITED BAND (the ruling's lift):
+   m = 1e-21: h_eff(halo) = 2.33e-10, τ_Q ≥ 3.84e+08 Gyr (no detuning credit)
+   m = 3e-21: h_eff(halo) = 2.88e-12, τ_Q ≥ 8.39e+11 Gyr (no detuning credit)
+   → A4 verified: the 94-Gyr scare lived only at the killed corner;
+     ≥10⁹ Gyr everywhere on the audited band. Ruling lifted, correctly.
+
+(3) THE STANDING VALUES (the era note's claim, now shown):
+
+   standing  (λ = 2.0e-91, m = 2.24e-20 eV)
+   basin entry: ρ_x = m⁴/λ = 1.26e+12 eV⁴ → z_x = 5.01e+07
+   h_eff(mean):  direct λρ/m⁴ = 7.94e-24   identity (1+z_x)⁻³ = 7.94e-24   (agree to 0.0%)
+   h_eff(halo, 0.3 GeV/cm³) = 1.85e-18
+   τ_Q(halo, r_t = 1) = 2.72e+23 Gyr
+   margin over A4's floor: ×7.1e+14 — the era note's 'exact
+   with more margin' is now arithmetic, not assertion.
+
+VERDICT: no inconsistency exists and none existed at the standing
+   values either — the anchors were different densities at different
+   masses; the identity h_eff(mean) = (1+z_x)⁻³ holds at both eras;
+   and the frozen-ellipticity theorem's EXACT status strengthens by
+   ~14 decades at the standing parameters. Board #35 closes as
+   'already resolved in-file (A3/A4/A3a), arithmetic verified, era
+   note's claim now computed.'
+==============================================================================

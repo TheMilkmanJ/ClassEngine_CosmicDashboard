@@ -1,0 +1,44 @@
+==============================================================================
+What width actually separates the census candidates
+==============================================================================
+
+   in hand: c = 0.903 +/- 0.0375  (the epsilon-blind ensemble)
+
+   candidate            value      distance from 9/10   sigma now
+   8/9  (charge-weighted, Sum N_c Q^2 = 8) 0.88889   0.01111      0.30
+   9/10 (the standing census)             0.90000   0.00000      0.00
+   12/13 (the wider roster)               0.92308   0.02308      0.62
+
+   the BINDING spacing is 9/10 vs 8/9 = 0.01111
+   (9/10 vs 12/13 = 0.02308, twice as easy)
+
+   the quoted target sigma_c <= 0.0115 buys:
+     9/10 vs 8/9   : 0.97 sigma
+     9/10 vs 12/13 : 2.01 sigma
+   -- i.e. at the quoted width the charge-weighted candidate still
+      sits one sigma away. That is not a separation; it is the
+      width at which the two stop coinciding.
+
+   what a genuine call costs (binding pair, 9/10 vs 8/9):
+     level    sigma_c needed   sharpening vs now   data multiple
+     2 sigma      0.00556            6.7x                   46x
+     3 sigma      0.00370           10.1x                  103x
+     5 sigma      0.00222           16.9x                  285x
+
+VERDICT:
+   THE RECORDED CLOSING MOVE DOES NOT CLOSE. sigma_c <= 0.0115 is
+   the candidate SPACING, so it delivers a 1.0-sigma separation
+   from the charge-weighted alternative — the alternative survives
+   comfortably at that width. A 3-sigma call needs sigma_c <=
+   0.00370, which is a 10.1x sharpening, not 3.3x, and
+   because ensemble width falls as 1/sqrt(N) that is ~103x the data,
+   not ~11x. The 3.3x figure understates the cost of the closing
+   move by an order of magnitude in width and two in sample.
+
+   This does not change c's STATUS — it was already a counting
+   assumption the framework does not force, and the ensemble
+   already confirms without adjudicating. What changes is the
+   cost of the adjudication: it is not nearly in reach, and any
+   plan that treats sigma_c = 0.0115 as the finish line is
+   planning to stop one sigma short of a decision.
+==============================================================================

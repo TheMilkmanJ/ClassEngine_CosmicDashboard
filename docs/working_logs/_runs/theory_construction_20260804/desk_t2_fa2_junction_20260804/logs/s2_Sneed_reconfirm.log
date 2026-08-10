@@ -1,0 +1,288 @@
+==============================================================================
+S2 — ρ_re/ρ_eff suppression law hunt (no free dial)
+==============================================================================
+
+[0] Anchors (stocked; N1-compatible)
+  c_s                    = 0.147960
+  ξ                      = 3.047693e+20 eV^{-1}
+  H_door                 = 1.894392e-21 eV
+  ρ_eff^{1/4} (door)      = 2.8268e+03 eV
+  ρ_rad^{1/4} (door)      = 1.4643e+02 eV
+  ρ_bounce^{1/4}          = 1.0592e+03 eV
+  shear_frac (door)      = 0.999993
+  0D late_Θ              = +0.0619
+  0D late_n              = 0.6822
+  0D overshoot           = 1.3404
+  N_mix (Σ≥1→a_loc)      = 6.2596  [derived shear clock, not dial]
+  Δt_mix / t_heal        = 1.222e+07
+  H_door · t_heal        = 3.9021
+
+[1] Required suppression S ≡ ρ_re/ρ_eff for H_kin = H_F(ρ_re)
+  |H_kin(Θ=1)|/H_door    = 8.542424e-02
+  |H_kin(late)|/H_door   = 5.290197e-03
+  Θ_lock @ door (d=3)    = 11.7062
+  S_need (Θ=1)           = 7.297300e-03   (= (c_s/√3)²)
+  S_need (late)          = 2.798618e-05   (= (H_kin_late/H_door)²)
+  ρ_need^{1/4} late       = 2.0560e+02 eV
+  ρ_need^{1/4} Θ=1        = 8.2620e+02 eV
+
+[2] Candidate suppression factors S = ρ_re/ρ_eff
+  ID/name                                                     S   S/S_late     S/S_Θ1 log|late|  grade
+  --------------------------------------------------------------------------------------------------------------
+  A1a acoustic c_s²                                  2.1892e-02  7.822e+02  3.000e+00     2.893  DEAD-as-law
+       → c_s stocked; c_s² is not a derived ρ_re/ρ_eff map; O(10⁻²) only
+  A1b acoustic c_s⁴                                  4.7926e-04  1.712e+01  6.568e-02     1.234  DEAD-as-law
+       → c_s⁴ ~ 4.8e-4 still short of late need by ~17×; not a written medium law
+  A1c exp(-4 H t_heal)                               1.6648e-07  5.949e-03  2.281e-05     2.226  DEAD-as-law
+       → H·t_heal=1/(√3 c_s) stocked; treating it as radiation e-folds is speculative and oversuppresses late by ~10²
+  A1d exp(-H t_heal)                                 2.0200e-02  7.218e+02  2.768e+00     2.858  DEAD-as-law
+       → Single-power exp(-H t_heal)~0.02; not a law and wrong scale for late
+  A2a residual non-shear frac (1−shear_frac)         7.2011e-06  2.573e-01  9.868e-04     0.590  WRONG-OBJECT
+       → Equals ρ_rad/ρ_eff at door; shear cannot be deleted by fiat at re-entry — σ_re bookkeeping missing; not F-A2
+  A2b identity keep-all (S=1, shear kept)            1.0000e+00  3.573e+04  1.370e+02     4.553  DEAD-as-law
+       → No suppression; late fails by ~1/S_need
+  A3 ρ_rad/ρ_eff (door split)                        7.2011e-06  2.573e-01  9.868e-04     0.590  WRONG-OBJECT
+       → Stocked split; magnitude near late need (~few×) but wrong object — door radiation ≠ re-entry amplitude law; Θ=1 fails by ~10³
+  A4a exp(-4 N_mix) [N_mix derived; arrow illegal]   1.3363e-11  4.775e-07  1.831e-09     6.321  DEAD-as-law
+       → N_mix=6.26 is derived from Σ≥1→ξ clock, BUT mixmaster is *contraction* (ρ grows, not diluted). Using exp(-4N_mix) as re-entry suppression is wrong-arrow bookkeeping; also oversuppresses by ~10⁶ vs late
+  A4b exp(-4 N_dir~1.73) [O7 directional; still no   9.8783e-04  3.530e+01  1.354e-01     1.548  DEAD-as-law
+       → Directional mean e-folds stocked ~1.6–1.9; exp(-4N) not a written ρ_re law; scale wrong for both targets
+  A5a free N_med=-2.621 → late lock (KILL)           2.7986e-05  1.000e+00  3.835e-03     0.000  FABRICATED
+       → Hits late S by dial. M2 labels N_med fabricated; M2b: N_med≠1/c_s identity. N_med(MeV)=+6.18 has *opposite sign* to late-lock dial. EXPLICIT KILL as F-A2 land
+  A5b free N_med=-1.230 → Θ=1 lock (KILL)            7.2973e-03  2.607e+02  1.000e+00     2.416  FABRICATED
+       → Hits Θ=1 S by dial; same honesty kill
+  A6a 1/overshoot (0D)                               7.4603e-01  2.666e+04  1.022e+02     4.426  DEAD-as-law
+       → overshoot=1.34 only O(1); need 10⁴–10⁵ for late
+  A6b n_late                                         6.8220e-01  2.438e+04  9.349e+01     4.387  DEAD-as-law
+       → n_late=0.682 O(1); not suppression law
+  A6c ρ_bounce/ρ_eff                                 1.9715e-02  7.044e+02  2.702e+00     2.848  WRONG-OBJECT
+       → Floor/ceiling PAID; not turn amplitude; short of late by ~700×
+  A7 quench ρ_quench/ρ_eff                           1.3980e-97  4.995e-93  1.916e-95    92.301  DEAD-as-law
+       → Task5: quench injects ~10⁻⁹⁷ of door budget — wrong scale; channel closed for MeV, useless as controlled F-A2 suppression
+  A8 inverse S=(H_kin_late/H_door)² [tautology]      2.7986e-05  1.000e+00  3.835e-03     0.000  TAUTOLOGY
+       → Always matches late by construction; residual rename, not medium law (N1 C4)
+
+[3] Verdict assembly
+  legal LANDs (derived ρ_re law)     = 0
+  fabricated dials (N_med class)     = 2
+  tautologies                        = 1
+  near-late non-fab non-wrong-obj    = 0
+  best non-fab by |log10 S/S_late|   = A2a residual non-shear frac (1−shear_frac)
+      S_best                         = 7.201143e-06
+      S_best / S_need_late           = 2.5731e-01
+      log10 |S/S_need_late|          = 0.5895
+      grade                          = WRONG-OBJECT
+  strongest stocked S(<1)            = A7 quench ρ_quench/ρ_eff
+      S_strong                       = 1.397992e-97
+
+[4] Explicit KILL: free N_med to target ratio
+  N_med for late lock  = -2.6209  (negative = fabricated dilution)
+  N_med for Θ=1 lock   = -1.2301
+  N_med for MeV (η=1)  = +6.1844  (positive compression; O6 toy)
+  Verdict: dialing N_med to hit either lock or MeV is M2 fabrication.
+  M2b already showed N_med ≉ 1/c_s as identity. NOT a Derived F-A2 land.
+
+[5] What residual still forces (honest)
+  Stocked parts do NOT supply a derived S = ρ_re/ρ_eff ~ 2.8e-5 law.
+  Closest stocked magnitude (ρ_rad/ρ_eff ~ 7e-6) is WRONG-OBJECT and
+  fails Θ=1 by ~10³. Mixmaster N_mix is real but wrong-arrow as dilution.
+  Still force: (i) derive Θ_heal ≳ 12, or (ii) true junction ρ_re law,
+  or (iii) different matching rule (N2 match-book).
+
+SUMMARY_JSON_BEGIN
+{
+  "package": "s2_rho_suppression_20260804",
+  "can_land_rho_suppression_from_stocked_parts": false,
+  "n_candidates": 16,
+  "n_lands": 0,
+  "n_fabricated": 2,
+  "n_tautology": 1,
+  "S_need_late": 2.7986183162093432e-05,
+  "S_need_Theta1": 0.007297299971226275,
+  "H_kin_late_over_H_door": 0.005290196892563965,
+  "H_kin_Theta1_over_H_door": 0.08542423526860674,
+  "Theta_lock_door_d3": 11.706237653490552,
+  "late_Theta": 0.061928525036595815,
+  "overshoot_0d": 1.340428649038328,
+  "N_mix_derived": 6.259626854388497,
+  "rho_rad_over_rho_eff": 7.201143039946681e-06,
+  "N_med_late_lock_FABRICATED": -2.6209499070191113,
+  "N_med_Theta1_lock_FABRICATED": -1.2300627165501874,
+  "N_med_MeV_FABRICATED": 6.18440563643696,
+  "best_nonfab_name": "A2a residual non-shear frac (1\u2212shear_frac)",
+  "best_nonfab_S": 7.201143039980984e-06,
+  "best_nonfab_grade": "WRONG-OBJECT",
+  "best_nonfab_log10_dist_late": 0.589542234527419,
+  "strongest_stocked_S_name": "A7 quench \u03c1_quench/\u03c1_eff",
+  "strongest_stocked_S": 1.3979915398416102e-97,
+  "grade_S2": "OPEN-BLOCKED",
+  "obstruction_C": "stands",
+  "bounce_closed": false,
+  "cyclic_cosmology": false,
+  "exit0_is_not_PASS": true,
+  "candidates": [
+    {
+      "name": "A1a acoustic c_s\u00b2",
+      "S": 0.02189205756151668,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 782.2452041680664,
+      "log10_dist_late": 2.89334290922989,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "c_s stocked; c_s\u00b2 is not a derived \u03c1_re/\u03c1_eff map; O(10\u207b\u00b2) only"
+    },
+    {
+      "name": "A1b acoustic c_s\u2074",
+      "S": 0.00047926218427675964,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 17.124957036867677,
+      "log10_dist_late": 1.2336294906068166,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "c_s\u2074 ~ 4.8e-4 still short of late need by ~17\u00d7; not a written medium law"
+    },
+    {
+      "name": "A1c exp(-4 H t_heal)",
+      "S": 1.6648292747258887e-07,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 0.005948754301661462,
+      "log10_dist_late": 2.2255739681461746,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "H\u00b7t_heal=1/(\u221a3 c_s) stocked; treating it as radiation e-folds is speculative and oversuppresses late by ~10\u00b2"
+    },
+    {
+      "name": "A1d exp(-H t_heal)",
+      "S": 0.020199584024746243,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 721.7698786487634,
+      "log10_dist_late": 2.858398753853179,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "Single-power exp(-H t_heal)~0.02; not a law and wrong scale for late"
+    },
+    {
+      "name": "A2a residual non-shear frac (1\u2212shear_frac)",
+      "S": 7.201143039980984e-06,
+      "grade": "WRONG-OBJECT",
+      "shortfall_late": 0.2573106521268948,
+      "log10_dist_late": 0.589542234527419,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "Equals \u03c1_rad/\u03c1_eff at door; shear cannot be deleted by fiat at re-entry \u2014 \u03c3_re bookkeeping missing; not F-A2"
+    },
+    {
+      "name": "A2b identity keep-all (S=1, shear kept)",
+      "S": 1.0,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 35731.91793279172,
+      "log10_dist_late": 4.553056327852964,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "No suppression; late fails by ~1/S_need"
+    },
+    {
+      "name": "A3 \u03c1_rad/\u03c1_eff (door split)",
+      "S": 7.201143039946681e-06,
+      "grade": "WRONG-OBJECT",
+      "shortfall_late": 0.25731065212566906,
+      "log10_dist_late": 0.5895422345294878,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "Stocked split; magnitude near late need (~few\u00d7) but wrong object \u2014 door radiation \u2260 re-entry amplitude law; \u0398=1 fails by ~10\u00b3"
+    },
+    {
+      "name": "A4a exp(-4 N_mix) [N_mix derived; arrow illegal]",
+      "S": 1.3363320776994284e-11,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 4.774970813131303e-07,
+      "log10_dist_late": 6.321029278684373,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "N_mix=6.26 is derived from \u03a3\u22651\u2192\u03be clock, BUT mixmaster is *contraction* (\u03c1 grows, not diluted). Using exp(-4N_mix) as re-entry suppression is wrong-arrow bookkeeping; also oversuppresses by ~10\u2076 vs late"
+    },
+    {
+      "name": "A4b exp(-4 N_dir~1.73) [O7 directional; still not law]",
+      "S": 0.0009878299405312295,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 35.29705836661642,
+      "log10_dist_late": 1.5477385130824612,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "Directional mean e-folds stocked ~1.6\u20131.9; exp(-4N) not a written \u03c1_re law; scale wrong for both targets"
+    },
+    {
+      "name": "A5a free N_med=-2.621 \u2192 late lock (KILL)",
+      "S": 2.7986183162093412e-05,
+      "grade": "FABRICATED",
+      "shortfall_late": 0.9999999999999992,
+      "log10_dist_late": 3.375146132936506e-16,
+      "fabricated": true,
+      "counts_as_land": false,
+      "reason": "Hits late S by dial. M2 labels N_med fabricated; M2b: N_med\u22601/c_s identity. N_med(MeV)=+6.18 has *opposite sign* to late-lock dial. EXPLICIT KILL as F-A2 land"
+    },
+    {
+      "name": "A5b free N_med=-1.230 \u2192 \u0398=1 lock (KILL)",
+      "S": 0.007297299971226275,
+      "grade": "FABRICATED",
+      "shortfall_late": 260.74652370282064,
+      "log10_dist_late": 2.4162185270822834,
+      "fabricated": true,
+      "counts_as_land": false,
+      "reason": "Hits \u0398=1 S by dial; same honesty kill"
+    },
+    {
+      "name": "A6a 1/overshoot (0D)",
+      "S": 0.7460300111590693,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 26657.083134135555,
+      "log10_dist_late": 4.425812626396166,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "overshoot=1.34 only O(1); need 10\u2074\u201310\u2075 for late"
+    },
+    {
+      "name": "A6b n_late",
+      "S": 0.6821994574766501,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 24376.295028350698,
+      "log10_dist_late": 4.386967697549099,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "n_late=0.682 O(1); not suppression law"
+    },
+    {
+      "name": "A6c \u03c1_bounce/\u03c1_eff",
+      "S": 0.01971460544322372,
+      "grade": "WRONG-OBJECT",
+      "shortfall_late": 704.4406637746389,
+      "log10_dist_late": 2.8478444176291644,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "Floor/ceiling PAID; not turn amplitude; short of late by ~700\u00d7"
+    },
+    {
+      "name": "A7 quench \u03c1_quench/\u03c1_eff",
+      "S": 1.3979915398416102e-97,
+      "grade": "DEAD-as-law",
+      "shortfall_late": 4.995291897235754e-93,
+      "log10_dist_late": 92.30143912892852,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "Task5: quench injects ~10\u207b\u2079\u2077 of door budget \u2014 wrong scale; channel closed for MeV, useless as controlled F-A2 suppression"
+    },
+    {
+      "name": "A8 inverse S=(H_kin_late/H_door)\u00b2 [tautology]",
+      "S": 2.7986183162093432e-05,
+      "grade": "TAUTOLOGY",
+      "shortfall_late": 1.0,
+      "log10_dist_late": 0.0,
+      "fabricated": false,
+      "counts_as_land": false,
+      "reason": "Always matches late by construction; residual rename, not medium law (N1 C4)"
+    }
+  ]
+}
+SUMMARY_JSON_END
+
+ASSERTS OK — S2 no land; free N_med killed; obstruction C stands.

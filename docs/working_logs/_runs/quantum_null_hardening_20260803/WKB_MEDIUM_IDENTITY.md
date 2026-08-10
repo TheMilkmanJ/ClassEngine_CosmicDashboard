@@ -1,0 +1,25 @@
+# WKB ↔ medium evanescent identity (2026-08-03)
+
+## Algebra
+
+$$\kappa = \frac{\sqrt{2m(V-E)}}{\hbar}$$
+
+Thick barrier: $\ln T \sim -2\kappa L$.  Evanescent amplitude: $\ln|\psi(x)| = -\kappa x$.
+
+At $x = L$, $2\,|\ln|\psi|| = |\ln T|$ (same $\kappa$).
+
+## Numerical checks (ħ=m=1)
+
+| V | E | L | κ | −2κL (WKB) | −κL (medium@L) | 2×medium = WKB? |
+|---:|---:|---:|---:|---:|---:|---|
+| 2.0 | 1.0 | 1.0 | 1.414214 | -2.828427 | -1.414214 | PASS |
+| 4.0 | 1.0 | 0.5 | 2.449490 | -2.449490 | -1.224745 | PASS |
+| 10.0 | 1.0 | 0.2 | 4.242641 | -1.697056 | -0.848528 | PASS |
+| 2.0 | 0.5 | 2.0 | 1.732051 | -6.928203 | -3.464102 | PASS |
+
+## Grade
+
+**Shared-math hardened:** WKB thick-barrier exponent is identically twice the medium decay over the same interval.
+**Josephson / macroscopic tunneling:** same *class* of sub-threshold phase dynamics; SI-volt calibration is a precision *receipt*, not a cosmological proof.
+**Not derived:** microscopic origin of ℏ or the particle spectrum.
+**Kill:** confirmed tunneling rates outside standard QM (or preferred-frame imprint on tunneling times if ever established).

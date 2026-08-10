@@ -11,10 +11,14 @@ three pillars, applied to the cosmological case). Status: **floor number** compl
 
 ## 0. The claim
 
+> **§0/§1 fence.** Floor number paid (`ρ_bounce` finite, sub-Planckian). **Classical turn / exterior H_re = OPEN-BLOCKED** (ledger row 3; F-A3). **Cyclic cosmology is not booked** — do not read cycle / reignite sentences below as OEM or DERIVED fact. Story language here is **interpretation / OPEN residual** until the turn is licensed; authoritative freeze: [working_logs/_runs/bounce_full_freeze_20260804/REPORT.md](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md).
+
 The universe did not begin at a singular point. In this model the "Big Bang" is **a genesis —
-the release of the dark condensate from the vacuum state** — and every earlier cycle's "crunch"
-ends in a **finite-density bounce**, not a singularity. The chain of cycles is finite in the
-past, but its first moment is a *state*, not a point of infinite density.
+the release of the dark condensate from the vacuum state** — and, *if* earlier contraction
+phases are admitted as a cyclic reading (**not booked**; classical turn OPEN-BLOCKED), each
+such "crunch" is argued to end at a **finite-density floor**, not a singularity. The chain of
+cycles, *where entertained as interpretation*, is finite in the past, but its first moment is
+a *state*, not a point of infinite density.
 
 ## 1. Why the crunch cannot singularize (the same three pillars as the black-hole interior)
 
@@ -49,9 +53,11 @@ structure, not a substitute for the missing handover equations.
  the genome: the topological winding, which the crunch **cannot** unwind without tearing the
  torus (granted — the genome's crunch-immunity is topological protection).
 
-So each cycle ends: finite density, thermalized radiation, conserved topology — and reignites
-(the next genesis funded by the gravitational account). No cycle contains a
-singularity at either end.
+So the *intended* cycle silhouette (interpretation / OPEN residual — **not** OEM booking;
+ledger row 3 OPEN-BLOCKED forbids closing the classical turn): finite density, thermalized
+radiation, conserved topology — and, *if* the missing handover is ever licensed, reignition
+of the next genesis from the gravitational account. No such cycle is claimed to contain a
+singularity at either end; **neither is a closed cycle booked** until turn dynamics are paid.
 
 ## 2. The first genesis: the beginning is a state, not a point
 
@@ -126,3 +132,40 @@ Finite `ρ_bounce` stands. The classical turn is not yet written. Live work:
 *The universe's biography in one line: zero split itself into a loan at the only moment that
 required no decision, and has been paying itself back, cycle by cycle, ever since — with the
 deepest gear of the payment schedule still open.*
+
+---
+
+## Claims ledger & residual freeze (2026-08-04) — above story-grade discipline
+
+**Stamp:** OPEN-THEORY honesty pass. Floor number remains paid; classical turn stays **OPEN-BLOCKED**. No invented H_re.  
+**Full freeze package (authoritative):** [working_logs/_runs/bounce_full_freeze_20260804/](working_logs/_runs/bounce_full_freeze_20260804/) — paid vs OPEN table, forbidden claims, kill conditions, OMP=1 reconfirms.  
+**Prior inventory:** [working_logs/_runs/open_theory_full_20260804/](working_logs/_runs/open_theory_full_20260804/).  
+**Parent debts:** [debt_bounce_20260803/REPORT.md](working_logs/_runs/debt_bounce_20260803/REPORT.md); [debt_bounce_FA3_20260803/REPORT.md](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md).  
+**Currency (2026-08-05):** Classical turn / exterior \(H_\mathrm{re}\) remains **OPEN-BLOCKED**; floor paid. Stocked bounce maps (F-A2 0 lands; settled Θ class-bound; match-book exhausted under stocked; Israel Stress paid / \(K^+\) missing one-sided; O6 schemas only; N6 not fired) are recorded under [theory_exhaust bounce cluster](working_logs/_runs/theory_exhaust_20260805/desk/bounce_cluster_exhaust/MASTER.md) — residual still needs **new** licensed content for Derived \(H_\mathrm{re}\). Bounce is not closed. Post-exhaust: [audit/POST_EXHAUST_AUDIT.md](working_logs/_runs/theory_exhaust_20260805/audit/POST_EXHAUST_AUDIT.md).
+
+| # | Claim | Grade | Evidence | Residual / blocker | **Forbidden** |
+|---|---|---|---|---|---|
+| 1 | Finite density ceiling ρ_bounce ~ m⁴/λ class (CSW); number paid | **machine-backed** | `scripts/rho_bounce.py`; §1 — ρ_bounce¼ ≈ 1.1 keV at λ≈2×10⁻⁹¹ | Floor ≠ homogeneous FRW bounce (nogo class) | Treat floor number as completed bounce dynamics |
+| 2 | Homogeneous FRW bounce from CSW floor / thermal T_c / barotropic dCDF alone | **failed / retired** as turn engines | [debt_bounce_20260803](working_logs/_runs/debt_bounce_20260803/REPORT.md); `scripts/bounce_floor_frw_nogo.py`, `bounce_thermal_crossing_nogo.py` | Do not reopen as sole engines | Reopen nogo engines without new premises |
+| 3 | Classical turn / handover dynamics (MeV-class hot start over keV floor); exterior H_re | **OPEN-BLOCKED** (OPEN-THEORY) | §1.2, §5–§6; [bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md); debt_bounce + debt_bounce_FA3; `scripts/bounce_fa3_hcross_attempt.py` | **Blocker F-A3** (`debt_bounce_FA3`): exterior H_re **cannot** be derived from medium stress+junction without branch/metric-off declaration; continuous H-cross conflicts FRW constraint at finite ρ | Desk-derive H_re; book cyclic cosmology; claim “bounce closed” |
+| 4 | Emergent metric ends at healing length before singularity theorems locate | **interpretation** / framework | §1 pillar 1; QG seating | Rides medium reality | Metric-end as substitute for turn equations |
+| 5 | First genesis from vacuum state (R=0, n=0); chain not past-eternal (Tolman) | **interpretation** (vacuum) + **OPEN-BLOCKED** (uniqueness/chain) | §2; [PRTOE_arrow_of_time.md](exploratory/PRTOE_arrow_of_time.md) | Vacuum R=0/n=0 ontology. **OPEN-THEORY:** first-genesis uniqueness partial; Kibble n band estimate/draw not derived; cycle count open | Past-eternal cycles; derived Kibble n value |
+| 6 | Time = field phase clock (emergent) | **interpretation** | §2 | Kill clause stated in body | Clock reading as turn proof |
+| 7 | Compact torus total energy identically zero (Hamiltonian constraint) | **derived** (GR + compact) | §3; [expansion_energy_ledger.md](working_logs/expansion_energy_ledger.md) | Structure term, not handover engine | Zero-sum as handover engine |
+| 8 | Landau ceiling / dissipative crunch thermalizes light; topology (winding) survives | **interpretation** + **estimate** | §1 pillar 3; BH companion Landau seating | Winding survival structural. **OPEN-THEORY:** quantitative crunch thermalization profile not derived | Quantitative relic-null as derived profile |
+| 9 | No new observables asserted by this file | **registered** scope | §5 | Falsifiers are recorded external ones | Invent new falsifiers without register |
+
+### Residual freeze (named OPEN-BLOCKED)
+
+| Residual | Grade | Blocker path / axiom | What would unstick |
+|---|---|---|---|
+| Classical turn / H_re sign | **OPEN-BLOCKED** | F-A3: [debt_bounce_FA3_20260803](working_logs/_runs/debt_bounce_FA3_20260803/REPORT.md); [bounce_full_freeze_20260804](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md); workplan [bounce_derivation_workplan.md](working_logs/bounce_derivation_workplan.md) | Licensed stress+junction derivation **or** explicit metric-off / branch declaration with graded proof — **not** invent H_re |
+| Homogeneous FRW engines (CSW/T_c/dCDF/magnetic) | **failed / retired** | debt_bounce nogo table | New premises only — not desk re-try |
+| Kibble n band / cycle count | **OPEN** (estimate) | §2 | Micro draw + Tolman chain accounting |
+
+**Non-claims:** Completed bounce profile; singular t=0; past-eternal cycles; booking cyclic cosmology; treating melt through T_c as the geometry turn; exterior H_re from floor arithmetic alone; reopen of homogeneous nogo engines (CSW/dCDF/T_c/magnetic/vac+rad/DE-scale X/quartic) without new premises; inventing negative-energy stiff X to fake FRW bounce.
+
+**Kill conditions (summary):** floor dies only if recorded \(m,\lambda\) / CSW seating fails; H_re OPEN-BLOCKED dies only under licensed stress+junction derivation without branch declaration (none stocked); cyclic non-booking dies only if full closed cycle is derived end-to-end. Full table: [bounce_full_freeze_20260804/REPORT.md](working_logs/_runs/bounce_full_freeze_20260804/REPORT.md) §5.
+
+**Triage:** elevate-in-place; **blocked (OPEN-THEORY)** on classical turn / handover — floor number stays paid.  
+**Rule:** [working_logs/STORY_GRADE_ELEVATION_RULE.md](working_logs/STORY_GRADE_ELEVATION_RULE.md).
