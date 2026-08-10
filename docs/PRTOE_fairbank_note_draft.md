@@ -8,15 +8,19 @@
 - Fairbank hold / posting path: `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md`
 - live helium benchmark state: `working_logs/_runs/blocked_lane_helium_fork_20260805/REPORT.md`
 
-> **Currency residual freeze — 2026-08-08.** The old-BAO production `bbnfix` pair is now
-> **BOOKED** under the dual gate. Authority receipt:
+> **Currency residual freeze — 2026-08-10.** Old-BAO production `bbnfix` is **BOOKED Stage A +
+> Stage B** (Grok red). Authority:
 > [`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md).
 > Booked three-rank GetDist (`ignore_rows=0.3`, SH0ES-conditional): model `dyad_mnu_bbnfix`
 > **H₀ = 70.052 ± 0.716**, `m_ncdm = 0.0671 ± 0.0583`, **S₈ = 0.821 ± 0.0097**; twin
 > `cmp_lcdm_mnu_bbnfix` **H₀ = 68.345 ± 0.343**, `m_ncdm = 0.0192 ± 0.0174`,
-> **S₈ = 0.824 ± 0.0081**. Evidence honesty: the booked old-BAO sample-covariance Laplace is only
-> **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸**, so **do not** upgrade this letter into an evidence-win
-> claim. DESI-DR2 bbnfix twins remain a separate **live, not bookable** stack. Cross-links:
+> **S₈ = 0.824 ± 0.0081**. Letter-ready H₀ line (finalize script; prefer booking REPORT):  
+> *“Pantheon+SH0ES, at H₀ = 70.0 ± 0.7 — sound-horizon-driven, and holding with the SH0ES calibration
+> included even though that calibration pulls the other way.”*  
+> Evidence honesty: old-BAO sample-cov Laplace only **ΔlnZ ≈ +0.21** (soft modes) — **do not**
+> upgrade this letter into an evidence win. DESI-DR2 is a **separate** Stage A booked stack
+> (dyad H₀ **70.30±0.54** / lcdm **68.73±0.25**; peel in `docs/chains/*_desidr2.*`) — do not mix.
+> Nested PolyChord still open. Cross-links:
 > [neutrino_full_honesty](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md) ·
 > [arxiv_owner_prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md) ·
 > [neutrino_home](PRTOE_neutrino_home.md) · [HOLD companion](exploratory/PRTOE_fairbank_note_HOLD.md).

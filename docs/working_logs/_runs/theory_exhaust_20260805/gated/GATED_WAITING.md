@@ -35,7 +35,7 @@
 | **T-D2** | Matched lensing DES/KiDS | **RUN-GATED** | production likelihood | inventory T-D2; docket #161 / #32 | Do not peek partials as final |
 | **T-D3** | Modern joint stack (PR4 · DESI-full · Pantheon+) | **RUN-GATED** | production after instruments | inventory T-D3; docket #40 | Do not peek partials as final |
 | **T-D4** | conv_desi full restart | **RUN-GATED** | clean relaunch post-classy | inventory T-D4; docket #89 · chains | **Kill:** resume dead state |
-| **T-M1** | bbnfix dual-gate book | **BOOKED Stage A** | machine dual gate met | inventory T-M1; `bbnfix_booking_20260808_005626` + `desidr2_bbnfix_booking_20260810_053127` | Old-BAO + DESI-DR2 Stage A booked; **do not mix**; Stage B red open; not nested |
+| **T-M1** | bbnfix dual-gate book | **BOOKED** | machine dual gate met | inventory T-M1; old-BAO Stage B + DESI Stage A | Old-BAO Stage B published (Grok red); DESI Stage A + peel; **do not mix**; not nested |
 | **T-M2** | routeD leave | **RUN-GATED** (leave alone) | machine optional leave | inventory T-M2 | Early / improving; **not** dual-gate book target |
 | **T-M3** | PolyChord nested ln Z | **SKIP** | offline / fenced skip this box | inventory T-M3 | **No PolyChord work** from this exhaust |
 | **T-O1** | Fairbank / arXiv | **HOLD** | **owner** | inventory T-O1; fairbank packet | Endorsement / posts external-gated |

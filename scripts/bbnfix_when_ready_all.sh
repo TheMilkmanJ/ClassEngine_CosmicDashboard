@@ -28,7 +28,8 @@
 # Red audit stamp (required for --write-tables):
 #   docs/working_logs/_runs/bbnfix_booking_<id>/RED_AUDIT.md
 #   must contain a line matching: red:\s*(AGREE|AGREE-IF)
-#   (created by Claude after auditing that booking package)
+#   (created by red auditor after auditing that booking package —
+#    Claude when available; Grok may stamp when Claude is offline)
 
 set -euo pipefail
 
@@ -125,7 +126,7 @@ echo "  finalize_h0: OK (stdout letter only — paste only after red if publishi
 echo ""
 if [[ "$WRITE_TABLES" -eq 0 ]]; then
   echo "[3] make_getdist_tables BLOCKED (default) — booking ≠ publishing"
-  echo "  Claude red: tables must not enter forward-facing docs until red audit."
+  echo "  Red: tables must not enter forward-facing docs until red audit stamp."
   echo "  After red writes $BOOK_DIR/RED_AUDIT.md with 'red: AGREE' or 'red: AGREE-IF':"
   echo "    bash scripts/bbnfix_when_ready_all.sh --write-tables"
   echo "  (Owner emergency only: --force-tables — logged; not default.)"

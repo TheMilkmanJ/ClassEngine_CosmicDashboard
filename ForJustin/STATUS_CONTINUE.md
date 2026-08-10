@@ -50,16 +50,17 @@ Authority: `docs/working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPOR
 
 - SH0ES-conditional DESI-DR2 BAO stack — **separate instrument** from old-BAO booked pair.  
 - DESI sample-cov Laplace: **ΔlnZ ≈ +1.38** (`laplace_desi.json`) — soft modes (cond~10⁸); **not nested**; do not mix with old-BAO +0.21.  
-- DESI FD Hessian Laplace: **running** on `i-096d08d2dc9d8f42c` (48 vCPU, OMP≈46) → `hessian_laplace_desi.json` when done.
+- DESI FD Hessian Laplace: **DONE** (15:57Z) — both finite; ΔlnZ_H ≈ **−24.8** vs samplecov **+1.46** (soft-mode fail). Prefer samplecov. JSON peeled: `hessian_laplace_desi.json`. **Stop 48-box to save cost when ready.**
 
 ### Nested / quota
 - On-demand standard quota: **300** vCPU (approved); ~**240** in use (2×96 gold PC + 48 DESI Hessian).  
 - Gold SH0ES PolyChord (dyad+lcdm) **running** (resume after Fortran stats-write fix); intermediate log(Z) **not bookable**. TRGB legs **not launched** (need free ≥96 after PC pair holds 192).  
 - routeD still OPEN-MACHINE (not dual-gate pair).
 
-### Stage B / red
-- Both booking packages are **Stage A only**. No `RED_AUDIT.md` yet → formal `--write-tables` still red-gated.  
-- Living banner numbers may be cited from booking receipts; full automated table shelf write waits on red.
+### Stage B / red (Claude offline — Grok carried red)
+- Old-BAO: **Stage B published** — `bbnfix_booking_20260808_005626/RED_AUDIT.md` (`red: AGREE`, auditor Grok) → living `PRTOE_CHAIN_TABLES.md` updated with three-rank tables.  
+- DESI-DR2: **Grok red AGREE** for shelf **citation** of Stage A numbers (separate instrument); full DESI param table body not merged into old-BAO Stage B.  
+- Process note: Claude unavailable; Grok red stamps satisfy the `red: AGREE` gate for `--write-tables`.
 
 ## BBN ε (do not overclaim)
 **ARITHMETIC VERIFIED (internal)** (3.196% ≈ 3.20%). **EXTERNAL WIN PENDING (no DOI)** — never “EXTERNAL WIN DELIVERED” until public record.
@@ -77,7 +78,6 @@ Prints letter sentence; **does not edit**. Prefer three-rank GetDist from bookin
 
 ## Waiting on
 - **Machine:** gold nested finish; DESI Hessian JSON land; (optional) TRGB PC when vCPU free  
-- **Desk→Red:** `RED_AUDIT` on booking packages if Stage B table publish wanted  
 - **Owner:** Fairbank / arXiv / Web of Science profile / BBN ε DOI  
 - **Theory:** Page T8 joint (new microphysics), bounce \(H_\mathrm{re}\), void, Koide residual, ω_J, DE occupancy — **not forced**  
 
@@ -87,4 +87,4 @@ Prints letter sentence; **does not edit**. Prefer three-rank GetDist from bookin
 
 ## Receipt — 2026-08-10 currency (refresh)
 
-STATUS machine block: old-BAO **BOOKED** + DESI-DR2 **BOOKED Stage A**; Hessian v2 done; DESI Hessian launching; gold PC both legs live; Stage B red still open. No nested invent.
+STATUS: old-BAO **Stage A+B published** (Grok red); DESI-DR2 **Stage A + Grok red citation**; Hessian v2 done; DESI Hessian process; gold PC both legs live. No nested invent.

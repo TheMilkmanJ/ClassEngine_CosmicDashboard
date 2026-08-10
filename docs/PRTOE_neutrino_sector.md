@@ -1,29 +1,27 @@
 # Neutrino sector — dark energy sets the lightest mass
 
-> ## Residual freeze — consistency stamp (2026-08-04)
+> ## Residual freeze — consistency stamp (2026-08-10)
 >
-> **COMPLETE-CONDITIONAL** on the relation + m_ββ window. The booked old-BAO Σm_ν joint posterior
-> now lives at [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md) via the
-> `bbnfix_booking_20260808_005626` receipt; this file is still **not** the joint-posterior
-> authority.
+> **COMPLETE-CONDITIONAL** on the relation + m_ββ window. Joint-posterior authority lives at
+> [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md): old-BAO **BOOKED Stage B**
+> (`bbnfix_booking_20260808_005626`) and DESI-DR2 **BOOKED Stage A**
+> (`desidr2_bbnfix_booking_20260810_053127`) as a **separate** instrument. This file is still
+> **not** the joint-posterior table authority.
 >
-> **Paper path:** this file is the **source note** for `papers/neutrino-mbb/` / [arXivReady](arXivReady/README.md), which is **READY_PACKAGE** and is the only ship artifact for the m_ββ window. **Fairbank HOLD:** owner submitted that package to William Fairbank 2026-08-03; **no arXiv post** claimed. Owner prep: [arxiv_owner_prep_20260804](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md). Full honesty package: [neutrino_full_honesty_20260804](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md).
+> **Paper path:** source note for `papers/neutrino-mbb/` / [arXivReady](arXivReady/README.md)
+> (**READY_PACKAGE**). **Fairbank HOLD** — no arXiv post claimed.
 >
-> **Forbidden:** invent joint posteriors; claim package “posted”; invent second Fairbank TeX; treat null 0νββ as confirmation.
->
-> **Authority card (2026-08-05):** Fairbank hold / posting state is centralized in
-> [blocked_lane_fairbank_hold_20260805/REPORT.md](working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md).
+> **Forbidden:** invent joint posteriors; mix DESI/old-BAO; claim package “posted”; treat null 0νββ as confirmation.
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Home / joint-fit residual: [PRTOE_neutrino_home.md](PRTOE_neutrino_home.md). Letter: [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md).
 
 Consolidates the model’s most experiment-facing claim block. Components range from recorded (Majoron structure, P-2026-012/020) to exploratory (ρ_inf closure, on review hold). Relevant tests: ton-scale 0νββ (nEXO, LEGEND-1000, CUPID) and next-generation cosmology.
 
 **Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path:
-**neutrino-mbb READY not posted** under Fairbank HOLD. Open: exact μ value, flavor-distribution
-calculation, next falsifiable Majoron consequence, ρ_inf closure; the booked old-BAO Σm_ν receipt
-lives on the home page, while DESI-DR2 remains the open machine lane. This shelf file keeps the
-fuller mechanism and honesty context; the public short paper is the narrower `neutrino-mbb`
-package only.
+**neutrino-mbb READY not posted** under Fairbank HOLD. Open theory: exact μ, flavor distribution,
+Majoron next consequence, ρ_inf closure. Joint Σm_ν receipts live on the home page (old-BAO + DESI
+separate). Nested still open. This shelf keeps mechanism/honesty; the public short paper is the
+narrower `neutrino-mbb` package only.
 
 ## 0. Claims
 

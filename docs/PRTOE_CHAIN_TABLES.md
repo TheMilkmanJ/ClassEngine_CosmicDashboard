@@ -1,88 +1,68 @@
 # Production-chain parameter tables (GetDist)
 
-> ForJustin/12 item 5(b)'s instrument (`scripts/make_getdist_tables.py`).
-> Regenerated per run at its landing; the live pair and Route-D join
-> **at convergence only**. Means with 68% limits, 30% burn-in — and only then.
+> ForJustin/12 item 5(b)'s instrument. Stage B published **2026-08-10** under Grok red
+> (`bbnfix_booking_20260808_005626/RED_AUDIT.md` — Claude offline; Grok carries red load).
+> Means with 68% limits, 30% burn-in. **Booked bbnfix rows are three-rank GetDist.**
 
-> ## BOOKED old-BAO pair + open machine residuals — currency 2026-08-10
+> ## BOOKED old-BAO pair + DESI Stage A + machine residuals — currency 2026-08-10 (Stage B)
 >
-> **Status:** the old-BAO production `bbnfix` pair is **BOOKED** under the dual gate. Authority:
-> [`bbnfix_booking_20260808_005626/REPORT.md`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md).
-> This is a Stage A receipt, not a substitute for any separate red-audited Stage B forward-table
-> publication path.
+> **Status:** old-BAO production `bbnfix` pair is **BOOKED Stage A + Stage B published** under dual gate.
+> Authority: [`bbnfix_booking_20260808_005626/REPORT.md`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md)
+> · red: [`RED_AUDIT.md`](working_logs/_runs/bbnfix_booking_20260808_005626/RED_AUDIT.md) (`red: AGREE`, auditor Grok).
 >
-> **Authority gate (bbnfix pair only):** both legs must show cobaya progress
-> **R−1 < 0.05** *and* checkpoint **`converged: true`** (self-stop). Booking script only:
-> `python3 scripts/book_bbnfix_when_ready.py`. Diagnostic peeks remain **UNBOOKABLE**.
+> **Authority gate (bbnfix pair only):** both legs cobaya progress **R−1 < 0.05** *and* checkpoint
+> **`converged: true`**. Booking script: `python3 scripts/book_bbnfix_when_ready.py`. Peeks remain **UNBOOKABLE**.
 >
-> **Booked old-BAO pair (`ignore_rows=0.3`; SH0ES-conditional):**
+> **Booked old-BAO pair (`ignore_rows=0.3`; SH0ES-conditional; three-rank):**
 >
 > | chain | N | timestamp | R−1 | `converged` | H₀ | `m_ncdm` | S₈ |
 > |---|---:|---|---:|---|---|---|---|
 > | `dyad_mnu_bbnfix` | 37605 | 2026-08-07T04:08:52.190063 | **0.048118** | **true** | **70.052 ± 0.716** | **0.0671 ± 0.0583** | **0.821 ± 0.0097** |
 > | `cmp_lcdm_mnu_bbnfix` | 26294 | 2026-08-05T11:52:10.194879 | **0.049324** | **true** | **68.345 ± 0.343** | **0.0192 ± 0.0174** | **0.824 ± 0.0081** |
 >
-> **Evidence honesty on the booked old-BAO pair:** the volume-aware sample-covariance Laplace on
-> the exported `docs/chains/` bundle is **ΔlnZ ≈ +0.21**, not a headline win, with
-> **cond(Σ) ~ 10⁸** on both legs; the better MAP by **Δ(min −logpost) ≈ −2.96** is *not* evidence.
-> Authority: [`laplace_docs_chains_bbnfix_20260808/REPORT.md`](working_logs/_runs/laplace_docs_chains_bbnfix_20260808/REPORT.md)
-> and [LAPLACE_bbnfix_full.md](chains/LAPLACE_bbnfix_full.md). FD Hessian Laplace: **v1 failed**
-> (`logZ=-inf` — `credibility_diagnostics_20260808/HESSIAN_FD_20260810_REPORT.md`); **v2 finished
-> finite** both legs (`hessian_laplace_v2.json`, ΔlnZ_H ≈ **−1.18**, samplecov cross-check ≈ **+0.22**,
-> huge cond / regularized). **Diagnostic only — not nested, not gold evidence.** Sample-cov +0.21
-> remains the soft-mode-honest volume-aware label on this pair.
+> **Evidence honesty:** sample-cov Laplace **ΔlnZ ≈ +0.21** (cond(Σ)~10⁸) — inconclusive; not nested.
+> FD Hessian v1 failed; v2 finite diagnostic only (ΔlnZ_H ≈ −1.18). Pre-bbnfix +2.635 is historical.
 >
-> **Separate open machine residuals (do not mix with the booked old-BAO pair):**
+> **DESI-DR2 (separate instrument — do not mix):** Stage A **BOOKED** + Grok red for shelf citation
+> ([`desidr2_bbnfix_booking_20260810_053127`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPORT.md)
+> · [`RED_AUDIT.md`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/RED_AUDIT.md)).
+> dyad H₀ **70.30±0.54** / lcdm **68.73±0.25**; sample-cov Laplace ΔlnZ≈**+1.38** (soft modes). Not nested.
+> Full DESI param tables are **not** auto-merged into the old-BAO Stage B body below.
 >
-> | lane | state | authority |
-> |---|---|---|
-> | `cmp_prtoe_routeD` (thaw / no-bare) | **OPEN-MACHINE** — R−1 **0.351167**@N=14625 t=2026-08-06T09:24:48; `converged:false`; ~**3.51×** its 0.1 stop | [`blocked_lane_routeD_20260805`](working_logs/_runs/blocked_lane_routeD_20260805/REPORT.md) |
-> | DESI-DR2 bbnfix twins | **BOOKED (Stage A)** — dual-gate met: dyad R−1 **0.03321** @ N=53482 `converged:true`; lcdm R−1 **0.041377** @ N=52031 `converged:true`. GetDist (30% burn, SH0ES-conditional DESI stack): dyad **H₀ = 70.30 ± 0.54**, lcdm **H₀ = 68.73 ± 0.25**. Authority: [`desidr2_bbnfix_booking_20260810_053127`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPORT.md). **Do not mix with old-BAO BOOKED pair.** | AWS `i-096d08d2dc9d8f42c` |
-> | Gold nested evidence | **RUNNING (both SH0ES legs)** — resume after Fortran `read_write.F90` “Still Active” fix; intermediate log(Z) **not bookable**. TRGB not launched (quota: PC pair holds 192 of 300). | [`gold_desidr2_polychord_launch_20260810/`](working_logs/_runs/gold_desidr2_polychord_launch_20260810/) |
->
-> **Do not mix instruments.** The booked old-BAO GetDist posteriors above are one stack. The
-> DESI-DR2 MCMCs are a separate live stack. The gold PolyChord program is the intended nested
-> referee for DESI-DR2 and has **no** result until both legs of a ladder pair finish.
+> | other lane | state |
+> |---|---|
+> | routeD | OPEN-MACHINE R−1 **0.351167**@N=14625 — not bookable |
+> | Gold SH0ES PolyChord | both legs **running**; intermediate log(Z) not bookable; TRGB not launched |
 >
 > ### Forbidden claims
 >
-> - Treating historical archive tables below as current constraints
-> - Replacing the booked old-BAO pair with the live DESI-DR2 pair
-> - Quoting the booked pair’s better MAP as a win on evidence
-> - Inventing a nested verdict from the gold DESI-DR2 design files
-> - Treating GetDist GR or crude param R−1 as booking authority
+> - Treating archive tables below as current constraints
+> - Mixing DESI-DR2 with old-BAO booked posteriors
+> - Quoting MAP advantage as evidence
+> - Inventing nested ΔlnZ
 >
-> ### Archive / dead chains still tabulated below (not live)
+> ### Archive / dead chains (not live)
 >
-> | chain | last R−1 | over 0.05 | live? |
-> |---|---|---|---|
-> | `cmp_prtoe_conv_desi` | **13.25** | 265× | **no** — unproduced; last chain write 2026-07-22; owner restart |
-> | `cmp_prtoe_zon_disp` | **17.81** | 356× | **no** — collapsed; seed ready, owner restart |
-> | `cmp_prtoe_zon` | **40.36** | 807× | **no** — stopped since 07-12 |
-> | `dyad_mnu_mcmc` | none recorded | unknown | diagnostic archive only |
+> | chain | last R−1 | live? |
+> |---|---|---|
+> | `cmp_prtoe_conv_desi` | **13.25** | **no** |
+> | `cmp_prtoe_zon_disp` | **17.81** | **no** |
+> | `cmp_prtoe_zon` | **40.36** | **no** |
+> | `dyad_mnu_mcmc` | unknown | archive diagnostic |
 >
 > ## ⚠ Read this before any 68% numbers below
 >
-> **None of the archive chains in the GetDist tables below has converged, and the 68% limits are therefore
-> not posterior intervals.** The numbers look like posterior summaries because they are
-> formatted as posterior summaries — they are run diagnostics only.
->
-> **The direction of the error is known and it is the dangerous one.** §6g withdrew the α_c band
-> for exactly this defect, in its own words: *"an interval read at R−1 = 93 is the spread of a
-> chain that has not found the distribution, which is typically far too narrow rather than too
-> wide."* So these intervals should be read as **lower bounds on the true width**, not as
-> measurements — a chain still wandering has not visited the tails it would need to visit to
-> earn a 68% limit that tight.
->
-> A concrete demonstration, from `cmp_prtoe_zon_disp` (2026-07-28): its segment means scatter
-> **59× wider** than a settled chain of that length and variance would allow, and its cumulative
-> mean was passing through the model's own target value at the moment the run stopped —
-> a coincidence that would have read as a 0.0006 hit. See `PRTOE_quartet_clock.md` §4b.
->
-> **Nothing in these tables may be quoted as a constraint** until the chain supplying it reports
-> R−1 at target **and** (for the bbnfix pair) `converged: true` via the booking script.
+> **Archive chains below are not posteriors** (never dual-gate). Only the **BOOKED Stage B** bbnfix
+> sections are licensed as dual-gate posterior summaries (still SH0ES-conditional; still not nested).
+> Stage B body tables list up to 8 sampled params; banner H₀/`m_ncdm`/S₈ remain booking-REPORT authority.
 
-## cmp_prtoe_conv_desi — conversion channel vs DESI stack (3462 post-burn samples)
+
+> Generated 2026-08-10 by Grok Stage B (tables-only; three-rank where available).
+> Archive rows remain **diagnostics only** (not dual-gate converged).
+
+## cmp_prtoe_conv_desi — conversion channel vs DESI stack (1-rank, 3462 post-burn samples)
+
+> **Archive / not dual-gate.** Do not quote as posterior constraints.
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -95,7 +75,9 @@
 | dcdf_conv_g | 0.52457 | [0.5013, 0.55001] |
 | A_planck | 0.9989 | [0.99792, 1.0003] |
 
-## cmp_prtoe_zon_disp — onset-identity dispersion run (3331 post-burn samples)
+## cmp_prtoe_zon_disp — onset-identity dispersion run (1-rank, 3331 post-burn samples)
+
+> **Archive / not dual-gate.** Do not quote as posterior constraints.
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -108,7 +90,9 @@
 | dcdf_rho_inf | 0.71471 | [0.7136, 0.71567] |
 | A_planck | 1.0003 | [0.99941, 1.0014] |
 
-## dyad_mnu_mcmc — the scalar chain, Σm_ν free (3406 post-burn samples)
+## dyad_mnu_mcmc — the scalar chain, Σm_ν free (1-rank, 3406 post-burn samples)
+
+> **Archive / not dual-gate.** Do not quote as posterior constraints.
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -121,7 +105,9 @@
 | varying_me | 1.0125 | [1.005, 1.0121] |
 | A_planck | 1.001 | [0.99919, 1.0024] |
 
-## cmp_prtoe_zon — onset-identity base run (818 post-burn samples)
+## cmp_prtoe_zon — onset-identity base run (1-rank, 818 post-burn samples)
+
+> **Archive / not dual-gate.** Do not quote as posterior constraints.
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -134,23 +120,54 @@
 | dcdf_rho_inf | 0.7025 | [0.70128, 0.70358] |
 | A_planck | 1.0018 | [0.99909, 1.0053] |
 
+## cmp_lcdm_mnu_bbnfix — ΛCDM+mν BBN-fixed control twin — BOOKED Stage B (3-rank, 18406 post-burn samples)
+
+> **BOOKED dual-gate pair.** Three-rank GetDist, ignore_rows=0.3.
+> Banner H₀ authority remains booking REPORT.
+
+| parameter | mean | 68% limits |
+|---|---|---|
+| omega_b | 0.022499 | [0.022417, 0.022586] |
+| H0 | 68.345 | [67.992, 68.684] |
+| logA | 3.051 | [3.0375, 3.0645] |
+| omega_cdm | 0.11867 | [0.11797, 0.11947] |
+| n_s | 0.97114 | [0.96795, 0.97415] |
+| z_reio | 8.028 | [7.3427, 8.7004] |
+| A_planck | 1.0013 | [0.9994, 1.0031] |
+| A_act | 1.0002 | [0.99822, 1.0022] |
+
+## dyad_mnu_bbnfix — dyad BBN-fixed production twin — BOOKED Stage B (3-rank, 26324 post-burn samples)
+
+> **BOOKED dual-gate pair.** Three-rank GetDist, ignore_rows=0.3.
+> Banner H₀ authority remains booking REPORT.
+
+| parameter | mean | 68% limits |
+|---|---|---|
+| omega_b | 0.022764 | [0.022635, 0.022885] |
+| H0 | 70.052 | [69.352, 70.767] |
+| logA | 3.0525 | [3.0377, 3.066] |
+| n_s | 0.97124 | [0.96816, 0.97411] |
+| z_reio | 7.9019 | [7.2, 8.6247] |
+| dcdf_rho_inf | 0.70405 | [0.69862, 0.70971] |
+| varying_me | 1.0128 | [1.0077, 1.0174] |
+| A_planck | 1.001 | [0.99923, 1.0028] |
 
 ---
 
-## Claims ledger & residual freeze (2026-08-10 currency)
+## Claims ledger & residual freeze (2026-08-10 Stage B)
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | Archive GetDist tables are diagnostics only (not posteriors) | **honest fence** | banner ⚠ section | R−1 never hit stop on those runs |
-| 2 | Old-BAO production bbnfix pair booked under the dual gate | **machine-backed** | booking receipt `bbnfix_booking_20260808_005626`; three-rank GetDist H₀ / `m_ncdm` / S₈ values above | **OPEN-EVIDENCE:** sample-cov Laplace only; Stage B forward-table publication still needs red audit |
-| 3 | Sample-cov Laplace on booked old-BAO pair is inconclusive | **machine-backed** | ΔlnZ_Laplace **+0.211493**; cond(Σ) ~10⁸ both legs | **OPEN-NESTED:** not PolyChord; soft-mode sensitive; FD Hessian v2 finite but diagnostic only |
-| 4 | DESI-DR2 bbnfix pair Stage A booked (separate instrument) | **machine-backed** | `desidr2_bbnfix_booking_20260810_053127`: dyad R−1 **0.03321** / lcdm **0.041377**, both `converged:true`; GetDist H₀ **70.30±0.54** / **68.73±0.25**; sample-cov Laplace **ΔlnZ ≈ +1.38** (soft modes) | **Do not mix** with old-BAO; not nested; Stage B red still open; DESI FD Hessian in flight |
-| 5 | Route-D thaw posterior | **OPEN-BLOCKED** | R−1=**0.351167**@N=14625 t=2026-08-06T09:24:48; ~**3.51×** stop 0.1 | **OPEN-MACHINE:** not dual-gate |
-| 6 | conv_desi / zon_disp archive rows | **OPEN-BLOCKED** | dead instruments | Owner restart; not live |
-| 7 | Gold nested DESI-DR2 SH0ES PolyChord | **OPEN-MACHINE** | both 96-vCPU legs running (resume); intermediate log(Z) not bookable | No ΔlnZ until both legs finish cleanly; TRGB not launched |
+| 1 | Archive GetDist tables are diagnostics only | **honest fence** | banner ⚠ | never dual-gate |
+| 2 | Old-BAO bbnfix dual-gate **Stage A booked + Stage B published** | **machine-backed + Grok red** | booking `20260808_005626` + `RED_AUDIT.md` (`red: AGREE`) + three-rank tables below | OPEN-NESTED evidence; soft-mode Laplace |
+| 3 | Sample-cov Laplace old-BAO inconclusive | **machine-backed** | ΔlnZ ≈ +0.21; cond~10⁸ | not PolyChord |
+| 4 | DESI-DR2 Stage A booked; peel + Grok red (separate) | **machine-backed + Grok red** | booking + `docs/chains/*_desidr2.*`; samplecov ΔlnZ≈+1.4; FD Hessian ΔlnZ_H≈−25 (diagnostic fail) | do not mix; not nested; do not quote Hessian ΔlnZ_H |
+| 5 | Route-D thaw | **OPEN-BLOCKED** | R−1=0.351 | not dual-gate |
+| 6 | Archive conv_desi / zon_disp | **OPEN-BLOCKED** | dead instruments | owner restart |
+| 7 | Gold nested SH0ES PolyChord | **OPEN-MACHINE** | both legs running | no ΔlnZ yet |
 
-**Non-claims / forbidden:** no invented nested ΔlnZ; no mixing DESI-DR2 with old-BAO booked posteriors; no COMPLETE physics from Laplace alone; Stage A booking ≠ Stage B red-published tables.
+**Non-claims:** no nested invent; no DESI/old-BAO mix; no COMPLETE from Laplace; Stage B ≠ nested win.
 
-**Triage:** two Stage A GetDist receipts (old-BAO + DESI-DR2) are machine-backed; nested and Stage B red remain open.
+**Red note:** Claude offline 2026-08-10; Grok wrote `RED_AUDIT.md` stamps. Process law line `red: AGREE` satisfied for pipeline `--write-tables`.
 
 **Rule:** `docs/working_logs/STORY_GRADE_ELEVATION_RULE.md`

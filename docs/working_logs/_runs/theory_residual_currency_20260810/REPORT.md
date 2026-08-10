@@ -7,9 +7,10 @@
 
 | gate that opened | theory implication | still blocked? |
 |---|---|---|
-| Old-BAO bbnfix BOOKED | Honest SH0ES-conditional H₀ / m_ncdm / S₈ for Fairbank letter + paper tables (Stage A) | Nested evidence; Stage B red |
-| DESI-DR2 bbnfix BOOKED Stage A | Same under DESI BAO stack; side-by-side allowed | Nested; mix-with-old-BAO **forbidden** |
-| Hessian v2 finite | Soft-mode diagnostic only | Not a theory close |
+| Old-BAO bbnfix BOOKED Stage B | Fairbank/letter H₀ + living tables + triangles | Nested still open |
+| DESI-DR2 BOOKED Stage A + peel | Side-by-side H₀ / m_ncdm; DESI triangles | Nested; mix **forbidden** |
+| Old-BAO Hessian v2 finite | Soft-mode diagnostic | Not a theory close |
+| DESI Hessian finite (15:57Z) | ΔlnZ_H ≈ −25 vs samplecov +1.5 — **diagnostic fail** | Prefer samplecov +1.4; not nested |
 | Gold PC running | Nested referee in flight | No theory claim until finish |
 
 ## Residuals that did **not** move (stocked desk exhausted)
@@ -25,13 +26,14 @@
 | Strong CP | COMPLETE-ABSTENTION | Constitutional silence |
 | BBN ε EXTERNAL | EXTERNAL PENDING | Owner DOI |
 
-## Legitimate theory desk moves now (without invent)
+## Legitimate theory desk moves (currency 2026-08-10 B-pass)
 
-1. Keep side-by-side instrument honesty (`currency_desk_theory_20260810/instrument_side_by_side.md`).
-2. Fairbank H₀ letter numbers from **booking receipts** only (manual paste).
-3. Do **not** reopen Page D1–D3 thrash; D4 freeze stands until new microphysics is named.
-4. Bounce / void / Koide remain construction packages only — no COMPLETE stamp this pass.
+1. Currency pass: hubble / neutrino / Fairbank surfaces vs Stage B + DESI peel — **done this session**.  
+2. Fairbank letter H₀ sentence ready in draft freeze (manual owner paste).  
+3. Page T8: `page_t8_construction_20260810/` — **candidates-to-kill** C1–C5; D4 freeze holds; **0 packet**.  
+4. Bounce / void / Koide remain construction-only — no COMPLETE.
 
-**Physics COMPLETE promotions this pass: 0.**
+**Physics COMPLETE promotions this pass: 0.**  
+**Page CANDIDATE packets: 0.**
 
 *NO FABRICATIONS.*

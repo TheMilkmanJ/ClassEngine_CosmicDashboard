@@ -2,49 +2,49 @@
 
 Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Amplitude: [PRTOE_THE_AMPLITUDE.md](PRTOE_THE_AMPLITUDE.md). Risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md). Chains: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md).
 
-> ## Residual freeze — 2026-08-08 (booked old-BAO pair; live DESI-DR2 lane still open)
+> ## Residual freeze — 2026-08-10 (old-BAO Stage B + DESI Stage A; nested still open)
 >
 > **Document job:** COMPLETE-CONDITIONAL — mechanism, owned residual, ladder ceiling, and
-> literature scoreboard are written. **Booked old-BAO H₀ exists; decisive evidence does not.**
+> literature scoreboard are written. **Booked H₀ exists on two stacks; decisive nested evidence does not.**
 >
-> **Booked old-BAO pair (authority receipt
-> `bbnfix_booking_20260808_005626/REPORT.md`):**
+> **Old-BAO pair — BOOKED Stage A + Stage B** (authority
+> `bbnfix_booking_20260808_005626/REPORT.md` · Grok red `RED_AUDIT.md` · living
+> [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md)):
 >
 > | leg | N | R−1 | t | converged |
 > |---|---:|---:|---|---|
 > | `dyad_mnu_bbnfix` | 37605 | **0.048118** | 2026-08-07T04:08:52 | **true** |
 > | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 2026-08-05T11:52:10 | **true** |
 >
-> Booked three-rank GetDist (`ignore_rows=0.3`, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**,
+> Three-rank GetDist (`ignore_rows=0.3`, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**,
 > `m_ncdm = 0.0671 ± 0.0583`, **S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**,
-> `m_ncdm = 0.0192 ± 0.0174`, **S₈ = 0.824 ± 0.0081**.
+> `m_ncdm = 0.0192 ± 0.0174`, **S₈ = 0.824 ± 0.0081**. Triangles: `docs/plots/*_bbnfix_triangle.png`.
 >
-> **Evidence honesty:** the booked old-BAO pair’s sample-covariance Laplace is only
-> **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸**. The older **ΔlnZ ≈ +2.6** line is historical
-> pre-bbnfix Laplace, not the current booked-pair authority.
+> **Evidence honesty (old-BAO):** sample-cov Laplace **ΔlnZ ≈ +0.21** (cond(Σ)~10⁸). Historical
+> **ΔlnZ ≈ +2.6** is pre-bbnfix only. Hessian v2 finite but soft-mode diagnostic (not nested).
 >
-> **Separate live lane:** DESI-DR2 bbnfix twins remain **not bookable** at 2026-08-08 18:56 UTC:
-> dyad **0.108745**@N=21827, lcdm **0.140148**@N=22848, both `converged:false`. The current nested
-> referee path is the **four-leg** DESI-DR2 gold PolyChord program and it is **not launched** while
-> the 512-vCPU quota request is CASE_OPENED.
+> **DESI-DR2 pair — BOOKED Stage A (separate instrument; do not mix)** — authority
+> `desidr2_bbnfix_booking_20260810_053127` · peel `docs/chains/*_desidr2.*` · Grok red for citation:
 >
-> **What remains open for this letter:** a nested-quality comparison on the current DESI-DR2 stack.
-> Do **not** use proxy best-fit peeks as evidence.
+> | leg | N | R−1 | converged | H₀ (GetDist 30% burn) |
+> |---|---:|---:|---|---|
+> | `dyad_mnu_bbnfix_desidr2` | 53482 | **0.03321** | **true** | **70.30 ± 0.54** |
+> | `cmp_lcdm_mnu_bbnfix_desidr2` | 52031 | **0.041377** | **true** | **68.73 ± 0.25** |
 >
-> **Forbidden claims:** promoting the booked old-BAO pair into a decisive evidence win; mixing it
-> with the live DESI-DR2 chain state; treating historical +2.6 as the current booked verdict.
+> DESI sample-cov Laplace **ΔlnZ ≈ +1.38** (still soft modes; not nested). Nested referee: gold
+> SH0ES PolyChord **both legs running** (resume); TRGB not launched; **no nested ΔlnZ yet**.
 >
-> **Blocked-lane audit:** shared `bbnfix` booking gate is frozen in
-> [blocked_lane_bbnfix_20260805/REPORT.md](working_logs/_runs/blocked_lane_bbnfix_20260805/REPORT.md).
+> **What remains open:** nested-quality comparison on DESI-DR2; do **not** use intermediate log(Z)
+> or MAP peeks as evidence.
+>
+> **Forbidden claims:** decisive win from Laplace; mixing old-BAO with DESI posteriors; historical +2.6
+> as current authority; inventing nested verdict.
 
 **Status.** Core empirical claim of the program — built against data, not extended to it after the
-fact. The old-BAO production pair is now **BOOKED**, with SH0ES-conditional GetDist
-**H₀ = 70.052 ± 0.716** (dyad) against **68.345 ± 0.343** (lcdm), but the booked pair’s current
-evidence readout is only **ΔlnZ ≈ +0.21**, not a decisive win. The historical **ΔlnZ ≈ +2.6**
-line remains pre-bbnfix Laplace history. The harder fixed-ε zero-extra-parameter lane is still a
-separate config, and the current nested referee path is the **four-leg** DESI-DR2 gold program,
-which is **not launched**. The **current live** MCMC lane is DESI-DR2 and is **not bookable**.
-**Do not lead with a win.**
+fact. Two SH0ES-conditional dual-gate pairs are **booked** (old-BAO Stage B published; DESI Stage A
+with peel). On both stacks the dyad sits ~1.6–1.7 above the matched ΛCDM+m_ν twin in H₀, but
+evidence is only soft-mode Laplace (old-BAO **+0.21** / DESI **+1.38**), not nested. Gold
+PolyChord is the open referee. **Do not lead with a win.**
 
 ---
 
@@ -71,7 +71,9 @@ One addition to known physics: early-universe electron-mass shift ε = 1.2543% (
 
 - Residual **owned**: model refuses the rest of the gap (curvature escape declined by fit).
 - Exhaustive lever audit (SN standardization 162 templates — sign **opposite** to tension; geometry leakage; reionization) → ladder account capped ~70.9–71.3.
-- **Live BBN-fixed pair:** do not quote H₀ / ΔlnZ from `dyad_mnu_bbnfix` / `cmp_lcdm_mnu_bbnfix` until both self-stop and [`book_bbnfix_when_ready.py`](../scripts/book_bbnfix_when_ready.py) books them.
+- **Live BBN-fixed pairs (booked):** quote H₀ / Σm_ν / S₈ only from booking receipts / Stage B
+  [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Do **not** mix old-BAO with DESI-DR2. Do **not**
+  quote nested ΔlnZ until gold PolyChord finishes.
 
 ## 4. Calibration question
 
