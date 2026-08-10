@@ -1,5 +1,10 @@
 # Fairbank note — internal status
 
+> **2026-08-10 desk workload.** Lab-window re-derivation complete:
+> [`../working_logs/_runs/fairbank_desk_workload_20260810/REPORT.md`](../working_logs/_runs/fairbank_desk_workload_20260810/REPORT.md).
+> **LAB WINDOW GREEN** (ceiling stable; discriminating band intact). Letter / endorsement path still
+> **owner HOLD** — desk green light does not send mail or post arXiv.
+
 *Companion to the letter itself: [`PRTOE_fairbank_note_draft.md`](../PRTOE_fairbank_note_draft.md).*
 
 ## Status: shareable as a draft

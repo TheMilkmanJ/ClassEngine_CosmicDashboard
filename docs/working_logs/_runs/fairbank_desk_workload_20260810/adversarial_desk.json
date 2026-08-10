@@ -1,0 +1,249 @@
+{
+  "paper": {
+    "terms_meV": [
+      1.5249465,
+      2.6730748103353656,
+      1.103308773644078
+    ],
+    "window_meV": [
+      0.04481953669128753,
+      5.301330083979444
+    ],
+    "sum_meV": 61.303347751649405,
+    "minNO_window_meV": [
+      1.4841038814719212,
+      3.6884994902499826
+    ],
+    "p_above_4p7": 0.108175,
+    "p_band": 0.317478125,
+    "p_tag": 0.690803125,
+    "p_min_tag": 0.63625
+  },
+  "nufit_1sigma_extremes_paper_base": {
+    "s12_+1s": {
+      "ceiling_meV": 5.382662384888864,
+      "floor_meV": 0.18116433760070796,
+      "minNO_ceiling_meV": 3.7938049334853634,
+      "band_width_meV": 1.5888574514035005
+    },
+    "s12_-1s": {
+      "ceiling_meV": 5.219997783070022,
+      "floor_meV": 0.0,
+      "minNO_ceiling_meV": 3.5831940470146013,
+      "band_width_meV": 1.636803736055421
+    },
+    "s13_+1s": {
+      "ceiling_meV": 5.331137747237844,
+      "floor_meV": 0.01145870650708352,
+      "minNO_ceiling_meV": 3.719345513216254,
+      "band_width_meV": 1.6117922340215902
+    },
+    "s13_-1s": {
+      "ceiling_meV": 5.271522420721043,
+      "floor_meV": 0.07818036687549154,
+      "minNO_ceiling_meV": 3.6576534672837107,
+      "band_width_meV": 1.6138689534373323
+    },
+    "dm21_+1s": {
+      "ceiling_meV": 5.336509144449592,
+      "floor_meV": 0.07999859716143529,
+      "minNO_ceiling_meV": 3.7248427474514347,
+      "band_width_meV": 1.6116663969981577
+    },
+    "dm21_-1s": {
+      "ceiling_meV": 5.2656818327288715,
+      "floor_meV": 0.009171285440714126,
+      "minNO_ceiling_meV": 3.651638198515475,
+      "band_width_meV": 1.6140436342133966
+    },
+    "dm31_+1s": {
+      "ceiling_meV": 5.3072364607908575,
+      "floor_meV": 0.03891315987987389,
+      "minNO_ceiling_meV": 3.6944117886936985,
+      "band_width_meV": 1.6128246720971593
+    },
+    "dm31_-1s": {
+      "ceiling_meV": 5.295391917741997,
+      "floor_meV": 0.05075770292873455,
+      "minNO_ceiling_meV": 3.682555306151439,
+      "band_width_meV": 1.612836611590558
+    }
+  },
+  "ceiling_range_meV": [
+    5.219997783070022,
+    5.382662384888864
+  ],
+  "minNO_ceiling_range_meV": [
+    3.5831940470146013,
+    3.7938049334853634
+  ],
+  "ceiling_stable": true,
+  "m1_scan": [
+    {
+      "m1_meV": 0.0,
+      "floor_meV": 1.4841038814719212,
+      "ceiling_meV": 3.6884994902499826,
+      "sum_meV": 58.71384238644461,
+      "margin_meV": 1.4841038814719212
+    },
+    {
+      "m1_meV": 1.0,
+      "floor_meV": 0.823499923966557,
+      "ceiling_meV": 4.383842611647246,
+      "sum_meV": 59.78167262094171,
+      "margin_meV": 0.8234999239665575
+    },
+    {
+      "m1_meV": 2.0,
+      "floor_meV": 0.19651461309198176,
+      "ceiling_meV": 5.113682013154998,
+      "sum_meV": 60.98288093466035,
+      "margin_meV": 0.19651461309198198
+    },
+    {
+      "m1_meV": 2.25,
+      "floor_meV": 0.04481953669128753,
+      "ceiling_meV": 5.301330083979444,
+      "sum_meV": 61.303347751649405,
+      "margin_meV": 0.04481953669128731
+    },
+    {
+      "m1_meV": 2.3245,
+      "floor_meV": 0.0,
+      "ceiling_meV": 5.357637972056145,
+      "sum_meV": 61.400364628866875,
+      "margin_meV": -7.418578155211561e-06
+    },
+    {
+      "m1_meV": 3.0,
+      "floor_meV": 0.0,
+      "ceiling_meV": 5.876098973511532,
+      "sum_meV": 62.311043766111524,
+      "margin_meV": -0.39876920256247916
+    },
+    {
+      "m1_meV": 5.0,
+      "floor_meV": 0.0,
+      "ceiling_meV": 7.486869280773502,
+      "sum_meV": 65.3087031790874,
+      "margin_meV": -1.5060171932571418
+    },
+    {
+      "m1_meV": 10.0,
+      "floor_meV": 1.6908082441423853,
+      "ceiling_meV": 11.864271755857617,
+      "sum_meV": 74.28664385929635,
+      "margin_meV": -3.9386872444446692
+    }
+  ],
+  "phase_prior": {
+    "flat_n400": {
+      "p_4p7": 0.1082375,
+      "p_band": 0.3175875,
+      "p_tag": 0.6908625
+    },
+    "flat_n800": {
+      "p_4p7": 0.108175,
+      "p_band": 0.317478125,
+      "p_tag": 0.690803125
+    },
+    "flat_n1200": {
+      "p_4p7": 0.10819027777777777,
+      "p_band": 0.3175277777777778,
+      "p_tag": 0.6908222222222222
+    },
+    "flat_n800_offset_pi4": {
+      "p_4p7": 0.108175,
+      "p_band": 0.317478125
+    }
+  },
+  "experiments": [
+    {
+      "name": "nEXO",
+      "isotope": "136Xe",
+      "reach_lo": 4.7,
+      "reach_hi": 20.3,
+      "note": "favourable ME end only",
+      "overlaps_model": true,
+      "overlaps_discriminating_band": true,
+      "can_kill_above_ceiling": false
+    },
+    {
+      "name": "LEGEND-1000",
+      "isotope": "76Ge",
+      "reach_lo": 9.0,
+      "reach_hi": 21.0,
+      "note": "entirely above ceiling",
+      "overlaps_model": false,
+      "overlaps_discriminating_band": false,
+      "can_kill_above_ceiling": true
+    },
+    {
+      "name": "CUPID",
+      "isotope": "100Mo",
+      "reach_lo": 12.0,
+      "reach_hi": 34.0,
+      "note": "entirely above ceiling",
+      "overlaps_model": false,
+      "overlaps_discriminating_band": false,
+      "can_kill_above_ceiling": true
+    }
+  ],
+  "discriminating_band_meV": [
+    3.6884994902499826,
+    5.301330083979444
+  ],
+  "majoron_gee": {
+    "MeV-scale": {
+      "vL_MeV": 4.18,
+      "g_ee": 7.29665071770335e-10,
+      "vs_KLZ_limit_1e-5": 7.29665071770335e-05
+    },
+    "GeV": {
+      "vL_MeV": 1000.0,
+      "g_ee": 3.05e-12,
+      "vs_KLZ_limit_1e-5": 3.05e-07
+    },
+    "2.4 TeV": {
+      "vL_MeV": 2400000.0,
+      "g_ee": 1.2708333333333335e-15,
+      "vs_KLZ_limit_1e-5": 1.2708333333333333e-10
+    }
+  },
+  "cosmology_scaffolding": {
+    "old_BAO_booked_StageB": {
+      "dyad_m_ncdm": "0.0671 \u00b1 0.0583",
+      "lcdm_m_ncdm": "0.0192 \u00b1 0.0174",
+      "dyad_H0": "70.052 \u00b1 0.716",
+      "lcdm_H0": "68.345 \u00b1 0.343",
+      "authority": "bbnfix_booking_20260808_005626",
+      "evidence": "sample-cov Laplace \u0394lnZ \u2248 +0.21 (soft modes); not nested"
+    },
+    "DESI_DR2_booked_StageA": {
+      "dyad_m_ncdm": "0.0508 \u00b1 0.0473",
+      "lcdm_m_ncdm": "0.0138 \u00b1 0.0128",
+      "dyad_H0": "70.299 \u00b1 0.541",
+      "lcdm_H0": "68.729 \u00b1 0.250",
+      "authority": "desidr2_bbnfix_booking_20260810_053127",
+      "evidence": "sample-cov Laplace \u0394lnZ \u2248 +1.38 (soft); Hessian \u0394lnZ_H diagnostic fail \u2014 not bookable",
+      "rule": "DO NOT MIX with old-BAO"
+    },
+    "model_relation_Sigma": "61.35 meV (NOT a discriminator vs 58.8 floor; ~2.6 meV gap vs ~20 meV planned resolution)",
+    "nested": "OPEN \u2014 gold DESI-DR2 PolyChord SH0ES legs process-live; no bookable nested \u0394lnZ"
+  },
+  "verdicts": {
+    "ceiling_stable_under_1sigma_shifts": true,
+    "ceiling_span_meV": 0.16266460181884135,
+    "p_4p7_range": [
+      0.108175,
+      0.1082375
+    ],
+    "p_band_range": [
+      0.317478125,
+      0.3175875
+    ],
+    "p_4p7_order_stable": true,
+    "p_band_order_stable": true,
+    "green_light_lab_window": true
+  }
+}

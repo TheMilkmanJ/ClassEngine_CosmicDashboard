@@ -1,0 +1,91 @@
+==============================================================================
+  #81 — DECIDING THE NEUTRINO FORK
+==============================================================================
+
+  measured  Dm2_31/Dm2_21 = 33.8949
+
+  F-A  the positive-root branch: what Q can it reach?
+
+      m_1 (meV)   Q_nu (+,+,+)
+          0.000       0.585687
+          0.100       0.551322
+          1.000       0.492044
+          5.000       0.418884
+         50.000       0.335602
+  ok    F-A1 the ceiling as m_1 -> 0 is the recorded 0.585   0.585687
+  ok    F-A2 and Q = 2/3 is unreachable on that branch   so the Koide branch REQUIRES the negative root — that is not optional
+
+  F-B  Q at P-2026-012's m_1 = 2.24 meV, both sign branches
+  ok    F-B1 all-positive gives Q = 0.4586   0.458605
+  ok    F-B2 (-,+,+) gives the recorded Q = 0.835   0.834821 — off the cone either way
+
+  F-C  the Koide branch — and the two recorded numbers used DIFFERENT inputs
+
+    splittings                         Koide m_1   Koide Sum   P-012 Sum      gap
+    NuFIT set A  7.42e-5 / 2.515e-3       0.3600       59.13       61.34     2.21
+    NuFIT set B  7.53e-5 / 2.455e-3       0.3723       58.61       60.80     2.19
+  ok    F-C1 the recorded 0.374 meV / 58.5 meV reproduces on set B, not set A   set B gives 0.3723 / 58.61; set A gives 0.3600 / 59.13
+  ok    F-C2 so the two forks were quoted on DIFFERENT splittings   the recorded 58.5 vs 61.3 gap is partly an input mismatch, not physics
+
+  F-D  P-2026-012's sum, on the same set A
+  ok    F-D1 Sigma m_nu = 61.3 meV   61.34 meV
+  ok    F-D2 and the like-for-like gap is smaller than the quoted one   2.21 meV on one splitting set, against the 2.8 meV implied by quoting 58.5 against 61.3
+
+  F-E  THE PARAMETER-FREE TEST: A = sqrt2 AND phi = 2/9 + pi/12
+       phi = 2/9 + pi/12 = 0.484022
+       predicted ratio   = 32.4266
+       measured  ratio   = 33.8949
+       deviation         = 4.33%
+  ok    F-E1 the zero-parameter prediction is computed, not fitted   the scale a cancels from the ratio, so nothing is free here
+  ok    F-E2 and it MISSES the measured ratio by more than 1%   4.33% — the recorded '0.5%' is not reproduced
+
+  F-F  ANTI-CONTROL: is the phi-free version evidence?
+  ok    F-F1 with phi free the ratio is fitted essentially exactly   best |miss| = 0.0001% at phi = 0.477836
+  ok    F-F2 so a one-parameter fit to one number is guaranteed, not evidence   which is where m_1 = 0.374 meV comes from — an output of a saturated fit
+
+  F-G  ANTI-CONTROL: does present data separate them?
+       Koide branch  Sigma = 59.13 meV
+       P-2026-012    Sigma = 61.34 meV
+       gap                 = 2.21 meV  (3.7%)
+  ok    F-G1 the gap is small compared with current cosmological sensitivity   DESI-era upper limits sit at ~72-120 meV; BOTH are allowed, so data does NOT decide this today
+
+==============================================================================
+  RESULT — THE FORK RESOLVES, AND NOT BY DATA
+==============================================================================
+
+  DATA DOES NOT DECIDE IT. The two sums are 59.1 and 61.3 meV, a gap of
+  2.2 meV. Current cosmological upper limits sit far above both, so nothing measured
+  today separates them (F-G). Anyone waiting for data to settle this waits years.
+
+  THE KOIDE BRANCH LOSES ITS EVIDENCE UNDER ITS OWN PARAMETER-FREE TEST. The ring form's
+  overall scale cancels from Dm2_31/Dm2_21, so fixing A = sqrt2 and phi = 2/9 + pi/12
+  predicts that ratio with NOTHING free. It gives 32.43 against a measured 33.89 --
+  a 4.3% miss (F-E). The corpus records this agreement as "0.5%"; it is not reproduced.
+
+  AND THE FALLBACK IS NOT EVIDENCE. Leaving phi free at A = sqrt2 fits the ratio to
+  0.0001% -- but that is one parameter fitted to one number, which is guaranteed
+  and carries no information (F-F). m_1 = 0.374 meV is an OUTPUT of that saturated fit,
+  not a prediction from it.
+
+  THE STRUCTURAL RULING WAS ALREADY MADE, AND IT POINTS THE SAME WAY. Q_nu = 2/3 is
+  unreachable with all roots positive -- the ceiling is 0.5857 (F-A) -- so the Koide
+  branch REQUIRES the negative root, and the corpus has twice concluded, by independent
+  arguments, that the cone is selected by ELECTRIC CHARGE: T6 from the neutrino failure
+  itself, the basement because screening weights by charge^2 and a neutral cone is worth
+  zero. Numerical reachability on a sign branch is not a mechanism for being there.
+
+  ==> RULING: P-2026-012 STANDS AS THE MODEL'S NEUTRINO PREDICTION. Sigma m_nu = 61.3 meV
+      with m_lightest = 2.24 meV, carried with its own stated conditional (the floor
+      being neutrino-funded) and its own void clause.
+
+  ==> THE KOIDE-NEUTRINO BRANCH IS WITHDRAWN as a prediction. Sigma m_nu = 58.5 meV must
+      not be quoted as the model's number. It survives only as an observation: IF the
+      neutral triple were on the cone, the sum would be 58.5 meV -- and the corpus's own
+      charge-selector argument says it is not, while the parameter-free test that would
+      have supported it misses by 4%.
+
+  WHAT WOULD REOPEN IT, stated so the door is not nailed shut by accident: a mechanism
+  putting a NEUTRAL triple on the cone, which would have to defeat both charge-selector
+  arguments at once; or a corrected phi that passes the parameter-free ratio test. The
+  second is checkable immediately against any proposed phi, and this script is the check.
+

@@ -22,13 +22,13 @@ expanding cosmos and its imprints, **not** a Theory of Everything. Local bound m
 the Standard Model; the domain is the diffuse cosmic medium. Same fence as
 [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md) / laws_and_rules / quantum attach notes. No TOE claim.
 
-**Old-BAO production bbnfix pair — BOOKED.** Authority is the dual-gate receipt
-[`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md):
-both legs hit cobaya progress **R−1 < 0.05** **and** checkpoint `converged: true`, then
-`python3 scripts/book_bbnfix_when_ready.py` booked the pair. Booked three-rank GetDist
+**Old-BAO production bbnfix pair — BOOKED Stage A + Stage B published.** Authority is the dual-gate receipt
+[`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md)
+plus Grok red [`RED_AUDIT.md`](working_logs/_runs/bbnfix_booking_20260808_005626/RED_AUDIT.md)
+(`red: AGREE`; Claude offline 2026-08-10). Booked three-rank GetDist
 (`ignore_rows=0.3`, SH0ES-conditional): dyad **H₀ = 70.052 ± 0.716**, `m_ncdm = 0.0671 ± 0.0583`,
-**S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**, `m_ncdm = 0.0192 ± 0.0174`,
-**S₈ = 0.824 ± 0.0081**.
+**S₈ = 0.821 ± 0.0097**; lcdm **H₀ = 68.345 ± 0.343**, `m_ncdm` = 0.0192 ± 0.0174,
+**S₈ = 0.824 ± 0.0081**. Living tables: `PRTOE_CHAIN_TABLES.md`.
 
 | chain | N (receipt) | R−1 | stop | converged | bookable |
 |---|---:|---:|---:|---|---|

@@ -1,0 +1,129 @@
+==============================================================================
+  NEUTRINO Q — DOES THE 0.585 CEILING SURVIVE A NEGATIVE ROOT?
+==============================================================================
+
+  inputs: dm21 = 7.53e-05 eV^2, dm31 = 0.002453 eV^2, ratio = 32.576
+
+  N-C  the same code path returns Q = 2/3 for the charged leptons
+  ok    N-C1 charged-lepton Q = 2/3 to ~1e-5   Q = 0.666660511, deviation 6.16e-06
+
+  N-B  Q is scale-invariant
+  ok    N-B1 Q unchanged under a common rescaling   0.388888888889 vs 0.388888888889
+
+  N-A  the all-positive branch reproduces the recorded 0.585 ceiling
+
+         m1 (eV)      Q (+++)      Q (+-+)      Q (-++)
+               0     0.583994     3.476387     0.583994
+          0.0001     0.549622     3.000800     0.623890
+           0.001     0.490410     2.294286     0.732770
+           0.003     0.443373     1.871796     0.888053
+            0.01     0.381293     1.677245     1.282304
+            0.03     0.341595     2.118856     1.998611
+             0.1     0.333553     2.805557     2.785685
+  ok    N-A1 all-positive Q -> 0.585 as m1 -> 0   Q(m1=0) = 0.583994  (corpus records 0.585)
+  ok    N-A2 and it is monotonic downward in m1, as recorded   so 0.585 is the ceiling ON THAT BRANCH
+
+  THE SIGN BRANCHES
+    branch (+,-,+): never reaches Q = 2/3 in m1 < 0.2 eV
+    branch (-,+,+): crosses Q = 2/3 at m1 ~ 0.00040 eV
+    branch (+,+,-): never reaches Q = 2/3 in m1 < 0.2 eV
+
+  THE SHARPER TEST — the splitting RATIO is scale-free
+  Ring form sqrt(m_k) = a[1 + A cos(phi + 2 pi k/3)], A = sqrt2 (the charged
+  sector's own value). The dm31/dm21 ratio then depends on phi alone.
+  ok    N-D1 the ratio is independent of the scale a   60.523212 vs 60.523212
+
+    measured dm31/dm21 = 32.576
+                       phi        ratio     off by
+      2/9 (charged sector)      282.853     768.3%
+               2/9 + pi/12       32.427      -0.5%
+               2/9 - pi/12     3369.140   10242.3%
+                     pi/12      193.995     495.5%
+
+    best-fit phi over [0, pi/3): 0.483376  -> ratio 32.577  (measured 32.576)
+    compare 2/9 + pi/12 = 0.484022   difference 0.000646
+
+  THE ABSOLUTE MASS SCALE — fixed once the phase is
+  With A and phi both fixed, the three masses are determined up to ONE
+  overall scale, and dm21 sets that scale. So sum(m_nu) is a PREDICTION.
+
+    square roots  : [2.251764, -0.195808, 0.944044]
+      (note the NEGATIVE root -- this is the (-,+,+) sign branch)
+    m1 = 0.000373659 eV
+    m2 = 0.0086856 eV
+    m3 = 0.0494152 eV
+    SUM m_nu = 0.05847 eV
+
+    check: dm21 = 7.53e-05 eV^2 (input 7.53e-05)
+           dm31 = 0.002442 eV^2 (measured 0.002453, off -0.5%)
+
+    Cosmological bound on sum(m_nu) is ~0.12 eV (Planck+BAO); this
+    prediction sits at 0.058 eV, i.e. COMFORTABLY BELOW it and
+    within reach of the model's own m_ncdm posterior.
+
+==============================================================================
+  WHAT THIS SETTLES, AND WHAT IT DOES NOT
+==============================================================================
+
+  THE RECORDED CEILING IS REAL, BUT IT IS BRANCH-SPECIFIC. With all three square
+  roots positive, Q_nu does rise monotonically to 0.584 as m1 -> 0 and never
+  reaches 2/3 -- the corpus's number is reproduced exactly (N-A). What was never
+  stated is that this is a statement about ONE SIGN BRANCH.
+
+  Allowing a negative root -- which the ring parametrisation produces on its own
+  whenever 2|b| > a, and which is unobservable since only m = (sqrt m)^2 enters --
+  changes the denominator and therefore Q. Branches reaching 2/3: ['(-,+,+)'].
+
+  SO THE EXCLUSION NEEDS ITS ASSUMPTION STATED. "The neutrino triple cannot sit on
+  the cone for any lightest mass" is true only for the all-positive branch. Whether
+  the negative branch is PHYSICALLY admissible is a separate question this script
+  does not settle -- but the argument as written does not address it, and it is
+  used to condemn a whole class of mechanisms.
+
+  ON THE SPLITTING RATIO, which is the scale-free test. The measured
+  dm31/dm21 = 32.6 is emphatically NOT reproduced by the charged sector's own
+  phase 2/9, which gives 283 -- off by 768%. So the neutrinos do not share the
+  charged phase, and any claim that they do has to confront that number.
+
+  BUT A SHIFT OF pi/12 REPRODUCES IT TO 0.5%. phi = 2/9 + pi/12 gives 32.43 against
+  the measured 32.58, and the free best fit over [0, pi/3) lands at 0.483376 against
+  2/9 + pi/12 = 0.484022 -- a difference of 0.00065, i.e. 0.13%. THIS IS BRANNEN'S
+  PUBLISHED NEUTRINO EXTENSION (2006) AND IS NOT NEW HERE; it is recorded because
+  the corpus did not carry it and because it bears directly on the exclusion above.
+
+  THE TWO RESULTS LOCK TOGETHER, WHICH IS THE PART WORTH NOTICING. That fit needs a
+  NEGATIVE square root (the roots come out 2.2518, -0.1958, 0.9440), i.e. it lives on
+  the (-,+,+) branch -- the same branch that crosses Q = 2/3, and it crosses at
+  m1 ~ 0.00040 eV while this configuration independently predicts m1 = 0.000374 eV.
+  Two different routes to the same sign branch and the same lightest mass.
+
+  AND IT PREDICTS THE ABSOLUTE SCALE, which oscillations alone cannot give:
+  sum(m_nu) = 0.0585 eV, normal ordering, essentially the minimal NO value. That is
+  comfortably below the ~0.12 eV cosmological bound and inside the range the model's
+  own m_ncdm posterior can speak to.
+
+  WHAT IS NOW OWED. The pi/12 itself. The charged sector's phase is 2/9 = Q/3 via the
+  holonomy closure; nothing yet says why the neutral triple should sit a further
+  pi/12 around the ring. That is a new, sharply posed debt -- and note pi/12 is a
+  PURE geometric angle with no Q in it, so whatever supplies it is a different kind
+  of object from the one that supplies 2/9.
+
+  A NEAR-MISS, CHECKED AND DELIBERATELY NOT CHASED. Multiplying through by three,
+
+      3 * arg b_nu = 3*(2/9 + pi/12) = Q + pi/4      (exact, difference 0.0)
+
+  and PRTOE_koide_relation.md separately records a Lorentzian metric on family space
+  "whose light cone opens at exactly 45 degrees about the democratic direction". It
+  is tempting to read the neutral triple's holonomy as the charged one displaced by
+  the cone's opening angle.
+
+  DO NOT. The identity is trivial arithmetic -- 3 * pi/12 = pi/4 -- so "shifted by
+  pi/12 in phi" and "shifted by pi/4 in 3 phi" are the same sentence, and no content
+  is added by writing it the second way. The only real claim would be that THIS pi/4
+  is THAT cone angle, and there is no argument for it: the holonomy is an angle in
+  the family PHASE, while the cone angle is an aperture of a metric on family
+  SPACE. Different spaces, coincident numbers. Recorded here so the coincidence is
+  not rediscovered later and mistaken for a mechanism -- the same discipline the
+  delivery-law discriminator applied when it noted 3.119 is not pi.
+
+==============================================================================

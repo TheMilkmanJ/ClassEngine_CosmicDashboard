@@ -1,0 +1,83 @@
+==============================================================================
+  m_bb WITH THE LIGHTEST MASS AT THE DARK-ENERGY SCALE
+==============================================================================
+
+  M-A  the three contributions at m_1 = 2.25 meV
+       |U_e1^2 m_1| = 1.525 meV
+       |U_e2^2 m_2| = 2.673 meV
+       |U_e3^2 m_3| = 1.103 meV
+  ok    M-A1 reproduces (1.52, 2.67, 1.10) meV   1.52, 2.67, 1.10
+
+  M-B  the mass sum
+       Sigma m_nu = 61.30 meV
+  ok    M-B1 close to the recorded 61.4 meV   61.30
+
+  M-C  the m_bb window
+       floor 0.0448 meV   ceiling 5.301 meV
+  ok    M-C1 ceiling 5.30 meV   5.301
+  ok    M-C2 floor ~0.04 meV   0.0448
+
+  M-D  why the floor exists at all
+       middle term 2.673 vs other two combined 2.628 meV
+       margin = 0.0448 meV, on terms of order 2.6
+  ok    M-D1 the middle term does exceed the other two   so the three phasors cannot close and exact cancellation is impossible
+  ok    M-D2 the margin is ~0.05 meV   0.0448 meV -- this is what makes m_bb a sharp probe of m_1
+
+  M-E  minimal normal ordering, m_1 = 0
+       window [1.48, 3.69] meV
+  ok    M-E1 reproduces [1.48, 3.69] meV   [1.48, 3.69]
+
+  M-F  detection probabilities over flat Majorana phases
+       this model above nEXO baseline 4.7 meV : 10.8%   (recorded 10.8%)
+       this model above tagged      2.35 meV : 69.1%   (recorded 69%)
+       minimal NO above tagged      2.35 meV : 63.7%   (recorded 63.7%)
+  ok    M-F1 baseline nEXO ~10.8%   10.8%
+  ok    M-F2 tagged ~69%   69.1%
+  ok    M-F3 minimal NO tagged ~63.7%   63.7% -- so tagging does NOT discriminate
+
+  M-G  the discriminating band
+       band = [3.69, 5.30] meV
+       minimal NO cannot reach it at ANY phases (its ceiling is 3.69)
+       this model lands inside it 31.8% of the time (recorded 31.7%)
+  ok    M-G1 the band is 3.69-5.30 meV
+  ok    M-G2 this model lands there ~31.7%   31.8%
+  ok    M-G3 baseline nEXO's whole reach sits inside the band   so the baseline machine is the decisive one, not the upgrade
+
+  M-H  ANTI-CONTROL: the derived 2.2599 instead of the observed 2.25
+       floor 0.0389 meV (was 0.0448)   ceiling 5.309 (was 5.301)
+  ok    M-H1 the floor moves
+  ok    M-H2 the ceiling does NOT, to the quoted precision   every conclusion rides on the ceiling, so the anchor choice does not matter
+  ok    M-H3 and the paper uses the OBSERVED value regardless
+
+  M-I  ANTI-CONTROL: inverted ordering
+       IO window [18.6, 49.1] meV
+  ok    M-I1 inverted ordering sits far above this model's ceiling   18.6 > 5.30 -- the orderings do not overlap, so the test is real
+
+==============================================================================
+  RESULT — EVERY PAPER NUMBER REPRODUCES FROM OSCILLATION DATA
+==============================================================================
+
+  Setting the lightest neutrino mass to the observed dark-energy scale, m_1 = 2.25 meV, with
+  normal ordering and NuFIT-class mixings, gives contributions
+  (1.52, 2.67, 1.10) meV and
+
+      m_bb in [0.04, 5.30] meV,   Sigma m_nu = 61.3 meV.
+
+  The floor is not protected by symmetry. It exists only because the middle term exceeds
+  the other two combined by 0.045 meV on terms of order 2.6, so the three phasors
+  cannot close a triangle. That near-cancellation is also what makes m_bb an unusually sharp
+  function of m_1 -- and it is the honest reason this is more than a plug-in exercise.
+
+  THE TEST IS THE CEILING, NOT THE FLOOR. Minimal normal ordering (m_1 = 0) tops out at
+  3.69 meV. This hypothesis reaches 5.30. The gap between them, 3.69 to 5.30 meV, is a band
+  minimal ordering cannot enter at any phases and this hypothesis occupies 32% of the
+  time. Baseline nEXO's reach lands entirely inside that band, so the baseline machine is the
+  discriminating one; the barium-tagged upgrade raises the detection probability from
+  11% to 69% but separates almost nothing, since minimal ordering also clears 2.35 meV
+  64% of the time.
+
+  The anti-controls hold: swapping the observed 2.25 meV for the model-derived 2.2599 moves
+  the floor and leaves the ceiling alone, so no conclusion depends on which anchor is used
+  (the paper uses the observed one); and inverted ordering sits entirely above the window,
+  so the hypothesis is genuinely falsifiable by an ordering determination alone.
+
