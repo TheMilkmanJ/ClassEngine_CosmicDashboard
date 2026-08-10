@@ -1,0 +1,42 @@
+==========================================================================
+THE NEUTRINO KOIDE RATIO AGAINST THE LIGHTEST MASS
+==========================================================================
+       m1 [eV]     m2 [eV]     m3 [eV]   sum m [eV]       Q_nu
+  --------------------------------------------------------------
+             0    0.008678    0.050299     0.058977    0.58531
+         0.001    0.008735    0.050309     0.060044    0.49189
+       0.00225    0.008965    0.050349     0.061564    0.45832
+         0.005    0.010015    0.050547     0.065562    0.41890
+          0.01    0.013240    0.051284     0.074524    0.38228
+          0.03    0.031230    0.058566     0.119796    0.34190
+           0.1    0.100376    0.111937     0.312313    0.33357
+
+  at the recorded m1 = 2.25 meV:  Q_nu = 0.45832   (T6 records 0.458)
+
+==========================================================================
+THE MAXIMUM, WHICH IS WHAT MAKES IT A PROOF
+==========================================================================
+  Q_nu is largest at m1 = 0 eV, where it reaches 0.58531
+  the cone requires                                        0.66667
+  shortfall                                                12.2%
+
+  Q_nu falls monotonically from its m1 = 0 value toward 1/3 as the spectrum degenerates,
+  so the maximum is the massless-lightest limit and NO m1 reaches 2/3. The corpus's
+  statement is a proof, not an observation, and the margin is not marginal.
+
+==========================================================================
+WHAT THAT DOES TO THE TWO OPEN THREADS
+==========================================================================
+  (1) The fourth handle does not exist. The emergent-Z3 reading needed a further mass
+      governed by the same node; the neutrino triple cannot be on that node for any
+      lightest mass, so the reading stays untestable inside the corpus's structure.
+
+  (2) But the same result confirms the selector from a second direction. T6 concludes
+      from the neutrino failure that 'whatever pins the cone acts in the charged sector
+      specifically'. The basement reaches the same place for an unrelated reason: screening
+      weights carriers by charge squared, so a neutrino cone contributes 2.N_c.q^2 = 0 and
+      cannot be the doped pair. Two sectors, two arguments, one selector -- electric charge.
+
+      That is worth more than it looks. The charge-weighted selection was derived in the
+      basement from Thomas-Fermi and the roster; the charged-sector restriction was derived
+      in the Koide sector from a failed forward test. Neither used the other.

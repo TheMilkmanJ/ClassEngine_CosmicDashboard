@@ -23,6 +23,12 @@
 > [exploratory/PRTOE_fairbank_note_HOLD.md](exploratory/PRTOE_fairbank_note_HOLD.md). Draft:
 > [PRTOE_fairbank_note_draft.md](PRTOE_fairbank_note_draft.md) (letter H₀ sentence ready from booking).
 >
+> **3b. Fairbank desk workload COMPLETE (2026-08-10).** Full re-derivation of the lab window:
+> [fairbank_desk_workload_20260810/REPORT.md](working_logs/_runs/fairbank_desk_workload_20260810/REPORT.md)
+> · `TODO.md` all desk items **DONE**. **LAB WINDOW GREEN:** \(m_{\beta\beta}\in[0.04,5.3]\,\mathrm{meV}\)
+> reproduces; ceiling stable under ±1σ NuFIT shifts (5.22–5.38 meV); discriminating band
+> 3.69–5.30 meV intact; baseline nEXO ~10.8% flat-phase; nulls do not confirm. Owner path still HOLD.
+>
 > **4. m_ββ package READY not posted.** `papers/neutrino-mbb/` + arXivReady — **READY_PACKAGE**.
 > **No arXiv post** until Fairbank reply / endorsement. Inventory:
 > [arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md](working_logs/_runs/arxiv_owner_prep_20260804/PACKAGE_INVENTORY.md).
