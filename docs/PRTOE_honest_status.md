@@ -15,7 +15,7 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-08-10)
+## CURRENT (2026-08-12)
 
 **Expansion fence.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
 expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
@@ -46,16 +46,40 @@ historical, not the current booked-pair authority. FD Hessian Laplace **v1 faile
 ΔlnZ_H ≈ **−1.18**, samplecov cross-check ≈ **+0.22**, huge condition numbers / regularized).
 **Diagnostic only — not nested, not a gold Bayes factor.**
 
-**DESI-DR2 bbnfix twins — BOOKED Stage A (separate instrument).** Authority:
-[`desidr2_bbnfix_booking_20260810_053127`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/REPORT.md):
-dyad R−1 **0.03321** @ N=53482 `converged:true`; lcdm R−1 **0.041377** @ N=52031 `converged:true`.
-GetDist (30% burn, SH0ES-conditional DESI stack): dyad **H₀ = 70.299 ± 0.541**,
-lcdm **H₀ = 68.729 ± 0.250**. **Do not mix with old-BAO BOOKED pair.** DESI FD Hessian Laplace
-launched on the idle 48-vCPU box (process receipt, not nested). routeD remains
-**OPEN-MACHINE** at **0.351167**@N=14625. On-demand EC2 quota is **300** vCPU (approved). Gold
-SH0ES PolyChord (2×96) is **live as process** (resume after Fortran stats-write fix)
-(`i-04ead482af737e7bf` dyad / `i-0e353f38544397a6d` lcdm); intermediate log(Z) **not bookable**.
-TRGB legs later when free vCPU ≥ 96. **No nested ΔlnZ yet.**
+**DESI-DR2 + SH0ES bbnfix twins — dual-gate BOOKED (2026-08-11).** Authority:
+[`bbnfix_booking_desidr2_sh0es_20260811_094254`](working_logs/_runs/bbnfix_booking_desidr2_sh0es_20260811_094254/REPORT.md)
++ non-nested package
+[`desidr2_sh0es_non_nested_20260811_124834`](working_logs/_runs/desidr2_sh0es_non_nested_20260811_124834/REPORT.md).
+dyad R−1 **0.03515** @ N=54964 `converged:true`; lcdm R−1 **0.04138** @ N=52031 `converged:true`.
+GetDist (30% burn): dyad **H₀ = 70.302 ± 0.541**, lcdm **H₀ = 68.729 ± 0.250**
+(ΔH₀ ≈ **+1.57** km/s/Mpc). Fit proxy **Δ(min −logpost) ≈ −3.95** (dyad better MAP).
+Laplace interim **ΔlnZ ≈ +1.31** (cond~1e8 — **not nested**). Triangles:
+`docs/plots/dyad_mnu_bbnfix_desidr2_triangle.png`,
+`docs/plots/cmp_lcdm_mnu_bbnfix_desidr2_triangle.png`. **Do not mix with old-BAO BOOKED pair.**
+
+**DESI-DR2 + TRGB bbnfix twins — BOOKED Stage A (2026-08-12).** Authority:
+[`trgb_booking_desidr2_20260812/REPORT.md`](working_logs/_runs/trgb_booking_desidr2_20260812/REPORT.md)
++ results package
+[`trgb_results_20260812`](working_logs/_runs/trgb_results_20260812/TRGB_RESULTS.md).
+dyad R−1 **0.045** @ N=220574 (×32); lcdm R−1 **0.040** @ N=39046 (×3); both MCMC **stopped**.
+GetDist (30% burn): dyad **H₀ = 68.90 ± 0.60**, lcdm **H₀ = 68.39 ± 0.26**
+(ΔH₀ ≈ **+0.51** km/s/Mpc). ⟨χ²⟩ essentially tied. R−1_cl still ~0.18 — posteriors bookable,
+not ultra-tight on derived-cl. Plots: `docs/plots/dyad_trgb_vs_shoes_*`,
+`docs/plots/trgb_twins_*`, `docs/plots/H0_1d_trgb_shoes_fourway.png`. **Do not mix with SH0ES pair.**
+
+**Nested evidence path (gold logZ) — dual engine live (2026-08-12).**
+- **Hang root cause + fix:** GIL on pypolychord C→Python callbacks; multi-rank MPI=1+GIL isolation
+  **PASS**; serial MPI=0+GIL **PASS**. Patch: `Cobaya/pypolychord_GIL_callbacks.patch`.
+- **UltraNest** ×96 both gold hosts (`i-04ead…` dyad, `i-0e353…` lcdm) — **live**, multi-day;
+  mid-run logZ **not bookable**.
+- **Native PolyChord** production: dyad ×96 on routed (`i-0c65…`) **live** (GIL+1.22.2);
+  lcdm ×48 on `i-096d…` relaunched after logL return-tuple fix for 1.20.x.
+- Nested ΔlnZ only after both engines finish and write final summaries. **No mid-run quotes.**
+
+**RouteD MCMC** — finished (R−1≈0.054, Stage A booked 2026-08-10). Idle.
+
+**AWS capacity.** On-demand Standard vCPU quota **512**. Typical live burn: 2×96 UN + 1×96 PC dyad
++ 1×48 PC lcdm ≈ **336** vCPU. Idle hessian 48 stopped 2026-08-12.
 
 **BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
 `papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
@@ -71,10 +95,9 @@ D4 freeze active — next unblock is **new microphysics**, not knob thrash. Pack
 model has nothing to say about θ̄; needing a strong-CP mechanism would kill the constitution. Not a
 derivation; not a paper candidate; not promoted.
 
-**PolyChord current state.** The practical nested path is the **gold DESI-DR2** program
-(SH0ES dyad/lcdm first; TRGB dyad/lcdm second). Quota is **300** on-demand vCPU (approved).
-SH0ES legs are **launching** as process; TRGB not yet. **No nested verdict is bookable yet.**
-Design notes: `working_logs/_runs/gold_desidr2_polychord_20260808/REPORT.md`.
+**Claim permission (2026-08-12).** Parameter posteriors and fit proxies for DESI SH0ES **and**
+DESI TRGB: **YES** (booked Stage A). Nested Bayes factor / “data prefer dyad”: **NO until
+UltraNest and/or production PolyChord both finish** — mid-run logZ forbidden.
 
 ### Residual theory board (2026-08-05 exhaust currency)
 
@@ -85,7 +108,7 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 
 | residual | grade |
 |---|---|
-| Bounce classical turn | **OPEN-BLOCKED** — stocked maps recorded; derived \(H_\mathrm{re}\) **not** paid |
+| Bounce classical turn | **OPEN-BLOCKED** (e2e) — **O2 sign DERIVED_UNDER_ARM** 2026-08-12; O2 magnitude OPEN; **O6 MeV OPEN-BLOCKED** (0 lands); path geometry DERIVED (`bounce_o2_o6_joint_20260812`, `bounce_path_geometry_derived_20260812`) |
 | Page Q6 | **OPEN** — T8 = **0.113**; `page_curve_claimed: false` |
 | Koide mechanism | **OPEN** — Wilson holonomy inputs **5/5 MISSING** |
 | Void IGMF ×20 | **OPEN** |
@@ -94,7 +117,7 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 | Absolute SI \(G\) | **OPEN** — supertrace finiteness ≠ SI \(G\) |
 | Unitarized σσ (ρ_Λ precision) | **MISSING_INPUT** |
 | Machine bbnfix | **BOOKED** old-BAO Stage A · **BOOKED** DESI-DR2 Stage A (separate; do not mix) |
-| PolyChord | **OPEN-MACHINE / RUNNING** — SH0ES gold both legs live (resume); TRGB not launched; no bookable nested verdict yet |
+| PolyChord / nested | **OPEN-MACHINE / RUNNING** — GIL fix proven; UN×96 both legs + PC dyad×96 live; PC lcdm×48 relaunch; TRGB MCMC BOOKED Stage A; no bookable nested ΔlnZ yet |
 | Strong CP | **COMPLETE-ABSTENTION** |
 
 **What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-04**
