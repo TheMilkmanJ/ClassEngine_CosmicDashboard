@@ -11,13 +11,10 @@ theory:
       varying_transition_redshift: 50.0
       dcdf_deltam_mode: 1
       non_linear: halofit
-      output: mPk,tCl,pCl,lCl
       modes: s
       N_ur: 2.0328
       N_ncdm: 1
       T_ncdm: 0.71611
-      l_max_scalars: 9000
-      lensing: 'yes'
     ignore_obsolete: false
     renames:
       As: A_s
@@ -132,18 +129,27 @@ likelihood:
     version: null
     input_params: []
     output_params: []
-  sn.pantheonplusshoes:
+  sn.pantheonplus:
     path: null
     dataset_file: PantheonPlus/config.dataset
     dataset_params: null
     aliases:
-    - PantheonPlusSHOES
+    - PantheonPlus
     use_abs_mag: false
     speed: 100
     type: SN
     stop_at_error: false
     version: null
     input_params: []
+    output_params: []
+  H0_trgb_cchp:
+    type: []
+    speed: -1
+    stop_at_error: false
+    version: null
+    external: 'lambda H0: -0.5*((H0-69.8)/1.7)**2'
+    input_params:
+    - H0
     output_params: []
   act_dr6:
     data_set_file: /home/ubuntu/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
@@ -195,8 +201,8 @@ params:
       0.1632*(varying_me-1.0)'
     derived: false
     renames:
-    - yheused
     - yhe
+    - yheused
   omega_b:
     prior:
       min: 0.02
@@ -376,8 +382,8 @@ sampler:
     sampler_type: mcmc
     supports_periodic_params: true
     burn_in: 40
-    max_tries: 400
-    covmat: chains/dyad_mnu_bbnfix.covmat
+    max_tries: 1000
+    covmat: /home/ubuntu/docs_runs/mcmc_trgb_dyad_x32_20260811/seed_dyad_mnu_bbnfix_desidr2_trgb.covmat
     covmat_params: null
     proposal_scale: 2.4
     output_every: 60s
@@ -387,7 +393,7 @@ sampler:
     learn_proposal_Rminus1_max: 2.0
     learn_proposal_Rminus1_max_early: 30.0
     learn_proposal_Rminus1_min: 0.0
-    max_samples: 40000
+    max_samples: 150000
     Rminus1_stop: 0.05
     Rminus1_cl_stop: 0.2
     Rminus1_cl_level: 0.95
@@ -398,20 +404,21 @@ sampler:
     drag: false
     blocking:
     - - 1
+      - - H0
+    - - 1
       - - omega_b
-        - H0
         - logA
         - n_s
         - z_reio
         - dcdf_rho_inf
         - varying_me
         - m_ncdm
-    - - 23
+    - - 22
       - - A_planck
-    - - 30
+    - - 29
       - - A_act
         - P_act
-    - - 44
+    - - 42
       - - Tcal
         - Ecal
     callback_function: null
@@ -423,5 +430,5 @@ sampler:
     fallback_covmat_scale: 4
     version: 3.6.2
 packages_path: /home/ubuntu/cobaya_packages_clean
-output: dyad_mnu_bbnfix_desidr2
+output: dyad_mnu_bbnfix_desidr2_trgb
 version: 3.6.2

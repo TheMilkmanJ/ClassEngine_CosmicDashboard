@@ -1,0 +1,27 @@
+{
+  "root": "cmp_lcdm_mnu_bbnfix_desidr2_trgb",
+  "instrument": "DESI-DR2 + TRGB (pantheonplus + H0_trgb_cchp 69.8±1.7)",
+  "status": "LOGGED_SINGLE_LEG",
+  "dual_gate_pair": false,
+  "pair_note": "dyad_mnu_bbnfix_desidr2_trgb not converged at peel",
+  "source_instance": "i-0c65cc61a575bdfa7",
+  "landed": ["docs/chains/", "chains/"],
+  "gate": {
+    "converged": true,
+    "Rminus1_last": 0.04015148980721703,
+    "Rminus1_cl_last": 0.184206,
+    "N": 39046,
+    "progress_time_utc": "2026-08-10T23:15:46.132570",
+    "getdist_Rminus1_ignore03": 0.045933074378669114
+  },
+  "getdist": {
+    "ignore_rows": 0.3,
+    "post_burn_samples": 27332,
+    "H0": {"mean": 68.3868, "std": 0.262484},
+    "S8": {"mean": 0.82243, "std": 0.00752845},
+    "m_ncdm": {"mean": 0.0200919, "std": 0.0169972}
+  },
+  "tar_sha256": "521c72db97f76281bd4cb57dd44e61fb4c63953d23201b340500775fb42afbad",
+  "s3": "s3://prtoe-class-upload-1f41456b/trgb_lcdm_desidr2_booking_20260810/cmp_lcdm_mnu_bbnfix_desidr2_trgb.tar.gz",
+  "booked_utc": "2026-08-10T23:55:00Z"
+}
