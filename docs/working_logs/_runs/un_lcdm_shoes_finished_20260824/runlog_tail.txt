@@ -1,0 +1,80 @@
+Z=-1413.5(98.93%) | Like=-1380.91..-1379.74 [-1380.9133..-1380.9130]*| it/evals=14961/2043376 eff=0.7323% N=400 
+Z=-1413.5(98.94%) | Like=-1380.91..-1379.74 [-1380.9130..-1380.9121]*| it/evals=14962/2043664 eff=0.7323% N=400 
+Z=-1413.5(98.94%) | Like=-1380.91..-1379.74 [-1380.9098..-1380.9092]*| it/evals=14964/2043856 eff=0.7323% N=400 
+Z=-1413.5(98.94%) | Like=-1380.91..-1379.74 [-1380.9092..-1380.9077]*| it/evals=14965/2043952 eff=0.7323% N=400 
+Z=-1413.5(98.94%) | Like=-1380.91..-1379.74 [-1380.9077..-1380.9072]*| it/evals=14966/2044240 eff=0.7322% N=400 
+[ultranest_cobaya] ncalls=21300 rate=0.019/s last_logpost=-1380.8585
+Z=-1413.5(98.95%) | Like=-1380.91..-1379.74 [-1380.9072..-1380.9069]*| it/evals=14967/2044432 eff=0.7322% N=400 
+Z=-1413.5(98.96%) | Like=-1380.90..-1379.74 [-1380.9031..-1380.9027]*| it/evals=14971/2044624 eff=0.7324% N=400 
+Z=-1413.5(98.96%) | Like=-1380.90..-1379.74 [-1380.9026..-1380.9008]*| it/evals=14973/2044816 eff=0.7324% N=400 
+Z=-1413.5(98.96%) | Like=-1380.90..-1379.74 [-1380.9008..-1380.9003]*| it/evals=14974/2045296 eff=0.7323% N=400 
+Z=-1413.5(98.96%) | Like=-1380.90..-1379.74 [-1380.9003..-1380.8999]*| it/evals=14976/2045392 eff=0.7323% N=400 
+Z=-1413.5(98.97%) | Like=-1380.90..-1379.74 [-1380.8999..-1380.8989]*| it/evals=14977/2045488 eff=0.7323% N=400 
+Z=-1413.5(98.97%) | Like=-1380.90..-1379.74 [-1380.8989..-1380.8985]*| it/evals=14978/2045584 eff=0.7324% N=400 
+Z=-1413.5(98.97%) | Like=-1380.90..-1379.74 [-1380.8984..-1380.8983]*| it/evals=14980/2045968 eff=0.7323% N=400 
+Z=-1413.5(98.98%) | Like=-1380.90..-1379.74 [-1380.8983..-1380.8978]*| it/evals=14981/2046448 eff=0.7322% N=400 
+Z=-1413.5(98.98%) | Like=-1380.90..-1379.74 [-1380.8978..-1380.8968]*| it/evals=14982/2046544 eff=0.7322% N=400 
+Z=-1413.5(98.98%) | Like=-1380.90..-1379.74 [-1380.8956..-1380.8946]*| it/evals=14985/2046736 eff=0.7323% N=400 
+Z=-1413.5(98.99%) | Like=-1380.89..-1379.74 [-1380.8946..-1380.8946]*| it/evals=14986/2046928 eff=0.7323% N=400 
+Z=-1413.5(98.99%) | Like=-1380.89..-1379.74 [-1380.8946..-1380.8946]*| it/evals=14987/2047024 eff=0.7323% N=400 
+Z=-1413.5(98.99%) | Like=-1380.89..-1379.74 [-1380.8946..-1380.8938]*| it/evals=14988/2047216 eff=0.7323% N=400 
+Z=-1413.5(98.99%) | Like=-1380.89..-1379.74 [-1380.8938..-1380.8930]*| it/evals=14989/2047312 eff=0.7323% N=400 
+Z=-1413.5(98.99%) | Like=-1380.89..-1379.74 [-1380.8930..-1380.8913]*| it/evals=14990/2047408 eff=0.7323% N=400 
+Z=-1413.5(98.99%) | Like=-1380.89..-1379.74 [-1380.8913..-1380.8912]*| it/evals=14991/2047792 eff=0.7322% N=400 
+Z=-1413.5(99.00%) | Like=-1380.89..-1379.74 [-1380.8912..-1380.8912]*| it/evals=14992/2048272 eff=0.7321% N=400 
+Z=-1413.5(99.00%) | Like=-1380.89..-1379.74 [-1380.8912..-1380.8909]*| it/evals=14993/2048464 eff=0.7321% N=400 
+Z=-1413.5(99.00%) | Like=-1380.89..-1379.74 [-1380.8909..-1380.8906]*| it/evals=14994/2048560 eff=0.7321% N=400 
+[ultranest] Explored until L=-1e+03  
+[0 : ultranest] Explored until L=-1e+03  
+[ultranest] Likelihood function evaluations: 2048560
+[0 : ultranest] Likelihood function evaluations: 2048560
+[ultranest] Writing samples and results to disk ...
+[0 : ultranest] Writing samples and results to disk ...
+[ultranest] Writing samples and results to disk ... done
+[0 : ultranest] Writing samples and results to disk ... done
+[ultranest]   logZ = -1414 +- 0
+[0 : ultranest]   logZ = -1414 +- 0
+[ultranest] Effective samples strategy satisfied (ESS = 3544.6, need >400)
+[0 : ultranest] Effective samples strategy satisfied (ESS = 3544.6, need >400)
+[ultranest] Posterior uncertainty strategy is satisfied (KL: 0.45+-0.00 nat, need <0.50 nat)
+[0 : ultranest] Posterior uncertainty strategy is satisfied (KL: 0.45+-0.00 nat, need <0.50 nat)
+[ultranest] Evidency uncertainty strategy is satisfied (dlogz=0.01, need <0.5)
+[0 : ultranest] Evidency uncertainty strategy is satisfied (dlogz=0.01, need <0.5)
+[ultranest]   logZ error budget: single: 0.27 bs:0.00 tail:0.01 total:0.01 required:<0.50
+[0 : ultranest]   logZ error budget: single: 0.27 bs:0.00 tail:0.01 total:0.01 required:<0.50
+[ultranest] done iterating.
+[0 : ultranest] done iterating.
+{
+  "yaml": "/home/ubuntu/prtoe_class/cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml",
+  "out": "/home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod",
+  "params": [
+    "omega_b",
+    "H0",
+    "logA",
+    "omega_cdm",
+    "n_s",
+    "z_reio",
+    "A_planck",
+    "A_act",
+    "P_act",
+    "Tcal",
+    "Ecal",
+    "m_ncdm"
+  ],
+  "ndim": 12,
+  "nlive": 400,
+  "frac_remain": 0.01,
+  "max_ncalls": null,
+  "logz": -1413.4856513862044,
+  "logzerr": 0.5841554518436771,
+  "ncall": 2048560,
+  "ncalls_wrapper": 21343,
+  "wall_s": 1115735.4040744305,
+  "ref_logpost": -1720.232770226742,
+  "sampler": "ultranest.ReactiveNestedSampler",
+  "ultranest_version": "4.5.0",
+  "note": "Nested evidence under unit-cube prior on transform support; Cobaya logposterior (like+prior+external BBN) is the integrand. Comparable across twins with identical UltraNest settings.",
+  "mpi_size": 96
+}
+[ultranest_cobaya] DONE logZ=-1413.4857 ± 0.5842 wall=309.93h mpi_size=96
+[ultranest_cobaya] wrote /home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod/ultranest_summary.json
