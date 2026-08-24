@@ -1,14 +1,9 @@
-# DESI-DR2 ΛCDM+m_ν — PolyChord evidence, TRGB-anchored (gold)
-# GOLD-STANDARD nested evidence leg — DESI DR2 / Year-3 BAO (ALL) + TRGB ladder.
-# Matched twin of the SH0ES gold pair, only SN anchor differs:
-#   SH0ES pair uses sn.pantheonplusshoes
-#   THIS pair uses sn.pantheonplus + H0_trgb_cchp (CCHP 69.8±1.7)
-# Full shared stack: Planck lowℓ TT/EE + plik lite + lensing, DESI DR2 BAO ALL,
-#   ACT DR6, SPT-3G lite, production-faithful BBN prior + YHe.
-# Quote ΔlnZ only within-anchor (TRGB dyad vs TRGB lcdm); do not mix with SH0ES pair.
-#
+# DESI-DR2 BAO twin of the production bbnfix pair.
+# Change vs bbnfix: BAO only (desi_dr2.desi_bao_all replaces 6dF+MGS+DR12).
+# Matched likelihoods on both legs. New chain roots — do not resume old bbnfix.
+# Dual gate unchanged: R-1 < 0.05 AND converged:true on BOTH legs before booking.
 packages_path: /home/themilkmanj/cobaya_packages_clean
-output: chains/cmp_lcdm_mnu_bbnfix_desidr2_trgb_ev
+output: chains/cmp_lcdm_mnu_bbnfix_desidr2
 likelihood:
   planck_2018_lowl.TT: null
   planck_2018_lowl.EE: null
@@ -17,12 +12,7 @@ likelihood:
   # DESI DR2 / Year-3 BAO (ALL tracers). Replaces 6dF+MGS+DR12 consensus.
   # Do NOT stack old BAO on top — double-counts low-z distance.
   bao.desi_dr2.desi_bao_all: null
-  # TRGB-anchored tier: plain Pantheon+ (no SH0ES Cepheids) +
-  # compressed CCHP TRGB H0 prior (Freedman 2021: 69.8 ± 1.7).
-  # Do NOT stack pantheonplusshoes here — double-counts distance ladder.
-  sn.pantheonplus: null
-  H0_trgb_cchp:
-    external: 'lambda H0: -0.5*((H0-69.8)/1.7)**2'
+  sn.pantheonplusshoes: null
   act_dr6:
     class: candl.interface.CandlCobayaLikelihood
     data_set_file: /home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
@@ -36,13 +26,13 @@ theory:
     stop_at_error: false
     extra_args:
       non_linear: halofit
-      # CLASS+Cobaya: no `output`/`lensing` pre-seed (Cobaya sets from likes).
-      # Keep `modes: s`. Bare lensing without lCl → CosmoSevereError / live-gen hang.
+      output: mPk,tCl,pCl,lCl
       modes: s
       N_ur: 2.0328
       N_ncdm: 1
       T_ncdm: 0.71611
-
+      l_max_scalars: 9000
+      lensing: 'yes'
 params:
   # matched to the model config: the same PRyM Y_p surrogate, evaluated at m_e = 1.
   # Without this the control lets CLASS compute YHe while the model forces it -- one of the
@@ -129,17 +119,11 @@ prior:
   bbn: "lambda omega_b: -0.5*( ((0.24691 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.4467e-5*__import__('numpy').exp(-1.656*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.0476e-5)**2 )"
 
 sampler:
-  polychord:
-    # Gold-standard nested settings (Handley-style thoroughness for d~12–13)
-    # Matched gold PC hang fix: nprior=nlive, sync true, no speed hierarchy.
-    nlive: 500
-    nprior: nlive
-    num_repeats: 60   # 5 * n_sampled
-    precision_criterion: 0.001
-    measure_speeds: false
-    oversample_power: 0
-    blocking:
-      - [1, [omega_b, H0, logA, omega_cdm, n_s, z_reio, A_planck, A_act, P_act, Tcal, Ecal, m_ncdm]]
-    do_clustering: false
-    feedback: 1
-    synchronous: false
+  mcmc:
+    burn_in: 40
+    max_tries: 400
+    learn_proposal: true
+    covmat: chains/cmp_lcdm_mnu_bbnfix.covmat
+    Rminus1_stop: 0.05
+    Rminus1_cl_stop: 0.2
+    max_samples: 40000

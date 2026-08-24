@@ -141,6 +141,8 @@ sampler:
     # fix on routeD: seed the covariance at physical widths and only ever
     # learn from a converged chain. routeD on this configuration measured
     # acceptance 0.306 against the collapsed run's 0.99.
+    # Historical 1-rank death used these 2.0 gates. Do not relaunch this
+    # file as-is. Use cmp_prtoe_conv_desi_retune.yaml (learn max 50/100).
     learn_proposal_Rminus1_max: 2.0
     learn_proposal_Rminus1_max_early: 2.0
     covmat: chains/conv_desi_seed.covmat

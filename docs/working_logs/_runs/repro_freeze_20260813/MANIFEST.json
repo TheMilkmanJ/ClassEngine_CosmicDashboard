@@ -1,0 +1,80 @@
+{
+  "stamp": "2026-08-13T20:21:46.633173+00:00",
+  "files": {
+    "dyad_mnu_bbnfix_desidr2_ev.yaml": {
+      "sha256": "323241c997cbb78ee9b3b74ca6b38672b39a4f2cedd939e0385ada706749de5a",
+      "bytes": 6114,
+      "path": "dyad_mnu_bbnfix_desidr2_ev.yaml"
+    },
+    "cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml": {
+      "sha256": "71ddb9af2c3967afdc69d08f63a369981eb92653d9e772351d3b7c6e6645405a",
+      "bytes": 5703,
+      "path": "cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml"
+    },
+    "dyad_mnu_bbnfix_desidr2_trgb_ev.yaml": {
+      "sha256": "99e101fe9a50a9e6218e63909a474fa06bf74e8bcf4e001123d9ecdd981ae04a",
+      "bytes": 5955,
+      "path": "dyad_mnu_bbnfix_desidr2_trgb_ev.yaml"
+    },
+    "cmp_lcdm_mnu_bbnfix_desidr2_trgb_ev.yaml": {
+      "sha256": "5a5f8073328fd5ba2c59e9fb4ae555beec8bb81d7b6abfc31831987da6fdc43f",
+      "bytes": 5236,
+      "path": "cmp_lcdm_mnu_bbnfix_desidr2_trgb_ev.yaml"
+    },
+    "dyad_mnu_bbnfix_desidr2_noh0_ev.yaml": {
+      "sha256": "abc35f0e2de897f554c788f01c5f4941604cc4ba59d7bd41c8cd8823138b96ab",
+      "bytes": 6162,
+      "path": "dyad_mnu_bbnfix_desidr2_noh0_ev.yaml"
+    },
+    "cmp_lcdm_mnu_bbnfix_desidr2_noh0_ev.yaml": {
+      "sha256": "d4d95fb673928b4a2b5f79f16a9dd2b2e782ac1774e14e3cff301a23220492e1",
+      "bytes": 5751,
+      "path": "cmp_lcdm_mnu_bbnfix_desidr2_noh0_ev.yaml"
+    },
+    "cmp_prtoe_zon_disp.yaml": {
+      "sha256": "1945f4733aeace28c73b4838a2248f6297c0cd34accf4fad7165f4ede913157a",
+      "bytes": 5021,
+      "path": "cmp_prtoe_zon_disp.yaml"
+    },
+    "dyad_mnu_bbnfix_desidr2.yaml": {
+      "sha256": "fa8da7517ffc681e72105cf1fe7f58216cba1cb8ec0fbc188f6ec2170e81aafa",
+      "bytes": 5003,
+      "path": "dyad_mnu_bbnfix_desidr2.yaml"
+    },
+    "cmp_lcdm_mnu_bbnfix_desidr2.yaml": {
+      "sha256": "2e9c10e08763a79252b8a9aa89e24506b989a5bdef471525a89a5058968e666a",
+      "bytes": 4296,
+      "path": "cmp_lcdm_mnu_bbnfix_desidr2.yaml"
+    },
+    "dyad_mnu_bbnfix_desidr2_trgb.yaml": {
+      "sha256": "71e17dde4fd6880e368f2f64ac466fcc1378963bb897e52c1deffe42b301049f",
+      "bytes": 5220,
+      "path": "dyad_mnu_bbnfix_desidr2_trgb.yaml"
+    },
+    "cmp_lcdm_mnu_bbnfix_desidr2_trgb.yaml": {
+      "sha256": "ea8ff8b7a831fd387467c2fa9626c5ef04f293aea31b5f25f00ac1b162bcd2c4",
+      "bytes": 4513,
+      "path": "cmp_lcdm_mnu_bbnfix_desidr2_trgb.yaml"
+    },
+    "scripts/pypolychord_cobaya.py": {
+      "sha256": "b498a61e3d4a9aebade971f0064e1e39dd528240d36ae85ba26be9c097e248b0",
+      "bytes": 11104
+    },
+    "scripts/ultranest_cobaya.py": {
+      "sha256": "0f7932dcc0ebc88cdab24052afd94fd0a5ff6481203b51e614cf1ec42e728e8f",
+      "bytes": 14912
+    },
+    "docs/PRTOE_CHAIN_TABLES.md": {
+      "sha256": "af772d8584f71d0ca0e53efa8dd92fb60add3e914cfcfd1e5325257a99c4ed22",
+      "bytes": 7127
+    },
+    "docs/working_logs/_runs/bbnfix_booking_desidr2_sh0es_20260811_094254/booking.json": {
+      "sha256": "3382f44d1356d5b0f1d91d4426e062f10aab37634316301f2b8e59ff82ae2763",
+      "bytes": 7563
+    },
+    "docs/working_logs/_runs/trgb_results_20260812/all_summary.json": {
+      "sha256": "86430192909559e56b79b9d533d8a7d2145f345ab42ba3f554ab49be1544fd76",
+      "bytes": 13911
+    }
+  }
+}
