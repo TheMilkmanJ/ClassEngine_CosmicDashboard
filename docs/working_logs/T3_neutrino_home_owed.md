@@ -1,4 +1,9 @@
 # T3 neutrino home — OWED
+
+> **Machine currency 2026-08-24:** Stage A **BOOKED** three stacks; Nested UN+PC **all anchors
+> RUNNING** (mid-run logZ forbidden); `conv_desi` retune **STOPPED**, `g` **INCONCLUSIVE**. Authority:
+> [`PRTOE_CHAIN_TABLES.md`](../PRTOE_CHAIN_TABLES.md) · [`_runs/conv_desi_retune_grade_20260824/REPORT.md`](_runs/conv_desi_retune_grade_20260824/REPORT.md).
+
 1. THE JOINT FIT (internal review: "does the model actually FIT the data at 0.0875?") — a full chain with Σm_ν free (dyad_mnu class) reported as posterior, not minima.
 2. The conv_g DOUBLE-DUTY consistency (shared with T4): one lever serving Σm_ν and S₈ — show both jobs are compatible in ONE fit.
 3. v_L derivation (the meV-keV-L tie) — the corner's scope depends on it.
@@ -13,5 +18,6 @@ overstated — the sector file's verified pricing carries TWO viable parameter p
 MeV-scale point and the high-v_L point, GeV–2.4 TeV), and the BRANCH selection is not a desk
 item: the discriminators are the CMB-S4 Majoron search (probes the MeV point) and the
 leptogenesis resonance structure (non-resonant ⟹ v_L ≥ GeV). Board task #17 holds the corner.
-In flight: item 1 (dyad_mnu chain running, R−1 ≈ 0.18 marginal today) and item 2 (conv_desi
-running). Item 4: standing watch.
+Item status (live): see machine-currency banner at top — Stage A booked; nested RUNNING (no mid-run
+logZ); conv_desi retune stopped (`g` inconclusive); item 4 standing watch. (Prior flight note “R−1 ≈ 0.18 / conv_desi
+running” retired as historical pre-book.)

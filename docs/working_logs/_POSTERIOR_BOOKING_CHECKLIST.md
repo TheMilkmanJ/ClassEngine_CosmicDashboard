@@ -1,22 +1,33 @@
-# Posterior booking checklist — WHEN R−1 < 0.05 (bbnfix pair) + self-stop
+# Posterior booking checklist — Stage A done; nested gold in flight
 
-**Do not run multi-hour re-analyses “to check.”** This file is the runbook for the
-moment the BBN-fixed production pair grades. Until then, `finalize_h0` will
-refuse and nothing below is bookable.
+> ## Currency — 2026-08-15
+>
+> **Stage A MCMC is BOOKED** for old-BAO SH0ES `bbnfix`, DESI-DR2 SH0ES, and DESI-DR2 TRGB
+> (see [`../PRTOE_CHAIN_TABLES.md`](../PRTOE_CHAIN_TABLES.md)). This file is no longer “wait for
+> first R−1 gate” for those twins — it is the **publish / nested / Laplace honesty** runbook.
+>
+> **Nested evidence (gold logZ):** Nested UN+PC **all anchors RUNNING** (SH0ES, TRGB, no-H0).
+> **Mid-run nested logZ is FORBIDDEN** until final `ultranest_summary.json` / PC `.stats`.
+> zon retune **STOPPED** GetDist **INCONCLUSIVE**. conv_desi retune **STOPPED** GetDist **INCONCLUSIVE** (`g`).
+> Runbook: [`_runs/dual_nested_runbook_20260812/RUNBOOK.md`](_runs/dual_nested_runbook_20260812/RUNBOOK.md).
+>
+> **Hard fences:** NO FABRICATIONS · do not book unconverged posteriors · leave **live nested**
+> alone · booking ≠ publishing (tables need `RED_AUDIT`) · never quote pre-bbnfix ΔlnZ ≈ +2.6
+> as final bbnfix evidence · **do not** treat Laplace interim as nested gold · within-anchor ΔlnZ
+> only (never mix SH0ES vs TRGB vs no-H0 Z).
+>
+> Historical 2026-08-04 gate-smoke numbers below are **receipts**, not live R−1.
 
-**Hard fences:** NO FABRICATIONS · do not book unconverged posteriors · leave live
-MCMCs alone · **booking ≠ publishing** (tables need `RED_AUDIT`) · never quote
-pre-bbnfix ΔlnZ ≈ +2.6 as final bbnfix evidence without fence · no PolyChord.
+**Do not run multi-hour re-analyses “to check” live nested.** For Stage A re-book only if a new
+chain supersedes a booked twin.
 
-Last gate smoke (2026-08-04): dyad R−1 = **0.189**, lcdm R−1 = **0.059**, both
-`converged: false` → `book_bbnfix_when_ready.py` **REFUSED** (exit 2). RouteD is a
-separate object (stop **0.1**); do not book its thaw posterior until its own R−1
-hits stop.
+Packages (ops):
+- [`_runs/dual_nested_runbook_20260812/`](_runs/dual_nested_runbook_20260812/) — dual UN+PC  
+- [`_runs/noh0_nested_un_20260813/`](_runs/noh0_nested_un_20260813/) — no-local-H0 UN  
+- [`_runs/trgb_pc_1.22.2_ready_20260810/`](_runs/trgb_pc_1.22.2_ready_20260810/) — TRGB nested prep (now **RUNNING** with all anchors; receipt)  
 
-Packages:
-- `docs/working_logs/_runs/laplace_booking_full_20260804/` — full RUNBOOK + PREFLIGHT  
-- `docs/working_logs/_runs/laplace_prep_harden_20260804/` — Stage A/B + kill-criteria harden  
-- `docs/working_logs/_runs/open_board_split_20260803/LAPLACE_PREP.md` — Laplace inventory  
+- `docs/working_logs/_runs/laplace_booking_full_20260804/` — Laplace RUNBOOK (interim only)  
+- `docs/working_logs/_runs/laplace_prep_harden_20260804/` — Stage A/B harden  
 
 ---
 
@@ -171,9 +182,9 @@ Sync living docs only after Stage B + intentional publish:
 
 ## Step C — Laplace ΔlnZ (model − ΛCDM) under the BBN-fixed stack
 
-Standing evidence method (PolyChord nested deferred as unaffordable on this box):
-**Laplace-from-MCMC** (docket #155). There is **no** standalone `scripts/laplace_*.py`
-for the cobaya pair. Paths in this repo:
+Standing **interim** evidence method while nested runs: **Laplace-from-MCMC** (docket #155).
+**Gold nested** is dual UltraNest + PolyChord GIL on AWS (see dual nested runbook) — **not**
+“deferred forever.” Laplace remains interim until nested finishes. Paths in this repo:
 
 | path | role |
 |---|---|

@@ -4,10 +4,21 @@
 > Regenerated per run at its landing; the running pair and Route-D join
 > at convergence. Means with 68% limits, 30% burn-in.
 
-> **Warning:** this script overwrites `docs/PRTOE_CHAIN_TABLES.md` body
-> when the bbnfix **gate is fully open**. Restore live-status banner if clobbered.
+> **Status.** Stage A posteriors are **booked** for old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB (do not mix anchors). Nested sampling (UltraNest + PolyChord) is **running** on all three anchors; mid-run log-evidence is **not bookable**. The α_c instrument (`cmp_prtoe_zon_disp_retune`) **stopped** (R−1=0.036, `converged: true`); GetDist **done**; `log10_zon` **inconclusive** (7.57±0.51, all three lineup rungs inside 68%). The conversion instrument (`cmp_prtoe_conv_desi_retune`) **stopped** (R−1=0.0447, `converged: true`); GetDist **done**; `dcdf_conv_g` **inconclusive** (0.080±0.072). Authority: `docs/working_logs/_runs/zon_disp_retune_grade_20260821/REPORT.md` · `docs/working_logs/_runs/conv_desi_retune_grade_20260824/REPORT.md`. Bookable cosmology tables start at the DESI-DR2 production twins below.
 
-## cmp_prtoe_conv_desi — conversion channel vs DESI stack (3462 post-burn samples)
+---
+
+## ⚠ NON-BOOKABLE ARCHIVE TABLES (do not cite as Stage A)
+
+> The next four GetDist blocks (`conv_desi`, `zon_disp`, `dyad_mnu_mcmc`, `cmp_prtoe_zon`) are
+> **historical / exploratory instrument peels**. They are **not** dual-gate booked Stage A posteriors.
+> - `conv_desi`: **Jul-22 archive only** (R−1≈13.25). The 2026-08-21 retune **stopped**; GetDist is the next section (`conv_desi_retune_grade_20260824`). Not Stage A. Not a KiDS shear fit.
+> - `zon_disp` / `cmp_prtoe_zon`: **archive peels**. Retune GetDist is the next section; clock still **inconclusive**.
+> - `dyad_mnu_mcmc`: exploratory peel — **not** the booked bbnfix twins.
+>
+> **Bookable authority starts at “DESI-DR2 + SH0ES production twins” below.**
+
+## cmp_prtoe_conv_desi — conversion channel vs DESI stack (3462 post-burn samples) **[ARCHIVE — NOT BOOKABLE]**
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -20,7 +31,7 @@
 | dcdf_conv_g | 0.52457 | [0.5013, 0.55001] |
 | A_planck | 0.9989 | [0.99792, 1.0003] |
 
-## cmp_prtoe_zon_disp — onset-identity dispersion run (3331 post-burn samples)
+## cmp_prtoe_zon_disp — onset-identity dispersion run (3331 post-burn samples) **[ARCHIVE — NOT BOOKABLE]**
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -33,7 +44,7 @@
 | dcdf_rho_inf | 0.71471 | [0.7136, 0.71567] |
 | A_planck | 1.0003 | [0.99941, 1.0014] |
 
-## dyad_mnu_mcmc — the scalar chain, Σm_ν free (3406 post-burn samples)
+## dyad_mnu_mcmc — the scalar chain, Σm_ν free (3406 post-burn samples) **[ARCHIVE — NOT BOOKABLE]**
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -46,7 +57,7 @@
 | varying_me | 1.0125 | [1.005, 1.0121] |
 | A_planck | 1.001 | [0.99919, 1.0024] |
 
-## cmp_prtoe_zon — onset-identity base run (818 post-burn samples)
+## cmp_prtoe_zon — onset-identity base run (818 post-burn samples) **[ARCHIVE — NOT BOOKABLE]**
 
 | parameter | mean | 68% limits |
 |---|---|---|
@@ -58,6 +69,46 @@
 | log10_zon | 7.8658 | [7.807, 7.9583] |
 | dcdf_rho_inf | 0.7025 | [0.70128, 0.70358] |
 | A_planck | 1.0018 | [0.99909, 1.0053] |
+
+---
+
+## cmp_prtoe_zon_disp_retune — stopped α_c instrument (949753 post-burn; 2026-08-21)
+
+> Dual-gate met: R−1=0.03618 < 0.05, R−1 CL=0.189 < 0.2, checkpoint `converged: true`, 48 ranks.
+> GetDist `ignore_rows=0.3`. **Clock verdict: INCONCLUSIVE.** `log10_zon = 7.571 ± 0.511`, 68% [7.19, 8.26] contains **7.55, 7.70, and 7.85**. Do not cite as α_c=3α confirmation or as a pair-call hit/kill. Package: `zon_disp_retune_grade_20260821`. **Not** a Stage A H₀ twin.
+
+| parameter | mean | 68% limits |
+|---|---|---|
+| omega_b | 0.022757 | [0.022669, 0.022846] |
+| H0 | 69.894 | [69.363, 70.596] |
+| logA | 3.0505 | [3.0363, 3.0636] |
+| n_s | 0.97087 | [0.96774, 0.97403] |
+| z_reio | 7.783 | [7.063, 8.500] |
+| log10_zon | 7.571 | [7.190, 8.260] |
+| dcdf_rho_inf | 0.70225 | [0.69597, 0.71050] |
+| A_planck | 1.00099 | [0.99912, 1.00286] |
+
+---
+
+## cmp_prtoe_conv_desi_retune — stopped conversion instrument (1153002 post-burn; 2026-08-24)
+
+> Dual-gate met: R−1=0.04469 < 0.05, R−1 CL=0.185 < 0.2, checkpoint `converged: true`, 192 ranks.
+> GetDist `ignore_rows=0.3`. **`g` verdict: INCONCLUSIVE.** `dcdf_conv_g = 0.080 ± 0.072`, 68% [0.015, 0.146]; 44% of samples g<0.05. Registered 0.10 sits inside 68%; the lever is **not** demanded. Derived S₈ = **0.816 ± 0.009** (68% [0.807, 0.826]) matches the KiDS-Legacy *number* 0.814±0.012 — **not** a shear likelihood. Package: `conv_desi_retune_grade_20260824`. **Not** a Stage A H₀ twin. **Not** a published S₈-tension win.
+
+| parameter | mean | 68% limits |
+|---|---|---|
+| omega_b | 0.022780 | [0.022700, 0.022860] |
+| H0 | 70.211 | [69.791, 70.635] |
+| logA | 3.0552 | [3.0417, 3.0687] |
+| n_s | 0.97226 | [0.96925, 0.97526] |
+| z_reio | 8.042 | [7.355, 8.734] |
+| dcdf_rho_inf | 0.7172 | [0.7094, 0.7250] |
+| dcdf_conv_g | 0.0799 | [0.0153, 0.1463] |
+| A_planck | 1.00117 | [0.99931, 1.00303] |
+| m_ncdm | 0.0325 | [0.0071, 0.0585] |
+| sigma8 | 0.8441 | [0.8327, 0.8554] |
+| Omega_m | 0.2808 | [0.2716, 0.2898] |
+| S8 | 0.8164 | [0.8071, 0.8256] |
 
 ---
 
@@ -112,7 +163,17 @@ Triangle: `docs/plots/cmp_lcdm_mnu_bbnfix_desidr2_triangle.png`
 | Δ(min −logpost) proxy | **-3.9476** (favors dyad if negative) | |
 | ΔlnZ_Laplace (interim) | **1.305** — **not nested** | |
 
-**Nested ΔlnZ:** pending UltraNest prod twins (not yet bookable).
+**Nested ΔlnZ (currency 2026-08-15):** Nested UN+PC **all anchors RUNNING** (SH0ES, TRGB, no-H0).
+SH0ES EV — UltraNest ×96 both legs **RUNNING**; PolyChord GIL dyad ×96 **RUNNING**; PC lcdm ×96
+**RESCUED** after `read_write.F90` “Still Active” format abort (patch+rebuild on `i-0941e936fd100c309`).
+No-local-H0 UltraNest **both** legs RUNNING; TRGB UltraNest **both** legs RUNNING;
+TRGB PolyChord GIL **both** legs RUNNING ×96 (`i-06847ebdfd55bac11` / `i-0d1915a2ac2d5c5af`,
+launch `docs/working_logs/_runs/trgb_pc_launch_20260813/`).
+**Not bookable** until final summaries; mid-run logZ forbidden. ETA stamps:
+`docs/working_logs/_runs/nested_pc_eta_20260815/`. Booking template (empty):
+`docs/working_logs/_runs/nested_booking_template_20260813/`. Fleet:
+`docs/working_logs/_runs/hygiene_batch_20260813/FLEET_HEALTH.md`. Runbook:
+`docs/working_logs/_runs/dual_nested_runbook_20260812/`.
 
 ---
 

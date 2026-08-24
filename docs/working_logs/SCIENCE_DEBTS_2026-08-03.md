@@ -1,19 +1,23 @@
-# Live science debts — master status (currency 2026-08-04)
+# Live science debts — master status (currency **2026-08-15** restamp)
 
 **Source of truth package:** `docs/working_logs/_runs/debts_hardwins_full_20260804/`  
-**Rule:** NO FABRICATIONS · zero false closures · no invent closes for open arms · no PolyChord · MCMCs read-only.
+**Bounce currency (2026-08-12):** `docs/working_logs/_runs/bounce_desk_freeze_20260812/`  
+**Machine currency (2026-08-15):** nested all anchors + zon retune — `docs/working_logs/_runs/docs_line_audit_20260815/`  
+**Rule:** NO FABRICATIONS · zero false closures · no invent closes for open arms · no mid-run nested logZ · MCMCs read-only until stop.
 
 Owner: do all · subagents · Claude red pack D1–D8 (2026-08-03 filed; currency below).
 
-## Machine (live 2026-08-04 ~02:36 local)
+## Machine (currency 2026-08-15)
 
 | Track | Status |
 |---|---|
 | **A4 T14 i6 128³** | **CANDIDATE CLOSED (config-local)** three-seat; production sign **KILLED**; quote only `t14_i6_partial_grade_20260803/CANDIDATE_BOOKING_RESTATED.md` |
-| **bbnfix pair** | **NOT bookable** — progress R−1 lcdm **0.059** / dyad **0.189**; both `converged: false`; `book_bbnfix_when_ready.py` **REFUSED**; `finalize_h0_at_convergence.py` **NOT YET** |
-| MCMCs | dyad + lcdm + routeD left alone (progress tails lag chain growth; gate uses cobaya progress + self-stop) |
-| GetDist diag (UNBOOKABLE) | max GR ~**0.071** (lcdm) / ~**0.086** (dyad) — both >0.05; diagnostic only |
-| Claude red | RED PACK D1–D8 filed 2026-08-03; cures D2/D3/D4 executed; no invent closes since |
+| **bbnfix Stage A** | **BOOKED:** old-BAO SH0ES; DESI-DR2 SH0ES; DESI-DR2 TRGB — see `PRTOE_CHAIN_TABLES.md` / booking receipts |
+| **Nested ΔlnZ** | UN+PC GIL **all anchors RUNNING** (SH0ES, TRGB, no-H0) — mid-run nested logZ **forbidden until finish** (`dual_nested_runbook_20260812`; ETA `nested_pc_eta_20260815`) |
+| **zon_disp / α_c** | **retune RUNNING** (`cmp_prtoe_zon_disp_retune` ×48) — not bookable until R−1 stop (`zon_disp_retune_20260814`) |
+| **conv_desi** | **STOPPED** retune 2026-08-24; `g` **INCONCLUSIVE** (`conv_desi_retune_grade_20260824`) |
+| **Bounce desk** | Freeze stamped: `bounce_desk_freeze_20260812`; mag **PERMANENT NON-CLAIM**; E9 **PAPER_CLAIM_LOCKED** (`all_tiers_closeout_20260813/BOUNCE_MAG_PERMANENT_NONCLAIM.md`) |
+| Claude red | RED PACK D1–D8 filed 2026-08-03; TRGB Stage A red: AGREE; no invent closes |
 
 ## Debt board (currency 2026-08-04)
 
@@ -25,7 +29,7 @@ Owner: do all · subagents · Claude red pack D1–D8 (2026-08-03 filed; currenc
 | **D4** | Hierarchy 6f / μ_5 | Residual **sized** (debt_hierarchy_6f); not closed | AGREE-IF→cured | Quote residual **horn (a) only** (×5–10 adverse); horn (b) A_s not unconditional ×11 | **OPEN-THEORY** |
 | **D5** | Koide #101/#102 | **Lane (c) three-seat LOCKED** — thermal/flat contradicted; relation + protection stand | ChatGPT R2 AGREE | Residual research only; Wilson **MISSING_INPUTS**; not “solved” | **LOCKED packaging / OPEN residual** |
 | **D6** | Magnetism void/RM | **RM geometric formula paid** (survey-plane ℓ~25–60); void **OPEN** | AGREE | Void floor ~×20 short; n_e amplitude open; WATCH-EXTERNAL / new seed | **PARTIAL / OPEN** |
-| **D7** | Bounce turn | Homogeneous nogos hold; RP-A silhouette only | AGREE | **F-A3 OPEN-BLOCKED** — H_re needs metric-off branch declaration | **OPEN-BLOCKED** |
+| **D7** | Bounce turn | Path+waist DERIVED; sign DERIVED_UNDER_ARM; T4 obstruction DERIVED; **ISO-U/L-HOLD/FA3-NEC/SC-W DERIVED under assumptions**; FA3-SUF **DERIVED_NEGATIVE**; Israel stocked fill **TERMINAL**; E8 **CHAIN_COMPLETE_CANDIDATE**; E9 **PAPER_CLAIM_LOCKED**; free shear conversion **KILLED**; mag **PERMANENT NON-CLAIM** | AGREE | matching axioms load-bearing; e2e RECONSTRUCTED; mag not desk-closable | **PARTIAL** (terminal 2026-08-13; mag **NON-CLAIM**) |
 | **D8** | Leptophilia | Left **obstructed** | CONFIRMED | No reopen without new charge | **PARKED / BLOCKED** |
 | **D9** | Page *curve* | Coefficient **paid** (S=A/4G); coevolve instrument champion **v13** near-miss | (blue) | Dynamics **OPEN**; T8 early bin **0.113** (need ≤0.10); **no CANDIDATE**; `page_curve_claimed: false` | **OPEN** (coeff paid) |
 
@@ -35,7 +39,7 @@ Owner: do all · subagents · Claude red pack D1–D8 (2026-08-03 filed; currenc
 |---|---|---|
 | 1 | arXiv / Fairbank posts | **OWNER HOLD** — packages READY; no post |
 | 2 | Public BBN ε &lt;3.2% (2σ) recompute | **ARITHMETIC VERIFIED (internal)** — 3.196%≈3.20% PASS (re-verified 2026-08-04); **EXTERNAL WIN PENDING (no DOI)** |
-| 3 | bbnfix posterior booking | **NOT YET** — both legs fail R−1&lt;0.05 **and** self-stop |
+| 3 | bbnfix posterior booking | **Stage A BOOKED** (old-BAO + DESI SH0ES + TRGB); nested ΔlnZ still **WAIT** |
 | (thread) | T14 i6 | **CANDIDATE CLOSED (config-local)**; production **KILLED** — not top sky win |
 
 ## Artifact index
@@ -83,7 +87,7 @@ Hard-win plan supersedes multi-debt sprawl as priority:
 
 | Priority | External win | Status |
 |---|---|---|
-| 1 | Book dyad+lcdm bbnfix posteriors | **NOT YET** (lcdm 0.059 bounce; dyad 0.189; need R−1&lt;0.05 **and** self-stop) |
+| 1 | Book dyad+lcdm bbnfix posteriors | **Stage A BOOKED** (old-BAO + DESI SH0ES + TRGB); nested ΔlnZ **WAIT** |
 | 2 | T14 i6 | **Thread-closure candidate PROMOTED** (production KILLED); not top sky win |
 | 3 | Public BBN ε&lt;3.2% recompute | **ARITHMETIC VERIFIED (internal)** (3.196%≈3.20% PASS card); **EXTERNAL WIN PENDING (no DOI)** |
 
@@ -169,7 +173,7 @@ Master: `docs/working_logs/_runs/SESSION_PLAN_20260803_CONTINUE.md`
 | Script | Result |
 |---|---|
 | `book_bbnfix_when_ready.py` | **REFUSED** (both legs fail R−1&lt;0.05 **and** self-stop) |
-| `finalize_h0_at_convergence.py` | **NOT YET** |
+| `finalize_h0_at_convergence.py` | Stage A done via booking receipts; nested ΔlnZ still WAIT |
 | GetDist max GR (diag only) | lcdm ~**0.071** / dyad ~**0.086** — still &gt;0.05; **not** booking authority |
 
 Chain files still grow (ranks writing 2026-08-04); progress/checkpoint lag is normal. **Do not book** from crude param R−1 or GetDist alone.
@@ -235,10 +239,11 @@ Chain files still grow (ranks writing 2026-08-04); progress/checkpoint lag is no
 
 | Field | Truth |
 |---|---|
-| **Paid** | Homogeneous nogo suite re-run (thermal T_c, magnetic flip, metric-exit, stocked X, …); floor ρ_bounce as density ceiling; RP-A written as **RECONSTRUCTED CANDIDATE** scaffold only |
-| **OPEN arm** | **F-A3** exterior H-cross / H_re — **cannot** desk-derive without metric-off **branch declaration** (`debt_bounce_FA3_20260803`); O6 MeV funding FAIL on legal parts; classical FRW bounce from stocked parts **DEAD** |
-| **Grade** | Nogos **HOLD** · turn dynamics **OPEN-BLOCKED** |
-| **Forbidden** | Book cyclic cosmology; invent negative-energy stiff X; promote RP-A to DERIVED |
+| **Paid (2026-08-12 currency)** | Homogeneous FRW engines **DEAD**; path geometry **DERIVED**; O2 **sign DERIVED_UNDER_ARM**; ARM uniqueness under A1–A5; Books A/B structural/booked (door need not self-heat via G/T); pour partition **class** structural; **T1–T4 magnitude obstruction DERIVED** under stocked FA3 + first-legal; C1/C2/C3 delivery claims **KILLED**; escape map E1–E6/E10 dead; **E9** honest partial stamped; **E7** 2D multi-pocket instrument energy-clean (`CANDIDATE_MULTIPOCKET_HELPS_LATE_STRESS_OK`) but Θ≪Θ_lock |
+| **OPEN arm** | O2 magnitude is **PERMANENT NON-CLAIM** (obstruction DERIVED; not a desk chore); E7 production 3D / scaling remains instrument-only; **E8** new ρ law under fence; bounce e2e still **RECONSTRUCTED CANDIDATE** not DERIVED |
+| **Grade** | Sign + path + obstruction **DERIVED** · magnitude **PERMANENT NON-CLAIM** · E9 **LOCKED** · e2e **RECONSTRUCTED CANDIDATE** |
+| **Forbidden** | Book cyclic cosmology; invent free peak re-entry / free N_med / free ℓ₀; promote E7 to magnitude lock; silent O2 magnitude claim; treat mag residual as missing desk arithmetic |
+| **Freeze** | `docs/working_logs/_runs/bounce_desk_freeze_20260812/` · re-run `python3 scripts/bounce_desk_freeze_20260812.py` |
 
 ### D8 — Leptophilia
 
@@ -265,10 +270,10 @@ Chain files still grow (ranks writing 2026-08-04); progress/checkpoint lag is no
 3. D4 residual horn (a) — still open  
 4. D5 #101/#102 / Wilson — still open  
 5. D6 void floor — still open  
-6. D7 F-A3 / H_re — still open  
+6. D7 O2 magnitude — **PERMANENT NON-CLAIM** (obstruction DERIVED); e2e still RECONSTRUCTED CANDIDATE (E7 instrument only)  
 7. D8 leptophilia — still parked  
 8. D9 Page dynamics / Q6 CANDIDATE — still open  
-9. bbnfix H₀ / posteriors — **NOT YET**  
+9. Nested ΔlnZ — **WAIT** (Stage A posteriors already BOOKED; mid-run logZ forbidden)  
 10. A4 production sign — **KILLED** (candidate-local only)
 
 ## Hard-win status (must not contradict)
@@ -277,7 +282,7 @@ Chain files still grow (ranks writing 2026-08-04); progress/checkpoint lag is no
 |---|---|---|
 | HW-arXiv | Owner public postings | **HOLD** |
 | HW-BBN-ε | ε 2σ ceiling 3.196%≈3.20% | **ARITHMETIC VERIFIED (internal)**; **EXTERNAL WIN PENDING (no DOI)** |
-| HW-bbnfix | GetDist pair when both R−1&lt;0.05 + self-stop | **NOT YET** |
+| HW-bbnfix | GetDist Stage A (old-BAO + DESI SH0ES + TRGB) | **BOOKED Stage A**; nested ΔlnZ WAIT |
 | HW-T14 | Production sign TC | **production KILLED**; candidate **config-local closed** |
 
 ## Cross-doc consistency

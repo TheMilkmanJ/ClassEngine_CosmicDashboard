@@ -15,7 +15,7 @@
 > [`working_logs/_DOCKET_INDEX.md`](working_logs/_DOCKET_INDEX.md), where #19–#25 are the big-claim
 > mining and ramp-regrade tasks. Read every number on this page as scoped to this page.
 
-## CURRENT (2026-08-12)
+## CURRENT
 
 **Expansion fence.** **Pulford–Romsa Theory of Expansion** (PRTOE) — a dark-sector cosmology of the
 expanding cosmos and its imprints, **not** a Theory of Everything. Local bound matter is ceded to
@@ -35,10 +35,9 @@ plus Grok red [`RED_AUDIT.md`](working_logs/_runs/bbnfix_booking_20260808_005626
 | `cmp_lcdm_mnu_bbnfix` | 26294 | **0.049324** | 0.05 | **true** | **YES** |
 | `dyad_mnu_bbnfix` | 37605 | **0.048118** | 0.05 | **true** | **YES** |
 
-**Evidence honesty on that booked pair:** the current old-BAO volume-aware sample-covariance
+**Evidence honesty on that booked pair:** the old-BAO volume-aware sample-covariance
 Laplace is only **ΔlnZ ≈ +0.21** with **cond(Σ) ~ 10⁸** on both legs. Better MAP by
-**Δ(min −logpost) ≈ −2.96** is *not* evidence. The old pre-bbnfix **ΔlnZ = +2.635** line is now
-historical, not the current booked-pair authority. FD Hessian Laplace **v1 failed**
+**Δ(min −logpost) ≈ −2.96** is *not* evidence. FD Hessian Laplace **v1 failed**
 (`logZ=-inf` / singular Hessian —
 [HESSIAN_FD_20260810_REPORT](working_logs/_runs/credibility_diagnostics_20260808/HESSIAN_FD_20260810_REPORT.md));
 **v2 finished finite** both legs
@@ -67,19 +66,25 @@ GetDist (30% burn): dyad **H₀ = 68.90 ± 0.60**, lcdm **H₀ = 68.39 ± 0.26**
 not ultra-tight on derived-cl. Plots: `docs/plots/dyad_trgb_vs_shoes_*`,
 `docs/plots/trgb_twins_*`, `docs/plots/H0_1d_trgb_shoes_fourway.png`. **Do not mix with SH0ES pair.**
 
-**Nested evidence path (gold logZ) — dual engine live (2026-08-12).**
+**Nested evidence path (gold logZ) — dual engine live (currency 2026-08-15).**
 - **Hang root cause + fix:** GIL on pypolychord C→Python callbacks; multi-rank MPI=1+GIL isolation
   **PASS**; serial MPI=0+GIL **PASS**. Patch: `Cobaya/pypolychord_GIL_callbacks.patch`.
-- **UltraNest** ×96 both gold hosts (`i-04ead…` dyad, `i-0e353…` lcdm) — **live**, multi-day;
-  mid-run logZ **not bookable**.
-- **Native PolyChord** production: dyad ×96 on routed (`i-0c65…`) **live** (GIL+1.22.2);
-  lcdm ×48 on `i-096d…` relaunched after logL return-tuple fix for 1.20.x.
-- Nested ΔlnZ only after both engines finish and write final summaries. **No mid-run quotes.**
+- **UltraNest SH0ES** ×96 both hosts — **live**; mid-run nested logZ **forbidden until finish**.
+- **Native PolyChord SH0ES:** dyad ×96 on routed (`i-0c65…`) **live**; lcdm ×96 on `i-0941e…`
+  **live** (rescued after Fortran “Still Active” format abort — fix2 tree).
+- **No-local-H0 UltraNest** both legs ×96 — **live**.
+- **TRGB** UltraNest + PolyChord both legs ×96 — **live**.
+- **zon_disp retune** ×48 (`cmp_prtoe_zon_disp_retune`) — **STOPPED**; GetDist **INCONCLUSIVE** on `log10_zon`.
+- **conv_desi retune** ×192 (`cmp_prtoe_conv_desi_retune`) — **STOPPED** (R−1=0.0447); GetDist **INCONCLUSIVE** on `dcdf_conv_g`. Not a KiDS shear fit.
+- Nested ΔlnZ only after both legs of a twin finish with final summaries. **No mid-run quotes.**
+  Within-anchor only (never mix SH0ES / TRGB / no-H0 Z).
+  ETA stamps: `working_logs/_runs/nested_pc_eta_20260815/`.
 
 **RouteD MCMC** — finished (R−1≈0.054, Stage A booked 2026-08-10). Idle.
 
-**AWS capacity.** On-demand Standard vCPU quota **512**. Typical live burn: 2×96 UN + 1×96 PC dyad
-+ 1×48 PC lcdm ≈ **336** vCPU. Idle hessian 48 stopped 2026-08-12.
+**AWS capacity.** On-demand Standard vCPU quota **512** (request **1024** CASE_OPENED). Live burn
+includes nested all-anchors fleet + zon_disp retune ×48 (full-fleet class ~1008 vCPU when all
+legs concurrent). Watcher: `docs/working_logs/_runs/noh0_nested_un_20260813/quota_watch.log`.
 
 **BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
 `papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
@@ -95,9 +100,9 @@ D4 freeze active — next unblock is **new microphysics**, not knob thrash. Pack
 model has nothing to say about θ̄; needing a strong-CP mechanism would kill the constitution. Not a
 derivation; not a paper candidate; not promoted.
 
-**Claim permission (2026-08-12).** Parameter posteriors and fit proxies for DESI SH0ES **and**
+**Claim permission (2026-08-15).** Parameter posteriors and fit proxies for DESI SH0ES **and**
 DESI TRGB: **YES** (booked Stage A). Nested Bayes factor / “data prefer dyad”: **NO until
-UltraNest and/or production PolyChord both finish** — mid-run logZ forbidden.
+all nested twin legs finish** — mid-run logZ **forbidden**. zon_disp center / R−1 mid-run: **NO**.
 
 ### Residual theory board (2026-08-05 exhaust currency)
 
@@ -108,7 +113,7 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 
 | residual | grade |
 |---|---|
-| Bounce classical turn | **OPEN-BLOCKED** (e2e) — **O2 sign DERIVED_UNDER_ARM** 2026-08-12; O2 magnitude OPEN; **O6 MeV OPEN-BLOCKED** (0 lands); path geometry DERIVED (`bounce_o2_o6_joint_20260812`, `bounce_path_geometry_derived_20260812`) |
+| Bounce classical turn | **RECONSTRUCTED CANDIDATE** (e2e not DERIVED) — path+waist-time **DERIVED**; O2 **sign DERIVED_UNDER_ARM**; magnitude **PERMANENT NON-CLAIM** (T1–T4 obstruction **DERIVED**); FA3-NEC **DERIVED**; FA3-SUF **DERIVED_NEGATIVE**; Israel stocked fill **TERMINAL**; **E7** instrument CANDIDATE (≪lock); **E8** CHAIN_COMPLETE_CONSTRUCTED_CANDIDATE; **E9** **PAPER_CLAIM_LOCKED**; freeze `bounce_desk_freeze_20260812` · terminal `bounce_fa3suf_israel_e8e9_terminal_20260813` · E9 `bounce_e9_honest_partial_20260812` |
 | Page Q6 | **OPEN** — T8 = **0.113**; `page_curve_claimed: false` |
 | Koide mechanism | **OPEN** — Wilson holonomy inputs **5/5 MISSING** |
 | Void IGMF ×20 | **OPEN** |
@@ -116,15 +121,13 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 | Forward \(A_{\omega_J}\) / seat | **EMPTY_CORPUS_SEAT** · Charge A holds |
 | Absolute SI \(G\) | **OPEN** — supertrace finiteness ≠ SI \(G\) |
 | Unitarized σσ (ρ_Λ precision) | **MISSING_INPUT** |
-| Machine bbnfix | **BOOKED** old-BAO Stage A · **BOOKED** DESI-DR2 Stage A (separate; do not mix) |
-| PolyChord / nested | **OPEN-MACHINE / RUNNING** — GIL fix proven; UN×96 both legs + PC dyad×96 live; PC lcdm×48 relaunch; TRGB MCMC BOOKED Stage A; no bookable nested ΔlnZ yet |
+| Machine bbnfix | **BOOKED** old-BAO Stage A · **BOOKED** DESI-DR2 SH0ES + TRGB Stage A (separate; do not mix) |
+| PolyChord / nested | **OPEN-MACHINE / RUNNING** — GIL fix proven; nested UN+PC **all anchors RUNNING**; mid-run logZ forbidden; no bookable nested ΔlnZ yet |
+| zon_disp / conv_desi | zon_disp **STOPPED** GetDist **INCONCLUSIVE** (`log10_zon`) · conv_desi retune **STOPPED** GetDist **INCONCLUSIVE** (`g`) |
 | Strong CP | **COMPLETE-ABSTENTION** |
 
-**What this supersedes as “current machine truth.”** Any surface still carrying **2026-08-04**
-live R−1 numbers as if current (lcdm **0.071122** / dyad **0.072286** / routeD **4.941933**) is
-stale; the 2026-08-05 stamp above is the live gate. E2E derivation board grades (A1–A6) under the
-next heading remain valid as theory status; this section is the **machine + honesty** stamp. Theory
-residual grades above are the 2026-08-05 exhaust stamp.
+This section is the **machine + honesty** stamp. E2E derivation board grades (A1–A6) under the next
+heading are the theory status.
 
 ---
 
@@ -147,24 +150,27 @@ the Standard Model; the domain is the diffuse cosmic medium. (Same fence as
 | **A5** | B1 hydro crown | **PARTIAL (scoped)** — Ψ₀/f_amp done; intake candidate; pour→release / first-principles n open |
 | **A6** | Bounce (B7) | **RECONSTRUCTED CANDIDATE** (turn not derived) |
 
-**Bounce (A6 / B7).** Density floor ρ_bounce = m⁴/λ ~ (1.1 keV)⁴ is **derived**. Homogeneous FRW
-bounce engines are **DEAD**. RP-A is a **reconstructed candidate** with written scaffold
-(`scripts/bounce_rpA_scaffold.py`: F-A1…F-A3, knobs η/N_med/H-sign). The turn **H>0 forced by
-stress-energy** is still **not** derived. Audience: floor + reconstructed program yes; derived
-cosmological turn no. Verdict:
-[`working_logs/bounce_e2e_verdict_2026-07-31.md`](working_logs/bounce_e2e_verdict_2026-07-31.md),
-[`working_logs/bounce_promotion_2026-07-31.md`](working_logs/bounce_promotion_2026-07-31.md).
+**Bounce (A6 / B7) — currency 2026-08-13.** Density floor ρ_bounce = m⁴/λ ~ (1.1 keV)⁴ is **derived**.
+Homogeneous FRW bounce engines are **DEAD**. Path geometry + waist-time (always-forward half-loop)
+are **DERIVED**. O2 **sign** is **DERIVED_UNDER_ARM**. O2 **magnitude** remains **OPEN** with T1–T4
+obstruction **DERIVED**; FA3 readiness **necessary** (DERIVED) but **not sufficient**
+(DERIVED_NEGATIVE); Israel stocked \(S_{ab}\) fill **TERMINAL**. **E7** instrument CANDIDATE (≪lock);
+**E8** CHAIN_COMPLETE_CONSTRUCTED_CANDIDATE; **E9** **PAPER_CLAIM_LOCKED** (no unconditional mag).
+Door residual need **not** self-heat for MeV (Schema G and/or T **BOOKED**). Bounce e2e remains
+**RECONSTRUCTED CANDIDATE**, not DERIVED. Authority:
+[`working_logs/_runs/bounce_desk_freeze_20260812/`](working_logs/_runs/bounce_desk_freeze_20260812/),
+[`working_logs/_runs/bounce_fa3suf_israel_e8e9_terminal_20260813/`](working_logs/_runs/bounce_fa3suf_israel_e8e9_terminal_20260813/),
+[`working_logs/bounce_e2e_verdict_2026-07-31.md`](working_logs/bounce_e2e_verdict_2026-07-31.md).
 
-**What this supersedes in older CURRENT text below.** (1) A_s / n_s are no longer open residue —
-candidate-closed via census microphysics (A1) and Route T (A2); residual κ≈1 and approach OOM noted
-on the board. (2) α_c is **not** “settled by data rather than choice” as a derivation — it is a
-**permanent value bet** with A_s as IR referee. (3) Any 07-18 phrasing that “the turn is computed”
-is **withdrawn** for a derived cosmological turn; A6 is **reconstructed candidate**, not DERIVED.
-(4) B2 winding-gas tilt stays **CLOSED DEAD** (#184); that path does not deliver A_s.
+**Present grades (detail under the next headings).** (1) A_s / n_s are candidate-closed via
+census microphysics (A1) and Route T (A2); residual κ≈1 and approach OOM noted on the board.
+(2) α_c is a **permanent value bet** with A_s as IR referee — not a derivation from data alone.
+(3) Cosmological bounce turn A6 is **reconstructed candidate**, not DERIVED. (4) B2 winding-gas
+tilt stays **CLOSED DEAD** (#184); that path does not deliver A_s.
 
-Still standing from the 2026-07-20 snapshot (detail under the next heading): c = 9/10 counting
-input (democracy dead); ρ_Λ¼ existence claim +0.44% (not precision); DE self-tuning still fails
-(ohmic); Laplace ΔlnZ = +2.635 marginal / SH0ES-dependent; nested sampling deferred to cluster.
+Also standing: c = 9/10 counting input (democracy dead); ρ_Λ¼ existence claim +0.44% (not
+precision); DE self-tuning still fails (ohmic); booked Laplace **ΔlnZ ≈ +0.21** marginal /
+SH0ES-dependent; nested sampling **running** (not finished).
 
 ### Snapshot held from CURRENT (2026-07-20)
 
@@ -196,12 +202,10 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   The settling response is **ohmic** in the dark-energy channel, so the floor's value is not fixed by the
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
-- Evidence: the **historical** pre-bbnfix **ΔlnZ = +2.635** Laplace line landed, but the current
-  booked old-BAO pair is weaker: sample-covariance Laplace **ΔlnZ ≈ +0.21** with soft-mode
-  sensitivity. The original laptop nested attempt ended for machine-economics reasons; the current
-  practical nested path is the DESI-DR2 gold four-leg program, which is on disk but not launched.
-  *That makes the booked old-BAO pair the only current graded posterior receipt, while the current
-  DESI-DR2 MCMC stack and its intended nested confirmer remain unfinished.*
+- Evidence: booked old-BAO sample-covariance Laplace is **ΔlnZ ≈ +0.21** with soft-mode
+  sensitivity. Nested UN+PC is **running** on all anchors (SH0ES, TRGB, no-H0); mid-run nested
+  logZ is **not bookable**. Stage A posteriors are **booked** on three stacks (old-BAO SH0ES +
+  DESI-DR2 SH0ES + DESI-DR2 TRGB); the nested confirmer is not finished.
 
 ### What moved on 2026-07-18
 
@@ -411,7 +415,7 @@ first time — but heavily qualified:
      number. Only nested sampling makes it robust. At the time of this entry that was unaffordable
      on this hardware (9.8 h per iteration). Current 2026-08-08 status is stricter than this
      historical entry: the booked old-BAO pair's sample-covariance Laplace is only ≈+0.21, and the
-     practical nested referee is the DESI-DR2 gold four-leg program, still not launched. Better-
+     Nested UN+PC **all anchors RUNNING** (SH0ES, TRGB, no-H0; mid-run logZ forbidden). Better-
      converged chains can sharpen the bookkeeping; they cannot promote this historical line into
      the current evidence authority.
   2. SH0ES-conditional: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
@@ -426,15 +430,11 @@ first time — but heavily qualified:
 Best realistic outcome on the table, landed exactly at the line. Not decisive, not robust, not
 prediction-confirmed.
 
-The one lever that would move the evidence class hard is still a matching nested comparison; the
-current live design path is no longer a confirmation of +2.6 specifically, because the booked
-old-BAO pair now reads weaker than that historical line.
-At the time this section was written that lever was out of reach on the local hardware and the
-attempt there had been ended on 2026-07-20 at 9.8 h per iteration; the current 2026-08-08 nested
-status is different: the gold DESI-DR2 four-leg program exists on disk but is not launched, so
-there is still no nested verdict. The two things that still sink it: SH0ES-as-systematic
-(Stage 0), or a nested number eventually pulling +2.6 back under +2.5. Full internal review
-grading in the private internal review record (defender "the number" turn).
+The lever that would move the evidence class hard is a finished nested comparison. Dual nested
+is **running** but mid-run logZ is not bookable, so there is still no nested verdict. The two
+things that still sink a win: SH0ES-as-systematic (Stage 0), or a nested number that fails to
+clear a decisive bar. Full internal review grading in the private internal review record
+(defender "the number" turn).
 
 ### Sharpened by internal review (accepted): the win inverts without SH0ES, adds zero ontology evidence
 Two corrections to the verdict above, both taken: (1) Brake 2 is worse than "conditional" — it is

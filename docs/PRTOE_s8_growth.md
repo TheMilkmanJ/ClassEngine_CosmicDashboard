@@ -1,17 +1,11 @@
 # The S₈ Tension and Growth — the Conversion Channel (2026-07-11)
 
-> ## OPEN-MACHINE residual freeze — 2026-08-04
+> **Status.** Conversion MCMC retune **STOPPED** (`cmp_prtoe_conv_desi_retune`, R−1=0.0447, `converged: true`). GetDist: `dcdf_conv_g` **inconclusive** (0.080±0.072). Matched DES/KiDS lensing likelihood still **OPEN-BLOCKED**.
 >
-> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on posteriors.
+> Route-D thaw is **finished** Stage A (separate instrument; not a substitute for conv_desi). Nested / zon instruments do not book this channel.
 >
-> **Machine residual waiting:** (1) `cmp_prtoe_conv_desi` **unproduced** (died twice; last chain write 2026-07-22; progress R−1 = 13.25; not live). (2) Matched DES/KiDS lensing likelihood before any tension-easing claim. (3) routeD thaw is **live** (progress N=11422, R−1=**0.257073** t=2026-08-06T01:51:33; ~**2.57×** stop 0.1, `converged:false`) — not a substitute for conv_desi; not dual-gate.
->
-> **What unblocks:** owner restart of `conv_desi` (config/seed decision) → cobaya self-stop at yaml R−1 stop → GetDist booking of conv_g; separate lensing-likelihood campaign for published easing claim.
->
-> **Forbidden claims:** measured S₈ win; quoting archive GetDist rows as posteriors; treating routeD early samples as the conversion test; interim conv_g as constraint.
->
-> **Blocked-lane audit:** shared conversion lane frozen in
-> [blocked_lane_s8_conversion_20260805/REPORT.md](working_logs/_runs/blocked_lane_s8_conversion_20260805/REPORT.md).
+> **Do not claim:** published tension-easing win; archive R−1 as a posterior; interim g as a constraint.
+
 
 **Audience grade.** Mechanism note only — no matched DES/KiDS lensing fit yet; do not quote S₈ as a measured win. Conversion perts now coded when `dcdf_conv_g>0` (routeD); headline chains have conversion off.
 
@@ -22,9 +16,8 @@
 *Thread 4 of the atom-grammar survey; the standalone for the recorded DM→(DE/dark-radiation)
 conversion lead — the consolidated production file is
 [PRTOE_s8_tension.md](PRTOE_s8_tension.md). The mechanism is built into CLASS; conv_g is a sampled
-parameter in the thaw and conv_desi *configurations*, but those posteriors are **unproduced** (the
-conv_desi chain died twice — see §4), not live tests: a one-parameter, physically motivated easing of
-the growth tension that ΛCDM must treat as systematics.*
+parameter in the thaw and conv_desi *configurations*. The conv_desi **retune stopped 2026-08-24**;
+`g` is **inconclusive** (not demanded). Jul-22 deaths are historical. Still not a KiDS shear test.*
 
 ## 0. The tension
 
@@ -50,9 +43,10 @@ history — exactly the shape of the observed tension.
 - The omk scan's minimum: S₈ = 0.807; the production joint fit: **S₈ = 0.823 — at the
  KiDS-Legacy consensus, vs ΛCDM's 0.833, at zero χ² cost** (the standing claim). Both
  readings sit on the tension's easing side.
-- conv_g is a sampled parameter in the thaw and conv_desi *configurations*, pre-registered at
- g ≈ 0.10 ± 0.05. Their converged posteriors *would be* the mechanism's test once produced; none
- exist yet (§4), and no interim value carries weight.
+- conv_g on the stopped retune: **0.080 ± 0.072** (68% [0.015, 0.146]); 44% of samples g<0.05.
+ Registered 0.10 is inside 68%. **Inconclusive — lever not on.** Authority:
+ `working_logs/_runs/conv_desi_retune_grade_20260824/`. Derived S₈ = 0.816 ± 0.009 (KiDS-Legacy
+ *number* 0.814±0.012) is not a shear fit.
 - Meaning-inversion note (kept): a conv_g pulled large would ease S₈ at the price
  of the thaw/w(z) commitments — the model cannot spend this dial freely; DESI polices it.
 
@@ -66,16 +60,12 @@ is information; ΛCDM's position provides none.
 
 ## 4. Owed
 
-**`conv_desi` is not running.** It holds a single chain file last written **2026-07-22** at
-within-chain split-R̂ R−1 = 13.25 (real number, blind to single-basin confinement). Live production
-is the bbnfix pair and route-D — **none is conv_desi** (see `PRTOE_CHAIN_TABLES.md` for currency;
-bookable **no**). **This S₈/conversion posterior is unproduced**, and restarting is an owner
-decision. Also owed: a matched-lensing-likelihood fit (DES/KiDS proper,
-not just the S₈ point) before any tension-easing claim is recorded; the conversion's
-perturbation-sector treatment.
+**`conv_desi` retune STOPPED** (2026-08-24). Dual gate met. `g` inconclusive; derived S₈ ~0.816 is a
+point match to KiDS-Legacy, not lensing data. Jul-22 R−1=13.25 archive is **not** this run.
+Still owed: a matched-lensing-likelihood fit (DES/KiDS proper, not the S₈ point) before any
+tension-easing claim.
 
-*The universe got smoother than the standard picture allows. This model's dark sector does extra
-work that does exactly that — and the chain that would test it has not yet been produced.*
+*The conversion MCMC exists. It did not turn the lever on. Lensing is still the remaining growth test.*
 
 ---
 
@@ -85,10 +75,10 @@ work that does exactly that — and the chain that would test it has not yet bee
 |---|---|---|---|---|
 | 1 | Conversion channel can ease late growth (mechanism) | **derived-from-recorded** / coded | CLASS dcdf_conv_*; §1 | DESI polices w(z) |
 | 2 | Production joint S₈ ≈ 0.823 (point, not matched lensing) | **machine-backed** provisional | §2 | Not a published tension win |
-| 3 | conv_desi / thaw posteriors | **OPEN-BLOCKED** | §4; freeze 2026-08-06 | **OPEN-MACHINE:** conv_desi unproduced; routeD live R−1=**0.257073**@N=11422 (~2.57× stop) |
+| 3 | conv_desi retune posterior | **STOPPED** / `g` **INCONCLUSIVE** | `conv_desi_retune_grade_20260824` | Not a tension win; routeD is a separate Stage A thaw |
 | 4 | Matched DES/KiDS lensing likelihood | **OPEN-BLOCKED** | §4 owed | Required before tension-easing claim |
-| 5 | conv_g pre-registered ~0.10±0.05 | **registered** | configs | No interim value carries weight |
+| 5 | conv_g pre-registered ~0.10±0.05 | **registered**; posterior **inconclusive** | configs + GetDist | 0.10 inside 68%; lever not demanded |
 
-**Non-claims / forbidden:** not a measured S₈ win; conversion off in headline chains; no archive-row posterior quotes.
+**Non-claims / forbidden:** not a measured S₈ win; no archive-row posterior quotes; do not treat derived S₈ vs KiDS-Legacy as a shear fit.
 
-**Triage:** elevate-in-place. Physics ceiling: mechanism coded; posteriors **OPEN-BLOCKED** (2026-08-04).
+**Triage:** elevate-in-place. Physics ceiling: mechanism coded; MCMC **stopped**; `g` inconclusive; lensing still owed.
