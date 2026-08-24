@@ -1,0 +1,40 @@
+{
+  "peeled_at_utc": "2026-08-24T18:00:22Z",
+  "class": "OPS_HEALTH",
+  "bookable_delta_lnZ": false,
+  "finished": [
+    {
+      "anchor": "shoes",
+      "model": "lcdm",
+      "engine": "ultranest",
+      "host": "i-0e353f38544397a6d",
+      "logz": -1413.4856513862044,
+      "logzerr": 0.5841554518436771,
+      "receipt": "docs/working_logs/_runs/un_lcdm_shoes_finished_20260824/",
+      "harvested_this_pass": false
+    },
+    {
+      "anchor": "trgb",
+      "model": "lcdm",
+      "engine": "ultranest",
+      "host": "i-0c8df2e18ea719094",
+      "logz": -1374.3615470248656,
+      "logzerr": 0.3982140859624688,
+      "receipt": "docs/working_logs/_runs/un_lcdm_trgb_finished_20260824/",
+      "harvested_this_pass": true,
+      "finished_at_utc": "2026-08-24T13:48:33Z"
+    }
+  ],
+  "not_finished": [
+    {"role": "un_shoes_dyad", "host": "i-04ead482af737e7bf", "rem_pct": 21.0673, "logz_partial": -1411.31},
+    {"role": "un_trgb_dyad", "host": "i-0907059ca35aaedb4", "rem_pct": 71.5393, "logz_partial": -1378.37},
+    {"role": "un_noh0_dyad", "host": "i-050dd009197af1978", "rem_pct": 79.6263, "logz_partial": -1379.09},
+    {"role": "un_noh0_lcdm", "host": "i-02eb4dcbd633819bc", "rem_pct": 1.8643, "logz_partial": -1374.45},
+    {"role": "pc_shoes_dyad", "host": "i-0c65cc61a575bdfa7", "still_active": true, "ndead": 13625},
+    {"role": "pc_shoes_lcdm", "host": "i-0941e936fd100c309", "still_active": true, "ndead": 15309},
+    {"role": "pc_trgb_dyad", "host": "i-06847ebdfd55bac11", "still_active": true, "ndead": 12598},
+    {"role": "pc_trgb_lcdm", "host": "i-0d1915a2ac2d5c5af", "still_active": true, "ndead": 14806},
+    {"role": "pc_noh0_dyad", "host": "i-0ada8e723c9564ee8", "still_active": true, "ndead": 6552},
+    {"role": "pc_noh0_lcdm", "host": "i-088a37359608bcabb", "still_active": true, "ndead": 8167}
+  ]
+}
