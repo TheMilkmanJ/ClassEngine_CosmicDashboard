@@ -1,0 +1,148 @@
+# DESI-DR2 ΛCDM+m_ν twin — nested evidence, NO local H0 ladder (gold tier-1)
+# Same multi-survey stack as SH0ES/TRGB gold EV twins EXCEPT absolute ladder:
+#   Planck lowℓ TT/EE + plik lite + lensing, DESI DR2 BAO ALL, ACT DR6, SPT-3G lite,
+#   Pantheon+ SN only (sn.pantheonplus) — NO pantheonplusshoes, NO H0_trgb_cchp.
+# Purpose: Bayes factor without SH0ES/TRGB absolute H0 prior (Occam / early-universe clean).
+# Quote ΔlnZ only within this no-H0 twin (dyad vs lcdm). Do not mix with SH0ES or TRGB Z.
+# UltraNest primary engine settings match SH0ES UN prod (nlive=400, frac_remain=0.01).
+#
+packages_path: /home/ubuntu/cobaya_packages_clean
+output: chains/cmp_lcdm_mnu_bbnfix_desidr2_noh0_ev
+likelihood:
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lensing.clik: null
+  # DESI DR2 / Year-3 BAO (ALL tracers). Replaces 6dF+MGS+DR12 consensus.
+  # Do NOT stack old BAO on top — double-counts low-z distance.
+  bao.desi_dr2.desi_bao_all: null
+  sn.pantheonplus: null  # no SH0ES Cepheid anchor; no TRGB H0 prior
+  act_dr6:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/ubuntu/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
+    clear_internal_priors: true
+  spt3g_lite:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/ubuntu/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/SPT3G_2018_TTTEEE_lite.yaml
+    clear_internal_priors: true
+theory:
+  classy:
+    stop_at_error: false
+    extra_args:
+      # CLASS + Cobaya rules (hang/null-like root cause, 2026-08-11):
+      # - Do NOT set `output`: Cobaya *appends* tCl/pCl/lCl/mPk from likes.
+      # - Do NOT set `lensing: yes` unless output already has lCl; Cobaya sets
+      #   lensing when Cls are requested. Bare lensing+mPk-only → CosmoSevereError
+      #   and PolyChord live-gen never fills (looks like a hang).
+      # - DO set `modes: s` for scalar CMB (Cobaya only sets modes for tensors).
+      non_linear: halofit
+      modes: s
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
+
+params:
+  # matched to the model config: the same PRyM Y_p surrogate, evaluated at m_e = 1.
+  # Without this the control lets CLASS compute YHe while the model forces it -- one of the
+  # two ways the old control was NOT 'identical data' (2026-07-21 audit).
+  YHe:
+    value: 'lambda omega_b: 0.24691 + 0.0096*np.log(omega_b/0.02236)'
+    derived: false
+  omega_b:
+    prior: {min: 0.0200, max: 0.0250}
+    ref: {dist: norm, loc: 0.0224, scale: 0.0002}
+    proposal: 0.0002
+    latex: \omega_\mathrm{b}
+  H0:
+    prior: {min: 64.0, max: 78.0}
+    ref: {dist: norm, loc: 69.0, scale: 0.5}
+    proposal: 0.5
+    latex: H_0
+  logA:
+    prior: {min: 2.90, max: 3.25}
+    ref: {dist: norm, loc: 3.050, scale: 0.01}
+    proposal: 0.01
+    drop: true
+    latex: \log(10^{10} A_\mathrm{s})
+  A_s:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    derived: true
+    latex: A_\mathrm{s}
+  omega_cdm:
+    prior: {min: 0.10, max: 0.14}
+    ref: {dist: norm, loc: 0.12, scale: 0.001}
+    proposal: 0.001
+    latex: \omega_\mathrm{cdm}
+  n_s:
+    prior: {min: 0.92, max: 1.03}
+    ref: {dist: norm, loc: 0.980, scale: 0.005}
+    proposal: 0.005
+    latex: n_\mathrm{s}
+  z_reio:
+    prior: {min: 4.0, max: 12.0}
+    ref: {dist: norm, loc: 8.0, scale: 0.5}
+    proposal: 0.5
+    latex: z_\mathrm{reio}
+  A_planck:
+    prior: {dist: norm, loc: 1.0, scale: 0.0025}
+    ref: {dist: norm, loc: 1.0, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{planck}
+  A_act:
+    prior: {dist: norm, loc: 1.0, scale: 0.003}
+    ref: {dist: norm, loc: 1.0, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{ACT}
+  P_act:
+    prior: {min: 0.9, max: 1.1}
+    ref: {dist: norm, loc: 1.0, scale: 0.005}
+    proposal: 0.005
+    latex: P_\mathrm{ACT}
+  Tcal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00449}
+    ref: {dist: norm, loc: 1.0, scale: 0.003}
+    proposal: 0.003
+    latex: T_\mathrm{cal}
+  Ecal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00727}
+    ref: {dist: norm, loc: 1.0, scale: 0.005}
+    proposal: 0.005
+    latex: E_\mathrm{cal}
+  m_ncdm:
+    prior: {min: 0.0, max: 0.6}
+    ref: {dist: norm, loc: 0.0654, scale: 0.02}
+    proposal: 0.02
+    latex: \Sigma m_\nu
+  sigma8:
+    latex: \sigma_8
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+
+# the SAME BBN prior the model chain carries, at m_e = 1. The old control carried NO bbn
+# prior at all, so model-vs-control was two extra likelihood terms apart (2026-07-21 audit).
+prior:
+  bbn: "lambda omega_b: -0.5*( ((0.24691 + 0.0096*__import__('numpy').log(omega_b/0.02236) - 0.2449)/0.0040)**2 + ((2.4467e-5*__import__('numpy').exp(-1.656*__import__('numpy').log(omega_b/0.02236)) - 2.527e-5)/0.0476e-5)**2 )"
+
+sampler:
+  polychord:
+    # Gold-standard nested settings (Handley-style thoroughness for d~12–13)
+    # Hang root-cause fix (2026-08-11): disable Cobaya speed-hierarchy oversampling.
+    # CLASS (~0.06/s) vs likelihoods (~400–3000/s) produced extreme multi-grade
+    # num_repeats; PolyChord froze after early dead with only grade-0 nlike.
+    # measure_speeds:false + oversample_power:0 → single-grade, flat num_repeats.
+    nlive: 500
+    nprior: nlive
+    num_repeats: 60   # 5 * n_sampled
+    precision_criterion: 0.001
+    measure_speeds: false
+    oversample_power: 0
+    # Force ONE grade — Cobaya still multi-blocks by component even when
+    # oversample_power=0; multi-grade correlated with hang after ~14 dead.
+    blocking:
+      - [1, [omega_b, H0, logA, omega_cdm, n_s, z_reio, A_planck, A_act, P_act, Tcal, Ecal, m_ncdm]]
+    do_clustering: false
+    feedback: 1
+    synchronous: false

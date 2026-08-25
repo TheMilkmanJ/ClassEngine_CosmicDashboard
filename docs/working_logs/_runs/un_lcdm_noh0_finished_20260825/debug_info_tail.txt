@@ -1,0 +1,30 @@
+02:50:35 [ultranest] [DEBUG] iteration=14843, ncalls=2021776, regioncalls=0, ndraw=40, logz=-1374.45, remainder_fraction=1.0505%, Lmin=-1342.18, Lmax=-1340.71
+02:51:29 [ultranest] [DEBUG] iteration=14844, ncalls=2021872, regioncalls=0, ndraw=40, logz=-1374.45, remainder_fraction=1.0481%, Lmin=-1342.18, Lmax=-1340.71
+02:52:24 [ultranest] [DEBUG] iteration=14845, ncalls=2021968, regioncalls=0, ndraw=40, logz=-1374.45, remainder_fraction=1.0458%, Lmin=-1342.18, Lmax=-1340.71
+02:53:19 [ultranest] [DEBUG] iteration=14846, ncalls=2022064, regioncalls=0, ndraw=40, logz=-1374.45, remainder_fraction=1.0436%, Lmin=-1342.18, Lmax=-1340.71
+02:54:13 [ultranest] [DEBUG] iteration=14847, ncalls=2022160, regioncalls=0, ndraw=40, logz=-1374.45, remainder_fraction=1.0412%, Lmin=-1342.18, Lmax=-1340.71
+02:58:46 [ultranest] [DEBUG] iteration=14848, ncalls=2022640, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0389%, Lmin=-1342.17, Lmax=-1340.71
+02:59:40 [ultranest] [DEBUG] iteration=14850, ncalls=2022736, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0344%, Lmin=-1342.17, Lmax=-1340.71
+03:00:35 [ultranest] [DEBUG] iteration=14851, ncalls=2022832, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0323%, Lmin=-1342.17, Lmax=-1340.71
+03:01:29 [ultranest] [DEBUG] iteration=14852, ncalls=2022928, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0302%, Lmin=-1342.17, Lmax=-1340.71
+03:02:23 [ultranest] [DEBUG] iteration=14853, ncalls=2023024, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0281%, Lmin=-1342.17, Lmax=-1340.71
+03:03:18 [ultranest] [DEBUG] iteration=14854, ncalls=2023120, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0256%, Lmin=-1342.17, Lmax=-1340.71
+03:05:06 [ultranest] [DEBUG] iteration=14856, ncalls=2023312, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0220%, Lmin=-1342.17, Lmax=-1340.71
+03:07:49 [ultranest] [DEBUG] iteration=14857, ncalls=2023600, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0195%, Lmin=-1342.17, Lmax=-1340.71
+03:10:32 [ultranest] [DEBUG] iteration=14859, ncalls=2023888, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0151%, Lmin=-1342.16, Lmax=-1340.71
+03:15:58 [ultranest] [DEBUG] iteration=14860, ncalls=2024464, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0128%, Lmin=-1342.16, Lmax=-1340.71
+03:23:07 [ultranest] [DEBUG] iteration=14861, ncalls=2025232, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0106%, Lmin=-1342.16, Lmax=-1340.71
+03:24:01 [ultranest] [DEBUG] iteration=14862, ncalls=2025328, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0090%, Lmin=-1342.16, Lmax=-1340.71
+03:26:45 [ultranest] [DEBUG] iteration=14864, ncalls=2025616, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0043%, Lmin=-1342.16, Lmax=-1340.71
+03:28:29 [ultranest] [DEBUG] iteration=14865, ncalls=2025808, regioncalls=0, ndraw=40, logz=-1374.44, remainder_fraction=1.0031%, Lmin=-1342.16, Lmax=-1340.71
+03:28:30 [ultranest] [INFO] Explored until L=-1e+03  
+03:28:30 [ultranest] [INFO] Likelihood function evaluations: 2025808
+03:28:34 [ultranest] [INFO] Writing samples and results to disk ...
+03:28:34 [ultranest] [INFO] Writing samples and results to disk ... done
+03:28:34 [ultranest] [DEBUG] did a run_iter pass!
+03:28:34 [ultranest] [INFO]   logZ = -1374 +- 0
+03:28:34 [ultranest] [INFO] Effective samples strategy satisfied (ESS = 3686.4, need >400)
+03:28:34 [ultranest] [INFO] Posterior uncertainty strategy is satisfied (KL: 0.48+-0.00 nat, need <0.50 nat)
+03:28:34 [ultranest] [INFO] Evidency uncertainty strategy is satisfied (dlogz=0.01, need <0.5)
+03:28:34 [ultranest] [INFO]   logZ error budget: single: 0.26 bs:0.00 tail:0.01 total:0.01 required:<0.50
+03:28:34 [ultranest] [INFO] done iterating.

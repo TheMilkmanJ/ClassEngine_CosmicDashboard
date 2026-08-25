@@ -69,11 +69,11 @@ not ultra-tight on derived-cl. Plots: `docs/plots/dyad_trgb_vs_shoes_*`,
 **Nested evidence path (gold logZ) — dual engine live (currency 2026-08-15).**
 - **Hang root cause + fix:** GIL on pypolychord C→Python callbacks; multi-rank MPI=1+GIL isolation
   **PASS**; serial MPI=0+GIL **PASS**. Patch: `Cobaya/pypolychord_GIL_callbacks.patch`.
-- **UltraNest SH0ES** ×96 both hosts — **live**; mid-run nested logZ **forbidden until finish**.
+- **UltraNest SH0ES LCDM** — **FINISHED** one-leg `un_lcdm_shoes_finished_20260824/` logZ **−1413.4857 ± 0.5842**. Dyad UN still **live**. Mid-run nested logZ **forbidden until the twin finishes**.
 - **Native PolyChord SH0ES:** dyad ×96 on routed (`i-0c65…`) **live**; lcdm ×96 on `i-0941e…`
-  **live** (rescued after Fortran “Still Active” format abort — fix2 tree).
-- **No-local-H0 UltraNest** both legs ×96 — **live**.
-- **TRGB** UltraNest + PolyChord both legs ×96 — **live**.
+  **live** (rescued after Fortran “Still Active” format abort — fix2 tree). Partial PC logZ is health only.
+- **No-local-H0 UltraNest LCDM** — **FINISHED** one-leg `un_lcdm_noh0_finished_20260825/` logZ **−1374.4346 ± 0.3765** (MWW insertion-order **not** converged). Dyad UN still **live**.
+- **TRGB UltraNest LCDM** — **FINISHED** one-leg `un_lcdm_trgb_finished_20260824/` logZ **−1374.3615 ± 0.3982**. Dyad UN + both PC legs still **live**.
 - **zon_disp retune** ×48 (`cmp_prtoe_zon_disp_retune`) — **STOPPED**; GetDist **INCONCLUSIVE** on `log10_zon`.
 - **conv_desi retune** ×192 (`cmp_prtoe_conv_desi_retune`) — **STOPPED** (R−1=0.0447); GetDist **INCONCLUSIVE** on `dcdf_conv_g`. Not a KiDS shear fit.
 - Nested ΔlnZ only after both legs of a twin finish with final summaries. **No mid-run quotes.**

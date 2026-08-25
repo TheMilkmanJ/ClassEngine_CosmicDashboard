@@ -1,0 +1,40 @@
+[ultranest] Evidency uncertainty strategy is satisfied (dlogz=0.01, need <0.5)
+[0 : ultranest] Evidency uncertainty strategy is satisfied (dlogz=0.01, need <0.5)
+[ultranest]   logZ error budget: single: 0.26 bs:0.00 tail:0.01 total:0.01 required:<0.50
+[0 : ultranest]   logZ error budget: single: 0.26 bs:0.00 tail:0.01 total:0.01 required:<0.50
+[ultranest] done iterating.
+[0 : ultranest] done iterating.
+{
+  "yaml": "/home/ubuntu/prtoe_class/cmp_lcdm_mnu_bbnfix_desidr2_noh0_ev.yaml",
+  "out": "/home/ubuntu/docs_runs/ultranest_noh0_20260813/un_lcdm_noh0_ev_prod",
+  "params": [
+    "omega_b",
+    "H0",
+    "logA",
+    "omega_cdm",
+    "n_s",
+    "z_reio",
+    "A_planck",
+    "A_act",
+    "P_act",
+    "Tcal",
+    "Ecal",
+    "m_ncdm"
+  ],
+  "ndim": 12,
+  "nlive": 400,
+  "frac_remain": 0.01,
+  "max_ncalls": null,
+  "logz": -1374.434599011423,
+  "logzerr": 0.37653085546522413,
+  "ncall": 2025808,
+  "ncalls_wrapper": 21106,
+  "wall_s": 988358.2027115822,
+  "ref_logpost": -1683.6929722444293,
+  "sampler": "ultranest.ReactiveNestedSampler",
+  "ultranest_version": "4.5.0",
+  "note": "Nested evidence under unit-cube prior on transform support; Cobaya logposterior (like+prior+external BBN) is the integrand. Comparable across twins with identical UltraNest settings.",
+  "mpi_size": 96
+}
+[ultranest_cobaya] DONE logZ=-1374.4346 ± 0.3765 wall=274.54h mpi_size=96
+[ultranest_cobaya] wrote /home/ubuntu/docs_runs/ultranest_noh0_20260813/un_lcdm_noh0_ev_prod/ultranest_summary.json

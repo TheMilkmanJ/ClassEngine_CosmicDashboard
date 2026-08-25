@@ -1,0 +1,58 @@
+{
+  "status": "FINISHED_ONE_LEG",
+  "bookable_delta_lnZ": false,
+  "bookable_nested_verdict": false,
+  "reason_not_booked": "no-H0 UltraNest dyad twin still running (~70.6% remainder at 2026-08-25 peel). ΔlnZ requires both final summaries on the same anchor.",
+  "peeled_at_utc": "2026-08-25T03:53:00Z",
+  "finished_at_utc": "2026-08-25T03:28:34Z",
+  "anchor": "noh0",
+  "model": "lcdm",
+  "engine": "ultranest",
+  "host": {
+    "id": "i-02eb4dcbd633819bc",
+    "name": "prtoe-noh0-un-lcdm-96",
+    "region": "us-east-1",
+    "instance_state_at_peel": "running",
+    "workers_at_peel": 0
+  },
+  "remote_outdir": "/home/ubuntu/docs_runs/ultranest_noh0_20260813/un_lcdm_noh0_ev_prod",
+  "yaml_remote": "/home/ubuntu/prtoe_class/cmp_lcdm_mnu_bbnfix_desidr2_noh0_ev.yaml",
+  "yaml_remote_sha256": "59825fa27fa489e9fd2e77c6d45b7f98941f265229467b33ddbc548cb500ba31",
+  "yaml_repo_sha256": "a514213be9bdaefa373de36855f4dd4d8b1c4f537a0c1ebbb4633897f845c5e0",
+  "yaml_matches_repo": false,
+  "ultranest": {
+    "version": "4.5.0",
+    "nlive": 400,
+    "frac_remain": 0.01,
+    "mpi_size": 96,
+    "niter": 15267,
+    "ncall": 2025808,
+    "ess": 3686.3775312603884,
+    "logz": -1374.434599011423,
+    "logzerr": 0.37653085546522413,
+    "wall_s": 988358.2027115822,
+    "wall_h": 274.5440,
+    "insertion_order_MWW_converged": false,
+    "insertion_order_MWW_independent_iterations": 1423,
+    "driver_done_line": "[ultranest_cobaya] DONE logZ=-1374.4346 ± 0.3765 wall=274.54h mpi_size=96"
+  },
+  "display_vs_json": {
+    "info_line": "logZ = -1374 +- 0",
+    "authority": "ultranest_summary.json / info/results.json",
+    "note": "The INFO print is rounded; do not quote -1374 ± 0."
+  },
+  "left_on_instance_not_in_git": [
+    "debug.log (1.7M)",
+    "chains/run.txt (2.7M)",
+    "chains/equal_weighted_post.txt (4.6M)",
+    "chains/weighted_post.txt (5.4M)",
+    "chains/weighted_post_untransformed.txt (5.4M)",
+    "results/points.hdf5 (3.5M)"
+  ],
+  "file_sha256": {
+    "ultranest_summary.json": "772dc709c55742000e16a9797fb99bba4b6b3831e1b3d310334d6a05c6f66084",
+    "results.json": "2ad06e7fc7755b44242c5be346b2560e335772e9a8f013dbae615c32e1e028d1",
+    "post_summary.csv": "081e494038932232b0a82c4da2fe3f64bc23e12b62f28e36dac849cc270d55d2",
+    "cmp_lcdm_mnu_bbnfix_desidr2_noh0_ev.host.yaml": "59825fa27fa489e9fd2e77c6d45b7f98941f265229467b33ddbc548cb500ba31"
+  }
+}
