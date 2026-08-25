@@ -1,0 +1,32 @@
+{
+  "yaml": "/home/ubuntu/prtoe_class/cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml",
+  "out": "/home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod",
+  "params": [
+    "omega_b",
+    "H0",
+    "logA",
+    "omega_cdm",
+    "n_s",
+    "z_reio",
+    "A_planck",
+    "A_act",
+    "P_act",
+    "Tcal",
+    "Ecal",
+    "m_ncdm"
+  ],
+  "ndim": 12,
+  "nlive": 400,
+  "frac_remain": 0.01,
+  "max_ncalls": null,
+  "logz": -1413.4856513862044,
+  "logzerr": 0.5841554518436771,
+  "ncall": 2048560,
+  "ncalls_wrapper": 21343,
+  "wall_s": 1115735.4040744305,
+  "ref_logpost": -1720.232770226742,
+  "sampler": "ultranest.ReactiveNestedSampler",
+  "ultranest_version": "4.5.0",
+  "note": "Nested evidence under unit-cube prior on transform support; Cobaya logposterior (like+prior+external BBN) is the integrand. Comparable across twins with identical UltraNest settings.",
+  "mpi_size": 96
+}

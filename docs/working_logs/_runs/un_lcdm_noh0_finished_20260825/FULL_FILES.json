@@ -1,0 +1,9 @@
+{
+  "s3": "s3://prtoe-transfer-1786138767/ultranest_lcdm_full_20260825/un_lcdm_noh0_ev_prod.tar.gz",
+  "tar": "docs/working_logs/_runs/un_lcdm_noh0_finished_20260825/un_lcdm_noh0_ev_prod.tar.gz",
+  "bytes": 10412719,
+  "sha256": "3ef5a1d2e405f58a36bd26accc5d2557baed3ae269cbb0e6fe9eec67c9e480fc",
+  "remote_out": "/home/ubuntu/docs_runs/ultranest_noh0_20260813/un_lcdm_noh0_ev_prod",
+  "host": "i-02eb4dcbd633819bc",
+  "pulled_at_utc": "2026-08-25T04:03:12Z"
+}

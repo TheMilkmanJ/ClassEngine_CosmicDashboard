@@ -28,3 +28,13 @@ From the 2026-08-25 ~03:30 UTC fleet peel. Mid-run logZ is health only.
 SH0ES LCDM **UltraNest** did not move: it finished at −1413.49. SH0ES LCDM **PolyChord** partial logZ went from −1416.4 (24 Aug scan, ndead 15309) to −1415.72 (ndead 15863). That is mid-run volume, not a new booked Z, and not mixable with UN.
 
 Do not mix SH0ES vs TRGB vs no-H0 logZ. Do not compute ΔlnZ until the matching dyad summary exists.
+
+## Full UltraNest prod trees (2026-08-25)
+
+The three finished LCDM UltraNest outdirs were pulled off the stopped boxes (started, tarred, S3 transfer, extracted, boxes stopped again). Each receipt now has `prod/` plus a `.tar.gz` (~10 MB):
+
+- `un_lcdm_shoes_finished_20260824/prod/` + `un_lcdm_shoes_ev_prod.tar.gz`
+- `un_lcdm_trgb_finished_20260824/prod/` + `un_lcdm_trgb_ev_prod.tar.gz`
+- `un_lcdm_noh0_finished_20260825/prod/` + `un_lcdm_noh0_ev_prod.tar.gz`
+
+Includes `debug.log`, `chains/{run,equal_weighted_post,weighted_post,weighted_post_untransformed}.txt`, `results/points.hdf5`, sidecar `*.run.log`. Still **not** a ΔlnZ booking.

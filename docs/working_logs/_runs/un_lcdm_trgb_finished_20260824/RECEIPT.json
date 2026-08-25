@@ -41,14 +41,9 @@
     "authority": "ultranest_summary.json / info/results.json",
     "note": "The INFO print is rounded; do not quote -1374 ± 0."
   },
-  "left_on_instance_not_in_git": [
-    "debug.log (1.6M)",
-    "chains/run.txt (2.7M)",
-    "chains/equal_weighted_post.txt (4.5M)",
-    "chains/weighted_post.txt (5.3M)",
-    "chains/weighted_post_untransformed.txt (5.3M)",
-    "results/points.hdf5 (3.5M)"
-  ],
+  "left_on_instance_not_in_git": [],
+  "full_prod_tar": "un_lcdm_trgb_ev_prod.tar.gz",
+  "full_prod_dir": "prod/",
   "file_sha256": {
     "ultranest_summary.json": "d6265213123a42fcde68644b9c936f6a8b198140c095a5bf4a9b94b82dea52ac",
     "results.json": "16bb6b1f7206aa5d5260eb5e12f6159d4b08782970e743482e35916fc47822ec",

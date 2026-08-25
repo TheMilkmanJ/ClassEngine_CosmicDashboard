@@ -1,0 +1,9 @@
+{
+  "s3": "s3://prtoe-transfer-1786138767/ultranest_lcdm_full_20260825/un_lcdm_shoes_ev_prod.tar.gz",
+  "tar": "docs/working_logs/_runs/un_lcdm_shoes_finished_20260824/un_lcdm_shoes_ev_prod.tar.gz",
+  "bytes": 10486540,
+  "sha256": "a4500c32bd9dcf8e3234645549ea52650d362298432e85072dc01e99b958656f",
+  "remote_out": "/home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod",
+  "host": "i-0e353f38544397a6d",
+  "pulled_at_utc": "2026-08-25T04:03:00Z"
+}

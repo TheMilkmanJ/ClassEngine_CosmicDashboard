@@ -41,14 +41,9 @@
     "authority": "ultranest_summary.json / info/results.json",
     "note": "The INFO print is rounded; do not quote -1374 ± 0."
   },
-  "left_on_instance_not_in_git": [
-    "debug.log (1.7M)",
-    "chains/run.txt (2.7M)",
-    "chains/equal_weighted_post.txt (4.6M)",
-    "chains/weighted_post.txt (5.4M)",
-    "chains/weighted_post_untransformed.txt (5.4M)",
-    "results/points.hdf5 (3.5M)"
-  ],
+  "left_on_instance_not_in_git": [],
+  "full_prod_tar": "un_lcdm_noh0_ev_prod.tar.gz",
+  "full_prod_dir": "prod/",
   "file_sha256": {
     "ultranest_summary.json": "772dc709c55742000e16a9797fb99bba4b6b3831e1b3d310334d6a05c6f66084",
     "results.json": "2ad06e7fc7755b44242c5be346b2560e335772e9a8f013dbae615c32e1e028d1",

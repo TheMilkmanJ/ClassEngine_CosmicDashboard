@@ -1,0 +1,9 @@
+{
+  "s3": "s3://prtoe-transfer-1786138767/ultranest_lcdm_full_20260825/un_lcdm_trgb_ev_prod.tar.gz",
+  "tar": "docs/working_logs/_runs/un_lcdm_trgb_finished_20260824/un_lcdm_trgb_ev_prod.tar.gz",
+  "bytes": 10309858,
+  "sha256": "50a92cf0328f0762228861ab4d1780ad29ac3ab7566302a41c450a352818940d",
+  "remote_out": "/home/ubuntu/docs_runs/ultranest_trgb_20260813/un_lcdm_trgb_ev_prod",
+  "host": "i-0c8df2e18ea719094",
+  "pulled_at_utc": "2026-08-25T04:03:06Z"
+}
