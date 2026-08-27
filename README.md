@@ -37,32 +37,20 @@ By construction PRTOE **cedes local, bound-matter physics to the Standard Model*
 
 ---
 
-## For Physicists: the 10-minute path
+## For physicists (60 seconds)
 
-1. **[docs/PRTOE_THREE_EQUATIONS.md](docs/PRTOE_THREE_EQUATIONS.md)** — the testable core in three lines (substrate, coupling, decomposition).
-2. **[docs/PRTOE_PREREGISTERED_PREDICTIONS.md](docs/PRTOE_PREREGISTERED_PREDICTIONS.md)** — every prediction time-stamped BEFORE its deciding measurement, kills included.
-3. **[docs/PRTOE_FAILURES_LEDGER.md](docs/PRTOE_FAILURES_LEDGER.md)** — everything we tried and killed, with the killshots. We consider this file as load-bearing as the results.
-4. **[docs/BIBLIOGRAPHY.md](docs/BIBLIOGRAPHY.md)** — the ~60 external sources; **[docs/PRTOE_INDEX.md](docs/PRTOE_INDEX.md)** — the full map.
+Do not start in `docs/working_logs/` or `docs/exploratory/`. The public path is:
 
-**The neutrino block** ([docs/PRTOE_neutrino_sector.md](docs/PRTOE_neutrino_sector.md) — predictions in force): the model ties the lightest neutrino mass to
-the dark-energy scale (m₁ = ρ_Λ^{1/4} ≈ 2.25 meV), fixing **Σm_ν ≈ 61 meV, normal ordering,
-Majorana nature — so 0νββ MUST occur** (P-2026-020): a bounded, non-optional target for the
-ton-scale double-beta program. A confirmed Dirac nature, an inverted ordering, or
-Σm_ν well above ~70 meV each kill the sector outright.
+1. **[docs/README.md](docs/README.md)** — map of the shelf (public / core / parked / fenced)
+2. **[docs/START_HERE.md](docs/START_HERE.md)** — outsider 60-second map
+3. **[papers/prtoe-challenge-note/](papers/prtoe-challenge-note/)** — challenge note, not a coronation
+4. **[docs/PRTOE_CHAIN_TABLES.md](docs/PRTOE_CHAIN_TABLES.md)** — booked Stage A H0/S8 only
+5. **[docs/PRTOE_THREE_EQUATIONS.md](docs/PRTOE_THREE_EQUATIONS.md)** — substrate, coupling, epsilon = 27 alpha / 5 pi
+6. **[docs/PRTOE_FAILURES_LEDGER.md](docs/PRTOE_FAILURES_LEDGER.md)** and **[docs/PRTOE_READERS_RISK.md](docs/PRTOE_READERS_RISK.md)** — killed routes and weakest links
 
-**Honesty notes:** (i) the H₀ mechanism's current in-house evidence is ΔlnZ ≈ +2.6
-(Laplace, SH0ES-conditional; nested-sampling confirmation gated and pending) — **and that
-number is carried with an asterisk as of 2026-07-17: the chains that produced it scored the
-model with a ΛCDM helium fraction.** Their `YHe` likelihood declared the electron-mass shift
-and never applied it, leaving the free-electron fraction ~0.27% off at recombination — in
-precisely the place this mechanism operates — and undercharging the BBN prior by ~1 χ². The
-configs are fixed (on a freshly measured PRyM response); **the fits have not yet been re-run,
-so ΔlnZ ≈ +2.6 is a result under a stated defect, not a standing number**
-([docs/PRTOE_CODE_MANIFEST.md](docs/PRTOE_CODE_MANIFEST.md)); (ii) the
-model runs under continuous internal adversarial review, and the deeper "medium"
-interpretation is tracked as an **open assumption, not an asserted result** — the
-phenomenological fit stands on its own regardless; (iii) material marked EXPLORATORY (notably docs/PRTOE_DERIVATION_HUNT.md) is
-recent, un-refereed work-in-progress and should be read as such.
+Nested UltraNest + PolyChord on SH0ES, TRGB, and noH0 is **running**. Mid-run log-evidence is **not a result**.
+
+Kill-conditions in force: [neutrino sector](docs/PRTOE_neutrino_sector.md), [lattice T_c note](docs/PRTOE_lattice_note.md), [pre-registered predictions](docs/PRTOE_PREREGISTERED_PREDICTIONS.md). Full inventory: [docs/PRTOE_INDEX.md](docs/PRTOE_INDEX.md).
 
 ## CosmicDashboard: How This Dashboard Works
 

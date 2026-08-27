@@ -1,0 +1,54 @@
+{
+  "status": "FINISHED_ONE_LEG",
+  "bookable_delta_lnZ": false,
+  "bookable_nested_verdict": false,
+  "reason_not_booked": "SH0ES UltraNest dyad twin still running; ΔlnZ requires both final summaries on the same anchor.",
+  "peeled_at_utc": "2026-08-24T04:23:16Z",
+  "finished_at_utc": "2026-08-24T03:01:24Z",
+  "anchor": "shoes",
+  "model": "lcdm",
+  "engine": "ultranest",
+  "host": {
+    "id": "i-0e353f38544397a6d",
+    "name": "prtoe-gold-pc-shoes-lcdm-96",
+    "region": "us-east-1",
+    "instance_state_at_peel": "running",
+    "workers_at_peel": 0
+  },
+  "remote_outdir": "/home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod",
+  "yaml_remote": "/home/ubuntu/prtoe_class/cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml",
+  "yaml_remote_sha256": "af4a51a961e7e47425fae9422210e03d3eee030cd56eddb0e3317c79947df963",
+  "yaml_remote_bytes": 3890,
+  "yaml_repro_freeze_20260813_sha256": "71ddb9af2c3967afdc69d08f63a369981eb92653d9e772351d3b7c6e6645405a",
+  "yaml_matches_repro_freeze": false,
+  "ultranest": {
+    "version": "4.5.0",
+    "nlive": 400,
+    "frac_remain": 0.01,
+    "mpi_size": 96,
+    "niter": 15395,
+    "ncall": 2048560,
+    "ess": 3544.564578147218,
+    "logz": -1413.4856513862044,
+    "logzerr": 0.5841554518436771,
+    "wall_s": 1115735.4040744305,
+    "wall_h": 309.92650113178625,
+    "insertion_order_MWW_converged": true,
+    "driver_done_line": "[ultranest_cobaya] DONE logZ=-1413.4857 ± 0.5842 wall=309.93h mpi_size=96"
+  },
+  "display_vs_json": {
+    "info_line": "logZ = -1414 +- 0",
+    "authority": "ultranest_summary.json / info/results.json",
+    "note": "The INFO print is rounded; do not quote -1414 ± 0."
+  },
+  "left_on_instance_not_in_git": [],
+  "full_prod_tar": "un_lcdm_shoes_ev_prod.tar.gz",
+  "full_prod_dir": "prod/",
+  "file_sha256": {
+    "ultranest_summary.json": "6ddaab6664f7e8dba8b9580b866cc19c67619fe3d9b6a306fb2292a8c7718f9c",
+    "results.json": "dfd60619833836812da60f49f514d2390236f34bcbec0a71aa41a1db8f22a096",
+    "post_summary.csv": "7d7fe97a5bb0bc20b7a5f7bbd1ccd21c5885562ae05b37d01b8bb06524abaec9",
+    "launch.log": "070a9c9385f69768d9c34249abfb9bccf8df0ac8f53748f7d4f05b3f88ad6de3",
+    "cmp_lcdm_mnu_bbnfix_desidr2_ev.host.yaml": "af4a51a961e7e47425fae9422210e03d3eee030cd56eddb0e3317c79947df963"
+  }
+}

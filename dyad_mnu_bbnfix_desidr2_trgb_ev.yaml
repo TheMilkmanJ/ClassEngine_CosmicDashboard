@@ -42,13 +42,13 @@ theory:
       varying_transition_redshift: 50.0
       dcdf_deltam_mode: 1
       non_linear: halofit
-      output: mPk,tCl,pCl,lCl
+      # CLASS+Cobaya: no `output`/`lensing` pre-seed (Cobaya sets from likes).
+      # Keep `modes: s`. Bare lensing without lCl → CosmoSevereError / live-gen hang.
       modes: s
       N_ur: 2.0328
       N_ncdm: 1
       T_ncdm: 0.71611
-      l_max_scalars: 9000
-      lensing: 'yes'
+
 params:
   YHe:
     value: 'lambda omega_b, varying_me: 0.24691 + 0.0096*np.log(omega_b/0.02236) + 0.1632*(varying_me-1.0)'
@@ -148,10 +148,15 @@ prior:
 sampler:
   polychord:
     # Gold-standard nested settings (Handley-style thoroughness for d~12–13)
+    # Matched gold PC hang fix: nprior=nlive, sync true, no speed hierarchy.
     nlive: 500
+    nprior: nlive
     num_repeats: 65   # 5 * n_sampled
     precision_criterion: 0.001
-    measure_speeds: true
-    do_clustering: true
+    measure_speeds: false
+    oversample_power: 0
+    blocking:
+      - [1, [omega_b, H0, logA, n_s, z_reio, dcdf_rho_inf, varying_me, A_planck, A_act, P_act, Tcal, Ecal, m_ncdm]]
+    do_clustering: false
     feedback: 1
-
+    synchronous: false

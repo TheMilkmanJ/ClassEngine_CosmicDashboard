@@ -8,9 +8,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 
 ## Sitting now (in-house machines)
 
-> **Live read 2026-08-10 (refreshed)** — old-BAO + DESI-DR2 both Stage A BOOKED; gold nested SH0ES
-> both legs running; quota 300 (~240 in use). Progress-file `acceptance_rate` remains oversampled
-> (`oversample_power = 0.4`) — **raw accept = accepted/steps from launchlog**.
+> **Present instruments.** Old-BAO + DESI-DR2 SH0ES + DESI-DR2 TRGB Stage A **booked**. Nested UN+PC **running** all anchors (SH0ES, TRGB, no-H0); mid-run log-evidence not bookable. α_c retune **stopped**; GetDist done; `log10_zon` **inconclusive** (7.57±0.51). Progress-file `acceptance_rate` is oversampled (`oversample_power = 0.4`) — use **raw accept = accepted/steps from launchlog**.
 >
 > **Old-BAO production bbnfix pair: BOOKED Stage A.** Authority:
 > `docs/working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md`.
@@ -28,18 +26,18 @@ No verdict may be argued after the fact — the rules below were set before the 
 > **DESI-DR2 bbnfix twins: BOOKED Stage A** (separate instrument — do not mix). Authority:
 > `desidr2_bbnfix_booking_20260810_053127/REPORT.md` — dyad R−1 **0.03321** / lcdm **0.041377**,
 > both `converged:true`; GetDist H₀ **70.30±0.54** / **68.73±0.25**. DESI FD Hessian process on 48-box.
-> routeD still **OPEN-MACHINE** at **R−1 = 0.351167**@N=14625. Gold nested: SH0ES both legs
-> **running** (resume); TRGB not launched; **no nested ΔlnZ yet**.
+> routeD currency: separate instrument (not dual-gate Stage A H₀ twins). Gold nested: SH0ES + TRGB + no-H0
+> dual engines **RUNNING**; zon retune **STOPPED** (GetDist inconclusive); conv_desi retune **STOPPED** (`g` inconclusive); **no nested ΔlnZ yet** (mid-run forbidden).
 
 | referee | grades | decision rule | ETA |
 |---|---|---|---|
 | **BBN-fixed model — `dyad_mnu_bbnfix`** (booked old-BAO pair) | Σm_ν joint + production-faithful D/H; opens the old-BAO H₀ / `m_ncdm` / S₈ receipt | dual gate met: `Rminus1_stop = 0.05` **and** checkpoint `converged: true`; booked only via `scripts/book_bbnfix_when_ready.py` | **BOOKED** on the 2026-08-08 receipt: **R−1 = 0.048118 at N = 37605** (t=2026-08-07T04:08:52), `converged: true`; GetDist **H₀ = 70.052 ± 0.716**, `m_ncdm = 0.0671 ± 0.0583`, **S₈ = 0.821 ± 0.0097** |
 | **BBN-fixed ΛCDM twin — `cmp_lcdm_mnu_bbnfix`** (booked old-BAO pair) | matched denominator for the model chain | same dual gate, same booking receipt | **BOOKED** on the 2026-08-08 receipt: **R−1 = 0.049324 at N = 26294** (t=2026-08-05T11:52:10), `converged: true`; GetDist **H₀ = 68.345 ± 0.343**, `m_ncdm = 0.0192 ± 0.0174`, **S₈ = 0.824 ± 0.0081** |
-| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}; live, 3 ranks) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **Machine — live; NOT bookable.** Last progress: **R−1 = 0.351167 at N = 14625** (t=2026-08-06T09:24:48); ~**3.51×** stop 0.1; checkpoint `converged: false`. Progress accept ~0.997 oversampled. Prior collapsed launches archived under `chains/_archive_routeD_*`. **No thaw posterior is bookable at this R−1.** Separate instrument — not part of the bbnfix pair dual gate |
+| **the thaw chain — `cmp_prtoe_routeD`** (samples `dcdf_floor_thaw` = 1+w_{fl,0}) | thaw = 0 (the no-bare clause's direct falsifier) | posterior excluding 0 = evidence against the clause itself; stop `Rminus1_stop = 0.1` | **FINISHED / Stage A booked** (R−1≈0.054). Idle. Separate instrument — not dual-gate H₀ twins. |
 | DESI-DR2 bbnfix MCMC twins — `dyad_mnu_bbnfix_desidr2` / `cmp_lcdm_mnu_bbnfix_desidr2` | current BAO-era joint posterior lane | dual gate separate from old-BAO: both DR2 legs `R−1 < 0.05` **and** `converged: true` | **BOOKED Stage A** (`desidr2_bbnfix_booking_20260810_053127`): dyad R−1 **0.03321**@N=53482; lcdm **0.041377**@N=52031; GetDist H₀ **70.30±0.54** / **68.73±0.25**. **Do not mix** with old-BAO. Not nested. |
-| The nested referee — DESI-DR2 gold program (4 PolyChord legs) | P-2026-044-style evidence comparison on the current DESI-DR2 stack; SH0ES pair and TRGB pair | compare dyad vs ΛCDM **within the same ladder anchor** only; no mixed-anchor ΔlnZ; no verdict until both legs of a pair finish | **SH0ES both legs RUNNING** (resume after Fortran fix) under quota **300**; TRGB not yet. Intermediate log(Z) not bookable. **No nested verdict yet.** |
-| **zon_disp — not relaunched** (collapsed R−1 = 23.3 archived at `chains/_archive_zon_disp_collapsed_20260720_1528/`; seed for a correct restart is built as `chains/zon_disp_seed.covmat`) | P-040 (α_c = 3α), the triangle (M₂, x₀, ρ_Λ), the pair mark, the n-instrument, five freezes | converged (R−1 < 0.05) center inside 7.4–7.7 = 3α-compatible (bath band); at ~7.55 = clean confirm; above ~7.8 = the named branches must pay | **Parked by decision (2026-08-04)** — last progress R−1 ≈ **17.81** (N=3456, 2026-07-22); not live. Gated shelf §2 / #13. The collapsed config's seed covers 12/13 parameters and knows nothing about `log10_zon`; relaunching on that seed would reproduce the failure. Restart is an owner act when cores free, on the from-samples seed only |
-| **conv_desi — not a live posterior** (collapsed 07-18 run archived; last chain file stamped **2026-07-22** at split-R̂ R−1 = 13.25) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; the 10ε/1-8 candidates stay firewalled | **Unproduced, not pending (2026-08-04)** — died twice (init 07-16; again 07-22). Restart is an owner decision. Companion S₈ files (`PRTOE_s8_growth.md`, `PRTOE_s8_tension.md`) carry the same correction. Matched lensing-likelihood fit (#161) remains open separately |
+| The nested referee — DESI-DR2 dual UN+PC GIL (+ no-H0 + TRGB) | P-2026-044-style evidence on DESI-DR2; all three anchors | compare dyad vs ΛCDM **within the same ladder/no-H0 anchor** only; no mixed-anchor ΔlnZ; no verdict until final summary JSON | **SH0ES + TRGB + no-H0 UN/PC RUNNING** (2026-08-15); mid-run log(Z) **not bookable**. ETA stamps: `nested_pc_eta_20260815`. **No nested verdict yet.** |
+| **zon_disp — STOPPED retune (α_c / P-2026-040)** | P-040 (α_c = 3α), triangle, pair marks | R−1 < 0.05 **and** a *localized* log10 z_on vs lineup **7.55 / 7.70 / 7.85** | **STOPPED** (R−1=0.036). GetDist **INCONCLUSIVE** (`log10_zon = 7.571 ± 0.511`; singlet/pair/quartet all in 68%). 7.55 singlet pin **withdrawn**. Package `zon_disp_retune_grade_20260821`. |
+| **conv_desi retune — STOPPED** (`cmp_prtoe_conv_desi_retune`; Jul-22 archive is historical) | the S₈ g (pre-registered g ≈ 0.10 ± 0.05) | posterior vs the pre-registration; 10ε/1-8 stay firewalled | **STOPPED** 2026-08-24 (R−1=0.0447, `converged: true`, 192 ranks). GetDist **INCONCLUSIVE**: `g = 0.080 ± 0.072`, 68% [0.015, 0.146]. Derived S₈=0.816±0.009 is not a shear fit. Package `conv_desi_retune_grade_20260824`. Matched lensing (#161) remains open separately |
 | **dyad_mnu_mcmc — historical control case (archive; not the live bbnfix pair)** | (not a referee; recorded because it constrains how stuck-chain failures were read in July) | — | Archive diagnostic, not a live process. Once the healthiest object on the box at **R−1 = 0.176 at N = 8736** with progress accept **0.92** — showing that a high *progress* acceptance rate is *not* by itself pathology under `oversample_power = 0.4`. Flat-direction hypothesis **tested 2026-07-29** (`scripts/flat_direction_convergence_test.py`) and **unsupported though not refuted** (stuck chains narrow in every direction, not only named suspects). Live production health is now tracked on **`dyad_mnu_bbnfix` / `cmp_lcdm_mnu_bbnfix`** above, not here |
 
 > What zon_disp shows about the covariance fix, found 2026-07-20 while freeing cores. zon_disp
@@ -67,7 +65,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 > flags any parameter the learned covmat never updated and points at `--from-samples`. Validated by
 > reproducing routeD's working seed to 4.7×10⁻¹⁶. **`chains/zon_disp_seed.covmat` is built and
 > ready**; the chain was *not* relaunched then (load ≈ 5.9 on six cores; standing instruction to
-> leave two cores free) and remains **parked by decision** as of 2026-08-04 (Sitting NOW row above).
+> leave two cores free). **Live path (2026-08-15):** `cmp_prtoe_zon_disp_retune` **RUNNING** ×48 — not bookable mid-run (Sitting NOW row above).
 >
 > **Historical note (2026-07-20 13:10):** what routeD and conv_desi *were* running on that day
 > (verified from the configs and the seed files themselves). Both carried the
@@ -82,9 +80,10 @@ No verdict may be argued after the fact — the rules below were set before the 
 > First measurement that day, and it was the good outcome. Over 3.5 h of burn-in, acceptance was
 > **20.4%** (routeD) and **19.8%** (conv_desi), against the ~97%-and-never-move pathology those
 > relaunches were meant to escape. That is inside the optimal band for high-dimensional
-> Metropolis, measured from the launchlogs' step/accept counters. **Present (2026-08-05):**
-> routeD is live again (Sitting NOW: R−1 = **0.257073** at N = 11422 — not bookable, ~**2.57×** stop);
-> conv_desi is **unproduced** after two deaths (last chain file 2026-07-22) — not a live posterior.
+> Metropolis, measured from the launchlogs' step/accept counters. **Present (2026-08-24):**
+> routeD is **finished** Stage A booked 2026-08-10 (R−1≈0.054; older R−1≈0.257 mid-run stamps historical);
+> conv_desi retune **STOPPED** (`g` inconclusive; Jul-22 archive is historical);
+> zon_disp retune **STOPPED** (GetDist inconclusive).
 >
 > The 07-20 burn-in measurement settled the step: the proposal was the right size
 > *and* the right shape, and the sampler was exploring. It did not settle convergence — a
@@ -112,11 +111,8 @@ No verdict may be argued after the fact — the rules below were set before the 
 > slack.
 >
 > The verdict therefore rests on Laplace-from-MCMC, as it did before the nested run was
-> attempted, while the nested pair remains unfinished. The old laptop no longer sets affordability:
-> the current nested referee is the **gold DESI-DR2 four-leg** program, but it is still **not
-> launched**, so the MCMC chains remain the only graded input for now. **Chain convergence is
-> therefore still on the critical path for P-2026-044 itself**, while the nested confirmer exists
-> only as a design, not a result.
+> attempted, while the nested pairs remain unfinished. The old laptop no longer sets affordability:
+> the current nested referee is dual UN+PC GIL on DESI-DR2 **all anchors RUNNING** (SH0ES, TRGB, no-H0), so mid-run nested logZ remains **forbidden until finish**. **Stage A posteriors are booked**; nested ΔlnZ is still on the critical path for P-2026-044.
 
 ## The near sky (1–2 years)
 | referee | grades | rule |
@@ -125,7 +121,7 @@ No verdict may be argued after the fact — the rules below were set before the 
 | DESI DR3 w(z) | w = −1 exactly (the peg) | robust thawing/w ≠ −1 kills the floor |
 | TRGB ladder (P-2026-001) | the no-hedge ladder bet | as registered |
 | the radio referee | the D/H fork (D/H = 2.387×10⁻⁵ → 2.407–2.463×10⁻⁵ with the genesis residual; a self-adverse owned bet; the registered pull −2.9σ eases to **−2.5…−1.4σ** on the quotable budget under the standing high-f books, and does not reach Cooke — hunt §8 1b) | as registered |
-| The zero-parameter evidence exposure — currently carried by Laplace-from-MCMC while the DESI-DR2 gold nested program waits on quota | ε, A_s and n_s stated vs ΛCDM free — **z_on excepted**, frozen 0.053 dex off the onset identity | ΔlnZ verdict; any stated number wrong collapses the model's evidence. The **historical** pre-bbnfix Laplace line is +2.635, but the **current booked old-BAO pair** carries only an inconclusive sample-covariance Laplace **ΔlnZ ≈ +0.21** with soft-mode sensitivity. Until a matching nested pair exists, the exposure is real but the reading remains marginal |
+| The zero-parameter evidence exposure — currently carried by Laplace-from-MCMC while DESI-DR2 gold nested UN+PC is **running** all anchors (mid-run logZ not bookable) | ε, A_s and n_s stated vs ΛCDM free — **z_on excepted**, frozen 0.053 dex off the onset identity | ΔlnZ verdict; any stated number wrong collapses the model's evidence. The booked old-BAO pair carries only an inconclusive sample-covariance Laplace **ΔlnZ ≈ +0.21** with soft-mode sensitivity. Until a finished nested twin exists, the exposure is real but the reading remains marginal |
 | the ς sign session — landed: ς = −1 | the candle room / the H₀ ceiling | the candle lever is dead; the ceiling reads 70.9–71.3 (estimate grade, robust) |
 | DESI forest-BAO (near-term data) | the gate curve at mean density | a clean forest at the curve's prediction kills the candle room |
 | the Eliashberg k-audit + winding-gas C_V (B2/B3 — **run: k audited into [1.35, 1.37], three-way concordance 1.360/1.36461/1.3602; and since reconstructed exactly from a two-band screened kernel, though on a host the basement does not record — hierarchy §6c, §6m**) | the A_s closed form | k outside the concordance band [1.360, 1.366] kills the k-locked prediction — currently inside |

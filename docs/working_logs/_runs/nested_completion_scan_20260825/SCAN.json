@@ -1,0 +1,38 @@
+{
+  "peeled_at_utc": "2026-08-25T03:53:00Z",
+  "class": "OPS_HEALTH",
+  "bookable_delta_lnZ": false,
+  "finished": [
+    {
+      "anchor": "shoes",
+      "model": "lcdm",
+      "engine": "ultranest",
+      "host": "i-0e353f38544397a6d",
+      "logz": -1413.4856513862044,
+      "logzerr": 0.5841554518436771,
+      "receipt": "docs/working_logs/_runs/un_lcdm_shoes_finished_20260824/",
+      "harvested_this_pass": false
+    },
+    {
+      "anchor": "trgb",
+      "model": "lcdm",
+      "engine": "ultranest",
+      "host": "i-0c8df2e18ea719094",
+      "logz": -1374.3615470248656,
+      "logzerr": 0.3982140859624688,
+      "receipt": "docs/working_logs/_runs/un_lcdm_trgb_finished_20260824/",
+      "harvested_this_pass": false
+    },
+    {
+      "anchor": "noh0",
+      "model": "lcdm",
+      "engine": "ultranest",
+      "host": "i-02eb4dcbd633819bc",
+      "logz": -1374.434599011423,
+      "logzerr": 0.37653085546522413,
+      "receipt": "docs/working_logs/_runs/un_lcdm_noh0_finished_20260825/",
+      "harvested_this_pass": true,
+      "finished_at_utc": "2026-08-25T03:28:34Z"
+    }
+  ]
+}

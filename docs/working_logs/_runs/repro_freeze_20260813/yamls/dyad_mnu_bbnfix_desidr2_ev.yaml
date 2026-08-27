@@ -1,0 +1,162 @@
+# DESI-DR2 dyad model — PolyChord evidence (gold standard)
+# GOLD-STANDARD nested evidence leg — DESI DR2 / Year-3 BAO (ALL).
+# Matched to MCMC twins dyad_mnu_bbnfix_desidr2 / cmp_lcdm_mnu_bbnfix_desidr2:
+#   Planck lowℓ+plik-lite+lensing, DESI DR2 BAO ALL, Pantheon+SH0ES, ACT DR6, SPT-3G lite,
+#   production-faithful BBN prior + YHe surrogate (not the older dyad_ev BBN constants).
+# NOT the sampled-ε / sampled-z_on evidence lane (cmp_prtoe_dyad_ev).
+# Quote ΔlnZ only after BOTH legs finish with .stats log(Z) ± σ.
+# Solo-PolyChord per box; OMP_NUM_THREADS=1 for nested ranks.
+#
+packages_path: /home/themilkmanj/cobaya_packages_clean
+output: chains/dyad_mnu_bbnfix_desidr2_ev
+likelihood:
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lensing.clik: null
+  # DESI DR2 / Year-3 BAO (ALL tracers). Replaces 6dF+MGS+DR12 consensus.
+  # Do NOT stack old BAO on top — double-counts low-z distance.
+  bao.desi_dr2.desi_bao_all: null
+  sn.pantheonplusshoes: null
+  act_dr6:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/themilkmanj/candl_data/candl_data/ACT_DR6_CMB_only_v0/ACT_DR6_CMB_only.yaml
+    clear_internal_priors: true
+  spt3g_lite:
+    class: candl.interface.CandlCobayaLikelihood
+    data_set_file: /home/themilkmanj/candl_data/candl_data/SPT3G_2018_TTTEEE_v0/SPT3G_2018_TTTEEE_lite.yaml
+    clear_internal_priors: true
+theory:
+  classy:
+    stop_at_error: false
+    extra_args:
+      varconst_density_gate: 'yes'
+      use_dcdf: 'yes'
+      varying_fundamental_constants: instantaneous
+      varying_alpha: 1.0
+      varying_transition_redshift: 50.0
+      dcdf_deltam_mode: 1
+      non_linear: halofit
+      # CLASS+Cobaya: no `output`/`lensing` pre-seed (Cobaya sets from likes).
+      # Keep `modes: s`. Bare lensing without lCl → CosmoSevereError / live-gen hang.
+      modes: s
+      N_ur: 2.0328
+      N_ncdm: 1
+      T_ncdm: 0.71611
+
+params:
+  YHe:
+    value: 'lambda omega_b, varying_me: 0.24691 + 0.0096*np.log(omega_b/0.02236) + 0.1632*(varying_me-1.0)'
+    derived: false
+  omega_b:
+    prior: {min: 0.0200, max: 0.0250}
+    ref: {dist: norm, loc: 0.022757, scale: 0.0002}
+    proposal: 0.0002
+    latex: \omega_\mathrm{b}
+  H0:
+    prior: {min: 64.0, max: 78.0}
+    ref: {dist: norm, loc: 69.613, scale: 0.5}
+    proposal: 0.5
+    latex: H_0
+  logA:
+    prior: {min: 2.90, max: 3.25}
+    ref: {dist: norm, loc: 3.059448, scale: 0.01}
+    proposal: 0.01
+    drop: true
+    latex: \log(10^{10} A_\mathrm{s})
+  A_s:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    derived: true
+    latex: A_\mathrm{s}
+  n_s:
+    prior: {min: 0.92, max: 1.03}
+    ref: {dist: norm, loc: 0.970999, scale: 0.005}
+    proposal: 0.005
+    latex: n_\mathrm{s}
+  z_reio:
+    prior: {min: 4.0, max: 12.0}
+    ref: {dist: norm, loc: 8.363414, scale: 0.5}
+    proposal: 0.5
+    latex: z_\mathrm{reio}
+  xi_Neff: 0.0
+  dcdf_rho_inf:
+    prior: {min: 0.50, max: 0.80}
+    ref: {dist: norm, loc: 0.701221, scale: 0.02}
+    proposal: 0.02
+    latex: \rho_\infty
+  varying_me:
+    prior: {min: 0.98, max: 1.04}
+    ref: {dist: norm, loc: 1.010294, scale: 0.003}
+    proposal: 0.003
+    latex: m_e/m_{e,0}
+  A_planck:
+    prior: {dist: norm, loc: 1.0, scale: 0.0025}
+    ref: {dist: norm, loc: 1.0, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{planck}
+  A_act:
+    prior: {dist: norm, loc: 1.0, scale: 0.003}
+    ref: {dist: norm, loc: 1.00071, scale: 0.002}
+    proposal: 0.002
+    latex: A_\mathrm{ACT}
+  P_act:
+    prior: {min: 0.9, max: 1.1}
+    ref: {dist: norm, loc: 1.00327, scale: 0.005}
+    proposal: 0.005
+    latex: P_\mathrm{ACT}
+  Tcal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00449}
+    ref: {dist: norm, loc: 0.996386, scale: 0.003}
+    proposal: 0.003
+    latex: T_\mathrm{cal}
+  Ecal:
+    prior: {dist: norm, loc: 1.0, scale: 0.00727}
+    ref: {dist: norm, loc: 1.00563, scale: 0.005}
+    proposal: 0.005
+    latex: E_\mathrm{cal}
+  m_ncdm:
+    prior: {min: 0.0, max: 0.6}
+    ref: {dist: norm, loc: 0.0654, scale: 0.02}
+    proposal: 0.02
+    latex: \Sigma m_\nu
+  Omega0_dcdf:
+    value: 'lambda omega_b, H0: 1.0 - (omega_b) / (H0/100.0)**2'
+    derived: true
+    latex: \Omega_\mathrm{dcdf}
+  sigma8:
+    latex: \sigma_8
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  S8:
+    derived: 'lambda sigma8, Omega_m: sigma8 * (Omega_m / 0.3)**0.5'
+    latex: S_8
+
+prior:
+  # PRODUCTION-FAITHFUL BBN prior (2026-07-21). Every constant measured against the PRyM
+  # network over baselines wide enough to clear its ~0.1% non-smoothness; the as-run prior
+  # assumed D/H = 2.53e-5 at the pivot where production makes 2.4467e-5 (a 3.4% offset -- the
+  # PRyM/PArthENoPE inter-code spread, sitting inside the likelihood), used the observational
+  # error alone, and carried a 19%-low m_e coefficient. Derivation:
+  # scripts/bbn_prior_production_faithful.py ; scan data: scripts/prym_omega_b_elasticity.py
+  bbn: "lambda omega_b, varying_me: -0.5*( ((0.24691 + 0.0096*__import__('numpy').log(omega_b/0.02236) + 0.1632*(varying_me-1.0) - 0.2449)/0.0040)**2 + ((2.4467e-5*__import__('numpy').exp(-1.656*__import__('numpy').log(omega_b/0.02236) + 0.4761*(varying_me-1.0)) - 2.527e-5)/0.0476e-5)**2 )"
+
+sampler:
+  polychord:
+    # Gold-standard nested settings (Handley-style thoroughness for d~12–13)
+    # Hang root-cause fix (2026-08-11): disable Cobaya speed-hierarchy oversampling.
+    # CLASS (~0.06/s) vs likelihoods (~400–3000/s) produced grade num_repeats like
+    # 25/525/725/975; PolyChord then froze after ~14 dead with only grade-0 nlike.
+    # measure_speeds:false + oversample_power:0 → single-grade, flat num_repeats.
+    # Keep synchronous:true (Cobaya default).
+    nlive: 500
+    nprior: nlive
+    num_repeats: 65   # 5 * n_sampled
+    precision_criterion: 0.001
+    measure_speeds: false
+    oversample_power: 0
+    # Force ONE grade — multi-grade Cobaya blocking correlated with hang.
+    blocking:
+      - [1, [omega_b, H0, logA, n_s, z_reio, dcdf_rho_inf, varying_me, A_planck, A_act, P_act, Tcal, Ecal, m_ncdm]]
+    do_clustering: false
+    feedback: 1
+    synchronous: false

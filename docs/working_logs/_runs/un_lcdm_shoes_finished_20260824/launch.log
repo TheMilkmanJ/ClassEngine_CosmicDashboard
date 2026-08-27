@@ -1,0 +1,8 @@
+[2026-08-11T04:25:08+00:00] KILL+ULTRANEST LEG=lcdm MODE=smoke
+[2026-08-11T04:25:42+00:00] LAUNCH UltraNest smoke cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml -> /home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_smoke
+[2026-08-11T04:59:12+00:00] PROD_LAUNCH LEG=lcdm
+[2026-08-11T04:59:16+00:00] LAUNCH PROD cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml -> /home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod nlive=400
+[2026-08-11T05:03:19+00:00] PROD_MPI_LAUNCH LEG=lcdm NRANKS=1 nproc=1
+[2026-08-11T05:03:23+00:00] LAUNCH MPI×1 cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml -> /home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod
+[2026-08-11T05:04:22+00:00] PROD_MPI_LAUNCH LEG=lcdm NRANKS=96 detected_cpus=96
+[2026-08-11T05:04:26+00:00] LAUNCH MPI×96 cmp_lcdm_mnu_bbnfix_desidr2_ev.yaml -> /home/ubuntu/docs_runs/ultranest_20260811/un_lcdm_ev_prod

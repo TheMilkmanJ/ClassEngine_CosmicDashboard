@@ -1,22 +1,16 @@
 # The dependency tree — what is conditional on what (2026-07-13)
 
-> ## Residual-currency banner — 2026-08-08
+> **Status.** A claim’s effective grade is its **weakest parent**. Body rows below are the conditionality map.
 >
-> **Inheritance rule still holds:** a claim’s effective grade = its **weakest parent**. Body rows
-> below are the historical conditionality map; this banner does **not** regrade every cell.
->
-> | residual | stamp (2026-08-06) |
+> | residual | present fact |
 > |---|---|
-> | Live cosmology product | **PARTLY PAID / STILL OPEN-MACHINE** — the old-BAO production `bbnfix` pair is now **BOOKED** (dyad **0.048118**@N=37605 `converged:true`; lcdm **0.049324**@N=26294 `converged:true`; receipt `bbnfix_booking_20260808_005626`), but the **current live DESI-DR2 pair** is still open (dyad **0.108745**@N=21827 / lcdm **0.140148**@N=22848, both `converged:false`) and routeD remains **0.351167**@N=14625 (~3.51× its 0.1 stop) |
-> | Page Q6 | **OPEN**; `page_curve_claimed: false` (no invent close) |
-> | Bounce classical turn / exterior H_re | **OPEN-BLOCKED** |
+> | Cosmology product | **Stage A booked** — old-BAO SH0ES + DESI-DR2 SH0ES + DESI-DR2 TRGB. Nested ΔlnZ (UN+PC) **running** all anchors; mid-run log-evidence **not bookable**. α_c instrument **stopped** (GetDist inconclusive). `conv_desi` retune **stopped** (`g` inconclusive). |
+> | Page Q6 | **OPEN** (`page_curve_claimed: false`) |
+> | Bounce classical turn | Path geometry + waist-time **derived**; O2 sign **derived under ARM**; magnitude **permanent non-claim**; FA3-SUF **derived-negative**; Israel stocked fill **terminal**; E8 **constructed candidate**; E9 **paper-claim locked**. |
 > | Strong CP | **COMPLETE-ABSTENTION** — not a solution lane |
 >
-> Open walls queue and ordered next actions:
-> [`working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md`](working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md),
-> [`working_logs/_runs/next_queue_20260804/`](working_logs/_runs/next_queue_20260804/).
-> Live chains: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Graded risk:
-> [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+> Live chains: [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Graded risk: [PRTOE_READERS_RISK.md](PRTOE_READERS_RISK.md).
+
 
 *The transparency map the corpus owed: every major claim's parents, so a reader can trace "this dies
 if that fails" without reading the derivation log. Claims inherit the **weakest** status among their

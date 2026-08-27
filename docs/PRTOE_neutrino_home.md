@@ -2,7 +2,7 @@
 
 > ## Residual freeze — FULL honesty (neutrino home + Fairbank path) — 2026-08-10
 >
-> **Status:** old-BAO joint Σm_ν **BOOKED Stage B** · DESI-DR2 joint Σm_ν **BOOKED Stage A** (separate) · Fairbank **HOLD** · m_ββ **READY not posted** · nested **OPEN**.
+> **Status:** old-BAO joint Σm_ν **BOOKED Stage B** · DESI-DR2 joint Σm_ν **BOOKED Stage A** (separate; SH0ES + TRGB Stage A also booked) · Fairbank **HOLD** · m_ββ **READY not posted** · nested UN+PC **all anchors RUNNING** (mid-run logZ forbidden).
 >
 > **1. Old-BAO joint Σm_ν is booked (Stage B published).** Authority:
 > [`bbnfix_booking_20260808_005626`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md)
@@ -17,7 +17,7 @@
 > GetDist `m_ncdm` means **0.0508 ± 0.0473** (dyad) / **0.0138 ± 0.0128** (lcdm); H₀
 > **70.30±0.54** / **68.73±0.25**. Sample-cov Laplace **ΔlnZ ≈ +1.38** (soft modes). FD Hessian
 > finished finite but ΔlnZ_H ≈ **−25** vs samplecov **+1.5** — **diagnostic fail, not bookable**.
-> Gold SH0ES PolyChord **running**; TRGB not launched; **no nested ΔlnZ**.
+> Nested UN+PC **all anchors RUNNING** (DESI SH0ES + TRGB + no-H0); mid-run nested logZ **forbidden until finish**.
 >
 > **3. Fairbank HOLD.** Experimental letter + hep-ph endorsement path paused at owner. Companion:
 > [exploratory/PRTOE_fairbank_note_HOLD.md](exploratory/PRTOE_fairbank_note_HOLD.md). Draft:
@@ -44,8 +44,9 @@ Third thread of the atomic-constant survey; collects the neutrino-sector relatio
 
 **Status.** Lightest-mass relation and upward shift established in the model. Joint-fit Σm_ν is
 **BOOKED** on old-BAO (Stage B) and **BOOKED Stage A** on DESI-DR2 as a separate instrument (both
-show dyad `m_ncdm` mean above the lcdm twin, with large soft-mode errors). Nested still open.
-Fairbank HOLD + m_ββ READY not posted remain owner/external.
+show dyad `m_ncdm` mean above the lcdm twin, with large soft-mode errors). Nested UN+PC **all
+anchors RUNNING** (mid-run logZ forbidden until finish). Fairbank HOLD + m_ββ READY not posted
+remain owner/external.
 
 ## 0. Standard-cosmology tension
 
@@ -89,14 +90,14 @@ Standard cosmology pushes neutrino mass down. This model keeps it heavy enough t
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | Neutrino mass medium-sourced (not ordinary Higgs Yukawa) | **interpretation** / structural | §1 | Inverse-seesaw / Majoron seating |
-| 2 | Old-BAO joint posterior books an upward-shifted `m_ncdm` relative to ΛCDM | **machine-backed** | booking receipt; §2 table; P-2026-023 | DESI Stage A also books higher dyad `m_ncdm` mean (separate; soft errors); nested open |
+| 2 | Old-BAO joint posterior books an upward-shifted `m_ncdm` relative to ΛCDM | **machine-backed** | booking receipt; §2 table; P-2026-023 | DESI Stage A also books higher dyad `m_ncdm` mean (separate; soft errors); nested UN+PC all anchors RUNNING (mid-run not bookable) |
 | 3 | Upward shift direction generic to varying-m_e | **interpretation** | §4 | Specific numbers are model’s |
 | 4 | Exact v_L derivation / branch selection | **OPEN** | status; T3 | Benchmark A: 5 MeV candidate; MeV vs high-v_L is CMB-S4 / leptogenesis, not desk |
 | 5 | CMB-S4 tests MeV-scale v_L corner (P-2026-025) | **registered** | §3 | High-v_L corner not accessible |
-| 6 | conv_g double-duty (Σm_ν + S₈ in one fit) | **OPEN-BLOCKED** | T3/T4 | **OPEN-MACHINE:** conv_desi unproduced |
+| 6 | conv_g double-duty (Σm_ν + S₈ in one fit) | **OPEN** / `g` **INCONCLUSIVE** | T3/T4; `conv_desi_retune_grade_20260824` | Retune stopped; lever not demanded; lensing still owed |
 | 7 | Fairbank experimental path | **WATCH-EXTERNAL** / **HOLD** | letter draft; arxiv_owner_prep | Owner-controlled correspondence / endorsement / posting path only; see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
 | 8 | m_ββ window package (`neutrino-mbb`) | **READY_PACKAGE** not posted | arXivReady; PACKAGE_INVENTORY | hep-ph endorsement; Fairbank thread live; **no invent arXiv ID**; see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
 
-**Non-claims / forbidden:** not a precision Σm_ν discriminator; full sector lives in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md); no booked joint posterior until gate; no “posted” without arXiv ID; no second Fairbank TeX.
+**Non-claims / forbidden:** not a precision Σm_ν discriminator; full sector lives in [PRTOE_neutrino_sector.md](PRTOE_neutrino_sector.md); not nested ΔlnZ (Stage A booked; nested mid-run forbidden); no “posted” without arXiv ID; no second Fairbank TeX.
 
-**Triage:** elevate-in-place. Physics ceiling: structural + provisional fit numbers; joint chain **OPEN-BLOCKED**; package **READY not posted** (2026-08-05).
+**Triage:** elevate-in-place. Physics ceiling: structural + booked joint Stage A; nested gold **RUNNING** not finished; package **READY not posted** (2026-08-15).

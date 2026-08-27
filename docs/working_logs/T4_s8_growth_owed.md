@@ -1,9 +1,16 @@
 # T4 S₈ growth — OWED
 
+> **Machine currency 2026-08-24:** `conv_desi` retune **STOPPED** (R−1=0.0447). GetDist `g`
+> **INCONCLUSIVE**. routeD thaw is **FINISHED** Stage A (separate). Nested / zon do **not**
+> book this channel. Authority: [`PRTOE_s8_growth.md`](../PRTOE_s8_growth.md) ·
+> [`_runs/conv_desi_retune_grade_20260824/REPORT.md`](_runs/conv_desi_retune_grade_20260824/REPORT.md).
+> July flags below are **historical receipts**.
+
 > **SUPERSEDED 2026-07-18: the chain is running again** (relaunched, past the initialisation
 > point that killed it, burn-in in progress). The flag below is kept as the record of why item 1
-> waited four days on nothing.
->
+> waited four days on nothing. **Later supersession (2026-08-15):** that relaunch did **not**
+> produce a bookable conv_desi posterior; instrument is still unproduced.
+
 > **⚠ ITEM 1'S REFEREE IS NOT RUNNING — IT DIED AT STARTUP (found 2026-07-16).** `conv_desi` is
 > **absent from the process list**; its progress file is **85 bytes / 1 line (header only), last
 > written Jul 12**; its launchlog ends at *"[mcmc] Getting initial point… (this may take a few
@@ -11,10 +18,11 @@
 > waiting on nothing. The failure is at *initialisation*, not mid-run — so it is a config/init
 > problem to diagnose, not a crash to resume. **Nothing was relaunched** (the box's running jobs are
 > under a standing do-not-touch); this is recorded so the wait is not mistaken for progress.
+> **(2026-08-15 still true as live status: unproduced.)**
 
-1. The converged conv_g posteriors (pre-registered g ≈ 0.10 ± 0.05 — grade against it when R−1 lands).
-   **BLOCKED: the chain is dead, see the flag above — this is not a "waiting on compute" item, it is
-   a "the compute never started" item.**
+1. The conv_g posterior (pre-registered g ≈ 0.10 ± 0.05).
+   **PAID as a stopped chain (2026-08-24):** `g = 0.080 ± 0.072`, **INCONCLUSIVE** (44% of samples
+   g<0.05; registered 0.10 inside 68%). Not a tension win. Package `conv_desi_retune_grade_20260824`.
 2. A MATCHED LENSING-LIKELIHOOD fit (DES/KiDS proper, not the S₈ point) before any tension-easing claim banks.
 3. The conversion's perturbation-sector flag — **PAID (the Jeans-thaw closeouts: the
    DE-clustering price, the exp-normalization O(1), and this flag were the closeout

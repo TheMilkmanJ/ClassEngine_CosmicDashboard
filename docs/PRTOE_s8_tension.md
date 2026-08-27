@@ -1,17 +1,11 @@
 # The S₈ Tension — the Second Fight, Fought With the Right Sign (2026-07-12)
 
-> ## OPEN-MACHINE residual freeze — 2026-08-04
+> **Status.** Conversion MCMC retune **STOPPED** (`cmp_prtoe_conv_desi_retune`, R−1=0.0447). `dcdf_conv_g` **inconclusive** (0.080±0.072). Matched DES/KiDS lensing still **OPEN-BLOCKED**.
 >
-> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on conversion posterior + matched lensing.
+> Booked Stage A + nested + zon instruments are **not** this conversion channel. Jul-22 archive GetDist is non-bookable. Retune GetDist: `conv_desi_retune_grade_20260824` — stopped, `g` inconclusive, not a tension win.
 >
-> **Machine residual waiting:** `cmp_prtoe_conv_desi` unproduced (last write 2026-07-22; R−1=13.25; not live). Live trio (bbnfix pair + routeD) is **not** this instrument — stamp in `PRTOE_CHAIN_TABLES.md` (bookable **no**). Matched DES/KiDS lensing likelihood still owed before any tension-easing upgrade.
->
-> **What unblocks:** owner restart of conv_desi → cobaya self-stop → GetDist of conv_g; then matched lensing likelihood campaign.
->
-> **Forbidden claims:** published tension-easing win; quoting R−1=13.25 archive as posterior; interim g as constraint.
->
-> **Blocked-lane audit:** shared conversion lane frozen in
-> [blocked_lane_s8_conversion_20260805/REPORT.md](working_logs/_runs/blocked_lane_s8_conversion_20260805/REPORT.md).
+> **Do not claim:** published tension-easing win; archive R−1 as a posterior; interim g as a constraint.
+
 
 **Audience grade.** Companion to s8_growth. No published tension-easing claim until a matched lensing likelihood is run. Chains with conversion (routeD/conv_desi) are exploratory.
 
@@ -19,9 +13,8 @@
 > *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md).*
 
 
-> The recorded T4 thread, consolidated. **`conv_desi` is not running; its S₈ posterior is unproduced.**
-> On disk it holds a single chain file last written **2026-07-22** (seed covariance only); restarting
-> it is an owner decision. Residual freeze reconfirmed **2026-08-04**.
+> The recorded T4 thread, consolidated. **`conv_desi` retune STOPPED 2026-08-24** (R−1=0.0447).
+> `g` **inconclusive**. Jul-22 archive is historical. Lensing still owed.
 > *Companion: the conversion-channel standalone, [PRTOE_s8_growth.md](PRTOE_s8_growth.md).*
 
 ## 0. The tension
@@ -51,11 +44,9 @@ The minimizer picks g = 0.12 → **S₈ = 0.821**, and the production joint fit 
 fit** — the rare right-sign pair. ΛCDM sits at S₈ ≈ 0.833 with H₀ = 68.2 — 1.6σ above the
 consensus and wrong on H₀ too; the model's value is twice as close to the consensus as
 ΛCDM's. (A matched lensing-likelihood fit — DES/KiDS proper, not the S₈ point — stays owed
-before any tension-easing claim upgrades.) The `conv_desi` chain was to deliver the posterior — **it is not running.** It holds a single
-chain file last written **2026-07-22**, at within-chain split-R̂ R−1 = 13.25 (a real number, but
-blind to confinement in one basin). Live production on the box is the bbnfix pair and route-D —
-**none is conv_desi**. Live progress (see `PRTOE_CHAIN_TABLES.md` for currency): bookable **no**.
-**The S₈ posterior is unproduced**, and restarting `conv_desi` is an owner decision. The
+before any tension-easing claim upgrades.) The `conv_desi` **retune stopped**: `g = 0.080 ± 0.072`
+(inconclusive; 44% of samples g<0.05); derived S₈ = **0.816 ± 0.009**. Package
+`conv_desi_retune_grade_20260824`. Jul-22 R−1=13.25 is archive only. The
 firewalled derivation candidate g = 10ε = 54α/π (the machines' table,
 [PRTOE_DERIVATION_HUNT.md](PRTOE_DERIVATION_HUNT.md)) awaits its mechanism.
 
@@ -120,7 +111,7 @@ mechanism through ε.
 | 2 | Screening-gate energy deposition cannot supply S₈ suppression | **failed** (route closed) | §1; Failures; entropy | Delivery rests on shed |
 | 3 | g = 10ε = 54α/π is firewalled derivation *candidate* | **OPEN** / candidate | §2; s8_total_vs_average | Factor settled; mechanism through ε open |
 | 4 | Total-vs-average (g extensive, ε intensive) at N=10 | **machine-backed** | `s8_total_vs_average.py` | Does not promote closed form |
-| 5 | conv_desi posterior unproduced | **OPEN-BLOCKED** | freeze 2026-08-04; R−1=13.25 | **OPEN-MACHINE:** owner restart; not live |
+| 5 | conv_desi retune posterior | **STOPPED** / `g` **INCONCLUSIVE** | `conv_desi_retune_grade_20260824` | Not a tension win; lensing still owed |
 | 6 | Kills: conv excludes easing g; N_eff violation; lensing rises to ΛCDM | **registered** | §3 | Null if tension dissolves |
 
 **Non-claims / forbidden:** not published tension-easing; routeD/conv_desi exploratory; no archive posterior quotes.

@@ -1,0 +1,11 @@
+05:05:48 [ultranest] [INFO] Sampling 400 live points from prior ...
+03:01:17 [ultranest] [INFO] Explored until L=-1e+03  
+03:01:17 [ultranest] [INFO] Likelihood function evaluations: 2048560
+03:01:23 [ultranest] [INFO] Writing samples and results to disk ...
+03:01:24 [ultranest] [INFO] Writing samples and results to disk ... done
+03:01:24 [ultranest] [INFO]   logZ = -1414 +- 0
+03:01:24 [ultranest] [INFO] Effective samples strategy satisfied (ESS = 3544.6, need >400)
+03:01:24 [ultranest] [INFO] Posterior uncertainty strategy is satisfied (KL: 0.45+-0.00 nat, need <0.50 nat)
+03:01:24 [ultranest] [INFO] Evidency uncertainty strategy is satisfied (dlogz=0.01, need <0.5)
+03:01:24 [ultranest] [INFO]   logZ error budget: single: 0.27 bs:0.00 tail:0.01 total:0.01 required:<0.50
+03:01:24 [ultranest] [INFO] done iterating.

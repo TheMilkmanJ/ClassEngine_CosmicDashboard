@@ -1,0 +1,53 @@
+{
+  "status": "FINISHED_ONE_LEG",
+  "bookable_delta_lnZ": false,
+  "bookable_nested_verdict": false,
+  "reason_not_booked": "TRGB UltraNest dyad twin still running (~72% remainder at peel). ΔlnZ requires both final summaries on the same anchor.",
+  "peeled_at_utc": "2026-08-24T18:01:38Z",
+  "finished_at_utc": "2026-08-24T13:48:33Z",
+  "anchor": "trgb",
+  "model": "lcdm",
+  "engine": "ultranest",
+  "host": {
+    "id": "i-0c8df2e18ea719094",
+    "name": "prtoe-trgb-un-lcdm-96",
+    "region": "us-east-1",
+    "instance_state_at_peel": "running",
+    "workers_at_peel": 0
+  },
+  "remote_outdir": "/home/ubuntu/docs_runs/ultranest_trgb_20260813/un_lcdm_trgb_ev_prod",
+  "yaml_remote": "/home/ubuntu/prtoe_class/cmp_lcdm_mnu_bbnfix_desidr2_trgb_ev.yaml",
+  "yaml_remote_sha256": "c8e4d6848c20b26a627a163b7159bb8cc0dad1cef698e14a7e66a82f29bbf9fc",
+  "yaml_remote_bytes": 5221,
+  "yaml_repro_freeze_20260813_sha256": "5a5f8073328fd5ba2c59e9fb4ae555beec8bb81d7b6abfc31831987da6fdc43f",
+  "yaml_matches_repro_freeze": false,
+  "ultranest": {
+    "version": "4.5.0",
+    "nlive": 400,
+    "frac_remain": 0.01,
+    "mpi_size": 96,
+    "niter": 15129,
+    "ncall": 2015920,
+    "ess": 3629.8995810399124,
+    "logz": -1374.3615470248656,
+    "logzerr": 0.3982140859624688,
+    "wall_s": 939142.8229980469,
+    "wall_h": 260.87300638834635,
+    "insertion_order_MWW_converged": true,
+    "driver_done_line": "[ultranest_cobaya] DONE logZ=-1374.3615 ± 0.3982 wall=260.87h mpi_size=96"
+  },
+  "display_vs_json": {
+    "info_line": "logZ = -1374 +- 0",
+    "authority": "ultranest_summary.json / info/results.json",
+    "note": "The INFO print is rounded; do not quote -1374 ± 0."
+  },
+  "left_on_instance_not_in_git": [],
+  "full_prod_tar": "un_lcdm_trgb_ev_prod.tar.gz",
+  "full_prod_dir": "prod/",
+  "file_sha256": {
+    "ultranest_summary.json": "d6265213123a42fcde68644b9c936f6a8b198140c095a5bf4a9b94b82dea52ac",
+    "results.json": "16bb6b1f7206aa5d5260eb5e12f6159d4b08782970e743482e35916fc47822ec",
+    "post_summary.csv": "328af7fb02a4e047ea054d5d5359fa0743dcd7cbc44ca9fbdf294f00c2dadf51",
+    "cmp_lcdm_mnu_bbnfix_desidr2_trgb_ev.host.yaml": "c8e4d6848c20b26a627a163b7159bb8cc0dad1cef698e14a7e66a82f29bbf9fc"
+  }
+}

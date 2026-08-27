@@ -87,11 +87,15 @@ from the current disjoint ranks.
 
 ## OPEN-MACHINE (waits on runs)
 
+> **Machine currency 2026-08-15:** Nested UN+PC all anchors RUNNING; Stage A BOOKED three stacks;
+> zon retune STOPPED (GetDist inconclusive); conv_desi retune STOPPED (`g` inconclusive). Mid-run logZ forbidden.
+
 - Matched DES/KiDS lensing (#161) — after capacity free
-- conv_desi — unproduced; owner whether to re-architect seed
-- zon_disp — parked by decision
+- conv_desi — **STOPPED** 2026-08-24; `g` **INCONCLUSIVE**. Next growth test is matched DES/KiDS lensing, not another MCMC restart.
+- zon_disp — **STOPPED** GetDist **INCONCLUSIVE** (`zon_disp_retune_grade_20260821`)
+- Nested ΔlnZ — **RUNNING** all anchors; wait for finish (not bookable mid-run)
 - Granule SP dynamics / χ-lag sims
-- α_c / α_g posteriors for galactic / SMBH atoms
+- α_c / α_g posteriors for galactic / SMBH atoms (ride zon retune)
 
 ## OPEN-THEORY (do not fake-complete)
 
