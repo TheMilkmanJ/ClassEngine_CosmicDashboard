@@ -4,6 +4,8 @@
 (PRTOE = Theory of Expansion — **not** a Theory of Everything; the acronym is a deliberate joke).  
 **What it is not:** a claim that ΛCDM is dead, or that nested Bayes factors are already booked.
 
+Shelf map (public / core / parked / fenced): **[README.md](README.md)**.
+
 ---
 
 ## 60-second path
