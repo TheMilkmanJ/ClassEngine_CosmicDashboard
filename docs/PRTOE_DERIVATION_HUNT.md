@@ -961,7 +961,7 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](explorato
   measured 2.100×10⁻⁹; the −0.35% quoted beside the pipeline's frozen input is the closed form
   against its own value at the concordance k, a k-spread rather than a test of the count.
   The referee is the zero-parameter comparison graded from Laplace-from-MCMC (the laptop nested run
-  ended 2026-07-20; on SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler (no nested ΔlnZ)) — the Eliashberg k-audit has run, placing k
+  ended 2026-07-20; on SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler (no nested ΔlnZ) — the Eliashberg k-audit has run, placing k
   in [1.35, 1.37] at three-way concordance.
   **The forward target, typed, and the mechanism class ruled (#184, 2026-07-20).** As a ratio, the
   closed form asserts **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and what kind of object that is
