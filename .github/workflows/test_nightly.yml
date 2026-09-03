@@ -2,12 +2,15 @@ name: Nosetests and Valgrind
 
 # To run this workflow on other branches than devel, uncomment line 4 and comment line 5-7.
 #on: [push]
+# Self-hosted CLASS runner is offline (AWS suspended 2026-08-27).
+# Skip the daily run until repo variable CLASS_SELF_HOSTED is the string true.
 on:
   schedule:
     - cron: '0 20 * * *'  # Daily at UTC 20:00
 
 jobs:
   iftest:
+    if: ${{ vars.CLASS_SELF_HOSTED == 'true' }}
     runs-on: [self-hosted]
     outputs:
       should_run: ${{ steps.store_output.outputs.SHOULD_RUN }}

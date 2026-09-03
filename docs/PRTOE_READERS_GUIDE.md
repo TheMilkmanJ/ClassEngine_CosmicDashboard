@@ -9,9 +9,8 @@ conditions, and live risk posture, start with
 > **Currency board (2026-08-08).** The old-BAO production `bbnfix` pair is now **BOOKED** on the
 > dual-gate receipt, with SH0ES-conditional GetDist values recorded in
 > [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Evidence honesty on that booked pair is still
-> weak: sample-covariance Laplace **ΔlnZ ≈ +0.21**, not a nested-quality win. The **current live**
-> MCMC lane is DESI-DR2, and it is **not bookable** yet; the gold DESI-DR2 PolyChord program is a
-> four-leg design and is **not launched**. BBN ε arithmetic remains **verified internal**;
+> weak: sample-covariance Laplace **ΔlnZ ≈ +0.21**, not a nested-quality win. Stage A MCMC is **booked** on old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB (do not mix).
+> Nested sampling is **launched**; LCDM UltraNest one-legs are finished; dyad legs are not; no twin ΔlnZ is booked. BBN ε arithmetic remains **verified internal**;
 > **external win pending DOI**.
 
 *Written for the newcomer and the external reviewer. Working documents in this repository use a
@@ -39,7 +38,7 @@ gives a reading order.*
 | house term | plain physics |
 |---|---|
 | the medium / the fluid | the superfluid scalar field (unified dark sector) |
-| the amplitude / ε | fractional electron-mass shift. Three numbers on purpose: **1.2543%** derived stack (c·f̄·α_c = 27α/5π), **1.232%** production-chain fit, **~1.24%** posterior summary. The 1.8% gap between derived stack and production fit sits inside the posterior width; the old-BAO production pair is now booked, while the **current live DESI-DR2 pair** remains unconverged |
+| the amplitude / ε | fractional electron-mass shift. Three numbers on purpose: **1.2543%** derived stack (c·f̄·α_c = 27α/5π), **1.232%** production-chain fit, **~1.24%** posterior summary. The 1.8% gap between derived stack and production fit sits inside the posterior width; the old-BAO production pair is booked, and DESI-DR2 SH0ES and DESI-DR2 TRGB Stage A are also booked (do not mix anchors) |
 | the dyad — **prefer “electron-coupled scalar”** (rename 2026-07-28; audience-facing files use the new name) | high-decay-constant pseudo-Goldstone that shifts m_e. One of three dark fields (dCDF superfluid, electron-coupled scalar, Majoron). Not the Majoron: merging them at f = v_L dies on the neutrino tie. Older docs used “dyad” for the (dark fluid + varying-m_e) pair |
 | the winding / n / the draw | quantized phase winding, set stochastically (Kibble) at condensation |
 | f_amp | medium’s **librating fraction**, 1 − f_rot (dice output, granule-contrast p²+q², beat √(f_amp(2−f_amp))). Older docs also used f_amp in ε = c·f_amp·Ψ₀/M_red; standing decomposition is ε = c·f̄·α_c with f̄ = 2/π |
@@ -97,7 +96,7 @@ Retired-era documents may use letters differently; those files carry banners.
 - The historical statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and
   marginal (pre-bbnfix stack). The **current booked old-BAO pair** is weaker: sample-covariance
   Laplace only **ΔlnZ ≈ +0.21** with soft modes. The **current live** DESI-DR2 MCMCs are **not
-  bookable**, and the gold DESI-DR2 four-leg nested program is **not launched**. Do not treat the
+  bookable**, and nested sampling is **launched**; LCDM UltraNest one-legs are finished; dyad legs are not; no twin ΔlnZ is booked. Do not treat the
   live DESI-DR2 R−1 values as booked products.
 - **A_s closed form** is a candidate (counting mechanism half-derived; frozen into the production
   configs by explicit decision, with the risk documented — not the output of a converged posterior).

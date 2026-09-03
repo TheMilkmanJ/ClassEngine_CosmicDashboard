@@ -1,6 +1,6 @@
 # PRTOE — Reader’s risk summary
 
-**Status.** Stage A GetDist bookings are machine-backed for old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB. Evidence class is **not nested-sampling confirmed**: nested sampling (UN+PC) is **running** on all anchors; mid-run log-evidence is **not bookable**. The α_c instrument is **running** and ungraded until convergence stop. Bounce grades: [bounce desk freeze](working_logs/_runs/bounce_desk_freeze_20260812/).
+**Status.** Stage A GetDist bookings are machine-backed for old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB. Evidence class is **not nested-sampling confirmed**: nested sampling is launched (LCDM UltraNest one-legs **finished**; dyad unfinished); mid-run log-evidence is **not bookable**. The α_c instrument (`zon_disp` retune) is **STOPPED**; GetDist **INCONCLUSIVE** (`log10_zon = 7.571 ± 0.511`). Not a 3α confirmation. Bounce grades: [bounce desk freeze](working_logs/_runs/bounce_desk_freeze_20260812/).
 
 **Old-BAO production `bbnfix` pair — BOOKED Stage A.** Authority:
 [`bbnfix_booking_20260808_005626/REPORT.md`](working_logs/_runs/bbnfix_booking_20260808_005626/REPORT.md).
@@ -15,7 +15,7 @@ The booked old-BAO Laplace is **ΔlnZ ≈ +0.21** above. FD Hessian v2 finite bu
 / earlier receipt [`desidr2_bbnfix_booking_20260810_053127`](working_logs/_runs/desidr2_bbnfix_booking_20260810_053127/).
 **DESI-DR2 TRGB twins — BOOKED Stage A.** Authority:
 [`trgb_results_20260812`](working_logs/_runs/trgb_results_20260812/) (H₀ ~68.4–68.9 both models).
-Nested: SH0ES + TRGB + no-H0 dual engines **RUNNING**; **no nested ΔlnZ bookable mid-run**.
+Nested: LCDM UltraNest one-legs **finished**; dyad UN + PolyChord still live; **no nested ΔlnZ bookable**.
 
 > *One page for an outside physicist. Falsify-first: nothing below is oversold. House terms decode
 > in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality in
@@ -50,13 +50,13 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
     and equal channel weights. ε-blind ensemble 0.903 (−0.08σ) does not exclude 12/13 or
     charge-weighted 8/9 (0.30σ away).
   - **α_c = 3α** — pre-registered bet (P-2026-040); decided by the α_c instrument (zon_disp
-    **retune RUNNING** — **not bookable** until R−1 stop; no graded center yet);
-    last interim/historical centers sit ~2% above where data points. **Stack stands or falls with this.**
+    retune **STOPPED** (R−1=0.036, `converged: true`); GetDist **INCONCLUSIVE**);
+    last interim/historical centers sit ~2% above where data points. **Stack stands or falls with this.** Not a 3α confirmation.
 
 - **H₀ ~ 70.1 (booked SH0ES stacks); ladder ceiling ~70.9–71.3** (SN sign ς = −1). ~Half the SH0ES
   gap; refuses the rest; pre-registered the TRGB side of the calibration dispute. *Mechanism at
-  production grade, SH0ES-conditional. Booked Laplace is marginal; nested ΔlnZ is running but not
-  finished (§3c, §4).*
+  production grade, SH0ES-conditional. Booked Laplace is marginal; nested ΔlnZ is launched but not
+  finished — LCDM UltraNest one-legs finished; dyad unfinished; no twin ΔlnZ (§3c, §4).*
 
 - **w = −1** as protected ground state — **one branch of a live fork**, not the only position:
   - **P-2026-018:** bare constant floor, w = −1 forever.
@@ -121,9 +121,9 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   are the verdict's two hinges — the residual shifts every column without changing which one decides.
 - **(c) The H₀ evidence is SH0ES-conditional and marginal.** The booked old-BAO pair does
   **not** support a headline evidence win: its volume-aware sample-covariance Laplace is only
-  **ΔlnZ ≈ +0.21**, with soft modes at **cond(Σ) ~ 10⁸**. Nested sampling — the confirmer that
-  would make this robust — is **not yet decisive**: Nested UN+PC is **running** on all anchors
-  (DESI-DR2 SH0ES, TRGB, no-H0); mid-run nested logZ is **not bookable**. Without a finished
+  **ΔlnZ ≈ +0.21**, with soft modes at **cond(Σ) ~ 10⁸**.   Nested sampling — the confirmer that
+  would make this robust — is **not yet decisive**: nested is launched (LCDM UltraNest one-legs
+  finished; dyad unfinished); mid-run nested logZ is **not bookable**. Without a finished
   nested pair, the easing remains interesting but not a robust evidence verdict, and it adds no
   independent evidence for the superfluid ontology.
 
@@ -161,7 +161,7 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
   Receipt stamp: dyad **R−1 = 0.048118**@N=37605 with `converged:true`; lcdm **0.049324**@N=26294
   with `converged:true`. That opened the old-BAO three-rank GetDist receipt, but **did not** open a
   strong evidence verdict: the booked pair’s sample-covariance Laplace is only **ΔlnZ ≈ +0.21**.
-  **No nested verdict exists.** The live open lane is now DESI-DR2, not the booked old-BAO pair.
+  **No nested verdict exists.** DESI-DR2 SH0ES and DESI-DR2 TRGB Stage A are **booked**. Do not mix them with each other or with old-BAO. The open lane is **nested twins**, not DESI MCMC.
 - **(d) The electron-coupled scalar's thermalisation problem — adjudicated (2026-07-18): the
   recorded configuration is BBN-fatal; one repair branch survives, at a named price.** The
   non-thermalisation escape was built and adversarially tried: **as recorded** (the electron-CW
@@ -287,8 +287,8 @@ modification to known physics is **one number, ε**, applied wherever atomic phy
 
 ## 4. Current evidence class
 **Flat / suggestive, SH0ES-conditional, Laplace-marginal.** The booked old-BAO volume-aware
-Laplace is only **ΔlnZ ≈ +0.21**. Nested UN+PC is **running** on all anchors (SH0ES, TRGB, no-H0);
-**no bookable nested evidence number mid-run**. The verdict depends on finishing those twins.
+Laplace is only **ΔlnZ ≈ +0.21**. Nested is launched (LCDM UltraNest one-legs finished; dyad unfinished);
+**no bookable nested evidence number**. The verdict depends on finishing those twins.
 
 **The scoreboard, stated bluntly (2026-08-02).** Zero preregistered predictions have been
 confirmed by data that postdates their registration — every "confirmed" grading in the registry
@@ -312,9 +312,9 @@ genuinely independent and which collapse).
 | stack | Stage A | Nested ΔlnZ | note |
 |---|---|---|---|
 | old-BAO SH0ES `bbnfix` | **BOOKED** | separate | H₀ dyad 70.05±0.72; Laplace ΔlnZ≈+0.21 weak |
-| DESI-DR2 SH0ES twins | **BOOKED** | dual UN+PC GIL **RUNNING** | mid-run nested logZ **forbidden until finish** |
-| DESI-DR2 TRGB twins | **BOOKED** | dual UN+PC GIL **RUNNING** | H₀ ~68.4–68.9 both models; mid-run logZ forbidden |
-| no-H0 twins | **BOOKED** Stage A path | dual UN+PC GIL **RUNNING** | mid-run nested logZ **forbidden until finish** |
+| DESI-DR2 SH0ES twins | **BOOKED** | LCDM UN finished; dyad live | mid-run nested logZ **forbidden until finish** |
+| DESI-DR2 TRGB twins | **BOOKED** | LCDM UN finished; dyad live | H₀ ~68.4–68.9 both models; mid-run logZ forbidden |
+| no-H0 twins | **BOOKED** Stage A path | LCDM UN finished; dyad live | mid-run nested logZ **forbidden until finish** |
 | zon_disp retune | **STOPPED** | — | GetDist **INCONCLUSIVE** on `log10_zon` |
 | conv_desi retune | **STOPPED** | — | GetDist **INCONCLUSIVE** on `g`; not dual-gate; not a KiDS shear fit |
 
@@ -337,8 +337,8 @@ only; leave fleet alone until final summary JSON.
 evidence readout is SH0ES-conditional and still marginal, whose booked volume-aware Laplace lands
 at only **ΔlnZ ≈ +0.21** with no nested confirmation yet, and whose headline dark-energy number is
 a sourced structural relation that lands on the
-observed scale without claiming the precision it lands to, and whose fate rides on chains that have
-yet to converge on the DESI-DR2 stack, a lattice number no one has computed at the precision
+observed scale without claiming the precision it lands to, and whose fate rides on nested twins
+(not DESI MCMC — Stage A is booked), a lattice number no one has computed at the precision
 required, and DESI.*
 
 ---
@@ -347,17 +347,16 @@ required, and DESI.*
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | Evidence class Stage A booked; not nested-confirmed | **honest constraint** | banner; §3c | **OPEN-NESTED:** Stage A BOOKED; nested dual UN+PC GIL RUNNING (mid-run not bookable) |
-| 2 | ε stack grade = weakest parent (f̄/c/α_c) | **complete-conditional** | §2 | α_c instrument **retune RUNNING** (ungraded until R−1 stop) |
+| 1 | Evidence class Stage A booked; not nested-confirmed | **honest constraint** | banner; §3c | **OPEN-NESTED:** Stage A BOOKED; nested launched (LCDM UN finished; dyad live; mid-run not bookable) |
+| 2 | ε stack grade = weakest parent (f̄/c/α_c) | **complete-conditional** | §2 | α_c instrument **STOPPED**; GetDist **INCONCLUSIVE** |
 | 3 | H₀ 69.9–71.3; half gap; residual owned | **machine-backed** provisional | §2 | SH0ES-conditional; **not** from live bbnfix tables |
 | 4 | ρ_Λ existence not precision (+0.44% in τ-space) | **complete-conditional** | §3a | Lattice + quartic past control |
-| 5 | Old-BAO + DESI Stage A booked; nested ΔlnZ WAIT | **machine-backed** status | §4; booking receipt; CHAIN_TABLES freeze | **OPEN-MACHINE:** do not mix booked old-BAO posteriors with live DESI-DR2 chains |
+| 5 | Old-BAO + DESI Stage A booked; nested ΔlnZ WAIT | **machine-backed** status | §4; booking receipt; CHAIN_TABLES freeze | **OPEN-NESTED** only: do not mix booked Stage A stacks; nested twins unfinished |
 | 6 | Kill list §5 pre-registered | **registered** | §5 | DESI, ladder, α_c, DD, ν, BBN |
 | 7 | Page is audience risk summary | **meta** | whole file | Not a derivation |
 | 8 | BBN ε 2σ ceiling **ARITHMETIC VERIFIED (internal)** (3.196%≈3.20%); **EXTERNAL WIN PENDING (no DOI)** — not a chain booking | **internal arithmetic** | hard-wins table | Does **not** close bbnfix; not a public external win until DOI |
 
-**Non-claims:** not a nested evidence win; not a DESI-DR2 booked posterior; not H₀ from live
-DESI-DR2 chains; not Page closed.
+**Non-claims:** not a nested evidence win; not a nested ΔlnZ / “data prefer dyad”; not Page closed.
 
-**Triage:** elevate-in-place. Physics ceiling: honest risk map; evidence **OPEN-NESTED** and
-DESI-DR2 **OPEN-MACHINE**, with the old-BAO pair booked but not promoted into a fake win.
+**Triage:** elevate-in-place. Physics ceiling: honest risk map; evidence **OPEN-NESTED** only
+(Stage A booked on old-BAO SH0ES, DESI-DR2 SH0ES, DESI-DR2 TRGB), not promoted into a fake win.

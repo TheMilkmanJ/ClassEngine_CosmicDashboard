@@ -82,9 +82,7 @@ not ultra-tight on derived-cl. Plots: `docs/plots/dyad_trgb_vs_shoes_*`,
 
 **RouteD MCMC** — finished (R−1≈0.054, Stage A booked 2026-08-10). Idle.
 
-**AWS capacity.** On-demand Standard vCPU quota **512** (request **1024** CASE_OPENED). Live burn
-includes nested all-anchors fleet + zon_disp retune ×48 (full-fleet class ~1008 vCPU when all
-legs concurrent). Watcher: `docs/working_logs/_runs/noh0_nested_un_20260813/quota_watch.log`.
+**AWS capacity.** On-demand Standard vCPU quota **512** (request **1024** CASE_OPENED). Live nested burn is dyad UltraNest + PolyChord. zon_disp retune is **STOPPED** (GetDist INCONCLUSIVE). conv_desi retune is **STOPPED** (GetDist INCONCLUSIVE). Watcher: `docs/working_logs/_runs/noh0_nested_un_20260813/quota_watch.log`.
 
 **BBN ε arithmetic verified (internal).** ε 2σ ceiling card re-verified 2026-08-04:
 `papers/bbn-eps-bound/recompute_eps_bound.py` → **3.196% ≈ 3.20% PASS**. EMPRESS at ε=0 still
@@ -102,7 +100,7 @@ derivation; not a paper candidate; not promoted.
 
 **Claim permission (2026-08-15).** Parameter posteriors and fit proxies for DESI SH0ES **and**
 DESI TRGB: **YES** (booked Stage A). Nested Bayes factor / “data prefer dyad”: **NO until
-all nested twin legs finish** — mid-run logZ **forbidden**. zon_disp center / R−1 mid-run: **NO**.
+all nested twin legs finish** — mid-run logZ **forbidden**. zon_disp center: **NO** (GetDist done, **INCONCLUSIVE**, not mid-run). Nested Bayes / “data prefer dyad”: **NO until all nested twin legs finish**.
 
 ### Residual theory board (2026-08-05 exhaust currency)
 
@@ -122,7 +120,7 @@ machine-or-owner gates. **Physics COMPLETE promotions this wave: 0.** Authority:
 | Absolute SI \(G\) | **OPEN** — supertrace finiteness ≠ SI \(G\) |
 | Unitarized σσ (ρ_Λ precision) | **MISSING_INPUT** |
 | Machine bbnfix | **BOOKED** old-BAO Stage A · **BOOKED** DESI-DR2 SH0ES + TRGB Stage A (separate; do not mix) |
-| PolyChord / nested | **OPEN-MACHINE / RUNNING** — GIL fix proven; nested UN+PC **all anchors RUNNING**; mid-run logZ forbidden; no bookable nested ΔlnZ yet |
+| PolyChord / nested | **OPEN-NESTED** — LCDM UltraNest one-legs **FINISHED** on SH0ES / TRGB / noH0. Dyad UN + PC still live. No twin ΔlnZ. Mid-run logZ forbidden |
 | zon_disp / conv_desi | zon_disp **STOPPED** GetDist **INCONCLUSIVE** (`log10_zon`) · conv_desi retune **STOPPED** GetDist **INCONCLUSIVE** (`g`) |
 | Strong CP | **COMPLETE-ABSTENTION** |
 
@@ -170,7 +168,7 @@ tilt stays **CLOSED DEAD** (#184); that path does not deliver A_s.
 
 Also standing: c = 9/10 counting input (democracy dead); ρ_Λ¼ existence claim +0.44% (not
 precision); DE self-tuning still fails (ohmic); booked Laplace **ΔlnZ ≈ +0.21** marginal /
-SH0ES-dependent; nested sampling **running** (not finished).
+SH0ES-dependent; nested sampling **launched** (LCDM UltraNest one-legs finished; dyad unfinished; no twin ΔlnZ).
 
 ### Snapshot held from CURRENT (2026-07-20)
 
@@ -203,9 +201,9 @@ Major moves since the 2026-07-08 baseline (below); grades above supersede where 
   settling and the coincidence problem stands. The sub-ohmic self-tuning belongs to the dark-*matter*
   channel, not DE. Honest: still no working self-tuning mechanism for the value.
 - Evidence: booked old-BAO sample-covariance Laplace is **ΔlnZ ≈ +0.21** with soft-mode
-  sensitivity. Nested UN+PC is **running** on all anchors (SH0ES, TRGB, no-H0); mid-run nested
+  sensitivity. Nested is launched: LCDM UltraNest one-legs **FINISHED**; dyad UN + PC still live; mid-run nested
   logZ is **not bookable**. Stage A posteriors are **booked** on three stacks (old-BAO SH0ES +
-  DESI-DR2 SH0ES + DESI-DR2 TRGB); the nested confirmer is not finished.
+  DESI-DR2 SH0ES + DESI-DR2 TRGB); the nested confirmer is not finished. No twin ΔlnZ.
 
 ### What moved on 2026-07-18
 
@@ -415,7 +413,7 @@ first time — but heavily qualified:
      number. Only nested sampling makes it robust. At the time of this entry that was unaffordable
      on this hardware (9.8 h per iteration). Current 2026-08-08 status is stricter than this
      historical entry: the booked old-BAO pair's sample-covariance Laplace is only ≈+0.21, and the
-     Nested UN+PC **all anchors RUNNING** (SH0ES, TRGB, no-H0; mid-run logZ forbidden). Better-
+     LCDM UltraNest one-legs **FINISHED**; dyad UN + PC still live (SH0ES, TRGB, no-H0; mid-run logZ forbidden; no twin ΔlnZ). Better-
      converged chains can sharpen the bookkeeping; they cannot promote this historical line into
      the current evidence authority.
   2. SH0ES-conditional: the -9.52 edge is dominated by SN+SH0ES (~-13.7, the H₀ easing
@@ -430,8 +428,8 @@ first time — but heavily qualified:
 Best realistic outcome on the table, landed exactly at the line. Not decisive, not robust, not
 prediction-confirmed.
 
-The lever that would move the evidence class hard is a finished nested comparison. Dual nested
-is **running** but mid-run logZ is not bookable, so there is still no nested verdict. The two
+The lever that would move the evidence class hard is a finished nested comparison. Nested is
+**launched** (LCDM UltraNest one-legs finished; dyad unfinished) but mid-run logZ is not bookable, so there is still no nested verdict. The two
 things that still sink a win: SH0ES-as-systematic (Stage 0), or a nested number that fails to
 clear a decisive bar. Full internal review grading in the private internal review record
 (defender "the number" turn).

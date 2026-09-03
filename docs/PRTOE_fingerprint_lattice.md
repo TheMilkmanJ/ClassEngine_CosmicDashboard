@@ -8,7 +8,7 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 
 Thread 13. Rows are recorded individually; this file consolidates the correlation structure that makes them one test: one parameter, fixed weights, no per-row freedom.
 
-**Audience grade.** The lattice is a **grammar** claim (one lever, many windows). Individual windows carry their own grades. **ε stack is conditional** (f̄ derived, c assumed, α_c bet). **H₀ / ΔlnZ provisional** (Laplace estimate; nested sampling deferred). BBN rows **owned-adverse**. Do not present the lattice as a win on any single decisive row.
+**Audience grade.** The lattice is a **grammar** claim (one lever, many windows). Individual windows carry their own grades. **ε stack is conditional** (f̄ derived, c assumed, α_c bet). **H₀ / ΔlnZ provisional** (Laplace estimate; nested **launched**, LCDM UN one-legs finished, dyad unfinished, no twin ΔlnZ). BBN rows **owned-adverse**. Do not present the lattice as a win on any single decisive row.
 
 ---
 
@@ -30,7 +30,7 @@ One lever, many windows: every window must show the same lever at its own known 
 
 | window | the row | current standing |
 |---|---|---|
-| CMB/H₀ | +ε at recombination → historical fixed-ε H₀ ~69.9; current booked old-BAO dyad **H₀ = 70.052 ± 0.716**; sample-cov Laplace **ΔlnZ ≈ +0.21** **\*** | founding fit (thread 11) plus booked old-BAO receipt. **\*Conditional / not nested:** the older +2.635 line is historical pre-bbnfix Laplace from chains scored with a ΛCDM helium fraction; configs now carry the measured PRyM response; the current booked old-BAO pair is weaker (**+0.21**), and the gold DESI-DR2 nested comparison is designed not launched ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
+| CMB/H₀ | +ε at recombination → historical fixed-ε H₀ ~69.9; current booked old-BAO dyad **H₀ = 70.052 ± 0.716**; sample-cov Laplace **ΔlnZ ≈ +0.21** **\*** | founding fit (thread 11) plus booked old-BAO receipt. **\*Conditional / not nested:** the older +2.635 line is historical pre-bbnfix Laplace from chains scored with a ΛCDM helium fraction; configs now carry the measured PRyM response; the current booked old-BAO pair is weaker (**+0.21**), and nested sampling is **launched** (LCDM UltraNest one-legs finished; dyad unfinished; no twin ΔlnZ) ([PRTOE_CODE_MANIFEST.md](PRTOE_CODE_MANIFEST.md)) |
 | BBN: D/H | ~0 direct + η-widening − windowed refund + the genesis residual | signed self-adverse bet (2.387×10⁻⁵, easing to 2.407–2.463 across the committed genesis window: **−2.5 to −1.4σ** on the full budget); radio-arbitrated |
 | BBN: Y_p | windowed (ε OFF at freeze-out) plus the genesis residual: **+1.3 to +2.0σ** COUNTER vs Aver | owned-adverse, zero fitted parameters |
 | BBN: quark-bleed | **EXCLUDED — row retired, by loop order and by data rather than by symmetry.** Old row credited **δm_q = ε full**, which would drive D/H to **+12…+18σ** through d ln B_D/d ln m̂ = −4 — so the bleed is excluded by this row itself. What the electron-coupled scalar can actually deliver is set by loop order: its portal is the dark-neutral bilinear \(\lvert\Psi\rvert^2\), which reaches the quark bilinear only at two EW/EM loops, and the loop floor (scalar → lepton loop → 2γ → quark, O(α²) = 5.4×10⁻⁶) is **~20,000× short** of P-006's required 0.14–0.21%. *(Not symmetry: that scalar is a separate field from the Majoron, and \(\lvert\Psi\rvert^2\) is L-neutral, so U(1)_L screens the quark bilinear no more than the lepton one.)* | **no bleed, no blowout, and no healer: D/H carries −2.5 to −1.4σ** |
@@ -46,9 +46,9 @@ Standard cosmology’s anomalies are treated as independent. The lattice treats 
 
 ## 2. Masters (where fate is decided)
 
-- **The α_c instrument / chain** (α_c → the fraction → whether ε is fully derived or carries one measured O(1); zon_disp **not currently running**)
+- **The α_c instrument / chain** (α_c → the fraction → whether ε is fully derived or carries one measured O(1); zon_disp **STOPPED**; GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511`. Not α_c = 3α)
 - **DESI DR3** (the w = −1 commitment underneath every row)
-- **The evidence cap** (the booked old-BAO pair is only sample-cov Laplace **ΔlnZ ≈ +0.21**; the current nested referee is the gold DESI-DR2 four-leg program, not launched)
+- **The evidence cap** (the booked old-BAO pair is only sample-cov Laplace **ΔlnZ ≈ +0.21**; nested is **launched**; LCDM UltraNest one-legs finished; dyad unfinished; no twin ΔlnZ)
 - **The radio referee** (the D/H fork)
 - **The BipoSH / isotropy pass** (the axis family, jointly; shared blocker authority:
   `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md`)
@@ -79,8 +79,8 @@ The lattice is winning on breadth, not yet on any single decisive row. One lever
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | One ε across messengers at fixed window weights (grammar) | **complete-conditional** (grammar) | §0–1; ε stack | Weakest parent of c/f̄/α_c |
-| 2 | ε = 27α/5π stack: f̄ derived; c assumption; α_c bet | **complete-conditional** | factor table | zon_disp not running |
-| 3 | H₀ / ΔlnZ provisional (Laplace) | **machine-backed** provisional | THE_AMPLITUDE; hubble | Nested sampling deferred |
+| 2 | ε = 27α/5π stack: f̄ derived; c assumption; α_c bet | **complete-conditional** | factor table | zon_disp **STOPPED**, **INCONCLUSIVE** |
+| 3 | H₀ / ΔlnZ provisional (Laplace) | **machine-backed** provisional | THE_AMPLITUDE; hubble | Nested **launched**; LCDM UN finished; dyad unfinished; no twin ΔlnZ |
 | 4 | BBN D/H and Y_p owned-adverse | **machine-backed** | bbn_witness; deuterium_row | Nuclear + ζ residuals; see `working_logs/_runs/blocked_lane_deuterium_fork_20260805/REPORT.md` |
 | 5 | Quark-bleed excluded (loop floor short) | **derived** (exclusion) | §0 quark-bleed row | Retired; not a healer |
 | 6 | Radio chord / axis family / comb pending | **OPEN-BLOCKED** | §2 masters | Dark-ages data; BipoSH Tier 2; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |

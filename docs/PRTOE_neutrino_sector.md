@@ -20,7 +20,7 @@ Consolidates the model’s most experiment-facing claim block. Components range 
 **Status.** Mass relation and 0νββ window established (COMPLETE-CONDITIONAL). Ship path:
 **neutrino-mbb READY not posted** under Fairbank HOLD. Open theory: exact μ, flavor distribution,
 Majoron next consequence, ρ_inf closure. Joint Σm_ν receipts live on the home page (old-BAO + DESI
-separate). Nested still open. This shelf keeps mechanism/honesty; the public short paper is the
+separate). Nested **launched** (no twin ΔlnZ). This shelf keeps mechanism/honesty; the public short paper is the
 narrower `neutrino-mbb` package only.
 
 ## 0. Claims
@@ -31,7 +31,7 @@ narrower `neutrino-mbb` package only.
 
 3. **Sum:** measured splittings → Σm_ν ≈ 61.35 meV, **normal ordering** (favoured by P-2026-004 collision test, not by P-2026-012 alone — ANN-2026-025). **Not a discriminator:** ~2.6 meV above the m₁ = 0 floor (58.8 meV) vs ~20 meV planned resolution. Distinctive content is m_ββ (§3).
 
-4. **Exploratory:** occupancy-corrected ρ_inf derivation reproduces the same sum via ρ_Λ, M₂ = α²·T_c, and 3α; the α_c instrument (zon_disp — unconverged, not currently running) checks that claim.
+4. **Exploratory:** occupancy-corrected ρ_inf derivation reproduces the same sum via ρ_Λ, M₂ = α²·T_c, and 3α; the α_c instrument (zon_disp retune **STOPPED**; GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511`) checks that claim. Not α_c = 3α.
 
 ## 1. Why this block bites
 
@@ -43,7 +43,7 @@ Every claim is measurable this decade; none is free:
 
 ## 2. Open mechanism items
 
-μ ties the DE floor to the lightest neutrino mass (dimension-1 L-breaking parameter, distinct from the dimensionless varying-m_e amplitude). Value μ = 2.25 meV un-derived. Still needed: new falsifiable Majoron consequence; ρ_inf closure depends on the α_c instrument (not currently running).
+μ ties the DE floor to the lightest neutrino mass (dimension-1 L-breaking parameter, distinct from the dimensionless varying-m_e amplitude). Value μ = 2.25 meV un-derived. Still needed: new falsifiable Majoron consequence; ρ_inf closure depends on the α_c instrument (**STOPPED**; GetDist **INCONCLUSIVE**).
 
 ## 3. 0νββ
 
@@ -164,7 +164,7 @@ Still open:
 
 - pure number b in ρ_inf = b·m₁⁴
 - settling calculation for mass sharing among eigenstates
-- α_c instrument for occupancy-corrected ρ_inf closure (zon_disp — unconverged, not currently running)
+- α_c instrument for occupancy-corrected ρ_inf closure (zon_disp **STOPPED**; GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511`. Not α_c = 3α)
 
 ---
 
@@ -174,11 +174,11 @@ Still open:
 |---|---|---|---|---|
 | 1 | Majorana → 0νββ required (P-2026-020) | **registered** | §0 claim 1 | Detection above ceiling kills; null does not |
 | 2 | m₁ = ρ_Λ¼ = 2.25 meV (one number, two jobs) | **complete-conditional** / existence | §0 claim 2 | Does not derive 2.25; μ un-derived |
-| 3 | Σm_ν ≈ 61.35 meV normal ordering (relation) | **complete-conditional** | NuFIT + m₁; P-004 ordering | Not a discriminator vs floor (~2.6 meV); booked old-BAO joint posterior lives on home / bbnfix, DESI-DR2 still open |
+| 3 | Σm_ν ≈ 61.35 meV normal ordering (relation) | **complete-conditional** | NuFIT + m₁; P-004 ordering | Not a discriminator vs floor (~2.6 meV); booked old-BAO joint posterior lives on home / bbnfix; DESI-DR2 Stage A booked (separate) |
 | 4 | m_ββ ∈ [0.04, 5.3] meV | **machine-backed** | §3; phases free | Floor soft/coin-toss on θ₁₂; ceiling stable |
 | 5 | Funnel edge m₁* ≈ ρ_Λ¼ at centrals (~0.45%) | **machine-backed** arithmetic | `funnel_edge_identity.py` | ±0.24 meV θ₁₂ band → ~0.04σ; not precision coincidence |
 | 6 | Only nEXO overlaps ceiling; ~10.8% phase space | **machine-backed** / literature reach | experiment table | Ba tagging weakens discrimination |
-| 7 | Exact μ; flavor distribution; ρ_inf closure | **OPEN-BLOCKED** | §2 open | **OPEN-THEORY** + α_c instrument offline |
+| 7 | Exact μ; flavor distribution; ρ_inf closure | **OPEN-BLOCKED** | §2 open | **OPEN-THEORY** + α_c **STOPPED, INCONCLUSIVE** |
 | 8 | `neutrino-mbb` arXiv package | **READY_PACKAGE** not posted | papers/ · arXivReady · arxiv_owner_prep | Fairbank HOLD / posting state: see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
 | 9 | Fairbank correspondence / letter | **WATCH-EXTERNAL** / **HOLD** | fairbank_note_draft; HOLD companion | Owner-only; not a second TeX package; see `working_logs/_runs/blocked_lane_fairbank_hold_20260805/REPORT.md` |
 

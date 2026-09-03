@@ -1,9 +1,26 @@
 name: Build and light test
 
-on: [push]
+# Self-hosted CLASS runner is offline (AWS suspended 2026-08-27).
+# Jobs skip unless repo variable CLASS_SELF_HOSTED is the string true.
+# Markdown/docs-only pushes do not start this workflow.
+on:
+  push:
+    paths:
+      - 'source/**'
+      - 'include/**'
+      - 'python/**'
+      - 'cpp/**'
+      - 'Makefile'
+      - 'makefile'
+      - 'explanatory.ini'
+      - 'hyrec/**'
+      - 'external/**'
+      - 'tools/**'
+      - '.github/workflows/test_on_push.yml'
 
 jobs:
   build:
+    if: ${{ vars.CLASS_SELF_HOSTED == 'true' }}
     runs-on: [self-hosted]
 
     steps:
@@ -17,6 +34,7 @@ jobs:
       run: cd main_class && ./class explanatory.ini
 
   nose_tests_lvl1:
+    if: ${{ vars.CLASS_SELF_HOSTED == 'true' }}
     runs-on: [self-hosted]
 
     steps:

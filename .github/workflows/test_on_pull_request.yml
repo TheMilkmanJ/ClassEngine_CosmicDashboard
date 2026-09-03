@@ -1,9 +1,26 @@
 name: Nosetests lvl2
 
-on: [pull_request]
+# Self-hosted CLASS runner is offline (AWS suspended 2026-08-27).
+# Jobs skip unless repo variable CLASS_SELF_HOSTED is the string true.
+# Docs-only PRs do not start this workflow (no CLASS make, no plot upload).
+on:
+  pull_request:
+    paths:
+      - 'source/**'
+      - 'include/**'
+      - 'python/**'
+      - 'cpp/**'
+      - 'Makefile'
+      - 'makefile'
+      - 'explanatory.ini'
+      - 'hyrec/**'
+      - 'external/**'
+      - 'tools/**'
+      - '.github/workflows/test_on_pull_request.yml'
 
 jobs:
   nose_tests_lvl2:
+    if: ${{ vars.CLASS_SELF_HOSTED == 'true' }}
     runs-on: [self-hosted]
 
     steps:
