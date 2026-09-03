@@ -27,7 +27,7 @@ or “bbnfix NOT YET” because that was true **on the stamp date**. Those lines
 
 ## Live machine facts (2026-08-24)
 
-- Nested: LCDM UltraNest one-legs **FINISHED** (SH0ES −1413.4857 ± 0.5842, TRGB −1374.3615 ± 0.3982, noH0 −1374.4346 ± 0.3765). Dyad UN + PolyChord still live. Mid-run logZ **forbidden**. No twin ΔlnZ.
+- Nested: On SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler. No nested ΔlnZ.
 - zon_disp retune **STOPPED** (R−1=0.036); GetDist **INCONCLUSIVE** on `log10_zon` (7.57±0.51). Package `zon_disp_retune_grade_20260821`
 - Stage A MCMC **BOOKED** for three stacks (old-BAO SH0ES; DESI-DR2 SH0ES; DESI-DR2 TRGB)
 - conv_desi retune **STOPPED** (R−1=0.0447); GetDist **INCONCLUSIVE** on `dcdf_conv_g` (0.080±0.072). Package `conv_desi_retune_grade_20260824`. Not a KiDS shear fit.
