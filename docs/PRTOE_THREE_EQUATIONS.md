@@ -87,11 +87,11 @@ data speaks** — the object the evidence comparison (Laplace-from-MCMC; nested 
 | ε | 1.2403 ± 0.0079% | the concordance joint of fit and stack | conditional (three referees) |
 | A_s | **2.088×10⁻⁹ frozen**; the closed form (α_c/4πk)³ = **2.081×10⁻⁹** — it lands **−0.34%** | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
 | n_s | 0.9677 = 1 − 2/ln(T₀/k*) k-local, predicted running α_s = −5.2×10⁻⁴ (the executed run value 0.9641 is the established k-independent form, now consistency-check grade) | the modulation map: envelope × shot on the verified k_UV = T₀ anchor; the 2 = amplitude-squared | mechanism candidate (exhibited) |
-| z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass resting on that clock alone — **the "confirmed independently" wording was withdrawn 2026-07-28** (circularity sweep, check 34: ξ ≡ ℏ/(m c_s) is *defined* from m so it confirms nothing; the Schive comparison is unresolved; the superradiance band is an exposure) — and the superradiance window, which the mass **clears** (M87*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
+| z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass resting on that clock alone — **the "confirmed independently" wording was withdrawn 2026-07-28** (circularity sweep, check 34: ξ ≡ ℏ/(m c_s) is *defined* from m so it confirms nothing; the Schive comparison is unresolved; the superradiance band is an exposure) — and the superradiance window, which the mass **clears** (M87\*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
 | *(the evidence run's setting)* | 3.5619×10⁷ | a profiled freeze, 0.053 dex below the identity — it implies m = 1.75×10⁻²⁰, which misses all three mass checks by ≈28% | **inconsistent with the model's own mass; the run tests this point, not the identity** |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | ≈61.35 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits ~2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |
-| T_c | **177.10 keV** (τ = ¼ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
+| T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the standing `YHe` treatment; a re-measurement is queued and the value may move |
 
 ΛCDM meets the same data with six free parameters; this stack fits with **zero continuous
@@ -128,7 +128,7 @@ Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file uses: [Gross1961],[Pita
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence claim | **complete-conditional** / existence | banner; CC file | Lattice τ; radiative band |
-| 2 | τ = ¼ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
+| 2 | τ = ½ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
 | 3 | Eq1 dCDF substrate | **derived** (structural) + **machine-backed** (CLASS) | Equation 1; [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md); CLASS `use_dcdf` | Structural dCDF seating derived; residual magnitude / route forks in dcdf_superfluid + CC |
 | 4 | Eq2 ε → H₀≈69.9; Laplace-from-MCMC only | **machine-backed** provisional | Equation 2 | Nested **launched, no twin ΔlnZ** |
 | 5 | Eq3 ε stack c·f̄·α_c | **complete-conditional** | Equation 3 | c assumed; α_c **STOPPED, INCONCLUSIVE** |
