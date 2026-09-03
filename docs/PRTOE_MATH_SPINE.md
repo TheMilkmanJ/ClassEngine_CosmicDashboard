@@ -323,7 +323,7 @@ CONFIRMS, not decides.
 
 m_e shifted by ε = 1.24% inside the window (H₀ fix; the historical pre-bbnfix Laplace line is
 ΔlnZ = +2.635, SH0ES-conditional, while the **current booked old-BAO pair** is weaker at
-sample-covariance **ΔlnZ ≈ +0.21**; nested sampling is **launched** (LCDM UltraNest one-legs finished; dyad unfinished; no twin ΔlnZ), so the estimate still lacks a nested confirmer and its margin over any decision threshold
+sample-covariance **ΔlnZ ≈ +0.21**; on SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler (no nested ΔlnZ), so the estimate still lacks a nested confirmer and its margin over any decision threshold
 remains inside its own systematic);
 screening returns m_e → standard below z ≈ 50 [survival form S = exp[−(C²/C_ref²)^n_eff],
 n_eff ≥ 35]. Optional rotation-shed `dcdf_conv_g` — the matter component draining into dark

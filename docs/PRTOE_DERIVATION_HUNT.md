@@ -961,7 +961,7 @@ and it is now missing in the harder form ([PRTOE_hierarchy_problem.md](explorato
   measured 2.100×10⁻⁹; the −0.35% quoted beside the pipeline's frozen input is the closed form
   against its own value at the concordance k, a k-spread rather than a test of the count.
   The referee is the zero-parameter comparison graded from Laplace-from-MCMC (the laptop nested run
-  ended 2026-07-20; nested sampling is **launched** — LCDM UltraNest one-legs finished; dyad unfinished; no twin ΔlnZ) — the Eliashberg k-audit has run, placing k
+  ended 2026-07-20; on SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler (no nested ΔlnZ) — the Eliashberg k-audit has run, placing k
   in [1.35, 1.37] at three-way concordance.
   **The forward target, typed, and the mechanism class ruled (#184, 2026-07-20).** As a ratio, the
   closed form asserts **k_*ξ = (2π²A_s)^⅓ = 3.45×10⁻³ at R = 1**, and what kind of object that is
@@ -1278,7 +1278,7 @@ entire remaining open surface is:
 | the seat constant b | κ_m's exact value | the constituent-level build |
 | T_c/√σ for SU(2), N_f = 3 | the headline result's ±4.2% → a 0.44%-class prediction (**P-2026-048: crown/null sky-limited** at present ρ_Λ precision; live falsifier **clause 4**) | the lattice (external; the note approved for circulation) |
 | ΔN_eff ∈ [0.06, 0.24] | the genesis ζ window | CMB-S4 |
-| the production referees (f̄ ensemble; α_c **STOPPED, INCONCLUSIVE**; nested launched, no twin ΔlnZ) | the ε decomposition; the model vs ΛCDM | local compute time |
+| the production referees (f̄ ensemble; α_c **STOPPED, INCONCLUSIVE**; SH0ES nested: close enough to compare, not booked) | the ε decomposition; the model vs ΛCDM | local compute time |
 | the +2.51% dark-ages frequency offset | the ε mechanism, astrophysics-free | lunar-farside 21-cm |
 
 Conditions settled by analysis this cycle: the Koide aggregation supply (N ≈ 1.5×10¹⁸, nine
