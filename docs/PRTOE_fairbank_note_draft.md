@@ -20,7 +20,7 @@
 > Evidence honesty: old-BAO sample-cov Laplace only **ΔlnZ ≈ +0.21** (soft modes) — **do not**
 > upgrade this letter into an evidence win. DESI-DR2 is a **separate** Stage A booked stack
 > (dyad H₀ **70.30±0.54** / lcdm **68.73±0.25**; peel in `docs/chains/*_desidr2.*`) — do not mix.
-> Nested PolyChord still open. Cross-links:
+> Nested sampling is **launched** (LCDM UltraNest one-legs finished; dyad unfinished; no twin ΔlnZ). Cross-links:
 > [neutrino_full_honesty](working_logs/_runs/neutrino_full_honesty_20260804/REPORT.md) ·
 > [arxiv_owner_prep](working_logs/_runs/arxiv_owner_prep_20260804/REPORT.md) ·
 > [neutrino_home](PRTOE_neutrino_home.md) · [HOLD companion](exploratory/PRTOE_fairbank_note_HOLD.md).
@@ -96,7 +96,7 @@ Shifted calibration frees damping-tail budget that ΛCDM spends against neutrino
 
 ## Status of the cosmological fits
 
-Provisional fit diagnostics (sound-horizon driven; SH0ES included though that calibration pulls the other way) have sat near H₀ ≈ 69.9 on Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES. **Do not quote H₀ ≈ 69.9, any “outperform ΛCDM” claim, or a best-fit comparison as a result.** Chains are still being brought to convergence under a corrected sampler; the value may move.
+Provisional fit diagnostics (sound-horizon driven; SH0ES included though that calibration pulls the other way) have sat near H₀ ≈ 69.9 on Planck 2018 + ACT DR6 + SPT-3G + BAO + Pantheon+SH0ES. **Do not quote H₀ ≈ 69.9, any “outperform ΛCDM” claim, or a best-fit comparison as a result.** Stage A MCMC is booked; nested twins remain unfinished. The value is SH0ES-conditional and not a nested verdict.
 
 **A stopped run from late July looked better than it was, and we stopped it rather than quote it.** Best fit 1377.89 (model) vs 1379.79 (ΛCDM) — 1.9 log units our way. **That number was never quotable.** Its three parallel chains sat at best fits **1377.9, 1610.6, 1440.6** with H₀ = 69.5, 64.0, 64.8 — three regions, not one posterior. The 1377.89 was one chain that found a good region. The reference ΛCDM chains were better behaved (spread 0.43) but not converged either. Acceptance was **5.3–6.2%** (model) and 8.5–8.9% (ΛCDM) vs a ~25% target; proposal poorly matched. Re-tuning is a collective checkpoint all ranks must reach; one rank lagged and the other two waited. **No convergence statistic was computed for that run** (empty progress file). Proposal reseeded from the good chain; acceptance moved to **31%**.
 
@@ -116,10 +116,7 @@ letter remains the historical, SH0ES-conditional Laplace estimate only as histor
 old-BAO pair’s current volume-aware Laplace is ≈+0.21.
 
 **Zero-parameter evidence test.** Amplitude, tilt, coupling, and transition epoch frozen in advance
-vs ΛCDM at full freedom. Nested sampling on the current stack is now a **four-leg DESI-DR2 gold
-program** (SH0ES dyad/lcdm + TRGB dyad/lcdm) that is **designed not launched** while the 512-vCPU
-quota request remains CASE_OPENED. Until a nested pair actually runs and finishes:
-Laplace-from-MCMC. Caveat: transition epoch frozen at a **profiled** value 0.053 dex from the
+vs ΛCDM at full freedom. Nested sampling is **launched** (UltraNest + PolyChord on SH0ES, TRGB, and noH0). LCDM UltraNest one-legs are **finished**; dyad legs are not. There is **no nested ΔlnZ**. Until a nested twin finishes: Laplace-from-MCMC. Caveat: transition epoch frozen at a **profiled** value 0.053 dex from the
 model’s onset identity (~28% in dark-fluid mass). **The graded configuration is near the model, not
 the stated one.**
 
@@ -192,7 +189,7 @@ Framing: 0νββ decides whether lepton number is an enforced charge (field-back
 | 1 | Σm_ν ≈ 61.35 meV NO; m_ββ ∈ [0.04, 5.3] meV | **complete-conditional** | neutrino_sector bridge | Relation registered, not first-principles; **≠** booked joint posterior |
 | 2 | Only nEXO overlaps; null does not confirm | **machine-backed** / literature | experiment tables | Phases can cancel |
 | 3 | Does not derive 2.25 meV | **honest fence** | qualifications | One number, two jobs |
-| 4 | Fit status / multi-basin stopped run not quotable; old-BAO pair later booked but does **not** yield a strong evidence win | **honest constraint** | status section; booking receipt | **OPEN-EVIDENCE:** booked old-BAO sample-cov Laplace only ≈ +0.21; DESI-DR2 pair still open |
+| 4 | Fit status / multi-basin stopped run not quotable; old-BAO pair later booked but does **not** yield a strong evidence win | **honest constraint** | status section; booking receipt | **OPEN-NESTED:** booked old-BAO sample-cov Laplace only ≈ +0.21; DESI-DR2 Stage A booked; nested launched, no twin ΔlnZ |
 | 5 | Experimental letter draft (Fairbank) · **CORPUS_ONLY** | **meta** / draft · **HOLD** | banner; HOLD companion | **WATCH-EXTERNAL:** correspondence path only; not a production booking or independent posting path |
 | 6 | Ship vehicle is `neutrino-mbb` only | **READY_PACKAGE** not posted | arXivReady; arxiv_owner_prep | **No** second Fairbank TeX; **no** arXiv post without endorsement/ID |
 
