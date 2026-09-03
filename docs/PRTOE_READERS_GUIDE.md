@@ -1,1 +1,1 @@
-# Reader’s guide — plain physics, no house dialect
+FULL_FROM_DISK
