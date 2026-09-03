@@ -31,7 +31,7 @@ Glossary: [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md). Conditionality: [PRT
 > | `dyad_mnu_bbnfix_desidr2` | 53482 | **0.03321** | **true** | **70.30 ± 0.54** |
 > | `cmp_lcdm_mnu_bbnfix_desidr2` | 52031 | **0.041377** | **true** | **68.73 ± 0.25** |
 >
-> DESI sample-cov Laplace **ΔlnZ ≈ +1.31** (still soft modes; not nested). Nested referee: UltraNest + PolyChord live on SH0ES, TRGB, and noH0. LCDM UltraNest one-legs are **finished**; dyad legs are not. **No nested ΔlnZ yet.**
+> DESI sample-cov Laplace **ΔlnZ ≈ +1.31** (still soft modes; not nested). On SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler. No nested ΔlnZ.
 >
 > **What remains open:** nested-quality comparison on DESI-DR2; do **not** use intermediate log(Z)
 > or MAP peeks as evidence.
@@ -126,12 +126,12 @@ Common-framework comparison [Schöneberg et al. 2026]: residual tension after ea
 |---|---|---|---|---|
 | 1 | ε at recombination lifts H₀ relative to ΛCDM | **machine-backed** | production fit; old-BAO booking receipt; CLASS | Historical fixed-ε ~69.9 line remains pre-bbnfix; current booked old-BAO dyad is **70.052 ± 0.716**; DESI-DR2 Stage A booked; nested twins still open |
 | 2 | Ladder ceiling ~70.9–71.3; cannot reach 73 | **machine-backed** | H0_CEILING; ς = −1 | Residual tension owned |
-| 3 | Evidence remains marginal | **machine-backed** current + historical | booked old-BAO sample-cov Laplace; earlier MCMC Laplace | **OPEN-NESTED:** current booked pair is only **ΔlnZ ≈ +0.21**; historical **+2.6** remains pre-bbnfix; nested launched, no twin ΔlnZ |
+| 3 | Evidence remains marginal | **machine-backed** current + historical | booked old-BAO sample-cov Laplace; earlier MCMC Laplace | **OPEN-NESTED:** current booked pair is only **ΔlnZ ≈ +0.21**; historical **+2.6** remains pre-bbnfix; SH0ES nested: close enough to compare, not booked |
 | 4 | ε stack c·f̄·α_c conditional | **complete-conditional** | THE_AMPLITUDE | α_c instrument STOPPED, INCONCLUSIVE |
 | 5 | EDE better residual tension (~2.5σ vs ~4.25σ class) | **interpretation** (literature scoreboard) | Schöneberg 2026 table | Model cheaper/falsifiable, not better-fitting; desk fairness paid (T11) |
 | 6 | SN candle term pushes ladder *down* (ς = −1) | **machine-backed** | 162-template scan | Real-SN synthetic photometry appeal open |
 | 7 | Kill: same ε on all messengers; DESI w; radio locks; He adverse | **registered** | §6 kill list | — |
-| 8 | Current-stack nested-quality H₀ / model−ΛCDM evidence sentence | **OPEN-BLOCKED** | residual freeze 2026-08-08 | **OPEN-NESTED:** DESI-DR2 Stage A booked; nested launched, dyad unfinished, no twin ΔlnZ |
+| 8 | Current-stack nested-quality H₀ / model−ΛCDM evidence sentence | **OPEN-BLOCKED** | residual freeze 2026-08-08 | **OPEN-NESTED:** DESI-DR2 Stage A booked; SH0ES nested: close enough to compare, not booked |
 
 **Non-claims / forbidden:** not a closed H₀ win; not full SH0ES account; not nested-confirmed
 evidence; no live DESI-DR2 peek numbers as letter results; historical **+2.6** is not the current
