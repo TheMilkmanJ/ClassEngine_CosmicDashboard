@@ -10,7 +10,7 @@ conditions, and live risk posture, start with
 > dual-gate receipt, with SH0ES-conditional GetDist values recorded in
 > [PRTOE_CHAIN_TABLES.md](PRTOE_CHAIN_TABLES.md). Evidence honesty on that booked pair is still
 > weak: sample-covariance Laplace **ΔlnZ ≈ +0.21**, not a nested-quality win. Stage A MCMC is **booked** on old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB (do not mix).
-> Nested sampling is **launched**; LCDM UltraNest one-legs are finished; dyad legs are not; no twin ΔlnZ is booked. BBN ε arithmetic remains **verified internal**;
+> On SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler. No nested ΔlnZ. BBN ε arithmetic remains **verified internal**;
 > **external win pending DOI**.
 
 *Written for the newcomer and the external reviewer. Working documents in this repository use a
@@ -96,7 +96,7 @@ Retired-era documents may use letters differently; those files carry banners.
 - The historical statistical win (ΔlnZ = +2.635) is a **Laplace** estimate, SH0ES-conditional and
   marginal (pre-bbnfix stack). The **current booked old-BAO pair** is weaker: sample-covariance
   Laplace only **ΔlnZ ≈ +0.21** with soft modes. The **current live** DESI-DR2 MCMCs are **not
-  bookable**, and nested sampling is **launched**; LCDM UltraNest one-legs are finished; dyad legs are not; no twin ΔlnZ is booked. Do not treat the
+  bookable**, and on SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler. No nested ΔlnZ. Do not treat the
   live DESI-DR2 R−1 values as booked products.
 - **A_s closed form** is a candidate (counting mechanism half-derived; frozen into the production
   configs by explicit decision, with the risk documented — not the output of a converged posterior).
