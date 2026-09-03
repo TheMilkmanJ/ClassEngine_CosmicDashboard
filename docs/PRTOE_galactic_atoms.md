@@ -1,14 +1,14 @@
 # Galactic Atoms — Which Galaxies Have a Ground State (2026-07-11)
 
-> ## OPEN-MACHINE residual freeze — 2026-08-04
+> ## Residual freeze — 2026-09-02 (zon_disp STOPPED / INCONCLUSIVE)
 >
-> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on α_c → m → r_1s propagation.
+> **Status:** α_c instrument **STOPPED**; GetDist **INCONCLUSIVE** — **OPEN-BLOCKED** on using `log10_zon` as a 3α confirmation or as a tight m pin for r_1s.
 >
-> **Machine residual waiting:** (1) α_c / onset posterior from zon_disp-class instrument — **not running** (last R−1≈17.81; collapsed; seed ready, owner restart). (2) Propagation of that m posterior to soliton r_1s / GC budget (T1 item 2). Live bbnfix pair does **not** sample α_c / zon for this pin; bookable **no** on unrelated H₀ gate either (`PRTOE_CHAIN_TABLES.md`).
+> **Machine residual:** (1) zon_disp retune **STOPPED** (R−1=0.036, `converged: true`); GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511` (7.55, 7.70, and 7.85 all inside 68%). Not α_c = 3α. Do **not** keep last R−1≈17.81 as current. (2) Propagation of a tight m posterior to soliton r_1s / GC budget remains blocked by that inconclusive clock. Live bbnfix pair does **not** sample α_c / zon for this pin.
 >
-> **What unblocks:** owner restart of `cmp_prtoe_zon_disp` (or successor onset instrument) → cobaya self-stop → GetDist α_c / log10 z_on → propagate m to r_1s; dwarf kinematics program for positive detection channel.
+> **What remains:** dwarf kinematics program for positive detection channel; do not quote `log10_zon` as a pair-call hit.
 >
-> **Forbidden claims:** “resolves GC tension” as closed; free improvement over CDM without α_c; quoting unconverged zon_disp center as measured m.
+> **Forbidden claims:** “resolves GC tension” as closed; free improvement over CDM without α_c; quoting zon_disp as measured m or as α_c = 3α.
 >
 > **Blocked-lane audit:** shared `zon_disp` lane frozen in
 > [blocked_lane_zondisp_20260805/REPORT.md](working_logs/_runs/blocked_lane_zondisp_20260805/REPORT.md).
@@ -21,8 +21,7 @@ structural (candidate) with computed numbers — **and one boundary, priced**: t
 halos below σ ≈ 77 km/s (M_h ≈ 3×10¹¹ M☉) and not above, because a dominant nuclear black hole
 takes the core radius inside its own sphere of influence (P-2026-054). The Milky Way is on the
 far side of that line, which is the **priced candidate route** to the Galactic Centre's 3× tension
-(P-054; α_c → r_1s and GC budget remain **OPEN-MACHINE** live tests — not a closed solve; freeze
-2026-08-04). Distinctive
+(P-054; α_c → r_1s and GC budget remain **OPEN** — zon_disp **STOPPED** / GetDist **INCONCLUSIVE**, not a closed solve). Distinctive
 structure vs standard CDM: a predicted, computable ground-state object in every halo below the
 boundary — not a free "improvement" claim until α_c / data confrontation lands.*
 
@@ -32,7 +31,7 @@ If the dark matter is a condensate of quanta with mass m, every galaxy is litera
 **gravitational atom**: a self-bound quantum system with a ground state (the central soliton —
 "the 1s orbital"), an excited spectrum (the granule/halo structure), and a binding scale set by
 the gravitational coupling. This is standard fuzzy-DM structure — the model's additions are
-(i) the mass is recorded, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV — carrying the roster-trial conditionality of its pin — the H=m onset value the α_c instrument is meant to referee; zon_disp unconverged, not currently running), and (ii) the grammar is the same one that derived the cosmic floor
+(i) the mass is recorded, not tuned per-galaxy (m = 2.24×10⁻²⁰ eV — carrying the roster-trial conditionality of its pin — the H=m onset value the α_c instrument is meant to referee; zon_disp **STOPPED**, GetDist **INCONCLUSIVE**), and (ii) the grammar is the same one that derived the cosmic floor
 (the Bohr×BEC skeleton).
 
 ## 1. The ground state, computed
@@ -161,8 +160,8 @@ written at genesis.*
 
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
-| 1 | Galactic DM = gravitational atom with fixed m = 2.24×10⁻²⁰ eV | **complete-conditional** (candidate) | §0–1 | m roster-trial / α_c; zon_disp **not running** (R−1≈17.81) |
-| 2 | Soliton core scalings (Schive-class OOM) at recorded m | **machine-backed** OOM | §1 | **OPEN-MACHINE:** α_c posterior → r_1s (T1) |
+| 1 | Galactic DM = gravitational atom with fixed m = 2.24×10⁻²⁰ eV | **complete-conditional** (candidate) | §0–1 | m roster-trial / α_c; zon_disp **STOPPED**, **INCONCLUSIVE** (`log10_zon = 7.571 ± 0.511`) |
+| 2 | Soliton core scalings (Schive-class OOM) at recorded m | **machine-backed** OOM | §1 | **INCONCLUSIVE** clock: α_c posterior → r_1s still not a tight pin (T1) |
 | 3 | Survives Lyman-α / RC constraints that killed lighter FDM | **interpretation** + scale arithmetic | §1 | Heavier m → sub-pc cores |
 | 4 | Soliton boundary: survives below σ≈77 km/s (P-2026-054); MW excluded by BH SoI | **complete-conditional** | §1 priced 2026-07-18 | GC 1 pc adverse if soliton formed |
 | 5 | Dwarf clean test (no central BH) | **OPEN** (prediction) | §1 | Needs kinematics program |
@@ -171,4 +170,4 @@ written at genesis.*
 
 **Non-claims / forbidden:** not “every nucleus hosts a soliton”; MW GC naive prediction excluded; not MOND; not “resolves GC tension” closed.
 
-**Triage:** elevate-in-place. Physics ceiling: candidate + priced boundary; m **OPEN-BLOCKED** (α_c; 2026-08-04).
+**Triage:** elevate-in-place. Physics ceiling: candidate + priced boundary; m **OPEN-BLOCKED** (α_c STOPPED / INCONCLUSIVE; 2026-09-02).
