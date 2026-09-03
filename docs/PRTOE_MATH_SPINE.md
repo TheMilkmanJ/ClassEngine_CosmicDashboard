@@ -34,3 +34,21 @@
 > the model reading the sky back. **Living P-048 currency:** that crown/null fork is **sky-limited**
 > (even σ=0 lattice ~0.98σ under present ρ_Λ error). **Live falsifier is clause 4** — τ̂ outside
 > [0.330, 0.370] — not a lattice CONFIRM of the 0.44% gap alone.
+
+
+> *New reader? House terms decode in [PRTOE_READERS_GUIDE.md](PRTOE_READERS_GUIDE.md); claim conditionality maps in [PRTOE_DEPENDENCY_TREE.md](PRTOE_DEPENDENCY_TREE.md). Residual freezes and ordered open work: [working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md](working_logs/_runs/THEORY_WALLS_QUEUE_20260803.md), [working_logs/_runs/next_queue_20260804/](working_logs/_runs/next_queue_20260804/).*
+
+> **Paper path (2026-08-05).** This file is a **corpus hub**, not a submission artifact. The
+> only live public-paper extraction from this spine is `papers/kination-tracking-note/` /
+> [arXivReady](arXivReady/README.md), which is **READY_PACKAGE**. Keep the spine as the wider
+> derivation record; ship only narrow extracts with self-contained claims.
+
+
+*2026-07-10. The full quantitative chain in one document: every epoch, its governing equation,
+what is derived vs input vs phenomenological, and where it lives in the code. Cross-references:
+PRTOE_me_mechanism_math.md (electron-mass sector detail), PRTOE_cyclic_torus_genesis.md
+(origin narrative), PRTOE_UV_completion.md, PRTOE_cosmological_constant.md (J1).*
+
+---
+
+## 0\. The objects
