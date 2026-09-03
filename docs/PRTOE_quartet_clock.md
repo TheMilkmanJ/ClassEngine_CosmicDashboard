@@ -1,14 +1,12 @@
 # The Quartet Clock — Whose Mass Does the Onset Read? (2026-07-12)
 
-> ## OPEN-MACHINE residual freeze — 2026-08-04
+> ## Residual freeze — 2026-09-02 (Clock verdict: INCONCLUSIVE)
 >
-> **Status:** OPEN-MACHINE / **OPEN-BLOCKED** on instrument verdict.
+> **Status:** zon_disp retune **STOPPED** (R−1=0.036, `converged: true`); GetDist **INCONCLUSIVE**.
 >
-> **Machine residual waiting:** `cmp_prtoe_zon_disp` readout of registered pair call (lineup 7.55 / 7.70 / 7.85). Instrument **not running** — last progress R−1 = **17.81** (N=3456, 2026-07-22); checkpoint `converged: false`; seed ready, owner restart. Live bbnfix/routeD trio does **not** replace zon_disp.
+> **Clock verdict:** `log10_zon = 7.571 ± 0.511`; 68% contains **7.55, 7.70, and 7.85**. Not α_c = 3α. Do **not** keep last R−1≈17.81 as current (that stamp is the archived collapsed run). Live bbnfix/routeD trio does **not** replace zon_disp.
 >
-> **What unblocks:** owner restart of `cmp_prtoe_zon_disp` → cobaya self-stop at R−1 stop → GetDist center for log10 z_on graded against §5 registered call.
->
-> **Forbidden claims:** instrument confirmation of pair call; quoting cumulative mean ~7.55 at stop as a result; near-miss 7.5494 as measured hit.
+> **Forbidden claims:** instrument confirmation of pair call; quoting cumulative mean ~7.55 as a result; near-miss 7.5494 as measured hit; α_c = 3α.
 >
 > **Blocked-lane audit:** shared `zon_disp` lane frozen in
 > [blocked_lane_zondisp_20260805/REPORT.md](working_logs/_runs/blocked_lane_zondisp_20260805/REPORT.md).
@@ -20,8 +18,7 @@
 > (§4a: the recorded repulsive λ forbids quartet binding; the Z4 term locks phases, not composites).
 > The §1 three-way lineup stands as the dated record only — its marks were retired by the two-clock
 > correction (§4b). The live object is §5's registered pair call (lineup 7.55 / 7.70 / 7.85), read
-> against the zon_disp instrument — unconverged (last R−1 = **17.81**, freeze 2026-08-04) and **not currently
-> running** (collapsed run archived; seed ready, owner restart). No verdict yet. Found during a
+> against the zon_disp retune: **STOPPED**; GetDist **INCONCLUSIVE** (`log10_zon = 7.571 ± 0.511`; 68% contains 7.55, 7.70, and 7.85). Not α_c = 3α. Found during a
 > hygiene ritual. Conditional on: the roster hypothesis (the composite vacuum) and P-2026-040.
 
 ## 0. The question
@@ -44,9 +41,8 @@ Composite units shift it by $+\tfrac{1}{2}\log_{10} N_{\rm unit}$:
 | pair | $2m$ | **7.74** |
 | **quartet** | $4m$ | **7.89** |
 
-**The α_c chain's interim center: 7.94 ± 0.02** (unconverged, watch-only, instrument not
-running; template systematic ±0.2). The lineup is registered before convergence — the center
-selects, and no reading can be adopted after the fact.
+**The α_c chain's interim center: 7.94 ± 0.02** (historical old-template chain, watch-only;
+template systematic ±0.2). The live zon_disp retune is **STOPPED**; GetDist **INCONCLUSIVE**. The lineup is registered before a tight center — no reading can be adopted after the fact.
 
 ## 2. Why a quartet is model-native (the mechanism sketch, owed its derivation)
 
@@ -65,9 +61,7 @@ studied distinction).
 If the quartet reading holds, the P-2026-040 corollary's apparent tension inverts: the chain
 center the constituent clock calls adverse becomes the quartet clock's confirmation zone
 (the $3\alpha$ prediction moves $7.59 \to 7.89$). **The chain state:** the
-dispersion instrument (zon\_disp) last sat at $\approx 7.7$ with $R{-}1 \approx 23$ —
-far from the $R{-}1 < 0.05$ bar, and **it is not running** — so **nothing confirms anything
-yet**; the 7.94 mark belongs to the old-template chain, not this one. On today's face value the nearest rung is the
+dispersion instrument (zon\_disp retune) is **STOPPED** (R−1=0.036, `converged: true`); GetDist **INCONCLUSIVE** (`log10_zon = 7.571 \pm 0.511`; 68% contains 7.55, 7.70, 7.85) — so **nothing confirms 3α**; the 7.94 mark belongs to the old-template chain, not this one. The archived collapsed run's R−1≈17.81 is **not** current. On today's face value the nearest rung is the
 **pair** (7.74), which by §4 would kill the quartet, not the model — the converged center
 alone decides among the three rungs. The "gap" dissolves one level deeper only if the
 composite reading survives that referee. The triangle (occupancy + 3α + $x_0$), the freeze cascade, and P-2026-042's
@@ -89,9 +83,7 @@ The onset-clock identity (include/background.h, the coded T = 9.46 keV derivatio
 ## 4a. Resolved by stability: the unit is the pair
 Quartets require attractive pair-pair coupling; the model's recorded real sound speed
 (c_s = √α_c) forces λ > 0 — repulsive — so quartets do not bind. The Z4 term locks
-phases, not composites — two different objects (failures ledger). The
-pair call is derived, not merely registered. The α_c / zon_disp instrument, unconverged
-and not currently running, remains the referee (§4b).
+phases, not composites — two different objects (failures ledger). The pair call is derived, not merely registered. The α_c / zon_disp instrument is **STOPPED**; GetDist **INCONCLUSIVE** — it remains the referee and does **not** confirm 3α (§4b).
 
 **The plain-language completion:** "It's running
 forward and mirroring backwards. It doesn't need 2 more to do that." — the necessity half
@@ -103,10 +95,7 @@ nothing to do. Impossibility and pointlessness, one verdict.
 **Bets graded:** the twins bet — won (derived). The exact-number
 bet — lost (the registered 7.72 against the collapsed mark 7.547; the 7.70/7.72
 zone is a constructional double-count).
-The live stakes once the instrument runs again: the chain (last drifting 7.66→7.77) must
-descend to ~7.55 for α_c = 3α to confirm — which makes the crest-and-descend trajectory call
-load-bearing for P-2026-040 itself: if the descent materializes and lands at 7.55, the
-trajectory call and 3α confirm in the same breath.
+The live stakes after stop: GetDist is **INCONCLUSIVE** (68% contains 7.55, 7.70, and 7.85), so α_c = 3α is **not** confirmed. Do not quote the archived collapsed-run trajectory as a current result.
 
 ## 4b. Why the §1 marks do not grade a center
 The two-clock structure (two components — the zero-mode's H = m and the winding mode's
@@ -149,8 +138,7 @@ chain even that is not evidence against the call.
 model's two-fluid identity — the superfluid's two-fluid hydrodynamics, the complex
 field's two real degrees of freedom, and the gap equation's independent first-pass hint
 (N = 2 channels, k = 1.36) — makes "2" the resident's natural count. The call is
-timestamped against the cmp_prtoe_zon_disp instrument (lineup 7.55 / 7.70 / 7.85; not
-currently running); whatever a future converged center selects, this line does not move.
+timestamped against the cmp_prtoe_zon_disp instrument (lineup 7.55 / 7.70 / 7.85; retune **STOPPED**, GetDist **INCONCLUSIVE**); whatever a future tighter center selects, this line does not move.
 
 ---
 
@@ -160,11 +148,11 @@ currently running); whatever a future converged center selects, this line does n
 |---|---|---|---|---|
 | 1 | Oscillating unit is the **pair** (not quartet) | **derived** | §4a; λ>0 forbids quartet binding | Z4 locks phases not composites |
 | 2 | Registered pair call log10 z_on ≈ 7.70 (lineup 7.55/7.70/7.85) | **registered** | §5 | Quartet rung retired |
-| 3 | zon_disp instrument decides among rungs | **OPEN-BLOCKED** | freeze 2026-08-04; R−1=17.81 | **OPEN-MACHINE:** not running; no center to grade |
+| 3 | zon_disp instrument decides among rungs | **INCONCLUSIVE** | freeze 2026-09-02; R−1=0.036 | **STOPPED:** GetDist `log10_zon = 7.571 ± 0.511`; 68% contains 7.55, 7.70, 7.85. Not α_c = 3α |
 | 4 | Quartet as Z4-locked molecule | **failed / retired** framing | §2 gap; §4a; Failures | — |
 | 5 | Cumulative mean ~7.55 at stop is meaningless | **honest constraint** | segment means 0.19 wide | Do not quote as confirmation |
 | 6 | Conditional on roster hypothesis + P-2026-040 | **complete-conditional** | banner | — |
 
 **Non-claims / forbidden:** no instrument verdict; near-miss 7.5494 not a result; no “confirmed by chain” language.
 
-**Triage:** elevate-in-place. Physics ceiling: pair derived; instrument **OPEN-BLOCKED** (2026-08-04).
+**Triage:** elevate-in-place. Physics ceiling: pair derived; instrument **STOPPED / INCONCLUSIVE** (2026-09-02).
