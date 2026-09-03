@@ -91,7 +91,7 @@ data speaks** — the object the evidence comparison (Laplace-from-MCMC; nested 
 | *(the evidence run's setting)* | 3.5619×10⁷ | a profiled freeze, 0.053 dex below the identity — it implies m = 1.75×10⁻²⁰, which misses all three mass checks by ≈28% | **inconsistent with the model's own mass; the run tests this point, not the identity** |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | ≈61.35 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits ~2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |
-| T_c | **177.10 keV** (τ = ¼ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
+| T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the standing `YHe` treatment; a re-measurement is queued and the value may move |
 
 ΛCDM meets the same data with six free parameters; this stack fits with **zero continuous
@@ -128,7 +128,7 @@ Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file uses: [Gross1961],[Pita
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence claim | **complete-conditional** / existence | banner; CC file | Lattice τ; radiative band |
-| 2 | τ = ¼ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
+| 2 | τ = ½ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
 | 3 | Eq1 dCDF substrate | **derived** (structural) + **machine-backed** (CLASS) | Equation 1; [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md); CLASS `use_dcdf` | Structural dCDF seating derived; residual magnitude / route forks in dcdf_superfluid + CC |
 | 4 | Eq2 ε → H₀≈69.9; Laplace-from-MCMC only | **machine-backed** provisional | Equation 2 | SH0ES nested: close enough to compare, not booked |
 | 5 | Eq3 ε stack c·f̄·α_c | **complete-conditional** | Equation 3 | c assumed; α_c **STOPPED, INCONCLUSIVE** |
