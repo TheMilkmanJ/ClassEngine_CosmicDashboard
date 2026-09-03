@@ -4,7 +4,7 @@
 > Regenerated per run at its landing; the running pair and Route-D join
 > at convergence. Means with 68% limits, 30% burn-in.
 
-> **Status.** Stage A posteriors are **booked** for old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB (do not mix anchors). Nested sampling is **launched**; LCDM UltraNest one-legs are finished; dyad unfinished; mid-run logZ is **not bookable**. The α_c instrument (`cmp_prtoe_zon_disp_retune`) **stopped** (R−1=0.036, `converged: true`); GetDist **done**; `log10_zon` **inconclusive** (7.57±0.51, all three lineup rungs inside 68%). The conversion instrument (`cmp_prtoe_conv_desi_retune`) **stopped** (R−1=0.0447, `converged: true`); GetDist **done**; `dcdf_conv_g` **inconclusive** (0.080±0.072). Authority: `docs/working_logs/_runs/zon_disp_retune_grade_20260821/REPORT.md` · `docs/working_logs/_runs/conv_desi_retune_grade_20260824/REPORT.md`. Bookable cosmology tables start at the DESI-DR2 production twins below.
+> **Status.** Stage A posteriors are **booked** for old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB (do not mix anchors). On SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler. No nested ΔlnZ. The α_c instrument (`cmp_prtoe_zon_disp_retune`) **stopped** (R−1=0.036, `converged: true`); GetDist **done**; `log10_zon` **inconclusive** (7.57±0.51, all three lineup rungs inside 68%). The conversion instrument (`cmp_prtoe_conv_desi_retune`) **stopped** (R−1=0.0447, `converged: true`); GetDist **done**; `dcdf_conv_g` **inconclusive** (0.080±0.072). Authority: `docs/working_logs/_runs/zon_disp_retune_grade_20260821/REPORT.md` · `docs/working_logs/_runs/conv_desi_retune_grade_20260824/REPORT.md`. Bookable cosmology tables start at the DESI-DR2 production twins below.
 
 ---
 
@@ -163,7 +163,7 @@ Triangle: `docs/plots/cmp_lcdm_mnu_bbnfix_desidr2_triangle.png`
 | Δ(min −logpost) proxy | **-3.9476** (favors dyad if negative) | |
 | ΔlnZ_Laplace (interim) | **1.305** — **not nested** | |
 
-**Nested ΔlnZ (currency 2026-09-02, from `PRTOE_honest_status.md`):** No twin ΔlnZ is booked. LCDM UltraNest one-legs are **finished**: SH0ES −1413.4857 ± 0.5842, TRGB −1374.3615 ± 0.3982, noH0 −1374.4346 ± 0.3765 (MWW insertion-order not converged on noH0). Dyad UltraNest still live on all three anchors. PolyChord SH0ES both legs live; TRGB PC still live. Mid-run nested logZ **forbidden**. Within-anchor only (never mix SH0ES / TRGB / noH0 Z). Do not average UltraNest and PolyChord.
+**Nested ΔlnZ:** On SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler. No nested ΔlnZ. Do not quote mid-run logZ. Do not book a nested sampler from a SH0ES comparison that is not finished.
 ETA stamps: `docs/working_logs/_runs/nested_pc_eta_20260815/`. Booking template (empty):
 `docs/working_logs/_runs/nested_booking_template_20260813/`. Fleet:
 `docs/working_logs/_runs/hygiene_batch_20260813/FLEET_HEALTH.md`. Runbook:
