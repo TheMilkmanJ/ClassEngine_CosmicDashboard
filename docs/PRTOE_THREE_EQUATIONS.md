@@ -44,11 +44,7 @@ $$m_f(z) = m_f^0\left[1 + \varepsilon\, f(T/T_c)\right], \qquad T_c \approx 177\
 
 - f is a **ramp**: ≈1 early, →0 after the transition (shape computed, not chosen; nothing here is a pure step).
 - ε ≈ 1.24% is the whole modification to known physics: heavier electron at recombination → earlier decoupling → smaller sound horizon → CMB re-fit at H₀ ≈ 69.9 instead of 68.2 (Hubble-tension path, thread 11).
-- Implemented in CLASS against full Planck likelihoods. The **current booked old-BAO pair** is
-  SH0ES-conditional and still only Laplace-marginal: volume-aware sample-covariance
-  **ΔlnZ ≈ +0.21** with soft modes, while the older **ΔlnZ ≈ +2.6** line is a historical
-  pre-bbnfix Laplace estimate. The practical nested referee path is now the **gold DESI-DR2
-  four-leg** program; it is **not launched**, so there is still no nested verdict.
+- Implemented in CLASS against full Planck likelihoods. Stage A MCMC is booked on old-BAO SH0ES, DESI-DR2 SH0ES, and DESI-DR2 TRGB. Laplace-from-MCMC remains diagnostic only (old-BAO ΔlnZ ≈ +0.21; DESI-DR2 SH0ES ΔlnZ ≈ +1.31). Nested sampling is **launched** (UltraNest + PolyChord). LCDM UltraNest one-legs are finished; dyad legs are not. There is still **no nested verdict**. Do not quote mid-run logZ. The α_c instrument (`zon_disp` retune) is **STOPPED**; GetDist **INCONCLUSIVE** (`log10_zon = 7.571 ± 0.511`). It is not “collapsed / seed ready.”
 - The same ε (one amplitude, window-specific activation: OFF at BBN freeze-out, ON below T_c; see the ε-epoch table in the fingerprint file) is owed everywhere at its epoch weights: BBN, radio-band ratios, de-biased Σm_ν, Koide invariance, underground nulls — the fingerprint lattice (thread 13). One lever, many windows, no exits.
 
 ## Equation 3 — Decomposition
@@ -75,28 +71,27 @@ Gap between fit and derivation ≈1.8% of the value; the α_c instrument (once c
 
 - **f̄ = 2/π = 0.63662** — derived: winding time-average ⟨|cos|⟩ from many-turn equidistribution; coupling form data-selected (P-2026-041). The standing winding ensemble, 0.63137 ± 0.00328, sits **1.6σ** from it (−0.8%, the shortfall read as the expansion’s next term c_w·ε/2) — consistent, not a clean confirmation; and it is not the source of f̄. **Derived — not a parameter, and not a simulation output.**
 
-- **α_c = 3α** — pre-registered bet (P-2026-040), on the record before the α_c chain converges; ~2.3% above where current data point. Falsifiable; not retrofit. The instrument is **not currently running** (zon_disp collapsed; seed ready).
+- **α_c = 3α** — pre-registered bet (P-2026-040). Falsifiable; not retrofit. The α_c instrument (`zon_disp` retune) is **STOPPED** (R−1=0.036, `converged: true`); GetDist **INCONCLUSIVE** (`log10_zon = 7.571 ± 0.511`). Not α_c = 3α.
 
-If the decomposition's referees sign (its factors are currently: one conditional derivation, one open closed-form, one registered bet whose instrument is offline), the fixed-ε evidence run is a **zero-extra-parameter** rival to ΛCDM (no Occam penalty). Until then the claim is conditional.
+If the decomposition's referees sign (its factors are currently: one conditional derivation, one open closed-form, one registered bet whose instrument is **STOPPED** and **INCONCLUSIVE**), the fixed-ε evidence run is a **zero-extra-parameter** rival to ΛCDM (no Occam penalty). Until then the claim is conditional.
 
 ---
 
 ## Stated stack (under test)
 
 The three equations close into a cosmology whose every number is **stated before the
-data speaks** — the object the evidence comparison (Laplace-from-MCMC; the separate gold DESI-DR2
-nested program is designed but not launched, so it does not yet grade this harder lane) actually grades:
+data speaks** — the object the evidence comparison (Laplace-from-MCMC; nested sampling is launched but there is still **no nested verdict**) actually grades:
 
 | quantity | stated value | provenance | grade |
 |---|---|---|---|
 | ε | 1.2403 ± 0.0079% | the concordance joint of fit and stack | conditional (three referees) |
 | A_s | **2.088×10⁻⁹ frozen**; the closed form (α_c/4πk)³ = **2.081×10⁻⁹** — it lands **−0.34%** | the shot-noise closed form; k = ln(1+π/2α_c)/π | candidate — deliberately exposed; the corpus's boldest standing claim |
 | n_s | 0.9677 = 1 − 2/ln(T₀/k*) k-local, predicted running α_s = −5.2×10⁻⁴ (the executed run value 0.9641 is the established k-independent form, now consistency-check grade) | the modulation map: envelope × shot on the verified k_UV = T₀ anchor; the 2 = amplitude-squared | mechanism candidate (exhibited) |
-| z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass resting on that clock alone — **the "confirmed independently" wording was withdrawn 2026-07-28** (circularity sweep, check 34: ξ ≡ ħ/(m c_s) is *defined* from m so it confirms nothing; the Schive comparison is unresolved; the superradiance band is an exposure) — and the superradiance window, which the mass **clears** (M87\*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
+| z_on | **4.03×10⁷** (log₁₀ 7.605) | the H = m identity on m = 2.24×10⁻²⁰ eV, the mass resting on that clock alone — **the "confirmed independently" wording was withdrawn 2026-07-28** (circularity sweep, check 34: ξ ≡ ℏ/(m c_s) is *defined* from m so it confirms nothing; the Schive comparison is unresolved; the superradiance band is an exposure) — and the superradiance window, which the mass **clears** (M87*'s (2.9–4.6)×10⁻²¹ exclusion sits below it), though the same physics carries the model's most live falsifier at P-2026-034's populated band, where the λ-quench shield fails re-derivation by 84 decades | derived identity |
 | *(the evidence run's setting)* | 3.5619×10⁷ | a profiled freeze, 0.053 dex below the identity — it implies m = 1.75×10⁻²⁰, which misses all three mass checks by ≈28% | **inconsistent with the model's own mass; the run tests this point, not the identity** |
 | w | −1, exactly, no thaw | ground state (protected zero; P-2026-018) | derived |
 | Σm_ν | ≈61.35 meV, normal ordering | the m₁ = ρ_Λ¼ tie plus measured splittings; **the ordering is data-selected, not fixed by P-2026-012** (ANN-2026-025) | recorded, but **not a discriminator** — it sits ~2.6 meV above the m₁ = 0 floor against ≈20 meV planned resolution. The testable content is m_ββ |
-| T_c | **177.10 keV** (τ = ½ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
+| T_c | **177.10 keV** (τ = ¼ln2 = 0.34657) | the Koide kernel's modulus through Parseval — no cosmological input; 193 keV is the perturbative cross-check, 179 keV the value the BBN pipeline codes | candidate — referee is a lattice T_c/√σ for SU(2), N_f = 3 |
 | H₀ | 69.9 CMB re-fit (output, not input); 69.70 joint best-fit; 69.82 evidence run | falls out of the re-fit | **provisional** — measured on chains predating the standing `YHe` treatment; a re-measurement is queued and the value may move |
 
 ΛCDM meets the same data with six free parameters; this stack fits with **zero continuous
@@ -107,9 +102,7 @@ commitments** instead: which census counting (9/10), which pairing channel, whic
 exactly 1 (C, κ_m, b), where each convention parks its factor of 2. Fewer dials than ΛCDM,
 strictly more discrete choices — that trade, stated whole, is the claim. Whatever the sky
 refuses, the model has nowhere to retreat; that totality, not any single row, is what is
-under adjudication — carried today by the booked old-BAO Laplace receipt and the open DESI-DR2
-machine lane; the laptop nested attempt ended 2026-07-20, and the current nested design path is a
-gold DESI-DR2 four-leg program that is not launched yet.
+under adjudication — carried today by booked Stage A Laplace receipts (old-BAO SH0ES, DESI-DR2 SH0ES, DESI-DR2 TRGB; do not mix). Nested sampling is launched (LCDM UltraNest one-legs finished; dyad unfinished); nested ΔlnZ is **not** booked. The laptop nested attempt ended 2026-07-20.
 
 ---
 
@@ -122,8 +115,7 @@ root: the no-bare mechanism’s unconditionality (M3), named as an assumption. D
 (grades 3α and the c-roster), f̄ ensemble, DESI DR3, and the zero-parameter evidence run with ε,
 A_s, n_s stated in advance. **z_on exception:** the evidence config freezes 0.053 dex off the
 model’s onset identity, so it grades a nearby point. **Evidence number is still Laplace from MCMC**
-on the booked old-BAO pair; the current live machine lane is DESI-DR2, and the current nested path
-is the gold DESI-DR2 four-leg design, not launched yet.
+on booked Stage A stacks (old-BAO SH0ES, DESI-DR2 SH0ES, DESI-DR2 TRGB; do not mix). Nested sampling is **launched**; LCDM UltraNest one-legs are finished; dyad legs are not. Nested ΔlnZ is **not** booked. OPEN-MACHINE is nested twins only, not Stage A.
 
 ## Sources
 
@@ -136,11 +128,11 @@ Full list: [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). This file uses: [Gross1961],[Pita
 | # | Claim | Grade | Evidence | Residual / blocker |
 |---|---|---|---|---|
 | 1 | ρ_Λ¼ = (9/2)α⁴ τ m_e existence claim | **complete-conditional** / existence | banner; CC file | Lattice τ; radiative band |
-| 2 | τ = ½ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
+| 2 | τ = ¼ln2 from Koide kernel | **derived-conditional** | Parseval + Q=2/3 | P-048 crowns |
 | 3 | Eq1 dCDF substrate | **derived** (structural) + **machine-backed** (CLASS) | Equation 1; [PRTOE_dcdf_superfluid.md](PRTOE_dcdf_superfluid.md); CLASS `use_dcdf` | Structural dCDF seating derived; residual magnitude / route forks in dcdf_superfluid + CC |
-| 4 | Eq2 ε → H₀≈69.9; ΔlnZ≈+2.6 Laplace | **machine-backed** provisional | Equation 2 | Nested offline |
-| 5 | Eq3 ε stack c·f̄·α_c | **complete-conditional** | Equation 3 | c assumed; α_c bet offline |
-| 6 | Evidence finality / chain convergence | **OPEN-BLOCKED** | status | **OPEN-MACHINE:** nested + R−1 |
+| 4 | Eq2 ε → H₀≈69.9; Laplace-from-MCMC only | **machine-backed** provisional | Equation 2 | Nested **launched, no twin ΔlnZ** |
+| 5 | Eq3 ε stack c·f̄·α_c | **complete-conditional** | Equation 3 | c assumed; α_c **STOPPED, INCONCLUSIVE** |
+| 6 | Evidence finality / nested twins | **OPEN-BLOCKED** | status | **OPEN-NESTED:** twins only (Stage A booked; no nested ΔlnZ) |
 
 **Non-claims:** not precision DE; not nested-confirmed evidence.
 
