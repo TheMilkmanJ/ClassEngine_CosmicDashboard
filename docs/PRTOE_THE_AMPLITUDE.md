@@ -48,7 +48,7 @@ Rule: ε is owed at epoch and environment weights; no free per-window exits. Wav
 
 | window | epoch | what ε does | grade |
 |---|---|---|---|
-| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → historical fixed-ε **H₀ = 69.9**; booked old-BAO dyad **H₀ = 70.052 ± 0.716** — *current evidence still only Laplace-marginal* | production fit plus booked old-BAO receipt; the evidence exposure still stands with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity; the identity-configuration rerun is prepared and queued behind the production chains), and is still priced from Laplace. Nested sampling is **launched**; LCDM UltraNest one-legs are finished; dyad unfinished; no twin ΔlnZ |
+| **CMB / H₀** | z ≈ 1100 | heavier m_e → earlier decoupling → smaller sound horizon → historical fixed-ε **H₀ = 69.9**; booked old-BAO dyad **H₀ = 70.052 ± 0.716** — *current evidence still only Laplace-marginal* | production fit plus booked old-BAO receipt; the evidence exposure still stands with ε, A_s and n_s stated in advance, **z_on excepted** (frozen 0.053 dex off the onset identity; the identity-configuration rerun is prepared and queued behind the production chains), and is still priced from Laplace. On SH0ES, nested sampling got close enough to compare the twins, not far enough to book a full sampler. No nested ΔlnZ. |
 | **windowed BBN** | T ≈ 0.7 MeV–70 keV | off at n/p freeze-out, growing below T_c (the order-parameter birth ramp — the BBN engine's standing treatment) → the abundance pattern. Under the standing configuration's committed genesis window the joint reads p = 0.02–0.08 on the quotable deuterium budget (0.12–0.21 with the full inter-code spread folded), with deuterium eased to −2.5 to −1.4σ from Cooke and helium paying at +1.3 to +2.0σ against Aver (the EMPRESS fork sits apart at +3.8 to +4.4σ); the helium fork, the nuclear-code systematic, and the radio referee are the judges | production (PRyM pipeline) |
 | **21-cm lines** | z ≈ 30–150 | rest frequencies shifted +2.5% (the (1+ε)² identity), with the exact ratio-lock ν_H/ν_D; the screening edge's *shape* reads the gate | registered (P-2026-022/027) |
 | **the ε-dipole** | today, horizon scale | δm_e/m_e ≈ 4×10⁻⁷, axis-correlated (sized by the Jeans rate √(3/2)) | registered (P-2026-024); consistent null today |
@@ -103,7 +103,7 @@ convergence.
 
 ## 4. Referees and killers
 
-**Referees:** α_c chain (zon_disp retune **STOPPED**; GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511`; not α_c = 3α); fixed-ε evidence run (Laplace; nested launched, no twin ΔlnZ); DESI forest; lunar-farside / cosmic-dawn 21 cm; radio D/H (P-2026-027).
+**Referees:** α_c chain (zon_disp retune **STOPPED**; GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511`; not α_c = 3α); fixed-ε evidence run (Laplace; SH0ES nested: close enough to compare, not booked); DESI forest; lunar-farside / cosmic-dawn 21 cm; radio D/H (P-2026-027).
 
 **Killers on file:** a clean dark-ages detection at the *standard* rest frequency; the forest clean at the curve's own predicted offset; the α_c instrument landing off 3α (the derived stack dies; the fit value stands independently); the ratio-lock broken anywhere; the host mass step resolving fully into dust chemistry with no residual density trend; gate energy bookkeeping failures (see risk page).
 
@@ -138,7 +138,7 @@ CLASS: `dcdf_dyad_link` derives `varying_me = 1 + c·f_amp·Ψ₀/M_red` (defaul
 | 2 | f̄ = 2/π | **strengthened candidate** (not absolute closure) | winding ⟨\|cos\|⟩; sim check | residual openness — see DERIVATION_HUNT |
 | 3 | c = 9/10 counting assumption | **OPEN** / assumption | §1 | 8/9, 12/13 not excluded at width |
 | 4 | α_c = 3α registered bet | **OPEN-BLOCKED** | P-2026-040 | zon_disp **STOPPED** (R−1=0.036, `converged: true`); GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511`. Not α_c = 3α |
-| 5 | H₀=69.9 / windows table | **machine-backed** provisional | §2 | Nested **launched**; LCDM UN one-legs finished; dyad unfinished; no twin ΔlnZ; BBN adverse |
+| 5 | H₀=69.9 / windows table | **machine-backed** provisional | §2 | SH0ES nested: close enough to compare, not booked; BBN adverse |
 | 6 | A_s closed form (α_c/4πk)³ | **derived-conditional** | §3 gate math | Ontology/host riders |
 | 7 | SN candle sign opposite to tension | **machine-backed** | 162 templates | H₀-lever branch closed |
 | 8 | What page does not claim (§5) | **honest fence** | §5 | — |
