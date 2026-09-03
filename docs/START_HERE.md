@@ -61,7 +61,7 @@ Bounce mag / Israel: permanent non-claim / terminal.
 
 ## Instruments in progress
 
-Nested sampling (all anchors, UltraNest + PolyChord) and the α_c retune are **running**. Do not quote mid-run log-evidence or mid-run R−1 as results.  
+Nested sampling (UltraNest + PolyChord) is live on SH0ES, TRGB, and noH0. LCDM UltraNest one-legs are **finished**; dyad legs are not. No twin ΔlnZ is booked. Do not quote mid-run log-evidence. The α_c retune (`zon_disp`) is **STOPPED**; GetDist **INCONCLUSIVE** (`log10_zon = 7.571 ± 0.511`). The conversion retune is **STOPPED**; `dcdf_conv_g = 0.080 ± 0.072` **INCONCLUSIVE**.  
 Ops notes: `docs/working_logs/_runs/nested_pc_eta_20260815/` · `docs/working_logs/_runs/zon_disp_retune_20260814/`
 
 ## Optional research (2026-08-14)
