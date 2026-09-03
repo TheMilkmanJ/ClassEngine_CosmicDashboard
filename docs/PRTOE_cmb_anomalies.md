@@ -84,7 +84,7 @@ The family is silent here, and the silence is constitutional. The machinery that
 | 3 | Off-diagonal covariance pattern S/N 1.4 is the live path | **machine-backed** arithmetic | §torus grade | **OPEN-BLOCKED:** BipoSH data application still owed; see `working_logs/_runs/blocked_lane_biposh_axis_20260805/REPORT.md` |
 | 4 | HPA as fifth family member | **adverse-leaning** candidate | Tier-0 axes ~70–80° from cluster | BipoSH decides mapping; not settled kill |
 | 5 | Cold spot not a family member (topology + scale + Gaussianity) | **derived** (exclusion) | cold-spot section | Silence is constitutional |
-| 6 | Free cross-kill: α_c MCMC n = comb tooth count n | **OPEN-BLOCKED** | Tier free cross-kill | **OPEN-MACHINE:** zon_disp / α_c chain unconverged |
+| 6 | Free cross-kill: α_c MCMC n = comb tooth count n | **OPEN-BLOCKED** | Tier free cross-kill | zon_disp **STOPPED**; GetDist **INCONCLUSIVE** `log10_zon = 7.571 ± 0.511`. Not α_c = 3α; n from this clock is not a pair-call hit |
 
 **Non-claims:** not confirmed anomaly wins; cold spot not claimed; B2 tilt route dead elsewhere.
 
