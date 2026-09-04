@@ -89,23 +89,29 @@ PY
 driver)
   cd "$REPO_DIR"
   if [ ! -f "$DRIVER" ]; then
-    echo "BLOCKER: $DRIVER is missing. It was never committed to git; recover it from"
-    echo "  i-04ead482af737e7bf:/home/ubuntu/prtoe_class/scripts/ultranest_cobaya.py"
-    echo "  or /home/themilkmanj/prtoe_class/scripts/ultranest_cobaya.py (see RUNBOOK §2)."
+    echo "BLOCKER: $DRIVER is missing."
     exit 2
   fi
   got="$(sha256sum "$DRIVER" | awk '{print $1}')"
   if [ "$got" = "$DRIVER_FREEZE_SHA" ]; then
     echo "DRIVER OK: sha256 matches the 2026-08-13 repro freeze."
-  else
-    echo "DRIVER MISMATCH vs freeze sha256:"
+  elif grep -q 'receipts-reconstructed' "$DRIVER"; then
+    echo "DRIVER RECONSTRUCTED (Google path): freeze bytes unavailable (no AWS, not in git/Drive)."
     echo "  freeze: $DRIVER_FREEZE_SHA"
     echo "  got:    $got"
-    echo "Only proceed if this exact file is verified to be what the finished LCDM twin ran"
-    echo "(compare against the copy on the AWS boxes), else the twins are not comparable."
+    echo "  Engine settings are pinned to the finished LCDM twin receipts. Hash will not match."
+    python3 "$DRIVER" --self-test
+  else
+    echo "DRIVER UNKNOWN vs freeze sha256:"
+    echo "  freeze: $DRIVER_FREEZE_SHA"
+    echo "  got:    $got"
+    echo "Refuse to launch an unlabeled driver. Use the receipts-reconstructed file or the freeze copy."
+    exit 2
   fi
-  source "$VENV/bin/activate"
-  python "$DRIVER" --help || true
+  if [ -f "$VENV/bin/activate" ]; then
+    source "$VENV/bin/activate"
+  fi
+  python3 "$DRIVER" --help || true
   ;;
 
 time)
